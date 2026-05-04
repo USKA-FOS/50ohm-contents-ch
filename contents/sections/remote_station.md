@@ -1,6 +1,6 @@
 Eine Station für Remote-Betrieb besteht aus mehreren voneinander logisch trennbaren Funktionsblöcken. Hierbei können bei modernen Geräten auch teile dieser Funktionsblöcke in einem Gerät integriert sein (z.B. Transceiver mit Netzwerkanschluss und Remote-Interface).
 
-Eine Anodnung für Remote-Betrieb kann mit folgenden Funktionsblöcken logisch dargestellt werden.
+Eine Anordnung für Remote-Betrieb kann mit folgenden Funktionsblöcken logisch dargestellt werden.
 
 ---
 

@@ -33,7 +33,7 @@ Beispiel:
 Um eine Verstärkung von $\qty{13}{\dB}$ in den Verstärkungsfaktor umzurechnen, kann man sich merken, dass $\qty{3}{\dB}$ immer einer Leistungsverdoppelung entsprechen und $\qty{10}{\dB}$ einer Leistungsverzehnfachung. Man multipliziert in diesem Fall die Verstärkungen $2$ und $10$ miteinander und erhält für $\qty{13}{\dB}$ den Verstärkungsfaktor $20$.
 
 <tip>
-Man kann sich bei Rechnung mit $\unit{\dB}$-Werten merken, dass eine Addition von einzelnen (bekannten) $\unit{\dB}$-Werten immer einer Mulplikation der entsprechenden Verstärkungsfaktoren entspricht.
+Man kann sich bei Rechnung mit $\unit{\dB}$-Werten merken, dass eine Addition von einzelnen (bekannten) $\unit{\dB}$-Werten immer einer Multiplikation der entsprechenden Verstärkungsfaktoren entspricht.
 
 Beispiel:
   

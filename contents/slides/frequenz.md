@@ -13,11 +13,11 @@
 * $\qty{1}{\hertz}\rightarrow$ 1 Schwingung pro Sekunde
 * Benannt nach dem deutschen Physiker Heinrich Rudolf Hertz
 * Erzeugte im Jahr 1886 als erster Mensch elektromagnetische Wellen und konnte sie nachweisen
-  
+
 <fragment>
 $$\qty{1}{\hertz} = \frac{1}{\unit{s}}$$
 </fragment>
-  
+
 ---
 
 [question:NA206]
@@ -30,7 +30,7 @@ $$\qty{1}{\hertz} = \frac{1}{\unit{s}}$$
 * Im Funk wird mit viel höheren Schwingungen gearbeitet
 * z.B. $\qty{144000000}{\hertz}$
 * Abkürzung: $\qty{144}{\mega\hertz}$ (Megahertz)
-* Einheitenvorzeichen "$\unit{\mega}$" vor "$\unit{\hertz}$" gesetzt
+* Einheitenvorzeichen "$\unit{\mega\,}$" vor "$\unit{\hertz}$" gesetzt
 * Der Wert wird mit einer Million multipliziert
 
 ---
@@ -43,7 +43,7 @@ $$\qty{1}{\hertz} = \frac{1}{\unit{s}}$$
 
 ---
 
-[question:NA212] 
+[question:NA212]
 
 ---
 
@@ -60,7 +60,7 @@ In der Klasse E und A kommen weitere Frequenzbereiche hinzu
 
 ---
 
-[question:VD723] 
+[question:VD723]
 
 ---
 
@@ -85,9 +85,9 @@ Lateinisch "oscillare": schaukeln
 [photo:150:frequenz_frequenzzaehler:Frequenzzähler, der $\qty{29,6}{\mega\hertz}$ misst]
 </left>
 <right>
-* Die genaue Sendefrequenz muss bekannt sein
+* Beim Senden soll eine genaue Frequenz verwendet werden
 * Die Messung erfolgt mit einem Frequenzzähler
-* Zum Abgleich der Anzeige am Funkgerät
+* Beim Bau zum Abgleich der Anzeige am Funkgerät
 </right>
 
 ---

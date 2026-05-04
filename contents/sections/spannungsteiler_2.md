@@ -17,7 +17,7 @@ Der Strom $I_1$ ist die Summe von $I_2$ und $I_L$ und damit der größte Strom.
 Angenommen: Alle Widerstände haben einen Wert von $\qty{1}{\kilo\ohm}$ und die Gesamtspannung $U_B$ beträgt $\qty{12}{\volt}$.
   
  *unbelasteter Fall:*
- Ohne Rechnung ist sofort zu sehen: An jedem Widerstand können $\qty{6}{\volt}$ gemesen werden.
+ Ohne Rechnung ist sofort zu sehen: An jedem Widerstand können $\qty{6}{\volt}$ gemessen werden.
  Der Gesamtwiderstand $R_{\mathrm{ges}}$ beträgt: $\qty{2}{\kilo\ohm}$
  $\dfrac{U_B}{U_{2}} = \frac{R_{\mathrm{ges}}}{R_{2}}$
  Der Gesamtstrom $I_1$ beträgt:  $I_1 = \frac{U_B}{R_{\mathrm{ges}}}$

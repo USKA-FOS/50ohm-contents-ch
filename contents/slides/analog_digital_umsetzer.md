@@ -7,7 +7,7 @@
 
 ### Aliasing und Antialiasing
 
-* Abtasttheorem: Für fehlerfreie Rekonstruktion muss die Abtastrate $\gt 2 \cdot f_{max}$ betragen  
+* Abtasttheorem: Für fehlerfreie Rekonstruktion muss die Abtastrate $\gt 2 \cdot f_{\mathrm{max}}$ betragen
 * Signale oberhalb der maximal verarbeitbaren Frequenz können als fehlerhafte Aliases erscheinen  
 * Antialiasing-Filter (Tiefpass- oder Bandpassfilter) unterdrücken unerwünschte hohe Frequenzen  
 * Schützen den A/D-Umsetzer vor fehlerhaften Aliasing-Effekten

@@ -9,11 +9,15 @@
 </right>
 
 ---
+
+<left>
+Weitere bekannte Schwingungsarten
 [picture:505:sinusschwingung_rechteck:Rechteckförmige Schwingung]
----
+</left>
+<right>
 [picture:504:sinusschwingung_dreieck:Dreieckförmige Schwingung]
----
 [picture:506:sinusschwingung_saegezahn:Sägezahnförmige Schwingung]
+</right>
+
 ---
 [question:NB401]
-

@@ -25,7 +25,7 @@ Kurze Wiederholung:
 * Bei $\qty{5}{\volt}$ verringert sich der Strom auf $\qty{0,5}{\milli\ampere}$
 
 <fragment>
-$\dfrac{U}{I} = \dfrac{\qty{10}{\volt}}{\qty{0,001}{\ampere}} = \dfrac{\qty{20}{\volt}}{\qty{0,002}{\ampere}} = \dfrac{\qty{5}{\volt}}{\qty{0,0005}{\ampere}} = \qty{10000}{\frac{\volt}{\ampere}}$
+$\dfrac{U}{I} = \dfrac{\qty{10}{\volt}}{\qty{0,001}{\ampere}} = \dfrac{\qty{20}{\volt}}{\qty{0,002}{\ampere}} = \dfrac{\qty{5}{\volt}}{\qty{0,0005}{\ampere}} = \qty{10000}{\volt\per\ampere}$
 </fragment>
 <fragment>
 Proportionalität: $I$ ist proportional zu $U$ mit *Proportionalitätsfaktor* 10000
@@ -39,7 +39,7 @@ Der *Proportionalitätsfaktor* ist das zahlenmäßige Verhältnis zweier Größe
 ## Widerstand
 
 * Der Proportionalitätsfaktor von 10000 aus dem Beispiel ist der Widerstand $R$
-* Einheit: $\qty{1}{\ohm} = \qty{1}{\frac{\volt}{\ampere}}$
+* Einheit: $\qty{1}{\ohm} = \qty{1}{\volt\per\ampere}$
 * Der Widerstand aus dem Beispiel beträgt $\qty{10000}{\ohm}$ oder $\qty{10}{\kilo\ohm}$
 
 ---

@@ -12,7 +12,7 @@
 
 ---
 
-* Bei der Frequenzumstastung (Frequency Shift Keying, FSK) wechselt der Sender zwischen bestimmten Frequenzen.
+* Bei der Frequenzumtastung (Frequency Shift Keying, FSK) wechselt der Sender zwischen bestimmten Frequenzen.
 
 <fragment>
 [picture:703:fsk:Frequenzumtastung (Frequency-shift Keying)]

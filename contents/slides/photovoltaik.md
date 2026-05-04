@@ -32,7 +32,7 @@ Analog zur Reihen- und Parallelschaltung von Akkus bzw. Spannungsquellen
 ---
 [question:AD301]
 ---
-#### Lösungweg
+#### Lösungsweg
 * gegeben: $U_0 = \qty{0,6}{\volt}$
 * gegeben: $I_k = \qty{1}{\ampere}$
 * gegeben: $N_R = 30, N_P = 4$

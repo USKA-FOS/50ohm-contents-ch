@@ -44,7 +44,7 @@ Dabei ist zu beachten, dass sich die magnetischen Feldlinien bei einer Zylinders
 
 [question:EB203]
 
-Für diese Prüfungsfrage berechnen zunächst den mittleren Umfang eines Rings mit mittlerem Durchmesser $d$. In der Aufgabe ist $d=\qty{2,6}{\centi\meter}$. Dabei bitte die Einheit beachten -- am Besten, wir gehen auf die Grundeinheit $\unit{\meter}$ zurück.
+Für diese Prüfungsfrage berechnen wir zunächst den mittleren Umfang eines Rings mit mittlerem Durchmesser $d$. In der Aufgabe ist $d=\qty{2,6}{\centi\meter}$. Dabei bitte die Einheit beachten -- am Besten, wir gehen auf die Grundeinheit $\unit{\meter}$ zurück.
 
 Der mittlere Umfang ($l_m$) ergibt sich aus folgender Beziehung:
 

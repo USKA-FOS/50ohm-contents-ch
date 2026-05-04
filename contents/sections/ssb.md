@@ -1,4 +1,4 @@
-Wir haben gelernt, dass bei Amplitudenmodulation zusätzlich zum Träger zwei Seitenbänder vorhanden sind. Diese werden unteres bzw. oberes Seitenband genannt. Wie in Abbildung [ref:n_seitenband_2] zu sehen ist, befindet sich das "untere Seitenband" in der Frequenz unterhalb des Trägers und das "obere Seitenband" oberhalb. Im Englischen wird von "lower side band" (LSB) für das untere und "upper side band" (USB) für das obere Seitenband gesprochen. 
+Wir haben gelernt, dass bei Amplitudenmodulation zusätzlich zum Träger zwei Seitenbänder vorhanden sind. Diese werden unteres bzw. oberes Seitenband genannt. Wie in Abbildung [ref:n_seitenband_2] zu sehen ist, befindet sich das "untere Seitenband" in der Frequenz unterhalb des Trägers und das "obere Seitenband" oberhalb. Im Englischen wird von "lower sideband" (LSB) für das untere und "upper sideband" (USB) für das obere Seitenband gesprochen. 
 
 <margin>
 [picture:482:n_seitenband_2:Amplitudenmodulation, Träger mit unterem (a) und oberem (b) Seitenband]

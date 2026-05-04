@@ -1,14 +1,16 @@
-[photo:102:n_iaru_bandplan_2m:IARU-Bandplan $\qty{2}{\meter}$]
-
-<note>
 * Aufteilung des Bandes in verschiedene Frequenzsegmente
 * Bevorzugte Übertragungsverfahren und Nutzung
-</note>
 
 ---
+
+[photo:102:n_iaru_bandplan_2m:IARU-Bandplan $\qty{2}{\meter}$]
+
+---
+
 ## Anruffrequenz
 
 Um schnell Funkpartner zu finden
+
 * FM-Sprechfunk ("FM calling")
 * Digitale Telefonie ("digital voice calling")
 
@@ -23,6 +25,7 @@ Um schnell Funkpartner zu finden
 ---
 [question:BC207]
 ---
+
 ## Frequenzwechsel
 
 * Anruffrequenzen für Anrufe freihalten

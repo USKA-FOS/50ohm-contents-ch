@@ -9,8 +9,8 @@
 ---
 
 <left>
-* $R_5$ und $R_7$ liegen in Reihe und dazu ist $R_8$ parallel geschaltet. Wir berechen diese und nennen den Wert dann $R_{ 5,7,8 }$
-* $R_3$ und $R_6$ liegen in Reihe und dazu ist $R_2$ parallel geschaltet. Wir berechen diese und nennen den Wert dann $R_{ 2,3,6 }$
+* $R_5$ und $R_7$ liegen in Reihe und dazu ist $R_8$ parallel geschaltet. Wir berechnen diese und nennen den Wert dann $R_{ 5,7,8 }$
+* $R_3$ und $R_6$ liegen in Reihe und dazu ist $R_2$ parallel geschaltet. Wir berechnen diese und nennen den Wert dann $R_{ 2,3,6 }$
 </left>
 <right>
 [picture:815:e_widerstandsnetzwerk_1:Widerstandsnetzwerk]

@@ -1,4 +1,4 @@
-Das Nahfeld teilt sich in das reaktive und das strahlende Nahfeld auf. In den meisten Fällen kann das strahlende Nahfeld wie das Fernfeid behandelt werden.
+Das Nahfeld teilt sich in das reaktive und das strahlende Nahfeld auf. In den meisten Fällen kann das strahlende Nahfeld wie das Fernfeld behandelt werden.
 
 Im (reaktiven) Nahfeld einer Antenne weisen die elektrische Feldstärke und die magnetische Feldstärke keine konstante Phasenbeziehung zueinander auf. 
 
@@ -12,7 +12,7 @@ $d > \dfrac {\lambda} {2 \cdot \pi}$
 
 Bei einer Wellenlänge von z.B. $\qty{20}{\meter}$ ist der Übergang also in etwa in einem Abstand von $d = \dfrac {\qty{20}{\meter}} {2 \cdot \pi} \approx \qty{3,18}{\meter}$.
 
-Für die Berechnung von den Personenschutzabständen ist im Fernfeld eine Näherungformel möglich. Dies erspart einem ggf. aufwendige Messungen oder Simulation.
+Für die Berechnung von den Personenschutzabständen ist im Fernfeld eine Näherungsformel möglich. Dies erspart einem ggf. aufwendige Messungen oder Simulation.
 
 Die Formel $d = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$ gilt für die meisten Antennenformen, wenn die Bedingung $d > \dfrac {\lambda} {2 \cdot \pi}$ erfüllt ist.
 

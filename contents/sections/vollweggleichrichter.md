@@ -15,7 +15,7 @@ Bei der nächsten Halbwelle ist die Diode  $D_1$ gesperrt und die Diode  $D_2$ l
 </margin>
 
 <tip>
-Die beiden Katoden der Dioden liegen zusammen am Pluspol der Ausgangsspannung.
+Die beiden Kathoden der Dioden liegen zusammen am Pluspol der Ausgangsspannung.
 </tip>
 
 [question:AD307]

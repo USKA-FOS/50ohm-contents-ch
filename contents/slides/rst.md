@@ -31,16 +31,16 @@ Im Rapport beschreibt die empfangende Station die Qualität der Verbindung
 * Alles wird in den nächsten Folien genauer erklärt
 * R: Subjektiv
 * S: Ablesen vom S-Meter
-* T: Nur bei Morsetelgrafie und digitalen Übertragungen
+* T: Nur bei Morsetelegrafie und digitalen Übertragungen
 </note>
-  
+
 --- style="font-size: 0.8em;"
 
 #### Readability
 
 Subjektive Bewertung des Lesbarkeit (Verständlichkeit)
 
-| l: R | l: Beurteilung | 
+| l: R | l: Beurteilung |
 | 1 | nicht lesbar |
 | 2 | zeitweise lesbar |
 | 3| mit Schwierigkeiten lesbar |
@@ -61,6 +61,14 @@ Vom Funkgerät ablesen
 * mehr als +x dB
 * z.B. 9+20dB
 </note>
+
+---
+
+#### Tone
+
+* Wird nur in der Morsetelegraphie und bei digitalen Übertragungsverfahren verwendet
+* Subjektive Beurteilung des Tons
+* Wird im Sprechfunk weggelassen
 
 --- style="font-size: 0.8em;"
 
@@ -85,7 +93,9 @@ im Sprechfunk
 ---
 [question:NF301]
 ---
-Bei den folgenden Prüfungsfragen kommt es darauf an das S-Meter richtig abzulesen. In allen Prüfungsfragen wird von einem einwandfreien Signal in Telefonie (Sprechfunk) ausgegangen. Der R-Wert ist daher jeweils 5 und der T-Wert entfällt.
+
+Bei den folgenden Prüfungsfragen kommt es darauf an, das S-Meter richtig abzulesen. In allen Prüfungsfragen wird von einem einwandfreien Signal in Telefonie (Sprechfunk) ausgegangen. Der R-Wert ist daher jeweils 5 und der T-Wert entfällt.
+
 ---
 [question:BE204]
 ---

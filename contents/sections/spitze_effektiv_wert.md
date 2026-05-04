@@ -41,13 +41,13 @@ Die genaue Herleitung dieser Formel erfolgt mithilfe der Integralrechnung und ge
 
 [question:EB401]
 
-Der Wert für $U_\text{SS}$ ergibt für die Netzspanngung dann das Doppelte des Spitzenwerts: 
+Der Wert für $U_\text{SS}$ ergibt für die Netzspannung dann das Doppelte des Spitzenwerts: 
 
 $ U_\text{SS} = 2 \cdot \qty{230}{\volt} \cdot \sqrt{2} \approx \qty{651}{\volt}$
 
 [question:EB402]
 
-Nach dem gleichen Prinzip funktioniern auch die beiden folgenden Fragen: 
+Nach dem gleichen Prinzip funktionieren auch die beiden folgenden Fragen: 
 
 [question:EB403]
 [question:EB404]

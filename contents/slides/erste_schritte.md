@@ -10,7 +10,7 @@
 <note>
 Wort _Transceiver_ einführen: Kofferwort aus Transmitter (Sender) und Receiver (Empfänger)
 </note>
- 
+
 ---
 
 [question:VD102]
@@ -34,7 +34,7 @@ Auf Sendung gehen (die PTT-Taste drücken)
 * PTT: push to talk
 * noch ein Bulletpoint
 </note>
- 
+
 ---
 
 [question:NF108]
@@ -44,6 +44,7 @@ Auf Sendung gehen (die PTT-Taste drücken)
 ### Mathematische Grundkenntnisse
 
 * Im Amateurfunk werden Grundkenntnisse in Mathematik benötigt
+* Insbesondere Grundrechenarten und Dreisatz
 * Je nach Klasse mehr Wissen notwendig
 * Der Lehrgang unterstützt, kann aber nicht alles notwendige Wissen vermitteln
 
@@ -58,4 +59,3 @@ Auf Sendung gehen (die PTT-Taste drücken)
 ---
 
 [question:NA102]
-

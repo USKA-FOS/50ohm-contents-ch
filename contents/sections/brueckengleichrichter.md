@@ -6,7 +6,7 @@ Durch den geringen Aufwand ist der Brückengleichrichter eine häufig verwendete
 
 ---
 
-In dem nebenstehenden Applet kann man bei dargestellter Polarität der Trafospannung $U_a$ bzw. $U_s$ den Laststrom in seinem Stromverlauf verfolgen und erkennen, dass der dieser stets in gleicher Richtung durch den Lastwiderstand $R$ fließt. Der Spannungsabfall am Lastwiderstand $R_L$ ist eine pulsierende Gleichspannung (DC), die aus positiven sinusföhrmigen Halbwellen besteht. Diese Spannung hat eine Frequenz $f=\qty{100}{\hertz}$.
+In dem nebenstehenden Applet kann man bei dargestellter Polarität der Trafospannung $U_a$ bzw. $U_s$ den Laststrom in seinem Stromverlauf verfolgen und erkennen, dass der dieser stets in gleicher Richtung durch den Lastwiderstand $R$ fließt. Der Spannungsabfall am Lastwiderstand $R_L$ ist eine pulsierende Gleichspannung (DC), die aus positiven sinusförmigen Halbwellen besteht. Diese Spannung hat eine Frequenz $f=\qty{100}{\hertz}$.
 
 <margin>
 [include:applet_gleichrichter_2]
@@ -39,7 +39,7 @@ Wenn man nach dem Brückengleichrichter einen Ladekondensator $C_L$ und ein LC-S
 [picture:66:a_netzteil_Ucs:Gleichrichterschaltung mit Siebung]
 </margin>
 
-Um jetzt die Spannung am Siebkondensator $C_S$ zu bestimmen, sollten wir wissen, dass die Kondensatoren sich auf die Spitzenspannung $\hat{U}$ der Sekundärespannung $U_{\mathrm{sek}}$ des Trafos aufladen.
+Um jetzt die Spannung am Siebkondensator $C_S$ zu bestimmen, sollten wir wissen, dass die Kondensatoren sich auf die Spitzenspannung $\hat{U}$ der Sekundärspannung $U_{\mathrm{sek}}$ des Trafos aufladen.
 
 $\hat{U}=U_{\mathrm{eff}}\cdot\sqrt{2}$
 

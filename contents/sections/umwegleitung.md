@@ -8,7 +8,7 @@ Eine symmetrische Antenne benötigt an beiden Anschlusspunkten eine HF-Spannung 
 
 Eine solche Phasenverschiebung lässt sich mittels einer $\lambda / 2$-Umwegleitung erreichen. So kann man beispielsweise *beide* Anschlusspunkte eines Faltdipols an den Innenleiter anschließen, wobei der eine Anschlusspunkt hinter einer Umwegleitung angeschlossen wird, die eine $\qty{180}{\degree}$-Phasenverschiebung erzeugt.
 
-Der Schirm des Koxialkabels weist dann Erdpotential auf und es entstehen keine Mantelwellen.
+Der Schirm des Koaxialkabels weist dann Erdpotential auf und es entstehen keine Mantelwellen.
 
 Aufpassen muss man jedoch mit den Impedanzen. Obwohl die Umwegeleitung nicht direkt die Impedanz transformiert, so ergibt der Anschluss einer Antenne auf diese Weise dennoch eine Transformation der Impedanz. Die Antenne muss einen vier mal höhere Impedanz als das Koaxialkabel aufweisen, damit Anpassung vorliegt. Ursache hierfür, ist dass jeder Anschlusspunkt der Antenne gegenüber Erde nur den halben Widerstand aufweist, beide Anschlusspunkte jedoch parallel, d.h. beide am Innenleiter, angeschlossen werden.
 

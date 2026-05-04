@@ -19,7 +19,7 @@ Der *Widerstand* ist das Gegenteil der Leitfähigkeit. Ein Material, das gut lei
 | 5 | Wolfram |
 | 6 | Zink |
 | 7 | *Zinn* |
-[table:leiter:Einige leitende Materialien, sortiert von den besonders gut leitenden zu den weniger gut leitenden Materialen]
+[table:leiter:Einige leitende Materialien, sortiert von den besonders gut leitenden zu den weniger gut leitenden Materialien]
 </margin>
 
 Silber leitet beispielsweise elektrischen Strom besser als Kupfer. Zinn ist im Vergleich zu allen anderen genannten Materialien ein schlechter Leiter. Trotzdem wird Zinn in der Regel zum Löten verwendet, weil es im Vergleich zu den anderen Metallen einen sehr niedrigen Schmelzpunkt hat, was die Verarbeitung vereinfacht.

@@ -69,7 +69,7 @@ Materialien lassen sich in drei Gruppen einteilen:
 [table:nichtleiter:Einige nicht-leitende Materialien]
 
 <note>
-* Porzellan wird als Isolator an Hochspannugsleitungen verwendet
+* Porzellan wird als Isolator an Hochspannungsleitungen verwendet
 </note>
 
 ---

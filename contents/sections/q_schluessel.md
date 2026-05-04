@@ -19,7 +19,7 @@ Im Folgenden besprechen wir alle Q-Gruppen, die in der Prüfung vorkommen, geben
 [question:BB204]
 
 * QRT: Stellen Sie die Übermittlung ein (*t*erminate = beenden)! Im Amateurfunkalltag beenden viele Funkamateure ihre Aussendung mit dem Hinweis "ich mache QRT".
-* QRZ?: Damit fragt man, wer einen gerufen hat (Aufforderung an die Gegensation: bitte nenne das Rufzeichen ein *z*weites Mal)
+* QRZ?: Damit fragt man, wer einen gerufen hat (Aufforderung an die Gegenstation: bitte nenne das Rufzeichen ein *z*weites Mal)
 * QSL: bedeutet Empfangsbestätigung bzw. als Frage: Bitte um Empfangsbestätigung (alles ge*l*oggt?)
  
 [question:BB203]

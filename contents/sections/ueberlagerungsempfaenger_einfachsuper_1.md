@@ -16,7 +16,7 @@ Die Idee des Überlagerungsempfängers ist ebenso einfach wie genial. Anstelle a
 [picture:913:ueberlagerungsempfaenger_einfachsuper_filter:Überlagerungsempfänger mit Filtern]
 </margin>
 
-Das Eingangsfilter lässt zunächst nur den gewünschten Frequenzbereich, beispielsweise den Kurzwellenbereich, passieren. Anschließend setzt ein Mischer das Eingangssignal zusammen mit der Frequenz des VFO auf die konstante Zwischenfrequenz um, zum Beispiel auf $\qty{455}{\kilo\hertz}$. Im konkreten Beispiel kann der VFO zwischen $\qty{3,455}{\mega\hertz}$ und $\qty{30,455}{\mega\hertz}$ eingestelt werden, um den gesamten Bereich der Kurzwelle heruntermischen zu können. Der entscheidende Vorteil des Überlagerungsempfängers gegenüber dem Geradeausempfänger liegt genau in dieser konstanten Zwischenfrequenz: Die Filterung des Signals kann optimal auf eine feste Frequenz abgestimmt werden, wodurch eine sehr hohe Selektivität, also Trennschärfe, erreicht wird.
+Das Eingangsfilter lässt zunächst nur den gewünschten Frequenzbereich, beispielsweise den Kurzwellenbereich, passieren. Anschließend setzt ein Mischer das Eingangssignal zusammen mit der Frequenz des VFO auf die konstante Zwischenfrequenz um, zum Beispiel auf $\qty{455}{\kilo\hertz}$. Im konkreten Beispiel kann der VFO zwischen $\qty{3,455}{\mega\hertz}$ und $\qty{30,455}{\mega\hertz}$ eingestellt werden, um den gesamten Bereich der Kurzwelle heruntermischen zu können. Der entscheidende Vorteil des Überlagerungsempfängers gegenüber dem Geradeausempfänger liegt genau in dieser konstanten Zwischenfrequenz: Die Filterung des Signals kann optimal auf eine feste Frequenz abgestimmt werden, wodurch eine sehr hohe Selektivität, also Trennschärfe, erreicht wird.
 
 ---
 

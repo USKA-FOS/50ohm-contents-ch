@@ -31,7 +31,7 @@
 #### Lösungsweg
 
 * von $\qty{25}{\watt}$ auf $\qty{100}{\watt}$ sind $\frac{\qty{100}{\watt}}{\qty{25}{\watt}} = 4$-fache Leistung
-* $\num{4}$-fache Leistung entsprich einer S-Stufe
+* $\num{4}$-fache Leistung entspricht einer S-Stufe
 
 ---
 [question:AF102]

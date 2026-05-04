@@ -24,7 +24,7 @@ Eindringtiefe der Strahlung:
 
 ## Zeitbezug
 
-* In der "26. Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes" wird ein zeitlicher Bezug zur Einhaltung der Feldstärke-Gernzwerte hinzugefügt
+* In der "26. Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes" wird ein zeitlicher Bezug zur Einhaltung der Feldstärke-Grenzwerte hinzugefügt
 * Es muss nach drei Fällen für Grenzwerte unterschieden werden
 
 ---

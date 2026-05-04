@@ -12,8 +12,14 @@
 ---
 ### Phasenverschiebung
 
-* Schaltungen mit Kondensatoren, Spulen und Widerständen
-* *Phasenverschiebung* zwischen anliegender sinusförmiger Wechselspannung und fließendem sinusförmigen Wechselstrom
+<left>
+[picture:208:a_phasenverschiebung:Phasenverschiebung zwischen zwei Sinus-Signalen]
+</left>
+<right>
+* Phasenverschiebung beschreibt den zeitlichen Versatz zwischen zwei periodischen Signalen gleicher Frequenz
+* Sie wird meist in Grad (°) oder Radiant angegeben
+* Eine Phasenverschiebung von Strom und Spannung kann z. B. durch Bauteile wie Kondensatoren oder Spulen entstehen
+</right>
 
 ---
 [question:AB303]

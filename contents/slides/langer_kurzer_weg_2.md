@@ -10,8 +10,23 @@ Eine geradlinige Verbindung zwischen zwei Orten auf einer Kugel verläuft immer 
 
 ---
 
+<left>
 * Der Drehwinkel unterscheidet sich dabei um $\qty{180}{\degree}$
 * Beispiel: von Berlin nach Sydney/Australien ist der kurze Weg bei $\qty{75}{\degree}$, der lange Weg bei $\qty{255}{\degree}$
+</left>
+<right>
+[picture:1000:a_beam_karte:Beamkarte mit Berlin als Standort der Amateurfunkstation]
+</right>
+
+---
+
+<left>
+* Beam-Karten können bei anderen Startpunkten anders aussehen
+* Beispiel: Sicht aus Sydney/Australien
+</left>
+<right>
+[picture:1001:a_beam_karte_sydney:Beamkarte mit Sydney als Standort der Amateurfunkstation]
+</right>
 
 ---
 [question:AH216]

@@ -1,4 +1,4 @@
-Während Spannungsmessgeräte die Spannung messen, messen Strommessgeräte den elektrischen Strom. Die Messung erfolgt in in *Ampere* ($\unit{A}$). Entsprechend ist das Schaltsymbol des Strommessgeräts der Kreis mit einem A, wie in der Abbildung [ref:n_messgeraete_symbol_strommessgerät] gezeigt.
+Während Spannungsmessgeräte die Spannung messen, messen Strommessgeräte den elektrischen Strom. Die Messung erfolgt in *Ampere* ($\unit{A}$). Entsprechend ist das Schaltsymbol des Strommessgeräts der Kreis mit einem A, wie in der Abbildung [ref:n_messgeraete_symbol_strommessgerät] gezeigt.
 
 <margin>
 [picture:624:n_messgeraete_symbol_strommessgerät:Schaltsymbol Strommessgerät]

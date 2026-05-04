@@ -19,7 +19,7 @@ Auch beim gesetzeskonformen Betrieb eines Senders können bei Empfängern in unm
 [question:EJ103]
 [question:EJ112]
 
-Oft werden störende Beeinflussungen in der Nachbarschaft mit dem Betrieb einer Amaterfunkstation in Verbindung gebracht. Für den Nachweis eines evtl. Zusammenhangs durch Aussendungen der Amateurfunkstation ist die Auswertung und ggf. Führung eines Logbuchs über getätigte Aussendungen und Verbindungen sehr hilfreich. Hierdurch kann auch ggf. ausgeschlossen werden, dass vermutete Beeinflussungen in der Nachbarschaft auf die Amateurfunkstelle zurückzuführen sind.
+Oft werden störende Beeinflussungen in der Nachbarschaft mit dem Betrieb einer Amateurfunkstation in Verbindung gebracht. Für den Nachweis eines evtl. Zusammenhangs durch Aussendungen der Amateurfunkstation ist die Auswertung und ggf. Führung eines Logbuchs über getätigte Aussendungen und Verbindungen sehr hilfreich. Hierdurch kann auch ggf. ausgeschlossen werden, dass vermutete Beeinflussungen in der Nachbarschaft auf die Amateurfunkstelle zurückzuführen sind.
 
 [question:EJ122]
 

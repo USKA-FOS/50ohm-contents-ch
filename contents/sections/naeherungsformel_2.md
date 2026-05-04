@@ -59,7 +59,7 @@ Ist der Abstand im Fernfeld (strahlenden Nahfeld)?
 
 [question:AK108]
 
-Hier kann geauso vorgegangen werden, wie bei der vorherigen Frage.
+Hier kann genauso vorgegangen werden, wie bei der vorherigen Frage.
 $\begin{split} P_\text{EIRP} &= P_S \cdot {10^\dfrac{g_d  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{700}{\watt}\cdot {10^\dfrac{\qty{0}{\dBd} −  \qty{0,5}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{700}{\watt}\cdot {10^\dfrac{\qty{1,65}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{700}{\watt}\cdot {10^{0,165}}\\ P_\text{EIRP} &\approx \qty{1023,52}{\watt}\end{split}$
 
 $\begin{split} d & =\dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{1023,52}{\watt}}} {\qty{28}{\volt\per\meter}}\\ d &\approx \qty{6,26}{\meter}\end{split}$

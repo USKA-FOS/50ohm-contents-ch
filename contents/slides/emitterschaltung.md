@@ -72,7 +72,7 @@
 <right>
 * Spannungsverstärkung ca. $100\dots 300$
 * Entfernung des Emitterkondensators $\rightarrow$ Verstärkungfaktor sinkt erheblich
-* Verstärkungsfaktor nur noch durch Verhältins Kollektor- zu Emitterwiderstand definiert
+* Verstärkungsfaktor nur noch durch Verhältnis Kollektor- zu Emitterwiderstand definiert
 </right>
 <note>
 Hohe Spannungsverstärkung

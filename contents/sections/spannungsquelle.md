@@ -10,9 +10,9 @@ Es ist wichtig, auch bei Belastung eine konstante Spannung zu erhalten. Diese Ei
 [question:ED301]
 
 ---
-Die Gleichspannungsquellen (Netzgeräte) werden an das bestehende 230 V Wechselspannungsnetz angeschlossen. Wie bereits am Beispiel des Schutzkontaksteckers in Klasse N kennengelernt, haben wir bei Wechselspannung den Außenleiter L, den Neutralleiter N und den Schutzleiter PE. 
+Die Gleichspannungsquellen (Netzgeräte) werden an das bestehende 230 V Wechselspannungsnetz angeschlossen. Wie bereits am Beispiel des Schutzkontaktsteckers in Klasse N kennengelernt, haben wir bei Wechselspannung den Außenleiter L, den Neutralleiter N und den Schutzleiter PE. 
 
-Bei einer 3-adrigen Leitung mit Schutzleiter z.B. NYM-J $3 \times \qty{1,5}{\milli\meter\squared}$ sind die Aderfarben wie in Abildung [ref:e_NYM_Aderfarben] festgelegt:
+Bei einer 3-adrigen Leitung mit Schutzleiter z.B. NYM-J $3 \times \qty{1,5}{\milli\meter\squared}$ sind die Aderfarben wie in Abbildung [ref:e_NYM_Aderfarben] festgelegt:
 
 * Schutzleiter (PE) = grün/gelb
 * Neutralleiter (N) = blau

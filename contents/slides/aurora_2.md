@@ -12,6 +12,13 @@
 <note>
 Die richtigen Fragen enthalten "Pole" oder "Polarregion" und für uns in Europa ist die Polarregion im Norden.
 </note>
+
+---
+
+Das Ende eines Aurora-CW-QSO zwischen GM4YXI und OK/DF7TR/P:
+
+[include:applet_aurora]
+
 ---
 [question:AH302]
 ---

@@ -10,7 +10,7 @@ Aber jetzt geht es erstmal um einige Fragen zu den Anforderungen, die der Gesetz
 
 ---
 
-Grundsätzlich gilt, dass alle *im Handel erhätlichen, seriengefertigten Funkanlagen* - also auch sämtliche kommerziell gefertigten Amateurfunkgeräte -  die *grundlegenden Anforderungen und Bestimmungen des Funkanlagengesetzes (FuAG)* einhalten müssen. Das bedeutet praktisch, dass kommerzielle Hersteller von Amateurfunkgeräten eine sogenannte  EU-Konformitätserklärung erstellen müssen, bevor sie die Geräte in Verkehr bringen. Im FuAG sind auch die Aufgaben von Importeuren und Händlern von Funkgeräten beschrieben. Wir Funkamateure dürfen vom Markt bereitgestellte Anlagen nur in Betrieb nehmen und nutzen, wenn sie den Anforderungen des FuAG entsprechen. Dazu müssen die Geräte ein CE-Kennzeichen tragen.
+Grundsätzlich gilt, dass alle *im Handel erhältlichen, seriengefertigten Funkanlagen* - also auch sämtliche kommerziell gefertigten Amateurfunkgeräte -  die *grundlegenden Anforderungen und Bestimmungen des Funkanlagengesetzes (FuAG)* einhalten müssen. Das bedeutet praktisch, dass kommerzielle Hersteller von Amateurfunkgeräten eine sogenannte  EU-Konformitätserklärung erstellen müssen, bevor sie die Geräte in Verkehr bringen. Im FuAG sind auch die Aufgaben von Importeuren und Händlern von Funkgeräten beschrieben. Wir Funkamateure dürfen vom Markt bereitgestellte Anlagen nur in Betrieb nehmen und nutzen, wenn sie den Anforderungen des FuAG entsprechen. Dazu müssen die Geräte ein CE-Kennzeichen tragen.
 
 <indepth>
 Mit der *CE-Kennzeichnung* erklärt der Hersteller oder Importeur eines Produkts, dass es den geltenden Anforderungen genügt, die in der Europäischen Union für solche Geräte verlangt werden.

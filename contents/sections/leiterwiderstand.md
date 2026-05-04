@@ -19,7 +19,7 @@ beschreiben. Die Formel zeigt, von welchen Eigenschaften eines Leiters der Wider
 <margin>
 | l: Material | X: $\rho$ $\left[\unit{\ohm\milli\meter\squared\per\meter}\right]$ |
 | Kupfer      | $\num{0,018}$ |
-| Alumminium  | $\num{0,028}$ |
+| Aluminium   | $\num{0,028}$ |
 | Gold        | $0,022$       |
 | Silber      | $0,016$       |
 | Zinn        | $0,11$        |

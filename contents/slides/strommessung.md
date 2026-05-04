@@ -1,5 +1,5 @@
 <left>
-* Strommessgeräte messen den elektischen Strom
+* Strommessgeräte messen den elektrischen Strom
 * Schaltsymbol "A in einem Kreis" 
 </left>
 <right>

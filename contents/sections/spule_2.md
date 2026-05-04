@@ -1,106 +1,128 @@
-In der Funktechnik spricht man auch von einer Impedanz. Beispiele: Antennenimpedanz bei $\qty{3,6}{\mega\hertz}$, Eingangs- und Ausgangsimpedanz einer Verstärkerstufe, Impedanzwandler
+In der Klasse E haben wir uns auch schon mit der Spule beschäftigt. Bei Gleichstrom hat die Spule im eingeschwungenen Zustand einen sehr kleinen Widerstand. Die Spule wirkt dann wie ein Stück Draht. Beim Wechselstrom jedoch, zeigt die Spule, ähnlich wie ein Kondensator, einen Wechselstromwiderstand $X_{\textrm{L}}$, das heißt, obwohl der Spulendraht nur einen sehr kleinen ohmschen Widerstand (Leiterwiderstand) besitzt, fließt ein Strom, der aber mit steigender Frequenz der Wechselspannung kleiner wird:
+
+$|X_{L}| = \omega \cdot L = 2\cdot\pi\cdot f \cdot L$
+
+Aus der Formel lässt sich erkennen, dass der Wechselstromwiderstand mit zunehmender Frequenz ansteigt und mit abnehmender Frequenz sinkt. Im gegensatz zum Kondensator ist der Wechelstromwiderstand einer Spule positiv. 
+
 <indepth>
-[photo:269:a_Widerstandsdreieck_R-L:Geometrische Addition von $R$ und $X_L$ und Phasenverschiebung zwischen $Z$ und $R$]
-Da die Gesamtspannung an $Z$ anliegt und der Strom in Phase mit $R$ zu sehen ist, ergibt sich eine Phasenverschiebung von $\varphi = \qty{45}{\degree}$, wobei $I$ gegenüber $U$ nacheilend ist.
+Warum ist der induktive Blindwiderstand positiv? Der Hintergrund liegt wieder in der komplexen Wechselstromrechnung, die für die Amateurfunkprüfung nicht zwingend erforderlich ist.
+
+Für Leserinnen und Leser mit Kenntnissen in komplexen Zahlen sei jedoch angemerkt, dass die korrekte Darstellung des induktiven Blindwiderstands eigentlich
+
+$X_L = j\omega L$
+
+lautet. Dabei steht $j$ wieder für die imaginäre Einheit $\sqrt{-1}$.
+
+Daraus wird ersichtlich, dass der induktive Blindwiderstand nicht nur positiv, sondern auch komplex ist. Das positive Vorzeichen beschreibt dabei die Phasenlage zwischen Strom und Spannung an der Spule welche wir in diesem Kapitel noch genauer betrachten.
 </indepth>
+
+[question:AC202]
+
+[question:AC203]
+
+---
+
+Mit einem vektoriellen Network Analyzer (VNA) lässt sich die Veränderung des induktiven Blindwiderstandes $X_L$ in Abhängigkeit von der Frequenz darstellen (vgl. Abbildung [ref:a_XL_Verlauf]). 
+
+<margin>
+[photo:265:a_XL_Verlauf:Veränderung des induktiven Blindwiderstandes $X_L$ einer Spule von $\qty{500}{\kilo\hertz}$ bis $\qty{10}{\mega\hertz}$]
+</margin>
+
+Versuche nun die folgendn Frage durch die obige Formel zu beantworten. Achte dabei besonders auf die Einheiten bzw. die Zehnerpotenzen, damit du die richtigen Ergebnisse erhältst.
+
+[question:AC204]
+
+---
+
+Ähnlich wie beim Kondensator tritt auch bei der Spule eine Phasenverschiebung zwischen Spannung und Strom auf. Diese beträgt $\qty{+90}{\degree}$, wobei der Strom der Spannung nacheilt, wie in Abbildung [ref:a_Blindleistung_Spule] dargestellt. Die rote Linie in Abbildung [ref:a_XL_Verlauf] zeigt die Phasenlage des induktiven Blindwiderstandes $X_L$ bei ca. $\qty{+90}{\degree}$.
+
+<tip>
+Merkhilfe: Bei der Induktivit*äää*t kommt der Strom zu sp*äää*t!
+</tip>
+
+[question:AC201]
+
+Daraus ergibt sich eine Leistungskurve, die symmetrisch um die Nulllinie schwankt. Der Mittelwert dieser Leistung ist null, das heißt, es wird – genau wie beim Kondensator – keine Wirkleistung aufgenommen. Stattdessen wird Energie periodisch im Magnetfeld der Spule gespeichert und wieder an die Quelle zurückgegeben.
+
+Man spricht daher bei einer ideal verlustfreien Spule von Blindleistung und einem Blindwiderstand.
+
+<margin>
+[picture:944:a_Blindleistung_Spule:Das Produkt von $U \cdot I$ ergibt die grüne Leistungskurve]
+</margin>
+
+Sollte eine Spule bei Hochfrequenzanwendungen warm werden, dann besitzt sie Verluste, die diese Erwärmung bewirken. Die Verluste entstehen durch den ohmschen Widerstand des Drahtes und zusätzlich wirkt auch noch der Skin-Effekt, der den Drahtquerschnitt scheinbar verkleinert. Auch hier wird, wie beim Kondensator die Güte $Q$ bzw. der Verlustfaktor $\tan\delta$ zur Beschreibung der Verluste herangezogen.
+
+[question:AC209]
+
+---
+
+Nun haben wir den kapazitiven Blindwiderstand $X_C$ des Kondensators und den induktiven Blindwiderstand $X_L$ der Spule kennengelernt. Beide Größen sind frequenzabhängig und bilden zusammen mit dem ohmschen Widerstand $R$ die sogenannte *Impedanz* $Z$ eines Bauteils.
+
+Die Blindwiderstände $X_L$ und $X_C$ wirken dabei entgegengesetzt und können sich gegenseitig teilweise oder vollständig aufheben. Für die Verrechnung der Blindwiderstände mit dem ohmschen Widerstand ist jedoch keine einfache algebraische Addition möglich, sondern eine geometrische Addition notwendig. Diese erfolgt mithilfe des Satzes des Pythagoras (vgl. Abbildung [ref:a_impedanzdreieck]).
+
+Das Ergebnis ist die Impedanz $Z$, die den komplexen Gesamtwiderstand eines Bauteils beschreibt. Der Betrag der Impedanz $|Z|$ entspricht dem sogenannten Scheinwiderstand:
+
+$Z = \sqrt{R^2 + (X_L - X_C)^2}$ 
+
+oder vereinfacht (vgl. Formelsammlung – Stichwort: Scheinwiderstand):
+
+$Z = \sqrt{R^2 + X^2}$ 
+
+In der Hochfrequenztechnik spielt die Impedanz eine zentrale Rolle, da sie das Verhalten von Bauteilen in Schaltungen bestimmt und insbesondere für die Anpassung von Leitungen, Antennen und Verstärkern entscheidend ist. Sie wird in Ohm ($\unit{\ohm}$) angegeben und beschreibt den Gesamtwiderstand eines Bauteils bei Wechselstrombetrieb. Bei einer Reihenschaltung von Blindwiderstand und Wirkwiderstand ergibt sich ein Scheinwiderstand $Z$, der nur im Betrieb an Wechselspannung auftritt und nicht mit einem Ohm-Meter gemessen werden kann. 
+
+<margin>
+[picture:1067:a_impedanzdreieck:Impedanz $Z$ als geometrische Addition von $R$ und $X$]
+</margin>
+
+<indepth>
+Die Impedanz $Z$ ist eine komplexe Größe, die sowohl den ohmschen Widerstand $R$ als auch die Blindwiderstände $X_L$ und $X_C$ berücksichtigt ($Z = R + j\cdot X$).
+</indepth>
+
+[question:AA101]
+
+<tip>
+Wirkwiderstand $\qty{100}{\ohm}$ und Blindwiderstand $\qty{100}{\ohm}$ in Reihenschaltung ergeben einen Scheinwiderstand (Impedanz) von $\qty{141}{\ohm}$.
+Das Ergebnis entsteht durch geometrische Addition der beiden Widerstände über ein rechtwinkliges Dreieck nach dem den Satz des Pythagoras $a^2 + b^2 = c^2$.
+Für die Widerstände bedeutet dies: $R^2 + X_L^2 = Z^2$
+$Z = \sqrt{(\qty{100}{\ohm})^2 + (\qty{100}{\ohm})^2} = \qty{141}{\ohm}$
+</tip>
+
+
+---
+
+Die Induktivität einer Spule haben wir auch bereits in der Klasse E kennengelernt. Grundsätzlich steigt die Induktivität wenn die Windungszahl erhöht wird, die Spulenlänge verkürzt wird, die Querschnittsfläche der Spule vergrößert wird und ein magnetisch leitfähigeres Material als Spulenkern verwendet wird. Zur Erhöhung der Induktivität, ohne die Windungszahl drastisch zu steigern, wird die Wicklung auf einen Ferritringkern gewickelt. Drosselspulen mit hoher Induktivität werden zur Verringerung hochfrequenter Ströme eingesetzt.
 
 <indepth>
 [photo:270:a_Pulvereisenringkern:Beispiel für einen Pulvereisenringkern]
 [photo:271:a_Ferritringkern:Beispiel für einen Ferritkern]
 </indepth>
 
-Bei einer Reihenschaltung von Blindwiderstand und Wirkwiderstand ergibt sich ein Scheinwiderstand $Z$, der nur im Betrieb an Wechselspannung auftritt und nicht mit einem Ohm-Meter gemessen werden kann. Er wird auch als Impedanz $Z$ bezeichnet und als Widerstand in Ohm angegeben.
-
-Merke: Der Begriff Impedanz steht für einen Widerstand, der sich aus einem ohmschen Anteil ($R$) und einem kapazitiven ($X_C$) und/oder induktiven Anteil ($X_L$) zusammensetzt.
-
-Beispiel: Wirkwiderstand $\qty{100}{\ohm}$ und Blindwiderstand $\qty{100}{\ohm}$ in Reihenschaltung ergeben einen Scheinwiderstand (Impedanz) von $\qty{141}{\ohm}$.
-Das Ergebnis entsteht durch geometrische Addition der beiden Widerstände über ein rechtwinkliges Dreieck nach dem den Satz des Pythagoras $a^2 + b^2 = c^2$.
-Für die Widerstände bedeutet dies: $R^2 + X_L^2 = Z^2$
-$Z = \sqrt{(\qty{100}{\ohm})^2 + (\qty{100}{\ohm})^2} = \qty{141}{\ohm}$
-Bitte nachrechnen!
-[question:AA101]
-In der Funktechnik ist vor allem das Verhalten an Wechselspannung wichtig.
-Die Spule zeigt, ähnlich wie ein Kondensator, einen "Wechselstromwiderstand", das heißt, obwohl der Spulendraht nur einen sehr kleinen ohmschen Widerstand (Leiterwiderstand) besitzt, fließt bei einem Betrieb an Wechselspannung kein Kurzschlussstrom, sondern ein Strom, der mit steigender Frequenz der Wechselspannung kleiner wird.
-
-% todo Bild Stromkreis mit XL
-
-Die Ursache ist der Anstieg des induktiven Blindwiderstandes $X_L$.
-[question:AC203]
-Beispielrechnung für die Frage AC204:
-* Die Formel aus der Formelsammlung lautet (siehe Formelsammlung - Stichwort: Induktiver Blindwiderstand):
-  $X_L =\omega\cdot L = 2\pi\cdot f \cdot L$
-* Einsetzen der gegebenen Werte:
-  $X_L = 2\pi\cdot\qty{100}{\mega\hertz}\cdot\qty{3}{\micro\henry}$
-* Jetzt werden die Vorsilben in Zehnerpotenzen umgewandelt, damit das Ergebnis in Ohm berechnet werden kann:
-  $X_L = 6,28 \cdot \qty{100e6}{\hertz} \cdot \qty{3e-6}{\henry}$
-* Die Zehnerpotenzen $10^6 \cdot 10^{-6}$ ergeben $1$.
-* Im letzten Schritt werden die verbliebenen Zahlen multipliziert:
-  $X_L = \qty{(6,28 \cdot 100 \cdot 3)}{\ohm} = \qty{1884}{\ohm}$
-[question:AC204]
-Mit einem vektoriellen Network Analyzer (VNA) lässt sich die Veränderung des induktiven Blindwiderstandes $X_L$ in Abhängigkeit von der Frequenz darstellen. Wir sprechen auch hier von einem Blindwiderstand, da eine verlustfreie Spule keine Wirkenergie aufnimmt. Sollte eine Spule bei Hochfrequenzanwendungen warm werden, dann besitzt sie Verluste, die diese Erwärmung bewirken. Die Verluste entstehen durch den ohmschen Widerstand des Drahtes und zusätzlich wirkt auch noch der Skin-Effekt, der den Drahtquerschnitt scheinbar verkleinert.
-% todo BILD XL in Abhängigkeit der Frequenz
-[photo:265:a_XL_Verlauf:Veränderung des induktiven Blindwiderstandes $X_L$ einer Spule von $\qty{500}{\kilo\hertz}$ bis $\qty{10}{\mega\hertz}$]
-Die rote Linie in Abbildung [ref:a_XL_Verlauf] zeigt die Phasenlage des induktiven Blindwiderstandes $X_L$.
-[question:AC202]
-
-[picture:944:a_Blindleistung_Spule:Das Produkt von $U \cdot I$ ergibt die grüne Leistungskurve]
-
-Die Phasenverschiebung zwischen Spannung und Strom beträgt $\qty{90}{\degree}$, wobei der Strom nacheilend ist.
-Daraus ergibt sich eine Leistungskurve, die um die Nulllinie symmetrisch schwankt. Der Mittelwert ergibt Null, d.h. es wird keine Wirkleistung aufgenommen.
-Wir sprechen deshalb auch bei einer verlustfreien Spule von Blindleistung und Blindwiderstand.
-[question:AC201]
-
-% entfernt [photo:266:a_Blindleistung_einer_Spule:Blindleistung in einer Spule]
-Sollte eine Spule bei Hochfrequenzanwendungen warm werden, dann besitzt sie Verluste, die diese Erwärmung bewirken.
-Die Verluste entstehen durch den ohmschen Widerstand des Drahtes und zusätzlich wirkt auch noch der Skin-Effekt, der den Drahtquerschnitt scheinbar verkleinert.
-[question:AC209]
-
-Grundsätzlich steigt die Induktivität wenn die Windungszahl erhöht wird, die Spulenlänge verkürzt wird, die Querschnittsfläche der Spule vergrößert wird und ein magnetisch leitfähigeres Material als Spulenkern verwendet wird. Zur Erhöhung der Induktivität, ohne die Windungszahl drastisch zu steigern, wird die Wicklung auf einen Ferritringkern gewickelt. Drosselspulen mit hoher Induktivität werden zur Verringerung hochfrequenter Ströme eingesetzt.
-
----
-
 [question:AC211]
-Eine wichtige Kenngöße einer Spule ist die Induktivität $L$. Sie gibt an, welche Selbstinduktionsspannung die Spule erzeugen kann und dadurch den fließenden Strom, im Einschalt- und Ausschaltmoment verzögert. Der Formelbuchstabe $L$ wurde zu Ehren des Professors Emil Lenz aus St. Petersburg (1804 - 1864, Verfasser der Lenzschen Regel) gewählt.
 
 Bei Ringkernspulen wird zur Erleichterung der Induktivitätsberechnung ein sogenannter $A_\text{L}$-Wert des Kernmaterials angegeben.
 Die Berechnung der Induktivität lautet dann:
-$L = N^2 \cdot A_\text{L}$ (siehe Formelsammlung - Stichwort: Induktivität einer Ringkernspule)
+$L = N^2 \cdot A_\text{L}$ (siehe Formelsammlung - Stichwort: Induktivität einer Ringkernspule). Versuche nun damit die folgenden Fragen zu beantworten. 
 
-Achtung: Die Benennung des $A_\text{L}$-Wertes ist in Nanohenry pro Windungen im Quadrat angegeben.
+<attention>
+Die Benennung des $A_\text{L}$-Wertes ist in Nanohenry pro Windungen im Quadrat angegeben.
+</attention>
 
-Berechnungsbeispiel für die Induktivität einer Ringkernspule Frage AC205:
-* Die Formel lautet: $L = N^2 \cdot A_\text{L}$
-* Einsetzen der gegebenen Werte: $L = 14^2 \cdot \qty{1,5}{\nano\henry} = \qty{294}{\nano\henry} = \qty{0,294}{\micro\henry}$
-* Die letzte Umwandlung ist notwendig, da die Lösung mit dieser Vorsilbe angegeben ist.
+
 [question:AC205]
-
 [question:AC206]
-
-Berechnungsbeispiel für die Windungszahl einer Ringkernspule (Frage AC207):
-$\begin{split}N &= \sqrt\frac{L}{A_\text{L}}\\N &= \sqrt\frac{\qty{2}{\milli\henry}}{\qty{250}{\nano\henry}}\end{split}$
-Wichtig: Umwandlung von $\qty{2}{\milli\henry}$ in $\qty{2000000}{\nano\henry}$, damit sich gleiche Vorsilben kürzen lassen.
-$\begin{split}N &= \sqrt\frac{\qty{2000000}{\nano\henry}}{\qty{250}{\nano\henry}}\\N &= \sqrt{8000}\\N &\approx 89,4\end{split}$
-Man wird 90 Windungen aufbringen.
 [question:AC207]
-
 [question:AC208]
 
 <indepth>
 Wenn sich innerhalb der Spule ein magnetisch leitfähiges Material befindet (z.B. Eisen, Ferrit) dann wird das Magnetfeld verstärkt. Die dann wirksame magnetische Flussdichte $B$ lässt sich mit der Formel (siehe Formelsammlung - Stichwort: Magnetische Flussdichte)
 $B = \mu_0 \cdot \mu_r \cdot H$
-berechnen. Dabei enspricht $\mu_0$ der magnetischen Feldkonstante $\qty{1,2566e-6}{\volt\second\per\ampere\meter}$ und $\mu_r$ steht für die relative Permeabilität des Kernmaterials in der Spule. Für Luft wird der Faktor $1$ eingesetzt (siehe Formelsammlung - Stichwort: Magnetische Feldkonstante; relative Permeabilität).
+berechnen. Dabei entspricht $\mu_0$ der magnetischen Feldkonstante $\qty{1,2566e-6}{\volt\second\per\ampere\meter}$ und $\mu_r$ steht für die relative Permeabilität des Kernmaterials in der Spule. Für Luft wird der Faktor $1$ eingesetzt (siehe Formelsammlung - Stichwort: Magnetische Feldkonstante; relative Permeabilität).
 </indepth>
 
-<margin>
-|l:Zusammenfassung Spule|l:|
-|*MERKE: Induktivitäät, Strom zu späät!*|
-|Formelsammlung: Induktiver Blindwiderstand|$X_L =\omega \cdot L = 2\pi \cdot f \cdot L$|
-|Umgestellt nach $L$:|$L =\frac{X_L}{2\pi \cdot f}$| 
-|$A_\text{L}$ - Wert in $\unit{\nano\henry}$|$L = N^2 \cdot A_\text{L}$|
-|Umgestellt nach N:|$N = \sqrt \frac{L}{A_\text{L}}$|
-|Hohe Spulenverluste | niedrige Güte = großer $\tan\delta$ = großer ESR|
-[table:a_Spule_Zusammenfassung:Zusammenfassung zur Spule in Klasse A]
-</margin>
+Zur Abschirmung eines Magnetfeldes benötigt man ein magnetisch gut leitfähiges Material, zum Beispiel Weißblech. Die Abbildung [ref:a_abschirmbecher] zeigt ein Beispiel für Spulen mit Abschirmbecher. Die metallischen Abschirmbecher enthalten Spulen mit einem verstellbaren Ferritkern, der über die Öffnung von oben mit einem Schraubendreher hinein- oder herausgedreht wird. Dadurch ändert sich die Induktivität der Spule.
 
-Zur Abschirmung eines Magnetfeldes benötigt man ein magnetisch gut leitfähiges Material, zum Beispiel Weißblech.
 [question:AC210]
+
+<margin>
+[photo:333:a_abschirmbecher:Beispiel für Spulen mit Abschirmbecher zur Abschirmung von magnetischen Feldern]
+</margin>

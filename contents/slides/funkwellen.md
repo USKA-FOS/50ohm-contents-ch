@@ -13,10 +13,7 @@
 * Bestehen aus Wellenbergen und Wellentälern
 * Stellen die Stärke des Funksignals dar
 * Das entspricht der *Feldstärke*
-
-<note>
-Auch hier heißt die Höhe der Wellenberge und -täler *Amplitude*
-</note>
+* Auch hier heißt die Höhe der Wellenberge und -täler *Amplitude*
 
 ---
 [question:NB402]

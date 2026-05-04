@@ -46,7 +46,7 @@
 --- style="font-size: 0.7em;"
 ### Lösungsweg
 
-Der Trick ist hier, dass die Durschlagsfestigkeit die elektrische Feldstärke $E$ ist.
+Der Trick ist hier, dass die Durchschlagsfestigkeit die elektrische Feldstärke $E$ ist.
 
 * Gegeben: $d = \qty{0,15}{\milli\meter}$ und $E = \qty{400}{\kilo\volt\per\centi\meter}$
 * Gesucht: $U$

@@ -21,7 +21,7 @@ Aus Sicht des Senders ist eine Dummy Load nicht von einer gut angepassten Antenn
 Ganz vermeiden lassen sich Aussendungen zum Abstimmen nicht, beispielsweise bei der Benutzung von automatischen Antennenanpassgeräten. Wenn diese Art von Aussendungen allerdings so kurz wie möglich erfolgen, sind sie zulässig, auch wenn nur ein Träger ohne Modulation gesendet wird.
 
 <attention>
-Wenn man sein Antennanpassgerät abstimmt, sollte dies nur auf freien Frequenzen erfolgen. Ansonsten kann man andere Verbindungen stören.
+Wenn man sein Antennenanpassgerät abstimmt, sollte dies nur auf freien Frequenzen erfolgen. Ansonsten kann man andere Verbindungen stören.
 </attention>
 
 [question:VD112]

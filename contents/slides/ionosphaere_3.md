@@ -65,7 +65,7 @@
 * Wird seit Mitte des 20. Jahrhunderts durchgeführt
 * Ist weniger sprunghaft als Zählung der Sonnenflecken
 * Reicht von 65 im Aktivitätsminimum und bis über 300 bei starken Maxima
-* Werte über 100 führen zu höherer Ionisierung und verbesserten Ausbreitungsbedigungen im KW-Bereich
+* Werte über 100 führen zu höherer Ionisierung und verbesserten Ausbreitungsbedingungen im KW-Bereich
 </right>
 
 ---

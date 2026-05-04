@@ -1,5 +1,6 @@
 * Manche Buchstaben lassen sich schwer voneinander unterscheiden
 * Noch schwieriger bei leisem oder schlechtem Empfang
+* Es kann beim Buchstabieren zu Missverständnissen kommen
 
 <note>
 * Beispiel: DM4EAX und DN4EAX
@@ -17,7 +18,7 @@
 ### Buchstabiertafeln
 
 * In Deutschland ist die deutsche Buchstabiertafel bekannt
-* Im Amateurfunk wird die internationale Buchstabiertafel verwendet
+* Im Amateurfunk wird gemäß Verfügung 13/2005 der Bundesnetzagentur die internationale Buchstabiertafel verwendet
 * Erste Einführung 1927 durch die International Telecommunication Union (ITU)
 * Anhang 14 der Radio Regulations (RR)
 * Wird auch in der Luftfahrt, dem Seefunk und von der NATO verwendet
@@ -65,10 +66,22 @@
 
 <note>
 * Korrekte Aussprache vermitteln
-* Ziffern im nationalen Funkverkehr auf Deutsch; international Englisch
+</note>
+
+---
+
+### Ziffern / Zahlen
+
+* Ziffern im nationalen Funkverkehr auf Deutsch
+* Im internationalen Funkverkehr auf Englisch
+
+---
+
+### Weitere Verwendung
+
 * Kann auch zum Buchstabieren von Namen oder Orten verwendet werden
 * Es gibt Variationen (Nancy, Sugar, Ocean, Queen,...), die zusätzlich verwendet werden dürfen
-</note>
+* Umlaute als AE, OE, UE und SS buchstabieren
 
 ---
 [question:VD206]

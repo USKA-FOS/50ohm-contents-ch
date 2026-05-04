@@ -15,3 +15,19 @@ Dabei solltest du dir folgende Dinge merken:
 [question:AH306]
 [question:AH307]
 [question:AH308]
+
+<webonly>
+<margin>
+Das Ende eines CW-Aurora-QSOs zwischen GM4YXI und OK/DF7TR/P kann hier angehört werden:
+
+[include:applet_aurora]
+
+Ein SSB-Aurora-QSO gibt es auch auf [Youtube](https://50ohm.de/assb) zum Anhören.
+</margin>
+</webonly>
+
+<latexonly>
+<indepth>
+Ein Beispiel eines Aurora-CW-QSOs zwischen OH2MA und OH2LAK auf $\qty{50}{\mega\hertz}$ gibt es auf [Youtube](https://50ohm.de/acw). Hier kann man den sehr rauen und verauschten Ton der Morsezeichen hören. Ein SSB QSO gibt es auch auf [Youtube](https://50ohm.de/assb) zum Anhören.
+</indepth>
+</latexonly>

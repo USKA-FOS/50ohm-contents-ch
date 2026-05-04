@@ -1,12 +1,16 @@
+* Frequenzbereich elektromagnetischer Wellen ist sehr groß
+* Funkwellen nutzen nur ein Teil dieses Spektrums
+* Überlicherweise zwischen $\qty{30}{\kilo\hertz}$ und $\qty{300}{\giga\hertz}$
+* Für Prüfung $\qty{3}{\mega\hertz}$-$\qty{3}{\giga\hertz}$ mit Bezeichnungen wichtig
+
+---
+
 [picture:471:n_frequenzspektrum:Spektrum der elektromagnetischen Wellen]
 
 <note>
-* Funkwellen nutzen nur ein Teil dieses Spektrums
-* Überlicherweise zwischen $\qty{30}{\kilo\hertz}$ und $\qty{300}{\giga\hertz}$
 * Es werden Abkürzungen verwendet
-* Für Prüfung $\qty{3}{\mega\hertz}$-$\qty{3}{\giga\hertz}$ mit Bezeichnungen wichtig
 </note>
-  
+
 --- style="font-size: 0.5em;"
 | r: | c: | r: | X: | l: |
 | $\qty{30}{\kilo\hertz}$ | - | $\qty{300}{\kilo\hertz}$ | Low Frequency | LF |

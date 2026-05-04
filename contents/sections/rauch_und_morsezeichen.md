@@ -24,7 +24,7 @@ Gibt man beispielsweise die Abfolge *lang, kurz, lang, kurz* steht dies für das
 
 ---
 
-Solche Übertragungsverfahren nennt man *Telegrafie*. Verfahren dieser Art haben etwas gemeinsam: Man muss ein *Hilfsmittel* erzeugen, z. B. den Rauch oder eine elektrische Schwingung, und *beinflusst* diese dann gezielt, um eine Nachricht zu übertragen.
+Solche Übertragungsverfahren nennt man *Telegrafie*. Verfahren dieser Art haben etwas gemeinsam: Man muss ein *Hilfsmittel* erzeugen, z. B. den Rauch oder eine elektrische Schwingung, und *beeinflusst* diese dann gezielt, um eine Nachricht zu übertragen.
 
 In der Fachsprache wird das Hilfsmittel, also der Rauch oder die elektrische Schwingung, als *Träger* bezeichnet, da er die Information vom Sender zum Empfänger trägt. Bei Trägern im Funk, die ja recht hohe Frequenzen verwenden, spricht man auch von einem Hochfrequenz-Träger, oder kurz HF-Träger. Das Verfahren, um den Träger zu verändern, also das Wedeln mit der Decke bzw. das rhythmische Ein- und Ausschalten der elektrischen Schwingung, nennt man *Modulation*. 
 

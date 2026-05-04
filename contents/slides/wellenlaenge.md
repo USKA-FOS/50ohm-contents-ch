@@ -8,9 +8,9 @@ Die Wellenlänge wird mit dem griechischen Buchstaben $\lambda$ (Lambda) angegeb
 </fragment>
 
 ---
-[question:NB403] 
+[question:NB403]
 ---
-[question:NA205] 
+[question:NA205]
 ---
 
 ## Zusammenhang Frequenz – Wellenlänge
@@ -33,15 +33,19 @@ Die Formeln sind in der Formelsammlung
 ---
 ### Beispiele
 
-Wellenlänge aus Frequenz
+Wellenlänge der Frequenz $\qty{145,3}{\mega\hertz}$
 
 $\lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]} = \dfrac{300}{\qty{145,3}{\mega\hertz}} \approx \qty{2,06}{\meter}$
 
 <fragment>
-Frequenz aus Wellenlänge
+Frequenz der Wellenlänge $\qty{2,06}{\meter}$
 
 $f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} = \dfrac{300}{\qty{2,06}{\meter}} \approx \qty{145,3}{\mega\hertz}$
 </fragment>
+
+---
+
+[include:applet_lambda_und_f]
 
 --- style="font-size: 0.8em;"
 ## Band

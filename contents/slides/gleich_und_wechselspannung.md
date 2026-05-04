@@ -31,7 +31,7 @@ Außer, man bekommt "einen gewischt".
 
 * Ladungen lassen sich gezielt trennen
 * In einer Batterie, Solarzelle oder einem Windkraftwerk
-* Ladungen versuchen wieder zusammen zu kommen
+* Ladungen versuchen wieder zusammenzukommen
 * Es liegt eine elektrische *Spannung* vor
 * Geräte zur Trennung von Ladungen heißen *Spannungsquelle*
 
@@ -40,10 +40,10 @@ Außer, man bekommt "einen gewischt".
 ## Spannungsquelle
 
 * Der positiv geladene Anschluss heißt Pluspol
-* Der negativ geladene Anchluss heißt Minuspol
+* Der negativ geladene Anschluss heißt Minuspol
 * Die Spannung kann unterschiedlich groß sein
 * Spannungsquellen, bei denen die Pole ständig zwischen positiver und negativer Spannung schwingen, erzeugen Wechselspannung
-  
+
 <fragment>
 Die elektrische Spannung wird in der Einheit Volt mit der Abkürzung $\unit{V}$ gemessen.
 </fragment>

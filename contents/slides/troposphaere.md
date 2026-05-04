@@ -1,5 +1,5 @@
 <left>
-[picture:734:n_tropo:Troposhärische Inversionsbildung, Schichten unterschiedlicher Temperatur liegen aufeinander, an der Grenze der Schichten werden Funkwellen im VHF-Bereich reflektiert]
+[picture:734:n_tropo:Troposphärische Inversionsbildung, Schichten unterschiedlicher Temperatur liegen aufeinander, an der Grenze der Schichten werden Funkwellen im VHF-Bereich reflektiert]
 </left>
 <right>
 * Besonderer Effekt in der Troposphäre (ca. $\qty{15}{\kilo\meter}$)

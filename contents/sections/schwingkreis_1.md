@@ -1,5 +1,5 @@
 <margin>
-[picture:1019:e_frequenzabhängiger_widerstand:Frequenzabhängikeit von Kondensator und Spule im Vergleich zu einem klassischen Widerstand]
+[picture:1019:e_frequenzabhängiger_widerstand:Frequenzabhängigkeit von Kondensator und Spule im Vergleich zu einem klassischen Widerstand]
 [picture:1020:e_herleitung_tiefpass:Herleitung der Tiefpassschaltung ausgehend von einem Spannungsteiler]
 </margin>
 
@@ -118,7 +118,7 @@ Der Betragsfrequenzgang eines Serienschwingkreises aus einem Widerstand, einer S
   
 $Z = \sqrt{R^2+\left(X_\text{L} - X_\text{C}\right)^2}$
   
-Im Resonanzfall wenn $X_\text{C}$ = $X_\text{L}$ gilt bleibt nur der Widerstand $R$ übrig. Im Idealen Fall, wenn der Widerstand $R=\qty{0}{\ohm}$ ist ist der Widerstand sogar null. Wenn wir die Werte für $X_\text{L}$ und $X_\text{C}$ einsetzen erhalten wir:
+Im Resonanzfall wenn $X_\text{C}$ = $X_\text{L}$ gilt bleibt nur der Widerstand $R$ übrig. Im Idealen Fall, wenn der Widerstand $R=\qty{0}{\ohm}$ ist der Widerstand sogar null. Wenn wir die Werte für $X_\text{L}$ und $X_\text{C}$ einsetzen erhalten wir:
   
 $Z = \sqrt{R^2+\left(2\pi f \cdot L~-~\frac{1}{2\pi f \cdot C} \right)^2}$
   

@@ -19,7 +19,7 @@ In der Klasse E haben wir uns bereits mit Einkopplungen in Netzleitungen beschä
 [picture:367:a_netzfilter_draw:Schaltung eines Netzfilters]
 </margin>
 
-Unterschiedliche Übertragungsverfahren haben aufgrund ihrer Modulationscharakteristik unterschiedliche Wirkungen hinsichtlich Beeinflussungen von Geräten und Leitungen. Insbesondere die Modulationsarten CW sowie SSB (bei denen sich die Amplitude rasch ändert) führen oft zu Beeinflusungen in Lautsprecherzuleitungen und einer hierauf folgenden Gleichrichtung der HF an den Basis-Emitter-Strecken im NF-Teil von Verstärkern. Der Basis-Emitter-Übergang verhält sich hierbei wie eine Diode und richtet die HF gleich. Hierdurch wird die hierdurch demodulierte NF in den Lautsprechern hörbar.
+Unterschiedliche Übertragungsverfahren haben aufgrund ihrer Modulationscharakteristik unterschiedliche Wirkungen hinsichtlich Beeinflussungen von Geräten und Leitungen. Insbesondere die Modulationsarten CW sowie SSB (bei denen sich die Amplitude rasch ändert) führen oft zu Beeinflussungen in Lautsprecherzuleitungen und einer hierauf folgenden Gleichrichtung der HF an den Basis-Emitter-Strecken im NF-Teil von Verstärkern. Der Basis-Emitter-Übergang verhält sich hierbei wie eine Diode und richtet die HF gleich. Hierdurch wird die hierdurch demodulierte NF in den Lautsprechern hörbar.
 
 [question:AJ107]
 [question:AJ106]

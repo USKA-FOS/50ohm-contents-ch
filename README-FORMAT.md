@@ -82,7 +82,7 @@ Eine nummerierte Aufzählung erfolgt einfach indem die Nummern vorangestellt wer
 
 ## Hervorhebungen
 
-Einzele Wörter und Wortgruppen lassen sich mit dem Stern hervorheben:
+Einzelne Wörter und Wortgruppen lassen sich mit dem Stern hervorheben:
 
 Einige *wichtige Wörter* hervorheben
 

@@ -8,7 +8,7 @@ Der *Bipolartransistor* wird im Englischen auch BJT: Bipolar Junction Transistor
 
 Die ideale Funktion aller Transistortypen, und auch der Elektronenröhre, ist die einer *spannungsgesteuerten Stromquelle*: mit einer möglichst kleinen Spannungsänderung am Eingang soll eine möglichst große Stromänderung am Ausgang bewirkt werden.
 
-Der Bipolartransistor hat drei Anschlüsse, die Emitter, Basis und Kollektor genannt werden. Der Emitter sendet Ladungsträger in die Basis - beim npn-Bipolartransistor sind das *Elektronen*, beim pnp-Bipolartransistor Defektelekronen, auch *Löcher* genannt. Die Physik hinter diesen Begriffen werden wir erst in der Ausbildung für die Klasse A besprechen. Diese Ladungsträger durchqueren die Basis und werden vom Kollektor wieder aufgesammelt. 
+Der Bipolartransistor hat drei Anschlüsse, die Emitter, Basis und Kollektor genannt werden. Der Emitter sendet Ladungsträger in die Basis - beim npn-Bipolartransistor sind das *Elektronen*, beim pnp-Bipolartransistor Defektelektronen, auch *Löcher* genannt. Die Physik hinter diesen Begriffen werden wir erst in der Ausbildung für die Klasse A besprechen. Diese Ladungsträger durchqueren die Basis und werden vom Kollektor wieder aufgesammelt. 
 
 ---
 

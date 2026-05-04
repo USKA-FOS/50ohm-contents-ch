@@ -1,12 +1,12 @@
 * Jede Frequenznutzung bedarf einer vorherigen *Frequenzzuteilung*
 * Verankert im Telekommunikationsgesetz (TKG)
-* Einzelzuteilung oder Allgemeinzuteilung
+* Einzelzuteilung
+  * Einem Unternehmen, z.B. Betriebsfunk
+* Allgemeinzuteilung
+  * Allgemeinheit, z.B. Amateurfunk
 
-<note>
-* Beispiel für Einzelzuteilung: Betriebsfunk
-* Beispiel für Allgemeinzuteilung: Amateurfunk
-</note>
 ---
+
 * Amateurfunk darf nur auf den zugeteilten Frequenzen durchgeführt werden
 * Frequenzbereiche sind zwar international vereinbart
 * *Aber* die nationalen Bestimmungen sind maßgebend

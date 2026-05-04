@@ -14,7 +14,7 @@ $f_\text{ZF} = \left|f_\text{e} \pm f_\text{o}\right|$
 
 Nehmen wir an, unser Oszillator schwingt, wie in Abbildung [ref:spiegelfrequenzen_fe1_fe2] gezeigt, auf der Frequenz $f_\text{o}=\qty{3,955}{\mega\hertz}$. Die Zwischenfrequenz $f_\text{ZF}$ soll $\qty{0,455}{\mega\hertz}$ betragen. Durch den Betrag in unserer Formel gibt es nun zwei Möglichkeiten welche Empfangsfrequenzen man hören kann, nämlich $f_\text{e1} = \qty{3,500}{\mega\hertz}$ und $f_\text{e2} = \qty{4,410}{\mega\hertz}$. Für beide Werte ergibt die Formel die Zwischenfrequenz  $f_\text{ZF}$.
 
-Wenn $f_\text{e1}$ die gewünschte Empangsfrequenz ist, so wird $f_\text{e2}$ die *Spiegelfrequenz* von $f_\text{e1}$ genannt. Ist $f_\text{e2}$ die gewünschte Empangsfrequenz, so wird $f_\text{e1}$ die *Spiegelfrequenz* von $f_\text{e2}$ genannt.
+Wenn $f_\text{e1}$ die gewünschte Empfangsfrequenz ist, so wird $f_\text{e2}$ die *Spiegelfrequenz* von $f_\text{e1}$ genannt. Ist $f_\text{e2}$ die gewünschte Empfangsfrequenz, so wird $f_\text{e1}$ die *Spiegelfrequenz* von $f_\text{e2}$ genannt.
 
 Der Abstand zwischen gewünschter Empfangsfrequenz und Spiegelfrequenz beträgt hierbei immer das Doppelte der Zwischenfrequenz (ZF).
 Schwingt der Oszillator <u>oberhalb</u> der Empfangsfrequenz so befindet sich auch die Spiegelfrequenz um das doppelte der ZF <u>oberhalb</u> der Empfangsfrequenz.

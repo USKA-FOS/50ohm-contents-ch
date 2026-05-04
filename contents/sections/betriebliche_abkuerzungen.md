@@ -18,7 +18,7 @@ Der Ursprung des Amateurfunks ist in den USA. Deshalb kommen viele unserer Fachb
 
 [question:BB106]
 
-Kennengelernt haben wir auch schon die Abkürzung CW für Continuous Wave, die meist für die Morsetelegrafie durch Ein- und Ausschalten eines Hochfrequenzträges gebraucht wird.
+Kennengelernt haben wir auch schon die Abkürzung CW für Continuous Wave, die meist für die Morsetelegrafie durch Ein- und Ausschalten eines Hochfrequenzträgers gebraucht wird.
 
 [question:BB107]
 

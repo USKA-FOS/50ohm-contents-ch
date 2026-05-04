@@ -20,7 +20,7 @@ Betrachten wir die einzelnen Blöcke des Empfängers der Reihe nach von links na
 6. Lautsprecher: Das Signal wird jetzt durch den Lautsprecher von einer elektrischen Schwingung in eine Schallwelle umgewandelt und somit wieder hörbar gemacht.
 
 <indepth>
-Beim *Bandpassfilter* symbolisieren die beiden durchgestrichenen Wellen, dass Frequenzen ober- und unterhalb des gewünschen Frequenzbereich gesperrt werden. Die mittlere Welle steht dafür, dass der gewünschte Frequenzbereich durchgelassen wird.
+Beim *Bandpassfilter* symbolisieren die beiden durchgestrichenen Wellen, dass Frequenzen ober- und unterhalb des gewünschten Frequenzbereichs gesperrt werden. Die mittlere Welle steht dafür, dass der gewünschte Frequenzbereich durchgelassen wird.
 </indepth>
 
 <indepth>

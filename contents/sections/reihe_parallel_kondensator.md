@@ -1,6 +1,6 @@
-Kondensatoren werden in vielen Anwendungen in Reihenschaltung, Parallelschaltung oder auch gemischter Schaltungstechnik eingesetzt. Die Parallelschaltung ist einfacher zu verstehen, deshalb betrachen wir sie zuerst.
+Kondensatoren werden in vielen Anwendungen in Reihenschaltung, Parallelschaltung oder auch gemischter Schaltungstechnik eingesetzt. Die Parallelschaltung ist einfacher zu verstehen, deshalb betrachten wir sie zuerst.
 
-Durch die Paralelschaltung stehen sich mehr Platten gegenüber und somit erhöht sich die Plattenoberfläche proportional. Entsprechend erhöht sich auch die Kapazität in der Gesamtschaltung.
+Durch die Parallelschaltung stehen sich mehr Platten gegenüber und somit erhöht sich die Plattenoberfläche proportional. Entsprechend erhöht sich auch die Kapazität in der Gesamtschaltung.
 
 <margin>
 [picture:822:e_3C-parallel: Parallelschaltung von 3 Kondensatoren]
@@ -48,7 +48,7 @@ Die Gesamtkapazität ist bei der Reihenschaltung immer kleiner als die kleinste 
 </tip>
 
 <tip>
-Bei der Lösung der Aufgaben empiehlt sich folgende Vorgehensweise:
+Bei der Lösung der Aufgaben empfiehlt sich folgende Vorgehensweise:
   
 1. Skizziere die Schaltung
 2. Schreibe die Kapazitätswerte zu den Bauteilen.

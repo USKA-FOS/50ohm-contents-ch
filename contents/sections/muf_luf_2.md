@@ -46,7 +46,7 @@ wobei $\alpha$ den Abstrahlwinkel bezeichnet (vgl. Abbildung [ref:e_muf_winkel])
 
 ---
 
-Für die kommerzielle Frequenzplanung, wo es darauf ankommt, dass eine Funkverbindung mit hoher Wahrscheinlichkeit gelingt, gibt es zudem den Begriff der *FOT* (*frequency of optimal transmission*, optimale Sendefrequenz), oder auch $f_\text{opt}$. Das ist die Frequenz, die auf einem bestimmten Signalweg statistisch an 90% aller Tage eine Funkverbindung erlaubt; sie liegt üblcherweise 15% unter dem monatlichen Mittel der MUF. In der Formelsammllung finden wir diesen Zusammenhang als 
+Für die kommerzielle Frequenzplanung, wo es darauf ankommt, dass eine Funkverbindung mit hoher Wahrscheinlichkeit gelingt, gibt es zudem den Begriff der *FOT* (*frequency of optimal transmission*, optimale Sendefrequenz), oder auch $f_\text{opt}$. Das ist die Frequenz, die auf einem bestimmten Signalweg statistisch an 90% aller Tage eine Funkverbindung erlaubt; sie liegt üblicherweise 15% unter dem monatlichen Mittel der MUF. In der Formelsammlung finden wir diesen Zusammenhang als 
 
 $f_\text{OPT} = MUF \cdot 0,85$
 

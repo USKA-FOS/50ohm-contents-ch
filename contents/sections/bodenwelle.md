@@ -3,7 +3,7 @@ Wir haben ja bereits verschiedene Ausbreitungsmöglichkeiten kennen gelernt:
 - Raumwelle: Ausbreitung über Brechung an Gebieten mit freien Elektronen in der Ionosphäre
 - Bodenwelle: Ausbreitung entlang der Erdoberfläche
 
-Die Bodenwelle wechselwirkt mit dem Erdboden und ist dadurch in der Lage, parallel zur Erdoberfläche zu verlaufen, das heisst der Krümmung der Erde zu folgen. Das klappt umso besser, je niedriger die Frequenz  und je leitfähiger der Boden ist; außerdem muss die Welle vertikal polarisiert sein. Das heißt, die Bodenwelle folgt der Erdkrümmung und geht über den geografischen Horizont hinaus. Sie wird in höheren Frequenzbereichen stärker gedämpft als in niedrigeren Frequenzbereichen.
+Die Bodenwelle wechselwirkt mit dem Erdboden und ist dadurch in der Lage, parallel zur Erdoberfläche zu verlaufen, das heißt der Krümmung der Erde zu folgen. Das klappt umso besser, je niedriger die Frequenz  und je leitfähiger der Boden ist; außerdem muss die Welle vertikal polarisiert sein. Das heißt, die Bodenwelle folgt der Erdkrümmung und geht über den geografischen Horizont hinaus. Sie wird in höheren Frequenzbereichen stärker gedämpft als in niedrigeren Frequenzbereichen.
 
 [question:EH212]
 

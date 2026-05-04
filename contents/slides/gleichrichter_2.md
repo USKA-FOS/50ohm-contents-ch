@@ -9,7 +9,7 @@
 </right>
 ---
 <left>
-[picture:75:a_Restwelligkeit:Welligkeit der Ausgangsgleichspannnung $U_L$]
+[picture:75:a_Restwelligkeit:Welligkeit der Ausgangsgleichspannung $U_L$]
 Am Lastwiderstand $R_L$ stellt sich eine pulsierende Gleichspannung $U_L$ ein
 </left>
 <right>

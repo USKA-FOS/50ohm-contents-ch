@@ -1,4 +1,4 @@
-Die nationalen Amateurfunkverbände haben sich in der "International Amateur Radio Union" (IARU) zusammengeschlossen. Durch die Zusammenarbeit in der IARU wird ein *weltweit geordnetes Nebeneinander der verschiedenen Betriebsarten auf den Amateurfunkbändern* erreicht. Neben der Interessenvertretung für alle Funkamateure gibt die IARU Bandpläne heraus. Diese enthalten wichtige Empfehlungen der IARU, die von jedem Funkamateur eingehalten werden sollen.
+Die nationalen Amateurfunkverbände haben sich in der "International Amateur Radio Union" (IARU) [index:IARU] zusammengeschlossen. Durch die Zusammenarbeit in der IARU wird ein *weltweit geordnetes Nebeneinander der verschiedenen Betriebsarten auf den Amateurfunkbändern* erreicht. Neben der Interessenvertretung für alle Funkamateure gibt die IARU Bandpläne heraus. Diese enthalten wichtige Empfehlungen der IARU, die von jedem Funkamateur eingehalten werden sollen.
 
 <margin>
 Der *DARC* ist als einziger deutscher Verband in der International Amateur Radio Union (IARU) organisiert und vertritt dort die Interessen seiner Mitglieder in der weltweiten Gemeinschaft der Funkamateure.

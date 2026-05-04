@@ -51,9 +51,9 @@ Auch für diese Frage bemühen wir wieder unsere Formel:
 
 $E = \frac{\qty{300}{\volt}}{\qty{0,15}{\milli\meter}} = \frac{\qty{300}{\volt}}{\qty{0,00015}{\meter}} = \qty{2000000}{\volt\per\meter} = \qty{2000}{\kilo\volt\per\meter}$
 
-Dielektrika können nur eine begrenzte elektrische Feldstärke aushalten, bevor sie ihre Isolationsfähigkeit verlieren. Die Grenzfeldstärke, bei der das geschieht, wird auch als *Durchschlagsfeldstärke* bezeichnet. Wenn wir die Durchschlagfeldstärke und die Dicke des Dielektrikums kennen, können wir die Spannung berechnen, die der Kondensator maximal aushalten kann.
+Dielektrika können nur eine begrenzte elektrische Feldstärke aushalten, bevor sie ihre Isolationsfähigkeit verlieren. Die Grenzfeldstärke, bei der das geschieht, wird auch als *Durchschlagsfeldstärke* bezeichnet. Wenn wir die Durchschlagsfeldstärke und die Dicke des Dielektrikums kennen, können wir die Spannung berechnen, die der Kondensator maximal aushalten kann.
 
-Wenn die Durchschlagfeldstärke $E_d$ und die Dicke des Dielektrikums *d* ist, dann ist die Durchbruchspannung:
+Wenn die Durchschlagsfeldstärke $E_d$ und die Dicke des Dielektrikums *d* ist, dann ist die Durchbruchspannung:
 
 $U_d =E_d \cdot d$
 

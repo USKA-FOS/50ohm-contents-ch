@@ -27,6 +27,6 @@ Schauen wir uns zwei Kenngrößen einer Solarzelle an.
 Diese Kenngrößen sind u.a. für die Auswahl der Betriebsgeräte wie Solarregler, Wechselrichter (DC/AC-Wandler) und DC/DC Wandler wichtig.
 
 Genau wie bei der Reihen- und Parallelschaltung von Akkus bzw. Spannungsquellen, verändert sich die Klemmenspannung und der maximale Laststrom eines Photovoltaikmoduls durch die Zusammenschaltung der einzelnen Solarzellen.
-Wenn wir 30 Solarzellen mit einer Leerlaufspannung von 0,6 V in Reihe schalten, werden die Spannungen addiert. Somit ergibt sich eine Spannung von 18 V. Wenn wir dazu nochmal 3x 30 in Reihe geschaltete Solarzzellen paralell schalten, wird sicher deren Strom addieren. Dies bedeutet, dass bei einem Kurzschlussstrom von 1 A pro Zelle, sich der Kurzschlussstrom bei 4 parallel geschalteten Zellen auf 4 A vergrößert.
+Wenn wir 30 Solarzellen mit einer Leerlaufspannung von 0,6 V in Reihe schalten, werden die Spannungen addiert. Somit ergibt sich eine Spannung von 18 V. Wenn wir dazu nochmal 3x 30 in Reihe geschaltete Solarzellen parallel schalten, wird sicher deren Strom addieren. Dies bedeutet, dass bei einem Kurzschlussstrom von 1 A pro Zelle, sich der Kurzschlussstrom bei 4 parallel geschalteten Zellen auf 4 A vergrößert.
 
 [question:AD301]

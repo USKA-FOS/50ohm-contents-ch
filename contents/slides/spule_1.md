@@ -101,7 +101,7 @@ $L = \dfrac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 
 * Im Gleichstromkreis wirkt eine Spule erst wie ein unendlich großer Widerstand, wird dann aber nach dem Einschaltvorgang so groß wie der Widerstand des Leiters
 * Bei Wechselstrom wird das Magnetfeld in der Spule ständig umgepolt
-* Dadurch entsteht eine Selbstinduktionspannung, die entgegengerichtet ist und stört
+* Dadurch entsteht eine Selbstinduktionsspannung, die entgegengerichtet ist und stört
 * Je höher die Frequenz, umso höher ist der Wechselstromwiderstand der Spule
 
 ---

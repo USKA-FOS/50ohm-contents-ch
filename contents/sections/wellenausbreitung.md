@@ -5,6 +5,6 @@ Funkwellen mit unterschiedlichen Frequenzen verhalten sich unterschiedlich, was 
 * Die Raumwelle durch Brechung an der Ionosphäre (Kurzwelle)
 
 <webmargin>
-[picture:731:n_ionosphäre:Ionosphäre, Troposhäre und Sporadic-E]
+[picture:731:n_ionosphäre:Ionosphäre, Troposphäre und Sporadic-E]
 </webmargin>
 

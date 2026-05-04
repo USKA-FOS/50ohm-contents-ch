@@ -1,4 +1,4 @@
-50ohm.de hat die die BETA-Phase verlassen! Viel Spaß beim Lernen für die Klassen N, E und A wünscht das gesamte 50ohm.de-Team.
+50ohm.de hat die BETA-Phase verlassen! Viel Spaß beim Lernen für die Klassen N, E und A wünscht das gesamte 50ohm.de-Team.
 
 Fehler und Feedback in Prüfungsfragen bitte an [fragenkatalog@darc.de](mailto:fragenkatalog@darc.de), Fehler und Feedback zur Plattform bitte über [50ohm@darc.de](mailto:50ohm@darc.de) melden. 
 

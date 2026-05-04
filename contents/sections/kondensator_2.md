@@ -1,118 +1,116 @@
-Das Verhalten eines Kondensators an einer Wechselspannung soll nun genauer betrachtet werden.
+In der Klasse E haben wir bereits die Kapazität eines Kondensators sowie sein qualitatives Verhalten bei Wechselspannung kennengelernt: Ein Kondensator verhält sich wie ein frequenzabhängiger Widerstand. Dabei haben wir zunächst festgehalten, dass der kapazitive Blindwiderstand umgekehrt proportional zur Frequenz ist. Verringert man die Frequenz, so wird der Blindwiderstand $X_C$ größer. Erhöht man hingegen die Frequenz, nimmt der Widerstand entsprechend ab. Der Sachverhalt eines Kondensators bei Wechselspannung lässt sich durch die Formel für den kapazitiven Blindwiderstand $X_C$ beschreiben:
 
-Die Strom- und Spannungsmessung an einem Kondensator mit Hilfe eines Zweikanal-Oszilloskops zeigt ein überraschendes Ergebnis, denn man sieht eine Phasenverschiebung von 90 Grad, wobei der Strom der Spannung vorauseilt.
+$|X_C| = \frac{1}{\omega\cdot C} = \frac{1}{2\pi\cdot f \cdot C}$
 
-Merke: Kondensatooor, Strom eilt vooor!
-
----
-[question:AC101]
-<margin>
-[photo:268:a_I_eilt_vor:Phasenverschiebung am Kondensator zwischen Spannung und Strom]
-</margin>
-
-[picture:943:a_Blindleistung_Kondensator:Das Produkt von $U \cdot I$ ergibt die grüne Leistungskurve]
-
-Die Phasenverschiebung zwischen Spannung und Strom beträgt $\qty{90}{\degree}$, wobei der Strom voreilend ist. Daraus ergibt sich eine Leistungskurve, die um die Nulllinie symmetrisch schwankt. Der Mittelwert der Leistungskurve ergibt Null, d.h. es wird keine Wirkleistung aufgenommen. Wir sprechen deshalb bei einem verlustfreien Kondensator von Blindleistung und Blindwiderstand.
-% entfernt photo:258:a_Blindleistung:Blindleistung siehe grüne Sinuskurve
-
-[question:AC111]
-Diese Frage können wir ohne Rechnung beantworten: Nur ein ohmscher Widerstand nimmt Wirkleistung auf, denn bei ihm sind Spannung und Strom in Phase, d.h. es gibt keine Phasenverschiebung zwischen Spannung und Strom. Das bedeutet Strom und Spannung sind immer gleichzeitig positiv oder negativ und damit ist die Leistung $U\cdot I$ immer positiv. Ein Blindwiderstand nimmt keine Wirkleistung auf und deshalb wird er im Idealfall auch nicht warm. Sollte ein Kondensator bei Hochfrequenzanwendungen warm werden, dann hat er Verluste und muss durch einen Kondensator mit geringeren Verlusten ersetzt werden.
-
-[question:AC103]
-
-Wird ein Kondensator an Wechselspannung angeschlossen, dann fließt ein Wechselstrom, denn der Kondensator wird ständig geladen und entladen. Um diese Eigenschaft zu beschreiben sagen wir, der Kondensator hat einen Wechselstromwiderstand und nennen diesen Widerstand kapazitiver Blindwiderstand $X_C$.
-
-1. Wenn die Frequenz der Wechselspannung an einem Kondesator erhöht wird, dann fließt mehr Strom. Dies bedeutet, der kapazitive Blindwiderstand ist kleiner geworden. 
-2. Wenn die Kapazität des Kondensators erhöht wird, dann steigt auch der Strom, d.h. der Blindwiderstand wird auch kleiner.
-
-Daraus ergibt sich die Berechnungsformel (siehe Formelsammlung: Kapazitiver Blindwiderstand):
-$X_C = \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}$
-
-Moderne, kostengünstige Messgeräte, die Funkamateure heutzutage gerne einsetzen, sind Antennenanalyzer oder vektorielle Network Analyzer (VNA). Sie messen die Veränderung des Blindwiderstandes $X_C$ in Abhängigkeit der Frequenz und können das Messergebnis auch grafisch darstellen.
-
-[photo:248:a_kapazitiver_Blindwiderstand:Kapazitiver Blindwiderstand $X_C$]
-
-Abbildung [ref:a_kapazitiver_Blindwiderstand] zeigt die Veränderung des kapazitiven Blindwiderstandes (blaue Linie) eines $\qty{1500}{\pico\farad}$ Styroflexkondensators im Frequenzbereich von $\qtyrange{1}{4,5}{\mega\hertz}$. Die rote Linie stellt die Phasenlage des kapazitiven Blindwiderstandes bei nahezu konstanten $\qty{-90}{\degree}$ dar.
+In der Klasse A wollen wir dieses Verhalten nun genauer betrachten und auch erfahren, warum dieser Widerstand als "Blindwiderstand" bezeichnet wird. Zunächst müssen wir uns allerdings noch merken, dass der Blindwiderstand eines Kondensators auch negativ ist, um die folgende Frage lösen zu können: 
 
 [question:AC102]
 
-Die blaue Linie von Abbildung [ref:a_kapazitiver_Blindwiderstand] hilft zur Lösung.
+<indepth>
+Warum ist der kapazitive Blindwiderstand negativ? Der Hintergrund liegt in der komplexen Wechselstromrechnung, die für die Amateurfunkprüfung nicht zwingend erforderlich ist.
+
+Für Leserinnen und Leser mit Kenntnissen in komplexen Zahlen sei jedoch angemerkt, dass die korrekte Darstellung des kapazitiven Blindwiderstands eigentlich
+
+$X_C = \frac{1}{j\omega C}$
+
+lautet. Dabei steht $j$ für die imaginäre Einheit $\sqrt{-1}$.
+
+Erweitert man diesen Ausdruck mit $j$, ergibt sich:
+
+$X_C = \frac{1}{j\omega C} = \frac{1 \cdot j}{j\omega C \cdot j} =\frac{-j}{\omega C}$
+
+Daraus wird ersichtlich, dass der kapazitive Blindwiderstand nicht nur negativ, sondern auch komplex ist. Das negative Vorzeichen beschreibt dabei die Phasenlage zwischen Strom und Spannung am Kondensator welche wir in diesem Kapitel noch genauer betrachten.
+</indepth>
 
 ---
 
-<tip>
-Kennt man den kapazitiven Blindwiderstand und die Frequenz der Wechselspannung, dann kann auch die Kapazität des Kondensators berechnet werden. 
-Betrachten wir das Beispiel genauer und verwenden die Formel:
-$X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}$
-umgestellt nach C:
-$C =\frac{1}{{2\pi \cdot f \cdot X_C}}$
-mit eingesetzten Werten aus der Abbildung [ref:a_kapazitiver_Blindwiderstand]: 
+Moderne, kostengünstige Messgeräte, die Funkamateure heutzutage gerne einsetzen, sind Antennenanalyzer oder vektorielle Network Analyzer (VNA). Sie messen die Veränderung des Blindwiderstandes $X_C$ in Abhängigkeit der Frequenz und können das Messergebnis auch grafisch darstellen.
+Abbildung [ref:a_kapazitiver_Blindwiderstand] zeigt die Veränderung des kapazitiven Blindwiderstandes (blaue Linie) eines $\qty{1500}{\pico\farad}$ Styroflexkondensators im Frequenzbereich von $\qtyrange{1}{4,5}{\mega\hertz}$. 
 
-$X_C = \qty{50}{\ohm} \text{ bei } \qty{2}{\mega\hertz}$
-$C = \frac{1}{6,28 \cdot 2 \cdot 10^6 \cdot 50}$
-Bei der Berechnung mit dem Taschenrechner ist die Zehnerpotenz für Megahertz einzugeben.
-Das Ergebnis lautet: $\qty{0,000000001592}{\farad}$
-$C = \qty{1592}{\pico\farad}$
-</tip>
+<margin>
+[photo:248:a_kapazitiver_Blindwiderstand:Kapazitiver Blindwiderstand $X_C$ (Blaue Kurve) und Phasenlage (Rote Kurve) eines $\qty{1500}{\pico\farad}$ Styroflexkondensators im Frequenzbereich von $\qtyrange{1}{4,5}{\mega\hertz}$.]
+</margin>
+
+
+Versuche nun die folgenden Fragen durch die obige Formel zu beantworten. Achte dabei besonders auf die Einheiten bzw. die Zehnerpotenzen, damit du die richtigen Ergebnisse erhältst.
 
 [question:AC104]
-Bei den folgenden Berechnungen von $X_C$ müssen immer die Zehnerpotenzen beachtet werden. Die Berechnungsformel lautet:
-$X_C = \frac{1}{\omega \cdot C} = \frac{1}{{2\pi \cdot f \cdot C}}$
-
-Folgende Werte müssen eingesetzt werden: $C = \qty{10}{\pico\farad} = \qty{10e-12}{\farad}$ und $f = \qty{100}{\mega\hertz} = \qty{100e6}{\hertz}$
-
-So könnte eine schrittweise Berechnung mit diesen Werten aussehen, wenn wir der Einfacheit halber für $2\pi$ den Wert $\num{6,28}$ einsetzen:
-
-$\begin{split} 6,28 \cdot 10 \cdot 100 &= 6280 \\ 10^{-12} \cdot 10^6 &= 10^{-6} \\ \num{6280} \cdot 10^{-6} &= \num{0,00628} \\ 1/\num{0,00628} &= \num{159} \end{split}$
-
-Bei den folgenden Fragen verwenden wir die gleiche Formel und ändern nur die eingesetzten Werte.
 [question:AC105]
-
 [question:AC106]
-
 [question:AC107]
 
+Bei der folgenden Frage ist die Kapazität gesucht. Versuche hierfür die Formel umzustellen, damit du die Kapazität $C$ berechnen kannst:
+
 [question:AC108]
-Bei der Frage AC108 muss die Kapazität aus dem kapazitiven Blindwiderstand $X_C$ und der Frequenz berechnet werden:
-* Zuerst wird $X_C$ berechnet:
-  $X_C = \frac{U}{I} = \frac{\qty{16}{\volt}}{\qty{32}{\milli\ampere}} = \qty{500}{\ohm}$
-* Danach wird die Formel für $C$ angewendet:
-  $C = \frac{1}{2\pi \cdot f \cdot X_C} = \frac{1}{6,28 \cdot \qty{50}{\hertz} \cdot \qty{500}{\ohm}} \approx 6,37\cdot \qty{10^{-6}}{\farad} = \qty{6,37}{\micro\farad}$
-* Im Ergebnis taucht die Zehnerpotenz $10^{-6}$ auf, die in eine Vorsilbe umgewandelt werden muss.
-
-*Kondensatorverluste*
-
-Die vielfältigen Kondensatorarten unterscheiden sich auch hinsichtlich ihrer unerwünschten Verluste bei der Belastung durch Hochfrequenzströme. Die technische Beurteilung geschieht über den Begriff der Güte $Q$ (Quality) und dem sogenannten "Tangens delta" (kurz $\tan\delta$).
-
-Merke: Hohe Verluste ergeben eine niedrige Güte und damit ein großes $\tan\delta$.
 
 ---
-[photo:259:a_tan_delta:$\tan\delta$ verschiedener Kondensatorarten]
 
-Wenn man die $\tan\delta$ Kurven der Kondensatoren in Abbildung [ref:a_tan_delta] betrachtet, sieht man, dass Glimmerkondensatoren die kleinsten $\tan\delta$-Werte besitzen und damit die höchste Güte und die niedrigsten Verluste aufweisen.
-%todo TAN Delta Kurven neu zeichnen ???
+Führt man eine gleichzeitige Strom- und Spannungsmessung an einem Kondensator mit einem Zweikanal-Oszilloskop durch (vgl. [ref:a_strom_eilt_vor]), zeigt sich ein zunächst überraschendes Ergebnis: Zwischen Strom und Spannung besteht eine Phasenverschiebung von $\qty{90}{\degree}$, wobei der Strom der Spannung vorausläuft.
+
+Das bedeutet, dass der Strom bereits seinen Maximalwert erreicht, während die Spannung noch ansteigt. Dieses charakteristische Verhalten ist eine grundlegende Eigenschaft von Kondensatoren und spielt eine wichtige Rolle in der Wechselstromtechnik, insbesondere bei Filtern und Schwingkreisen.
+Die rote Linie in Abbildung [ref:a_kapazitiver_Blindwiderstand] stellt die Phasenlage des kapazitiven Blindwiderstandes bei nahezu konstanten $\qty{-90}{\degree}$ dar.
+
+[question:AC101]
+
+<margin>
+[photo:268:a_strom_eilt_vor:Phasenverschiebung am Kondensator zwischen Spannung und Strom]
+</margin>
+
+<tip>
+Merkhilfe: Beim Kondensat*ooo*r eilt der Strom v*ooo*r!
+</tip>
+
+---
+
+Die Phasenverschiebung zwischen Spannung und Strom beträgt also $\qty{90}{\degree}$, wobei der Strom (rot) der Spannung (blau) voreilt, wie in Abbildung [ref:a_blindleistung_kondensator] gezeigt. Betrachtet man die momentane Leistung mit $P = U \cdot I$, so ergibt sich eine Leistungskurve (grün), die symmetrisch um die Nulllinie schwankt, ebenfalls dargestellt in Abbildung [ref:a_blindleistung_kondensator].
+
+<margin>
+[picture:943:a_blindleistung_kondensator:Das Produkt von $U \cdot I$ ergibt die grüne Leistungskurve]
+</margin>
+
+Der Mittelwert dieser Leistung ist Null, das heißt, es wird keine Wirkleistung umgesetzt. Stattdessen wird Energie periodisch im elektrischen Feld des Kondensators gespeichert und wieder an die Quelle zurückgegeben. Man spricht daher bei einem ideal verlustfreien Kondensator von Blindleistung und einem Blindwiderstand.
+
+Nur ein ohmscher Widerstand nimmt Wirkleistung auf, da bei ihm Spannung und Strom in Phase sind, also keine Phasenverschiebung vorliegt. Das bedeutet, dass Spannung und Strom gleichzeitig positiv oder negativ sind, sodass die momentane Leistung $P = U \cdot I$ stets positiv ist.
+
+Ein idealer Blindwiderstand hingegen nimmt keine Wirkleistung auf und wird daher im Idealfall auch nicht warm. Stattdessen wird Energie periodisch gespeichert und wieder an die Quelle zurückgegeben.
+
+[question:AC111]
+
+[question:AC103]
+
+---
+
+Erwärmt sich ein Kondensator in Hochfrequenzanwendungen dennoch, so ist dies ein Hinweis auf Verluste im Bauteil. Ein idealer Kondensator würde keine Energie in Wärme umsetzen, reale Kondensatoren besitzen jedoch parasitäre Eigenschaften, die zu Verlusten führen.
+
+Diese Verluste lassen sich im Ersatzschaltbild erkennen: Der Widerstand $R_\text{ESR}$ (Equivalent Series Resistance) beschreibt die ohmschen Verluste im Kondensator, während $R_\text{Isolator}$ die Verluste im Dielektrikum modelliert. Zusätzlich beeinflusst die parasitäre Induktivität $L_\text{ESL}$ das Verhalten bei hohen Frequenzen.
+
+Zur technischen Bewertung dieser Verluste verwendet man die Güte $Q$ (Quality Factor) sowie den Verlustfaktor $\tan\delta$. Beide Größen beschreiben, wie stark ein realer Kondensator vom idealen Verhalten abweicht.
+
+Zwischen beiden Größen besteht ein direkter Zusammenhang:
+
+$Q = \frac{1}{\tan\delta}$
+
+Merke: Hohe Verluste führen zu einer niedrigen Güte $Q$ und damit zu einem großen Verlustfaktor $\tan\delta$. Je höher die Frequenz, desto stärker wirken sich diese Verluste aus, da der Blindwiderstand $X_C$ mit steigender Frequenz abnimmt, während die parasitären Widerstände konstant bleiben.
+
+<margin>
+[picture:1065:a_ersatzchaltbild_kondensator:Ersatzschaltbild eines realen Kondensators mit parasitären Verlusten.]
+</margin>
+
+---
 
 [question:AC109]
 
 [question:AC110]
 
 <indepth>
-Erklärung des $\tan\delta$ mit Hilfe eines Zeigerdiagramms:
+Durch die komplexe Wechselstromrechnung kann man den Blindwiderstand $X_C$ mit den parasitären Verlusten $R$ in Form eines Zeigerdiagramms darstellen: 
+[picture:1066:a_tan_delta:$\tan\delta$ im Komplexen Zeigerdiagramm]
 
-[photo:261:a_tan_delta_Zeigerdiagramm:Veranschaulichung des $\tan\delta$ an Hand des Zeigerdiagramms für einen verlustbehafteten Kondensator.]
+Der Tangens beschreibt ja das Verhältnis von Gegenkathete zu Ankathete, also in diesem Fall die Verluste $R$ im Verhältnis zum verlustfreien kapazitiven Blindwiderstand $X_C$. 
 
-In Datenblättern wird statt des $\tan\delta$ manchmal auch der serielle Verlustwiderstand (engl. Equivalent Series Resistance, ESR) des Kondensators bei einer bestimmten Betriebsfrequenz angegeben.
+$\tan\delta = \frac{R}{|X_C|}$
 
-[photo:260:a_Kondensator_Ersatzschaltbild:Ersatzschaltbild eines realen Kondensators mit einem seriellen Verlustwiderstand (ESR).]
+Je größer die Verluste, desto größer ist der Winkel $\delta$ und damit auch der Verlustfaktor $\tan\delta$. Ein idealer Kondensator würde einen Winkel von $\delta = 0$ Grad aufweisen, da er keine Verluste hat.
 
-In linear geregelten Netzteilen und in Schaltnetzteilen müssen Elektrolytkondensatoren mit sehr niedrigem ESR verwendet werden.
+Durch diese komplexe bzw. geometrische Addition ergibt sich die Größe $Z$. Sie wird als *Impedanz* bezeichnet und beschreibt den komplexen Gesamtwiderstand eines Bauteils. Der Betrag der Impedanz $|Z|$ entspricht dem sogenannten *Scheinwiderstand*.
 </indepth>
-<margin>
-| l:Zusammenfassung Kondensator 2 | l: |
-| *MERKE: Kondensatooor, Strom eilt vooor!* | |
-| Formelsammlung: Kapazitiver Blindwiderstand| $X_C = \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}$|
-| Umgestellt nach C: | $C =\frac{1}{{2\pi \cdot f \cdot X_C}}$|
-| Hohe Kondensatorverluste bewirken: | niedrige Güte; großer $\tan\delta$; großer ESR|
-[table:a_Kondensator_2_Zusammenfassung:Zusammenfassung kapazitiver Blindwiderstand und Güte]
-</margin>
-

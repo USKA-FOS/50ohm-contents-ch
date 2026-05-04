@@ -1,12 +1,14 @@
 <left>
 [picture:733:e_sporadic_e:Refraktion bei Sporadic-E]
-[picture:865:e_wellenausbreitung_refraktion:Refraktion an Schichten der Ionosphäre]
+* Sporadic-E: stark ionisierte Bereiche in der E-Region
+* Reflexion von hohen Kurzwellenbändern und VHF
 </left>
 <right>
-* Sporadic E ist ein besonders stark ionisiertert Bereich in der E-Region
-* Reflexion von hohen Kurzwellenbändern und VHF
-* Tausende Kilometer sind möglich
-* Die Tote Zone wird reduziert
+* Mit steigender Frequenz tritt Sporadic E seltener auf
+* Bei hoher Sonnenaktivität: F-Region-Ausbreitung (z. B. $\qty{10}{\meter}$-Band) möglich
+* Sporadic E kann störend wirken: Funkwellen erreichen die F-Region nicht
+* Sprungdistanzen auf ca. $\qty{2200}{\kilo\meter}$ begrenzt
+* Tote Zone kann verschwinden
 </right>
 
 ---

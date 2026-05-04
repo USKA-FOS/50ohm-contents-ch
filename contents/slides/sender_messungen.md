@@ -93,7 +93,7 @@ Keine Berechnung notwendig, da es nur eine Antwort mit Dämpfungsglied gibt
 
 
 <fragment>
-$\begin{split}R &= (\frac{1}{R_T + R_T} + \frac{1}{R_V} + \frac{1}{R_V})^{-1}\\ &= (\frac{1}{\qty{330}{\ohm} + \qty{330}{\ohm}} + \frac{1}{\qty{110}{\ohm}} + \frac{1}{\qty{110}{\ohm}})^{-1}\\ &= \qty{50,77}{\ohm}\end{split}$
+$\begin{split}R &= \left(\frac{1}{R_T + R_T} + \frac{1}{R_V} + \frac{1}{R_V}\right)^{-1}\\ &= \left(\frac{1}{\qty{330}{\ohm} + \qty{330}{\ohm}} + \frac{1}{\qty{110}{\ohm}} + \frac{1}{\qty{110}{\ohm}}\right)^{-1}\\ &= \qty{50,77}{\ohm}\end{split}$
 </fragment>
 
 --- style="font-size: smaller;"
@@ -146,12 +146,12 @@ $\begin{split}U_A &= \frac{U_S}{2}\,-\,U_F\\ &= \frac{\qty{10,07}{\volt}}{2}\,-\
 
 <left>
 <fragment>
-$\begin{split}R &= (\frac{1}{R_T + R_T} + \frac{1}{R_1})^{-1}\\ &= (\frac{1}{\qty{330}{\ohm} + \qty{330}{\ohm}} + \frac{1}{\qty{54,1}{\ohm}})^{-1}\\ &= \qty{50}{\ohm}\end{split}$
+$\begin{split}R &= \left(\frac{1}{R_T + R_T} + \frac{1}{R_1}\right)^{-1}\\ &= \left(\frac{1}{\qty{330}{\ohm} + \qty{330}{\ohm}} + \frac{1}{\qty{54,1}{\ohm}}\right)^{-1}\\ &= \qty{50}{\ohm}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split}U_S &= (U_A + U_F) \cdot 2\\ &= (\qty{14,9}{\volt} + \qty{0,7}{\volt}) \cdot 2\\ &= \qty{31,2}{\volt}\end{split}$
+$\begin{split}U_S &= \left(U_A + U_F\right) \cdot 2\\ &= \left(\qty{14,9}{\volt} + \qty{0,7}{\volt}\right) \cdot 2\\ &= \qty{31,2}{\volt}\end{split}$
 </fragment>
 </right>
 

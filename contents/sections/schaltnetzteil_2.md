@@ -30,7 +30,7 @@ Die Drossel T darf keine Transformatorfunktion für die Netzwechselspannung bewi
 
 [question:AD314]
 [question:AD313]
-Bei ungenügend entstörten Schaltnetzteilen beinträchtigt das Störspektrum den Funkempfang.
+Bei ungenügend entstörten Schaltnetzteilen beeinträchtigt das Störspektrum den Funkempfang.
 <margin>
 [photo:277:a_störspektrum:Störspektrum eines Schaltnetzteils]
 Das Störspektrum wurde direkt oberhalb des Schaltnetzteilgehäuses empfangen. In $\qty{1}{\meter}$ Entfernung ist das Störspektrum kaum messbar.

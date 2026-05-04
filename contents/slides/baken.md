@@ -50,7 +50,7 @@ Keinen Funkbetrieb dort durchführen!
 </fragment>
 </right>
 <note>
-* Sinnvoll, um sich schnell einen Überblick über die Ausbreitungsbedigungen zu verschaffen
+* Sinnvoll, um sich schnell einen Überblick über die Ausbreitungsbedingungen zu verschaffen
 </note>
 
 ---

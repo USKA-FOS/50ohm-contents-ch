@@ -28,19 +28,19 @@ $\qty{435}{\mega\hertz} \cdot \frac{1}{\num{10^6}} = \frac{435\cdot \qty{\cancel
 #### Lösungsweg Teil 1
 * gegeben: $f = \qty{14,200000}{\mega\hertz}$
 * gegeben: $\textrm{Abw.} = \qty{10}{\ppm}$
-* gesucht: $f_\text{min}, f_\text{max}$
+* gesucht: $f_{\mathrm{min}}, f_{\mathrm{max}}$
 
 <fragment>
-$\begin{split}f_\text{min} &= f\,-\,f \cdot \frac{10}{\num{10^6}}\\ &= \qty{14,2}{\mega\hertz}\,-\,\frac{14,2\cdot \qty{\cancel{10^6}}{\hertz}\cdot 10}{\cancel{\num{10^6}}}\\ &= \qty{14,2}{\mega\hertz}\,-\,\qty{142}{\hertz}\\ &= \qty{14,199858}{\mega\hertz}\end{split}$
+$\begin{split}f_{\mathrm{min}} &= f\,-\,f \cdot \frac{10}{\num{10^6}}\\ &= \qty{14,2}{\mega\hertz}\,-\,\frac{14,2\cdot \qty{\cancel{10^6}}{\hertz}\cdot 10}{\cancel{\num{10^6}}}\\ &= \qty{14,2}{\mega\hertz}\,-\,\qty{142}{\hertz}\\ &= \qty{14,199858}{\mega\hertz}\end{split}$
 </fragment>
 ---
 #### Lösungsweg Teil 2
 * gegeben: $f = 14,200.\qty{000}{\mega\hertz}$
 * gegeben: $\textrm{Abw.} = \qty{10}{\ppm}$
-* gesucht: $f_\text{min}, f_\text{max}$
+* gesucht: $f_{\mathrm{min}}, f_{\mathrm{max}}$
 
 <fragment>
-$\begin{split}f_\text{max} &= f\,+\,f \cdot \frac{10}{\num{10^6}}\\ &= \qty{14,2}{\mega\hertz}\,+\,\frac{14,2\cdot \qty{\cancel{10^6}}{\hertz}\cdot 10}{\cancel{10^6}}\\ &= \qty{14,2}{\mega\hertz}\,+\,\qty{142}{\hertz}\\ &= \qty{14,200142}{\mega\hertz}\end{split}$
+$\begin{split}f_{\mathrm{max}} &= f\,+\,f \cdot \frac{10}{\num{10^6}}\\ &= \qty{14,2}{\mega\hertz}\,+\,\frac{14,2\cdot \qty{\cancel{10^6}}{\hertz}\cdot 10}{\cancel{10^6}}\\ &= \qty{14,2}{\mega\hertz}\,+\,\qty{142}{\hertz}\\ &= \qty{14,200142}{\mega\hertz}\end{split}$
 </fragment>
 ---
 [question:AI506]
@@ -81,17 +81,17 @@ $\begin{split}\Delta f &= \qty{100}{\mega\hertz} \cdot \frac{1}{\num{10^6}}\\ &=
 #### Lösungsweg
 * gegeben: $f = \qty{145}{\mega\hertz}$
 * gegeben: $\textrm{Abw.} = \qty{10}{\ppm}$
-* gesucht: $f_\text{min},f_\text{max}$
+* gesucht: $f_{\mathrm{min}}, f_{\mathrm{max}}$
 
 <fragment>
 $\begin{split}\Delta f &= \qty{145}{\mega\hertz} \cdot \frac{10}{10^6}\\ &= \frac{145\cdot \qty{\cancel{10^6}}{\hertz} \cdot 10}{\cancel{10^6}}\\ &= \qty{1450}{\hertz}\end{split}$
 </fragment>
 <fragment>
 <left>
-$\begin{split}f_\text{min} &= f\,-\,\Delta f\\ &= \qty{145}{\mega\hertz}\,-\,\qty{1450}{\hertz}\\ &= \qty{144,99855}{\mega\hertz}\end{split}$
+$\begin{split}f_{\mathrm{min}} &= f\,-\,\Delta f\\ &= \qty{145}{\mega\hertz}\,-\,\qty{1450}{\hertz}\\ &= \qty{144,99855}{\mega\hertz}\end{split}$
 </left>
 <right>
-$\begin{split}f_\text{max} &= f\,+\,\Delta f\\ &= \qty{145}{\mega\hertz}\,+\,\qty{1450}{\hertz}\\ &= \qty{145,00145}{\mega\hertz}\end{split}$
+$\begin{split}f_{\mathrm{max}} &= f\,+\,\Delta f\\ &= \qty{145}{\mega\hertz}\,+\,\qty{1450}{\hertz}\\ &= \qty{145,00145}{\mega\hertz}\end{split}$
 </right>
 </fragment>
 ---
@@ -100,8 +100,8 @@ $\begin{split}f_\text{max} &= f\,+\,\Delta f\\ &= \qty{145}{\mega\hertz}\,+\,\qt
 #### Lösungsweg
 * gegeben: $f = \qty{144,400}{\mega\hertz}$
 * gegeben: $\textrm{Abw.} = \qty{1}{\ppm}$
-* gegeben: $f_{B,\text{max}} = \qty{2,7}{\kilo\hertz}$
-* gesucht: $f_{B,\text{max},\text{Abw}}$
+* gegeben: $f_{B,\mathrm{max}} = \qty{2,7}{\kilo\hertz}$
+* gesucht: $f_{B,\mathrm{max},\text{Abw}}$
 
 <fragment>
 <left>
@@ -110,6 +110,6 @@ $\begin{split}\Delta f &= \qty{144,4}{\mega\hertz} \cdot \frac{1}{\num{10^6}}\\ 
 </fragment>
 <fragment>
 <right>
-$\begin{split}f_{B,\text{max},\text{Abw}} &= f_{B,\text{max}} + \Delta f\\ &= \qty{2,7}{\kilo\hertz} + \qty{144,4}{\hertz}\\ &= \qty{2,8444}{\kilo\hertz}\end{split}$
+$\begin{split}f_{B,\mathrm{max},\text{Abw}} &= f_{B,\mathrm{max}} + \Delta f\\ &= \qty{2,7}{\kilo\hertz} + \qty{144,4}{\hertz}\\ &= \qty{2,8444}{\kilo\hertz}\end{split}$
 </right>
 </fragment>

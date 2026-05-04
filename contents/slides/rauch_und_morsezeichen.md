@@ -12,10 +12,9 @@ Beispiel: 3 Rauchwolken mit jeweils 30 Sekunden Abstand bedeuten "CQ"
 * Funkgerät erzeugt mit Oszillator eine Schwingung
 * Drücken der Morsetaste bringt diese Schwingung auf die Antenne
 * Empfänger macht diese Aussendung hörbar
+* Unterscheidung zwischen kurzem oder langem Drücken und Pausen möglich
 </left>
 <right>
-* Unterscheidung zwischen kurzem oder langem Drücken und Pausen möglich
-
 [photo:109:n_cwtast:Morsetasten]
 </right>
 <note>

@@ -10,7 +10,7 @@ Für die nationale Definition der Amateurfunkstelle vergleichen wir wieder das A
 
 "Im Sinne dieses Gesetzes ist ... eine Amateurfunkstelle eine Funkstelle, die aus einer oder mehreren Sendefunkanlagen und Empfangsfunkanlagen einschließlich der Antennenanlagen und der zu ihrem Betrieb erforderlichen Zusatzeinrichtungen besteht und die auf mindestens einer der im Frequenznutzungsplan für den Amateurfunkdienst ausgewiesenen Frequenzen betrieben werden kann."
 
-Die Definion einer Amateurfunkstelle ist uns bereits bei den Radio Regulations (RR) begegnet. Auch hier gibt es keine grundsätzlichen Unterschiede zu unserem Amateurfunkgesetz (AFuG). Eine Amateurfunkstelle besteht aus einer oder mehreren Sende- und Empfangsfunkanlagen einschließlich der Antennenanlagen und der zu ihrem Betrieb erforderlichen Zusatzeinrichtungen. Die Funkstelle muss auf mindestens einer Amateurfunkfrequenz betrieben werden können.
+Die Definition einer Amateurfunkstelle ist uns bereits bei den Radio Regulations (RR) begegnet. Auch hier gibt es keine grundsätzlichen Unterschiede zu unserem Amateurfunkgesetz (AFuG). Eine Amateurfunkstelle besteht aus einer oder mehreren Sende- und Empfangsfunkanlagen einschließlich der Antennenanlagen und der zu ihrem Betrieb erforderlichen Zusatzeinrichtungen. Die Funkstelle muss auf mindestens einer Amateurfunkfrequenz betrieben werden können.
 
 [question:VC103]
 

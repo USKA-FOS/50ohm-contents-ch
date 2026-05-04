@@ -16,5 +16,5 @@
 * Ladetechnik von Akkus
 
 <note>
-Labornetzgeräte werden im nächsten Abnschitt weiter behandelt
+Labornetzgeräte werden im nächsten Abschnitt weiter behandelt
 </note>

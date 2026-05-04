@@ -21,7 +21,7 @@
 * In der Praxis kommt Schmalband-FM (englisch Narrow- FM, kurz NFM) mit $\qty{12}{\kilo\hertz}$ Bandbreite zum Einsatz
 
 <note>
-Lauter in das Mirkofon sprechen &rarr; Amplitude des Modulationssignals wird größer
+Lauter in das Mikrofon sprechen &rarr; Amplitude des Modulationssignals wird größer
 Bandplan beachten, wo maximal 12 kHz Bandbreite belegt werden darf.
 </note>
 

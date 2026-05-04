@@ -14,6 +14,9 @@
 ---
 [question:NH102]
 ---
+
+## Sonnenzyklus
+
 <left>
 [picture:729:n_ionosphaere_sonnenflecken:Die Anzahl der Sonnenflecken, die über den elfjährige Sonnenzyklus schwankt]
 </left>
@@ -27,12 +30,15 @@
 ---
 [question:NH201]
 ---
+
+## Tote Zone
+
 <left>
 [picture:741:n_ionosphaere_tote_zone:Die Tote Zone, die für die Bodenwelle zu nah und für die Raumwelle zu weit weg ist.]
 </left>
 <right>
 * Auf Kurzwelle kann es zu einer *Toten Zone* kommen
-* Für die Bodenwelle zu weit -- für die Raumwelle zu nah
+* Für die Bodenwelle zu weit – für die Raumwelle zu nah
 * Nur eine Seite einer Funkverbindung hörbar
 </right>
 

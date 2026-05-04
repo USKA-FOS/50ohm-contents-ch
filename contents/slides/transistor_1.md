@@ -113,7 +113,7 @@ Hier muss man auf die Vorzeichen achten und bei negativen Vorzeichen umdenken, B
 
 ---
 
-Entweder erkennet man das intuitiv oder man rechnet es (unter Beachtung der Vorzeichen) aus.
+Entweder erkennt man das intuitiv oder man rechnet es (unter Beachtung der Vorzeichen) aus.
 
 $U_{ BE } = U_{ B } - U_{ E }$
 
@@ -136,7 +136,7 @@ Hier muss man auf die Vorzeichen achten und bei negativen Vorzeichen umdenken, B
 
 ---
 
-Entweder erkennet man das intuitiv oder man rechnet es (unter Beachtung der Vorzeichen) aus.
+Entweder erkennt man das intuitiv oder man rechnet es (unter Beachtung der Vorzeichen) aus.
 
 $U_{ BE } = U_{ B } - U_{ E }$
 

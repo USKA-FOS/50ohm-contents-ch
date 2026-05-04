@@ -28,7 +28,7 @@
 * Erreichbarkeit während des Betriebs unter den angegebenen Kontaktdaten
 
 <note>
-* Die BNetzA möchte keine Störungen haben und deshalb einen Betrieber immer erreichen können
+* Die BNetzA möchte keine Störungen haben und deshalb einen Betreiber immer erreichen können
 </note>
 ---
 [question:VD602]

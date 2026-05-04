@@ -40,9 +40,8 @@ BK QSL = VY 73 DE DL2AB SK
 Das QSO wird nach Erklärungen Abkürzungen Schritt für Schritt erläutert
 </note>
 
---- style="font-size: 0.7em;"
+---
 
-<left>
 | l: Abkz. | l: Bedeutung |
 | BK | Unterbrechung der Sendung; Formlose Übergabe |
 | CQ | Allgemeiner Anruf (vom Englischen "Seek You") |
@@ -53,8 +52,9 @@ Das QSO wird nach Erklärungen Abkürzungen Schritt für Schritt erläutert
 | R | Received (Empfangsbestätigung) |
 | RPRT | Rapport (vom Englischen "Report") |
 [table:n_funkfernschreiben_abkuerzungen_1:Betriebliche Abkürzungen in der Telegrafie]
-</left>
-<right>
+
+--- 
+
 | l: Abkz. | l: Bedeutung |
 | RST | RST-Rapport |
 | SK | Ende der Verbindung (vom Englischen "Silent Key") |
@@ -64,9 +64,9 @@ Das QSO wird nach Erklärungen Abkürzungen Schritt für Schritt erläutert
 | 73 | viele Grüße |
 | = | Trennzeichen |
 [table:n_funkfernschreiben_abkuerzungen_2:Betriebliche Abkürzungen in der Telegrafie]
-</right>
 
 ---
+
 Teil 1 unseres Beispiel-Gesprächs:
 
 <qso>

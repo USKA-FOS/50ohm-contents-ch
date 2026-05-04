@@ -1,6 +1,6 @@
 Der Amateurfunkdienst hat in einigen zugewiesenen Frequenzbereichen primäre und in anderen Bereichen nur sekundäre Nutzungsrechte:
-* *Primär* bedeutet, dass wir vor anderen Funkdiensten Vorrang haben und von diesen keine Störungen hinnehmen müssen.
-* *Sekundär* bedeutet, dass wir als Funkamateure andere Funkdienste nicht stören dürfen und Störungen durch diese hinnehmen müssen.
+* *Primär* [index:Frequenzzuteilung:Primär] bedeutet, dass wir vor anderen Funkdiensten Vorrang haben und von diesen keine Störungen hinnehmen müssen.
+* *Sekundär* [index:Frequenzzuteilung:Sekundär] bedeutet, dass wir als Funkamateure andere Funkdienste nicht stören dürfen und Störungen durch diese hinnehmen müssen.
 
 [question:VD704]
 [question:VD705]
@@ -19,6 +19,6 @@ Eine Besonderheit stellen Küstenfunkstellen des Seefunkdienstes dar. Obwohl uns
 
 [question:VD707]
 
-Eine weitere Besonderheit ist der sogenannte ISM-Bereich. Ein Teilbereich des $\qty{70}{\centi\meter}$-Amateurfunkbandes wird für Anwendungen aus den Bereichen Industrie, Wissenschaft und Medizin, aber auch von Haushaltsgeräten mitbenutzt. Die Abkürzung ISM kommt von der englischen Bezeichnung "Industrial, Scientific and Medical Band". Dort finden sich z. B. Signale von Garagentoröffnern, Funkwetterstationen, Autoschlüsseln, Wegfahrsperren oder Reifendrucksensoren. Obwohl der Amateurfunkdienst in diesem Frequenzbereich primäre Nutzungsrechte genießt, müssen Störungen durch solche Geräte ausnahmsweise dennoch hingenommen werden.
+Eine weitere Besonderheit ist der sogenannte ISM-Bereich [index:Frequenzzuteilung:ISM]. Ein Teilbereich des $\qty{70}{\centi\meter}$-Amateurfunkbandes wird für Anwendungen aus den Bereichen Industrie, Wissenschaft und Medizin, aber auch von Haushaltsgeräten mitbenutzt. Die Abkürzung ISM kommt von der englischen Bezeichnung "Industrial, Scientific and Medical Band". Dort finden sich z. B. Signale von Garagentoröffnern, Funkwetterstationen, Autoschlüsseln, Wegfahrsperren oder Reifendrucksensoren. Obwohl der Amateurfunkdienst in diesem Frequenzbereich primäre Nutzungsrechte genießt, müssen Störungen durch solche Geräte ausnahmsweise dennoch hingenommen werden.
 
 [question:VD708]

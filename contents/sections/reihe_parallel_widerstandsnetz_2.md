@@ -93,6 +93,6 @@ AD 114: $\qty{1,8}{\volt}$
 | Zusammenfassung |
 |Aufgabe in Teilbereiche zerlegen  |
 |Teilbereiche berechnen |
-|Kontrollüberlegung, ob das Ergenis stimmen kann |
+|Kontrollüberlegung, ob das Ergebnis stimmen kann |
 [table:a_Widerstandsnetzwerke 2:Zusammenfassung]
 </margin>

@@ -1,4 +1,4 @@
-Den Abstand zwischen zwei Wellenbergen bzw. zwei Wellentälern nennt man Wellenlänge. Die Wellenlänge ist abhängig von der Frequenz. Je größer die Frequenz, desto kleiner die Wellenlänge. Die Wellenlänge wird mit dem griechischen Buchstaben $\lambda$ (Lambda) bezeichnet und üblicherweise in Meter ($\unit{\meter}$) angegeben.
+Den Abstand zwischen zwei Wellenbergen bzw. zwei Wellentälern nennt man Wellenlänge [index:Wellenlänge]. Die Wellenlänge ist abhängig von der Frequenz. Je größer die Frequenz, desto kleiner die Wellenlänge. Die Wellenlänge wird mit dem griechischen Buchstaben $\lambda$ (Lambda) bezeichnet und üblicherweise in Meter ($\unit{\meter}$) angegeben.
 
 [question:NB403]
 [question:NA205]
@@ -25,7 +25,7 @@ $f[[\unit{\mega\hertz}]] = \dfrac{300}{\lambda[[\unit{\meter}]]} = \dfrac{300}{\
 
 ---
 
-Die gerundete Wellenlänge wird übrigens häufig verwendet, wenn man über Frequenzbereiche spricht. Man spricht dann von einem Frequenzband oder kurz Band, z. B. dem $\qty{2}{\meter}$-Band. In der Tabelle [ref:n_funkwellen_baender] finden sich beispielsweise die drei Amateurfunkbänder, die von Funkamateuren aller Klassen genutzt werden dürfen.
+Die gerundete Wellenlänge wird übrigens häufig verwendet, wenn man über Frequenzbereiche spricht. Man spricht dann von einem Frequenzband [index:Frequenzband] oder kurz Band, z. B. dem $\qty{2}{\meter}$-Band. In der Tabelle [ref:n_funkwellen_baender] finden sich beispielsweise die drei Amateurfunkbänder, die von Funkamateuren aller Klassen genutzt werden dürfen.
 
 <margin>
 | l: Frequenz | l: Wellenlänge | X: Band |

@@ -54,9 +54,9 @@ $\Delta P = P_2 - P_1 = \qty{100}{\watt} - \qty{1}{\watt} = \qty{99}{\watt}$
 ---
 [question:AD803]
 ---
-#### Lösungweg
+#### Lösungsweg
 
-* $\qty{20}{\dB}$ entsprechen einer Leistungdämpfung mit dem Faktor $\num{100}$
+* $\qty{20}{\dB}$ entsprechen einer Leistungsdämpfung mit dem Faktor $\num{100}$
 
 ---
 [question:AD804]

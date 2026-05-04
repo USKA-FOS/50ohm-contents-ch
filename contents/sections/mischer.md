@@ -22,7 +22,7 @@ Aufgrund dieser Eigenschaft werden Mischer gezielt eingesetzt, um Signale in and
 
 ---
 
-Die an einem Ausgang eines Mischers erzeugten Frequenzen bestehen hierbei vorwiegend aus den beiden Mischpodukten der zugeführten Signale $f_\text{e}$, dem Eingangssignal und $f_\text{o}$ dem Signal was von einem Osziallator kommt. Hierbei ergeben sich zwei erwünschte Mischprodukte als Summe und Betrag der Differenz der zugeführten Signale:
+Die an einem Ausgang eines Mischers erzeugten Frequenzen bestehen hierbei vorwiegend aus den beiden Mischprodukten der zugeführten Signale $f_\text{e}$, dem Eingangssignal und $f_\text{o}$ dem Signal was von einem Oszillator kommt. Hierbei ergeben sich zwei erwünschte Mischprodukte als Summe und Betrag der Differenz der zugeführten Signale:
 
 $f_\text{z}=|f_\text{e}\pm f_\text{o}|$
 

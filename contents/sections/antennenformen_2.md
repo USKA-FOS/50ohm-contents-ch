@@ -50,16 +50,16 @@ Der Fuchskreis bzw. die Fuchs-Antenne ist benannt nach *Dr. Josef Fuchs* (Amateu
 </person>
 
 <indepth>
-Auch eine endgespeiste Antenne benötigt ein *Gegengewicht*, z. B. in Form eines $\lambda / 4$-Drahtes oder einer anderen Form der HF-Erdung. Allerdings sind die auftretenden Ströme bei EFHWs am Speisepunkt deutlich kleiner, weshalb auch eine weniger gute Erdung ausreichend sein kann, z. B. ein kurzes Drahtende von nur einem zehntel oder gar zwanzigstel der Wellenlänge. Manchmal dienen sogar nur der Schirm der Speiseleitung oder andere (eigentlich anderen Zwecken dienende) Metellelemente als Erdung.
+Auch eine endgespeiste Antenne benötigt ein *Gegengewicht*, z. B. in Form eines $\lambda / 4$-Drahtes oder einer anderen Form der HF-Erdung. Allerdings sind die auftretenden Ströme bei EFHWs am Speisepunkt deutlich kleiner, weshalb auch eine weniger gute Erdung ausreichend sein kann, z. B. ein kurzes Drahtende von nur einem zehntel oder gar zwanzigstel der Wellenlänge. Manchmal dienen sogar nur der Schirm der Speiseleitung oder andere (eigentlich anderen Zwecken dienende) Metallelemente als Erdung.
   
-Nicht zu Verwechseln mit den endgespeisten Halbwellendipolen sind die endgepeisten *Langdrahtantennen*, bei denen die Länge deutlich über einer Wellenlänge liegt. Die Verwechselung rührt daher, dass endgespeiste Halbwellendipole oft auch auf höheren Frequenzen betrieben werden, wodurch sie für diese Frequenzen dann de-facto eine Langdrahtantenne darstellen.
+Nicht zu Verwechseln mit den endgespeisten Halbwellendipolen sind die endgespeisten *Langdrahtantennen*, bei denen die Länge deutlich über einer Wellenlänge liegt. Die Verwechselung rührt daher, dass endgespeiste Halbwellendipole oft auch auf höheren Frequenzen betrieben werden, wodurch sie für diese Frequenzen dann de-facto eine Langdrahtantenne darstellen.
 </indepth>
 
 ---
 
 Die Richtwirkung einer Antenne kann man in einem sogenannten Strahlungsdiagramm darstellen. Hierbei wird für eine Ebene in jede Richtung der Gewinn bzw. die Feldstärke oder Strahlungsleistung aufgetragen. Je weiter der Graphenverlauf vom Mittelpunkt entfernt ist, umso größer der Gewinn bzw. umso höher die Feldstärke und Strahlungsleistung im Fernfeld. Falls keine Skala mit Winkeln verwendet wird, stellt man auch oft die mechanische Anordnung der Antenne im selben Diagramm dar, um zu verdeutlichen, welche Richtung im Diagramm welcher Richtung in Bezug auf die Antennenanordnung entspricht.
 
-Ein Dipol strahlt nicht, wie man irrigerweise vermuten könnte, in Richtung des Drahtes, sondern rechtwinklig davon ab. In einer Ebene betrachtet und aufgetragen als Strahlungsdiagramm ergeben sich entsprechende Keulen (z. B. links und rechts) neben dem Dipol (vgl. Abbildung [ref:e_dipol_strahlungsdiagramm]). Ein vertikal aufgehanger Dipol strahlt also z. B. nach links und rechts sowie nach vorne und hinten ab. Da das Strahlungsdiagramm nur eine Ebene betrachtet, sieht man z. B. nur eine Keule für die Abstrahlung nach links und eine Keule für die Abstrahlung nach rechts. Je nach Skala können diese Keulen kreisförmig aussehen.
+Ein Dipol strahlt nicht, wie man irrigerweise vermuten könnte, in Richtung des Drahtes, sondern rechtwinklig davon ab. In einer Ebene betrachtet und aufgetragen als Strahlungsdiagramm ergeben sich entsprechende Keulen (z. B. links und rechts) neben dem Dipol (vgl. Abbildung [ref:e_dipol_strahlungsdiagramm]). Ein vertikal aufgehängter Dipol strahlt also z. B. nach links und rechts sowie nach vorne und hinten ab. Da das Strahlungsdiagramm nur eine Ebene betrachtet, sieht man z. B. nur eine Keule für die Abstrahlung nach links und eine Keule für die Abstrahlung nach rechts. Je nach Skala können diese Keulen kreisförmig aussehen.
 
 <margin>
 [picture:1045:e_dipol_strahlungsdiagramm:Beispiel für die Abstrahlung des Dipols]

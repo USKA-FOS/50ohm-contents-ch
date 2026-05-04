@@ -1,5 +1,5 @@
 <margin>
-[photo:84:n_sstv:Ein per SSTV übertragenenes Bild]
+[photo:84:n_sstv:Ein per SSTV übertragenes Bild]
 </margin>
 
 Neben der Übertragung von Sprache, Tönen und Texten erfreut sich im Amateurfunk auch die Übertragung bewegter oder feststehender Bilder großer Beliebtheit. Beim *Slow-Scan-Television* (SSTV) werden stehende Bilder mit geringer Auflösung übertragen. Ein Beispiel ist in Abbildung [ref:n_sstv] zu sehen. Rufzeichen und Rapporte werden bei SSTV einfach als Text in die Bilder reingeschrieben.

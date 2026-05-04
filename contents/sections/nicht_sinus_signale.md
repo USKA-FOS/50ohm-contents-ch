@@ -14,7 +14,7 @@ Sägezahnförmige Signale enthalten überwiegend gradzahlige Harmonische bzw. un
 [question:AB401]
 [question:AB402]
 
-Auch wenn ein Signal auf dem Oszilloskop zunächst sinusförmig erscheint, kann das Signal trotzdem nennenwerte Oberwellenanteile (bzw. Harmonische der Grundwelle) enthalten. Um den Oberwellenanteil eines Signals quantitativ und qualitativ beurteilen zu können benötigt man einen *Spektrumanalysator* der das Signal im Freqenzbereich (Frequency-Domain) darstellen kann und hierbei die Amplitudenwerte der einzelnen Oberwellen logarithmisch darstellen kann, so dass deren Anteile am Gesamtsignal messbar sind.
+Auch wenn ein Signal auf dem Oszilloskop zunächst sinusförmig erscheint, kann das Signal trotzdem nennenswerte Oberwellenanteile (bzw. Harmonische der Grundwelle) enthalten. Um den Oberwellenanteil eines Signals quantitativ und qualitativ beurteilen zu können benötigt man einen *Spektrumanalysator* der das Signal im Frequenzbereich (Frequency-Domain) darstellen kann und hierbei die Amplitudenwerte der einzelnen Oberwellen logarithmisch darstellen kann, so dass deren Anteile am Gesamtsignal messbar sind.
 
 [question:AI615]
 [question:AI614]

@@ -29,9 +29,9 @@ Eine Relaisfunkstelle empfängt auf ihrer Eingabefrequenz das Signal einer Amate
 </margin>
 
 Beispielsweise wird die Frequenz eines $\qty{70}{\centi\meter}$ Relais so angegeben:
-* Ausgabefrequenz: $\qty{438,875}{\mega\hertz}$
-* Ablage: $\qty{-7,600}{\mega\hertz}$
 * Eingabefrequenz: $\qty{431,275}{\mega\hertz}$
+* Ablage: $\qty{+7,600}{\mega\hertz}$
+* Ausgabefrequenz: $\qty{438,875}{\mega\hertz}$
 
 [question:BE401]
 [question:BE402]

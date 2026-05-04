@@ -4,6 +4,14 @@
 * Macht das Arbeiten mit kleinen und großen Leistungen einfacher
 * Verstärkungen und Dämpfungen lassen sich einfacher berechnen
 
+---
+
+## Warum Dezibel?
+
+[picture:877:e_signalkette:Signalkette mit drei Verstärken]
+
+[picture:1053:e_signalkette_2:Signalkette mit zwei Verstärken und einem Dämpfungsglied]
+
 --- style="font-size: 0.7em;"
 ## Leistungspegel
 
@@ -57,9 +65,6 @@ Details zur Berechnung des Faktor 20 sind im Online-Kurs. Kurzfassung: Im Spannu
 </note>
 ---
 [question:AA111]
----
-## Berechnungen
-
 ---
 [question:AA108]
 ---

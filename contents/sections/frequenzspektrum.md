@@ -4,7 +4,7 @@
   
 ---
 
-Der Frequenzbereich elektromagnetischer Wellen ist sehr groß (Abbildung [ref:n_frequenzspektrum]). Für Funkwellen wird nur ein Teil dieses Spektrums genutzt, üblicherweise der Frequenzbereich zwischen $\qty{30}{\kilo\hertz}$ und $\qty{300}{\giga\hertz}$. In der Tabelle [ref:n_frequenzspektrum_bereiche] ist zu sehen, welche Frequenzen welchen Bereichen zugeordnet sind. Den Frequenzbereichen werden Abkürzungen zugeordnet. Für die Prüfung müssen die Frequenzbereiche von $\qty{3}{\mega\hertz}$ bis $\qty{3000}{\mega\hertz}$ den entsprechenden Begriffen zugeordnet werden können.
+Der Frequenzbereich elektromagnetischer Wellen ist sehr groß (Abbildung [ref:n_frequenzspektrum]). Für Funkwellen wird nur ein Teil dieses Spektrums [index:Spektrum] genutzt, üblicherweise der Frequenzbereich zwischen $\qty{30}{\kilo\hertz}$ und $\qty{300}{\giga\hertz}$. In der Tabelle [ref:n_frequenzspektrum_bereiche] ist zu sehen, welche Frequenzen welchen Bereichen zugeordnet sind. Den Frequenzbereichen [index:Spektrum:Frequenzbereiche] werden Abkürzungen zugeordnet. Für die Prüfung müssen die Frequenzbereiche von $\qty{3}{\mega\hertz}$ bis $\qty{3000}{\mega\hertz}$ den entsprechenden Begriffen zugeordnet werden können.
 
 <webmargin>
 | r: | c: | r: | X: | l: |

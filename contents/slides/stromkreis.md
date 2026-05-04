@@ -37,7 +37,7 @@
 </right>
 <note>
 * Stromkreis immer mit Widerstand betreiben!
-* Ansosten ensteht ein Kurzschluss
+* Ansonsten entsteht ein Kurzschluss
 * Großer Strom kann fließen und Spannungsquelle oder Kabel können überhitzen
 </note>
 

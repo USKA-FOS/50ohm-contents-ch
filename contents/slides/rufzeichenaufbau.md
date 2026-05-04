@@ -30,7 +30,7 @@ Drei Teile:
 
 * Ist länderspezifisch zugeordnet
 * Zur Lokalisierung von Amateurfunkstationen
-* Werden durch die Internatione Fernmeldeunion (International Telecommunication Union, ITU) festgelegt
+* Werden durch die Internationale Fernmeldeunion (International Telecommunication Union, ITU) festgelegt
 * Stehen in den Radio Regulations (RR)
 * Mitgliedsstaaten sollen dieses in nationales Recht umsetzen
 

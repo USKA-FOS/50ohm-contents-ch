@@ -105,7 +105,7 @@ Falls Amateurfunkaussendungen die Ursache der Probleme sind, wird in drei Fälle
 
 * Amateurfunkanlage wird *vorschriftsmäßig* betrieben
 * Betroffenes Gerät *hält Störfestigkeit ein*
-* Konfliktfall: BNetzA ist befugt, eine Lösung *in Zusammenarbeit mit allen Beteilgten* herzustellen
+* Konfliktfall: BNetzA ist befugt, eine Lösung *in Zusammenarbeit mit allen Beteiligten* herzustellen
 
 ---
 

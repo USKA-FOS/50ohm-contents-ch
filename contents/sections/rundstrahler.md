@@ -38,7 +38,7 @@ Wie bei der Up- and Outer-Antenne ist der vertikale Strahler der Marconi-Antenne
 
 Sowohl die Groundplane- als auch die Marconi-Antenne strahlen gleichmäßig in alle Himmelsrichtungen. Deshalb nennt man diese beiden Antennen auch "Rundstrahler". Im Gegensatz zu Richtantennen eignen sich Rundstrahler, um Funkamateure oder Relaisfunkstellen in unterschiedlichen Richtungen im Umkreis zu erreichen. Eine Richtantenne müsste immer wieder neu ausgerichtet werden.
 
-Damit ein Rundstrahler gut funktionert, sollte er möglichst hoch und rundherum frei positioniert werden. Die optimale Position ist daher auf einem hohem Mast, der umgebende Gebäude und Bäume überragt, oder dem Hausdach.
+Damit ein Rundstrahler gut funktioniert, sollte er möglichst hoch und rundherum frei positioniert werden. Die optimale Position ist daher auf einem hohem Mast, der umgebende Gebäude und Bäume überragt, oder dem Hausdach.
 
 [question:NG110]
 

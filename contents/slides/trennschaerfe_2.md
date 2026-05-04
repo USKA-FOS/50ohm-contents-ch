@@ -9,7 +9,7 @@
 * Quarzfilter $\rightarrow$ stark steilflankig und sehr schmalbandig
 * Keramikfilter $\rightarrow$ steilflankig und schmalbandig
 * LC-Filter $\rightarrow$ nicht so steilflankig und größere Bandbreite
-* RC-Filter werden üblicherweise in HF nicht eingsetzt
+* RC-Filter werden üblicherweise in HF nicht eingesetzt
 
 ---
 [question:AF208]

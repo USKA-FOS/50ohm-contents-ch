@@ -19,7 +19,7 @@ in Joule ($\unit{\joule}$) auf Sekunde bezogen oder Wattstunden ($\unit{\watt\ho
 ---
 [question:AB502]
 ---
-### Lösungweg
+### Lösungsweg
 * gegeben: $U = \qty{230}{\volt}$
 * gegeben: $I = \qty{0,63}{\ampere}$
 * gegeben: $t = \qty{7}{\hour}$

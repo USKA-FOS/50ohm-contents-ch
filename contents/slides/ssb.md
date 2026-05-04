@@ -3,7 +3,7 @@
 </left>
 <right>
 * Bei Amplitudenmodulation zusätzlich zum Träger zwei Seitenbänder $\rightarrow$ unteres bzw. oberes Seitenband
-* "lower side band" (*LSB*) und "upper side band" (*USB*)
+* "lower sideband" (*LSB*) und "upper sideband" (*USB*)
 * Der Träger selbst enthält gar keine Information
 </right>
 <note>
@@ -22,7 +22,7 @@
 </right>
 
 --- 
-USB steht für *Upper Side Band*
+USB steht für *Upper Sideband*
 
 (im Deutschen wird es gerne mit Unteres Seitenband verwechselt)
 

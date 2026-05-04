@@ -15,8 +15,8 @@ Time Division Multiple Access -- Zeitmultiplexverfahren
 [picture:474:n_digital_voice_tdma:TDMA mit drei Verbindungen auf einer Frequenz]
 </right>
 
-
 ---
+
 ## Einstellungen
 
 Es sind für digitale Sprache oft mehr Einstellungen zu berücksichtigen als zum Beispiel bei einer FM-Verbindung. Zum Beispiel:
@@ -25,17 +25,21 @@ Es sind für digitale Sprache oft mehr Einstellungen zu berücksichtigen als zum
 * Raum oder Reflektor zum Zusammenschalten von Relaisfunkstellen
 * TDMA-Zeitschlitz
 * Color-Code
-    
+
 ---
+
 [question:NE404]
  
 ---
+
 [question:NE307]
  
 ---
+
 [question:NE403]
  
 ---
+
 [question:NE402]
  
  

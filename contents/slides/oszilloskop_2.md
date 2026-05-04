@@ -13,7 +13,7 @@
 ### Pulsbreite
 
 <left>
-[picture:57:e_impuls:Impuls in einem Oszilloskop] 
+[picture:1005:a_impulsbreite:Bestimmung der Impulsbreite eines nicht-idealen Rechtecksignals]
 </left>
 <right>
 Definition: Die Pulsbreite liegt bei 50% des Spitzenwerts

@@ -17,7 +17,7 @@ Verstärkerschaltungen kommen später im Kapitel.
 <right>
 * Nur ganzzahlige Vielfache möglich
 * In der Regel wird die 2. oder 3. Harmonische verwendet
-* Höhere Frequenzvervielfachung mit hinteinander geschalteten Stufen
+* Höhere Frequenzvervielfachung mit hintereinander geschalteten Stufen
 </right>
 <note>
 </note>

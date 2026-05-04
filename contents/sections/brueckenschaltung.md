@@ -10,7 +10,7 @@ In einer Formel dargestellt lautet dieser Zusammenhang: $\frac{R_1}{R_2} = \frac
 [question:AD111]
 <tip>
 In der Mitte der Schaltung lässt sich die sogenannte Brückenspannung abgreifen.
-Für den Sonderfall, dass die Spannungsteilerverhältnisse gleich groß sind, ergibt sich die Brückenspannnung zu Null Volt
+Für den Sonderfall, dass die Spannungsteilerverhältnisse gleich groß sind, ergibt sich die Brückenspannung zu Null Volt
 </tip>
 
 <indepth>

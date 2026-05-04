@@ -13,7 +13,7 @@ pn-Dioden zeigen eine exponentielle Abhängigkeit des Diodenstroms von der Diode
 
 Der Diodenstrom ist:
   
-$I_D(T) = I_S(T) \cdot \exp \left( \frac{U_D}{U_T}\right)$
+$I_D(T) = I_S(T) \cdot e^{\frac{U_D}{U_T}}$
   
 $I_S$ ist der Sättigungsstrom, $U_T = k T/q$ die sogenannte Temperaturspannung. Hier ist $k$ die Boltzmann-Konstante, $q$ die Elementarladung.
   
@@ -23,7 +23,13 @@ Mit steigender Temperatur steigt der Sättigungsstrom und die Exponentialfunktio
 
 [question:AC404]
 
-Die Kapazitätsdiode nutzt die Kapazität zwischen den n- und p-Gebieten über die Raumladungszone hinweg, analog zu einem Plattenkondensator. Dabei darf aber kein nennenswerter Gleichstrom fließen, also muss die Diode in Sperrrichtung gepolt werden.
+---
+
+Die Kapazitätsdiode (vgl. Abbildung [ref:a_diode_kapazitaet]) nutzt die Kapazität zwischen den n- und p-Gebieten über die Raumladungszone hinweg, analog zu einem Plattenkondensator. Dabei darf aber kein nennenswerter Gleichstrom fließen, also muss die Diode in Sperrrichtung gepolt werden.
+
+<margin>
+[picture:1068:a_diode_kapazitaet:Schaltzeichen Kapazitätsdiode]
+</margin>
 
 Je negativer die Diodenspannung (bzw. je höher die Sperrspannung), umso mehr dehnt sich die Raumladungszone aus und umso geringer wird die Diodenkapazität.
 
@@ -41,14 +47,26 @@ Die Lösung verläuft analog zur vorhergehenden Aufgabe - aber die Dioden sind h
 
 [question:AC407]
 
-Hier werden zwei Bauelemente genannt, die mit Licht interagieren: der Fotowiderstand und die Fotodiode.
+Im folgenden werden Bauelemente beschrieben, die mit Licht interagieren: der Fotowiderstand und die Fotodiode.
 
 Der Fotowiderstand ist ein Bauelement, das über zwei nicht-sperrende Kontakte verfügt. Es verhält sich wie ein konventioneller Ohmscher Widerstand - der Strom steigt linear mit der angelegten Spannung. Der Widerstandswert kann durch Absorption von Licht verringert werden - die absorbierten Photonen erhöhen die Dichte der freien Ladungsträger. Liegt keine Spannung an, fließt auch kein Strom.
 
-Die Fotodiode dagegen ist eine pn-Diode. Das Licht wird hier in der Raumladungszone absorbiert, es entstehen Elektron-Loch-Paare, die im elektrischen Feld der Raumladungszone getrennt werden. Dieses Feld existiert auch ohne äußere Vorspannung. Es fließt auch für $U_D=0$ ein Strom (ein Kurzschlussstrom). Dieser Strom hat die entgegengesetzte Richtung wie der konventionelle Diodenstrom. 
+---
+
+Die Fotodiode dagegen ist eine pn-Diode (vgl. Abbildung [ref:a_photodiode]). Das Licht wird hier in der Raumladungszone absorbiert, es entstehen Elektron-Loch-Paare, die im elektrischen Feld der Raumladungszone getrennt werden. Dieses Feld existiert auch ohne äußere Vorspannung. Es fließt auch für $U_D=0$ ein Strom (ein Kurzschlussstrom). Dieser Strom hat die entgegengesetzte Richtung wie der konventionelle Diodenstrom. 
+
+<margin>
+[picture:1069:a_photodiode:Schaltzeichen Photodiode]
+</margin>
+
+---
 
 [question:AC408]
 
 Optokoppler vereinen eine Leuchtdiode und eine Fotodiode in einem Gehäuse, wobei die Eingangsseite (Leuchtdiode) und die Ausgangsseite (Fotodiode) voneinander isoliert sind (galvanisch getrennt).
 
 Diese Bauelemente werden eingesetzt, um Schnittstellen galvanisch zu trennen, zum Beispiel, um Masseschleifen zu verhindern, die für eingekoppeltes Netzbrummen sorgen können.
+
+<margin>
+[picture:1070:a_optokoppler:Schaltzeichen Optokoppler]
+</margin>

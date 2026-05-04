@@ -25,7 +25,7 @@ Bei einer Einwirkung des Stroms auf den Körper kann das Gewebe geschädigt werd
 </margin>
 
 Stromunfälle können verschiedene Auswirkungen auf den Körper haben:
-* *Herzrhythmusstörungen*, Herzkammerflimmern oder Herzstillstand, inbesondere bei einem Stromweg im Brustbereich
+* *Herzrhythmusstörungen*, Herzkammerflimmern oder Herzstillstand, insbesondere bei einem Stromweg im Brustbereich
 * *Verbrennungen*, meist an den Ein- und Austrittstellen des elektrischen Stroms
 * *Verkrampfen der Muskulatur*
 * *Sekundärunfälle* wie einen Sturz, verursacht durch den hervorgerufenden Schreck oder eine Muskelverkrampfung

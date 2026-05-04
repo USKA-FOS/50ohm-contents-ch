@@ -1,7 +1,7 @@
 In jedem Funkgerät sind eine oder mehrere Spannungsstabilisierungen vorhanden, da die Eingangsspannung,  vor allem bei mit Akku betriebenen Geräten, schwanken kann und dann empfindliche Baugruppen, wie z.B. Oszillatoren, ihre Frequenz ändern würden.
 
 Spannungsstabilisierungen gibt es in 3 Varianten:
-1. Die *Schaltung mit Z-Diode* stellt eine sehr einfache Schaltung zur Stabilisierung der Ausgangsspannung dar, da die Z-Diode die Aussgangsspannung in Grenzen stabil halten kann.
+1. Die *Schaltung mit Z-Diode* stellt eine sehr einfache Schaltung zur Stabilisierung der Ausgangsspannung dar, da die Z-Diode die Ausgangsspannung in Grenzen stabil halten kann.
 
 <margin>
 Zur Erinnerung:
@@ -107,7 +107,7 @@ $P_V = P_{\mathrm{in}} - P_{\mathrm{out}} = \qty{6,9}{\watt} - \qty{2,5}{\watt} 
 [question:AD317]
 
 <tip>
-Damit die interne Regelschaltung optimal funktioniert, muss die Eingangsspannung bei Standard-Festspannungsregler (z.B. Typ 7812) um ca. $\qty{3}{\volt}$ größer als die Ausgangsspannung sein. Es gibt Feststspannungsregler, bei denen die Eingangsspannung nur um $\qty{1}{\volt}$ größer als die Ausgangsspannung sein muss. Diese Regler heißen Low-Drop-Spannungsregler.
+Damit die interne Regelschaltung optimal funktioniert, muss die Eingangsspannung bei Standard-Festspannungsregler (z.B. Typ 7812) um ca. $\qty{3}{\volt}$ größer als die Ausgangsspannung sein. Es gibt Festspannungsregler, bei denen die Eingangsspannung nur um $\qty{1}{\volt}$ größer als die Ausgangsspannung sein muss. Diese Regler heißen Low-Drop-Spannungsregler.
 </tip>
   
 [question:AD316]

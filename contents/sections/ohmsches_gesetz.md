@@ -1,5 +1,5 @@
 Wir haben bereits die drei wichtigsten Größen der Elektrotechnik kennengelernt, und zwar die elektrische Spannung, den elektrischen Strom und den Widerstand:
-* Zunächst haben wir gelernt, dass elektrische Ladungen in Spannungsquellen getrennt werden und dadurch eine elektrische Spannung entsteht. Diese bezeichen wir mit dem Buchstaben $U$ und messen sie in Volt ($\unit{V}$).
+* Zunächst haben wir gelernt, dass elektrische Ladungen in Spannungsquellen getrennt werden und dadurch eine elektrische Spannung entsteht. Diese bezeichnen wir mit dem Buchstaben $U$ und messen sie in Volt ($\unit{V}$).
 * Dann haben wir gelernt, dass die elektrische Spannung dafür sorgt, dass in einem geschlossenen Stromkreis ein elektrischer Strom fließt, den wir mit dem Buchstaben $I$ bezeichnen und in Ampere ($\unit{A}$) messen.
 * Und zu Beginn dieses Kapitels haben wir dann noch gelernt, dass Verbraucher in einem Stromkreis einen Widerstand ausüben und somit den Stromfluss ausbremsen. Den Widerstand bezeichnen wir mit dem Buchstaben $R$ und messen ihn in Ohm ($\unit{\ohm}$).
 

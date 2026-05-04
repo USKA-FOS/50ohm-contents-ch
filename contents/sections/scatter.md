@@ -8,9 +8,15 @@ Auf der Kurzwelle kann der Bereich in der Ionosphäre, der die Raumwelle zur Erd
 
 [question:AH223]
 
+<margin>
+% Photo by DC2CB:
+[photo:331:a_regenscatter:$\qty{10}{\giga\hertz}$ Regenscatter (DL4M Juni 2025)]
+</margin>
+
+
 ---
 
-%TODO: Bild besorgen, bzw. Anekdote von COVID Lockdown
+%TODO: bzw. Anekdote von COVID Lockdown
 
 Schließlich kann man sich auf VHF, UHF und SHF noch von ganz anderer Seite Hilfe holen, um über den Horizont hinaus zu senden, nämlich per *Aircraft-Scatter*: Hier dienen Flugzeuge als kurzzeitige Reflektoren, wenn sie sich auf oder in der Nähe der Verbindungslinie zwischen Sender und Empfänger befinden. Durch die schnelle Bewegung des Flugzeugs sind solche Verbindungsmöglichkeiten recht kurz, so dass eine schnelle QSO-Abwicklung gefragt ist. 
 

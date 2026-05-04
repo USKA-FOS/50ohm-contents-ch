@@ -1,6 +1,6 @@
 Die Frequenz am Funkgerät stellt man mit einem Drehknopf oder über Tasten ein. Aus dem Empfänger sind nur Stationen zu hören, die auf der eingestellten Frequenz senden. Stationen, die auf höheren oder tieferen Frequenzen senden, sind nicht hörbar. Wenn man herausfinden will, ob irgendwo eine Station sendet, muss man langsam "über das Band drehen" und aufmerksam horchen. 
 
-Moderne Funkgeräte bieten neben der Frequenzanzeige zusätzlich die Darstellung von "Amplitudenspektrum" und "Wasserfalldiagramm". Damit kann man auf einen Blick erkennen, ob ober- oder unterhalb der eingestellten Frequenz weitere Stationen senden und wie stark diese sind. Beide Anzeigen stellen auf der waagerechten Achse einen Frequenzbereich dar. In den Abbildungen ist dies ein Teilbereich des 2 m-Bandes. In der Mitte dieser Achse befindet sich die eingestellte Frequenz, auf der hier gerade ein starkes Empfangssignal zu sehen ist. 
+Moderne Funkgeräte bieten neben der Frequenzanzeige zusätzlich die Darstellung von "Amplitudenspektrum" [index:Amplitudenspektrum] und "Wasserfalldiagramm" [index:Wasserfalldiagramm]. Damit kann man auf einen Blick erkennen, ob ober- oder unterhalb der eingestellten Frequenz weitere Stationen senden und wie stark diese sind. Beide Anzeigen stellen auf der waagerechten Achse einen Frequenzbereich dar. In den Abbildungen ist dies ein Teilbereich des $\qty{2}{\meter}$-Bandes. In der Mitte dieser Achse befindet sich die eingestellte Frequenz, auf der hier gerade ein starkes Empfangssignal zu sehen ist. 
 
 <margin>
 [photo:95:n_wasserfall_starke_station:Display eines ICOM IC-9700 mit Frequenzanzeige, Amplitudenspektrum und Wasserfalldiagramm. Eine starke Station wird empfangen.]
@@ -26,6 +26,6 @@ Das *Wasserfalldiagramm* (Abbildung [ref:n_wasserfall_wasserfall]) hingegen zeig
 [question:NF105]
 [question:NF106]
 
-Man darf das Amplitudenspektrum nicht mit dem Oszillogram verwechseln, das wir bereits kennengelernt haben. Das Amplitudenspektrum zeigt auf der horizontalen Achse, also von links nach rechts, die Amplituden für verschiedene Frequenzen an. Man kann also erkennen, welche Anteile die unterschiedlichen Frequenzen am Gesamtsignals haben. Beim Oszillogram hingegen werden die Amplituden zu verschiedenen Zeitpunkten gezeigt. Von links nach rechts ist der zeitliche Verlauf zu sehen.
+Man darf das Amplitudenspektrum nicht mit dem Oszillogramm verwechseln, das wir bereits kennengelernt haben. Das Amplitudenspektrum zeigt auf der horizontalen Achse, also von links nach rechts, die Amplituden für verschiedene Frequenzen an. Man kann also erkennen, welche Anteile die unterschiedlichen Frequenzen am Gesamtsignals haben. Beim Oszillogramm hingegen werden die Amplituden zu verschiedenen Zeitpunkten gezeigt. Von links nach rechts ist der zeitliche Verlauf zu sehen.
 
 [question:NI401]

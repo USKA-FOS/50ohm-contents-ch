@@ -162,7 +162,7 @@ Gesucht ist die äquivalente isotrope Strahlungsleistung $P_\text{EIRP}$. Zunäc
 $P_\text{EIRP} = \qty{100}{\watt} \cdot 0,1 \cdot 1,64 = \qty{16,4}{\watt}$
 
 
-Für die nächste Frage findet sich in der Formelsammlung auch direkt eine anwendbare Formel. Da wir eine Richtantenne haben deren Gewinn auf den Dipol angegeben ist (ERP) muss für die Berechung von $P_\text{EIRP}$ noch $\qty{2,15}{\dB}$ addiert werden:
+Für die nächste Frage findet sich in der Formelsammlung auch direkt eine anwendbare Formel. Da wir eine Richtantenne haben deren Gewinn auf den Dipol angegeben ist (ERP) muss für die Berechnung von $P_\text{EIRP}$ noch $\qty{2,15}{\dB}$ addiert werden:
 
 $P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_d-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}}$
 

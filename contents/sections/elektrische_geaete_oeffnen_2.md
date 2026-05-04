@@ -2,7 +2,7 @@ Die eigenen Geräte zu reparieren ist für viele Funkamateure Ehrensache. Dabei 
 
 Jede Reparatur beginnt mit der Fehlersuche. Selbstverständlich wird das Gerät zuerst vom Netz getrennt. Danach kann es geöffnet werden. Vor einem elektrischen Schlag ist man aber noch nicht sicher. Die Kondensatoren im Netzteil sind auch ohne Netzstromversorgung weiterhin geladen. 
 
-Gerade bei den heute üblichen Schaltnetzteilen für Transistorendstufen ist die Spannung, die an einigen Kondenstoranschlüssen anliegt, höher als die Nennspannung des Netzes. Bei Röhrenendstufen ist die Spannung noch einmal deutlich höher! Das ist lebensgefährlich! 
+Gerade bei den heute üblichen Schaltnetzteilen für Transistorendstufen ist die Spannung, die an einigen Kondensatoranschlüssen anliegt, höher als die Nennspannung des Netzes. Bei Röhrenendstufen ist die Spannung noch einmal deutlich höher! Das ist lebensgefährlich! 
 
 Ohne weitere Eingriffe würde sich die Ladung erst nach und nach abbauen. Zur Sicherheit können wir die Kondensatoren entladen. Sie einfach kurzzuschließen ist keine gute Idee. Bei dieser Vorgehensweise ist ein tödlicher Stromschlag durchaus möglich. Im harmloseren Fall können die hohen Kurzschlussströme die Kondensatoren und andere Bauteile zerstören und einen Brand auslösen. 
 

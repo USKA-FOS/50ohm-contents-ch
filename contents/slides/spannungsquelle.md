@@ -1,7 +1,7 @@
 ### Netzgerät
 
-* Die für uns Funkamateuere wichtigste Spannungsquelle ist, neben Batterien, das Netzgerät. Es wird über das Stromnetz mit $\qty{230}{\volt}$ Wechselspannung versorgt und erzeut eine Gleichspannung von $\qty{13,8}{\volt}$. Damit lassen sich Funkgeräte und Zubehör versorgen.
-* Wichtig ist, dass die Ausggangsspannung bei Last konstant bleibt.
+* Die für uns Funkamateure wichtigste Spannungsquelle ist, neben Batterien, das Netzgerät. Es wird über das Stromnetz mit $\qty{230}{\volt}$ Wechselspannung versorgt und erzeugt eine Gleichspannung von $\qty{13,8}{\volt}$. Damit lassen sich Funkgeräte und Zubehör versorgen.
+* Wichtig ist, dass die Ausgangsspannung bei Last konstant bleibt.
 
 ---
 

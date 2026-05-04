@@ -1,18 +1,45 @@
 ## Höchste brauchbare Frequenz (MUF)
 
 <left>
-* Höchste Frequenz mit der eine Verbindung über die Raumwelle hergestellt werden kann
-* Abhängig vom Abstrahlwinkel $\alpha$
+* Klasse E: Höchste Frequenz mit der eine Verbindung über die Raumwelle hergestellt werden kann
+</left>
+<right>
+[picture:997:e_muf_luf2:Simulation der Sprungdistanzen für verschiedene Frequenzen und einer MUF bei ca. $\qty{7,5}{\mega\hertz}$ in einer Augustnacht 2024 bei einem Abstrahlwinkel von $\qty{45}{\degree}$]
+</right>
+
+---
+
+## Höchste brauchbare Frequenz (MUF)
+
+<left>
+* Klasse A: Abhängig vom Abstrahlwinkel $\alpha$
 </left>
 <right>
 [picture:870:e_muf_winkel:Die Winkel zur Berechnung der MUF]
 </right>
 
 ---
+
+## Höchste brauchbare Frequenz (MUF)
+
+<left>
+* Strahlt man steil ab (z. B. $\qty{60}{\degree}$), sinkt die MUF und die Funkwelle wird ggf. nicht mehr refraktiert.
+* Strahlt man flach ab (z. B. $\qty{30}{\degree}$), so erhöht sich die MUF. 
+</left>
+<right>
+[picture:998:e_muf_winkel2:Sprungdistanz bei 7 MHz im Sommer 2024]
+</right>
+
+---
+
 [question:AH206]
+
 ---
+
 [question:AH207]
+
 ---
+
 ## Kritische Frequenz
 
 <left>
@@ -30,8 +57,17 @@ $\mathrm{MUF} \approx \frac{f_c}{\sin(\alpha)}$
 <note>
 Kritische Frequenz wird auch als $f_k$ oder $f_\mathrm{krit}$ angegeben
 </note>
+
 ---
+
+## Beispiel Ionosonde Juliusruh
+
+[picture:999:e_muf_fof2:MUF 3000 (Flache Abstrahlung) und $f_\text{c}$ am 08.09.2025]
+
+---
+
 [question:AH208]
+
 --- style="font-size: smaller;"
 ## Optimale Frequenz
 
@@ -57,12 +93,12 @@ Kritische Frequenz wird auch als $f_k$ oder $f_\mathrm{krit}$ angegeben
 
 <left>
 <fragment>
-$\begin{split} \mathrm{MUF} & \approx \frac{f_c}{\sin(\alpha)}\\&\approx \frac{3MHz}{0,71}\\&\approx 4,2MHz\end{split}$
+$\begin{split} \text{MUF} & \approx \frac{f_c}{\sin(\alpha)}\\&\approx \frac{\qty{3}{\mega\hertz}}{\num{0,71}}\\&\approx \qty{4,2}{\mega\hertz}\end{split}$
 </fragment>
 </left>
 <right>
 <fragment>
-$\begin{split} f_{\mathrm{opt}} &= \mathrm{MUF}\cdot 0,85\\ &= 4,2MHz \cdot 0,85\\ &= 3,6MHz \end{split}$
+$\begin{split} f_{\mathrm{opt}} &= \mathrm{MUF}\cdot 0,85\\ &= \qty{4,2}{\mega\hertz} \cdot 0,85\\ &= \qty{3,6}{\mega\hertz} \end{split}$
 </fragment>
 </right>
 

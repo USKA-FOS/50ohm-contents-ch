@@ -22,7 +22,7 @@ Der Übergang zwischen dem reaktiven Nahfeld und dem strahlenden Nahfeld ist abh
 
 $d > \dfrac {\lambda} {2 \cdot \pi}$
 
-Die Berechnung mit der Näherungformel erspart einem ggf. aufwendige Messungen oder Simulationen.
+Die Berechnung mit der Näherungsformel erspart einem ggf. aufwendige Messungen oder Simulationen.
 
 Die Formel $d = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$ gilt für die meisten Antennenformen, wenn der berechnete Sicherheitsabstand im strahlenden Nahfeld oder im Fernfeld liegt.
 

@@ -1,0 +1,31 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{circuitikz}
+    \draw (0,0)
+        to [short, o-] ++(1,0) coordinate(l1)
+        to [short] ++(1,0) coordinate(x1)
+        to [stroke led] ++(0,-2)
+        to [short] ++(-1,0) coordinate(l2)
+        to [short, -o] ++(-1,0);
+    \draw(x1) 
+        to [open] ++(2,0) coordinate(x2)
+        to [short] ++(1,0) coordinate(r1)
+        to [short, -o] ++(1,0);
+    \draw(x2)
+        to [open, name={trans}] ++(0,-2) coordinate(x3)
+        to [short] ++(1,0) coordinate(r2)
+        to [short, -o] ++(1,0);
+    \draw(trans.center) node[npn,photo](t1){};
+    \draw(t1.C) to [short] (x2);
+    \draw(t1.E) to [short] (x3);
+    %
+    \draw[dashed, gray] (l1)
+        -- ++(0,0.5) coordinate(h)
+        -- (h-|r1)
+        -- (r1)
+        -- (r2)
+        -- ++(0,-0.5) coordinate(h)
+        -- (h-|l2)
+        -- (l2)
+        -- (l1);
+\end{circuitikz}

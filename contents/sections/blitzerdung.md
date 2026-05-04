@@ -1,6 +1,6 @@
 Antennenanlagen erhöhen in der Regel nicht die Wahrscheinlichkeit, dass ein Blitz einschlägt, aber wenn er einschlägt wird vermutlich eine vorhandene exponierte Antenne das Ziel sein. Deshalb müssen Antennenanlagen auf oder an Gebäuden geerdet bzw. in ein vorhandenes Blitzschutzsystem integriert werden.
 
-Häufig geht ein Blitz nur in der Nähe unserer Station nieder. Das ist weniger schlimm als ein direkter Einschlag, aber auch das reicht, um große Schäden anzurichten (vgl. Abbilung [ref:e_ueberspannung_blitz]). Deshalb ist Blitzschutz ein wichtiges Thema für uns Funkamateure. 
+Häufig geht ein Blitz nur in der Nähe unserer Station nieder. Das ist weniger schlimm als ein direkter Einschlag, aber auch das reicht, um große Schäden anzurichten (vgl. Abbildung [ref:e_ueberspannung_blitz]). Deshalb ist Blitzschutz ein wichtiges Thema für uns Funkamateure. 
 
 <margin>
 [photo:191:e_ueberspannung_blitz:Durch Überspannung völlig zerstörter Kondensator in einem Netzteil. Ursache war ein Blitzeinschlag in der Nähe der Station. Hier kam die Überspannung über das Stromnetz.]

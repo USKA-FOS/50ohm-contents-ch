@@ -25,7 +25,7 @@
 
 ## Das Nyquist-Shannon-Abtasttheorem
 
-* Für ein Signal mit maximaler Frequenz $f_{max}$ muss die Abtastrate $\gt 2 \cdot f_{max}$ betragen  
+* Für ein Signal mit maximaler Frequenz $f_{\mathrm{max}}$ muss die Abtastrate $\gt 2 \cdot f_{\mathrm{max}}$ betragen
 * Nur so können alle Signalwechsel korrekt erfasst und rekonstruiert werden  
 * Wird diese Grenze unterschritten, entstehen Alias-Effekte
 

@@ -1,6 +1,6 @@
 In einem Empfänger, an dessen Eingang zwei starke HF-Signale anliegen, können Störungen durch Intermodulation oder Kreuzmodulation verursacht werden.
-Bei Intermodulation äussert sich dieser Effekt so, dass durch nichtlineares Verhalten der Empfängerstufe (Betrieb im nichtlinearen Grenzbereich), ähnlich wie in einem Mischer, zusätzliche unerwünschte Frequenzen erzeugt werden. Diese können erwünschte Empfangssignale überlagern und stören.
-Bei Kreuzmodulation äussert sich dieser Effekt so, dass das gewünschte Empfangssignal durch die Modulation eines starken frequenzmäßig benachbarten AM-Signals beeinflusst wird. Hierdurch wird die Modulation des benachbarten Senders im Empfangssignal hörbar und stört dieses.
+Bei Intermodulation äußert sich dieser Effekt so, dass durch nichtlineares Verhalten der Empfängerstufe (Betrieb im nichtlinearen Grenzbereich), ähnlich wie in einem Mischer, zusätzliche unerwünschte Frequenzen erzeugt werden. Diese können erwünschte Empfangssignale überlagern und stören.
+Bei Kreuzmodulation äußert sich dieser Effekt so, dass das gewünschte Empfangssignal durch die Modulation eines starken frequenzmäßig benachbarten AM-Signals beeinflusst wird. Hierdurch wird die Modulation des benachbarten Senders im Empfangssignal hörbar und stört dieses.
 
 [question:AF217]
 [question:AF219]

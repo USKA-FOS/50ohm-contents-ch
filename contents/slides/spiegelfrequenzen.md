@@ -33,7 +33,8 @@ Spiegelfrequenz bei ${2 \cdot f_\text{ZF}}$ unterhalb der Empfangsfrequenz
 
 ---
 
-$f_\text{S} = 2 \cdot f_\text{OSZ}\,-\,f_\text{E} =\\ \begin{cases}f_\text{OSZ}\,+\,f_\text{ZF} = f_\text{E}\,+\,2 \cdot f_\text{ZF} &\text{wenn } f_\text{E} \lt f_\text{OSZ} \\ f_\text{OSZ}\,-\,f_\text{ZF} = f_\text{E}\,-\,2 \cdot f_\text{ZF} &\text{wenn } f_\text{E} \gt f_\text{OSZ} \end{cases}$
+$f_\text{S} = 2 \cdot f_\text{OSZ}\,-\,f_\text{E} =$
+$ \begin{cases}f_\text{OSZ}\,+\,f_\text{ZF} = f_\text{E}\,+\,2 \cdot f_\text{ZF} &\text{wenn } f_\text{E} \lt f_\text{OSZ} \\ f_\text{OSZ}\,-\,f_\text{ZF} = f_\text{E}\,-\,2 \cdot f_\text{ZF} &\text{wenn } f_\text{E} \gt f_\text{OSZ} \end{cases}$
 
 ---
 ## Spiegelfrequenzunterdrückung

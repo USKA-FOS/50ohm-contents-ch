@@ -1,4 +1,4 @@
-Wie wir bereits im Kapitel Netzgerät im Klasse N Kurs gelernt haben, sind Sicherungen zum Schutz der Elektronik im Falle eines Kurzschlusses oder Überlast notwendig. Wenn wir nun eine defekte Sicherung ersetzen wollen, ist dies nur nach Reparatur bzw. Überprüfung der abgesichteren Anlagenteile sinnvoll. Bei der Auswahl der Sicherung achten wir dabei auf die gleiche Auslösecharakteristik sowie die Stromstärke.
+Wie wir bereits im Kapitel Netzgerät im Klasse N Kurs gelernt haben, sind Sicherungen zum Schutz der Elektronik im Falle eines Kurzschlusses oder Überlast notwendig. Wenn wir nun eine defekte Sicherung ersetzen wollen, ist dies nur nach Reparatur bzw. Überprüfung der abgesicherten Anlagenteile sinnvoll. Bei der Auswahl der Sicherung achten wir dabei auf die gleiche Auslösecharakteristik sowie die Stromstärke.
 
 [question:EK204]
 

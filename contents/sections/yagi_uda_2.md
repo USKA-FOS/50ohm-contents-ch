@@ -6,7 +6,7 @@ In der Klasse N haben wir die Richtantenne Yagi-Uda bereits kennen gelernt. Das 
 
 [question:EG111]
 
-Reflektor und Direktoren bezeichnet man auch auch als *parasitäre Elemente*, da an diesen zwar kein Antennenkabel angeschlossen wird, sie aber dennoch Energie aufnehmen und wieder abgeben (ähnlich wie bei Organismen im Tier- und Pflanzenreich, die ihre Resourcen von anderen Organismen abziehen).
+Reflektor und Direktoren bezeichnet man auch als *parasitäre Elemente*, da an diesen zwar kein Antennenkabel angeschlossen wird, sie aber dennoch Energie aufnehmen und wieder abgeben (ähnlich wie bei Organismen im Tier- und Pflanzenreich, die ihre Ressourcen von anderen Organismen abziehen).
 
 [question:EG212]
 

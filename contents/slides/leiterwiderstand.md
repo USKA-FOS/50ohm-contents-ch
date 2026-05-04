@@ -20,13 +20,13 @@ $R = \frac{\rho\cdot l}{A_{\textrm{Dr}}}$
 </left>
 <right>
 <fragment>
-Kupfer: 0,018
-Aluminium: 0,028
-Gold: 0,022
-Silber: 0,016
-Zink: 0,11
-Eisen: 0,1
-Messing: 0,07
+* Kupfer: 0,018
+* Aluminium: 0,028
+* Gold: 0,022
+* Silber: 0,016
+* Zink: 0,11
+* Eisen: 0,1
+* Messing: 0,07
 </fragment>
 </right>
 <note>
@@ -43,7 +43,7 @@ Damit lässt sich der ohmsche Widerstand eines Drahtes bei bekanntem Material, L
 * gesucht: $R$
 
 <fragment>
-$$A_{\textrm{Dr}} = \frac{d^2\cdot \pi}{4} = \frac{(\qty{0,2}{\milli\meter})^2 \cdot \pi}{4} = \qty{\frac{\pi}{100}}{\milli\meter\squared} = \qty{0,0314}{\milli\meter\squared}$$
+$$A_{\textrm{Dr}} = \frac{d^2\cdot \pi}{4} = \frac{(\qty{0,2}{\milli\meter})^2 \cdot \pi}{4} = \frac{\pi}{100}\unit{\milli\meter\squared} = \qty{0,0314}{\milli\meter\squared}$$
 </fragment>
 <fragment>
 $$R = \frac{\rho\cdot l}{A_{\textrm{Dr}}} = \frac{\qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter} \cdot \qty{1,8}{\meter}}{\qty{0,0314}{\milli\meter\squared}} \approx \qty{1,02}{\ohm}$$
@@ -64,7 +64,7 @@ $\begin{split} R &= \frac{\rho\cdot l}{A_{\textrm{Dr}}}\\ \Rightarrow l &= \frac
 ---
 ## Temperaturkoeffizient
 
-* Widerstand von Metallen steigt bei zunehemender Temperatur
+* Widerstand von Metallen steigt bei zunehmender Temperatur
 * Atome bewegen sich bei höherer Temperatur mehr, wodurch es zu mehr Kollisionen mit Elektronen kommt
 
 ---

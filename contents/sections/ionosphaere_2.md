@@ -12,7 +12,7 @@ Dieser Prozess verleiht insbesondere der Kurzwelle ihre einzigartigen Fähigkeit
 
 [question:EH219]
 
-Andererseits wollen diese freien Elektronen sich sofort wieder mit den Atomrümpfen zu neutralen Atomen verbinden (*Rekombination*) und verlieren dadurch die brechende Wirkung. Nachdem im Sonnenlicht ständig ionoisiert und dann wieder rekombiniert wird, stellt sich in bestimmten Höhen ein Gleichgewicht zwischen diesen beiden Vorgängen ein. Diese Gebiete werden als *Regionen* bezeichnet (manchmal auch als "Schichten"). 
+Andererseits wollen diese freien Elektronen sich sofort wieder mit den Atomrümpfen zu neutralen Atomen verbinden (*Rekombination*) und verlieren dadurch die brechende Wirkung. Nachdem im Sonnenlicht ständig ionisiert und dann wieder rekombiniert wird, stellt sich in bestimmten Höhen ein Gleichgewicht zwischen diesen beiden Vorgängen ein. Diese Gebiete werden als *Regionen* bezeichnet (manchmal auch als "Schichten"). 
 
 ---
 

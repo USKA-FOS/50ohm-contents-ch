@@ -1,7 +1,7 @@
 % Halbleiter II
 % DF2DR 2024-08-19
 
-Der Grundstoff unserer modernen Welt sind Halbleiternaterialien. Grund genug, sich damit ein wenig eingehender zu beschäftigen. Halbleiter haben eine Kristallgitterstruktur, das heißt, ihre Atome sind periodisch angeordnet. 
+Der Grundstoff unserer modernen Welt sind Halbleitermaterialien. Grund genug, sich damit ein wenig eingehender zu beschäftigen. Halbleiter haben eine Kristallgitterstruktur, das heißt, ihre Atome sind periodisch angeordnet. 
 
 <margin>
 [picture:854:a_silizium_halbleiter:Silizium Halbleiterkristall]
@@ -23,7 +23,7 @@ Silizium (Si) und Germanium (Ge) sind *Elementhalbleiter* (wie übrigens auch Di
 
 ---
 
-Materialien mit Energiebandlücke werden nur dann als Halbleiter bezeichnet, wenn sie zusätzlich *dotierbar* sind. Ihre Leitfähikeit kann durch gezielte Verunreinigung des hochreinen Hableitermaterials in weiten Grenzen verändert werden. So hat Arsen (As), verglichen mit den Elementhalbleitern, ein Elektron mehr in der äußeren Elektronenschale. Dieses Elektron kann sehr einfach und mit wenig Energie zu einem freien Elekron im Leitungsband werden. So eine Dotierung nennen wir *n-Dotierung*.
+Materialien mit Energiebandlücke werden nur dann als Halbleiter bezeichnet, wenn sie zusätzlich *dotierbar* sind. Ihre Leitfähigkeit kann durch gezielte Verunreinigung des hochreinen Halbleitermaterials in weiten Grenzen verändert werden. So hat Arsen (As), verglichen mit den Elementhalbleitern, ein Elektron mehr in der äußeren Elektronenschale. Dieses Elektron kann sehr einfach und mit wenig Energie zu einem freien Elektron im Leitungsband werden. So eine Dotierung nennen wir *n-Dotierung*.
 
 <margin>
 [picture:855:a_n_dotierung:n-Dotierung]
@@ -31,7 +31,7 @@ Materialien mit Energiebandlücke werden nur dann als Halbleiter bezeichnet, wen
 
 ---
 
-Was aber passiert, wenn wir den Halbleiter mit einem Material verunreinigen, das in der äußeren Elektronenschale ein Elekron zu wenig hat? Eine solche Elektronenfehlstelle nennen wir ein *Loch*. Da das Atom vorher neutral war, hat die Elektronenfehlstelle eine positive Ladung. Die Löcher können sich ebenfalls im Kristall bewegen und zu einem Stromfluss beitragen. So eine Dotierung nennen wir *p-Dotierung*.
+Was aber passiert, wenn wir den Halbleiter mit einem Material verunreinigen, das in der äußeren Elektronenschale ein Elektron zu wenig hat? Eine solche Elektronenfehlstelle nennen wir ein *Loch*. Da das Atom vorher neutral war, hat die Elektronenfehlstelle eine positive Ladung. Die Löcher können sich ebenfalls im Kristall bewegen und zu einem Stromfluss beitragen. So eine Dotierung nennen wir *p-Dotierung*.
 
 <margin>
 [picture:856:a_p_dotierung:p-Dotierung]

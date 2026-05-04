@@ -37,6 +37,6 @@ FM-modulierte Signale lassen sich ebenfalls mittels einer PLL (Phase Locked Loop
 
 [question:AD505]
 
-Um SSB-Modulierte Signale zu demodulieren verwendet man einen sog. Produktdetektor. Dieser ist im wesentlichen ein Ringmischer, der als Eingangssignale die ZF des Empfängers sowie einen BFO (Beat Frequency Oscillator) verwendet. Durch Mischung (Produkt) dieser beiden Eingangssignale entsteht als eines der Mischprodukte das gewünchte NF-Signal (SSB-Signal), welches am Ausgang zur weiteren Verarbeitung abgegriffen werden kann. Für bestmögliche Verständlichkeit der demodulierten NF muss der BFO auf die Frequenz des unterdrückten Trägers des SSB-Signals abgstimmt werden.
+Um SSB-Modulierte Signale zu demodulieren verwendet man einen sog. Produktdetektor. Dieser ist im wesentlichen ein Ringmischer, der als Eingangssignale die ZF des Empfängers sowie einen BFO (Beat Frequency Oscillator) verwendet. Durch Mischung (Produkt) dieser beiden Eingangssignale entsteht als eines der Mischprodukte das gewünschte NF-Signal (SSB-Signal), welches am Ausgang zur weiteren Verarbeitung abgegriffen werden kann. Für bestmögliche Verständlichkeit der demodulierten NF muss der BFO auf die Frequenz des unterdrückten Trägers des SSB-Signals abgestimmt werden.
 
 [question:AD506]

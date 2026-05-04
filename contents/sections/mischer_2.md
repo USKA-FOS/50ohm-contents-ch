@@ -2,7 +2,7 @@
 [picture:804:mischer_linear_vs_nichtlinear:Linearer Widerstand und nichtlineare Diode]
 </margin>
 
-Steuerkennlinien von Baugruppen oder Bauelemten können linearen, nichtlinearen oder abschnittsweise gemischten Charakter haben. Zum Beispiel hat ein Widerstand eine lineare Kennline, die Kennlinie einer Diode ist hingegen nichtlinear [ref:mischer_linear_vs_nichtlinear].
+Steuerkennlinien von Baugruppen oder Bauelementen können linearen, nichtlinearen oder abschnittsweise gemischten Charakter haben. Zum Beispiel hat ein Widerstand eine lineare Kennline, die Kennlinie einer Diode ist hingegen nichtlinear [ref:mischer_linear_vs_nichtlinear].
 
 Im linearen Bereich von Steuerkennlinien finden keine Verzerrungen der Eingangssignale statt da zu jeder Änderung eines Eingangssignals eine prozentual gleichgroße Änderung des Ausgangssignals erfolgt. Mathematisch entspricht dies einem linearen Verhalten (Addition). Ein Beispiel für eine durchgehend lineare Steuerkennlinie ist ein Widerstand. An linearen Steuerkennlinien oder im linearen Bereich von Steuerkennlinien findet **kein** Mischprozess statt.
 

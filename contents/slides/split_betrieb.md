@@ -6,7 +6,7 @@
 
 <note>
 * Ein Vorteil am Split-Verkehr ist, dass die besondere Station klar zu empfangen bleibt und nicht selber nicht im Pile-Up "untergeht".
-* Der Trick beim Split-Verkehr mit dem Frequenzbereich ist, dass niemand weiß, auf welcher Frequenz die begehrte Station gerade hört. Für die CQ-rufende Station ensteht der Vorteil, dass sie eher einzelne Rufzeichen heraushören kann.
+* Der Trick beim Split-Verkehr mit dem Frequenzbereich ist, dass niemand weiß, auf welcher Frequenz die begehrte Station gerade hört. Für die CQ-rufende Station entsteht der Vorteil, dass sie eher einzelne Rufzeichen heraushören kann.
 </note>
 
 ---

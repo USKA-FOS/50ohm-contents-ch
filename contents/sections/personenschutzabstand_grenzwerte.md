@@ -8,7 +8,7 @@ Das [Bundesamt für Strahlenschutz](https://50ohm.de/bfs) informiert auf seiner 
 * Eindeutig nachgewiesen sind Kraftwirkungen und eine Wärmewirkung der hochfrequenten Felder.
 * Die Wärmewirkung ist ausschlaggebend für mögliche gesundheitliche Wirkungen beim Menschen.
 
-Wichtig für die Beantwortung der Frage ist hier Punkt 2, die Energieabsortion des menschlichen Körpers ist frequenzabhängig.
+Wichtig für die Beantwortung der Frage ist hier Punkt 2, die Energieabsorption des menschlichen Körpers ist frequenzabhängig.
 
 [question:EK101]
 

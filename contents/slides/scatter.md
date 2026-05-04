@@ -4,11 +4,16 @@
 ---
 ## Regenscatter
 
+<left>
 * Englisch *Rainscatter*
 * Streuung an Regentropfen in alle Richtungen (Rayleigh-Streuung)
 * Tropfengröße muss zur Wellenlänge passen: $\qty{6}{\centi\meter}$ und $\qty{3}{\centi\meter}$-Band
 * Antenne wird auf Regenwolke gehalten
 * Rauer Ton in SSB- und CW-Signalen (ähnlich Aurora)
+</left>
+<right>
+[photo:331:a_regenscatter:$\qty{10}{\giga\hertz}$ Regenscatter (DL4M Juni 2025)]
+</right>
 
 <note>
 $\qty{5,7}{\giga\hertz}$ und $\qty{10}{\giga\hertz}$

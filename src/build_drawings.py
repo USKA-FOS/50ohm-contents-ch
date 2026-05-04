@@ -21,7 +21,7 @@ def build_drawing(id, width=9.0):
             latex = file.read()
     
         # Workaround, if the picture contains a document class it should be ignored:
-        if ("\\begin{document}" in latex or "\\begin{table}" in latex): 
+        if "\\begin{document}" in latex or "\\begin{table}" in latex:
             print(f"Error: drawing file '{drawing}' contains a document environment.")
             return False
 
@@ -31,7 +31,7 @@ def build_drawing(id, width=9.0):
         with (img_path / f"{id}include.tex").open("w") as file:
             file.write(latex)
 
-        # Write the auxilary LaTeX file:
+        # Write the auxiliary LaTeX file:
         aux_file = build_path / f"{id}.tex"
         
         with aux_file.open("w", encoding="utf-8") as file:
@@ -72,5 +72,6 @@ if __name__ == "__main__":
     else:
         width = 9.0
     
-    print(f"Building picture {id}. This might take a while ... ") 
-    build_drawing(id, width)
+    print(f"Building picture {id}. This might take a while ...")
+    if not build_drawing(id, width):
+        print("Build failed.")

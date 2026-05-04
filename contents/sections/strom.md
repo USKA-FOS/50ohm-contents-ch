@@ -18,7 +18,7 @@ Schauen wir uns wieder einige Beispiele an: Durch eine Leuchtdiode (LED) fließe
 [table:strom_beispiele:Beispiele für Ströme]
 </webmargin>
 
-Um die folgende Aufgabe zu lösen, müssen wir uns klar machen, dass $\qty{1}{\milli\ampere}$ das gleiche ist wie $\qty{0,001}{\ampere}$. Beim Lösen muss man aber aufpassen, mit den Nullen nach dem Komma nicht durcheinander zu kommen: Wenn $\qty{1}{\milli\ampere}$ dasselbe wie $\qty{0,001}{\ampere}$ ist, dann ist $\qty{10}{\milli\ampere}$ dasselbe wie $\qty{0,010}{\ampere}$. Demzufolge ist $\qty{40}{\milli\ampere}$ also $\qty{0,040}{\ampere}$. Schlußendlich entspricht $\qty{42}{\milli\ampere}$ also $\qty{0,042}{\ampere}$.
+Um die folgende Aufgabe zu lösen, müssen wir uns klar machen, dass $\qty{1}{\milli\ampere}$ das gleiche ist wie $\qty{0,001}{\ampere}$. Beim Lösen muss man aber aufpassen, mit den Nullen nach dem Komma nicht durcheinander zu kommen: Wenn $\qty{1}{\milli\ampere}$ dasselbe wie $\qty{0,001}{\ampere}$ ist, dann ist $\qty{10}{\milli\ampere}$ dasselbe wie $\qty{0,010}{\ampere}$. Demzufolge ist $\qty{40}{\milli\ampere}$ also $\qty{0,040}{\ampere}$. Schlussendlich entspricht $\qty{42}{\milli\ampere}$ also $\qty{0,042}{\ampere}$.
 
 [question:NA209]
 

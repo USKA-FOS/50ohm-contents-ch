@@ -1,3 +1,10 @@
+* Funkverbindungen finden auf derselben Frequenz statt
+* Nur eine Seite kann sprechen – die andere kann nur hören
+* Beim gleichzeitigen Senden hört sich niemand
+* Kenntnisse für einen ordnungsgemäßen Betriebsablauf notwendig
+
+---
+
 ### Ablauf im Amateurfunk
 
 * Es gibt keine verpflichtenden Vorgaben außer Nennung des Rufzeichens
@@ -6,7 +13,7 @@
 <note>
 * In anderen Funkdiensten ist die Betriebsabwicklung genau vorgeschrieben, z.B. Flugfunk, Polizei, Feuerwehr, Rettungsdienste
 </note>
-  
+
 ---
 
 ### Freie Frequenz finden
@@ -18,7 +25,7 @@
 <note>
 * Manchmal hört man nur eine Seite, deshalb etwas Wartezeit geben
 </note>
-  
+
 ---
 
 ### Anruf starten
@@ -43,9 +50,9 @@ In der Antwort wird erst das Rufzeichen der anrufenden Station, dann das eigene 
 * CQ in etwa wie "seek you"
 * Im Deutschen auch "Allgemeiner Anruf"
 </note>
-  
+
 ---
- 
+
 #### Allgemeiner Anruf
 
 <qso>
@@ -86,7 +93,7 @@ D*(krschkrsch)*MJ für DK5WP, bitte kommen
 <fragment>
 Nachfragen, ob man gemeint war
 </fragment>
-  
+
 ---
 [question:BE103]
 ---

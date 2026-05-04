@@ -66,7 +66,7 @@ Dieser *Sperrdurchbruch* kann verschiedene physikalische Ursachen haben, die wir
 
 ---
 
-Das Schaltsymbol einer Zenerdiode (Abbildung [ref:e_zener_symbol]) ist das einer regulären Diode, bei der der Kathodenstrich eine zuätzliche Fortsetzung unter $\qty{90}{\degree}$ erhält. Dies soll an das "Abknicken" der Kennlinie im Durchbruch erinnern.
+Das Schaltsymbol einer Zenerdiode (Abbildung [ref:e_zener_symbol]) ist das einer regulären Diode, bei der der Kathodenstrich eine zusätzliche Fortsetzung unter $\qty{90}{\degree}$ erhält. Dies soll an das "Abknicken" der Kennlinie im Durchbruch erinnern.
 
 <margin>
 [picture:860:e_zener_symbol:Schaltsymbol einer Zenerdiode]

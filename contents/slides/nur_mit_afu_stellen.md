@@ -7,7 +7,7 @@ Es ist unzulässig, mit Funkstellen anderer Funkdienste zu funken.
 <note>
 * kein Funkverkehr mit Behörden, Flug- oder Seefunkstellen oder mit einer CB-Funkstelle
 </note>
- 
+
 ---
 [question:VC111]
 ---
@@ -16,9 +16,8 @@ Es ist unzulässig, mit Funkstellen anderer Funkdienste zu funken.
 
 ### Nachrichtenübermittlung
 
-Darüber hinaus ist es auch grundsätzlich unzulässig, Nachrichten von oder an Nicht-Funkamateure zu übermitteln.
-
-Die einzige Ausnahme sind Not- und Katastrophenfälle. Dann ist es erlaubt Nachrichten von und an Nicht-Funkamateure zu senden.
+* Es ist unzulässig, Nachrichten von oder an Nicht-Funkamateure zu übermitteln.
+* Die einzige Ausnahme sind **Not- und Katastrophenfälle**. Dann ist es erlaubt Nachrichten von und an Nicht-Funkamateure zu senden.
 
 <note>
 * Beispielsweise dürfen keine Grüße für Angehörige eines Funkamateurs gesendet werden, wenn diese selber keine Funkamateure sind.

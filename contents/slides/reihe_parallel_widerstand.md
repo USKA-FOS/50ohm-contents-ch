@@ -104,7 +104,7 @@ $R_{\mathrm{ges}} = \dfrac{(R_{1} + R_{2}) \cdot R_{3}} {(R_{1} + R_{2}) + R_{3}
 
 * Bei einer Reihenschaltung teilen sich die Spannungen auf.
 * Bei einer Parallelschaltung teilen sich die Ströme auf.
-* Somit ist bei der Berechnung mittels $P = U \cdot I$ immer ein Wert konstant und der andere entspechend kleiner.
+* Somit ist bei der Berechnung mittels $P = U \cdot I$ immer ein Wert konstant und der andere entsprechend kleiner.
 * $\rightarrow$ die Gesamtbelastbarkeit ist in beiden Fällen größer als die Einzelbelastbarkeit.
 
 ---

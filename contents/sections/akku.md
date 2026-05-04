@@ -9,7 +9,7 @@ Neben den bekannten Bleiakku (Pb), Nickel-Metallhydrid (NiMH) verwenden auch wir
 * Balance Stecker: JST-XH
 * Entlastung Stecker: $\qty{5.5}{\milli\meter}$ Kugel-Stecker
 
-Die für uns wichtigsten Kenndaten sind die Nennspannung $\qty{13,2}{\volt}$ und die Verschaltung 4S1P. Das bedeutet, dass sich die Nennspannung von $\qty{13,2}{\volt}$ aus 4 in Serie bzw. Reihe und 1 mal parallel, also alle 4 in Serie geschalten sind. Überlicherweise besitzen LiFePO4 eine Zellnennspannung von $\qty{3,2}{\volt}$ bis $\qty{3,3}{\volt}$. Und somit ergibt sich $\qty{3,3}{\volt} \cdot 4 = \qty{13,2 }{\volt} \cdot 1 = \qty{13,2}{\volt}$.
+Die für uns wichtigsten Kenndaten sind die Nennspannung $\qty{13,2}{\volt}$ und die Verschaltung 4S1P. Das bedeutet, dass sich die Nennspannung von $\qty{13,2}{\volt}$ aus 4 in Serie bzw. Reihe und 1 mal parallel, also alle 4 in Serie geschalten sind. Üblicherweise besitzen LiFePO4 eine Zellnennspannung von $\qty{3,2}{\volt}$ bis $\qty{3,3}{\volt}$. Und somit ergibt sich $\qty{3,3}{\volt} \cdot 4 = \qty{13,2 }{\volt} \cdot 1 = \qty{13,2}{\volt}$.
 
 ---
 
@@ -44,9 +44,9 @@ Bei Reihen- bzw. Serienschaltung von Akkus, wie in Abbildung [ref:a_akku_4S1P] a
 % TODO Bild Reihenschaltung liegt bei DG1HXJ als .tex
 [photo:176:a_akku_4S1P:Reihenschaltung]
 
-Bei der Paralellschaltung wie in Abblidung [ref:a_akku_4S2P] bleibt die Spannung gleich und die Kapazitäten addieren sich. 
+Bei der Parallelschaltung wie in Abbildung [ref:a_akku_4S2P] bleibt die Spannung gleich und die Kapazitäten addieren sich. 
 
-% TODO Bild Paralellschaltung liegt bei DG1HXJ als .tex
+% TODO Bild Parallelschaltung liegt bei DG1HXJ als .tex
 [photo:177:a_akku_4S2P:Parallelschaltung]
 
 ---

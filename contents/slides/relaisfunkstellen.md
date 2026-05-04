@@ -53,9 +53,9 @@ Den Abstand nennt man *Frequenzablage* oder kurz *Ablage*
 
 ---
 Beispiel eines $\qty{70}{\centi\meter}$-Relais:
-* Ausgabefrequenz: $\qty{438,875}{\mega\hertz}$
-* Ablage: $\qty{-7,600}{\mega\hertz}$
 * Eingabefrequenz: $\qty{431,275}{\mega\hertz}$
+* Ablage: $\qty{+7,600}{\mega\hertz}$
+* Ausgabefrequenz: $\qty{438,875}{\mega\hertz}$
 
 ---
 [question:BE401]

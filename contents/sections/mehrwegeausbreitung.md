@@ -1,5 +1,9 @@
 In der Klasse E haben wir bereits *Fading* (*QSB*) kennen gelernt. Das wird hier nochmal in der Klasse A etwas vertieft. Wenn ein Funksignal auf mehr als einem Weg vom Sender zum Empfänger gelangt, dann spricht man von *Mehrwegeausbreitung*. Eine wichtige Ursache ist die Reflexion des Signals an Flächen (z.B. Gebäude, Topografie, Flugzeuge) [ref:a_mehrwegeausbreitung_reflexion]. Auf Kurzwelle kommt hinzu, dass das Signal in der Ionosphäre häufig an mehreren Stellen gebrochen wird [ref:a_mehrwegeausbreitung_ionosphäre]. Fast jede Funkverbindung ist von Mehrwegeausbreitung betroffen.
 
+<margin>
+[picture:1064:a_mehrwegeausbreitung_reflexion:Mehrwegeausbreitung durch Reflexion. Durch die Phasenverschiebung bei der Reflexion kann es zu Verstärkung oder Abschwächung des empfangenen Signals kommen]
+</margin>
+
 ---
 
 Der Empfänger erhält also gleichzeitig *mehrere* Signale, die aufgrund unterschiedlicher Wegstrecken mit abweichenden Laufzeiten und damit verschiedenen Phasen eintreffen. Diese Signale werden im Empfänger addiert und nennt sich in der Fachsprache *Interferenz*. Abhängig vom Phasenunterschied kann das resultierende Summensignal entweder verstärkt oder abgeschwächt werden – im Extremfall sogar bis zur vollständigen Auslöschung.

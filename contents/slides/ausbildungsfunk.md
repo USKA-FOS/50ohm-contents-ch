@@ -12,7 +12,8 @@ Unter unmittelbarer Anleitung und Aufsicht eines zugelassenen Funkamateurs der K
 ### Abwicklung Ausbildungsfunkbetrieb
 
 * Der Auszubildende benutzt das Rufzeichen des Ausbilders und hängt den Zusatz „/T“ an: DG2RON/T
-* Ausgesprochen wird das als „Trainee”
+* Ausgesprochen wird das T als „Trainee”
+* Komplett: "DG2RON Trainee"
 
 <note>
 * Ausgesprochen: DG2RON Trainee
@@ -21,4 +22,4 @@ Unter unmittelbarer Anleitung und Aufsicht eines zugelassenen Funkamateurs der K
 ---
 [question:VD306]
 ---
-[question:BD209] 
+[question:BD209]

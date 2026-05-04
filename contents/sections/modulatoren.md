@@ -1,6 +1,6 @@
 Bisher kennen wir Halbleiter-Dioden nur in ihrer Funktion als Gleichrichter einer Wechselspannung. In Modulatoren zur Erzeugung von AM- und SSB-Signalen spielen Dioden eine neue Rolle: Durch eine angelegte NF-Spannung wird ihr Widerstand im Takt der NF-Frequenz vergrößert oder verkleinert; je größer die NF-Spannung, umso größer der Diodenstrom und umso kleiner der resultierende Widerstand. In einem Amplituden-Modulator wird dieser Widerstand eingesetzt, um die Amplitude eines HF-Signals (aus einem Lokaloszillator) zu beeinflussen; der HF-Strom durch die Diode wird groß, wenn der Dioden-Widerstand klein ist und umgekehrt. Das HF-Signal wird in seiner Amplitude im Takt des NF-Signals „moduliert“! Im einfachsten Fall, wenn man nur eine einzige Diode verwendet, enthält das Spektrum des Signals einen Träger (bei der ursprünglichen HF-Frequenz) und zwei Modulations-Seitenbänder im Abstand der NF-Frequenz oberhalb und unterhalb der Trägerfrequenz – ein Signal mit Amplituden-Modulation (AM). 
 
-Dieses Prinzip wird in der folgenden Frage deutlich: Eine Diode wird mit einem NF-Signal und einem HF-Signal gleichzeitig beaufschlagt und das Ausgangs-Signal wird mit einem LC-Schwigkreis ausgefiltert.
+Dieses Prinzip wird in der folgenden Frage deutlich: Eine Diode wird mit einem NF-Signal und einem HF-Signal gleichzeitig beaufschlagt und das Ausgangs-Signal wird mit einem LC-Schwingkreis ausgefiltert.
 
 [question:AD507]
 
@@ -42,13 +42,13 @@ Genau zu dieser Ausbalancierung gehört eine Justierung der Amplituden (Poti) un
 
 [question:AF303]
 
-Hinter dem Balacemodulator folgt die zweite Stufe eines SSB-Modulators.
+Hinter dem Balancemodulator folgt die zweite Stufe eines SSB-Modulators.
 
 [question:AF305]
 
 [question:AF306]
 
-Die Quarze bestimmen die Frequenz des durch den Balancemodulator unterdrückten Trägers. Man erkennt an der Quarzfrequenz für das untere Seitenband (LSB): Der Träger liegt $\qty{1,5}{\kilo\hertz}$ über der $\qty{9}{\mega\hertz}$-Bandfilter-Mittenfrequenz. Mit der maximalen NF-Frequenz von $\qty{3}{\kilo\hertz}$ liegt das untere Seitenband dann $\qty{1,5}{\kilo\hertz}$ unter der Mittenfrequenz und die NF-Frequenz $\qty{200}{\hertz}$ legt das Seitenband dann bei $\qty{1,3}{\kilo\hertz}$ über der Mittenfrequenz des Filters. Für das obere Seiteband (USB) gilt das umgekehrt.
+Die Quarze bestimmen die Frequenz des durch den Balancemodulator unterdrückten Trägers. Man erkennt an der Quarzfrequenz für das untere Seitenband (LSB): Der Träger liegt $\qty{1,5}{\kilo\hertz}$ über der $\qty{9}{\mega\hertz}$-Bandfilter-Mittenfrequenz. Mit der maximalen NF-Frequenz von $\qty{3}{\kilo\hertz}$ liegt das untere Seitenband dann $\qty{1,5}{\kilo\hertz}$ unter der Mittenfrequenz und die NF-Frequenz $\qty{200}{\hertz}$ legt das Seitenband dann bei $\qty{1,3}{\kilo\hertz}$ über der Mittenfrequenz des Filters. Für das obere Seitenband (USB) gilt das umgekehrt.
 
 [question:AF307]
 

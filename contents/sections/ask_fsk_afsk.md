@@ -10,7 +10,7 @@ Bei der Amplitudenumtastung (Amplitude Shift Keying, ASK) wird im einfachsten Fa
 
 ---
 
-Bei der Frequenzumstastung (Frequency Shift Keying, FSK) wechselt der Sender anstelle der Amplituden zwischen bestimmten Frequenzen, wie in Abbildung [ref:e_fsk] dargestellt.
+Bei der Frequenzumtastung (Frequency Shift Keying, FSK) wechselt der Sender anstelle der Amplituden zwischen bestimmten Frequenzen, wie in Abbildung [ref:e_fsk] dargestellt.
 
 <margin>
 [picture:703:e_fsk:Frequenzumtastung (Frequency-shift Keying)]

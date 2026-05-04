@@ -7,10 +7,10 @@ Wie bereits im Kapitel Gleichrichter I gelernt, kann ich mit einer Diode nur die
 ---
 
 Bei der positiven Halbwelle leitet die Diode $D$ und lässt Strom fließen. In dieser Zeit lädt sich der Kondensator $C_L$ auf den Spitzenwert der Wechselspannung auf. Zum Zeitpunkt der negativen Halbwelle sperrt die Diode $D$ den Strom und der Kondensator $C_L$ entlädt sich über den Lastwiderstand $R_L$.
-Somit stellt sich am Lastwiderstand $R_L$ eine pulsierende Gleichspannung $U_L$ ein (vgl. Abb.[ref:a_Restwelligkeit]). Um so größer die Kapazität des Kondensator ist, destso gleichmäßiger wird die Gleichspannung am Lastwiderstand geglättet.
+Somit stellt sich am Lastwiderstand $R_L$ eine pulsierende Gleichspannung $U_L$ ein (vgl. Abb.[ref:a_Restwelligkeit]). Um so größer die Kapazität des Kondensator ist, desto gleichmäßiger wird die Gleichspannung am Lastwiderstand geglättet.
 
 <margin>
-[picture:75:a_Restwelligkeit:Welligkeit der Ausgangsgleichspannnung $U_L$]
+[picture:75:a_Restwelligkeit:Welligkeit der Ausgangsgleichspannung $U_L$]
 Die Nulllinie befindet sich am unteren Rand der Darstellung.
 % Oszibild von dk1kc einfügen
 %TODO Diagramm einfügen
