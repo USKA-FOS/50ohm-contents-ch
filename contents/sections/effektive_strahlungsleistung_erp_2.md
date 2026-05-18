@@ -1,6 +1,6 @@
 %Bei der Berechnung der effektiven Strahlungsleistung (ERP) ist nur die Energie zu berücksichtigen, die auch tatsächlich der Antenne zugeführt wird, d. h. möglicherweise vorhandene Kabelverluste können abgezogen werden, bevor mit dem Gewinnfaktor multipliziert wird.
 
-Die effektiven Strahlungsleistung (ERP) einer Antenne bezieht sich auf den Halbwellendipol. Bei der Strahlungsleistung ist nur die Energie relevant, die tatsächlich an der Antenne ankommt. Durch Kabeldämpfung etc. kann die Leistung des Senders in der realen Welt nicht vollständig der Antenne zugeführt werden. Diese verlorene Leistung darf nicht in die Berechnung der Stahlungsleistung eingehen. Der Antennengewinn in der Vorzugsrichtung ist natürlich Teil der Rechnung. ERP ist das Produkt aus zugeführter Leistung und dem Antennengewinn.
+Die effektiven Strahlungsleistung (ERP) einer Antenne bezieht sich auf den Halbwellendipol. Bei der Strahlungsleistung ist nur die Energie relevant, die tatsächlich an der Antenne ankommt. Durch Kabeldämpfung etc. kann die Leistung des Senders in der realen Welt nicht vollständig der Antenne zugeführt werden. Diese verlorene Leistung darf nicht in die Berechnung der Strahlungsleistung eingehen. Der Antennengewinn in der Vorzugsrichtung ist natürlich Teil der Rechnung. ERP ist das Produkt aus zugeführter Leistung und dem Antennengewinn.
 
 [question:AG501]
 

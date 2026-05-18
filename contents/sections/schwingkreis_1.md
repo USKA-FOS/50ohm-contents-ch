@@ -89,7 +89,7 @@ Nun haben wir einfache RC- und LC-Glieder als Hoch- und Tiefpassfilter kennengel
 [picture:1026:e_rp_schwingkreis:(a) Reihen- (b) Parallelschwingkreis]
 </margin>
 
-Mithilfe von Schwingkreisen lassen sich Spule und Kondensator – je nach gewünschter Filterwirkung – so anordnen, dass bei einer bestimmten Frequenz ein besonders hoher oder besonders niedriger Widerstand auftritt. Dadurch werden Frequenzen oberhalb oder unterhalb dieser Frequenz gezielt gedämpft oder durchgelassen.
+In Schwingkreisen werden Spule und Kondensator – je nach gewünschter Filterwirkung – so angeordnet, dass bei einer bestimmten Frequenz ein besonders hoher oder besonders niedriger Widerstand auftritt. Dadurch werden Frequenzen oberhalb oder unterhalb dieser Frequenz gezielt gedämpft oder durchgelassen.
 
 Die Anordnung von Spule und Kondensator kann dabei entweder in Serie oder parallel erfolgen. Man unterscheidet entsprechend Reihenschwingkreise (a) und Parallelschwingkreise (b), wie in Abbildung [ref:e_rp_schwingkreis] dargestellt. 
 
@@ -135,8 +135,7 @@ $f_0 = \frac{1}{2\pi \sqrt{L\cdot C}}$
 Die genaue Herleitung der Formeln kann man z. B. auf [Wikipedia](https://50ohm.de/schwk) nachlesen. Es sollte an dieser Stelle erwähnt werden, dass alle Frequenzgänge qualitativ aufgezeichnet sind und in der Realität ggf. etwas anders aussehen.
 </indepth>
 
-[question:ED206] 
-[question:ED207]
+[question:ED205]
 
 ---
 
@@ -147,7 +146,8 @@ Bei Parallelschwingkreisen ist daher der Widerstand bei der Resonanzfrequenz am 
 [picture:1036:e_psk_frequenzgang:Qualitativer Frequenzgang eines Parallelschwingkreises]
 </margin>
 
-[question:ED205]
+[question:ED206] 
+[question:ED207]
 
 % TODO ////
 
@@ -155,9 +155,10 @@ Je nachdem, wie Parallel- und Serienschwingkreise im Signalweg eingesetzt werden
 
 ---
 
-Beginnen wir zunächst mit den Schaltungen für *Bandsperren*. Dabei gibt es zwei Möglichkeiten, diese als Spannungsteiler aufzubauen: erstens den *Saugkreis* (vgl. Abbildung [ref:e_saugkreis]) und zweitens den *Sperrkreis* (vgl. Abbildung [ref:e_sperrkreis]). In den Abbildungen sind jeweils der frequenzabhängige Widerstand sowie die Ausgangsspannung dargestellt. Mithilfe unserer bekannten Regeln zum Spannungsteiler lassen sich diese Zusammenhänge ganz analog zu den zuvor behandelten RC-Gliedern herleiten und verstehen. Weil die Parallelschwingkreise in Resonanz einen hohen Widerstand haben, lassen sich diese gut als Sperrkreis seriell im Signalweg verwenden. Oder man verwendet den geringen Resonanzwiderstand eines Serienschwingkreises parallel zum Signalweg als Saugkreis. Oft wird aber auch hier beides in Kombination verwendet. 
-[question:ED204]. Eine Anwendung für Bandsperren ist z.B. die Unterdrückung einzelner Bandbereiche, zum Beispiel wenn ein naheliegender UKW-Radiosender den Empfang stört.
+Beginnen wir zunächst mit den Schaltungen für *Bandsperren*. Dabei gibt es zwei Möglichkeiten, diese als Spannungsteiler aufzubauen: erstens den *Saugkreis* (vgl. Abbildung [ref:e_saugkreis]) und zweitens den *Sperrkreis* (vgl. Abbildung [ref:e_sperrkreis]). In den Abbildungen sind jeweils der frequenzabhängige Widerstand sowie die Ausgangsspannung dargestellt. Mithilfe unserer bekannten Regeln zum Spannungsteiler lassen sich diese Zusammenhänge ganz analog zu den zuvor behandelten RC-Gliedern herleiten und verstehen. Weil die Parallelschwingkreise in Resonanz einen hohen Widerstand haben, lassen sich diese gut als Sperrkreis seriell im Signalweg verwenden. Oder man verwendet den geringen Resonanzwiderstand eines Serienschwingkreises parallel zum Signalweg als Saugkreis. Oft wird aber auch hier beides in Kombination verwendet. Eine Anwendung für Bandsperren ist z.B. die Unterdrückung einzelner Bandbereiche, zum Beispiel wenn ein naheliegender UKW-Radiosender den Empfang stört.
 
+[question:ED204]
+[question:ED214] 
 [question:ED215]
 
 <margin>
@@ -169,10 +170,7 @@ Beginnen wir zunächst mit den Schaltungen für *Bandsperren*. Dabei gibt es zwe
 
 Die zweite Kategorie an Schaltungen die man aus Schwingkreisen entwickeln kann sind *Bandpässe*. Hier gibt es auch wieder zwei Möglichkeiten diese als Spannungsteiler aufzubauen: erstens den *Leitkreis* (vgl. Abbildung [ref:e_leitkreis]) und zweitens den *Bandpass* (vgl. Abbildung [ref:e_bandpass]). Auch hier erfolgt die Herleitung wie gewohnt über das Verhalten eines Spannungsteilers. Für einen Bandpass setzt man Parallelschwingkreise parallel zum Signalweg, da diese für Frequenzen abseits der Resonanz einen geringen Widerstand haben und diese sozusagen "kurzschließen". Ein Serienschwingkreis seriell im Signalweg sorgt für eine zusätzliche Dämpfung abseits der Resonanz, während dieser bei der gewünschten Frequenz einen geringen Widerstand hat.
 
-[question:ED214] 
-[question:ED204]
 [question:ED203]
-
 
 <margin>
 [picture:1039:e_leitkreis:Qualitative Frequenzgänge eines Leitkreises]

@@ -21,7 +21,7 @@
 <left>
 * Beim *Schutzkontaktstecker* gibt es drei Pole
 * L- und N-Leiter durch Stifte
-* Dort liegt die $\qty{230}{\volt}$-Spanung an
+* Dort liegt die $\qty{230}{\volt}$-Spannung an
 * *Schutzkontakt* ist der dritte Pol
 * PE-Leiter durch äußere Schleifkontakte
 </left>

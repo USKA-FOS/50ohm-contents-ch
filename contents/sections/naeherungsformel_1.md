@@ -61,7 +61,7 @@ $P_\textrm{EIRP} = \qty{100}{\watt} \cdot 4 \cdot 1,64 = \qty{656}{\watt}$
 
 ---
 
-Die Ergebnisse der beiden Rechenwegen sollten eigentlich gleich sein. Sie weichen aber etwas von ein ander ab. Das ist das Ergebnis von Rundungen bei den beiden Faktoren. Die vorhanden Leistung ist aber ausreichend genau um die Frage korrekt zu lösen. Wir setzen also diesen Wert in die Abstandsformel ein:
+Die Ergebnisse der beiden Rechenwege sollten eigentlich gleich sein. Sie weichen aber etwas voneinander ab. Das ist das Ergebnis von Rundungen bei den beiden Faktoren. Die gerundet berechnete Leistung ist aber ausreichend genau, um die Frage korrekt zu lösen. Wir setzen also diesen Wert in die Abstandsformel ein:
 
 $ d = \frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{E} = \frac{\sqrt{\qty{30}{\ohm}\cdot \qty{656}{\watt}}}{\qty{28}{\volt\per\meter}} \approx \qty{5}{\meter}  $
 

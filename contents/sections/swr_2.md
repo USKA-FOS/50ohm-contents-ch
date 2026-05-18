@@ -28,7 +28,7 @@ Das bedeutet, dass ein SWR von $\num{3}$ einer Reflektion von $\frac{\qty{25}{\w
 ---
 
 <tip>
-Zur Beantwortung der folgenden Fragen reicht es aus zu wissen, dass ein ein Stehwellenverhältnis von $\num{3}$ einer Reflexion von $\qty{25}{\percent}$ der Energie entspricht, d.h. die rücklaufende Welle überträgt ein Viertel der Energie der vorlaufenden Welle. Entsprechend werden nur $\qty{75}{\percent}$ der Energie am Ende der Leitung z. B. an eine Antenne oder einen Verlustwiderstand abgegeben (also nicht reflektiert). 
+Zur Beantwortung der folgenden Fragen reicht es aus zu wissen, dass ein Stehwellenverhältnis von $\num{3}$ einer Reflexion von $\qty{25}{\percent}$ der Energie entspricht, d.h. die rücklaufende Welle überträgt ein Viertel der Energie der vorlaufenden Welle. Entsprechend werden nur $\qty{75}{\percent}$ der Energie am Ende der Leitung z. B. an eine Antenne oder einen Verlustwiderstand abgegeben (also nicht reflektiert). 
 </tip>
 
 [question:EG401]

@@ -19,7 +19,7 @@ Hierdurch wird sichergestellt, dass nur die unerwünschten Aussendungen gemessen
 
 [question:EJ209]
 
-Ein ideales Sendesignal, welches nur auf einer gewünschten Frequenz aussendet sollte ein idealer Sinus sein. Dieser enthält ausser der Grundfrequenz keine weiteren Frequenzanteile.
+Ein ideales Sendesignal, welches nur auf einer gewünschten Frequenz aussendet sollte ein idealer Sinus sein. Dieser enthält außer der Grundfrequenz keine weiteren Frequenzanteile.
 
 [question:EJ201]
 

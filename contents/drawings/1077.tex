@@ -1,0 +1,24 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{tikzpicture}
+    \pgfplotsset{samples=200}
+    \begin{axis}[
+        ymin = 0,
+        ymax = 1.1,
+        xmin = 0.05,
+        xmax = 20,
+        xmode = log,
+        log ticks with fixed point,
+        domain = 0.05:20,
+        grid=both,
+        xlabel = {$\frac{R_\mathrm{L}}{R_\mathrm{i}}$},
+        ylabel = {$\frac{P_\mathrm{L}}{P_\mathrm{max}}$},
+        thick,
+        smooth,
+        no markers
+    ]
+    \addplot+[name path=A,ultra thick, DARCblue] { 
+        (4*x)/((1+x)^2)
+    };
+    \end{axis}
+\end{tikzpicture}

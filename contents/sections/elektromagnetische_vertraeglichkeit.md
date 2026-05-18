@@ -6,7 +6,7 @@ Grundsätzlich kann so jede Art von elektronischem Gerät gestört werden. Mögl
 * Schwierigkeiten beim Radio- oder Fernsehempfang
 * Fehler in der Steuerung von Heizungen
 
-Das Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln (EMVG) legt zur Vermeidung solcher Störungen bestimmte *Schutzanforderungen zur Gewährleistung der elektromagnetischen Verträglichkeit* fest, die von allen technischen Geräten eingehalten werden müssen. Einerseits wird verlangt, dass kein Gerät so starke Störungen erzeugen darf, dass andere Geräte nicht mehr funktionieren. Andererseits verlangt das Gesetz, dass alle Geräte eine gewisse Störfestigkeit aufweisen. Das bedeutet, dass sie unempfindlich gegenüber zu erwartenden elektromagnetischen Störungen seien müssen.
+Das Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln (EMVG) legt zur Vermeidung solcher Störungen bestimmte *Schutzanforderungen zur Gewährleistung der elektromagnetischen Verträglichkeit* fest, die von allen technischen Geräten eingehalten werden müssen. Einerseits wird verlangt, dass kein Gerät so starke Störungen erzeugen darf, dass andere Geräte nicht mehr funktionieren. Andererseits verlangt das Gesetz, dass alle Geräte eine gewisse Störfestigkeit aufweisen. Das bedeutet, dass sie unempfindlich gegenüber zu erwartenden elektromagnetischen Störungen sein müssen.
 
 Diese Schutzanforderungen sind grundsätzlich auch von Amateurfunkstationen einzuhalten. Das Amateurfunkgesetz gibt Funkamateuren allerdings das Privileg, beim zweiten Aspekt, also der Störfestigkeit einer Amateurfunkanlage, von den gesetzlichen Vorgaben abzuweichen und selber festzulegen, wie störfest die Anlage sein soll.
 

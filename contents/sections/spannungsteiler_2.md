@@ -1,53 +1,28 @@
-Bei einem belasteten Spannungsteiler muss berücksichtigt werden, dass der Gesamtstrom steigt, wenn die Belastung erhöht wird, d.h. der Lastwiderstand $R_L$ niederohmiger wird.
-Dies gilt unter der Voraussetzung, dass der Strom der Versorgungsspannung nicht einbricht, weil er limitiert ist.
-
-Eine schwierige Frage, deshalb soll sie im Einzelnen erklärt werden!
-
----
-[question:AD115]
-
-Im belasteten Spannungsteiler fließen 3 Ströme:
-$I_1$ fließt durch $R_1$ und verursacht dort eine Verlustleistung $P_1 = U_1 \cdot I_1 = I_2 \cdot R_1$
-$I_2$ fließt durch $R_2$ und verursacht dort eine Verlustleistung $P_2 = U_2 \cdot I_2 = {I_2}^2 \cdot R_2$
-$I_L$ fließt durch $R_L$ und verursacht dort eine Verlustleistung $P_L = U_2 \cdot I_L = {I_L}^2 \cdot R_L$
-Der Strom $I_1$ ist die Summe von $I_2$ und $I_L$ und damit der größte Strom.
+In der Klasse E haben wir bereits den *unbelasteten* Spannungsteiler kennengelernt. In der Klasse A beschäftigen wir uns mit dem *belasteten* Spannungsteiler, bei dem die Ausgangsspannung $U_2$ durch einen Lastwiderstand $R_L$ belastet wird. Das bedeutet, dass der Lastwiderstand parallel zum Widerstand $R_2$ liegt, wie es im Schaltbild der Abbildung [ref:a_spannungsteiler_belastet] zu sehen ist.
 
 <margin>
-  Zur Veranschaulichung hilft am Besten eine Rechnung mit konkreten Bauteilwerten.
-Angenommen: Alle Widerstände haben einen Wert von $\qty{1}{\kilo\ohm}$ und die Gesamtspannung $U_B$ beträgt $\qty{12}{\volt}$.
-  
- *unbelasteter Fall:*
- Ohne Rechnung ist sofort zu sehen: An jedem Widerstand können $\qty{6}{\volt}$ gemessen werden.
- Der Gesamtwiderstand $R_{\mathrm{ges}}$ beträgt: $\qty{2}{\kilo\ohm}$
- $\dfrac{U_B}{U_{2}} = \frac{R_{\mathrm{ges}}}{R_{2}}$
- Der Gesamtstrom $I_1$ beträgt:  $I_1 = \frac{U_B}{R_{\mathrm{ges}}}$
- $I_1 = \frac{\qty{12}{\volt}}{\qty{2}{\kilo\ohm}} = \qty{6}{\milli\ampere}$. Dieser Strom fließt auch durch $R_2$.
- Die Verlustleistung ist an beiden Widerständen gleich groß: $P_1 = P_2 = \qty{6}{\volt} \cdot \qty{6}{\milli\ampere} = \qty{36}{\milli\watt}$
- 
- *belasteter Fall:*
-  Die Parallelschaltung von $R_2$ und $R_L$ ergibt einen Ersatzwiderstand von $\qty{500}{\ohm}$.
-  Der Gesamtwiderstand des Spannungsteilers beträgt nun $\qty{1,5}{\kilo\ohm}$. Jetzt wirkt eine Spannungsteiler mit $\qty{1}{\kilo\ohm}$ zu $\qty{500}{\ohm}$ und dementsprechend teilt sich die Gesamtspannung auf.
-  $2/3$ der Gesamtspannung kann an $R_1$ und $1/3$ der Gesamtspannung kann an $\qty{500}{\ohm}$ gemessen werden.
-  Formel: $\frac{U_1}{U_B} = \frac{R_{1}}{R_{\mathrm{ges}}} \Leftrightarrow U_1 = U_B \cdot \frac{R_1}{R_{\mathrm{ges}}}$
-  $U_1 = \qty{12}{\volt} \cdot \frac{\qty{1}{\kilo\ohm}}{\qty{1,5}{\kilo\ohm}}$
-  $U_1 = \qty{8}{\volt}$ und am $\qty{500}{\ohm}$ Ersatzwiderstand $\qty{12}{\volt} - \qty{8}{\volt} = \qty{4}{\volt}$. 
-  
-Nun betrachten wir die Ströme:
-  $I_1 = \qty{8}{\volt} / \qty{1}{\kilo\ohm} = \qty{8}{\milli\ampere}$. Dieser Strom steigt an.
-  An $R_2$ und $R_L$ liegen jetzt nur noch $\qty{4}{\volt}$ an, deshalb sinken beide Ströme auf $I_2 = \qty{4}{\volt} / \qty{1}{\kilo\ohm} = \qty{4}{\milli\ampere}$ und $I_L = \qty{4}{\volt} / \qty{1}{\kilo\ohm} = \qty{4}{\milli\ampere}$.
-  
-  Wie verändern sich die Verlustleistungen?
-  *An $R_1$:*  
-  $P_1 = U_1 \cdot I_1 = \qty{8}{\volt} \cdot \qty{8}{\milli\ampere} = \qty{64}{\milli\watt}$ gegenüber $\qty{36}{\milli\watt}$ im unbelasteten Fall.
-  *An $R_2$* : 
-  $P_2 = U_2 \cdot I_2 = \qty{4}{\volt} \cdot \qty{4}{\milli\ampere} = \qty{16}{\milli\watt}$ gegenüber $\qty{36}{\milli\watt}$ im unbelasteten Fall.
-  *An $R_L$:*  
-  $P_L = U_L \cdot I_L = \qty{4}{\volt} \cdot \qty{4}{\milli\ampere} = \qty{16}{\milli\watt}$.
+[picture:199:a_spannungsteiler_belastet:belasteter Spannungsteiler]
 </margin>
 
-Merke: Bei der Dimensionierung eines Spannungsteiler ist die Stromstärke durch die Widerstände zu berücksichtigen. Der Strom $I_1$ steigt, wenn ein Lastwiderstand angeschlossen wird und dadurch wird $R_1$ wärmer.
+Bei einem belasteten Spannungsteiler muss berücksichtigt werden, dass der Gesamtstrom steigt, wenn die Belastung erhöht wird, d.h. der Lastwiderstand $R_L$ niederohmiger wird. Am besten erklären wir die Auswirkungen der Belastung an einem konkreten Beispiel. Angenommen die Widerstände $R_1$ und $R_2$ haben jeweils einen Wert von $\qty{1}{\kilo\ohm}$ und die Gesamtspannung $U_B$ beträgt $\qty{12}{\volt}$.
 
-% Spannungsteiler müssen eine bestimmte Belastbarkeit besitzen, die von der Stromstärke durch die Widerstände abhängt.
+Im unbelasteten Fall beträgt der Widerstand $R_\mathrm{L}=\infty$, der Widerstand exisiert also nicht und es kan kein Strom dadurch fließen. Die Spannung teilt sich gleichmäßig auf die beiden Widerstände $R_1$ und $R_2$ auf, d.h. an jedem Widerstand können $\qty{6}{\volt}$ gemessen werden. Der Gesamtwiderstand beträgt $R_{\mathrm{ges}}=\qty{2}{\kilo\ohm}$. Der Gesamtstrom beträgt $I_1 = \frac{U_B}{R_{\mathrm{ges}}}=\qty{6}{\milli\ampere}$. Dieser Strom fließt auch durch $R_2$. Die Verlustleistung ist an beiden Widerständen gleich groß: $P_1 = P_2 = \qty{6}{\volt} \cdot \qty{6}{\milli\ampere} = \qty{36}{\milli\watt}$.
+
+Im belasteten Fall soll der Lastwiderstand nun auch $R_L = \qty{1}{\kilo\ohm}$ betragen. Die Parallelschaltung von $R_2$ und $R_L$ ergibt einen Ersatzwiderstand von $R_\mathrm{par}=\qty{500}{\ohm}$. Der Gesamtwiderstand des Spannungsteilers beträgt nun nur noch $R_{\mathrm{ges}}=\qty{1,5}{\kilo\ohm}$. Jetzt wirkt eine Spannungsteiler mit $\qty{1}{\kilo\ohm}$ zu $\qty{500}{\ohm}$ und dementsprechend teilt sich die Gesamtspannung auf. $\frac{2}{3}$ der Gesamtspannung ($\qty{8}{\volt}$) kann an $R_1$ und $\frac{1}{3}$ der Gesamtspannung ($\qty{4}{\volt}$) kann an $R_\mathrm{par}$ gemessen werden. 
+
+Der Strom $I_1$ beträgt jetzt $I_1 = \frac{\qty{8}{\volt}}{\qty{1}{\kilo\ohm}}= \frac{\qty{12}{\volt}}{\qty{1,5}{\kilo\ohm}} = \qty{8}{\milli\ampere}$. Dieser Strom steigt also an. 
+
+Die Leistung an $R_1$ beträgt jetzt $P_1 = U_1 \cdot I_1 = \qty{8}{\volt} \cdot \qty{8}{\milli\ampere} = \qty{64}{\milli\watt}$ gegenüber $\qty{36}{\milli\watt}$ im unbelasteten Fall. An $R_\mathrm{par}$ beträgt die Leistung $P_\mathrm{par} = U_\mathrm{par} \cdot I_\mathrm{par} = \qty{4}{\volt} \cdot \qty{8}{\milli\ampere} = \qty{32}{\milli\watt}$ gegenüber $\qty{36}{\milli\watt}$ im unbelasteten Fall, da sich die Leistung auf $R_2$ und $R_L$ aufteilt.
+
+Zusammengefasst: Beim belasten eines Spannungsteiler mit einem Widerstand steigt der Strom $I_1$ an. Dadurch wird $R_1$ wärmer und $R_2$ weniger warm. Mit diesen Wissen können wir die nächste Frage leicht lösen.
+
+[question:AD115]
+
+Bei der folgenden Frage müssen wir unser Wissen über den Spannungsteiler und die Parallelschaltung von Widerständen kombinieren. Dazu zerlegen wir die Aufgabe in einzelne Schritte: Zuerst wird der Ersatzwiderstand der Parallelschaltung aus $R_2$ und $R_L$ bestimmt. Anschließend kann die Schaltung als einfacher Spannungsteiler betrachtet und daraus die Ausgangsspannung $U_2$ berechnet werden.
+
+[question:AD114]
+
+
 
 
 

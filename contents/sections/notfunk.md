@@ -37,7 +37,7 @@ Für die folgende Frage erinnern wir uns noch einmal an die Umrechnung von mitte
 
 ---
 
-Für den Funkverkehr eine Station des Flug- oder Seefunkdienstes gibt es die international festgelegten *Notzeichen "Mayday" und "SOS"*.  Weiterhin gibt es sogenannte *Dringlichkeits- und Sicherheitszeichen*. Dazu gehören u. a. "PAN PAN" und "SÉCURITÉ".
+Für den Funkverkehr einer Station des Flug- oder Seefunkdienstes gibt es die international festgelegten *Notzeichen "Mayday" und "SOS"*.  Weiterhin gibt es sogenannte *Dringlichkeits- und Sicherheitszeichen*. Dazu gehören u. a. "PAN PAN" und "SÉCURITÉ".
 
 <indepth>
 Mit einem *Notzeichen* teilt eine Station des See- oder Flugfunkdienstes an Bord eines Schiffs oder Flugzeugs mit, dass es sich in Not befindet. Im Sprechfunk wird dafür "Mayday" verwendet; in Telegrafie ist es "SOS". *Dringlichkeits- und Sicherheitszeichen* werden hingegen in weniger bedrohlichen Situationen verwendet.

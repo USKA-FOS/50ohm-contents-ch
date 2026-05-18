@@ -1,32 +1,29 @@
-% Im Kapitel der Dioden haben wir auch die Photodiode kennengelernt. Diese ergeben zusammengeschalten mit mehreren Photodioden eine Solarzelle und somit eine Spannungsquelle. 
-Eine Solarzelle wandelt die optische Strahlungsenergie der Sonne in elektrische Energie um. Damit hat man eine neue Spannungsquelle gefunden, die auch im Amateurfunk genutzt werden kann.
+Im Kapitel über Dioden haben wir bereits die Photodiode kennengelernt. Derselbe Effekt – die Umwandlung von Lichtenergie in elektrische Energie – wird auch bei der Solarzelle genutzt. Eine Solarzelle wandelt die optische Strahlungsenergie der Sonne in elektrische Energie um. Damit steht eine zusätzliche Spannungsquelle zur Verfügung, die sich auch im Amateurfunk, etwa bei einem Fieldday, einsetzen lässt. Die Abbildung [ref:a_solarzelle] zeigt den Aufbau einer monokristallinen Silizium Solarzelle. 
+
+Trifft Licht auf die Solarzelle, lösen die Lichtteilchen (Photonen) elektrische Ladungsträger im Halbleiter aus, wodurch eine elektrische Spannung und ein Strom entstehen. Albert Einstein erklärte diesen photoelektrischen Effekt bereits 1905 und erhielt dafür später den Nobelpreis für Physik.
+
+Das Schaltzeichen eines Photoelements (Solarzelle) ist in der Abbildung [ref:a_photoelement] dargestellt. 
+
 
 <margin>
+[picture:958:a_solarzelle:Aufbau einer monokristallinen Silizium Solarzelle]
 [picture:938:a_photoelement:Schaltzeichen Photoelement (Solarzelle)]
-% todo Bild eines PV-Moduls und einer einzelnen Zelle
-[picture:949:Solarmodul mit Zellen:Solarzellenverbund in einem Solarmodul]
+[picture:949:a_solarmodul:Solarmodul mit Zellen:Solarzellenverbund in einem Solarmodul]
 </margin>
-<indepth>
-[picture:958:monokristalline Silizium Solarzelle:Aufbau einer monokristallinen Silizium Solarzelle]
-Es folgen Bilder:
-
-Bild Solarzelle
-Bild Solarmodul
-Ein Solarmodul, das elektrische Energie erzeugt, ist nicht mit einem Sonnenkollektor zu verwechseln, denn dieser erwärmt Wasser durch die Sonnenenergie.
-</indepth>
   
 [question:AB212]
 
-Schauen wir uns zwei Kenngrößen einer Solarzelle an.
-
-| l: Bezeichnung       | c: Abkürzung  | X: Erklärung   |
-| Leerlaufspannung | ${U}_{OC}$ |Ist die Spannung, die ohne Last bei voller Sonneneinstrahlung anliegt. |
-| Kurzschlussstrom | ${I}_{SC}$  |Ist der Strom, welcher bei einem Kurzschluss am Ausgang, bei voller Sonneneinstrahlung, fließen wird.| 
-[table:a_solarzelle:Kenngrößen von Solarzellen]
-
-Diese Kenngrößen sind u.a. für die Auswahl der Betriebsgeräte wie Solarregler, Wechselrichter (DC/AC-Wandler) und DC/DC Wandler wichtig.
+Wichtige Kenngrößen einer Solarzelle sind die Leerlaufspannung $U_\mathrm{OC}$, also die Spannung ohne angeschlossene Last, sowie der Kurzschlussstrom $I_\mathrm{SC}$, der bei direktem Kurzschluss der Anschlüsse unter voller Sonneneinstrahlung fließt.
 
 Genau wie bei der Reihen- und Parallelschaltung von Akkus bzw. Spannungsquellen, verändert sich die Klemmenspannung und der maximale Laststrom eines Photovoltaikmoduls durch die Zusammenschaltung der einzelnen Solarzellen.
-Wenn wir 30 Solarzellen mit einer Leerlaufspannung von 0,6 V in Reihe schalten, werden die Spannungen addiert. Somit ergibt sich eine Spannung von 18 V. Wenn wir dazu nochmal 3x 30 in Reihe geschaltete Solarzellen parallel schalten, wird sicher deren Strom addieren. Dies bedeutet, dass bei einem Kurzschlussstrom von 1 A pro Zelle, sich der Kurzschlussstrom bei 4 parallel geschalteten Zellen auf 4 A vergrößert.
+
+In einem Solarmodul sind mehrere Solarzellen zu einem Verbund zusammengeschaltet, wie in der Abbildung [ref:a_solarmodul] zu sehen ist. Hier 
+werden 30 Solarzellen mit jeweils $\qty{0,6}{\volt}$ Leerlaufspannung in Reihe geschaltet. Es addieren sich die Spannungen der einzelnen Zellen. Dadurch ergibt sich eine Gesamtspannung von
+
+$\qty{30}{} \cdot \qty{0,6}{\volt} = \qty{18}{\volt}$.
+
+Zusätzlich werden vier dieser Reihenschaltungen parallel geschaltet. Bei einer Parallelschaltung addieren sich die Ströme der einzelnen Stränge. Liefert jede Solarzelle beziehungsweise jeder Strang einen Kurzschlussstrom von $\qty{1}{\ampere}$, so ergibt sich insgesamt ein Kurzschlussstrom von
+
+$\qty{4}{} \cdot \qty{1}{\ampere} = \qty{4}{\ampere}$.
 
 [question:AD301]

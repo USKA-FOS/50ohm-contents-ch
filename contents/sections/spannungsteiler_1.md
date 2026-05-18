@@ -22,7 +22,7 @@ $\frac{U_{2}}{U_g} = \frac{R_{2}}{R_{1} + R_{2}}$
 Bei einem belasteten Spannungsteiler gelten diese Formeln nicht. Fragen dazu folgen in der Klasse A.
 </danger>
 
-Bei den folgenden Fragen wird der Begriff Spannnungsteiler nicht direkt erwähnt, aber durch die Wortwahl : "Wie teilt sich die Spannung an zwei in Reihe geschalteten Widerständen auf ...." sollte man erkennen, dass es sich um einen Spannungsteiler handelt.
+Bei den folgenden Fragen wird der Begriff Spannungsteiler nicht direkt erwähnt, aber durch die Wortwahl : "Wie teilt sich die Spannung an zwei in Reihe geschalteten Widerständen auf ...." sollte man erkennen, dass es sich um einen Spannungsteiler handelt.
 
 [question:ED101]
 

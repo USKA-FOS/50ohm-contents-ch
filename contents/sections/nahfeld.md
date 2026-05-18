@@ -4,7 +4,7 @@ Im (reaktiven) Nahfeld einer Antenne weisen die elektrische Feldstärke und die 
 
 [question:AK101]
 
-Eine konstante Phasenbeziehung entsteht erst im Fernfeld einer Antenne. Das eigentliche Fernfeld beginnt erst bei $4\cdot\lambda$. Wird die Näherungsformel für das Fernfeld im strahlenden Nahfeld verwendent, ist die errechneten Feldstärke höher, als die tatsächlichen Feldstärke. Man ist somit auf der sicheren Seite. Dies gilt aber nicht für magnetische und sehr kurze Antennen.
+Eine konstante Phasenbeziehung entsteht erst im Fernfeld einer Antenne. Das eigentliche Fernfeld beginnt erst bei $4\cdot\lambda$. Wird die Näherungsformel für das Fernfeld im strahlenden Nahfeld verwendet, ist die errechnete Feldstärke höher als die tatsächliche Feldstärke. Man ist somit auf der sicheren Seite. Dies gilt aber nicht für magnetische und sehr kurze Antennen.
 
 Der Übergang zwischen dem reaktiven Nahfeld und dem strahlendes Nahfeld (Fernfeld) ist abhängig von der Wellenlänge. 
 

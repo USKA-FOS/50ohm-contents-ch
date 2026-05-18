@@ -45,7 +45,7 @@ Besonders komfortabel ist der Versand von QSL-Karten über den *DARC QSL-Service
 </tip>
 
 <indepth>
-Manchmal sieht man auch Rufzeichen, die mit DE beginnen. Diese werden nicht von der Bundesnetzagentur vergeben.  Es handelt sind dabei um *Hörerkennzeichen*, die der DARC nach Prüfung einiger Grundkenntnisse an Mitglieder vergibt. Mit diesen Rufzeichen kann man nicht am Sendebetrieb teilnehmen. Sie werden aber von Kurzwellenhörern genutzt, sogenannten SWLs (vom englischen "short wave listener"), die bei Funkverbindungen zuhören. SWLs können eine mitgehörte Verbindung ebenfalls per QSL-Karte bestätigen, die sie an beide Beteiligten einer Funkverbindung senden.
+Manchmal sieht man auch Rufzeichen, die mit DE beginnen. Diese werden nicht von der Bundesnetzagentur vergeben.  Es handelt sich dabei um *Hörerkennzeichen*, die der DARC nach Prüfung einiger Grundkenntnisse an Mitglieder vergibt. Mit diesen Rufzeichen kann man nicht am Sendebetrieb teilnehmen. Sie werden aber von Kurzwellenhörern genutzt, sogenannten SWLs (vom englischen "short wave listener"), die bei Funkverbindungen zuhören. SWLs können eine mitgehörte Verbindung ebenfalls per QSL-Karte bestätigen, die sie an beide Beteiligten einer Funkverbindung senden.
 </indepth>
 
 Manche Funkamateure bearbeiten ihre QSL-Karten nicht selbst, sondern lassen sich durch einen sogenannten *QSL-Manager* vertreten. Dieser übernimmt dann den Versand und den Empfang der QSL-Karten. Lässt sich eine Station beispielsweise von K8PYD vertreten, dann spricht man von "QSL via K8PYD". QSL-Karten sind dann nicht an den Funkamateur selbst, sondern an K8PYD zu senden.

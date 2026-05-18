@@ -37,7 +37,7 @@ Schauen wir uns dazu zwei Aufgaben an.
 
 ---
 <left>
-* Die Summe der Spannnungsabfälle ist gleich der Spannung, die aus der Spannungsquelle herauskommt.
+* Die Summe der Spannungsabfälle ist gleich der Spannung, die aus der Spannungsquelle herauskommt.
 * Das kann man mathematisch in folgender Formel ausdrücken (Formelsammlung):
 
 $U_g = U_{1} + U_{2}$

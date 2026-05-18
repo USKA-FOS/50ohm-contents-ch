@@ -1,72 +1,55 @@
-In Parallelschwingkreisen werden Spulen und Kondensatoren kombiniert. Zur genauen Berechnung der Resonanzfrequenz, müssen "unsichtbare" Kapazitäten, wie Wicklungskapazität und Schaltungskapazität,  berücksichtigt werden. Die folgende Aufgabe beschreibt die wirksamen Kapazitäten sehr praxisnah.
+In der Klasse E haben wir bereits kennengelernt, wie sich Kondensatoren in Reihen- und Parallelschaltung verhalten. Im vorherigen Kapitel wurde außerdem die Reihenschaltung von Spulen behandelt. In diesem Kapitel betrachten wir nun die Parallelschaltung von Spulen und Kondensatoren. Zunächst wiederholen wir jedoch noch einmal die grundlegenden Zusammenhänge bei Parallel- und Reihenschaltungen von Kapazitäten.
+
+In Parallelschwingkreisen werden Spulen und Kondensatoren miteinander kombiniert. Dabei besitzt auch eine reale Spule eine gewisse Eigenkapazität. Diese entsteht beispielsweise durch die Wicklungen der Spule und die dadurch vorhandenen elektrischen Feldkopplungen zwischen den Windungen.
+
+Für eine möglichst genaue Berechnung der Resonanzfrequenz müssen diese "unsichtbaren" Kapazitäten berücksichtigt werden. In der folgenden Aufgabe können die Kapazitäten der Kondensatoren und die Eigenkapazität der Spule direkt addiert werden, da sie parallel zueinander liegen.
+
+Besonders wichtig ist dabei, auf die unterschiedlichen Einheiten zu achten. Vor der Berechnung sollten daher alle Werte in dieselbe Einheit umgerechnet werden, damit die Kapazitäten korrekt addiert werden können.
 
 [question:AD103]
-Das Hauptproblem bei der Lösung der Aufgaben ist die Beachtung und Umwandlung der unterschiedlichen Vorsilben auf eine einheitliche, sinnvolle Vorsilbe, um nicht zu große oder zu kleine Zahlenwerte zu bekommen. Im Abschnitt "Kondensatoren  in Reihen- und Parallelschaltung "   der Klasse E wurde dies schon ausführlich erklärt. 
-Als gemeinsame Vorsilbe sollten bei der folgenden Frage alle Kapazitätswerte in Picofarad (pF) umgewandelt werden, da auch das Ergebnis in Picofarad angegeben ist. Die Eigenkapazität der Spule (Kapazität der Windungen gegeneinander) muss zusätzlich addiert werden.
 
-Schwieriger ist die Berechnung einer Reihenschaltung von 3 Kondensatoren.
+Bei der folgenden Aufgabe sind drei Kondensatoren in Reihe geschaltet. In der Klasse E haben wir gelenrt, dass sich bei Kondensatoren in Reihenschaltung die Kehrwerte der Kapazitäten addieren:
 
-Bei der folgenden Aufgabe hat die kleinste Kapazität den Wert $\qty{22}{\pico\farad}$.
-Die Gesamtkapazität muss deshalb kleiner als $\qty{22}{\pico\farad}$ sein. Da in der Lösung zwei Ergebnisse unter $\qty{22}{\pico\farad}$ zu finden sind, ist keine Abschätzung möglich, sondern es ist eine Rechnung notwendig.
 $\frac{1}{C_{\mathrm{ges}}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
-(siehe Formelsammlung Seite 236 unten -  Stichwort: Kondensatoren in Reihenschaltung )
 
+Auch hier müssen die Kapazitäten vor der Berechnung in die gleiche Einheit umgerechnet werden, damit die Kehrwerte korrekt addiert werden können.
 
----
 [question:AD101]
 
-<tip>
- Man gibt die Kapazitätswerte immer mit der 1/x - Taste in den Taschenrechner ein und muss am Schluss nochmals 1/x drücken.
-</tip>
-$C_1$ mit $\qty{0,1}{\nano\farad}$ muss in Picofarad umgewandelt werden. Dies ergibt $\qty{100}{\pico\farad}$.
-$\frac{1}{C_{\mathrm{ges}}} = \frac{1}{\qty{100}{\pico\farad}} + \frac{1}{\qty{47}{\pico\farad}} + \frac{1}{\qty{22}{\pico\farad}}$
+---
+
+In Wechselstromschaltungen treten neben den bekannten ohmschen Widerständen auch Blindwiderstände auf, wie wir sie bereits bei Kondensatoren und Spulen kennengelernt haben. Der normale ohmsche Widerstand wird als Wirkwiderstand $R$ bezeichnet. Blindwiderstände werden mit $X$ beschrieben. Beide Widerstandsarten beeinflussen den Stromfluss in der Schaltung gleichzeitig.
+
+Da Wirk- und Blindwiderstand unterschiedlich wirken, können sie nicht einfach addiert werden. Stattdessen werden sie geometrisch zusammengesetzt. Man kann sich dies wie ein rechtwinkliges Dreieck wie in Abbildung [ref:a_dreieck] vorstellen:
 
 ---
-[question:AD104]
-<indepth>
-% Widerstandsdreieck R - XC in Latex erstellen
-[photo:301:a_R-C Widerstandsdreieck:Widerstandsdreieck für die Reihenschaltung von $R$ und $X_C$]
-Das Widerstandsdreieck für die Reihenschaltung von $R$ und $X_C$ veranschaulicht grafisch die Berechnung mit der Formel $|Z| = \sqrt{R^2 + {X_C}^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{159}{\ohm})^2}$
-  Zusätzlich sieht man auch den Phasenverschiebungswinkel $\varphi$ zwischen $U$ und $I$ und das $I$ voreilend ist.
-</indepth>
 
-
-Zur Berechnung eines Scheinwiderstandes benutzen wir die Formel
-$|Z| = \sqrt{R^2 + X^2}$
-(siehe Formelsammlung Seite 235 unten rechts - Stichwort: Wechselspannung -> Scheinwiderstand)
-Zur Anwendung dieser Formel muss der Blindwiderstand $X_C$ des Kondensators bei $\qty{1}{\mega\hertz}$ zuerst berechnet werden.
-Die Formel für $X_C$ lautet:
-$X_C = \frac{1}{\omega \cdot C}$
-(siehe Formelsammlung Seite 236 unten links - Stichwort: Kapazität -> kapazitiver Blindwiderstand )
-
-Bei der Eingabe der Bauteilwerte in den Taschenrechner müssen die Zehnerpotenzen sorgfältig hinzugefügt werden.
-$\qty{1}{\mega\hertz} = \qty{1e6}{\hertz}$; $\qty{1}{\nano\farad} = \qty{1e-9}{\farad}$
-$X_C$ ergibt sich dann für den $\qty{1}{\nano\farad}$ Kondensator bei $\qty{1}{\mega\hertz}$ zu $\qty{159}{\ohm}$.
-Nun kann der Scheinwiderstand $|Z|$ berechnet werden.
-$|Z| = \sqrt{R^2 + {X_C}^2}$
-
----
-[question:AD105]
-Der Rechenweg ist der Gleiche wie vorher beschrieben und die Zehnerpotenzen sind wieder zu beachten:
-$\begin{split} \qty{100}{\micro\henry} &= \qty{100e-6}{\henry} \\ \qty{1}{\mega\hertz} &= \qty{1e6}{\hertz} \end{split}$
-$X_L$ muss mit der Formel  $X_L = \omega \cdot L$ zuerst  berechnet werden, danach kann die Berechnung des Scheinwiderstandes $|Z|$  mit der Formel $|Z| = \sqrt{R^2 + {X_L}^2}$ erfolgen.
-
-<indepth>
-% Widerstandsdreieck R - XL in Latex erstellen
-
-[photo:302:a_R-L Widerstandsdreieck:Widerstandsdreieck für die Reihenschaltung von $R$ und $X_L$]
-Das Widerstandsdreieck für die Reihenschaltung von $R$ und $X_L$ veranschaulicht grafisch die Berechnung mit der Formel $|Z| = \sqrt{R^2 + {X_L}^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{628}{\ohm})^2}$
-Zusätzlich sieht man auch den Phasenverschiebungswinkel $\varphi$ zwischen $U$ und $I$ und das $I$ nacheilend ist.
-</indepth>
-
+- Der Wirkwiderstand $R$ bildet die waagerechte Seite.
+- Der Blindwiderstand $X$ bildet die senkrechte Seite.
+- Der daraus entstehende Gesamtwiderstand wird als Scheinwiderstand $|Z|$ bezeichnet.
 
 <margin>
-Lösungshilfe
-AD 103: $\qty{100}{\pico\farad} + \qty{1500}{\pico\farad} + \qty{220}{\pico\farad} + \qty{1}{\pico\farad} = \qty{1821}{\pico\farad}$
-AD 101: $\qty{13}{\pico\farad}$
-AD 104: $X_C = \frac{1}{6,28 \cdot \qty{1e6}{\hertz} \cdot \qty{1e-9}{\farad}} = \qty{159}{\ohm}$
-$|Z| = \sqrt{R^2 + {X_C}^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{159}{\ohm})^2} \approx \qty{188}{\ohm}$
-AD 105: $\qty{636}{\ohm}$
-$X_L = \omega \cdot L = 2\pi \cdot f \cdot L = 2\pi \cdot \qty{1}{\mega\hertz} \cdot \qty{100}{\micro\henry} = \qty{628}{\ohm}$
-$|Z| = \sqrt{R^2 + {X_L}^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{628}{\ohm})^2} \approx \qty{636}{\ohm}$
+[picture:1067:a_dreieck:Rechtwinkliges Dreieck zur Veranschaulichung der Berechnung des Scheinwiderstandes $|Z|$ aus Wirkwiderstand $R$ und Blindwiderstand $X$]
 </margin>
+
+Der Scheinwiderstand lässt sich mit dem Satz des Pythagoras berechnen (vgl. Formelsammlung):
+
+$ |Z| = \sqrt{R^2 + X^2} $
+
+Der Buchstabe $Z$ wird für die sogenannte Impedanz verwendet. Für die Berechnungen in diesem Kapitel genügt es jedoch, den Betrag $|Z|$ als gesamten Wechselstromwiderstand der Schaltung zu betrachten.
+
+<indepth>
+Für mathematisch Interessierte: Die Impedanz $Z$ ist eine komplexe Größe, die den Wirkwiderstand $R$ als Realteil und den Blindwiderstand $X$ als Imaginärteil enthält:
+
+$Z = R + jX$
+
+Der Betrag $|Z|$ entspricht dann der Länge des Vektors in der komplexen Ebene, der durch die Kombination von $R$ und $X$ entsteht.
+</indepth>
+
+Für die nächste Frage muss, bevor wir den Satz des Pythagoras anwenden können, der Blindwiderstand $X_C$ des Kondensators bei $\qty{1}{\mega\hertz}$ berechnet werden. Dazu verwenden wir die Formel für den Blindwiderstand eines Kondensators.
+
+[question:AD104]
+
+Die nächste Frage beschäftigt sich mit der Berechnung des Scheinwiderstandes einer Reihenschaltung von einem Widerstand und einer Spule. Zunächst berechnen wir $X_L$, danach wenden wir wieder den Satz des Pythagoras an. Auch hier müssen die Zehnerpotenzen beachtet werden, damit die Berechnung korrekt durchgeführt werden kann.
+
+[question:AD105]

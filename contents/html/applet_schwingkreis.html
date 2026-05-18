@@ -8,7 +8,7 @@
     <script>
         url = new URL(window.location.href);
         url.pathname = url.pathname.replace(/[^/]+$/, 'pictures/');
-        base_url = url.href;
+        base_url = url.href.split("#")[0];
       
         const asgnimage = [
             "891.svg",

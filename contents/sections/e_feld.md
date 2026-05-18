@@ -16,7 +16,7 @@ Beginnen wir aber mit dem zeitlich unveränderlichen elektrischen Feld, auch sta
   
 ---
 
-Abbildung [ref:e_plattenkondensator] zeigt schematisch einen *Plattenkondensator*, bei dem an den Platten eine Spannugn $U$ anliegt. Die Platten sind voneinander isoliert, es fließt kein Strom. Die Spannung führt dazu, dass sich auf der linken Platte positive und auf der rechten Platte negative Ladungsträger ansammeln. Zwischen den beiden Platten bildet sich ein statisches elektrisches Feld $E$ aus. Nehmen wir an, dass die Ausdehnung der Platten in Länge und Breite sehr viel größer ist als der Abstand, dann ist die Stärke des Feldes vom Ort unabhängig -- wir sprechen von einem *homogenen* Feld. Die elektrische Feldstärke lässt sich dann ganz einfach berechnen:
+Abbildung [ref:e_plattenkondensator] zeigt schematisch einen *Plattenkondensator*, bei dem an den Platten eine Spannung $U$ anliegt. Die Platten sind voneinander isoliert, es fließt kein Strom. Die Spannung führt dazu, dass sich auf der linken Platte positive und auf der rechten Platte negative Ladungsträger ansammeln. Zwischen den beiden Platten bildet sich ein statisches elektrisches Feld $E$ aus. Nehmen wir an, dass die Ausdehnung der Platten in Länge und Breite sehr viel größer ist als der Abstand, dann ist die Stärke des Feldes vom Ort unabhängig -- wir sprechen von einem *homogenen* Feld. Die elektrische Feldstärke lässt sich dann ganz einfach berechnen:
 
 $E = \frac{U}{d}$
 

@@ -1,58 +1,61 @@
-Bei Hoch- und Tiefpässen haben bei der Grenzfrequenz der reelle Widerstand und das frequenzabhängige Bauteil den gleichen Widerstandswert. So gilt bei RC-Gliedern: $R=X_\text{C}$ und bei RL-Gliedern $R=X_\text{L}$. Diese Eigenschaft kann man nutzen, um aus dem Widerstand *$R$* und angegebener Spule *$L$* oder Kondensator *$C$* die Grenzfrequenz zu berechnen. Zur Berechnung der Grenzfrequenz eines RC-Gliedes werden zwei Formeln aus der Formelsammlung benötigt:
-Kreisfrequenz: $\omega = 2 \cdot \pi \cdot f$
-Kapazitiver Blindwiderstand: $X_\text{C} = \frac{1}{\omega \cdot C}$
-Fügen wir diese zusammen, indem wir $\omega$ einsetzen, erhalten wir daraus: $X_\text{C} = \frac{1}{2 \pi \cdot f \cdot C}$
-Diese stellen wir nun nach $f$ um, indem wir beide Seiten durch $X_\text{C}$ teilen und mit $f$ multiplizieren: 
-$\frac{X_\text{C} \cdot f}{X_\text{C}} = \frac{f}{2 \pi \cdot f \cdot C \cdot X_\text{C}}$
-$\frac{X_\text{C}}{X_\text{C}}$ sowie $\frac{f}{f}$ kürzen sich, und wir erhalten somit die fertig umgestellte Formel: 
-$f = \frac{1}{2 \pi \cdot C \cdot X_\text{C}}$
-Bei der Grenzfrequenz ist $X_\text{C}$ genauso groß wie $R$.
-Somit kann man für $X_\text{C}$ den gegebenen Widerstandswert $R$ einsetzen und für $C$ den gegebenen Kondensatorwert einsetzen.
+In der Formelsammlung finden wir die folgende Formel für die Berechnung der Grenzfrequenz von RC-Gliedern, z.B. von Hoch- oder Tiefpassfiltern:
 
-Hierdurch ergibt sich folgende Formel für die Berechnung der Grenzfrequenz von RC-Gliedern:
+$f_g = \frac{1}{2 \pi \cdot R \cdot C}$
 
-$f = \frac{1}{2 \pi \cdot R \cdot C}$
+Mit dieser Formel können wir eine Reihe von Prüfungsfragen lösen.
 
-Dabei sollte man natürlich auch die richtigen Zehnerpotenzen (Einheiten) verwenden. Diese sind in der Formelsammlung ganz oben auf der ersten Seite zu finden. 
+<indepth>
+Für mathematisch interessierte Leser: Die Formel für die Grenzfrequenz eines RC-Gliedes lässt sich auch durch die Betrachtung der komplexen Impedanzen von Widerstand und Kondensator herleiten. Wir betrachten den RC-Tiefpass als frequenzabhängigen Spannungsteiler.
 
----
-<margin>
-*Lösungshinweis*
+[picture:175:a_rc_tiepass:RC-Tiefpass als frequenzabhängiger Spannungsteiler]
 
-Hier setzen wir unsere umgestellte Formel ein:
+Für das Verhältnis von Ausgangs- zu Eingangsspannung gilt:
 
-$\begin{split}f &= \frac{1}{2 \pi \cdot R \cdot C}\\\text{Mit eingesetzten Werten:}\\f &= \frac{1}{2 \pi \cdot 4,7 \cdot \qty{10^3}{\ohm} \cdot 2,2 \cdot \qty{10^{-9}}{\farad}}\\ &\approx\qty{15395}{\hertz} \approx 15,4 \cdot \qty{10^3}{\hertz} = \qty{15,4}{\kilo\hertz}\end{split}$
-</margin>
+$\frac{|U_A|}{|U_E|} = \frac{|X_C|}{|R + X_C|}$
+
+Der kapazitive Blindwiderstand des Kondensators lautet:
+
+$X_C = \frac{1}{j\omega C}$
+
+Damit ergibt sich:
+
+$\frac{|U_A|}{|U_E|} = \frac{\left|\frac{1}{j\omega C}\right|}{\left|R + \frac{1}{j\omega C}\right|}$
+
+Für die Beträge erhalten wir:
+
+$\frac{|U_A|}{|U_E|} = \frac{\frac{1}{\omega C}}{\sqrt{R^2 + \frac{1}{\omega^2 C^2}}}$
+
+Multipliziert man Zähler und Nenner mit $\omega C$, vereinfacht sich der Ausdruck zu:
+
+$\frac{|U_A|}{|U_E|} = \frac{1}{\sqrt{1 + R^2\omega^2 C^2}}$
+
+Die Grenzfrequenz ist so definiert, dass die Ausgangsspannung auf den Faktor $\frac{1}{\sqrt{2}} \approx 0{,}707$ des ursprünglichen Wertes abgefallen ist. Dies entspricht etwa $\qty{70}{\percent}$ der Ausgangsspannung bzw. einem Pegelabfall von $\qty{3}{\dB}$.
+
+$\frac{|U_A|}{|U_E|} = \frac{1}{\sqrt{2}}$
+
+Daraus folgt:
+
+$\frac{1}{\sqrt{1 + R^2\omega^2 C^2}} = \frac{1}{\sqrt{2}}$
+
+Damit muss gelten:
+
+$R^2\omega^2 C^2 = 1$
+
+und somit:
+
+$\omega R C = 1$
+
+Mit $\omega = 2\pi f$ ergibt sich:
+
+$2\pi f_g R C = 1$
+
+Daraus folgt für die Grenzfrequenz:
+
+$f_g = \frac{1}{2\pi R C}$
+</indepth>
+
 [question:AD201] 
-
----
-<margin>
-*Lösungshinweis*
-
-Hier wieder: $f = \frac{1}{2 \pi \cdot R \cdot C}$
-
-Mit eingesetzten Werten:
-
-$\begin{split}f &= \frac{1}{2 \pi \cdot 10 \cdot \qty{10^3}{\ohm} \cdot 47 \cdot \qty{10^{-9}}{\farad}}\\ &\approx \qty{339}{\hertz}\end{split}$
-</margin>
 [question:AD202] 
-
----
-<margin>
-*Lösungshinweis*
-
-Auch hier wieder: $f = \frac{1}{2 \pi \cdot R \cdot C}$
-
-Aber Vorsicht: Welche Werte müssen hier denn überhaupt berücksichtigt werden?
-
-Schauen wir uns $C_2$ näher an, sehen wir, dass dieser nicht Teil des Tiefpasses ist, sondern nur zur Abblockung von Störungen in der Versorgungsspannung der Schaltung dient. Daher darf $C_2$ hier auch nicht berücksichtigt werden.
-
-Die hohe Grenzfrequenz und sehr hohe Eingangsimpedanz des Audioverstärkers sind zu vernachlässigen und müssen ebenfalls nicht berücksichtigt werden. Als Werte setzen wir daher nur $R_1 = \qty{4,7}{\kilo\ohm}$ und $C_1 = \qty{6,8}{\nano\farad}$ ein.
-
-Mit eingesetzten Werten:
-
-$\begin{split}f &= \frac{1}{2 \pi \cdot 4,7 \cdot \qty{10^3}{\ohm} \cdot 6,8 \cdot \qty{10^{-9}}{\farad}}\\ &\approx \qty{4979}{\hertz}\end{split}$
-</margin>
 [question:AD203] 
 
 **Resonanzfrequenz**
@@ -82,66 +85,15 @@ Um die Resonanzfrequenz von Parallel- und Serienschwingkreisen zu berechnen, ver
 
 $f = \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}$
 
----
-<margin>
-*Lösungshinweis*
-
-Hier setzen wir die Thomsonsche Schwingkreisformel ein:
-
-Hinweis: Der Widerstand innerhalb des Schwingkreises hat keine Relevanz für die Berechnung der Resonanzfrequenz!
-
-$\begin{split}f &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\\text{Mit eingesetzten Werten:}\\f &= \frac{1}{2 \pi \cdot \sqrt{1,2 \cdot \qty{10^{-6}}{\henry} \cdot 6,8 \cdot \qty{10^{-12}}{\farad}}}\\ &= \qty{55715374,27}{\hertz} \approx 55,7 \cdot \qty{10^6}{\hertz} = \qty{55,7}{\mega\hertz}\end{split}$
-</margin>
 [question:AD208] 
-
----
-
-<margin>
-*Lösungshinweis*
-
-Hier setzen wir die Thomsonsche Schwingkreisformel ein:
-
-$\begin{split}f &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\\text{Mit eingesetzten Werten:}\\ f &= \frac{1}{2 \pi \cdot \sqrt{10 \cdot \qty{10^{-6}}{\henry} \cdot 1 \cdot \qty{10^{-9}}{\farad}}}\\ &\approx \qty{1591549,43}{\hertz} \approx 1,592 \cdot \qty{10^6}{\hertz} = \qty{1,592}{\mega\hertz}\end{split}$
-</margin>
 [question:AD209]
-
----
-
-<margin>
-*Lösungshinweis*
-
-Hier setzen wir die Thomsonsche Schwingkreisformel ein:
-
-$\begin{split}f &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\\text{Mit eingesetzten Werten:}\\ f &= \frac{1}{2 \pi \cdot \sqrt{100 \cdot \qty{10^{-6}}{\henry} \cdot 0,01 \cdot 10^{-6}\text{ F}}}\\ &\approx \qty{159154,94}{\hertz} \approx 159 \cdot \qty{10^3}{\hertz} = \qty{159}{\kilo\hertz}\end{split}$
-</margin>
 [question:AD210] 
 
 ---
 
 Die Resonanzfrequenz von Parallelschwingkreisen wird genau wie bei Serienschwingkreisen mit der zuvor genannten Thomsonschen Schwingkreisformel berechnet. Auch hier hat ein parallel geschalteter Widerstand keinen Einfluss auf die Resonanzfrequenz, jedoch auf die Güte (Q) und Bandbreite (B).
 
-<margin>
-*Lösungshinweis*
-
-Hier setzen wir die Thomsonsche Schwingkreisformel ein:
-
-Hinweis: Der Widerstand innerhalb des Schwingkreises hat keine Relevanz für die Berechnung der Resonanzfrequenz!
-
-$\begin{split}f &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\\text{Mit eingesetzten Werten:}\\ f &= \frac{1}{2 \pi \cdot \sqrt{2,2 \cdot \qty{10^{-6}}{\henry} \cdot 56 \cdot \qty{10^{-12}}{\farad}}}\\ &\approx \qty{14338865,06}{\hertz} \approx 14,34 \cdot \qty{10^6}{\hertz} = \qty{14,34}{\mega\hertz}\end{split}$
-</margin>
 [question:AD211] 
-
----
-
-<margin>
-*Lösungshinweis*
-
-Hier setzen wir die Thomsonsche Schwingkreisformel ein:
-
-Hinweis: Parallel geschaltete Kapazitäten addieren sich.
-
-$\begin{split}f &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\\text{Mit eingesetzten Werten:}\\ C_\text{Ges} &= C_1 + C_2 + C_3\\ 1,82 \cdot \qty{10^{-9}}{\farad} &= 0,1 \cdot \qty{10^{-9}}{\farad} + 1,5 \cdot \qty{10^{-9}}{\farad} + 220 \cdot \qty{10^{-12}}{\farad}\\ f &= \frac{1}{2 \pi \cdot \sqrt{1,2 \cdot 10^{-3}\text{ H} \cdot 1,82 \cdot \qty{10^{-9}}{\farad}}}\\ &\approx \qty{107694,57}{\hertz} \approx 107,7 \cdot \qty{10^3}{\hertz} = \qty{107,7}{\kilo\hertz}\end{split}$
-</margin>
 [question:AD212] 
 
 ---
@@ -195,27 +147,6 @@ $Q = \frac{f_0}{B} = \frac{X_\text{L}}{R_\text{S}}$
 Für den Parallelschwingkreis gilt im Resonanzfall ($X_\text{L} = X_\text{C}$):
 $Q = \frac{f_0}{B} = \frac{R_\text{P}}{X_\text{L}}$
 
----
-<margin>
-*Lösungshinweis*
-
-Zunächst müssen wir aus den Werten von *L* und *C* die Resonanzfrequenz des Schwingkreises gemäß Thomsonscher Schwingkreisformel bestimmen, da die vorgenannten Gleichungen nur für den Resonanzfall gelten!
-
-$\begin{split}f &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ \text{Mit eingesetzten Werten:}\\ f &= \frac{1}{2 \pi \cdot \sqrt{100 \cdot \qty{10^{-6}}{\henry} \cdot 0,01 \cdot 10^{-6}\text{ F}}} \\ &\approx \qty{159154,94}{\hertz} \approx 159,2 \cdot \qty{10^3}{\hertz}\\ &\approx \qty{159,2}{\kilo\hertz}\end{split}$
-  
-Damit kann der induktive Widerstand $X_\text{L}$ wie folgt berechnet werden (Formeln aus der Formelsammlung):
-
-Kreisfrequenz: $\omega = 2 \pi \cdot f$
-
-Induktiver Widerstand: $X_\text{L} = \omega \cdot L$
-
-Mit eingesetzten Werten:
-$\begin{split}X_\text{L} &= 2 \pi \cdot 159,2 \cdot \qty{10^3}{\hertz} \cdot 100 \cdot \qty{10^{-6}}{\henry}\\ &\approx \qty{100,03}{\ohm}\end{split}$
-  
-Die Güte errechnet sich damit unter Einbeziehung des ohmschen Widerstands $R_\text{S}$ zu:
-  
-$\begin{split}Q &= \frac{X_\text{L}}{R_\text{S}}\\\text{Mit eingesetzten Werten:}\\Q &= \frac{\qty{100,03}{\ohm}}{\qty{10}{\ohm}} \approx 10\end{split}$
-</margin>
 [question:AD225]
 
 ---
@@ -236,13 +167,6 @@ $B = \frac{f_0}{Q}$
 
 Die vorgenannte Formel gilt sowohl für den Serien- als auch den Parallelschwingkreis!
 
----
-
-<margin>
-*Lösungshinweis*
-
-Gemäß Thomsonscher Schwingkreisformel ergibt sich für einen Parallelschwingkreis mit $\qty{2,2}{\micro\henry}$ und $\qty{56}{\pico\farad}$ eine Resonanzfrequenz von $\qty{14,339}{\mega\hertz}$. Für $X_\text{L}$ errechnet sich daraus ein Wert in Höhe von $\qty{198,21}{\ohm}$. Der Gütefaktor $Q$ kann errechnet werden zu $\num{5,05}$. Nun können wir die Bandbreite $B$ nach der vorgenannten Formel berechnen und erhalten $\qty{2,84}{\mega\hertz}$.
-</margin>
 [question:AD224]
 
 ---

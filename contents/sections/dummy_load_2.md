@@ -6,6 +6,6 @@ Eine Dummy-Load mit einem Messausgang und eingebauten Spitzenwertgleichrichter k
 
 [question:AI602]
 
-Eine weitere Möglichkeit die HF-Ausgangsleistung eines Sender ungefähr zu bestimmen besteht darin eine Dummy-Load mit einer Anzapfung des Widerstandsnetzwerks am erdnahen Ende zu verwenden. Hierbei wird eine HF-Teilspannung durch das Verhältnis der Widerstände (Spannungsteiler) an der Anzapfung messbar. Diese HF-Spannung kann dann z.B. mit einem HF-Tastkopf und einem digitalen Multimeter gemessen werden. Hierdurch kann, bei bekanntem Spannungsteiler-Verhältnis, die tatsächlich an der Dummy-Load anliegende HF-Spannung berechnet werden.
+Eine weitere Möglichkeit die HF-Ausgangsleistung eines Senders ungefähr zu bestimmen besteht darin eine Dummy-Load mit einer Anzapfung des Widerstandsnetzwerks am erdnahen Ende zu verwenden. Hierbei wird eine HF-Teilspannung durch das Verhältnis der Widerstände (Spannungsteiler) an der Anzapfung messbar. Diese HF-Spannung kann dann z.B. mit einem HF-Tastkopf und einem digitalen Multimeter gemessen werden. Hierdurch kann, bei bekanntem Spannungsteiler-Verhältnis, die tatsächlich an der Dummy-Load anliegende HF-Spannung berechnet werden.
 
 [question:AI603]

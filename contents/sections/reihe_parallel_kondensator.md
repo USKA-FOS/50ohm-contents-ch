@@ -77,7 +77,7 @@ Bei der nächsten Frage werden 3 Kondensatoren in Reihen- und Parallelschaltung 
 Welcher Schaltungsteil kann zuerst vereinfacht werden? Richtig: die Reihenschaltung.
 Diese Teilgruppe hat als Gesamtkapazität die Hälfte von $\qty{10}{\nano\farad}$, also $\qty{5}{\nano\farad}$. Jetzt ist es einfacher weiterzurechnen, da bei einer Parallelschaltung die Kapazitätswerte addiert werden. Gratulation zum Ergebnis von $\qty{10}{\nano\farad}$.
 
-Die weiteren Aufgaben ähnlich und leicht lösbar.
+Die weiteren Aufgaben sind ähnlich und leicht lösbar.
 
 [question:ED122]
 [question:ED123]
