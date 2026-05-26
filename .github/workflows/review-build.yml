@@ -1,0 +1,92 @@
+name: Review Build & Deploy
+
+on:
+  push:
+    branches:
+      - 'review/de/main'
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 50Ohm generator
+        uses: actions/checkout@v6
+        with:
+          repository: USKA-FOS/50ohm-generator.git
+          ref: main
+          path: workspace/app
+
+      - name: Install uv
+        run: curl -Ls https://astral.sh/uv/install.sh | sh
+
+      - name: Add uv to PATH
+        run: echo "$HOME/.cargo/bin" >> $GITHUB_PATH
+
+      - name: Cache uv
+        uses: actions/cache@v5
+        with:
+          path: |
+            ~/.cache/uv
+            workspace/app/.venv
+          key: uv-${{ runner.os }}-${{ hashFiles('workspace/app/requirements.txt') }}
+
+      - name: Sync dependencies
+        working-directory: workspace/app
+        run: uv sync
+
+      - name: Setup SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_DEPLOY_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+
+      - name: Set status to running
+        working-directory: workspace/app
+        run: |
+          uv run python3 generate_status.py --output generator_status.json running
+          rsync -e "ssh -p 2222 -o StrictHostKeyChecking=no" generator_status.json github-ci@50ohm.uska.ch:/home/dev/50ohm_review/
+
+      - name: Checkout 50Ohm content
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.inputs.branch }}
+          path: workspace/app/50ohm-contents-ch
+
+      - name: Download question pool
+        working-directory: workspace/app/50ohm-contents-ch/contents/questions/
+        run: rsync -e "ssh -p 2222 -o StrictHostKeyChecking=no" github-ci@50ohm.uska.ch:fragenkatalog_*.json .
+
+      - name: Write config.json
+        working-directory: workspace/app
+        run: |
+          cat > config/config.json <<EOF
+          {
+            "input" : "50ohm-contents-ch",
+            "questions" : "fragenkatalog_ch.json",
+            "questions_upstream" : "fragenkatalog_4pre.json",
+            "repo_base_url" : "https://github.com/USKA-FOS/50ohm-contents-ch"
+          }
+          EOF
+
+      - name: Run full build
+        working-directory: workspace/app
+        run: uv run python3 build.py
+
+      - name: Deploy build
+        run: |
+          rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no -p 2222" workspace/app/build/ \
+            github-ci@50ohm.uska.ch:/home/dev/50ohm_review/
+#         rsync -avz workspace/app/build/ \
+#           user@your-server.com:/var/www/reviews/${GITHUB_REF_NAME}/${GITHUB_SHA}/
+
+      - name: Update remote git worktree for diffs
+        run: ssh -o StrictHostKeyChecking=no -p 2222 github-ci@50ohm.uska.ch 'cd /home/dev/50ohm-diff-worktrees/review && git pull origin review/de/main'
+
+      - name: Set status to completed
+        working-directory: workspace/app
+        run: |
+          uv run python3 generate_status.py --output generator_status.json completed
+          rsync -e "ssh -p 2222 -o StrictHostKeyChecking=no" generator_status.json github-ci@50ohm.uska.ch:/home/dev/50ohm_review/
