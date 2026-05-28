@@ -29,7 +29,7 @@ Insbesondere bei sehr geringer Sonnenaktivität oder während starker Magnetstü
 
 
 ---
-% YPA: die zwei Fragen einbetten wo sinnvoll. Wenn nötig entsprechenden Inhalt erschaffen. Achtung: Zeile 17 verweisst auf weiteren Inhalt in HB9.
+YPA an Bearbeiter: die zwei Fragen einbetten wo sinnvoll. Wenn nötig entsprechenden Inhalt erschaffen. Achtung: Zeile 17 verweisst auf weiteren Inhalt in HB9, evtl kommt es auch erst dort.
 
 [question:EH220]
 [question:EH221]
