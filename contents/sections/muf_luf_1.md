@@ -26,3 +26,13 @@ Nach unten hin stellt die LUF also die Begrenzung dar. Sie wird in erster Linie 
 
 Insbesondere bei sehr geringer Sonnenaktivität oder während starker Magnetstürme kann der Sonderfall auftreten, dass für einen bestimmten Signalweg die LUF über der MUF liegt. In diesem Fall ist zwischen den betreffenden Orten kein Funkverkehr über die Raumwelle möglich. Abbildung [ref:e_muf_luf] zeigt auch eine Vorhersage der LUF für Juli 2025. Dort wird deutlich, dass zwischen 6 und 12 Uhr die LUF oberhalb der MUF liegt und daher kein Kurzwellenbetrieb möglich ist.
 
+
+
+---
+% YPA: die zwei Fragen einbetten wo sinnvoll. Wenn nötig entsprechenden Inhalt erschaffen. Achtung: Zeile 17 verweisst auf weiteren Inhalt in HB9.
+
+[question:EH220]
+[question:EH221]
+
+
+
