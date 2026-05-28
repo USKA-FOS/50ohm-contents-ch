@@ -36,6 +36,7 @@ Die Grenzwerte müssen für die Prüfung nicht auswendig gelernt werden und werd
 </tip>
 
 [question:EK102]
+[question:EK109]
 
 Eine Ausnahme sind hierbei aktive Körperhilfen (z. B. Herzschrittmacher, Insulinpumpen, Cochlea-Implantate), da hier in bestimmten Fällen die maximalen Momentanwerte angenommen werden müssen.
 
