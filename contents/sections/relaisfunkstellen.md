@@ -59,6 +59,7 @@ Informationen zu Relaisfunkstellen sowie den technischen Parametern und Besonder
 Eine wichtige Einstellung ist die Kanalbandbreite bei FM-Betrieb. Wir erinnern uns: Die Bandbreite gibt an, wieviel "Platz" man im Frequenzspektrum mit der Aussendung belegt. Hier gibt es einerseits das Wide-FM, die Bandbreite beträgt hier $\qty{25}{\kilo\hertz}$ und wird am Display beispielsweise als *FM-W* angezeigt. Andererseits gibt es das Schmalband-FM (Narrow-FM), welches eine Bandbreite von nur $\qty{12,5}{\kilo\hertz}$ belegt und z. B. am Funkgerät als *FM-N* dargestellt wird. Viele Repeater mögen es gar nicht, wenn die Signale zu breit sind. Denn dadurch können verzerrte Signale entstehen und benachbarte Relaisfrequenzen gestört werden.
 
 [question:BE407]
+[question:BE417]
 
 Der Funkbetrieb über fernbediente Amateurfunkstellen ist grundsätzlich allen Funkamateuren mit zugeteiltem Rufzeichen zu gestatten. Zur Sicherstellung eines störungsfreien Betriebs kann der Betreiber allerdings andere Funkamateure von der Nutzung der Amateurfunkstelle ausschließen. Die BNetzA ist hiervon zu unterrichten.
 
