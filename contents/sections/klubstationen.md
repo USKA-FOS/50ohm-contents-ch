@@ -68,3 +68,7 @@ Zusammenfassend gesagt: Die niedrigste Klasse gibt die maximale Berechtigung vor
 Bei Veranstaltungen oder ähnlichem kann eine Klubstation auch kurzzeitig an anderen Standorten betrieben werden. Eine Meldung an die BNetzA ist bei einer *kurzzeitigen* Änderung des Standortes nicht erforderlich.
 
 [question:VD408]
+
+[question:VU008]
+[question:VU009]
+[question:VN028]
