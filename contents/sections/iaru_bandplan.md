@@ -13,3 +13,7 @@ Der IARU-Bandplan gliedert sich nach den Amateurfunkbändern. In der Amateurfunk
 Eines ist auf fast allen Bändern übrigens gleich geregelt. Bis auf wenige Ausnahmen ist der für Morsetelegrafie (CW) empfohlene Bereich am Bandanfang.
 
 [question:BC204]
+[question:BC223]
+[question:BC224]
+[question:BC225]
+[question:BC226]
