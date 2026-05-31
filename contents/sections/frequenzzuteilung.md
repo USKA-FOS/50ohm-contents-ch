@@ -19,5 +19,6 @@ Neben den Frequenzbereichen enthält die Anlage auch ausführliche Nutzungsbesti
 
 [question:VD101]
 [question:VD702]
-
-
+[question:VN008]
+[question:VO034]
+[question:VO037]
