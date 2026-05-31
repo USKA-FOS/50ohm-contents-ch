@@ -8,3 +8,5 @@ Auch jeder Funkamateur bekommt ein persönliches Rufzeichen [index:Rufzeichen:Pe
 
 [question:VD207]
 [question:VD205]
+[question:VO002]
+[question:VO003]
