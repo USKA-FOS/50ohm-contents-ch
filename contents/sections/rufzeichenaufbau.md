@@ -31,3 +31,8 @@ Der Rufzeichenplan steht während der Amateurfunkprüfung als Hilfsmittel zur Ve
 
 [question:VD201]
 
+[question:VA008]
+[question:VA009]
+[question:VA010]
+[question:VA011]
+[question:VA012]
