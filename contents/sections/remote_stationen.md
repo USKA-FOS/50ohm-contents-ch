@@ -35,3 +35,7 @@ Auch Klubstationen der Klasse A dürfen als Remotestation betrieben werden. Der 
 [question:VD609]
 
 An einer Remotestation ist auch Ausbildungsfunkbetrieb möglich. Hierfür gelten die gleichen Regeln wie auch sonst für den Ausbildungsbetrieb. Die Auszubildende ist unmittelbar, also persönlich, anzuleiten und zu beaufsichtigen. Dem personengebundenen Rufzeichen bzw. dem Rufzeichen der Klubstation ist "/T" bzw. "/Trainee" anzuhängen.
+
+
+[question:VU010]
+[question:VN027]
