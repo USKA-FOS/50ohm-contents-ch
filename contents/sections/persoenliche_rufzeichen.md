@@ -44,3 +44,6 @@ Die BNetzA ändert Rufzeichen in der Regel nicht von sich aus. Ändern sich jedo
 
 [question:VC117]
 
+[question:VU002]
+[question:VU006]
+[question:VP001]
