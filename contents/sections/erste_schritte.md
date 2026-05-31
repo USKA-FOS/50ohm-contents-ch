@@ -9,7 +9,7 @@ Der Begriff *Transceiver* [index:Transceiver] ist aus den beiden englischen Wort
 </wordorigin>
 
 [question:VD102]
-
+[question:VR001]
 ---
 
 Aber nur ein Funkamateur darf auf den Amateurfunkfrequenzen auf Sendung gehen, oder praktisch gesagt, die PTT-Taste drücken. PTT [index:PTT] ist die Abkürzung für "push to talk", also "drücken, um zu senden". So wird die Funktion bezeichnet, die einen Transceiver auf Sendung schaltet. Normalerweise ist ein Transceiver erstmal im Empfangsbetrieb. Erst wenn man die PTT-Taste drückt und festhält, wird gesendet. Nachdem man die Taste loslässt, schaltet der Transceiver wieder zurück auf Empfang. Die PTT-Taste ist meistens am Mikrofon angebracht.
