@@ -20,6 +20,8 @@ Viele Funkamateure führen freiwillig ein Logbuch. Es kann aber auch dazu kommen
 [question:BG101]
 [question:VD109]
 [question:VD108]
+[question:VN022]
+[question:VN023]
 
 Wenn die Logbuchführung angeordnet wurde, dann ist darauf zu achten, das Logbuch so zu führen, dass es auch wirklich später einsehbar ist, und zwar unabhängig davon, wie das Logbuch geführt wird. Das ist vor allem auch dann zu beachten, wenn man die Art und Weise der Logbuchführung ändert.
 
