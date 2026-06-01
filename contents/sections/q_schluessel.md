@@ -47,6 +47,8 @@ Einige Funkamateure versuchen, mit besonders geringer Sendeleistung - in der Reg
 * QSY: Frequenzwechsel, "Change Frequenc*y*"
 
 [question:BB201]
+[question:BB207]
+[question:BB208]
 [question:BB206]
 [question:BE107]
 
