@@ -46,6 +46,7 @@ Die Suche nach der Ursache von elektromagnetischen Störungen kann sich komplizi
 </tip>
 
 [question:VE302]
+[question:VN006]
 
 Die Ermittlung der Ursache kann einige Zeit in Anspruch nehmen. Zur Wahrung des nachbarschaftlichen Friedens kann es daher sinnvoll sein, die eigene Sendeleistung so weit zu reduzieren, dass es zu keinen Problemen kommt.
 
