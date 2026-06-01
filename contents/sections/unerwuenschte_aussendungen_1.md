@@ -15,3 +15,4 @@ Auch wenn das Amateurfunkgesetz nur allgemein verlangt, dass unerwünschte Ausse
 [question:NF404]
 
 [question:VD110]
+[question:VU003]
