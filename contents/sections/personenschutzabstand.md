@@ -17,7 +17,7 @@ Der Betreiber einer Sendeanlage ist aber nicht nur verpflichtet, diese Grenzwert
 <indepth>
 Nur Funkamateure genießen das Privileg, die Einhaltung der Grenzwerte für den Schutz von Personen selbst zu ermitteln und zu dokumentieren. Andere Betreiber von Sendeanlagen, beispielsweise Mobilfunknetz-Betreiber, müssen den Nachweis kostenpflichtig durch die Bundesnetzagentur führen lassen.
 </indepth>
-
+[question:VT006]
 [question:VE503]
 [question:VE504]
 [question:VE511]
