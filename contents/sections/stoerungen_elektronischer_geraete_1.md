@@ -26,6 +26,7 @@ Oft werden störende Beeinflussungen in der Nachbarschaft mit dem Betrieb einer 
 Der Funkamateur sollte in der Nachbarschaft hierbei in kooperativer Weise und lösungsorientiert unterstützen bzw. auch Vorschläge für eine Abhilfe unterbreiten. Oft lassen sich Probleme im direkten Gespräch einfacher lösen als unter Einschaltung von Behörden. Erst wenn alle Bemühungen fehlgeschlagen sind, kann die zuständige Außenstelle der Bundesnetzagentur um eine Prüfung der Gegebenheiten gebeten werden. Dies sollte allerdings wirklich das letzte Mittel der Problemlösung sein.
 
 [question:EJ124]
+[question:VN004]
 
 Zu diesen Bemühungen zählen verschiedene Maßnahmen, wie zum Beispiel:
 
