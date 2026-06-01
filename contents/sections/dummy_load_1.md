@@ -12,7 +12,8 @@ Es ist wichtig, dass in jedem Fall entweder eine möglichst angepasste Antenne o
 Aus Sicht des Senders ist eine Dummy Load nicht von einer gut angepassten Antenne zu unterscheiden, da die Sendeleistung nicht reflektiert wird.
 </indepth>
 
-[question:VD111]
+[question:VD111] 
+[question:VU004]
 [question:NJ202]
 [question:NF107]
 
@@ -25,3 +26,4 @@ Wenn man sein Antennenanpassgerät abstimmt, sollte dies nur auf freien Frequenz
 </attention>
 
 [question:VD112]
+[question:VU005]
