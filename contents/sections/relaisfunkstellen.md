@@ -13,6 +13,8 @@ Die folgende Frage zu dieser Definition lässt sich aber auch gut im Ausschlussv
 * Relaisfunkstellen sind üblicherweise nicht ständig besetzt.
 * Relaisfunkstellen müssen nicht zwingend an geografisch exponierten Standorten betrieben werden.
 
+[question:VN007]
+
 [question:VD118]
 
 ---
