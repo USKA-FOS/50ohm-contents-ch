@@ -24,3 +24,13 @@ Mit der *CE-Kennzeichnung* erklärt der Hersteller oder Importeur eines Produkts
 Es gibt jedoch eine Ausnahme für von Funkamateuren *selbst gebaute und umgebaute* Funkanlagen. Diese müssen weder die Anforderungen des Funkanlagengesetzes erfüllen noch eine CE-Kennzeichnung tragen.
 
 [question:VE405]
+
+
+*Die folgenden Fragen müssen am richtigen Ort eingefügt und die Texte angepast werden*
+[question:VN018]
+[question:VN019]
+[question:VN020]
+[question:VN025]
+[question:VQ008]
+[question:VS001]
+[question:VS002]
