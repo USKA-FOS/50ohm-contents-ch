@@ -39,3 +39,5 @@ An einer Remotestation ist auch Ausbildungsfunkbetrieb möglich. Hierfür gelten
 
 [question:VU010]
 [question:VN027]
+[question:VN005]
+
