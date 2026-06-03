@@ -15,5 +15,4 @@ Eines ist auf fast allen Bändern übrigens gleich geregelt. Bis auf wenige Ausn
 [question:BC204]
 [question:BC223]
 [question:BC224]
-[question:BC225]
 [question:BC226]
