@@ -78,3 +78,13 @@ Verlegt man seinen Wohnsitz länger als 3 Monate oder dauerhaft ins Ausland, kan
 <latexonly>
 \newpage
 </latexonly>
+
+NEU HB: Abschnitt zu HB0
+[question:BD215]
+[question:BD216]
+[question:BD217]
+[question:BD218]
+[question:VO025]
+[question:VO026]
+[question:VO027]
+[question:VO028]
