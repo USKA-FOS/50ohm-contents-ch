@@ -43,4 +43,4 @@ Bei SSB verhält es sich an der Bandgrenze ein wenig anders. Hier ist das Signal
 </indepth>
 
 [question:NE305]
-
+[question:BC225]
