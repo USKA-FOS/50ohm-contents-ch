@@ -62,16 +62,23 @@ Die Landeskenner benötigt man im Laufe des Amateurfunklebens immer wieder. So m
 </webmargin>
 
 [question:BD301]
+[question:BD302]
+[question:BD307]
+[question:BD112]
+[question:BD113]
+
+
+
+
+Alle ab hier löschen
 [question:BD314]
 [question:BD311]
 [question:BD304]
-[question:BD307]
 [question:BD303]
 [question:BD305]
 [question:BD306]
 [question:BD308]
 [question:BD310]
-[question:BD302]
 [question:BD312]
 [question:BD313]
 [question:BD316]
@@ -79,3 +86,5 @@ Die Landeskenner benötigt man im Laufe des Amateurfunklebens immer wieder. So m
 [question:BD317]
 [question:BD309]
 [question:BD315]
+
+
