@@ -22,3 +22,4 @@ Neben den Frequenzbereichen enthält die Anlage auch ausführliche Nutzungsbesti
 [question:VN008]
 [question:VO034]
 [question:VO037]
+[question:VN009]
