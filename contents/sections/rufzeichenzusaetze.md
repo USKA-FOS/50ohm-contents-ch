@@ -27,23 +27,31 @@ Wenn man sich an Bord eines Luftfahrzeugs, also einem Flugzeug, Heißluftballon,
 [question:VN001]
 [question:VN002]
 [question:VN003]
-
+[question:VO022]
+[question:VO031]
 
 Ähnliches wie beim Luftfahrzeug gilt auch bei Wasserfahrzeugen. Wenn man sich mit einem Motorboot, einer Segelyacht oder einem anderen Wasserfahrzeug auf dem Wasser außerhalb der 12-Meilen-Zone in internationalen Gewässern befindet, dann darf der Zusatz "/mm" (maritim mobil) angehängt werden. Befindet man sich innerhalb der 12-Meilen-Zone oder auf Flüssen, Seen oder ähnlichen Binnengewässern, dann darf "/m" (mobil) verwendet werden. Vor dem Sendebetrieb muss der Schiffsführer seine Zustimmung geben.
 
 [question:BD205]
 [question:VE706]
 [question:VD115]
+[question:VO021]
+[question:VO032]
 
 Befindet man sich in einem Landfahrzeug wie einem Auto oder einem Zug, kann  "/m" für mobil verwendet werden. Das Gleiche gilt auch an Bord eines Schiffs, das auf einem Binnengewässer fährt.
 
 [question:BD203]
 [question:BD204]
+[question:VO023]
+[question:VO024]
+[question:VO030]
+[question:VO033]
 
 Baut man seine Station vorübergehend an einem Standort auf, welcher nicht in der Zuteilungsurkunde eingetragen ist, beispielsweise bei einer Amateurfunkaktivität in der Natur, so kann dem Rufzeichen ein "/p" (Stroke Portabel) angefügt werden. Das Gleiche gilt auch, wenn man sich mit einem tragbaren Funkgerät bewegt. 
 
 [question:BD206]
 [question:BD207]
+[question:VO020]
 
 Betrieb an einer Remote-Station kann durch "/R" bzw. "/Remote" gekennzeichnet werden.
 
