@@ -36,6 +36,7 @@ Das Schlüsselwort für die richtige Antwort ist bei dieser und der nächsten Fr
 </tip>
 
 [question:VE512]
+[question:VN021]
 
 Es müssen weitere technische Unterlagen erstellt werden, z. B. eine *nachvollziehbare* Dokumentation über die Einhaltung der Anforderungen, Antennendiagramme, Lagepläne, Bauzeichnung oder Skizze mit Bemaßung. Diese sind allerdings nicht mit der Anzeige einzureichen, sondern an der Amateurfunkstation bereitzuhalten und auf Verlangen der Bundesnetzagentur vorzulegen.
 
