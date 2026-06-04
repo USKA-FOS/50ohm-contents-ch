@@ -88,3 +88,6 @@ NEU HB: Abschnitt zu HB0
 [question:VO026]
 [question:VO027]
 [question:VO028]
+[question:VB115]
+[question:VB116]
+
