@@ -25,6 +25,7 @@ Während die ITU mit den RR die grundsätzlichen Fragen zum Amateurfunk weltweit
 
 Dass die Regeln in den RR oder die Empfehlungen der CEPT kein unmittelbar geltendes Recht in der Bundesrepublik Deutschland ist, haben wir bereits gelernt. Die Regelungen dieser internationalen Vereinbarungen wurden aber beim Amateurfunkgesetz berücksichtigt. Das Amateurfunkgesetz, das eigentlich *Gesetz über den Amateurfunk* heißt, bildet die Rechtsgrundlage für den Amateurfunk in Deutschland. 
 [question:VC101]
+[question:VU001]
 
 Der Deutsche Bundestag beschloss im Jahr 1997 das derzeit gültige Amateurfunkgesetz (AFuG). Die aktuelle Amateurfunkverordnung  (AFuV) wurde durch den Bundesminister für Digitales und Verkehr in Kraft gesetzt. Die Aufgaben und Befugnisse, die aus dem AFuG und der AFuV erwachsen, nimmt die Bundesnetzagentur (BNetzA) wahr. 
 
