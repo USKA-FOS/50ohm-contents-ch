@@ -24,6 +24,10 @@ Wenn man sich an Bord eines Luftfahrzeugs, also einem Flugzeug, Heißluftballon,
 [question:BD201]
 [question:BD202]
 [question:VE705]
+[question:VN001]
+[question:VN002]
+[question:VN003]
+
 
 Ähnliches wie beim Luftfahrzeug gilt auch bei Wasserfahrzeugen. Wenn man sich mit einem Motorboot, einer Segelyacht oder einem anderen Wasserfahrzeug auf dem Wasser außerhalb der 12-Meilen-Zone in internationalen Gewässern befindet, dann darf der Zusatz "/mm" (maritim mobil) angehängt werden. Befindet man sich innerhalb der 12-Meilen-Zone oder auf Flüssen, Seen oder ähnlichen Binnengewässern, dann darf "/m" (mobil) verwendet werden. Vor dem Sendebetrieb muss der Schiffsführer seine Zustimmung geben.
 
