@@ -16,12 +16,15 @@ Hier wiederholen wir noch einmal die Warnung aus dem Kurs für die Klasse N: Arb
 
 [question:EK209]
 [question:EK210]
-
+[question:EK216]
+[question:EK217]
 ---
 
 Eine Blitzschutzanlage soll das Gebäude bei Blitzeinschlägen schützen. Damit der Schutz erhalten bleibt, muss man wissen was man tut. Änderungen müssen deshalb Fachleute vornehmen. Soll eine Verbindung mit einer vorhanden Blitzschutzanlage hergestellt werden, muss dies in dem *Blitzschutzkonzept* vorgesehen sein, das von einer *Blitzschutz-Fachkraft* erstellt wurde.
 
 [question:EK211]
+[question:EK212]
+[question:EK214]
 
 <indepth>
 Der VDE hat einen [Leitfaden zum Schutz von Funkanlagen auf Gebäuden bei Blitzschlag](https://50ohm.de/vde-blitz) veröffentlicht
