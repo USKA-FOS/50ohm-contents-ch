@@ -72,3 +72,6 @@ Bei Veranstaltungen oder ähnlichem kann eine Klubstation auch kurzzeitig an and
 [question:VU008]
 [question:VU009]
 [question:VN028]
+[question:BD110]
+[question:BD111]
+[question:BD116]
