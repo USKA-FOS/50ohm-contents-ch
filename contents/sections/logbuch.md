@@ -53,3 +53,8 @@ Im Jahre 1972 wurde die UTC als universelle und weltweit einheitliche Uhrzeit ei
 Wie unsere Ortszeit in UTC umgerechnet wird, hängt davon ab, ob gerade Sommerzeit ist. Während der Winterzeit gilt bei uns die *Mitteleuropäische Zeit (MEZ)*. Um diese in UTC umzurechnen, muss man eine Stunde abziehen. Wenn im Sommer die *Mitteleuropäische Sommerzeit (MESZ)* verwendet wird, müssen jedoch 2 Stunden abgezogen werden.
 
 Ein Beispiel: In Berlin ist es ist 9:00 MEZ. Um dies in UTC umzurechnen, muss eine Stunde abgezogen werden. Es ist also 08:00 UTC. Wenn es jedoch 9:00 MESZ in Berlin ist, dann müssen zwei Stunden abgezogen werden. Es ist dann also 7:00 UTC. Um andersherum die UTC in Ortszeit umzurechnen, muss man eine Stunde (MEZ) bzw. zwei Stunden (MESZ) dazuzählen.
+
+
+[question:BG106]
+[question:BG107]
+[question:BG108]
