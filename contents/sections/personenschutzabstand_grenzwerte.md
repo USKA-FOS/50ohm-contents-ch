@@ -42,3 +42,12 @@ Eine Ausnahme sind hierbei aktive Körperhilfen (z. B. Herzschrittmacher, Insuli
 
 [question:EK103]
 
+
+
+---
+Ab hier NISV Fragen die man sinnvoll platzieren und beschreiben muss.
+[question:VT001]
+[question:VT002]
+[question:VT004]
+[question:VT005]
+
