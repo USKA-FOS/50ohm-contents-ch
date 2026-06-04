@@ -52,7 +52,7 @@ Ausländischen Funkamateure dürfen auf Grundlage der CEPT-Regelungen in Deutsch
 
 [question:VB110]
 [question:BD212]
-
+[question:VB116]
 ---
 
 Die Empfehlungen der CEPT werden ausschließlich für persönliche Rufzeichen angewendet. Der Betrieb einer Klubstation bedarf immer der Beantragung einer Gastgenehmigung. Eine Gastzulassung benötigt man auch für einen Betrieb einer Amateurfunkstation, wenn das Land die CEPT-Empfehlung nicht anwendet.
@@ -74,11 +74,13 @@ Verlegt man seinen Wohnsitz länger als 3 Monate oder dauerhaft ins Ausland, kan
 [question:VB102]
 [question:VB103]
 [question:VB101]
+[question:VB117]
 
 <latexonly>
 \newpage
 </latexonly>
 
+---
 NEU HB: Abschnitt zu HB0
 [question:BD215]
 [question:BD216]
@@ -89,5 +91,5 @@ NEU HB: Abschnitt zu HB0
 [question:VO027]
 [question:VO028]
 [question:VB115]
-[question:VB116]
+
 
