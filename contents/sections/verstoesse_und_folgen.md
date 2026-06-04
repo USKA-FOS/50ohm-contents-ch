@@ -1,3 +1,18 @@
+Anm. YPA:  Diese Fragen haben wir alle nicht übernommen, weil das alles nicht so klar definiert ist.
+Wir nutzen den Platz jetzt vorläufig für die Import Fragen
+[question:VQ001]
+[question:VQ002]
+[question:VQ003]
+[question:VQ004]
+[question:VQ005]
+[question:VQ006]
+[question:VQ007]
+
+
+
+---
+Ab hier ist alles Origonal 50Ohm DE
+
 Wo es Regeln gibt, da gibt es meist auch Strafen, wenn diese nicht beachtet werden. Verstöße gegen das AFuG oder die AFuV werden aber nicht immer gleich mit Bußgeldern belegt. Viel härter trifft es manche Funkamateure, wenn ihnen Betriebseinschränkungen auferlegt werden oder gar ein Betriebsverbot ausgesprochen wird.
 
 Bei fortgesetzten Verstößen gegen das AFuG und die AFuV kann sogar die Zulassung für den Amateurfunkdienst widerrufen werden. Dies ist die schärfste Waffe der BNetzA. Der Betroffene kann sich weiter Funkamateur nennen, vom Amateurfunkbetrieb ist er aber ausgeschlossen. So erklärt sich auch, warum es neben dem Amateurfunkzeugnis noch eine Zulassung gibt. Eine Aberkennung des Amateurfunkzeugnisses ist nicht vorgesehen. Wer einmal die Amateurfunkprüfung bestanden hat, ist und bleibt Funkamateur.
