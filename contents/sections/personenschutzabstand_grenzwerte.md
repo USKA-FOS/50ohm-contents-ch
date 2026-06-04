@@ -1,5 +1,5 @@
 ---
-%Frequenzabhängigkeit des Personenschutzabstands:
+% Frequenzabhängigkeit des Personenschutzabstands:
 
 Das [Bundesamt für Strahlenschutz](https://50ohm.de/bfs) informiert auf seiner Seite über die biologische Wirkungen von hochfrequenten Felder auf menschliche Körper.
   
