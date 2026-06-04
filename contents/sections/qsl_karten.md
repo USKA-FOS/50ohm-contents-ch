@@ -58,6 +58,7 @@ Es gibt auch papierlose Alternativen zur QSL-Karte. Zum einen können elektronis
 [question:BG111]
 
 ---
+% Text kann bleiben, weil auch hier wichtig. (Inkl. attention) Fragen BG106-108 löschen, wurden nach 15.1 Logbuch verschoben
 
 Genauso wie beim Logbuch, sollten alle Zeitangaben auf QSL-Karten stets in UTC erfolgen. Das hilft dem Empfänger, die Verbindung in seinem Logbuch leichter wiederzufinden. Wir erinnern uns: Für die Winterzeit gilt "UTC = MEZ minus 1 Stunde" und für die Sommerzeit gilt "UTC = MESZ minus 2 Stunden".
 
