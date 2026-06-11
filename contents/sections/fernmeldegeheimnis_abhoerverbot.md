@@ -28,3 +28,7 @@ Sandkasten YPA
 <danger>
 Das ist ein Mustertext mit dem Kommando (danger). Das generiert den roten Kasten «Gefahr».
 </danger>
+
+<tip>
+Das ist ein Mustertext mit dem Kommando (tipp). Das Das ist ein Test ob die Farbe dieselbe ist wie bei Gefahr.
+</tip>
