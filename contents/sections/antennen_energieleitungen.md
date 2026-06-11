@@ -6,10 +6,12 @@ Während in Städten die elektrische Energiezufuhr in Wohngebäuden und in Häus
 
 ---
 
-Antennen müssen immer von elektrischen Freileitungen entfernt sein. Sie dürfen solche elektrischen Leitungen unter keinen Umständen berühren, da sonst gefährlich hohe Spannungen in die Funkanlage gelangen können.
+Antennen müssen immer genügend Abstand zu elektrischen Freileitungen haben. Sie dürfen solche elektrischen Leitungen unter keinen Umständen berühren. 
 
 <danger>
-Wenn eine Antenne eine Energieversorgungsleitung berührt,  besteht akute Gefahr von lebensgefährlichen Stromschlägen!
+Wenn eine Antenne eine Energieversorgungsleitung berührt,  
+* besteht akute Gefahr von lebensgefährlichen Stromschlägen!
+* können gefährlich hohe Spannungen in die Funkanlage gelangen.
 </danger>
 
 Nicht nur beim Aufbau von Antennen muss ausreichend Abstand von Freileitungen eingehalten werden. Es muss auch unbedingt vermieden werden, dass sich Drähte oder Teile der Antenne zum Beispiel bei einem Sturm lösen und dann in Kontakt mit solchen Leitungen kommen oder auf Personen herunterfallen können.
