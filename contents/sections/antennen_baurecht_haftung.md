@@ -18,12 +18,10 @@ Mitglieder der USKA erhalten von der USKA-Antennenkommission Unterstützung bei 
 [Jetzt Mitglied bei der USKA werden!](https://uska.ch/))
 </tip>
 
+<attention>
+Die Grenzwerte für den Personenschutz müssen beim Aufbau jeder Antenne berücksichtig und eingehalten werden!
+</attention>
 
 <tip>
 Für temporäre Antennen, zum Beispiel an einem Contest, braucht es keine Baubewilligung.
 </tip>
-
-
-<attention>
-Die Grenzwerte für den Personenschutz müssen beim Aufbau jeder Antenne berücksichtig und eingehalten werden!
-</attention>
