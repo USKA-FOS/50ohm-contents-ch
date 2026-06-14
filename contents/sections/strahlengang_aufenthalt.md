@@ -4,7 +4,7 @@ Bei Mikrowellen werden im Amateurfunk häufig Parabolantennen oder Helixantennen
 
 Hochfrequente elektromagnetische Felder wirken auf den menschlichen Körper überwiegend thermisch, das heißt durch die Erwärmung von Gewebe. Besonders empfindlich sind dabei Körperbereiche mit eingeschränkter Wärmeabfuhr, etwa die Augen, das Gehirn oder die Hoden. Aus diesem Grund sind geeignete Schutzmaßnahmen grundsätzlich für alle Menschen erforderlich.
 
-Der Aufenthalt im direkten Strahlengang einer Sendeantenne, insbesondere bei Mikrowellen, ist gefährlich. Er ist absolut zu vermeiden.
+Der Aufenthalt im direkten Strahlengang einer Sendeantenne ist gefährlich. Er ist, insbesondere bei Mikrowellen, absolut zu vermeiden!
 
 <indepth>
 In der Formelsammlung ist die Formel zur Berechnung des Antennengewinns von Parabolantennen zu finden:
