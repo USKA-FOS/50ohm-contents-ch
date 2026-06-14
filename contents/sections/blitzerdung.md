@@ -7,8 +7,16 @@ Eine Blitzschutzanlage soll das Gebäude bei Blitzeinschlägen schützen. Damit 
 [question:EK212]
 [question:EK214]
 
+
+
+<danger>
+Arbeiten an einem Blitzschutzsystem und der Anschluss von Potentialausgleich und Erdung sollte nur vorgenommen werden, wenn man genau weiß, was man tut. Deswegen dürfen sie ausschließlich von Elektrofachpersonen die über eine entsprechende Ausbildung verfügen vorgenommen werden!
+</danger>
+
+--- 
+% TODO: Muss es ersetzt werden. Vergleichbares von electrosuisse wird noch gesucht. 
 <indepth>
-Der VDE hat einen [Leitfaden zum Schutz von Funkanlagen auf Gebäuden bei Blitzschlag](https://50ohm.de/vde-blitz) veröffentlicht
+Der VDE hat einen [Leitfaden zum Schutz von Funkanlagen auf Gebäuden bei Blitzschlag](https://50ohm.de/vde-blitz) veröffentlicht.
 </indepth>
 
 ---
@@ -20,10 +28,6 @@ Häufig geht ein Blitz nur in der Nähe unserer Station nieder. Das ist weniger 
 </margin>
 
 Wie können wir unsere Geräte vor Überspannungen durch Blitze schützen? Es gibt Blitzschutz-Zwischenstecker für Koaxkabel, die mittels einer Gasentladungsröhre Überspannungen ableiten oder man kann die Antennenzuleitung nach dem Funkbetrieb direkt erden. In beiden Fällen braucht man eine Erdungsleitung (massiver Draht, keine Litze) deren Querschnitt den Electrosuisse-Vorgaben entspricht. Jede vorhandene Gebäudeerdung kann genutzt werden.
-
-<danger>
-Arbeiten an einem Blitzschutzsystem und der Anschluss von Potentialausgleich und Erdung sollte nur vorgenommen werden, wenn man genau weiß, was man tut. Deswegen dürfen sie ausschließlich von Elektrofachpersonen die über eine entsprechende Ausbildung verfügen vorgenommen werden!
-</danger>
 
 
 [question:EK216]
