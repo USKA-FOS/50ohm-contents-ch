@@ -8,12 +8,10 @@ Eine Blitzschutzanlage soll das Gebäude bei Blitzeinschlägen schützen. Damit 
 [question:EK214]
 
 
-
 <danger>
 Arbeiten an einem Blitzschutzsystem und der Anschluss von Potentialausgleich und Erdung sollte nur vorgenommen werden, wenn man genau weiß, was man tut. Deswegen dürfen sie ausschließlich von Elektrofachpersonen die über eine entsprechende Ausbildung verfügen vorgenommen werden!
 </danger>
 
---- 
 % TODO: Muss es ersetzt werden. Vergleichbares von electrosuisse wird noch gesucht. 
 <indepth>
 Der VDE hat einen [Leitfaden zum Schutz von Funkanlagen auf Gebäuden bei Blitzschlag](https://50ohm.de/vde-blitz) veröffentlicht.
