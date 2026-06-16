@@ -1,4 +1,4 @@
-%YPA: welche Rufzeichen sollen wir verwenden? M/n, B/P, A/H sind gute Beispiel die man anwenden kann
+%YPA: welche Rufzeichen sollen wir verwenden? M/N, B/P, A/H sind gute Beispiel die man anwenden kann
 
 Hört man sich die Rufzeichen DM4EAX und DN4EAX gesprochen an, so ist es schwer, die Buchstaben M und N akustisch voneinander zu unterscheiden. Gerade bei einem leisen oder verrauschten Empfang kann es hier schnell zu Missverständnissen kommen. Aus diesem Grund wird im Amateurfunk eine Buchstabiertafel [index:Buchstabiertafel] eingesetzt, bei der jedem Buchstaben genau ein englischsprachiges Wort zugeordnet ist. Anstelle der Buchstaben spricht man jeweils das entsprechende Wort. Aus DM4EAX wird *Delta Mike Vier Echo Alfa X-Ray* und aus DN4EAX wird *Delta November Vier Echo Alfa X-Ray*. Jetzt sind die beiden Rufzeichen gut unterscheidbar.
 
