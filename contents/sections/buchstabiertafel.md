@@ -1,4 +1,4 @@
-%YPA: welche Rufzeichen sollen wir verwenden? M/N, B/P, A/H sind gute Beispiel die man anwenden kann
+%YPA: welche Rufzeichen sollen wir verwenden für die Beispiele? M/N, B/P, A/H sind gute Beispiel die man anwenden kann
 
 Hört man sich die Rufzeichen DM4EAX und DN4EAX gesprochen an, so ist es schwer, die Buchstaben M und N akustisch voneinander zu unterscheiden. Gerade bei einem leisen oder verrauschten Empfang kann es hier schnell zu Missverständnissen kommen. Aus diesem Grund wird im Amateurfunk eine Buchstabiertafel [index:Buchstabiertafel] eingesetzt, bei der jedem Buchstaben genau ein englischsprachiges Wort zugeordnet ist. Anstelle der Buchstaben spricht man jeweils das entsprechende Wort. Aus DM4EAX wird *Delta Mike Vier Echo Alfa X-Ray* und aus DN4EAX wird *Delta November Vier Echo Alfa X-Ray*. Jetzt sind die beiden Rufzeichen gut unterscheidbar.
 
@@ -40,9 +40,13 @@ Die Buchstabiertafel enthält jedoch keine Ziffern [index:Buchstabiertafel:Ziffe
 
 Die Buchstabiertafel kann natürlich auch verwendet werden, um andere Wörter zu buchstabieren, z. B. einen Namen oder eine Ortsangabe. Die internationale Buchstabiertafel enthält jedoch keine deutschen Umlaute[index:Buchstabiertafel:Umlaute]. Daher wird das Ä als "Alfa Echo", das Ö als "Oscar Echo", das Ü als "Uniform Echo" buchstabiert.
 
-In der Praxis wird bei der Rufzeichennennung auch mit anderen Möglichkeiten variiert, z. B. Nancy, Sugar, Ocean und Queen. Das ist zulässig, solange es *zusätzlich* zur Rufzeichennennung nach der internationalen Buchstabiertafel erfolgt, um die Verständlichkeit zu erhöhen.
-
 Die internationale Buchstabiertafel muss man auswendig lernen. Am Anfang kann das etwas schwerfallen, je mehr man die Buchstabiertafel anwendet, umso flüssiger wird es.
+
+<tip>
+In der Praxis wird bei der Rufzeichennennung auch mit anderen Möglichkeiten variiert, z. B. Nancy, Sugar, Ocean und Queen. Das ist zulässig und wird vorallem gemacht um die Verständlichkeit zu erhöhen. Zum Beispiel wenn mehrfach zurückgefragt wird und man offensichtlich nicht richtig verstanden wird.
+</tip>
+
+
 
 %TODO stroke erklären
 
