@@ -1,3 +1,6 @@
+%YPA: Welche Rufzeichen wollen wir verwenden für das QSO Beispiel?
+%YPA: heisst es Anruf? Nicht Aufruf?
+
 Funkverbindungen [index:Funkverbindung] finden meist wechselseitig auf einer Frequenz statt. D. h. eine Station sendet, während die andere Station hört. Wenn beide gleichzeitig senden, hört keine von beiden. Daher ist es wichtig, dass eine gewisse Ordnung beim Ablauf einer Funkverbindung, der sogenannten Betriebsabwicklung [index:Betriebsabwicklung], herrscht.
 
 Bei vielen Funkdiensten ist die Betriebsabwicklung ganz genau vorgeschrieben, z. B. im Flugfunk, bei der Polizei, der Feuerwehr oder den Rettungsdiensten. Im Amateurfunk gibt es keine verpflichtenden Vorgaben zur Betriebsabwicklung. Es muss nur das Rufzeichen ordnungsgemäß genannt werden. Aber auch im Amateurfunk ergibt es Sinn, wenn man sich an der üblichen Betriebsabwicklung orientiert und die geläufigen Abkürzungen kennt. Daher gibt es auch einen eigenen Prüfungsteil "Betriebliche Kenntnisse".
@@ -45,11 +48,14 @@ D*(krschkrsch)*MJ von DK5WP, bitte kommen
 
 ---
 
-Nach einer Funkverbindung (oft als QSO bezeichnet) wird die Frequenz immer der Station überlassen, die den Anruf gestartet hat. Möglicherweise hat aber zwischendurch eine andere Station gerufen, die mit einem sprechen will. Auch dann sollte die Frequenz für die ursprünglich rufende Station frei gemacht werden. Davor kann man sich aber noch kurz auf eine andere Frequenz verständigen.
+Nach einer Funkverbindung (oft als QSO bezeichnet) wird die Frequenz immer der Station überlassen, die den Anruf gestartet hat. Die Frequenz *gehört* quasi dem Rufer. Unabhängig davon ob er einen allgemeinen oder gezielten Anruf gemacht hat.
 
 <indepth>
 *QSO* ist eine Abkürzung, die ursprünglich aus der Morsetelegrafie stammt und "ich habe direkten Kontakt zu Station X" bedeutet. Daran angelehnt, sprechen Funkamateure oftmals von einem QSO, wenn sie eine erfolgreiche Funkverbindung meinen.
 </indepth>
 
-
+---
 [question:BE108]
+<indepth>
+Möglicherweise hat während dem QSO eine andere Station reingerufen gerufen, die mit einem sprechen will. Auch dann soll die Frequenz für die ursprünglich rufende Station frei gemacht werden. Davor kann man sich aber mit dem "Reinrufer" noch kurz auf eine andere Frequenz verständigen.
+</indepth>
