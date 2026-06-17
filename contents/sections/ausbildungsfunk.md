@@ -1,4 +1,5 @@
 Wie wir in der Einleitung gelernt haben, dürfen nur Funkamateure auf den Amateurfunkfrequenzen senden. Davon gibt es eine Ausnahme, den Ausbildungsfunkbetrieb [index:Ausbildungsfunkbetrieb]. Dieser erlaubt es Nicht-Funkamateuren zur Ausbildung unter unmittelbarer Anleitung und Aufsicht eines zugelassenen Funkamateurs der Klasse HB3 oder HB9 zu senden.
+
 <tip>
 Amateurfunkvereine haben immer ein HB9 Bewilligung. Es dürfen aber auch HB3-Funkamateure Ausbildung machen mit Nicht-Funkamateuren an der Vereinsstation. Dann allerdings nur auf den Frequenzen und mit der Leistung die für HB3 zugelassen ist.
 </tip>
