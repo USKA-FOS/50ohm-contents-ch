@@ -46,15 +46,24 @@ Einige Beispiele für mögliche Rapporte finden sich in Tabelle [ref:n_rst_beisp
 
 [question:BE202]
 [question:BE203]
-[question:BE211]
-[question:BE212]
-
 
 ---
+<indepth>
+Morsetelegrafie wird im Amateurfunk als CW für "Continuous Wave" bezeichnet. Mehr dazu gibts es in einem späteren Kapitel.
+</indepth>
+
+[question:BE211]
+[question:BE212]
 [question:NF103]
 [question:NF301]
 
-Bei den folgenden Prüfungsfragen kommt es darauf an das S-Meter richtig abzulesen. In allen Prüfungsfragen wird von einem einwandfreien Signal in Telefonie (Sprechfunk) ausgegangen. Der R-Wert ist daher jeweils 5 und der T-Wert entfällt. Als SSB-Telefonie wird ein Übertragungsverfahren für den Sprechfunk bezeichnet. Andere Verfahren sind beispielsweise FM- oder AM-Telefonie.
+Bei den folgenden Fragen kommt es darauf an das S-Meter *richtig abzulesen*. In allen Fragen wird von einem Signal in Telefonie (Sprechfunk) ausgegangen. Der T-Wert entfällt deshalb. 
+
+---
+<indepth>
+Als SSB-Telefonie wird ein Übertragungsverfahren für den Sprechfunk bezeichnet. Andere Verfahren sind beispielsweise FM- oder AM-Telefonie.
+</indepth>
+
 
 [question:BE204]
 [question:BE205]
