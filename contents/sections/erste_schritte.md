@@ -2,9 +2,9 @@ Was darf eigentlich ein Funkamateur, was alle anderen nicht dürfen? Jeder kann 
 
 Aber nur ein Funkamateur darf einen Amateurfunk-Sender (Transmitter) *besitzen* und auf den Amateurfunkfrequenzen *auf Sendung* gehen. 
 
-Um in der Schweiz ein sendefähiges Amateurfunkgerät zu erwerben, muss man im Besitz eines Rufzeiches sein. Dieses bekommt nur, wer die Amateurfunkprüfung erfolgreich bestanden hat. Das Fähigkeitszeugnis, welches man zur bestanden Prüfung bekommt, alleine reicht *nicht* zum Erwerb eines Funkgeräts. Laut Gesetzt reicht noch nicht mal das Rufzeichen alleine. Man muss mit der <Rechnung für die Verwaltungsgebühr für das laufende Jahr> belegen, dass man dieses Rufzeichen noch immer besitzt. Zudem muss beim Verkauf immer eine Quittung ausgestellt werden, auf welcher sowohl die Geräte, als auch Name und Rufzeichen des Käufers erfasst sind. Diese Regelungen gelten sowohl in Geschäften als auch bei Privatverkäufen. 
-
 ---
+
+Um in der Schweiz ein sendefähiges Amateurfunkgerät zu erwerben, muss man im Besitz eines Rufzeiches sein. Dieses bekommt nur, wer die Amateurfunkprüfung erfolgreich bestanden hat. Das Fähigkeitszeugnis, welches man zur bestanden Prüfung bekommt, alleine reicht *nicht* zum Erwerb eines Funkgeräts. Laut Gesetzt reicht noch nicht mal das Rufzeichen alleine. Man muss mit der <Rechnung für die Verwaltungsgebühr für das laufende Jahr> belegen, dass man dieses Rufzeichen noch immer besitzt. Zudem muss beim Verkauf immer eine Quittung ausgestellt werden, auf welcher sowohl die Geräte, als auch Name und Rufzeichen des Käufers erfasst sind. Diese Regelungen gelten sowohl in Geschäften als auch bei Privatverkäufen. 
 
 <indepth>
 Hier findet man den Wortlaut des Gesetzes in voller Länge. [VFAV Art. 7 Abs. 2](https://www.fedlex.admin.ch/eli/cc/2016/307/de#art_7)
