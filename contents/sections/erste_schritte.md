@@ -1,6 +1,9 @@
 Was darf eigentlich ein Funkamateur, was alle anderen nicht dürfen? Jeder kann und darf Amateurfunk-Empfänger (Receiver) für den Amateurfunk kaufen und besitzen, ganz ohne Genehmigung. Auch eine Antennenanlage aufbauen und mit dem Empfänger verbinden ist kein Problem, solange man die Bauvorschriften einhält. Genauso der Empfang von Amateurfunksendungen - jeder darf das, ohne eine Zulassung für den Amateurfunk zu benötigen!
 
 Aber nur ein Funkamateur darf einen Amateurfunk-Sender (Transmitter) *besitzen* und auf den Amateurfunkfrequenzen *auf Sendung* gehen. 
+<tip>
+Der Begriff *Transceiver* [index:Transceiver] ist aus den beiden englischen Worten für Sender (Transmitter) und Empfänger (Receiver) gebildet worden.
+</tip>
 
 ---
 
@@ -17,9 +20,6 @@ Hier findet man den Wortlaut des Gesetzes in voller Länge. [VFAV Art. 7 Abs. 2]
 <margin>
 [photo:117:n_erste_schritte_transceiver:Ein Transceiver (Funkgerät) für den Amateurfunk]
 </margin>
-<wordorigin>
-Der Begriff *Transceiver* [index:Transceiver] ist aus den beiden englischen Worten für Sender (Transmitter) und Empfänger (Receiver) gebildet worden.
-</wordorigin>
 
 ---
 
