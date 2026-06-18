@@ -1,4 +1,5 @@
-Was darf eigentlich ein Funkamateur, was alle anderen nicht dürfen? Jeder kann und darf Funkgeräte (sogenannte Transceiver) für den Amateurfunk kaufen und besitzen, ganz ohne Genehmigung. Auch eine Antennenanlage aufbauen und mit dem Transceiver verbinden ist kein Problem, solange man die Bauvorschriften einhält. Genauso der Empfang von Amateurfunksendungen - jeder darf das, ohne eine Zulassung für den Amateurfunk zu benötigen!
+Was darf eigentlich ein Funkamateur, was alle anderen nicht dürfen? Jeder kann und darf Amateurfunk-Empfänger (Receiver) für den Amateurfunk kaufen und besitzen, ganz ohne Genehmigung. Auch eine Antennenanlage aufbauen und mit dem Empfänger verbinden ist kein Problem, solange man die Bauvorschriften einhält. Genauso der Empfang von Amateurfunksendungen - jeder darf das, ohne eine Zulassung für den Amateurfunk zu benötigen!
+Aber nur ein Funkamateur darf auf eine Amateurfunk-Sender (Transmitter) besitzen und auf den Amateurfunkfrequenzen auf Sendung gehen. 
 
 <margin>
 [photo:117:n_erste_schritte_transceiver:Ein Transceiver (Funkgerät) für den Amateurfunk]
@@ -8,17 +9,23 @@ Was darf eigentlich ein Funkamateur, was alle anderen nicht dürfen? Jeder kann 
 Der Begriff *Transceiver* [index:Transceiver] ist aus den beiden englischen Worten für Sender (Transmitter) und Empfänger (Receiver) gebildet worden.
 </wordorigin>
 
+Um in der Schweiz ein sendefähiges Amateurfunkgerät zu erwerben, muss man im Besitz eines Rufzeiches sein. Dieses bekommt nur, wer die Amateurfunkprüfung erfolgreich bestanden hat. Das Fähigkeitszeugnis, welches man zur bestanden Prüfung bekommt, alleine reicht *nicht* zum Erwerb eines Funkgeräts. Laut Gesetzt reicht noch nicht mal das Rufzeichen alleine. Man muss mit der <Rechung für die Verwaltungsgebühr für das laufende Jahr> belegen, dass man dieses Rufzeichen noch immer besitzt. Zudem muss immer eine Quittung ausgestellt werden, auf welcher sowohl die Geräte, als auch Name und Rufzeichen des Käufers erfasst sind. Diese Regelungen gelten sowohl in Geschäften als auch bei Privatverkäufen. 
+
+<indepth>
+Hier findet man den Wortlaut des Gesetzes in voller Länge. [VFAV Art. 7 Abs. 2](https://www.fedlex.admin.ch/eli/cc/2016/307/de#art_7)
+</indepth>
+
 [question:VD102]
 [question:VR001]
----
 
-Aber nur ein Funkamateur darf auf den Amateurfunkfrequenzen auf Sendung gehen, oder praktisch gesagt, die PTT-Taste drücken. PTT [index:PTT] ist die Abkürzung für "push to talk", also "drücken, um zu senden". So wird die Funktion bezeichnet, die einen Transceiver auf Sendung schaltet. Normalerweise ist ein Transceiver erstmal im Empfangsbetrieb. Erst wenn man die PTT-Taste drückt und festhält, wird gesendet. Nachdem man die Taste loslässt, schaltet der Transceiver wieder zurück auf Empfang. Die PTT-Taste ist meistens am Mikrofon angebracht.
+---
+Auf Sendung gehen bedeutet praktisch gesagt, die PTT-Taste zu drücken. PTT [index:PTT] ist die Abkürzung für "push to talk", also "drücken, um zu senden". So wird die Funktion bezeichnet, die einen Transceiver auf Sendung schaltet. Normalerweise ist ein Transceiver erstmal im Empfangsbetrieb. Erst wenn man die PTT-Taste drückt und festhält, wird gesendet. Nachdem man die Taste loslässt, schaltet der Transceiver wieder zurück auf Empfang. Die PTT-Taste ist meistens am Mikrofon angebracht.
+[question:NF108]
 
 <margin>
 [photo:118:n_erste_schritte_ptt:Handmikrofon mit PTT-Taste (links oben)]
 </margin>
 
-[question:NF108]
 
 ---
 
