@@ -30,9 +30,8 @@ Auf Sendung gehen bedeutet praktisch gesagt, die PTT-Taste zu drücken. PTT [ind
 
 
 ---
-
----
-
+ 
+ 
 
 %YPA: In DL müssen Formeln nicht umgestellt werden (siehe DLFS). Der Teil mit Mathegrundkenntnisse, bzw. was muss man in Mathe können, sollte einen eigenen Abschnitt bekommen. Dort könnte man das Formelumstellen auch gleich abhandeln (ich weiss nicht ob das dort wo das inhaltlich vorkommt auch gemacht wird). Der Abschnitt wurde jetzt mal auf die 3 bestehenden Fragen umgeschrieben. 
 
