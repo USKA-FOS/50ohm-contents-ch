@@ -28,12 +28,16 @@ Auf Sendung gehen bedeutet praktisch gesagt, die PTT-Taste zu drücken. PTT [ind
 
 
 ---
+%YPA: In D müssen Formeln nicht umgestellt werden (siehe DLFS). Der Teil mit Mathegrundkenntnisse, bzw. was muss man in Mathe können, sollte einen eigenen Abschnitt bekommen. Dort könnte man das Formelumstellen auch gleich abhandeln (ich weiss nicht ob das dort wo das inhaltlich vorkommt auch gemacht wird). Der Abschnitt wurde jetzt mal auf die 3 Fragen umgeschrieben. 
 
-Nicht alle Prüfungsfragen werden so einfach sein. Aber dieser Kurs vermittelt alles nötige Wissen, um die Prüfung erfolgreich zu bestehen. Etwas Schulmathematik setzen wir allerdings voraus. Die Grundrechenarten und der Dreisatz müssen beherrscht werden. Wer die folgenden Prüfungsfragen richtig beantworten kann, erfüllt diese Voraussetzungen.
+Dieser Kurs vermittelt alles nötige Wissen, um die Prüfung erfolgreich zu bestehen. Etwas Schulmathematik setzen wir allerdings voraus. 
+Die Grundrechenarten und der Dreisatz müssen beherrscht werden. Damit können die folgenden Prüfungsfragen richtig beantwortet werden.
 
 [question:NA101]
 [question:NA103]
 [question:NA102]
+
+Später im Kurs muss man dann noch einfache Formeln umstellen. Dort muss man dann Brüche, Wurzeln und Exponenten umstellen können. Das wird dortdann aber erklärt.
 
 <margin>
 *Schwierigkeiten mit der Mathematik?* Im Internet findet sich Lernmaterial dazu, z. B. [hier](https://50ohm.de/tr). Vielleicht können auch hilfsbereite Menschen aus Freundeskreis, Familie, Schule oder Ausbildungsstätte helfen.
