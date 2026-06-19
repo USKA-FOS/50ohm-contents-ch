@@ -11,7 +11,7 @@ Ursprünglich wurde HAMNET als schrittweiser Ersatz für das seit den 1980er-Jah
 <margin>
 Der *DARC* bietet für seine Mitglieder einen VPN-Zugang über die sogenannten [HAMCloud](https://50ohm.de/hc) an. Dies ermöglicht den Zugang zum HAMNET, auch wenn kein direkter Einstieg über Funk möglich ist.   
 
-[Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+[Jetzt Mitglied der USKA werden!](https://uska.ch/wieso-uska-mitglied-werden/)
 </margin>
 
 Nutzen kann man das Hamnet genauso wie das Internet, im einfachsten Fall mit einem Webbrowser. Das ist möglich, weil das sogenannte Internet-Protokoll (IP) und alles, was darauf aufbaut, auch für andere Zwecke als für das Internet verwendet werden kann.
