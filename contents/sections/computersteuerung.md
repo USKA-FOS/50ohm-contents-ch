@@ -30,7 +30,7 @@ Es gibt auch noch andere unbeabsichtigte Effekte. Der Computer könnte unerwarte
 Für einige Übertragungsverfahren ist der Mikrofonanschluss des Funkgeräts ungeeignet, da die nachfolgenden Verstärker- und Filterstufen für Sprache optimiert sind und verschieden hohe bzw. tiefe Töne unterschiedlich behandelt werden. Deshalb haben Funkgeräte oft einen eigenen analogen Datenanschluss, der zum Beispiel mit DATA oder 9600 beschriftet ist. Durch die Verwendung dieses speziellen Anschlusses werden bestimmte Verstärker- und Filterstufen umgangen und Signale möglichst verzerrungsfrei übertragen.
 
 <indepth>
-Die Bezeichnung *9600* kommt daher, dass dieser Anschluss für das früher viel verwendete Packet-Radio eingeführt wurde, damit Daten mit $\qty{9600}{\baud}$ übertragen werden konnten. Heute wird der Anschluss z. B. für digitale Sprachübertragung benutzt und teils auch mit höherer Geschwindigkeit.
+Die Bezeichnung *9600* kommt daher, dass dieser Anschluss für das früher viel verwendete Packet-Radio eingeführt wurde, damit Daten mit $\qty{9600}{\baud}$ übertragen werden konnten. Heute wird der Anschluss z. B. für digitale Sprachübertragung benutzt und teils auch mit höherer Geschwindigkeit betrieben.
 </indepth>
 
 [question:NF115]
