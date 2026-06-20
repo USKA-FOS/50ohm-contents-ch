@@ -36,23 +36,23 @@ Im Dezimalsystem ist die zweite Ziffer von rechts zehnmal so viel Wert wie sie s
 [table:binaer_zahlensysteme:Zahlen im Dezimal- und im Dualsystem]
 </margin>
 
-Im Dualsystem gibt es nur zwei Ziffern, nämlich $\num{0}$ und $\num{1}$. Wie in Tabelle [ref:binar_stellenwert_dual] zu sehen ist, hat die erste Stelle von rechts den Stellenwert $\num{1}$, die zweite $\num{2}$, die dritte $\num{4}$, die vierte $\num{8}$ und so weiter. Die Stellenwerte verdoppeln sich, statt sich zu verzehnfachen, weil es nur zwei Ziffern gibt und nicht zehn. Eine Stelle im Dualsystem nennt man auch Bit ($\unit{\bit}$).
+Im Binärsystem gibt es nur zwei Ziffern, nämlich $\num{0}$ und $\num{1}$. Wie in Tabelle [ref:binar_stellenwert_dual] zu sehen ist, hat die erste Stelle von rechts den Stellenwert $\num{1}$, die zweite $\num{2}$, die dritte $\num{4}$, die vierte $\num{8}$ und so weiter. Die Stellenwerte verdoppeln sich, statt sich zu verzehnfachen, weil es nur zwei Ziffern gibt und nicht zehn. Eine Stelle im Binärsystem nennt man auch Bit ($\unit{\bit}$).
 
 |c: |c: |c: |c: |c: |c: |c: |c: |
 | $\num{128}$ | $\num{64}$ | $\num{32}$ | $\num{16}$ | $\num{8}$ | $\num{4}$ | $\num{2}$ | $\num{1}$ |
 | $\num{1}$ | $\num{0}$ | $\num{0}$ | $\num{0}$ | $\num{1}$ | $\num{1}$ | $\num{1}$ | $\num{0}$ |
 [table:binar_stellenwert_dual:Stellenwerte der achtstelligen Dualzahl $\num{10001110}$]
 
-Wenn man die Stellenwerte kennt, ist das Übertragen von Dualzahlen in das Dezimalsystem einfach. Nehmen wir ein Beispiel aus Tabelle [ref:binar_stellenwert_dual]. Die Dualzahl $\num{10001110}$ soll in eine Dezimalzahl umgerechnet werden.
+Wenn man die Stellenwerte kennt, ist das Übertragen von Binärzahlen in das Dezimalsystem einfach. Nehmen wir ein Beispiel aus Tabelle [ref:binar_stellenwert_dual]. Die Bimärzahl $\num{10001110}$ soll in eine Dezimalzahl umgerechnet werden.
 
-1. Man schreibt über jede Ziffer der Dualzahl ihren Stellenwert.
+1. Man schreibt über jede Ziffer der Binärzahl ihren Stellenwert.
 2. Man addiert alle Stellenwerte, unter denen eine $\num{1}$ steht: $128+8+4+2=142$
 
 [question:EA206]
 [question:EA207]
 [question:EA208]
 
-Auf dem Papier kann man Dualzahlen mit so vielen Bits schreiben, wie man gerade braucht. In der Digitaltechnik ist das anders. Die Hard- oder Software gibt eine bestimmte Stellenzahl vor, die man auch Breite nennt. Beispielsweise haben Mikrocontroller oder Computer häufig Breiten von $\num{8}$, $\num{16}$, $\num{32}$ oder $\qty{64}{\text{Bits}}$. In der Darstellung werden Dualzahlen oft vorne mit Nullen aufgefüllt, bis diese Breite erreicht ist. Am Wert der Zahl ändert das nichts.
+Auf dem Papier kann man Binärzahlen mit so vielen Bits schreiben, wie man gerade braucht. In der Digitaltechnik ist das anders. Die Hard- oder Software gibt eine bestimmte Stellenzahl vor, die man auch Breite nennt. Beispielsweise haben Mikrocontroller oder Computer häufig Breiten von $\num{8}$, $\num{16}$, $\num{32}$ oder $\qty{64}{\text{Bits}}$. In der Darstellung werden Binärzahlen oft vorne mit Nullen aufgefüllt, bis diese Breite erreicht ist. Am Wert der Zahl ändert das nichts.
 
 [question:EA205]
 
