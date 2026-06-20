@@ -33,7 +33,7 @@ Im Dezimalsystem ist die zweite Ziffer von rechts zehnmal so viel Wert wie sie s
 | $\num{13}$ | $\num{1101}$ |
 | $\num{14}$ | $\num{1110}$ |
 | $\num{15}$ | $\num{1111}$ |
-[table:binaer_zahlensysteme:Zahlen im Dezimal- und im Dualsystem]
+[table:binaer_zahlensysteme:Zahlen im Dezimal- und im Binärsystem]
 </margin>
 
 Im Binärsystem gibt es nur zwei Ziffern, nämlich $\num{0}$ und $\num{1}$. Wie in Tabelle [ref:binar_stellenwert_dual] zu sehen ist, hat die erste Stelle von rechts den Stellenwert $\num{1}$, die zweite $\num{2}$, die dritte $\num{4}$, die vierte $\num{8}$ und so weiter. Die Stellenwerte verdoppeln sich, statt sich zu verzehnfachen, weil es nur zwei Ziffern gibt und nicht zehn. Eine Stelle im Binärsystem nennt man auch Bit ($\unit{\bit}$).
