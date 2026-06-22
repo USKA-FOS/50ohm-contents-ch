@@ -15,13 +15,15 @@ Den vollständigen Gesetzestext findet man in der [Verordnung über die Nutzung 
 Den vollständigen Gesetzestext findet man in der *Verordnung über die Nutzung des Funkfrequenzspektrums (VNF)* Art. 42, Abs.2, Bst. b. 
 [Direktlink zum Gesetzesartikel](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_47)
 </indepth>
+%YPA: Welche ARt möchte man haben? 
+%YPA: Issue eröffnet für "Gesetzt"-Kasten.
 
 Beispielsweise dürfen keine Grüße für Angehörige eines Funkamateurs gesendet werden, wenn diese selber keine Funkamateure sind. Wenn der "Grussempfänger" aber auch Funkamateur ist, dann ist es zulässig.
 
 [question:VN014]
-[question:VN015]
 [question:VN017]
-
+%YPA: VN014 und VN017 redundant. Unterschiede nur in Distraktoren. Zusammenführen?
+[question:VN015]
 
 
 [question:VC111]
