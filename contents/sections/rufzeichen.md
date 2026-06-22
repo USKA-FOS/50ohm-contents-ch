@@ -1,7 +1,7 @@
 Funkstationen verwenden Rufzeichen [index:Rufzeichen], um sich zu identifizieren. Rufzeichen bestehen aus einer Folge von Buchstaben und Ziffern. So hat beispielsweise jedes Flugzeug oder Schiff ein eigenes Rufzeichen, wenn es mit Funk ausgerüstet ist. Bei Flugzeugen ist das Rufzeichen sogar von außen zu erkennen. Das Flugzeug in Abbildung [ref:rufzeichen_flugzeug] hat beispielsweise das Rufzeichen DEBPF. Der Zweck der Rufzeichen ist, andere Funkstationen leicht zu erkennen.
 
-% TODO Foto wechseln. Text anpassen.
 
+% HB-TODO Foto wechseln. Danach Text anpassen.
 <margin>
 [photo:167:rufzeichen_flugzeug:Flugzeug mit dem Rufzeichen DEBPF]
 </margin>
