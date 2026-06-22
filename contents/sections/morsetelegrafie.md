@@ -39,7 +39,7 @@ Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertrage
 | Trennung innerhalb eines Durchgangs (BT, =) | [morse:=] |
 | Ende des Durchgangs (AR)  | [morse:ar] |
 | Ende der Sendung (SK) | [morse:sk] |
-| Fehler, Irrung | [morse:correction] |
+| Fehler, Irrung | [morse:h] [morse:h]|
 [table:n_morsetelegrafie_morsecode_spezial:Morsecode (besondere Zeichen, Auswahl)]
 </webmargin>
 
