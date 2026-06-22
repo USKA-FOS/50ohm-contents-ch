@@ -16,7 +16,6 @@ Beispielsweise dürfen keine Grüße für Angehörige eines Funkamateurs gesende
 [question:VN014]
 [question:VN015]
 [question:VN017]
-[question:VN016]
 
 
 
