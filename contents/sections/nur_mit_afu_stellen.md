@@ -11,6 +11,10 @@ Darüber hinaus ist es auch grundsätzlich unzulässig, Nachrichten von oder an 
 Den vollständigen Gesetzestext findet man in der [Verordnung über die Nutzung des Funkfrequenzspektrums (VNF) Art. 42, Abs.2, Bst. b](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_47)
 </indepth>
 
+<indepth>
+Den vollständigen Gesetzestext findet man in der *Verordnung über die Nutzung des Funkfrequenzspektrums (VNF)* Art. 42, Abs.2, Bst. b [Link zum Artikel](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_47)
+</indepth>
+
 Beispielsweise dürfen keine Grüße für Angehörige eines Funkamateurs gesendet werden, wenn diese selber keine Funkamateure sind. Wenn der "Grussempfänger" aber auch Funkamateur ist, dann ist es zulässig.
 
 [question:VN014]
