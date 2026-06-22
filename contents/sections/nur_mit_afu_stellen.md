@@ -1,10 +1,9 @@
-Der Amateurfunkdienst ist auf Funkamateure beschränkt. Eine Amateurfunkstation darf daher nur andere Amateurfunkstationen kontaktieren. Es ist unzulässig, mit Funkstellen anderer Funkdienste zu funken. Von einer Amateurfunkstation aus darf man also  beispielsweise weder mit Behörden, Flug- noch mit Seefunkstellen oder einer CB-Funkstelle funken. 
+Der Amateurfunkdienst ist auf Funkamateure beschränkt. Eine Amateurfunkstation darf daher nur andere Amateurfunkstationen kontaktieren. Es ist unzulässig, mit Funkstellen anderer Funkdienste zu funken. Von einer Amateurfunkstation aus darf man also beispielsweise weder mit Behörden, Flug- noch mit Seefunkstellen oder einer CB-Funkstelle funken. 
 
 <indepth>
 Natürlich dürfen auch Funkamateure am *CB-Funk*[index:CB-Funk:Teilnahme am] teilnehmen. Allerdings müssen sie dafür - wie alle anderen - ein zugelassenes CB-Funk-Gerät verwenden.
 </indepth>
 
-[question:VU014]
 [question:VC111]
 [question:VD703]
 
