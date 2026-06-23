@@ -5,7 +5,7 @@ Den einfachsten und zugleich extremsten Fall haben wir mit der Übertagung von M
 Um ein Sprachsignal mittels AM zu modulieren, wird auch der Bereich zwischen minimaler und maximaler Amplitude genutzt. Im Wasserfalldiagramm in Abbildung [ref:n_Wasserfall0] sehen wir ein amplitudenmoduliertes Sprachsignal. Man kann in der Mitte deutlich den Träger als schmale Linie mit konstanter Frequenz erkennen. Links und rechts vom Träger sieht man allerdings auch etwas, obwohl die Frequenz des Trägers gar nicht beeinflusst wurde!
 
 <margin>
-[picture:716:n_Wasserfall0:Signal eines AM-Rundfunksenders (Sprache / Musik)]
+[picture:716:n_Wasserfall0:Signal eines AM-Radiosenders (Sprache / Musik)]
 </margin>
 
 Dieser unerwartete Effekt entsteht dadurch, dass sich durch die Änderung der Amplitude die Form des Trägers ändert und er nicht mehr einer reinen Sinusschwingung entspricht. Die zusätzlichen Frequenzen bezeichnen wir als *Seitenbänder*. In diesen steckt die übertragene Information, also z. B. die Sprache. In Abbildung [ref:n_seitenband] sehen wir eine übliche symbolhafte Darstellung von AM mit dem Träger in der Mitte und den beiden Seitenbändern links und rechts davon.
