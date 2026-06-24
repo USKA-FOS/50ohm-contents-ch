@@ -1,6 +1,6 @@
 Funkamateure sind gesetzlich verpflichtet, bestimmte Grenzwerte für die Leistung ihrer Funkanlagen einzuhalten. Besonders wichtig ist dabei die Senderausgangsleistung sowie die Vermeidung unerwünschter Aussendungen – auf Letztere gehen wir im nächsten Kapitel ein. In diesem Kapitel befassen wir uns zunächst mit der Senderausgangsleistung.
 
-In vielen Amateurfunkbändern, die dem Amateurfunk primär zugewiesen sind, gilt die maximale Senderausgangsleistung – auf Englisch Peak Envelope Power (kurz PEP) – als maßgeblicher Grenzwert. Die genauen Leistungsvorgaben finden sich in der [VVNF](https://50ohm.de/a](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf) auf der BAKOM-Webseite.
+In vielen Amateurfunkbändern, die dem Amateurfunk primär zugewiesen sind, gilt die maximale Senderausgangsleistung – auf Englisch Peak Envelope Power (kurz PEP) – als maßgeblicher Grenzwert. Die genauen Leistungsvorgaben finden sich in der [VVNF](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf) auf der BAKOM-Webseite.
 
 ---
 
