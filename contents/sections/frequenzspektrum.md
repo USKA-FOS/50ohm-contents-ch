@@ -1,11 +1,17 @@
+%YPA: Mich stört, dass es zu dem Bild keine zusätzlichen Infos gibt. Bsp: was die einzelnen "Spalten" zeigen, keine Markierung des Funkwellenbereichs.
 <margin>
 [picture:847:n_frequenzspektrum:Spektrum der elektromagnetischen Wellen]
 </margin>
   
 ---
 
-Der Frequenzbereich elektromagnetischer Wellen ist sehr groß (Abbildung [ref:n_frequenzspektrum]). Für Funkwellen wird nur ein Teil dieses Spektrums [index:Spektrum] genutzt, üblicherweise der Frequenzbereich zwischen $\qty{30}{\kilo\hertz}$ und $\qty{300}{\giga\hertz}$. In der Tabelle [ref:n_frequenzspektrum_bereiche] ist zu sehen, welche Frequenzen welchen Bereichen zugeordnet sind. Den Frequenzbereichen [index:Spektrum:Frequenzbereiche] werden Abkürzungen zugeordnet. Für die Prüfung müssen die Frequenzbereiche von $\qty{3}{\mega\hertz}$ bis $\qty{3000}{\mega\hertz}$ den entsprechenden Begriffen zugeordnet werden können.
+Der Frequenzbereich elektromagnetischer Wellen ist sehr groß (Abbildung [ref:n_frequenzspektrum]). Für Funkwellen wird nur ein Teil dieses Spektrums [index:Spektrum] genutzt, üblicherweise der Frequenzbereich zwischen $\qty{30}{\kilo\hertz}$ und $\qty{300}{\giga\hertz}$. In der Tabelle [ref:n_frequenzspektrum_bereiche] ist zu sehen, welche Frequenzen welchen Bereichen zugeordnet sind. Den Frequenzbereichen [index:Spektrum:Frequenzbereiche] werden Abkürzungen zugeordnet. 
 
+%YPA Der effektiven Liste anpassen. Hinweis: In DL gehört der Folgende atz noch zur vorhergehenden Zeile.
+Für die Prüfung müssen die Frequenzbereiche von $\qty{3}{\mega\hertz}$ bis $\qty{3000}{\mega\hertz}$ den entsprechenden Begriffen zugeordnet werden können.
+
+%YPA: Liste anpassen. 
+%YPA: Ich hab mal ne Liste gesehen wo das SW gestrichen war. Find ich nicht gut, weil SWL (ShortwaveListener) verbreiteter Begriff ist. SKW könnte aber auch als "Vertiefung" gebracht werden.
 <webmargin>
 | r: | c: | r: | X: | l: |
 | von | | bis | Bezeichnung | Abk. |
@@ -29,7 +35,7 @@ Der Frequenzbereich elektromagnetischer Wellen ist sehr groß (Abbildung [ref:n_
 [question:BC105]
 [question:BC106]
 
-Für die folgenden Fragen muss man die drei Bänder, auf denen die Klasse N senden darf, den jeweiligen Bereichen zuordnen können. Das $\qty{10}{\meter}$-Band gehört gerade noch zur Kurzwelle, $\qty{2}{\meter}$ liegt im VHF- und $\qty{70}{\centi\meter}$ liegt im UHF-Bereich.
+Für die folgenden Fragen muss man die sehr häufig genutzen Bänder, den jeweiligen Bereichen zuordnen können. Das $\qty{10}{\meter}$-Band gehört gerade noch zur Kurzwelle, $\qty{2}{\meter}$ liegt im VHF- und $\qty{70}{\centi\meter}$ liegt im UHF-Bereich.
 
 [question:BC101]
 [question:BC102]
