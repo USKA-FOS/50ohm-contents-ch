@@ -6,15 +6,29 @@
     Durch Druck auf den nächsten Button, wird das Mikrofon des Browsers
     aktiviert. Danach kann man das Spektrum der eigenen Sprache betrachten.
     </p>
+
     <p>
         <button onclick="start()">Mikrofon Einschalten</button>
+        <button onclick="stop()">Stop</button>
     </p>
+
     <p>
         <canvas id="Spectrum" style="max-height:200px;"></canvas>
     </p>
-    Stärkste Amplitude bei der Frequenz $f$ = <div id="mainfrequency" style="display:inline-block;">0</div> $\unit{\hertz}$<br>
+
+    Stärkste Amplitude bei der Frequenz f = 
+    <div id="mainfrequency" style="display:inline-block;">0</div> Hz<br>
 
     <script type="text/javascript">
+
+        // Globale Variablen
+        var initialized = false;
+        var binSize = 0;
+        var audioContext;
+        var analyserNode;
+        var frequencyData;
+        var animationId;
+        var mediaStream;
 
         spectrum = new Chart("Spectrum", {
             type: 'scatter',
@@ -53,7 +67,7 @@
                         min: 0,
                         max: 100,
                         ticks: {
-                            callback: function(value, index, ticks) {
+                            callback: function(value) {
                                 return value + "%";
                             }
                         }
@@ -67,7 +81,7 @@
                             text: 'Frequenz'
                         },
                         ticks: {
-                            callback: function(val, index) {
+                            callback: function(val) {
                                 return val+"Hz";
                             },
                         }
@@ -76,9 +90,6 @@
             }
         });
 
-        var initialized = false;
-        var binSize = 0;
-
         const getBigBinIndex = (frequencyBins) => {
             let biggestIndex = 0;
             frequencyBins.forEach((bin, index) => {
@@ -86,22 +97,17 @@
                     biggestIndex = index;
                 }
             });
-
             return biggestIndex;
         }
 
         const init = () => {
             var fftSize = 2048;
-            var audioContext;
-
-            var analyserNode;
-            var frequencyData;
             var lastUpdate = 0;
 
             try {
                 window.AudioContext = window.AudioContext || window.webkitAudioContext;
                 audioContext = new AudioContext();
-                binSize = (audioContext.sampleRate) / fftSize; // Bin Size in Hz
+                binSize = (audioContext.sampleRate) / fftSize;
             } catch (e) {
                 alert('Die Web Audio API wird in diesem Browser leider nicht unterstützt!');
             }
@@ -109,53 +115,70 @@
             const update = (timestamp) => {
                 if (timestamp - lastUpdate > 50) {
                     analyserNode.getByteFrequencyData(frequencyData);
+
                     const bigBinIndex = getBigBinIndex(frequencyData);
                     const mainFrequencyStart = Math.floor(bigBinIndex * audioContext.sampleRate / fftSize);
 
-                    const mainfrequencyDomElement = document.getElementById('mainfrequency');
-                    mainfrequencyDomElement.textContent = mainFrequencyStart;
+                    document.getElementById('mainfrequency').textContent = mainFrequencyStart;
 
                     lastUpdate = timestamp;
 
-                    // Reset all values:
                     spectrum.data.datasets[0].data = [];
                     spectrum.data.labels = [];
 
-                    // Normalize Apmlitudes:
                     for(let i = 0; i < analyserNode.frequencyBinCount; i++) {
-                        // Store Normalized Amplitude
                         spectrum.data.datasets[0].data.push((frequencyData[i]/255)*100); 
                         spectrum.data.labels.push(i*binSize);
                     }
 
-                    // Update Graphs:
                     spectrum.update();
                 }
-                requestAnimationFrame(update);
+                animationId = requestAnimationFrame(update);
             }
 
-            // Acquire microphone access.
             navigator.mediaDevices.getUserMedia({
                 audio: true,
                 video: false
             }).then(stream => {
+                mediaStream = stream;
+
                 var source = audioContext.createMediaStreamSource(stream);
-                analyserNode = audioContext.createAnalyser(source);
+                analyserNode = audioContext.createAnalyser();
                 analyserNode.fftSize = fftSize;
-                audioContext.resume();
+
                 source.connect(analyserNode);
-                console.log(analyserNode.frequencyBinCount);
-                frequencyData = new Uint8Array(analyserNode.frequencyBinCount)
-                window.requestAnimationFrame(update);
+
+                frequencyData = new Uint8Array(analyserNode.frequencyBinCount);
+
+                animationId = requestAnimationFrame(update);
             });
         }
-    
+
         const start = () => {
-            if(initialized == false){
+            if (!initialized) {
                 init();
                 initialized = true;
             }
         }
-        
+
+        const stop = () => {
+            // Animation stoppen
+            if (animationId) {
+                cancelAnimationFrame(animationId);
+            }
+
+            // Mikrofon stoppen
+            if (mediaStream) {
+                mediaStream.getTracks().forEach(track => track.stop());
+            }
+
+            // AudioContext schließen
+            if (audioContext) {
+                audioContext.close();
+            }
+
+            initialized = false;
+        }
+
     </script>
 </html>
