@@ -23,9 +23,10 @@ Bei digitalen Übertragungsverfahren wird auch unterhalb von $\qty{10}{\mega\her
 </attention>
 
 %[class:N]
-<tip>
-Aufgrund der erlaubten Bänder kann von Klasse N immer USB verwendet werden.
-</tip>
+%<tip>
+% Tip für HB3 nicht zutreffend und auskommentiert.
+%Aufgrund der erlaubten Bänder kann von Klasse N immer USB verwendet werden.
+%</tip>
 %[/class]
 
 [question:NE209]
