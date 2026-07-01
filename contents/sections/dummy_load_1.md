@@ -12,7 +12,7 @@ Es ist wichtig, dass in jedem Fall entweder eine möglichst angepasste Antenne o
 Aus Sicht des Senders ist eine Dummy Load nicht von einer gut angepassten Antenne zu unterscheiden, da die Sendeleistung nicht reflektiert wird.
 </indepth>
 
-[question:VD111] 
+% [question:VD111] 
 [question:VU004]
 [question:NJ202]
 [question:NF107]
@@ -25,5 +25,5 @@ Ganz vermeiden lassen sich Aussendungen zum Abstimmen nicht, beispielsweise bei 
 Wenn man sein Antennenanpassgerät abstimmt, sollte dies nur auf freien Frequenzen erfolgen. Ansonsten kann man andere Verbindungen stören.
 </attention>
 
-[question:VD112]
+% [question:VD112]
 [question:VU005]
