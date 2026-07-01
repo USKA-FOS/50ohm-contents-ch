@@ -78,6 +78,6 @@ Oft wird das Sendesignal einer Amateurfunkstation in örtlicher Nähe zu anderen
 [question:EJ115]
 [question:EJ114]
 
-Auch schlechte Empfangsverhältnisse auf Seiten des beeinflussten Gerätes (z.B. TV-Zimmerantenne für Empfang) können leichter zu Beeinflussungen im Empfang führen. Eine mögliche Gegenmaßnahme wäre die Verwendung einer Außenantenne ggf. mit entsprechenden Vorfiltern.
+%Auch schlechte Empfangsverhältnisse auf Seiten des beeinflussten Gerätes (z.B. TV-Zimmerantenne für Empfang) können leichter zu Beeinflussungen im %Empfang führen. Eine mögliche Gegenmaßnahme wäre die Verwendung einer Außenantenne ggf. mit entsprechenden Vorfiltern.
 
-[question:EJ123]
+%[question:EJ123]
