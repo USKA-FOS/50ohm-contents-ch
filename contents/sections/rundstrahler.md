@@ -47,6 +47,6 @@ Damit ein Rundstrahler gut funktioniert, sollte er möglichst hoch und rundherum
 [question:NG111]
 
 <indepth>
-Die in der falschen Antwort erwähnten *Magnetfußantennen* werden übrigens gerne für mobilen Funkbetrieb auf einem Autodach betrieben. Das Autodach bildet dann - ähnlich der Erde bei der Marconi-Antenne - das Gegengewicht. Auf den Funkbetrieb aus Kraftfahrzeugen werden wir im Kapitel Einbau Kfz noch näher eingehen.
+Die in der falschen Antwort erwähnten *Magnetfußantennen* werden übrigens gerne für mobilen Funkbetrieb auf einem Autodach betrieben. Das Autodach bildet dann - ähnlich der Erde bei der Marconi-Antenne - das Gegengewicht. Auf den Funkbetrieb aus Motorfahrzeugen werden wir in einem späteren Kapitel "Einbau von Funkanlagen in Motorfahrzeugen" noch näher eingehen.
 </indepth>
 
