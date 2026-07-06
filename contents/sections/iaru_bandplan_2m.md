@@ -19,7 +19,7 @@ Die Anruffrequenzen für den klassischen FM-Sprechfunk liegt auf dem $\qty{2}{\m
 Nachdem eine andere Station auf einen CQ-Anruf geantwortet hat, sollte man die Frequenz wechseln und die „Anruffrequenz“ freigeben.
 </tip>
 
-Für ein weiteres Übertragungsverfahren, die analoge SSB-Telefonie, ist es ein wenig anders geregelt. Hier ist keine Anruffrequenz vorgesehen, sondern ein sogenanntes Aktivitätszentrum [index:Aktivitätszentrum]. Damit wird zum einen angedeutet, dass die Frequenz nicht für Anrufe freizuhalten ist, und zum anderen, dass Anrufe auch im Umfeld dieser Frequenz stattfinden sollen. Dafür kann der ganze mit "SSB" gekennzeichnete Bereich genutzt werden. Aktivitätszentren werden im Bandplan als *center of activity* markiert.
+Für ein weiteres Übertragungsverfahren, die analoge SSB-Telefonie, ist es ein wenig anders geregelt. Hier ist keine Anruffrequenz vorgesehen, sondern ein sogenanntes "Aktivitätszentrum" [index:Aktivitätszentrum]. Damit wird zum einen angedeutet, dass die Frequenz nicht für Anrufe freizuhalten ist, und zum anderen, dass Anrufe auch im Umfeld dieser Frequenz stattfinden sollen. Dafür kann der ganze mit "SSB" gekennzeichnete Bereich genutzt werden. Aktivitätszentren werden im Bandplan als *center of activity* markiert.
 
 Für eine Vielzahl besonderer Anwendungen sind eigene Frequenzbereiche reserviert. Dies Frequenzbereiche sollten bevorzugt für die jeweils vorgesehenen Anwendungen genutzt werden. Es sollte beispielsweise vermieden werden, diese für eine Telefonie-Direktverbindung mit einem Funkamateur aus der Nähe zu verwenden. Häufige Anwendungen sind:
 * Satelliten-Up- und Downlink ("satellite uplink", "satellite downlink")
