@@ -3,14 +3,22 @@
 Da Funkfrequenzen eine beschränkt verfügbare Ressource sind, ist eine effiziente Nutzung dieser Ressource für das Funktionieren moderner Kommunikationsgesellschaften unabdingbar. Das Fernmeldegesetz (FMG) beinhaltet deswegen einen direkten Auftrag an das mit der Frequenzverwaltung beauftragte Organ (BAKOM), geeignete Massnahmen zur Gewährleistung einer effizienten und störungsfreien Nutzung zu ergreifen (Art. 25 Abs. 1 FMG)
 
 Im Fernmeldegesetz [index:Fernmeldegesetz] (FMG) ist das Prinzip verankert, dass jede Frequenznutzung einer vorherigen *Frequenzzuteilung* [index:Frequenzzuteilung] bedarf. Das kann eine Einzelzuteilung oder eine Allgemeinzuteilung sein. Eine Einzelzuteilung [index:Frequenzzuteilung:Einzelzuteilung] liegt beispielsweise vor, wenn Frequenzen einem Unternehmen für den Betriebsfunk zugeteilt werden. Eine Allgemeinzuteilung[index:Frequenzzuteilung:Allgemeinzuteilung] hingegen kann für die Allgemeinheit oder auch für einen bestimmten Personenkreis erfolgen, z. B. für Funkamateure. Die Zuteilungen sind im "Nationalen Frequenzzuweisungsplan" (NaFZ) des BAKOM dokumentiert.
-Auch wenn die Frequenzbereiche international vereinbart werden, sind ausschließlich die nationalen Bestimmungen maßgebend, die sich jedoch an den internationalen Vereinbarungen orientieren.
 
 ---
 <indepth>
-[Anhang 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4) der "Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums" 
+["Nationalen Frequenzzuweisungsplan" (NaFZ)](https://www.bakom.admin.ch/dam/de/sd-web/Y3GtudExOtP2/Swiss_National_Frequency_Allocation_Plan_2026.pdf) 
+</indepth>
+Auch wenn die Frequenzbereiche international vereinbart werden, sind ausschließlich die nationalen Bestimmungen maßgebend, die sich jedoch an den internationalen Vereinbarungen orientieren.
+
+
+---
+<indepth>
+[Anhang 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4) der "Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums"
+
+Weil in Artikel 6 der VVNF definiert ist, wer diese Frequenzen nutzen darf und dort auf die Liste im Anhang 4 verwiesen wird, trägt auch die Liste den "Titel" Art. 6 VVNF, obwohl es strenggenommen der Anhang 4 zur VVNF ist.
 </indepth>
 Funkamateure dürfen Funkbetrieb nur auf den ihnen zugeteilten Frequenzen durchführen.
-Die Frequenzbereiche für den Amateurfunkdienst in der Schweiz sind im Anhang 4 der "Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums" (VVNF) geregelt.
+Die Frequenzbereiche für den Amateurfunkdienst in der Schweiz sind im Anhang 4 der "Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums" (VVNF) geregelt. 
 [question:VO034]
 [question:VO037]
 Ein Funkamateur darf nur auf den seiner Zeugnisklasse zugeteilten Frequenzen senden. Neben den Frequenzbereichen enthält der Anhang auch ausführliche Nutzungsbestimmungen [index:Frequenzzuteilung:Nutzungsbestimmungen] u.a. mit welcher maximalen Leistung man senden darf, die ebenfalls von jedem Funkamateur einzuhalten sind. 
