@@ -9,11 +9,15 @@ Die *USKA* ist als Verband der Schweizer Funkamateure in der International Amate
 [question:BC201]
 
 Der IARU-Bandplan gliedert sich nach den Amateurfunkbändern. In der Amateurfunkprüfung wird nur das allgemeine Verständnis der IARU-Bandpläne wie auf dieser Seite beschrieben geprüft.
-Das $\qty{2}{\meter}$- und das $\qty{70}{\centi\meter}$-Band gehen die beiden folgenden Abschnitte ein. Das ist allerdings nicht Prüfungsstoff, aber für den Funkbetrieb wichtiges Wissen.
+Die beiden nächsten Abschnitte gehen auf die Bandpläne vom $\qty{2}{\meter}$- und $\qty{70}{\centi\meter}$-Bänder ein. Das ist allerdings nicht Prüfungsstoff, aber für den Funkbetrieb wichtiges Wissen.
 
 Eines ist auf fast allen Bändern übrigens gleich geregelt. Bis auf wenige Ausnahmen ist der für Morsetelegrafie (CW) empfohlene Bereich am Bandanfang.
 
 [question:BC204]
+
+
+%YPA: TODO erfassen von Erklärtexten zu den nachfolgenden Fragen
+Zum Verständnis der Bandpläne werden hier en paar "Lesebeispiele" erklärt.
 [question:BC223]
 [question:BC224]
 [question:BC226]
