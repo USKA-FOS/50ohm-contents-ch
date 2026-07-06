@@ -26,7 +26,7 @@ Hier gehts direkt zum System zur Meldung für [Spezielle Frequenznutzung](https:
 
 
 
-% TODO: Bild ersetzen
+% TODO: Bild ersetzen - Issues #13 eröffnet - Will man da übehaupt ein Bild hinsetzen, welches "gewartet" werden muss
 % TODO DARC hier neue AFUV eintragen
 <webmargin>
 [photo:99:n_frequenzbereiche_afuv_anlage_1:Tabellarische Übersicht, Anlage 1, AFuV]
