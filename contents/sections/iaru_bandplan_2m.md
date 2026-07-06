@@ -1,8 +1,10 @@
 Die Bandpläne teilen ein Band in einzelne Frequenzsegmente auf. Für jeden Frequenzbereich (Spalte 1) werden bevorzugte Übertragungsverfahren (Spalte 3 und 4) ausgewiesen.
 
+%YPA: Anderer Bandplan als Bild? Ohne Nummerierung im Titel. Übersichtlicher (Konsistentere Darstellung)?
 <margin>
 [photo:102:n_iaru_bandplan_2m:IARU-Bandplan $\qty{2}{\meter}$]
 </margin>
+
 
 Um schnell einen Funkpartner zu finden, kann man einen CQ-Ruf auf der "Anruffrequenz" [index:Anruffrequenz] eines Bandes starten. Diese werden im IARU-Bandplan als *calling* gekennzeichnet. Dabei wird zwischen zwei Übertragungsverfahren unterschieden:
 * FM-Sprechfunk ("FM calling")
