@@ -2,9 +2,9 @@
 
 Da Funkfrequenzen eine beschränkt verfügbare Ressource sind, ist eine effiziente Nutzung dieser Ressource für das Funktionieren moderner Kommunikationsgesellschaften unabdingbar. Das Fernmeldegesetz (FMG) beinhaltet deswegen einen direkten Auftrag an das mit der Frequenzverwaltung beauftragte Organ (BAKOM), geeignete Massnahmen zur Gewährleistung einer effizienten und störungsfreien Nutzung zu ergreifen (Art. 25 Abs. 1 FMG)
 
+---
 Im Fernmeldegesetz [index:Fernmeldegesetz] (FMG) ist das Prinzip verankert, dass jede Frequenznutzung einer vorherigen *Frequenzzuteilung* [index:Frequenzzuteilung] bedarf. Das kann eine Einzelzuteilung oder eine Allgemeinzuteilung sein. Eine Einzelzuteilung [index:Frequenzzuteilung:Einzelzuteilung] liegt beispielsweise vor, wenn Frequenzen einem Unternehmen für den Betriebsfunk zugeteilt werden. Eine Allgemeinzuteilung[index:Frequenzzuteilung:Allgemeinzuteilung] hingegen kann für die Allgemeinheit oder auch für einen bestimmten Personenkreis erfolgen, z. B. für Funkamateure. Die Zuteilungen sind im "Nationalen Frequenzzuweisungsplan" (NaFZ) des BAKOM dokumentiert.
 
----
 <indepth>
 ["Nationalen Frequenzzuweisungsplan" (NaFZ)](https://www.bakom.admin.ch/dam/de/sd-web/Y3GtudExOtP2/Swiss_National_Frequency_Allocation_Plan_2026.pdf) 
 </indepth>
