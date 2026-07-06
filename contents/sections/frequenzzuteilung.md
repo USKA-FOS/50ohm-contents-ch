@@ -8,7 +8,7 @@ Funkamateure dürfen Funkbetrieb daher nur auf für sie zugeteilten Frequenzen d
 
 ---
 <indepth>
-[Anhang 4]([Direktlink zur Zielseite](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4) der "Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums" 
+[Anhang 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4) der "Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums" 
 </indepth>
 
 Die Frequenzbereiche für den Amateurfunkdienst in der Schweiz sind im Anhang 4 der "Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums" (VVNF) geregelt. Ein Funkamateur darf nur auf den seiner Zeugnisklasse zugeteilten Frequenzen senden. Neben den Frequenzbereichen enthält der Anhang auch ausführliche Nutzungsbestimmungen [index:Frequenzzuteilung:Nutzungsbestimmungen] u.a. die maximale Leistung, die ebenfalls von jedem Funkamateur einzuhalten sind. 
