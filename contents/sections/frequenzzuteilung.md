@@ -14,7 +14,7 @@ Die Frequenzbereiche für den Amateurfunkdienst in der Schweiz sind im Anhang 4 
 [question:VO034]
 [question:VO037]
 Ein Funkamateur darf nur auf den seiner Zeugnisklasse zugeteilten Frequenzen senden. Neben den Frequenzbereichen enthält der Anhang auch ausführliche Nutzungsbestimmungen [index:Frequenzzuteilung:Nutzungsbestimmungen] u.a. mit welcher maximalen Leistung man senden darf, die ebenfalls von jedem Funkamateur einzuhalten sind. 
-Zudem unterliegen gewisse Frequenzen speziellen Nutzungsbedingungen. So gibt es Frequenzen auf welchen andere Nutzer, bspw. Fernbedienungen, Vorrang haben, sprich der Amateurfunk nur *sekundäre* Nutznungsrechte hat und somit dafür sorgen muss, dass er den primären Dienst nicht stört.
+Zudem unterliegen gewisse Frequenzen speziellen Nutzungsbedingungen. So gibt es Frequenzen auf welchen andere Nutzer Vorrang haben, sprich der Amateurfunk nur *sekundäre* Nutznungsrechte hat und somit dafür sorgen muss, dass er den *primären* Dienst nicht stört.
 [question:VN008]
 
 ---
