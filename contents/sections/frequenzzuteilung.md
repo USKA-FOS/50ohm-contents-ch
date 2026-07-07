@@ -1,4 +1,4 @@
-%YPA an EXR: Zeile 3 = c&p aus "Prinzipien der Frequenzverwaltung". Vorlage für Ersatz Zeile 5. Zeile 5 helvetisiert, aber nicht auf Korrektheit kontrolliert. Dein Fachgebiet.
+%YPA an EXR: Zeile 3 = c&p aus "Prinzipien der Frequenzverwaltung". Zeile 5 helvetisiert, aber nicht auf Korrektheit kontrolliert. Fachgebiet EXR.
 
 Da Funkfrequenzen eine beschränkt verfügbare Ressource sind, ist eine effiziente Nutzung dieser Ressource für das Funktionieren moderner Kommunikationsgesellschaften unabdingbar. Das Fernmeldegesetz (FMG) beinhaltet deswegen einen direkten Auftrag an das mit der Frequenzverwaltung beauftragte Organ (BAKOM), geeignete Massnahmen zur Gewährleistung einer effizienten und störungsfreien Nutzung zu ergreifen (Art. 25 Abs. 1 FMG)
 
