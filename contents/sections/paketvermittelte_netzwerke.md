@@ -34,9 +34,8 @@ Die Länge des Netzanteils gibt man am einfachsten mit einem Schrägstrich hinte
 
 <indepth>
 Manchmal werden Netzwerke einer sogenannten Klasse zugeordnet, obwohl dieses System schon lange abgeschafft wurde. Klasse A bedeutete /8, Klasse B /16 und Klasse C /24.
-  % TODO Classless Inter-Domain Routing (CIDR) als Vertiefung hinzufügen.
 </indepth>
-
+%TODO Classless Inter-Domain Routing (CIDR) als Vertiefung hinzufügen.
 
 ---
 
