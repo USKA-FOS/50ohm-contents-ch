@@ -14,8 +14,7 @@ Bei FM-Sprechfunk handelt es sich um ein analoges Übertragungsverfahren. Digita
 
 Anruffrequenzen sollten grundsätzlich für Anrufe freigehalten werden, d. h. sobald nach einem Anruf eine Verbindung hergestellt wurde, sollte man sich auf eine andere Frequenz verständigen und den Funkverkehr dort fortsetzen. Es bietet sich dafür eine Frequenz aus dem Bereich für FM-Sprechfunk und digitale Telefonie an, der im Bandplan als "FM/Digital Voice" gekennzeichnet ist.
 
-Die Anruffrequenzen für den klassischen FM-Sprechfunk liegt auf dem $\qty{2}{\meter}$ Band auf 145.000 MHz.
-%YPA: TODO MHz sauber formatieren
+Die Anruffrequenzen für den klassischen FM-Sprechfunk liegt auf dem $\qty{2}{\meter}$ Band auf $\qty{145,000}{\mega\hertz}$.
 
 <tip>
 Nachdem eine andere Station auf einen CQ-Anruf geantwortet hat, sollte man die Frequenz wechseln und die „Anruffrequenz“ freigeben.
