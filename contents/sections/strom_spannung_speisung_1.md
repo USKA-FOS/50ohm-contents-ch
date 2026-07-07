@@ -17,7 +17,7 @@ Bei einem Halbwellendipol hängt der Speisewiderstand davon ab, wo die Einspeisu
 
 ---
 
-Speisen wir einen Halbwellendipol also in der Mitte, so müssen viele Ladungen bewegt werden und wir sprechen von einer stromgespeisten Antenne (niedriger Speisewiderstand). Ein endgespeister Halbwellendipol hingegen ist eine spannungsgespeiste Antenne (hoher Speisewiderstand). Für die Speisung am Ende, wie in Abbildung [ref:e_strom_spannung_speisung_dipol_ende] gezeigt, ist ein Anpassglied erforderlich. Das werden wir erst in der Klasse A genauer besprechen. 
+Speisen wir einen Halbwellendipol also in der Mitte, so müssen viele Ladungen bewegt werden und wir sprechen von einer stromgespeisten Antenne (niedriger Speisewiderstand). Ein endgespeister Halbwellendipol hingegen ist eine spannungsgespeiste Antenne (hoher Speisewiderstand). Für die Speisung am Ende, wie in Abbildung [ref:e_strom_spannung_speisung_dipol_ende] gezeigt, ist ein Anpassglied erforderlich. Das werden wir erst im HB9-Teil genauer besprechen. 
 
 <margin>
 [picture:851:e_strom_spannung_speisung_dipol_ende:Halbwellendipol Endgespeist]
@@ -42,7 +42,7 @@ Eine übliche Größenordnung für den *Speisewiderstand* einer stromgespeisten 
 ---
 
 <indepth>
-Die Stromverteilung auf einem Dipol hängt von der Frequenz ab, mit der die Antenne betrieben wird. Abbildung [ref:e_stromverteilungen] zeigt die Stromverteilung für ganzzahlige Vielfache der Grundfrequenz $f$ bei einem mittengespeisten Dipol. Dabei ist zu erkennen, dass bei geradzahligen Vielfachen der Grundfrequenz am Speisepunkt ein Stromknoten entsteht. In diesem Fall ist der Strom dort sehr klein, die Spannung hingegen hoch, und die Antenne erscheint am Speisepunkt hochohmig. Aus diesem Grund ist ein mittengespeister Dipol nur bei ungeraden ganzzahligen Vielfachen der Grundfrequenz resonant. Eine Nutzung mehrerer Bänder lässt sich erreichen, indem der Speisepunkt verlagert wird, etwa an einen der Strombäuche wie in Abbildung [ref:e_stromverteilungen]b (z. B. bei der Windom-Antenne) oder an das Antennenende (z. B. EFHW- oder Fuchsantenne). In diesen Fällen sind jedoch Anpassgeräte erforderlich, auf die wir erst in der Klasse A näher eingehen werden.
+Die Stromverteilung auf einem Dipol hängt von der Frequenz ab, mit der die Antenne betrieben wird. Abbildung [ref:e_stromverteilungen] zeigt die Stromverteilung für ganzzahlige Vielfache der Grundfrequenz $f$ bei einem mittengespeisten Dipol. Dabei ist zu erkennen, dass bei geradzahligen Vielfachen der Grundfrequenz am Speisepunkt ein Stromknoten entsteht. In diesem Fall ist der Strom dort sehr klein, die Spannung hingegen hoch, und die Antenne erscheint am Speisepunkt hochohmig. Aus diesem Grund ist ein mittengespeister Dipol nur bei ungeraden ganzzahligen Vielfachen der Grundfrequenz resonant. Eine Nutzung mehrerer Bänder lässt sich erreichen, indem der Speisepunkt verlagert wird, etwa an einen der Strombäuche wie in Abbildung [ref:e_stromverteilungen]b (z. B. bei der Windom-Antenne) oder an das Antennenende (z. B. EFHW- oder Fuchsantenne). In diesen Fällen sind jedoch Anpassgeräte erforderlich, auf die wir erst im HB9-Teil näher eingehen werden.
   
 [picture:1050:e_stromverteilungen:Stromverteilungen bei verschiedneen Grundfrequenzen]
 </indepth>
