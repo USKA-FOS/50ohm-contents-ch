@@ -1,6 +1,6 @@
 %TODO ggf. das Kapitel wo anders hinschieben 
 
-%https://50ohm.uska.ch/50ohm_review_de/NE_chapter_nea_strom_spannung_widerstand_leistung_energie.html
+[KAP](https://50ohm.uska.ch/50ohm_review_de/NE_chapter_nea_strom_spannung_widerstand_leistung_energie.html)
 
 Im Kapitel Dezibel wurde schon angedeutet, dass die Zusätze $\unit{\dBd}$ und $\unit{\dBi}$, die bei der Angabe von Antennengewinnen verwendet werden. In diesem Fall bezieht sich der Dezibelwert nicht auf eine Leistung oder Spannung, sondern auf einen bestimmten Referenzstrahler. Üblich sind dabei $\unit{\dBi}$, bezogen auf den isotropen Kugelstrahler, sowie $\unit{\dBd}$, bezogen auf den Halbwellendipol.
 
