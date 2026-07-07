@@ -12,7 +12,7 @@ Eine Antenne kann vertikal ([ref:n_vpol_antenne]) oder horizontal ([ref:n_hpol_a
 
 Beim Funkbetrieb auf VHF, UHF und höheren Frequenzen sollten zwei Funkstationen ihre Antennen immer in der gleichen Polarisation betreiben. Werden unterschiedliche Polarisationen verwendet, z. B. eine Station horizontal, die andere vertikal, ergibt sich eine deutlich schlechtere Verbindung.
 
-Durch besondere Antennenbauformen kann man drehende Funkwellen erzeugen. Diese heißen "zirkular polarisiert". Je nach Drehrichtung unterscheidet man "linkszirkular" und "rechtszirkular" polarisierte Funkwellen. Genaueres hierzu wird in den Kursen für die Klassen E und A behandelt.
+Durch besondere Antennenbauformen kann man drehende Funkwellen erzeugen. Diese heißen "zirkular polarisiert". Je nach Drehrichtung unterscheidet man "linkszirkular" und "rechtszirkular" polarisierte Funkwellen. Zu beachten ist, dass ein Parabolspiegel die zirkulare Polarisation umkehrt. Genaueres hierzu wird im Kurs für die Klasse HB9 behandelt.
 
 [question:NB304]
 
