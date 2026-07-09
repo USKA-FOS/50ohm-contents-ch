@@ -80,8 +80,9 @@ Vor dem $\qty{2}{\meter}$-Ausgang ist ein Tiefpass, vor dem $\qty{70}{\centi\met
 *Zwei ähnliche Begriffe, die aber Verschiedenes bedeuten:*
   
 *Ein *Diplexer* trennt oder kombiniert unterschiedliche Frequenzbereiche, wie oben beschrieben. 
+
 *Ein *Duplexer* ermöglicht gleichzeitiges Senden und Empfangen auf derselben Antenne, obwohl Sender und Empfänger auf nah beieinanderliegenden 
-Frequenzen arbeiten, wie z. Bsp. bei FM-Relais. In der Schweiz betreibt die [UHF-Gruppe HB9UF](https://www.hb9uf.ch/) neben anderen Befreibern solche Relaisstationen oder "repeater", wie sie im englischen Sprachgebrauch heissen.
+Frequenzen arbeiten, wie z. Bsp. bei FM-Relais. In der Schweiz betreibt die [UHF-Gruppe HB9UF](https://www.hb9uf.ch/) neben anderen Betreibern solche Relaisstationen oder "repeater", wie sie im englischen Sprachgebrauch heissen.
 
 </indepth>
 
