@@ -12,7 +12,7 @@ Wie gut die Antennenanpassung ist, lässt sich messen. Vereinfacht gesagt wird d
 
 % TODO: Editionsspezifisch machen
 <indepth>
-Ein SWR-Meter misst gleichzeitig die vorlaufende Sendeleistung, die der Sender zur Antenne schickt, und die rücklaufende Leistung, die reflektiert wurde. Dies lässt sich gut am SWR-Meter in Abbildung [ref:swr_meter_kreuzzeiger] erkennen, das vor- und rücklaufende Leistung getrennt anzeigt. Das SWR gibt allerdings nicht direkt das Verhältnis dieser beiden Messwerte an, sondern wird etwas komplizierter als $\text{SWR} = \frac {\sqrt{P_\text{V}}+\sqrt{P_\text{R}}} { \sqrt{P_\text{V}}-\sqrt{P_\text{R}}}$ ermittelt, wobei $P_\text{V}$ die vorlaufende und $P_\text{R}$ die rücklaufende Leistung ist. Für die Prüfung der Klasse N muss man diese Formel nicht kennen.
+Ein SWR-Meter misst gleichzeitig die vorlaufende Sendeleistung, die der Sender zur Antenne schickt, und die rücklaufende Leistung, die reflektiert wurde. Dies lässt sich gut am SWR-Meter in Abbildung [ref:swr_meter_kreuzzeiger] erkennen, das vor- und rücklaufende Leistung getrennt anzeigt. Das SWR gibt allerdings nicht direkt das Verhältnis dieser beiden Messwerte an, sondern wird etwas komplizierter als $\text{SWR} = \frac {\sqrt{P_\text{V}}+\sqrt{P_\text{R}}} { \sqrt{P_\text{V}}-\sqrt{P_\text{R}}}$ ermittelt, wobei $P_\text{V}$ die vorlaufende und $P_\text{R}$ die rücklaufende Leistung ist.
 </indepth>
 
 <margin>
