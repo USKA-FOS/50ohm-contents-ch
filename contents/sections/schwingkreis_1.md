@@ -76,6 +76,13 @@ Vor dem $\qty{2}{\meter}$-Ausgang ist ein Tiefpass, vor dem $\qty{70}{\centi\met
 [photo:171:e_example_diplexer:Aufbaubeispiel]
 </indepth>
 
+<indepth>*Zwei ähnliche Begriffe, die aber Verschiedenes bedeuten:*
+*Ein *Diplexer* trennt oder kombiniert unterschiedliche Frequenzbereiche, wie oben beschrieben. 
+*Ein *Duplexer* ermöglicht gleichzeitiges Senden und Empfangen auf derselben Antenne, obwohl Sender und Empfänger auf nah beieinanderliegenden 
+Frequenzen arbeiten, wie z. Bsp. bei FM-Relais. In der Schweiz betreibt die [UHF-Gruppe HB9UF](https://www.hb9uf.ch/) neben anderen Befreibern solche Relaisstationen oder "repeater", wie sie im englischen Sprachgebrauch heissen.
+
+</indepth>
+
 <indepth>
 [photo:320:e_tiefpass_selbstbau:Selbstgebautes Tiefpassfilter]
 Die oben genannten Filter lassen sich natürlich wunderbar für alle Frequenzbereiche selbst berechnen und bauen. In der Formelsammlung finden sich die benötigten Formeln, wobei es natürlich auch viele Bauvorschläge und Berechnungsprogramme gibt. Die benötigten Spulen lassen sich dazu oft leicht selbst herstellen. Hierfür reicht bei kleinen Spulenwerten ein kleiner Vorrat an $\qty{0,8}{\milli\meter}$-Kupferlackdraht für stabile Luftspulen aus. Bei großen Spulenwerten z.B. für die Kurzwellenbereiche kommt man mit $\qty{0,2}{\milli\meter}$-Kupferlackdraht und Kernmaterial mit entsprechenden $A_\text{L}$-Werten aus, um sich jederzeit die richtigen Werte selbst herstellen zu können. Die benötigten Größen, Wicklungen usw. bekommt man über Formelsammlung, Bauvorschläge oder Berechnungsprogramme ebenfalls meist leicht heraus.
