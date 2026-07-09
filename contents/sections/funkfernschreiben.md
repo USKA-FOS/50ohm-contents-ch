@@ -19,12 +19,12 @@ Die Abwicklung einer Telegrafie-Verbindung erfolgt sowohl bei der Morsetelegrafi
 Seitlich ist ein üblicher Ablauf einer kurzen Telegrafieverbindung dargestellt. Mit der Tabelle [ref:n_funkfernschreiben_abkuerzungen] kann die Bedeutung dahinter entschlüsselt werden.
 
 <qso>
-CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
-> DL2AB DE DL1PZ K
-DL1PZ DE DL2AB = UR RST 599 599 = DL1PZ DE DL2AB K
-> DL2AB DE DL1PZ = TNX RPRT, UR 479 479 BK
-BK QSL = VY 73 DE DL2AB SK
-> R 73 DE DL1PZ SK
+CQ CQ CQ DE HB3AB HB3AB HB3AB PSE K
+> HB3AB DE HB9PZ K
+HB9PZ DE HB3AB = UR RST 599 599 = HB9PZ DE HB3AB K
+> HB3AB DE HB9PZ = TNX RPRT, UR 479 479 BK
+BK QSL = VY 73 DE HB3AB SK
+> R 73 DE HB9PZ SK
 </qso>
 
 <webmargin>
