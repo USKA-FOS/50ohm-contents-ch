@@ -37,13 +37,13 @@ Der quarzstabilisierte Oszillator ($G$) erzeugt eine Frequenz von $\qty{38,666}{
 </margin>
 
 <indepth>
--**TCXO** (Temperature Compensated Crystal Oscillator): Ein temperaturkompensierter Quarzoszillator. Frequenzänderungen durch Temperaturschwankungen werden  kompensiert.
--**OCXO** (Oven Controlled Crystal Oscillator): Ein ofenkontrollierter Quarzoszillator. Der Quarz wird in einem kleinen temperaturgeregelten Ofen auf einer konstanten Temperatur gehalten, wodurch eine sehr hohe Frequenzstabilität erreicht wird.
+*TCXO* (Temperature Compensated Crystal Oscillator): Ein temperaturkompensierter Quarzoszillator. Frequenzänderungen durch Temperaturschwankungen werden  kompensiert.  
+*OCXO* (Oven Controlled Crystal Oscillator): Ein ofenkontrollierter Quarzoszillator. Der Quarz wird in einem kleinen temperaturgeregelten Ofen auf einer konstanten Temperatur gehalten, wodurch eine sehr hohe Frequenzstabilität erreicht wird.
 
 Der wesentliche Unterschied ist also:
 
--**TCXO**: Die Temperatur darf sich ändern, die Frequenzabweichung wird elektronisch ausgeglichen.
--**OCXO**: Die Temperatur des Quarzes wird aktiv konstant gehalten. Dadurch ist die Frequenzstabilität in der Regel höher als bei einem TCXO.
+*TCXO*: Die Temperatur darf sich ändern, die Frequenzabweichung wird elektronisch ausgeglichen.  
+*OCXO*: Die Temperatur des Quarzes wird aktiv konstant gehalten. Dadurch ist die Frequenzstabilität in der Regel höher als bei einem TCXO.
 </indepth>
 
 Transverter und Konverter, die für hohe Eingangs- oder Ausgangsfrequenzen (im GHz-Bereich) ausgelegt werden, müssen über einen sehr stabilen Oszillator verfügen. Fehler in der Oszillatorfrequenz führen durch interne Frequenzvervielfachung aufgrund der hohen Ausgangsfrequenzen bei schmalbandigen Betriebsarten oder SSB zu unannehmbaren Abweichungen in der Zielfrequenz. Eine Abweichung in der Oszillatorfrequenz wird durch deren Vervielfachung ebenfalls vervielfacht. Oft verwendet man einen sog. TCXO oder OCXO, der auch zusätzlich noch über eine externe Referenzquelle synchronisiert werden kann (z.B. GPS), um die Oszillatorfrequenz möglichst gut zu stabilisieren und Abweichungen in der Zielfrequenz klein zu halten.
