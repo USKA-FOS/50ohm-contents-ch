@@ -1,0 +1,28 @@
+[
+  {
+    "id": "2gLrq9okUa9KrEUeTUpON",
+    "inline_alias": "a_Spule mit Anzapfungen",
+    "inline_label": "Spule mit 14 Anzapfungen in einem selbstgebauten Antennenanpassgerät",
+    "raw_marker": "[photo:291:a_Spule mit Anzapfungen:Spule mit 14 Anzapfungen in einem selbstgebauten Antennenanpassgerät]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_object_id": "o8yiqfOqa0LjbHfZE066p",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "291",
+    "target_object_type": "photo"
+  },
+  {
+    "id": "ATW92AgM5XnN2u2cJJtNK",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD102]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "o8yiqfOqa0LjbHfZE066p",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD102",
+    "target_object_type": "question"
+  }
+]

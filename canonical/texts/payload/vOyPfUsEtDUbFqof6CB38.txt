@@ -1,0 +1,12 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+1) Kurzfassung:
+Schaltplan mit zwei Transistoren, einem Quarz zwischen den Klemmen 1 und 2, mehreren Widerständen und Kondensatoren, einer Spule zur mit „+“ gekennzeichneten Versorgung und einem kapazitiv gekoppelten Ausgang an Klemme 4.
+
+2) Detaillierte Beschreibung:
+- Oben verläuft eine durchgehende horizontale Leiterbahn; rechts ist sie über eine Spule (Drossel) mit einer mit „+“ markierten Versorgungsklemme verbunden, links ist an der oberen Schiene ein Batteriesymbol eingezeichnet. Von der oberen Schiene führen je ein Widerstand nach unten: einer links zu einem linken Knoten, einer rechts zu einem rechten Knoten.
+- Links befinden sich zwei offene Klemmen „1“ (unten) und „2“ (oben); dazwischen ist ein Quarz (rechteckiger Resonator zwischen zwei Platten) eingezeichnet. Von Klemme „1“ führt ein verstellbarer Kondensator (Schrägstrich/Schieber) nach unten zur unteren Schiene. Von Klemme „2“ geht eine Leitung nach rechts zu einem Knoten; an diesem Knoten ist nach unten ein Kondensator zur unteren Schiene angeschlossen und nach oben der erwähnte linke Widerstand von der oberen Schiene.
+- Links mittig steht ein Transistor in einem Kreis. Sein oberer Anschluss liegt an der oberen Schiene; ein seitlicher Anschluss geht an den Knoten mit Klemme „2“; der untere Anschluss führt zu einem Knoten mit der offenen Klemme „3“. Von diesem Knoten „3“ gehen nach unten ein Widerstand zur unteren Schiene und ein Kondensator zur unteren Schiene ab; nach rechts führt ein in Serie liegender Koppelkondensator zu einem mittleren Knoten.
+- Am mittleren Knoten (rechts des Serienkondensators) gehen drei Verbindungen ab: nach unten ein Widerstand zur unteren Schiene, nach links zurück zum Koppelkondensator, und nach rechts über einen Widerstand zu einem rechten senkrechten Leiter.
+- Rechts ist ein zweiter Transistor im Kreis. Sein oberer Anschluss liegt an dem rechten senkrechten Leiter; dieser ist nach oben über den erwähnten rechten Widerstand mit der oberen Schiene verbunden und nach rechts über einen Kondensator mit der offenen Klemme „4“ (Ausgang). Der untere Anschluss des rechten Transistors geht über einen Widerstand zur unteren Schiene; zusätzlich ist von diesem unteren Anschluss ein Kondensator nach unten zur unteren Schiene eingezeichnet.
+- Unten verläuft eine durchgehende horizontale Bezugsschiene; in der linken Hälfte ist ein Masse-Symbol eingezeichnet, am rechten Ende eine offene Klemme. Alle Kreuzungspunkte mit ausgefüllten Punkten stellen elektrische Knoten dar.

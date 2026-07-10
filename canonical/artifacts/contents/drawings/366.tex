@@ -1,0 +1,44 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}[european]
+    \draw(0,0) coordinate(u0)
+        to [short, o-*] ++(2,0) coordinate(u1)
+        to [short,  -o] ++(4,0) coordinate(u5)
+        node [anchor=west](){--};
+    \draw(u0)
+        to [open, straight voltages, v<={$U_\mathrm{E}$}] ++(0,3) coordinate(m0)
+        to [C,o-*] ++(2,0) coordinate(m1)
+        to [short] ++(1,0)
+        node[npn, tr circle, anchor=B](T){};
+    \draw(T.E)
+        to [R, l_={\qty{2,2}{\kilo\ohm}}, -*] (T.E|-u5)
+        node[rground](){};
+    \draw(T.C)
+        to [C,*-o] (T.C-|u5) coordinate(m4);
+    \draw(T.E)
+        to [short, *-] ++(1,0) coordinate(h1)
+        to [C, name={myC}, -*] (h1|-u5) coordinate(u4);
+    \draw(u4)
+        to [open, name={h2}] (m4);
+    \draw(m1)
+        to [R, l_={\qty{22}{\kilo\ohm}}] (u1);
+    \draw(m1)
+        to [R, l_={\qty{220}{\kilo\ohm}}, -*] ++(0,3) coordinate(o1)
+        to [short] (o1-|T.C) coordinate(o2)
+        to [R, l={\qty{22}{\kilo\ohm}}] (T.C);
+    \draw(o1)
+        to [short] ++(-1,0)
+        to [C] ++(0,-1)
+        node[rground](){};
+    \draw(o2)
+        to [short, *-o] (o2 -| u4)
+        node[anchor=west](){+};
+    \draw (m0) node[anchor=south]{E};
+    \draw (m4) node[anchor=south]{A};
+    \draw (m4)
+        to [open, straight voltages, v={$U_\mathrm{A}$}] (u5);
+    \path(myC.north west) ++(0,0.3) coordinate(x1) -- (myC.south east) ++(0,-0.3) coordinate(x2);
+    \path(myC.south west) ++(0,0.3) coordinate(x3) -- (myC.north east) ++(0,-0.3) coordinate(x4);
+    \draw[very thick](x1) -- (x2);
+    \draw[very thick](x3) -- (x4);
+\end{circuitikz}

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "Koq4v8kavKs6yAmdsjZYn",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE410]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "mgsAkqgL0eEY1tOSXxToG",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE410",
+    "target_object_type": "question"
+  },
+  {
+    "id": "RDrtt9JhTFP4ghrHZ2vva",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE409]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "mgsAkqgL0eEY1tOSXxToG",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE409",
+    "target_object_type": "question"
+  },
+  {
+    "id": "YPHXx2OHEKmxCcnNhU6OB",
+    "inline_alias": "n_baken_frequenzbereiche",
+    "inline_label": "Frequenzbereiche für Baken gemäß IARU-Bandplan",
+    "raw_marker": "[table:n_baken_frequenzbereiche:Frequenzbereiche für Baken gemäß IARU-Bandplan]",
+    "relation_type": "embeds_table",
+    "sort_order": 3,
+    "source_object_id": "mgsAkqgL0eEY1tOSXxToG",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "n_baken_frequenzbereiche",
+    "target_object_type": "table_object"
+  },
+  {
+    "id": "z63beg8GmrRJfXKAyCC6C",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VD119]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_object_id": "mgsAkqgL0eEY1tOSXxToG",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VD119",
+    "target_object_type": "question"
+  }
+]

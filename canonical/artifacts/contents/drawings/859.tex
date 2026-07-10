@@ -1,0 +1,10 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{circuitikz}
+    \draw(0,0) coordinate(start)
+        to [stroke diode, v^={$U_\text{d}$}, i_={$I_\text{d}$}] ++(3,0)
+        to [european resistor, v={$U_\text{k}$}] ++(0,-2)
+        to [short] ++(-3,0) coordinate(end);
+    \draw(start)
+        to [battery2, v^={$U_\text{a}$}] (end);
+\end{circuitikz}

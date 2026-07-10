@@ -1,0 +1,93 @@
+[
+  {
+    "id": "8mxPJUE8j81FB0pEf31EH",
+    "inline_alias": "e_digimode_ssb_empfang_mehrerer_digimodes",
+    "inline_label": "Wasserfalldiagramm vom Empfang von mehreren Digimode-Signalen innerhalb der SSB-Bandbreite von 2,4 kHz. Jede Spalte ist die Übertragung eines anderen Signals",
+    "raw_marker": "[picture:718:e_digimode_ssb_empfang_mehrerer_digimodes:Wasserfalldiagramm vom Empfang von mehreren Digimode-Signalen innerhalb der SSB-Bandbreite von 2,4 kHz. Jede Spalte ist die Übertragung eines anderen Signals]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_object_id": "PjKeS0ketV1B62tEdc0RX",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "718",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "MHauIsYZwfPPBdiDax69q",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE403]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "PjKeS0ketV1B62tEdc0RX",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE403",
+    "target_object_type": "question"
+  },
+  {
+    "id": "Np65nv9o9bSUGkMXhn2ru",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE415]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_object_id": "PjKeS0ketV1B62tEdc0RX",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE415",
+    "target_object_type": "question"
+  },
+  {
+    "id": "SJsH93FqYfc9dEeifaiQI",
+    "inline_alias": "e_digimode_ssb_sstv",
+    "inline_label": null,
+    "raw_marker": "[ref:e_digimode_ssb_sstv]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 5,
+    "source_object_id": "PjKeS0ketV1B62tEdc0RX",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_digimode_ssb_sstv",
+    "target_object_type": null
+  },
+  {
+    "id": "TReyuxLLk8ubHi0e4mBNy",
+    "inline_alias": "e_digimode_ssb_sstv",
+    "inline_label": "Bestätigung eines SSTV Verbindung an F1BIB von ON1GA mit dem RST 575 und zusätzlich dem ursprünglich empfangenen Bild",
+    "raw_marker": "[photo:84:e_digimode_ssb_sstv:Bestätigung eines SSTV Verbindung an F1BIB von ON1GA mit dem RST 575 und zusätzlich dem ursprünglich empfangenen Bild]",
+    "relation_type": "embeds_photo",
+    "sort_order": 7,
+    "source_object_id": "PjKeS0ketV1B62tEdc0RX",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "84",
+    "target_object_type": "photo"
+  },
+  {
+    "id": "uj4XlScNvhhw7OqBW1n1T",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE402]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_object_id": "PjKeS0ketV1B62tEdc0RX",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE402",
+    "target_object_type": "question"
+  },
+  {
+    "id": "zeW6TF3EUedOg98IREVwL",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE404]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "PjKeS0ketV1B62tEdc0RX",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE404",
+    "target_object_type": "question"
+  }
+]

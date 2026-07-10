@@ -1,0 +1,41 @@
+[
+  {
+    "id": "EZg9e9af3t5pZLRgRgb16",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EG113]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "EhyJmAsVKyDgKLUZeaYxn",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EG113",
+    "target_object_type": "question"
+  },
+  {
+    "id": "NhUGuo5ud6aeE1Bgsz6de",
+    "inline_alias": "e_parabolspiegel_funktion",
+    "inline_label": "Funktionsweise eines Parabolspiegels",
+    "raw_marker": "[picture:850:e_parabolspiegel_funktion:Funktionsweise eines Parabolspiegels]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "EhyJmAsVKyDgKLUZeaYxn",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "850",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "Vm9EXPW1e9A6Do5y2jXJa",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EG114]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "EhyJmAsVKyDgKLUZeaYxn",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EG114",
+    "target_object_type": "question"
+  }
+]

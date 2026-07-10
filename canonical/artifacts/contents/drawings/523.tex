@@ -1,0 +1,16 @@
+% Author: Dr. Matthias Jung
+% Year: 2022
+\begin{circuitikz}
+    \draw(0,0) 
+        to [american inductor] ++(0,2)
+        to [short,-*] ++(1,0) node[antenna](){}
+        to [short,-*] ++(1,0) coordinate(c2)
+        to [variable capacitor,invert, tunable end arrow={Triangle},-*] ++(0,-2) coordinate(c3)
+        to [short,-*] ++(-1,0)
+        node[ground](gnd){}
+        to [short] ++(-1,0);
+    \draw(c2)
+        to [stroke diode] ++(3,0)
+        to [loudspeaker, l={\qty{2,7}{\kilo\ohm}}] ++(0,-2)
+        to [short] (c3);
+\end{circuitikz}

@@ -1,0 +1,23 @@
+% Author: Michael Groni, DB7YI
+% Year: 2023
+% FT8-Signal mit zu hohem Audio-Pegel am Mikrofoneingang screen
+\begin{tikzpicture}	
+	\begin{axis}[
+        width=\linewidth*\getDarcImageFactor,
+        height=\linewidth*\getDarcImageFactor,
+		scale only axis,
+		axis y line=left,
+		axis x line=bottom,
+		axis line style={-},
+		yticklabels={,13 s, {6,5 s},0 s},
+		ytick distance=5,
+		xticklabels={,{f$_{t}$ + 1 kHz},{f$_{t}$ + 5 kHz},{f$_{t}$ + 9 kHz}},
+		xtick distance=21,
+		tick align=outside,
+		clip=false,
+		xmin=-26.7, xmax=26.7, ymin=0, ymax=10,
+	]			
+		\addplot graphics [xmin=-26.7, xmax=26.7, ymin=0, ymax=10] {"foto/162"};
+	\end{axis};
+		
+\end{tikzpicture}

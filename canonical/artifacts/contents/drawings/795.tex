@@ -1,0 +1,20 @@
+% Author: Stephan Kregel, DG1HXJ
+% Year: 2024      
+% Schaltung: Einweggleichrichter, Halbwelle
+
+\begin{circuitikz}[background rectangle/.style={fill=white}, show background rectangle, european]
+    \draw (0,0) to node[transformer core, american, name=t1]{} ++(0,0);
+    \draw (t1.A2) -- node[ocirc]{} ++(-0.1,0) coordinate(t11);
+    \draw (t1.A1) -- node[ocirc]{} ++(-0.1,0) coordinate(t12);
+    \draw (t1.B1) -- ++(1,0) to [stroke diode, l=$D$] ++(2,0) coordinate(d1) -- ++(2,0) coordinate(rl1);
+    \draw (t1.B2) -- ++(3,0) coordinate(d2) -- ++(2,0) coordinate(rl2);
+    \draw (d1) to [C,l_=$C_L$, *-*] (d2);
+    \draw (rl1) to [R, l_=$R_L$, v^=$U_L$, voltage=straight] (rl2);
+    \draw (t1.B1) -- ++(0,0) to[open, v^=$U_E$, voltage=straight] (t1.B2);
+    \draw (t1.A1) to[open, name=h1] (t1.A2);
+    \def\x{0.15}
+    \draw[] (h1.center) sin ++(\x,-\x)
+                        cos ++(\x, \x);                      
+    \draw[] (h1.center) sin ++(-\x, \x)
+                        cos ++(-\x,-\x);                
+\end{circuitikz}

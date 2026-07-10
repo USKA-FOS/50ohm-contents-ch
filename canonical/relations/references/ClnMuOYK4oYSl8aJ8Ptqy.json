@@ -1,0 +1,54 @@
+[
+  {
+    "id": "8vePXham5DcGgSFDKpyf2",
+    "inline_alias": "e_zeigerinstrument",
+    "inline_label": "Zeigerinstrument mit mehreren Skalen",
+    "raw_marker": "[photo:197:e_zeigerinstrument:Zeigerinstrument mit mehreren Skalen]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_object_id": "ClnMuOYK4oYSl8aJ8Ptqy",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "197",
+    "target_object_type": "photo"
+  },
+  {
+    "id": "Y6JGhlGnVHrVx85dYznmf",
+    "inline_alias": "e_parallaxenfehler",
+    "inline_label": "Zeigerinstrument mit Spiegel und Parallaxenfehler beim Ablesen",
+    "raw_marker": "[photo:196:e_parallaxenfehler:Zeigerinstrument mit Spiegel und Parallaxenfehler beim Ablesen]",
+    "relation_type": "embeds_photo",
+    "sort_order": 2,
+    "source_object_id": "ClnMuOYK4oYSl8aJ8Ptqy",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "196",
+    "target_object_type": "photo"
+  },
+  {
+    "id": "rXq7RhMEInbwS0JWIaPWg",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EI104]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "ClnMuOYK4oYSl8aJ8Ptqy",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EI104",
+    "target_object_type": "question"
+  },
+  {
+    "id": "sf5Oro7fTgcvaPMtjethM",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EI103]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "ClnMuOYK4oYSl8aJ8Ptqy",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EI103",
+    "target_object_type": "question"
+  }
+]

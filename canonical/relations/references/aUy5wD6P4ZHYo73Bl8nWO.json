@@ -1,0 +1,28 @@
+[
+  {
+    "id": "Ii913UbDACjaOeTulbzBo",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF216]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "aUy5wD6P4ZHYo73Bl8nWO",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF216",
+    "target_object_type": "question"
+  },
+  {
+    "id": "Z9tAhpbyHfkYR1Tk9aJod",
+    "inline_alias": "frequenzverlauf_notchfilter",
+    "inline_label": "Filtercharakteristik eines Notch-Filters",
+    "raw_marker": "[picture:242:frequenzverlauf_notchfilter:Filtercharakteristik eines Notch-Filters]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "aUy5wD6P4ZHYo73Bl8nWO",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "242",
+    "target_object_type": "drawing"
+  }
+]

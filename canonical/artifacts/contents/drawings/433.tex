@@ -1,0 +1,12 @@
+% Author: Stephan Kregel, DG1HXJ
+% Year: 2022
+% 2-TC611B-4
+\begin{circuitikz}
+    \draw (0,0)	node[ocirc]{} 
+    to [D-] ++(2,0) -- ++(0,-0.5) coordinate(c1) -- ++(0.5,0) 
+    to node[ocirc]{} ++(0,0);
+    \draw (c1) -- ++(0,-0.5) 
+    to [D-, invert] ++(-2,0) 
+    to node[ocirc]{} ++(0,0);
+    \draw (c1) node[circ]{} ++(0,0);
+\end{circuitikz}

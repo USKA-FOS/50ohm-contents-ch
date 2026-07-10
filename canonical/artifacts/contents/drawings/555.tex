@@ -1,0 +1,10 @@
+% Author: 	Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{circuitikz}[american]
+    \draw (0,1) to [short, o-] ++(1.5,0) coordinate(C0)
+    to [european resistor, l={$R_\mathrm{2}$}] ++(3,0) coordinate(C1)
+    to [short,-o] ++(1.5,0);
+    \draw (C0) to [european resistor, l={$R_\mathrm{1}$}, *-*] ++ (0,-2);
+    \draw(C1) to [european resistor, l_={$R_\mathrm{3}$}, *-*] ++(0,-2);
+    \draw(0,-1) to [short, o-o] ++(6,0);
+\end{circuitikz}

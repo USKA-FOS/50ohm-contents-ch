@@ -1,0 +1,54 @@
+[
+  {
+    "id": "9T9VN8sLioW1QROWiIWXG",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EC104]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "wtkpAM8efFlNgkfKYJZly",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EC104",
+    "target_object_type": "question"
+  },
+  {
+    "id": "NqglqPmJCuGXuICes6Y3s",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EC101]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_object_id": "wtkpAM8efFlNgkfKYJZly",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EC101",
+    "target_object_type": "question"
+  },
+  {
+    "id": "dNr22wpH6ptD39ctD8eqy",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EC102]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "wtkpAM8efFlNgkfKYJZly",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EC102",
+    "target_object_type": "question"
+  },
+  {
+    "id": "pgDmgX6FZ3Vyt96VRPHyl",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EC103]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "wtkpAM8efFlNgkfKYJZly",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EC103",
+    "target_object_type": "question"
+  }
+]

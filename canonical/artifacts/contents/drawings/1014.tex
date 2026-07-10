@@ -1,0 +1,18 @@
+% DL9MJ 2025:
+\begin{circuitikz}
+    \draw(0,0) to [short, o-, i={$I$}] ++(0,-0.25) coordinate (start);
+    \draw(start) to [short] ++(-1*0.25,0) to [R, *-*] ++(0,-1) coordinate(l1);
+    \draw(start) to [short] ++(-2*0.25,0) to [R, *-*] ++(0,-1) coordinate(l2);
+    \draw(start) to [short] ++(-3*0.25,0) to [R, *-*, i={$\frac{I}{11}$}] ++(0,-1) coordinate(l3);
+    \draw(start) to [short] ++(-4*0.25,0) to [R, *-*] ++(0,-1) coordinate(l4);
+    \draw(start) to [short] ++(-5*0.25,0) to [R]      ++(0,-1) coordinate(l5);
+    \draw(start) to [R, *-*] ++(0,-1) coordinate(m1);
+    \draw(start) to [short] ++(1*0.25,0) to [R, *-*] ++(0,-1) coordinate(r1);
+    \draw(start) to [short] ++(2*0.25,0) to [R, *-*] ++(0,-1) coordinate(r2);
+    \draw(start) to [short] ++(3*0.25,0) to [R, *-*] ++(0,-1) coordinate(r3);
+    \draw(start) to [short] ++(4*0.25,0) to [R, *-*] ++(0,-1) coordinate(r4);
+    \draw(start) to [short] ++(5*0.25,0) to [R]      ++(0,-1) coordinate(r5);
+    \draw(l5) -- (m1);
+    \draw(r5) -- (m1);
+    \draw(m1) to [short, -o] ++(0,-0.25);
+\end{circuitikz}

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "3u2pghfRjZdNe0JI2lzw9",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB302]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "98Xvagm4g9TVOw3RouuLr",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB302",
+    "target_object_type": "question"
+  },
+  {
+    "id": "8VUYJi5EYCkIFLIfpnHvD",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB303]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "98Xvagm4g9TVOw3RouuLr",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB303",
+    "target_object_type": "question"
+  },
+  {
+    "id": "JxBhyY9zFMHDxFmbVHOeJ",
+    "inline_alias": "a_phasenverschiebung",
+    "inline_label": "Phasenverschiebung zwischen zwei Sinus-Signalen",
+    "raw_marker": "[picture:208:a_phasenverschiebung:Phasenverschiebung zwischen zwei Sinus-Signalen]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_object_id": "98Xvagm4g9TVOw3RouuLr",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "208",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "XxnuWvWHC3dodDHWnQgGu",
+    "inline_alias": "a_phasenwinkel_zeit",
+    "inline_label": "Phasenwinkel in Grad und Bogenmaß oder Periodendauerangabe",
+    "raw_marker": "[picture:878:a_phasenwinkel_zeit:Phasenwinkel in Grad und Bogenmaß oder Periodendauerangabe]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "98Xvagm4g9TVOw3RouuLr",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "878",
+    "target_object_type": "drawing"
+  }
+]

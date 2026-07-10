@@ -1,0 +1,15 @@
+% Author: Stephan Kregel, DG1HXJ
+% Year: 2022
+% 1-TB202B, 2-TB202
+\begin{circuitikz}
+    \draw (0,0)	 node[ocirc]{}
+    to [battery2] ++(0,-2) -- ++(1,0) 
+    to [battery2] ++(0,2) -- ++(1,0) 
+    to [battery2] ++(0,-2) -- ++(1,0) 
+    to [battery2] ++(0,2) -- ++(1,0) 
+    to [battery2] ++(0,-2) -- ++(1,0) 
+    to [battery2] ++(0,2) 		
+    to node[ocirc]{} ++(0,0);
+    \draw (0,0) node[anchor=south]{$+$};
+    \draw (5,0) node[anchor=south]{$-$};		
+\end{circuitikz}

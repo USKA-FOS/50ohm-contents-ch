@@ -1,0 +1,65 @@
+% Author: Malte, DE7LMS
+% Year: 2021
+% E_TB505-B horizontal yagi on tower
+
+\begin{tikzpicture}[
+    x={(1cm*\getDarcImageFactor,0cm*\getDarcImageFactor)},
+    y={(.5cm*\getDarcImageFactor,.5cm*\getDarcImageFactor)},
+    z={(0cm*\getDarcImageFactor,1cm*\getDarcImageFactor)},
+    line join=round,
+    line cap=round,
+    line width=1pt,
+    thicker/.style={line width=2pt},
+    blob thick/.style={line width=4pt}
+  ]
+
+  \def\lda{15}
+  \def\topz{15}
+  \def\towerscale{0.4}
+
+  % \begin{scope}
+  %   \clip (-7,0,1.5) rectangle (7.5,0,18);
+  %   \foreach \i in {-7,-6.7,...,26}
+  %     \draw[red, thin] (-100, 0, -100+\i) -- (100, 0, 100+\i);
+  % \end{scope}
+
+  \begin{scope}[scale=\towerscale]
+    \draw
+      (0,0,2/\towerscale) -- (0,0,10/\towerscale) -- (1,1,11/\towerscale)
+      (0,2,2/\towerscale) -- (0,2,10/\towerscale) -- (1,1,11/\towerscale)
+      (2,2,2/\towerscale) -- (2,2,10/\towerscale) -- (1,1,11/\towerscale)
+      (2,0,2/\towerscale) -- (2,0,10/\towerscale) -- (1,1,11/\towerscale)
+      ;
+    \draw[thicker]
+      (1,1,10/\towerscale) -- (1,1,\topz/\towerscale)
+      ;
+    \draw
+      (0,0,10/\towerscale) -- (2,2,10/\towerscale)
+      (2,0,10/\towerscale) -- (0,2,10/\towerscale)
+      ;
+    \foreach \z in {2,4,6,8,10}
+      \draw
+        (0,0,\z/\towerscale) -- (2,0,\z/\towerscale) -- (2,2,\z/\towerscale) -- (0,2,\z/\towerscale) -- cycle;
+    \foreach \z in {2,4,6,8}
+      \draw
+        (0,0,\z/\towerscale) -- (2,0,\z/\towerscale+2/\towerscale)
+        (2,0,\z/\towerscale) -- (2,2,\z/\towerscale+2/\towerscale)
+        (2,2,\z/\towerscale) -- (0,2,\z/\towerscale+2/\towerscale)
+        (0,2,\z/\towerscale) -- (0,0,\z/\towerscale+2/\towerscale)
+        ;
+  \end{scope}
+
+  \begin{scope}[shift={(1*\towerscale+.315*\lda,1*\towerscale,\topz)},scale=\lda]
+    \draw[ultra thick]
+      (0,0,0) -- (-.7,0,0);
+    \draw[rounded corners=2.2mm*\getDarcImageFactor]
+      (0,-.25,0) -- (0,.25,0) % R
+      (-.38,-.21,0) -- (-.38,.21,0) % D1
+      (-.51,-.20,0) -- (-.51,.20,0) % D2
+      (-.7,-.19,0) -- (-.7,.19,0) % D3
+      (-.25,-.22,.03) -- (-.25,-.22,0) -- (-.25,.22,0) -- (-.25,.22,.03) -- cycle % A
+    ;
+    \draw[line width=5pt]
+      (-.25-.01,0,0) -- (-.25+.01,0,0);
+  \end{scope}
+\end{tikzpicture}

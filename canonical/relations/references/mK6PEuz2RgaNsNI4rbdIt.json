@@ -1,0 +1,67 @@
+[
+  {
+    "id": "7GQnChVLXJXBE2Eafrn3k",
+    "inline_alias": "ardf_morse_code",
+    "inline_label": null,
+    "raw_marker": "[ref:ardf_morse_code]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_object_id": "mK6PEuz2RgaNsNI4rbdIt",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "ardf_morse_code",
+    "target_object_type": null
+  },
+  {
+    "id": "EAItTtQfPLeG4IQHcUa9K",
+    "inline_alias": "n_ardf_fuchs",
+    "inline_label": "ARDF-Fuchs im Wald mit Wimpel und Zeitnehmer",
+    "raw_marker": "[photo:190:n_ardf_fuchs:ARDF-Fuchs im Wald mit Wimpel und Zeitnehmer]",
+    "relation_type": "embeds_photo",
+    "sort_order": 2,
+    "source_object_id": "mK6PEuz2RgaNsNI4rbdIt",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "190",
+    "target_object_type": "photo"
+  },
+  {
+    "id": "You9hIQJhDkEIagsnfMRB",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BD109]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_object_id": "mK6PEuz2RgaNsNI4rbdIt",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BD109",
+    "target_object_type": "question"
+  },
+  {
+    "id": "voxACqvHOMs6gH13l9A9F",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE313]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_object_id": "mK6PEuz2RgaNsNI4rbdIt",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE313",
+    "target_object_type": "question"
+  },
+  {
+    "id": "ysCRDPy37Ii7U6M1WDy0Y",
+    "inline_alias": "ardf_morse_code",
+    "inline_label": "Rufzeichen der Fuchsjagdsender",
+    "raw_marker": "[table:ardf_morse_code:Rufzeichen der Fuchsjagdsender]",
+    "relation_type": "embeds_table",
+    "sort_order": 9,
+    "source_object_id": "mK6PEuz2RgaNsNI4rbdIt",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "ardf_morse_code",
+    "target_object_type": "table_object"
+  }
+]

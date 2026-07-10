@@ -1,0 +1,80 @@
+[
+  {
+    "id": "LoEGjcg532n1DTFqiVq9i",
+    "inline_alias": "e_zeigerinstrument_strom",
+    "inline_label": "Hier ist der Messbereich $\\qty{300}{\\milli\\ampere}$ eingestellt. Das Gerät zeigt etwa $\\qty{37}{\\milli\\ampere}$ an.",
+    "raw_marker": "[photo:197:e_zeigerinstrument_strom:Hier ist der Messbereich $\\qty{300}{\\milli\\ampere}$ eingestellt. Das Gerät zeigt etwa $\\qty{37}{\\milli\\ampere}$ an.]",
+    "relation_type": "embeds_photo",
+    "sort_order": 2,
+    "source_object_id": "JuGhrpTw7Yf6IKfXnWGJA",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "197",
+    "target_object_type": "photo"
+  },
+  {
+    "id": "QIto3Fx3mQKTuiuru0GVJ",
+    "inline_alias": "e_zeigerinstrument_strom",
+    "inline_label": null,
+    "raw_marker": "[ref:e_zeigerinstrument_strom]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_object_id": "JuGhrpTw7Yf6IKfXnWGJA",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_zeigerinstrument_strom",
+    "target_object_type": null
+  },
+  {
+    "id": "eLzSsgQvZPk2wP1mjWtsg",
+    "inline_alias": "e_zeigerinstrument_parallaxenfehler",
+    "inline_label": null,
+    "raw_marker": "[ref:e_zeigerinstrument_parallaxenfehler]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_object_id": "JuGhrpTw7Yf6IKfXnWGJA",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_zeigerinstrument_parallaxenfehler",
+    "target_object_type": null
+  },
+  {
+    "id": "t28opagMHKCXyDn2oIvlK",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EI104]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_object_id": "JuGhrpTw7Yf6IKfXnWGJA",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EI104",
+    "target_object_type": "question"
+  },
+  {
+    "id": "uJAr3QISNrQIQIOCzZjTB",
+    "inline_alias": "e_zeigerinstrument_parallaxenfehler",
+    "inline_label": "ungünstiger Blickwinkel auf eine Skala",
+    "raw_marker": "[photo:196:e_zeigerinstrument_parallaxenfehler:ungünstiger Blickwinkel auf eine Skala]",
+    "relation_type": "embeds_photo",
+    "sort_order": 4,
+    "source_object_id": "JuGhrpTw7Yf6IKfXnWGJA",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "196",
+    "target_object_type": "photo"
+  },
+  {
+    "id": "yvUjTkMeQf0fVACJUKKDe",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EI103]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "JuGhrpTw7Yf6IKfXnWGJA",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EI103",
+    "target_object_type": "question"
+  }
+]

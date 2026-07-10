@@ -1,0 +1,21 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{circuitikz}
+    \draw (0,0) coordinate(start)
+        to [TL, name={foo}, bipoles/tline/width=2, o-o] ++(4.0,0) coordinate(end);
+    \draw[dashed] (foo.west) -- (foo.east); 
+
+    \draw(start) 
+        to [open, name={a}, -o] ++(0,-1)
+        -| (foo.bottom left)
+        to [short, -*] ++(0,0);
+
+    \draw(end) 
+        to [open, name={b}, -o] ++(0,-1)
+        -| (foo.bottom right)
+        to [short, -*] ++(0,0);
+
+    \draw(a.center) node []{a};
+    \draw (b.center) node []{b};
+    \draw (foo.south) node [anchor=north]{$Z=\qty{50}{\ohm}$};
+\end{circuitikz}

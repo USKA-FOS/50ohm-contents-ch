@@ -1,0 +1,13 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2023
+\begin{circuitikz}[european]
+    \draw(0,0) node [dinantenna](ant1){};
+    \draw[thick](ant1.south) -- ++(0,-1) node [anchor=south west](){$f=\qty{145}{\mega\hertz}$};
+    %
+    \draw(3.75,0.25) node[tvshape, anchor=west, fill=DARCgray](tv){};
+    \draw(tv.north) node[above](){TV};
+    %
+    \draw(ant1.right) node[waves, xscale=2*\getDarcImageFactor, yscale=1*\getDarcImageFactor, anchor=left](){};
+    %
+    \path(tv.south) ++(0,-0.25) node[below](){\phantom{$f=$\qty{580}{\mega\hertz}}};
+\end{circuitikz}

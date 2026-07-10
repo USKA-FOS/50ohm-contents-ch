@@ -1,0 +1,17 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \draw(0,0) 
+        node[anchor=east](){\qty{0}{\volt}}
+        to [short, o-] ++(4,0) coordinate(b);
+    \draw(0,3)
+        node[anchor=east](){+\qty{13,8}{\volt}}
+        to [R,l_={$R_\mathrm{V}$}, o-*] ++(3,0) coordinate(dc1)
+        to [short,-o] ++(1,0) coordinate(a);
+    \draw(3,0)
+        to [stroke Zener diode, mirror,i^<={$I_\mathrm{Z}$}, *-] (dc1);
+    \draw(a)
+        to [short, o-] ++(1,0)
+        to [R,l_={$R_\mathrm{L}$}, i>_={$I_\mathrm{L}$}] ++(0,-3)
+        to [short, -o] (b);
+\end{circuitikz}

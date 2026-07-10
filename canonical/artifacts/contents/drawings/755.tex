@@ -1,0 +1,25 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+% 2-TD207
+\begin{circuitikz}
+    \draw(0,0) to [short] ++(5,0);
+
+    \draw(0,3) to [short] ++(1.5,0)
+               node[circ](dc1){}
+               to [american inductor] ++(2,0)
+               node[circ](dc2){}
+               to [short] ++(1.5,0);
+
+    \draw(dc1) to [short] ++(0,-1.5)
+               to [C] ++(2,0)
+               to [short] (dc2);
+
+    \draw(0,3) node[ocirc] (U1A) {};
+    \draw(0,0) node[ocirc] (U1B) {};
+    \draw(5,3) node[ocirc] (U2A) {};
+    \draw(5,0) node[ocirc] (U2B) {};
+
+    \draw(U1A) to[open, v=$U_\mathrm{E}$] (U1B);
+    \draw(U2A) to[open, v^=$U_\mathrm{A}$] (U2B);
+
+\end{circuitikz}

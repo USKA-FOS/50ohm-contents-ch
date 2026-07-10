@@ -1,0 +1,25 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+Kurzfassung: Netzwerk-Blockdiagramm mit zwei als „Router“ beschrifteten Routersymbolen, den Bereichen „Server-netz“, „internes Netz“ und „Internet-anschluss“, einem Laptop und mehreren orange/blauen Zahlenblöcken an den Verbindungen.
+
+Detailbeschreibung:
+- Oben mittig befindet sich eine Wolke mit der Beschriftung „Server-netz“. Links und rechts führt jeweils eine horizontale Leitung zu einem runden Routersymbol (Kreis mit vier Pfeilen nach oben, rechts, unten, links), beide mit der Textbeschriftung „Router“.
+- Links unten ist eine Wolke mit der Beschriftung „internes Netz“, die über eine senkrechte Leitung mit dem linken Router verbunden ist. Rechts neben dieser Wolke steht ein Laptop, per kurzer horizontaler Linie mit der Wolke verbunden.
+- Rechts unten steht der Text „Internet-anschluss“, von dem eine senkrechte Leitung nach oben zum rechten Router führt.
+
+Zahlenblöcke (jeweils zwei Reihen mit vier kleinen Kästchen; Orange und Blau):
+- An der oberen Leitung zwischen linkem Router und „Server-netz“:
+  - obere Reihe: Orange „141“, Orange „17“, Orange „5“, Blau „18“
+  - untere Reihe: Orange „255“, Orange „255“, Orange „255“, Blau „0“
+- An der senkrechten Leitung zwischen linkem Router und „internes Netz“:
+  - obere Reihe: Orange „10“, Orange „33“, Orange „0“, Blau „1“
+  - untere Reihe: Orange „255“, Orange „255“, Orange „0“, Blau „0“
+- Neben dem Laptop (an der Verbindung zum „internes Netz“):
+  - obere Reihe: Orange „10“, Orange „33“, Orange „0“, Blau „100“
+  - untere Reihe: Orange „255“, Orange „255“, Orange „0“, Blau „0“
+- An der oberen Leitung zwischen rechtem Router und „Server-netz“:
+  - obere Reihe: Orange „141“, Orange „17“, Orange „5“, Blau „1“
+  - untere Reihe: Orange „255“, Orange „255“, Orange „255“, Blau „0“
+- An der senkrechten Leitung zwischen rechtem Router und „Internet-anschluss“:
+  - obere Reihe: Orange „46“, Orange „142“, Orange „171“, Blau „229“
+  - untere Reihe: Orange „255“, Orange „255“, Orange „255“, Blau „0“

@@ -1,0 +1,34 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{circuitikz}
+	\ctikzset{
+	    blocks/scale=\getDarcImageFactor,
+    	RF/scale=\getDarcImageFactor
+	}
+    \pgfdeclarelayer{bg} % declare background layer
+    \pgfsetlayers{bg,main}
+    % 10   = 41.5
+    % 0.24 = 1
+    % 3.33 = 13.8
+
+    \draw [dashed] (0,5) -- ++( 0.5,0) coordinate(a);
+    \draw (a)
+        to [short,o-o] ++(0.5,0) coordinate(c1)
+        to [twoport, t={1:6}, name={foo}, fill=white] ++(6.6666,0)
+        to [short] ++(3.3333,0) coordinate(c2)
+        to [short,o-o] ++(0.5,0) coordinate(b);
+
+    \begin{pgfonlayer}{bg} % select the background layer
+        \draw [dashed] (b) -- ++(0.5,0);
+        \draw (foo.center)
+            to [TL, bipoles/tline/width=2.5] ++(0,-4) coordinate(bar);
+    \end{pgfonlayer}
+    \draw [dashed] (bar) -- ++(0,-1);
+
+    \DARCmeasure{c1}{foo.west}{0,-1}{0}{$\qty{13,8}{\meter}$}
+    \DARCmeasure{c1}{c2}{0,1}{0}{$\qty{41,5}{\meter}$}
+
+    \begin{pgfonlayer}{bg} % select the background layer
+        \draw[very thick](c1) -- (c2);
+    \end{pgfonlayer}
+\end{circuitikz}

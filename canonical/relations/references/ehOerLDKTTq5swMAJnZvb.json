@@ -1,0 +1,67 @@
+[
+  {
+    "id": "VpylJgGRuUULzYsvrsUTq",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF601]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "ehOerLDKTTq5swMAJnZvb",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF601",
+    "target_object_type": "question"
+  },
+  {
+    "id": "XnvVcg4JGtrwhxymc1KW2",
+    "inline_alias": "e_digitale_signalverarbeitung_blockschaltbild",
+    "inline_label": "Prinzip der digitalen Signalverarbeitung",
+    "raw_marker": "[picture:911:e_digitale_signalverarbeitung_blockschaltbild:Prinzip der digitalen Signalverarbeitung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "ehOerLDKTTq5swMAJnZvb",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "911",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "Z4H6T2FHK1uBn8m5ftoS4",
+    "inline_alias": "e_digitale_signalverarbeitung",
+    "inline_label": "Einfache Darstellung einer Sinuswelle aus $\\num{16}$ Samples und $\\num{7}$ Werten",
+    "raw_marker": "[picture:411:e_digitale_signalverarbeitung:Einfache Darstellung einer Sinuswelle aus $\\num{16}$ Samples und $\\num{7}$ Werten]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_object_id": "ehOerLDKTTq5swMAJnZvb",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "411",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "ZZR1CQNl2MXWYPSPCl2OW",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF603]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "ehOerLDKTTq5swMAJnZvb",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF603",
+    "target_object_type": "question"
+  },
+  {
+    "id": "euyIb2DIknM39mNVms5nV",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF602]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "ehOerLDKTTq5swMAJnZvb",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF602",
+    "target_object_type": "question"
+  }
+]

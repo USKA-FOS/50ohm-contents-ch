@@ -1,0 +1,16 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \draw[-Triangle](0,0) -- (5.0,0.0) 
+        node[anchor=north east] () {$\frac{f}{\mathrm{kHz}}$};
+    \draw[-Triangle](0.0,0.0) -- (0.0,3.0)
+        node[anchor=north east] () {$U_\mathrm{A}$};
+    \draw(2.5,-0.40) node[] () {3{,}0};
+
+    \draw[rounded corners=3mm, thick, black]
+        (2.15,0) -- ++(0.3,2.5) 
+                 -- ++(2.5,0);
+
+    \draw [dashed] (2.5,0) -- ++(0,3);
+    
+\end{circuitikz}

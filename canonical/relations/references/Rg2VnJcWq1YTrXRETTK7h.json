@@ -1,0 +1,41 @@
+[
+  {
+    "id": "8oFw7wisNHtkbap1PirB7",
+    "inline_alias": "n_antennen_hausdach",
+    "inline_label": "Antennenanlage für KW, VHF und UHF auf einem Hausdach",
+    "raw_marker": "[photo:83:n_antennen_hausdach:Antennenanlage für KW, VHF und UHF auf einem Hausdach]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_object_id": "Rg2VnJcWq1YTrXRETTK7h",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "83",
+    "target_object_type": "photo"
+  },
+  {
+    "id": "dMGxiTzrIY23qYgEFrUqs",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VE707]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "Rg2VnJcWq1YTrXRETTK7h",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VE707",
+    "target_object_type": "question"
+  },
+  {
+    "id": "h9TJmhqtcjR27neNE6FMi",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VE602]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "Rg2VnJcWq1YTrXRETTK7h",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VE602",
+    "target_object_type": "question"
+  }
+]

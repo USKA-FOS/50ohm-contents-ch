@@ -1,0 +1,29 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{circuitikz}
+    \pgfdeclarelayer{bg} % declare background layer
+    \pgfsetlayers{bg,main}
+    \draw[double] (5.75,2.5) -- ++(0.5,0);
+    \draw[double] (5.75,3.0) -- ++(0.5,0);
+    \draw[double] (5.75,3.5) -- ++(0.5,0);
+    \draw[double] (5.75,4.0) -- ++(0.5,0);
+    \draw[double] (5.75,4.5) -- ++(0.5,0);
+
+    \draw [dashed] ( 0,5) -- ++( 0.5,0) coordinate(a);
+    \draw [dashed] (12,5) -- ++(-0.5,0) coordinate (b);
+    \draw (a) to [short,o-o] ++(0.5,0) coordinate(u1);
+    \begin{pgfonlayer}{bg}
+    \draw[very thick](u1)
+        to [short] ++(4.75,0) coordinate(c);
+    \end{pgfonlayer}
+    \draw(c)
+        to [open, *-*] ++(0.5,0) coordinate(d);
+    \draw[very thick](d)
+        to [short] ++(4.75,0) coordinate(u2);
+    \draw(u2)
+        to[short,o-o] (b);
+    \draw (c) to [short,-*] ++(0,-3);
+    \draw (d) to [short,-*] ++(0,-3);
+    \draw (6,5.5) node[]{$Z_1$};
+    \draw (6,1.5) node[]{$Z_2$};
+\end{circuitikz}

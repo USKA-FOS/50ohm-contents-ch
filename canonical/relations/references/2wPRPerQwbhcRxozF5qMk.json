@@ -1,0 +1,80 @@
+[
+  {
+    "id": "17iM77d9VKzSuK1XEYVX4",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AH217]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "2wPRPerQwbhcRxozF5qMk",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AH217",
+    "target_object_type": "question"
+  },
+  {
+    "id": "QSx3YMzMFi4cLgsNJInUu",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AH216]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "2wPRPerQwbhcRxozF5qMk",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AH216",
+    "target_object_type": "question"
+  },
+  {
+    "id": "hp68GCq77bdX4YqqcbYR8",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AH218]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_object_id": "2wPRPerQwbhcRxozF5qMk",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AH218",
+    "target_object_type": "question"
+  },
+  {
+    "id": "ojbgedBI7LQRUnVDlwBvK",
+    "inline_alias": "a_beam_karte_sydney",
+    "inline_label": "Beamkarte mit Sydney als Standort der Amateurfunkstation",
+    "raw_marker": "[picture:1001:a_beam_karte_sydney:Beamkarte mit Sydney als Standort der Amateurfunkstation]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_object_id": "2wPRPerQwbhcRxozF5qMk",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1001",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "pHRvu1497M6Q2tlChz7Cp",
+    "inline_alias": "a_langer_kurzer_weg",
+    "inline_label": "Langer und kurzer Weg auf einer Kugel",
+    "raw_marker": "[picture:867:a_langer_kurzer_weg:Langer und kurzer Weg auf einer Kugel]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "2wPRPerQwbhcRxozF5qMk",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "867",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "w4cnP7FWaFHCdpbZ5P0qZ",
+    "inline_alias": "a_beam_karte",
+    "inline_label": "Beamkarte mit Berlin als Standort der Amateurfunkstation",
+    "raw_marker": "[picture:1000:a_beam_karte:Beamkarte mit Berlin als Standort der Amateurfunkstation]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_object_id": "2wPRPerQwbhcRxozF5qMk",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1000",
+    "target_object_type": "drawing"
+  }
+]

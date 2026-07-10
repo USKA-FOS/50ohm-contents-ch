@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1GHQqT0CSBRW4wG7OGHT6",
+    "inline_alias": "e_senderausgangsleisung_2",
+    "inline_label": "Höchste Spitze der Modulationshüllkurve",
+    "raw_marker": "[picture:875:e_senderausgangsleisung_2:Höchste Spitze der Modulationshüllkurve]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_object_id": "w9Gyjl6c8uWLn1V5O6AfO",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "875",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "5zxrF34eAJUFimsKXJ6lE",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EJ209]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_object_id": "w9Gyjl6c8uWLn1V5O6AfO",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EJ209",
+    "target_object_type": "question"
+  },
+  {
+    "id": "FjVYAjXaUsKXpyzK3YkbK",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB502]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_object_id": "w9Gyjl6c8uWLn1V5O6AfO",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB502",
+    "target_object_type": "question"
+  },
+  {
+    "id": "k6hCtRZmSE0Br3OLBNEt6",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF401]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "w9Gyjl6c8uWLn1V5O6AfO",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF401",
+    "target_object_type": "question"
+  },
+  {
+    "id": "mtK2UEuoyvjDAYPxLphST",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB501]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "w9Gyjl6c8uWLn1V5O6AfO",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB501",
+    "target_object_type": "question"
+  },
+  {
+    "id": "q45lmwUwMJYBSvkP2Q7VF",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF402]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "w9Gyjl6c8uWLn1V5O6AfO",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF402",
+    "target_object_type": "question"
+  }
+]

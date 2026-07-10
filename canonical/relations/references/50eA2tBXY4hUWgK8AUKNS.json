@@ -1,0 +1,80 @@
+[
+  {
+    "id": "2o1RbkRVImZ8N7GGgXK0p",
+    "inline_alias": "nichtleiter",
+    "inline_label": "Einige nicht-leitende Materialien",
+    "raw_marker": "[table:nichtleiter:Einige nicht-leitende Materialien]",
+    "relation_type": "embeds_table",
+    "sort_order": 5,
+    "source_object_id": "50eA2tBXY4hUWgK8AUKNS",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "nichtleiter",
+    "target_object_type": "table_object"
+  },
+  {
+    "id": "87OZHbmROzzoj5LMlwvfr",
+    "inline_alias": "leiter",
+    "inline_label": "Einige leitende Materialien",
+    "raw_marker": "[table:leiter:Einige leitende Materialien]",
+    "relation_type": "embeds_table",
+    "sort_order": 1,
+    "source_object_id": "50eA2tBXY4hUWgK8AUKNS",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "leiter",
+    "target_object_type": "table_object"
+  },
+  {
+    "id": "Icvsq9g7JZj1w4I8sjRJs",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NB103]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "50eA2tBXY4hUWgK8AUKNS",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NB103",
+    "target_object_type": "question"
+  },
+  {
+    "id": "XX821q0uFOaTbprqJNnfx",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NB102]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "50eA2tBXY4hUWgK8AUKNS",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NB102",
+    "target_object_type": "question"
+  },
+  {
+    "id": "coi9phhar03bTMqu7p6VM",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NB101]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "50eA2tBXY4hUWgK8AUKNS",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NB101",
+    "target_object_type": "question"
+  },
+  {
+    "id": "r1CM0AEeJDDzqwDhnZ76j",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NB104]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_object_id": "50eA2tBXY4hUWgK8AUKNS",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NB104",
+    "target_object_type": "question"
+  }
+]

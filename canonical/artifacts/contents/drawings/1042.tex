@@ -1,0 +1,11 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{circuitikz}
+    \draw(0,0)
+        node [anchor=east](){$f=\qty{3.5}{\mega\hertz}$}
+        to [short, o-] ++(1.5,0)
+        node [twoportsplitshape,anchor=west,t1=f,t2={2\,f}](f1){};
+    \draw(f1.east)
+        to [short, -o] ++(1.5,0)
+        node [anchor=west](){$f=\qty{7.0}{\mega\hertz}$};
+\end{circuitikz}

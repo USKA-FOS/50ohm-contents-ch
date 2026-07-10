@@ -1,0 +1,54 @@
+[
+  {
+    "id": "21OT2p1T4mLxzEeulcwGo",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EH304]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "pJS9Ff81WKEdbtVwtLoox",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EH304",
+    "target_object_type": "question"
+  },
+  {
+    "id": "4RqFTCGoT3tBOCIxle9sy",
+    "inline_alias": "e_atmosphaeren_schichten",
+    "inline_label": "Für den Amateurfunk relevante Schichten in der Atmosphäre",
+    "raw_marker": "[picture:731:e_atmosphaeren_schichten:Für den Amateurfunk relevante Schichten in der Atmosphäre]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "pJS9Ff81WKEdbtVwtLoox",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "731",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "DgDrsQ98QvcaekC7KAQUI",
+    "inline_alias": "e_sporadic_e",
+    "inline_label": "Refraktion bei Sporadic-E",
+    "raw_marker": "[picture:733:e_sporadic_e:Refraktion bei Sporadic-E]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_object_id": "pJS9Ff81WKEdbtVwtLoox",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "733",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "GWttUqZKyeRNpg3JNnR5M",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EH218]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "pJS9Ff81WKEdbtVwtLoox",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EH218",
+    "target_object_type": "question"
+  }
+]

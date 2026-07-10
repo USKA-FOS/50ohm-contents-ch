@@ -1,0 +1,27 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{circuitikz}
+    \draw(0,0) coordinate(a1) node[ocirc]{} to [short,-*] ++(3,0) coordinate(n1)
+               to [american inductor, inductors/coils=8, inductors/width=1.75, name=L1] ++(0,-3) coordinate(tap)
+               to [american inductor, inductors/coils=8, inductors/width=1.75, name=L2] ++(0,-3)
+               to [short, -o] ++(3,0) coordinate(b);
+
+    \draw(n1) to [short, -o] ++(3,0) coordinate(a2);
+
+    \draw(tap) 
+        to [short,*-*] ++(-1.5,0) coordinate(n2)
+        to [short, -o] ++(-1.5,0) coordinate(m);
+
+    \draw(n2) node[ground]{};
+    \draw(a1) node[left]{a};
+    \draw(m)  node[left]{m};
+    \draw(a2) node[right]{a};
+    \draw(b)  node[right]{b};
+    \draw(L1.midtap) node[left]{8};
+    \draw(L2.midtap) node[left]{8};
+
+    \draw(a2) to [open, name=o] (b);
+    \draw(o.center) node[]{$Z_\mathrm{ant}=\qty{200}{\ohm}$};
+
+    \draw[dashed] (L1.core west) -- (L2.core east);
+\end{circuitikz}

@@ -1,0 +1,26 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \draw[-Triangle](0,0) -- (5.0,0.0) 
+        node[anchor=north east] () {$f$};
+    \draw[-Triangle](0.0,0.0) -- (0.0,3.0)
+        node[anchor=north east] () {$U$};
+
+    \draw[thick, black] (0,0) 
+         [rounded corners=5mm] -- ++(0.5,0)
+         [rounded corners=2mm] -- ++(1.25,2.5)
+         [rounded corners=0mm] 
+            sin ++(0.25, 0.25)
+            cos ++(0.25,-0.25)
+            sin ++(0.25,-0.25);
+
+    \draw[thick, black] (5,0) 
+         [rounded corners=5mm] -- ++(-0.5,0)
+         [rounded corners=2mm] -- ++(-1.25,2.5)
+         [rounded corners=0mm] 
+            sin ++(-0.25, 0.25)
+            cos ++(-0.25,-0.25)
+            sin ++(-0.25,-0.25);
+
+    \draw [dashed] (2.5,0) -- (2.5,3);
+\end{circuitikz}

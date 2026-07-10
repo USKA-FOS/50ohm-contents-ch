@@ -1,0 +1,9 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{circuitikz}
+	\useasboundingbox (-0.5,-0.5) rectangle (2.5,2.5);
+	\draw (0,0) to [battery2, invert] ++(0,2)
+		        to [short] ++(2,0)
+				to [R] ++(0,-2)
+				to [short, i<={~}] (0,0);
+\end{circuitikz}

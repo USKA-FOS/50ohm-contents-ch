@@ -1,0 +1,31 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{tikzpicture}
+    \pgfplotsset{every tick label/.append style={rotate=-90}}
+    \begin{axis}[%
+        axis lines=middle,
+        yticklabel=\empty,
+        xticklabel=\empty,
+        xmin=-0.5,
+        xmax=1,
+        ymin=-0.05,
+        ymax=0.1,
+        ytick={0},
+        xtick={0},
+        axis line style={-Triangle},
+        xticklabel style={/pgf/number format/.cd,fixed,precision=1,use comma,fixed,fixed zerofill},
+        xlabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel={$I_\mathrm{D}$},
+        xlabel={$U_\mathrm{D}$},
+        scale only axis,
+        height=5cm,
+        width=\linewidth*\getDarcImageFactor,
+    ]
+    % Nach Shockley Gleichung Tieze Schenk (3.2)
+    \draw (axis cs: 0.69,0.1) to [short] (axis cs: 0.65,0) node[rotate=0, anchor=north](){$U_\text{th}$};
+    \addplot[DARCred, no marks, domain=-0.5:0.75, samples=1000, ultra thick] {10e-12*(exp(x/0.030)-1)};
+    \draw[-Triangle] (axis cs: -0.25, 0.01) -- (axis cs: -0.25, 0.001);
+    \draw[-Triangle] (axis cs: -0.25,-0.01) node[rotate=0, anchor=north](){$-I_\text{S}$} -- (axis cs: -0.25,-0.001);
+    \end{axis}
+\end{tikzpicture}%

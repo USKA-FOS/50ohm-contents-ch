@@ -1,0 +1,92 @@
+% Author: 	Stephan Kregel, DG1HXJ
+%			Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{circuitikz}[european]
+    \ctikzset{
+        resistors/scale=\getDarcImageFactor,
+        capacitors/scale=\getDarcImageFactor,
+        inductors/scale=\getDarcImageFactor,
+        transistors/scale=\getDarcImageFactor,
+        diodes/scale=\getDarcImageFactor,
+        quadpoles/transformer core/inner=1,
+        quadpoles/transformer core/width=0.6,
+        quadpoles/transformer core/height=1.5,
+    }
+    \draw(0,0) coordinate(u0)
+        to [short, o-o] ++(12,0) coordinate(u12);
+    \draw(u0) 
+        to [open, straight voltages, v<={\rotatebox[origin=c]{90}{$U_\mathrm{BIAS}=\qty{12}{\volt}$}}] ++(0,7)
+        to [R, l={$R_1$}, o-*, a={\qty{330}{\ohm}}] ++(2,0) coordinate(m1)
+        to [stroke Zener diode, name={zd1}, invert, -*] (m1|-u0)
+        node [rground]{};
+    \draw (zd1.south west)
+        node[rotate=90, anchor=east](){$U_\mathrm{Z}$=\qty{6,2}{\volt}};
+    \draw(m1)
+        to [R, l={$R_2$}, a={\qty{270}{\ohm}}] ++(2,0)
+        to [short] ++(0,-1.5)
+        to [vR, l={$R_3$}, a={\rotatebox[origin=c]{90}{\qty{220}{\ohm}}}, name={r3},invert, mirror, tunable end arrow={Bar}] ++(0,-1.5) coordinate(c1)
+        to [R, a={\rotatebox[origin=c]{90}{$R_6$=\qty{150}{\ohm}}},-*] (c1|-u0);
+    \draw(r3.wiper)
+        to [short,-*] ++(1,0) coordinate(c2)
+        to [short] (c2|-c1) coordinate(c3)
+        to [R, a={\rotatebox[origin=c]{90}{$R_4$=\qty{6,8}{\kilo\ohm}}},-*] (c3|-u0);
+    \draw(c2)
+        to [short] ++(1.75,0) coordinate(c4)
+        to [C, a={\rotatebox[origin=c]{90}{$C_4=\qty{100}{\nano\farad}$}},-*] (c4|-u0);
+    \draw(c2)
+        to [R, l={$R_5$}, a={\rotatebox[origin=c]{90}{\qty{51}{\ohm}}}] ++(0,5)
+        to [short] ++(0,1) coordinate(c5)
+        to [open] ++(-2,0)
+        node[transformer core, american](T1){};
+    \draw(T1.west)
+        node[anchor=east](){$T_1$ (4:1)};
+    \draw(T1.A2)
+        node [rground]{};
+    \draw(T1.A1)
+        to [short, -o] (T1.A1-|u0)
+        node[anchor=south west](){$\mathrm{HF}_\mathrm{IN}$};
+    \draw(c5)
+        to [short, -*] (T1-L2.midtap);
+    \draw(T1.B1)
+        to [short] ++(2,0)
+        node[nigfete, solderdot, anchor=G](K1){$K_1$} ;
+    \draw(T1.B2)
+        to [short] ++(2,0)
+        node[nigfete, solderdot, yscale=-1, anchor=G](K2){\ctikzflipy{$K_2$}};
+    \draw(K1.S) to [short, name={h1}] (K2.S);
+    \draw(h1.center)
+        to [short, *-] ++(-0.5,0)
+        node[rground](){};
+    \draw(K1.D)
+        to [short] ++(2,0) coordinate(c6)
+        to [short] (c6|-T1.B1)
+        node [transformer core, american, anchor=A1](T2){};
+    \draw(T2.east)
+        node[anchor=west](){$T_2$ (1:9)};
+    \draw(T2.B2) node[rground](){};
+    \draw(T2.B1) 
+        to [short, -o] (T2.B1-|u12) coordinate(g12)
+        node [anchor=south east](){$\mathrm{HF}_\mathrm{OUT}$};
+    \draw(K2.D)
+        -| (T2.A2);
+    \draw(T2-L1.midtap)
+        to [short, *-] ++(-0.5,0) coordinate(c7)
+        to [short,] (c7|-m1) coordinate(c8)
+        to [C, a={\rotatebox[origin=c]{90}{$C_2=\qty{100}{\nano\farad}$}}] ++(0,-4)
+        to [short, -*] (c8|-u0);
+    \draw(c8)
+        to [american inductor, name={l1}, *-*] ++(2,0) coordinate(c9)
+        to [short,-o] (c8-|u12) coordinate(m12);
+    \draw(l1.north west)
+        node[anchor=south west] {\qty{100}{\micro\henry}};
+    \draw(c9)
+        to [short] (c9|- r3.wiper)
+        to [C, a={\rotatebox[origin=c]{90}{$C_3=\qty{470}{\nano\farad}$}}] (c9|-u0);
+    \draw[dashed](l1.core west) -- (l1.core east);
+    \draw(r3.south east) node[anchor=south east](){\scriptsize 1};    
+    \draw(r3.wiper)      node[anchor=north west](){\scriptsize 2};    
+    \draw(r3.north west) node[anchor=north west](){\scriptsize 3};    
+    \draw(u12)
+        ++(-0.5,0) coordinate(h2)
+        to [open, straight voltages, v<={\rotatebox[origin=c]{90}{$U_\mathrm{DD}=\qty{50}{\volt}$}}] (h2|-m12);
+\end{circuitikz}

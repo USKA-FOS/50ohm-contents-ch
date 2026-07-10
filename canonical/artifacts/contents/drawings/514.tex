@@ -1,0 +1,17 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2023
+\begin{circuitikz}
+    \tikzset{german switch/.style={
+		% Closed/Open:
+        %cute closed switch, 
+        cute open switch, 
+        bipoles/cuteswitch/thickness=0.2,
+        bipoles/cuteswitch/shape=circ,
+        bipoles/cuteswitch/width=0.75,
+    }}
+	\draw (0,0)
+		to [battery2] ++(0,-3)
+		to [german switch] ++(5,0) 
+		to [stroke led, invert, mirror] ++(0,3)
+        to [R] (0,0);
+\end{circuitikz}

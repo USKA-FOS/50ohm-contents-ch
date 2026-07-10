@@ -1,0 +1,16 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \draw(0,0) to [C, l=$C_{\mathrm{1}}$] ++(0,2.5) coordinate(c1)
+    to [short, -*] ++(2,0) coordinate(dx1)
+    to [short, -*] ++(2,0) coordinate(dx2)
+    to [short] ++(2,0) coordinate(c3)
+    to [C, l=$C_{\mathrm{3}}$] ++(0,-2.5)
+    to [short, -*] ++(-2,0) coordinate(dc1)
+    to [short, -*] ++(-2,0) coordinate(dc2)
+    to [short] ++(-2,0);
+    \draw(dx1) to [american inductor, mirror] (dc2);
+    \draw(dx2) to [C, l_=$C_{\mathrm{2}}$] (dc1);
+    \draw(dx1) to [short, -o] ++(0,1);
+    \draw(dc2) to [short, -o] ++(0,-1);
+\end{circuitikz}

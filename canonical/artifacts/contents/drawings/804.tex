@@ -1,0 +1,46 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{tikzpicture}
+    \pgfplotsset{every tick label/.append style={rotate=-90}}
+    \begin{axis}[%
+        axis lines=middle,
+        yticklabel=\empty,
+        xmin=0,
+        xmax=1.1,
+        ymin=0,
+        ymax=3.5,
+        xtick={0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0},
+        xticklabels={
+            \qty{0.1}{\volt},
+            \qty{0.2}{\volt},
+            \qty{0.3}{\volt},
+            \qty{0.4}{\volt},
+            \qty{0.5}{\volt},
+            \qty{0.6}{\volt},
+            \qty{0.7}{\volt},
+            \qty{0.8}{\volt},
+            \qty{0.9}{\volt},
+            \qty{1.0}{\volt}
+        },
+        ytick={0},
+        axis line style={-Triangle},
+        xticklabel style={/pgf/number format/.cd,fixed,precision=1,use comma,fixed,fixed zerofill},
+        xlabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel={$I$},
+        xlabel={$U$},
+        scale only axis,
+        height=3cm,
+        width=\linewidth*\getDarcImageFactor        
+    ]
+    \addplot [forget plot]
+        table[row sep=crcr]{%
+        0	3.67879441171442e-13\\
+    };
+    \draw[DARCblue, very thick] (0,0) to [short] (axis cs: 1.0,3.0);
+    \draw[DARCblue] (axis cs: 0.05,1.5) to [R] ++(axis cs:0.3,0);
+    \draw[DARCred, very thick] (0,0) to [short] ++(axis cs: 0.60,0) parabola ++(axis cs:0.13,3) to [open] ++(axis cs:0.05,-1.5) coordinate(e1);
+    \draw[DARCred] (e1) to [diode] ++(axis cs:0.3,0);
+ 
+    \end{axis}
+\end{tikzpicture}%

@@ -1,0 +1,42 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{tikzpicture}
+    \draw[-Triangle](0,0) -- ++(0,1.25) node[anchor=south] {$Q$};
+    \draw[-Triangle](0,0) -- ++(1.25,0) node[anchor=west]  {$I$};
+    \draw(0,0) -- ++(-1.25,0);
+    \draw(0,0) -- ++(0,-1.25);
+    %
+    \draw(-0.75,+0.75) node[anchor=center, circle, draw, fill=DARCblue](m0){};
+    \draw(-0.75,+0.25) node[anchor=center, circle, draw, fill=DARCblue](m1){};
+    \draw(-0.75,-0.25) node[anchor=center, circle, draw, fill=DARCblue](m2){};
+    \draw(-0.75,-0.75) node[anchor=center, circle, draw, fill=DARCblue](m3){};
+    \draw(-0.25,+0.75) node[anchor=center, circle, draw, fill=DARCblue](m4){};
+    \draw(-0.25,+0.25) node[anchor=center, circle, draw, fill=DARCblue](m5){};
+    \draw(-0.25,-0.25) node[anchor=center, circle, draw, fill=DARCblue](m6){};
+    \draw(-0.25,-0.75) node[anchor=center, circle, draw, fill=DARCblue](m7){};
+    \draw(+0.25,+0.75) node[anchor=center, circle, draw, fill=DARCblue](m8){};
+    \draw(+0.25,+0.25) node[anchor=center, circle, draw, fill=DARCblue](m9){};
+    \draw(+0.25,-0.25) node[anchor=center, circle, draw, fill=DARCblue](m10){};
+    \draw(+0.25,-0.75) node[anchor=center, circle, draw, fill=DARCblue](m11){};
+    \draw(+0.75,+0.75) node[anchor=center, circle, draw, fill=DARCblue](m12){};
+    \draw(+0.75,+0.25) node[anchor=center, circle, draw, fill=DARCblue](m13){};
+    \draw(+0.75,-0.25) node[anchor=center, circle, draw, fill=DARCblue](m14){};
+    \draw(+0.75,-0.75) node[anchor=center, circle, draw, fill=DARCblue](m15){};
+    %
+    \draw(m0.north)  node[anchor=south] {$0000$};
+    \draw(m1.north)  node[anchor=south] {$0001$};
+    \draw(m2.north)  node[anchor=south] {$0011$};
+    \draw(m3.north)  node[anchor=south] {$0010$};
+    \draw(m4.north)  node[anchor=south] {$0100$};
+    \draw(m5.north)  node[anchor=south] {$0101$};
+    \draw(m6.north)  node[anchor=south] {$0111$};
+    \draw(m7.north)  node[anchor=south] {$0110$};
+    \draw(m8.north)  node[anchor=south] {$1100$};
+    \draw(m9.north)  node[anchor=south] {$1101$};
+    \draw(m10.north) node[anchor=south] {$1111$};
+    \draw(m11.north) node[anchor=south] {$1110$};
+    \draw(m12.north) node[anchor=south] {$1000$};
+    \draw(m13.north) node[anchor=south] {$1001$};
+    \draw(m14.north) node[anchor=south] {$1011$};
+    \draw(m15.north) node[anchor=south] {$1010$};
+\end{tikzpicture}

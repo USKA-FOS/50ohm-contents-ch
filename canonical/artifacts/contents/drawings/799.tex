@@ -1,0 +1,17 @@
+% 2024 DL9MJ, Matthias
+\begin{circuitikz}
+    \draw(0,0) 
+        to [american inductor] ++(0,2)
+        to [short,-*] ++(1,0) node[antenna, DARCred](){}
+        to [short,-*] ++(1,0) coordinate(c2)
+        to [variable capacitor,invert, tunable end arrow={Triangle},-*] ++(0,-2) coordinate(c3)
+        to [short,-*] ++(-1,0)
+        node[ground](gnd){}
+        to [short] ++(-1,0);
+    \draw[DARCblue](c2)
+        to [stroke diode, DARCblue] ++(3,0) coordinate(foo);
+    \draw[DARCgreen](foo)
+        to [loudspeaker, DARCgreen, l={2,7 k$\Omega$}] ++(0,-2) coordinate(bar);
+    \draw(bar)
+        to [short] (c3);
+\end{circuitikz}

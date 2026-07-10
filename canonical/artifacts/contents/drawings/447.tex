@@ -1,0 +1,26 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{circuitikz}
+    \draw(0,8) node[ocirc]{} to [short,-*] ++(3,0) coordinate(n1)
+               to [american inductor, inductors/coils=16, inductors/width=4] ++(0,-6)
+               to [short, -o] ++(3,0);
+
+    \draw(n1) to [short, -o] ++(3,0);
+
+    \draw(0,5) node[ocirc]{}
+               to [short,-*] ++(1.5,0) coordinate(n2)
+               to [short,-*] ++(1.5,0);
+
+    \draw(n2) node[ground]{};
+
+    \draw(-0.25,5) node[]{M};
+    \draw( 0.00,6.5) node[]{$\qty{50}{\ohm}$};
+    \draw(-0.25,8) node[]{A};
+    \draw( 6.25,8) node[]{A};
+    \draw( 6.25,2) node[]{B};
+    \draw( 6.00,5) node[]{$Z_\text{ant}$};
+    \draw( 3.50,6.5) node[]{8};
+    \draw( 3.50,3.5) node[]{8};
+
+    \draw[dashed] (3.3,2.25) -- ++(0,5.5);
+\end{circuitikz}

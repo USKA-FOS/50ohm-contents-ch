@@ -1,0 +1,37 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{tikzpicture}
+    \pgfplotsset{
+        every axis plot/.append style={line width=0.8pt},
+    }
+    \begin{axis}[%
+        /pgf/number format/1000 sep={ },
+        /pgf/number format/use comma,        
+        axis lines=middle,
+        axis line style={-Triangle},
+        ytick={-1,0,1},
+        every major tick/.append style={thick, black},
+        yticklabels={-A,0,+A},
+        xtick={pi/2,pi,1.5*pi,2*pi,2.5*pi},
+        xticklabels={$\mathrm{X}_1$,$\mathrm{X}_2$,$\mathrm{X}_3$,$~~\mathrm{X}_4$,$\mathrm{X}_5$},
+        grid=major,
+        grid style={line width=.1pt, draw=gray!10},
+        major grid style={line width=.2pt,draw=gray!50},
+        xmin=0,
+        xmax=2.75*pi,
+        ymin=-1.5,
+        ymax=1.5,
+        xmajorgrids=false,
+        %tick label style={font=\footnotesize}
+        xlabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel style={at={(ticklabel* cs:1)},anchor=south east},
+        ylabel={$U$},
+        xlabel={$t$},
+        width=\linewidth*\getDarcImageFactor,
+        height=4cm,
+        scale only axis,
+    ]
+    \addplot[samples=500,domain=0:2.5*pi,smooth,black] {sin(deg(x))}; 
+    \draw (axis cs: 0,0) node[anchor=north west]{0};
+\end{axis}
+\end{tikzpicture}%

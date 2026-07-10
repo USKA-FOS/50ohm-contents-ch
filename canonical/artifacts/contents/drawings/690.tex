@@ -1,0 +1,31 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2025
+\begin{circuitikz}[background rectangle/.style={fill=white}, show background rectangle]
+    \draw(current page.center) node[
+        minimum width=\linewidth,
+        minimum height=\linewidth,
+        inner sep=0
+    ](img){\centering\includegraphics[height=\linewidth]{foto/7}};
+
+    %\draw(img.north west) rectangle (img.south east);
+    %\draw[red](img.63) |- (img.36);
+
+    \draw(img.130 |- img.15) to [stroke diode, invert, european,l={$D$}] (img.130 |- img.345);
+
+    % Pfeile:
+    \draw[Triangle-Triangle] (img.118 |- img.10) -- (img.118 |- img.350);
+    \draw(img.120 |- img.10) -- (img.116 |- img.10);
+    \draw(img.120 |- img.350) -- (img.116 |- img.350);
+    \draw(img.118 |- img.0) node [anchor=west] {\qty{1}{\centi\meter}};
+
+    % Text:
+    \draw(img.99 |- img.4)   node[anchor=west, rotate=90] {\small EGF1A};
+    \draw(img.99 |- img.353) node[anchor=east, rotate=90] {\small \qty{50}{\volt} / \qty{1}{\ampere}};
+    \draw(img.92 |- img.345) node[anchor=east, rotate=90] {\small \qty{100}{\volt} / \qty{200}{\milli\ampere}};
+    \draw(img.92 |- img.12)  node[anchor=west, rotate=90] {\small 1N4148};
+    \draw(img.83 |- img.12)  node[anchor=west, rotate=90] {\small 1N4007};
+    \draw(img.83 |- img.343) node[anchor=east, rotate=90] {\small \qty{1000}{\volt} / \qty{1}{\ampere}};
+    \draw(img.62 |- img.326) node[anchor=north] {\small \qty{45}{\volt} / \qty{30}{\ampere}};
+    \draw(img.62 |- img.38)  node[anchor=south] {\small MBR3045PT};
+
+\end{circuitikz}

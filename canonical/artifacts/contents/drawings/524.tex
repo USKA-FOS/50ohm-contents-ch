@@ -1,0 +1,32 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{circuitikz}%[every block/.style={scale=.1}]
+    \ctikzset{
+        blocks/scale=\getDarcImageFactor,
+        RF/scale=\getDarcImageFactor,
+        misc/scale=\getDarcImageFactor
+    }
+    \draw (0,0)
+        node[tlmicshape, anchor=south, rotate=90](mic){};
+    \draw(mic.south)
+        to [short] ++(0.5,0)
+        node [ampshape,boxed,anchor=west](amp){};
+    \draw(amp.east)
+        to [short] ++(0.5,0)
+        node [mixer, boxed, anchor=west](mix){};
+    \draw(mix.east) 
+        to [short] ++(0.5,0)
+        node [bandpassshape, anchor=west](bandpass){}; 
+    \draw(bandpass.east) 
+        to [short] ++(0.5,0)
+        node [ampshape, boxed, anchor=west](amp2){}; 
+    \draw(amp2.east) 
+        to [short] ++(0.5,0)
+        node [lowpassshape, anchor=west](lowpass){};
+    \draw(lowpass.east)
+        to [short] ++(0.5,0)
+        node[antenna](){};
+    \draw(mix.south)
+        to [short] ++(0,-0.5)
+        node [bgeneratorshape, box, anchor=north, t={G}](generator){};
+\end{circuitikz}

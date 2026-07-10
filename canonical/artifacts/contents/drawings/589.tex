@@ -1,0 +1,10 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{circuitikz}
+    % Antenne:
+    \draw[very thick] (2.55,0) coordinate(start) to [short,-*] ++( 2,0);
+    \draw[very thick] (7.05,0) coordinate(end)   to [short,-*] ++(-2,0);
+
+    % Bemaßung:
+    \DARCmeasure{start}{end}{0,0.5}{0}{$\frac{\lambda}{2}$}
+\end{circuitikz}

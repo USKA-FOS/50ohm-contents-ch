@@ -1,0 +1,1 @@
+Unsere Ausbildungspaten sind erfahrene Funkamateure, die dich gerne unterstützen. Sie können mit dir auch praktischen Funkbetrieb üben.

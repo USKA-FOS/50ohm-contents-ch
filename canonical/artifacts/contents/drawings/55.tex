@@ -1,0 +1,9 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}[step=\getDarcImageFactor cm]
+    \tikzstyle{help lines}=[black];
+    \draw[style=help lines] (0,-3) grid (7,3);
+    \draw[ultra thick, black] (0,0) sin (1,2) cos (2,0) sin (3,-2) cos (4,0) sin (5,2) cos (6,0) sin (7,-2);
+    \node[anchor=north east]            at (7,-3) {\qty{0,03}{\micro\second}/Div.};
+    \node[anchor=south east, rotate=90] at (0,+3) {\qty{10}{\milli\volt}/Div.};
+\end{circuitikz}

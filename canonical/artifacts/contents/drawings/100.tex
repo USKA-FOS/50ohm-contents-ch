@@ -1,0 +1,47 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \pgfdeclarelayer{fg} % declare background layer
+    \pgfsetlayers{main,fg}
+    \draw (0,0)
+        node [allpassshape, anchor=west](all){};
+    \draw (all.east)
+        to [short, name={l1}] ++(1,0) node[inputarrow](){}
+        node [twoportsplitshape,anchor=west,t1=f,t2={2\,f}](f1){};
+    \draw(f1.east)
+        to [short, name={l2}] ++(1,0) node[inputarrow](){}
+        node [twoportsplitshape,t1=f,t2={2\,f},anchor=west](f2){};
+    \draw(f2.east)
+        to [short, name={l3}] ++(1,0) node[inputarrow](){}
+        node [twoportsplitshape,t1=f,t2={2\,f},anchor=west](f3){};
+    \draw(f3.east)
+        to [short, -o] ++(0.5,0) coordinate(e0);
+    \begin{pgfonlayer}{fg}
+        \draw(e0)
+            to [open,-o] ++(0,-0.75) coordinate(e1) node[anchor=west](){a} 
+            to [open,-o] ++(0,-0.75) coordinate(e2) node[anchor=west](){}  
+            to [open,-o] ++(0,-0.75) coordinate(e3) node[anchor=west](){}  
+            to [open,-o] ++(0,-0.75) coordinate(e4) node[anchor=west](){};
+    \end{pgfonlayer}
+
+    %Help connector:
+    \draw(l3.center) to [open] ++(-0.15,0) coordinate(l3l);
+    \draw(l3.center) to [open] ++(+0.15,0) coordinate(l3r);
+
+    \draw(l2.center)
+        to [short, *-] ++(0,2) coordinate(l22);
+    \draw(l3r.center)
+        to [short] ++(0,2) coordinate(l33)
+        |- (e1);
+    \draw(l22)
+        to [twoportsplit,t1=f,t2={3\,f},>] (l33);
+    \draw(l3l)
+        to [short, *-] ++(0,0)
+        |- (e2);
+    \draw(l2.center)
+        |- (e3);
+    \draw(l1.center)
+        to [short, *-] ++(0,0)
+        |- (e4);
+    \draw(all.south) node[anchor=north](){VFO};
+\end{circuitikz}

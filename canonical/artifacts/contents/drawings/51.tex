@@ -1,0 +1,59 @@
+% Author: Malte, DE7LMS
+% Year: 2021
+% E_TB505 vertical yagi on tower
+
+\begin{tikzpicture}[
+    x={(1cm*\getDarcImageFactor,0cm*\getDarcImageFactor)},
+    y={(.5cm*\getDarcImageFactor,.5cm*\getDarcImageFactor)},
+    z={(0cm*\getDarcImageFactor,1cm*\getDarcImageFactor)},
+    line join=round,
+    line cap=round,
+    line width=1pt,
+    thicker/.style={line width=2pt},
+    blob thick/.style={line width=4pt}
+  ]
+
+  \def\lda{15}
+  \def\topz{15}
+  \def\towerscale{0.4}
+
+  \begin{scope}[scale=\towerscale]
+    \draw
+      (0,0,2/\towerscale) -- (0,0,10/\towerscale) -- (1,1,11/\towerscale)
+      (0,2,2/\towerscale) -- (0,2,10/\towerscale) -- (1,1,11/\towerscale)
+      (2,2,2/\towerscale) -- (2,2,10/\towerscale) -- (1,1,11/\towerscale)
+      (2,0,2/\towerscale) -- (2,0,10/\towerscale) -- (1,1,11/\towerscale)
+      ;
+    \draw[thicker]
+      (1,1,10/\towerscale) -- (1,1,\topz/\towerscale)
+      ;
+    \draw
+      (0,0,10/\towerscale) -- (2,2,10/\towerscale)
+      (2,0,10/\towerscale) -- (0,2,10/\towerscale)
+      ;
+    \foreach \z in {2,4,6,8,10}
+      \draw
+        (0,0,\z/\towerscale) -- (2,0,\z/\towerscale) -- (2,2,\z/\towerscale) -- (0,2,\z/\towerscale) -- cycle;
+    \foreach \z in {2,4,6,8}
+      \draw
+        (0,0,\z/\towerscale) -- (2,0,\z/\towerscale+2/\towerscale)
+        (2,0,\z/\towerscale) -- (2,2,\z/\towerscale+2/\towerscale)
+        (2,2,\z/\towerscale) -- (0,2,\z/\towerscale+2/\towerscale)
+        (0,2,\z/\towerscale) -- (0,0,\z/\towerscale+2/\towerscale)
+        ;
+  \end{scope}
+
+  \begin{scope}[shift={(1*\towerscale+.315*\lda,1*\towerscale,\topz)},scale=\lda]
+    \draw[thicker]
+      (0,0,0) -- (-.7,0,0);
+    \draw[rounded corners=1.6mm*\getDarcImageFactor]
+      (0,0,-.25) -- (0,0,.25) % R
+      (-.38,0,-.21) -- (-.38,0,.21) % D1
+      (-.51,0,-.20) -- (-.51,0,.20) % D2
+      (-.7,0,-.19) -- (-.7,0,.19) % D3
+      (-.25,.03,-.22) -- (-.25,0,-.22) -- (-.25,0,.22) -- (-.25,.03,.22) -- cycle % A
+    ;
+    \draw[blob thick]
+      (-.25-.01,0,0) -- (-.25+.01,0,0);
+  \end{scope}
+\end{tikzpicture}

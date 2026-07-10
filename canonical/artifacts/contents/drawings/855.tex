@@ -1,0 +1,36 @@
+%2024 de DL9MJ
+\begin{tikzpicture}
+    \pgfdeclarelayer{bg}    % declare background layer
+    \pgfsetlayers{bg,main}  % set the order of the layers (main is the standard layer)
+    \draw(-2, 2) node[semi](si3){Si}; \draw( 0, 2) node[semi](si6){Si}; \draw( 2, 2) node[semi](si9){Si}; 
+    \draw(-2, 0) node[semi](si2){Si}; \draw( 0, 0) node[donn](si5){\textbf{P}};  \draw( 2, 0) node[semi](si8){Si}; 
+    \draw(-2,-2) node[semi](si1){Si}; \draw( 0,-2) node[semi](si4){Si}; \draw( 2,-2) node[semi](si7){Si}; 
+
+    \begin{pgfonlayer}{bg}
+        \draw[gray, ultra thick, dotted] (si1.south) -- ++(0,-0.5);
+        \draw[gray, ultra thick, dotted] (si1.west)  -- ++(-0.5,0);
+        \draw[gray, ultra thick, dotted] (si9.north) -- ++(0,+0.5);
+        \draw[gray, ultra thick, dotted] (si9.east)  -- ++(+0.5,0);
+        \draw[gray, ultra thick, dotted] (si3.north) -- ++(0,+0.5);
+        \draw[gray, ultra thick, dotted] (si3.west)  -- ++(-0.5,0);
+        \draw[gray, ultra thick, dotted] (si7.south) -- ++(0,-0.5);
+        \draw[gray, ultra thick, dotted] (si7.east)  -- ++(+0.5,0);
+        \draw[gray, ultra thick, dotted] (si6.north) -- ++(0,+0.5);
+        \draw[gray, ultra thick, dotted] (si4.south) -- ++(0,-0.5);
+        \draw[gray, ultra thick, dotted] (si2.west)  -- ++(-0.5,0);
+        \draw[gray, ultra thick, dotted] (si8.east)  -- ++(+0.5,0);
+        %
+        \draw[gray, ultra thick, dotted] (si3.south) -- (si2.north);
+        \draw[gray, ultra thick, dotted] (si6.south) -- (si5.north);
+        \draw[gray, ultra thick, dotted] (si9.south) -- (si8.north);
+        \draw[gray, ultra thick, dotted] (si2.south) -- (si1.north);
+        \draw[gray, ultra thick, dotted] (si5.south) -- (si4.north);
+        \draw[gray, ultra thick, dotted] (si8.south) -- (si7.north);
+        \draw[gray, ultra thick, dotted] (si3.east)  -- (si6.west);
+        \draw[gray, ultra thick, dotted] (si2.east)  -- (si5.west);
+        \draw[gray, ultra thick, dotted] (si1.east)  -- (si4.west);
+        \draw[gray, ultra thick, dotted] (si6.east)  -- (si9.west);
+        \draw[gray, ultra thick, dotted] (si5.east)  -- (si8.west);
+        \draw[gray, ultra thick, dotted] (si4.east)  -- (si7.west);
+    \end{pgfonlayer}
+\end{tikzpicture}

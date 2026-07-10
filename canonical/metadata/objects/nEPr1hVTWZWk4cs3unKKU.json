@@ -1,0 +1,75 @@
+{
+  "id": "nEPr1hVTWZWk4cs3unKKU",
+  "identifiers": [
+    {
+      "id": "fECHFBLJSZz4gf6hfaKWY",
+      "id_system": "question_code",
+      "id_value": "EC403",
+      "object_id": "nEPr1hVTWZWk4cs3unKKU",
+      "preferred": 1
+    }
+  ],
+  "metadata": [
+    {
+      "id": "04yUlzo6nlVnsInvMnbG1",
+      "metadata_key": "directus_id",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "nEPr1hVTWZWk4cs3unKKU",
+      "value_json": "\"98\""
+    },
+    {
+      "id": "0j3wx0CVsXUrunF0Ysxu9",
+      "metadata_key": "layout",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "nEPr1hVTWZWk4cs3unKKU",
+      "value_json": "\"\""
+    },
+    {
+      "id": "2Pg0cALB9i440jMLR8gB4",
+      "metadata_key": "picture_c",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "nEPr1hVTWZWk4cs3unKKU",
+      "value_json": "\"\""
+    },
+    {
+      "id": "39vhGyyOIqQ93D30uGNO0",
+      "metadata_key": "picture_a",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "nEPr1hVTWZWk4cs3unKKU",
+      "value_json": "\"\""
+    },
+    {
+      "id": "Mn99Cq2477t8Dly1lGKxX",
+      "metadata_key": "class",
+      "metadata_scope": "question",
+      "object_id": "nEPr1hVTWZWk4cs3unKKU",
+      "value_json": "\"2\""
+    },
+    {
+      "id": "SvcsbhvaBqGyYd7n33nry",
+      "metadata_key": "picture_b",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "nEPr1hVTWZWk4cs3unKKU",
+      "value_json": "\"\""
+    },
+    {
+      "id": "hyKmLbmpnBIDAUvVvq8dX",
+      "metadata_key": "picture_question",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "nEPr1hVTWZWk4cs3unKKU",
+      "value_json": "\"\""
+    },
+    {
+      "id": "zDhbqqzz5D3xtjxgETyfY",
+      "metadata_key": "picture_d",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "nEPr1hVTWZWk4cs3unKKU",
+      "value_json": "\"\""
+    }
+  ],
+  "source": {
+    "format": "json",
+    "key": "EC403",
+    "path": "contents/questions/fragenkatalog3b.json"
+  }
+}

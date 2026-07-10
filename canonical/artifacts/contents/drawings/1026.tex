@@ -1,0 +1,16 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{circuitikz}
+    \draw(0,-0.25)
+        node [](){\textbf{a.}};
+    \draw(3,-0.25)
+        node [](){\textbf{b.}};
+    \draw(0,0) 
+        to [C, l=$C$, o-] ++(0,1) 
+        to [american inductor, l=$L$, -o] ++(0,1)
+        to [open]++(2,0)
+        to [short] ++(2,0)
+        to [american inductor, l=$L$] ++(0,-2)
+        to [short, name={h1}] ++(-2,0)
+        to [C, l=$C$] ++(0,2);
+\end{circuitikz}

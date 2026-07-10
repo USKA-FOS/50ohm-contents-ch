@@ -1,0 +1,14 @@
+% DL9MJ, Matthias Jung, 2024
+% Parabolspiegel
+\begin{tikzpicture}[use optics]
+    \node[spherical mirror, spherical mirror angle=180, spherical mirror orientation=rtl] (M) at (0,0) {};
+    \node[bareantenna, scale=0.25, anchor=left] (ant) at (M.focus) {};
+    \draw (ant) -- (ant|-M.200) coordinate(h) -- (h-|M.280) coordinate (h) -- (h|-M.280) coordinate(trx);
+    \node[trxshape, scale=0.5, anchor=150] at (trx) {};
+    \draw[DARCred] (M.focus) -- (M.170) -- (M.170-|M.0);
+    \draw[DARCred] (M.focus) -- (M.190) -- (M.190-|M.0);
+    \draw[DARCred] (M.focus) -- (M.150) -- (M.150-|M.0);
+    \draw[DARCred] (M.focus) -- (M.210) -- (M.210-|M.0);
+    \draw[DARCred] (M.focus) -- (M.130) -- (M.130-|M.0);
+    \draw[DARCred] (M.focus) -- (M.230) -- (M.230-|M.0);
+\end{tikzpicture}

@@ -1,0 +1,33 @@
+{
+  "id": "TbkWP44tRWYD7xkKybrip",
+  "identifiers": [
+    {
+      "id": "88QUcV5PlnwXNW5Iw4mmF",
+      "id_system": "photo_id",
+      "id_value": "331",
+      "object_id": "TbkWP44tRWYD7xkKybrip",
+      "preferred": 1
+    },
+    {
+      "id": "kEkyFBNJBnO8ebYkXxPzL",
+      "id_system": "file_stem",
+      "id_value": "331",
+      "object_id": "TbkWP44tRWYD7xkKybrip",
+      "preferred": 0
+    }
+  ],
+  "metadata": [
+    {
+      "id": "ijwTqOtdGPz4oRuXDNX7R",
+      "metadata_key": "image_path",
+      "metadata_scope": "asset",
+      "object_id": "TbkWP44tRWYD7xkKybrip",
+      "value_json": "\"contents/photos/331.png\""
+    }
+  ],
+  "source": {
+    "format": "grouped_asset",
+    "key": "331",
+    "path": "translator/50ohm-contents-ch/contents/photos/331"
+  }
+}

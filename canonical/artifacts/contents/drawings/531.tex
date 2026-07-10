@@ -1,0 +1,14 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{tikzpicture}
+  \draw [very thick] (0,4) -- ++(5,0) ++(0.5,0) node[](){1};
+  \draw [very thick] (2.25,1.5)
+    to [short,o-] ++(-1.5,0)
+    arc(90:-90:-0.15) coordinate(c1);
+  \draw [very thick] (2.75,1.5)
+    to [short,o-] ++(+1.5,0)
+    arc(-90:90:0.15) coordinate(c2);
+  \draw [very thick](c1) -- (c2);
+  \draw (c2) ++ (0.5,-0.15) node[](){2};
+  \draw [very thick] (0.75,0) -- ++(3.5,0) ++(0.5,0) node[](){3};
+\end{tikzpicture}

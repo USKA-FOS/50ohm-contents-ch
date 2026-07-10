@@ -1,0 +1,14 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \draw(0,0) to [short,o-] ++(1,0) coordinate(dx1)
+               to [american inductor, name={l1}] ++(4,0) coordinate(dx2)
+               to [short,-o] ++(1,0);
+    \draw(0,4) to [short,o-] ++(1,0) coordinate(dc1)
+               to [american inductor, name={l2}] ++(4,0) coordinate(dc2)
+               to [short,-o] ++(1,0);
+    \draw(dx1) to [C,*-*] (dc1);
+    \draw(dx2) to [C,*-*] (dc2);
+    \draw[densely dashed] (l1.core west) -- (l1.core east);
+    \draw[densely dashed] (l2.core west) -- (l2.core east);
+\end{circuitikz}

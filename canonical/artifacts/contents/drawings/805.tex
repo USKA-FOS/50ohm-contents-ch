@@ -1,0 +1,55 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{circuitikz}[european, straight voltages]
+    \ctikzset{
+        quadpoles/transformer core/inner=1,
+        quadpoles/transformer core/width=0.6,
+        quadpoles/transformer core/height=2.0,
+        transformer L1/.style={inductors/width=1.5, inductors/coils=6},
+        transformer L2/.style={inductors/width=1.5, inductors/coils=6},
+    }
+    % T1:
+    \draw(0,0) node [transformer core, american](T1){T1};
+    \draw(T1.A1)
+        to [short,-o] ++(-0.5,0) coordinate(h)
+        to [open, v=$U_1$] (h|-T1.A2)
+        to [short,o-] (T1.A2);
+    % Help Coordinates:
+    \draw(T1.B1)
+        to [short,-*] ++(1.5,0) coordinate(north);
+    \draw(T1.B2)
+        to [short,-*] ++(1.5,0) coordinate(south);
+    \draw(north)
+        to [open, name={center}] (south);
+    \draw(center.center)
+        to [open] ++(-1,0) coordinate(west);
+    \draw(center.center)
+        to [open] ++(+1,0) coordinate(east);
+    % Diodes:
+    \draw(north) to [stroke diode, invert, -*] (west);
+    \draw(north) to [stroke diode, -*] (east);
+    \draw(south) to [stroke diode, -*] (west);
+    \draw(south) to [stroke diode, invert, -*] (east);
+    % T2:
+    \draw(east)
+        to [short] (east|-T1.B2)
+        to [short] ++(0.5,0)
+        node [transformer core, american, anchor=A2](T2){T2};
+    \draw(T2.B1)
+        to [short,-o] ++(+0.5,0) coordinate(h)
+        to [open, v=$U_3$] (h|-T2.B2)
+        to [short,o-] (T2.B2);
+    \draw(T2.A1)
+        to [short] ++(0,0.5) coordinate(h)
+        to [short] (h-|west)
+        to [short] (west);
+    % Gen:
+    \draw(T1-L2.midtap)
+        to [short, *-] ++(+0.25,0)
+        to [short] ++(0,-1.5) coordinate(start);
+    \draw(T2-L1.midtap)
+        to [short, *-] ++(-0.25,0)
+        to [short] ++(0,-1.5) coordinate(end);
+    \draw(start)
+        to [allpass, v={$U_2$}] (end);
+\end{circuitikz}

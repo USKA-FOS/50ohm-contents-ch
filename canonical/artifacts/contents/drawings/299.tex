@@ -1,0 +1,34 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Author: Björn Swierczek, DL1PZ
+% Year: 2020, 2021
+\begin{tikzpicture}
+    \begin{axis}[%
+        /pgf/number format/1000 sep={ },
+        /pgf/number format/use comma,        
+        axis lines=middle,
+        axis line style={-Triangle},
+        ytick={-2,-1,0,1,2},
+        every major tick/.append style={thick, black},
+        yticklabels={-2~V,-1~V,0,1~V,2~V},
+        grid=major,
+        grid style={line width=.1pt, draw=gray!10},
+        major grid style={line width=.2pt,draw=gray!50},
+        xticklabel=\empty,
+        xtick style={draw=none},
+        xmin=0,
+        xmax=4.2*pi,
+        ymin=-2.4,
+        ymax=2.7,
+        xmajorgrids=false,
+        xlabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel={$U_\mathrm{A}$},
+        xlabel={$t$},
+        width=\linewidth*\getDarcImageFactor,
+        height=4cm,
+        ymax=3.0,
+        scale only axis,
+    ]
+    \addplot[samples=500,domain=0:4.0*pi,smooth,black] {sin(deg(x)) * 2}; 
+\end{axis}
+\end{tikzpicture}%

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "HEegDdp4XA8uqRhoS7D6u",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NH101]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "izQYAJLlbk3YghFs3Y9Xf",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NH101",
+    "target_object_type": "question"
+  },
+  {
+    "id": "NPrf7PZfHiGQifVQvAx2g",
+    "inline_alias": "n_ionosphaere_sonnenflecken",
+    "inline_label": "Die Anzahl der Sonnenflecken, die über den elfjährige Sonnenzyklus schwankt",
+    "raw_marker": "[picture:729:n_ionosphaere_sonnenflecken:Die Anzahl der Sonnenflecken, die über den elfjährige Sonnenzyklus schwankt]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_object_id": "izQYAJLlbk3YghFs3Y9Xf",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "729",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "RHFtKB67JzKlQgVMv6beI",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NH201]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "izQYAJLlbk3YghFs3Y9Xf",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NH201",
+    "target_object_type": "question"
+  },
+  {
+    "id": "Recqrfbu3TOHAYEoKo29G",
+    "inline_alias": "n_ionosphaere",
+    "inline_label": "Brechung an der Ionosphäre",
+    "raw_marker": "[picture:732:n_ionosphaere:Brechung an der Ionosphäre]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "izQYAJLlbk3YghFs3Y9Xf",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "732",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "SPlVNEjBD0GTLQqY62gY7",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE106]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_object_id": "izQYAJLlbk3YghFs3Y9Xf",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE106",
+    "target_object_type": "question"
+  },
+  {
+    "id": "mZaoqqFfBZTU5eWGcKwpr",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NH102]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "izQYAJLlbk3YghFs3Y9Xf",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NH102",
+    "target_object_type": "question"
+  },
+  {
+    "id": "slqycXoKgo7rzZreyMk6G",
+    "inline_alias": "n_ionosphaere_tote_zone",
+    "inline_label": "Die Tote Zone, die für die Bodenwelle zu nah und für die Raumwelle zu weit weg ist.",
+    "raw_marker": "[picture:741:n_ionosphaere_tote_zone:Die Tote Zone, die für die Bodenwelle zu nah und für die Raumwelle zu weit weg ist.]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 6,
+    "source_object_id": "izQYAJLlbk3YghFs3Y9Xf",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "741",
+    "target_object_type": "drawing"
+  }
+]

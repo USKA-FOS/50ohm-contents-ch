@@ -1,0 +1,54 @@
+[
+  {
+    "id": "VNPHcQYTIDWRdiHRyiZE9",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EK210]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "XP6hfa0ZcweFS0HsXOMuE",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EK210",
+    "target_object_type": "question"
+  },
+  {
+    "id": "Vjxf6p2hEf5D4XlEYOa3D",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EK209]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "XP6hfa0ZcweFS0HsXOMuE",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EK209",
+    "target_object_type": "question"
+  },
+  {
+    "id": "htuhHlBC6BT8hSgrWunn1",
+    "inline_alias": "",
+    "inline_label": "Durch Überspannung völlig zerstörter Kondensator in einem Netzteil. Ursache war ein Blitzeinschlag in der Nähe der Station. Hier kam die Überspannung über das Stromnetz.",
+    "raw_marker": "[photo:191::Durch Überspannung völlig zerstörter Kondensator in einem Netzteil. Ursache war ein Blitzeinschlag in der Nähe der Station. Hier kam die Überspannung über das Stromnetz.]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_object_id": "XP6hfa0ZcweFS0HsXOMuE",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "191",
+    "target_object_type": "photo"
+  },
+  {
+    "id": "jStKs8D8CnL8co2yvCS18",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EK211]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "XP6hfa0ZcweFS0HsXOMuE",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EK211",
+    "target_object_type": "question"
+  }
+]

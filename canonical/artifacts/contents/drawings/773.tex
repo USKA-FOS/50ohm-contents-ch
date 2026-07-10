@@ -1,0 +1,44 @@
+% Author: Stephan Kregel, DG1HXJ
+% Year: 2022
+\begin{circuitikz}
+    \tikzset{tdax/.style={muxdemux,muxdemux def={NL=1, Lh=6, w=6, NR=1, Rh=0, NB=1, NT=1}, scale=\getDarcImageFactor}}
+    \ctikzset{
+        resistors/scale=\getDarcImageFactor,
+        capacitors/scale=\getDarcImageFactor,
+        inductors/scale=\getDarcImageFactor,
+        RF/scale=\getDarcImageFactor,
+        switches/scale=\getDarcImageFactor,
+        misc/scale=\getDarcImageFactor
+    }
+    \draw (0,0) node[tdax](A){$\text{MMIC}$};
+    \draw (-4,0) coordinate(rfin)
+        to [C=$C_{1}$, o-] (A.lpin 1);
+    \draw (A.rpin 1)
+        -- ++(1,0) coordinate(rbias-a) 
+        to [C=$C_{3}$, -o] ++(3,0)
+        coordinate(rfout);
+    \draw (rbias-a)
+        to [R=$R_\text{BIAS}$, *-*] ++(0,3) coordinate(rbias-b);
+    \draw (rbias-b)
+        to [C, l_=$C_{2}$, -*] (rbias-b-|A.tpin 1) coordinate(c0)
+        to [short] ++(-1,0)
+        to node[rground]{} ++(0,0);
+    \draw (A.tpin 1) -- (c0);
+    \draw (rbias-b)
+        to [american inductor, name={l1}, *-o] ++(3,0)
+        coordinate (vcc);
+    \draw [dashed] (l1.core west) -- (l1.core east);
+    \draw (rfin)  node[rotate={90}, anchor=north east]{$\text{RF}_\text{IN}$};
+    \draw (rfout) node[rotate={90}, anchor=south east]{$\text{RF}_\text{OUT}$};
+    \draw (vcc)   node[rotate={90}, anchor=south east]{$U_\text{CC}$}++(0,0);
+    \draw (A.lpin 1) node[anchor=north]{1};
+    \draw (A.bpin 1) node[anchor=west ]{2};
+    \draw (A.tpin 1) node[anchor=west ]{4};
+    \draw (A.rpin 1) node[anchor=north]{3};
+    \draw (rbias-a)
+        to [open,-*, v={\rotatebox[origin=c]{90}{$U_\text{D}$~=~\qty{4}{\V}}}] ++(0,-3) coordinate(u0)
+        node[rground]{};
+    \draw (A.bpin 1)
+        to [short] (A.bpin 1|-u0)
+        node[rground]{};
+\end{circuitikz}

@@ -1,0 +1,11 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}[american]
+    \draw (0, 1) node [ocirc](I1){};
+    \draw (0,-1) node [ocirc](I2){};
+    \draw (I1) to [european resistor, l={$R_1$}] ++(3,0) coordinate(C1);
+    \draw (C1) to [short] ++(1,0)
+               to [european resistor, l={$R_3$}] ++ (0,-2)
+               to [short] (I2);
+    \draw(C1) to [european resistor, l_={$R_2$}, *-*] ++(0,-2);
+\end{circuitikz}

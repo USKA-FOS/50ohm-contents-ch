@@ -1,0 +1,35 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{circuitikz}
+    \draw[DARCblue](0,0)
+        to [american inductor, color=DARCblue, DARCblue, o-] ++(1,0) 
+        to [C, color=DARCblue, DARCblue, -*] ++(1,0) coordinate(s1);
+    \draw(s1)
+        to [european resistor, *-] ++(0,-2) coordinate(s2);
+    \draw(s2)
+        to [short, -o] ++(-2,0) coordinate(s3);
+    \draw(s1) to [short, *-o] ++(2,0) coordinate(s4);
+    \draw(s2) to [short, *-o] ++(2,0) coordinate(s5);
+    %
+    \draw[DARCred, -Triangle](s2) to [open] ++(0.5,0.5) coordinate(s6) -- ++(0,1) node[above]{$U_A$};
+    \draw[DARCred, -Triangle](s6) -- ++(1,0) node[right]{$f$};
+    %
+    \begin{scope}[shift={($(0,0)+(s6)$)}]
+        \draw[very thick, DARCred]
+            %(0.10,0.90) .. controls (0.5,0.0) and (0.5,0.0) .. (0.90,0.90)
+            (0.10,0.10) .. controls (0.4,0.1) and (0.3,0.9) .. (0.50,0.90)
+            (0.50,0.90) .. controls (0.7,0.9) and (0.6,0.1) .. (0.90,0.10)
+        coordinate[pos=0.5] (min);
+    \end{scope}
+    %
+    \draw[DARCblue, -Triangle](s3) to [open] ++(0.5,0.5) coordinate(s7) -- ++(0,1) node[above]{$|Z|$};
+    \draw[DARCblue, -Triangle](s7) -- ++(1,0) node[right]{$f$};
+    %
+    \begin{scope}[shift={($(0,0)+(s7)$)}]
+        \draw[very thick, DARCblue]
+            (0.10,0.90) .. controls (0.5,0.0) and (0.5,0.0) .. (0.90,0.90)
+        coordinate[pos=0.5] (min);
+    \end{scope}
+    %
+    \draw[color=DARCred](s4) to [open, v={$U_A$}] (s5);
+\end{circuitikz}

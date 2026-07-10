@@ -1,0 +1,12 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{circuitikz}%[every node/.style={scale=\getDarcImageFactor}]
+    \draw (0,3)
+        node[antenna](){}
+        to [bandpass] ++(2,0)
+        to [amp,box]  ++(2,0)
+        to [detector] ++(2,0)
+        to [amp,box]  ++(2,0)
+        to [short]    ++(0.5,0)
+        node[loudspeakershape, rotate=-90, anchor=south](){};
+\end{circuitikz}

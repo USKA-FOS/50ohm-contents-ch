@@ -1,0 +1,30 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2025
+\begin{circuitikz}[background rectangle/.style={fill=white}, show background rectangle]
+    \draw(current page.center) node[
+        minimum width=\linewidth,
+        minimum height=\linewidth,
+        inner sep=0
+    ](img){\centering\includegraphics[height=\linewidth]{foto/8}};
+
+    %\draw(img.north west) rectangle (img.south east);
+    %\draw[red](img.97) |- (img.2);
+
+    \draw(img.130 |- img.15) to [C, european,l={$C$}] (img.130 |- img.345);
+
+    % Pfeile:
+    \draw[Triangle-Triangle] (img.118 |- img.10) -- (img.118 |- img.350);
+    \draw(img.120 |- img.10) -- (img.116 |- img.10);
+    \draw(img.120 |- img.350) -- (img.116 |- img.350);
+    \draw(img.118 |- img.0) node [anchor=west] {\qty{1}{\centi\meter}};
+
+    % Text:
+    \draw(img.67  |- img.320) node [anchor=north] {\small \qty{630}{\volt}};
+    \draw(img.67  |- img.355) node [anchor=south] {\small \qty{220}{\nano\farad}};
+    \draw(img.62  |- img.15 ) node [anchor=north] {\small \qty{100}{\volt}};
+    \draw(img.62  |- img.36 ) node [anchor=south] {\small \qty{10}{\nano\farad}};
+    \draw(img.83  |- img.13 ) node [anchor=north] {\small \qty{50}{\volt}};
+    \draw(img.83  |- img.29 ) node [anchor=south] {\small \qty{22}{\pico\farad}};
+    \draw(img.97  |- img.2  ) node [anchor=west, rotate=90] {\small 0805 \qty{18}{\pico\farad} / \qty{50}{\volt}};
+
+\end{circuitikz}

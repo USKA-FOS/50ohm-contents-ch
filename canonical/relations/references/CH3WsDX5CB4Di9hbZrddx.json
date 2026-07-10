@@ -1,0 +1,41 @@
+[
+  {
+    "id": "1hLqVOEMOy1EWtuq3rX61",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EH212]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_object_id": "CH3WsDX5CB4Di9hbZrddx",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EH212",
+    "target_object_type": "question"
+  },
+  {
+    "id": "PUoM0jLavjlv3QmfTfbGj",
+    "inline_alias": "e_reichweite_bodenwelle",
+    "inline_label": "Reichweite der Bodenwelle je nach Band",
+    "raw_marker": "[picture:866:e_reichweite_bodenwelle:Reichweite der Bodenwelle je nach Band]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_object_id": "CH3WsDX5CB4Di9hbZrddx",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "866",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "l78si77En0agjhky2kaEj",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EH211]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "CH3WsDX5CB4Di9hbZrddx",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EH211",
+    "target_object_type": "question"
+  }
+]

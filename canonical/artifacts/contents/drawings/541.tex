@@ -1,0 +1,24 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2023
+\begin{circuitikz}
+    \tikzset{german switch/.style={
+        cute open switch, 
+        bipoles/cuteswitch/thickness=0.2,
+        bipoles/cuteswitch/shape=circ,
+        bipoles/cuteswitch/width=0.75,
+    }}
+    %\tikzstyle{help lines}=[blue!50];
+    %\draw[style=help lines] (0,0) grid (5,4);
+    \draw(0,0) to [battery2, invert] ++(0,4)
+               to [german switch, -*]  ++(3,0) coordinate(d2)
+               to [vR, tunable end arrow={Bar}, invert, name=resi, -*] ++(0,-2) coordinate(d3)
+               -| (resi.wiper) ;
+
+    \draw(d3) to [lamp,-*, l_={$\text{Lampe}_1$}] ++(0,-2) coordinate(d4);
+    \draw(d2) to [short] ++(3,0)
+              to [american inductor, name=myL] ++(0,-2)
+              to [lamp, l_={$\text{Lampe}_2$}] ++(0,-2)
+              to [short] (d4)
+              to [short] (0,0);
+    \draw[thick] (myL.core east) --(myL.core west);
+\end{circuitikz}

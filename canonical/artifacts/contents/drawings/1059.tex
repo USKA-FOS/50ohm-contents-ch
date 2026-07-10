@@ -1,0 +1,29 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{tikzpicture}
+    \draw[-Triangle](0,0) -- ++(0,1.25) node[anchor=south] {$Q$};
+    \draw[-Triangle](0,0) -- ++(1.25,0) node[anchor=west]  {$I$};
+    \draw(0,0) -- ++(-1.25,0);
+    \draw(0,0) -- ++(0,-1.25);
+    \draw[gray](0,0) circle (1);
+    %
+    \draw[gray](0,0) -- ++( 45:1.0);
+    \draw[gray](0,0) -- ++(135:1.0);
+    \draw[gray](0,0) -- ++(225:1.0);
+    \draw[gray](0,0) -- ++(315:1.0);
+    %
+    \draw[-Triangle](0.75,0) arc (0: 45:0.75) node[pos=0.9, anchor=south west] {$\qty{ 45}{\degree}$};
+    \draw[-Triangle](0.65,0) arc (0:135:0.65) node[pos=0.9, anchor=south east] {$\qty{135}{\degree}$};
+    \draw[-Triangle](0.55,0) arc (0:225:0.55) node[pos=0.9, anchor=north east] {$\qty{225}{\degree}$};
+    \draw[-Triangle](0.45,0) arc (0:315:0.45) node[pos=0.9, anchor=north west] {$\qty{315}{\degree}$};
+    %
+    \draw( 45:1) node[anchor=center, circle, draw, fill=DARCblue](m1){};
+    \draw(135:1) node[anchor=center, circle, draw, fill=DARCblue](m2){};
+    \draw(225:1) node[anchor=center, circle, draw, fill=DARCblue](m3){};
+    \draw(315:1) node[anchor=center, circle, draw, fill=DARCblue](m4){};
+    %
+    \draw(m1.north east) node[anchor=south west] {$11$};
+    \draw(m2.north west) node[anchor=south east] {$01$};
+    \draw(m3.south west) node[anchor=north east] {$00$};
+    \draw(m4.south east) node[anchor=north west] {$10$};
+\end{tikzpicture}

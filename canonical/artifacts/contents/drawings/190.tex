@@ -1,0 +1,16 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \draw[-Triangle](0,0) -- (5.0,0.0) 
+        node[anchor=north east] () {$f$};
+    \draw[-Triangle](0.0,0.0) -- (0.0,3.0)
+        node[anchor=north east] () {$Z$};
+
+    \draw [thick] plot [rounded corners=10mm] coordinates {
+        (1.20,0.05)
+        (2.25,0.60)
+        (2.50,3.00)
+        (2.75,0.60)
+        (3.75,0.05)
+    };
+\end{circuitikz}

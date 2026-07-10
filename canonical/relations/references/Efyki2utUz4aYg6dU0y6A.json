@@ -1,0 +1,80 @@
+[
+  {
+    "id": "7YGZGIDXIhxSI68l2v29Y",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AI501]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "Efyki2utUz4aYg6dU0y6A",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AI501",
+    "target_object_type": "question"
+  },
+  {
+    "id": "KZoWNwwzK9e9jTIGCXtXz",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AI504]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "Efyki2utUz4aYg6dU0y6A",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AI504",
+    "target_object_type": "question"
+  },
+  {
+    "id": "KrV4YnIxg9PZLwxiaM0u1",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AI502]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "Efyki2utUz4aYg6dU0y6A",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AI502",
+    "target_object_type": "question"
+  },
+  {
+    "id": "UrVueNuRqfPiQIaTse2gR",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AI503]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "Efyki2utUz4aYg6dU0y6A",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AI503",
+    "target_object_type": "question"
+  },
+  {
+    "id": "YPRdyGWAJBmKOZ7GSB5Az",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AI505]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_object_id": "Efyki2utUz4aYg6dU0y6A",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AI505",
+    "target_object_type": "question"
+  },
+  {
+    "id": "gs6CN2QRP685UDZlkEI8I",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AI511]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_object_id": "Efyki2utUz4aYg6dU0y6A",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AI511",
+    "target_object_type": "question"
+  }
+]

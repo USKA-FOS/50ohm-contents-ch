@@ -1,0 +1,35 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2023
+\begin{tikzpicture}
+    \node at (0,0)    [rectangle, draw, anchor=west, minimum height=0.6cm, minimum width=0.6cm](a){\texttt{}};
+    \node at (a.east) [rectangle, draw, anchor=west, minimum height=0.6cm, minimum width=0.6cm, fill=gray!50](b){\texttt{1}};
+    \node at (b.east) [rectangle, draw, anchor=west, minimum height=0.6cm, minimum width=0.6cm, fill=gray!50](c){\texttt{0}};
+    \node at (c.east) [rectangle, draw, anchor=west, minimum height=0.6cm, minimum width=0.6cm](d){\texttt{1}};
+
+    \node at (a.south) [rectangle, draw, anchor=north, minimum height=0.6cm, minimum width=0.6cm, fill=gray!50](e){\texttt{0}};
+    \node at (e.east) [rectangle, draw, anchor=west, minimum height=0.6cm, minimum width=0.6cm](f){\texttt{1}};
+    \node at (f.east) [rectangle, draw, anchor=west, minimum height=0.6cm, minimum width=0.6cm](g){\texttt{0}};
+    \node at (g.east) [rectangle, draw, anchor=west, minimum height=0.6cm, minimum width=0.6cm](h){\texttt{0}};
+
+    \node at (e.south) [rectangle, draw, anchor=north, minimum height=0.6cm, minimum width=0.6cm, fill=gray!50](i){\texttt{1}};
+    \node at (i.east) [rectangle, draw, anchor=west, minimum height=0.6cm, minimum width=0.6cm](j){\texttt{1}};
+    \node at (j.east) [rectangle, draw, anchor=west, minimum height=0.6cm, minimum width=0.6cm](k){\texttt{0}};
+    \node at (k.east) [rectangle, draw, anchor=west, minimum height=0.6cm, minimum width=0.6cm](l){\texttt{1}};
+
+    \node at (i.south) [rectangle, draw, anchor=north, minimum height=0.6cm, minimum width=0.6cm](m){\texttt{1}};
+    \node at (m.east) [rectangle, draw, anchor=west, minimum height=0.6cm, minimum width=0.6cm](n){\texttt{0}};
+    \node at (n.east) [rectangle, draw, anchor=west, minimum height=0.6cm, minimum width=0.6cm](o){\texttt{1}};
+    \node at (o.east) [rectangle, draw, anchor=west, minimum height=0.6cm, minimum width=0.6cm](p){\texttt{1}};
+
+    \node at(d.south east)[anchor=south east](){\tiny\texttt{a}};
+    \node at(f.south east)[anchor=south east](){\tiny\texttt{b}};
+    \node at(g.south east)[anchor=south east](){\tiny\texttt{c}};
+    \node at(h.south east)[anchor=south east](){\tiny\texttt{d}};
+    \node at(j.south east)[anchor=south east](){\tiny\texttt{e}};
+    \node at(k.south east)[anchor=south east](){\tiny\texttt{f}};
+    \node at(l.south east)[anchor=south east](){\tiny\texttt{g}};
+    \node at(m.south east)[anchor=south east](){\tiny\texttt{h}};
+    \node at(n.south east)[anchor=south east](){\tiny\texttt{i}};
+    \node at(o.south east)[anchor=south east](){\tiny\texttt{j}};
+    \node at(p.south east)[anchor=south east](){\tiny\texttt{k}};
+\end{tikzpicture}

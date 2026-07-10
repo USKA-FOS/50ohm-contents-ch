@@ -1,0 +1,25 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{circuitikz}[american]
+    \draw (0, 2.55) node [](){G};
+    \draw[thick] (-0.15, 2.3) -- ++(0.3,0);
+
+    \draw (3, 2.8) node [](){A};
+    \draw (5, 2.8) node [](){B};
+    \draw[-Triangle] (3.8, 2.3) -- ++(0.4,0.4);
+
+    \draw(0,0) to [esource] ++(0,5)
+               to [short, -*] ++(2,0) coordinate(C1) 
+               to [short] ++(4,0) 
+               to [european resistor, l={$R_3$},-*] ++(0,-2.5) coordinate(C2)
+               to [european resistor, l={$R_4$}] ++(0,-2.5) 
+               to [short, -*] ++(-4,0) coordinate(C3)
+               to [short] (0,0);
+
+    \draw(C1)  to [european resistor, l_={$R_1$},-*] ++(0,-2.5) coordinate(C4)
+               to [european resistor, l_={$R_2$},-*] ++(0,-2.5) node[rground](){};
+
+    \draw(C4)  to [short,-o] ++(1,0)
+               to [rmeter,-o] ++ (2,0)
+               to (C2);
+\end{circuitikz}

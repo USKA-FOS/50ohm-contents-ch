@@ -1,0 +1,14 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{circuitikz}
+    \draw(0,0) 
+        to [C, o-, l={$C_1$}] ++(2,0) coordinate(node1)
+        to [short, *-] ++(0,0.5)
+        to [C, l={$C_2$}] ++(2,0) 
+        to [short, -*] ++(0,-0.5) coordinate(node2)
+        to [short, -o] ++(0.5,0);
+    \draw(node1)
+        to [short, *-] ++(0,-0.5) coordinate(h)
+        to [C, l_={$C_3$}] (h-|node2)
+        to [short] (node2);
+\end{circuitikz}

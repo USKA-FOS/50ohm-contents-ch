@@ -1,0 +1,14 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{circuitikz}
+    \draw[-Triangle](0.0,0.0) -- (5.0,0.0) node[anchor=north] () {$f$};
+    \draw[-Triangle](0.0,0.0) -- (0.0,3.0) node[anchor=east] () {$U$} ;
+    \draw [thick, rotate=180, xshift=-142.0*\getDarcImageFactor, yshift=-80*\getDarcImageFactor] plot [smooth, tension=1] coordinates {
+        (0.80,0.1)
+        (1.80,0.8)
+        (2.50,2.7)
+        (3.20,0.8)
+        (4.20,0.1)
+    };
+    \draw [dashed] (2.5,0) -- (2.5,3);
+\end{circuitikz}

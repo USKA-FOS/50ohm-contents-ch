@@ -1,0 +1,34 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{circuitikz}
+    \ctikzset{
+        resistors/scale=\getDarcImageFactor,
+        capacitors/scale=\getDarcImageFactor,
+        inductors/scale=\getDarcImageFactor,
+    }
+    \draw(0,0) 
+        to [short,o-*] ++(1,0) coordinate(c0)
+        to [short] ++(0,1)
+        to [american inductor] ++(2,0)
+        to [short, -*] ++(0,-1) coordinate(c1)
+        to [R,-o] ++(3,0);
+
+    \draw(c0)
+        to [short] ++(0,-1)
+        to [C] ++(2,0)
+        to [short, -*] (c1);
+
+    \begin{scope}[shift={(6.5,-1.5)}]
+        \draw[-Triangle](0.0,0.0) -- (3.0,0.0) coordinate(m0);
+        \draw[-Triangle](0.0,0.0) -- (0.0,3.0) coordinate(m1);
+
+        \draw(m0) node[anchor=north] () {$f$};
+        \draw(m1) node[anchor=south] () {$|Z|$};
+
+        \draw [thick] plot [rounded corners=10mm] coordinates {
+            (0.80,2.50)
+            (1.50,0.00)
+            (2.20,2.50)
+        };
+    \end{scope}
+\end{circuitikz}

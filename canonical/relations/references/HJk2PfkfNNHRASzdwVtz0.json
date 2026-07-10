@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1O5IYaAgBoi3XQTroejKy",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EH214]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "HJk2PfkfNNHRASzdwVtz0",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EH214",
+    "target_object_type": "question"
+  },
+  {
+    "id": "DLMMNeOC09kvWz2yTTsxY",
+    "inline_alias": "e_dellinger2",
+    "inline_label": "Dämpfung durch Mögel-Dellinger-Effekt am 03.10.2024 um 12 Uhr und 19 Minuten. Quelle NOAA",
+    "raw_marker": "[picture:1010:e_dellinger2:Dämpfung durch Mögel-Dellinger-Effekt am 03.10.2024 um 12 Uhr und 19 Minuten. Quelle NOAA]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_object_id": "HJk2PfkfNNHRASzdwVtz0",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1010",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "ERhPQVfmZhqYfdWoJaWNz",
+    "inline_alias": "e_dellinger",
+    "inline_label": "Höchste Frequenz, die von einer Absorption von $\\qty{1}{\\dB}$ betroffen ist am 03.10.2024 um 12 Uhr und 19 Minuten. Dies zeigt an, wo der Mögel-Dellinger-Effekt am stärksten wirkt. Quelle NOAA",
+    "raw_marker": "[picture:1011:e_dellinger:Höchste Frequenz, die von einer Absorption von $\\qty{1}{\\dB}$ betroffen ist am 03.10.2024 um 12 Uhr und 19 Minuten. Dies zeigt an, wo der Mögel-Dellinger-Effekt am stärksten wirkt. Quelle NOAA]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_object_id": "HJk2PfkfNNHRASzdwVtz0",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1011",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "S2X1xqHLfpCDoCXl1E0Zv",
+    "inline_alias": "e_dellinger2",
+    "inline_label": null,
+    "raw_marker": "[ref:e_dellinger2]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_object_id": "HJk2PfkfNNHRASzdwVtz0",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_dellinger2",
+    "target_object_type": null
+  },
+  {
+    "id": "cZhgwkSJxAuivZjVcCFTx",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EH215]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_object_id": "HJk2PfkfNNHRASzdwVtz0",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EH215",
+    "target_object_type": "question"
+  },
+  {
+    "id": "mwP2faSlFwbReomrIb3kx",
+    "inline_alias": "e_dellinger",
+    "inline_label": null,
+    "raw_marker": "[ref:e_dellinger]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_object_id": "HJk2PfkfNNHRASzdwVtz0",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_dellinger",
+    "target_object_type": null
+  }
+]

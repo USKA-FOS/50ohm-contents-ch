@@ -1,0 +1,35 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{circuitikz}
+    \pgfdeclarelayer{bg} % declare background layer
+    \pgfsetlayers{bg,main}
+    \draw[double] (5.75,2.5) -- ++(0.5,0);
+    \draw[double] (5.75,3.0) -- ++(0.5,0);
+    \draw[double] (5.75,3.5) -- ++(0.5,0);
+    \draw[double] (5.75,4.0) -- ++(0.5,0);
+    \draw[double] (5.75,4.5) -- ++(0.5,0);
+
+    \draw [dashed] ( 0,5) -- ++( 0.5,0) coordinate(a);
+    \draw [dashed] (12,5) -- ++(-0.5,0) coordinate (b);
+    \draw (a) to [short,o-o] ++(0.5,0) coordinate(e);
+    \begin{pgfonlayer}{bg}
+    \draw[very thick](e)
+        to [short] ++(4.75,0) coordinate(c);
+    \end{pgfonlayer}
+    \draw(c)
+        to [open, *-*] ++(0.5,0) coordinate(d);
+    \draw[very thick](d)
+        to [short] ++(4.75,0) coordinate(f);
+    \draw(f)
+        to[short,o-o] (b);
+
+    \draw (c) to [short,-*] ++(0,-3);
+    \draw (d) to [short,-*] ++(0,-3) coordinate(d2);
+
+    \draw (5.75,1.7) node[]{\scriptsize X};
+    \draw (6.25,1.7) node[]{\scriptsize X};
+    \draw (6.00,1.2) node[]{\qty{75}{\ohm}};
+
+    \DARCmeasure{d}{d2}{1.1,0}{-90}{\rotatebox{90}{$\qty{10,3}{\meter}$}}
+    \DARCmeasure{e}{f}{0,0.75}{0}{$\qty{31,2}{\meter}$}
+\end{circuitikz}

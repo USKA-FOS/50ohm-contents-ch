@@ -1,0 +1,26 @@
+% Author: Michael Groni, DB7YI
+% Year: 2023
+\begin{tikzpicture}	
+
+	\tikzstyle{digitalNumber}=[draw=DARCgray, minimum width=1, minimum height=0.5, rounded corners=1, font=\bfseries]
+	\def\yNumbers{-3.8}
+
+	\begin{axis}[
+		axis lines=middle,
+        width=\linewidth*\getDarcImageFactor,
+        height=4cm,
+		scale only axis,
+		yticklabel=\empty, ytick={},
+		xticklabel=\empty, xtick distance=pi, xmajorgrids,
+		scaled ticks=false,
+		xlabel={$f$},xlabel style={anchor=north}, ylabel={$P$}, ylabel style={anchor=east}, title=OFDM,
+		xmin=0, xmax=8*pi+0.6, ymin=-0.7, ymax=4, axis line style={-triangle 60}
+	]
+		\addplot [ draw=DARCgreen,  domain=    0:4*pi, samples=500 ] {(sin((x-2*pi)*180/pi)/(x-2*pi))^2*4};
+		\addplot [ draw=DARCorange, domain=   pi:5*pi, samples=500 ] {(sin((x-3*pi)*180/pi)/(x-3*pi))^2*4};
+		\addplot [ draw=DARCred,    domain= 2*pi:6*pi, samples=500 ] {(sin((x-4*pi)*180/pi)/(x-4*pi))^2*4};
+		\addplot [ draw=DARCblue,   domain= 3*pi:7*pi, samples=500 ] {(sin((x-5*pi)*180/pi)/(x-5*pi))^2*4};
+		\addplot [ draw=DARCgray,   domain= 4*pi:8*pi, samples=500 ] {(sin((x-6*pi)*180/pi)/(x-6*pi))^2*4};
+	\end{axis}
+		
+\end{tikzpicture}

@@ -1,0 +1,11 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{circuitikz}
+    \draw (0,0) node[npn, tr circle] (npn) {};
+    \draw (npn.B) to [short] ++(-0.5,0) node[anchor=east] {B};
+    \draw (npn.C) to [short] ++(0,0.25) node[anchor=south] {C};
+    \draw (npn.E) to [short] ++(0,-0.25) node[rground] {};
+    \draw (npn.E) ++(0.5,0) node[] {E};
+    \draw[-Triangle] (-1,-0.5+0.1) -- (-0.25,-1+0.1);
+    \draw (-0.85,-0.85) node[] {$U_\mathrm{BE}$};
+\end{circuitikz}

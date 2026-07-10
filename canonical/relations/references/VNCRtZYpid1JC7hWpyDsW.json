@@ -1,0 +1,67 @@
+[
+  {
+    "id": "5T0olwI6TEYzdHXq4CSuC",
+    "inline_alias": "e_vertikalantenne_magnetfeld",
+    "inline_label": "Elektrisches und magnetisches Feld an einer Antenne",
+    "raw_marker": "[picture:885:e_vertikalantenne_magnetfeld:Elektrisches und magnetisches Feld an einer Antenne]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "VNCRtZYpid1JC7hWpyDsW",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "885",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "FkdiOA57yHR46cD6h9BQP",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB304]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "VNCRtZYpid1JC7hWpyDsW",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB304",
+    "target_object_type": "question"
+  },
+  {
+    "id": "IeV5ofKaYTEqS4fwEq5Qg",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB302]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "VNCRtZYpid1JC7hWpyDsW",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB302",
+    "target_object_type": "question"
+  },
+  {
+    "id": "TAmjF2NU0gedYmusLiC9Z",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB303]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "VNCRtZYpid1JC7hWpyDsW",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB303",
+    "target_object_type": "question"
+  },
+  {
+    "id": "tEsURcH1M5Ml2z9svd7v1",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB301]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "VNCRtZYpid1JC7hWpyDsW",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB301",
+    "target_object_type": "question"
+  }
+]

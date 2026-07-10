@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1M7rF0RamuwPw52W9R3jh",
+    "inline_alias": "8qam",
+    "inline_label": "Signalverlauf eines 8QAM-Signals, je Symbol mit Amplitude ($\\num{0,5}$ bzw. $\\num{1}$), Phasenlage und 3-stelliger Bitfolge",
+    "raw_marker": "[picture:702:8qam:Signalverlauf eines 8QAM-Signals, je Symbol mit Amplitude ($\\num{0,5}$ bzw. $\\num{1}$), Phasenlage und 3-stelliger Bitfolge]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "BA9bb9ekjK55dyqdN6Q6i",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "702",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "MczIF93NK1ItBRgSD6yAd",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AE403]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "BA9bb9ekjK55dyqdN6Q6i",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AE403",
+    "target_object_type": "question"
+  }
+]

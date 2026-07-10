@@ -1,0 +1,22 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{circuitikz}
+    \draw(0,0)
+        to [european resistor, color=DARCblue, DARCblue, o-] ++(2,0) coordinate(s1)
+        to [C, color=DARCred, DARCred,] ++(0,-2) coordinate(s2)
+        to [short, -o] ++(-2,0) coordinate(s3);
+    \draw(s1) to [short, *-o] ++(2,0) coordinate(s4);
+    \draw(s2) to [short, *-o] ++(2,0) coordinate(s5);
+    %
+    \draw[DARCblue, -Triangle](s3) to [open] ++(0.5,0.5) coordinate(s6) -- ++(0,1) node[above]{$R$};
+    \draw[DARCblue, -Triangle](s6) -- ++(1,0) node[right]{$f$};
+    \draw[DARCblue, very thick] (s6) to [open] ++(0,0.5) -- ++(1,0);
+    %
+    \draw[DARCred, -Triangle](s2) to [open] ++(0.5,0.5) coordinate(s7) -- ++(0,1) node[above]{$X_C$};
+    \draw[DARCred, -Triangle](s7) -- ++(1,0) node[right]{$f$};
+    %
+    \begin{scope}[shift={($(0,0)+(s7)$)}]
+        \draw[DARCred, very thick]
+            (0.1,0.9) .. controls (0.1,0.4) and (0.4,0.1) .. (0.9,0.1);
+    \end{scope}
+\end{circuitikz}

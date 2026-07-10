@@ -1,0 +1,11 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{circuitikz}
+    \draw (0,0) node[](){1};
+    \draw (3,0) node[](){2};
+    \draw (1.5,0) node[njfet, tr circle](Q1){};
+    \draw (4.5,0) node[pjfet, tr circle, yscale=-1](Q2){};
+
+    \draw (Q1.G) -- ++(-0.3,0);
+    \draw (Q2.G) -- ++(-0.3,0);
+\end{circuitikz}

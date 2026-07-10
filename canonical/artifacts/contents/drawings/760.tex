@@ -1,0 +1,44 @@
+% Author: Stephan Kregel, DG1HXJ
+% Year: 2022
+\begin{circuitikz}
+    \coordinate(init) at (0,0);
+    \draw (init) ++(7,3) node[npn, name=T1, tr circle] {} ++(0,0);
+    \draw (init) 
+        to [american inductor, inductors/coils=4 , inductors/width=1,] ++(0,2) -- ++(0,1) -- ++(1.5,0) coordinate(c1a) 
+        to [vC, tunable end arrow={Bar}, invert, *-*]++(0,-4);
+    \draw (init)
+        -- ++(0,-1)
+        -- ++(1.5,0) coordinate(c1b);
+    \draw (c1a)
+        -- ++(1.5,0) coordinate(c3a) 
+        to [C, *-*] ++(0,-2) coordinate(c3b)
+        to [C, *-*] ++(0,-2) coordinate(c4b);
+    \draw (c1b) -- (c4b);
+    \draw (c3a) to [C, *-*] ++(2,0) coordinate(c2b);
+    \draw (c4b)
+        -- ++(2,0) coordinate(r3a)
+        to [R, *-] ++(0,2) -- (c2b)
+        to [R, *-*] ++(0,3) coordinate(r4b) -- ++(-2,0)
+        to [C,] ++(0,-1) to node[rground]{} ++(0,0);
+    \draw (r4b) 
+        -- ++(2,0) coordinate(t1a)
+        -- (T1.C);
+    \draw (t1a) 
+        to [R, *-] ++(2,0) 
+        node[ocirc, name=vcc]{};
+    \draw (c2b) to (T1.B);
+    \draw (c3b)
+        -- ++(4,0) coordinate(r2a)
+        to [R, *-*] ++(0,-2) coordinate(r2b)
+        node[rground]{};
+    \draw (r2a) -- (T1.E);
+    \draw (r3a) -- (r2b);
+    \draw (r2a)
+        to [C, *-] ++(2,0)
+        node[ocirc, name=out]{};
+    \draw (r2b) 
+        -- ++(2,0) 
+        node[ocirc, name=gnd]{};
+    \draw (gnd) node[anchor=north]{--};
+    \draw (vcc) node[anchor=south]{+};
+\end{circuitikz}

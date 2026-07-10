@@ -1,0 +1,19 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{circuitikz}
+    \ctikzset{
+        bipole voltage style/.style={color=DARCblue},
+        bipole current style/.style={color=DARCred}
+    }
+    %
+    \draw (0,0) node[npn, tr circle] (npn) {};
+    \draw (npn.B) to [short, i<={$I_\text{B}$}, color=DARCred] ++(-0.75, 0.00);
+    \draw (npn.C) to [short, i<={$I_\text{C}$}, color=DARCred] ++( 0.00, 0.25);
+    \draw (npn.E) to [short, i>={$I_\text{E}$}, color=DARCred] ++( 0.00,-0.25);
+    \draw (npn.B) to [open] ++(+1.00, 0.00);
+    \draw [DARCgray] (npn.E) node[anchor=north west](ee){E};
+    \draw [DARCgray] (npn.B) node[anchor=south east](bb){B};
+    \draw [DARCgray] (npn.C) node[anchor=south west](cc){C};
+    \draw [DARCblue](bb.south west) to[open, v=$U_\text{BE}$ , color=DARCblue] (ee.west);
+    \draw [DARCblue](cc.east)       to[open, v^=$U_\text{CE}$, color=DARCblue, voltage/distance from node=1] (ee.east);
+\end{circuitikz}

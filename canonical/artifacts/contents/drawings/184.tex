@@ -1,0 +1,77 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \draw(0,0) coordinate(U1B)
+        to [short,o-*] ++(1,0) coordinate(dx1)
+        to [short] ++(1,0);
+    \draw(0,3) coordinate(U1A)
+        to [short, o-*] ++(1,0) coordinate(dc1)
+        to [short] ++(1,0) coordinate(mc1)
+        to [american inductor, name=l1] ++(0,-3);
+
+    \draw(5,0) coordinate(U2B)
+        to [short, o-*] ++(-1,0) coordinate(dx2)
+        to [short] ++(-1,0)
+        to [american inductor, name=l2] ++(0,3) coordinate(mc2);
+    \draw(5,3) coordinate(U2A)
+        to [short, o-*] ++(-1,0) coordinate(dc2)
+        to [short] ++(-1,0);
+
+    \draw(dx1) to [C] (dc1);
+    \draw(dx2) to [C] (dc2);
+
+    \draw(U1A) to [open, v=$U_{\mbox{1}}$] (U1B);
+    \draw(U2A) to [open, v^=$U_{\mbox{2}}$] (U2B);
+
+    \draw(mc1) to [open, name=h1] (mc2);
+    \draw(h1.center) node[] (m) {M};
+
+    \begin{scope}[shift={(6,-1)}]
+        \draw[-Triangle](0.0,0.0) -- (4.5,0.0) coordinate(m0);
+        \draw[-Triangle](0.0,0.0) -- (0.0,5.0) coordinate(m1);
+        \draw[dashed]   (2.5,0.0) coordinate(m3) -- (2.5,5.0);
+
+        \draw(m3) node[anchor=north] () {$f_{\mbox{m}}$};
+        \draw(m0) node[anchor=north] () {$f$};
+        \draw(m1) node[anchor=south] () {$U_{\mbox{2}}$};
+
+        \draw [thick] plot [smooth, tension=1] coordinates {
+            (2.00,0.50)
+            (2.15,0.85)
+            (2.50,2.00)
+            (2.85,0.85)
+            (3.00,0.50)
+        };
+        \draw(1.80,0.5) node[] () {d};
+
+        \draw [thick] plot [smooth, tension=1] coordinates {
+            (1.50,1.0)
+            (1.80,1.6)
+            (2.50,3.5)
+            (3.20,1.6)
+            (3.50,1.0)
+        };
+        \draw(1.30,1.0) node[] () {c};
+
+        \draw [thick] plot [smooth, tension=0.30] coordinates {
+            (1.00,1.5)
+            (1.30,2.1)
+            (2.20,4.3)
+            (2.80,4.3)
+            (3.70,2.1)
+            (4.00,1.5)
+        };
+        \draw(0.80,1.5) node[] () {b};
+
+        \draw [thick] plot [smooth, tension=0.7] coordinates {
+            (0.50,2.00)
+            (0.80,2.60)
+            (1.60,4.50)
+            (2.50,3.80)
+            (3.40,4.50)
+            (4.20,2.60)
+            (4.50,2.00)
+        };
+        \draw(0.30,2.0) node[] () {a};
+    \end{scope}
+\end{circuitikz}

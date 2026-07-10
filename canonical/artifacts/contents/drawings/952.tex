@@ -1,0 +1,18 @@
+% Author: Prof. Dr. Matthias Jung und Michael Groni
+% Year: 2024
+\begin{tikzpicture}
+   \begin{polaraxis}[
+       rotate=-90,
+       hide axis=true,
+       scale only axis,
+       width=\linewidth*\getDarcImageFactor,
+   ]
+   \draw [very thick] (rel axis cs:0,0.5) coordinate(top) -- (rel axis cs:180,0.5) coordinate(bottom); % Dipol
+   \addplot[domain=0:360, samples=361, mark=none] {abs(((cos(deg(0.5*pi*cos(x)))/sin(x)))}; % Feldstärke
+   \node (boundingA) at (axis cs:90,1) {};
+   \node (boundingB) at (axis cs:270,1) {};
+   \end{polaraxis}
+
+   \pgfresetboundingbox;
+   \useasboundingbox (boundingA|-top) rectangle (boundingB|-bottom);
+\end{tikzpicture}

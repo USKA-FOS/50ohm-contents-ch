@@ -1,0 +1,33 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2023
+\begin{circuitikz}
+    \draw[DARCred,thick] (0,2)
+        sin ++(4, 1)
+        cos ++(4,-1);
+    \draw[DARCred] (0.25,2.5) node[](){$I$};
+
+    \draw[very thick] (0,2) coordinate(start)
+        to [short] ++( 3.9,   0)
+        to [short] ++(   0,-0.8);
+    \draw[very thick] (8,2) coordinate(end)
+        to [short] ++(-3.9,   0)
+        to [short] ++(   0,-0.8);
+
+    \draw[DARCblue,thick] (0,-2) 
+        cos ++(4, 1)
+        sin ++(4, 1);
+    \draw[DARCblue] (0.25,-2.5) node[](){$U$};
+
+    \draw[very thick] (0,-1) coordinate(start)
+        to [short] ++( 3.9,   0)
+        to [short] ++(   0,-0.8);
+    \draw[very thick] (8,-1) coordinate(end)
+        to [short] ++(-3.9,   0)
+        to [short] ++(   0,-0.8);
+
+    \draw[DARCorange, fill=orange, thick] (4,3) to [short, *-*] (4,-1);
+    \draw[DARCorange, fill=orange, thick] (0,2) to [short, *-*] (0,-2);
+    \draw[DARCorange, fill=orange, thick] (8,2) to [short, *-*] (8,-0);
+
+    \DARCmeasure{start}{end}{0,-2.0}{0}{$\frac{\lambda}{2}$}
+\end{circuitikz}

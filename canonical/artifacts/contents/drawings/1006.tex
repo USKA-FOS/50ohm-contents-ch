@@ -1,0 +1,25 @@
+% Author: Malte, DE7LMS
+% Year: 2022
+% TC105e SMD Resistor with label 103
+\begin{tikzpicture}[
+    x=({-1cm,.4cm}),
+    y=({1cm,.8cm}),
+    z=({0cm,1cm}),
+    line cap=round,
+    line join=round,
+    declare function={
+      wid=2;
+      hei=.45;
+      dep=.8;
+      band=.18;
+    }]
+  \filldraw (0,0,0) -- (0,dep,0) -- (wid,dep,0) -- (wid,0,0) -- cycle;
+  \filldraw[fill=black!50] (0,0,0) -- (0,dep,0) -- (band,dep,0) -- (band,0,0) -- cycle;
+  \filldraw[fill=black!50] (wid-band,0,0) -- (wid-band,dep,0) -- (wid,dep,0) -- (wid,0,0) -- cycle;
+  \node[canvas is yx plane at z=0, transform shape, rotate=-90, anchor=center, white] at (wid/2,dep/2) {\LARGE 113};
+  \filldraw[fill=black!50] (0,0,-hei) -- (0,dep,-hei) -- (0,dep,0) -- (0,0,0) -- cycle;
+  \filldraw[fill=black!50] (0,0,-hei) -- (band,0,-hei) -- (band,0,0) -- (0,0,0) -- cycle;
+  \filldraw (band,0,-hei) -- (wid-band,0,-hei) -- (wid-band,0,0) -- (band,0,0) -- cycle;
+  \filldraw[fill=black!50] (wid-band,0,-hei) -- (wid,0,-hei) -- (wid,0,0) -- (wid-band,0,0) -- cycle;
+  \draw[black!50] (wid-band,0,0) -- (band,0,0);
+\end{tikzpicture}

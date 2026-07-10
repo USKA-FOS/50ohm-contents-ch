@@ -1,0 +1,19 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+	\ctikzset{
+	    resistors/scale=\getDarcImageFactor,
+    	capacitors/scale=\getDarcImageFactor,
+	    inductors/scale=\getDarcImageFactor,
+	}
+    \draw(0,0) 
+        to [short, o-o] ++(4,0);
+    \draw(0,3)
+        to [short,o-*] ++(0.5,0) coordinate(dc1)
+        to [american inductor, -*] ++(3,0) coordinate(dc2)
+        to [short, -o] ++(0.5,0);
+    \draw(dc1) 
+        to [short] ++(0,-1)
+        to [C] ++(3,0)
+        to [short] (dc2);
+\end{circuitikz}

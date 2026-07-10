@@ -1,0 +1,36 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \draw(0,0)
+        node[anchor=east](){Q}
+        to [short, o-] ++(1,0)
+        node[inputarrow](){}
+        node[mixer, box, anchor=west](mixq){};
+    \draw(mixq.north)
+        node[inputarrow, rotate=-90](){}
+        to [short] ++(0,1)
+        node [phaseshiftershape, anchor=south](phi){};
+    \draw(phi.north)
+        node[inputarrow, rotate=-90](){}
+        to [short, name={h1}] ++(0,1)
+        node [qgeneratorshape, t={G}, anchor=south](gen){};
+    \draw(gen.north)
+        to [short] ++(0,1)
+        node [mixer, box, t={G}, anchor=south](mixi){}
+        node [inputarrow, rotate=90](){};
+    \draw(mixi.west)
+        node[inputarrow](){}
+        to [short, -o] ++(-1,0)
+        node[anchor=east](){I};
+    \draw(h1.center) ++(2,0)
+        node[adder, box, anchor=west](add){};
+    \draw(mixi) 
+        -| (add.north)
+        node[inputarrow, rotate=-90](){};
+    \draw(mixq) 
+        -| (add.south)
+        node[inputarrow, rotate=90](){};
+    \draw(add.east)
+        to [short,-o] ++(1,0)
+        node[anchor=west](){X};
+\end{circuitikz}

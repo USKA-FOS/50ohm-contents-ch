@@ -1,0 +1,41 @@
+[
+  {
+    "id": "L03Ckb1Ex6xmC36GssNhN",
+    "inline_alias": "e_sprungdistanz",
+    "inline_label": "Sprungdistanz in Abhängigkeit des Winkels",
+    "raw_marker": "[picture:872:e_sprungdistanz:Sprungdistanz in Abhängigkeit des Winkels]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "FsCpscdL8ZNxPc0W2Axpf",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "872",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "leoqdOzhyAu8VPiC0ZMEO",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EH208]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "FsCpscdL8ZNxPc0W2Axpf",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EH208",
+    "target_object_type": "question"
+  },
+  {
+    "id": "lkyjpVHXC3bzbKSCcmqlR",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[include:sprungdistanz_applet]",
+    "relation_type": "includes_object",
+    "sort_order": 2,
+    "source_object_id": "FsCpscdL8ZNxPc0W2Axpf",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "include_key",
+    "target_id_value": "sprungdistanz_applet",
+    "target_object_type": "html_include"
+  }
+]

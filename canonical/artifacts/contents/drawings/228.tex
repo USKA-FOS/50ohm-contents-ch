@@ -1,0 +1,33 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{tikzpicture}
+
+    \begin{axis}[%
+        /pgf/number format/1000 sep={ },
+        /pgf/number format/use comma,        
+        axis lines=middle,
+        axis line style={-Triangle},
+        ytick={-1,0,1},
+        every major tick/.append style={thick, black},
+        yticklabels={-10~V,0,+10~V},
+        grid=major,
+        grid style={line width=.1pt, draw=gray!10},
+        major grid style={line width=.2pt,draw=gray!50},
+        xticklabel=\empty,
+        xtick style={draw=none},
+        xmin=0,
+        xmax=4.2*pi,
+        ymin=-1.3,
+        ymax=1.7,
+        xmajorgrids=false,
+        xlabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel style={at={(ticklabel* cs:1)},anchor=north west},
+        ylabel={$U_\mathrm{A}$},
+        xlabel={$t$},
+        width=\linewidth*\getDarcImageFactor,
+        height=2cm,
+        scale only axis,
+    ]
+    \addplot[samples=500,domain=0:4.0*pi,smooth,black] { sin(deg(x))<-0.8 ? 5*sin(deg(x))+4 : 0}; 
+\end{axis}
+\end{tikzpicture}

@@ -1,0 +1,106 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2024
+% FRAME 0
+\begin{circuitikz}
+    \begin{scope}[local bounding box=bb]
+        \draw (0,0) node[american, transformer core](T){};
+        \draw (T.A1) node [ocirc](I1){};
+        \draw (T.A2) node [ocirc](I2){};
+        
+        % Oben
+        \draw (T.B1)
+            to [stroke diode, l={$D_1$}, -*] ++(3,0) coordinate(C1)
+            to [short, -o] ++(2,0) coordinate(a1)
+            node[anchor=west](){+};
+        \draw[DARCblue, fill=DARCblue](T.B1)
+            to [open, v^={~}, name={h4}, draw=DARCblue] (T.B1|-T-L2.south);
+        \draw[DARCblue](h4.center) node[anchor=west](){$\sim U_{1}$};
+        
+        % Unten
+        \draw(T.B2)
+            to [stroke diode, l={$D_2$}] ++(3,0) coordinate(C2)
+            to [short] (C1);
+        \draw[DARCblue, fill=DARCblue](T.B2)
+            to [open, v={~}, name={h3}, draw=DARCblue] (T.B2|-T-L2.south);
+        \draw[DARCblue](h3.center) node[anchor=west](){$\sim U_{2}$};
+       
+        % Mitte
+        \draw(C1)
+            to [open, name={h1}] (C2);
+        \draw (T-L2.south)
+            to [short, *-] (h1.center)
+            to [short] ++(0.5,0) coordinate(h6)
+            to [short] (h6|-I2)
+            to [short, -o] ++(1.5,0) coordinate(a0)
+            node[anchor=west](){--};
+        \draw(a1) ++(-0.75,0) coordinate(h5);
+        \draw(h5) to [R, l={$R$}, *-*] (h5|-a0) node[rground](){};
+        \draw[DARCblue, fill=DARCblue] (a1) to [open, v^={$U_a$}, draw=DARCblue] (a0);
+        \draw[DARCblue, fill=DARCblue] (I1) to [open, name={h2}, v={~}, draw=DARCblue] (I2);
+        \draw[DARCblue](h2.center) node[anchor=east](){$\sim U_e$};
+    \end{scope}
+
+    \begin{scope}[shift={($(bb.south west)+(0,-2.25/\getDarcImageFactor)$)}]
+        \begin{axis}[
+            axis lines=center, 
+            axis line style={-Triangle},
+            scale only axis,
+            height=2cm,
+            width=\linewidth*\getDarcImageFactor,
+            xmin=0,
+            xmax=2.5*pi,
+            ymin=-1,
+            ymax=1,
+            ticks=none,
+            xlabel={$t$},
+            xlabel style={anchor=north},
+            ylabel={$U_1$},
+            ylabel style={anchor=east},
+        ]
+        \addplot[smooth, mark=none, DARCblue, thick, domain=0:2.5*pi, samples=400] {0.9*sin(deg(x))}; 
+        \end{axis}
+    \end{scope}
+
+    \begin{scope}[shift={($(bb.south west)+(0,-4.5/\getDarcImageFactor)$)}]
+        \begin{axis}[
+            axis lines=center, 
+            axis line style={-Triangle},
+            scale only axis,
+            height=2cm,
+            width=\linewidth*\getDarcImageFactor,
+            xmin=0,
+            xmax=2.5*pi,
+            ymin=-1,
+            ymax=1,
+            ticks=none,
+            xlabel={$t$},
+            xlabel style={anchor=north},
+            ylabel={$U_2$},
+            ylabel style={anchor=east},
+        ]
+        \addplot[smooth, mark=none, DARCblue, thick, domain=0:2.5*pi, samples=400] {-0.9*sin(deg(x))}; 
+        \end{axis}
+    \end{scope}
+
+    \begin{scope}[shift={($(bb.south west)+(0,-6.75/\getDarcImageFactor)$)}]
+        \begin{axis}[
+            axis lines=center, 
+            axis line style={-Triangle},
+            scale only axis,
+            height=2cm,
+            width=\linewidth*\getDarcImageFactor,
+            xmin=0,
+            xmax=2.5*pi,
+            ymin=-1,
+            ymax=1,
+            ticks=none,
+            xlabel={$t$},
+            xlabel style={anchor=north},
+            ylabel={$U_\text{a}$},
+            ylabel style={anchor=east},
+        ]
+        \addplot[smooth, mark=none, DARCblue, thick, domain=0:2.5*pi, samples=400] {0.9*abs(sin(deg(x)))}; 
+        \end{axis}
+    \end{scope}
+
+\end{circuitikz}

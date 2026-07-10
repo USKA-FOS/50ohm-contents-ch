@@ -1,0 +1,38 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2025
+\begin{circuitikz}
+    \tikzset{german switch/.style={
+        cute open switch, 
+        bipoles/cuteswitch/thickness=0.2,
+        bipoles/cuteswitch/shape=circ,
+        bipoles/cuteswitch/width=0.5,
+    }}
+    \draw(0.0,6.0)
+        node[anchor=south] () {+}
+        to [short, o-*] ++(0,-1) coordinate (a1)
+        to [short] ++(-0,-1) node[genericshape, anchor=north, scale=0.75](resistor){};
+    \draw(resistor.south)
+        to [short,-*] ++(0,-1) coordinate (a2)
+        to [short] ++(0,-0.5)
+        node[npn, tr circle, anchor=C] (tr) {};
+    \draw(resistor.south west) -- (resistor.north east);
+
+    \draw(tr.E) to [short] ++(0,-0.5)
+                node [rground] () {};
+
+    \draw[dashed](tr.B) -- ++(-0.5,0); 
+
+    \draw(a1)
+    to [open] ++(1.5,0) coordinate(h1)
+    to [german switch, name={switch}] (h1|-a2) coordinate(h2);
+
+    \draw[dashed](h1) -- ++ (0,+1.0);
+    \draw[dashed](h2) -- ++ (0,-1.0);
+    \draw[dashed](resistor.east) -- (switch.mid);
+
+    \ctikzset{diodes/scale=0.6}
+
+    \draw(a2) to [short] ++(-1,0) coordinate(h3)
+              to [stroke diode] (h3|-a1)
+              to [short] (a1);
+\end{circuitikz}

@@ -1,0 +1,12 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \draw[-Triangle] (0.8, 0) -- ++(4.6,0.0) coordinate(m0);
+    \draw[-Triangle] (1.0,-2) -- ++(0.0,4.5) coordinate(m1);
+    \draw[ultra thick, rounded corners=0.2]
+        (2,0) sin ++(0.5,-1) cos ++(0.5, 1);
+    \draw[ultra thick, rounded corners=0.2]
+        (4,0) sin ++(0.5,-2) cos ++(0.5, 2);
+    \draw (m0) node[anchor=north]{$t$};
+    \draw (m1) node[anchor=south]{$U_\mathrm{2}$};
+\end{circuitikz}

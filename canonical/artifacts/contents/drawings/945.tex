@@ -1,0 +1,12 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{circuitikz}[european]
+    \draw (0,0)
+        to [short, i={$I$}, o-*] ++(1,0) coordinate(c0)
+        to [short] ++(2,0)
+        to [R, l={$R_2$}, v>={$U$}, i>={$I_2$}, voltage=straight] ++(0,-3)
+        to [short, -*] ++(-2,0) coordinate(c1)
+        to [short, -o] ++(-1,0);
+    \draw (c0)
+        to [R, l={$R_1$}, v>={$U$}, i>={$I_1$}, voltage=straight] (c1);
+\end{circuitikz}

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "Qhp5JFET7ilEiCN9dPZFs",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB101]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "0vBKTx1qwOrLr02rQZcmc",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB101",
+    "target_object_type": "question"
+  },
+  {
+    "id": "T68glK8mutdc0PraBQY2O",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB103]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "0vBKTx1qwOrLr02rQZcmc",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB103",
+    "target_object_type": "question"
+  },
+  {
+    "id": "aKJfRNkMfM4b4GMLMQZFR",
+    "inline_alias": "a_leitermodell",
+    "inline_label": "Atome (+) und bewegliche Elektronen (-) in einem metallischen Leiter",
+    "raw_marker": "[picture:713:a_leitermodell:Atome (+) und bewegliche Elektronen (-) in einem metallischen Leiter]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "0vBKTx1qwOrLr02rQZcmc",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "713",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "hetzY5YdQHiUYjexQNcNU",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB102]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "0vBKTx1qwOrLr02rQZcmc",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB102",
+    "target_object_type": "question"
+  }
+]

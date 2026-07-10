@@ -1,0 +1,16 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{circuitikz}
+    \draw (0,0) coordinate(start)
+        to [TL, name={foo}, bipoles/tline/width=2, o-] ++(-3.5,0)
+        |- (foo.top right)
+        to [short,-*] ++ (0,0);
+    \draw[dashed] (foo.west) -- ++(foo.east); 
+    \draw(start) to [open, name={bar}] ++(0,-1) coordinate(end);
+    \draw(end)
+        node[ocirc]{}
+        -| (foo.top left)
+        to [short,-*] ++ (0,0);
+    \draw(bar) node[](){a};
+    \draw(foo.north) node [anchor=north]{$Z=\qty{50}{\ohm}$};
+\end{circuitikz}

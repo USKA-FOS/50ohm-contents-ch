@@ -1,0 +1,41 @@
+[
+  {
+    "id": "BpIo1kmtlx0t1bGGVBJxy",
+    "inline_alias": "e_dezibel_leistungsfaktoren",
+    "inline_label": null,
+    "raw_marker": "[ref:e_dezibel_leistungsfaktoren]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_object_id": "RZEn6gkYES1AeOB84nILo",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_dezibel_leistungsfaktoren",
+    "target_object_type": null
+  },
+  {
+    "id": "MFlaiyxbbuP47v3kiVFrX",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA107]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "RZEn6gkYES1AeOB84nILo",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA107",
+    "target_object_type": "question"
+  },
+  {
+    "id": "hiRnAul0WDFvcwu02uS8s",
+    "inline_alias": "e_dezibel_leistungsfaktoren",
+    "inline_label": "Wichtige Leistungsfaktoren in $\\unit{\\dB}$",
+    "raw_marker": "[table:e_dezibel_leistungsfaktoren:Wichtige Leistungsfaktoren in $\\unit{\\dB}$]",
+    "relation_type": "embeds_table",
+    "sort_order": 1,
+    "source_object_id": "RZEn6gkYES1AeOB84nILo",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "e_dezibel_leistungsfaktoren",
+    "target_object_type": "table_object"
+  }
+]

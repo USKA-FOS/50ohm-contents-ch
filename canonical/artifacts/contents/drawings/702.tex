@@ -1,0 +1,72 @@
+% Author: Michael Groni, DB7YI
+% Year: 2023
+\begin{tikzpicture}
+
+	\tikzstyle{phaseShift}=[fill=DARCorange, font=\tiny, inner sep=1, align=center]
+	\tikzstyle{complexNumber}=[draw=DARCgray, fill=white, minimum width=25, minimum height=0.2, rounded corners=1, font=\tiny, inner sep=1]
+	\tikzstyle{digitalNumber}=[draw=DARCgray, fill=white, minimum width=25, minimum height=0.5, rounded corners=1, font=\bfseries]
+	
+	\tikzset{
+ 		 phaseshiftPic/.pic={
+		 	\node [phaseShift, regular polygon, regular polygon sides=3, rotate=180, minimum size=4, inner sep=0] at (0, 0) {};
+    		\node [phaseShift, anchor=south] at (0,0) {Phasen-\\[-0.1em]wechsel}; 
+  		}
+	}
+	
+	\def\yPins{-0.5}
+	\def\yComplex{-4.9}
+	\def\yNumbers{-6.2}
+	
+	\begin{axis}[	
+		axis lines=middle,
+        width=\linewidth*\getDarcImageFactor,
+        height=4cm,
+		scale only axis,
+		yticklabel=\empty, ytick={},
+		xticklabel=\empty, xtick distance=5*360, xmajorgrids,
+		scaled ticks=false,
+		clip=false,
+		xlabel={$t$},xlabel style={anchor=north},
+		ylabel={$U$}, ylabel style={anchor=east},
+		title=8QAM,
+		xmin=0, xmax=14800, ymin=-4.7, ymax=4.7,
+		axis line style={-triangle 60}, % xmax: 14800 = 40*360 + 400
+	]
+		\addplot [ draw=DARCblue, domain=    0: 1800, samples=500 ] {4*sin(x    )};  % 000
+		\addplot [ draw=DARCblue, domain= 1800: 3600, samples=500 ] {2*sin(x+ 45)};  % 001
+		\addplot [ draw=DARCblue, domain= 3600: 5400, samples=500 ] {2*sin(x+135)};  % 010
+		\addplot [ draw=DARCblue, domain= 5400: 7200, samples=500 ] {4*sin(x+ 90)};  % 011
+		\addplot [ draw=DARCblue, domain= 7200: 9000, samples=500 ] {2*sin(x- 45)};  % 100
+		\addplot [ draw=DARCblue, domain= 9000:10800, samples=500 ] {4*sin(x- 90)};  % 101
+		\addplot [ draw=DARCblue, domain=10800:12600, samples=500 ] {4*sin(x+180)};  % 110
+		\addplot [ draw=DARCblue, domain=12600:14400, samples=500 ] {2*sin(x+225)};  % 111
+		
+		\pic at (axis cs:  1800, \yPins) {phaseshiftPic};
+		\pic at (axis cs:  3600, \yPins) {phaseshiftPic};
+		\pic at (axis cs:  5400, \yPins) {phaseshiftPic};
+		\pic at (axis cs:  7200, \yPins) {phaseshiftPic};
+		\pic at (axis cs:  9000, \yPins) {phaseshiftPic};
+		\pic at (axis cs: 10800, \yPins) {phaseshiftPic};
+		\pic at (axis cs: 12600, \yPins) {phaseshiftPic};
+		
+		\node [digitalNumber] at (axis cs:  900, \yNumbers) {000};
+		\node [digitalNumber] at (axis cs: 2700, \yNumbers) {001};
+		\node [digitalNumber] at (axis cs: 4500, \yNumbers) {010};
+		\node [digitalNumber] at (axis cs: 6300, \yNumbers) {011};
+		\node [digitalNumber] at (axis cs: 8100, \yNumbers) {100};
+		\node [digitalNumber] at (axis cs: 9900, \yNumbers) {101};
+		\node [digitalNumber] at (axis cs:11700, \yNumbers) {110};
+		\node [digitalNumber] at (axis cs:13500, \yNumbers) {111};		
+		
+		\node [complexNumber] at (axis cs:  900, \yComplex) {1 | 0°};
+		\node [complexNumber] at (axis cs: 2700, \yComplex) {0,5 | 45°};
+		\node [complexNumber] at (axis cs: 4500, \yComplex) {0,5 | 135°};
+		\node [complexNumber] at (axis cs: 6300, \yComplex) {1 | 90°};
+		\node [complexNumber] at (axis cs: 8100, \yComplex) {0,5 | 315°};
+		\node [complexNumber] at (axis cs: 9900, \yComplex) {1 | 270°};
+		\node [complexNumber] at (axis cs:11700, \yComplex) {1 | 180°};
+		\node [complexNumber] at (axis cs:13500, \yComplex) {0,5 | 225°};
+
+	\end{axis};
+		
+\end{tikzpicture}

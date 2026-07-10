@@ -1,0 +1,30 @@
+\begin{circuitikz}
+    \draw(0,0)
+        node[anchor=east, align=right](){\qty{2}{\metre}\\\qty{70}{\centi\metre}}
+        to [short, o-*] ++(0.5,0) coordinate(m1)
+        to [short] ++(0,+1) 
+        to [american inductor, l={\qty{68}{\nano\henry}}, -*] ++(1,0) coordinate(o1)
+        to [american inductor, l={\qty{100}{\nano\henry}}, -*] ++(1,0) coordinate(o2)
+        to [american inductor, l={\qty{68}{\nano\henry}}] ++(1,0) 
+        to [short, -o] ++(0.5,0)
+        node[anchor=west](){\qty{2}{\metre}};
+    \draw(m1)
+        to [short] ++(0,-1) 
+        to [C, l={\qty{4,6}{\pico\farad}}, -*] ++(1,0) coordinate(u1)
+        to [C, l={\qty{5,6}{\pico\farad}}, -*] ++(1,0) coordinate(u2)
+        to [C, l={\qty{4,6}{\pico\farad}}] ++(1,0) 
+        to [short, -o] ++(0.5,0)
+        node[anchor=west](){\qty{70}{\centi\metre}};
+    \draw(o1)
+        to [C, l={\qty{15}{\pico\farad}}] ++(0,-1)
+        node[ground]{};
+    \draw(o2)
+        to [C, l={\qty{15}{\pico\farad}}] ++(0,-1)
+        node[ground]{};
+    \draw(u1)
+        to [american inductor, l={\qty{15}{\nano\henry}}] ++(0,-1)
+        node[ground]{};
+    \draw(u2)
+        to [american inductor, l={\qty{15}{\nano\henry}}] ++(0,-1)
+        node[ground]{};
+\end{circuitikz}

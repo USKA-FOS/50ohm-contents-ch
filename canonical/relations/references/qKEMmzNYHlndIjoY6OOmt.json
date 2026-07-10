@@ -1,0 +1,67 @@
+[
+  {
+    "id": "2TU3w2QOGhpQKrwwo9Zuf",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF604]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "qKEMmzNYHlndIjoY6OOmt",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF604",
+    "target_object_type": "question"
+  },
+  {
+    "id": "5zOqLmSD7wTeya559voMk",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF602]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "qKEMmzNYHlndIjoY6OOmt",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF602",
+    "target_object_type": "question"
+  },
+  {
+    "id": "Etsub6uIrMVJuJEdvagc0",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[include:quantisierung_und_sampling]",
+    "relation_type": "includes_object",
+    "sort_order": 1,
+    "source_object_id": "qKEMmzNYHlndIjoY6OOmt",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "include_key",
+    "target_id_value": "quantisierung_und_sampling",
+    "target_object_type": "html_include"
+  },
+  {
+    "id": "Jot7eIW0Y56cZdzEGwnJr",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF601]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "qKEMmzNYHlndIjoY6OOmt",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF601",
+    "target_object_type": "question"
+  },
+  {
+    "id": "gvR28AxYTfBDx73QcKt1e",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF603]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "qKEMmzNYHlndIjoY6OOmt",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF603",
+    "target_object_type": "question"
+  }
+]

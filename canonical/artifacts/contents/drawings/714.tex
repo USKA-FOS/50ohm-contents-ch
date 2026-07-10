@@ -1,0 +1,91 @@
+% Author: Michael Groni, DB7YI
+% Year: 2023
+\begin{tikzpicture}%[node distance=\getDarcImageFactor*1cm]
+  	\pgfmathsetlengthmacro{\nodebreite}{1cm*\getDarcImageFactor}
+
+	\tikzstyle{ladung}=[circle, draw, text centered, align=center, scale=1.75*\getDarcImageFactor]
+	\tikzstyle{plus}=[ladung, fill=DARCred]
+	\tikzstyle{minus}=[ladung, fill=DARCblue]
+	
+	% ---- negativ geladen unten ----
+
+	% Plus oben links
+	\node (obenLinks)  at (0,0) [plus] {$+$};
+	
+	% Metallgitter unten
+	\foreach \x in {2, 4, 6, 8, 10}
+    {
+    	\node at (\x*\nodebreite, 0) [plus] {$+$};
+    }
+    \foreach \x in {0, 2, 4, 6, 8, 10}
+    {
+    	\node at (\x*\nodebreite, 2.5*\nodebreite) [plus] {$+$};
+    } 
+	
+	% $-$ als Beschriftung ergibt einen kleineren Node als $+$.
+	% Workaround: minimum width bei negativen Ladungen
+	% text height=0.25*\nodebreite zentriert das Minus-Zeichen vertikal
+	\node at (-0.2*\nodebreite, 1.5*\nodebreite)  [minus] {$-$};
+	\node at (0.95*\nodebreite, 2.9*\nodebreite)  [minus] {$-$};
+	\node at (0.9*\nodebreite, 0.7*\nodebreite)   [minus] {$-$};
+	\node at (1.5*\nodebreite, 1.6*\nodebreite)   [minus] {$-$};
+	\node at (3.05*\nodebreite, 2.9*\nodebreite)  [minus] {$-$};
+	\node at (3.0*\nodebreite, -0.2*\nodebreite)  [minus] {$-$};
+	\node at (5.0*\nodebreite, 2.2*\nodebreite)   [minus] {$-$};
+	\node at (5.05*\nodebreite, -0.4*\nodebreite) [minus] {$-$};
+	\node at (2.9*\nodebreite, 1.4*\nodebreite)   [minus] {$-$};
+	\node at (4.7*\nodebreite, 1.0*\nodebreite)   [minus] {$-$};
+	\node at (6.0*\nodebreite, 1.1*\nodebreite)   [minus] {$-$};
+	\node at (7.0*\nodebreite, 2.95*\nodebreite)  [minus] {$-$};
+	\node at (7.2*\nodebreite, 1.3*\nodebreite)   [minus] {$-$};
+	\node at (9*\nodebreite, 2.9*\nodebreite)     [minus] {$-$};
+	\node at (9*\nodebreite, 0.9*\nodebreite)     [minus] {$-$};
+	\node at (9*\nodebreite, -0.2*\nodebreite)    [minus] {$-$};
+	\node at (10.1*\nodebreite, 1.3*\nodebreite)  [minus] {$-$};
+	
+	% Rechteck außen herum unten (Minus)
+	\node (drahtNegativ) at (\nodebreite*5, \nodebreite*1.25) [draw, minimum width=12*\nodebreite, minimum height=\nodebreite*4.5] {};
+
+	% ---- Smartphone rechts
+	\smartphone{(\nodebreite*15,\nodebreite*7.2)}{\nodebreite*4}{sp};
+	
+	% ---- positiv geladen oben ----
+	\pgfmathsetlengthmacro{\dYoben}{6.9*\nodebreite}
+	
+	% Metallgitter oben
+	\foreach \x in {0, 2, 4, 6, 8, 10}
+    {
+    	\node at (\x*\nodebreite, 5*\nodebreite+\dYoben) [plus] {$+$};
+    }
+    \foreach \x in {0, 2, 4, 6, 8, 10}
+    {
+    	\node at (\x*\nodebreite, 7.5*\nodebreite+\dYoben) [plus] {$+$};
+    } 
+	
+	% $-$ als Beschriftung ergibt einen kleineren Node als $+$.
+	% Workaround: minimum width bei negativen Ladungen
+	% text height=0.25*\nodebreite zentriert das Minus-Zeichen vertikal
+	\node at (-0.2*\nodebreite, 6.5*\nodebreite+\dYoben) [minus] {$-$};
+	\node at (3.0*\nodebreite, 4.8*\nodebreite+\dYoben)  [minus] {$-$};
+	\node at (2.9*\nodebreite, 6.4*\nodebreite+\dYoben)  [minus] {$-$};
+	\node at (4.7*\nodebreite, 6.0*\nodebreite+\dYoben)  [minus] {$-$};
+	\node at (7.2*\nodebreite, 6.3*\nodebreite+\dYoben)  [minus] {$-$};
+	\node at (9*\nodebreite, 7.9*\nodebreite+\dYoben)    [minus] {$-$};
+	\node at (10.1*\nodebreite, 6.3*\nodebreite+\dYoben) [minus] {$-$};
+	
+	% Rechteck außen herum oben (Plus)
+	\node (drahtPositiv) at (\nodebreite*5, \nodebreite*6.25+\dYoben) [draw, minimum width=\nodebreite*12, minimum height=\nodebreite*4.5] {};
+	
+	% Verdrahtung Plus - Smartphone
+    \draw (drahtPositiv.east) -| (sp.north);
+
+	% Verdrahtung Minus - Smartphone
+    \draw (drahtNegativ.east) -| (sp.south);
+	
+	% großes Plus oben
+	\node  at (12*\nodebreite, 14*\nodebreite) {\huge $+$};
+
+	% großes Minus unten
+	\node  at (12*\nodebreite, 0.25*\nodebreite) {\huge $-$};
+
+\end{tikzpicture}

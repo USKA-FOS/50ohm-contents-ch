@@ -1,0 +1,67 @@
+[
+  {
+    "id": "3tCBM8Q4QuvzOX2AvCK4i",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AE406]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "3izhkm2hqVvZxaknEGTj5",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AE406",
+    "target_object_type": "question"
+  },
+  {
+    "id": "FwONgf0h9F4fTAgPBmc1Z",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AE402]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "3izhkm2hqVvZxaknEGTj5",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AE402",
+    "target_object_type": "question"
+  },
+  {
+    "id": "SxgodS5Jakfae8WSrqHOz",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AA104]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "3izhkm2hqVvZxaknEGTj5",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AA104",
+    "target_object_type": "question"
+  },
+  {
+    "id": "vMH9F0esiWjqYCuxi8flA",
+    "inline_alias": "4ask",
+    "inline_label": "Quaternäre Amplitudenumtastung (Quaternary Amplitude-shift Keying)",
+    "raw_marker": "[picture:701:4ask:Quaternäre Amplitudenumtastung (Quaternary Amplitude-shift Keying)]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "3izhkm2hqVvZxaknEGTj5",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "701",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "xVkqepFmfdWzJBzpxets2",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AE405]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "3izhkm2hqVvZxaknEGTj5",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AE405",
+    "target_object_type": "question"
+  }
+]

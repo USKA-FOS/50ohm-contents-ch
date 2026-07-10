@@ -1,0 +1,23 @@
+% Author:	Dr. Matthias Jung, DL9MJ
+%			Stephan Kregel, DG1HXJ
+% Year: 2022
+% 3-TD109B, 3-TD109D, 3-TD109F(x)
+\begin{circuitikz}[straight voltages]
+    
+    \draw(0,6) node[ocirc] (U1A) {};
+    \draw(0,0) node[] (U1B) {};
+    
+    \draw(U1A) to [short, i=$I_{1}$] ++(2,0)
+    to [european resistor, -*, v>=$U_{\textrm{1}}$,
+    l=$R_{\textrm{1}}$] ++(0,-3) coordinate(foo)
+    to [european resistor, v>=$U_{\textrm{2}}$,
+    l=$R_{\textrm{2}}$, i=$I_{\textrm{2}}$] ++(0,-3)
+    to [short, -o] ++(-2,0);
+    
+    \draw(foo) to [short] ++(2,0)
+    to [european resistor,l=$R_{\textrm{L}}$, i=$I_{\textrm{L}}$] ++(0,-3)
+    to [short, -*] ++(-2,0);
+    
+    \draw(U1A) to[open, v=$U_{\textrm{B}}$] (U1B);
+    
+\end{circuitikz}

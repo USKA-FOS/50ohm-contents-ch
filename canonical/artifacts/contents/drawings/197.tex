@@ -1,0 +1,21 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{circuitikz}[american]
+    \draw (0,0) node[transformer core](T){};
+    %
+    \draw (T.A1) to [short, -o] ++(0,0) coordinate(a1);
+    \draw (T.A2) to [short, -o] ++(0,0) coordinate(a2);
+    \draw (T.B1) to [short, -o] ++(0,0) coordinate(b1);
+    \draw (T.B2) to [short, -o] ++(0,0) coordinate(b2);
+    %
+    \draw(b1) node[anchor=west]{a};
+    \draw(b2) node[anchor=west]{b};
+    %
+    \draw(a1 |- T-L1.south west) node[]{\qty{230}{\volt}};
+    \draw(a2 |- T-L1.south east) coordinate(start);
+    \def\x{0.05cm}
+    \draw (start) sin ++(+\x, \x)
+                  cos ++(+\x,-\x);
+    \draw (start) sin ++(-\x,-\x)
+                  cos ++(-\x,+\x);
+\end{circuitikz}

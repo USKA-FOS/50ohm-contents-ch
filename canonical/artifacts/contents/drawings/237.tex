@@ -1,0 +1,57 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{circuitikz}
+    \draw[very thick] (0,0) to [short] ++(1,0) coordinate(b);
+    \ctikzset{inductors/coils=2, inductors/scale=0.5, capacitors/scale=0.5}
+    \draw(b)  to [short, *-] ++(0,0.35);
+    \draw(b)  to [open] ++(0.5,0.35)
+              arc(0:180:0.125)
+              arc(0:180:0.125);
+    \draw(b)  to [open] ++(0.5,0.35)
+              to [short] ++(0,-0.35);
+    \draw(b)  to [short] ++(0,-0.35)
+              to [C,l_=a] ++(0.5,0)
+              to [short,-*] ++(0,+0.35) coordinate(u1);
+    \draw[very thick] (u1)
+              to [short] ++(0.5,0) coordinate(a);
+    \draw(a)  to [short,*-] ++(0,0.35);
+    \draw(a)  to [open] ++(0.5,0.35)
+              arc(0:180:0.125)
+              arc(0:180:0.125);
+    \draw(a)  to [open] ++(0.5,0.35)
+              to [short] ++(0,-0.35);
+    \draw(a)  to [short] ++(0,-0.35)
+              to [C,l_=b] ++(0.5,0)
+              to [short,-*] ++(0,+0.35) coordinate(u2);
+    \draw[very thick](u2)
+              to [short] ++(2,0) coordinate(x1);
+    \draw(x1)
+              to [open, *-*] ++(0.5,0) coordinate(x2);
+    \draw[very thick](x2)
+              to [short] ++(2,0) coordinate(c);
+    \draw(c)  to [short, *-] ++(0,0.35);
+    \draw(c)  to [open] ++(0.5,0.35)
+              arc(0:180:0.125)
+              arc(0:180:0.125);
+    \draw(c)  to [open] ++(0.5,0.35)
+              to [short] ++(0,-0.35);
+    \draw(c)  to [short] ++(0,-0.35)
+              to [C,l_=b] ++(0.5,0)
+              to [short,-*] ++(0,+0.35) coordinate(u3);
+    \draw[very thick](u3)
+              to [short] ++(0.5,0) coordinate(d);
+    \draw(d)  to [short,*-] ++(0,0.35);
+    \draw(d)  to [open] ++(0.5,0.35)
+              arc(0:180:0.125)
+              arc(0:180:0.125);
+    \draw(d)  to [open] ++(0.5,0.35)
+              to [short] ++(0,-0.35);
+    \draw(d)  to [short] ++(0,-0.35)
+              to [C,l_=a] ++(0.5,0)
+              to [short,-*] ++(0,+0.35) coordinate(u4);
+    \draw[very thick](u4)
+              to [short,-] ++(1,0);
+
+    \draw (x1) node[anchor=north]{X};
+    \draw (x2) node[anchor=north]{X};
+\end{circuitikz}

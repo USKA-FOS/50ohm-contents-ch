@@ -1,0 +1,9 @@
+% DL9MJ 2025:
+\begin{circuitikz}
+    \draw (0,0)
+        to [thRp, name={ptc}] ++(2,0)
+        to [open] ++(1,0)
+        to [thRn, name={ntc}] ++(2,0);
+    \draw(ptc.south) node[anchor=north]{PTC};
+    \draw(ntc.south) node[anchor=north]{NTC};
+\end{circuitikz}

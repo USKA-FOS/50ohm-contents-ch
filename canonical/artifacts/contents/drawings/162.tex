@@ -1,0 +1,11 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \draw(0,0) to [short, o-o] ++(6,0);
+    \draw(0,4) to [short, o-*] ++(1,0) coordinate(dc1)
+               to [R,-*] ++(4,0) coordinate(dc2)
+               to [short, -o] ++(1,0);
+    \draw(dc1) to [short] ++(0,-2)
+               to [C] ++(4,0)
+               to [short] (dc2);
+\end{circuitikz}

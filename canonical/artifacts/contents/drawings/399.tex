@@ -1,0 +1,18 @@
+% Author: Stephan Kregel, DG1HXJ
+% Year: 2021
+% 3-TD237, 3-TD238, 3-TD239
+
+\begin{circuitikz}
+\draw (0,0) node [bnc, anchor=hot, rotate=0](bnc1){$\mathrm{RX}$};
+\draw (bnc1.hot) to [C, l=$C_1$] ++(2,0) coordinate(c1l1) to [L, american, *-*] ++(0,-2) coordinate(c2l1) to [C, l_=$C_2$] ++(-2,0) coordinate(C2);
+\draw (C2.center) -- ++(0,-0.25) to node[rground]{} ++(0,0);
+\node [rground] at (bnc1.shield) {};
+\draw (c1l1) -- ++(2,0) node[bnc, anchor=hot, xscale=-1](bnc2){};
+\draw (bnc2) ++(0.15,0.4) node(){$\mathrm{LNA}$} ++(0,0);
+\node [rground] at (bnc2.shield) {};
+\draw (c2l1) -- ++(2,0) to node[ocirc]{} ++(0,0);
+\draw (c2l1) ++(2,-0.25) to node[ocirc](GND){} ++(0,0);
+\draw (GND.south) to node [rground]{} ++(0,0);
+\draw (3.75,-2.5) rectangle (4.25,-1.75);
+\draw (4,-1.5)node[]{$\mathrm{DC}$};	
+\end{circuitikz}

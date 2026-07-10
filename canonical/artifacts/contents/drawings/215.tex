@@ -1,0 +1,31 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{tikzpicture}
+    \begin{axis}[%
+        /pgf/number format/1000 sep={ },
+        /pgf/number format/use comma,        
+        axis lines=middle,
+        axis line style={-Triangle},
+        width=\linewidth*\getDarcImageFactor,
+        height=3cm,
+        scale only axis,
+        ytick={-1},
+        every major tick/.append style={thick, black},
+        grid=major,
+        grid style={line width=.1pt, draw=gray!10},
+        major grid style={line width=.2pt,draw=gray!50},
+        xticklabel=\empty,
+        yticklabel=\empty,
+        xtick style={draw=none},
+        ytick style={draw=none},
+        xmin=0,
+        xmax=3.3*pi,
+        ymin=-1.25,
+        ymax=1.25,
+        xmajorgrids=false,
+        ymajorgrids=false,
+        tick label style={font=\footnotesize}
+    ]
+        \addplot[samples=500,domain=0:3.0*pi,smooth,black] {abs(sin(deg(x)))}; 
+\end{axis}
+\end{tikzpicture}%

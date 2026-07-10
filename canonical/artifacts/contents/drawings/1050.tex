@@ -1,0 +1,73 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{circuitikz}
+
+    \draw[DARCred,thick] (0,6)
+        sin ++(4, 1)
+        cos ++(4,-1);
+    \draw[DARCred] (0.25,6.5) node[](){$I$};
+
+    \draw[very thick] (0,6) coordinate(start)
+        to [short] ++( 3.9,   0)
+        to [short] ++(   0,-0.8) node[anchor=south east](){$\downarrow \unit{\ohm}$};
+    \draw[very thick] (8,6) coordinate(end)
+        to [short] ++(-3.9,   0)
+        to [short] ++(   0,-0.8) node[anchor=south west](){$f$};
+    
+    \draw(start) node [anchor=east] () {a.};
+    \DARCmeasure{start}{end}{0,2}{0}{$\frac{\lambda}{2}$}
+
+    \draw[DARCred,thick] (0,4)
+        sin ++(2, 1)
+        cos ++(2,-1)
+        sin ++(2, 1)
+        cos ++(2,-1);
+    \draw[DARCred] (0.25,4.5);
+
+    \draw[very thick] (0,4) coordinate(start)
+        to [short] ++( 3.9,   0)
+        to [short] ++(   0,-0.8) node[anchor=south east](){$\uparrow \unit{\ohm}$};
+    \draw[very thick] (8,4) coordinate(end)
+        to [short] ++(-3.9,   0)
+        to [short] ++(   0,-0.8) node[anchor=south west](){$2\cdot f$};
+
+    \draw(start) node [anchor=east] () {b.};
+
+    \draw[DARCred,thick] (0,2)
+        sin ++(1.333, 1)
+        cos ++(1.333,-1)
+        sin ++(1.333, 1)
+        cos ++(1.333,-1)
+        sin ++(1.333, 1)
+        cos ++(1.333,-1);
+    \draw[DARCred] (0.25,2.5);
+
+    \draw[very thick] (0,2) coordinate(start)
+        to [short] ++( 3.9,   0)
+        to [short] ++(   0,-0.8) node[anchor=south east](){$\downarrow \unit{\ohm}$};
+    \draw[very thick] (8,2) coordinate(end)
+        to [short] ++(-3.9,   0)
+        to [short] ++(   0,-0.8) node[anchor=south west](){$3\cdot f$};
+
+    \draw(start) node [anchor=east] () {c.};
+
+    \draw[DARCred,thick] (0,0)
+        sin ++(1, 1)
+        cos ++(1,-1)
+        sin ++(1, 1)
+        cos ++(1,-1)
+        sin ++(1, 1)
+        cos ++(1,-1)
+        sin ++(1, 1)
+        cos ++(1,-1);
+    \draw[DARCred] (0.25,0.5);
+
+    \draw[very thick] (0,0) coordinate(start)
+        to [short] ++( 3.9,   0)
+        to [short] ++(   0,-0.8) node[anchor=south east](){$\uparrow \unit{\ohm}$};
+    \draw[very thick] (8,0) coordinate(end)
+        to [short] ++(-3.9,   0)
+        to [short] ++(   0,-0.8) node[anchor=south west](){$4\cdot f$};
+
+    \draw(start) node [anchor=east] () {d.};
+\end{circuitikz}

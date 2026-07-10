@@ -1,0 +1,71 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2023
+\begin{circuitikz}[american]
+    \ctikzset{
+        quadpoles/transformer core/inner=1,
+        quadpoles/transformer core/width=0.6,
+        diodes/scale=\getDarcImageFactor,
+        capacitors/scale=\getDarcImageFactor
+    }
+    \tikzset{german switch/.style={
+        cute open switch, 
+        bipoles/cuteswitch/thickness=0.2,
+        bipoles/cuteswitch/shape=circ,
+        bipoles/cuteswitch/width=0.5,
+    }}
+
+    % Gleichrichter
+    \draw (0.0, 0.0) coordinate(bottom)
+        to [stroke diode, -*] ++( 1.5, 1.5)  coordinate(plus)
+        to [stroke diode, invert, -*] ++(-1.5, 1.5) coordinate(top)
+        to [stroke diode, invert, -*] ++(-1.5,-1.5) coordinate(minus)
+        to [stroke diode, -*] (bottom); 
+
+    \draw(top)
+        to [short, -o] ++(-2.25,0) coordinate(o0);
+    \draw(bottom)
+        to [short, -o] ++(-2.25,0) coordinate(u0);
+
+    \draw(o0)
+        to [open, name={h0}] (u0);
+    \draw(h0.center) 
+        node[anchor=north, rotate=90](){$\sim~\qty{230}{\volt}$};
+
+
+    % Oben
+    \draw(plus)
+        to [short] ++(0,1.5) coordinate(a1)
+        to [german switch, l_={E}] ++(2,0) coordinate(a2)
+        node[transformer core, anchor=A1](T){};
+    \draw(T.B1) 
+        to [stroke diode, -*] ++(1.5,0) coordinate(o2)
+        to [short, -o] ++(0.5,0);
+
+    % Kasten
+    \draw(a1) ++( 0.25,0) coordinate(aa1);
+    \draw(a2) ++(-0.25,0) coordinate(aa2);
+    \draw[gray, thick] (aa1) -- ++(0,0.75) -| (aa2) -- ++(0,-0.75) -| (aa1);
+
+    % Unten
+    \draw(minus)
+        to [short] ++(0,-2)
+        to [short] ++(3,0)
+        to [short] ++(1,0) coordinate(u1)
+        to [short] ++(1,0)
+        -| (T.A2);
+    \draw(T.B2) 
+        to [short, -*] ++(1.5,0) coordinate(u2)
+        to [short, -o] ++(0.5,0);
+
+    % Mitte
+    \draw(plus)
+        to [short ] ++(1,0)
+        to [C, -*, name={myC1}] (u1);
+
+    \draw(o2)
+        to [C, name={myC2}] (u2);
+
+    \draw(myC1.south west) node[anchor=south](){+};
+    \draw(myC2.south west) node[anchor=south](){+};
+
+\end{circuitikz}

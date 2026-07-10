@@ -1,0 +1,80 @@
+[
+  {
+    "id": "0QgtjBPkwMUvr7Z5HiRuK",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VN024]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_object_id": "Fx2gFjYWTNY6nrBArfUh0",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VN024",
+    "target_object_type": "question"
+  },
+  {
+    "id": "3r2Enhnskjw93Ifqrhc82",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE210]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "Fx2gFjYWTNY6nrBArfUh0",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE210",
+    "target_object_type": "question"
+  },
+  {
+    "id": "7YwyLdDcA42hWMrphSLds",
+    "inline_alias": "n_sstv",
+    "inline_label": "Ein per SSTV übertragenes Bild",
+    "raw_marker": "[photo:84:n_sstv:Ein per SSTV übertragenes Bild]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_object_id": "Fx2gFjYWTNY6nrBArfUh0",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "84",
+    "target_object_type": "photo"
+  },
+  {
+    "id": "V1jwnkryAaDJFBZ8Zrqlo",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VN012]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "Fx2gFjYWTNY6nrBArfUh0",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VN012",
+    "target_object_type": "question"
+  },
+  {
+    "id": "YxGlAAOjlomzRHgxk2NTo",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VN013]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "Fx2gFjYWTNY6nrBArfUh0",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VN013",
+    "target_object_type": "question"
+  },
+  {
+    "id": "yWt211BQ58YeGc6BScadc",
+    "inline_alias": "n_sstv",
+    "inline_label": null,
+    "raw_marker": "[ref:n_sstv]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_object_id": "Fx2gFjYWTNY6nrBArfUh0",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_sstv",
+    "target_object_type": null
+  }
+]

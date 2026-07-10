@@ -1,0 +1,64 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}[american]
+    \def\mylen{2}
+    \ctikzset{
+        %quadpoles/transformer core/height=\mylen,
+        diodes/scale=\getDarcImageFactor,
+        capacitors/scale=\getDarcImageFactor,
+        resistors/scale=\getDarcImageFactor,
+        inductors/scale=\getDarcImageFactor
+    }
+    \draw(0,0) node[transformer core](T){};
+    \draw(T.west) node[rotate=90, anchor=north]{\textasciitilde~\qty{230}{\volt}};
+
+    \draw(T.A1) to [short, -o] ++(0,0);
+    \draw(T.A2) to [short, -o] ++(0,0);
+
+    \draw(T.B1) to [short, -*]++(0.75,0) coordinate(top);
+    \draw(T.B2) to [short, -*]++(0.75,0) coordinate(bottom);
+
+    % Hilfskoordinaten:
+    \draw(top)
+        to [open, name={hilf}] (bottom);
+    \draw(hilf.center)
+        to [open] ++(-1,0) coordinate(minus);
+    \draw(hilf.center)
+        to [open] ++(+1,0) coordinate(plus);
+
+    % Links:
+    \draw(top)
+        to [stroke diode, invert, -*] (minus)
+        to [stroke diode] (bottom);
+    % Rechts:
+    \draw(top)
+        to [stroke diode, -*] (plus)
+        to [stroke diode, invert] (bottom);
+    % Oben:
+    \draw(plus)
+        to [short] ++(0.5,0) coordinate(o1)
+        %to [american inductor, inductors/coils=3, inductors/width=0.5] ++(1.5,0) coordinate(o2)
+        to [american inductor] ++(2,0) coordinate(o2)
+        %to [short] ++(1,0) coordinate(o3)
+        to [short,-o] ++(1.0,0) coordinate(o4);
+
+    % Unten:
+    \draw(minus)
+        to [short] ++(0,-\mylen)
+        to [short] ++(\mylen+0.5,0) coordinate(u1)
+        to [short] ++(2,0) coordinate(u2)
+        %to [short] ++(1,0) coordinate(u3)
+        to [short,-o] ++(1.0,0) coordinate(u4);
+
+    % Komponenten:
+    \draw(o1) to [C, *-*] (u1);
+    \draw(o2) to [C, name={CS}, *-*] (u2);
+    %\draw(o3) to [european resistor, *-*] (u3);
+
+    % Beschriftung:
+    \draw(top)    node[anchor=south](){\textasciitilde};
+    \draw(bottom) node[anchor=north](){\textasciitilde};
+    \draw(plus)   node[anchor=east ](){+};
+    \draw(minus)  node[anchor=west ](){--};
+    \draw(CS.south west) node[anchor=south](){$C_S$};
+\end{circuitikz}

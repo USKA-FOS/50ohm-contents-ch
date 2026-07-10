@@ -1,0 +1,58 @@
+% Author: Stephan Kregel, DG1HXJ
+% Year: 2022
+\begin{circuitikz}
+    \ctikzset{
+        transformer L1/.style={inductors/coils=3, inductors/width=0.6},
+        transformer L2/.style={inductors/coils=4}
+    }
+    \draw(0,0) node[transformer core, american](T1){};
+    \draw(T1.A1) to [short, -o] ++(0,0);
+    \draw(T1.A2) to [short, -o] ++(0,0);
+    \draw(T1.B1)
+        to [short] ++(0.5,0)
+        node[npn, tr circle, anchor=B](npn1){};
+    \draw(T1.B2)
+        to [short] ++(0.5,0)
+        node[npn, tr circle, anchor=B, yscale=-1](npn2){};
+    \draw(npn1.E)
+        to [short, name={h1}] (npn2.E);
+    \ctikzset{
+        quadpoles/transformer core/inner=1,
+        quadpoles/transformer core/width=0.6,
+        quadpoles/transformer core/height=1.5,
+    }
+    \draw(T1) ++(6,0) node[transformer core, american, rotate=180, transform shape](T2){};
+    \draw(npn1.C) -| (T2.B2);
+    \draw(npn2.C) -| (T2.B1);
+    \draw(T2.A1) to [short, -o] ++(0.6,0);
+    \draw(T2.A2) to [short, -o] ++(0.6,0) coordinate(c0);
+
+    \draw(T1-L2.midtap)
+        to [short,*-*] ++(0.5,0) coordinate(c1)
+        to [short] ++(0,1.5)
+        to [R] ++(0,2.5) coordinate(c2);
+    \draw(c2)
+        to [short, *-] ++(-1,0)
+        to [C] ++(0,-1)
+        node[rground](){};
+    \draw(c1)
+        to [short] ++(0,-1.5)
+        to [R] ++(0,-2)
+        to [short,-*] ++(2.5,0)
+        node[rground](gnd){}
+        to [short,-o] (gnd-|c0) coordinate(c5)
+        node[anchor=south](){--};
+    \draw(c2)
+        to [short, -o] (c2-|c5) coordinate(c7)
+        node[anchor=south](){+};
+    \draw(T2-L2.midtap)
+        to [short,*-*] ++(-1,0) coordinate(c4)
+        to [C] ++(0,-1)
+        node[rground](){};
+    \draw(c4) 
+        to [short] ++(0,2) coordinate(c6)
+        to [american inductor, name={l1},-*] (c6|-c7);
+    \draw(h1.center) 
+        to [short, *-] ++(0,0)
+        -| (gnd);
+\end{circuitikz}

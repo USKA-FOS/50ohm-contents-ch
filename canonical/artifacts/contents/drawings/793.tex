@@ -1,0 +1,38 @@
+% Author: Michael Groni, DB7YI
+% Year: 2024
+% Stellenwerte Frequenzzähler
+
+\begin{circuitikz}
+	\ctikzset{seven seg/color on=black}
+	\draw (0,0) node[seven segment val=4 dot none box off, anchor=west](z1){};
+	\draw (z1.east) node[seven segment val=3 dot none box off, anchor=west](z2){};
+	\draw (z2.east) node[seven segment val=3 dot on box off, anchor=west](z3){};
+	\draw (z3.east) node[seven segment val=1 dot none box off, anchor=west](z4){};
+	\draw (z4.east) node[seven segment val=7 dot none box off, anchor=west](z5){};
+	\draw (z5.east) node[seven segment val=5 dot none box off, anchor=west](z6){};
+	\draw (z6.east) node[seven segment val=0 dot none box off, anchor=west](z7){};
+	\draw (z7.east) node[seven segment val=0 dot none box off, anchor=west](z8){};
+	\draw (z8.east) node[seven segment val=0 dot none box off, anchor=west](z9){};
+	
+	\draw (z9.east) node[anchor=west](){MHz};
+	
+	\draw (z1.north) node[anchor=south](sci1){10\textsuperscript8\par};
+	\draw (z2.north) node[anchor=south](sci2){10\textsuperscript7\par};
+	\draw (z3.north) node[anchor=south](sci3){10\textsuperscript6\par};
+	\draw (z4.north) node[anchor=south](sci4){10\textsuperscript5\par};
+	\draw (z5.north) node[anchor=south](sci5){10\textsuperscript4\par};
+	\draw (z6.north) node[anchor=south](sci6){10\textsuperscript3\par};
+	\draw (z7.north) node[anchor=south](sci7){10\textsuperscript2\par};
+	\draw (z8.north) node[anchor=south](sci8){10\textsuperscript1\par};
+	\draw (z9.north) node[anchor=south](sci9){10\textsuperscript0\par};
+	
+	\draw (sci1.north) node[anchor=south](2){\tiny100M};
+	\draw (sci2.north) node[anchor=south](2){\tiny10M};
+	\draw (sci3.north) node[anchor=south](2){\tiny1M};
+	\draw (sci4.north) node[anchor=south](2){\tiny100k};
+	\draw (sci5.north) node[anchor=south](2){\tiny10k};
+	\draw (sci6.north) node[anchor=south](2){\tiny1k};
+	\draw (sci7.north) node[anchor=south](2){\tiny100};
+	\draw (sci8.north) node[anchor=south](2){\tiny10};
+	\draw (sci9.north) node[anchor=south](2){\tiny1};
+\end{circuitikz}

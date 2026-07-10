@@ -1,0 +1,20 @@
+% Author: Dr. Matthias Jung
+% Year: 2022
+\begin{circuitikz}[american voltages]
+        \useasboundingbox (-1,-0.5) rectangle (6.0,3.5);
+        
+        \tikzset{german switch/.style={
+            cute open switch, 
+            bipoles/cuteswitch/thickness=0.2,
+            bipoles/cuteswitch/shape=circ,
+            bipoles/cuteswitch/width=0.7,
+        }}
+
+		\draw(0,0)
+			to [battery2, invert, v<={U}] ++(0,3)
+			to [short] ++(1.0,0)
+			to [german switch] ++(1,0)
+			to [short] ++(3.0,0)
+			to [R, l=R] ++(0,-3)
+			to [short] (0,0);
+\end{circuitikz}

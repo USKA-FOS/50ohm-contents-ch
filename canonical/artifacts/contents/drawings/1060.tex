@@ -1,0 +1,15 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{tikzpicture}
+    \draw[-Triangle](0,0) -- ++(0,1.25) node[anchor=south] {$Q$};
+    \draw[-Triangle](0,0) -- ++(1.25,0) node[anchor=west]  {$I$};
+    \draw(0,0) -- ++(-1.25,0);
+    \draw(0,0) -- ++(0,-1.25);
+    \draw[gray](0,0) circle (1);
+    %
+    \draw[-Triangle, ultra thick, DARCblue](0,0) coordinate(start) -- ++( 45:1.0) coordinate(end);
+    %
+    \draw[-Triangle](0.75,0) arc (0: 45:0.75) node[pos=0.5, anchor=west] {Phase};
+    %
+    \DARCmeasure{start}{end}{-0.08,+0.08}{45}{Amplitude};
+\end{tikzpicture}

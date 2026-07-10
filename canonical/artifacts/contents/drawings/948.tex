@@ -1,0 +1,44 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{tikzpicture}
+    % Define a formula for the coil.
+    % This is what the numbers mean:
+    % A ... how far the rings are apart
+    % B ... how much from the side the rings are seen (try 0 and the same as the radius)
+    % C ... radius of the rings
+    \def\coil#1{
+        % A                   B
+        {0.3 * (2*#1 + \t) + 0.55*sin(\t * pi r))},
+        % C
+        {1.0 * cos(\t * pi r)}
+    }
+
+    % Draw the rectangle
+    \draw[thick] (0,-0.60) to [open, name={n1}] (3.75,0.80);
+
+    \draw[thick](n1) ++(-0.15,0) node[
+        cylinder,
+        draw=black,
+        cylinder uses custom fill, 
+        cylinder body fill = black!10, 
+        cylinder end fill = black!40,
+        aspect=3.0,
+        minimum width = 1.4cm*\getDarcImageFactor,
+        minimum height = 4.25cm*\getDarcImageFactor
+    ](c){};
+
+    % Draw the part of the coil in front of the rectangle
+    \foreach \n in {0,1,...,5} {
+        \draw[domain={0.7:2.2},smooth,variable=\t,samples=15, thick]
+            plot (\coil{\n});
+    }
+
+    \draw[domain={ 0.0:0.5},smooth,variable=\t,samples=15,thick] plot (\coil{6});
+    \draw[domain={-0.5:0.2},smooth,variable=\t,samples=15,thick] plot (\coil{0});
+    \draw[thick] (-0.7,0) coordinate(start) to [short,-o] (-0.7,-2);
+    \draw[thick] (4.3,0) coordinate(end) to [short,-o] (4.3,-2);
+
+    \DARCmeasure{start}{end}{0,1.25}{0}{$l$}
+    \draw[Triangle-](c.east) ++(-0.2,0) -- ++(1,-1) node[anchor=north west](){$A_S$};
+    \draw(c.south) ++(0,-0.75) node[](){$N$};
+\end{tikzpicture}

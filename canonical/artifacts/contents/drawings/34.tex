@@ -1,0 +1,49 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \draw[thick] (0,2) sin ++(4, 3)
+                       cos ++(4,-3);
+    \draw[thick] (0,2) sin ++(2,+1.5)
+                       cos ++(2,-1.5) 
+                       sin ++(2,+1.5)
+                       cos ++(2,-1.5);
+    \draw[thick] (0,2) sin ++(1,+0.75)
+                       cos ++(1,-0.75) 
+                       sin ++(1,+0.75)
+                       cos ++(1,-0.75)
+                       sin ++(1,+0.75)                            
+                       cos ++(1,-0.75)
+                       sin ++(1,+0.75)
+                       cos ++(1,-0.75);
+
+    \draw[thick] (0,2) sin ++(0.5,+0.35)
+                       cos ++(0.5,-0.35) 
+                       sin ++(0.5,+0.35)
+                       cos ++(0.5,-0.35)
+                       sin ++(0.5,+0.35)                            
+                       cos ++(0.5,-0.35)
+                       sin ++(0.5,+0.35)
+                       cos ++(0.5,-0.35)
+                       sin ++(0.5,+0.35)
+                       cos ++(0.5,-0.35) 
+                       sin ++(0.5,+0.35)
+                       cos ++(0.5,-0.35)
+                       sin ++(0.5,+0.35)                            
+                       cos ++(0.5,-0.35)
+                       sin ++(0.5,+0.35)
+                       cos ++(0.5,-0.35);
+
+    \draw[very thick] (0,2) coordinate(start)
+        to [short] ++( 3.9,   0)
+        to [short] ++(   0,-0.8);
+    \draw[very thick] (8,2) coordinate(end)
+        to [short] ++(-3.9,   0)
+        to [short] ++(   0,-0.8);
+
+    \draw (6.8,3.8) node[]{d};
+    \draw (3.3,3.3) node[]{c};
+    \draw (1.5,2.8) node[]{b};
+    \draw (1.0,2.3) node[]{a};
+
+    \DARCmeasure{start}{end}{0,-1}{0}{$\qty{40}{\meter}$}
+\end{circuitikz}

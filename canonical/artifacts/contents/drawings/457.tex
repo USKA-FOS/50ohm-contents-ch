@@ -1,0 +1,11 @@
+% Author: Stephan Kregel, DG1HXJ
+% Year: 2022
+\begin{circuitikz}[european]
+	\draw (0,0) node[ocirc]{} to [short, o-] ++(1,0) coordinate(r1);
+	\draw (r1)
+    	to [short, *-] ++(0,1) 
+		to [C=$C_1$] ++(2,0)
+		to [C=$C_2$] ++(2,0)
+		to [short, -*] ++(0,-1) coordinate(r2) -- ++(1,0) to node[ocirc]{} ++(0,0) ;
+	\draw (r1) -- ++(0,-1) to [C=$C_3$] ++(4,0) -- ++(0,1);
+\end{circuitikz}

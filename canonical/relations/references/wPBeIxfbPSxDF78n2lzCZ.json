@@ -1,0 +1,41 @@
+[
+  {
+    "id": "J8jmEnCXPYy71mwjPi4QP",
+    "inline_alias": "StepUpWandler",
+    "inline_label": "Abwärts- (Buck) Aufwärts- (Boost) Wandler. Hier als Aufwärtsspannungswandler von $\\qty{7,2}{\\volt}$ auf $\\qty{24}{\\volt}$ eingestellt",
+    "raw_marker": "[photo:300:StepUpWandler: Abwärts- (Buck) Aufwärts- (Boost) Wandler. Hier als Aufwärtsspannungswandler von $\\qty{7,2}{\\volt}$ auf $\\qty{24}{\\volt}$ eingestellt]",
+    "relation_type": "embeds_photo",
+    "sort_order": 3,
+    "source_object_id": "wPBeIxfbPSxDF78n2lzCZ",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "300",
+    "target_object_type": "photo"
+  },
+  {
+    "id": "rGq3fEvGlQmtPggvch6L4",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB214]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "wPBeIxfbPSxDF78n2lzCZ",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB214",
+    "target_object_type": "question"
+  },
+  {
+    "id": "z2uujgxsrdDxeRyA0IZ2x",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB213]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_object_id": "wPBeIxfbPSxDF78n2lzCZ",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB213",
+    "target_object_type": "question"
+  }
+]

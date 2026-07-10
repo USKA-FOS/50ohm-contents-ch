@@ -1,0 +1,103 @@
+{
+  "id": "4FYYcwkJkQWfC9oo4SjAJ",
+  "identifiers": [
+    {
+      "id": "n2LXCdM3EylTPAuhAUpgU",
+      "id_system": "question_code",
+      "id_value": "AI208",
+      "object_id": "4FYYcwkJkQWfC9oo4SjAJ",
+      "preferred": 1
+    }
+  ],
+  "metadata": [
+    {
+      "id": "0EfLmg9msSq1sHm7jJZew",
+      "metadata_key": "picture_question",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "4FYYcwkJkQWfC9oo4SjAJ",
+      "value_json": "527"
+    },
+    {
+      "id": "2jwqDD0R2NEjJL6NuekBx",
+      "metadata_key": "picture_d",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "4FYYcwkJkQWfC9oo4SjAJ",
+      "value_json": "\"\""
+    },
+    {
+      "id": "2mGZ7zUbfuhGvUfoNV4NI",
+      "metadata_key": "type",
+      "metadata_scope": "question_layout",
+      "object_id": "4FYYcwkJkQWfC9oo4SjAJ",
+      "value_json": "\"QuestionPictureLeft\""
+    },
+    {
+      "id": "Ca32HxpTmJxE32NSOelop",
+      "metadata_key": "sscale",
+      "metadata_scope": "question_layout",
+      "object_id": "4FYYcwkJkQWfC9oo4SjAJ",
+      "value_json": "0.5"
+    },
+    {
+      "id": "DeGDXmxwW9ASWgY9eZmEP",
+      "metadata_key": "class",
+      "metadata_scope": "question",
+      "object_id": "4FYYcwkJkQWfC9oo4SjAJ",
+      "value_json": "\"3\""
+    },
+    {
+      "id": "Grq8MTux4SBPnqC6bEjZl",
+      "metadata_key": "picture_a",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "4FYYcwkJkQWfC9oo4SjAJ",
+      "value_json": "\"\""
+    },
+    {
+      "id": "H3zLHfzP1FDJ1hmApV3Dm",
+      "metadata_key": "ascale",
+      "metadata_scope": "question_layout",
+      "object_id": "4FYYcwkJkQWfC9oo4SjAJ",
+      "value_json": "1.0"
+    },
+    {
+      "id": "S0WFrmE6Y0J7yuTlfOvb6",
+      "metadata_key": "layout",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "4FYYcwkJkQWfC9oo4SjAJ",
+      "value_json": "\"1\""
+    },
+    {
+      "id": "V1pY65O5haQBSxZ4PUqgI",
+      "metadata_key": "picture_b",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "4FYYcwkJkQWfC9oo4SjAJ",
+      "value_json": "\"\""
+    },
+    {
+      "id": "gTPc7wugh3Zvh2qJA7tzP",
+      "metadata_key": "qscale",
+      "metadata_scope": "question_layout",
+      "object_id": "4FYYcwkJkQWfC9oo4SjAJ",
+      "value_json": "1.0"
+    },
+    {
+      "id": "t5hsC6WgZpon7vhCfhtpe",
+      "metadata_key": "directus_id",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "4FYYcwkJkQWfC9oo4SjAJ",
+      "value_json": "\"2489\""
+    },
+    {
+      "id": "wc08j8xafBlYoPTqDN5pP",
+      "metadata_key": "picture_c",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "4FYYcwkJkQWfC9oo4SjAJ",
+      "value_json": "\"\""
+    }
+  ],
+  "source": {
+    "format": "json",
+    "key": "AI208",
+    "path": "contents/questions/fragenkatalog3b.json"
+  }
+}

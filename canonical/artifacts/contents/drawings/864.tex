@@ -1,0 +1,19 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{circuitikz}
+    \draw (0,0) node[npn, tr circle] (npn) {};
+    \draw [DARCgray] (npn.E) node[anchor=north](ee){E};
+    \draw [DARCgray] (npn.B) node[anchor=east ](bb){B};
+    \draw [DARCgray] (npn.C) node[anchor=south](cc){C};
+
+    \draw (2,0) node[pnp, tr circle, yscale=-1] (pnp) {};
+    \draw [DARCgray] (pnp.E) node[anchor=north](ee){E};
+    \draw [DARCgray] (pnp.B) node[anchor=east ](bb){B};
+    \draw [DARCgray] (pnp.C) node[anchor=south](cc){C};
+
+    \draw(npn.circle center) to [open] ++(-1,0);
+    \draw(pnp.circle center) to [open] ++(+1,0);
+
+    \draw(npn.circle center) to [open] (npn.circle center|-ee.south) node[anchor=north](){NPN};
+    \draw(pnp.circle center) to [open] (pnp.circle center|-ee.south) node[anchor=north](){PNP};
+\end{circuitikz}

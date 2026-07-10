@@ -1,0 +1,67 @@
+[
+  {
+    "id": "PnpENfvmxFVyut5AACNkq",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE407]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "fyq8YDqmLQTguFHsDrdhq",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE407",
+    "target_object_type": "question"
+  },
+  {
+    "id": "a2c0eTB4bWn9augIe3aJI",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE406]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "fyq8YDqmLQTguFHsDrdhq",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE406",
+    "target_object_type": "question"
+  },
+  {
+    "id": "fyvVFJBIRKzbS6305W3fQ",
+    "inline_alias": "ask",
+    "inline_label": "Amplitudenumtastung (Amplitude-shift Keying)",
+    "raw_marker": "[picture:700:ask:Amplitudenumtastung (Amplitude-shift Keying)]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "fyq8YDqmLQTguFHsDrdhq",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "700",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "j9ZVW4K221Fbb4IK4duN4",
+    "inline_alias": "fsk",
+    "inline_label": "Frequenzumtastung (Frequency-shift Keying)",
+    "raw_marker": "[picture:703:fsk:Frequenzumtastung (Frequency-shift Keying)]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_object_id": "fyq8YDqmLQTguFHsDrdhq",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "703",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "r0ua6GHHZLeITQEGHxQHk",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE101]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "fyq8YDqmLQTguFHsDrdhq",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE101",
+    "target_object_type": "question"
+  }
+]

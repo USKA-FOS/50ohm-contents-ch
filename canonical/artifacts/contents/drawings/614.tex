@@ -1,0 +1,36 @@
+% Author: Malte, DE7LMS
+% Modifier: Dr. Matthias Jung, DL9MJ
+% Year: 2022
+% TH138 λ/4 ground plane
+\begin{circuitikz}
+    % Corpus:
+    \draw (.2,1.4) coordinate(feed right)
+        arc[start angle=0, end angle=180, x radius=.2, y radius=.1]
+        coordinate(feed left)
+        arc[start angle=180, end angle=360, x radius=.2, y radius=.1];
+    \draw(feed right) -- ++(0,-2) coordinate(c1);
+    \draw(feed left)  -- ++(0,-2) coordinate(c2);
+    \draw (c1)
+        arc[start angle=0, end angle=-90, x radius=.2, y radius=.1] coordinate (bottom)
+        arc[start angle=-90, end angle=-180, x radius=.2, y radius=.1];
+    \draw (bottom) -- ++(0,-.2);
+    \draw[dashed] (bottom) -- ++(0,2);
+  
+    % Radials:
+    \path (.2,1.4)
+        arc[start angle=0,   end angle=45,  x radius=.2, y radius=.1] coordinate (up right)
+        arc[start angle=45,  end angle=135, x radius=.2, y radius=.1] coordinate (up left)
+        arc[start angle=135, end angle=225, x radius=.2, y radius=.1] coordinate (down left)
+        arc[start angle=225, end angle=315, x radius=.2, y radius=.1] coordinate (down right);
+  
+    \path (down right) ++(2,-1) coordinate (down right end);
+    \path[very thick, shorten <=-1pt, {Circle[length=2pt]}-, line cap=round]
+      (up right) edge +(2,1)
+      (up left) edge +(-2,1)
+      (down right) edge (down right end)
+      (down left) edge +(-2,-1);
+  
+    % Antenne:
+    \draw (feed left) to [open, name={m1}] (feed right);
+    \draw[very thick] (m1.center) -- ++(0,3);
+\end{circuitikz}

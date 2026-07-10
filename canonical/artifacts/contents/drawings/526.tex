@@ -1,0 +1,35 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}[step=\getDarcImageFactor cm]
+    \tikzstyle{help lines}=[black];
+    \draw[style=help lines, thin] (0,0) grid (7,5);
+
+    \def\x{1.25} % Zu lang
+    %\def\x{3.25} % Zu Kurz
+
+    \draw [ultra thick] plot [rounded corners=10mm] coordinates {
+        (\x,5)
+        (\x+1,-0.5)
+        (\x+2,5)
+    };
+
+    \draw(0,0) node[anchor=north](){MHz:};
+    \draw(1,0) node[anchor=north](){2,5};
+    \draw(2,0) node[anchor=north](){3,0};
+    \draw(3,0) node[anchor=north](){3,5};
+    \draw(4,0) node[anchor=north](){4,0};
+    \draw(5,0) node[anchor=north](){4,5};
+    \draw(6,0) node[anchor=north](){5,0};
+    \draw(7,0) node[anchor=north](){5,5};
+
+    \draw(0,0) node[anchor=south east](){1};
+    \draw(0,1) node[anchor=south east](){2};
+    \draw(0,2) node[anchor=south east](){3};
+    \draw(0,3) node[anchor=south east](){4};
+    \draw(0,4) node[anchor=south east](){5};
+    \draw(0,5) node[anchor=east](){SWR:};
+
+    %\draw [ultra thick, draw=grey, fill=gray, opacity=0.2]
+    %   (0,0) -- (0,1) -- (1,1) -- cycle;
+
+\end{circuitikz}

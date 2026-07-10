@@ -1,0 +1,40 @@
+% Author: Stephan Kregel, DG1HXJ
+% Year: 2022
+\begin{circuitikz}
+    % Top
+    \draw (0,0) coordinate(a1) 
+        to [short, o-*] ++(1.5,0) coordinate(1) 
+        to [C] ++(1.75,0) 
+        to [american inductor] ++(1.75,0) coordinate(2) 
+        to [short, *-o] ++(1.5,0) coordinate(b1);
+    % Left
+    \draw (1)
+        to [short, -*] ++(0,-1) coordinate(11)
+        to [short] ++(-0.75,0)
+        to [american inductor, mirror] ++(0,-2)
+        to [short] ++(0.75,0) coordinate(12)
+        to [short, *-*] ++(0,-1) coordinate(13);
+    \draw (11) 
+        to [short] ++(0.75,0)
+        to [C] ++(0,-2)
+        to [short] (12);
+    % Right
+    \draw (2)
+        to [short, -*] ++(0,-1) coordinate(21)
+        to [short] ++(-0.75,0)
+        to [american inductor,mirror] ++(0,-2)
+        to [short] ++(0.75,0) coordinate(22)
+        to [short, *-*] ++(0,-1) coordinate(23);
+    \draw (21) 
+        to [short] ++(0.75,0)
+        to [C] ++(0,-2) 
+        to [short] (22);        
+    % Rest
+    \draw (13)
+        to [short, -o] ++(-1.5,0) coordinate(a2);
+    \draw (13) 
+        to [short] (23) 
+        to [short, -o] ++(1.5,0) coordinate(b2);
+    \draw (a1) to [open, v=$U_\mathrm{E}$]  (a2);
+    \draw (b1) to [open, v^=$U_\mathrm{A}$] (b2);               
+\end{circuitikz}

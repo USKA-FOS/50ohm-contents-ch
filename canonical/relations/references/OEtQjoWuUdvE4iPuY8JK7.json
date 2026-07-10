@@ -1,0 +1,54 @@
+[
+  {
+    "id": "PddFETpVXcqgSNi3WANa7",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NH305]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "OEtQjoWuUdvE4iPuY8JK7",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NH305",
+    "target_object_type": "question"
+  },
+  {
+    "id": "fOT2C9Xq2T6xYHCBlE5lN",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NH306]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "OEtQjoWuUdvE4iPuY8JK7",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NH306",
+    "target_object_type": "question"
+  },
+  {
+    "id": "idyw9C5cX1bQcNxNlLC0G",
+    "inline_alias": "n_sporadic_e",
+    "inline_label": null,
+    "raw_marker": "[ref:n_sporadic_e]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_object_id": "OEtQjoWuUdvE4iPuY8JK7",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_sporadic_e",
+    "target_object_type": null
+  },
+  {
+    "id": "qRVOhylF96l0CxHqznJpi",
+    "inline_alias": "n_sporadic_e",
+    "inline_label": "Refraktion (Brechung) von Funkwellen an stark ionisierten Bereichen der E-Schicht",
+    "raw_marker": "[picture:733:n_sporadic_e:Refraktion (Brechung) von Funkwellen an stark ionisierten Bereichen der E-Schicht]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_object_id": "OEtQjoWuUdvE4iPuY8JK7",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "733",
+    "target_object_type": "drawing"
+  }
+]

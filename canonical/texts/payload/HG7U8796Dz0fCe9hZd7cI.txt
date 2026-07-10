@@ -1,0 +1,13 @@
+Wir nutzen die Formel aus der Formelsammlung:
+
+$f_g = \frac{1}{2 \pi \cdot R \cdot C}$
+
+Aber Vorsicht: Welche Werte müssen hier denn überhaupt berücksichtigt werden?
+
+Schauen wir uns $C_2$ näher an, sehen wir, dass dieser nicht Teil des Tiefpasses ist, sondern nur zur Abblockung von Störungen in der Versorgungsspannung der Schaltung dient. Daher darf $C_2$ hier auch nicht berücksichtigt werden.
+
+Die hohe Grenzfrequenz und sehr hohe Eingangsimpedanz des Audioverstärkers sind zu vernachlässigen und müssen ebenfalls nicht berücksichtigt werden. Als Werte setzen wir daher nur $R_1 = \qty{4,7}{\kilo\ohm}$ und $C_1 = \qty{6,8}{\nano\farad}$ ein.
+
+Mit eingesetzten Werten:
+
+$\begin{split}f_g &= \frac{1}{2 \pi \cdot 4,7 \cdot \qty{10^3}{\ohm} \cdot 6,8 \cdot \qty{10^{-9}}{\farad}}\\ &\approx \qty{4979}{\hertz}\end{split}$

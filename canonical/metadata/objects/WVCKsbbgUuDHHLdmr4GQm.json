@@ -1,0 +1,40 @@
+{
+  "id": "WVCKsbbgUuDHHLdmr4GQm",
+  "identifiers": [
+    {
+      "id": "4Y1ZbJ7BgE6dThqFQQbcR",
+      "id_system": "file_stem",
+      "id_value": "258",
+      "object_id": "WVCKsbbgUuDHHLdmr4GQm",
+      "preferred": 0
+    },
+    {
+      "id": "VXNFtMoDKqEnY68DF9hS8",
+      "id_system": "drawing_id",
+      "id_value": "258",
+      "object_id": "WVCKsbbgUuDHHLdmr4GQm",
+      "preferred": 1
+    }
+  ],
+  "metadata": [
+    {
+      "id": "7ZjzMh3ImfdnYKEGnzZK0",
+      "metadata_key": "tex_path",
+      "metadata_scope": "asset",
+      "object_id": "WVCKsbbgUuDHHLdmr4GQm",
+      "value_json": "\"contents/drawings/258.tex\""
+    },
+    {
+      "id": "PEo6JzDfz9E3TcT7iiAoz",
+      "metadata_key": "svg_path",
+      "metadata_scope": "asset",
+      "object_id": "WVCKsbbgUuDHHLdmr4GQm",
+      "value_json": "\"contents/drawings/258.svg\""
+    }
+  ],
+  "source": {
+    "format": "grouped_asset",
+    "key": "258",
+    "path": "translator/50ohm-contents-ch/contents/drawings/258"
+  }
+}

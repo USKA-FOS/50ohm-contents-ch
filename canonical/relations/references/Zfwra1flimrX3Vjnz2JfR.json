@@ -1,0 +1,67 @@
+[
+  {
+    "id": "Ab5kMLu64J1gYR9ROW3Wu",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB407]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "Zfwra1flimrX3Vjnz2JfR",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB407",
+    "target_object_type": "question"
+  },
+  {
+    "id": "FEJTEN4MrUmZBWBpEGCSS",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB404]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "Zfwra1flimrX3Vjnz2JfR",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB404",
+    "target_object_type": "question"
+  },
+  {
+    "id": "FWe8NuTNifnqrBCwIecgY",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB405]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "Zfwra1flimrX3Vjnz2JfR",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB405",
+    "target_object_type": "question"
+  },
+  {
+    "id": "ciVNLAbFZmHjZSP1ydv2w",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB406]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "Zfwra1flimrX3Vjnz2JfR",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB406",
+    "target_object_type": "question"
+  },
+  {
+    "id": "rLSqS0dYgzwq4CKh59Z5B",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF630]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_object_id": "Zfwra1flimrX3Vjnz2JfR",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF630",
+    "target_object_type": "question"
+  }
+]

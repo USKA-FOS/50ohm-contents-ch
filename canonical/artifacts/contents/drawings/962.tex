@@ -1,0 +1,109 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2024
+% FRAME 0
+\begin{circuitikz}
+    \begin{scope}[local bounding box=bb]
+        \ctikzset{
+            diodes/scale=\getDarcImageFactor,
+            capacitors/scale=\getDarcImageFactor,
+            resistors/scale=\getDarcImageFactor,
+            inductors/scale=\getDarcImageFactor
+        }
+        \draw(0,0) node[american, transformer core](T){};
+
+    
+        \draw(T.A1) to [short, -o] ++(0,0) coordinate(ue1);
+        \draw(T.A2) to [short, -o] ++(0,0) coordinate(ue2);
+
+        \draw[DARCblue] (ue1) to [open, v^=$U_\text{e}$, draw=DARCblue] (ue2);
+        \draw[DARCblue] (T.B1) to [open, v^=$U_\text{s}$, draw=DARCblue] (T.B2);
+    
+        \draw(T.B1) to [short, -*]++(2,0) coordinate(top);
+        \draw(T.B2) to [short, -*]++(2,0) coordinate(bottom);
+    
+        % Hilfskoordinaten:
+        \draw(top)
+            to [open, name={hilf}] (bottom);
+        \draw(hilf.center)
+            to [open] ++(-1,0) coordinate(minus);
+        \draw(hilf.center)
+            to [open] ++(+1,0) coordinate(plus);
+    
+        % Links:
+        \draw(top)
+            to [stroke diode, invert, -*] (minus)
+            to [stroke diode] (bottom);
+        % Rechts:
+        \draw(top)
+            to [stroke diode, -*] (plus)
+            to [stroke diode, invert] (bottom);
+        % Oben:
+        \draw(plus)
+            to [short] ++(2,0) coordinate(o1)
+            to [short,-o] ++(1.0,0) coordinate(o4);
+    
+        % Unten:
+        \draw(minus)
+            to [short] ++(0,-2)
+            to [short] ++(4,0) coordinate(u1)
+            to [short,-o] ++(1.0,0) coordinate(u4);
+
+        \draw[DARCblue] (o4) to [open, v^=$U_\text{a}$, draw=DARCblue] (u4);
+    
+        % Komponenten:
+        \draw(o1) to [R, *-*] (u1);
+    
+        % Beschriftung:
+        \draw(top)    node[anchor=south](){\textasciitilde};
+        \draw(bottom) node[anchor=north](){\textasciitilde};
+        \draw(plus)   node[anchor=east ](){+};
+        \draw(minus)  node[anchor=west ](){--};
+    \end{scope}
+
+    \begin{scope}[shift={($(bb.south west)+(0,-2.25/\getDarcImageFactor)$)}]
+        \begin{axis}[
+            axis lines=center, 
+            axis line style={-Triangle},
+            scale only axis,
+            axis on top,
+            height=2cm,
+            width=\linewidth*\getDarcImageFactor,
+            xmin=0,
+            xmax=2.5*pi,
+            ymin=-1,
+            ymax=1,
+            ticks=none,
+            xlabel={$t$},
+            xlabel style={anchor=north},
+            ylabel={$U_\text{s}$},
+            ylabel style={anchor=east},
+        ]
+        %\fill[DARCblue!10] (axis cs:1*pi,-1) rectangle (axis cs:2*pi,1);
+        \addplot[smooth, mark=none, DARCblue, thick, domain=0:2.5*pi, samples=400] {0.9*sin(deg(x))}; 
+        \end{axis}
+    \end{scope}
+
+    \begin{scope}[shift={($(bb.south west)+(0,-4.5/\getDarcImageFactor)$)}]
+        \begin{axis}[
+            axis lines=center, 
+            axis line style={-Triangle},
+            scale only axis,
+            axis on top,
+            height=2cm,
+            width=\linewidth*\getDarcImageFactor,
+            xmin=0,
+            xmax=2.5*pi,
+            ymin=-1,
+            ymax=1,
+            ticks=none,
+            xlabel={$t$},
+            xlabel style={anchor=north},
+            ylabel={$U_a$},
+            ylabel style={anchor=east},
+        ]
+        %\fill[DARCblue!10] (axis cs:1*pi,-1) rectangle (axis cs:2*pi,1);
+        \addplot[smooth, mark=none, DARCblue, thick, domain=0:2.5*pi, samples=400] {0.9*abs(sin(deg(x)))}; 
+        \end{axis}
+    \end{scope}
+
+\end{circuitikz}

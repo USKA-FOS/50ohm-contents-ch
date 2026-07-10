@@ -1,0 +1,54 @@
+[
+  {
+    "id": "6c7rJrlPAbK8WlV20p63q",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VC106]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "y1wQnXQtr7hTb8oySXOzh",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VC106",
+    "target_object_type": "question"
+  },
+  {
+    "id": "8WwSWnMY6v60ajj37xQuk",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VC108]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "y1wQnXQtr7hTb8oySXOzh",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VC108",
+    "target_object_type": "question"
+  },
+  {
+    "id": "95qJp0zsYPThIdSFf8iD4",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VN011]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "y1wQnXQtr7hTb8oySXOzh",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VN011",
+    "target_object_type": "question"
+  },
+  {
+    "id": "YU77aZFZt7csCmVargWZl",
+    "inline_alias": "n_zulassung_urkunde",
+    "inline_label": "Der Zulassungsbescheid zur Teilnahme am Amateurfunkdienst",
+    "raw_marker": "[photo:91:n_zulassung_urkunde:Der Zulassungsbescheid zur Teilnahme am Amateurfunkdienst]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_object_id": "y1wQnXQtr7hTb8oySXOzh",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "91",
+    "target_object_type": "photo"
+  }
+]

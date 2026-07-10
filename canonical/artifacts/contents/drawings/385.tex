@@ -1,0 +1,7 @@
+% Author: Stephan Kregel, DG1HXJ
+% Year: 2021
+\begin{circuitikz}[european]
+	\draw (0,0) node[ocirc]{} ++(0,0) -- ++(1,0) coordinate(r1) to [R=$R_2$, *-*] ++(3,0) coordinate(r2) to [R=$R_4$, -o] ++(3,0);
+	\draw (r1) -- ++(0,2) to [R=$R_1$] ++(3,0) -- (r2);
+	\draw (r1) -- ++(0,-2) to [R=$R_3$] ++(3,0) -- (r2);
+\end{circuitikz}

@@ -1,0 +1,26 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{tikzpicture}
+    \draw[black, ultra thick] svg [scale=\getDarcImageFactor] {m 2.855,7.4151894 c 6.88,5.0579996 9.547,16.1719996 14.157,19.2139996 3.586,1.915 7.754,-2.699 7.754,-2.699 10.203,-10.847 11.789,-15.1049996 27.636,-15.5039996 16.543,-0.34 19.77,4.1999996 25.618,10.1139996 4.457,5.203 7.355,6.601 10.785,3.03 8.593,-7.374 13.785,-14.5849996 21.906,-15.5029996 5.785,-0.219 33.27,2.715 52.64,8.8629996 7.243,1.969 10.973,10.848 18.876,7.117 6.566,-3.855 12.863,-9.222 18.5,-10.585};
+
+    \draw(0,0) coordinate(base);
+    \draw[line width=0.2pt](0.65,0.95) -- ++(0,0.15) node[bareantenna,scale=0.1*\getDarcImageFactor](s1){};
+    \draw(base) to [open] (base-|s1) node[below] () {$\text{S}$};
+
+    \draw[line width=0.2pt](3.55,0.35) -- ++(0,0.15) node[bareantenna,scale=0.1*\getDarcImageFactor](e1){};
+    \draw(base) to [open] (base-|e1) node[below] () {$\text{E}_1$};
+
+    \draw[line width=0.2pt](4.25,0.25) -- ++(0,0.15) node[bareantenna,scale=0.1*\getDarcImageFactor](e2){};
+    \draw(base) to [open] (base-|e2) node[below] () {$\text{E}_2$};
+
+    \draw[line width=0.2pt](6.10,0.75) -- ++(0,0.15) node[bareantenna,scale=0.1*\getDarcImageFactor](e3){};
+    \draw(base) to [open] (base-|e3) node[below] () {$\text{E}_3$};
+
+    \draw[line width=0.2pt](6.90,0.45) -- ++(0,0.15) node[bareantenna,scale=0.1*\getDarcImageFactor](e4){};
+    \draw(base) to [open] (base-|e4) node[below] () {$\text{E}_4$};
+
+    \draw[red](s1.top) -- (e1.top);
+    \draw[red](s1.top) -- (e2.top);
+    \draw[red](s1.top) -- (e3.top);
+    \draw[red](s1.top) -- (e4.top);
+\end{tikzpicture}

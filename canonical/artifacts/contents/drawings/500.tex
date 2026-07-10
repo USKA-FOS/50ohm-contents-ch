@@ -1,0 +1,42 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \draw(0,0)
+        node[tlmicshape, rotate=90](mic){};
+    \draw(mic.south)
+        to [short] ++(1,0) node[inputarrow]{}
+        node[ampshape, boxed, anchor=west](amp){};
+    \draw(amp.east)
+        to [short] ++(1,0) node[inputarrow]{}
+        node[mixer, boxed, anchor=west](mix){};
+    \draw(mix.east)
+        to [short, name={l2}] ++(1,0) node[inputarrow]{}
+        node [bandpassshape, boxed, anchor=west](bp){};
+    \draw(bp.east)
+        to [short, name={l3}] ++(1,0) node[inputarrow]{};
+
+    \draw(mix.south)
+        node[inputarrow, rotate=90]{}
+        to [short, name={l1}] ++(0,-1)
+        node [twoportshape, t={G}, anchor=north](gen){};
+    \draw(gen.east)
+        to [short] ++(1.5,0)
+        node [spdt, rotate=-90, anchor=in] (sw) {};
+
+    \draw(sw.out 2)
+        to [short] ++(-0.25,-0.25)
+        to [piezoelectric, /tikz/circuitikz/bipoles/length=0.7cm] ++(0,-1) coordinate(h1);
+
+    \draw(sw.out 1)
+        to [short] ++(+0.25,-0.25)
+        to [piezoelectric, /tikz/circuitikz/bipoles/length=0.7cm] ++(0,-1)
+        to [short, -*] (h1)
+        to [short] ++(-3,0)
+        |- (gen.west);
+
+    \draw(sw.out 1) node [anchor=south west](){USB};
+    \draw(sw.out 2) node [anchor=south east](){LSB};
+    \draw(l1)       node [anchor=west]      (){$f_\mathrm{OSZ}$};
+    \draw(l2)       node [anchor=south]     (){DSB};
+    \draw(l3)       node [anchor=south]     (){SSB};
+\end{circuitikz}

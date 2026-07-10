@@ -1,0 +1,17 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2025
+\begin{circuitikz}[background rectangle/.style={fill=white}, show background rectangle]
+    \draw(current page.center) node[
+        minimum width=\linewidth,
+        minimum height=\linewidth,
+        inner sep=0
+    ](img){\centering\includegraphics[width=\linewidth]{foto/174}};
+
+    %\draw(img.north west) rectangle (img.south east);
+    %\draw[red](img.60) |- (img.340);
+
+    %% Beschriftung:
+    \draw(img.59 |- img.27)  node[anchor=west] {L};
+    \draw(img.51 |- img.0)   node[anchor=west] {N};
+    \draw(img.60 |- img.341) node[anchor=west] {PE};
+\end{circuitikz}

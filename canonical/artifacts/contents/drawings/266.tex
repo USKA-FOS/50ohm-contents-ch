@@ -1,0 +1,79 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{tikzpicture}
+    \pgfplotsset{
+        compat=1.10,
+        width=\getDarcImageFactor * 16cm,
+      standard/.style={
+        axis x line=middle,
+        axis y line=left,
+        ticklabel style={fill=white},
+        set layers=tick labels on top% use layers and choose the new layer set
+      },
+      layers/tick labels on top/.define layer set=% define the new layer set based on the standard one
+      {axis background,axis grid,axis ticks,axis lines,main,%
+        axis tick labels,% <- tick labels before main
+        axis descriptions,axis foreground}
+      {/pgfplots/layers/standard},
+      clip=false
+    }
+  \begin{polaraxis}[
+    /pgf/number format/.cd,
+    use comma,
+    domain=-180:180,
+    ymin=-0.2,
+    ymax=1.05,
+    xmin=-45,
+    xmax=45,
+    axis line style={draw=none},
+    ytick={0.4,0.5,0.6,0.7,0.8,0.9,1},
+    yticklabels={,,},
+    xtick={-40,-30,-20,-10,0,10,20,30,40},
+    xticklabel={$\pgfmathprintnumber{\tick}^{\circ}$},
+    xticklabel style={
+      inner sep=6pt
+    },
+    xticklabels={$320^{\circ}$,$330^{\circ}$,$340^{\circ}$,$350^{\circ}$,$~~0^{\circ}$,$10^{\circ}$,$20^{\circ}$,$30^{\circ}$,$40^{\circ}$},
+    ]
+    
+    \draw[very thick] plot[
+      variable=\t,
+      domain=0:360,
+      smooth,samples=101
+    ] 
+    ({40*sin(\t)}:{129*pow(0.95*sin(\t/2),5)});
+    
+    \draw[very thick] plot[
+      variable=\t,
+      domain=0:360,
+      smooth,samples=101
+    ] 
+    ({180+40*sin(\t)}:{12*pow(sin(\t/2),9)});
+    
+    \draw[anchor=base] (0,0) node[](origin){};
+    
+    \path[every node/.style={fill=white, below}]
+      (0:40) node {0{,}4}
+      (0:60) node {0{,}6}
+      (0:80) node {0{,}8}
+      (0:100) node {1};
+
+    \path[every node/.style={fill=white, above}]
+      (0:100) node {a}
+      (0:85) node {b}
+      (0:70) node {c}
+      (0:50) node {d};
+
+    \draw[thick, -Triangle] (180:20) -- (0:110);
+
+    \path (0:110) node[below] {\footnotesize$\dfrac{E}{E_\mathrm{max}}$};
+  \end{polaraxis}
+
+  \draw[very thick]
+    (origin) ++(0,-0.8) -- +(0, 1.6)
+    (origin) ++(0.3,-0.7) -- +(0.0, 1.4)
+    (origin) ++(0.6,-.6) -- +(0.0, 1.2)
+    (origin) ++(0.9,-.5) -- +(0.0, 1)
+    (origin) ++(1.2,-.4) -- +(0.0, 0.8)
+    (origin) ++(1.5,-.3) -- +(0.0, 0.6);
+\end{tikzpicture}

@@ -1,0 +1,37 @@
+% Author: Dr. Henning Paul, DC4HP
+% Year: 2022
+\begin{tikzpicture}
+	\pgfplotsset{
+		every axis plot/.append style={line width=0.8pt},
+	}
+    \begin{axis}[%
+        /pgf/number format/1000 sep={ },
+        /pgf/number format/use comma,        
+        axis lines=middle,
+        axis line style={-Triangle},
+		every axis x label/.style={at={(ticklabel* cs:1.02)},anchor=west,},
+		every axis y label/.style={at={(ticklabel* cs:1.02)},anchor=south,},
+        scale only axis,
+        ytick style={draw=none},
+		ymajorgrids=false,
+		yticklabel=\empty,
+        xticklabels={~~~~$\mathrm{T}$,~~~~~$2\mathrm{T}$,~~~~~$3\mathrm{T}$,~~~~~$4\mathrm{T}$},
+		xtick={1,2,3,4},
+        xmin=-0.5,
+        xmax=3.7,
+        ymin=-1.4,
+        ymax=1.7,
+        xmajorgrids=false,
+        xlabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel style={at={(ticklabel* cs:1)},anchor=south east},
+        ylabel={$U$},
+        xlabel={$t$},
+        width=\linewidth*\getDarcImageFactor,
+        height=2.5cm,
+        scale only axis,
+    ]
+    \addplot[samples=101,domain=-1.0:0,black,dashed] {2.0*mod(x+1,1)-1.0}; 
+   	\addplot[samples=301,domain=0.0:3.0,black] {2.0*mod(x,1)-1.0};
+   	\addplot[samples=51,domain=3.0:3.5,black,dashed] {2.0*mod(x,1)-1.0}; 
+\end{axis}
+\end{tikzpicture}

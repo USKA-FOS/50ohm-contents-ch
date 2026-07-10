@@ -1,0 +1,75 @@
+{
+  "id": "thsNW55oMBkV8c9cZXjxV",
+  "identifiers": [
+    {
+      "id": "nGnGDcZY2mOOVg4vOINJE",
+      "id_system": "question_code",
+      "id_value": "AC507",
+      "object_id": "thsNW55oMBkV8c9cZXjxV",
+      "preferred": 1
+    }
+  ],
+  "metadata": [
+    {
+      "id": "BqUNMpphjPegEVuvC1yMV",
+      "metadata_key": "directus_id",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "thsNW55oMBkV8c9cZXjxV",
+      "value_json": "\"1071\""
+    },
+    {
+      "id": "IdckRV3djKsRXzbyhw9x2",
+      "metadata_key": "picture_c",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "thsNW55oMBkV8c9cZXjxV",
+      "value_json": "\"\""
+    },
+    {
+      "id": "KiLjsicUkWNpY7qopY2O8",
+      "metadata_key": "class",
+      "metadata_scope": "question",
+      "object_id": "thsNW55oMBkV8c9cZXjxV",
+      "value_json": "\"3\""
+    },
+    {
+      "id": "NMNvEHgitsdZi4vz23pjO",
+      "metadata_key": "picture_a",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "thsNW55oMBkV8c9cZXjxV",
+      "value_json": "\"\""
+    },
+    {
+      "id": "Pryr1F3vJcE4fgT1At7kQ",
+      "metadata_key": "layout",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "thsNW55oMBkV8c9cZXjxV",
+      "value_json": "\"\""
+    },
+    {
+      "id": "VhLtSUTCsPIbbyDBYg1ZE",
+      "metadata_key": "picture_b",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "thsNW55oMBkV8c9cZXjxV",
+      "value_json": "\"\""
+    },
+    {
+      "id": "d0tFjhHmZyii2csP0aAJi",
+      "metadata_key": "picture_question",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "thsNW55oMBkV8c9cZXjxV",
+      "value_json": "271"
+    },
+    {
+      "id": "keE6C2Yy8XcEcUN9rL9NJ",
+      "metadata_key": "picture_d",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "thsNW55oMBkV8c9cZXjxV",
+      "value_json": "\"\""
+    }
+  ],
+  "source": {
+    "format": "json",
+    "key": "AC507",
+    "path": "contents/questions/fragenkatalog3b.json"
+  }
+}

@@ -1,0 +1,64 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{circuitikz}
+    \ctikzset{
+        blocks/scale=\getDarcImageFactor,
+        RF/scale=\getDarcImageFactor,
+        misc/scale=\getDarcImageFactor
+    }
+    \draw(0,0)
+        node[antenna](){}
+        to [amp, box, name={amp1}, >] ++(2,0)
+        node [mixer, box, anchor=west](mix){};
+
+    \draw(mix.right up)
+        to [short] ++(0.5,0)
+        |- ++(0.5,1)
+        node[inputarrow](){}
+        node[lowpassshape, anchor=west](lp1){};
+    \draw(lp1.east)
+        to [short] ++(0.5,0)
+        node[inputarrow](){}
+        node [adcshape, anchor=west](adc1){};
+
+    \draw(mix.right down)
+        to [short] ++(0.5,0)
+        |- ++(0.5,-1)
+        node[inputarrow](){}
+        node[lowpassshape, anchor=west](lp2){};
+    \draw(lp2.east)
+        to [short] ++(0.5,0)
+        node[inputarrow](){}
+        node [adcshape, anchor=west](adc2){};
+
+    \draw(adc1.east) ++(1,0) coordinate(h1)
+        (h1|-mix.west)
+        node[twoportshape, anchor=west, t={\large ?}](question){};
+
+    \draw(adc1.east) 
+        to [short] ++(0.5,0)
+        |- (question.left up)
+        node[inputarrow](){};
+
+    \draw(adc2.east) 
+        to [short] ++(0.5,0)
+        |- (question.left down)
+        node[inputarrow](){};
+
+    \draw(question.east)
+        to [dac, >] ++(2,0)
+        node[inputarrow](){}
+        node[ampshape, box, anchor=west](amp2){};
+
+    \draw(amp2.east)
+        to [short] ++(0.5,0)
+        node[inputarrow](){}
+        node [loudspeakershape, rotate=-90, anchor=south](){};
+
+    \draw(mix.south)
+        to [short] ++(0,-1)
+        node[qgeneratorshape, t={G}, anchor=north](){};
+
+    \draw(mix.north)
+        node[anchor=south](){IQ};
+\end{circuitikz}

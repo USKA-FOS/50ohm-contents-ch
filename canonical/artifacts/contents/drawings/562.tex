@@ -1,0 +1,37 @@
+% Author: Malte, DE7LMS
+% Year: 2022
+\begin{circuitikz}
+    \draw[very thick, rounded corners=2.5 * \getDarcImageFactor mm] (.2,2.4) -- ++(5,0) coordinate (top right) -- ++(0,-.5) -- ++(-4.8,0) coordinate (end right);
+    \draw[very thick, rounded corners=2.5 * \getDarcImageFactor mm] (.2,2.4) -- ++(-5,0) coordinate (top left) -- ++(0,-.5) -- ++(4.8,0) coordinate (end left);
+    \draw (end left) -- ++(0,-.5);
+    \draw (110:1.4) arc[start angle=110, end angle=430, radius=1.4];
+    \draw (110:1.4) {[rotate=-70] arc[start angle=0, end angle=360, x radius=0.2, y radius=0.1]};
+    \draw (430:1.4) {[rotate=-110] arc[start angle=0, end angle=360, x radius=0.2, y radius=0.1]};
+    \draw (110:1.8) arc[start angle=110, end angle=430, radius=1.8];
+    \draw[dashed] (116:1.6) arc[start angle=116, end angle=424, radius=1.6];
+
+    \draw (end right) -- ++(0,-.33) -- (430:1.6);
+    \draw (end left) -- ++(0,-.3) to[short, *-] ++ (-.3,0) -- (110:1.6);
+
+    \fill[white] (-.2,1.4) rectangle ++(.4,-4);
+    \draw (.2,1.4) -- ++(0,-4);
+    \draw (-.2,1.4) -- ++(0,-4);
+
+    \draw[dashed] (0,1.15) -- ++(0,-3.8);
+
+    \draw (.2,2.4) to [short, *-*] ++(0,-1);
+    \draw (.2,1.4) to[short, -*] (430:1.4);
+    \draw (-.2,1.4) to[short, *-*] (110:1.4);
+
+    \draw (.2,1.4) arc[start angle=0, end angle=360, x radius=0.2, y radius=0.1];
+    \draw (.2,1.4-4) arc[start angle=0, end angle=-90, x radius=0.2, y radius=0.1] coordinate (bottom) arc[start angle=-90, end angle=-180, x radius=0.2, y radius=0.1];
+    \draw (bottom) -- ++(0,-.2);
+
+    \path (bottom) node[left=0.3] {\qty{60}{\ohm}};
+
+    \begin{pgfonlayer}{background}
+        \DARCmeasure{top left}{top right}{0,0.75}{0}{$\frac\lambda2$}
+    \end{pgfonlayer}
+
+    \draw[Triangle-, shorten <=1pt] (-45:1.8) --++(.5,-.5) node[below right] {$\mathrm{l} = \frac\lambda2 \cdot \mathrm{V}_\mathrm{K}$};
+\end{circuitikz}

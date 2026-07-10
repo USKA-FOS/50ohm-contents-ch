@@ -1,0 +1,28 @@
+{
+  "id": "NKrg7CpLUuNcCi6hAavLp",
+  "localized": [
+    {
+      "id": "mlVfwIkFLEI4c7T0b3X4G",
+      "language": "de",
+      "path": "texts/payload/mlVfwIkFLEI4c7T0b3X4G.txt",
+      "text_slot_id": "NKrg7CpLUuNcCi6hAavLp"
+    },
+    {
+      "id": "Y2nHY5czZaMyJEF5FF3CB",
+      "language": "fr",
+      "path": "texts/payload/Y2nHY5czZaMyJEF5FF3CB.txt",
+      "text_slot_id": "NKrg7CpLUuNcCi6hAavLp"
+    },
+    {
+      "id": "9GFMexWmmzMqp03I7vBT3",
+      "language": "it",
+      "path": "texts/payload/9GFMexWmmzMqp03I7vBT3.txt",
+      "text_slot_id": "NKrg7CpLUuNcCi6hAavLp"
+    }
+  ],
+  "object_id": "yZ4t1bDnKhxXzxK9mgcar",
+  "slot_key": "short_description",
+  "slot_type": "plain_text",
+  "sort_order": 1,
+  "translation_group_key": "photo_descriptions"
+}

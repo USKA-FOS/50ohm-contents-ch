@@ -1,0 +1,12 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{circuitikz}
+    \draw(0,0)            node[anchor=south](x1){a.}
+        to [open] ++(1,0) node[anchor=south](x2){b.}
+        to [open] ++(1,0) node[anchor=south](x3){c.}
+        to [open] ++(1,0) node[anchor=south](x4){d.};
+    \draw(x1) to [C] ++(0,-1);
+    \draw(x2) to [ecapacitor] ++(0,-1);
+    \draw(x3) to [variable capacitor,invert, tunable end arrow={Triangle}] ++(0,-1);
+    \draw(x4) to [variable capacitor,invert, tunable end arrow={Bar}] ++(0,-1);
+\end{circuitikz}

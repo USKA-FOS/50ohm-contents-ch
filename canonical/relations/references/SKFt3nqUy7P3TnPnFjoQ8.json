@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1nYdLzDEenj849g8WkU0M",
+    "inline_alias": "n_vpol_antenne",
+    "inline_label": "vertikal polarisierte Antenne",
+    "raw_marker": "[picture:51:n_vpol_antenne:vertikal polarisierte Antenne]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_object_id": "SKFt3nqUy7P3TnPnFjoQ8",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "51",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "VQsfUZ7NJ4iUqC8euTOmN",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NB304]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "SKFt3nqUy7P3TnPnFjoQ8",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NB304",
+    "target_object_type": "question"
+  },
+  {
+    "id": "f8dMhJmmsGGwoZ1h2cdrv",
+    "inline_alias": "n_vpol_antenne",
+    "inline_label": null,
+    "raw_marker": "[ref:n_vpol_antenne]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_object_id": "SKFt3nqUy7P3TnPnFjoQ8",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_vpol_antenne",
+    "target_object_type": null
+  },
+  {
+    "id": "lLHGZDYgvdn1vCj5cOA4Y",
+    "inline_alias": "n_hpol_antenne",
+    "inline_label": "horizontal polarisierte Antenne",
+    "raw_marker": "[picture:326:n_hpol_antenne:horizontal polarisierte Antenne]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_object_id": "SKFt3nqUy7P3TnPnFjoQ8",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "326",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "rFedpciyfPuT1LyeL6Fh0",
+    "inline_alias": "n_hpol_antenne",
+    "inline_label": null,
+    "raw_marker": "[ref:n_hpol_antenne]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_object_id": "SKFt3nqUy7P3TnPnFjoQ8",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_hpol_antenne",
+    "target_object_type": null
+  }
+]

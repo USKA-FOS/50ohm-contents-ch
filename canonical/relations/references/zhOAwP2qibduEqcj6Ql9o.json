@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ioWRxbgov53ujNLr4lUGY",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NG402]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "zhOAwP2qibduEqcj6Ql9o",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NG402",
+    "target_object_type": "question"
+  },
+  {
+    "id": "v7GGw0UINUice4oFSZTIe",
+    "inline_alias": "n_Kugelstrahler",
+    "inline_label": "Isotroper Strahler in der Mitte einer Kugel, der an allen Stellen der Kugeloberfläche die gleiche Strahlungsleistung erzeugt",
+    "raw_marker": "[picture:751:n_Kugelstrahler:Isotroper Strahler in der Mitte einer Kugel, der an allen Stellen der Kugeloberfläche die gleiche Strahlungsleistung erzeugt]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "zhOAwP2qibduEqcj6Ql9o",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "751",
+    "target_object_type": "drawing"
+  }
+]

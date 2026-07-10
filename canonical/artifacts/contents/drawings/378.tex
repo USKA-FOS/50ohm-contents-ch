@@ -1,0 +1,14 @@
+% Author: Stephan Kregel, DG1HXJ
+% Year: 2021
+\begin{circuitikz}[european]
+    \draw(0,0)
+        to [short, o-*] ++(1,0) coordinate(c1)
+        to [short] ++(2,0) coordinate(c2);
+    \draw(c1)
+	    to [R, l=$R_1$, *-] ++(0,-2) 
+	    to [R, l=$R_2$, -*] ++(0,-2) coordinate(c3)
+        to [short, -o]   ++(-1,0);
+    \draw(c3) 
+        to [short] ++(2,0)
+        to [R, l_=$R_3$] (c2);
+\end{circuitikz}

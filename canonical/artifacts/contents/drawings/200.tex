@@ -1,0 +1,19 @@
+% Author: Stephan Kregel, DG1HXJ
+% Year: 2022
+\begin{circuitikz}[european]
+    \draw(0,0) coordinate(u0)
+        to [open, straight voltages, v^<={$U_\mathrm{E}$}] ++(0,3) coordinate(o0)
+        to [short, o-*] ++(1,0) coordinate(o1)
+        to [twoport, t={IC1}, -*, name={o2}] ++(3,0) coordinate(o3)
+        to [short, *-o] ++(1,0) coordinate(o4);
+    \draw(u0)
+        to [short, o-*] ++(1,0) coordinate(u1)
+        to [short,  -*] ++(3,0) coordinate(u3)
+        to [short,  -o] ++(1,0) coordinate(u4);
+    \draw(u4)
+        to [open, straight voltages, v_<={$U_\mathrm{A}$}] ++(0,3) coordinate(o4);
+    \draw (o1) to [ecapacitor] (u1)
+        node[rground](){};
+    \draw (o3) to [C] (u3);
+    \draw (o2.south) to [short, -*] (o2.center |- u3);
+\end{circuitikz}

@@ -1,0 +1,15 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2023
+\begin{circuitikz}
+	\draw (0,0) coordinate(a1)
+        to [short, i=$I$, o-] ++(1.5,0) coordinate(c1)
+        to [short, -o] ++(1,0);
+	\draw (c1)
+        to [R,l_=$R_1$,*-*] ++(0,-2) coordinate(c2)
+	    to [R,l_=$R_2$,*-*] ++(0,-2) coordinate(c3);
+	\draw (c3) to [short,*-o] ++(-1.5,0) coordinate(a2);
+	\draw (c3) to [short, -o] ++(1,0) coordinate(b1);
+	\draw (c2) to [short,*-o] ++(1,0) coordinate(b2);
+    \draw(b2) to [open, v^={$U_2$}] (b1);
+    \draw(a1) to [open, v={$U$}]   (a2);
+\end{circuitikz}

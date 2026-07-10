@@ -1,0 +1,50 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{circuitikz}
+    \pgfdeclarelayer{bg} % declare background layer
+    \pgfsetlayers{bg,main}
+    \draw [dashed] (0,0) -- ++(0.55,0) coordinate(a);
+    \draw (a) to [short,o-o] ++(0.5,0) coordinate(u1);
+    \begin{pgfonlayer}{bg}
+    \draw[very thick] (u1)
+              to [short] ++(1,0) coordinate(b);
+    \end{pgfonlayer}
+    \ctikzset{inductors/coils=2, inductors/scale=0.5, capacitors/scale=0.5}
+    \draw(b)  to [short, *-] ++(0,0.35);
+    \draw(b)  to [open] ++(0.5,0.35) coordinate(start)
+              arc(0:180:0.125)
+              arc(0:180:0.125);
+    \draw(b)  to [open] ++(0.5,0.35)
+              to [short] ++(0,-0.35);
+    \draw(b)  to [short] ++(0,-0.35)
+              to [C] ++(0.5,0)
+              to [short,-*] ++(0,+0.35) coordinate(u2);
+    \draw[very thick](u2) to [short] ++(2,0) coordinate(x1);
+    \draw(x1)
+              to [open] ++(0.5,0) coordinate(x2);
+    \draw[very thick] (x2)
+              to [short] ++(2,0) coordinate(c);
+    \draw(c)  to [short,*-] ++(0,0.35);
+    \draw(c)  to [open] ++(0.5,0.35)
+              arc(0:180:0.125)
+              arc(0:180:0.125) coordinate(end);
+    \draw(c)  to [open] ++(0.5,0.35)
+              to [short] ++(0,-0.35);
+    \draw(c)  to [short] ++(0,-0.35)
+              to [C] ++(0.5,0)
+              to [short,-*] ++(0,+0.35) coordinate(u3);
+    \draw[very thick](u3)
+              to [short] ++(1,0) coordinate(u4);
+    \draw(u4)
+              to [short,o-] ++(0.5,0) coordinate(d);
+    \draw [dashed] (d) -- ++(0.55,0);
+    \draw (d) to [short,-o] ++(0.0,0);
+
+    \draw(x1) to [short, -*] ++(0,0);
+    \draw(x2) to [short, -*] ++(0,0);
+
+    \draw (3.05,-0.75) node[]{$f_\mathrm{res}$};
+    \draw (2.75,-0.55) -- ++ (-0.45,0.55);
+
+    \DARCmeasure{start}{end}{0,0.5}{0}{$l$}
+\end{circuitikz}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "2Ef2s5PEZBbvE7mjoCjDp",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EC111]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "dsUbtVJbKfJgbNUAbAleK",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EC111",
+    "target_object_type": "question"
+  },
+  {
+    "id": "HNrR9w6huJHQ7n55tJ5mc",
+    "inline_alias": "e_ptc",
+    "inline_label": "Schaltzeichen eines PTC-Widerstands",
+    "raw_marker": "[picture:126:e_ptc:Schaltzeichen eines PTC-Widerstands]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_object_id": "dsUbtVJbKfJgbNUAbAleK",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "126",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "IcvgRXHbskbXoROb37Be7",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EC109]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "dsUbtVJbKfJgbNUAbAleK",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EC109",
+    "target_object_type": "question"
+  },
+  {
+    "id": "KXlwnxwQl3Fmrbn00V9um",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EC110]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "dsUbtVJbKfJgbNUAbAleK",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EC110",
+    "target_object_type": "question"
+  },
+  {
+    "id": "Rv1N1zEgRa1N2yfYT117F",
+    "inline_alias": "e_ntc",
+    "inline_label": "Schaltzeichen eines NTC-Widerstands",
+    "raw_marker": "[picture:125:e_ntc:Schaltzeichen eines NTC-Widerstands]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "dsUbtVJbKfJgbNUAbAleK",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "125",
+    "target_object_type": "drawing"
+  }
+]

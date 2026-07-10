@@ -1,0 +1,21 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{circuitikz}
+    \ctikzset{
+        bipoles/tline/width=2,
+        bipoles/tline/bare=true
+    }
+    \draw (0,0) node [tlineshape, rotate=180] (foo) {};
+    \draw(foo.west) 
+        to [short, -o] ++(0.5,0) coordinate(start);
+    \draw(foo.top left)
+        to [short,*-] ++(0,0)
+        |- ++(0.6,-1) 
+        to [short, -o] ++(0,0) coordinate(end);
+    \draw(start)
+        to [open, name={m1}] (end);
+    \draw[dashed] (foo.center right) -- (foo.west); 
+    \fill (foo.center right) circle (0.9pt); 
+    \draw (m1) node []{X};
+    \draw (foo.north) node [anchor=north]{$Z=\qty{50}{\ohm}$};
+\end{circuitikz}

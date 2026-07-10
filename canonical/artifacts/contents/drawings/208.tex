@@ -1,0 +1,42 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{tikzpicture}
+    \pgfplotsset{
+      every axis plot/.append style={line width=0.8pt},
+    }
+    \begin{axis}[%
+        /pgf/number format/1000 sep={ },
+        /pgf/number format/use comma,        
+        axis lines=middle,
+        axis line style={-Triangle},
+        scale only axis,
+        ytick={-1,0,1},
+        every major tick/.append style={thick, black},
+        xtick={0.25*pi,0.5*pi,0.75*pi,pi,1.25*pi,1.5*pi,1.75*pi,2*pi,2.5*pi},
+        grid=major,
+        grid style={line width=.1pt, draw=gray!10},
+        major grid style={line width=.2pt,draw=gray!50},
+        xticklabel=\empty,
+        yticklabel=\empty,
+        ytick style={draw=none},
+        xmin=0,
+        xmax=2.25*pi,
+        ymin=-1.5,
+        ymax=1.5,
+        xmajorgrids=false,
+        ymajorgrids=false,
+        xlabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel style={at={(ticklabel* cs:1)},anchor=south east},
+        ylabel={$U$},
+        xlabel={$t$},
+        width=\linewidth*\getDarcImageFactor,
+        height=4cm,
+        scale only axis,
+    ]
+    \addplot[samples=500,domain=0:2.2*pi,smooth,black] {sin(deg(x+0.25*pi))}
+        node[pos=0.1111, anchor=south](){a};
+    \addplot[samples=500,domain=0:2.2*pi,smooth,gray] {sin(deg(x))}
+        node[pos=0.2222, anchor=south](){b}; 
+    \draw (axis cs: 0,0) node[anchor=north west]{0};
+\end{axis}
+\end{tikzpicture}%

@@ -1,0 +1,36 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \ctikzset{
+        resistors/scale=\getDarcImageFactor
+    }
+    \draw (0,10)
+        node[bnc](B1){}
+        to [short] ++(5,0) coordinate(oa1)
+        to [open]  ++(2,0) coordinate(oa2)
+        to [short] ++(1,0) coordinate(c0);
+    \draw[dashed] (oa1) -- (oa2);
+    \draw (1.5,10) to [R,l_={\rotatebox[origin=c]{90}{\qty{150}{\ohm}}},*-]  ++(0,-2)
+                   to [R,l_={\rotatebox[origin=c]{90}{\qty{150}{\ohm}}}]     ++(0,-2)
+                   to [R,l_={\rotatebox[origin=c]{90}{\qty{150}{\ohm}}}]     ++(0,-2)
+                   to [R,l_={\rotatebox[origin=c]{90}{\qty{150}{\ohm}}},-*]  ++(0,-2);
+    \draw (3.0,10) to [R,l_={\rotatebox[origin=c]{90}{\qty{150}{\ohm}}},*-]  ++(0,-2)
+                   to [R,l_={\rotatebox[origin=c]{90}{\qty{150}{\ohm}}}]     ++(0,-2)
+                   to [R,l_={\rotatebox[origin=c]{90}{\qty{150}{\ohm}}}]     ++(0,-2)
+                   to [R,l_={\rotatebox[origin=c]{90}{\qty{150}{\ohm}}},-*]  ++(0,-2);
+    \draw (4.5,10) to [R,l_={\rotatebox[origin=c]{90}{\qty{150}{\ohm}}},*-]  ++(0,-2)
+                   to [R,l_={\rotatebox[origin=c]{90}{\qty{150}{\ohm}}}]     ++(0,-2)
+                   to [R,l_={\rotatebox[origin=c]{90}{\qty{150}{\ohm}}}]     ++(0,-2)
+                   to [R,l_={\rotatebox[origin=c]{90}{\qty{150}{\ohm}}},-*]  ++(0,-2);
+    \draw (c0)     to [R,l_={\rotatebox[origin=c]{90}{\qty{150}{\ohm}}}]     ++(0,-2)
+                   to [R,l_={\rotatebox[origin=c]{90}{\qty{150}{\ohm}}}]     ++(0,-2)
+                   to [R,l_={\rotatebox[origin=c]{90}{\qty{150}{\ohm}}}]     ++(0,-2)
+                   to [R,l_={\rotatebox[origin=c]{90}{\qty{150}{\ohm}}}]     ++(0,-2) coordinate(c1);
+    \draw (B1.shield)
+        to [short] (B1.shield|-c1)
+        to [short] ++(5,0) coordinate(ob1)
+        to [open]  ++(2,0) coordinate(ob2)
+        to [short] (c1);
+    \draw[dashed] (ob1) -- (ob2);
+    \draw (B1.north) node[anchor=south](){E};
+\end{circuitikz}

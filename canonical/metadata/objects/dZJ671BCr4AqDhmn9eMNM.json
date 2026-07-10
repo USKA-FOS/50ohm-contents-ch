@@ -1,0 +1,75 @@
+{
+  "id": "dZJ671BCr4AqDhmn9eMNM",
+  "identifiers": [
+    {
+      "id": "YZEe8IpwvIfjapRqM070b",
+      "id_system": "question_code",
+      "id_value": "AH306",
+      "object_id": "dZJ671BCr4AqDhmn9eMNM",
+      "preferred": 1
+    }
+  ],
+  "metadata": [
+    {
+      "id": "6wnFy0Ok0OGA0IEHHG88n",
+      "metadata_key": "directus_id",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "dZJ671BCr4AqDhmn9eMNM",
+      "value_json": "\"2028\""
+    },
+    {
+      "id": "AymIvKgSD9Bs99H0RJeoN",
+      "metadata_key": "picture_question",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "dZJ671BCr4AqDhmn9eMNM",
+      "value_json": "\"\""
+    },
+    {
+      "id": "H7kduhs6AH1DiYzGpzZ8N",
+      "metadata_key": "layout",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "dZJ671BCr4AqDhmn9eMNM",
+      "value_json": "\"1\""
+    },
+    {
+      "id": "Ilxqt8oybOGXdzh9NOGNI",
+      "metadata_key": "picture_b",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "dZJ671BCr4AqDhmn9eMNM",
+      "value_json": "\"\""
+    },
+    {
+      "id": "JxAQz5V5NzW6ozmW7obsz",
+      "metadata_key": "picture_a",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "dZJ671BCr4AqDhmn9eMNM",
+      "value_json": "\"\""
+    },
+    {
+      "id": "N2on1rtpWjfTWOh9Lz9Yt",
+      "metadata_key": "class",
+      "metadata_scope": "question",
+      "object_id": "dZJ671BCr4AqDhmn9eMNM",
+      "value_json": "\"3\""
+    },
+    {
+      "id": "eT59kEkPEfp5bMPN5U2y9",
+      "metadata_key": "picture_d",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "dZJ671BCr4AqDhmn9eMNM",
+      "value_json": "\"\""
+    },
+    {
+      "id": "rwLlVLpnEdDYTJPXk0JiD",
+      "metadata_key": "picture_c",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "dZJ671BCr4AqDhmn9eMNM",
+      "value_json": "\"\""
+    }
+  ],
+  "source": {
+    "format": "json",
+    "key": "AH306",
+    "path": "contents/questions/fragenkatalog3b.json"
+  }
+}

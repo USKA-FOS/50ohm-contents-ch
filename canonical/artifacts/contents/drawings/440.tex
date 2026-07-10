@@ -1,0 +1,10 @@
+% Author: Dr. Matthias Jung (DL9MJ)
+% Year: 2022
+\begin{circuitikz}[european]
+	\draw (0,0) node[ocirc]{}
+                to [C=$C_1$, -*] ++(3,0) coordinate(r1)
+                to [open] ++(3,0) coordinate(r2)
+                to [short, *-] ++(1,0) node[ocirc]{};
+	\draw (r1) -- ++(0,1) to [C=$C_2$] ++(3,0) -- (r2);
+    \draw (r1) -- ++(0,-1) to [C=$C_3$] ++(3,0) -- (r2);
+\end{circuitikz}

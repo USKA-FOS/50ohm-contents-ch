@@ -1,0 +1,32 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{tikzpicture}
+    \draw[-Triangle](0,0) -- (5,0) node[right](){$f$};
+    %
+    % 0:
+    \draw (0.0,0.25) coordinate(null1) -- ++(0,-0.5) coordinate(null2);
+    \draw (null2) node[anchor=west, rotate=-45](){\qty{0}{\mega\hertz}};
+    % ZF:
+    \draw[DARCorange, thick] (0.455,0.25) coordinate(zf1) -- ++(0,-0.5) coordinate(zf2);
+    \draw[DARCorange] (zf1) node[anchor=south](fz){$f_\text{ZF}$};
+    \draw[DARCorange] (zf2) node[anchor=west, rotate=-45](){\qty{0.455}{\mega\hertz}};
+    % FO:
+    \draw[DARCgreen, thick] (3.955,0.25) coordinate(fo1) -- ++(0,-0.5) coordinate(fo2);
+    \draw[DARCgreen] (fo1) node[anchor=south](){$f_\text{o}$};
+    \draw[DARCgreen] (fo2) node[anchor=west, rotate=-45](){\qty{3.955}{\mega\hertz}};
+    % FE1:
+    \draw[DARCblue, thick] (3.500,0.25) coordinate(fe1) -- ++(0,-0.5) coordinate(fe2);
+    \draw[DARCblue] (fe1) node[anchor=south](f1){$f_\text{e1}$};
+    \draw[DARCblue] (fe2) node[anchor=west, rotate=-45](){\qty{3.5}{\mega\hertz}};
+    % FE2:
+    \draw[DARCblue, thick] (4.410,0.25) coordinate(ff1) -- ++(0,-0.5) coordinate(ff2);
+    \draw[DARCblue] (ff1) node[anchor=south](f2){$f_\text{e2}$};
+    \draw[DARCblue] (ff2) node[anchor=west, rotate=-45](){\qty{4.410}{\mega\hertz}};
+    % Lines:
+    \draw[DARCred, -Triangle] (f1.north) to[out=135,in=45] (fz.north);
+    \draw[DARCred, -Triangle] (f2.north) to[out=135,in=45] (fz.north);
+    % 
+    \draw[DARCorange, Triangle-Triangle] (0.000,0) -- (0.455,0);
+    \draw[DARCorange, Triangle-Triangle] (3.500,0) -- (3.955,0);
+    \draw[DARCorange, Triangle-Triangle] (3.955,0) -- (4.410,0);
+\end{tikzpicture}

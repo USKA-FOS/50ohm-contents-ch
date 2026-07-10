@@ -1,0 +1,11 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+1) Kurze Zusammenfassung:
+Blockdiagramm mit Signalfluss von links nach rechts durch Verstärker, DSB‑Mischer und SSB‑Filter, mit darunterliegender Umschaltung zwischen zwei 9‑MHz‑Zweigen (LSB/USB) und mehreren Frequenzangaben.
+
+2) Detaillierte Beschreibung:
+- Links ein Kreis; ein Pfeil führt nach rechts in einen rechteckigen Block mit einem Dreieck (Verstärker‑Symbol). Von dort ein Pfeil in einen rechteckigen Block mit Mixer‑Symbol (Kreis mit Kreuz), beschriftet „DSB“. Rechts davon ein weiterer rechteckiger Block mit drei wellenförmigen Linien, beschriftet „SSB“, aus dem ein Pfeil nach rechts herausführt.
+- Textbeschriftungen oberhalb des DSB‑/SSB‑Bereichs: „a) 8995,5–8998,2 kHz“ und darunter „b) 8998,8–9001,5 kHz“. Rechts oben neben dem SSB‑Ausgang steht erneut „8998,8–9001,5 kHz“. Zwischen DSB und SSB steht „9000 kHz ± 1,5 kHz“.
+- Unterhalb des DSB‑Blocks befindet sich ein rechteckiger Block mit der Aufschrift „G“. Ein Pfeil von „G“ zeigt nach oben zum DSB‑Block und ist mit „fosz“ beschriftet.
+- Von „G“ verläuft eine Leitung nach links unten und bildet eine U‑förmige Schleife nach rechts, an der zwei vertikale Abzweige mit offenen Schalter‑Symbolen liegen, links „LSB“, rechts „USB“.
+- Unter dem linken Abzweig („LSB“) ist ein kleines rechteckiges Kästchen, darunter die Beschriftung „9001,5 kHz“. Auf der horizontalen Leitung darunter ein schwarzer Punkt. Unter dem rechten Abzweig („USB“) ist ein gleichartiges Kästchen, darunter „8998,5 kHz“. Alle diese Elemente sind mit der unteren Leitung verbunden, die zurück zum Block „G“ führt.

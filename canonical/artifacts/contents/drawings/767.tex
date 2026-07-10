@@ -1,0 +1,104 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{circuitikz}[european]
+    \ctikzset{
+        resistors/scale=\getDarcImageFactor,
+        capacitors/scale=\getDarcImageFactor,
+        inductors/scale=\getDarcImageFactor,
+        transistors/scale=\getDarcImageFactor,
+        quadpoles/transformer core/inner=1,
+        quadpoles/transformer core/width=0.6,
+        quadpoles/transformer core/height=1.5,
+    }
+    \draw(0,0) coordinate(u0)
+        to [short, o-o] ++(11,0) coordinate(u12);
+    \draw(u0)
+        to [open] ++(0,3)
+        to [C, l_={$\qty{10}{\nano\farad}$}, o-*] ++(2,0) coordinate(m1)
+        to [short] ++(0.5,0)
+        node[npn, tr circle, anchor=B](T1){};
+    \draw(T1.E)
+        to [R, l_={\rotatebox[origin=c]{90}{\qty{10}{\ohm}}}, -*] (T1.E|-u0)
+        node[rground](){}; 
+    \draw(m1)
+        to [short] (m1|-T1.E)
+        to [R, l_={\rotatebox[origin=c]{90}{\qty{470}{\ohm}}},-*] (m1|-u0);
+    \draw(m1)
+        to [R, l={\rotatebox[origin=c]{90}{\qty{2,7}{\kilo\ohm}}}] ++(0,3) coordinate(o1)
+        to [short, -*] (o1-|T1.C)
+        node[transformer core, american, anchor=A2](F1){}
+        to [short] (T1.C);
+    \draw(F1.A1) 
+        to [american inductor, *-, mirror] ++(0,3) coordinate(g1)
+        to [short, *-o] (g1-|u0)
+        node[anchor=south west](){+\qty{13}{\volt}};
+    \draw(g1)
+        to [short,-o] (g1-|u12);
+    \draw(F1.A1)
+        to [C, l={\qty{0,1}{\micro\farad}}] ++(-2,0)
+        node[rground](){};
+    \draw(F1.B2)
+        to [short,-*] ++(0.5,0) coordinate(m2)
+        to [short,-*] (m2|-T1.E) coordinate(m3)
+        to [R, l_={\rotatebox[origin=c]{90}{\qty{33}{\ohm}}},-*] (m3|-u0);
+    \draw(m2)
+        to [short] ++(0,2) coordinate(h)
+        to [R,l={\rotatebox[origin=c]{90}{\qty{470}{\ohm}}},-*] (h|-g1);
+    \draw(m3)
+        to [short,-*] ++(1,0) coordinate(m4)
+        to [C, name={c31}, -*] (m4|-u0);
+    \draw (c31.west) node[anchor=south west]{};
+    \draw (c31.east) node[anchor=north west]{\qty{0,1}{\micro\F}};
+    \draw (m4) 
+        to [short] ++(1.75,0) coordinate(m7)
+        to [eC, name={c32}, -*, mirror] (m7|-u0);
+    \draw (c32.west) node[anchor=south west]{};
+    \draw (c32.east) node[anchor=north west]{\qty{2,2}{\micro\F}};
+    \draw (T1) ++(6.25,0)
+        node[npn, tr circle](T2){};
+    \draw(F1.B1)
+        to [short] ++(0.75,0)
+        to [short] ++(0,-2)
+        |- (T2.B);
+    \draw(T2.C)
+        node[transformer core, american, anchor=A2](F2){};
+    \draw(F2.A1)
+        to [short, *-] ++(-0.5,0) coordinate(m5)
+        to [R, l_={\rotatebox[origin=c]{90}{$R$=\qty{180}{\ohm}}}] (m5|-F2.A2)
+        to [short, -*] (F2.A2);
+    \draw(F2.A1)
+        to [short] (F2.A1|-F1.A1) coordinate(m6)
+        to [american inductor, l_={}, -*] (m6|-g1);
+    \draw(m6)
+        to [short,*-] (m6-|m7) coordinate(m8)
+        to [eC, name={c12}, mirror] ++(0,-2) coordinate(m9);
+    \draw (c12.west) node[anchor=south west]{};
+    \draw (c12.east) node[anchor=north west]{\qty{15}{\micro\F}};
+    \draw (m8)
+        to [short,*-] (m8-|m4)
+        to [C, name={c11}] ++(0,-2) coordinate(mA);
+    \draw (c11.west) node[anchor=south west]{};
+    \draw (c11.east) node[anchor=north west]{\qty{0,2}{\micro\F}};
+    \draw (m9) to [short, name={h2}] (mA);
+    \draw (h2.center)
+        to [short, -*] ++(0,0)
+        node[rground](){};
+    \draw (T2.E)
+        to [R, l={\rotatebox[origin=c]{90}{\qty{0,56}{\ohm}}},-*] (T2.E|-u0);
+    \draw (F2.B1)
+        to [short,-o] (F2.B1-|u12);
+    \draw (F2.B2)
+        to [short,-o] (F2.B2-|u12);
+    \draw(g1-|m9)
+        to [eC, name={c22}, mirror, *-] ++(0,-2)
+        node[rground](){};
+    \draw (c22.west) node[anchor=south west]{};
+    \draw (c22.east) node[anchor=north west]{\qty{15}{\micro\F}};
+    \draw(g1-|m4)
+        to [C, name={c21}, mirror, *-] ++(0,-2)
+        node[rground](){};
+    \draw (c21.west) node[anchor=south west]{};
+    \draw (c21.east) node[anchor=north west]{\qty{0,2}{\micro\F}};
+    \draw(F1.north) node[anchor=north] {};
+    \draw(F2.north) node[anchor=north] {$T_2$};
+\end{circuitikz}

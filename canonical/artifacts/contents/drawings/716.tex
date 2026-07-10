@@ -1,0 +1,23 @@
+% Author: Michael Groni, DB7YI
+% Year: 2023
+% Wasserfall AM Screen
+\begin{tikzpicture}
+	\begin{axis}[
+        width=\linewidth*\getDarcImageFactor,
+        height=\linewidth*\getDarcImageFactor,
+		scale only axis,
+		axis y line=left,
+		axis x line=bottom,
+		axis line style={-},
+		yticklabels={,60 s,30 s,0 s},
+		ytick distance=5,
+		xticklabels={,{f$_{t}$ - 5 kHz},{f$_{t}$},{f$_{t}$ + 5 kHz}},
+		xtick distance=4,
+		tick align=outside,
+		clip=false,
+		title=AM,
+		xmin=-5, xmax=5, ymin=0, ymax=10,
+	]
+		\addplot graphics [xmin=-5, xmax=5, ymin=0, ymax=10] {"foto/157"};
+	\end{axis};
+\end{tikzpicture}

@@ -1,0 +1,52 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{circuitikz}[american]
+	\ctikzset{
+    	resistors/scale=\getDarcImageFactor,
+    	capacitors/scale=\getDarcImageFactor,
+    	inductors/scale=\getDarcImageFactor,
+    	diodes/scale=\getDarcImageFactor,
+	}
+    \draw(0,0)
+        to [european resistor, name={myR}, o-*] ++(2,0) coordinate(o1) 
+        to [short] ++(0.5,0) coordinate(o2)
+        to [short, -*] ++(0.5,0) coordinate(o3)
+        to [short, name={h1}, -*] ++(1,0) coordinate(o4)
+        to [short] ++(0.5,0) coordinate(o5)
+        to [stroke diode, -*] ++(1.5,0) coordinate(o6)
+        to [short,-*] ++(1,0) coordinate(o7)
+        to [C,-o] ++(2,0) coordinate(o8);
+
+    \draw(o1)
+        to [european resistor, -*] ++(0,-2)
+        node[rground](){}
+        to [short] ++(0.5,0) coordinate(u2)
+        to [short, -*] ++(0.5,0) coordinate(u3)
+        to [short, -*] ++(1,0) coordinate(u4)
+        to [short] ++(0.5,0) coordinate(u5)
+        to [short, -*] ++(1.5,0) coordinate(u6)
+        to [short] ++(1,0) coordinate(u7)
+        to [european resistor] (o7);
+
+    \draw (myR.north) node[anchor=south]{ZF=\qty{10,7}{\mega\hertz}};
+    \draw (o8) node[anchor=south]{NF};
+
+    \draw(o3)
+        to [vL, name={myL}, invert, tunable end arrow={Bar}] (u3);
+    \draw(o4)
+        to [C] (u4);
+    \draw(o6)
+        to [C] (u6);
+
+    \draw[dashed](myL.core west) -- (myL.core east);
+
+    \draw[dashed, gray] (o2) 
+        -- ++(0,0.5) coordinate(h2)
+        to [short] (h2-|o5)
+        -- (u5)
+        -- ++(0,-0.5) coordinate(h3)
+        to [short, name={h4}] (h3-|o2)
+        -- (o2);
+
+    \draw[gray] (h4.center) node[anchor=north]{$f_\mathrm{res}\neq \mathrm{ZF}$};
+\end{circuitikz}

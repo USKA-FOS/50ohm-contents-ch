@@ -1,0 +1,22 @@
+% Author: Michael Groni, DB7YI
+% Year: 2026
+% Morsetelegrafie-Signale im 40-Meter-Band, links mit breiten Tastklicks
+\begin{tikzpicture}
+	\begin{axis}[
+		width=4in,
+		scale only axis,
+		axis y line=left,
+		axis x line=bottom,
+		axis line style={-},
+		yticklabels={,{5 s}, {2,5 s}, {0 s}},
+		ytick distance=5,
+		xticklabels={,{7007 kHz},{7008,5 kHz},{7010 kHz}},
+		xtick distance=5,
+		tick align=outside,
+		clip=false,
+		xmin=-5, xmax=5, ymin=0, ymax=10,
+	]			
+		\addplot graphics [xmin=-5, xmax=5, ymin=0, ymax=10] {"foto/330"};
+	\end{axis};
+		
+\end{tikzpicture}

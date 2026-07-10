@@ -1,0 +1,66 @@
+% Author: Stephan Kregel, DG1HXJ
+%         Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{circuitikz}[american]
+    \ctikzset{
+        resistors/scale=\getDarcImageFactor,
+        capacitors/scale=\getDarcImageFactor,
+        inductors/scale=\getDarcImageFactor,
+        transistors/scale=\getDarcImageFactor
+    }
+    \draw(0,0) coordinate(u0)
+        to [short, o-*] ++(1,0)
+        node [rground](){}
+        to [short, -*] ++(1,0) coordinate(u1)
+        to [short, -o] ++(8,0) coordinate(u4)
+        node[anchor=south](){--};
+    \draw(u0)
+        to[open, name={h1}] ++(0,3)
+        to [C, l={\qty{6,9}{\pico\farad}}, o-*] ++(2,0) coordinate(o1)
+        to [short,] ++(1,0)
+        node[npn, tr circle, anchor=B](T){BF\,224};
+    \draw(u1)
+        to [european resistor, l={\rotatebox[origin=c]{90}{\qty{3,3}{\kilo\ohm}}}, -*] (o1);
+    \draw(T.E)
+        to [european resistor, l_={\rotatebox[origin=c]{90}{\qty{330}{\ohm}}}, -*] (T.E|-u1);
+    \draw(T.E)
+        to [short, *-] ++(1,0) coordinate(TEE)
+        to [C, l={\rotatebox[origin=c]{90}{\qty{1}{\nano\farad}}}, -*] (TEE|-u1);
+    \ctikzset{
+        quadpoles/transformer core/inner=1,
+        quadpoles/transformer core/width=0.6
+    }    
+    \draw(T.C)
+        to [short, -*] ++(2.5,0) coordinate(o2)
+        to [short] ++(0.5,0)
+        node[transformer core, anchor=A2](F){};
+    \draw(o2)
+        to [vC, tunable end arrow={Bar}, invert] ++(0,-2.5) coordinate(f1)
+        to [short,-*] (o2|-u1);
+    \draw(F.B2)
+        to [vC, tunable end arrow={Bar}, invert] (F.B2|-f1)
+        to [short,-*] (F.B2|-u1);
+
+    \draw(F.B1)
+        to [short] ++(1,0) coordinate(h2)
+        to [short, -*] (h2|-u1);
+    % Help:
+    \draw(F-L2.a) to [open, name={h3}] (F-L2.midtap);
+    \draw(h3.center)
+        to [short, *-o] (h3.center-|u4) coordinate(m4);
+    \draw(F.A1)
+        to [short, -*] ++(0,1) coordinate(g1)
+        to [L, name={l1}] ++(2.5,0) coordinate(h4)
+        to [short, -o] (h4-|u4)
+        node[anchor=south](){+};
+    \draw(g1)
+        to [C, l={\qty{1}{\nano\farad}}] ++(-2,0)
+        node[rground](){};
+    \draw[dashed](l1.core west) -- (l1.core east);
+    \draw(m4)
+        to[open, name={h5}] (u4);
+    \draw(h1.center)
+        node[rotate=90](){\qty{96}{\mega\hertz}};
+    \draw(h5.center)
+        node[rotate=90](){\qty{288}{\mega\hertz}};
+\end{circuitikz}

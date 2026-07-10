@@ -1,0 +1,93 @@
+[
+  {
+    "id": "2vwsR6iuIITD1cKmq0ktk",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NF105]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "5H1p4hu6zTCcYQ9dwFnAP",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NF105",
+    "target_object_type": "question"
+  },
+  {
+    "id": "DQPK9lrioJ4ZKo3Hlfgw1",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NF104]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "5H1p4hu6zTCcYQ9dwFnAP",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NF104",
+    "target_object_type": "question"
+  },
+  {
+    "id": "HLDFsyD8YYVxbLoewIYWY",
+    "inline_alias": "n_wasserfall_wasserfall",
+    "inline_label": "Display eines ICOM IC-9700. Hervorgehoben ist der Wasserfall",
+    "raw_marker": "[photo:136:n_wasserfall_wasserfall:Display eines ICOM IC-9700. Hervorgehoben ist der Wasserfall]",
+    "relation_type": "embeds_photo",
+    "sort_order": 3,
+    "source_object_id": "5H1p4hu6zTCcYQ9dwFnAP",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "136",
+    "target_object_type": "photo"
+  },
+  {
+    "id": "bkmwDTove4zUbtLSCXJZe",
+    "inline_alias": "n_wasserfall_amplitudenspektrum",
+    "inline_label": "Display eines ICOM IC-9700. Hervorgehoben ist das Amplitudenspektrum",
+    "raw_marker": "[photo:135:n_wasserfall_amplitudenspektrum:Display eines ICOM IC-9700. Hervorgehoben ist das Amplitudenspektrum]",
+    "relation_type": "embeds_photo",
+    "sort_order": 2,
+    "source_object_id": "5H1p4hu6zTCcYQ9dwFnAP",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "135",
+    "target_object_type": "photo"
+  },
+  {
+    "id": "eXGztPgdwVsJdK0IKRHVS",
+    "inline_alias": "n_wasserfall_starke_station",
+    "inline_label": "Display eines ICOM IC-9700 mit Frequenzanzeige, Amplitudenspektrum und Wasserfalldiagramm. Eine starke Station wird empfangen.",
+    "raw_marker": "[photo:95:n_wasserfall_starke_station:Display eines ICOM IC-9700 mit Frequenzanzeige, Amplitudenspektrum und Wasserfalldiagramm. Eine starke Station wird empfangen.]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_object_id": "5H1p4hu6zTCcYQ9dwFnAP",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "95",
+    "target_object_type": "photo"
+  },
+  {
+    "id": "fIriIHwtCXFVCg6OWZ8MZ",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NI401]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_object_id": "5H1p4hu6zTCcYQ9dwFnAP",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NI401",
+    "target_object_type": "question"
+  },
+  {
+    "id": "vOxutu5JkThknPoNcUogW",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NF106]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_object_id": "5H1p4hu6zTCcYQ9dwFnAP",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NF106",
+    "target_object_type": "question"
+  }
+]

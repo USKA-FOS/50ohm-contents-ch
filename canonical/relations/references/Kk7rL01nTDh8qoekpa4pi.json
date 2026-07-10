@@ -1,0 +1,54 @@
+[
+  {
+    "id": "0IiTiE9WDptBdbmK4sfwP",
+    "inline_alias": "n_Wasserfall0",
+    "inline_label": "Signal eines AM-Rundfunksenders (Sprache / Musik)",
+    "raw_marker": "[picture:716:n_Wasserfall0:Signal eines AM-Rundfunksenders (Sprache / Musik)]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "Kk7rL01nTDh8qoekpa4pi",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "716",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "QHeaCMGw3TXmqEo6GAm4C",
+    "inline_alias": "n_seitenband",
+    "inline_label": "Symbolische Darstellung eines amplitudenmodulierten Signals mit Träger und Seitenbändern",
+    "raw_marker": "[picture:476:n_seitenband:Symbolische Darstellung eines amplitudenmodulierten Signals mit Träger und Seitenbändern]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_object_id": "Kk7rL01nTDh8qoekpa4pi",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "476",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "gAq2TFFXu7ol1Jshz66yV",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NE202]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "Kk7rL01nTDh8qoekpa4pi",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NE202",
+    "target_object_type": "question"
+  },
+  {
+    "id": "wKyQdCiJNBj0qtN2n0INg",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NE206]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "Kk7rL01nTDh8qoekpa4pi",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NE206",
+    "target_object_type": "question"
+  }
+]

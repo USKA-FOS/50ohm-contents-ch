@@ -1,0 +1,54 @@
+% Author: Michael Groni, DB7YI
+% Year: 2023
+
+% Anziehung und Abstoßung elektrischer Ladungen
+
+\begin{tikzpicture}
+
+	\tikzstyle{ladung}=[circle, draw, text centered]
+	\tikzstyle{plus}=[ladung, fill=DARCred]
+	\tikzstyle{minus}=[ladung, fill=DARCblue]
+
+	% Plus - Minus
+	\node (obenLinks)  at (0,0) [plus] {$+$};
+	
+	% Koordinaten der Ankerpunkte bestimmen
+	\pgfpointanchor{obenLinks}{west} % Westlicher Ankerpunkt
+	\pgfgetlastxy{\westx}{\westy} % Koordinaten des westlichen Ankerpunkts speichern
+  	\pgfpointanchor{obenLinks}{east} % Östlicher Ankerpunkt
+  	\pgfgetlastxy{\eastx}{\easty} % Koordinaten des östlichen Ankerpunkts speichern
+  	% Abstand zwischen den Ankerpunkten berechnen
+  	\pgfmathsetlengthmacro{\nodebreite}{\eastx-\westx}
+	\draw[-Triangle] (obenLinks.east) -- +(0:1.3*\nodebreite);
+	% $-$ als Beschriftung ergibt einen kleineren Node als $+$.
+	% Workaround: minimum width bei negativen Ladungen
+	% text height=0.25*\nodebreite zentriert das Minus-Zeichen vertikal
+	\node (obenRechts) at (4*\nodebreite, 0) [minus, minimum width=\nodebreite, text height=0.25*\nodebreite] {$-$};
+	\draw[-Triangle] (obenRechts.west) -- +(180:1.3*\nodebreite);
+	
+	% Plus - Plus
+	\node (mitteLinks)  at (0, -2*\nodebreite) [plus] {$+$};
+	\draw[-Triangle] (mitteLinks.west) -- +(180:1.3*\nodebreite);
+	\node (mitteRechts) at (4*\nodebreite, -2*\nodebreite) [plus] {$+$};
+	\draw[-Triangle] (mitteRechts.0) -- +(0:1.3*\nodebreite);
+	
+	% Minus - Minus
+	\node (untenLinks)  at (0, -4*\nodebreite) [minus, minimum width=\nodebreite, text height=0.25*\nodebreite] {$-$};
+	\draw[-Triangle] (untenLinks.west) -- +(180:1.3*\nodebreite);
+	\node (untenRechts) at (4*\nodebreite, -4*\nodebreite) [minus, minimum width=\nodebreite, text height=0.25*\nodebreite] {$-$};
+	\draw[-Triangle] (untenRechts.east) -- +(0:1.3*\nodebreite);
+	
+	% horizontale Linie zwischen 1. und 2. Zeile
+	\path (obenLinks) -- (mitteLinks) node[midway] (a) {};
+	\node [left=2*\nodebreite of a] (b) {};
+	\path (obenRechts) -- (mitteRechts) node[midway] (c) {};
+	\node [right=2*\nodebreite of c] (d) {};
+	\draw[draw=DARCgray] (b) -- (d);
+	
+	% horizontale Linie zwischen 3. und 4. Zeile
+	\path (mitteLinks) -- (untenLinks) node[midway] (e) {};
+	\node [left=2*\nodebreite of e] (f) {};
+	\path (mitteRechts) -- (untenRechts) node[midway] (g) {};
+	\node [right=2*\nodebreite of g] (h) {};
+	\draw[draw=DARCgray] (f) -- (h);
+\end{tikzpicture}

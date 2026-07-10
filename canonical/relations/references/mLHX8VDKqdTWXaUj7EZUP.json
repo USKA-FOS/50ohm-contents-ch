@@ -1,0 +1,54 @@
+[
+  {
+    "id": "9wwE0nQQ7qGS5MW2RYFwd",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BD109]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_object_id": "mLHX8VDKqdTWXaUj7EZUP",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BD109",
+    "target_object_type": "question"
+  },
+  {
+    "id": "IQqCvnuzGMJVWXyMrKvN1",
+    "inline_alias": "n_ardf_fuchs",
+    "inline_label": "ARDF-Fuchs im Wald mit Wimpel und Zeitnehmer",
+    "raw_marker": "[photo:190:n_ardf_fuchs:ARDF-Fuchs im Wald mit Wimpel und Zeitnehmer]",
+    "relation_type": "embeds_photo",
+    "sort_order": 8,
+    "source_object_id": "mLHX8VDKqdTWXaUj7EZUP",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "190",
+    "target_object_type": "photo"
+  },
+  {
+    "id": "ZsZBO0B2xBGvm3E9MjxD7",
+    "inline_alias": "ardf_morse_code",
+    "inline_label": "Rufzeichen der Fuchsjagdsender",
+    "raw_marker": "[table:ardf_morse_code:Rufzeichen der Fuchsjagdsender]",
+    "relation_type": "embeds_table",
+    "sort_order": 7,
+    "source_object_id": "mLHX8VDKqdTWXaUj7EZUP",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "ardf_morse_code",
+    "target_object_type": "table_object"
+  },
+  {
+    "id": "qhd5PDMfEDy86dyTxQCTj",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE313]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_object_id": "mLHX8VDKqdTWXaUj7EZUP",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE313",
+    "target_object_type": "question"
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "0q915H20Kza0Vwt4X8z2V",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EG210]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_object_id": "SoXb8dzdXIuFKvJ1DkMat",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EG210",
+    "target_object_type": "question"
+  },
+  {
+    "id": "4Vi1xQU7u2JqwvZ5jt0sA",
+    "inline_alias": "e_fusspunktimpedanz_dipol",
+    "inline_label": null,
+    "raw_marker": "[ref:e_fusspunktimpedanz_dipol]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_object_id": "SoXb8dzdXIuFKvJ1DkMat",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_fusspunktimpedanz_dipol",
+    "target_object_type": null
+  },
+  {
+    "id": "9gwzCOefmXjnVaxfTgZWE",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EG207]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "SoXb8dzdXIuFKvJ1DkMat",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EG207",
+    "target_object_type": "question"
+  },
+  {
+    "id": "AxsIBjYmFxGBgKXJkggll",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EG211]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_object_id": "SoXb8dzdXIuFKvJ1DkMat",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EG211",
+    "target_object_type": "question"
+  },
+  {
+    "id": "L1jXrrpzCvBv23iYwUpZh",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EG209]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "SoXb8dzdXIuFKvJ1DkMat",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EG209",
+    "target_object_type": "question"
+  },
+  {
+    "id": "RGaHzVIogMip7rKG3mSU6",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EG208]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "SoXb8dzdXIuFKvJ1DkMat",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EG208",
+    "target_object_type": "question"
+  },
+  {
+    "id": "q4T89RlbMp3fBqaXFVgPF",
+    "inline_alias": "e_fusspunktimpedanz_dipol",
+    "inline_label": "Fußpolimpedanz eines Dipols in Abhängigkeit von der Aufbauhöhe (Simuliert mit NECPP)",
+    "raw_marker": "[picture:788:e_fusspunktimpedanz_dipol:Fußpolimpedanz eines Dipols in Abhängigkeit von der Aufbauhöhe (Simuliert mit NECPP)]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "SoXb8dzdXIuFKvJ1DkMat",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "788",
+    "target_object_type": "drawing"
+  }
+]

@@ -1,0 +1,46 @@
+% Author: Prof. Dr. Matthias Jung
+% Year: 2023
+\begin{tikzpicture}
+    \tikzset{
+        buffer/.style={
+            draw,
+            very thick,
+            shape border rotate=0,
+            regular polygon,
+            regular polygon sides=3,
+            fill=DARCred,
+            minimum height=4em,
+            rounded corners = 4pt
+        }
+    }
+    \draw[thick](-2,0) -- (22,0);
+    \draw[thick] (5,0) -- ++(4,7) -- ++(1,-2) -- ++(2,3) coordinate(top) -- (17,0);
+    \draw(top) node[dinantenna, scale=0.75](ant){};
+
+    \draw(0,0) coordinate(b1);
+    \draw(b1) ++(1,0) coordinate(b2);
+    \draw(b1) to [short] ++(0.5,1) coordinate(geschlechtsteil);
+    \draw(b2) -- (geschlechtsteil);
+    \draw(geschlechtsteil) to [short] ++(0,1) coordinate(hals);
+    \draw(hals) to [short] ++(0.5,-1) coordinate(h1);
+    \draw(hals) -- ++(-0.5,-1) coordinate(h2);
+    \draw(hals) to [open] ++(0,0.5) circle (0.5);
+    \draw(h1) node[draw, rotate=-45, inner sep=0pt, minimum width=10*\getDarcImageFactor, minimum height=20*\getDarcImageFactor, anchor=south](hf1){};
+    \draw(hf1.north) node[dinantenna, scale=0.4, rotate=-45, anchor=south](ant1){};
+    \draw[DARCred](ant1.top) node [waves, rotate=45, anchor=left](){};
+    %\draw[DARCred, thick](ant1.top) -- (ant.top);
+
+    \draw(20,0) coordinate(b1);
+    \draw(b1) ++(1,0) coordinate(b2);
+    \draw(b1) to [short] ++(0.5,1) coordinate(geschlechtsteil);
+    \draw(b2) -- (geschlechtsteil);
+    \draw(geschlechtsteil) to [short] ++(0,1) coordinate(hals);
+    \draw(hals) to [short] ++( 0.5,-1) coordinate(h1);
+    \draw(hals) -- ++(-0.5,-1) coordinate(h2);
+    \draw(hals) to [open] ++(0,0.5) circle (0.5);
+    \draw(h2) node[draw, rotate=45, inner sep=0pt, minimum width=10*\getDarcImageFactor, minimum height=20*\getDarcImageFactor, anchor=south](hf1){};
+    \draw(hf1.north) node[dinantenna, scale=0.4, rotate=45, anchor=south](ant1){};
+    \draw[DARCred](ant1.top) ++(-0.25,0.25) node [waves, rotate=-45, anchor=right](){};
+    %\draw[DARCred, thick](ant1.top) -- (ant.top);
+
+\end{tikzpicture}

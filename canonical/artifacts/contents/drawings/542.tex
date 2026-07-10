@@ -1,0 +1,50 @@
+% Author: Michael Groni, DB7YI, Modified by DL9MJ
+% Year: 2023
+\begin{tikzpicture}
+	% Masten
+	\def\yMast{2.4}
+	\def\breiteMast{0.2}
+	\def\deltaYRichtfunk{2}
+	\foreach \xm in {2, 6}
+    {
+	    \foreach \y in {0, 1, 2}
+    	{
+    		\draw (\xm, \y+\yMast) to ++(\breiteMast, 1);
+        	\draw (\xm+\breiteMast, \y+\yMast) to ++(-\breiteMast, 1);
+    	}
+    	\draw (\xm, \yMast) rectangle ++(\breiteMast, 3); 
+        \draw[very thick, DARCblue](\xm+\breiteMast,\yMast+3) node[waves, anchor=left](){};
+        \draw[very thick, DARCblue](\xm,\yMast+3) node[waves, anchor=left, rotate=180](){};
+	}
+	\node [text height=0.2cm] at (2 + \breiteMast / 2, \yMast-0.2) {\tiny DB0FZ};
+	\node [text height=0.2cm] at (6 + \breiteMast / 2, \yMast-0.2) {\tiny DB0HOB};
+    
+    \draw[thick, DARCgray](2+\breiteMast,\yMast+\deltaYRichtfunk) node[waves, anchor=left, scale=0.75*\getDarcImageFactor](){};
+    \draw[thick, DARCgray](6,\yMast+\deltaYRichtfunk) node[waves, anchor=left, scale=0.75*\getDarcImageFactor, rotate=180](){};
+    
+    % Haus
+    \def\xHaus{3.6}
+    \def\yHaus{2.6}
+    \def\breiteHaus{1.7}
+    \def\hoeheHaus{0.8}
+    \draw (\xHaus, \yHaus) rectangle ++(\breiteHaus, \hoeheHaus);
+    \draw (\xHaus-0.2, \yHaus+\hoeheHaus-0.1) to (\xHaus+\breiteHaus/2, \hoeheHaus+\yHaus+0.5);
+    \draw (\xHaus+\breiteHaus++0.2, \yHaus+\hoeheHaus-0.1) to (\xHaus+\breiteHaus/2, \hoeheHaus+\yHaus+0.5);
+    
+    % Hotspot
+    \def\hoeheHotspot{0.4}
+    \def\deltaXHotspot{1.3}
+    \draw [thick] (\xHaus+\deltaXHotspot, \yHaus) to ++(0, \hoeheHotspot);
+    \node [text height=0.2cm] at (\xHaus+\deltaXHotspot, \yMast-0.2) {\tiny DN9YI};
+    \draw[DARCorange](\xHaus+\deltaXHotspot,\yHaus+\hoeheHotspot) node[waves, anchor=left, scale=0.25*\getDarcImageFactor](){};
+    \draw[DARCorange](\xHaus+\deltaXHotspot,\yHaus+\hoeheHotspot) node[waves, anchor=left, scale=0.25*\getDarcImageFactor, rotate=180](){};
+    
+	% Internet
+	\def\xInternet{3}
+	\def\yInternet{2.4}
+	\node[cloud, draw=gray, minimum width=27, minimum height=13, cloud puffs = 11, cloud puff arc = 105] (internet) at (\xInternet, \yInternet) {};
+	\node[] at (\xInternet, \yInternet) {\tiny Internet};
+	\draw [thick, draw=gray] (internet.east) to (\xHaus+\deltaXHotspot, \yHaus);    % Linie zum Hotspot
+	\draw [thick, draw=gray] (internet.west) to (2+\breiteMast, \yHaus-0.12);  			% Linie zum linken Mast
+	
+\end{tikzpicture}

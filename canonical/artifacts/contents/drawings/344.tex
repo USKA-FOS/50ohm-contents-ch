@@ -1,0 +1,21 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+% 3-TD121
+\begin{circuitikz}[american]
+    
+    \draw(0,5) to [short, -*] ++(3,0) coordinate(C1)
+    to [european resistor, l={$R_3$},-*] ++(0,-2.5) coordinate(C2)
+    to [european resistor, l={$R_4$},-*] ++(0,-2.5) coordinate(C5)
+    to [short] ++(-3,0) coordinate(C3);
+    
+    \draw(0,5) to [european resistor, l_={$R_1$},-*] ++(0,-2.5) coordinate(C4)
+    to [european resistor, l_={$R_2$}] ++(0,-2.5);
+    
+    \draw(C4)  to [short,-o] ++(1,0)
+    to [short,-o] ++ (1,0)
+    to (C2);
+    
+    \draw(C5) -- ++(1.5,0) to node[ocirc, label=right:b]{} ++(0,0);
+    \draw(C1) -- ++(1.5,0) to node[ocirc, label=right:a]{} ++(0,0);
+    
+\end{circuitikz}

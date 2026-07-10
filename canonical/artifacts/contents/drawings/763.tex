@@ -1,0 +1,35 @@
+% Dr. Matthias Jung, DL9MJ
+% 2022
+\begin{circuitikz}[european]
+    \draw(0,0) to [short,o-*] ++(2,0) coordinate(c1)
+               to [short, -*] ++(2,0) coordinate(c2)
+               to [short, -*] ++(2,0) coordinate(c3)
+               to [short, -o] ++(2,0) coordinate(c4);
+
+    \draw(4,3) node[npn, tr circle](trans){};
+    \draw(0,3) coordinate(a1) 
+               to [C,l={\qty{1}{\micro\farad}},o-*] ++(2,0) coordinate(d1)
+               to [short] (trans.B);
+    
+    \draw(d1) to [R,l={\qty{10}{\kilo\ohm}}] (c1);
+
+    \draw(trans.E) to [R,l={\qty{120}{\ohm}}, *-] (c2);
+    \draw(trans.E) to [short] ++(2,0)
+                   to [eC,l={\qty{4,7}{\micro\farad}}] (c3);
+
+    \draw(c3) node[rground](){};
+
+    \draw(d1) to [R, l_={\qty{47}{\kilo\ohm}},-*] ++(0,3) coordinate(e1)
+              to [short] ++(-1,0)
+              to [eC,l_={\qty{10}{\micro\farad}}] ++(0,-1.0)
+              node[rground](){}; 
+
+    \draw(e1) to [short, -*] ++(2,0) coordinate(e2)
+              to [loudspeaker] (trans.C);
+
+    \draw(e2) to [short,-o] ++(4,0) coordinate(a2);
+    
+    \draw(a1) node[anchor=south](){E};
+    \draw(c4) node[anchor=west](){--};
+    \draw(a2) node[anchor=west](){+};
+\end{circuitikz}

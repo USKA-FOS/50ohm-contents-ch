@@ -1,0 +1,11 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \draw(0,0)
+        to [short,o-] ++(3,0) coordinate(foo)
+        to [short,-o] ++(3,0);
+    \draw(0,4) to [C,o-*] ++(3,0) coordinate(bar)
+               to [C, -o] ++(3,0);
+    \draw(foo) node[circ]{} to [american inductor, name=l1] (bar);
+    \draw[densely dashed] (l1.core west) -- (l1.core east);
+\end{circuitikz}

@@ -1,0 +1,31 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2025
+\begin{circuitikz}[background rectangle/.style={fill=white}, show background rectangle]
+
+    \draw(current page.center) node[
+        minimum width=\linewidth,
+        minimum height=\linewidth,
+        inner sep=0
+    ](img){\centering\includegraphics[height=\linewidth]{foto/1}};
+
+    %\draw(img.north west) rectangle (img.south east);
+    %\draw[red](img.52) |- (img.317);
+
+    \draw(img.130 |- img.15) to [R, european,l={$R$}] (img.130 |- img.345);
+
+    % Pfeile:
+    \draw[Triangle-Triangle] (img.118 |- img.10) -- (img.118 |- img.350);
+    \draw(img.120 |- img.10) -- (img.116 |- img.10);
+    \draw(img.120 |- img.350) -- (img.116 |- img.350);
+    \draw(img.118 |- img.0) node [anchor=west] {\qty{1}{\centi\meter}};
+
+    % Text:
+    \draw(img.99 |- img.5  ) node [anchor=south] {\small\qty{1}{\kilo\ohm}};
+    \draw(img.99 |- img.0  ) node [anchor=north] {\small\qty{125}{\milli\watt}};
+    \draw(img.83 |- img.22 ) node [anchor=south] {\small\qty{47}{\kilo\ohm}};
+    \draw(img.83 |- img.342) node [anchor=north] {\small\qty{250}{\milli\watt}};
+    \draw(img.69 |- img.34 ) node [anchor=south] {\small\qty{620}{\kilo\ohm}};
+    \draw(img.69 |- img.329) node [anchor=north] {\small\qty{2}{\watt}};
+    \draw(img.52 |- img.42)  node [anchor=south] {\small\qty{22}{\kilo\ohm}};
+    \draw(img.52 |- img.318) node [anchor=north] {\small\qty{9}{\watt}};
+\end{circuitikz}

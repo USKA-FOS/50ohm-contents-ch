@@ -1,0 +1,41 @@
+\begin{circuitikz}
+    \ctikzset{
+        blocks/scale=\getDarcImageFactor,
+        RF/scale=\getDarcImageFactor,
+        misc/scale=\getDarcImageFactor
+    }
+    \draw(0,0)
+        node[camerashape, rotate=90] (cam){};
+    \draw(cam.south)
+        to [adc, >] ++(2,0)
+        node [inputarrow](){}
+        node [twoportshape, t={\large ?}, anchor=west](question){};
+    \draw(question.right up)    
+        to [short] ++(0.5,0)
+        |- ++(0.5,1) node[inputarrow](){}
+        node[dacshape, anchor=west](dac1){};
+    \draw(question.right down)    
+        to [short] ++(0.5,0)
+        |- ++(0.5,-1) node[inputarrow](){}
+        node[dacshape, anchor=west](dac2){};
+    \draw(dac1.east) ++(1,0) coordinate(h1) (h1|-question.west)
+        node[mixer, box, anchor=west](mix){};
+    \draw(dac1.east)    
+        to [short] ++(0.5,0)
+        |- (mix.left up) node[inputarrow](){};
+    \draw(dac2.east)    
+        to [short] ++(0.5,0)
+        |- (mix.left down) node[inputarrow](){};
+    \draw(mix.east)
+        to [amp, box] ++(2,0)
+        node[bandpassshape, anchor=west](bp1){};
+    \draw(bp1.east)
+        to [short] ++(0.5,0)
+        node[antenna](){};
+    \draw(mix.south)
+        node [inputarrow, rotate=90](){}
+        to [short] ++(0,-1)
+        node[qgeneratorshape, t={G}, anchor=north](){};
+    \draw(mix.north)
+        node[anchor=south](){IQ};
+\end{circuitikz}

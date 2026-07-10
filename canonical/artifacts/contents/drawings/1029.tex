@@ -1,0 +1,20 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{tikzpicture}
+    % X-Axis:
+    \draw[-Triangle](0,+0.0) -- (7.0,0.0) node[anchor=north](){$t$} coordinate(x1end);
+    \draw(x1end) ++(0.25,0) node[anchor=west](){Zeit};
+
+    % Y-Axis:
+    \draw[-Triangle](0,-2) -- (0,2) node[anchor=south east](){$I$};
+
+    % Sine Wave:
+    \draw[domain=0:1/8*2*pi, samples=100, DARCred, thick] plot (\x, {1.5*sin(deg(\x))});
+    \draw[domain=0:2/8*2*pi, samples=100, DARCred, thick] plot (\x, {1.5*sin(deg(\x))});
+    %\only<5> {\draw[domain=0:3/8*2*pi, samples=100, DARCred, thick] plot (\x, {1.5*sin(deg(\x))});
+    %\only<6> {\draw[domain=0:4/8*2*pi, samples=100, DARCred, thick] plot (\x, {1.5*sin(deg(\x))});
+    %\only<7> {\draw[domain=0:5/8*2*pi, samples=100, DARCred, thick] plot (\x, {1.5*sin(deg(\x))});
+    %\only<8> {\draw[domain=0:6/8*2*pi, samples=100, DARCred, thick] plot (\x, {1.5*sin(deg(\x))});
+    %\only<9> {\draw[domain=0:7/8*2*pi, samples=100, DARCred, thick] plot (\x, {1.5*sin(deg(\x))});
+    %\only<10>{\draw[domain=0:8/8*2*pi, samples=100, DARCred, thick] plot (\x, {1.5*sin(deg(\x))});
+\end{tikzpicture}

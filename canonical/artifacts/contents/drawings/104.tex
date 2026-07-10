@@ -1,0 +1,16 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+% TJ510
+\begin{circuitikz}
+	\ctikzset{seven seg/color on=black}
+	\draw (0,0) node[seven segment val=1 dot none box off, anchor=west](z1){};
+	\draw (z1.east) node[seven segment val=4 dot none box off, anchor=west](z2){};
+	\draw (z2.east) node[seven segment val=5 dot on box off, anchor=west](z3){};
+	\draw (z3.east) node[seven segment val=0 dot none box off, anchor=west](z4){};
+	\draw (z4.east) node[seven segment val=0 dot none box off, anchor=west](z5){};
+	\draw (z5.east) node[seven segment val=1 dot none box off, anchor=west](z6){};
+	\draw (z6.east) node[seven segment val=3 dot none box off, anchor=west](z7){};
+	\draw (z7.east) node[seven segment val=7 dot none box off, anchor=west](z8){};
+	\draw (z8.east) node[anchor=west](){MHz};
+	\draw (z8.north) node[anchor=south](){X};
+\end{circuitikz}

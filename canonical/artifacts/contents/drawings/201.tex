@@ -1,0 +1,23 @@
+% Author: Stephan Kregel, DG1HXJ
+% Year: 2022
+\begin{circuitikz}[european]
+    \draw(0,0) coordinate(u0)
+        to [open] ++(0,3) coordinate(o0)
+        to [short, o-*] ++(1,0) coordinate(o1)
+        to [twoport, t={IC1}, -*, name={o2}] ++(3,0) coordinate(o3)
+        to [short, *-o] ++(1,0) coordinate(o4);
+    \draw(u0)
+        to [short, o-*] ++(1,0) coordinate(u1)
+        to [short,  -*] ++(3,0) coordinate(u3)
+        to [short,  -o] ++(1,0) coordinate(u4);
+    \draw (o1) to [ecapacitor] (u1)
+        node[rground](){};
+    \draw (o3) to [C] (u3);
+    \draw (o2.south) to [short, -*] (o2.center |- u3);
+    \draw (o0) node[anchor=south](){+\qty{13,8}{\volt}};
+    \draw (o4) node[anchor=south](){+\qty{5}{\volt}};
+    \draw (o4)
+        to [short, o-] ++(1,0)
+        to [european resistor, l={\rotatebox[origin=c]{+90}{$R_\mathrm{L}=\qty{10}{\ohm}$}}] ++(0,-3)
+        to [short, -o] (u4);
+\end{circuitikz}

@@ -1,0 +1,20 @@
+% Author: Stephan Kregel, DG1HXJ
+% Year: 2021
+% TD419
+\begin{circuitikz}[european]
+    \draw[-Triangle](0.0,0.0) -- (3.0,0.0);
+    \draw[-Triangle](0.0,0.0) -- (0.0,5.0);
+    \draw(3,0.40) node[] () {$U_\mathrm{BE}$};
+    \draw(-0.35,5) node[] () {$I_\mathrm{C}$};
+    \draw(0,0) 
+    node[ocirc]{} [thick, black]{} (0,0) -- ++(1,0) 
+    node[ocirc]{} [thick, black]{} -- ++(0.2,1) 
+    node[ocirc]{} [thick, black]{} -- ++(0.2,1) 
+    node[ocirc]{} [thick, black]{} -- ++(0.4,2)  ;
+    \draw(0,0) node[anchor=north] () {$\mathrm{AP}_\mathrm{1}$};
+    \draw(1,0) node[anchor=north] () {$\mathrm{AP}_\mathrm{2}$};
+    \draw(1.2,1) node[anchor=west] () {$\mathrm{AP}_\mathrm{3}$};
+    \draw(1.4,2) node[anchor=west] () {$\mathrm{AP}_\mathrm{4}$};
+    \draw [thick, black] (1.7,3.8) -- ++(0.125,0);
+    \draw(1.825,3.8) node[anchor=west] () {$I_{\mathrm{C}_\mathrm{max}}$};
+\end{circuitikz}

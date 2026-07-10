@@ -1,0 +1,93 @@
+[
+  {
+    "id": "ALFsU6QSAm09J9N2e78zY",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF202]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "G32oP5czwwuZ1XQJ38E4W",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF202",
+    "target_object_type": "question"
+  },
+  {
+    "id": "MsMqoWpFI4ppnnzlwf4Jr",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF205]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_object_id": "G32oP5czwwuZ1XQJ38E4W",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF205",
+    "target_object_type": "question"
+  },
+  {
+    "id": "Upkg5neFL6O6sg1G0lZZD",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF204]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "G32oP5czwwuZ1XQJ38E4W",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF204",
+    "target_object_type": "question"
+  },
+  {
+    "id": "YtIPrQWyqSJYPsw7cCKAV",
+    "inline_alias": "e_mischer",
+    "inline_label": "Mischer mit zwei Eingangsfrequenzen",
+    "raw_marker": "[picture:102:e_mischer:Mischer mit zwei Eingangsfrequenzen]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "G32oP5czwwuZ1XQJ38E4W",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "102",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "dek2zLFx9KJfz1pUswf7F",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF206]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_object_id": "G32oP5czwwuZ1XQJ38E4W",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF206",
+    "target_object_type": "question"
+  },
+  {
+    "id": "h9uiZpygOWTrzApRwNijc",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF201]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "G32oP5czwwuZ1XQJ38E4W",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF201",
+    "target_object_type": "question"
+  },
+  {
+    "id": "iOBhuJ23m5oAeljVV5DUr",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF203]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "G32oP5czwwuZ1XQJ38E4W",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF203",
+    "target_object_type": "question"
+  }
+]

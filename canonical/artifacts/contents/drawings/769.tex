@@ -1,0 +1,49 @@
+% 2022 Dr. Matthias Jung (DL9MJ)
+\begin{circuitikz}[european]
+    \ctikzset{
+        resistors/scale=\getDarcImageFactor,
+        capacitors/scale=\getDarcImageFactor,
+        inductors/scale=\getDarcImageFactor,
+        transistors/scale=\getDarcImageFactor
+    }
+    \draw(0,0)
+        to [short,o-*] ++(2.0,0) node[rground](gnd){}
+        to [short, -o] ++(9.0,0) coordinate(c6);
+    \draw(0,3)
+        to [variable capacitor, o-*, tunable end arrow={Bar}] ++(2.0,0) coordinate(o1)
+        to [variable capacitor,invert,  -*, tunable end arrow={Bar}] (gnd);
+    \draw(o1)
+        to [american inductor, inductors/coils=2, inductors/width=0.4, -*] ++(1.5,0) coordinate(o2)
+        to [american inductor, name={l3},-*] (o2|-c6);
+    \draw[dashed](l3.core west) -- (l3.core east);
+    \draw(o2)
+        to [short] ++(1,0) coordinate(o3)
+        to [R,name={r1}, *-*] (o3|-c6);
+    \draw(r1.north west)
+        node[anchor=north west]{};
+    \draw(o3)
+        to [short] ++(0.75,0)
+        node[npn, tr circle, anchor=B](trans){};
+    \draw(trans.E)
+        to [R,name={r2},-*] (trans.E|-c6);
+    \draw(r2.south east)
+        node[anchor=south east]{};
+    \draw(trans.E) to [short, *-] ++(1.0,0) coordinate(x1)
+              to [C, -*] (x1|-c6);
+    \draw(trans.C) 
+        to [short, -*] ++(1,0) coordinate (o5)
+        to [american inductor, name={l4}] ++(0,2)
+        to [short,-*] ++(1.25,0) coordinate(u2)
+        to [short] ++(0,-1)
+        to [C, -*] (u2|-c6);
+    \draw[dashed](l4.core west) -- (l4.core east);
+    \draw(u2)
+        to [short, -o] (u2-|c6)
+        node[anchor=south](){+};
+    \draw(o5)
+        to [short] ++(1,0)
+        to [variable capacitor, tunable end arrow={Bar}, l={X}] ++(1.5,0) 
+        to [L,american, l={X}, -*] ++(0,-2) coordinate(u1)
+        to [short,-o] (u1-|c6);
+    \draw(u1) to [variable capacitor, invert, tunable end arrow={Bar}, l={X},-*] (u1|-c6);
+\end{circuitikz}

@@ -1,0 +1,48 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{circuitikz}[american]
+    \ctikzset{
+        resistors/scale=\getDarcImageFactor,
+        capacitors/scale=\getDarcImageFactor,
+        inductors/scale=\getDarcImageFactor,
+        diodes/scale=\getDarcImageFactor
+    }
+
+    \draw(1,0) node[transformer core, anchor=A1](T){};
+    \draw[-|](T.outer dot A2) -- (T.outer dot B1);
+    \draw(T.A1)
+        to [C,*-*] (T.A2);
+    \draw(T.A1)
+        to [short,-o] ++(-1,0) coordinate(m0);
+    \draw(T.A2)
+        to [short,-o] ++(-1,0) coordinate(u0);
+    \draw(m0)
+        to [open, name={h0}] (u0);
+    \draw(h0.center)
+        node[](){ZF};
+    \draw(T.B1)
+        to [C,*-*] (T.B2);
+    \draw(T.B1)
+        to [stroke diode,-*] ++(2,0) coordinate(m1)
+        to [short, -*] ++(1,0) coordinate(m2)
+        to [european resistor, -*] ++(2,0) coordinate(m3)
+        to [short, -o] ++(1,0) coordinate(m4);
+    \draw(T.B2)
+        to [short,-*] ++(2,0) coordinate(u1)
+        to [short, -*] ++(1,0) coordinate(u2)
+        node [rground](){}
+        to [short, -*] ++(2,0) coordinate(u3)
+        to [short, -o] ++(1,0);
+    \draw(m1) 
+        to [C] (u1);
+    \draw(m2) 
+        to [european resistor] (u2);
+    \draw(m3) 
+        to [C, name={myC}] (u3);
+    \draw(myC.south west)
+        node[anchor=south](){+};
+    \draw(m2)
+        to [short] ++(0,1) coordinate(o1)
+        to [C, -o] (o1-|m4)
+        node[anchor=west](){NF};
+\end{circuitikz}

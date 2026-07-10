@@ -1,0 +1,28 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2025
+\begin{circuitikz}[background rectangle/.style={fill=white}, show background rectangle]
+    \draw(current page.center) node[
+        minimum width=\linewidth,
+        minimum height=\linewidth,
+        inner sep=0
+    ](img){\centering\includegraphics[height=\linewidth]{foto/6}};
+
+    %\draw(img.north west) rectangle (img.south east);
+    %\draw[red](img.97) |- (img.4);
+
+    \draw(img.130 |- img.15) to [stroke led, invert, european,l={$D$}] (img.130 |- img.345);
+
+    % Pfeile:
+    \draw[Triangle-Triangle] (img.118 |- img.10) -- (img.118 |- img.350);
+    \draw(img.120 |- img.10) -- (img.116 |- img.10);
+    \draw(img.120 |- img.350) -- (img.116 |- img.350);
+    \draw(img.118 |- img.0) node [anchor=west] {\qty{1}{\centi\meter}};
+
+    % Text:
+    \draw(img.97 |- img.4  ) node [anchor=south] {\small SMD};
+    \draw(img.85 |- img.15 ) node [anchor=south] {\small Grün};
+    \draw(img.85 |- img.330) node [anchor=north] {\small \qty{3}{\milli\meter}};
+    \draw(img.72 |- img.23 ) node [anchor=south] {\small Gelb};
+    \draw(img.57 |- img.34 ) node [anchor=south] {\small Rot};
+    \draw(img.57 |- img.320) node [anchor=north] {\small \qty{10}{\milli\meter}};
+\end{circuitikz}

@@ -1,0 +1,25 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{tikzpicture}
+    \pgfplotsset{samples=200}
+    \begin{axis}[
+        ticks=none,
+        xmin =  0,
+        ymin = -3,
+        xmax =  7,
+        ymax =  3,
+        domain = 0:7,
+        grid=both,
+        grid style={line width=.1pt, draw=black},
+        major grid style={line width=.2pt,draw=black},
+        xtick = {0,1,2,3,4,5,6,7},
+        ytick = {-3,-2,-1,0,1,2,3},
+        thick,
+        smooth,
+        no markers]
+    \def\foo{1.345}
+    \addplot+[name path=A,ultra thick, black] { 
+        2.7*(sin(deg(x*\foo))+1/3*sin(deg(3*x*\foo))+0.2*sin(deg(5*x*\foo))+1/7*sin(deg(7*x*\foo)))
+    };
+    \end{axis}
+\end{tikzpicture}

@@ -1,0 +1,12 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{circuitikz}[european]
+    \draw (-2.5,0) coordinate(a) to [short, i=$I$, o-] ++(1.5,0) coordinate(r1) to [short,-o] ++(1,0) coordinate(u11);
+    \draw (r1) to [R,l_=$R_1$,*-*] ++(0,-2) coordinate(r2)
+    to [R,l_=$R_2$,*-*] ++(0,-2) coordinate(r3) -- ++(1,0) node[ocirc](u22){} ++(0,0);
+    \draw (r2) -- ++(1,0) node[ocirc](u21){} ++(0,0);
+    \draw (r3) to [short,-o] ++(-1.5,0) coordinate(b);
+    \draw (a) to [open, v=$U_\text{g}$, voltage=straight] (b);
+    \draw (u11) to [open, v^=$U_1$, voltage=straight] (u21);
+    \draw (u21) to [open, v^=$U_2$, voltage=straight] (u22);
+\end{circuitikz}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "G18YgVaaCU6RTtos4YYIV",
+    "inline_alias": "a_richtantenne_personenschutz",
+    "inline_label": "In einem Winkel von 40° unterhalb der Achse der Hauptstrahlungskeule ist die Strahlungsleistung 6 dB geringer als bei dem Winkel 0°.",
+    "raw_marker": "[picture:950:a_richtantenne_personenschutz:In einem Winkel von 40° unterhalb der Achse der Hauptstrahlungskeule ist die Strahlungsleistung 6 dB geringer als bei dem Winkel 0°.]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_object_id": "S0m1ylfobNynPONT6UGkP",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "950",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "kFyhG3u8JchdRHhMDKB3D",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AK105]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_object_id": "S0m1ylfobNynPONT6UGkP",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AK105",
+    "target_object_type": "question"
+  }
+]

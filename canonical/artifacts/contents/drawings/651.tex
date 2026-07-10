@@ -1,0 +1,41 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{circuitikz}
+    %\tikzstyle{help lines}=[blue!50];
+    %\draw[style=help lines] (0,-1) grid (10,4);
+    \ctikzset{
+        blocks/scale=\getDarcImageFactor
+    }
+    \draw (0,0) coordinate(start)
+        to [short, o-] ++(1,0) node[inputarrow] {} 
+        node [bandpassshape,anchor=west](bp1){};
+    \draw (bp1.east)
+        to [short] ++(1,0) node[inputarrow] {} 
+        node [mixer,boxed,anchor=west](mix){};
+    \draw (mix.east)
+        to [short] ++(1,0) node[inputarrow] {} 
+        node [bandpassshape,anchor=west](bp2){};
+    \draw (bp2.east)
+        to [short, -o] ++(1,0) coordinate(end);
+
+    \draw(mix.south)
+        node[inputarrow, rotate=90] {} 
+        to [short, name={l1}] ++(0,-1.5)
+        to [short] ++(-0.5,0)
+        node [twoportshape, t={PLL}, anchor=east](pll){};
+    \draw(pll.west)
+        node[inputarrow, rotate=0] {} 
+        to [short] ++(-1.0,0)
+        node [qgeneratorshape, t={G}, anchor=east](gen){};
+
+    \draw(pll.south)
+        node[inputarrow, rotate=90] {} 
+        to [short,-o] ++(0,-1)
+        node[anchor=west](){Ext. GPSDO};
+
+    \draw(start)     node[anchor=south](){\qty{144}{\mega\hertz}};
+    \draw(end)       node[anchor=south](){\qty{2,4}{\giga\hertz}};
+    \draw(gen.south) node[anchor=north](){TCXO};
+    \draw(gen.north) node[anchor=south](){\qty{10}{\mega\hertz}};
+    \draw(l1.center) node[anchor=west] (){\qty{2,256}{\giga\hertz}};
+\end{circuitikz}

@@ -1,0 +1,13 @@
+% DL9MJ 2025:
+\begin{circuitikz}
+    \draw(0,0)
+        to [short] ++(2,0)
+        to [R, l=$R$, fill=DARCred, name={r1}] ++(0,-1)
+        to [short] ++(-2,0)
+        to [battery2, invert, l=$U$] (0,0);
+    \draw[ultra thick, DARCred, -Triangle](r1.210) to [open] ++(-0.05,0) -- ++(-0.15,+0.15);
+    \draw[ultra thick, DARCred, -Triangle](r1.330) to [open] ++(-0.05,0) -- ++(-0.15,-0.15);
+    \draw[ultra thick, DARCred, -Triangle](r1.150) to [open] ++(+0.05,0) -- ++(+0.15,+0.15);
+    \draw[ultra thick, DARCred, -Triangle](r1.30 ) to [open] ++(+0.05,0) -- ++(+0.15,-0.15);
+    \draw[DARCred] (r1.south) ++(-0.05,0) node [anchor=east] {\Huge $P$};
+\end{circuitikz}

@@ -1,0 +1,72 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2025
+\begin{circuitikz}
+    \begin{scope}[local bounding box=bb]
+        \begin{axis}[
+            axis lines=center, 
+            axis line style={-Triangle},
+            scale only axis,
+            axis on top,
+            height=2cm,
+            width=\linewidth*\getDarcImageFactor,
+            xmin=0,
+            xmax=8,
+            ymin=0,
+            ymax=2,
+            ticks=none,
+            xlabel={$f$},
+            xlabel style={anchor=north},
+            ylabel={$R$},
+            ylabel style={anchor=east},
+        ]
+        \addplot[smooth, mark=none, DARCblue, thick, domain=0:2.5*pi, samples=400] {1}; 
+        \end{axis}
+    \end{scope}
+
+    \begin{scope}[shift={($(0,-2.25/\getDarcImageFactor)$)}]
+        \begin{axis}[
+            axis lines=center, 
+            axis line style={-Triangle},
+            scale only axis,
+            axis on top,
+            height=2cm,
+            width=\linewidth*\getDarcImageFactor,
+            xmin=0.1,
+            xmax=8,
+            ymin=0,
+            ymax=2,
+            ticks=none,
+            xlabel={$f$},
+            xlabel style={anchor=north},
+            ylabel={$|X_C|$},
+            ylabel style={anchor=east},
+        ]
+        \draw[DARCblue](axis cs: 4,1) node[](){$|X_C| = \tfrac{1}{2\pi \cdot f \cdot C}$};
+        \addplot[smooth, mark=none, DARCblue, thick, domain=0:2.5*pi, samples=400] {1/x}; 
+        \end{axis}
+    \end{scope}
+
+    \begin{scope}[shift={($(0,-4.5/\getDarcImageFactor)$)}]
+        \begin{axis}[
+            axis lines=center, 
+            axis line style={-Triangle},
+            scale only axis,
+            axis on top,
+            height=2cm,
+            width=\linewidth*\getDarcImageFactor,
+            xmin=0,
+            xmax=8,
+            ymin=0,
+            ymax=2,
+            ticks=none,
+            xlabel={$f$},
+            xlabel style={anchor=north},
+            ylabel={$|X_L|$},
+            ylabel style={anchor=east},
+        ]
+        \draw[DARCblue](axis cs: 2,1) node[](){$|X_L| = 2\pi \cdot f \cdot L$};
+        \addplot[smooth, mark=none, DARCblue, thick, domain=0:2.5*pi, samples=400] {0.25*x}; 
+        \end{axis}
+    \end{scope}
+
+\end{circuitikz}

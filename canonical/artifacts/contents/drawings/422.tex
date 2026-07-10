@@ -1,0 +1,90 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{tikzpicture}
+    \def\slabels{{"~","1","~","3","~","5","~","7","~","9","~","+20","~","+40","~","+60~dB","~"}}
+    \def\svalues{{-8,-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8}}
+    \def\swrvalues{{-3,-2,-1,0,1,2,3}}
+    \def\swrlabels{{"1","1.5","2","3","~","~","$\mathrm{\infty}$"}}
+    
+    \def\centerarc[#1](#2)(#3:#4:#5)% Syntax: [draw options] (center) (initial angle:final angle:radius)
+    { \draw[#1] ($(#2)+({#5*cos(#3)},{#5*sin(#3)})$) arc (#3:#4:#5); }
+
+        % Beschneiden
+        \clip[] (-6.2,7.5) rectangle (+5.8,1.55);
+
+        % S-Meter:
+        \foreach \b in {-7,-6,...,7}{
+            \edef\c{90 - \b * 6.25}
+            \pgfmathparse{Mod(\b,2)==0?1:0}
+            \ifnum\pgfmathresult>0
+                \pgfmathparse{\b<=1?1:0}
+                \ifnum\pgfmathresult>0
+                    \draw[thick] (\c:6.5) -- (\c:6.8);
+                \else
+                    \draw[thick, black!50] (\c:6.5) -- (\c:6.8);
+                \fi
+            \else
+                \pgfmathparse{\b<=1?1:0}
+                \ifnum\pgfmathresult>0
+                    \draw[ultra thick] (\c:6.5) -- (\c:6.8);
+                \else
+                    \draw[ultra thick, black!50] (\c:6.5) -- (\c:6.8);
+                \fi
+            \fi
+        }
+
+        \foreach \i in {0,1,...,16}{
+            \edef\c{90 - \svalues[\i] * 6.25}
+            \draw (\c:7.1) node[rotate=\c-90] {\footnotesize\pgfmathparse{\slabels[\i]}\pgfmathresult};
+        }
+
+        % Power:
+        \foreach \b in {-50,-49,...,50}
+            \edef\c{90 - \b * 1.0}
+            \draw[] (\c:6.4) -- (\c:6.30);
+        \foreach \b in {-50,-45,...,50}
+            \edef\c{90 - \b * 1.0}
+            \draw[] (\c:6.35) -- (\c:6.25);
+        \foreach \b in {-50,-40,...,50}
+            \edef\c{90 - \b * 1.0}
+            \draw[] (\c:6.25) -- (\c:6.10);
+        \foreach \b in {-50,-40,...,50}
+            \edef\c{90 - \b * 1.0}
+            \pgfmathtruncatemacro\result{abs((\b+50))}
+            \draw (\c:5.9) node[rotate=\c-90] {\footnotesize\result};
+
+        % SWR:
+        \foreach \b in {-3,-2,-1,0,1,2,3} {
+            \edef\c{90 - \b * 16.666}
+            \draw[] (\c:5.6) -- (\c:5.40);
+        }
+
+        \foreach \i in {0,1,2,3,4,5,6} {
+            \edef\c{90 - \swrvalues[\i] * 16.666}
+            \draw (\c:5.2) node[rotate=\c-90]{\footnotesize\pgfmathparse{\swrlabels[\i]}\pgfmathresult};
+        }
+
+
+        % Kreisboegen:
+        \centerarc[ultra thick, black!50](0,0)(82.5:40:6.5)
+        \centerarc[ultra thick](0,0)(140:83.5:6.5)
+
+        \centerarc[thick](0,0)(140:40.0:6.4)
+
+        \centerarc[thick](0,0)(140:40.0:5.6)
+
+        \centerarc[thick, double distance = 0.2cm, line cap=rect](0,0)(139:80.0:4.7)
+        \centerarc[thick, line width=0.2cm, line cap=rect, black!50](0,0)(139:120.0:4.7)
+
+        % Beschriftung: 
+        \edef\c{90 + 3.200 * 16.666} \draw (\c:4.7) node[rotate=\c-90, anchor=east]{\footnotesize ALC};
+        \edef\c{90 + 3.150 * 16.666} \draw (\c:5.4) node[rotate=\c-90, anchor=east]{\footnotesize SWR};
+        \edef\c{90 + 3.100 * 16.666} \draw (\c:6.1) node[rotate=\c-90, anchor=east]{\footnotesize PWR};
+        \edef\c{90 + 3.050 * 16.666} \draw (\c:6.8) node[rotate=\c-90, anchor=east]{\footnotesize S};
+
+        % Zeiger:
+        \draw[thick] (0,0) -- (+2.25,6.5); %+20
+        %\draw[thick] (0,0) -- (-2.25,6.5); %5
+        %\draw[thick] (0,0) -- (0.75,6.9); %9
+
+\end{tikzpicture}

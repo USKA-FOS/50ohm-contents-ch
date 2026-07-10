@@ -1,0 +1,80 @@
+[
+  {
+    "id": "6lZmd3P4lpmEMpsp0a5eD",
+    "inline_alias": "a_oszillator_pll_pll",
+    "inline_label": "Darstellung einer Phasenregelschleife (PLL)",
+    "raw_marker": "[picture:45:a_oszillator_pll_pll:Darstellung einer Phasenregelschleife (PLL)]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "c3VYBzSUwV98bV5GuvDIB",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "45",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "9fAQEjdWK6IFWiYPh7oCJ",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD704]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_object_id": "c3VYBzSUwV98bV5GuvDIB",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD704",
+    "target_object_type": "question"
+  },
+  {
+    "id": "D9uCfoBJddNTrWm0YBRg6",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD703]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "c3VYBzSUwV98bV5GuvDIB",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD703",
+    "target_object_type": "question"
+  },
+  {
+    "id": "atJHkgWj6wXYWwVWd5Y4x",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD705]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "c3VYBzSUwV98bV5GuvDIB",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD705",
+    "target_object_type": "question"
+  },
+  {
+    "id": "kJZlF1MKoTDUuIx2sdGH1",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD701]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "c3VYBzSUwV98bV5GuvDIB",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD701",
+    "target_object_type": "question"
+  },
+  {
+    "id": "qFcntrW9RzH9w1unki0Vy",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD702]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "c3VYBzSUwV98bV5GuvDIB",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD702",
+    "target_object_type": "question"
+  }
+]

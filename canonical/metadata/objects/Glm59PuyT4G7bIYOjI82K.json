@@ -1,0 +1,75 @@
+{
+  "id": "Glm59PuyT4G7bIYOjI82K",
+  "identifiers": [
+    {
+      "id": "H3zh0jG2JuDWAB1Zsrc6q",
+      "id_system": "question_code",
+      "id_value": "NC101",
+      "object_id": "Glm59PuyT4G7bIYOjI82K",
+      "preferred": 1
+    }
+  ],
+  "metadata": [
+    {
+      "id": "0no0E93kPKzL8Pk6WDdQF",
+      "metadata_key": "class",
+      "metadata_scope": "question",
+      "object_id": "Glm59PuyT4G7bIYOjI82K",
+      "value_json": "\"1\""
+    },
+    {
+      "id": "9SEnupT48KAgbXKhtG0Vq",
+      "metadata_key": "picture_question",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "Glm59PuyT4G7bIYOjI82K",
+      "value_json": "509"
+    },
+    {
+      "id": "AHZYaoLpyl1rDjVo7Tql3",
+      "metadata_key": "layout",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "Glm59PuyT4G7bIYOjI82K",
+      "value_json": "\"3\""
+    },
+    {
+      "id": "Dhm1IfU0j8YzzptEOwGX6",
+      "metadata_key": "directus_id",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "Glm59PuyT4G7bIYOjI82K",
+      "value_json": "\"2481\""
+    },
+    {
+      "id": "DqxEuCXAJNiDwMuFLn0Lc",
+      "metadata_key": "picture_d",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "Glm59PuyT4G7bIYOjI82K",
+      "value_json": "\"\""
+    },
+    {
+      "id": "MekeWJVFKD6qaV6uo1V8w",
+      "metadata_key": "picture_b",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "Glm59PuyT4G7bIYOjI82K",
+      "value_json": "\"\""
+    },
+    {
+      "id": "nxoCTuhN8pY8rB1KtInbT",
+      "metadata_key": "picture_a",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "Glm59PuyT4G7bIYOjI82K",
+      "value_json": "\"\""
+    },
+    {
+      "id": "uAW6Ed2TL1ELCnSPjxhTM",
+      "metadata_key": "picture_c",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "Glm59PuyT4G7bIYOjI82K",
+      "value_json": "\"\""
+    }
+  ],
+  "source": {
+    "format": "json",
+    "key": "NC101",
+    "path": "contents/questions/fragenkatalog3b.json"
+  }
+}

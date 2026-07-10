@@ -1,0 +1,27 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2025
+\begin{circuitikz}[background rectangle/.style={fill=white}, show background rectangle]
+    \draw(current page.center) node[
+        minimum width=\linewidth,
+        minimum height=\linewidth,
+        inner sep=0
+    ](img){\centering\includegraphics[height=\linewidth]{foto/9}};
+
+    %\draw(img.north west) rectangle (img.south east);
+    %\draw[red](img.65) |- (img.40);
+
+    \draw(img.133 |- img.15) to [L, american,l={$L$}] (img.133 |- img.345);
+
+    % Pfeile:
+    \draw[Triangle-Triangle] (img.118 |- img.10) -- (img.118 |- img.350);
+    \draw(img.120 |- img.10) -- (img.116 |- img.10);
+    \draw(img.120 |- img.350) -- (img.116 |- img.350);
+    \draw(img.118 |- img.0) node [anchor=west] {\qty{1}{\centi\meter}};
+
+    % Text:
+    \draw(img.68 |- img.320) node [anchor=north] {\small \qty{5}{\milli\henry}};
+    \draw(img.83 |- img.345) node [anchor=east, rotate=90] {\small \qty{150}{\micro\henry}};
+    \draw(img.60 |- img.7)   node [anchor=north] {\small \qty{3}{\ampere}};
+    \draw(img.97 |- img.5)   node[anchor=west, rotate=90] {\small PLCC2 \qty{100}{\nano\henry}};
+    \draw(img.65 |- img.40)  node [anchor=south]{\small \qty{47}{\micro\henry}};
+\end{circuitikz}

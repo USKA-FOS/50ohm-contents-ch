@@ -1,0 +1,184 @@
+% Author: Michael Groni, DB7YI
+% Year: 2024
+
+\tikzset{
+  router/.pic ={
+	\coordinate (-north) at (0, 0.35cm);
+  	\coordinate (-east) at (0.35cm, 0);
+	\coordinate (-south) at (0, -0.35cm);
+	\coordinate (-west) at (-0.35cm, 0);
+	
+	\coordinate (-ipEast) at (0.65cm, 0.4cm);
+	\coordinate (-ipWest) at (-1.85cm, 0.4cm);
+	\coordinate (-ipSouthRight) at (0.25cm, -0.55cm);
+	\coordinate (-ipSouthLeft) at (-1.5cm, -0.55cm);
+		
+    \node [circle, draw, minimum size=20] {};
+    
+    \tikzstyle{routerArrow}=[arrows = {-Latex[width=4pt, length=4pt]}, thick]
+    
+    \draw [routerArrow] (-0.3cm, 0) to (-0.05cm, 0);
+    \draw [routerArrow] (0.3cm, 0) to (0.05cm, 0); 
+    \draw [routerArrow] (0, -0.05cm) to (0, -0.3cm);
+    \draw [routerArrow] (0, 0.05cm) to (0, 0.3cm);
+  }
+}
+
+
+\tikzset{	% IP-Konfiguration /24
+  ipconfigC/.pic ={
+   	
+	\tikzstyle{box}=[minimum height=0.2cm, inner sep=0, outer sep=0]
+	\tikzstyle{dezimalbox}=[box, minimum width=0.34cm, align=center]
+	\tikzstyle{dezimalboxA}=[dezimalbox, fill=DARCorange]
+	\tikzstyle{dezimalboxB}=[dezimalbox, fill=DARCblue]
+
+	\tikzstyle{punkt}=[anchor=south west, inner sep=0, outer sep=0]	
+	
+	% IP-Adresse
+    \node (byteA1) [dezimalboxA] at (0, 0) {};
+	\node (pointA1) [right=0cm of byteA1.339, punkt] {\tiny .};
+	\node (byteA2) [dezimalboxA, right=0cm of pointA1.south east, anchor=201] {};
+	\node (pointA2) [right=0cm of byteA2.339, punkt] {\tiny .};
+	\node (byteA3) [dezimalboxA, right=0cm of pointA2.south east, anchor=201] {};
+	\node (pointA3) [right=0cm of byteA3.339, punkt] {\tiny .};
+	\node (byteA4) [dezimalboxB, right=0cm of pointA3.south east, anchor=201] {};
+		
+	% Netzmaske
+	\node (netmask1) [dezimalboxA, below=0.03 cm of byteA1, anchor=north] {\tiny 255};
+	\node (pointNA1) [right=0cm of netmask1.339, punkt] {\tiny .};
+	\node (netmask2) [dezimalboxA, below=0.03 cm of byteA2, anchor=north] {\tiny 255};
+	\node (pointNA2) [right=0cm of netmask2.339, punkt] {\tiny .};
+	\node (netmask3) [dezimalboxA, below=0.03 cm of byteA3, anchor=north] {\tiny 255};
+	\node (pointNA3) [right=0cm of netmask3.339, punkt] {\tiny .};
+	\node (netmask4) [dezimalboxB, below=0.03 cm of byteA4, anchor=north] {\tiny 0};
+	
+	% Koordinaten
+	\coordinate (-byte1) at (byteA1);
+	\coordinate (-byte2) at (byteA2);
+	\coordinate (-byte3) at (byteA3);
+	\coordinate (-byte4) at (byteA4);
+  }
+}
+
+
+\tikzset{	% IP-Konfiguration /16
+  ipconfigB/.pic ={
+   	
+	\tikzstyle{box}=[minimum height=0.2cm, inner sep=0, outer sep=0]
+	\tikzstyle{dezimalbox}=[box, minimum width=0.34cm, align=center]
+	\tikzstyle{dezimalboxA}=[dezimalbox, fill=DARCorange]
+	\tikzstyle{dezimalboxB}=[dezimalbox, fill=DARCblue]
+
+	\tikzstyle{punkt}=[anchor=south west, inner sep=0, outer sep=0]	
+	
+	% IP-Adresse
+    \node (byteA1) [dezimalboxA] at (0, 0) {};
+	\node (pointA1) [right=0cm of byteA1.339, punkt] {\tiny .};
+	\node (byteA2) [dezimalboxA, right=0cm of pointA1.south east, anchor=201] {};
+	\node (pointA2) [right=0cm of byteA2.339, punkt] {\tiny .};
+	\node (byteA3) [dezimalboxB, right=0cm of pointA2.south east, anchor=201] {};
+	\node (pointA3) [right=0cm of byteA3.339, punkt] {\tiny .};
+	\node (byteA4) [dezimalboxB, right=0cm of pointA3.south east, anchor=201] {};
+		
+	% Netzmaske
+	\node (netmask1) [dezimalboxA, below=0.03 cm of byteA1, anchor=north] {\tiny 255};
+	\node (pointNA1) [right=0cm of netmask1.339, punkt] {\tiny .};
+	\node (netmask2) [dezimalboxA, below=0.03 cm of byteA2, anchor=north] {\tiny 255};
+	\node (pointNA2) [right=0cm of netmask2.339, punkt] {\tiny .};
+	\node (netmask3) [dezimalboxB, below=0.03 cm of byteA3, anchor=north] {\tiny 0};
+	\node (pointNA3) [right=0cm of netmask3.339, punkt] {\tiny .};
+	\node (netmask4) [dezimalboxB, below=0.03 cm of byteA4, anchor=north] {\tiny 0};
+	
+	% Koordinaten
+	\coordinate (-byte1) at (byteA1);
+	\coordinate (-byte2) at (byteA2);
+	\coordinate (-byte3) at (byteA3);
+	\coordinate (-byte4) at (byteA4);
+  }
+}
+
+\tikzset{	% Laptop
+  laptop/.pic ={
+		\node (case) at (0, 0.04) [draw, minimum width=0.8cm, minimum height=0.5cm, rounded corners=0.5, anchor=center] {};				% Gehäuse
+		\node at (0, 0.04) [draw, minimum width=0.75cm, minimum height=0.44cm, anchor=center] {};				% Bildschirm
+		\node (keyboard) [below=0.02cm of case.south, draw, minimum width=1.0cm, minimum height=0.04cm, rounded corners=0.5, inner sep=0, anchor=north] {};	% Tastatur
+		
+		% Koordinaten
+		\coordinate (-north) at (case.north);
+		\coordinate (-south) at (keyboard.south);
+		\coordinate (-west) at (case.182);
+		
+		\coordinate (-ipEast) at (0.5cm, 0.15cm);
+
+  }
+}
+
+\begin{tikzpicture}	
+	\tikzstyle{ipNet}=[cloud, draw=gray, minimum width=2cm, minimum height=1cm, cloud puffs = 11, cloud puff arc = 105]
+	\tikzstyle{siteNet}=[ipNet, fill=DARCgray]
+	\tikzstyle{ipNetLabel} = [inner sep=0, align=center]
+	
+	
+	\def\yRouter{2cm}
+	
+	% internes Netz mit Router
+	\def\xA{0}
+	\pic (router1) at (\xA, \yRouter) {router};
+	\node [above=0cm of router1-north] {\tiny Router};
+	\node[siteNet] (intern) at (\xA, -0.5) {};
+	\node[ipNetLabel] at (intern.center) {internes\\[-0.3em]Netz};
+	\draw (router1-south) -- (intern.north);
+	
+	% Laptop im internen Netz mit IP-Adresse
+	\pic (laptop1) [right=0.7cm of intern.east] {laptop};
+	\draw (intern.east) -- (laptop1-west);
+	\pic (ipLaptop1) [right=0.1cm of laptop1-ipEast] {ipconfigB};
+	\node at (ipLaptop1-byte1) {\tiny 10};
+	\node at (ipLaptop1-byte2) {\tiny 33};
+	\node at (ipLaptop1-byte3) {\tiny 0};
+	\node at (ipLaptop1-byte4) {\tiny 100};
+	
+	% IP-Adresse Router 1 intern
+	\pic (ip1ext) at (router1-ipSouthRight) {ipconfigB};
+	\node at (ip1ext-byte1) {\tiny 10};
+	\node at (ip1ext-byte2) {\tiny 33};
+	\node at (ip1ext-byte3) {\tiny 0};
+	\node at (ip1ext-byte4) {\tiny 1};
+		
+	% IP-Adresse Router 1 extern
+	\pic (ip1ext) at (router1-ipEast) {ipconfigC};
+	\node at (ip1ext-byte1) {\tiny 141};
+	\node at (ip1ext-byte2) {\tiny 17};
+	\node at (ip1ext-byte3) {\tiny 5};
+	\node at (ip1ext-byte4) {\tiny 18};
+	
+	% Internetanschluss mit Router
+	\def\xB{7.5cm}
+	\pic (router2) at (\xB, \yRouter) {router};
+	\node [above=0cm of router2-north] {\tiny Router};
+	\node (internet) [ipNetLabel] at (\xB, -0.5) {Internet-\\[-0.3em]anschluss};
+	\draw (router2-south) -- (internet.north);
+	
+	% IP-Adresse Router 2 intern
+	\pic (ip2int) at (router2-ipWest) {ipconfigC};
+	\node at (ip2int-byte1) {\tiny 141};
+	\node at (ip2int-byte2) {\tiny 17};
+	\node at (ip2int-byte3) {\tiny 5};
+	\node at (ip2int-byte4) {\tiny 1};
+	
+	% IP-Adresse Router 2 extern
+	\pic (ip2ext) at (router2-ipSouthLeft) {ipconfigC};
+	\node at (ip2ext-byte1) {\tiny 46};
+	\node at (ip2ext-byte2) {\tiny 142};
+	\node at (ip2ext-byte3) {\tiny 171};
+	\node at (ip2ext-byte4) {\tiny 229};
+	
+	% Servernet
+	\path (router1-east) -- (router2-west) node[siteNet, midway] (server) {};
+	\node at (server) [ipNetLabel] {Server-\\[-0.3em]netz};
+	\draw (router1-east) -- (server.west);
+	\draw (router2-west) -- (server.east);
+	
+
+\end{tikzpicture}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "AvIR0Gok9AhyxGZgYdNNm",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AJ213]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "MtnsF9WsQQrbsSjv7UgEZ",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AJ213",
+    "target_object_type": "question"
+  },
+  {
+    "id": "CIF1QhOylBXrQGJTMzTw4",
+    "inline_alias": "a_parasitaere_schwingungen_parallelwiderstand",
+    "inline_label": "Parallel-Widerstand am Transformatur zur Verhinderung von parasitären Schwingungen",
+    "raw_marker": "[picture:767:a_parasitaere_schwingungen_parallelwiderstand:Parallel-Widerstand am Transformatur zur Verhinderung von parasitären Schwingungen]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_object_id": "MtnsF9WsQQrbsSjv7UgEZ",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "767",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "Fjz4gXWozPOy3rdoBDfNi",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AJ217]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "MtnsF9WsQQrbsSjv7UgEZ",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AJ217",
+    "target_object_type": "question"
+  },
+  {
+    "id": "HfmGHgMOy7ZKHL7cBzGq6",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AJ212]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_object_id": "MtnsF9WsQQrbsSjv7UgEZ",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AJ212",
+    "target_object_type": "question"
+  },
+  {
+    "id": "m6pqWwip6bh0OK4mGHUVO",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF416]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "MtnsF9WsQQrbsSjv7UgEZ",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF416",
+    "target_object_type": "question"
+  }
+]

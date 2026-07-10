@@ -1,0 +1,37 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2023
+\begin{tikzpicture}
+	\begin{axis}[
+		axis lines=center, 
+        width=\linewidth,
+        height=5cm,
+        yticklabel={$\pgfmathprintnumber{\tick}~\unit{\volt}$},
+        xticklabel={$\pgfmathprintnumber{\tick}~\unit{\second}$},
+        ymajorgrids,
+        xmajorgrids,
+        ytick={-325,+325},
+        xtick={0.02,0.04,0.06,0.08,0.10},
+        xticklabel style={
+            /pgf/number format/fixed,
+            /pgf/number format/precision=2,
+            yshift=-1.75cm
+        },
+        scaled x ticks=false,
+		xlabel={$t$},
+        xlabel style={anchor=north},
+        ylabel={$U$},
+        ylabel style={anchor=east},
+		xmin=-0.0025,
+        xmax=0.115,
+        ymin=-450,
+        ymax=450,
+        axis line style={-Triangle},
+        domain=0:0.1,
+        samples=400,
+	]			
+		\addplot [draw=black, thick] {325*sin(2*pi*50*deg(x))};
+		\addplot [draw=black, dashed, domain=0.1:0.11] {325*sin(2*pi*50*deg(x))};
+		\addplot [draw=black, dashed, domain=-0.05:0] {325*sin(2*pi*50*deg(x))};
+        \addplot[mark=none, DARCorange, samples=2, thick, dashed, domain=0:0.101] {230} node [very near end, below right] {\qty{230}{\volt}};
+	\end{axis};
+\end{tikzpicture}

@@ -1,0 +1,40 @@
+% Author: Michael Groni, DB7YI
+% Year: 2022
+% TDMA Klasse N
+\begin{tikzpicture}[node distance=\getDarcImageFactor*0.5cm]
+    
+    \tikzstyle{box}=[minimum height=0.6cm, draw, inner sep=0]
+    \tikzstyle{boxA}=[box, fill=DARCblue]
+    \tikzstyle{boxB}=[box, fill=DARCorange]
+    \tikzstyle{boxC}=[box, fill=DARCgreen]
+      
+    % Eingang: 
+    \node [boxA, minimum width=0.6cm] (a0)                {A};
+    \node [boxB, minimum width=0.6cm, below = of a0] (b0) {B};
+    \node [boxC, minimum width=0.6cm, below = of b0] (c0) {C};
+    
+    % Uebertragungskanal
+    \node [boxA, minimum width=0.4cm, minimum height=0.4cm, right = of b0](a1) {A};
+    \node [boxB, minimum width=0.4cm, minimum height=0.4cm, anchor=west]  (b1) at (a1.east) {B};
+    \node [boxC, minimum width=0.4cm, minimum height=0.4cm, anchor=west]  (c1) at (b1.east) {C};
+    \node [minimum width=0.4cm, minimum height=0.4cm, anchor=west]  (x1) at (c1.east) {\dots};
+    \node [boxA, minimum width=0.4cm, minimum height=0.4cm, anchor=west]  (a2) at (x1.east) {A};
+    \node [boxB, minimum width=0.4cm, minimum height=0.4cm, anchor=west]  (b2) at (a2.east) {B};
+    \node [boxC, minimum width=0.4cm, minimum height=0.4cm, anchor=west]  (c2) at (b2.east) {C};
+
+    % Multiplexer
+    \draw[out=0, in=180, -Triangle] (a0) to (a1.west);
+    \draw [-Triangle](b0) to (a1.west);
+    \draw[out=0, in=180, -Triangle] (c0) to (a1.west);
+
+    % Eingang: 
+    \node [boxB, minimum width=0.6cm, right = of c2] (b4) {B};
+    \node [boxA, minimum width=0.6cm, above = of b4] (a4) {A};
+    \node [boxC, minimum width=0.6cm, below = of b4] (c4) {C};
+    
+    % Demultiplexer
+    \draw[out=0, in=180, -Triangle] (c2.east) to (a4.west);
+    \draw [-Triangle] (c2.east) to (b4.west);
+    \draw[out=0, in=180, -Triangle] (c2.east) to (c4.west);
+
+\end{tikzpicture}

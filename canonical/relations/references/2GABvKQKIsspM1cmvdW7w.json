@@ -1,0 +1,54 @@
+[
+  {
+    "id": "LF0KY2x26BNVEnsKBHljc",
+    "inline_alias": "a_tote_zone",
+    "inline_label": "Tote Zone",
+    "raw_marker": "[picture:741:a_tote_zone:Tote Zone]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "2GABvKQKIsspM1cmvdW7w",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "741",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "XJDaBn32ySMPPFyOc3lUE",
+    "inline_alias": "a_tote_zone_1",
+    "inline_label": "Simulation der Ausdehnung der Toten Zone bei einem Abstrahlwinkel von $\\qty{45}{\\degree}$ in Abhängigkeit der Frequenz, im Januar 2025",
+    "raw_marker": "[picture:995:a_tote_zone_1:Simulation der Ausdehnung der Toten Zone bei einem Abstrahlwinkel von $\\qty{45}{\\degree}$ in Abhängigkeit der Frequenz, im Januar 2025]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_object_id": "2GABvKQKIsspM1cmvdW7w",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "995",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "guViV0FVuSCLyNF7xfGIz",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AH215]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "2GABvKQKIsspM1cmvdW7w",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AH215",
+    "target_object_type": "question"
+  },
+  {
+    "id": "wVtIbxE0ksiV6vvQFeUvE",
+    "inline_alias": "a_tote_zone_2",
+    "inline_label": "Simulation der Ausdehnung der Toten Zone in Abhängigkeit vom Abstrahlwinkel im $\\qty{40}{\\meter}$-Band, im Januar 2025",
+    "raw_marker": "[picture:994:a_tote_zone_2:Simulation der Ausdehnung der Toten Zone in Abhängigkeit vom Abstrahlwinkel im $\\qty{40}{\\meter}$-Band, im Januar 2025]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_object_id": "2GABvKQKIsspM1cmvdW7w",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "994",
+    "target_object_type": "drawing"
+  }
+]

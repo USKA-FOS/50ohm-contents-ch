@@ -1,0 +1,22 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2024
+\begin{circuitikz}
+    \draw(0,3)
+        coordinate(i1)
+        to [short,o-*] ++(1,0) coordinate(c1)
+        to [american inductor, -*] ++(2,0) coordinate(c2)
+        to [short,-o] ++(1,0) coordinate(o1);
+    \draw(c1)
+        to [vC, tunable start arrow={Triangle[angle=60:6pt]}, tunable end arrow={}] ++(0,-3) coordinate(x1)
+        to [short,-*] ++(1,0);
+    \draw(c2)
+        to [vC, tunable start arrow={Triangle[angle=60:6pt]}, tunable end arrow={}] ++(0,-3) coordinate(x2)
+        to [short] ++(-1,0)
+        node[ground]{};
+    \draw(x2) to [short, *-o] (x2-|i1) coordinate(i2);
+    \draw(x1) to [short, *-o] (x1-|o1) coordinate(o2);
+    \draw(i1) to [open, name={i3}] (i2);
+    \draw(o1) to [open, name={o3}] (o2);
+    \draw(i3.center) node[](){TRX};
+    \draw(o3.center) node[](){ANT};
+\end{circuitikz}

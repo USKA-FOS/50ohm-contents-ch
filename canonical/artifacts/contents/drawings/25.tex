@@ -1,0 +1,23 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{tikzpicture}
+    \pgfplotsset{samples=200}
+    \begin{axis}[
+        height=3cm,
+        scale only axis,
+        width=\linewidth*\getDarcImageFactor,
+        axis lines=none,
+        ticks=none,
+        xmin =  0,
+        ymin = -2.2,
+        xmax =  8.8,
+        ymax =  2.2,
+        domain = 0:8.8,
+        thick,
+        smooth,
+        no markers]
+        \addplot+[name path=A,ultra thick, black] { 0.5*sin(deg(x*1.75)-180)+1.4};
+        \addplot+[name path=B,ultra thick, black] {-0.5*sin(deg(x*1.75)-180)-1.4};
+        \addplot[gray, opacity=0.5] fill between[of=A and B];
+    \end{axis}
+\end{tikzpicture}

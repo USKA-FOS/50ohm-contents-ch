@@ -1,0 +1,75 @@
+{
+  "id": "ivDeCT2x5eCr84kSM8sHj",
+  "identifiers": [
+    {
+      "id": "PXVWx9qv50wrt3IRuQo9d",
+      "id_system": "question_code",
+      "id_value": "VB101",
+      "object_id": "ivDeCT2x5eCr84kSM8sHj",
+      "preferred": 1
+    }
+  ],
+  "metadata": [
+    {
+      "id": "JQvjz2FlRAIpmM36CkaI2",
+      "metadata_key": "directus_id",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "ivDeCT2x5eCr84kSM8sHj",
+      "value_json": "\"628\""
+    },
+    {
+      "id": "Sk9ut2X8mHUOhmFX1IEQL",
+      "metadata_key": "picture_b",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "ivDeCT2x5eCr84kSM8sHj",
+      "value_json": "\"\""
+    },
+    {
+      "id": "TFy26Z3gxtE2mTAr5VF2s",
+      "metadata_key": "picture_a",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "ivDeCT2x5eCr84kSM8sHj",
+      "value_json": "\"\""
+    },
+    {
+      "id": "Wmn9kgbDRPxG6gs3ArBFI",
+      "metadata_key": "picture_d",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "ivDeCT2x5eCr84kSM8sHj",
+      "value_json": "\"\""
+    },
+    {
+      "id": "ai4GiExa9yqNNbuQ8K5Lj",
+      "metadata_key": "class",
+      "metadata_scope": "question",
+      "object_id": "ivDeCT2x5eCr84kSM8sHj",
+      "value_json": "\"1\""
+    },
+    {
+      "id": "esG3qzXtVDqoKgYBuvFPo",
+      "metadata_key": "picture_c",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "ivDeCT2x5eCr84kSM8sHj",
+      "value_json": "\"\""
+    },
+    {
+      "id": "ptueAmF7KQx7PSWSky0BS",
+      "metadata_key": "picture_question",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "ivDeCT2x5eCr84kSM8sHj",
+      "value_json": "\"\""
+    },
+    {
+      "id": "vrSSqZyqUXwWd0n10BN61",
+      "metadata_key": "layout",
+      "metadata_scope": "question_presentation_legacy",
+      "object_id": "ivDeCT2x5eCr84kSM8sHj",
+      "value_json": "\"\""
+    }
+  ],
+  "source": {
+    "format": "json",
+    "key": "VB101",
+    "path": "contents/questions/fragenkatalog3b.json"
+  }
+}

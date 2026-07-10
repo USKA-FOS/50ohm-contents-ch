@@ -1,0 +1,11 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \draw(0,0)
+        to [short, o-] ++(4,0) coordinate(dc0)
+        to [short, -o] ++(2,0);
+    \draw(0,3) to [R, o-] ++(4,0) coordinate(dc1)
+               to [short, -o] ++(2,0);
+    \draw(dc0)
+        to [stroke Zener diode, mirror, *-*] (dc1);
+\end{circuitikz}

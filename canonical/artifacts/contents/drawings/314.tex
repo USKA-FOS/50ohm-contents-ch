@@ -1,0 +1,30 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{circuitikz}
+    \draw[double] (5.75,2.5) -- ++(0.5,0);
+    \draw[double] (5.75,3.0) -- ++(0.5,0);
+    \draw[double] (5.75,3.5) -- ++(0.5,0);
+    \draw[double] (5.75,4.0) -- ++(0.5,0);
+    \draw[double] (5.75,4.5) -- ++(0.5,0);
+
+    \draw [dashed] (4.5,5) -- ++( 0.5,0) coordinate(a);
+    \draw [dashed] (13,5) -- ++(-0.5,0) coordinate(b);
+    \draw (a) to [short] ++(0.25,0)
+              to [short,o-o] ++(0.25,0)
+              to [short,-*] ++(0.25,0) coordinate(c)
+              to [short,-o] ++(0.1666,0)
+              to [short,-o] ++(0.1666,0)
+              to [short,-*] ++(0.1666,0) coordinate(d);
+    \draw[very thick](d)
+              to [short] ++(5.75,0) coordinate(e);
+    \draw(e)
+              to[short,o-o] ++(0.25,0)
+              to[short,o-o] (b);
+
+    \draw (c) to [short,-*] ++(0,-3);
+    \draw (d) to [short,-*] ++(0,-3) coordinate(d2);
+
+    \DARCmeasure{d}{d2}{0.5,0}{-90}{\rotatebox{90}{$\frac{\lambda}{4}$}}
+    \DARCmeasure{d}{e}{0,0.5}{0}{\rotatebox{0}{$\frac{\lambda}{2}$}}
+
+\end{circuitikz}

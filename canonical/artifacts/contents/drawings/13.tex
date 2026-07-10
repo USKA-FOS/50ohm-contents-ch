@@ -1,0 +1,37 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+	\ctikzset{
+    	resistors/scale=\getDarcImageFactor,
+	    diodes/scale=\getDarcImageFactor
+	}
+    \draw[-Triangle] (0.8, 0) -- ++(4.0,0.0) coordinate(m0);
+    \draw[-Triangle] (1.0,-2) -- ++(0.0,4.5) coordinate(m1);
+    \draw[ultra thick, rounded corners=0.2]
+        (1,0) sin ++(0.4, 1) cos ++(0.4,-1)
+              sin ++(0.4,-1) cos ++(0.4, 1)
+              sin ++(0.4, 2) cos ++(0.4,-2)
+              sin ++(0.4,-2) cos ++(0.4, 2);
+    \draw[dashed, dash pattern=on 3pt off 2pt] (0.8, 2) coordinate(c0) -- ++(4.0,0.0) coordinate(c00);
+    \draw[dashed, dash pattern=on 3pt off 2pt] (0.8, 1) coordinate(c1) -- ++(4.0,0.0) coordinate(c11);
+    \draw (c00) node[anchor=south east]{\qty{1}{\volt}};
+    \draw (c11) node[anchor=south east]{\qty{0,5}{\volt}};
+    \draw (m0) node[anchor=north]{$t$};
+    \draw (m1) node[anchor=south]{$U_1$};
+    \begin{scope}[shift={(5.5,-1.25)}]
+        \draw(0,0) coordinate(b0)
+            to [short,o-] ++(2,0) coordinate(b1)
+            to [short]    ++(1,0) coordinate(b2)
+            to [short,-o] ++(1,0) coordinate(b3);
+        \draw(0,3) coordinate(a0)
+            to [R, o-] ++(2,0) coordinate(a1)
+            to [short] ++(1,0) coordinate(a2)
+            to [short,-o] ++(1,0) coordinate(a3);
+        \draw(a1)
+            to [stroke diode, invert, *-*] (b1);
+        \draw(a2)
+            to [stroke diode, *-*] (b2);
+        \draw(a0) to[open, v^=$U_1$]  (b0);
+        \draw(a3) to[open, v^=$U_2$] (b3);
+    \end{scope}
+\end{circuitikz}

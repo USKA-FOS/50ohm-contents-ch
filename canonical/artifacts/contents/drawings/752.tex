@@ -1,0 +1,21 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2021
+\begin{circuitikz}
+    \draw(0,0)
+        to [battery2, invert] ++(0,3)
+        to [short] ++(2,0)
+        to [vR,-*,mirror, name=var] ++(0,-3) coordinate(c1)
+        to [short] (0,0);
+    \draw(c1)
+        to [short] ++(4,0) coordinate(c2)
+        to [stroke diode,*-*,name=diode] ++(0,2) coordinate(c3)
+        to [R,] ++(-3.0,0)
+        -| (var.wiper);
+    \draw(c2)
+        to [short] ++(2,0)
+        to [american inductor,mirror] ++(0,4)
+        to [short] ++(-2,0)
+        to [C,-*] (c3);
+    \draw (diode.south west) ++(0.25,0) to [C, /tikz/circuitikz/bipoles/length=0.4cm] ($(diode.south east)+(0.25,0)$);
+    \draw(var.south west) node[anchor=south east](){X};
+\end{circuitikz}

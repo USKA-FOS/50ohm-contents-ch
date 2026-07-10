@@ -1,0 +1,23 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2022
+\begin{circuitikz}
+    \draw (9,7.0) node(){Antenne} ++ (0,-0.3) -- ++(-0.5,-0.5);
+
+    \draw[very thick] (0,6)
+        to [short] ++(4,0) coordinate(c1);
+    \draw(c1)
+        to [stroke diode, l={HF-Diode}, *-*] ++(2,0) coordinate(c2);
+    \draw[very thick] (c2)
+        to [short] ++(4,0);
+
+    \draw(4,4) coordinate(c3) to [L, american] (c1);
+    \draw(c2) to [L, american] ++(0,-2) coordinate(c4);
+
+    \draw(c3) to [short,-*] ++(0,-0.5) coordinate(c5)
+              to [C,l={$C$},-*] ++(2,0) coordinate(c6)
+              to (c4);
+
+    \draw(c5) to [short] ++(0,-1.5) 
+              to [rmeter, text={\qty{}{\micro\ampere}}] ++(2,0)
+              to [short] (c6);
+\end{circuitikz}

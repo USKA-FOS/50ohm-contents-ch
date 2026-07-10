@@ -1,0 +1,29 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{circuitikz}[american]
+    \ctikzset{european resistors}
+
+    \draw[-Triangle] (3.8, 2.3) -- ++(0.4,0.4);
+
+    \draw(0,0) to [battery2, invert] ++(0,5)
+               to [short, -*] ++(2,0) coordinate(C1) 
+               to [short] ++(4,0) 
+               to [european resistor] ++(0,-1.6666) 
+               to [pR, mirror, name={slide}, wiper end arrow={Triangle}] ++(0,-1.6666)
+               to [european resistor] ++(0,-1.6666) 
+               to [short, -*] ++(-4,0) coordinate(C3)
+               to [short] (0,0);
+
+    \draw(C1)  to [tgeneric, invert, l={$0{,}1/10/100/1000$},-*] ++(0,-2.5) coordinate(C4)
+               to [short, -o] ++(0,-0.83333) 
+               to [open, name={x1}] ++(0,-0.83333) 
+               to [short, o-] ++(0,-0.83333);
+
+    \draw(C4)  to [short,-o] ++(1,0)
+               to [rmeter,-o] ++ (2,0)
+               to (slide.wiper);
+
+    \draw(x1.center) node[](){X};
+    \draw(slide.west) node[anchor={south east}](){$0{,}5-50$};
+
+\end{circuitikz}

@@ -1,0 +1,9 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2022
+% Relative Applied
+\begin{circuitikz}
+	\draw (1.5,0) to [short, i=\qty{90}{\milli\ampere}] ++(2,0);
+	\draw (1.5,0) -- ++(-1.5,0) -- ++(0,-1)
+		to [battery2] ++(0,-1) -- ++(0,-1) -- ++(5,0)
+		to [R, l={\qty{100}{\ohm}}] ++(0,3) -- ++(-1.5,0);
+\end{circuitikz}

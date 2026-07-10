@@ -1,0 +1,60 @@
+% Author: Prof. Dr. Matthias Jung
+% Year: 2023
+\begin{tikzpicture}[american]
+	\ctikzset{
+	    capacitors/scale=\getDarcImageFactor,
+	    inductors/scale=\getDarcImageFactor,
+    	misc/scale=\getDarcImageFactor
+	}
+    \draw(0,0)
+        node[transformer core](T){};
+
+    % Beschriftung T:
+    \draw (T.inner dot A2)  node[circ]{};
+    \draw (T.inner dot B2)  node[circ]{};
+    \draw (T-L1.south east) node[anchor=east]{1};
+    \draw (T-L1.south west) node[anchor=east]{2};
+    \draw (T-L2.south west) node[anchor=west]{3};
+    \draw (T-L2.south east) node[anchor=west]{4};
+    \draw (T.north)         node[]{T};
+
+    % Unten:
+    \draw(T.A2)
+        to [short] ++(-1,0) coordinate(u1)
+        to [short,-o] ++(-1.25,0) coordinate(u0)
+        node[anchor=east](){N};
+    \draw(T.B2)
+        to [short] ++(1.5,0) coordinate(u2)
+        to [short, -o] ++(1,0) coordinate(u3)
+        node[anchor=west](){N'};
+
+    % Oben:
+    \draw(T.A1)
+        to [short] ++(-1,0) coordinate(o1)
+        to [short,-o] ++(-1.25,0) coordinate(o0)
+        node[anchor=east](){L1};
+    \draw(T.B1)
+        to [short] ++(1.5,0) coordinate(o2)
+        to [short, -o] ++(1,0) coordinate(o3)
+        node[anchor=west](){L1'};
+
+    % Zwsichen:
+    \draw(o0)
+        to [open, name={h0}] (u0);
+    \draw(o2)
+        to [open, name={h2}] (u2);
+    \draw(h0.center)
+        node[anchor=east](){PE}
+        to [short, o-] ++(0.5,0)
+        node[rground](){};
+
+    % Rest:
+    \draw(o1)
+        to [C, l={$C_1$}, *-*] (u1);
+    \draw(o2)
+        to [C, l={$C_2$}, *-*] (h2.center)
+        to [C, l={$C_3$}, *-*] (u2);
+    \draw(h2.center)
+        to [short] ++(-1,0)
+        node[rground](){};
+\end{tikzpicture}

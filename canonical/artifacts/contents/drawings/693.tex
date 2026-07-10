@@ -1,0 +1,26 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2025
+\begin{circuitikz}[background rectangle/.style={fill=white}, show background rectangle]
+    \draw(current page.center) node[
+        minimum width=\linewidth,
+        minimum height=\linewidth,
+        inner sep=0
+    ](img){\centering\includegraphics[height=\linewidth]{foto/10}};
+
+    %\draw(img.north west) rectangle (img.south east);
+    %\draw[red](img.85) |- (img.5);
+
+    \draw(img.134 |- img.0) node[npn, tr circle, anchor=west]{$T$};
+
+    % Pfeile:
+    \draw[Triangle-Triangle] (img.118 |- img.10) -- (img.118 |- img.350);
+    \draw(img.120 |- img.10) -- (img.116 |- img.10);
+    \draw(img.120 |- img.350) -- (img.116 |- img.350);
+
+    % Text:
+    \draw(img.118 |- img.0)   node [anchor=west] {\qty{1}{\centi\meter}};
+    \draw(img.61  |- img.319) node [anchor=north] {\small BD249A \qty{60}{\volt} / \qty{25}{A}};
+    \draw(img.60  |- img.19)  node [anchor=north] {\small BD675 \qty{45}{\volt} / \qty{4}{A}};
+    \draw(img.97  |- img.4)   node [anchor=west, rotate=90] {\small BCW61C \qty{32}{\volt} / \qty{100}{\milli\ampere}};
+    \draw(img.85  |- img.5)   node [anchor=west, rotate=90] {\small BC337-16 \qty{45}{\volt} / \qty{800}{\milli\ampere}};
+\end{circuitikz}

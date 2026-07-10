@@ -1,0 +1,93 @@
+[
+  {
+    "id": "9ThKm24DvAax9FyWGvJHE",
+    "inline_alias": "e_daempfungsglied",
+    "inline_label": null,
+    "raw_marker": "[ref:e_daempfungsglied]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_object_id": "itMhQMjKd7O98sVxGnVVM",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_daempfungsglied",
+    "target_object_type": null
+  },
+  {
+    "id": "FlraydwkvBTsB11yN5Mub",
+    "inline_alias": "e_att_blockschaltbild",
+    "inline_label": "Vorverstärker im Überlagerungsempfänger",
+    "raw_marker": "[picture:1054:e_att_blockschaltbild:Vorverstärker im Überlagerungsempfänger]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_object_id": "itMhQMjKd7O98sVxGnVVM",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1054",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "GnRGm0O44xDpVE3ZJLA32",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF218]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_object_id": "itMhQMjKd7O98sVxGnVVM",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF218",
+    "target_object_type": "question"
+  },
+  {
+    "id": "bhHLIA0MCQibjld3E7Yj8",
+    "inline_alias": "vorverstaerker_daempfungsglied_amp",
+    "inline_label": "Vorverstärker im Überlagerungsempfänger",
+    "raw_marker": "[picture:839:vorverstaerker_daempfungsglied_amp:Vorverstärker im Überlagerungsempfänger]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 6,
+    "source_object_id": "itMhQMjKd7O98sVxGnVVM",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "839",
+    "target_object_type": "drawing"
+  },
+  {
+    "id": "hvgB3MREO3RcLdjW3F805",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF217]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "itMhQMjKd7O98sVxGnVVM",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF217",
+    "target_object_type": "question"
+  },
+  {
+    "id": "mHLZ76VSZuUjOLye7OUFr",
+    "inline_alias": "e_daempfungsglied",
+    "inline_label": "Ein Dämpfungsglied",
+    "raw_marker": "[photo:199:e_daempfungsglied:Ein Dämpfungsglied]",
+    "relation_type": "embeds_photo",
+    "sort_order": 3,
+    "source_object_id": "itMhQMjKd7O98sVxGnVVM",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "199",
+    "target_object_type": "photo"
+  },
+  {
+    "id": "vHyAU7eFOuJcWaGEEN6qA",
+    "inline_alias": "e_att_blockschaltbild",
+    "inline_label": null,
+    "raw_marker": "[ref:e_att_blockschaltbild]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_object_id": "itMhQMjKd7O98sVxGnVVM",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_att_blockschaltbild",
+    "target_object_type": null
+  }
+]

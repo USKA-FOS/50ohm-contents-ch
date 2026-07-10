@@ -1,0 +1,22 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{tikzpicture}
+    \begin{axis}[
+        xmin=0,
+        ymin=0,
+        ymax=120,
+        ticks=none,
+        axis x line=bottom,
+        axis y line=left,
+        axis line style={-Triangle},
+        xlabel style={at={(ticklabel* cs:1)},anchor=north east},
+        ylabel style={at={(ticklabel* cs:1)},anchor=north east, rotate=-90},
+        ylabel={$U$},
+        xlabel={$t$},
+        scale only axis,
+        width=\linewidth*\getDarcImageFactor,
+        height=3cm
+    ]
+    \addplot[domain=0:8, thick, smooth] {100*(1-e^(-1*x))};
+    \end{axis}
+\end{tikzpicture}

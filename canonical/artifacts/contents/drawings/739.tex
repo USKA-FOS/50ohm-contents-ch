@@ -1,0 +1,22 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2023
+\pgfkeys{/pgf/number format/.cd,1000 sep={}}
+\begin{tikzpicture}
+    \begin{axis}[
+        axis lines=center, 
+        axis line style={-Triangle},
+        width=\linewidth,
+        height=6cm,
+        xmin=0,
+        xmax=60,
+        ymin=-3,
+        ymax=3,
+        ticks=none,
+        xlabel={$t$},
+        xlabel style={anchor=north},
+        ylabel={$U$},
+        ylabel style={anchor=east},
+    ]
+    \addplot[smooth, mark=none, DARCred, thick, domain=0:60, samples=400] {sin(0.20*deg(x))+sin(0.30*deg(x))+sin(0.40*deg(x))}; 
+    \end{axis}
+\end{tikzpicture}

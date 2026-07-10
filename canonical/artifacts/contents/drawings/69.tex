@@ -1,0 +1,16 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \ctikzset{
+        diodes/scale=\getDarcImageFactor
+    }
+    \draw (0.0, 0.0)
+        node[anchor=north]{\Large--}
+        to [stroke diode, invert, -*] ++( 1.5, 1.5)
+        node[anchor=west]{\Large\textasciitilde}
+        to [stroke diode, invert, -*] ++(-1.5, 1.5)
+        node[anchor=south]{\Large+}
+        to [stroke diode, invert, -*] ++(-1.5,-1.5)
+        node[anchor=east]{\Large\textasciitilde}
+        to [stroke diode, invert, -*] ++( 1.5,-1.5);
+\end{circuitikz}

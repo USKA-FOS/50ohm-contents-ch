@@ -1,0 +1,28 @@
+[
+  {
+    "id": "pncjB1KUFdicEqLdH48MR",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA105]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "nUwtrRFAzB1mzMciWxFEb",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA105",
+    "target_object_type": "question"
+  },
+  {
+    "id": "xg0H7lvOwdWdO6KMqAuQR",
+    "inline_alias": "e_bandbreite",
+    "inline_label": "Definition der Bandbreite",
+    "raw_marker": "[picture:1044:e_bandbreite:Definition der Bandbreite]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_object_id": "nUwtrRFAzB1mzMciWxFEb",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1044",
+    "target_object_type": "drawing"
+  }
+]

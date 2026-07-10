@@ -1,0 +1,82 @@
+% 2022 Dr. Matthias Jung (DL9MJ)
+\begin{circuitikz}[european]
+    \ctikzset{
+        resistors/scale=\getDarcImageFactor,
+        capacitors/scale=\getDarcImageFactor,
+        inductors/scale=\getDarcImageFactor,
+        transistors/scale=\getDarcImageFactor
+    }
+    \draw(0,0) coordinate(c0)
+       to [short,o-*] ++(1.0,0) coordinate(c1)
+       to [short,-*]  ++(1.5,0) node[ground](gnd){};
+
+    \draw(c1)
+        to [vL, american, tunable start arrow={Bar}, tunable end arrow={}, name={l1}, invert, mirror] ++(0,6) 
+        to [short] ++ (1.5,0)
+        to [C, -*] ++(0,-3) coordinate(c3)
+        to [C] (gnd);
+
+    \draw(l1.south west) node[anchor=east](){};
+    \draw[dashed](l1.core west) -- (l1.core east);
+    \draw(l1.midtap) to [short,*-o] (l1.midtap-|c0);
+
+    \draw(c3)
+        to [short] ++(1.5,0)
+        coordinate(c4);
+
+    \draw(gnd) to [short,-*] ++(1.5,0) coordinate(c5)
+               to [R, -*] (c4)
+               to [R] ++(0,3) coordinate(x3);
+
+    \draw(c4)
+        to [short] ++(1.5,0)
+        node[npn, tr circle, anchor=B](trans){};
+    \draw(trans.north west)
+        node [anchor=south west](){};
+
+    \draw(c5)
+        to [short, -o] ++(7.5,0) coordinate(c9);
+
+    \draw(trans.E)
+        to [R, *-*] (trans.E|-c0);
+
+    \draw(trans.E)
+        to [short] ++(-1.5,0) coordinate(x1)
+        to [C, -*] (x1|-c0);
+
+    \draw(trans.C)
+        to [short] ++(0,1)
+        to [short,-*] ++(1,0) coordinate(d2)
+        to [C, -*] (d2|-c0);
+
+    \ctikzset{
+        quadpoles/transformer core/inner=1,
+        quadpoles/transformer core/width=0.6,
+        quadpoles/transformer core/height=1.5,
+        transformer L1/.style={inductors/coils=4},
+        transformer L2/.style={inductors/coils=2, inductors/width=0.4}
+    }
+    \draw(d2)
+        to [short] ++(2,0)
+        node[transformer core, american, anchor=A1](T){};
+        \ctikztunablearrow[-{Bar}]{2}{1.25}{155}{T-L1}
+
+    \draw(T.A2)
+        to [short,-*] ++(-0.75,0) coordinate(x2)
+        to [C, -*] (x2|-c0);
+
+    \draw(x2)
+        to [short,-*] (x2|-x3) coordinate(x4)
+        to [short] (x3);
+
+    \draw(T.B2)
+        to [short, -*] (T.B2|-c0);
+
+    \draw(T.B1)
+        to [short, -o] (T.B1-|c9);
+
+    \draw(x4)
+        to [american inductor,-o, name={l2}] (x4-|c9)
+        node[anchor=south](){+};
+    \draw[dashed](l2.core west) -- (l2.core east);
+\end{circuitikz}

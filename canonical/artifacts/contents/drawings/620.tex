@@ -1,0 +1,13 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2023
+\begin{circuitikz}
+    \ctikzset{opto end arrow={Triangle[angle'=60]}}
+	\draw (1.25,0) to [rmeter, t=V,*-*] ++(0,-3);
+	\draw (0,0)
+		to [battery2] ++(0,-3)
+		to [short] ++(2,0) 
+		to [short] ++(1,0) 
+		to [short] ++(2,0)
+		to [stroke led, invert, mirror] ++(0,3)
+		to [R] (0,0);
+\end{circuitikz}

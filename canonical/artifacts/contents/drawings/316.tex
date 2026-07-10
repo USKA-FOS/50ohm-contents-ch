@@ -1,0 +1,18 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2023
+\begin{circuitikz}
+    \draw (0,0) 
+        node [qgeneratorshape, t={G}, anchor=east](generator){};
+    \draw(generator.east)
+        to [short] ++(0.5,0) node[inputarrow] {}
+        node [twoportsplitshape,t1=f,t2={2\,f}, anchor=west](f1){};
+    \draw(f1.east)
+        to [short] ++(0.5,0) node[inputarrow] {}
+        node [twoportsplitshape,t1=f,t2={3\,f}, anchor=west](f2){};
+    \draw(f2.east)
+        to [short] ++(0.5,0) node[inputarrow] {}
+        node [twoportsplitshape,t1=f,t2={2\,f}, anchor=west](f3){};
+    \draw(f3.east)
+        to [short] ++(0.5,0) node[inputarrow] {}
+        node [ampshape, box, label=PA, anchor=west]{};
+\end{circuitikz}

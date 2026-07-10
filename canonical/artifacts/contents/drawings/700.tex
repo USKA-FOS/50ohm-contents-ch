@@ -1,0 +1,33 @@
+\begin{tikzpicture}
+	
+	\tikzstyle{digitalNumber}=[draw=DARCgray, fill=white, minimum width=0.5, minimum height=0.5, rounded corners=1, font=\bfseries]
+	\def\yNumbers{-5.2}
+	
+	\begin{axis}[
+		axis lines=middle,
+        width=\linewidth*\getDarcImageFactor,
+        height=4cm,
+        scale only axis,
+		yticklabel=\empty, ytick={},
+		xticklabel=\empty, xtick distance=5*360, xmajorgrids, xtick style={color=DARCblue},
+		scaled ticks=false,
+		clip=false,
+		xlabel={$t$},xlabel style={anchor=north}, ylabel={$U$}, ylabel style={anchor=east}, title=ASK,
+		xmin=0, xmax=11100, ymin=-4.7, ymax=4.7, axis line style={-triangle 60} % xmax: 11100 = 30*360 + 300
+	]			
+		\addplot [ draw=DARCblue, domain=0:5*360,       samples=800 ] {2*sin(0.8*x)};
+		\addplot [ draw=DARCblue, domain=5*360:10*360,  samples=800 ] {2*sin(0.8*x)};
+		\addplot [ draw=DARCblue, domain=10*360:15*360, samples=800 ] {4*sin(0.8*x)};
+		\addplot [ draw=DARCblue, domain=15*360:20*360, samples=800 ] {2*sin(0.8*x)};
+		\addplot [ draw=DARCblue, domain=20*360:25*360, samples=800 ] {4*sin(0.8*x)};
+		\addplot [ draw=DARCblue, domain=25*360:30*360, samples=800 ] {4*sin(0.8*x)};
+		
+		\node [digitalNumber] at (axis cs:  2.5*360, \yNumbers) {0};
+		\node [digitalNumber] at (axis cs:  7.5*360, \yNumbers) {0};
+		\node [digitalNumber] at (axis cs: 12.5*360, \yNumbers) {1};
+		\node [digitalNumber] at (axis cs: 17.5*360, \yNumbers) {0};
+		\node [digitalNumber] at (axis cs: 22.5*360, \yNumbers) {1};
+		\node [digitalNumber] at (axis cs: 27.5*360, \yNumbers) {1};
+	\end{axis}
+		
+\end{tikzpicture}

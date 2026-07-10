@@ -1,0 +1,7 @@
+% Author: Dr. Matthias Jung, DL9MJ
+% Year: 2020
+\begin{circuitikz}
+    \draw (0,0) node[minimum width=1.5cm](start){\qty{5,4}{V}};
+    \draw(start.east) to [stroke diode, invert] ++(3,0) coordinate(end);
+    \draw(end) node[minimum width=1.5cm, anchor=west](){\qty{4,7}{V}};
+\end{circuitikz}

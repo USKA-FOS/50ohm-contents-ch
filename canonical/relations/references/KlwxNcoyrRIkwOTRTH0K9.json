@@ -1,0 +1,41 @@
+[
+  {
+    "id": "57HTVtNeXVqitlHs33n8x",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VD205]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "KlwxNcoyrRIkwOTRTH0K9",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VD205",
+    "target_object_type": "question"
+  },
+  {
+    "id": "8VFqR4NgSTyXXJnI3Y2n4",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VD207]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "KlwxNcoyrRIkwOTRTH0K9",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VD207",
+    "target_object_type": "question"
+  },
+  {
+    "id": "MJJYMHgakzN7Chzyt3xHO",
+    "inline_alias": "rufzeichen_flugzeug",
+    "inline_label": "Flugzeug mit dem Rufzeichen DEBPF",
+    "raw_marker": "[photo:167:rufzeichen_flugzeug:Flugzeug mit dem Rufzeichen DEBPF]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_object_id": "KlwxNcoyrRIkwOTRTH0K9",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "167",
+    "target_object_type": "photo"
+  }
+]

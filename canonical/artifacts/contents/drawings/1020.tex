@@ -1,0 +1,40 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2025
+\begin{circuitikz}
+    \draw(0,0) coordinate(s00)
+        to [short, o-] ++(1,0) coordinate(s01)
+        to [european resistor, l_=$R_1$] ++(0,-2) coordinate(s02)
+        to [european resistor, l_=$R_2$] ++(0,-2) coordinate(s03)
+        to [short, -o] ++(-1,0) coordinate(s05);
+    \draw(s02) to [short, *-o] ++(1,0) coordinate(s04);
+    \draw(s03) to [short, *-o] ++(1,0) coordinate(s06);
+    %
+    \draw(s01)
+        to [open] ++(1.75,0) coordinate(s10)
+        to [short, o-] ++(1,0) coordinate(s11)
+        to [european resistor, l_={$R_1$}] ++(0,-2) coordinate(s12)
+        to [C, l_={$C_1$}] ++(0,-2) coordinate(s13)
+        to [short, -o] ++(-1,0) coordinate(s15);
+    \draw(s12) to [short, *-o] ++(1,0) coordinate(s14);
+    \draw(s13) to [short, *-o] ++(1,0) coordinate(s16);
+    %
+    \draw(s14)
+        to [open] ++(0.75,0) coordinate(s20)
+        to [european resistor, l={$R_1$}, o-] ++(2,0) coordinate(s22)
+        to [C, l_={$C_1$}] ++(0,-2) coordinate(s23)
+        to [short, -o] ++(-2,0) coordinate(s25);
+    \draw(s22) to [short, *-o] ++(1,0) coordinate(s24);
+    \draw(s23) to [short, *-o] ++(1,0) coordinate(s26);
+    %
+    \path(s01) -- (s04) node[midway,draw,circle,anchor=west] {1};
+    \path(s11) -- (s14) node[midway,draw,circle,anchor=west] {2};
+    \draw(s22) ++(0,0.25) node[draw,circle,anchor=south](){3};
+    %
+    \draw[color=DARCblue](s00) to [open, v^=$U_{E}$] (s05);
+    \draw[color=DARCblue](s04) to [open, v_=$U_{A}$] (s06);
+    \draw[color=DARCblue](s10) to [open, v^=$U_{E}$] (s15);
+    \draw[color=DARCblue](s14) to [open, v_=$U_{A}$] (s16);
+    \draw[color=DARCblue](s20) to [open, v^=$U_{E}$] (s25);
+    \draw[color=DARCblue](s24) to [open, v_=$U_{A}$] (s26);
+
+\end{circuitikz}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "Fe6UheTjB8eceOsQjLunc",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF617]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_object_id": "xPLd1prjeyTzWGSoQoe4Q",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF617",
+    "target_object_type": "question"
+  },
+  {
+    "id": "Oqkjxhcy3hJrtwXl8gu7k",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[include:applet_nyquist]",
+    "relation_type": "includes_object",
+    "sort_order": 1,
+    "source_object_id": "xPLd1prjeyTzWGSoQoe4Q",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "include_key",
+    "target_id_value": "applet_nyquist",
+    "target_object_type": "html_include"
+  },
+  {
+    "id": "fNlPhX0shJ1F4JHGftKRY",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF616]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_object_id": "xPLd1prjeyTzWGSoQoe4Q",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF616",
+    "target_object_type": "question"
+  },
+  {
+    "id": "rwvsxAfSMYPaf1Zxb5u4O",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF619]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_object_id": "xPLd1prjeyTzWGSoQoe4Q",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF619",
+    "target_object_type": "question"
+  },
+  {
+    "id": "zZddpk2Gi91ELkLg5adYt",
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF618]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_object_id": "xPLd1prjeyTzWGSoQoe4Q",
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF618",
+    "target_object_type": "question"
+  }
+]

@@ -1,0 +1,42 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{circuitikz}
+    %
+    \draw[-Triangle](0,0) coordinate(s0) -- ++(2.125,0) node[anchor=west](){$t$} coordinate(s1);
+    \draw[-Triangle](s0) -- ++(0,2.125) node[anchor=south](){$U$};
+    \draw[dashed, gray](0,1.25) -- ++(5,0);
+    %
+    \begin{scope}[shift={($(0,0)+(s0)$)}]
+        \draw[very thick, DARCblue]
+            (0.0,0.0) .. controls (0.1,0.7) and (0.3,2.0) .. (0.5,2.0)
+            (0.5,2.0) .. controls (0.7,2.0) and (0.9,0.5) .. (1.1,0.5)
+            (1.1,0.5) .. controls (1.2,0.5) and (1.3,1.1) .. (1.5,1.1)
+            (1.5,1.1) .. controls (1.7,1.1) and (1.8,0.4) .. (2.0,0.0);
+    \end{scope}
+    %
+    \draw(s1) to [open, name={h1}] ++(0.5,0) coordinate(s3);
+    \draw(h1.center) ++(0,1) node[](){$\rightarrow$};
+    \draw[-Triangle](s3) -- ++(2.125,0) node[anchor=west](){$U_A$} coordinate(s4);
+    \draw[-Triangle](s3) -- ++(0,2.125) node[anchor=south](){$U_E$};
+    %
+    \draw(s3) to [open, name={h2}] ++(0,-0.5) coordinate(s5);
+    \draw(h2.center) ++(1,0) node[rotate=-90](){$\rightarrow$};
+    \draw[-Triangle](s5) -- ++(2.125,0) node[anchor=west](){$U_A$} coordinate(s4);
+    \draw[-Triangle](s5) -- ++(0,-2.125) node[anchor=north](){$t$};
+    %
+    \draw(s3)
+        to [open] ++(1.25,1.25) coordinate(s6) ++(0,0.75) coordinate(s7);
+    \draw[dashed, gray](s7) -- ++(0,-4.5);
+    %
+    \draw[DARCred, very thick]
+        (s3) -- (s6) -- ++(0.75,0.25);
+    %
+    \begin{scope}[shift={($(0,0)+(s5)$)}, rotate=-90]
+        \draw[very thick, DARCblue]
+            (0.0,0.0) .. controls (0.1,0.7) and (0.2,1.4) .. (0.5,1.4)
+            (0.5,1.4) .. controls (0.8,1.4) and (0.9,0.5) .. (1.1,0.5)
+            (1.1,0.5) .. controls (1.2,0.5) and (1.3,1.1) .. (1.5,1.1)
+            (1.5,1.1) .. controls (1.7,1.1) and (1.8,0.4) .. (2.0,0.0);
+    \end{scope}
+    %
+\end{circuitikz}

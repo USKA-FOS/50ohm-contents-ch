@@ -1,0 +1,11 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2026
+\begin{circuitikz}
+    \draw(0,0) to [open] ++(2,0) coordinate (x0);
+    \draw[-Triangle, DARCred](x0) -- ++(1,0) node[midway, above] {$R$} coordinate (x1);
+    \draw[-Triangle, DARCblue](x1) -- ++(0,-2) node[midway, right] {$X_C$} coordinate (x2);
+    \draw[-Triangle, DARCgreen](x0) -- (x2) node[midway, below left] {$Z$};
+    \draw(x1) to [open] ++(2,0);
+    \draw[draw] ($(x2)+(90:10mm)$) arc[start angle=90, end angle=116.565, radius=10mm]
+        node[midway, above] {$\delta$};
+\end{circuitikz}

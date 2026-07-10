@@ -1,0 +1,33 @@
+{
+  "id": "EGIriaFC36sLyLLOZdj6V",
+  "identifiers": [
+    {
+      "id": "9Ee1G46LAaR8SgI4Iggp7",
+      "id_system": "file_stem",
+      "id_value": "91",
+      "object_id": "EGIriaFC36sLyLLOZdj6V",
+      "preferred": 0
+    },
+    {
+      "id": "kDvImtemZ46gT4qSrIlpd",
+      "id_system": "photo_id",
+      "id_value": "91",
+      "object_id": "EGIriaFC36sLyLLOZdj6V",
+      "preferred": 1
+    }
+  ],
+  "metadata": [
+    {
+      "id": "kb8OpJSxr9dZrCFQeC1Sc",
+      "metadata_key": "image_path",
+      "metadata_scope": "asset",
+      "object_id": "EGIriaFC36sLyLLOZdj6V",
+      "value_json": "\"contents/photos/91.png\""
+    }
+  ],
+  "source": {
+    "format": "grouped_asset",
+    "key": "91",
+    "path": "translator/50ohm-contents-ch/contents/photos/91"
+  }
+}

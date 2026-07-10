@@ -1,0 +1,10 @@
+\begin{circuitikz} [%
+    arrowset/.pic={
+        \draw[>=Triangle,->] (0.15,0) -- ++(0,0.35);
+        \draw[>=Triangle,->] (0.30,0) -- ++(0,0.35);
+    }
+]
+    \draw (0,0) to [thR, name={R}] (2,0);
+    \draw (R.south east) node[anchor=west](){$\vartheta$};
+    \draw (R.north east) pic {arrowset};
+\end{circuitikz}

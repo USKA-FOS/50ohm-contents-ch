@@ -1,0 +1,25 @@
+% Author: Prof. Dr. Matthias Jung, DL9MJ
+% Year: 2023
+\begin{circuitikz}
+    \ctikzset{
+        blocks/scale=\getDarcImageFactor,
+        RF/scale=\getDarcImageFactor,
+        misc/scale=\getDarcImageFactor,
+        diodes/scale=\getDarcImageFactor,
+    }
+    \draw (0,3)
+        node[antenna](ant){}
+        to [bandpass, name=bp]   ++(2,0)
+        to [amp,box,name=amp1]   ++(2,0)
+        to [detector,name=demod] ++(2,0)
+        to [amp,box,name=amp2]   ++(2,0)
+        to [short]               ++(0.5,0)
+        node[loudspeakershape, rotate=-90, anchor=south](speaker){};
+    %
+    \draw[](ant.north) node[above](){1};
+    \draw[](bp.north)  node[above](){2};
+    \draw[](amp1.north) node[above](){3};
+    \draw[](demod.north) node[above](){4};
+    \draw[](amp2.north) node[above](){5};
+    \draw[](speaker.west) node[above](){6};
+\end{circuitikz}

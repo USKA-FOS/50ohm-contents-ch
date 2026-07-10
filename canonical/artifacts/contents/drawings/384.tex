@@ -1,0 +1,10 @@
+% Author: Stephan Kregel, DG1HXJ
+% Year: 2021
+\begin{circuitikz}[european]
+    \ctikzset{tunable end arrow={Triangle[angle=60:6pt]}}
+    \draw (0,0) to [R, l={\qty{200}{\ohm}}, o-] ++(3,0) coordinate(r1)
+                to [R, l={\qty{200}{\ohm}}] ++(3,0)
+                to [vR,invert, l=$R$] ++(0,-2) -- ++(-3,0) coordinate(r2) -- ++(-3,0)
+                to node[ocirc]{} ++(0,0);
+    \draw (r1)  to [R, l={\qty{100}{\ohm}}, *-*] ++(0,-2);
+\end{circuitikz}

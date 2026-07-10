@@ -1,0 +1,16 @@
+% Author: Prof. Dr. Mathtias Jung, DL9MJ
+% Year: 2025
+\begin{circuitikz}[american, straight voltages]
+    \draw (0,0) node[transformer core](T){};
+    %
+    \draw (T.A1) to [short, -o] ++(-1,0) coordinate(a1) to [open] ++(-1,0);
+    \draw (T.A2) to [short, -o] ++(-1,0) coordinate(a2) to [open] ++(-1,0);
+    \draw (T.B1) to [short, -o] ++(+1,0) coordinate(b1) to [open] ++(+1,0);
+    \draw (T.B2) to [short, -o] ++(+1,0) coordinate(b2) to [open] ++(+1,0);
+    %
+    \draw(T-L1.south) node[anchor=east]{$N_P$};
+    \draw(T-L2.south) node[anchor=west]{$N_S$};
+    %
+    \draw(a1) to [open, v={$U_P$}] (a2);
+    \draw(b1) to [open, v={$U_S$}] (b2);
+\end{circuitikz}

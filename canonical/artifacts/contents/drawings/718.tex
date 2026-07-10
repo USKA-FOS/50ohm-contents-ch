@@ -1,0 +1,27 @@
+% Author: Michael Groni, DB7YI
+% Year: 2023
+% FT8 im 20-Meter-Band Screen
+\begin{tikzpicture}
+	\begin{axis}[
+		% axis lines=center,
+        width=\linewidth*\getDarcImageFactor,
+        height=\linewidth*\getDarcImageFactor,
+		scale only axis,
+		axis y line=left,
+		axis x line=bottom,
+		axis line style={-},
+		yticklabels={,12 s,6 s,0 s},
+		ytick distance=5,
+		xticklabels={,{14074,3 kHz},{14075,25 kHz},{14076,2 kHz}},
+		xtick distance=4,
+		tick align=outside,
+		% scaled ticks=false,
+		clip=false,
+		% xlabel={$t$}, xlabel style={anchor=north},
+		% ylabel={$U$}, ylabel style={anchor=east},
+		title=FT8,
+		xmin=-5, xmax=5, ymin=0, ymax=10,
+	]			
+		\addplot graphics [xmin=-5, xmax=5, ymin=0, ymax=10] {"foto/160"};
+	\end{axis};
+\end{tikzpicture}

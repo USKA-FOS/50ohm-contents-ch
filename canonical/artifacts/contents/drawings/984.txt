@@ -1,0 +1,13 @@
+Dieser Alt-Text wurde noch nicht überprüft.
+
+1) Kurze Zusammenfassung:
+Schaltplan mit einem Bipolartransistor, mehreren Widerständen und Kondensatoren, beschrifteten Größen UE, UA, IB, IC und UCE sowie zwei kleinen Zeitdiagrammen für UE(t) und IB(t).
+
+2) Detaillierte Beschreibung:
+- Oben und unten verlaufen horizontale Leitungen; rechts sind offene Klemmen mit den Zeichen „+“ (oben) und „–“ (unten). In der linken und rechten Bildhälfte stehen große, nach unten gerichtete Pfeile mit den Beschriftungen „UE“ (links) und „UA“ (rechts).
+- In der Mitte befindet sich ein Bipolartransistor in einem Kreis. Links am Transistor liegt die Basis; dorthin zeigt ein Pfeil mit der Beschriftung „IB“. Rechts oben am Transistor ist der Kollektor; daneben ein nach unten gerichteter Pfeil mit „IC“. Rechts vom Transistor verläuft ein senkrechter Pfeil nach unten mit der Beschriftung „UCE“.
+- Kollektorzweig: Vom Kollektorknoten führt ein Widerstand nach oben zur positiven Schiene. Vom selben Knoten geht ein Kondensator nach rechts zu einer offenen Klemme (Ausgang).
+- Emitterzweig: Der Emitter ist nach unten über einen Widerstand mit der unteren Schiene verbunden; parallel zu diesem Widerstand ist ein Kondensator zur unteren Schiene geschaltet. Am unteren Knoten ist ein Massesymbol eingezeichnet.
+- Basisbeschaltung: Der Eingang links ist eine offene Klemme; von dort führt ein in Reihe liegender Kondensator zum Basisknoten. Vom Basisknoten gehen zwei Widerstände ab: einer nach oben zur positiven Schiene, einer nach unten zur unteren Schiene (Spannungsteiler).
+- Verbindungspunkte sind als ausgefüllte Knotenpunkte dargestellt.
+- Unten sind zwei kleine Diagramme: links ein sinusförmiger Verlauf mit den Achsenbeschriftungen „UE“ (vertikal, Pfeil nach oben) und „t“ (horizontal, Pfeil nach rechts); rechts ein wellenförmiger Verlauf mit den Achsenbeschriftungen „IB“ (vertikal, Pfeil nach oben) und „t“ (horizontal, Pfeil nach rechts).

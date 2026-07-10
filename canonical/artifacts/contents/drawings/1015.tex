@@ -1,0 +1,15 @@
+% Author: Prof. Dr. Mathtias Jung, DL9MJ
+% Year: 2025
+\begin{circuitikz}
+    \tikzset{german switch/.style={
+        cute open switch, 
+        bipoles/cuteswitch/thickness=0.2,
+        bipoles/cuteswitch/shape=circ,
+        bipoles/cuteswitch/width=0.7,
+    }}
+    \draw (0,0) 
+        to [battery2, invert, v<={$U$}] ++(0,2)
+        to [R, l={$R$}, v={$U_R$}] ++(4,0)
+        to [C, l={$C$}, v={$U_C$}] ++(0,-2)
+        to [german switch] (0,0);
+\end{circuitikz}
