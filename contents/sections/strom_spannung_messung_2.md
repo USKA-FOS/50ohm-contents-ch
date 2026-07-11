@@ -11,7 +11,7 @@ Ein Strommessgerät wird in Serie / Reihe zu dem zu vermessenden Bauteil, z.B. e
 Im Gegensatz dazu haben Spannungsmesser einen *hohen* Innenwiderstand. Das Messgerät wird parallel in den Stromkreis eingebaut. Es verbindet damit zwei unterschiedliche Punkte im Stromkreis. Die angezeigte Spannung ist nun ein Maß für die Stärke der Ladungstrennung zwischen diesen zwei Punkten. Ein Stromfluss über diesen Parallelzweig würde die Ladungstrennung aber gerade wieder abbauen und dies wird durch den hohen Innenwiderstand verhindert.
 
 <indepth>
-Idealerweise hätte ein Strommessgerät einen Widerstand von $\qty{0}{\ohm}$ und ein Spannungsmessgerät einen Widerstand von $\qty{\infty}{\ohm}$. In der Praxis ist das jedoch nicht erreichbar. Genau damit beschäftigen wir uns in der Klasse A noch etwas genauer.
+Idealerweise hätte ein Strommessgerät einen Widerstand von $\qty{0}{\ohm}$ und ein Spannungsmessgerät einen Widerstand von $\qty{\infty}{\ohm}$. In der Praxis ist das jedoch nicht erreichbar. Genau damit beschäftigen wir uns im Kurs für HB9 noch etwas genauer.
 </indepth>
 
 [question:EI101]
