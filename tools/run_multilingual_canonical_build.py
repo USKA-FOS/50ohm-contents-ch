@@ -266,6 +266,7 @@ def run_generator(language: str) -> dict[str, Any]:
     VALIDATION_ROOT.mkdir(parents=True, exist_ok=True)
     runner_root = VALIDATION_ROOT / f"generator-{language}"
     output_root = BUILD_ROOT / language
+    BUILD_ROOT.mkdir(parents=True, exist_ok=True)
     if runner_root.exists():
         shutil.rmtree(runner_root)
     if output_root.exists():

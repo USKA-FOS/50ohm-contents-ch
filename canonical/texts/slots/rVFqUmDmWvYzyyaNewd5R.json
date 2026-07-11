@@ -1,0 +1,28 @@
+{
+  "id": "rVFqUmDmWvYzyyaNewd5R",
+  "localized": [
+    {
+      "id": "RWtFbwv4mGt8uisiYbj8h",
+      "language": "it",
+      "path": "texts/payload/RWtFbwv4mGt8uisiYbj8h.txt",
+      "text_slot_id": "rVFqUmDmWvYzyyaNewd5R"
+    },
+    {
+      "id": "UVaswsPjgvSMotVhPKLrB",
+      "language": "fr",
+      "path": "texts/payload/UVaswsPjgvSMotVhPKLrB.txt",
+      "text_slot_id": "rVFqUmDmWvYzyyaNewd5R"
+    },
+    {
+      "id": "wpj145zd3s53GgWjz1ibB",
+      "language": "de",
+      "path": "texts/payload/wpj145zd3s53GgWjz1ibB.txt",
+      "text_slot_id": "rVFqUmDmWvYzyyaNewd5R"
+    }
+  ],
+  "object_id": "q_dc8f7fdb1fe8",
+  "slot_key": "question_text",
+  "slot_type": "plain_text",
+  "sort_order": 1,
+  "translation_group_key": "question:q_dc8f7fdb1fe8"
+}

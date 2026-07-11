@@ -590,8 +590,20 @@ class Builder:
             if ".txt" in members:
                 raw_text = members[".txt"].read_text(encoding="utf-8")
                 short_text, long_text = split_description_text(raw_text)
-                short_slot = self.add_text_slot(object_id, "short_description", "plain_text", translation_group_key="photo_descriptions", sort_order=1)
-                long_slot = self.add_text_slot(object_id, "long_description", "plain_text", translation_group_key="photo_descriptions", sort_order=2)
+                short_slot = self.add_text_slot(
+                    object_id,
+                    "short_description",
+                    "plain_text",
+                    translation_group_key=f"photo:{object_id}",
+                    sort_order=1,
+                )
+                long_slot = self.add_text_slot(
+                    object_id,
+                    "long_description",
+                    "plain_text",
+                    translation_group_key=f"photo:{object_id}",
+                    sort_order=2,
+                )
                 self.add_localized_text(short_slot, "de", short_text)
                 self.add_localized_text(long_slot, "de", long_text)
                 self.add_review_state("content_object", object_id, "de", "imported_approved")
@@ -616,8 +628,20 @@ class Builder:
             if ".txt" in members:
                 raw_text = members[".txt"].read_text(encoding="utf-8")
                 short_text, long_text = split_description_text(raw_text)
-                short_slot = self.add_text_slot(object_id, "short_description", "plain_text", translation_group_key="drawing_descriptions", sort_order=1)
-                long_slot = self.add_text_slot(object_id, "long_description", "plain_text", translation_group_key="drawing_descriptions", sort_order=2)
+                short_slot = self.add_text_slot(
+                    object_id,
+                    "short_description",
+                    "plain_text",
+                    translation_group_key=f"drawing:{object_id}",
+                    sort_order=1,
+                )
+                long_slot = self.add_text_slot(
+                    object_id,
+                    "long_description",
+                    "plain_text",
+                    translation_group_key=f"drawing:{object_id}",
+                    sort_order=2,
+                )
                 self.add_localized_text(short_slot, "de", short_text)
                 self.add_localized_text(long_slot, "de", long_text)
                 self.add_review_state("content_object", object_id, "de", "imported_approved")

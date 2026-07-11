@@ -101,6 +101,12 @@ same relational workspace so that:
 - current question metadata can be joined to current content;
 - future reconciliation between repositories remains possible.
 
+At the current stage, `50ohm-contents-ch/canonical` may still mirror question
+objects with the same stable ids. This is accepted as a transitional storage
+duplication caused by the two repositories evolving separately over time. It
+does not create a second question identity and does not change the authority
+boundary: the question pool still owns question canon.
+
 ### 5. Generator compatibility is a bridge concern
 
 The current static review generator still requires:
@@ -221,6 +227,16 @@ Examples:
 - static HTML body
 
 Question stem and answers remain one translation group.
+
+Photo and drawing descriptions must stay local to their own object. A global
+group such as all drawing descriptions or all photo descriptions is invalid.
+
+For HTML-bearing objects, the canonical slot may remain HTML, but translation
+must operate on extracted text segments rather than on raw HTML source.
+
+For large Markdown or plain-text bodies, the canonical object remains whole but
+the translation-preparation layer may split derived units on blank lines and
+reassemble them after translation.
 
 ## Reconstruction Rule
 

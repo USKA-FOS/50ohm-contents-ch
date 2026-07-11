@@ -20,10 +20,10 @@ SQLite validation and future canonical Git export.
 | `contents/slides/*.md` | `slide_article` | `body_markdown` | file stem, source path | references and annotations parsed from body | placed from `toc` by `ident` |
 | `contents/solutions/*.md` | `solution_article` | `body_markdown` | file stem, source path | references and annotations parsed from body | currently not placed by `toc` |
 | `contents/snippets/*.md` | `snippet` | `body_markdown` | file stem, source path | references and annotations parsed from body | reusable text family |
-| `contents/static/*.html` | `static_page` | `body_html` | file stem, source path | inline markers if present | includes sidebar variants as independent objects |
-| `contents/html/*.html` | `html_include` | `body_html` | file stem, source path | may be referenced by `[include:...]` | part of the model, not optional |
-| `contents/photos/<id>.png` + `contents/photos/<id>.txt` | `photo` | `short_description`, `long_description` when `.txt` exists | image path, numeric photo id | referenced by `[photo:...]` | one canonical object per numeric id |
-| `contents/drawings/<id>.svg` + `.tex` + `.txt` | `drawing` | `short_description`, `long_description` when `.txt` exists | svg path, tex path, numeric drawing id | referenced by `[picture:...]` | one canonical object per numeric id |
+| `contents/static/*.html` | `static_page` | `body_html` | file stem, source path | inline markers if present | includes sidebar variants as independent objects; translation is performed on extracted text segments, not on raw HTML |
+| `contents/html/*.html` | `html_include` | `body_html` | file stem, source path | may be referenced by `[include:...]` | part of the model, not optional; translation uses extracted text segments |
+| `contents/photos/<id>.png` + `contents/photos/<id>.txt` | `photo` | `short_description`, `long_description` when `.txt` exists | image path, numeric photo id | referenced by `[photo:...]` | one canonical object per numeric id; descriptions may group only within the same photo |
+| `contents/drawings/<id>.svg` + `.tex` + `.txt` | `drawing` | `short_description`, `long_description` when `.txt` exists | svg path, tex path, numeric drawing id | referenced by `[picture:...]` | one canonical object per numeric id; descriptions may group only within the same drawing |
 | inline `[question:CODE]` | `object_reference` | none | raw marker | `references_question` | target resolved by question code |
 | inline `[photo:ID:ALIAS:TEXT]` | `object_reference` | none | raw marker, alias, inline label | `embeds_photo` | target resolved by numeric photo id |
 | inline `[picture:ID:ALIAS:TEXT]` | `object_reference` | none | raw marker, alias, inline label | `embeds_drawing` | target resolved by numeric drawing id |
@@ -43,3 +43,5 @@ SQLite validation and future canonical Git export.
   be reported as missing;
 - `contents/html/*.html` and `contents/metadata/question_layout.json` are part
   of the mandatory reconstruction model.
+- large Markdown bodies may be split into derived translation units only on
+  blank-line boundaries; this does not change canonical object identity.

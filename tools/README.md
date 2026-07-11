@@ -71,6 +71,13 @@ multilingual for all non-question objects and curriculum nodes. Missing `fr`
 and `it` payloads are initialized from `de` as operational fallbacks; question
 objects remain federated from `../50ohm-question-pool`.
 
+Current transitional state:
+
+- `50ohm-question-pool` remains the authoritative home of questions;
+- `canonical/` may still contain mirrored question objects with the same ids;
+- this mirror is tolerated for now as a repository-history artifact, not as a
+  second canonical authority.
+
 ### Build de/fr/it from canonical SQLite and federated questions
 
 ```bash
@@ -86,6 +93,9 @@ generator into `work/build/{de,fr,it}`, and writes a comparison report to
 The SQLite database is runtime-only. It is deleted and rebuilt from the Git
 canonical model at the start of each run; no previous SQLite state is read or
 merged.
+
+This rebuild principle is strict. The SQLite database is an operational
+intermediate only and must never be treated as a previous-version store.
 
 The validator clears and recreates `translator/sites/app/build/de/` from the
 V4 baseline `translator/site-original/app/50ohm-contents-ch/`, then clears and
