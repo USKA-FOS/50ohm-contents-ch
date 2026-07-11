@@ -1,32 +1,32 @@
-## Funkfernschreiber
+## Telescrivente
 <left>
-[photo:92:n_computersteuerung_funkfernschreiber:Funkfernschreiber]
+[photo:92:n_computersteuerung_funkfernschreiber:Telescrivente]
 </left>
 <right>
-Die Abkürzung RTTY stammt von *radio teletype*
+L'abbreviazione RTTY deriva da *radio teletype*
 </right>
 <note>
-RTTY ist ein digitales Übertragungsverfahren, das sich weiterhin Beliebtheit im Amateurfunk erfreut.
+RTTY è una procedura di trasmissione digitale che continua a godere di popolarità nel radioamatore.
 </note>
 
 ---
-## Betrieb
+## Operatività
 
 <left>
-* Beide Funkpartner nutzen das gleiche Übertragungsverfahren (z.B. JS8, PSK, RTTY)
-* Gleiche Parameter müssen gesetzt sein
+* Entrambi i partner radio utilizzano la stessa procedura di trasmissione (es. JS8, PSK, RTTY)
+* Devono essere impostati gli stessi parametri
 </left>
 <right>
-* Verwendung von betrieblichen Abkürzungen und Q-Gruppen
-* Mehr Informationsgehalt pro Zeiteinheit
+* Utilizzo di abbreviazioni operative e gruppi Q
+* Maggiore contenuto informativo per unità di tempo
 </right>
 <note>
-* Abkürzungen kommen gleich
-* Q-Gruppen im nächsten Kapitel
+* Le abbreviazioni verranno spiegate a breve
+* I gruppi Q nel prossimo capitolo
 </note>
 
 ---
-In einem Gespräch sieht dieses folgendermaßen aus:
+In una conversazione, questo appare così:
 
 <qso>
 CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
@@ -37,37 +37,37 @@ BK QSL = VY 73 DE DL2AB SK
 > R 73 DE DL1PZ SK
 </qso>
 <note>
-Das QSO wird nach Erklärungen Abkürzungen Schritt für Schritt erläutert
+Il QSO verrà spiegato passo dopo passo con la spiegazione delle abbreviazioni
 </note>
 
 ---
 
-| l: Abkz. | l: Bedeutung |
-| BK | Unterbrechung der Sendung; Formlose Übergabe |
-| CQ | Allgemeiner Anruf (vom Englischen "Seek You") |
-| DE | von |
-| K | Aufforderung zum Senden |
-| PSE | Bitte (vom Englischen "Please") |
-| QSL | Ich bestätige den Empfang |
-| R | Received (Empfangsbestätigung) |
-| RPRT | Rapport (vom Englischen "Report") |
-[table:n_funkfernschreiben_abkuerzungen_1:Betriebliche Abkürzungen in der Telegrafie]
+| l: Abkz. | l: Significato |
+| BK | Interruzione della trasmissione; Passaggio informale |
+| CQ | Chiamata generale (dall'inglese "Seek You") |
+| DE | da |
+| K | Invito a trasmettere |
+| PSE | Per favore (dall'inglese "Please") |
+| QSL | Confermo la ricezione |
+| R | Ricevuto (conferma di ricezione) |
+| RPRT | Rapporto (dall'inglese "Report") |
+[table:n_funkfernschreiben_abkuerzungen_1:Abbreviazioni operative nella telegrafia]
 
 --- 
 
-| l: Abkz. | l: Bedeutung |
-| RST | RST-Rapport |
-| SK | Ende der Verbindung (vom Englischen "Silent Key") |
-| TNX | Danke (vom Englischen "Thanks") |
-| UR | du bist (im Sinne von "dein Signal ist", vom Englischen "you are") |
-| VY | sehr (vom Englischen "very") |
-| 73 | viele Grüße |
-| = | Trennzeichen |
-[table:n_funkfernschreiben_abkuerzungen_2:Betriebliche Abkürzungen in der Telegrafie]
+| l: Abkz. | l: Significato |
+| RST | Rapporto RST |
+| SK | Fine della connessione (dall'inglese "Silent Key") |
+| TNX | Grazie (dall'inglese "Thanks") |
+| UR | tu sei (nel senso di "il tuo segnale è", dall'inglese "you are") |
+| VY | molto (dall'inglese "very") |
+| 73 | molti saluti |
+| = | Separatore |
+[table:n_funkfernschreiben_abkuerzungen_2:Abbreviazioni operative nella telegrafia]
 
 ---
 
-Teil 1 unseres Beispiel-Gesprächs:
+Prima parte della nostra conversazione di esempio:
 
 <qso>
 CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
@@ -75,15 +75,15 @@ CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
 </qso>
 
 <fragment>
-Allgemeiner Anruf von DL2AB - Bitte Kommen!
+Chiamata generale da DL2AB - Prego rispondere!
 </fragment>
 
 <fragment>
-DL2AB von DL1PZ - Kommen!
+DL2AB da DL1PZ - Rispondere!
 </fragment>
 
 ---
-Teil 2 unseres Beispiel-Gesprächs:
+Seconda parte della nostra conversazione di esempio:
 
 <qso>
 DL1PZ DE DL2AB = UR RST 599 599 = DL1PZ DE DL2AB K
@@ -91,15 +91,15 @@ DL1PZ DE DL2AB = UR RST 599 599 = DL1PZ DE DL2AB K
 </qso>
 
 <fragment>
-DL1PZ von DL2AB. Dein Signal ist mit dem RST-Wert 599, ich wiederhole, 599. DL1PZ von DL2AB - Kommen!
+DL1PZ da DL2AB. Il tuo segnale è con il valore RST 599, ripeto, 599. DL1PZ da DL2AB - Rispondere!
 </fragment>
 
 <fragment>
-DL2AB von DL1PZ. Danke für den RST-Rapport, dein Signal ist 479, ich wiederhole, 479. Zurück zu dir!
+DL2AB da DL1PZ. Grazie per il rapporto RST, il tuo segnale è 479, ripeto, 479. Torno a te!
 </fragment>
 
 ---
-Teil 3 unseres Beispiel-Gesprächs:
+Terza parte della nostra conversazione di esempio:
 
 <qso>
 BK QSL = VY 73 DE DL2AB SK
@@ -107,12 +107,12 @@ BK QSL = VY 73 DE DL2AB SK
 </qso>
 
 <fragment>
-Hier bin ich wieder. Ich bestätige den Empfang. Sehr viele Grüße von DL2AB. Ende der Verbindung.
+Sono di nuovo qui. Confermo la ricezione. Molti saluti da DL2AB. Fine della connessione.
 </fragment>
 
 
 <fragment>
-Verstanden. Viele Grüße von DL1PZ. Ende der Verbindung.
+Capito. Molti saluti da DL1PZ. Fine della connessione.
 </fragment>
 
 
@@ -135,14 +135,14 @@ Verstanden. Viele Grüße von DL1PZ. Ende der Verbindung.
 [question:BE112]
 
 ---
-## Morsetelegrafie
-* Auf die richtige Geschwindigkeit achten
-* Schnell gegebene Morsezeichen brauchen viel Übung zum Verstehen
-* Gegenstelle nicht mit der Geschwindigkeit überfordern
-* Faustregel: *Nicht schneller geben, als man selbst aufnehmen kann*
+## Telegrafia in codice Morse
+* Prestare attenzione alla velocità corretta
+* I segnali Morse trasmessi rapidamente richiedono molta pratica per essere compresi
+* Non sovraccaricare la controparte con la velocità
+* Regola generale: *Non trasmettere più velocemente di quanto si possa ricevere*
 
 <note>
-Es ist tatsächlich möglich und ein häufiger Anfängerfehler, in Morsetelegrafie schneller zu geben als man selbst verstehen kann.
+È effettivamente possibile, e un errore comune per i principianti, trasmettere in codice Morse più velocemente di quanto si possa comprendere.
 </note>
 
 ---

@@ -1,20 +1,20 @@
-## Untersuchung von Störungen an Geräten
+## Indagine sui disturbi delle apparecchiature
 
-* Systematisches Abstecken der Anschlüsse  
-* Prüfung, ob Störung noch vorhanden ist  
-* Ursache: Einströmungen oder Direkteinstrahlung  
+* Scollegare sistematicamente i collegamenti
+* Verificare se il disturbo è ancora presente
+* Causa: Ingressi o irraggiamento diretto
 
 ---
 
-### Netzfilter gegen Einströmungen
+### Filtri di rete contro gli ingressi
 
 <left>
-[picture:164:a_stoerungen_elektronischer_geraete_tiefpassfilter:Tiefpassfilter]
+[picture:164:a_stoerungen_elektronischer_geraete_tiefpassfilter:Filtro passa-basso]
 </left>
 <right>
-* Netzfilter als Tiefpassfilter  
-* Reduziert Störungen über die Netzzuleitung  
-* Erhältlich nach VDE-Vorschriften  
+* Filtri di rete come filtri passa-basso
+* Riducono i disturbi sulla linea di alimentazione
+* Disponibili secondo le normative VDE
 </right>
 
 ---
@@ -31,11 +31,11 @@
 
 ---
 
-### Schirmung von Eigenbauempfängern
+### Schermatura dei ricevitori autocostruiti
 
-* Empfangsstörungen durch schlechte Schirmung  
-* Empfänger in geerdetes Metallgehäuse einbauen  
-* Besonders wichtig bei SDR-Technik  
+* Disturbi di ricezione dovuti a scarsa schermatura
+* Installare il ricevitore in un involucro metallico messo a terra
+* Particolarmente importante per la tecnologia SDR
 
 ---
 
@@ -47,11 +47,11 @@
 
 ---
 
-### Störpotential unterschiedlicher Betriebsarten
+### Potenziale di disturbo di diverse modalità operative
 
-* CW und SSB erzeugen Störungen durch schnelle Amplitudenänderungen  
-* HF wird an Basis-Emitter-Übergängen gleichgerichtet  
-* Demodulierte NF hörbar in Lautsprechern  
+* CW e SSB generano disturbi a causa di rapidi cambiamenti di ampiezza
+* L'RF viene raddrizzata sulle giunzioni base-emettitore
+* L'NF demodulata è udibile negli altoparlanti
 
 ---
 
@@ -63,13 +63,13 @@
 
 ---
 
-### Schutz von DVB-T Empfängern
+### Protezione dei ricevitori DVB-T
 
-* Hochpassfilter schützt vor starken Signalen  
-* Wirksam nur bei passiven Antennen  
-* Unselektive Vorverstärker sind besonders störanfällig  
-* Filter vor Verstärker notwendig bei aktiven Antennen  
-* Einfügedämpfung sollte $\le\qtyrange{2}{3}{\dB}$ sein  
+* Il filtro passa-alto protegge da segnali forti
+* Efficace solo con antenne passive
+* I preamplificatori non selettivi sono particolarmente suscettibili ai disturbi
+* Filtro necessario prima dell'amplificatore per antenne attive
+* L'attenuazione di inserzione dovrebbe essere $\le\qtyrange{2}{3}{\dB}$
 
 ---
 
@@ -85,15 +85,15 @@
 
 ---
 
-### Tiefpassfilter für Kurzwellensender
+### Filtro passa-basso per trasmettitori a onde corte
 
 <left>
-[photo:201:a_stoerungen_elektrischer_geraete_tiefpassfilter:Tiefpassfilter für Kurzwelle mit Frequenzgang]
+[photo:201:a_stoerungen_elektrischer_geraete_tiefpassfilter:Filtro passa-basso per onde corte con risposta in frequenza]
 </left>
 <right>
-* Grenzfrequenz $\qtyrange{30}{40}{\mega\hertz}$
-* Antennen-Tuner in Tiefpass-Konfiguration als Alternative  
-* Reduzierung von Oberwellenaussendungen  
+* Frequenza di taglio $\qtyrange{30}{40}{\mega\hertz}$
+* Accordatore d'antenna in configurazione passa-basso come alternativa
+* Riduzione delle trasmissioni di armoniche superiori
 </right>
 
 ---
@@ -106,11 +106,11 @@
 
 ---
 
-### Störungen durch starke Amateurfunksignale
+### Disturbi da forti segnali di radioamatore
 
-* Empfangsstörungen bei DAB, TV und UKW  
-* Ursache: Übersteuerung des Empfängereingangs  
-* Verringerung der Empfindlichkeit oder komplette Ausfälle  
+* Disturbi di ricezione su DAB, TV e VHF
+* Causa: Sovraeccitazione dell'ingresso del ricevitore
+* Riduzione della sensibilità o guasti completi
 
 ---
 
@@ -126,10 +126,10 @@
 
 ---
 
-### Minimierung von Störungen durch Sendeleistung
+### Minimizzazione dei disturbi dalla potenza di trasmissione
 
-* Betrieb mit minimal erforderlicher Leistung  
-* Vermeidung von unnötigen Störungen  
+* Funzionamento con la potenza minima richiesta
+* Evitare disturbi non necessari
 
 ---
 
@@ -137,13 +137,13 @@
 
 ---
 
-### Abblockkondensatoren gegen HF-Störungen
+### Condensatori di blocco contro i disturbi RF
 
-* Ableitung von HF gegen Masse  
-* Keramik-Kondensatoren am besten geeignet  
-* Elektrolyt- und Kunststoffkondensatoren ungeeignet  
-* Kombination mit Tantal-Kondensatoren möglich  
-* Erdung mit niedriger Impedanz notwendig  
+* Scarico dell'RF verso massa
+* Condensatori ceramici sono i più adatti
+* Condensatori elettrolitici e in plastica non adatti
+* Possibile combinazione con condensatori al tantalio
+* Necessaria messa a terra a bassa impedenza
 
 ---
 
@@ -155,15 +155,14 @@
 
 ---
 
-### Hochfrequenz-Drosseln in Stromversorgungen
+### Bobine di alta frequenza negli alimentatori
 
-* Blockieren hochfrequente Einströmungen  
-* Verhindern HF-Rückströmungen in die Stromversorgung  
-* Eigenkapazitäten können Nebenresonanzen erzeugen  
-* Nebenresonanzen beeinflussen HF-Stufen negativ  
-* Verstärker können unerwünschte Rückkopplungen erhalten  
+* Bloccano gli ingressi ad alta frequenza
+* Impediscono i ritorni RF nell'alimentatore
+* Le capacità parassite possono generare risonanze secondarie
+* Le risonanze secondarie influenzano negativamente gli stadi RF
+* Gli amplificatori possono ricevere retroazioni indesiderate
 
 ---
 
 [question:AJ214]
-

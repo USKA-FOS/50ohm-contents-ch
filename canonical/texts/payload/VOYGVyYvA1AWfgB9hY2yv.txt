@@ -1,47 +1,47 @@
-## Durchlassrichtung
+## Direzione di conduzione
 
-* Elektronenfluss von N nach P
-* Technische Stromrichtung ist entgegengesetzt zur Richtung des Elektronenflusses
+* Flusso di elettroni da N a P
+* La direzione tecnica della corrente è opposta alla direzione del flusso di elettroni
 
 ---
 [question:AC401]
 ---
-## Temperatur
+## Temperatura
 
-* Bei höherer Temperatur gibt es mehr freie Elektronen
-* Der Sättigungsstrom steigt mit steigender Temperatur
-* Aber die Beweglichkeit ändert sich
-* Dadurch sinkt die Durchlassspannung (mit ca. $\qty{-2}{\milli\volt\per\kelvin}$)
+* A temperature più elevate ci sono più elettroni liberi
+* La corrente di saturazione aumenta con l'aumentare della temperatura
+* Ma la mobilità cambia
+* Di conseguenza, la tensione di conduzione diminuisce (con circa $\qty{-2}{\milli\volt\per\kelvin}$)
 
 ---
 [question:AC403]
 ---
-## Kapazitätsdiode (Varicap)
+## Diodo a capacità (Varicap)
 
 <left>
-* Kapazitätsdiode nutzt die Kapazität über der Raumladungszone
-* Es darf kein Gleichstrom fließen
-* Wird in Sperrrichtung betrieben
+* Il diodo a capacità sfrutta la capacità sulla zona di svuotamento
+* Non deve fluire corrente continua
+* Viene utilizzato in polarizzazione inversa
 </left>
 <right>
 <fragment>
-Je negativer die Diodenspannung, umso mehr dehnt sich die Raumladungszone aus und umso geringer wird die Diodenkapazität.
+Quanto più negativa è la tensione del diodo, tanto più si espande la zona di svuotamento e tanto minore diventa la capacità del diodo.
 </fragment>
 </right>
 
 ---
 [question:AC404]
 ---
-## Spannungsbegrenzung
+## Limitazione di tensione
 
-* Antiparallele Dioden
-* Begrenzung der Amplitude einer Wechselspannung
-* Silizium: ca. $\qty{0,6}{\volt}$ Schwellspannung
-* Germanium: ca. $\qty{0,3}{\volt}$ Schwellspannung
+* Diodi antiparalleli
+* Limitazione dell'ampiezza di una tensione alternata
+* Silicio: circa $\qty{0,6}{\volt}$ tensione di soglia
+* Germanio: circa $\qty{0,3}{\volt}$ tensione di soglia
 * $\rightarrow$ *Clipping*
 
 <note>
-Schwellspannungen sind Klasse E Stoff
+Le tensioni di soglia sono materiale di classe E
 </note>
 
 --- style="font-size: smaller;"
@@ -49,30 +49,30 @@ Schwellspannungen sind Klasse E Stoff
 --- style="font-size: smaller;"
 [question:AC406]
 ---
-## Fotodiode
+## Fotodiodo
 
-* Licht wird in der Raumladungszone absorbiert
-* Es entstehen Elektron-Loch-Paare
-* Elektronen bewegen sich zum p-Gebiet, Löcher zum n-Gebiet
-* Wird ein Verbraucher (mit negativer Spannung am p-Anschluss) angeschlossen, wirkt die Fotodiode als Stromquelle
-* Der Strom ist proportional zur Lichtintensität
+* La luce viene assorbita nella zona di svuotamento
+* Si creano coppie elettrone-lacuna
+* Gli elettroni si muovono verso la regione p, le lacune verso la regione n
+* Se viene collegato un carico (con tensione negativa al terminale p), il fotodiodo agisce come una sorgente di corrente
+* La corrente è proporzionale all'intensità luminosa
 
 <note>
-Lichtmessung, Bildsensoren in Kameras, Solarzellen
+Misurazione della luce, sensori di immagine nelle fotocamere, celle solari
 </note>
 
 ---
 [question:AC407]
 ---
-## Optokoppler
+## Optoisolatore
 
-* Zusammenschluss von Leuchtdiode und Fotodiode in einem Gehäuse
-* Eingangsseite: Leuchtdiode
-* Ausgangsseite: Fotodiode
-* Beide sind voneinander galvanisch getrennt
+* Combinazione di diodo emettitore di luce e fotodiodo in un unico alloggiamento
+* Lato di ingresso: diodo emettitore di luce
+* Lato di uscita: fotodiodo
+* Entrambi sono galvanicamente separati l'uno dall'altro
 
 <note>
-Schnittstellen galvanisch trennen, z.B. um Masseschleifen zu verhindern
+Separare galvanicamente le interfacce, ad es. per evitare anelli di massa
 </note>
 ---
 [question:AC408]

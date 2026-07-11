@@ -1,40 +1,40 @@
-Die elektrische Ladung (auch *Elektrizitätsmenge* genannt) ist eine grundlegende physikalische Größe. Sie beschreibt eine Eigenschaft von Teilchen und Körpern und ist die Ursache für elektrische und elektromagnetische Wechselwirkungen. Sicher hast du schon auf Akkus oder Batterien eine Angabe wie z.B. $\qty{3000}{\milli\ampere\hour}$ für die elektrische Ladung gelesen. 
+La carica elettrica (chiamata anche *quantità di elettricità*) è una grandezza fisica fondamentale. Descrive una proprietà di particelle e corpi ed è la causa di interazioni elettriche ed elettromagnetiche. Sicuramente avrai già letto su accumulatori o batterie un'indicazione come ad esempio $\qty{3000}{\milli\ampere\hour}$ per la carica elettrica. 
 
 <unit>
-Die elektrische Ladung hat das Formelzeichen $Q$ und die Einheit Coulomb ($\unit{\coulomb}$).
-Ein Coulomb ist definiert als die Ladungsmenge, die bei einem Strom von $\qty{1}{\ampere}$ innerhalb von $\qty{1}{\second}$ transportiert wird:
+La carica elettrica ha il simbolo di formula $Q$ e l'unità Coulomb ($\unit{\coulomb}$).
+Un Coulomb è definito come la quantità di carica trasportata da una corrente di $\qty{1}{\ampere}$ in $\qty{1}{\second}$:
 $\qty{1}{\coulomb} = \qty{1}{\ampere} \cdot \qty{1}{\second}$
 </unit>
 
-Elektrische Ladung allein beschreibt jedoch noch keine Energie. Erst in Verbindung mit einer elektrischen Spannung wird deutlich, wie viel Energie mit einer bestimmten Ladungsmenge übertragen oder gespeichert werden kann. Genau dieser Zusammenhang wird zum Beispiel bei Batterien und Akkumulatoren genutzt: Sie speichern elektrische Energie, indem sie elektrische Ladung auf unterschiedlichen elektrischen Potenzialen trennen.
+La carica elettrica da sola non descrive ancora energia. Solo in combinazione con una tensione elettrica diventa chiaro quanta energia può essere trasferita o immagazzinata con una determinata quantità di carica. Esattamente questo collegamento viene utilizzato, ad esempio, nelle batterie e negli accumulatori: immagazzinano energia elettrica separando la carica elettrica a diversi potenziali elettrici.
 
 [question:AA102]
 
 ---
 
-Die dabei gespeicherte oder übertragene elektrische Energie $W$ ergibt sich aus der transportierten Ladung $Q$ und der anliegenden Spannung $U$:
+L'energia elettrica immagazzinata o trasferita $W$ deriva dalla carica trasportata $Q$ e dalla tensione applicata $U$:
 
 $W = U \cdot Q$
 
-Allgemein ist die Leistung als Energie pro Zeit definiert. Entsprechend ergibt sich die Energie als Produkt aus Leistung und Zeit:
+In generale, la potenza è definita come energia per unità di tempo. Di conseguenza, l'energia risulta dal prodotto di potenza e tempo:
 
 $W = P \cdot t$
 
 <unit>
-Die Einheit der Energie ist das Joule ($\unit{\joule}$). Ein Joule ist definiert als:
+L'unità di misura dell'energia è il Joule ($\unit{\joule}$). Un Joule è definito come:
 
 $\qty{1}{\joule} = \qty{1}{\watt\second} = \qty{1}{\volt\ampere\second} = \qty{1}{\newton\meter} = \qty{1}{\kilogram\cdot\meter\squared\per\second\squared}$
 </unit>
 
 [question:AA103]
 
-In der Praxis werden für kleine Energiemengen meist Joule verwendet, während für größere Energiemengen – etwa bei Akkus, Netzteilen oder im Stromverbrauch – häufig Wattstunden ($\unit{\watt\hour}$) oder Kilowattstunden ($\unit{\kilo\watt\hour}$) angegeben werden. Greifen wir das Beispiel unseres $\qty{3000}{\milli\ampere\hour}$-Akkus wieder auf. Hat dieser eine Spannung von $\qty{3,6}{\volt}$ so ergibt sich ein Energiegehalt von $\qty{3000}{\milli\ampere\hour} \cdot \qty{3,6}{\volt} = \qty{10.8}{\watt\hour}$
+In pratica, per piccole quantità di energia si usano per lo più Joule, mentre per grandi quantità di energia – ad esempio per batterie, alimentatori o nel consumo di corrente – si indicano spesso Wattora ($\unit{\watt\hour}$) o Kilowattora ($\unit{\kilo\watt\hour}$). Riprendiamo l'esempio del nostro accumulatore da $\qty{3000}{\milli\ampere\hour}$. Se ha una tensione di $\qty{3,6}{\volt}$, il contenuto energetico è di $\qty{3000}{\milli\ampere\hour} \cdot \qty{3,6}{\volt} = \qty{10.8}{\watt\hour}$
 
-Energie kann nicht nur gespeichert, sondern auch von einer Form in eine andere umgewandelt werden. Ein typisches Beispiel ist die Umwandlung elektrischer Energie in thermische Energie an einem Widerstand, an dem über einen bestimmten Zeitraum eine Spannung anliegt. Die folgenden beiden Prüfungsfragen betrachten genau dieses Szenario.
+L'energia non può solo essere immagazzinata, ma anche convertita da una forma all'altra. Un esempio tipico è la conversione di energia elettrica in energia termica su una resistenza, su cui viene applicata una tensione per un certo periodo di tempo. Le seguenti due domande d'esame esaminano esattamente questo scenario.
 
 [question:AB503]
 
-Hier nochmal eine andere Formulierung der Frage: Wie viel Energie wird an einem Widerstand (Widerstand $R=\qty{100}{\ohm}$), an dem eine Spannung von $U=\qty{10}{\volt}$ angelegt ist, innerhalb einer Stunde in Wärme umgewandelt?
+Ancora una formulazione diversa della domanda: Quanta energia viene convertita in calore in un'ora su una resistenza (Resistenza $R=\qty{100}{\ohm}$), su cui è applicata una tensione di $U=\qty{10}{\volt}$?
 
 $W = P \cdot t = \frac{U^2}{R} \cdot t = \qty{1}{\watt} \cdot \qty{1}{\hour}= \qty{1}{\watt\hour}$
 

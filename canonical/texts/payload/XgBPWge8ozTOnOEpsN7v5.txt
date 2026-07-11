@@ -1,40 +1,40 @@
-## Fourier-Transformation und Signalzerlegung
+## Trasformata di Fourier e scomposizione del segnale
 
-* Signale können sowohl im Zeit- als auch im Frequenzbereich dargestellt werden  
-* Im Zeitbereich: X-Achse $\rightarrow$ Zeit, Y-Achse $\rightarrow$ Spannung oder Leistung  
-* Im Frequenzbereich: X-Achse $\rightarrow$ Frequenz, Y-Achse $\rightarrow$ Amplitude oder Leistung
-
----
-
-### Zerlegung von Signalen
-
-* Jedes Signal lässt sich als Überlagerung von Sinusschwingungen darstellen  
-* Jede Sinusschwingung hat eine bestimmte Amplitude und Phase  
-* Dieses Prinzip ermöglicht es, komplexe Signale in ihre Bestandteile zu zerlegen
+* I segnali possono essere rappresentati sia nel dominio del tempo che nel dominio della frequenza  
+* Nel dominio del tempo: Asse X $\rightarrow$ Tempo, Asse Y $\rightarrow$ Tensione o Potenza  
+* Nel dominio della frequenza: Asse X $\rightarrow$ Frequenza, Asse Y $\rightarrow$ Ampiezza o Potenza
 
 ---
 
-### Fourier-Transformation
+### Scomposizione dei segnali
 
-* Mathematisch komplexes Verfahren, das ein zeitliches Signal analysiert  
-* Zeigt an, welche Sinus-Schwingungen (Frequenzen) im Signal enthalten sind  
-* Das Ergebnis wird als Frequenzspektrum dargestellt (X-Achse: Frequenz, Y-Achse: Amplitude/Leistung)
-
----
-
-### Fast Fourier Transformation (FFT)
-
-* Effiziente Berechnung der diskreten Fourier-Transformation (DFT)  
-* Reduziert den Rechenaufwand erheblich  
-* Weit verbreitet in Soft- und Hardware zur Signalverarbeitung
+* Ogni segnale può essere rappresentato come una sovrapposizione di oscillazioni sinusoidali  
+* Ogni oscillazione sinusoidale ha una certa ampiezza e fase  
+* Questo principio consente di scomporre segnali complessi nei loro componenti
 
 ---
 
-### Beispiel: Rechtecksignal und Oberschwingungen
+### Trasformata di Fourier
 
-* Rechtecksignale enthalten neben der Grundschwingung auch zahlreiche Oberschwingungen  
-* Diese Oberschwingungen (ungerade Vielfache der Grundfrequenz) nehmen ab, sind aber deutlich sichtbar  
-* Ohne Tiefpassfilter würden diese hohen Frequenzanteile stören
+* Procedura matematicamente complessa che analizza un segnale temporale  
+* Indica quali oscillazioni sinusoidali (frequenze) sono contenute nel segnale  
+* Il risultato viene rappresentato come uno spettro di frequenza (Asse X: Frequenza, Asse Y: Ampiezza/Potenza)
+
+---
+
+### Fast Fourier Transform (FFT)
+
+* Calcolo efficiente della trasformata discreta di Fourier (DFT)  
+* Riduce notevolmente l'onere computazionale  
+* Ampiamente utilizzata in software e hardware per l'elaborazione dei segnali
+
+---
+
+### Esempio: Segnale a onda quadra e armoniche
+
+* I segnali a onda quadra contengono, oltre all'oscillazione fondamentale, numerose armoniche  
+* Queste armoniche (multipli dispari della frequenza fondamentale) diminuiscono, ma sono chiaramente visibili  
+* Senza un filtro passa-basso, queste componenti ad alta frequenza causerebbero interferenze
 
 ---
 

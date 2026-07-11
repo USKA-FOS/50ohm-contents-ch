@@ -1,28 +1,28 @@
-Gesucht ist der Widerstand $R_2$ für eine Gate-Source-Spannung von:
+Si cerca la resistenza $R_2$ per una tensione gate-source di:
 
 $ U_\mathrm{GS} = \qty{2,8}{\volt} $
 
-Da die Source direkt mit Masse verbunden ist, gilt:
+Poiché il source è collegato direttamente a massa, vale:
 
 $ U_\mathrm{G} = U_\mathrm{GS} $
 
-Der Spannungsteiler aus $R_1$ und $R_2$ liefert:
+Il partitore di tensione di $R_1$ e $R_2$ fornisce:
 
 $ U_\mathrm{GS} = U_\mathrm{B} \cdot \frac{R_2}{R_1 + R_2} $
 
-Werte einsetzen:
+Inserire i valori:
 
 $ \qty{2,8}{\volt} = \qty{44}{\volt} \cdot \frac{R_2}{\qty{10\,000}{\ohm} + R_2} $
 
-Beide Seiten mit $\qty{10\,000}{\ohm} + R_2$ multiplizieren:
+Moltiplicare entrambi i lati per $\qty{10\,000}{\ohm} + R_2$:
 
 $ \qty{2,8}{\volt} \cdot \left( \qty{10\,000}{\ohm} + R_2 \right) = \qty{44}{\volt} \cdot R_2 $
 
-Ausmultiplizieren:
+Moltiplicare:
 
 $ \qty{28\,000}{} + 2,8 \cdot R_2 = 44 \cdot R_2 $
 
-Nach $R_2$ umstellen:
+Riordinare per $R_2$:
 
 $ \qty{28\,000}{} = 41,2 \cdot R_2 $
 

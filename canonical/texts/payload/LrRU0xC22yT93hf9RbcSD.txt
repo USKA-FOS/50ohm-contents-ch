@@ -1,7 +1,7 @@
-### Netzgerät
+### Alimentatore
 
-* Die für uns Funkamateure wichtigste Spannungsquelle ist, neben Batterien, das Netzgerät. Es wird über das Stromnetz mit $\qty{230}{\volt}$ Wechselspannung versorgt und erzeugt eine Gleichspannung von $\qty{13,8}{\volt}$. Damit lassen sich Funkgeräte und Zubehör versorgen.
-* Wichtig ist, dass die Ausgangsspannung bei Last konstant bleibt.
+* La fonte di tensione più importante per noi radioamatori è, oltre alle batterie, l'alimentatore. Viene alimentato dalla rete elettrica con $\qty{230}{\volt}$ di tensione alternata e genera una tensione continua di $\qty{13,8}{\volt}$. Questo permette di alimentare apparecchi radio e accessori.
+* È importante che la tensione d’uscita rimanga costante sotto carico.
 
 ---
 
@@ -9,23 +9,23 @@
 
 ---
 
-### Elektrische Sicherheit
+### Sicurezza elettrica
 
-Bei Netzgeräten, besonders mit einem Metallgehäuse, ist ein normgerechter Anschluss an das Stromnetz wichtig. Der Schutzleiter (grün/gelb) hat dabei die Aufgabe im Fehlerfall die Spannung zur "Erde" abzuleiten und damit die Haussicherung auszulösen, damit keine gefährliche Spannung am Metallgehäuse anliegt. Bei einer 3-adrigen Leitung sind die Adernkennfarben wie folgt festgelegt:
+Con gli alimentatori, specialmente quelli con involucro metallico, è importante un collegamento conforme alle norme alla rete elettrica. Il conduttore di protezione (verde/giallo) ha il compito, in caso di guasto, di scaricare la tensione verso "terra" e quindi di far scattare il fusibile domestico, in modo che nessuna tensione pericolosa sia presente sull'involucro metallico. In un cavo a 3 conduttori, i colori dei conduttori sono definiti come segue:
 
 ---
-### Aderfarben
+### Colori dei conduttori
 
 <left>
-* Außenleiter (L) $\rightarrow$ braun
-* Neutralleiter (N) $\rightarrow$ blau
-* Schutzleiter (PE) $\rightarrow$ grün/gelb
+* Conduttore di fase (L) $\rightarrow$ marrone
+* Conduttore neutro (N) $\rightarrow$ blu
+* Conduttore di protezione (PE) $\rightarrow$ verde/giallo
 </left>
 <right>
-[picture:791:e_NYM_Aderfarben:Aderfarben einer 3-adrigen Leitung]
+[picture:791:e_NYM_Aderfarben:Colori dei conduttori di un cavo a 3 conduttori]
 </right>
 <note>
-Nicht drauf verlassen, sondern messen!
+Non fare affidamento su questo, ma misurare!
 </note>
 
 ---

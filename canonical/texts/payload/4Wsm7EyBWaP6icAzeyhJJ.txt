@@ -1,16 +1,16 @@
-## Konverter
+## Convertitore
 
-* Signale auf einem Frequenzband werden in ein anderes Frequenzband umgesetzt
-* z.B. wird ein $\qty{2}{\meter}$-Signal im Empfang als ein $\qty{70}{\centi\meter}$-Signal ausgesendet
-* Signal wird nur in eine Richtung umgewandelt
-* Im Grunde ein einfacher Mischer
+* I segnali su una banda di frequenza vengono convertiti in un'altra banda di frequenza
+* ad es. un segnale di $\qty{2}{\meter}$ viene trasmesso in ricezione come segnale di $\qty{70}{\centi\meter}$
+* Il segnale viene convertito solo in una direzione
+* In sostanza un semplice mixer
 
 ---
 [question:EF504]
 
 <note>
-* TCXO und PLL kommen später dran
-* Aber die Mischung kann berechnet werden
+* TCXO e PLL verranno trattati più avanti
+* Ma la miscelazione può essere calcolata
 </note>
 
 ---
@@ -18,8 +18,8 @@
 ---
 ## Transverter
 
-* Beim Transverter funktioniert die Umsetzung in beide Richtungen
-* Die Umsetzung erfolgt auch hier durch Mischung
+* Nel transverter la conversione avviene in entrambe le direzioni
+* La conversione avviene anche qui tramite miscelazione
 
 ---
 [question:EF501]
@@ -28,48 +28,48 @@
 ---
 [question:EF503]
 <note>
-* Lösungsweg auf der kommenden Folie
+* Percorso di soluzione nella diapositiva successiva
 </note>
 ---
-### Lösungsweg
+### Percorso di soluzione
 
-Frequenz des Generators wird ver-3-facht: $\qty{38,666}{\mega\hertz} \cdot 3 = \qty{116}{\mega\hertz}$
+La frequenza del generatore viene triplicata: $\qty{38,666}{\mega\hertz} \cdot 3 = \qty{116}{\mega\hertz}$
 
 <left>
-*TX Weg*
-* Die $\qtyrange{28}{30}{\mega\hertz}$ vom TRX werden mit $\qty{116}{\mega\hertz}$ gemischt
-* Das Signal kann $\qtyrange{86}{88}{\mega\hertz}$ oder $\qtyrange{144}{146}{\mega\hertz}$ sein
+*Percorso TX*
+* I $\qtyrange{28}{30}{\mega\hertz}$ del TRX vengono miscelati con $\qty{116}{\mega\hertz}$
+* Il segnale può essere $\qtyrange{86}{88}{\mega\hertz}$ o $\qtyrange{144}{146}{\mega\hertz}$
 </left>
 <right>
-[picture:843:e_transverter_tx:Transverter im TX-Pfad]
+[picture:843:e_transverter_tx:Transverter nel percorso TX]
 </right>
 
 ---
 
 <left>
-*RX Weg*
-* Das Antennensignal wird mit $\qty{116}{\mega\hertz}$ gemischt und es kommen $\qtyrange{28}{30}{\mega\hertz}$ raus
-* Das Antennensignal liegt somit u.a. bei $\qtyrange{144}{146}{\mega\hertz}$
-* $\rightarrow$ Es ist nur die Antwort mit $\qty{2}{\meter}$ und der Transverter richtig
+*Percorso RX*
+* Il segnale dell'antenna viene miscelato con $\qty{116}{\mega\hertz}$ e si ottengono $\qtyrange{28}{30}{\mega\hertz}$
+* Il segnale dell'antenna si trova quindi, tra l'altro, a $\qtyrange{144}{146}{\mega\hertz}$
+* $\rightarrow$ Solo la risposta con $\qty{2}{\meter}$ e il transverter è corretta
 </left>
 <right>
-[picture:842:e_transverter_rx:Transverter im RX-Pfad]
+[picture:842:e_transverter_rx:Transverter nel percorso RX]
 </right>
 
 ---
-## Frequenzstabilität
+## Stabilità di frequenza
 
-* Konverter und Transverter sollten mit frequenzstabilen Oszillatoren gebaut werden
-* Weicht die Frequenz ab, ist die Ausgangsfrequenz auch abweichend
+* I convertitori e i transverter dovrebbero essere costruiti con oscillatori a frequenza stabile
+* Se la frequenza devia, anche la frequenza di uscita sarà deviata
 
 ---
 <left>
-* Grafik aus vorheriger Frage
-* Aus $\qty{10}{\mega\hertz}$ werden $\qty{2,256}{\giga\hertz}$, also $\num{225,6}$ Vervielfachung
-* Statt $\qty{10}{\mega\hertz}$ erzeugt der Oszillator aufgrund eines Fehlers $\qty{10,01}{\mega\hertz}$
+* Grafico dalla domanda precedente
+* Da $\qty{10}{\mega\hertz}$ si ottengono $\qty{2,256}{\giga\hertz}$, quindi un moltiplicatore di $\num{225,6}$
+* Invece di $\qty{10}{\mega\hertz}$, l'oscillatore genera a causa di un errore $\qty{10,01}{\mega\hertz}$
 * $\qty{10,01}{\mega\hertz} \cdot 225,6 = \qty{2,258256}{\giga\hertz}$
-* Mischer: $\qty{144}{\mega\hertz} + \qty{2,258256}{\giga\hertz} = \qty{2,402256}{\giga\hertz} \rightarrow \qty{2,256}{\mega\hertz}$ daneben
+* Mixer: $\qty{144}{\mega\hertz} + \qty{2,258256}{\giga\hertz} = \qty{2,402256}{\giga\hertz} \rightarrow \qty{2,256}{\mega\hertz}$ di scarto
 </left>
 <right>
-[picture:651:e_konverter_13cm:Konverter für das $\qty{13}{\centi\meter}$-Band]
+[picture:651:e_konverter_13cm:Convertitore per la banda dei $\qty{13}{\centi\meter}$]
 </right>

@@ -1,46 +1,46 @@
-### Bandbreite
+### Larghezza di banda
 
-* Frequenzspektrum optimal ausnutzen
-* Minimaler Abstand zwischen SSB-Signalen sollte $\qty{3}{\kilo\hertz}$ betragen
-* Modulationsbandbreite darf dann maximal $\qty{2,7}{\kilo\hertz}$ sein
+* Sfruttare al meglio lo spettro di frequenza
+* La distanza minima tra i segnali SSB dovrebbe essere di $\qty{3}{\kilo\hertz}$
+* La larghezza di banda di modulazione non deve quindi superare i $\qty{2,7}{\kilo\hertz}$
 
 ---
 [question:AE209]
 ---
 [question:AE208]
 ---
-### Übersteuerung
+### Sovraeccitazione
 
-* Bei Übersteuerung im Modulator entstehen Verzerrungen
-* Führt zu Nebenaussendungen $\rightarrow$ Splatter
-* Bandbreite steigt
-* Kann benachbarte Aussendungen stören
+* La sovraeccitazione nel modulatore provoca distorsioni
+* Porta a emissioni spurie $\rightarrow$ Splatter
+* La larghezza di banda aumenta
+* Può disturbare le trasmissioni adiacenti
 
 ---
 [question:AE205]
 ---
-### Equalizer
+### Equalizzatore
 
-* Sprache ist individuell
-* Ziel: Bessere Ausnutzung des $\qty{2,7}{\kilo\hertz}$ Spektrums
-* Anhebung im höheren Frequenzbereich
-* Absenkung im tieferen Frequenzbereich
-* Oftmals Equalizer im Mikrofonverstärker
+* La voce è individuale
+* Obiettivo: Migliore sfruttamento dello spettro di $\qty{2,7}{\kilo\hertz}$
+* Aumento nella gamma di frequenze più alte
+* Abbassamento nella gamma di frequenze più basse
+* Spesso equalizzatori nell'amplificatore del microfono
 
 ---
 [question:AE213]
 ---
-### Zweiton-Testsignal
+### Segnale di test a due toni
 
-* Zur Beurteilung der Qualität und Linearität eines SSB-Senders
-* NF-Signal aus zwei Sinus-Frequenzen
-* Dürfen in keinem ganzzahligen Verhältnis zueinander stehen
-* Meistens $\qty{700}{\hertz}$ und $\qty{1200}{\hertz}$
-* Ergibt eine sogenannte "HF-Schwebung" bei $\qty{500}{\hertz}$
-* Messung der Hüllkurvenleistung (PEP) möglich
+* Per valutare la qualità e la linearità di un trasmettitore SSB
+* Segnale AF composto da due frequenze sinusoidali
+* Non devono stare in alcun rapporto intero tra loro
+* Di solito $\qty{700}{\hertz}$ e $\qty{1200}{\hertz}$
+* Produce un cosiddetto "battito HF" a $\qty{500}{\hertz}$
+* Possibile misurazione della potenza di picco dell'inviluppo (PEP)
 
 <note>
-PEP = Peak Envelope Power
+POTENZA DI PICCO DELL'INVILUPPO = Peak Envelope Power
 </note>
 
 ---

@@ -1,15 +1,15 @@
-Die Schaltung besteht aus einem Transformator, einer Diode und einem Glättungskondensator. Der Transformator liefert eine Wechselspannung von $\qty{15}{\volt}$ Effektivwert.
+Il circuito è composto da un trasformatore, una diodo e un condensatore di livellamento. Il trasformatore fornisce una tensione alternata di $\qty{15}{\volt}$ valore efficace.
 
-Der Kondensator lädt sich über die Diode auf den Spitzenwert der Wechselspannung auf. Dazu muss der Effektivwert in den Scheitelwert umgerechnet werden:
+Il condensatore si carica attraverso la diodo fino al valore di picco della tensione alternata. A tal fine, il valore efficace deve essere convertito nel valore di picco:
 
 $ \hat{U} = U_{\mathrm{eff}} \cdot \sqrt{2} $
 
-Damit ergibt sich:
+Ciò porta a:
 
 $ \hat{U} = \qty{15}{\volt} \cdot \sqrt{2} \approx \qty{21,2}{\volt} $
 
-Die Durchlassspannung der Diode wird hier näherungsweise vernachlässigt. Der Kondensator speichert somit ungefähr die Spitzenspannung der Wechselspannung.
+La tensione di passaggio della diodo viene qui approssimativamente trascurata. Il condensatore immagazzina quindi approssimativamente la tensione di picco della tensione alternata.
 
-Die Leerlaufspannung zwischen A und B beträgt daher ungefähr:
+La tensione a vuoto tra A e B è quindi approssimativamente:
 
 $ U_{AB} \approx \qty{21}{\volt} $

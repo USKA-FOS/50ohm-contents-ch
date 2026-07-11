@@ -1,113 +1,113 @@
-%Um die Feldstärke einer Antenne im Fernfeld ($d>\frac \lambda {2 \pi}$) zu berechnen gibt es die folgende Näherungsformel:
+%Per calcolare l'intensità del campo elettrico di un'antenna nel campo lontano ($d>\frac \lambda {2 \pi}$) esiste la seguente formula approssimata:
 
 %$E=\frac{\sqrt{\qty{30}{\ohm} \cdot P_\text{A} \cdot G_\text{i}}} {d}=\frac {\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}} d$
 
-%mit der Leistung an der Antenne $P_\text{A}$, dem Gewinnfaktor bezogen auf den Isotropen Strahler %$G_\text{i}$, und dem Abstand $d$
+%con la potenza all'antenna $P_\text{A}$, il fattore di guadagno rispetto all'irradiatore isotropo %$G_\text{i}$, e la distanza $d$
 
-%Für den Gewinnfaktor von Antennen ist gegeben:
+%Per il fattore di guadagno delle antenne è dato:
 
 %$G_\text{i}=G_\text{d} \cdot 1,64$ 
 
-%bzw.
+%o
 
 %$g_\text{i} = g_\text{d}+2,15\text{ dB}$
 
-%Es ist in der Prüfung der Grenzwert für den Personenschutzabstand angegeben. Um den Personenschutzabstand dann zu berechnen, muss daher die Formel umgestellt werden zu
+%Nella prova è indicato il valore limite per la distanza di protezione delle persone. Per calcolare la distanza di protezione delle persone, la formula deve quindi essere riorganizzata in
 
 %$d=\frac{\sqrt{\qty{30}{\ohm} \cdot P_\text{A} \cdot G_\text{i}}} {E}$
 
-%Jedoch ist meist nicht die Leistung an der Antenne angegeben, und genauso wenig der Gewinn gegenüber einem Isotropen Strahler. Entsprechend muss dies mit berücksichtigt werden. Dies ergibt dann:
+%Tuttavia, di solito non è indicata la potenza all'antenna, né il guadagno rispetto a un irradiatore isotropo. Di conseguenza, ciò deve essere preso in considerazione. Questo porta a:
 
 %$d=\dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{Transceiver} \cdot G_\text{Kabel} \cdot G_\text{d} \cdot 1,64}} {E}$
 
-%Mit der Leistung am Transceiver $P_\text{Transceiver}$, dem "Gewinn" des Kabels $G_\text{Kabel}$ (hier entsprechend mit negativem Vorzeichen einsetzen) und dem Gewinn gegenüber dem Dipol $G_\text{d}$.
+%Con la potenza al trasmettitore-ricevitore $P_\text{Transceiver}$, il "guadagno" del cavo $G_\text{Kabel}$ (qui inserire con segno negativo) e il guadagno rispetto al dipolo $G_\text{d}$.
 
-%Der "Gewinn" des Kabels kann z.B. berechnet werden für ein Kabel mit einer Dämpfung von $2 \text{ dB}$:
+%Il "guadagno" del cavo può essere calcolato, ad esempio, per un cavo con un'attenuazione di $2 \text{ dB}$:
 %$G_\text{Kabel} = 10^{\frac {-2 \text{ dB}} {10 \text{ dB}}} = 10^{-0,2}= 0,631$
 
 % DD4UQ
-Bei der Anzeige einer ortsfesten Amateurfunkanlage können die Sicherheitsabstände nach verschiedenen Verfahren ermittelt werden. Eine davon ist die Fernfeldberechnung. 
-Für die Berechnung braucht man die Sendeleistung ($P_\text{S}$), den Gewinnfaktor der Antenne bezogen auf den isotropen Strahler ($G_i = 1,64$) und den Grenzwert für die Feldstärke $(E = \qty{28}{\volt\per\meter})$ im Fernfeld einer Antenne. Die Wellenlänge ($\qty{10}{\meter}$) ist nur angebeben um den Beginn des Fernfeldes zu ermitteln.
+Nella visualizzazione di un impianto radioamatoriale fisso, le distanze di sicurezza possono essere determinate con diverse procedure. Una di queste è il calcolo del campo lontano. 
+Per il calcolo sono necessari la potenza di trasmissione ($P_\text{S}$), il fattore di guadagno dell'antenna rispetto all'irradiatore isotropo ($G_i = 1,64$) e il valore limite per l'intensità del campo $(E = \qty{28}{\volt\per\meter})$ nel campo lontano di un'antenna. La lunghezza d'onda ($\qty{10}{\meter}$) è indicata solo per determinare l'inizio del campo lontano.
 
 $\begin{split} d &=\dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{A} \cdot G_\text{i}}}{E}\\ d &=\dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{100}{\watt} \cdot 1,64}}{\qty{28}{\volt\per\meter}}\\ d &\approx \qty{2,50}{\meter}\end{split}$
 
-Ist der Abstand im Fernfeld (strahlenden Nahfeld)?
+La distanza rientra nel campo lontano (campo vicino radiante)?
 
  $\begin{split}d &= \dfrac{\lambda}{2 \cdot \pi}\\ d &= \dfrac{\qty{10}{\meter}}{2 \cdot \pi}\\ d &\approx \qty{1,59}{\meter}\end{split}$
  
- Der Sicherheitsabstand von $\qty{2,50}{\meter}$ liegt deutlich im Fernfeld (strahlenden Nahfeld) und ist damit gültig.
+ La distanza di sicurezza di $\qty{2,50}{\meter}$ rientra chiaramente nel campo lontano (campo vicino radiante) ed è quindi valida.
 
 [question:AK106]
 
-Die Frage AK108  ähnelt der vorherigen Frage. Hier muss zusätzlich die Kabeldämpfung beachtet werden. 
+La domanda AK108 è simile alla domanda precedente. Qui è necessario considerare anche l'attenuazione del cavo. 
 
-Hier bietet sich an, erst die ERIP zu berechnen.
+Qui è opportuno calcolare prima la ERIP.
 
 $P_\text{EIRP} = P_S \cdot {10^\dfrac{g_d  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}$
-Bei einer Richtantenne muss der Wert für $g_d$ angegeben werden. Ein einfacher Dipol hat nur einen Gewinn in Bezug auf einen isotropen Strahler. Hier ist  $g_d = \qty{0}{\dBd}$.
+Per un'antenna direttiva, deve essere indicato il valore per $g_d$. Un semplice dipolo ha solo un guadagno rispetto a un irradiatore isotropo. Qui $g_d = \qty{0}{\dBd}$.
 $\begin{split}P_\text{EIRP} &= \qty{300}{\watt}\cdot {10^\dfrac{\qty{0}{\dBd} −  \qty{0,5}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{300}{\watt}\cdot {10^\dfrac{\qty{1,65}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{300}{\watt}\cdot {10^{0,165}}\\ P_\text{EIRP} &\approx \qty{438,65}{\watt}\end{split}$
 
-Nun kann der Sicherheitsabstand berechnet werden.
+Ora è possibile calcolare la distanza di sicurezza.
 
 $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{438,65}{\watt}}} {\qty{28}{\volt\per\meter}}\\ d &\approx \qty{4,10}{\meter}\end{split}$
 
-Ist der Abstand im Fernfeld (strahlenden Nahfeld)?
+La distanza rientra nel campo lontano (campo vicino radiante)?
 
  $\begin{split} d &= \dfrac{\lambda}{2 \cdot \pi}\\ d &= \dfrac{\qty{20}{\meter}}{2 \cdot \pi}\\ d &\approx \qty{3,18}{\meter}\end{split}$
  
- Der Sicherheitsabstand von $\qty{4,10}{\meter}$ liegt auch hier im Fernfeld (strahlenden Nahfeld) und ist damit gültig.
+ La distanza di sicurezza di $\qty{4,10}{\meter}$ rientra anche qui nel campo lontano (campo vicino radiante) ed è quindi valida.
 
 [question:AK108]
 
-Hier kann genauso vorgegangen werden, wie bei der vorherigen Frage.
+Qui si può procedere allo stesso modo della domanda precedente.
 $\begin{split} P_\text{EIRP} &= P_S \cdot {10^\dfrac{g_d  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{700}{\watt}\cdot {10^\dfrac{\qty{0}{\dBd} −  \qty{0,5}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{700}{\watt}\cdot {10^\dfrac{\qty{1,65}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{700}{\watt}\cdot {10^{0,165}}\\ P_\text{EIRP} &\approx \qty{1023,52}{\watt}\end{split}$
 
 $\begin{split} d & =\dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{1023,52}{\watt}}} {\qty{28}{\volt\per\meter}}\\ d &\approx \qty{6,26}{\meter}\end{split}$
 
 [question:AK109]
 
-Bei der nächsten Frage muss der Sicherheitsabstand für ein Richtantenne berechnet werden. Der Gewinn $g_d = \qty{11,5}{\dBd}$.
+Nella prossima domanda è necessario calcolare la distanza di sicurezza per un'antenna direttiva. Il guadagno $g_d = \qty{11,5}{\dBd}$.
 
 $\begin{split} P_\text{EIRP} &= P_S \cdot {10^\dfrac{g_d  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{75}{\watt}\cdot {10^\dfrac{\qty{11,5}{\dB} −  \qty{1,5}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{75}{\watt}\cdot {10^\dfrac{\qty{12,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{75}{\watt}\cdot {10^{1,215}}\\ P_\text{EIRP} &\approx \qty{1230,44}{\watt}\end{split}$
 
 $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{1230,44}{\watt}}} {\qty{28}{\volt\per\meter}}\\ d &\approx \qty{6,86}{\meter}\end{split}$
 
- Ist der Abstand im Fernfeld (strahlenden Nahfeld)?
+La distanza rientra nel campo lontano (campo vicino radiante)?
 
  $\begin{split} d &= \dfrac{\lambda}{2 \cdot \pi}\\ d &= \dfrac{\qty{2}{\meter}}{2 \cdot \pi}\\ d &\approx \qty{0,32}{\meter}\end{split}$
  
- Der Sicherheitsabstand von $\qty{6,86}{\meter}$ liegt auch hier im Fernfeld (strahlenden Nahfeld) und ist damit gültig.
+ La distanza di sicurezza di $\qty{6,86}{\meter}$ rientra anche qui nel campo lontano (campo vicino radiante) ed è quindi valida.
 
 [question:AK110]
 
-Die Vorgehensweise ist analog der, der vorhergehenden Frage.
+La procedura è analoga a quella della domanda precedente.
 
 $\begin{split} P_\text{EIRP} &= P_S \cdot {10^\dfrac{g_d  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{100}{\watt}\cdot {10^\dfrac{\qty{10,5}{\dBd} −  \qty{1,5}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{100}{\watt}\cdot {10^\dfrac{\qty{11,15}{\dBd}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{100}{\watt}\cdot {10^{1,115}}\\ P_\text{EIRP} &\approx \qty{1303,17}{\watt}\end{split}$
 
 $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{1303,17}{\watt}}} {\qty{28}{\volt\per\meter}}\\ d &\approx \qty{7,1}{\meter}\end{split}$
 
-Der Sicherheitsabstand von $\qty{7,1}{\meter}$ liegt auch hier im Fernfeld (strahlenden Nahfeld).
+La distanza di sicurezza di $\qty{7,1}{\meter}$ rientra anche qui nel campo lontano (campo vicino radiante).
 
 [question:AK111]
 
-Das $\qty{13}{\centi\meter}$-Band reicht von $\qtyrange{2320}{2450}{\mega\hertz}$. Für den Frequenzbereich $\qtyrange{2000}{300000}{\mega\hertz}$ ist der Grenzwert für die elektrische Feldstärke $\qty{61}{\volt\per\meter}$.
+La banda dei $\qty{13}{\centi\meter}$ va da $\qtyrange{2320}{2450}{\mega\hertz}$. Per la banda di frequenza $\qtyrange{2000}{300000}{\mega\hertz}$, il valore limite per l'intensità del campo elettrico è $\qty{61}{\volt\per\meter}$.
 
 $\begin{split} P_\text{EIRP} &= P_S \cdot {10^\dfrac{g_d  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{40}{\watt}\cdot {10^\dfrac{\qty{18}{\dBd} −  \qty{2}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{40}{\watt}\cdot {10^\dfrac{\qty{18,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{40}{\watt}\cdot {10^{1,815}}\\ P_\text{EIRP} &\approx \qty{2612,52}{\watt}\end{split}$
 
 $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{2612,52}{\watt}}} {\qty{61}{\volt\per\meter}}\\ d &\approx \qty{4,6}{\meter}\end{split}$
 
-Ist der Abstand im Fernfeld (strahlenden Nahfeld)?
+La distanza rientra nel campo lontano (campo vicino radiante)?
 
 $\begin{split} d &= \dfrac{\lambda}{2 \cdot \pi}\\ d &= \dfrac{\qty{0,13}{\meter}}{2 \cdot \pi}\\ d &\approx \qty{0,02}{\meter}\end{split}$
 
-Der Sicherheitsabstand von $\qty{4,6}{\meter}$ liegt deutlich im Fernfeld (strahlenden Nahfeld).
+La distanza di sicurezza di $\qty{4,6}{\meter}$ rientra ampiamente nel campo lontano (campo vicino radiante).
 
 [question:AK112]
 
 <indepth>
-Warum wird in den Fragen in diesem Abschnitt auf Modulationsverfahren RTTY und FM hingewiesen?
-Bei der Anzeige einer ortsfesten Amateurfunkanlage (nach § 9, BEMFV) ist bei der Konfiguration der Umrechnungsfaktor $\textrm{Faktor}_\textrm{FmodPers}$ einzutragen.
-Mit dem Faktor wird die angegebene Spitzenleistung (PEP) in die mittlere Leistung P umgerechnet. Die so korrigierte Leistung kann in die Fernfeldformel zur Berechnung des Sicherheitsabstandes Personenschutz eingesetzt werden. 
+Perché nelle domande di questa sezione si fa riferimento ai metodi di modulazione RTTY e FM?
+Nella visualizzazione di un impianto radioamatoriale fisso (ai sensi del § 9, BEMFV) è necessario inserire il fattore di conversione $\textrm{Faktor}_\textrm{FmodPers}$ nella configurazione.
+Con il fattore, la potenza di picco indicata (PEP) viene convertita nella potenza media P. La potenza così corretta può essere utilizzata nella formula del campo lontano per calcolare la distanza di sicurezza per la protezione delle persone. 
 
-RTTY und FM haben den Faktor $\num{1}$, so wie die meisten Modulationsverfahren.
+RTTY e FM hanno il fattore $\num{1}$, come la maggior parte dei metodi di modulazione.
 </indepth>

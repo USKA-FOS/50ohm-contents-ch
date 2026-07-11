@@ -1,47 +1,47 @@
 <left>
-[photo:75:n_mobilfunkgeraet:Einbau des Bedienteils eines VHF/UHF-Funkgerätes in die Mittelkonsole eines PKW]
+[photo:75:n_mobilfunkgeraet:Installazione dell'unità di controllo di un apparrecchio radio VHF/UHF nella console centrale di un'autovettura]
 </left>
 <right>
-* Wähend der Fahrt mit anderen Funkamateuren unterhalten
-* Tipps oder Verkehrsinformationen mitbekommen
-* Benutzung nur mit Freisprecheinrichtung
+* Conversare durante la guida con altri radioamatori
+* Ricevere suggerimenti o informazioni sul traffico
+* Utilizzo solo con vivavoce
 </right>
 <note>
-Die Verkehrsinformationen kommen natürlich von anderen Funkamateuren, die ggf. ebenso mit dem Auto unterwegs sind und im gleichen Stau stecken
+Le informazioni sul traffico provengono naturalmente da altri radioamatori che potrebbero essere anch'essi in viaggio in auto e bloccati nello stesso ingorgo.
 </note>
 ---
-## Einbau
+## Installazione
 <left>
-[photo:64:n_magnetfussantenne:Magnetfußantenne auf Fahrzeugdach]
-* Groundplane-Antenne mit Fahrzeugdach als Gegenelement
+[photo:64:n_magnetfussantenne:Antenna a base magnetica sul tetto del veicolo]
+* Antenna Groundplane con il tetto del veicolo come elemento di controreazione
 </left>
 <right>
-* Möglichst mittig auf dem metallischen Fahrzeugdach
-* Vorgaben des Fahrzeugherstellers beachten
-* Leitungen so kurz wie möglich und entfernt von anderen Fahrzeugleitungen
+* Il più possibile al centro del tetto metallico del veicolo
+* Rispettare le specifiche del produttore del veicolo
+* Cavi il più corti possibile e lontani dagli altri cavi del veicolo
 </right>
 <note>
-* Manche Fahrzeughersteller haben Dokumente, in denen steht, wo eine Antenne verbaut werden sollte (insbesondere Fahrzeuge, die für den Polizei- und Rettungsdienst genutzt werden)
-* Magnetfuß hält ggf. bei hohen Geschwindigkeiten nicht
-* Bordelektronik könnte gestört werden
+* Alcuni produttori di veicoli dispongono di documenti che indicano dove dovrebbe essere installata un'antenna (in particolare veicoli utilizzati per servizi di polizia e soccorso).
+* La base magnetica potrebbe non tenere a velocità elevate.
+* L'elettronica di bordo potrebbe essere disturbata.
 </note>
 
 
 --- 
-## Achtung
+## Attenzione
 
 <left>
-[photo:76:n_Kabelsicherung:Stromkabel mit Sicherungshalter]
+[photo:76:n_Kabelsicherung:Cavo di alimentazione con portafusibile]
 </left>
 <right>
-* Bordnetzspannung von $\qty{12}{\volt}$ oder $\qty{24}{\volt}$ scheint ungefährlich
-* Hohe Ströme sind möglich
-* Bei Kurzschluss sind Lichtbogen, Kabelbrand oder Fahrzeugbrand möglich
-* Sicherung des richtigen Werts für das Funkgerät verbauen
+* La tensione di bordo di $\qty{12}{\volt}$ o $\qty{24}{\volt}$ sembra innocua
+* Sono possibili correnti elevate
+* In caso di cortocircuito, sono possibili archi elettrici, incendi di cavi o incendi del veicolo
+* Installare un fusibile del valore corretto per l'apparecchio radio
 </right>
 <note>
-* In einem späteren Kapitel mehr dazu
-* Sicherung am besten in Plus- und Minus-Leitung
+* Maggiori dettagli in un capitolo successivo.
+* Meglio installare il fusibile sia sulla linea positiva che su quella negativa.
 </note>
 
 ---

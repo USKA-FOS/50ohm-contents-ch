@@ -1,12 +1,12 @@
-Für Spulen mit bekanntem $A_L$-Wert gilt:
+Per le bobine con valore $A_L$ noto vale:
 
 $L = N^2 \cdot A_L $
 
-mit:
+con:
 - $A_L = \qty{1250}{\nano\henry}$
 - $N = 300$
 
-Einsetzen ergibt:
+Sostituendo si ottiene:
 
 $L = 300^2 \cdot \qty{1250}{\nano\henry} $
 

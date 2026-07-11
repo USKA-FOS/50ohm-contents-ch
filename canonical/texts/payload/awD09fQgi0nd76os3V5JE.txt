@@ -1,17 +1,17 @@
-%TODO: Nach LaTeX umformatieren
-Im Kapitel zu den Widerstandsfarbcodes haben wir den Begriff der Toleranz bereits kurz kennengelernt. Die Toleranz eines Widerstands beschreibt, wie stark sein tatsächlicher Wert vom nominalen, also aufgedruckten, Wert abweichen darf. Sie wird üblicherweise in Prozent angegeben und legt den Bereich fest, innerhalb dessen der reale Widerstandswert liegen kann.
+%TODO: Riformattare in LaTeX
+Nel capitolo sui codici colore delle resistenze abbiamo già incontrato brevemente il concetto di tolleranza. La tolleranza di una resistenza descrive quanto il suo valore effettivo possa discostarsi dal valore nominale, cioè stampato. Viene solitamente indicata in percentuale e definisce l'intervallo entro cui può trovarsi il valore reale della resistenza.
 
-Beispielsweise bedeutet eine Toleranz von $\qty{\pm 5}{\percent}$, dass der tatsächliche Widerstandswert zwischen $\qty{95}{\percent}$ und $\qty{105}{\percent}$ des angegebenen Wertes liegen kann.
+Ad esempio, una tolleranza di $\qty{\pm 5}{\percent}$ significa che il valore effettivo della resistenza può variare tra il $\qty{95}{\percent}$ e il $\qty{105}{\percent}$ del valore indicato.
 
-Angenommen, Du hast einen Widerstand mit einem nominalen Wert von $\qty{1000}{\ohm}$ ($\qty{1}{\kilo\ohm}$) und einer Toleranz von $\qty{\pm 5}{\percent}$. Da $\qty{5}{\percent}$ von $\qty{1000}{\ohm}$ Ohm genau $\qty{50}{\ohm}$ sind, kann der tatsächliche Widerstandswert also um $\qty{\pm 50}{\ohm}$ abweichen. Der tatsächliche Widerstandswert dieses $\qty{1}{\kilo\ohm}$-Widerstands mit $\qty{5}{\percent}$-Toleranz könnte also zwischen $\qty{950}{\ohm}$ und $\qty{1050}{\ohm}$ liegen.
+Supponiamo che tu abbia una resistenza con un valore nominale di $\qty{1000}{\ohm}$ ($\qty{1}{\kilo\ohm}$) e una tolleranza del $\qty{\pm 5}{\percent}$. Poiché il $\qty{5}{\percent}$ di $\qty{1000}{\ohm}$ Ohm sono esattamente $\qty{50}{\ohm}$, il valore effettivo della resistenza può discostarsi di $\qty{\pm 50}{\ohm}$. Il valore effettivo di questa resistenza da $\qty{1}{\kilo\ohm}$ con tolleranza del $\qty{5}{\percent}$ potrebbe quindi trovarsi tra $\qty{950}{\ohm}$ e $\qty{1050}{\ohm}$.
 
-Die gebräuchlichsten Toleranzen bei Widerständen sind $\qty{\pm 1}{\percent}$, $\qty{\pm 2}{\percent}$, $\qty{\pm 5}{\percent}$ und $\qty{\pm 10}{\percent}$. Widerstände mit geringerer Toleranz (z.B. $\qty{\pm 1}{\percent}$) sind genauer, werden aber oft auch teurer. Toleranzen sind besonders wichtig, wenn Schaltungen hohe Präzision erfordern, wie bei Messgeräten oder empfindlichen Sensoren. In solchen Fällen werden häufig Widerstände mit kleiner Toleranz ($\qty{\pm 1}{\percent}$ oder weniger) verwendet.
+Le tolleranze più comuni per le resistenze sono $\qty{\pm 1}{\percent}$, $\qty{\pm 2}{\percent}$, $\qty{\pm 5}{\percent}$ e $\qty{\pm 10}{\percent}$. Le resistenze con tolleranza inferiore (ad es. $\qty{\pm 1}{\percent}$) sono più precise, ma spesso anche più costose. Le tolleranze sono particolarmente importanti quando i circuiti richiedono alta precisione, come negli strumenti di misura o nei sensori sensibili. In questi casi, vengono spesso utilizzate resistenze con bassa tolleranza ($\qty{\pm 1}{\percent}$ o meno).
 
 %EC112
-%alles bereits bei widerstandsfarbcode beantwortet
+%tutto già risposto nel codice colore delle resistenze
 [question:EC112]
 
-Für die folgende Frage erinnern wir uns – oder schlagen es in der Formelsammlung nach, dass die Farbe Silber einer Toleranz von $\qty{\pm 10}{\percent}$ entspricht.
+Per la seguente domanda, ricordiamo – o cerchiamo nella raccolta di formule – che il colore argento corrisponde a una tolleranza del $\qty{\pm 10}{\percent}$.
 
 %EC113
 [question:EC113]

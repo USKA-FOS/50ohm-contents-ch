@@ -1,74 +1,74 @@
-Mit den Grundlagen zur Ionosphäre, Sonnenfleckenaktivität und der sogenannten „Toten Zone“ haben wir uns bereits in den Prüfungsfragen zur Klasse N beschäftigt. In der Klasse E werden diese Themen nun weiter vertieft und um zusätzliche Aspekte der Wellenausbreitung ergänzt.
+Abbiamo già trattato le basi dell'ionosfera, l'attività delle macchie solari e la cosiddetta "zona morta" nelle domande d'esame per la classe N. Nella classe E, questi argomenti vengono ora approfonditi e integrati con ulteriori aspetti della propagazione delle onde.
 
-Die von der Sonne kommende Strahlung schlägt Elektronen aus den Sauerstoff- und Stickstoff-Atomen und -Molekülen der Hochatmosphäre (*Ionisation*). Diese freien Elektronen werden von Funkwellen geeigneter Frequenz zum Schwingen angeregt; das führt letztlich dazu, dass diese Wellen in Richtung Erdoberfläche gebrochen werden. Wie in Abbildung [ref:e_wellenausbreitung_refraktion] zu erkennen ist, erweckt die durch Refraktion – also Brechung – verursachte Richtungsänderung der Funkwellen den Eindruck, sie würden reflektiert.
+La radiazione proveniente dal sole espelle elettroni dagli atomi e dalle molecole di ossigeno e azoto dell'alta atmosfera (*ionizzazione*). Questi elettroni liberi vengono eccitati a oscillare dalle onde radio di frequenza adeguata; ciò porta infine a deviare queste onde in direzione della superficie terrestre. Come si può vedere nella figura [ref:e_wellenausbreitung_refraktion], il cambiamento di direzione delle onde radio causato dalla rifrazione – cioè dalla deviazione – dà l'impressione che vengano riflesse.
 
 [question:EH101]
 
-Dieser Prozess verleiht insbesondere der Kurzwelle ihre einzigartigen Fähigkeiten. Dabei bestimmt die Dichte dieser freien Elektronen, welche Frequenzen noch gebrochen werden können: Je höher die Dichte, desto höher die Frequenz. Daher brauchen wir für die oberen Kurzwellenbänder hohe Ionisation und damit ein hohes Maß an der dafür notwendigen Sonnenstrahlung. Deshalb ist insbesondere während des Sonnenfleckenmaximums das $\qty{10}{\meter}$-Band ($\qtyrange{28,0}{29,7}{\mega\hertz}$) tagsüber besonders gut nutzbar – und das selbst bei geringer Sendeleistung.
+Questo processo conferisce in particolare alle onde corte le sue capacità uniche. La densità di questi elettroni liberi determina quali frequenze possono ancora essere deviate: maggiore è la densità, maggiore è la frequenza. Pertanto, per le bande superiori delle onde corte abbiamo bisogno di un'alta ionizzazione e quindi di un elevato grado di radiazione solare necessaria a tale scopo. Ecco perché, specialmente durante il massimo delle macchie solari, la banda dei $\qty{10}{\meter}$ ($\qtyrange{28,0}{29,7}{\mega\hertz}$) è particolarmente utilizzabile durante il giorno, anche con bassa potenza di trasmissione.
 
 <margin>
-[picture:865:e_wellenausbreitung_refraktion:Refraktion an Schichten der Ionosphäre]
+[picture:865:e_wellenausbreitung_refraktion:Rifrazione negli strati dell'ionosfera]
 </margin>
 
 [question:EH219]
 
-Andererseits wollen diese freien Elektronen sich sofort wieder mit den Atomrümpfen zu neutralen Atomen verbinden (*Rekombination*) und verlieren dadurch die brechende Wirkung. Nachdem im Sonnenlicht ständig ionisiert und dann wieder rekombiniert wird, stellt sich in bestimmten Höhen ein Gleichgewicht zwischen diesen beiden Vorgängen ein. Diese Gebiete werden als *Regionen* bezeichnet (manchmal auch als "Schichten"). 
+D'altra parte, questi elettroni liberi vogliono ricombinarsi immediatamente con i nuclei atomici per formare atomi neutri (*ricombinazione*) e perdere così la loro capacità di deviazione. Poiché la luce solare ionizza continuamente e poi ricombina, si stabilisce un equilibrio tra questi due processi a determinate altezze. Queste aree sono chiamate *regioni* (a volte anche "strati"). 
 
 ---
 
-Für den Kurzwellenbereich sind insbesondere drei Regionen der Ionosphäre von Bedeutung: die D-, E- und F-Region, wie in den Abbildungen [ref:e_wellenausbreitung_refraktion] und [ref:e_schichten_jahreszeiten] dargestellt. Für die Prüfungsfragen der Klasse E ist lediglich ein grundlegendes, qualitatives Verständnis dieser Regionen erforderlich. Dabei sollte man wissen, dass sich die für die Kurzwellen-Fernausbreitung (DX) besonders wichtigen F-Regionen der Ionosphäre in einer Höhe von etwa 130 bis 450 Kilometern befinden. Erst in der Klasse A müssen auch die genauen Höhenlagen der einzelnen Regionen für Tag und Nacht benannt werden können.
+Per la gamma delle onde corte, tre regioni dell'ionosfera sono particolarmente importanti: la regione D, E ed F, come mostrato nelle figure [ref:e_wellenausbreitung_refraktion] e [ref:e_schichten_jahreszeiten]. Per le domande d'esame della classe E è necessaria solo una comprensione qualitativa di base di queste regioni. Si dovrebbe sapere che le regioni F dell'ionosfera, particolarmente importanti per la propagazione a lunga distanza delle onde corte (DX), si trovano a un'altitudine di circa 130-450 chilometri. Solo nella classe A sarà necessario conoscere le altitudini esatte delle singole regioni per il giorno e la notte.
 
 [question:EH102]
 
 <margin>
-[picture:874:e_schichten_jahreszeiten:Regionen in Abhängigkeit von der Jahres- und Tageszeit]
+[picture:874:e_schichten_jahreszeiten:Regioni in funzione della stagione e dell'ora del giorno]
 </margin>
 
-**D-Region**
+**Regione D**
 
-Die niedrigste der Drei ist die *D-Region* in etwa $\num{50}$ bis $\qty{90}{\kilo\meter}$ Höhe. Hier ist allerdings die Gasdichte noch so hoch, dass die zum Schwingen angeregten Elektronen schnell mit anderen Teilchen kollidieren. Dadurch verliert die Funkwelle Energie. Die D-Region *dämpft* also diese Wellen, bis hin zur völligen Auslöschung. Dieser Effekt wird mit steigender Frequenz geringer und ist oberhalb etwa $\qty{10}{\mega\hertz}$ nicht mehr bedeutend.
+La più bassa delle tre è la *regione D*, a circa 50-90 chilometri di altitudine. Qui, tuttavia, la densità del gas è ancora così alta che gli elettroni eccitati a oscillare collidono rapidamente con altre particelle. Ciò fa perdere energia all'onda radio. La regione D quindi *attenua* queste onde, fino alla completa estinzione. Questo effetto diminuisce all'aumentare della frequenza e non è più significativo al di sopra di circa 10 MHz.
 
-Wenn nach Sonnenuntergang keine Strahlung von der Sonne mehr kommt, rekombinieren die Elektronen unmittelbar und die D-Region löst sich praktisch auf. Deswegen sind die unteren Kurzwellenbänder, z.B. $\qty{80}{\meter}$ oder $\qty{160}{\meter}$, (genauso wir die Lang- und Mittelwelle) tagsüber weitgehend leer, denn dann können sich die Funkwellen nur über die Bodenwelle ausbreiten, weil die Raumwelle von der D-Region quasi verschluckt wird.
+Dopo il tramonto, quando non arriva più radiazione dal sole, gli elettroni si ricombinano immediatamente e la regione D si dissolve praticamente. Ecco perché le bande inferiori delle onde corte, ad esempio 80 metri o 160 metri (così come le onde lunghe e medie), sono in gran parte vuote durante il giorno, poiché le onde radio possono propagarsi solo tramite onda di terra, dato che l'onda spaziale viene praticamente assorbita dalla regione D.
 
 [question:EH210]
 [question:EH105]
 
 ---
 
-**E-Region**
+**Regione E**
 
-In $\num{90}$ bis $\qty{130}{\kilo\meter}$ Höhe schließt sich die *E-Region* an, welche wir schon in den Prüfungsfragen zur Klasse N kennen gelernt haben. Sie bricht unter normalen Umständen schräg einfallende Funkwellen bis etwa $\qty{10}{\mega\hertz}$, mit einem Sprung können dabei etwas mehr als $\qty{2000}{\kilo\meter}$ überbrückt werde. Auch die E-Region löst sich nach Sonnenuntergang binnen weniger Minuten auf.
+A 90-130 chilometri di altitudine si trova la *regione E*, che abbiamo già conosciuto nelle domande d'esame per la classe N. In condizioni normali, devia le onde radio incidenti obliquamente fino a circa 10 MHz, con un salto è possibile coprire poco più di 2000 chilometri. Anche la regione E si dissolve entro pochi minuti dopo il tramonto.
 
-In dieser Region findet sich in den gemäßigten Breiten vor allem in den Sommermonaten ein besonderes Phänomen, die *sporadische E-Schicht* (kurz *Es*). Sie besteht aus meist kleinräumigen, sehr stark ionosierten Bereichen und ist in der Lage, Funkwellen viel höherer Frequenz zu brechen, bis hinauf in das $\qty{2}{\meter}$-Band.
+In questa regione, nelle latitudini temperate, soprattutto nei mesi estivi, si verifica un fenomeno particolare: lo *strato E sporadico* (abbreviato *Es*). È costituito da aree per lo più di piccole dimensioni e fortemente ionizzate ed è in grado di deviare onde radio di frequenza molto più alta, fino alla banda dei 2 metri.
 
 <margin>
-[picture:733:e_sporadic_e:Refraktion (Brechung) von Funkwellen an stark ionisierten Bereichen der E-Schicht]
+[picture:733:e_sporadic_e:Rifrazione (deviazione) delle onde radio in aree fortemente ionizzate dello strato E]
 </margin>
 
 [question:EH106]
 
 ---
 
-**F-Region**
+**Regione F**
 
-Darüber findet sich schließlich die *F-Region*, die sich tagsüber zudem in die F1- und die darüberliegende F2 Region aufspaltet. Letztere kann sich bis in eine Höhe von $\qty{450}{\kilo\meter}$ ausdehnen und ist für die Kurzwellenausbreitung am bedeutsamsten. Denn zum einen erlaubt es ihre größere Höhe, mit einem Sprung Distanzen von bis zu $\qty{4000}{\kilo\meter}$ zu überbrücken. Zum anderen sorgt die geringe Gasdichte in diesen Höhen dafür, dass es sehr lange dauert, bis freie Elektronen wieder ein Ion finden, mit dem sie zu einem neutralen Atom bzw. Molekül rekombinieren können. Deswegen gibt es dort immer genügend freie Elektronen, um Kurzwellen zu brechen. Ihre Anzahl und damit Dichte nimmt aber bei zurückgehender Sonneneintrahlung ab und damit auch die gerade noch zurückgebrochene Frequenz. Daher schließen die oberen Bänder als erstes.
+Al di sopra si trova infine la *regione F*, che durante il giorno si divide ulteriormente nelle regioni F1 e F2 soprastante. Quest'ultima può estendersi fino a un'altitudine di 450 chilometri ed è la più importante per la propagazione delle onde corte. Da un lato, la sua maggiore altitudine consente di coprire distanze fino a 4000 chilometri con un salto. Dall'altro lato, la bassa densità di gas a queste altitudini fa sì che ci voglia molto tempo prima che gli elettroni liberi trovino uno ione con cui ricombinarsi per formare un atomo o una molecola neutra. Pertanto, ci sono sempre abbastanza elettroni liberi per deviare le onde corte. Tuttavia, il loro numero e quindi la loro densità diminuiscono con la diminuzione dell'irraggiamento solare, e con essi la frequenza che viene ancora deviata. Pertanto, le bande superiori sono le prime a chiudere.
 
 [question:EH103]
 
-Nachdem die E-Region nachts nicht mehr vorhanden ist, verläuft dann der gesamte Langstrecken-Funkverkehr über die F-Region.
+Poiché la regione E non è più presente di notte, tutto il traffico radio a lunga distanza avviene attraverso la regione F.
 
 [question:EH104]
 
 ---
 
-Zur Ionisation wird Strahlung im extremen Ultraviolett- sowie im Röntgenbereich benötigt. Die Intensität dieser Strahlung, die von der Sonne erzeugt wird, unterliegt mehreren Zyklen. Der bedeutendste davon — wie wir bereits in den Prüfungsfragen zur Klasse N gelernt haben — ist der etwa elfjährige Sonnenzyklus (vgl. Abbildung [ref:e_ionosphaere_sonnenflecken]). 
+Per la ionizzazione sono necessarie radiazioni nell'ultravioletto estremo e nei raggi X. L'intensità di questa radiazione, prodotta dal sole, è soggetta a diversi cicli. Il più importante di questi – come abbiamo già imparato nelle domande d'esame per la classe N – è il ciclo solare di circa undici anni (cfr. figura [ref:e_ionosphaere_sonnenflecken]). 
 
 <webmargin>
-[picture:729:e_ionosphaere_sonnenflecken:Die Anzahl der Sonnenflecken, die über den elfjährigen Sonnenzyklus schwankt]
+[picture:729:e_ionosphaere_sonnenflecken:Il numero di macchie solari, che fluttua nel ciclo solare di undici anni]
 </webmargin>
 
 [question:EH107]
 
-Während des Aktivitätsmaximums erreicht die Sonnenaktivität ein besonders hohes Niveau und führt zu einer ausgeprägten Ionisation der F-Region. Deshalb können dann alle oberen Kurzwellenbänder und teilweise sogar das $\qty{6}{\meter}$-Band für DX-Verbindungen genutzt werden, währenddessen im Aktivitätsminimum die Frequenzbänder oberhalb des $\qty{20}{\meter}$-Bandes (z.B. $\qty{10}{\meter}$) meist nicht nutzbar sind.
+Durante il massimo di attività, l'attività solare raggiunge un livello particolarmente elevato e porta a un'intensa ionizzazione della regione F. Pertanto, tutte le bande superiori delle onde corte e in parte anche la banda dei 6 metri possono essere utilizzate per collegamenti DX, mentre durante il minimo di attività le bande di frequenza al di sopra della banda dei 20 metri (ad esempio, 10 metri) non sono generalmente utilizzabili.
 
 [question:EH205]

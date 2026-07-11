@@ -1,17 +1,17 @@
-Wie wir bereits im Kapitel Netzgerät im Klasse N Kurs gelernt haben, sind Sicherungen zum Schutz der Elektronik im Falle eines Kurzschlusses oder Überlast notwendig. Wenn wir nun eine defekte Sicherung ersetzen wollen, ist dies nur nach Reparatur bzw. Überprüfung der abgesicherten Anlagenteile sinnvoll. Bei der Auswahl der Sicherung achten wir dabei auf die gleiche Auslösecharakteristik sowie die Stromstärke.
+Come abbiamo già imparato nel capitolo sull'alimentatore nel corso di classe N, i fusibili sono necessari per proteggere l'elettronica in caso di cortocircuito o sovraccarico. Se vogliamo sostituire un fusibile difettoso, ciò ha senso solo dopo la riparazione o la verifica delle parti dell'impianto protette. Nella scelta del fusibile, prestiamo attenzione alla stessa caratteristica di intervento e all'intensità di corrente.
 
 [question:EK204]
 
-Unsere Geräte werden meist mit Feinsicherungen, einer Untergruppe der Schmelzsicherungen, geschützt. Es gibt aber verschiedene Arten von Schmelzsicherungen, wie:
+I nostri apparecchi sono per lo più protetti con fusibili miniaturizzati, un sottogruppo dei fusibili a filo. Esistono tuttavia diversi tipi di fusibili a filo, come:
 
-* KFZ-Sicherung Flachstecksicherungen
-* TR5 als Sicherung zum auflöten auf die Platine
+* Fusibili per auto a lama
+* TR5 come fusibile da saldare sulla scheda
 * Diazed/Neozed
-* Hochspannungssicherungen
+* Fusibili per alta tensione
 
-Die Abbildung [ref:e_flachstecksicherungen] zeigt Flachstecksicherungen aus dem KFZ-Bereich, die auch im Amateurfunk Anwendung finden. Bei kommerziellen Funkgeräten werden diese Sicherungen mit einem Sicherungshalter (vgl. Abbildung [ref:e_sicherungshalter]) direkt ins Kabel integriert.
+L'immagine [ref:e_flachstecksicherungen] mostra fusibili a lama per auto, che trovano applicazione anche nel radioamatore. Negli apparecchi radio commerciali, questi fusibili vengono integrati direttamente nel cavo con un portafusibile (cfr. immagine [ref:e_sicherungshalter]).
 
 <margin>
-[photo:295:e_flachstecksicherungen:Kfz Flachstecksicherungen]
-[photo:294:e_sicherungshalter:Sicherungshalter]
+[photo:295:e_flachstecksicherungen:Fusibili a lama per auto]
+[photo:294:e_sicherungshalter:Portafusibile]
 </margin>

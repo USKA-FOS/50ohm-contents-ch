@@ -1,32 +1,32 @@
 <div class="container" style="max-width:860px;">
     <div class="mb-2">
-        <div class="small text-secondary fw-semibold mb-1">Modulierendes Signal (Nachricht)</div>
+        <div class="small text-secondary fw-semibold mb-1">Segnale modulante (messaggio)</div>
         <canvas id="fmpm-c0" height="140" class="w-100 d-block rounded"></canvas>
     </div>
     <div class="mb-2">
-        <div class="small text-secondary fw-semibold mb-1">Trägersignal (unmoduliert)</div>
+        <div class="small text-secondary fw-semibold mb-1">Segnale portante (non modulato)</div>
         <canvas id="fmpm-c1" height="70" class="w-100 d-block rounded"></canvas>
     </div>
     <div class="mb-2">
-        <div class="small text-secondary fw-semibold mb-1">FM – Frequenz des Trägers folgt dem Signal-Wert</div>
+        <div class="small text-secondary fw-semibold mb-1">FM – La frequenza della portante segue il valore del segnale</div>
         <canvas id="fmpm-c2" height="70" class="w-100 d-block rounded"></canvas>
     </div>
     <div class="mb-3">
-        <div class="small text-secondary fw-semibold mb-1">PM – Phase des Trägers folgt dem Signal-Wert direkt</div>
+        <div class="small text-secondary fw-semibold mb-1">PM – La fase della portante segue direttamente il valore del segnale</div>
         <canvas id="fmpm-c3" height="70" class="w-100 d-block rounded"></canvas>
     </div>
     <hr>
     <div class="d-flex flex-column gap-3">
         <div class="row align-items-center g-2">
             <div class="col-auto" style="min-width:170px;">
-                <label class="col-form-label col-form-label-sm">Signalform</label>
+                <label class="col-form-label col-form-label-sm">Forma del segnale</label>
             </div>
             <div class="col">
                 <select class="form-select form-select-sm" id="fmpm-shape">
-                    <option value="sine">Sinus</option>
-                    <option value="square">Rechteck</option>
-                    <option value="saw">Sägezahn</option>
-                    <option value="ramp">Linearer Anstieg</option>
+                    <option value="sine">Seno</option>
+                    <option value="square">Rettangolo</option>
+                    <option value="saw">Dente di sega</option>
+                    <option value="ramp">Salita lineare</option>
                 </select>
             </div>
         </div>

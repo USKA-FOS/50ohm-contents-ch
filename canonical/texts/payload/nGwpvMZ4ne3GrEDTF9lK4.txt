@@ -1,50 +1,50 @@
-## Erregerantennen im Parabolspiegel
+## Antenne di eccitazione nel riflettore parabolico
 <left>
-[picture:850:a_parabolspiegel_schnitt:Schnitt durch einen Parabolspiegel mit Antenne]
+[picture:850:a_parabolspiegel_schnitt:Sezione di un riflettore parabolico con antenna]
 </left>
 <right>
-* Im Punkt vor dem Parabolspiegel werden die Erregerantennen platziert
-* Helixantennen, die eine zirkulare Polarisation erzeugen, eignen sich besonders für den Mikrowellenbereich
+* Le antenne di eccitazione sono posizionate nel punto focale del riflettore parabolico
+* Le antenne a elica, che generano una polarizzazione circolare, sono particolarmente adatte per la gamma delle microonde
 </right>
 
 ---
-## Hornstrahler und Hohlleiter
+## Trombe e guide d'onda
 <left>
-Bild eines Hornstrahlers folgt
+Seguirà l'immagine di una tromba
 </left>
 <right>
-* Hornstrahler können mit einem Hohlleiter gespeist werden
-* In Hohlleitern, also Metallrohren, wird die Mikrowellenenergie durch Reflexion an den Außenwänden geführt
+* Le trombe possono essere alimentate da una guida d'onda
+* Nelle guide d'onda, ovvero tubi metallici, l'energia delle microonde viene condotta per riflessione sulle pareti esterne
 </right>
 
 ---
-## Hohlleiter im Detail
+## Guide d'onda in dettaglio
 
-* Hohlleiter leiten Mikrowellen, indem sie diese an ihren metallischen Außenwänden reflektieren
-* Dadurch gelangt die Welle in ein Horn, aus dem sie abgestrahlt oder in den Hohlleiter eingespeist wird
+* Le guide d'onda conducono le microonde riflettendole sulle loro pareti metalliche esterne
+* In questo modo l'onda raggiunge una tromba, da cui viene irradiata o immessa nella guida d'onda
 
 ---
 [question:AG225]
 ---
-## Gewinn eines Parabolspiegels
+## Guadagno di un riflettore parabolico
 
 $g_i = 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}$
 
-* Berechnung mit der Formel in der Formelsammlung
-* Abhängig vom Durchmesser
-* Üblicherweise sehr hoher Gewinn
+* Calcolo con la formula nella raccolta di formule
+* Dipende dal diametro
+* Solitamente guadagno molto elevato
 
 ---
 [question:AG226]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 <left>
-* gegeben: $d = \qty{30}{\centi\meter}$
-* gegeben: $\eta_{eff} = 1$
+* dato: $d = \qty{30}{\centi\meter}$
+* dato: $\eta_{eff} = 1$
 </left>
 <right>
-* gegeben: $f = \qty{5,7}{\giga\hertz}$
-* gesucht: $g_i$
+* dato: $f = \qty{5,7}{\giga\hertz}$
+* cercato: $g_i$
 </right>
 
 <fragment>
@@ -56,14 +56,14 @@ $\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\
 ---
 [question:AG227]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 <left>
-* gegeben: $d = \qty{80}{\centi\meter}$
-* gegeben: $\eta_{eff} = 1$
+* dato: $d = \qty{80}{\centi\meter}$
+* dato: $\eta_{eff} = 1$
 </left>
 <right>
-* gegeben: $f = \qty{5,7}{\giga\hertz}$
-* gesucht: $g_i$
+* dato: $f = \qty{5,7}{\giga\hertz}$
+* cercato: $g_i$
 </right>
 
 <fragment>
@@ -75,14 +75,14 @@ $\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\
 ---
 [question:AG228]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 <left>
-* gegeben: $d = \qty{80}{\centi\meter}$
-* gegeben: $\eta_{eff} = 1$
+* dato: $d = \qty{80}{\centi\meter}$
+* dato: $\eta_{eff} = 1$
 </left>
 <right>
-* gegeben: $f = \qty{10,4}{\giga\hertz}$
-* gesucht: $g_i$
+* dato: $f = \qty{10,4}{\giga\hertz}$
+* cercato: $g_i$
 </right>
 
 <fragment>
@@ -94,14 +94,14 @@ $\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\
 ---
 [question:AG229]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 <left>
-* gegeben: $d = \qty{120}{\centi\meter}$
-* gegeben: $\eta_{eff} = 1$
+* dato: $d = \qty{120}{\centi\meter}$
+* dato: $\eta_{eff} = 1$
 </left>
 <right>
-* gegeben: $f = \qty{10,4}{\giga\hertz}$
-* gesucht: $g_i$
+* dato: $f = \qty{10,4}{\giga\hertz}$
+* cercato: $g_i$
 </right>
 
 <fragment>

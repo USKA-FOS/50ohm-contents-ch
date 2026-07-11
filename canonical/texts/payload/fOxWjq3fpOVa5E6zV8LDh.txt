@@ -1,50 +1,50 @@
-% Frequenzabhängigkeit des Personenschutzabstands:
+% Dipendenza dalla frequenza della distanza di protezione personale:
 
-Das [Bundesamt für Strahlenschutz](https://50ohm.de/bfs) informiert auf seiner Seite über die biologische Wirkungen von hochfrequenten Felder auf menschliche Körper.
-  
-* Hochfrequente elektromagnetische Felder werden vom Körper aufgenommen.
-* Die Stärke der Energieabsorption hängt von der Stärke und der Frequenz der elektromagnetischen Felder ab.
-* Eindeutig nachgewiesen sind Kraftwirkungen und eine Wärmewirkung der hochfrequenten Felder.
-* Die Wärmewirkung ist ausschlaggebend für mögliche gesundheitliche Wirkungen beim Menschen.
+L'Ufficio federale per la protezione dalle radiazioni (Bundesamt für Strahlenschutz) fornisce informazioni sul suo sito web sugli effetti biologici dei campi ad alta frequenza sul corpo umano.
 
-Wichtig für die Beantwortung der Frage ist hier Punkt 2, die Energieabsorption des menschlichen Körpers ist frequenzabhängig.
+* I campi elettromagnetici ad alta frequenza vengono assorbiti dal corpo.
+* La forza dell'assorbimento energetico dipende dall'intensità e dalla frequenza dei campi elettromagnetici.
+* Sono dimostrati in modo inequivocabile gli effetti di forza e un effetto termico dei campi ad alta frequenza.
+* L'effetto termico è determinante per i possibili effetti sulla salute umana.
+
+Il punto 2 è importante per rispondere alla domanda, l'assorbimento energetico del corpo umano dipende dalla frequenza.
 
 [question:EK101]
 
-% Zeitabhängigkeit des Personenschutzabstand:
+% Dipendenza temporale della distanza di protezione personale:
 
-In der [Verordnung über elektromagnetische Felder (26. BImSchV)](https://50ohm.de/BImSchV) werden im Anhang 1 (Tabellen 1a und 1b) sowie im Anhang 3 die Grenzwerte beschrieben. Dabei wird zwischen drei Fällen unterschieden:
+Nell'Ordinanza sui campi elettromagnetici (26. BImSchV) sono descritti i valori limite negli allegati 1 (tabelle 1a e 1b) e 3. Si distinguono tre casi:
 
-* Momentaner Spitzenwert (in $\unit{\kilo\volt\per\meter}$ über $\unit{\hertz}$, vgl. Abbildung [ref:e_grenzwerte_max])
-* 6-Minuten-Intervalle (in $\unit{\volt\per\meter}$ über $\unit{\mega\hertz}$, vgl. Abbildung [ref:e_grenzwerte_avg])
-* Gepulste Felder (Wird aus den ersten beiden und frequenzabhängigen Faktoren berechnet, vgl. Abbildung [ref:e_grenzwerte_pulse])
+* Valore di picco istantaneo (in $\unit{\kilo\volt\per\meter}$ su $\unit{\hertz}$, cfr. figura [ref:e_grenzwerte_max])
+* Intervalli di 6 minuti (in $\unit{\volt\per\meter}$ su $\unit{\mega\hertz}$, cfr. figura [ref:e_grenzwerte_avg])
+* Campi pulsati (calcolati dai primi due e da fattori dipendenti dalla frequenza, cfr. figura [ref:e_grenzwerte_pulse])
 
 
 <margin>
-[picture:980:e_grenzwerte_max:Visualisierung der Grenzwerte der 26. BImSchV, Tabelle 1a, Momentaner Spitzenwert]
-[picture:979:e_grenzwerte_avg:Visualisierung der Grenzwerte der 26. BImSchV, Tabelle 1b, 6-Minuten-Intervalle]
-[picture:981:e_grenzwerte_pulse:Visualisierung der Grenzwerte der 26. BImSchV, Anhang 3, Gepulste Felder]
+[picture:980:e_grenzwerte_max:Visualizzazione dei valori limite della 26. BImSchV, tabella 1a, valore di picco istantaneo]
+[picture:979:e_grenzwerte_avg:Visualizzazione dei valori limite della 26. BImSchV, tabella 1b, intervalli di 6 minuti]
+[picture:981:e_grenzwerte_pulse:Visualizzazione dei valori limite della 26. BImSchV, allegato 3, campi pulsati]
 </margin>
 
 ---
 
-Da nicht ständig gesendet wird, verwenden wir in der Regel den quadratischen Mittelwert der Feldstärke ($\unit{\volt\per\meter}$), gemittelt über einen Zeitraum von 6 Minuten. Ein wichtiger Wert hierbei ist $\qty{28}{\volt\per\meter}$, der für den Bereich von $\qtyrange{10}{400}{\mega\hertz}$, also eine Vielzahl von Amateurfunkbändern gültig ist und in einigen folgenden Prüfungsfragen zum Personenschutz vorkommt.
+Dato che non si trasmette continuamente, utilizziamo generalmente il valore quadratico medio dell'intensità di campo ($\unit{\volt\per\meter}$), mediato su un periodo di 6 minuti. Un valore importante in questo caso è $\qty{28}{\volt\per\meter}$, valido per il campo da $\qtyrange{10}{400}{\mega\hertz}$, cioè per una moltitudine di bande radioamatoriali e che compare in alcune domande d'esame successive sulla protezione personale.
 
 <tip>
-Die Grenzwerte müssen für die Prüfung nicht auswendig gelernt werden und werden in der Prüfung immer in der Frage genannt.
+I valori limite non devono essere imparati a memoria per l'esame e verranno sempre indicati nella domanda d'esame.
 </tip>
 
 [question:EK102]
 [question:EK109]
 
-Eine Ausnahme sind hierbei aktive Körperhilfen (z. B. Herzschrittmacher, Insulinpumpen, Cochlea-Implantate), da hier in bestimmten Fällen die maximalen Momentanwerte angenommen werden müssen.
+Un'eccezione sono gli ausili corporei attivi (ad es. pacemaker, pompe per insulina, impianti cocleari), poiché in determinati casi devono essere considerati i valori istantanei massimi.
 
 [question:EK103]
 
 
 
 ---
-Ab hier NISV Fragen die man sinnvoll platzieren und beschreiben muss.
+Da qui domande NISV che devono essere posizionate e descritte in modo sensato.
 [question:VT001]
 [question:VT002]
 [question:VT004]

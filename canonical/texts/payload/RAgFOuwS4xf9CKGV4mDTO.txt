@@ -1,22 +1,22 @@
 <left>
-Wellenausbreitung in Luft und Vakuum:
+Propagazione delle onde nell'aria e nel vuoto:
 $\lambda = \dfrac{c}{f}$
 </left>
 <right>
-* Leitungen und Antennendrähte benötigen einen Korrekturfaktor
-* Den *Verkürzungsfaktor* $k_\mathrm{v}$
-* In etwa $\qty{95}{\percent}$ zur Vakuumausbreitung
-* $\lambda_\mathrm{Leitung} = k_\mathrm{v} \cdot \dfrac{c}{f}$
+* Le linee e i fili dell'antenna richiedono un fattore di correzione
+* Il *Fattore di riduzione* $k_\mathrm{v}$
+* Circa il $\qty{95}{\percent}$ alla propagazione nel vuoto
+* $\lambda_\mathrm{linea} = k_\mathrm{v} \cdot \dfrac{c}{f}$
 </right>
 <note>
-* Die Welle breitet sich im Kabel langsamer aus
-* Koaxialkabel werden später behandelt
+* L'onda si propaga più lentamente nel cavo
+* I cavi coassiali verranno trattati più tardi
 </note>
 ---
 [question:EG201]
 ---
-* Korrekturfaktor hängt von Drahtdurchmesser, Isolierung und Umgebungseinflüssen ab
-* Bei Drahtantennen sind diese für Resonanz um ca. $\qty{5}{\percent}$ zu kürzen
+* Il fattore di correzione dipende dal diametro del filo, dall'isolamento e dalle influenze ambientali
+* Per le antenne a filo, queste devono essere accorciate di circa il $\qty{5}{\percent}$ per la risonanza
 
 ---
 [question:EG202]

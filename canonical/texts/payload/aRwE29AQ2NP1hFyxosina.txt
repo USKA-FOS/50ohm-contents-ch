@@ -1,15 +1,15 @@
-[picture:589:n_dipol:Darstellung einer Dipol-Antenne]
+[picture:589:n_dipol:Rappresentazione di un'antenna dipolo]
 
 <left>
-* In der Praxis wird häufig der Halbwellendipol verwendet
-* Ist eine halbe Wellenlänge lang
+* In pratica, il dipolo a semionda viene utilizzato frequentemente
+* Ha una lunghezza pari a mezza onda
 </left>
 <right>
 <fragment>
-Beispiel:
-* Wellenlänge von $\qty{10}{\meter}$
-* halbe Wellenlänge $\qty{5}{\meter}$
-* Jedes Teilstück des Dipols $\qty{2,5}{\meter}$
+Esempio:
+* Lunghezza d'onda di $\qty{10}{\meter}$
+* Mezza onda $\qty{5}{\meter}$
+* Ogni pezzo del dipolo $\qty{2,5}{\meter}$
 </fragment>
 </right>
 
@@ -17,12 +17,12 @@ Beispiel:
 [question:NG103]
 
 ---
-## Anpassung
+## Adattamento
 
-Dipol-Antenne auf die gewünschte Frequenz bringen durch gleichmäßiges Kürzen oder Verlängern
+Portare l'antenna dipolo alla frequenza desiderata accorciando o allungando uniformemente
 
-* Zu hohe Resonanzfrequenz: Beide Seiten gleichmäßig verlängern
-* Zu niedrige Resonanzfrequenz: Beide Seiten gleichmäßig verkürzen
+* Frequenza di risonanza troppo alta: Allungare entrambi i lati in modo uniforme
+* Frequenza di risonanza troppo bassa: Accorciare entrambi i lati in modo uniforme
 
 ---
 [question:NG304]

@@ -1,49 +1,49 @@
-Eine Phasenregelschleife (PLL) dient dazu, einen variablen, potenziell instabilen Oszillator (VCO – Voltage Controlled Oscillator) mithilfe eines stabilen Referenzoszillators zu synchronisieren. Dabei wird der Phasenvergleich zwischen beiden Signalen genutzt, um eine stabile Ausgangsfrequenz zu erzeugen.
+Un Phase-Locked Loop (PLL) serve a sincronizzare un oscillatore variabile, potenzialmente instabile (VCO – Voltage Controlled Oscillator) utilizzando un oscillatore di riferimento stabile. In questo processo, viene utilizzato il confronto di fase tra i due segnali per generare una frequenza di uscita stabile.
 
-Grundaufbau und Elemente einer PLL
+Struttura di base ed elementi di un PLL
 
-Eine PLL besteht im Wesentlichen aus folgenden Komponenten:
-1. **Phasenvergleicher:** Vergleicht die Phasen der Signale vom VCO und vom Referenzoszillator.
-2. **Tiefpassfilter:** Wandelt die vom Phasenvergleicher erzeugten Impulse in eine Gleichspannung um.
-3. **Spannungsgesteuerter Oszillator (VCO):** Erzeugt das Ausgangssignal, dessen Frequenz durch die vom Tiefpassfilter ausgegebene Gleichspannung gesteuert wird.
+Un PLL è composto essenzialmente dai seguenti componenti:
+1. **Comparatore di fase:** Confronta le fasi dei segnali provenienti dal VCO e dall'oscillatore di riferimento.
+2. **Filtro passa-basso:** Converte gli impulsi generati dal comparatore di fase in una tensione continua.
+3. **Oscillatore controllato in tensione (VCO):** Genera il segnale di uscita, la cui frequenza è controllata dalla tensione continua erogata dal filtro passa-basso.
 
-Zusätzlich kann die PLL durch einen **Frequenzteiler** ergänzt werden, um die Frequenz des VCOs auf Vielfache der Referenzfrequenz zu synchronisieren.
+Inoltre, il PLL può essere integrato con un **divisore di frequenza** per sincronizzare la frequenza del VCO a multipli della frequenza di riferimento.
 
-Funktionsprinzip
+Principio di funzionamento
 
-1. **Phasenvergleich und Korrektur**:  
+1. **Confronto di fase e correzione**:  
 
-Der Phasenvergleicher misst die Phasendifferenz zwischen den Signalen des VCO und des Referenzoszillators. Bei einer Phasenabweichung gibt er Impulse aus, die dem Fehler entsprechen. Diese Impulse werden durch den Tiefpassfilter geglättet und in eine proportionale Gleichspannung umgewandelt.
+Il comparatore di fase misura la differenza di fase tra i segnali del VCO e dell'oscillatore di riferimento. In caso di deviazione di fase, emette impulsi che corrispondono all'errore. Questi impulsi vengono livellati dal filtro passa-basso e convertiti in una tensione continua proporzionale.
 
-2. **Regelung des VCOs**:  
+2. **Regolazione del VCO**:  
 
-Die erzeugte Gleichspannung dient als Steuersignal für den VCO, das dessen Frequenz nachreguliert, sodass sich die Phasendifferenz schrittweise auf null reduziert. Ist dieser Zustand erreicht, sagt man, die PLL ist „eingelockt“ (locked).
+La tensione continua generata funge da segnale di controllo per il VCO, che ne regola la frequenza, in modo che la differenza di fase si riduca gradualmente a zero. Quando si raggiunge questo stato, si dice che il PLL è "agganciato" (locked).
 
-3. **Eingelockter Zustand**:  
+3. **Stato agganciato**:  
 
-Im stabilen Zustand der PLL sind die Frequenzen und Phasenlagen der beiden Signale identisch. Die Ausgangsfrequenz ist stabil und entspricht im Wesentlichen der Referenzfrequenz oder deren Vielfachen (je nach gewähltem Teilverhältnis des Frequenzteilers).
+Nello stato stabile del PLL, le frequenze e le fasi dei due segnali sono identiche. La frequenza di uscita è stabile e corrisponde essenzialmente alla frequenza di riferimento o ai suoi multipli (a seconda del rapporto di divisione scelto per il divisore di frequenza).
 
 <margin>
-[picture:45:a_oszillator_pll_pll:Darstellung einer Phasenregelschleife (PLL)]  
+[picture:45:a_oszillator_pll_pll:Rappresentazione di un Phase-Locked Loop (PLL)]  
 </margin>
 
 [question:AD701]
 [question:AD702]
 
-Genauigkeit und Stabilität
+Precisione e stabilità
 
-Die Genauigkeit und Stabilität der PLL-Ausgangsfrequenz hängt in erster Linie von der Qualität des Referenzoszillators ab, welcher üblicherweise ein Quarzoszillator ist.
+La precisione e la stabilità della frequenza di uscita del PLL dipendono principalmente dalla qualità dell'oscillatore di riferimento, che è solitamente un oscillatore a quarzo.
 
 [question:AD705]
 
-Frequenzteilung und Abstimmbarkeit
+Divisione di frequenza e sintonizzazione
 
-Um eine PLL auf unterschiedliche Frequenzen einzustellen, kann ein Frequenzteiler innerhalb des Regelkreises eingesetzt werden. Dadurch wird es möglich, die Ausgangsfrequenz als ein ganzzahliges Vielfaches der Referenzfrequenz zu erzeugen. Das kleinste wählbare Frequenzintervall entspricht dabei der Frequenz des Referenzoszillators, da die Teilung nur in ganzzahligen Schritten erfolgen kann.
+Per impostare un PLL su frequenze diverse, è possibile utilizzare un divisore di frequenza all'interno del circuito di regolazione. Ciò consente di generare la frequenza di uscita come multiplo intero della frequenza di riferimento. L'intervallo di frequenza più piccolo selezionabile corrisponde alla frequenza dell'oscillatore di riferimento, poiché la divisione può avvenire solo in passaggi interi.
 
 [question:AD703]
 
-Berechnung des Teilverhältnisses
+Calcolo del rapporto di divisione
 
-Um bei gegebener Referenzfrequenz eine bestimmte Ausgangsfrequenz zu erreichen, wird der Teilfaktor so gewählt, dass an den Eingängen des Phasenvergleichers dieselbe Frequenz anliegt. Dadurch lässt sich das benötigte Teilverhältnis für die gewünschte Ausgangsfrequenz berechnen.
+Per ottenere una determinata frequenza di uscita con una data frequenza di riferimento, il fattore di divisione viene scelto in modo che la stessa frequenza sia presente agli ingressi del comparatore di fase. In questo modo è possibile calcolare il rapporto di divisione necessario per la frequenza di uscita desiderata.
 
 [question:AD704]

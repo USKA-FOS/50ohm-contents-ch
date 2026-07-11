@@ -1,8 +1,8 @@
-Wie wir gelernt haben wirkt ein Halbwellendipol oder eine gegenüber Erde erregte $\lambda / 4$-Antenne teilweise wie eine Kapazität, wenn sie zu kurz ist, oder wie eine Spule, wenn sie zu lang ist. Dadurch, dass die Speiseimpedanz nicht mehr näherungsweise $\qty{50}{\ohm}$ beträgt, kommt es zu einer Fehlanpassung und es entsteht eine Stehwelle auf der Speiseleitung. Das SWR wird schlechter. Um die induktive Wirkung einer zu langen Antenne zu kompensieren, kann man einen Kondensator in die Antenne einfügen und somit *elektrisch verkürzen*. Ebenso kann man eine zu kurze Antenne mittels einer Verlängerungsspule *elektrisch verlängern*.
+Come abbiamo appreso, un dipolo a semionda o un'antenna $\lambda / 4$ eccitata rispetto a terra agisce in parte come un condensatore, se è troppo corta, o come una bobina, se è troppo lunga. Poiché l'impedenza di alimentazione non è più approssimativamente $\qty{50}{\ohm}$, si verifica un disadattamento e si crea un'onda stazionaria sulla linea di alimentazione. Il ROS peggiora. Per compensare l'effetto induttivo di un'antenna troppo lunga, si può inserire un condensatore nell'antenna e quindi *accorciarla elettricamente*. Allo stesso modo, un'antenna troppo corta può essere *allungata elettricamente* mediante una bobina di allungamento.
 
 [question:AG106]
 [question:AG107]
 
-Für die folgende Frage müssen wir zunächst ermitteln, ob die Antenne mechanisch zu kurz oder zu lang ist. Ist die Antenne mechanisch zu kurz, benötigen wir eine Verlängerungsspule; ansonsten einen Verkürzungskondensator.
+Per la seguente domanda, dobbiamo prima determinare se l'antenna è meccanicamente troppo corta o troppo lunga. Se l'antenna è meccanicamente troppo corta, abbiamo bisogno di una bobina di allungamento; altrimenti, di un condensatore di accorciamento.
 
 [question:AG108]

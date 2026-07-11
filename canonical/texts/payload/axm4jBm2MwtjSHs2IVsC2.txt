@@ -1,26 +1,26 @@
 <left>
-* Zwei Spulen auf gemeinsamen Kern magnetisch gekoppelt
-* Energie wird darüber übertragen
-* Ändern von Spannungen und Strömen ist möglich
-* *Übertrager* oder *Transformator* kurz Trafo
+* Due bobine su un nucleo comune accoppiate magneticamente
+* L'energia viene trasferita attraverso di esse
+* È possibile modificare tensioni e correnti
+* *Trasformatore di accoppiamento* o *trasformatore* in breve trafo
 </left>
 <right>
-[picture:197:e_uebertrager:Schemazeichnung eines Übertragers]
+[picture:197:e_uebertrager:Schema di un trasformatore di accoppiamento]
 </right>
 
 ---
-## Übersetzungverhältnis
+## Rapporto di trasformazione
 
 <left>
-* Spannungen an den Anschlüssen des Übertragers verhalten sich wie zur Anzahl der Wicklungen
+* Le tensioni ai terminali del trasformatore di accoppiamento sono proporzionali al numero di spire
 
 $ü = \dfrac{N_P}{N_S} = \dfrac{U_P}{U_S}$
 </left>
 <right>
-* $N_P$: Wicklungen auf der Primärseite
-* $N_S$: Wicklungen auf der Sekundärseite
-* $U_P$: Spannung an der Primärseite
-* $U_S$: Spannung an der Sekundärseite
+* $N_P$: spire sul lato primario
+* $N_S$: spire sul lato secondario
+* $U_P$: tensione sul lato primario
+* $U_S$: tensione sul lato secondario
 </right>
 
 ---

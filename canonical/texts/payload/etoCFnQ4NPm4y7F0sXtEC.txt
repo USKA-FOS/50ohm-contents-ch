@@ -1,34 +1,34 @@
-%Bei der Berechnung der effektiven Strahlungsleistung (ERP) ist nur die Energie zu berücksichtigen, die auch tatsächlich der Antenne zugeführt wird, d. h. möglicherweise vorhandene Kabelverluste können abgezogen werden, bevor mit dem Gewinnfaktor multipliziert wird.
+%Nel calcolo della potenza irradiata effettiva (ERP) va considerata solo l'energia che viene effettivamente immessa nell'antenna, cioè eventuali perdite del cavo possono essere sottratte prima di moltiplicare per il fattore di guadagno.
 
-Die effektiven Strahlungsleistung (ERP) einer Antenne bezieht sich auf den Halbwellendipol. Bei der Strahlungsleistung ist nur die Energie relevant, die tatsächlich an der Antenne ankommt. Durch Kabeldämpfung etc. kann die Leistung des Senders in der realen Welt nicht vollständig der Antenne zugeführt werden. Diese verlorene Leistung darf nicht in die Berechnung der Strahlungsleistung eingehen. Der Antennengewinn in der Vorzugsrichtung ist natürlich Teil der Rechnung. ERP ist das Produkt aus zugeführter Leistung und dem Antennengewinn.
+La potenza irradiata effettiva (ERP) di un'antenna si riferisce al dipolo a semionda. Per la potenza irradiata è rilevante solo l'energia che raggiunge effettivamente l'antenna. A causa dell'attenuazione del cavo, ecc., la potenza del trasmettitore non può essere completamente immessa nell'antenna nel mondo reale. Questa potenza persa non deve essere inclusa nel calcolo della potenza irradiata. Il guadagno d'antenna nella direzione preferita è naturalmente parte del calcolo. L'ERP è il prodotto della potenza immessa e del guadagno d'antenna.
 
 [question:AG501]
 
-Bei der nächsten Frage ist unbedingt auf die Rechenzeichen zu achten. Die Verluste werden von der Sendeleistung subtrahiert und danach mit dem Gewinnfaktor ($G_{Antenne}$) multipliziert.
-Da die ERP berechnet werden soll, muss der Bezug auf einen Halbwellendipol erfolgen.
+Nella prossima domanda è assolutamente necessario prestare attenzione ai segni di calcolo. Le perdite vengono sottratte dalla potenza di trasmissione e poi moltiplicate per il fattore di guadagno ($G_{Antenna}$).
+Dato che deve essere calcolata l'ERP, il riferimento deve essere fatto a un dipolo a semionda.
 
 [question:AG502]
 
 ---
 
-Einen Hinweis auf die richtige Lösung gibt schon der Frequenzplan für den Amateurfunkdienst. Dort ist als maximale Leistung für das $\qty{630}{\meter}$-Band $\qty{1}{\watt}$ ERP vorgegeben.
+Un indizio per la soluzione corretta è già fornito dal piano di frequenza per il servizio di radioamatore. Lì è specificata una potenza massima di $\qty{1}{\watt}$ ERP per la banda dei $\qty{630}{\meter}$.
 
-Ein Halbwellendipol hätte eine Länge von $\qty{315}{\meter}$. Das ist für die meisten Funkamateure nicht realisierbar. Zwangsläufig kommen stark verkürzte Antenne zum Einsatz. Verkürzte Antenne haben leider einen schlechteren Wirkungsgrad als ein Halbwellendipol in voller Länge. Ein "Antennengewinn" von $\qty{-20}{\dBd}$ ist also nicht überraschend. Da das Koaxialkabel kurz ist kann dessen Dämpfung in diesem Frequenzbereich vernachlässigt werden.
+Un dipolo a semionda avrebbe una lunghezza di $\qty{315}{\meter}$. Questo non è realizzabile per la maggior parte dei radioamatori. Inevitabilmente vengono utilizzate antenne fortemente accorciate. Purtroppo, le antenne accorciate hanno un rendimento inferiore rispetto a un dipolo a semionda di piena lunghezza. Un "guadagno d'antenna" di $\qty{-20}{\dBd}$ non è quindi sorprendente. Poiché il cavo coassiale è corto, la sua attenuazione in questa gamma di frequenza può essere trascurata.
 
-Zu Lösung der Frage AG503 kann auf die Tabelle mit den Leistungsverhältnissen in der Formelsammlung zurückgreifen. Dort ist für $\qty{-20}{\dB}$ der Faktor $\num{0,01}$ angegeben.
+Per risolvere la domanda AG503, si può fare riferimento alla tabella dei rapporti di potenza nella raccolta di formule. Lì, per $\qty{-20}{\dB}$ è indicato il fattore $\num{0,01}$.
 
 $\qty{50}{\watt}\cdot 0,01 = \qty{0,5}{\watt}$
 
-Die richtige Lösung ist $\qty{0,5}{\watt}$.
+La soluzione corretta è $\qty{0,5}{\watt}$.
 
-%Ein Sender für das $\qty{630}{\meter}$-Band mit $\qty{50}{\watt}$ Ausgangsleistung ist mittels eines kurzen Koaxialkabels an eine Antenne mit $\qty{20}{\dBd}$ Verlust angeschlossen. Welche ERP wird von der Antenne abgestrahlt?
+%Un trasmettitore per la banda dei $\qty{630}{\meter}$ con una potenza d’uscita di $\qty{50}{\watt}$ è collegato tramite un breve cavo coassiale a un'antenna con una perdita di $\qty{20}{\dBd}$. Quale ERP viene irradiata dall'antenna?
 
 [question:AG503]
 
 <tip>
- Diese Tabelle ist in der Formelsammlung enthalten und steht während der Prüfung zur Verfügung.
+ Questa tabella è inclusa nella raccolta di formule ed è disponibile durante l'esame.
   
-| r:   | r: Leistungsverhältnis | r: Spannungsverhältnis |
+| r:   | r: Rapporto di potenza | r: Rapporto di tensione |
 | $\qty{-20}{\dB}$ | $\num{0,01}$ | $\num{0,1}$ |
 | $\qty{-10}{\dB}$ | $\num{0,1}$ | $\num{0,32}$ |
 | $\qty{-6}{\dB}$ | $\num{0,25}$ | $\num{0,5}$ |
@@ -40,6 +40,6 @@ Die richtige Lösung ist $\qty{0,5}{\watt}$.
 | $\qty{6}{\dB}$ | $\num{4}$ | $\num{2}$ |
 | $\qty{10}{\dB}$ | $\num{10}$  | $\num{3,16}$ |
 | $\qty{20}{\dB}$ | $\num{100}$ | $\num{10}$ |
-[table:Pegel_Verhältnis:Leistungs- und Spannungsverhältnisse für wichtige Dämpfungs- und Verstärkungswerte]
+[table:Pegel_Verhältnis:Rapporti di potenza e tensione per valori importanti di attenuazione e amplificazione]
 
 </tip>

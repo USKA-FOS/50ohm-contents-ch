@@ -1,22 +1,22 @@
-Die Erzeugung einer sinusförmigen Wechselspannung erfolgt beispielsweise durch eine rotierende Spule in einem Magnetfeld (Generatorprinzip, z. B. mittels eines Generators in einem Kraftwerk). Für eine vollständige Umdrehung benötigt der Generator eine definierte Zeitspanne, innerhalb derer eine vollständige Periode der sinusförmigen Spannung erzeugt wird. Aus diesem Grund lässt sich einer sinusförmigen Wechselspannung eine Zeitachse zuordnen. Diese Rotationsbewegung kann darüber hinaus durch einen rotierenden Zeiger (Zeigerdiagramm) veranschaulicht werden (vgl. Vertiefung).
+La generazione di una tensione alternata sinusoidale avviene ad esempio tramite una bobina rotante in un campo magnetico (principio del generatore, ad esempio tramite un generatore in una centrale elettrica). Per una rotazione completa, il generatore necessita di un intervallo di tempo definito, durante il quale viene generato un periodo completo della tensione sinusoidale. Per questo motivo, a una tensione alternata sinusoidale può essere assegnata una linea temporale. Questo movimento di rotazione può inoltre essere illustrato da un puntatore rotante (diagramma vettoriale) (cfr. approfondimento).
 
 <indepth>
-[picture:878:a_phasenwinkel_zeit:Phasenwinkel in Grad und Bogenmaß oder Periodendauerangabe]
+[picture:878:a_phasenwinkel_zeit:Angolo di fase in gradi e radianti o indicazione della durata del periodo]
 
-Eine Sinusschwingung kann stets als rotierender Zeiger im Einheitskreis aufgefasst werden. Diese Darstellung hilft dabei, bestimmte Sachverhalte anschaulicher zu verstehen. Die Abbildung [ref:a_phasenwinkel_zeit] zeigt die Punkte A, B, C und D dieser Rotation sowie deren zeitliche und winkelbezogene Zusammenhänge:
+Un'oscillazione sinusoidale può sempre essere considerata come un puntatore rotante nel cerchio unitario. Questa rappresentazione aiuta a comprendere meglio certi fatti. La figura [ref:a_phasenwinkel_zeit] mostra i punti A, B, C e D di questa rotazione e le loro relazioni temporali e angolari:
 
-1. Die horizontale Achse mit der Beschriftung "Zeit" ist die übliche Darstellung für eine Sinusschwingung, wobei hier der Bezug zur Periodendauer T hergestellt ist. 
-2. Eine Umdrehung kann aber auch als Winkel angegeben werden. Eine ganz Umdrehung ist nach 360 Grad beendet.
-Eine halbe Umdrehung entspricht dann 180 Grad und eine Viertelumdrehung ist nach 90 Grad vollendet. Mit diesen Werten kann nun die horizontale Achse der Sinusschwingung benannt werden.
-3. Einen Winkel kann man auch im sogenannten Bogenmaß angeben.
-Für den vollen Umfang ($\qty{360}{\degree}$) eines Kreises mit dem Radius 1 gilt das Bogenmaß: $U = 2 \cdot r \cdot \pi = 2 \cdot \pi $. $\qty{180}{\degree}$ entspricht somit $\pi$, $\qty{90}{\degree}$ entspricht $\frac{\pi}{2}$ und $\qty{45}{\degree}$ entspricht $\frac{\pi}{4}$. 
+1. L'asse orizzontale con l'etichetta "Tempo" è la rappresentazione usuale per un'oscillazione sinusoidale, dove qui viene stabilito il riferimento alla durata del periodo T.
+2. Una rotazione può anche essere indicata come angolo. Una rotazione completa termina dopo 360 gradi.
+Mezza rotazione corrisponde quindi a 180 gradi e un quarto di rotazione è completato dopo 90 gradi. Con questi valori, l'asse orizzontale dell'oscillazione sinusoidale può ora essere denominato.
+3. Un angolo può anche essere indicato nel cosiddetto radiante.
+Per la circonferenza completa ($\qty{360}{\degree}$) di un cerchio con raggio 1, il radiante vale: $U = 2 \cdot r \cdot \pi = 2 \cdot \pi $. $\qty{180}{\degree}$ corrisponde quindi a $\pi$, $\qty{90}{\degree}$ corrisponde a $\frac{\pi}{2}$ e $\qty{45}{\degree}$ corrisponde a $\frac{\pi}{4}$.
 </indepth>
 
-Die Benennung der horizontalen Achse kann im Winkel- und im Bogenmaß erfolgen.
-Siehe in der Abbildung [ref:a_phasenwinkel_zeit] die zweite und dritte horizontale Achse..
+La denominazione dell'asse orizzontale può avvenire in gradi e in radianti.
+Vedere nella figura [ref:a_phasenwinkel_zeit] il secondo e il terzo asse orizzontale..
 
 [question:AB302]
 
-Zwei verschiedene Signale können eine sogenannte Phasenverschiebung zueinander aufweisen. Diese entsteht beispielsweise in Schaltungen mit Kondensatoren, Spulen und Widerständen und wird im nächsten Abschnitt ausführlicher behandelt. Bei der nächsten Frage ist zu bestimmen, wie groß diese Phasenverschiebung zwischen zwei Signalen ist – das bedeutet, welcher Phasenwinkel zwischen den Skalierungsstrichen der horizontalen Zeitachse liegt.
+Due segnali diversi possono presentare una cosiddetta sfasatura reciproca. Questa si verifica ad esempio nei circuiti con condensatori, bobine e resistenze e verrà trattata più dettagliatamente nella prossima sezione. Nella prossima domanda, si dovrà determinare l'entità di questa sfasatura tra due segnali, ovvero quale angolo di fase si trova tra i segni di scala dell'asse temporale orizzontale.
 
 [question:AB303]

@@ -1,12 +1,12 @@
-* Die Wellenlänge $\lambda$ im Freiraum steht zur Frequenz $f$ in Relation mit der Lichtgeschwindigkeit $c_0$
-* Freiraum bedeutet: Vakuum, Luft
-* Lichtgeschwindigkeit $c_0 = \qty{299792458}{\meter\per\second}$
-* Im Amateurfunk rechnen wir mit $c = \qty{3e8}{\meter\per\second}$
+* La lunghezza d’onda $\lambda$ nello spazio libero è in relazione con la frequenza $f$ tramite la velocità della luce $c_0$
+* Spazio libero significa: vuoto, aria
+* Velocità della luce $c_0 = \qty{299792458}{\meter\per\second}$
+* In radioamatore si calcola con $c = \qty{3e8}{\meter\per\second}$
 
 $c = f\cdot \lambda \quad f = \dfrac{c}{\lambda} \quad \lambda = \dfrac{c}{f}$
 
 ---
-## Vereinfachung
+## Semplificazione
 
 $f = \dfrac{c}{\lambda} \quad \lambda = \dfrac{c}{f}$
 
@@ -18,12 +18,12 @@ $f[[\unit{\mega\hertz}]] \approx \dfrac{300}{\lambda[[\unit{\meter}]]} \quad \la
 $f[[\unit{\mega\hertz}]] = \frac{300}{80} = 3,75$
 ---
 <note>
-80m-Band
+Banda degli 80m
 </note>
 ---
 [question:EB315]
 ---
-Umrechnen in die Grundeinheit $\unit{\meter}$:
+Conversione nell'unità di base $\unit{\meter}$:
 $\qty{30}{\milli\meter} = \qty{3}{\centi\meter} = \qty{0,03}{\meter}$
 
 $f[[\unit{\mega\hertz}]] = \frac{300}{0,03} = \frac{300 \cdot 100}{3} = \num{10000}$
@@ -44,15 +44,15 @@ $\qty{3}{\giga\hertz}$, da $\qty{1}{\giga\hertz} = \qty{1000}{\mega\hertz}$
 ---
 [question:EB311]
 <note>
-$\qty{160}{\meter}$-Band, wenn man die Amateurfunkfrequenzen kennt
+Banda dei $\qty{160}{\meter}$, se si conoscono le frequenze radioamatoriali
 </note>
 ---
 [question:EB312]
 <note>
-$\qty{15}{\meter}$-Band, auch wenn $\qty{14}{\meter}$-Band korrekter wäre
+Banda dei $\qty{15}{\meter}$, anche se la banda dei $\qty{14}{\meter}$ sarebbe più corretta
 </note>
 ---
 [question:EB313]
 <note>
-$\qty{10}{\meter}$-Band
+Banda dei $\qty{10}{\meter}$
 </note>

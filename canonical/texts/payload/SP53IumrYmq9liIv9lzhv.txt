@@ -1,74 +1,74 @@
 ### 1. Antenne
 
 <left>
-[picture:736:aufbau_empfaenger_blockdiagramm:Blockdiagramm eines einfachen Empfängers]
+[picture:736:aufbau_empfaenger_blockdiagramm:Diagramma a blocchi di un semplice ricevitore]
 </left>
 <right>
-* Nimmt Vielzahl von Funkwellen auf
-* Leitet sie als elektrische Schwingungen weiter
+* Riceve una varietà di onde radio
+* Le trasmette come oscillazioni elettriche
 </right>
 
 --- data-transition="none"
 
-### 2. Bandpassfilter
+### 2. Filtro passa-banda
 
 <left>
-[picture:736:aufbau_empfaenger_blockdiagramm:Blockdiagramm eines einfachen Empfängers]
+[picture:736:aufbau_empfaenger_blockdiagramm:Diagramma a blocchi di un semplice ricevitore]
 </left>
 <right>
-* Lässt nur gewünschten Frequenzbereich durch
-* Sperrt alle anderen ungewünschten Frequenzen
+* Lascia passare solo la banda di frequenza desiderata
+* Blocca tutte le altre frequenze indesiderate
 </right>
 
 <note>
-Symbol zeigt zwei durchgestrichene Wellen ober- und unterhalb der durchlassenden Welle
+Il simbolo mostra due onde barrate sopra e sotto l'onda passante
 </note>
 
 --- data-transition="none"
 
-### 3. HF-Verstärker
+### 3. Amplificatore HF
 
 <left>
-[picture:736:aufbau_empfaenger_blockdiagramm:Blockdiagramm eines einfachen Empfängers]
+[picture:736:aufbau_empfaenger_blockdiagramm:Diagramma a blocchi di un semplice ricevitore]
 </left>
 <right>
-* Verstärkt das herausgefilterte Signal
+* Amplifica il segnale filtrato
 </right>
 
 --- data-transition="none"
 
-### 4. Demodulator
+### 4. Demodulatore
 
 <left>
-[picture:736:aufbau_empfaenger_blockdiagramm:Blockdiagramm eines einfachen Empfängers]
+[picture:736:aufbau_empfaenger_blockdiagramm:Diagramma a blocchi di un semplice ricevitore]
 </left>
 <right>
-* Zurückgewinnung des ursprünglichen Signals, z.B. Sprachsignal
-* Ergebnis ist das Niederfrequenz-Signal (NF)
+* Recupero del segnale originale, ad es. segnale vocale
+* Il risultato è il segnale a bassa frequenza (BF)
 </right>
 
 --- data-transition="none"
 
-### 5. NF-Verstärker
+### 5. Amplificatore BF
 
 <left>
-[picture:736:aufbau_empfaenger_blockdiagramm:Blockdiagramm eines einfachen Empfängers]
+[picture:736:aufbau_empfaenger_blockdiagramm:Diagramma a blocchi di un semplice ricevitore]
 </left>
 <right>
-* Verstärkt das demodulierte Signal
-* NF-Verstärker zum Verstärken des Signals für den Lautsprecher
+* Amplifica il segnale demodulato
+* Amplificatore BF per amplificare il segnale per l'altoparlante
 </right>
 
 --- data-transition="none"
 
-### 6. Lautsprecher
+### 6. Altoparlante
 
 <left>
-[picture:736:aufbau_empfaenger_blockdiagramm:Blockdiagramm eines einfachen Empfängers]
+[picture:736:aufbau_empfaenger_blockdiagramm:Diagramma a blocchi di un semplice ricevitore]
 </left>
 <right>
-* Wandelt elektrische Schwingung in Schallwelle um
-* Signal wird wieder hörbar gemacht
+* Converte l'oscillazione elettrica in un'onda sonora
+* Il segnale diventa di nuovo udibile
 </right>
 
 ---
@@ -76,12 +76,12 @@ Symbol zeigt zwei durchgestrichene Wellen ober- und unterhalb der durchlassenden
 [question:NF201]
 
 ---
-## Empfindlichkeit
+## Sensibilità
 
-* Je nach Aufbau haben Empfänger unterschiedliche Eigenschaften
-* Wichtige Eigenschaft: *Empfindlichkeit*
-* Fähigkeit, schwache Signale zu empfangen
-* Je empfindlicher, umso schwächere Signale können empfangen werden
+* A seconda della struttura, i ricevitori hanno proprietà diverse
+* Proprietà importante: *Sensibilità*
+* Capacità di ricevere segnali deboli
+* Più è sensibile, più deboli segnali possono essere ricevuti
 
 ---
 

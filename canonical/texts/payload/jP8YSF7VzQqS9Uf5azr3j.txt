@@ -1,48 +1,48 @@
-## Mapping in der digitalen Signalverarbeitung
+## Mappatura nell'elaborazione digitale dei segnali
 
-* Wandelt digitale Daten in spezifische Signalpunkte (Symbole) um  
-* Entscheidend für Modulationstechniken wie QAM und QPSK  
-* Ermöglicht die Übertragung der Daten über das Kommunikationssystem
-
----
-
-## Schritt 1: Binäre Daten in Symbole umwandeln
-
-* Bei QPSK werden jeweils zwei Bits zu einem Symbol zusammengefasst  
-* Es ergeben sich 4 mögliche Kombinationen: $\num{00}$, $\num{01}$, $\num{10}$, $\num{11}$
-* Jede Kombination wird einem bestimmten Signalpunkt zugeordnet
+* Converte i dati digitali in punti segnale specifici (simboli)  
+* Cruciale per tecniche di modulazione come QAM e QPSK  
+* Permette la trasmissione dei dati attraverso il sistema di comunicazione
 
 ---
 
-## Schritt 2: Phasenvergabe
+## Fase 1: Conversione dei dati binari in simboli
 
-* Jedem Symbol wird eine eigene Phase zugewiesen  
-* Typische Phasen in $\qty{90}{\degree}$-Schritten:
-* $\num{00}$ entspricht $\qty{0}{\degree}$
-* $\num{01}$ entspricht $\qty{90}{\degree}$
-* $\num{10}$ entspricht $\qty{180}{\degree}$
-* $\num{11}$ entspricht $\qty{270}{\degree}$
+* In QPSK, due bit vengono raggruppati in un simbolo  
+* Ci sono 4 combinazioni possibili: $\num{00}$, $\num{01}$, $\num{10}$, $\num{11}$
+* Ogni combinazione viene assegnata a un punto segnale specifico
+
+---
+
+## Fase 2: Assegnazione di fase
+
+* A ogni simbolo viene assegnata una fase propria  
+* Fasi tipiche in passi di $\qty{90}{\degree}$:
+* $\num{00}$ corrisponde a $\qty{0}{\degree}$
+* $\num{01}$ corrisponde a $\qty{90}{\degree}$
+* $\num{10}$ corrisponde a $\qty{180}{\degree}$
+* $\num{11}$ corrisponde a $\qty{270}{\degree}$
 
 --- style="font-size: smaller;"
-## Schritt 3: Mapping auf das Konstellationsdiagramm
+## Fase 3: Mappatura sul diagramma di costellazione
 
 <left>
-[picture:697:a_8qam:I-Q-Diagramm für ein 8QAM-Mapping]
-Die Darstellung ist für ein 8QAM-Mapping. QPSK im Beispiel entspricht dem äußeren Kreis.
+[picture:697:a_8qam:Diagramma I-Q per una mappatura 8QAM]
+La rappresentazione è per una mappatura 8QAM. La QPSK nell'esempio corrisponde al cerchio esterno.
 </left>
 <right>
-* Das Konstellationsdiagramm stellt die Signalpunkte in einem quadratischen Diagramm dar  
-* Die X-Achse (*I*n-Phase) und die Y-Achse (*Q*uadratur) zeigen die Amplituden der Signalbestandteile  
-* Für QPSK liegen die vier Signalpunkte an den Enden eines Quadrats
+* Il diagramma di costellazione rappresenta i punti segnale in un diagramma quadrato  
+* L'asse X (*I*n-phase) e l'asse Y (*Q*uadrature) mostrano le ampiezze dei componenti del segnale  
+* Per la QPSK, i quattro punti segnale si trovano alle estremità di un quadrato
 </right>
 
 ---
 
-## Darstellung der QPSK-Symbole
+## Rappresentazione dei simboli QPSK
 
-* $\num{00}$ bei $\qty{0}{\degree}$: Punkt auf der positiven X-Achse  
-* $\num{01}$ bei $\qty{90}{\degree}$: Punkt auf der positiven Y-Achse  
-* $\num{10}$ bei $\qty{180}{\degree}$: Punkt auf der negativen X-Achse  
-* $\num{11}$ bei $\qty{270}{\degree}$: Punkt auf der negativen Y-Achse
+* $\num{00}$ a $\qty{0}{\degree}$: punto sull'asse X positivo  
+* $\num{01}$ a $\qty{90}{\degree}$: punto sull'asse Y positivo  
+* $\num{10}$ a $\qty{180}{\degree}$: punto sull'asse X negativo  
+* $\num{11}$ a $\qty{270}{\degree}$: punto sull'asse Y negativo
 
-* Die klare Trennung der Phasen erleichtert das Auseinanderhalten der Symbole – auch bei Rauschen
+* La chiara separazione delle fasi facilita la distinzione dei simboli, anche in presenza di rumore

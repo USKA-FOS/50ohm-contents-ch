@@ -1,42 +1,42 @@
-## Messungen für Funkamateure
+## Misure per radioamatori
 
-* Wichtige Messungen: Ausgangsleistung und HF-Spannungen
-* Messung der Senderausgangsleistung erfordert definierten Abschluss
-* Übliche Impedanz im Amateurfunk: $\qty{50}{\ohm}$
-* Direktes Messen in der Schaltung nur bei kleinen Leistungen sinnvoll
-
----
-## HF-Spannungsmessung
-
-* HF-Spannung wird mit einem HF-Tastkopf gemessen
-* Diodengleichrichtung und Glättung mit nachgeschaltetem Kondensator
+* Misure importanti: Potenza d’uscita e tensioni HF
+* La misurazione della potenza d’uscita del trasmettitore richiede un carico definito
+* Impedenza comune nel radioamatore: $\qty{50}{\ohm}$
+* La misurazione diretta nel circuito è sensata solo a basse potenze
 
 ---
-### HF-Tastkopf mit einfacher Gleichrichtung
+## Misurazione della tensione HF
+
+* La tensione HF viene misurata con una sonda HF
+* Raddrizzamento a diodi e livellamento con condensatore collegato a valle
+
+---
+### Sonda HF con raddrizzamento semplice
 
 
 
 <left>
-[picture:576:a_messung_hf_tastkopf_leistungsmessung:Messkopf zur HF-Leistungsmessung über einen Spannungsteiler]
+[picture:576:a_messung_hf_tastkopf_leistungsmessung:Sonda per la misurazione della potenza HF tramite un partitore di tensione]
 </left>
 <right>
-* Eine Diode am Ausgang liefert die Spitzenspannung der HF-Spannung
-* Abzüglich Forward-Spannung der Diode und evtl. Spannungsteiler
+* Un diodo all’uscita fornisce la tensione di picco della tensione HF
+* Meno la tensione diretta del diodo e l’eventuale partitore di tensione
 </right>
 
 ---
 [question:AI608]
 
 ---
-### HF-Tastkopf mit doppelter Gleichrichtung
+### Sonda HF con raddrizzamento doppio
 
 <left>
-[picture:770:a_messung_hf_tastkopf_doppeldiode:HF-Tastkopf mit zwei Dioden für beide Halbwellen]
+[picture:770:a_messung_hf_tastkopf_doppeldiode:Sonda HF con due diodi per entrambe le semionde]
 </left>
 <right>
-* Zwei Dioden zur Erhöhung der Messgenauigkeit, insbesondere bei kleinen Leistungen
-* Beide Halbwellen werden gleichgerichtet
-* Ergebnis: Doppelte Spitzenspannung abzüglich zweimal der Forward-Spannung der Dioden
+* Due diodi per aumentare l’accuratezza della misurazione, in particolare a basse potenze
+* Entrambe le semionde vengono raddrizzate
+* Risultato: Tensione di picco doppia meno due volte la tensione diretta dei diodi
 </right>
 
 ---
@@ -46,50 +46,50 @@
 [question:AI604]
 
 ---
-### Messen hoher HF-Leistungen
+### Misurazione di alte potenze HF
 
-* Erfordert belastbares Dämpfungsglied
-* Nimmt einen Großteil der Leistung auf
-* Dämpfungsglied muss in die Berechnung einbezogen werden
+* Richiede un attenuatore resistente al carico
+* Assorbe gran parte della potenza
+* L’attenuatore deve essere incluso nel calcolo
 
 ---
 [question:AI609]
 
 <note>
-Keine Berechnung notwendig, da es nur eine Antwort mit Dämpfungsglied gibt
+Nessun calcolo necessario, poiché esiste una sola risposta con attenuatore
 </note>
 
 ---
-## Kalibrierung von Messschaltungen
+## Calibrazione di circuiti di misura
 
-* Notwendig für exakte Leistungsmessungen
-* Korrekturwerte müssen erstellt werden
+* Necessaria per misurazioni di potenza accurate
+* I valori di correzione devono essere creati
 
 ---
 [question:AI612]
 
 ---
-### Berechnung eines HF-Tastkopfes
+### Calcolo di una sonda HF
 
 <left>
-[picture:576:a_messung_messschaltung_beispiel_1:Beispiel einer HF-Messschaltung]
+[picture:576:a_messung_messschaltung_beispiel_1:Esempio di un circuito di misura HF]
 </left>
 <right>
-* Eingangssignal wird impedanzrichtig abgeschlossen
-* Spannung wird durch Spannungsteiler halbiert
-* Nach Gleichrichtung durch Diode verbleibt die Spitzenspannung abzüglich Forward-Spannung
+* Il segnale di ingresso viene terminato in modo appropriato all’impedenza
+* La tensione viene dimezzata da un partitore di tensione
+* Dopo il raddrizzamento da parte del diodo, rimane la tensione di picco meno la tensione diretta
 </right>
 
 ---
 [question:AI610]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Percorso di soluzione
 
-* gegeben: $P_E = \qty{1}{\watt}$
-* gegeben: $U_F = \qty{0,23}{\volt}$
-* gegeben: $R_V = \qty{110}{\ohm}$, $R_T = \qty{330}{\ohm}$
-* gesucht: $U_A$
+* dato: $P_E = \qty{1}{\watt}$
+* dato: $U_F = \qty{0,23}{\volt}$
+* dato: $R_V = \qty{110}{\ohm}$, $R_T = \qty{330}{\ohm}$
+* cercato: $U_A$
 
 
 <fragment>
@@ -97,19 +97,19 @@ $\begin{split}R &= \left(\frac{1}{R_T + R_T} + \frac{1}{R_V} + \frac{1}{R_V}\rig
 </fragment>
 
 --- style="font-size: smaller;"
-* gegeben: $P_E = \qty{1}{\watt}$
-* gegeben: $U_F = \qty{0,23}{\volt}$
-* berechnet: $R = \qty{50,77}{\ohm}$
-* gesucht: $U_A$
+* dato: $P_E = \qty{1}{\watt}$
+* dato: $U_F = \qty{0,23}{\volt}$
+* calcolato: $R = \qty{50,77}{\ohm}$
+* cercato: $U_A$
 
 <fragment>
 $\begin{split}P_E &= \frac{U_{E,eff}^2}{R}\\ \Rightarrow U_{E,eff} &= \sqrt{P_E \cdot R}\\ &= \sqrt{\qty{1}{\watt} \cdot \qty{50,77}{\ohm}}\\ &= \qty{7,125}{\volt}\end{split}$
 </fragment>
 
 --- style="font-size: smaller;"
-* gegeben: $U_F = \qty{0,23}{\volt}$
-* berechnet: $U_{E,eff} = \qty{7,125}{\volt}$
-* gesucht: $U_A$
+* dato: $U_F = \qty{0,23}{\volt}$
+* calcolato: $U_{E,eff} = \qty{7,125}{\volt}$
+* cercato: $U_A$
 
 <left>
 <fragment>
@@ -123,26 +123,26 @@ $\begin{split}U_A &= \frac{U_S}{2}\,-\,U_F\\ &= \frac{\qty{10,07}{\volt}}{2}\,-\
 </right>
 
 ---
-### Berechnung der Eingangsleistung aus gemessener Gleichspannung
+### Calcolo della potenza d’ingresso dalla tensione continua misurata
 
 <left>
-[picture:577:a_messung_messschaltung_beispiel_2:Beispiel einer HF-Messschaltung]
+[picture:577:a_messung_messschaltung_beispiel_2:Esempio di un circuito di misura HF]
 </left>
 <right>
-* Spannung am Spannungsteiler entspricht der Ausgangsspannung zzgl. der Diodenspannung
-* Effektivwerte berechnen
-* Ermittlung der Eingangsleistung über den Schaltungswiderstand
+* La tensione sul partitore di tensione corrisponde alla tensione d’uscita più la tensione del diodo
+* Calcolare i valori efficaci
+* Determinazione della potenza d’ingresso tramite la resistenza del circuito
 </right>
 
 ---
 [question:AI611]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
-* gegeben: $U_A = \qty{14,9}{\volt}\text{ DC}$
-* gegeben: $U_F = \qty{0,7}{\volt}$
-* gegeben: $R_1 = \qty{54,1}{\ohm}$, $R_T = \qty{330}{\ohm}$
-* gesucht: $P_E$
+#### Percorso di soluzione
+* dato: $U_A = \qty{14,9}{\volt}\text{ DC}$
+* dato: $U_F = \qty{0,7}{\volt}$
+* dato: $R_1 = \qty{54,1}{\ohm}$, $R_T = \qty{330}{\ohm}$
+* cercato: $P_E$
 
 <left>
 <fragment>
@@ -157,9 +157,9 @@ $\begin{split}U_S &= \left(U_A + U_F\right) \cdot 2\\ &= \left(\qty{14,9}{\volt}
 
 --- style="font-size: smaller;"
 <left>
-* berechnet: $R = \qty{50}{\ohm}$
-* berechnet: $U_S = \qty{31,2}{\volt}$
-* gesucht: $P_E$
+* calcolato: $R = \qty{50}{\ohm}$
+* calcolato: $U_S = \qty{31,2}{\volt}$
+* cercato: $P_E$
 
 <fragment>
 $\begin{split}U_{E,eff}\\ &= \frac{U_S}{\sqrt{2}}\\ &= \frac{\qty{31,2}{\volt}}{1,414}\\ &= \qty{22,06}{\volt}\end{split}$
@@ -172,27 +172,27 @@ $\begin{split}P_E &= \frac{U_{E,eff}^2}{R}\\ &= \frac{(\qty{22,06}{\volt})^2}{\q
 </right>
 
 ---
-### HF-Tastkopf mit doppelter Spitzenwertgleichrichtung
+### Sonda HF con raddrizzamento doppio del valore di picco
 
 <left>
-[picture:771:a_messung_hf_tastkopf_doppeldiode_2:HF-Tastkopf mit doppelter Spitzenwertgleichrichtung]
+[picture:771:a_messung_hf_tastkopf_doppeldiode_2:Sonda HF con raddrizzamento doppio del valore di picco]
 </left>
 <right>
-* Berechnung wie bei einfacher Gleichrichtung
-* Zusätzliche Berücksichtigung der doppelten Spitzenspannung
-* Doppelte Forward-Spannung der Dioden beachten
+* Calcolo come per il raddrizzamento semplice
+* Considerazione aggiuntiva della tensione di picco doppia
+* Tenere conto della doppia tensione diretta dei diodi
 </right>
 
 ---
 [question:AI607]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Percorso di soluzione
 
-* gegeben: $U_A = \qty{15,3}{\volt}\text{ DC}$
-* gegeben: $U_F = \qty{0,23}{\volt}$
-* gegeben: $R_{V1} = \qty{56}{\ohm}$, $R_{V2} = \qty{470}{\ohm}$
-* gesucht: $P_E$
+* dato: $U_A = \qty{15,3}{\volt}\text{ DC}$
+* dato: $U_F = \qty{0,23}{\volt}$
+* dato: $R_{V1} = \qty{56}{\ohm}$, $R_{V2} = \qty{470}{\ohm}$
+* cercato: $P_E$
 
 <left>
 <fragment>
@@ -207,9 +207,9 @@ $\begin{split}U_S &= \frac{U_A}{2} + U_F\\ &= \frac{\qty{15,3}{\volt}}{2} + \qty
 
 --- style="font-size: smaller;"
 <left>
-* berechnet: $R = \qty{50,04}{\ohm}$
-* berechnet: $U_S = \qty{7,88}{\volt}$
-* gesucht: $P_E$
+* calcolato: $R = \qty{50,04}{\ohm}$
+* calcolato: $U_S = \qty{7,88}{\volt}$
+* cercato: $P_E$
 
 <fragment>
 $\begin{split}U_{E,eff} &= \frac{U_S}{\sqrt{2}}\\ &= \frac{\qty{7,88}{\volt}}{1,414}\\ &= \qty{5,57}{\volt}\end{split}$
@@ -225,12 +225,12 @@ $\begin{split}P_E &= \frac{U_{E,eff}^2}{R}\\ &= \frac{{\qty{5,57}{\volt}}^2}{\qt
 [question:AI606]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Percorso di soluzione
 
-* gegeben: $U_A = \qty{15,3}{\volt}\text{ DC}$
-* gegeben: $U_F = \qty{0,23}{\volt}$
-* gegeben: $R = \qty{50}{\ohm}$ aus dem Messsystem
-* gesucht: $P_E$
+* dato: $U_A = \qty{15,3}{\volt}\text{ DC}$
+* dato: $U_F = \qty{0,23}{\volt}$
+* dato: $R = \qty{50}{\ohm}$ dal sistema di misura
+* cercato: $P_E$
 
 <left>
 <fragment>
@@ -244,26 +244,26 @@ $\begin{split}U_{E,eff} &= \frac{U_S}{\sqrt{2}}\\ &= \frac{\qty{7,88}{\volt}}{1,
 </right>
   
 --- style="font-size: smaller;"
-* berechnet: $U_{E,eff} = \qty{5,57}{\volt}$
-* gegeben: $R = \qty{50}{\ohm}$ aus dem Messsystem
-* gesucht: $P_E$
+* calcolato: $U_{E,eff} = \qty{5,57}{\volt}$
+* dato: $R = \qty{50}{\ohm}$ dal sistema di misura
+* cercato: $P_E$
 
 <fragment>
 $\begin{split}P_E &= \frac{(U_{E,eff} \cdot 10)^2}{R}\\ &= \frac{(\qty{5,57}{\volt} \cdot 10)^2}{\qty{50}{\ohm}}\\ &\approx \qty{60}{\watt}\end{split}$
 </fragment>
 
---- style="font-size: smaller;"
-## Feldstärkeanzeiger zur Leistungsmessung
+---
+## Indicatore di intensità di campo per la misurazione della potenza
 
 <left>
-[picture:496:a_messung_feldstaerkeanzeiger:Feldstärkeanzeiger]
+[picture:496:a_messung_feldstaerkeanzeiger:Indicatore di intensità di campo]
 </left>
 <right>
-* Messung der HF-Leistung über eine Antenne
-* Empfangene HF wird gleichgerichtet und gepuffert
-* Anzeige über empfindliches Strommessgerät
-* Je höher der Zeigerausschlag, desto höher die HF-Feldstärke
-* Exakte Messungen erfordern Kalibrierung
+* Misurazione della potenza HF tramite un’antenna
+* L’HF ricevuta viene raddrizzata e bufferizzata
+* Indicazione tramite un sensibile strumento di misurazione della corrente
+* Più alto è lo spostamento dell’ago, maggiore è l’intensità del campo HF
+* Misure precise richiedono calibrazione
 </right>
 
 ---

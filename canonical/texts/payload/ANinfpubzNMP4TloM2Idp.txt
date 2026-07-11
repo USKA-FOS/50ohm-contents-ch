@@ -1,13 +1,13 @@
-Die Hauptaufgabe der digitalen Übertragung ist es, Informationen von einer Quelle (Sender) zu einer oder mehreren Senken (Empfänger) zu übermitteln. Dabei soll das Frequenzspektrum möglichst effizient genutzt werden. Dies erreicht man durch die Kompression der Nutzdaten, die sogenannte Quellencodierung. Dabei werden Redundanzen (z. B. Wiederholungen) oder Irrelevanzen (weniger wichtige Informationsteile) aus dem Datenstrom entfernt. Das reduziert die zu übertragende Datenmenge der Nachricht.
+Il compito principale della trasmissione digitale è quello di trasmettere informazioni da una sorgente (trasmettitore) a uno o più destinatari (ricevitore). Lo spettro di frequenza deve essere utilizzato nel modo più efficiente possibile. Ciò si ottiene comprimendo i dati utili, la cosiddetta codifica sorgente. In questo processo, le ridondanze (ad es. ripetizioni) o le irrilevanze (parti di informazione meno importanti) vengono rimosse dal flusso di dati. Ciò riduce la quantità di dati del messaggio da trasmettere.
 
 <indepth>
-Zum Beispiel sind MP3 für Musik, JPEG für Bilder sowie MPEG-4 für Videos bekannte Verfahren zur Kompression der Datenmenge, welche auch als *Codecs* bezeichnet werden. Im Amateurfunk wird z. B. bei FreeDV oder M17 der patentfreie Codec2 verwendet, welcher auf verständliche Übertragung menschlicher Sprache bei niedrigen Bitraten spezialisiert ist.
+Ad esempio, MP3 per la musica, JPEG per le immagini e MPEG-4 per i video sono metodi noti per comprimere la quantità di dati, chiamati anche *codec*. Nel radioamatore, ad esempio, FreeDV o M17 utilizzano il codec2 privo di brevetto, specializzato nella trasmissione comprensibile della voce umana a basse velocità in bit.
 </indepth>
 
 <margin>
 [picture:675:quellencodierer:Quellencodierer]
 </margin>
 
-Abbildung [ref:quellencodierer] zeigt ein Symbol für einen Quellencodierer. Der Block stellt dar, dass die Menge an Information reduziert wird.
+La figura [ref:quellencodierer] mostra un simbolo per un codificatore sorgente. Il blocco rappresenta la riduzione della quantità di informazione.
 
 [question:AE408]

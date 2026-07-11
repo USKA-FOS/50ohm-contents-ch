@@ -1,56 +1,56 @@
-## Speisewiderstand
+## Resistenza di alimentazione
 
-* Eine Antenne wird mit Spannung und Strom gespeist
-* Deren Verhältnis zueinander ergibt den Speisewiderstand
-* Für Leistung müssen immer Spannung <u>und</u> Strom vorhanden sein
-* Wäre eines von beiden 0, erfolgt keine Leistungsabgabe
-* Speisewiderstand hängt vom Ort der Einspeisung ab
+* Un'antenna viene alimentata con tensione e corrente
+* Il loro rapporto reciproco determina la resistenza di alimentazione
+* Per la potenza, devono essere sempre presenti tensione <u>e</u> corrente
+* Se uno dei due fosse 0, non ci sarebbe erogazione di potenza
+* La resistenza di alimentazione dipende dal punto di alimentazione
 
 <note>
-* Ohmsches Gesetz
+* Legge di Ohm
 </note>
 
 ---
 
-## Stromgespeiste Antennen
+## Antenne alimentate in corrente
 
-* Hoher Strom bei vergleichsweise geringer Spannung am Speisepunkt
-* Niedriger Speisewiderstand
-* ca. $\qtyrange{36}{100}{\ohm}$
-* Niederohmiges Verhalten
-
----
-
-## Spannungsgespeiste Antenne
-* Hohe Spannung bei vergleichsweise geringem Strom am Speisepunkt
-* Hoher Speisewiderstand
-* ca. $\qtyrange{1500}{4000}{\ohm}$
-* Hochohmiges Verhalten
+* Alta corrente rispetto a una tensione relativamente bassa nel punto di alimentazione
+* Bassa resistenza di alimentazione
+* circa $\qtyrange{36}{100}{\ohm}$
+* Comportamento a bassa impedenza
 
 ---
 
-## Einspeisung am Halbwellendipol
+## Antenna alimentata in tensione
+* Alta tensione rispetto a una corrente relativamente bassa nel punto di alimentazione
+* Alta resistenza di alimentazione
+* circa $\qtyrange{1500}{4000}{\ohm}$
+* Comportamento ad alta impedenza
 
-* Ladungsträger schwingen hin und her
-* In der Mitte werden besonders viele Ladungsträger bewegt $\rightarrow$ Strombauch
-* An den Enden entstehen besonders hohe Spannungen $\rightarrow$ Spannungsbauch
-* Wenige Ladungsträger $\rightarrow$ Stromknoten
-* Keine Spannung $\rightarrow$ Spannungsknoten
+---
+
+## Alimentazione su un dipolo a semionda
+
+* I portatori di carica oscillano avanti e indietro
+* Al centro vengono spostati molti portatori di carica $\rightarrow$ ventre di corrente
+* Alle estremità si creano tensioni particolarmente elevate $\rightarrow$ ventre di tensione
+* Pochi portatori di carica $\rightarrow$ nodo di corrente
+* Nessuna tensione $\rightarrow$ nodo di tensione
 
 <note>
-* Grafik auf folgender Seite verdeutlicht es
+* Il grafico nella pagina seguente lo illustra
 </note>
 
 ---
 
 <left>
-* Strombauch in der Mitte
-* Spannungsbauch an den Enden
-* Stromknoten an den Enden
-* Spannungsknoten in der Mitte
+* Ventre di corrente al centro
+* Ventre di tensione alle estremità
+* Nodo di corrente alle estremità
+* Nodo di tensione al centro
 </left>
 <right>
-[picture:787:e_strom_spannung_speisung_dipol:Halbwellendipol mit Spannungs- und Stromverteilung]
+[picture:787:e_strom_spannung_speisung_dipol:Dipolo a semionda con distribuzione di tensione e corrente]
 </right>
 
 ---
@@ -63,15 +63,15 @@
 
 ---
 
-## Endgespeister Halbwellendipol
+## Dipolo a semionda alimentato all'estremità
 
 
 <left>
-* Spannungsgespeiste Antenne
-* Hoher Speisewiderstand
+* Antenna alimentata in tensione
+* Alta resistenza di alimentazione
 </left>
 <right>
-[picture:851:e_strom_spannung_speisung_dipol_ende:Halbwellendipol Endgespeist]
+[picture:851:e_strom_spannung_speisung_dipol_ende:Dipolo a semionda alimentato all'estremità]
 </right>
 
 ---

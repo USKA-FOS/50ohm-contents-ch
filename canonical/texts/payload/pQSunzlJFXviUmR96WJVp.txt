@@ -1,20 +1,20 @@
-## NVIS – Raumwellenreflexion
-* Liegt die Sendefrequenz unter der kritischen Frequenz, wird selbst eine senkrecht nach oben gestrahlte Raumwelle von der Ionosphäre reflektiert.
-* Dadurch verschwindet die Tote Zone – ein Effekt, der für Nahverbindungen genutzt werden kann.
-* Voraussetzung: Eine Kurzwellenantenne, die in einem möglichst steilen Winkel nach oben strahlt.
-* Dieser Effekt wird als *Near Vertical Incidence Skywave (NVIS)* bezeichnet.
+## NVIS – Riflessione delle onde spaziali
+* Se la Frequenza di trasmissione è inferiore alla frequenza critica, anche un'onda spaziale irradiata verticalmente verso l'alto viene riflessa dalla ionosfera.
+* Ciò fa scomparire la zona d'ombra – un effetto che può essere utilizzato per collegamenti a corto raggio.
+* Prerequisito: un'antenna a onde corte che irradi il più possibile in un angolo ripido verso l'alto.
+* Questo effetto è chiamato *Near Vertical Incidence Skywave (NVIS)*.
 
 ---
-## NVIS – Vorteile im Notfunk
-* NVIS-Verbindungen ermöglichen die Überwindung von Hindernissen (z. B. bergiges Gelände), die ansonsten die Bodenwelle blockieren würden.
-* Geeignet sind horizontale Dipole, die in einer Aufbauhöhe von maximal einem Viertel der Wellenlänge aufgehängt werden – so wirkt die Erdoberfläche als Reflektor und sorgt für einen Gewinn in Richtung Zenit.
+## NVIS – Vantaggi nel soccorso radioamatoriale
+* I collegamenti NVIS consentono di superare ostacoli (ad es. terreno montuoso) che altrimenti bloccherebbero l'onda di terra.
+* Sono adatti i dipoli orizzontali, che vengono sospesi a un'altezza di costruzione massima di un quarto della lunghezza d’onda – in questo modo la Superficie terrestre agisce da riflettore e garantisce un guadagno in direzione zenitale.
 
 ---
-## NVIS – Antennenaufbau und Optimierung
-* Wird ein Horizontal-Dipol zu hoch aufgehängt, führt die Verzögerung bei der Reflektion zu einer Phasenverschiebung.
-* $\rightarrow$ Dadurch kommt es in Richtung Zenit zu teilweiser Auslöschung der reflektierten Welle.
-* $\rightarrow$ Das Ergebnis ist ein Gewinn in flacherer Abstrahlrichtung, was bei NVIS-Kommunikation unerwünscht ist.
-* Vertikalantennen sind ungeeignet, da sie ohnehin einen flachen Abstrahlwinkel aufweisen.
+## NVIS – Struttura e ottimizzazione dell'antenna
+* Se un dipolo orizzontale viene sospeso troppo in alto, il ritardo nella riflessione provoca uno sfasamento.
+* $\rightarrow$ Ciò porta a una cancellazione parziale dell'onda riflessa in direzione zenitale.
+* $\rightarrow$ Il risultato è un guadagno in una direzione di irradiazione più piatta, che è indesiderato nella comunicazione NVIS.
+* Le antenne verticali sono inadatte, poiché presentano comunque un angolo di irradiazione piatto.
 
 ---
 [question:AG125]

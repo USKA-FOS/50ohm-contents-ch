@@ -1,24 +1,24 @@
-Zweidrahtleitungen verhalten sich, sofern diese symmetrisch gespeist und belastet werden, auch in Hinblick auf ihre Strom- und Spannungsverteilung symmetrisch. D. h. an einer bestimmten Stelle sind Strom und Spannung eines des beiden Leiter genauso groß wie im anderen Leiter – nur mit umgekehrtem Vorzeichen.
+Le linee bifilari si comportano, purché alimentate e caricate simmetricamente, anche in termini di distribuzione di corrente e tensione in modo simmetrico. Cioè, in un punto specifico, la corrente e la tensione di uno dei due conduttori sono altrettanto grandi quanto nell'altro conduttore, solo con segno opposto.
 
 [question:AG312]
 
-Obwohl sich die gegenphasigen Ströme aus der Ferne betrachtet weitgehend aufheben, kommt es selbst im Freiraum zu einer geringfügigen Abstrahlung. Befinden sich gar andere Leitungen im Nahfeld einer Zweidrahtleitung ist die Kopplung noch stärker. Aus diesem Grunde sollten im Haus verlegte Speiseleitungen grundsätzlich geschirmt sein. In der Regel kommen hier Koaxialkabel zum Einsatz.
+Sebbene le correnti in controfase si annullino in gran parte se viste da lontano, si verifica una leggera irradiazione anche nello spazio libero. Se altre linee si trovano nel campo vicino di una linea bifilare, l'accoppiamento è ancora più forte. Per questo motivo, le linee di alimentazione posate all'interno di un edificio dovrebbero essere fondamentalmente schermate. Di norma, in questo caso vengono utilizzati cavi coassiali comuni.
 
 [question:AG301]
 
-Koaxialkabel gibt es in verschiedensten Ausführungen. In der folgenden Frage werden die *Hochfrequenzeigenschaften* von Koaxialkabeln, also deren elektrischen Eigenschaften hinsichtlich hoher Frequenzen betrachtet. Dies sind im Wesentlichen der Wellenwiderstand, die Kabeldämpfung und der Verkürzungsfaktor, den wir gleich näher betrachten. Der Biegeradius hingegen ist eine mechanische Eigenschaft, die angibt, wie eng das Kabel in einer Kurve verlegt werden darf. Die Rückflussdämpfung gibt an, wieviele Reflexionen vorhanden sind, was von der an einer Leitung angeschlossenen Last abhängt und somit keine Kabeleigenschaft ist.
+I cavi coassiali comuni esistono in varie versioni. Nella domanda seguente vengono considerate le *proprietà ad alta frequenza* dei cavi coassiali comuni, ovvero le loro proprietà elettriche per quanto riguarda le alte frequenze. Queste sono essenzialmente l'impedenza caratteristica, l'attenuazione del cavo e il fattore di riduzione, che esamineremo più da vicino. Il raggio di curvatura, invece, è una proprietà meccanica che indica quanto strettamente il cavo può essere posato in una curva. La perdita di ritorno indica quante riflessioni sono presenti, il che dipende dal carico collegato a una linea e quindi non è una proprietà del cavo.
 
 [question:AG303]
 
-Der Verkürzungsfaktor ergibt sich durch das zwischen Innen- und Außenleiter befindliche Dielektrikum. In diesem befindet sich der Großteil der elektromagnetischen Welle, die durch das Kabel geleitet wird. Die Wahl des Dielektrikums bestimmt, wie schnell sich eine Welle durch das Kabel fortpflanzen kann. Die Ausbreitungsgeschwindigkeit im Koaxialkabel liegt unter der Lichtgeschwindigkeit im Freiraum. Übliche Materialien für das Dielektrikum sind Polyethylen (PE) und Teflon (PTFE). Durch Aufschäumung entsteht gewissermaßen eine Mischung mit Luft, bei der die Kabeldämpfung geringer ausfällt.
+Il fattore di riduzione deriva dal materiale dielettrico situato tra il conduttore interno e quello esterno. Qui si trova la maggior parte dell'onda elettromagnetica che viene condotta attraverso il cavo. La scelta del materiale dielettrico determina la velocità con cui un'onda può propagarsi attraverso il cavo. La velocità di propagazione in un cavo coassiale comune è inferiore alla velocità della luce nello spazio libero. Materiali comuni per il materiale dielettrico sono il polietilene (PE) e il teflon (PTFE). La schiumatura crea una sorta di miscela con l'aria, in cui l'attenuazione del cavo è inferiore.
 
 [question:AG314]
 [question:AG302]
 
-Die durch das Dielektrikum reduzierte Ausbreitungsgeschwindigkeit schlägt sich im Verkürzungsfaktor nieder, der angibt, auf welche Länge ein Kabel mechanisch gekürzt werden muss, damit es elektrisch eine bestimmte Länge aufweist (also z. B. eine viertel Wellenlänge lang ist). Für den Verkürzungsfaktor finden wir in der Formelsammlung folgenden Zusammenhang:
+La velocità di propagazione ridotta dal materiale dielettrico si riflette nel fattore di riduzione, che indica di quanto un cavo deve essere accorciato meccanicamente per avere elettricamente una certa lunghezza (ad esempio, una lunghezza d'onda di un quarto). Per il fattore di riduzione troviamo nella raccolta di formule la seguente relazione:
 
 $k_\mathrm{v} = \frac{L_\mathrm{G}}{L_\mathrm{E}} = \frac{1}{\sqrt{\epsilon_\mathrm{r}}}$
 
-Hierbei ist $k_\mathrm{v}$ der Verkürzungsfaktor, $L_\mathrm{G}$ die geometrische ("mechanische") Länge, und $L_\mathrm{E}$ die elektrische Länge. Die relative Dielektrizitätszahl $\epsilon_\mathrm{r}$ ist abhängig vom eingesetzten Dielektrikum. Für nicht-geschäumtes Polyethylen (PE) können wir der Formelsammlung eine Dielektrizitätszahl von $\num{2,29}$ entnehmen.
+Qui $k_\mathrm{v}$ è il fattore di riduzione, $L_\mathrm{G}$ la lunghezza geometrica ("meccanica") e $L_\mathrm{E}$ la lunghezza elettrica. La costante dielettrica relativa $\epsilon_\mathrm{r}$ dipende dal materiale dielettrico utilizzato. Per il polietilene (PE) non schiumato, possiamo ricavare dalla raccolta di formule una costante dielettrica di $\num{2,29}$.
 
 [question:AG317]

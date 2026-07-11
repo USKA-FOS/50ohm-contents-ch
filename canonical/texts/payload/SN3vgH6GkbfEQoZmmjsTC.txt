@@ -1,11 +1,11 @@
-## Frequenzmodulation
+## Modulazione di frequenza
 <left>
-* Konstante Amplitude
-* Veränderliche Frequenz
-* Relativ unempfindlich gegenüber Amplitudenstörungen (z.B. Kfz, Blitze)
+* Ampiezza costante
+* Frequenza variabile
+* Relativamente insensibile ai disturbi di ampiezza (es. auto, fulmini)
 </left>
 <right>
-[picture:301:e_fm:Frequenzmodulation]
+[picture:301:e_fm:Modulazione di frequenza]
 </right>
 
 ---
@@ -16,13 +16,13 @@
 [question:EE303]
 ---
 
-## Frequenzhub
+## Deviazione di frequenza portante
 <left>
-* Lautstärkeinformation wird bei FM durch *Trägerfrequenzauslenkung* (Frequenzhub) übertragen
-* Lautes NF-Signal $\rightarrow$ größerer Hub $\rightarrow$ höhere Bandbreite
+* L'informazione del volume in FM viene trasmessa tramite *deviazione della frequenza portante* (Deviazione di frequenza portante)
+* Segnale NF forte $\rightarrow$ deviazione maggiore $\rightarrow$ larghezza di banda maggiore
 </left>
 <right>
-[picture:827:e_frequenzmodulation_frequenzhub:Trägerauslenkung bei Frequenzmodulation]
+[picture:827:e_frequenzmodulation_frequenzhub:Deviazione portante nella modulazione di frequenza]
 </right>
 
 ---
@@ -31,10 +31,10 @@
 [question:EE304]
 ---
 
-## Modulation
-* Zur Einschränkung der Bandbreite wird das Mikrofonsignal in der Amplitude begrenzt
-* Dieses Signal wird auf den Träger mittels FM aufmoduliert
-* Der Frequenzhub kann dabei fest sein oder einstellbar mittels eines Hub-Reglers
+## Modulazione
+* Per limitare la larghezza di banda, il segnale del microfono viene limitato in ampiezza
+* Questo segnale viene modulato sulla portante tramite FM
+* La deviazione di frequenza portante può essere fissa o regolabile tramite un controllo di deviazione
 
 ---
 [question:EE305]

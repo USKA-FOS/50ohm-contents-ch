@@ -1,47 +1,46 @@
-Wichtige Messungen für den Funkamateur an Sendern sind Messungen von Ausgangsleistungen an Sendern oder die Messung von HF-Spannungen in HF-Schaltungsteilen.
+Misurazioni importanti per il radioamatore sui trasmettitori sono le misurazioni delle potenze d'uscita sui trasmettitori o la misurazione delle tensioni RF in parti del circuito RF.
 
-Bei Messung von Senderausgangsleistungen muss der Sender mit einer definierten Impedanz, die zur Ausgangsimpedanz des Senders passt, abgeschlossen werden. Im Amateurfunk beträgt die übliche Impedanz (Senderabschluss) $\qty{50}{\ohm}$. Der Abschluss kann auch direkt in der Messschaltung erfolgen, was jedoch nur bei kleine Leistungen sinnvoll ist.
+Quando si misurano le potenze d'uscita del trasmettitore, il trasmettitore deve essere terminato con un'impedenza definita che corrisponda all'impedenza d'uscita del trasmettitore. Nel radioamatore, l'impedenza usuale (terminazione del trasmettitore) è di $\qty{50}{\ohm}$. La terminazione può avvenire anche direttamente nel circuito di misura, il che tuttavia ha senso solo per piccole potenze.
 
-Die Messung von HF-Spannungen erfolgt mittels eines HF-Tastkopfes über Diodengleichrichtung und anschließende Glättung der entstehenden Gleichspannung mit einem nachgeschalteten Kondensator.
+La misurazione delle tensioni RF viene effettuata tramite una sonda RF mediante rettifica a diodo e successiva livellamento della tensione continua risultante con un condensatore collegato a valle.
 
-Bei HF-Tastköpfen mit nur einer Diode ist am Messausgang die Spitzenspannung der zugeführten HF-Spannung abzüglich der Forward-Spannung der verwendeten Diode und eines ggf. vorhandenen vorgeschalteten Spannungsteilers messbar.
+Nelle sonde RF con un solo diodo, all'uscita di misura è misurabile la tensione di picco della tensione RF applicata meno la tensione di forward del diodo utilizzato e di un eventuale partitore di tensione collegato a monte.
 
 [question:AI608]
 
-Zur Erhöhung der Messgenauigkeit, insbesondere bei kleinen Leistungen im VHF/UHF-Bereich, verwendet man oft eine doppelte Gleichrichtung über 2 Dioden, so dass beide Halbwellen der HF gleichgerichtet werden (Doppelte Spitzenspannung) und, abzüglich 2 mal der Forward-Spannung der verwendeten Dioden, als addierte Messspannung am Messausgang zur Verfügung stehen.
+Per aumentare la precisione di misura, in particolare con basse potenze nella gamma VHF/UHF, si utilizza spesso una doppia rettifica tramite 2 diodi, in modo che entrambe le semionde della RF vengano raddrizzate (doppia tensione di picco) e, meno 2 volte la tensione di forward dei diodi utilizzati, siano disponibili all'uscita di misura come tensione sommata.
 
 [question:AI605]
 [question:AI604]
 
-Bei höheren HF-Leistungen muss ein entsprechend belastbares Dämpfungsglied vorgeschaltet werden, das einen Großteil der Senderausgangsleistung, die gemessen werden soll, aufnimmt. Das Dämpfungsglied ist bei der Berechnung der Leistung zu berücksichtigen.
+Con potenze RF più elevate, è necessario collegare a monte un attenuatore adeguatamente dimensionato, che assorba gran parte della potenza d'uscita del trasmettitore da misurare. L'attenuatore deve essere considerato nel calcolo della potenza.
 
 [question:AI609]
 
-Um Leistungen und HF-Spannungen mit den vorgenannten Schaltungen exakt messen zu können, müssen diese kalibriert werden um entsprechende Korrekturwerte für die Messungen zu erstellen.
+Per poter misurare con precisione le potenze e le tensioni RF con i circuiti sopra menzionati, questi devono essere calibrati per creare i relativi valori di correzione per le misurazioni.
 
 [question:AI612]
 
-Betrachten wir nun die Berechnung der Schaltungen im Detail.
-Ein HF-Tastkopf mit einfacher Gleichrichtung und anschließender Glättung wird wie folgt berechnet:
+Consideriamo ora il calcolo dei circuiti in dettaglio.
+Una sonda RF con rettifica singola e successivo livellamento viene calcolata come segue:
 
-Das HF-Eingangssignal wird durch den vorhandenen Widerstand (oder Kombination aus Einzelwiderständen) am Eingang impedanzrichtig abgeschlossen. In der dargestellten Schaltung wird die HF-Spannung durch den nachfolgenden Spannungsteiler halbiert (wobei dieser ebenfalls bzgl. der Impedanz wirksam ist). Anschließend erfolgt die Spitzenwert-Gleichrichtung mittels Diode, deren Ausgangsspannung sich als Spitzenwert abzüglich der Forward-Spannung der Diode berechnet und im nachgeschalteten Kondensator gepuffert wird.
+Il segnale di ingresso RF viene terminato in modo impedente dal resistore presente (o combinazione di resistori singoli) all'ingresso. Nel circuito rappresentato, la tensione RF viene dimezzata dal partitore di tensione successivo (che ha anch'esso un effetto sull'impedenza). Successivamente avviene la rettifica del valore di picco tramite diodo, la cui tensione d'uscita si calcola come valore di picco meno la tensione di forward del diodo e viene tamponata nel condensatore collegato a valle.
 
-Bei $\qty{1}{\watt}$ Eingangsleistung in einem $\qty{50}{\ohm}$-System ergibt sich eine Eingangsspannung von $\qty{7,07}{\volt}$ Effektiv-Spannung und $\qty{10}{\volt}$ Spitzenspannung.
-Der nachgeschaltete Spannungsteiler halbiert diese Spannung auf $\qty{5}{\volt}$ Spitzenspannung, die nach Gleichrichtung durch die Diode abzüglich deren Forward-Spannung von $\qty{0,23}{\volt}$ noch $\qty{4,77}{\volt}$ beträgt. Gemessen werden dann gerundet ca. $\qty{4,8}{\volt}$ am Ausgang der Schaltung.
+Con $\qty{1}{\watt}$ di potenza d'ingresso in un sistema da $\qty{50}{\ohm}$, si ottiene una tensione d'ingresso di $\qty{7,07}{\volt}$ di tensione efficace e $\qty{10}{\volt}$ di tensione di picco. Il partitore di tensione collegato a valle dimezza questa tensione a $\qty{5}{\volt}$ di tensione di picco, che dopo la rettifica da parte del diodo, meno la sua tensione di forward di $\qty{0,23}{\volt}$, risulta ancora di $\qty{4,77}{\volt}$. Si misurano quindi circa $\qty{4,8}{\volt}$ all'uscita del circuito.
 
 [question:AI610]
 
-Umgekehrt kann aus der gemessenen Gleichspannung die der Schaltung zugeführte Leistung berechnet werden.
+Viceversa, dalla tensione continua misurata si può calcolare la potenza applicata al circuito.
 
-Gemessen werden am Ausgang der Schaltung $\qty{14,9}{\volt}$ Spitzenspannung. Wegen der Forward-Spannung der Diode beträgt der HF-Spitzenwert vor der Diode $\qty{15,6}{\volt}$. Unter Berücksichtigung des vorgeschalteten Spannungsteilers ergibt dies eine HF-Spitzenspannung von $\qty{31,2}{\volt}$.  Dies entspricht einer Eingangsleistung an einem $\qty{50}{\ohm}$-System von $\qty{9,73}{\watt}$ und damit ca. $\qty{9,7}{\watt}$.
+All'uscita del circuito si misurano $\qty{14,9}{\volt}$ di tensione di picco. A causa della tensione di forward del diodo, il valore di picco RF prima del diodo è di $\qty{15,6}{\volt}$. Considerando il partitore di tensione a monte, ciò corrisponde a una tensione di picco RF di $\qty{31,2}{\volt}$. Ciò corrisponde a una potenza d'ingresso in un sistema da $\qty{50}{\ohm}$ di $\qty{9,73}{\watt}$ e quindi a circa $\qty{9,7}{\watt}$.
 
 [question:AI611]
 
-Bei HF-Tastköpfen und Leistungsmessern mit doppelter Spitzenwertgleichrichtung (2 Dioden) erfolgt die Berechnung wie bei Einfachgleichrichtung, jedoch ist die doppelte Spitzenspannung am Ausgang und der doppelte Spannungsabfall durch 2 Dioden zu berücksichtigen.
+Nelle sonde RF e nei misuratori di potenza con doppia rettifica del valore di picco (2 diodi), il calcolo avviene come per la rettifica singola, tuttavia è necessario considerare la doppia tensione di picco all'uscita e il doppio calo di tensione dovuto ai 2 diodi.
 
 [question:AI607]
 [question:AI606]
 
-Um anzuzeigen, dass ein Sender über seine Antenne Leistung abstrahlt kann ein Feldstärkeanzeiger verwendet werden. Hierbei wird über eine Messantenne einer Diode die empfangene HF zugeführt und durch die Diode gleichgerichtet. Anschließend wir die gleichgerichtete Spannung über HF-Drosseln einem Kondensator zugeführt, der die gleichgerichtete Spannung puffert. Die Anzeige erfolgt durch ein empfindliches Strommessgerät. Je höher der Zeigerausschlag des Messinstruments ausfällt, desto höher ist die an der Antenne gemessene HF-Feldstärke. Um exakte Messungen vornehmen zu können muss sowohl die Messantenne als auch der Feldstärkemesser kalibriert werden.
+Per indicare che un trasmettitore irradia potenza attraverso la sua antenna, si può utilizzare un indicatore di campo. In questo caso, tramite un'antenna di misura, la RF ricevuta viene fornita a un diodo e raddrizzata dal diodo. Successivamente, la tensione raddrizzata viene fornita tramite induttanze RF a un condensatore che livella la tensione raddrizzata. L'indicazione avviene tramite un sensibile strumento di misura di corrente. Maggiore è la deviazione dell'indicatore dello strumento di misura, maggiore è l'intensità di campo RF misurata all'antenna. Per poter effettuare misurazioni precise, sia l'antenna di misura che il misuratore di campo devono essere calibrati.
 
 [question:AI613]

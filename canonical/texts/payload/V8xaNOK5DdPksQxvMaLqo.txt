@@ -1,143 +1,143 @@
-Den Bipolartransistor hatten wir bereits in den Ausbildungsunterlagen zur Klasse E diskutiert. In der Klasse A werden wir das Thema weiter vertiefen und auch noch einen weiteren Transistor betrachten.
+Abbiamo già discusso il transistor bipolare nei materiali didattici per la classe E. Nella classe A approfondiremo l'argomento e considereremo anche un altro transistor.
 
-Der Bipolartransistor besteht aus drei Halbleiterzonen, die abwechselnd n- und p-dotiert sind. Die Zonen bezeichnet man als Emitter, Basis und Kollektor. Beim *npn-Transistor* ist der Emitter n-, die Basis p- und der Kollektor n-dotiert. Beim pnp-Transistor ist es entsprechend ein p-Emitter, eine n-Basis und ein p-Kollektor. 
+Il transistor bipolare è composto da tre zone di semiconduttore, alternate n- e p-dotate. Le zone sono chiamate emettitore, base e collettore. Nel transistor *npn* l'emettitore è n-dotato, la base p-dotata e il collettore n-dotato. Nel transistor pnp è l'opposto: un emettitore p, una base n e un collettore p. 
 
-Die Abbildung [ref:a_bipolartransistor_aus] zeigt einen npn-Transistor im ausgeschalteten Zustand.
-Sobald die Basis-Emitter-Spannung $U_\mathrm{BE}$ durch Einschalten des Schalters angelegt wird (typisch $\approx \qtyrange{0,6}{0,7}{\volt}$ bei Silizium), wird die Basis-Emitter-Diode leitend. Dadurch fließt ein kleiner Basisstrom $I_\mathrm{B}$ (vgl. Abbildung [ref:a_bipolartransistor_ein]).
+La figura [ref:a_bipolartransistor_aus] mostra un transistor npn nello stato spento.
+Non appena la tensione base-emettitore $U_\mathrm{BE}$ viene applicata (tipicamente $\approx \qtyrange{0,6}{0,7}{\volt}$ per il silicio) accendendo l'interruttore, la diodo base-emettitore diventa conduttivo. Di conseguenza, inizia a fluire una piccola corrente di base $I_\mathrm{B}$ (vedi figura [ref:a_bipolartransistor_ein]).
 
-Dieser kleine Basisstrom bewirkt, dass aus dem Emitter viele Elektronen in die dünne Basis eingebracht werden. Da die Basis sehr schmal ist, gelangen die meisten dieser Ladungsträger weiter zum Kollektor. Dort werden sie durch die anliegende Kollektor-Emitter-Spannung $U_\mathrm{CE}$ "abgesaugt", der Kollektorstrom $I_\mathrm{C}$ fließt. Er ist um den Faktor $B$ größer als der Basisstrom, wobei $B$ die sogenannte Stromverstärkung des Transistors ist. Typische Werte für $B$ liegen im Bereich von $\num{20}$ bis $\num{500}$.
+Questa piccola corrente di base fa sì che molti elettroni vengano immessi dall'emettitore nella sottile base. Poiché la base è molto stretta, la maggior parte di questi portatori di carica passa al collettore. Lì vengono "assorbiti" dalla tensione collettore-emettitore $U_\mathrm{CE}$ applicata, e la corrente di collettore $I_\mathrm{C}$ fluisce. Essa è maggiore della corrente di base di un fattore $B$, dove $B$ è l'amplificazione di corrente del transistor. Valori tipici di $B$ sono compresi tra $\num{20}$ e $\num{500}$.
 
 <margin>
-[picture:1071:a_bipolartransistor_aus:NPN Bipolartransistor im augeschaltenen Zustand]
-[picture:1072:a_bipolartransistor_ein:NPN Bipolartransistor im eingesschalteten Zustand]
+[picture:1071:a_bipolartransistor_aus:Transistor bipolare NPN nello stato spento]
+[picture:1072:a_bipolartransistor_ein:Transistor bipolare NPN nello stato acceso]
 </margin>
 
 [question:AC503]
 
-Es empfiehl sich z.B. den NPN-Transistor zu merken. Bei PNP ist dann alles umgekehrt.
+Si consiglia, ad esempio, di ricordare il transistor NPN. Nel caso del PNP, tutto è invertito.
 
 [question:AC504]
 
-Physikalisch steuert die Basis-Emitter-Spannung $U_{BE}$ den Kollektorstrom $I_C$ und zwar exponentiell. Beim npn-Transistor gilt zum Beispiel:
+Fisicamente, la tensione base-emettitore $U_{BE}$ controlla la corrente di collettore $I_C$ in modo esponenziale. Per il transistor npn, ad esempio, vale:
 
 $I_C = I_S \cdot e^{\frac{U_{BE}}{U_T}}$
 
-$I_S$ ist der Sättigungsstrom, der stark von der Bauart des Transistors abhängt. Er ist dem Datenblatt zu entnehmen. $U_T$ ist die sogenannte Temperaturspannung, die bei Raumtemperatur etwa $\qty{26}{\milli\volt}$ beträgt.
+$I_S$ è la corrente di saturazione, che dipende fortemente dal tipo di transistor. Può essere trovata nel foglio dati. $U_T$ è la cosiddetta tensione di temperatura, che a temperatura ambiente è di circa $\qty{26}{\milli\volt}$.
 
-Ein Unterschied zum später betrachteten Feldeffekt-Transistor ist, dass beim Bipolartransistor immer auch ein Strom im Eingang (der Basis) fließt, der Basisstrom $I_B$. Auch er ist exponentiell von $U_{BE}$ abhängig, wobei $I_S$ um einen Faktor $B$ kleiner ist als beim Kollektorstrom.
+Una differenza rispetto al transistor a effetto di campo, che sarà esaminato in seguito, è che nel transistor bipolare scorre sempre anche una corrente nell'ingresso (della base), la corrente di base $I_B$. Anche questa è esponenzialmente dipendente da $U_{BE}$, dove $I_S$ è più piccola di un fattore $B$ rispetto alla corrente di collettore.
 
 $I_B = \frac{I_S}{B} \cdot e^{\frac{U_{BE}}{U_T}}$
 
-Der Faktor $B$ ist also der Quotient aus Kollektor- und Basisstrom:
+Il fattore $B$ è quindi il quoziente tra la corrente del collettore e la corrente della base:
 
 $B = \frac{I_C}{I_B}$
 
-Auch wenn der Bipolartransistor physikalisch über $U_\mathrm{BE}$ gesteuert wird, bezeichnet man ihn als *stromgesteuert*, weil er nur dann leitet, wenn ein Basisstrom fließt.
+Anche se il transistor bipolare viene fisicamente controllato tramite $U_\mathrm{BE}$, viene definito come *controllato da corrente*, perché conduce solo quando scorre una corrente di base.
 
 [question:AC501]
 
-Ein Transistor wird als "leitend" in "Durchlassrichtung" bezeichnet, wenn ein signifikanter Kollektorstrom fließt. Dazu muss die Basis-Emitter-Diode stets in Flussrichtung geschaltet sein, also $U_{BE}$ positiv bei npn- und negativ bei pnp-Transistoren. Die Kollektor-Basis-Diode dagegen muss sperren, denn es sollen keine Ladungsträger aus dem Kollektor in die Basis injiziert werden.
+Un transistor viene definito "conduttivo" nella "direzione di passaggio" quando scorre una corrente di collettore significativa. Per questo, la diodo base-emettitore deve essere sempre collegato in direzione di passaggio, quindi $U_{BE}$ positivo per i transistor npn e negativo per i transistor pnp. La diodo collettore-base, invece, deve bloccare, perché non devono essere iniettati portatori di carica dal collettore alla base.
 
 [question:AC505]
 
-Im Folgenden betrachten wir noch ein paar einfache Transistor-Schaltungen auf Basis des Bipolartransistors.
+Di seguito esaminiamo ancora alcuni semplici circuiti a transistor basati sul transistor bipolare.
 
 ---
 
 [question:AC515]
 
-Der gewünschte Arbeitspunkt wird dadurch eingestellt, dass über $R_1$ ein Basisstrom eingeprägt wird. Der Basisstrom ist um die gegebene Stromverstärkung von $\num{298}$ kleiner als der Kollektorstrom. Über dem Widerstand fällt die Differenz von Betriebsspannung und Basispotential ab. Das Basispotential ist mit $\qty{0,6}{\volt}$ gegeben. Also rechnen wir:
+Il punto di funzionamento desiderato viene impostato facendo in modo che, tramite $R_1$, venga iniettata una corrente di base. La corrente di base è inferiore alla corrente di collettore data dell'amplificazione di $\num{298}$. Sulle resistenze cade la differenza tra la tensione di servizio e il potenziale di base. Il potenziale di base è dato a $\qty{0,6}{\volt}$. Quindi calcoliamo:
 
 $R_1 = 298 \cdot \frac{\qty{12}{\volt} - \qty{0,6}{\volt}}{\qty{0,005}{\ampere}} \approx \qty{680}{\kilo\ohm}$
 
 <indepth>
-Die Schaltung hat allerdings in der Praxis einen gewaltigen Nachteil: die Stromverstärkung eines Bipolartransistors ist nicht besonders gut kontrolliert. Nehmen wir als Beispiel den populären BC547B. Seine Stromverstärkung kann nach Spezifikation zwischen $\num{200}$ und $\num{450}$ liegen. Der Kollektorstrom kann also mit dieser Schaltung durchaus um mehr als einen Faktor $2$ vom Entwurf abweichen.
+Il circuito ha però in pratica un enorme svantaggio: l'amplificazione di un transistor bipolare non è particolarmente ben controllata. Prendiamo come esempio il popolare BC547B. La sua amplificazione può variare, secondo la specifica, tra $\num{200}$ e $\num{450}$. La corrente di collettore può quindi deviare di più di un fattore $2$ dal progetto.
 </indepth>
 
-Um eine bessere Stabilität des Arbeitspunkts zu erreichen, wird der Arbeitspunkt des Bipolartransistors in der Regel über einen Spannungsteiler eingestellt. Der sogenannte Querstrom ist der Strom, der hier durch $R_2$ fließt. Er sollte mindestens zehnmal so hoch wie der Basisstrom sein, damit der Basisstrom keinen großen Einfluss auf den Arbeitspunkt hat. 
+Per ottenere una migliore stabilità del punto di funzionamento, il punto di funzionamento del transistor bipolare viene di solito impostato tramite un partitore di tensione. La cosiddetta corrente trasversale è la corrente che scorre qui attraverso $R_2$. Dovrebbe essere almeno dieci volte più alta della corrente di base, affinché la corrente di base non abbia un grande influsso sul punto di funzionamento. 
 
 ---
 
 [question:AC516]
 
 <indepth>
-Auch diese Schaltung ist aus Praxissicht nicht sehr empfehlenswert. Zum einen hängt der Kollektorstrom exponentiell von der Basis-Emitter-Spannung ab. Die Widerstände haben eine Toleranz, durch die das Basispotential durchaus etwas vom Soll abweichen kann - mit einer großen Auswirkung auf den Kollektorstrom. Außerdem ist die Schwellspannung der Basis-Emitter-Diode mit etwa $\qty{-2}{\milli\volt\per\kelvin}$ recht stark temperaturabhängig. Daher wird diese Schaltung einen starken Temperaturgang des Kollektorstroms haben. Das kann manchmal erwünscht sein, aber man muss es im Blick haben. Wir lernen noch eine Schaltung kennen, die eine Gegenkopplung enthält, die den Arbeitspunkt stabilisiert.
+Anche questo circuito non è molto raccomandabile dal punto di vista pratico. Innanzitutto, la corrente di collettore dipende in modo esponenziale dalla tensione base-emettitore. Le resistenze hanno una tolleranza, attraverso la quale il potenziale di base può deviare leggermente dal valore di progetto - con un grande effetto sulla corrente di collettore. Inoltre, la tensione di soglia della diodo base-emettitore è piuttosto dipendente dalla temperatura con circa $\qty{-2}{\milli\volt\per\kelvin}$. Pertanto, questo circuito avrà un forte andamento della corrente di collettore in funzione della temperatura. Questo può essere talvolta desiderabile, ma bisogna tenerlo presente. Impareremo ancora un circuito che contiene un controaccoppiamento che stabilizza il punto di funzionamento.
 </indepth>
 
-Auch zu dieser Schaltung gibt es eine Rechenaufgabe:
+Anche per questo circuito c'è un esercizio di calcolo:
 
 [question:AC518]
 
-Der Spannungsteiler $R_1$ und $R_2$ stellt das Basispotential ein, das, weil der Emitter auf Masse liegt, etwa $\qty{0,6}{\volt}$ betragen muss. Bei einem Kollektorstrom von $\qty{2}{\milli\ampere}$ und einer Stromverstärkung von $\num{200}$ ist der Basisstrom $\qty{2}{\milli\ampere} / 200 = \qty{10}{\micro\ampere}$. Der Strom durch $R_2$ soll der zehnfache Basisstrom sein, durch $R_1$ fließt $11 \cdot \qty{10}{\micro\ampere} = \qty{110}{\micro\ampere}$. Der Widerstand $R_1$ ist dann:
+Il partitore di tensione $R_1$ e $R_2$ imposta il potenziale di base, che, poiché l'emettitore è a massa, deve essere di circa $\qty{0,6}{\volt}$. Con una corrente di collettore di $\qty{2}{\milli\ampere}$ e un'amplificazione di $\num{200}$, la corrente di base è $\qty{2}{\milli\ampere} / 200 = \qty{10}{\micro\ampere}$. La corrente attraverso $R_2$ dovrebbe essere dieci volte la corrente di base, attraverso $R_1$ scorre $11 \cdot \qty{10}{\micro\ampere} = \qty{110}{\micro\ampere}$. La resistenza $R_1$ è quindi:
 
 $R_1 = \frac{\qty{10}{\volt} - \qty{0,6}{\volt}}{\qty{110}{\micro\ampere}} = \qty{85,5}{\kilo\ohm}$
 
-Die nächste Schaltung zeigt eine typische Arbeitspunkteinstellung für den Bipolartransistor, wie sie auch in der Praxis verwendet wird.
+Il prossimo circuito mostra un tipico imposto del punto di funzionamento per il transistor bipolare, come viene utilizzato anche nella pratica.
 
 ---
 
 [question:AC517]
 
 <indepth>
-Dies ist eine gute Schaltung, welche auch in der Praxis häufig verwendet wird, weil der Kollektorstrom vor allem durch den Emitterwiderstand $R_E$ festgelegt wird, der eine Serien-Gegenkopplung darstellt:
+Questo è un buon circuito, che viene utilizzato anche frequentemente nella pratica, perché la corrente di collettore viene determinata principalmente dalla resistenza dell'emettitore $R_E$, che rappresenta un controaccoppiamento in serie:
 
-Steigt der Kollektorstrom $I_C$, so steigt auch der Emitterstrom $I_E$. Dadurch fällt am Emitterwiderstand $R_E$ eine größere Spannung ab. Der Emitter wird also positiver. Da die Basisspannung durch den Spannungsteiler aus $R_1$ und $R_2$ nahezu konstant bleibt, wird die Basis-Emitter-Spannung $ U_{BE} = U_B - U_E $ kleiner.
+Se la corrente di collettore $I_C$ aumenta, aumenta anche la corrente di emettitore $I_E$. Di conseguenza, cade una tensione maggiore sulla resistenza dell'emettitore $R_E$. L'emettitore diventa quindi più positivo. Poiché la tensione di base rimane quasi costante grazie al partitore di tensione formato da $R_1$ e $R_2$, la tensione base-emettitore $ U_{BE} = U_B - U_E $ diventa più piccola.
 
-Eine kleinere Basis-Emitter-Spannung bedeutet, dass der Transistor weniger leitend wird. Der ursprünglich angestiegene Strom wird dadurch wieder reduziert.
+Una tensione base-emettitore più piccola significa che il transistor diventa meno conduttivo. La corrente inizialmente aumentata viene quindi ridotta nuovamente.
 
-Die Schaltung wirkt also Änderungen des Stroms automatisch entgegen. Deshalb spricht man von einer Gegenkopplung. Steigt der Strom, wird der Transistor etwas „zugedreht“. Sinkt der Strom, wird der Transistor wieder stärker leitend. Dadurch stabilisiert sich der Arbeitspunkt der Schaltung.
+Il circuito agisce quindi automaticamente contro le variazioni di corrente. Pertanto, si parla di controaccoppiamento. Se la corrente aumenta, il transistor viene leggermente "chiuso". Se la corrente diminuisce, il transistor diventa nuovamente più conduttivo. Di conseguenza, il punto di funzionamento del circuito si stabilizza.
 </indepth>
 
-Das Basispotential wird über den Spannungsteiler $R_1$ und $R_2$ festgelegt. Da über dem Emitterwiderstand $R_E$ $\qty{1}{\volt}$ abfallen soll, muss das Basispotential $\qty{1,6}{\volt}$ betragen. Bei einem Kollektorstrom von $\qty{2}{\milli\ampere}$ und einer Stromverstärkung von $\num{200}$ beträgt der Basisstrom $\qty{10}{\micro\ampere}$. Da der Strom durch $R_2$ der zehnfache Basisstrom fließen soll, fließt durch $R_1$ der elffache Basisstrom, also $\qty{110}{\micro\ampere}$. Über $R_1$ fällt die Differenz der Betriebsspannung ($\qty{10}{\volt}$) und dem Basispotential ab, also $\qty{8,4}{\volt}$. Nun können wir $R_1$ bestimmen:
+Il potenziale di base viene impostato tramite il partitore di tensione $R_1$ e $R_2$. Poiché deve cadere una tensione di $\qty{1}{\volt}$ sulla resistenza dell'emettitore $R_E$, il potenziale di base deve essere di $\qty{1,6}{\volt}$. Con una corrente di collettore di $\qty{2}{\milli\ampere}$ e un'amplificazione di $\num{200}$, la corrente di base è di $\qty{10}{\micro\ampere}$. Poiché la corrente attraverso $R_2$ dovrebbe essere dieci volte la corrente di base, attraverso $R_1$ scorre l'undicesima parte della corrente di base, cioè $\qty{110}{\micro\ampere}$. Sulla resistenza $R_1$ cade la differenza tra la tensione di servizio ($\qty{10}{\volt}$) e il potenziale di base, cioè $\qty{8,4}{\volt}$. Ora possiamo determinare $R_1$:
 
 $R_1 = \frac{\qty{8,4}{\volt}}{\qty{110}{\micro\ampere}} = \qty{76,4}{\kilo\ohm}$
 
 [question:AC519]
 
-Wenn $R_1$ durch den Fehler nicht von Strom durchflossen, so fällt an $R_2$ keine Spannung ab - die Basis liegt auf Massepotential. Dann ist $U_{BE} \geq \qty{0,6}{\volt}$ nicht erfüllt, und der Transistor ist stromlos. Da am Kollektorwiderstand $R_C$ keine Spannung abfällt, steigt das Kollektorpotential auf die Betriebsspannung an.
+Se $R_1$ non è attraversato da corrente a causa dell'errore, non cade alcuna tensione su $R_2$ - la base è al potenziale di massa. Allora $U_{BE} \geq \qty{0,6}{\volt}$ non è soddisfatto e il transistor è senza corrente. Poiché non cade alcuna tensione sulla resistenza del collettore $R_C$, il potenziale del collettore sale alla tensione di servizio.
 
 [question:AC520]
 
-Bei dem hier gegebenen Fehlerbild ist $R_2$ stromlos. Die Basis ist über $R_1$ mit der Betriebsspannung verbunden. Über diesen Pfad wird ein Basisstrom injiziert. Bei der üblichen Dimensionierung (Querstrom ist der zehnfache reguläre Basisstrom) ist der Basisstrom 11-fach höher als der reguläre Basisstrom - der Kollektorstrom wird sehr stark ansteigen, der Spannungsabfall an $R_C$ steigt stark an, die Kollektor-Emitter-Spannung sinkt auf den Sättigungswert von etwa $\qty{0,1}{\volt}$ ab. Der Kollektorstrom wird nur durch $R_C$ begrenzt.
+Nel caso del modello di errore dato, $R_2$ è senza corrente. La base è collegata alla tensione di servizio tramite $R_1$. Attraverso questo percorso viene iniettata una corrente di base. Con la solita dimensionamento (la corrente trasversale è dieci volte la corrente di base regolare), la corrente di base è 11 volte più alta della corrente di base regolare - la corrente di collettore aumenterà notevolmente, la caduta di tensione su $R_C$ aumenterà notevolmente, la tensione collettore-emettitore scenderà al valore di saturazione di circa $\qty{0,1}{\volt}$. La corrente di collettore sarà limitata solo da $R_C$.
 
 ---
 
-In der nächsten Aufgabe geht es um ein Relais, das über den in Serie dargestellten npn-Transistor geschaltet wird (vgl. Abbildung [ref:a_relais_schaltung]). Nehmen wir an, dass der Transistor zunächst durchgeschaltet ist, es fließt ein Strom durch die Relaisspule, das Relais hat angezogen.
+Nel prossimo esercizio si tratta di un relè che viene commutato tramite il transistor npn rappresentato in serie (cfr. figura [ref:a_relais_schaltung]). Supponiamo che il transistor sia inizialmente acceso, scorra una corrente attraverso la bobina del relè, il relè abbia attratto.
 
 <margin>
-[picture:426:a_relais_schaltung:Relais-Schaltung mit npn-Transistor und Freilaufdiode]
+[picture:426:a_relais_schaltung:Circuito del relè con transistor npn e diodo di libero scorrimento]
 </margin>
 
-Nun schaltet der Transistor ab, der Stromfluss bricht zusammen. Die starke Änderung des Stroms induziert allerdings kurzzeitig in der Spule des Relais eine hohe negative Spannung, die zur Zerstörung des Transistors führen kann.
+Ora il transistor si spegne, il flusso di corrente si interrompe. Tuttavia, il forte cambiamento della corrente induce brevemente nella bobina del relè una tensione negativa elevata, che può portare alla distruzione del transistor.
 
-Um dies zu verhindern, schalten wir eine Freilaufdiode *parallel*. Sie ist so geschaltet, dass sie im Regelbetrieb (Transistor durchgeschaltet) keinen Strom führt - sie muss also in Sperrrichtung eingebaut werden. Die negative Spannung, die beim Zusammenbruch des Stroms kurzzeitig auftritt, schaltet die Diode in Flussrichtung, die entstehende Spannung wird (bei Siliziumdioden) auf $\qty{-0,7}{\volt} \ldots \qty{-0,8}{\volt}$ begrenzt.
+Per evitare ciò, colleghiamo una diodo di libera circolazione *in parallelo*. È collegato in modo tale che, in modalità di regolazione (transistor attivato), non conduca corrente - deve quindi essere installato in direzione di blocco. La tensione negativa che si verifica brevemente al collasso della corrente, attiva la diodo in direzione di conduzione, la tensione risultante viene (per le diodi al silicio) limitata a $\qty{-0,7}{\volt} \ldots \qty{-0,8}{\volt}$.
 
 [question:AC524]
 
 ---
 
-Feldeffekt-Transistoren haben ein ganz anderes Steuerprinzip als Bipolartransistoren. Während bei Bipolartransistoren sowohl Elektronen also auch Defektelektronen ("Löcher") betrachtet werden müssen (daher "bipolar"), ist beim Feldeffekt-Transistor nur eine Ladungsträgersorte beteiligt ("unipolar"). Dies können entweder Elektronen (*n-Kanal-Feldeffekt-Transistor*) oder Löcher (*p-Kanal-Feldeffekt-Transistor*) sein.
+I transistor a effetto di campo hanno un principio di controllo completamente diverso rispetto ai transistor bipolari. Mentre nei transistor bipolari è necessario considerare sia gli elettroni che i portatori di carica mancanti ("buchi"), nei transistor a effetto di campo è coinvolta solo una specie di portatori di carica ("unipolare"). Questi possono essere elettroni (*transistor a effetto di campo a canale n*) o buchi (*transistor a effetto di campo a canale p*).
 
-Die Elektroden des FET, welche in Abbildung [ref:a_fet_schnitt_aus] dargestellt sind, werden wie folgt bezeichnet:
+Gli elettrodi del FET, rappresentati nella figura [ref:a_fet_schnitt_aus], sono denominati come segue:
 
-* *Source*: dies ist die "Quelle" (engl. source) für die Ladungsträger im Kanal. Nicht verwirren lassen: die sogenannte technische Stromrichtung ist entgegen der Ladungsträger-Flussrichtung definiert!
-* *Drain*: dies ist der Abfluss (engl. drain) für die Ladungsträger im Kanal.
-* *Gate*: Das Gate (englisch für Gatter) steuert den Fluss der Ladungsträger im Kanal.
+* *Source*: questa è la "fonte" (ingl. source) per i portatori di carica nel canale. Non confondersi: la cosiddetta direzione tecnica della corrente è definita in senso opposto alla direzione del flusso dei portatori di carica!
+* *Drain*: questo è il deflusso (ingl. drain) per i portatori di carica nel canale.
+* *Gate*: Il gate (inglese per cancello) controlla il flusso dei portatori di carica nel canale.
 
 [question:AC512]
 
-Allen Feldeffekt-Transistoren (oder *FETs*) gemein ist, dass im normalen Betrieb kein Strom im Eingang, der Gate-Elektrode, fließt. Die Steuerung der Ladung im Kanal (dem Bereich zwischen *Source* und *Drain*) ist ausschließlich von der Gate-Source-Spannung abhängig.
+Tutti i transistor a effetto di campo (o *FETs*) hanno in comune che, in modalità normale, non scorre corrente nell'ingresso, l'elettrodo di gate. Il controllo della carica nel canale (la zona tra *Source* e *Drain*) dipende esclusivamente dalla tensione gate-source.
 
 <margin>
-[picture:1073:a_fet_schnitt_aus:FET im Querschnitt, nicht leitend]
-[picture:1074:a_fet_schnitt_ein:FET im Querschnitt, leitend]
+[picture:1073:a_fet_schnitt_aus:FET in sezione trasversale, non conduttivo]
+[picture:1074:a_fet_schnitt_ein:FET in sezione trasversale, conduttivo]
 </margin>
 
-Die Abbildungen [ref:a_fet_schnitt_aus] und [ref:a_fet_schnitt_ein] zeigen den Querschnitt eines n-Kanal-MOSFETs im gesperrten und im leitenden Zustand. Im oberen Bild ist keine ausreichende Gate-Source-Spannung $U_{GS}$ angelegt. Zwischen den n-dotierten Bereichen von Source und Drain befindet sich das p-dotierte Substrat, sodass kein leitfähiger Kanal vorhanden ist. Der Transistor sperrt, und zwischen Source und Drain kann kein Strom fließen.
+Le figure [ref:a_fet_schnitt_aus] e [ref:a_fet_schnitt_ein] mostrano la sezione trasversale di un MOSFET a canale n nello stato bloccato e nello stato conduttivo. Nell'immagine superiore non è applicata una tensione gate-source $U_{GS}$ sufficiente. Tra le aree n-dopate di source e drain si trova il substrato p-dopato, quindi non è presente un canale conduttivo. Il transistor è bloccato e tra source e drain non può fluire corrente.
 
-Wird am Gate eine positive Spannung gegenüber Source angelegt (vgl. Abbildung [ref:a_fet_schnitt_ein]), entsteht durch die isolierende SiO$_2$-Schicht hindurch ein elektrisches Feld. Dieses Feld zieht Elektronen an die Oberfläche des p-dotierten Substrats direkt unterhalb des Gates. Dadurch bildet sich dort ein leitfähiger n-Kanal, der Source und Drain miteinander verbindet. Der MOSFET wird leitend, und es kann ein Strom zwischen Drain und Source fließen.
+Se viene applicata una tensione positiva al gate rispetto alla source (vedi figura [ref:a_fet_schnitt_ein]), attraverso lo strato isolante di SiO$_2$ si genera un campo elettrico. Questo campo attrae gli elettroni sulla superficie del substrato p-dopato direttamente sotto il gate. Si forma così un canale conduttivo n che collega source e drain. Il MOSFET diventa conduttivo e può fluire una corrente tra drain e source.
 
-Wichtig ist dabei, dass das Gate durch die Oxidschicht elektrisch isoliert ist. Im Idealfall fließt daher kein Gate-Strom; der MOSFET wird nicht durch einen Steuerstrom, sondern durch das elektrische Feld am Gate gesteuert. Deshalb wird er auch als *spannungsgesteuertes* Bauelement bezeichnet.
+È importante che il gate sia elettricamente isolato dallo strato di ossido. In teoria, quindi, non dovrebbe fluire corrente di gate; il MOSFET non è controllato da una corrente di controllo, ma dal campo elettrico al gate. Per questo motivo viene anche definito un componente *controllato da tensione*.
 
 [question:AC502]
 
@@ -145,29 +145,29 @@ Wichtig ist dabei, dass das Gate durch die Oxidschicht elektrisch isoliert ist. 
 
 [question:AC514]
 
-Wie wir bereits festgestellt hatten, ist der FET ein *spannungsgesteuertes* Bauelement, in dem kein Gate-Strom fließt. Die gewünschte Antwort ist die, dass die Gate-Source-Spannung den *Kanalwiderstand* steuert. Allerdings kann das Verhalten des Kanals nur für sehr kleine Drain-Source-Spannungen als Widerstand beschrieben werden, in sofern ist die Antwort etwas unglücklich formuliert. Besser wäre: die Gate-Source-Spannung steuert den Kanalstrom.
+Come abbiamo già notato, il FET è un componente *controllato da tensione* in cui non scorre corrente di gate. La risposta desiderata è che la tensione gate-source controlla la *resistenza del canale*. Tuttavia, il comportamento del canale può essere descritto come resistenza solo per tensioni molto piccole tra drain e source, quindi la risposta è un po' infelice. Meglio sarebbe: la tensione gate-source controlla la corrente del canale.
 
 ---
 
-Die senkrechte Linie symbolisiert den Kanal, die oben (Drain) und unten (Source) kontaktiert wird. Links ist das Gate zu sehen - der Pfeil erinnert zusammen mit dem senkrechten Strich an eine Diode. Es handelt sich also um einen FET, genau genommen einen Sperrschicht-FET. Die Abbildung [ref:a_fet_overview] zeigt eine Übersicht über die verschiedenen FET-Typen mit ihren Schaltsymbolen.
+La linea verticale simboleggia il canale, che viene contattato in alto (drain) e in basso (source). A sinistra è visibile il gate - la freccia, insieme alla linea verticale, ricorda una diodo. Si tratta quindi di un FET, più precisamente di un FET a giunzione. La figura [ref:a_fet_overview] mostra una panoramica dei vari tipi di FET con i loro simboli di commutazione.
 
 <margin>
-[picture:1075:a_fet_overview:FET-Übersicht mit Symbolen]
+[picture:1075:a_fet_overview:Panoramica FET con simboli]
 </margin>
 
 [question:AC506]
 
-Bei den folgenden Fragen geht es darum, bestimmte FET-Typen ihrem Schaltsymbol zuzuordnen. Dazu ein paar Grundregeln:
+Nelle domande seguenti si tratta di assegnare determinati tipi di FET al loro simbolo di commutazione. Ecco alcune regole di base:
 
-* Der Strom im Kanal kann entweder von Elektronen oder von Löchern getragen werden. Wir sprechen im ersten Fall von einem *n-Kanal-FET*, im zweiten Fall von einem *p-Kanal-FET*.
-* Wir können FETs auch danach unterscheiden, ob für eine Gate-Source-Spannung $U_{GS}=0$ ein Strom im Kanal fließt oder nicht. Sie heißen dann entweder *selbstleitend* oder *selbstsperrend*. 
-* Schließlich können wir FETs danach unterscheiden, ob die Gate-Elektrode eine Diode ist, oder eine Kondensator-Struktur. Ist Gate eine Diode, sprechen wir von einem Sperrschicht-FET. Beispiele sind der JFET (junction field effect transistor) und der MESFET (metal semiconductor field effect transistor). Beim MESFET ist die Gate-Diode eine Schottky-Diode. Bei einem *Isolierschicht-FET* ist die Gate-Elektrode durch einen Isolator (ein Dielektrikum) vom Kanal getrennt. Die anliegende Spannung steuert die Dichte von Ladungsträgern im Kanal. Ist der Isolator ein Oxid, zum Beispiel Siliziumdioxid, sprechen wir auch von einem MOSFET (metal oxide semiconductor FET). Wegen ihrer Verwendung in Digitalschaltkreisen sind MOSFETs mit sehr weitem Abstand die häufigsten Transistortypen.
+* La corrente nel canale può essere trasportata sia da elettroni che da buchi. Nel primo caso parliamo di un *FET a canale n*, nel secondo caso di un *FET a canale p*.
+* Possiamo anche distinguere i FET in base a se, per una tensione gate-source $U_{GS}=0$, scorre una corrente nel canale o no. In tal caso si chiamano rispettivamente *autoconducenti* o *autobloccanti*. 
+* Infine, possiamo distinguere i FET in base a se l'elettrodo di gate è una diodo o una struttura a condensatore. Se il gate è una diodo, parliamo di un FET a giunzione. Esempi sono il JFET (junction field effect transistor) e il MESFET (metal semiconductor field effect transistor). Nel MESFET, la diodo di gate è una diodo di Schottky. In un *FET a strato isolante*, l'elettrodo di gate è separato dal canale da un isolante (un materiale dielettrico). La tensione applicata controlla la densità di portatori di carica nel canale. Se l'isolante è un ossido, ad esempio biossido di silicio, parliamo anche di un MOSFET (metal oxide semiconductor FET). Grazie alla loro utilizzazione nei circuiti digitali, i MOSFET sono con ampio margine i tipi di transistor più comuni.
 
-Der Pfeil zeigt an, ob es sich um einen n- oder p-Kanal-FET handelt. Wie bei der Diode zeigt der Pfeil auf die Kathode, also den n-dotierten Bereich. Zeigt also der Pfeil auf den Kanal, handelt es sich um einen n-Kanal-FET. Beim Sperrschicht-FET trägt das Gate den Kanal, beim Isolierschicht-FET ist der Pfeil zwischen Kanal und der sogenannten Bulk-Schicht zu sehen, die unter dem Kanal liegt und meist intern mit der Source-Elektrode verbunden ist.
+La freccia indica se si tratta di un FET a canale n o p. Come nella diodo, la freccia punta alla catodo, quindi alla zona n-dopata. Quindi, se la freccia punta al canale, si tratta di un FET a canale n. Nel FET a giunzione, il gate porta il canale, nel FET a strato isolante la freccia è tra il canale e lo strato chiamato bulk, che si trova sotto il canale e di solito è collegato internamente all'elettrodo di source.
 
-Im Isolierschicht-FET bilden Gate und Kanal auch grafisch einen Kondensator.
+Nel FET a strato isolante, gate e canale formano anche graficamente un condensatore.
 
-Beim selbstleitenden FET geht die Linie zwischen Source und Drain durch, während sie beim selbstsperrenden FET unterbrochen ist.
+Nel FET autoconducente, la linea tra source e drain è continua, mentre nel FET autobloccante è interrotta.
 
 [question:AC507]
 [question:AC508]
@@ -175,22 +175,22 @@ Beim selbstleitenden FET geht die Linie zwischen Source und Drain durch, währen
 [question:AC510]
 [question:AC511]
 
-Im folgenden wollen wir auch ein paar MOSFET-Schaltungen betrachten, die auf den vorherigen Fragen aufbauen.
+Di seguito vogliamo esaminare anche alcune circuiti MOSFET che si basano sulle domande precedenti.
 
 [question:AC521]
 
-In den Gate-Anschluss eines MOSFETs fließt kein Gleichstrom. Daher handelt es sich im einen *unbelasteten* Spannungsteiler und es gilt:
+Nel terminale di gate di un MOSFET non scorre corrente continua. Pertanto, si tratta di un partitore di tensione *non caricato* e vale:
 
 $U_{GS} = \frac{R_2}{R_1 + R_2} \cdot U_B = \frac{\qty{1}{\kilo\ohm}}{\qty{11}{\kilo\ohm}} \cdot \qty{44}{\volt} = \qty{4}{\volt}$
 
 [question:AC522]
 
-Auch hier handelt es sich um einen unbelasteten Spannungsteiler. Da die Spannungen gegeben sind, setzen wir am einfachsten an:
+Anche qui si tratta di un partitore di tensione non caricato. Poiché le tensioni sono date, è più semplice iniziare con:
 
 $\frac{R_2}{R_1} = \frac{\qty{2,8}{\volt}}{\qty{44}{\volt} - \qty{2,8}{\volt}} \rightarrow R_2 = 0,068 \cdot \qty{10}{\kilo\ohm} = \qty{680}{\ohm}$
 
 [question:AC523]
 
-Der Leistungs-MOSFET ist hier vollständig durchgeschaltet, der Kanal lässt sich als ein ohmscher Widerstand von (lt. Aufgabenstellung) $R_\mathrm{DSon} = \qty{4}{\milli\ohm}$ darstellen. Es fließt ein Strom von $\qty{25}{\ampere}$. Die Verlustleistung berechnen wir einfach nach der bekannten Leistungs-Formel:
+Il MOSFET di potenza è completamente attivato qui, il canale può essere rappresentato come una resistenza ohmica di (secondo il problema) $R_\mathrm{DSon} = \qty{4}{\milli\ohm}$. Circola una corrente di $\qty{25}{\ampere}$. Calcoliamo la potenza dissipata semplicemente con la nota formula della potenza:
 
 $P_V = I^2 \cdot R_{\mathrm{DSon}} = \qty{2,5}{\watt}$

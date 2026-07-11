@@ -1,34 +1,34 @@
-## Reihenschaltung
+## Collegamento in serie
 
-Bei einer Reihenschaltung addieren sich die Widerstandswerte
+In un collegamento in serie, i valori di resistenza si sommano
 
-[picture:812:e_reihenschaltung_von_r:Reihenschaltung von 3 Widerständen]
+[picture:812:e_reihenschaltung_von_r:Collegamento in serie di 3 resistenze]
 
-$R_{\mathrm{ges}} = R_{1} + R_{2} + R_{3}$
-Beispiel: $R_{\mathrm{ges}} = \qty{100}{\ohm} + \qty{200}{\ohm} + \qty{300}{\ohm}$
+$R_{\mathrm{tot}} = R_{1} + R_{2} + R_{3}$
+Esempio: $R_{\mathrm{tot}} = \qty{100}{\ohm} + \qty{200}{\ohm} + \qty{300}{\ohm}$
 
 --- style="font-size: 0.7em;"
 
-## Parallelschaltung
+## Collegamento in parallelo
 
-Bei einer Parallelschaltung von Widerständen ist der Gesamtwiderstand kleiner als der Wert des kleinsten Widerstandes
+Nel collegamento in parallelo di resistenze, la resistenza totale è inferiore al valore della resistenza più piccola
 
-[picture:811:e_parallelschaltung_von_r:Parallelschaltung von 3 Widerständen]
+[picture:811:e_parallelschaltung_von_r:Collegamento in parallelo di 3 resistenze]
 
-$\frac{1}{R_{\mathrm{ges}}} = \frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}}$
+$\frac{1}{R_{\mathrm{tot}}} = \frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}}$
 
 
-
----
-
-Vereinfachung für zwei Widerstände:
-$R_{\mathrm{ges}} = \dfrac{R_{1} \cdot R_{2}}{R_{1} + R_{2}}$
 
 ---
 
-Vereinfachung für gleiche Widerstände:
-$R_{\mathrm{ges}} = \dfrac{R}{n}$
-$n$ steht für die Anzahl der Widerstände
+Semplificazione per due resistenze:
+$R_{\mathrm{tot}} = \dfrac{R_{1} \cdot R_{2}}{R_{1} + R_{2}}$
+
+---
+
+Semplificazione per resistenze uguali:
+$R_{\mathrm{tot}} = \dfrac{R}{n}$
+$n$ indica il numero di resistenze
 
 ---
 
@@ -44,34 +44,34 @@ $n$ steht für die Anzahl der Widerstände
 
 ---
 
-## Gemischte Schaltungen
+## Circuiti misti
 
 --- style="font-size: 0.7em;"
 
-### Variante 1: Zwei Parallel und dazu einer in Reihe
+### Variante 1: Due in parallelo e una in serie
 
-[picture:813:e_gemischte_schaltung_1:Gemischte Schaltung - Variante 1]
+[picture:813:e_gemischte_schaltung_1:Circuito misto - Variante 1]
 
 <fragment>
-Hier berechnet man zuerst die Parallelschaltung von $R_2$ und $R_3$ und addiert dann $R_1$ hinzu.
+Qui si calcola prima il collegamento in parallelo di $R_2$ e $R_3$ e poi si aggiunge $R_1$.
 </fragment>
 
 <fragment>
-$R_{\mathrm{ges}} = \dfrac{R_{2} \cdot R_{3}}{R_{2} + R_{3}} + R_{1}$
+$R_{\mathrm{tot}} = \dfrac{R_{2} \cdot R_{3}}{R_{2} + R_{3}} + R_{1}$
 </fragment>
 
 ---
 
-### Variante 2: Zwei in Reihe und dazu einer Parallel
+### Variante 2: Due in serie e una in parallelo
 
-[picture:814:e_gemischte_schaltung_2:Gemischte Schaltung - Variante 2]
+[picture:814:e_gemischte_schaltung_2:Circuito misto - Variante 2]
 
 <fragment>
-Hier addiert man zuerst $R_1$ und $R_2$ um mit diesem Ergebnis die Parallelschaltung zu $R_3$ zu berechnen.
+Qui si sommano prima $R_1$ e $R_2$ per calcolare con questo risultato il collegamento in parallelo con $R_3$.
 </fragment>
 
 <fragment>
-$R_{\mathrm{ges}} = \dfrac{(R_{1} + R_{2}) \cdot R_{3}} {(R_{1} + R_{2}) + R_{3}}$
+$R_{\mathrm{tot}} = \dfrac{(R_{1} + R_{2}) \cdot R_{3}} {(R_{1} + R_{2}) + R_{3}}$
 </fragment>
 
 ---
@@ -100,12 +100,12 @@ $R_{\mathrm{ges}} = \dfrac{(R_{1} + R_{2}) \cdot R_{3}} {(R_{1} + R_{2}) + R_{3}
 
 ---
 
-### Belastbarkeit von Widerständen in Reihen- und Parallelschaltung
+### Capacità di carico delle resistenze in collegamento serie e parallelo
 
-* Bei einer Reihenschaltung teilen sich die Spannungen auf.
-* Bei einer Parallelschaltung teilen sich die Ströme auf.
-* Somit ist bei der Berechnung mittels $P = U \cdot I$ immer ein Wert konstant und der andere entsprechend kleiner.
-* $\rightarrow$ die Gesamtbelastbarkeit ist in beiden Fällen größer als die Einzelbelastbarkeit.
+* In un collegamento in serie, le tensioni si ripartiscono.
+* In un collegamento in parallelo, le correnti si ripartiscono.
+* Pertanto, nel calcolo tramite $P = U \cdot I$, un valore è sempre costante e l'altro di conseguenza più piccolo.
+* $\rightarrow$ la capacità di carico totale è maggiore della capacità di carico singola in entrambi i casi.
 
 ---
 

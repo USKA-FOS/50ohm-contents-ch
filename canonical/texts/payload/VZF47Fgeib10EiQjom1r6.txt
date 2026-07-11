@@ -1,17 +1,17 @@
-Eine Station für Remote-Betrieb besteht aus mehreren voneinander logisch trennbaren Funktionsblöcken. Hierbei können bei modernen Geräten auch teile dieser Funktionsblöcke in einem Gerät integriert sein (z.B. Transceiver mit Netzwerkanschluss und Remote-Interface).
+Una stazione per il funzionamento remoto è composta da diversi blocchi funzionali logicamente separabili. Nei dispositivi moderni, parte di questi blocchi funzionali possono anche essere integrati in un unico dispositivo (ad esempio, un trasmettitore-ricevitore con connessione di rete e interfaccia remota).
 
-Eine Anordnung für Remote-Betrieb kann mit folgenden Funktionsblöcken logisch dargestellt werden.
+Una configurazione per il funzionamento remoto può essere rappresentata logicamente con i seguenti blocchi funzionali.
 
 ---
 
 <margin>
-[picture:501:a_remotebetrieb:Blockschaltbild Remote Betrieb]
+[picture:501:a_remotebetrieb:Schema a blocchi funzionamento remoto]
 </margin>
 
-* *Computer und Bedienteil des Operators (Block 1)*: Dieses dient zur Steuerung der Remote-Station. Hierbei werden lokal Audiosignale sowie Steuersignale in Netzwerkpakete umgewandelt und an die Remote-Station übertragen. Empfangene Steuer- und Audiosignale der Remote-Station (welche über Netzwerk übertragen werden) werden durch den Computer/Bedienteil wieder hör und sichtbar gemacht.
-* *Netzwerk*: Verbindungsnetzwerk oder Verbindungsnetzwerke zwischen Standort des Operators und der Remote-Station. Hierbei kann auch das Internet als Netzwerk zwischen den Standorten dienen.
-* *Computer oder Remoteinterface am Remote-Standort (Block 2)*: Dieses setzt empfangene Netzwerkpakete des Operators in Steuersignale und Audiosignale für die weitere Steuerung des Transceivers am Remote-Standort um und überträgt im Rückweg die empfangenen Audiosignale des Transceivers über das Netzwerk zum Operator. Auch Einstellungen des Transceivers sowie rücklaufende Steuersignale werden über das Netzwerk zum Operator übertragen.
-* *Transceiver/Verstärker/Tuner/Antennenrotor (Block 3)*: Diese Geräte werden durch das Remote-Interface oder einen Computer am Remote-Standort angesteuert/rückgemeldet durch Signale, die der Operator über das Netzwerk an das Remote-Interface überträgt.
+* *Computer e unità di controllo dell'operatore (Blocco 1)*: Serve per controllare la stazione remota. I segnali audio e i segnali di controllo locali vengono convertiti in pacchetti di rete e trasmessi alla stazione remota. I segnali di controllo e audio ricevuti dalla stazione remota (che vengono trasmessi tramite rete) vengono resi nuovamente udibili e visibili dal computer/unità di controllo.
+* *Rete*: Rete di collegamento o reti di collegamento tra la posizione dell'operatore e la stazione remota. Internet può anche fungere da rete tra le posizioni.
+* *Computer o interfaccia remota nella posizione remota (Blocco 2)*: Questo converte i pacchetti di rete ricevuti dall'operatore in segnali di controllo e segnali audio per l'ulteriore controllo del trasmettitore-ricevitore nella posizione remota e, nel percorso di ritorno, trasmette i segnali audio ricevuti dal trasmettitore-ricevitore tramite la rete all'operatore. Anche le regolazioni del trasmettitore-ricevitore e i segnali di controllo di ritorno vengono trasmessi tramite la rete all'operatore.
+* *Trasmettitore-ricevitore/Amplificatore/Tuner/Rotore antenna (Blocco 3)*: Questi dispositivi vengono comandati/segnalati dall'interfaccia remota o da un computer nella posizione remota tramite segnali che l'operatore trasmette all'interfaccia remota tramite la rete.
 
 [question:AF701]
 [question:AF702]
@@ -19,19 +19,19 @@ Eine Anordnung für Remote-Betrieb kann mit folgenden Funktionsblöcken logisch 
 [question:AF703]
 [question:AF705]
 
-Bei Remote-Betrieb kommt es durch Laufzeiten im Netzwerk und Verarbeitungszeiten bei der Codierung und Decodierung von Audio-Signalen zu zeitlichen Verzögerungen. Dies ist beim Funkbetrieb über Remote-Stationen zu berücksichtigen.
+Nel funzionamento remoto, i tempi di percorrenza nella rete e i tempi di elaborazione per la codifica e decodifica dei segnali audio causano ritardi temporali. Questo deve essere considerato durante il funzionamento radio tramite stazioni remote.
 
 [question:AF709]
 [question:AF710]
 
-Um sicherzustellen, dass eine Remote-Station bei Abbruch oder Störung der Datenverbindung zwischen Benutzer/Bedienteil und Remoteinterface nicht in einen unkontrollierten Zustand/Betrieb fällt, ist eine permanente Überwachung und Rückmeldung zwischen Operator und Remote-Station mittels eines sog. Watchdogs erforderlich. Hierbei werden z.B. in zeitlichen Abständen von wenigen Sekunden Datenpakete von der Remotestation an den Computer des Operators gesendet, die in einer bestimmten Zeit quittiert werden müssen durch Rückantwort. Erfolgt diese Rückantwort nicht, so weiß die Remote-Station, dass die Verbindung zum Operator unterbrochen ist und kann den Transceiver selbsttätig in einen definierten sicheren Zustand (z.B. Empfangsmodus) bringen und eine laufende Sendung unterbrechen.
+Per garantire che una stazione remota non cada in uno stato/funzionamento incontrollato in caso di interruzione o disturbo della connessione dati tra l'utente/unità di controllo e l'interfaccia remota, è necessario un monitoraggio e un feedback permanenti tra l'operatore e la stazione remota tramite un cosiddetto watchdog. In questo caso, ad esempio, a intervalli di pochi secondi, pacchetti di dati vengono inviati dalla stazione remota al computer dell'operatore, che devono essere confermati entro un certo tempo con una risposta. Se questa risposta non avviene, la stazione remota sa che la connessione con l'operatore è interrotta e può portare automaticamente il trasmettitore-ricevitore in uno stato sicuro definito (ad esempio, modalità di ricezione) e interrompere una trasmissione in corso.
 
 [question:AF708]
 
-Da auch der Transceiver selbst in einen undefinierten Zustand kommen kann (z.B. durch Software- oder Hardware-Fehler im Gerät) sollte die Versorgungsspannung des Transceivers aus der Ferne abschaltbar sein. Dies kann z.B. durch eine IP-Steckdose, welche sich durch den Operator über das Netzwerk steuern lässt, erfolgen.
+Poiché anche il trasmettitore-ricevitore stesso può entrare in uno stato indefinito (ad esempio, a causa di errori software o hardware nel dispositivo), la tensione di alimentazione del trasmettitore-ricevitore dovrebbe essere disattivabile da remoto. Ciò può avvenire, ad esempio, tramite una presa IP che può essere controllata dall'operatore tramite la rete.
 
 [question:AF707]
 
-Beim Betrieb einer Remote-Station ist ebenfalls zu berücksichtigen und damit zu rechnen, dass Komponten der Remote-Station durch den Transceiver am Standort der Remote-Station gestört werden können.
+Durante il funzionamento di una stazione remota, si deve anche considerare e prevedere che i componenti della stazione remota possano essere disturbati dal trasmettitore-ricevitore nella posizione della stazione remota.
 
 [question:AF706]

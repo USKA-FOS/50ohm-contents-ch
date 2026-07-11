@@ -1,14 +1,14 @@
-In den Lektionen der Klassen N und E haben wir bereits typische Beeinflussungen elektronischer Geräte und Anlagen kennengelernt – etwa durch direkte Einstrahlung in das Gehäuse oder durch Einkopplung in Zuleitungen – sowie passende Gegenmaßnahmen und Verhaltensweisen. In der Klasse A werden diese Aspekte noch etwas weiter vertieft. 
+Nelle lezioni delle classi N ed E abbiamo già appreso le tipiche interferenze dei dispositivi e degli impianti elettronici – ad esempio dovute a irraggiamento diretto nell'involucro o a accoppiamento nelle linee di alimentazione – nonché le contromisure e i comportamenti appropriati. Nella classe A questi aspetti vengono approfonditi ulteriormente. 
 
 [question:AJ105]
 
-Kommt es bei digitalen Eigenbauempfängern zu Empfangsstörungen so kann eine mögliche Ursache hierfür eine schlechte Schirmung des Empfängers sein. Hier bietet es sich an die Leiterplatte des Empfängers in ein geerdetes Metallgehäuse einzubauen. Insbesondere bei SDR-Empfängern oder Eigenbaulösungen in SDR-Technik ist eine gute Schirmung zur Vermeidung von Einstrahlungen unbedingt erforderlich. Umgekehrt werden so auch unerwünschte Abstrahlungen durch diese Geräte vermindert.
+Se nei ricevitori autocostruiti digitali si verificano disturbi di ricezione, una possibile causa può essere un cattivo schermaggio del ricevitore. In questo caso, è opportuno installare il circuito stampato del ricevitore in un involucro metallico messo a terra. Soprattutto per i ricevitori SDR o le soluzioni autocostruite basate sulla tecnologia SDR, un buon schermaggio è assolutamente necessario per evitare irraggiamenti. Viceversa, in questo modo si riducono anche le emissioni indesiderate da parte di questi dispositivi.
 
 [question:AJ103]
 
 ---
 
-In der Klasse E haben wir uns bereits mit Einkopplungen in Netzleitungen beschäftigt. Es gibt jedoch eine weitere Gegenmaßnahme, die wir uns im Folgenden genauer ansehen wollen. Sollten Störungen über die Netzzuleitung einströmen, so bietet sich der Einbau eines Netzfilters in Form eines Tiefpassfilters (Vgl. Abbildung [ref:a_netzfilter] und Abbildung [ref:a_netzfilter_draw]) an. Diese Filter sind unter Beachtung der VDE-Vorschriften als fertige Geräte erhältlich. 
+Nella classe E ci siamo già occupati degli accoppiamenti nelle linee di alimentazione. Esiste tuttavia un'altra contromisura che vogliamo esaminare più da vicino di seguito. Se i disturbi penetrano attraverso la linea di alimentazione, l'installazione di un filtro di rete sotto forma di filtro passa-basso (cfr. figura [ref:a_netzfilter] e figura [ref:a_netzfilter_draw]) è una soluzione. Questi filtri sono disponibili come dispositivi finiti, nel rispetto delle normative VDE. 
 
 [question:AJ116]
 [question:AJ117]
@@ -19,41 +19,41 @@ In der Klasse E haben wir uns bereits mit Einkopplungen in Netzleitungen beschä
 [picture:367:a_netzfilter_draw:Schaltung eines Netzfilters]
 </margin>
 
-Unterschiedliche Übertragungsverfahren haben aufgrund ihrer Modulationscharakteristik unterschiedliche Wirkungen hinsichtlich Beeinflussungen von Geräten und Leitungen. Insbesondere die Modulationsarten CW sowie SSB (bei denen sich die Amplitude rasch ändert) führen oft zu Beeinflussungen in Lautsprecherzuleitungen und einer hierauf folgenden Gleichrichtung der HF an den Basis-Emitter-Strecken im NF-Teil von Verstärkern. Der Basis-Emitter-Übergang verhält sich hierbei wie eine Diode und richtet die HF gleich. Hierdurch wird die hierdurch demodulierte NF in den Lautsprechern hörbar.
+Diversi metodi di trasmissione hanno effetti diversi per quanto riguarda le interferenze con dispositivi e linee, a causa delle loro caratteristiche di modulazione. In particolare, i tipi di modulazione CW e SSB (in cui l'ampiezza cambia rapidamente) spesso causano interferenze nelle linee di collegamento degli altoparlanti e una successiva rettifica dell'HF sulle giunzioni base-emettitore nella parte NF degli amplificatori. La giunzione base-emettitore si comporta in questo caso come un diodo e raddrizza l'HF. In questo modo, l'NF demodulata diventa udibile negli altoparlanti.
 
 [question:AJ107]
 [question:AJ106]
 
-Um DVB-T Empfänger vor starken Signalen eines VHF/UHF Amateurfunksenders in unmittelbarer Nähe zu schützen sollte in die Antennenzuleitung des DVB-T-Empfängers ein Hochpassfilter eingebaut werden. Dies ist jedoch nur bei passiven Empfangsantennen wirksam. Insbesondere unselektive TV-Antennenvorverstärker werden durch benachbarte Sendesignale schnell übersteuert, da diese einen breiten Frequenzbereich verstärken.
-Bei aktiven Empfangsantennen muss ein Hochpassfilter vor dem Antennenvorverstärker der Antenne eingebaut werden.
-Beim Einbau von Filtern ist auch die Einfügedämpfung der Filter im Durchlassbereich zu beachten. Diese sollte so gering wie möglich sein und nicht mehr als $\qtyrange{2}{3}{\dB}$ betragen um das gewünschte Empfangssignal möglichst ungehindert passieren zu lassen.
+Per proteggere i ricevitori DVB-T da segnali forti di un trasmettitore radioamatoriale VHF/UHF nelle immediate vicinanze, è necessario installare un filtro passa-alto nella linea di collegamento dell'antenna del ricevitore DVB-T. Tuttavia, ciò è efficace solo con antenne di ricezione passive. In particolare, i preamplificatori di antenna TV non selettivi vengono rapidamente sovraeccitati da segnali di trasmissione vicini, poiché amplificano un'ampia banda di frequenza.
+Con antenne di ricezione attive, un filtro passa-alto deve essere installato prima del preamplificatore dell'antenna.
+Quando si installano filtri, è necessario considerare anche l'attenuazione di inserzione dei filtri nella banda passante. Questa dovrebbe essere la più bassa possibile e non superare i $\qtyrange{2}{3}{\dB}$ per consentire al segnale ricevuto desiderato di passare il più liberamente possibile.
 
 [question:AJ113]
 [question:AJ114]
 [question:AJ108]
 
-Grundsätzlich macht es Sinn hinter einem starken Kurzwellensender ein Tiefpassfilter mit einer Grenzfrequenz von $\qtyrange{30}{40}{\mega\hertz}$ zu installieren. Auch durch Verwendung eines Antennen-Tuners in Tiefpass-Konfiguration (Pi- oder LC-Filter) kann eine Tiefpasswirkung erreicht werden, die Oberwellenaussendungen wirksam unterdrückt.
+Fondamentalmente, ha senso installare un filtro passa-basso con una frequenza di taglio di $\qtyrange{30}{40}{\mega\hertz}$ dietro un potente trasmettitore a onde corte. Anche utilizzando un accordatore d'antenna in configurazione passa-basso (filtro Pi o LC) si può ottenere un effetto passa-basso che sopprime efficacemente le emissioni armoniche.
 
 [question:AJ112]
 [question:AJ104]
 
-Starke Sendesignale einer Amateurfunkstation können bei DAB, TV und UKW-Empfängern Empfangsstörungen, Störgeräusche oder Aussetzer/Artefakte/Verstummen  (insbesondere bei digitalen Empfängern wie DAB/DVB-T) hervorrufen. Diese Störungen werden oft durch Übersteuerung des Empfängereingangs durch hohe Signalstärken am Empfangsort hervorgerufen und führen zur Verringerung der Empfindlichkeit des Empfängers oder Übersteuerung der Eingangsstufe des Empfängers.
+Forti segnali di trasmissione da una stazione radioamatoriale possono causare disturbi di ricezione, rumori o interruzioni/artefatti/silenzio (soprattutto nei ricevitori digitali come DAB/DVB-T) nei ricevitori DAB, TV e FM. Questi disturbi sono spesso causati dalla sovraeccitazione dell'ingresso del ricevitore a causa di elevate intensità di segnale nel luogo di ricezione e portano a una riduzione della sensibilità del ricevitore o alla sovraeccitazione dello stadio di ingresso del ricevitore.
 
 [question:AJ110]
 [question:AJ111]
 [question:AJ109]
 
-Um die vorgenannten Probleme zu vermeiden sollte seitens des Funkamateurs daher immer nur mit der minimal erforderlichen Sendeleistung für eine zufriedenstellende Kommunikation gearbeitet werden.
+Per evitare i problemi sopra menzionati, il radioamatore dovrebbe quindi utilizzare sempre solo la potenza di trasmissione minima necessaria per una comunicazione soddisfacente.
 
 [question:AJ101]
 
-Zum Abblocken von HF-Störungen in Schaltungen und Geräten werden oft Abblockkondensatoren verwendet. Diese müssen die Eigenschaft haben die HF möglichst effizient gegen Masse abzuleiten. Hierfür eignen sich insbesondere Keramik-Kondensatoren sehr gut. Ungeeignet sind Elektrolyt- und Kunststoff-Folienkondensatoren, da diese durch ihren gewickelten Aufbau eine hohe Eigeninduktivität besitzen. Bei Tantal-Kondensatoren wird oft aufgrund der besseren HF-Ableitungseigenschaften ein Keramik-Kondensator parallel geschaltet, da diese alleinig nur für mittlere HF-Frequenzen bis ca. $\qty{30}{\mega\hertz}$ geeignet sind und Keramik-Kondensatoren weitaus höhere Frequenzen abblocken können.
-Um HF-Störungen wirksam abzuleiten muss eine wirksame Erdung mit niedriger Impedanz vorliegen.
+Per bloccare i disturbi HF nei circuiti e nei dispositivi vengono spesso utilizzati condensatori di blocco. Questi devono avere la proprietà di scaricare l'HF verso massa nel modo più efficiente possibile. A tal fine, i condensatori ceramici sono particolarmente adatti. I condensatori elettrolitici e a film plastico non sono adatti, poiché la loro costruzione avvolta presenta un'elevata autoinduttanza. Nel caso dei condensatori al tantalio, spesso viene collegato in parallelo un condensatore ceramico per migliorare le proprietà di scarico HF, poiché questi ultimi sono adatti solo per frequenze HF medie fino a circa $\qty{30}{\mega\hertz}$, mentre i condensatori ceramici possono bloccare frequenze molto più elevate.
+Per scaricare efficacemente i disturbi HF è necessaria una messa a terra efficace con bassa impedenza.
 
 [question:AJ119]
 [question:AJ102]
 
-In Stromversorgungsleitungen von HF-Stufen werden oft Hochfrequenz-Drosseln eingesetzt. Diese stellen eine Längsimpedanz für Hochfrequenz dar und blocken wirksam hochfrequente Einströmungen in Stufen sowie auch HF-Rückströmungen in die Stromversorgung der Stufen ab.
-Bedingt durch den gewickelten Aufbau haben diese Drosseln auch Eigenkapazitäten, so dass sie in Verbindung mit Ihrer Induktivität unerwünschte Resonanzstellen (Schwingkreise) bilden. Hierdurch kann es in den HF-Stufen zu unerwünschten *Nebenresonanzen*, welche durch die *Eigenresonanzen* der HF-Drosseln hervorgerufen werden, kommen. Nebenresonanzen können die Charakteristik von HF-Stufen negativ beeinflussen. Hierdurch kann es zu unerwünschten Rückkopplungseffekten, insbesondere bei Verstärkern, kommen sowie zu Einbrüchen in der Leistungscharakteristik von HF-Stufen.
+Nelle linee di alimentazione degli stadi HF vengono spesso utilizzate induttanze di alta frequenza. Queste rappresentano un'impedenza in serie per l'alta frequenza e bloccano efficacemente gli accoppiamenti ad alta frequenza negli stadi, nonché i ritorni di HF nell'alimentazione degli stadi.
+A causa della loro costruzione avvolta, queste induttanze hanno anche capacità parassite, in modo che, in combinazione con la loro induttanza, formino punti di risonanza indesiderati (circuiti oscillanti). Ciò può portare a *risonanze secondarie* indesiderate negli stadi HF, causate dalle *auto-risonanze* delle induttanze HF. Le risonanze secondarie possono influenzare negativamente le caratteristiche degli stadi HF. Ciò può portare a effetti di retroazione indesiderati, in particolare negli amplificatori, nonché a cali nelle caratteristiche di potenza degli stadi HF.
 
 [question:AJ214]

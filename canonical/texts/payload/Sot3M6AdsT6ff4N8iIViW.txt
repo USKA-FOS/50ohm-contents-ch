@@ -129,7 +129,7 @@
       <!-- Controls -->
       <div class="controls">
         <div class="control-row">
-          <span class="control-label">Abtastrate $f_\text{s}$:</span>
+          <span class="control-label">Frequenza di campionamento $f_\text{s}$:</span>
           <input type="range" id="sliderFs" min="1.0" max="8.0" step="0.025" value="3.0">
           <span class="control-value" id="labelFs">3.0 kHz</span>
         </div>
@@ -139,7 +139,7 @@
       <div class="panel">
         <div class="panel-label">
           <span class="dot" style="background:var(--signal-color)"></span>
-          Originalsignal — Sinus mit 1kHz
+          Segnale originale — Sinusoide con 1kHz
         </div>
         <canvas id="canvasOriginal" height="300"></canvas>
       </div>
@@ -148,7 +148,7 @@
       <div class="panel">
         <div class="panel-label">
           <span class="dot" style="background:var(--sample-color)"></span>
-          Abgetastetes Signal
+          Segnale campionato
         </div>
         <canvas id="canvasSampled" height="300"></canvas>
       </div>
@@ -157,15 +157,15 @@
       <div class="panel">
         <div class="panel-label">
           <span class="dot" style="background:var(--recon-color)"></span>
-          Rekonstruiertes Signal 
+          Segnale ricostruito 
         </div>
         <canvas id="canvasRecon" height="300"></canvas>
       </div>
 
       <!-- Info box -->
       <div class="info-box" id="infoBox">
-        <strong>✓ Nyquist-Bedingung erfüllt:</strong>
-        f<sub>s</sub> = 3.0 kHz ≥ 2 · 1 kHz. Das rekonstruierte Signal stimmt mit dem Original überein.
+        <strong>✓ Condizione di Nyquist soddisfatta:</strong>
+        f<sub>s</sub> = 3.0 kHz ≥ 2 · 1 kHz. Il segnale ricostruito corrisponde all'originale.
       </div><br>
     </div>
   </div>

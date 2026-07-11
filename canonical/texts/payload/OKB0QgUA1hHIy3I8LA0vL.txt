@@ -1,14 +1,13 @@
+Ad ogni commutazione tra due simboli, l'ampiezza, la frequenza o la fase di una portante viene modificata. Ciò crea bande laterali. Questo effetto ci è già noto dalla modulazione analogica. Più velocemente vengono modificate ampiezza, frequenza o fase, più larga banda avrà il segnale generato.
 
-Bei jeder Umschaltung zwischen zwei Symbolen wird die Amplitude, Frequenz oder Phase eines Trägers geändert. Dabei entstehen Seitenbänder. Diesen Effekt kennen wir bereits aus der analogen Modulation. Je schneller Amplitude, Frequenz oder Phase verändert werden, umso breitbandiger wird das erzeugte Signal.
-
-%Aus diesem Grunde vermeidet man ein schlagartiges Umschalten, da solche steilen Flanken unerwünscht viel Bandbreite belegen.
+%Per questo motivo si evita una commutazione brusca, poiché fronti così ripidi occupano indesideratamente molta larghezza di banda.
 
 [question:AE415]
 
-Dieses Phänomen ist auch aus der Morsetelegrafie bekannt: Es entstehen sogenannte Tastklicks, wenn beim Drücken bzw. Loslassen der Morsetaste der Hochfrequenzträger plötzlich ein- bzw. ausgeschaltet wird. Diese Tastklicks stellen breitbandige Störungen dar, die andere Funkverbindungen beeinträchtigen können. Damit keine Tastklicks auftreten, wird schlagartiges Umschalten vermieden.
+Questo fenomeno è noto anche dalla telegrafia in codice Morse: si creano i cosiddetti "tastklicks" (click di tastiera) quando, premendo o rilasciando il tasto Morse, la portante ad alta frequenza viene improvvisamente attivata o disattivata. Questi tastklicks rappresentano disturbi a larga banda che possono compromettere altre comunicazioni radio. Per evitare i tastklicks, si evita la commutazione brusca.
 
 [question:AJ221]
 [question:AJ220]
 [question:AE214]
 
-Darüber hinaus spielt für die Bandbreite auch die Symbolrate eine Rolle: Je häufiger zwischen verschiedenen Symbolen umgeschaltet wird, um so größer ist die Bandbreite.
+Inoltre, anche la velocità di simbolo gioca un ruolo per la larghezza di banda: più frequentemente si commuta tra simboli diversi, maggiore è la larghezza di banda.

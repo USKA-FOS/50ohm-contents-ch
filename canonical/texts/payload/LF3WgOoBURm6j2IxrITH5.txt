@@ -1,73 +1,73 @@
 <left>
-[picture:140:a_kollektorschaltung_schaltbild:Verstärker in Kollektorschaltung eines Bipolartransistors]
+[picture:140:a_kollektorschaltung_schaltbild:Amplificatore in configurazione collettore di un transistor bipolare]
 </left>
 <right>
-* Verstärkerschaltungen von Bipolartransistoren werden nach dem Anschluss benannt, der vom Eingangs- und Ausgangssignal durchflossen wird
-* Oder andersrum: Der Anschluss, an dem weder Eingang noch Ausgang direkt angeschlossen sind
+* Gli amplificatori a transistor bipolare sono denominati in base al terminale attraversato dal segnale di ingresso e di uscita
+* O viceversa: Il terminale a cui né l'ingresso né l'uscita sono direttamente collegati
 </right>
 ---
 <left>
-[picture:140:a_kollektorschaltung_schaltbild:Verstärker in Kollektorschaltung eines Bipolartransistors]
+[picture:140:a_kollektorschaltung_schaltbild:Amplificatore in configurazione collettore di un transistor bipolare]
 </left>
 <right>
-* Eingangssignal: Quelle $\rightarrow$ Basis $\rightarrow$ Kollektor $\rightarrow$ Versorgungspannung $\rightarrow$ Quelle
-* Ausgangsignal: Kollektor $\rightarrow$ Last $\rightarrow$ Versorgungsspannung $\rightarrow$ Kollektor
+* Segnale di ingresso: Sorgente $\rightarrow$ Base $\rightarrow$ Collettore $\rightarrow$ Tensione di alimentazione $\rightarrow$ Sorgente
+* Segnale di uscita: Collettore $\rightarrow$ Carico $\rightarrow$ Tensione di alimentazione $\rightarrow$ Collettore
 </right>
 ---
 [question:AD401]
 ---
 <left>
-[picture:140:a_kollektorschaltung_schaltbild:Verstärker in Kollektorschaltung eines Bipolartransistors]
+[picture:140:a_kollektorschaltung_schaltbild:Amplificatore in configurazione collettore di un transistor bipolare]
 </left>
 <right>
-* Transistor benötigt definierten Arbeitspunkt (BIAS)
-* Wird durch den Spannungsteiler an der Basis festgelegt
-</right>
---- 
-<left>
-[picture:140:a_kollektorschaltung_schaltbild:Verstärker in Kollektorschaltung eines Bipolartransistors]
-</left>
-<right>
-* Der Emitterwiderstand erzeugt eine Spannung, wenn Strom durch den Transistor fließt.
-* Der Strom fließt vom Emitter durch den Widerstand zur Masse.
-* Je mehr Strom fließt, desto höher wird die Spannung am Emitter.
+* Il transistor richiede un punto di funzionamento (BIAS) definito
+* Fissato dal partitore di tensione sulla base
 </right>
 ---
 <left>
-[picture:140:a_kollektorschaltung_schaltbild:Verstärker in Kollektorschaltung eines Bipolartransistors]
+[picture:140:a_kollektorschaltung_schaltbild:Amplificatore in configurazione collettore di un transistor bipolare]
 </left>
 <right>
-* Die Emitterspannung bremst den Stromfluss und verhindert starke Schwankungen.
-* Temperaturänderungen beeinflussen den Transistor weniger.
-* $\rightarrow$ Der Transistor bleibt zuverlässig und arbeitet gleichmäßig.
+* La resistenza di emettitore genera una tensione quando la corrente attraversa il transistor.
+* La corrente scorre dall'emettitore attraverso la resistenza verso massa.
+* Più corrente scorre, maggiore sarà la tensione sull'emettitore.
 </right>
 ---
 <left>
-[picture:140:a_kollektorschaltung_schaltbild:Verstärker in Kollektorschaltung eines Bipolartransistors]
+[picture:140:a_kollektorschaltung_schaltbild:Amplificatore in configurazione collettore di un transistor bipolare]
 </left>
 <right>
-* Ein- und Auskopplung der Signale an Basis und Emitter über *Koppelkondensatoren*
-* Halten Gleichspannungsanteile von der Verstärkerstufe fern
-* Arbeitspunkt wird stabilisiert
+* La tensione sull'emettitore frena il flusso di corrente e previene forti fluttuazioni.
+* Le variazioni di temperatura influenzano meno il transistor.
+* $\rightarrow$ Il transistor rimane affidabile e funziona uniformemente.
 </right>
 ---
 <left>
-[picture:140:a_kollektorschaltung_schaltbild:Verstärker in Kollektorschaltung eines Bipolartransistors]
+[picture:140:a_kollektorschaltung_schaltbild:Amplificatore in configurazione collettore di un transistor bipolare]
 </left>
 <right>
-* Abblockkondensator in der Betriebsspannung führt unerwünschte HF- und NF-Signale auf Masse ab
-* Rückkopplungseffekte in der Stufe und auf die Versorungsspannung werden vermieden
-* Kollektor wird auf Masse gelegt $\rightarrow$ Ausgang ist auf gleichem Potenzial wie Eingang
+* Accoppiamento e disaccoppiamento dei segnali su base ed emettitore tramite *condensatori di accoppiamento*
+* Mantengono lontane le componenti di corrente continua dallo stadio amplificatore
+* Il punto di funzionamento viene stabilizzato
 </right>
 ---
 <left>
-[picture:140:a_kollektorschaltung_schaltbild:Verstärker in Kollektorschaltung eines Bipolartransistors]
+[picture:140:a_kollektorschaltung_schaltbild:Amplificatore in configurazione collettore di un transistor bipolare]
 </left>
 <right>
-* Phasenverschiebung ist $\qty{0}{\degree}$
-* Eingangsimpedanz relativ hoch
-* $\rightarrow$ Spannungsverstärkung ca. $\num{0,9}$ bis $\num{0,98}$ (immer etwas kleiner als $1$)
-* Ausgangsimpedanz sehr niedrig gegenüber Eingangsimpedanz
+* Il condensatore di disaccoppiamento nella tensione di alimentazione scarica a massa segnali indesiderati HF e NF
+* Si evitano effetti di retroazione nello stadio e sulla tensione di alimentazione
+* Il collettore viene collegato a massa $\rightarrow$ l'uscita si trova allo stesso potenziale dell'ingresso
+</right>
+---
+<left>
+[picture:140:a_kollektorschaltung_schaltbild:Amplificatore in configurazione collettore di un transistor bipolare]
+</left>
+<right>
+* Lo sfasamento è $\qty{0}{\degree}$
+* Impedenza di ingresso relativamente alta
+* $\rightarrow$ Amplificazione di tensione circa $\num{0,9}$ a $\num{0,98}$ (sempre leggermente inferiore a $1$)
+* Impedenza di uscita molto bassa rispetto all'impedenza di ingresso
 </right>
 
 ---
@@ -77,13 +77,13 @@
 ---
 [question:AD403]
 ---
-### Pufferstufe
+### Stadio buffer
 
-* Häufig Anwendung als Pufferstufe zwischen Oszillator und weiteren Schaltungsteilen
-* Belastet den Oszillator hochohmig
-* $\rightarrow$ Weniger Strom vom Oszillator
-* $\rightarrow$ Entkopplung
-* $\rightarrow$ Bessere Frequenzstabilisierung des Oszillators
+* Applicazione frequente come stadio buffer tra oscillatore e altre parti del circuito
+* Carica l'oscillatore con alta impedenza
+* $\rightarrow$ Meno corrente dall'oscillatore
+* $\rightarrow$ Disaccoppiamento
+* $\rightarrow$ Migliore stabilizzazione della frequenza dell'oscillatore
 
 ---
 [question:AD404]

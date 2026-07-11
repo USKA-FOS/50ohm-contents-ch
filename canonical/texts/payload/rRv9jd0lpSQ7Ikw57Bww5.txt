@@ -1,22 +1,22 @@
 <left>
-[photo:212:a_oszilloskop:Digitales Oszilloskop]
+[photo:212:a_oszilloskop:Oscilloscopio digitale]
 </left>
 <right>
-* Zeigt den zeitlichen Verlauf von Spannungen dar
-* Misst die Signalform
+* Mostra l'andamento temporale delle tensioni
+* Misura la forma del segnale
 </right>
 ---
 [question:AI301]
 ---
 [question:AI304]
 ---
-### Pulsbreite
+### Larghezza dell'impulso
 
 <left>
-[picture:1005:a_impulsbreite:Bestimmung der Impulsbreite eines nicht-idealen Rechtecksignals]
+[picture:1005:a_impulsbreite:Determinazione della larghezza dell'impulso di un segnale a onda quadra non ideale]
 </left>
 <right>
-Definition: Die Pulsbreite liegt bei 50% des Spitzenwerts
+Definizione: La larghezza dell'impulso è al 50% del valore di picco
 </right>
 ---
 [question:AI303]
@@ -24,38 +24,38 @@ Definition: Die Pulsbreite liegt bei 50% des Spitzenwerts
 ### Trigger
 
 <left>
-[photo:219:a_oszilloskop_x-ablenkung:Ohne Eingangsspannung wandert auf dem Bildschirm eines analogen Oszillokops nur ein Punkt von links nach rechts, hier mit einer Geschwindigkeit von einem Skalenteil pro Sekunde.]
+[photo:219:a_oszilloskop_x-ablenkung:Senza tensione d'ingresso, su uno schermo di un oscilloscopio analogico un punto si muove solo da sinistra a destra, qui a una velocità di una divisione al secondo.]
 </left>
 <right>
-* Trigger wertet das anliegende Signal aus
-* Z.B. die Spannung 0 von negativ nach positiv durchlaufen
-* Dadurch kann bei einer Welle ein stehendes Bild gezeigt werden
+* Il trigger analizza il segnale applicato
+* Ad esempio, la tensione 0 che attraversa da negativo a positivo
+* In questo modo, è possibile mostrare un'immagine fissa di un'onda
 </right>
 ---
 [question:AI302]
 ---
-### Tastköpfe
+### Sonde di misura
 
 <left>
-[photo:223:a_oszilloskop_tastkoepfe:Tastköpfe mit verschiedenen Prüfspitzen. Die Krokodilklemmen wurden für diese Aufnahme abgenommen.]
+[photo:223:a_oszilloskop_tastkoepfe:Sonde di misura con diverse punte di prova. Le pinze a coccodrillo sono state rimosse per questa ripresa.]
 </left>
 <right>
-* Zur Messung der Spannung
-* Spitze als Haken oder Nadel gebaut
-* Bezugsmasse meistens über eine separate Krokodilklemme
-* 10:1-Tastköpfe teilen die Spannung auf ein Zehntel
+* Per misurare la tensione
+* Punta costruita come un gancio o un ago
+* Massa di riferimento solitamente tramite una pinza a coccodrillo separata
+* Le sonde 10:1 dividono la tensione per dieci
 </right>
 ---
-### Messung mit einem Oszilloskop
+### Misurazione con un oscilloscopio
 
-[photo:224:a_oszilloskop_messung:Messung mit einem Tastkopf. Zwischen den Dioden D1 und D2 ist die Prüfspitze zu sehen und weiter links die Krokodilklemme für die Masseverbindung.]
+[photo:224:a_oszilloskop_messung:Misurazione con una sonda di misura. Tra i diodi D1 e D2 si vede la punta di prova e più a sinistra la pinza a coccodrillo per il collegamento di massa.]
 ---
 [question:AI305]
 ---
-### Lösungsweg
-* gegeben: $R=50\Omega$
-* gegeben: (aus Darstellung) $\hat{U} = 100V$
-* gesucht: $P_{\textrm{PEP}}$
+### Percorso di soluzione
+* dato: $R=50\Omega$
+* dato: (dalla rappresentazione) $\hat{U} = 100V$
+* cercato: $P_{\textrm{PEP}}$
 
 <fragment>
 $\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{\left(\frac{\qty{100}{\volt}}{\sqrt{2}}\right)^2}{\qty{50}{\ohm}}\\ &=\frac{\frac{(\qty{100}{\volt})^2}{2}}{\qty{50}{\ohm}} = \frac{\qty{5000}{\volt}^2}{\qty{50}{\ohm}} = \qty{100}{\watt} \end{split}$
@@ -63,24 +63,24 @@ $\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{\left(\f
 ---
 [question:AI306]
 ---
-### Lösungsweg
-* gegeben: $R=\qty{50}{\ohm}$
-* gegeben: (aus Darstellung mit 10:1-Tastkopf) $\hat{U} = \qty{6}{\volt}\cdot 10$
-* gesucht: $P_{\textrm{PEP}}$
+### Percorso di soluzione
+* dato: $R=\qty{50}{\ohm}$
+* dato: (dalla rappresentazione con sonda 10:1) $\hat{U} = \qty{6}{\volt}\cdot 10$
+* cercato: $P_{\textrm{PEP}}$
 
 <fragment>
 $\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{\left(\frac{\qty{6}{\volt}\cdot 10}{\sqrt{2}}\right)^2}{\qty{50}{\ohm}}\\ &=\frac{\frac{(\qty{60}{\volt})^2}{2}}{\qty{50}{\ohm}} = \qty{36}{\watt} \end{split}$
 </fragment>
 
 ---
-## Impuls
+## Impulso
 
 <left>
-* Ein Signal springt von einem Wert auf einen höheren und zu einem späteren Zeitpunkt zurück
-* Dauer des Impulses wird von Mitte der ansteigenden Flanke bis zur Mitte der abfallenden Flanke gemessen
+* Un segnale salta da un valore a uno più alto e ritorna a un momento successivo
+* La durata dell'impulso viene misurata dalla metà del fronte ascendente alla metà del fronte discendente
 </left>
 <right>
-[picture:57:e_impuls:Impuls in einem Oszilloskop] 
+[picture:57:e_impuls:Impulso in un oscilloscopio] 
 </right>
 ---
 [question:EI303]

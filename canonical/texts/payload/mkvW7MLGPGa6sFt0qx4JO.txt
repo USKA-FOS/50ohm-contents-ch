@@ -1,33 +1,33 @@
-%Im Nahfeld einer Antenne weißen die elektrische Feldstärke und die magnetische Feldstärke keine konstante Phasenbeziehung zueinander auf. Das ändert sich erst im Fernfeld einer Antenne. Der Übergang zwischen den beiden Bereichen ist fließend, und wird auch als Übergangsfeld bezeichnet.
+%Nel campo vicino di un'antenna, l'intensità del campo elettrico e l'intensità del campo magnetico non presentano una relazione di fase costante. Ciò cambia solo nel campo lontano di un'antenna. La transizione tra le due aree è fluida ed è anche chiamata campo di transizione.
 
-%Grundsätzlich ist der Übergang zwischen dem Nahfeld und dem Fernfeld abhängig von der berücksichtigten Wellenlänge. Es ist angegeben als
+%In linea di principio, la transizione tra il campo vicino e il campo lontano dipende dalla lunghezza d'onda considerata. È indicata come
 
 %$d > \dfrac {\lambda} {2 \cdot \pi}$
 
-%Bei einer Wellenlänge von z.B. $\qty{20}{\meter}$ ist der Übergang also in etwa in einem Abstand von $d = \frac {\qty{20}{\meter}} {2 \cdot \pi} \approx \qty{3,18}{\meter}$.
+%Con una lunghezza d'onda di, ad esempio, $\qty{20}{\meter}$, la transizione si trova quindi a una distanza di circa $d = \frac {\qty{20}{\meter}} {2 \cdot \pi} \approx \qty{3,18}{\meter}$.
 
-%Bei Antennen, die geometrisch klein im Verhältnis zu ihrer Wellenlänge sind, kann sich das Fernfeld jedoch auch erst noch später ausbilden.
+%Tuttavia, per le antenne che sono geometricamente piccole rispetto alla loro lunghezza d'onda, il campo lontano può svilupparsi solo più tardi.
 
-%Für die Berechnung von den Personenschutzabständen ist im Fernfeld eine Näherungformel möglich. Dies erspart einem ggf. aufwendige Messungen oder Simulation.
+%Per il calcolo delle distanze di protezione delle persone, nel campo lontano è possibile una formula approssimata. Ciò consente di evitare misurazioni o simulazioni complesse, se necessario.
 
 % ************
 
-Das Fernfeld einer Strahlungsquelle, ist der Bereich, in dem die Vektoren der elektrischen Feldstärke (E), der magnetischen Feldstärke (H) sowie die Ausbreitungsrichtung senkrecht aufeinander stehen und keine Phasendifferenzen aufweisen. Zusätzlich muss der Feldwellenwiderstand dem des freien Raums entsprechen. 
+Il campo lontano di una sorgente di radiazione è l'area in cui i vettori dell'intensità del campo elettrico (E), dell'intensità del campo magnetico (H) e la direzione di propagazione sono perpendicolari tra loro e non presentano differenze di fase. Inoltre, l'impedenza caratteristica dell'onda deve corrispondere a quella dello spazio libero.
 
-Die Grenze zwischen Fernfeld und Nahfeld ist in erster Linie abhängig von der Wellenlänge. Jedoch spielt die Art der verwendeten Antenne und deren Umgebung durch aus eine Rolle. Bei den im Amateurfunk überwiegend verwendeten Drahtantennen (z.B. Dipole) bildet sich das Fernfeld in einem Abstand von etwa $4\cdot\lambda$ aus. 
+Il confine tra campo lontano e campo vicino dipende principalmente dalla lunghezza d'onda. Tuttavia, il tipo di antenna utilizzata e il suo ambiente giocano un ruolo. Per le antenne a filo (ad es. dipoli) prevalentemente utilizzate nel radioamatore, il campo lontano si forma a una distanza di circa $4\cdot\lambda$.
 
-Das Nahfeld unterteilt sich in das reaktive und das strahlende Nahfeld. Praktisch ist, dass im strahlenden Nahfeld trotzdem die Formel für das Fernfeld verwendet werden kann. Das liegt daran, dass die Näherungsformel hier sehr konservative Abschätzungen liefert, das heißt die tatsächlichen Feldstärken sind geringer als die errechneten. Man ist auf der sicheren Seite. Dies gilt aber nicht für magnetische Antennen und Antennen, die sehr kurz im Verhältnis zur Wellenlänge sind. In diesen Fällen muss auf andere Verfahren zurück gegriffen werden z.B. Nahfeldberechnungsprogramme.
+il campo vicino è suddiviso in campo vicino reattivo e campo vicino radiante. In pratica, nel campo vicino radiante è comunque possibile utilizzare la formula per il campo lontano. Ciò è dovuto al fatto che la formula approssimata fornisce qui stime molto conservative, il che significa che le intensità di campo effettive sono inferiori a quelle calcolate. Si è al sicuro. Tuttavia, ciò non vale per le antenne magnetiche e per le antenne molto corte rispetto alla lunghezza d'onda. In questi casi, è necessario ricorrere ad altri metodi, ad es. programmi di calcolo del campo vicino.
 
-Der Übergang zwischen dem reaktiven Nahfeld und dem strahlenden Nahfeld ist abhängig von der Wellenlänge. 
+La transizione tra il campo vicino reattivo e il campo vicino radiante dipende dalla lunghezza d'onda.
 
 $d > \dfrac {\lambda} {2 \cdot \pi}$
 
-Die Berechnung mit der Näherungsformel erspart einem ggf. aufwendige Messungen oder Simulationen.
+Il calcolo con la formula approssimata consente di evitare misurazioni o simulazioni complesse, se necessario.
 
-Die Formel $d = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$ gilt für die meisten Antennenformen, wenn der berechnete Sicherheitsabstand im strahlenden Nahfeld oder im Fernfeld liegt.
+La formula $d = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$ è valida per la maggior parte delle forme di antenna, se la distanza di sicurezza calcolata si trova nel campo vicino radiante o nel campo lontano.
 
 <indepth>
-In den [Erläuterung der Bewertungsverfahren nach BEMFV](https://50ohm.de/bemfv)  hat die BNetzA die Begriffe und Verfahren für die Ermittlung der Sicherheitsabstände erläutert.
-% Bild von DL4HR
-[photo:80:n_Bewertungsverfahren:In diesem Dokument sind die Bewertungsverfahren beschrieben.]
+Nelle [Spiegazione delle procedure di valutazione secondo BEMFV](https://50ohm.de/bemfv), la BNetzA ha illustrato i termini e le procedure per la determinazione delle distanze di sicurezza.
+% Immagine di DL4HR
+[photo:80:n_Bewertungsverfahren:In questo documento sono descritte le procedure di valutazione.]
 </indepth>

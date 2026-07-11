@@ -1,5 +1,5 @@
-Da keine Schaltung ideal arbeitet, liegt am Lastwiderstand $R_L$ eines Gleichrichters keine vollkommen konstante Gleichspannung an, sondern eine pulsierende Spannung. Sie entsteht aus den aufeinanderfolgenden positiven sinusförmigen Halbwellen und der Glättungswirkung der Kondensatoren. Diesen verbleibenden Wechselspannungsanteil bezeichnet man als Restwelligkeit.
-Ihre Frequenz beträgt $f=\qty{100}{\hertz}$, da auch die negative Halbwelle in den positiven Bereich gespiegelt wird und sich so die Netzfrequenz von $\qty{50}{\hertz}$ verdoppelt. Würde man diese pulsierende Gleichspannung über einen Spannungsteiler in einen Verstärker mit Lautsprecher einspeisen, dann könnte man einen $\qty{100}{\hertz}$ Brummton hören.
+Poiché nessun circuito funziona in modo ideale, ai capi della resistenza di carico $R_L$ di un raddrizzatore non è presente una tensione continua perfettamente costante, ma una tensione pulsante. Essa deriva dalle semionde sinusoidali positive successive e dall'effetto di livellamento dei condensatori. Questa componente di tensione alternata residua è chiamata ondulazione residua.
+La sua frequenza è $f=\qty{100}{\hertz}$, poiché anche la semionda negativa viene riflessa nella zona positiva, raddoppiando così la frequenza di rete di $\qty{50}{\hertz}$. Se questa tensione continua pulsante venisse immessa tramite un partitore di tensione in un amplificatore con altoparlante, si potrebbe sentire un ronzio di $\qty{100}{\hertz}$.
 
 <webonly>
 <margin>
@@ -9,15 +9,15 @@ Ihre Frequenz beträgt $f=\qty{100}{\hertz}$, da auch die negative Halbwelle in 
 
 [question:AD310]
 
-Diese Spannung kann mit einem Oszilloskop betrachtet werden, indem man nur den Wechselspannungsanteil oszilloskopiert (siehe Abbildung [ref:a_AC-Kopplung]: AC-Kopplung des Eingangs).
+Questa tensione può essere visualizzata con un oscilloscopio, visualizzando solo la componente di tensione alternata (vedi figura [ref:a_AC-Kopplung]: accoppiamento AC dell'ingresso).
 
 <indepth>
 [photo:306:a_AC-Kopplung:AC - DC Kopplung des Oszilloskopeingangs]
-Mit der Taste "GD" wird der Eingang des Oszilloskops auf Null Volt geschaltet.
-Bei nicht gedrückter Taste AC/DC erfolgt eine kapazitive Kopplung des Oszilloskopeingangs und es wird nur der Wechselspannungsanteil des Eingangssignals angezeigt.
-Bei gedrückter Taste AC/DC erfolgt eine galvanische Kopplung des Oszilloskopeingangs und der Gleichspannungsanteil einer Wechselspannung wird auch angezeigt.
+Con il tasto "GD" l'ingresso dell'oscilloscopio viene impostato su zero volt.
+Con il tasto AC/DC non premuto, l'ingresso dell'oscilloscopio viene accoppiato capacitivamente e viene visualizzata solo la componente di tensione alternata del segnale di ingresso.
+Con il tasto AC/DC premuto, l'ingresso dell'oscilloscopio viene accoppiato galvanicamente e viene visualizzata anche la componente di tensione continua di una tensione alternata.
 </indepth>
 
-In der Folgenden Frage muss Frequenz als auch die Amplitude der Restwelligkeit bestimmt werden. 
+Nella domanda seguente, è necessario determinare sia la frequenza che l'ampiezza dell'ondulazione residua. 
 
 [question:AD309]

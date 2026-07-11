@@ -1,26 +1,26 @@
-Die Benennung der Grundschaltung eines bipolaren Transistors richtet sich danach, welcher Anschluss (Basis, Kollektor oder Emitter) gemeinsam vom Eingangs- und Ausgangssignal durchflossen wird.
+La denominazione del circuito base di un transistor bipolare dipende da quale terminale (base, collettore o emettitore) viene attraversato sia dal segnale di ingresso che da quello di uscita.
 
-Bei der *Kollektorschaltung* fließt das Eingangssignal von der Quelle über die Basis, den *Kollektor* und die Versorgungsspannung zurück zur Quelle. Das Ausgangssignal fließt vom Kollektor durch die Last (Senke) und über die Versorgungsspannung zurück in den *Kollektor*.
+Nella *circuito del collettore*, il segnale di ingresso fluisce dalla sorgente attraverso la base, il *collettore* e la tensione di alimentazione di nuovo alla sorgente. Il segnale di uscita fluisce dal collettore attraverso il carico (pozzo) e attraverso la tensione di alimentazione di nuovo al *collettore*.
 
 [question:AD401]
 
-Für den Betrieb als linearer Strom-Verstärker benötigt der Transistor in der Kollektorschaltung einen definierten Arbeitspunkt (BIAS), der normalerweise durch einen Spannungsteiler an der Basis festgelegt wird.
+Per il funzionamento come amplificatore di corrente lineare, il transistor nel circuito del collettore necessita di un punto di funzionamento (BIAS) definito, che viene normalmente stabilito da un partitore di tensione alla base.
 
-Der Emitterwiderstand wandelt den Strom, der durch die Kollektor-Emitter-Strecke fließt, in einen Spannungsabfall um, der am Emitter abgegriffen wird. Der Emitterstrom des Transistors fließt (gemeinsam mit dem normalerweise vernachlässigbaren Basis-Strom-Anteil) über den Emitter durch den Emitterwiderstand gegen Masse. Der Strom durch den Emitterwiderstand verursacht durch den entstehenden Spannungsabfall an diesem eine Erhöhung des Emitterpotenzials (Emitterspannung) und wirkt somit als Gegenkopplung für die Basis-Spannung. Hierdurch wird der Arbeitspunkt des Transistors zusätzlich stabilisiert, weil thermisch bedingte Änderungen des Kollektorstroms hierdurch ausgeregelt werden.
+La resistenza di emettitore converte la corrente che fluisce attraverso la sezione collettore-emettitore in una caduta di tensione che viene prelevata all'emettitore. La corrente di emettitore del transistor fluisce (insieme alla componente trascurabile della corrente di base) attraverso l'emettitore nella resistenza di emettitore verso massa. La corrente attraverso la resistenza di emettitore provoca, a causa della caduta di tensione risultante su di essa, un aumento del potenziale dell'emettitore (tensione di emettitore) e agisce quindi come controreazione per la tensione di base. In questo modo, il punto di funzionamento del transistor viene ulteriormente stabilizzato, poiché le variazioni della corrente di collettore dovute alla temperatura vengono regolate.
 
-Die Ein- und Auskopplung der Signale an Basis und Emitter erfolgt über sog. Koppelkondensatoren. Diese haben die Aufgabe, Gleichspannungsanteile von der Verstärkerstufe, die zu einer Veränderung des Arbeitspunktes führen würden, fernzuhalten.
+L'accoppiamento e lo scollegamento dei segnali alla base e all'emettitore avviene tramite i cosiddetti condensatori di accoppiamento. Questi hanno il compito di impedire che componenti di tensione continua dall'amplificatore portino a una modifica del punto di funzionamento.
 
-Der Abblockkondensator in der Betriebsspannung (+) dient der Abführung von unerwünschten HF- und NF-Signalen, damit Rückkopplungseffekte auf die Stufe und die Versorgungsspannung vermieden werden. Zudem wird der Kollektor durch den Abblockkondensator signalmäßig (für Wechselspannung) auf Ein- und Ausgang gelegt.
+Il condensatore di disaccoppiamento nella tensione di alimentazione (+) serve a scaricare segnali indesiderati HF e NF, in modo da evitare effetti di retroazione sullo stadio e sulla tensione di alimentazione. Inoltre, il collettore viene collegato all'ingresso e all'uscita tramite il condensatore di disaccoppiamento per quanto riguarda il segnale (per tensione alternata).
 
-Die Phasenverschiebung zwischen Ein- und Ausgangssignal beträgt bei der Kollektorschaltung $\qty{0}{\degree}$, da bei einer positiven Halbwelle in der Eingangsspannung der Emitterstrom steigt und damit der Spannungsabfall am Emitterwiderstand zunimmt. Hierdurch steigt die Spannung am Ausgangskondensator. Es kommt zu einer positiven Halbwelle am Ausgang der Verstärkerstufe.
+Lo sfasamento tra segnale di ingresso e di uscita nel circuito del collettore è di $\qty{0}{\degree}$, poiché con un'onda sinusoidale positiva nella tensione di ingresso, la corrente di emettitore aumenta e quindi aumenta la caduta di tensione sulla resistenza di emettitore. Ciò provoca un'onda sinusoidale positiva all'uscita dello stadio amplificatore.
 
-Die Spannungsverstärkung der Kollektorschaltung bewegt sich bei entsprechender Auslegung im Bereich von $\num{0,9}$ bis $\num{0,98}$ und ist immer etwas kleiner als $1$. Die Stromverstärkung der Kollektorschaltung ist hingegen sehr groß, da die Eingangsimpedanz der Schaltung relativ hoch ist. Die Ausgangsimpedanz ist hingegen sehr niedrig im Vergleich zur Eingangsimpedanz.
+L'amplificazione di tensione del circuito del collettore, con un'adeguata progettazione, si aggira tra $\num{0,9}$ e $\num{0,98}$ ed è sempre leggermente inferiore a $1$. L'amplificazione di corrente del circuito del collettore, d'altra parte, è molto elevata, poiché l'impedenza di ingresso del circuito è relativamente alta. L'impedenza di uscita, d'altra parte, è molto bassa rispetto all'impedenza di ingresso.
 
 [question:AD405]
 [question:AD402]
 [question:AD403]
 
-Die *Kollektorschaltung wird häufig als Pufferstufe zwischen Oszillator und weiteren Schaltungsteilen*, die den Oszillator ansonsten niederohmig belasten würden, verwendet, um eine Entkopplung und bessere Frequenzstabilisierung des Oszillators zu erreichen.
+Il *circuito del collettore viene spesso utilizzato come stadio tampone tra l'oscillatore e altre parti del circuito*, che altrimenti caricherebbero l'oscillatore a bassa impedenza, per ottenere un disaccoppiamento e una migliore stabilizzazione della frequenza dell'oscillatore.
 
 [question:AD404]
 

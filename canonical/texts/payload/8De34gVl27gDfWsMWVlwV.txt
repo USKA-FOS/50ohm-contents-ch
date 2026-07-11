@@ -9,41 +9,41 @@ Den elektrischen Widerstand haben wir bereits im Zusammenhang mit dem ohmschen G
 - ...
 
 <margin>
-| l: Widerstand | X: Eigenschaft |
-| Drahtwiderstände | Hochlastwiderstände für niedrige Frequenzen |
-| Metallschichtwiderstände | Geringe Fertigungstoleranzen und Temperaturabhängigkeit, Präzisionswiderstände |
-| Metalloxidschichtwiderstände | Für Frequenzen oberhalb von $\qty{30}{\mega\hertz}$ |
-[table:e_eigenschaften_widerstaende:Übersicht der Eigenschaften]
+| l: Resistenza | X: Proprietà |
+| Resistori a filo | Resistori per carichi elevati per basse frequenze |
+| Resistori a strato metallico | Tolleranze di produzione e dipendenza dalla temperatura ridotte, resistori di precisione |
+| Resistori a ossido metallico | Per frequenze superiori a $\qty{30}{\mega\hertz}$ |
+[table:e_eigenschaften_widerstaende:Panoramica delle proprietà]
 </margin>
 
-Im Folgenden gehen wir auf diese Materialien genauer ein - eine Zusammenfassung ist in Tabelle [ref:e_eigenschaften_widerstaende].
+Di seguito esamineremo più da vicino questi materiali - un riassunto è nella tabella [ref:e_eigenschaften_widerstaende].
 
-*Drahtwiderstände* zählen zu den ältesten Formen elektrischer Widerstände. Aufgrund ihrer günstigen Eigenschaften – wie hoher Überlastbarkeit und geringem Temperaturkoeffizienten – werden sie auch heute noch eingesetzt. Häufig werden sie auch als Wickelwiderstände bezeichnet, da lackisolierter Widerstandsdraht, beispielsweise aus Manganin oder Konstantan, auf einen Wickelkörper aus Keramik aufgewickelt wird. Ein einfach gewickelter Drahtwiderstand wirkt jedoch stets auch als Spule und besitzt daher eine vergleichsweise hohe Induktivität. Auf Spulen gehen wir in einem späteren Kapitel noch genauer ein; vorweg sei jedoch erwähnt, dass dadurch die Impedanz des Widerstands frequenzabhängig wird. In der Funktechnik ist dieses Verhalten in der Regel unerwünscht. Deshalb eignen sich Drahtwiderstände vor allem als Hochlastwiderstände für Gleichstrom oder für Anwendungen mit niedrigen Frequenzen.
+I *resistori a filo* sono tra le forme più antiche di resistori elettrici. Grazie alle loro proprietà favorevoli - come l'elevata capacità di sovraccarico e il basso coefficiente di temperatura - sono ancora utilizzati oggi. Spesso sono anche chiamati resistori avvolti, poiché filo resistivo isolato con vernice, ad esempio in Manganina o Costantana, viene avvolto su un corpo di avvolgimento in ceramica. Un resistore a filo avvolto singolarmente agisce tuttavia sempre anche come bobina e possiede quindi un'induttanza relativamente elevata. Affronteremo le bobine in modo più dettagliato in un capitolo successivo; tuttavia, va notato in anticipo che ciò rende l'impedenza del resistore dipendente dalla frequenza. In tecnica radio, questo comportamento è generalmente indesiderato. Pertanto, i resistori a filo sono adatti principalmente come resistori per carichi elevati per corrente continua o per applicazioni a basse frequenze.
 
 %EC101 Hochlast niedrige Frequenz -> Drahtwiderstand
 [question:EC101]
 
-Bei Kohleschichtwiderständen wird als Widerstandswerkstoff eine dünne Kohleschicht auf einen Träger aufgedampft. Kohleschichtwiderstände sind kostengünstig, weisen jedoch eine vergleichsweise große Fertigungstoleranz auf.
+Nei resistori a strato di carbone, un sottile strato di carbone viene vaporizzato su un supporto. I resistori a strato di carbone sono economici, ma presentano una tolleranza di produzione relativamente ampia.
 
-Bei *Metalloxidschichtwiderständen* wird das Widerstandsmaterial in Form einer dünnen Schicht auf ein Trägermaterial aufgebracht. Diese Widerstandsart ist weitgehend induktionsarm und weist eine gute Temperaturstabilität auf, sodass sie sich besonders für den Einsatz bei höheren Frequenzen oberhalb von $\qty{30}{\mega\hertz}$ eignet.
+Nei *resistori a ossido metallico*, il materiale resistivo viene applicato sotto forma di un sottile strato su un materiale di supporto. Questo tipo di resistore è in gran parte privo di induttanza e presenta una buona stabilità termica, tanto da essere particolarmente adatto per l'uso ad alte frequenze superiori a $\qty{30}{\mega\hertz}$.
 
 %EC103 induktionsarm 30Mhz - >Metalloxid
 [question:EC103]
 
-*Metallschicht*widerstände können mit hoher Genauigkeit das heißt mit geringer Fertigungstoleranz gefertigt werden. Sie eignen sich als Präzisionswiderstände. Sie sind temperaturunabhängig, allerdings weniger induktionsarm.
+I resistori a *strato metallico* possono essere fabbricati con elevata precisione, vale a dire con una bassa tolleranza di produzione. Sono adatti come resistori di precisione. Sono indipendenti dalla temperatura, ma meno privi di induttanza.
 
 %EC102 Präzisionswiderstand >Metallschichtwiderstand
 [question:EC102]
 
 
-Künstliche Antennen, also Dummyloads, haben wir bereits in der Klasse N kennengelernt. Für hohe Frequenzen (z. B. VHF) empfiehlt es sich, eine Dummyload vorzugsweise aus ungewendelten Metalloxidschichtwiderständen aufzubauen. Für niedrigere Frequenzen (z. B. $\qty{50}{\mega\hertz}$ oder $\qty{28}{\mega\hertz}$) können jedoch auch Kohleschichtwiderstände verwendet werden. Entscheidend ist vor allem, dass der Widerstand keine Windungen, also keine Eigeninduktivität besitzt und daher nicht als parasitäre Spule wirkt, denn eine solche Induktivität würde den Widerstandswert frequenzabhängig machen – genau das ist bei einer Dummyload unerwünscht. Der Widerstand soll unabhängig von der Frequenz stets etwa $\qty{50}{\ohm}$ betragen. Deshalb sollten _keine_ Drahtwiderstände verwendet werden. Auch die Eigenkapazität sollte aus diesem Grund möglichst gering sein. Zudem müssen die eingesetzten Widerstände ausreichend temperaturbeständig sein, da sie die aufgenommene Leistung in Wärme umsetzen.
+Le antenne artificiali, ovvero i carichi fittizi, le abbiamo già conosciute nella classe N. Per alte frequenze (ad es. VHF) si raccomanda di costruire un carico fittizio preferibilmente con resistori a ossido metallico non avvolti. Per frequenze più basse (ad es. $\qty{50}{\mega\hertz}$ o $\qty{28}{\mega\hertz}$), tuttavia, possono essere utilizzati anche resistori a strato di carbone. L'importante è soprattutto che il resistore non abbia spire, cioè nessuna autoinduttanza, e quindi non agisca come una bobina parassita, poiché tale induttanza renderebbe il valore della resistenza dipendente dalla frequenza - esattamente ciò che è indesiderato in un carico fittizio. La resistenza dovrebbe essere sempre di circa $\qty{50}{\ohm}$, indipendentemente dalla frequenza. Pertanto, _non_ dovrebbero essere utilizzati resistori a filo. Anche l'autocapacità dovrebbe essere il più bassa possibile per questo motivo. Inoltre, i resistori utilizzati devono essere sufficientemente resistenti alla temperatura, poiché convertono la potenza assorbita in calore.
 
 %EC107 DL
 [question:EC107]
 %EC104 DL
 [question:EC104]
 
-Für die Lösung der folgenden Fragen muss man wissen, dass zehn parallel geschaltete Widerstände mit jeweils $\qty{500}{\ohm}$ zusammen einen Gesamtwiderstand von $\qty{50}{\ohm}$ ergeben. Auf diesen Zusammenhang gehen wir in einem späteren Kapitel noch genauer ein, wenn wir über Reihen- und Parallelschaltungen von Widerständen sprechen.
+Per risolvere le seguenti domande, è necessario sapere che dieci resistori collegati in parallelo, ciascuno con $\qty{500}{\ohm}$, producono una resistenza totale di $\qty{50}{\ohm}$. Affronteremo questo rapporto in modo più dettagliato in un capitolo successivo, quando parleremo di collegamenti in serie e in parallelo di resistori.
 
 %EC106
 [question:EC106]

@@ -1,5 +1,5 @@
-Die Periodendauer des Brummanteils beträgt $\qty{10}{\milli\second}$. Daraus lässt sich die Brummfrequenz berechnen:
+La durata del periodo della componente di ripple è di 10 ms. Da ciò si può calcolare la frequenza di ripple:
 
 $f = \frac{1}{T} = \frac{1}{\qty{10}{\milli\second}} = \qty{100}{\hertz}$
 
-Die Amplitude der Brummspannung beträgt genau ein Kästchen bei einem Maßstab von $\qty{3}{\volt\per\oszidiv}$.
+L'ampiezza della tensione di ripple è esattamente un quadratino con una scala di 3 V/div.

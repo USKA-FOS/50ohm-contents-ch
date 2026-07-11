@@ -1,30 +1,30 @@
 <left>
-[picture:795:a_einweggleichrichtung_c:Einweggleichrichtung mit Kondensator]
+[picture:795:a_einweggleichrichtung_c:Raddrizzatore a semionda con condensatore]
 </left>
 <right>
-* Bei positiver Halbwelle lässt Diode $D$ Strom fließen
-* Lädt Kondensator $C_L$ auf Spitzenwert der Wechselspannung und versorgt Lastwiderstand $R_L$
-* Bei negativer Halbwelle sperrt Diode $D$
-* Kondensator $C_L$ entlädt sich über Lastwiderstand $R_L$
+* Durante la semionda positiva, il diodo $D$ lascia passare la corrente
+* Carica il condensatore $C_L$ al valore di picco della tensione alternata e alimenta la resistenza di carico $R_L$
+* Durante la semionda negativa, il diodo $D$ blocca
+* Il condensatore $C_L$ si scarica attraverso la resistenza di carico $R_L$
 </right>
 ---
 <left>
-[picture:75:a_Restwelligkeit:Welligkeit der Ausgangsgleichspannung $U_L$]
-Am Lastwiderstand $R_L$ stellt sich eine pulsierende Gleichspannung $U_L$ ein
+[picture:75:a_Restwelligkeit:Ondulazione della tensione continua di uscita $U_L$]
+Sulla resistenza di carico $R_L$ si ottiene una tensione continua pulsante $U_L$
 </left>
 <right>
-* Je größer die Kapazität, umso geglätteter die Gleichspannung
-* Die Trafospannungen sind Effektivspannungen
-* Für die Bemessung des Kondensators muss die Spitzenspannung bestimmt werden
-* Für die Diode ist die Spitzen-Spitzen-Spannung relevant
+* Maggiore è la capacità, più livellata è la tensione continua
+* Le tensioni del trasformatore sono tensioni efficaci
+* Per il dimensionamento del condensatore, è necessario determinare la tensione di picco
+* Per il diodo, è rilevante la tensione picco-picco
 </right>
 
 ---
 [question:AD302]
 ---
-#### Lösungsweg
-* gegeben: $U_{\mathrm{eff}} = \qty{15}{\volt}$
-* gesucht: $\hat{U}$
+#### Percorso di soluzione
+* dato: $U_{\mathrm{eff}} = \qty{15}{\volt}$
+* cercato: $\hat{U}$
 
 <fragment>
 $\hat{U} = U_{\mathrm{eff}} \cdot \sqrt{2} = \qty{15}{\volt} \cdot 1,41 = \qty{21,21}{\volt}$
@@ -32,10 +32,10 @@ $\hat{U} = U_{\mathrm{eff}} \cdot \sqrt{2} = \qty{15}{\volt} \cdot 1,41 = \qty{2
 ---
 [question:AD303]
 ---
-#### Lösungsweg
-* gegeben: $U_P = \qty{230}{\volt}$
-* gegeben: $ü = 20:1$
-* gesucht: $\hat{U} + \qty{50}{\percent}$
+#### Percorso di soluzione
+* dato: $U_P = \qty{230}{\volt}$
+* dato: $ü = 20:1$
+* cercato: $\hat{U} + \qty{50}{\percent}$
 
 <fragment>
 $ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{\qty{230}{\volt}}{20} = \qty{11,5}{\volt}$
@@ -49,10 +49,10 @@ $\hat{U} + \qty{50}{\percent} \approx \qty{25}{\volt}$
 ---
 [question:AD304]
 ---
-#### Lösungsweg
-* gegeben: $U_P = \qty{230}{\volt}$
-* gegeben: $ü = 5:1$
-* gesucht: $U_{SS} + \qty{20}{\percent}$
+#### Percorso di soluzione
+* dato: $U_P = \qty{230}{\volt}$
+* dato: $ü = 5:1$
+* cercato: $U_{SS} + \qty{20}{\percent}$
 
 <fragment>
 $ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{\qty{230}{\volt}}{5} = \qty{46}{\volt}$

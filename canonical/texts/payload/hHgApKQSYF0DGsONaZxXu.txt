@@ -1,52 +1,52 @@
-Die im Sender erzeugte Sendeleistung möchte man möglichst vollständig und ohne Verluste von der Antenne abstrahlen
+La potenza di trasmissione generata nel trasmettitore dovrebbe essere irradiata il più possibile completamente e senza perdite dall'antenna
 
 ---
-## Koaxialkabel
+## Cavi coassiali comuni
 <left>
-[photo:65:n_Koax_Detail:Koaxialkabel im Detail]
+[photo:65:n_Koax_Detail:Cavo coassiale in dettaglio]
 </left>
 <right>
-* Am weitesten verbreitet
-* Voneinander isolierter Innen- und Außenleiter
-* Umgeben von Schutzmantel
-* Unterschiedliche Ausführungen möglich
+* I più diffusi
+* Conduttore interno ed esterno isolati l'uno dall'altro
+* Circondati da una guaina protettiva
+* Possibili diverse esecuzioni
 </right>
 <note>
-Umgangssprachlich: "Koaxkabel"
+In gergo: "cavo coassiale"
 </note>
 
 ---
-## Unterschiedliche Koaxialkabel
-[photo:66:n_Koaxialkabel:Beispiele gebräuchlicher Koaxialkabel]
+## Diversi cavi coassiali
+[photo:66:n_Koaxialkabel:Esempi di cavi coassiali comuni]
 
 ---
-## Kabeldämpfung
-* Im Koaxialkabel entsteht Verlust durch Umsetzung von Sendeleistung in Wärme
-* Der Verlust wird *Kabeldämpfung* genannt
-* Messung in Dezibel ($\unit{\dB}$) je $\qty{100}{\meter}$
-* Verluste steigen mit zunehmender Länge und Frequenz
+## Attenuazione del cavo
+* Nel cavo coassiale si verificano perdite per conversione della potenza di trasmissione in calore
+* La perdita è chiamata *attenuazione del cavo*
+* Misurata in decibel ($\unit{\dB}$) per $\qty{100}{\meter}$
+* Le perdite aumentano con l'aumentare della lunghezza e della frequenza
 
 ---
 [question:NG207]
 
 ---
-## Wellenwiderstand
+## Impedenza caratteristica
 
 <left>
-* Wird in Ohm ($\unit{\ohm}$) angegeben
-* Eigenschaft der Leitung, wie den Aufbau (z.B. Abstand zwischen Innen- und Außenleiter)
-* Länge hat keine Auswirkung
+* Indicata in Ohm ($\unit{\ohm}$)
+* Proprietà della linea, come la struttura (ad es. distanza tra conduttore interno ed esterno)
+* La lunghezza non ha effetto
 </left>
 <right>
 <fragment>
-* Antennenanschluss von Amateurfunkgeräten: $\qty{50}{\ohm}$
-* Koaxialkabel im Amateurfunk: $\qty{50}{\ohm}$
-* Fernsehtechnik: $\qty{75}{\ohm}$
-* Selten sind $\qty{60}{\ohm}$ anzufinden
+* Connettore dell'antenna delle apparecchiature radioamatoriali: $\qty{50}{\ohm}$
+* Cavi coassiali in radioamatoriale: $\qty{50}{\ohm}$
+* Tecnologia televisiva: $\qty{75}{\ohm}$
+* Raramente si trovano $\qty{60}{\ohm}$
 </fragment>
 </right>
 <note>
-* Es gibt Ausnahmen zu den $\qty{50}{\ohm}$
+* Ci sono eccezioni ai $\qty{50}{\ohm}$
 </note>
 
 ---

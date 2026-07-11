@@ -1,25 +1,25 @@
-Neben den bekannten Bleiakkus (Pb) und Nickel-Metallhydrid-Akkus (NiMH) setzen wir in der Funktechnik, z. B. beim Portabelbetrieb, zunehmend auf Lithium-Eisen-Phosphat-Akkus (LiFePO4). Schauen wir uns dazu zunächst einen Akku und seine Aufschriften in Abbildung [ref:a_akku_lifepo4] an.
+Oltre alle note batterie al piombo (Pb) e al nichel-metallo idruro (NiMH), nella tecnica radio, ad esempio per l'uso portatile, utilizziamo sempre più batterie agli ioni di litio-ferro-fosfato (LiFePO4). Diamo prima un'occhiata a una batteria e alle sue iscrizioni nella figura [ref:a_akku_lifepo4].
 
 <margin>
 [photo:175:a_akku_lifepo4:LiFePO4]
 </margin>
 
 <indepth>
-* Kapazität: $\qty{4200}{\milli\ampere\hour}$
-* Spannung: 4S1P / $\qty{13,2}{\volt}$
-% * Entladung: 30C Constant / 40C Burst
-% * Balance Stecker: JST-XH
-% * Entlastung Stecker: $\qty{5.5}{\milli\meter}$ Kugel-Stecker
+* Capacità: $\qty{4200}{\milli\ampere\hour}$
+* Tensione: 4S1P / $\qty{13,2}{\volt}$
+% * Scarica: 30C Costante / 40C Burst
+% * Connettore bilanciamento: JST-XH
+% * Connettore di scarica: $\qty{5.5}{\milli\meter}$ connettore a sfera
 
-Die für uns wichtigsten Kenndaten sind die Nennspannung $\qty{13,2}{\volt}$ und die Verschaltung 4S1P. Das bedeutet, dass sich die Nennspannung von $\qty{13,2}{\volt}$ aus 4 in Serie bzw. Reihe und 1 mal parallel, also alle 4 in Serie geschalten sind. Üblicherweise besitzen LiFePO4 eine Zellnennspannung von $\qty{3,2}{\volt}$ bis $\qty{3,3}{\volt}$. Und somit ergibt sich $\qty{3,3}{\volt} \cdot 4 = \qty{13,2 }{\volt} \cdot 1 = \qty{13,2}{\volt}$.
+I dati chiave più importanti per noi sono la tensione nominale $\qty{13,2}{\volt}$ e la configurazione 4S1P. Ciò significa che la tensione nominale di $\qty{13,2}{\volt}$ è composta da 4 in serie e 1 in parallelo, quindi tutte e 4 sono collegate in serie. Normalmente, le LiFePO4 hanno una tensione nominale di cella da $\qty{3,2}{\volt}$ a $\qty{3,3}{\volt}$. E quindi si ottiene $\qty{3,3}{\volt} \cdot 4 = \qty{13,2 }{\volt} \cdot 1 = \qty{13,2}{\volt}$.
 
-Bei einem 4S2P sind insgesamt 8 Zellen verbaut. 4 in Serie und das 2 mal parallel. Dies würde dann eine Spannung von $\qty{13,2}{\volt}$ aber eine Kapazität von $\qty{8400}{\milli\ampere\hour}$ ergeben.
+In un 4S2P sono installate in totale 8 celle. 4 in serie e 2 in parallelo. Ciò darebbe una tensione di $\qty{13,2}{\volt}$ ma una capacità di $\qty{8400}{\milli\ampere\hour}$.
 
 </indepth>
 
-Bei dem Beispiel-Akku sind $\qty{4200}{\milli\ampere\hour}$ als Nennkapazität angegeben. Die Akku-Nennkapazität $Q$ wird auch als Ladung bezeichnet und in $\unit{\ampere\hour}$ oder $\unit{\milli\ampere\hour}$ angegeben.
+Nell'esempio di batteria, la capacità nominale indicata è $\qty{4200}{\milli\ampere\hour}$. La capacità nominale della batteria $Q$ è anche chiamata carica ed è indicata in $\unit{\ampere\hour}$ o $\unit{\milli\ampere\hour}$.
 
-Für unseren Beispiel-Akku entspricht dies $\qty{4,2}{\ampere\hour}$. Das würde theoretisch bedeuten, wir können unseren Akku $\qty{1}{\hour}$ lang mit $\qty{4,2}{\ampere}$ oder $\qty{2}{\hour}$ lang mit $\qty{2,1}{\ampere}$ usw. belasten.Beschrieben wird dies mit der Formel:
+Per il nostro esempio di batteria, ciò corrisponde a $\qty{4,2}{\ampere\hour}$. Ciò significherebbe teoricamente che possiamo caricare la nostra batteria per $\qty{1}{\hour}$ con $\qty{4,2}{\ampere}$ o per $\qty{2}{\hour}$ con $\qty{2,1}{\ampere}$, ecc. Questo è descritto dalla formula:
 
 $t=\frac{Q}{I}$
 
@@ -27,52 +27,53 @@ $t=\frac{\qty{4,2}{\ampere\hour}}{\qty{4,2}{\ampere}} = \qty{1}{\hour}$
 
 [question:AB210]
 
-Nun wollen wir aber auch wissen, wie viel elektrische Energie in dem Akku gespeichert ist. Energie ($\unit{\watt\hour}$) ist die Ladung $Q$ ($\unit{\ampere\hour}$) des Akkus multipliziert mit der Gesamtspannung $U$ in Volt.
+Ora vogliamo anche sapere quanta energia elettrica è immagazzinata nella batteria. L'energia ($\unit{\watt\hour}$) è la carica $Q$ ($\unit{\ampere\hour}$) della batteria moltiplicata per la tensione totale $U$ in volt.
 
 $\qty{1}{\watt\hour} = \qty{1}{\ampere\hour} \cdot \qty{1}{\volt}$
 
-Für unser Beispiel berechnen wir $\qty{4,2}{\ampere\hour} \cdot \qty{13,2}{\volt} = \qty{55,44}{\watt\hour}$ als gespeicherte Energie.
+Per il nostro esempio, calcoliamo $\qty{4,2}{\ampere\hour} \cdot \
+ \qty{13,2}{\volt} = \qty{55,44}{\watt\hour}$ come energia immagazzinata.
 
 [question:AB501]
 
-%Die Entladung dieses Akkus kann mit einem konstanten Entladestrom von "30 C" erfolgen. Das bedeutet, dass der Akku mit 30 $\cdot$ Kapazität $Q$ entladen werden kann.
+%La scarica di questa batteria può avvenire con una corrente di scarica costante di "30 C". Ciò significa che la batteria può essere scaricata con 30 volte la capacità Q.
 %
-%Endladestrom: $I = 30 \cdot \qty{4200}{\milli\ampere} = \qty{126}{\ampere}$
+%Corrente di scarica: $I = 30 \cdot \qty{4200}{\milli\ampere} = \qty{126}{\ampere}$
 %
-%Das ist allerdings nur ein theoretisch möglicher Wert, da unser Akku somit innerhalb von $\qty{108}{\second}$ entladen wäre. Auch der Kabelquerschnitt ist dabei zu berücksichtigen.
+%Tuttavia, questo è solo un valore teoricamente possibile, poiché la nostra batteria verrebbe scaricata in $\qty{108}{\second}$. Anche la sezione del cavo deve essere considerata.
 %
 
-Bei Reihen- bzw. Serienschaltung von Akkus, wie in Abbildung [ref:a_akku_4S1P] addieren sich die Spannungen und die Kapazität bleibt gleich. 
-Bei der Parallelschaltung wie in Abbildung [ref:a_akku_4S2P] bleibt die Spannung gleich und die Kapazitäten addieren sich. 
+Nella connessione in serie di batterie, come nella figura [ref:a_akku_4S1P], le tensioni si sommano e la capacità rimane la stessa. 
+Nella connessione in parallelo, come nella figura [ref:a_akku_4S2P], la tensione rimane la stessa e le capacità si sommano. 
 
 <margin>
-% TODO Bild Reihenschaltung liegt bei DG1HXJ als .tex
+% TODO L'immagine della connessione in serie è disponibile da DG1HXJ come .tex
 [photo:176:a_akku_4S1P:Reihenschaltung]
 </margin>
 
 <margin>
-% TODO Bild Parallelschaltung liegt bei DG1HXJ als .tex
+% TODO L'immagine della connessione in parallelo è disponibile da DG1HXJ come .tex
 [photo:177:a_akku_4S2P:Parallelschaltung]
 </margin>
 
 <attention>
-Beachte bei dem Einsatz von einem LiFePO4 als 4S1P verschalten, dass Spannungen zwischen $\qty{10}{\volt}$ bis $\qty{14,4}{\volt}$ anliegen können. Nicht jedes Funkgerät kann mit diesen Spannungen arbeiten. Wichtig ist auch, dass wir nur Zellen/ Akkus mit gleichen Daten zusammenschalten, da sich die Zellen gegenseitig beeinflussen und sonst beschädigt werden können. Insbesondere bei den aktuellen Lithium-Akkumulatoren ist es sinnvoll eine Überwachungseinrichtung (Balancer, Batteriemonitor) zu verbauen. Dieser sorgt u.a. für den notwendigen Ausgleich der Zellspannungen und für eine optimale Ladung.
+Nota che quando si utilizza una LiFePO4 configurata come 4S1P, possono essere presenti tensioni tra $\qty{10}{\volt}$ e $\qty{14,4}{\volt}$. Non tutte le apparecchiature radio possono funzionare con queste tensioni. È anche importante collegare solo celle/batterie con dati uguali, poiché le celle si influenzano a vicenda e altrimenti potrebbero danneggiarsi. Soprattutto con le attuali batterie al litio, è consigliabile installare un'unità di monitoraggio (bilanciatore, monitor batteria). Questo garantisce, tra l'altro, il necessario bilanciamento delle tensioni delle celle e una carica ottimale.
 </attention>
 
 ---
 
 
-% In der Abb. [ref:a_akku_lifepo4_anschluss]
-% TODO Bild Infobox Anschluss Akku liegt bei DG1HXJ als .tex
+% Nella figura [ref:a_akku_lifepo4_anschluss]
+% TODO L'immagine della scatola informativa sui collegamenti della batteria è disponibile da DG1HXJ come .tex
 %<margin>
 %[photo:178:a_akku_lifepo4_anschluss:LiFePO4 Anschlüsse]
 %</margin>
 
-Um die folgende Frage zu lösen, muss man wissen, dass die Gesamtspannung der Summe der Zellenspannungen entspricht. Die Gesamtladung entspricht hingegen der Ladung einer Zelle.
+Per risolvere la seguente domanda, è necessario sapere che la tensione totale corrisponde alla somma delle tensioni delle celle. La carica totale, invece, corrisponde alla carica di una cella.
 
 [question:AB209]
 
-Für die nächste Frage muss zuerst die entnehmbare Ladungsmenge von $\qty{90}{\percent}$ ermittelt werden.
-Die Entladezeit $t$ ergibt sich aus: $t=\frac{Q}{I}$
+Per la prossima domanda, è necessario determinare prima la quantità di carica estraibile del $\qty{90}{\percent}$.
+Il tempo di scarica $t$ si ottiene da: $t=\frac{Q}{I}$
 
 [question:AB211]

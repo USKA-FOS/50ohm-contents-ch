@@ -1,26 +1,26 @@
 ---
 
-Viele Funkgeräte verfügen über einen sogenannten DATA-Anschluss, der häufig auch als *DATA* oder *$\qty{9600}{\baud}$* gekennzeichnet ist, wie in Abbildung [ref:e_9600_port] dargestellt. Dieser Port wurde ursprünglich für Packet-Radio-Anwendungen entwickelt, die heute weitgehend durch HAMNET abgelöst wurden. Nichtsdestotrotz lässt sich dieser Anschluss auch für andere Verfahren nutzen, etwa für das digitale Sprachübertragungsverfahren M17. In diesem Fall wird ein entsprechendes Modem – oft auch als TNC bezeichnet – angeschlossen, wie in Abbildung [ref:m17_tnc] dargestellt.
+Molti apparecchi radio dispongono di una connessione DATA, spesso contrassegnata come *DATA* o *$\qty{9600}{\baud}$*, come mostrato nella figura [ref:e_9600_port]. Questa porta è stata originariamente sviluppata per applicazioni di Packet-Radio, che oggi sono state in gran parte sostituite da HAMNET. Ciononostante, questa connessione può essere utilizzata anche per altre procedure, ad esempio per la procedura di trasmissione vocale digitale M17. In questo caso, viene collegato un modem appropriato, spesso chiamato anche TNC, come mostrato nella figura [ref:m17_tnc].
 
 <margin>
-[photo:303:e_9600_port:Funkgerät mit DATA-Port]
-[photo:185:m17_tnc:Module M17 ein TNC für das M17 Übertragungsverfahren]
+[photo:303:e_9600_port:Apparecchio radio con porta DATA]
+[photo:185:m17_tnc:Modulo M17 un TNC per la procedura di trasmissione M17]
 </margin>
 
-Der $\qty{9600}{\baud}$-Anschluss bietet eine direkte Verbindung zum Modulator und Demodulator des Transceivers, um die Signale mit hoher Präzision und geringen Verzerrungen zu verarbeiten. Für höhere Datenraten, wie sie bei digitalen Signalen z. B. im $\qty{9600}{\baud}$-Packet-Radio (AX.25-Protokoll) verwendet werden, ist es notwendig, den gesamten Audiopfad mit seinen begrenzten Frequenzgang und Filterungen zu umgehen (z.B. Mikrofonfilter und Vorverstärker). Der Audio-Pfad eines Transceivers ist normalerweise auf Sprachsignale abgestimmt und hat eine eingeschränkte Bandbreite, die oft zwischen $\qty{300}{\hertz}$ und $\qty{3000}{\hertz}$ liegt. Diese Bandbreite reicht nicht aus, um $\qty{9600}{\baud}$ zuverlässig zu übertragen, da eine so hohe Rate eine größere Signalbreite benötigt. Über den Datenanschluss werden die Signale ohne die Filter, DSP-Verarbeitung und den De-Emphasis-Prozess übertragen, die im Audiopfad vorhanden sind. Das reduziert Verzerrungen und Latenzen, was für digitale Übertragungen kritisch ist, um die Fehlerquote zu minimieren. 
+La connessione $\qty{9600}{\baud}$ offre una connessione diretta al modulatore e al demodulatore del trasmettitore-ricevitore, per elaborare i segnali con alta precisione e basse distorsioni. Per velocità di trasmissione dati più elevate, come quelle utilizzate nei segnali digitali, ad esempio nel Packet-Radio $\qty{9600}{\baud}$ (protocollo AX.25), è necessario bypassare l'intero percorso audio con la sua risposta in frequenza e i suoi filtri limitati (ad esempio, filtro microfonico e preamplificatore). Il percorso audio di un trasmettitore-ricevitore è normalmente ottimizzato per segnali vocali e ha una larghezza di banda limitata, spesso compresa tra $\qty{300}{\hertz}$ e $\qty{3000}{\hertz}$. Questa larghezza di banda non è sufficiente per trasmettere in modo affidabile $\qty{9600}{\baud}$, poiché una velocità così elevata richiede una maggiore larghezza di banda del segnale. Tramite la porta dati, i segnali vengono trasmessi senza i filtri, l'elaborazione DSP e il processo di de-enfasi presenti nel percorso audio. Ciò riduce le distorsioni e le latenze, che sono critiche per le trasmissioni digitali al fine di minimizzare il tasso di errore.
 
-Zusammengefasst: Der $\qty{9600}{\baud}$-Anschluss ist speziell dafür gedacht, digitale Daten direkt und ohne die Einschränkungen des Audio-Wegs zu verarbeiten, was für zuverlässige und effiziente Hochgeschwindigkeits-Datenübertragung erforderlich ist.
+In sintesi: la connessione $\qty{9600}{\baud}$ è specificamente progettata per elaborare dati digitali direttamente e senza le limitazioni del percorso audio, il che è necessario per una trasmissione dati ad alta velocità affidabile ed efficiente.
 
 
 ---
 
-In den Folgenden Fragen wird ein FM transceiver verwendet. Zum Senden sollten der DATA-Port vor den FM-Modulator angeschlossen werden und beim Empfang nach dem FM-Demodulator.
+Nelle seguenti domande verrà utilizzato un trasmettitore-ricevitore FM. Per la trasmissione, la porta DATA deve essere collegata prima del modulatore FM e per la ricezione dopo il demodulatore FM.
 
 [question:EF309]
 [question:EF219]
 
 <indepth>
-Warum eigentlich $\qty{9600}{\baud}$?
+Perché proprio $\qty{9600}{\baud}$?
   
-$\qty{9600}{\baud}$ ($\qty{9,6}{\kilo\bit\per\second}$, wenn eine Modulation mit einem Bit pro Symbol verwendet wird) ist eine gängige Geschwindigkeit für digitale Kommunikation im Amateurfunk, insbesondere im Packet-Radio. Diese Datenrate stellt einen Kompromiss zwischen erreichbarer Geschwindigkeit und der technischen Machbarkeit im VHF/UHF-Frequenzbereich dar, wo die meisten FM-Transceiver arbeiten.
+$\qty{9600}{\baud}$ ($\qty{9,6}{\kilo\bit\per\second}$, se si utilizza una modulazione con un bit per simbolo) è una velocità comune per la comunicazione digitale nel radioamatore, in particolare nel Packet-Radio. Questa velocità di trasmissione dati rappresenta un compromesso tra la velocità raggiungibile e la fattibilità tecnica nella gamma di frequenze VHF/UHF, dove operano la maggior parte dei trasmettitori-ricevitori FM.
 </indepth>

@@ -1,28 +1,28 @@
-In der Klasse E haben wir bereits Widerstandsnetzwerke analysiert. Die meisten Aufgaben ließen sich noch recht einfach im Kopf lösen. In der Klasse A wird dieses Thema nun weiter vertieft. Die folgenden Aufgaben erfordern mehrere Rechenschritte bis zur Lösung. Dazu zerlegt man die Aufgabe in einzelne Teilbereiche, die zunächst berechnet und anschließend zusammengeführt werden. Auf diese Weise benötigt man keine komplizierten Formeln und gelangt zuverlässig zum richtigen Ergebnis.
+Nella classe E abbiamo già analizzato reti di resistenze. La maggior parte dei problemi poteva ancora essere risolta facilmente a mente. Nella classe A questo argomento viene ora approfondito. I seguenti problemi richiedono diversi passaggi di calcolo per arrivare alla soluzione. A tal fine, il problema viene suddiviso in singole sottoaree, che vengono prima calcolate e poi riunite. In questo modo non sono necessarie formule complicate e si ottiene un risultato corretto in modo affidabile.
 
 [question:AD106]
 [question:AD107]
 [question:AD108]
 
-In der folgenden Widerstandsschaltung ist ein veränderbarer Widerstand (Potenziometer) eingebaut.
-Der Widerstandswert kann von $\qty{0}{\kilo\ohm}$ bis auf maximal $\qty{1}{\kilo\ohm}$ verändert werden. 
-Um den Bereich des Eingangswiderstands zu bestimmen müssen wir also zwei Grenzfälle betrachten: Zum einen, wenn der Schleifer des Potenziometers auf $\qty{0}{\ohm}$ steht, zum anderen, wenn er auf $\qty{1}{\kilo\ohm}$ steht. Also quasi zwei Aufgaben in einer.
+Nella seguente rete di resistenze è integrata una resistenza variabile (potenziometro).
+Il valore della resistenza può essere modificato da $\qty{0}{\kilo\ohm}$ a un massimo di $\qty{1}{\kilo\ohm}$. 
+Per determinare l'intervallo della resistenza di ingresso, dobbiamo quindi considerare due casi limite: da un lato, quando il cursore del potenziometro si trova su $\qty{0}{\ohm}$, dall'altro, quando si trova su $\qty{1}{\kilo\ohm}$. Quindi, praticamente due problemi in uno.
 
 ---
 
 [question:AD109]
 
 <tip>
-Die Parallelschaltung von $\qty{100}{\ohm}$ mit $\qty{200}{\ohm}$ (Potenziometer steht auf $\qty{0}{\ohm}$) oder $\qty{100}{\ohm}$ mit $\qty{1,2}{\kilo\ohm}$ (Potenziometer steht auf $\qty{1}{\kilo\ohm}$) ergibt immer einen Wert kleiner als $\qty{100}{\ohm}$. Wenn noch $\qty{200}{\ohm}$ addiert werden, wird er Gesamtwiderstand nicht größer als $\qty{300}{\ohm}$ sein.
-Es gibt nur eine Lösung, bei der dies erfüllt ist.
+La connessione in parallelo di $\qty{100}{\ohm}$ con $\qty{200}{\ohm}$ (potenziometro su $\qty{0}{\ohm}$) o $\qty{100}{\ohm}$ con $\qty{1,2}{\kilo\ohm}$ (potenziometro su $\qty{1}{\kilo\ohm}$) risulta sempre in un valore inferiore a $\qty{100}{\ohm}$. Se si aggiungono ancora $\qty{200}{\ohm}$, la resistenza totale non sarà superiore a $\qty{300}{\ohm}$.
+Esiste una sola soluzione in cui ciò è soddisfatto.
 </tip>
 
-Nun untersuchen wir eine Widerstandsschaltung mit 4 Widerständen, die oft verwendet wird. Jeweils zwei Spannungsteiler in Parallelschaltung ergeben eine sogenannte Brückenschaltung. Brückenschaltungen werden z. B. in Widerstandsmessgeräten nach dem Prinzip einer sogenannten Wheatstone Messbrücke angewendet.
+Ora esaminiamo una rete di resistenze con 4 resistenze, che viene spesso utilizzata. Due partitori di tensione collegati in parallelo formano una cosiddetta rete a ponte. Le reti a ponte vengono utilizzate, ad esempio, negli strumenti di misurazione di resistenza secondo il principio di un ponte di misura di Wheatstone.
 
 ---
 
 [question:AD110]
 
 <tip>
-Diese Aufgabe lässt sich auch leicht im Kopf rechnen. Wir haben zwei Parallelschaltungen mit gleichen Widerständen, welche in Reihe geschaltet wurden. Bei gleich großen Widerständen halbieren sich die Widerstandswerte in der Parallelschaltung: $R_1 || R_2 = \qty{1100}{\ohm}$ sowie $R_3 || R_4 = \qty{110}{\ohm}$. Das Ergebnis ist dann nur die Summe der beiden Werte: $R_\mathrm{ges} = \qty{1100}{\ohm} + \qty{110}{\ohm} = \qty{1210}{\ohm}$.
+Questo problema può essere risolto facilmente anche a mente. Abbiamo due connessioni in parallelo con resistenze uguali, che sono state collegate in serie. Con resistenze di uguale valore, i valori di resistenza nella connessione in parallelo si dimezzano: $R_1 || R_2 = \qty{1100}{\ohm}$ e $R_3 || R_4 = \qty{110}{\ohm}$. Il risultato è quindi solo la somma dei due valori: $R_\mathrm{tot} = \qty{1100}{\ohm} + \qty{110}{\ohm} = \qty{1210}{\ohm}$.
 </tip>

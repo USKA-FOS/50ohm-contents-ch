@@ -1,16 +1,16 @@
-## Funktion des A/D-Umsetzers
+## Funzione del convertitore A/D
 
-* Wandelt analoge Eingangssignale in digitale Samples um  
-* Essentiell für die Digitalisierung und Weiterverarbeitung von Signalen
+* Converte i segnali di ingresso analogici in campioni digitali
+* Essenziale per la digitalizzazione e l'ulteriore elaborazione dei segnali
 
 ---
 
-### Aliasing und Antialiasing
+### Aliasing e Antialiasing
 
-* Abtasttheorem: Für fehlerfreie Rekonstruktion muss die Abtastrate $\gt 2 \cdot f_{\mathrm{max}}$ betragen
-* Signale oberhalb der maximal verarbeitbaren Frequenz können als fehlerhafte Aliases erscheinen  
-* Antialiasing-Filter (Tiefpass- oder Bandpassfilter) unterdrücken unerwünschte hohe Frequenzen  
-* Schützen den A/D-Umsetzer vor fehlerhaften Aliasing-Effekten
+* Teorema di campionamento: per una ricostruzione priva di errori, la frequenza di campionamento deve essere $\gt 2 \cdot f_{\mathrm{max}}$
+* I segnali al di sopra della frequenza massima elaborabile possono apparire come alias errati
+* I filtri antialiasing (filtri passa-basso o passa-banda) sopprimono le frequenze alte indesiderate
+* Proteggono il convertitore A/D da effetti di aliasing errati
 
 ---
 
@@ -18,19 +18,19 @@
 
 ---
 
-### Taktgenerator (Abtastratengenerator)
+### Generatore di clock (generatore di frequenza di campionamento)
 
-* Erzeugt den exakten zeitlichen Takt für die Abtastung  
-* Bestimmt, wie oft pro Sekunde ein Sample erfasst wird  
-* Kann fest eingestellt oder durch Steuerung (z. B. Mikrocontroller) geregelt werden
+* Genera il clock temporale esatto per il campionamento
+* Determina quante volte al secondo viene acquisito un campione
+* Può essere impostato in modo fisso o regolato tramite controllo (ad es. microcontrollore)
 
 ---
 
-### Quantisierung und Quantisierungsfehler
+### Quantizzazione e errore di quantizzazione
 
-* Bei der A/D-Umsetzung werden analoge Amplitudenwerte in feste Stufen abgebildet  
-* Dies führt zu einer wertdiskreten Darstellung des ursprünglich kontinuierlichen Signals  
-* Quantisierungsfehler entstehen, da nicht alle Zwischenwerte exakt erfasst werden können
+* Durante la conversione A/D, i valori di ampiezza analogici vengono mappati su livelli fissi
+* Ciò porta a una rappresentazione discreta in valore del segnale originariamente continuo
+* Gli errori di quantizzazione si verificano perché non tutti i valori intermedi possono essere acquisiti esattamente
 
 ---
 
@@ -38,11 +38,11 @@
 
 ---
 
-## Auflösung des A/D-Umsetzers
+## Risoluzione del convertitore A/D
 
-* Anzahl der möglichen digital darstellbaren Stufen  
-* Wird in Bit angegeben (z. B. $\qty{8}{\bit} = \num{256}$ Stufen, $\qty{16}{\bit} = \num{65536}$ Stufen)
-* Häufig wird die Hälfte der Werte für den positiven und die andere Hälfte für den negativen Bereich verwendet
+* Numero di livelli possibili rappresentabili digitalmente
+* Viene indicato in bit (ad es. $\qty{8}{\bit} = \num{256}$ livelli, $\qty{16}{\bit} = \num{65536}$ livelli)
+* Spesso metà dei valori viene utilizzata per l'area positiva e l'altra metà per l'area negativa
 
 ---
 
@@ -50,11 +50,11 @@
 
 ---
 
-### Jitter: Timing-Instabilitäten
+### Jitter: instabilità temporali
 
-* Jitter beschreibt kleine, zufällige Schwankungen in den Abtastzeitpunkten  
-* Ein instabiler Abtastratengenerator führt zu zusätzlichen Rauscheffekten im digitalen Signal  
-* Hoher technischer Aufwand ist nötig, um einen präzisen Takt zu gewährleisten
+* Il jitter descrive piccole fluttuazioni casuali nei tempi di campionamento
+* Un generatore di frequenza di campionamento instabile porta a ulteriori effetti di rumore nel segnale digitale
+* È necessario un elevato sforzo tecnico per garantire un clock preciso
 
 ---
 

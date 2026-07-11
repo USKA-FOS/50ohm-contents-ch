@@ -1,13 +1,13 @@
-Wir nutzen die Formel aus der Formelsammlung:
+Utilizziamo la formula dalla raccolta di formule:
 
 $f_g = \frac{1}{2 \pi \cdot R \cdot C}$
 
-Aber Vorsicht: Welche Werte müssen hier denn überhaupt berücksichtigt werden?
+Ma attenzione: quali valori devono essere considerati qui?
 
-Schauen wir uns $C_2$ näher an, sehen wir, dass dieser nicht Teil des Tiefpasses ist, sondern nur zur Abblockung von Störungen in der Versorgungsspannung der Schaltung dient. Daher darf $C_2$ hier auch nicht berücksichtigt werden.
+Guardando più da vicino $C_2$, vediamo che questo non fa parte del filtro passa-basso, ma serve solo a bloccare i disturbi nella tensione di alimentazione del circuito. Pertanto, $C_2$ non deve essere considerato qui.
 
-Die hohe Grenzfrequenz und sehr hohe Eingangsimpedanz des Audioverstärkers sind zu vernachlässigen und müssen ebenfalls nicht berücksichtigt werden. Als Werte setzen wir daher nur $R_1 = \qty{4,7}{\kilo\ohm}$ und $C_1 = \qty{6,8}{\nano\farad}$ ein.
+L'alta frequenza di taglio e l'altissima impedenza di ingresso dell'amplificatore audio sono trascurabili e non devono essere considerate. Come valori, quindi, inseriamo solo $R_1 = \qty{4,7}{\kilo\ohm}$ e $C_1 = \qty{6,8}{\nano\farad}$.
 
-Mit eingesetzten Werten:
+Con i valori inseriti:
 
 $\begin{split}f_g &= \frac{1}{2 \pi \cdot 4,7 \cdot \qty{10^3}{\ohm} \cdot 6,8 \cdot \qty{10^{-9}}{\farad}}\\ &\approx \qty{4979}{\hertz}\end{split}$

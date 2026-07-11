@@ -1,23 +1,23 @@
 <left>
-* Besteht aus einer Spannungsquelle und einem Verbraucher
-* Die Spannung bringt den Strom zum Fließen
+* Consiste in una fonte di tensione e un consumatore
+* La tensione fa scorrere la corrente
 </left>
 <right>
-[picture:662:n_stromkreis_geschlossen:Geschlossener Stromkreis]
+[picture:662:n_stromkreis_geschlossen:Circuito chiuso]
 </right>
 
 ---
 
-## Schalter
+## Interruttore
 
 <left>
-* Unterbricht oder schließt Stromkreis
-* Bei offenem Schalter ist der Stromfluss unterbrochen
+* Interrompe o chiude il circuito
+* Con l'interruttore aperto, il flusso di corrente è interrotto
 
-[picture:663:n_stromkreis_offen:Offener Stromkreis]
+[picture:663:n_stromkreis_offen:Circuito aperto]
 </left>
 <right>
-[photo:202:n_stromkreis_schalter:Schaltzeichen und Bauformen von Schaltern]
+[photo:202:n_stromkreis_schalter:Simbolo di circuito e forme costruttive degli interruttori]
 </right>
 
 ---
@@ -26,19 +26,19 @@
 
 ---
 
-## Widerstand
+## Resistenza
 
 <left>
-* Begrenzt den Stromfluss
-* Wandelt Strom in Wärme um
+* Limita il flusso di corrente
+* Converte la corrente in calore
 </left>
 <right>
-[photo:203:n_stromkreis_widerstand:Schaltzeichen und Bauformen von Widerständen]
+[photo:203:n_stromkreis_widerstand:Simbolo di circuito e forme costruttive delle resistenze]
 </right>
 <note>
-* Stromkreis immer mit Widerstand betreiben!
-* Ansonsten entsteht ein Kurzschluss
-* Großer Strom kann fließen und Spannungsquelle oder Kabel können überhitzen
+* Eseguire sempre il circuito con una resistenza!
+* Altrimenti si verifica un cortocircuito
+* Può scorrere una grande corrente e la fonte di tensione o i cavi possono surriscaldarsi
 </note>
 
 ---
@@ -47,14 +47,14 @@
 
 ---
 
-## Stromrichtung
+## Direzione della corrente
 
-[picture:662:n_stromkreis_geschlossen:Geschlossener Stromkreis]
+[picture:662:n_stromkreis_geschlossen:Circuito chiuso]
 
-Vom Pluspol zum Minuspol: *technische Stromrichtung*
+Dal polo positivo al polo negativo: *direzione tecnica della corrente*
 
 <note>
-In Richtung des Pfeils
+Nella direzione della freccia
 </note>
 
 ---

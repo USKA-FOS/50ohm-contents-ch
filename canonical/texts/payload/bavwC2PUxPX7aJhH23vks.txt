@@ -1,8 +1,8 @@
-* Elektrische Geräte haben eine Leistungsaufnahme angegeben
-* Beispiele: LED-Leuchtmittel $\qty{7}{\watt}$, Staubsauger $\qty{425}{\watt}$
-* An jedem Widerstand wird elektrische Leistung umgesetzt
-* Strom fließt durch einen Widerstand $\rightarrow$ Umwandlung von elektrischer Energie in thermische Energie
-* Je größer der Strom, desto mehr Wärme
+* Gli apparecchi elettrici hanno un assorbimento di potenza indicato
+* Esempi: fonte luminosa a LED $\qty{7}{\watt}$, aspirapolvere $\qty{425}{\watt}$
+* Su ogni Resistenza viene convertita potenza elettrica
+* La Corrente scorre attraverso una Resistenza $\rightarrow$ conversione di energia elettrica in energia termica
+* Maggiore è la Corrente, maggiore è il calore
 
 ---
 
@@ -13,9 +13,9 @@
 [question:NA210]
 ---
 
-## Berechnung der Leistung
+## Calcolo della Potenza
 
-Abhängig von Strom und Spannung
+Dipende da Corrente e Tensione
 
 $ P = U \cdot I $
 $ U = \dfrac{P}{I} $

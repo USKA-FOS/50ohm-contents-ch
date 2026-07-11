@@ -1,30 +1,30 @@
-Im folgenden Abschnitt werden die einzelnen Schritte einer Sende- und Empfangskette beschrieben. Die Abbildung [ref:a_sdr_sender] zeigt beispielhaft einen SDR-Sender für die Sprachkommunikation. Im ersten Schritt wird das Mikrofonsignal durch einen A/D-Umsetzer digitalisiert. Das digitale Signal wird anschließend durch einen Quellencodierer komprimiert, um die benötigte Bandbreite zu reduzieren. Im darauffolgenden Schritt versieht ein Kanalcodierer das komprimierte Signal gezielt mit Redundanz, sodass Übertragungsfehler erkannt und korrigiert werden können. Die codierten Daten werden schließlich durch einen Mapper in Symbole umgewandelt und anschließend durch einen I/Q-Modulator moduliert, auf den in einem späteren Kapitel noch näher eingegangen wird. Den Abschluss der Sendekette bilden ein Leistungsverstärker sowie die Antenne, über die das Signal abgestrahlt wird.
+Nella sezione seguente vengono descritti i singoli passaggi di una catena di trasmissione e ricezione. La figura [ref:a_sdr_sender] mostra un esempio di trasmettitore SDR per la comunicazione vocale. Nel primo passaggio, il segnale del microfono viene digitalizzato da un convertitore A/D. Il segnale digitale viene quindi compresso da un codificatore di sorgente per ridurre la larghezza di banda necessaria. Nel passaggio successivo, un codificatore di canale aggiunge deliberatamente ridondanza al segnale compresso, in modo che gli errori di trasmissione possano essere rilevati e corretti. I dati codificati vengono infine convertiti in simboli da un mappatore e quindi modulati da un modulatore I/Q, che verrà trattato più in dettaglio in un capitolo successivo. La catena di trasmissione si conclude con un amplificatore di potenza e l'antenna, attraverso cui viene irradiato il segnale.
 
 <margin>
-[picture:1062:a_sdr_sender:SDR Sender für Sprachkommunikation]
+[picture:1062:a_sdr_sender:Trasmettitore SDR per comunicazione vocale]
 </margin>
 
-Die in blau hervorgehobenen Blöcke in Abbildung [ref:a_sender] repräsentieren die Signalverarbeitungsschritte, die beispielsweise rein softwarebasiert oder mithilfe eines FPGAs implementiert werden können. Die Reihenfolge dieser Verarbeitungsschritte ist für einen Sender stets wie folgt und sollte für Prüfungsfragen gut eingeprägt werden:
+I blocchi evidenziati in blu nella figura [ref:a_sender] rappresentano i passaggi di elaborazione del segnale che possono essere implementati, ad esempio, puramente via software o con l'aiuto di un FPGA. L'ordine di questi passaggi di elaborazione per un trasmettitore è sempre il seguente e dovrebbe essere ben memorizzato per le domande d'esame:
 
-1. Quellencodierer: Daten komprimieren
-2. Kanalcodierer: Hinzufügen von Redundanz zur Fehlererkennung und -korrektur
-3. Mapper: Abbilden binärer Daten auf Symbole z. B. Amplitude und Phase für QAM
+1. Codificatore di sorgente: Compressione dei dati
+2. Codificatore di canale: Aggiunta di ridondanza per il rilevamento e la correzione degli errori
+3. Mappatore: Mappatura dei dati binari su simboli, ad esempio ampiezza e fase per QAM
 
 [question:AF626]
 [question:AF627]
 
 ---
 
-Für einen Empfänger funktioniert das Ganze rückwärts: Die Antenne empfängt das Signal, das durch einen Leistungsverstärker verstärkt wird. Anschließend erfolgt die Demodulation durch einen I/Q-Demodulator, um die Symbole zu extrahieren. Der De-Mapper ordnet diese Symbole wieder den ursprünglichen binären Daten zu. Danach übernimmt der Kanaldecodierer die Aufgabe, Fehler zu erkennen und zu korrigieren, die während der Übertragung entstanden sein könnten. Abschließend dekomprimiert der Quellendecodierer die Daten, um das ursprüngliche Signal wiederherzustellen, welches dann über einen D/A-Umsetzer in ein analoges Signal zurückverwandelt und beispielsweise über einen Verstärker an einem Lautsprecher ausgegeben werden kann.
+Per un ricevitore, il processo funziona al contrario: l'antenna riceve il segnale, che viene amplificato da un amplificatore di potenza. Successivamente, avviene la demodulazione tramite un demodulatore I/Q per estrarre i simboli. Il de-mappatore associa nuovamente questi simboli ai dati binari originali. Successivamente, il decodificatore di canale si occupa di rilevare e correggere gli errori che potrebbero essersi verificati durante la trasmissione. Infine, il decodificatore di sorgente decomprime i dati per ripristinare il segnale originale, che viene quindi riconvertito in un segnale analogico tramite un convertitore D/A e emesso, ad esempio, tramite un amplificatore a un altoparlante.
 
-Wir fassen die digitale Signalverarbeitung im Empfänger in den folgenden drei Schritten zusammen:
+Riassumiamo l'elaborazione digitale del segnale nel ricevitore nei seguenti tre passaggi:
 
-1. De-Mapper: Abbilden der Symbole auf binäre Daten
-2. Kanaldecodierer: Erkennen und korrigieren von Fehlern
-3. Quellendecodierer: Daten dekomprimieren
+1. De-mappatore: Mappatura dei simboli su dati binari
+2. Decodificatore di canale: Rilevamento e correzione degli errori
+3. Decodificatore di sorgente: Decompressione dei dati
 
 <margin>
-[picture:1063:a_sdr_empfänger:SDR Empfänger für Sprachkommunikation]
+[picture:1063:a_sdr_empfänger:Ricevitore SDR per comunicazione vocale]
 </margin>
 
 [question:AF628]

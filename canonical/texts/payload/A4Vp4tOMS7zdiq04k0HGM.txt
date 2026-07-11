@@ -1,152 +1,152 @@
-## Symmetrie
+## Simmetria
 
-* Mittengespeiste Dipole sind *symmetrische Antennen*
-* Weist an beiden Polen (z.B. den Einspeisepunkten) bis auf das Vorzeichen die gleiche Spannung gegenüber Erde auf
-* Bei Dipolen und darauf basierenden Yagi-Uda-Antennen der Fall
-* Die Groundplane-Antenne ist *unsymmetrisch*, da sie am Anschlusspunkt der Radiale Erdpotential hat
+* I dipoli alimentati al centro sono *antenne simmetriche*
+* Presentano su entrambi i poli (ad es. i punti di alimentazione) la stessa tensione rispetto a terra, a parte il segno
+* È il caso dei dipoli e delle antenne Yagi-Uda basate su di essi
+* L'antenna Groundplane è *asimmetrica*, poiché ha potenziale di terra nel punto di connessione dei radiali
 
 <note>
-* Erdpotential: Spannung von Null gegenüber der Erde
-* Symmetrische und unsymmetrische Kabel kommen später bei den Kabeln dran
+* Potenziale di terra: Tensione pari a zero rispetto alla terra
+* I cavi simmetrici e asimmetrici verranno trattati più avanti parlando dei cavi
 </note>
 ---
 [question:EG213]
 ---
-## Schleifenantennen
+## Antenne ad anello
 
-* Draht von insgesamt etwa einer Wellenlänge
-* In Form eines Kreises, Quadrats, Dreiecks, …
-* Beliebt: Delta-Loop-Antenne in Form eines Delta (Δ), da nur ein Mast benötigt wird
+* Filo di circa una lunghezza d'onda totale
+* A forma di cerchio, quadrato, triangolo, ecc.
+* Popolare: Antenna Delta-Loop a forma di Delta (Δ), poiché richiede un solo palo
 
 ---
 [question:EG101]
 ---
 ## Magnetic-Loop
 
-* Magnetische Ringantenne, da Abstrahlung im Nahfeld über das Magnetfeld erfolgt
-* Ca. $\frac{\lambda}{10}$ Umfang
-* Wirkungsgrad bei $\qtyrange{1}{10}{\percent}$ im Sendebetrieb
-* Weniger Störungen bei elektrisch leitfähigen oder dämpfenden Gegenständen im Nahfeld
+* Antenna ad anello magnetico, poiché l'irraggiamento nel campo vicino avviene tramite il campo magnetico
+* Circa $\frac{\lambda}{10}$ di circonferenza
+* Rendimento tra $\qtyrange{1}{10}{\percent}$ in trasmissione
+* Meno disturbi da oggetti conduttivi o attenuanti nel campo vicino
 
 <note>
-* Einsatz im Innenraum möglich
-* Trotzdem sollte man bei dem starken magnetische Feld nicht direkt daneben sitzen
+* Possibile utilizzo in interni
+* Nonostante ciò, non si dovrebbe stare seduti direttamente accanto ad essa a causa del forte campo magnetico
 </note>
 ---
 [question:EG105]
 ---
-## Endgespeiste Antennen
+## Antenne alimentate all'estremità
 
-* Speisung vom Ende her
-* Länge häufig $\frac{\lambda}{2}$
-* Benötigt eine höhere Spannung
+* Alimentazione dall'estremità
+* Lunghezza spesso $\frac{\lambda}{2}$
+* Richiede una tensione più alta
 
 ---
-### Fuchs-Antenne
+### Antenna Fuchs
 <left>
-* Verwendung eines Anpassglieds (Transformator)
-* Oft verwendet: Fuchskreis
+* Utilizzo di un elemento di adattamento (trasformatore)
+* Spesso utilizzato: circuito Fuchs
 </left>
 <right>
-[picture:310:e_antennenformen_fuchskreis:Schematische Darstellung einer Fuchs-Antenne mit Fuchskreis]
+[picture:310:e_antennenformen_fuchskreis:Rappresentazione schematica di un'antenna Fuchs con circuito Fuchs]
 </right>
 
 <note>
-* Nach Dr. Josef Fuchs (OE1JF, UO1JF und EAAA) aus dem Jahr 1927
+* Dal Dr. Josef Fuchs (OE1JF, UO1JF e EAAA) del 1927
 </note>
 ---
 [question:EG104]
 ---
 [question:EG103]
 ---
-## Richtwirkung
+## Direttività
 
-* Darstellung als *Strahlungsdiagramm*
-* Für eine Ebene wird in jede Richtung der Gewinn bzw. Feldstärke oder Strahlungsleistung aufgetragen
-* Je weiter der Graphenverlauf vom Mittelpunkt entfernt ist, umso größer der Gewinn bzw. umso höher die Feldstärke und Strahlungsleistung im Fernfeld
-* Oft wird Antenne mit darin dargestellt
+* Rappresentazione come *diagramma di radiazione*
+* Per un piano, il guadagno, l'intensità di campo o la potenza irradiata vengono riportati in ogni direzione
+* Più il grafico si allontana dal centro, maggiore è il guadagno, o più alta è l'intensità di campo e la potenza irradiata nel campo lontano
+* Spesso viene rappresentata anche l'antenna al suo interno
 
 ---
-### Richtwirkung eines Dipols
+### Direttività di un dipolo
 
 <left>
-* Strahlt rechtwinklig vom Draht ab
-* In einer Ebene betrachtet ergeben sich Keulen neben dem Dipol
-* Ein vertikaler Dipol strahlt rund herum ab
+* Irradia perpendicolarmente al filo
+* Visti in un piano, si formano lobi accanto al dipolo
+* Un dipolo verticale irradia in tutte le direzioni
 </left>
 <right>
-[picture:261:e_antennenformen_strahlungsdiagramm_dipol:Strahlungsdiagramm eines Dipols]
+[picture:261:e_antennenformen_strahlungsdiagramm_dipol:Diagramma di radiazione di un dipolo]
 </right>
 ---
 [question:EG215]
 ---
 [question:EG214]
 ---
-### Vertikaler Halbwellendipol
+### Dipolo a semionda verticale
 
-* Ein vertikal montierter Halbwellendipol hat eine flache Abstrahlung
-* Beliebt im DX-Betrieb oder Kontakten über Direkt- oder Bodenwelle
+* Un dipolo a semionda montato verticalmente ha un'irradiazione piatta
+* Popolare per il traffico DX o per contatti tramite onda diretta o onda di terra
 
 ---
 [question:EG219]
 ---
-### 5/8$\lambda$-Antenne
+### Antenna 5/8$\lambda$
 
-* Gegen Erde oder Fahrzeugkarosserie erregte 5/8$\lambda$-Antenne
-* Spezialfall einer Vertikalantenne
-* Die Länge ist so gewählt, damit sich ein optimaler Gewinn ergibt
+* Antenna 5/8$\lambda$ eccitata rispetto a terra o alla carrozzeria del veicolo
+* Caso speciale di antenna verticale
+* La lunghezza è scelta in modo da ottenere un guadagno ottimale
 
 ---
 [question:EG108]
 ---
-### Groundplane-Antenne
+### Antenna Groundplane
 
 <left>
-* Strahlt rechtwinklig zum Strahler ab
-* Strahlungsdiagramm wird von oben betrachtet
-* Nahezu ein Rundstrahler, bis auf den Bereich der Radiale
+* Irradia perpendicolarmente all'elemento radiante
+* Il diagramma di radiazione è visto dall'alto
+* Quasi un'antenna omnidirezionale, ad eccezione dell'area dei radiali
 </left>
 <right>
-[picture:268:e_antennenformen_strahlungsdiagramm_groundplane:Strahlungsdiagramm einer Groundplane-Antenne von oben betrachtet]
+[picture:268:e_antennenformen_strahlungsdiagramm_groundplane:Diagramma di radiazione di un'antenna Groundplane vista dall'alto]
 </right>
 <note>
-* Die Beulen der Groundplane sind in der Praxis nicht so stark wie auf der Grafik dargestellt
+* Le protuberanze della Groundplane non sono così pronunciate nella pratica come mostrato nel grafico
 </note>
 ---
 [question:EG216]
 ---
-### Richtantenne
+### Antenna direttiva
 
 <left>
-* Gewinn ist in eine Richtung deutlich höher als in andere Richtungen
+* Il guadagno è significativamente più alto in una direzione rispetto alle altre
 </left>
 <right>
-[picture:262:e_antennenformen_strahlungsdiagramm_richtantenne:Strahlungsdiagramm einer Richtantenne]
+[picture:262:e_antennenformen_strahlungsdiagramm_richtantenne:Diagramma di radiazione di un'antenna direttiva]
 </right>
 ---
 [question:EG217]
 ---
-## Antennen für UHF/VHF/SHF
+## Antenne per UHF/VHF/SHF
 
 <left>
-* Nur für hohe Frequenzen geeignet
-* Im Kurzwellenbereich unüblich, da sie unhandliche Größen erreichen würden
+* Adatte solo per alte frequenze
+* Insolite nella gamma delle onde corte, poiché raggiungerebbero dimensioni ingombranti
 </left>
 <right>
-* Hornstrahler
-* Parabolantennen
-* Patchantennen auf Leiterplatten
-* Sperrtopfantenne
+* Tromba d'onda
+* Antenne paraboliche
+* Antenne patch su circuiti stampati
+* Antenna a trappola
 </right>
 <note>
-* Antennen werden nur genannt, da sie in der nächsten Prüfungsfrage für den Ausschluss geeignet sind
+* Le antenne sono menzionate solo perché sono adatte per l'esclusione nella prossima domanda d'esame
 </note>
 
 ---
-## Weitere Antennen für Kurzwelle
+## Altre antenne per onde corte
 
-* Die *Windom-Antenne* ist eine Mehrbandantenne, die aufgrund zwei unterschiedlich langer Schenkel eine Anpassung für mehrere Frequenzen erlaubt
-* Die *W3DZZ-Antenne* ist ein Dipol für $\qty{40}{\meter}$ und $\qty{80}{\meter}$, deren Enden sich durch Sperrkreise bei $\qty{40}{\meter}$ verkürzen
+* L'*antenna Windom* è un'antenna multibanda che, grazie a due bracci di lunghezza diversa, consente l'adattamento per più frequenze
+* L'*antenna W3DZZ* è un dipolo per $\qty{40}{\meter}$ e $\qty{80}{\meter}$, le cui estremità vengono accorciate tramite circuiti trappola a $\qty{40}{\meter}$
 
 ---
 [question:EG106]

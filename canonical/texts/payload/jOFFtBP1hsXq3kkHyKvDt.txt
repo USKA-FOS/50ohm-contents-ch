@@ -1,12 +1,12 @@
-Je nachdem wie stark eine Modulation einem AM-Träger aufgeprägt wird, wird dessen maximale Amplitude entsprechend stärker oder schwächer beeinflusst. Ohne Modulation wird lediglich das HF-Signal des Trägers mit konstanter Amplitude übertragen. Mit beginnender Modulation wird der HF-Träger immer stärker positiv und negativ beeinflusst. Das Verhältnis zwischen aufmodulierter NF (NF-Hüllkurve) und dem HF-Träger bestimmt hierbei den *Modulationsgrad*.
-Der maximal mögliche Modulationsgrad ($m=1$ oder $\qty{100}{\percent}$) ist dann erreicht, wenn der HF-Träger zwischen seinem maximal möglichen Wert und null (vollständig unterdrückt) durch die aufmodulierte NF unverzerrt (linear) ausgesteuert wird. Sobald der Modulationsgrad größer als $m=1$ oder $\qty{100}{\percent}$ wird, entstehen Verzerrungen, welche durch zeitweise vollständige Unterdrückung der Trägeramplitude entstehen können.
-Um Verzerrungen und somit Seitenband-Splatter bei AM-Modulation zu vermeiden, darf der Modulationsgrad des AM-Signals maximal $\qty{100}{\percent}$ betragen.
+A seconda di quanto fortemente una modulazione viene impressa a una portante AM, la sua ampiezza massima viene influenzata in modo corrispondentemente più forte o più debole. Senza modulazione, viene trasmesso solo il segnale HF della portante con ampiezza costante. Con l'inizio della modulazione, la portante HF viene influenzata sempre più fortemente in positivo e in negativo. Il rapporto tra la modulante BF (involucro BF) e la portante HF determina qui il *grado di modulazione*.
+Il grado di modulazione massimo possibile ($m=1$ o $\qty{100}{\percent}$) viene raggiunto quando la portante HF viene pilotata senza distorsioni (lineare) tra il suo valore massimo possibile e zero (completamente soppressa) dalla modulante BF. Non appena il grado di modulazione diventa maggiore di $m=1$ o $\qty{100}{\percent}$, si verificano distorsioni, che possono essere causate dalla soppressione temporanea completa dell'ampiezza della portante.
+Per evitare distorsioni e quindi splatter di banda laterale nella modulazione AM, il grado di modulazione del segnale AM non deve superare il $\qty{100}{\percent}$.
 
-Der Modulationsgrad berechnet sich nach folgender Formel (zu finden in der Formelsammlung):
+Il grado di modulazione si calcola secondo la seguente formula (da trovare nella raccolta di formule):
 
 $m = \frac{\hat{U}_{mod}}{\hat{U}_{T}}$
 
-%TODO: Bild einfügen zu Modulationsgrad und Messung der entsprechenden Berechnungsgrößen
+%TODO: Inserire immagine sul grado di modulazione e misurazione delle corrispondenti grandezze di calcolo
 
 [question:AE201]
 [question:AE202]

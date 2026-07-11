@@ -1,59 +1,59 @@
-%TODO: Dieses Kapitel ist noch nicht abschließend bearbeitet und muss noch Überarbeitet werden!!!
+%TODO: Questo capitolo non è ancora stato completato e deve essere rivisto!!!
 
-Der Verstärkungsfaktor vor Verstärkern wird meist in Dezibel ($\qty{\frac{1}{10}}{\bel}$) ausgedrückt. Dabei ist immer zu berücksichtigen, ob man die Spannungsverstärkung oder die Leistungsverstärkung eines Verstärkers betrachtet.
-*Leistung und Spannung verhalten sich nämlich quadratisch zueinander* und müssen unterschiedlich berechnet werden!
-Eine Verdoppelung der Spannung durch einen Verstärker entspricht einer Leistungsvervierfachung (bei gleicher Impedanz am Ein- und Ausgang des Verstärkers).
+Il fattore di amplificazione prima degli amplificatori è solitamente espresso in decibel ($\qty{\frac{1}{10}}{\bel}$). Bisogna sempre considerare se si sta considerando l'amplificazione di tensione o l'amplificazione di potenza di un amplificatore.
+*Infatti, potenza e tensione si comportano quadraticamente l'una rispetto all'altra* e devono essere calcolate in modo diverso!
+Un raddoppio della tensione da parte di un amplificatore corrisponde a un quadruplicamento della potenza (con la stessa impedenza all'ingresso e all'uscita dell'amplificatore).
 
-Bei Betrachtung der Spannungsverstärkung eines Verstärkers können wir diese in Dezibel ($\unit{\dB}$) angeben. Hierzu müssen wir die beiden Spannungspegel im Quadrat (Ausgangspegel und Eingangspegel) zueinander ins Verhältnis setzen und dann den Zehner-Logarithmus ziehen. Wir erhalten dann das Ergebnis in Bel. Um dieses noch in Dezibel umzurechnen, muss es noch mit dem Faktor $10$ multipliziert werden.
-Um direkt die Spannungspegel in der Berechnung verwenden zu können und diese vorher nicht quadrieren zu müssen, kann man das Quadrat als Faktor $2$ aus dem Zehner-Logarithmus herausziehen.
-Daher muss das Ergebnis in diesem Fall noch mit dem Faktor $2$ multipliziert werden. Insgesamt also mit dem Faktor $10 \cdot 2 = 20$.
+Considerando l'amplificazione di tensione di un amplificatore, possiamo esprimerla in decibel ($\unit{\dB}$). Per fare ciò, dobbiamo mettere in rapporto i due livelli di tensione al quadrato (livello di uscita e livello di ingresso) e poi estrarre il logaritmo in base dieci. Otterremo quindi il risultato in Bel. Per convertirlo ancora in decibel, deve essere moltiplicato per il fattore $10$.
+Per poter utilizzare direttamente i livelli di tensione nel calcolo e non doverli prima elevare al quadrato, si può estrarre il quadrato come fattore $2$ dal logaritmo in base dieci. 
+Pertanto, in questo caso, il risultato deve essere moltiplicato per il fattore $2$. In totale, quindi, per il fattore $10 \cdot 2 = 20$.
 
 <tip>
-Kurzer Exkurs in die Lograrithmen-Rechnung
+Breve excursus sul calcolo dei logaritmi
 
-Ein Quadrat innerhalb des Logarithmus kann aus dem Logarithmus "herausgezogen" werden. Hierbei wird aus dem Quadrat der Faktor $2$. Analog verhält es sich mit höheren Potenzen. Hierbei wird die Potenz immer zum Multiplikator vor dem Logarithmus, wenn man diese aus dem Logarithmus "herauszieht".
+Un quadrato all'interno del logaritmo può essere "estratto" dal logaritmo. In questo caso, il quadrato diventa il fattore $2$. Analogamente accade con potenze superiori. In questo caso, la potenza diventa sempre il moltiplicatore davanti al logaritmo quando la si "estrae" dal logaritmo.
 
-Beispiel: $\log(x^2) = 2 \cdot \log(x)$
+Esempio: $\log(x^2) = 2 \cdot \log(x)$
 </tip>
 
-%TODO: Tip mit Berechnung von Bel und Dezibel bei Spannungs und Leistungsverhältnissen mit Erklärung warum der Faktor $2$ noch vor den Logarithmus wandert (Quadrat aus Logarithmus wird zu Faktor $2$ bei rausziehen).
+%TODO: Suggerimento con calcolo di Bel e decibel per rapporti di tensione e potenza con spiegazione del perché il fattore $2$ va davanti al logaritmo (il quadrato del logaritmo diventa fattore $2$ quando estratto).
 
-Bei Betrachtung der Leistungsverstärkung eines Verstärkers können wir diese ebenfalls in Dezibel ($\unit{\dB}$) angeben. Hierzu müssen wir die beiden Leistungspegel (Ausgangspegel und Eingangspegel) zueinander ins Verhältnis setzen und dann den Zehner-Logarithmus ziehen. Anschließend muss das Ergebnis noch mit dem Faktor $10$ multipliziert werden, um die Leistungsverstärkung in $\unit{\dB}$ zu erhalten.
+Considerando l'amplificazione di potenza di un amplificatore, possiamo anche esprimerla in decibel ($\unit{\dB}$). Per fare ciò, dobbiamo mettere in rapporto i due livelli di potenza (livello di uscita e livello di ingresso) e poi estrarre il logaritmo in base dieci. Successivamente, il risultato deve essere moltiplicato per il fattore $10$ per ottenere l'amplificazione di potenza in $\unit{\dB}$.
 
-Die entsprechenden Formeln zur Berechnung der Leistungsverstärkung und Spannungsverstärkung von Verstärkern findet man auch in der Formelsammlung.
+Le formule corrispondenti per il calcolo dell'amplificazione di potenza e dell'amplificazione di tensione degli amplificatori si trovano anche nella raccolta di formule.
 
 [question:AD427]
 [question:AD428]
 
-Will man nun umgekehrt aus der Leistungsverstärkung in $\unit{\dB}$ das Verhältnis von Ausgangs- zu Eingangsleistung berechnen, so muss man zunächst den $\unit{\dB}$-Wert wieder in Bel umrechnen, indem man ihn zunächst durch den Faktor $10$ teilt. Diesen Wert muss man dann als 10er-Exponent berechnen.
-Daraus ergibt sich der Verstärkungsfaktor, der mit der Eingangsleistung multipliziert werden muss, um die Ausgangsleistung eines Verstärkers zu erhalten.
-Hierbei sollte man sich bestimmte Verhältnisse in $\unit{\dB}$ merken (siehe Formelsammlung!). Hierdurch kann die Berechnung deutlich vereinfacht werden.
+Se ora si vuole calcolare inversamente il rapporto tra potenza di uscita e potenza di ingresso dall'amplificazione di potenza in $\unit{\dB}$, si deve prima riconvertire il valore in $\unit{\dB}$ in Bel, dividendolo prima per il fattore $10$. Questo valore deve poi essere calcolato come esponente in base 10.
+Da ciò si ottiene il fattore di amplificazione, che deve essere moltiplicato per la potenza di ingresso per ottenere la potenza di uscita di un amplificatore.
+In questo caso, si dovrebbero memorizzare determinati rapporti in $\unit{\dB}$ (vedi raccolta di formule!). Ciò può semplificare notevolmente il calcolo.
 
-Beispiel:
-Um eine Verstärkung von $\qty{13}{\dB}$ in den Verstärkungsfaktor umzurechnen, kann man sich merken, dass $\qty{3}{\dB}$ immer einer Leistungsverdoppelung entsprechen und $\qty{10}{\dB}$ einer Leistungsverzehnfachung. Man multipliziert in diesem Fall die Verstärkungen $2$ und $10$ miteinander und erhält für $\qty{13}{\dB}$ den Verstärkungsfaktor $20$.
+Esempio:
+Per convertire un'amplificazione di $\qty{13}{\dB}$ nel fattore di amplificazione, si può ricordare che $\qty{3}{\dB}$ corrispondono sempre a un raddoppio della potenza e $\qty{10}{\dB}$ a un decuplicamento della potenza. In questo caso, si moltiplicano i fattori di amplificazione $2$ e $10$ tra loro e si ottiene per $\qty{13}{\dB}$ il fattore di amplificazione $20$.
 
 <tip>
-Man kann sich bei Rechnung mit $\unit{\dB}$-Werten merken, dass eine Addition von einzelnen (bekannten) $\unit{\dB}$-Werten immer einer Multiplikation der entsprechenden Verstärkungsfaktoren entspricht.
+Nel calcolo con valori in $\unit{\dB}$, si può ricordare che la somma di valori singoli (noti) in $\unit{\dB}$ corrisponde sempre a una moltiplicazione dei rispettivi fattori di amplificazione.
 
-Beispiel:
+Esempio:
   
-$\qty{3}{\dB}$ = Faktor $2$ für Leistung und Faktor $\sqrt{2}$ für Spannung
+$\qty{3}{\dB}$ = fattore $2$ per la potenza e fattore $\sqrt{2}$ per la tensione
 
-$\qty{6}{\dB}$ = Faktor $4$ für Leistung und Faktor $\sqrt{4}$ für Spannung
+$\qty{6}{\dB}$ = fattore $4$ per la potenza e fattore $\sqrt{4}$ per la tensione
 
-$\qty{10}{\dB}$ = Faktor $10$ für Leistung und Faktor $\sqrt{10}$ für Spannung
+$\qty{10}{\dB}$ = fattore $10$ per la potenza e fattore $\sqrt{10}$ per la tensione
 
-$\qty{20}{\dB}$ = Faktor $100$ für Leistung und Faktor $\sqrt{100}$ für Spannung
+$\qty{20}{\dB}$ = fattore $100$ per la potenza e fattore $\sqrt{100}$ per la tensione
 
-$\qty{26}{\dB}$ für Leistung = $\qty{20}{\dB}$ + $\qty{6}{\dB}$ = Faktor $100 \times$ Faktor $4 =$ Faktor $400$
+$\qty{26}{\dB}$ per la potenza = $\qty{20}{\dB}$ + $\qty{6}{\dB}$ = fattore $100 \times$ fattore $4 =$ fattore $400$
 
-Damit entspricht eine Leistungsverstärkung von $\qty{26}{\dB}$ einem Leistungsverstärkungsfaktor von $400$.
+Quindi, un'amplificazione di potenza di $\qty{26}{\dB}$ corrisponde a un fattore di amplificazione di potenza di $400$.
   
-Die entsprechende Spannungsverstärkung errechnet sich zu:
+L'amplificazione di tensione corrispondente si calcola come:
 
-Faktor $10 \times$ Faktor $2 =$ Faktor $20$
+Fattore $10 \times$ fattore $2 =$ fattore $20$
 
-Alternativ: $\sqrt{400}$, wenn man den Leistungsverstärkungsfaktor zugrunde legt.
+Alternativamente: $\sqrt{400}$, se si parte dal fattore di amplificazione di potenza.
 </tip>
 
 [question:AD426]

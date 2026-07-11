@@ -1,75 +1,75 @@
 <left>
-[photo:123:a_s_meter_balken:S-Meter als Balkenanzeigen im Display eines Funkgeräts]
-[picture:420:a_s_meter_nadel:S-Meter als analoges Messinstrument]
+[photo:123:a_s_meter_balken:S-metro come indicatore a barre nel display di un apparecchio radio]
+[picture:420:a_s_meter_nadel:S-metro come strumento di misura analogico]
 </left>
 <right>
-* Anzeige der Empfangsstärke des anliegenden HF-Signals
-* 9 S-Stufen und nachfolgender Bereich mit $\qty{+}{\dB}$
-* Bis S9: Eine S-Stufe entspricht $\qty{6}{\dB}$
-* $\qty{6}{\dB}$: $2\cdot U$ oder $4\cdot P$
+* Indicazione della forza di ricezione del segnale HF presente
+* 9 livelli S e un campo successivo con $\qty{+}{\dB}$
+* Fino a S9: un livello S corrisponde a $\qty{6}{\dB}$
+* $\qty{6}{\dB}$: $2\cdot U$ o $4\cdot P$
 </right>
 
 ---
 [question:AA113]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 
-* von S4 bis S7 sind 3-Stufen
+* da S4 a S7 ci sono 3 livelli
 * $3\cdot \qty{6}{\dB} = \qty{18}{\dB}$
 
 ---
 [question:AF104]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 
-* von S7 auf S9$\qty{+8}{\dB}$ sind $\qty{6}{\dB} + \qty{6}{\dB} + \qty{8}{\dB} = \qty{20}{\dB}$
-* $\qty{20}{\dB}$ entsprechen der $\num{100}$-fachen Leistung
+* da S7 a S9$\qty{+8}{\dB}$ sono $\qty{6}{\dB} + \qty{6}{\dB} + \qty{8}{\dB} = \qty{20}{\dB}$
+* $\qty{20}{\dB}$ corrispondono alla Potenza $\num{100}$-volte
 
 ---
 [question:AF101]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 
-* von $\qty{25}{\watt}$ auf $\qty{100}{\watt}$ sind $\frac{\qty{100}{\watt}}{\qty{25}{\watt}} = 4$-fache Leistung
-* $\num{4}$-fache Leistung entspricht einer S-Stufe
+* da $\qty{25}{\watt}$ a $\qty{100}{\watt}$ sono $\frac{\qty{100}{\watt}}{\qty{25}{\watt}} = 4$-volte la Potenza
+* $4$-volte la Potenza corrisponde a un livello S
 
 ---
 [question:AF102]
 ---
-### Lösungsweg
+### Percorso di soluzione
 
-* von $\qty{100}{\watt}$ auf $\qty{400}{\watt}$ sind $\frac{\qty{400}{\watt}}{\qty{100}{\watt}} = 4$-fache Leistung
-* $\num{4}$-fache Leistung entspricht einer S-Stufe
+* da $\qty{100}{\watt}$ a $\qty{400}{\watt}$ sono $\frac{\qty{400}{\watt}}{\qty{100}{\watt}} = 4$-volte la Potenza
+* $4$-volte la Potenza corrisponde a un livello S
 
 ---
 [question:AF103]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 
-* von $\qty{10}{\watt}$ auf $\qty{100}{\watt}$ sind $\frac{\qty{100}{\watt}}{\qty{10}{\watt}} = 10$-fache Leistung
-* $\num{10}$-fache Leistung entspricht $\qty{10}{\dB}$
-* von S8 auf S9 sind $\qty{6}{\dB}$
-* die restlichen $\qty{4}{\dB}$ kommen als $\qty{+4}{\dB}$ oben drauf
+* da $\qty{10}{\watt}$ a $\qty{100}{\watt}$ sono $\frac{\qty{100}{\watt}}{\qty{10}{\watt}} = 10$-volte la Potenza
+* $10$-volte la Potenza corrisponde a $\qty{10}{\dB}$
+* da S8 a S9 sono $\qty{6}{\dB}$
+* i restanti $\qty{4}{\dB}$ si aggiungono come $\qty{+4}{\dB}$
 
 ---
 [question:AA114]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 
-* von S9$\qty{+20}{\dB}$ auf S8 sind $\qty{26}{\dB}$
+* da S9$\qty{+20}{\dB}$ a S8 sono $\qty{26}{\dB}$
 
 ---
-### Spannung am Eingang
+### Tensione all'ingresso
 
-* Kurzwelle bis $\qty{30}{\mega\hertz}$: S9 $\rightarrow\qty{50}{\micro\volt}$ an $\qty{50}{\ohm}$
-* VHF bei $\qty{144}{\mega\hertz}$: S9 $\rightarrow\qty{5}{\micro\volt}$ an $\qty{50}{\ohm}$
+* Onde corte fino a $\qty{30}{\mega\hertz}$: S9 $\rightarrow\qty{50}{\micro\volt}$ a $\qty{50}{\ohm}$
+* VHF a $\qty{144}{\mega\hertz}$: S9 $\rightarrow\qty{5}{\micro\volt}$ a $\qty{50}{\ohm}$
 
 ---
 [question:AF105]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 
-* von S9 auf S8 sind $\qty{6}{\dB}$
-* Das ist die halbe Spannung
+* da S9 a S8 sono $\qty{6}{\dB}$
+* Questa è la metà della Tensione
 * $\frac{\qty{50}{\micro\volt}}{2} = \qty{25}{\micro\volt}$
 

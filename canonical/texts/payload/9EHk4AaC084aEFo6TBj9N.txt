@@ -1,89 +1,89 @@
-## Gegentaktsignal und Mantelwellen
+## Segnale differenziale e onde di mantelletto
 
-* Idealerweise fließen im Innen- und Außenleiter eines Koaxialkabels gleich große, entgegengesetzte Ströme
-* Deren Summe ist Null – reines Gegentaktsignal
-* Reines Gegentaktsignal verhindert das Auftreten von Mantelwellen
+* Idealmente, nel conduttore interno e nel conduttore esterno di un cavo coassiale scorrono correnti di uguale intensità e opposta direzione
+* La loro somma è zero – segnale puramente differenziale
+* Un segnale puramente differenziale impedisce la formazione di onde di mantelletto
 
 ---
-### Gleichtaktsignal und Mantelstrom
+### Segnale di modo comune e corrente di mantelletto
 
-* Ist die Stromsumme ungleich Null, entsteht ein Gleichtaktsignal
-* Gleichtaktanteil fließt auf der Außenseite des Außenleiters als Mantelstrom
-* Mantelstrom erzeugt eine Mantelwelle um das Kabel
+* Se la somma delle correnti è diversa da zero, si genera un segnale di modo comune
+* La componente di modo comune scorre sulla superficie esterna del conduttore esterno come corrente di mantelletto
+* La corrente di mantelletto crea un'onda di mantelletto attorno al cavo
 
 ---
 [question:AG425]
 
 ---
-### Stromkompensierte Drossel
+### Bobina a modo comune
 
-* Koaxialkabel, um einen Ferritkern gewickelt, unterdrückt Mantelwellen
-* Diese Bauform wird als stromkompensierte Drossel bezeichnet
+* Cavo coassiale avvolto attorno a un nucleo di ferrite, sopprime le onde di mantelletto
+* Questa configurazione è chiamata bobina a modo comune
 
 ---
 [question:AG426]
 
 ---
-## HF-Trenntrafo zur Mantelwellensperre
+## Trasformatore RF per blocco delle onde di mantelletto
 
-* Alternative: HF-Trenntrafo, bei dem Primär- und Sekundärwicklung nicht verbunden sind
-* Strom, der in einen Pol hineinfließt, fließt nahezu gleich groß aus dem anderen – Gleichtaktanteil entfällt
+* Alternativa: trasformatore RF, in cui gli avvolgimenti primario e secondario non sono collegati
+* La corrente che entra in un polo esce quasi con la stessa intensità dall'altro – la componente di modo comune viene eliminata
 
 <note>
-Zwischen den Spulenwindungen bildet sich Kapazität, die den Gleichtaktanteil nicht vollständig unterdrückt
+Tra le spire della bobina si forma una capacità che non sopprime completamente la componente di modo comune
 </note>
 
 ---
 [question:AJ115]
 
 ---
-### HF-Spannungen und Mantelwellen
+### Tensioni RF e onde di mantelletto
 
-* Fehlen HF-Gleichtaktsignale: Außenleiter zeigt keine hochfrequente Spannung gegenüber Erde
-* Bei Gegentaktsignalen bildet sich das elektrische Feld ausschließlich zwischen Innen- und Außenleiter
-* Außenwirkung: Die Ströme heben sich auf – keine Mantelwellen
-* Mantelwellen hängen direkt mit HF-Spannungen am Außenleiter zusammen
-
----
-## Symmetrische Antennen und Außenleiterspannung
-
-* Bei symmetrischer Antenne weist jeder Dipolschenkel eine Spannung gegenüber Erde auf
-* Verbindung der Antennenschenkel mit den Leitern des Koaxialkabels führt zu einer HF-Spannung am Außenleiter
+* In assenza di segnali di modo comune RF: il conduttore esterno non presenta tensione ad alta frequenza rispetto alla terra
+* Con segnali differenziali, il campo elettrico si forma esclusivamente tra il conduttore interno e quello esterno
+* Effetto esterno: le correnti si annullano – nessuna onda di mantelletto
+* Le onde di mantelletto sono direttamente correlate alle tensioni RF sul conduttore esterno
 
 ---
-### Einfluss der Erdung bei Antennen
+## Antenne simmetriche e tensione del conduttore esterno
 
-* Gut geerdete Antennen (z. B. Groundplane mit abgestimmten oder vergrabenen Radialen) haben nahezu $\qty{0}{\volt}$ am Speisepunkt
-* Schlecht geerdete Groundplane-Antennen können anfällig für Mantelwellen sein
+* In un'antenna simmetrica, ogni elemento del dipolo presenta una tensione rispetto alla terra
+* Il collegamento degli elementi dell'antenna ai conduttori del cavo coassiale porta a una tensione RF sul conduttore esterno
 
 ---
-## Kontaktlose Einkopplung in den Koax-Schirm
+### Influenza della messa a terra nelle antenne
 
-* Mantelwellen können durch kontaktlose Einkopplung entstehen
-* Führt man ein Speisekabel parallel zu einem Dipolschenkel, koppelt das Nahfeld der Antenne in den Koax-Schirm ein
+* Antenne ben messe a terra (ad es. Groundplane con radiali accordati o interrati) hanno quasi $\qty{0}{\volt}$ al punto di alimentazione
+* Antenne Groundplane mal messe a terra possono essere suscettibili alle onde di mantelletto
+
+---
+## Accoppiamento senza contatto nel schermo del coassiale
+
+* Le onde di mantelletto possono originarsi da un accoppiamento senza contatto
+* Se si fa passare un cavo di alimentazione parallelamente a un elemento del dipolo, il campo vicino dell'antenna si accoppia allo schermo del cavo coassiale
 
 ---
 [question:AG427]
 
 ---
-### Spannungsbalun / Spartransformator
+### Balun di tensione / Trasformatore di impedenza
 
 <left>
-[picture:447:a_mantelwellen_spannungsbalun:Aufbau eines Spannungbaluns]
+[picture:447:a_mantelwellen_spannungsbalun:Struttura di un balun di tensione]
 </left>
 <right>
-* Bei vollständig symmetrischen Antennen kann ein Spannungsbalun die Ströme im Koaxialkabel symmetrieren
-* Typischer Spartransformator: Koaxialkabel in der Mitte und am Ende einer Spule angeschlossen, Antenne an beide Enden der Spule
+* Per antenne completamente simmetriche, un balun di tensione può symmetrizzare le correnti nel cavo coassiale
+* Tipico trasformatore di impedenza: cavo coassiale collegato al centro e a un'estremità di una bobina, antenna collegata a entrambe le estremità della bobina
 </right>
 
 ---
 
 <left>
-[picture:447:a_mantelwellen_spannungsbalun:Aufbau eines Spannungbaluns]
+[picture:447:a_mantelwellen_spannungsbalun:Struttura di un balun di tensione]
 </left>
 <right>
-* Verdopplung der Spannung ($ü = 2$) und Halbierung des Stroms führen zu einer 1:4 Impedanztransformation
-* An ein $\qty{50}{\ohm}$ Koaxialkabel wird idealerweise eine Antenne mit ca. $\qty{200}{\ohm}$ angeschlossen
+* Il raddoppio della tensione ($ü = 2$) e la dimezzamento della corrente portano a una trasformazione di impedenza 1:4
+* A un cavo coassiale da $\qty{50}{\ohm}$ si collega idealmente un'antenna da circa $\qty{200}{\ohm}$
 </right>
 
 ---
@@ -93,13 +93,13 @@ Zwischen den Spulenwindungen bildet sich Kapazität, die den Gleichtaktanteil ni
 [question:AG422]
 
 ---
-## Einschränkungen der Mantelwellensperre
+## Limitazioni del blocco delle onde di mantelletto
 
 
-* Spannungsbalun funktioniert nur, wenn die angeschlossene Antenne tatsächlich symmetrisch ist
-* Asymmetrische Belastung kann Mantelwellen begünstigen
-* Kontaktlose Einkopplung über die elektromagnetischen Nahfelder bleibt möglich
-* Eine zusätzliche Mantelwellensperre mit räumlichem Abstand kann unterstützend wirken
+* Il balun di tensione funziona solo se l'antenna collegata è effettivamente simmetrica
+* Un carico asimmetrico può favorire le onde di mantelletto
+* L'accoppiamento senza contatto tramite i campi elettromagnetici vicini rimane possibile
+* Un ulteriore blocco delle onde di mantelletto con una distanza spaziale può essere di supporto
 
 ---
 [question:AG428]

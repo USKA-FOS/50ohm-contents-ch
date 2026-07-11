@@ -1,15 +1,15 @@
-### Erzeugung
+### Generazione
 
 <left>
-[picture:155:a_frequenzmodulation_schaltung:Modulator zur Erzeugung von FM]
+[picture:155:a_frequenzmodulation_schaltung:Modulatore per la generazione di FM]
 </left>
 <right>
-* Kapazität eines Oszillators wird durch die NF geändert
-* Bspw. mit einer Kapazitätsdiode
-* Die Modulationsfrequenz bestimmt die Häufigkeit der Änderung des HF-Trägers
+* La Capacità di un oscillatore viene modificata dalla frequenza audio (NF)
+* Ad esempio, con un diodo a capacità variabile
+* La frequenza di modulazione determina la frequenza di variazione della portante RF
 </right>
 <note>
-Wird später im Kapitel Sender nochmal betrachtet
+Verrà rivisto più tardi nel capitolo Trasmettitori
 </note>
 
 ---
@@ -17,40 +17,40 @@ Wird später im Kapitel Sender nochmal betrachtet
 ---
 [question:AE301]
 ---
-### Störanfälligkeit
+### Suscettibilità ai disturbi
 
-* Die zu übertragende Information ist in der Änderung des Signals enthalten
-* Amplitudenschwankungen haben keine Auswirkungen
-* Intern wird oft ein Begrenzerverstärker eingesetzt
-* Unempfindlich gegenüber impulsförmigen Störungen durch Zündfunken, Elektromotoren o.ä.
+* L'informazione da trasmettere è contenuta nella variazione del segnale
+* Le fluttuazioni di ampiezza non hanno effetti
+* Internamente viene spesso utilizzato un amplificatore limitatore
+* Insensibile ai disturbi impulsivi causati da scintille di accensione, motori elettrici o simili
 
 ---
 [question:AE302]
 ---
-### Hub
+### Deviazione
 
-* Bestimmt, um welchen Betrag sich die Frequenz des Oszillators je nach Amplitude des modulierten Signals ändert
-* Größere Amplitude im NF-Signal $\leftrightarrow$ größere Auslenkung im Träger
-* Größerer Hub $\rightarrow$ größere Lautstärke im demodulierten Signal
+* Determina di quanto la frequenza dell'oscillatore cambia a seconda dell'ampiezza del segnale modulato
+* Maggiore ampiezza nel segnale NF $\leftrightarrow$ maggiore deviazione nella portante
+* Maggiore deviazione $\rightarrow$ maggiore volume nel segnale demodulato
 
 ---
 [question:AE305]
 --- style="font-size: smaller;"
-### Bandbreite
+### Larghezza di banda
 
 <left>
-[picture:910:a_bandbreite_fm:Bandbreite bei FM]
+[picture:910:a_bandbreite_fm:Larghezza di banda in FM]
 $B \approx 2 \cdot \left(\Delta f_{\textrm{T}} + f_{\textrm{mod max}}\right)$
 </left>
 <right>
-* Belegte Bandbreite: Hub und maximale Modulationsfrequenz
-* Bei kleinem Hub und niedriger Modulationsfrequenz $\rightarrow$ *Carson-Formel*
-* Höhere Modulationsfrequenz oder größerer Hub $\rightarrow$ größere Bandbreite
-* Nachbarkanalstörungen sind möglich
+* Larghezza di banda occupata: deviazione e frequenza di modulazione massima
+* Con piccola deviazione e bassa frequenza di modulazione $\rightarrow$ *Formula di Carson*
+* Frequenza di modulazione più alta o deviazione maggiore $\rightarrow$ larghezza di banda maggiore
+* Possibili disturbi sul canale adiacente
 </right>
 
 <note>
-Etwa 99% der Sendeleistung befinden sich in der Bandbreite
+Circa il 99% della potenza di trasmissione si trova nella larghezza di banda
 </note>
 ---
 [question:AE306]
@@ -61,10 +61,10 @@ Etwa 99% der Sendeleistung befinden sich in der Bandbreite
 ---
 [question:AE309]
 ---
-#### Lösungsweg
-* gegeben: $f_{\textrm{mod max}} = \qty{2}{\kilo\hertz}$
-* gegeben: $\Delta f_{\textrm{T}} = \qty{1,8}{\kilo\hertz}$
-* gesucht: $B$
+#### Percorso di soluzione
+* dato: $f_{\textrm{mod max}} = \qty{2}{\kilo\hertz}$
+* dato: $\Delta f_{\textrm{T}} = \qty{1,8}{\kilo\hertz}$
+* cercato: $B$
 
 <fragment>
 $\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ &= 2 \cdot (\qty{1,8}{\kilo\hertz} + \qty{2}{\kilo\hertz}) = \qty{7,6}{\kilo\hertz} \end{split}$
@@ -72,10 +72,10 @@ $\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})
 ---
 [question:AE308]
 ---
-#### Lösungsweg
-* gegeben: $f_{\textrm{mod max}} = \qty{2,7}{\kilo\hertz}$
-* gegeben: $\Delta f_{\textrm{T}} = \qty{2,5}{\kilo\hertz}$
-* gesucht: $B$
+#### Percorso di soluzione
+* dato: $f_{\textrm{mod max}} = \qty{2,7}{\kilo\hertz}$
+* dato: $\Delta f_{\textrm{T}} = \qty{2,5}{\kilo\hertz}$
+* cercato: $B$
 
 <fragment>
 $\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ &= 2 \cdot (\qty{2,5}{\kilo\hertz} + \qty{2,7}{\kilo\hertz}) = \qty{10,4}{\kilo\hertz} \end{split}$
@@ -83,10 +83,10 @@ $\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})
 ---
 [question:AE311]
 ---
-#### Lösungsweg
-* gegeben: $B = \qty{10}{\kilo\hertz}$
-* gegeben: $\Delta f_{\textrm{T}} = \qty{2,5}{\kilo\hertz}$
-* gesucht: $f_{\textrm{mod max}}$
+#### Percorso di soluzione
+* dato: $B = \qty{10}{\kilo\hertz}$
+* dato: $\Delta f_{\textrm{T}} = \qty{2,5}{\kilo\hertz}$
+* cercato: $f_{\textrm{mod max}}$
 
 <fragment>
 $\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ \Rightarrow f_{\textrm{mod max}} &= \frac{B}{2} - \Delta f_T\\ &= \frac{\qty{10}{\kilo\hertz}}{2} - \qty{2,5}{\kilo\hertz} = \qty{2,5}{\kilo\hertz} \end{split}$
@@ -94,10 +94,10 @@ $\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})
 ---
 [question:AE312]
 ---
-#### Lösungsweg
-* gegeben: $B = \qty{10}{\kilo\hertz}$
-* gegeben: $f_{\textrm{mod max}} = \qty{2,7}{\kilo\hertz}$
-* gesucht: $\Delta f_{\textrm{T}}$
+#### Percorso di soluzione
+* dato: $B = \qty{10}{\kilo\hertz}$
+* dato: $f_{\textrm{mod max}} = \qty{2,7}{\kilo\hertz}$
+* cercato: $\Delta f_{\textrm{T}}$
 
 <fragment>
 $\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ \Rightarrow \Delta f_T &= \frac{B}{2} - f_{\textrm{mod max}}\\ &= \frac{\qty{10}{\kilo\hertz}}{2} - \qty{2,7}{\kilo\hertz} = \qty{2,3}{\kilo\hertz} \end{split}$

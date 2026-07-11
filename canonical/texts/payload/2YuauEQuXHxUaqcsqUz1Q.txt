@@ -1,34 +1,34 @@
-## Richtwirkung
+## Direttività
 
-* *Isotropstrahler*: Hypothetische Antenne, die in alle Richtungen gleich stark abstrahlt
-* Eine reale Antenne weist eine Richtwirkung auf
-* In bestimmten Richtungen stärker als der Isotropstrahler
-* In bestimmten Richtungen schwächer als der Isotropstrahler
-* Die *Hauptstrahlrichtung* ist die Richtung mit dem maximalen Antennengewinn
+* *Radiatore isotropico*: Antenna ipotetica che irradia ugualmente in tutte le direzioni
+* Un'antenna reale presenta una direttività
+* In certe direzioni più forte del radiatore isotropico
+* In certe direzioni più debole del radiatore isotropico
+* La *direzione di massima emissione* è la direzione con il massimo guadagno d'antenna
 
 ---
-## Gewinn in dBi
+## Guadagno in dBi
 
-* Gewinn in eine Richtung gegenüber dem Isotropstrahler
-* Kann in $\unit{\dB}$ angegeben werden
-* Bei Bezug auf den Isotropstrahler wird *$\unit{\dBi}$* verwendet
+* Guadagno in una direzione rispetto al radiatore isotropico
+* Può essere espresso in $\unit{\dB}$
+* Quando riferito al radiatore isotropico, si usa *$\unit{\dBi}$*
 
 ---
 
 [question:EG220]
 
 ---
-## Gewinn eines Halbwellendipols
+## Guadagno di un dipolo a semionda
 
-* Ein Halbwellendipol strahlt senkrecht zum Leiter um $\qty{2,15}{\dB}$ stärker ab als ein Isotropstrahler
-* Der Gewinn beträgt $\qty{2,15}{\dBi}$
+* Un dipolo a semionda irradia più forte di un radiatore isotropico di $\qty{2,15}{\dB}$ perpendicolarmente al conduttore
+* Il guadagno è di $\qty{2,15}{\dBi}$
 
 ---
-## Gewinn in dBd
+## Guadagno in dBd
 
-* Bei anderen Antennen ist der Gewinn gegenüber einem Halbwellendipol interessant
-* Bei Bezug auf den Halbwellendipol wird *$\unit{\dBd}$* verwendet
-* Ein Halbwellendipol hat in Hauptstrahlrichtung einen Gewinn von $\qty{0}{\dBd}$ und $\qty{2,15}{\dBi}$
+* Per altre antenne, il guadagno rispetto a un dipolo a semionda è interessante
+* Quando riferito a un dipolo a semionda, si usa *$\unit{\dBd}$*
+* Un dipolo a semionda ha un guadagno di $\qty{0}{\dBd}$ e $\qty{2,15}{\dBi}$ nella direzione di massima emissione
 
 ---
 [question:EG221]

@@ -1,11 +1,11 @@
 ### TDMA
 <left>
-* Time Division Multiple Access – Zeitmultiplexverfahren
-* Die digitalen Nutzdaten werden getrennt und nacheinander über die dieselbe Frequenz gesandt
-* Am Empfänger wird der Datenstrom wieder zusammengesetzt
+* Time Division Multiple Access – Accesso multiplo a divisione di tempo
+* I dati utente digitali vengono separati e trasmessi uno dopo l'altro sulla stessa frequenza
+* Al ricevitore, il flusso di dati viene ricomposto
 </left>
 <right>
-[picture:844:e_vielfachzugriff_tdma:Zeitmultiplexverfahren mit drei Signalen]
+[picture:844:e_vielfachzugriff_tdma:Accesso multiplo a divisione di tempo con tre segnali]
 </right>
 
 ---
@@ -13,27 +13,27 @@
 ---
 ### CDMA
 <left>
-* Code Division Multiple Access – Codemultiplexverfahren
-* Die digitalen Nutzdaten werden mit einem digitalen Code codiert (gemischt)
-* Am Empfänger wird derselbe digitale Code zum decodieren verwendet
+* Code Division Multiple Access – Accesso multiplo a divisione di codice
+* I dati utente digitali vengono codificati (mescolati) con un codice digitale
+* Al ricevitore viene utilizzato lo stesso codice digitale per decodificare
 </left>
 <right>
-[picture:846:e_vielfachzugriff_cdma:Codemultiplexverfahren mit drei Signalen]
+[picture:846:e_vielfachzugriff_cdma:Accesso multiplo a divisione di codice con tre segnali]
 </right>
 <note>
-* Mehrere Signale können auf derselben Frequenz übertragen werden 
+* È possibile trasmettere più segnali sulla stessa frequenza 
 </note>
 ---
 [question:EE411]
 ---
 ### FDMA
 <left>
-* Frequency Division Multiple Access – Frequenzmultiplexverfahren
-* Das digitale Signal wird auf mehrere Frequenzen aufgeteilt
-* Dadurch kann mehr Bandbreite verwendet werden
+* Frequency Division Multiple Access – Accesso multiplo a divisione di frequenza
+* Il segnale digitale viene suddiviso in più frequenze
+* Ciò consente di utilizzare una maggiore larghezza di banda
 </left>
 <right>
-[picture:845:e_vielfachzugriff_cdma:Frequenzmultiplexverfahren mit drei Signalen]
+[picture:845:e_vielfachzugriff_cdma:Accesso multiplo a divisione di frequenza con tre segnali]
 </right>
 
 ---

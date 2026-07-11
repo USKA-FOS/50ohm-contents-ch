@@ -4,13 +4,13 @@
 <table>
     <tr>
         <td>
-            <p>Phase:</p>
+            <p>Fase:</p>
         </td>
         <td>
             <input type="range" class="slider" value="90" min="0" max="360" id="phase">
         </td>
         <td>
-            <div id="phaseV"> 90 &deg; </div>
+            <div id="phaseV"> 90 ° </div>
         </td>
     </tr>
 </table>

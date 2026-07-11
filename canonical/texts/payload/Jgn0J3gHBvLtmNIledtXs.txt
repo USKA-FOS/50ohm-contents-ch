@@ -1,22 +1,22 @@
-Da der Lastwiderstand $R_L$ parallel zu $R_2$ liegt, müssen zunächst beide Widerstände zu einem Ersatzwiderstand zusammengefasst werden.
+Poiché la resistenza di carico $R_L$ si trova in parallelo a $R_2$, è necessario prima combinare entrambe le resistenze in un'unica resistenza equivalente.
 
-Die Parallelschaltung ergibt:
+La connessione in parallelo dà:
 
 $ R_\mathrm{2L} = \frac{R_2 \cdot R_L}{R_2 + R_L} $
 
-Werte einsetzen:
+Inserendo i valori:
 
 $ R_\mathrm{2L} = \frac{\qty{2,2}{\kilo\ohm} \cdot \qty{8,2}{\kilo\ohm}}
 {\qty{2,2}{\kilo\ohm} + \qty{8,2}{\kilo\ohm}} $
 
 $ R_\mathrm{2L} \approx \qty{1,74}{\kilo\ohm} $
 
-Nun besteht die Schaltung nur noch aus einem einfachen Spannungsteiler aus $R_1$ und $R_\mathrm{2L}$.
+Ora il circuito consiste solo in un semplice partitore di tensione composto da $R_1$ e $R_\mathrm{2L}$.
 
-Die Ausgangsspannung berechnet sich mit:
+La tensione d'uscita si calcola con:
 
 $ U_2 = U_B \cdot \frac{R_\mathrm{2L}}{R_1 + R_\mathrm{2L}} $
 
-Werte einsetzen:
+Inserendo i valori:
 
-$ U_2 = \qty{12}{\volt} \cdot \frac{\qty{1,74}{\kilo\ohm}}{\qty{10}{\kilo\ohm} + \qty{1,74}{\kilo\ohm}} = \approx \qty{1,8}{\volt} $
+$ U_2 = \qty{12}{\volt} \cdot \frac{\qty{1,74}{\kilo\ohm}}{\qty{10}{\kilo\ohm} + \qty{1,74}{\kilo\ohm}} = \approx \approx \qty{1,8}{\volt} $

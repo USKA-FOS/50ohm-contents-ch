@@ -1,11 +1,11 @@
-Ein Netzgerät wandelt die Wechselspannung von $\qty{230}{\volt}$ aus der Steckdose in eine kleinere Gleichspannung um. Im Amateurfunk verwenden wir häufig Netzgeräte, die an ihrem Ausgang eine Gleichspannung von $\qty{13,8}{\volt}$ bereitstellen, um damit beispielsweise einen Transceiver zu betreiben.
+Un alimentatore converte la Tensione alternata di $\qty{230}{\volt}$ dalla presa di corrente in una tensione continua più bassa. Nell'Amateurfunk utilizziamo spesso alimentatori che forniscono una Tensione continua di $\qty{13,8}{\volt}$ in uscita, per alimentare ad esempio un trasmettitore-ricevitore.
 
 <margin>
-[picture:740:n_netzgeraet:Netzgerät]
+[picture:740:n_netzgeraet:Alimentatore]
 </margin>
 
 <indepth>
-Zur *Kontrolle des Betriebszustands* eines Netzgeräts gibt es beleuchtete Schalter, Kontroll-Leuchtdioden oder beleuchtete Anzeigeinstrumente. Die Anzeigeinstrumente können getrennt die Betriebsspannung in Volt und die aktuell fließenden Stromstärke in Ampere anzeigen. Es gibt auch umschaltbare Digitalanzeigen für diesen Zweck.
+Per il *controllo dello stato operativo* di un alimentatore, ci sono interruttori illuminati, diodi luminosi di controllo o strumenti di visualizzazione illuminati. Gli strumenti di visualizzazione possono indicare separatamente la tensione di servizio in Volt e l'intensità di corrente che scorre in Ampere. Esistono anche display digitali commutabili per questo scopo.
 </indepth>
 
 [question:ND101]
@@ -13,25 +13,25 @@ Zur *Kontrolle des Betriebszustands* eines Netzgeräts gibt es beleuchtete Schal
 
 ---
 
-Ein Netzgerät wird oft mittels *Schutzkontaktstecker* (kurz Schukostecker) an der Steckdose angeschlossen. Beim Schutzkontaktstecker spielt die Einsteckrichtung keine Rolle, da sich die Polarität bei Wechselspannung ständig ändert. Stecker und Steckdose haben jeweils 3 Pole, wie in Abbildung [ref:n_schutzkontakt] zu erkennen ist. Die Stifte des Steckers passen in die Öffnungen der Steckdose und erlauben die Verbindung zu den sogenannten L- und N-Leitern, zwischen denen die gefährliche Wechselspannung von $\qty{230}{\volt}$ anliegt.
+Un alimentatore viene spesso collegato alla presa di corrente tramite una *spina con contatto di protezione* (in breve spina Schuko). Con la spina con contatto di protezione, la direzione di inserimento non ha importanza, poiché la polarità della Tensione alternata cambia continuamente. La spina e la presa hanno ciascuna 3 poli, come si vede nella figura [ref:n_schutzkontakt]. I pin della spina si inseriscono nelle aperture della presa e permettono il collegamento ai cosiddetti conduttori L e N, tra i quali si trova la pericolosa Tensione alternata di $\qty{230}{\volt}$.
 
 <margin>
-[photo:86:n_schutzkontakt:Schutzkontakt an einer Steckdose und Schukostecker]
+[photo:86:n_schutzkontakt:Contatto di protezione su una presa e spina Schuko]
 </margin>
 
-Den äußeren Schleifkontakt des Schukosteckers nennt man *Schutzkontakt* (in der Abbildung [ref:n_schutzkontakt] rot markiert). Der Schutzkontakt verbindet sich beim Einstecken mit dem sogenannten *PE-Leiter* der Steckdose. "PE" ist die Abkürzung für den englischen Begriff "protective earth", der soviel wie Schutzerdung bedeutet. Beim Einstecken des Steckers wird das metallische Gehäuse des Netzgeräts also geerdet. Eine gefährliche Spannung auf dem Gehäuse wird dadurch ausgeschlossen.
+Il contatto a slitta esterno della spina Schuko è chiamato *contatto di protezione* (contrassegnato in rosso nella figura [ref:n_schutzkontakt]). Quando viene inserita, il contatto di protezione si collega al cosiddetto conduttore *PE* della presa. "PE" è l'abbreviazione del termine inglese "protective earth", che significa messa a terra di protezione. Inserendo la spina, l'involucro metallico dell'alimentatore viene quindi messo a terra. In questo modo si esclude una tensione pericolosa sull'involucro.
 
 [question:ND109]
 
 ---
 
-Der Ausgang des Netzteils und die Verbindungsleitung zum Transceiver sind zweipolig ausgelegt, damit sich ein geschlossener Stromkreis ergeben kann. Das ist die Voraussetzung dafür, dass der Strom vom Netzgerät zum Transceiver, durch diesen hindurch und wieder zurück zum Netzgerät fließen kann. 
+L'uscita dell'alimentatore e il cavo di collegamento al trasmettitore-ricevitore sono a due poli, in modo da formare un circuito chiuso. Questa è la premessa affinché la corrente possa fluire dall'alimentatore al trasmettitore-ricevitore, attraversarlo e tornare all'alimentatore.
 
 <webmargin>
-[picture:680:n_Netzgeraet_TRX:Anschluss von Netzgerät und TRX]
+[picture:680:n_Netzgeraet_TRX:Collegamento di alimentatore e TRX]
 </webmargin>
 
-Die Ausgangsklemmen für die Gleichspannung sind farbig ausgeführt: Rot steht für Plus und schwarz für Minus. Beim Anschluss der Verbindungsleitung zum Transceiver ist diese Polung unbedingt zu beachten. Ansonsten kann es zum Kurzschluss oder im Extremfall sogar zur Zerstörung des Transceivers kommen. Erst wenn alle Leitungen angeschlossen sind und die Polung kontrolliert wurde, sollte das Netzgerät eingeschaltet werden. 
+I morsetti di uscita per la Tensione continua sono colorati: il rosso indica il positivo e il nero il negativo. Durante il collegamento del cavo al trasmettitore-ricevitore, è assolutamente necessario rispettare questa polarità. Altrimenti, si potrebbe verificare un cortocircuito o, nel caso estremo, persino la distruzione del trasmettitore-ricevitore. Solo dopo aver collegato tutti i cavi e controllato la polarità, l'alimentatore dovrebbe essere acceso.
 
 [question:ND104]
 [question:ND103]
@@ -41,31 +41,30 @@ Die Ausgangsklemmen für die Gleichspannung sind farbig ausgeführt: Rot steht f
 
 ---
 
-Im Netzgerät und in der Verbindungsleitung zum Transceiver gibt es sogenannte Feinsicherungen. Diese können einen Fehlerfall (Kurzschluss oder Überlastung) erkennen und den Stromfluss unterbrechen. Häufig handelt es sich dabei um Schmelzsicherungen, in denen ein dünner Draht schmilzt, wenn zuviel Strom fließt. Dann ist der Stromkreis nicht mehr geschlossen und es kann kein Strom mehr fließen. Man spricht dann von einer *durchgebrannten Sicherung* oder in der Fachsprache auch von einer *thermischen Abschaltung*.
+Nell'alimentatore e nel cavo di collegamento al trasmettitore-ricevitore ci sono delle cosiddette micrifusibili. Questi possono rilevare un guasto (cortocircuito o sovraccarico) e interrompere il flusso di corrente. Spesso si tratta di fusibili a fusione, in cui un sottile Filo fonde quando scorre troppa corrente. Allora il circuito non è più chiuso e non può più scorrere corrente. Si parla quindi di un *fusibile bruciato* o, nel gergo tecnico, di uno *spegnimento termico*.
 
 <margin>
-[photo:88:n_feinsicherungen:Feinsicherungen]
+[photo:88:n_feinsicherungen:Micrifusibili]
 </margin>
 
 <indepth>
-*Vertiefung:* Feinsicherungen sind $\qty{5}{\milli\meter} \times \qty{20}{\milli\meter}$ groß und in unterschiedlichen Ausführungen erhältlich. Sie unterscheiden sich nach Stromstärken und Auslösecharakteristiken. Träge Sicherungen werden immer dann eingesetzt, wenn der Einschaltstrom deutlich höher als der Nennstrom ist, z. B. in Netzgeräten. Die Auslösezeit der Sicherung hängt von der Stromstärke und der Dauer des Stromflusses ab. In Tabelle [ref:n_feinsicherung] sind übliche Werte für die Auslösezeit zusammengestellt. Genauere Angaben geben die Hersteller über Kennlinien in ihren Datenblättern an.
+*Approfondimento:* Le micrifusibili sono grandi $\qty{5}{\milli\meter} \times \qty{20}{\milli\meter}$ e disponibili in diverse versioni. Si differenziano per le intensità di corrente e le caratteristiche di intervento. I fusibili lenti vengono sempre utilizzati quando la corrente di spunto è significativamente superiore alla corrente nominale, ad es. negli alimentatori. Il tempo di intervento del fusibile dipende dall'intensità di corrente e dalla durata del flusso di corrente. Nella tabella [ref:n_feinsicherung] sono raccolti i valori comuni per il tempo di intervento. I produttori forniscono indicazioni più precise tramite curve caratteristiche nei loro datasheet.
 </indepth>
 
-Nachdem eine Schmelzsicherung ausgelöst hat und man die Ursache erkannt und behoben hat, muss man sie austauschen. Defekte Sicherungen dürfen aber nur durch gleichartige ersetzt werden! Dabei ist sowohl auf Stromstärke als auch die sogenannte Auslösecharakteristik zu achten, die angibt, wie schnell eine Sicherung auslöst (flink, mittelträge, träge).
+Dopo che un fusibile a fusione è intervenuto e si è identificata e risolta la causa, è necessario sostituirlo. I fusibili difettosi devono però essere sostituiti solo con altri identici! Bisogna prestare attenzione sia all'intensità di corrente sia alla cosiddetta caratteristica di intervento, che indica quanto velocemente interviene un fusibile (rapido, mediamente ritardato, ritardato).
 
-<webmargin>
-| l: Auslösecharakteristik | l: Kennzeichen | X: Abschaltzeit |
-| flink | F | max. $\qty{30}{\milli\second}$ |
-| mittelträge | MT | max. $\qty{90}{\milli\second}$ |
-| träge | T | max. $\qty{300}{\milli\second}$ |
-[table:n_feinsicherung:Kenngrößen von Feinsicherungen, Abschaltzeit bei zehnfachem Nennstrom]
+<webmargin>| l: Caratteristica di intervento | l: Indicazione | X: Tempo di spegnimento |
+| rapido | F | max. $\qty{30}{\milli\second}$ |
+| mediamente ritardato | MT | max. $\qty{90}{\milli\second}$ |
+| ritardato | T | max. $\qty{300}{\milli\second}$ |
+[table:n_feinsicherung:Parametri delle micrifusibili, tempo di spegnimento a dieci volte la corrente nominale]
 </webmargin>
 
 <danger>
-*ACHTUNG:* Die manchmal praktizierte Überbrückung einer defekten Sicherung, z. B. mit Alufolie, ist unzulässig und sehr gefährlich. Es besteht die Gefahr von Bränden!
+*ATTENZIONE:* Il bypass di un fusibile difettoso, ad esempio con foglio di alluminio, talvolta praticato, è inammissibile e molto pericoloso. Esiste il rischio di incendi!
 </danger>
 
-Hochwertige Netzgeräte besitzen oft auch eine elektronische Begrenzung von Strömen. Im Kurzschlussfall sorgt diese dafür, dass die Stromstärke begrenzt wird. Dies nennt sich *Kurzschlussstrombegrenzung*. Nachdem der Fehler beseitigt ist, muss keine Sicherung ausgetauscht werden.
+Gli alimentatori di alta qualità spesso dispongono anche di una limitazione elettronica delle correnti. In caso di cortocircuito, questa garantisce che l'intensità di corrente venga limitata. Questo si chiama *limitazione della corrente di cortocircuito*. Dopo che il guasto è stato eliminato, non è necessario sostituire alcun fusibile.
 
 [question:ND108]
 [question:NK305]

@@ -1,28 +1,28 @@
-* Starke Sender führen zu unterschiedlichen Störungen und Beeinflussungen von elektronischen Geräten und Anlagen
-* Ziel: Störungen vermeiden oder Ursachen durch Gegenmaßnahmen beseitigen
+* Forti trasmettitori causano disturbi e interferenze a dispositivi ed impianti elettronici
+* Obiettivo: evitare disturbi o eliminare le cause con contromisure
 
 ---
-## Einströmung
+## Einströmung (Iniezione di corrente)
 
-* Hochfrequenz gelangt durch Leitungen oder Kabel in ein Gerät
-* Zum Beispiel über die Netzleitung, Antennenleitung, Lautsprecherkabel
+* Le alte frequenze entrano in un dispositivo attraverso conduttori o cavi
+* Ad esempio tramite la linea di alimentazione, la linea dell'antenna, i cavi degli altoparlanti
 
 ---
 [question:EJ101]
 ---
-## Einstrahlung
+## Einstrahlung (Irradiazione)
 
-* Hochfrequenz gelangt wegen ungenügend geschirmten Gehäuse in die Elektronik
-* Führt dort zu Störungen
+* Le alte frequenze entrano nell'elettronica a causa di un involucro non sufficientemente schermato
+* Causa disturbi al suo interno
 
 ---
 [question:EJ102]
 ---
-## Störende Beeinflussung
+## Störende Beeinflussung (Influenza disturbante)
 
-* Kann trotz gesetzeskonformen Betrieb eines Senders beim Empfänger in Nähe auftreten
-* Garagentorsteuerungen oder Funk-Autoschlüssel funktionieren nicht mehr wie gewohnt
-* Störung von LED-Leuchten
+* Può verificarsi nel ricevitore nelle vicinanze, nonostante il funzionamento conforme alla legge di un trasmettitore
+* I telecomandi per garage o le chiavi auto a radiofrequenza non funzionano più come al solito
+* Disturbi alle luci a LED
 
 ---
 [question:EJ103]
@@ -31,50 +31,50 @@
 ---
 [question:EJ113]
 ---
-## Intermodulation
+## Intermodulazione
 
-* Beim Auftreten von mehreren starken Empfangssignalen
-* Z.B. TV-Sender und starke Amateurfunkstation in der Nachbarschaft
-* Führt zu unerwünschten Oberwellen und deren Mischprodukten
-* Durch Intermodulation werden Phantomsignale hervorgerufen
+* Quando si verificano più segnali di ricezione forti
+* Ad esempio, trasmettitori TV e una potente stazione radioamatoriale nelle vicinanze
+* Porta a armoniche indesiderate e ai loro prodotti di mescolanza
+* L'intermodulazione genera segnali fantasma
 
 ---
 [question:EJ120]
 ---
-## Oxidation
+## Ossidazione
 
-* Korrodierte Kontakte (Metall-Oxide) zwischen Metallen bilden Nichtlinearitäten durch Gleichricht-Effekte
-* Unerwünschte Mischprodukte auf der Sende- und Empfangsseite
-* Kann zu Störungen im Fernseh- und Rundfunkempfang führen
+* I contatti corrosi (ossidi metallici) tra metalli formano non linearità attraverso effetti di rettifica
+* Prodotti di mescolanza indesiderati sul lato di trasmissione e ricezione
+* Può causare disturbi nella ricezione televisiva e radiofonica
 
 ---
 [question:EJ121]
 ---
-## Erforderliche Sendeleistung
+## Potenza di trasmissione richiesta
 
-* Stets nur die für eine zufriedenstellende Kommunikation erforderliche Sendeleistung verwenden
-* Zur Vermeidung von Störungen von Geräten
+* Utilizzare sempre solo la potenza di trasmissione necessaria per una comunicazione soddisfacente
+* Per evitare disturbi ai dispositivi
 
 ---
 [question:EJ104]
 ---
 [question:EJ105]
 ---
-## Übersteuerung
+## Sovraeccitazione
 
-* Hohe Feldstärken durch hohe Sendeleistungen oder im Strahlungsbereich einer Antenne
-* Empfänger und Empfangsstufen können übersteuert werden
-* Verringert die Empfängerempfindlichkeit bis hin zur Blockierung
+* Alti livelli di campo dovuti ad alte potenze di trasmissione o nell'area di irradiazione di un'antenna
+* I ricevitori e gli stadi di ricezione possono essere sovraeccitati
+* Riduce la sensibilità del ricevitore fino al blocco
 
 ---
 [question:EJ106]
 ---
 [question:EJ107]
 ---
-## Weitere Maßnahmen
+## Ulteriori misure
 
-* Verringerung der Sendeleistung führt nicht immer zum Erfolg
-* Das gestörte Gerät oder die Zuleitung könnte nicht genügend abgeschirmt sein
+* La riduzione della potenza di trasmissione non porta sempre al successo
+* Il dispositivo disturbato o il cavo di alimentazione potrebbero non essere sufficientemente schermati
 
 ---
 [question:EJ108]
@@ -83,20 +83,20 @@
 ---
 [question:EJ111]
 ---
-## Nachbarschaftshilfe
+## Aiuto al vicino
 
-* Hilfe dem Nachbarn anbieten
-* Nur als letztes Mittel die Behörde einschalten
+* Offrire aiuto al vicino
+* Coinvolgere le autorità solo come ultima risorsa
 
 ---
 [question:EJ124]
 ---
-## Filter
+## Filtri
 
-* Sowohl auf Seite des störenden Geräts als auch auf Seiten des gestörten Geräts einbauen
-* Oberwellenaussendungen unterdrücken
-* Hochpass oder Bandpass auf Empfängerseite 
-* Übersteuerrung wird minimiert
+* Installare sia sul lato del dispositivo disturbante che sul lato del dispositivo disturbato
+* Sopprimere le emissioni armoniche
+* Filtro passa-alto o passa-banda sul lato ricevitore
+* La sovraeccitazione viene minimizzata
 
 ---
 [question:EJ116]
@@ -104,13 +104,13 @@
 [question:EJ117]
 ---
 
-## Mantelwellensperren
+## Soppressori di modo comune
 
-* Sendesignal der Amateurfunkstation wird über den Schirm von Koaxialkabeln oder Zuleitungen in Empfänger oder Geräte in örtlicher Nähe eingekoppelt
-* *Mantelwellensperren* in Zuleitungen von Geräten einbauen
-* Auch *Drossel* genannt
-* Ringkerne oder Klappferrite
-* Weitere Möglichkeit: Verwendung von geschirmten Steuerkabeln
+* Il segnale di trasmissione della stazione radioamatoriale viene accoppiato attraverso la schermatura dei cavi coassiali o dei cavi di alimentazione nei ricevitori o nei dispositivi nelle immediate vicinanze
+* Installare *soppressori di modo comune* nei cavi di alimentazione dei dispositivi
+* Chiamati anche *drossel* (induttori di blocco)
+* Nuclei toroidali o ferrite a clip
+* Altra possibilità: utilizzo di cavi di controllo schermati
 
 ---
 [question:EJ118]
@@ -121,19 +121,19 @@
 ---
 [question:EJ114]
 ---
-## Logbuch
+## Logbook
 
-* Wenn die Funkanlage als Störquelle vermutet wird
-* Freiwilligen Nachweis führen
-* Ausschluss der Amateurfunkanlage als Störquelle
+* Se l'impianto radio è sospettato di essere la fonte del disturbo
+* Tenere una registrazione volontaria
+* Esclusione dell'impianto radioamatoriale come fonte di disturbo
 
 ---
 [question:EJ122]
 ---
-## Schlechte Empfangsverhältnisse
+## Scarse condizioni di ricezione
 
-* Z.B. TV-Zimmerantenne für Empfang
-* Verwendung einer Außenantenne mit entsprechenden Vorfiltern
+* Ad esempio, antenna TV da interno per la ricezione
+* Utilizzo di un'antenna esterna con filtri preliminari appropriati
 
 ---
 [question:EJ123]

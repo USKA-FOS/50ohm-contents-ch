@@ -1,11 +1,11 @@
-Da alle vier Widerstände den gleichen Wert besitzen, sind die beiden Spannungsteiler links und rechts gleich aufgebaut.
+Poiché tutte e quattro le resistenze hanno lo stesso valore, i due partitori di tensione a sinistra e a destra sono costruiti allo stesso modo.
 
-Die Betriebsspannung von $\qty{10}{\volt}$ teilt sich daher auf beiden Seiten jeweils gleichmäßig auf:
+La tensione di servizio di $\qty{10}{\volt}$ si divide quindi equamente su entrambi i lati:
 
 $ U_1 = U_2 = \qty{5}{\volt} $
 
-Damit liegen die Messpunkte A und B auf demselben Potenzial. Zwischen A und B besteht also keine Spannungsdifferenz.
+Ciò significa che i punti di misurazione A e B si trovano allo stesso potenziale. Pertanto, non vi è alcuna differenza di potenziale tra A e B.
 
-Die Brückenspannung beträgt daher:
+La tensione del ponte è quindi:
 
 $ U_\mathrm{AB} = \qty{0}{\volt} $

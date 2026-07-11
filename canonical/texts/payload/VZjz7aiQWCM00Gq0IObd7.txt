@@ -1,10 +1,10 @@
-## Funktionsweise eines vektoriellen Netzwerkanalysators  
+## Funzionamento di un analizzatore di rete vettoriale  
 
-* Erzeugt ein *frequenzveränderliches* Signal  
-* Signal wird ausgegeben (z. B. an Antenne oder Schwingkreis)  
-* Misst, wie das Signal verändert wird (z. B. durch Reflexion)  
-* Erfasst sowohl Amplitude als auch Phase  
-* Ermöglicht Bestimmung von Wirk- und Blindanteil sowie Stehwellenverhältnis  
+* Genera un segnale *a frequenza variabile*  
+* Il segnale viene emesso (ad es. all'antenna o al circuito oscillante)  
+* Misura come il segnale viene modificato (ad es. per riflessione)  
+* Rileva sia l'ampiezza che la fase  
+* Permette la determinazione della parte attiva e reattiva e del rapporto d’onda stazionaria  
 
 ---  
 [question:AI201]
@@ -16,20 +16,20 @@
 [question:AI203]
 
 ---  
-### Anzeigeform des VNAs – Impedanzaufteilung  
+### Modalità di visualizzazione del VNA – Suddivisione dell'impedenza  
 
-* Aufteilung in Wirk- ($R$) und Blindanteil ($X$)  
-* Wirkwiderstand oft in $\Omega$, Blindwiderstand gelegentlich als $j\Omega$  
-* Geräte zeigen Impedanzwerte uneinheitlich an  
-* Das $j$ symbolisiert in der Elektrotechnik die imaginäre Einheit ($i$)  
-* Positive Blindwerte deuten auf induktives, negative auf kapazitives Verhalten hin  
+* Suddivisione in parte attiva ($R$) e reattiva ($X$)  
+* La resistenza attiva è spesso in $\Omega$, la resistenza reattiva occasionalmente come $j\Omega$  
+* I dispositivi visualizzano i valori di impedenza in modo non uniforme  
+* La $j$ simboleggia in elettrotecnica l'unità immaginaria ($i$)  
+* Valori reattivi positivi indicano un comportamento induttivo, negativi un comportamento capacitivo  
 
 <note>
-*Imaginäre Zahlen* sind ein bewährtes Hilfsmittel in Elektrotechnik und Mathematik.<br/>  
-- Zur Lösung von $x^2 = -1$ wird die imaginäre Zahl $i$ definiert, wobei $i^2 = -1$ gilt.  <br/>
-- Reelle Zahlen können dies nicht leisten, da das Produkt zweier negativer Zahlen positiv ist.  <br/>
-- Komplexe Zahlen, wie $54 - 12i$, verbinden reelle und imaginäre Anteile.  <br/>
-- In der Elektrotechnik wird zur Vermeidung von Verwechslungen mit dem Strom $j$ anstelle von $i$ verwendet.
+*Numeri immaginari* sono uno strumento collaudato in elettrotecnica e matematica.<br/>  
+- Per risolvere $x^2 = -1$ si definisce il numero immaginario $i$, dove $i^2 = -1$.  <br/>
+- I numeri reali non possono fare ciò, poiché il prodotto di due numeri negativi è positivo.  <br/>
+- I numeri complessi, come $54 - 12i$, collegano le componenti reali e immaginarie.  <br/>
+- In elettrotecnica, per evitare confusioni con la corrente, si usa $j$ al posto di $i$.
 </note>
 
 ---  
@@ -42,15 +42,15 @@
 [question:AI206]
 
 ---  
-### Grafische Darstellung des SWR-Verlaufs
+### Rappresentazione grafica dell'andamento del ROS
 
 <left>
-[picture:526:a_vna_swr_verlauf:SWR-Verlauf im Display eines VNAs]  
+[picture:526:a_vna_swr_verlauf:Andamento del ROS nel display di un VNA]  
 </left>
 <right>
-* VNAs stellen den SWR-Verlauf über die Frequenz grafisch dar  
-* Eine zu tiefe Resonanzfrequenz weist auf eine zu lange Antenne hin (Kürzen erforderlich)  
-* Eine zu hohe Resonanzfrequenz deutet darauf hin, dass die Antenne verlängert werden muss  
+* I VNA rappresentano graficamente l'andamento del ROS in funzione della frequenza  
+* Una frequenza di risonanza troppo bassa indica un'antenna troppo lunga (necessaria accorciatura)  
+* Una frequenza di risonanza troppo alta indica che l'antenna deve essere allungata  
 </right>
 
 ---  

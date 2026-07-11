@@ -1,24 +1,24 @@
 %TODO ggf. das Kapitel wo anders hinschieben 
 
-Im Unterkapitel *Dezibel* im Block über "Strom, Spannung, Widerstand, Leistung, Energie" wurde schon angedeutet, dass die Zusätze $\unit{\dBd}$ und $\unit{\dBi}$, die bei der Angabe von Antennengewinnen verwendet werden, die zugrundeliegende Referenz bezeichnen. In diesem Fall bezieht sich der Dezibelwert nicht auf eine Leistung oder Spannung, sondern auf einen bestimmten Referenzstrahler. Üblich sind dabei $\unit{\dBi}$, bezogen auf den isotropen Kugelstrahler, sowie $\unit{\dBd}$, bezogen auf den Halbwellendipol.
+Nel sottocapitolo *Decibel* nel blocco su "Corrente, Tensione, Resistenza, Potenza, Energia" è già stato accennato che i suffissi $\unit{\dBd}$ e $\unit{\dBi}$, utilizzati nell'indicazione dei guadagni d'antenna, designano il riferimento sottostante. In questo caso, il valore in decibel non si riferisce a una potenza o a una tensione, ma a un particolare radiatore di riferimento. Comunemente si usano $\unit{\dBi}$, riferito al radiatore isotropico sferico, e $\unit{\dBd}$, riferito al dipolo a semionda.
 
-Der *Isotropstrahler* (vgl. Abbildung [ref:e_Kugelstrahler]) ist eine gedachte, hypothetische Antenne, die in alle Richtungen gleich stark abstrahlt. Weist eine real vorhandene Antenne eine Richtwirkung auf, so ist die Abstrahlung in bestimmten Richtungen stärker und in anderen Richtungen schwächer als sie beim hypothetischen Isotropstrahler wäre. 
+Il *radiatore isotropico* (cfr. figura [ref:e_Kugelstrahler]) è un'antenna immaginaria, ipotetica, che irradia in modo uniforme in tutte le direzioni. Se un'antenna reale presenta direttività, l'irradiazione in certe direzioni è più forte e in altre direzioni è più debole rispetto a quanto sarebbe con il radiatore isotropico ipotetico. 
 
 <margin>
-[picture:751:e_Kugelstrahler:Isotroper Strahler in der Mitte einer Kugel, der an allen Stellen der Kugeloberfläche die gleiche Strahlungsleistung erzeugt]
+[picture:751:e_Kugelstrahler:Radiatore isotropico al centro di una sfera, che genera la stessa potenza di irradiazione in tutti i punti della superficie sferica]
 </margin>
 
-Den Gewinn in einer Richtung (z.B. der Hauptstrahlrichtung welche die Richtung mit dem maximalen Antennengewinn ist) gegenüber einem Isotropstrahler kann man in Dezibel $\unit{\dB}$ angeben. Anstelle von $\unit{\dB}$ schreibt man $\unit{\dBi}$, um zu verdeutlichen, dass man sich auf den Isotropstrahler bezieht.
+Il guadagno in una direzione (ad esempio, la direzione del lobo principale, che è la direzione con il massimo guadagno d'antenna) rispetto a un radiatore isotropico può essere indicato in decibel $\unit{\dB}$. Invece di $\unit{\dB}$, si scrive $\unit{\dBi}$ per chiarire che ci si riferisce al radiatore isotropico.
 
 [question:EG220]
 
-Auch ein einfacher Halbwellendipol hat einen Gewinn, denn er strahlt senkrecht zum Leiter um $\qty{2,15}{\dB}$ stärker ab, als es ein Isotropstrahler tun würde. Entsprechend hat ein Halbwellendipol einen Gewinn von $\qty{2,15}{\dBi}$.
+Anche un semplice dipolo a semionda ha un guadagno, poiché irradia $\qty{2,15}{\dB}$ più forte perpendicolarmente al conduttore rispetto a quanto farebbe un radiatore isotropico. Di conseguenza, un dipolo a semionda ha un guadagno di $\qty{2,15}{\dBi}$.
 
-Gelegentlich interessiert der Gewinn der über den Gewinn eines Halbwellendipols hinausgeht, also den Gewinn in Bezug auf einen Halbwellendipol. Diesen gibt man in $\unit{\dBd}$ an, wobei das $\text{d}$ für Dipol steht. Ein Halbwellendipol hat entsprechend einen Gewinn von $\qty{0}{\dBd}$. Antennen, die mehr Gewinn aufweisen, als ein Halbwellendipol haben einen Gewinn größer als $\qty{0}{\dBd}$ und Antennen mit weniger Gewinn als ein Halbwellendipol entsprechend weniger als $\qty{0}{\dBd}$.
+Occasionalmente, si è interessati al guadagno che va oltre il guadagno di un dipolo a semionda, cioè il guadagno in relazione a un dipolo a semionda. Questo viene indicato in $\unit{\dBd}$, dove la $\text{d}$ sta per dipolo. Un dipolo a semionda ha di conseguenza un guadagno di $\qty{0}{\dBd}$. Le antenne che hanno un guadagno maggiore di un dipolo a semionda hanno un guadagno maggiore di $\qty{0}{\dBd}$ e le antenne con un guadagno inferiore a un dipolo a semionda, rispettivamente, inferiore a $\qty{0}{\dBd}$.
 
-Vergleichen wir noch einmal den Gewinn eines Halbwellendipols angegeben als $\unit{\dBi}$ und angegeben als $\unit{\dBd}$: Der Halbwellendipol hat in Hauptstrahlrichtung einen Gewinn von $\qty{2,15}{\dBi}$, da er gegenüber dem Isotropstrahler $\qty{2,15}{\dB}$ stärker strahlt. In $\unit{\dBd}$ angegeben sind es jedoch $\qty{0}{\dBd}$. Die Angabe in $\unit{\dBi}$ ist stets um $\qty{2,15}{\dB}$ höher als die Angabe in $\unit{\dBd}$.
+Confrontiamo ancora una volta il guadagno di un dipolo a semionda indicato come $\unit{\dBi}$ e indicato come $\unit{\dBd}$: Il dipolo a semionda ha nella direzione del lobo principale un guadagno di $\qty{2,15}{\dBi}$, poiché irradia $\qty{2,15}{\dB}$ più forte rispetto al radiatore isotropico. In $\unit{\dBd}$ indicato, tuttavia, sono $\qty{0}{\dBd}$. L'indicazione in $\unit{\dBi}$ è sempre $\qty{2,15}{\dB}$ più alta dell'indicazione in $\unit{\dBd}$.
 
-Das steht auch in der Formelsammlung: 
+Questo è anche indicato nella raccolta di formule: 
 
 $g_i = g_d + \qty{2,15}{\dB}$
 

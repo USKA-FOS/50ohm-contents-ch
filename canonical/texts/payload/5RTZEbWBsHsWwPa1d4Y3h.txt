@@ -1,15 +1,15 @@
-In der Klasse E haben wir bereits *Fading* (*QSB*) kennen gelernt. Das wird hier nochmal in der Klasse A etwas vertieft. Wenn ein Funksignal auf mehr als einem Weg vom Sender zum Empfänger gelangt, dann spricht man von *Mehrwegeausbreitung*. Eine wichtige Ursache ist die Reflexion des Signals an Flächen (z.B. Gebäude, Topografie, Flugzeuge) [ref:a_mehrwegeausbreitung_reflexion]. Auf Kurzwelle kommt hinzu, dass das Signal in der Ionosphäre häufig an mehreren Stellen gebrochen wird [ref:a_mehrwegeausbreitung_ionosphäre]. Fast jede Funkverbindung ist von Mehrwegeausbreitung betroffen.
+Nella classe E abbiamo già imparato a conoscere il *fading* (*QSB*). Questo viene approfondito qui nella classe A. Quando un segnale radio raggiunge il ricevitore attraverso più di un percorso dal trasmettitore, si parla di *propagazione multipercorso*. Una causa importante è la riflessione del segnale su superfici (ad es. edifici, topografia, aeroplani) [ref:a_mehrwegeausbreitung_reflexion]. Nelle onde corte, si aggiunge il fatto che il segnale viene spesso rifratto in più punti nella ionosfera [ref:a_mehrwegeausbreitung_ionosphäre]. Quasi ogni collegamento radio è interessato dalla propagazione multipercorso.
 
 <margin>
-[picture:1064:a_mehrwegeausbreitung_reflexion:Mehrwegeausbreitung durch Reflexion. Durch die Phasenverschiebung bei der Reflexion kann es zu Verstärkung oder Abschwächung des empfangenen Signals kommen]
+[picture:1064:a_mehrwegeausbreitung_reflexion:Propagazione multipercorso dovuta a riflessione. A causa dello spostamento di fase durante la riflessione, può verificarsi un rinforzo o un indebolimento del segnale ricevuto]
 </margin>
 
 ---
 
-Der Empfänger erhält also gleichzeitig *mehrere* Signale, die aufgrund unterschiedlicher Wegstrecken mit abweichenden Laufzeiten und damit verschiedenen Phasen eintreffen. Diese Signale werden im Empfänger addiert und nennt sich in der Fachsprache *Interferenz*. Abhängig vom Phasenunterschied kann das resultierende Summensignal entweder verstärkt oder abgeschwächt werden – im Extremfall sogar bis zur vollständigen Auslöschung.
+Il ricevitore riceve quindi contemporaneamente *più* segnali che, a causa di percorsi diversi, arrivano con tempi di propagazione diversi e quindi con fasi diverse. Questi segnali vengono sommati nel ricevitore e vengono chiamati *interferenza* nel gergo tecnico. A seconda della differenza di fase, il segnale risultante può essere rinforzato o indebolito – in casi estremi anche fino all'annullamento completo.
 
 <indepth>
-Interferenz (von lateinisch inter = „zwischen“ und ferire, über altfranzösisch s’entreferir = „sich gegenseitig schlagen“) bezeichnet allgemein die Veränderung der Amplitude, die bei der Überlagerung von zwei oder mehr Wellen, d. h. addition, entsteht.
+Interferenza (dal latino inter = "tra" e ferire, attraverso l'antico francese s'entreferir = "colpirsi a vicenda") indica generalmente la variazione di ampiezza che si verifica quando due o più onde si sovrappongono, cioè si sommano.
 </indepth>
 
 [question:AH222]
@@ -18,5 +18,5 @@ Interferenz (von lateinisch inter = „zwischen“ und ferire, über altfranzös
 [include:applet_interferenz]
 </webmargin>
 
-Wenn sich eines der beteiligten Medien bewegt (z.B. Funkbetrieb aus einem fahrenden Auto, ein Flugzeug als Reflektor für Funksignale oder grundsätzlich die brechenden Bereiche in der Ionosphäre, vor allem während der Dämmerung), dann verändert sich damit auch fortlaufend das Summensignal im Empfänger. Dies führt zu ständig zu QSB sowie je nach Modulationsart zu mehr oder weniger starken Verzerrungen und damit schlechterer Verständlichkeit.
+Se uno dei mezzi coinvolti si muove (ad es. trasmissione radio da un'auto in movimento, un aeroplano come riflettore per segnali radio o fondamentalmente le aree rifrangenti nella ionosfera, soprattutto durante il crepuscolo), il segnale risultante nel ricevitore cambia continuamente. Ciò porta costantemente a QSB e, a seconda del tipo di modulazione, a distorsioni più o meno forti e quindi a una minore intelligibilità.
 

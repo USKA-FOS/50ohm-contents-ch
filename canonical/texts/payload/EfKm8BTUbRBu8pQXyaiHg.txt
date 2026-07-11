@@ -1,43 +1,43 @@
-## Mittengespeister Dipol
+## Dipolo alimentato al centro
 
-* Speiseimpedanz $\qty{73,1}{\ohm}$
-* Im Freiraum, also bei einer Aufbauhöhe von min. einer Wellenlänge
-* Recht nahe bei $\qty{50}{\ohm}$
+* Impedenza di alimentazione $\qty{73,1}{\ohm}$
+* Nello spazio libero, quindi con un'altezza di montaggio di almeno una lunghezza d'onda
+* Molto vicino a $\qty{50}{\ohm}$
 
 ---
 [question:EG207]
 ---
-## Mittengespeister Dipol
+## Dipolo alimentato al centro
 
-* Bei geringerer Aufbauhöhe kommt es zu Wechselwirkungen mit dem Boden
-* Speiseimpedanz ca. $\qty{40}{\ohm}$ bis $\qty{90}{\ohm}$
+* A un'altezza di montaggio inferiore si verificano interazioni con il terreno
+* Impedenza di alimentazione circa $\qty{40}{\ohm}$ fino a $\qty{90}{\ohm}$
 
 ---
 [question:EG208]
 ---
 [question:EG209]
 ---
-## Faltdipol
+## Dipolo ripiegato
 
-* Antennenabschnitte sind teilweise parallel geführt
-* Verdoppelt die Spannung
-* Halbiert den Strom
+* I segmenti dell'antenna sono parzialmente condotti in parallelo
+* Raddoppia la tensione
+* Dimezza la corrente
 * $R = \frac{2 \cdot U}{\frac{I}{2}} = 4 \cdot \frac{U}{I}$
-* Speiseimpedanz vervierfacht sich: ca. $\qty{240}{\ohm}$ bis $\qty{300}{\ohm}$
+* L'impedenza di alimentazione si quadruplica: circa $\qty{240}{\ohm}$ fino a $\qty{300}{\ohm}$
 
 <note>
-* Hier ist von der Speiseleitung kommend eine Anpassung mittels eines Transformators nötig
+* Qui è necessaria un'adattamento tramite un trasformatore proveniente dalla linea di alimentazione
 </note>
 ---
 [question:EG210]
 ---
-## Groundplane-Antenne
+## Antenna Groundplane
 
-* Ein Dipolschenkel entfällt und wird durch eine Erde mit möglichst geringem Widerstand ersetzt
-* Hälfte eines Dipols im Freiraum
-* $\rightarrow$ Speisewiderstand: $\dfrac{\qty{73,1}{\ohm}}{2} \approx \qty{37}{\ohm}$
-* Radiale um $\qty{45}{\degree}$ nach unten abwinkeln ergibt zusätzliche Abstrahlung
-* $\rightarrow$ Speisewiderstand: $\qty{50}{\ohm}$
+* Un braccio del dipolo viene omesso e sostituito da una terra con la minor resistenza possibile
+* Metà di un dipolo nello spazio libero
+* $\rightarrow$ Resistenza di alimentazione: $\dfrac{\qty{73,1}{\ohm}}{2} \approx \qty{37}{\ohm}$
+* L'angolazione dei radiali verso il basso di $\qty{45}{\degree}$ produce un'ulteriore irradiazione
+* $\rightarrow$ Resistenza di alimentazione: $\qty{50}{\ohm}$
 
 ---
 [question:EG211]

@@ -1,34 +1,34 @@
-Gesucht ist die Leistung am Widerstand $R_2$.
+Si cerca la potenza sulla resistenza $R_2$.
 
-Gegeben sind:
+Dati:
 
 $ U = \qty{15}{\volt} $
 
-und
+e
 
 $ R_1 = R_2 = R_3 = \qty{10}{\kilo\ohm} $
 
-Es ergibt sich für die Parallelschaltung aus $R_2$ und $R_3$:
+Per la connessione in parallelo di $R_2$ e $R_3$ si ottiene:
 
 $ R_{23} = \qty{5}{\kilo\ohm} $
 
-Damit beträgt der Gesamtwiderstand:
+Quindi la resistenza totale è:
 
 $ R_\mathrm{ges} = R_1 + R_{23} = \qty{10}{\kilo\ohm} + \qty{5}{\kilo\ohm} = \qty{15}{\kilo\ohm} $
 
-Der Gesamtstrom ist somit:
+La corrente totale è quindi:
 
 $ I_\mathrm{ges} = \frac{U}{R_\mathrm{ges}} = \frac{\qty{15}{\volt}}{\qty{15}{\kilo\ohm}} = \qty{1}{\milli\ampere} $
 
-Dieser Strom teilt sich gleichmäßig auf $R_2$ und $R_3$ auf:
+Questa corrente si divide equamente tra $R_2$ e $R_3$:
 
 $ I_{2} = \frac{I_\mathrm{ges}}{2} = \qty{0,5}{\milli\ampere} $
 
-Die Leistung am Widerstand $R_2$ berechnet sich mit:
+La potenza sulla resistenza $R_2$ si calcola con:
 
 $ P = I^2 \cdot R $
 
-Also:
+Quindi:
 
 $ P_{2} = I_{2}^2 \cdot R_2 $
 

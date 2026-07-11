@@ -1,21 +1,21 @@
 ---
 
-Mit einem *Logbuch* hat man die Möglichkeit, seine Funkaktivitäten zu dokumentieren. Ein Logbuch kann man entweder elektronisch oder auch handschriftlich führen. Ähnlich wie bei einem Logbuch auf dem Schiff oder in einem Flugzeug kann man so alle wichtigen Informationen zu den Funkverbindungen festhalten, die man getätigt hat. Seltener wird das Logbuch auch als Stationstagebuch bezeichnet.
+Con un *registro* si ha la possibilità di documentare le proprie attività radioamatoriali. Un registro può essere tenuto elettronicamente o scritto a mano. Simile a un registro su una nave o in un aereo, si possono così registrare tutte le informazioni importanti sui collegamenti radio effettuati. Meno frequentemente, il registro viene anche chiamato diario di stazione.
 
 <indepth>
-Folgende Daten werden üblicherweise in einem Logbuch für jede Funkverbindung festgehalten:
-* Rufzeichen der Gegenstation
-* Frequenz oder Band
-* Datum und Uhrzeit
-* Übertragungsverfahren (z. B. SSB, FT8, RTTY, ...)
-* Vergebener und erhaltener Rapport
-* Verwendete Sendeleistung
-* Bemerkungen (z.B. Name des QSO-Partners oder eigene verwendete Station)
+Vengono solitamente registrati i seguenti dati in un registro per ogni collegamento radio:
+* Nominativo della stazione opposta
+* Frequenza o banda
+* Data e ora
+* Metodo di trasmissione (ad es. SSB, FT8, RTTY, ...)
+* Rapporto dato e ricevuto
+* Potenza di trasmissione utilizzata
+* Osservazioni (ad es. nome del partner QSO o stazione utilizzata da sé)
 </indepth>
 
 ---
 
-Viele Funkamateure führen freiwillig ein Logbuch. Es kann aber auch dazu kommen, dass man eine Aufforderung der Bundesnetzagentur erhält, die einen verpflichtet, ein Logbuch zu führen, beispielsweise um Störungsursachen zu ermitteln oder frequenztechnische Fragen zu klären.
+Molti radioamatori tengono volontariamente un registro. Tuttavia, può anche succedere di ricevere una richiesta dall'Agenzia federale delle reti (Bundesnetzagentur) che obbliga a tenere un registro, ad esempio per determinare le cause di disturbi o per chiarire questioni relative alle frequenze.
 
 [question:BG101]
 [question:VD109]
@@ -23,20 +23,20 @@ Viele Funkamateure führen freiwillig ein Logbuch. Es kann aber auch dazu kommen
 [question:VN022]
 [question:VN023]
 
-Wenn die Logbuchführung angeordnet wurde, dann ist darauf zu achten, das Logbuch so zu führen, dass es auch wirklich später einsehbar ist, und zwar unabhängig davon, wie das Logbuch geführt wird. Das ist vor allem auch dann zu beachten, wenn man die Art und Weise der Logbuchführung ändert.
+Se è stato ordinato di tenere un registro, è necessario assicurarsi che il registro sia tenuto in modo tale che sia effettivamente consultabile in seguito, indipendentemente da come venga tenuto. Ciò deve essere osservato soprattutto quando si cambia il modo di tenere il registro.
 
 <tip>
-Jedes DARC-Mitglied kann die Vorzüge eines elektronischen, webbasierten Logbuchs – auf Basis von [Wavelog](https://50ohm.de/wl) – von überall unter [log.darc.de](https://50ohm.de/log) nutzen. Das Angebot umfasst die Möglichkeit, seine QSOs dort zu loggen, zu analysieren und auch mit Drittanbietern wie eQSL, LoTW, QRZ und dem DCL zu synchronisieren. Eine Anleitung findest du in diesem [Video](https://50ohm.de/wlv).
+Ogni socio DARC può sfruttare i vantaggi di un registro elettronico basato sul web – basato su [Wavelog](https://50ohm.de/wl) – da qualsiasi luogo su [log.darc.de](https://50ohm.de/log). L'offerta comprende la possibilità di registrare i propri QSO, analizzarli e sincronizzarli anche con fornitori terzi come eQSL, LoTW, QRZ e DCL. Trovi una guida in questo [video](https://50ohm.de/wlv).
 
-[Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+[Diventa subito socio DARC!](https://50ohm.de/mw)
 </tip>
 
 ---
 
-Wechselt man beispielsweise von einem handschriftlich auf Papier geführten Logbuch zu einem elektronisch per Computer geführtem Logbuch, dann muss man das alte Papier-Logbuch trotzdem aufheben. Genauso andersherum: Wechselt man vom Computer auf Papier, muss der Computer mit der entsprechenden Software weiter vorgehalten werden oder das Logbuch muss ausgedruckt werden. Entsprechend ist auch beim Wechsel der Logbuch-Software zu verfahren. Die alte Software muss weiter verfügbar sein oder das bestehende Logbuch muss in die neue Software übertragen werden.
+Se si passa, ad esempio, da un registro cartaceo scritto a mano a un registro elettronico gestito da computer, è comunque necessario conservare il vecchio registro cartaceo. Allo stesso modo, viceversa: se si passa dal computer alla carta, il computer con il software appropriato deve rimanere disponibile o il registro deve essere stampato. Allo stesso modo si deve procedere quando si cambia software di registro. Il vecchio software deve rimanere disponibile o il registro esistente deve essere trasferito nel nuovo software.
 
 <tip>
-*Praxis-Tipp:* Mit dem ADIF-Dateiformat ist es leicht möglich eine Logdatei von einer Logbuch-Software auf eine andere zu übertragen. Genauso kann man so ein Logbuch von einem Computer auf einen anderen überspielen.
+*Consiglio pratico:* Con il formato file ADIF è possibile trasferire facilmente un file di registro da un software di registro a un altro. Allo stesso modo, è possibile trasferire un registro da un computer a un altro.
 </tip>
 
 [question:BG102]
@@ -44,15 +44,15 @@ Wechselt man beispielsweise von einem handschriftlich auf Papier geführten Logb
 
 ---
 
-Zeiten sollten im Logbuch immer in der koordinierten Weltzeit eingetragen werden, die meist als *UTC* (von Universal Time Coordinated) bezeichnet wird. Das dient dazu, dass die Uhrzeit bei Funkverbindungen über unterschiedliche Zeitzonen hinweg nicht umgerechnet werden muss. Wenn es beispielsweise in Berlin 8:00 Uhr Ortszeit ist, dann ist es in New York erst 2:00 Uhr Ortszeit. Für beide ist es aber 07:00 UTC. Mit der UTC ist überall auf der Welt immer die gleiche Zeit.
+Le ore nel registro dovrebbero sempre essere inserite nell'ora coordinata universale, comunemente indicata come *UTC* (da Universal Time Coordinated). Ciò serve a evitare di dover convertire l'ora per i collegamenti radio che attraversano diversi fusi orari. Ad esempio, se a Berlino sono le 8:00 ora locale, a New York sono solo le 2:00 ora locale. Per entrambi, tuttavia, sono le 07:00 UTC. Con l'UTC, l'ora è sempre la stessa in tutto il mondo.
 
 <indepth>
-Im Jahre 1972 wurde die UTC als universelle und weltweit einheitliche Uhrzeit eingeführt.
+Nel 1972, l'UTC è stata introdotta come ora universale e uniformemente valida a livello mondiale.
 </indepth>
 
-Wie unsere Ortszeit in UTC umgerechnet wird, hängt davon ab, ob gerade Sommerzeit ist. Während der Winterzeit gilt bei uns die *Mitteleuropäische Zeit (MEZ)*. Um diese in UTC umzurechnen, muss man eine Stunde abziehen. Wenn im Sommer die *Mitteleuropäische Sommerzeit (MESZ)* verwendet wird, müssen jedoch 2 Stunden abgezogen werden.
+Come la nostra ora locale viene convertita in UTC dipende dal fatto che sia in vigore l'ora legale. Durante l'ora solare, da noi vale l'*ora dell'Europa centrale (CET)*. Per convertirla in UTC, è necessario sottrarre un'ora. Tuttavia, quando in estate viene utilizzata l'*ora estiva dell'Europa centrale (CEST)*, devono essere sottratte 2 ore.
 
-Ein Beispiel: In Berlin ist es ist 9:00 MEZ. Um dies in UTC umzurechnen, muss eine Stunde abgezogen werden. Es ist also 08:00 UTC. Wenn es jedoch 9:00 MESZ in Berlin ist, dann müssen zwei Stunden abgezogen werden. Es ist dann also 7:00 UTC. Um andersherum die UTC in Ortszeit umzurechnen, muss man eine Stunde (MEZ) bzw. zwei Stunden (MESZ) dazuzählen.
+Un esempio: a Berlino sono le 9:00 CET. Per convertirlo in UTC, è necessario sottrarre un'ora. Quindi sono le 08:00 UTC. Tuttavia, se a Berlino sono le 9:00 CEST, devono essere sottratte due ore. Quindi sono le 7:00 UTC. Per convertire viceversa l'UTC in ora locale, è necessario aggiungere un'ora (CET) o due ore (CEST).
 
 
 [question:BG106]

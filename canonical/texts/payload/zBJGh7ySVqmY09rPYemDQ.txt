@@ -1,11 +1,11 @@
-Reflektoren und Direktoren haben nicht nur eine Auswirkung auf die Richtwirkung, sondern auch auf den Speisewiderstand einer Yagi-Uda-Antenne. Dies liegt daran, dass ein Teil der vom Strahler ausgehenden Welle wieder in den Strahler zurückreflektiert wird. Je nach unterschiedlichen Abständen der Elemente, ergeben sich Veränderungen im Speisewiderstand.
+I riflettori e i direttori non influenzano solo la direttività, ma anche l'impedenza di alimentazione di un'antenna Yagi-Uda. Ciò è dovuto al fatto che una parte dell'onda emessa dall'irradiatore viene riflessa nuovamente verso l'irradiatore. A seconda delle diverse distanze degli elementi, si verificano cambiamenti nell'impedenza di alimentazione.
 
 [question:AG212]
 
-Je länger eine Yagi-Uda-Antenne gemacht wird, umso höher ist ihr Gewinn. Bei steigendem Gewinn muss jedoch der Öffnungswinkel kleiner werden, da die Antenne ja keine Energie "aus dem Nichts" erzeugen kann (Energieerhaltungssatz).
+Più lunga è un'antenna Yagi-Uda, maggiore è il suo guadagno. Tuttavia, all'aumentare del guadagno, l'angolo di apertura deve diminuire, poiché l'antenna non può generare energia "dal nulla" (principio di conservazione dell'energia).
 
 [question:AG222]
 
-Eine besondere Bauform der Yagi-Uda-Antenne ist die Kreuzyagi, bei der zwei Antennen $\qty{90}{\degree}$ um die Strahlungsachse gegeneinander verdreht werden. Die eine Antenne ist dann z. B. horizontal und die andere dann vertikal polarisiert. Ohne weitere Maßnahmen würde im gegebenen Beispiel die direkte Zusammenschaltung der Antennen eine diagonale Polarisation erzeugen (für die man auch eine einzelne Antenne nehmen könnte). Wenn man allerdings die eine Yagi-Uda-Antenne mit einem um $\qty{90}{\degree}$ phasenverschobenen Signal speist oder, alternativ, die eine Yagi-Uda-Antenne um eine Viertelwellenlänge nach vorne oder hinten verschiebt, dann kann man auf diesem Wege zirkulare Polarisation erzeugen.
+Una forma costruttiva particolare dell'antenna Yagi-Uda è la Kreuzyagi, in cui due antenne vengono ruotate di $\qty{90}{\degree}$ l'una rispetto all'altra attorno all'asse di irraggiamento. Un'antenna è quindi, ad esempio, orizzontale e l'altra verticale polarizzata. Senza ulteriori misure, la connessione diretta delle antenne nell'esempio dato produrrebbe una polarizzazione diagonale (per la quale si potrebbe anche usare una singola antenna). Tuttavia, se si alimenta un'antenna Yagi-Uda con un segnale sfasato di $\qty{90}{\degree}$ o, in alternativa, si sposta un'antenna Yagi-Uda in avanti o indietro di un quarto d'onda, si può ottenere in questo modo una polarizzazione circolare.
 
 [question:AG126]

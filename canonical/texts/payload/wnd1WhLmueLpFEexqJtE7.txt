@@ -1,35 +1,35 @@
-## Sicherheit bei Reparaturen
+## Sicurezza durante le riparazioni
 
-* Eigene Geräte zu reparieren ist für viele Funkamateure Ehrensache
-* Sicherheit nicht vergessen – Schäden dürfen nicht vergrößert werden
-* Tragen von Isolierhandschuhen in einer ausreichenden Schutzklasse
-* Isoliertes Werkzeug verwenden
-
----
-## Fehlersuche und Vorbereitung
-
-* Reparatur beginnt immer mit der Fehlersuche
-* Gerät wird zunächst vom Netz getrennt, bevor es geöffnet wird
-* *Achtung*: Kondensatoren im Netzteil bleiben auch ohne Netzstrom geladen
+* Riparare i propri apparecchi è una questione d'onore per molti radioamatori
+* Non dimenticare la sicurezza – i danni non devono essere aggravati
+* Indossare guanti isolanti di classe di protezione adeguata
+* Utilizzare attrezzi isolati
 
 ---
-### Gefährliche Spannungen
+## Ricerca guasti e preparazione
 
-* Schaltnetzteile für Transistorendstufen können an Kondensatoranschlüssen Spannungen oberhalb der Netz-Nennspannung aufweisen
-* Bei Röhrenendstufen ist die Spannung noch deutlich höher
-* Das Verhalten kann lebensgefährlich sein
-
----
-### Sichere Entladung der Kondensatoren
-
-* Ohne Eingriffe baut sich die Ladung langsam ab – jedoch nicht schnell genug für die Sicherheit
-* Direktes Kurzschließen der Kondensatoren ist gefährlich und kann zu tödlichen Stromschlägen oder Bränden führen
+* La riparazione inizia sempre dalla ricerca guasti
+* L'apparecchio viene prima scollegato dalla rete prima di essere aperto
+* *Attenzione*: i condensatori nell'alimentatore rimangono carichi anche senza corrente di rete
 
 ---
-### Sichere Entladung mit Widerstand
+### Tensioni pericolose
 
-* Entladung erfolgt mit einem hochohmigen, isolierten Widerstand – langsam und sicher
-* Die Belastbarkeit des Widerstandes muss an die Kapazität des Kondensators angepasst werden
+* Gli alimentatori switching per gli stadi finali a transistor possono presentare tensioni superiori alla tensione nominale di rete sui collegamenti dei condensatori
+* Negli stadi finali a valvole la tensione è ancora significativamente più alta
+* Il comportamento può essere pericoloso per la vita
+
+---
+### Scarica sicura dei condensatori
+
+* Senza interventi, la carica si dissolve lentamente – ma non abbastanza velocemente per la sicurezza
+* Cortocircuitare direttamente i condensatori è pericoloso e può causare scosse elettriche letali o incendi
+
+---
+### Scarica sicura con resistenza
+
+* La scarica avviene con una resistenza isolata ad alta impedenza – lenta e sicura
+* La capacità di carico della resistenza deve essere adattata alla capacità del condensatore
 
 ---
 [question:AK201]

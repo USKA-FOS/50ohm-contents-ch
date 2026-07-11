@@ -1,28 +1,28 @@
 <left>
-[picture:35:e_schaltnetzteil:Prinzipschaltbild Schaltnetzteil]
+[picture:35:e_schaltnetzteil:Schema a blocchi di un alimentatore switching]
 </left>
 <right>
-* Elektronischer Schalter E regelt eine konstante Ausgangsspannung
-* Schaltzeit wird variiert
-* Schalter ist länger geschlossen $\rightarrow$ mehr Energie zur Lastseite $\rightarrow$ Ausgangsspannung steigt an
-* Dieses ist der *Impulsbreitenmodulator*
+* L'interruttore elettronico E regola una tensione d'uscita costante
+* Il tempo di commutazione viene variato
+* L'interruttore è chiuso più a lungo $\rightarrow$ più energia verso il lato del carico $\rightarrow$ la tensione d'uscita aumenta
+* Questo è il *modulatore di larghezza d'impulso*
 </right>
 <note>
-Im vereinfachten Schaltbild fehlt die Rückführung der Ausgangsspannung an den Steuerblock E, damit die Regelschleife komplett wird.
+Nello schema semplificato manca il feedback della tensione d'uscita al blocco di controllo E, in modo che il ciclo di regolazione sia completo.
 </note>
 ---
 [question:AD311]
 ---
-### Galvanische Trennung
+### Isolamento galvanico
 
 <left>
-* Trennung der Eingangs- und Ausgangsseite
-* Hält Störsignale der Schaltung von der Netzspannungseite fern
-* Andernfalls wirkt das Stromnetz wie eine Antenne
+* Separazione tra lato d'ingresso e lato d'uscita
+* Tiene i segnali di disturbo del circuito lontani dalla rete elettrica
+* Altrimenti la rete elettrica agisce come un'antenna
 </left>
 <right>
 <fragment>
-[photo:277:a_störspektrum:Störspektrum eines Schaltnetzteils]
+[photo:277:a_störspektrum:Spettro di disturbo di un alimentatore switching]
 </fragment>
 </right>
 
@@ -32,15 +32,15 @@ Im vereinfachten Schaltbild fehlt die Rückführung der Ausgangsspannung an den 
 [question:AD313]
 ---
 <left>
-[picture:367:a-schaltnetzteilfilter:Filter am 230V Eingang eines Schaltnetzteils]
-Tiefpassfilter auf Eingangsseite
+[picture:367:a-schaltnetzteilfilter:Filtro su un alimentatore switching ingresso 230V]
+Filtro passa-basso sul lato d'ingresso
 </left>
 <right>
-[photo:243:a_EMV Filter2: Filter direkt am 230 V  AC Spannungseingang]
+[photo:243:a_EMV Filter2: Filtro direttamente all'ingresso di tensione AC 230 V]
 </right>
 <note>
-- PE darf nicht mit L1 oder N verbunden sein.
-- Drossel T darf keine Trafo-Funktion haben.
+- PE non deve essere collegato a L1 o N.
+- L'induttanza T non deve avere funzione di trasformatore.
 </note>
 ---
 [question:AD314]

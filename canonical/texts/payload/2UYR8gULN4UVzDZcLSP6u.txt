@@ -1,34 +1,34 @@
-## Potentialausgleich in Haushalten und Stationen
+## Collegamento equipotenziale in case e stazioni
 
-* In jedem Haushalt und bei jeder Amateurfunkstation gibt es zahlreiche elektrisch leitfähige Gegenstände (z. B. Erdleitungen, Wasserleitungen, Heizungsrohre, Koaxialkabel, Metallgehäuse)
-* Defekte, Fehler bei Elektroinstallationen, elektrostatische Aufladungen oder Blitzschlag können zu gefährlichen Potentialdifferenzen führen
+* In ogni casa e in ogni stazione radioamatoriale ci sono numerosi oggetti conduttivi (ad es. cavi di terra, tubi dell'acqua, tubi del riscaldamento, cavi coassiali, alloggiamenti metallici)
+* Guasti, errori nelle installazioni elettriche, cariche elettrostatiche o fulmini possono portare a pericolose differenze di potenziale
 
 ---
 
-* Durch Verbinden aller leitfähigen Teile in einem Bereich wird ein Potentialausgleich erreicht, der Personen vor elektrischem Schlag schützt
-* Die Verbindungen müssen niederohmig sein, um einen sicheren Potentialausgleich zu gewährleisten
+* Collegando tutte le parti conduttive in un'area si ottiene un collegamento equipotenziale che protegge le persone da scosse elettriche
+* I collegamenti devono essere a bassa resistenza per garantire un collegamento equipotenziale sicuro
 
 ---
 [question:AK202]
 
 ---
-## Resonanz in separaten Erdungsleitungen
+## Risonanza in cavi di terra separati
 
-* Geräte werden geerdet, um fremde Potentiale sicher abzuleiten
-* Hochfrequenzströme suchen oft eigene Wege – separate Erdungsleitungen können dadurch in Resonanz mit der Sendefrequenz geraten
+* Le apparecchiature vengono messe a terra per scaricare in modo sicuro potenziali estranei
+* Le correnti ad alta frequenza cercano spesso percorsi propri – i cavi di terra separati possono quindi entrare in risonanza con la frequenza di trasmissione
 
 ---
 
-* Bei einer Leitungslänge von $ \lambda/4 $ oder einem ungeraden Vielfachen davon entsteht Resonanz
-* Da das Ende der Leitung geerdet ist, kann sich dort kein Spannungsbauch bilden – stattdessen baut sich am Anschluss der Erdungsleitung am Sender eine hohe Spannung auf
-* Das Sendergehäuse wird „heiß“ und berührungsempfindlich, was zu elektrischem Schlag oder Verbrennungen führen kann
+* A una lunghezza del cavo di $ \lambda/4 $ o un suo multiplo dispari si verifica la risonanza
+* Poiché l'estremità del cavo è collegata a terra, lì non si può formare un ventre di tensione – invece, si forma un'alta tensione al collegamento del cavo di terra al trasmettitore
+* L'alloggiamento del trasmettitore diventa "caldo" e sensibile al contatto, il che può portare a scosse elettriche o ustioni
 
 ---
 [question:AK203]
 
 ---
-### Tipps
+### Suggerimenti
 
-* Ändere die Länge der separaten Erdungsleitung so, dass keine Resonanz mit einem der Amateurfunkbänder auftritt
-* Gegebenenfalls muss eine vorhandene Erdungsleitung verlängert werden
+* Modifica la lunghezza del cavo di terra separato in modo che non si verifichi risonanza con nessuna delle bande radioamatoriali
+* Se necessario, un cavo di terra esistente deve essere allungato
 

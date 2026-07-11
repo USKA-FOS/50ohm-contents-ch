@@ -1,11 +1,11 @@
-Eine Sonderform der digitalen Modulation stellt das Audio Frequency Shift Keying (AFSK) dar. Im Gegensatz zu ASK steht hier das "A" nicht für Amplitude, sondern für Audio, also für hörbare Frequenzen (Niederfrequenz): Es wird eine Frequenzumtastung (FSK) im Bereich deutlich unter $\qty{20}{\kilo\hertz}$ durchgeführt. Oftmals wird der Bereich von ca. $\qty{300}{\hertz}$ bis $\qty{2700}{\hertz}$ genutzt.
+Una forma speciale di modulazione digitale è l'Audio Frequency Shift Keying (AFSK). A differenza di ASK, la "A" qui non sta per ampiezza, ma per audio, cioè per frequenze udibili (bassa frequenza): viene eseguita una modulazione di frequenza (FSK) in un intervallo ben al di sotto dei $\qty{20}{\kilo\hertz}$. Spesso viene utilizzato l'intervallo da circa $\qty{300}{\hertz}$ a $\qty{2700}{\hertz}$.
 
-Ein so erzeugtes AFSK-Signal kann genauso wie menschliche Sprache übertragen werden, sei es per Telefon oder per Sprechfunkgerät. Für eine Aussendung per Funk muss eine weitere Modulation stattfinden, beispielsweise per FM, AM oder SSB. Wird SSB eingesetzt, so ist das Signal auf dem Band nicht mehr von einem FSK-Signal zu unterscheiden.
+Un segnale AFSK così generato può essere trasmesso esattamente come la voce umana, sia tramite telefono che tramite apparato radiofonico. Per una trasmissione via radio, è necessaria un'ulteriore modulazione, ad esempio FM, AM o SSB. Se si utilizza SSB, il segnale sulla banda non è più distinguibile da un segnale FSK.
 
 <indepth>
-*APRS* (Automatic Packet Reporting System) ist ein digitales Verfahren im Amateurfunk, mit dem Positions-, Status- und Kurznachrichten von Funkamateuren automatisch per Funk übertragen, weitergeleitet und häufig auch über das Internet dargestellt werden, vgl. [APRS.fi](https://50ohm.de/aprs). Auf $\qty{144,800}{\mega\hertz}$ nutzen Funkamateure AFSK mit FM-Funkgeräten für APRS-Aussendungen, die von Digipeatern weitergeleitet werden. 
+*APRS* (Automatic Packet Reporting System) è una procedura digitale nel radioamatore, con cui messaggi di posizione, stato e brevi messaggi da radioamatori vengono trasmessi automaticamente via radio, inoltrati e spesso visualizzati anche su Internet, cfr. [APRS.fi](https://50ohm.de/aprs). Sui $\qty{144,800}{\mega\hertz}$, i radioamatori utilizzano AFSK con apparati radio FM per trasmissioni APRS, che vengono inoltrate dai digipeater. 
 </indepth>
 
-AFSK erreicht meist nur geringe Datenübertragungsraten. Es können also nur wenige Daten pro Zeit übertragen werden. Dafür funktioniert es mit fast jedem Funkgerät. Mikrofon- und Lautsprecheranschluss genügen. Bei APRS auf $\qty{144,800}{\mega\hertz}$ verwendet man beispielsweise eine Datenübertragungsrate von $\qty{1200}{\bit\per\second}$.
+L'AFSK raggiunge generalmente solo basse velocità di trasmissione dati. Ciò significa che è possibile trasmettere solo pochi dati per unità di tempo. Tuttavia, funziona con quasi tutti gli apparati radio. Sono sufficienti i collegamenti per microfono e altoparlante. Ad esempio, in APRS sui $\qty{144,800}{\mega\hertz}$, si utilizza una velocità di trasmissione dati di $\qty{1200}{\bit\per\second}$.
 
 [question:EE408]

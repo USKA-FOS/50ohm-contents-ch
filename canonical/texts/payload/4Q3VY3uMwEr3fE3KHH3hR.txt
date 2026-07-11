@@ -1,66 +1,66 @@
-* Das Hamnet, das Netzwerk nur für Funkamateure, basiert auf dem Internet-Protokoll (IP).
-* Deswegen kann man das Hamnet mit der gleichen Software, die auch für das Internet verwendet wird, nutzen.
-* Im einfachsten Fall ist das ein Webbrowser.
+* La Hamnet, la rete solo per radioamatori, si basa sul protocollo Internet (IP).
+* Per questo motivo, la Hamnet può essere utilizzata con lo stesso software utilizzato per Internet.
+* Nel caso più semplice, si tratta di un browser web.
 
 ---
 
-* Das Internet-Protokoll (IP) weist den beteiligten Computern IP-Adressen zu, damit sie sich gegenseitig erreichen können.
-* IP-Adressen werden als vier Dezimalzahlen mit einem Punkt dazwischen geschrieben. Beispiel: 141.17.5.18
-* Jede Dezimalzahl hat eine Länge von 8 Bit, deswegen ist die größtmögliche Zahl 255 (binär: 11111111).
+* Il protocollo Internet (IP) assegna indirizzi IP ai computer partecipanti in modo che possano raggiungersi a vicenda.
+* Gli indirizzi IP sono scritti come quattro numeri decimali separati da un punto. Esempio: 141.17.5.18
+* Ogni numero decimale ha una lunghezza di 8 bit, quindi il numero più grande possibile è 255 (binario: 11111111).
 
 <note>
-Es existieren die Versionen IPv4 und IPv6. Wir befassen uns hier mit der Version 4.
+Esistono le versioni IPv4 e IPv6. Qui ci occupiamo della versione 4.
 </note>
 
 ---
 
-* IP-Adressen sind in einen Netz- und einen Hostanteil aufgeteilt.
-* Bei allen Computern, die sich im selben Netzwerk befinden, ist der Anfang der IP-Adressen gleich, diesen Anfang nennt man Netzanteil.
-* Der Netzanteil ist unterschiedlich groß, je nachdem wie viele Computer (Hosts) im Netzwerk verwaltet werden sollen.
+* Gli indirizzi IP sono suddivisi in una parte di rete e una parte host.
+* Su tutti i computer che si trovano nella stessa rete, l'inizio degli indirizzi IP è lo stesso, questo inizio è chiamato parte di rete.
+* La parte di rete ha dimensioni diverse a seconda di quanti computer (host) devono essere gestiti nella rete.
 
 ---
 
-Beispiele:
+Esempi:
 
-     *10*.100.234.22 (kleiner Netzanteil, großer Hostanteil)
+     *10*.100.234.22 (parte di rete piccola, parte host grande)
      
-     *192.168.1*.252 (großer Netzanteil, kleiner Hostanteil)
+     *192.168.1*.252 (parte di rete grande, parte host piccola)
      
-Dieses Prinzip kennt man vom Telefonnetz. Die großen Städte haben kürzere Vorwahlen als kleine Städte.
+Questo principio è noto dalla rete telefonica. Le grandi città hanno prefissi più brevi delle piccole città.
 
 ---
 
-[picture:699:netzmaske:IPv4-Adresse und Netzmaske in Dezimal- und Dualschreibweise]
+[picture:699:netzmaske:Indirizzo IPv4 e maschera di sottorete in notazione decimale e binaria]
 
-* Eine Subnetzmaske gibt die Aufteilung einer IP-Adresse in Netz- und Hostanteil an, indem sie alle Bits des Netzanteils als 1 darstellt.
+* Una maschera di sottorete specifica la suddivisione di un indirizzo IP in parte di rete e parte host, rappresentando tutti i bit della parte di rete come 1.
 
 ---
 
-* Es zwei Möglichkeiten dieses niederzuschreiben, Beispiel für einen Netzanteil von 24:
-* 255.255.255.0, was binär 11111111.11111111.11111111.00000000 ist.
-* Die Schreibweise mit dem Schrägstrich, zum Beispiel 192.168.111.90/24
+* Ci sono due modi per scriverlo, esempio per una parte di rete di 24:
+* 255.255.255.0, che in binario è 11111111.11111111.11111111.00000000.
+* La notazione con la barra, ad esempio 192.168.111.90/24
 
 <note>
-Die Zahl hinter dem Schrägstrich gibt die Anzahl der Einsen in der Subnetzmaske an.
+Il numero dopo la barra indica il numero di uni nella maschera di sottorete.
 </note>
 
 ---
 
-[picture:706:netzwerk:Ausschnitt aus einer Netzwerk-Infrastruktur]
+[picture:706:netzwerk:Estratto da un'infrastruttura di rete]
 
-* Netzwerkgeräte können nur innerhalb ihres eigenen lokalen Netzwerks direkt miteinander kommunizieren.
-
---- data-transition="none"
-
-[picture:706:netzwerk:Ausschnitt aus einer Netzwerk-Infrastruktur]
-
-* Man erkennt sie daran, dass sich aus ihrer eigenen IP-Adresse und Subnetzmaske derselbe Netzanteil ergibt wie beim Partner.
+* I dispositivi di rete possono comunicare direttamente tra loro solo all'interno della propria rete locale.
 
 --- data-transition="none"
 
-[picture:706:netzwerk:Ausschnitt aus einer Netzwerk-Infrastruktur]
+[picture:706:netzwerk:Estratto da un'infrastruttura di rete]
 
-* In allen anderen Fällen schicken sie die Daten an einen Router. Das ist eine Zwischenstation, die zwei oder mehr Netzwerke miteinander verbindet, um die Datenpakete weiterzuleiten.
+* Si riconoscono dal fatto che dal proprio indirizzo IP e dalla maschera di sottorete si ottiene la stessa parte di rete del partner.
+
+--- data-transition="none"
+
+[picture:706:netzwerk:Estratto da un'infrastruttura di rete]
+
+* In tutti gli altri casi, inviano i dati a un router. Questa è una stazione intermedia che collega due o più reti per inoltrare i pacchetti di dati.
 
 ---
 [question:EE412]

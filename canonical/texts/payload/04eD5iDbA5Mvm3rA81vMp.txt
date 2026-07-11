@@ -1,9 +1,9 @@
-Eigenschwingungen eines Verstärkers können entstehen, wenn Leistung innerhalb von Stufen oder vom Ausgang des Verstärkers auf dessen Eingang zurückgeführt wird.
-Daher ist es wichtig, dass Eingangs- und Ausgangsschaltungen von Verstärkern möglichst gut voneinander entkoppelt werden. Einzelne Stufen eines Verstärkers sollten daher gut abgeschirmt werden.
-Je höher der Verstärkungsfaktor eines Verstärkers ist, desto mehr neigt der Verstärker auch zu Eigenschwingungen durch entsprechende Rückkopplungen!
+Le oscillazioni proprie di un amplificatore possono verificarsi quando la Potenza viene reintrodotta all'interno degli stadi o dall'uscita dell'amplificatore al suo ingresso.
+È quindi importante che i circuiti di ingresso e uscita degli amplificatori siano il più possibile ben disaccoppiati tra loro. I singoli stadi di un amplificatore dovrebbero quindi essere ben schermati.
+Quanto maggiore è il fattore di amplificazione di un amplificatore, tanto più l'amplificatore tende a oscillazioni proprie attraverso corrispondenti retroazioni!
 
 <tip>
-Man kennt den Effekt der Rückkopplung und Eigenschwingung gut von Audio-Verstärkern, die mit einem Mikrofon am Eingang für Veranstaltungen etc. betrieben werden. Kommt man mit dem Mikrofon (Eingang) zu nahe an einen der Lautsprecher (Ausgang), so kommt es zu einer Rückkopplung und Eigenschwingung des Verstärkers, welche sich durch Oszillation/Pfeifen äußert. Entgegenwirken kann man dem mit ausreichendem Abstand (Entkopplung) zu den Lautsprechern oder Verringerung der Mikrofonempfindlichkeit (Verringerung des Verstärkungsfaktors).
+Si conosce bene l'effetto della retroazione e dell'oscillazione propria negli amplificatori Audio utilizzati con un microfono all'ingresso per eventi, ecc. Se ci si avvicina troppo con il microfono (ingresso) a uno degli altoparlanti (uscita), si verifica una retroazione e un'oscillazione propria dell'amplificatore, che si manifesta con oscillazioni/fischi. Si può contrastare ciò con una distanza sufficiente (disaccoppiamento) dagli altoparlanti o una riduzione della Sensibilità del microfono (riduzione del fattore di amplificazione).
 </tip>
 
 [question:AD432]

@@ -2,10 +2,10 @@
 [picture:399:a_Bias T:BIAS - T]
 </left>
 <right>
-* Englisch: BIAS-T
-* Gleichspannungsübertragung auf einem Koaxialkabel gleichzeitig zum HF-Signal
-* Spannungsversorgung von Baugruppen an der Antenne (z.B. LNA)
-* Besteht aus nur drei Bauteilen
+* Inglese: BIAS-T
+* Trasmissione di corrente continua su un cavo coassiale contemporaneamente al segnale HF
+* Alimentazione elettrica di moduli all'antenna (es. LNA)
+* Composto da soli tre componenti
 </right>
 ---
 [question:AD322]
@@ -16,10 +16,10 @@
 [picture:399:a_Bias T:BIAS - T]
 </left>
 <right>
-* $C_1$ hält das Gleichspannungssignal vom RX fern
-* Fehlt $C_1$ wird die Gleichspannung gegen Masse kurzgeschlossen
-* Gleichspannung wird über die Induktivität auf den Innenleiter geführt und koppelt HF ab
-* Induktivität muss für den Strom passend gewählt sein
+* $C_1$ tiene il segnale di corrente continua lontano dal RX
+* Se manca $C_1$, la corrente continua viene cortocircuitata verso massa
+* La corrente continua viene condotta attraverso l'induttanza sul conduttore interno e accoppia l'HF
+* L'induttanza deve essere scelta in modo appropriato per la corrente
 </right>
 ---
 [question:AD324]

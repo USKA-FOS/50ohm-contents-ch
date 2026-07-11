@@ -1,31 +1,31 @@
-Anstatt in der Mitte kann man das Antennenkabel auch an einem Ende des Dipols anschließen [ref:n_antennenformen_schaltbild_endfed]. Diese Antenne bezeichnet man dann als *Endgespeiste Antenne* oder auch kurz *End-Fed*.
+Invece che al centro, il cavo dell'antenna può essere collegato anche a un'estremità del dipolo [ref:n_antennenformen_schaltbild_endfed]. Questa antenna viene quindi definita *antenna aperiodica* o anche brevemente *End-Fed*.
 
 <margin>
-[picture:615:n_antennenformen_schaltbild_endfed:Schaltbild einer endgespeisten Antenne]
+[picture:615:n_antennenformen_schaltbild_endfed:Schema di un'antenna aperiodica]
 </margin>
 
-Eine häufige Bauform ist der endgespeiste Halbwellendipol. Die Länge des Drahtes beträgt dann $\lambda / 2$, entsprechend der Gesamtlänge des normalen Halbwellendipols. Damit die Antenne funktioniert, muss ein spezielles Anpassglied verwendet werden. 
+Una forma costruttiva comune è il dipolo a semionda aperiodico, la cui lunghezza del filo è pari a $\lambda / 2$, corrispondente alla lunghezza totale del normale dipolo a semionda. Affinché l'antenna funzioni, è necessario utilizzare un apposito elemento di adattamento.
 
 <indepth>
-% TODO: Editionsspezifisch machen
-Das *Anpassglied* ist erforderlich, da die Antenne im Gegensatz zu den bisher vorgestellten Antennen nicht über den richtigen Speisewiderstand verfügt. 
-Was das ist, behandeln wir im weiteren Verlauf dieses Kapitels. Wie ein Anpassglied funktioniert, wird im Kurs für Klasse E erklärt.
+% TODO: Rendere specifico per l'edizione
+L'*elemento di adattamento* è necessario perché, a differenza delle antenne presentate finora, l'antenna non dispone della corretta impedenza di alimentazione.
+Tratteremo cos'è nel corso di questo capitolo. Come funziona un elemento di adattamento viene spiegato nel corso per la classe E.
 </indepth>
 
 <indepth>
-Die End-Fed ist eine beliebte Antennenbauform. Sie hat den Vorteil, dass der Anschluss der Speiseleitung nicht am Mittelpunkt, sondern an einem der Enden erfolgt.
+L'End-Fed è una forma costruttiva di antenna popolare. Ha il vantaggio che il collegamento della linea di alimentazione non avviene al centro, ma a una delle estremità.
 </indepth>
 
 <indepth>
-Wo ist eigentlich das *Gegengewicht bei der End-Fed-Antenne*? Wir haben ja gelernt, dass eine Antenne immer aus zwei Teilen besteht. Bei der endgespeisten Antenne wird oft ein Teil der Speiseleitung als Gegengewicht genutzt. Das kann jedoch zu Störungen bei elektrischen Geräten und auch in der eigenen Funkanlage führen. Solche Störungen können beispielsweise durch ein $\lambda / 4$-langes Radial als Gegengewicht, eine gute Verbindung zur Erde und Verwendung einer Mantelwellensperre vermieden werden.
+Dov'è in realtà il *contrappeso nell'antenna End-Fed*? Sappiamo che un'antenna è sempre composta da due parti. Nell'antenna aperiodica, una parte della linea di alimentazione viene spesso utilizzata come contrappeso. Tuttavia, ciò può causare disturbi alle apparecchiature elettriche e anche al proprio impianto radio. Tali disturbi possono essere evitati, ad esempio, utilizzando un radial lungo $\lambda / 4$ come contrappeso, un buon collegamento a terra e l'uso di uno strangle-balun.
 </indepth>
 
 [question:NG107]
 
-Im Kurzwellenbereich werden oft besonders lange endgespeiste Antennen benutzt. Eine endgespeiste Antenne, deren Draht länger als $\lambda$ ist, nennt man *Langdraht-Antenne*.  Im VHF/UHF-Bereich werden üblicherweise keine Langdrahtantennen benutzt.
+Nella gamma delle onde corte vengono spesso utilizzate antenne aperiodiche particolarmente lunghe. Un'antenna aperiodica il cui filo è più lungo di $\lambda$ viene chiamata *antenna a filo lungo*. Nella gamma VHF/UHF, di solito non vengono utilizzate antenne a filo lungo.
 
 <indepth>
-Der Begriff *Langdraht-Antenne* wird machmal auch fälschlicherweise für den endgespeisten Halbwellendipol benutzt, obwohl dieser kürzer als $\lambda$ ist.
+Il termine *antenna a filo lungo* viene talvolta utilizzato erroneamente anche per il dipolo a semionda aperiodico, sebbene questo sia più corto di $\lambda$.
 </indepth>
 
 [question:NG109]

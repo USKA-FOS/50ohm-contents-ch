@@ -1,8 +1,8 @@
-Auch im Amateurfunk werden viele digitale Übertragungsverfahren eingesetzt. Ein sehr einfaches haben wir schon besprochen. Bei der Morsetelegrafie mit Continuous Wave (CW) wird ein Träger in einem bestimmten Rhythmus ein- und wieder ausgeschaltet. Es gibt also nur zwei Stufen, $\qty{0}{\percent}$ und $\qty{100}{\percent}$ der maximalen Amplitude. Die Übertragung erfolgt also digital.
+Anche nel radioamatore vengono utilizzati molti metodi di trasmissione digitale. Uno molto semplice è già stato discusso. Nella telegrafia Morse con Continuous Wave (CW) una portante viene accesa e spenta ritmicamente. Ci sono quindi solo due stati, $\qty{0}{\percent}$ e $\qty{100}{\percent}$ dell'ampiezza massima. La trasmissione avviene quindi in digitale.
 
-Morsetelegrafie ist das älteste Übertragungsverfahren, das im Funk benutzt wird. Die ersten Funksender kannten kein anderes Verfahren. Die einzige Möglichkeit der Informationsübermittlung war, mit einer Taste den Sender immer wieder kurz ein- und auszuschalten. Beim Empfänger ist das dann als Ton zu hören, der in dem gegebenen Rhythmus an- und wieder ausgeht.
+La telegrafia Morse è il metodo di trasmissione più antico utilizzato nelle trasmissioni radio. I primi trasmettitori radio non conoscevano altro metodo. L'unica possibilità di trasmettere informazioni era accendere e spegnere ripetutamente il trasmettitore con un tasto. Al ricevitore, questo viene sentito come un tono che si accende e si spegne nel ritmo dato.
 
-Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertragen, wird der Morsecode verwendet. Für jedes Zeichen ist eine bestimmte Abfolge an kurzen und langen Tönen festgelegt. In den Tabellen [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] und [ref:n_morsetelegrafie_morsecode_spezial] findet sich ein Teil des Morsecodes. Ein Punkt ([morse:e]) steht für einen kurzen Ton und ein Strich ([morse:t]) für einen langen Ton. Die Decodierung, also die Übersetzung der Töne in Zeichen beim Empfänger, erfolgt mit den Ohren und dem Gehirn - oder heutzutage auch mit dem Computer.
+Per trasmettere diversi caratteri, cioè lettere, cifre e segni di punteggiatura, viene utilizzato il codice Morse. Per ogni carattere è definita una sequenza specifica di toni brevi e lunghi. Nelle tabelle [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] e [ref:n_morsetelegrafie_morsecode_spezial] si trova una parte del codice Morse. Un punto ([morse:e]) sta per un tono breve e un trattino ([morse:t]) per un tono lungo. La decodifica, cioè la traduzione dei toni in caratteri al ricevitore, avviene con le orecchie e il cervello - o oggi anche con il computer.
 
 <webmargin>
 | c: | l: | c: | l: | c: | l: |
@@ -17,7 +17,7 @@ Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertrage
 | H | [morse:h] | R | [morse:r] | Ö | [morse:ö] |
 | I | [morse:i] | S | [morse:s] | Ü | [morse:ü] |
 | J | [morse:j] | T | [morse:t] |  |  |
-[table:n_morsetelegrafie_morsecode_buchstaben:Morsecode (Buchstaben)]
+[table:n_morsetelegrafie_morsecode_buchstaben:Codice Morse (lettere)]
 </webmargin>
 
 <webmargin>
@@ -29,25 +29,25 @@ Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertrage
 | 3 | [morse:3] | 8 | [morse:8] | ? | [morse:?] |
 | 4 | [morse:4] | 9 | [morse:9] | - | [morse:-] |
 |  |  |  |  | @ | [morse:@] |
-[table:n_morsetelegrafie_morsecode_ziffern_satzzeichen:Morsecode (Ziffern und Satzzeichen)]
+[table:n_morsetelegrafie_morsecode_ziffern_satzzeichen:Codice Morse (cifre e segni di punteggiatura)]
 </webmargin>
 
 <webmargin>
 | l: | l: |
 |  |  |
-| Unterbrechung (BK) | [morse:bk] |
-| Trennung innerhalb eines Durchgangs (BT, =) | [morse:=] |
-| Ende des Durchgangs (AR)  | [morse:ar] |
-| Ende der Sendung (SK) | [morse:sk] |
-| Fehler, Irrung | [morse:h] [morse:h]|
-[table:n_morsetelegrafie_morsecode_spezial:Morsecode (besondere Zeichen, Auswahl)]
+| Interruzione (BK) | [morse:bk] |
+| Separazione all'interno di una trasmissione (BT, =) | [morse:=] |
+| Fine della trasmissione (AR)  | [morse:ar] |
+| Fine della trasmissione (SK) | [morse:sk] |
+| Errore, confusione | [morse:h] [morse:h]|
+[table:n_morsetelegrafie_morsecode_spezial:Codice Morse (caratteri speciali, selezione)]
 </webmargin>
 
-Obwohl Übertragungsverfahren für Sprache, Bilder und sogar Video erfunden wurden, wird Morsetelegrafie bis heute im Amateurfunk praktiziert. Lange Zeit war es weltweit vorgeschrieben, dass jeder Funkamateur eine Morseprüfung ablegen musste, bevor er auf der Kurzwelle funken durfte. Erst in den 1990er Jahren wurde diese Regel aufgehoben. Seitdem darf jedes Land selber entscheiden, ob es eine Morseprüfung verlangt. In Deutschland ist sie seit 2003 freiwillig.
+Sebbene siano stati inventati metodi di trasmissione per voce, immagini e persino video, la telegrafia Morse è ancora praticata nel radioamatore. Per molto tempo è stato obbligatorio a livello mondiale che ogni radioamatore dovesse superare un esame Morse prima di poter trasmettere sulle onde corte. Solo negli anni '90 questa regola è stata abrogata. Da allora, ogni paese può decidere autonomamente se richiede un esame Morse. In Germania è volontario dal 2003.
 
 [question:VA304]
 
-Eine Besonderheit gibt es bei Betriebsabwicklung in Morsetelegrafie zu beachten: Die Wahl einer geeigneten Geschwindigkeit. Morsezeichen können unterschiedlich schnell gegeben werden. Allerdings braucht es viel Übung, um auch schnell gegebene Morsezeichen aufnehmen zu können. Daher ist es wichtig, darauf zu achten, die Gegenstelle mit der Geschwindigkeit nicht zu überfordern. Es ist eine gute Faustregel, nicht schneller zu geben als die andere Station und auch nicht schneller, als man selber aufnehmen kann. So ist sichergestellt, dass alle mitkommen.
+Una particolarità da osservare nella gestione operativa in telegrafia Morse: la scelta di una velocità adeguata. I segnali Morse possono essere inviati a velocità diverse. Tuttavia, ci vuole molta pratica per poter ricevere anche segnali Morse inviati velocemente. Pertanto, è importante assicurarsi di non sovraccaricare la stazione opposta con la velocità. È una buona regola pratica non trasmettere più velocemente dell'altra stazione e nemmeno più velocemente di quanto si possa ricevere da soli. In questo modo si garantisce che tutti possano seguire.
 
 [question:BE117]
 [question:BE118]

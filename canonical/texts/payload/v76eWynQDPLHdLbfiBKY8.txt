@@ -1,24 +1,24 @@
-Im vorherigen Kapitel haben wir bereits gelernt, dass für Funkamateure der Klasse N die Strahlungsleistung begrenzt ist, die eine Sendeantenne abgeben darf. Für die Klassen E und A hingegen ist auf den allermeisten Bändern nicht die Strahlungsleistung beschränkt, dafür aber die *Senderausgangsleistung*. Nur für einige wenige Frequenzbereiche gilt auch für die Klasse A eine Begrenzung der Strahlungsleistung.
+Nel capitolo precedente abbiamo già appreso che per i radioamatori di classe N la potenza irradiata che un'antenna di trasmissione può emettere è limitata. Per le classi E e A, invece, sulla maggior parte delle bande non è limitata la potenza irradiata, bensì la *potenza d’uscita* del trasmettitore. Solo per pochissime bande di frequenza vale anche per la classe A una limitazione della potenza irradiata.
 
-Die Senderausgangsleistung ist die Leistung, die ein Funkgerät am Antennenausgang abgibt, bevor Zusatzgeräte durchlaufen werden, wie z. B. ein externes SWR-Meter oder Anpassgeräte. Sie wird als sogenannte *peak envelope power (PEP)* angegeben. Für die Klasse N ist abweichend nicht die Senderausgangsleistung, sondern die tatsächlich von der Antenne abgegebene Strahlungsleistung maßgeblich. Wir werden darauf in einem späteren Kapitel zurückkommen, wenn wir uns im Zusammenhang mit dem Personenschutz die Strahlungsleistung von Antennen besprechen. Viele Funkgeräte verfügen über ein *Power-Meter*, das die aktuelle Senderausgangsleistung anzeigt. Es ist beispielsweise mit "P" oder "PO" oder "PWR" beschriftet.
+La potenza d’uscita del trasmettitore è la potenza che un apparecchio radio eroga all'uscita dell'antenna, prima che vengano attraversati apparecchi aggiuntivi, come ad esempio un misuratore SWR esterno o accordatori. Viene indicata come cosiddetta *peak envelope power (PEP)*. Per la classe N, invece, è determinante non la potenza d’uscita del trasmettitore, ma la potenza irradiata effettivamente emessa dall'antenna. Ci torneremo in un capitolo successivo, quando discuteremo della potenza irradiata delle antenne in relazione alla protezione delle persone. Molti apparecchi radio dispongono di un *Power-Meter*, che indica la potenza d’uscita del trasmettitore in corso. È etichettato ad esempio con "P" o "PO" o "PWR".
 
 <indepth>
-Um die peak envelope power (PEP) zu ermitteln, misst man - vereinfacht gesagt - am Senderausgang die durchschnittliche Leistung jeder einzelnen Periode der Hochfrequenzschwingung und verwendet dann den höchsten gemessenen Wert. In der Fachsprache nennt man dies die "effektive Wirkleistung am Ausgang einer Sendeendstufe während einer Periode der Hochfrequenzschwingung bei der höchsten Spitze der Modulationshüllkurve". Der selten verwendete deutsche Begriff für PEP ist Hüllkurvenspitzenleistung.
+Per determinare la peak envelope power (PEP), si misura - in parole povere - all'uscita del trasmettitore la potenza media di ogni singola onda dell'oscillazione ad alta frequenza e si utilizza quindi il valore più alto misurato. Nel gergo tecnico, questo viene chiamato "potenza effettiva all'uscita di uno stadio finale di trasmissione durante un'onda dell'oscillazione ad alta frequenza al picco più alto dell'inviluppo di modulazione". Il termine tedesco raramente usato per PEP è Hüllkurvenspitzenleistung.
 </indepth>
 
 [question:NF102]
 
 ---
 
-Die zulässige Senderausgangsleistung unterscheidet sich je nach Klasse und Frequenzbereich. Sie ist in der [Anlage 1 der Amateurfunkverordnung](https://50ohm.de/a1) festgelegt, die als Hilfsmittel bei der Prüfung vorliegt.
+La potenza di trasmissione consentita differisce a seconda della classe e della banda di frequenza. È stabilita nell'[Allegato 1 dell'Ordinanza sui radioamatori](https://50ohm.de/a1), che è disponibile come ausilio per l'esame.
 
 <margin>
 [photo:145:ausgangsleistung:Ausschnitt aus der Anlage 1 der Amateurfunkverordnung]
 </margin>
 
-Um die zulässige Sendeleistung aus der Anlage 1 zu ermitteln, sucht man zunächst anhand der Spalte "Frequenzbereiche" die richtige Zeile heraus. Dann kann man in der Spalte "Maximale Leistung" den Wert für die drei Klassen ablesen. Findet sich für eine Klasse kein Eintrag, darf diese Klasse den Frequenzbereich nicht verwenden.
+Per determinare la potenza di trasmissione consentita dall'Allegato 1, si cerca innanzitutto la riga corretta utilizzando la colonna "Frequenzbereiche". Quindi si può leggere il valore per le tre classi nella colonna "Maximale Leistung". Se non c'è una voce per una classe, questa classe non può utilizzare la banda di frequenza.
 
-Wir empfehlen, die folgenden Fragen anhand der Anlage 1 zu beantworten, um Übung beim Ablesen der richtigen Werte zu bekommen.
+Consigliamo di rispondere alle seguenti domande utilizzando l'Allegato 1 per fare pratica nella lettura dei valori corretti.
 
 [question:VD727]
 [question:VD729]
@@ -29,7 +29,7 @@ Wir empfehlen, die folgenden Fragen anhand der Anlage 1 zu beantworten, um Übun
 [question:VD733]
 [question:VD734]
 
-Für den Frequenzbereich von $\qtyrange{1240}{1300}{\mega\hertz}$ gelten zusätzliche Regelungen, die nicht direkt in der Tabelle stehen. In der rechten Spalte "Zusätzliche Nutzungsbestimmungen gemäß B" kennzeichnen Zahlen ergänzende Angaben, die unter der Tabelle stehen. Für die folgende Frage ist der Punkt 11 zu beachten.
+Per la banda di frequenza da $\qtyrange{1240}{1300}{\mega\hertz}$ valgono disposizioni aggiuntive, che non sono direttamente riportate nella tabella. Nella colonna destra "Zusätzliche Nutzungsbestimmungen gemäß B" i numeri indicano informazioni integrative che si trovano sotto la tabella. Per la seguente domanda, è necessario considerare il punto 11.
 
 [question:VD735]
 [question:VD736]
@@ -37,8 +37,8 @@ Für den Frequenzbereich von $\qtyrange{1240}{1300}{\mega\hertz}$ gelten zusätz
 
 
 ---
-Ab hier neuer Bereich für Helvetisierung
-Unsortiert der Reihe nach. Sortierung nach Klassen oder Rechten tbd.
+Da qui nuovo campo per l'elvetizzazione
+Non ordinato in ordine. Ordinamento per classi o diritti da definire.
 [question:VO004]
 [question:VO005]
 [question:VO006]

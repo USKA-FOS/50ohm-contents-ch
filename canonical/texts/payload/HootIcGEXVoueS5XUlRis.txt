@@ -1,15 +1,15 @@
-Möchte man die Sendeleistung eines Senders überprüfen, schließt man anstelle der Antenne eine sogenannte *Dummy Load* an (Abbildung [ref:n_antennenanpassung_dummy_load]). Eine Dummy Load wird auch als *Abschlusswiderstand* oder künstliche Antenne bezeichnet. Sie besteht aus einem Lastwiderstand (vgl. Kapitel Bauteile und Schaltkreise) und einem Kühlkörper.
+Se si vuole verificare la potenza di trasmissione di un trasmettitore, si collega al posto dell'antenna un cosiddetto *carico fittizio* (figura [ref:n_antennenanpassung_dummy_load]). Un carico fittizio è anche chiamato *resistenza di terminazione* o antenna artificiale. Consiste in una resistenza di carico (cfr. capitolo Componenti e circuiti) e un dissipatore di calore.
 
 <margin>
-[photo:68:n_antennenanpassung_dummy_load:Dummy Load]
+[photo:68:n_antennenanpassung_dummy_load:Carico fittizio]
 </margin>
 
-Eine Dummy Load wird bei Abgleicharbeiten und Messungen an Sendern genutzt. Die Sendeleistung wird im Gegensatz zu einer echten Antenne fast vollständig in Wärme umgesetzt. Somit wird verhindert, dass Signale abgestrahlt werden. Unnötige Aussendungen und eventuelle Störungen bei anderen Funkverbindungen werden dadurch vermieden.
+Un carico fittizio viene utilizzato durante i lavori di taratura e le misurazioni sui trasmettitori. A differenza di un'antenna reale, la potenza di trasmissione viene convertita quasi interamente in calore. In questo modo si evita che i segnali vengano irradiati. Vengono così evitate trasmissioni non necessarie e possibili disturbi in altri collegamenti radio.
 
-Es ist wichtig, dass in jedem Fall entweder eine möglichst angepasste Antenne oder eine Dummy Load am Transceiver angeschlossen ist, wenn mit diesem gesendet wird. Ansonsten wird die gesamte Sendeleistung am Antennenanschluss reflektiert und kann z. B. den Hochfrequenzverstärker (Endstufe) beschädigen.
+È importante che in ogni caso sia collegata un'antenna il più possibile adattata o un carico fittizio al trasmettitore-ricevitore quando si trasmette con esso. Altrimenti, l'intera potenza di trasmissione viene riflessa sull'uscita dell'antenna e può danneggiare, ad esempio, l'amplificatore ad alta frequenza (stadio finale).
 
 <indepth>
-Aus Sicht des Senders ist eine Dummy Load nicht von einer gut angepassten Antenne zu unterscheiden, da die Sendeleistung nicht reflektiert wird.
+Dal punto di vista del trasmettitore, un carico fittizio non è distinguibile da un'antenna ben adattata, poiché la potenza di trasmissione non viene riflessa.
 </indepth>
 
 % [question:VD111] 
@@ -19,10 +19,10 @@ Aus Sicht des Senders ist eine Dummy Load nicht von einer gut angepassten Antenn
 
 ---
 
-Ganz vermeiden lassen sich Aussendungen zum Abstimmen nicht, beispielsweise bei der Benutzung von automatischen Antennenanpassgeräten. Wenn diese Art von Aussendungen allerdings so kurz wie möglich erfolgen, sind sie zulässig, auch wenn nur ein Träger ohne Modulation gesendet wird.
+Le trasmissioni per la taratura non possono essere evitate del tutto, ad esempio quando si utilizzano accordatori automatici d'antenna. Tuttavia, se questo tipo di trasmissioni viene effettuato nel modo più breve possibile, sono ammesse, anche se viene trasmesso solo un portante senza modulazione.
 
 <attention>
-Wenn man sein Antennenanpassgerät abstimmt, sollte dies nur auf freien Frequenzen erfolgen. Ansonsten kann man andere Verbindungen stören.
+Quando si tarano i propri accordatori d'antenna, ciò dovrebbe avvenire solo su frequenze libere. Altrimenti si possono disturbare altri collegamenti.
 </attention>
 
 % [question:VD112]

@@ -1,20 +1,20 @@
-Technisch wird ein Frequenzvervielfacher so realisiert, dass das Eingangssignal zunächst einer nichtlinearen Verzerrerstufe zugeführt wird. Dies kann z.B. ein Klasse-C-Verstärker sein. Anschließend wird aus dem Signalgemisch mittels Filtern die gewünschte Oberschwingung des Signals selektiert und an die nächste Stufe weitergeführt. Da die Frequenzvervielfachung auf Oberschwingungen/Harmonischen basiert, sind nur ganzzahlige Vielfache der Grundfrequenz möglich. In der Praxis wird (bis auf wenige Ausnahmen) nur die 2. Harmonische oder 3. Harmonische der Grundfrequenz verwendet (Verdoppelung, Verdreifachung).
-Um höhere Frequenzvervielfachungen zu erreichen, werden daher Stufen mit Verdoppelung oder Verdreifachung hintereinandergeschaltet, so dass sich deren Faktoren anschließend multiplizieren.
+Tecnicamente, un moltiplicatore di frequenza viene realizzato immettendo il segnale di ingresso in uno stadio di distorsione non lineare. Questo può essere, ad esempio, un amplificatore di classe C. Successivamente, dalla miscela di segnali, la sovra-frequenza desiderata viene selezionata tramite filtri e trasmessa allo stadio successivo. Poiché la moltiplicazione di frequenza si basa su sovra-frequenze/armoniche, sono possibili solo multipli interi della frequenza fondamentale. In pratica, (con poche eccezioni) si utilizza solo la seconda o la terza armonica della frequenza fondamentale (raddoppio, triplicazione).
+Per ottenere moltiplicazioni di frequenza più elevate, gli stadi di raddoppio o triplicazione vengono quindi collegati in serie, in modo che i loro fattori si moltiplichino successivamente.
 
 [question:AF311]
 
-Durch Frequenzvervielfachung und ggf. deren Hintereinanderschaltung werden Zwischenfrequenzen erzeugt, die oft zu Störungen führen können. Daher müssen Stufen der Frequenzvervielfachung sehr gut abgeschirmt sein, um unerwünschte Abstrahlungen maximal zu reduzieren.
+La moltiplicazione di frequenza e la loro eventuale connessione in serie generano frequenze intermedie che possono spesso causare disturbi. Pertanto, gli stadi di moltiplicazione di frequenza devono essere molto ben schermati per ridurre al massimo le emissioni indesiderate.
 
 [question:AF313]
 
-Eine typische Vervielfacher-Schaltung (siehe Abbildung [ref:a_frequenzvervielfacher_schaltung] ) enthält eine Verstärkerstufe, welche bewusst mit fehlender Basis-Vorspannung betrieben wird. Hierdurch entsteht ein Verstärker im Klasse-C Betrieb, der das Eingangssignal stark verzerrt und an dessen Ausgang das Signal mittels Filtern entnommen wird. Hierbei kommen für die Filter entsprechende Schwingkreise zum Einsatz, die auf der gewünschten Frequenz in Resonanz sind und meist abstimmbar sind.
+Un tipico circuito moltiplicatore (vedi figura [ref:a_frequenzvervielfacher_schaltung]) contiene uno stadio amplificatore che viene deliberatamente fatto funzionare senza polarizzazione di base. Ciò crea un amplificatore in classe C, che distorce fortemente il segnale di ingresso e dal cui uscita il segnale viene prelevato tramite filtri. Per i filtri vengono utilizzati circuiti oscillanti appropriati, che sono in risonanza alla frequenza desiderata e sono generalmente sintonizzabili.
 
 <margin>
-[picture:489:a_frequenzvervielfacher_schaltung:Beispiel für eine Schaltung eines Frequenzvervielfachers mit Klasse-C-Verstärker ohne Basis-Vorspannung]
+[picture:489:a_frequenzvervielfacher_schaltung:Esempio di circuito di un moltiplicatore di frequenza con amplificatore di classe C senza polarizzazione di base]
 </margin>
 
 [question:AF312]
 
-Wenn mehrere Vervielfacher-Stufen innerhalb eines Gerätes hintereinandergeschaltet sind, kann es zu Störungen auf Frequenzen kommen, die sich zwischen den einzelnen Vervielfacher-Stufen bilden. Um diese Frequenzen zu ermitteln, muss man den Weg des Signals durch die einzelnen Stufen und dessen danach vorhandene Frequenzen berechnen. Daher ist die Reihenfolge der entsprechenden Vervielfacher-Stufen von entscheidender Bedeutung bei der Ermittlung von Störfrequenzen.
+Se più stadi moltiplicatori sono collegati in serie all'interno di un apparecchio, possono verificarsi disturbi a frequenze che si formano tra i singoli stadi moltiplicatori. Per determinare queste frequenze, è necessario calcolare il percorso del segnale attraverso i singoli stadi e le frequenze presenti successivamente. Pertanto, l'ordine dei rispettivi stadi moltiplicatori è di fondamentale importanza per determinare le frequenze di disturbo.
 
 [question:AF314]

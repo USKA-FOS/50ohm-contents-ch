@@ -1,14 +1,14 @@
-Der Dynamic Compressor wird häufig bei DX-Verbindungen und in Contesten, bei denen es auf ein starkes, durchdringendes Signal ankommt, eingesetzt. Beim Einsatz eines Sprachkompressors sollte darauf geachtet werden, dass Verzerrungen durch eine Übermodulation des Senders vermieden werden. Diese würden zu einer Erhöhung der Bandbreite (Splatter) und daraus resultierend einer abnehmenden Verständlichkeit beim Empfänger führen. Deshalb ist eine zu hohe Einstellung der Dynamic-Kompression zu vermeiden.
+Il compressore dinamico viene spesso utilizzato nei collegamenti DX e nei contest, dove è importante avere un segnale forte e penetrante. Quando si utilizza un compressore vocale, è necessario prestare attenzione a evitare distorsioni dovute a sovramodulazione del trasmettitore. Queste comporterebbero un aumento della larghezza di banda (splatter) e, di conseguenza, una ridotta intelligibilità per il ricevitore. Pertanto, è necessario evitare un'impostazione troppo elevata della compressione dinamica.
 
 [question:AE211]
 [question:AE212]
 
-Ein NF-Sprachsignal hat, bedingt durch seine Lautstärkeschwankungen, große Unterschiede zwischen der maximalen und der minimalen Lautstärke. Diese Unterschiede in den Lautstärken nennt man auch *Dynamikumfang*. Durch einen *NF-Dynamikkompressor oder NF-Sprachprozessor* in einem Sender wird der Dynamikumfang eines Sprachsignals verringert, wodurch dessen mittlere Lautstärke angehoben wird. Hierdurch verringert sich auch der Dynamikumfang der Modulation des Sendesignals, wodurch der mittlere Sendepegel des Signals angehoben wird.
+Un segnale vocale a bassa frequenza (BF) presenta, a causa delle sue fluttuazioni di volume, grandi differenze tra il volume massimo e quello minimo. Queste differenze di volume sono anche chiamate *gamma dinamica*. Tramite un *compressore dinamico BF o processore vocale BF* in un trasmettitore, la gamma dinamica di un segnale vocale viene ridotta, aumentando così il suo volume medio. Ciò riduce anche la gamma dinamica della modulazione del segnale trasmesso, aumentando il livello medio di trasmissione del segnale.
 
 [question:AE210]
 
 <tip>
-Für eine optimale Einstellung des Dynamic Compressors sollte man wie folgt vorgehen:
-  1. Einstellung der Mikrofonverstärkung ohne Aktivierung des Dynamic Compressors, so dass das ALC-Meter des Transceivers gerade anspricht bzw. in dessen Regelbereich liegt.
-  2. Aktivierung des Dynamic Compressors schrittweise und Prüfung der Verständlichkeit und Deutlichkeit des Signals z.B. durch ein QSO mit einer Gegenstation und Rapport der Signalverständlichkeit und Qualität. Alternativ hierzu verfügen manche Geräte über eine Monitoring-Funktion, so dass das gesendete Signal auch über diese Funktion abgehört werden kann. Auch mit einem 2. Empfänger und Abschluss des Senders mittels Dummy-Load kann das Sendesignal abgehört werden. Hierdurch werden auch Störungen anderer Stationen durch Testaussendungen vermieden.
+Per una regolazione ottimale del compressore dinamico, procedere come segue:
+  1. Regolare il guadagno del microfono senza attivare il compressore dinamico, in modo che il misuratore ALC del trasmettitore-ricevitore appena risponda o rientri nel suo intervallo di regolazione.
+  2. Attivare gradualmente il compressore dinamico e verificare l'intelligibilità e la chiarezza del segnale, ad esempio tramite un QSO con una stazione di controparte e un rapporto sull'intelligibilità e la qualità del segnale. In alternativa, alcuni dispositivi dispongono di una funzione di monitoraggio, in modo che il segnale trasmesso possa essere ascoltato anche tramite questa funzione. Il segnale trasmesso può anche essere ascoltato con un secondo ricevitore e collegando il trasmettitore a un carico fittizio. In questo modo si evitano anche disturbi ad altre stazioni con trasmissioni di prova.
 </tip>

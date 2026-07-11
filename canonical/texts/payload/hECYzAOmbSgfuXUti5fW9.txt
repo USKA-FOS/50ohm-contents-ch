@@ -1,28 +1,28 @@
 <margin>
-[picture:911:e_digitale_signalverarbeitung_blockschaltbild:Prinzip der digitalen Signalverarbeitung]
+[picture:911:e_digitale_signalverarbeitung_blockschaltbild:Principio dell'elaborazione digitale del segnale]
 </margin>
 
-In den letzten 25 Jahren hat sich die Welt technologisch massiv verändert. Die Rechenleistung von Computern hat um ein Vielfaches zugenommen, und immer mehr Aufgaben in technischen Geräten werden durch Mikrochips auf kleinstem Raum durchgeführt. Auch in den kommenden Jahren wird sich diese Entwicklung in einem rasanten Tempo weiter fortsetzen. Dies alles verändert die Art und Weise, wie Geräte, insbesondere auch die Signalverarbeitung in modernen Funkgeräten, realisiert ist. Digitale Signalverarbeitung ist mittlerweile Stand der Technik, und jedes moderne Gerät basiert auf dieser Technologie. Hierbei spielen insbesondere digitale Signalprozessoren und das Grundprinzip der digitalen Signalverarbeitung eine wesentliche Rolle.
+Negli ultimi 25 anni, il mondo è cambiato enormemente dal punto di vista tecnologico. La potenza di calcolo dei computer è aumentata molte volte e sempre più compiti nei dispositivi tecnici vengono eseguiti da microchip in uno spazio ridottissimo. Questo sviluppo continuerà a ritmo serrato anche nei prossimi anni. Tutto ciò cambia il modo in cui vengono realizzati i dispositivi, in particolare l'elaborazione del segnale nei moderni apparecchi radio. L'elaborazione digitale del segnale è ormai lo stato dell'arte e ogni dispositivo moderno si basa su questa tecnologia. In questo contesto, i processori di segnale digitale e il principio fondamentale dell'elaborazione digitale del segnale svolgono un ruolo essenziale.
 
-Die digitale Signalverarbeitung ist hierbei nicht nur im Bereich der Funktechnik zu finden. Viele Geräte, seien es Handys, Stereoanlagen, bildgebende Systeme im medizinischen Bereich sowie praktisch alle modernen Funkapplikationen profitieren von dieser faszinierenden Technik und ermöglichen nie gekannte Möglichkeiten und Funktionen in diesen Geräten kostengünstig zu realisieren.
+L'elaborazione digitale del segnale non si trova solo nel campo della tecnica radio. Molti dispositivi, che si tratti di telefoni cellulari, impianti stereo, sistemi di imaging in campo medico e praticamente tutte le moderne applicazioni radio, beneficiano di questa affascinante tecnica e consentono di realizzare in modo economico possibilità e funzioni mai viste prima in questi dispositivi.
 
-Im Bereich der Funktechnik spricht man bei Geräten, die mittels digitaler Signalverarbeitung Signale verarbeiten von sogenannten SDR-Geräten. In diesen Geräten ist zumindest ein Teil der Signalverarbeitung in Software realisiert.
+Nel campo della tecnica radio, i dispositivi che elaborano segnali tramite elaborazione digitale del segnale sono chiamati dispositivi SDR. In questi dispositivi, almeno una parte dell'elaborazione del segnale è realizzata via software.
 
 [question:EF603]
 
-Um kontinuierliche analoge Signale digital verarbeiten zu können, müssen diese zunächst mittels eines Analog-Digital-Umsetzers (A/D-Umsetzer) abgetastet und in digitale Werte umgesetzt werden. Man spricht hierbei von Digitalisierung des analogen Eingangssignals.
+Per poter elaborare segnali analogici continui in formato digitale, questi devono prima essere campionati tramite un convertitore analogico-digitale (convertitore A/D) e convertiti in valori digitali. Si parla qui di digitalizzazione del segnale di ingresso analogico.
 
 [question:EF602]
 
 ---
 <margin>
-[picture:411:e_digitale_signalverarbeitung:Einfache Darstellung einer Sinuswelle aus $\num{16}$ Samples und $\num{7}$ Werten]
+[picture:411:e_digitale_signalverarbeitung:Rappresentazione semplice di un'onda sinusoidale da $\num{16}$ campioni e $\num{7}$ valori]
 </margin>
 
-Hierbei wird das analoge Signal in festen Zeitintervallen abgetastet und in einem digitalen Wertebereich (z. B. von $\num{-128}$ bis $\num{+127}$) abgebildet. Jeder Wert repräsentiert eine bestimmte gemessene Signalspannung, wobei in der Regel negativen Werten negative Spannungen und positiven Werten positive Spannungen zugeordnet werden. Man kann sich das in etwa so vorstellen wie z.B. bei einer Filmkamera, die in festen Abständen Bilder einer Szene aufnimmt. Hierbei haben die aufgenommenen Bilder immer einen festen zeitlichen Abstand zum vorherigen und nächsten Bild und stellen die momentane Szene in zeitlich kleinen Abständen dar. Dieser Prozess nennt sich Sampling (in Deutsch könnten man dies mit dem Wort Probenahme übersetzen). Die einzelnen gemessenen Signalwerte werden als Samples bezeichnet. Im nächsten Abschnitt werden wir uns diesen Prozess noch etwas genauer ansehen.
+Qui il segnale analogico viene campionato a intervalli di tempo fissi e mappato in un intervallo di valori digitali (ad esempio, da $\num{-128}$ a $\num{+127}$). Ogni valore rappresenta una specifica tensione del segnale misurata, dove in genere ai valori negativi vengono assegnate tensioni negative e ai valori positivi tensioni positive. Si può immaginare un po' come con una cinepresa che registra immagini di una scena a intervalli fissi. Le immagini registrate hanno sempre un intervallo di tempo fisso rispetto all'immagine precedente e successiva e rappresentano la scena momentanea a piccoli intervalli di tempo. Questo processo si chiama campionamento. I singoli valori del segnale misurati sono chiamati campioni. Nella prossima sezione esamineremo questo processo in modo un po' più dettagliato.
 
-Nach der A/D-Umsetzung können die als digitale Werte vorliegenden Samples mittels digitaler Signalverarbeitung beliebig weiter verarbeitet werden.
+Dopo la conversione A/D, i campioni, disponibili come valori digitali, possono essere ulteriormente elaborati a piacere tramite elaborazione digitale del segnale.
 
-Im Anschluss an die digitale Signalverarbeitung wird man aus den digital verarbeiteten Signalen wieder ein analoges Signal z.B. für die Ausgabe über einen Lautsprecher oder für die Aussendung über eine Antenne machen wollen. Um die digitalen Werte wieder in ein analoges Signal zu verwandeln, benötigt man an dieser Stelle einen Digital-Analog-Umsetzer (D/A-Umsetzer), welcher praktisch das Gegenstück zum vorbeschriebenen A/D-Umsetzer darstellt. Der D/A-Umsetzer setzt digitale Werte wieder in analoge Spannungswerte um und ermöglicht somit die Rekonstruktion eines analogen Signals aus den digitalen Werten.
+Dopo l'elaborazione digitale del segnale, si vorrà probabilmente riconvertire i segnali elaborati digitalmente in un segnale analogico, ad esempio per l'uscita tramite un altoparlante o per la trasmissione tramite un'antenna. Per trasformare i valori digitali nuovamente in un segnale analogico, è necessario a questo punto un convertitore digitale-analogico (convertitore D/A), che è praticamente l'equivalente del convertitore A/D descritto in precedenza. Il convertitore D/A converte i valori digitali in valori di tensione analogici, consentendo così la ricostruzione di un segnale analogico dai valori digitali.
 
 [question:EF601]

@@ -1,23 +1,23 @@
 <left>
-[picture:470:a_lnb:Blockschaltbild eines Empfangszweigs mit LNB]
+[picture:470:a_lnb:Schema a blocchi di un ramo di ricezione con LNB]
 </left>
 <right>
-* *Low Noise Block Converter* (LNB) mischt hohe Frequenzen direkt hinter der Antenne herunter
-* Häufig im Satellitenfunkverkehr
-* Weniger Kabelverluste durch niedrige Frequenz
+* *Low Noise Block Converter* (LNB) converte frequenze elevate in frequenze più basse subito dopo l'antenna
+* Spesso utilizzato nelle comunicazioni satellitari
+* Minori perdite del cavo grazie alla bassa frequenza
 </right>
 
 ---
 [question:AF230]
 ---
 <left>
-[picture:470:a_lnb:Blockschaltbild eines Empfangszweigs mit LNB]
+[picture:470:a_lnb:Schema a blocchi di un ramo di ricezione con LNB]
 </left>
 <right>
-* Benötigt Spannungsversorgung
-* Einsatz von BIAS-T
-* Unterschiedliche Spannungen für unterschiedliche Polarisation
-* Üblicherweise $\qty{12}{\volt}$ und $\qty{18}{\volt}$
+* Richiede un'alimentazione elettrica
+* Utilizzo di BIAS-T
+* Tensioni diverse per diverse polarizzazioni
+* Solitamente $\qty{12}{\volt}$ e $\qty{18}{\volt}$
 </right>
 
 ---

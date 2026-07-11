@@ -1,9 +1,9 @@
-## Stromkreis
+## Circuito elettrico
 
-* Beim Anschluss eines elektrischen Verbrauchers an die Pole einer Spannungsquelle, fangen die Ladungen an sich zu bewegen
-* Das ist ein *geschlossener Stromkreis*
-* Je nach Spannung und Verbraucher fließt mehr oder weniger Strom
-* Die *elektrische Stromstärke* wird in Ampere ($\unit{\ampere}$) gemessen
+* Quando un utilizzatore elettrico viene collegato ai poli di una fonte di tensione, le cariche iniziano a muoversi.
+* Questo è un *circuito chiuso*.
+* A seconda della tensione e dell'utilizzatore, scorre più o meno corrente.
+* L'*intensità di corrente* elettrica viene misurata in ampere ($\unit{\ampere}$).
 
 ---
 
@@ -11,13 +11,13 @@
 
 ---
 
-## Beispiele für Stromstärke
+## Esempi di intensità di corrente
 
-| l: Verbraucher | r: | c: | l: |
-| Leuchtdiode (LED) | $\qty{5}{\milli\ampere}$ | = | $\qty{0,005}{\ampere}$ |
-| Transceiver im Empfangsbetrieb | $\qty{900}{\milli\ampere}$ | = | $\qty{0,9}{\ampere}$ |
-| Transceiver im Sendebetrieb | $\qty{21}{\ampere}$ | = | $\qty{21}{\ampere}$ |
-[table:strom_beispiele:Beispiele für Ströme]
+| l: Utilizzatore | r: | c: | l: |
+| Diodo a emissione luminosa (LED) | $\qty{5}{\milli\ampere}$ | = | $\qty{0,005}{\ampere}$ |
+| trasmettitore-ricevitore in ricezione | $\qty{900}{\milli\ampere}$ | = | $\qty{0,9}{\ampere}$ |
+| trasmettitore-ricevitore in trasmissione | $\qty{21}{\ampere}$ | = | $\qty{21}{\ampere}$ |
+[table:strom_beispiele:Esempi di correnti]
 
 ---
 

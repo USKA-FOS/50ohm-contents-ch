@@ -1,13 +1,13 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+Questo testo alternativo non è ancora stato verificato.
 
-1) Kurze Zusammenfassung:
-Schaltplan mit einem Bipolartransistor, mehreren Widerständen und Kondensatoren, beschrifteten Größen UE, UA, IB, IC und UCE sowie zwei kleinen Zeitdiagrammen für UE(t) und IB(t).
+1) Breve riassunto:
+Schema con un transistor bipolare, diverse resistenze e condensatori, grandezze etichettate UE, UA, IB, IC e UCE, nonché due piccoli diagrammi temporali per UE(t) e IB(t).
 
-2) Detaillierte Beschreibung:
-- Oben und unten verlaufen horizontale Leitungen; rechts sind offene Klemmen mit den Zeichen „+“ (oben) und „–“ (unten). In der linken und rechten Bildhälfte stehen große, nach unten gerichtete Pfeile mit den Beschriftungen „UE“ (links) und „UA“ (rechts).
-- In der Mitte befindet sich ein Bipolartransistor in einem Kreis. Links am Transistor liegt die Basis; dorthin zeigt ein Pfeil mit der Beschriftung „IB“. Rechts oben am Transistor ist der Kollektor; daneben ein nach unten gerichteter Pfeil mit „IC“. Rechts vom Transistor verläuft ein senkrechter Pfeil nach unten mit der Beschriftung „UCE“.
-- Kollektorzweig: Vom Kollektorknoten führt ein Widerstand nach oben zur positiven Schiene. Vom selben Knoten geht ein Kondensator nach rechts zu einer offenen Klemme (Ausgang).
-- Emitterzweig: Der Emitter ist nach unten über einen Widerstand mit der unteren Schiene verbunden; parallel zu diesem Widerstand ist ein Kondensator zur unteren Schiene geschaltet. Am unteren Knoten ist ein Massesymbol eingezeichnet.
-- Basisbeschaltung: Der Eingang links ist eine offene Klemme; von dort führt ein in Reihe liegender Kondensator zum Basisknoten. Vom Basisknoten gehen zwei Widerstände ab: einer nach oben zur positiven Schiene, einer nach unten zur unteren Schiene (Spannungsteiler).
-- Verbindungspunkte sind als ausgefüllte Knotenpunkte dargestellt.
-- Unten sind zwei kleine Diagramme: links ein sinusförmiger Verlauf mit den Achsenbeschriftungen „UE“ (vertikal, Pfeil nach oben) und „t“ (horizontal, Pfeil nach rechts); rechts ein wellenförmiger Verlauf mit den Achsenbeschriftungen „IB“ (vertikal, Pfeil nach oben) und „t“ (horizontal, Pfeil nach rechts).
+2) Descrizione dettagliata:
+- Linee orizzontali corrono in alto e in basso; a destra ci sono morsetti aperti con i simboli "+" (sopra) e "–" (sotto). Nella metà sinistra e destra dell'immagine ci sono grandi frecce rivolte verso il basso con le etichette "UE" (sinistra) e "UA" (destra).
+- Al centro c'è un transistor bipolare in un cerchio. A sinistra del transistor si trova la base; una freccia con l'etichetta "IB" punta lì. In alto a destra del transistor c'è il collettore; accanto ad esso una freccia rivolta verso il basso con "IC". A destra del transistor, una freccia verticale scende con l'etichetta "UCE".
+- Circuito del collettore: Dal nodo del collettore, una resistenza va verso l'alto verso la linea positiva. Dallo stesso nodo, un condensatore va a destra verso un morsetto aperto (uscita).
+- Circuito dell'emettitore: L'emettitore è collegato verso il basso alla linea inferiore tramite una resistenza; in parallelo a questa resistenza, un condensatore è collegato alla linea inferiore. Un simbolo di massa è disegnato sul nodo inferiore.
+- Circuito della base: L'ingresso a sinistra è un morsetto aperto; da lì, un condensatore in serie va al nodo della base. Dal nodo della base partono due resistenze: una verso l'alto verso la linea positiva, una verso il basso verso la linea inferiore (partitore di tensione).
+- I punti di connessione sono rappresentati come nodi pieni.
+- In basso ci sono due piccoli diagrammi: a sinistra un andamento sinusoidale con le etichette degli assi "UE" (verticale, freccia verso l'alto) e "t" (orizzontale, freccia verso destra); a destra un andamento ondulatorio con le etichette degli assi "IB" (verticale, freccia verso l'alto) e "t" (orizzontale, freccia verso destra).

@@ -1,15 +1,15 @@
-* *Integrated Circuit (IC)*: Integrierte Schaltungen
-* Komplexe Schaltung auf einem Halbleitersubstrat
-* Erleichtern den Aufbau von elektronischen Schaltungen
+* *Circuito Integrato (IC)*: Circuiti integrati
+* Circuito complesso su un substrato semiconduttore
+* Facilitano la costruzione di circuiti elettronici
 
 ---
 [question:AC601]
 ---
-## Monolithic Microwave Integrated Circuit (MMIC)
+## Circuito Integrato a Microonde Monolitico (MMIC)
 
-* Breitbandiger Verstärker mit wenigen Bauteilen
-* Typischerweise $\qty{50}{\ohm}$ Ein- und Ausgangsimpedanz
-* Vereint aktive und passive Bauelemente
+* Amplificatore a banda larga con pochi componenti
+* Tipicamente impedenza di uscita e ingresso di $\qty{50}{\ohm}$
+* Unisce componenti attivi e passivi
 
 ---
 [question:AC602]
@@ -18,17 +18,17 @@
 ---
 [question:AC604]
 ---
-### MMIC Beschaltung
+### Cablaggio MMIC
 
 <left>
-[picture:773:a_mmic:MMIC-Schaltung]
+[picture:773:a_mmic:Circuito MMIC]
 </left>
 <right>
-* Arbeitspunkt wird über $R_{\textrm{BIAS}}$ eingestellt
-* Kondensatoren isolieren Gleichspannung
-* Anschluss 2 und 4 liegen auf Masse gegenüber $U_{\textrm{CC}}$
-* Anschluss 1 ist offen
-* $U_{\textrm{CC}}$ fällt über $R_{\textrm{BIAS}}$ und MMIC ab
+* Il punto di funzionamento viene impostato tramite $R_{\textrm{BIAS}}$
+* I condensatori isolano la tensione continua
+* I collegamenti 2 e 4 sono a Massa rispetto a $U_{\textrm{CC}}$
+* Il collegamento 1 è aperto
+* $U_{\textrm{CC}}$ cade su $R_{\textrm{BIAS}}$ e MMIC
 </right>
 <note>
 </note>
@@ -36,11 +36,11 @@
 ---
 [question:AF425]
 ---
-#### Lösungsweg
-* gegeben: $U_{\textrm{D}} = \qty{4}{\volt}$
-* gegeben: $U_{\textrm{CC}} = \qty{13,5}{\volt}$
-* gegeben: $I_{\textrm{D}} = \qty{10}{\milli\ampere}$
-* gesucht: $R_{\textrm{BIAS}}$
+#### Percorso di soluzione
+* dato: $U_{\textrm{D}} = \qty{4}{\volt}$
+* dato: $U_{\textrm{CC}} = \qty{13,5}{\volt}$
+* dato: $I_{\textrm{D}} = \qty{10}{\milli\ampere}$
+* cercato: $R_{\textrm{BIAS}}$
 
 <fragment>
 $R_{\textrm{BIAS}} = \frac{U_{\textrm{CC}} - U_{\textrm{D}}}{I_{\textrm{D}}} = \frac{\qty{13,5}{\volt} - \qty{4}{\volt}}{\qty{10}{\milli\ampere}} = \qty{950}{\ohm}$
@@ -49,11 +49,11 @@ $R_{\textrm{BIAS}} = \frac{U_{\textrm{CC}} - U_{\textrm{D}}}{I_{\textrm{D}}} = \
 ---
 [question:AF426]
 ---
-#### Lösungsweg
-* gegeben: $U_{\textrm{D}} = \qty{4}{\volt}$
-* gegeben: $U_{\textrm{CC}} = \qty{13,8}{\volt}$
-* gegeben: $I_{\textrm{D}} = \qty{15}{\milli\ampere}$
-* gesucht: $R_{\textrm{BIAS}}$
+#### Percorso di soluzione
+* dato: $U_{\textrm{D}} = \qty{4}{\volt}$
+* dato: $U_{\textrm{CC}} = \qty{13,8}{\volt}$
+* dato: $I_{\textrm{D}} = \qty{15}{\milli\ampere}$
+* cercato: $R_{\textrm{BIAS}}$
 
 <fragment>
 $R_{\textrm{BIAS}} = \frac{U_{\textrm{CC}} - U_{\textrm{D}}}{I_{\textrm{D}}} = \frac{\qty{13,8}{\volt} - \qty{4}{\volt}}{\qty{15}{\milli\ampere}} = \qty{653,3}{\ohm} \rightarrow \qty{680}{\ohm}$
@@ -62,12 +62,12 @@ $R_{\textrm{BIAS}} = \frac{U_{\textrm{CC}} - U_{\textrm{D}}}{I_{\textrm{D}}} = \
 ---
 [question:AF427]
 ---
-#### Lösungsweg
-* gegeben: $U = \qty{9}{\volt}$
-* gegeben: $R_{\textrm{BIAS}} = \qty{470}{\ohm}$
-* gegeben: $U_{\textrm{D}} = \qty{4}{\volt}$
-* gesucht: $P$
-* Ansatz: Strom durch $R_{\textrm{BIAS}}$ ist überall gleich, weil kein anderer ohmschmer Verbraucher in der Schaltung vorhanden ist
+#### Percorso di soluzione
+* dato: $U = \qty{9}{\volt}$
+* dato: $R_{\textrm{BIAS}} = \qty{470}{\ohm}$
+* dato: $U_{\textrm{D}} = \qty{4}{\volt}$
+* cercato: $P$
+* approccio: la corrente attraverso $R_{\textrm{BIAS}}$ è ovunque la stessa, poiché non ci sono altri carichi resistivi nel circuito
 
 <fragment>
 $I_{\textrm{D}} = \frac{U_{\textrm{BIAS}}}{R_{\textrm{BIAS}}} = \frac{U-U_{\textrm{D}}}{R_{\textrm{BIAS}}} = \frac{\qty{9}{\volt}-\qty{4}{\volt}}{\qty{470}{\ohm}} = \qty{10,64}{\milli\ampere}$

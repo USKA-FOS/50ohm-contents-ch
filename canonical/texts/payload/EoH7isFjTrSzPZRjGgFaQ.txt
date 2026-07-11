@@ -1,17 +1,17 @@
-## Belasteter Spannungsteiler
+## Partitore di tensione sotto carico
 
-* Gesamtstrom steigt, wenn die Belastung erhöht wird, also wenn $R_{\textrm{L}}$ niederohmiger wird
-* Voraussetzung: Strom der Versorgung bricht nicht ein
-* Bei der Dimensionierung auf die Stromstärken durch die Widerstände achten
+* La corrente totale aumenta se il carico viene aumentato, cioè se $R_{\textrm{L}}$ diventa a bassa impedenza
+* Presupposto: la corrente dell'alimentazione non crolla
+* Prestare attenzione alle intensità di corrente attraverso le resistenze durante il dimensionamento
 
 ---
 [question:AD115]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 
-Im belasteten Spannungsteiler fließen 3 Ströme:
-* $I_1$ fließt durch $R_1$ und verursacht dort eine Verlustleistung $P_1 = U_1 \cdot I_1 = I_2 \cdot R_1$
-* $I_2$ fließt durch $R_2$ und verursacht dort eine Verlustleistung $P_2 = U_2 \cdot I_2 = {I_2}^2 \cdot R_2$
-* $I_L$ fließt durch $R_L$ und verursacht dort eine Verlustleistung $P_L = U_2 \cdot I_L = {I_L}^2 \cdot R_L$
-* Der Strom $I_1$ ist die Summe von $I_2$ und $I_L$ und damit der größte Strom.
+Nel partitore di tensione sotto carico scorrono 3 correnti:
+* $I_1$ scorre attraverso $R_1$ e causa lì una potenza dissipata $P_1 = U_1 \cdot I_1 = I_2 \cdot R_1$
+* $I_2$ scorre attraverso $R_2$ e causa lì una potenza dissipata $P_2 = U_2 \cdot I_2 = {I_2}^2 \cdot R_2$
+* $I_L$ scorre attraverso $R_L$ e causa lì una potenza dissipata $P_L = U_2 \cdot I_L = {I_L}^2 \cdot R_L$
+* La corrente $I_1$ è la somma di $I_2$ e $I_L$ ed è quindi la corrente più grande.
 

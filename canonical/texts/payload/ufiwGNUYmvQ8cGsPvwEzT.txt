@@ -1,7 +1,7 @@
-* Bildet das Eingangssignal linear auf dem Ausgangssignal ab
-* Jedoch um den Verstärkungsfaktor vergrößert
-* Es finden keine Verzerrungen statt
-* Benötigt für Modulationsarten, die die Information in der Amplitude oder Phase übertragen (SSB, AM, QAM, QPSK, PSK, ...)
+* Mappa il segnale di ingresso sul segnale di uscita in modo lineare
+* Tuttavia, aumentato del fattore di amplificazione
+* Non si verificano distorsioni
+* Necessario per tipi di modulazione che trasmettono le informazioni in ampiezza o fase (SSB, AM, QAM, QPSK, PSK, ...)
 
 ---
 [question:AD431]

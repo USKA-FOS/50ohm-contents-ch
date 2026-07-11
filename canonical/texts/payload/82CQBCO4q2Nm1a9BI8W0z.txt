@@ -1,5 +1,5 @@
-Wenn $R_2$ durch eine fehlerhafte Lötstelle keinen Kontakt mehr hat, fehlt der untere Teil des Basisspannungsteilers. Die Basis wird dann über $R_1$ nahezu auf die positive Betriebsspannung gezogen.
+Se $R_2$ non ha più contatto a causa di una saldatura difettosa, manca la parte inferiore del partitore di tensione di base. La base viene quindi portata quasi alla tensione di servizio positiva tramite $R_1$.
 
-Dadurch steigt die Basis-Emitter-Spannung stark an, und der Transistor wird vollständig durchgesteuert. Der Kollektorstrom wird dann im Wesentlichen nur noch durch den Kollektorwiderstand $R_C$ begrenzt.
+Ciò aumenta notevolmente la tensione base-emettitore e il transistor viene completamente condotto. La corrente di collettore è quindi limitata essenzialmente solo dalla resistenza di collettore $R_C$.
 
-Im durchgesteuerten Zustand fällt die Kollektorspannung auf einen sehr kleinen Wert ab, typischerweise etwa $\qty{0,1}{\volt}$.
+Nello stato condotto, la tensione di collettore scende a un valore molto basso, tipicamente circa $\qty{0,1}{\volt}$.

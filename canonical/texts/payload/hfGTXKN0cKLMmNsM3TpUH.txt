@@ -1,49 +1,49 @@
-Die Brückenschaltung ist eine Anordnung aus vier Widerständen, die unter anderem zur präzisen Widerstandsmessung eingesetzt wird. Ein bekanntes praktisches Beispiel ist die Wheatstone-Messbrücke. Die Schaltung besteht aus zwei parallel geschalteten Spannungsteilern. Zwischen den Mittelpunkten der beiden Spannungsteiler befindet sich der sogenannte Brückenzweig, an dem die Brückenspannung $U_\mathrm{AB}$ gemessen werden kann.
+Il circuito a ponte è una disposizione di quattro resistenze, utilizzata tra l'altro per la misurazione precisa della resistenza. Un esempio pratico noto è il ponte di Wheatstone. Il circuito è composto da due partitori di tensione collegati in parallelo. Tra i punti medi dei due partitori di tensione si trova il cosiddetto ramo del ponte, dove può essere misurata la tensione del ponte $U_\mathrm{AB}$.
 
 <margin>
-[picture:343:a_Brückenschaltung:Typische Brückenschaltung mit 4 Widerständen]
+[picture:343:a_Brückenschaltung:Tipico circuito a ponte con 4 resistenze]
 </margin>
 
-Besonders interessant ist der Fall der abgeglichenen Brücke. Dieser liegt vor, wenn die Spannungsteilerverhältnisse auf beiden Seiten gleich groß sind. Dann besitzen die beiden Mittelpunkte dasselbe elektrische Potential und es fließt kein Strom durch den Brückenzweig beziehungsweise das angeschlossene Messinstrument.
+Particolarmente interessante è il caso del ponte bilanciato. Questo si verifica quando i rapporti dei partitori di tensione su entrambi i lati sono uguali. Allora i due punti medi hanno lo stesso potenziale elettrico e non scorre corrente attraverso il ramo del ponte o lo strumento di misura collegato.
 
-Dabei müssen die einzelnen Widerstände nicht denselben Wert besitzen. Entscheidend ist lediglich, dass das Verhältnis der Widerstände auf beiden Seiten übereinstimmt.
+In questo caso, le singole resistenze non devono necessariamente avere lo stesso valore. È decisivo solo che il rapporto delle resistenze su entrambi i lati corrisponda.
 
-Für den abgeglichenen Zustand gilt daher:
+Per lo stato bilanciato vale quindi:
 
 $ U_\mathrm{AB} = \qty{0}{\volt} $
 
-und damit:
+e quindi:
 
 $ \frac{R_1}{R_2} = \frac{R_3}{R_4} $
 
-Die Wheatstone-Brücke eignet sich deshalb besonders gut zur Bestimmung unbekannter Widerstände oder kleiner Widerstandsänderungen. Wie genau das funktioniert, wird in der nebenstehenden Vertiefung beschrieben.
+Il ponte di Wheatstone è quindi particolarmente adatto per determinare resistenze sconosciute o piccole variazioni di resistenza. Come funziona esattamente, è descritto nell'approfondimento a lato.
 
 <indepth>
-Der Sonderfall, dass die Spannungsteilerverhältnisse in der Brückenschaltung links und rechts gleich groß sind, wird zur Messung unbekannter Widerstände angewendet. Charles Wheatstone (britischer Physiker) erkannte bereits 1833 die Bedeutung der Brückenschaltung für die Messung unbekannter Widerstände. 
+Il caso speciale in cui i rapporti dei partitori di tensione nel circuito a ponte a sinistra e a destra sono uguali viene utilizzato per misurare resistenze sconosciute. Charles Wheatstone (fisico britannico) riconobbe già nel 1833 l'importanza del circuito a ponte per la misurazione di resistenze sconosciute. 
 
-Bei der Messung wird ein einstellbarer Präzisionswiderstand so lange verändert, bis das empfindliche Messwerk im Brückenzweig keinen Stromfluss mehr anzeigt. Dann ist die Brücke abgeglichen, und man kann den Wert des unbekannten Widerstandes mithilfe der Skala und des Messbereichsmultiplikators ermitteln.
+Durante la misurazione, una resistenza di precisione regolabile viene modificata finché il sensibile strumento di misura nel ramo del ponte non indica più alcun flusso di corrente. Quindi il ponte è bilanciato e si può determinare il valore della resistenza sconosciuta utilizzando la scala e il moltiplicatore di campo di misura.
 
-Ein Beispiel sieht man in der Abbildung [ref:a_pontavi]. Hier gibt es einen Multiplikator der Werte von 0,1/1/10/100 annehmen kann. Für die Feineinstellung gibt es den Großen Drehknopf. 
-[photo:286:a_pontavi:Widerstandsmessbrücke nach Wheatstone (Pontavi)]
+Un esempio è mostrato nella figura [ref:a_pontavi]. Qui c'è un moltiplicatore che può assumere valori di 0,1/1/10/100. Per la regolazione fine c'è la manopola grande. 
+[photo:286:a_pontavi:Ponte di misura della resistenza di Wheatstone (Pontavi)]
 
-Die Abbildung [ref:a_pontavi_schaltung] zeigt den verinfachten Schaltplan dieses Messgeräts. An der Stelle $X$ wird der unbekannte Widerstand angeschlossen. Zunächst stellt man mit dem Multiplikator die geschätzte Größenordnung des unbekannten Widerstandes ein. Dann wird mit dem Großen Drehknopf der Präzisionswiderstand so lange verändert, bis die Brücke abgeglichen ist. Das Messwerk zeigt dann an, dass kein Strom mehr durch den Brückenzweig fließt.
+La figura [ref:a_pontavi_schaltung] mostra lo schema elettrico semplificato di questo strumento di misura. Al punto X viene collegata la resistenza sconosciuta. Inizialmente, si imposta con il moltiplicatore l'ordine di grandezza stimato della resistenza sconosciuta. Quindi, con la manopola grande, la resistenza di precisione viene modificata finché il ponte non è bilanciato. Lo strumento di misura indica quindi che non scorre più corrente attraverso il ramo del ponte.
 
-[picture:1076:a_pontavi_schaltung:Schaltplan Widerstandsmessbrücke (Pontavi)]
+[picture:1076:a_pontavi_schaltung:Schema elettrico ponte di misura della resistenza (Pontavi)]
 </indepth>
 
 [question:AD111]
 
-Da bei der folgenden Aufgabe alle Widerstände gleich groß sind, müssen auch die Spannungsteilerverhältnisse gleich sein. Dies entspricht dem beschriebenen Sonderfall.
+Dato che nella seguente attività tutte le resistenze hanno lo stesso valore, anche i rapporti dei partitori di tensione devono essere uguali. Questo corrisponde al caso speciale descritto.
 
 [question:AD112]
 
-In der folgenden Frage trifft der Sonderfall nicht zu, da die Spannungsteilerverhältnisse ungleich sind. Es sind zwar ähnliche Widerstände vorhanden, jedoch von oben nach unten betrachtet vertauscht. Die Aufgabe kann mit dem Wissen zum unbelasteten Spannungsteiler gelöst werden.
+Nella seguente domanda, il caso speciale non si applica, poiché i rapporti dei partitori di tensione sono diversi. Sebbene siano presenti resistenze simili, sono invertite se viste dall'alto verso il basso. L'attività può essere risolta con le conoscenze sul partitore di tensione non caricato.
 
 [question:AD113]
 
-Auf der linken Seite finden wir das Verhältnis $\qty{1}{\kilo\ohm}$ zu $\qty{10}{\kilo\ohm} = 1/10$.
-Unter der Voraussetzung, dass das Messwerk sehr hochohmig oder abgeklemmt ist, messen wir bei einer Betriebsspannung von $\qty{11}{\volt}$ auf der linken Seite am oberen Widerstand ($R_1$) genau $\qty{1}{\volt}$ und am unteren Widerstand ($R_2$) $\qty{10}{\volt}$. Das Potenzial am Messpunkt A beträgt somit $\qty{10}{\volt}$ gegen Masse gemessen.
+Sul lato sinistro troviamo il rapporto $\qty{1}{\kilo\ohm}$ a $\qty{10}{\kilo\ohm} = 1/10$. 
+Supponendo che lo strumento di misura sia ad altissima impedenza o scollegato, con una tensione di servizio di $\qty{11}{\volt}$ misuriamo sul lato sinistro $\qty{1}{\volt}$ sulla resistenza superiore ($R_1$) e $\qty{10}{\volt}$ sulla resistenza inferiore ($R_2$). Il potenziale nel punto di misura A è quindi $\qty{10}{\volt}$ misurato rispetto alla massa.
 
-Auf der rechten Seite finden wir das Verhältnis $\qty{10}{\kilo\ohm}$ zu $\qty{1}{\kilo\ohm} = 10/1$ und messen deshalb $\qty{10}{\volt}$ am oberen Widerstand ($R_3$) und $\qty{1}{\volt}$ am unteren Widerstand ($R_4$). Das Potenzial am Messpunkt B beträgt somit $\qty{1}{\volt}$ gegen Masse gemessen.
+Sul lato destro troviamo il rapporto $\qty{10}{\kilo\ohm}$ a $\qty{1}{\kilo\ohm} = 10/1$ e quindi misuriamo $\qty{10}{\volt}$ sulla resistenza superiore ($R_3$) e $\qty{1}{\volt}$ sulla resistenza inferiore ($R_4$). Il potenziale nel punto di misura B è quindi $\qty{1}{\volt}$ misurato rispetto alla massa.
 
-Der Potenzialunterschied zwischen A und B beträgt damit $\qty{9}{\volt}$, wobei der Messpunkt A um $\qty{9}{\volt}$ positiver als der Messpunkt B ist.
+La differenza di potenziale tra A e B è quindi $\qty{9}{\volt}$, con il punto di misura A che è $\qty{9}{\volt}$ più positivo del punto di misura B.

@@ -1,67 +1,67 @@
-Sinusförmige Wechselspannungen ändern ihren Wert fortlaufend. Um sie besser beschreiben zu können, wollen wir uns im Folgenden drei wichtige Kenngrößen ansehen:
+Le tensioni alternate sinusoidali cambiano continuamente il loro valore. Per poterle descrivere meglio, esamineremo tre importanti parametri:
 
-1. $\hat{U}$: Den Spitzenwert eine Wechselspannung
-2. $U_\text{SS}$: der Spitze-Spitze-Wert 
-3. $U_\text{eff}$: der Effektivwert
+1. $\hat{U}$: Il valore di picco di una tensione alternata
+2. $U_\text{SS}$: il valore picco-picco 
+3. $U_\text{eff}$: il valore efficace
 
 <margin>
-[picture:834:e_wechselspannung_kenngroessen:Die drei Kenngrößen einer Wechselspannung]
+[picture:834:e_wechselspannung_kenngroessen:I tre parametri di una tensione alternata]
 </margin>
 
 ---
 
-Der *Spitzenwert* einer Wechselspannung $\hat{U}$ entspricht der Amplitude, die wir bereits in der Klasse N kennengelernt haben (vgl. Abbildung [ref:e_wechselspannung_kenngroessen]). Er ist unter anderem wichtig für die Spannungsfestigkeit von Kondensatoren. Abbildung [ref:e_spannungsfestigkeit_elkos] zeigt zwei bedrahtete Elektrolytkondensatoren, auf denen die zulässige Spannungsfestigkeit aufgedruckt ist. Der Spitzenwert der anliegenden Spannung darf diesen Grenzwert nicht überschreiten, da sonst die Zerstörung des Kondensators droht. Häufig wählt man Bauteile mit einer höheren Spannungsfestigkeit als erforderlich – entweder aus Sicherheitsgründen oder zur Verlängerung der Lebensdauer.
+Il *valore di picco* di una tensione alternata $\hat{U}$ corrisponde all'ampiezza che abbiamo già conosciuto nella classe N (cfr. figura [ref:e_wechselspannung_kenngroessen]). È importante, tra l'altro, per la resistenza alla tensione dei condensatori. La figura [ref:e_spannungsfestigkeit_elkos] mostra due condensatori elettrolitici con terminali, sui quali è stampata la resistenza alla tensione ammissibile. Il valore di picco della tensione applicata non deve superare questo limite, altrimenti si rischia la distruzione del condensatore. Spesso si scelgono componenti con una resistenza alla tensione superiore a quella richiesta, sia per motivi di sicurezza che per prolungare la durata.
 
 <margin>
-[photo:198:e_spannungsfestigkeit_elkos:Elektrolytkondensatoren mit den Spannungsfestigkeiten 16 Volt und 25 Volt]
+[photo:198:e_spannungsfestigkeit_elkos:Condensatori elettrolitici con resistenze alla tensione di 16 volt e 25 volt]
 </margin>
 
-Eine weitere Kenngröße ist der *Spitze-Spitze-Wert*. Das ist der Unterschied zwischen dem höchsten und dem niedrigsten Ausschlag. Für Sinusförmige Wechselspannungen gilt:
+Un altro parametro è il *valore picco-picco*. Questa è la differenza tra il picco più alto e quello più basso. Per le tensioni alternate sinusoidali vale:
 
 $U_\text{SS} = 2\cdot \hat{U}$.
  
 [question:EB406]
 [question:EB407]
 
-Wenn nicht die Spannungs-, sondern die Leistung von Geräten oder die Wärmebelastung von Bauteilen und Leitungen im Vordergrund steht, ist der Spitzenwert nicht hilfreich. Für diesen Fall hat man den *Effektivwert* definiert. Der Effektivwert einer Wechselspannung entspricht dem Wert einer Gleichspannung, die einen ohmschen Widerstand genauso stark erwärmen würde. 
+Quando non è la tensione, ma la Potenza degli apparecchi o il carico termico dei componenti e dei fili ad essere in primo piano, il valore di picco non è utile. Per questo caso è stato definito il *valore efficace*. Il valore efficace di una tensione alternata corrisponde al valore di una tensione continua che riscalderebbe una Resistenza ohmica allo stesso modo.
 
 ---
 
-Bei sinusförmigen Spannungen ist der Spitzen- oder Scheitelwert etwa 1,4-mal so groß wie der Effektivwert (siehe Abbildung [ref:e_wechselspannung_kenngroessen]). Die genaue Rechnung führt zu einer einfachen Formel:
+Per le tensioni sinusoidali, il valore di picco o di cresta è circa 1,4 volte più grande del valore efficace (vedi figura [ref:e_wechselspannung_kenngroessen]). Il calcolo esatto porta a una formula semplice:
 
-$U_{eff} = \frac{\hat{U}}{\sqrt{2}}$ oder $\hat{U} = U_{eff} \cdot \sqrt{2}$
+$U_{eff} = \frac{\hat{U}}{\sqrt{2}}$ o $\hat{U} = U_{eff} \cdot \sqrt{2}$
 
-Wird eine Wechselspannung nur mit dem Buchstaben $U$ ohne Zusatz angegeben, ist in der Regel der Effektivwert gemeint. Das bekannteste Beispiel ist unsere Netzspannung von $\qty{230}{\volt}$ – auch hierbei handelt es sich um den Effektivwert. Die Spitzenspannung liegt deutlich höher, nämlich bei
+Se una tensione alternata viene indicata solo con la lettera $U$ senza specificazione, si intende solitamente il valore efficace. L'esempio più noto è la nostra tensione di rete di $\qty{230}{\volt}$ – anche in questo caso si tratta del valore efficace. La tensione di picco è notevolmente più alta, ovvero $\qty{325}{\volt}$.
 
 $\hat{U} = \qty{230}{\volt} \cdot \sqrt{2} \approx \qty{325}{\volt}$.
 
 <indepth>
-Die genaue Herleitung dieser Formel erfolgt mithilfe der Integralrechnung und geht über das für die Amateurfunkprüfung erforderliche Wissen hinaus. Wer mit der Integralrechnung vertraut ist und sich dafür interessiert, kann die Herleitung hier nachlesen: [Wikipedia](https://50ohm.de/ew)
+La derivazione esatta di questa formula avviene tramite il calcolo integrale e va oltre le conoscenze richieste per l'esame di radioamatore. Chi ha familiarità con il calcolo integrale e ne è interessato, può leggere la derivazione qui: [Wikipedia](https://50ohm.de/ew)
 </indepth>
 
 [question:EB401]
 
-Der Wert für $U_\text{SS}$ ergibt für die Netzspannung dann das Doppelte des Spitzenwerts: 
+Il valore per $U_\text{SS}$ per la tensione di rete risulta quindi il doppio del valore di picco:
 
 $ U_\text{SS} = 2 \cdot \qty{230}{\volt} \cdot \sqrt{2} \approx \qty{651}{\volt}$
 
 [question:EB402]
 
-Nach dem gleichen Prinzip funktionieren auch die beiden folgenden Fragen: 
+Secondo lo stesso principio funzionano anche le due domande seguenti:
 
 [question:EB403]
 [question:EB404]
 
 ---
 
-% TODO referenz auf das Leistungskapitel einfügen:
+% TODO inserire riferimento al capitolo sulla potenza:
 
-Bei der nächsten Frage wird indirekt nach dem Effektivwert der Spannung gefragt. Wenn man weiß, das $\frac{1}{\sqrt{2}} \approx 0,7$ ist kann man die beiden Ergebnisse direkt ablesen. 
+Nella domanda successiva si chiede indirettamente il valore efficace della tensione. Se si sa che $\frac{1}{\sqrt{2}} \approx 0,7$, si possono leggere direttamente i due risultati. 
 
 <indepth>
-Wichtig ist, dass sowohl die Gleichspannung $\qty{0,7}{\volt}$ als auch die Gleichspannung $\qty{-0,7}{\volt}$ zum gleichen Ergebnis führen. Das liegt daran, dass sich bei einer negativen Spannung auch das Vorzeichen des Stroms ändert, was jedoch trotzdem zur gleichen Leistung führt – denn es gilt $P = U \cdot I$.
+È importante che sia la tensione continua $\qty{0,7}{\volt}$ che la tensione continua $\qty{-0,7}{\volt}$ portino allo stesso risultato. Ciò è dovuto al fatto che con una tensione negativa cambia anche il segno della Corrente, il che tuttavia porta alla stessa Potenza – poiché vale $P = U \cdot I$.
 </indepth>
 
 [question:EB405]
 
-Übrigens: Alles hier über Wechselspannungen Geschriebene gilt analog für Wechselströme.
+Tra l'altro: tutto ciò che è scritto qui sulle tensioni alternate vale analogamente per le correnti alternate.

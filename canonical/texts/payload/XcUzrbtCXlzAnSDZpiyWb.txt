@@ -1,40 +1,40 @@
-Wie bereits im Kapitel "Gleichrichter I" der Klasse E gezeigt, lässt eine einzelne Diode nur die positive Halbwelle durch. Damit daraus eine nutzbare Gleichspannung entsteht, wird zusätzlich mindestens ein Kondensator benötigt, der die pulsierende Ausgangsspannung glättet (siehe Schaltung [ref:a_einweggleichrichtung_c]).
+Come già mostrato nel capitolo "Raddrizzatori I" della classe E, un singolo diodo lascia passare solo la semionda positiva. Affinché da ciò si ottenga una tensione continua utilizzabile, è necessario almeno un condensatore aggiuntivo che smorzi la tensione d’uscita pulsante (vedi circuito [ref:a_einweggleichrichtung_c]).
 
 <margin>
-[picture:795:a_einweggleichrichtung_c:Einweggleichrichtung mit Kondensator]
+[picture:795:a_einweggleichrichtung_c:Raddrizzatore a semionda con condensatore]
 </margin>
 
 ---
 
-Bei der positiven Halbwelle leitet die Diode $D$ und lässt Strom fließen. In dieser Zeit lädt sich der Kondensator $C_L$ auf den Spitzenwert der Wechselspannung auf. Zum Zeitpunkt der negativen Halbwelle sperrt die Diode $D$ den Strom und der Kondensator $C_L$ entlädt sich über den Lastwiderstand $R_L$.
+Durante la semionda positiva, il diodo $D$ conduce e lascia passare la corrente. In questo periodo, il condensatore $C_L$ si carica fino al valore di picco della tensione alternata. Al momento della semionda negativa, il diodo $D$ blocca la corrente e il condensatore $C_L$ si scarica attraverso la resistenza di carico $R_L$.
 
-Somit stellt sich am Lastwiderstand $R_L$ eine leicht pulsierende Gleichspannung $U_L$ ein (vgl. Abb.[ref:a_Restwelligkeit]). Um so größer die Kapazität des Kondensator ist, desto gleichmäßiger wird die Gleichspannung am Lastwiderstand geglättet.
+In questo modo, sulla resistenza di carico $R_L$ si ottiene una tensione continua leggermente pulsante $U_L$ (cfr. fig.[ref:a_Restwelligkeit]). Maggiore è la capacità del condensatore, più uniforme sarà la tensione continua smorzata sulla resistenza di carico.
 
 <margin>
-[picture:75:a_Restwelligkeit:Welligkeit der Ausgangsgleichspannung $U_L$]
+[picture:75:a_Restwelligkeit:Ondulazione della tensione continua d’uscita $U_L$]
 </margin>
 
-Bei der Bemessung von Diode und Kondensator müssen wir jedoch wissen, dass die Trafo-Spannungen als Effektivspannungen $U_{\mathrm{eff}}$ angegeben werden. Somit müssen wir die Spitzenspannung $\hat{U}$ vorher bestimmen.
+Nella progettazione del diodo e del condensatore, dobbiamo tuttavia sapere che le tensioni del trasformatore sono indicate come tensioni efficaci $U_{\mathrm{eff}}$. Pertanto, dobbiamo prima determinare la tensione di picco $\hat{U}$.
 
 $\hat{U} = \sqrt{2} \cdot U_{\mathrm{eff}}$
 
-Wenn an einem Transformator z. B. die Spannung $U_a = \qty{15}{\volt}$ angegeben ist, rechnen wir:
+Se, ad esempio, la tensione $U_a = \qty{15}{\volt}$ è indicata su un trasformatore, calcoliamo:
 
 $\hat{U} = \sqrt{2} \cdot U_{\mathrm{eff}} = \sqrt{2} \cdot \qty{15}{\volt} = \qty{21,21}{\volt}$
 
-Somit wird sich ohne Last eine Leerlaufspitzenspannung von ca. $\qty{21}{\volt}$ einstellen.
+Pertanto, senza carico, si stabilirà una tensione di picco a vuoto di circa $\qty{21}{\volt}$.
 
 [question:AD302]
 
-Bei nachfolgender Frage müssen wir das Übersetzungsverhältnis vom Trafo anwenden, um unsere Ausgangsspannung zu ermitteln. Wir setzten also für die effektive Eingangsspannung $U_{\mathrm{eff}}$ ein zwanzigstel der Trafoeingangsspannung von $\qty{230}{\volt}$ ein. Von der Spitzenspannung können wir dann die Hälfte der Spannung nochmal addieren um den Sicherheitsaufschlag zu berücksichtigen.
+Nella domanda successiva, dobbiamo applicare il rapporto di trasformazione del trasformatore per determinare la nostra tensione d’uscita. Pertanto, per la tensione d’ingresso efficace $U_{\mathrm{eff}}$, inseriamo un ventesimo della tensione d’ingresso del trasformatore di $\qty{230}{\volt}$. Dalla tensione di picco possiamo quindi aggiungere la metà della tensione per tenere conto del margine di sicurezza.
 
 [question:AD303]
 
-Für die Lösung der folgenden Aufgabe müssen wir erkennen, dass der Spitzenwert der negativen Halbwelle und die Kondensatorspannung sich addieren und die Diode in Sperrrichtung belasten. Dies ist die höchste Spannung, die an der Diode in Sperrrichtung auftreten kann.
+Per risolvere il seguente compito, dobbiamo riconoscere che il valore di picco della semionda negativa e la tensione del condensatore si sommano e caricano il diodo in direzione di blocco. Questa è la tensione più alta che può verificarsi sul diodo in direzione di blocco.
 
-Wir rechnen: $U_{\mathrm{sperr}} = 2 \cdot \hat{u}$
-Zu berücksichtigen sind dann noch das Übersetzungsverhältnis $5 : 1$  des Netztransformators und der Sicherheitsaufschlag von $\qty{20}{\percent}$.
+Calcoliamo: $U_{\mathrm{sperr}} = 2 \cdot \hat{u}$
+Dobbiamo quindi considerare il rapporto di trasformazione $5 : 1$ del trasformatore di rete e il margine di sicurezza del $\qty{20}{\percent}$.
 
 [question:AD304]
 
-%TODO Simulation einbauen: https://tinyurl.com/22m65xlw
+%TODO Inserire simulazione: https://tinyurl.com/22m65xlw

@@ -1,17 +1,17 @@
 <margin>
-[photo:58:n_klubstationen_klubstation:Die Klubstation DL0AO des DARC-Ortsverbands Amberg]
+[photo:58:n_klubstationen_klubstation:La stazione del club DL0AO dell'associazione locale DARC di Amberg]
 </margin>
 
 ---
 
-In der Regel wird eine Amateurfunkstation nur von einer Person betrieben. Manche Funkamateure betreiben aber auch gemeinsam eine Station, die dann als Klubstation bezeichnet wird. Neben den personengebundenem Rufzeichen gibt es für solche Gruppen von mindestens drei Funkamateuren spezielle Rufzeichen zur gemeinschaftlichen Nutzung an einer Klubstation (siehe Tabelle [ref:n_klubstation_rufzeichen]).
+Di norma, una stazione radioamatoriale è gestita da una sola persona. Tuttavia, alcuni radioamatori gestiscono una stazione insieme, che viene quindi definita stazione del club. Oltre ai nominativi personali, esistono nominativi speciali per tali gruppi di almeno tre radioamatori per l'uso comune in una stazione del club (vedi tabella [ref:n_klubstation_rufzeichen]).
 
 [question:VD117]
 
 ---
 
 <margin>
-| l: Rufzeichen | l: | l: | X: Klasse |
+| l: Nominativo | l: | l: | X: Classe |
 | DAØAA | - | DAØZZZ | A |
 | DAØA | - | DA3Z | A |
 | DBØA | - | DD9Z | A |
@@ -25,47 +25,47 @@ In der Regel wird eine Amateurfunkstation nur von einer Person betrieben. Manche
 | DOØA | - | DO9Z | E |
 | DP3A | - | DP9Z | A |
 | DQØA | - | DR9Z | A |
-[table:n_klubstation_rufzeichen:Rufzeichen für Klubstationen]
+[table:n_klubstation_rufzeichen:Nominativi per stazioni del club]
 </margin>
 
-Die folgenden Fragen können wieder mit Hilfe des [Rufzeichenplans](https://50ohm.de/rzp) beantwortet werden:
+Le seguenti domande possono essere nuovamente risposte con l'aiuto del [Piano dei Nominativi](https://50ohm.de/rzp):
 
 [question:BD101]
 [question:BD103]
 
-Um ein Rufzeichen für eine Klubstation zu beantragen, muss die Gruppe eine Person als Stationsverantwortlichen benennen, die selber Funkamateur mit Zulassung zur Teilnahme am Amateurfunkdienst ist. Der Stationsverantwortliche wird Inhaber des Rufzeichens, das auf fünf Jahre befristet zugeteilt wird. Eine Verlängerung muss rechtzeitig beantragt werden. Das Rufzeichen für die Klubstation darf erst verwendet werden, wenn die Zuteilung erfolgt ist.
+Per richiedere un nominativo per una stazione del club, il gruppo deve designare una persona come responsabile della stazione, che sia essa stessa un radioamatore autorizzato a partecipare al servizio radioamatoriale. Il responsabile della stazione diventa il titolare del nominativo, che viene assegnato per un periodo di cinque anni. Un rinnovo deve essere richiesto tempestivamente. Il nominativo per la stazione del club può essere utilizzato solo dopo che è stato concesso.
 
 [question:VD401]
 [question:VD402]
 [question:VD403]
 
-Eine Klubstation darf von jedem Funkamateur genutzt werden, der über eine Zulassung zur Teilnahme am Amateurfunkdienst verfügt. Die Benutzung ist auch nicht auf Mitglieder der Gruppe beschränkt.
+Una stazione del club può essere utilizzata da qualsiasi radioamatore autorizzato a partecipare al servizio radioamatoriale. L'uso non è limitato ai membri del gruppo.
 
 [question:VD404]
 [question:VD405]
 
 ---
 
-Ein Funkamateur mit der Zeugnisklasse N oder E darf auch an einer Klubstation der Klasse A Funkbetrieb machen, jedoch nur im Rahmen seiner Berechtigung. Umgekehrt darf ein Funkamateur mit Zeugnisklasse A an einer Klubstation der Klasse E oder N nur die jeweils für die Klasse E bzw. N zugelassenen Leistungen und Bänder verwenden. Das gleiche gilt entsprechend für alle anderen Kombinationen, so wie in der Tabelle [ref:n_klubstation_unterschiedliche_klassen] dargestellt.
+Un radioamatore con certificato di classe N o E può operare anche in una stazione del club di classe A, ma solo nei limiti della sua autorizzazione. Viceversa, un radioamatore con certificato di classe A può utilizzare in una stazione del club di classe E o N solo le potenze e le bande consentite rispettivamente per la classe E o N. Lo stesso vale di conseguenza per tutte le altre combinazioni, come mostrato nella tabella [ref:n_klubstation_unterschiedliche_klassen].
 
 <webmargin>
-| X: | c: Station N | c: Station E | c: Station A |
-| Funkamateur N | N | N | N |
-| Funkamateur E | N | E | E |
-| Funkamateur A | N | E | A |
-[table:n_klubstation_unterschiedliche_klassen:Darstellung, im Rahmen welcher Klasse Funkbetrieb durchgeführt werden darf, wenn sich Klasse des Funkamateurs und Klasse der Klubstation unterscheiden]
+| X: | c: Stazione N | c: Stazione E | c: Stazione A |
+| Radioamatore N | N | N | N |
+| Radioamatore E | N | E | E |
+| Radioamatore A | N | E | A |
+[table:n_klubstation_unterschiedliche_klassen:Rappresentazione entro quale classe è consentito operare, se la classe del radioamatore e la classe della stazione del club differiscono]
 </webmargin>
 
-Hier zwei Beispiele anhand des $\qty{40}{\meter}$-Bands, das nur Inhaber einer Amateurfunkzulassung der Klasse A nutzen dürfen:
-* Der Funkamateur der Klasse E darf die Klubstation der Klasse A nutzen, aber nicht das $\qty{40}{\meter}$-Band, da dieses für die Klasse E nicht freigegeben ist.
-* Der Funkamateur der Klasse A darf die Klubstation der Klasse E nutzen, aber dort nicht das $\qty{40}{\meter}$-Band, da dieses, wie bereits erwähnt, nicht für die Klasse E zugelassen ist.
+Ecco due esempi basati sulla banda dei $\qty{40}{\meter}$, che solo i titolari di un'autorizzazione radioamatoriale di classe A possono utilizzare:
+* Il radioamatore di classe E può utilizzare la stazione del club di classe A, ma non la banda dei $\qty{40}{\meter}$, poiché questa non è consentita per la classe E.
+* Il radioamatore di classe A può utilizzare la stazione del club di classe E, ma non la banda dei $\qty{40}{\meter}$ lì, poiché, come già accennato, non è consentita per la classe E.
 
-Zusammenfassend gesagt: Die niedrigste Klasse gibt die maximale Berechtigung vor.
+In sintesi: la classe più bassa determina la massima autorizzazione.
 
 [question:VD406]
 [question:VD407]
 
-Bei Veranstaltungen oder ähnlichem kann eine Klubstation auch kurzzeitig an anderen Standorten betrieben werden. Eine Meldung an die BNetzA ist bei einer *kurzzeitigen* Änderung des Standortes nicht erforderlich.
+In occasione di eventi o simili, una stazione del club può essere gestita anche temporaneamente in altre località. Non è necessaria una comunicazione alla BNetzA per una modifica *temporanea* della località.
 
 [question:VD408]
 

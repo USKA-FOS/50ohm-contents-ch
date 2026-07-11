@@ -1,11 +1,11 @@
-Bei der Leistungsanpassung muss die Lastimpedanz genauso groß sein wie die Ausgangsimpedanz der Signalquelle.
+Nell'adattamento di potenza, l'impedenza di carico deve essere uguale all'impedenza di uscita della sorgente del segnale.
 
-Es gilt:
+Vale:
 
 $Z_\mathrm{L} = Z_\mathrm{i}$
 
-Die Signalquelle besitzt eine Ausgangsimpedanz von $\qty{50}{\ohm}$, daher muss auch die Lastimpedanz den Wert
+La sorgente del segnale ha un'impedenza di uscita di $\qty{50}{\ohm}$, quindi anche l'impedenza di carico deve avere il valore
 
 $Z_\mathrm{L} = \qty{50}{\ohm}$
 
-haben.
+.

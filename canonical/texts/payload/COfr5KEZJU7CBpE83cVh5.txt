@@ -2,55 +2,55 @@
 [include:hamnet_map]
 </margin>
 
-Eine besondere Rolle im Amateurfunk nimmt das HAMNET ein – ein Netzwerk, das ausschließlich Funkamateuren vorbehalten ist. HAMNET (Highspeed Amateurradio Multimedia Network) ist ein von Funkamateuren entwickeltes und betriebenes IP-basiertes Netzwerk. In seiner Funktionsweise ähnelt es dem Internet, nutzt jedoch überwiegend Funkstrecken zur Datenübertragung.
+Un ruolo particolare nel radioamatore è svolto da HAMNET, una rete riservata esclusivamente ai radioamatori. HAMNET (Highspeed Amateurradio Multimedia Network) è una rete basata su IP sviluppata e gestita da radioamatori. Nella sua funzionalità, assomiglia a Internet, ma utilizza prevalentemente collegamenti radio per la trasmissione dei dati.
 
-Ursprünglich wurde HAMNET als schrittweiser Ersatz für das seit den 1980er-Jahren bestehende Packet-Radio-Netz konzipiert und hat dieses inzwischen nahezu vollständig abgelöst. Die schnellen Datenverbindungen zwischen den einzelnen Einstiegspunkten und Knoten werden hauptsächlich über die Mikrowellenbänder 6 cm, 9 cm und 13 cm realisiert. Für den Zugang zum HAMNET benötigt man freie Sicht zu einem HAMNET-Knoten mit Benutzerzugang sowie einen geeigneten WLAN-Transceiver mit Richtantenne.
+Originariamente, HAMNET è stato concepito come un sostituto graduale della rete Packet-Radio esistente dagli anni '80 e l'ha quasi completamente sostituita. I veloci collegamenti dati tra i singoli punti di accesso e i nodi sono realizzati principalmente tramite le bande delle microonde da 6 cm, 9 cm e 13 cm. Per accedere ad HAMNET è necessaria la visibilità libera verso un nodo HAMNET con accesso utente e un adatto trasmettitore-ricevitore WLAN con antenna direzionale.
 
 ---
 
 <margin>
-Der [*SWISS-ARTG*](https://www.swiss-artg.ch/index.php?id=9) bietet für ihre Mitglieder einen VPN-Zugang über die sogenannten [HAMCloud](https://www.swiss-artg.ch/index.php?id=37) an. Dies ermöglicht den Zugang zum HAMNET, auch wenn kein direkter Einstieg über Funk möglich ist.   
+Lo [*SWISS-ARTG*](https://www.swiss-artg.ch/index.php?id=9) offre ai suoi membri un accesso VPN tramite il cosiddetto [HAMCloud](https://www.swiss-artg.ch/index.php?id=37). Ciò consente l'accesso ad HAMNET anche quando non è possibile un accesso diretto via radio.   
 
-[Jetzt Mitglied der USKA werden!](https://uska.ch/wieso-uska-mitglied-werden/)
+[Diventa subito membro USKA!](https://uska.ch/wieso-uska-mitglied-werden/)
 </margin>
 
-Nutzen kann man das Hamnet genauso wie das Internet, im einfachsten Fall mit einem Webbrowser. Das ist möglich, weil das sogenannte Internet-Protokoll (IP) und alles, was darauf aufbaut, auch für andere Zwecke als für das Internet verwendet werden kann.
+Si può utilizzare Hamnet proprio come Internet, nel caso più semplice con un browser web. Ciò è possibile perché il cosiddetto Internet Protocol (IP) e tutto ciò che si basa su di esso possono essere utilizzati anche per scopi diversi da Internet.
 
 [question:EE414]
 
-Das Hamnet ist genau wie das Internet ein Verbund aus vielen einzelnen Netzwerken. Wenn sich zwei Teilnehmer nicht direkt erreichen können, dann werden die Datenpakete entsprechend über andere Knoten weitergeleitet.
+Hamnet, proprio come Internet, è un insieme di molte reti individuali. Se due partecipanti non possono raggiungersi direttamente, i pacchetti di dati vengono inoltrati tramite altri nodi.
 
 [question:EE412]
 
-In so großen Gebilden schafft man dadurch Ordnung, dass alle Computer nummeriert sind. Die Nummern der Teilnehmern heißen IP-Adressen. Es existieren die Versionen IPv4 und IPv6. Für unser Hobby genügt es meistens, sich mit der einfacheren Version 4 zu befassen.
+In strutture così grandi, si crea ordine numerando tutti i computer. I numeri dei partecipanti si chiamano indirizzi IP. Esistono le versioni IPv4 e IPv6. Per il nostro hobby, di solito è sufficiente occuparsi della versione 4, più semplice.
 
-IPv4-Adressen sind Dualzahlen mit einer Länge von 32 Bit. Geschrieben werden vier Dezimalzahlen, von denen jede für 8 Bit steht, mit Punkten dazwischen. Die größtmögliche Zahl ist 255 entsprechend der Dualzahl 11111111.
+Gli indirizzi IPv4 sono numeri binari con una Lunghezza di 32 bit. Vengono scritti quattro numeri decimali, ciascuno dei quali rappresenta 8 bit, separati da punti. Il numero più grande possibile è 255, corrispondente al numero binario 11111111.
 
-Bei allen Computern, die sich im selben Netzwerk befinden, ist der Anfang der IP-Adressen gleich. Dieser Netzanteil hat eine variable Länge. Große Netzwerke brauchen viele der 32 Bits, um hinten im sogenannten Hostanteil ihre Computer zu nummerieren. Sie verwenden dafür einen kürzeren Netzanteil. Bei kleinen Netzwerken ist es genau umgekehrt. Dieses Prinzip kennt man vom Telefonnetz. Die größten Städte haben dreistellige Vorwahlen, zum Beispiel 089, und kleine Ortsnetze fünf- oder sechsstellige wie 038725.
+In tutti i computer che si trovano nella stessa Rete, l'inizio degli indirizzi IP è lo stesso. Questa parte di Rete ha una Lunghezza variabile. Le grandi reti necessitano di molti dei 32 bit per numerare i propri computer nella parte finale, detta parte host. Utilizzano per questo una parte di Rete più corta. Nelle piccole reti è esattamente il contrario. Questo principio è noto dalla rete telefonica. Le città più grandi hanno prefissi a tre cifre, ad esempio 089, e le piccole reti locali prefissi a cinque o sei cifre come 038725.
 
 ---
 
-Die Länge des Netzanteils gibt man am einfachsten mit einem Schrägstrich hinter der IP-Adresse an. 141.17.5.18/24 bedeutet zum Beispiel, dass der Netzanteil 24 Bit lang ist. Bei allen Rechnern im gleichen Netzwerk beginnt die Adresse mit 141.17.5. Zum Durchnummerieren aller Stationen bleiben nur 8 der 32 Bits übrig. Es handelt sich also um ein relativ kleines Netzwerk.
+La Lunghezza della parte di Rete viene indicata più semplicemente con una barra obliqua dopo l'indirizzo IP. Ad esempio, 141.17.5.18/24 significa che la parte di Rete è lunga 24 bit. Per tutti i computer nella stessa Rete, l'indirizzo inizia con 141.17.5. Per numerare tutte le stazioni rimangono solo 8 dei 32 bit. Si tratta quindi di una Rete relativamente piccola.
 
 <indepth>
-Manchmal werden Netzwerke einer sogenannten Klasse zugeordnet, obwohl dieses System schon lange abgeschafft wurde. Klasse A bedeutete /8, Klasse B /16 und Klasse C /24.
+Talvolta le reti vengono assegnate a una cosiddetta classe, sebbene questo sistema sia stato abolito da tempo. Classe A significava /8, Classe B /16 e Classe C /24.
 </indepth>
-%TODO Classless Inter-Domain Routing (CIDR) als Vertiefung hinzufügen.
+%TODO Aggiungere Classless Inter-Domain Routing (CIDR) come approfondimento.
 
 ---
 
-Die meisten Netzwerkgeräte verlangen eine andere Schreibweise, nämlich die Subnetzmaske (siehe Abbildung [ref:netzmaske]). Das sind 32 Bit in der gleichen Notation wie IP-Adressen. Bits, die für den Netzanteil stehen, werden mit einer 1 gekennzeichnet und Bits des Hostanteils mit einer 0. Die Netzmaske beginnt also mit so vielen Einsen, wie der Netzanteil lang ist. Der Rest wird mit Nullen aufgefüllt. Heimnetze und kleine Firmennetze verwenden fast immer die Netzmaske 255.255.255.0, die das Gleiche bedeutet wie /24.
+La maggior parte degli apparecchi di Rete richiede una diversa notazione, ovvero la maschera di sottorete (vedi figura [ref:netzmaske]). Si tratta di 32 bit nella stessa notazione degli indirizzi IP. I bit che rappresentano la parte di Rete sono contrassegnati con un 1 e i bit della parte host con uno 0. La maschera di Rete inizia quindi con tanti uno quante è lunga la parte di Rete. Il resto viene riempito con zeri. Le reti domestiche e le piccole reti aziendali utilizzano quasi sempre la maschera di Rete 255.255.255.0, che significa la stessa cosa di /24.
 
-Netzwerkgeräte können nur innerhalb ihres eigenen lokalen Netzwerks direkt miteinander kommunizieren. Das erkennen sie daran, dass sich aus ihrer eigenen IP-Adresse und Subnetzmaske derselbe Netzanteil ergibt wie beim Partner. In allen anderen Fällen schicken sie die Daten an einen Router. Das ist eine Zwischenstation, die zwei oder mehr Netzwerke miteinander verbindet. Wenn ein Gerät mit mehreren Netzwerken direkt verbunden ist, hat es in jedem eine eigene IP-Adresse.
+Gli apparecchi di Rete possono comunicare direttamente tra loro solo all'interno della propria Rete locale. Lo riconoscono dal fatto che dal proprio indirizzo IP e dalla maschera di sottorete risulta la stessa parte di Rete del partner. In tutti gli altri casi, inviano i dati a un router. Questa è una stazione intermedia che collega due o più reti. Se un apparecchio è collegato direttamente a più reti, ha un proprio indirizzo IP in ciascuna.
 
 <margin>
-[picture:699:netzmaske:IPv4-Adresse und Netzmaske in Dezimal- und Dualschreibweise]
+[picture:699:netzmaske:Indirizzo IPv4 e maschera di sottorete in notazione decimale e binaria]
 </margin>
 
 <margin>
-[picture:706:netzwerk:Ausschnitt aus einer Netzwerk-Infrastruktur]
+[picture:706:netzwerk:Estratto da un'infrastruttura di rete]
 </margin>
 
-Alle Teilnehmer eines Netzwerks sollen den Router quasi gleichzeitig nutzen können. Deshalb werden in IP-Netzen keine festen Leitungen geschaltet. Stattdessen teilen die Computer alle Datenströme in Pakete auf, also in kurze Abschnitte. Die Weiterleitung dieser einzelnen Pakete nennt man Paketvermittlung.
+Tutti i partecipanti di una Rete dovrebbero poter utilizzare il router quasi contemporaneamente. Per questo motivo, nelle reti IP non vengono stabilite linee fisse. Invece, i computer suddividono tutti i flussi di dati in pacchetti, cioè in brevi segmenti. L'inoltro di questi singoli pacchetti viene chiamato commutazione di pacchetto.
 
 [question:EE413]

@@ -1,22 +1,22 @@
-[picture:260:a_endgespeiste_antenne:Endgespeiste Antenne mit Impedanzanpassung druch einen Übertrager]
+[picture:260:a_endgespeiste_antenne:Antenna alimentata all'estremità con adattamento di impedenza tramite un trasformatore]
 
-Gegeben ist eine Anpassung von $\qty{50}{\ohm}$ auf $\qty{2500}{\ohm}$.
+Data un'impedenza di adattamento da $\qty{50}{\ohm}$ a $\qty{2500}{\ohm}$.
 
-Zunächst bestimmen wir das notwendige Impedanzverhältnis (Aus sicht der Antenne):
+Innanzitutto, determiniamo il rapporto di impedenza necessario (dal punto di vista dell'antenna):
 
 $ \frac{Z_P}{Z_S} = \frac{2500}{50} = 50$
 
-Der Übertrager muss also ein Impedanzverhältnis von etwa $1:50$ realisieren.
+Il trasformatore deve quindi realizzare un rapporto di impedenza di circa $1:50$.
 
-Für Transformatoren gilt:
-Das Impedanzverhältnis ist das Quadrat des Windungsverhältnisses:
+Per i trasformatori vale:
+Il rapporto di impedenza è il quadrato del rapporto di spire:
 
 $\left(\frac{N_2}{N_1}\right)^2 = 50$
 
-Daraus folgt für das Windungsverhältnis:
+Da ciò si ottiene per il rapporto di spire:
 
 $\frac{N_2}{N_1} = \sqrt{50} \approx 7$
 
-Gesucht ist also näherungsweise ein Windungsverhältnis von:
+Si cerca quindi approssimativamente un rapporto di spire di:
 
 $1:7$

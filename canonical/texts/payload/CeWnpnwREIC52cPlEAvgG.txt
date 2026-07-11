@@ -1,41 +1,41 @@
-%YPA: Mich stört, dass es zu dem Bild keine zusätzlichen Infos gibt. Bsp: was die einzelnen "Spalten" zeigen, keine Markierung des Funkwellenbereichs.
+%YPA: Mi disturba il fatto che non ci siano informazioni aggiuntive per l'immagine. Ad es. cosa mostrano le singole "colonne", nessuna marcatura della banda delle onde radio.
 <margin>
-[picture:847:n_frequenzspektrum:Spektrum der elektromagnetischen Wellen]
+[picture:847:n_frequenzspektrum:Spettro delle onde elettromagnetiche]
 </margin>
   
 ---
 
-Der Frequenzbereich elektromagnetischer Wellen ist sehr groß (Abbildung [ref:n_frequenzspektrum]). Für Funkwellen wird nur ein Teil dieses Spektrums [index:Spektrum] genutzt, üblicherweise der Frequenzbereich zwischen $\qty{30}{\kilo\hertz}$ und $\qty{300}{\giga\hertz}$. In der Tabelle [ref:n_frequenzspektrum_bereiche] ist zu sehen, welche Frequenzen welchen Bereichen zugeordnet sind. Den Frequenzbereichen [index:Spektrum:Frequenzbereiche] werden Abkürzungen zugeordnet. 
+La banda di frequenza delle onde elettromagnetiche è molto ampia (figura [ref:n_frequenzspektrum]). Per le onde radio viene utilizzata solo una parte di questo spettro [index:Spektrum], solitamente la banda di frequenza tra $\qty{30}{\kilo\hertz}$ e $\qty{300}{\giga\hertz}$. Nella tabella [ref:n_frequenzspektrum_bereiche] si può vedere quali frequenze sono assegnate a quali bande. Alle bande di frequenza [index:Spektrum:Frequenzbereiche] vengono assegnate delle abbreviazioni.
 
-%YPA Der effektiven Liste anpassen. Hinweis: In DL gehört der folgende Satz noch zur vorhergehenden Zeile.
-Für die Prüfung müssen die Frequenzbereiche von $\qty{3}{\mega\hertz}$ bis $\qty{3000}{\mega\hertz}$ den entsprechenden Begriffen zugeordnet werden können.
+%YPA Adattare alla lista effettiva. Nota: In DL la seguente frase appartiene ancora alla riga precedente.
+Per la verifica, le bande di frequenza da $\qty{3}{\mega\hertz}$ a $\qty{3000}{\mega\hertz}$ devono poter essere associate ai termini corrispondenti.
 
-%YPA: Liste anpassen. 
-%YPA: Ich hab mal ne Liste gesehen wo das SW gestrichen war. Find ich nicht gut, weil SWL (ShortwaveListener) verbreiteter Begriff ist. SKW könnte aber auch als "Vertiefung" gebracht werden.
+%YPA: Adattare la lista. 
+%YPA: Ho visto una lista dove SW era stato cancellato. Non mi piace, perché SWL (Shortwave Listener) è un termine diffuso. SKW potrebbe anche essere presentato come "approfondimento".
 <webmargin>
 | r: | c: | r: | X: | l: |
-| von | | bis | Bezeichnung | Abk. |
+| da | | a | Denominazione | Abr. |
 | $\qty{30}{\kilo\hertz}$ | - | $\qty{300}{\kilo\hertz}$ | Low Frequency | LF |
-| | | | (Langwelle) | (LW) |
+| | | | (Onda Lunga) | (LW) |
 | $\qty{300}{\kilo\hertz}$ | - | $\qty{3000}{\kilo\hertz}$ | Medium Frequency | MF |
-| | | | (Mittelwelle) | (MW) |
+| | | | (Onda Media) | (MW) |
 | $\qty{3}{\mega\hertz}$ | - | $\qty{30}{\mega\hertz}$ | *High Frequency* | *HF* |
 | | | | Short Wave | SW |
-| | | | (Kurzwelle) | (KW) |
+| | | | (Onda Corta) | (KW) |
 | $\qty{30}{\mega\hertz}$ | - | $\qty{300}{\mega\hertz}$ | *Very High Frequency* | *VHF* |
-| | | | (Ultrakurzwelle) | (UKW) |
+| | | | (Onda Ultracorta) | (UKW) |
 | $\qty{300}{\mega\hertz}$ | - | $\qty{3000}{\mega\hertz}$ | *Ultra High Frequency* | *UHF* |
-| | | | (Dezimeterwelle) | |
+| | | | (Onda Decimetrica) | |
 | $\qty{3}{\giga\hertz}$ | - | $\qty{30}{\giga\hertz}$ | Super High Frequency | SHF |
 | $\qty{30}{\giga\hertz}$ | - | $\qty{300}{\giga\hertz}$ | Extremely High Frequency | EHF |
-[table:n_frequenzspektrum_bereiche:Frequenzbereiche und ihre üblichen Bezeichnungen]
+[table:n_frequenzspektrum_bereiche:Bande di frequenza e le loro denominazioni comuni]
 </webmargin>
 
 [question:BC104]
 [question:BC105]
 [question:BC106]
 
-Für die folgenden Fragen muss man die sehr häufig genutzen Bänder, den jeweiligen Bereichen zuordnen können. Das $\qty{10}{\meter}$-Band gehört gerade noch zur Kurzwelle, $\qty{2}{\meter}$ liegt im VHF- und $\qty{70}{\centi\meter}$ liegt im UHF-Bereich.
+Per le seguenti domande, è necessario saper associare le bande più utilizzate alle rispettive categorie. La banda dei $\qty{10}{\meter}$ rientra ancora nelle onde corte, i $\qty{2}{\meter}$ si trovano nella gamma VHF e i $\qty{70}{\centi\meter}$ nella gamma UHF.
 
 [question:BC101]
 [question:BC102]

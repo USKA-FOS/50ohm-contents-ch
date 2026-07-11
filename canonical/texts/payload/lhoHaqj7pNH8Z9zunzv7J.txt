@@ -1,21 +1,21 @@
-Wir hatten bereits
+Avevamo già
 
 $\lambda = \dfrac{c_0}{f}$
 
-Doch wie kommt man zu
+Ma come si arriva a
 $c_0 = f \cdot \lambda$
-und
+e
 $f = \dfrac{c_0}{\lambda}$
 ?
 
 ---
-## Mathematischer Ansatz
+## Approccio matematico
 
-$\lambda = \dfrac{c_0}{f}$ soll nach $f$ umgestellt werden.
+Si deve riorganizzare $\lambda = \dfrac{c_0}{f}$ per $f$.
 
 ---
-#### 1. Schritt
-Multiplikation auf beiden Seiten mit $f$, um es nach links zu bekommen.
+#### 1. Passaggio
+Moltiplicare entrambi i lati per $f$ per portarlo a sinistra.
 
 <fragment>
 $\lambda = \dfrac{c_0}{f} \quad\quad\quad | \cdot f$
@@ -24,18 +24,18 @@ $\lambda = \dfrac{c_0}{f} \quad\quad\quad | \cdot f$
 $\lambda\cdot f = \dfrac{c_0 \cdot f}{f}$
 </fragment>
 <fragment>
-Nach Kürzen
+Dopo la semplificazione
 $\lambda \cdot f = c_0$
 </fragment>
 
 <note>
-* $|~\cdot f$ bedeutet, die Operation wird auf beiden Seiten durchgeführt
-* $f$ geteilt durch $f$ ergibt 1, weshalb gekürzt werden darf
+* $|~\cdot f$ significa che l'operazione viene eseguita su entrambi i lati
+* $f$ diviso per $f$ dà 1, motivo per cui è possibile semplificare
 </note>
 
 ---
-#### 2. Schritt
-Dividieren auf beiden Seiten mit $\lambda$, um es nach rechts zu bekommen.
+#### 2. Passaggio
+Dividere entrambi i lati per $\lambda$ per portarlo a destra.
 
 <fragment>
 $\lambda \cdot f = c_0 \quad\quad\quad |: \lambda$

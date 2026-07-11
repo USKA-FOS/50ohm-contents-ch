@@ -1,10 +1,10 @@
 <left>
-[picture:946:Vollwegleichrichter D1 D2:Vollweggleichrichtung mit zwei Dioden]
-Transformator mit Mittelanzapfung und zwei Dioden
+[picture:946:Vollweggleichrichter D1 D2:Raddrizzatore a onda intera con due diodi]
+Trasformatore con presa centrale e due diodi
 </left>
 <right>
-* Positive Halbwelle an oberer Wicklung gegenüber Mittelanzapfung $\rightarrow D_1$ leitet
-* An $D_2$ liegt zu diesem Zeitpunkt eine negative Halbwelle an $\rightarrow$ sperrt
+* Semionda positiva sulla bobina superiore rispetto alla presa centrale $\rightarrow D_1$ conduce
+* Su $D_2$ c'è in questo momento una semionda negativa $\rightarrow$ blocca
 </right>
 --- style="font-size: smaller;"
 [include:applet_gleichrichter_1]
@@ -12,18 +12,18 @@ Transformator mit Mittelanzapfung und zwei Dioden
 ---
 [question:AD307]
 ---
-### Negative Ausgangsspannung
+### Tensione d’uscita negativa
 
-* Anoden sind an den Ausgang angeschlossen
-* Gleichspannung wird gegenüber der Mittelanzapfung negativ
-* Halbwellen befinden sich unterhalb der Nulllinie
+* Gli anodi sono collegati all’uscita
+* La tensione continua è negativa rispetto alla presa centrale
+* Le semionde si trovano sotto la linea dello zero
 
 ---
 [question:AD308]
 ---
-### Grundfrequenz
+### Frequenza fondamentale
 
-Nach der Gleichrichtung existiert eine pulsierende Gleichspannung mit doppelter Frequenz zur Eingangsspannung.
+Dopo la rettificazione, esiste una tensione continua pulsante con una frequenza doppia rispetto alla tensione d’ingresso.
 
 ---
 [question:AD310]

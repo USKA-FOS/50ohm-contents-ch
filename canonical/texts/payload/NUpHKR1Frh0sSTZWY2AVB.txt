@@ -1,33 +1,33 @@
-## Der Prozess des Samplings
+## Il processo di campionamento
 
-* Analoge Signale werden in diskrete Samples umgewandelt  
-* Sampling: Abtastung eines kontinuierlichen Signals in festgelegten Zeitabständen  
-* Vergleichbar mit einer Kamera, die in regelmäßigen Intervallen Bilder aufnimmt
-
----
-
-### Sampling – Das Kamerabeispiel
-
-* Eine Kamera nimmt z. B. $\num{24}$ Bilder pro Sekunde auf
-* Zwischen den Bildern können schnelle Bewegungen auftreten, die nicht erfasst werden  
-* Wie bei der Kamera kann ein plötzliches Ereignis (z. B. eine Fliege) zwischen zwei Aufnahmen verloren gehen  
-* Dadurch entsteht ein Verlust an zeitlicher Information
+* I segnali analogici vengono convertiti in campioni discreti
+* Campionamento: campionamento di un segnale continuo a intervalli di tempo fissi
+* Paragonabile a una fotocamera che scatta immagini a intervalli regolari
 
 ---
 
-### Informationsverlust und Rekonstruktionsgrenze
+### Campionamento – L'esempio della fotocamera
 
-* Zwischen den Samples können schnelle Signaländerungen unentdeckt bleiben  
-* Für eine fehlerfreie Rekonstruktion muss vor und nach jedem Signalwechsel ein Sample vorliegen  
-* Ist dies nicht der Fall, gehen Details verloren – Aliasing tritt auf
+* Una fotocamera scatta, ad esempio, 24 immagini al secondo
+* Tra un'immagine e l'altra possono verificarsi movimenti rapidi che non vengono catturati
+* Come con la fotocamera, un evento improvviso (ad es. una mosca) può andare perso tra due scatti
+* Ciò comporta una perdita di informazioni temporali
 
 ---
 
-## Das Nyquist-Shannon-Abtasttheorem
+### Perdita di informazioni e limite di ricostruzione
 
-* Für ein Signal mit maximaler Frequenz $f_{\mathrm{max}}$ muss die Abtastrate $\gt 2 \cdot f_{\mathrm{max}}$ betragen
-* Nur so können alle Signalwechsel korrekt erfasst und rekonstruiert werden  
-* Wird diese Grenze unterschritten, entstehen Alias-Effekte
+* Tra i campioni, rapidi cambiamenti del segnale possono rimanere inosservati
+* Per una ricostruzione priva di errori, deve essere presente un campione prima e dopo ogni cambio di segnale
+* Se ciò non avviene, i dettagli vengono persi – si verifica l'aliasing
+
+---
+
+## Il teorema di campionamento di Nyquist-Shannon
+
+* Per un segnale con frequenza massima $f_{\mathrm{max}}$, la frequenza di campionamento deve essere $\gt 2 \cdot f_{\mathrm{max}}$
+* Solo così tutti i cambiamenti del segnale possono essere catturati e ricostruiti correttamente
+* Se questo limite viene violato, si verificano effetti alias
 
 ---
 
@@ -35,12 +35,12 @@
 
 ---
 
-### Praktisches Beispiel: CD-Player
+### Esempio pratico: lettore CD
 
-* CD-Player arbeiten typischerweise mit $\qty{44,1}{\kilo\sps}$ ($\num{44100}$ Samples pro Sekunde)
-* Daraus folgt: Frequenzen bis ca. $\qty{22}{\kilo\hertz}$ können korrekt abgebildet werden
-* Dies entspricht dem HiFi-Frequenzbereich guter Stereoanlagen  
-* Merke: Die Abtastfrequenz sollte stets knapp über dem Doppelten der maximal zu verarbeitenden Frequenz liegen
+* I lettori CD operano tipicamente con 44,1 kSps (44100 campioni al secondo)
+* Ne consegue che le frequenze fino a circa 22 kHz possono essere rappresentate correttamente
+* Ciò corrisponde alla gamma di frequenza Hi-Fi dei buoni impianti stereo
+* Ricorda: la frequenza di campionamento dovrebbe essere sempre leggermente superiore al doppio della frequenza massima da elaborare
 
 ---
 

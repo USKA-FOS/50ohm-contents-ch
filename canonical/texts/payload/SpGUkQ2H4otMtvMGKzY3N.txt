@@ -1,34 +1,34 @@
---- data-transition="none"
-## Von der Diode zum Transistor
+---
+## Dalla diodo al transistor
 <left>
-Die Funktion kann man sich so vorstellen:
-* Mittels eines Steuerkanals wird der Durchfluss eines Wehrs geregelt
-* Fließt kein Wasser im Steuerkanal ist das Wehr geschlossen
+La funzione può essere immaginata così:
+* Tramite un canale di controllo si regola il flusso di una diga
+* Se non scorre acqua nel canale di controllo, la diga è chiusa
 </left>
 <right>
-[picture:835:e_transistor_wehr_geschlossen:Steuerkanal schließt Wehr komplett]
+[picture:835:e_transistor_wehr_geschlossen:Canale di controllo chiude completamente la diga]
 </right>
 
---- data-transition="none"
+---
 
-## Von der Diode zum Transistor
+## Dalla diodo al transistor
 <left>
-Die Funktion kann man sich so vorstellen:
-* Fließt etwas Wasser im Steuerkanal, öffnet das Wehr zur Hälfte
+La funzione può essere immaginata così:
+* Se scorre un po' d'acqua nel canale di controllo, la diga si apre a metà
 </left>
 <right>
-[picture:837:e_transistor_wehr_halb_offen:Steuerkanal öffnet Wehr halb]
+[picture:837:e_transistor_wehr_halb_offen:Canale di controllo apre la diga a metà]
 </right>
 
---- data-transition="none"
+---
 
-## Von der Diode zum Transistor
+## Dalla diodo al transistor
 <left>
-Die Funktion kann man sich so vorstellen:
-* Fließt mehr Wasser im Steuerkanal, ist das Wehr ganz geöffnet
+La funzione può essere immaginata così:
+* Se scorre più acqua nel canale di controllo, la diga è completamente aperta
 </left>
 <right>
-[picture:836:e_transistor_wehr_geoeffnet:Steuerkanal öffnet Wehr komplett]
+[picture:836:e_transistor_wehr_geoeffnet:Canale di controllo apre completamente la diga]
 </right>
 
 ---
@@ -41,14 +41,14 @@ Die Funktion kann man sich so vorstellen:
 
 ---
 
-### Bipolarer Transistor und Schaltbild
+### Transistor bipolare e schema circuitale
 
 <left>
-Merksatz für PNP $\rightarrow$ Pfeil Nach Platte
+Regola mnemonica per PNP $\rightarrow$ Pfeil Nach Platte (Freccia verso la piastra)
 </left>
 <right>
-[picture:374:e_schaltbild_npn_transistor:Schaltbild NPN-Transistor]
-[picture:375:e_schaltbild_pnp_transistor:Schaltbild PNP-Transistor]
+[picture:374:e_schaltbild_npn_transistor:Schema NPN transistor]
+[picture:375:e_schaltbild_pnp_transistor:Schema PNP transistor]
 </right>
 
 ---
@@ -69,9 +69,9 @@ Merksatz für PNP $\rightarrow$ Pfeil Nach Platte
 
 ---
 
-### Schalter oder Verstärker?
-* Die Ansteuerung kann so eingestellt werden, dass der Transistor sperrt oder voll durchsteuert, dann spricht man von einem Schalttransistor.
-* Die Ansteuerung kann so eingestellt werden, dass der Transistor stufenlos gesteuert wird, dann spricht man von einem Verstärker.
+### Interruttore o amplificatore?
+* L'azionamento può essere impostato in modo che il transistor blocchi o conduca completamente, allora si parla di un transistor di commutazione.
+* L'azionamento può essere impostato in modo che il transistor venga controllato in modo continuo, allora si parla di un amplificatore.
 
 ---
 
@@ -82,13 +82,13 @@ Merksatz für PNP $\rightarrow$ Pfeil Nach Platte
 
 ---
 
-## Ansteuerspannung und deren Polarität
-Je Art des bipolaren Transistor hat man verschiedene Polaritäten.
+## Tensione di pilotaggio e sua polarità
+A seconda del tipo di transistor bipolare si hanno polarità diverse.
 
-* Bei einem NPN-Transistor benötigt man zum Durchschalten eine positive Steuerspannung.
-* Bei einem PNP-Transistor benötigt man zum Durchschalten eine negative Steuerspannung.
+* Per un transistor NPN è necessaria una tensione di pilotaggio positiva per la conduzione.
+* Per un transistor PNP è necessaria una tensione di pilotaggio negativa per la conduzione.
 
-Die Steuerspannung liegt wie bei einer Siliziumdiode bei etwa $\qty{0,6}{\volt}$.
+La tensione di pilotaggio è di circa $\qty{0,6}{\volt}$, come per una diodo al silicio.
 
 ---
 
@@ -96,7 +96,7 @@ Die Steuerspannung liegt wie bei einer Siliziumdiode bei etwa $\qty{0,6}{\volt}$
 
 ---
 
-Da neben dem Kollektorstrom auch der Basisstrom durch den Transistor fließt, fließt durch den Emitteranschluss der größte Strom.
+Poiché oltre alla corrente di collettore scorre anche la corrente di base attraverso il transistor, la corrente più grande scorre attraverso il terminale dell'emettitore.
 
 ---
 
@@ -104,16 +104,16 @@ Da neben dem Kollektorstrom auch der Basisstrom durch den Transistor fließt, fl
 
 --- style="font-size: smaller;"
 
-###  Wann schaltet der NPN Transistor durch?
-Ist die Basis-Emitter-Spannung ausreichend und liegt sie im positiven Potential vor?
-Hier muss man auf die Vorzeichen achten und bei negativen Vorzeichen umdenken, Beispiele:
+### Quando conduce il transistor NPN?
+La tensione base-emettitore è sufficiente ed è di potenziale positivo?
+Qui bisogna prestare attenzione ai segni e, in caso di segni negativi, ripensare, esempi:
 
-* Basis $\qty{+2}{\volt}$ und Emitter $\qty{+1,4}{\volt} \rightarrow$ Die Basis-Emitter-Spannung ist positiv und beträgt $\qty{+0,6}{\volt}$
-* Basis $\qty{-5,6}{\volt}$ und Emitter $\qty{-6,2}{\volt} \rightarrow$ Die Basis-Emitter-Spannung ist positiv und beträgt $\qty{+0,6}{\volt}$
+* Base $\qty{+2}{\volt}$ ed Emettitore $\qty{+1,4}{\volt} \rightarrow$ La tensione base-emettitore è positiva e ammonta a $\qty{+0,6}{\volt}$
+* Base $\qty{-5,6}{\volt}$ ed Emettitore $\qty{-6,2}{\volt} \rightarrow$ La tensione base-emettitore è positiva e ammonta a $\qty{+0,6}{\volt}$
 
 ---
 
-Entweder erkennt man das intuitiv oder man rechnet es (unter Beachtung der Vorzeichen) aus.
+O si riconosce intuitivamente o si calcola (tenendo conto dei segni).
 
 $U_{ BE } = U_{ B } - U_{ E }$
 
@@ -127,16 +127,16 @@ $U_{ BE } = U_{ B } - U_{ E }$
 
 --- style="font-size: smaller;"
 
-### Wann schaltet der PNP Transistor durch?
-Ist die Basis-Emitter-Spannung ausreichend und liegt sie im negativen Potential vor?
-Hier muss man auf die Vorzeichen achten und bei negativen Vorzeichen umdenken, Beispiele:
+### Quando conduce il transistor PNP?
+La tensione base-emettitore è sufficiente ed è di potenziale negativo?
+Qui bisogna prestare attenzione ai segni e, in caso di segni negativi, ripensare, esempi:
 
-* Basis $\qty{+5,6}{\volt}$ und Emitter $\qty{+6,2}{\volt} \rightarrow$ Die Basis-Emitter-Spannung ist negativ und beträgt $\qty{-0,6}{\volt}$
-* Basis $\qty{-2}{\volt}$ und Emitter $\qty{-1,4}{\volt} \rightarrow$ Die Basis-Emitter-Spannung ist negativ und beträgt $\qty{-0,6}{\volt}$
+* Base $\qty{+5,6}{\volt}$ ed Emettitore $\qty{+6,2}{\volt} \rightarrow$ La tensione base-emettitore è negativa e ammonta a $\qty{-0,6}{\volt}$
+* Base $\qty{-2}{\volt}$ ed Emettitore $\qty{-1,4}{\volt} \rightarrow$ La tensione base-emettitore è negativa e ammonta a $\qty{-0,6}{\volt}$
 
 ---
 
-Entweder erkennt man das intuitiv oder man rechnet es (unter Beachtung der Vorzeichen) aus.
+O si riconosce intuitivamente o si calcola (tenendo conto dei segni).
 
 $U_{ BE } = U_{ B } - U_{ E }$
 
@@ -150,8 +150,8 @@ $U_{ BE } = U_{ B } - U_{ E }$
 
 ---
 
-## Typen von Transistoren
-Die bisher behandelten Transistoren nennt man *Bipolare Transistoren*. Sie sind die Art der Transistoren, die in den 50er Jahren eine technische Revolution einläuteten und die Elektronenröhre ablösten. Im Gegensatz zu den stromgesteuerten Bipolartransistoren sind *Feldeffekttransistoren (FET)* spannungsgesteuert, es fließt also kein Steuerstrom in ihn hinein. Mit diesen werden wir uns im Klasse A Kurs intensiver auseinandersetzen.
+## Tipi di transistor
+I transistor finora trattati sono chiamati *transistor bipolari*. Sono il tipo di transistor che negli anni '50 ha inaugurato una rivoluzione tecnica e ha sostituito la valvola termoionica. A differenza dei transistor bipolari a corrente controllata, i *transistor a effetto di campo (FET)* sono controllati in tensione, quindi nessuna corrente di pilotaggio scorre al loro interno. Ci occuperemo più intensamente di questi nel corso di Classe A.
 
 ---
 

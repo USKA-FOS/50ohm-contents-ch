@@ -1,15 +1,15 @@
-## Horizontaler Dipol im Freiraum
+## Dipolo orizzontale nello spazio libero
 
-* Ein horizontaler, mittengespeister Dipol hat ab ca. 1‑λ Aufbauhöhe über dem Erdboden den gleichen Speisewiderstand wie im Freiraum ($\qty{73,1}{\ohm}$).
+* Un dipolo orizzontale alimentato al centro ha, a partire da circa 1λ di altezza dal suolo, la stessa resistenza di alimentazione che nello spazio libero ($\qty{73,1}{\ohm}$). 
 
 ---
 [question:AG211]
 ---
-## Impedanzverhalten bei zu kurzen bzw. zu langen Antennen
+## Comportamento dell'impedenza per antenne troppo corte o troppo lunghe
 
-* Ist ein Halbwellendipol oder eine gegenüber Erde erregte λ/4‑Antenne zu kurz, wirkt sie kapazitiv (Strom eilt der Spannung voraus).  
-* Ist sie zu lang, erhält die Speiseimpedanz einen induktiven Anteil (Strom eilt der Spannung nach).  
-* Im Resonanzfall fallen Spannungs- und Strommaximum zusammen – es entsteht ein reiner Wirkwiderstand.
+* Se un dipolo a semionda o un'antenna λ/4 eccitata rispetto a terra è troppo corta, essa si comporta capacitivamente (la corrente precede la tensione).
+* Se è troppo lunga, l'impedenza di alimentazione acquisisce una componente induttiva (la corrente segue la tensione).
+* In caso di risonanza, il massimo di tensione e corrente coincidono – si crea una pura resistenza attiva.
 
 ---
 [question:AG209]

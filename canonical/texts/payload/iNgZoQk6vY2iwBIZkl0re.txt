@@ -1,37 +1,38 @@
-## Steuerkennlinien
+## Caratteristiche di controllo
 
 <left>
-[picture:804:mischer_linear_vs_nichtlinear:Linearer Widerstand und nichtlineare Diode]
-Steuerkennlinien können linear oder nicht-linear sein
+[picture:804:mischer_linear_vs_nichtlinear:Resistenza lineare e diodo non lineare]
+Le caratteristiche di controllo possono essere lineari o non lineari
 </left>
 <right>
-* Im linearen Bereich finden keine Verzerrungen statt
-* Mathematisches Verhalten wie bei Addition
+* Nella zona lineare non avvengono distorsioni
+* Comportamento matematico come per l'addizione
 </right>
 
 ---
-* Im nichtlinearen Bereich bewirkt die Steuerkennlinie die Verzerrung von einem Eingangssignal zu unterschiedlichen Änderungen am Ausgangssignal
-* Mathematischen Verhalten wie bei einer Multiplikation
-* Deshalb findet im nichtlinearen Bereich immer ein Mischprozess statt
-* Mischprodukte erzeugen immer zusätzliche Frequenzen im Ausgangssignal
+* Nella zona non lineare, la caratteristica di controllo provoca la distorsione di un segnale d'ingresso con diverse variazioni sul segnale d'uscita
+* Comportamento matematico come per la moltiplicazione
+* Pertanto, nella zona non lineare avviene sempre un processo di miscelazione
+* I prodotti di miscelazione generano sempre frequenze aggiuntive nel segnale d'uscita
 
 ---
 [question:AF212]
---- style="font-size: smaller;"
-## Ringmischer
+---
+style="font-size: smaller;"
+## Mixer ad anello
 
 <left>
-[picture:805:mischer_ringmischer:Balancemischer, Ringmischer oder auch Ringmodulator]
+[picture:805:mischer_ringmischer:Mixer bilanciato, mixer ad anello o anche modulatore ad anello]
 </left>
 <right>
-* Am Ausgang eines Mischers soll nur das Mischprodukt erscheinen
-* Unerwünschte Mischprodukte und die Eingangssignale sollen maximal unterdrückt werden
-* 4 Dioden in Ringschaltung
-* Oszillator an $U_2$ schaltet immer zwei Dioden aktiv
-* In dieser Zeit kann eine gleichförmige Welle von $U_1$ zum Ausgang gelangen
+* All'uscita di un mixer dovrebbe apparire solo il prodotto di miscelazione
+* I prodotti di miscelazione indesiderati e i segnali d'ingresso dovrebbero essere soppressi al massimo
+* 4 diodi in un circuito ad anello
+* L'oscillatore su $U_2$ commuta sempre due diodi attivi
+* In questo periodo, un'onda uniforme da $U_1$ può raggiungere l'uscita
 </right>
 <note>
-Nicht mit der Brückenschaltung verwechseln! 
+Non confondere con il circuito a ponte!
 </note>
 
 ---

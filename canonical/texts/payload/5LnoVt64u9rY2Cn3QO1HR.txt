@@ -1,7 +1,7 @@
-Kurze Wiederholung:
-* Elektrische Ladungen werden in Spannungesquellen getrennt, wodurch elektrische Spannung entsteht. Buchstabe $U$, Einheit Volt ($\unit{\volt}$).
-* Elektrische Spannung sorgt für elektrischen Stromfluss in geschlossenem Stromkreis. Buchstabe $I$, Einheit Ampere ($\unit{\ampere}$).
-* Verbraucher üben in einem Stromkreis einen Widerstand aus und bremsen den Stromfluß. Buchstabe $R$, Einheit Ohm ($\unit{\ohm}$).
+Breve riepilogo:
+* Le cariche elettriche vengono separate nelle sorgenti di tensione, creando una tensione elettrica. Lettera $U$, unità Volt ($\unit{\volt}$).
+* La tensione elettrica provoca il flusso di corrente elettrica in un circuito chiuso. Lettera $I$, unità Ampere ($\unit{\ampere}$).
+* I carichi esercitano una resistenza in un circuito e rallentano il flusso di corrente. Lettera $R$, unità Ohm ($\unit{\ohm}$).
 
 ---
 
@@ -9,49 +9,49 @@ Kurze Wiederholung:
 
 ---
 
-## Zusammenhang
+## Collegamento
 
 <left>
-[picture:664:n_ohmsches_gesetz_stromkreis_mit_batterie:Stromkreis mit Batterie]
+[picture:664:n_ohmsches_gesetz_stromkreis_mit_batterie:Circuito con batteria]
 </left>
 <right>
-* Spannung $\qty{10}{\volt}$
-* Strom $\qty{1}{\milli\ampere}$
+* Tensione $\qty{10}{\volt}$
+* Corrente $\qty{1}{\milli\ampere}$
 </right>
 
 ---
 
-* Bei $\qty{20}{\volt}$ erhöht sich der Strom auf $\qty{2}{\milli\ampere}$
-* Bei $\qty{5}{\volt}$ verringert sich der Strom auf $\qty{0,5}{\milli\ampere}$
+* A $\qty{20}{\volt}$ la corrente aumenta a $\qty{2}{\milli\ampere}$
+* A $\qty{5}{\volt}$ la corrente diminuisce a $\qty{0,5}{\milli\ampere}$
 
 <fragment>
 $\dfrac{U}{I} = \dfrac{\qty{10}{\volt}}{\qty{0,001}{\ampere}} = \dfrac{\qty{20}{\volt}}{\qty{0,002}{\ampere}} = \dfrac{\qty{5}{\volt}}{\qty{0,0005}{\ampere}} = \qty{10000}{\volt\per\ampere}$
 </fragment>
 <fragment>
-Proportionalität: $I$ ist proportional zu $U$ mit *Proportionalitätsfaktor* 10000
+Proporzionalità: $I$ è proporzionale a $U$ con un *fattore di proporzionalità* di 10000
 </fragment>
 <note>
-Der *Proportionalitätsfaktor* ist das zahlenmäßige Verhältnis zweier Größen, die proportional zueinander sind.
+Il *fattore di proporzionalità* è il rapporto numerico tra due grandezze che sono proporzionali tra loro.
 </note>
 
 ---
 
-## Widerstand
+## Resistenza
 
-* Der Proportionalitätsfaktor von 10000 aus dem Beispiel ist der Widerstand $R$
-* Einheit: $\qty{1}{\ohm} = \qty{1}{\volt\per\ampere}$
-* Der Widerstand aus dem Beispiel beträgt $\qty{10000}{\ohm}$ oder $\qty{10}{\kilo\ohm}$
+* Il fattore di proporzionalità di 10000 dall'esempio è la resistenza $R$
+* Unità: $\qty{1}{\ohm} = \qty{1}{\volt\per\ampere}$
+* La resistenza dell'esempio è $\qty{10000}{\ohm}$ o $\qty{10}{\kilo\ohm}$
 
 ---
 
-## Ohmsches Gesetz
+## Legge di Ohm
 
-Der Widerstand ist das *Verhältnis von Spannung und Strom*
+La resistenza è il *rapporto tra tensione e corrente*
 
 $ R = \dfrac{U}{I} $
 
 <note>
-Der deutsche Physiker *Georg Simon Ohm* hat im Jahre 1826 den Zusammenhang zwischen der elektrischer Spannung, dem elektrischem Strom und dem Widerstand entdeckt. Ihm zu Ehren wird die Formel $ R = \frac{U}{I} $ als Ohmsches Gesetz bezeichnet.
+Il fisico tedesco *Georg Simon Ohm* scoprì nel 1826 la relazione tra tensione elettrica, corrente elettrica e resistenza. In suo onore, la formula $ R = \frac{U}{I} $ è chiamata Legge di Ohm.
 </note>
 
 ---
@@ -60,22 +60,22 @@ Der deutsche Physiker *Georg Simon Ohm* hat im Jahre 1826 den Zusammenhang zwisc
 
 ---
 
-## Formelumstellung
+## Riorganizzazione delle formule
 
 <left>
-* Spannung und Widerstand bekannt
-* Strom unbekannt
+* Tensione e resistenza note
+* Corrente sconosciuta
 
 $ I = \dfrac{U}{R} $
 </left>
 <right>
-* Strom und Widerstand bekannt
-* Spannung unbekannt
+* Corrente e resistenza note
+* Tensione sconosciuta
 
 $ U = R\cdot I $
 </right>
 <note>
-* Formeln stehen in Formelsammlung
+* Le formule si trovano nella raccolta di formule
 </note>
 
 ---

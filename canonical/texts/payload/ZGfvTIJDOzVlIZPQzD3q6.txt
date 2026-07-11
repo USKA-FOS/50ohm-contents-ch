@@ -1,32 +1,32 @@
-Gesucht ist der Bereich des Eingangswiderstands der Schaltung. Der linke Widerstand mit $\qty{200}{\ohm}$ liegt immer in Reihe zur restlichen Schaltung.
+Si cerca il campo dell'impedenza di ingresso del circuito. La resistenza di sinistra con $\qty{200}{\ohm}$ è sempre in serie al resto del circuito.
 
-Nach diesem Widerstand teilt sich die Schaltung in zwei parallele Zweige auf:
+Dopo questa resistenza, il circuito si divide in due rami paralleli:
 
-* ein Zweig mit $\qty{100}{\ohm}$
-* ein Zweig mit $\qty{200}{\ohm} + R$
+* un ramo con $\qty{100}{\ohm}$
+* un ramo con $\qty{200}{\ohm} + R$
 
-Zunächst betrachten wir den kleinsten Wert. Dazu setzen wir:
+Consideriamo prima il valore più piccolo. Per fare ciò, impostiamo:
 
 $ R = \qty{0}{\ohm} $
 
-Dann liegt $\qty{100}{\ohm}$ parallel zu $\qty{200}{\ohm}$:
+Quindi $\qty{100}{\ohm}$ è in parallelo a $\qty{200}{\ohm}$:
 
 $ R_\mathrm{par} = \frac{\qty{100}{\ohm} \cdot \qty{200}{\ohm}}{\qty{100}{\ohm} + \qty{200}{\ohm}} \approx \qty{67}{\ohm} $
 
-Mit dem vorgeschalteten Widerstand ergibt sich:
+Con la resistenza collegata a monte, si ottiene:
 
 $ R_\mathrm{min} = \qty{200}{\ohm} + \qty{67}{\ohm} = \qty{267}{\ohm} $
 
-Nun betrachten wir den größten Wert. Dazu setzen wir:
+Ora consideriamo il valore più grande. Per fare ciò, impostiamo:
 
 $ R = \qty{1}{\kilo\ohm} $
 
-Dann liegt $\qty{100}{\ohm}$ parallel zu $\qty{200}{\ohm} + \qty{1}{\kilo\ohm}$, also parallel zu $\qty{1200}{\ohm}$:
+Quindi $\qty{100}{\ohm}$ è in parallelo a $\qty{200}{\ohm} + \qty{1}{\kilo\ohm}$, cioè in parallelo a $\qty{1200}{\ohm}$:
 
 $ R_\mathrm{par} = \frac{\qty{100}{\ohm} \cdot \qty{1200}{\ohm}}{\qty{100}{\ohm} + \qty{1200}{\ohm}} \approx \qty{92}{\ohm} $
 
-Mit dem vorgeschalteten Widerstand ergibt sich:
+Con la resistenza collegata a monte, si ottiene:
 
 $ R_\mathrm{max} = \qty{200}{\ohm} + \qty{92}{\ohm} = \qty{292}{\ohm} $
 
-Der Eingangswiderstand liegt also im Bereich von etwa $\qtyrange{267}{292}{\ohm}$.
+L'impedenza di ingresso si trova quindi nell'intervallo da circa $\qtyrange{267}{292}{\ohm}$.

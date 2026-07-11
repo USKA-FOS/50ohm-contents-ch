@@ -1,12 +1,12 @@
-# Gegeben
-Verstärkung: $g_\text{Verstärkung} = \qty{10}{\dezibel}$  
-Eingangsleitung: $P = \qty{1}{\watt}$ (Die Ausgangsleistung des Senders ist Eingangsleistung der Endstufe.)
+# Dati
+Amplificazione: $g_\text{amplificazione} = \qty{10}{\decibel}$  
+Potenza d’ingresso: $P = \qty{1}{\watt}$ (La potenza d’uscita del trasmettitore è la potenza d’ingresso dello stadio finale.)
 
-# Lösungsweg
-Wir berechnen den Eingangspegel mit der $\unit{\dBW}$-Formel aus der Formelsammlung (Pegel, Leistungs- und Spannungspegel):  
-$ p_\text{Eingang} = 10 \cdot \log_{10}\left(\frac{P}{\qty{1}{\watt}}\right)\unit{\dBW} = \qty{0}{\dBW}$  
-Der Ausgangspegel ergibt sich dann durch einfach Addition zu:
-$ p_\text{Ausgang} = p_\text{Eingang} + g_\text{Verstärkung} = \qty{0}{\dBW} + \qty{10}{\dB} = \qty{10}{\dBW}$
+# Svolgimento
+Calcoliamo il livello d’ingresso con la formula $\unit{dBW}$ dalla raccolta di formule (Livello, livelli di potenza e tensione):  
+$ p_\text{ingresso} = 10 \cdot \log_{10}\left(\frac{P}{\qty{1}{\watt}}\right)\unit{\dBW} = \qty{0}{\dBW}$  
+Il livello d’uscita si ottiene quindi per semplice addizione:
+$ p_\text{uscita} = p_\text{ingresso} + g_\text{amplificazione} = \qty{0}{\dBW} + \qty{10}{\dB} = \qty{10}{\dBW}$
 
-# Abkürzung
-Noch schneller kann die Aufgabe gelöst werden, wenn man weiß, dass $\log\left(1\right) = 0$ ist und somit $\qty{1}{\watt} \rightarrow \qty{0}{\dBW}$ entspricht. Damit entspricht der Ausgangspegel genau der Verstärkung von $\qty{10}{\dBW}$.
+# Abbreviazione
+Il problema può essere risolto ancora più velocemente se si sa che $\log\left(1\right) = 0$ e quindi $\qty{1}{\watt} \rightarrow \qty{0}{\dBW}$. Pertanto, il livello d’uscita corrisponde esattamente all’amplificazione di $\qty{10}{\dBW}$.

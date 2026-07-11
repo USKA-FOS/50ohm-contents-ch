@@ -1,32 +1,32 @@
-* Die Drähte einer Antennen können eine beliebige Länge oder Form haben
-* Jedoch ist dann deren Wellenwiderstand anders
-* Dieser Wellenwiderstand muss an die Speiseleitung angepasst werden, z.B. durch einen Balun
+* I fili di un'antenna possono avere qualsiasi lunghezza o forma
+* Tuttavia, la loro impedenza caratteristica sarà diversa
+* Questa impedenza caratteristica deve essere adattata alla linea di alimentazione, ad esempio tramite un balun
 
 ---
 [question:EG102]
 ---
 [question:EG109]
 ---
-### Lösungsweg
+### Percorso di soluzione
 
-Anstatt direkt die ungefähre Wellenlänge des $\qty{10}{\meter}$-Bands zu verwenden, wird hier erst die angegebene Frequenz in die exakte Wellenlänge umgerechnet.
+Invece di utilizzare direttamente la lunghezza d'onda approssimativa della banda dei $\qty{10}{\meter}$, qui la frequenza specificata viene prima convertita nella lunghezza d'onda esatta.
 
-$\begin{split} l &= \frac{5}{8}\lambda\\ &= \frac{5}{8} \cdot \frac{\qty{300}{\mega\meter\per\second}}{\qty{28,5}{\mega\hertz}}\\ &\approx \frac{5}{8} \cdot \qty{10,53}{\meter}\\ &\approx \qty{6,58}{\meter}\\ \end{split}$
+$\begin{split} l &= \frac{5}{8}\lambda\\ &= \frac{5}{8} \cdot \frac{\qty{300}{\meter\per\second}}{\qty{28,5}{\mega\hertz}}\\ &\approx \frac{5}{8} \cdot \qty{10,53}{\meter}\\ &\approx \qty{6,58}{\meter}\\ \end{split}$
 
 ---
 
-## Faltdipol
+## Dipolo ripiegato
 
 <left>
-* Ein Draht einer Wellenlänge wird an den Enden zur Länge eines Halbwellen-Dipols umgebogen
-* Die Einspeisung ist immer noch in der Mitte
+* Un filo di una lunghezza d'onda viene piegato alle estremità alla lunghezza di un dipolo a mezza onda
+* L'alimentazione è ancora al centro
 </left>
 <right>
-[picture:933:e_antenne_laenge_resonanz:Ein Faltdipol]
+[picture:933:e_antenne_laenge_resonanz:Un dipolo ripiegato]
 </right>
 <note>
-* Weniger Strom durch den Leiter, aber eine höhere Impedanz an der Einspeisung
-* Mehr dazu etwas später bei Fußpunktimpedanz
+* Meno corrente attraverso il conduttore, ma un'impedenza più alta all'alimentazione
+* Maggiori informazioni a riguardo più tardi sull'impedenza al punto di alimentazione
 </note>
 ---
 [question:EG110]

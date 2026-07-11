@@ -1,5 +1,5 @@
-In der Schaltung liegen zwei Siliziumdioden antiparallel zum Ausgang. Dadurch begrenzen sie die Ausgangsspannung in beiden Richtungen.
+Nel circuito, due diodi al silicio sono collegati in antiparallelo all'uscita. In questo modo, limitano la tensione d’uscita in entrambe le direzioni.
 
-Solange die Spannung kleiner als etwa $\qty{0,6}{\volt}$ bleibt, sperren beide Dioden und das Signal erscheint nahezu unverändert am Ausgang. Wird die Spannung jedoch größer als die Durchlassspannung einer Siliziumdiode, leitet jeweils eine der beiden Dioden und begrenzt die Spannung auf etwa $\pm\qty{0,6}{\volt}$.
+Finché la tensione rimane inferiore a circa $\qty{0,6}{\volt}$, entrambi i diodi sono bloccati e il segnale appare quasi invariato all'uscita. Tuttavia, se la tensione supera la tensione di conduzione di un diodo al silicio, uno dei due diodi conduce e limita la tensione a circa $\pm\qty{0,6}{\volt}$.
 
-Das Ausgangssignal wird daher oben und unten abgeschnitten wenn es größer als $\qty{0,6}{\volt}$ bzw. kleiner als $-\qty{0,6}{\volt}$ ist.
+Il segnale di uscita viene quindi tagliato sopra e sotto se è maggiore di $\qty{0,6}{\volt}$ o minore di $-\qty{0,6}{\volt}$.

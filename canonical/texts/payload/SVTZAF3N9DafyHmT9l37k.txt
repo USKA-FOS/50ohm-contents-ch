@@ -68,16 +68,17 @@
 			}
 		</style>
   <br>
-  <p><b>Zeit-/Frequenzdomäne</b></p>
-  <p>Im folgenden Applett kann man das ausprobieren: Mit den Frequenzreglern kann man die Amplitude der einzelnen Sinusschwingungen erhöhen. Mit dem Preset "Rechteck" kann man sehen, dass ein Rechteck aus vielen Sinusschwingungen besteht.</p>
+  <p><b>Dominio tempo/frequenza</b></p>
+  <p>Nel seguente applet è possibile provare questo: Con i controlli di frequenza è possibile aumentare l'ampiezza delle singole oscillazioni sinusoidali. Con il preset "Rettangolo" si può vedere che un rettangolo è composto da molte oscillazioni sinusoidali.</p>
 	  <div id="presets">
-	    Presets: 
+
+	    Preset: 
 	  </div>
 	  <div id="cameraPresets">
-	    Ansicht: 
+	    Vista: 
 	  </div>
 	  <div id="numberOfFreqs">
-	    Anzahl Frequenzen:
+	    Numero di frequenze:
 	    <input type="range" id="numOfFreqs" min=1 max=30 value=9>
 	  </div>
 	  <div>

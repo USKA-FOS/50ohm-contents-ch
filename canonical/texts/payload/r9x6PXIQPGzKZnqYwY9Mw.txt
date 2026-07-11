@@ -1,28 +1,28 @@
-* Eines der wichtigsten Schaltungen im Amateurfunk
-* Erzeugung von hochfrequenten Schwingungen in Sendern und Empfängern
-* Herz eines jeden Funkgeräts
+* Uno dei circuiti più importanti nel radioamatore
+* Generazione di oscillazioni ad alta frequenza nei trasmettitori e ricevitori
+* Cuore di ogni apparecchio radio
 
 ---
-### Schleifenverstärkung
+### Guadagno d'anello
 
-* Verstärkerelement, dessen Ausgangssignal wieder auf den Eingang rückgekoppelt wird
-* Gleichphasig
-* Amplitude mindestens gleich groß $\rightarrow$ *Schleifenverstärkung größer $1$*
-* Notwendig für Selbsterregung und hält die Schwingung aufrecht
+* Elemento amplificatore il cui segnale di uscita viene retroazionato all'ingresso
+* In fase
+* Ampiezza almeno uguale $\rightarrow$ *Guadagno d'anello maggiore di $1$*
+* Necessario per l'auto-eccitazione e mantiene l'oscillazione
 
 ---
 [question:AD613]
 ---
 <left>
-[picture:760:a_oszillator_schaltungen_oszillator:Schaltung eines kapazitiv rückgekoppelten Dreipunkt-Oszillators]
+[picture:760:a_oszillator_schaltungen_oszillator:Circuito di un oscillatore a tre punti con retroazione capacitiva]
 </left>
 <right>
-* Ausgangssignal wird vom Emitter über einen kapazitiven Spannungsteiler auf die Basis zurückgekoppelt
-* Frequenz wird durch Schwingkreis in der Basis und den parallel geschalteten kapazitiven Spannungsteiler bestimmt
-* Oszillator in Kollektorschaltung
+* Il segnale di uscita viene retroazionato dall'emettitore alla base tramite un partitore di tensione capacitivo
+* La frequenza è determinata dal circuito oscillante nella base e dal partitore di tensione capacitivo collegato in parallelo
+* Oscillatore in configurazione collettore
 </right>
 <note>
-Transistorschaltungen kommen etwas später im Kapitel
+I circuiti a transistor verranno trattati più avanti nel capitolo
 </note>
 
 ---
@@ -31,43 +31,43 @@ Transistorschaltungen kommen etwas später im Kapitel
 [question:AD616]
 ---
 <left>
-[picture:497:a_oszillator_schaltungen_quarzoszillator:Schaltung eines Quarzoszillators in Kollektorschaltung mit Betrieb des Quarzes auf Grundfrequenz]  
+[picture:497:a_oszillator_schaltungen_quarzoszillator:Circuito di un oscillatore a quarzo in configurazione collettore con funzionamento del quarzo sulla frequenza fondamentale]
 </left>
 <right>
-* Schwingkreis durch Quarz ersetzt
-* Quarz kann in Grundfrequenz oder auf Harmonische schwingen $\rightarrow$ Verstärker muss frequenzselektiv z.B. mit Schwingkreis dafür ausgelegt sein
+* Il circuito oscillante è sostituito da un quarzo
+* Il quarzo può oscillare sulla frequenza fondamentale o sulle armoniche $\rightarrow$ l'amplificatore deve essere progettato per essere selettivo in frequenza, ad esempio con un circuito oscillante
 </right>
 <note>
-Hier ist kein weiterer Schwingkreis vorhanden, also wird der Quarz in Grundfrequenz betrieben
+Qui non è presente un ulteriore circuito oscillante, quindi il quarzo viene utilizzato sulla frequenza fondamentale
 </note>
 
 ---
 [question:AD617]
 ---
-### Auskopplung des Signals
+### Estrazione del segnale
 
-* Immer am niederohmigsten Punkt eines Oszillators
-* Dadurch wird der Oszillator wenig belastet
-* Bei Kollektorschaltung am Emitter des Transistors
+* Sempre dal punto a più bassa impedenza di un oscillatore
+* In questo modo l'oscillatore viene poco caricato
+* Nella configurazione collettore, sull'emettitore del transistor
 
 ---
-### Pufferstufe
+### Stadio di buffer
 
-* Pufferstufe nachschalten
-* Entkoppelt den Oszillator von weiteren Schaltungsteilen
-* Frequenz wird nicht durch Belastung des Ausgangs beeinflusst
-* Pufferstufe ist oft eine Kollektorschaltung (als Emitterfolger) und hat eine hohe Eingangsimpedanz
+* Collegare uno stadio di buffer a valle
+* Disaccoppia l'oscillatore da ulteriori parti del circuito
+* La frequenza non viene influenzata dal carico dell'uscita
+* Lo stadio di buffer è spesso una configurazione collettore (come inseguitore di emettitore) e ha un'alta impedenza di ingresso
 
 ---
 [question:AD610]
 ---
 [question:AD615]
 ---
-### Messung
+### Misurazione
 
-* Eine Messung sollte nach der Pufferstufe durchgeführt werden
-* Andernfalls wird der Oszillator durch die parasitären Kapazitäten belastet
-* Frequenz wird dadurch beeinflusst
+* Una misurazione dovrebbe essere eseguita dopo lo stadio di buffer
+* Altrimenti l'oscillatore viene caricato dalle capacità parassite
+* La frequenza viene influenzata da ciò
 
 ---
 [question:AD619]

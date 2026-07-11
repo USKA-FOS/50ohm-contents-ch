@@ -1,13 +1,13 @@
-Das Transformationsverhältnis beträgt $5:1$. Dadurch ergibt sich aus der Netzspannung von $\qty{230}{\volt}$ eine Sekundärspannung von
+Il rapporto di trasformazione è 5:1. Pertanto, dalla tensione di rete di $\qty{230}{\volt}$ si ottiene una tensione secondaria di
 
 $ U_{\mathrm{eff}} = \frac{\qty{230}{\volt}}{5} = \qty{46}{\volt} $
 
-Für die Spannungsfestigkeit der Diode ist die doppelte maximale Spitzenspannung maßgeblich. Diese berechnet sich aus:
+Per la tenuta in tensione del diodo è determinante la doppia tensione di picco massima. Questa si calcola da:
 
 $ U_{\mathrm{Sperr}} = 2 \cdot \hat{U} = 2\cdot U_{\mathrm{eff}} \cdot \sqrt{2} = 2 \cdot \qty{46}{\volt} \cdot \sqrt{2} \approx \qty{130}{\volt} $
 
-Zusätzlich soll ein Sicherheitsaufschlag von $\qty{20}{\percent}$ berücksichtigt werden:
+Inoltre, si deve considerare un margine di sicurezza del $\qty{20}{\percent}$:
 
 $ U_{\mathrm{D}} = \qty{130}{\volt} \cdot 1{,}2 \approx \qty{156}{\volt} $
 
-Die Spannungsfestigkeit der Diode sollte daher mindestens $\qty{156}{\volt}$ betragen.
+La tenuta in tensione del diodo dovrebbe quindi essere di almeno $\qty{156}{\volt}$.

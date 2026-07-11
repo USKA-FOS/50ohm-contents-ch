@@ -1,8 +1,8 @@
-Das Signal-to-Noise Ratio (SNR) ist definiert als das Verhältnis von Nutzsignal zu Rauschsignal (Noise). Je höher das SNR eines empfangenen Signals ist, desto mehr hebt sich das Nutzsignal vom Rauschen bei gegebener Bandbreite ab.
+Il rapporto segnale-rumore (SNR) è definito come il rapporto tra segnale utile e segnale di rumore. Maggiore è l'SNR di un segnale ricevuto, maggiore è la separazione del segnale utile dal rumore per una data larghezza di banda.
 
 [question:AF227]
 
-Die Rauschzahl wird häufig bei HF-Vorverstärkern angegeben. Diese beschreibt die Verschlechterung des SNR bei Durchgang eines Signals durch diese Baugruppe. Hierbei wird die Rauschzahl als Verhältnis des eingehenden SNR-Wertes zum ausgehenden SNR-Wert bestimmt. Die Rauschzahl kann mittels Logarithmierung ($\unit{\dB}$) in das sog. Rauschmaß überführt werden. Eine Rauschzahl von $\num{2}$ entspricht z.B. einem Rauschmaß von $\qty{3}{\dB}$.
+Il fattore di rumore viene spesso indicato per i preamplificatori HF. Questo descrive il peggioramento dell'SNR al passaggio di un segnale attraverso questo modulo. Il fattore di rumore è determinato come rapporto tra il valore SNR in ingresso e il valore SNR in uscita. Il fattore di rumore può essere convertito nel cosiddetto indice di rumore mediante logaritmazione ($\unit{\dB}$). Un fattore di rumore di $\num{2}$ corrisponde, ad esempio, a un indice di rumore di $\qty{3}{\dB}$.
 
 [question:AF228]
 [question:AF229]

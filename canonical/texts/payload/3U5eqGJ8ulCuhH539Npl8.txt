@@ -1,17 +1,17 @@
-Eine Relaisfunkstelle ermöglicht eine größere Reichweite als dies bei direkter Verbindung zwischen zwei Amateurfunkstellen oftmals möglich ist. Relaisfunkstellen werden meist an exponierten Standorten, z. B. auf Berggipfeln, Hochhäusern, Kirch- und sonstigen Türmen, errichtet. Es gibt auch Relaisfunkstellen in Satelliten, die um die Erde kreisen. Aufbau und Funktion einer solchen Funkstelle sind in Bild [ref:n_relaisfunkstellen_aufbau] dargestellt. 
+Una stazione radio-ripetitore permette una maggiore portata rispetto a quanto spesso sia possibile con una connessione diretta tra due stazioni radioamatoriali. Le stazioni radio-ripetitrici sono solitamente installate in posizioni esposte, ad esempio su cime di montagne, grattacieli, campanili e altre torri. Esistono anche stazioni radio-ripetitrici sui satelliti che orbitano attorno alla Terra. La struttura e la funzione di una tale stazione radio sono illustrate nella figura [ref:n_relaisfunkstellen_aufbau]. 
 
 [picture:648:n_relaisfunkstellen_aufbau:Schematische Darstellung einer Relaisfunkstelle mit Nutzern]
 
-Ist zum Beispiel ein Berg zwischen zwei Funkstationen, so ist es unmöglich, durch den Berg hindurchzusenden. Eine Relaisfunkstelle auf dem Berggipfel ermöglicht es trotzdem, eine Verbindung aufzubauen, da beide Stationen das Relais direkt erreichen  können.
+Se, ad esempio, c'è una montagna tra due stazioni radio, è impossibile trasmettere attraverso la montagna. Una stazione radio-ripetitrice sulla cima della montagna permette comunque di stabilire un collegamento, poiché entrambe le stazioni possono raggiungere direttamente il ripetitore.
 
-Relaisfunkstellen werden auch kurz als Relais oder als Repeater bezeichnet. Man kann sie daran erkennen, dass sie regelmäßig ihr Rufzeichen aussenden. Das Rufzeichen einer Relaisfunkstelle beginnt gemäß [Rufzeichenplan](https://50ohm.de/rzp) in der Regel mit DB0, DM0 oder DO0.
+Le stazioni radio-ripetitrici sono anche chiamate brevemente ripetitori. Si possono riconoscere dal fatto che trasmettono regolarmente il loro nominativo. Il nominativo di una stazione radio-ripetitrice inizia, secondo il [Rufzeichenplan](https://50ohm.de/rzp), di solito con DB0, DM0 o DO0.
 
-Die amtliche Definition von Repeatern liest sich etwas trockener: *"Relaisfunkstelle": eine fernbediente Amateurfunkstelle (auch in Satelliten), die empfangene Amateurfunkaussendungen, Teile davon oder sonstige eingespeiste oder eingespeicherte Signale fern ausgelöst aussendet und dabei zur Erhöhung der Erreichbarkeit von Amateurfunkstellen dient*
+La definizione ufficiale dei ripetitori suona un po' più arida: *"Stazione radio-ripetitrice": una stazione radioamatoriale telecomandata (anche su satelliti), che ritrasmette le emissioni radioamatoriali ricevute, parti di esse, o altri segnali immessi o memorizzati, attivati da remoto e che serve ad aumentare la raggiungibilità delle stazioni radioamatoriali.*
 
-Die folgende Frage zu dieser Definition lässt sich aber auch gut im Ausschlussverfahren lösen, wenn man folgendes weiß:
-* Relaisfunkstellen werden nicht mit persönlichen Rufzeichen betrieben.
-* Relaisfunkstellen sind üblicherweise nicht ständig besetzt.
-* Relaisfunkstellen müssen nicht zwingend an geografisch exponierten Standorten betrieben werden.
+La seguente domanda su questa definizione può essere risolta bene anche per esclusione, se si sa quanto segue:
+* Le stazioni radio-ripetitrici non sono gestite con nominativi personali.
+* Le stazioni radio-ripetitrici di solito non sono presidiate permanentemente.
+* Le stazioni radio-ripetitrici non devono necessariamente essere gestite in posizioni geograficamente esposte.
 
 [question:VN007]
 
@@ -19,10 +19,10 @@ Die folgende Frage zu dieser Definition lässt sich aber auch gut im Ausschlussv
 
 ---
 
-Eine Relaisfunkstelle empfängt auf ihrer Eingabefrequenz das Signal einer Amateurfunkstation und sendet es zeitgleich auf ihrer Ausgabefrequenz aus. Damit der Sender der Relaisfunkstelle den eigenen Empfänger nicht stört, sind Sende- und Empfangsfrequenz in der Regel unterschiedlich. Den Abstand zwischen Sende- und Empfangsfrequenz nennt man Frequenzablage oder auch einfach nur Ablage. Die in Deutschland üblicherweise verwendeten Ablagen findest du in der Tabelle [ref:n_relaisfunkstellen_ablage].
+Una stazione radio-ripetitrice riceve il segnale di una stazione radioamatoriale sulla sua frequenza di ingresso e lo trasmette contemporaneamente sulla sua frequenza di uscita. Affinché il trasmettitore della stazione radio-ripetitrice non disturbi il proprio ricevitore, la frequenza di trasmissione e quella di ricezione sono generalmente diverse. La distanza tra la frequenza di trasmissione e quella di ricezione è chiamata scarto di frequenza o semplicemente scarto. Gli scarti comunemente utilizzati in Germania si trovano nella tabella [ref:n_relaisfunkstellen_ablage].
 
 <margin>
-| r: Band | X: Ablage |
+| r: Banda | X: Scarto |
 | $\qty{10}{\meter}$ | $\qty{100}{\kilo\hertz}$ |
 | $\qty{2}{\meter}$ | $\qty{600}{\kilo\hertz}$ |
 | $\qty{70}{\centi\meter}$ | $\qty{7,6}{\mega\hertz}$ |
@@ -30,57 +30,57 @@ Eine Relaisfunkstelle empfängt auf ihrer Eingabefrequenz das Signal einer Amate
 [table:n_relaisfunkstellen_ablage:Frequenzablage]
 </margin>
 
-Beispielsweise wird die Frequenz eines $\qty{70}{\centi\meter}$ Relais so angegeben:
-* Eingabefrequenz: $\qty{431,275}{\mega\hertz}$
-* Ablage: $\qty{+7,600}{\mega\hertz}$
-* Ausgabefrequenz: $\qty{438,875}{\mega\hertz}$
+Ad esempio, la frequenza di un ripetitore da $\qty{70}{\centi\meter}$ è indicata come:
+* Frequenza di ingresso: $\qty{431,275}{\mega\hertz}$
+* Scarto: $\qty{+7,600}{\mega\hertz}$
+* Frequenza di uscita: $\qty{438,875}{\mega\hertz}$
 
 [question:BE401]
 [question:BE402]
 [question:BE403]
 
 <indepth>
-Einige Relaisfunkstationen arbeiten auch im sogenannten *Crossband-Betrieb*. Das bedeutet: Eine Station sendet und empfängt auf einem Band (z. B. $\qty{70}{\centi\meter}$), eine andere Station auf dem gleichen Relais, aber auf einem anderen Band (z. B. $\qty{2}{\meter}$). Die Relaissteuerung vermittelt die Gespräche auf die beiden Bänder. Es kann auch eine Umsetzung der Sendeart erfolgen, beispielsweise von SSB auf FM.
+Alcune stazioni radio-ripetitrici operano anche nel cosiddetto *funzionamento crossband*. Ciò significa che una stazione trasmette e riceve su una banda (ad es. $\qty{70}{\centi\meter}$), un'altra stazione sullo stesso ripetitore, ma su una banda diversa (ad es. $\qty{2}{\meter}$). Il controllo del ripetitore media le conversazioni tra le due bande. È anche possibile una conversione del modo di trasmissione, ad esempio da SSB a FM.
 </indepth>
 
-Eine Relaisstation, die nicht Sprache sondern Daten übermittelt, wird Digipeater genannt. Ein Digipeater ist in der Lage, Datenpakete zu empfangen und wieder auszusenden. Hierbei ist die Besonderheit, dass die Aussendung nur in Teilen oder zeitversetzt geschehen kann. Ebenso können Datenpakete wiederholt oder einzelne Datenfelder geändert werden.
+Una stazione ripetitrice che trasmette dati invece di voce è chiamata digipeater. Un digipeater è in grado di ricevere e ritrasmettere pacchetti di dati. La particolarità è che la trasmissione può avvenire solo in parte o con ritardo temporale. Allo stesso modo, i pacchetti di dati possono essere ripetuti o singoli campi di dati modificati.
 
 [question:NF118]
 
 ---
 
-Bevor man über eine Relaisfunkstelle den Funkbetrieb aufnehmen kann, muss man ihre technischen Besonderheiten und Parameter kennen. Für bestimmte Relais sind zusätzlich zur Frequenz noch weitere Einstellungen an deinem Transceiver notwendig, um einen störungsfreien Betrieb zu gewährleisten. Neben analogem FM (Frequenzmodulation) werden noch digitale Verfahren, wie zum Beispiel DMR und D-Star, als Sprachübertragungsverfahren genutzt.
+Prima di poter iniziare le operazioni radio tramite una stazione radio-ripetitrice, è necessario conoscerne le particolarità tecniche e i parametri. Per alcuni ripetitori, oltre alla frequenza, sono necessarie ulteriori regolazioni sul proprio trasmettitore-ricevitore per garantire un funzionamento privo di disturbi. Oltre all'FM analogico (modulazione di frequenza), vengono utilizzati anche metodi digitali, come DMR e D-Star, come metodi di trasmissione vocale.
 
 <tip>
-Informationen zu Relaisfunkstellen sowie den technischen Parametern und Besonderheiten erhält man vom nächstgelegenen DARC-Ortsverband, der relaisverantwortlichen Person oder aus dem Internet.
+Informazioni sulle stazioni radio-ripetitrici, sui parametri tecnici e sulle particolarità si possono ottenere dalla sezione DARC più vicina, dalla persona responsabile del ripetitore o da Internet.
 </tip>
 
 [question:NE309]
 [question:NE308]
 
-Eine wichtige Einstellung ist die Kanalbandbreite bei FM-Betrieb. Wir erinnern uns: Die Bandbreite gibt an, wieviel "Platz" man im Frequenzspektrum mit der Aussendung belegt. Hier gibt es einerseits das Wide-FM, die Bandbreite beträgt hier $\qty{25}{\kilo\hertz}$ und wird am Display beispielsweise als *FM-W* angezeigt. Andererseits gibt es das Schmalband-FM (Narrow-FM), welches eine Bandbreite von nur $\qty{12,5}{\kilo\hertz}$ belegt und z. B. am Funkgerät als *FM-N* dargestellt wird. Viele Repeater mögen es gar nicht, wenn die Signale zu breit sind. Denn dadurch können verzerrte Signale entstehen und benachbarte Relaisfrequenzen gestört werden.
+Una regolazione importante è la larghezza di banda in modalità FM. Ricordiamo: la larghezza di banda indica quanto "spazio" si occupa nello spettro di frequenza con la trasmissione. Da un lato c'è l'FM Wide, la cui larghezza di banda è di $\qty{25}{\kilo\hertz}$ e viene visualizzata sul display, ad esempio, come *FM-W*. Dall'altro c'è l'FM Narrow, che occupa una larghezza di banda di soli $\qty{12,5}{\kilo\hertz}$ e viene visualizzato sull'apparecchio radio, ad esempio, come *FM-N*. Molti ripetitori non gradiscono segnali troppo ampi. Ciò può causare segnali distorti e disturbare le frequenze dei ripetitori adiacenti.
 
 [question:BE407]
 [question:BE417]
 
-Der Funkbetrieb über fernbediente Amateurfunkstellen ist grundsätzlich allen Funkamateuren mit zugeteiltem Rufzeichen zu gestatten. Zur Sicherstellung eines störungsfreien Betriebs kann der Betreiber allerdings andere Funkamateure von der Nutzung der Amateurfunkstelle ausschließen. Die BNetzA ist hiervon zu unterrichten.
+Il funzionamento radio tramite stazioni radioamatoriali telecomandate è generalmente consentito a tutti i radioamatori con un nominativo assegnato. Per garantire un funzionamento privo di disturbi, l'operatore può tuttavia escludere altri radioamatori dall'uso della stazione radioamatoriale. La BNetzA deve essere informata di ciò.
 
 [question:VD504]
 
-Bei Funkbetrieb über Relaisstationen sollten die Durchgänge möglichst kurz gehalten werden, damit mobile und portable Stationen das Relais leichter nutzen können, insbesondere, wenn sie sich nur kurzzeitig im Empfangsbereich befinden. Zwischen den Durchgängen sollte man eine Pause einhalten, um weiteren Stationen eine Möglichkeit zu geben, sich reinzumelden.
+Durante il funzionamento radio tramite stazioni ripetitrici, le trasmissioni dovrebbero essere mantenute il più brevi possibile, in modo che le stazioni mobili e portatili possano utilizzare più facilmente il ripetitore, soprattutto se si trovano solo per breve tempo nell'area di ricezione. Tra una trasmissione e l'altra si dovrebbe fare una pausa per dare ad altre stazioni la possibilità di farsi sentire.
 
 [question:BE406]
 [question:BE404]
 
-Bei einer gleichzeitigen Spracheingabe zweier unterschiedlicher Stationen wird die Aussendung des Relais bis zur Unlesbarkeit gestört. Um dieses sogenannte Doppeln zu vermeiden, sollte stets eine ordentliche Übergabe zwischen den Repeaternutzern erfolgen. Das bedeutet auch, erst dann mit der Aussendung zu beginnen, wenn die vorherige Station ihre Aussendung beendet hat.
+In caso di immissione vocale simultanea da due stazioni diverse, la trasmissione del ripetitore viene disturbata fino a diventare illeggibile. Per evitare questo cosiddetto raddoppio, è sempre necessario un passaggio corretto tra gli utenti del ripetitore. Ciò significa anche iniziare a trasmettere solo dopo che la stazione precedente ha terminato la sua trasmissione.
 
 [question:NE310]
 [question:BE405]
 
-In der bereits besprochenen Anlage 1 der AFuV finden sich auch Vorgaben für die Sendeleistungen von Relaisstationen. Oberhalb von 30 MHz darf eine automatisch arbeitende Station mit maximal 50 W ERP betrieben werden.
+Nell'Allegato 1 della AFuV, già discusso, si trovano anche le disposizioni relative alla potenza di trasmissione delle stazioni ripetitrici. Al di sopra dei 30 MHz, una stazione che opera automaticamente può essere utilizzata con una potenza massima di 50 W ERP.
 
 [question:VD503]
 
-Eine Besonderheit gibt es bei der Beurteilung einer Funkverbindung über eine Relaisfunkstation. Da die Signalstärke, mit der man den Funkpartner empfängt, die Signalstärke der Relaisstation ist und nicht die Signalstärke des Funkpartners, verzichtet man auf deren Angabe. Im Rapport wird nur die Lesbarkeit (R) beurteilt.
+Una particolarità si presenta nella valutazione di un collegamento radio tramite una stazione radio-ripetitrice. Poiché la potenza del segnale con cui si riceve il corrispondente radio non è la potenza del segnale del corrispondente radio, ma la potenza del segnale della stazione ripetitrice, si rinuncia alla sua indicazione. Nel rapporto viene valutata solo la leggibilità (R).
 
 [question:BE408]

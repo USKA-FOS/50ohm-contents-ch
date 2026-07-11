@@ -1,21 +1,21 @@
-* An vielen Funkgeräten gibt es einen Schalter, um die Modulationsart auszuwählen
-* Meistens ist dieser mit „Mode“ beschriftet und erlaubt beispielsweise zwischen CW, AM, FM und SSB zu wählen
+* Su molti apparecchi radio è presente un interruttore per selezionare il tipo di modulazione
+* Di solito è etichettato come "Mode" e permette di scegliere, ad esempio, tra CW, AM, FM e SSB
 
 ---
 [question:NE102]
 <note>
-* PSK31, FT8, RTTY und Olivia sind keine Modulationsarten, sondern digitale Übertragungsverfahren und kommt später im Lehrgang.
+* PSK31, FT8, RTTY e Olivia non sono tipi di modulazione, ma metodi di trasmissione digitale e verranno trattati più avanti nel corso.
 </note>
 
 ---
-* Bei SSB ist zu beachten, das richtige Seitenband (LSB oder USB) auszuwählen
-* Im Amateurfunk wird mit wenigen Ausnahmen unterhalb von $\qty{10}{\mega\hertz}$ das untere Seitenband und ab $\qty{10}{\mega\hertz}$ das obere Seitenband benutzt
+* Con SSB è importante selezionare la banda laterale corretta (LSB o USB)
+* Nel radioamatore, con poche eccezioni, al di sotto dei $\qty{10}{\mega\hertz}$ si utilizza la banda laterale inferiore (LSB) e a partire dai $\qty{10}{\mega\hertz}$ si utilizza la banda laterale superiore (USB)
 
 <note>
-* Empfehlung im IARU-Bandplan.
-* Eine Ausnahme sind digitale Übertragungsverfahren, wo auch unterhalb von 10 MHz USB verwendet wird.
-* Klasse N kann aufgrund der erlaubten Bänder immer USB verwenden.
-* Zusätzliches Wissen: Seefunk verwendet immer USB.
+* Raccomandazione nel piano di banda IARU.
+* Un'eccezione sono i metodi di trasmissione digitale, dove viene utilizzata anche la USB al di sotto dei 10 MHz.
+* La Classe N, a causa delle bande consentite, può sempre utilizzare la USB.
+* Conoscenza aggiuntiva: la radio marittima utilizza sempre la USB.
 </note>
 
 ---
@@ -34,15 +34,15 @@
 [question:NE210]
 
 ---
-## Falsches Seitenband
+## Banda laterale errata
 
-* Wenn bei SSB das falsche Seitenband gewählt wird, dann ist die Sprache völlig unverständlich
-* Ebenfalls ist es bei SSB wichtig, die Empfangsfrequenz sehr feinfühlig mit dem VFO-Drehknopf einzustellen
-* Schon kleine Abweichungen von der richtigen Frequenz führen dazu, dass die Sprache unverständlich wird
+* Se con SSB viene selezionata la banda laterale sbagliata, la voce è completamente incomprensibile
+* Inoltre, con SSB è importante impostare la frequenza di ricezione in modo molto preciso con la manopola VFO
+* Anche piccole deviazioni dalla frequenza corretta rendono la voce incomprensibile
 
 <note>
-* Ursache liegt an der Spiegelung der Seitenbänder - Tiefe Töne werden zu hohe und umgekehrt.
-* Bei FM und AM kann der Träger zur Demodulation zu Hilfe genommen werden.
+* La causa risiede nella riflessione delle bande laterali: i toni bassi diventano alti e viceversa.
+* Con FM e AM, la portante può essere utilizzata per la demodulazione.
 </note>
 ---
 [question:NE212]

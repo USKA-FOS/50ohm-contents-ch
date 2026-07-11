@@ -1,63 +1,61 @@
-Wir stehen oft vor dem Problem, dass ein gewünschter Widerstandswert nicht in der sogenannten "Widerstands-Normreihe" enthalten ist. Es könnte auch sein, dass ein Widerstand eine große Verlustleistung umsetzen muss, die in handelsüblichen Einzelwiderständen nicht möglich ist -- um nur zwei Beispiele zu nennen. Wir werden jetzt betrachten, wie wir durch Reihenschaltung oder Parallelschaltung von Widerständen andere Widerstandswerte erhalten können.
+Ci troviamo spesso di fronte al problema che un valore di resistenza desiderato non è incluso nella cosiddetta "serie standard di resistenze". Potrebbe anche succedere che una resistenza debba dissipare una grande potenza, cosa non possibile con resistenze singole disponibili in commercio, solo per citare due esempi. Ora esamineremo come ottenere valori di resistenza diversi collegando resistenze in serie o in parallelo.
 
-Aus dem Ohmschen Gesetz können wir die Regeln von Reihen- und Paralelschaltungen von Widerständen herleiten:
+Dalla legge di Ohm possiamo derivare le regole per i collegamenti in serie e in parallelo di resistenze:
 
 $U=R \cdot I$
 
 <margin>
-[picture:819:e_spannungsteiler:Spannungsteiler]
+[picture:819:e_spannungsteiler:Partitore di tensione]
 </margin>
 
-Die Abbildung [ref:e_spannungsteiler] zeigt zwei Widerstände $R_1$ und $R_2$, die hinter einander geschaltet werden. Sie vom gleichen Strom *I* durchflossen. An den Widerständen fallen dann die Spannungen
+La figura [ref:e_spannungsteiler] mostra due resistenze $R_1$ e $R_2$, collegate una dopo l'altra. Sono attraversate dalla stessa corrente *I*. Alle resistenze cadono quindi le tensioni
 
-$U_1 = R_1 \cdot I$ und  $U_2 = R_2 \cdot I$ ab. 
-Die Gesamtspannung $U_g$ ist einfach die Summe dieser beiden Spannungen:
+$U_1 = R_1 \cdot I$ e  $U_2 = R_2 \cdot I$. 
+La tensione totale $U_g$ è semplicemente la somma di queste due tensioni:
 
 $U_g = U_1 + U_2 = R_{\mathrm{ges}} \cdot {I} = R_1 \cdot I + R_2 \cdot I$
 
-Jetzt können wir den Widerstand berechnen, der zwischen den äußeren Klemmen zu sehen ist:
-$R_{\mathrm{ges}} = \frac{U_g}{I} = R_1 + R_2$, weil sich auf beiden Seiten der Gleichung der Strom $I$ rauskürzt.
+Ora possiamo calcolare la resistenza visibile tra i morsetti esterni:
+$R_{\mathrm{ges}} = \frac{U_g}{I} = R_1 + R_2$, poiché la corrente $I$ si semplifica su entrambi i lati dell'equazione.
 
-Das Ganze funktioniert auch bei mehr als zwei Widerständen, wie in der Formelsammlung dargestellt:
+Il tutto funziona anche con più di due resistenze, come mostrato nella raccolta di formule:
 
 $R_{\mathrm{ges}} = R_1 + R_2 + R_3 + R_4 + \dots$
 
 ---
 
-Doch wie verhält es sich, wenn wir zwei Widerstände $R_1$ und $R_2$ parallel schalten wie in Abbildung [ref:e_parallelschaltung] gezeigt? 
+Ma come si comporta se colleghiamo due resistenze $R_1$ e $R_2$ in parallelo come mostrato nella figura [ref:e_parallelschaltung]? 
 
-Jetzt liegt an beiden Widerständen die selbe Spannung $U$ an, die in den Widerständen die Ströme
+Ora su entrambe le resistenze agisce la stessa tensione $U$, che fa scorrere nelle resistenze le correnti
 
-$I_1 = \frac{U}{R_1}$ und $I_2 = \frac{U}{R_2}$
-
-fließen lässt. 
+$I_1 = \frac{U}{R_1}$ e $I_2 = \frac{U}{R_2}$
 
 <margin>
-[picture:945:e_parallelschaltung:In dieser Schaltung sind alle Spannungen und Ströme zu sehen.]
+[picture:945:e_parallelschaltung:In questo circuito si vedono tutte le tensioni e le correnti.]
 </margin>
 
-Der im äußeren Stromkreis fließende Strom ist die Summe dieser beiden Ströme:
+La corrente che scorre nel circuito esterno è la somma di queste due correnti:
 
 $I = I_1 + I_2 = \frac{U}{R_1} + \frac{U}{R_2}$
 
-Wir suchen wieder einen Gesamtwiderstand $R_{\mathrm{ges}}$, für den dann gelten muss: $I=\frac{U}{R_{\mathrm{ges}}}$ und folglich:
+Cerchiamo di nuovo una resistenza totale $R_{\mathrm{ges}}$, per cui deve valere: $I=\frac{U}{R_{\mathrm{ges}}}$ e di conseguenza:
 
 $\dfrac{1}{R_{\mathrm{ges}}} = \dfrac{1}{R_1} + \dfrac{1}{R_2}$
 
 ---
 
-Der Kehrwert des Gesamtwiderstands ist also die Summe der Kehrwerte der Einzelwiderstände. Eine Konsequenz ist, dass man bei einer Parallelschaltung einer Reihe gleicher Widerstände einfach den Wert des einzelnen Widerstands durch die Anzahl der Widerstände teilt.
+Il reciproco della resistenza totale è quindi la somma dei reciproci delle singole resistenze. Una conseguenza è che, in un collegamento in parallelo di una serie di resistenze uguali, si divide semplicemente il valore della singola resistenza per il numero di resistenze.
 
-Auch hier können wir die Berechnung für beliebig viele parallele Widerstände durchführen (vgl. Formelsammlung):
+Anche qui possiamo eseguire il calcolo per un numero qualsiasi di resistenze in parallelo (cfr. raccolta di formule):
 
 $\dfrac{1}{R_{\mathrm{ges}}} = \dfrac{1}{R_1} + \dfrac{1}{R_2} + \dfrac{1}{R_3} + \dfrac{1}{R_4} + \dots$
 
-Den Ausdruck für zwei parallele Widerstände können wir nach den Regeln der Bruchrechnung auch schreiben als:
+Possiamo anche scrivere l'espressione per due resistenze in parallelo secondo le regole del calcolo delle frazioni come:
 
 $R_{\mathrm{ges}} = \dfrac{R_1 \cdot R_2}{R_1 + R_2}$
 
 <tip>
-Bei der Reihenschaltung ist die Wert des Gesamtwiderstands immer größer als der größte Einzelwiderstand. Bei der Parallelschaltung ist der Gesamtwiderstand immer kleiner als der kleinste Einzelwiderstand.
+Nel collegamento in serie, il valore della resistenza totale è sempre maggiore della resistenza singola più grande. Nel collegamento in parallelo, la resistenza totale è sempre minore della resistenza singola più piccola.
 </tip>
 
 ---
@@ -67,17 +65,17 @@ Bei der Reihenschaltung ist die Wert des Gesamtwiderstands immer größer als de
 [question:ED106]
 
 <tip>
-Genau darauf achten, dass die in der Rechnung verwendeten Widerstände immer die selben Einheiten haben. Wir empfehlen immer, möglichst auf die Grundeinheit ($\unit{\ohm}$) zu gehen. Schalten wir z.B. einen $\qty{1}{\kilo\ohm}$- und einen $\qty{10}{\ohm}$-Widerstand in Reihe, dann rechnen wir $\qty{1000}{\ohm} + \qty{10}{\ohm} = \qty{1010}{\ohm}$.
+Prestare molta attenzione affinché le resistenze utilizzate nel calcolo abbiano sempre le stesse unità. Raccomandiamo sempre di passare, se possibile, all'unità di base ($\unit{\ohm}$). Se, ad esempio, colleghiamo in serie una resistenza da $\qty{1}{\kilo\ohm}$ e una da $\qty{10}{\ohm}$, calcoliamo $\qty{1000}{\ohm} + \qty{10}{\ohm} = \qty{1010}{\ohm}$.
 </tip>
 
 ---
 
-Einige der Aufgaben enthalten Widerstandsnetzwerke, in denen sowohl eine Reihen- als auch eine Parallelschaltung vorkommt. Da gehen wir so vor, dass wir erst z.B. die Parallelschaltung in einen äquivalenten Widerstand umwandeln, den wir dann mit dem in Reihe geschalteten dritten Widerstand zusammenfassen. Oder halt umgekehrt, je nach dem, was sich anhand des Schaltbildes anbietet.
+Alcuni dei compiti contengono reti di resistenze in cui sono presenti sia collegamenti in serie che in parallelo. Procediamo in modo tale da convertire prima, ad esempio, il collegamento in parallelo in una resistenza equivalente, che poi sommiamo con la terza resistenza collegata in serie. O viceversa, a seconda di ciò che si presenta dal diagramma di circuito.
 
 <tip>
-[picture:305:e_tipp_aufgabe:Beispielschaltung]
+[picture:305:e_tipp_aufgabe:Esempio di circuito]
 
-Ein wichtiges Lösungsverfahren ist die "Methode des scharfen Hinsehens" ... da gibt es zum Beispiel eine Schaltung, die einen Widerstand $R_1$ in Reihe mit zwei parallel geschalteten Widerständen $R_2$ und $R_3$ hat. Die Werte sind $R_1 = \qty{1}{\kilo\ohm}$, $R_2 = \qty{2000}{\ohm}$ und $R_3 = \qty{2}{\kilo\ohm}$. Nun sind aber $\qty{2}{\kilo\ohm} = \qty{2000}{\ohm}$. Die Parallelschaltung von $R_2$ und $R_3$ ergibt einen Widerstand, der halb so groß ist: $\qty{1000}{\ohm} = \qty{1}{\kilo\ohm}$. Den schalten wir in Reihe mit $R_1$ und erhalten das Ergebnis: $R_{\mathrm{ges}} = \qty{2}{\kilo\ohm}$.
+Un importante metodo di soluzione è il "metodo dell'attenta osservazione" ... c'è ad esempio un circuito che ha una resistenza $R_1$ in serie con due resistenze $R_2$ e $R_3$ collegate in parallelo. I valori sono $R_1 = \qty{1}{\kilo\ohm}$, $R_2 = \qty{2000}{\ohm}$ e $R_3 = \qty{2}{\kilo\ohm}$. Ora, $\qty{2}{\kilo\ohm} = \qty{2000}{\ohm}$. Il collegamento in parallelo di $R_2$ e $R_3$ produce una resistenza pari alla metà: $\qty{1000}{\ohm} = \qty{1}{\kilo\ohm}$. La colleghiamo in serie con $R_1$ e otteniamo il risultato: $R_{\mathrm{ges}} = \qty{2}{\kilo\ohm}$.
 </tip>
 
 [question:ED111]
@@ -87,10 +85,10 @@ Ein wichtiges Lösungsverfahren ist die "Methode des scharfen Hinsehens" ... da 
 [question:ED108]
 [question:ED109]
 
-Bei Leistungsbetrachtungen geht man am Besten von dem bekannten Ausdruck für die Leistung aus:
+Nelle considerazioni sulla potenza, è meglio partire dall'espressione nota per la potenza:
 
 $P = U \cdot I$
 
-Bei der Reihenschaltung von z.B. drei gleichen Widerständen fließt durch alle Widerstände der gleiche Strom, aber an jedem einzelnen Widerstand fällt nur ein Drittel der äußeren Spannung ab. Bei der Parallelschaltung liegt an allen Widerständen die selbe Spannung, aber der Strom teil sich auf drei Pfade auf. In beiden Fällen verträgt also die Schaltung das dreifache der Leistung des einzelnen Widerstandes.
+Nel collegamento in serie di, ad esempio, tre resistenze uguali, la stessa corrente scorre attraverso tutte le resistenze, ma su ogni singola resistenza cade solo un terzo della tensione esterna. Nel collegamento in parallelo, la stessa tensione agisce su tutte le resistenze, ma la corrente si divide in tre percorsi. In entrambi i casi, quindi, il circuito sopporta tre volte la potenza della singola resistenza.
 
 [question:ED107]

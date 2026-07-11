@@ -1,15 +1,15 @@
-Um früher in Amateurfunk-Mehrbandsendern nicht für jeden Frequenzbereich einzelne Oszillatoren bauen und abstimmen zu müssen, verwendete man das Prinzip der Frequenzvervielfachung. Hierbei wurde ein stabiler Oszillator auf der Frequenz des niedrigsten Bandes (z.B. $\qty{3,5}{\mega\hertz}$) betrieben, dessen Ausgangssignal dann anschließend mittels Frequenzvervielfachern auf die jeweils gewünschten Amateurfunkbänder umgesetzt wurde. Hierbei ist es von Vorteil, dass die einzelnen Frequenzbänder zueinander in festen Verhältnissen stehen (z.B. $\qty{3,5}{\mega\hertz}$, $\qty{7}{\mega\hertz}$, $\qty{14}{\mega\hertz}$ usw.) und meist ganzzahlige Vielfache des niedrigsten Bandes sind. Hierdurch fallen auch Oberwellen wieder in einen Amateurfunkbereich, was seitens der Regulierungsbehörden durchaus gewünscht ist, um Störungen anderer Dienste durch Oberwellen zu vermeiden. Generell kann man Oszillatoren auf niedrigen Frequenzen mit höherer Stabilität einfacher konstruieren und bauen als auf hohen Frequenzen. 
+Per non dover costruire e accordare oscillatori separati per ogni banda di frequenza nei trasmettitori radioamatoriali multi-banda, si utilizzava il principio della moltiplicazione di frequenza. In questo modo, un oscillatore stabile veniva fatto funzionare alla frequenza della banda più bassa (ad es. $\qty{3,5}{\mega\hertz}$), il cui segnale di uscita veniva poi convertito nelle bande radioamatoriali desiderate mediante moltiplicatori di frequenza. È vantaggioso che le singole bande di frequenza abbiano rapporti fissi tra loro (ad es. $\qty{3,5}{\mega\hertz}$, $\qty{7}{\mega\hertz}$, $\qty{14}{\mega\hertz}$ ecc.) e siano per lo più multipli interi della banda più bassa. In questo modo, le armoniche superiori ricadono nuovamente in una banda radioamatoriale, cosa che è desiderata dalle autorità di regolamentazione per evitare interferenze con altri servizi dovute alle armoniche superiori. In generale, gli oscillatori a basse frequenze possono essere costruiti e realizzati con maggiore stabilità rispetto a quelli ad alta frequenza.
 
 ---
 
-Abbildung [ref:n_f_vervielfacher] zeigt das Blockschaltbild eines Frequenzvervielfachers mit dem Faktor $2$ bei dem die Eingangsfrequenz von $\qty{3,5}{\mega\hertz}$ auf $\qty{7}{\mega\hertz}$ angehoben wird. Ein Frequenzvervielfacher wird dabei typischerweise durch eine Nichtlinearität (z. B. Diode) erzeugt, die gezielt Oberwellen des Eingangssignals erzeugt, aus denen anschließend mit einem Bandpassfilter die gewünschte Vielfachfrequenz ausgewählt wird.
+La figura [ref:n_f_vervielfacher] mostra lo schema a blocchi di un moltiplicatore di frequenza con fattore $2$, in cui la frequenza di ingresso di $\qty{3,5}{\mega\hertz}$ viene aumentata a $\qty{7}{\mega\hertz}$. Un moltiplicatore di frequenza viene tipicamente generato da una non linearità (ad es. un diodo), che genera armoniche superiori mirate del segnale di ingresso, dalle quali viene poi selezionata la frequenza multipla desiderata con un filtro passa-banda.
 
 <margin>
-[picture:1042:n_f_vervielfacher:Blockschaltbild eines Frequenzvervielfachers]
+[picture:1042:n_f_vervielfacher:Schema a blocchi di un moltiplicatore di frequenza]
 </margin>
 
-Häufig verwendet man eine Kette von Frequenzvervielfachern, um die gewünschten Multiplikationsfaktoren zu erreichen. Hierbei werden bei Reihenschaltung von Vervielfachern die einzelnen Faktoren miteinander multipliziert.
-Umgekehrt kann eine solche Schaltung natürlich auch rückgerechnet werden. Hierbei muss durch die entsprechenden Teilfaktoren dann dividiert werden.
+Spesso si utilizza una catena di moltiplicatori di frequenza per ottenere i fattori di moltiplicazione desiderati. In questo caso, quando i moltiplicatori sono collegati in serie, i singoli fattori vengono moltiplicati tra loro.
+Al contrario, un tale circuito può ovviamente essere anche retrocalcolato. In questo caso, è necessario dividere per i rispettivi fattori parziali.
 
 [question:EF303]
 [question:EF302]

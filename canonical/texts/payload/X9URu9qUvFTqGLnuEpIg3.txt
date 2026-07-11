@@ -1,29 +1,28 @@
-Während Spannungsmessgeräte die Spannung messen, messen Strommessgeräte den elektrischen Strom. Die Messung erfolgt in *Ampere* ($\unit{A}$). Entsprechend ist das Schaltsymbol des Strommessgeräts der Kreis mit einem A, wie in der Abbildung [ref:n_messgeraete_symbol_strommessgerät] gezeigt.
+Mentre gli strumenti di misura della tensione misurano la tensione, gli amperometri misurano la corrente elettrica. La misurazione avviene in *ampere* ($\unit{A}$). Di conseguenza, il simbolo di circuito dell'amperometro è il cerchio con una A, come mostrato nella figura [ref:n_messgeraete_symbol_strommessgerät].
 
 <margin>
-[picture:624:n_messgeraete_symbol_strommessgerät:Schaltsymbol Strommessgerät]
+[picture:624:n_messgeraete_symbol_strommessgerät:Simbolo di circuito amperometro]
 </margin>
 
 <margin>
-[picture:616:n_messgeraete_strommessung:Strommessung]
+[picture:616:n_messgeraete_strommessung:Misurazione della corrente]
 </margin>
 
-Während man für die Spannungsmessung parallel zu einem Bauteil messen muss, um die dort anliegende Spannung zu ermitteln, muss man für die Strommessung *in Serie* mit den Bauteilen messen, um die Stromstärke zu ermitteln, die durch das Bauteil hindurchfliesst. Dazu trennt man den Leiter an geeigneter Stelle auf und schaltet das Messgerät dazwischen. In der Abbildung [ref:n_messgeraete_strommessung] wird eine Möglichkeit gezeigt, wie ein Strommessgerät in einen Stromkreis eingesetzt werden kann.
+Mentre per la misurazione della tensione è necessario misurare in parallelo a un componente per determinare la tensione presente lì, per la misurazione della corrente è necessario misurare *in serie* con i componenti per determinare l'intensità di corrente che scorre attraverso il componente. A tale scopo, si interrompe il conduttore in un punto appropriato e si inserisce lo strumento di misura. Nella figura [ref:n_messgeraete_strommessung] viene mostrata una possibilità di come un amperometro può essere inserito in un circuito.
 
 <danger>
-Strommessgeräte haben selber keinen Widerstand wie ein Verbraucher, damit sie während der Messung den Stromkreis nicht beeinflussen. Würde man ein Strommessgerät direkt an die beiden Pole einer Batterie anschließen, entsteht ein gefährlicher Kurzschluss. Das sollte unbedingt vermieden werden, da dadurch auch die Feinsicherung im Messgerät ausgelöst werden kann, die dann ersetzt werden muss.
+Gli amperometri non hanno una resistenza propria come un carico, in modo da non influenzare il circuito durante la misurazione. Se si collegasse un amperometro direttamente ai due poli di una batteria, si creerebbe un pericoloso cortocircuito. Questo dovrebbe assolutamente essere evitato, poiché anche il fusibile di protezione nello strumento di misura potrebbe scattare e dovrebbe poi essere sostituito.
 </danger>
 
 <webtip>
-Strom wird - wie Spannung - ebenfalls meistens mit einem Multimeter gemessen. Auch hier ist es wichtig, zunächst die Messleitungen mit den richtigen Anschlüssen des Messgeräts zu verbinden. Die schwarze Messleitung kommt in den "COM"-Anschluss und die rote Messleitung an den Anschluss, der in der Regel mit A beschriftet ist. Oft haben Messgeräte für die Strommessung mehrere Anschlüsse, die für den eingestellten Messbereich passend zu wählen sind. Je nach Messbereich sind diese dann beispielsweise mit "$\unit{\micro\ampere}$", "$\unit{\milli\ampere}$" oder "$\unit{\ampere}$" beschriftet.
+La corrente viene misurata, come la tensione, solitamente con un multimetro. Anche qui è importante collegare prima i puntali di misura alle connessioni corrette dello strumento. Il puntale nero va nella connessione "COM" e il puntale rosso nella connessione solitamente etichettata con A. Spesso gli strumenti per la misurazione della corrente hanno più connessioni che devono essere scelte in base al campo di misura impostato. A seconda del campo di misura, queste sono etichettate ad esempio con "$\unit{\micro\ampere}$", "$\unit{\milli\ampere}$" o "$\unit{\ampere}$" .
 
-Ähnlich der Spannungsmessung ist die richtige Einstellung am Messgerät zu wählen. Möchte man Gleichstrom messen, wählt man "A =". Will man hingegen Wechselstrom messen, dann ist "A ~" einzustellen.
+Similmente alla misurazione della tensione, è necessario scegliere l'impostazione corretta sullo strumento. Se si desidera misurare corrente continua, si seleziona "A =". Se invece si desidera misurare corrente alternata, si imposta "A ~" .
 
-Ebenfalls entsprechend zur Spannungsmessung verhält es sich mit dem Messbereich: Zu Beginn sollte der größte Messbereich gewählt werden und dann - je nach Anzeigewert - bei Bedarf auf einen kleinen Messbereich gewechselt werden. Es kann dann auch erforderlich sein, die rote Messleitung in den zum Messbereich passenden Anschluss umzustecken.
+Analogamente alla misurazione della tensione, si procede anche per il campo di misura: all'inizio si dovrebbe scegliere il campo di misura più grande e poi, a seconda del valore visualizzato, passare a un campo di misura più piccolo se necessario. Potrebbe anche essere necessario spostare il puntale rosso nella connessione corrispondente al campo di misura.
 
-Und auch hier noch einmal der Hinweis: Wechselspannungen größer $\qty{50}{\volt}$ und Gleichspannungen größer $\qty{120}{\volt}$ können lebensgefährlich sein.
+E anche qui ancora una volta l'avviso: le tensioni alternate superiori a $\qty{50}{\volt}$ e le tensioni continue superiori a $\qty{120}{\volt}$ possono essere pericolose per la vita.
 </webtip>
 
-[question:NI102] 
+[question:NI102]
 [question:NI104]
-

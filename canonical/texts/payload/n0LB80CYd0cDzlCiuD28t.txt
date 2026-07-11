@@ -1,5 +1,5 @@
-Bei einem Basisspannungsteiler soll der Strom durch $R_2$ deutlich größer als der Basisstrom $I_B$ sein, typischerweise etwa um den Faktor 10.
+In un partitore di tensione di base, la corrente attraverso $R_2$ dovrebbe essere significativamente maggiore della corrente di base $I_B$, tipicamente circa 10 volte maggiore.
 
-Dadurch belastet der Basisstrom den Spannungsteiler nur wenig und die Basisspannung bleibt nahezu konstant. Der Arbeitspunkt des Transistors verändert sich dadurch deutlich weniger bei Änderungen der Stromverstärkung $B$ oder der Temperatur. So arbeitet die Verstärkerschaltung stabiler.
+Ciò significa che la corrente di base grava poco sul partitore di tensione e la tensione di base rimane quasi costante. Il punto di funzionamento del transistor cambia quindi molto meno al variare del guadagno di corrente $B$ o della temperatura. In questo modo, il circuito dell'amplificatore funziona in modo più stabile.
 
 

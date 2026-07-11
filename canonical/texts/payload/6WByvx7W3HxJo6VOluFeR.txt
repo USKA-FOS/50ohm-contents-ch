@@ -1,23 +1,23 @@
 [question:AC401]
 
-Die pn-Diode besteht aus zwei Halbleiterbereichen, die durch den Vorgang der Dotierung entweder einen Überschuss an freien Elektronen (n) oder freien Löchern (p) haben. Rechts und links der Grenzfläche entsteht eine sogenannte Raumladungszone, die praktisch keine freien Ladungsträger enthält. Das n-Gebiet stellt die Kathode, das p-Gebiet die Anode dar. 
+La diodo pn è composta da due regioni semiconduttrici che, tramite il processo di drogaggio, hanno un eccesso di elettroni liberi (n) o di lacune libere (p). A destra e a sinistra dell'interfaccia si forma una cosiddetta zona di svuotamento, che praticamente non contiene portatori di carica liberi. La regione n rappresenta il catodo, la regione p l'anodo.
 
-Wird die Diode mit einer Durchlassspannung beaufschlagt (positiv an der Anode, negativ an der Kathode), so werden Elektronen vom n-dotierten Gebiet in Richtung p-Gebiet und Löcher vom p-Gebiet in Richtung n-Gebiet geschickt. So ergibt sich die richtige Antwort.
+Se alla diodo viene applicata una tensione diretta (positiva all'anodo, negativa al catodo), gli elettroni vengono inviati dalla regione drogata n verso la regione p e le lacune dalla regione p verso la regione n. In questo modo si ottiene la risposta corretta.
 
-Etwas verwirrend ist gegebenenfalls, dass die technische Stromrichtung entgegengesetzt zur Richtung des Elektronenflusses ist. Der Strompfeil zeigt also von der Anode zur Kathode, obwohl der Elektronenfluss von der Kathode zur Anode verläuft.
+Ciò che può essere fonte di confusione è che la direzione tecnica della corrente è opposta alla direzione del flusso di elettroni. La freccia della corrente va quindi dall'anodo al catodo, sebbene il flusso di elettroni avvenga dal catodo all'anodo.
 
 [question:AC403]
 
-pn-Dioden zeigen eine exponentielle Abhängigkeit des Diodenstroms von der Diodenspannung. Der Sättigungsstrom steigt mit steigender Temperatur. Dies sorgt dafür, dass die für einen bestimmten Diodenstrom notwendige Diodenspannung mit steigender Temperatur kleiner wird. Die "Durchlassspannung" sinkt also (als Faustformel um $\qty{-2}{\milli\volt\per\kelvin}$ Temperaturerhöhung).
+Le diodi pn mostrano una dipendenza esponenziale della corrente di diodo dalla tensione di diodo. La corrente di saturazione aumenta con l'aumentare della temperatura. Ciò fa sì che la tensione di diodo necessaria per una determinata corrente di diodo diminuisca all'aumentare della temperatura. La "tensione diretta" diminuisce quindi (come regola pratica di circa $\qty{-2}{\milli\volt\per\kelvin}$ per ogni aumento di temperatura).
 <indepth>
 
-Der Diodenstrom ist:
+La corrente di diodo è:
   
 $I_D(T) = I_S(T) \cdot e^{\frac{U_D}{U_T}}$
   
-$I_S$ ist der Sättigungsstrom, $U_T = k T/q$ die sogenannte Temperaturspannung. Hier ist $k$ die Boltzmann-Konstante, $q$ die Elementarladung.
+$I_S$ è la corrente di saturazione, $U_T = k T/q$ è la cosiddetta tensione di temperatura. Qui $k$ è la Costante di Boltzmann, $q$ la carica elementare.
   
-Mit steigender Temperatur steigt der Sättigungsstrom und die Exponentialfunktion sinkt. Es überwiegt allerdings die Temperaturabhängigkeit des Sättigungsstroms.
+Con l'aumentare della temperatura, la corrente di saturazione aumenta e la funzione esponenziale diminuisce. Tuttavia, la dipendenza della corrente di saturazione dalla temperatura prevale.
 
 </indepth>
 
@@ -25,48 +25,48 @@ Mit steigender Temperatur steigt der Sättigungsstrom und die Exponentialfunktio
 
 ---
 
-Die Kapazitätsdiode (vgl. Abbildung [ref:a_diode_kapazitaet]) nutzt die Kapazität zwischen den n- und p-Gebieten über die Raumladungszone hinweg, analog zu einem Plattenkondensator. Dabei darf aber kein nennenswerter Gleichstrom fließen, also muss die Diode in Sperrrichtung gepolt werden.
+La diodo a capacità (cfr. figura [ref:a_diode_kapazitaet]) sfrutta la capacità tra le regioni n e p attraverso la zona di svuotamento, analogamente a un Condensatore a piastre. Tuttavia, non deve fluire alcuna corrente continua apprezzabile, quindi la diodo deve essere polarizzata inversamente.
 
 <margin>
-[picture:1068:a_diode_kapazitaet:Schaltzeichen Kapazitätsdiode]
+[picture:1068:a_diode_kapazitaet:simbolo di circuito Diodo a capacità]
 </margin>
 
-Je negativer die Diodenspannung (bzw. je höher die Sperrspannung), umso mehr dehnt sich die Raumladungszone aus und umso geringer wird die Diodenkapazität.
+Quanto più negativa è la tensione di diodo (o quanto maggiore è la tensione inversa), tanto più si espande la zona di svuotamento e tanto minore diventa la capacità di diodo.
 
-In den Fragen AC405 und AC406 werden *antiparallele Dioden* eingesetzt, um die Amplitude einer Wechselspannung zu begrenzen. Solche Schaltungen werden z.B. eingesetzt, um Empfängereingänge vor Spannungen zu schützen, die die Eingangstransistoren zerstören könnten.
+Nelle domande AC405 e AC406 vengono utilizzate *diodi antiparallele* per limitare l'ampiezza di una tensione alternata. Tali circuiti vengono utilizzati, ad esempio, per proteggere gli ingressi dei ricevitori da tensioni che potrebbero distruggere i transistor di ingresso.
 
 [question:AC405]
 
-Hier handelt es sich um Silizium-Dioden, die eine Schwellspannung von etwa $\qty{0,6}{\volt}$ haben. Wenn die Eingangsspannung also $\qty{0,6}{\volt}$ überschreitet, schaltet die rechte Diode durch. Unterschreitet sie $\qty{-0,6}{\volt}$, schaltet die linke Diode durch.
+Si tratta di diodi al silicio, che hanno una tensione di soglia di circa $\qty{0,6}{\volt}$. Quindi, se la tensione d'ingresso supera $\qty{0,6}{\volt}$, la diodo di destra conduce. Se scende al di sotto di $\qty{-0,6}{\volt}$, la diodo di sinistra conduce.
 
-Bei der ersten Halbwelle wird die nötige Spannung noch nicht erreicht, sie wird also unverändert übertragen. Die beiden nächsten Halbwellen allerdings haben Amplituden, die die Schwellspannung überschreiten. Die Amplituden werden bei $\qty{\pm 0,6}{\volt}$ "geklippt".
+Durante la prima semionda, la tensione necessaria non viene ancora raggiunta, quindi viene trasmessa invariata. Le due semionde successive, tuttavia, hanno ampiezze che superano la tensione di soglia. Le ampiezze vengono "tagliate" a $\qty{\pm 0,6}{\volt}$.
 
 [question:AC406]
 
-Die Lösung verläuft analog zur vorhergehenden Aufgabe - aber die Dioden sind hier *Germanium-Dioden*, die Schwellspannung beträgt etwa $\qty{0,3}{\volt}$. Daher werden alle Halbwellen geklippt.
+La soluzione è analoga al problema precedente, ma le diodi qui sono *diodi al germanio*, la tensione di soglia è di circa $\qty{0,3}{\volt}$. Pertanto, tutte le semionde vengono tagliate.
 
 [question:AC407]
 
-Im folgenden werden Bauelemente beschrieben, die mit Licht interagieren: der Fotowiderstand und die Fotodiode.
+Di seguito vengono descritti componenti che interagiscono con la luce: il fotoresistore e il fotodiodo.
 
-Der Fotowiderstand ist ein Bauelement, das über zwei nicht-sperrende Kontakte verfügt. Es verhält sich wie ein konventioneller Ohmscher Widerstand - der Strom steigt linear mit der angelegten Spannung. Der Widerstandswert kann durch Absorption von Licht verringert werden - die absorbierten Photonen erhöhen die Dichte der freien Ladungsträger. Liegt keine Spannung an, fließt auch kein Strom.
+Il fotoresistore è un componente che dispone di due contatti non bloccanti. Si comporta come una resistenza ohmica convenzionale: la corrente aumenta linearmente con la tensione applicata. Il valore di resistenza può essere ridotto dall'assorbimento di luce: i fotoni assorbiti aumentano la densità dei portatori di carica liberi. Se non c'è tensione, non scorre corrente.
 
 ---
 
-Die Fotodiode dagegen ist eine pn-Diode (vgl. Abbildung [ref:a_photodiode]). Das Licht wird hier in der Raumladungszone absorbiert, es entstehen Elektron-Loch-Paare, die im elektrischen Feld der Raumladungszone getrennt werden. Dieses Feld existiert auch ohne äußere Vorspannung. Es fließt auch für $U_D=0$ ein Strom (ein Kurzschlussstrom). Dieser Strom hat die entgegengesetzte Richtung wie der konventionelle Diodenstrom. 
+Il fotodiodo, invece, è una diodo pn (cfr. figura [ref:a_photodiode]). La luce viene qui assorbita nella zona di svuotamento, si creano coppie elettrone-lacuna che vengono separate nel campo elettrico della zona di svuotamento. Questo campo esiste anche senza polarizzazione esterna. Anche per $U_D=0$ scorre una corrente (una Corrente di cortocircuito). Questa corrente ha la direzione opposta alla corrente convenzionale di diodo.
 
 <margin>
-[picture:1069:a_photodiode:Schaltzeichen Photodiode]
+[picture:1069:a_photodiode:simbolo di circuito Fotodiodo]
 </margin>
 
 ---
 
 [question:AC408]
 
-Optokoppler vereinen eine Leuchtdiode und eine Fotodiode in einem Gehäuse, wobei die Eingangsseite (Leuchtdiode) und die Ausgangsseite (Fotodiode) voneinander isoliert sind (galvanisch getrennt).
+Gli optoisolatori combinano un diodo a emissione luminosa e un fotodiodo in un unico alloggiamento, dove il lato di ingresso (diodo a emissione luminosa) e il lato di uscita (fotodiodo) sono isolati l'uno dall'altro (galvanicamente separati).
 
-Diese Bauelemente werden eingesetzt, um Schnittstellen galvanisch zu trennen, zum Beispiel, um Masseschleifen zu verhindern, die für eingekoppeltes Netzbrummen sorgen können.
+Questi componenti vengono utilizzati per separare galvanicamente le interfacce, ad esempio per evitare loop di massa che possono causare ronzio di rete accoppiato.
 
 <margin>
-[picture:1070:a_optokoppler:Schaltzeichen Optokoppler]
+[picture:1070:a_optokoppler:simbolo di circuito Optoisolatore]
 </margin>

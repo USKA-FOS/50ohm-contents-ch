@@ -1,33 +1,33 @@
-Die Phasenumtastung (Phase Shift Keying, PSK) ist ein digitales Modulationsverfahren, das zur Übertragung von Daten in der Telekommunikation und im Amateurfunk genutzt wird. PSK basiert auf der Veränderung der Phase eines Trägersignals, um verschiedene Datenzustände zu repräsentieren. Im Vergleich zu Amplituden- oder Frequenzmodulation ist PSK weniger anfällig für Amplitudenrauschen und kann bei gleicher Bandbreite eine höhere Datenrate erreichen.
+La modulazione a spostamento di fase (Phase Shift Keying, PSK) è una tecnica di modulazione digitale utilizzata per la trasmissione di dati nelle telecomunicazioni e nel radioamatore. La PSK si basa sulla variazione della fase di un segnale portante per rappresentare diversi stati di dati. Rispetto alla modulazione di ampiezza o di frequenza, la PSK è meno suscettibile al rumore di ampiezza e può raggiungere una maggiore velocità di trasmissione dati a parità di larghezza di banda.
 
-[picture:705:psk:Phasenumtastung (Phase-shift Keying)]
+[picture:705:psk:Modulazione a spostamento di fase (Phase-shift Keying)]
 
-Prinzip der Phasenumtastung (PSK)
+Principio della modulazione a spostamento di fase (PSK)
 
-In der einfachsten Form, dem **BPSK (Binary Phase Shift Keying)**, gibt es zwei Phasenwinkel, z. B. $\qty{0}{\degree}$ und $\qty{180}{\degree}$. Jeder Phasenwinkel repräsentiert einen Bitwert ($\num{0}$ oder $\num{1}$). Bei einem Wechsel der Bitwerte verändert sich die Phase des Trägers um $\qty{180}{\degree}$.
+Nella sua forma più semplice, **BPSK (Binary Phase Shift Keying)**, ci sono due angoli di fase, ad esempio $\qty{0}{\degree}$ e $\qty{180}{\degree}$. Ogni angolo di fase rappresenta un valore di bit ($\num{0}$ o $\num{1}$). Quando i valori dei bit cambiano, la fase della portante cambia di $\qty{180}{\degree}$.
 
-Für höhere Datenraten gibt es Varianten wie **QPSK (Quadrature Phase Shift Keying)** und **8-PSK**, bei denen vier bzw. acht Phasenlagen verwendet werden, um mehrere Bits pro Symbol zu übertragen:
-- **QPSK**: Verwendet vier Phasen ($\qty{0}{\degree}$, $\qty{90}{\degree}$, $\qty{180}{\degree}$ und $\qty{270}{\degree}$), um jeweils zwei Bits pro Symbol zu kodieren.
-- **8-PSK**: Verwendet acht Phasen, um drei Bits pro Symbol zu kodieren.
+Per velocità di trasmissione dati più elevate, esistono varianti come **QPSK (Quadrature Phase Shift Keying)** e **8-PSK**, che utilizzano quattro o otto posizioni di fase per trasmettere più bit per simbolo:
+- **QPSK**: Utilizza quattro fasi ($\qty{0}{\degree}$, $\qty{90}{\degree}$, $\qty{180}{\degree}$ e $\qty{270}{\degree}$) per codificare due bit per simbolo ciascuna.
+- **8-PSK**: Utilizza otto fasi per codificare tre bit per simbolo.
 
-Signale in der Zeitdarstellung
+Segnali nella rappresentazione temporale
 
-In der Zeitdarstellung eines PSK-Signals zeigt sich die Phasenumtastung als abrupter Wechsel im Phasenwinkel des Trägersignals, während die Amplitude konstant bleibt. Dies ist ein deutlicher Unterschied zur Amplituden- oder Frequenzmodulation, da die Höhe und Frequenz des Signals gleichbleiben, nur die Phase ändert sich bei jedem Symbolwechsel.
+Nella rappresentazione temporale di un segnale PSK, la modulazione a spostamento di fase si manifesta come un brusco cambiamento nell'angolo di fase del segnale portante, mentre l'ampiezza rimane costante. Questa è una chiara differenza rispetto alla modulazione di ampiezza o di frequenza, poiché l'altezza e la frequenza del segnale rimangono le stesse, solo la fase cambia ad ogni cambio di simbolo.
 
-Beispiel: BPSK in der Zeitdarstellung
-- Bei BPSK ist das Signal in zwei Phasen gespalten: z. B. positive Amplitude für eine Phase ($\qty{0}{\degree}$) und negative Amplitude für die entgegengesetzte Phase ($\qty{180}{\degree}$).
-- In einem Zeit-Diagramm sieht man daher bei jedem Bitwechsel einen Sprung des Signals, z. B. von positiv nach negativ oder umgekehrt.
+Esempio: BPSK nella rappresentazione temporale
+- Con BPSK, il segnale è diviso in due fasi: ad esempio, ampiezza positiva per una fase ($\qty{0}{\degree}$) e ampiezza negativa per la fase opposta ($\qty{180}{\degree}$).
+- In un diagramma temporale, si vede quindi un salto del segnale ad ogni cambio di bit, ad esempio da positivo a negativo o viceversa.
 
-Beispiel: QPSK in der Zeitdarstellung
-- Hier sieht man vier verschiedene Phasenwinkel. Die Übergänge können ebenfalls abrupt sein, aber die Amplitude ändert sich nicht.
-- Da hier mehrere Phasenwinkel verwendet werden, sind die Phasensprünge kleiner, und die Kurve hat einen etwas „geglätteten“ Verlauf im Vergleich zu BPSK.
+Esempio: QPSK nella rappresentazione temporale
+- Qui si vedono quattro diversi angoli di fase. Le transizioni possono essere anch'esse brusche, ma l'ampiezza non cambia.
+- Poiché qui vengono utilizzati più angoli di fase, i salti di fase sono più piccoli e la curva ha un andamento leggermente "più liscio" rispetto a BPSK.
 
-Wie die Signale zu erkennen sind
+Come riconoscere i segnali
 
-In einem Oszilloskop- oder Phasen-Diagramm sind die Phasenübergänge sichtbar:
-- **Im Zeitbereich**: Ein abruptes Umkippen der Signalphase (positiv zu negativ oder zwischen verschiedenen Phasenlagen).
-- **Im Phasendiagramm** (oft als Constellation Diagram angezeigt): Jeder Phasenwinkel ist als Punkt auf einem Kreis dargestellt, der für die verschiedenen Zustände (Bits) steht. Bei einem sauberen Signal bleiben die Punkte stabil auf festen Positionen.
+In un oscilloscopio o in un diagramma di fase, le transizioni di fase sono visibili:
+- **Nel dominio temporale**: Un'inversione brusca della fase del segnale (da positivo a negativo o tra diverse posizioni di fase).
+- **Nel diagramma di fase** (spesso visualizzato come diagramma di costellazione): Ogni angolo di fase è rappresentato come un punto su un cerchio, che sta per i diversi stati (bit). Con un segnale pulito, i punti rimangono stabili in posizioni fisse.
 
-PSK ist besonders nützlich in der digitalen Kommunikation, da es hohe Datenraten bei vergleichsweise robuster Übertragung erlaubt. Die Veränderung der Phase bei gleichbleibender Amplitude hilft, das Signal auch bei Rauschen und Interferenzen besser zu erkennen und damit eine stabilere Übertragung zu ermöglichen.
+La PSK è particolarmente utile nella comunicazione digitale perché consente elevate velocità di trasmissione dati con una trasmissione relativamente robusta. La variazione di fase a ampiezza costante aiuta a riconoscere meglio il segnale anche in presenza di rumore e interferenze, consentendo così una trasmissione più stabile.
 
 [question:AE401]

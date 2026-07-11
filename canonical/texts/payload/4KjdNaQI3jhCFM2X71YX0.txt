@@ -1,26 +1,26 @@
-Bei mittengespeisten Dipolen im Freiraum liegt die Speiseimpedanz bei $\qty{73,1}{\ohm}$, also in der Größenordnung von $\qty{50}{\ohm}$ - aber eben nicht exakt! Dies gilt auch bei einer Aufbauhöhe von einer Wellenlänge oder darüber hinaus.
+Nei dipoli con alimentazione centrale nello spazio libero, l'impedenza di alimentazione è di $\qty{73,1}{\ohm}$, quindi dell'ordine di $\qty{50}{\ohm}$ - ma non esattamente! Questo vale anche con un'altezza di installazione pari a una lunghezza d'onda o superiore.
 
 <margin>
-[picture:788:e_fusspunktimpedanz_dipol:Fußpolimpedanz eines Dipols in Abhängigkeit von der Aufbauhöhe (Simuliert mit NECPP)]
+[picture:788:e_fusspunktimpedanz_dipol:Impedenza al punto di alimentazione di un dipolo in funzione dell'altezza di installazione (Simulato con NECPP)]
 </margin>
 
 [question:EG207]
 
-Bei Wechselwirkung mit dem Boden aufgrund geringerer Aufbauhöhe bewegt sich die Speiseimpedanz eines mittengespeisten Dipols im Bereich von $\qty{40}{\ohm}$ bis $\qty{90}{\ohm}$ wie in der Abbildung [ref:e_fusspunktimpedanz_dipol] dargestellt. 
+Con l'interazione con il terreno dovuta a una minore altezza di installazione, l'impedenza di alimentazione di un dipolo con alimentazione centrale si muove nell'intervallo da $\qty{40}{\ohm}$ a $\qty{90}{\ohm}$, come mostrato nella figura [ref:e_fusspunktimpedanz_dipol]. 
 
 [question:EG208]
 [question:EG209]
 
-Führt man einen Dipol als Faltdipol aus, dann verdoppelt sich aufgrund der in Reihe geschalteten jedoch teilweise parallel geführten Antennenabschnitte die anliegende Spannung und der benötigte Strom halbiert sich. Dies entspricht einer Vervierfachung der Speiseimpedanz. Deshalb hat ein Faltdipol eine Fußpunktimpedanz von $\qtyrange{240}{300}{\ohm}$.
+Se si realizza un dipolo come dipolo ripiegato, la tensione applicata raddoppia a causa delle sezioni dell'antenna collegate in serie ma parzialmente condotte in parallelo, e la corrente richiesta si dimezza. Ciò corrisponde a un quadruplicamento dell'impedenza di alimentazione. Pertanto, un dipolo ripiegato ha un'impedenza al punto di alimentazione di $\qtyrange{240}{300}{\ohm}$.
 
 [question:EG210]
 
 ---
 
-Bei einer Groundplane-Antenne hingegen entfällt der eine Dipolschenkel und wird durch eine Erde mit möglichst geringem Widerstand ersetzt. Hier kommt man also auf einen Speisewiderstand von $\frac{\qty{73,1}{\ohm}}{2} \approx \qty{37}{\ohm}$, was der Hälfte des Speisewiderstands eines Dipols im Freiraum entspricht. Bei Groundplaneantennen mit um $\qty{45}{\degree}$ nach unten abgewinkelten Radialen ergibt sich durch zusätzliche Abstrahlung durch die Radiale ein Speisewiderstand von genau $\qty{50}{\ohm}$, so dass keine weitere Anpassung an übliche Koaxialkabel notwendig wird. Deshalb liegt die Fußpunktimpedanz einer Groundplane zwischen $\qtyrange{30}{50}{\ohm}$.
+Con un'antenna groundplane, invece, un'estremità del dipolo viene omessa e sostituita da una terra con la minor resistenza possibile. Qui si ottiene quindi una resistenza di alimentazione di $\frac{\qty{73,1}{\ohm}}{2} \approx \qty{37}{\ohm}$, che corrisponde alla metà della resistenza di alimentazione di un dipolo nello spazio libero. Nelle antenne groundplane con radiali piegati verso il basso di $\qty{45}{\degree}$, l'irraggiamento aggiuntivo da parte dei radiali porta a una resistenza di alimentazione di esattamente $\qty{50}{\ohm}$, in modo che non sia necessario alcun ulteriore adattamento ai comuni cavi coassiali. Pertanto, l'impedenza al punto di alimentazione di una groundplane è compresa tra $\qtyrange{30}{50}{\ohm}$.
 
 <indepth>
-Bei schlechter Erdung oder Wechselwirkung mit dem Erdboden kann sich für eine Groundplane-Antenne auch bei horizontal verlegten Radialen (z. B. auf der Erdoberfläche) ein Speisewiderstand von über $\qty{37}{\ohm}$ ergeben. Der zusätzliche Widerstand ergibt sich dann durch Bodenverluste.
+Con una cattiva messa a terra o un'interazione con il terreno, una groundplane può presentare una resistenza di alimentazione superiore a $\qty{37}{\ohm}$ anche con radiali disposti orizzontalmente (ad esempio, sulla superficie terrestre). La resistenza aggiuntiva deriva quindi dalle perdite nel terreno.
 </indepth>
 
 [question:EG211]

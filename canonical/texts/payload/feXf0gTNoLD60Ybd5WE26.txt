@@ -1,13 +1,13 @@
-# Lösung über Ausschlussverfahren
-Es hilft zu erkennen, dass es sich hier um den im Kapitel "Demodulator" dargestellten Hüllkurvendemodulator handelt.  
-Auf der linken Seite der Schaltung ist zu sehen, dass dort das ZF-Signal am Eingang der Schaltung anliegt.  
-$\rightarrow$ Damit fällt die Antwort "Der Ausgang für das ZF-Signal." weg.
+# Soluzione per esclusione
+Aiuta a riconoscere che si tratta del demodulatore di inviluppo presentato nel capitolo "Demodulatore".
+Sul lato sinistro del circuito si vede che il segnale IF è presente all'ingresso del circuito.
+$\rightarrow$ Pertanto, la risposta "L'uscita per il segnale IF." viene esclusa.
 
-Der Anschluss $\text{X}$ liegt hinter einem RC-Tiefpassfilter, der mit einem Elektrolytkondensator (zu erkennen am kleinen "+") aufgebaut ist. Elektrolytkondensatoren haben eine relativ hohe Kapazität. Für den Zusammenhang von Grenzfrequenz ($f_\text{g}$) und Kapazität ($C$) betrachten wir die Formel (Filter, RC-Tiefpass) aus der Formelsammlung: 
+Il collegamento $\text{X}$ si trova dietro un filtro RC passa-basso, realizzato con un condensatore elettrolitico (riconoscibile dal piccolo "+"). I condensatori elettrolitici hanno una capacità relativamente elevata. Per la relazione tra frequenza di taglio ($f_\text{g}$) e capacità ($C$), consideriamo la formula (Filtro, RC passa-basso) dalla raccolta di formule:
 
 $f_\text{g} = \frac{1}{2\cdot\pi\cdot R \cdot C}$
 
-Eine große Kapazität ($C$) erzeugt einen großen Nenner und damit eine kleine Grenzfrequenz ($f_\text{g}$) für den RC-Tiefpassfilter.  
-$\rightarrow$ Damit fallen die Antworten "Der Ausgang für das NF-Signal." und "Der Ausgang für das Oszillatorsignal." weg.
+Una grande capacità ($C$) produce un denominatore grande e quindi una piccola frequenza di taglio ($f_\text{g}$) per il filtro RC passa-basso.
+$\rightarrow$ Pertanto, le risposte "L'uscita per il segnale NF." e "L'uscita per il segnale dell'oscillatore." vengono escluse.
 
-Am Anschluss $\text{X}$ liegt eine niederfrequente Spannung an, die für die Regelung genutzt werden kann.
+Al collegamento $\text{X}$ è presente una tensione a bassa frequenza che può essere utilizzata per la regolazione.

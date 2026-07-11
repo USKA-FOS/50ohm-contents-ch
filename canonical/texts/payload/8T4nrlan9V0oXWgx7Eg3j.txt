@@ -1,28 +1,28 @@
 <left>
-* Automatisch arbeitende Amateurfunk-Sendeanlage
-* Ständig wiederkehrende Aussendungen
-* Zu Feldstärkebeobachtungen oder Empfangsversuchen
-* Kann auch in Satelliten sein
+* Stazione radioamatoriale ad azionamento automatico
+* Trasmissioni ripetute continuamente
+* Per osservazioni sull'intensità di campo o tentativi di ricezione
+* Possono anche trovarsi nei satelliti
 </left>
 <right>
-* Fest zugewiesene Frequenz
-* Fester Standort
-* Rufzeichen in regelmäßigen Abständen
-* Meist in Morsetelegrafie
+* Frequenza assegnata in modo fisso
+* Posizione fissa
+* Segnale di chiamata a intervalli regolari
+* Per lo più in telegrafia Morse
 </right>
 
 ---
 [question:VD119]
 ---
 
-## Nutzung von Baken
-* Empfangbarkeit abhängig von wechselnden Ausbreitungsbedingungen
-* Indikator für die Machbarkeit einer Funkverbindung
-* Reflexion an Polarlichtern im VHF-Band durch "Aurora-Baken" testen
-* Durch Peilung Antennenausrichtung überprüfen
+## Utilizzo dei beacon
+* La ricevibilità dipende dalle mutevoli condizioni di propagazione
+* Indicatore della fattibilità di un collegamento radio
+* Testare la riflessione sulle aurore boreali nella banda VHF tramite "beacon aurora"
+* Verificare l'orientamento dell'antenna tramite rilevamento della direzione
 
 <note>
-* Hört man auf Kurzwelle eine Bake aus Südamerika, dann ist auch eine Funkverbindung dahin möglich
+* Se si sente un beacon dal Sud America sulla corta onda, è possibile anche un collegamento radio in quella direzione
 </note>
 
 ---
@@ -30,27 +30,27 @@
 
 --- style="font-size: 0.7em;"
 
-## Internationales Bakenprojekt (IBP)
+## Progetto Internazionale Beacon (IBP)
 <left>
-* Größere Anzahl Baken auf allen Kontinenten verteilt
-* Senden in einem festgelegten zeitlichen Ablauf nacheinander aus
-* Alle auf der gleichen Frequenz
+* Un gran numero di beacon distribuiti in tutti i continenti
+* Trasmettono in sequenza secondo una sequenza temporale definita
+* Tutti sulla stessa frequenza
 </left>
 <right>
-| l: Band | X: Frequenzbereich |
+| l: Banda | X: Banda di frequenza |
 | $\qty{10}{\meter}$ | $\qtyrange{28190}{28225}{\kilo\hertz}$ |
 | $\qty{12}{\meter}$ | $\qtyrange{24929}{24931}{\kilo\hertz}$ |
 | $\qty{15}{\meter}$ | $\qtyrange{21149}{21151}{\kilo\hertz}$ |
 | $\qty{17}{\meter}$ | $\qtyrange{18109}{18111}{\kilo\hertz}$ |
 | $\qty{20}{\meter}$ | $\qtyrange{14099}{14101}{\kilo\hertz}$ |
-[table:n_baken_frequenzbereiche:Frequenzbereiche für Baken gemäß IARU-Bandplan]
+[table:n_baken_frequenzbereiche:Bande di frequenza per beacon secondo il piano di banda IARU]
   
 <fragment>
-Keinen Funkbetrieb dort durchführen!
+Non effettuare comunicazioni radio lì!
 </fragment>
 </right>
 <note>
-* Sinnvoll, um sich schnell einen Überblick über die Ausbreitungsbedingungen zu verschaffen
+* Utile per avere rapidamente una panoramica delle condizioni di propagazione
 </note>
 
 ---

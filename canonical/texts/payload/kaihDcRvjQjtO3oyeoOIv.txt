@@ -1,29 +1,29 @@
-Bei sinusförmigen Wechselstromsignalen wird die Leistung aus den Effektivwerten von Strom und Spannung berechnet. Es darf somit nicht einfach stattdessen die Spannung von Spitze zu Spitze $U_\text{SS}$, oder die Spitzenspannung $\hat{U}$ stattdessen eingesetzt werden.
+Nei segnali di corrente alternata sinusoidale, la potenza viene calcolata dai valori efficaci di corrente e tensione. Pertanto, non si devono semplicemente utilizzare al loro posto la tensione picco-picco $U_\text{SS}$ o la tensione di picco $\hat{U}$.
 
 <margin>
-[picture:834:a_wechselstrom_leistung:Effektivwerte für die Leistungsberechnung]
+[picture:834:a_wechselstrom_leistung:Valori efficaci per il calcolo della potenza]
 </margin>
 
-Somit ergibt sich für die Berechnung der Leistung
-$P_\text{Wechselstrom} = U_\text{eff} \cdot I_\text{eff} = \dfrac{{U_\text{eff}}^2}{R} = I_\text{eff}^2 \cdot R$
+Pertanto, per il calcolo della potenza si ottiene
+$P_\text{corrente alternata} = U_\text{eff} \cdot I_\text{eff} = \dfrac{{U_\text{eff}}^2}{R} = I_\text{eff}^2 \cdot R$
 
 
-Bei sinusförmigen Signalen gilt allerdings auch:
+Tuttavia, per segnali sinusoidali vale anche:
 
 $U_\text{eff} = \dfrac {\hat{U}} {\sqrt{2}} = \dfrac {U_\text{SS}} {2 \cdot \sqrt{2}}$ 
 $I_\text{eff} = \dfrac {\hat{I}} {\sqrt{2}} = \dfrac {I_\text{SS}} {2 \cdot \sqrt{2}}$ 
 
-Entsprechend ergeben sich für sinusförmige Signale folgende Zusammenhänge, bei denen auch mit Spitzenwerten und Spitze-Spitze-Werten gerechnet werden können:
+Di conseguenza, per segnali sinusoidali si ottengono le seguenti relazioni, con le quali si può anche calcolare con valori di picco e valori picco-picco:
 
-$\begin{split} P_\text{Wechselstrom} &=  U_\text{eff} \cdot I_\text{eff} \\ &= \frac{\hat{U}\cdot\hat{I}}{\sqrt{2}\cdot\sqrt{2}} = \frac{\hat{U} \cdot \hat{I}}{2} \\ &= \frac{U_\text{eff}^2}{R} = \left(\frac{\hat{U}}{\sqrt{2}}\right)^2 \cdot \frac{1}{R} = \frac{\hat{U}^2}{2 \cdot R} \\ &= I_\text{eff}^2 \cdot R = \left(\frac{\hat{I}}{\sqrt{2}}\right)^2 \cdot R = \frac{\hat{I}^2\cdot R}{2} \end{split}$
+$\begin{split} P_\text{corrente alternata} &=  U_\text{eff} \cdot I_\text{eff} \\ &= \frac{\hat{U}\cdot\hat{I}}{\sqrt{2}\cdot\sqrt{2}} = \frac{\hat{U} \cdot \hat{I}}{2} \\ &= \frac{U_\text{eff}^2}{R} = \left(\frac{\hat{U}}{\sqrt{2}}\right)^2 \cdot \frac{1}{R} = \frac{\hat{U}^2}{2 \cdot R} \\ &= I_\text{eff}^2 \cdot R = \left(\frac{\hat{I}}{\sqrt{2}}\right)^2 \cdot R = \frac{\hat{I}^2\cdot R}{2} \end{split}$
 
-Die folgende Frage lässt sich mit diesen Überlegungen sehr leicht lösen ($I_\mathrm{max}$ ist dabei nur eine andere Bezeichnung für $\hat{I}$):
+La seguente domanda può essere risolta molto facilmente con queste considerazioni ($I_\mathrm{max}$ è solo un'altra denominazione per $\hat{I}$):
 
 [question:AB301]
 
-Im Amateurfunkbereich haben wir es mit Spannungen mit unterschiedlichen Frequenzen (z.B. Kilo- oder Gigahertz) und Wellenformen (Rechteckspannung, sinusförmige Spannung, Gleichspannung) zu tun. Diese können auch verzerrt sein und nicht als z.B. reine Sinusspannung vorliegen. Diese unterschiedlichen Spannungen erzeugen in einem Stromkreis unterschiedliche elektrische Ströme. Prinzipiell würde man nun verschiedene Geräte benötigen um diese Bandbreite an elektrischen Strömen mit einer vernüftigen Messgenauigkeit messen zu können. 
+Nell'ambito del radioamatore, abbiamo a che fare con tensioni di diverse frequenze (ad es. kilo o gigahertz) e forme d'onda (tensione a onda quadra, tensione sinusoidale, tensione continua). Queste possono anche essere distorte e non presentarsi come, ad es., una pura tensione sinusoidale. Queste diverse tensioni generano correnti elettriche diverse in un circuito. In linea di principio, si avrebbero quindi bisogno di diversi apparecchi per misurare questa larghezza di banda di correnti elettriche con una ragionevole precisione di misurazione. 
 
-Im Amateurfunkbereich verwendet man deshalb oft einen sogenannten *Thermoumformer*.
-Man nutzt hierbei aus, dass der Stromfluss den Leiterdraht erwärmt (vgl. Widerstand von Drähten). Je mehr Strom dabei fließt desto wärmer wird der Draht. Die Erwärmung ist also proportional zur Stromstärke. Der Thermoumformer misst diese Erwärmung und zeigt sie als Stromstärke an.  Zu beachten ist dabei, dass wir mit dieser Messmethode den *Effektivwert* der Stromstärke erhalten. Der Vorteil dabei ist nun, dass sich die Stromstärke nahezu *unabhängig* von der Wellenform oder Frequenz bestimmen lässt. Der Thermoumformer kann damit eine großen Bereich an Signalen abdecken. 
+Nell'ambito del radioamatore si utilizza quindi spesso un cosiddetto *trasduttore termico*.
+Si sfrutta il fatto che il flusso di corrente riscalda il filo conduttore (cfr. Resistenza dei fili). Più corrente scorre, più il filo si scalda. Il riscaldamento è quindi proporzionale all'Intensità di corrente. Il trasduttore termico misura questo riscaldamento e lo visualizza come Intensità di corrente. Si noti che con questo metodo di misurazione si ottiene il *valore efficace* dell'Intensità di corrente. Il vantaggio è che l'Intensità di corrente può essere determinata quasi *indipendentemente* dalla forma d'onda o dalla frequenza. Il trasduttore termico può quindi coprire un ampio campo di segnali. 
 
 [question:AI105]

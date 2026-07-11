@@ -1,23 +1,23 @@
-* Aufteilung des Bandes in verschiedene Frequenzsegmente
-* Bevorzugte Übertragungsverfahren und Nutzung
+* Suddivisione della banda in diversi segmenti di frequenza
+* Metodi di trasmissione preferiti e utilizzo
 
 ---
 
-[photo:102:n_iaru_bandplan_2m:IARU-Bandplan $\qty{2}{\meter}$]
+[photo:102:n_iaru_bandplan_2m:Piano di banda IARU $\qty{2}{\meter}$]
 
 ---
 
-## Anruffrequenz
+## Frequenza di chiamata
 
-Um schnell Funkpartner zu finden
+Per trovare rapidamente partner radio
 
-* FM-Sprechfunk ("FM calling")
-* Digitale Telefonie ("digital voice calling")
+* Radiotelefonia FM ("FM calling")
+* Telefonia digitale ("digital voice calling")
 
 <note>
-* FM-Sprechfunk ist analog
-* Digitale Übertragungsverfahren kann alles Digitales sein
-* Mehr dazu später im Kurs
+* La radiotelefonia FM è analogica
+* I metodi di trasmissione digitale possono essere qualsiasi cosa digitale
+* Maggiori dettagli più avanti nel corso
 </note>
 
 ---
@@ -26,38 +26,38 @@ Um schnell Funkpartner zu finden
 [question:BC207]
 ---
 
-## Frequenzwechsel
+## Cambio di frequenza
 
-* Anruffrequenzen für Anrufe freihalten
-* Nach Verbindungsaufbau auf eine andere Frequenz verständigen
-* Nützliche Frequenz aus dem Bandplan entnehmen
-* Frequenz wechseln
+* Mantenere libere le frequenze di chiamata per le chiamate
+* Accordarsi su un'altra frequenza dopo aver stabilito il collegamento
+* Prendere una frequenza utile dal piano di banda
+* Cambiare frequenza
 
 ---
 [question:BC209]
 ---
-## Analoge SSB-Telefonie
+## Telefonia analogica SSB
 
-* Es gibt keine Anruffrequenz
-* Stattdessen ein *Aktivitätszentrum* bzw. *center of activity*
-* Anrufe sollen im Umfeld dieser Frequenz stattfinden
-* Es kann aber der ganze "SSB"-Bereich genutzt werden
+* Non esiste una frequenza di chiamata
+* Invece, un *centro di attività*
+* Le chiamate dovrebbero avvenire nell'area circostante questa frequenza
+* Ma si può utilizzare l'intera banda "SSB"
 
 ---
 [question:BC211]
 ---
 [question:BC210]
 ---
-## Reservierte Frequenzbereiche
+## Bande di frequenza riservate
 
-* Satelliten-Up- und Downlink ("satellite uplink", "satellite downlink")
+* Uplink e downlink satellitare ("satellite uplink", "satellite downlink")
 * Baken ("beacons")
-* Relaisfunkstellen, Eingabe und Ausgabe ("repeater input", "repeater output")
-* Weltraumkommunikation ("space communication")
-* Morsetelegrafie ("CW")
+* Stazioni radio ripetitrici, ingresso e uscita ("repeater input", "repeater output")
+* Comunicazione spaziale ("space communication")
+* Telegrafia Morse ("CW")
 
 <note>
-* Andersartige Verbindungen darauf sollten vermieden werden
+* Dovrebbero essere evitati collegamenti di tipo diverso
 </note>
 ---
 [question:BC214]

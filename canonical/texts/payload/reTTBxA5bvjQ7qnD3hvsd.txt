@@ -1,9 +1,9 @@
-Ein Low Noise Block Converter (LNB) wird häufig bei der Verarbeitung von hohen Frequenzen im $\unit{\giga\hertz}$-Bereich bei Amateurfunkverkehr über Satelliten verwendet. Hierbei wird die sehr hohe Empfangsfrequenz die typischerweise durch einen SAT-Spiegel empfangen wird bereits direkt im LNB auf eine deutlich niedrigere Frequenz heruntergemischt um hohe Kabelverluste, die bei hohen Frequenzen auftreten würden, zu vermeiden.
+Un convertitore di blocco a basso rumore (LNB) viene spesso utilizzato nell'elaborazione di alte frequenze nella gamma dei $\unit{\giga\hertz}$ per le comunicazioni radioamatoriali via satellite. In questo caso, la frequenza di ricezione molto alta, tipicamente ricevuta da uno specchio SAT, viene già convertita direttamente nell'LNB a una frequenza significativamente più bassa per evitare elevate perdite del cavo che si verificherebbero ad alte frequenze.
 
 [question:AF230]
 
-Bei einem LNB handelt es sich um eine aktive Komponente, welche eine Spannungsversorgung benötigt. Diese erfolgt meist direkt durch das Koaxialkabel, welches zum LNB führt. Hierfür wird in das Koaxialkabel ein sog. Bias-T in der Empfangsstelle eingebaut. Seine Aufgabe ist die Gleichspannungsversorgung des LNBs sowie die Trennung der Gleichspannung vom HF-Signal im weiteren Signalweg hin zum Empfänger.
-Ein LNB kann entweder horizontal oder vertikal polarisierte Signale empfangen. Die Umschaltung zwischen den beiden Polarisationsrichtungen erfolgt hierbei über die Höhe der Betriebsspannung mit welcher das LNB versorgt wird. Übliche Werte sind hier z.B. $\qty{12}{\volt}$ und $\qty{18}{\volt}$.
+Un LNB è un componente attivo che necessita di un'alimentazione elettrica. Questa avviene solitamente direttamente tramite il cavo coassiale che porta all'LNB. A tale scopo, un cosiddetto Bias-T viene installato nel cavo coassiale nel punto di ricezione. Il suo compito è fornire l'alimentazione in corrente continua all'LNB e separare la corrente continua dal segnale RF nel percorso del segnale verso il ricevitore.
+Un LNB può ricevere segnali polarizzati orizzontalmente o verticalmente. La commutazione tra le due direzioni di polarizzazione avviene tramite il livello della tensione di servizio con cui l'LNB viene alimentato. Valori tipici sono, ad esempio, $\qty{12}{\volt}$ e $\qty{18}{\volt}$.
 
 [question:AF231]
 

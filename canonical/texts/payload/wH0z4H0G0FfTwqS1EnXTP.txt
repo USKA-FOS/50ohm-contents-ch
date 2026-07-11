@@ -1,17 +1,17 @@
-* In Klasse N und E wurden bereits Grundlagen zur Ionosphäre, Sonnenfleckenaktivität, "Tote Zone" und die ionosphärischen Regionen behandelt
-* Die UV-Strahlung der Sonne ist für die Ionisierung von Molekülen in der Ionosphäre verantwortlich.
+* In classe N ed E sono già state trattate le basi della ionosfera, l'attività delle macchie solari, la "zona morta" e le regioni ionosferiche
+* La radiazione UV del sole è responsabile dell'ionizzazione delle molecole nella ionosfera.
 
 ---
 [question:AH101]
 ---
 
 <left>
-[picture:874:a_schichten_jahreszeiten:Mögliche höhen der Regionen in Abhängigkeit von der Jahres- und Tageszeit]
+[picture:874:a_schichten_jahreszeiten:Possibili altezze delle regioni in funzione della stagione e dell'ora del giorno]
 </left>
 <right>
-* Die wichtigsten Regionen der Ionosphäre sind die D-, E- und F-Region
-* In der Klasse A, es ist wichtig, ihre Höhenbereiche zu kennen
-* Sie variieren je nach Tageszeit und Jahreszeit
+* Le regioni più importanti della ionosfera sono la regione D, E e F
+* Nella classe A, è importante conoscerne i loro intervalli di altitudine
+* Variano a seconda dell'ora del giorno e della stagione
 </right>
 
 ---
@@ -25,28 +25,28 @@
 ---
 [question:AH108]
 ---
-### Sonnenfleckenminimum
+### Minimo delle macchie solari
 
-* Die Abhängigkeit von der Tageszeit beeinflusst die Ausbreitung von Funkwellen
-* Im Sonnenfleckenmaximum funktioniert das $\qty{10}{\meter}$-Band tagsüber gut
-* Im Sonnenfleckenminimum ist das $\qty{10}{\meter}$-Band tagsüber kaum nutzbar
-* Während des Sonnenfleckenminimums wird tagsüber häufig das $\qty{20}{\meter}$-Band für Weitverbindungen verwendet
+* La dipendenza dall'ora del giorno influenza la propagazione delle onde radio
+* Al massimo delle macchie solari, la banda dei $\qty{10}{\meter}$ funziona bene durante il giorno
+* Al minimo delle macchie solari, la banda dei $\qty{10}{\meter}$ è difficilmente utilizzabile durante il giorno
+* Durante il minimo delle macchie solari, la banda dei $\qty{20}{\meter}$ viene spesso utilizzata durante il giorno per collegamenti a lunga distanza
 
 ---
 [question:AH202]
 ---
-* Das $\qty{40}{\meter}$-Band ist ein zuverlässiges Band für die Kommunikation
-* Ebenso wie das $\qty{20}{\meter}$-Band nur Klasse A vorbehalten
-* Das $\qty{40}{\meter}$-Band ist besonders für die Kommunikation über große Entfernungen innerhalb Deutschlands geeignet, wie z. B. von Hamburg nach München
+* La banda dei $\qty{40}{\meter}$ è una banda affidabile per la comunicazione
+* Come la banda dei $\qty{20}{\meter}$, è riservata solo alla classe A
+* La banda dei $\qty{40}{\meter}$ è particolarmente adatta per la comunicazione a lunga distanza all'interno della Germania, ad esempio da Amburgo a Monaco
 
 ---
 [question:AH201]
 ---
-### Nachts
+### Di notte
 
-* $\qty{80}{\meter}$ und $\qty{160}{\meter}$-Bänder sind tagsüber aufgrund der D-Schicht kaum nutzbar, aber nachts zuverlässig
-* $\qty{40}{\meter}$-Band ermöglicht nachts größere Reichweiten, da die Ausbreitung über die F2-Schicht erfolgt
-* F1-Schicht: Führt aufgrund geringerer Höhe zu kürzeren Sprungdistanzen und ist meist unerwünscht
+* Le bande degli $\qty{80}{\meter}$ e $\qty{160}{\meter}$ sono difficilmente utilizzabili di giorno a causa dello strato D, ma sono affidabili di notte
+* La banda dei $\qty{40}{\meter}$ consente distanze maggiori di notte, poiché la propagazione avviene attraverso lo strato F2
+* Strato F1: porta a distanze di salto più brevi a causa dell'altitudine inferiore ed è generalmente indesiderato
 
 ---
 [question:AH203]
@@ -55,27 +55,27 @@
 ---
 [question:AH107]
 ---
-## Solarer Flux
+## Flusso solare
 
 <left>
-[picture:988:a_flux:Solarer Flux und Anzahl der Sonnenflecken von 2005 bis 2025]
+[picture:988:a_flux:Flusso solare e numero di macchie solari dal 2005 al 2025]
 </left>
 <right>
-* Strahlung der Sonne auf $\qty{2,8}{\giga\hertz}$
-* Wird seit Mitte des 20. Jahrhunderts durchgeführt
-* Ist weniger sprunghaft als Zählung der Sonnenflecken
-* Reicht von 65 im Aktivitätsminimum und bis über 300 bei starken Maxima
-* Werte über 100 führen zu höherer Ionisierung und verbesserten Ausbreitungsbedingungen im KW-Bereich
+* Radiazione del sole a $\qty{2,8}{\giga\hertz}$
+* Viene effettuato dalla metà del XX secolo
+* È meno variabile del conteggio delle macchie solari
+* Varia da 65 nel minimo di attività e fino a oltre 300 in caso di massimi forti
+* Valori superiori a 100 portano a una maggiore ionizzazione e a migliori condizioni di propagazione nella gamma delle onde corte
 </right>
 
 ---
 [question:AH102]
 ---
-## Polarisation
+## Polarizzazione
 
-* Die Polarisation einer elektromagnetischen Welle ändert sich bei der Raumwellenausbreitung
-* Dies ist auf die Faraday-Rotation, Reflexionsphänomene in der Ionosphäre und Multipath-Effekte zurückzuführen
-* Die empfangene Polarisation kann nicht mehr der ursprünglich gesendeten entsprechen
+* La polarizzazione di un'onda elettromagnetica cambia durante la propagazione delle onde spaziali
+* Ciò è dovuto alla rotazione di Faraday, ai fenomeni di riflessione nella ionosfera e agli effetti multipath
+* La polarizzazione ricevuta potrebbe non corrispondere più a quella originariamente trasmessa
 
 ---
 [question:AH219]

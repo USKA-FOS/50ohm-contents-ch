@@ -1,15 +1,15 @@
-Durch den geringen Aufwand ist der Brückengleichrichter eine häufig verwendete Gleichrichterschaltung. Dazu benötigt man einen Trafo und 4 Dioden.
+Grazie al basso costo, il ponte raddrizzatore è un circuito raddrizzatore comunemente utilizzato. Per questo sono necessari un trasformatore e 4 diodi.
 
 <latexonly>
-In der Abbildung [ref:a_brueckenlgeichrichter] ist ein solcher Brückengleichrichter dargestellt.
+Nella figura [ref:a_brueckenlgeichrichter] è rappresentato un tale ponte raddrizzatore.
 
 <margin>
-[picture:965:a_brueckenlgeichrichter:Brückengleichrichter]
+[picture:965:a_brueckenlgeichrichter:Ponte raddrizzatore]
 </margin>
 </latexonly>
 
 <webonly>
-In dem nebenstehenden Applet ist ein solcher Brückengleichrichter dargestellt. Man kann bei dargestellter Polarität der Trafospannung $U_a$ bzw. $U_s$ den Laststrom in seinem Stromverlauf verfolgen und erkennen, dass der dieser stets in gleicher Richtung durch den Lastwiderstand $R$ fließt.
+Nell'applet accanto è rappresentato un tale ponte raddrizzatore. Con la polarità data della tensione del trasformatore $U_a$ o $U_s$, è possibile seguire la corrente di carico nel suo andamento e osservare che essa scorre sempre nella stessa direzione attraverso la resistenza di carico $R$.
 
 <margin>
 [include:applet_gleichrichter_2]
@@ -17,37 +17,37 @@ In dem nebenstehenden Applet ist ein solcher Brückengleichrichter dargestellt. 
 </webonly>
 
 <tip>
-[picture:67:a_brueckenlgeichrichter_2:Anordnung der Dioden im Brückengleichrichter]
-Beim Brückengleichrichter zeigen die Dioden mit ihren Kathoden zum Pluspol hin und die Anoden zum Minuspol. Man kann sich also merken: Die "Striche" der Dioden treffen sich am Plusausgang. Diese Anordnung darf nicht mit einem Diodenringmischer verwechselt werden, welchen wir noch später kennenlernen werden. 
+[picture:67:a_brueckenlgeichrichter_2:Disposizione dei diodi nel ponte raddrizzatore]
+Nel ponte raddrizzatore, i diodi puntano con i loro catodi verso il polo positivo e gli anodi verso il polo negativo. Si può quindi ricordare: le "linee" dei diodi si incontrano all'uscita positiva. Questa disposizione non deve essere confusa con un mixer ad anello a diodi, che impareremo più avanti. 
 </tip>
 
 [question:AD305]
 
 ---
 
-Wenn man nach dem Brückengleichrichter einen Ladekondensator $C_L$ und ein LC-Siebglied (vgl. Abbildung [ref:a_netzteil_Ucs] verbaut, erreicht man damit eine kleinere Amplitude in der pulsierenden Ausgangsgleichspannung. Somit haben wir ein konventionelles Netzteil. 
+Se dopo il ponte raddrizzatore si installa un condensatore di carico $C_L$ e uno stadio di filtraggio LC (cfr. figura [ref:a_netzteil_Ucs]), si ottiene un'ampiezza minore nella tensione continua di uscita pulsante. In questo modo abbiamo un alimentatore convenzionale.
 
 <margin>
-[picture:66:a_netzteil_Ucs:Gleichrichterschaltung mit Siebung]
+[picture:66:a_netzteil_Ucs:Circuito raddrizzatore con filtraggio]
 </margin>
 
-Auch beim Brückengleichrichter lädt sich der Kondensator auf die Spitzenspannung $\hat{U}$ der Sekundärspannung $U_{\mathrm{sek}}$ des Trafos auf.
+Anche nel ponte raddrizzatore, il condensatore si carica fino alla tensione di picco $\hat{U}$ della tensione secondaria $U_{\mathrm{sek}}$ del trasformatore.
 
 $\hat{U}=U_{\mathrm{eff}}\cdot\sqrt{2}$
 
-Weiterhin müssen wir beachten, ob der Trafo ein Übersetzungsverhältnis $ü$ aufweist. Mit diesem Wissen können wir die folgende Aufgabe lösen.
+Inoltre, dobbiamo considerare se il trasformatore ha un rapporto di trasformazione $ü$. Con queste informazioni, possiamo risolvere il seguente problema.
 
 [question:AD306]
 
 <indepth>
-[photo:296: Brückengleichrichter Bauformen: Bauformen von Brückengleichrichtern]
-Die Beschriftung der Anschlüsse ist zu beachten.
+[photo:296: Brückengleichrichter Bauformen: Forme costruttive dei ponti raddrizzatori]
+Prestare attenzione alla marcatura dei collegamenti.
 
-1. Hochstrom-Brückengleichrichter 26 MB 20 A ($\qty{200}{\volt}$, $\qty{25}{\ampere}$) im Metallgehäuse zur direkten Montage auf einem Kühlkörper
-2. B80 C 5000/3300 bedeutet: maximal $\qty{80}{\volt}$ Betriebsspannung, C kapazitive Last max. $\qty{2500}{\micro\farad}$ mit Schutzwiderstand $R = \qty{1}{\ohm}$, maximaler Dauerlaststrom: $\qty{5000}{\milli\ampere}$ mit Kühlkörper, $\qty{3300}{\milli\ampere}$ ohne Kühlkörper
-3. BY 225 Brückengleichrichter - besonderes Gehäuse
-4. runde Bauform eines Brückengleichrichters B 80 C 1000
-5. B40 C 1500 - die veränderte Anschlussfolge ist zu beachten
+1. Ponte raddrizzatore ad alta corrente 26 MB 20 A ($\qty{200}{\volt}$, $\qty{25}{\ampere}$) in involucro metallico per il montaggio diretto su un dissipatore di calore
+2. B80 C 5000/3300 significa: tensione di servizio massima $\qty{80}{\volt}$, carico capacitivo C massimo $\qty{2500}{\micro\farad}$ con resistenza di protezione $R = \qty{1}{\ohm}$, corrente di carico continua massima: $\qty{5000}{\milli\ampere}$ con dissipatore di calore, $\qty{3300}{\milli\ampere}$ senza dissipatore di calore
+3. BY 225 Ponte raddrizzatore - involucro speciale
+4. Forma costruttiva rotonda di un ponte raddrizzatore B 80 C 1000
+5. B40 C 1500 - prestare attenzione alla sequenza di collegamento modificata
 6. FPU 4M ($\qty{1000}{\volt}$, $\qty{4}{\ampere}$)
-7. im Kunststoff eingeprägte Anschlussfolge
+7. Sequenza di collegamento impressa nella plastica
 </indepth>

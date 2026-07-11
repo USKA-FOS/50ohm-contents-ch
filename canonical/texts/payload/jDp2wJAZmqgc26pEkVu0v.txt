@@ -1,61 +1,61 @@
-Im Amateurfunk haben wir es häufig sowohl mit sehr großen als auch mit sehr kleinen Zahlen zu tun. Die Einheit der Frequenz – das Hertz ($\unit{\hertz}$) – sowie die typischen Vorsätze für große Zahlen wie *Kilo* ($\unit{\kilo}$), *Mega* ($\unit{\mega}$) und *Giga* ($\unit{\giga}$) sind uns bereits begegnet.
+Nell'radioamatore, abbiamo spesso a che fare sia con numeri molto grandi che molto piccoli. L'unità di misura della frequenza – l'hertz ($\unit{\hertz}$) – così come i prefissi tipici per numeri grandi come *Kilo* ($\unit{\kilo}$), *Mega* ($\unit{\mega}$) e *Giga* ($\unit{\giga}$) ci sono già noti.
 
-Auch für kleine Zahlen gibt es solche Einheitenvorsätze. Bekannt ist zum Beispiel *Milli*, abgekürzt mit $\unit{\milli}$. Ein Millimeter entspricht einem Tausendstel Meter, also $\qty{0,001}{\meter}$. Die am meisten verwendeten Vorsätze für große und kleine Zahlen stehen in Tabelle [ref:e_einheitenvorzeichen].
+Anche per numeri piccoli esistono tali prefissi di unità. Ad esempio, è noto *Milli*, abbreviato con $\unit{\milli}$. Un millimetro corrisponde a un millesimo di metro, quindi $\qty{0,001}{\meter}$. I prefissi più utilizzati per numeri grandi e piccoli sono riportati nella tabella [ref:e_einheitenvorzeichen].
 
 <margin>
-| c: Vorsatz | c: Abkürzung | l: Wert |
+| c: Prefisso | c: Abbreviazione | l: Valore |
 | Pico | $\unit{\pico}$ | $10^{-12} = 0,000000000001$ |
 | Nano | $\unit{\nano}$ | $10^{-9} = 0,000000001$ |
-| Mikro | $\unit{\micro}$ | $10^{-6} = 0,000001$ |
+| Micro | $\unit{\micro}$ | $10^{-6} = 0,000001$ |
 | Milli | $\unit{\milli}$ | $10^{-3} = 0,001$ |
 | |  | $10^{0} = 1$ |
 | Kilo | $\unit{\kilo}$ | $10^{3} = 1000$ |
 | Mega | $\unit{\mega}$ | $10^{6} = 1000000$ |
 | Giga | $\unit{\giga}$ | $10^{9} = 1000000000$ |
-[table:e_einheitenvorzeichen:Einheitenvorsätze für Zehnerpotenzen]
+[table:e_einheitenvorzeichen:Prefissi di unità per potenze di dieci]
 </margin>
 
-Neben den Einheiten Hertz und Meter, die wir bereits kennengelernt haben, gibt es noch viele weitere physikalische Einheiten, auf die wir im weiteren Verlauf des Kurses eingehen werden. Dazu gehören zum Beispiel die elektrische Spannung, gemessen in Volt ($\unit{\volt}$), der elektrische Strom in Ampere ($\unit{\ampere}$), die Leistung in Watt ($\unit{\watt}$), der elektrische Widerstand in Ohm ($\unit{\ohm}$) und weitere.
+Oltre alle unità Hertz e metro, che abbiamo già conosciuto, ci sono molte altre unità fisiche che affronteremo nel corso. Tra queste, ad esempio, la tensione elettrica, misurata in Volt ($\unit{\volt}$), la corrente elettrica in Ampere ($\unit{\ampere}$), la Potenza in Watt ($\unit{\watt}$), la Resistenza elettrica in Ohm ($\unit{\ohm}$) e altre.
 
-Um die folgenden Sachverhalte verstehen zu können, ist es noch nicht notwendig, diese Einheiten im Detail zu kennen. Wichtig ist zunächst nur, die Bedeutung und Anwendung der Einheitenvorsätze zu verstehen.
+Per poter comprendere i seguenti concetti, non è ancora necessario conoscere queste unità nel dettaglio. È importante innanzitutto comprendere il significato e l'applicazione dei prefissi di unità.
 
-Leider kann man diese gezeigten Einheitenvorsätze nicht direkt in jeden Taschenrechner eingeben. Man verwendet dafür sogenannte Zehnerpotenzen.
+Purtroppo, non è possibile inserire direttamente questi prefissi di unità in ogni calcolatrice. Per questo si utilizzano le cosiddette potenze di dieci.
 
 ---
 
-Schauen wir uns das zunächst am Beispiel des Vorsatzes Kilo an, der für $1000$ steht: Statt $1000$ kann man auch $10 \cdot 10 \cdot 10$ schreiben. Dafür gibt es die Abkürzung $10^3$ (gesprochen "10 hoch 3" oder "3. Potenz von 10"). Die Angaben $\qty{1500}{\hertz}$, $\qty{1,5}{\kilo\hertz}$ und $\qty{1,5e3}{\hertz}$ stehen für den selben Wert.
+Consideriamo innanzitutto l'esempio del prefisso Kilo, che sta per $1000$: Invece di $1000$, si può scrivere anche $10 \cdot 10 \cdot 10$. Per questo esiste l'abbreviazione $10^3$ (letto "10 alla terza" o "terza potenza di 10"). Le indicazioni $\qty{1500}{\hertz}$, $\qty{1,5}{\kilo\hertz}$ e $\qty{1,5e3}{\hertz}$ rappresentano lo stesso valore.
 
 <tip>
-Man kann es sich auch anders merken: Man multipliziert die Zahl so oft mit 10, wie die Hochzahl (der Exponent) angibt. Bei Zahlen ohne Komma hängt man einfach so viele Nullen an, wie im Exponent steht.
+Si può anche ricordare in modo diverso: si moltiplica il numero per 10 tante volte quante indica il numero in alto (l'esponente). Per i numeri senza virgola, si aggiungono semplicemente tanti zeri quante sono indicati nell'esponente.
 </tip>
 
-Für eine Million muss man nicht drei, sondern sechs Exemplare der Zahl 10 miteinander multiplizieren. Also entspricht der Vorsatz Mega dem Wert $10^6$. Die Schreibweise $\qty{28e6}{\hertz}$ bedeutet demnach dasselbe wie $\qty{28}{\mega\hertz}$.
+Per un milione, non bisogna moltiplicare tre, ma sei volte il numero 10 tra loro. Quindi il prefisso Mega corrisponde al valore $10^6$. La notazione $\qty{28e6}{\hertz}$ significa quindi la stessa cosa di $\qty{28}{\mega\hertz}$.
 
-Für kleine Zahlen funktioniert es ähnlich. Ein Tausendstel ist $\frac{1}{10} \cdot \frac{1}{10} \cdot \frac{1}{10}$. Das schreibt man als $10^{-3}$ ("zehn hoch minus drei"). Der Wert $\qty{3,5e-3}{\volt}$ ist also nichts anderes als $\qty{3,5}{\milli\volt}$ und $\qty{22e-6}{\volt}$ steht für $\qty{22}{\micro\volt}$. Die wichtigsten Zehnerpotenzen stehen wieder in Tabelle [ref:e_einheitenvorzeichen].
+Per i numeri piccoli funziona in modo simile. Un millesimo è $\frac{1}{10} \cdot \frac{1}{10} \cdot \frac{1}{10}$. Questo si scrive come $10^{-3}$ ("dieci alla meno tre"). Il valore $\qty{3,5e-3}{\volt}$ non è quindi altro che $\qty{3,5}{\milli\volt}$ e $\qty{22e-6}{\volt}$ sta per $\qty{22}{\micro\volt}$. Le potenze di dieci più importanti sono riportate nuovamente nella tabella [ref:e_einheitenvorzeichen].
 
 ---
 
-Technisch-wissenschaftliche Taschenrechner verfügen in der Regel über eine Taste für Potenzen, meist bezeichnet mit $x^y$. Manche Modelle bieten zusätzlich eine vereinfachte Eingabemöglichkeit für Zehnerpotenzen: eine Taste mit der Beschriftung *Exp*, *E* oder $\cdot 10^x$. Diese steht für "mal zehn hoch …" und erleichtert die Eingabe sehr großer oder sehr kleiner Zahlen.
+Le calcolatrici scientifico-tecniche dispongono di solito di un tasto per le potenze, solitamente indicato con $x^y$. Alcuni modelli offrono inoltre una modalità di inserimento semplificata per le potenze di dieci: un tasto con la dicitura *Exp*, *E* o $\cdot 10^x$. Questo sta per "per dieci elevato alla..." e facilita l'inserimento di numeri molto grandi o molto piccoli.
 
-Beispiel: Um den Wert $\num{3,5e6}$ einzugeben, drückt man: 3.5 → Exp → 6
+Esempio: Per inserire il valore $\num{3,5e6}$, si preme: 3.5 → Exp → 6
 
 <tip>
-Schau am besten in die Bedienungsanleitung deines Taschenrechners, um die genaue Tastenkombination zu finden.
+Dai un'occhiata al manuale d'uso della tua calcolatrice per trovare la combinazione di tasti esatta.
 </tip>
 
-Die Anzeige besonders großer oder kleiner Werte hängt vom Gerät ab. Manche schreiben sie als gewöhnliche Zehnerpotenzen, andere mit *Exp* oder *E* für *mal 10 hoch*. Oft schaltet die Taste *S/D* zwischen verschiedenen Darstellungen um. In der Zehnerpotenz-Schreibweise verschieben Tasten wie *ENG*, *<ENG* oder *ENG>* das Komma oder hängen am Schluss Nullen an und passen dabei die Hochzahl so an, dass sich der Wert nicht ändert. Schau am besten hier in die Bedienungsanleitung deines Taschenrechners.
+La visualizzazione di valori particolarmente grandi o piccoli dipende dal dispositivo. Alcuni li scrivono come normali potenze di dieci, altri con *Exp* o *E* per *per 10 elevato alla*. Spesso il tasto *S/D* commuta tra diverse rappresentazioni. Nella notazione in potenza di dieci, tasti come *ENG*, *<ENG* o *ENG>* spostano la virgola o aggiungono zeri alla fine, adattando la potenza in modo che il valore non cambi. Dai un'occhiata al manuale d'uso della tua calcolatrice.
 
 ---
 
-Abbildung [ref:e_taschenrechner] zeigt drei Darstellungen der selben Zahl in einer Taschenrechner-App. Die drei Buttons für den Umgang mit Zehnerpotenzen wurden rot markiert.
+L'immagine [ref:e_taschenrechner] mostra tre rappresentazioni dello stesso numero in un'app calcolatrice. I tre pulsanti per la gestione delle potenze di dieci sono stati evidenziati in rosso.
 
 <margin>
-[photo:172:e_taschenrechner:Verschiedene Darstellungen der Zahl 0,007 in einer Taschenrechner-App]
+[photo:172:e_taschenrechner:Diverse rappresentazioni del numero 0,007 in un'app calcolatrice]
 </margin>
 
-Im Folgenden findest du mehrere Prüfungsfragen, die du mithilfe deines Taschenrechners lösen kannst. Gib dazu die jeweilige Zahl entsprechend der Aufgabenstellung ein – achte dabei gegebenenfalls auf die Einheitenpräfixe und verwende den Exponentialmodus. Mit der ENG-Taste kannst du die Umrechnung automatisch durchführen lassen.
+Di seguito troverai diverse domande d'esame che puoi risolvere con l'aiuto della tua calcolatrice. Inserisci ogni numero secondo le istruzioni – presta attenzione ai prefissi di unità, se necessario, e utilizza la modalità esponenziale. Con il tasto ENG puoi far eseguire la conversione automaticamente.
 
-Mit etwas Übung lassen sich die Aufgaben natürlich auch im Kopf lösen. Die Einheiten können in diesen Beispielen vernachlässigt werden, da es hier in erster Linie auf die korrekte Darstellung in Exponentialschreibweise bzw. auf den passenden Einheitenpräfix ankommt. In zukünftigen Berechnungen wird es zunehmend wichtig sein, ein Ergebnis mit einem bestimmten Einheitenpräfix auszuwählen oder entsprechend umzurechnen.
+Con un po' di pratica, gli esercizi possono naturalmente essere risolti anche mentalmente. Le unità possono essere trascurate in questi esempi, poiché qui si tratta principalmente della corretta rappresentazione in notazione esponenziale o del prefisso di unità appropriato. Nei calcoli futuri, sarà sempre più importante selezionare un risultato con un prefisso di unità specifico o convertirlo di conseguenza.
 
 %EA110
 [question:EA110]

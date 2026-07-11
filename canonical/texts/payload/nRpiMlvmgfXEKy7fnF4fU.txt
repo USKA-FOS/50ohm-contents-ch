@@ -1,111 +1,103 @@
-* *Verstärkerklasse A*: Kann das gesamte Signal verstärken
-* *Verstärkerklasse B*: Das halbe Signal wird gut verstärkt
-* *Verstärkerklasse A/B*: Kombination aus A und B mit Verstärkung von etwas mehr als dem halben Signal
-* *Verstärkerklasse C*: Weniger als das halbe Signal wird gut verstärkt
+* *Classe di amplificatore A*: Può amplificare l'intero segnale
+* *Classe di amplificatore B*: La metà del segnale viene ben amplificata
+* *Classe di amplificatore A/B*: Combinazione di A e B con amplificazione di poco più della metà del segnale
+* *Classe di amplificatore C*: Meno della metà del segnale viene ben amplificata
 
 <fragment>
-Die Verstärkerklassen werden durch die Wahl des Arbeitspunktes bestimmt
+Le classi di amplificatori sono determinate dalla scelta del punto di funzionamento
 </fragment>
 
 <note>
-Die Buchstabenbezeichnungen gehen auf eine frühe systematische Klassifizierung von Röhren- und Transistorverstärker zurück
+Le designazioni con lettere derivano da una classificazione sistematica iniziale di amplificatori a valvole e a transistor
 </note>
 ---
 <left>
-[picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Curva caratteristica di un transistor con punti di funzionamento]
 </left>
 <right>
-* Transistorkennlinie zeigt den Zusammenhang zwischen Eingangssignal und Ausgangssignal
-* Basis-Emitter- oder Gate-Source-Spannung und Kollektor- oder Drainstrom
-* In linearen Bereichen ist die Änderung proportional
-* Andere Bereiche sind nichtliniear
+* La curva caratteristica del transistor mostra la relazione tra segnale di ingresso e segnale di uscita
+* Tensione Base-Emettitore o Gate-Source e corrente di Collettore o di Drenaggio
+* Nelle aree lineari la variazione è proporzionale
+* Altre aree sono non lineari
 </right>
 ---
-### Arbeitspunkt
+### Punto di funzionamento
 
-* Optimaler Betrieb bei optimaler Wahl des Arbeitspunktes auf der Kennlinie
-* Arbeitspunkt wird durch die Vorspannung an Basis oder Gate festgelegt
-* Verstärkung wirkt dann um den gewünschten Arbeitspunkt herum
+* Funzionamento ottimale con scelta ottimale del punto di funzionamento sulla curva caratteristica
+* Il punto di funzionamento è determinato dalla tensione di polarizzazione sulla Base o sul Gate
+* L'amplificazione agisce quindi attorno al punto di funzionamento desiderato
 
 ---
-### Ruhestrom
+### Corrente di riposo
 
-* Ruhestrom ergibt sich duch die Wahl des Arbeitspunktes
-* Fließt auch ohne Eingangssignal
-* Beeinflusst die Effizienz eines Verstärkers
-* Erhöht thermische Verlustleistung
-* Verringert Wirkungsgrad
+* La corrente di riposo deriva dalla scelta del punto di funzionamento
+* Fluisce anche senza segnale di ingresso
+* Influenza l'efficienza di un amplificatore
+* Aumenta la potenza dissipata termica
+* Riduce il rendimento
 
 --- style="font-size: smaller;"
 ### AP1
 <left>
-[picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]  
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Curva caratteristica di un transistor con punti di funzionamento]  
 </left>
 <right>
-* C-Betrieb des Verstärkers
-* ohne Vorspannung
-* Ruhestrom null
-* Wirkungsgrad ca. $\qtyrange{80}{87}{\percent}$
-* hoher Oberwellenanteil
+* Funzionamento in classe C dell'amplificatore
+* senza tensione di polarizzazione
+* Corrente di riposo zero
+* Rendimento circa $\qtyrange{80}{87}{\percent}$
+* Elevata componente di armoniche superiori
 </right>
 --- style="font-size: smaller;"
 ### AP2
 <left>
-[picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]  
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Curva caratteristica di un transistor con punti di funzionamento]  
 </left>
 <right>
-* B-Betrieb des Verstärkers
-* Geringe Vorspannung bis zum Einsetzen des Kollektorstroms
-* Ruhestrom fast null (gering)
-* Wirkungsgrad bis zu $\qty{80}{\percent}$
-* geringer Oberwellenanteil
+* Funzionamento in classe B dell'amplificatore
+* Bassa tensione di polarizzazione fino all'inizio della corrente di collettore
+* Corrente di riposo quasi zero (bassa)
+* Rendimento fino a $\qty{80}{\percent}$
+* Bassa componente di armoniche superiori
 </right>
 --- style="font-size: smaller;"
 ### AP3
 <left>
-[picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]  
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Curva caratteristica di un transistor con punti di funzionamento]  
 </left>
 <right>
-* A/B-Betrieb des Verstärkers
-* Höhere Vorspannung als im B-Betrieb, jedoch geringer als im A-Betrieb
-* Ruhestrom größer als im B-Betrieb, aber deutlich geringer als im A-Betrieb
-* Wirkungsgrad zwischen $\qty{50}{\percent}$ bis $\qty{80}{\percent}$
-* geringer Oberwellenanteil
+* Funzionamento in classe A/B dell'amplificatore
+* Tensione di polarizzazione più alta rispetto alla classe B, ma inferiore rispetto alla classe A
+* Corrente di riposo maggiore rispetto alla classe B, ma decisamente inferiore rispetto alla classe A
+* Rendimento tra $\qty{50}{\percent}$ e $\qty{80}{\percent}$
+* Bassa componente di armoniche superiori
 </right>
 --- style="font-size: smaller;"
 ### AP4
 <left>
-[picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]  
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Curva caratteristica di un transistor con punti di funzionamento]  
 </left>
 <right>
-* A-Betrieb des Verstärkers
-* Höhe der Vorspannung so gewählt, dass der Ruhestrom ca. $\qty{50}{\percent}$ des maximal zulässigen Wertes erreicht
-* Wirkungsgrad ca. $\qty{40}{\percent}$
-* sehr geringer Oberwellenanteil
+* Funzionamento in classe A dell'amplificatore
+* La tensione di polarizzazione è impostata in modo che la corrente di riposo raggiunga circa il $\qty{50}{\percent}$ del valore massimo consentito
+* Rendimento circa $\qty{40}{\percent}$
+* Componente di armoniche superiori molto bassa
 </right>
 ---
-[question:AD416]
----
-[question:AD419]
----
-[question:AD420]
----
-[question:AD421]
----
-### Ausgangsleistung
+### Potenza d’uscita
 
-* Bei Kenntnis des Arbeitspunkt ist der Wirkungsgrad bekannt
-* Gleichspannungsleistung ausrechnen
-* Ausgangsleistung ist das Produkt aus Gleichspannungsleistung und Wirkungsgrad
+* Conoscendo il punto di funzionamento, il rendimento è noto
+* Calcolare la potenza in corrente continua
+* La potenza d’uscita è il prodotto della potenza in corrente continua e del rendimento
 
 ---
 [question:AD424]
 ---
-#### Lösungsweg
-* gegeben: $U=\qty{50}{\volt}$
-* gegeben: $I = \qty{2}{\ampere}$
-* gegeben: $\eta_\text{A} \approx \qty{40}{\percent}$
-* gesucht: $P_\text{ab}$
+#### Percorso di soluzione
+* Dato: $U=\qty{50}{\volt}$
+* Dato: $I = \qty{2}{\ampere}$
+* Dato: $\eta_\text{A} \approx \qty{40}{\percent}$
+* Ricerca: $P_\text{ab}$
 
 <fragment>
 $P_\text{zu} = U \cdot I = \qty{50}{\volt} \cdot \qty{2}{\ampere} = \qty{100}{\watt}$
@@ -116,11 +108,11 @@ $\eta_\text{A} = \frac{P_\text{ab}}{P_\text{zu}} \Rightarrow P_\text{ab} = \eta_
 ---
 [question:AD425]
 ---
-#### Lösungsweg
-* gegeben: $U=\qty{50}{\volt}$
-* gegeben: $I = \qty{2}{\ampere}$
-* gegeben: $\eta_\text{C} \approx \qty{85}{\percent}$
-* gesucht: $P_\text{ab}$
+#### Percorso di soluzione
+* Dato: $U=\qty{50}{\volt}$
+* Dato: $I = \qty{2}{\ampere}$
+* Dato: $\eta_\text{C} \approx \qty{85}{\percent}$
+* Ricerca: $P_\text{ab}$
 
 <fragment>
 $P_\text{zu} = U \cdot I = \qty{50}{\volt} \cdot \qty{2}{\ampere} = \qty{100}{\watt}$
@@ -133,11 +125,11 @@ $\eta_\text{C} = \frac{P_\text{ab}}{P_\text{zu}} \Rightarrow P_\text{ab} = \eta_
 ---
 [question:AD417]
 ---
-### SSB-Betrieb
+### Funzionamento SSB
 
-* Lineare Verstärkung wird benötigt
-* Verstärkung im A-, A/B- oder B-Betrieb
-* Bei Übersteuerung kommt es zu Verzerrungen des Signals $\rightarrow$ Splatter auf benachbarten Frequenzen
+* È necessaria un'amplificazione lineare
+* Amplificazione in classe A, A/B o B
+* In caso di sovraeccitazione si verificano distorsioni del segnale $\rightarrow$ Splatter su frequenze adiacenti
 
 ---
 [question:AD422]
@@ -146,11 +138,11 @@ $\eta_\text{C} = \frac{P_\text{ab}}{P_\text{zu}} \Rightarrow P_\text{ab} = \eta_
 ---
 [question:AD423]
 ---
-### C-Betrieb
+### Funzionamento in classe C
 
-* Nichtlinearer Betriebspunkt erzeugt Oberwellen
-* Müssen anschließend durch Filterung unterdrückt werden
-* Abschirmung durch ein Metallgehäuse
+* Il punto di funzionamento non lineare genera armoniche superiori
+* Devono poi essere soppresse mediante filtraggio
+* Schermatura tramite un involucro metallico
 
 ---
 [question:AF402]

@@ -1,25 +1,25 @@
-* Ziel beim Aufbau einer Funkanlage: Nur die Antenne soll Signale abstrahlen bzw. aufnehmen
-* Dazu eignen sich geschirmte Leitungen, z.B. Koaxialkabel
-* Im Idealfall strahlen sie selbst nicht oder nehmen keine Strahlung auf
+* Obiettivo nella costruzione di un impianto radio: solo l'antenna dovrebbe irradiare o ricevere segnali
+* A tale scopo sono adatti cavi schermati, ad es. cavi coassiali
+* Idealmente, essi stessi non irradiano né captano radiazioni
 
 ---
 <left>
-* Unsymmetrisches Koaxialkabel wird an symmetrischen Dipol angeschlossen
-* Auf der Außenseite des Koaxialkabels können hochfrequente Ströme fließen
-* Dadurch strahlt das Kabel selbst $\rightarrow$ *Mantelwellen*
-* Mantelströme fehlen, was zur Verformung der Richtcharakteristik führt
+* Il cavo coassiale sbilanciato viene collegato a un dipolo bilanciato
+* Sulla parte esterna del cavo coassiale possono scorrere correnti ad alta frequenza
+* Di conseguenza, il cavo stesso irradia $\rightarrow$ *correnti di mantello*
+* Le correnti di mantello sono assenti, il che porta alla deformazione della caratteristica direzionale
 </left>
 <right>
-[picture:633:e_mantelwelle_effekt:Mantelstrom bei $I_3$]
+[picture:633:e_mantelwelle_effekt:Corrente di mantello a $I_3$]
 </right>
 <note>
-Koaxialkabel kann man sich als drei Leiter vorstellen:
+Si possono immaginare i cavi coassiali come tre conduttori:
   
-1. Außenseite des Innenleiters
-2. Innenseite des Außenleiters
-3. Außenseite des Außenleiters
+1. Lato esterno del conduttore interno
+2. Lato interno del conduttore esterno
+3. Lato esterno del conduttore esterno
 
-Mantelströme hängen mit dem Skineffekt zusammen, der in Klasse A kommt
+Le correnti di mantello sono correlate all'effetto pelle, che si verifica in classe A
 </note>
 ---
 [question:EG405]
@@ -28,10 +28,10 @@ Mantelströme hängen mit dem Skineffekt zusammen, der in Klasse A kommt
 ---
 [question:EG404]
 ---
-## Mantelwellen verhindern
+## Prevenire le correnti di mantello
 
-* Durch ein *Symmetrierglied*, einen Balun (balanced-unbalanced)
-* Oder zur Dämpfung Koaxialkabel auf einen Ferritkern wickeln
+* Tramite un *dispositivo di simmetrizzazione*, un balun (balanced-unbalanced)
+* Oppure per attenuazione, avvolgere il cavo coassiale su un nucleo di ferrite
 
 ---
 [question:EG407]

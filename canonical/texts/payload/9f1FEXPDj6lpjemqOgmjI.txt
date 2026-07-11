@@ -1,7 +1,7 @@
-* Stromschlag vermeiden!
-* An anerkannte Regeln der Technik halten
-* Vom Verband der Elektrotechnik Elektronik und Informationstechnik e. V. (VDE)
-* Schutz von Menschen, Tieren und Sachen
+* Evitare scosse elettriche!
+* Attenersi alle regole riconosciute della tecnica
+* Dall'Associazione Elettrotecnica, Elettronica e dell'Informazione (VDE)
+* Protezione di persone, animali e cose
 
 ---
 
@@ -9,16 +9,16 @@
 
 ---
 
-## Gefährliche Spannung
+## Tensione pericolosa
 
-* Wechselspannung (AC) über $\qty{50}{\volt}$
-* Gleichspannung (DC) über $\qty{120}{\volt}$
-* Darunter kommt es zu keinen lebensbedrohlichen Beeinträchtigungen des menschlichen Körpers
+* Tensione alternata (AC) superiore a $\qty{50}{\volt}$
+* Tensione continua (DC) superiore a $\qty{120}{\volt}$
+* Al di sotto di questi valori non si verificano danni all'organismo umano che mettano in pericolo la vita
 
 <note>
-* Der Grund für unterschiedliche Werte hängt mit den unterschiedlichen Auswirkungen auf den Körper zusammen
-* Wechselspannung kann den Herzrhythmus beeinflussen
- * Gleichspannung führt eher zu Verbrennungen
+* Il motivo dei valori diversi dipende dai diversi effetti sull'organismo
+* La tensione alternata può influenzare il ritmo cardiaco
+ * La tensione continua tende a causare ustioni
 </note>
 
 ---
@@ -27,34 +27,34 @@
 
 ---
 
-## Stromunfälle
+## Incidenti da corrente
 
 <left>
-* Abhängig von Stromstärke und Dauer des Stromflusses
-* Weg durch den Körper
-* Ab $\qty{30}{\milli\ampere}$ lebensgefährliche Schäden
+* Dipende dall'intensità di corrente e dalla durata del flusso di corrente
+* Percorso attraverso il corpo
+* A partire da $\qty{30}{\milli\ampere}$ danni potenzialmente letali
 </left>
 <right>
-[picture:681:n_fehlerstrom:Stromschlag / Körperdurchströmung]
+[picture:681:n_fehlerstrom:Scossa elettrica / attraversamento del corpo]
 </right>
 
 ---
 
-### Auswirkungen auf den Körper
+### Effetti sull'organismo
 
-* *Herzrhythmusstörungen*, Herzkammerflimmern oder Herzstillstand, insbesondere bei einem Stromweg im Brustbereich
-* *Verbrennungen*, meist an den Ein- und Austrittstellen des elektrischen Stroms
-* *Verkrampfen der Muskulatur*
-* *Sekundärunfälle* wie einen Sturz, verursacht durch den hervorgerufenden Schreck oder eine Muskelverkrampfung
-* Zusätzlich *(Stör-)Lichtbogen* mit hellem Leuchten über die Luft möglich
+* *Disturbi del ritmo cardiaco*, fibrillazione ventricolare o arresto cardiaco, in particolare con un percorso della corrente nella zona del torace
+* *Ustioni*, solitamente nei punti di ingresso e uscita della corrente elettrica
+* *Contrazione muscolare*
+* *Incidenti secondari* come una caduta, causata dallo spavento o da una contrazione muscolare
+* Inoltre, possibile *(disturbo) arco elettrico* con un bagliore luminoso attraverso l'aria
 
 ---
 
-### Gefahr beim Öffnen von Geräten
+### Pericolo nell'apertura degli apparecchi
 
-* Kondensatoren können hohe Spannungen speichern
-* Es können in abgeschalteten Geräten noch gefährliche Spannungen anliegen
-* Beim Öffnen von Geräten erfahrenen Funkamateur oder Elektrofachkraft zu Hilfe holen
+* I condensatori possono immagazzinare alte tensioni
+* Negli apparecchi spenti possono ancora essere presenti tensioni pericolose
+* All'apertura degli apparecchi, chiedere aiuto a un radioamatore esperto o a un tecnico qualificato
 
 ---
 
@@ -66,14 +66,14 @@
 
 ---
 
-### Erste Hilfe
+### Primo soccorso
 
-* In den ersten Minuten entscheidend für die Schwere der Unfallfolgen
-* Unbedingt Arzt aufsuchen
-* Herzrhythmusstörungen und Herzkammerflimmern können Stunden nach dem Unfall auftreten
+* Nei primi minuti è decisivo per la gravità delle conseguenze dell'incidente
+* Consultare assolutamente un medico
+* Disturbi del ritmo cardiaco e fibrillazione ventricolare possono manifestarsi ore dopo l'incidente
 
 <note>
-Der Arzt kann mit einem Elektrokardiogramm (EKG) den Herzschlag überprüfen
+Il medico può controllare il battito cardiaco con un elettrocardiogramma (ECG)
 </note>
 
 ---
@@ -82,11 +82,11 @@ Der Arzt kann mit einem Elektrokardiogramm (EKG) den Herzschlag überprüfen
 
 --- style="font-size: smaller;"
 
-### 5 Sicherheitsregeln in der Elektrotechnik
+### 5 regole di sicurezza nell'elettrotecnica
 
-1. *Freischalten*, z. B. Gerät ausschalten
-2. *Gegen Wiedereinschalten sichern*, z. B.  Stecker ziehen
-3. *Spannungsfreiheit feststellen*, z. B. mit einem Multimeter messen
-4. *Erden und Kurzschließen*, z. B. das Gehäuse und Zuleitungen erden
-5. *Benachbarte, unter Spannung stehende Teile abdecken oder abschranken* (findet bei einzelnen Geräten meist keine Anwendung)
+1. *Disconnettere*, ad esempio spegnere l'apparecchio
+2. *Bloccare contro il riavvio*, ad esempio staccare la spina
+3. *Accertare l'assenza di tensione*, ad esempio misurare con un multimetro
+4. *Mettere a terra e cortocircuitare*, ad esempio mettere a terra l'involucro e i cavi di alimentazione
+5. *Coprire o delimitare parti adiacenti sotto tensione* (solitamente non applicabile ai singoli apparecchi)
 

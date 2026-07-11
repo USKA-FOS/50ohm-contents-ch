@@ -1,4 +1,4 @@
-<h1>Suche</h1>
+<h1>Ricerca</h1>
 
 <style>
   #question-search-results .breadcrumb,
@@ -12,7 +12,7 @@
   <div class="card-body">
     <div class="row g-3 align-items-end">
       <div class="col-12 col-md-6 col-lg-4">
-        <label for="question-search-input" class="form-label">Suche nach Frage-ID oder Begriff:</label>
+        <label for="question-search-input" class="form-label">Ricerca per ID domanda o termine:</label>
         <input
           id="question-search-input"
           class="form-control"

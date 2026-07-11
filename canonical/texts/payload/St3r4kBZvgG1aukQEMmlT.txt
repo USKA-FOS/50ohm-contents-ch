@@ -1,23 +1,23 @@
-In der Frequenz steuerbare Oszillatoren lassen sich auf verschiedene Weisen realisieren. Eine Möglichkeit ist der sog. *spannungsgesteuerte Oszillator VCO - Voltage controlled oscillator*.
+Gli oscillatori controllabili in frequenza possono essere realizzati in vari modi. Una possibilità è il cosiddetto *oscillatore controllato in tensione VCO - Voltage controlled oscillator*.
 
 [question:AD601]
 
 ---
 
-Damit die Frequenz des Oszillators veränderbar wird, kann man in dessen Schwingkreis eine Kapazitätsdiode einfügen, deren Kapazität über eine Gleichspannung beeinflusst werden kann (vgl. Abbildung [ref:a_vco_schaltung]). Eine Änderung dieser Gleichspannung führt dann zu einer entsprechenden Änderung der Oszillatorfrequenz. Hierdurch wird der Oszillator mittels einer Steuerspannung abstimmbar. 
+Affinché la frequenza dell'oscillatore sia modificabile, è possibile inserire nel suo circuito oscillante un diodo a capacità la cui capacità può essere influenzata da una tensione continua (cfr. figura [ref:a_vco_schaltung]). Una modifica di questa tensione continua porta quindi a una corrispondente modifica della frequenza dell'oscillatore. In questo modo, l'oscillatore diventa sintonizzabile tramite una tensione di controllo. 
 
 <margin>
-[picture:752:a_vco_schaltung:VCO-Schaltung mit Kapazitätsdiode]
+[picture:752:a_vco_schaltung:Circuito VCO con diodo a capacità]
 </margin>
 
-Kapazitätsdiode wird in in Sperrrichtung betrieben. Je höher die Gegenspannung der Diode wird, desto geringer wird deren Kapazität, welche durch die Größe der Grenzschicht (P-N-Übergang) bestimmt wird. Die Grenzschicht vergrößert sich bei Vergrößerung der angelegten Sperrspannung, wodurch sich die Kapazität verringert und damit die Frequenz des Schwingkreises gemäß Thomsonscher Schwingungsformel steigt.
+Il diodo a capacità viene utilizzato in polarizzazione inversa. Maggiore è la tensione inversa del diodo, minore sarà la sua capacità, determinata dalla dimensione della zona di svuotamento (giunzione P-N). La zona di svuotamento aumenta all'aumentare della tensione di polarizzazione inversa applicata, riducendo la capacità e quindi aumentando la frequenza del circuito oscillante secondo la formula di oscillazione di Thomson.
 
-Umgekehrt verkleinert sich die Grenzschicht der Kapazitätsdiode bei Verringerung der angelegten Sperrspannung, wodurch sich die Kapazität erhöht und damit die Frequenz des Schwingkreises kleiner wird. Die Sperrspannung kann z. B. durch ein Potentiometer oder einen Steuerkreis erzeugt werden.
+Viceversa, la zona di svuotamento del diodo a capacità diminuisce al diminuire della tensione di polarizzazione inversa applicata, aumentando la capacità e quindi diminuendo la frequenza del circuito oscillante. La tensione di polarizzazione inversa può essere generata, ad esempio, da un potenziometro o da un circuito di controllo.
 
-%TODO: Evtl. Grafik zu Sperrschicht und Verhalten in Kapazitätsdiode.
+%TODO: Eventuale grafico sulla zona di svuotamento e sul comportamento nel diodo a capacità.
 
 [question:AD218] 
 
-Für alle Oszillatorschaltungen, unabhängig von ihrer Ausführung, gilt, dass unerwünschte Rückkopplungen zu Frequenzinstabilitäten führen können. Dies gilt für VCOs als auch für VFOs (z.B. mit Drehkondensatoren) sowie andere Oszillatoren.
+Per tutti i circuiti oscillanti, indipendentemente dalla loro realizzazione, vale che i feedback indesiderati possono portare a instabilità di frequenza. Questo vale per i VCO così come per i VFO (ad es. con condensatori variabili) e altri oscillatori.
 
 [question:AD611]

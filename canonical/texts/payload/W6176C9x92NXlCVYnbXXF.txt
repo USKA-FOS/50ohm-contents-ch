@@ -1,25 +1,25 @@
 <left>
-[picture:905:a_amplitudenmodulation:Amplitudenmoduliertes Signal mit zwei Tönen]
+[picture:905:a_amplitudenmodulation:Segnale modulato in ampiezza con due toni]
 </left>
 <right>
-* Ohne Modulation wird bei AM nur das Trägersignal mit konstanter Amplitude übertragen
-* Durch Modulation wird das Signal beeinflusst
-* Es entstehen stärkere Ausschläge in den positiven und negativen Bereich
+* Senza modulazione, in AM viene trasmesso solo il segnale portante con ampiezza costante
+* La modulazione influenza il segnale
+* Si verificano picchi più forti nelle aree positiva e negativa
 </right>
 
 ---
-### Modulationsgrad
+### Grado di modulazione
 
 <left>
-[picture:24:a_amplitudenmodulation_modulationsgrad1:Amplitudensignal bei einem Modulationsgrad von $\qty{100}{\percent}$]
+[picture:24:a_amplitudenmodulation_modulationsgrad1:Segnale di ampiezza con un grado di modulazione del $\qty{100}{\percent}$]
 <fragment>
 $m = \frac{\hat{U}_{mod}}{\hat{U}_{T}}$
 </fragment>
 </left>
 <right>
-* Verhältnis zwischen aufmodulierter NF-Hüllkurve und dem HF-Träger
-* Maximal möglich ist $m=1$ oder $\qty{100}{\percent}$
-* Signal steuert zwischen Träger und maximal möglichem Wert aus
+* Rapporto tra la busta modulata a bassa frequenza e la portante ad alta frequenza
+* Il massimo possibile è $m=1$ o $\qty{100}{\percent}$
+* Il segnale oscilla tra la portante e il valore massimo possibile
 </right>
 
 ---
@@ -27,27 +27,27 @@ $m = \frac{\hat{U}_{mod}}{\hat{U}_{T}}$
 ---
 [question:AE202]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 
-Abzulesen aus der Grafik:
-* gegeben: $\hat{U}_{mod} = \qty{1}{\oszidiv} = \qty{3}{\volt}$
-* gegeben: ${\hat{U}_{T}} = \qty{2}{\oszidiv} = \qty{6}{\volt}$
-* gesucht: $m$
+Da leggere dal grafico:
+* dato: $\hat{U}_{mod} = \qty{1}{\oszidiv} = \qty{3}{\volt}$
+* dato: ${\hat{U}_{T}} = \qty{2}{\oszidiv} = \qty{6}{\volt}$
+* cercato: $m$
 
 <fragment>
 $m = \frac{\hat{U}_{mod}}{\hat{U}_{T}} = \frac{\qty{3}{\volt}}{\qty{6}{\volt}} = 0,5 = \qty{50}{\percent}$
 </fragment>
 
 ---
-### Übermodulation
+### Sovramodulazione
 
 <left>
-[picture:28:a_amplitudenmodulation_modulationsgrad2:Amplitudensignal bei einem Modulationsgrad von mehr als $\qty{100}{\percent}$]
+[picture:28:a_amplitudenmodulation_modulationsgrad2:Segnale di ampiezza con un grado di modulazione superiore al $\qty{100}{\percent}$]
 </left>
 <right>
-* Bei $m > 1$
-* Bewirkt zeitweise oder vollständige Unterdrückung des Trägersignals
-* Führt zu Verzerrungen und Seitenband-Splatter
+* Con $m > 1$
+* Causa la soppressione temporanea o completa del segnale portante
+* Porta a distorsioni e splatter di banda laterale
 </right>
 
 ---

@@ -1,28 +1,28 @@
 <left>
-[picture:704:ofdm:Frequenzspektrum eines einfachen OFDM-Signals]
+[picture:704:ofdm:Spettro di frequenza di un semplice segnale OFDM]
 </left>
 <right>
-* Es ist auch möglich, einen Datenstrom auf mehrere Träger zu verteilen, die auf unterschiedlichen, jedoch nahegelegenen Frequenzen liegen.
-* Bei OFDM werden die einzelnen Träger in einem Abstand platziert, wo ein „Übersprechen“ vermieden wird.
+* È anche possibile distribuire un flusso di dati su più portanti situate a frequenze diverse ma vicine.
+* Nell'OFDM, le singole portanti sono posizionate a una distanza tale da evitare la "diafonia" (crosstalk).
 </right>
 <note>
-OFDM: Orthogonal Frequency-Division Multiplexing<br/>
-Übersprechen: Gegenseitiges Stören untereinander
+OFDM: Orthogonal Frequency-Division Multiplexing (Multiplexing a divisione di frequenza ortogonale)<br/>
+Übersprechen: Mutua interferenza reciproca
 </note>
 
 ---
 
-* Ein Vorteil dieses Vorgehens liegt darin, dass schmalbandige Störungen nur einen oder wenige Träger stören.
-* Im Zusammenspiel mit Fehlerkorrekturverfahren mit redundanter Datenübertragung, ist es so möglich, trotz schmalbandiger Störungen eine fehlerfreie Übertragung zu erreichen.
+* Un vantaggio di questo approccio è che i disturbi a banda stretta influenzano solo una o poche portanti.
+* In combinazione con metodi di correzione degli errori con trasmissione di dati ridondante, è così possibile ottenere una trasmissione priva di errori nonostante i disturbi a banda stretta.
 
 ---
 [question:AE421]
 
 ---
 
-* Ein weiterer Vorteil ergibt sich aus der geringeren Symbolrate jedes einzelnen Trägers.
-* Durch die geringere Symbolrate ist die Dauer eines jeden Symbols länger.
-* Im Falle zeitlicher Verschiebungen aufgrund von Mehrwegeausbreitung ist der Anteil der Überlagerung zwischen den Signalen entsprechend geringer.
+* Un ulteriore vantaggio deriva dalla minore velocità di simbolo di ciascuna singola portante.
+* A causa della minore velocità di simbolo, la durata di ciascun simbolo è maggiore.
+* In caso di spostamenti temporali dovuti alla propagazione multi-percorso, la sovrapposizione tra i segnali è di conseguenza minore.
 
 ---
 

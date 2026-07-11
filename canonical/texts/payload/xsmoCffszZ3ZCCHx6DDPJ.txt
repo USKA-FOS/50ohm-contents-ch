@@ -1,20 +1,20 @@
---- style="font-size: 0.7em;"
+---
 <left>
-* Für die verschiedenen Amateurfunkbänder sind jeweils maximal zulässige Bandbreiten festgelegt
-* Besonders aufpassen muss man bei Sendungen in der Nähe der Grenzen der Amateurfunkbänder
-* Nehmen wir an, ein FM-Signal ist $\qty{15}{\kilo\hertz}$ breit und wir senden auf $\qty{430}{\mega\hertz}$
-* Das Sendesignal befindet sich jeweils $\qty{7,5}{\kilo\hertz}$ unterhalb und oberhalb
-* Es würde sich also von $\qty{429,9925}{\mega\hertz}$ bis $\qty{430,0075}{\mega\hertz}$ erstrecken
+* Per le diverse bande radioamatoriali sono definite larghezze di banda massime consentite
+* Bisogna prestare particolare attenzione alle trasmissioni vicino ai confini delle bande radioamatoriali
+* Supponiamo che un segnale FM sia largo $\qty{15}{\kilo\hertz}$ e trasmettiamo a $\qty{430}{\mega\hertz}$
+* Il segnale di trasmissione si estende rispettivamente $\qty{7,5}{\kilo\hertz}$ al di sotto e al di sopra
+* Si estenderebbe quindi da $\qty{429,9925}{\mega\hertz}$ a $\qty{430,0075}{\mega\hertz}$
 </left>
 <right>
-[picture:908:n_bandbreite:Falsch -- Senden außerhalb der Bandgrenzen]
-[picture:909:n_bandbreite:Richtig -- Senden innerhalb der Bandgrenzen]
+[picture:908:n_bandbreite:Sbagliato -- Trasmissione al di fuori dei limiti di banda]
+[picture:909:n_bandbreite:Corretto -- Trasmissione all'interno dei limiti di banda]
 </right>
 
 <note>
-* Es wird außerhalb des Amateurfunkbandes gesendet
-* Die Bandbreiten findet man in der Anlage 1 der Amateurfunkverordnung
-* [Bundesgesetzblatt mit der neuen Verordnung](https://www.recht.bund.de/bgbl/1/2023/160/VO) - die Anlage 1 ist auf Seite 7 bis 9
+* Si trasmette al di fuori della banda radioamatoriale
+* Le larghezze di banda si trovano nell'Allegato 1 dell'Ordinanza sui radioamatori
+* [Legge federale con la nuova ordinanza](https://www.recht.bund.de/bgbl/1/2023/160/VO) - l'Allegato 1 si trova alle pagine da 7 a 9
 </note>
 
 ---
@@ -23,18 +23,18 @@
 ---
 
 <left>
-Bei SSB  ist das Signal nur auf einer Seite der Trägerfrequenz zu finden:
+Con SSB il segnale si trova solo su un lato della frequenza portante:
 
-* Bei LSB vollständig unterhalb der Trägerfrequenz
-* Bei USB vollständig oberhalb der Trägerfrequenz
+* Con LSB completamente al di sotto della frequenza portante
+* Con USB completamente al di sopra della frequenza portante
 </left>
 <fragment>
 <right>
-Beispiel:
+Esempio:
   
-* Am Funkgerät Sendefrequenz auf obere Bandgrenze einstellen
-* Mit LSB darf gesendet werden
-* Mit USB ist das Signal außerhalb des Bandes
+* Impostare la frequenza di trasmissione sull'apparecchio radio sul limite superiore della banda
+* Con LSB si può trasmettere
+* Con USB il segnale è al di fuori della banda
 </right>
 </fragment>
 

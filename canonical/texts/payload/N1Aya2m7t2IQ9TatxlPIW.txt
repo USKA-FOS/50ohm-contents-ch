@@ -1,24 +1,24 @@
-<b>50 Hz / 100 Hz Brummton</b>
+<b>Tono di ronzio 50 Hz / 100 Hz</b>
 <p>
-Hier kannst du Brummtöne mit den Frequenzen $\qty{50}{\hertz}$ und $\qty{100}{\hertz}$ anhören.
+Qui puoi ascoltare toni di ronzio con le frequenze $\qty{50}{\hertz}$ e $\qty{100}{\hertz}$.
 </p>
 
 <div class="d-flex gap-2 flex-wrap">
 <button type="button" class="btn btn-primary" onclick="playRippleTone(50)">
-    Play 50 Hz
+    Riproduci 50 Hz
 </button>
 
 <button type="button" class="btn btn-primary" onclick="playRippleTone(100)">
-    Play 100 Hz
+    Riproduci 100 Hz
 </button>
 
 <button type="button" class="btn btn-secondary" onclick="stopTone()">
-    Stopp
+    Ferma
 </button>
 </div>
 
 <p id="toneStatus" class="mt-3 mb-0 text-muted">
-Kein Ton aktiv.
+Nessun suono attivo.
 </p>
 
 <script>

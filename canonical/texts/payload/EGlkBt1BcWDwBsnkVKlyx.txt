@@ -1,17 +1,17 @@
-In der Klasse N haben wir bereits Strom- und Spannungsmessgeräte und ihre Schaltsymbole kennengelernt. Ein Strom- oder Spannungsmessung soll den Stromkreis möglichst wenig beeinflussen, da der eigentliche Betrieb normalerweise ohne die entsprechenden Messgeräte erfolgt. Dazu besitzen Strom- und Spannungsmessgeräte unterschiedlich hohe *Innenwiderstände*. Der Innenwiderstand gibt an, wie stark der Stromfluss durch das Messgerät begrenzt wird und entspricht im Prinzip einem normalen Widerstand. Der Innenwiderstand wird ebenfalls in Ohm angegeben.
+Nella classe N abbiamo già conosciuto gli strumenti di misura di corrente e tensione e i loro simboli schematici. Una misurazione di corrente o tensione dovrebbe influenzare il circuito il meno possibile, poiché il funzionamento effettivo avviene normalmente senza i relativi strumenti di misura. A tal fine, gli strumenti di misura di corrente e tensione possiedono *resistenze interne* di diversa entità. La resistenza interna indica quanto viene limitato il flusso di corrente attraverso lo strumento di misura e corrisponde in linea di principio a una normale resistenza. La resistenza interna è anch'essa indicata in Ohm.
 
 <margin>
-[picture:238:e_strom_spannung_messung:Gleichzeitige Strom- und Spannungsmessung]
+[picture:238:e_strom_spannung_messung:Misurazione simultanea di corrente e tensione]
 </margin>
 
 ---
 
-Ein Strommessgerät wird in Serie / Reihe zu dem zu vermessenden Bauteil, z.B. einem Widerstand, geschaltet. Durch das Bauteil fließt also dieselbe Stromstärke wie durch das Messgerät. Damit der Stromfluss möglichst wenig durch das Messgerät beeinflußt wird, besitzt das Strommessgerät einen *geringen* Innenwiderstand.
+Uno strumento di misura di corrente viene collegato in serie al componente da misurare, ad es. una resistenza. La stessa intensità di corrente che attraversa il componente fluisce quindi anche attraverso lo strumento di misura. Affinché il flusso di corrente sia influenzato il meno possibile dallo strumento di misura, quest'ultimo possiede una resistenza interna *bassa*.
 
-Im Gegensatz dazu haben Spannungsmesser einen *hohen* Innenwiderstand. Das Messgerät wird parallel in den Stromkreis eingebaut. Es verbindet damit zwei unterschiedliche Punkte im Stromkreis. Die angezeigte Spannung ist nun ein Maß für die Stärke der Ladungstrennung zwischen diesen zwei Punkten. Ein Stromfluss über diesen Parallelzweig würde die Ladungstrennung aber gerade wieder abbauen und dies wird durch den hohen Innenwiderstand verhindert.
+Al contrario, i misuratori di tensione hanno una resistenza interna *elevata*. Lo strumento di misura viene installato in parallelo nel circuito. Collega quindi due punti diversi del circuito. La tensione indicata è quindi una misura della forza della separazione di carica tra questi due punti. Un flusso di corrente attraverso questo ramo parallelo, tuttavia, annullerebbe proprio la separazione di carica e ciò viene impedito dall'elevata resistenza interna.
 
 <indepth>
-Idealerweise hätte ein Strommessgerät einen Widerstand von $\qty{0}{\ohm}$ und ein Spannungsmessgerät einen Widerstand von $\qty{\infty}{\ohm}$. In der Praxis ist das jedoch nicht erreichbar. Genau damit beschäftigen wir uns in der Klasse A noch etwas genauer.
+Idealmente, uno strumento di misura di corrente dovrebbe avere una resistenza di $\qty{0}{\ohm}$ e un misuratore di tensione una resistenza di $\qty{\infty}{\ohm}$. In pratica, tuttavia, ciò non è realizzabile. È proprio di questo che ci occuperemo un po' più in dettaglio nella classe A.
 </indepth>
 
 [question:EI101]

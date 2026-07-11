@@ -1,7 +1,7 @@
-[picture:357:n_fm_frequenzmodulation:Frequenzmodulation]
+[picture:357:n_fm_frequenzmodulation:Modulazione di frequenza]
 
-* Modulationssignal wird durch Änderung der Frequenz auf den Träger aufmoduliert
-* Amplitude des Trägers wird nicht verändert und bleibt idealerweise konstant
+* Il segnale di modulazione viene sovrapposto alla portante modificando la frequenza
+* L'ampiezza della portante non viene modificata e rimane idealmente costante
 
 ---
 [question:NE301]
@@ -13,16 +13,16 @@
 [question:NE303]
 
 ---
-## Frequenzhub
+## Deviazione di frequenza portante
 
-* Je lauter in das Mikrofon gesprochen wird, umso größer die Änderung der Trägerfrequenz
-* Dadurch steigt auch die belegte Bandbreite der Aussendung
-* Maximalwert der Änderung der Trägerfrequenz wird als *Frequenzhub* oder kurz *Hub* bezeichnet
-* In der Praxis kommt Schmalband-FM (englisch Narrow- FM, kurz NFM) mit $\qty{12}{\kilo\hertz}$ Bandbreite zum Einsatz
+* Più forte si parla nel microfono, maggiore è la variazione della frequenza portante
+* Ciò aumenta anche la larghezza di banda occupata dalla trasmissione
+* Il valore massimo della variazione della frequenza portante è chiamato *Deviazione di frequenza portante* o brevemente *Deviazione*
+* In pratica, viene utilizzata la modulazione FM a banda stretta (in inglese Narrow-FM, abbreviato NFM) con una larghezza di banda di $\qty{12}{\kilo\hertz}$
 
 <note>
-Lauter in das Mikrofon sprechen &rarr; Amplitude des Modulationssignals wird größer
-Bandplan beachten, wo maximal 12 kHz Bandbreite belegt werden darf.
+Parlare più forte nel microfono &rarr; l'ampiezza del segnale di modulazione aumenta
+Osservare il piano di banda, dove è consentito occupare al massimo 12 kHz di larghezza di banda.
 </note>
 
 ---
@@ -34,7 +34,7 @@ Bandplan beachten, wo maximal 12 kHz Bandbreite belegt werden darf.
 [question:NE306]
 
 <note>
-Bei älteren Funkgeräten ist evtl. der Hub fest auf $\qty{25}{\kilo\hertz}$ eingestellt.
+Nei vecchi apparecchi radio, la deviazione potrebbe essere fissa a $\qty{25}{\kilo\hertz}$.
 </note>
 
 ---
@@ -42,7 +42,7 @@ Bei älteren Funkgeräten ist evtl. der Hub fest auf $\qty{25}{\kilo\hertz}$ ein
 [question:NE304]
 
 <note>
-* Achtung: Amplitude des Modulationssignals wird geändert!
-* Amplitude des Trägers ändert sich nicht.
-* Bei Störungen schwankt nicht die Lautstärke des Sprachsignals.
+* Attenzione: l'ampiezza del segnale di modulazione viene modificata!
+* L'ampiezza della portante non cambia.
+* In caso di disturbi, il volume del segnale vocale non fluttua.
 </note>

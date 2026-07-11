@@ -1,71 +1,71 @@
-## Wellenwiderstand
+## Impedenza caratteristica
 
-* Unabhängig von der Länge der Leitung
-* Unabhängig von den an die Leitung angeschlossenen Geräten
-* Abhängig vom Querschnittsaufbau (Leiter, ggf. Dielektrikum)
-* Im Bereich der Hochfrequenz ist der Wellenwiderstand weitgehend konstant
+* Indipendente dalla lunghezza della linea
+* Indipendente dai dispositivi collegati alla linea
+* Dipendente dalla struttura della sezione trasversale (conduttori, eventuale dielettrico)
+* Nell'ambito delle alte frequenze, l'impedenza caratteristica è in gran parte costante
 
 ---
 [question:EG301]
 ---
-## Leitungen
+## Linee di trasmissione
 
 <left>
-* Paralleldraht-Speiseleitung
-* Koaxialkabel
+* Linea di alimentazione a conduttori paralleli
+* Cavi coassiali comuni
 </left>
 <right>
-* Das Koaxialkabel vermeidet unerwünschte Abstrahlung
-* Unerwünschte Abstrahlungen können durch *Mantelwellen* auftreten
-* Mantelwellen lassen sich durch Mantelwellensperren unterdrücken
+* Il cavo coassiale evita irraggiamenti indesiderati
+* Irragliamenti indesiderati possono verificarsi a causa di *onde di mantello*
+* Le onde di mantello possono essere soppresse mediante trappole per onde di mantello
 </right>
 <note>
-* Mehr zu Mantelwellen später
+* Maggiori informazioni sulle onde di mantello più avanti
 </note>
 ---
 [question:EG302]
 ---
-## Einkopplungen
+## Accoppiamenti
 
-* Kabel, die direkt neben Koaxialkabel verlegt werden, können Einkopplungen erfahren
-* Dadurch gelangt Hochfrequenz beispielsweise ins Stromnetz
-* Und Leistung zur Antenne geht verloren
+* I cavi posati direttamente accanto a un cavo coassiale possono subire accoppiamenti
+* In questo modo, l'alta frequenza può ad esempio raggiungere la rete elettrica
+* E la potenza destinata all'antenna viene persa
 
 ---
 [question:EG306]
 ---
-### Unsymmetrische Speiseleitung
+### Linea di alimentazione asimmetrica
 
 <left>
-[photo:65:e_uebertragungsleitungen_koaxialkabel:Geöffnetes Koaxialkabel aus Mantel, Schirmung, Dielektrikum und Innenleiter]
+[photo:65:e_uebertragungsleitungen_koaxialkabel:Cavo coassiale aperto composto da mantello, schermatura, dielettrico e conduttore interno]
 </left>
 <right>
-* Wie bei Antennen, ist eine Speiseleitung unsymmetrisch, wenn unterschiedliche Spannungen anliegen
-* Beim Koaxialkabel sind die beiden Leiter unterschiedlich geformt
-* Der Schirm weist gegenüber der Erde keine Spannung auf
+* Come per le antenne, una linea di alimentazione è asimmetrica se sono presenti tensioni diverse
+* Nel cavo coassiale, i due conduttori hanno forme diverse
+* La schermatura non presenta tensione rispetto alla terra
 </right>
 
 ---
 [question:EG304]
 ---
-## Spannungsfestigkeit
+## Tensione di tenuta
 
-* Im Koaxialkabel treten im Dielektrikum Verluste auf
-* Es kann bei hohen Spannungen zu einem Durchschlag kommen
+* Nel cavo coassiale si verificano perdite nel dielettrico
+* A tensioni elevate può verificarsi una scarica
 
 ---
 [question:EG305]
 ---
-## Koaxialstecker
+## Connettori coassiali
 
 <left>
-[photo:73:e_uebertragungsleitungen_n_stecker_buchse:N-Buchse und N-Stecker]
+[photo:73:e_uebertragungsleitungen_n_stecker_buchse:Presa N e spina N]
 </left>
 <right>
-* *N-Stecker*: für niedrige und hohe Frequenz und hohe Leistung
-* *BNC-Stecker*: für niedrige und hohe Frequenz und geringe Leistung
-* *SMA-Stecker*: für hohe Frequenz und geringe Leistung
-* *UHF/PL-Stecker*: für niedrige Frequenz und hohe Leistung
+* *Spina N*: per basse e alte frequenze e alta potenza
+* *Spina BNC*: per basse e alte frequenze e bassa potenza
+* *Spina SMA*: per alte frequenze e bassa potenza
+* *Spina UHF/PL*: per basse frequenze e alta potenza
 </right>
 
 ---

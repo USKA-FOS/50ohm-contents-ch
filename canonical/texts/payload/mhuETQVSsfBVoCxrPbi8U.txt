@@ -1,35 +1,35 @@
-## Halbleiter
+## Semiconduttori
 
 <left>
-* Bestehen aus einer Gitterstruktur
-* 4 geteilte Elektronen auf der äußeren Schale
-* Sind eigentlich Isolatoren
-* Können durch Temperaturanstieg, Licht oder Dotierung zu Leitern werden
+* Costituiti da una struttura reticolare
+* 4 elettroni divisi sul guscio esterno
+* Sono in realtà isolanti
+* Possono diventare conduttori a causa dell'aumento di temperatura, della luce o della drogatura
 </left>
 <right>
-[picture:854:a_silizium_halbleiter:Silizium Halbleiterkristall]
+[picture:854:a_silizium_halbleiter:Cristallo semiconduttore di silicio]
 </right>
 <note>
-Häufige Halbleitergrundstoffe: Silizium (Si), Germanium (Ge), Galliumarsenid (GaAs), Indiumphosphid (InP), Zinkoxid (ZnO)
+Materiali di base semiconduttori comuni: Silicio (Si), Germanio (Ge), Arseniuro di gallio (GaAs), Fosfuro di indio (InP), Ossido di zinco (ZnO)
 </note>
 ---
 [question:AB104]
 ---
-## Dotierung
+## Drogatura
 
-* "Verunreinigung" der Halbleiter
-* Stoffe mit 5 Elektronen auf der äußeren Schale $\rightarrow$ Elektronenüberschuss $\rightarrow$ *n-Dotierung*
-* Stoffe mit 3 Elektronen auf der äußeren Schale $\rightarrow$ Elektronenmangel ("Loch") $\rightarrow$ *p-Dotierung*
+* "Impurità" dei semiconduttori
+* Sostanze con 5 elettroni sul guscio esterno $\rightarrow$ eccesso di elettroni $\rightarrow$ *drogatura n*
+* Sostanze con 3 elettroni sul guscio esterno $\rightarrow$ carenza di elettroni ("lacuna") $\rightarrow$ *drogatura p*
 
 ---
 <left>
-[picture:855:a_n_dotierung:n-Dotierung mit Phosphor]
+[picture:855:a_n_dotierung:Drogatura n con fosforo]
 </left>
 <right>
-[picture:856:a_p_dotierung:p-Dotierung mit Bor]
+[picture:856:a_p_dotierung:Drogatura p con boro]
 </right>
 <note>
-Löcher sind eigentlich nicht beweglich, aber durch den Elektronenfluss sieht es so aus, als ob sie sich bewegen würden
+Le lacune in realtà non sono mobili, ma a causa del flusso di elettroni sembra che si muovano
 </note>
 ---
 [question:AB105]
@@ -38,44 +38,44 @@ Löcher sind eigentlich nicht beweglich, aber durch den Elektronenfluss sieht es
 ---
 [question:AB107]
 --- style="font-size: 0.7em;"
-## Kombination
+## Combinazione
 
 <left>
-[picture:857:a_pn_uebergang:PN-Übergang]
-* n-dotierter Halbleiter an p-dotieren Halbleiter
-* Elektronen aus dem n-dotieren Gebiet wandern in das p-dotierte Gebiet $\rightarrow$ *Diffusion*
+[picture:857:a_pn_uebergang:Giunzione PN]
+* Semiconduttore drogato n unito a semiconduttore drogato p
+* Gli elettroni dalla zona drogata n migrano nella zona drogata p $\rightarrow$ *diffusione*
 </left>
 <right>
-* Es entsteht eine *Verarmungszone* oder *Sperrschicht*
-* Über der *Sperrschicht* liegt ein elektrisches Feld
-* Austausch stoppt, sobald das elektrische Feld für die Elektronen zu stark ist
+* Si crea una *zona di svuotamento* o *strato di barriera*
+* Sopra lo *strato di barriera* si trova un campo elettrico
+* Lo scambio si interrompe non appena il campo elettrico diventa troppo forte per gli elettroni
 </right>
 
 --- style="font-size: smaller;"
 [question:AB108]
 --- style="font-size: 0.7em;"
-## pn-Diode in Durchlassrichtung
+## Diodo PN in direzione di conduzione
 
 <left>
-[picture:956:a_pn_uebergang_mit_spannung:PN-Übergang mit externer Spannung]
-* Anlegen einer Spannung am p-Gebiet (*Anode*)
-* Spannung muss positiver als am n-Gebiet (*Kathode*) sein
+[picture:956:a_pn_uebergang_mit_spannung:Giunzione PN con tensione esterna]
+* Applicazione di una tensione alla zona p (*anodo*)
+* La tensione deve essere più positiva rispetto alla zona n (*catodo*)
 </left>
 <right>
-* Spannung zieht Elektronen über die Sperrschicht hinweg
-* Sperrschicht wird abgebaut und ein Strom fließt in *Durchlassrichtung*
+* La tensione attira gli elettroni attraverso lo strato di barriera
+* Lo strato di barriera viene rimosso e una corrente scorre in *direzione di conduzione*
 </right>
 ---
 [question:AC402]
 ---
-### pn-Diode im Sperrbetrieb
+### Diodo PN in blocco
 <left>
-[picture:957:a_pn_uebergang_mit_spannung:PN-Übergang mit externer Spannung]
-* Positive Spannung an der Kathode
+[picture:957:a_pn_uebergang_mit_spannung:Giunzione PN con tensione esterna]
+* Tensione positiva sul catodo
 </left>
 <right>
-* Sperrschicht vergrößert sich
-* Stromfluß stoppt und die Diode sperrt
+* Lo strato di barriera si allarga
+* Il flusso di corrente si interrompe e il diodo blocca
 </right>
 ---
 [question:AB109]

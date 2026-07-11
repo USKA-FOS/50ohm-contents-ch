@@ -1,33 +1,33 @@
-* Oszillatoren haben eine Temperaturabhängigkeit
-* Insbesondere Transistoren und Dioden
-* Aber auch Kondensatoren, Widerstände und Schwingquarze
+* Gli oscillatori hanno una dipendenza dalla temperatura
+* In particolare transistor e diodi
+* Ma anche condensatori, resistori e quarzi oscillanti
 
 ---
-### Thermische Isolation
+### Isolamento termico
 
-* Oszillatoren möglist gut thermisch isolieren
-* Großer Abstand zu internen und externen Wärme- und Kältequellen
-* Abseits von Luftströmungen
+* Isolare gli oscillatori il meglio possibile termicamente
+* Grande distanza da fonti di calore e freddo interne ed esterne
+* Lontano da correnti d'aria
 
 ---
-### Quarzoszillator (XO)
+### Oscillatore a quarzo (XO)
 
-* Anstatt RC-, LC- oder VCO-Oszillator
-* Wesentlich frequenzstabiler durch hohe Güte (Q)
+* Invece di oscillatori RC, LC o VCO
+* Significativamente più stabile in frequenza grazie all'alto fattore di qualità (Q)
 * *XO*: Crystal Oscillator
 
 ---
 ### TCXO
 
-* Quarzoszillator mit Bauelementen zur gegenseitigen Kompensation der thermischen Einflüsse
+* Oscillatore a quarzo con componenti per la compensazione reciproca degli influssi termici
 * *TCXO*: Temperature Compensated Crystal Oscillator
 
 ---
 ### OCXO
 
-* Künstliche Stabilisierung der Umgebungstemperatur
-* Thermoisoliertes Gehäuse
-* Heizt auf eine bestimmte Temperatur auf
+* Stabilizzazione artificiale della temperatura ambiente
+* Custodia termoisolata
+* Riscalda a una determinata temperatura
 * *OCXO*: Oven Controlled Crystal Oszillator
 
 ---
@@ -39,11 +39,11 @@
 ---
 [question:AD605]
 ---
-### Frequenzabweichungen
+### Deviazioni di frequenza
 
-* Die Oszillatorfrequenz wird für die Sende- und Empfangsfrequenz oft vervielfacht
-* Eine kleine Abweichung der Oszillatorfrequenz führt nach Vervielfachung zu einer hohen Abweichung
-* Insbesondere im SHF-Bereich und höheren Frequenzen sehr relevant
+* La frequenza dell'oscillatore viene spesso moltiplicata per la frequenza di trasmissione e ricezione
+* Una piccola deviazione della frequenza dell'oscillatore porta a un'elevata deviazione dopo la moltiplicazione
+* Particolarmente rilevante nella gamma SHF e alle frequenze più alte
 
 ---
 [question:AD604]

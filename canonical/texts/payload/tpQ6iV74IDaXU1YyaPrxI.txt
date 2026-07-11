@@ -1,38 +1,38 @@
 <left>
-* Abgleich von Funkgeräten
-* Nach Reparatur oder durch Veränderungen durch Alterung
-* *Frequenzzähler* zur Messung von Oszillatorfrequenzen
+* Calibrazione degli apparecchi radio
+* Dopo la riparazione o a causa di cambiamenti dovuti all'invecchiamento
+* *Frequenzzähler* per la misurazione delle frequenze dell'oscillatore
 </left>
 <right>
-[photo:189:e_frequenzzaehler2:Multimeter, das im Frequenzmessbereich $\qty{455}{\kilo\hertz}$ anzeigt. Darüber erscheinen ein Symbol für niedrige Batteriespannung, die Luftfeuchtigkeit und die Temperatur. Diese Werte haben nichts mit der Frequenzmessung zu tun.]
+[photo:189:e_frequenzzaehler2:Multimetro che indica 455 kHz nel campo di misurazione della frequenza. Sopra appaiono un simbolo di batteria scarica, l'umidità e la temperatura. Questi valori non hanno nulla a che fare con la misurazione della frequenza.]
 </right>
 
 ---
 [question:EI501]
 ---
 <left>
-* Anzeige der Frequenz
-* Bei älteren Geräten steht hinten ein $10^x$-Multiplikator
+* Indicazione della frequenza
+* Nei dispositivi più vecchi, sul retro è presente un moltiplicatore $10^x$
 </left>
 <right>
-[photo:187:e_frequenzzaehler1:Display eines Frequenzzählers, der $455 \cdot \qty{10^3}{\hertz}$ anzeigt]
+[photo:187:e_frequenzzaehler1:Display di un frequenzimetro che indica $455 \cdot \qty{10^3}{\hertz}$]
 </right>
 <note>
-* $\qty{455}{\kilo\hertz}$ ist häufig eine Zwischenfrequenz von Überlagerungsempfängern
-* Die wird gemessen, wenn der Empfänger auf ein starkes Signal abgestimmt ist
+* $\qty{455}{\kilo\hertz}$ è spesso una frequenza intermedia dei ricevitori supereterodina
+* Viene misurata quando il ricevitore è sintonizzato su un segnale forte
 </note>
 
 ---
 
 <left>
-* Abgleichanleitung verlangt oft Einstellung bis auf eine bestimmte Abweichung
-* z.B. $\pm\qty{10}{\hertz}$
-* Stellenwert der Ziffern kennen
-* Auf Komma und Einheitenpräfix oder Multiplikator achten
+* La guida alla calibrazione richiede spesso l'impostazione entro una certa deviazione
+* ad es. $\pm\qty{10}{\hertz}$
+* Conoscere il valore posizionale delle cifre
+* Prestare attenzione alla virgola e al prefisso dell'unità o al moltiplicatore
 </left>
 <right>
-[picture:793:e_frequenzzaehler_stellen:Diese Anzeige stellt eine Frequenz in $\unit{\mega\hertz}$ dar. Das ist zugleich der Stellenwert der Ziffer vor dem Komma.]
-[picture:104:e_frequenzzaehler_weniger_stellen:Manche Anzeigen eines Frequenzzählers haben weniger Nachkommastellen]
+[picture:793:e_frequenzzaehler_stellen:Questa visualizzazione rappresenta una frequenza in $\unit{\mega\hertz}$. Questo è anche il valore posizionale della cifra prima della virgola.]
+[picture:104:e_frequenzzaehler_weniger_stellen:Alcuni display di un frequenzimetro hanno meno cifre decimali]
 </right>
 
 ---
@@ -41,14 +41,14 @@
 [question:EI503]
 ---
 
-## Wertebereich
+## Intervallo di valori
 
-* Außerhalb des angegebenen Wertebereichs messen Frequenzzähler ungenau oder gar nicht
-* Für höhere Frequenzen gibt es Frequenzteiler
-* Angelegte Frequenz wird durch einen festen Wert geteilt
-* Ergebnis wird als elektrische Schwingung ausgegeben
-* *Vorteiler* genannt, da zwischen Messobjekt und Zähler geschaltet
-* 10:1-Teiler bei $\qty{2,4}{\giga\hertz} \rightarrow \qty{240}{\mega\hertz}$
+* Al di fuori dell'intervallo di valori specificato, i frequenzimetri misurano in modo impreciso o non misurano affatto
+* Per frequenze più elevate esistono divisori di frequenza
+* La frequenza applicata viene divisa per un valore fisso
+* Il risultato viene emesso come oscillazione elettrica
+* Chiamato *pre-divisore*, poiché viene inserito tra l'oggetto di misurazione e il contatore
+* Divisore 10:1 a $\qty{2,4}{\giga\hertz} \rightarrow \qty{240}{\mega\hertz}$
 
 ---
 

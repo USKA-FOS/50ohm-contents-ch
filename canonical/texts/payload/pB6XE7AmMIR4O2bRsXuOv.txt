@@ -1,10 +1,10 @@
-Parasitäre Schwingungen entstehen vornehmlich in HF-Leistungsversträrker-Stufen durch unerwünschte Rückköpplungen (Kapazitäten oder induktive Kopplungen zwischen Elementen) und haben normalerweise keinen Bezug zur Betriebsfrequenz des Senders. Sie äußern sich unter anderem durch Schwankungen der Ausgangsleistung des Senders wenn dieser abgestimmt wird (Schwankungen der TX-Anzeige).
+Le oscillazioni parassite si verificano principalmente negli stadi amplificatori di potenza HF a causa di retroazioni indesiderate (capacità o accoppiamenti induttivi tra elementi) e normalmente non hanno alcuna relazione con la frequenza operativa del trasmettitore. Si manifestano, tra l'altro, con fluttuazioni della potenza d'uscita del trasmettitore quando questo viene accordato (fluttuazioni dell'indicatore TX).
 
 [question:AJ212]
 [question:AJ213]
 
-Um parisitäre Schwingungen zu unterdrücken können in VHF-Sendern beispielsweise Ferrit-Perlen eingesetzt werden, die am Emitter des Leistungstransistors angebracht werden (möglichst nah am Transistor).
-Bei breitbandigen Kurzwellen-Endstufen kann ein Parallel-Widerstand am Transformator zu dessen Bedämpfung und somit Verringerung der Schwingneigung des Verstärkers verwendet werden.
+Per sopprimere le oscillazioni parassite, nei trasmettitori VHF si possono utilizzare, ad esempio, perle di ferrite applicate all'emettitore del transistor di potenza (il più vicino possibile al transistor).
+Nelle stadi finali a banda larga per onde corte, una resistenza parallela sul trasformatore può essere utilizzata per la sua attenuazione e quindi per ridurre la tendenza all'oscillazione dell'amplificatore.
 
 [question:AJ217]
 [question:AF416]

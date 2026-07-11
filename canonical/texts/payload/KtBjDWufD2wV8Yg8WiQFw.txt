@@ -1,55 +1,55 @@
-In der Formelsammlung finden wir die folgende Formel für die Berechnung der Grenzfrequenz von RC-Gliedern, z.B. von Hoch- oder Tiefpassfiltern:
+Nella raccolta di formule troviamo la seguente formula per il calcolo della frequenza di taglio dei circuiti RC, ad esempio dei filtri passa-alto o passa-basso:
 
 $f_g = \frac{1}{2 \pi \cdot R \cdot C}$
 
-Mit dieser Formel können wir eine Reihe von Prüfungsfragen lösen.
+Con questa formula possiamo risolvere una serie di domande d'esame.
 
 <indepth>
-Für mathematisch interessierte Leser: Die Formel für die Grenzfrequenz eines RC-Gliedes lässt sich auch durch die Betrachtung der komplexen Impedanzen von Widerstand und Kondensator herleiten. Wir betrachten den RC-Tiefpass als frequenzabhängigen Spannungsteiler.
+Per i lettori interessati alla matematica: la formula per la frequenza di taglio di un circuito RC può essere derivata anche considerando le impedenze complesse di resistenza e condensatore. Consideriamo il filtro RC passa-basso come un partitore di tensione dipendente dalla frequenza.
 
 [picture:175:a_rc_tiepass:RC-Tiefpass als frequenzabhängiger Spannungsteiler]
 
-Für das Verhältnis von Ausgangs- zu Eingangsspannung gilt:
+Per il rapporto tra tensione d’uscita e tensione d’ingresso vale:
 
 $\frac{|U_A|}{|U_E|} = \frac{|X_C|}{|R + X_C|}$
 
-Der kapazitive Blindwiderstand des Kondensators lautet:
+La reattanza capacitiva del condensatore è:
 
 $X_C = \frac{1}{j\omega C}$
 
-Damit ergibt sich:
+Ciò porta a:
 
 $\frac{|U_A|}{|U_E|} = \frac{\left|\frac{1}{j\omega C}\right|}{\left|R + \frac{1}{j\omega C}\right|}$
 
-Für die Beträge erhalten wir:
+Per i moduli otteniamo:
 
 $\frac{|U_A|}{|U_E|} = \frac{\frac{1}{\omega C}}{\sqrt{R^2 + \frac{1}{\omega^2 C^2}}}$
 
-Multipliziert man Zähler und Nenner mit $\omega C$, vereinfacht sich der Ausdruck zu:
+Moltiplicando numeratore e denominatore per $\omega C$, l'espressione si semplifica in:
 
 $\frac{|U_A|}{|U_E|} = \frac{1}{\sqrt{1 + R^2\omega^2 C^2}}$
 
-Die Grenzfrequenz ist so definiert, dass die Ausgangsspannung auf den Faktor $\frac{1}{\sqrt{2}} \approx 0{,}707$ des ursprünglichen Wertes abgefallen ist. Dies entspricht etwa $\qty{70}{\percent}$ der Ausgangsspannung bzw. einem Pegelabfall von $\qty{3}{\dB}$.
+La frequenza di taglio è definita in modo tale che la tensione d’uscita sia diminuita del fattore $\frac{1}{\sqrt{2}} \approx 0{,}707$ del valore originale. Ciò corrisponde a circa il $\qty{70}{\percent}$ della tensione d’uscita o a una riduzione di livello di $\qty{3}{\dB}$.
 
 $\frac{|U_A|}{|U_E|} = \frac{1}{\sqrt{2}}$
 
-Daraus folgt:
+Da ciò segue:
 
 $\frac{1}{\sqrt{1 + R^2\omega^2 C^2}} = \frac{1}{\sqrt{2}}$
 
-Damit muss gelten:
+Quindi deve valere:
 
 $R^2\omega^2 C^2 = 1$
 
-und somit:
+e quindi:
 
 $\omega R C = 1$
 
-Mit $\omega = 2\pi f$ ergibt sich:
+Con $\omega = 2\pi f$ si ottiene:
 
 $2\pi f_g R C = 1$
 
-Daraus folgt für die Grenzfrequenz:
+Da ciò segue per la frequenza di taglio:
 
 $f_g = \frac{1}{2\pi R C}$
 </indepth>
@@ -60,7 +60,7 @@ $f_g = \frac{1}{2\pi R C}$
 
 ---
 
-Der Betragsfrequenzgang eines Serienschwingkreises aus einem Widerstand, einer Spule und einem Kondensator, wie in Abbildung [ref:a_serienschwingkreis] dargestellt, berechnet sich nach folgender Formel:
+Il diagramma di ampiezza di un circuito oscillante serie composto da una resistenza, un'induttanza e un condensatore, come mostrato nella figura [ref:a_serienschwingkreis], si calcola secondo la seguente formula:
   
 $Z = \sqrt{R^2+\left(X_\text{L} - X_\text{C}\right)^2}$
 
@@ -70,11 +70,11 @@ $Z = \sqrt{R^2+\left(X_\text{L} - X_\text{C}\right)^2}$
 
 ---
 
-Wenn der Blindwiderstand der Spule genau so groß ist wie der Blindwiderstand des Kondensators, also $X_\text{L} = X_\text{C}$, dann ergibt sich für die Impedanz:
+Se la reattanza dell'induttanza è esattamente uguale alla reattanza del condensatore, cioè $X_\text{L} = X_\text{C}$, allora l'impedenza risulta:
 
 $Z=\sqrt{R^2+\left(0\right)^2}=\sqrt{R^2}=R$
 
-In diesem Fall handelt es sich um die sogenannte *Resonanzfrequenz* $f_0$ des Schwingkreises, bei der die Impedanz nur noch durch den ohmschen Widerstand bestimmt wird. Bei Frequenzen über und unter der Resonanzfrequenz ist die Impedanz größer als der ohmsche Widerstand, da entweder die Spule oder der Kondensator einen höheren Blindwiderstand hat. Abbildung [ref:a_serienschwingkreis_frequenzgang] zeigt den Betragsfrequenzgang eines Serienschwingkreises, bei dem die Resonanzfrequenz deutlich zu erkennen ist. Bei Frequenzen über und unter der Resonanzfrequenz haben wir beim Serienschwingkreis daher jeweils einen hohen Gesamtwiderstand (Impedanz). Bei hoher Frequenz hat die Spule einen hohen Widerstand. Bei niedriger Frequenz hat der Kondensator einen hohen Widerstand. 
+In questo caso si tratta della cosiddetta *frequenza di risonanza* $f_0$ del circuito oscillante, in cui l'impedenza è determinata solo dalla resistenza ohmica. A frequenze superiori e inferiori alla frequenza di risonanza, l'impedenza è maggiore della resistenza ohmica, poiché l'induttanza o il condensatore ha una reattanza maggiore. La figura [ref:a_serienschwingkreis_frequenzgang] mostra il diagramma di ampiezza di un circuito oscillante serie, in cui la frequenza di risonanza è chiaramente riconoscibile. A frequenze superiori e inferiori alla frequenza di risonanza, nel circuito oscillante serie abbiamo quindi rispettivamente un'alta resistenza totale (impedenza). Ad alta frequenza l'induttanza ha un'alta resistenza. A bassa frequenza il condensatore ha un'alta resistenza. 
 
 <margin>
 [picture:1037:a_serienschwingkreis_frequenzgang:Betragsfrequenzgang eines Serienschwingkreises]
@@ -84,24 +84,24 @@ In diesem Fall handelt es sich um die sogenannte *Resonanzfrequenz* $f_0$ des Sc
 [question:AD207] 
 [question:AD204] 
 
-Bei Parallel- und Serienschwingkreisen gilt im Resonanzfall, wie oben gezeigt, also folgender Zusammenhang:
+Nei circuiti oscillanti paralleli e serie, nel caso di risonanza, come mostrato sopra, vale quindi la seguente relazione:
 
 $X_\text{C} = X_\text{L}$
 
-Wenn wir nun die Formeln für die Blindwiderstände von Spule und Kondensator in die obige Gleichung einsetzen, erhalten wir:
+Se ora inseriamo le formule per le reattanze di induttanza e condensatore nell'equazione precedente, otteniamo:
 
 $2\pi f \cdot L = \frac{1}{2\pi f \cdot C}$
   
-So ergibt sich die Formel: 
+Così si ottiene la formula: 
   
 $f_0 = \frac{1}{2\pi \sqrt{L\cdot C}}$
 
 ---
 
-Diese Formel heißt Thomsonsche Schwingungsformel und gilt sowohl für Parallel- als auch für Serienschwingkreise. In der Formelsammlung finden wir sie beim Thema "Schwingkreise". Sie besagt, dass die Resonanzfrequenz eines Schwingkreises nur von der Induktivität der Spule und der Kapazität des Kondensators abhängt. Ohmsche Widerstände und Verluste haben keinen Einfluss auf die Resonanzfrequenz. Mit der Formel können wir die Resonanzfrequenz von Schwingkreisen berechnen. 
+Questa formula si chiama formula di oscillazione di Thomson e vale sia per i circuiti oscillanti paralleli che serie. Nella raccolta di formule la troviamo alla voce "Circuiti oscillanti". Essa afferma che la frequenza di risonanza di un circuito oscillante dipende solo dall'induttanza della bobina e dalla capacità del condensatore. Le resistenze ohmiche e le perdite non influenzano la frequenza di risonanza. Con la formula possiamo calcolare la frequenza di risonanza dei circuiti oscillanti. 
 
 <indepth>
-Ohmsche Widerstände in Parallel- und Serienschwingkreisen wirken sich jedoch auf die Güte ($Q$) und damit auf die Bandbreite ($B$) des Schwingkreises aus - hierauf werden wir später noch genauer eingehen.
+Le resistenze ohmiche nei circuiti oscillanti paralleli e serie, tuttavia, influenzano il fattore di qualità ($Q$) e quindi la larghezza di banda ($B$) del circuito oscillante - su questo torneremo più avanti.
 </indepth>
 
 
@@ -111,24 +111,24 @@ Ohmsche Widerstände in Parallel- und Serienschwingkreisen wirken sich jedoch au
 
 ---
 
-Die Resonanzfrequenz von Parallelschwingkreisen wird genau wie bei Serienschwingkreisen mit der zuvor genannten Thomsonschen Schwingungsformel berechnet. 
+La frequenza di risonanza dei circuiti oscillanti paralleli viene calcolata esattamente come per i circuiti oscillanti serie, utilizzando la formula di oscillazione di Thomson precedentemente menzionata. 
 
 [question:AD211] 
 [question:AD212] 
 
 ---
 
-Um die Resonanzfrequenz von Schwingkreisen zu verändern, kann entweder die Induktivität der Spule oder die Kapazität des Kondensators im Schwingkreis verändert werden.
-Wie aus der Thomsonschen Schwingkreisformel ersichtlich befinden sich die Größen $L$ und $C$ jeweils unter dem Bruchstrich. Hierdurch bewirkt eine Vergrößerung von $L$ oder $C$ eine Verringerung der Schwingkreisfrequenz, da der Nenner der Formel größer wird. Bei einer Verkleinerung von $L$ und $C$ gilt umgekehrt, dass die Resonanzfrequenz des Schwingkreises sich vergrößert.
+Per modificare la frequenza di risonanza dei circuiti oscillanti, si può modificare l'induttanza della bobina o la capacità del condensatore nel circuito oscillante. 
+Come si evince dalla formula di oscillazione di Thomson, le grandezze $L$ e $C$ si trovano entrambe sotto il segno di frazione. Pertanto, un aumento di $L$ o $C$ provoca una diminuzione della frequenza di oscillazione, poiché il denominatore della formula diventa più grande. Al contrario, una diminuzione di $L$ e $C$ comporta un aumento della frequenza di risonanza del circuito oscillante.
 
 <indepth>
-Die Quadratwurzel hat auf diesen Zusammenhang keinen Einfluss, da die Wurzel aus einer größeren Zahl ebenfalls eine größere Zahl ist. Der Zusammenhang hierbei ist jedoch nicht linear.
+La radice quadrata non influisce su questa relazione, poiché la radice di un numero più grande è anch'essa un numero più grande. La relazione non è tuttavia lineare.
 </indepth>
 
-Die Induktivität einer Spule kann durch Vergrößern der Windungszahl, durch Zusammenschieben oder Einführen eines Ferritkerns vergrößert werden.
-Umgekehrt kann die Induktivität einer Spule verringert werden durch Verringerung der Windungszahl, durch Auseinanderziehen oder durch Entfernen eines Ferritkerns oder durch Einführen eines Kupferkerns. Die Kapazität von Kondensatoren kann durch Austausch oder die Verwendung von Trimm- oder Drehkondensatoren beeinflusst werden.
+L'induttanza di una bobina può essere aumentata aumentando il numero di spire, avvicinando le spire o inserendo un nucleo di ferrite. 
+Al contrario, l'induttanza di una bobina può essere diminuita riducendo il numero di spire, allontanando le spire o rimuovendo un nucleo di ferrite o inserendo un nucleo di rame. La capacità dei condensatori può essere influenzata dalla sostituzione o dall'uso di condensatori trimmer o variabili.
 
-Mit diesem Wissen können wir nun die folgenden Fragen beantworten.
+Con queste conoscenze possiamo ora rispondere alle seguenti domande.
 
 [question:AD213] 
 [question:AD214] 
@@ -136,51 +136,51 @@ Mit diesem Wissen können wir nun die folgenden Fragen beantworten.
 [question:AD216] 
 [question:AD217] 
 
-Eine Kombination aus Parallel- und Serienschwingkreisen kann bei geeigneter Anordnung als Bandpassfilter verwendet werden. Im Resonanzfall verhalten sich die parallelen Schwingkreise wie hochohmige Widerstände und der Serienschwingkreis wie ein niederohmiger Widerstand.
+Una combinazione di circuiti oscillanti paralleli e serie può essere utilizzata come filtro passa-banda con una disposizione appropriata. Nel caso di risonanza, i circuiti oscillanti paralleli si comportano come resistenze ad alta impedenza e il circuito oscillante serie come una resistenza a bassa impedenza.
 
 [question:AD205]
 
-Die Bandbreite von Filtern und Bandpässen wird häufig in Bezug auf einen bestimmten Dämpfungswert angegeben. Dabei beschreibt die Dämpfung, wie stark ein Signal gegenüber dem maximalen Durchlass abgeschwächt wird.
+La larghezza di banda dei filtri e dei filtri passa-banda viene spesso specificata in relazione a un determinato valore di attenuazione. L'attenuazione descrive quanto un segnale viene attenuato rispetto alla massima trasmissione.
 
-Üblicherweise wird die *Bandbreite* eines Filters über den sogenannten $\qty{-3}{\dB}$-Punkt definiert.
+Di solito, la *larghezza di banda* di un filtro è definita tramite il cosiddetto punto $\qty{-3}{\dB}$.
 
-Am $\qty{-3}{\dB}$-Punkt gilt:
+Al punto $\qty{-3}{\dB}$ vale:
 
-- Nur noch die halbe Leistung passiert das Filter
-- Die Signalspannung beträgt noch etwa das $0{,}7$-fache des Maximalwertes
+- Solo la metà della potenza passa attraverso il filtro
+- La tensione del segnale è ancora circa $0{,}7$ volte il valore massimo
 
-Die Bandbreite ergibt sich aus der Differenz zwischen oberer und unterer Grenzfrequenz bei $\qty{-3}{\dB}$:
+La larghezza di banda risulta dalla differenza tra la frequenza di taglio superiore e inferiore a $\qty{-3}{\dB}$:
 
 $ B = f_\mathrm{o} - f_\mathrm{u} $
 
 [question:AD220]
 
-Dabei sind:
+Dove:
 
-- $f_\mathrm{o}$: obere Grenzfrequenz
-- $f_\mathrm{u}$: untere Grenzfrequenz
+- $f_\mathrm{o}$: frequenza di taglio superiore
+- $f_\mathrm{u}$: frequenza di taglio inferiore
 
-Die $\qty{-3}{\dB}$-Bandbreite wird verwendet, um die Eignung eines Filters für bestimmte Betriebsarten zu beschreiben:
+La larghezza di banda a $\qty{-3}{\dB}$ viene utilizzata per descrivere l'idoneità di un filtro per determinati modi operativi:
 
-- Schmalbandiges Filter mit etwa $\qty{500}{\hertz}$ Bandbreite: geeignet für CW (Telegrafie)
-- Breitbandigeres Filter mit etwa $\qty{2,7}{\kilo\hertz}$ Bandbreite: geeignet für SSB-Sprachübertragung
+- Filtro a banda stretta con circa $\qty{500}{\hertz}$ di larghezza di banda: adatto per CW (telegrafia)
+- Filtro più largo con circa $\qty{2,7}{\kilo\hertz}$ di larghezza di banda: adatto per la trasmissione vocale SSB
 
 [question:AD221] 
 [question:AD222]
 
-Bei der folgenden Frage muss nicht der $\qty{-3}{\dB}$-Punkt, sondern die Bandbreite am $\qty{-60}{\dB}$-Punkt abgelesen werden.
+Nella domanda seguente, non è necessario leggere il punto $\qty{-3}{\dB}$, ma la larghezza di banda al punto $\qty{-60}{\dB}$.
 
 [question:AD219]
 
-Die Güte eines Schwingkreises (im Englischen Q-Faktor) wird durch das Verhältnis der Blindwiderstände von Kapazität und Induktivität im Resonanzfall zum ohmschen Verlustwiderstand bestimmt. Wenn ein Schwingkreis keinerlei ohmschen Verlustwiderstände enthalten würde, so wäre dessen Q-Faktor unendlich. Reale Bauteile sind jedoch immer verlustbehaftet. Induktivitäten haben immer einen ohmschen Verlustwiderstand, Kapazitäten haben dielektrische Verluste, die sich ebenfalls als ohmscher Widerstand auswirken. Je größer die ohmschen Widerstände in einem Schwingkreis sind, desto geringer wird dessen Q-Faktor. Für Filter mit hoher Güte und steilen Flanken werden häufig Quarzfilter eingesetzt.
+Il fattore di qualità di un circuito oscillante (in inglese Q-factor) è determinato dal rapporto tra le reattanze capacitiva e induttiva nel caso di risonanza e la resistenza di perdita ohmica. Se un circuito oscillante non contenesse alcuna resistenza di perdita ohmica, il suo fattore Q sarebbe infinito. I componenti reali, tuttavia, hanno sempre perdite. Le induttanze hanno sempre una resistenza di perdita ohmica, le capacità hanno perdite dielettriche che si manifestano anche come resistenza ohmica. Maggiore è la resistenza ohmica in un circuito oscillante, minore sarà il suo fattore Q. Per filtri con alto fattore di qualità e fianchi ripidi, vengono spesso utilizzati filtri a quarzo.
 
-Für die Berechnung des Q-Faktors verwenden wir die entsprechenden Formeln aus der Formelsammlung je nachdem ob es sich um einen Parallel- oder Serienschwingkreis handelt:
+Per il calcolo del fattore Q utilizziamo le formule corrispondenti dalla raccolta di formule, a seconda che si tratti di un circuito oscillante parallelo o serie:
 
-Für den Serienschwingkreis gilt im Resonanzfall ($X_\text{L} = X_\text{C}$):
+Per il circuito oscillante serie vale nel caso di risonanza ($X_\text{L} = X_\text{C}$):
 
 $Q = \frac{f_0}{B} = \frac{X_\text{L}}{R_\text{S}}$
 
-Für den Parallelschwingkreis gilt im Resonanzfall ($X_\text{L} = X_\text{C}$):
+Per il circuito oscillante parallelo vale nel caso di risonanza ($X_\text{L} = X_\text{C}$):
 
 $Q = \frac{f_0}{B} = \frac{R_\text{P}}{X_\text{L}}$
 
@@ -189,47 +189,47 @@ $Q = \frac{f_0}{B} = \frac{R_\text{P}}{X_\text{L}}$
 
 ---
 
-Entsprechend dem obigen Rechenbeispiel können wir jetzt auch den Gütefaktor des Parallelschwingkreises errechnen. Die Resonanzfrequenz wird wie im vorigen Beispiel berechnet. Es ist jedoch zu beachten, dass für die Berechnung von $Q$ die Formel für den Parallelschwingkreis zu verwenden ist:
+In base all'esempio di calcolo precedente, possiamo ora calcolare anche il fattore di qualità del circuito oscillante parallelo. La frequenza di risonanza viene calcolata come nell'esempio precedente. Tuttavia, va notato che per il calcolo di $Q$ è necessario utilizzare la formula per il circuito oscillante parallelo:
 
 $Q = \frac{f_0}{B} = \frac{R_\text{P}}{X_\text{L}}$
 
 [question:AD226]
 
-Die Bandbreite von Parallel- und Serienschwingkreisen lässt sich nun ebenfalls einfach aus der Resonanzfrequenz des Schwingkreises und dessen Gütefaktor wie folgt berechnen (Formel hierzu in der Formelsammlung):
+La larghezza di banda dei circuiti oscillanti paralleli e serie può ora essere calcolata anche semplicemente dalla frequenza di risonanza del circuito oscillante e dal suo fattore di qualità come segue (formula in merito nella raccolta di formule):
 
 $Q = \frac{f_0}{B}$
 
-Durch Umstellen der Formel ergibt sich die Bandbreite $B$:
+Riorganizzando la formula si ottiene la larghezza di banda $B$:
 
 $B = \frac{f_0}{Q}$
 
-Die vorgenannte Formel gilt sowohl für den Serien- als auch den Parallelschwingkreis!
+La formula sopra menzionata vale sia per il circuito oscillante serie che per quello parallelo!
 
 [question:AD224]
 
-Entsprechend kann nun auch mit dem zuvor beschriebenen Wissen die folgende Frage schrittweise berechnet werden.
+Di conseguenza, con le conoscenze precedentemente descritte, è ora possibile calcolare anche la seguente domanda passo dopo passo.
 [question:AD223]
 
 ---
 
-Zur Übertragung von Signalen zwischen Schaltungsstufen sowie in Filtern in Sendern und Empfängern werden häufig gekoppelte Schwingkreise verwendet. Hierbei werden zwei Schwingkreise induktiv oder kapazitiv aneinander gekoppelt. Die Abbildung [ref:a_gekoppelte_schwingkreise] zeigt eine induktive Kopplung. Diese Kopplung kann je nach Anwendung 
+Per la trasmissione di segnali tra stadi di circuito e nei filtri di trasmettitori e ricevitori, vengono spesso utilizzati circuiti oscillanti accoppiati. In questo caso, due circuiti oscillanti vengono accoppiati induttivamente o capacitivamente. La figura [ref:a_gekoppelte_schwingkreise] mostra un accoppiamento induttivo. Questo accoppiamento può, a seconda dell'applicazione, avvenire
 
-- *lose* (d),
-- *unterkritisch* (c),
-- *kritisch* (b) oder 
-- *überkritisch* (a)
+- *lento* (d),
+- *sottocritico* (c),
+- *critico* (b) o 
+- *supercritico* (a)
 
-erfolgen. Der Grad der Kopplung bestimmt die gegenseitige Beeinflussung und damit die Bandbreite und Durchlasskurve der gesamten Anordnung.
+Il grado di accoppiamento determina l'influenza reciproca e quindi la larghezza di banda e la curva di trasmissione dell'intera disposizione.
 
 <margin>
 [picture:184:a_gekoppelte_schwingkreise:Kopplung von Schwingkreisen]
 </margin>
 
-Bei loser und unterkritischer Kopplung gibt es kaum eine gegenseitige Beeinflussung; Dafür ist die Durchlassdämpfung der Anordnung relativ hoch und die Bandbreite relativ gering.
+Con accoppiamento lento e sottocritico, c'è poca influenza reciproca; tuttavia, l'attenuazione di trasmissione della disposizione è relativamente alta e la larghezza di banda è relativamente piccola.
 
-Bei kritischer Kopplung beeinflussen sich beide Schwingkreise gerade so, dass eine im Durchlassbereich flache Durchlasskurve mit geringer Dämpfung entsteht und diese im gewünschten Durchlassbereich völlig eben ist (Plateau). Die Bandbreite der Anordnung ist hierbei größer als bei loser und unterkritischer Kopplung. Hieran ist eine kritische Kopplung auch gut zu erkennen.
+Con accoppiamento critico, i due circuiti oscillanti si influenzano reciprocamente in modo tale da creare una curva di trasmissione piatta nell'intervallo di trasmissione con bassa attenuazione, ed essa è completamente piana nell'intervallo di trasmissione desiderato (plateau). La larghezza di banda della disposizione è maggiore rispetto all'accoppiamento lento e sottocritico. Questo è anche un buon modo per riconoscere un accoppiamento critico.
 
-Bei überkritischer Kopplung ist die gegenseitige Beeinflussung der beiden Schwingkreise sehr stark, was zu einer starken Änderung beider Resonanzfrequenzen und damit zu einer großen Bandbreite führt. Hierdurch wird die Durchlasskurve im Durchlassbereich stark verzerrt und es bilden sich links und rechts der Mittenfrequenz zwei Resonanzpunkte. Die Durchlasskurve bekommt eine "Delle". Hieran ist die überkritische Kopplung gut zu erkennen.
+Con accoppiamento supercritico, l'influenza reciproca dei due circuiti oscillanti è molto forte, il che porta a una forte variazione di entrambe le frequenze di risonanza e quindi a una grande larghezza di banda. Ciò distorce fortemente la curva di trasmissione nell'intervallo di trasmissione e si formano due punti di risonanza a sinistra e a destra della frequenza centrale. La curva di trasmissione presenta una "dellenza". Questo è anche un buon modo per riconoscere l'accoppiamento supercritico.
 
 [question:AD227] 
 [question:AD228] 

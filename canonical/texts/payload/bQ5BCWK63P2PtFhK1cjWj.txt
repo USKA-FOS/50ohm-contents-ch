@@ -1,47 +1,47 @@
-Idealerweise sind die Ströme durch den Innen- und Außenleiter eines Koaxialkabels genau gleich groß und in der Richtung entgegengesetzt. Deren Summe ist also Null und man spricht dann von einem reinen *Gegentaktsignal*. Genau dann treten keine Mantelwellen auf.
+Idealmente, le correnti attraverso il conduttore interno e quello esterno di un cavo coassiale sono esattamente uguali e di direzione opposta. La loro somma è quindi zero e si parla di un puro *segnale di modo comune*. È proprio in questo caso che non si verificano onde di mantel.
 
-Ist die Summe des Signals hingegen ungleich Null, dann ist ein sogenanntes *Gleichtaktsignal* vorhanden. Der Gleichtaktanteil eines Stroms im Koaxialkabel fließt stets auf der Außenseite des Außenleiters und ist damit ein Mantelstrom mit zugehöriger Mantelwelle um das Koaxialkabel herum.
+Se la somma del segnale è invece diversa da zero, è presente un cosiddetto *segnale di modo differenziale*. La componente di modo differenziale di una corrente nel cavo coassiale scorre sempre sulla superficie esterna del conduttore esterno ed è quindi una corrente di mantel con la corrispondente onda di mantel attorno al cavo coassiale.
 
 [question:AG425]
 
-Dass ein um einen Ferritkern gewickeltes Koaxialkabel zur Unterdrückung von Mantelwellen geeignet sind, haben wir bereits gelernt. Dies ist eine Form der sogenannten *stromkompensierten Drossel*.
+Abbiamo già appreso che un cavo coassiale avvolto attorno a un nucleo di ferrite è adatto alla soppressione delle onde di mantel. Questa è una forma della cosiddetta *bobina di blocco a corrente compensata*.
 
-Eine Drossel ist eine Spule, die hochfrequente Ströme blockieren soll. Die stromkompensierte Drossel ist eine Bauform der Drosselspule, bei der zwei getrennte Wicklungen auf den selben Magnetkern gewickelt werden. Hierbei wird die stromkompensierte Drossel so beschaltet, dass Gegentaktsignale, d. h. Signale bei denen der Strom in der einen Wicklung genau entgegengesetzt der anderen Wicklung sind und ansonsten die gleiche Größe aufweisen, kein Magnetfeld in den Kern induzieren. Die stromkompensierte Drossel lässt also Gegentaktsignale ungehindert hindurch. Gleichtaktanteile jedoch, also z. B. Ströme die nur auf dem Außenleiter und damit nur in einer Wicklung fließen, werden durch die Induktivität blockiert.
+Una bobina di blocco è una bobina che dovrebbe bloccare le correnti ad alta frequenza. La bobina di blocco a corrente compensata è una forma costruttiva della bobina di blocco, in cui due avvolgimenti separati vengono avvolti sullo stesso nucleo magnetico. In questo caso, la bobina di blocco a corrente compensata viene collegata in modo tale che i segnali di modo comune, cioè segnali in cui la corrente in un avvolgimento è esattamente opposta all'altra e altrimenti ha la stessa grandezza, non inducano alcun campo magnetico nel nucleo. La bobina di blocco a corrente compensata lascia quindi passare i segnali di modo comune senza impedimenti. Le componenti di modo differenziale, invece, ad esempio le correnti che scorrono solo sul conduttore esterno e quindi solo in un avvolgimento, vengono bloccate dall'induttanza.
 
 [question:AG426]
 
 ---
 
-Eine Alternative zur stromkompensierten Drossel stellt ein HF-Trenntrafo dar. Da die Primär- und die Sekundärwicklung nicht miteinander verbunden sind, muss ein Strom der an einem Pol in den Trenntrafo hineinfließt (zumindest näherungsweise) auch in gleicher Größe aus dem anderen Pol wieder hinausfließen. Ein Gleichtaktanteil ist damit ausgeschlossen.
+Un trasformatore di isolamento HF rappresenta un'alternativa alla bobina di blocco a corrente compensata. Poiché l'avvolgimento primario e quello secondario non sono collegati tra loro, una corrente che entra nel trasformatore di isolamento da un lato (almeno approssimativamente) deve uscire dall'altro lato con la stessa grandezza. Una componente di modo differenziale è quindi esclusa.
 
 <indepth>
-Da zwischen den Windungen der Spule eines Trenntrafos eine Kapazität entsteht und die Spule auch eine Kapazität gegenüber der anderen Spule ausbildet, unterdrückt auch ein Trenntrafo den Gleichtaktanteil eines Signals nicht vollständig.
+Poiché si crea una capacità tra le spire della bobina di un trasformatore di isolamento e la bobina forma anche una capacità rispetto all'altra bobina, anche un trasformatore di isolamento non sopprime completamente la componente di modo differenziale di un segnale.
 </indepth>
 
 [question:AJ115]
 
-Wenn ein Koaxialkabel frei von HF-Gleichtaktsignalen ist, dann weist der Außenleiter keine hochfrequente Spannung gegenüber der Erde auf. Dies liegt daran, dass sich bei einem Gegentaktsignal, also entgegengesetzten Strömen im Innen- und Außenleiter, ein elektrisches Feld ausschließlich zwischen Innen- und Außenleiter ausbildet. Von außen betrachtet heben sich die Wirkungen der beiden Ströme auf, da sie in der Summe Null ergeben. Das Vorhandensein von Mantelwellen hängt also unmittelbar mit dem Vorhandensein von HF-Spannungen auf dem Außenleiter zusammen.
+Quando un cavo coassiale è privo di segnali HF di modo differenziale, il conduttore esterno non presenta alcuna tensione ad alta frequenza rispetto alla terra. Ciò è dovuto al fatto che, in un segnale di modo comune, cioè correnti opposte nel conduttore interno ed esterno, un campo elettrico si forma esclusivamente tra il conduttore interno ed esterno. Visti dall'esterno, gli effetti delle due correnti si annullano a vicenda, poiché la loro somma è zero. La presenza di onde di mantel dipende quindi direttamente dalla presenza di tensioni HF sul conduttore esterno.
 
-Genau solche Spannungen am Außenleiter entstehen z. B., wenn wir eine symmetrische Antenne an das Kabel anschließen, denn am Speisepunkt weist jeder Dipolschenkel eine Spannung gegenüber Erde auf. Verbinden wir die Schenkel jeweils mit einem Leiter des Koaxialkabels, so wird auch der Außenleiter eine Spannung gegenüber Erde aufweisen.
+Proprio tali tensioni sul conduttore esterno si verificano, ad esempio, quando colleghiamo un'antenna simmetrica al cavo, poiché nel punto di alimentazione ogni braccio del dipolo presenta una tensione rispetto alla terra. Se colleghiamo i bracci rispettivamente a un conduttore del cavo coassiale, anche il conduttore esterno presenterà una tensione rispetto alla terra.
 
-Gut geerdete Antennen hingegen, z. B. eine Groundplane Antenne mit vielen gut abgestimmten oder vergrabenen Radialen, weisen am Speisepunkt der Radiale eine Spannung von nahezu Null gegenüber der Erde auf. Schlecht geerdete Groundplane-Antennen hingegen können anfällig für Mantelwellen sein.
+Le antenne ben messe a terra, invece, ad esempio un'antenna Groundplane con molti radiali ben accordati o interrati, presentano nel punto di alimentazione dei radiali una tensione quasi nulla rispetto alla terra. Le antenne Groundplane mal messe a terra, invece, possono essere soggette a onde di mantel.
 
-Eine weitere Möglichkeit, wie Mantelwellen entstehen können, ist durch kontaktlose Einkopplung in den Koax-Schirm. Führt man beispielsweise ein Speisekabel parallel zu einem Dipolschenkel, so entsteht eine Kopplung über das elektromagnetische Nahfeld der Antenne.
+Un altro modo in cui possono formarsi onde di mantel è tramite accoppiamento senza contatto nel schermo del cavo coassiale. Se, ad esempio, si porta un cavo di alimentazione parallelamente a un braccio del dipolo, si crea un accoppiamento tramite il campo elettromagnetico vicino dell'antenna.
 
 [question:AG427]
 
-Bei vollständig symmetrischen Antennen kann ein sogenannter Spannungsbalun eingesetzt werden, um die Ströme im Koaxkabel zu symmetrieren. Eine beliebte Bauform ist ein Spartransformator, bei dem das Koaxialkabel in der Mitte und am Ende einer Spule angeschlossen wird, und die Antenne mit den beiden Enden der Spule verbunden wird.
+Per antenne completamente simmetriche, è possibile utilizzare un cosiddetto balun di tensione per rendere simmetriche le correnti nel cavo coassiale. Una forma costruttiva popolare è un autotrasformatore, in cui il cavo coassiale viene collegato al centro e all'estremità di una bobina, e l'antenna viene collegata alle due estremità della bobina.
 
 % TODO: Bild Spannungsbalun / Spartransformator
 
-Bei dieser Bauform kommt es neben der gewünschten Symmetrierung zusätzlich zu einer Verdoppelung der Spannung ($ü = 2$) sowie einer entsprechenden Halbierung des Stroms, was einer 1:4 Impedanztransformation entspricht, d. h. an ein $\qty{50}{\ohm}$ Koaxialkabel ist eine Antenne mit einem Speisewiderstand von möglichst $\qty{200}{\ohm}$ anzuschließen.
+Con questa forma costruttiva, oltre alla simmetrizzazione desiderata, si verifica anche un raddoppio della tensione ($ü = 2$) e una corrispondente dimezzamento della corrente, che corrisponde a una trasformazione di impedenza 1:4, cioè a un cavo coassiale da $\qty{50}{\ohm}$ deve essere collegata un'antenna con una resistenza di alimentazione di preferenza $\qty{200}{\ohm}$.
 
 [question:AG421]
 [question:AG422]
 
-Diese Bauform ist jedoch nur geeignet Mantelwellen zu unterdrücken, wenn sich die angeschlossene Antenne tatsächlich symmetrisch verhält und sie nicht aufgrund von Umgebungseinflüssen asymmetrisch belastet wird.
+Questa forma costruttiva è tuttavia adatta a sopprimere le onde di mantel solo se l'antenna collegata si comporta effettivamente in modo simmetrico e non viene caricata in modo asimmetrico a causa di influenze ambientali.
 
-Allen Bauteilen, die der Unterdrückung von Mantelwellen dienen, ist gemein, dass dennoch eine "kontaktlose" Einkopplung über die elektromagnetischen Nahfelder der Antennen direkt auf den Koaxschirm, also hinter der Mantelwellensperre, erfolgen kann. Hier kann z. B. eine weitere, zusätzliche Mantelwellensperre mit etwas Entfernung zur Antenne helfen.
+Comune a tutti i componenti che servono alla soppressione delle onde di mantel è che un accoppiamento "senza contatto" può comunque avvenire tramite i campi elettromagnetici vicini delle antenne direttamente sullo schermo del cavo coassiale, cioè dietro il filtro per onde di mantel. Qui, ad esempio, può aiutare un ulteriore filtro per onde di mantel aggiuntivo a una certa distanza dall'antenna.
 
 [question:AG428]
 [question:AG429]

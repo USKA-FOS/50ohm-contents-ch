@@ -1,15 +1,15 @@
-An Stelle eines Brückengleichrichters, kann auch mit zwei Dioden und einem Transformator mit Mittelanzapfung eine Vollweggleichrichtung erreicht werden.
+Al posto di un raddrizzatore a ponte, si può ottenere un raddrizzamento a onda intera anche con due diodi e un trasformatore con presa centrale.
 
 <latexonly>
-Die Abbildung [ref:a_vollweggleichrichter] zeigt einen solchen sogenannten Vollweggleichrichter. 
+La figura [ref:a_vollweggleichrichter] mostra un tale cosiddetto raddrizzatore a onda intera. 
 
 <margin>
-[picture:946:a_vollweggleichrichter:Vollweggleichrichtung mit zwei Dioden]
+[picture:946:a_vollweggleichrichter:Raddrizzamento a onda intera con due diodi]
 </margin>
 </latexonly>
 
 <webonly>
-Das nebenstehende Applet [ref:a_vollweggleichrichter] zeigt einen solchen sogenannten Vollweggleichrichter. 
+L'applet accanto [ref:a_vollweggleichrichter] mostra un tale cosiddetto raddrizzatore a onda intera. 
 
 <margin>
 [include:applet_gleichrichter_1]
@@ -18,16 +18,16 @@ Das nebenstehende Applet [ref:a_vollweggleichrichter] zeigt einen solchen sogena
 
 ---
 
-Zum Verständnis der Funktion muss die positive und negative Halbwelle getrennt betrachtet werden. Liegt an der oberen Wicklung eine positive Halbwelle gegenüber der Mittelanzapfung an der Anode der Diode $D_1$ an, dann leitet nur diese Diode und leitet die Halbwelle auf den Ausgang, der mit + bezeichnet ist, weiter. An der Diode $D_2$ liegt zu diesem Zeitpunkt eine negative Halbwelle an der Anode gegenüber der Mittelanzapfung an. Diese Diode bleibt bei dieser Halbwelle gesperrt.
+Per comprendere la funzione, la semionda positiva e quella negativa devono essere considerate separatamente. Se alla semionda positiva si presenta all'anodo del diodo $D_1$ rispetto alla presa centrale, allora solo questo diodo conduce e trasmette la semionda all'uscita, contrassegnata con +, continuando. Al diodo $D_2$ si presenta in questo momento una semionda negativa rispetto alla presa centrale. Questo diodo rimane bloccato durante questa semionda.
 
-Bei der nächsten Halbwelle ist die Diode $D_1$ gesperrt und die Diode $D_2$ leitet, da nun dort eine positive Halbwelle gegenüber der Trafomittelanzapfung anliegt. Am Gleichspannungsausgang erscheinen nun zwei Halbwellen, aber immer in positiver Richtung gegenüber der Mittelanzapfung. Die Mittelanzapfung bildet den Minuspol der Ausgangsgleichspannung.
+Nella semionda successiva, il diodo $D_1$ è bloccato e il diodo $D_2$ conduce, poiché ora vi si presenta una semionda positiva rispetto alla presa centrale del trasformatore. All'uscita di tensione continua appaiono ora due semionde, ma sempre in direzione positiva rispetto alla presa centrale. La presa centrale forma il polo negativo della tensione continua in uscita.
 
 <tip>
-Gleiche Eselsbrücke wie beim Brückengleichrichter: Die beiden Kathoden der Dioden liegen zusammen am Pluspol der Ausgangsspannung.
+Stesso trucco mnemonico del raddrizzatore a ponte: le due catodi dei diodi sono collegati insieme al polo positivo della tensione di uscita.
 </tip>
 
 [question:AD307]
 
-Wenn zwei Anoden gemeinsam an einem Ausgangspol angeschlossen sind, dann wird dort die pulsierende Gleichspannung negativ gegenüber der Mittelanzapfung des Trafos sein. Beide Halbwellen befinden sich unterhalb der Nulllinie.
+Se due anodi sono collegati insieme a un polo di uscita, la tensione continua pulsante sarà negativa rispetto alla presa centrale del trasformatore. Entrambe le semionde si trovano al di sotto della linea dello zero.
 
 [question:AD308]

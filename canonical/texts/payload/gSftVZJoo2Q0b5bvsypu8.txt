@@ -1,30 +1,30 @@
-## Definition des Fernfelds
+## Definizione del campo lontano
 
-* Im Fernfeld stehen die Vektoren der elektrischen Feldstärke (E), der magnetischen Feldstärke (H) und der Ausbreitungsrichtung senkrecht aufeinander
-* Es gibt keine Phasendifferenzen zwischen E und H
-* Der Feldwellenwiderstand entspricht dem des freien Raums
-
----
-### Grenze zwischen Nahfeld und Fernfeld
-
-* Die Grenze ist primär abhängig von der Wellenlänge
-* Bei Drahtantennen (z. B. Dipole) bildet sich das Fernfeld typischerweise ab einem Abstand von etwa $4\cdot\lambda$
-* Übergangsbedingung im Nahfeld: $d > \frac{\lambda}{2\pi}$; bei $\lambda = \qty{20}{\meter}$ ca. $d \approx \qty{3,18}{\meter}$
+* Nel campo lontano, i vettori dell'intensità di campo elettrico (E), dell'intensità di campo magnetico (H) e della direzione di propagazione sono perpendicolari tra loro.
+* Non ci sono differenze di fase tra E e H.
+* L'impedenza caratteristica dell'onda corrisponde a quella dello spazio libero.
 
 ---
-### Anwendung der Fernfeld-Näherungsformel
+### Confine tra campo vicino e campo lontano
 
-* Die Näherungsformel $d = \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E}$ gilt für die meisten Antennenformen
-* Sie wird angewendet, wenn der berechnete Sicherheitsabstand im strahlenden Nahfeld oder im Fernfeld liegt
-* Die Formel erspart aufwendige Messungen oder Simulationen zur Ermittlung der Personenschutzabstände
+* Il confine dipende principalmente dalla lunghezza d’onda.
+* Per le antenne a filo (ad es. dipoli), il campo lontano si forma tipicamente a una distanza di circa $4\cdot\lambda$.
+* Condizione di transizione nel campo vicino: $d > \frac{\lambda}{2\pi}$; per $\lambda = \qty{20}{\meter}$ circa $d \approx \qty{3,18}{\meter}$.
 
 ---
-### Bewertungsverfahren nach BEMFV
+### Applicazione della formula approssimata del campo lontano
+
+* La formula approssimata $d = \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E}$ è valida per la maggior parte delle forme di antenna.
+* Viene applicata quando la distanza di sicurezza calcolata si trova nel campo vicino radiante o nel campo lontano.
+* La formula evita misurazioni o simulazioni complesse per determinare le distanze di protezione delle persone.
+
+---
+### Procedura di valutazione secondo BEMFV
 
 <left>
-[photo:80:n_Bewertungsverfahren:In diesem Dokument sind die Bewertungsverfahren beschrieben.]
+[photo:80:n_Bewertungsverfahren:In questo documento sono descritte le procedure di valutazione.]
 </left>
 <right>
-In den [Erläuterungen der Bewertungsverfahren nach BEMFV](https://50ohm.de/bemfv) hat die BNetzA die Begriffe und Verfahren für die Ermittlung der Sicherheitsabstände beschrieben.  
+Nelle [spiegazioni delle procedure di valutazione secondo BEMFV](https://50ohm.de/bemfv), la BNetzA ha descritto i termini e le procedure per la determinazione delle distanze di sicurezza.
 </right>
 

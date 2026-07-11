@@ -1,74 +1,74 @@
-* Grundlagen zur Ionosphäre, Sonnenfleckenaktivität und "Tote Zone" sind in Klasse N
-* Vertiefung im Bereich Wellenausbreitung
-* Strahlung der Sonne schlägt Elektronen aus Sauerstoff- und Stickstoff-Atomen und -Molekülen in der Hochatmosphäre $\rightarrow$ Ionisation
-* Freie Elektronen werden von Funkwellen zum Schwingen angeregt $\rightarrow$ Refraktion der Funkwellen
+* Le basi sull'ionosfera, l'attività delle macchie solari e la "zona morta" sono nella classe N
+* Approfondimento nel campo della propagazione delle onde
+* La radiazione solare strappa elettroni dagli atomi e molecole di ossigeno e azoto nell'alta atmosfera $\rightarrow$ ionizzazione
+* Gli elettroni liberi vengono eccitati a oscillare dalle onde radio $\rightarrow$ rifrazione delle onde radio
 
 ---
 <left>
-* In ca. $\num{50}$ bis $\qty{450}{\kilo\meter}$ Höhe
-* Refraktion von Kurzwellen, wodurch weltweite Kommunikation ermöglicht wird
+* Ad un'altitudine di circa $\num{50}$ a $\qty{450}{\kilo\meter}$
+* Rifrazione delle onde corte, che consente comunicazioni a livello mondiale
 </left>
 <right>
-[picture:731:e_atmosphaeren_schichten:Für den Amateurfunk relevante Schichten in der Atmosphäre]
+[picture:731:e_atmosphaeren_schichten:Strati dell'atmosfera rilevanti per il radioamatore]
 </right>
 
 ---
 [question:EH101]
 ---
-## Ausbreitung von Funkwellen
+## Propagazione delle onde radio
 <left>
-* Ionisation verleiht Kurzwelle einzigartige Fähigkeiten
-* Dichte der freien Elektronen bestimmt die Brechungsfrequenz
-* Höhere Dichte $\rightarrow$ höhere Frequenz
+* La ionizzazione conferisce alle onde corte capacità uniche
+* La densità degli elettroni liberi determina la frequenza di rifrazione
+* Maggiore densità $\rightarrow$ frequenza più alta
 </left>
 <right>
-[picture:865:e_wellenausbreitung_refraktion:Refraktion an Schichten der Ionosphäre]
+[picture:865:e_wellenausbreitung_refraktion:Rifrazione negli strati dell'ionosfera]
 </right>
 
 ---
 
-* Mehr Sonnenstrahlung $\rightarrow$ Ausbreitung auf höherer Frequenz möglich
-* Besonders viel Strahlung tagsüber im Sonnenfleckenmaximum
-* $\qty{10}{\meter}$-Band selbst bei geringer Sendeleistung tagsüber nutzbar
+* Più radiazione solare $\rightarrow$ propagazione possibile a frequenza più alta
+* Particolarmente molta radiazione durante il giorno al massimo delle macchie solari
+* La banda dei $\qty{10}{\meter}$ utilizzabile anche con bassa potenza di trasmissione durante il giorno
 
 ---
 [question:EH219]
 ---
-## Rekombination
+## Ricombinazione
 
-* Freie Elektronen rekombinieren sich wieder mit Atomrümpfen
-* In bestimmten Höhen stellt sich ein Gleichgewicht zwischen Ionisation und Rekombination ein.
-* Diese Gebiete mit Gleichgewicht werden als Regionen oder Schichten bezeichnet.
+* Gli elettroni liberi si ricombinano con i nuclei atomici
+* A certe altitudini si stabilisce un equilibrio tra ionizzazione e ricombinazione.
+* Queste aree con equilibrio sono chiamate regioni o strati.
 
-
----
-## Schichten der Ionosphäre
-* Es gibt in verschiedenen Höhen verschiedene "Schichten" bzw. Regionen mit unterschiedlich starker Ionisierung
-* Diese tragen die Namen
-
-1. D-Schicht
-2. E-Schicht
-3. $F_1$-Schicht
-4. $F_2$-Schicht
 
 ---
-* Für die Prüfungsfragen der Klasse E ist ein grundlegendes, qualitatives Verständnis der Regionen erforderlich
-* Die für die Kurzwellen-Fernausbreitung (DX) wichtigen F-Regionen der Ionosphäre befinden sich in einer Höhe von etwa $\num{130}$ bis $\qty{450}{\kilo\meter}$
-* In der Klasse A müssen die genauen Höhenlagen der einzelnen Regionen für Tag und Nacht benannt werden können
+## Strati dell'ionosfera
+* Ci sono diversi "strati" o regioni a diverse altitudini con diversa ionizzazione
+* Questi portano i nomi
+
+1. Strato D
+2. Strato E
+3. Strato $F_1$
+4. Strato $F_2$
+
+---
+* Per le domande d'esame della classe E è necessaria una comprensione qualitativa di base delle regioni
+* Le regioni F dell'ionosfera, importanti per la propagazione delle onde corte a lunga distanza (DX), si trovano ad un'altitudine di circa $\num{130}$ a $\qty{450}{\kilo\meter}$
+* Nella classe A è necessario saper nominare le esatte altitudini delle singole regioni per il giorno e la notte
 
 ---
 [question:EH102]
 ---
-### D-Region
-* In ca. $\qtyrange{50}{90}{\kilo\meter}$ Höhe
-* Existiert *nur am Tag*
-* Nach Sonnenuntergang sehr schnell verschwunden
-* Energieverlust durch Kollision der Elektronen mit anderen Teilchen
-* Starke *Dämpfung* von Funkwellen unter $\qty{10}{\mega\hertz}$
-* Keine Raumwelle für Amateurfunkbänder wie $\qty{160}{\meter}$ oder $\qty{80}{\meter}$
+### Regione D
+* Ad un'altitudine di circa $\qtyrange{50}{90}{\kilo\meter}$
+* Esiste *solo di giorno*
+* Scompare molto rapidamente dopo il tramonto
+* Perdita di energia dovuta alla collisione degli elettroni con altre particelle
+* Forte *attenuazione* delle onde radio al di sotto di $\qty{10}{\mega\hertz}$
+* Nessuna onda spaziale per le bande radioamatoriali come $\qty{160}{\meter}$ o $\qty{80}{\meter}$
 
 <note>
-* Die Schichten verschwinden durch Rekombination der Ionen und Elektronen, wenn sie nicht mehr durch Sonnenstrahlung angeregt werden
+* Gli strati scompaiono a causa della ricombinazione di ioni ed elettroni quando non sono più eccitati dalla radiazione solare
 </note>
 ---
 [question:EH210]
@@ -76,30 +76,30 @@
 [question:EH105]
 
 ---
-### E-Region
-* In ca. $\qtyrange{90}{130}{\kilo\meter}$ Höhe
-* Entsteht *tagsüber* mit Maximum zur Mittagszeit
-* Verschwindet etwa 1 Stunde nach Sonnenuntergang
-* Sprungdistanz ca. $\qty{2000}{\kilo\meter}$ bis $\qty{10}{\mega\hertz}$
-* Starke Ionisation $\rightarrow$ Sporadic-E
-* Namensgebene: *E*(lektrische)*-Schicht*
+### Regione E
+* Ad un'altitudine di circa $\qtyrange{90}{130}{\kilo\meter}$
+* Si forma *durante il giorno* con un massimo a mezzogiorno
+* Scompare circa 1 ora dopo il tramonto
+* Distanza di salto circa $\qty{2000}{\kilo\meter}$ fino a $\qty{10}{\mega\hertz}$
+* Forte ionizzazione $\rightarrow$ E sporadico
+* Nome: *Strato E* (elettrico)
 
 <note>
-* Die Schichten darüber und darüber wurden mit Buchstaben davor und dahinter benannt
+* Gli strati sopra e sotto sono stati nominati con lettere prima e dopo
 </note>
 ---
 [question:EH106]
 
 ---
-### F-Regionen
-* In ca. $\qtyrange{200}{400}{\kilo\meter}$ Höhe
-* Am stärksten ionisierte Schicht
-* $F_1$-Schicht existiert *nur am Tag*
-* $F_2$-Schicht bleibt *nachts* bestehen
-* Sprungdistanz ca. $\qty{4000}{\kilo\meter}$
+### Regioni F
+* Ad un'altitudine di circa $\qtyrange{200}{400}{\kilo\meter}$
+* Lo strato più ionizzato
+* Lo strato $F_1$ esiste *solo di giorno*
+* Lo strato $F_2$ persiste *di notte*
+* Distanza di salto circa $\qty{4000}{\kilo\meter}$
 
 <note>
-Wenig Restatmosphäre, weshalb die Elektronen lange brauchen, um ein Ion zur Rekombination zu finden
+Poca atmosfera residua, motivo per cui gli elettroni impiegano molto tempo a trovare uno ione per la ricombinazione
 </note>
 
 ---
@@ -108,22 +108,22 @@ Wenig Restatmosphäre, weshalb die Elektronen lange brauchen, um ein Ion zur Rek
 ---
 [question:EH104]
 ---
-## Sonnenzyklus
+## Ciclo solare
 <left>
-* Im Schnitt alle 11 Jahre durch Umkehrung des Magnetfelds
-* Intensivere Ultraviolett- und Röntgenstrahlen
-* Führt zu starker Ionisation der $F_2$-Region
+* In media ogni 11 anni tramite inversione del campo magnetico
+* Raggi ultravioletti e raggi X più intensi
+* Porta a una forte ionizzazione della regione $F_2$
 </left>
 <right>
-[picture:729:e_sonnenzyklus:Zählung der monatlichen Sonnenflecken seit 1749]
+[picture:729:e_sonnenzyklus:Conteggio delle macchie solari mensili dal 1749]
 </right>
 
 ---
 [question:EH107]
 
 ---
-* Während dieser Zeit können alle oberen Kurzwellenbänder und teilweise sogar das $\qty{6}{\meter}$-Band für DX-Verbindungen genutzt werden
-* Im Aktivitätsminimum sind die Frequenzbänder oberhalb des $\qty{20}{\meter}$-Bandes (z. B. $\qty{10}{\meter}$) meist nicht nutzbar
+* Durante questo periodo, tutte le bande delle onde corte superiori e in parte anche la banda dei $\qty{6}{\meter}$ possono essere utilizzate per collegamenti DX
+* Al minimo di attività, le bande di frequenza superiori alla banda dei $\qty{20}{\meter}$ (ad es. $\qty{10}{\meter}$) di solito non sono utilizzabili
 
 ---
 [question:EH205]

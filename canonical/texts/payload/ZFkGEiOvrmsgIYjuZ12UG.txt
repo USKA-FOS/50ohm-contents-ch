@@ -1,11 +1,11 @@
-Wird ein Hochfrequenzsignal durch ein Kabel übertragen, nimmt die Signalstärke mit zunehmender Länge ab. Diesen Effekt bezeichnen wir als *Kabeldämpfung*, und er ist in der Regel unerwünscht. Auch Steckverbinder können zur Dämpfung eines Signals beitragen.
+Quando un segnale ad alta frequenza viene trasmesso attraverso un cavo, l'intensità del segnale diminuisce con l'aumentare della lunghezza. Chiamiamo questo effetto *attenuazione del cavo*, ed è generalmente indesiderato. Anche i connettori possono contribuire all'attenuazione di un segnale.
 
-Angegeben wird die Dämpfung in der Regel in Dezibel ($\unit{\dB}$), wobei eine positive Zahl für eine Signalabnahme steht, wenn von "Dämpfung" die Rede ist.
+L'attenuazione viene solitamente indicata in decibel ($\unit{\dB}$), dove un numero positivo indica una diminuzione del segnale quando si parla di "attenuazione".
 
-Für die folgenden Fragen ist zunächst der Faktor zu ermitteln, mit dem die Leistung abnimmt (z. B. Faktor $\num{2}$ bei einer Halbierung oder Faktor $\num{10}$ bei einer Abnahme von $\qty{100}{\percent}$ auf $\qty{10}{\percent}$). Anschließend kann man diesen Leistungsfaktor mit Hilfe der Tabelle [ref:e_dezibel_leistungsfaktoren] in der Formelsammlung in ein Maß in Dezibel umrechnen bzw. die Lösung nachschlagen.
+Per le seguenti domande, è necessario prima determinare il fattore con cui la potenza diminuisce (ad esempio, fattore $\num{2}$ per una dimezzamento o fattore $\num{10}$ per una diminuzione da $\qty{100}{\percent}$ a $\qty{10}{\percent}$). Successivamente, è possibile convertire questo fattore di potenza in una misura in decibel utilizzando la tabella [ref:e_dezibel_leistungsfaktoren] nella raccolta di formule o cercare la soluzione.
 
 <margin>
-| c:dB | c:≈ Leistungsfaktor |
+| c:dB | c:≈ Fattore di potenza |
 | $\num{0}$ | $\num{1}$ |
 | $\num{1,5}$ | $\sqrt{2} = 1,41$ |
 | $\num{2,15}$ | $\num{1,64}$ |
@@ -14,23 +14,23 @@ Für die folgenden Fragen ist zunächst der Faktor zu ermitteln, mit dem die Lei
 | $\num{6}$ | $\num{4}$ |
 | $\num{10}$ | $\num{10}$ |
 | $\num{20}$ | $\num{100}$ |
-[table:e_dezibel_leistungsfaktoren:Wichtige Leistungsfaktoren in $\unit{\dB}$]
+[table:e_dezibel_leistungsfaktoren:Fattori di potenza importanti in $\unit{\dB}$]
 </margin>
 
 [question:EG309]
 [question:EG310]
 [question:EG308]
 
-Unter den Kabelverlusten versteht man alle Verluste, die in Kabeln entstehen. Zusätzliche Verstärker oder der Antennengewinn verstärken zwar das Signal, verändern jedoch nicht die Kabelverluste.
+Con perdite del cavo si intendono tutte le perdite che si verificano nei cavi. Amplificatori aggiuntivi o il guadagno d'antenna amplificano il segnale, ma non modificano le perdite del cavo.
 
 [question:EG307]
 
 ---
 <margin>
-[picture:202:e_kabeldaempfung_diagramm:Kabeldämpfungsdiagramm im Anhang der Formelsammlung]
+[picture:202:e_kabeldaempfung_diagramm:Diagramma di attenuazione dei cavi nell'appendice della raccolta di formule]
 </margin>
 
-In einem Kabeldämpfungsdiagramm, wie der Formelsammlung beiliegend, finden wir Dämpfungen verschiedener Kabel in Abhängigkeit der Frequenz. Die Dämpfung ist oft in Bezug auf $\qty{100}{\meter}$ angegeben. Ist ein Kabel kürzer, dann können wir die Dämpfung in $\unit{\dB}$ entsprechend umrechnen. Hierzu teilen wir die tatsächliche Kabellänge durch $\qty{100}{\meter}$ und multiplizieren das Ergebnis mit der Dämpfung, die ein $\qty{100}{\meter}$ langes Kabel hätte.
+In un diagramma di attenuazione dei cavi, come quello allegato alla raccolta di formule, troviamo le attenuazioni di diversi cavi in funzione della frequenza. L'attenuazione è spesso indicata in relazione a $\qty{100}{\meter}$. Se un cavo è più corto, possiamo convertire l'attenuazione in $\unit{\dB}$ di conseguenza. Per fare ciò, dividiamo la lunghezza effettiva del cavo per $\qty{100}{\meter}$ e moltiplichiamo il risultato per l'attenuazione che avrebbe un cavo lungo $\qty{100}{\meter}$.
 
 [question:EG312]
 [question:EG311]

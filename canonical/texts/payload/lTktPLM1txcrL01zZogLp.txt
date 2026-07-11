@@ -1,9 +1,8 @@
+A prima vista, sembrerebbe logico scegliere un numero elevato di simboli, in modo che ogni simbolo possa trasmettere quante più informazioni possibile. Tuttavia, un ricevitore deve essere in grado di distinguere, ad esempio, tra molte ampiezze diverse. Ciò rende il metodo più suscettibile ai disturbi.
 
-Es scheint zunächst nahezuliegen, die Anzahl der Symbole möglichst groß zu wählen, damit pro Symbol möglichst viele Informationen übertragen werden können. Doch dann muss ein Empfänger z. B. zwischen vielen unterschiedlichen Amplituden unterscheiden können. Somit wird das Verfahren anfälliger für Störungen.
+Per mitigare questo problema, si può ricorrere a un trucco: invece di modificare un solo parametro (ad esempio, l'ampiezza), si modificano due parametri per simbolo, ovvero l'ampiezza e la fase. Un simbolo corrisponde quindi a una combinazione di una determinata ampiezza con una determinata fase. In questo modo, nonostante il numero ridotto di ampiezze e fasi distinte, si ottiene comunque un numero maggiore di simboli. Vengono trasmessi più bit per simbolo. La trasmissione dei dati è quindi più veloce. Questo metodo è chiamato modulazione di ampiezza in quadratura (QAM) o talvolta semplicemente modulazione in quadratura.
 
-Um dieses Problem zu mildern, kann man auf einen Trick zurückgreifen: Anstelle der Änderung nur eines Parameters (z. B. der Amplitude) werden pro Symbol zwei Parameter verändert, nämlich die Amplitude und die Phase. Ein Symbol entspricht dann einer Kombination einer bestimmten Amplitude mit einer bestimmten Phasenlage. So ergibt sich trotz kleiner Anzahl unterschiedlicher Amplituden und Phasenlagen dennoch eine größere Anzahl an Symbolen. Es werden mehr Bits pro Symbol übertragen. Die Datenübertragung erfolgt somit schneller. Dieses Verfahren wird Quadraturamplitudenmodulation (QAM) oder manchmal auch einfach nur Quadraturmodulation genannt.
-
-[picture:702:8qam:Signalverlauf eines 8QAM-Signals, je Symbol mit Amplitude ($\num{0,5}$ bzw. $\num{1}$), Phasenlage und 3-stelliger Bitfolge]
+[picture:702:8qam:Andamento del segnale di un segnale 8QAM, con ampiezza ($\num{0,5}$ o $\num{1}$), fase e sequenza di bit a 3 cifre per simbolo]
 
 [question:AE403]
 

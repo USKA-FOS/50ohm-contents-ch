@@ -1,93 +1,93 @@
-### 1. Mikrofon
+### 1. Microfono
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Diagramma a blocchi di un semplice trasmettitore]
 </left>
 <right>
-* Wandelt Schallwellen in NF-Signal um
+* Converte le onde sonore in segnale a bassa frequenza (NF)
 </right>
 
 --- data-transition="none"
 
-### 2. Niederfrequenz-Verstärker
+### 2. Amplificatore a bassa frequenza (NF)
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Diagramma a blocchi di un semplice trasmettitore]
 </left>
 <right>
-* Verstärkt das NF-Signal vom Mikrofon
+* Amplifica il segnale NF dal microfono
 </right>
 
 --- data-transition="none"
 
-### 3. Mischer
+### 3. Mixer
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Diagramma a blocchi di un semplice trasmettitore]
 </left>
 <right>
-* Mischt das NF-Signal mit dem HF-Träger vom Oszillator (4)
+* Mescola il segnale NF con la portante ad alta frequenza (HF) dell'oscillatore (4)
 </right>
 <note>
-Wenn ein Mischer zwei Signale zusammenfügt, dann entspricht das mathematisch einer Multiplikation der beiden Signale. Daher findet sich auch das Malkreuz im Block-Symbol für den Mischer wieder. Wie ein Mischer genau funktioniert, ist Inhalt des Kurses für die Klasse A.
+Quando un mixer combina due segnali, ciò corrisponde matematicamente a una moltiplicazione dei due segnali. Per questo motivo, nel simbolo a blocchi del mixer si trova anche la croce di moltiplicazione. Come funziona esattamente un mixer è contenuto nel corso per la classe A.
 </note>
 
 --- data-transition="none"
 
-### 4. Oszillator
+### 4. Oscillatore
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Diagramma a blocchi di un semplice trasmettitore]
 </left>
 <right>
-* Erzeugt hochfrequente Schwingung der Sendefrequenz
+* Genera un'oscillazione ad alta frequenza della frequenza di trasmissione
 </right>
 
 --- data-transition="none"
 
-### 5. Bandpassfilter
+### 5. Filtro passa-banda
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Diagramma a blocchi di un semplice trasmettitore]
 </left>
 <right>
-* Mischer erzeugt unerwünschte Frequenzen
-* Mit dem Bandpassfilter werden nur die gewünschten Frequenzen durchgelassen
+* Il mixer genera frequenze indesiderate
+* Il filtro passa-banda lascia passare solo le frequenze desiderate
 </right>
 
 --- data-transition="none"
 
-### 6. Verstärker
+### 6. Amplificatore
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Diagramma a blocchi di un semplice trasmettitore]
 </left>
 <right>
-* Verstärkt das HF-Signal auf gewünschte Sendeleistung
+* Amplifica il segnale HF alla potenza di trasmissione desiderata
 </right>
 
 --- data-transition="none"
 
-### 7. Tiefpassfilter
+### 7. Filtro passa-basso
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Diagramma a blocchi di un semplice trasmettitore]
 </left>
 <right>
-* Verstärker kann unerwünschte Frequenzen erzeugen
-* Nur die gewünschten Frequenzen werden durchgelassen
+* L'amplificatore può generare frequenze indesiderate
+* Solo le frequenze desiderate vengono lasciate passare
 </right>
 
 --- data-transition="none"
 
-### 8. Antenne
+### 8. Antenna
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Diagramma a blocchi di un semplice trasmettitore]
 </left>
 <right>
-* HF-Signal wird auf Antenne gegeben
-* Antenne strahlt es als Funkwelle ab
+* Il segnale HF viene inviato all'antenna
+* L'antenna lo irradia come onda radio
 </right>
 
 ---
@@ -101,7 +101,7 @@ Wenn ein Mischer zwei Signale zusammenfügt, dann entspricht das mathematisch ei
 
 ---
 
-Eine Amateurfunkanlage muss nach den allgemein anerkannten Regeln der Technik aufgebaut und betrieben werden. Das gilt natürlich auch ganz besonders für Sender.
+Un impianto radioamatoriale deve essere costruito e gestito secondo le regole generalmente riconosciute della tecnica. Questo vale naturalmente in modo particolare per i trasmettitori.
 
 ---
 [question:VD106]

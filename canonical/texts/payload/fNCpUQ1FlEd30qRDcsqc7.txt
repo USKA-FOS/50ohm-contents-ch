@@ -1,63 +1,63 @@
-Bereits in der Ausbildung zur Klasse N haben wir den Zusammenhang zwischen der Frequenz ($f$) und der Wellenlänge ($\lambda$) kennengelernt. Damals wurden dazu zwei speziell zugeschnittene Größengleichungen aus der Formelsammlung für die Prüfung angegeben.
+Già durante la formazione per la classe N, abbiamo appreso la relazione tra la frequenza ($f$) e la lunghezza d'onda ($\lambda$). All'epoca, per questo scopo sono state fornite due equazioni di grandezza appositamente adattate dalla raccolta di formule per l'esame.
 
 $f[[\unit{\mega\hertz}]] = \dfrac{300}{\lambda[[\unit{\meter}]]}$
 
 $\lambda[[\unit{\meter}]] = \dfrac{300}{f[[\unit{\mega\hertz}]]}$
 
 <indepth>
-Gleichungen, bei denen bereits angegeben wird, in welcher Einheit die Werte zu stehen haben,  nennt man  *zugeschnittene Größengleichungen*. 
+Le equazioni in cui è già specificato in quale unità devono essere i valori sono chiamate *equazioni di grandezza adattate*.
 </indepth>
 
-In Wirklichkeit ist das aber nur eine Gleichung, die jeweils, im ersten Fall, nach der Frequenz und im zweiten Fall nach der Wellenlänge umgestellt wurde. 
+In realtà, si tratta solo di un'unica equazione, che è stata riorganizzata rispettivamente per la frequenza nel primo caso e per la lunghezza d'onda nel secondo caso.
 
-In technischen Rechnungen müssen wir immer wieder Gleichungen so umstellen, dass die gesuchte Größe allein auf einer Seite steht. Dazu wenden wir die nötigen mathematischen Operationen (Multiplizieren, Dividieren, Addieren, Subtrahieren, ...) auf beide der Seiten der Gleichung *gleichzeitig* an. Mit etwas Übung ist das viel einfacher, als sich alle nötigen Formen einer Beziehung separat zu merken. In der Klasse E und auch in der Klasse A ist dies sogar zwingend erforderlich, da die Gleichungen in der Formelsammlung nur noch in ihrer Grundform angegeben werden.
+Nei calcoli tecnici, dobbiamo continuamente riorganizzare le equazioni in modo che la grandezza cercata si trovi da sola su un lato. Per fare ciò, applichiamo le necessarie operazioni matematiche (moltiplicazione, divisione, addizione, sottrazione, ...) a entrambi i lati dell'equazione *contemporaneamente*. Con un po' di pratica, questo è molto più semplice che memorizzare separatamente tutte le forme necessarie di una relazione. Nelle classi E e anche nella classe A, questo è addirittura obbligatorio, poiché le equazioni nella raccolta di formule sono indicate solo nella loro forma base.
 
 ---
 
 <indepth>
-In Grundeinheiten ($\unit{\second}$, $\unit{\meter}$) lautet der Zusammenhang zwischen Wellenlänge und Frequenz im Freiraum:
+In unità di base ($\unit{\second}$, $\unit{\meter}$), la relazione tra lunghezza d'onda e frequenza nello spazio libero è:
 
 $\lambda = \dfrac{c_0}{f}$
 
-Dabei ist $c_0$ die Ausbreitungsgeschwindigkeit von elektromagnetischen Wellen im Vakuum ("Lichtgeschwindigkeit"), $c_o \approx \qty{300000000}{\meter\per\second}$
+Dove $c_0$ è la velocità di propagazione delle onde elettromagnetiche nel vuoto ("Velocità della luce"), $c_o \approx \qty{300000000}{\meter\per\second}$
 </indepth>
 
-Wir betrachten den Zusammenhang zwischen Frequenz und Wellenlänge hier in der abstrakteren Form:
+Consideriamo la relazione tra frequenza e lunghezza d'onda nella forma più astratta:
 
 $\lambda = \dfrac{c_0}{f}$
 
-Jetzt wollen wir die Frequenz bestimmen, die einer Wellenlänge von 2,069 m entspricht.
+Ora vogliamo determinare la frequenza corrispondente a una lunghezza d'onda di 2,069 m.
 
-Um dies zu erreichen, multiplizieren wir zunächst beide Seiten der Gleichung mit der Frequenz.
+Per raggiungere questo obiettivo, moltiplichiamo prima entrambi i lati dell'equazione per la frequenza.
 
 $\lambda = \dfrac{c_0}{f} \quad\quad\quad | \cdot f$
 
-Dies wird durch "$|~\cdot f$" veranschaulicht, wobei der senkrechte Strich bedeutet, dass die folgende Operation auf beiden Seiten durchgeführt wird.
+Questo è illustrato da "$|~\cdot f$", dove la barra verticale significa che l'operazione seguente viene eseguita su entrambi i lati.
 
-So entsteht eine neue Gleichung:
+Si ottiene così una nuova equazione:
 
 $\lambda\cdot f = \dfrac{c_0 \cdot f}{f}$
 
-wobei sich auf der rechten Seite die Frequenz herauskürzt (denn $f$ geteilt durch $f$ ergibt 1):
+dove la frequenza si semplifica sul lato destro (poiché $f$ diviso per $f$ dà 1):
 
 $\lambda \cdot f = c_0$
 
-Jetzt steht schon mal die Frequenz auf der linken Seite der Gleichung, wo wir sie hinhaben wollen. Als Nächstes dividieren wir auf beiden Seiten durch die Wellenlänge:
+Ora la frequenza si trova sul lato sinistro dell'equazione, dove vogliamo che sia. Successivamente, dividiamo entrambi i lati per la lunghezza d'onda:
 
 $\lambda \cdot f = c_0 \quad\quad\quad |: \lambda$
 
-Somit ergibt sich:
+Quindi si ottiene:
 
 $\frac{\lambda\cdot f}{\lambda} = \frac{c_0}{\lambda}$
 
-Auf der linken Seite kürzt sich das Lambda wieder heraus:
+Sul lato sinistro, lambda si semplifica di nuovo:
 
 $f = \dfrac{c_0}{\lambda}$
 
-Dies ist die gesuchte Beziehung. Wir setzen die Zahlenwerte ein:
+Questa è la relazione cercata. Inseriamo i valori numerici:
 
 $f = \dfrac{\qty{300000000}{\meter\per\second}}{\qty{2,069}{\meter}} = \dfrac{\num{300000000}}{\qty{2,069}{\second}}  = \qty{144997583}{\hertz} \approx \qty{145}{\mega\hertz} $
 
-Dabei haben wir berücksichtigt, dass $\frac{1}{\unit{\second}} = \qty{1}{\hertz}$ ist.
+Abbiamo tenuto conto del fatto che $\frac{1}{\unit{\second}} = \qty{1}{\hertz}$.
 
-Wir können Formeln nun mithilfe von Multiplikation und Division umstellen. In der Klasse E begegnen uns weitere Formeln, bei denen auch Addition und Subtraktion, Potenzen und Wurzeln erforderlich sind. In der Klasse A kommen schließlich sogar Logarithmen hinzu. Keine Angst, an den jeweiligen Stellen werden wir genau erklären, wie diese Formeln Schritt für Schritt umgestellt werden.
+Ora possiamo riorganizzare le formule utilizzando moltiplicazione e divisione. Nella classe E, incontreremo altre formule che richiederanno anche addizione e sottrazione, potenze e radici. Nella classe A, infine, verranno aggiunti anche i logaritmi. Non temete, nei rispettivi punti spiegheremo esattamente come riorganizzare queste formule passo dopo passo.

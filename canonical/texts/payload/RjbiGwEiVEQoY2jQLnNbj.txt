@@ -1,10 +1,10 @@
-[picture:878:a_phasenwinkel_zeit:Phasenwinkel in Grad und Bogenmaß oder Periodendauerangabe]
+[picture:878:a_phasenwinkel_zeit:Angolo di fase in gradi e radianti o indicazione della durata del periodo]
 
-Die Abbildung [ref:a_phasenwinkel_zeit] zeigt die zeitliche Darstellung sowie den Drehwinkel in Grad und Bogenmaß. 
+La figura [ref:a_phasenwinkel_zeit] mostra la rappresentazione temporale e l'angolo di rotazione in gradi e radianti. 
 
-* $X_1$ entspricht $\qty{90}{\degree}$ oder $\frac{\pi}{2}$ (Siehe den grünen Zeiger B in der Abbildung)
-* $X_2$ entspricht somit $\qty{180}{\degree}$ oder $\pi$ (Siehe den roten Zeiger C in der Abbildung).
-* $X_3$ liegt bei $\qty{270}{\degree}$ oder $\frac{3\pi}{2}$ bzw. $1,5\cdot\pi$ (Siehe den blauen Zeiger D in der Abbildung). 
-* $X_4$ entspricht $\qty{360}{\degree}$ oder $2 \pi$.
+* $X_1$ corrisponde a $\qty{90}{\degree}$ o $\frac{\pi}{2}$ (Vedi il puntatore verde B nella figura)
+* $X_2$ corrisponde quindi a $\qty{180}{\degree}$ o $\pi$ (Vedi il puntatore rosso C nella figura).
+* $X_3$ si trova a $\qty{270}{\degree}$ o $\frac{3\pi}{2}$ o $1,5\cdot\pi$ (Vedi il puntatore blu D nella figura). 
+* $X_4$ corrisponde a $\qty{360}{\degree}$ o $2 \pi$.
 
-Durch eine Dreisatzrechnung kann der Wert für $X_3$ auch ermittelt werden. Man sucht die ganze Schwingung bzw. Periode bei T und zählt die dazugehörigen Zeitabschnitte. In der Aufgabendarstellung kann man 4 Abschnitte für eine Periode finden. Eine ganze Periode entspricht $\qty{360}{\degree}$ und ein Abschnitt dann $\frac{\qty{360}{\degree}}{4} = \qty{90}{\degree}$. Die drei Abschnitte bis $X_3$ ergeben dann $3 \cdot \qty{90}{\degree} = \qty{270}{\degree}$.
+Tramite un calcolo proporzionale è possibile determinare anche il valore di $X_3$. Si cerca l'intera oscillazione o periodo a T e si contano gli intervalli di tempo corrispondenti. Nella rappresentazione del problema si possono trovare 4 intervalli per un periodo. Un periodo intero corrisponde a $\qty{360}{\degree}$ e un intervallo a $\frac{\qty{360}{\degree}}{4} = \qty{90}{\degree}$. I tre intervalli fino a $X_3$ danno quindi $3 \cdot \qty{90}{\degree} = \qty{270}{\degree}$.

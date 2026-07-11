@@ -1,21 +1,21 @@
-Ein Schaltnetzteil (engl. switched-mode power supply) wandelt eine Wechselspannung in eine stabilisierte Gleichspannung um. Dazu richtet es zunächst die Eingangsspannung gleich, schaltet sie anschließend sehr schnell ein und aus, transformiert sie so effizient auf die gewünschte Spannung und glättet sie abschließend. Wie das im Detail funktioniert werden wir uns in der Klasse A genauer anschauen. 
+Un alimentatore switching (inglese: switched-mode power supply) converte una tensione alternata in una tensione continua stabilizzata. Per fare ciò, prima raddrizza la tensione d’ingresso, poi la accende e la spegne molto rapidamente, la trasforma in modo efficiente alla tensione desiderata e infine la livella. Come funziona nel dettaglio lo vedremo più da vicino nella classe A.
 
 <margin>
-[photo:308:e_Ferritkerntrafo im Schaltnetzteils:Innenansicht eines Schaltnetzteils für $\qty{13,8}{\volt}$ und $\qty{35}{\ampere}$ mit einem kleinen Ferritkernübertrager zwischen den beiden Kühlkörpern, Gewicht $\qty{2}{\kilo\gram}$]
-</margin> 
+[photo:308:e_Ferritkerntrafo im Schaltnetzteils:Vista interna di un alimentatore switching per $\qty{13,8}{\volt}$ e $\qty{35}{\ampere}$ con un piccolo trasformatore a nucleo di ferrite tra i due dissipatori di calore, peso $\qty{2}{\kilo\grammo}$]
+</margin>
 
-Das Schaltnetzteil mehrere positive Eigenschaften gegen über einem linear geregeltem Netzteil:
+L'alimentatore switching presenta diversi vantaggi rispetto a un alimentatore regolato linearmente:
 
-* Hoher Wirkungsgrad auch bei kleinen Nennspannungen und wechselnden Lasten
-* Geringes Gewicht und Volumen, da durch die hohe Frequenz kleinere Transformatoren und sekundäre Siebkondensatoren verwendet werden
-* Gute Regelbarkeit
-* Geringeres Gewicht, kleinere Kühlkörper und dadurch weniger Platzbedarf im Vergleich zu einem linear geregelten Netzteil (siehe Abschnitt: Spannungsstabilisierung)
- 
+* Alto rendimento anche a basse tensioni nominali e carichi variabili
+* Peso e volume ridotti, poiché grazie all'alta frequenza vengono utilizzati trasformatori e condensatori di filtro secondari più piccoli
+* Buona regolabilità
+* Peso inferiore, dissipatori di calore più piccoli e quindi minore ingombro rispetto a un alimentatore regolato linearmente (vedi sezione: Stabilizzazione della tensione)
+
 [question:ED302]
 
-Aber durch die hohen Frequenzen ergeben sich auch negative Eigenschaften:
+Ma a causa delle alte frequenze si presentano anche svantaggi:
 
-* Hochfrequente Störungen, durch den Schaltbetrieb mit hohen Frequenzen sind Maßnahmen zur Verbesserung der EMV notwendig
-* Komplexe Schaltung, mehr Bauelemente notwendig, höhere Ausfallwahrscheinlichkeit
+* Disturbi ad alta frequenza, a causa del funzionamento a commutazione con alte frequenze sono necessarie misure per migliorare la compatibilità elettromagnetica (EMV)
+* Circuito complesso, più componenti necessari, maggiore probabilità di guasto
 
 [question:ED303]

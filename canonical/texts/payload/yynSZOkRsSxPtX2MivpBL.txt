@@ -1,57 +1,57 @@
-Wir haben bereits gelernt, dass eine Antenne  vertikal oder horizontal polarisiert sein. Das erkennt man bei den meisten Antennenbauformen daran, dass die Antennen-Elemente senkrecht (vertikal) oder waagerecht (horizontal) ausgerichtet sind. In der Klasse E werden nun konkrete Antennenformen abgefragt. 
+Abbiamo già imparato che un'antenna può essere polarizzata verticalmente o orizzontalmente. Nella maggior parte delle forme di antenne, ciò si riconosce dal fatto che gli elementi dell'antenna sono orientati verticalmente o orizzontalmente. Nella classe E vengono ora richieste forme di antenne specifiche.
 
 [question:EB309]
 
-Die Antennenelemente dieser Antenne sind parallel zum Erdboden. Sie entsprechen der elektrischen Feldkomponente. Also handelt es sich um eine horizontal polarisierte Antenne.
+Gli elementi dell'antenna di questa antenna sono paralleli al suolo. Corrispondono alla componente del campo elettrico. Si tratta quindi di un'antenna a polarizzazione orizzontale.
 
 [question:EB310]
 
-Die Antennenelemente dieser Antenne sind senkrecht zum Erdboden. Sie entsprechen der elektrischen Feldkomponente. Also handelt es sich um eine vertikal polarisierte Antenne.
+Gli elementi dell'antenna di questa antenna sono perpendicolari al suolo. Corrispondono alla componente del campo elettrico. Si tratta quindi di un'antenna a polarizzazione verticale.
 
 ---
 
-Dass die Polarisationsrichtung oft mit der geometrischen Anordnung der Antennenelemente übereinstimmt liegt daran, dass meistens Antennen eingesetzt werden, bei denen die Leiteranordnung geometrisch mit der Richtung des elektrischen Feldes übereinstimmt. Die Angabe "horizontal" oder "vertikal" bezieht sich nämlich vereinbarungsgemäß auf die Ausrichtung des elektrischen Feldes und nicht auf die Ausrichtung des magnetischen Feldanteils.
+Il fatto che la direzione di polarizzazione spesso coincida con la disposizione geometrica degli elementi dell'antenna è dovuto al fatto che vengono solitamente impiegate antenne in cui la disposizione dei conduttori geometricamente coincide con la direzione del campo elettrico. L'indicazione "orizzontale" o "verticale" si riferisce per convenzione all'orientamento del campo elettrico e non all'orientamento della componente del campo magnetico.
 
 <indepth>
-Die einfache Merkregel, dass geometrisch vertikal angeordnete Antennen vertikal polarisieren und horizontal angeordnete Antennen horizontal polarisieren stimmt *nicht im Allgemeinen*. So weist beispielsweise eine horizontal liegende Magnetic-Loop-Antenne eine vertikale Polarisation auf und eine vertikal liegende Magnetic-Loop entsprechend eine horizontale Polarisation. Bei einer Ganzwellenschleifenantenne (z.B. Delta-Loop) hingegen hängt die Polarisationsrichtung von der Positionierung der Einspeisung ab. Bei Dipol- und Yagi-Uda-Antennen kann man die Polarisation aber anhand der mechanischen Ausrichtung der Drähte erkennen, da sich in dieser Richtung auch das elektrische Feld ausbildet.
+La semplice regola mnemonica che le antenne disposte geometricamente in verticale polarizzano verticalmente e le antenne disposte orizzontalmente polarizzano orizzontalmente *non è generalmente valida*. Ad esempio, un'antenna Magnetic Loop disposta orizzontalmente presenta una polarizzazione verticale e un'antenna Magnetic Loop disposta verticalmente presenta una polarizzazione orizzontale. Per un'antenna a loop a onda intera (ad esempio, Delta-Loop), invece, la direzione di polarizzazione dipende dalla posizione dell'alimentazione. Per le antenne Dipolo e Yagi-Uda, tuttavia, la polarizzazione può essere riconosciuta dall'orientamento meccanico dei fili, poiché il campo elettrico si forma anche in questa direzione.
 </indepth>
 
 [question:EG222]
 
-Die Bezugsebene der Polarisation ist bei terrestrischen Funkstellen stets die Erdoberfläche. Maßgebend für die Angabe der Polarisation ist die Ausrichtung des elektrischen Feldes.
+Il piano di riferimento della polarizzazione per le stazioni radio terrestri è sempre la superficie terrestre. L'orientamento del campo elettrico è determinante per l'indicazione della polarizzazione.
 
 [question:EB305]
 
-Der hier vorkommende Poynting-Vektor ist ein Vektor, der sowohl auf der elektrischen als auch der magnetischen Feldkomponente senkrecht steht, also in Ausbreitungsrichtung zeigt. Für die Feststellung der Polarisation ist aber die Ausrichtung der *elektrischen Feldkomponente* maßgeblich.
+Il vettore di Poynting che compare qui è un vettore perpendicolare sia alla componente del campo elettrico che a quella magnetica, quindi punta nella direzione di propagazione. Per determinare la polarizzazione, tuttavia, è determinante l'orientamento della *componente del campo elettrico*.
 
 ---
 
 [question:EB306]
 
 <margin>
-[picture:886:e_funkhorizont:Horizontale Polarisation]
+[picture:886:e_funkhorizont:Polarizzazione orizzontale]
 </margin>
 
-Die elektrische Feldkomponente ist parallel zum Erdboden, also handelt es sich um eine horizontale Polarisation. Nebenbei: der Richtungspfeil "S" zeigt in Ausbreitungsrichtung, es handelt sich um den Poynting-Vektor.
+La componente del campo elettrico è parallela al suolo, quindi si tratta di una polarizzazione orizzontale. Tra l'altro: la freccia direzionale "S" indica la direzione di propagazione, si tratta del vettore di Poynting.
 
 ---
 
 [question:EB307]
 
-Hier ist die magnetische Feldkomponente parallel zur Erdoberfläche. Die elektrische Feldkomponente steht darauf senkrecht, also handelt es sich um eine vertikale Polarisation. 
+Qui la componente del campo magnetico è parallela alla superficie terrestre. La componente del campo elettrico è perpendicolare ad essa, quindi si tratta di una polarizzazione verticale.
 
 <margin>
-[picture:936:e_funkhorizont:Vertikale Polarisation]
+[picture:936:e_funkhorizont:Polarizzazione verticale]
 </margin>
 
 ---
 
-In den bisherigen Beispielen waren die elektrischen und magnetischen Feldkomponenten *zeitlich* in Phase (ihre Sinusschwingungen haben ihre Nulldurchgänge zur selben Zeit). Dennoch stehen sie *räumlich* senkrecht aufeinander. 
+Negli esempi precedenti, le componenti del campo elettrico e magnetico erano in fase *nel tempo* (le loro oscillazioni sinusoidali hanno gli stessi passaggi per lo zero). Tuttavia, sono perpendicolari tra loro *nello spazio*.
 
-Wir können aber die elektrische Feldkomponente  auch so erzeugen, dass sich ihre Ausrichtung im Raum zeitlich ändert, zum Beispiel, indem man zwei senkrecht auf einander stehende Dipole verwendet. Wenn diese Dipole in Ausbreitungsrichtung eine Viertelwellenlänge voneinander entfernt sind und in gleicher Phase gespeist werden, dreht sich die abgestrahlte elektrische Feldkomponente zeitlich kreisförmig im Raum. Wir können auch zwei senkrecht auf einander stehende Dipole verwenden, die in derselben Ebene befinden. Speisen wir diese Dipole mit zwei sinusförmigen Signalen, die zeitlich um 90° gegen einander verschoben sind, ergibt sich dasselbe Bild. Die magnetische Feldkomponente steht immer noch und zu jeder Zeit senkrecht auf der elektrischen, sie dreht sich also ebenfalls im Raum. Diese Wellen nennt man *zirkuar polarisiert*.
+Possiamo però generare la componente del campo elettrico in modo che il suo orientamento nello spazio cambi nel tempo, ad esempio utilizzando due dipoli perpendicolari tra loro. Se questi dipoli sono distanti un quarto d'onda nella direzione di propagazione e vengono alimentati in fase, la componente del campo elettrico irradiata ruota circolarmente nello spazio nel tempo. Possiamo anche utilizzare due dipoli perpendicolari tra loro, che si trovano nello stesso piano. Se alimentiamo questi dipoli con due segnali sinusoidali sfasati nel tempo di 90°, si ottiene lo stesso quadro. La componente del campo magnetico rimane sempre perpendicolare a quella elettrica, quindi ruota anch'essa nello spazio. Queste onde sono chiamate *polarizzate circolarmente*.
 
 <margin>
-[picture:935:e_funkhorizont:Zirkulare Polarisation]
+[picture:935:e_funkhorizont:Polarizzazione circolare]
 </margin>
 
 [question:EB308]

@@ -1,28 +1,28 @@
 <left>
-* Mischprozess mit einer Oszillatorfrequenz
-* Konstante *Zwischenfrequenz*
-* Bessere *Selektivität* des Empfangssignals
-* Filter müssen nicht veränderlich sein
-* Höhere *Trennschärfe*
+* Processo di miscelazione con una frequenza dell’oscillatore
+* Frequenza intermedia costante
+* Migliore selettività del segnale ricevuto
+* I filtri non devono essere variabili
+* Maggiore separazione dei canali
 </left>
 <right>
-[picture:803:ueberlagerungsempfaenger_einfachsuper:Überlagerungsempfänger (Einfachsuper); die notwendigen Filter sind der Übersichtlichkeit halber in den Verstärkerstufen enthalten]
+[picture:803:ueberlagerungsempfaenger_einfachsuper:Ricevitore supereterodina (supereterodina semplice); i filtri necessari sono inclusi negli stadi di amplificazione per chiarezza]
 </right>
 <note>
-* Nicht veränderliche Filter können besser konstruiert werden
-* Das "super" im Namen stammt vom Lateinischen "über"
+* I filtri non variabili possono essere costruiti meglio
+* Il termine "super" deriva dal latino "super"
 </note>
 
 ---
 [question:EF102]
 ---
 
-## Zwischenfrequenz
+## Frequenza intermedia
 
-* Eine Frequenz, auf die für die weitere Verarbeitung gemischt wird
-* Im einfachsten Fall die NF $\rightarrow$ Direktüberlagerungsempfänger
-* Bei NF muss die Oszillatorfrequenz nahe der Empfangsfrequenz sein
-* Klasse A behandelt Mehrfachsuper-Empfänger mit mehreren Zwischenfrequenzen
+* Una frequenza alla quale si effettua la miscelazione per l'ulteriore elaborazione
+* Nel caso più semplice, la BF $\rightarrow$ ricevitore a sovrapposizione diretta
+* Con la BF, la frequenza dell’oscillatore deve essere vicina alla frequenza di ricezione
+* La classe A tratta i ricevitori a sovrapposizione multipla con più frequenze intermedie
 
 ---
 [question:EF208]

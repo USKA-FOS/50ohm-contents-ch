@@ -1,25 +1,25 @@
 <left>
-* Im Netzgerät und/oder in der Verbindungsleitung zum Transceiver gibt es sogenannte Feinsicherungen
-* Diese unterbrechen im Fehlerfall (Kurzschluss oder Überlastung) den Stromfluss
+* Nell'alimentatore e/o nella linea di collegamento al trasmettitore-ricevitore sono presenti dei fusibili
+* Questi interrompono il flusso di corrente in caso di guasto (cortocircuito o sovraccarico)
 </left>
 
 <right>
-[photo:88:n_feinsicherungen:Feinsicherungen]
+[photo:88:n_feinsicherungen:Fusibili]
 </right>
 
 ---
 
-* Nachdem eine Feinsicherung ausgelöst hat und man die Ursache behoben hat, muss man sie austauschen.
-* Defekte Sicherungen dürfen *nur durch gleichartige ersetzt werden*!
-* Dabei ist sowohl auf *Stromstärke* als auch die *Auslösecharakteristik* zu achten, die angibt, wie schnell eine Sicherung auslöst (flink, mittelträge, träge).
+* Dopo che un fusibile è intervenuto e la causa è stata rimossa, è necessario sostituirlo.
+* I fusibili difettosi devono essere sostituiti *solo con altri identici*!
+* È necessario prestare attenzione sia all'*intensità di corrente* che alla *caratteristica di intervento*, che indica la rapidità con cui un fusibile interviene (rapido, medio, lento).
 
 ---
 
-| c: Auslösecharakteristik | c: Kennzeichen | c: Abschaltzeit bei zehnfachem Nennstrom |
-| flink | F | max. $\qty{30}{\milli\second}$ |
-| mittelträge | MT | max. $\qty{90}{\milli\second}$ |
-| träge | T | max. $\qty{300}{\milli\second}$ |
-[table:n_feinsicherung:Kenngrößen von Feinsicherungen]
+| c: Caratteristica di intervento | c: Indicazione | c: Tempo di disconnessione con dieci volte la corrente nominale |
+| rapido | F | max. $\qty{30}{\milli\second}$ |
+| medio | MT | max. $\qty{90}{\milli\second}$ |
+| lento | T | max. $\qty{300}{\milli\second}$ |
+[table:n_feinsicherung:Parametri dei fusibili]
 
 ---
 

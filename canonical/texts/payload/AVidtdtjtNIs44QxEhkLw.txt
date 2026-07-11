@@ -1,6 +1,6 @@
-### Dürfen Funkamateure helfen?
+### I radioamatori possono aiutare?
 
-* Ja! Funkamateure dürfen in Not- und Katastrophenfällen durch Übermittlung von Nachrichten für und an Dritte bei der Bewältigung einer Notlage unterstützen.
+* Sì! I radioamatori possono fornire supporto nella gestione di una situazione di emergenza in caso di emergenza e catastrofi, trasmettendo messaggi per e a terzi.
 
 ---
 
@@ -8,9 +8,9 @@
 
 ---
 
-### Was  tun, wenn man eine Notmeldung erhält?
+### Cosa fare quando si riceve un messaggio di emergenza?
 
-* Bei einer Notmeldung sollte man zunächst aufmerksam zuhören und alle wichtigen Informationen notieren.
+* In caso di messaggio di emergenza, è necessario prima ascoltare attentamente e annotare tutte le informazioni importanti.
 
 ---
 
@@ -18,9 +18,9 @@
 
 ---
 
-### Was tun, wenn eine Rettungsorganisation sich der Sache annimmt?
+### Cosa fare se un'organizzazione di soccorso si occupa della questione?
 
-* Wird die Notmeldung von einer Rettungsorganisation beantwortet, hält man sich zurück um den Funkbetrieb nicht zu stören.
+* Se il messaggio di emergenza viene gestito da un'organizzazione di soccorso, ci si tiene in disparte per non disturbare le comunicazioni radio.
 
 ---
 
@@ -28,9 +28,9 @@
 
 ---
 
-### Was tun, wenn zunächst niemand antwortet?
+### Cosa fare se inizialmente nessuno risponde?
 
-* Reagiert keine andere Funkstelle, beantwortet man den Ruf und informiert die Polizei oder Rettungsleitstelle.
+* Se nessun'altra stazione radio risponde, si risponde alla chiamata e si informa la polizia o la centrale di soccorso.
 
 ---
 
@@ -38,18 +38,18 @@
 
 ---
 
-### Was tun, wenn man die zuständigen Stellen informiert hat?
+### Cosa fare dopo aver informato le autorità competenti?
 
-* Idealerweise bleibt man erreichbar und gibt Informationen weiter, bis Hilfe eingetroffen ist.
+* Idealmente, si rimane raggiungibili e si trasmettono informazioni fino all'arrivo dei soccorsi.
 
 ---
 [question:BF107]
 
 ---
 
-### Was ist bei internationaler Beteiligung zu beachten?
+### Cosa tenere presente in caso di partecipazione internazionale?
 
-* Bei internationaler Beteiligung nutzt man UTC anstelle von lokaler Zeit.
+* In caso di partecipazione internazionale, si utilizza l'ora UTC invece dell'ora locale.
 
 ---
 
@@ -57,13 +57,13 @@
 
 ---
 
-### Notzeichen
+### Segnali di emergenza
 
-* Die Notzeichen außerhalb des Amateurfunks sind SOS und Mayday, diese dürfen im Amateurfunk nicht verwendet werden.
+* I segnali di emergenza al di fuori del servizio radioamatoriale sono SOS e Mayday; questi non possono essere utilizzati nel servizio radioamatoriale.
 
 <note>
-* Es dürfen Notrufe abgesetzt werden.
-* Aber die Notzeichen SOS und MAYDAY sind dem See- und Flugfunk vorbehalten.
+* È possibile inviare chiamate di soccorso.
+* Ma i segnali di emergenza SOS e MAYDAY sono riservati alle comunicazioni marittime e aeronautiche.
 </note>
 
 ---
@@ -80,18 +80,18 @@
 
 ---
 
-###  Notfunkfrequenzen
+### Frequenze di emergenza
 
-Die IARU hat für die ITU-Region 1 die folgenden Notfunkfrequenzen in den Bandplänen festgelegt, die für den Notfunkbetrieb frei zu halten sind:
-% TODO: Eigentlich sind die Bandangaben unnötig. Aber wenn nur die Frequenz da steht, werden die Abstände zwischen den Zeilen riesig
-* $\qty{3760}{\kilo\hertz}$ im $\qty{80}{\meter}$-Band
-* $\qty{7110}{\kilo\hertz}$ im $\qty{40}{\meter}$-Band
-* $\qty{14300}{\kilo\hertz}$ im $\qty{20}{\meter}$-Band
-* $\qty{18160}{\kilo\hertz}$ im $\qty{17}{\meter}$-Band
-* $\qty{21360}{\kilo\hertz}$ im $\qty{15}{\meter}$-Band
+L'IARU ha stabilito per la Regione 1 dell'ITU le seguenti frequenze di emergenza nei piani di banda, che devono essere tenute libere per le operazioni di emergenza:
+% TODO: In realtà, le indicazioni di banda non sono necessarie. Ma se c'è solo la frequenza, gli spazi tra le righe diventano enormi
+* $\qty{3760}{\kilo\hertz}$ nella banda degli $\qty{80}{\meter}$
+* $\qty{7110}{\kilo\hertz}$ nella banda dei $\qty{40}{\meter}$
+* $\qty{14300}{\kilo\hertz}$ nella banda dei $\qty{20}{\meter}$
+* $\qty{18160}{\kilo\hertz}$ nella banda dei $\qty{17}{\meter}$
+* $\qty{21360}{\kilo\hertz}$ nella banda dei $\qty{15}{\meter}$
 
 <note>
-Zusätzlich werden zum Beispiel bei Erdbeben von lokalen Organisationen weitere Frequenzen in den "Amateurfunkmedien" kommuniziert.
+Inoltre, ad esempio in caso di terremoti, organizzazioni locali comunicano ulteriori frequenze nei "media radioamatoriali".
   </note>
   
 ---

@@ -1,8 +1,8 @@
-Im Kapitel über Dioden haben wir bereits die Photodiode kennengelernt. Derselbe Effekt – die Umwandlung von Lichtenergie in elektrische Energie – wird auch bei der Solarzelle genutzt. Eine Solarzelle wandelt die optische Strahlungsenergie der Sonne in elektrische Energie um. Damit steht eine zusätzliche Spannungsquelle zur Verfügung, die sich auch im Amateurfunk, etwa bei einem Fieldday, einsetzen lässt. Die Abbildung [ref:a_solarzelle] zeigt den Aufbau einer monokristallinen Silizium Solarzelle. 
+Nel capitolo sui diodi abbiamo già conosciuto il diodo fotoelettrico. Lo stesso effetto – la conversione di energia luminosa in energia elettrica – viene utilizzato anche nella cella solare. Una cella solare converte l'energia radiante ottica del sole in energia elettrica. Ciò fornisce una fonte di Tensione aggiuntiva, che può essere utilizzata anche in radioamatore, ad esempio durante un Fieldday. La figura [ref:a_solarzelle] mostra la struttura di una cella solare al silicio monocristallino. 
 
-Trifft Licht auf die Solarzelle, lösen die Lichtteilchen (Photonen) elektrische Ladungsträger im Halbleiter aus, wodurch eine elektrische Spannung und ein Strom entstehen. Albert Einstein erklärte diesen photoelektrischen Effekt bereits 1905 und erhielt dafür später den Nobelpreis für Physik.
+Quando la luce colpisce la cella solare, le particelle di luce (fotoni) scatenano portatori di carica elettrica nel semiconduttore, generando una Tensione elettrica e una Corrente. Albert Einstein spiegò questo effetto fotoelettrico già nel 1905 e in seguito ricevette per questo il Premio Nobel per la Fisica.
 
-Das Schaltzeichen eines Photoelements (Solarzelle) ist in der Abbildung [ref:a_photoelement] dargestellt. 
+Il simbolo di circuito di un fotoelemento (cella solare) è mostrato nella figura [ref:a_photoelement]. 
 
 
 <margin>
@@ -13,16 +13,16 @@ Das Schaltzeichen eines Photoelements (Solarzelle) ist in der Abbildung [ref:a_p
   
 [question:AB212]
 
-Wichtige Kenngrößen einer Solarzelle sind die Leerlaufspannung $U_\mathrm{OC}$, also die Spannung ohne angeschlossene Last, sowie der Kurzschlussstrom $I_\mathrm{SC}$, der bei direktem Kurzschluss der Anschlüsse unter voller Sonneneinstrahlung fließt.
+Le importanti grandezze caratteristiche di una cella solare sono la Tensione a vuoto $U_\mathrm{OC}$, cioè la Tensione senza carico collegato, e la Corrente di cortocircuito $I_\mathrm{SC}$, che scorre in caso di cortocircuito diretto dei collegamenti sotto piena irradiazione solare.
 
-Genau wie bei der Reihen- und Parallelschaltung von Akkus bzw. Spannungsquellen, verändert sich die Klemmenspannung und der maximale Laststrom eines Photovoltaikmoduls durch die Zusammenschaltung der einzelnen Solarzellen.
+Proprio come nel collegamento in serie e in parallelo di batterie o fonti di Tensione, la Tensione ai morsetti e la Corrente di carico massima di un modulo fotovoltaico cambiano a causa del collegamento delle singole celle solari.
 
-In einem Solarmodul sind mehrere Solarzellen zu einem Verbund zusammengeschaltet, wie in der Abbildung [ref:a_solarmodul] zu sehen ist. Hier 
-werden 30 Solarzellen mit jeweils $\qty{0,6}{\volt}$ Leerlaufspannung in Reihe geschaltet. Es addieren sich die Spannungen der einzelnen Zellen. Dadurch ergibt sich eine Gesamtspannung von
+In un modulo solare, più celle solari sono collegate insieme in un gruppo, come mostrato nella figura [ref:a_solarmodul]. Qui 
+vengono collegate in serie 30 celle solari, ciascuna con una Tensione a vuoto di $\qty{0,6}{\volt}$. Le tensioni delle singole celle si sommano. Ciò si traduce in una Tensione totale di
 
 $\qty{30}{} \cdot \qty{0,6}{\volt} = \qty{18}{\volt}$.
 
-Zusätzlich werden vier dieser Reihenschaltungen parallel geschaltet. Bei einer Parallelschaltung addieren sich die Ströme der einzelnen Stränge. Liefert jede Solarzelle beziehungsweise jeder Strang einen Kurzschlussstrom von $\qty{1}{\ampere}$, so ergibt sich insgesamt ein Kurzschlussstrom von
+Inoltre, quattro di queste connessioni in serie vengono collegate in parallelo. In un collegamento in parallelo, le correnti dei singoli rami si sommano. Se ogni cella solare o ogni ramo fornisce una Corrente di cortocircuito di $\qty{1}{\ampere}$, si ottiene una Corrente di cortocircuito totale di
 
 $\qty{4}{} \cdot \qty{1}{\ampere} = \qty{4}{\ampere}$.
 

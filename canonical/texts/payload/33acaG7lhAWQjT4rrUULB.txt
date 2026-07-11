@@ -1,30 +1,30 @@
-In der Klasse N haben wir bereits unerwünschte Aussendungen kennengelernt. Solche Aussendungen sollten unbedingt vermieden werden, was durch verschiedene technische Maßnahmen erreicht werden kann – auf diese gehen wir in dieser Lektion näher ein. Unerwünschte Aussendungen entstehen bei Funksendern häufig durch *Oberwellen*, also ganzzahlige Vielfache der Grundfrequenz, sowie durch sogenannte *Nebenaussendungen*, wie in der Abbildung [ref:e_unerwuenschte_aussendungen_uebersicht] gezeigt. Zunächst befassen wir uns mit den Oberwellen, da sie andere Funkdienste beeinträchtigen oder stören können. Von einer Störung spricht man, wenn eine Amateurfunkstation unerwünschte Frequenzanteile so stark abstrahlt, dass die zulässigen Grenzwerte überschritten werden. Ein typisches Beispiel ist die Aussendung einer Oberschwingung eines Transceivers im UKW-Rundfunkbereich, wie in Abbildung [ref:e_unerwuenschte_aussendungen_oberwelle] dargestellt. Hierbei führt die vierfache Frequenz ($\qty{145,9}{\mega\hertz}\cdot 4 = \qty{583,6}{\mega\hertz}$) der Grundfrequenz zu einer Störung. Die Nebenaussendungen betrachten wir am Ende dieser Lektion.
+Nella classe N abbiamo già conosciuto le emissioni indesiderate. Tali emissioni devono assolutamente essere evitate, cosa che può essere ottenuta attraverso varie misure tecniche – a queste ci avvicineremo in questa lezione. Le emissioni indesiderate si verificano spesso nei trasmettitori radio a causa di *armoniche superiori*, cioè multipli interi della frequenza fondamentale, nonché delle cosiddette *emissioni spurie*, come mostrato nella figura [ref:e_unerwuenschte_aussendungen_uebersicht]. Innanzitutto ci occupiamo delle armoniche superiori, poiché possono influenzare o disturbare altri servizi radio. Si parla di disturbo quando una stazione radioamatoriale irradia componenti di frequenza indesiderate così forti da superare i limiti consentiti. Un esempio tipico è l'emissione di un'armonica superiore di un trasmettitore-ricevitore nella banda di trasmissione radio FM, come mostrato nella figura [ref:e_unerwuenschte_aussendungen_oberwelle]. Qui la frequenza quadrupla ($\qty{145,9}{\mega\hertz}\cdot 4 = \qty{583,6}{\mega\hertz}$) della frequenza fondamentale causa un disturbo. Le emissioni spurie saranno considerate alla fine di questa lezione.
 
 <margin>
-[picture:1008:e_unerwuenschte_aussendungen_uebersicht:Unerwünschte Aussendungen: Oberwellen (OW) und Nebenaussendungen (NA)]
+[picture:1008:e_unerwuenschte_aussendungen_uebersicht:Emissioni indesiderate: Armoniche superiori (OW) ed emissioni spurie (NA)]
 </margin>
 
 <margin>
-[picture:745:e_unerwuenschte_aussendungen_oberwelle:Störung des DVB-T2-Empfang eines Fernsehers durch die Oberwelle einer Amateurfunkaussendung]
+[picture:745:e_unerwuenschte_aussendungen_oberwelle:Disturbo della ricezione DVB-T2 di un televisore da parte dell'armonica superiore di un'emissione radioamatoriale]
 </margin>
 
 ---
 
-Die Messung unerwünschter Aussendungen eines Senders erfolgt – im Gegensatz zur PEP-Messung – immer am Senderausgang unter Einbeziehung des gegebenenfalls verwendeten SWR-Meters, zusätzlicher Anpassgeräte und eventuell eingesetzter Tiefpassfilter (vgl. Abbildung [ref:e_unerwuenschte_aussendungen_trx]).
-Hierdurch wird sichergestellt, dass nur die unerwünschten Aussendungen gemessen werden, die auch die Antenne erreichen können. Als Messgerät eignet sich hierfür am besten ein Spektrumanalysator. Wie genau eine solche Überprüfung durchgeführt wird, wie das Frequenzspektrum von Oberwellen aussieht und welche gesetzlichen Vorgaben dabei gelten, werden wir erst in der Klasse A näher betrachten.
+La misurazione delle emissioni indesiderate di un trasmettitore avviene – a differenza della misurazione PEP – sempre all'uscita del trasmettitore, includendo l'eventuale SWR-meter utilizzato, dispositivi di adattamento aggiuntivi ed eventuali filtri passa-basso impiegati (cfr. figura [ref:e_unerwuenschte_aussendungen_trx]).
+Ciò garantisce che vengano misurate solo le emissioni indesiderate che possono raggiungere l'antenna. Uno spettroanalizzatore è il dispositivo di misurazione più adatto a questo scopo. Come viene eseguita esattamente una tale verifica, come appare lo spettro di frequenza delle armoniche superiori e quali disposizioni legali si applicano, verranno esaminati più in dettaglio solo nella classe A.
 
 <margin>
-[picture:917:e_unerwuenschte_aussendungen_trx:Messung von unerwünschten Aussendungen]
+[picture:917:e_unerwuenschte_aussendungen_trx:Misurazione delle emissioni indesiderate]
 </margin>
 
 [question:EJ209]
 
-Ein ideales Sendesignal, welches nur auf einer gewünschten Frequenz aussendet sollte ein idealer Sinus sein. Dieser enthält außer der Grundfrequenz keine weiteren Frequenzanteile.
+Un segnale di trasmissione ideale, che trasmette solo su una frequenza desiderata, dovrebbe essere un seno ideale. Questo non contiene altre componenti di frequenza oltre alla frequenza fondamentale.
 
 [question:EJ201]
 
 <indepth>
-Signalformen, welche nicht sinusförmig sind und insbesondere scharfe "Ecken und Kanten" enthalten, bestehen aus vielen verschiedenen Sinus-Frequenzanteilen und enthalten viele Oberwellenanteile. Insbesondere wenn Sender übersteuert werden, werden zuvor sinusförmige Signale oft verzerrt bzw. in deren Amplitude beschnitten. Hierdurch entstehen auch massive Oberwellenanteile. Jede Abweichung von der idealen Sinus-Form ist daher bei idealen Sendesignalen zu vermeiden. Diese Thematik werden wir in der Klasse A noch genauer betrachten. Mit diesem Applet lässt sich der Sachverhalt jedoch bereits ausprobieren.  
+Le forme d'onda che non sono sinusoidali e che in particolare contengono "angoli e spigoli" acuti, sono composte da molte diverse componenti di frequenza sinusoidale e contengono molte componenti armoniche superiori. Soprattutto quando i trasmettitori vengono sovrasterzati, i segnali precedentemente sinusoidali vengono spesso distorti o tagliati nella loro ampiezza. Ciò crea anche massicce componenti armoniche superiori. Ogni deviazione dalla forma sinusoidale ideale deve quindi essere evitata per i segnali di trasmissione ideali. Affronteremo questo argomento più in dettaglio nella classe A. Con questo applet, tuttavia, il problema può già essere sperimentato.
 
 [include:fourier]
 
@@ -32,16 +32,15 @@ Signalformen, welche nicht sinusförmig sind und insbesondere scharfe "Ecken und
 
 ---
 
-Zur Unterdrückung von Oberwellen werden im Kurzwellenbereich üblicherweise *Oberwellenfilter* eingesetzt. Ihre Charakteristik ist so ausgelegt, dass Frequenzen unterhalb einer bestimmten Grenzfrequenz das Filter nahezu ungedämpft passieren, während Frequenzen oberhalb dieser Grenze nicht oder nur stark abgeschwächt durchgelassen werden. Ein *Oberwellenfilter* ist somit ein *Tiefpassfilter*, wie wir es bereits im Kapitel Schwingkreise kennengelernt haben. Der Frequenzgang eines solchen Tiefpasses ist in Abbildung [ref:e_ua_tiefpass] dargestellt. Abbildung [ref:e_ua_tiefpass_selbstbau] zeigt ein selbstgebautes Tiefpassfilter bestehend aus Kondensatoren und Spulen welche auf Ringkerne gewickelt wurden. Schaltet man bei einem Mehrbandsender das Band um, wird dabei in der Regel auch ein passendes Oberwellenfilter ausgewählt. Oft ist dann das Klicken eines Relais zu hören, das diese Umschaltung vornimmt.
-
-Dass dieses Thema sehr wichtig ist, zeigt sich an der großen Zahl von Prüfungsfragen dazu. Mit dem Wissen über Oberwellen und Tiefpässe lassen sich diese jedoch sehr leicht beantworten.
+Per la soppressione delle armoniche superiori, nella gamma delle onde corte vengono solitamente impiegati *filtri per armoniche superiori*. La loro caratteristica è progettata in modo tale che le frequenze al di sotto di una determinata frequenza di taglio passino il filtro quasi senza attenuazione, mentre le frequenze al di sopra di questo limite non vengano trasmesse o vengano trasmesse solo con forte attenuazione. Un *filtro per armoniche superiori* è quindi un *filtro passa-basso*, come abbiamo già imparato nel capitolo sui circuiti oscillanti. La risposta in frequenza di un tale filtro passa-basso è mostrata nella figura [ref:e_ua_tiefpass]. La figura [ref:e_ua_tiefpass_selbstbau] mostra un filtro passa-basso autocostruito composto da condensatori e bobine avvolte su nuclei toroidali. Quando si cambia banda su un trasmettitore multibanda, viene solitamente selezionato anche un filtro per armoniche superiori appropriato. Spesso si sente il clic di un relè che effettua questo cambio.
+Il fatto che questo argomento sia molto importante è dimostrato dal gran numero di domande d'esame al riguardo. Tuttavia, con la conoscenza delle armoniche superiori e dei filtri passa-basso, queste possono essere risposte molto facilmente.
 
 <margin>
-[picture:591:e_ua_tiefpass:Frequenzgang eines Tiefpassfilters]
+[picture:591:e_ua_tiefpass:Risposta in frequenza di un filtro passa-basso]
 </margin>
 
 <margin>
-[photo:320:e_ua_tiefpass_selbstbau:Selbgebautes Tiefpassfilters]
+[photo:320:e_ua_tiefpass_selbstbau:Filtro passa-basso autocostruito]
 </margin>
 
 ---
@@ -55,24 +54,24 @@ Dass dieses Thema sehr wichtig ist, zeigt sich an der großen Zahl von Prüfungs
 [question:EJ203]
 
 <indepth>
-[picture:593:bandpass:Frequenzgang eines Bandpassfilters]
-  
-Eine weitere Möglichkeit Oberwellen zu unterdrücken stellt der Einsatz eines Bandpassfilters dar. Bandpassfilter werden häufig bei Einbandsendern sowie bei Sendern für den VHF/UHF/SHF-Bereich verwendet. Hierbei müssen oft auch Signalanteile, welche innerhalb der Aufbereitung des Sendesignals entstehen, und sich auch unterhalb der Sendefrequenz befinden können, unterdrückt werden.
+[picture:593:bandpass:Risposta in frequenza di un filtro passa-banda]
+
+Un'altra possibilità per sopprimere le armoniche superiori è l'uso di un filtro passa-banda. I filtri passa-banda sono spesso utilizzati nei trasmettitori a banda singola e nei trasmettitori per le gamme VHF/UHF/SHF. In questo caso, spesso è necessario sopprimere anche le componenti del segnale che si verificano durante l'elaborazione del segnale di trasmissione e che possono anche trovarsi al di sotto della frequenza di trasmissione.
 </indepth>
 
-Wie schon zuvor erwähnt sind sinusförmige Signale für die Vermeidung von Oberwellenanteilen essentiell. Dies wird unter anderem dadurch erreicht, dass die Senderstufen, insbesondere die Leistungsendstufen eines Senders verzerrungsfrei arbeiten. Erfolgt eine Neueinstellung des Arbeitspunktes einer Sender-Endstufe ist im Anschluss auf jeden Fall auf deren Linearität und die Qualität der Aussendung auf Oberwellenarmut zu prüfen.
+Come già accennato, i segnali sinusoidali sono essenziali per evitare componenti armoniche superiori. Ciò si ottiene, tra l'altro, garantendo che gli stadi del trasmettitore, in particolare gli stadi di potenza, funzionino senza distorsioni. Se si effettua una nuova regolazione del punto di funzionamento di uno stadio finale di un trasmettitore, è assolutamente necessario verificare successivamente la sua linearità e la qualità dell'emissione in termini di scarsità di armoniche superiori.
 
 [question:EF404]
 
-Unerwünschte Aussendungen können auch in unmittelbarer Nähe zum eigentlichen Sendesignal auftreten (vgl. Abbildung [ref:e_unerwuenschte_aussendungen_uebersicht]) und betreffen damit oft andere Funkamateure auf demselben Band. Solche Störungen lassen sich mit Filtern nur schwer oder gar nicht unterdrücken und sollten daher bereits am Anfang der Signalaufbereitung durch geeignete Maßnahmen vermieden werden. Häufig entstehen diese *Nebenaussendungen* – auch Nebenprodukte genannt und umgangssprachlich als „Splatter“ bezeichnet – durch eine zu hohe Einstellung des Mikrofonverstärkers im Sender, wodurch sich das Sendesignal ungewollt verbreitert.
+Le emissioni indesiderate possono anche verificarsi in prossimità immediata del segnale di trasmissione effettivo (cfr. figura [ref:e_unerwuenschte_aussendungen_uebersicht]) e quindi spesso interessano altre stazioni radioamatoriali sulla stessa banda. Tali disturbi possono essere difficilmente o per nulla soppressi con i filtri e dovrebbero quindi essere evitati fin dall'inizio dell'elaborazione del segnale mediante misure appropriate. Spesso queste *emissioni spurie* – chiamate anche sottoprodotti e colloquialmente denominate "splatter" – si verificano a causa di un'impostazione troppo elevata del guadagno del microfono nel trasmettitore, il che allarga involontariamente il segnale di trasmissione.
 
 [question:EJ213]
 [question:EJ214]
 
-Das Gleiche gilt auch für digitale Übertragungsverfahren, wie zum Beispiel Packet Radio. Um Nebenaussendungen und Überschreitungen der zulässigen Bandbreite zu vermeiden, kann insbesondere bei AFSK-modulierten FM-Sendern entweder der Hub begrenzt oder die NF-Aussteuerung reduziert werden.
+Lo stesso vale anche per i metodi di trasmissione digitale, come ad esempio il Packet Radio. Per evitare emissioni spurie e superamenti della larghezza di banda consentita, in particolare nei trasmettitori FM modulati AFSK, è possibile limitare la deviazione o ridurre la modulazione BF.
 
 [question:EJ212]
 
-Auch die Stabilität des im Sender verwendeten Oszillators kann dazu führen, dass Aussendungen außerhalb der Bandgrenzen liegen oder benachbarte Stationen gestört werden. Besonders bei älteren Selbstbaugeräten ohne quarzstabilisierte Oszillatoren ist dies möglich. Moderne Kurzwellentransceiver, aber auch aktuelle Selbstbaugeräte und Bausätze, verfügen in der Regel über sehr stabile Referenzoszillatoren.
+Anche la stabilità dell'oscillatore utilizzato nel trasmettitore può causare emissioni al di fuori dei limiti di banda o disturbare le stazioni adiacenti. Ciò è possibile in particolare nei vecchi apparecchi autocostruiti senza oscillatori stabilizzati al quarzo. I moderni trasmettitori-ricevitori per onde corte, ma anche gli attuali apparecchi autocostruiti e i kit, dispongono generalmente di oscillatori di riferimento molto stabili.
 
 [question:EJ216]

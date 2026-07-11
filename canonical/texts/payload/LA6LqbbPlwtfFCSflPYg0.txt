@@ -1,47 +1,47 @@
-Die Qualität von Funkverbindungen hängt von mehreren Faktoren ab: Sendeleistungen, verwendete Antenne, Entfernung und nicht zuletzt die aktuellen Ausbreitungsbedingungen. Daher ist es oft interessant, zu erfahren, wie gut das eigene Signal bei der Empfangsstation ankommt. Um die Empfangsqualität zu beurteilen, gibt man einen Empfangsbericht, den sogenannten Rapport [index:Rapport]. Im Amateurfunk wird dafür in aller Regel das RST-System [index:RST-System] verwendet.
+La qualità dei collegamenti radio dipende da diversi fattori: potenza di trasmissione, antenna utilizzata, distanza e, non da ultimo, le condizioni di propagazione attuali. Pertanto, è spesso interessante sapere quanto bene il proprio segnale arrivi alla stazione ricevente. Per valutare la qualità della ricezione, si fornisce un rapporto di ricezione, il cosiddetto rapporto [index:Rapport]. Nell'Amateurfunk, per questo scopo viene generalmente utilizzato il sistema RST [index:RST-System].
 
 [question:BE201]
 
 <margin>
-[photo:123:n_rst_s-meter:Display eines IC9700-Transceivers, hervorgehoben ist das S-Meter, das den aktuellen Empfangspegel anzeigt][index:S-Meter]
+[photo:123:n_rst_s-meter:Display di un trasmettitore-ricevitore IC9700, evidenziato è l'S-metro, che indica il livello di ricezione attuale][index:S-Meter]
 </margin>
 
 ---
 
-Ein Rapport nach dem RST-System besteht aus den folgenden drei Werten:
+Un rapporto secondo il sistema RST è composto dai seguenti tre valori:
 
-* R (Readability)[index:RST-System:Lesbarkeit]: Diese Zahl gibt die *Lesbarkeit* des Signals an und reicht von 1 bis 5. Unter der Lesbarkeit wird die Verständlichkeit verstanden. Eine höhere Zahl bedeutet eine bessere Verständlichkeit. Die Lesbarkeit wird subjektiv anhand von Faktoren wie Lautstärke, Klarheit, Störungen und Verzerrungen beurteilt. Anhaltspunkte für die Beurteilung finden sich in der Tabelle [ref:n_rst_r].
-* S (Signal Strength)[index:RST-System:Signalstärke]: Diese Zahl gibt die *Stärke des Signals* an und reicht von 1 bis 9. Eine höhere Zahl bedeutet eine höhere Signalstärke. Die Signalstärke wird normalerweise von der Empfangspegelanzeige (S-Meter) des Funkgeräts abgelesen. Viele S-Meter können auch Werte über 9 anzeigen. Die Anzeige solcher Werte erfolgt allerdings abweichend in Dezibel (dB) über Stufe 9. Der S-Wert im Rapport wird dann z. B. so angegeben: 9+20dB. An dieser Besonderheit ist auch das S-Meter am Funkgerät gut zu erkennen. Wie im Bild [ref:n_rst_s-meter] zu sehen ist, wird das S-Meter meist mit Werten von 1 bis 9 gefolgt von dB-Werten beschriftet.
-* T (Tone)[index:RST-System:Tonqualität]: Diese Zahl wird nur bei der Morsetelegrafie verwendet und gibt die *Qualität des Tons* an. Bei Sprechfunk wird dieser Wert weggelassen.
+* R (Readability)[index:RST-System:Lesbarkeit]: Questo numero indica la *leggibilità* del segnale e va da 1 a 5. Per leggibilità si intende la comprensibilità. Un numero più alto significa una migliore comprensibilità. La leggibilità viene valutata soggettivamente in base a fattori quali volume, chiarezza, disturbi e distorsioni. Indicazioni per la valutazione si trovano nella tabella [ref:n_rst_r].
+* S (Signal Strength)[index:RST-System:Signalstärke]: Questo numero indica la *forza del segnale* e va da 1 a 9. Un numero più alto significa una maggiore forza del segnale. La forza del segnale viene normalmente letta dall'indicatore di livello di ricezione (S-meter) dell'apparecchio radio. Molti S-meter possono anche indicare valori superiori a 9. Tuttavia, l'indicazione di tali valori avviene in modo diverso in decibel (dB) sopra il livello 9. Il valore S nel rapporto viene quindi indicato, ad esempio, come: 9+20dB. Questa particolarità è ben visibile anche sull'S-meter dell'apparecchio radio. Come si vede nell'immagine [ref:n_rst_s-meter], l'S-meter è solitamente etichettato con valori da 1 a 9 seguiti da valori in dB.
+* T (Tone)[index:RST-System:Tonqualität]: Questo numero viene utilizzato solo nella telegrafia Morse e indica la *qualità del tono*. Nella radiotelefonica, questo valore viene omesso.
 
-Einige Beispiele für mögliche Rapporte finden sich in Tabelle [ref:n_rst_beispiele].
+Alcuni esempi di possibili rapporti si trovano nella tabella [ref:n_rst_beispiele].
 
 <webmargin>
-| l: Wert | l: Bereich | l: Bedeutung | X: Englisch |
-| R | 1 - 5 | Lesbarkeit | Readability |
-| S | 1 - 9 | Signalstärke | Signal Strength |
-| T | 1 - 9 | Tonqualität | Tone |
-[table:n_rst:Die Bestandteile des RST-Rapports]
+| l: Valore | l: Campo | l: Significato | X: Inglese |
+| R | 1 - 5 | Leggibilità | Readability |
+| S | 1 - 9 | Forza del segnale | Signal Strength |
+| T | 1 - 9 | Qualità del tono | Tone |
+[table:n_rst:Le componenti del rapporto RST]
 </webmargin>
 
 <webmargin>
-| l: R | X: Beurteilung | 
-| 1 | nicht lesbar |
-| 2 | zeitweise lesbar |
-| 3| mit Schwierigkeiten lesbar |
-| 4 | ohne Schwierigkeiten lesbar |
-| 5 | einwandfrei lesbar |
-[table:n_rst_r:Anhaltspunkte für die subjektive Bewertung der Lesbarkeit (Verständlichkeit)]
+| l: R | X: Valutazione | 
+| 1 | illeggibile |
+| 2 | leggibile a tratti |
+| 3| leggibile con difficoltà |
+| 4 | leggibile senza difficoltà |
+| 5 | perfettamente leggibile |
+[table:n_rst_r:Indicazioni per la valutazione soggettiva della leggibilità (comprensibilità)]
 </webmargin>
 
 <webmargin>
-| X: Verständlichkeit | l: S-Meter | l: RST-Rapport |
-| einwandfrei | +20 dB | 59+20dB |
-| einwandfrei| 9 | 59 |
-| ohne Schwierigkeiten | 5 | 45 |
-| mit Schwierigkeiten | 3 | 33 |
-| unverständlich | 3 | 13 |
-[table:n_rst_beispiele:Beispiele für RST-Rapporte im Sprechfunk]
+| X: Comprensibilità | l: S-meter | l: Rapporto RST |
+| perfettamente leggibile | +20 dB | 59+20dB |
+| perfettamente leggibile| 9 | 59 |
+| senza difficoltà | 5 | 45 |
+| con difficoltà | 3 | 33 |
+| incomprensibile | 3 | 13 |
+[table:n_rst_beispiele:Esempi di rapporti RST nella radiotelefonica]
 </webmargin>
 
 [question:BE202]
@@ -49,7 +49,7 @@ Einige Beispiele für mögliche Rapporte finden sich in Tabelle [ref:n_rst_beisp
 
 ---
 <indepth>
-Morsetelegrafie wird im Amateurfunk als CW für "Continuous Wave" bezeichnet. Mehr dazu gibts es in einem späteren Kapitel.
+La telegrafia Morse nell'Amateurfunk è chiamata CW per "Continuous Wave". Maggiori informazioni a riguardo saranno trattate in un capitolo successivo.
 </indepth>
 
 [question:BE211]
@@ -57,11 +57,11 @@ Morsetelegrafie wird im Amateurfunk als CW für "Continuous Wave" bezeichnet. Me
 [question:NF103]
 [question:NF301]
 
-Bei den folgenden Fragen kommt es darauf an das S-Meter *richtig abzulesen*. In allen Fragen wird von einem Signal in Telefonie (Sprechfunk) ausgegangen. Der T-Wert entfällt deshalb. 
+Nelle seguenti domande, è importante *leggere correttamente* l'S-meter. In tutte le domande si presuppone un segnale in telefonia (radiotelefonica). Il valore T viene quindi omesso. 
 
 ---
 <indepth>
-Als SSB-Telefonie wird ein Übertragungsverfahren für den Sprechfunk bezeichnet. Andere Verfahren sind beispielsweise FM- oder AM-Telefonie.
+La telefonia SSB è un metodo di trasmissione per la radiotelefonica. Altri metodi sono, ad esempio, la telefonia FM o AM.
 </indepth>
 
 

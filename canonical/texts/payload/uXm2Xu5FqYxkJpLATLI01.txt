@@ -1,26 +1,26 @@
-Am Anfang dieses Kapitels haben wir uns mit dem Dipol als Grundform aller Antennen beschäftigt. Der Halbwellendipol strahlt Funkwellen senkrecht zur Drahtrichtung ab. Andere Antennenformen können ihre Funkwellen je nach Bauform bevorzugt in eine oder mehrere Richtungen abstrahlen und dafür weniger in andere Richtungen:
-* Eine Groundplane-Antenne strahlt in alle Himmelsrichtungen nahezu gleichmäßig ab, aber nicht nach oben oder unten.
-* Bei einer Yagi-Uda-Antenne werden die Funkwellen wie bei einer Taschenlampe in einem Strahl nach vorn gebündelt und in alle anderen Richtungen reduziert.
+All'inizio di questo capitolo abbiamo trattato il dipolo come forma base di tutte le antenne. Il dipolo a semionda irradia onde radio perpendicolarmente alla direzione del filo. Altre forme di antenna possono irradiare le loro onde radio preferenzialmente in una o più direzioni a seconda della loro costruzione, e meno in altre direzioni:
+* Un'antenna Groundplane irradia quasi uniformemente in tutte le direzioni del cielo, ma non verso l'alto o verso il basso.
+* Con un'antenna Yagi-Uda, le onde radio sono concentrate in un fascio in avanti, come con una torcia, e ridotte in tutte le altre direzioni.
 
-Die vom Nachweisverfahren zum Schutz von Personen in elektromagnetischen Feldern vorgegebenen Grenzwerte muss eine Sendeanlage in jede Richtung einhalten. Wenn in einem bestimmten Abstand von der Antenne die Grenzwerte in die Richtung eingehalten werden, in die sie am stärksten abstrahlt, dann wird sie die Grenzwerte im gleichen Abstand auch in alle anderen Richtungen einhalten. Daher interessiert uns besonders die Richtung der stärksten Abstrahlung. Diese wird als *Hauptstrahlrichtung* bezeichnet.
+I limiti imposti dal metodo di verifica per la protezione delle persone nei campi elettromagnetici devono essere rispettati da un impianto di trasmissione in ogni direzione. Se a una certa distanza dall'antenna i limiti sono rispettati nella direzione in cui irradia più fortemente, allora saranno rispettati anche in tutte le altre direzioni alla stessa distanza. Pertanto, siamo particolarmente interessati alla direzione della massima irradiazione. Questa è chiamata *direzione di irradiazione principale*.
 
 ---
 
-Wie stark eine Antenne in ihre Hauptstrahlrichtung abstrahlt, wird durch den *Gewinnfaktor* bezogen auf den Halbwellendipol ausgedrückt. Dieser gibt an, wieviel besser eine Antenne im Vergleich zu einem Halbwellendipol in die jeweilige Hauptstrahlrichtung abstrahlt. Ein Gewinnfaktor von $\num{2}$ gegenüber dem Halbwellendipol bedeutet beispielsweise, dass eine Antenne in die Hauptstrahlrichtung doppelt so stark abstrahlt wie ein Halbwellendipol in seine Hauptstrahlrichtung.
+Quanto fortemente un'antenna irradia nella sua direzione di irradiazione principale è espresso dal *fattore di guadagno* rispetto al dipolo a semionda. Questo indica quanto meglio un'antenna irradia nella rispettiva direzione di irradiazione principale rispetto a un dipolo a semionda. Un fattore di guadagno di $\num{2}$ rispetto al dipolo a semionda, ad esempio, significa che un'antenna irradia due volte più forte nella direzione di irradiazione principale rispetto a un dipolo a semionda nella sua direzione di irradiazione principale.
 
 <indepth>
-% TODO: Editionsspezifisch machen
-Anstelle des Gewinnfaktors von Antennen wird häufig der "Gewinn in Dezibel ($\unit{\dB}$)" angegeben. Mit der Einheit Dezibel beschäftigt sich der Kurs für die Klasse E.
+% TODO: Rendere specifico per l'edizione
+Invece del fattore di guadagno delle antenne, viene spesso indicato il "guadagno in decibel ($\unit{\dB}$)". Il corso per la classe E si occupa dell'unità decibel.
 </indepth>
 
 ---
 
-Um nun anzugeben, wieviel eine konkrete Antenne in die Hauptstrahlrichtung abstrahlt wenn man eine bestimmte Sendeleistung eingibt, multipliziert man die Sendeleistung mit dem auf den Halbwellendipol bezogenen Gewinnfaktor. Dann erhält man die *effektive Strahlungsleistung*, die meist als ERP (vom englischen "effective radiated power") abgekürzt wird. Geben wir beispielsweise eine Sendeleistung von $\qty{5}{\watt}$ in eine Antenne mit einem Gewinnfaktor von $\num{2}$ gegenüber dem Halbwellendipol, dann ergibt sich eine Strahlungsleistung von $\qty{10}{\watt}$ ERP.
+Per indicare ora quanto irradia un'antenna specifica nella direzione di irradiazione principale quando si immette una determinata potenza di trasmissione, si moltiplica la potenza di trasmissione per il fattore di guadagno relativo al dipolo a semionda. Si ottiene così la *potenza irradiata efficace*, che è solitamente abbreviata come ERP (dall'inglese "effective radiated power"). Ad esempio, se immettiamo una potenza di trasmissione di $\qty{5}{\watt}$ in un'antenna con un fattore di guadagno di $\num{2}$ rispetto al dipolo a semionda, si ottiene una potenza irradiata di $\qty{10}{\watt}$ ERP.
 
 <margin>
-Man kann sich die effektive Strahlungsleistung (ERP) auch so vorstellen: Es ist die Leistung, die man in einen Halbwellendipol einspeisen müsste, damit dieser in seiner Hauptstrahlrichtung genauso stark abstrahlt wie die betrachtete Antenne.
+Si può anche pensare alla potenza irradiata efficace (ERP) in questo modo: è la potenza che dovrebbe essere immessa in un dipolo a semionda affinché questo irradi con la stessa intensità nella sua direzione di irradiazione principale come l'antenna considerata.
 </margin>
 
-Richtantennen können viel größere Gewinnfaktoren haben. Eine Yagi-Uda-Antenne aus 9 Elementen kann beispielsweise leicht einen Gewinnfaktor von $\num{10}$ oder mehr gegenüber dem Halbwellendipol erreichen. Gibt man in eine solche Antenne z. B. $\qty{100}{\watt}$ ein, beträgt die Strahlungsleistung bereits $\qty{1000}{\watt}$ ERP oder mehr!
+Le antenne direzionali possono avere fattori di guadagno molto maggiori. Un'antenna Yagi-Uda a 9 elementi, ad esempio, può facilmente raggiungere un fattore di guadagno di $\num{10}$ o più rispetto al dipolo a semionda. Se si immettono $\qty{100}{\watt}$ in un'antenna del genere, la potenza irradiata è già di $\qty{1000}{\watt}$ ERP o più!
 
 [question:NG401]

@@ -1,14 +1,14 @@
-Zur Vermeidung von Gefährdungen durch elektrischen Schlag sollten die Metallgehäuse aller Geräte einer Amateurfunkstelle, z. B. Transceiver, Netzteil und Anpassgerät, jeweils über kurze Leitungen zusammengeführt und mit der Haupterdungsschiene des Gebäudes verbunden sein.  Bei vielen Geräten findet man dafür auf der Rückseite einen spezieller Schraubanschluss. Diese Maßnahme dient dem *Potentialausgleich* und der *Erdung* und sollte ebenfalls nach den anerkannten Regeln der Technik durchgeführt werden.
+Per evitare pericoli dovuti a scosse elettriche, gli involucri metallici di tutte le apparecchiature di una stazione radioamatoriale, ad esempio trasmettitore-ricevitore, alimentatore e accordatore, devono essere collegati insieme tramite cavi corti e collegati alla barra principale di terra dell'edificio. Molte apparecchiature hanno un collegamento a vite speciale sul retro per questo scopo. Questa misura serve per l'*equipotenzialità* e la *messa a terra* e deve essere eseguita secondo le regole tecniche riconosciute.
 
-Unter *Potentialausgleich* versteht man, dass keine gefährliche Berührungsspannung zwischen den einzelnen Geräten entstehen kann. Unter *Erdung* versteht man, dass z. B. aufgrund eines Defekts auftretende unerwünschte elektrische Ströme vom Gehäuse in die Erde abgeleitet werden können.
+Per *equipotenzialità* si intende che non possono crearsi tensioni di contatto pericolose tra le singole apparecchiature. Per *messa a terra* si intende che, ad esempio, a causa di un difetto, le correnti elettriche indesiderate che si verificano possono essere deviate dall'involucro verso terra.
 
 <margin>
-[photo:81:n_Schraubanschluss_GND:Schraubanschluss Ground (GND) am TRX]
+[photo:81:n_Schraubanschluss_GND:Collegamento a vite Ground (GND) sul TRX]
 </margin>
 
 
 <danger>
-Arbeiten an einem Blitzschutzsystem und der Anschluss von Potentialausgleich und Erdung sollte nur vorgenommen werden, wenn man genau weiß, was man tut. Deswegen dürfen sie ausschließlich von Elektrofachpersonen die über eine entsprechende Ausbildung verfügen vorgenommen werden!
+I lavori su un sistema di protezione contro i fulmini e il collegamento dell'equipotenzialità e della messa a terra devono essere eseguiti solo se si sa esattamente cosa si sta facendo. Pertanto, devono essere eseguiti esclusivamente da elettricisti qualificati che dispongono di una formazione adeguata!
 </danger>
 
 [question:VE604]
@@ -19,5 +19,5 @@ Arbeiten an einem Blitzschutzsystem und der Anschluss von Potentialausgleich und
 
 
 
-% In HB so nicht anwendbar. Trotzdem den Text behalten für evtl. Wiederverwendung (angepasst) - (ehem. Zeile 9) Wie der Potentialausgleich und die Erdung von Funkanlagen fachgerecht durchgeführt werden kann, beschreibt die Norm VDE 0855-300, die auch für Amateurfunk-Sendeanlagen anwendbar ist. Möchte man eine Antenne auf einem Gebäude anbringen, das über ein Blitzschutzsystem verfügt, dann kann man in der Norm VDE 0185-305 nachlesen, wie dies dem Stand der Technik entsprechend durchgeführt werden kann.
-% Tipp bezieht sich auf Zeile 9. Macht daher hier keinen Sinn. Grundsätzlich aber sinnvoll auf Quellen hinzuweisen. Quellen werden noch gesucht. (Die *Beschaffung von VDE-Normen* ist recht teuer. Es kann sich daher anbieten, auf andere Quellen zurückzugreifen, in denen die Regelungen der Normen erläutert werden.)
+% Non applicabile in Svizzera in questa forma. Tuttavia, conservare il testo per un eventuale riutilizzo (adattato) - (ex riga 9) La norma VDE 0855-300, applicabile anche agli impianti di trasmissione radioamatoriale, descrive come eseguire correttamente l'equipotenzialità e la messa a terra degli impianti radio. Se si desidera installare un'antenna su un edificio dotato di un sistema di protezione contro i fulmini, è possibile consultare la norma VDE 0185-305 per sapere come eseguire questa operazione secondo lo stato della tecnica.
+% Il suggerimento si riferisce alla riga 9. Pertanto, non ha senso qui. Tuttavia, è generalmente sensato indicare le fonti. Le fonti sono ancora in fase di ricerca. (L'*acquisizione delle norme VDE* è piuttosto costosa. Pertanto, può essere utile fare riferimento ad altre fonti in cui vengono spiegate le disposizioni delle norme.)

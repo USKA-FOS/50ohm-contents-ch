@@ -12,8 +12,8 @@
   <div class="d-flex align-items-center mt-2 gap-2">
     <small class="text-muted" id="cw_time">0:00 / 0:00</small>
     <div class="ms-auto d-flex gap-2">
-      <button class="btn btn-sm btn-primary" id="cw_play">&#9654; Play</button>
-      <button class="btn btn-sm btn-secondary" id="cw_stop">&#9632; Stop</button>
+      <button class="btn btn-sm btn-primary" id="cw_play">▶ Riproduci</button>
+      <button class="btn btn-sm btn-secondary" id="cw_stop">■ Ferma</button>
     </div>
   </div>
 

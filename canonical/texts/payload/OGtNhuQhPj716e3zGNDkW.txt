@@ -1,52 +1,52 @@
-### Parallelschwingkreis
+### Circuito oscillante parallelo
 
-* Spulen und Kondensatoren werden kombiniert
-* Zu beachten ist auch die *Wicklungskapazität*
-* Dadurch kommen "unsichtbare" Kapazitäten mit in die Schaltung
+* Bobine e condensatori vengono combinati
+* Da considerare anche la *capacità degli avvolgimenti*
+* Ciò introduce capacità "invisibili" nel circuito
 
 <note>
-Eigenkapazität einer Spule
+Autocapacità di una bobina
 </note>
 ---
 [question:AD101]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 
-* gegeben: $C_1 = \qty{0,10}{\nano\farad}$
-* gegeben: $C_2 = \qty{47}{\pico\farad}$
-* gegeben: $C_3 = \qty{22}{\pico\farad}$
-* gesucht: $C_{\mathrm{ges}}$
+* dato: $C_1 = \qty{0,10}{\nano\farad}$
+* dato: $C_2 = \qty{47}{\pico\farad}$
+* dato: $C_3 = \qty{22}{\pico\farad}$
+* cercato: $C_{\mathrm{totale}}$
 
 <fragment>
-$\begin{split} \tfrac{1}{C_{\mathrm{ges}}} &= \tfrac{1}{C_1} + \tfrac{1}{C_2} + \tfrac{1}{C_3} = \tfrac{1}{\qty{0,10}{\nano\farad}} + \tfrac{1}{\qty{47}{\pico\farad}} + \tfrac{1}{\qty{22}{\pico\farad}}\\ &= \qty{7,67e10}{\farad^{-1}}\\ \Rightarrow C_{\mathrm{ges}} &= \frac{1}{\qty{7,67e10}{\farad^{-1}}} \approx \qty{13,0}{\pico\farad} \end{split}$
+$\begin{split} \tfrac{1}{C_{\mathrm{totale}}} &= \tfrac{1}{C_1} + \tfrac{1}{C_2} + \tfrac{1}{C_3} = \tfrac{1}{\qty{0,10}{\nano\farad}} + \tfrac{1}{\qty{47}{\pico\farad}} + \tfrac{1}{\qty{22}{\pico\farad}}\\ &= \qty{7,67e10}{\farad^{-1}}\\ \Rightarrow C_{\mathrm{totale}} &= \frac{1}{\qty{7,67e10}{\farad^{-1}}} \approx \qty{13,0}{\pico\farad} \end{split}$
 </fragment>
 ---
 [question:AD103]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 
-* gegeben: $C_1 = \qty{0,1}{\nano\farad}$
-* gegeben: $C_2 = \qty{1,5}{\nano\farad}$
-* gegeben: $C_3 = \qty{220}{\pico\farad}$
-* gegeben: $C_L = \qty{1}{\pico\farad}$
-* gesucht: $C_{\mathrm{ges}}$
+* dato: $C_1 = \qty{0,1}{\nano\farad}$
+* dato: $C_2 = \qty{1,5}{\nano\farad}$
+* dato: $C_3 = \qty{220}{\pico\farad}$
+* dato: $C_L = \qty{1}{\pico\farad}$
+* cercato: $C_{\mathrm{totale}}$
 
 <fragment>
-$\begin{split} C_{\mathrm{ges}} &= C_1 + C_2 + C_3 + C_L\\ &= \qty{0,1}{\nano\farad} + \qty{1,5}{\nano\farad} + \qty{220}{\pico\farad} + \qty{1}{\pico\farad}\\ &= \qty{1821}{\pico\farad} \end{split}$
+$\begin{split} C_{\mathrm{totale}} &= C_1 + C_2 + C_3 + C_L\\ &= \qty{0,1}{\nano\farad} + \qty{1,5}{\nano\farad} + \qty{220}{\pico\farad} + \qty{1}{\pico\farad}\\ &= \qty{1821}{\pico\farad} \end{split}$
 </fragment>
 <note>
-Einheitenpräfixe beachten und mit Kehrwerten rechnen
+Prestare attenzione ai prefissi delle unità e calcolare con i reciproci
 </note>
 
 ---
 [question:AD105]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 
-* gegeben: $R = \qty{100}{\ohm}$
-* gegeben: $L = \qty{100}{\micro\henry}$
-* gegeben: $f = \qty{1}{\mega\hertz}$
-* gesucht: $Z$
+* dato: $R = \qty{100}{\ohm}$
+* dato: $L = \qty{100}{\micro\henry}$
+* dato: $f = \qty{1}{\mega\hertz}$
+* cercato: $Z$
 
 <fragment>
 $\begin{split} X_L &= \omega \cdot L = 2\pi \cdot f \cdot L\\ &= 2\pi \cdot \qty{1}{\mega\hertz} \cdot \qty{100}{\micro\henry} = \qty{628}{\ohm}\end{split}$
@@ -58,12 +58,12 @@ $Z = \sqrt{R^2 + X^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{628}{\ohm})^2} \approx
 ---
 [question:AD104]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 
-* gegeben: $R = \qty{100}{\ohm}$
-* gegeben: $C = \qty{100}{\nano\farad}$
-* gegeben: $f = \qty{1}{\mega\hertz}$
-* gesucht: $Z$
+* dato: $R = \qty{100}{\ohm}$
+* dato: $C = \qty{100}{\nano\farad}$
+* dato: $f = \qty{1}{\mega\hertz}$
+* cercato: $Z$
 
 <fragment>
 $\begin{split} X_C &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}\\ &= \frac{1}{2\pi \cdot \qty{1}{\mega\hertz} \cdot \qty{100}{\nano\farad}} = \qty{159}{\ohm}\end{split}$

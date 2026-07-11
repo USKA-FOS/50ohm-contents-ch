@@ -1,14 +1,14 @@
-Bisher kennen wir Halbleiter-Dioden nur in ihrer Funktion als Gleichrichter einer Wechselspannung. In Modulatoren zur Erzeugung von AM- und SSB-Signalen spielen Dioden eine neue Rolle: Durch eine angelegte NF-Spannung wird ihr Widerstand im Takt der NF-Frequenz vergrößert oder verkleinert; je größer die NF-Spannung, umso größer der Diodenstrom und umso kleiner der resultierende Widerstand. In einem Amplituden-Modulator wird dieser Widerstand eingesetzt, um die Amplitude eines HF-Signals (aus einem Lokaloszillator) zu beeinflussen; der HF-Strom durch die Diode wird groß, wenn der Dioden-Widerstand klein ist und umgekehrt. Das HF-Signal wird in seiner Amplitude im Takt des NF-Signals „moduliert“! Im einfachsten Fall, wenn man nur eine einzige Diode verwendet, enthält das Spektrum des Signals einen Träger (bei der ursprünglichen HF-Frequenz) und zwei Modulations-Seitenbänder im Abstand der NF-Frequenz oberhalb und unterhalb der Trägerfrequenz – ein Signal mit Amplituden-Modulation (AM). 
+Finora conosciamo i diodi a semiconduttore solo nella loro funzione di raddrizzatori di una tensione alternata. Nei modulatori per la generazione di segnali AM e SSB, i diodi svolgono un nuovo ruolo: una tensione AF applicata ne aumenta o diminuisce la resistenza al ritmo della frequenza AF; maggiore è la tensione AF, maggiore è la corrente del diodo e minore è la resistenza risultante. In un modulatore di ampiezza, questa resistenza viene utilizzata per influenzare l'ampiezza di un segnale RF (proveniente da un oscillatore locale); la corrente RF attraverso il diodo è grande quando la resistenza del diodo è piccola e viceversa. Il segnale RF viene "modulato" nella sua ampiezza al ritmo del segnale AF! Nel caso più semplice, se si utilizza un solo diodo, lo spettro del segnale contiene una portante (alla frequenza RF originale) e due bande laterali di modulazione alla distanza della frequenza AF sopra e sotto la frequenza portante – un segnale con modulazione di ampiezza (AM).
 
-Dieses Prinzip wird in der folgenden Frage deutlich: Eine Diode wird mit einem NF-Signal und einem HF-Signal gleichzeitig beaufschlagt und das Ausgangs-Signal wird mit einem LC-Schwingkreis ausgefiltert.
+Questo principio diventa chiaro nella seguente domanda: un diodo viene sottoposto contemporaneamente a un segnale AF e a un segnale RF e il segnale di uscita viene filtrato con un circuito oscillante LC.
 
 [question:AD507]
 
-Mit einer Schaltung aus vier Dioden in einer Ring-Anordnung kann aber der Träger auch unterdrückt werden, und nur die beiden Seitenbänder bleiben übrig; dazu muss der Dioden-Ring in eine Gegentakt- Schaltung eingebaut sein, die so ausbalanciert (bzw. symmetriert) ist, dass sich die Ströme des Trägersignals am Ausgang aufheben. Im Kapitel "Mischer II" wurde so eine Schaltung als „Balancemischer“ (engl. „balanced mixer“) bereits gezeigt, allerdings dort zur Umsetzung eines HF-Eingangssignals in eine Zwischenfrequenz-Lage. 
+Con un circuito di quattro diodi disposti ad anello, tuttavia, la portante può essere soppressa e rimangono solo le due bande laterali; per fare ciò, l'anello di diodi deve essere integrato in un circuito push-pull che è bilanciato (o simmetrico) in modo tale che le correnti del segnale portante si annullino all'uscita. Nel capitolo "Mixer II" è stato già mostrato un circuito del genere come "miscelatore bilanciato" (inglese "balanced mixer"), anche se lì per convertire un segnale di ingresso RF in una posizione di frequenza intermedia.
 
-Der Balancemodulator ist die erste Stufe eines Einseitenband-Modulators - er erzeugt aus einem Lokaloszillator-Signal und einem NF-Signal (Modulation) ein Doppelseitenband-Signal (DSB). Dahinter folgt ein Bandpass-Filter, das nur eines der beiden Seitenbänder durchlässt, und damit am Ausgang ein SSB-Signal erzeugt.  
+Il modulatore bilanciato è il primo stadio di un modulatore a banda laterale singola - genera da un segnale di oscillatore locale e un segnale AF (modulazione) un segnale a doppia banda laterale (DSB). Dietro di esso segue un filtro passa-banda che lascia passare solo una delle due bande laterali, generando così un segnale SSB all'uscita.
 
-Man denke an die beiden notwendigen Stufen des SSB-Modulators.
+Si pensi ai due stadi necessari del modulatore SSB.
 
 [question:AE206]
 
@@ -16,68 +16,67 @@ Man denke an die beiden notwendigen Stufen des SSB-Modulators.
 
 ---
 
-Man erkennt einen Balancemischer bzw. Balancemodulator an dem Dioden-Ring. In dieser Schaltung besteht keine vollständige Gegentakt Anregung, da nur ein Transformator verwendet wird, allerdings gibt es das Äquivalent zu einer Mittelanzapfung eines Transformators in der Einspeisung des Oszillator-Signals im Mittelpunkt eines Spannungsteilers (Poti).
+Si riconosce un miscelatore bilanciato o modulatore bilanciato dall'anello di diodi. In questo circuito non c'è un'eccitazione push-pull completa, poiché viene utilizzato solo un trasformatore, tuttavia esiste l'equivalente di un presa centrale di un trasformatore nell'alimentazione del segnale dell'oscillatore al centro di un partitore di tensione (potenziometro).
 
 [question:AF308]
 
 <indepth>
-Im Sender wird aus dem Balancemischer ein Balancemodulator durch Vertauschung der Eingänge: Die niederfrequente Modulation wird in den Brückenzweig der Gegentakt-Schaltung zwischen der Mittelanzapfung von T2 und Masse eingekoppelt. Das Lokaloszillator-Signal wird über T1 in den Diodenring eingespeist und das Doppelseitenband-Signal über T2 ausgekoppelt. Ohne eine Modulations-Spannung werden die Dioden-Paare D1, D2 und D3, D4 abwechselnd durchgeschaltet und bilden dabei 1:1 - Spannungsteiler, so dass ihre Mittelpunkte auf Masse-Potential liegen. Somit liegen auch abwechselnd das obere und untere Ende der Wicklung von T2 auf Masse-Potential während das jeweils andere Ender der Wicklung durch gesperrte Dioden ohne Verbindung bleibt. Somit fließt kein Strom in der Wicklung und auf der Ausgangsseite entsteht keine Spannung - das macht die "Trägerunterdrückung" aus! 
+Nel trasmettitore, un modulatore bilanciato viene creato da un miscelatore bilanciato scambiando gli ingressi: la modulazione a bassa frequenza viene accoppiata nel ramo a ponte del circuito push-pull tra la presa centrale di T2 e la massa. Il segnale dell'oscillatore locale viene immesso nell'anello di diodi tramite T1 e il segnale a doppia banda laterale viene estratto tramite T2. Senza una tensione di modulazione, le coppie di diodi D1, D2 e D3, D4 vengono commutate alternativamente, formando partitori di tensione 1:1, in modo che i loro punti medi si trovino al potenziale di massa. Pertanto, un'estremità e l'altra dell'avvolgimento di T2 si trovano alternativamente a potenziale di massa, mentre l'estremità opposta dell'avvolgimento rimane scollegata a causa dei diodi bloccati. Pertanto, nessuna corrente scorre nell'avvolgimento e non si genera alcuna tensione sul lato di uscita - questo è ciò che causa la "soppressione della portante"!
 
-Bei Anlegen einer Modulationsspannung fließt zusätzlicher Strom durch die Dioden, so dass das Mittelpunkts-Potential der Spannungsteiler verschoben wird - damit kann Strom in den Transformator T2 fließen und ein Ausgangssignal entsteht. Im Bild werden die Spannungsverläufe gezeigt, die sich ergeben, wenn das Oszillator-Signal vereinfacht als Rechteck-Funktion angenommen wird.
+Quando viene applicata una tensione di modulazione, scorre corrente aggiuntiva attraverso i diodi, in modo che il potenziale del punto medio dei partitori di tensione venga spostato - in questo modo la corrente può fluire nel trasformatore T2 e si genera un segnale di uscita. L'immagine mostra i profili di tensione che si verificano quando il segnale dell'oscillatore viene semplificato come funzione rettangolare.
 </indepth>
 
 ---
 
-Träger-Unterdrückung hat mit Auslöschung eines unerwünschten Signals zu tun - dazu muss eine Modulator-Schaltung "ausbalanciert" sein.
+La soppressione della portante ha a che fare con l'annullamento di un segnale indesiderato - per questo un circuito modulatore deve essere "bilanciato".
 
 [question:AD510]
 
-Genau zu dieser Ausbalancierung gehört eine Justierung der Amplituden (Poti) und der Phasen (C-Trimmer)
+Proprio a questo bilanciamento appartiene una regolazione delle ampiezze (potenziometro) e delle fasi (trimmer C).
 
 [question:AF309]
 
-"Symmetriert" oder "ausbalanciert" wird ein Modulator, um den Träger zu unterdrücken - die Modulations-Seitenbänder werden dabei nicht unterdrückt.
+Un modulatore viene reso "simmetrico" o "bilanciato" per sopprimere la portante - le bande laterali di modulazione non vengono soppresse.
 
 [question:AF304]
 
 [question:AF303]
 
-Hinter dem Balancemodulator folgt die zweite Stufe eines SSB-Modulators.
+Dopo il modulatore bilanciato segue il secondo stadio di un modulatore SSB.
 
 [question:AF305]
 
 [question:AF306]
 
-Die Quarze bestimmen die Frequenz des durch den Balancemodulator unterdrückten Trägers. Man erkennt an der Quarzfrequenz für das untere Seitenband (LSB): Der Träger liegt $\qty{1,5}{\kilo\hertz}$ über der $\qty{9}{\mega\hertz}$-Bandfilter-Mittenfrequenz. Mit der maximalen NF-Frequenz von $\qty{3}{\kilo\hertz}$ liegt das untere Seitenband dann $\qty{1,5}{\kilo\hertz}$ unter der Mittenfrequenz und die NF-Frequenz $\qty{200}{\hertz}$ legt das Seitenband dann bei $\qty{1,3}{\kilo\hertz}$ über der Mittenfrequenz des Filters. Für das obere Seitenband (USB) gilt das umgekehrt.
+I quarzi determinano la frequenza della portante soppressa dal modulatore bilanciato. Si riconosce dalla frequenza del quarzo per la banda laterale inferiore (LSB): la portante si trova $\qty{1,5}{\kilo\hertz}$ sopra la frequenza centrale del filtro passa-banda da $\qty{9}{\mega\hertz}$. Con la frequenza AF massima di $\qty{3}{\kilo\hertz}$, la banda laterale inferiore si trova quindi $\qty{1,5}{\kilo\hertz}$ sotto la frequenza centrale e la frequenza AF di $\qty{200}{\hertz}$ posiziona la banda laterale a $\qty{1,3}{\kilo\hertz}$ sopra la frequenza centrale del filtro. Per la banda laterale superiore (USB) vale il contrario.
 
 [question:AF307]
 
-Das Kreuz- oder X-Symbol in dem Funktionsblock hinter dem NF-Verstärker steht für die mathematische Multiplikation - Modulatoren, Demodulatoren und Mischer-Schaltungen werden so gekennzeichnet, weil ihre Funktion mathematisch als die Multiplikation von Signal-Funktionen beschrieben werden kann.
+La croce o il simbolo a X nel blocco funzionale dietro l'amplificatore AF sta per la moltiplicazione matematica - modulatori, demodulatori e circuiti mixer sono contrassegnati in questo modo perché la loro funzione può essere descritta matematicamente come la moltiplicazione di funzioni di segnale.
 
-Ein Modulator für die Frequenzmodulation (FM) verwendet dagegen einen anderen Dioden-Typ, die Kapazitäts-Diode (in den Schaltungen erkennbar an dem kleinen Kondensator-Symbol neben dem Dioden-Symbol). Dabei ist die Diode immer Teil einer Oszillator-Schaltung, deren Schwingungsfrequenz durch einen Resonanzkreis bestimmt wird, der die Kapazitäts-Diode enthält. Die Diode wird mit einer Gleichspannung in Sperr-Richtung beaufschlagt, so dass sich eine feste Dioden-Kapazität einstellt und damit auch eine Oszillator-Frequenz. Zum Frequenz-Modulator wird die Schaltung, wenn der Gleichspannung ein NF-Signal überlagert wird – dann ändert der Oszillator seine Frequenz im Takt des NF-Signals.
+Un modulatore per la modulazione di frequenza (FM), al contrario, utilizza un tipo diverso di diodo, il diodo capacità (riconoscibile nei circuiti dal piccolo simbolo del condensatore accanto al simbolo del diodo). Il diodo fa sempre parte di un circuito oscillatore, la cui frequenza di oscillazione è determinata da un circuito risonante che contiene il diodo capacità. Il diodo viene sottoposto a una tensione continua in direzione di blocco, in modo che si stabilisca una capacità fissa del diodo e quindi anche una frequenza dell'oscillatore. Il circuito diventa un modulatore di frequenza quando alla tensione continua viene sovrapposto un segnale AF – quindi l'oscillatore cambia la sua frequenza al ritmo del segnale AF.
 
-
-Hier taucht die Kapazitäts-Diode auf - und die Transistor-Schaltung daneben ist ein Oszillator mit LC-Schwingkreis.
+Qui compare il diodo capacità - e il circuito transistor accanto è un oscillatore con circuito oscillante LC.
 
 [question:AD508]
 
-Eine in Sperrspannung betriebene Kapazitäts-Diode, die auf der einen Seite mit NF beaufschlagt wird und auf der anderen Seite parallel zum Schwingkreis einer Oszillator-Schaltung liegt beeinflusst die Frequenz des Oszillators.
+Un diodo capacità funzionante in tensione inversa, che viene sottoposto a AF da un lato e si trova parallelamente al circuito oscillante di un circuito oscillatore dall'altro lato, influenza la frequenza dell'oscillatore.
 
 [question:AF310]
 
-Mit großen NF-Spannungen kann man leicht viel größere Frequenzänderungen des Oszillators bewirken (FM-„Hub“) als zulässig. Daher ist eine „Hub“- Begrenzung durch eine Einstellung und Begrenzung der NF-Amplitude notwendig. Anti-parallel geschaltete Dioden begrenzen die Spannung auf etwa die Dioden-Knickspannung.
+Con tensioni AF elevate, si possono facilmente ottenere variazioni di frequenza dell'oscillatore molto maggiori (deviazione FM) di quanto consentito. Pertanto, è necessaria una limitazione della "deviazione" tramite una regolazione e limitazione dell'ampiezza AF. Diodi collegati in antiparallelo limitano la tensione a circa la tensione di ginocchio del diodo.
 
 [question:AD509]
 
-Dies ist offenbar kein Modulator - es gibt nur ein einziges Signal! Ein Elko am Ausgang der Diode deutet auf Gleichspannung hin!
+Questo apparentemente non è un modulatore - c'è solo un singolo segnale! Un condensatore elettrolitico all'uscita del diodo indica una tensione continua!
 
 [question:AD503]
 
-% TODO aus E hier her kopiert ... muss eingeflegt werden.
+% TODO copiato da E qui... deve essere inserito.
 <margin>
-[picture:500:e_ssb_modulation:Blockschaltbild zur Modulation von SSB mit der Filtermethode]
-[picture:831:e_ssb_modulation_lsb:Frequenzen mit der Filtermethode bei LSB]
-[picture:940:e_ssb_modulation_lsb:Spektrum mit der Filtermethode bei LSB]
-[picture:832:e_ssb_modulation_usb:Frequenzen mit der Filtermethode bei USB]
-[picture:941:e_ssb_modulation_usb:Spektrum mit der Filtermethode bei USB]
+[picture:500:e_ssb_modulation:Schema a blocchi per la modulazione SSB con il metodo a filtro]
+[picture:831:e_ssb_modulation_lsb:Frequenze con il metodo a filtro in LSB]
+[picture:940:e_ssb_modulation_lsb:Spettro con il metodo a filtro in LSB]
+[picture:832:e_ssb_modulation_usb:Frequenze con il metodo a filtro in USB]
+[picture:941:e_ssb_modulation_usb:Spettro con il metodo a filtro in USB]
 </margin>

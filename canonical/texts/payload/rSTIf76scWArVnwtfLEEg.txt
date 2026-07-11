@@ -1,27 +1,27 @@
-Leistungsverstärker werden im Amateurfunkbereich zur Verstärkung des intern erzeugten HF-Signals aus vorherigen Stufen verwendet um die gewünschte Ausgangsleistung des Senders zu erzielen. Hierbei unterscheidet man grundlegend in 2 Typen von HF-Verstärkern. Zum einen breitbandige HF-Verstärker, welche eine gleichbleibende Verstärkung über einen relativ breiten Frequenzbereich haben (z.B. Kurzwellenbereich $\qtyrange{1}{30}{\mega\hertz}$). Zum anderen selektive HF-Verstärker, welche das Maximum Ihrer Verstärkung nur in einem schmalen Frequenzbereich haben (z.B. nur in einem Amateurband des Kurzwellenbereichs).
+Gli amplificatori di potenza nel campo della radioamatoriale vengono utilizzati per amplificare il segnale RF generato internamente dagli stadi precedenti al fine di ottenere la potenza d'uscita desiderata del trasmettitore. Si distinguono fondamentalmente 2 tipi di amplificatori RF. Da un lato amplificatori RF a banda larga, che hanno un'amplificazione costante su una banda di frequenza relativamente ampia (ad es. banda delle onde corte $\qtyrange{1}{30}{\mega\hertz}$). Dall'altro amplificatori RF selettivi, che hanno il loro massimo di amplificazione solo in una stretta banda di frequenza (ad es. solo in una banda per radioamatori della gamma delle onde corte).
 
-Breitbandige HF-Verstärker erkennt man typischerweise an breitbandigen Koppeltransformatoren zwischen den einzelnen Verstärkerstufen, die **nicht** mittels einer Parallel- oder Serienkapazität als Schwingkreis ausgebildet sind.
+Gli amplificatori RF a banda larga sono tipicamente riconoscibili dai trasformatori di accoppiamento a banda larga tra i singoli stadi dell'amplificatore, che **non** sono realizzati come circuiti oscillanti mediante capacità parallela o serie.
 
-Selektive HF-Verstärker erkennt man hingegen typischerweise an deren frequenzselektiver Auslegung, die durch Serien- oder Parallel-Schwingkreise im HF-Signalpfad gekennzeichnet sind.
+Gli amplificatori RF selettivi, invece, sono tipicamente riconoscibili dalla loro progettazione a selettività di frequenza, caratterizzata da circuiti oscillanti serie o parallelo nel percorso del segnale RF.
 
 
 
 [question:AF412]
 [question:AF408]
 
-Verstärker der vorgenannten Typen können auch mehrstufig durch Verkettung einzelner Stufen ausgeführt sein.
+Gli amplificatori dei tipi sopra menzionati possono anche essere realizzati a più stadi collegando singoli stadi.
 
 [question:AF413]
 
-Zwischen Verstärkerstufen eines Leistungsverstärkers und deren Ein- und Ausgängen ist es erforderlich eine Impedanzanpassung vorzunehmen. Dies ist notwendig, damit die HF-Ausgangsimpedanz einer vorherigen Stufe auf die HF-Eingangsimpedanz der folgenden Stufe bestmöglich angepasst wird für maximale Verstärkung und minimale Verzerrungen und optimalen Wirkungsgrad (Vermeidung von Reflexionen und Nichtlinearitäten). 
+Tra gli stadi dell'amplificatore di potenza e i loro ingressi e uscite, è necessario eseguire un adattamento di impedenza. Questo è necessario affinché l'impedenza d'uscita RF di uno stadio precedente sia adattata nel miglior modo possibile all'impedenza d'ingresso RF dello stadio successivo per ottenere la massima amplificazione e distorsioni minime e un rendimento ottimale (evitare riflessioni e non linearità).
 
-Die Impedanzanpassung kann entweder breitbandig durch Verwendung eines Transformators mit geeignetem Übersetzungsverhältnis oder frequenzselektiv durch einen angezapften Schwingkreis erfolgen.
+L'adattamento di impedenza può avvenire sia a banda larga utilizzando un trasformatore con un opportuno rapporto di trasformazione, sia in modo selettivo in frequenza tramite un circuito oscillante con presa.
 
-Bei frequenzselektiver Anpassung gibt es zwei grundlegende Möglichkeiten diese vorzunehmen:
-- durch einen induktiven Spannungsteiler (Spule mit Anzapfung und parallelkondensator)
-- durch einen kapazitiven Spannungsteiler (zwei Kondensatoren in Reihenschaltung mit Spule in Parallelschaltung)
+Nell'adattamento selettivo in frequenza, ci sono due possibilità fondamentali per realizzarlo:
+- tramite un partitore di tensione induttivo (bobina con presa e condensatore parallelo)
+- tramite un partitore di tensione capacitivo (due condensatori in serie con bobina in parallelo)
 
-Diese Spulen und Kondenstatoren können in unterschiedlichen Konfigurationen angeordnet sein (Parallel- oder Serien-kreis) um die gewünschte Impedanztransformation zu erreichen und gegebenenfalls gleichzeitig Oberwellen zu unterdrücken (Pi-Filter).
+Queste bobine e condensatori possono essere disposti in diverse configurazioni (circuito parallelo o serie) per ottenere la trasformazione di impedenza desiderata e, se necessario, sopprimere contemporaneamente le armoniche superiori (filtro Pi).
 
 [question:AF409]
 [question:AF410]
@@ -30,44 +30,44 @@ Diese Spulen und Kondenstatoren können in unterschiedlichen Konfigurationen ang
 [question:AF406]
 [question:AF417]
 
-Ein Pi-Filter kann Impedanzen an dessen Ein- und Ausgang durch das Verhältnis der beiden Kapazitäten anpassen. Die Spule des PI-Filters definiert zusammen mit den beiden Kapazitäten die Auslegungsfrequenz des Filters. Das PI-Filter unterdrückt gleichzeitig durch seinen Tiefpass-Charakter unerwünschte Oberwellen des Sendesignals.
+Un filtro Pi può adattare le impedenze ai suoi ingressi e uscite tramite il rapporto tra le due capacità. La bobina del filtro PI, insieme alle due capacità, definisce la frequenza di progettazione del filtro. Il filtro PI sopprime contemporaneamente le armoniche indesiderate del segnale trasmesso grazie al suo carattere di filtro passa-basso.
 
 [question:AF405]
 
-Ein ähnliche Funktion hat eine LC-Schaltung hinter einem HF-Leistungsverstärker. Auch diese dient der Impedanzanpassung und gleichzeitiger Unterdrückung von Oberwellen.
+Un circuito LC simile dietro un amplificatore di potenza RF ha una funzione analoga. Serve anche per l'adattamento di impedenza e la soppressione simultanea delle armoniche superiori.
 
 [question:AF404]
 
-Der Wirkungsgrad eine HF-Leistungsverstärkers wird definiert durch das Verhältnis der vom Leistungsverstärker abgegebenen HF-Ausgangsleistung und der dem Verstärker zugeführten Gleichstrom-Versorgungsleistung.
+Il rendimento di un amplificatore di potenza RF è definito dal rapporto tra la potenza d'uscita RF erogata dall'amplificatore di potenza e la potenza di alimentazione in corrente continua fornita all'amplificatore.
 
 [question:AF401]
 
-Die aktiven Elemente in einem Leistungsverstärker benötigen neben der erforderlichen Betriebsspannung auch eine gleichspannungsmäßige Einstellung des Arbeitspunktes (BIAS). Dieser Arbeitspunkt wird üblicherweise durch Spannungsteiler erzeugt die aus einer stabilisierten Hilfsspannung, durch Verwendung von Trimmpotentiometern für eine optimale Einstellung, die gewünschte BIAS-Spannung an den Elementen erzeugen.
-Bei Betrachtung der BIAS-Spannung und deren Auswirkungen auf die Elemente der Schaltung ist die Schaltung nur gleichspannungsmäßig zu betrachten. Hierbei werden Kondensatoren als Elemente, die nur Wechselspannungen übertragen können, ignoriert.
-Wicklungen von Transformatoren sowie Spulen werden bei der gleichspannungsmäßigen Betrachtung als Kurzschluss gesehen.
+Gli elementi attivi in un amplificatore di potenza richiedono, oltre alla tensione di servizio necessaria, anche una regolazione in corrente continua del punto di funzionamento (BIAS). Questo punto di funzionamento viene solitamente generato da partitori di tensione che, utilizzando una tensione ausiliaria stabilizzata e potenziometri per una regolazione ottimale, producono la tensione BIAS desiderata sugli elementi.
+Considerando la tensione BIAS e i suoi effetti sugli elementi del circuito, il circuito deve essere considerato solo in termini di corrente continua. In questo caso, i condensatori, come elementi che possono trasmettere solo tensioni alternate, vengono ignorati.
+Gli avvolgimenti dei trasformatori e le bobine sono visti come cortocircuiti nella considerazione in corrente continua.
 
 [question:AF420]
 [question:AF423]
 [question:AF424]
 
-%TODO Fragennummern fixen
-%TODO doe Frage 2373 bräuchte eine genauerer Erklärung wie man auf die 3.5 V kommt (370||6800 = 350).
+%TODO Correggere i numeri delle domande
+%TODO La domanda 2373 richiederebbe una spiegazione più precisa su come si ottengono i 3,5 V (370||6800 = 350).
 
-Die Berechnung der BIAS-Spannung bei gegebener Schaltung (Frage AF421) erfolgt durch Anwendung des Ohmschen-Gesetzes unter Berücksichtigung von Parallel- und Serienschaltung von Widerständen. Wichtig bei der Betrachtung der Frage ist, dass die Gate-Anschlüsse der Transistoren Kapazitäten darstellen und somit bei gleichspannungsmäßiger Betrachtung vernachlässigbar sind.
+Il calcolo della tensione BIAS per un dato circuito (domanda AF421) avviene applicando la legge di Ohm tenendo conto del collegamento in parallelo e in serie delle resistenze. È importante notare nella considerazione della domanda che i terminali di gate dei transistor rappresentano capacità e quindi sono trascurabili nella considerazione in corrente continua.
 
 [question:AF421]
 
-Bei Leistungsverstärkern ist es wichtig die einzelnen Stufen HF-Mäßig von der Betriebsspannung bestmöglich zu entkoppeln um Rückwirkungen auf andere Stufen zu vermeiden (Schwingneigung, Modulationseffekte etc.). Dazu werden die Betriebsspannungs-Zuführungen der einzelnen Stufen mit in Serie geschalteten Induktivitäten sowie Abblock-Kondensatoren nach Masse gegeneinander entkoppelt. Diese Anordnung stellt einen Tiefpass dar, da im Idealfall nur die gewünschte DC-Betriebsspannung durchgelassen wird, HF-Anteile jedoch abgeblockt werden.
+Negli amplificatori di potenza è importante disaccoppiare al meglio gli singoli stadi dalla tensione di servizio in termini di RF per evitare retroazioni su altri stadi (tendenza all'oscillazione, effetti di modulazione, ecc.). A tale scopo, le alimentazioni di tensione di servizio dei singoli stadi vengono disaccoppiate reciprocamente mediante induttanze collegate in serie e condensatori di blocco verso massa. Questa disposizione rappresenta un filtro passa-basso, poiché idealmente viene fatta passare solo la tensione di servizio DC desiderata, mentre le componenti RF vengono bloccate.
 
 [question:AF411]
 [question:AF419]
 [question:AF418]
 [question:AF422]
 
-Die HF-Eigenschaften realer Kondensatoren sind frequenzabhängig. Große Kapazitäten wie Elektrolytkondensatoren können nur bei niedrigen Frequenzen eingesetzt werden und sind im HF-Bereich nur bedingt wirksam. Um auch höhere Frequenzen durch Kondensatoren abzublocken verwendet man häufig eine Kombination aus unterschiedlichen Kondensator-Typen und Kapazitäts-Werten, die zusammen einen größeren Frequenzbereich abblocken können.
+Le caratteristiche RF dei condensatori reali dipendono dalla frequenza. Grandi capacità come i condensatori elettrolitici possono essere utilizzati solo a basse frequenze e sono efficaci solo in misura limitata nel campo RF. Per bloccare anche frequenze più elevate tramite condensatori, si utilizza spesso una combinazione di diversi tipi di condensatori e valori di capacità, che insieme possono bloccare una gamma di frequenze più ampia.
 
 [question:AF415]
 
-Um die Gesamtverstärkung eines mehrstufigen Leistungsverstärkers zu ermitteln muss die Differenz zwischen Ausgangs- und Eingangsleistung durch vorzeichenrichtige Subtraktion der dBm-Werte vorgenommen werden. Beispiel: Eingangsleistung $\qty{-5}{\dBm}$, Ausgangsleistung $\qty{20}{\dBm}$ ergibt eine Gesamtverstärkung von $\qty{25}{\dB}$ ($\qty{20}{\dBm} - (\qty{-5}{\dBm}) = \qty{25}{\dB}$)
+Per determinare l'amplificazione totale di un amplificatore di potenza a più stadi, la differenza tra potenza d'uscita e potenza d'ingresso deve essere calcolata sottraendo i valori dBm con segno corretto. Esempio: potenza d'ingresso $\qty{-5}{\dBm}$, potenza d'uscita $\qty{20}{\dBm}$ dà un'amplificazione totale di $\qty{25}{\dB}$ ($\qty{20}{\dBm} - (\qty{-5}{\dBm}) = \qty{25}{\dB}$)
 
 [question:AF428]

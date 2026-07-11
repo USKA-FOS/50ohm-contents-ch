@@ -1,19 +1,19 @@
 <left>
-[photo:299:StepUpDownWandler: Abwärts- (Buck) Aufwärts- (Boost) Wandler]
+[photo:299:StepUpDownWandler: Convertitore Buck (step-down) e Boost (step-up)]
 </left>
 <right>
-* Wandelt Gleichspannungen um $\rightarrow$ DC/DC-Wandler
-* z.B. von $\qty{13,8}{\volt}$ auf $\qty{5}{\volt}\rightarrow$ Step-DOWN (Tiefsetzsteller)
-* z.B. von $\qty{12}{\volt}$ auf $\qty{19}{\volt}\rightarrow$ Step-UP (Hochsetzsteller)
+* Converte tensioni continue $\rightarrow$ convertitore DC/DC
+* ad es. da $\qty{13,8}{\volt}$ a $\qty{5}{\volt}\rightarrow$ Step-DOWN (riduttore)
+* ad es. da $\qty{12}{\volt}$ a $\qty{19}{\volt}\rightarrow$ Step-UP (elevatore)
 </right>
 <note>
-Der Buck-Boost Converter im Bild kann von 0,5V bis 25V am Ausgang eingestellt werden. Die maximale Leistung beträgt 25W.
+Il convertitore Buck-Boost nell'immagine può essere impostato da 0,5V a 25V in uscita. La potenza massima è di 25W.
 </note>
 ---
-### Wirkungsgrad
+### Rendimento
 
-* Es entstehen Verluste durch die Bauteile in der Schaltung
-* Wirkungsgrad $\eta$, meistens in $\%$ angegeben
+* Si verificano perdite dovute ai componenti nel circuito
+* Rendimento $\eta$, solitamente indicato in %
 
 <fragment>
 $\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}}$
@@ -22,12 +22,12 @@ $\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}}$
 ---
 [question:AB213]
 ---
-#### Lösungsweg
-* gegeben: $U_{\textrm{in}} = \qty{12}{\volt}$
-* gegeben: $U_{\textrm{out}} = \qty{5}{\volt}$
-* gegeben: $I_{\textrm{in}} = \qty{2}{\ampere}$
-* gegeben: $I_{\textrm{out}} = \qty{3}{\ampere}$
-* gesucht: $\eta$
+#### Percorso di soluzione
+* dato: $U_{\textrm{in}} = \qty{12}{\volt}$
+* dato: $U_{\textrm{out}} = \qty{5}{\volt}$
+* dato: $I_{\textrm{in}} = \qty{2}{\ampere}$
+* dato: $I_{\textrm{out}} = \qty{3}{\ampere}$
+* cercato: $\eta$
 
 <fragment>
 $\begin{split} \eta &= \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}} = \frac{U_{\mathrm{out}} \cdot I_{\mathrm{out}}}{U_{\mathrm{in}} \cdot I_{\mathrm{in}}}\\ &= \frac{\qty{5}{\volt} \cdot \qty{3}{\ampere}}{\qty{12}{\volt} \cdot \qty{2}{\ampere}} = \frac{\qty{15}{\watt}}{\qty{24}{\watt}} = \num{0,625} = \qty{62,5}{\percent} \end{split}$
@@ -35,11 +35,11 @@ $\begin{split} \eta &= \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}} = \frac{U_{\math
 ---
 [question:AB214]
 ---
-* gegeben: $U_{\mathrm{in}} = \qty{5}{\volt}$
-* gegeben: $U_{\mathrm{out}} = \qty{12}{\volt}$
-* gegeben: $I_{\mathrm{in}} = \qty{3}{\ampere}$
-* gegeben: $I_{\mathrm{out}} = \qty{1}{\ampere}$
-* gesucht: $\eta$
+* dato: $U_{\mathrm{in}} = \qty{5}{\volt}$
+* dato: $U_{\mathrm{out}} = \qty{12}{\volt}$
+* dato: $I_{\mathrm{in}} = \qty{3}{\ampere}$
+* dato: $I_{\mathrm{out}} = \qty{1}{\ampere}$
+* cercato: $\eta$
 
 <fragment>
 $\begin{split} \eta &= \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}} = \frac{U_{\mathrm{out}} \cdot I_{\mathrm{out}}}{U_{\mathrm{in}} \cdot I_{\mathrm{in}}}\\ &= \frac{\qty{12}{\volt} \cdot \qty{1}{\ampere}}{\qty{5}{\volt} \cdot \qty{3}{\ampere}} = \frac{\qty{12}{\watt}}{\qty{15}{\watt}} = \num{0,8} = \qty{80}{\percent} \end{split}$

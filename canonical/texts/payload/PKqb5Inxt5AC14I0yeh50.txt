@@ -1,13 +1,13 @@
-## Funktionsweise eines Stehwellenmessgeräts
+## Funzionamento di un misuratore di onde stazionarie
 
 <left>
-[picture:499:a_stehwellenmessgeraet:Schaltung eines Stehwellenmessgeräts]
+[picture:499:a_stehwellenmessgeraet:Schema di un misuratore di onde stazionarie]
 </left>
 <right>
-* Koppelt einen Teil der vorlaufenden Leistung  
-* Koppelt einen Teil der rücklaufenden Leistung  
-* Anzeige über eine geeignete Skala (z. B. Kreuzzeigerinstrument)  
-* Ablesen des Stehwellenverhältnisses
+* Accoppia una parte della potenza in avanti  
+* Accoppia una parte della potenza riflessa  
+* Visualizzazione tramite una scala appropriata (ad es. strumento a croce)  
+* Lettura del rapporto d’onda stazionaria
 </right>  
 
 ---  
@@ -17,19 +17,19 @@
 [question:AI402]
 
 ---  
-### Stehwellen- und Impedanzverhältnis  
+### Rapporto d’onda stazionaria e rapporto di impedenza  
 
-* Stehwellenverhältnis entspricht dem Impedanzverhältnis  
-* Gilt bei Last mit rein wirkwiderstandlicher Komponente  
-* Wichtiger Merksatz für die folgende Frage  
+* Il rapporto d’onda stazionaria corrisponde al rapporto di impedenza  
+* Valido per carichi con componente puramente resistiva  
+* Importante promemoria per la domanda successiva  
 
 ---  
 [question:AI403]
 ---
-#### Lösungsweg
-* gegeben: $R_2 = \qty{150}{\ohm}$
-* gegeben: $Z = \qty{50}{\ohm}$
-* gesucht: $s$
+#### Percorso di soluzione
+* dato: $R_2 = \qty{150}{\ohm}$
+* dato: $Z = \qty{50}{\ohm}$
+* cercato: $s$
 
 <fragment>
 $s = \frac{R_2}{Z} = \frac{\qty{150}{\ohm}}{\qty{50}{\ohm}} = 3$

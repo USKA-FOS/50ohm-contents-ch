@@ -1,32 +1,32 @@
-Bereits aus der Klasse-N-Ausbildung ist die Grundfunktion der Diode bekannt: sie lässt Strom nur in einer Richtung fließen, nämlich wenn die an der Anode anliegende Spannung ($U_a$) größer ist als die Spannung an der Kathode ($U_k$), vgl. Abbildung [ref:e_diode_u_i].
+Dalla formazione di Classe N è già nota la funzione base della diodo: essa fa scorrere la corrente in una sola direzione, cioè quando la tensione applicata all'anodo ($U_a$) è maggiore della tensione al catodo ($U_k$), vedi figura [ref:e_diode_u_i].
 
 <margin>
-[picture:859:e_diode_u_i:Spannungen und Strom an einer Diode mit Vorwiderstand]
+[picture:859:e_diode_u_i:Tensioni e corrente su un diodo con resistenza in serie]
 </margin>
 
-Mathematisch können wir diese Forderung so schreiben:
+Matematicamente possiamo scrivere questa condizione come:
 
 $U_d = U_a - U_k > 0$
 
-Ist allerdings $U_d$ nur ein ganz wenig größer als 0, fließt noch kein merkbarer Strom. Das liegt an der *exponentiellen Kennlinie* einer Diode. Der Diodenstrom ist nämlich:
+Tuttavia, se $U_d$ è solo leggermente maggiore di 0, non scorre ancora alcuna corrente apprezzabile. Ciò è dovuto alla *caratteristica esponenziale* di un diodo. La corrente del diodo è infatti:
 
 $I_d = I_S \left(e^{\frac{U_d}{U_T}}-1\right)$
 
-$e$ ist die sogenannte Euler'sche Zahl ($e\approx 2,718$), $U_T$ eine Konstante, die bei Raumtemperatur etwa $\qty{26}{\milli\volt}$ beträgt.
+$e$ è il cosiddetto numero di Eulero ($e\approx 2,718$), $U_T$ una costante che a temperatura ambiente è di circa $\qty{26}{\milli\volt}$.
 
-$I_S$ ist hier der *Sperrsättigungsstrom*, das ist der sehr kleine Strom, der bei negativen Spannungen durch die Diode fließt. Der Wert von $I_S$ hängt neben ein paar Parametern der Diode, wie der Diodenfläche, vor allem auch vom verwendeten Halbleitermaterial ab. Bei Materialien wie Germanium (Ge) mit einer geringen *Energiebandlücke* (darauf gehen wir in der Ausbildung zur Klasse A näher ein) ist $I_S$ größer, bei Materialien mit größerer Energiebandlücke ist $I_S$ kleiner. 
+$I_S$ è qui la *corrente di saturazione inversa*, cioè la corrente molto piccola che scorre attraverso il diodo a tensioni negative. Il valore di $I_S$ dipende, oltre ad alcuni parametri del diodo, come l'area del diodo, soprattutto dal materiale semiconduttore utilizzato. Per materiali come il germanio (Ge) con una piccola *banda proibita* (ne parleremo più in dettaglio nella formazione di Classe A), $I_S$ è maggiore, mentre per materiali con una banda proibita più grande, $I_S$ è minore.
 
 <margin>
-[picture:861:e_diode_kennlinie_iu:Kennline einer Diode]
+[picture:861:e_diode_kennlinie_iu:Caratteristica di un diodo]
 </margin>
 
 [question:EC501]
 
-Betrachten wir eine Diodenkennlinie in Abbildung [ref:e_diode_kennlinie_iu], so steigt der Diodenstrom bei positiven $U_d$ ab einer gewissen Spannung steil an. Diese Spannung wird auch als *Schwellspannung* $U_{th}$ bezeichnet, sie ist aber nur Ausdruck der unterschiedlichen $I_S$: je kleiner $I_S$, desto höher ist die Schwellspannung. 
+Considerando la caratteristica di un diodo nella figura [ref:e_diode_kennlinie_iu], la corrente del diodo aumenta ripidamente a $U_d$ positivi a partire da una certa tensione. Questa tensione è chiamata anche *tensione di soglia* $U_{th}$, ma è solo un'espressione delle diverse $I_S$: minore è $I_S$, maggiore è la tensione di soglia.
 
-Als Anhaltspunkte für die Schwellspannung von pn-Dioden können wir für Ge etwa $\qtyrange{0,2}{0,3}{\volt}$ und für Si etwa $\qtyrange{0,6}{0,7}{\volt}$ angeben.
+Come indicazioni per la tensione di soglia dei diodi pn, possiamo indicare per Ge circa $\qtyrange{0,2}{0,3}{\volt}$ e per Si circa $\qtyrange{0,6}{0,7}{\volt}$.
 
-*Leuchtdioden* (LEDs) sind ebenfalls pn-Dioden, bei denen das Halbleitermaterial so beschaffen ist, dass es bei Polung der Diode in Flussrichtung Licht aussendet. Das geht nur mit bestimmten Materialien - mit Si und Ge nicht. Die Farbe des Lichts ist durch die Energiebandlücke gegeben. Je größer die Energiebandlücke, desto kurzwelliger das Licht, um so geringer der Sperrsättigungsstrom, und daher um so höher die Schwellspannung. Daher haben rote LEDs etwa $\qty{1,7}{\volt}$ Schwellspannung und grüne LEDs $\qty{2,5}{\volt}$. Die verschienden Kennlinien sind in der Abbildung [ref:e_diode_kennlinien] dargestellt.
+I *diodi a emissione luminosa* (LED) sono anch'essi diodi pn, in cui il materiale semiconduttore è tale da emettere luce quando il diodo è polarizzato in direzione diretta. Ciò è possibile solo con determinati materiali, non con Si e Ge. Il colore della luce è determinato dalla banda proibita. Maggiore è la banda proibita, minore è la lunghezza d'onda della luce, minore è la corrente di saturazione inversa e quindi maggiore è la tensione di soglia. Pertanto, i LED rossi hanno una tensione di soglia di circa $\qty{1,7}{\volt}$ e i LED verdi di $\qty{2,5}{\volt}$. Le diverse caratteristiche sono mostrate nella figura [ref:e_diode_kennlinien].
 
 [question:EC513]
 [question:EC510]
@@ -37,7 +37,7 @@ Als Anhaltspunkte für die Schwellspannung von pn-Dioden können wir für Ge etw
 ---
 
 <margin>
-[picture:858:e_diode_kennlinien:Kennlinen verschiedener Dioden]
+[picture:858:e_diode_kennlinien:Caratteristiche di diversi diodi]
 </margin>
 
 
@@ -46,7 +46,7 @@ Als Anhaltspunkte für die Schwellspannung von pn-Dioden können wir für Ge etw
 [question:EC507]
 [question:EC508]
 
-Da LEDs in Flussrichtung betrieben werden, ist es wichtig, einen Widerstand $R_V$ zwischen Spannungsquelle $U$ und LED zu schalten. $R_V$ stellt den erwünschten Strom $I$ ein. Dabei ist die Schwellspannung $U_{th}$ der LED zu berücksichtigen:
+Poiché i LED vengono utilizzati in direzione diretta, è importante collegare una resistenza $R_V$ tra la fonte di tensione $U$ e il LED. $R_V$ imposta la corrente desiderata $I$. Bisogna tenere conto della tensione di soglia $U_{th}$ del LED:
 
 $ I=\frac{U-U_{th}}{R_V}$
 
@@ -56,20 +56,20 @@ $ I=\frac{U-U_{th}}{R_V}$
 
 ---
 
-In unserem einfachen Modell fließt für negative $U_d$ nur ein geringer Sperrstrom. Das stimmt aber nicht für sehr negative Spannungen. Irgendwann wird das elektrische Feld über der Verarmungszone zwischen n und p zu hoch und die Diode "bricht durch", der Strom in Rückwärtsrichtung steigt extrem stark an, wie in Abbildung [ref:n_diode_kennlinie_uz] gezeigt.
+Nel nostro modello semplificato, per $U_d$ negativi scorre solo una piccola corrente inversa. Tuttavia, ciò non è vero per tensioni molto negative. Ad un certo punto, il campo elettrico attraverso la zona di svuotamento tra n e p diventa troppo elevato e il diodo "va in breakdown", la corrente in direzione inversa aumenta drasticamente, come mostrato nella figura [ref:n_diode_kennlinie_uz].
 
-Dieser *Sperrdurchbruch* kann verschiedene physikalische Ursachen haben, die wir hier nicht im Detail behandeln können. Die Spannung, bei der dieser Durchbruch passiert, wird gemeinhin als *Zener-Spannung* $U_z$ bezeichnet, auch wenn der Zener-Effekt (ein quantenmechanischer Tunneleffekt) nur ein möglicher Durchbruchmechanismus ist. *Zenerdioden* werden zur Spannungsstabilisierung verwendet. Dabei ist es wichtig, den Durchbruchstrom durch einen Vorwiderstand zu begrenzen. 
+Questo *breakdown in senso inverso* può avere diverse cause fisiche, che non possiamo trattare qui in dettaglio. La tensione alla quale si verifica questo breakdown è comunemente chiamata *tensione Zener* $U_z$, anche se l'effetto Zener (un effetto tunnel quantomeccanico) è solo uno dei possibili meccanismi di breakdown. I *diodi Zener* vengono utilizzati per la stabilizzazione della tensione. È importante limitare la corrente di breakdown tramite una resistenza in serie.
 
 <margin>
-[picture:862:n_diode_kennlinie_uz:Kennline einer Z-Diode]
+[picture:862:n_diode_kennlinie_uz:Caratteristica di un diodo Z]
 </margin>
 
 ---
 
-Das Schaltsymbol einer Zenerdiode (Abbildung [ref:e_zener_symbol]) ist das einer regulären Diode, bei der der Kathodenstrich eine zusätzliche Fortsetzung unter $\qty{90}{\degree}$ erhält. Dies soll an das "Abknicken" der Kennlinie im Durchbruch erinnern.
+Il simbolo circuitale di un diodo Zener (figura [ref:e_zener_symbol]) è quello di un diodo normale, in cui la linea del catodo presenta un'ulteriore estensione a $\qty{90}{\degree}$. Questo dovrebbe ricordare la "piegatura" della caratteristica nel breakdown.
 
 <margin>
-[picture:860:e_zener_symbol:Schaltsymbol einer Zenerdiode]
+[picture:860:e_zener_symbol:Simbolo circuitale di un diodo Zener]
 </margin>
 
 
@@ -79,22 +79,22 @@ Das Schaltsymbol einer Zenerdiode (Abbildung [ref:e_zener_symbol]) ist das einer
 [question:EC521]
 [question:EC522]
 
-Die bisher behandelten Dioden waren alle *pn-Dioden*, die Diodeneigenschaft entsteht durch einen Halbleiterübergang. Bei der *Schottky-Diode* handelt es sich um eine Diode, deren Eigenschaften durch einen Metall-Halbleiter-Übergang entstehen. Die Schwellspannung ist etwa halb so groß wie die einer pn-Diode aus dem selben Material, oder kleiner, abhängig von der genauen Gestaltung des Metall-Halbleiter-Übergangs. Schottky-Dioden werden eingesetzt, wenn die Schwellspannung gering sein soll, oder aber als sehr schnelle Schaltdioden.  
+I diodi trattati finora erano tutti *diodi pn*, la proprietà di diodo deriva da una giunzione semiconduttrice. Il *diodo Schottky* è un diodo le cui proprietà derivano da una giunzione metallo-semiconduttore. La tensione di soglia è circa la metà di quella di un diodo pn dello stesso materiale, o inferiore, a seconda della precisa configurazione della giunzione metallo-semiconduttore. I diodi Schottky vengono utilizzati quando si desidera una bassa tensione di soglia, o come diodi di commutazione molto veloci.
 
 [question:EC504]
 [question:EC505]
 
 <margin>
-Metall-Halbleiter-Dioden sind die ältesten Gleichrichterbauelemente auf Halbleiterbasis. Ferdinand Braun entdeckte ihren Gleichrichtereffekt bereits 1874, ohne aber seine Beobachtung erklären zu können.
+I diodi metallo-semiconduttore sono i più antichi componenti raddrizzatori a base semiconduttrice. Ferdinand Braun scoprì il loro effetto raddrizzatore già nel 1874, senza però poter spiegare la sua osservazione.
 </margin>
 
-Fassen wir zusammen:
+Riassumendo:
 
-Dioden lassen Strom nur einer Richtung fließen. Daher eignen sie sich zur Gleichrichtung von Wechselstrom.
+I diodi fanno scorrere la corrente in una sola direzione. Pertanto, sono adatti per la rettifica della corrente alternata.
 
-Bei hohen Sperrspannungen allerdings ($U_d < U_z$), steigt der Strom in Rückwärtsrichtung stark an. Dieser Betriebspunkt kann sehr gut zur Spannungsstabilisierung genutzt werden (*Zenerdiode*).
+Tuttavia, a tensioni inverse elevate ($U_d < U_z$), la corrente in direzione inversa aumenta drasticamente. Questo punto di funzionamento può essere utilizzato molto bene per la stabilizzazione della tensione (*diodo Zener*).
 
-Daneben lassen sie sich in Sperrrichtung auch als spannungsgesteuerte Kapazitäten verwenden, dies werden wir aber erst in der Ausbildung zur Klasse A behandeln. 
+Inoltre, possono essere utilizzati come capacità controllate dalla tensione in direzione inversa, ma ciò verrà trattato solo nella formazione di Classe A.
 
 [question:EC502]
 [question:EC518]

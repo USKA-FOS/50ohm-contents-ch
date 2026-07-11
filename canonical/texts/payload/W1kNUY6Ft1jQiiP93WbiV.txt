@@ -1,12 +1,12 @@
-# Gegeben
-* Baken-Frequenz: $f_\text{Baken} = \qty{144,4}{\mega\hertz}$
-* SSB-Bandbreite: $f_{B,max} = \qty{2,7}{\kilo\hertz}$
-* Genauigkeit: $\qty{1}{\ppm}$
+# Dato
+* Frequenza dei fari: $f_\text{fari} = \qty{144,4}{\mega\hertz}$
+* Larghezza di banda SSB: $f_{B,max} = \qty{2,7}{\kilo\hertz}$
+* Precisione: $\qty{1}{\ppm}$
 
-# Vorüberlegung
-Der Abstand ($f_\text{Abstand}$) zur Baken-Frequenz ($f_\text{Baken}$) setzt sich aus der SSB-Bandbreite ($f_{B,max}$) und dem (Sicherheits-)Abstand ($\Delta f$) aufgrund der Ungenauigkeit von $\qty{1}{\ppm}$ zusammen. $\unit{ppm}$ steht für *parts per million*, $\qty{1}{\ppm}$ bedeutet also $1$ pro $10^6$. 
+# Riflessione preliminare
+La distanza ($f_\text{distanza}$) dalla frequenza dei fari ($f_\text{fari}$) è composta dalla larghezza di banda SSB ($f_{B,max}$) e dalla distanza (di sicurezza) ($\Delta f$) dovuta all'imprecisione di $\qty{1}{\ppm}$. $\unit{ppm}$ sta per *parts per million*, quindi $\qty{1}{\ppm}$ significa $1$ su $10^6$.
 
-# Lösungsweg
+# Percorso di soluzione
 $\Delta f = \qty{144,4}{\mega\hertz} \cdot \frac{1}{10^6} = \qty{144,4 \cdot \cancel{10^6}}{\hertz}\frac{1}{\cancel{10^6}} = \qty{144,4}{\hertz}= \qty{0,1444}{\kilo\hertz}$
 
-$f_\text{Abstand} = f_{B,max} + \Delta f = \qty{2,7}{\kilo\hertz} + \qty{0,1444}{\kilo\hertz} = \qty{2,8444}{\kilo\hertz}$
+$f_\text{distanza} = f_{B,max} + \Delta f = \qty{2,7}{\kilo\hertz} + \qty{0,1444}{\kilo\hertz} = \qty{2,8444}{\kilo\hertz}$

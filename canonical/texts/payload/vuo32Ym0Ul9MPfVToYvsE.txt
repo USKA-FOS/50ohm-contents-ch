@@ -1,12 +1,12 @@
-## Frequenzmessung bei Empfängern
+## Misurazione della frequenza nei ricevitori
 
-* Empfangsfrequenz lässt sich meist nicht direkt messen, da kein Messpunkt vorhanden ist  
-* Zum Überprüfen wird ein genauer Oszillator oder Frequenzgenerator an die Antennenbuchse angeschlossen  
-* Vergleich der Generatorfrequenz mit der Empfängeranzeige  
-* GPS-synchronisierte Oszillatoren/OCXOs bieten höhere Genauigkeit
+* La frequenza di ricezione di solito non può essere misurata direttamente, poiché non è presente un punto di misurazione.
+* Per il controllo, un oscillatore preciso o un generatore di frequenza viene collegato alla presa dell'antenna.
+* Confronto della frequenza del generatore con l'indicazione del ricevitore.
+* Gli oscillatori/OCXO sincronizzati con GPS offrono una maggiore precisione.
 
 <note>
-Ein direkt angeschlossener Frequenzgenerator kann einen Empfängereingang leicht beschädigen. Im Zweifelsfall sollte die Messung mit der niedrigsten Spannung des Generators und einem Dämpfungsglied begonnen werden.
+Un generatore di frequenza collegato direttamente può danneggiare leggermente l'ingresso di un ricevitore. In caso di dubbio, la misurazione dovrebbe iniziare con la tensione più bassa del generatore e un attenuatore.
 </note>
 
 ---
@@ -19,14 +19,14 @@ Ein direkt angeschlossener Frequenzgenerator kann einen Empfängereingang leicht
 
 ---
 
-## Frequenzmessung bei Sendern
+## Misurazione della frequenza nei trasmettitori
 
-* Frequenzmessung bei Sendern ist einfacher  
-* Frequenzzähler wird über ein Dämpfungsglied an die Antennenbuchse angeschlossen  
-* Messung sinnvoll nur bei unmoduliertem Träger
+* La misurazione della frequenza nei trasmettitori è più semplice.
+* Un frequenzimetro viene collegato alla presa dell'antenna tramite un attenuatore.
+* La misurazione ha senso solo con una portante non modulata.
 
 <note>
-SSB-Sender erzeugen ohne Modulation kein Signal. Um ihre Sendefrequenz zu messen, kann man ein Audiosignal mit bekannter Frequenz in die Mikrofonbuchse einspeisen. Bei USB wird die Audiofrequenz vom Messwert des Frequenzzählers am Senderausgang abgezogen, bei LSB addiert.
+I trasmettitori SSB non generano alcun segnale senza modulazione. Per misurare la loro frequenza di trasmissione, si può immettere un segnale audio di frequenza nota nella presa del microfono. Con USB, la frequenza audio viene sottratta dal valore misurato del frequenzimetro all'uscita del trasmettitore, con LSB viene aggiunta.
 </note>
 
 ---
@@ -39,7 +39,7 @@ SSB-Sender erzeugen ohne Modulation kein Signal. Um ihre Sendefrequenz zu messen
 
 ---
 
-* Die Frequenzmessung mittels Oszilloskop ist nur ein Notbehelf, da diese Geräte selten eine so genaue Zeitbasis wie Frequenzzähler haben.
+* La misurazione della frequenza tramite oscilloscopio è solo un rimedio di emergenza, poiché questi strumenti hanno raramente una base dei tempi così precisa come i frequenzimetri.
 
 ---
 
@@ -47,11 +47,11 @@ SSB-Sender erzeugen ohne Modulation kein Signal. Um ihre Sendefrequenz zu messen
 
 ---
 
-* Einfache Frequenzzähler arbeiten fast immer mit einer sogenannten *Torzeit*  
-* Das Gerät schaltet den Eingang für eine bestimmte Zeit ein, zählt die Perioden und berechnet daraus die Frequenz  
-* Eine Torzeit von $\qty{1}{\second}$ liefert direkt die Frequenz in $\unit{\hertz}$  
-* Kurze Torzeit: schnelle Aktualisierung
-* Lange Torzeit: höhere Messgenauigkeit
+* I semplici frequenzimetri lavorano quasi sempre con un cosiddetto *tempo di gate*.
+* Lo strumento accende l'ingresso per un tempo definito, conta i periodi e calcola la frequenza da essi.
+* Un tempo di gate di $\qty{1}{\second}$ fornisce direttamente la frequenza in $\unit{\hertz}$.
+* Tempo di gate breve: aggiornamento rapido.
+* Tempo di gate lungo: maggiore precisione di misurazione.
 
 ---
 

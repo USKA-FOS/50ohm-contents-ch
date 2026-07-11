@@ -1,16 +1,16 @@
-Die Automatische Verstärkungsregelung *(Automatic-Gain-Control, kurz AGC)* sorgt in Empfängern dafür, dass das NF-Ausgangssignal (Empfangslautstärke) auch bei schwankendem HF-Eingangssignal am Empfänger (z.B. wegen Fading) nahezu konstant bleibt und Lautstärke-Schwankungen verringert werden. Hierbei wird der Empfangspegel am Ausgang des Empfängerzweigs erfasst und die HF-Verstärkung entsprechend geregelt, so dass die Empfangslautstärke nach der Demodulation hierdurch beeinflusst werden kann. Hierbei ist die AGC nicht zu verwechseln mit der ALC (Automatic-Level-Control), welche sich im Sendezweig befindet.
+La regolazione automatica del guadagno (Automatic-Gain-Control, in breve AGC) nei ricevitori assicura che il segnale di uscita in bassa frequenza (volume di ricezione) rimanga quasi costante anche in presenza di fluttuazioni del segnale di ingresso in alta frequenza del ricevitore (ad esempio, a causa del fading) e che le variazioni di volume vengano ridotte. A tal fine, il livello di ricezione all'uscita del ramo del ricevitore viene rilevato e il guadagno in alta frequenza viene regolato di conseguenza, in modo da poter influenzare il volume di ricezione dopo la demodulazione. L'AGC non deve essere confuso con l'ALC (Automatic-Level-Control), che si trova nel ramo di trasmissione.
 
 <margin>
-[picture:1055:e_agc:AGC im Überlagerungsempfänger]
+[picture:1055:e_agc:AGC nel ricevitore supereterodina]
 </margin>
 
 ---
 
-Die AGC kann, je nach Empfängerausstattung, bzgl. Ihres Ansprechverhaltens (Ansprechzeit, Abfallzeit) angepasst werden. Übliche Bezeichnungen hierfür sind AGC Slow, AGC Normal, AGC Fast, welche das zeitliche Ansprechverhalten skizzieren. Die Einstellung AGC-Slow oder Normal ist hierbei normalerweise für SSB-Betrieb sinnvoll. Bei Betrieb in Telegrafie (CW) ist normalerweise die Einstellung AGC-Fast oder Normal sinnvoll, damit hierbei starke Signale nicht schwache Signale überdecken können und die Regelung schnell nachführt. Für digitale Übertragungsverfahren kann es ggf. sinnvoll sein die AGC zu deaktivieren.
+L'AGC può essere adattato, a seconda dell'equipaggiamento del ricevitore, per quanto riguarda il suo comportamento di risposta (tempo di risposta, tempo di decadimento). Denominazioni comuni per questo sono AGC Slow, AGC Normal, AGC Fast, che delineano il comportamento di risposta temporale. L'impostazione AGC-Slow o Normal è solitamente sensata per il funzionamento SSB. In modalità telegrafia (CW), l'impostazione AGC-Fast o Normal è solitamente sensata, in modo che i segnali forti non possano coprire i segnali deboli e la regolazione si adatti rapidamente. Per i metodi di trasmissione digitale, può essere sensato disattivare l'AGC.
 
 [question:EF211]
 [question:EF212]
 
 <tip>
-Die AGC kann bei manchen Empfängern auch komplett deaktiviert werden. Dann ist eine Steuerung der HF-Verstärkung z.B. manuell durch Veränderung des RF-Gain-Reglers möglich. Dies ist jedoch nur für besondere Anwendungen (z.b. Übersteuerung des HF-Eingangsteils aufgrund von starken Signalen) sinnvoll, sowie ggf. für digitale Übertragungsverfahren.
+L'AGC può anche essere completamente disattivato su alcuni ricevitori. In questo caso, il controllo del guadagno in alta frequenza è possibile, ad esempio, manualmente modificando il controllo RF-Gain. Tuttavia, ciò è sensato solo per applicazioni speciali (ad es. sovraeccitazione della parte di ingresso in alta frequenza a causa di segnali forti), nonché eventualmente per metodi di trasmissione digitale.
 </tip>

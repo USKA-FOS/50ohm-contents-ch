@@ -1,29 +1,28 @@
-Gegeben sind:
+Sono dati:
 
 $ U = \qty{15}{\volt} $
 
-und
-
+e
 $ R_1 = R_2 = R_3 = \qty{10}{\kilo\ohm} $
 
-Zuerst wird der Ersatzwiderstand der Parallelschaltung aus $R_2$ und $R_3$ berechnet:
+Innanzitutto, viene calcolata la resistenza equivalente del collegamento in parallelo di $R_2$ e $R_3$:
 
 $ R_{23} = \frac{R_2 \cdot R_3}{R_2 + R_3} $
 
-Da beide Widerstände gleich groß sind, ergibt sich:
+Poiché entrambe le resistenze hanno la stessa grandezza, si ottiene:
 
 $ R_{23} = \qty{5}{\kilo\ohm} $
 
-Der Gesamtwiderstand der Schaltung beträgt damit:
+La resistenza totale del circuito è quindi:
 
 $ R_\mathrm{ges} = R_1 + R_{23} = \qty{10}{\kilo\ohm} + \qty{5}{\kilo\ohm} = \qty{15}{\kilo\ohm} $
 
-Nun kann der Gesamtstrom berechnet werden:
+Ora è possibile calcolare la corrente totale:
 
 $ I_\mathrm{ges} = \frac{U}{R_\mathrm{ges}} = \frac{\qty{15}{\volt}}{\qty{15}{\kilo\ohm}} = \qty{1}{\milli\ampere} $
 
-Dieser Strom fließt zunächst durch $R_1$ und teilt sich danach auf die beiden gleich großen Widerstände $R_2$ und $R_3$ auf.
+Questa corrente fluisce inizialmente attraverso $R_1$ e poi si divide nei due resistori di uguale grandezza $R_2$ e $R_3$.
 
-Da beide Widerstände gleich groß sind, fließt durch jeden Zweig genau die Hälfte des Gesamtstroms:
+Poiché entrambi i resistori hanno la stessa grandezza, attraverso ciascun ramo fluisce esattamente la metà della corrente totale:
 
 $ I_3 = \frac{I_\mathrm{ges}}{2} = \frac{\qty{1}{\milli\ampere}}{2} = \qty{0,5}{\milli\ampere} $

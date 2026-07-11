@@ -1,4 +1,4 @@
-Oszillatoren sind eines der wichtigsten Schaltungselemente im Amateurfunk. Sie sind sozusagen das Herz eines jeden Funkgerätes. Oszillatoren dienen der Erzeugung von hochfrequenten Schwingungen in Sendern und Empfängern. Hierbei gibt es verschiedene Möglichkeiten, Oszillatoren technisch zu realisieren.
+Gli oscillatori sono uno degli elementi circuitali più importanti nel radioamatore. Sono, per così dire, il cuore di ogni apparecchio radio. Gli oscillatori servono alla generazione di oscillazioni ad alta frequenza nei trasmettitori e nei ricevitori. Esistono diverse possibilità per realizzare tecnicamente gli oscillatori.
 
 ---
 
@@ -6,33 +6,33 @@ Oszillatoren sind eines der wichtigsten Schaltungselemente im Amateurfunk. Sie s
 [include:applet_schwingkreis]
 </margin>
 
-Die einfachste Form eines Oszillators ist der sog. *LC-Oszillator*, der als frequenzbestimmende Elemente einen Schwingkreis (bestehend aus einer Spule und einem Kondensator), welchen wir im vorherigen Kapitel kennen gelernt haben, enthält.
+La forma più semplice di un oscillatore è il cosiddetto *oscillatore LC*, che contiene come elementi determinanti della frequenza un circuito oscillante (composto da una bobina e un condensatore), che abbiamo conosciuto nel capitolo precedente.
 
 [question:ED501]
 
-LC-Oszillatoren haben den Nachteil, dass sich Ihre frequenzbestimmenden Komponenten (L und C) in Abhängigkeit von der Temperatur stark ändern können, was zu großen Frequenzabweichungen führen kann.
+Gli oscillatori LC hanno lo svantaggio che i loro componenti determinanti della frequenza (L e C) possono cambiare notevolmente in funzione della temperatura, il che può portare a grandi deviazioni di frequenza.
 
-Laut Formelsammlung ist die Formel für die Schwingungsfrequenz (Thomsonsche Schwingkreisformel):
+Secondo la raccolta di formule, la formula per la frequenza di oscillazione (formula di Thomson per circuiti oscillanti) è:
 
 $ f_0 = \frac{1}{2\pi \sqrt{L\cdot C}} $
 
-Die Frequenz eines LC-Oszillators ändert sich, wenn sich der Wert des Kondensators oder der Spule z.B. durch Temperatureinwirkung ändert. Wie Sich das auf die Frequenz auswirkt, kann man in der Formel erkennen: 
-Bei *steigender* Kapazität des Kondensators oder steigender Induktivität der Spule *verringert sich die Frequenz* des Schwingkreises. Umgekehrt *steigt die Frequenz* des Schwingkreises bei *sinkender* Kapazität oder Induktivität.
+La frequenza di un oscillatore LC cambia se il valore del condensatore o della bobina cambia, ad esempio a causa dell'influenza della temperatura. Come ciò influenzi la frequenza si può vedere dalla formula: 
+Con una capacità del condensatore o un'induttanza della bobina *in aumento*, la frequenza del circuito oscillante *diminuisce*. Viceversa, la frequenza del circuito oscillante *aumenta* con una capacità o induttanza *in diminuzione*.
 
 [question:ED503]
 [question:ED505]
 [question:ED502]
 [question:ED504]
 
-Die Geschwindigkeit der Temperaturänderung bestimmt auch die Geschwindigkeit der Frequenzänderung eines Oszillators. Hierbei ändert sich jedoch die Frequenz nicht sprunghaft, da thermische Effekte immer einer gewissen Trägheit unterliegen. Daher ändert sich die Frequenz eines Oszillators, der schwankenden Temperaturen unterworfen ist, meist langsam in die eine oder andere Richtung.
+La velocità del cambiamento di temperatura determina anche la velocità del cambiamento di frequenza di un oscillatore. Tuttavia, la frequenza non cambia bruscamente, poiché gli effetti termici sono sempre soggetti a una certa inerzia. Pertanto, la frequenza di un oscillatore sottoposto a temperature fluttuanti cambia solitamente lentamente in una direzione o nell'altra.
 
 [question:EF304]
 
-Ein wesentlich frequenzstabilerer Oszillator-Typ ist der *Quarz-Oszillator*. Hierbei wird als frequenzbestimmende Komponente ein Schwingquarz verwendet, dessen Resonanzfrequenz nur in sehr geringem Maße von dessen Temperatur abhängig ist (im Vergleich zu LC-Oszillatoren).
+Un tipo di oscillatore significativamente più stabile in frequenza è l'*oscillatore a quarzo*. Qui, un quarzo risonante viene utilizzato come componente determinante della frequenza, la cui frequenza di risonanza dipende solo in minima parte dalla sua temperatura (rispetto agli oscillatori LC).
 
 [question:ED506]
 [question:ED507]
 
-Um unerwünschte Abstrahlungen zu vermeiden, sollten Oszillatoren sowie Pufferstufen immer möglichst gut geschirmt werden. Dies kann z.B. durch den Einbau des Oszillators in ein geerdetes Metallgehäuse erfolgen.
+Per evitare irradiazioni indesiderate, gli oscillatori e gli stadi tampone dovrebbero sempre essere schermati il più possibile. Ciò può avvenire, ad esempio, installando l'oscillatore in un involucro metallico messo a terra.
 
 [question:EF207]

@@ -1,24 +1,24 @@
-Abbildung [ref:kanal] zeigt einen Sender und einen Empfänger, welche über einen Kanal miteinander verbunden sind. Beispielsweise durch das Wetter, andere atmosphärische Einflüsse oder Aussendungen anderer Stationen kann es zu Störungen auf dem Kanal kommen. Diese können zu Fehlern bei der Übertragung führen. 
+La figura [ref:kanal] mostra un trasmettitore e un ricevitore collegati tra loro tramite un canale. Ad esempio, a causa del tempo, di altre influenze atmosferiche o di trasmissioni di altre stazioni, possono verificarsi disturbi sul canale. Questi possono portare a errori nella trasmissione. 
 
 <margin>
-[picture:674:kanal:Kanal]
+[picture:674:kanal:Canale]
 </margin>
 
-Im Gegensatz zur Quellencodierung fügt die Kanalcodierung der zu übertragenden Information gezielt Redundanz hinzu, beispielsweise Wiederholungen oder Prüfsummen. Anders als die bei der Quellencodierung entfernte Redundanz kann diese systematisch hinzugefügte Redundanz zur automatischen Erkennung oder Korrektur von Übertragungsfehlern verwendet werden.
+A differenza della codifica di sorgente, la codifica di canale aggiunge ridondanza intenzionalmente all'informazione da trasmettere, ad esempio ripetizioni o checksum. A differenza della ridondanza rimossa dalla codifica di sorgente, questa ridondanza aggiunta sistematicamente può essere utilizzata per il rilevamento o la correzione automatica degli errori di trasmissione.
 
 ---
 
-Abbildung [ref:kanalcodierer] zeigt ein Symbol für einen Kanalcodierer. Der Block stellt dar, dass Redundanz den Daten hinzugefügt wird.
+La figura [ref:kanalcodierer] mostra un simbolo per un codificatore di canale. Il blocco indica che la ridondanza viene aggiunta ai dati.
 
 <margin>
-[picture:676:kanalcodierer:Kanalcodierer]
+[picture:676:kanalcodierer:Codificatore di canale]
 </margin>
 
 [question:AE409]
 
-Wir unterscheiden zwei Arten der Kanalcodierung:
+Distinguiamo due tipi di codifica di canale:
 
-* Fehlererkennung: Man kann erkennen, dass bei der Übertragung ein Fehler aufgetreten ist, und dann z. B. eine erneute Übertragung anfordern.
-* Vorwärtsfehlerkorrektur: Fehler, die bei der Übertragung entstehen, werden mit Hilfe der Redundanz beim Empfänger korrigiert. 
+* Rilevamento errori: Si può rilevare che si è verificato un errore durante la trasmissione e quindi richiedere, ad esempio, una ritrasmissione.
+* Correzione errori in avanti: Gli errori che si verificano durante la trasmissione vengono corretti dal ricevitore con l'aiuto della ridondanza. 
 
-Im Folgenden wollen wir uns diese beiden Arten genauer anschauen.
+Di seguito esamineremo più da vicino questi due tipi.

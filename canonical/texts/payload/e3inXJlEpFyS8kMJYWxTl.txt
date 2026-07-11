@@ -1,13 +1,13 @@
-Das im Empfänger hörbare Rauschen ist grundsätzlich von dessen Bandbreite abhängig und hierbei proportional zur Bandbreite des Empfängers. Verdoppelt man also die Bandbreite, verdoppelt sich auch die Rauschleistung.
+Il rumore udibile nel ricevitore dipende fondamentalmente dalla sua larghezza di banda ed è proporzionale alla larghezza di banda del ricevitore. Pertanto, se si raddoppia la larghezza di banda, anche la potenza di rumore raddoppia.
 
 [question:AB408]
 
-Um die Pegeländerung der Rauschleistung ($p_\text{r}$) bei zwei gegebenen Bandbreiten zu berechnen, verwenden wir die folgende Formel aus der Formelsammlung:
+Per calcolare la variazione di livello della potenza di rumore ($p_\text{r}$) per due larghezze di banda date, utilizziamo la seguente formula dalla raccolta di formule:
 
 $\Delta P_\text{R} = 10 \cdot \log_{10}\left(\frac{B_1}{B_2}\right)\unit{\dB}$
 
-Dabei stehen $B_1$ und $B_2$ für die beiden zu vergleichenden Empfängerbandbreiten, die zueinander ins Verhältnis gesetzt werden.
+Dove $B_1$ e $B_2$ rappresentano le due larghezze di banda del ricevitore da confrontare, messe in rapporto tra loro.
 
-Mit Hilfe dieser Formel kann die folgende Fragen beantwortet werden.
+Con l'aiuto di questa formula è possibile rispondere alla seguente domanda.
 
 [question:AB409]

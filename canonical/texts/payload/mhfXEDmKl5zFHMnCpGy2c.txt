@@ -1,9 +1,9 @@
-## Sampling: Von analog zu digital
+## Campionamento: dall'analogico al digitale
 
-* Analoge Signale werden mittels Sampling in digitale Werte umgewandelt  
-* Abtastung erfolgt in definierten Zeitintervallen – nur Momentanzustände werden gemessen  
-* Analoge Signale sind zeitkontinuierlich, da sie keine kleinste zeitliche Auflösung besitzen  
-* Digitale Samples sind zeitdiskret, da ein festes Abtastintervall existiert
+* I segnali analogici vengono convertiti in valori digitali tramite campionamento.
+* Il campionamento avviene a intervalli di tempo definiti: vengono misurati solo stati istantanei.
+* I segnali analogici sono continui nel tempo, poiché non hanno una risoluzione temporale minima.
+* I campioni digitali sono discreti nel tempo, poiché esiste un intervallo di campionamento fisso.
 
 ---
 
@@ -11,19 +11,19 @@
 
 ---
 
-## Wertkontinuität vs. Wertdiskretheit
+## Continuità di valore vs. Discretizzazione di valore
 
-* Analoge Signale können beliebige Spannungswerte annehmen – sie sind wertkontinuierlich  
-* Bei der Digitalisierung gibt es nur begrenzte Abstufungen (z. B. $\num{-128}$ bis $\num{+127}$) – Samples sind wertdiskret
-* Zwischen zwei Spannungsstufen muss der A/D-Umsetzer eine Entscheidung treffen (Quantisierung)
+* I segnali analogici possono assumere valori di tensione arbitrari: sono continui nel valore.
+* Nella digitalizzazione ci sono solo gradazioni limitate (ad es. $\num{-128}$ a $\num{+127}$): i campioni sono discreti nel valore.
+* Tra due livelli di tensione, il convertitore A/D deve prendere una decisione (quantizzazione).
 
 ---
 
-## Praktisches Beispiel: Dimmer vs. Stufenschalter
+## Esempio pratico: Dimmer vs. Interruttore a gradini
 
-* Ein analoger Dimmer erlaubt feine, stufenlose Helligkeitseinstellungen  
-* Ein Stufenschalter (z. B. $\num{5}$ Stufen) ermöglicht nur feste Helligkeitswerte – Zwischenstufen sind nicht möglich
-* Quantisierung: Auswahl der nächstpassenden Stufe, um den analogen Wert abzubilden
+* Un dimmer analogico consente regolazioni di luminosità fini e continue.
+* Un interruttore a gradini (ad es. $\num{5}$ livelli) consente solo valori di luminosità fissi: i livelli intermedi non sono possibili.
+* Quantizzazione: selezione del livello più vicino per rappresentare il valore analogico.
 
 ---
 

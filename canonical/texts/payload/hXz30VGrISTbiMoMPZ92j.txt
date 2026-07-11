@@ -1,31 +1,31 @@
-Den maximalen Abstand von der Nulllinie bis zum höchsten oder tiefsten Punkt der Wechselspannung nennt man wie in Abbildung [ref:amplitude_periode_amplitudee] dargestellt *Amplitude* [index:Schwingung:Amplitude].
+La distanza massima dalla linea dello zero al punto più alto o più basso della tensione alternata è chiamata *ampiezza*, come mostrato nella figura [ref:amplitude_periode_amplitudee].
 
 <margin>
-[picture:726:amplitude_periode_amplitudee: Amplitude einer Sinusschwingung]
+[picture:726:amplitude_periode_amplitudee: Ampiezza di un'oscillazione sinusoidale]
 </margin>
 
 [question:NB404]
 
 <tip>
-Die zeitlichen Verläufe von Schwingungen kann man gut mit einem *Oszilloskop* [index:Oszilloskop] darstellen. Auf dem Bildschirm wird waagerecht die Zeit und senkrecht die Spannung von Schwingungen angezeigt. Diese bildliche Darstellung nennt man *Oszillogramm* [index:Oszillogramm].
+I andamenti temporali delle oscillazioni possono essere ben rappresentati con un *oscilloscopio*. Sullo schermo vengono visualizzati orizzontalmente il tempo e verticalmente la tensione delle oscillazioni. Questa rappresentazione grafica è chiamata *oscillogramma*.
 </tip>
 
 ---
 
-Eine Sinusschwingung besteht aus einer positiven und einer negativen Halbwelle [index:Schwingung:Halbwelle] (Abbildung [ref:amplitude_periode_halbwellen]). Dafür benötigt die Sinusschwingung eine gewisse Zeit ($t$). Die Zeitspanne vom Beginn einer positiven Halbwelle bis zum Ende der darauffolgenden negativen Halbwelle nennt man *Periode* [index:Schwingung:Periode] oder auch Periodendauer (Abbildung [ref:amplitude_periode_perioden]). Nach Ablauf einer Periode beginnt der Vorgang von Neuem.
+Un'oscillazione sinusoidale è composta da una semionda positiva e una negativa (figura [ref:amplitude_periode_halbwellen]). Per fare ciò, l'oscillazione sinusoidale richiede un certo tempo ($t$). L'intervallo di tempo dall'inizio di una semionda positiva alla fine della semionda negativa successiva è chiamato *periodo* o durata del periodo (figura [ref:amplitude_periode_perioden]). Dopo che è trascorso un periodo, il processo ricomincia.
 
 <margin>
-[picture:727:amplitude_periode_halbwellen:Positive und negative Halbwellen einer Sinusschwingung]
+[picture:727:amplitude_periode_halbwellen: Semionde positive e negative di un'oscillazione sinusoidale]
 </margin>
 
 <margin>
-[picture:728:amplitude_periode_perioden:Perioden einer Sinusschwingung]
+[picture:728:amplitude_periode_perioden: Periodi di un'oscillazione sinusoidale]
 </margin>
 
 [include:applet_sinus_amplitude_und_periode]
 
 [question:NB405]
 
-Wie wir gerade gelernt haben, entspricht eine Periode genau einer Schwingung. Und wir erinnern uns: Eine Schwingung pro Sekunde entspricht genau $\qty{1}{\hertz}$. Kombiniert man dieses Wissen, sollte die folgende Frage beantwortbar sein.
+Come abbiamo appena appreso, un periodo corrisponde esattamente a un'oscillazione. E ricordiamo: un'oscillazione al secondo corrisponde esattamente a $\qty{1}{\hertz}$. Combinando queste conoscenze, la seguente domanda dovrebbe essere risolvibile.
 
 [question:NA213]

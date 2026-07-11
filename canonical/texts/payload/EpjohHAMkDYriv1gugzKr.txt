@@ -1,27 +1,27 @@
-% TODO neu formulieren
-% Idee DL9MJ: Beispiel mit Bild je ein Bit in I und Q und wie das Signal für 00, 01, 10, 11 aussieht
+% TODO riformulare
+% Idea DL9MJ: esempio con immagine, un bit in I e uno in Q e come appare il segnale per 00, 01, 10, 11
 
-QAM kann besonders einfach mit Hilfe von zwei Trägern derselben Frequenz erzeugt werden. Einer der beiden Träger muss dabei um $\qty{90}{\degree}$ phasenverschoben sein. Beide Träger werden dann jeweils mit einem eigenen Signal amplitudenmoduliert. Das eine Signal wird als I (für In-Phase Component) und das andere Signal als Q (für Quadrature Phase Component) bezeichnet. Der phasenverschobene Träger wird dabei mit dem Q-Signal moduliert. In Anschluss werden die beiden modulierten Träger überlagert, wobei ein Träger entsteht, der sich sowohl in der Amplitude als auch in der Phase ändert.
+La QAM può essere generata in modo particolarmente semplice utilizzando due portanti della stessa frequenza. Una delle due portanti deve essere sfasata di $\qty{90}{\degree}$. Entrambe le portanti vengono quindi modulate in ampiezza ciascuna con un proprio segnale. Un segnale viene definito I (per In-Phase Component) e l'altro segnale Q (per Quadrature Phase Component). La portante sfasata viene modulata con il segnale Q. Successivamente, le due portanti modulate vengono sovrapposte, creando una portante che cambia sia in ampiezza che in fase.
 
 <indepth>
 [include:applet_iq]
 </indepth>
   
-%TODO BILD QAM4 QAM8 oder mehr?
+%TODO IMMAGINE QAM4 QAM8 o più?
 
 [question:AE404]
 [question:AF632]
 
-Die Grundidee, ein Signal in zwei Teilen getrennt zu verarbeiten, findet auch in der digitalen Signalverarbeitung breite Anwendung. Es wird nach den beiden Teilsignalen als I/Q-Verfahren bezeichnet. Das I/Q-Verfahren ermöglicht es, jedes beliebige Signal zu erzeugen. Dazu besteht der zu modulierende Datenstrom aus einem I- und einem Q-Anteil. Zwei D/A-Umsetzer wandeln jeweils einen der beiden Anteile in ein analoges I- bzw. Q-Signal um. Mit dem I- und dem Q-Signal werden wiederum die beiden phasenverschobenen Träger moduliert. Im letzten Schritt werden diese zu einem Träger überlagert, der ausgesendet wird.
+L'idea di base di elaborare un segnale in due parti separate trova ampia applicazione anche nell'elaborazione digitale dei segnali. Viene chiamata procedura I/Q dopo i due sottosegnali. La procedura I/Q consente di generare qualsiasi segnale. A tale scopo, il flusso di dati da modulare è composto da una componente I e una componente Q. Due convertitori D/A convertono ciascuna delle due componenti in un segnale I o Q analogico. Con il segnale I e il segnale Q, le due portanti sfasate vengono nuovamente modulate. Nell'ultimo passaggio, queste vengono sovrapposte a una portante che viene trasmessa.
 
-Entsprechend wird auch auf der Empfängerseite vorgegangen. Das Eingangssignal wird mit einem Träger gemischt, um das I-Signal zu erhalten, das dann mittels A/D-Umsetzer in den I-Anteil eines Datenstroms umgewandelt wird. Gleichzeitig wird das Eingangssignal aber auch mit einem um $\qty{90}{\degree}$ phasenverschobenen Träger gemischt, um das Q-Signal zu erhalten, das wiederum mittels eines A/D-Umsetzers in den Q-Anteil des Datenstroms umgewandelt wird.
+Analogamente, si procede anche sul lato ricevitore. Il segnale di ingresso viene miscelato con una portante per ottenere il segnale I, che viene quindi convertito tramite un convertitore A/D nella componente I di un flusso di dati. Contemporaneamente, il segnale di ingresso viene miscelato anche con una portante sfasata di $\qty{90}{\degree}$ per ottenere il segnale Q, che a sua volta viene convertito tramite un convertitore A/D nella componente Q del flusso di dati.
 
 [question:AF633]
 
-Ein solcher digitaler Datenstrom kann immer einen bestimmten Frequenzbereich des Eingangssignals abbilden, der um eine Mittenfrequenz herum liegt. Wird das Eingangssignal beispielsweise mit einem $\qty{435}{\mega\hertz}$-Träger und einem um $\qty{90}{\degree}$ phasenverschobenen $\qty{435}{\mega\hertz}$-Träger gemischt und die beiden entstehenden Signale durch A/D-Umsetzer digitalisiert, dann bildet der entstehende I/Q-Datenstrom den Frequenzbereich um $\qty{435}{\mega\hertz}$ herum ab.
+Un tale flusso di dati digitale può sempre rappresentare una determinata banda di frequenza del segnale di ingresso, che si trova attorno a una frequenza centrale. Se, ad esempio, il segnale di ingresso viene miscelato con una portante da $\qty{435}{\mega\hertz}$ e una portante da $\qty{435}{\mega\hertz}$ sfasata di $\qty{90}{\degree}$ e i due segnali risultanti vengono digitalizzati tramite convertitori A/D, il flusso di dati I/Q risultante rappresenta la banda di frequenza attorno a $\qty{435}{\mega\hertz}$.
 
-% TODO Verweis auf Abtasttheorem?
-Die abgedeckte Bandbreite hängt dabei von der Abtastrate der A/D-Umsetzung ab. Die Bandbreite in Hz entspricht dabei der Abtastrate in Samples pro Sekunde. Werden in unserem Beispiel sowohl der I- als auch der Q-Anteil mit 10 Millionen Samples pro Sekunde abgetastet, dann kann der entstehende I/Q-Datenstrom einen Frequenzbereich von $\qty{10}{\mega\hertz}$ Bandbreite abdecken, also von $\qty{-5}{\mega\hertz}$ bis $\qty{+5}{\mega\hertz}$ in Bezug auf die Mittenfrequenz. Der Datenstrom deckt dann also die Frequenzen von $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$ ab.
+% TODO Riferimento al teorema di campionamento?
+La larghezza di banda coperta dipende dalla frequenza di campionamento della conversione A/D. La larghezza di banda in Hz corrisponde alla frequenza di campionamento in campioni al secondo. Se nel nostro esempio sia la componente I che la componente Q vengono campionate con 10 milioni di campioni al secondo, il flusso di dati I/Q risultante può coprire una banda di frequenza di $\qty{10}{\mega\hertz}$ di larghezza di banda, ovvero da $\qty{-5}{\mega\hertz}$ a $\qty{+5}{\mega\hertz}$ rispetto alla frequenza centrale. Il flusso di dati copre quindi le frequenze da $\qty{430}{\mega\hertz}$ a $\qty{440}{\mega\hertz}$.
 
 [question:AF634]
 [question:AF635]

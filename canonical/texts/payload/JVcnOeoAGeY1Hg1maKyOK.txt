@@ -1,26 +1,26 @@
-Ein ideales rein sinusförmiges Signal besteht nur aus seiner *Grundwelle welche auch 1. Harmonische* genannt wird. Sobald ein Signal nicht mehr der Sinusform entspricht und auch nur leicht davon abweicht, enthält das Signal *ganzzahlige Vielfache* seiner Grundschwingung, die auch *Oberwellen oder Oberschwingungen* genannt werden. Hierbei ist es wichtig zwischen den beiden Begriffen Oberwellen und Harmonischen zu differenzieren.
-Die 1. Oberwelle entspricht hierbei der 2. Harmonischen der Grundschwingung und befindet sich auf der doppelten Frequenz der Grundschwingung. Die 2. Oberwelle entspricht der 3. Harmonischen der Grundschwingung und befindet sich auf der dreifachen Frequenz der Grundschwingung. Nach diesem Prinzip werden alle Harmonischen und Oberwellen auf die Grundwelle bezogen und mit einer Ordnungszahl (n) durchnummeriert.
+Un segnale ideale puramente sinusoidale è composto solo dalla sua *onda fondamentale, chiamata anche 1ª armonica*. Non appena un segnale non corrisponde più alla forma sinusoidale e si discosta anche leggermente da essa, il segnale contiene *multipli interi* della sua oscillazione fondamentale, chiamati anche *armoniche superiori o sovratoni*. È importante distinguere tra i due termini armoniche superiori e armoniche.
+La 1ª armonica superiore corrisponde alla 2ª armonica dell'oscillazione fondamentale e si trova alla frequenza doppia dell'oscillazione fondamentale. La 2ª armonica superiore corrisponde alla 3ª armonica dell'oscillazione fondamentale e si trova alla frequenza tripla dell'oscillazione fondamentale. Secondo questo principio, tutte le armoniche superiori e le armoniche sono riferite all'onda fondamentale e numerate con un numero d'ordine (n).
 
 <indepth>
-Je nach Art der Verzerrung eines Signals entstehen im Verhältnis mehr gradzahlige oder ungradzahlige Oberwellen in dessen Frequenzspektrum. Rechteckförmige Signale, welche z.B. durch Übersteuerung von Verstärkerstufen entstehen (hierbei werden die Spitzen der Amplituden begrenzt und abgeflacht), enthalten überwiegend ungradzahlige Harmonische bzw. gradzahlige Oberwellen.
-Sägezahnförmige Signale enthalten überwiegend gradzahlige Harmonische bzw. ungradzahlige Oberwellen.
+A seconda del tipo di distorsione di un segnale, si generano proporzionalmente più armoniche pari o dispari nel suo spettro di frequenza. I segnali a onda quadra, che si verificano ad esempio a causa della sovraeccitazione degli stadi amplificatori (in questo caso le punte delle ampiezze vengono limitate e appiattite), contengono prevalentemente armoniche dispari o armoniche superiori pari.
+I segnali a dente di sega contengono prevalentemente armoniche pari o armoniche superiori dispari.
 </indepth>
 
 <margin>
-[picture:869:zusammenhang_oberwellen_harmonische:Zusammenhang zwischen Oberwellen und Harmonischen]
+[picture:869:zusammenhang_oberwellen_harmonische:Relazione tra armoniche superiori e armoniche]
 </margin>
 
 [question:AB403]
 [question:AB401]
 [question:AB402]
 
-Auch wenn ein Signal auf dem Oszilloskop zunächst sinusförmig erscheint, kann das Signal trotzdem nennenswerte Oberwellenanteile (bzw. Harmonische der Grundwelle) enthalten. Um den Oberwellenanteil eines Signals quantitativ und qualitativ beurteilen zu können benötigt man einen *Spektrumanalysator* der das Signal im Frequenzbereich (Frequency-Domain) darstellen kann und hierbei die Amplitudenwerte der einzelnen Oberwellen logarithmisch darstellen kann, so dass deren Anteile am Gesamtsignal messbar sind.
+Anche se un segnale appare inizialmente sinusoidale sull'oscilloscopio, può comunque contenere componenti armoniche significative (o armoniche dell'onda fondamentale). Per valutare quantitativamente e qualitativamente la componente armonica di un segnale, è necessario un *analizzatore di spettro* che possa rappresentare il segnale nel dominio della frequenza e visualizzare i valori di ampiezza delle singole armoniche superiori in modo logaritmico, in modo che le loro proporzioni nel segnale totale siano misurabili.
 
 [question:AI615]
 [question:AI614]
 
-Bei gegebener Grundfrequenz (1. Harmonische) eines Signals, können Frequenzen der Harmonischen durch Multiplikation der Grundfrequenz mit der jeweiligen Ordnungszahl (n) der Harmonischen errechnet werden.
-Gleichermaßen können die Frequenzen der Oberwellen eines Signals durch Multiplikation der Grundfrequenz mit der Ordnungszahl der Oberwelle plus 1 (n+1) berechnet werden.
+Dato un segnale di frequenza fondamentale (1ª armonica), le frequenze delle armoniche possono essere calcolate moltiplicando la frequenza fondamentale per il rispettivo numero d'ordine (n) dell'armonica.
+Allo stesso modo, le frequenze delle armoniche superiori di un segnale possono essere calcolate moltiplicando la frequenza fondamentale per il numero d'ordine dell'armonica superiore più uno (n+1).
 
 [question:AJ201]
 [question:AJ205]

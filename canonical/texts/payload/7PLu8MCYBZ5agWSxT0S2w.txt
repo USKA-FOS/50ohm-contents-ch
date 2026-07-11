@@ -1,25 +1,25 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+Questo testo alternativo non è stato ancora verificato.
 
-Kurzfassung: Netzwerk-Blockdiagramm mit zwei als „Router“ beschrifteten Routersymbolen, den Bereichen „Server-netz“, „internes Netz“ und „Internet-anschluss“, einem Laptop und mehreren orange/blauen Zahlenblöcken an den Verbindungen.
+Riassunto: Diagramma a blocchi di rete con due simboli di router etichettati come "Router", le aree "Rete server", "Rete interna" e "Connessione Internet", un laptop e diversi blocchi di numeri arancioni/blu sulle connessioni.
 
-Detailbeschreibung:
-- Oben mittig befindet sich eine Wolke mit der Beschriftung „Server-netz“. Links und rechts führt jeweils eine horizontale Leitung zu einem runden Routersymbol (Kreis mit vier Pfeilen nach oben, rechts, unten, links), beide mit der Textbeschriftung „Router“.
-- Links unten ist eine Wolke mit der Beschriftung „internes Netz“, die über eine senkrechte Leitung mit dem linken Router verbunden ist. Rechts neben dieser Wolke steht ein Laptop, per kurzer horizontaler Linie mit der Wolke verbunden.
-- Rechts unten steht der Text „Internet-anschluss“, von dem eine senkrechte Leitung nach oben zum rechten Router führt.
+Descrizione dettagliata:
+- In alto al centro c'è una nuvola con l'etichetta "Rete server". A sinistra e a destra, una linea orizzontale conduce a un simbolo di router rotondo (cerchio con quattro frecce verso l'alto, destra, basso, sinistra), entrambi con l'etichetta "Router".
+- In basso a sinistra c'è una nuvola con l'etichetta "Rete interna", collegata al router di sinistra tramite una linea verticale. A destra di questa nuvola c'è un laptop, collegato alla nuvola tramite una breve linea orizzontale.
+- In basso a destra c'è il testo "Connessione Internet", da cui una linea verticale sale al router di destra.
 
-Zahlenblöcke (jeweils zwei Reihen mit vier kleinen Kästchen; Orange und Blau):
-- An der oberen Leitung zwischen linkem Router und „Server-netz“:
-  - obere Reihe: Orange „141“, Orange „17“, Orange „5“, Blau „18“
-  - untere Reihe: Orange „255“, Orange „255“, Orange „255“, Blau „0“
-- An der senkrechten Leitung zwischen linkem Router und „internes Netz“:
-  - obere Reihe: Orange „10“, Orange „33“, Orange „0“, Blau „1“
-  - untere Reihe: Orange „255“, Orange „255“, Orange „0“, Blau „0“
-- Neben dem Laptop (an der Verbindung zum „internes Netz“):
-  - obere Reihe: Orange „10“, Orange „33“, Orange „0“, Blau „100“
-  - untere Reihe: Orange „255“, Orange „255“, Orange „0“, Blau „0“
-- An der oberen Leitung zwischen rechtem Router und „Server-netz“:
-  - obere Reihe: Orange „141“, Orange „17“, Orange „5“, Blau „1“
-  - untere Reihe: Orange „255“, Orange „255“, Orange „255“, Blau „0“
-- An der senkrechten Leitung zwischen rechtem Router und „Internet-anschluss“:
-  - obere Reihe: Orange „46“, Orange „142“, Orange „171“, Blau „229“
-  - untere Reihe: Orange „255“, Orange „255“, Orange „255“, Blau „0“
+Blocchi di numeri (due righe con quattro piccole caselle ciascuna; Arancione e Blu):
+- Sulla linea superiore tra il router di sinistra e "Rete server":
+  - riga superiore: Arancione "141", Arancione "17", Arancione "5", Blu "18"
+  - riga inferiore: Arancione "255", Arancione "255", Arancione "255", Blu "0"
+- Sulla linea verticale tra il router di sinistra e "Rete interna":
+  - riga superiore: Arancione "10", Arancione "33", Arancione "0", Blu "1"
+  - riga inferiore: Arancione "255", Arancione "255", Arancione "0", Blu "0"
+- Accanto al laptop (sulla connessione a "Rete interna"):
+  - riga superiore: Arancione "10", Arancione "33", Arancione "0", Blu "100"
+  - riga inferiore: Arancione "255", Arancione "255", Arancione "0", Blu "0"
+- Sulla linea superiore tra il router di destra e "Rete server":
+  - riga superiore: Arancione "141", Arancione "17", Arancione "5", Blu "1"
+  - riga inferiore: Arancione "255", Arancione "255", Arancione "255", Blu "0"
+- Sulla linea verticale tra il router di destra e "Connessione Internet":
+  - riga superiore: Arancione "46", Arancione "142", Arancione "171", Blu "229"
+  - riga inferiore: Arancione "255", Arancione "255", Arancione "255", Blu "0"

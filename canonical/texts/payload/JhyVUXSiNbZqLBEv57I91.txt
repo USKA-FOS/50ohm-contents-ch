@@ -1,10 +1,10 @@
-## Wellenlänge
+## Lunghezza d'onda
 
-* Der Abstand zwischen zwei gleichen Durchläufen einer Welle heißt *Wellenlänge*
-* Je größer die Frequenz, desto kleiner die Wellenlänge
+* La distanza tra due passaggi uguali di un'onda è chiamata *lunghezza d'onda*
+* Maggiore è la frequenza, minore è la lunghezza d'onda
 
 <fragment>
-Die Wellenlänge wird mit dem griechischen Buchstaben $\lambda$ (Lambda) angegeben und in Meter ($\unit{\meter}$) gemessen.
+La lunghezza d'onda è indicata con la lettera greca $\lambda$ (Lambda) ed è misurata in metri ($\unit{\meter}$).
 </fragment>
 
 ---
@@ -13,32 +13,32 @@ Die Wellenlänge wird mit dem griechischen Buchstaben $\lambda$ (Lambda) angegeb
 [question:NA205]
 ---
 
-## Zusammenhang Frequenz – Wellenlänge
+## Relazione Frequenza – Lunghezza d'onda
 
-* Über die Lichtgeschwindigkeit
-* Eine Welle mit einer Frequenz von $\qty{1}{\hertz}$ breitet sich $\qty{300000}{\kilo\meter}$ aus bevor der nächste Durchlauf beginnt
-* Bei $\qty{1000}{\hertz}$ sind es nur $\qty{300}{\kilo\meter}$
-* Bei $\qty{1}{\mega\hertz}$ sind es $\qty{300}{\meter}$
+* Tramite la velocità della luce
+* Un'onda con una frequenza di $\qty{1}{\hertz}$ si propaga per $\qty{300000}{\kilo\meter}$ prima che inizi il passaggio successivo
+* A $\qty{1000}{\hertz}$ sono solo $\qty{300}{\kilo\meter}$
+* A $\qty{1}{\mega\hertz}$ sono $\qty{300}{\meter}$
 
 <note>
-Ausbreitung in Lichtgeschwindigkeit gilt nur im Vakuum
+La propagazione alla velocità della luce è valida solo nel vuoto
 </note>
 
 ---
 $f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} \quad\quad\quad \lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]}$
 
 <note>
-Die Formeln sind in der Formelsammlung
+Le formule si trovano nella raccolta di formule
 </note>
 ---
-### Beispiele
+### Esempi
 
-Wellenlänge der Frequenz $\qty{145,3}{\mega\hertz}$
+Lunghezza d'onda della frequenza $\qty{145,3}{\mega\hertz}$
 
 $\lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]} = \dfrac{300}{\qty{145,3}{\mega\hertz}} \approx \qty{2,06}{\meter}$
 
 <fragment>
-Frequenz der Wellenlänge $\qty{2,06}{\meter}$
+Frequenza della lunghezza d'onda $\qty{2,06}{\meter}$
 
 $f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} = \dfrac{300}{\qty{2,06}{\meter}} \approx \qty{145,3}{\mega\hertz}$
 </fragment>
@@ -48,15 +48,15 @@ $f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} = \dfrac{300}{\qty{
 [include:applet_lambda_und_f]
 
 --- style="font-size: 0.8em;"
-## Band
+## Banda
 
-Statt der Frequenz wird häufig das gerundete Band angegeben
+Invece della frequenza, viene spesso indicata la banda arrotondata
 
-| l: Frequenz | l: Wellenlänge | l: Band |
-| $\qtyrange{28}{29,7}{\mega\hertz}$ | $\qtyrange{10,7}{10,1}{\meter}$ | $\qty{10}{\meter}$-Band |
-| $\qtyrange{144}{146}{\mega\hertz}$ | $\qtyrange{2,08}{2,05}{\meter}$ | $\qty{2}{\meter}$-Band |
-| $\qtyrange{430}{440}{\mega\hertz}$ | $\qtyrange{68}{70}{\centi\meter}$ | $\qty{70}{\centi\meter}$-Band |
-[table:n_funkwellen_baender:Die drei Amateurfunkbänder, die für alle Klassen freigegeben sind]
+| l: Frequenza | l: Lunghezza d’onda | l: Banda |
+| $\qtyrange{28}{29,7}{\mega\hertz}$ | $\qtyrange{10,7}{10,1}{\meter}$ | Banda dei $\qty{10}{\meter}$ |
+| $\qtyrange{144}{146}{\mega\hertz}$ | $\qtyrange{2,08}{2,05}{\meter}$ | Banda dei $\qty{2}{\meter}$ |
+| $\qtyrange{430}{440}{\mega\hertz}$ | $\qtyrange{68}{70}{\centi\meter}$ | Banda dei $\qty{70}{\centi\meter}$ |
+[table:n_funkwellen_baender:Le tre bande radioamatoriali consentite per tutte le classi]
 ---
 [question:NB302]
 ---

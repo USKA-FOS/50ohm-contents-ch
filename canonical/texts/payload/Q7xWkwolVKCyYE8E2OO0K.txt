@@ -1,36 +1,36 @@
-Ein Oszilloskop ist ein Spannungsmessgerät, das den zeitlichen Verlauf von Spannungen visualisieren kann. Genau wie andere Spannungsmessgeräte besitzen Oszilloskope einen hohen Innenwiderstand. Meist lassen sich zwei oder mehr Spannungen gleichzeitig messen. Das Gerät in Abbildung [ref:e_oszilloskop_digital] ist beispielsweise so eingestellt, dass sich zwei Signale den Bildschirm teilen.
+Un oscilloscopio è uno strumento di misura della tensione che può visualizzare l'andamento temporale delle tensioni. Come altri strumenti di misura della tensione, gli oscilloscopi hanno un'elevata resistenza interna. Di solito è possibile misurare due o più tensioni contemporaneamente. L'apparecchio nella figura [ref:e_oszilloskop_digital] è impostato, ad esempio, in modo che due segnali dividano lo schermo.
 
 <margin>
-[photo:212:e_oszilloskop_digital: Oszilloskop mit zahlreichen Zusatzfunktionen]
+[photo:212:e_oszilloskop_digital: Oscilloscopio con numerose funzioni aggiuntive]
 </margin>
 
-Betrachten wir die Anzeige des Oszilloskops in Abbildung [ref:e_oszilloskop_bildschirmfoto_sinus] nun etwas genauer. Mit einem Oszilloskop lassen sich beispielsweise die Kenngrößen einer sinusförmigen Wechselspannung ($T$, $\hat{U}$, $U_\text{SS}$ und $U_\text{eff}$) bestimmen. Neben dem Signalverlauf werden eine Zeit- und eine Spannungsangabe eingeblendet – im Beispiel $\qty{50,0}{\nano\second}$ und $\qty{500}{\milli\volt}$. Das bedeutet, dass ein Kästchen in horizontaler Richtung 50 Nanosekunden und in vertikaler Richtung 500 Millivolt entspricht. Diese Kästchen werden oft als Divisionen oder Skalenteile bezeichnet, daher auch die Schreibweise $\qty{500}{\milli\volt\per\oszidiv}$.
+Analizziamo ora più da vicino la visualizzazione dell'oscilloscopio nella figura [ref:e_oszilloskop_bildschirmfoto_sinus]. Con un oscilloscopio è possibile determinare, ad esempio, i parametri di una tensione alternata sinusoidale ($T$, $\hat{U}$, $U_\text{SS}$ e $U_\text{eff}$). Oltre al profilo del segnale, vengono visualizzate indicazioni di tempo e di tensione – nell'esempio $\qty{50,0}{\nano\second}$ e $\qty{500}{\milli\volt}$. Ciò significa che un quadratino in direzione orizzontale corrisponde a 50 nanosecondi e in direzione verticale a 500 millivolt. Questi quadratini sono spesso chiamati divisioni o parti di scala, da cui la dicitura $\qty{500}{\milli\volt\per\oszidiv}$.
 
 <margin>
-[photo:214:e_oszilloskop_bildschirmfoto_sinus:eine sinusförmige Spannung, dargestellt auf einem digitalen Oszilloskop]
+[photo:214:e_oszilloskop_bildschirmfoto_sinus: una tensione sinusoidale, visualizzata su un oscilloscopio digitale]
 </margin>
 
 ---
 
-Wir können uns das als Koordinatensystem vorstellen und die Periodendauer ($T$) und die Amplitude ($\hat{U}$) ablesen. Im Beispiel ist eine Periode 5 Kästchen oder Skalenteile lang. Multipliziert mit $\qty{50,0}{\nano\second}$ pro Skalenteil ergibt das die Periodendauer $\qty{250,0}{\nano\second}$. Die Amplitude, also die größte Abweichung von der Nulllage, beträgt $\qty{1500}{\milli\volt}$ oder $\qty{1,5}{\volt}$, denn sie ist 3 Skaltenteile hoch und jeder Teil entspricht $\qty{500}{\milli\volt}$. 
+Possiamo immaginarlo come un sistema di coordinate e leggere la durata del periodo ($T$) e l'ampiezza ($\hat{U}$). Nell'esempio, un periodo è lungo 5 quadratini o parti di scala. Moltiplicato per $\qty{50,0}{\nano\second}$ per parte di scala, si ottiene la durata del periodo $\qty{250,0}{\nano\second}$. L'ampiezza, ovvero la massima deviazione dalla posizione zero, è di $\qty{1500}{\milli\volt}$ o $\qty{1,5}{\volt}$, poiché è alta 3 parti di scala e ogni parte corrisponde a $\qty{500}{\milli\volt}$. 
 
 [question:EI301]
 
 <tip>
-Für einfache Messungen haben viele digitale Oszilloskope eine AUTO-Taste. Wenn man sie drückt, werden einige Einstellungen automatisch vorgenommen und meistens erscheint ein stehendes Bild der angelegten Signale. Die Anzeige lässt ich in der Waagerechten verschieben. Ein Drehknopf mit dieser Funktion ist oft mit X-Position beschriftet. Zum Ablesen der Periodendauer schiebt man einen markanten Punkt wie einen Nulldurchgang auf eine senkrechte Linie des Gitters und zählt, wie viele Skalenteile einer Periode entsprechen.
+Per misurazioni semplici, molti oscilloscopi digitali hanno un tasto AUTO. Premendolo, alcune regolazioni vengono effettuate automaticamente e di solito appare un'immagine fissa dei segnali applicati. La visualizzazione può essere spostata orizzontalmente. Una manopola con questa funzione è spesso etichettata come X-Position. Per leggere la durata del periodo, si sposta un punto di riferimento come un passaggio per lo zero su una linea verticale della griglia e si contano quante parti di scala corrispondono a un periodo.
 </tip>
  
 ---
 
-Sobald die Periodendauer einer Schwingung bekannt ist, lässt sich daraus auch die Frequenz bestimmen. In der Klasse N haben wir bereits den qualitativen Zusammenhang kennengelernt: Die Frequenz gibt die Zahl der Schwingungen pro Sekunde an. Beträgt die Periodendauer eine Sekunde, so ergibt sich eine Frequenz von $\qty{1}{\hertz}$. Halbieren wir die Periodendauer auf eine halbe Sekunde, passen zwei Schwingungen in eine Sekunde – die Frequenz liegt dann bei $\qty{2}{\hertz}$.
+Una volta nota la durata del periodo di un'oscillazione, è possibile determinarne anche la Frequenza. Nella classe N abbiamo già appreso la relazione qualitativa: la Frequenza indica il numero di oscillazioni al secondo. Se la durata del periodo è di un secondo, si ottiene una Frequenza di $\qty{1}{\hertz}$. Se dimezziamo la durata del periodo a mezzo secondo, due oscillazioni entrano in un secondo – la Frequenza è quindi di $\qty{2}{\hertz}$.
 
-In der Klasse E betrachten wir diesen Zusammenhang nun als Formel:
+Nella classe E consideriamo ora questa relazione come formula:
   
-$f=\dfrac{1}{T}$ oder $T=\dfrac{1}{f}$
+$f=\dfrac{1}{T}$ o $T=\dfrac{1}{f}$
 
-Die Frequenz in Hertz ist der Kehrwert der Periodendauer in Sekunden.
+La Frequenza in hertz è il reciproco della durata del periodo in secondi.
 
-Das Signal in Abbildung [ref:e_oszilloskop_bildschirmfoto_sinus] hat also die Frequenz
+Il segnale nella figura [ref:e_oszilloskop_bildschirmfoto_sinus] ha quindi la Frequenza
 
 $f = \dfrac{1}{\qty{250}{\nano\second}} = \qty{4}{\mega\hertz}$.
  
@@ -42,14 +42,14 @@ $f = \dfrac{1}{\qty{250}{\nano\second}} = \qty{4}{\mega\hertz}$.
 
 ---
 
-Manchmal werden Signale ungewollt verformt. Das geschieht zum Beispiel, wenn in einen Verstärker eine zu hohe Eingangsspannung eingespeist wird. Man sagt dann, der Verstärker ist übersteuert und sein Ausgangssignal verzerrt. Starke Verzerrungen wie in Abbildung [ref:e_oszilloskop_verzerrt] kann man mit einem Oszilloskop erkennen. Für die Beurteilung von Audio-Signalen im Amateurfunk reicht das meistens aus.
+A volte i segnali vengono deformati involontariamente. Ciò accade, ad esempio, quando in un amplificatore viene immessa una tensione d’ingresso troppo elevata. Si dice allora che l'amplificatore è sovraccarico e il suo segnale di uscita è distorto. Distorsioni forti come nella figura [ref:e_oszilloskop_verzerrt] possono essere riconosciute con un oscilloscopio. Per la valutazione dei segnali Audio nel radioamatore, questo di solito è sufficiente.
 
 <margin>
-[photo:215:e_oszilloskop_verzerrt:sinusförmiges Eingangssignal (oben) und verzerrtes Ausgangsignal eines übersteuerten Verstärkers]
+[photo:215:e_oszilloskop_verzerrt: segnale di ingresso sinusoidale (sopra) e segnale di uscita distorto di un amplificatore sovraccarico]
 </margin>
 
 <indepth>
-Ob ein Hochfrequenzsignal frei von Verzerrungen ist, die andere Frequenzbereiche beeinträchtigen, kann man mit einem Oszilloskop nicht gut genug einschätzen. Dafür ist ein Spektrum-Analysator das richtige Messgerät.
+Se un segnale ad alta frequenza sia privo di distorsioni che influenzano altre bande di frequenza, non è possibile valutarlo bene con un oscilloscopio. Per questo, un analizzatore di spettro è lo strumento di misura adatto.
 </indepth>
 
 % EI304 NF-Verzerrungen 

@@ -1,41 +1,41 @@
-## Akku-Typen
+## Tipi di batterie
 
-Die häufigsten Akku-Typen im Amateurfunk:
-* Bleiakku (Pb)
-* Nickel-Metallhydrid (NiMH)
-* Lithium-Eisenphosphat (LiFePO4)
+I tipi di batterie più comuni nel radioamatore:
+* Batteria al piombo (Pb)
+* Nichel-metallo idruro (NiMH)
+* Litio-ferro-fosfato (LiFePO4)
 
 ---
 [photo:175:a_akku_lifepo4:LiFePO4]
 
 <left>
-* Kapazität: $\qty{4200}{\milli\ampere\hour}$
-* Spannung: 4S1P / $\qty{13,2}{\volt}$
+* Capacità: $\qty{4200}{\milli\ampere\hour}$
+* Tensione: 4S1P / $\qty{13,2}{\volt}$
 </left>
 <right>
-* Entladung: 30C Constant / 40C Burst
-* Balance-Stecker: JST-XH
+* Scarica: 30C costante / 40C burst
+* Connettore bilanciamento: JST-XH
 </right>
 
 ---
-### Verschaltungen
+### Collegamenti
 
-Beispiele:
+Esempi:
 
-* 4S1P: 4 Zellen in Serie, 1 in Parallel
-* 4S2P: 4 Zellen in Serie, 2 in Parallel
+* 4S1P: 4 celle in serie, 1 in parallelo
+* 4S2P: 4 celle in serie, 2 in parallelo
 
 <fragment>
-Pro Zelle ca. $\qty{3,2}{\volt}$ bis $\qty{3,3}{\volt}$, also<br/>$\qty{3,3}{\volt} \cdot 4 = \qty{13,2}{\volt}$
+Circa $\qty{3,2}{\volt}$ a $\qty{3,3}{\volt}$ per cella, quindi<br/>$\qty{3,3}{\volt} \cdot 4 = \qty{13,2}{\volt}$
 </fragment>
 
 ---
-### Kapazität
+### Capacità
 
-Beispiel-Akku: $\qty{4200}{\milli\ampere\hour} = \qty{4,2}{\ampere\hour}$
+Batteria di esempio: $\qty{4200}{\milli\ampere\hour} = \qty{4,2}{\ampere\hour}$
 
 <fragment>
-$\rightarrow$ 1 Stunde mit $\qty{4,2}{\ampere}$ oder 2 Stunden mit $\qty{2,1}{\ampere}$ belasten
+$\rightarrow$ Caricare per 1 ora con $\qty{4,2}{\ampere}$ o per 2 ore con $\qty{2,1}{\ampere}$
 </fragment>
 <fragment>
 $t = \frac{Q}{I}$
@@ -44,75 +44,75 @@ $t = \frac{Q}{I}$
 $t = \frac{\qty{4,2}{\ampere\hour}}{\qty{4,2}{\ampere}} = \qty{1}{\hour}$
 </fragment>
 <note>
-ggf. Stunden in Sekunden mit $\qty{1}{\hour} = \qty{3600}{\second}$ umrechnen
+Se necessario, convertire le ore in secondi con $\qty{1}{\hour} = \qty{3600}{\second}$
 </note>
 ---
-### Elektrische Energie
+### Energia elettrica
 
-Gespeicherte elektrische Energie im Akku
+Energia elettrica immagazzinata nella batteria
 
 $E = Q \cdot U$
 
 <fragment>
-Beispiel-Akku: $E = \qty{4,2}{\ampere\hour} \cdot \qty{13,2}{\volt} = \qty{55,44}{\watt\hour}$
+Batteria di esempio: $E = \qty{4,2}{\ampere\hour} \cdot \qty{13,2}{\volt} = \qty{55,44}{\watt\hour}$
 </fragment>
 ---
-### Entladestrom
+### Corrente di scarica
 
-Angabe auf dem Beispiel-Akku: 30C
+Indicazione sulla batteria di esempio: 30C
 
-Die Entladung kann mit 30 mal der Kapazität $Q$ erfolgen
+La scarica può avvenire con 30 volte la capacità $Q$
 
 <fragment>
-Entladestrom = $30 \cdot \frac{1}{\unit{\hour}} \cdot \qty{4,2}{\ampere\hour} = \qty{126}{\ampere}$
+Corrente di scarica = $30 \cdot \frac{1}{\unit{\hour}} \cdot \qty{4,2}{\ampere\hour} = \qty{126}{\ampere}$
 </fragment>
 
 <fragment>
-Der Akku wäre in 128 Sekunden entladen.
+La batteria si scaricherebbe in 128 secondi.
 </fragment>
 
 <note>
-Kabelquerschnitt ist zu beachten
+Considerare la sezione del cavo
 </note>
 
 ---
-### Reihenschaltung von Akkus
+### Collegamento in serie di batterie
 
 <left>
-[photo:176:a_akku_4S1P:Reihenschaltung]
+[photo:176:a_akku_4S1P:Collegamento in serie]
 </left>
 <right>
-* Spannungen addieren sich
-* Nur Zellen mit gleichen Daten zusammenschalten
+* Le tensioni si sommano
+* Collegare insieme solo celle con dati uguali
 </right>
 <note>
-Bei ungleichen Daten beeinflussen oder beschädigen sich die Zellen
+In caso di dati disuguali, le celle si influenzano o si danneggiano
 </note>
 
 ---
-### Parallelschaltung von Akkus
+### Collegamento in parallelo di batterie
 
 <left>
-[photo:177:a_akku_4S2P:Parallelschaltung]
+[photo:177:a_akku_4S2P:Collegamento in parallelo]
 </left>
 <right>
-* Spannungen bleiben gleich
-* Kapazitäten addieren sich
+* Le tensioni rimangono uguali
+* Le capacità si sommano
 </right>
 <note>
 </note>
 
 ---
-### Balancer
+### Bilanciatore
 
 <left>
-[photo:178:a_akku_lifepo4_anschluss:LiFePO4 Anschlüsse]
+[photo:178:a_akku_lifepo4_anschluss:Connessioni LiFePO4]
 </left>
 <right>
-* Balanceranschluss kann auf die Spannung jeder Zelle zugreifen
-* Balancerschaltung zum Ausgleich der Spannungen
-* Schutz der Zellen
-* Batteriemonitor
+* Il connettore del bilanciatore può accedere alla tensione di ogni cella
+* Circuito del bilanciatore per compensare le tensioni
+* Protezione delle celle
+* Monitor batteria
 </right>
 <note>
 </note>
@@ -122,27 +122,27 @@ Bei ungleichen Daten beeinflussen oder beschädigen sich die Zellen
 ---
 [question:AB209]
 ---
-#### Lösungsweg
-* gegeben: $U = \qty{2}{\volt}$
-* gegeben: $Q = \qty{10}{\ampere\hour}$
-* gegeben: $N = 6$
-* gesucht: $U_{\mathrm{ges}}, Q_{\mathrm{ges}}$
+#### Percorso di soluzione
+* dato: $U = \qty{2}{\volt}$
+* dato: $Q = \qty{10}{\ampere\hour}$
+* dato: $N = 6$
+* cercato: $U_{\mathrm{totale}}, Q_{\mathrm{totale}}$
 
 <fragment>
-$U_{\mathrm{ges}} = N \cdot U = 6 \cdot \qty{2}{\volt} = \qty{12}{\volt}$
+$U_{\mathrm{totale}} = N \cdot U = 6 \cdot \qty{2}{\volt} = \qty{12}{\volt}$
 </fragment>
 <fragment>
-$Q_{\mathrm{ges}} = Q \cdot 1 = \qty{10}{\ampere\hour}$
+$Q_{\mathrm{totale}} = Q \cdot 1 = \qty{10}{\ampere\hour}$
 </fragment>
 ---
 
 [question:AB211]
 ---
-#### Lösungsweg
-* gegeben: $Q_{\mathrm{max}} = \qty{60}{\ampere\hour}$
-* gegeben: $Q_{\qty{10}{\percent}} = 0,1 \cdot Q_\mathrm{max} = \qty{6}{\ampere\hour}$
-* gegeben: $I = \qty{0,8}{\ampere}$
-* gesucht: $t$
+#### Percorso di soluzione
+* dato: $Q_{\mathrm{max}} = \qty{60}{\ampere\hour}$
+* dato: $Q_{\qty{10}{\percent}} = 0,1 \cdot Q_\mathrm{max} = \qty{6}{\ampere\hour}$
+* dato: $I = \qty{0,8}{\ampere}$
+* cercato: $t$
 
 <fragment>
 $Q = I \cdot t \Rightarrow t = \frac{Q}{I} = \frac{Q_{\mathrm{max}} - Q_{10\%}}{I} = \frac{\qty{54}{\ampere\hour}}{\qty{0,8}{\ampere}} = \qty{67,5}{\hour}$
@@ -151,10 +151,10 @@ $Q = I \cdot t \Rightarrow t = \frac{Q}{I} = \frac{Q_{\mathrm{max}} - Q_{10\%}}{
 ---
 [question:AB501]
 ---
-#### Lösungsweg
-* gegeben: $U = \qty{12}{\volt}$
-* gegeben: $Q = \qty{5}{\ampere\hour}$
-* gesucht: $W$
+#### Percorso di soluzione
+* dato: $U = \qty{12}{\volt}$
+* dato: $Q = \qty{5}{\ampere\hour}$
+* cercato: $W$
 
 <fragment>
 $W = P \cdot t = U \cdot I \cdot t = U \cdot Q = \qty{12}{\volt} \cdot \qty{5}{\ampere\hour} = \qty{60,0}{\watt\hour}$

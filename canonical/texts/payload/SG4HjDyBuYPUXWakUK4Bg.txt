@@ -1,14 +1,14 @@
-* Starke Signale werden reduziert
-* Leise Signale werden erhöht
-* Amplitude des demodulierten Signals wird konstant gehalten
-* $\rightarrow$ NF-Signal hat konstant gleiche Lautstärke
+* I segnali forti vengono ridotti
+* I segnali deboli vengono aumentati
+* L'ampiezza del segnale demodulato viene mantenuta costante
+* $\rightarrow$ Il segnale AF ha un volume costantemente uguale
 
 ---
-### Ohne AGC
+### Senza AGC
 
-* Starke Signale übersteuern die NF
-* Schwache Signale sind sehr leise
-* Lautstärke muss von Hand nachgeregelt werden
+* I segnali forti sovramodulano l'AF
+* I segnali deboli sono molto bassi
+* Il volume deve essere regolato manualmente
 
 ---
 [question:AF224]

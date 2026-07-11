@@ -1,20 +1,20 @@
-[picture:438:a_oszillator_dds:Blockschaltung zu Direkte digitale Synthese]
+[picture:438:a_oszillator_dds:Schema a blocchi per la sintesi digitale diretta]
 
-* Erzeugung periodischer, bandbegrenzter Signale mit hoher Frequenzauflösung
-* Stand der Technik zur Signalerzeugung
-* Frequenz ist sehr fein einstellbar
-* FM und PM kann direkt erzeugt werden
+* Generazione di segnali periodici a banda limitata con alta risoluzione di frequenza
+* Stato dell'arte per la generazione di segnali
+* La frequenza è regolabile con molta precisione
+* È possibile generare direttamente FM e PM
 
 --- style="font-size: smaller;"
-[picture:438:a_oszillator_dds:Blockschaltung zu Direkte digitale Synthese]
+[picture:438:a_oszillator_dds:Schema a blocchi per la sintesi digitale diretta]
 
-* Taktgenerator mit fester Frequenz lässt einen Adresszähler hochzählen
-* Bei Überlauf startet der Adresszähler von vorne
-* Aus einer Sinus-Lookup-Table wird ein vordefinierter digitaler Sinuswert herausgegeben
-* Dieser Wert wird über ein Register in einem D/A-Wandler in ein analoges Signal umgewandelt
+* Un generatore di clock a frequenza fissa fa incrementare un contatore di indirizzi.
+* Al superamento del limite, il contatore di indirizzi riparte da capo.
+* Da una tabella di ricerca sinusoidale viene emesso un valore sinusoidale digitale predefinito.
+* Questo valore viene convertito in un segnale analogico tramite un registro in un convertitore D/A.
 
 <note>
-Funktionsprinzip nicht prüfungsrelevant, nur das Blockschaltbild ist zu erkennen
+Il principio di funzionamento non è rilevante per l'esame, è necessario riconoscere solo lo schema a blocchi.
 </note>
 
 ---

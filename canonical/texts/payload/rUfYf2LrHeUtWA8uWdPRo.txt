@@ -1,28 +1,28 @@
-Die *MUF* (*maximum usable frequency*), also die höchste Frequenz, die die Ionosphäre für die Distanz zwischen Sender und Empfänger noch zurückbrechen kann, haben wir bereits in der Klasse E kennengelernt. Dort wurde deutlich, dass die MUF von der Dichte der freien Elektronen in der brechenden Region abhängt. In der Klasse A werden wir dieses Thema nun insbesondere mit Blick auf den Abstrahlwinkel noch genauer betrachten.
+La *MUF* (*maximum usable frequency*), ovvero la frequenza massima che la ionosfera può ancora rifrangere per la distanza tra trasmettitore e ricevitore, l'abbiamo già conosciuta nella classe E. Lì è diventato chiaro che la MUF dipende dalla densità degli elettroni liberi nella regione rifrangente. Nella classe A esamineremo ora questo argomento più in dettaglio, in particolare in relazione all'angolo di emissione.
 
 [question:AH206]
 [question:AH207]
 
-Wie wir auch schon wissen, ist die Reichweite der Raumwellen vom Abstrahlwinkel abhängig. Je flacher die Welle auf die Ionosphäre auftrifft, desto leichter erfolgt die Brechung. Dieser Zusammenhang gilt auch für die MUF: Die gerade noch zurückgebrochene Frequenz, die *MUF*, ist umso höher, je flacher unser Signal in die Ionosphäre einfällt. Die Abbildung [ref:e_muf_winkel2] zeigt eine Simulation der Sprungdistanz für einen Sommertag im Jahr 2024 für ein Amateurfunksignal um die $\qty{7}{\mega\hertz}$. Bei $\qty{45}{\degree}$ lag die MUF an diesem Tag bei $\qty{7,5}{\mega\hertz}$. Ändert man den Abstrahlwinkel, verändert sich auch die MUF: Strahlt man steiler ab (z. B. $\qty{60}{\degree}$), sinkt die MUF und die Funkwelle wird nicht mehr refraktiert. Strahlt man hingegen flacher ab (z. B. $\qty{30}{\degree}$), so erhöht sich die MUF. Im Folgenden werden wir diesen Zusammenhang genauer betrachten.
+Come sappiamo anche, la portata delle onde spaziali dipende dall'angolo di emissione. Più l'onda incide sulla ionosfera in modo radente, più facile è la rifrazione. Questa relazione vale anche per la MUF: la frequenza appena rifratta, la *MUF*, è tanto più alta quanto più radente il nostro segnale incide sulla ionosfera. L'immagine [ref:e_muf_winkel2] mostra una simulazione della distanza di salto per un giorno estivo del 2024 per un segnale di radioamatore intorno ai $\qty{7}{\mega\hertz}$. A $\qty{45}{\degree}$ la MUF in quel giorno era di $\qty{7,5}{\mega\hertz}$. Se si cambia l'angolo di emissione, cambia anche la MUF: se si emette più verticalmente (ad es. $\qty{60}{\degree}$), la MUF diminuisce e l'onda radio non viene più rifratta. Se invece si emette più radente (ad es. $\qty{30}{\degree}$), la MUF aumenta. Di seguito esamineremo più da vicino questa relazione.
 
 <margin>
-[picture:998:e_muf_winkel2:Sprungdistanz bei 7 MHz im Sommer 2024]
+[picture:998:e_muf_winkel2:Distanza di salto a 7 MHz nell'estate 2024]
 </margin>
 
 ---
 
-Von Ionosphärenmessstationen wird die so genannte kritische Frequenz $f_\text{c}$ (oder oft auch $f_\text{k}$, $f_\text{krit}$ oder $f_\text{oF2}$) gemessen. Das ist die höchste Frequenz, bei der die senkrecht in die Ionosphäre eintretende Raumwelle gerade noch reflektiert wird (Vgl. Abbildung [ref:e_muf_winkel]). Wenn wir senkrecht nach oben strahlen, unser Signal also unter einem Winkel von $\qty{90}{\degree}$ in die Ionosphäre einfällt, ist die MUF am kleinsten, denn unser Signal muss dann ja in der Ionosphäre komplett "umkehren", also eine 180° Wendung vollführen. Das bedeutet, bei $\qty{90}{\degree}$ gilt $f_\text{c} = MUF$. 
+Le stazioni di misurazione ionosferica misurano la cosiddetta frequenza critica $f_\text{c}$ (o spesso anche $f_\text{k}$, $f_\text{krit}$ o $f_\text{oF2}$). Questa è la frequenza più alta alla quale l'onda spaziale che incide perpendicolarmente sulla ionosfera viene appena riflessa (cfr. immagine [ref:e_muf_winkel]). Se trasmettiamo perpendicolarmente verso l'alto, cioè il nostro segnale incide sulla ionosfera con un angolo di $\qty{90}{\degree}$, la MUF è minima, perché il nostro segnale deve "invertirsi" completamente nella ionosfera, cioè compiere una svolta di 180°. Ciò significa che a $\qty{90}{\degree}$ vale $f_\text{c} = MUF$. 
 
 <indepth>
-Als Formelzeichen verwendet man $f_o$ (kleiner tiefgestellter Buchstabe "O" für *ordinary wave*) gefolgt von der ionosphärischen Region, für die diese Frequenz gilt, also z.B. $f_\text{oF2}$ für die F2-Region. Allerdings wird auch oft $f_\text{c}$, $f_\text{k}$ oder $f_\text{krit}$ als Formelzeichen verwendet.
+Come simbolo di formula si usa $f_o$ (piccola lettera "O" in pedice per *ordinary wave*) seguito dalla regione ionosferica per cui vale questa frequenza, quindi ad es. $f_\text{oF2}$ per la regione F2. Tuttavia, si usano spesso anche $f_\text{c}$, $f_\text{k}$ o $f_\text{krit}$ come simboli di formula.
 </indepth>
 
 <margin>
-[picture:870:e_muf_winkel:Die Winkel zur Berechnung der MUF]
+[picture:870:e_muf_winkel:Gli angoli per il calcolo della MUF]
 </margin>
 
 <indepth>
-Die kritische Frequenz ist also die höchste Frequenz, die aus der Ionosphäre wieder zurückkommt, wenn man senkrecht nach oben strahlt. Eine Daumenregel besagt, dass die höchste Frequenz, die bei *flacher* Einstrahlung noch zurückgeworfen wird, etwa das Dreifache der kritischen Frequenz beträgt.
+La frequenza critica è quindi la frequenza più alta che ritorna dalla ionosfera quando si trasmette perpendicolarmente verso l'alto. Una regola empirica dice che la frequenza più alta che viene ancora riflessa con un'incidenza *radente* è circa il triplo della frequenza critica.
 </indepth>
 
 [question:AH204]
@@ -30,35 +30,35 @@ Die kritische Frequenz ist also die höchste Frequenz, die aus der Ionosphäre w
 
 ---
 
-Die Abbildung [ref:e_muf_fof2] zeigt den zeitlichen Verlauf von MUF und $f_\text{c}$ am 08.09.2025, gemessen mit der Ionosonde in Juliusruh. MUF $\qty{3000}{\kilo\meter}$ bedeutet in diesem Fall, dass sehr flach abgestrahlt wird, um eine Sprungdistanz von $\qty{3000}{\kilo\meter}$ zu erreichen.
+L'immagine [ref:e_muf_fof2] mostra l'andamento temporale di MUF e $f_\text{c}$ il 08.09.2025, misurato con la ionosonda a Juliusruh. MUF $\qty{3000}{\kilo\meter}$ in questo caso significa che si emette molto radente per raggiungere una distanza di salto di $\qty{3000}{\kilo\meter}$.
 
 <margin>
-[picture:999:e_muf_fof2:MUF und $f_\text{c}$ am 08.09.2025]
+[picture:999:e_muf_fof2:MUF e $f_\text{c}$ il 08.09.2025]
 </margin>
 
-Für andere Abstrahlwinkel lässt sich die MUF aus der $f_\text{c}$ mithilfe der folgenden Formel aus der Formelsammlung näherungsweise bestimmen (gilt für $\alpha > \qty{40}{\degree}$):
+Per altri angoli di emissione, la MUF può essere determinata approssimativamente da $f_\text{c}$ utilizzando la seguente formula dalla raccolta di formule (valida per $\alpha > \qty{40}{\degree}$):
 
 $MUF \approx \frac{f_\text{c}}{sin(\alpha)}$
 
-wobei $\alpha$ den Abstrahlwinkel bezeichnet (vgl. Abbildung [ref:e_muf_winkel]). Schaut man sich die Formel genauer an, erkennt man, dass die MUF stets höher liegt als die kritische Frequenz – und zwar umso mehr, je flacher die Sendeantenne abstrahlt bzw. die Empfangsantenne aufnimmt.
+dove $\alpha$ denota l'angolo di emissione (cfr. immagine [ref:e_muf_winkel]). Guardando più attentamente la formula, si riconosce che la MUF è sempre superiore alla frequenza critica – e tanto più quanto più radente l'antenna trasmittente emette o l'antenna ricevente riceve.
 
 [question:AH208]
 
 ---
 
-Für die kommerzielle Frequenzplanung, wo es darauf ankommt, dass eine Funkverbindung mit hoher Wahrscheinlichkeit gelingt, gibt es zudem den Begriff der *FOT* (*frequency of optimal transmission*, optimale Sendefrequenz), oder auch $f_\text{opt}$. Das ist die Frequenz, die auf einem bestimmten Signalweg statistisch an 90% aller Tage eine Funkverbindung erlaubt; sie liegt üblicherweise 15% unter dem monatlichen Mittel der MUF. In der Formelsammlung finden wir diesen Zusammenhang als 
+Per la pianificazione delle frequenze commerciali, dove è importante che un collegamento radio avvenga con alta probabilità, esiste inoltre il concetto di *FOT* (*frequency of optimal transmission*, frequenza di trasmissione ottimale), o anche $f_\text{opt}$. Questa è la frequenza che consente un collegamento radio su un determinato percorso del segnale nel 90% di tutti i giorni statisticamente; di solito è inferiore del 15% alla media mensile della MUF. Nella raccolta di formule troviamo questa relazione come 
 
 $f_\text{OPT} = MUF \cdot 0,85$
 
-Mit diesen Informationen können wir nun die folgende Aufgabe lösen; ein Taschenrechner ist dabei hilfreich.
+Con queste informazioni possiamo ora risolvere il seguente problema; un calcolatore è utile.
 
 [question:AH209]
 
 <indepth>
-Für DX Verbindungen im Amateurfunk spielt die $f_\text{opt}$ keine Rolle, denn dort wählt man in der Regel das höchste Frequenzband, das noch eine Verbindung erlaubt (also am nächsten an der MUF), da dort der geringste Rauschflur und damit das beste Signal zu erwarten ist (höchster Signal-/Rauschabstand SNR).
+Per i collegamenti DX nel radioamatore, la $f_\text{opt}$ non ha importanza, poiché di solito si sceglie la banda di frequenza più alta che consente ancora un collegamento (quindi la più vicina alla MUF), poiché lì ci si aspetta il minor rumore di fondo e quindi il miglior segnale (maggiore rapporto segnale/rumore SNR).
 </indepth>
 
-In der Klasse E haben wir bereits die LUF (Lowest Usable Frequency) kennengelernt. Sie wird von der D-Region bestimmt und bezeichnet die niedrigste nutzbare Frequenz, unterhalb derer die Dämpfung zu stark ist. Die D-Region *dämpft* ja unser Funksignal und pro Sprung muss dieses Signal auch noch *zwei* Mal durch diese D-Region hindurch. Gleichzeitig ist diese Dämpfung umso höher, je niedriger die Frequenz ist (der Zusammenhang ist quadratisch: halbiert man die Frequenz, vervierfacht sich die Dämpfung). Daher wird man, wenn man die Frequenz fortwährend verringert, ebenfalls irgendwann an den Punkt gelangen, wo das zurückgebrochene Signal nicht mehr nutzbar ist; das ist die LUF.
+Nella classe E abbiamo già conosciuto la LUF (Lowest Usable Frequency). È determinata dalla regione D e indica la frequenza minima utilizzabile al di sotto della quale l'attenuazione è troppo elevata. La regione D *attenua* il nostro segnale radio e per ogni salto questo segnale deve attraversare questa regione D *due* volte. Allo stesso tempo, questa attenuazione è tanto maggiore quanto più bassa è la frequenza (la relazione è quadratica: se si dimezza la frequenza, l'attenuazione si quadruplica). Pertanto, se si riduce continuamente la frequenza, si raggiungerà anch'essa prima o poi il punto in cui il segnale rifratto non è più utilizzabile; questa è la LUF.
 
 [question:AH210]
 [question:AH211]

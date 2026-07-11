@@ -1,17 +1,17 @@
-## Verzögerungen in der Signalübertragung
+## Ritardi nella trasmissione del segnale
 
-* Bei der Signalübertragung und -verarbeitung entstehen Verzögerungen  
-* Lichtgeschwindigkeit: Zeit, die elektromagnetische Wellen vom Sender zum Empfänger benötigen  
-* Weitere Verzögerungen durch Zwischenspeicherung (Buffer) und Filter
+* Durante la trasmissione e l'elaborazione del segnale si verificano ritardi.
+* Velocità della luce: tempo impiegato dalle onde elettromagnetiche dal trasmettitore al ricevitore.
+* Ulteriori ritardi dovuti a memorizzazione intermedia (buffer) e filtri.
 
 ---
 
-## Latenz in der Signalverarbeitung
+## Latenza nell'elaborazione del segnale
 
-* Laufzeit zwischen Sender und Empfänger oder zwischen Verarbeitungsstufen  
-* Latenz wird in Sekunden gemessen  
-* Typische Werte: wenige Millisekunden bis einige Sekunden  
-* Analoge Verfahren haben oft geringere Latenzen als digitale, da weniger Zwischenspeicherung erfolgt
+* Tempo di percorrenza tra trasmettitore e ricevitore o tra stadi di elaborazione.
+* La latenza viene misurata in secondi.
+* Valori tipici: da pochi millisecondi a qualche secondo.
+* I metodi analogici hanno spesso latenze inferiori rispetto a quelli digitali, poiché vi è meno memorizzazione intermedia.
 
 ---
 

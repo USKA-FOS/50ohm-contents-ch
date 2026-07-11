@@ -1,45 +1,45 @@
-% Halbleiter II
+% Semiconduttori II
 % DF2DR 2024-08-19
 
-Der Grundstoff unserer modernen Welt sind Halbleitermaterialien. Grund genug, sich damit ein wenig eingehender zu beschäftigen. Halbleiter haben eine Kristallgitterstruktur, das heißt, ihre Atome sind periodisch angeordnet. 
+Il materiale di base del nostro mondo moderno sono i materiali semiconduttori. Ragion per cui vale la pena approfondire un po' l'argomento. I semiconduttori hanno una struttura cristallina reticolare, il che significa che i loro atomi sono disposti periodicamente.
 
 <margin>
-[picture:854:a_silizium_halbleiter:Silizium Halbleiterkristall]
+[picture:854:a_silizium_halbleiter:Cristallo semiconduttore di silicio]
 </margin>
 
-Alle Halbleitermaterialien haben zwei Eigenschaften gemeinsam:
+Tutti i materiali semiconduttori hanno due proprietà in comune:
 
 ---
 
-Es existiert eine *Energiebandlücke*, die eine Folge der periodischen Struktur ist. Das bedeutet, dass Elektronen im Kristall bestimmte Energien nicht einnehmen können. Die höchste Energie, die an Atome gebundene Elektronen haben, nennen wir *Valenzbandenergie*. Da die Elektronen aber alle an Gitteratome gebunden sind, können sie nicht zum Stromfluss beitragen. Es gibt noch weitere Energiezustände, die die Elektronen erreichen können - sie liegen im *Leitungsband*, das um den Betrag der Bandlücke oberhalb der Valenzbandkante liegt. Elektronen im Leitungsband können zum Stromfluss beitragen, wenn wir eine Spannung an die Halbleiterprobe anlegen. Sie brauchen dazu eine Energie, die größer ist als die Energiebandlücke. Diese Energie können sie in Form von thermischer Energie aufnehmen, weshalb hochreine Halbleiter bei niedrigen Temperaturen sehr gute Isolatoren sind.
+Esiste una *banda proibita di energia*, che è una conseguenza della struttura periodica. Ciò significa che gli elettroni nel cristallo non possono assumere determinate energie. L'energia più alta che gli elettroni legati agli atomi possono avere è chiamata *energia della banda di valenza*. Poiché tutti gli elettroni sono legati agli atomi del reticolo, non possono contribuire al flusso di corrente. Esistono altri stati energetici che gli elettroni possono raggiungere: si trovano nella *banda di conduzione*, che si trova al di sopra del bordo della banda di valenza per un importo pari alla banda proibita. Gli elettroni nella banda di conduzione possono contribuire al flusso di corrente se applichiamo una tensione al campione semiconduttore. Per fare ciò, necessitano di un'energia maggiore della banda proibita. Possono assorbire questa energia sotto forma di energia termica, motivo per cui i semiconduttori ad alta purezza sono ottimi isolanti a basse temperature.
 
 [question:AB104]
 
 <margin>
-Die Bandlückenenergie wird durch die chemische Zusammensetzung des Halbleiters bestimmt. Verglichen mit Si hat Ge eine deutlich kleinere, GaAs und InP eine etwas größere und GaN eine viel größere Bandlückenenergie.
+L'energia della banda proibita è determinata dalla composizione chimica del semiconduttore. Rispetto al Si, il Ge ha una banda proibita significativamente più piccola, GaAs e InP una leggermente più grande e GaN una banda proibita molto più grande.
 </margin>
 
-Silizium (Si) und Germanium (Ge) sind *Elementhalbleiter* (wie übrigens auch Diamant, der kristalliner Kohlenstoff ist). Es gibt aber auch chemische Verbindungen, die Halbleiter sind (*Verbindungshalbleiter*), wie Gallium-Arsenid (GaAs), Indium-Phosphid (InP) oder auch Gallium-Nitrid (GaN). 
+Il silicio (Si) e il germanio (Ge) sono *semiconduttori elementari* (come, tra l'altro, anche il diamante, che è carbonio cristallino). Esistono tuttavia anche composti chimici che sono semiconduttori (*semiconduttori composti*), come l'arseniuro di gallio (GaAs), il fosfuro di indio (InP) o anche il nitruro di gallio (GaN).
 
 ---
 
-Materialien mit Energiebandlücke werden nur dann als Halbleiter bezeichnet, wenn sie zusätzlich *dotierbar* sind. Ihre Leitfähigkeit kann durch gezielte Verunreinigung des hochreinen Halbleitermaterials in weiten Grenzen verändert werden. So hat Arsen (As), verglichen mit den Elementhalbleitern, ein Elektron mehr in der äußeren Elektronenschale. Dieses Elektron kann sehr einfach und mit wenig Energie zu einem freien Elektron im Leitungsband werden. So eine Dotierung nennen wir *n-Dotierung*.
+I materiali con una banda proibita di energia sono definiti semiconduttori solo se sono anche *dopabili*. La loro conduttività può essere modificata entro ampi limiti mediante l'aggiunta mirata di impurità al materiale semiconduttore ad alta purezza. L'arsenico (As), ad esempio, ha un elettrone in più nel guscio elettronico esterno rispetto ai semiconduttori elementari. Questo elettrone può diventare molto facilmente un elettrone libero nella banda di conduzione con poca energia. Chiamiamo questo tipo di drogaggio *drogaggio n*.
 
 <margin>
-[picture:855:a_n_dotierung:n-Dotierung]
+[picture:855:a_n_dotierung:Drogaggio n]
 </margin>
 
 ---
 
-Was aber passiert, wenn wir den Halbleiter mit einem Material verunreinigen, das in der äußeren Elektronenschale ein Elektron zu wenig hat? Eine solche Elektronenfehlstelle nennen wir ein *Loch*. Da das Atom vorher neutral war, hat die Elektronenfehlstelle eine positive Ladung. Die Löcher können sich ebenfalls im Kristall bewegen und zu einem Stromfluss beitragen. So eine Dotierung nennen wir *p-Dotierung*.
+Ma cosa succede se contaminamo il semiconduttore con un materiale che ha un elettrone in meno nel guscio elettronico esterno? Chiamiamo una tale lacuna elettronica una *lacuna*. Poiché l'atomo era precedentemente neutro, la lacuna elettronica ha una carica positiva. Le lacune possono anche muoversi nel cristallo e contribuire al flusso di corrente. Chiamiamo questo tipo di drogaggio *drogaggio p*.
 
 <margin>
-[picture:856:a_p_dotierung:p-Dotierung]
+[picture:856:a_p_dotierung:Drogaggio p]
 </margin>
 
-Zusammenfassend können wir feststellen:
-* Die n-Dotierung erzeugt im Halbleiter einen Elektronenüberschuss.
-* Die p-Dotierung erzeugt im Halbleiter einen Löcherüberschuss.
+In sintesi, possiamo affermare:
+* Il drogaggio n crea un eccesso di elettroni nel semiconduttore.
+* Il drogaggio p crea un eccesso di lacune nel semiconduttore.
 
 [question:AB105]
 [question:AB106]
@@ -47,32 +47,31 @@ Zusammenfassend können wir feststellen:
 
 ---
 
-Kombiniert man in einem Kristall, aber räumlich getrennt, p-dotierte und n-dotierte Zonnen, so findet in der Kontaktebene ein Ladungsträger-Austausch statt: Elektronen bewegen sich aus dem n-dotierten Gebiet in Richtung p-dotiertes Gebiet, Löcher bewegen sind aus dem p-dotierten Gebiet in Richtung n-dotiertes Gebiet. Diese Ladungsträgerbewegung, die durch die Dichteunterschiede von Elektronen und Löchern hervorgerufen wird, nennen wir Diffusionsstrom.
-
-Diese Ladungstrennung erzeugt andererseits ein elektrisches Feld mit entgegengesetzter Wirkung, das zu einem Feldstrom führt. Im Gleichgewicht (ohne von außen angelegte Spannung) halten sich die Wirkungen von Diffusion und elektrischem Feld gerade die Waage. Zwischen den p- und n-Zonen entsteht ein Gebiet ohne freie Ladungsträger, die man als *Verarmungszone* oder *Sperrschicht* bezeichnet. Eine solche Struktur stellt eine *pn-Diode* dar.
+Se si combinano zone p e n in un cristallo, ma spazialmente separate, avviene uno scambio di portatori di carica nel piano di contatto: gli elettroni si muovono dalla zona drogata n verso la zona drogata p, le lacune si muovono dalla zona drogata p verso la zona drogata n. Questo movimento di portatori di carica, causato dalle differenze di densità di elettroni e lacune, è chiamato corrente di diffusione.
+D'altra parte, questa separazione di carica crea un campo elettrico con un effetto opposto, che porta a una corrente di campo. In equilibrio (senza tensione applicata esternamente), gli effetti della diffusione e del campo elettrico si bilanciano perfettamente. Tra le zone p e n si forma una regione priva di portatori di carica liberi, chiamata *zona di svuotamento* o *strato di blocco*. Una tale struttura rappresenta un *diodo pn*.
 
 [question:AB108]
 
 <margin>
-[picture:857:a_pn_uebergang:PN-Übergang]
+[picture:857:a_pn_uebergang:Giunzione PN]
 </margin>
 
 ---
 
-Jetzt legen wir von außen eine Spannung an, die an dem p-Gebiet (*Anode*) positiver ist als am n-Gebiet (*Kathode*). Die positive Elektrode zieht über die Verarmungszone hinweg Elektronen an und die negative Elektrode Löcher. Die Verarmungszone wird abgebaut, es kommt zu einem Stromfluss. Dies stellt den Betrieb in *Durchlassrichtung* dar.
+Ora applichiamo una tensione esterna, in cui la zona p (*anodo*) è più positiva della zona n (*catodo*). L'elettrodo positivo attira elettroni attraverso la zona di svuotamento e l'elettrodo negativo attira lacune. La zona di svuotamento viene ridotta, si verifica un flusso di corrente. Questa è la modalità operativa in *direzione di conduzione*.
 
 <margin>
-[picture:956:a_pn_uebergang_mit_spannung:PN-Übergang mit externer Spannung]
+[picture:956:a_pn_uebergang_mit_spannung:Giunzione PN con tensione esterna]
 </margin>
 
 [question:AC402]
 
 ---
 
-Drehen wir die Spannung nun um, weitet sich die Verarmungszone aus, der Stromfluss kommt zum Erliegen. Dies ist der *Sperrbetrieb* der Diode.
+Se ora invertiamo la tensione, la zona di svuotamento si espande, il flusso di corrente si interrompe. Questa è la *modalità di blocco* del diodo.
 
 <margin>
-[picture:957:a_pn_uebergang_mit_spannung:PN-Übergang mit externer Spannung]
+[picture:957:a_pn_uebergang_mit_spannung:Giunzione PN con tensione esterna]
 </margin>
 
 

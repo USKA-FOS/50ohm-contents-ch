@@ -1,18 +1,18 @@
-## Wechselspannung
+## Tensione alternata
 
-* Die Wechselspannung im Stromnetz schwingt 50 mal in der Sekunde
-* Die Anzahl der Schwingungen pro Sekunde nennt man Frequenz
-* Die Einheit ist Hertz mit der Abkürzung $\unit{\hertz}$
-* $\qty{1}{\hertz}\rightarrow$ 1 Schwingung pro Sekunde
-* Das Stromnetz hat eine Frequenz von $\qty{50}{\hertz}$
+* La tensione alternata nella rete elettrica oscilla 50 volte al secondo
+* Il numero di oscillazioni al secondo si chiama Frequenza
+* L'unità di misura è Hertz con l'abbreviazione $\unit{\hertz}$
+* $\qty{1}{\hertz}\rightarrow$ 1 oscillazione al secondo
+* La rete elettrica ha una frequenza di $\qty{50}{\hertz}$
 
 ---
-## Einheit Hertz
+## Unità Hertz
 
-* Misst die Frequenz
-* $\qty{1}{\hertz}\rightarrow$ 1 Schwingung pro Sekunde
-* Benannt nach dem deutschen Physiker Heinrich Rudolf Hertz
-* Erzeugte im Jahr 1886 als erster Mensch elektromagnetische Wellen und konnte sie nachweisen
+* Misura la Frequenza
+* $\qty{1}{\hertz}\rightarrow$ 1 oscillazione al secondo
+* Prende il nome dal fisico tedesco Heinrich Rudolf Hertz
+* Nel 1886, fu la prima persona a generare onde elettromagnetiche e a dimostrarne l'esistenza
 
 <fragment>
 $$\qty{1}{\hertz} = \frac{1}{\unit{s}}$$
@@ -25,21 +25,21 @@ $$\qty{1}{\hertz} = \frac{1}{\unit{s}}$$
 [question:NA207]
 ---
 
-## Hohe Schwingungen
+## Alte oscillazioni
 
-* Im Funk wird mit viel höheren Schwingungen gearbeitet
-* z.B. $\qty{144000000}{\hertz}$
-* Abkürzung: $\qty{144}{\mega\hertz}$ (Megahertz)
-* Einheitenvorzeichen "$\unit{\mega\,}$" vor "$\unit{\hertz}$" gesetzt
-* Der Wert wird mit einer Million multipliziert
+* In radio si lavora con oscillazioni molto più alte
+* Ad esempio $\qty{144000000}{\hertz}$
+* Abbreviazione: $\qty{144}{\mega\hertz}$ (Megahertz)
+* Il prefisso dell'unità "$\unit{\mega\,}$" viene posto prima di "$\unit{\hertz}$"
+* Il valore viene moltiplicato per un milione
 
 ---
 
-| l: Bezeichnung | r: Abkürzung | r: Wert |
+| l: Denominazione | r: Abbreviazione | r: Valore |
 | 1 Kilohertz | $\qty{1}{\kilo\hertz}$ | $\qty{1000}{\hertz}$ |
 | 1 Megahertz | $\qty{1}{\mega\hertz}$ | $\qty{1000000}{\hertz}$ |
 | 1 Gigahertz | $\qty{1}{\giga\hertz}$ | $\qty{1000000000}{\hertz}$ |
-[table:n_frequenz_einheitenvorzeichen:Kurzschreibweise für große Frequenzen]
+[table:n_frequenz_einheitenvorzeichen:Notazione abbreviata per alte frequenze]
 
 ---
 
@@ -47,15 +47,15 @@ $$\qty{1}{\hertz} = \frac{1}{\unit{s}}$$
 
 ---
 
-## Frequenzen Klasse N
+## Frequenze Classe N
 
-In der Klasse N dürfen drei Frequenzbereiche verwendet werden
-* $\qty{28}{\mega\hertz}$ bis $\qty{29,7}{\mega\hertz}$
-* $\qty{144}{\mega\hertz}$ bis $\qty{146}{\mega\hertz}$
-* $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$
+Nella classe N sono consentite tre bande di frequenza
+* $\qty{28}{\mega\hertz}$ a $\qty{29,7}{\mega\hertz}$
+* $\qty{144}{\mega\hertz}$ a $\qty{146}{\mega\hertz}$
+* $\qty{430}{\mega\hertz}$ a $\qty{440}{\mega\hertz}$
 
 <fragment>
-In der Klasse E und A kommen weitere Frequenzbereiche hinzu
+Nella classe E e A si aggiungono ulteriori bande di frequenza
 </fragment>
 
 ---
@@ -64,13 +64,13 @@ In der Klasse E und A kommen weitere Frequenzbereiche hinzu
 
 ---
 
-## Oszillator
+## Oscillatore
 
-* Ein Oszillator erzeugt elektrische Schwingungen in einem Funkgerät
-* Beim Senden werden die Schwingungen auf die Antenne geleitet und als Funkwellen abgestrahlt
+* Un oscillatore genera oscillazioni elettriche in un apparecchio radio
+* Durante la trasmissione, le oscillazioni vengono inviate all'antenna e irradiate come onde radio
 
 <note>
-Lateinisch "oscillare": schaukeln
+Dal latino "oscillare": dondolare
 </note>
 
 ---
@@ -79,15 +79,15 @@ Lateinisch "oscillare": schaukeln
 
 ---
 
-## Frequenzmessung
+## Misurazione della frequenza
 
 <left>
-[photo:150:frequenz_frequenzzaehler:Frequenzzähler, der $\qty{29,6}{\mega\hertz}$ misst]
+[photo:150:frequenz_frequenzzaehler:Frequenzmetro che misura $\qty{29,6}{\mega\hertz}$]
 </left>
 <right>
-* Beim Senden soll eine genaue Frequenz verwendet werden
-* Die Messung erfolgt mit einem Frequenzzähler
-* Beim Bau zum Abgleich der Anzeige am Funkgerät
+* Durante la trasmissione deve essere utilizzata una frequenza precisa
+* La misurazione viene effettuata con un frequenzimetro
+* Durante la costruzione, per la calibrazione dell'indicatore sull'apparecchio radio
 </right>
 
 ---

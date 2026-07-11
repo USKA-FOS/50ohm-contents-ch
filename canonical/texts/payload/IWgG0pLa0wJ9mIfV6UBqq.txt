@@ -1,16 +1,16 @@
 <left>
-[photo:291:a_Spule mit Anzapfungen:Spule mit 14 Anzapfungen in einem selbstgebauten Antennenanpassgerät]
+[photo:291:a_Spule mit Anzapfungen:Bobina con 14 derivazioni in un dispositivo di adattamento di antenna autocostruito]
 
 $L_{\mathrm{ges}} = L_1 + L_2 + L_3 + \dots$
 </left>
 <right>
-* Bei einer Spule in Reihenschaltung addieren sich die Induktivitäten
-* Mehrere Spulen hintereinander $\rightarrow$ Wicklung wird verlängert
+* In una bobina in serie, le induttanze si sommano
+* Diverse bobine una dopo l'altra $\rightarrow$ l'avvolgimento si allunga
 </right>
 
 ---
 [question:AD102]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 
 $L_{\mathrm{ges}} = \qty{2200}{\nano\henry} + \qty{0,033}{\milli\henry} + \qty{150}{\micro\henry} = \qty{185,2}{\micro\henry}$

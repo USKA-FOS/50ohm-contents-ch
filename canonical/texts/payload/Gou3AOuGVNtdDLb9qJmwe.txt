@@ -1,24 +1,24 @@
-Wir haben auch schon gelernt: Sobald man einen elektrischen Verbraucher wie eine Lampe an die beiden Pole einer Spannungsquelle anschließt, fangen die getrennten elektrischen Ladungen an sich zu bewegen. Wir nennen dies einen *geschlossenen Stromkreis*, in dem ein elektrischer Strom fließt. Abhängig davon, wie groß eine Spannung ist und was für ein Verbraucher angeschlossen wird, fließt mehr oder weniger Strom. Wir sprechen von der *elektrischen Stromstärke*, die in der Einheit Ampere mit der Abkürzung $\unit{\ampere}$ angegeben wird.
+Abbiamo anche imparato: non appena si collega un carico elettrico come una lampada ai due poli di una fonte di tensione, le cariche elettriche separate iniziano a muoversi. Chiamiamo questo un *circuito chiuso* in cui scorre una corrente elettrica. A seconda di quanto sia elevata una tensione e quale carico venga collegato, scorre più o meno corrente. Parliamo di *intensità di corrente* elettrica, che viene indicata nell'unità ampere con l'abbreviazione $\unit{\ampere}$.
 
 <person>
-Die Einheit Ampere ist nach dem französischem Physiker und Mathematiker *André-Marie Ampère* benannt, der in den 1820er Jahren die elektrische Spannung und den elektrischen Strom wissenschaftlich erklärte.
+L'unità ampere prende il nome dal fisico e matematico francese *André-Marie Ampère*, che negli anni '20 dell'Ottocento spiegò scientificamente la tensione elettrica e la corrente elettrica.
 </person>
 
 [question:NA202]
 
 ---
 
-Schauen wir uns wieder einige Beispiele an: Durch eine Leuchtdiode (LED) fließen beispielsweise $\qty{5}{\milli\ampere}$ Strom. Bei einem Transceiver im Empfangsbetrieb sind es z. B. schon $\qty{900}{\milli\ampere}$, also fast ein Ampere. Durch einen Transceiver im Sendebetrieb kann schon wesentlich mehr Strom fließen, beispielsweise $\qty{21}{\ampere}$.
+Guardiamo di nuovo alcuni esempi: attraverso un diodo a emissione luminosa (LED) scorrono ad esempio $\qty{5}{\milli\ampere}$ di corrente. Per un trasmettitore-ricevitore in modalità di ricezione, si tratta già di $\qty{900}{\milli\ampere}$, quasi un ampere. Attraverso un trasmettitore-ricevitore in modalità di trasmissione può scorrere una corrente notevolmente maggiore, ad esempio $\qty{21}{\ampere}$.
 
 <webmargin>
-| l: Verbraucher | r: | c: | l: |
-| Leuchtdiode (LED) | $\qty{5}{\milli\ampere}$ | = | $\qty{0,005}{\ampere}$ |
-| Transceiver im Empfangsbetrieb | $\qty{900}{\milli\ampere}$ | = | $\qty{0,9}{\ampere}$ |
-| Transceiver im Sendebetrieb | $\qty{21}{\ampere}$ | = | $\qty{21}{\ampere}$ |
-[table:strom_beispiele:Beispiele für Ströme]
+| l: Carico | r: | c: | l: |
+| Diodo a emissione luminosa (LED) | $\qty{5}{\milli\ampere}$ | = | $\qty{0,005}{\ampere}$ |
+| Trasmettitore-ricevitore in ricezione | $\qty{900}{\milli\ampere}$ | = | $\qty{0,9}{\ampere}$ |
+| Trasmettitore-ricevitore in trasmissione | $\qty{21}{\ampere}$ | = | $\qty{21}{\ampere}$ |
+[table:strom_beispiele:Esempi di correnti]
 </webmargin>
 
-Um die folgende Aufgabe zu lösen, müssen wir uns klar machen, dass $\qty{1}{\milli\ampere}$ das gleiche ist wie $\qty{0,001}{\ampere}$. Beim Lösen muss man aber aufpassen, mit den Nullen nach dem Komma nicht durcheinander zu kommen: Wenn $\qty{1}{\milli\ampere}$ dasselbe wie $\qty{0,001}{\ampere}$ ist, dann ist $\qty{10}{\milli\ampere}$ dasselbe wie $\qty{0,010}{\ampere}$. Demzufolge ist $\qty{40}{\milli\ampere}$ also $\qty{0,040}{\ampere}$. Schlussendlich entspricht $\qty{42}{\milli\ampere}$ also $\qty{0,042}{\ampere}$.
+Per risolvere il seguente problema, dobbiamo capire che $\qty{1}{\milli\ampere}$ è uguale a $\qty{0,001}{\ampere}$. Nella risoluzione, tuttavia, bisogna fare attenzione a non confondersi con gli zeri dopo la virgola: se $\qty{1}{\milli\ampere}$ è uguale a $\qty{0,001}{\ampere}$, allora $\qty{10}{\milli\ampere}$ è uguale a $\qty{0,010}{\ampere}$. Di conseguenza, $\qty{40}{\milli\ampere}$ è $\qty{0,040}{\ampere}$. Infine, $\qty{42}{\milli\ampere}$ corrisponde a $\qty{0,042}{\ampere}$.
 
 [question:NA209]
 

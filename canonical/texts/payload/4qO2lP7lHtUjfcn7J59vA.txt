@@ -1,13 +1,13 @@
-Die Schaltung besteht aus sechs in Reihe geschalteten Zellen mit jeweils $\qty{2}{\volt}$.
+Il circuito è composto da sei celle collegate in serie, ciascuna con $\qty{2}{\volt}$.
 
-Bei einer Reihenschaltung addieren sich die Spannungen:
+In una connessione in serie, le tensioni si sommano:
 
-$U_\mathrm{ges} = 6 \cdot \qty{2}{\volt} = \qty{12}{\volt}$
+$U_\mathrm{tot} = 6 \cdot \qty{2}{\volt} = \qty{12}{\volt}$
 
-Die Kapazität in Amperestunden bleibt bei einer Reihenschaltung unverändert. Jede Zelle besitzt eine Kapazität von $\qty{10}{\ampere\hour}$, daher besitzt auch der gesamte Akku
+La capacità in ampereora rimane invariata in una connessione in serie. Ogni cella ha una capacità di $\qty{10}{\ampereora}$, quindi anche la batteria completa ha
 
-$\qty{10}{\ampere\hour}$.
+$\qty{10}{\ampereora}$.
 
-Der Akku hat somit die Daten:
+La batteria ha quindi i seguenti dati:
 
-$\qty{12}{\volt} / \qty{10}{\ampere\hour}$
+$\qty{12}{\volt} / \qty{10}{\ampereora}$

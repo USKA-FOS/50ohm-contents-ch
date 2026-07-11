@@ -1,18 +1,18 @@
 ## SNR (Signal-to-Noise Ratio)
 
-* Verhältnis von Nutzsignal zu Rauschsignal (Noise)
-* Je höher das SNR, desto mehr hebt sich das Signal vom Rauschen ab
+* Rapporto tra segnale utile e segnale di rumore
+* Maggiore è l'SNR, più il segnale si distingue dal rumore
 
 ---
 [question:AF227]
 ---
-## Rauschzahl
+## Fattore di rumore
 
-* Wird häufig bei HF-Vorverstärkern angegeben
-* Verschlechterung des SNR bei Durchgang des Signals durch den Verstärker
-* Verhältnis von eingehendem SNR zu ausgehendem SNR
-* Rauschmaß: Angabe der Rauschzahl in $\unit{\dB}$
-* Rauschzahl $\num{2}\rightarrow$ Rauschmaß $\qty{3}{\dB}$
+* Spesso indicato per i preamplificatori HF
+* Peggioramento dell'SNR al passaggio del segnale attraverso l'amplificatore
+* Rapporto tra SNR in ingresso e SNR in uscita
+* Rapporto di rumore: indicazione del fattore di rumore in $\unit{\dB}$
+* Fattore di rumore $\num{2}\rightarrow$ Rapporto di rumore $\qty{3}{\dB}$
 
 ---
 [question:AF228]

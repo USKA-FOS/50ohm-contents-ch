@@ -1,12 +1,12 @@
-## Unerwünschte Aussendungen durch Mischprodukte
+## Trasmissioni indesiderate dovute a prodotti di mescolanza
 
 <left>
-[picture:243:a_unerwuenschte_aussendungen_bandpassfilter:Frequenzgang eines Bandpassfilters]
+[picture:243:a_unerwuenschte_aussendungen_bandpassfilter:Risposta in frequenza di un filtro passa-banda]
 </left>
 <right>
-* Entstehen in der Frequenzaufbereitung von Sendern  
-* Mischprodukte entstehen in Mischern  
-* Bandpassfilter unterdrücken unerwünschte Signale  
+* Si formano nella preparazione della frequenza dei trasmettitori  
+* I prodotti di mescolanza si formano nei mixer  
+* I filtri passa-banda sopprimono i segnali indesiderati  
 </right>
 
 ---
@@ -23,17 +23,17 @@
 
 --- style="font-size: smaller;"
 
-### Harmonische und Oberwellen
+### Armoniche e armoniche superiori
 
 <left>
-[picture:868:a_harmonische: Oberwellen (OW), Harmonische (Harm.) und Nebenaussendungen (NA)]
+[picture:868:a_harmonische: Armoniche superiori (OW), armoniche (Harm.) e emissioni spurie (NA)]
 </left>
 <right>
-* Vielfache der Grundfrequenz eines Signals  
-* Unterschied in Definition und Zählweise  
-* 1. Harmonische = Grundfrequenz  
-* 2. Harmonische = 1. Oberwelle  
-* 3. Harmonische = 2. Oberwelle  
+* Multipli della frequenza fondamentale di un segnale  
+* Differenza nella definizione e nel conteggio  
+* 1ª armonica = frequenza fondamentale  
+* 2ª armonica = 1ª armonica superiore  
+* 3ª armonica = 2ª armonica superiore  
 </right>
   
 ---
@@ -41,10 +41,10 @@
 [question:AJ204]
 
 ---
-#### Lösungsweg
-* gegeben: $f = \qty{29,5}{\mega\hertz}$
-* gegeben: $n = 3$
-* gegeben: Radiobereich: $\qtyrange{88,5}{108,0}{\mega\hertz}$
+#### Percorso di soluzione
+* dato: $f = \qty{29,5}{\mega\hertz}$
+* dato: $n = 3$
+* dato: Banda radio: $\qtyrange{88,5}{108,0}{\mega\hertz}$
 
 <fragment>
 $f \cdot n = \qty{29,5}{\mega\hertz} \cdot 3 = \qty{88,5}{\mega\hertz}$
@@ -55,10 +55,10 @@ $f \cdot n = \qty{29,5}{\mega\hertz} \cdot 3 = \qty{88,5}{\mega\hertz}$
 [question:AJ203]
 
 ---
-#### Lösungsweg
-* gegeben: $f = \qty{7,20}{\mega\hertz}$
-* gegeben: $n = 4$
-* gesucht: 3. Oberwelle
+#### Percorso di soluzione
+* dato: $f = \qty{7,20}{\mega\hertz}$
+* dato: $n = 4$
+* cercato: 3ª armonica superiore
 
 <fragment>
 $f \cdot n = \qty{7,20}{\mega\hertz} \cdot 4 = \qty{28,80}{\mega\hertz}$
@@ -66,19 +66,19 @@ $f \cdot n = \qty{7,20}{\mega\hertz} \cdot 4 = \qty{28,80}{\mega\hertz}$
 
 ---
 
-### Entstehung von Oberwellen
+### Formazione di armoniche superiori
 
 <left>
-[picture:106:a_unerwuenschte_aussendungen_uebersteuerung:Übersteuertes Signal]
+[picture:106:a_unerwuenschte_aussendungen_uebersteuerung:Segnale sovraeccitato]
 </left>
 <right>
-* Ursache: Übersteuerung von Verstärkerstufen  
-* Begrenzung der Amplituden-Spitzen führt zu Verzerrungen  
-* Oberwellen treten auf, wenn Sinusform nicht ideal ist  
+* Causa: sovraeccitazione degli stadi dell'amplificatore  
+* La limitazione dei picchi di ampiezza porta a distorsioni  
+* Le armoniche superiori compaiono quando la forma sinusoidale non è ideale  
 </right>
 
 <note>
-Oberwellen und Harmonische entstehen immer, wenn sich Abweichungen von der idealen Sinus-Kurve bilden.
+Le armoniche superiori e le armoniche si formano sempre quando si verificano deviazioni dalla curva sinusoidale ideale.
 </note>
 
 ---
@@ -87,11 +87,11 @@ Oberwellen und Harmonische entstehen immer, wenn sich Abweichungen von der ideal
 
 ---
 
-## Sperrkreise zur Unterdrückung
+## Circuiti trappola per la soppressione
 
-* Unterdrückung einzelner Oberwellen oder Harmonischer  
-* Sperrkreis: Dämpft genau eine Frequenz maximal  
-* Andere Frequenzen werden nahezu ungehindert durchgelassen  
+* Soppressione di singole armoniche superiori o armoniche  
+* Circuito trappola: Attenua al massimo una sola frequenza  
+* Altre frequenze vengono trasmesse quasi senza ostacoli  
 
 ---
 
@@ -99,12 +99,12 @@ Oberwellen und Harmonische entstehen immer, wenn sich Abweichungen von der ideal
 
 ---
 
-## Nebenaussendungen
+## Emissioni spurie
 
-* Tritt in unmittelbarer Nähe zum Sendesignal auf  
-* Durch Filter schwer zu unterdrücken  
-* Entstehung durch übersteuerte Mikrofonverstärkung  
-* Verbreitert ungewollt das Sendesignal (Nebenaussendung, Nebenprodukte, "Splatter")  
+* Si verificano in prossimità immediata del segnale di trasmissione  
+* Difficili da sopprimere con filtri  
+* Formazione dovuta a sovraeccitazione dell'amplificazione del microfono  
+* Allarga involontariamente il segnale di trasmissione (emissioni spurie, prodotti secondari, "splatter")  
 
 ---
 
@@ -112,12 +112,12 @@ Oberwellen und Harmonische entstehen immer, wenn sich Abweichungen von der ideal
 
 ---
 
-## Störungen durch unstabile Versorgungsspannung
+## Interferenze dovute a tensione di alimentazione instabile
 
-* Schlechte Netzteile erzeugen Brummspannung  
-* Kann zu AM-Aussendungen führen  
-* NF-Einstreuungen beeinflussen Sender  
-* Besonders bei älteren Sendern problematisch  
+* Alimentatori scadenti generano tensione di ronzio  
+* Può portare a trasmissioni AM  
+* Interferenze BF influenzano il trasmettitore  
+* Particolarmente problematico con trasmettitori più vecchi  
 
 ---
 
@@ -129,21 +129,21 @@ Oberwellen und Harmonische entstehen immer, wenn sich Abweichungen von der ideal
 
 ---
 
-## Gesetzliche Grenzwerte für Oberwellen und Nebenaussendungen
+## Limiti legali per armoniche superiori ed emissioni spurie
 
-* Funkamateure müssen Grenzwerte einhalten  
-* Zwei Frequenzbereiche mit unterschiedlichen Anforderungen  
+* I radioamatori devono rispettare i limiti  
+* Due bande di frequenza con requisiti diversi  
 
 <note>
-Weitere Informationen in der [Verfügung 33](http://50ohm.de/vfg33) von 2007.
+Ulteriori informazioni nella [Ordinanza 33](http://50ohm.de/vfg33) del 2007.
 </note>
 
 ---
 
-### HF-Bereich ($\qtyrange{1,7}{35}{\mega\hertz}$)
+### Banda HF ($\qtyrange{1,7}{35}{\mega\hertz}$)
 
-* Dämpfung mindestens $\qty{40}{\dB}$
-* Signalleistung über $\qty{0,25}{\micro\watt}$ relevant
+* Attenuazione minima $\qty{40}{\dB}$
+* Potenza del segnale superiore a $\qty{0,25}{\micro\watt}$ rilevante
 
 ---
 
@@ -151,10 +151,10 @@ Weitere Informationen in der [Verfügung 33](http://50ohm.de/vfg33) von 2007.
 
 ---
 
-### VHF/UHF/SHF-Bereich ($\qtyrange{50}{1000}{\mega\hertz}$)
+### Banda VHF/UHF/SHF ($\qtyrange{50}{1000}{\mega\hertz}$)
 
-* Dämpfung mindestens $\qty{60}{\dB}$
-* Signalleistung über $\qty{0,25}{\micro\watt}$ relevant
+* Attenuazione minima $\qty{60}{\dB}$
+* Potenza del segnale superiore a $\qty{0,25}{\micro\watt}$ rilevante
 
 ---
 

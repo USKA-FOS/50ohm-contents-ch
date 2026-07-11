@@ -1,43 +1,43 @@
-* Digitales Modulationsverfahren zur Datenübertragung  
-* Veränderung der Phase eines Trägersignals zur Repräsentation von Bitwerten  
-* Weniger anfällig für Amplitudenrauschen $\rightarrow$ ermöglicht höhere Datenraten
+* Metodo di modulazione digitale per la trasmissione dati  
+* Modifica della fase di un segnale portante per rappresentare valori di bit  
+* Meno suscettibile al rumore di ampiezza $\rightarrow$ consente velocità di trasmissione dati più elevate
 
 ---
-## Prinzip der Phasenumtastung
+## Principio della modulazione a spostamento di fase
 
 <left>
-[picture:705:psk:Phasenumtastung (Phase-shift Keying)]
+[picture:705:psk:Modulazione a spostamento di fase (Phase-shift Keying)]
 </left>
 <right>
 <fragment>
 *BPSK (Binary Phase Shift Keying)*
-* Zwei Phasenwinkel: $\qty{0}{\degree}$ und $\qty{180}{\degree}$  
-* Jeder Winkel repräsentiert einen Bitwert ($\num{0}$ oder $\num{1}$)
+* Due angoli di fase: $\qty{0}{\degree}$ e $\qty{180}{\degree}$  
+* Ogni angolo rappresenta un valore di bit ($\num{0}$ o $\num{1}$)
 </fragment>
 </right>
 
 ---
-Höhere Varianten:  
+Varianti superiori:  
 
-* *QPSK (Quadrature PSK)*: Vier Phasen ($\qty{0}{\degree}$, $\qty{90}{\degree}$, $\qty{180}{\degree}$, $\qty{270}{\degree}$) – $\qty{2}{\text{Bits pro Symbol}}$
-* *8-PSK*: Acht Phasen – $\qty{3}{\text{Bits pro Symbol}}$
+* *QPSK (Quadrature PSK)*: Quattro fasi ($\qty{0}{\degree}$, $\qty{90}{\degree}$, $\qty{180}{\degree}$, $\qty{270}{\degree}$) – $\qty{2}{\text{Bit per simbolo}}$
+* *8-PSK*: Otto fasi – $\qty{3}{\text{Bit per simbolo}}$
 
-
----
-
-## PSK-Signale in der Zeitdarstellung
-
-* Die Amplitude bleibt konstant; nur die Phase ändert sich  
-* *BPSK*: Abrupter Sprung von positiver zu negativer Amplitude bei Bitwechsel  
-* *QPSK*: Mehrere Phasenwinkel mit kleineren Übergängen, wodurch die Kurve geglättet erscheint
 
 ---
 
-## Erkennung von PSK-Signalen
+## Segnali PSK nella rappresentazione temporale
 
-* *Im Zeitbereich*: Deutliche, abrupte Phasenwechsel  
-* *Im Phasendiagramm (Constellation Diagram)*: Punkte auf einem Kreis, die die stabilen Phasenlagen anzeigen
-* PSK bietet eine robuste digitale Kommunikation mit hoher Datenrate und guter Rauschfestigkeit
+* L'ampiezza rimane costante; cambia solo la fase  
+* *BPSK*: Salto brusco da ampiezza positiva a negativa al cambio di bit  
+* *QPSK*: Diversi angoli di fase con transizioni più piccole, il che rende la curva più levigata
+
+---
+
+## Riconoscimento dei segnali PSK
+
+* *Nel dominio del tempo*: Cambi di fase chiari e bruschi  
+* *Nel diagramma di fase (Constellation Diagram)*: Punti su un cerchio che indicano le posizioni di fase stabili
+* PSK offre una comunicazione digitale robusta con alta velocità di trasmissione dati e buona resistenza al rumore
 
 ---
 

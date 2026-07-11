@@ -1,23 +1,23 @@
 <left>
-[picture:489:a_frequenzvervielfacher_schaltung:Beispiel für eine Schaltung eines Frequenzvervielfachers mit Klasse-C-Verstärker ohne Basis-Vorspannung]
+[picture:489:a_frequenzvervielfacher_schaltung:Esempio di circuito di un moltiplicatore di frequenza con amplificatore di classe C senza polarizzazione di base]
 </left>
 <right>
-* Eingangssignal wird einer nichtlinearen Verzerrerstufe zugeführt
-* Z.B. Klasse-C-Verstärker, durch Betrieb ohne Basis-Vorspannung
-* Signal wird stark verzerrt
-* Mit Filter wird die gewünschte Oberschwingung selektiert
+* Il segnale di ingresso viene immesso in uno stadio di distorsione non lineare
+* Ad es. amplificatore di classe C, tramite funzionamento senza polarizzazione di base
+* Il segnale viene fortemente distorto
+* Con un filtro viene selezionata la sovratonica desiderata
 </right>
 <note>
-Verstärkerschaltungen kommen später im Kapitel.
+Gli stadi amplificatori verranno trattati più avanti nel capitolo.
 </note>
 ---
 <left>
-[picture:489:a_frequenzvervielfacher_schaltung:Beispiel für eine Schaltung eines Frequenzvervielfachers mit Klasse-C-Verstärker ohne Basis-Vorspannung]
+[picture:489:a_frequenzvervielfacher_schaltung:Esempio di circuito di un moltiplicatore di frequenza con amplificatore di classe C senza polarizzazione di base]
 </left>
 <right>
-* Nur ganzzahlige Vielfache möglich
-* In der Regel wird die 2. oder 3. Harmonische verwendet
-* Höhere Frequenzvervielfachung mit hintereinander geschalteten Stufen
+* Sono possibili solo multipli interi
+* Di norma si utilizza la 2ª o 3ª armonica
+* Moltiplicazione di frequenza più elevata con stadi collegati in serie
 </right>
 <note>
 </note>
@@ -26,36 +26,36 @@ Verstärkerschaltungen kommen später im Kapitel.
 ---
 [question:AF311]
 ---
-### Schirmung
+### Schermatura
 
-* Es werden Zwischenfrequenzen erzeugt
-* Diese führen oft zu Störungen
-* Alle Stufen müssen gut abgeschirmt sein
+* Vengono generate frequenze intermedie
+* Queste spesso causano disturbi
+* Tutti gli stadi devono essere ben schermati
 
 ---
 [question:AF313]
 ---
-### Mehrere Vervielfacher-Stufen
+### Diversi stadi moltiplicatori
 
-* Die einzelnen Frequenzen zwischen den Vervielfacher-Stufen können zu Störungen führen
-* Weg durch die einzelnen Stufen verfolgen und die einzelnen Frequenzen berechnen
-* Die Reihenfolge der Stufen ist wichtig zur Ermittlung der Störfrequenzen
+* Le singole frequenze tra gli stadi moltiplicatori possono causare disturbi
+* Seguire il percorso attraverso i singoli stadi e calcolare le singole frequenze
+* L'ordine degli stadi è importante per determinare le frequenze di disturbo
 
 ---
 [question:AF314]
 ---
-#### Lösungsweg
-* gegeben: $f_\text{Sender} = \qty{432}{\mega\hertz}$
-* gegeben: $f_\text{Grund} = \qty{12}{\mega\hertz}$
-* gegeben: $f_\text{QRM} = \qty{144}{\mega\hertz}$
-* gesucht: Vervielfachungskombination
+#### Percorso di soluzione
+* dato: $f_\text{trasmettitore} = \qty{432}{\mega\hertz}$
+* dato: $f_\text{fondamentale} = \qty{12}{\mega\hertz}$
+* dato: $f_\text{QRM} = \qty{144}{\mega\hertz}$
+* cercato: combinazione di moltiplicazione
 
 <fragment>
-$n = \frac{f_\text{Sender}}{f_\text{QRM}} = \frac{\qty{432}{\mega\hertz}}{\qty{144}{\mega\hertz}} = 3$
+$n = \frac{f_\text{trasmettitore}}{f_\text{QRM}} = \frac{\qty{432}{\mega\hertz}}{\qty{144}{\mega\hertz}} = 3$
 </fragment>
 <fragment>
-Es ist nur die Kombination aus $\textrm{Grundfrequenz}\,\cdot 2\cdot 2\cdot 3\cdot 3$ möglich, da diese als letzte eine Verdreifachung der Frequenz vornimmt.
+È possibile solo la combinazione di $\textrm{frequenza fondamentale}\,\cdot 2\cdot 2\cdot 3\cdot 3$, poiché questa esegue per ultima una triplicazione della frequenza.
 </fragment>
 ---
-Gegenprobe:
-$\begin{split}f_\text{Sender} &= f_\text{Grund}\cdot 2\cdot 2\cdot 3\cdot 3\\ &= \qty{12}{\mega\hertz}\cdot 2\cdot 2\cdot 3\cdot 3\\ &= \qty{24}{\mega\hertz}\cdot 2\cdot 3\cdot 3\\ &= \qty{48}{\mega\hertz}\cdot 3\cdot 3\\ &= \bold{\qty{144}{\mega\hertz}}\cdot 3\\ &= \qty{432}{\mega\hertz}\end{split}$
+Controprova:
+$\begin{split}f_\text{trasmettitore} &= f_\text{fondamentale}\cdot 2\cdot 2\cdot 3\cdot 3\\ &= \qty{12}{\mega\hertz}\cdot 2\cdot 2\cdot 3\cdot 3\\ &= \qty{24}{\mega\hertz}\cdot 2\cdot 3\cdot 3\\ &= \qty{48}{\mega\hertz}\cdot 3\cdot 3\\ &= \bold{\qty{144}{\mega\hertz}}\cdot 3\\ &= \qty{432}{\mega\hertz}\end{split}$

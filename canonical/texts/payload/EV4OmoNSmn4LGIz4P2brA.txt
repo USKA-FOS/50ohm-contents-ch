@@ -1,41 +1,41 @@
-*Konverter* und *Transverter* werden im Amateurfunk eingesetzt, um mit vorhandenen Funkgeräten zusätzliche Frequenzbereiche zu erschließen, die diese Geräte ursprünglich nicht abdecken. Ein *Konverter* setzt das Signal dabei nur in eine Richtung um, entweder im Sendepfad oder im Empfangspfad. Ein *Transverter* hingegen verfügt über eine interne Sende-/Empfangsumschaltung und übernimmt die Frequenzumsetzung sowohl im Sende- als auch im Empfangsbetrieb. Die Frequenzumsetzung bei Konvertern und Transvertern erfolgt hierbei immer durch Mischung in einem oder mehreren Mischern.
+*Convertitori* e *transverter* sono utilizzati nel radioamatore per espandere le bande di frequenza accessibili con apparecchi radio esistenti, che questi apparecchi originariamente non coprono. Un *convertitore* converte il segnale in una sola direzione, o nel percorso di trasmissione o nel percorso di ricezione. Un *transverter*, invece, dispone di un commutatore interno di trasmissione/ricezione e si occupa della conversione di frequenza sia in trasmissione che in ricezione. La conversione di frequenza nei convertitori e nei transverter avviene sempre tramite miscelazione in uno o più mixer.
 
-Beispielsweise kann man mit einem entsprechenden Transverter und einem vorhandenen Kurzwellen-Transceiver z.B. auch Betrieb im VHF/UHF/SHF-Bereich machen. Hierbei würde man z. B. das $\qty{10}{\meter}$-Band des Kurzwellen-Transceivers mittels eines Transverters auf $\qty{2}{\meter}$/$\qty{70}{\centi\meter}$ oder $\qty{23}{\centi\meter}$ in beide Richtungen umsetzen.
+Ad esempio, con un transverter appropriato e un trasmettitore-ricevitore per onde corte esistente, è possibile operare anche nelle bande VHF/UHF/SHF. In questo caso, si convertirebbe ad esempio la banda dei $\qty{10}{\meter}$ del trasmettitore-ricevitore per onde corte tramite un transverter a $\qty{2}{\meter}$/$\qty{70}{\centi\meter}$ o $\qty{23}{\centi\meter}$ in entrambe le direzioni.
 
 [question:EF501]
 [question:EF502]
 
 ---
 
-Betrachten wir im ersten Schritt das Blockschaltbild eines Konverters in Abbildung [ref:e_konverter]. Ein solcher Konverter könnte beispielsweise dazu verwendet werden, ein Signal aus einem VHF-Funkgerät für den Amateurfunksatelliten QO-100 umzusetzen, der eine Eingangsfrequenz im $\qty{2,4}{\giga\hertz}$-Band benötigt. Ein Transverter ist hier ggf. nicht nötig, da der Empfang über einen SDR-Stick und ein LNB erfolgt.
+Consideriamo nel primo passo lo schema a blocchi di un convertitore nella figura [ref:e_konverter]. Un tale convertitore potrebbe essere utilizzato, ad esempio, per convertire un segnale da un apparecchio radio VHF per il satellite per radioamatori QO-100, che richiede una frequenza di ingresso nella banda dei $\qty{2,4}{\giga\hertz}$. Un transverter potrebbe non essere necessario in questo caso, poiché la ricezione avviene tramite un dongle SDR e un LNB.
 
-Aus dem Blockschaltbild ist ersichtlich, dass ein definierter Eingangsfrequenzbereich mithilfe mindestens eines Mischers auf einen anderen Ausgangsfrequenzbereich umgesetzt wird. Eine Sende- und Empfangsumschaltung ist dabei nicht vorgesehen. Ein Konverter kann daher ein Signal nur in eine Richtung umsetzen, entweder im Empfangs- (RX) oder im Sendepfad (TX). Bei Konvertern für den Sendebetrieb ist häufig eine PTT-Steuerung vorhanden, die im Sendefall die Verstärkerstufen des Konverters aktiviert.
+Dallo schema a blocchi è evidente che una banda di frequenza di ingresso definita viene convertita in un'altra banda di frequenza di uscita utilizzando almeno un mixer. Non è prevista alcuna commutazione di trasmissione e ricezione. Un convertitore può quindi convertire un segnale solo in una direzione, o nel percorso di ricezione (RX) o nel percorso di trasmissione (TX). Nei convertitori per il funzionamento in trasmissione è spesso presente un controllo PTT, che attiva gli stadi di amplificazione del convertitore in caso di trasmissione.
 
-Auf welches Frequenzband ein Konverter das Signal umsetzt, lässt sich aus der dem Mischer zugeführten Oszillatorfrequenz sowie der Ein- oder Ausgangsfrequenz rechnerisch bestimmen. Im konkreten Beispiel ergibt sich die Zielfrequenz aus dem Mischprodukt von
+Su quale banda di frequenza un convertitore converte il segnale può essere determinato matematicamente dalla frequenza dell'oscillatore fornita ai mixer e dalla frequenza di ingresso o uscita. Nell'esempio concreto, la frequenza di destinazione risulta dal prodotto di miscelazione di
 $\qty{144}{\mega\hertz} + \qty{2,256}{\giga\hertz} = \qty{2,4}{\giga\hertz}$,
-wobei das gewünschte Produkt anschließend durch geeignete Filter selektiert wird.
+dove il prodotto desiderato viene successivamente selezionato da filtri appropriati.
 
 <margin>
-[picture:651:e_konverter:Konverterschaltung z. B. Für QO-100]
+[picture:651:e_konverter:Circuito convertitore es. per QO-100]
 </margin>
 
 [question:EF504]
 
 ---
 
-Die Schaltung eines Transverters lässt sich gut von der eines Konverters unterscheiden. Die Abbildungen [ref:e_transverter_rx] und [ref:e_transverter_tx] zeigen das Blockdiagramm eines Transverters, der es ermöglicht, mit einem $\qty{10}{\meter}$-Kurzwellen-Transceiver auf dem $\qty{2}{\meter}$-Band Betrieb zu machen. Dazu werden eine Sende-/Empfangsumschaltung sowie zwei Mischer und zwei getrennte Signalpfade verwendet – jeweils einer für den Empfangs- (RX) und einer für den Sendebetrieb (TX).
+Il circuito di un transverter si distingue bene da quello di un convertitore. Le figure [ref:e_transverter_rx] e [ref:e_transverter_tx] mostrano il diagramma a blocchi di un transverter che consente di operare sulla banda dei $\qty{2}{\meter}$ con un trasmettitore-ricevitore per onde corte da $\qty{10}{\meter}$. A tale scopo vengono utilizzati un commutatore di trasmissione/ricezione, due mixer e due percorsi di segnale separati – uno per la ricezione (RX) e uno per la trasmissione (TX).
 
-Der TX-Zweig setzt im Sendefall das Ausgangssignal des Transceivers auf das gewünschte höhere Frequenzband um, während der RX-Zweig im Empfangsfall das von der Antenne kommende Signal auf das für den Transceiver geeignete Frequenzband heruntermischt. Zwischen welchen Frequenzbändern der Transverter arbeitet, lässt sich durch Kenntnis der Oszillatorfrequenz, die den Mischern zugeführt wird, sowie der jeweiligen Ein- und Ausgangsfrequenzen rechnerisch bestimmen. Diese Zusammenhänge sind in den Abbildungen dargestellt.
+Il ramo TX, in caso di trasmissione, converte il segnale di uscita del trasmettitore-ricevitore nella banda di frequenza superiore desiderata, mentre il ramo RX, in caso di ricezione, riduce il segnale proveniente dall'antenna alla banda di frequenza adatta al trasmettitore-ricevitore. Tra quali bande di frequenza opera il transverter può essere determinato matematicamente conoscendo la frequenza dell'oscillatore fornita ai mixer e le rispettive frequenze di ingresso e uscita. Queste relazioni sono illustrate nelle figure.
 
-Der quarzstabilisierte Oszillator ($G$) erzeugt eine Frequenz von $\qty{38,666}{\mega\hertz}$, die mithilfe eines 1:3-Frequenzvervielfachers auf $\qty{116}{\mega\hertz}$ erhöht wird. Im Empfangsfall, dargestellt in Abbildung [ref:e_transverter_rx], wird das Eingangssignal aus dem Frequenzbereich $\qtyrange{144}{146}{\mega\hertz}$ auf den Bereich $\qtyrange{28}{30}{\mega\hertz}$ heruntergemischt. Im Sendefall, gezeigt in Abbildung [ref:e_transverter_tx], wird das Ausgangssignal des Funkgeräts aus dem Bereich $\qtyrange{28}{30}{\mega\hertz}$ auf den Frequenzbereich $\qtyrange{144}{146}{\mega\hertz}$ hochgemischt. Wie üblich kommen in beiden Signalpfaden geeignete Filter zur Selektion der gewünschten Mischprodukte zum Einsatz, die hier aus Gründen der Übersichtlichkeit nicht eingezeichnet sind.
+L'oscillatore stabilizzato al quarzo ($G$) genera una frequenza di $\qty{38,666}{\mega\hertz}$, che viene aumentata a $\qty{116}{\mega\hertz}$ tramite un moltiplicatore di frequenza 1:3. In ricezione, mostrato nella figura [ref:e_transverter_rx], il segnale di ingresso dalla banda $\qtyrange{144}{146}{\mega\hertz}$ viene ridotto alla banda $\qtyrange{28}{30}{\mega\hertz}$. In trasmissione, mostrato nella figura [ref:e_transverter_tx], il segnale di uscita dell'apparecchio radio dalla banda $\qtyrange{28}{30}{\mega\hertz}$ viene aumentato alla banda di frequenza $\qtyrange{144}{146}{\mega\hertz}$. Come di consueto, in entrambi i percorsi di segnale vengono utilizzati filtri appropriati per la selezione dei prodotti di miscelazione desiderati, che qui non sono disegnati per chiarezza.
 
 [question:EF503]
 
 <margin>
-[picture:842:e_transverter_rx:Transverter im RX-Pfad]
-[picture:843:e_transverter_tx:Transverter im TX-Pfad]
+[picture:842:e_transverter_rx:Transverter nel percorso RX]
+[picture:843:e_transverter_tx:Transverter nel percorso TX]
 </margin>
 
-Transverter und Konverter, die für hohe Eingangs- oder Ausgangsfrequenzen (im GHz-Bereich) ausgelegt werden, müssen über einen sehr stabilen Oszillator verfügen. Fehler in der Oszillatorfrequenz führen durch interne Frequenzvervielfachung aufgrund der hohen Ausgangsfrequenzen bei schmalbandigen Betriebsarten oder SSB zu unannehmbaren Abweichungen in der Zielfrequenz. Eine Abweichung in der Oszillatorfrequenz wird durch deren Vervielfachung ebenfalls vervielfacht. Oft verwendet man einen sog. TCXO oder OCXO, der auch zusätzlich noch über eine externe Referenzquelle synchronisiert werden kann (z.B. GPS), um die Oszillatorfrequenz möglichst gut zu stabilisieren und Abweichungen in der Zielfrequenz klein zu halten.
+I transverter e i convertitori progettati per frequenze di ingresso o uscita elevate (nella gamma GHz) devono disporre di un oscillatore molto stabile. Errori nella frequenza dell'oscillatore portano, a causa della moltiplicazione interna della frequenza e delle elevate frequenze di uscita, a deviazioni inaccettabili nella frequenza di destinazione per modi operativi a banda stretta o SSB. Una deviazione nella frequenza dell'oscillatore viene anch'essa moltiplicata dalla sua moltiplicazione. Spesso si utilizza un cosiddetto TCXO o OCXO, che può anche essere sincronizzato esternamente tramite una sorgente di riferimento (ad es. GPS) per stabilizzare al meglio la frequenza dell'oscillatore e mantenere piccole le deviazioni nella frequenza di destinazione.
 
 [question:EF505]

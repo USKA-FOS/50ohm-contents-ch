@@ -1,11 +1,11 @@
-## Strom- und Spannungsmessung
+## Misurazione di corrente e tensione
 
 <left>
-* Spannung wird parallel zum Bauteil gemessen
-* Strom wird in Reihe mit dem Bauteil gemessen
+* La tensione viene misurata in parallelo al componente
+* La corrente viene misurata in serie con il componente
 </left>
 <right>
-[picture:1003:a_strom_spannung_messung:Messen der Leistung eines Verstärkers (PA)]
+[picture:1003:a_strom_spannung_messung:Misurazione della potenza di un amplificatore (PA)]
 </right>
 
 ---
@@ -13,53 +13,53 @@
 ---
 [question:AI102]
 ---
-## Messgenauigkeit
+## Precisione di misurazione
 
-Der angezeigte Messwert unterscheidet sich meist vom tatsächlichen Wert
-* Innenwiderstand des Messgeräts
-* Auflösungsvermögen $\rightarrow$ *kleinste Auflösung*
-* Anzeige verändert sich erst nach Änderung um die kleinste Auflösung
-* Hersteller ermittelt die Abweichung
-* Abweichung wird im Datenblatt angegeben
+Il valore misurato visualizzato di solito differisce dal valore effettivo
+* Resistenza interna dello strumento di misura
+* Capacità di risoluzione $\rightarrow$ *risoluzione minima*
+* L'indicazione cambia solo dopo una variazione pari alla risoluzione minima
+* Il produttore determina la deviazione
+* La deviazione è indicata nella scheda tecnica
 
 ---
 
 <left>
-[picture:1004:a_reale_spannungsmessung:Ersatzschaltbild reales Spannungsmessgerät]
+[picture:1004:a_reale_spannungsmessung:Schema equivalente strumento di misura della tensione reale]
 </left>
 
 <right>
-[picture:1007:a_reale_strommessung:Ersatzschaltbild reales Strommessgerät]
+[picture:1007:a_reale_strommessung:Schema equivalente strumento di misura di corrente reale]
 </right>
 
 ---
 [question:AI103]
 --- style="font-size: smaller;"
-### Lösungsweg
+### Percorso di soluzione
 
-* Prozentrechnung – die absoluten Werte sind nicht relevant
-* gegeben: $U_{\mathrm{Abw}}$ mit $\qty{95}{\percent}$ vom Realwert
-* gegeben: $I_{\mathrm{Abw}}$ mit $\qty{95}{\percent}$ vom Realwert
-* gesucht: Abweichung der Leistung $P = U \cdot I$
+* Calcolo percentuale – i valori assoluti non sono rilevanti
+* dato: $U_{\mathrm{Abw}}$ con $\qty{95}{\percent}$ del valore reale
+* dato: $I_{\mathrm{Abw}}$ con $\qty{95}{\percent}$ del valore reale
+* cercato: deviazione della potenza $P = U \cdot I$
 
 <fragment>
 $\begin{split} P_{\textrm{Abw}} &= 100\% - (U_{\mathrm{Abw}} \cdot I_{\mathrm{Abw}})\\ &= 100\% - (95\% \cdot 95\%)\\ &= 100\% - 90,25\%\\ &= 9,75\% \end{split}$
 </fragment>
 
 ---
-## Strom durch Multimeter
+## Corrente attraverso il multimetro
 
-* Auch bei einer Spannungsmessung fließt ein Strom durch ein Messgerät
-* Es findet eine Stromteilung statt
-* Durch den hohen Innenwiderstand ist der abfließende Strom verhältnismäßig klein
+* Anche durante una misurazione di tensione, una corrente scorre attraverso uno strumento di misura
+* Si verifica una divisione della corrente
+* A causa dell'elevata resistenza interna, la corrente che scorre è relativamente piccola
 
 ---
 [question:AI104]
 ---
-### Lösungsweg
-* gegeben: $U = \qty{0,5}{\volt}$
-* gegeben: $R = \qty{10}{\mega\ohm}$
-* gesucht: $I$
+### Percorso di soluzione
+* dato: $U = \qty{0,5}{\volt}$
+* dato: $R = \qty{10}{\mega\ohm}$
+* cercato: $I$
 
 <fragment>
 $$I = \frac{U}{R} = \frac{\qty{0,5}{\volt}}{\qty{10}{\mega\ohm}} = \qty{50}{\nano\ampere}$$

@@ -1,15 +1,15 @@
-## Heißleiter
+## Termistori
 <left>
-* Heißleiter ist ein temperaturabhängiger Widerstand
-* Englisch: Negative Temperature Coefficient Thermistor (*NTC*)
-* Leitet bei *hohen Temperaturen* elektrischen Strom besser
+* Un termistore è una resistenza dipendente dalla temperatura
+* Inglese: Negative Temperature Coefficient Thermistor (*NTC*)
+* Conduce meglio la corrente elettrica a *temperature elevate*
 </left>
 <right>
-[picture:125:e_ntc:Schaltzeichen eines NTC-Widerstands]
+[picture:125:e_ntc:Simbolo di circuito di una resistenza NTC]
 </right>
 <note>
-* Merkhilfe: Der erste Pfeil die Temperatur an, der zweite Pfeil die Leitfähigkeit
-* Hier: Hohe Temperatur, hohe Leitfähigkeit
+* Aiuto mnemonico: La prima freccia indica la temperatura, la seconda freccia la conduttività
+* Qui: Alta temperatura, alta conduttività
 </note>
 
 ---
@@ -17,19 +17,19 @@
 ---
 [question:EC110]
 ---
-## Kaltleiter
+## Termistori PTC
 
 <left>
-* Kaltleiter ist ein temperaturabhängiger Widerstand
-* Englisch: Positive Temperature Coefficient Thermistor (*PTC*)
-* Leitet bei *tiefen Temperaturen* elektrischen Strom besser
+* Un termistore PTC è una resistenza dipendente dalla temperatura
+* Inglese: Positive Temperature Coefficient Thermistor (*PTC*)
+* Conduce meglio la corrente elettrica a *basse temperature*
 </left>
 <right>
-[picture:126:e_ptc:Schaltzeichen eines PTC-Widerstands]
+[picture:126:e_ptc:Simbolo di circuito di una resistenza PTC]
 </right>
 <note>
-* Merkhilfe: Der erste Pfeil die Temperatur an, der zweite Pfeil die Leitfähigkeit
-* Hier: Tiefe Temperatur, hohe Leitfähigkeit
+* Aiuto mnemonico: La prima freccia indica la temperatura, la seconda freccia la conduttività
+* Qui: Bassa temperatura, alta conduttività
 </note>
 ---
 [question:EC111]

@@ -1,30 +1,30 @@
-Die einfachste Art der Fehlererkennung wird durch das Hinzufügen eines zusätzlichen Bits realisiert, dem Prüfbit. Es wird auch *Parity Bit* genannt. Es gibt zwei Varianten dieses Verfahrens. Bei *Even Parity* wird der Wert dieses Bits für jeden Block so gewählt, dass die Anzahl der auf $\num{1}$ gesetzten Bits immer gerade ist. Bei *Odd Parity* hingegen muss die Anzahl immer ungerade sein. Sender und Empfänger müssen sich vor der Übertragung einig sein, welche der beiden Varianten verwendet wird.
+Il modo più semplice per rilevare errori viene realizzato aggiungendo un bit aggiuntivo, il bit di parità. Viene anche chiamato *Parity Bit*. Esistono due varianti di questa procedura. Con la parità pari (*Even Parity*), il valore di questo bit viene scelto per ogni blocco in modo che il numero di bit impostati a $\num{1}$ sia sempre pari. Con la parità dispari (*Odd Parity*), invece, il numero deve essere sempre dispari. Il trasmettitore e il ricevitore devono accordarsi prima della trasmissione su quale delle due varianti verrà utilizzata.
 
 <indepth>
-Nehmen wir an, wir wollen folgendes Byte mit Even Parity übertragen:
+Supponiamo di voler trasmettere il seguente byte con parità pari:
 
-[picture:677:byte:Ein Byte]
+[picture:677:byte:Un Byte]
 
-Wir zählen 5 Einsen, also eine ungerade Anzahl. Das Prüfbit muss demnach auf $\num{1}$ gesetzt werden, damit eine gerade Anzahl an Einsen herauskommt:
+Contiamo 5 uni, quindi un numero dispari. Il bit di parità deve quindi essere impostato a $\num{1}$ per ottenere un numero pari di uni:
 
-[picture:678:even_parity:Das Byte mit Even Parity Bit]
+[picture:678:even_parity:Il Byte con Bit di Parità Pari]
 
-Wenn nun ein Übertragungsfehler *ein* Bit verändert (von $\num{1}$ zu $\num{0}$ oder umgekehrt), dann wird die Anzahl der Einsen ungerade. Der Empfänger erkennt daran, dass ein Fehler vorliegt.
+Se ora un errore di trasmissione modifica *un* bit (da $\num{1}$ a $\num{0}$ o viceversa), il numero di uni diventa dispari. Il ricevitore lo riconosce come un errore.
 
-Ein weiteres Beispiel folgt hier: 
+Segue un altro esempio:
 
-[picture:679:even_parity:Byte mit Even Parity]
+[picture:679:even_parity:Byte con Parità Pari]
 
-Im ursprünglichen Byte zählen wir 4 Einsen, was einer geraden Anzahl entspricht. Deshalb müssen wir als Prüfbit eine $\num{0}$ einfügen.
+Nel byte originale contiamo 4 uni, che corrisponde a un numero pari. Pertanto, dobbiamo inserire uno $\num{0}$ come bit di parità.
 </indepth>
 
-Dieses Verfahren stößt schnell an seine Grenzen, nämlich dann, wenn mehr als ein Fehler bei der Übertragung passiert. Werden bei der Übertragung zwei Bits verändert, so bleibt die Anzahl der Einsen gerade. Der Empfänger kann nicht mehr erkennen, dass Fehler aufgetreten sind. Treten bei der Übertragung drei Fehler auf, so entsteht wieder eine ungerade Anzahl von Einsen und der Empfänger erkennt die Fehler.
+Questa procedura raggiunge rapidamente i suoi limiti, ovvero quando si verificano più di un errore durante la trasmissione. Se durante la trasmissione vengono modificati due bit, il numero di uni rimane pari. Il ricevitore non può più riconoscere che si sono verificati errori. Se si verificano tre errori durante la trasmissione, si ottiene nuovamente un numero dispari di uni e il ricevitore riconosce gli errori.
 
-Odd Parity funktioniert im Prinzip genauso, mit einem einzigen Unterschied: Die Anzahl der Einsen muss nicht gerade, sondern immer ungerade sein. Für Odd Parity gilt genauso wie für Even Parity, dass nur eine ungerade Anzahl falsch übertragener Bits erkannt wird. Eine fehlerfreie Übertragung kann hingegen nicht von einer geraden Anzahl an Fehlern unterschieden werden.
+La parità dispari funziona in linea di principio allo stesso modo, con una sola differenza: il numero di uni non deve essere pari, ma sempre dispari. Per la parità dispari, come per la parità pari, vengono riconosciuti solo un numero dispari di bit trasmessi erroneamente. Una trasmissione priva di errori, d'altra parte, non può essere distinta da un numero pari di errori.
 
 [question:AE411]
 [question:AE412]
 
-Um Mehrbitfehler zu erkennen, kann man weitere Prüfbits hinzufügen. Dies funktioniert sehr gut bei Nachrichten mit einer festen Länge. Ist die Länge der Daten variabel, verwendet man oft spezielle Prüfsummenverfahren wie die *zyklische Redundanzprüfung (CRC)*, welche Fehler bis auf eine gewisse Restwahrscheinlichkeit erkennen. Ähnliche Verfahren sind auch im Alltag anzutreffen, beispielsweise bei Ausweisnummern oder der IBAN.
+Per riconoscere errori multibit, si possono aggiungere ulteriori bit di parità. Questo funziona molto bene con messaggi di lunghezza fissa. Se la lunghezza dei dati è variabile, si utilizzano spesso procedure speciali di controllo di sommatoria come il *controllo di ridondanza ciclica (CRC)*, che riconosce gli errori fino a una certa probabilità residua. Procedure simili si trovano anche nella vita di tutti i giorni, ad esempio nei numeri di identificazione o nell'IBAN.
 
 [question:AE410]

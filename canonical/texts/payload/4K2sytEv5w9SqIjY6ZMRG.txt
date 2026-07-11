@@ -1,9 +1,9 @@
-Für die Beurteilung der gesetzlichen Vorgaben hinsichtlich der Bandbreite einer Aussendung wird gemäß der Amateurfunkverordnung die mittlere Sendeleistung im ausgesendeten Bandbereich betrachtet. Hierbei müssen sich $\qty{99}{\percent}$ der Sendeleistung innerhalb der Grenzen der geforderten Bandbreite befinden. Somit darf maximal $\qty{0,5}{\percent}$ der Sendeleistung auf angrenzende Bandbereiche unter- und oberhalb des Sendesignals entfallen. Dies ist insbesondere für FM-Aussendungen wichtig.
+Per la valutazione delle disposizioni legali relative alla larghezza di banda di una trasmissione, secondo il regolamento radioamatoriale si considera la potenza media di trasmissione nell'intervallo di banda trasmesso. In questo caso, il $\qty{99}{\percent}$ della potenza di trasmissione deve trovarsi entro i limiti della larghezza di banda richiesta. Pertanto, al massimo lo $\qty{0,5}{\percent}$ della potenza di trasmissione può essere allocato alle bande adiacenti, al di sotto e al di sopra del segnale di trasmissione. Ciò è particolarmente importante per le trasmissioni FM.
 
-%TODO: Einfügen Grafik/Skizze hinsichtlich Bandbreite und Leistungsverteilung.
+%TODO: Inserire grafico/schema relativo alla larghezza di banda e alla distribuzione della potenza.
 
 <tip>
-Für die Messung der Leistungsanteile hinsichtlich einer Aussendung und deren Bandbreite ist ein Spektrumanalysator erforderlich. Hierbei haben moderne Geräte oft integrierte mathematische Funktionen, so dass die mittlere Leistung innerhalb einer bestimmten Bandbreite rechnerisch ermittelt werden kann (Kanalleistungsmessung, Nachbarkanalleistungsmessung). Genauere Informationen hierzu können der Bedienungsanleitung des jeweiligen Gerätes entnommen werden.
+Per la misurazione delle componenti di potenza relative a una trasmissione e alla sua larghezza di banda è necessario un analizzatore di spettro. I dispositivi moderni hanno spesso funzioni matematiche integrate, in modo che la potenza media all'interno di una determinata larghezza di banda possa essere determinata matematicamente (misurazione della potenza del canale, misurazione della potenza del canale adiacente). Informazioni più precise in merito possono essere trovate nel manuale d'uso del rispettivo dispositivo.
 </tip>
 
 [question:AE101]

@@ -1,52 +1,52 @@
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Transistor bipolare in configurazione a emettitore comune]
 </left>
 <right>
-* Eingangssignal: Quelle $\rightarrow$ Basis $\rightarrow$ Emitter $\rightarrow$ Masse $\rightarrow$ Quelle
-* Ausgangsignal: Kollektor $\rightarrow$ Last $\rightarrow$ Betriebsspannung $\rightarrow$ Masse $\rightarrow$ Emitter $\rightarrow$ Kollektor
+* Segnale di ingresso: Sorgente $\rightarrow$ Base $\rightarrow$ Emettitore $\rightarrow$ Massa $\rightarrow$ Sorgente
+* Segnale di uscita: Collettore $\rightarrow$ Carico $\rightarrow$ Tensione di servizio $\rightarrow$ Massa $\rightarrow$ Emettitore $\rightarrow$ Collettore
 </right>
 
 ---
 [question:AD409]
 ---
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Transistor bipolare in configurazione a emettitore comune]
 </left>
 <right>
-* Arbeitspunkt (BIAS) wird über den Spannungsteiler an der Basis eingestellt
+* Punto di funzionamento (BIAS) impostato tramite il partitore di tensione sulla base
 </right>
 
 ---
 [question:AD411]
 ---
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Transistor bipolare in configurazione a emettitore comune]
 </left>
 <right>
-* Kollektorwiderstand wandelt Kollektorstrom in eine Spannung um
-* Kollektorstrom fließt in den Emitterstrom rein
-* Emitterwiderstand erzeugt Spannungsabfall und erhöht das Emitterpotenzial
-* Thermische Änderungen des Kollektorstroms werden automatisch ausgeglichen
+* La resistenza di collettore converte la corrente di collettore in una tensione
+* La corrente di collettore fluisce nella corrente dell'emettitore
+* La resistenza dell'emettitore genera una caduta di tensione e aumenta il potenziale dell'emettitore
+* Le variazioni termiche della corrente di collettore vengono compensate automaticamente
 </right>
 ---
 [question:AD413]
 ---
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Transistor bipolare in configurazione a emettitore comune]
 </left>
 <right>
-* Ein- und Auskopplung über Koppelkondensatoren
-* Halten Gleichspannungsanteile aus der Netzspannung vom Arbeitspunkt fern
+* Accoppiamento e disaccoppiamento tramite condensatori di accoppiamento
+* Mantengono le componenti di tensione continua della tensione di rete lontane dal punto di funzionamento
 </right>
 ---
 [question:AD412]
 ---
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Transistor bipolare in configurazione a emettitore comune]
 </left>
 <right>
-* Abblockkondensator führt unerwünschte HF- und NF-Signale aus der Betriebsspannung nach Masse ab
-* Phasenverschiebung zwischen Ein- und Ausgangssignal: $\qty{180}{\degree}$
+* Il condensatore di disaccoppiamento scarica sulla massa i segnali indesiderati HF e NF dalla tensione di servizio
+* Sfasamento tra segnale di ingresso e uscita: $\qty{180}{\degree}$
 </right>
 ---
 [question:AD407]
@@ -54,28 +54,28 @@
 [question:AD408]
 --- style="font-size: smaller;"
 <left>
-[picture:227:a_emitterschaltung_ohne_bias:Bipoltransistor in Emitterschaltung ohne Arbeitspunktvoreinstellung]
+[picture:227:a_emitterschaltung_ohne_bias:Transistor bipolare in configurazione a emettitore comune senza preimpostazione del punto di funzionamento]
 </left>
 <right>
-* BIAS-Spannungsteiler entfällt
-* Ansteuerung erfolgt nur durch das zugeführte Signal
-* Basis-Emitter-Strecke leitet erst, wenn ca. $\qty{0,5}{\volt}$ überschritten werden
-* Bei Überschreitung fließt ein Kollektorstrom
-* Spannungsabfall am Ausgang
+* Il partitore di tensione BIAS viene omesso
+* Il pilotaggio avviene solo tramite il segnale applicato
+* La giunzione base-emettitore conduce solo quando vengono superati circa $\qty{0,5}{\volt}$
+* Al superamento, fluisce una corrente di collettore
+* Caduta di tensione in uscita
 </right>
 ---
 [question:AD406]
 ---
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Transistor bipolare in configurazione a emettitore comune]
 </left>
 <right>
-* Spannungsverstärkung ca. $100\dots 300$
-* Entfernung des Emitterkondensators $\rightarrow$ Verstärkungfaktor sinkt erheblich
-* Verstärkungsfaktor nur noch durch Verhältnis Kollektor- zu Emitterwiderstand definiert
+* Guadagno di tensione circa $100\dots 300$
+* Rimozione del condensatore dell'emettitore $\rightarrow$ il fattore di amplificazione diminuisce notevolmente
+* Il fattore di amplificazione è definito solo dal rapporto tra la resistenza di collettore e quella dell'emettitore
 </right>
 <note>
-Hohe Spannungsverstärkung
+Alto guadagno di tensione
 </note>
 ---
 [question:AD414]

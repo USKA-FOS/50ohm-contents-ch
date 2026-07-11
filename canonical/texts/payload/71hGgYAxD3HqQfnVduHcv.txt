@@ -1,21 +1,21 @@
-Genauso wie es verschiedene analoge Modulationsverfahren (z. B. FM, AM, SSB) gibt, gibt es auch verschiedene digitale Modulationsverfahren. Die grundlegenden Möglichkeiten, ein Signal zu modulieren, also auf einen Hochfrequenzträger aufzuprägen, sind dieselben: Veränderung der Amplitude, der Frequenz oder der Phase des Trägers.
+Esistono diversi metodi di modulazione digitale, proprio come esistono diversi metodi di modulazione analogica (ad es. FM, AM, SSB). Le possibilità fondamentali di modulare un segnale, cioè di sovrapporlo a una portante ad alta Frequenza, sono le stesse: variazione dell'ampiezza, della Frequenza o della fase della portante.
 
-Bei der Amplitudenumtastung (Amplitude Shift Keying, ASK) wird im einfachsten Fall zwischen zwei Amplituden gewechselt. Dabei kann eine kleine Amplitude für ein Bit mit dem Wert $\num{0}$ und eine große Amplitude für ein Bit mit dem Wert $\num{1}$ stehen, wie in Abbildung [ref:e_ask] dargestellt. Es kann aber auch genau andersherum sein. Oftmals, beispielsweise bei CW, wird einfach zwischen aus- und eingeschaltetem Träger unterschieden. Dieser Sonderfall der ASK wird als On-Off-Keying (OOK) bezeichnet. Später zeigen wir noch Verfahren, bei denen zwischen mehr als zwei verschiedenen Amplituden umgeschaltet wird.
+Nella modulazione a spostamento di ampiezza (Amplitude Shift Keying, ASK), nel caso più semplice si passa tra due ampiezze. Un'ampiezza piccola può rappresentare un bit con valore $\num{0}$ e un'ampiezza grande un bit con valore $\num{1}$, come mostrato nella figura [ref:e_ask]. Ma può anche essere esattamente il contrario. Spesso, ad esempio con CW, si distingue semplicemente tra portante accesa e spenta. Questo caso speciale di ASK è chiamato On-Off-Keying (OOK). Successivamente mostreremo metodi in cui si passa tra più di due ampiezze diverse.
 
 [question:EE406]
 
 <margin>
-[picture:700:e_ask:Amplitudenumtastung (Amplitude-shift Keying)]
+[picture:700:e_ask:Modulazione a spostamento di ampiezza (Amplitude-shift Keying)]
 </margin>
 
 ---
 
-Bei der Frequenzumtastung (Frequency Shift Keying, FSK) wechselt der Sender anstelle der Amplituden zwischen bestimmten Frequenzen, wie in Abbildung [ref:e_fsk] dargestellt.
+Nella modulazione a spostamento di Frequenza (Frequency Shift Keying, FSK), il trasmettitore passa tra frequenze specifiche invece che tra ampiezze, come mostrato nella figura [ref:e_fsk].
 
 <margin>
-[picture:703:e_fsk:Frequenzumtastung (Frequency-shift Keying)]
+[picture:703:e_fsk:Modulazione a spostamento di Frequenza (Frequency-shift Keying)]
 </margin>
   
-Die festgelegten Amplituden und Frequenzen zwischen denen umgeschaltet wird, werden als "Symbole" bezeichnet.
+Le ampiezze e le frequenze definite tra cui si passa sono chiamate "simboli".
 
 [question:EE407]

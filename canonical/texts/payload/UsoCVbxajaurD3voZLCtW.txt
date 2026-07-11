@@ -1,46 +1,46 @@
-## Widerstand von Drähten
+## Resistenza dei fili
 
 <left>
-* Leitfähiges Material besteht aus Atomen in einer (Gitter-)Struktur
-* Elektronen werden geteilt und sind dadurch frei beweglich
-* Je nach Material gibt es mehr oder weniger freie Elektronen, die auf Atome stoßen
+* Il materiale conduttivo è costituito da atomi in una struttura (reticolare)
+* Gli elettroni sono condivisi e quindi liberi di muoversi
+* A seconda del materiale, ci sono più o meno elettroni liberi che si scontrano con gli atomi
 </left>
 <right>
-[picture:713:a_leitermodell:Atome (+) und bewegliche Elektronen (-) in einem metallischen Leiter]
+[picture:713:a_leitermodell:Atomi (+) ed elettroni mobili (-) in un conduttore metallico]
 </right>
 
 ---
-### Spezifischer Widerstand $\rho$
+### Resistività specifica $\rho$
 <left>
 $R = \frac{\rho\cdot l}{A_{\textrm{Dr}}}$
 
-* $l$: Drahtlänge
-* $A_{\textrm{Dr}}$: Drahtquerschnitt
-* $\rho$: Spezifischer Widerstand in $\unit{\ohm\cdot\milli\meter\squared\per\meter}$
+* $l$: Lunghezza del filo
+* $A_{\textrm{Dr}}$: Sezione del filo
+* $\rho$: Resistività specifica in $\unit{\ohm\cdot\milli\meter\squared\per\meter}$
 </left>
 <right>
 <fragment>
-* Kupfer: 0,018
-* Aluminium: 0,028
-* Gold: 0,022
-* Silber: 0,016
-* Zink: 0,11
-* Eisen: 0,1
-* Messing: 0,07
+* Rame: 0,018
+* Alluminio: 0,028
+* Oro: 0,022
+* Argento: 0,016
+* Zinco: 0,11
+* Ferro: 0,1
+* Ottone: 0,07
 </fragment>
 </right>
 <note>
-Damit lässt sich der ohmsche Widerstand eines Drahtes bei bekanntem Material, Länge und dem Querschnitt ausrechnen
+Con questo è possibile calcolare la resistenza ohmica di un filo, dato il materiale, la lunghezza e la sezione trasversale.
 </note>
 
 ---
 [question:AB101]
---- style="font-size: smaller;"
-### Lösungsweg
-* gegeben: $l = \qty{1,8}{\meter}$
-* gegeben: $d = \qty{0,2}{\milli\meter}$
-* gegeben: $\rho = \qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}$
-* gesucht: $R$
+---
+### Sviluppo della soluzione
+* dato: $l = \qty{1,8}{\meter}$
+* dato: $d = \qty{0,2}{\milli\meter}$
+* dato: $\rho = \qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}$
+* cercato: $R$
 
 <fragment>
 $$A_{\textrm{Dr}} = \frac{d^2\cdot \pi}{4} = \frac{(\qty{0,2}{\milli\meter})^2 \cdot \pi}{4} = \frac{\pi}{100}\unit{\milli\meter\squared} = \qty{0,0314}{\milli\meter\squared}$$
@@ -51,21 +51,21 @@ $$R = \frac{\rho\cdot l}{A_{\textrm{Dr}}} = \frac{\qty{0,018}{\ohm\cdot\milli\me
 ---
 [question:AB102]
 ---
-### Lösungsweg
-* gegeben: $A_{\textrm{Dr}} = \qty{0,5}{\milli\meter\squared}$
-* gegeben: $R = \qty{1,5}{\ohm}$
-* gegeben: $\rho = \qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}$
-* gesucht: $l$
+### Sviluppo della soluzione
+* dato: $A_{\textrm{Dr}} = \qty{0,5}{\milli\meter\squared}$
+* dato: $R = \qty{1,5}{\ohm}$
+* dato: $\rho = \qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}$
+* cercato: $l$
 
 <fragment>
 $\begin{split} R &= \frac{\rho\cdot l}{A_{\textrm{Dr}}}\\ \Rightarrow l &= \frac{R\cdot A_{\textrm{Dr}}}{\rho} = \frac{\qty{1,5}{\ohm} \cdot \qty{0,5}{\milli\meter\squared}}{\qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}} \approx \qty{41,7}{\meter} \end{split}$
 </fragment>
 
 ---
-## Temperaturkoeffizient
+## Coefficiente di temperatura
 
-* Widerstand von Metallen steigt bei zunehmender Temperatur
-* Atome bewegen sich bei höherer Temperatur mehr, wodurch es zu mehr Kollisionen mit Elektronen kommt
+* La resistenza dei metalli aumenta all'aumentare della temperatura
+* Gli atomi si muovono di più a temperature più elevate, causando più collisioni con gli elettroni
 
 ---
 [question:AB103]

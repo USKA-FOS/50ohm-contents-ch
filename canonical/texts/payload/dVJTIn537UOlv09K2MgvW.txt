@@ -1,13 +1,13 @@
-Bei der Phasenmodulation wird die Phase einer Trägerwelle in Abhängigkeit vom Modulationssignal verändert. Das bedeutet, dass die Phasenverschiebung der Trägerwelle direkt proportional zur Amplitude des Modulationssignals variiert. Diese Veränderung der Phase bleibt im Verlauf des Signals erhalten und variiert im Vergleich zur ursprünglichen Trägerwelle in einem bestimmten Muster. Das Resultat ist ein sinusförmiges Signal, dessen „Versatz“ (Phase) sich laufend anpasst, ohne dass sich dabei die Amplitude des Signals ändert.
+Nella modulazione di fase, la fase di un'onda portante viene modificata in dipendenza dal segnale di modulazione. Ciò significa che lo sfasamento dell'onda portante varia direttamente in proporzione all'ampiezza del segnale di modulazione. Questa variazione di fase viene mantenuta nel corso del segnale e varia rispetto all'onda portante originale secondo uno schema specifico. Il risultato è un segnale sinusoidale la cui "posizione" (fase) si adatta continuamente, senza che l'ampiezza del segnale cambi.
 
-Die Phasenmodulation kann man sich bildlich als das Verschieben der Sinuskurve entlang der Zeitachse vorstellen, wobei jede Veränderung der Phase durch das Modulationssignal gesteuert wird. Je stärker die Amplitude des Modulationssignals, desto mehr verschiebt sich die Phase des Trägersignals.
+La modulazione di fase può essere immaginata come lo spostamento della curva sinusoidale lungo l'asse temporale, dove ogni variazione di fase è controllata dal segnale di modulazione. Maggiore è l'ampiezza del segnale di modulazione, maggiore sarà lo spostamento di fase del segnale portante.
 
-Phasenmodulation und Frequenzmodulation gehören beide zur Gruppe der Winkelmodulationstechniken, da sie beide den Winkel der Trägerwelle beeinflussen. Der Unterschied liegt darin, dass bei der Frequenzmodulation die Frequenz und bei der Phasenmodulation die Phase direkt beeinflusst wird.
+La modulazione di fase e la modulazione di frequenza appartengono entrambe al gruppo delle tecniche di modulazione angolare, poiché entrambe influenzano l'angolo dell'onda portante. La differenza sta nel fatto che nella modulazione di frequenza viene influenzata direttamente la frequenza, mentre nella modulazione di fase viene influenzata direttamente la fase.
 
-Dies zeigt sich besonders deutlich bei einem Rechtecksignal als Nutzsignal: Bei der Phasenmodulation bewirkt jede Flanke des Rechtecks einen sofortigen Phasensprung des Trägersignals, während bei der Frequenzmodulation die Signalflanke lediglich einen Frequenzwechsel auslöst – die daraus resultierende Phasenänderung entsteht erst indirekt, indem sie sich kontinuierlich über die Zeit aufakkumuliert.
+Ciò è particolarmente evidente con un segnale a onda quadra come segnale utile: nella modulazione di fase, ogni fronte del segnale a onda quadra provoca un salto di fase immediato del segnale portante, mentre nella modulazione di frequenza il fronte del segnale innesca solo un cambio di frequenza – la conseguente variazione di fase si accumula solo indirettamente, accumulandosi continuamente nel tempo.
 
 <margin>
-[picture:907:a_phasenmodulation:Phasenmodulation mit Umkehrung der Phase]
+[picture:907:a_phasenmodulation:Modulazione di fase con inversione di fase]
 </margin>
 
 <webonly>
@@ -17,27 +17,27 @@ Dies zeigt sich besonders deutlich bei einem Rechtecksignal als Nutzsignal: Bei 
 </webonly>
 
 <indepth>
-Für mathematisch Interessierte: Bei der Phasenmodulation hat das Nutzsignal $m(t)$ einen direkten Einfluss auf die Phase, z. B.: 
+Per gli interessati alla matematica: nella modulazione di fase, il segnale utile $m(t)$ ha un'influenza diretta sulla fase, ad esempio:
 
 $\varphi(t) = m(t)$
 
-Das Trägersignal wird als Sinusschwingung der Form
+Il segnale portante viene generato come un'oscillazione sinusoidale della forma
 
 $s(t) = A_c \cos(2\pi f_c t + \varphi(t))$
 
-erzeugt, wobei $A_c$ die Amplitude, $f_c$ die Trägerfrequenz und $\varphi(t)$ die modulierte Phase ist.
+dove $A_c$ è l'ampiezza, $f_c$ è la frequenza portante e $\varphi(t)$ è la fase modulata.
 
-Die beiden Modulationsarten FM und PM stehen in einem engen Zusammenhang: Die Phasenmodulation eines Signals hat indirekt eine Veränderung der Frequenz zur Folge, und umgekehrt erzeugt die Frequenzmodulation eine Änderung der Phase. Mathematisch kann man den Zusammenhang zwischen Frequenz und Phase durch die folgende Beziehung ausdrücken:
+I due tipi di modulazione FM e PM sono strettamente correlati: la modulazione di fase di un segnale ha indirettamente una conseguenza sulla variazione di frequenza, e viceversa la modulazione di frequenza crea una variazione di fase. Matematicamente, la relazione tra frequenza e fase può essere espressa dalla seguente relazione:
 
 $f_i(t) = \frac{1}{2\pi} \cdot \frac{d\varphi(t)}{dt}$
 
-Das bedeutet die Frequenz ist die zeitliche Ableitung der Phase.
+Ciò significa che la frequenza è la derivata temporale della fase.
 
-Es ist also möglich, die Frequenzmodulation durch Phasenmodulation zu realisieren, indem das Nutzsignal $m(t)$ integriert wird:
+È quindi possibile realizzare la modulazione di frequenza tramite modulazione di fase, integrando il segnale utile $m(t)$:
 
 $\varphi(t) = 2\pi \int m(t) \, dt$
 
-Das Ergebnis wird anschließend als $\varphi(t)$ in die Trägerfunktion eingesetzt.
+Il risultato viene quindi inserito nella funzione portante come $\varphi(t)$.
 </indepth>
 
 [question:AE313]

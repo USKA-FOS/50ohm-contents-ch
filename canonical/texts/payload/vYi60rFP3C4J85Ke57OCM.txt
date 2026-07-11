@@ -1,73 +1,72 @@
-Wir haben bereits einige Antennenformen kennen gelernt. Jetzt wollen wir nun die Eigenschaften der verscheidenen Antennen genauer besprechen. Mittengespeiste Dipole sind *symmetrische Antennen*. Unter einer symmetrischen Antenne verstehen wir eine Antenne, die im Idealfall im Betrieb an beiden Polen (z. B. den Einspeisepunkten jedes Schenkels eines Dipols) bis auf das Vorzeichen die gleiche Spannung gegenüber Erde aufweist. Dies ist bei Dipolen einschließlich Faltdipol und auch den darauf basierenden Yagi-Uda-Antennen der Fall. Eine Groundplane-Antenne hingegen weist am Anschlusspunkt der Radiale idealerweise Erdpotential auf (also eine Spannung von Null gegenüber der Erde) und zählt damit nicht zu den symmetrischen Antennen.
+Abbiamo già conosciuto alcune forme di antenne. Ora discuteremo più in dettaglio le proprietà delle diverse antenne. I dipoli alimentati al centro sono antenne *simmetriche*. Per antenna simmetrica si intende un'antenna che, in condizioni ideali, presenta la stessa tensione rispetto alla terra in entrambi i poli (ad esempio, i punti di alimentazione di ciascun braccio di un dipolo), a parte il segno. Questo è il caso dei dipoli, compreso il dipolo ripiegato e anche le antenne Yagi-Uda basate su di essi. Un'antenna Groundplane, invece, presenta idealmente un potenziale di terra nel punto di connessione dei radiali (quindi una tensione di zero rispetto alla terra) e quindi non è considerata un'antenna simmetrica.
 
 <indepth>
-Auch bei Kabeln zur Signalübertragung, z. B. der Speiseleitung einer Antenne, unterscheidet man zwischen *symmetrischen und asymmetrischen Kabeln*. Auch hier bezieht sich die Symmetrie auf die im Idealfall vorherrschenden elektrischen Spannungen gegenüber Erde. Bei einem Koaxialkabel sollten zwar die Ströme symmetrisch sein, jedoch nur der Innenleiter Spannung gegenüber Erde führen. Koaxialkabel gehören daher zu den asymmetrischen Speiseleitungen. Wie wir später lernen werden, sollten diese asymmetrischen Speiseleitungen nur mittels eines sogenannten Symmetrierglieds (Balun) an eine symmetrische Antenne angeschlossen werden.
+Anche nei cavi per la trasmissione del segnale, ad esempio la linea di alimentazione di un'antenna, si distingue tra cavi *simmetrici e asimmetrici*. Anche qui la simmetria si riferisce alle tensioni elettriche rispetto alla terra che prevalgono in condizioni ideali. In un cavo coassiale, le correnti dovrebbero essere simmetriche, ma solo il conduttore interno dovrebbe portare tensione rispetto alla terra. I cavi coassiali appartengono quindi alle linee di alimentazione asimmetriche. Come impareremo più avanti, queste linee di alimentazione asimmetriche dovrebbero essere collegate a un'antenna simmetrica solo tramite un cosiddetto elemento di simmetria (balun).
 </indepth>
 
 [question:EG213]
 
 ---
 
-Eine beliebte Antennenbauform ist ein insgesamt etwa eine Wellenlänge langer Draht in Form eines Kreises, eines Quadrates, eines Dreiecks oder einer ähnlichen Form. Man spricht dann von sogenannten Ganzwellen-*Schleifenantennen*. Aufgrund ihres einfachen Aufbaus sehr beliebt ist die sogenannte Delta-Loop-Antenne, welche, wie das große Delta (Δ) aus dem griechischen Alphabet, die Form eines Dreiecks hat.
+Una forma di antenna popolare è un filo lungo circa una lunghezza d'onda totale, a forma di cerchio, quadrato, triangolo o simile. Si parla quindi di cosiddette *antenne ad anello a onda intera*. A causa della loro semplice struttura, molto popolare è la cosiddetta antenna Delta-Loop, che, come la grande Delta (Δ) dell'alfabeto greco, ha la forma di un triangolo.
 
 <margin>
-[picture:311:e_delta_loop:Beispiel für eine Delta-Loop-Antenne]
+[picture:311:e_delta_loop:Esempio di antenna Delta-Loop]
 </margin>
 
 [question:EG101]
 
 <indepth>
-Auf die genaue *Form* kommt es bei den Ganzwellen-Schleifenantennen nicht an, sofern die Drahtlänge etwa einer Wellenlänge entspricht. Je nach Form können sich jedoch andere Speisewiderstände oder geringfügig bessere oder schlechtere Antennengewinne ergeben.
+La *forma* esatta non è importante per le antenne ad anello a onda intera, purché la lunghezza del filo corrisponda circa a una lunghezza d'onda. A seconda della forma, tuttavia, possono risultare impedenze di alimentazione diverse o guadagni d'antenna leggermente migliori o peggiori.
 </indepth>
 
 ---
 
-Von den Ganzwellen-Schleifenantennen zu unterscheiden sind die sogenannten *magnetischen Ringantennen* (Magnetic-Loops), die in Bezug auf die Wellenlänge viel kleinere Abmessungen aufweisen und ein magnetisches Nahfeld erzeugen (vgl. Abbildung [ref:e_mag_loop]).
+Dalle antenne ad anello a onda intera si distinguono le cosiddette *antenne ad anello magnetico* (Magnetic-Loops), che hanno dimensioni molto più ridotte rispetto alla lunghezza d'onda e generano un campo vicino magnetico (cfr. figura [ref:e_mag_loop]).
 
 <margin>
-[picture:977:e_mag_loop:Beispiel für eine Magnetic-Loop-Antenne]
+[picture:977:e_mag_loop:Esempio di antenna Magnetic-Loop]
 </margin>
 
 [question:EG105]
 
 <indepth>
-Obwohl solche magnetischen Ringantennen grundsätzlich auch für den Sendebetrieb geeignet sind, ist es schwierig, einen hohen *Wirkungsgrad* zu erzielen. Wirkungsgrade zwischen $\qty{1}{\percent}$ und $\qty{10}{\percent}$ sind bei Magnetantennen im Sendebetrieb üblich. Dennoch können diese Magnetic-Loops gegenüber anderen Antennen Vorteile bieten: Neben dem kompakten Aufbau stören sie sich oft weniger an im Nahfeld befindlichen elektrisch leitfähigen oder dämpfenden Gegenständen, z. B. Mauern oder Dachziegeln bei Montage im Innenraum oder unter einem Hausdach. 
+Sebbene tali antenne ad anello magnetico siano fondamentalmente adatte anche per la trasmissione, è difficile ottenere un alto *rendimento*. Rendimenti tra $\qty{1}{\percent}$ e $\qty{10}{\percent}$ sono comuni per le antenne magnetiche in trasmissione. Tuttavia, questi Magnetic-Loop possono offrire vantaggi rispetto ad altre antenne: oltre alla struttura compatta, spesso interferiscono meno con oggetti conduttivi o attenuanti nel campo vicino, ad esempio muri o tegole in caso di montaggio all'interno o sotto il tetto di una casa.
 </indepth>
 
 ---
 
-*Endgespeiste Antennen* werden von einem Ende her gespeist. Meist beträgt ihre Länge eine halbe Wellenlänge. Man spricht dann auch von einem endgespeisten Halbwellendipol (englisch: end fed half wave, EFHW). Eine solche Antenne benötigt eine im Verhältnis zum Strom deutlich höhere Spannung, welche durch ein entsprechendes Anpassglied, z. B. einen Fuchskreis erzeugt werden kann. Endgespeiste Halbwellendipole, die mit einem Fuchskreis angepasst werden, bezeichnet man entsprechend als Fuchsantenne.
+Le antenne alimentate all'estremità vengono alimentate da un'estremità. Di solito la loro lunghezza è pari a mezza lunghezza d'onda. Si parla quindi anche di dipolo a semionda alimentato all'estremità (inglese: end fed half wave, EFHW). Un'antenna del genere richiede una tensione notevolmente più alta rispetto alla corrente, che può essere generata da un circuito di adattamento appropriato, ad esempio un circuito Fuchs. I dipoli a semionda alimentati all'estremità, adattati con un circuito Fuchs, sono chiamati di conseguenza antenne Fuchs.
 
 [question:EG104]
 [question:EG103]
 
 <margin>
-[picture:310:e_fuchsantenne:Beispiel für eine Fuchs-Antenne]
+[picture:310:e_fuchsantenne:Esempio di antenna Fuchs]
 </margin>
 
 <person>
-Der Fuchskreis bzw. die Fuchs-Antenne ist benannt nach *Dr. Josef Fuchs* (Amateurfunkrufzeichen OE1JF, UO1JF und EAAA), der diese im Jahre 1927 auch patentieren ließ.
+Il circuito Fuchs o antenna Fuchs prende il nome dal *Dr. Josef Fuchs* (nominativi radioamatoriali OE1JF, UO1JF ed EAAA), che lo brevettò nel 1927.
 </person>
 
 <indepth>
-Auch eine endgespeiste Antenne benötigt ein *Gegengewicht*, z. B. in Form eines $\lambda / 4$-Drahtes oder einer anderen Form der HF-Erdung. Allerdings sind die auftretenden Ströme bei EFHWs am Speisepunkt deutlich kleiner, weshalb auch eine weniger gute Erdung ausreichend sein kann, z. B. ein kurzes Drahtende von nur einem zehntel oder gar zwanzigstel der Wellenlänge. Manchmal dienen sogar nur der Schirm der Speiseleitung oder andere (eigentlich anderen Zwecken dienende) Metallelemente als Erdung.
-  
-Nicht zu Verwechseln mit den endgespeisten Halbwellendipolen sind die endgespeisten *Langdrahtantennen*, bei denen die Länge deutlich über einer Wellenlänge liegt. Die Verwechselung rührt daher, dass endgespeiste Halbwellendipole oft auch auf höheren Frequenzen betrieben werden, wodurch sie für diese Frequenzen dann de-facto eine Langdrahtantenne darstellen.
+Anche un'antenna alimentata all'estremità necessita di un *contrappeso*, ad esempio sotto forma di un filo $\lambda / 4$ o di un'altra forma di messa a terra HF. Tuttavia, le correnti che si verificano negli EFHW al punto di alimentazione sono notevolmente inferiori, motivo per cui anche una messa a terra meno buona può essere sufficiente, ad esempio un breve capo di filo di solo un decimo o addirittura un ventesimo della lunghezza d'onda. A volte, solo lo schermo della linea di alimentazione o altri elementi metallici (che servono in realtà ad altri scopi) fungono da messa a terra.
+Non bisogna confondere i dipoli a semionda alimentati all'estremità con le *antenne a filo lungo* alimentate all'estremità, la cui lunghezza è notevolmente superiore a una lunghezza d'onda. La confusione deriva dal fatto che i dipoli a semionda alimentati all'estremità vengono spesso utilizzati anche a frequenze più elevate, diventando di fatto antenne a filo lungo per queste frequenze.
 </indepth>
 
 ---
 
-Die Richtwirkung einer Antenne kann man in einem sogenannten Strahlungsdiagramm darstellen. Hierbei wird für eine Ebene in jede Richtung der Gewinn bzw. die Feldstärke oder Strahlungsleistung aufgetragen. Je weiter der Graphenverlauf vom Mittelpunkt entfernt ist, umso größer der Gewinn bzw. umso höher die Feldstärke und Strahlungsleistung im Fernfeld. Falls keine Skala mit Winkeln verwendet wird, stellt man auch oft die mechanische Anordnung der Antenne im selben Diagramm dar, um zu verdeutlichen, welche Richtung im Diagramm welcher Richtung in Bezug auf die Antennenanordnung entspricht.
+La direttività di un'antenna può essere rappresentata in un cosiddetto diagramma di radiazione. In questo caso, per un piano, il guadagno, l'intensità di campo o la potenza irradiata vengono rappresentati in ogni direzione. Più il grafico si allontana dal centro, maggiore è il guadagno, o più alta è l'intensità di campo e la potenza irradiata nel campo lontano. Se non viene utilizzata una scala con angoli, si rappresenta spesso anche la disposizione meccanica dell'antenna nello stesso diagramma, per chiarire quale direzione nel diagramma corrisponde a quale direzione rispetto alla disposizione dell'antenna.
 
-Ein Dipol strahlt nicht, wie man irrigerweise vermuten könnte, in Richtung des Drahtes, sondern rechtwinklig davon ab. In einer Ebene betrachtet und aufgetragen als Strahlungsdiagramm ergeben sich entsprechende Keulen (z. B. links und rechts) neben dem Dipol (vgl. Abbildung [ref:e_dipol_strahlungsdiagramm]). Ein vertikal aufgehängter Dipol strahlt also z. B. nach links und rechts sowie nach vorne und hinten ab. Da das Strahlungsdiagramm nur eine Ebene betrachtet, sieht man z. B. nur eine Keule für die Abstrahlung nach links und eine Keule für die Abstrahlung nach rechts. Je nach Skala können diese Keulen kreisförmig aussehen.
+Un dipolo non irradia nella direzione del filo, come si potrebbe erroneamente supporre, ma perpendicolarmente ad esso. Visto in un piano e rappresentato come diagramma di radiazione, si ottengono lobi corrispondenti (ad esempio, a sinistra e a destra) accanto al dipolo (cfr. figura [ref:e_dipol_strahlungsdiagramm]). Un dipolo sospeso verticalmente irradia quindi, ad esempio, a sinistra e a destra, nonché davanti e dietro. Poiché il diagramma di radiazione considera solo un piano, si vedono ad esempio solo un lobo per la radiazione verso sinistra e un lobo per la radiazione verso destra. A seconda della scala, questi lobi possono apparire circolari.
 
 <margin>
-[picture:1045:e_dipol_strahlungsdiagramm:Beispiel für die Abstrahlung des Dipols]
+[picture:1045:e_dipol_strahlungsdiagramm:Esempio di radiazione del dipolo]
 </margin>
 
 <indepth>
-Eine im Querschnitt *kreisförmige Keule* ergibt sich bei einer Skala, die linear zur Feldstärke ist, dann wenn ein stark verkürzter Dipol (hertzscher Dipol) betrachtet wird. Ein Halbwellendipol hat eigentlich einen etwas höheren Gewinn entsprechend einer etwas schmaleren Keule. Dennoch finden wir in den Prüfungsfragen eine kreisförmige Darstellung, die so nur näherungsweise stimmt. Bei einer Skala, die linear zur Strahlungsleistung in der jeweiligen Richtung wäre, müsste die Keule sogar noch schmaler ausfallen.
-% TODO: ggf. Fragenbild korrigieren
+Un *lobo circolare* in sezione trasversale si ottiene con una scala lineare rispetto all'intensità di campo, quando si considera un dipolo fortemente accorciato (dipolo di Hertz). Un dipolo a semionda ha in realtà un guadagno leggermente superiore, corrispondente a un lobo leggermente più stretto. Tuttavia, nelle domande d'esame troviamo una rappresentazione circolare che è corretta solo approssimativamente. Con una scala lineare rispetto alla potenza irradiata nella rispettiva direzione, il lobo dovrebbe essere ancora più stretto.
+% TODO: eventualmente correggere l'immagine delle domande
 </indepth>
 
 [question:EG215]
@@ -75,58 +74,58 @@ Eine im Querschnitt *kreisförmige Keule* ergibt sich bei einer Skala, die linea
 
 ---
 
-Aufgrund der zum Dipol senkrechten Abstrahlcharakteristik kann ein vertikal montierter Halbwellendipol entsprechend eine flache Abstrahlung ermöglichen, die z. B. im DX-Betrieb aber auch bei Kontakten über Direkt- oder Bodenwelle erwünscht sein kann.
+Grazie alla caratteristica di radiazione perpendicolare al dipolo, un dipolo a semionda montato verticalmente può consentire una radiazione piatta, che può essere desiderabile, ad esempio, nelle operazioni DX, ma anche nei collegamenti tramite onda diretta o onda di terra.
 
 [question:EG219]
 
 <margin>
-[photo:316:e_vertikaldipol:Vertikaler $\frac{\lambda}{2}$-Dipol]
+[photo:316:e_vertikaldipol:Dipolo a $\frac{\lambda}{2}$ verticale]
 </margin>
 
 ---
 
-Einen Spezialfall einer Vertikalantenne stellt die gegen Erde (oder einer Fahrzeugkarosserie) erregte $5/8 \lambda$-Antenne dar (vgl. Abbildung [ref:e_fuenf_achtel]). Hier ist die Länge gerade so gewählt, dass sich ein optimaler Gewinn ergibt.
+Un caso speciale di antenna verticale è l'antenna $5/8 \lambda$ eccitata rispetto alla terra (o alla carrozzeria di un veicolo) (cfr. figura [ref:e_fuenf_achtel]). Qui la lunghezza è scelta in modo tale da ottenere un guadagno ottimale.
 
 [question:EG108]
 
 <margin>
-[picture:650:e_fuenf_achtel:$5/8 \lambda$-Antenne]
+[picture:650:e_fuenf_achtel:Antenna $5/8 \lambda$]
 </margin>
 
 ---
 
-Auch eine Groundplane-Antenne strahlt rechtwinklig zum Strahler (nicht zu den Radialen) ab. Da das Strahlungsdiagramm die Groundplane-Antenne oft von oben betrachtet, ergibt sich nahezu ein Rundstrahler, der in alle Himmelsrichtungen nahezu den gleichen Gewinn aufweist (vgl. Abbildung [ref:e_ground_plane_abstrahlung]). Die Radiale haben nur geringen Einfluss und können das Strahlungsdiagramm leicht "verbeulen", was einem geringfügig abweichenden Gewinn in bestimmten Richtungen entspricht.
+Anche un'antenna Groundplane irradia perpendicolarmente al radiatore (non ai radiali). Poiché il diagramma di radiazione considera spesso l'antenna Groundplane dall'alto, si ottiene quasi un'antenna omnidirezionale, che presenta quasi lo stesso guadagno in tutte le direzioni (cfr. figura [ref:e_ground_plane_abstrahlung]). I radiali hanno solo una piccola influenza e possono "deformare" leggermente il diagramma di radiazione, corrispondente a un guadagno leggermente diverso in determinate direzioni.
 
 <margin>
-[picture:1046:e_ground_plane_abstrahlung:Abstrahlung Groundplane-Antenne]
+[picture:1046:e_ground_plane_abstrahlung:Radiazione antenna Groundplane]
 </margin>
 
 [question:EG216]
 
 <indepth>
-Auch wenn das Strahlungsdiagramm einer Groundplane-Antenne mit Radialen leicht *"verbeult"* ist, ist diese Abweichung in der Theorie viel kleiner als oftmals dargestellt. Daher ist eine Groundplane-Antenne tatsächlich ein beinahe idealer Rundstrahler in der Ebene.
+Anche se il diagramma di radiazione di un'antenna Groundplane con radiali è leggermente *"deformato"*, questa deviazione è in teoria molto più piccola di quanto spesso rappresentato. Pertanto, un'antenna Groundplane è effettivamente un'antenna omnidirezionale quasi ideale nel piano.
 </indepth>
 
 ---
 
-Richtantennen (z.B. die Yagi-Uda-Antenne) zeichnen sich dadurch aus, dass der Gewinn in einer Richtung deutlich höher ist, als in anderen Richtungen, wie in Abbildung [ref:e_richtantenne_abstrahlung] dargestellt.
+Le antenne direttive (ad esempio, l'antenna Yagi-Uda) si caratterizzano per il fatto che il guadagno in una direzione è significativamente più alto che in altre direzioni, come mostrato nella figura [ref:e_richtantenne_abstrahlung].
 
 [question:EG217]
 
 <margin>
-[picture:1047:e_richtantenne_abstrahlung:Abstrahlung Richtantenne]
+[picture:1047:e_richtantenne_abstrahlung:Radiazione antenna direttiva]
 </margin>
 
 ---
 
-Bei höheren Frequenzen z. B. im UHF-Bereich oder darüber hinaus kommen auch Hornstrahler oder Parabolantennen (vgl. [ref:e_parabolantenne]) zum Einsatz. Ebenso finden sich auf Leiterplatten kleinerer Geräte Patchantennen. All diese Antennenbauformen sind für den Kurzwellenbereich unüblich, da sie unhandliche Größen erreichen würden. Deshalb bleiben für die folgenden Fragen nur noch Langdraht-Antenne, Yagi-Uda-Antenne, Dipol-Antenne, Windom-Antenne, Delta-Loop-Antenne übrig.
+A frequenze più elevate, ad esempio nella gamma UHF o superiori, vengono utilizzati anche tromboni o antenne paraboliche (cfr. [ref:e_parabolantenne]). Anche sulle schede a circuito stampato di piccoli apparecchi si trovano antenne patch. Tutte queste forme di antenna sono insolite per la gamma delle onde corte, poiché raggiungerebbero dimensioni ingombranti. Pertanto, per le seguenti domande rimangono solo antenne a filo lungo, antenne Yagi-Uda, antenne dipolo, antenne Windom, antenne Delta-Loop.
 
 [question:EG106]
 
 <margin>
-[picture:850:e_parabolantenne:Parabolantenne]
+[picture:850:e_parabolantenne:Antenna parabolica]
 </margin>
 
-Die Sperrtopfantenne besteht aus einem $\lambda / 4$-langen Topf, der als Symmetrierglied bzw. Mantelwellensperre wirkt. Mit diesem Wissen lässt sich die folgende Frage beantworten, denn sowohl ein Sperrtopf als auch eine Kreuz-Yagi-Uda wären ebenso wie Parabolspiegel im $\qty{80}{\meter}$-Band unhandlich groß.
+L'antenna a trappola consiste in un "vaso" lungo $\lambda / 4$, che funge da elemento di simmetria o da trappola per onde di corrente. Con queste conoscenze è possibile rispondere alla seguente domanda, poiché sia una trappola che una Yagi-Uda a croce, così come uno specchio parabolico, sarebbero ingombranti nella banda degli $\qty{80}{\meter}$.
 
 [question:EG107]

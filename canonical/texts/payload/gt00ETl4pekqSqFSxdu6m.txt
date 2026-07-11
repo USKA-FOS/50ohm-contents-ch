@@ -1,30 +1,30 @@
 <left>
-[photo:124:n_satellit_oscar1:Modell des ersten Amateurfunksatelliten OSCAR 1, der 1961 für 22 Tage aus dem Orbit der Erde eine Bake im $\qty{2}{\meter}-Band$ sendete und von 570 Funkamateuren aus 28 Ländern gehört wurde]
+[photo:124:n_satellit_oscar1:Modello del primo satellite per radioamatori OSCAR 1, che nel 1961 ha trasmesso per 22 giorni un segnale beacon nella banda dei $\qty{2}{\meter}$ dall'orbita terrestre ed è stato ascoltato da 570 radioamatori di 28 paesi]
 </left>
 <right>
-* Umrunden die Erde in kreis- oder elliptischen Bahnen und in unterschiedlichen Höhen
-* Erster Amateurfunksatellit bereits 1961 (OSCAR 1)
+* Orbitano attorno alla Terra su traiettorie circolari o ellittiche e a diverse altitudini
+* Primo satellite per radioamatori già nel 1961 (OSCAR 1)
 * OSCAR: "Orbiting Satellite Carrying Amateur Radio"
-* Bis heute mehrere 100 Satelliten im Orbit (gewesen)
+* Ad oggi, diverse centinaia di satelliti sono stati (o sono) in orbita
 </right>
 <note>
-* 4 Jahre nach Sputnik
-* OSCAR Deutsch: "Umkreisender Satellit, der Amateurfunk mitführt"
+* 4 anni dopo Sputnik
+* OSCAR in italiano: "Satellite orbitante che trasporta radioamatore"
 </note>
 ---
 [question:BE415]
 ---
 ## Transponder
-Relaisfunkstelle auf dem Satellit wird "Transponder" genannt
+Una stazione radio ripetitrice sul satellite è chiamata "transponder"
 
-* Uplink: Funkstrecke von der Erde zum Satelliten
-* Downlink: Funkstrecke vom Satelliten zur Erde
-* Unterschiedliche Frequenzbänder für Up- und Downlink
-* Einfachere Trennung von Sende- und Empfangssignal
-* Baugröße von Filtern wird reduziert
+* Uplink: collegamento radio dalla Terra al satellite
+* Downlink: collegamento radio dal satellite alla Terra
+* Bande di frequenza diverse per uplink e downlink
+* Separazione più semplice tra segnale di trasmissione e ricezione
+* Dimensioni dei filtri ridotte
 
 <note>
-* z.B. Downlink auf $\qty{2}{\meter}$ und Uplink auf $\qty{70}{\centi\meter}$
+* ad es. Downlink su $\qty{2}{\meter}$ e Uplink su $\qty{70}{\centi\meter}$
 </note>
 
 ---
@@ -36,33 +36,33 @@ Relaisfunkstelle auf dem Satellit wird "Transponder" genannt
 ---
 [question:NF113]
 ---
-## Azimut und Elevation
-Satellitenantennen müssen ausgerichtet sein
+## Azimut ed Elevazione
+Le antenne satellitari devono essere orientate
 
 <left>
 Azimut
-* stammt von arabisch السموت (as-sumūt, "die Wege")
-* Richtung entlang des Horizonts
-* Wird wie beim Kompass in Grad gemessen
-* $\qty{0}{\degree}$/$\qty{360}{\degree}$ Norden – $\qty{90}{\degree}$ Osten – $\qty{180}{\degree}$ Süden – $\qty{270}{\degree}$ Westen
+* deriva dall'arabo السموت (as-sumūt, "le vie")
+* Direzione lungo l'orizzonte
+* Misurato in gradi, come una bussola
+* $\qty{0}{\degree}$/$\qty{360}{\degree}$ Nord – $\qty{90}{\degree}$ Est – $\qty{180}{\degree}$ Sud – $\qty{270}{\degree}$ Ovest
 </left>
 <right>
-[picture:876:n_azimut_elevation:Azimut und Elevation im Raum]
+[picture:876:n_azimut_elevation:Azimut ed elevazione nello spazio]
 </right>
 
 ---  data-transition="none"
-## Azimut und Elevation
-Satellitenantennen müssen ausgerichtet sein
+## Azimut ed Elevazione
+Le antenne satellitari devono essere orientate
 
 <left>
-Elevation
-* leitet sich von lateinisch elevare ("erheben") ab
-* Vertikaler Winkel über dem Horizont
-* $\qty{0}{\degree}\rightarrow$ direkt am Horizont
-* $\qty{90}{\degree}\rightarrow$ senkrecht über einem
+Elevazione
+* deriva dal latino elevare ("sollevare")
+* Angolo verticale sopra l'orizzonte
+* $\qty{0}{\degree}\rightarrow$ direttamente all'orizzonte
+* $\qty{90}{\degree}\rightarrow$ perpendicolarmente sopra di sé
 </left>
 <right>
-[picture:876:n_azimut_elevation:Azimut und Elevation im Raum]
+[picture:876:n_azimut_elevation:Azimut ed elevazione nello spazio]
 </right>
 
 ---
@@ -70,13 +70,13 @@ Elevation
 ---
 [question:BE414]
 ---
-## Steuersignale
-* Im Amateurfunkdienst gibt es eine Pflicht zur offenen Sprache
-* Ausnahme: Steuersignale zwischen Bodenstationen und Amateurfunksatelliten
-* Dürfen zum Zwecke der Verschleierung verschlüsselt werden
-* Damit können Dritte die Signale nicht mitlesen
-* Dient der Sicherheit der Satelliten vor Steuerkommandos von Unbefugten
-* In Deutschland gilt das auch für automatische und fernbediente Stationen sowie Remote-Stationen
+## Segnali di controllo
+* Nel servizio radioamatoriale vige l'obbligo della lingua aperta
+* Eccezione: segnali di controllo tra stazioni di terra e satelliti per radioamatori
+* Possono essere crittografati allo scopo di offuscamento
+* In questo modo, terzi non possono leggere i segnali
+* Serve alla sicurezza dei satelliti da comandi di controllo non autorizzati
+* In Germania, ciò vale anche per stazioni automatiche e telecomandate, nonché per stazioni remote
 
 ---
 [question:VA303]

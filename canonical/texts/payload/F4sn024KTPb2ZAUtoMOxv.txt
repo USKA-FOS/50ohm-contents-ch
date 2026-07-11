@@ -1,49 +1,49 @@
-In den Klassen N und E haben wir bereits gelernt, wie man Strom und Spannung korrekt misst und welche Eigenschaften die Innenwiderstände der Messgeräte haben. Werden die Messgeräte nicht richtig in die Schaltung eingebaut, erhält man falsche oder unsinnige Anzeigen oder kann im schlimmsten Fall das Messgerät beschädigen. In der Klasse A gibt es dazu noch zwei weitere Fragen, die die korrekte Strom- und Spannungsmessung abprüfen – allerdings in einem etwas komplexeren Kontext.
+Nelle classi N ed E abbiamo già imparato come misurare correttamente corrente e tensione e quali sono le proprietà delle resistenze interne degli strumenti di misura. Se gli strumenti di misura non vengono installati correttamente nel circuito, si ottengono letture errate o senza senso o, nel peggiore dei casi, si danneggia lo strumento di misura. Nella classe A ci sono altre due domande che verificano la corretta misurazione di corrente e tensione, ma in un contesto leggermente più complesso.
 
-Bei der ersten Frage geht es um die Leistungsmessung eines Verstärkers (Power Amplifier, PA). Den Zusammenhang $P = U \cdot I$ kennen wir bereits: Die Leistung lässt sich bestimmen, indem man Spannung und Strom misst und anschließend beide Werte multipliziert. In Abbildung [ref:a_strom_spannung_messung] ist links die Spannungsversorgung in Form eines Netzteils angeschlossen, in der Mitte befindet sich die PA und rechts ist ein weiterer Verbraucher, der Sender (TRX), angeschlossen. Möchten wir nun die Leistung der PA ermitteln, darf ausschließlich der Strom gemessen werden, der in die PA fließt.
+La prima domanda riguarda la misurazione della potenza di un amplificatore (Power Amplifier, PA). Conosciamo già la relazione $P = U \cdot I$: la potenza può essere determinata misurando tensione e corrente e moltiplicando poi entrambi i valori. Nella figura [ref:a_strom_spannung_messung] a sinistra è collegata l'alimentazione elettrica sotto forma di alimentatore, al centro si trova la PA e a destra è collegato un altro carico, il trasmettitore (TRX). Se ora vogliamo determinare la potenza della PA, deve essere misurata esclusivamente la corrente che fluisce nella PA.
 
 <margin>
-[picture:1003:a_strom_spannung_messung:Messen der Leistung eines Verstärkers (PA)]
+[picture:1003:a_strom_spannung_messung:Misurazione della potenza di un amplificatore (PA)]
 </margin>
 
 [question:AI101]
 
-Für die nächste Frage erinnern wir uns an die Regeln aus der Klasse E, dass Spannungsmessgeräte immer parallel und Strommessgeräte immer in Reihe geschaltet werden. Dadurch ist die Frage sehr leicht zu lösen. 
+Per la domanda successiva, ricordiamo le regole della classe E, secondo cui gli strumenti di misura della tensione vengono sempre collegati in parallelo e gli strumenti di misura della corrente sempre in serie. Ciò rende la domanda molto facile da risolvere.
 
 [question:AI102]
 
 ---
 
-Im Folgenden wollen wir uns zwei Kenngrößen beim Messen ansehen, die oft verwechselt werden:
+Di seguito esamineremo due parametri di misurazione che vengono spesso confusi:
 
-- Auflösung
-- Messgenauigkeit (auch Toleranz oder Fehler genannt)
+- Risoluzione
+- Precisione di misura (chiamata anche tolleranza o errore)
 
-Die *Auflösung* bezeichnet die kleinste Änderung der Messgröße, die ein Gerät noch anzeigen kann. Beispiel: Ein Multimeter mit einer Auflösung von $\qty{0,1}{\volt}$ kann zwischen $\qty{10,5}{\volt}$ und $\qty{10,45}{\volt}$ nicht unterscheiden, wenn der Unterschied kleiner ist als die Auflösung. Ein Gerät mit $\qty{0,01}{\volt}$ Auflösung kann hingegen deutlich feiner unterscheiden. Die Auflösung wird in der Regel vom Hersteller des Messgeräts angegeben.
+La *risoluzione* indica la più piccola variazione della grandezza misurata che un apparecchio può ancora visualizzare. Esempio: un multimetro con una risoluzione di $\qty{0,1}{\volt}$ non può distinguere tra $\qty{10,5}{\volt}$ e $\qty{10,45}{\volt}$ se la differenza è inferiore alla risoluzione. Un apparecchio con una risoluzione di $\qty{0,01}{\volt}$ può invece distinguere in modo significativamente più fine. La risoluzione è generalmente indicata dal produttore dello strumento di misura.
 
 <tip>
-Betrachten wir zunächst die *Auflösung* anhand einer Uhr. Besitzt die Uhr eine Stunden- und Minutenanzeige, so lässt sich die Zeit auf eine Minute genau angeben. Aber ob es nun 13 Uhr 3 Minuten und 10 Sekunden ist oder 13 Uhr 3 Minuten und 59 Sekunden lässt sich nicht ablesen. *Eine Minute* ist also die *kleinste Auflösung* der Uhr (entsprechend hat eine Uhr mit einem Sekundenzeiger eine kleinste Auflösung von einer Sekunde).
+Consideriamo prima la *risoluzione* usando un orologio. Se l'orologio ha un display per ore e minuti, l'ora può essere indicata con una precisione di un minuto. Ma non si può leggere se sono le 13:03:10 o le 13:03:59. *Un minuto* è quindi la *risoluzione più piccola* dell'orologio (analogamente, un orologio con lancetta dei secondi ha una risoluzione minima di un secondo).
 </tip>
 
-Die *Messgenauigkeit* (auch Messfehler oder Toleranz) eines Geräts beschreibt, wie stark der angezeigte Wert höchstens vom tatsächlichen Wert abweichen darf – sowohl nach oben als auch nach unten, zum Beispiel $\pm\qty{5}{\percent}$. Eine einfache Faustregel lautet: Je größer der Messbereich ist, den ein Gerät abdecken soll, desto geringer ist in der Regel die Genauigkeit der Messung.
+La *precisione di misura* (chiamata anche errore di misura o tolleranza) di un apparecchio descrive quanto il valore visualizzato possa al massimo discostarsi dal valore effettivo, sia verso l'alto che verso il basso, ad esempio $\pm\qty{5}{\percent}$. Una semplice regola pratica è: maggiore è il campo di misura che un apparecchio deve coprire, minore è generalmente la precisione della misurazione.
 
-Die Messgenauigkeit hängt unter anderem vom Innenwiderstand des Messgeräts ab, da dieser das Messergebnis beeinflusst.
-In der Klasse E haben wir gelernt: Ein Strommessgerät hat einen sehr geringen Innenwiderstand (ideal $\qty{0}{\ohm}$), ein Spannungsmessgerät dagegen einen sehr hohen Innenwiderstand (ideal $\qty{\infty}{\ohm}$). In der Klasse A wollen wir uns nun zusätzlich anschauen, wie genau unsere Messgeräte die tatsächlich anliegende Spannung bzw. Stromstärke erfassen können. Der angezeigte Messwert unterscheidet sich nämlich in der Regel vom tatsächlichen Wert – und das liegt an den nicht perfekten Innenwiderständen der Messgeräte, welche die Messung beeinflussen.
+La precisione di misura dipende, tra l'altro, dalla resistenza interna dello strumento di misura, poiché questa influenza il risultato della misurazione.
+Nella classe E abbiamo imparato: uno strumento di misura della corrente ha una resistenza interna molto bassa (idealmente $\qty{0}{\ohm}$), mentre uno strumento di misura della tensione ha una resistenza interna molto alta (idealmente $\qty{\infty}{\ohm}$). Nella classe A esamineremo ora ulteriormente quanto accuratamente i nostri strumenti di misura possano rilevare la tensione o l'intensità di corrente effettivamente presente. Il valore misurato visualizzato differisce infatti generalmente dal valore effettivo, e ciò è dovuto alle resistenze interne non perfette degli strumenti di misura, che influenzano la misurazione.
 
 ---
 
-Schauen wir uns das Ersatzschaltbild eines realen Spannungsmessgeräts in Abbildung [ref:a_reale_spannungsmessung] zur folgenden Prüfungsfrage an. Neben dem idealen Strommesser enthält ein reales Spannungsmessgerät einen parallelgeschalteten Widerstand, z. B. von $\qty{10}{\mega\ohm}$. Wäre dieser Widerstand unendlich groß, existierte er praktisch nicht – und wir hätten ein ideales Messgerät. Das bedeutet jedoch, dass bei einer realen Spannungsmessung immer ein kleiner Strom durch diesen Widerstand fließt, der unser Messergebnis beeinflusst. Stellen wir uns beispielsweise vor, wir wollen die Spannung an einem Spannungsteiler messen: Durch den Innenwiderstand des Messgeräts wird der Spannungsteiler geringfügig belastet, sodass wir nicht exakt die Spannung messen, die ein ideales Messgerät anzeigen würde. 
+Esaminiamo lo schema equivalente di un reale strumento di misura della tensione nella figura [ref:a_reale_spannungsmessung] per la seguente domanda d'esame. Oltre allo strumento di misura di corrente ideale, uno strumento di misura della tensione reale contiene una resistenza collegata in parallelo, ad esempio di $\qty{10}{\mega\ohm}$. Se questa resistenza fosse infinita, praticamente non esisterebbe e avremmo uno strumento di misura ideale. Tuttavia, ciò significa che in una misurazione di tensione reale, una piccola corrente fluisce sempre attraverso questa resistenza, influenzando il nostro risultato di misurazione. Immaginiamo, ad esempio, di voler misurare la tensione su un partitore di tensione: il partitore di tensione viene leggermente caricato dalla resistenza interna dello strumento di misura, in modo da non misurare esattamente la tensione che uno strumento di misura ideale indicherebbe.
 
 <margin>
-[picture:1004:a_reale_spannungsmessung:Ersatzschaltbild reales Spannungsmessgerät]
+[picture:1004:a_reale_spannungsmessung:Schema equivalente reale strumento di misura della tensione]
 </margin>
 
 ---
 
-Ähnlich wie beim Spannungsmessgerät verhält es sich auch beim Strommessgerät. Ein reales Strommessgerät besteht aus dem eigentlichen Strommesser und einem kleinen Widerstand, der in Reihe geschaltet ist und an dem immer eine kleine Spannung abfällt. Wäre dieser Widerstand null, würde er praktisch nicht existieren – und wir hätten wieder das ideale Messgerät.
+La situazione è simile per lo strumento di misura della corrente. Uno strumento di misura della corrente reale è composto dall'effettivo misuratore di corrente e da una piccola resistenza collegata in serie, sulla quale cade sempre una piccola tensione. Se questa resistenza fosse zero, praticamente non esisterebbe e avremmo di nuovo lo strumento di misura ideale.
 
 <margin>
-[picture:1007:a_reale_strommessung:Ersatzschaltbild reales Strommessgerät]
+[picture:1007:a_reale_strommessung:Schema equivalente reale strumento di misura della corrente]
 </margin>
 
 ---
@@ -51,25 +51,25 @@ Schauen wir uns das Ersatzschaltbild eines realen Spannungsmessgeräts in Abbild
 [question:AI104]
 
 <tip>
-Bei dieser Frage ist der Hinweis "Kleinste Auflösung $\qty{100}{\micro\volt}$" nicht wichtig. Sie kann allein mit Hilfe des Ohmschen Gesetzes gelöst werden.
+In questa domanda, l'indicazione "Risoluzione minima $\qty{100}{\micro\volt}$" non è importante. Può essere risolta solo con l'aiuto della legge di Ohm.
 </tip>
 
 ---
 
-Wie verhält es sich nun mit Kenngrößen, die aus Messwerten berechnet werden – etwa der Leistung in unserem Beispiel vom Anfang ($P = U \cdot I$) nach einer Strom- und Spannungsmessung? Die einzelnen Messgrößen wie Strom und Spannung weichen durch Messfehler jeweils vom tatsächlichen Wert ab, und diese Abweichungen wirken sich in der Berechnung entsprechend fort.
+Come si comportano le grandezze che vengono calcolate dai valori misurati, ad esempio la potenza nel nostro esempio iniziale ($P = U \cdot I$) dopo una misurazione di corrente e tensione? Le singole grandezze misurate come corrente e tensione deviano dal valore effettivo a causa degli errori di misurazione, e queste deviazioni si ripercuotono di conseguenza nel calcolo.
 
-Schauen wir uns ein konkretes Beispiel an: Angenommen, wir möchten die Leistung bestimmen und messen dazu eine Gleichspannung und einen Gleichstrom. Beide Messgeräte zeigen Werte an, die jeweils um fünf Prozent zu niedrig sind. Man darf nun nicht den Fehler machen und die Abweichungen der Einzelmessgrößen einfach addieren. Durch die Leistungsformel wird deutlich, dass sich die Fehler in diesem Fall multiplizieren. Schauen wir uns das im Detail an:
+Consideriamo un esempio concreto: supponiamo di voler determinare la potenza e misuriamo quindi una tensione continua e una corrente continua. Entrambi gli strumenti di misura indicano valori che sono inferiori del cinque percento ciascuno. Non si deve commettere l'errore di sommare semplicemente le deviazioni delle singole grandezze misurate. La formula della potenza rende evidente che gli errori si moltiplicano in questo caso. Vediamo nel dettaglio:
 
-$U_\text{Gemessen}=0,95 \cdot U_\text{Wahr}$ und $I_\text{Gemessen}=0,95 \cdot I_\text{Wahr}$
+$U_\text{Misurata}=0,95 \cdot U_\text{Vera}$ e $I_\text{Misurata}=0,95 \cdot I_\text{Vera}$
 
-Die Leistung berechnen wir mit unserer bekannten Formel:
+Calcoliamo la potenza con la nostra formula nota:
 
-$P_\text{Gemessen}=U_\text{Gemessen} \cdot I_{Gemessen}$
+$P_\text{Misurata}=U_\text{Misurata} \cdot I_{Misurata}$
 
-Nun setzen wir die wahren Werte ein: 
+Ora sostituiamo i valori veri:
 
-$P_\text{Gemessen} = 0,95 \cdot U_\text{Wahr} \cdot 0,95 \cdot I_\text{Wahr} = 0,9025 \cdot U_\text{Wahr} \cdot I_\text{Wahr}$
+$P_\text{Misurata} = 0,95 \cdot U_\text{Vera} \cdot 0,95 \cdot I_\text{Vera} = 0,9025 \cdot U_\text{Vera} \cdot I_\text{Vera}$
 
-Das heißt, die gemessene Leistung ist etwa $\qty{9,75}{\percent}$ niedriger als die tatsächliche Leistung, denn $1-0,9025 \equiv \qty{9,75}{\percent}$. Mit diesem Wissen ist die folgende Prüfungsfrage lösbar, die konkreten Werte von Strom und Spannung sind für die Lösung nicht relevant.
+Ciò significa che la potenza misurata è circa $\qty{9,75}{\percent}$ inferiore alla potenza effettiva, poiché $1-0,9025 \equiv \qty{9,75}{\percent}$. Con queste conoscenze, la seguente domanda d'esame è risolvibile; i valori concreti di corrente e tensione non sono rilevanti per la soluzione.
 
 [question:AI103]

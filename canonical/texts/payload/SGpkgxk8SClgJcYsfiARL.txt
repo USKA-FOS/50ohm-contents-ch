@@ -1,15 +1,15 @@
-% TODO: Idee Soundbeispiele dafür Zeigen.
+% TODO: Idea: mostrare esempi audio.
 
-Das Empfangssignal eines Transceivers wird beispielsweise durch Rauschen oder impulsförmige Störungen beeinträchtigt. Diese können verschiedenste Ursachen haben. Ein schwaches Empfangssignal kann durch Rauschanteile überlagert sein oder es sind z.B. Störungen durch Zündfunken von Fahrzeugen, Aussendungen von Schaltnetzteilen oder Maschinen aller Art im Signal vorhanden.
+Il segnale ricevuto da un trasmettitore-ricevitore è influenzato, ad esempio, da rumore o disturbi impulsivi. Questi possono avere le cause più svariate. Un segnale ricevuto debole può essere sovrapposto da componenti di rumore, oppure sono presenti nel segnale, ad esempio, disturbi da scintille di accensione di veicoli, trasmissioni da alimentatori switching o macchine di ogni tipo.
 
-Moderne Empfänger verfügen über entsprechende Systeme, welche Rauschanteile im Empfangssignal erkennen und unterdrücken können. Diese Funktion nennt man *Noise Reduction (NR)*. Sind diese digital ausgeführt nennt man sie auch Digital Noise Reduction (DNR). Die digitale Rauschunterdrückung hat hierbei den Vorteil, dass sie aktiv zwischen Nutzsignal und Rauschen differenzieren kann, soweit das Nutzsignal nicht zu weit im Rauschen verschwindet. Hierdurch ist eine effektive Rauschunterdrückung möglich.
+I ricevitori moderni dispongono di sistemi appropriati che possono riconoscere e sopprimere le componenti di rumore nel segnale ricevuto. Questa funzione è chiamata *Noise Reduction (NR)*. Se sono implementate digitalmente, vengono chiamate anche Digital Noise Reduction (DNR). La soppressione digitale del rumore ha il vantaggio di poter distinguere attivamente tra segnale utile e rumore, purché il segnale utile non scompaia troppo nel rumore. Ciò consente un'efficace soppressione del rumore.
 
 <margin>
-[photo:326:e_dnr:DNR Taste am Kurzwellenfunkgerät FT-710]
+[photo:326:e_dnr:Tasto DNR sull'apparecchio radio a onde corte FT-710]
 </margin>
 
 [question:EF213]
 
-Impulsförmige Störungen können hingegen mittels eines Störaustasters bzw. *Noise Blankers (NB)* aus dem Empfangssignal ausgetastet werden.
+I disturbi impulsivi, d'altra parte, possono essere esclusi dal segnale ricevuto tramite un soppressore di disturbi o *Noise Blanker (NB)*.
 
 [question:EF214]

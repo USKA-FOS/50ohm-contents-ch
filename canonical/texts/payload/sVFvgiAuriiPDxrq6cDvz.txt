@@ -4,7 +4,7 @@
     <table>
         <tr>
             <td>
-                <p>Amplitude: </p>
+                <p>Ampiezza: </p>
             </td>
             <td>
                 <input type="range" class="slider" value="80" min="0" max="100" id="amplitude">
@@ -15,13 +15,13 @@
         </tr>
         <tr>
             <td>
-                <p>Phase:</p>
+                <p>Fase:</p>
             </td>
             <td>
                 <input type="range" class="slider" value="180" min="0" max="360" id="phase">
             </td>
             <td>
-                <div id="phaseV"> 180 &deg; </div>
+                <div id="phaseV"> 180 ° </div>
             </td>
         </tr>
     </table>

@@ -1,26 +1,26 @@
-In der Klasse E haben wir das Konzept des kurzen und langen Weges bereits kennengelernt. In der Klasse A möchten wir dieses Thema noch etwas vertiefen. Eine geradlinige Verbindung zwischen zwei Orten auf einer Kugel verläuft immer entlang des Großkreises. Die Richtung des kurzen und des langen Weges zum anderen Ort unterscheiden sich in der Richtung daher um genau $\qty{180}{\degree}$. Abbildung [ref:a_langer_kurzer_weg] zeigt den Großkreis auf der Erdkugel – in Blau den kurzen Weg und in Rot den langen Weg, der einmal vollständig um den Globus herumführt.
+Nella classe E abbiamo già imparato il concetto di percorso breve e lungo. Nella classe A vogliamo approfondire ulteriormente questo argomento. Una connessione rettilinea tra due punti su una sfera avviene sempre lungo il cerchio massimo. La direzione del percorso breve e del percorso lungo verso l'altro punto differiscono quindi esattamente di $\qty{180}{\degree}$. La figura [ref:a_langer_kurzer_weg] mostra il cerchio massimo sulla sfera terrestre – in blu il percorso breve e in rosso il percorso lungo, che compie un giro completo intorno al globo.
 
 [question:AH216]
 
 <margin>
-[picture:867:a_langer_kurzer_weg:Langer und kurzer Weg auf einer Kugel]
+[picture:867:a_langer_kurzer_weg:Percorso lungo e breve su una sfera]
 </margin>
 
 ---
 
-Für Richtantennen (engl. Beams) gibt es sogenannte Beam-Karten, die die Wege aller möglichen Großkreise für einen bestimmten Startpunkt darstellen. Dabei handelt es sich um eine mittabstandstreue Azimutalprojektion, also eine Projektion des Erdballs auf eine Scheibe, in der sowohl die Entfernung als auch die Richtung jedes Punktes zum Kartenmittelpunkt exakt wiedergegeben werden. Der Funkamateur nutzt diese Kartendarstellung, um seine Richtantenne in die richtige Richtung zu drehen. Der angegebene Winkel entspricht dabei dem Winkel, der auch auf den typischen Rotorsteuerungen angezeigt wird. Abbildung [ref:a_beam_karte] zeigt eine solche Beam-Karte mit Berlin als Standort der Amateurfunkstation. Dass die Darstellung vom Standort der Station abhängt, erkennt man in Abbildung [ref:a_beam_karte_sydney], die eine Beam-Karte für Sydney in Australien darstellt.
+Per le antenne direttive (in inglese Beams) esistono delle cosiddette mappe di raggio (Beam-Karten), che rappresentano i percorsi di tutti i possibili cerchi massimi per un determinato punto di partenza. Si tratta di una proiezione azimutale equidistante, cioè una proiezione del globo terrestre su un disco, in cui sia la distanza che la direzione di ogni punto rispetto al centro della mappa sono rappresentate esattamente. Il radioamatore utilizza questa rappresentazione cartografica per ruotare la sua antenna direttiva nella direzione corretta. L'angolo indicato corrisponde all'angolo che viene visualizzato anche sui tipici controlli del rotore. La figura [ref:a_beam_karte] mostra una tale mappa di raggio con Berlino come posizione della stazione radioamatoriale. Che la rappresentazione dipenda dalla posizione della stazione si vede nella figura [ref:a_beam_karte_sydney], che mostra una mappa di raggio per Sydney in Australia.
 
 <margin>
-[picture:1000:a_beam_karte:Beamkarte mit Berlin als Standort der Amateurfunkstation]
+[picture:1000:a_beam_karte:Mappa di raggio con Berlino come posizione della stazione radioamatoriale]
 </margin>
 
 <margin>
-[picture:1001:a_beam_karte_sydney:Beamkarte mit Sydney als Standort der Amateurfunkstation]
+[picture:1001:a_beam_karte_sydney:Mappa di raggio con Sydney come posizione della stazione radioamatoriale]
 </margin>
 
-Wie in Abbildung [ref:a_beam_karte] dargestellt, beträgt die Entfernung von Deutschland nach Australien auf dem kurzen Weg über Ostasien rund $\qty{16000}{\kilo\meter}$ bei einem Azimut von etwa $\qty{75}{\degree}$. Wählt man hingegen den langen Weg, so richtet man die Antenne auf $\qty{255}{\degree}$ aus und überbrückt dabei fast $\qty{24000}{\kilo\meter}$ – der Signalweg führt dann über Südamerika und den Südpazifik.
+Come mostrato nella figura [ref:a_beam_karte], la distanza dalla Germania all'Australia sul percorso breve attraverso l'Asia orientale è di circa $\qty{16000}{\kilo\meter}$ con un azimut di circa $\qty{75}{\degree}$. Se invece si sceglie il percorso lungo, l'antenna viene orientata a $\qty{255}{\degree}$ coprendo quasi $\qty{24000}{\kilo\meter}$ – il percorso del segnale passa attraverso il Sud America e il Pacifico meridionale.
 
-Obwohl Abbildung [ref:a_beam_karte] nicht für Frankfurt am Main, sondern für Berlin erstellt wurde, lassen sich damit die folgenden Fragen grob beantworten. In der Prüfung steht leider keine Beam-Karte als Hilfsmittel zur Verfügung. Wir empfehlen daher, sich die ungefähren Winkel der Kontinente einzuprägen – das ist auch später für den Funkbetrieb auf Kurzwelle hilfreich.
+Sebbene la figura [ref:a_beam_karte] non sia stata creata per Francoforte sul Meno, ma per Berlino, è possibile rispondere approssimativamente alle seguenti domande. Purtroppo, all'esame non è disponibile una mappa di raggio come ausilio. Raccomandiamo quindi di memorizzare gli angoli approssimativi dei continenti – questo sarà utile anche in seguito per le operazioni radio su onde corte.
 
 [question:AH217]
 [question:AH218]

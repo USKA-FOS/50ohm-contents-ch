@@ -1,34 +1,34 @@
 <left>
-[picture:978:a_swr:Stehende Welle]
+[picture:978:a_swr:Onda stazionaria]
 </left>
 <right>
-* Das Stehwellenverhältnis (SWR) kann oft direkt anhand des Speisewiderstands einer Antenne angegeben werden
-* Bei einem reinen Wirkwiderstand (ohne induktive oder kapazitive Anteile) berechnet sich das SWR aus dem Verhältnis von Lastwiderstand zu Kabelwellenwiderstand (sodass SWR ≥ $\num{1}$ ist)
+* Il rapporto d’onda stazionaria (ROS) può spesso essere indicato direttamente in base all'impedenza di alimentazione di un'antenna
+* Per una resistenza pura (senza componenti induttivi o capacitivi), il ROS si calcola dal rapporto tra la resistenza di carico e l'impedenza caratteristica del cavo (in modo che ROS ≥ $\num{1}$)
 </right>
 
 ---
 
-* Beispiel: Eine Antenne mit $\qty{100}{\ohm}$ an einem $\qty{50}{\ohm}$ Kabel führt zu einem SWR von $\num{2}$, während eine mit $\qty{10}{\ohm}$ zu einem SWR von $\num{5}$ führt
-* Zur Erinnerung: Der Widerstand eines Faltdipols liegt bei knapp $\qty{300}{\ohm}$
+* Esempio: Un'antenna da $\qty{100}{\ohm}$ su un cavo da $\qty{50}{\ohm}$ porta a un ROS di $\num{2}$, mentre una da $\qty{10}{\ohm}$ porta a un ROS di $\num{5}$
+* Per ricordare: La resistenza di un dipolo ripiegato è di poco inferiore a $\qty{300}{\ohm}$
 
 ---
 [question:AG405]
 ---
-#### Lösungsweg
-* gegeben: $Z = \qty{75}{\ohm}$
-* gegeben: $R_2 \approx \qty{300}{\ohm}$ Widerstand Faltdipol
-* gesucht: $s$
+#### Percorso di soluzione
+* dato: $Z = \qty{75}{\ohm}$
+* dato: $R_2 \approx \qty{300}{\ohm}$ resistenza dipolo ripiegato
+* cercato: $s$
 
 <fragment>
 $s = \frac{R_2}{Z} = \frac{\qty{300}{\ohm}}{\qty{75}{\ohm}} = 4$
 </fragment>
 ---
 
-### Einfluss der Leitungsdämpfung auf das Stehwellenverhältnis
+### Influenza dell'attenuazione della linea sul rapporto d’onda stazionaria
 
-* Leitungsdämpfung reduziert sowohl die vorlaufende als auch die rücklaufende Leistung
-* Selbst wenn am Kabelende $\qty{100}{\percent}$ der Energie reflektiert werden, kann am Sender ein niedrigeres (besseres) SWR gemessen werden
-* Beispiel: Geht in Hin- und Rückrichtung jeweils die Hälfte der Leistung verloren, so verbleibt nur ein Viertel der ursprünglichen Leistung – dies entspricht einem gemessenen SWR von $\num{3}$ ($\qty{25}{\percent}$ reflektierte Leistung)
+* L'attenuazione della linea riduce sia la potenza in avanti che la potenza riflessa
+* Anche se il $\qty{100}{\percent}$ dell'energia viene riflessa all'estremità del cavo, è possibile misurare un ROS inferiore (migliore) al trasmettitore
+* Esempio: Se metà della potenza viene persa in entrambe le direzioni (andata e ritorno), rimane solo un quarto della potenza originale – ciò corrisponde a un ROS misurato di $\num{3}$ ($\qty{25}{\percent}$ di potenza riflessa)
 
 ---
 [question:AG402]
@@ -36,10 +36,10 @@ $s = \frac{R_2}{Z} = \frac{\qty{300}{\ohm}}{\qty{75}{\ohm}} = 4$
 [question:AG403]
 ---
 
-### Auswirkung von Leitungsdämpfung auf gemessenes SWR
+### Effetto dell'attenuazione della linea sul ROS misurato
 
-* Bei einer Leitungsdämpfung von $\qty{5}{\dB}$ in Hin- und Rückrichtung (insgesamt $\qty{10}{\dB}$) entspricht die rücklaufende Leistung nur einem Zehntel der vorlaufenden
-* Das gemessene SWR lässt sich mit der Formel berechnen:
+* Con un'attenuazione della linea di $\qty{5}{\dB}$ in entrambe le direzioni (totale $\qty{10}{\dB}$), la potenza riflessa corrisponde solo a un decimo di quella in avanti
+* Il ROS misurato può essere calcolato con la formula:
   
 <fragment>
 $s = \frac{\sqrt{P_\mathrm{v}}+\sqrt{P_\mathrm{r}}}{\sqrt{P_\mathrm{v}}-\sqrt{P_\mathrm{r}}}$
@@ -49,13 +49,13 @@ $s = \frac{\sqrt{P_\mathrm{v}}+\sqrt{P_\mathrm{r}}}{\sqrt{P_\mathrm{v}}-\sqrt{P_
 [question:AG404]
 ---
 
-#### Lösungsweg
-* gegeben: $P_V = \qty{10}{\watt}$
-* gegeben: $a = \qty{5}{\dB}$
-* gesucht: $s$
+#### Percorso di soluzione
+* dato: $P_V = \qty{10}{\watt}$
+* dato: $a = \qty{5}{\dB}$
+* cercato: $s$
 
 <fragment>
-Dämpfung auf gesamtes Kabel für Hin- und Rückweg: $\qty{10}{\dB}$
+Attenuazione per l'intero cavo per il percorso di andata e ritorno: $\qty{10}{\dB}$
 $P_R = \qty{-10}{\dB} \cdot P_V = \dfrac{\qty{10}{\watt}}{10} = \qty{1}{\watt}$
 </fragment>
 <fragment>

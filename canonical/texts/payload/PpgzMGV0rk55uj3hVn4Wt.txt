@@ -1,19 +1,19 @@
-Gegeben: 
+Dati: 
 
-* Sprachsignal mit $f_\text{max}=\qty{4}{\kilo\hertz}$ Bandbreite
+* Segnale vocale con larghezza di banda $f_\text{max}=\qty{4}{\kilo\hertz}$
 
-Gesucht: 
+Richiesto: 
 
-* Abtastrate $f_\text{s}$
+* Frequenza di campionamento $f_\text{s}$
 
-Lösung:
+Soluzione:
 
-Damit eine fehlerfreie Abtastung möglich ist, muss die Nyquist-Bedingung erfüllt werden: 
+Affinché sia possibile un campionamento privo di errori, deve essere soddisfatta la condizione di Nyquist: 
 
  $f_\text{s} > 2 \cdot f_\text{max}$
 
-Wir setzen ein: 
+Inseriamo i valori: 
 
 $\begin{split} f_\text{s} &> 2 \cdot f_\text{max}\\ &> 2 \cdot \qty{4000}{\hertz}\\ &> \qty{8000}{\hertz} \end{split}$
 
-Damit bleibt nur die Lösung $\qty{9600}{\sps}$ übrig, da nur dieser Wert größer als $\qty{8000}{\hertz}$ ist. 
+Rimane quindi solo la soluzione $\qty{9600}{\sps}$, poiché solo questo valore è maggiore di $\qty{8000}{\hertz}$. 

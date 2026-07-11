@@ -1,33 +1,33 @@
-Die Bandpläne teilen ein Band in einzelne Frequenzsegmente auf. Für jeden Frequenzbereich (Spalte 1) werden bevorzugte Übertragungsverfahren (Spalte 3 und 4) ausgewiesen.
+Le bande di frequenza dividono una banda in singoli segmenti di frequenza. Per ogni banda di frequenza (colonna 1) vengono indicate le modalità di trasmissione preferite (colonne 3 e 4).
 
-%YPA: Anderer Bandplan als Bild? Ohne Nummerierung im Titel. Übersichtlicher (Konsistentere Darstellung)?
+%YPA: Altra banda di frequenza come immagine? Senza numerazione nel titolo. Più chiaro (rappresentazione più coerente)?
 <margin>
-[photo:102:n_iaru_bandplan_2m:IARU-Bandplan $\qty{2}{\meter}$]
+[photo:102:n_iaru_bandplan_2m:Banda di frequenza IARU $\qty{2}{\meter}$]
 </margin>
  
 
-Um schnell einen Funkpartner zu finden, kann man einen CQ-Ruf auf der "Anruffrequenz" [index:Anruffrequenz] eines Bandes starten. Diese werden im IARU-Bandplan als *calling* gekennzeichnet. Dabei wird zwischen zwei Übertragungsverfahren unterschieden:
-* FM-Sprechfunk ("FM calling")
-* Digitale Telefonie ("digital voice calling")
+Per trovare rapidamente un interlocutore, si può avviare una chiamata CQ sulla "frequenza di chiamata" [index:Anruffrequenz] di una banda. Queste sono contrassegnate nel piano di banda IARU come *calling*. Si distingue tra due modalità di trasmissione:
+* Radiotelefonica FM ("FM calling")
+* Telefonia digitale ("digital voice calling")
 
-Bei FM-Sprechfunk handelt es sich um ein analoges Übertragungsverfahren. Digitale Telefonie fasst alle digitalen Übertragungsverfahren für den Sprechfunk zusammen. Den technischen Unterschied zwischen analog und digital sowie zwischen verschiedenen Übertragungsverfahren werden wir noch im weiteren Verlauf des Kurses behandeln.
+La radiotelefonica FM è una modalità di trasmissione analogica. La telefonia digitale comprende tutte le modalità di trasmissione digitale per la radiotelefonia. La differenza tecnica tra analogico e digitale e tra le diverse modalità di trasmissione verrà trattata più avanti nel corso.
 
-Anruffrequenzen sollten grundsätzlich für Anrufe freigehalten werden, d. h. sobald nach einem Anruf eine Verbindung hergestellt wurde, sollte man sich auf eine andere Frequenz verständigen und den Funkverkehr dort fortsetzen. Es bietet sich dafür eine Frequenz aus dem Bereich für FM-Sprechfunk und digitale Telefonie an, der im Bandplan als "FM/Digital Voice" gekennzeichnet ist.
+Le frequenze di chiamata dovrebbero essere generalmente tenute libere per le chiamate, cioè non appena è stato stabilito un collegamento dopo una chiamata, si dovrebbe concordare un'altra frequenza e continuare il traffico radio lì. A tal fine, è adatta una frequenza dall'area per la radiotelefonica FM e la telefonia digitale, contrassegnata nel piano di banda come "FM/Digital Voice".
 
-Die Anruffrequenzen für den klassischen FM-Sprechfunk liegt auf dem $\qty{2}{\meter}$ Band auf $\qty{145,000}{\mega\hertz}$.
+La frequenza di chiamata per la classica radiotelefonica FM sulla banda dei $\qty{2}{\meter}$ si trova a $\qty{145,000}{\mega\hertz}$.
 
 <tip>
-Nachdem eine andere Station auf einen CQ-Anruf geantwortet hat, sollte man die Frequenz wechseln und die „Anruffrequenz“ freigeben.
+Dopo che un'altra stazione ha risposto a una chiamata CQ, si dovrebbe cambiare frequenza e liberare la "frequenza di chiamata".
 </tip>
 
-Für ein weiteres Übertragungsverfahren, die analoge SSB-Telefonie, ist es ein wenig anders geregelt. Hier ist keine Anruffrequenz vorgesehen, sondern ein sogenanntes "Aktivitätszentrum" [index:Aktivitätszentrum]. Damit wird zum einen angedeutet, dass die Frequenz nicht für Anrufe freizuhalten ist, und zum anderen, dass Anrufe auch im Umfeld dieser Frequenz stattfinden sollen. Dafür kann der ganze mit "SSB" gekennzeichnete Bereich genutzt werden. Aktivitätszentren werden im Bandplan als *center of activity* markiert.
+Per un'altra modalità di trasmissione, la telefonia analogica SSB, la regola è leggermente diversa. Qui non è prevista una frequenza di chiamata, ma un cosiddetto "centro di attività" [index:Aktivitätszentrum]. Questo indica da un lato che la frequenza non deve essere tenuta libera per le chiamate, e dall'altro che le chiamate dovrebbero avvenire anche nell'intorno di questa frequenza. A tal fine, può essere utilizzata l'intera area contrassegnata con "SSB". I centri di attività sono contrassegnati nel piano di banda come *center of activity*.
 
-Für eine Vielzahl besonderer Anwendungen sind eigene Frequenzbereiche reserviert. Dies Frequenzbereiche sollten bevorzugt für die jeweils vorgesehenen Anwendungen genutzt werden. Es sollte beispielsweise vermieden werden, diese für eine Telefonie-Direktverbindung mit einem Funkamateur aus der Nähe zu verwenden. Häufige Anwendungen sind:
-* Satelliten-Up- und Downlink ("satellite uplink", "satellite downlink")
-* Baken ("beacons")
-* Relaisfunkstellen, Eingabe und Ausgabe ("repeater input", "repeater output")
-* Weltraumkommunikation ("space communication")
-* Morsetelegrafie ("CW")
+Per una serie di applicazioni speciali sono riservate aree di frequenza specifiche. Queste aree di frequenza dovrebbero essere utilizzate preferibilmente per le rispettive applicazioni previste. Ad esempio, si dovrebbe evitare di utilizzarle per un collegamento telefonico diretto con un radioamatore nelle vicinanze. Applicazioni comuni sono:
+* Uplink e downlink satellitare ("satellite uplink", "satellite downlink")
+* Radiofari ("beacons")
+* Stazioni ripetitrici, ingresso e uscita ("repeater input", "repeater output")
+* Comunicazione spaziale ("space communication")
+* Telegrafia Morse ("CW")
 
 
 

@@ -1,19 +1,19 @@
-### Umgang mit dem Pile-Up 2
+### Gestire il Pile-Up 2
 
-* Split-Verkehr ist die am Meisten genutzte Methode um vielen Anrufen eine Verbindung zu ermöglichen.
-* Dabei empfängt die begehrte Station auf einer anderen Frequenz als sie sendet.
-* Die CQ-rufende Station kündigt den Split-Verkehr mit Hinweis auf die Frequenz oder den Frequenzbereich an, in dem sie empfängt. Zum Beispiel "5 up" oder "split 14270 to 14280".
+* Il traffico split è il metodo più utilizzato per consentire a molte chiamate di stabilire un collegamento.
+* La stazione desiderata riceve su una frequenza diversa da quella in cui trasmette.
+* La stazione che chiama CQ annuncia il traffico split indicando la frequenza o la banda di frequenza in cui riceve. Ad esempio, "5 up" o "split 14270 to 14280".
 
 <note>
-* Ein Vorteil am Split-Verkehr ist, dass die besondere Station klar zu empfangen bleibt und nicht selber nicht im Pile-Up "untergeht".
-* Der Trick beim Split-Verkehr mit dem Frequenzbereich ist, dass niemand weiß, auf welcher Frequenz die begehrte Station gerade hört. Für die CQ-rufende Station entsteht der Vorteil, dass sie eher einzelne Rufzeichen heraushören kann.
+* Un vantaggio del traffico split è che la stazione speciale rimane chiaramente udibile e non "si perde" nel pile-up.
+* Il trucco del traffico split con la banda di frequenza è che nessuno sa su quale frequenza stia ascoltando la stazione desiderata. Per la stazione che chiama CQ, il vantaggio è che può sentire più facilmente singole callsign.
 </note>
 
 ---
 
-[picture:672:n_split_verkehr_anruffrequenz:Split-Verkehr, Sendefrequenz der begehrten Station und Antwort-Frequenz, auf der sie empfängt]
+[picture:672:n_split_verkehr_anruffrequenz:Traffico split, frequenza di trasmissione della stazione desiderata e frequenza di risposta su cui riceve]
 
-[picture:673:n_split_verkehr_anrufbereich:Split-Verkehr, Sendefrequenz der begehrten Station und Frequenzbereich für Antworten, in dem sie empfängt]
+[picture:673:n_split_verkehr_anrufbereich:Traffico split, frequenza di trasmissione della stazione desiderata e banda di frequenza per le risposte su cui riceve]
 
 ---
 [question:BE308]

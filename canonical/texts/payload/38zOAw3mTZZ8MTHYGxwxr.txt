@@ -1,41 +1,41 @@
-Die Grundform der Antenne ist die *Dipol-Antenne* (Abbildung [ref:n_dipol]). Sie wird von Funkamateuren in Kurzform auch einfach als Dipol bezeichnet. Ein Dipol besteht aus zwei Teilen, üblicherweise sind dies Drähte oder Metallstäbe. Einer der Leiter des Antennenkabels wird an das eine Teil, der andere Leiter an das andere Teil angeschlossen.
+La forma base dell'antenna è l'*antenna a dipolo* (Figura [ref:n_dipol]). Viene anche semplicemente chiamata dipolo dai radioamatori in forma abbreviata. Un dipolo è composto da due parti, solitamente fili o barre metalliche. Uno dei conduttori del cavo dell'antenna viene collegato a una parte, l'altro conduttore all'altra parte.
 
 <margin>
-[picture:589:n_dipol:Darstellung einer Dipol-Antenne]
+[picture:589:n_dipol:Rappresentazione di un'antenna a dipolo]
 </margin>
 
 <wordorigin>
-Der Begriff *Dipol* kommt aus dem Griechischen und bedeutet soviel wie "Zweipol".
+Il termine *dipolo* deriva dal greco e significa "due poli".
 </wordorigin>
 
 ---
 
-In der Praxis wird häufig der sogenannte Halbwellendipol verwendet, der eine Länge von $\lambda / 2$ aufweist, also einer halben Wellenlänge. Beispiel: Im $\qty{10}{\meter}$-Band beträgt die Wellenlänge rund $\qty{10}{\meter}$. Die halbe Wellenlänge ist demnach $\qty{5}{\meter}$. Ein Halbwellendipol für das $\qty{10}{\meter}$-Band hat also $\qty{5}{\meter}$ lang zu sein. Jedes Teilstück muss daher eine Länge von ca. $\qty{2,5}{\meter}$ haben. Man spricht dann davon, dass der Halbwellendipol in *Resonanz* ist.
+In pratica, viene spesso utilizzato il cosiddetto dipolo a semionda, che ha una lunghezza di $\lambda / 2$, cioè mezza lunghezza d'onda. Esempio: Nella banda dei $\qty{10}{\meter}$, la lunghezza d'onda è di circa $\qty{10}{\meter}$. La mezza lunghezza d'onda è quindi di $\qty{5}{\meter}$. Un dipolo a semionda per la banda dei $\qty{10}{\meter}$ deve quindi essere lungo $\qty{5}{\meter}$. Ogni parte deve quindi essere lunga circa $\qty{2,5}{\meter}$. Si parla quindi di dipolo a semionda in *risonanza*.
 
 <indepth>
-Es gibt auch andere *Varianten der Dipol-Antenne*, beispielsweise den Ganzwellendipol, den verkürzten Dipol oder den asymmetrisch gespeisten Dipol, bei dem das Antennenkabel nicht in der Mitte angeschlossen wird und die beiden Teile entsprechend unterschiedlich lang sind.
+Esistono anche altre *varianti dell'antenna a dipolo*, ad esempio il dipolo a onda intera, il dipolo accorciato o il dipolo alimentato in modo asimmetrico, in cui il cavo dell'antenna non viene collegato al centro e le due parti hanno quindi lunghezze diverse.
 </indepth>
 
 ---
 
-Ein Dipol der richtigen Länge hat eine gute *Abstrahlung*. Er gibt bei Sendebetrieb möglichst viel der elektrischen Schwingung als Funkwelle ab bzw. nimmt beim Empfang möglichst viel von einer Funkwelle als elektrische Schwingung auf. Verwendet man den Dipol auf höheren oder niedrigeren Frequenzen, dann funktioniert er zunehmend schlechter.
+Un dipolo della lunghezza corretta ha una buona *irradiazione*. Durante la trasmissione, irradia quanta più oscillazione elettrica possibile come onda radio, o durante la ricezione, capta quanta più onda radio possibile come oscillazione elettrica. Se si utilizza il dipolo a frequenze più alte o più basse, esso funziona sempre peggio.
 
 <indepth>
-*Resonanz* gibt es nicht nur bei Antennen, sondern beispielsweise auch bei Instrumenten in der Musik. Dies wird am Beispiel von Kontrabass und Geige deutlich: Ein Kontrabass hat vergleichsweise lange Saiten und erzeugt tiefe Töne, also tiefe Frequenzen. Eine Geige hingegen hat eher kurze Saiten und erzeugt hohe Töne, also hohe Frequenzen. Bei Antennen ist es im Prinzip genauso. Lange Dipol-Antennen eignen sich für tiefe Frequenzen und kurze Dipol-Antennen für hohe Frequenzen.
+La *risonanza* non esiste solo nelle antenne, ma ad esempio anche negli strumenti musicali. Questo diventa evidente con l'esempio del contrabbasso e del violino: un contrabbasso ha corde relativamente lunghe e produce suoni bassi, quindi frequenze basse. Un violino, al contrario, ha corde piuttosto corte e produce suoni acuti, quindi frequenze alte. Nelle antenne è fondamentalmente lo stesso. I dipoli lunghi sono adatti per frequenze basse e i dipoli corti per frequenze alte.
 </indepth>
 
 [question:NG103]
 
-Liegt die Resonanzfrequenz unterhalb der gewünschten Frequenz, dann ist der Dipol zu lang. Die Dipol-Antenne kann auf die gewünschte Frequenz gebracht werden, indem man sie an beiden Seiten gleichmäßig kürzt.
+Se la frequenza di risonanza è inferiore alla frequenza desiderata, il dipolo è troppo lungo. L'antenna a dipolo può essere portata alla frequenza desiderata accorciandola uniformemente su entrambi i lati.
 
 [question:NG304]
 
 ---
 
-Andersherum kann eine zu hohe Resonanzfrequenz eines Dipols nach unten verändert werden, indem man beide Seiten gleichmäßig verlängert.
+Al contrario, una frequenza di risonanza troppo alta di un dipolo può essere abbassata allungando entrambi i lati in modo uniforme.
 
 <tip>
-Ein Draht oder Metallstab lässt sich viel einfacher kürzen als verlängern. Daher ist es beim Bau eines Dipols zweckmäßig ihn zunächst etwas länger als berechnet auszulegen und dann schrittweise vorsichtig zu kürzen, bis Resonanz erreicht ist.
+Un filo o una barra metallica è molto più facile da accorciare che da allungare. Pertanto, quando si costruisce un dipolo, è opportuno progettarlo inizialmente un po' più lungo del calcolato e poi accorciarlo gradualmente con cautela fino a raggiungere la risonanza.
 </tip>
 
 [question:NG305]

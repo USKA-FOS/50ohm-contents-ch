@@ -1,79 +1,79 @@
-In jedem Funkgerät sind eine oder mehrere Spannungsstabilisierungen vorhanden, da die Eingangsspannung, vor allem bei mit Akku betriebenen Geräten, schwanken kann und dann empfindliche Baugruppen, wie z. B. Oszillatoren, ihre Frequenz ändern würden.
+Ogni apparecchio radio dispone di una o più stabilizzazioni di tensione, poiché la tensione d’ingresso, soprattutto nei dispositivi alimentati a batteria, può fluttuare e quindi componenti sensibili, come gli oscillatori, cambierebbero la loro frequenza.
 
-Spannungsstabilisierungen gibt es in 3 Varianten:
-1. *Schaltung mit Z-Diode* 
-2. *Lineare Spannungsregler* 
-3. *Festspannungsregler* in einer integrierten Schaltung
+Esistono stabilizzazioni di tensione in 3 varianti:
+1. *Circuito con diodo Zener* 
+2. *Regolatori di tensione lineari* 
+3. *Regolatori di tensione fissi* in un circuito integrato
 
-Die *Schaltung mit Z-Diode* (vgl. Abbildung [ref:a_stab_z_diode]) stellt eine sehr einfache Schaltung zur Stabilisierung der Ausgangsspannung dar, da die Z-Diode die Ausgangsspannung in Grenzen stabil halten kann.
+Il *circuito con diodo Zener* (cfr. figura [ref:a_stab_z_diode]) rappresenta un circuito molto semplice per stabilizzare la tensione d’uscita, poiché il diodo Zener può mantenere la tensione d’uscita stabile entro certi limiti.
 
-Die Z-Diode wird immer mit einem Vorwiderstand und in Sperrrichtung ($-U_Z$) betrieben. Z-Dioden mit Durchbruchspannungen $U_Z$ ab $\qty{5}{\volt}$, zeigen einen sehr steilen Verlauf der Kennlinie (vgl. Abbildung [ref:a_z_diode_kennlinie]) und eignen sich deshalb sehr gut zur Spannungsstabilisierung. Der Wirkungsgrad der Schaltung ist sehr niedrig, da die Verluste im Vorwiderstand $R_V$ und in der Z-Diode berücksichtigt werden müssen. 
+Il diodo Zener viene sempre utilizzato con una resistenza in serie e in direzione di blocco ($-U_Z$). I diodi Zener con tensioni di breakdown $U_Z$ a partire da $\qty{5}{\volt}$ mostrano un andamento molto ripido della caratteristica (cfr. figura [ref:a_z_diode_kennlinie]) e sono quindi molto adatti alla stabilizzazione della tensione. Il rendimento del circuito è molto basso, poiché devono essere considerate le perdite nella resistenza in serie $R_V$ e nel diodo Zener. 
 
 <margin>
-[picture:323:a_stab_z_diode:Spannungsstabilisierung mit Z-Diode]
-[picture:862:a_z_diode_kennlinie:Kennline einer Z-Diode]
+[picture:323:a_stab_z_diode:Stabilizzazione di tensione con diodo Zener]
+[picture:862:a_z_diode_kennlinie:Caratteristica di un diodo Zener]
 </margin>
 
-Die Lösung der folgenden Aufgabe ist etwas aufwändiger. Zuerst wird aus Lastwiderstand und Laststrom die Ausgangsleistung bestimmt. Anschließend berechnet man aus Versorgungsspannung sowie der Summe aus Laststrom und Z-Diodenstrom die aufgenommene Eingangsleistung. Der Wirkungsgrad ergibt sich dann aus dem Verhältnis von abgegebener zu aufgenommener Leistung.
+La soluzione del seguente compito è un po' più complessa. Innanzitutto, dalla resistenza di carico e dalla corrente di carico si determina la potenza d’uscita. Successivamente, dalla tensione di alimentazione e dalla somma della corrente di carico e della corrente del diodo Zener si calcola la potenza d’ingresso assorbita. Il rendimento si ottiene quindi dal rapporto tra la potenza erogata e quella assorbita.
 
 [question:AD321]
 
 ---
 
-*Lineare Spannungsregler* stabilisieren die Ausgangsspannung dadurch, indem ein Leistungstransistor als veränderlicher Widerstand betrieben wird und zusammen mit dem Lastwiderstand einen Spannungsteiler bildet.
+I *regolatori di tensione lineari* stabilizzano la tensione d’uscita facendo funzionare un transistor di potenza come resistenza variabile che, insieme alla resistenza di carico, forma un partitore di tensione.
 
 <margin>
-[picture:1079:a_diskrete_pannungsstabilisierung:diskret aufgebaute Spannungsstabilisierung]
+[picture:1079:a_diskrete_pannungsstabilisierung:Stabilizzazione di tensione costruita discretamente]
 </margin>
 
-In der folgenden Frage ist eine diskrete Spannungsstabilisierung mit Längstransistor dargestellt. Über eine Z-Diode wird eine Referenzspannung von $\qty{5,6}{\volt}$ an der Basis des Transistors erzeugt. Das Emitterpotential ist im Betriebszustand eines Siliziumtransistor um etwa $\qty{0,6}{\volt}$ niedriger als das Basispotential. Die geregelte Ausgangsspannung liegt dann bei etwa $\qty{5}{\volt}$.
+Nella seguente domanda è rappresentata una stabilizzazione di tensione discreta con transistor di regolazione in serie. Tramite un diodo Zener viene generata una tensione di riferimento di $\qty{5,6}{\volt}$ sulla base del transistor. Il potenziale dell'emettitore, in stato operativo di un transistor al silicio, è circa $\qty{0,6}{\volt}$ inferiore al potenziale della base. La tensione d’uscita regolata è quindi di circa $\qty{5}{\volt}$.
 
-Der Laststrom fließt auch durch den Transistor und dadurch wird er bei hohem Laststrom sehr warm. Die sogenannten Längstransistoren befinden sich deshalb bei linear geregelten Spannungsstabilisierungen immer auf einem Kühlkörper. 
+La corrente di carico scorre anche attraverso il transistor e quindi, con correnti di carico elevate, questo si scalda molto. I cosiddetti transistor di regolazione in serie si trovano quindi sempre su un dissipatore di calore nelle stabilizzazioni di tensione regolate linearmente. 
 
 <margin>
-[photo:246:a_Längstransistor 2N3055 auf Kühlkörper:Der Längstransistor in einem linear geregelten Netzteil muss große Verlustleistungen aushalten und wird deshalb auf einen Kühlkörper montiert.]
+[photo:246:a_Längstransistor 2N3055 auf Kühlkörper:Il transistor di regolazione in serie in un alimentatore regolato linearmente deve sopportare elevate potenze dissipate e viene quindi montato su un dissipatore di calore.]
 </margin>
 
 [question:AD315]
 
-Die Verlustleistung $P_V$ ergibt sich aus der Differenz von  $P_{\mathrm{in}} - P_{\mathrm{out}}$. Zusammen mit der Leistungsformel $P = U \cdot I$ kann die Verlustleistung berechnet werden.
+La potenza dissipata $P_V$ deriva dalla differenza tra $P_{\mathrm{in}}$ e $P_{\mathrm{out}}$. Insieme alla formula della potenza $P = U \cdot I$, la potenza dissipata può essere calcolata.
 
 [question:AD319]
 
-Bei linearen Spannungsreglern ist der Wirkungsgrad systembedingt oft sehr niedrig. Hierzu gibt es eine Frage zum Wirkungsgrad, welche mit der bekannten Formel von oben $\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}}$ gelöst werden kann. 
+Nei regolatori di tensione lineari, il rendimento è spesso molto basso per sua natura. A questo proposito, c'è una domanda sul rendimento che può essere risolta con la formula nota sopra $\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}}$. 
 
 [question:AD320]
 
 ---
 
-Neben Z-Diode und Linearspannungsregler gibt es auch *Festspannungsregler* in einer integrierten Schaltung. Festspannungsregler arbeiten wie lineare Spannungsregler mit Längstransistor und  beinhalten eine sehr genaue Spannungsreferenzquelle zusammen mit einer optimalen elektronischen Regelung. Auch wenn die Eingangsspannung stark  schwankt (z.B. $\qty{\pm 2}{\volt}$) ist auf der Lastseite die Spannungsänderung nur im Millivoltbereich messbar. Die Kondensatoren auf beiden Seiten des Festspannungsreglers müssen nach Vorgaben des Herstellers gewählt werden, sonst kann es zu unerwünschten Schwingungen im Regelverhalten der Schaltung kommen.
+Oltre ai diodi Zener e ai regolatori di tensione lineari, esistono anche *regolatori di tensione fissi* in un circuito integrato. I regolatori di tensione fissi funzionano come i regolatori di tensione lineari con transistor di regolazione in serie e contengono una sorgente di tensione di riferimento molto precisa insieme a una regolazione elettronica ottimale. Anche se la tensione d’ingresso fluttua notevolmente (ad es. $\qty{\pm 2}{\volt}$), sul lato del carico la variazione di tensione è misurabile solo nell'ordine dei millivolt. I condensatori su entrambi i lati del regolatore di tensione fisso devono essere scelti secondo le specifiche del produttore, altrimenti potrebbero verificarsi oscillazioni indesiderate nel comportamento di regolazione del circuito.
 
 <margin>
-[picture:200:a_Festspannungsregler:Festspannungsregler]
+[picture:200:a_Festspannungsregler:Regolatore di tensione fisso]
 </margin>
 
 ---
 
-Ein Festspannungsregler hält seine Ausgangsspannung weitgehend konstant, solange die Eingangsspannung ausreichend über der Ausgangsspannung liegt. Die Ausgangsspannung bleibt daher nahezu unverändert, auch wenn die Eingangsspannung schwankt.
+Un regolatore di tensione fisso mantiene la sua tensione d’uscita in gran parte costante, purché la tensione d’ingresso sia sufficientemente superiore alla tensione d’uscita. La tensione d’uscita rimane quindi quasi invariata, anche se la tensione d’ingresso fluttua.
 
 [question:AD316]
 [question:AD317]
 
 <tip>
-Damit die interne Regelschaltung optimal funktioniert, muss die Eingangsspannung bei Standard-Festspannungsregler (z.B. Typ 7812 für eine Festpannung von $\qty{12}{\volt}$) um ca. $\qty{3}{\volt}$ größer als die Ausgangsspannung sein, also mindestens $\qty{15}{\volt}$. Es gibt Festspannungsregler, bei denen die Eingangsspannung nur um $\qty{1}{\volt}$ größer als die Ausgangsspannung sein muss. Diese Regler heißen Low-Drop-Spannungsregler.
+Affinché il circuito di regolazione interno funzioni in modo ottimale, la tensione d’ingresso per i regolatori di tensione fissi standard (ad es. tipo 7812 per una tensione fissa di $\qty{12}{\volt}$) deve essere di circa $\qty{3}{\volt}$ superiore alla tensione d’uscita, quindi almeno $\qty{15}{\volt}$. Esistono regolatori di tensione fissi per i quali la tensione d’ingresso deve essere solo di $\qty{1}{\volt}$ superiore alla tensione d’uscita. Questi regolatori sono chiamati regolatori di tensione a basso dropout (Low-Drop).
 </tip>
 
 ---
 
-Zur Lösung der folgenden Aufgabe nutzen wir erneut die bekannte Beziehung: Die Verlustleistung $P_V$ des Festspannungsreglers ergibt sich aus der Differenz von $P_{\mathrm{in}}$ und $P_{\mathrm{out}}$.
+Per risolvere il seguente compito, utilizziamo nuovamente la relazione nota: la potenza dissipata $P_V$ del regolatore di tensione fisso deriva dalla differenza tra $P_{\mathrm{in}}$ e $P_{\mathrm{out}}$.
 
 [question:AD318]
 
 <tip>
-Der Lösungsweg beginnt mit der Berechnung des Laststromes: $I_L$. Hinweis: Der Strom in der Masseleitung des Festspannungsreglers ist vernachlässigbar klein und wird deshalb nicht berücksichtigt.
+Il percorso di soluzione inizia con il calcolo della corrente di carico: $I_L$. Suggerimento: la corrente nella linea di massa del regolatore di tensione fisso è trascurabilmente piccola e quindi non viene considerata.
 </tip>
 
 <margin>
-[photo:245:a_Festspannungsregler:Festspannungsregler für $\qty{5}{\volt}$, $\qty{12}{\volt}$ und $\qty{9}{\volt}$ auf Kühlkörper]
+[photo:245:a_Festspannungsregler:Regolatori di tensione fissi per $\qty{5}{\volt}$, $\qty{12}{\volt}$ e $\qty{9}{\volt}$ su dissipatore di calore]
 </margin>
   

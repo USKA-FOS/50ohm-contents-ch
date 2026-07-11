@@ -1,27 +1,27 @@
-Durch Änderung der Kapazität des frequenzbestimmenden Kondensators, innerhalb eines Oszillators, kann Frequenzmodulation erzeugt werden. Bei einem Quarzoszillator kann z.B. mittels einer Kapazitätsdiode, die in Serie zum Quarz liegt, Frequenzmodulation erzeugt werden. Die Amplitude des modulierenden Signals (z.B. Mikrofon), die an der Kapazitätsdiode anliegt, bestimmt hierbei direkt die Frequenzänderung des Oszillators.
+Modificando la capacità del condensatore che determina la frequenza, all'interno di un oscillatore, si può generare la modulazione di frequenza. In un oscillatore a quarzo, ad esempio, la modulazione di frequenza può essere generata utilizzando un diodo varicap, collegato in serie al quarzo. L'ampiezza del segnale modulante (ad es. microfono), che viene applicata al diodo varicap, determina direttamente la variazione di frequenza dell'oscillatore.
 [question:AE303]
 
-Die Modulationsfrequenz beeinflusst hierbei, wie häufig sich die Frequenz des Oszillators ändert.
+La frequenza di modulazione influisce su quanto spesso la frequenza dell'oscillatore cambia.
 [question:AE301]
 
-Bei Frequenzmodulation befindet sich die Information des modulierenden Signals nicht in der Amplitude, sondern nur in der Frequenzänderung des Trägersignals. Daher müssen nur die Nulldurchgänge des Trägersignals im Empfänger ausgewertet werden. Amplitudenschwankungen werden durch einen Begrenzerverstärker hierbei ausgeblendet. Daher ist Frequenzmodulation systembedingt unempfindlich gegenüber impulsförmigen Störungen der Amplitude, die z.B. durch Zündfunken, Elektromotoren o.ä. hervorgerufen werden. FM eignet sich daher gut für den Betrieb in Kraftfahrzeugen.
+Nella modulazione di frequenza, l'informazione del segnale modulante non si trova nell'ampiezza, ma solo nella variazione di frequenza del segnale portante. Pertanto, nel ricevitore devono essere valutati solo gli attraversamenti dello zero del segnale portante. Le fluttuazioni di ampiezza vengono eliminate da un amplificatore limitatore. Pertanto, la modulazione di frequenza è intrinsecamente insensibile ai disturbi impulsivi dell'ampiezza, che possono essere causati ad esempio da scintille di accensione, motori elettrici o simili. La FM è quindi adatta per l'uso nei veicoli a motore.
 [question:AE302]
 
-Der Hub eines FM-Signals bestimmt um welchen Betrag sich die Frequenz des Oszillators im Sender, je nach Amplitude des modulierenden Signals, ändert. Eine größere Auslenkung der Frequenz entspricht hierbei, nach Demodulation im FM-Empfänger, wieder einer größeren Amplitude des demodulierten Signals. Daher hat ein größerer Hub eines frequenzmodulierten Senders direkten Einfluss auf die Lautstärke des demodulierten Signals in einem FM-Empfänger.
+La deviazione di un segnale FM determina di quanto la frequenza dell'oscillatore nel trasmettitore cambia, a seconda dell'ampiezza del segnale modulante. Un'escursione maggiore della frequenza corrisponde, dopo la demodulazione nel ricevitore FM, nuovamente a una maggiore ampiezza del segnale demodulato. Pertanto, una maggiore deviazione di un trasmettitore a frequenza modulata ha un'influenza diretta sul volume del segnale demodulato in un ricevitore FM.
 [question:AE305]
 
-Die belegte Bandbreite einer FM-Aussendung wird durch den Hub und die maximale Modulationsfrequenz bestimmt. In erster Näherung kann für kleinen Hub und niedrige Modulationsfrequenz die Carson-Formel angewendet werden. Sie gibt an in welcher Bandbreite sich $\qty{99}{\percent}$ der Sendeleistung befinden.
+La larghezza di banda occupata da una trasmissione FM è determinata dalla deviazione e dalla frequenza di modulazione massima. In prima approssimazione, per deviazioni piccole e frequenze di modulazione basse, si può applicare la formula di Carson. Essa indica in quale larghezza di banda si trova il $\qty{99}{\percent}$ della potenza di trasmissione.
 
-**Carson-Formel**
+**Formula di Carson**
 
 $B\approx2 \cdot \left(\Delta f_{\textrm{T}} + f_{\textrm{mod max}} \right)$
 
-Die belegte Bandbreite berechnet sich hierbei nach der vorgenannten Formel. Hieraus ist ersichtlich, dass eine höhere Modulationsfrequenz oder ein größerer Hub (z.B. hervorgerufen durch eine höhere Ansteuerung des FM-Modulators), zu einer größeren Bandbreite des Signals führen. Es können hierdurch Nachbarkanalstörungen hervorgerufen werden, da die Bandbreite des Signals in beiden Fällen zunimmt.
+La larghezza di banda occupata viene calcolata secondo la formula sopra menzionata. Da ciò si evince che una frequenza di modulazione più alta o una deviazione maggiore (ad es. causata da un pilotaggio più elevato del modulatore FM) portano a una maggiore larghezza di banda del segnale. Ciò può causare disturbi sul canale adiacente, poiché la larghezza di banda del segnale aumenta in entrambi i casi.
 [question:AE306]
 [question:AE307]
 [question:AE304]
 
-Mittels der Carson-Formel lässt sich bei bekannten Werten für Hub und Modulationsfrequenz die belegte Bandbreite einer FM-Aussendung berechnen. Durch geeignetes Umstellen der Formel können auch jeweils die anderen Größen berechnet werden.
+Utilizzando la formula di Carson, è possibile calcolare la larghezza di banda occupata di una trasmissione FM con valori noti di deviazione e frequenza di modulazione. Riorganizzando opportunamente la formula, è possibile calcolare anche le altre grandezze.
 [question:AE309]
 [question:AE308]
 [question:AE311]

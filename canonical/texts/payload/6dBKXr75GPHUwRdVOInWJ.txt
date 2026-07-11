@@ -4,14 +4,14 @@
 <p>
   <div id="mapbox" width="100%">
     <canvas id="map">
-        Your browser does not support HTML5 canvas.
+        Il tuo browser non supporta HTML5 canvas.
     </canvas>
 </div>
 </p>
-Aktuelle Zeit: <div id="twl" style="display:inline-block;">time</div>
+Ora attuale: <div id="twl" style="display:inline-block;">time</div>
 <div id="slidebox" style="width: 100%;">
     <input type="range" class="slider" value="0" min="0" max="24" id="time" style="width: 100%;">
-    <button onclick="drawDayNightMap(true)">Zurücksetzen</button>
+    <button onclick="drawDayNightMap(true)">Ripristina</button>
 </div>
 
 <script>

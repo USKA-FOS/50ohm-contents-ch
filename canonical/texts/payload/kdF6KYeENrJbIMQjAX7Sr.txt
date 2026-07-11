@@ -1,26 +1,26 @@
-## Stromdurchflossener Leiter
+## Conduttore percorso da corrente
 
 <left>
-* Fließt Strom durch einen Leiter, bilden sich konzentrische, magnetische Felder um den Leiter
+* Se scorre corrente in un conduttore, si formano campi magnetici concentrici attorno al conduttore
 </left>
 <right>
-Grafik eines stromdurchflossenen Leiters mit konzentrischen magnetischen Feldlinien kommt noch
+Grafico di un conduttore percorso da corrente con linee di campo magnetiche concentriche in arrivo
 </right>
 ---
 [question:EB201]
 ---
-## Homogenes magnetisches Feld
+## Campo magnetico omogeneo
 
 <left>
-* Wird ein stromdurchflossener Leiter zu einer Zylinderspule aufgewickelt, entsteht im inneren ein homogenes magnetisches Feld (*H-Feld*)
-* Eine Spule speichert magnetische Energie
+* Se un conduttore percorso da corrente viene avvolto in una bobina cilindrica, all'interno si crea un campo magnetico omogeneo (*campo H*)
+* Una bobina immagazzina energia magnetica
 </left>
 <right>
-[picture:50:e_h_feld_spule:Magnetische Feldlinien in einer Zylinderspule]
-* Einheit: $\unit{\ampere\per\meter}$
+[picture:50:e_h_feld_spule:Linee di campo magnetiche in una bobina cilindrica]
+* Unità: $\unit{\ampere\per\meter}$
 </right>
 <note>
-* H-Feld von magnetische Feldstärke H ein paar Folien weiter
+* Campo H dell'intensità di campo magnetico H qualche diapositiva più avanti
 </note>
 
 ---
@@ -28,41 +28,41 @@ Grafik eines stromdurchflossenen Leiters mit konzentrischen magnetischen Feldlin
 ---
 [question:EA104]
 ---
-## Ringkern
+## Nucleo toroidale
 
 <left>
-* Leiter wird auf einen magnetisch leitenden Ringkern gewickelt, z.B. Eisen
-* Vorteile: Platzsparend und stabiler
+* Il conduttore viene avvolto su un nucleo toroidale a conducibilità magnetica, ad es. ferro
+* Vantaggi: Risparmio di spazio e stabilità
 </left>
 <right>
-[picture:40:e_ringkern:Ringkernspule]
+[picture:40:e_ringkern:Bobina toroidale]
 </right>
 
 ---
 <left>
-* Magnetische Feldstärke $H = \dfrac{I\cdot N}{l_m}$ in $\unit{\ampere\per\meter}$
-* mit $N$ als Wicklungsanzahl und $l_m$ mittlere Länge des Rings
+* Intensità di campo magnetico $H = \dfrac{I\cdot N}{l_m}$ in $\unit{\ampere\per\meter}$
+* con $N$ come numero di avvolgimenti e $l_m$ lunghezza media dell'anello
 </left>
 <right>
-[picture:40:e_ringkern:Ringkernspule]
+[picture:40:e_ringkern:Bobina toroidale]
 </right>
 
 ---
 [question:EB203]
 <note>
-* Kreisumfang als mittlere Länge des Rings mit Durchmesser ausrechnen
+* Calcolare la circonferenza come lunghezza media dell'anello con il diametro
 * $l_m = \pi \cdot d$
 </note>
 ---
 
-## Magnetfeld einer Antenne
+## Campo magnetico di un'antenna
 
 <left>
-* An einer Antenne wirkt das Magnetfeld um den Leiter
-* Hier an einer Vertikalantenne konzentrisch um die Antenne
+* Su un'antenna agisce il campo magnetico attorno al conduttore
+* Qui, su un'antenna verticale, concentricamente attorno all'antenna
 </left>
 <right>
-[picture:192:e_vertikalantenne_magnetfeld:Magnetfeld an einer Vertikalantenne]
+[picture:192:e_vertikalantenne_magnetfeld:Campo magnetico su un'antenna verticale]
 </right>
 ---
 [question:EB206]

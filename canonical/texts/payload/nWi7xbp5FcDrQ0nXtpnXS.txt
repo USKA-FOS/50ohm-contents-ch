@@ -1,26 +1,26 @@
-Auf dem Typschild elektrischer Geräte ist meistens die Leistungsaufnahme angegeben. Zum Beispiel könnte man auf einem LED-Leuchtmittel die Angabe $\qty{7}{\watt}$ finden oder $\qty{425}{\watt}$ auf einem Staubsauger.
+Sulla targhetta degli apparecchi elettrici è solitamente indicata la potenza assorbita. Ad esempio, su una fonte luminosa a LED si potrebbe trovare l'indicazione $\qty{7}{\watt}$ o $\qty{425}{\watt}$ su un aspirapolvere.
 
-Auch an jedem Widerstand wird elektrische Leistung umgesetzt. Sobald ein Strom durch einen Widerstand fließt, wird elektrische Energie in thermische Energie umgewandelt, also in Wärme. Je größer der Strom ist, desto mehr Wärme wird an die Umgebung abgegeben. Deshalb werden auch viele elektrische Geräte beim Betrieb warm. Die elektrische Leistung gibt an, wieviel elektrische Energie in einer gewissen Zeit umgesetzt wird. Die Einheit der Leistung ist Watt, abgekürzt $\unit{\watt}$.
+Anche su ogni resistenza viene convertita potenza elettrica. Non appena una corrente attraversa una resistenza, l'energia elettrica viene convertita in energia termica, cioè in calore. Maggiore è la corrente, maggiore è il calore ceduto all'ambiente. Per questo motivo molti apparecchi elettrici si scaldano durante il funzionamento. La potenza elettrica indica quanta energia elettrica viene convertita in un certo tempo. L'unità di misura della potenza è il watt, abbreviato $\unit{\watt}$.
 
 [question:NA204]
 [question:NA211]
 [question:NA210]
 
-Die elektrische Leistung hängt sowohl vom Strom als auch von der Spannung ab. Es gilt sowohl "Je größer die Spannung, umso größer die Leistung" also auch "Je größer der Strom, umso größer die Leistung". Berechnen lässt sich die Leistung sehr leicht. Sie ist das Produkt aus Strom und Spannung:
+La potenza elettrica dipende sia dalla corrente che dalla tensione. Valgono sia "maggiore è la tensione, maggiore è la potenza" sia "maggiore è la corrente, maggiore è la potenza". La potenza può essere calcolata molto facilmente. È il prodotto di corrente e tensione:
 
 $ P = U \cdot I $
 
-Auch diese Formel und die unten folgenden Umstellungen dieser Formel muss man nicht unbedingt auswendig lernen, da sie Teil der Formelsammlung sind, die als Hilfsmittel bei der Prüfung vorliegt. Die Berechnung ist ebenfalls wieder mit dem Taschenrechner möglich.
+Anche questa formula e le sue successive trasformazioni non devono essere necessariamente imparate a memoria, poiché fanno parte della raccolta di formule che è disponibile come ausilio durante l'esame. Il calcolo è nuovamente possibile con la calcolatrice.
 
 [question:NB601]
 [question:NB602]
 [question:NB603]
 
-Sind Leistung und Strom bekannt, so kann man die Spannung durch folgende Umstellung berechnen, die allerdings für die Prüfung der Klasse N nicht benötigt wird:
+Se potenza e corrente sono note, la tensione può essere calcolata con la seguente trasformazione, che tuttavia non è necessaria per l'esame di classe N:
 
 $ U = \dfrac{P}{I} $
 
-Möchte man wissen, wieviel Strom durch ein Gerät fliesst, kann man das mit folgender Formel aus der Spannung und der Leistungsangabe am Gerät errechnen:
+Se si vuole sapere quanta corrente attraversa un apparecchio, si può calcolare con la seguente formula dalla tensione e dall'indicazione di potenza sull'apparecchio:
 
 $ I = \dfrac{P}{U} $
 

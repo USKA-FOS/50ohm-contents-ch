@@ -1,9 +1,9 @@
-%YPA: Issue #11 von ARK beachten.
+%YPA: Vedere il numero 11 di ARK.
 
-Wie wir gelernt haben, hängt die belegte Sendebandbreite von der Modulationsart und bei FM auch noch vom Hub ab. Für die verschiedenen Amateurfunkbänder sind jeweils maximal zulässige Bandbreiten festgelegt. Diese findet man in der [Anlage 1](https://50ohm.de/a1) der Amateurfunkverordnung, aus der wir auch schon die Bandgrenzen entnommen haben. Diese Bandbreiten dürfen nicht überschritten werden. Jeder Funkamateur ist selbst für die Einhaltung verantwortlich.
+Come abbiamo imparato, la larghezza di banda occupata dipende dal tipo di modulazione e, nel caso della FM, anche dalla deviazione. Per le diverse bande radioamatoriali sono definite larghezze di banda massime consentite. Queste si trovano nell'[Allegato 1](https://50ohm.de/a1) dell'Ordinanza radioamatoriale, da cui abbiamo già ricavato i limiti di banda. Queste larghezze di banda non devono essere superate. Ogni radioamatore è responsabile del rispetto di tali limiti.
 
 <webmargin>
-| l: Frequenzbereiche | l: Status | X: zus. Nutzungsbedingungen|
+| l: Bande di frequenza | l: Stato | X: Condizioni d'uso aggiuntive|
 | $\qtyrange{135,7}{137,8}{\kilo\hertz}$| S | 1 2 10 |
 | $\qtyrange{472}{479}{\kilo\hertz}$| S | 1 |
 | $\qtyrange{3500}{3800}{\kilo\hertz}$ | P | 3 |
@@ -11,19 +11,19 @@ Wie wir gelernt haben, hängt die belegte Sendebandbreite von der Modulationsart
 | $\qtyrange{28}{29,7}{\mega\hertz}$ | P | 4 13 |
 | $\qtyrange{144}{146}{\mega\hertz}$ | P | 6 13 |
 | $\qtyrange{430}{440}{\mega\hertz}$ | P | 7 13 |
-[table:n_tab_afuv:Auszug AfuV Anlage 1]
+[table:n_tab_afuv:Estratto AfuV Allegato 1]
 </webmargin>
 
 <webmargin>
-Die Zahlen bei den zusätzlichen Nutzungsbedingungen in der oben genannten Tabelle bedeuten (die nicht wiedergegebenen Zahlen sind für die Bandbreite unerheblich):
-* *1* Maximal zulässige belegte Bandbreite einer Amateurfunk-Aussendung: $\qty{800}{\hertz}$.
-* *3* Maximal zulässige belegte Bandbreite einer Amateurfunk-Aussendung: $\qty{2,7}{\kilo\hertz}$.
-* *4* Maximal zulässige belegte Bandbreite einer Amateurfunk-Aussendung unterhalb $\qty{29}{\mega\hertz}$: $\qty{7}{\kilo\hertz}$, oberhalb $\qty{29}{\mega\hertz}$: $\qty{40}{\kilo\hertz}$.
-* *6* Maximal zulässige belegte Bandbreite einer Amateurfunk-Aussendung: $\qty{40}{\kilo\hertz}$.
-* *7* Maximal zulässige belegte Bandbreite einer Amateurfunk-Aussendung: $\qty{2}{\mega\hertz}$; bei amplitudenmodulierten Fernsehaussendungen: $\qty{7}{\mega\hertz}$.
+I numeri nelle condizioni d'uso aggiuntive nella tabella sopra indicano (i numeri non riportati sono irrilevanti per la larghezza di banda):
+* *1* Larghezza di banda occupata massima consentita di una trasmissione radioamatoriale: $\qty{800}{\hertz}$.
+* *3* Larghezza di banda occupata massima consentita di una trasmissione radioamatoriale: $\qty{2,7}{\kilo\hertz}$.
+* *4* Larghezza di banda occupata massima consentita di una trasmissione radioamatoriale al di sotto di $\qty{29}{\mega\hertz}$: $\qty{7}{\kilo\hertz}$, al di sopra di $\qty{29}{\mega\hertz}$: $\qty{40}{\kilo\hertz}$.
+* *6* Larghezza di banda occupata massima consentita di una trasmissione radioamatoriale: $\qty{40}{\kilo\hertz}$.
+* *7* Larghezza di banda occupata massima consentita di una trasmissione radioamatoriale: $\qty{2}{\mega\hertz}$; per trasmissioni televisive modulate in ampiezza: $\qty{7}{\mega\hertz}$.
 </webmargin>
 
-Die folgenden Fragen lassen sich alle mit Hilfe der Fußnoten in der Anlage 1 der Amateurfunkverordnung lösen, die - wie schon erwähnt - während der Prüfung als Hilfsmittel zur Verfügung steht. Wir empfehlen, sich vor der Prüfung mit der Anlage vertraut zu machen!
+Le seguenti domande possono essere risolte tutte con l'aiuto delle note a piè di pagina nell'Allegato 1 dell'Ordinanza radioamatoriale, che - come già detto - è disponibile come ausilio durante l'esame. Si consiglia di familiarizzare con l'allegato prima dell'esame!
 
 [question:VD738]
 [question:VD739]
@@ -33,15 +33,15 @@ Die folgenden Fragen lassen sich alle mit Hilfe der Fußnoten in der Anlage 1 de
 
 ---
 
-Besonders aufpassen muss man bei Sendungen in der Nähe der Grenzen der Amateurfunkbänder. Ein Beispiel: Nehmen wir an, ein FM-Signal belegt eine Bandbreite von $\qty{15}{\kilo\hertz}$, und wir stellen den Sender auf die untere Bandgrenze des $\qty{70}{\centi\meter}$-Bandes ein, also auf $\qty{430}{\mega\hertz}$. Das Sendesignal befindet sich um die Trägerfrequenz herum, also jeweils $\qty{7,5}{\kilo\hertz}$ unterhalb und oberhalb. Es würde sich also von $\qty{429,9925}{\mega\hertz}$ bis $\qty{430,0075}{\mega\hertz}$ erstrecken. Da das Signal somit zur Hälfte außerhalb des Bandes wäre, dürfen wir nicht auf PTT drücken! Wir müssen also bei FM, aber auch bei AM, immer mindestens einen Abstand von der halben belegten Bandbreite zur Bandgrenze hin einhalten.
+Bisogna prestare particolare attenzione alle trasmissioni vicino ai limiti delle bande radioamatoriali. Un esempio: Supponiamo che un segnale FM occupi una larghezza di banda di $\qty{15}{\kilo\hertz}$ e impostiamo il trasmettitore sul limite inferiore della banda dei $\qty{70}{\centi\meter}$, cioè su $\qty{430}{\mega\hertz}$. Il segnale di trasmissione si trova attorno alla frequenza portante, quindi rispettivamente $\qty{7,5}{\kilo\hertz}$ al di sotto e al di sopra. Si estenderebbe quindi da $\qty{429,9925}{\mega\hertz}$ a $\qty{430,0075}{\mega\hertz}$. Poiché il segnale sarebbe quindi per metà fuori banda, non possiamo premere PTT! Quindi, sia in FM che in AM, dobbiamo sempre mantenere una distanza di almeno metà della larghezza di banda occupata dal limite della banda.
 
 <indepth>
-[picture:908:n_bandbreite_falsch:Falsch -- Senden außerhalb der Bandgrenzen]
-[picture:909:n_bandbreite_richtig:Richtig -- Senden innerhalb der Bandgrenzen]
+[picture:908:n_bandbreite_falsch:Sbagliato -- Trasmettere al di fuori dei limiti di banda]
+[picture:909:n_bandbreite_richtig:Corretto -- Trasmettere all'interno dei limiti di banda]
 </indepth>
 
 <indepth>
-Bei SSB verhält es sich an der Bandgrenze ein wenig anders. Hier ist das Signal nur auf einer Seite der (unterdrückten) Trägerfrequenz zu finden. Bei LSB ist das Signal vollständig unterhalb der Trägerfrequenz, bei USB ist es vollständig oberhalb der Trägerfrequenz. Wenn man also beispielsweise als Sendefrequenz die obere Bandgrenze einstellt, dann dürfte man mit LSB durchaus senden, da das gesamte Signal innerhalb des Bandes bleibt. Mit USB dürfte man dort allerdings nicht senden, da das gesamte Signal außerhalb des Bandes wäre.
+Nel caso della SSB, la situazione al limite della banda è leggermente diversa. Qui il segnale si trova solo su un lato della frequenza portante (soppressa). Con LSB il segnale si trova completamente al di sotto della frequenza portante, con USB si trova completamente al di sopra della frequenza portante. Se, ad esempio, si imposta il limite superiore della banda come frequenza di trasmissione, allora con LSB si potrebbe trasmettere, poiché l'intero segnale rimane all'interno della banda. Con USB, tuttavia, non si potrebbe trasmettere lì, poiché l'intero segnale sarebbe al di fuori della banda.
 </indepth>
 
 [question:NE305]

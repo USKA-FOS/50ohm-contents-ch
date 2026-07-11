@@ -1,29 +1,29 @@
-## Reihenschaltung
+## In serie
 
-* Da die Spannung entscheidend für das Entstehen des elektrischen Feldes ist (und diese sich bei der Reihenschaltung aufteilt), ist die Berechnung der Kapazität genau umgekehrt wie bei Widerständen.
-* Anwendungsfall: Bei hohen Spannungen werden mehrere Kondensatoren in Reihe geschaltet, um die Gefahr eines Durchschlags zu verhindern. Dabei ist hilfreich, dass sich die Gesamtspannung an den Kondensatoren aufteilt.
-
----
-
-* Bei einer Reihenschaltung von Kondensatoren ist die Gesamtkapazität kleiner als der Wert des kleinsten Kondensators
-
-[picture:823:e_reihenschaltung_kondensatoren:Reihenschaltung von 3 Kondensatoren]
-
-$\frac{1}{C_{\mathrm{ges}}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
+* Poiché la tensione è decisiva per la formazione del campo elettrico (e questa si divide nella connessione in serie), il calcolo della capacità è esattamente l'opposto di quello delle resistenze.
+* Caso d'uso: A tensioni elevate, più condensatori vengono collegati in serie per prevenire il rischio di un cedimento. È utile che la tensione totale si divida tra i condensatori.
 
 ---
 
-* Vereinfachung für zwei Kondensatoren:
+* In una connessione in serie di condensatori, la capacità totale è inferiore al valore del condensatore più piccolo
 
-$C_{\mathrm{ges}} = \dfrac{C_{1} \cdot C_{2}}{C_{1} + C_{2}}$
+[picture:823:e_reihenschaltung_kondensatoren:Connessione in serie di 3 condensatori]
+
+$\frac{1}{C_{\mathrm{tot}}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
 
 ---
 
-* Vereinfachung für gleiche Kondensatoren:
+* Semplificazione per due condensatori:
 
-$C_{\mathrm{ges}} = \dfrac{C}{n}$
+$C_{\mathrm{tot}} = \dfrac{C_{1} \cdot C_{2}}{C_{1} + C_{2}}$
 
-$n$ steht für die Anzahl der Kondensatoren
+---
+
+* Semplificazione per condensatori uguali:
+
+$C_{\mathrm{tot}} = \dfrac{C}{n}$
+
+$n$ sta per il numero di condensatori
 
 ---
 
@@ -35,22 +35,22 @@ $n$ steht für die Anzahl der Kondensatoren
 
 ---
 
-## Parallelschaltung
+## In parallelo
 
-* Hier ist es genau umgekehrt wie bei Widerständen, weil an allen Kondensatoren die gleiche Spannung anliegt, welche ja entscheidend für die Entstehung des elektrischen Feldes ist.
-* Anwendungsfall: Kondensatoren werden parallel geschaltet, um aus der Normreihe auf den Wert zu kommen, den man benötigt.
+* Qui è esattamente l'opposto rispetto alle resistenze, perché su tutti i condensatori agisce la stessa tensione, che è decisiva per la formazione del campo elettrico.
+* Caso d'uso: I condensatori vengono collegati in parallelo per ottenere dalla serie standard il valore desiderato.
 
 <note>
-* Die parallel geschalteten Kondensatoren wirken wie ein großer Kondensator
+* I condensatori collegati in parallelo agiscono come un grande condensatore
 </note>
 
 ---
 
-* Bei einer Parallelschaltung addieren sich die Kapazitäten
+* Nella connessione in parallelo, le capacità si sommano
 
-[picture:822:e_parallelschaltung_kondensatoren:Parallelschaltung von 3 Kondensatoren]
+[picture:822:e_parallelschaltung_kondensatoren:Connessione in parallelo di 3 condensatori]
 
-$C_{\mathrm{ges}} = C_{1} + C_{2} + C_{3}$
+$C_{\mathrm{tot}} = C_{1} + C_{2} + C_{3}$
 
 ---
 
@@ -62,23 +62,23 @@ $C_{\mathrm{ges}} = C_{1} + C_{2} + C_{3}$
 
 ---
 
-## Gemischte Schaltungen
+## Circuiti misti
 
 --- style="font-size: 0.7em;"
 
-### Variante 1: Zwei Parallel und dazu einer in Reihe
+### Variante 1: Due in parallelo e uno in serie
 
 <left>
-* Hier berechnet man zuerst die Parallelschaltung von $C_{2}$ und $C_{3}$
+* Qui si calcola prima la connessione in parallelo di $C_{2}$ e $C_{3}$
 
-$C_{\mathrm{ges,p}} = C_{2} + C_{3}$
+$C_{\mathrm{tot,p}} = C_{2} + C_{3}$
 
-* Danach berechnet man die Reihenschaltung von $C_{1}$ und $C_{\mathrm{ges,p}}$
+* Successivamente si calcola la connessione in serie di $C_{1}$ e $C_{\mathrm{tot,p}}$
 
-$C_{\mathrm{ges}} = \frac{C_{1} \cdot C_{\mathrm{ges,p}}}{C_{1} + C_{Gp}}$
+$C_{\mathrm{tot}} = \frac{C_{1} \cdot C_{\mathrm{tot,p}}}{C_{1} + C_{Gp}}$
 </left>
 <right>
-[picture:820:e_gemischt_variante_1:Gemischte Schaltung - Variante 1]
+[picture:820:e_gemischt_variante_1:Circuito misto - Variante 1]
 </right>
 
 ---
@@ -95,19 +95,19 @@ $C_{\mathrm{ges}} = \frac{C_{1} \cdot C_{\mathrm{ges,p}}}{C_{1} + C_{Gp}}$
 
 --- style="font-size: 0.7em;"
 
-### Variante 2: Zwei in Reihe und dazu einer Parallel
+### Variante 2: Due in serie e uno in parallelo
 
 <left>
-* Hier berechnet man zuerst die Reihenschaltung von $C_{1}$ und $C_{2}$
+* Qui si calcola prima la connessione in serie di $C_{1}$ e $C_{2}$
 
-$C_{\mathrm{ges,r}} = \frac{C_{1} \cdot C_{2}}{C_{1} + C_{2}}$
+$C_{\mathrm{tot,r}} = \frac{C_{1} \cdot C_{2}}{C_{1} + C_{2}}$
 
-* Danach berechnet man die Parallelschaltung von $C_{3}$ und $C_{\mathrm{ges,r}}$
+* Successivamente si calcola la connessione in parallelo di $C_{3}$ e $C_{\mathrm{tot,r}}$
 
-$C_{\mathrm{ges}} = \frac{C_{3} \cdot C_{\mathrm{ges,r}}}{C_{3} + C_{\mathrm{ges,r}}}$
+$C_{\mathrm{tot}} = \frac{C_{3} \cdot C_{\mathrm{tot,r}}}{C_{3} + C_{\mathrm{tot,r}}}$
 </left>
 <right>
-[picture:457:e_gemischt_variante_2:Gemischte Schaltung - Variante 2]
+[picture:457:e_gemischt_variante_2:Circuito misto - Variante 2]
 </right>
 
 ---

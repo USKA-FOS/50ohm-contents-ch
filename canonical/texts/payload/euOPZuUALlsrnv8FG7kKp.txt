@@ -1,20 +1,20 @@
-* Signalstärke eines Hochfrequenzsignals nimmt bei zunehmender Kabellänge ab
-* Wird als *Kabeldämpfung* bezeichnet
-* Auch Stecker können das Signal dämpfen
-* Ist unerwünscht
+* La potenza del segnale di un segnale ad alta frequenza diminuisce con l'aumentare della lunghezza del cavo
+* Viene chiamata *attenuazione del cavo*
+* Anche i connettori possono attenuare il segnale
+* È indesiderata
 
 ---
 <left>
-* Dämpfung wird in der Regel in Dezibel ($\unit{\dB}$) angegeben
-* Wenn von Dämpfung gesprochen wird, bleibt die Zahl positiv
+* L'attenuazione è solitamente espressa in decibel ($\unit{\dB}$)
+* Quando si parla di attenuazione, il numero rimane positivo
 </left>
 <right>
-* Faktor zu $\unit{\dB}$-Umrechnung verwenden
-* Oder in der Formelsammlung nachschlagen
+* Utilizzare il fattore per la conversione in $\unit{\dB}$
+* Oppure consultare la raccolta di formule
 </right>
 <note>
-* Ist etwas irritierend, aber sonst sind die Prüfungsantworten falsch
-* Bei einer Gesamtbetrachtung von Gewinnen und Verlusten, zählt die Dämpfung jedoch negativ
+* È un po' irritante, ma altrimenti le risposte d'esame sarebbero sbagliate
+* Nella considerazione complessiva di guadagni e perdite, l'attenuazione conta tuttavia negativamente
 </note>
 
 ---
@@ -24,44 +24,44 @@
 ---
 [question:EG308]
 ---
-## Kabelverluste
+## Perdite del cavo
 
-* Alle Verluste, die in Kabeln entstehen
-* Antenne und Verstärker verstärken das Signal, verändern jedoch nicht die Kabelverluste
+* Tutte le perdite che si verificano nei cavi
+* L'antenna e l'amplificatore amplificano il segnale, ma non modificano le perdite del cavo
 
 ---
 [question:EG307]
 ---
-## Kabeldämpfungsdiagramm
+## Diagramma di attenuazione dei cavi
 
 <left>
-* Im Anhang der Formelsammlung
-* Dämpfungen verschiedener Kabel in Abhängigkeit zur Frequenz
-* Bezug auf $\qty{100}{\meter}$ – bei kürzeren Kabeln muss umgerechnet werden
+* Nell'appendice della raccolta di formule
+* Attenuazioni di diversi cavi in dipendenza dalla frequenza
+* Riferimento a $\qty{100}{\meter}$ – per cavi più corti è necessario ricalcolare
 </left>
 <right>
-[picture:202:e_kabeldaempfung_diagramm:Kabeldämpfungsdiagramm im Anhang der Formelsammlung]
+[picture:202:e_kabeldaempfung_diagramm:Diagramma di attenuazione dei cavi nell'appendice della raccolta di formule]
 </right>
 <note>
-* ggf. hier zoomen
+* eventualmente zoomare qui
 </note>
 ---
 
 [question:EG312]
 ---
-### Lösungsweg
+### Percorso di soluzione
 
-* gesucht: Dämpfung für $\qty{100}{\meter}$ RG58 Kabel bei $\qty{145}{\mega\hertz}$
-* Lösung: Ablesen aus Diagramm
-* Schnittpunkt der RG58 Linie mit $\qty{145}{\mega\hertz}\rightarrow \qty{20}{\dB}$
+* cercato: Attenuazione per $\qty{100}{\meter}$ di cavo RG58 a $\qty{145}{\mega\hertz}$
+* Soluzione: Lettura dal diagramma
+* Intersezione della linea RG58 con $\qty{145}{\mega\hertz}\rightarrow \qty{20}{\dB}$
 
 ---
 [question:EG311]
 ---
-### Lösungsweg
+### Percorso di soluzione
 
-* gesucht: Dämpfung für $\qty{20}{\meter}$ bei $\qty{20}{\dB}$ Dämpfung auf $\qty{100}{\meter}$
-* Lösung: Dreisatz
+* cercato: Attenuazione per $\qty{20}{\meter}$ con attenuazione di $\qty{20}{\dB}$ su $\qty{100}{\meter}$
+* Soluzione: Regola del tre
 
 $\dfrac{\qty{20}{\dB}}{\qty{100}{\meter}} = \dfrac{x}{\qty{20}{\meter}}$
 $x = \dfrac{\qty{20}{\dB}\cdot \qty{20}{\meter}}{\qty{100}{\meter}} = \qty{4}{\dB}$
@@ -69,11 +69,11 @@ $x = \dfrac{\qty{20}{\dB}\cdot \qty{20}{\meter}}{\qty{100}{\meter}} = \qty{4}{\d
 ---
 [question:EG313]
 ---
-### Lösungsweg
+### Percorso di soluzione
 
-* gesucht: Dämpfung für $\qty{15}{\meter}$ RG58 Kabel bei $\qty{145}{\mega\hertz}$
-* Lösung: Ablesen aus Diagramm und Dreisatz
-* Schnittpunkt der RG58 Linie mit $\qty{145}{\mega\hertz}\rightarrow \qty{20}{\dB}$
+* cercato: Attenuazione per $\qty{15}{\meter}$ di cavo RG58 a $\qty{145}{\mega\hertz}$
+* Soluzione: Lettura dal diagramma e regola del tre
+* Intersezione della linea RG58 con $\qty{145}{\mega\hertz}\rightarrow \qty{20}{\dB}$
 
 $\dfrac{\qty{20}{\dB}}{\qty{100}{\meter}} = \dfrac{x}{\qty{15}{\meter}}$
 $x = \dfrac{\qty{20}{\dB}\cdot \qty{15}{\meter}}{\qty{100}{\meter}} = \qty{3}{\dB}$

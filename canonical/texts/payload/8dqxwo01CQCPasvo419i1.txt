@@ -1,90 +1,90 @@
-## HF-Leistungsverstärker
+## Amplificatori di potenza HF
 
-* Verstärken das HF-Signal aus vorherigen Stufen
-* Ziel: Erreichen der gewünschten Ausgangsleistung
-* Zwei Typen: Breitbandige und selektive HF-Verstärker
+* Amplificano il segnale HF dagli stadi precedenti
+* Obiettivo: Raggiungere la potenza d’uscita desiderata
+* Due tipi: Amplificatori HF a banda larga e selettivi
 
 ---
-### Breitbandige HF-Verstärker
+### Amplificatori HF a banda larga
 
 <left>
-[picture:491:a_verstaerker_breitband_gegentaktverstaerker:Breitband-Gegentaktverstärker]
+[picture:491:a_verstaerker_breitband_gegentaktverstaerker:Amplificatore a controfase a banda larga]
 </left>
 <right>
-* Gleichmäßige Verstärkung über einen weiten Frequenzbereich (z. B. $\qtyrange{1}{30}{\mega\hertz}$)
-* Erkennbar an breitbandigen Koppeltransformatoren
-* Keine Parallel- oder Serienkapazitäten als Schwingkreis
+* Amplificazione uniforme su un ampio intervallo di frequenza (es. $\qtyrange{1}{30}{\mega\hertz}$)
+* Riconoscibile dai trasformatori di accoppiamento a banda larga
+* Nessuna capacità parallela o serie come circuito oscillante
 </right>
 
 ---
 [question:AF412]
 
 ---
-### Selektive HF-Verstärker
+### Amplificatori HF selettivi
 
 
 <left>
-[picture:778:a_verstaerker_selektiver_hf_verstaerker:Selektiver HF-Verstärker]
+[picture:778:a_verstaerker_selektiver_hf_verstaerker:Amplificatore HF selettivo]
 </left>
 <right>
-* Verstärkungsmaximum nur in einem schmalen Bereich (z. B. ein Amateurband)
-* Frequenzselektive Auslegung
-* Verwendung von Serien- oder Parallel-Schwingkreisen im HF-Signalpfad
+* Massimo di amplificazione solo in un intervallo ristretto (es. una banda amatoriale)
+* Progettazione selettiva in frequenza
+* Utilizzo di circuiti oscillanti serie o parallelo nel percorso del segnale HF
 </right>
 
 ---
 [question:AF408]
 
 ---
-# Mehrstufige Verstärker
+# Amplificatori multistadio
 
 
 <left>
-[picture:764:a_verstaerker_zweistufiger_breitband_hf_verstaerker:Zweistufiger Breitband-HF-Verstärker]
+[picture:764:a_verstaerker_zweistufiger_breitband_hf_verstaerker:Amplificatore HF a banda larga a due stadi]
 </left>
 <right>
-* Verstärker können mehrstufig durch Verkettung einzelner Stufen ausgeführt sein
+* Gli amplificatori possono essere realizzati a più stadi collegando singoli stadi in cascata
 </right>
 
 ---
 [question:AF413]
 
 ---
-## Impedanzanpassung zwischen Verstärkerstufen
+## Adattamento di impedenza tra stadi dell'amplificatore
 
-* Notwendig für maximale Verstärkung, minimale Verzerrung und optimalen Wirkungsgrad
-* Verhindert Reflexionen und Nichtlinearitäten
-
----
-### Methoden der Impedanzanpassung
-
-* Breitbandige Anpassung durch Transformator mit geeignetem Übersetzungsverhältnis
-* Frequenzselektive Anpassung durch angezapften Schwingkreis
+* Necessario per la massima amplificazione, minima distorsione e rendimento ottimale
+* Impedisce riflessioni e non linearità
 
 ---
+### Metodi di adattamento di impedenza
 
-[picture:765:a_anpassung_breitbandige_anpassung:Breitbandige Anpassung zwischen zwei Stufen mittels Transformator mit geeignetem Übersetzungsverhältnis]
+* Adattamento a banda larga tramite trasformatore con opportuno rapporto di trasformazione
+* Adattamento selettivo in frequenza tramite circuito oscillante con presa
+
+---
+
+[picture:765:a_anpassung_breitbandige_anpassung:Adattamento a banda larga tra due stadi tramite trasformatore con opportuno rapporto di trasformazione]
 
 ---
 [question:AF414]
 
 ---
 
-[picture:786:a_anpassung_mosfet:Breitbandige Ein- und Ausgangs-Anpassung auf niederohmige MOSFETs mittels Transformatoren]
+[picture:786:a_anpassung_mosfet:Adattamento a banda larga in ingresso e uscita su MOSFET a bassa impedenza tramite trasformatori]
 
 ---
 [question:AF417]
 
 ---
 
-[picture:779:a_anpassung_induktiver_spannungsteiler:Frequenzselektive Anpassung mit Spule als induktiver Spannungsteiler]
+[picture:779:a_anpassung_induktiver_spannungsteiler:Adattamento selettivo in frequenza con bobina come partitore di tensione induttivo]
 
 ---
 [question:AF409]
 
 ---
 
-[picture:780:a_anpassung_kapazitiver_spannungsteiler:Frequenzselektive Anpassung mit Kondensator als kapazitiver Spannungsteiler]
+[picture:780:a_anpassung_kapazitiver_spannungsteiler:Adattamento selettivo in frequenza con condensatore come partitore di tensione capacitivo]
 
 
 ---
@@ -92,54 +92,54 @@
 
 ---
 
-[picture:768:a_anpassung_eingang_schwingkreis:Schwingkreis mit veränderbaren Kondensatoren zur Anpassung der Eingangsimpedanz]
+[picture:768:a_anpassung_eingang_schwingkreis:Circuito oscillante con condensatori variabili per l'adattamento dell'impedenza di ingresso]
 
 ---
 [question:AF407]
 
 ---
 
-[picture:769:a_anpassung_ausgang_schwingkreis:Schwingkreis mit veränderbaren Kondensatoren zur Anpassung der Ausgangsimpedanz]
+[picture:769:a_anpassung_ausgang_schwingkreis:Circuito oscillante con condensatori variabili per l'adattamento dell'impedenza di uscita]
 
 ---
 [question:AF406]
 
 ---
-### Pi-Filter zur Impedanzanpassung
+### Filtro Pi per l'adattamento di impedenza
 
-* Passt Ein- und Ausgangsimpedanzen durch Verhältnis der Kapazitäten an
-* Spule definiert mit den Kapazitäten die Auslegungsfrequenz
-* Tiefpass-Charakter unterdrückt Oberwellen
+* Adatta le impedenze di ingresso e uscita tramite il rapporto delle capacità
+* La bobina, insieme alle capacità, definisce la frequenza di progetto
+* Carattere passa-basso che sopprime le armoniche superiori
 
 ---
 [question:AF405]
 
 ---
-### LC-Schaltung hinter HF-Leistungsverstärker
+### Circuito LC dopo l'amplificatore di potenza HF
 
-* Dient zur Impedanzanpassung und gleichzeitiger Unterdrückung von Oberwellen
+* Serve per l'adattamento di impedenza e la contemporanea soppressione delle armoniche superiori
 
 ---
 [question:AF404]
 
 ---
-## Wirkungsgrad eines HF-Leistungsverstärkers
+## Rendimento di un amplificatore di potenza HF
 
-* Verhältnis zwischen abgegebener HF-Ausgangsleistung und zugeführter Gleichstrom-Versorgungsleistung
+* Rapporto tra la potenza d’uscita HF erogata e la potenza di alimentazione in corrente continua fornita
 
 ---
 [question:AF401]
 
 ---
-## BIAS-Spannung in Leistungsverstärkern
+## Tensione di BIAS negli amplificatori di potenza
 
 <left>
-[picture:786:a_verstaerker_bias_arbeitspunkt:Arbeitspunktverstellung in einem Verstärker durch ein Poti]
+[picture:786:a_verstaerker_bias_arbeitspunkt:Regolazione del punto di funzionamento in un amplificatore tramite potenziometro]
 </left>
 <right>
-* Betriebsspannungseinstellung durch Spannungsteiler
-* Feineinstellung über Trimmpotentiometer
-* Gleichspannungsbetrachtung: Kondensatoren ignorieren, Spulen als Kurzschluss betrachten
+* Regolazione della tensione di servizio tramite partitore di tensione
+* Regolazione fine tramite potenziometro trimmer
+* Considerazione della corrente continua: ignorare i condensatori, considerare le bobine come cortocircuiti
 </right>
 
 ---
@@ -152,26 +152,26 @@
 [question:AF424]
 
 ---
-### Berechnung der BIAS-Spannung
+### Calcolo della tensione di BIAS
 
-* Anwendung des Ohmschen Gesetzes
-* Berücksichtigung von Parallel- und Serienschaltungen von Widerständen
-* Gate-Anschlüsse der Transistoren sind kapazitiv und bei Gleichspannungsbetrachtung vernachlässigbar
+* Applicazione della legge di Ohm
+* Considerazione di resistenze in parallelo e serie
+* I gate dei transistor sono capacitivi e trascurabili nella considerazione della corrente continua
 
 ---
 [question:AF421]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Percorso di soluzione
 <left>
-* gegeben: $U_Z = \qty{6,2}{\volt}$
-* gegeben: $R_2 = \qty{270}{\ohm}$
-* gegeben: $R_3 = \qty{220}{\ohm}$
+* dato: $U_Z = \qty{6,2}{\volt}$
+* dato: $R_2 = \qty{270}{\ohm}$
+* dato: $R_3 = \qty{220}{\ohm}$
 </left>
 <right>
-* gegeben: $R_4 = \qty{6,8}{\kilo\ohm}$
-* gegeben: $R_6 = \qty{150}{\ohm}$
-* gesucht: $U_{GS}$
+* dato: $R_4 = \qty{6,8}{\kilo\ohm}$
+* dato: $R_6 = \qty{150}{\ohm}$
+* cercato: $U_{GS}$
 </right>
 
 <left>
@@ -186,15 +186,15 @@ $\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{\q
 </right>
 
 ---
-## HF-Entkopplung der Betriebsspannung
+## Disaccoppiamento HF della tensione di servizio
 
-* Verhindert Rückwirkungen zwischen Verstärkerstufen (z. B. Schwingneigung)
-* Umsetzung durch in Serie geschaltete Induktivitäten und Abblock-Kondensatoren
-* Tiefpass-Charakter: DC-Spannung bleibt erhalten, HF wird abgeblockt
+* Impedisce retroazioni tra gli stadi dell'amplificatore (es. tendenza all'oscillazione)
+* Realizzato tramite induttanze in serie e condensatori di disaccoppiamento
+* Carattere passa-basso: la tensione CC viene mantenuta, l'HF viene bloccata
 
 ---
 
-[picture:781:a_entkopplung_drossel:Drossel zur Entkopplung der HF von der Betriebsspannung]
+[picture:781:a_entkopplung_drossel:Bobina di arresto per il disaccoppiamento dell'HF dalla tensione di servizio]
 
 ---
 [question:AF411]
@@ -204,7 +204,7 @@ $\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{\q
 
 ---
 
-[picture:786:a_entkopplung_abblock_kondensatoren:Abblock-Kondensatoren zur Entkopplung der HF von der Betriebsspannung mit Tiefpass-Charakter]
+[picture:786:a_entkopplung_abblock_kondensatoren:Condensatori di disaccoppiamento per il disaccoppiamento dell'HF dalla tensione di servizio con carattere passa-basso]
 
 ---
 [question:AF419]
@@ -213,33 +213,33 @@ $\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{\q
 [question:AF418]
 
 ---
-## HF-Eigenschaften von Kondensatoren
+## Proprietà HF dei condensatori
 
-* Große Kapazitäten (z. B. Elektrolytkondensatoren) nur bei niedrigen Frequenzen einsetzbar
-* Für HF-Anwendungen Kombination verschiedener Kapazitätswerte zur Abdeckung eines breiten Frequenzbereichs
+* Grandi capacità (es. condensatori elettrolitici) utilizzabili solo a basse frequenze
+* Per applicazioni HF, combinazione di diversi valori di capacità per coprire un ampio intervallo di frequenza
 
 ---
 [question:AF415]
 
 ---
-## Gesamtverstärkung eines Leistungsverstärkers
+## Guadagno totale di un amplificatore di potenza
 
 <left>
-[picture:470:a_verstaerker_gesamtverstaerkung:Blockschaltbild eines Verstärkers mit Gewinn und Verlust je Stufe]
+[picture:470:a_verstaerker_gesamtverstaerkung:Schema a blocchi di un amplificatore con guadagno e perdita per stadio]
 </left>
 <right>
-* Ermittelt durch Differenz zwischen Ausgangs- und Eingangsleistung
-* Berechnung über vorzeichenrichtige Subtraktion der dBm-Werte
+* Determinato dalla differenza tra potenza d’uscita e potenza d’ingresso
+* Calcolo tramite sottrazione algebrica dei valori in dBm
 </right>
 
 ---
 [question:AF428]
 ---
-#### Lösungsweg
+#### Percorso di soluzione
 
-* gegeben: $P_1 = \qty{0,3}{\milli\watt}$ oder $\qty{-5}{\dBm}$
-* gegeben: $P_2 = \qty{20}{\watt}$ oder $\qty{43}{\dBm}$
-* gesucht: $g$
+* dato: $P_1 = \qty{0,3}{\milli\watt}$ o $\qty{-5}{\dBm}$
+* dato: $P_2 = \qty{20}{\watt}$ o $\qty{43}{\dBm}$
+* cercato: $g$
 
 <left>
 <fragment>

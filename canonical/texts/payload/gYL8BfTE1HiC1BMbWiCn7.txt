@@ -1,23 +1,23 @@
-## Oberwellen
+## Armoniche superiori
 
-* Ganzzahlige Vielfache der Grundfrequenz
-* Entstehen durch Signalformen, die nicht sinusförmig sind, insbesondere bei Übersteuerung
-* Beeinträchtigung anderer Funkdienste
-* Können reduziert werden
+* Multipli interi della frequenza fondamentale
+* Si verificano a causa di forme d'onda non sinusoidali, in particolare in caso di sovraeccitazione
+* Interferenza con altri servizi radio
+* Possono essere ridotte
 
 ---
 [question:EJ201]
 ---
 [question:EJ202]
 ---
-## Tiefpassfilter
+## Filtro passa-basso
 
 <left>
-* Nur Frequenzen unterhalb einer bestimmten Grenzfrequenz werden durchgelassen
-* Oberwellen können nicht passieren oder werden stark abgeschwächt
+* Vengono trasmesse solo le frequenze al di sotto di una determinata frequenza di taglio
+* Le armoniche superiori non possono passare o vengono fortemente attenuate
 </left>
 <right>
-  [picture:591:tiefpass:Frequenzgang eines Tiefpassfilters]
+  [picture:591:tiefpass:Risposta in frequenza di un filtro passa-basso]
 </right>
 
 ---
@@ -33,69 +33,69 @@
 ---
 [question:EJ203]
 ---
-## Hochpassfilter
+## Filtro passa-alto
 
 <left>
-* Nur Frequenzen oberhalb einer bestimmten Grenzfrequenz werden durchgelassen
-* Werden im Empfängereingang verwendet, damit tiefe Frequenzen nicht stören
+* Vengono trasmesse solo le frequenze al di sopra di una determinata frequenza di taglio
+* Vengono utilizzati nell'ingresso del ricevitore per evitare che le frequenze basse disturbino
 </left>
 <right>
-   [picture:592:hochpass:Frequenzgang eines Hochpassfilters]
+   [picture:592:hochpass:Risposta in frequenza di un filtro passa-alto]
 </right>
 <note>
-* Im Fernseher, damit starke UKW-Radiosender knapp unterhalb des Fernsehsignals nicht stören
+* Nel televisore, per evitare che potenti trasmettitori radio FM disturbino appena al di sotto del segnale televisivo
 </note>
 
 ---
-## Bandpassfilter
+## Filtro passa-banda
 
 <left>
-* Bei Einbandsendern
-* Sender im VHF/UHF/SHF-Bereich
-* Signale aus der Signalaufbereitung unterhalb der Sendefrequenz unterdrücken
+* Nei trasmettitori monobanda
+* Trasmettitori nella gamma VHF/UHF/SHF
+* Sopprimere i segnali dalla preparazione del segnale al di sotto della frequenza di trasmissione
 </left>
 <right>
-   [picture:593:bandpass:Frequenzgang eines Bandpassfilters]
+   [picture:593:bandpass:Risposta in frequenza di un filtro passa-banda]
 </right>
 
 ---
-## Arbeitspunkt
-* Sender-Stufen und Leistungs-Endstufen sollen verzerrungsfrei arbeiten
-* Nach Veränderung des Arbeitspunkts auf Linearität (saubere Sinus-Verstärkung) prüfen
-* Aussendung auf Oberwellen prüfen
+## Punto di funzionamento
+* Gli stadi del trasmettitore e gli stadi finali di potenza devono funzionare senza distorsioni
+* Dopo aver modificato il punto di funzionamento, verificare la linearità (amplificazione sinusoidale pulita)
+* Verificare la trasmissione per armoniche superiori
 
 ---
 [question:EF404]
 
-%Die Fragen habe ich von Störenden Beeinflussungen hier her kopiert (DL9MJ)
+%Ho copiato le domande da Interferenze disturbanti qui (DL9MJ)
 
 ---
-## Übersteuerung
+## Sovraeccitazione
 
-* Bei Übersteuerung von Sendern und Endstufen entstehen Nebenaussendungen
-* Diese stören benachbarte Stationen
-* Übersteuerung vermeiden
+* La sovraeccitazione dei trasmettitori e degli stadi finali genera emissioni spurie
+* Queste disturbano le stazioni adiacenti
+* Evitare la sovraeccitazione
 
 ---
 [question:EJ213]
 ---
 [question:EJ214]
 ---
-## Frequenzstabilität
+## Stabilità di frequenza
 
-* Nicht stabile Oszillatoren können zu Aussendungen außerhalb der Bandgrenzen führen
-* Das kann benachbarte Stationen stören
-* Ursache z.B. Selbstbaugerät mit nicht quarzstabilisierten Oszillator
+* Oscillatori instabili possono portare a trasmissioni al di fuori dei limiti di banda
+* Ciò può disturbare le stazioni adiacenti
+* Causa, ad esempio, apparecchi autocostruiti con oscillatore non stabilizzato al quarzo
 
 ---
 [question:EJ216]
 ---
-## Bandbreite
+## Larghezza di banda
 
-* Überschreitung der zulässigen Bandbreite kann insbesondere bei AFSK-modulierten FM-Sendern geschehen
-* Abhilfe durch Hub begrenzen
-* Oder Aussteuerung der NF reduzieren
-* Beachten bei Packet-Radio oder Digimodes
+* Il superamento della larghezza di banda consentita può verificarsi in particolare con trasmettitori FM modulati AFSK
+* Rimedio limitando la deviazione
+* O riducendo l'uscita dell'audio
+* Da considerare per Packet Radio o modi digitali
 
 ---
 [question:EJ212]

@@ -1,17 +1,17 @@
-Die gespeicherte Energie eines Akkus berechnet sich aus Spannung mal Kapazität:
+L'energia immagazzinata in un accumulatore si calcola dalla tensione per la capacità:
 
 $W = U \cdot Q$
 
-mit
+con
 
 $U = \qty{12}{\volt}$
 
-und
+e
 
 $Q = \qty{5}{\ampere\hour}$
 
-Damit ergibt sich:
+Ciò porta a:
 
 $W = \qty{12}{\volt} \cdot \qty{5}{\ampere\hour} = \qty{60}{\watt\hour}$
 
-Der Akku kann also eine Energie von $\qty{60}{\watt\hour}$ speichern.
+L'accumulatore può quindi immagazzinare un'energia di $\qty{60}{\watt\hour}$.

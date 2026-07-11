@@ -1,32 +1,32 @@
-## Feldwellenwiderstand und Feldstärken
-* Feldwellenwiderstand im Vakuum:
+## Impedenza caratteristica e intensità di campo
+* Impedenza caratteristica nel vuoto:
 * $Z_{F0} = \sqrt{\dfrac{\mu_0}{\varepsilon_0}}$
-* $\mu_0$ ist die magnetische Feldkonstante, $\varepsilon_0$ die elektrische Feldkonstante  
-* Magnetische Feldstärke wird über $\mu_0$, magnetische Flussdichte und Magnetisierung berechnet  
+* $\mu_0$ è la costante del campo magnetico, $\varepsilon_0$ la costante dielettrica del vuoto  
+* L'intensità di campo magnetico viene calcolata tramite $\mu_0$, la densità di flusso magnetico e la magnetizzazione  
 
 ---
 
-* In einem Medium (z. B. Luft) gilt:
+* In un mezzo (ad es. aria) vale:
 * $Z_{F} = \sqrt{\dfrac{\mu}{\varepsilon}}$
-* Elektrische und magnetische Feldstärke hängen vom Wellenwiderstand des Mediums ab
+* L'intensità di campo elettrico e magnetico dipendono dall'impedenza caratteristica del mezzo
 
 ---
 [question:AK102]
 
 ---
-### Leistung am Einspeisepunkt der Antenne
+### Potenza al punto di immissione dell'antenna
 
-* Antenneneingangsleistung ergibt sich aus der Sendeleistung abzüglich der Kabeldämpfung  
-* Kabelverluste werden als Dämpfungsfaktor (z. B. $\qty{10}{\dB}$ → $\num{0,1}$) berücksichtigt  
-* Formel: $P_{Ant} = D \cdot P_{Sender}$
+* La potenza d’ingresso dell'antenna deriva dalla potenza di trasmissione meno l'attenuazione del cavo  
+* Le perdite del cavo sono considerate come fattore di attenuazione (ad es. $\qty{10}{\dB}$ → $\num{0,1}$)  
+* Formula: $P_{Ant} = D \cdot P_{Sender}$
 
 ---
 [question:AK104]
 
 ---
-## Maximale Sendeleistung gemäß BEMFV
+## Potenza di trasmissione massima secondo BEMFV
 
-* Sicherheitsabstand muss im Fernfeld liegen:  
+* La distanza di sicurezza deve trovarsi nel campo lontano:  
 
 <fragment>
 $d > \dfrac{\lambda}{2\pi}$  
@@ -37,14 +37,14 @@ $d > \dfrac{\lambda}{2\pi}$
 [question:AK107]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Percorso di soluzione
 <left>
-* gegeben: $g_d = \qty{6}{\dBd}$
-* gegeben: $E = \qty{28}{\volt\per\meter}$
+* dato: $g_d = \qty{6}{\dBd}$
+* dato: $E = \qty{28}{\volt\per\meter}$
 </left>
 <right>
-* gegeben: $d = \qty{5}{\meter}$
-* gesucht: $P_S$
+* dato: $d = \qty{5}{\meter}$
+* cercato: $P_S$
 </right>
 
 <fragment>
@@ -63,14 +63,14 @@ $\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d - a + 2,15dB}{\qty{10}{\dB}}}\
 [question:AK113]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Percorso di soluzione
 <left>
-* gegeben: $g_i = \qty{12,15}{\dBi}$
-* gegeben: $P_A = \qty{250}{\watt}$
+* dato: $g_i = \qty{12,15}{\dBi}$
+* dato: $P_A = \qty{250}{\watt}$
 </left>
 <right>
-* gegeben: $d = \qty{30}{\meter}$
-* gesucht: $E$
+* dato: $d = \qty{30}{\meter}$
+* cercato: $E$
 </right>
 
 <fragment>
@@ -89,10 +89,10 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ &= \fra
 [question:AK114]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
-* gegeben: $P_{ERP} = \qty{100}{\watt}$
-* gegeben: $d = \qty{100}{\meter}$
-* gesucht: $E$
+#### Percorso di soluzione
+* dato: $P_{ERP} = \qty{100}{\watt}$
+* dato: $d = \qty{100}{\meter}$
+* cercato: $E$
 
 <fragment>
 <left>
@@ -110,10 +110,10 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ &= \frac{\sq
 [question:AK115]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
-* gegeben: $P_{ERP} = \qty{100}{\watt}$
-* gegeben: $d = \qty{100}{\meter}$
-* gesucht: $E$
+#### Percorso di soluzione
+* dato: $P_{ERP} = \qty{100}{\watt}$
+* dato: $d = \qty{100}{\meter}$
+* cercato: $E$
 
 <fragment>
 <left>

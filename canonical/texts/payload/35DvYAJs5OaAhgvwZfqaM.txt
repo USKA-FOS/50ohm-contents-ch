@@ -1,21 +1,21 @@
-Bei der Berechnung von Sicherheitsabständen spielt die Winkeldämpfung bei Richtantennen eine wichtige Rolle. Die größte Strahlungsleistung wird in der Mitte der Strahlungskeule abgestrahlt. In den anderen Richtungen ist sie geringer. Ist die Antenne ausreichend hoch, stahlt die Antenne zum großen Teil über den <u>nicht</u> kontrollierbaren Bereich hinweg, also dem Bereich in dem die Grenzwerte unbedingt eingehalten werden müssen. 
+Nel calcolo delle distanze di sicurezza, l'attenuazione angolare delle antenne direttive gioca un ruolo importante. La massima potenza di radiazione viene irradiata al centro del fascio. Nelle altre direzioni è inferiore. Se l'antenna è sufficientemente alta, l'antenna irradia in gran parte oltre l'area <u>non</u> controllabile, cioè l'area in cui i limiti devono assolutamente essere rispettati. 
 
-Im kritischen Winkel von $\qty{40}{\degree}$ unterhalb der Antenne befindet sich ein nicht kontrollierbarer Bereich. Die Strahlungsleistung ist dort um $\qty{6}{\dB}$ niedriger als in der Mitte des Strahlungsdiagramms. Die direkte Folge ist, dass dort der Sicherheitsabstand entsprechend geringer sein kann.
+Nell'angolo critico di $\qty{40}{\degree}$ sotto l'antenna si trova un'area non controllabile. La potenza di radiazione è lì inferiore di $\qty{6}{\dB}$ rispetto al centro del diagramma di radiazione. La conseguenza diretta è che la distanza di sicurezza può essere di conseguenza inferiore.
 
-$\qty{6}{\dB}$ entsprechen einem Faktor von $\num{0,25}$ oder $\dfrac{1}{4}$ (Formelsammlung).
+$\qty{6}{\dB}$ corrispondono a un fattore di $\num{0,25}$ o $\dfrac{1}{4}$ (raccolta di formule).
 
 $ E = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_\textrm{EIRP}}}{d}$
-Umstellen der Formel nach $d$ (Sicherheitsabstand).
+Riorganizzazione della formula per $d$ (distanza di sicurezza).
 $ d = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_\textrm{EIRP}}}{E}$
 
-Die Strahlungsleistung $P_\textrm{EIRP}$ ist nicht bekannt. Allerdings wissen wir, dass bei dieser Rechnung nur ein Viertel der Strahlungsleistung im Vergleich zur maximalen Strahlungleistung ansetzen müssen.
+La potenza di radiazione $P_\textrm{EIRP}$ non è nota. Tuttavia, sappiamo che in questo calcolo dobbiamo considerare solo un quarto della potenza di radiazione rispetto alla potenza di radiazione massima.
 
 $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_\textrm{EIRP}\cdot \dfrac{1}{4}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_\textrm{EIRP}}}{E}\cdot \sqrt{\dfrac{1}{4}}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_\textrm{EIRP}}}{E}\cdot \mathbf{\dfrac{1}{2}}\end{split}$
 
-Wird die Strahlungsleistung auf $\dfrac{1}{4}$ reduziert halbiert sich der Sicherheitsabstand von $\qty{20}{\meter}$ auf die Hälfte. Er verringert sich auf $\qty{10}{\meter}$.
+Se la potenza di radiazione viene ridotta a $\dfrac{1}{4}$, la distanza di sicurezza di $\qty{20}{\meter}$ si dimezza. Si riduce a $\qty{10}{\meter}$.
 
 [question:AK105]
 
 <margin>
-[picture:950:a_richtantenne_personenschutz:In einem Winkel von 40° unterhalb der Achse der Hauptstrahlungskeule ist die Strahlungsleistung 6 dB geringer als bei dem Winkel 0°.]
+[picture:950:a_richtantenne_personenschutz:In un angolo di 40° sotto l'asse del lobo di radiazione principale, la potenza di radiazione è inferiore di 6 dB rispetto all'angolo di 0°.]
 </margin>

@@ -1,15 +1,15 @@
-Es gibt auch temperaturabhängige Widerstände, sogenannte *Kaltleiter* und *Heißleiter*.
+Esistono anche resistenze dipendenti dalla temperatura, cosiddette *termistori a coefficiente positivo* (Kaltleiter) e *termistori a coefficiente negativo* (Heißleiter).
 
-- *Kaltleiter* besitzen bei niedrigen Temperaturen einen geringen Widerstand und leiten den Strom daher gut. Mit steigender Temperatur nimmt ihre Leitfähigkeit ab und der Widerstand steigt.
-- *Heißleiter* verhalten sich genau umgekehrt: Sie leiten den Strom bei hohen Temperaturen besser, während ihr Widerstand bei niedrigen Temperaturen groß ist.
+- I *Kaltleiter* hanno una bassa resistenza a basse temperature e quindi conducono bene la corrente. Con l'aumentare della temperatura, la loro conduttività diminuisce e la resistenza aumenta.
+- Gli *Heißleiter* si comportano esattamente al contrario: conducono meglio la corrente ad alte temperature, mentre la loro resistenza è elevata a basse temperature.
 
-Heißleiter werden auch *NTC* (englisch Negative Temperature Coefficient) und Kaltleiter *PTC* (englisch Positive Temperature Coefficient) genannt.
+Gli Heißleiter sono anche chiamati *NTC* (dall'inglese Negative Temperature Coefficient) e i Kaltleiter *PTC* (dall'inglese Positive Temperature Coefficient).
 
-Diese Widerstandsarten werden durch spezielle Schaltzeichen gekennzeichnet, wie in Abbildung [ref:e_schaltbildNtcPtc] dargestellt. Wichtig ist dabei der kleine griechische Buchstabe $\vartheta$ (ausgesprochen „Theta“), der für die Temperatur steht. Zusätzlich sind zwei Pfeile eingezeichnet, die die Temperaturabhängigkeit des Widerstands beschreiben.
+Questi tipi di resistenze sono contrassegnati da simboli di circuito speciali, come mostrato nella figura [ref:e_schaltbildNtcPtc]. Importante è la piccola lettera greca $\vartheta$ (pronunciata „Theta“), che sta per temperatura. Inoltre, sono disegnate due frecce che descrivono la dipendenza della resistenza dalla temperatura.
 
-Der erste Pfeil kennzeichnet eine steigende Temperatur $\uparrow$. Der zweite Pfeil gibt an, wie sich der Widerstand bei steigender Temperatur verhält: Er kann entweder steigen $\uparrow$ oder fallen $\downarrow$.
+La prima freccia indica un aumento della temperatura $\uparrow$. La seconda freccia indica come si comporta la resistenza all'aumentare della temperatura: può aumentare $\uparrow$ o diminuire $\downarrow$.
 
-Das Symbol $\vartheta\uparrow\uparrow$ ist daher so zu lesen: Bei steigender Temperatur steigt auch der Widerstand. Damit wird ein PTC (Kaltleiter) gekennzeichnet. Entsprechend bedeutet $\vartheta\uparrow\downarrow$: Bei steigender Temperatur sinkt der Widerstand. Dieses Symbol steht für einen NTC (Heißleiter).
+Il simbolo $\vartheta\uparrow\uparrow$ va quindi letto così: all'aumentare della temperatura, aumenta anche la resistenza. Questo contrassegna un PTC (Kaltleiter). Di conseguenza, $\vartheta\uparrow\downarrow$ significa: all'aumentare della temperatura, la resistenza diminuisce. Questo simbolo sta per un NTC (Heißleiter).
 
 <margin>
 [picture:1012:e_schaltbildNtcPtc:Schaltbilder von PTC und NTC]

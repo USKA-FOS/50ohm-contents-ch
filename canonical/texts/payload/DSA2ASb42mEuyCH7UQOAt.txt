@@ -1,14 +1,14 @@
-## Grenzfrequenz
+## Frequenza di taglio
 
-Bei Hoch- und Tiefpässen gilt für die Grenzfrequenz
+Per filtri passa-alto e passa-basso, la frequenza di taglio è data da
 
 <left>
-Bei RL-Gliedern
+Per elementi RL
 $R = X_\text{L}$
 $f_\text{g} = \frac{R}{2 \pi \cdot L}$
 </left>
 <right>
-Bei RC-Gliedern
+Per elementi RC
 $R = X_\text{C}$
 $f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C}$
 </right>
@@ -17,10 +17,10 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C}$
 ---
 [question:AD201]
 ---
-#### Lösungsweg
-* gegeben: $R = \qty{4,7}{\kilo\ohm}$
-* gegeben: $C = \qty{2,2}{\nano\farad}$
-* gesucht: $f_\text{g}$
+#### Percorso di soluzione
+* dato: $R = \qty{4,7}{\kilo\ohm}$
+* dato: $C = \qty{2,2}{\nano\farad}$
+* cercato: $f_\text{g}$
 
 <fragment>
 $f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C} = \frac{1}{2 \pi \cdot \qty{4,7}{\kilo\ohm} \cdot \qty{2,2}{\nano\farad}} \approx \qty{15,4}{\kilo\hertz}$
@@ -28,10 +28,10 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C} = \frac{1}{2 \pi \cdot \qty{4,7}{\
 ---
 [question:AD202]
 ---
-#### Lösungsweg
-* gegeben: $R = \qty{10}{\kilo\ohm}$
-* gegeben: $C = \qty{47}{\nano\farad}$
-* gesucht: $f_\text{g}$
+#### Percorso di soluzione
+* dato: $R = \qty{10}{\kilo\ohm}$
+* dato: $C = \qty{47}{\nano\farad}$
+* cercato: $f_\text{g}$
 
 <fragment>
 $f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C} = \frac{1}{2 \pi \cdot \qty{10}{\kilo\ohm} \cdot \qty{47}{\nano\farad}} \approx \qty{339}{\hertz}$
@@ -39,94 +39,94 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C} = \frac{1}{2 \pi \cdot \qty{10}{\k
 ---
 [question:AD203]
 ---
-#### Lösungsweg
-* gegeben: $R_1 = \qty{4,7}{\kilo\ohm}$
-* gegeben: $C_1 = \qty{6,8}{\nano\farad}$
-* gesucht: $f_\text{g}$
+#### Percorso di soluzione
+* dato: $R_1 = \qty{4,7}{\kilo\ohm}$
+* dato: $C_1 = \qty{6,8}{\nano\farad}$
+* cercato: $f_\text{g}$
 
 <fragment>
-$C_2$ und alle weiteren Angaben sind für den Tiefpass uninteressant.
+$C_2$ e tutte le altre informazioni non sono rilevanti per il filtro passa-basso.
 </fragment>
 
 <fragment>
 $f_\text{g} = \frac{1}{2 \pi \cdot R_1 \cdot C_1} = \frac{1}{2 \pi \cdot \qty{4,7}{\kilo\ohm} \cdot \qty{6,8}{\nano\farad}} \approx \qty{5}{\kilo\hertz}$
 </fragment>
 ---
-## Resonanzfrequenz
+## Frequenza di risonanza
 
-* Parallel- oder Reihenschaltung von Spule und Kondensator $\rightarrow$ Schwingkreis
-* Hohe Frequenzen $\rightarrow$ hoher Widerstand an Spule
-* Niedrige Frequenzen $\rightarrow$ hoher Widerstand an Kondensator
-* Es gibt eine Frequenz, bei der Spule und Kondensator den gleichen Widerstand haben $\rightarrow$ *Resonanzfrequenz*
+* Collegamento in parallelo o in serie di bobina e condensatore $\rightarrow$ circuito oscillante
+* Alte frequenze $\rightarrow$ alta resistenza sulla bobina
+* Basse frequenze $\rightarrow$ alta resistenza sul condensatore
+* Esiste una frequenza alla quale la bobina e il condensatore hanno la stessa resistenza $\rightarrow$ *frequenza di risonanza*
 
 ---
 [question:AD206]
 --- style="font-size: smaller;"
-## Parallelschwingkreis
+## Circuito oscillante parallelo
 
-[picture:233:a_schwingkreis_parallelschwingkreis:Parallelschwingkreis und Darstellung der Impedanz gegenüber der Frequenz]
+[picture:233:a_schwingkreis_parallelschwingkreis:Circuito oscillante parallelo e rappresentazione dell'impedenza in funzione della frequenza]
 
-* Ideale Bauelemente laden sich ständig um
-* Theoretisch ist die Impedanz bei Resonanzfrequenz unendlich hoch
-* Praktisch bestimmt das Bauteil mit dem geringsten Widerstand die Gesamtimpedanz
-* Bei Frequenzen über und unter der Resonanzfrequenz hat der Parallelschwingkreis eine geringere Impedanz
+* I componenti ideali si caricano e scaricano continuamente
+* Teoricamente, l'impedenza alla frequenza di risonanza è infinitamente alta
+* In pratica, il componente con la resistenza più bassa determina l'impedenza totale
+* Alle frequenze superiori e inferiori alla frequenza di risonanza, il circuito oscillante parallelo ha un'impedenza inferiore
 
 --- style="font-size: smaller;"
-## Reihenschwingkreis
+## Circuito oscillante serie
 
-[picture:230:a_schwingkreis_reihenschwingkreis:Reihenschwingkreis und Darstellung der Impedanz gegenüber der Frequenz]
+[picture:230:a_schwingkreis_reihenschwingkreis:Circuito oscillante serie e rappresentazione dell'impedenza in funzione della frequenza]
 
-* Oder Serienschwingkreis
-* Theoretisch ist die Impedanz bei Resonanzfrequenz $\qty{0}{\ohm}$
-* Praktisch wird die Impedanz durch den ohmschen Widerstand bestimmt
-* Bei Frequenzen über und unter der Resonanzfrequenz hat der Reihenschwingkreis eine höhere Impedanz
+* O circuito oscillante in serie
+* Teoricamente, l'impedenza alla frequenza di risonanza è $\qty{0}{\ohm}$
+* In pratica, l'impedenza è determinata dalla resistenza ohmica
+* Alle frequenze superiori e inferiori alla frequenza di risonanza, il circuito oscillante serie ha un'impedenza maggiore
 
 ---
 [question:AD207]
 ---
 [question:AD204]
 ---
-## Resonanzfall
+## Caso di risonanza
 
-Für Parallel- und Reihenschwingkreis:
+Per circuiti oscillanti paralleli e serie:
 
 $X_\text{C} = X_\text{L}$
 
-Impedanzen sind gleich groß.
+Le impedenze hanno la stessa grandezza.
 
 <fragment>
-Resonanzfrequenz mit Thomsonsche Schwingkreisformel:
+Frequenza di risonanza con la formula del circuito oscillante di Thomson:
 
 $f_0 = \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}$
 </fragment>
 
 <note>
-William Thomson, später Lord Kelvin, in 1853
+William Thomson, poi Lord Kelvin, nel 1853
 </note>
 ---
 
 
 [question:AD208]
 ---
-#### Lösungsweg
-* gegeben: $L = \qty{1,2}{\micro\henry}$
-* gegeben: $C = \qty{6,8}{\pico\farad}$
-* gegeben: $R = \qty{10}{\ohm}$
-* gesucht: $f_0$
+#### Percorso di soluzione
+* dato: $L = \qty{1,2}{\micro\henry}$
+* dato: $C = \qty{6,8}{\pico\farad}$
+* dato: $R = \qty{10}{\ohm}$
+* cercato: $f_0$
 
 <fragment>
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{1,2}{\micro\henry} \cdot \qty{6,8}{\pico\farad}}} \approx \qty{55,7}{\mega\hertz} \end{split}$
 </fragment>
 <fragment>
-Widerstand $R$ wird zur Berechnung nicht benötigt.
+La resistenza $R$ non è necessaria per il calcolo.
 </fragment>
 ---
 [question:AD209]
 ---
-#### Lösungsweg
-* gegeben: $L = \qty{10}{\micro\henry}$
-* gegeben: $C = \qty{1}{\nano\farad}$
-* gesucht: $f_0$
+#### Percorso di soluzione
+* dato: $L = \qty{10}{\micro\henry}$
+* dato: $C = \qty{1}{\nano\farad}$
+* cercato: $f_0$
 
 <fragment>
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{10}{\micro\henry} \cdot \qty{1}{\nano\farad}}} \approx \qty{1,592}{\mega\hertz} \end{split}$
@@ -134,10 +134,10 @@ $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi
 ---
 [question:AD210]
 ---
-#### Lösungsweg
-* gegeben: $L = \qty{100}{\micro\henry}$
-* gegeben: $C = \qty{0,01}{\micro\farad}$
-* gesucht: $f_0$
+#### Percorso di soluzione
+* dato: $L = \qty{100}{\micro\henry}$
+* dato: $C = \qty{0,01}{\micro\farad}$
+* cercato: $f_0$
 
 <fragment>
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{100}{\micro\henry} \cdot \qty{0,01}{\micro\farad}}} \approx \qty{159}{\kilo\hertz} \end{split}$
@@ -145,10 +145,10 @@ $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi
 ---
 [question:AD211]
 ---
-#### Lösungsweg
-* gegeben: $L = \qty{2,2}{\micro\henry}$
-* gegeben: $C = \qty{56}{\pico\farad}$
-* gesucht: $f_0$
+#### Percorso di soluzione
+* dato: $L = \qty{2,2}{\micro\henry}$
+* dato: $C = \qty{56}{\pico\farad}$
+* cercato: $f_0$
 
 <fragment>
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{2,2}{\micro\henry} \cdot \qty{56}{\pico\farad}}} \approx \qty{14,34}{\mega\hertz} \end{split}$
@@ -156,12 +156,12 @@ $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi
 ---
 [question:AD212]
 --- style="font-size: 0.7em;"
-#### Lösungsweg
-* gegeben: $C_1 = \qty{0,1}{\nano\farad}$
-* gegeben: $C_2 = \qty{1,5}{\nano\farad}$
-* gegeben: $C_3 = \qty{220}{\pico\farad}$
-* gegeben: $L = \qty{1,2}{\milli\henry}$
-* gesucht: $f_0$
+#### Percorso di soluzione
+* dato: $C_1 = \qty{0,1}{\nano\farad}$
+* dato: $C_2 = \qty{1,5}{\nano\farad}$
+* dato: $C_3 = \qty{220}{\pico\farad}$
+* dato: $L = \qty{1,2}{\milli\henry}$
+* cercato: $f_0$
 
 <fragment>
 $C = C_1 + C_2 + C_3 = \qty{0,1}{\nano\farad} + \qty{1,5}{\nano\farad} + \qty{220}{\pico\farad} = \qty{1,82}{\nano\farad}$
@@ -170,16 +170,16 @@ $C = C_1 + C_2 + C_3 = \qty{0,1}{\nano\farad} + \qty{1,5}{\nano\farad} + \qty{22
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{1,2}{\milli\henry} \cdot \qty{1,82}{\nano\farad}}} \approx \qty{107,7}{\kilo\hertz} \end{split}$
 </fragment>
 ---
-### Verändern der Resonanzfrequenz
+### Modifica della frequenza di risonanza
 
-* Größere Spule oder Kondensator $\rightarrow$ kleinere Resonanzfrequenz
-* Kleinere Spule oder Kondensator $\rightarrow$ größere Resonanzfrequenz
+* Bobina o condensatore più grandi $\rightarrow$ frequenza di risonanza più bassa
+* Bobina o condensatore più piccoli $\rightarrow$ frequenza di risonanza più alta
 
 <fragment>
-Induktivität vergrößern
-* Vergrößern der Windungszahl
-* Zusammenschieben
-* Einführen eines Ferritkerns
+Aumentare l'induttanza
+* Aumentare il numero di spire
+* Avvicinare le spire
+* Introdurre un nucleo di ferrite
 
 </fragment>
 
@@ -194,65 +194,65 @@ Induktivität vergrößern
 ---
 [question:AD217]
 ---
-### Spannungsgesteuerter Schwingkreis
+### Circuito oscillante controllato in tensione
 
-[picture:752:a_schwingkreis_potentiometer:Veränderung der Kapazität durch einen Varicap]
+[picture:752:a_schwingkreis_potentiometer:Variazione della capacità tramite un varicap]
 
-* Varicap wird durch eine Steuerspannung am Widerstandsspannungsteiler verändert
-* Kleinere Spannung am Varicap $\rightarrow$ kleinere Grenzschicht im Varicap $\rightarrow$ größere Kapazität
-* In Reihe geschaltete Kondensatoren $\rightarrow$ Kapazität wird kleiner $\rightarrow$ Resonanzfrequenz steigt
+* Il varicap viene modificato da una tensione di controllo sul partitore di tensione resistivo
+* Tensione più bassa sul varicap $\rightarrow$ strato di separazione più piccolo nel varicap $\rightarrow$ capacità maggiore
+* Condensatori collegati in serie $\rightarrow$ la capacità diminuisce $\rightarrow$ la frequenza di risonanza aumenta
 
 ---
 [question:AD218]
 --- style="font-size: smaller;"
-## Bandpassfilter
+## Filtro passa-banda
 
-[picture:785:a_schwingkreis_bandpass:Bandpassfilter aus mehreren Schwingkreisen]
+[picture:785:a_schwingkreis_bandpass:Filtro passa-banda composto da più circuiti oscillanti]
 
-* Kombination aus Parallel- und Reihenschwingkreisen
-* Lässt einen bestimmten Frequenzbereich passieren
-* Parallelschwingkreise wie hochohmige Widerstände
-* Reihenschwingkreis wie niederohmiger Widerstand
+* Combinazione di circuiti oscillanti paralleli e serie
+* Lascia passare una determinata banda di frequenza
+* I circuiti oscillanti paralleli agiscono come resistenze ad alta impedenza
+* Il circuito oscillante serie agisce come resistenza a bassa impedenza
 
 ---
 [question:AD205]
 ---
-## Bandbreite
+## Larghezza di banda
 
-* Große Abhängigkeit vom ohmschen Widerstand
-* In Angabe von dB auf einen Referenzwert des Filters
-* Z.B. *Bandbreite* bei *$\qty{-3}{\dB}$-Wert*
-* Halbe Leistung eines Signals kann noch das Filter passieren
-* Oder die $\num{0,7}$-fache Signalspannung
+* Grande dipendenza dalla resistenza ohmica
+* Indicata in dB rispetto a un valore di riferimento del filtro
+* Ad esempio, *larghezza di banda* al *valore di $\qty{-3}{\dB}$*
+* La metà della potenza di un segnale può ancora attraversare il filtro
+* O lo 0,7 volte della tensione del segnale
 
 ---
 [question:AD219]
 ---
 [question:AD220]
 ---
-### Übliche Bandbreiten
+### Larghezze di banda comuni
 
-* Schmalbandig mit $\qty{500}{\hertz}$ für Telegrafie (CW)
-* Breitbandig mit $\qty{2,7}{\kilo\hertz}$ für Sprachmodulation (SSB)
+* Banda stretta con $\qty{500}{\hertz}$ per la telegrafia (CW)
+* Banda larga con $\qty{2,7}{\kilo\hertz}$ per la modulazione vocale (SSB)
 
 ---
 [question:AD221]
 ---
 [question:AD222]
 ---
-## Güte eines Schwingkreises
+## Fattore di qualità di un circuito oscillante
 
-* Auch Q-Faktor
-* Kennzeichen für Energieverlust
-* Verhältnis der Blindwiderstände zum ohmschen Widerstand im Resonanzfall ($X_\text{L} = X_\text{C}$)
+* Anche fattore Q
+* Indicatore di perdita di energia
+* Rapporto tra le reattanze e la resistenza ohmica nel caso di risonanza ($X_\text{L} = X_\text{C}$)
 
 <fragment>
 <left>
-Reihenschwingkreis
+Circuito oscillante serie
 $Q = \frac{f_0}{B} = \frac{X_\text{L}}{R_\text{S}}$
 </left>
 <right>
-Parallelschwingkreis
+Circuito oscillante parallelo
 $Q = \frac{f_0}{B} = \frac{R_\text{P}}{X_\text{L}}$
 </right>
 </fragment>
@@ -260,21 +260,21 @@ $Q = \frac{f_0}{B} = \frac{R_\text{P}}{X_\text{L}}$
 ---
 [question:AD225]
 --- style="font-size: 0.7em;"
-#### Lösungsweg
+#### Percorso di soluzione
 <left>
-* gegeben: $L = \qty{100}{\micro\henry}$
-* gegeben: $C = \qty{0,01}{\micro\farad}$
+* dato: $L = \qty{100}{\micro\henry}$
+* dato: $C = \qty{0,01}{\micro\farad}$
 </left>
 <right>
-* gegeben: $R_\text{S} = \qty{10}{\ohm}$
-* gesucht: $Q$
+* dato: $R_\text{S} = \qty{10}{\ohm}$
+* cercato: $Q$
 </right>
 
 <fragment>
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{100}{\micro\henry} \cdot \qty{0,01}{\micro\farad}}} \approx \qty{159,2}{\kilo\hertz} \end{split}$
 </fragment>
 <fragment>
-$B$ oder $X_\text{L}$ ausrechnen
+Calcolare $B$ o $X_\text{L}$
 $\begin{split} X_\text{L} &= \omega \cdot L = 2 \pi \cdot f_0 \cdot L\\ &= 2 \pi \cdot \qty{159,2}{\kilo\hertz} \cdot \qty{100}{\micro\henry} \approx \qty{100,03}{\ohm} \end{split}$
 </fragment>
 <fragment>
@@ -283,57 +283,57 @@ $Q = \frac{X_\text{L}}{R_\text{S}} = \frac{\qty{100,03}{\ohm}}{\qty{10}{\ohm}} \
 ---
 [question:AD226]
 --- style="font-size: 0.7em;"
-#### Lösungsweg
+#### Percorso di soluzione
 <left>
-* gegeben: $L = \qty{2,2}{\micro\henry}$
-* gegeben: $C = \qty{56}{\pico\farad}$
+* dato: $L = \qty{2,2}{\micro\henry}$
+* dato: $C = \qty{56}{\pico\farad}$
 </left>
 <right>
-* gegeben: $R_\text{P} = \qty{1}{\kilo\ohm}$
-* gesucht: $Q$
+* dato: $R_\text{P} = \qty{1}{\kilo\ohm}$
+* cercato: $Q$
 </right>
   
 <fragment>
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{2,2}{\micro\henry} \cdot \qty{56}{\pico\farad}}} \approx \qty{14,34}{\mega\hertz} \end{split}$
 </fragment>
 <fragment>
-$B$ oder $X_\text{L}$ ausrechnen
+Calcolare $B$ o $X_\text{L}$
 $\begin{split} X_\text{L} &= \omega \cdot L = 2 \pi \cdot f_0 \cdot L\\ &= 2 \pi \cdot \qty{14,34}{\mega\hertz} \cdot \qty{2,2}{\micro\henry} \approx \qty{198,2}{\ohm} \end{split}$
 </fragment>
 <fragment>
 $Q = \frac{R_\text{P}}{X_\text{L}} = \frac{\qty{1}{\kilo\ohm}}{\qty{198,2}{\ohm}} \approx 5$
 </fragment>
 ---
-### Bandbreite berechnen
+### Calcolo della larghezza di banda
 
-Über Resonanzfrequenz und Güte
+Tramite frequenza di risonanza e fattore di qualità
 
 $Q = \frac{f_0}{B} \Rightarrow B = \frac{f_0}{Q}$
 
 <fragment>
-Oder eingesetzt mit der Thomsonschen Schwingkreisformel
+O inserito con la formula del circuito oscillante di Thomson
 
 <left>
-Reihenschwingkreis
+Circuito oscillante serie
 $B = \frac{R_\text{S}}{2 \pi \cdot L}$
 </left>
 <right>
-Parallelschwingkreis
+Circuito oscillante parallelo
 $B = \frac{1}{2 \pi \cdot R_\text{P} \cdot C}$
 </right>
 </fragment>
 <note>
-Herleitung nicht gezeigt
+Derivazione non mostrata
 </note>
 
 ---
 [question:AD224]
 ---
-#### Lösungsweg
-* gegeben: $L = \qty{2,2}{\micro\henry}$
-* gegeben: $C = \qty{56}{\pico\farad}$
-* gegeben: $R_\text{P} = \qty{1}{\kilo\ohm}$
-* gesucht: $B$
+#### Percorso di soluzione
+* dato: $L = \qty{2,2}{\micro\henry}$
+* dato: $C = \qty{56}{\pico\farad}$
+* dato: $R_\text{P} = \qty{1}{\kilo\ohm}$
+* cercato: $B$
 
 <fragment>
 $\begin{split} B &= \frac{1}{2 \pi \cdot R_\text{P} \cdot C}\\ &= \frac{1}{2 \pi \cdot \qty{1}{\kilo\ohm} \cdot \qty{56}{\pico\farad}} \approx \qty{2,84}{\mega\hertz} \end{split}$
@@ -342,38 +342,38 @@ $\begin{split} B &= \frac{1}{2 \pi \cdot R_\text{P} \cdot C}\\ &= \frac{1}{2 \pi
 ---
 [question:AD223]
 ---
-#### Lösungsweg
-* gegeben: $L = \qty{100}{\micro\henry}$
-* gegeben: $C = \qty{0,01}{\micro\farad}$
-* gegeben: $R_\text{S} = \qty{10}{\ohm}$
-* gesucht: $B$
+#### Percorso di soluzione
+* dato: $L = \qty{100}{\micro\henry}$
+* dato: $C = \qty{0,01}{\micro\farad}$
+* dato: $R_\text{S} = \qty{10}{\ohm}$
+* cercato: $B$
 
 <fragment>
 $B = \frac{R_\text{S}}{2 \pi \cdot L} = \frac{\qty{10}{\ohm}}{2 \pi \cdot \qty{100}{\micro\henry}} \approx \qty{15,9}{\kilo\hertz}$
 </fragment>
 --- style="font-size: 0.7em;" data-transition="none"
-## Kopplung
+## Accoppiamento
 
-[picture:184:a_schwingkreis_kopplung:Induktive Kopplung zweier Schwingkreise und das Spannungsdiagramm über die Frequenz]
+[picture:184:a_schwingkreis_kopplung:Accoppiamento induttivo di due circuiti oscillanti e il diagramma di tensione in funzione della frequenza]
 
-* Zwischen Schaltungsstufen oder Filtern werden häufig gekoppelte Schwingkreise verwendet
-* Zwei Schwingkreise induktiv oder kapazitiv aneinander gekoppelt
-* Grad der Kopplung bestimmt die gegenseitige Beeinflussung, Bandbreite und Durchlasskurve
-
---- style="font-size: 0.7em;" data-transition="none"
-[picture:184:a_schwingkreis_kopplung:Induktive Kopplung zweier Schwingkreise und das Spannungsdiagramm über die Frequenz]
-
-* d: *lose Kopplung* $\rightarrow$ kaum gegenseitige Beeinflussung, sehr hohe Durchlassdämpfung und sehr geringe Bandbreite
-* c: *unterkritische Kopplung* $\rightarrow$ kaum gegenseitige Beeinflussung, hohe Durchlassdämpfung und geringe Bandbreite
+* Tra stadi di circuito o filtri vengono spesso utilizzati circuiti oscillanti accoppiati
+* Due circuiti oscillanti accoppiati induttivamente o capacitivamente
+* Il grado di accoppiamento determina l'influenza reciproca, la larghezza di banda e la curva di trasmissione
 
 --- style="font-size: 0.7em;" data-transition="none"
-[picture:184:a_schwingkreis_kopplung:Induktive Kopplung zweier Schwingkreise und das Spannungsdiagramm über die Frequenz]
+[picture:184:a_schwingkreis_kopplung:Accoppiamento induttivo di due circuiti oscillanti e il diagramma di tensione in funzione della frequenza]
 
-* b: *kritische Kopplung* $\rightarrow$ etwas gegenseitige Beeinflussung, flache Durchlasskurve mit geringer Dämpfung und Plateau im Durchlassbereich sowie gute Bandbreite
+* d: *accoppiamento debole* $\rightarrow$ quasi nessuna influenza reciproca, attenuazione di trasmissione molto alta e larghezza di banda molto ridotta
+* c: *accoppiamento sottocritico* $\rightarrow$ quasi nessuna influenza reciproca, attenuazione di trasmissione alta e larghezza di banda ridotta
 
 --- style="font-size: 0.7em;" data-transition="none"
-[picture:184:a_schwingkreis_kopplung:Induktive Kopplung zweier Schwingkreise und das Spannungsdiagramm über die Frequenz]
-* a: *überkritische Kopplung* $\rightarrow$ starke gegenseitige Beeinflussung, Änderung der Resonanzfrequenzen, große Bandbreite und Verzerrung der Durchlasskurve im Durchlassbereich mit "Dellen"
+[picture:184:a_schwingkreis_kopplung:Accoppiamento induttivo di due circuiti oscillanti e il diagramma di tensione in funzione della frequenza]
+
+* b: *accoppiamento critico* $\rightarrow$ un po' di influenza reciproca, curva di trasmissione piatta con bassa attenuazione e plateau nella banda passante, nonché buona larghezza di banda
+
+--- style="font-size: 0.7em;" data-transition="none"
+[picture:184:a_schwingkreis_kopplung:Accoppiamento induttivo di due circuiti oscillanti e il diagramma di tensione in funzione della frequenza]
+* a: *accoppiamento supercritico* $\rightarrow$ forte influenza reciproca, modifica delle frequenze di risonanza, ampia larghezza di banda e distorsione della curva di trasmissione nella banda passante con "avvallamenti"
 
 ---
 [question:AD227]

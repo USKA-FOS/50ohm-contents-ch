@@ -1,60 +1,60 @@
-Damit es nicht zur Schlagzeile *"Funkamateur erleidet gefährlichen Stromschlag beim Senderbau"* kommt, müssen wichtige Regeln beachtet werden. Beim Aufbau einer Funkstation muss man sich an die anerkannten Regeln der Technik halten. Wie wir schon beim Thema Blitzschutz und Potentialausgleich gelernt haben, gibt der Verband der Elektrotechnik Elektronik und Informationstechnik e. V., kurz VDE, Normen heraus, die den jeweils aktuellen Stand der Technik dokumentieren und als anerkannt gelten. Diese Regeln dienen dem Schutz von Menschen, Tieren und Sachen.
+Affinché non si arrivi al titolo *"Radioamatore subisce una pericolosa scossa elettrica durante la costruzione di un trasmettitore"*, è necessario osservare regole importanti. Durante la costruzione di una stazione radio, è necessario attenersi alle regole tecniche riconosciute. Come abbiamo già appreso in tema di protezione contro i fulmini e di compensazione del potenziale, l'Associazione tedesca di elettrotecnica, elettronica e tecnologia dell'informazione e. V. (VDE) emette norme che documentano lo stato attuale della tecnica e sono considerate riconosciute. Queste regole servono alla protezione di persone, animali e cose.
 
 <indepth>
-Der VDE, also der Verband der Elektrotechnik Elektronik und Informationstechnik e. V., ist eine weltweit tätige Organisation, in der sich Personen und Unternehmen zusammengeschlossen haben, die in den Bereichen Elektrotechnik, Elektronik oder Informationstechnik tätig sind. Die Organisation verfolgt das Ziel, die Unfallverhütung zu verbessern und das Verantwortungsbewusstsein seiner Mitglieder zu fördern. Dazu werden die VDE-Normen herauszugeben. Es werden aber beispielsweise auch kostenpflichtige Zertifizierungen durchgeführt.
+La VDE, ovvero l'Associazione tedesca di elettrotecnica, elettronica e tecnologia dell'informazione e. V., è un'organizzazione attiva a livello mondiale in cui si sono riunite persone e aziende che operano nei settori dell'elettrotecnica, dell'elettronica o della tecnologia dell'informazione. L'organizzazione persegue l'obiettivo di migliorare la prevenzione degli incidenti e di promuovere la consapevolezza di responsabilità dei suoi membri. A tal fine vengono emesse le norme VDE. Vengono inoltre effettuate, ad esempio, certificazioni a pagamento.
 </indepth>
 
 [question:VE601]
 
 ---
 
-Die Hauptgefahr besteht durch Berührung einer elektrischen Spannung. In der Elektrotechnik spricht man von einer gefährlichen Spannung, wenn diese bei Wechselspannung über $\qty{50}{\volt}$ und bei Gleichspannung über $\qty{120}{\volt}$ liegt. Diese Grenzen wurden so gelegt, dass es zu keiner lebensbedrohlichen Beeinträchtigung des menschlichen Körpers kommen kann. Wechselspannung wird auch als "AC" (englisch "alternating current") und Gleichspannung als "DC" (englisch "direct current") abgekürzt.
+Il pericolo principale deriva dal contatto con una tensione elettrica. In elettrotecnica si parla di tensione pericolosa quando, in caso di tensione alternata, questa supera i $\qty{50}{\volt}$ e in caso di tensione continua supera i $\qty{120}{\volt}$. Questi limiti sono stati fissati in modo tale da non poter causare un'alterazione potenzialmente letale del corpo umano. La tensione alternata viene anche abbreviata come "AC" (dall'inglese "alternating current") e la tensione continua come "DC" (dall'inglese "direct current").
 
 <indepth>
-Der Grund für die *unterschiedlichen Grenzwerte für Gleich- und Wechselspannung* hängt mit den unterschiedlichen Auswirkungen auf den Körper zusammen: Wechselspannung kann den Herzrhythmus beeinflussen, während es bei Gleichspannung eher zu Verbrennungen kommt.
+Il motivo dei *diversi valori limite per la tensione continua e alternata* risiede nei diversi effetti sul corpo: la tensione alternata può influenzare il ritmo cardiaco, mentre con la tensione continua si verificano più facilmente ustioni.
 </indepth>
 
 [question:NK301]
 
 ---
 
-Bei einer Einwirkung des Stroms auf den Körper kann das Gewebe geschädigt werden. Wie stark die Schädigung ist, hängt von der Stromstärke und Dauer des Stromflusses ab. Auch der Weg, den der Strom durch den Körper nimmt, spielt eine große Rolle. Eine Stromstärke von über $\qty{30}{\milli\ampere}$ kann schon zu lebensgefährlichen Schäden führen (siehe Abbildung [ref:n_fehlerstrom]).
+L'azione della corrente sul corpo può danneggiare i tessuti. L'entità del danno dipende dall'intensità di corrente e dalla durata del flusso di corrente. Anche il percorso che la corrente compie attraverso il corpo gioca un ruolo importante. Un'intensità di corrente superiore a $\qty{30}{\milli\ampere}$ può già causare danni potenzialmente letali (vedi figura [ref:n_fehlerstrom]).
 
 <margin>
-[picture:681:n_fehlerstrom:Stromschlag / Körperdurchströmung]
+[picture:681:n_fehlerstrom:Scossa elettrica / Attraversamento del corpo]
 </margin>
 
-Stromunfälle können verschiedene Auswirkungen auf den Körper haben:
-* *Herzrhythmusstörungen*, Herzkammerflimmern oder Herzstillstand, insbesondere bei einem Stromweg im Brustbereich
-* *Verbrennungen*, meist an den Ein- und Austrittstellen des elektrischen Stroms
-* *Verkrampfen der Muskulatur*
-* *Sekundärunfälle* wie einen Sturz, verursacht durch den hervorgerufenden Schreck oder eine Muskelverkrampfung
+Gli incidenti da corrente possono avere diversi effetti sul corpo:
+* *Disturbi del ritmo cardiaco*, fibrillazione ventricolare o arresto cardiaco, in particolare con un percorso della corrente nella zona del torace
+* *Ustioni*, solitamente nei punti di ingresso e uscita della corrente elettrica
+* *Contrazione dei muscoli*
+* *Incidenti secondari* come una caduta, causata dallo spavento o da una contrazione muscolare
 
 <attention>
-Die *5 Sicherheitsregeln der Elektrotechnik* sollten für alle Arbeiten an elektrischen Anlagen beachten werden. Diese sollten auch bei Arbeiten an Funkgeräten oder anderen elektrischen Geräten beachtet werden:
-1. *Freischalten*, z. B. Gerät ausschalten
-2. *Gegen Wiedereinschalten sichern*, z. B.  Stecker ziehen
-3. *Spannungsfreiheit feststellen*, z. B. mit einem Multimeter messen
-4. *Erden und Kurzschließen*, z. B. das Gehäuse und Zuleitungen erden
-5. *Benachbarte, unter Spannung stehende Teile abdecken oder abschranken* (findet bei einzelnen Geräten meist keine Anwendung)
+Le *5 regole di sicurezza dell'elettrotecnica* devono essere osservate per tutti i lavori sugli impianti elettrici. Queste dovrebbero essere osservate anche durante i lavori su apparecchi radio o altri dispositivi elettrici:
+1. *Mettere fuori tensione*, ad esempio spegnere l'apparecchio
+2. *Proteggere contro il riavvio*, ad esempio staccare la spina
+3. *Verificare l'assenza di tensione*, ad esempio misurare con un multimetro
+4. *Mettere a terra e in corto circuito*, ad esempio mettere a terra l'involucro e i cavi di alimentazione
+5. *Coprire o delimitare parti adiacenti sotto tensione* (solitamente non applicabile a singoli apparecchi)
 </attention>
 
 <danger>
-In vielen Geräten sind Kondensatoren verbaut, die hohe Spannungen speichern können. Es können daher auch in abgeschalteten Geräten noch gefährliche Spannungen anliegen! Geräte sollten daher nur geöffnet werden, wenn man genau weiß, was man tut. Im Zweifel sollte man sich von einem erfahreneren Funkamateur oder einer Elektrofachkraft helfen lassen.
+In molti apparecchi sono installati condensatori che possono immagazzinare alte tensioni. Pertanto, anche in apparecchi spenti possono essere presenti tensioni pericolose! Gli apparecchi dovrebbero quindi essere aperti solo se si sa esattamente cosa si sta facendo. In caso di dubbio, è consigliabile chiedere aiuto a un radioamatore più esperto o a un elettricista qualificato.
 </danger>
 
 ---
 
 %[class:N]
-Wie wir schon beim Einbau von Amateurfunkanlagen in Kraftfahrzeuge gelernt haben, kann es im Zusammenhang mit elektrischem Strom auch dazu kommen, dass ein Stromfluß durch die eigentlich nicht-leitende Luft auftritt und es zu einem Lichtbogen mit hohen Temperaturen und sehr hellem Leuchten kommt. Dies wird auch als Störlichtbogen bezeichnet.
+Come abbiamo già appreso durante l'installazione di impianti radioamatoriali nei veicoli a motore, in relazione alla corrente elettrica può verificarsi anche un flusso di corrente attraverso l'aria, che in realtà non è conduttiva, e si può formare un arco elettrico con alte temperature e una luce molto intensa. Questo viene anche definito arco di disturbo.
 %[/class]
 
 %[class:NEA]
 <danger>
-Ein *Lichtbogen* ist eine elektrische Entladung, also ein Stromfluß, durch die eigentlich nicht-leitende Luft, die mit hohen Temperaturen und einem sehr hellen Leuchten einhergeht. In Folge kann es zu Bränden und zur Schädigung der Augen kommen.
+Un *arco elettrico* è una scarica elettrica, cioè un flusso di corrente, attraverso l'aria, che in realtà non è conduttiva, accompagnata da alte temperature e una luce molto intensa. Di conseguenza, possono verificarsi incendi e danni agli occhi.
 </danger>
 
-Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen kommen, der Brände verursachen kann.
+In caso di cortocircuito, può rapidamente formarsi un arco elettrico che può causare incendi.
 %[/class]
 
 [question:NK303]
@@ -63,10 +63,10 @@ Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen kommen, der Br�
 
 ---
 
-Erste-Hilfe-Maßnahmen sind in den ersten Minuten entscheidend für die Schwere der Unfallfolgen. Nach einem Stromunfall ist in jedem Fall ein Arzt aufzusuchen, da Herzrhythmusstörungen und Herzkammerflimmern auch noch Stunden nach dem Unfall auftreten können. 
+Le misure di primo soccorso sono decisive per la gravità delle conseguenze dell'incidente nei primi minuti. Dopo un incidente elettrico, è sempre necessario consultare un medico, poiché disturbi del ritmo cardiaco e fibrillazione ventricolare possono verificarsi anche ore dopo l'incidente.
 
 <indepth>
-Ein Arzt kann nach einem Stromunfall beispielsweise mit einem *Elektrokardiogramm (EKG)* überprüfen, ob das Herz unregelmäßig schlägt oder andere Störungen aufweist.
+Dopo un incidente elettrico, un medico può verificare, ad esempio con un *elettrocardiogramma (ECG)*, se il cuore batte in modo irregolare o presenta altri disturbi.
 </indepth>
 
 [question:NK304]

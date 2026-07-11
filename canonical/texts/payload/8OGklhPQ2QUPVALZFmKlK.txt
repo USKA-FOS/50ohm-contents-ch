@@ -1,33 +1,33 @@
-## Höchste brauchbare Frequenz (MUF)
+## Frequenza massima utilizzabile (MUF)
 
 <left>
-* Klasse E: Höchste Frequenz mit der eine Verbindung über die Raumwelle hergestellt werden kann
+* Classe E: Frequenza massima con cui è possibile stabilire un collegamento via onda spaziale
 </left>
 <right>
-[picture:997:e_muf_luf2:Simulation der Sprungdistanzen für verschiedene Frequenzen und einer MUF bei ca. $\qty{7,5}{\mega\hertz}$ in einer Augustnacht 2024 bei einem Abstrahlwinkel von $\qty{45}{\degree}$]
+[picture:997:e_muf_luf2:Simulazione delle distanze di salto per diverse frequenze e una MUF a circa $\qty{7,5}{\mega\hertz}$ in una notte di agosto 2024 con un angolo di emissione di $\qty{45}{\degree}$]
 </right>
 
 ---
 
-## Höchste brauchbare Frequenz (MUF)
+## Frequenza massima utilizzabile (MUF)
 
 <left>
-* Klasse A: Abhängig vom Abstrahlwinkel $\alpha$
+* Classe A: Dipende dall'angolo di emissione $\alpha$
 </left>
 <right>
-[picture:870:e_muf_winkel:Die Winkel zur Berechnung der MUF]
+[picture:870:e_muf_winkel:Gli angoli per il calcolo della MUF]
 </right>
 
 ---
 
-## Höchste brauchbare Frequenz (MUF)
+## Frequenza massima utilizzabile (MUF)
 
 <left>
-* Strahlt man steil ab (z. B. $\qty{60}{\degree}$), sinkt die MUF und die Funkwelle wird ggf. nicht mehr refraktiert.
-* Strahlt man flach ab (z. B. $\qty{30}{\degree}$), so erhöht sich die MUF. 
+* Se si emette con un angolo ripido (ad es. $\qty{60}{\degree}$), la MUF diminuisce e l'onda radio potrebbe non essere più rifratta.
+* Se si emette con un angolo piatto (ad es. $\qty{30}{\degree}$), la MUF aumenta. 
 </left>
 <right>
-[picture:998:e_muf_winkel2:Sprungdistanz bei 7 MHz im Sommer 2024]
+[picture:998:e_muf_winkel2:Distanza di salto a 7 MHz nell'estate 2024]
 </right>
 
 ---
@@ -40,55 +40,55 @@
 
 ---
 
-## Kritische Frequenz
+## Frequenza critica
 
 <left>
-* Bei $\qty{90}{\degree}$ Abstrahlwinkel muss das Signal in der Ionosphäre eine $\qty{180}{\degree}$-Wendung vollziehen
-* Kritische Frequenz $f_c$ bei der das Signal reflektiert wird
-* MUF ist größer als $f_c$, da in der Regel nicht senkrecht nach oben gesendet wird
+* A un angolo di emissione di $\qty{90}{\degree}$, il segnale deve compiere una svolta di $\qty{180}{\degree}$ nella ionosfera
+* Frequenza critica $f_c$ alla quale il segnale viene riflesso
+* La MUF è maggiore di $f_c$, poiché di solito non si trasmette perpendicolarmente verso l'alto
 </left>
 <right>
-[picture:870:e_muf_winkel:Die Winkel zur Berechnung der MUF]
+[picture:870:e_muf_winkel:Gli angoli per il calcolo della MUF]
 <fragment>
 $\mathrm{MUF} \approx \frac{f_c}{\sin(\alpha)}$
 </fragment>
 </right>
 
 <note>
-Kritische Frequenz wird auch als $f_k$ oder $f_\mathrm{krit}$ angegeben
+La frequenza critica è indicata anche come $f_k$ o $f_\mathrm{krit}$
 </note>
 
 ---
 
-## Beispiel Ionosonde Juliusruh
+## Esempio Ionosonda Juliusruh
 
-[picture:999:e_muf_fof2:MUF 3000 (Flache Abstrahlung) und $f_\text{c}$ am 08.09.2025]
+[picture:999:e_muf_fof2:MUF 3000 (emissione piatta) e $f_\text{c}$ il 08.09.2025]
 
 ---
 
 [question:AH208]
 
 --- style="font-size: smaller;"
-## Optimale Frequenz
+## Frequenza ottimale
 
-* Kommerzielle Frequenzplanung verwendet eine *Frequency of optimal transmition*, optimale Sendefrequenz
-* Frequenz, die auf einem bestimmten Signalweg statistisch an 90% aller Tage eine Funkverbindung erlaubt
-* Liegt 15% unter dem monatlichen Mittel der MUF
+* La pianificazione delle frequenze commerciali utilizza una *Frequency of optimal transmition*, frequenza di trasmissione ottimale
+* Frequenza che consente un collegamento radio su un determinato percorso del segnale statisticamente nel 90% di tutti i giorni
+* È inferiore del 15% alla media mensile della MUF
 * $f_{\mathrm{opt}} = \mathrm{MUF}\cdot 0,85$
-* Spielt für Amateurfunk keine große Rolle, da keine dauerhafte Verbindung aufgebaut wird
-* Im Amateurfunk wird bis nahe an der MUF gearbeitet
+* Non ha molta importanza per il radioamatore, poiché non viene stabilito un collegamento permanente
+* Nel radioamatore si lavora fino a quasi la MUF
 
 ---
 [question:AH209]
 ---
-### Lösungsweg
+### Percorso di soluzione
 <left>
-* gegeben: $\alpha = \qty{45}{\degree}$
-* gegeben: $f_c = 3MHz$
+* dato: $\alpha = \qty{45}{\degree}$
+* dato: $f_c = 3MHz$
 </left>
 <right>
-* gesucht: $\mathrm{MUF}$
-* gesucht: $f_{\mathrm{opt}}$
+* cercato: $\mathrm{MUF}$
+* cercato: $f_{\mathrm{opt}}$
 </right>
 
 <left>
@@ -103,9 +103,9 @@ $\begin{split} f_{\mathrm{opt}} &= \mathrm{MUF}\cdot 0,85\\ &= \qty{4,2}{\mega\h
 </right>
 
 ---
-## Niedrigste brauchbare Frequenz (LUF)
+## Frequenza minima utilizzabile (LUF)
 
-Niedrigste Frequenz mit der eine Verbindung über die Raumwelle hergestellt werden kann
+Frequenza minima con cui è possibile stabilire un collegamento via onda spaziale
 
 ---
 [question:AH210]
@@ -113,30 +113,30 @@ Niedrigste Frequenz mit der eine Verbindung über die Raumwelle hergestellt werd
 [question:AH211]
 ---
 
-## Kritische Frequenz
+## Frequenza critica
 
 <left>
-[picture:870:e_muf_winkel:Die Winkel zur Berechnung der MUF]
-Wiederholung
+[picture:870:e_muf_winkel:Gli angoli per il calcolo della MUF]
+Ripetizione
 </left>
 <right>
-* Bei $\qty{90}{\degree}$ Abstrahlwinkel muss das Signal in der Ionosphäre eine $\qty{180}{\degree}$-Wendung vollziehen
-* Kritische Frequenz $f_c$ bei der das Signal reflektiert wird
-* MUF liegt höher als $f_c$, da in der Regel nicht senkrecht nach oben gesendet wird
+* A un angolo di emissione di $\qty{90}{\degree}$, il segnale deve compiere una svolta di $\qty{180}{\degree}$ nella ionosfera
+* Frequenza critica $f_c$ alla quale il segnale viene riflesso
+* La MUF è maggiore di $f_c$, poiché di solito non si trasmette perpendicolarmente verso l'alto
 </right>
 
 <note>
-Kritische Frequenz wird auch als $f_k$ oder $f_\mathrm{krit}$ angegeben
+La frequenza critica è indicata anche come $f_k$ o $f_\mathrm{krit}$
 </note>
 ---
 
-* Kritische Frequenz ist je nach ionosphärische Region, dem Ort und der Zeit unterschiedlich
-* Separate Angaben je nach Ionosphären-Region möglich
-* Formelzeichen: fo
-* Ergänzt durch die Schicht, z.B. foF2
+* La frequenza critica varia a seconda della regione ionosferica, della posizione e dell'ora
+* Possibili indicazioni separate a seconda della regione ionosferica
+* Simbolo della formula: fo
+* Completato dalla stratificazione, ad es. foF2
 
 <note>
-fo mit kleinem "o" für ordinary wave
+fo con la "o" minuscola sta per onda ordinaria
 </note>
 ---
 [question:AH204]

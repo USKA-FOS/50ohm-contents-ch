@@ -1,15 +1,15 @@
-Die eigenen Geräte zu reparieren ist für viele Funkamateure Ehrensache. Dabei darf man aber vor lauter Tatendrang die eigene Sicherheit nicht vergessen und den vorhanden Schaden nicht vergrößern. 
+La riparazione dei propri apparecchi è una questione d'onore per molti radioamatori. Tuttavia, non bisogna dimenticare la propria sicurezza nel fervore dell'azione e non peggiorare il danno esistente. 
 
-Jede Reparatur beginnt mit der Fehlersuche. Selbstverständlich wird das Gerät zuerst vom Netz getrennt. Danach kann es geöffnet werden. Vor einem elektrischen Schlag ist man aber noch nicht sicher. Die Kondensatoren im Netzteil sind auch ohne Netzstromversorgung weiterhin geladen. 
+Ogni riparazione inizia con la ricerca del guasto. Naturalmente, l'apparecchio viene prima scollegato dalla rete. Dopodiché può essere aperto. Tuttavia, non si è ancora al sicuro da scosse elettriche. I condensatori nell'alimentatore sono ancora carichi anche senza alimentazione di rete. 
 
-Gerade bei den heute üblichen Schaltnetzteilen für Transistorendstufen ist die Spannung, die an einigen Kondensatoranschlüssen anliegt, höher als die Nennspannung des Netzes. Bei Röhrenendstufen ist die Spannung noch einmal deutlich höher! Das ist lebensgefährlich! 
+Soprattutto negli alimentatori switching oggi comuni per stadi finali a transistor, la tensione presente su alcuni collegamenti dei condensatori è superiore alla tensione nominale della rete. Negli stadi finali a valvole, la tensione è ancora significativamente più alta! Questo è pericoloso per la vita! 
 
-Ohne weitere Eingriffe würde sich die Ladung erst nach und nach abbauen. Zur Sicherheit können wir die Kondensatoren entladen. Sie einfach kurzzuschließen ist keine gute Idee. Bei dieser Vorgehensweise ist ein tödlicher Stromschlag durchaus möglich. Im harmloseren Fall können die hohen Kurzschlussströme die Kondensatoren und andere Bauteile zerstören und einen Brand auslösen. 
+Senza ulteriori interventi, la carica si scaricherebbe solo gradualmente. Per sicurezza, possiamo scaricare i condensatori. Cortocircuitarli semplicemente non è una buona idea. Con questo metodo, una scossa elettrica mortale è del tutto possibile. Nel caso meno grave, le alte correnti di cortocircuito possono distruggere i condensatori e altri componenti e innescare un incendio. 
 
-Mit einem hochohmigen, isolierten Widerstand erfolgt die Entladung langsam und sicher. Die Belastbarkeit des Widerstandes muss an die Kapazität des Kondensators anpasst werden. 
+Con una resistenza isolata ad alta impedenza, la scarica avviene lentamente e in sicurezza. La capacità di carico della resistenza deve essere adattata alla capacità del condensatore. 
 
 [question:AK201]
 
 <tipp>
-Um wirklich auf der sicheren Seite zu sein, können Isolierhandschuhe in einer ausreichenden Schutzklasse getragen werden. Selbstverständlich ist nur isoliertes Werkzeug zu benutzen.
+Per essere veramente al sicuro, si possono indossare guanti isolanti di un'adeguata classe di protezione. Naturalmente, si devono utilizzare solo attrezzi isolati.
 </tipp>

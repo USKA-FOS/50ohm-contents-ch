@@ -1,25 +1,25 @@
-Multibandantennen, die gezielt auf mehreren Bändern resonant sind, haben wir bereits kennengelernt. Eine besondere Möglichkeit einen Dipol gezielt in einem bestimmten, zusätzlichen Frequenzbereich nutzbar zu machen ist das Einfügen eines Parallelschwingkreises bestehend aus Kondensator und Spule (genannt *Trap* aus dem Englischen für "Falle").  Ein solcher Parallelschwingkreis ist bei seiner Resonanzfrequenz hochohmig, stellt also ein "Hindernis" für Ströme dar. Der Parallelschwingkreis wirkt dann als *Sperrkreis*, der den Stromfluss bei einer gewissen Frequenz dann an dieser Stelle sperrt und den Dipol elektrisch auf die entsprechende Länge begrenzt. Gleichzeitig kann bei Anregung mit tieferer Frequenz aber auch der ganze Dipol schwingen.
+Abbiamo già conosciuto le antenne multibanda, che sono risonanti in modo mirato su più bande. Una possibilità particolare per rendere utilizzabile un dipolo in modo mirato in una determinata banda di frequenza aggiuntiva è l'inserimento di un circuito oscillante parallelo composto da un condensatore e una bobina (chiamato *trap* dall'inglese per "trappola"). Un tale circuito oscillante parallelo è ad alta impedenza alla sua frequenza di risonanza, rappresenta quindi un "ostacolo" per le correnti. Il circuito oscillante parallelo agisce quindi come *circuito trappola*, che blocca il flusso di corrente a una certa frequenza in quel punto e limita elettricamente il dipolo alla lunghezza corrispondente. Allo stesso tempo, quando eccitato con una frequenza più bassa, l'intero dipolo può oscillare.
 
 [question:AG109]
 [question:AG110]
 
-Frequenzen, die über der Resonanzfrequenz eines Schwingkreises liegen, können den entsprechenden Trap zwar passieren, jedoch verkürzt der überwiegend wirkende Kondensator die Antenne ein wenig (die Spule ist für hohe Frequenzen von untergeordneter Bedeutung).
+Le frequenze che sono superiori alla frequenza di risonanza di un circuito oscillante possono passare attraverso la rispettiva trappola, ma il condensatore prevalentemente attivo accorcia leggermente l'antenna (la bobina ha un'importanza secondaria per le alte frequenze).
 
 [question:AG113]
 
-Betreibt man einen Trap-Dipol auf der Resonanzfrequenz eines der Parallelschwingkreise, dann wirkt der entsprechende Schwingkreis wie bereits erläutert als Sperrkreis und lässt nahezu keinen Strom hindurch. 
+Se si utilizza un dipolo con trappola alla frequenza di risonanza di uno dei circuiti oscillanti paralleli, il circuito oscillante corrispondente agisce come circuito trappola, come già spiegato, e non lascia passare quasi nessuna corrente.
 
 [question:AG112]
 
-Der Dipol verhält sich bei der Resonanzfrequenz der entsprechenden Sperrkreise dann beinahe so, als ob er an der entsprechenden Stelle zu Ende wäre.
+Il dipolo si comporta alla frequenza di risonanza dei rispettivi circuiti trappola quasi come se finisse in quel punto.
 
 [question:AG116]
 
-Bei niedrigeren Frequenzen hingegen fließt nur wenig Strom durch den Kondensator und die Wirkung der Spule überwiegt, die dann wie eine Verlängerungsspule für eine elektrische Verlängerung sorgt.
+A frequenze più basse, invece, scorre poca corrente attraverso il condensatore e prevale l'effetto della bobina, che funge da bobina di prolunga per un allungamento elettrico.
 
 [question:AG111]
 
-Durch Einfügen mehrerer Traps lassen sich entsprechend noch mehr Resonanzen erzeugen. Hierbei wird der Resonanzfrequenz des innersten Schwingkreises auf die höchste Frequenz abgestimmt (entsprechend der kürzesten Wellenlänge), der nächst-äußere Schwingkreis auf die nächst-niedrigere Frequenz (also die nächst-längere Wellenlänge) usw.
+Inserendo più trappole, si possono creare ancora più risonanze. La frequenza di risonanza del circuito oscillante più interno viene impostata sulla frequenza più alta (corrispondente alla lunghezza d'onda più corta), il circuito oscillante esterno successivo sulla frequenza più bassa successiva (quindi la lunghezza d'onda più lunga successiva), e così via.
 
 [question:AG115]
 [question:AG114]

@@ -1,22 +1,22 @@
-## Steuersignale
+## Segnali di controllo
 
 <left>
-* Übertragung von Audio- sowie Steuersignalen (CAT) zwischen Computer und Transceiver
-* Z.B. Transceiver auf Sendung schalten und Signal vom Computer übertragen
+* Trasmissione di segnali Audio e di controllo (CAT) tra computer e trasmettitore-ricevitore
+* Ad esempio, mettere il trasmettitore-ricevitore in trasmissione e trasmettere il segnale dal computer
 </left>
 <right>
-[picture:630:n_computersteuerung_verbindungen:Beispiele für Verbindungen zwischen Computer und Funkgerät]
+[picture:630:n_computersteuerung_verbindungen:Esempi di collegamenti tra computer e apparecchio radio]
 </right>
 
 ---
-## Datenanschluss
+## Connessione dati
 
-* Hinter dem Mikrofonanschluss im Funkgerät können Verstärker- und Filterstufen für Sprachübertragung liegen $\rightarrow$ ungeeignet für Datenübertragung
-* Eigener Datenanschluss am Transceiver
-* Lässt Signale vom Computer unverfälscht passieren
+* Dietro l'attacco del microfono nell'apparecchio radio, possono trovarsi stadi di amplificazione e filtraggio per la trasmissione vocale $\rightarrow$ inadatto per la trasmissione dati
+* Connessione dati separata sul trasmettitore-ricevitore
+* Lascia passare i segnali dal computer senza alterazioni
 
 <note>
-Oft mit DATA oder 9600 bezeichnet
+Spesso indicato come DATA o 9600
 </note>
 
 ---
@@ -28,8 +28,8 @@ Oft mit DATA oder 9600 bezeichnet
 ---
 [question:NF117]
 <note>
-* Es ist darauf zu achten, dass das Funkgerät nicht unerwartet auf Sendung geht.
-* Anekdotisch: Windows-Startsound über Funk
+* Bisogna fare attenzione che l'apparecchio radio non vada in trasmissione inaspettatamente.
+* Aneddotico: suono di avvio di Windows via radio
 </note>
 
 ---

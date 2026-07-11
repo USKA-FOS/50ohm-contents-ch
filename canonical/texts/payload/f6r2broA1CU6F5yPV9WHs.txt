@@ -1,29 +1,29 @@
-Die *Automatic-Level-Control (ALC)* regelt die Aussteuerung der Senderendstufe des Funkgerätes und reduziert bei deren Übersteuerung die Amplitude des Signals im Sendezweig. Hierbei ist die ALC nicht zu verwechseln mit der AGC (Automatic-Gain-Control), welche sich im Empfängerzweig befindet (siehe Abbildung [ref:e_alc]).
+La *Automatic-Level-Control (ALC)* regola la modulazione dello stadio finale del trasmettitore dell'apparecchio radio e, in caso di sovraeccitazione, riduce l'ampiezza del segnale nel ramo di trasmissione. L'ALC non deve essere confusa con l'AGC (Automatic-Gain-Control), che si trova nel ramo del ricevitore (vedi figura [ref:e_alc]).
 
 <margin>
-[picture:914:e_alc:Automatic-Level-Control in einem Sender]
+[picture:914:e_alc:Controllo automatico del livello in un trasmettitore]
 </margin>
 
-Die ALC erfasst die Ausgangsleistung der Senderendstufe und vergleicht diese mit einem vorgegebenen maximalen Wert. Bei Überschreiten dieses Grenzwertes gibt die ALC eine entsprechende Regelspannung an die vorgelagerte HF-Verstärkerstufe im Sendezweig und reduziert damit die Amplitude des Sendesignals.
+L'ALC rileva la potenza d'uscita dello stadio finale del trasmettitore e la confronta con un valore massimo predefinito. Se questo valore limite viene superato, l'ALC fornisce una tensione di regolazione corrispondente allo stadio di amplificazione a monte nel ramo di trasmissione, riducendo così l'ampiezza del segnale di trasmissione.
 
-Solange die ALC-Anzeige nicht anspricht, kann davon ausgegangen werden, dass die Regelung nicht eingreift und der Sender nicht durch ein zu starkes NF-Signal übersteuert wird. Sobald die ALC Anzeige reagiert, kann davon ausgegangen werden, dass die Regelung, zumindest teilweise, aktiv wird.
+Finché l'indicatore ALC non si attiva, si può presumere che la regolazione non intervenga e che il trasmettitore non sia sovraeccitato da un segnale NF troppo forte. Non appena l'indicatore ALC reagisce, si può presumere che la regolazione diventi attiva, almeno in parte.
 
-Bei SSB-Aussendungen ist ein geringfügiges Ansprechen der ALC durchaus erwünscht, da hierdurch Lautstärkeschwankungen der Stimme ausgeglichen werden und eine optimale Nutzung der verfügbaren Sendeleistung stattfindet. Viele Transceiver besitzen eine entsprechende ALC-Anzeige, auf der meist ersichtlich ist, bis zu welchem Grad die ALC reagieren kann (grüner Bereich) und ab welchem Bereich eine zu starke Aussteuerung stattfindet, die die ALC nicht mehr verzerrungsfrei kompensieren kann (roter Bereich).
+Nelle trasmissioni SSB, un leggero intervento dell'ALC è del tutto desiderabile, poiché compensa le fluttuazioni di volume della voce e consente un utilizzo ottimale della potenza di trasmissione disponibile. Molti trasmettitori-ricevitori dispongono di un apposito indicatore ALC, che mostra solitamente fino a che grado l'ALC può reagire (area verde) e da quale area si verifica una sovraeccitazione troppo forte che l'ALC non può più compensare senza distorsioni (area rossa).
 
 <margin>
-[picture:915:e_alc_trx:ALC im Display eines Funkgeräts]
+[picture:915:e_alc_trx:ALC nel display di un apparecchio radio]
 </margin>
 
 <tip>
-Praktisch kann man den optimalen Punkt, an dem die ALC grade noch nicht aussteuert durch langsames Erhöhen der NF-Aussteuerung bis zu dem Punkt, an dem die ALC anspricht finden. Im Anschluss dreht man die NF-Aussteuerung wieder etwas zurück, so dass die ALC grade nicht mehr anspricht und die Sendeleistungs-Anzeige noch die gewünschte Ausgangsleistung anzeigt (evtl. etwas weniger).
+In pratica, il punto ottimale in cui l'ALC non ancora sovraeccita si può trovare aumentando lentamente la modulazione NF fino al punto in cui l'ALC interviene. Successivamente, si riduce leggermente la modulazione NF in modo che l'ALC non intervenga più e l'indicatore di potenza di trasmissione mostri ancora la potenza d'uscita desiderata (eventualmente leggermente inferiore).
 </tip>
 
 ---
 
-Bei Aussendungen mit digitalen Übertragungsverfahren wie z. B. FT8 oder WSPR ist das Ansprechen der ALC oft ein Hinweis darauf, dass das Audiosignal vom PC zu stark ist und übersteuert wird. Das kann zu unerwünschtem *Splatter* auf dem Band führen. Deshalb sollte das Audiosignal bei diesen Übertragungsverfahren stets sorgfältig kontrolliert werden.
+Nelle trasmissioni con metodi di trasmissione digitale come FT8 o WSPR, l'intervento dell'ALC è spesso un segnale che il segnale Audio dal PC è troppo forte e viene sovraeccitato. Ciò può causare *splatter* indesiderati sulla banda. Pertanto, il segnale Audio deve sempre essere controllato attentamente con questi metodi di trasmissione.
 
 <indepth>
-Das [Handbuch](https://wsjt.sourceforge.io/wsjtx-main_en.html#TRANSCEIVER) der Software WSJTX gibt hierzu eine gute Empfehlung: Im ersten Schritt sollte man durch Drücken der TUNE-Taste den Transceiver in den Sendemodus schalten, um einen gleichmäßigen Ton zu erzeugen. Dieser Ton lässt sich mit der Monitor-Funktion des Geräts durch Hören überprüfen oder im Wasserfall des TRX optisch kontrollieren. Dabei sollten keine Verzerrungen, Klicks oder andere Störungen auftreten. Anschließend stellt man den PWR-Regler von seinem Maximum langsam nach unten, bis der HF-Ausgang des Senders leicht abfällt – dies gilt allgemein als gutes Niveau für die Audioaussteuerung. Auch die ALC-Anzeige sowie die Ausgangsleistung des Transceivers können dabei helfen, den optimalen NF-Signalpegel zu finden.
+Il [manuale](https://wsjt.sourceforge.io/wsjtx-main_en.html#TRANSCEIVER) del software WSJTX fornisce una buona raccomandazione a riguardo: nel primo passo, si dovrebbe mettere il trasmettitore-ricevitore in modalità di trasmissione premendo il tasto TUNE per generare un tono costante. Questo tono può essere verificato acusticamente con la funzione monitor dell'apparecchio o controllato visivamente nella cascata del TRX. Non dovrebbero verificarsi distorsioni, clic o altri disturbi. Successivamente, si regola lentamente il controllo PWR dal suo massimo verso il basso fino a quando l'uscita RF del trasmettitore diminuisce leggermente – questo è generalmente considerato un buon livello per la modulazione Audio. Anche l'indicatore ALC e la potenza d'uscita del trasmettitore-ricevitore possono aiutare a trovare il livello ottimale del segnale NF.
 </indepth>
 
 [question:EF305]

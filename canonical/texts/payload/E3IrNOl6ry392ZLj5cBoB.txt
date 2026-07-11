@@ -1,6 +1,6 @@
 
-Bei der Signalübertragung und -verarbeitung entstehen Verzögerungen. Aus der Lichtgeschwindigkeit ergibt sich die Zeit, die eine elektromagnetische Welle benötigt, um vom Sender zum Empfänger zu gelangen. Bei der Verarbeitung von Signalen kommt es zu weiteren Verzögerungen, vor allem durch Zwischenspeicherung in Pufferspeichern (englisch "buffer") und durch Filter. Im Gegensatz zur digitalen Signalverarbeitung kommt es bei analogen Verfahren eher selten zu merkbaren Verzögerungen, da hier in der Regel keine Zwischenspeicherung stattfindet und nur vergleichsweise einfache Filter gebaut werden.
+Nella trasmissione ed elaborazione dei segnali si verificano ritardi. Dalla velocità della luce deriva il tempo impiegato da un'onda elettromagnetica per raggiungere il trasmettitore e il ricevitore. Nell'elaborazione dei segnali si verificano ulteriori ritardi, soprattutto a causa del buffering (in inglese "buffer") e dei filtri. A differenza dell'elaborazione digitale dei segnali, nei metodi analogici i ritardi percepibili sono rari, poiché di solito non vi è alcun buffering e vengono costruiti solo filtri relativamente semplici.
 
-Aus der Verzögerung ergibt sich eine Laufzeit zwischen Sender und Empfänger bzw. zwischen Ein- und Ausgang einer Verarbeitungsstufe. Diese Laufzeit wird als Latenz bezeichnet und in Sekunden gemessen. Typische Latenzen liegen im Bereich von wenigen Millisekunden bis einigen Sekunden.
+Il ritardo porta a un tempo di percorrenza tra trasmettitore e ricevitore o tra l'ingresso e l'uscita di uno stadio di elaborazione. Questo tempo di percorrenza è chiamato latenza e viene misurato in secondi. Le latenze tipiche vanno da pochi millisecondi ad alcuni secondi.
 
 [question:AF637]

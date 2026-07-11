@@ -1,41 +1,41 @@
-## Gründe für Störungen
+## Motivi di disturbo
 
-* Unerwünschte Frequenzanteile, die nicht ausreichend unterdrückt werden
-* Unzureichend abgeschirmte oder unzureichend geerdete Geräte 
-* Die gewünschten Aussendungen selber
+* Componenti di frequenza indesiderate che non vengono sufficientemente soppresse
+* Apparecchiature non sufficientemente schermate o messe a terra 
+* Le trasmissioni desiderate stesse
 
 ---
 
-### Störung
+### Disturbo
 
 <left>
-[picture:745:stoerungen_vermeiden_oberschwingung:Störung des DVB-T2-Empfang eines Fernsehers durch die Oberschwingung einer Amateurfunkaussendung]
+[picture:745:stoerungen_vermeiden_oberschwingung:Disturbo della ricezione DVB-T2 di un televisore a causa dell’armonica di una trasmissione radioamatoriale]
 </left>
 <right>
-* Grenzwerte durch Amateurfunkanlage überschritten
-* Z.B. Oberschwingung
+* Limiti superati dall’impianto radioamatoriale
+* Ad es. armonica
 </right>
 
 ---
 
-### Störende Beeinflussung
+### Interferenza disturbante
 
 <left>
-[picture:744:stoerungen_vermeiden_einstrahlung:Einstrahlung über die Empfangsantenne]
-[picture:746:stoerungen_vermeiden_direkteinstrahlung:Direkteinstrahlung in ein Gerät]
+[picture:744:stoerungen_vermeiden_einstrahlung:Irradiazione attraverso l’antenna di ricezione]
+[picture:746:stoerungen_vermeiden_direkteinstrahlung:Irradiazione diretta in un apparecchio]
 </left>
 <right>
-[picture:747:stoerungen_vermeiden_einstroemung:Einströmung über Anschlussleitungen]
-* Grenzwerte werden eingehalten
-* Wege können einzeln oder zusammen auftreten
+[picture:747:stoerungen_vermeiden_einstroemung:Infiltrazione attraverso cavi di collegamento]
+* I limiti vengono rispettati
+* I percorsi possono verificarsi singolarmente o insieme
 </right>
 
 ---
 
-## Umgang mit Störungen
+## Gestione dei disturbi
 
-* Nachbarschaftskonflikte vermeiden
-* Höflich Hilfe zur Entstörung anbieten
+* Evitare conflitti con i vicini
+* Offrire cortesemente aiuto per la rimozione dei disturbi
 
 ---
 
@@ -43,55 +43,55 @@
 
 ---
 
-## Ursachenforschung
+## Ricerca delle cause
 
-* Prüfen auf Behebung mit eigenen Mitteln
-* Falls Ursache nicht ermittelt oder Störung nicht beseitigt werden kann $\rightarrow$ Nachbarn auf *Funkstörungsannahme der BNetzA* (24/7 Tel. 0228 14 15 16) hinweisen
+* Verificare la risoluzione con mezzi propri
+* Se la causa non viene identificata o il disturbo non può essere rimosso $\rightarrow$ Informare i vicini sul *servizio di ricezione disturbi radio della BNetzA* (24/7 Tel. 0228 14 15 16)
 
 <note>
-* Bei eigener Suche als DARC-Mitglied Hilfe beim Referat für elektromagnetische Verträglichkeit anfragen
-* Hier Werbung für DARC-Mitgliedschaft machen
+* In caso di ricerca propria, richiedere aiuto al Referato per la compatibilità elettromagnetica come membro DARC
+* Fare qui pubblicità per l’adesione al DARC
 </note>
 ---
 [question:VE302]
 
 ---
 
-## Ermittlung
+## Determinazione
 
-* Kann einige Zeit in Anspruch nehmen
-* Zur Wahrung des Nachbarschaftsfriedens Sendeleistung reduzieren
+* Può richiedere del tempo
+* Per mantenere la pace tra vicini, ridurre la potenza di trasmissione
 
 ---
 
 [question:VE301]
 
 ---
-## Überprüfung
+## Verifica
 
-Falls Amateurfunkaussendungen die Ursache der Probleme sind, wird in drei Fälle unterschieden
+Se le trasmissioni radioamatoriali sono la causa dei problemi, si distinguono tre casi
 
 ---
 
-### 1. Fall
+### 1. Caso
 
-* Amateurfunkanlage wird *nicht vorschriftsmäßig* betrieben
-* Ggf. Anordnung einer kostenpflichtigen Betriebseinschränkung durch BNetzA
-* Möglich ist eine Begrenzung der Sendeleistung
+* L’impianto radioamatoriale non viene gestito *conformemente alle normative*
+* Eventuale ordinanza di limitazione operativa a pagamento da parte della BNetzA
+* È possibile una limitazione della potenza di trasmissione
 
 <note>
-* Z.B. durch zu starke unerwünschte Aussendungen
+* Ad es. a causa di emissioni indesiderate troppo forti
 </note>
 
 ---
 
-### 2. Fall
+### 2. Caso
 
-* Amateurfunkanlage wird *vorschriftsmäßig* betrieben
-* Feldstärke am betroffenen Gerät ist kleiner als Verträglichkeit durch die Störfestigkeit
-* Betroffenes Gerät *hält Störfestigkeit nicht ein*
-* Verantwortung zur Behebung liegt beim Betreiber des betroffenen Geräts
-* Funkamateur darf Sendebetrieb unverändert fortsetzen
+* L’impianto radioamatoriale viene gestito *conformemente alle normative*
+* L’intensità di campo sull’apparecchio interessato è inferiore alla compatibilità dovuta all’immunità ai disturbi
+* L’apparecchio interessato *non soddisfa l’immunità ai disturbi*
+* La responsabilità della risoluzione spetta all’operatore dell’apparecchio interessato
+* Il radioamatore può continuare l’attività di trasmissione invariata
 
 ---
 [question:VE305]
@@ -101,11 +101,11 @@ Falls Amateurfunkaussendungen die Ursache der Probleme sind, wird in drei Fälle
 
 ---
 
-### 3. Fall
+### 3. Caso
 
-* Amateurfunkanlage wird *vorschriftsmäßig* betrieben
-* Betroffenes Gerät *hält Störfestigkeit ein*
-* Konfliktfall: BNetzA ist befugt, eine Lösung *in Zusammenarbeit mit allen Beteiligten* herzustellen
+* L’impianto radioamatoriale viene gestito *conformemente alle normative*
+* L’apparecchio interessato *soddisfa l’immunità ai disturbi*
+* Caso di conflitto: la BNetzA è autorizzata a trovare una soluzione *in collaborazione con tutte le parti coinvolte*
 
 ---
 
@@ -114,15 +114,15 @@ Falls Amateurfunkaussendungen die Ursache der Probleme sind, wird in drei Fälle
 ---
 [question:VE304]
 
---- 
+---
 
-## Anordnungen der BNetzA ohne Zusammenarbeit
+## Disposizioni della BNetzA senza collaborazione
 
-* Zum Schutz von Empfangs- und Sendegeräten, die Sicherheitszwecken dienen
-* Zum Schutz öffentlicher Telekommunikationsnetze, also beispielsweise dem Telefonnetz
-* Zum Schutz von Leib und Leben einer Person oder Sachen von bedeutendem Wert
+* Per la protezione di apparecchiature di ricezione e trasmissione che servono a scopi di sicurezza
+* Per la protezione delle reti di telecomunicazione pubbliche, ad esempio la rete telefonica
+* Per la protezione della vita e dell’incolumità di una persona o di beni di valore significativo
 
 <note>
-* Beispiel: Amateurfunkstation neben einem Krankenhaus
-* Leistungseinschränkungen in eine bestimmte Richtung
+* Esempio: stazione radioamatoriale accanto a un ospedale
+* Limitazioni di potenza in una determinata direzione
 </note>

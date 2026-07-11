@@ -1,13 +1,13 @@
-Funkamateure dürfen Geräte öffnen und verändern. Zum eigenen Schutz gibt es einiges zu beachten. Das beginnt damit, dass man das Gerät von Netz trennt. Damit ist die Gefahr eines elektrischen Schlags aber noch nicht abgewendet!
+Ai radioamatori è consentito aprire e modificare apparecchiature. Per la propria sicurezza, ci sono alcune cose da considerare. Si inizia con il scollegare l'apparecchio dalla rete. Tuttavia, ciò non elimina il pericolo di scosse elettriche!
 
 <danger>
-Arbeiten an der $\qty{230}{\volt}$-Netzseite eines Gerätes dürfen grundsätzlich nur von einer Elektrofachkraft durchgeführt werden!
+I lavori sul lato di rete a $\qty{230}{\volt}$ di un apparecchio devono essere eseguiti esclusivamente da un elettricista qualificato!
 </danger>
  
-Wir müssen besonders auf die Kondensatoren im Netzteil achten. Sie speichern Energie, in Form von elektrischen Ladungen, auch dann noch, wenn sie von der Versorgungsspannung getrennt wurden. Die Dauer hängt von der Qualität der verwendeten Bauteile und von der äußeren Beschaltung ab.
+Dobbiamo prestare particolare attenzione ai condensatori nell'alimentatore. Essi immagazzinano energia, sotto forma di cariche elettriche, anche dopo essere stati scollegati dalla tensione di alimentazione. La durata dipende dalla qualità dei componenti utilizzati e dal circuito esterno.
 
 <danger>
-Bei allen Schaltnetzteilen liegt bei einem Teil der Kondensatoren eine sehr hohe Spannung an und damit auch an anderen Bauteilen des Stromkreises. *Bei Berührung besteht Lebensgefahr*. Dies gilt auch für einige Zeit nach der Trennung vom Stromnetz.
+In tutti gli alimentatori switching, una parte dei condensatori presenta una tensione molto elevata e quindi anche altri componenti del circuito. *Il contatto è potenzialmente letale*. Questo vale anche per un certo periodo di tempo dopo lo scollegamento dalla rete elettrica.
 </danger>
 
 [question:EK203]

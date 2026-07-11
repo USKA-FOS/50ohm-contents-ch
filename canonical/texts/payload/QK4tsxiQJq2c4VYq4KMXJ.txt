@@ -1,31 +1,31 @@
-* Zur Umgehung von Filtern bieten manche FM-Funkgeräte einen separaten Port für Digimodes
-* Dieser ist oft mit *DATA* oder *9600* beschriftet
-* 9600 entsprechend der Datenrate in Baud ($\unit{\baud}$), die damit übertragen werden kann
-* Daran wird direkt das TNC (Terminal Node Controller) vom Computer angeschlossen
-* Heute oft direkt als USB-Anschluss ausgeführt
+* Per aggirare i filtri, alcuni apparecchi radio FM offrono una porta separata per le modalità digitali
+* Questa è spesso etichettata come *DATA* o *9600*
+* 9600 corrisponde alla velocità di trasmissione dati in Baud ($\unit{\baud}$), che può essere trasmessa in questo modo
+* Il TNC (Terminal Node Controller) del computer viene collegato direttamente a questa porta
+* Oggi spesso implementato direttamente come connessione USB
 
 ---
 
-[photo:303:e_9600_port:Funkgerät mit DATA-Port]
+[photo:303:e_9600_port:Apparecchio radio con porta DATA]
 
 ---
 <left>
-* Sowohl Senden als auch Empfang findet ohne NF-Filter und NF-Endstufe statt
-* Es wird direkt der FM-Modulator oder FM-Demodulator angesprochen
-* Signale werden nicht verzerrt
+* Sia la trasmissione che la ricezione avvengono senza filtro AF e stadio finale AF
+* Si accede direttamente al modulatore FM o al demodulatore FM
+* I segnali non vengono distorti
 </left>
 <right>
-[picture:354:e_9600_port_fm_sender:FM-Sender mit Zuführung des $\qty{9600}{\baud}$-Baud-Datensignals an Punkt 2]
-[picture:355:e_9600_port_fm_empfaenger:FM-Empfänger mit Abgreifen des $\qty{9600}{\baud}$-Datensignals an Punkt 4]
+[picture:354:e_9600_port_fm_sender:Trasmettitore FM con alimentazione del segnale dati $\qty{9600}{\baud}$-Baud al punto 2]
+[picture:355:e_9600_port_fm_empfaenger:Ricevitore FM con prelievo del segnale dati $\qty{9600}{\baud}$-Baud al punto 4]
 </right>
 ---
 
 <left>
-* Wurde früher für Packet Radio verwendet
-* Heute für moderne und freie Modi wie M17
+* Utilizzato in passato per il Packet Radio
+* Oggi per modalità moderne e libere come M17
 </left>
 <right>
-[photo:185:m17_tnc:Module M17 ein TNC für das M17 Übertragungsverfahren]
+[photo:185:m17_tnc:Modulo M17 un TNC per il metodo di trasmissione M17]
 </right>
 
 ---

@@ -1,34 +1,34 @@
-* Automatische Verstärkungsregelung (Automatic-Gain-Control, *AGC*) regelt NF-Ausgangssignal bei schwankendem HF-Eingangssignal nach
-* Einsatz z.B. bei Fading
-* Lautstärkeschwankungen werden verringert
+* Controllo automatico del guadagno (Automatic-Gain-Control, *AGC*) regola il segnale di uscita BF in caso di fluttuazione del segnale HF in ingresso
+* Utilizzo ad es. in caso di fading
+* Le fluttuazioni del volume vengono ridotte
 
 ---
-## Funktionsweise
+## Funzionamento
 
-* Erfassung des Empfangspegels am Ausgang des Empfängerzweigs
-* Damit wird die HF-Verstärkung geregelt
-* Beeinflussung der Empfangslautstärke nach der Demodulation
-* Anpassung des Ansprechsverhaltens (Ansprechzeit, Abfallzeit) möglich
+* Rilevamento del livello di ricezione all'uscita del ramo del ricevitore
+* Questo regola l'amplificazione HF
+* Influenza del volume di ricezione dopo la demodulazione
+* Possibilità di regolare il comportamento di risposta (tempo di risposta, tempo di decadimento)
 <note>
-* Nicht verwechseln mit der Automatic-Level-Control (ALC) im Sender
+* Non confondere con l'Automatic-Level-Control (ALC) nel trasmettitore
 </note>
 
 ---
-## AGC-Modi
+## Modalità AGC
 
 <left>
-* AGC Slow
-* AGC Normal
-* AGC Fast
-* AGC Off
+* AGC Lento
+* AGC Normale
+* AGC Veloce
+* AGC Spento
 </left>
 <right>
-* SSB: AGC Slow oder Normal
-* Morsen: AGC Normal oder Fast
-* Digimodes: AGC Fast oder Off
+* SSB: AGC Lento o Normale
+* Morse: AGC Normale o Veloce
+* Modalità digitali: AGC Veloce o Spento
 </right>
 <note>
-* Schnelleres Ansprechverhalten deshalb, damit starke Signale nicht schwache Signale überdecken können und die Regelung schnell nachführt
+* Risposta più rapida in modo che segnali forti non possano coprire segnali deboli e la regolazione si adegui rapidamente
 </note>
 
 ---

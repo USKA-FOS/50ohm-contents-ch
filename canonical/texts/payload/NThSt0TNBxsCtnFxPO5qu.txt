@@ -1,13 +1,13 @@
 <left>
-* Empfangssignal gestört durch Rauschen oder Impulse
-* Schwaches Signal mit Rauschanteilen
-* Zündfunken, Schaltnetzteile, Maschinen etc.
+* Segnale ricevuto disturbato da rumore o impulsi
+* Segnale debole con componenti di rumore
+* Scintille di accensione, alimentatori switching, macchine, ecc.
 </left>
 <right>
-* Noise Reduction (*NR*)
-* $\rightarrow$ Aktive Differenzierung von Nutzsignal und Rauschen
+* Riduzione del rumore (*NR*)
+* $\rightarrow$ Differenziazione attiva tra segnale utile e rumore
 * Noise Blanker (*NB*)
-* $\rightarrow$ Tastet impulsförmige Störungen aus
+* $\rightarrow$ Elimina i disturbi impulsivi
 </right>
 
 ---
