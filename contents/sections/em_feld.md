@@ -33,7 +33,8 @@ Die Gleichung (3) zeigt, dass ein zeitlich veränderliches Magnetfeld ein elektr
 Experimentell wurde die Existenz des elektromagnetischen Felds allerdings erst mehr als zwanzig Jahre später (1886) durch Heinrich Hertz nachgewiesen.
 </indepth>
 
-<indepth>Da in obiger Vertiefung die Maxwell'schen Gleichungen gezeigt werden, soll hier die spezielle Symbolik erklärt werden:
+<indepth>
+Da in obiger Vertiefung die Maxwell'schen Gleichungen gezeigt werden, soll hier die spezielle Symbolik erklärt werden:
 
 Der *Nabla-Operator* (∇\nabla∇) ist ein mathematisches Werkzeug, das beschreibt, wie sich ein Feld (z. B. ein elektrisches oder magnetisches Feld) von Ort zu Ort verändert. Je nachdem, wie er verwendet wird, zeigt er an, wo Feldlinien entstehen oder enden, oder ob sie sich um einen Punkt herum drehen.
 
