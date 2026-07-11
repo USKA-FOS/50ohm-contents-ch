@@ -9,7 +9,7 @@ Oszillatoren sind eines der wichtigsten Schaltungselemente im Amateurfunk. Sie s
 Die einfachste Form eines Oszillators ist der sog. *LC-Oszillator*, der als frequenzbestimmende Elemente einen Schwingkreis (bestehend aus einer Spule und einem Kondensator), welchen wir im vorherigen Kapitel kennen gelernt haben, enthält.
 
 <indepth>
-Ein Oszillator besteht aus einem frequenzbestimmenden Element, beispielsweise einem LC-Schwingkreis oder einem Quarz, einem Verstärker sowie einer positiven Rückkopplung. Die Rückkopplung führt einen Teil des Ausgangssignals phasengleich zum Eingang zurück und gleicht die Verluste des Schwingkreises aus. Dadurch werden ungedämpfte Schwingungen mit der durch das frequenzbestimmende Element vorgegebenen Frequenz erzeugt.
+Ein Oszillator besteht aus einem *frequenzbestimmenden Element*, beispielsweise einem *LC-Schwingkreis* oder einem *Quarz*, einem *Verstärker* sowie einer *positiven Rückkopplung*. Die Rückkopplung führt einen Teil des Ausgangssignals phasengleich zum Eingang zurück und gleicht die Verluste des Schwingkreises aus. Dadurch werden ungedämpfte Schwingungen mit der durch das frequenzbestimmende Element vorgegebenen Frequenz erzeugt.
 </indepth>
 
 [question:ED501]
