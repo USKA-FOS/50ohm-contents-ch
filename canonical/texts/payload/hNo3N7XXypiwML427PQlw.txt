@@ -1,34 +1,34 @@
-Bei der Amplitudenmodulation (AM) wird ein Modulationssignal, z. B. ein Sprachsignal, durch Änderung der Amplitude auf den Träger aufmoduliert. Die Frequenz des Trägers wird bei AM nicht beeinflusst, sondern bleibt unverändert.
+Dans la modulation d'amplitude (AM), un signal de modulation, par exemple un signal vocal, est modulé sur la porteuse en modifiant l'amplitude. La fréquence de la porteuse n'est pas influencée par l'AM, mais reste inchangée.
 
-Den einfachsten und zugleich extremsten Fall haben wir mit der Übertagung von Morsezeichen mittels Continuous Wave (CW) schon kennengelernt. Das Ein- und Ausschalten des Trägers im Rhythmus der Bedienung der Morsetaste kann man auch als Wechsel zwischen  minimaler und maximaler Amplitude beschreiben.
+Nous avons déjà connu le cas le plus simple et en même temps le plus extrême avec la transmission de signaux Morse au moyen d'une onde continue (CW). L'activation et la désactivation de la porteuse au rythme de l'actionnement de la touche Morse peuvent également être décrites comme une alternance entre une amplitude minimale et maximale.
 
-Um ein Sprachsignal mittels AM zu modulieren, wird auch der Bereich zwischen minimaler und maximaler Amplitude genutzt. Im Wasserfalldiagramm in Abbildung [ref:n_Wasserfall0] sehen wir ein amplitudenmoduliertes Sprachsignal. Man kann in der Mitte deutlich den Träger als schmale Linie mit konstanter Frequenz erkennen. Links und rechts vom Träger sieht man allerdings auch etwas, obwohl die Frequenz des Trägers gar nicht beeinflusst wurde!
+Pour moduler un signal vocal au moyen d'AM, la plage entre l'amplitude minimale et maximale est également utilisée. Dans le diagramme en cascade de la figure [ref:n_Wasserfall0], nous voyons un signal vocal modulé en amplitude. On peut distinguer au milieu la porteuse sous forme de ligne étroite avec une fréquence constante. À gauche et à droite de la porteuse, on voit cependant quelque chose, bien que la fréquence de la porteuse ne soit pas influencée !
 
 <margin>
-[picture:716:n_Wasserfall0:Signal eines AM-Radiosenders (Sprache / Musik)]
+[picture:716:n_Wasserfall0:Signal d'un émetteur radio AM (parole / musique)]
 </margin>
 
-Dieser unerwartete Effekt entsteht dadurch, dass sich durch die Änderung der Amplitude die Form des Trägers ändert und er nicht mehr einer reinen Sinusschwingung entspricht. Die zusätzlichen Frequenzen bezeichnen wir als *Seitenbänder*. In diesen steckt die übertragene Information, also z. B. die Sprache. In Abbildung [ref:n_seitenband] sehen wir eine übliche symbolhafte Darstellung von AM mit dem Träger in der Mitte und den beiden Seitenbändern links und rechts davon.
+Cet effet inattendu est dû au fait que la forme de la porteuse change en raison de la modification de l'amplitude et qu'elle ne correspond plus à une oscillation sinusoïdale pure. Les fréquences supplémentaires sont appelées *bandes latérales*. C'est dans celles-ci que se trouve l'information transmise, par exemple la parole. Dans la figure [ref:n_seitenband], nous voyons une représentation symbolique habituelle de l'AM avec la porteuse au milieu et les deux bandes latérales à gauche et à droite.
 
 <margin>
-[picture:476:n_seitenband:Symbolische Darstellung eines amplitudenmodulierten Signals mit Träger und Seitenbändern]
+[picture:476:n_seitenband:Représentation symbolique d'un signal modulé en amplitude avec porteuse et bandes latérales]
 </margin>
 
 <webindepth>
-*Warum entstehen bei AM zusätzliche Frequenzen neben dem Träger?* Das lässt sich erklären, wenn man versteht, was in einem Amplitudenspektrum oder Wasserfalldiagramm genau dargestellt wird: Es zeigt für jede Frequenz an, wie groß die Amplitude ist. Genauer müssen wir sagen: Es zeigt für alle möglichen Sinusschwingungen mit verschiedenen Frequenzen an, wie stark deren Amplitude ist. Wenn also die Anzeige z. B. bei $\qty{144,3}{\mega\hertz}$ ausschlägt, dann wird eine reine Sinusschwingung mit einer Frequenz von $\qty{144,3}{\mega\hertz}$ gemessen. Schlägt die Anzeige aber beispielsweise gleichzeitig bei $\qty{144,300}{\mega\hertz}$ und bei $\qty{144,301}{\mega\hertz}$ aus, dann wurden zwei Sinusschwingungen gemessen.
+*Pourquoi des fréquences supplémentaires apparaissent-elles à côté de la porteuse lors de l'AM ?* Cela peut s'expliquer si l'on comprend ce qui est exactement représenté dans un spectre d'amplitude ou un diagramme en cascade : il indique pour chaque fréquence à quelle amplitude elle est. Plus précisément, nous devons dire : il indique pour toutes les oscillations sinusoïdales possibles avec différentes fréquences à quel point leur amplitude est forte. Si, par exemple, l'indication réagit à $\qty{144,3}{\mega\hertz}$, alors une oscillation sinusoïdale pure avec une fréquence de $\qty{144,3}{\mega\hertz}$ est mesurée. Mais si l'indication réagit par exemple simultanément à $\qty{144,300}{\mega\hertz}$ et à $\qty{144,301}{\mega\hertz}$, alors deux oscillations sinusoïdales ont été mesurées.
 
-Betrachten wir mit diesem Wissen noch einmal die AM-Sendung im Wasserfalldiagramm. Wir können jetzt erkennen, dass viele verschiedene Frequenzen zwischen $\qty{144,250}{\mega\hertz}$ und $\qty{144,350}{\mega\hertz}$ mit unterschiedlicher Amplitude auftreten. Es sind also viele verschiedene Sinusschwingungen gleichzeitig messbar.
+Avec cette connaissance, regardons à nouveau l'émission AM dans le diagramme en cascade. Nous pouvons maintenant reconnaître que de nombreuses fréquences différentes entre $\qty{144,250}{\mega\hertz}$ et $\qty{144,350}{\mega\hertz}$ apparaissent avec des amplitudes différentes. Il s'agit donc de nombreuses oscillations sinusoïdales différentes mesurables simultanément.
 
-[picture:738:n_seitenband_frequenzen_einzeln:Mehrere Sinusschwingungen unterschiedlicher Frequenz]
+[picture:738:n_seitenband_frequenzen_einzeln:Plusieurs oscillations sinusoïdales de fréquences différentes]
 
-Es bleibt die Frage, wieso aus einer einzigen Sinusschwingung, die man durch Modulation verformt, plötzlich mehrere Sinusschwingungen werden. Um dies zu beantworten, schauen wir uns den Weg andersherum an. Wenn man mehrere Sinusschwingungen unterschiedlicher Frequenz hat und diese aufsummiert, entsteht eine "verformte" Schwingung!
+Il reste la question de savoir pourquoi une seule oscillation sinusoïdale, que l'on déforme par modulation, devient soudainement plusieurs oscillations sinusoïdales. Pour répondre à cette question, nous regardons le chemin en sens inverse. Si l'on a plusieurs oscillations sinusoïdales de fréquences différentes et que l'on les additionne, une oscillation "déformée" est créée !
 
-[picture:739:n_seitenband_frequenzen_addiert:Summe mehrerer Sinusschwingungen unterschiedlicher Frequenz]
+[picture:739:n_seitenband_frequenzen_addiert:Somme de plusieurs oscillations sinusoïdales de fréquences différentes]
 
-Es sind einfach zwei verschiedene Sichtweisen. Man kann es entweder als verformte Schwingung auffassen oder eben als Summe mehrerer Sinusschwingungen. Und das ist der Grund, warum die Änderung der Amplitude eines Trägers dazu führt, dass man weitere Frequenzen neben dem Träger im Wasserfalldiagramm sieht.
+Il s'agit simplement de deux points de vue différents. On peut le comprendre soit comme une oscillation déformée, soit comme la somme de plusieurs oscillations sinusoïdales. Et c'est la raison pour laquelle la modification de l'amplitude d'une porteuse entraîne l'apparition d'autres fréquences à côté de la porteuse dans le diagramme en cascade.
 </webindepth>
 
 [question:NE202]
 [question:NE206]
 
-Übrigens ist die von AM belegte Bandbreite doppelt so hoch wie die höchste Frequenz des Modulationssignals. Bei unserem Beispiel aus dem vorherigen Abschnitt war die höchste Frequenz $\qty{2700}{\hertz}$. Entsprechend würde dieses Signal als AM-Sendung eine Bandbreite von $\qty{5400}{\hertz}$ belegen.
+Incidemment, la bande passante occupée par l'AM est deux fois plus élevée que la fréquence la plus élevée du signal de modulation. Dans notre exemple de la section précédente, la fréquence la plus élevée était de $\qty{2700}{\hertz}$. En conséquence, ce signal en tant qu'émission AM occuperait une bande passante de $\qty{5400}{\hertz}$.

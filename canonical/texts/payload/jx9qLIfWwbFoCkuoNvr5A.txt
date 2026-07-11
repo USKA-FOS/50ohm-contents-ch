@@ -1,160 +1,160 @@
-Ein sehr wichtiges und häufig verwendetes Bauteil in der Funktechnik und Elektronik ist der Kondensator. Wie in Abbildung [ref:e_kondensator_aufbau] dargestellt, besteht ein Kondensator prinzipiell aus zwei leitenden Flächen (Platten, Schichten bzw. Elektroden), die durch einen Isolator – das sogenannte Dielektrikum – voneinander getrennt sind.
+Un composant très important et fréquemment utilisé dans la technologie radio et l'électronique est le condensateur. Comme le montre la figure [ref:e_kondensator_aufbau], un condensateur est principalement constitué de deux surfaces conductrices (plaques, couches ou électrodes) séparées par un isolant appelé diélectrique.
 
 
 <margin>
-[picture:922:e_kondensator_aufbau:Prinzipieller Aufbau eines Kondensators]
+[picture:922:e_kondensator_aufbau:Structure d'un condensateur]
 </margin>
 
-Die geometrischen Abmessungen bestimmen eine wichtige Eigenschaft eines Kondensators, es ist die Fähigkeit, Ladungen zu speichern. Diese Fähigkeit wird als Kapazität bezeichnet und hierfür wird der Formelbuchstabe $C$ verwendet. Je größer die Kapazität ist, umso mehr elektrische Ladungen $Q$ können gespeichert werden. Wenn die angelegte Spannung erhöht wird, werden auch mehr Ladungen gespeichert.
+Les dimensions géométriques déterminent une propriété importante d'un condensateur, à savoir la capacité à stocker des charges. Cette capacité est désignée par le symbole $C$. Plus la capacité est grande, plus de charges électriques $Q$ peuvent être stockées. Si la tension appliquée est augmentée, plus de charges sont également stockées.
 
-Die folgende Formel zeigt den Zusammenhang. 
+La formule suivante montre la relation. 
 
 $Q = C \cdot U $ 
 
-Diese Formel steht nicht in der Formelsammlung und wird auch nicht für die Prüfung benötigt.
+Cette formule ne figure pas dans le recueil de formules et n'est pas non plus nécessaire pour l'examen.
 
 <unit>
-Die Einheit der Ladung $Q$ ist $\unit{\ampere\second}$
+L'unité de la charge $Q$ est $\unit{\ampere\second}$
 </unit>
 
 <unit>
-Die Einheit der Kapazität $C$ ist $\unit{\ampere\second\per\volt}$ oder kurz *Farad* $\unit{\farad}$ zu Ehren des englischen Naturforschers Michael Faraday (1791 - 1867). $\qty{1}{\farad}$ ist die Kapazität eines Kondensators, in dem eine Ladung von $\qty{1}{\ampere\second}$ bei einer Spannung von $\qty{1}{\volt}$ gespeichert wird.
+L'unité de la capacité $C$ est $\unit{\ampere\second\per\volt}$ ou plus simplement *Farad* $\unit{\farad}$ en l'honneur du chercheur anglais Michael Faraday (1791 - 1867). $\qty{1}{\farad}$ est la capacité d'un condensateur dans lequel une charge de $\qty{1}{\ampere\second}$ est stockée à une tension de $\qty{1}{\volt}$.
 </unit>
 
 [question:EA101]
 
-Wird an einen Kondensator eine Spannung angelegt, entsteht zwischen den leitenden Platten ein elektrisches Feld $E$. Diesen Zusammenhang haben wir bereits im Kapitel zum elektrischen Feld kennengelernt: Je höher die angelegte Spannung und je kleiner der Abstand zwischen den Platten ist, desto stärker ist das elektrische Feld. Mathematisch lässt sich dies ausdrücken durch:
+Lorsqu'une tension est appliquée à un condensateur, un champ électrique $E$ est créé entre les plaques conductrices. Nous avons déjà appris ce rapport dans le chapitre sur le champ électrique : plus la tension appliquée est élevée et plus la distance entre les plaques est petite, plus le champ électrique est intense. Cela peut s'exprimer mathématiquement par :
 
 $E = \frac{U}{d}$
 
-Zur Berechnung der Kondensatorkapazität aus den Abmessungen dient folgende Formel aus der Formelsammlung:
+Pour calculer la capacité du condensateur à partir des dimensions, on utilise la formule suivante du recueil de formules :
 
 ---
 
 $C = \frac{\varepsilon_0 \cdot \varepsilon_r \cdot A}{d}$
 
-Im Folgenden sind die einzelnen Größen der Formel aufgeschlüsselt:
+Les différentes grandeurs de la formule sont détaillées ci-dessous :
 
-- $A$ ist die gegenüberstehende Fläche der leitenden Platten
-- $d$ ist der Abstand zwischen den Flächen
-- $\varepsilon_0 = \qty{0,855e-11}{\ampere\second\per\volt\meter}$ ist die elektrische Feldkonstante, eine Naturkonstante
-- $\varepsilon_r$  (sprich: "Epsilon R") ist eine spezielle Eigenschaft des Isolators (Dielektrikum) ist die sogenannte relative Dielektrizitätszahl welche vom Verwendeten Material abhängt. Die Tabelle [ref:e_Dielektrizitätszahl] mit Materialwerten findet man auch in der Formelsammlung.
+- $A$ est la surface opposée des plaques conductrices
+- $d$ est la distance entre les surfaces
+- $\varepsilon_0 = \qty{0,855e-11}{\ampere\second\per\volt\meter}$ est la permittivité du vide, une constante naturelle
+- $\varepsilon_r$ (prononcé : "Epsilon R") est une propriété spécifique de l'isolant (diélectrique) appelée permittivité relative, qui dépend du matériau utilisé. Le tableau [ref:e_Dielektrizitätszahl] avec les valeurs des matériaux se trouve également dans le recueil de formules.
 
 <margin>
-| Material | $\varepsilon_r$  |
-| Luft (trocken) | 1,00059 |
-| Voll-PE (Polyäthylen) | 2,29 |
-| Schaum-PE | 1,5 |
+| Matériau | $\varepsilon_r$  |
+| Air (sec) | 1,00059 |
+| Polyéthylène (PE) | 2,29 |
+| Mousse de PE | 1,5 |
 | PTFE (Teflon) | 2,0 |
-[table:e_Dielektrizitätszahl:Relative Dielektrizitätszahl $\varepsilon_r$ ]
+[table:e_Dielektrizitätszahl:Permittivité relative $\varepsilon_r$ ]
 </margin>
 
-Mit Hilfe der Formel kann man bereits eine Reihe von Prüfungsfragen lösen. Man stellt zunächst fest, dass die Spannung $U$ in der Formel nicht vorkommt. 
+Grâce à la formule, on peut déjà résoudre une série de questions d'examen. On constate tout d'abord que la tension $U$ ne figure pas dans la formule. 
 
 [question:EC205]
 
-Die Kapazität eines Kondensators sinkt, wenn der Plattenabstand größer wird. 
+La capacité d'un condensateur diminue lorsque la distance entre les plaques augmente. 
 
 [question:EC204]
 [question:EC203]
 
 ---
 
-Betrachten wir zunächst den Kondensator im Gleichstromfall. In Abbildung [ref:e_stromkreis_kondensator] ist eine Schaltung zum Aufladen eines Kondensators dargestellt. Dabei wird angenommen, dass der Kondensator $C$ zunächst ungeladen ist, also noch keine elektrische Ladung gespeichert hat. Wird der Schalter geschlossen, so wird der Kondensator $C$ über einen Widerstand $R$ an eine Gleichspannungsquelle (Batterie) angeschlossen.
+Examinons d'abord le condensateur en courant continu. La figure [ref:e_stromkreis_kondensator] montre un circuit pour charger un condensateur. On suppose que le condensateur $C$ est initialement déchargé, c'est-à-dire qu'il n'a pas encore stocké de charge électrique. Lorsque l'interrupteur est fermé, le condensateur $C$ est connecté à une source de tension continue (batterie) par l'intermédiaire d'une résistance $R$.
 
-Durch die angelegte Spannung entsteht ein elektrisches Feld zwischen den Kondensatorplatten. Dieses Feld bewirkt eine Umlagerung von Ladungen: Elektronen werden vom negativen Pol der Spannungsquelle auf die angeschlossene Kondensatorplatte gedrückt, sodass sich dort ein Elektronenüberschuss bildet. Gleichzeitig werden Elektronen von der gegenüberliegenden Platte zum positiven Pol der Spannungsquelle abgezogen, wodurch dort ein Elektronenmangel entsteht. Obwohl kein Strom durch das Dielektrikum fließt, führt diese Ladungstrennung zur Aufladung des Kondensators. 
+La tension appliquée crée un champ électrique entre les plaques du condensateur. Ce champ provoque un réarrangement des charges : les électrons sont poussés du pôle négatif de la source de tension vers la plaque de condensateur connectée, de sorte qu'un excès d'électrons s'y forme. Simultanément, les électrons sont retirés de la plaque opposée vers le pôle positif de la source de tension, ce qui entraîne un déficit d'électrons. Bien qu'aucun courant ne circule à travers le diélectrique, cette séparation des charges entraîne la charge du condensateur. 
 
 <margin>
-[picture:1015:e_stromkreis_kondensator:Stromkreis zum Aufladen eines Kondesators]
+[picture:1015:e_stromkreis_kondensator:Circuit de charge d'un condensateur]
 </margin>
 
 ---
 
-Das bedeutet: Zu Beginn fließt ein hoher Strom, der lediglich durch den Widerstand $R$ begrenzt wird. Mit der Zeit werden immer mehr Ladungen im Kondensator gespeichert. Dadurch nimmt der Strom kontinuierlich ab, während die Spannung $U_C$ am Kondensator ansteigt, bis dieser vollständig aufgeladen ist. In diesem Zustand fließt schließlich kein Strom mehr.
+Cela signifie qu'au début, un courant élevé circule, qui est limité uniquement par la résistance $R$. Avec le temps, de plus en plus de charges sont stockées dans le condensateur. Le courant diminue ainsi en continu, tandis que la tension $U_C$ aux bornes du condensateur augmente, jusqu'à ce que celui-ci soit complètement chargé. À ce stade, aucun courant ne circule plus.
 
-Dieser Vorgang erfolgt jedoch nicht schlagartig, sondern zeitlich verzögert. Die Kondensatorspannung steigt dabei nach einer sogenannten Exponentialfunktion an, wie in Abbildung [ref:e_ladekurve_c] gezeigt. Die Dauer dieses Ladevorgangs hängt vom vorgeschalteten Widerstand ab: Je größer der Widerstand ist, desto länger dauert es, bis der Kondensator „vollständig“ geladen ist. Mit einem Oszilloskop, wie in Abbildung [ref:e_lade_entladespannung_mit_oszilloskop] gezeigt, das wir bereits kennengelernt haben, lässt sich dieser zeitliche Verlauf anschaulich beobachten und untersuchen.
+Ce processus ne se produit pas instantanément, mais de manière retardée dans le temps. La tension du condensateur augmente selon une fonction exponentielle, comme le montre la figure [ref:e_ladekurve_c]. La durée de ce processus de charge dépend de la résistance en amont : plus la résistance est grande, plus il faut de temps pour que le condensateur soit "complètement" chargé. Avec un oscilloscope, comme le montre la figure [ref:e_lade_entladespannung_mit_oszilloskop], que nous avons déjà rencontré, on peut observer et étudier de manière illustrative et précise cette évolution dans le temps.
 
 <margin>
-[picture:185:e_ladekurve_c:Ladespannung eines Kondesators]
+[picture:185:e_ladekurve_c:Tension de charge d'un condensateur]
 </margin>
 
 <margin>
-[photo:247:e_lade_entladespannung_mit_oszilloskop:Lade-und Entladespannung an einem Kondensator]  
+[photo:247:e_lade_entladespannung_mit_oszilloskop:Tension de charge et de décharge d'un condensateur]  
 </margin>
  
-Beim Entladevorgang fließt der Strom entgegen der Ladestromrichtung und die Spannung am Kondensator baut sich langsam ab.
+Lors du processus de décharge, le courant circule dans le sens inverse du courant de charge et la tension aux bornes du condensateur diminue lentement.
 
 [question:EC201]
 
-Im Fall von Wechselstrom und Wechselspannungen müssen wir einen weiteren wichtigen Aspekt berücksichtigen: Ein Kondensator verhält sich wie ein frequenzabhängiger Widerstand. Dieser lässt sich durch die Beziehung
+Dans le cas du courant alternatif et des tensions alternatives, nous devons prendre en compte un autre aspect important : un condensateur se comporte comme une résistance dépendante de la fréquence. Celle-ci peut être décrite par la relation
 
 $|X_C| = \frac{1}{\omega\cdot C} = \frac{1}{2\pi\cdot f \cdot C}$
 
-beschreiben und wird als kapazitiver Blindwiderstand $X_C$ bezeichnet (vgl. Formelsammlung).
+et est appelée résistance réactive capacitive $X_C$ (voir recueil de formules).
 
-Die genauen physikalischen Hintergründe dazu lernen wir erst in der Klasse A kennen. Für die Klasse E ist es jedoch bereits wichtig zu wissen, dass der Widerstand eines Kondensators umgekehrt proportional von der Frequenz abhängt: Verringert man die Frequenz, so wird der kapazitive Blindwiderstand $X_C$ größer. Erhöht man hingegen die Frequenz, nimmt der Widerstand entsprechend ab.
+Les détails physiques exacts seront abordés en classe A. Pour la classe E, il est cependant déjà important de savoir que la résistance d'un condensateur est inversement proportionnelle à la fréquence : si la fréquence diminue, la résistance réactive capacitive $X_C$ augmente. Si, en revanche, la fréquence augmente, la résistance diminue en conséquence.
 
 [question:EC202]
 
 ---
 
-Nun haben wir bereits einige grundlegende elektrische Eigenschaften eines Kondensators kennengelernt, und im Folgenden wollen wir uns noch mit den verschiedenen Bauformen beschäftigen. Die Abbildung [ref:e_kondensatorvarianten] zeigt verschiedene Kondensatorvarianten.
+Nous avons maintenant appris quelques propriétés électriques fondamentales d'un condensateur, et nous allons maintenant nous intéresser aux différentes formes de construction. La figure [ref:e_kondensatorvarianten] montre différentes variantes de condensateurs.
 
 <margin>
-[photo:206:e_kondensatorvarianten:Kondensatorvarianten]
+[photo:206:e_kondensatorvarianten:Variantes de condensateurs]
 </margin>
 
-Als Dielektrikum, also Isolatorschicht, können unterschiedliche Materialien verwendet werden:
+Différents matériaux peuvent être utilisés comme diélectrique, c'est-à-dire comme couche isolante :
 
-1.  Luft beim Luftdrehkondensator oder Lufttrimmer
-2. Kunststofffolie beim Folienwickelkondensator
-3. Keramik für HF-Kondensatoren mit hoher Güte und bei SMD-Kondensatoren
-4. Metalloxid beim Elektrolytkondensator.
+1.  Air dans le cas du condensateur à air ou du trimmer à air
+2. Film plastique dans le cas du condensateur à film bobiné
+3. Céramique pour les condensateurs HF à haute qualité et les condensateurs SMD
+4. Oxyde métallique dans le cas du condensateur électrolytique.
 
-Je nach Aufbau unterscheidet man außerdem:
+Selon la construction, on distingue en outre :
 
-* Festkondensatoren in Form von Keramikkondensatoren, Folienkondensatoren und Elektrolytkondensatoren
-* Veränderliche Kondensatoren in Form von Drehkondensatoren und Trimmkondensatoren
+* Condensateurs fixes sous forme de condensateurs céramiques, de condensateurs à film et de condensateurs électrolytiques
+* Condensateurs variables sous forme de condensateurs rotatifs et de condensateurs ajustables
 
 ---
 
-*Luftkondensatoren* und *Keramikkondensatoren*, wie in Abbildung [ref:e_aufbau_keramik_c] gezeigt, werden z.B. gerne für HF-Filter verwendet. 
+Les *condensateurs à air* et les *condensateurs céramiques*, comme le montre la figure [ref:e_aufbau_keramik_c], sont par exemple utilisés pour les filtres HF. 
 [question:ED216] 
 
 <margin>
-[picture:923:e_aufbau_keramik_c: Keramikkondensator]
+[picture:923:e_aufbau_keramik_c: Condensateur céramique]
 </margin>
 
-*Elektrolytkondensatoren* (kurz ELKO) enthalten eine dünne, aufgerauhte ALU-Folie, die in einen Elektrolyten (z.B. Borax) eingetaucht ist. Dabei verursacht der Elektrolyt eine chemische Oxidation der Aluminiumoberfläche. Die entstehende Oxidschicht ist sehr dünn und deshalb steigt die Kapazität bei geringer Baugröße sehr stark an. Allerdings hat die dünne Schicht nur eine begrenzte Spannungsfestigkeit, die auf dem ELKO anggeben wird.
-Elektrolytkondensatoren dürfen nur an Gleichspannung betrieben werden. Die Polung ist deshalb zu beachten, da sich sonst die Oxidschicht abbaut und somit die Spannungsfestigkeit sinkt. Der Kondensator wird zerstört. Alle anderen Kondensatoren können auch an Wechselspannung angeschlossen werden.
+Les *condensateurs électrolytiques* (abréviation ELKO) contiennent une fine feuille d'ALU rugueuse, immergée dans un électrolyte (par exemple du borax). L'électrolyte provoque une oxydation chimique de la surface de l'aluminium. La couche d'oxyde formée est très fine et, par conséquent, la capacité augmente fortement pour une taille de construction réduite. Cependant, la couche fine n'a qu'une résistance limitée à la tension, qui est indiquée sur l'ELKO.
+Les condensateurs électrolytiques ne peuvent être utilisés qu'avec une tension continue. La polarité doit donc être respectée, sinon la couche d'oxyde se dégrade et la résistance à la tension diminue. Le condensateur est détruit. Tous les autres condensateurs peuvent également être connectés à une tension alternative.
 [question:EC207]
 
 %<margin>
-%TODO: Bild Elko
+%TODO: Image Elko
 %</margin>
 
-Für Folien-Wickelkondensatoren werden Kunststoffe in speziellen Verfahren zu extrem dünnen Folien verarbeitet, mit Elektroden versehen und anschließend entweder zu einem Wickel aufgewickelt oder aus einzelnen Lagen geschichtet und zu einem Kondensator zusammengefügt, wie in Abbildung [ref:e_aufbau_wickel_c] dargestellt. Neben Keramikkondensatoren und Elektrolytkondensatoren zählen sie zu den am häufigsten eingesetzten Kondensatorbauarten.
+Pour les condensateurs à film bobiné, des plastiques sont transformés en films extrêmement fins par des procédés spéciaux, pourvus d'électrodes et ensuite soit enroulés en une bobine, soit assemblés en couches individuelles et assemblés en un condensateur, comme le montre la figure [ref:e_aufbau_wickel_c]. Outre les condensateurs céramiques et les condensateurs électrolytiques, ils comptent parmi les types de condensateurs les plus couramment utilisés.
 
 <margin>
-[picture:49:e_aufbau_wickel_c:Folien-Wickelkondensator]
+[picture:49:e_aufbau_wickel_c:Condensateur à film bobiné]
 </margin>
 
-Drehkondensatoren werden häufig in Endstufen und Anpassnetzwerken eingesetzt. Bei ihnen lässt sich die Kapazität einstellen, indem ein Teil der Kondensatorplatten auf einer isolierten Achse montiert ist und zwischen feststehenden Platten rotiert. Dadurch ändert sich die wirksame Überlappungsfläche der Platten und somit die Kapazität, wie in Abbildung [ref:e_drehkondensator] dargestellt. Trimmkondensatoren arbeiten nach einem ähnlichen Prinzip, sind jedoch nicht für eine regelmäßige Verstellung vorgesehen. Sie dienen vielmehr zum einmaligen oder gelegentlichen Abgleich von Schaltungen, etwa bei der Inbetriebnahme oder Kalibrierung.
+Les condensateurs rotatifs sont souvent utilisés dans les étages finaux et les réseaux d'adaptation. Chez eux, la capacité peut être ajustée en montant une partie des plaques du condensateur sur un axe isolé et en les faisant tourner entre des plaques fixes. Cela modifie la surface de chevauchement efficace des plaques et donc la capacité, comme le montre la figure [ref:e_drehkondensator]. Les condensateurs ajustables fonctionnent selon un principe similaire, mais ne sont pas prévus pour un réglage régulier. Ils servent plutôt à l'ajustement ponctuel ou occasionnel des circuits, par exemple lors de la mise en service ou de l'étalonnage.
 
 [question:EC206]
 
 <margin>
- [picture:840:e_drehkondensator:Aufbau eines Drehkondensators]
+ [picture:840:e_drehkondensator:Structure d'un condensateur rotatif]
 </margin>
 
-Die verwendeten Schaltzeichen für die verschiedenen Kondensatoren unterscheiden sich auch wie in Abbildung [ref:e_kondensator_schaltzeichen] dargestellt.
+Les symboles de circuit utilisés pour les différents condensateurs diffèrent également comme le montre la figure [ref:e_kondensator_schaltzeichen].
 
 <margin>
-[picture:924:e_kondensator_schaltzeichen:Schaltzeichen verschiedener Kondensatorarten]
+[picture:924:e_kondensator_schaltzeichen:Symboles de circuit de différents types de condensateurs]
 
-Schaltzeichenzuordnung: 
-a) Festkondensator 
-b) gepolter Kondensator/ Elektrolytkondensator (Elko)/Tantalkondensator
-c) Drehkondensator (Drehko) 
-d) Trimmkondensator für Abgleichzwecke
+Attribution des symboles de circuit : 
+a) Condensateur fixe 
+b) Condensateur polarisé/condensateur électrolytique (Elko)/condensateur à tantale
+c) Condensateur rotatif (Drehko) 
+d) Condensateur ajustable à des fins d'ajustement
 </margin>

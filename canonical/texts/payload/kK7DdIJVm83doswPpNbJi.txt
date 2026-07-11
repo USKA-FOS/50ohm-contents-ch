@@ -1,20 +1,20 @@
-## Leistungsberechnung
+## Calcul de puissance
 
-Wir kennen bereits
+Nous connaissons déjà
 
 $P = U\cdot I = \dfrac{U^2}{R} = I^2\cdot R$
 
 <left>
-Nach U umgestellt:
+Réarrangé pour U:
 $U = \dfrac{P}{I} = \sqrt{P \cdot R}$
 </left>
 <right>
-Nach I umgestellt:
+Réarrangé pour I:
 $I = \dfrac{P}{U} = \sqrt{\dfrac{P}{R}}$
 </right>
 
 <note>
-* Alle Formeln sind in der Formelsammlung
+* Toutes les formules sont dans le recueil de formules
 </note>
 
 ---
@@ -36,17 +36,17 @@ $I = \dfrac{P}{U} = \sqrt{\dfrac{P}{R}}$
 ---
 [question:EB512]
 ---
-## Leistung bei Wechselspannung
+## Puissance en tension alternative
 
-* Bei Wechselspannungen muss mit dem Effektivwert gerechnet werden
+* En tension alternative, il faut calculer avec la valeur efficace
 
 ---
 [question:EB503]
 ---
 [question:EB513]
 <note>
-* Keine Leistungsberechnung, sondern nur Ohmsches Gesetz
-* Die Frage passte aber in Klasse E nirgends anders rein
+* Pas de calcul de puissance, mais seulement la loi d'Ohm
+* La question ne convenait pas ailleurs dans la classe E
 </note>
 
 

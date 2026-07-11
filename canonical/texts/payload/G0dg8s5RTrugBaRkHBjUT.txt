@@ -1,7 +1,7 @@
-Einige Frequenzbereiche sind uns primär und andere sekundär zugewiesen
-* *Primär* bedeutet, dass wir vor anderen Funkdiensten Vorrang haben und von diesen keine Störungen hinnehmen müssen
-* *Sekundär* bedeutet, dass wir als Funkamateure andere Funkdienste nicht stören dürfen und Störungen durch diese hinnehmen müssen
-* Der Status ist in Spalte 3 der Anlage 1 der AFuV mit P und S gekennzeichnet
+Certaines bandes de fréquences nous sont attribuées en priorité et d'autres de manière secondaire
+* *Primaire* signifie que nous avons la priorité sur les autres services de radiocommunication et que nous ne devons pas accepter les perturbations de leur part
+* *Secondaire* signifie que nous, en tant que radioamateurs, ne devons pas perturber les autres services de radiocommunication et devons accepter les perturbations de leur part
+* Le statut est indiqué dans la colonne 3 de l'annexe 1 de l'AFuV par P et S
 
 ---
 [question:VD704]
@@ -11,43 +11,43 @@ Einige Frequenzbereiche sind uns primär und andere sekundär zugewiesen
 [question:VD706]
 ---
 
-## Zuweisungen in anderen Ländern
+## Attributions dans d'autres pays
 
-* Die primären und sekundären Zuweisungen können in anderen Ländern abweichen
-* Vor der Betriebsaufnahme über die Bestimmungen im Gastland informieren!
+* Les attributions primaires et secondaires peuvent différer dans d'autres pays
+* Avant de commencer l'exploitation, informez-vous des réglementations dans le pays d'accueil !
 
 ---
 
-## Seefunkdienst
+## Service de radiocommunication maritime
 
-* Das $\qty{80}{\meter}$-Band ist dem Amateurfunk primär zugeordnet
-* Küstenfunkstellen des Seefunkdienstes haben dennoch Vorrang
-* Grund: Feste Frequenz zugeteilt
+* La bande des $\qty{80}{\meter}$ est attribuée en priorité au radioamateur
+* Les stations côtières du service de radiocommunication maritime ont néanmoins la priorité
+* Raison : Fréquence fixe attribuée
 
 <note>
-* Praktisch wird dank Satellitenfunk kaum noch Küstenfunk auf 80m betrieben
-* Ziviler Küstenfunkdienst ist am 31.12.1998 in Deutschland eingestellt worden
-* Es gibt noch militärische Küstenfunkstellen
+* En pratique, grâce à la radiocommunication par satellite, le radiocommunication côtière sur 80m est rarement utilisée
+* Le service de radiocommunication côtière civile a été arrêté en Allemagne le 31.12.1998
+* Il existe encore des stations côtières militaires
 </note>
 ---
 [question:VD707]
 ---
 
-## ISM-Bereich
+## Domaine ISM
 
 <left>
 * "*I*ndustrial, *S*cientific and *M*edical Band"
-* Teilbereich des $\qty{70}{\centi\meter}$-Amateurfunkbandes
-* Viele Haushaltsgeräte nutzen dieses
-* Störungen im Amateurfunk müssen trotz primärer Zuweisung hingenommen werden
+* Sous-domaine de la bande de $\qty{70}{\centi\meter}$ du radioamateur
+* De nombreux appareils ménagers utilisent cette bande
+* Les perturbations dans le radioamateur doivent être acceptées malgré l'attribution primaire
 </left>
 
 <right>
-  * Garagentoröffner
-  * Funkwetterstationen
-  * Autoschlüssel
-  * Wegfahrsperren
-  * Reifendrucksensoren
+  * Ouvreurs de porte de garage
+  * Stations météo radio
+  * Clés de voiture
+  * Immobilisateurs
+  * Capteurs de pression des pneus
   * …
 </right>
 

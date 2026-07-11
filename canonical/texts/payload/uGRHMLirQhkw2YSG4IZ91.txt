@@ -2,33 +2,33 @@
 
 [picture:701:4ask:Quaternäre Amplitudenumtastung (Quaternary Amplitude-shift Keying)]
 
-* Viele digitale Modulationsverfahren verwenden mehr als zwei Symbole.
-* So funktioniert zum Beispiel die 4-Fach-Amplitudenumtastung (4ASK) mit vier unterschiedlichen Amplituden, $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$, $\qty{100}{\percent}$ des Maximums.
-* So lassen sich zwei Bits zu einem Symbol zusammenfassen und gleichzeitig übertragen.
+* De nombreux procédés de modulation numérique utilisent plus de deux symboles.
+* Par exemple, la modulation d'amplitude à quatre niveaux (4ASK) fonctionne avec quatre amplitudes différentes, $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$, $\qty{100}{\percent}$ du maximum.
+* Ainsi, deux bits peuvent être combinés en un symbole et transmis simultanément.
 
 ---
 
-* Dieses Prinzip lässt sich auf die Frequenz- und Phasenumtastung übertragen.
-* Eine einfache Phasenumtastung (Binary Phase-Shift Keying, BPSK) verwendet nur zwei verschiedene Phasenlagen und kann daher nur ein Bit gleichzeitig senden.
-* Die Quadraturphasenumtastung (Quadrature Phase-Shift Keying, QPSK) hingegen nutzt vier verschiedene Phasenlagen ($\qty{0}{\degree}$, $\qty{90}{\degree}$, $\qty{180}{\degree}$ und $\qty{270}{\degree}$) und überträgt somit zwei Bits in jedem Schritt.
+* Ce principe peut être appliqué à la modulation de fréquence et de phase.
+* Une simple modulation de phase (Binary Phase-Shift Keying, BPSK) n'utilise que deux positions de phase différentes et ne peut donc envoyer qu'un bit à la fois.
+* La modulation de phase en quadrature (Quadrature Phase-Shift Keying, QPSK), en revanche, utilise quatre positions de phase différentes ($\qty{0}{\degree}$, $\qty{90}{\degree}$, $\qty{180}{\degree}$ et $\qty{270}{\degree}$) et transmet ainsi deux bits à chaque étape.
 
 ---
 [question:AE402]
 
 ---
 
-* Da bei Verfahren wie QPSK mehr als ein Bit pro Symbol übertragen wird, müssen wir mit den Einheiten aufpassen.
-* Werden nur zwei Symbole verwendet und somit jedes Bit einzeln gesendet, entspricht die Symbolrate in Baud der Datenrate in $\unit{\bit\per\second}$.
-* Werden jedoch mehr Symbole verwendet und somit mehrere Bits gleichzeitig übertragen, ist die Datenrate höher als die Symbolrate.
+* Comme dans les procédés tels que QPSK, plus d'un bit est transmis par symbole, nous devons faire attention aux unités.
+* Si seulement deux symboles sont utilisés et donc chaque bit est envoyé individuellement, le débit de symboles en bauds correspond au débit de données en $\unit{\bit\per\second}$.
+* Si, en revanche, plus de symboles sont utilisés et donc plusieurs bits sont transmis simultanément, le débit de données est supérieur au débit de symboles.
 
 ---
 
-* Die Formel $C = R_{ s } \cdot n$ stellt den Zusammenhang dar:
+* La formule $C = R_{ s } \cdot n$ représente la relation:
 
 <fragment>
-* $C$ → Datenübertragungsrate in $\unit{\bit\per\second}$
-* $R_{ s }$ → Symbolrate in $\unit{\baud}$
-* $n$ → Symbolgröße in $\unit{\bit\per\text{Symbol}}$
+* $C$ → Débit de transmission de données en $\unit{\bit\per\second}$
+* $R_{ s }$ → Débit de symboles en $\unit{\baud}$
+* $n$ → Taille du symbole en $\unit{\bit\per\text{Symbol}}$
 </fragment>
 
 ---
@@ -36,25 +36,25 @@
 
 ---
 
-Beispiele:
+Exemples:
 
 <fragment>
-*RTTY*: Umschaltung zwischen zwei Symbolfrequenzen, sodass pro Symbol ein Bit ($\num{0}$ oder $\num{1}$) übertragen werden kann.
-→ Datenrate = Symbolrate
+*RTTY*: Commutation entre deux fréquences de symboles, de sorte qu'un bit ($\num{0}$ ou $\num{1}$) peut être transmis par symbole.
+→ Débit de données = Débit de symboles
 </fragment>
 
 <fragment>
-*FT4*: Umschaltung zwischen vier Symbolfrequenzen, so dass pro Symbol zwei Bit ($\num{00}$, $\num{01}$, $\num{10}$ oder $\num{11}$) übertragen werden können.
-→ Datenrate = 2 $\cdot$ Symbolrate
+*FT4*: Commutation entre quatre fréquences de symboles, de sorte que deux bits ($\num{00}$, $\num{01}$, $\num{10}$ ou $\num{11}$) peuvent être transmis par symbole.
+→ Débit de données = 2 $\cdot$ Débit de symboles
 </fragment>
 
 ---
 [question:AE405]
 ---
-#### Lösungsweg
-* gegeben: $R_S = \qty{45,45}{\baud}$
-* gegeben: $n=\qty{1}{\bit\per\text{Symbol}}$
-* gesucht: $C$
+#### Méthode de solution
+* donné : $R_S = \qty{45,45}{\baud}$
+* donné : $n=\qty{1}{\bit\per\text{Symbol}}$
+* recherché : $C$
 
 <fragment>
 $C = R_S \cdot n = \qty{45,45}{\baud} \cdot \qty{1}{\bit\per\text{Symbol}} = \qty{45,45}{\bit\per\second}$
@@ -63,10 +63,10 @@ $C = R_S \cdot n = \qty{45,45}{\baud} \cdot \qty{1}{\bit\per\text{Symbol}} = \qt
 ---
 [question:AE406]
 ---
-#### Lösungsweg
-* gegeben: $R_S = \qty{23,4}{\baud}$
-* gegeben: $n=\qty{2}{\bit\per\text{Symbol}}$
-* gesucht: $C$
+#### Méthode de solution
+* donné : $R_S = \qty{23,4}{\baud}$
+* donné : $n=\qty{2}{\bit\per\text{Symbol}}$
+* recherché : $C$
 
 <fragment>
 $C = R_S \cdot n = \qty{23,4}{\baud} \cdot \qty{2}{\bit\per\text{Symbol}} = \qty{46,8}{\bit\per\second}$

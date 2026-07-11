@@ -1,21 +1,21 @@
 ---
 
-Mit einem *Logbuch* hat man die Möglichkeit, seine Funkaktivitäten zu dokumentieren. Ein Logbuch kann man entweder elektronisch oder auch handschriftlich führen. Ähnlich wie bei einem Logbuch auf dem Schiff oder in einem Flugzeug kann man so alle wichtigen Informationen zu den Funkverbindungen festhalten, die man getätigt hat. Seltener wird das Logbuch auch als Stationstagebuch bezeichnet.
+Avec un *journal de bord*, on a la possibilité de documenter ses activités radio. Un journal de bord peut être tenu soit électroniquement, soit à la main. De manière similaire à un journal de bord sur un navire ou dans un avion, on peut ainsi consigner toutes les informations importantes concernant les liaisons radio que l'on a établies. Plus rarement, le journal de bord est également désigné comme un journal de station.
 
 <indepth>
-Folgende Daten werden üblicherweise in einem Logbuch für jede Funkverbindung festgehalten:
-* Rufzeichen der Gegenstation
-* Frequenz oder Band
-* Datum und Uhrzeit
-* Übertragungsverfahren (z. B. SSB, FT8, RTTY, ...)
-* Vergebener und erhaltener Rapport
-* Verwendete Sendeleistung
-* Bemerkungen (z.B. Name des QSO-Partners oder eigene verwendete Station)
+Les données suivantes sont généralement consignées dans un journal de bord pour chaque liaison radio:
+* Indicatif de l'autre station
+* Fréquence ou bande
+* Date et heure
+* Procédure de transmission (par exemple, SSB, FT8, RTTY, ...)
+* Rapport attribué et reçu
+* Puissance d'émission utilisée
+* Remarques (par exemple, nom du partenaire de QSO ou station utilisée)
 </indepth>
 
 ---
 
-Viele Funkamateure führen freiwillig ein Logbuch. Es kann aber auch dazu kommen, dass man eine Aufforderung der Bundesnetzagentur erhält, die einen verpflichtet, ein Logbuch zu führen, beispielsweise um Störungsursachen zu ermitteln oder frequenztechnische Fragen zu klären.
+De nombreux radioamateurs tiennent volontairement un journal de bord. Il peut également arriver que l'on reçoive une demande de la part de l'Agence fédérale des réseaux, qui nous oblige à tenir un journal de bord, par exemple pour déterminer les causes des perturbations ou pour clarifier les questions techniques relatives aux fréquences.
 
 [question:BG101]
 [question:VD109]
@@ -23,20 +23,20 @@ Viele Funkamateure führen freiwillig ein Logbuch. Es kann aber auch dazu kommen
 [question:VN022]
 [question:VN023]
 
-Wenn die Logbuchführung angeordnet wurde, dann ist darauf zu achten, das Logbuch so zu führen, dass es auch wirklich später einsehbar ist, und zwar unabhängig davon, wie das Logbuch geführt wird. Das ist vor allem auch dann zu beachten, wenn man die Art und Weise der Logbuchführung ändert.
+Si la tenue du journal de bord a été ordonnée, il est alors nécessaire de tenir le journal de bord de manière à ce qu'il soit également consultable ultérieurement, et ce, indépendamment de la manière dont le journal de bord est tenu. Cela doit être pris en compte en particulier lorsque l'on change la manière de tenir le journal de bord.
 
 <tip>
-Jedes DARC-Mitglied kann die Vorzüge eines elektronischen, webbasierten Logbuchs – auf Basis von [Wavelog](https://50ohm.de/wl) – von überall unter [log.darc.de](https://50ohm.de/log) nutzen. Das Angebot umfasst die Möglichkeit, seine QSOs dort zu loggen, zu analysieren und auch mit Drittanbietern wie eQSL, LoTW, QRZ und dem DCL zu synchronisieren. Eine Anleitung findest du in diesem [Video](https://50ohm.de/wlv).
+Chaque membre du DARC peut utiliser les avantages d'un journal de bord électronique, basé sur [Wavelog](https://50ohm.de/wl), de n'importe où sous [log.darc.de](https://50ohm.de/log). L'offre comprend la possibilité d'y enregistrer ses QSOs, de les analyser et également de les synchroniser avec des tiers tels que eQSL, LoTW, QRZ et le DCL. Vous trouverez un guide dans cette [vidéo](https://50ohm.de/wlv).
 
-[Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+[Devenez membre du DARC!](https://50ohm.de/mw)
 </tip>
 
 ---
 
-Wechselt man beispielsweise von einem handschriftlich auf Papier geführten Logbuch zu einem elektronisch per Computer geführtem Logbuch, dann muss man das alte Papier-Logbuch trotzdem aufheben. Genauso andersherum: Wechselt man vom Computer auf Papier, muss der Computer mit der entsprechenden Software weiter vorgehalten werden oder das Logbuch muss ausgedruckt werden. Entsprechend ist auch beim Wechsel der Logbuch-Software zu verfahren. Die alte Software muss weiter verfügbar sein oder das bestehende Logbuch muss in die neue Software übertragen werden.
+Par exemple, si l'on passe d'un journal de bord tenu à la main sur papier à un journal de bord tenu électroniquement par ordinateur, il faut conserver le vieux journal de bord papier. De même, si l'on passe de l'ordinateur au papier, l'ordinateur avec le logiciel correspondant doit continuer à être disponible ou le journal de bord doit être imprimé. Il en va de même pour le changement de logiciel de journal de bord. Le vieux logiciel doit continuer à être disponible ou le journal de bord existant doit être transféré dans le nouveau logiciel.
 
 <tip>
-*Praxis-Tipp:* Mit dem ADIF-Dateiformat ist es leicht möglich eine Logdatei von einer Logbuch-Software auf eine andere zu übertragen. Genauso kann man so ein Logbuch von einem Computer auf einen anderen überspielen.
+*Astuce pratique:* Avec le format de fichier ADIF, il est facile de transférer un fichier journal d'une application de journal de bord à une autre. De même, on peut ainsi transférer un journal de bord d'un ordinateur à un autre.
 </tip>
 
 [question:BG102]
@@ -44,15 +44,15 @@ Wechselt man beispielsweise von einem handschriftlich auf Papier geführten Logb
 
 ---
 
-Zeiten sollten im Logbuch immer in der koordinierten Weltzeit eingetragen werden, die meist als *UTC* (von Universal Time Coordinated) bezeichnet wird. Das dient dazu, dass die Uhrzeit bei Funkverbindungen über unterschiedliche Zeitzonen hinweg nicht umgerechnet werden muss. Wenn es beispielsweise in Berlin 8:00 Uhr Ortszeit ist, dann ist es in New York erst 2:00 Uhr Ortszeit. Für beide ist es aber 07:00 UTC. Mit der UTC ist überall auf der Welt immer die gleiche Zeit.
+Les heures doivent toujours être enregistrées dans le journal de bord en temps universel coordonné, généralement désigné par *UTC* (Universal Time Coordinated). Cela permet d'éviter d'avoir à convertir l'heure lors des liaisons radio à travers différentes zones horaires. Si, par exemple, il est 8h00 heure locale à Berlin, il n'est que 2h00 heure locale à New York. Mais pour les deux, il est 07:00 UTC. Avec l'UTC, il est toujours la même heure partout dans le monde.
 
 <indepth>
-Im Jahre 1972 wurde die UTC als universelle und weltweit einheitliche Uhrzeit eingeführt.
+En 1972, l'UTC a été introduite comme heure universelle et uniformisée dans le monde entier.
 </indepth>
 
-Wie unsere Ortszeit in UTC umgerechnet wird, hängt davon ab, ob gerade Sommerzeit ist. Während der Winterzeit gilt bei uns die *Mitteleuropäische Zeit (MEZ)*. Um diese in UTC umzurechnen, muss man eine Stunde abziehen. Wenn im Sommer die *Mitteleuropäische Sommerzeit (MESZ)* verwendet wird, müssen jedoch 2 Stunden abgezogen werden.
+La manière dont notre heure locale est convertie en UTC dépend du fait que l'heure d'été est en vigueur. Pendant l'heure d'hiver, l'heure d'Europe centrale (HEC) est en vigueur chez nous. Pour la convertir en UTC, il faut soustraire une heure. Si, en été, l'heure d'été d'Europe centrale (HEC) est utilisée, il faut cependant soustraire 2 heures.
 
-Ein Beispiel: In Berlin ist es ist 9:00 MEZ. Um dies in UTC umzurechnen, muss eine Stunde abgezogen werden. Es ist also 08:00 UTC. Wenn es jedoch 9:00 MESZ in Berlin ist, dann müssen zwei Stunden abgezogen werden. Es ist dann also 7:00 UTC. Um andersherum die UTC in Ortszeit umzurechnen, muss man eine Stunde (MEZ) bzw. zwei Stunden (MESZ) dazuzählen.
+Exemple : Il est 9h00 HEC à Berlin. Pour le convertir en UTC, il faut soustraire une heure. Il est donc 08:00 UTC. Mais si il est 9h00 HEC à Berlin, il faut alors soustraire deux heures. Il est alors 7h00 UTC. Pour convertir l'UTC en heure locale, il faut ajouter une heure (HEC) ou deux heures (HEC).
 
 
 [question:BG106]

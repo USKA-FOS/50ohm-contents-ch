@@ -1,43 +1,43 @@
-* Welche Datenübertragungsrate erreichbar ist, hängt von der nutzbaren Bandbreite und dem Signal-Rauschverhältnis ab.
-* Aus diesen beiden Größen kann mit dem Shannon-Hartley-Gesetz die theoretisch maximal erreichbare Datenübertragungsrate für einen Übertragungskanal berechnet werden.
-* Ein leicht zu merkender Wert stellt sich bei einem Signal-Rausch-Verhältnis von $\qty{0}{\dB}$ ein.
-* Hier entspricht die Bandbreite in Hertz genau der maximal erreichbaren Datenrate in $\unit{\bit\per\second}$.
+* Le débit de transmission de données atteignable dépend de la bande passante utilisable et du rapport signal / bruit.
+* Ces deux grandeurs permettent de calculer, avec la loi de Shannon-Hartley, le débit de transmission de données théoriquement maximal atteignable pour un canal de transmission.
+* Une valeur facile à retenir se présente pour un rapport signal / bruit de $\qty{0}{\dB}$.
+* Ici, la bande passante en hertz correspond exactement au débit de données maximal atteignable en $\unit{\bit\per\second}$.
 
 ---
 [question:AE416]
 
 ---
 
-* Schlechtere Signal-Rausch-Verhältnisse ermöglichen entsprechend weniger Datenrate, bessere Signal-Rausch-Verhältnisse größere Datenraten.
-* Da die Rechnungen dazu recht komplex sind, wurden die Prüfungsfragen so gestaltet, dass man das Ergebnis leicht abschätzen kann.
+* Des rapports signal / bruit moins bons permettent un débit de données moins élevé, des rapports signal / bruit meilleurs permettent des débits de données plus élevés.
+* Comme les calculs sont assez complexes, les questions d'examen ont été conçues de manière à pouvoir estimer facilement le résultat.
 
 ---
 [question:AE417]
 ---
-#### Lösungsweg
+#### Solution
 
-Durch ein SNR von $\qty{0}{\dB}$ entspricht die Bandbreite in $\unit{\hertz}$ genau der maximal erreichbaren Datenrate in $\unit{\bit\per\second}$, also $\qty{2,7}{\kilo\bit\per\second}$.
+Un SNR de $\qty{0}{\dB}$ correspond à la bande passante en $\unit{\hertz}$ exactement au débit de données maximal atteignable en $\unit{\bit\per\second}$, soit $\qty{2,7}{\kilo\bit\per\second}$.
 
 ---
 [question:AE418]
 ---
-#### Lösungsweg
+#### Solution
 
-Durch ein SNR von $\qty{0}{\dB}$ entspricht die Bandbreite in $\unit{\hertz}$ genau der maximal erreichbaren Datenrate in $\unit{\bit\per\second}$, also $\qty{10}{\mega\bit\per\second}$.
+Un SNR de $\qty{0}{\dB}$ correspond à la bande passante en $\unit{\hertz}$ exactement au débit de données maximal atteignable en $\unit{\bit\per\second}$, soit $\qty{10}{\mega\bit\per\second}$.
 
 ---
 [question:AE420]
 ---
-#### Lösungsweg
+#### Solution
 
-Durch ein SNR von $\qty{-20}{\dB}$ muss die maximal erreichbare Datenrate kleiner als $\qty{2,7}{\kilo\bit\per\second}$ sein. Es kann nur $\qty{39}{\bit\per\second}$ richtig sein.
+Un SNR de $\qty{-20}{\dB}$ doit être inférieur à $\qty{2,7}{\kilo\bit\per\second}$. Seule $\qty{39}{\bit\per\second}$ peut être correcte.
 
 ---
 [question:AE419]
 ---
 
-#### Lösungsweg
+#### Solution
 
-Durch ein SNR von $\qty{30}{\dB}$ muss die maximal erreichbare Datenrate größer $\qty{10}{\mega\bit\per\second}$ sein. Es kann nur $\qty{100}{\mega\bit\per\second}$ richtig sein.
+Un SNR de $\qty{30}{\dB}$ doit être supérieur à $\qty{10}{\mega\bit\per\second}$. Seule $\qty{100}{\mega\bit\per\second}$ peut être correcte.
 
 

@@ -1,15 +1,15 @@
-Um früher in Amateurfunk-Mehrbandsendern nicht für jeden Frequenzbereich einzelne Oszillatoren bauen und abstimmen zu müssen, verwendete man das Prinzip der Frequenzvervielfachung. Hierbei wurde ein stabiler Oszillator auf der Frequenz des niedrigsten Bandes (z.B. $\qty{3,5}{\mega\hertz}$) betrieben, dessen Ausgangssignal dann anschließend mittels Frequenzvervielfachern auf die jeweils gewünschten Amateurfunkbänder umgesetzt wurde. Hierbei ist es von Vorteil, dass die einzelnen Frequenzbänder zueinander in festen Verhältnissen stehen (z.B. $\qty{3,5}{\mega\hertz}$, $\qty{7}{\mega\hertz}$, $\qty{14}{\mega\hertz}$ usw.) und meist ganzzahlige Vielfache des niedrigsten Bandes sind. Hierdurch fallen auch Oberwellen wieder in einen Amateurfunkbereich, was seitens der Regulierungsbehörden durchaus gewünscht ist, um Störungen anderer Dienste durch Oberwellen zu vermeiden. Generell kann man Oszillatoren auf niedrigen Frequenzen mit höherer Stabilität einfacher konstruieren und bauen als auf hohen Frequenzen. 
+Pour éviter d'avoir à construire et à accorder des oscillateurs individuels pour chaque bande de fréquences dans les anciens émetteurs radioamateurs multibandes, on utilisait le principe de la multiplication de fréquence. Ici, un oscillateur stable était exploité à la fréquence de la bande la plus basse (par exemple, $\qty{3,5}{\mega\hertz}$), dont le signal de sortie était ensuite converti en utilisant des multiplicateurs de fréquence pour obtenir les bandes radioamateurs souhaitées. Il est avantageux que les différentes bandes de fréquences soient dans des rapports fixes les unes par rapport aux autres (par exemple, $\qty{3,5}{\mega\hertz}$, $\qty{7}{\mega\hertz}$, $\qty{14}{\mega\hertz}$, etc.) et soient généralement des multiples entiers de la bande la plus basse. Ainsi, les harmoniques supérieures tombent également dans une bande radioamateur, ce qui est souhaité par les autorités de régulation pour éviter les perturbations d'autres services par les harmoniques supérieures. En général, on peut construire des oscillateurs sur des fréquences basses avec une stabilité plus élevée plus facilement que sur des fréquences élevées. 
 
 ---
 
-Abbildung [ref:n_f_vervielfacher] zeigt das Blockschaltbild eines Frequenzvervielfachers mit dem Faktor $2$ bei dem die Eingangsfrequenz von $\qty{3,5}{\mega\hertz}$ auf $\qty{7}{\mega\hertz}$ angehoben wird. Ein Frequenzvervielfacher wird dabei typischerweise durch eine Nichtlinearität (z. B. Diode) erzeugt, die gezielt Oberwellen des Eingangssignals erzeugt, aus denen anschließend mit einem Bandpassfilter die gewünschte Vielfachfrequenz ausgewählt wird.
+La figure [ref:n_f_vervielfacher] montre le schéma bloc d'un multiplicateur de fréquence avec un facteur de 2, où la fréquence d'entrée de $\qty{3,5}{\mega\hertz}$ est élevée à $\qty{7}{\mega\hertz}$. Un multiplicateur de fréquence est typiquement généré par une non-linéarité (par exemple, une diode) qui produit intentionnellement des harmoniques du signal d'entrée, à partir desquelles la fréquence de multiplication souhaitée est ensuite sélectionnée avec un filtre passe-bande.
 
 <margin>
-[picture:1042:n_f_vervielfacher:Blockschaltbild eines Frequenzvervielfachers]
+[picture:1042:n_f_vervielfacher:Schéma bloc d'un multiplicateur de fréquence]
 </margin>
 
-Häufig verwendet man eine Kette von Frequenzvervielfachern, um die gewünschten Multiplikationsfaktoren zu erreichen. Hierbei werden bei Reihenschaltung von Vervielfachern die einzelnen Faktoren miteinander multipliziert.
-Umgekehrt kann eine solche Schaltung natürlich auch rückgerechnet werden. Hierbei muss durch die entsprechenden Teilfaktoren dann dividiert werden.
+Souvent, on utilise une chaîne de multiplicateurs de fréquence pour atteindre les facteurs de multiplication souhaités. Dans ce cas, lors de la connexion en série de multiplicateurs, les facteurs individuels sont multipliés entre eux.
+Inversement, un tel circuit peut bien sûr aussi être calculé à l'envers. Ici, il faut alors diviser par les facteurs partiels correspondants.
 
 [question:EF303]
 [question:EF302]

@@ -1,24 +1,24 @@
 
-% du kennst die zeitdarstellung
-% du kennst die frequenzdarstellung
-% fourier hat sich damit beschaeftigt wie man vom einen zum anderen kommt
-% das zeitliche signal wir analysiert dahingehend wie "stark" welche sinusfrequenz enhalten ist
-% zusammenfassung: jedes signal laesst sich in eine menge von sinusförmigen schwingungen aufteilen
-% phase nicht vergessen
+% tu connais la représentation temporelle
+% tu connais la représentation fréquentielle
+% Fourier s'est intéressé à la manière de passer de l'une à l'autre
+% le signal temporel est analysé pour déterminer l'intensité des différentes fréquences sinusoïdales qu'il contient
+% résumé : tout signal peut être décomposé en une série d'oscillations sinusoïdales
+% n'oubliez pas la phase
 
-Kommen wir nun zu einem spannenden Thema, das komplizierter klingt, als es eigentlich ist. Man kann Signale auf verschiedene Arten und Weisen darstellen. Bekannt sein dürfte die Darstellung eines Signals im Zeitbereich. Hierbei wird auf der X-Achse die Zeit und auf der Y-Achse ein Spannungs- oder Leistungswert dargestellt.
+Passons maintenant à un sujet passionnant, qui semble plus compliqué qu'il ne l'est en réalité. Les signaux peuvent être représentés de différentes manières. La représentation d'un signal dans le domaine temporel devrait être connue. Dans ce cas, le temps est représenté sur l'axe des X et une valeur de tension ou de puissance sur l'axe des Y.
 
-Wusstest du, dass sich jedes Signal aus einzelnen Sinus-Schwingungen zusammensetzen lässt? Das klingt verrückt, aber so ist es. Jedes Signal kann durch eine Überlagerung von reinen Sinus-Schwingungen, die eine bestimmte Amplitude und Phase haben, beschrieben werden.
+Saviez-vous que tout signal peut être composé de sinusoïdes individuelles ? Cela semble fou, mais c'est ainsi. Tout signal peut être décrit par une superposition de sinusoïdes pures ayant une amplitude et une phase déterminées.
 
-Die Fourier-Transformation ist eine mathematisch komplexe Funktion (die wir hier nicht näher erklären wollen), die ein Signal, das im Zeitbereich vorliegt, analysiert und im Anschluss darstellt, aus welchen einzelnen Sinus-Schwingungen sich das Signal aufbaut. Anschließend kann diese Information in einem Diagramm im Frequenzbereich oder auch Frequenzspektrum dargestellt werden. Hierbei beschreibt die X-Achse nun die Frequenz und die Y-Achse den Spannungswert oder auch Leistungswert der enthaltenen Frequenz im Ausgangssignal. Ein reines sinusförmiges Signal einer festen Frequenz stellt somit, im Frequenzspektrum dargestellt, einen Strich bei dessen Frequenz dar.
+La transformée de Fourier est une fonction mathématique complexe (que nous ne voulons pas expliquer ici) qui analyse un signal présent dans le domaine temporel et représente ensuite les sinusoïdes individuelles dont le signal est composé. Cette information peut ensuite être représentée dans un diagramme dans le domaine des fréquences ou également dans le spectre des fréquences. Dans ce cas, l'axe des X décrit maintenant la fréquence et l'axe des Y la valeur de tension ou de puissance de la fréquence contenue dans le signal de sortie. Un signal sinusoïdal pur d'une fréquence fixe représente donc, dans le spectre des fréquences, une ligne à sa fréquence.
 
-Die Fourier-Transformation (auch diskrete Fourier-Transformation kurz DFT benannt) ist in Ihrer ursprünglichen Form eine mathematisch aufwändige und komplexe Funktion. Diese ist in Software nur sehr ineffizient abzubilden. Über die Zeit hat man eine wesentlich effizientere Methode gefunden, diese mathematisch komplexe Funktion auf einfachere Art und Weise abzubilden - die Fast-Fourier-Transformation oder auch FFT genannt. Hiermit wird deren Berechnung, insbesondere in Soft- und Hardware, wesentlich vereinfacht.
+La transformée de Fourier (également appelée transformée de Fourier discrète ou DFT) est, dans sa forme originale, une fonction mathématique complexe et coûteuse. Celle-ci ne peut être représentée de manière très inefficace dans un logiciel. Au fil du temps, on a trouvé une méthode beaucoup plus efficace pour représenter cette fonction mathématique complexe de manière plus simple - la transformée de Fourier rapide ou également appelée FFT. Cela simplifie considérablement son calcul, en particulier dans les logiciels et le matériel.
 
 
 
 [question:AF630]
 
-Wir erinnern uns, dass Signale, die sehr eckig und kantig sind, höhere Frequenzanteile (sog. Oberschwingungen) enthalten. Sieht man sich ein solches Signal, beispielsweise ein rechteckiges Signal, nun im Frequenzbereich an, so fällt auf, dass dieses aus einem starken Sinus-Signal bei dessen Grundschwingung besteht als auch mehreren, immer schwächer werdenden Sinus-Signalen bei ungeradzahligen Vielfachen der Grundfrequenz. Dies ist im Übrigen auch der Grund, warum man Rechteck-Signale keinesfalls auf eine Antenne geben darf, bevor diese nicht ein Tiefpassfilter durchlaufen haben. Das Tiefpassfilter sorgt in diesem Fall dafür, dass höhere Signalanteile unterdrückt werden und an dessen Ausgang nur noch die Grundschwingung in Form eines Sinus-Signals austritt. Würde man das Rechtecksignal direkt auf die Antenne geben, so wäre eine Aussendung auf allen ungradzahligen Vielfachen der Grundfrequenz zu empfangen und würde sicherlich andere Funkdienste massiv stören.
+Nous nous souvenons que les signaux qui sont très anguleux et pointus contiennent des composantes de fréquence plus élevées (appelées harmoniques). Si l'on regarde un tel signal, par exemple un signal rectangulaire, dans le domaine des fréquences, on remarque qu'il est constitué d'un fort signal sinusoïdal à sa fréquence fondamentale ainsi que de plusieurs signaux sinusoïdaux de plus en plus faibles à des multiples impairs de la fréquence fondamentale. C'est d'ailleurs la raison pour laquelle on ne doit en aucun cas appliquer des signaux rectangulaires à une antenne avant qu'ils n'aient traversé un filtre passe-bas. Le filtre passe-bas sert dans ce cas à supprimer les composantes de signal plus élevées et à ne laisser sortir à sa sortie que la fondamentale sous forme de signal sinusoïdal. Si l'on appliquait directement le signal rectangulaire à l'antenne, une émission serait reçue sur tous les multiples impairs de la fréquence fondamentale et perturberait certainement massivement d'autres services radio.
 
 [question:AB404]
 [question:AB405]

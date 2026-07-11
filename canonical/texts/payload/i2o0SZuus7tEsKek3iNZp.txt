@@ -1,74 +1,74 @@
 ### 1. Antenne
 
 <left>
-[picture:736:aufbau_empfaenger_blockdiagramm:Blockdiagramm eines einfachen Empfängers]
+[picture:736:aufbau_empfaenger_blockdiagramm:diagramme en blocs d'un récepteur simple]
 </left>
 <right>
-* Nimmt Vielzahl von Funkwellen auf
-* Leitet sie als elektrische Schwingungen weiter
+* Capte une variété d'ondes radio
+* Les transmet sous forme d'oscillations électriques
 </right>
 
 --- data-transition="none"
 
-### 2. Bandpassfilter
+### 2. Filtre passe-bande
 
 <left>
-[picture:736:aufbau_empfaenger_blockdiagramm:Blockdiagramm eines einfachen Empfängers]
+[picture:736:aufbau_empfaenger_blockdiagramm:diagramme en blocs d'un récepteur simple]
 </left>
 <right>
-* Lässt nur gewünschten Frequenzbereich durch
-* Sperrt alle anderen ungewünschten Frequenzen
+* Laisse passer uniquement la bande de fréquences souhaitée
+* Bloque toutes les autres fréquences indésirables
 </right>
 
 <note>
-Symbol zeigt zwei durchgestrichene Wellen ober- und unterhalb der durchlassenden Welle
+Le symbole montre deux ondes barrées au-dessus et en dessous de l'onde passant
 </note>
 
 --- data-transition="none"
 
-### 3. HF-Verstärker
+### 3. Amplificateur HF
 
 <left>
-[picture:736:aufbau_empfaenger_blockdiagramm:Blockdiagramm eines einfachen Empfängers]
+[picture:736:aufbau_empfaenger_blockdiagramm:diagramme en blocs d'un récepteur simple]
 </left>
 <right>
-* Verstärkt das herausgefilterte Signal
+* Amplifie le signal filtré
 </right>
 
 --- data-transition="none"
 
-### 4. Demodulator
+### 4. Démodulateur
 
 <left>
-[picture:736:aufbau_empfaenger_blockdiagramm:Blockdiagramm eines einfachen Empfängers]
+[picture:736:aufbau_empfaenger_blockdiagramm:diagramme en blocs d'un récepteur simple]
 </left>
 <right>
-* Zurückgewinnung des ursprünglichen Signals, z.B. Sprachsignal
-* Ergebnis ist das Niederfrequenz-Signal (NF)
+* Récupération du signal d'origine, par exemple un signal vocal
+* Le résultat est le signal basse fréquence (BF)
 </right>
 
 --- data-transition="none"
 
-### 5. NF-Verstärker
+### 5. Amplificateur BF
 
 <left>
-[picture:736:aufbau_empfaenger_blockdiagramm:Blockdiagramm eines einfachen Empfängers]
+[picture:736:aufbau_empfaenger_blockdiagramm:diagramme en blocs d'un récepteur simple]
 </left>
 <right>
-* Verstärkt das demodulierte Signal
-* NF-Verstärker zum Verstärken des Signals für den Lautsprecher
+* Amplifie le signal démodulé
+* Amplificateur BF pour amplifier le signal pour le haut-parleur
 </right>
 
 --- data-transition="none"
 
-### 6. Lautsprecher
+### 6. Haut-parleur
 
 <left>
-[picture:736:aufbau_empfaenger_blockdiagramm:Blockdiagramm eines einfachen Empfängers]
+[picture:736:aufbau_empfaenger_blockdiagramm:diagramme en blocs d'un récepteur simple]
 </left>
 <right>
-* Wandelt elektrische Schwingung in Schallwelle um
-* Signal wird wieder hörbar gemacht
+* Convertit l'oscillation électrique en onde sonore
+* Le signal devient à nouveau audible
 </right>
 
 ---
@@ -76,12 +76,12 @@ Symbol zeigt zwei durchgestrichene Wellen ober- und unterhalb der durchlassenden
 [question:NF201]
 
 ---
-## Empfindlichkeit
+## Sensibilité
 
-* Je nach Aufbau haben Empfänger unterschiedliche Eigenschaften
-* Wichtige Eigenschaft: *Empfindlichkeit*
-* Fähigkeit, schwache Signale zu empfangen
-* Je empfindlicher, umso schwächere Signale können empfangen werden
+* Selon la structure, les récepteurs ont différentes propriétés
+* Propriété importante : *Sensibilité*
+* Capacité à recevoir des signaux faibles
+* Plus le récepteur est sensible, plus les signaux faibles peuvent être reçus
 
 ---
 

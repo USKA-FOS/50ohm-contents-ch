@@ -1,68 +1,68 @@
-## Remote-Betrieb von Funkstationen
+## Exploitation à distance des stations radio
 
-* Besteht aus mehreren Funktionsblöcken  
-* Moderne Geräte integrieren teilweise mehrere Blöcke  
-* Trennung zwischen Operator und Remote-Standort  
+* Composé de plusieurs blocs fonctionnels
+* Les appareils modernes intègrent partiellement plusieurs blocs
+* Séparation entre l'opérateur et le site distant
 
 ---
 
-### Blockschaltbild einer Remote-Station
+### Schéma bloc d'une station à distance
 
 <left>
-[picture:501:a_remotebetrieb:Blockschaltbild Remote Betrieb]
+[picture:501:a_remotebetrieb:Schéma bloc Exploitation à distance]
 </left>
 <right>
-* Logische Darstellung der Funktionsblöcke  
-* Steuerung, Netzwerkverbindung, Remote-Interface  
-* Transceiver und angeschlossene Geräte  
+* Représentation logique des blocs fonctionnels
+* Commande, connexion réseau, interface à distance
+* Émetteur-récepteur et appareils connectés
 </right>
 
 ---
 
-#### Computer und Bedienteil des Operators (Block 1)
+#### Ordinateur et partie de commande de l'opérateur (Bloc 1)
 
 <left>
-[picture:501:a_remotebetrieb:Blockschaltbild Remote Betrieb]
+[picture:501:a_remotebetrieb:Schéma bloc Exploitation à distance]
 </left>
 <right>
-* Wandelt Audio- und Steuersignale in Netzwerkpakete  
-* Empfangene Signale werden hör- und sichtbar gemacht  
+* Convertit les signaux audio et de commande en paquets de réseau
+* Les signaux reçus sont rendus audibles et visibles
 </right>
 
 ---
 
-#### Netzwerk
+#### Réseau
 
 <left>
-[picture:501:a_remotebetrieb:Blockschaltbild Remote Betrieb]
+[picture:501:a_remotebetrieb:Schéma bloc Exploitation à distance]
 </left>
 <right>
-* Verbindet Operator mit Remote-Standort  
-* Nutzung des Internets möglich  
+* Connecte l'opérateur au site distant
+* Utilisation d'Internet possible
 </right>
 
 ---
 
-#### Remote-Interface am Remote-Standort (Block 2)
+#### Interface à distance sur le site distant (Bloc 2)
 
 <left>
-[picture:501:a_remotebetrieb:Blockschaltbild Remote Betrieb]
+[picture:501:a_remotebetrieb:Schéma bloc Exploitation à distance]
 </left>
 <right>
-* Setzt Netzwerkpakete in Steuer- und Audiosignale um  
-* Überträgt empfangene Audiosignale zum Operator zurück  
+* Convertit les paquets de réseau en signaux de commande et audio
+* Transmet les signaux audio reçus en retour à l'opérateur
 </right>
 
 ---
 
-#### Transceiver/Verstärker/Tuner/Antennenrotor (Block 3)
+#### Émetteur-récepteur/Amplificateur/Syntoniseur/Rotateur d'antenne (Bloc 3)
 
 <left>
-[picture:501:a_remotebetrieb:Blockschaltbild Remote Betrieb]
+[picture:501:a_remotebetrieb:Schéma bloc Exploitation à distance]
 </left>
 <right>
-* Werden über das Remote-Interface gesteuert  
-* Rückmeldung der Steuerbefehle erfolgt über das Netzwerk  
+* Sont commandés via l'interface à distance
+* Le retour des commandes de contrôle se fait via le réseau
 </right>
 
 ---
@@ -87,11 +87,11 @@
 
 ---
 
-### Verzögerungen im Remote-Betrieb
+### Retards dans l'exploitation à distance
 
-* Netzwerk- und Verarbeitungszeiten führen zu Latenzen  
-* Codierung und Decodierung von Audiosignalen verursachen Verzögerungen  
-* Muss beim Funkbetrieb berücksichtigt werden  
+* Les temps de réseau et de traitement entraînent des latences
+* Le codage et le décodage des signaux audio provoquent des retards
+* Doit être pris en compte lors de l'exploitation radio
 
 ---
 
@@ -103,11 +103,11 @@
 
 ---
 
-### Watchdog zur Überwachung der Remote-Station
+### Watchdog pour la surveillance de la station à distance
 
-* Verhindert unkontrollierten Zustand bei Verbindungsabbruch  
-* Regelmäßiger Austausch von Datenpaketen zwischen Station und Operator  
-* Bei fehlender Rückantwort wechselt der Transceiver in sicheren Zustand  
+* Empêche un état incontrôlable en cas de rupture de connexion
+* Échange régulier de paquets de données entre la station et l'opérateur
+* En cas de réponse manquante, l'émetteur-récepteur passe en état sûr
 
 ---
 
@@ -115,11 +115,11 @@
 
 ---
 
-### Fernabschaltung der Stromversorgung
+### Déconnexion à distance de l'alimentation électrique
 
-* Transceiver kann in einen undefinierten Zustand geraten  
-* Versorgungsspannung sollte aus der Ferne abschaltbar sein  
-* Lösung: IP-Steckdose zur Steuerung über das Netzwerk  
+* L'émetteur-récepteur peut passer dans un état indéfini
+* La tension d'alimentation devrait pouvoir être déconnectée à distance
+* Solution : Prise secteur IP pour le contrôle via le réseau
 
 ---
 
@@ -127,10 +127,10 @@
 
 ---
 
-### Störungen durch den Transceiver
+### Perturbations par l'émetteur-récepteur
 
-* Remote-Station kann durch eigene Signale gestört werden  
-* Entsprechende Maßnahmen zur Entstörung erforderlich  
+* La station à distance peut être perturbée par ses propres signaux
+* Des mesures appropriées de suppression des perturbations sont nécessaires
 
 ---
 

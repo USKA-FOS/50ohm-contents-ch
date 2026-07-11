@@ -1,47 +1,47 @@
-Wichtige Messungen für den Funkamateur an Sendern sind Messungen von Ausgangsleistungen an Sendern oder die Messung von HF-Spannungen in HF-Schaltungsteilen.
+Les mesures importantes pour le radioamateur sur les émetteurs sont les mesures des puissances de sortie sur les émetteurs ou la mesure des tensions HF dans les composants de circuits HF.
 
-Bei Messung von Senderausgangsleistungen muss der Sender mit einer definierten Impedanz, die zur Ausgangsimpedanz des Senders passt, abgeschlossen werden. Im Amateurfunk beträgt die übliche Impedanz (Senderabschluss) $\qty{50}{\ohm}$. Der Abschluss kann auch direkt in der Messschaltung erfolgen, was jedoch nur bei kleine Leistungen sinnvoll ist.
+Lors de la mesure des puissances de sortie des émetteurs, l'émetteur doit être terminé par une impédance définie, qui correspond à l'impédance de sortie de l'émetteur. Dans le radioamateur, l'impédance habituelle (terminaison de l'émetteur) est de $\qty{50}{\ohm}$. La terminaison peut également être effectuée directement dans le circuit de mesure, ce qui n'est cependant judicieux que pour les petites puissances.
 
-Die Messung von HF-Spannungen erfolgt mittels eines HF-Tastkopfes über Diodengleichrichtung und anschließende Glättung der entstehenden Gleichspannung mit einem nachgeschalteten Kondensator.
+La mesure des tensions HF est effectuée au moyen d'une sonde HF via une redressement par diode et un lissage ultérieur de la tension continue résultante avec un condensateur monté en aval.
 
-Bei HF-Tastköpfen mit nur einer Diode ist am Messausgang die Spitzenspannung der zugeführten HF-Spannung abzüglich der Forward-Spannung der verwendeten Diode und eines ggf. vorhandenen vorgeschalteten Spannungsteilers messbar.
+Pour les sondes HF avec une seule diode, la tension de crête de la tension HF fournie, moins la tension directe de la diode utilisée et d'un diviseur de tension éventuellement présent en amont, peut être mesurée à la sortie de mesure.
 
 [question:AI608]
 
-Zur Erhöhung der Messgenauigkeit, insbesondere bei kleinen Leistungen im VHF/UHF-Bereich, verwendet man oft eine doppelte Gleichrichtung über 2 Dioden, so dass beide Halbwellen der HF gleichgerichtet werden (Doppelte Spitzenspannung) und, abzüglich 2 mal der Forward-Spannung der verwendeten Dioden, als addierte Messspannung am Messausgang zur Verfügung stehen.
+Pour augmenter la précision de la mesure, en particulier pour les petites puissances dans la plage VHF/UHF, on utilise souvent un double redressement via 2 diodes, de sorte que les deux demi-ondes de la HF sont redressées (double tension de crête) et, moins 2 fois la tension directe des diodes utilisées, sont disponibles comme tension de mesure additionnée à la sortie de mesure.
 
 [question:AI605]
 [question:AI604]
 
-Bei höheren HF-Leistungen muss ein entsprechend belastbares Dämpfungsglied vorgeschaltet werden, das einen Großteil der Senderausgangsleistung, die gemessen werden soll, aufnimmt. Das Dämpfungsglied ist bei der Berechnung der Leistung zu berücksichtigen.
+Pour les puissances HF plus élevées, un atténuateur correspondant doit être monté en amont, qui absorbe une grande partie de la puissance de sortie de l'émetteur qui doit être mesurée. L'atténuateur doit être pris en compte dans le calcul de la puissance.
 
 [question:AI609]
 
-Um Leistungen und HF-Spannungen mit den vorgenannten Schaltungen exakt messen zu können, müssen diese kalibriert werden um entsprechende Korrekturwerte für die Messungen zu erstellen.
+Pour pouvoir mesurer les puissances et les tensions HF avec les circuits mentionnés ci-dessus de manière exacte, ceux-ci doivent être calibrés afin de créer des valeurs de correction correspondantes pour les mesures.
 
 [question:AI612]
 
-Betrachten wir nun die Berechnung der Schaltungen im Detail.
-Ein HF-Tastkopf mit einfacher Gleichrichtung und anschließender Glättung wird wie folgt berechnet:
+Examinons maintenant le calcul des circuits en détail.
+Une sonde HF avec un redressement simple et un lissage ultérieur est calculée comme suit :
 
-Das HF-Eingangssignal wird durch den vorhandenen Widerstand (oder Kombination aus Einzelwiderständen) am Eingang impedanzrichtig abgeschlossen. In der dargestellten Schaltung wird die HF-Spannung durch den nachfolgenden Spannungsteiler halbiert (wobei dieser ebenfalls bzgl. der Impedanz wirksam ist). Anschließend erfolgt die Spitzenwert-Gleichrichtung mittels Diode, deren Ausgangsspannung sich als Spitzenwert abzüglich der Forward-Spannung der Diode berechnet und im nachgeschalteten Kondensator gepuffert wird.
+Le signal d'entrée HF est terminé de manière impédante par la résistance existante (ou combinaison de résistances individuelles) à l'entrée. Dans le circuit représenté, la tension HF est divisée par deux par le diviseur de tension suivant (ce dernier étant également efficace en termes d'impédance). Ensuite, le redressement de la valeur de crête est effectué au moyen d'une diode, dont la tension de sortie est calculée comme la valeur de crête moins la tension directe de la diode et est tamponnée dans le condensateur monté en aval.
 
-Bei $\qty{1}{\watt}$ Eingangsleistung in einem $\qty{50}{\ohm}$-System ergibt sich eine Eingangsspannung von $\qty{7,07}{\volt}$ Effektiv-Spannung und $\qty{10}{\volt}$ Spitzenspannung.
-Der nachgeschaltete Spannungsteiler halbiert diese Spannung auf $\qty{5}{\volt}$ Spitzenspannung, die nach Gleichrichtung durch die Diode abzüglich deren Forward-Spannung von $\qty{0,23}{\volt}$ noch $\qty{4,77}{\volt}$ beträgt. Gemessen werden dann gerundet ca. $\qty{4,8}{\volt}$ am Ausgang der Schaltung.
+Pour une puissance d'entrée de $\qty{1}{\watt}$ dans un système de $\qty{50}{\ohm}$, on obtient une tension d'entrée de $\qty{7,07}{\volt}$ tension efficace et $\qty{10}{\volt}$ tension de crête.
+Le diviseur de tension monté en aval divise cette tension par deux à $\qty{5}{\volt}$ tension de crête, qui, après redressement par la diode, moins sa tension directe de $\qty{0,23}{\volt}$, est encore de $\qty{4,77}{\volt}$. On mesure alors environ $\qty{4,8}{\volt}$ à la sortie du circuit.
 
 [question:AI610]
 
-Umgekehrt kann aus der gemessenen Gleichspannung die der Schaltung zugeführte Leistung berechnet werden.
+Inversement, la puissance fournie au circuit peut être calculée à partir de la tension continue mesurée.
 
-Gemessen werden am Ausgang der Schaltung $\qty{14,9}{\volt}$ Spitzenspannung. Wegen der Forward-Spannung der Diode beträgt der HF-Spitzenwert vor der Diode $\qty{15,6}{\volt}$. Unter Berücksichtigung des vorgeschalteten Spannungsteilers ergibt dies eine HF-Spitzenspannung von $\qty{31,2}{\volt}$.  Dies entspricht einer Eingangsleistung an einem $\qty{50}{\ohm}$-System von $\qty{9,73}{\watt}$ und damit ca. $\qty{9,7}{\watt}$.
+On mesure à la sortie du circuit une tension de crête de $\qty{14,9}{\volt}$. En raison de la tension directe de la diode, la valeur de crête HF avant la diode est de $\qty{15,6}{\volt}$. En tenant compte du diviseur de tension monté en amont, cela donne une tension de crête HF de $\qty{31,2}{\volt}$. Cela correspond à une puissance d'entrée sur un système de $\qty{50}{\ohm}$ de $\qty{9,73}{\watt}$ et donc environ $\qty{9,7}{\watt}$.
 
 [question:AI611]
 
-Bei HF-Tastköpfen und Leistungsmessern mit doppelter Spitzenwertgleichrichtung (2 Dioden) erfolgt die Berechnung wie bei Einfachgleichrichtung, jedoch ist die doppelte Spitzenspannung am Ausgang und der doppelte Spannungsabfall durch 2 Dioden zu berücksichtigen.
+Pour les sondes HF et les wattmètres avec un double redressement de la valeur de crête (2 diodes), le calcul est effectué comme pour le redressement simple, mais il faut tenir compte de la double tension de crête à la sortie et de la double chute de tension due à 2 diodes.
 
 [question:AI607]
 [question:AI606]
 
-Um anzuzeigen, dass ein Sender über seine Antenne Leistung abstrahlt kann ein Feldstärkeanzeiger verwendet werden. Hierbei wird über eine Messantenne einer Diode die empfangene HF zugeführt und durch die Diode gleichgerichtet. Anschließend wir die gleichgerichtete Spannung über HF-Drosseln einem Kondensator zugeführt, der die gleichgerichtete Spannung puffert. Die Anzeige erfolgt durch ein empfindliches Strommessgerät. Je höher der Zeigerausschlag des Messinstruments ausfällt, desto höher ist die an der Antenne gemessene HF-Feldstärke. Um exakte Messungen vornehmen zu können muss sowohl die Messantenne als auch der Feldstärkemesser kalibriert werden.
+Pour indiquer qu'un émetteur rayonne de la puissance via son antenne, on peut utiliser un indicateur de champ. Ici, la HF reçue est alimentée à une diode via une antenne de mesure et redressée par la diode. Ensuite, la tension redressée est alimentée à un condensateur via des bobines HF, qui tamponne la tension redressée. L'affichage est effectué par un appareil de mesure de courant sensible. Plus la déviation de l'aiguille de l'instrument de mesure est élevée, plus l'intensité de champ HF mesurée à l'antenne est élevée. Pour effectuer des mesures exactes, à la fois l'antenne de mesure et le champmètre doivent être calibrés.
 
 [question:AI613]

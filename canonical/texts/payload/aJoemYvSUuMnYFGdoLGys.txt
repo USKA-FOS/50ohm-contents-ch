@@ -1,13 +1,13 @@
-Die Genauigkeit von Frequenzen und Messbereichen bei Sendern, Empfängern, Oszillatoren, Frequenzzählern usw. wird entweder in $\unit{\percent}$ ($1 \cdot \num{10^{-2}}$) oder in parts per million ($\unit{\ppm} = 1 \cdot \num{10^{-6}}$) angegeben. Manchmal erfolgt die Angabe auch direkt in Exponentialschreibweise wie z.B. Genauigkeit von $1 \cdot \num{10^{-7}}$.
-Mit dieser Genauigkeit ist die Frequenz zu multiplizieren um die mögliche Abweichung von Messwerten oder Anzeigen zu berechnen.
+La précision des fréquences et des plages de mesure dans les émetteurs, récepteurs, oscillateurs, compteurs de fréquence, etc. est indiquée soit en $\unit{\percent}$ ($1 \cdot \num{10^{-2}}$) soit en parts par million ($\unit{\ppm} = 1 \cdot \num{10^{-6}}$). Parfois, l'indication se fait également directement en notation exponentielle comme par exemple une précision de $1 \cdot \num{10^{-7}}$.
+Avec cette précision, la fréquence doit être multipliée pour calculer l'écart possible des valeurs de mesure ou des affichages.
 
 <indepth>
-  Hinweis bzgl. Umrechnung/Darstellung von 10er Potenzen:
+  Remarque concernant la conversion/la représentation des puissances de 10 :
   
   $1 \cdot {\num{10^{-2}}} = \frac{1}{\num{10^2}}$
   $1 \cdot {\num{10^{-6}}} = \frac{1}{\num{10^6}}$
   
-  usw.
+  etc.
 </indepth>
   
 [question:AA115]
@@ -20,7 +20,7 @@ Mit dieser Genauigkeit ist die Frequenz zu multiplizieren um die mögliche Abwei
 
 [question:AI510]
 
-%TODO - Evtl. sollte hier eine Grafik zur Veranschaulichung mit eingebunden werden für die Aufgabe 1823
+%TODO - Peut-être qu'une image devrait être intégrée ici pour illustrer la tâche 1823
 
 [question:AI506]
 

@@ -1,34 +1,34 @@
-Was darf eigentlich ein Funkamateur, was alle anderen nicht dürfen? Jeder kann und darf Amateurfunk-Empfänger (Receiver) für den Amateurfunk kaufen und besitzen, ganz ohne Genehmigung. Auch eine Antennenanlage aufbauen und mit dem Empfänger verbinden ist kein Problem, solange man die Bauvorschriften einhält. Genauso der Empfang von Amateurfunksendungen - jeder darf das, ohne eine Zulassung für den Amateurfunk zu benötigen!
+Que peut faire un radioamateur que les autres ne peuvent pas faire ? Tout le monde peut acheter et posséder un récepteur radioamateur (récepteur) pour le radioamateur, sans aucune autorisation. Construire et connecter une installation d'antenne avec le récepteur n'est pas un problème, tant que l'on respecte les prescriptions de construction. De même pour la réception des émissions radioamateurs - tout le monde peut le faire, sans avoir besoin d'une licence pour le radioamateur !
 
-Aber nur ein Funkamateur darf einen Amateurfunk-Sender (Transmitter) *besitzen* und auf den Amateurfunkfrequenzen *auf Sendung* gehen. 
+Mais seul un radioamateur peut posséder un émetteur radioamateur (émetteur) et émettre sur les fréquences radioamateurs. 
 
 <tip>
-Der Begriff *Transceiver* [index:Transceiver] ist aus den beiden englischen Worten für Sender (Transmitter) und Empfänger (Receiver) gebildet worden.
+Le terme *émetteur-récepteur* [index:émetteur-récepteur] est formé des deux mots anglais pour émetteur (transmitter) et récepteur (receiver).
 </tip>
 
 ---
 
-Um in der Schweiz ein sendefähiges Amateurfunkgerät zu erwerben, muss man im Besitz eines Rufzeiches sein. Dieses bekommt nur, wer die Amateurfunkprüfung erfolgreich bestanden hat. Das Fähigkeitszeugnis, welches man zur bestanden Prüfung bekommt, alleine reicht *nicht* zum Erwerb eines Funkgeräts. Laut Gesetzt reicht noch nicht mal das Rufzeichen alleine. Man muss mit der <Rechnung für die Verwaltungsgebühr für das laufende Jahr> belegen, dass man dieses Rufzeichen noch immer besitzt. Zudem muss beim Verkauf immer eine Quittung ausgestellt werden, auf welcher sowohl die Geräte, als auch Name und Rufzeichen des Käufers erfasst sind. Diese Regelungen gelten sowohl in Geschäften als auch bei Privatverkäufen. 
+Pour acheter un appareil radioamateur capable d'émettre en Suisse, il faut être en possession d'un indicatif d'appel. Celui-ci n'est obtenu que par ceux qui ont réussi l'examen de radioamateur. Le certificat de compétence, que l'on reçoit après avoir réussi l'examen, ne suffit *pas* pour l'achat d'un appareil radio. Selon la loi, l'indicatif d'appel seul ne suffit même pas. Il faut prouver avec la <facture pour les frais administratifs de l'année en cours> que l'on possède toujours cet indicatif d'appel. De plus, une quittance doit toujours être établie lors de la vente, sur laquelle sont enregistrés à la fois les appareils, ainsi que le nom et l'indicatif d'appel de l'acheteur. Ces réglementations s'appliquent aussi bien dans les magasins que lors des ventes privées. 
 
 <indepth>
-Hier findet man den Wortlaut des Gesetzes in voller Länge. [VFAV Art. 7 Abs. 2](https://www.fedlex.admin.ch/eli/cc/2016/307/de#art_7)
+Ici, on trouve le texte intégral de la loi. [VFAV Art. 7 Abs. 2](https://www.fedlex.admin.ch/eli/cc/2016/307/de#art_7)
 </indepth>
 
-%YPA Frage müsste präzisiert werden (Sendegerät)
+%YPA La question doit être précisée (appareil émetteur)
 [question:VR001]
 [question:VD102]
 
 <margin>
-[photo:117:n_erste_schritte_transceiver:Ein Transceiver (Funkgerät) für den Amateurfunk]
+[photo:117:n_erste_schritte_transceiver:Un émetteur-récepteur (appareil radio) pour le radioamateur]
 </margin>
 
 ---
 
-Auf Sendung gehen bedeutet praktisch gesagt, die PTT-Taste zu drücken. PTT [index:PTT] ist die Abkürzung für "push to talk", also "drücken, um zu senden". So wird die Funktion bezeichnet, die einen Transceiver auf Sendung schaltet. Normalerweise ist ein Transceiver erstmal im Empfangsbetrieb. Erst wenn man die PTT-Taste drückt und festhält, wird gesendet. Nachdem man die Taste loslässt, schaltet der Transceiver wieder zurück auf Empfang. Die PTT-Taste ist meistens am Mikrofon angebracht.
+Être en émission signifie, en pratique, appuyer sur le bouton PTT. PTT [index:PTT] est l'abréviation de "push to talk", c'est-à-dire "appuyer pour parler". C'est ainsi que l'on désigne la fonction qui met un émetteur-récepteur en émission. Normalement, un émetteur-récepteur est d'abord en mode réception. Ce n'est que lorsque l'on appuie et maintient le bouton PTT que l'on émet. Après avoir relâché la touche, l'émetteur-récepteur revient en mode réception. Le bouton PTT est généralement fixé au micro.
 [question:NF108]
 
 <margin>
-[photo:118:n_erste_schritte_ptt:Handmikrofon mit PTT-Taste (links oben)]
+[photo:118:n_erste_schritte_ptt:Microphone avec bouton PTT (en haut à gauche)]
 </margin>
 
 
@@ -36,19 +36,19 @@ Auf Sendung gehen bedeutet praktisch gesagt, die PTT-Taste zu drücken. PTT [ind
 
 ---  
 
-**Nötige Mathematikkenntnisse**
+**Connaissances mathématiques nécessaires**
 
-%YPA: In DL müssen Formeln nicht umgestellt werden (siehe DLFS). Der Teil mit Mathegrundkenntnisse, bzw. was muss man in Mathe können, sollte einen eigenen Abschnitt bekommen. Dort könnte man das Formelumstellen auch gleich abhandeln (ich weiss nicht ob das dort wo das inhaltlich vorkommt auch gemacht wird). Der Abschnitt wurde jetzt mal auf die 3 bestehenden Fragen umgeschrieben. 
+%YPA : En Allemagne, les formules ne doivent pas être réarrangées (voir DLFS). La partie sur les connaissances mathématiques de base, ou ce qu'il faut savoir en mathématiques, devrait avoir sa propre section. On pourrait y traiter également le réarrangement des formules (je ne sais pas si cela se fait là où cela apparaît dans le contenu). La section a maintenant été réécrite sur les 3 questions existantes. 
 
-Dieser Kurs vermittelt alles nötige Wissen, um die Prüfung erfolgreich zu bestehen. Etwas Schulmathematik setzen wir allerdings voraus. 
-Die Grundrechenarten und der Dreisatz müssen beherrscht werden. Damit können die folgenden Prüfungsfragen richtig beantwortet werden.
+Ce cours enseigne tout le savoir nécessaire pour réussir l'examen. Nous supposons toutefois une certaine connaissance des mathématiques scolaires. 
+Les quatre opérations de base et la règle de trois doivent être maîtrisées. Cela permet de répondre correctement aux questions d'examen suivantes.
 
 [question:NA101]
 [question:NA103]
 [question:NA102]
 
-Später im Kurs muss man dann noch einfache Formeln umstellen. Dort muss man dann Brüche, Wurzeln und Exponenten umstellen können. Das wird dort dann aber erklärt.
+Plus tard dans le cours, il faudra ensuite réarranger des formules simples. Il faudra alors pouvoir réarranger des fractions, des racines et des exposants. Cela sera expliqué à ce moment-là.
 
 <margin>
-*Schwierigkeiten mit der Mathematik?* Im Internet findet sich Lernmaterial dazu, z. B. [hier](https://50ohm.de/tr). Vielleicht können auch hilfsbereite Menschen aus Freundeskreis, Familie, Schule oder Ausbildungsstätte helfen.
+*Difficultés avec les mathématiques ?* On trouve du matériel d'apprentissage sur Internet à ce sujet, par exemple [ici](https://50ohm.de/tr). Peut-être que des personnes bienveillantes du cercle d'amis, de la famille, de l'école ou de l'établissement de formation peuvent également aider.
 </margin>

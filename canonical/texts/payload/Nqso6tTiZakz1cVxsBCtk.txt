@@ -1,74 +1,74 @@
-* Grundlagen zur Ionosphäre, Sonnenfleckenaktivität und "Tote Zone" sind in Klasse N
-* Vertiefung im Bereich Wellenausbreitung
-* Strahlung der Sonne schlägt Elektronen aus Sauerstoff- und Stickstoff-Atomen und -Molekülen in der Hochatmosphäre $\rightarrow$ Ionisation
-* Freie Elektronen werden von Funkwellen zum Schwingen angeregt $\rightarrow$ Refraktion der Funkwellen
+* Bases sur l'ionosphère, l'activité des taches solaires et la "zone morte" sont en classe N
+* Approfondissement dans le domaine de la propagation des ondes
+* Le rayonnement du soleil arrache des électrons aux atomes et molécules d'oxygène et d'azote dans la haute atmosphère $\rightarrow$ Ionisation
+* Les électrons libres sont mis en vibration par les ondes radio $\rightarrow$ Réfraction des ondes radio
 
 ---
 <left>
-* In ca. $\num{50}$ bis $\qty{450}{\kilo\meter}$ Höhe
-* Refraktion von Kurzwellen, wodurch weltweite Kommunikation ermöglicht wird
+* À une altitude d'environ $\num{50}$ à $\qty{450}{\kilo\meter}$
+* Réfraction des ondes courtes, permettant ainsi une communication mondiale
 </left>
 <right>
-[picture:731:e_atmosphaeren_schichten:Für den Amateurfunk relevante Schichten in der Atmosphäre]
+[picture:731:e_atmosphaeren_schichten:Couches atmosphériques pertinentes pour le radioamateur]
 </right>
 
 ---
 [question:EH101]
 ---
-## Ausbreitung von Funkwellen
+## Propagation des ondes radio
 <left>
-* Ionisation verleiht Kurzwelle einzigartige Fähigkeiten
-* Dichte der freien Elektronen bestimmt die Brechungsfrequenz
-* Höhere Dichte $\rightarrow$ höhere Frequenz
+* L'ionisation confère aux ondes courtes des capacités uniques
+* La densité des électrons libres détermine la fréquence de réfraction
+* Densité plus élevée $\rightarrow$ fréquence plus élevée
 </left>
 <right>
-[picture:865:e_wellenausbreitung_refraktion:Refraktion an Schichten der Ionosphäre]
+[picture:865:e_wellenausbreitung_refraktion:Réfracion dans les couches de l'ionosphère]
 </right>
 
 ---
 
-* Mehr Sonnenstrahlung $\rightarrow$ Ausbreitung auf höherer Frequenz möglich
-* Besonders viel Strahlung tagsüber im Sonnenfleckenmaximum
-* $\qty{10}{\meter}$-Band selbst bei geringer Sendeleistung tagsüber nutzbar
+* Plus de rayonnement solaire $\rightarrow$ propagation possible à une fréquence plus élevée
+* Surtout beaucoup de rayonnement en journée pendant le maximum des taches solaires
+* La bande des $\qty{10}{\meter}$ est utilisable même avec une faible puissance d'émission en journée
 
 ---
 [question:EH219]
 ---
-## Rekombination
+## Recombinaison
 
-* Freie Elektronen rekombinieren sich wieder mit Atomrümpfen
-* In bestimmten Höhen stellt sich ein Gleichgewicht zwischen Ionisation und Rekombination ein.
-* Diese Gebiete mit Gleichgewicht werden als Regionen oder Schichten bezeichnet.
+* Les électrons libres se recombinent à nouveau avec les noyaux atomiques
+* À certaines altitudes, un équilibre s'établit entre l'ionisation et la recombinaison.
+* Ces zones d'équilibre sont appelées régions ou couches.
 
-
----
-## Schichten der Ionosphäre
-* Es gibt in verschiedenen Höhen verschiedene "Schichten" bzw. Regionen mit unterschiedlich starker Ionisierung
-* Diese tragen die Namen
-
-1. D-Schicht
-2. E-Schicht
-3. $F_1$-Schicht
-4. $F_2$-Schicht
 
 ---
-* Für die Prüfungsfragen der Klasse E ist ein grundlegendes, qualitatives Verständnis der Regionen erforderlich
-* Die für die Kurzwellen-Fernausbreitung (DX) wichtigen F-Regionen der Ionosphäre befinden sich in einer Höhe von etwa $\num{130}$ bis $\qty{450}{\kilo\meter}$
-* In der Klasse A müssen die genauen Höhenlagen der einzelnen Regionen für Tag und Nacht benannt werden können
+## Couches de l'ionosphère
+* Il existe à différentes altitudes différentes "couches" ou régions avec une ionisation plus ou moins forte
+* Celles-ci portent les noms
+
+1. Couche D
+2. Couche E
+3. Couche $F_1$
+4. Couche $F_2$
+
+---
+* Pour les questions d'examen de la classe E, une compréhension qualitative de base des régions est requise
+* Les régions F de l'ionosphère, importantes pour la propagation des ondes courtes (DX), se trouvent à une altitude d'environ $\num{130}$ à $\qty{450}{\kilo\meter}$
+* En classe A, les altitudes exactes des différentes régions doivent pouvoir être nommées pour le jour et la nuit
 
 ---
 [question:EH102]
 ---
-### D-Region
-* In ca. $\qtyrange{50}{90}{\kilo\meter}$ Höhe
-* Existiert *nur am Tag*
-* Nach Sonnenuntergang sehr schnell verschwunden
-* Energieverlust durch Kollision der Elektronen mit anderen Teilchen
-* Starke *Dämpfung* von Funkwellen unter $\qty{10}{\mega\hertz}$
-* Keine Raumwelle für Amateurfunkbänder wie $\qty{160}{\meter}$ oder $\qty{80}{\meter}$
+### Région D
+* À une altitude d'environ $\qtyrange{50}{90}{\kilo\meter}$
+* Existe *uniquement le jour*
+* Disparaît très rapidement après le coucher du soleil
+* Perte d'énergie par collision des électrons avec d'autres particules
+* *Atténuation* forte des ondes radio en dessous de $\qty{10}{\mega\hertz}$
+* Pas d'onde spatiale pour les bandes radioamateurs comme $\qty{160}{\meter}$ ou $\qty{80}{\meter}$
 
 <note>
-* Die Schichten verschwinden durch Rekombination der Ionen und Elektronen, wenn sie nicht mehr durch Sonnenstrahlung angeregt werden
+* Les couches disparaissent par recombinaison des ions et des électrons lorsqu'elles ne sont plus excitées par le rayonnement solaire
 </note>
 ---
 [question:EH210]
@@ -76,30 +76,30 @@
 [question:EH105]
 
 ---
-### E-Region
-* In ca. $\qtyrange{90}{130}{\kilo\meter}$ Höhe
-* Entsteht *tagsüber* mit Maximum zur Mittagszeit
-* Verschwindet etwa 1 Stunde nach Sonnenuntergang
-* Sprungdistanz ca. $\qty{2000}{\kilo\meter}$ bis $\qty{10}{\mega\hertz}$
-* Starke Ionisation $\rightarrow$ Sporadic-E
-* Namensgebene: *E*(lektrische)*-Schicht*
+### Région E
+* À une altitude d'environ $\qtyrange{90}{130}{\kilo\meter}$
+* Se forme *en journée* avec un maximum à midi
+* Disparaît environ 1 heure après le coucher du soleil
+* Distance de saut d'environ $\qty{2000}{\kilo\meter}$ jusqu'à $\qty{10}{\mega\hertz}$
+* Ionisation forte $\rightarrow$ Sporadique E
+* Nom donné : *Couche E*(lectrique)*
 
 <note>
-* Die Schichten darüber und darüber wurden mit Buchstaben davor und dahinter benannt
+* Les couches au-dessus et au-delà ont été nommées avec des lettres avant et après
 </note>
 ---
 [question:EH106]
 
 ---
-### F-Regionen
-* In ca. $\qtyrange{200}{400}{\kilo\meter}$ Höhe
-* Am stärksten ionisierte Schicht
-* $F_1$-Schicht existiert *nur am Tag*
-* $F_2$-Schicht bleibt *nachts* bestehen
-* Sprungdistanz ca. $\qty{4000}{\kilo\meter}$
+### Régions F
+* À une altitude d'environ $\qtyrange{200}{400}{\kilo\meter}$
+* Couche la plus ionisée
+* La couche $F_1$ n'existe *qu'en journée*
+* La couche $F_2$ reste *la nuit*
+* Distance de saut d'environ $\qty{4000}{\kilo\meter}$
 
 <note>
-Wenig Restatmosphäre, weshalb die Elektronen lange brauchen, um ein Ion zur Rekombination zu finden
+Peu d'atmosphère résiduelle, raison pour laquelle les électrons mettent longtemps à trouver un ion pour la recombinaison
 </note>
 
 ---
@@ -108,22 +108,22 @@ Wenig Restatmosphäre, weshalb die Elektronen lange brauchen, um ein Ion zur Rek
 ---
 [question:EH104]
 ---
-## Sonnenzyklus
+## Cycle solaire
 <left>
-* Im Schnitt alle 11 Jahre durch Umkehrung des Magnetfelds
-* Intensivere Ultraviolett- und Röntgenstrahlen
-* Führt zu starker Ionisation der $F_2$-Region
+* En moyenne tous les 11 ans par inversion du champ magnétique
+* Rayons ultraviolets et X plus intenses
+* Conduit à une ionisation forte de la région $F_2$
 </left>
 <right>
-[picture:729:e_sonnenzyklus:Zählung der monatlichen Sonnenflecken seit 1749]
+[picture:729:e_sonnenzyklus:Comptage des taches solaires mensuelles depuis 1749]
 </right>
 
 ---
 [question:EH107]
 
 ---
-* Während dieser Zeit können alle oberen Kurzwellenbänder und teilweise sogar das $\qty{6}{\meter}$-Band für DX-Verbindungen genutzt werden
-* Im Aktivitätsminimum sind die Frequenzbänder oberhalb des $\qty{20}{\meter}$-Bandes (z. B. $\qty{10}{\meter}$) meist nicht nutzbar
+* Pendant cette période, toutes les bandes d'ondes courtes supérieures et partiellement même la bande des $\qty{6}{\meter}$ peuvent être utilisées pour des liaisons DX
+* En période de minimum d'activité, les bandes de fréquences au-dessus de la bande des $\qty{20}{\meter}$ (par exemple, $\qty{10}{\meter}$) ne sont généralement pas utilisables
 
 ---
 [question:EH205]

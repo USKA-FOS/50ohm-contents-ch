@@ -1,13 +1,13 @@
-Die Hauptaufgabe der digitalen Übertragung ist es, Informationen von einer Quelle (Sender) zu einer oder mehreren Senken (Empfänger) zu übermitteln. Dabei soll das Frequenzspektrum möglichst effizient genutzt werden. Dies erreicht man durch die Kompression der Nutzdaten, die sogenannte Quellencodierung. Dabei werden Redundanzen (z. B. Wiederholungen) oder Irrelevanzen (weniger wichtige Informationsteile) aus dem Datenstrom entfernt. Das reduziert die zu übertragende Datenmenge der Nachricht.
+La tâche principale de la transmission numérique est de transmettre des informations d'une source (émetteur) à un ou plusieurs puits (récepteurs). Il convient d'utiliser le spectre de fréquences de manière aussi efficace que possible. Cela est réalisé par la compression des données utiles, appelée codage source. Les redondances (par exemple, les répétitions) ou les irrélevances (les parties d'information moins importantes) sont supprimées du flux de données. Cela réduit la quantité de données à transmettre du message.
 
 <indepth>
-Zum Beispiel sind MP3 für Musik, JPEG für Bilder sowie MPEG-4 für Videos bekannte Verfahren zur Kompression der Datenmenge, welche auch als *Codecs* bezeichnet werden. Im Amateurfunk wird z. B. bei FreeDV oder M17 der patentfreie Codec2 verwendet, welcher auf verständliche Übertragung menschlicher Sprache bei niedrigen Bitraten spezialisiert ist.
+Par exemple, MP3 pour la musique, JPEG pour les images ainsi que MPEG-4 pour les vidéos sont des procédés connus de compression de la quantité de données, également appelés *codecs*. En radioamateur, par exemple, le codec2 sans brevet est utilisé pour FreeDV ou M17, qui est spécialisé dans la transmission compréhensible de la parole humaine à des débits binaires faibles.
 </indepth>
 
 <margin>
-[picture:675:quellencodierer:Quellencodierer]
+[picture:675:quellencodierer:Codeur source]
 </margin>
 
-Abbildung [ref:quellencodierer] zeigt ein Symbol für einen Quellencodierer. Der Block stellt dar, dass die Menge an Information reduziert wird.
+La figure [ref:quellencodierer] montre un symbole pour un codeur source. Le bloc représente la réduction de la quantité d'informations.
 
 [question:AE408]

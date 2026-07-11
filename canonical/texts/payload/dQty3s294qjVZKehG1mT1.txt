@@ -1,31 +1,31 @@
 <margin>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Diagramme en blocs d'un émetteur simple]
 </margin>
 
-In Abbildung [ref:aufbau_sender] wird gezeigt, aus welchen Komponenten man einen AM-Sender aufbauen kann. Einige der Blöcke kennen wir schon vom Empfänger, andere sind neu:
-1. Mikrofon: Das Mikrofon wandelt die Schallwellen der Sprache in niederfrequente elektrische Schwingungen um. Man kann stattdessen aber auch, z. B. für digitale Übertragungsverfahren, das niederfrequente Signal vom Audio-Ausgang eines Computers verwenden.
-2. Niederfrequenz-Verstärker: Das Signal vom Mikrofon bzw. Computer wird zunächst verstärkt.
-3. Mischer: Der Mischer fügt den vom Oszillator (4) erzeugten Hochfrequenzträger mit der niederfrequenten Schwingung vom Mikrofon bzw. Computer zusammen. Das führt dazu, dass der Hochfrequenzträger mit dem Sprach- bzw. Datensignal amplitudenmoduliert wird.
-4. Oszillator: Der Oszillator erzeugt die hochfrequente Schwingung mit der Frequenz, auf der gesendet werden soll, beispielsweise $\qty{29,5}{\mega\hertz}$.
-5. Bandpassfilter: Da der Mischer aufgrund seiner Funktionsweise neben den gewünschten Frequenzen auch weitere, unerwünschte Frequenzen erzeugt, müssen diese mit einem Bandfilter gesperrt werden.
-6. Hochfrequenz-Verstärker: Das Hochfrequenzsignal wird nun verstärkt, damit es über die gewünschte Sendeleistung verfügt.
-7. Tiefpassfilter: Da auch die Verstärkung unerwünschte Frequenzen erzeugen kann, muss jetzt nochmal gefiltert werden.
-8. Antenne: Das Hochfrequenzsignal wird nun an die Antenne gegeben und von dieser als Funkwelle abgestrahlt.
+Dans la figure [ref:aufbau_sender], il est montré à partir de quelles composantes on peut construire un émetteur AM. Certains des blocs nous sont déjà connus du récepteur, d'autres sont nouveaux:
+1. Microphone: Le microphone convertit les ondes sonores de la parole en oscillations électriques à basse fréquence. On peut utiliser à la place, par exemple pour les procédés de transmission numérique, le signal à basse fréquence de la sortie audio d'un ordinateur.
+2. Amplificateur basse fréquence: Le signal du microphone ou de l'ordinateur est d'abord amplifié.
+3. Mélangeur: Le mélangeur combine la porteuse haute fréquence générée par l'oscillateur (4) avec l'oscillation basse fréquence du microphone ou de l'ordinateur. Cela entraîne l'amplitude de la porteuse haute fréquence avec le signal vocal ou de données.
+4. Oscillateur: L'oscillateur génère l'oscillation haute fréquence à la fréquence à laquelle on veut émettre, par exemple $\qty{29,5}{\mega\hertz}$.
+5. Filtre passe-bande: Comme le mélangeur, en raison de son mode de fonctionnement, génère non seulement les fréquences souhaitées mais aussi d'autres fréquences indésirables, celles-ci doivent être bloquées avec un filtre passe-bande.
+6. Amplificateur haute fréquence: Le signal haute fréquence est maintenant amplifié afin de disposer de la puissance d'émission souhaitée.
+7. Filtre passe-bas: Comme l'amplification peut également générer des fréquences indésirables, il faut encore filtrer une fois.
+8. Antenne: Le signal haute fréquence est maintenant appliqué à l'antenne et émis par celle-ci sous forme d'onde radio.
 
 %[class:N]
 <indepth>
-Wenn ein Mischer zwei Signale zusammenfügt, dann entspricht das mathematisch einer Multiplikation der beiden Signale. Daher findet sich auch das Malkreuz im Block-Symbol für den Mischer wieder. Wie ein Mischer genau funktioniert, ist Inhalt des Kurses für die Klasse A.
+Lorsque un mélangeur combine deux signaux, cela correspond mathématiquement à une multiplication des deux signaux. C'est pourquoi on retrouve également le symbole de multiplication dans le symbole de bloc pour le mélangeur. La manière dont un mélangeur fonctionne exactement fait partie du cours pour la classe A.
 </indepth>
 %[/class]
 
 [question:NF401]
 [question:NF403]
 
-Für die folgende Frage ist es wichtig, sich daran zu erinnern, dass ein Sender einen Oszillator und einen Mischer benötigt.
+Pour la question suivante, il est important de se rappeler qu'un émetteur a besoin d'un oscillateur et d'un mélangeur.
 
 [question:NF402]
 
-Eine Amateurfunkanlage muss nach den allgemein anerkannten Regeln der Technik aufgebaut und betrieben werden. Das gilt natürlich auch ganz besonders für Sender.
+Une installation de radioamateur doit être construite et exploitée conformément aux règles généralement reconnues de la technique. Cela s'applique bien sûr tout particulièrement aux émetteurs.
 
 [question:VD106]
 

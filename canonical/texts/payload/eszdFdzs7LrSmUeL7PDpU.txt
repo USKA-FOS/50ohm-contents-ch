@@ -1,37 +1,37 @@
-Um eine Funkverbindung zwischen zwei Orten über die Raumwelle herzustellen, muss eine Frequenz gewählt werden, die von der Ionosphäre zuverlässig zur Erde zurückgebrochen wird. In der Regel betrifft das nicht nur eine einzelne Frequenz, sondern einen ganzen Frequenzbereich. Oft entscheidet man sich dabei für das höchste Amateurfunkband innerhalb dieses Bereichs.
+Pour établir une liaison radio entre deux lieux via l'onde spatiale, il faut choisir une fréquence qui soit fiablement réfléchie par l'ionosphère vers la Terre. En règle générale, cela ne concerne pas seulement une seule fréquence, mais toute une bande de fréquences. On choisit souvent la bande radioamateur la plus élevée dans cette plage.
 
-Dieser Frequenzbereich wird nach oben hin begrenzt durch die *MUF* (*maximal usable frequency*), also der höchsten Frequenz, die die Ionosphäre gerade noch für die Distanz zwischen Sender und Empfänger zurückbrechen kann. 
+Cette bande de fréquences est limitée vers le haut par la *MUF* (*maximal usable frequency*), c'est-à-dire la fréquence la plus élevée que l'ionosphère peut encore réfléchir pour la distance entre l'émetteur et le récepteur. 
 
 [question:EH204]
 
-Die MUF hängt von der Dichte der freien Elektronen in der brechenden Region (hier: F2-Region) sowie vom Einfallswinkel der Funkwelle in die Ionosphäre ab. Abbildung [ref:e_muf_luf] zeigt die Vorhersage der MUF für einen Sommertag im Juli 2025. Dabei wird deutlich, dass die MUF von der Tageszeit abhängt: Tagsüber führt die stärkere Ionisation zu einer höheren MUF, nachts nimmt die Ionisation ab und die MUF sinkt entsprechend. Ein weiteres Beispiel zeigt Abbildung [ref:e_muf_luf2]. Die MUF liegt hier bei etwa $\qty{7,5}{\mega\hertz}$. Das bedeutet, dass die Frequenzen $\qty{3,5}{\mega\hertz}$ und $\qty{7}{\mega\hertz}$ noch zur Erde zurückgebrochen werden, während Frequenzen oberhalb von $\qty{7,5}{\mega\hertz}$ in Richtung Weltraum abgelenkt werden. Das ist auch der Grund, warum wir mit der Raumstation ISS auf dem $\qty{2}{\meter}$-Band kommunizieren: Mit $\qty{145,800}{\mega\hertz}$ liegen wir deutlich über einer typischen MUF.
+La MUF dépend de la densité des électrons libres dans la région de réfraction (ici : région F2) ainsi que de l'angle d'incidence de l'onde radio sur l'ionosphère. La figure [ref:e_muf_luf] montre la prédiction de la MUF pour un jour d'été en juillet 2025. Il est clair que la MUF dépend de l'heure de la journée : en journée, l'ionisation plus forte entraîne une MUF plus élevée, la nuit, l'ionisation diminue et la MUF baisse en conséquence. Un autre exemple est montré dans la figure [ref:e_muf_luf2]. La MUF y est d'environ $\qty{7,5}{\mega\hertz}$. Cela signifie que les fréquences $\qty{3,5}{\mega\hertz}$ et $\qty{7}{\mega\hertz}$ sont encore réfléchies vers la Terre, tandis que les fréquences supérieures à $\qty{7,5}{\mega\hertz}$ sont déviées en direction de l'espace. C'est aussi la raison pour laquelle nous communiquons avec la station spatiale ISS sur la bande des $\qty{2}{\meter}$ : avec $\qty{145,800}{\mega\hertz}$, nous sommes bien au-dessus d'une MUF typique.
 
 <margin>
-[picture:991:e_muf_luf:Vorhersage von MUF und LUF im Juli 2025]
+[picture:991:e_muf_luf:Prédiction de la MUF et de la LUF en juillet 2025]
 </margin>
 
 <margin>
-[picture:997:e_muf_luf2:Simulation der Sprungdistanzen für verschiedene Frequenzen und einer MUF bei ca. $\qty{7,5}{\mega\hertz}$ in einer Augustnacht 2024 bei einem Abstrahlwinkel von $\qty{45}{\degree}$]
+[picture:997:e_muf_luf2:Simulation des distances de saut pour différentes fréquences et une MUF d'environ $\qty{7,5}{\mega\hertz}$ lors d'une nuit d'août 2024 avec un angle d'émission de $\qty{45}{\degree}$]
 </margin>
 
-Die genauen Zusammenhänge der MUF, beispielsweise in Bezug auf den Abstrahlwinkel, werden erst in der Klasse A behandelt. Für die Klasse E ist wichtig zu wissen: Je stärker die Ionisation der Ionosphäre, desto höher ist in der Regel auch die MUF.
+Les relations exactes de la MUF, par exemple en ce qui concerne l'angle d'émission, ne sont traitées qu'en classe A. Pour la classe E, il est important de savoir : plus l'ionisation de l'ionosphère est forte, plus la MUF est généralement élevée.
 
 [question:EH207]
 [question:EH206]
 
-Die D-Region haben wir bereits im Kapitel Ionosphäre II kennengelernt. Von ihr wird eine weitere Grenzfrequenz bestimmt – die sogenannte LUF (Lowest Usable Frequency), also die niedrigste nutzbare Frequenz, unterhalb derer die Dämpfung zu stark ist.
-Nach unten hin stellt die LUF also die Begrenzung dar. Sie wird in erster Linie von der Ionisation in der *D-Region* bestimmt, hängt aber auch von der Ausrüstung (Sendestärke, Antennen, Empfindlichkeit des Empfängers) ab.
+Nous avons déjà rencontré la région D dans le chapitre Ionosphère II. Elle détermine une autre fréquence limite – la LUF (Lowest Usable Frequency), c'est-à-dire la fréquence utilisable la plus basse, en dessous de laquelle l'atténuation est trop forte.
+Vers le bas, la LUF représente donc la limite. Elle est déterminée en premier lieu par l'ionisation dans la *région D*, mais dépend également de l'équipement (puissance d'émission, antennes, sensibilité du récepteur).
 
 [question:EH209]
 
-Insbesondere bei sehr geringer Sonnenaktivität oder während starker Magnetstürme kann der Sonderfall auftreten, dass für einen bestimmten Signalweg die LUF über der MUF liegt. In diesem Fall ist zwischen den betreffenden Orten kein Funkverkehr über die Raumwelle möglich. Abbildung [ref:e_muf_luf] zeigt auch eine Vorhersage der LUF für Juli 2025. Dort wird deutlich, dass zwischen 6 und 12 Uhr die LUF oberhalb der MUF liegt und daher kein Kurzwellenbetrieb möglich ist.
+En particulier en cas d'activité solaire très faible ou pendant de fortes tempêtes magnétiques, il peut se produire le cas particulier que la LUF soit supérieure à la MUF pour un certain trajet de signal. Dans ce cas, aucune communication radio par onde spatiale n'est possible entre les lieux concernés. La figure [ref:e_muf_luf] montre également une prédiction de la LUF pour juillet 2025. Il y est clair que entre 6 et 12 heures, la LUF est supérieure à la MUF et qu'aucune opération en ondes courtes n'est donc possible.
 
 
 
 ---
 
-*Hinweis YPA an Bearbeiter: die zwei neuen Fragen einbetten wo sinnvoll. Wenn nötig entsprechenden Inhalt erschaffen. 
-Achtung: Zeile 17 verweist auf weiteren Inhalt in HB9, evtl kommt es auch erst dort.*
+*Note YPA pour l'éditeur : intégrer les deux nouvelles questions là où cela est logique. Si nécessaire, créer le contenu correspondant. 
+Attention : la ligne 17 fait référence à un contenu supplémentaire dans HB9, il viendra peut-être seulement là.*
 
 [question:EH220]
 [question:EH221]

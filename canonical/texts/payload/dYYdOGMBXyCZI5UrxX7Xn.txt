@@ -1,27 +1,27 @@
-% TODO neu formulieren
-% Idee DL9MJ: Beispiel mit Bild je ein Bit in I und Q und wie das Signal für 00, 01, 10, 11 aussieht
+% TODO reformuler
+% Idée DL9MJ : exemple avec image chaque bit dans I et Q et comment le signal pour 00, 01, 10, 11 apparaît
 
-QAM kann besonders einfach mit Hilfe von zwei Trägern derselben Frequenz erzeugt werden. Einer der beiden Träger muss dabei um $\qty{90}{\degree}$ phasenverschoben sein. Beide Träger werden dann jeweils mit einem eigenen Signal amplitudenmoduliert. Das eine Signal wird als I (für In-Phase Component) und das andere Signal als Q (für Quadrature Phase Component) bezeichnet. Der phasenverschobene Träger wird dabei mit dem Q-Signal moduliert. In Anschluss werden die beiden modulierten Träger überlagert, wobei ein Träger entsteht, der sich sowohl in der Amplitude als auch in der Phase ändert.
+La modulation d'amplitude en quadrature (QAM) peut être générée de manière particulièrement simple à l'aide de deux porteuses de même fréquence. L'une des deux porteuses doit être déphasée de $\qty{90}{\degree}$. Les deux porteuses sont ensuite modulées en amplitude chacune avec un signal propre. L'un des signaux est désigné par I (pour composante en phase) et l'autre signal par Q (pour composante en quadrature de phase). La porteuse déphasée est modulée avec le signal Q. Ensuite, les deux porteuses modulées sont superposées, ce qui donne une porteuse dont l'amplitude et la phase varient.
 
 <indepth>
 [include:applet_iq]
 </indepth>
   
-%TODO BILD QAM4 QAM8 oder mehr?
+%TODO IMAGE QAM4 QAM8 ou plus ?
 
 [question:AE404]
 [question:AF632]
 
-Die Grundidee, ein Signal in zwei Teilen getrennt zu verarbeiten, findet auch in der digitalen Signalverarbeitung breite Anwendung. Es wird nach den beiden Teilsignalen als I/Q-Verfahren bezeichnet. Das I/Q-Verfahren ermöglicht es, jedes beliebige Signal zu erzeugen. Dazu besteht der zu modulierende Datenstrom aus einem I- und einem Q-Anteil. Zwei D/A-Umsetzer wandeln jeweils einen der beiden Anteile in ein analoges I- bzw. Q-Signal um. Mit dem I- und dem Q-Signal werden wiederum die beiden phasenverschobenen Träger moduliert. Im letzten Schritt werden diese zu einem Träger überlagert, der ausgesendet wird.
+L'idée de base de traiter un signal en deux parties séparées trouve également une large application dans le traitement numérique des signaux. Elle est désignée par les deux signaux partiels en tant que procédé I/Q. Le procédé I/Q permet de générer n'importe quel signal. À cet effet, le flux de données à moduler se compose d'une partie I et d'une partie Q. Deux convertisseurs analogiques numériques convertissent chacun une des deux parties en un signal analogique I ou Q. Avec le signal I et le signal Q, les deux porteuses déphasées sont à nouveau modulées. Dans la dernière étape, celles-ci sont superposées en une porteuse qui est émise.
 
-Entsprechend wird auch auf der Empfängerseite vorgegangen. Das Eingangssignal wird mit einem Träger gemischt, um das I-Signal zu erhalten, das dann mittels A/D-Umsetzer in den I-Anteil eines Datenstroms umgewandelt wird. Gleichzeitig wird das Eingangssignal aber auch mit einem um $\qty{90}{\degree}$ phasenverschobenen Träger gemischt, um das Q-Signal zu erhalten, das wiederum mittels eines A/D-Umsetzers in den Q-Anteil des Datenstroms umgewandelt wird.
+De même, la procédure est suivie du côté du récepteur. Le signal d'entrée est mélangé avec une porteuse pour obtenir le signal I, qui est ensuite converti en partie I d'un flux de données au moyen d'un convertisseur analogique numérique. Simultanément, le signal d'entrée est également mélangé avec une porteuse déphasée de $\qty{90}{\degree}$ pour obtenir le signal Q, qui est à son tour converti en partie Q du flux de données au moyen d'un convertisseur analogique numérique.
 
 [question:AF633]
 
-Ein solcher digitaler Datenstrom kann immer einen bestimmten Frequenzbereich des Eingangssignals abbilden, der um eine Mittenfrequenz herum liegt. Wird das Eingangssignal beispielsweise mit einem $\qty{435}{\mega\hertz}$-Träger und einem um $\qty{90}{\degree}$ phasenverschobenen $\qty{435}{\mega\hertz}$-Träger gemischt und die beiden entstehenden Signale durch A/D-Umsetzer digitalisiert, dann bildet der entstehende I/Q-Datenstrom den Frequenzbereich um $\qty{435}{\mega\hertz}$ herum ab.
+Un tel flux de données numériques peut toujours représenter une certaine bande de fréquences du signal d'entrée, qui se situe autour d'une fréquence centrale. Si le signal d'entrée est par exemple mélangé avec une porteuse de $\qty{435}{\mega\hertz}$ et une porteuse de $\qty{435}{\mega\hertz}$ déphasée de $\qty{90}{\degree}$, et que les deux signaux résultants sont numérisés par des convertisseurs analogique numérique, alors le flux de données I/Q résultant représente la bande de fréquences autour de $\qty{435}{\mega\hertz}$.
 
-% TODO Verweis auf Abtasttheorem?
-Die abgedeckte Bandbreite hängt dabei von der Abtastrate der A/D-Umsetzung ab. Die Bandbreite in Hz entspricht dabei der Abtastrate in Samples pro Sekunde. Werden in unserem Beispiel sowohl der I- als auch der Q-Anteil mit 10 Millionen Samples pro Sekunde abgetastet, dann kann der entstehende I/Q-Datenstrom einen Frequenzbereich von $\qty{10}{\mega\hertz}$ Bandbreite abdecken, also von $\qty{-5}{\mega\hertz}$ bis $\qty{+5}{\mega\hertz}$ in Bezug auf die Mittenfrequenz. Der Datenstrom deckt dann also die Frequenzen von $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$ ab.
+% TODO Référence au théorème d'échantillonnage ?
+La bande passante couverte dépend de la fréquence d'échantillonnage de la conversion analogique numérique. La bande passante en Hz correspond à la fréquence d'échantillonnage en échantillons par seconde. Si, dans notre exemple, à la fois la partie I et la partie Q sont échantillonnées à 10 millions d'échantillons par seconde, alors le flux de données I/Q résultant peut couvrir une bande de fréquences de $\qty{10}{\mega\hertz}$, donc de $\qty{-5}{\mega\hertz}$ à $\qty{+5}{\mega\hertz}$ par rapport à la fréquence centrale. Le flux de données couvre alors les fréquences de $\qty{430}{\mega\hertz}$ à $\qty{440}{\mega\hertz}$.
 
 [question:AF634]
 [question:AF635]

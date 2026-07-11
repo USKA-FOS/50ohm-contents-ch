@@ -1,13 +1,13 @@
 <left>
-* Empfangssignal gestört durch Rauschen oder Impulse
-* Schwaches Signal mit Rauschanteilen
-* Zündfunken, Schaltnetzteile, Maschinen etc.
+* Signal reçu perturbé par le bruit ou les impulsions
+* Signal faible avec des composantes de bruit
+* Étincelles d'allumage, alimentations à découpage, machines, etc.
 </left>
 <right>
-* Noise Reduction (*NR*)
-* $\rightarrow$ Aktive Differenzierung von Nutzsignal und Rauschen
-* Noise Blanker (*NB*)
-* $\rightarrow$ Tastet impulsförmige Störungen aus
+* Réduction du bruit (*NR*)
+* $\rightarrow$ Différenciation active du signal utile et du bruit
+* Suppression du bruit (*NB*)
+* $\rightarrow$ Élimination des perturbations impulsionnelles
 </right>
 
 ---

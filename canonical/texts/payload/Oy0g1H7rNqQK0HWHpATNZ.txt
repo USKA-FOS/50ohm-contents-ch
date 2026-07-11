@@ -1,78 +1,76 @@
-In der Klasse E haben wir bereits die Kapazität eines Kondensators sowie sein qualitatives Verhalten bei Wechselspannung kennengelernt: Ein Kondensator verhält sich wie ein frequenzabhängiger Widerstand. Dabei haben wir zunächst festgehalten, dass der kapazitive Blindwiderstand umgekehrt proportional zur Frequenz ist. Verringert man die Frequenz, so wird der Blindwiderstand $X_C$ größer. Erhöht man hingegen die Frequenz, nimmt der Widerstand entsprechend ab. Der Sachverhalt eines Kondensators bei Wechselspannung lässt sich durch die Formel für den kapazitiven Blindwiderstand $X_C$ beschreiben:
+Dans la classe E, nous avons déjà appris la capacité d'un condensateur ainsi que son comportement qualitatif sous tension alternative : un condensateur se comporte comme une résistance dépendant de la fréquence. Nous avons d'abord noté que la résistance capacitive $X_C$ est inversement proportionnelle à la fréquence. Si l'on réduit la fréquence, la résistance $X_C$ devient plus grande. Si l'on augmente la fréquence, la résistance diminue en conséquence. Le comportement d'un condensateur sous tension alternative peut être décrit par la formule de la résistance capacitive $X_C$ :
 
 $|X_C| = \frac{1}{\omega\cdot C} = \frac{1}{2\pi\cdot f \cdot C}$
 
-In der Klasse A wollen wir dieses Verhalten nun genauer betrachten und auch erfahren, warum dieser Widerstand als "Blindwiderstand" bezeichnet wird. Zunächst müssen wir uns allerdings noch merken, dass der Blindwiderstand eines Kondensators auch negativ ist, um die folgende Frage lösen zu können: 
+Dans la classe A, nous allons examiner ce comportement plus en détail et découvrir pourquoi cette résistance est appelée "résistance réactive". Nous devons d'abord nous rappeler que la résistance réactive d'un condensateur est également négative, afin de pouvoir répondre à la question suivante : 
 
 [question:AC102]
 
 <indepth>
-Warum ist der kapazitive Blindwiderstand negativ? Der Hintergrund liegt in der komplexen Wechselstromrechnung, die für die Amateurfunkprüfung nicht zwingend erforderlich ist.
+Pourquoi la résistance réactive capacitive est-elle négative ? L'arrière-plan réside dans le calcul des nombres complexes, qui n'est pas absolument nécessaire pour l'examen de radioamateur.
 
-Für Leserinnen und Leser mit Kenntnissen in komplexen Zahlen sei jedoch angemerkt, dass die korrekte Darstellung des kapazitiven Blindwiderstands eigentlich
+Pour les lecteurs et lectrices ayant des connaissances en nombres complexes, il est toutefois à noter que la représentation correcte de la résistance réactive capacitive est en réalité
 
 $X_C = \frac{1}{j\omega C}$
 
-lautet. Dabei steht $j$ für die imaginäre Einheit $\sqrt{-1}$.
+où $j$ représente l'unité imaginaire $\sqrt{-1}$.
 
-Erweitert man diesen Ausdruck mit $j$, ergibt sich:
+En développant cette expression avec $j$, on obtient :
 
 $X_C = \frac{1}{j\omega C} = \frac{1 \cdot j}{j\omega C \cdot j} =\frac{-j}{\omega C}$
 
-Daraus wird ersichtlich, dass der kapazitive Blindwiderstand nicht nur negativ, sondern auch komplex ist. Das negative Vorzeichen beschreibt dabei die Phasenlage zwischen Strom und Spannung am Kondensator welche wir in diesem Kapitel noch genauer betrachten.
+Il est ainsi évident que la résistance réactive capacitive n'est pas seulement négative, mais aussi complexe. Le signe négatif décrit la relation de phase entre le courant et la tension au condensateur, que nous examinerons plus en détail dans ce chapitre.
 </indepth>
 
 ---
 
-Moderne, kostengünstige Messgeräte, die Funkamateure heutzutage gerne einsetzen, sind Antennenanalyzer oder vektorielle Network Analyzer (VNA). Sie messen die Veränderung des Blindwiderstandes $X_C$ in Abhängigkeit der Frequenz und können das Messergebnis auch grafisch darstellen.
-Abbildung [ref:a_kapazitiver_Blindwiderstand] zeigt die Veränderung des kapazitiven Blindwiderstandes (blaue Linie) eines $\qty{1500}{\pico\farad}$ Styroflexkondensators im Frequenzbereich von $\qtyrange{1}{4,5}{\mega\hertz}$. 
+Les appareils de mesure modernes et peu coûteux que les radioamateurs utilisent volontiers aujourd'hui sont les analyseurs d'antennes ou les analyseurs de réseau vectoriels (VNA). Ils mesurent la variation de la résistance réactive $X_C$ en fonction de la fréquence et peuvent également représenter graphiquement le résultat de la mesure. La figure [ref:a_kapazitiver_Blindwiderstand] montre la variation de la résistance réactive capacitive (ligne bleue) d'un condensateur Styroflex de $\qty{1500}{\pico\farad}$ dans la bande de fréquences de $\qtyrange{1}{4,5}{\mega\hertz}$. 
 
 <margin>
-[photo:248:a_kapazitiver_Blindwiderstand:Kapazitiver Blindwiderstand $X_C$ (Blaue Kurve) und Phasenlage (Rote Kurve) eines $\qty{1500}{\pico\farad}$ Styroflexkondensators im Frequenzbereich von $\qtyrange{1}{4,5}{\mega\hertz}$.]
+[photo:248:a_kapazitiver_Blindwiderstand:Résistance réactive capacitive $X_C$ (Courbe bleue) et déphasage (Courbe rouge) d'un condensateur Styroflex de $\qty{1500}{\pico\farad}$ dans la bande de fréquences de $\qtyrange{1}{4,5}{\mega\hertz}$.]
 </margin>
 
 
-Versuche nun die folgenden Fragen durch die obige Formel zu beantworten. Achte dabei besonders auf die Einheiten bzw. die Zehnerpotenzen, damit du die richtigen Ergebnisse erhältst.
+Essaie maintenant de répondre aux questions suivantes en utilisant la formule ci-dessus. Fais particulièrement attention aux unités ou aux puissances de dix, afin d'obtenir les bons résultats.
 
 [question:AC104]
 [question:AC105]
 [question:AC106]
 [question:AC107]
 
-Bei der folgenden Frage ist die Kapazität gesucht. Versuche hierfür die Formel umzustellen, damit du die Kapazität $C$ berechnen kannst:
+Pour la question suivante, la capacité est recherchée. Essaie de reformuler la formule afin de pouvoir calculer la capacité $C$ :
 
 [question:AC108]
 
 ---
 
-Führt man eine gleichzeitige Strom- und Spannungsmessung an einem Kondensator mit einem Zweikanal-Oszilloskop durch (vgl. [ref:a_strom_eilt_vor]), zeigt sich ein zunächst überraschendes Ergebnis: Zwischen Strom und Spannung besteht eine Phasenverschiebung von $\qty{90}{\degree}$, wobei der Strom der Spannung vorausläuft.
+Si l'on effectue une mesure simultanée du courant et de la tension sur un condensateur avec un oscilloscope à deux canaux (cf. [ref:a_strom_eilt_vor]), on obtient un résultat initialement surprenant : il existe un déphasage de $\qty{90}{\degree}$ entre le courant et la tension, le courant précédant la tension.
 
-Das bedeutet, dass der Strom bereits seinen Maximalwert erreicht, während die Spannung noch ansteigt. Dieses charakteristische Verhalten ist eine grundlegende Eigenschaft von Kondensatoren und spielt eine wichtige Rolle in der Wechselstromtechnik, insbesondere bei Filtern und Schwingkreisen.
-Die rote Linie in Abbildung [ref:a_kapazitiver_Blindwiderstand] stellt die Phasenlage des kapazitiven Blindwiderstandes bei nahezu konstanten $\qty{-90}{\degree}$ dar.
+Cela signifie que le courant atteint déjà sa valeur maximale tandis que la tension est encore en augmentation. Ce comportement caractéristique est une propriété fondamentale des condensateurs et joue un rôle important dans la technique du courant alternatif, en particulier dans les filtres et les circuits oscillants. La ligne rouge dans la figure [ref:a_kapazitiver_Blindwiderstand] représente la relation de phase de la résistance réactive capacitive à presque $\qty{-90}{\degree}$ constants.
 
 [question:AC101]
 
 <margin>
-[photo:268:a_strom_eilt_vor:Phasenverschiebung am Kondensator zwischen Spannung und Strom]
+[photo:268:a_strom_eilt_vor:Déphasage au condensateur entre tension et courant]
 </margin>
 
 <tip>
-Merkhilfe: Beim Kondensat*ooo*r eilt der Strom v*ooo*r!
+Astuce : Au condensat*ooo*eur, le courant précède v*ooo*r !
 </tip>
 
 ---
 
-Die Phasenverschiebung zwischen Spannung und Strom beträgt also $\qty{90}{\degree}$, wobei der Strom (rot) der Spannung (blau) voreilt, wie in Abbildung [ref:a_blindleistung_kondensator] gezeigt. Betrachtet man die momentane Leistung mit $P = U \cdot I$, so ergibt sich eine Leistungskurve (grün), die symmetrisch um die Nulllinie schwankt, ebenfalls dargestellt in Abbildung [ref:a_blindleistung_kondensator].
+Le déphasage entre la tension et le courant est donc de $\qty{90}{\degree}$, le courant (rouge) précédant la tension (bleue), comme le montre la figure [ref:a_blindleistung_kondensator]. Si l'on considère la puissance instantanée avec $P = U \cdot I$, on obtient une courbe de puissance (verte) qui oscille symétriquement autour de la ligne nulle, également représentée dans la figure [ref:a_blindleistung_kondensator].
 
 <margin>
-[picture:943:a_blindleistung_kondensator:Das Produkt von $U \cdot I$ ergibt die grüne Leistungskurve]
+[picture:943:a_blindleistung_kondensator:Le produit de $U \cdot I$ donne la courbe de puissance verte]
 </margin>
 
-Der Mittelwert dieser Leistung ist Null, das heißt, es wird keine Wirkleistung umgesetzt. Stattdessen wird Energie periodisch im elektrischen Feld des Kondensators gespeichert und wieder an die Quelle zurückgegeben. Man spricht daher bei einem ideal verlustfreien Kondensator von Blindleistung und einem Blindwiderstand.
+La valeur moyenne de cette puissance est nulle, c'est-à-dire qu'aucune puissance active n'est dissipée. Au lieu de cela, l'énergie est stockée périodiquement dans le champ électrique du condensateur et restituée à la source. On parle donc, dans le cas d'un condensateur idéal sans perte, de puissance réactive et de résistance réactive.
 
-Nur ein ohmscher Widerstand nimmt Wirkleistung auf, da bei ihm Spannung und Strom in Phase sind, also keine Phasenverschiebung vorliegt. Das bedeutet, dass Spannung und Strom gleichzeitig positiv oder negativ sind, sodass die momentane Leistung $P = U \cdot I$ stets positiv ist.
+Seule une résistance ohmique absorbe une puissance active, car pour elle, la tension et le courant sont en phase, c'est-à-dire qu'il n'y a pas de déphasage. Cela signifie que la tension et le courant sont simultanément positifs ou négatifs, de sorte que la puissance instantanée $P = U \cdot I$ est toujours positive.
 
-Ein idealer Blindwiderstand hingegen nimmt keine Wirkleistung auf und wird daher im Idealfall auch nicht warm. Stattdessen wird Energie periodisch gespeichert und wieder an die Quelle zurückgegeben.
+Une résistance réactive idéale, en revanche, n'absorbe pas de puissance active et ne chauffe donc pas idéalement. Au lieu de cela, l'énergie est stockée périodiquement et restituée à la source.
 
 [question:AC111]
 
@@ -80,20 +78,20 @@ Ein idealer Blindwiderstand hingegen nimmt keine Wirkleistung auf und wird daher
 
 ---
 
-Erwärmt sich ein Kondensator in Hochfrequenzanwendungen dennoch, so ist dies ein Hinweis auf Verluste im Bauteil. Ein idealer Kondensator würde keine Energie in Wärme umsetzen, reale Kondensatoren besitzen jedoch parasitäre Eigenschaften, die zu Verlusten führen.
+Si un condensateur chauffe néanmoins dans les applications haute fréquence, cela indique des pertes dans le composant. Un condensateur idéal ne convertirait pas d'énergie en chaleur, mais les condensateurs réels possèdent des propriétés parasites qui entraînent des pertes.
 
-Diese Verluste lassen sich im Ersatzschaltbild erkennen: Der Widerstand $R_\text{ESR}$ (Equivalent Series Resistance) beschreibt die ohmschen Verluste im Kondensator, während $R_\text{Isolator}$ die Verluste im Dielektrikum modelliert. Zusätzlich beeinflusst die parasitäre Induktivität $L_\text{ESL}$ das Verhalten bei hohen Frequenzen.
+Ces pertes peuvent être identifiées dans le circuit équivalent : la résistance $R_\text{ESR}$ (Equivalent Series Resistance) décrit les pertes ohmiques dans le condensateur, tandis que $R_\text{Isolator}$ modélise les pertes dans le diélectrique. En outre, l'inductance parasite $L_\text{ESL}$ influence le comportement aux hautes fréquences.
 
-Zur technischen Bewertung dieser Verluste verwendet man die Güte $Q$ (Quality Factor) sowie den Verlustfaktor $\tan\delta$. Beide Größen beschreiben, wie stark ein realer Kondensator vom idealen Verhalten abweicht.
+Pour évaluer techniquement ces pertes, on utilise le facteur de qualité $Q$ (Quality Factor) ainsi que le facteur de perte $\tan\delta$. Les deux grandeurs décrivent dans quelle mesure un condensateur réel s'écarte du comportement idéal.
 
-Zwischen beiden Größen besteht ein direkter Zusammenhang:
+Il existe une relation directe entre ces deux grandeurs :
 
 $Q = \frac{1}{\tan\delta}$
 
-Merke: Hohe Verluste führen zu einer niedrigen Güte $Q$ und damit zu einem großen Verlustfaktor $\tan\delta$. Je höher die Frequenz, desto stärker wirken sich diese Verluste aus, da der Blindwiderstand $X_C$ mit steigender Frequenz abnimmt, während die parasitären Widerstände konstant bleiben.
+Rappel : des pertes élevées entraînent un facteur de qualité $Q$ faible et donc un facteur de perte $\tan\delta$ élevé. Plus la fréquence est élevée, plus ces pertes se font sentir, car la résistance réactive $X_C$ diminue avec l'augmentation de la fréquence, tandis que les résistances parasites restent constantes.
 
 <margin>
-[picture:1065:a_ersatzchaltbild_kondensator:Ersatzschaltbild eines realen Kondensators mit parasitären Verlusten.]
+[picture:1065:a_ersatzchaltbild_kondensator:Circuit équivalent d'un condensateur réel avec des pertes parasites.]
 </margin>
 
 ---
@@ -103,14 +101,14 @@ Merke: Hohe Verluste führen zu einer niedrigen Güte $Q$ und damit zu einem gro
 [question:AC110]
 
 <indepth>
-Durch die komplexe Wechselstromrechnung kann man den Blindwiderstand $X_C$ mit den parasitären Verlusten $R$ in Form eines Zeigerdiagramms darstellen: 
-[picture:1066:a_tan_delta:$\tan\delta$ im Komplexen Zeigerdiagramm]
+Grâce au calcul des nombres complexes, on peut représenter la résistance réactive $X_C$ avec les pertes parasites $R$ sous forme de diagramme vectoriel : 
+[picture:1066:a_tan_delta:$\tan\delta$ dans le diagramme vectoriel complexe]
 
-Der Tangens beschreibt ja das Verhältnis von Gegenkathete zu Ankathete, also in diesem Fall die Verluste $R$ im Verhältnis zum verlustfreien kapazitiven Blindwiderstand $X_C$. 
+Le tangente décrit le rapport de la contre-cathode à la cathode, c'est-à-dire dans ce cas les pertes $R$ par rapport à la résistance réactive capacitive sans perte $X_C$. 
 
 $\tan\delta = \frac{R}{|X_C|}$
 
-Je größer die Verluste, desto größer ist der Winkel $\delta$ und damit auch der Verlustfaktor $\tan\delta$. Ein idealer Kondensator würde einen Winkel von $\delta = 0$ Grad aufweisen, da er keine Verluste hat.
+Plus les pertes sont grandes, plus l'angle $\delta$ est grand et donc le facteur de perte $\tan\delta$ est grand. Un condensateur idéal présenterait un angle de $\delta = 0$ degré, car il n'a pas de pertes.
 
-Durch diese komplexe bzw. geometrische Addition ergibt sich die Größe $Z$. Sie wird als *Impedanz* bezeichnet und beschreibt den komplexen Gesamtwiderstand eines Bauteils. Der Betrag der Impedanz $|Z|$ entspricht dem sogenannten *Scheinwiderstand*.
+Cette addition complexe ou géométrique donne la grandeur $Z$. Elle est appelée *impédance* et décrit la résistance totale complexe d'un composant. La valeur de l'impédance $|Z|$ correspond à la soi-disant *résistance apparente*.
 </indepth>

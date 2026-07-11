@@ -1,8 +1,8 @@
-Auch im Amateurfunk werden viele digitale Übertragungsverfahren eingesetzt. Ein sehr einfaches haben wir schon besprochen. Bei der Morsetelegrafie mit Continuous Wave (CW) wird ein Träger in einem bestimmten Rhythmus ein- und wieder ausgeschaltet. Es gibt also nur zwei Stufen, $\qty{0}{\percent}$ und $\qty{100}{\percent}$ der maximalen Amplitude. Die Übertragung erfolgt also digital.
+Même dans le radioamateur, de nombreux procédés de transmission numérique sont utilisés. Nous en avons déjà discuté un très simple. Dans la télégraphie Morse avec Continuous Wave (CW), une porteuse est allumée et éteinte à un rythme déterminé. Il n'y a donc que deux étapes, $\qty{0}{\percent}$ et $\qty{100}{\percent}$ de l'amplitude maximale. La transmission est donc numérique.
 
-Morsetelegrafie ist das älteste Übertragungsverfahren, das im Funk benutzt wird. Die ersten Funksender kannten kein anderes Verfahren. Die einzige Möglichkeit der Informationsübermittlung war, mit einer Taste den Sender immer wieder kurz ein- und auszuschalten. Beim Empfänger ist das dann als Ton zu hören, der in dem gegebenen Rhythmus an- und wieder ausgeht.
+La télégraphie Morse est le plus ancien procédé de transmission utilisé dans les ondes radio. Les premiers émetteurs radio ne connaissaient aucun autre procédé. La seule possibilité de transmission d'informations était d'allumer et d'éteindre à nouveau brièvement l'émetteur avec une touche. À la réception, cela se fait entendre comme un son qui s'allume et s'éteint à nouveau selon le rythme donné.
 
-Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertragen, wird der Morsecode verwendet. Für jedes Zeichen ist eine bestimmte Abfolge an kurzen und langen Tönen festgelegt. In den Tabellen [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] und [ref:n_morsetelegrafie_morsecode_spezial] findet sich ein Teil des Morsecodes. Ein Punkt ([morse:e]) steht für einen kurzen Ton und ein Strich ([morse:t]) für einen langen Ton. Die Decodierung, also die Übersetzung der Töne in Zeichen beim Empfänger, erfolgt mit den Ohren und dem Gehirn - oder heutzutage auch mit dem Computer.
+Pour transmettre différents caractères, c'est-à-dire des lettres, des chiffres et des signes de ponctuation, le code Morse est utilisé. Pour chaque caractère, une séquence déterminée de tons courts et longs est définie. Dans les tableaux [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] et [ref:n_morsetelegrafie_morsecode_spezial], on trouve une partie du code Morse. Un point ([morse:e]) représente un ton court et un trait ([morse:t]) un ton long. Le décodage, c'est-à-dire la traduction des tons en caractères à la réception, se fait avec les oreilles et le cerveau - ou de nos jours aussi avec l'ordinateur.
 
 <webmargin>
 | c: | l: | c: | l: | c: | l: |
@@ -17,7 +17,7 @@ Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertrage
 | H | [morse:h] | R | [morse:r] | Ö | [morse:ö] |
 | I | [morse:i] | S | [morse:s] | Ü | [morse:ü] |
 | J | [morse:j] | T | [morse:t] |  |  |
-[table:n_morsetelegrafie_morsecode_buchstaben:Morsecode (Buchstaben)]
+[table:n_morsetelegrafie_morsecode_buchstaben:Code Morse (lettres)]
 </webmargin>
 
 <webmargin>
@@ -29,25 +29,25 @@ Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertrage
 | 3 | [morse:3] | 8 | [morse:8] | ? | [morse:?] |
 | 4 | [morse:4] | 9 | [morse:9] | - | [morse:-] |
 |  |  |  |  | @ | [morse:@] |
-[table:n_morsetelegrafie_morsecode_ziffern_satzzeichen:Morsecode (Ziffern und Satzzeichen)]
+[table:n_morsetelegrafie_morsecode_ziffern_satzzeichen:Code Morse (chiffres et signes de ponctuation)]
 </webmargin>
 
 <webmargin>
 | l: | l: |
 |  |  |
-| Unterbrechung (BK) | [morse:bk] |
-| Trennung innerhalb eines Durchgangs (BT, =) | [morse:=] |
-| Ende des Durchgangs (AR)  | [morse:ar] |
-| Ende der Sendung (SK) | [morse:sk] |
-| Fehler, Irrung | [morse:h] [morse:h]|
-[table:n_morsetelegrafie_morsecode_spezial:Morsecode (besondere Zeichen, Auswahl)]
+| Interruption (BK) | [morse:bk] |
+| Séparation au sein d'un passage (BT, =) | [morse:=] |
+| Fin du passage (AR)  | [morse:ar] |
+| Fin de l'émission (SK) | [morse:sk] |
+| Erreur, confusion | [morse:h] [morse:h]|
+[table:n_morsetelegrafie_morsecode_spezial:Code Morse (signes particuliers, sélection)]
 </webmargin>
 
-Obwohl Übertragungsverfahren für Sprache, Bilder und sogar Video erfunden wurden, wird Morsetelegrafie bis heute im Amateurfunk praktiziert. Lange Zeit war es weltweit vorgeschrieben, dass jeder Funkamateur eine Morseprüfung ablegen musste, bevor er auf der Kurzwelle funken durfte. Erst in den 1990er Jahren wurde diese Regel aufgehoben. Seitdem darf jedes Land selber entscheiden, ob es eine Morseprüfung verlangt. In Deutschland ist sie seit 2003 freiwillig.
+Bien que des procédés de transmission pour la parole, les images et même la vidéo aient été inventés, la télégraphie Morse est encore pratiquée aujourd'hui dans le radioamateur. Pendant longtemps, il était obligatoire dans le monde entier que chaque radioamateur passe un examen de Morse avant de pouvoir émettre sur les ondes courtes. Ce n'est qu'au cours des années 1990 que cette règle a été abrogée. Depuis lors, chaque pays peut décider lui-même s'il exige un examen de Morse. En Allemagne, il est volontaire depuis 2003.
 
 [question:VA304]
 
-Eine Besonderheit gibt es bei Betriebsabwicklung in Morsetelegrafie zu beachten: Die Wahl einer geeigneten Geschwindigkeit. Morsezeichen können unterschiedlich schnell gegeben werden. Allerdings braucht es viel Übung, um auch schnell gegebene Morsezeichen aufnehmen zu können. Daher ist es wichtig, darauf zu achten, die Gegenstelle mit der Geschwindigkeit nicht zu überfordern. Es ist eine gute Faustregel, nicht schneller zu geben als die andere Station und auch nicht schneller, als man selber aufnehmen kann. So ist sichergestellt, dass alle mitkommen.
+Il y a une particularité à prendre en compte lors de la manipulation en télégraphie Morse : le choix d'une vitesse appropriée. Les signes Morse peuvent être donnés à des vitesses différentes. Cependant, il faut beaucoup de pratique pour pouvoir également recevoir des signes Morse donnés rapidement. Il est donc important de veiller à ne pas surcharger la station correspondante avec la vitesse. Il est bon de ne pas donner plus vite que l'autre station et aussi de ne pas donner plus vite que ce que l'on peut soi-même recevoir. Ainsi, tout le monde est assuré de suivre.
 
 [question:BE117]
 [question:BE118]

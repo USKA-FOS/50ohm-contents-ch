@@ -1,14 +1,14 @@
-Aber nicht nur von Antennen abgestrahlte, unerwünschte Aussendungen können Störungen verursachen. Auch der Transceiver selber oder dessen Zuleitungen können hochfrequente Schwingungen als Funkwellen abstrahlen. Es kann auch dazu kommen, dass elektrische Schwingungen in das Stromnetz gelangen.  Dadurch können - selbst wenn die Antenne weit weg ist - elektronische Geräte gestört werden, die sich in der Nähe eines Transceivers befinden oder in der Nachbarschaft am Stromnetz angeschlossen sind.
+Mais pas seulement les émissions indésirables rayonnées par les antennes peuvent causer des perturbations. Le transceiver lui-même ou ses lignes d'alimentation peuvent également rayonner des oscillations haute fréquence sous forme d'ondes radio. Il peut également arriver que des oscillations électriques pénètrent dans le réseau électrique.  Ainsi, même si l'antenne est éloignée, des appareils électroniques peuvent être perturbés, qui se trouvent à proximité d'un transceiver ou sont connectés au réseau électrique dans le voisinage.
 
-Grundsätzlich kann so jede Art von elektronischem Gerät gestört werden. Mögliche Folgen sind beispielsweise:
-* Geräusche aus Lautsprechern
-* Vorübergehender Ausfall von Internetzugang oder WLAN
-* Schwierigkeiten beim Radio- oder Fernsehempfang
-* Fehler in der Steuerung von Heizungen
+En principe, tout type d'appareil électronique peut être perturbé. Les conséquences possibles sont, par exemple:
+* Bruit dans les haut-parleurs
+* Panne temporaire de l'accès Internet ou du WLAN
+* Difficultés pour la réception radio ou télévisée
+* Erreurs dans le contrôle des chauffages
 
-Das Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln (EMVG) legt zur Vermeidung solcher Störungen bestimmte *Schutzanforderungen zur Gewährleistung der elektromagnetischen Verträglichkeit* fest, die von allen technischen Geräten eingehalten werden müssen. Einerseits wird verlangt, dass kein Gerät so starke Störungen erzeugen darf, dass andere Geräte nicht mehr funktionieren. Andererseits verlangt das Gesetz, dass alle Geräte eine gewisse Störfestigkeit aufweisen. Das bedeutet, dass sie unempfindlich gegenüber zu erwartenden elektromagnetischen Störungen sein müssen.
+La loi sur la compatibilité électromagnétique des équipements (EMVG) fixe certaines *exigences de protection pour garantir la compatibilité électromagnétique* afin d'éviter de telles perturbations, que tous les appareils techniques doivent respecter. D'une part, il est exigé qu'aucun appareil ne doit générer des perturbations si fortes que d'autres appareils ne fonctionnent plus. D'autre part, la loi exige que tous les appareils présentent une certaine résistance aux perturbations. Cela signifie qu'ils doivent être insensibles aux perturbations électromagnétiques attendues.
 
-Diese Schutzanforderungen sind grundsätzlich auch von Amateurfunkstationen einzuhalten. Das Amateurfunkgesetz gibt Funkamateuren allerdings das Privileg, beim zweiten Aspekt, also der Störfestigkeit einer Amateurfunkanlage, von den gesetzlichen Vorgaben abzuweichen und selber festzulegen, wie störfest die Anlage sein soll.
+Ces exigences de protection doivent en principe également être respectées par les stations de radioamateurs. Cependant, la loi sur le radioamateur donne aux radioamateurs le privilège de s'écarter, pour le deuxième aspect, c'est-à-dire la résistance aux perturbations d'une installation de radioamateur, des prescriptions légales et de déterminer eux-mêmes le niveau de résistance aux perturbations que doit avoir l'installation.
 
 [question:VC118]
 [question:VC120]
@@ -19,7 +19,7 @@ Diese Schutzanforderungen sind grundsätzlich auch von Amateurfunkstationen einz
 [question:VS003]
 [question:VS004]
 
-Zu den wichtigsten Maßnahmen für die vorgeschriebene elektromagnetische Verträglichkeit (EMV) gehören das *Abschirmen* und *Erden* von allen Geräten und Geräteteilen, in denen hochfrequente Schwingungen auftreten. Diese Maßnahmen können in beide Richtungen wirken: Einerseits schützen sie vor Störungen durch andere Geräte und andererseits können sie vermeiden, dass andere Geräte gestört werden.
+Parmi les mesures les plus importantes pour la compatibilité électromagnétique (CEM) prescrite figurent le *blindage* et la *mise à la terre* de tous les appareils et parties d'appareils dans lesquels se produisent des oscillations haute fréquence. Ces mesures peuvent agir dans les deux sens : d'une part, elles protègent contre les perturbations causées par d'autres appareils et, d'autre part, elles peuvent éviter que d'autres appareils ne soient perturbés.
  
 [question:NK101]
 [question:NJ101]

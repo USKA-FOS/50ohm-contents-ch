@@ -1,71 +1,71 @@
-## Wellenwiderstand
+## Impédance de la ligne
 
-* Unabhängig von der Länge der Leitung
-* Unabhängig von den an die Leitung angeschlossenen Geräten
-* Abhängig vom Querschnittsaufbau (Leiter, ggf. Dielektrikum)
-* Im Bereich der Hochfrequenz ist der Wellenwiderstand weitgehend konstant
+* Indépendant de la longueur de la ligne
+* Indépendant des appareils connectés à la ligne
+* Dépend de la structure de la section transversale (conducteur, éventuellement diélectrique)
+* Dans le domaine des hautes fréquences, l'impédance de la ligne est largement constante
 
 ---
 [question:EG301]
 ---
-## Leitungen
+## Lignes
 
 <left>
-* Paralleldraht-Speiseleitung
-* Koaxialkabel
+* Ligne d'alimentation à fils parallèles
+* Lignes coaxiales usuelles
 </left>
 <right>
-* Das Koaxialkabel vermeidet unerwünschte Abstrahlung
-* Unerwünschte Abstrahlungen können durch *Mantelwellen* auftreten
-* Mantelwellen lassen sich durch Mantelwellensperren unterdrücken
+* Le câble coaxial évite les rayonnements indésirables
+* Les rayonnements indésirables peuvent se produire par des *ondes de surface*
+* Les ondes de surface peuvent être supprimées par des barrières d'ondes de surface
 </right>
 <note>
-* Mehr zu Mantelwellen später
+* Plus d'informations sur les ondes de surface plus tard
 </note>
 ---
 [question:EG302]
 ---
-## Einkopplungen
+## Couplages
 
-* Kabel, die direkt neben Koaxialkabel verlegt werden, können Einkopplungen erfahren
-* Dadurch gelangt Hochfrequenz beispielsweise ins Stromnetz
-* Und Leistung zur Antenne geht verloren
+* Les câbles installés directement à côté d'un câble coaxial peuvent subir des couplages
+* Ainsi, les hautes fréquences peuvent par exemple parvenir au réseau électrique
+* Et la puissance vers l'antenne est perdue
 
 ---
 [question:EG306]
 ---
-### Unsymmetrische Speiseleitung
+### Ligne d'alimentation asymétrique
 
 <left>
-[photo:65:e_uebertragungsleitungen_koaxialkabel:Geöffnetes Koaxialkabel aus Mantel, Schirmung, Dielektrikum und Innenleiter]
+[photo:65:e_uebertragungsleitungen_koaxialkabel:Coaxialkabel ouvert, gaine, blindage, diélectrique et conducteur interne]
 </left>
 <right>
-* Wie bei Antennen, ist eine Speiseleitung unsymmetrisch, wenn unterschiedliche Spannungen anliegen
-* Beim Koaxialkabel sind die beiden Leiter unterschiedlich geformt
-* Der Schirm weist gegenüber der Erde keine Spannung auf
+* Comme pour les antennes, une ligne d'alimentation est asymétrique lorsque des tensions différentes sont appliquées
+* Dans le câble coaxial, les deux conducteurs sont de formes différentes
+* Le blindage n'a pas de tension par rapport à la terre
 </right>
 
 ---
 [question:EG304]
 ---
-## Spannungsfestigkeit
+## Tension de claquage
 
-* Im Koaxialkabel treten im Dielektrikum Verluste auf
-* Es kann bei hohen Spannungen zu einem Durchschlag kommen
+* Dans le câble coaxial, des pertes se produisent dans le diélectrique
+* Il peut y avoir un claquage à haute tension
 
 ---
 [question:EG305]
 ---
-## Koaxialstecker
+## Connecteurs coaxiaux
 
 <left>
-[photo:73:e_uebertragungsleitungen_n_stecker_buchse:N-Buchse und N-Stecker]
+[photo:73:e_uebertragungsleitungen_n_stecker_buchse:Connecteur N et prise N]
 </left>
 <right>
-* *N-Stecker*: für niedrige und hohe Frequenz und hohe Leistung
-* *BNC-Stecker*: für niedrige und hohe Frequenz und geringe Leistung
-* *SMA-Stecker*: für hohe Frequenz und geringe Leistung
-* *UHF/PL-Stecker*: für niedrige Frequenz und hohe Leistung
+* *Connecteur N* : pour les basses et hautes fréquences et la haute puissance
+* *Connecteur BNC* : pour les basses et hautes fréquences et la faible puissance
+* *Connecteur SMA* : pour les hautes fréquences et la faible puissance
+* *Connecteur UHF/PL* : pour les basses fréquences et la haute puissance
 </right>
 
 ---

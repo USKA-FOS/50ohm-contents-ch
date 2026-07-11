@@ -1,10 +1,10 @@
-* Automatischer Sendebetrieb durch Spracherkennung statt PTT
+* Fonctionnement automatique de l'émission par reconnaissance vocale au lieu de PTT
 * *voice-operated exchange* (*VOX*)
-* Beim Sprechen schaltet Transceiver auf Sendung
-* Bei Stille endet der Sendebetrieb nach kurzer Verzögerung
+* En parlant, l'émetteur-récepteur passe en mode émission
+* En cas de silence, l'émission se termine après un court retard
 
 <note>
-Pegel und Verzögerung lassen sich oft einstellen
+Le niveau et le retard peuvent souvent être ajustés
 </note>
 
 ---

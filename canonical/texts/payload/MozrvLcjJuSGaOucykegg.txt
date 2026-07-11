@@ -1,68 +1,68 @@
-Wir haben bereits die drei wichtigsten Größen der Elektrotechnik kennengelernt, und zwar die elektrische Spannung, den elektrischen Strom und den Widerstand:
-* Zunächst haben wir gelernt, dass elektrische Ladungen in Spannungsquellen getrennt werden und dadurch eine elektrische Spannung entsteht. Diese bezeichnen wir mit dem Buchstaben $U$ und messen sie in Volt ($\unit{V}$).
-* Dann haben wir gelernt, dass die elektrische Spannung dafür sorgt, dass in einem geschlossenen Stromkreis ein elektrischer Strom fließt, den wir mit dem Buchstaben $I$ bezeichnen und in Ampere ($\unit{A}$) messen.
-* Und zu Beginn dieses Kapitels haben wir dann noch gelernt, dass Verbraucher in einem Stromkreis einen Widerstand ausüben und somit den Stromfluss ausbremsen. Den Widerstand bezeichnen wir mit dem Buchstaben $R$ und messen ihn in Ohm ($\unit{\ohm}$).
+Nous avons déjà appris les trois grandeurs les plus importantes de l'électrotechnique, à savoir la tension électrique, le courant électrique et la résistance :
+* Tout d'abord, nous avons appris que les charges électriques sont séparées dans les sources de tension et qu'une tension électrique en résulte. Nous désignons cette tension par la lettre $U$ et la mesurons en volts ($\unit{V}$).
+* Ensuite, nous avons appris que la tension électrique fait en sorte qu'un courant électrique circule dans un circuit fermé, que nous désignons par la lettre $I$ et mesurons en ampères ($\unit{A}$).
+* Et au début de ce chapitre, nous avons également appris que les consommateurs dans un circuit exercent une résistance et freinent ainsi le flux de courant. Nous désignons la résistance par la lettre $R$ et la mesurons en ohms ($\unit{\ohm}$).
 
 %<margin>
-%[p-h-o-t-o:147:ohmsches_gesetz_comic:Bildhafte Darstellung der Zusammenhänge des Ohmschen Gesetzes]
+%[p-h-o-t-o:147:ohmsches_gesetz_comic:Représentation imagée des relations de la loi d'Ohm]
 %</margin>
 
 [question:NA203]
 
 ---
 
-Aber wie hängen diese drei Größen zusammen? Schauen wir uns ein Beispiel in der Abbildung [ref:n_ohmsches_gesetz_stromkreis_mit_batterie] an. Wir haben einen Stromkreis, der aus einer Batterie als Spannungsquelle und einem Widerstand besteht. Wir kennen die Spannung und wir können den Strom messen. Die Batterie hat eine Spannung von $\qty{10}{\volt}$, und es fließt ein Strom von $\qty{1}{\milli\ampere}$.
+Mais comment ces trois grandeurs sont-elles liées ? Examinons un exemple dans la figure [ref:n_ohmsches_gesetz_stromkreis_mit_batterie]. Nous avons un circuit électrique composé d'une batterie comme source de tension et d'une résistance. Nous connaissons la tension et nous pouvons mesurer le courant. La batterie a une tension de $\qty{10}{\volt}$, et un courant de $\qty{1}{\milli\ampere}$ circule.
 
 <margin>
-[picture:664:n_ohmsches_gesetz_stromkreis_mit_batterie:Stromkreis mit Batterie]
+[picture:664:n_ohmsches_gesetz_stromkreis_mit_batterie:Circuit électrique avec batterie]
 </margin>
 
-Würde man die $\qty{10}{\volt}$-Batterie in dem Beispiel durch eine $\qty{20}{\volt}$-Batterie ersetzen, dann würde sich auch der Strom von $\qty{1}{\milli\ampere}$ auf $\qty{2}{\milli\ampere}$ erhöhen. Wenn man also die Spannung verdoppelt, dann verdoppelt sich auch der Strom. Entsprechend würde sich auch der Strom auf $\qty{0,5}{\milli\ampere}$ halbieren, wenn man die Spannung auf $\qty{5}{\volt}$ halbieren würde.
+Si l'on remplaçait la batterie de $\qty{10}{\volt}$ dans l'exemple par une batterie de $\qty{20}{\volt}$, le courant passerait de $\qty{1}{\milli\ampere}$ à $\qty{2}{\milli\ampere}$. Si l'on double donc la tension, le courant double également. De même, le courant serait réduit de moitié à $\qty{0,5}{\milli\ampere}$ si l'on réduisait la tension de moitié à $\qty{5}{\volt}$.
 
-Wir können ein Muster erkennen: In unserem Beispiel ist die Spannung $U$ in Volt immer 10000-fach größer als der Strom $I$ in Ampere. Oder mathematisch ausgedrückt:
+Nous pouvons observer un modèle : dans notre exemple, la tension $U$ en volts est toujours 10 000 fois plus grande que le courant $I$ en ampères. Ou, exprimé mathématiquement :
 
 $\dfrac{U}{I} = \dfrac{\qty{10}{\volt}}{\qty{0,001}{\ampere}} = \dfrac{\qty{20}{\volt}}{\qty{0,002}{\ampere}} = \dfrac{\qty{5}{\volt}}{\qty{0,0005}{\ampere}} = 10000 \frac{\unit{\volt}}{\unit{\ampere}}$
 
 ---
 
-In der Fachsprache nennt man dies Proportionalität: $I$ ist proportional zu $U$. Die Einheiten mal außen vor gelassen, beträgt der sogenannte *Proportionalitätsfaktor* in unserem Beispiel 10000: Nimmt man den einen Wert mal 10000, dann erhält man den anderen Wert.
+En termes techniques, on appelle cela la proportionnalité : $I$ est proportionnel à $U$. En laissant de côté les unités, le facteur de proportionnalité dans notre exemple est de 10 000 : si l'on multiplie l'une des valeurs par 10 000, on obtient l'autre valeur.
 %Dieses Verhalten kann man sich auch wieder am Wasserkreislauf vorstellen: Wenn die Pumpe mit mehr Druck pumpt, wird auch mehr Wasser durch den Kreislauf fließen.
 
 <indepth>
-Der *Proportionalitätsfaktor* ist das zahlenmäßige Verhältnis zweier Größen, die proportional zueinander sind.
+Le *facteur de proportionnalité* est le rapport numérique de deux grandeurs qui sont proportionnelles l'une à l'autre.
 </indepth>
 
-Es bleibt aber eine Frage. Wo kommt jetzt dieser Faktor von 10000 her? Die Antwort ist simpel: Das ist unser Widerstand $R$! Und wenn wir jetzt noch die Einheiten betrachten, fügt sich ein Gesamtbild zusammen: Die Einheit Ohm ist nämlich so definiert, dass $\qty{1}{\ohm}$ dasselbe wie $\qty{1}{\volt\per\ampere}$ ist. Daher dürfen wir statt $\qty{10000}{\volt\per\ampere}$ einfach $\qty{10000}{\ohm}$ schreiben! Unser Widerstand beträgt also $\qty{10000}{\ohm}$ oder kurz $\qty{10}{\kilo\ohm}$:
+Il reste cependant une question. D'où vient ce facteur de 10 000 ? La réponse est simple : c'est notre résistance $R$ ! Et si nous considérons maintenant les unités, un tableau d'ensemble se dessine : l'unité ohm est définie de telle sorte que $\qty{1}{\ohm}$ est la même chose que $\qty{1}{\volt\per\ampere}$. Par conséquent, nous pouvons écrire $\qty{10000}{\ohm}$ au lieu de $\qty{10000}{\volt\per\ampere}$ ! Notre résistance est donc de $\qty{10000}{\ohm}$ ou plus simplement de $\qty{10}{\kilo\ohm}$ :
 
 $\qty{10000}{\volt\per\ampere} = \qty{10000}{\ohm}$
 
 %Es stellt sich aber immer noch folgende Frage: Warum fließen in unserem Beispiel genau $\qty{1}{\milli\ampere}$, wenn die Spannung $\qty{10}{\volt}$ beträgt? Die Höhe des Stroms hängt vom Wert des Widerstands ab. Ist der Widerstand groß, so wird der Strom klein sein, ist der Widerstand hingegen klein, dann wird der Strom groß sein.
 
-Wir haben gelernt: Den Wert des Widerstands kann man aus der Spannung und dem Strom berechnen. Er ist das *Verhältnis von Spannung und Strom*, oder anders formuliert: Wenn man die Spannung durch den Strom teilt, erhält man den Wert des Widerstands.
+Nous avons appris : la valeur de la résistance peut être calculée à partir de la tension et du courant. Elle est le *rapport de la tension et du courant*, ou autrement dit : si l'on divise la tension par le courant, on obtient la valeur de la résistance.
 
 ---
 
-Diesen Zusammenhang kann man durch die folgende Formel darstellen, die als *Ohmsches Gesetz* bezeichnet wird: 
+Cette relation peut être représentée par la formule suivante, appelée *loi d'Ohm* : 
 
 $ R = \dfrac{U}{I} $
 
 <person>
-Der deutsche Physiker *Georg Simon Ohm* hat im Jahre 1826 den Zusammenhang zwischen der elektrischen Spannung, dem elektrischen Strom und dem Widerstand entdeckt. Ihm zu Ehren wird die Formel $ R = \frac{U}{I} $ als Ohmsches Gesetz bezeichnet.
+Le physicien allemand *Georg Simon Ohm* a découvert en 1826 la relation entre la tension électrique, le courant électrique et la résistance. En son honneur, la formule $ R = \frac{U}{I} $ est appelée loi d'Ohm.
 </person>
 
 [question:NB505]
 
-Wenn man allerdings nur den Widerstand und die Spannung kennt und den entsprechenden Strom berechnen möchte, dann kann man das Ohmsche Gesetz wie folgt verwenden: 
+Si, en revanche, on ne connaît que la résistance et la tension et que l'on veut calculer le courant correspondant, on peut utiliser la loi d'Ohm comme suit : 
 
 $ I = \dfrac{U}{R} $
 
-Für den Fall, dass man nur den Widerstand und den Strom kennt und die entsprechende Spannung berechnen möchte, gibt es eine weitere Variante der Formel: 
+Dans le cas où l'on ne connaît que la résistance et le courant et que l'on veut calculer la tension correspondante, il existe une autre variante de la formule : 
 
 $ U = R\cdot I $
 
 [question:NB504]
 
-Man muss sich diese Formeln nicht unbedingt merken. Sie sind auch in der Formelsammlung zu finden, die bei der Prüfung als Hilfsmittel zur Verfügung gestellt wird. Für die Berechnungen kann man in der Prüfung einen Taschenrechner verwenden.
+Il n'est pas nécessaire de mémoriser ces formules. Elles se trouvent également dans le recueil de formules, qui est mis à disposition comme moyen auxiliaire lors de l'examen. Pour les calculs, un calculateur de poche peut être utilisé lors de l'examen.
 
 [question:NB502]
 [question:NB503]

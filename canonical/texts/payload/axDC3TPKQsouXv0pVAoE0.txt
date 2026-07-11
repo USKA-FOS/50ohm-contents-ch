@@ -1,17 +1,17 @@
-## Das RST-System
+## Le système RST
 
-Qualität der Funkverbindung hängt ab von
-* Sendeleistung
-* verwendete Antenne
-* Entfernung
-* aktuelle Ausbreitungsbedingungen
+La qualité de la liaison radio dépend de
+* la puissance d'émission
+* l'antenne utilisée
+* la distance
+* les conditions de propagation actuelles
 
 <fragment>
-Im Rapport beschreibt die empfangende Station die Qualität der Verbindung
+Dans le rapport, la station réceptrice décrit la qualité de la liaison
 </fragment>
 
 <note>
-* Rapport ist ein Empfangsbericht
+* Le rapport est un rapport de réception
 </note>
 
 ---
@@ -19,70 +19,70 @@ Im Rapport beschreibt die empfangende Station die Qualität der Verbindung
 
 ---
 
-### RST-System
+### Système RST
 
-| l: Wert | l: Bereich | l: Bedeutung | l: Englisch |
-| R | 1 - 5 | Lesbarkeit | Readability |
-| S | 1 - 9 | Signalstärke | Signal Strength |
-| T | 1 - 9 | Tonqualität | Tone |
-[table:n_rst:Die Bestandteile des RST-Rapports]
+| l: Valeur | l: Domaine | l: Signification | l: Anglais |
+| R | 1 - 5 | Lisibilité | Readability |
+| S | 1 - 9 | Intensité du signal | Signal Strength |
+| T | 1 - 9 | Qualité du son | Tone |
+[table:n_rst:Les composantes du rapport RST]
 
 <note>
-* Alles wird in den nächsten Folien genauer erklärt
-* R: Subjektiv
-* S: Ablesen vom S-Meter
-* T: Nur bei Morsetelegrafie und digitalen Übertragungen
+* Tout est expliqué plus en détail dans les diapositives suivantes
+* R: Subjectif
+* S: Lecture sur le S-mètre
+* T: Uniquement pour la télégraphie Morse et les transmissions numériques
 </note>
 
 --- style="font-size: 0.8em;"
 
-#### Readability
+#### Lisibilité
 
-Subjektive Bewertung des Lesbarkeit (Verständlichkeit)
+Évaluation subjective de la lisibilité (compréhensibilité)
 
-| l: R | l: Beurteilung |
-| 1 | nicht lesbar |
-| 2 | zeitweise lesbar |
-| 3| mit Schwierigkeiten lesbar |
-| 4 | ohne Schwierigkeiten lesbar |
-| 5 | einwandfrei lesbar |
-[table:n_rst_r:Anhaltspunkte für die subjektive Bewertung der Lesbarkeit (Verständlichkeit)]
+| l: R | l: Évaluation |
+| 1 | illisible |
+| 2 | lisible par intermittence |
+| 3| lisible avec difficulté |
+| 4 | lisible sans difficulté |
+| 5 | lisible parfaitement |
+[table:n_rst_r:Points de repère pour l'évaluation subjective de la lisibilité (compréhensibilité)]
 
 ---
 
-#### Signal Strength
+#### Intensité du signal
 
-Vom Funkgerät ablesen
+Lire sur l'appareil radio
 
-[photo:123:n_rst_s-meter:Display eines IC9700-Transceivers, hervorgehoben ist das S-Meter, das den aktuellen Empfangspegel anzeigt]
+[photo:123:n_rst_s-meter:Affichage d'un émetteur-récepteur IC9700, le S-mètre, qui indique le niveau de réception actuel, est mis en évidence]
 
 <note>
-* S von 1 bis 9
-* mehr als +x dB
-* z.B. 9+20dB
+* S de 1 à 9
+* plus de +x dB
+* par exemple 9+20dB
 </note>
 
 ---
 
-#### Tone
+#### Qualité du son
 
-* Wird nur in der Morsetelegraphie und bei digitalen Übertragungsverfahren verwendet
-* Subjektive Beurteilung des Tons
-* Wird im Sprechfunk weggelassen
+* Utilisé uniquement dans la télégraphie Morse et les procédés de transmission numériques
+* Évaluation subjective du son
+* Omis dans la radiotéléphonie
 
 --- style="font-size: 0.8em;"
 
-### Beispiele für RST-Rapporte
+### Exemples de rapports RST
 
-im Sprechfunk
+en radiotéléphonie
 
-| l: Verständlichkeit | l: S-Meter | c: $\rightarrow$ | l: RST-Rapport |
-| einwandfrei (=5) | +20 dB | $\rightarrow$| 59+20dB |
-| einwandfrei (=5) | 9 | $\rightarrow$ | 59 |
-| ohne Schwierigkeiten (=4) | 5 | $\rightarrow$ | 45 |
-| mit Schwierigkeiten (=3) | 3 | $\rightarrow$ | 33 |
-| unverständlich (=1) | 3 | $\rightarrow$ | 13 |
-[table:n_rst_beispiele:Beispiele für RST-Rapporte im Sprechfunk]
+| l: Compréhensibilité | l: S-Mètre | c: $\rightarrow$ | l: Rapport RST |
+| parfait (=5) | +20 dB | $\rightarrow$| 59+20dB |
+| parfait (=5) | 9 | $\rightarrow$ | 59 |
+| sans difficulté (=4) | 5 | $\rightarrow$ | 45 |
+| avec difficulté (=3) | 3 | $\rightarrow$ | 33 |
+| incompréhensible (=1) | 3 | $\rightarrow$ | 13 |
+[table:n_rst_beispiele:Exemples de rapports RST en radiotéléphonie]
 
 ---
 [question:BE202]
@@ -94,7 +94,7 @@ im Sprechfunk
 [question:NF301]
 ---
 
-Bei den folgenden Prüfungsfragen kommt es darauf an, das S-Meter richtig abzulesen. In allen Prüfungsfragen wird von einem einwandfreien Signal in Telefonie (Sprechfunk) ausgegangen. Der R-Wert ist daher jeweils 5 und der T-Wert entfällt.
+Dans les questions d'examen suivantes, il s'agit de lire correctement le S-mètre. Dans toutes les questions d'examen, on part d'un signal parfait en téléphonie (radiotéléphonie). La valeur R est donc toujours 5 et la valeur T est omise.
 
 ---
 [question:BE204]

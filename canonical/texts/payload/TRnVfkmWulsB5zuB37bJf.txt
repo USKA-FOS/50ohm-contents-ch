@@ -1,38 +1,38 @@
-## Kapazität
+## Capacité
 
-* Wichtigste Eigenschaft des Kondensators: Ladung speichern
-* $\rightarrow$ Kapazität
+* Propriété la plus importante du condensateur : stockage de charge
+* $\rightarrow$ Capacité
 
 $C = \dfrac{Q}{U}$
 
-* mit $Q$ als elektrische Ladung
-* Einheit: $\unit{\ampere\second\per\volt}$ bzw. Farad $\unit{\farad}$
-* Die Kapazität ist die elektrische Ladung pro Volt
+* avec $Q$ comme charge électrique
+* Unité : $\unit{\ampere\second\per\volt}$ ou farad $\unit{\farad}$
+* La capacité est la charge électrique par volt
 
 <note>
-* Farad von Michael Faraday (1791 - 1867)
+* Farad de Michael Faraday (1791 - 1867)
 </note>
 
 --- style="font-size: 0.7em;"
-## Kapazität durch Bauart
+## Capacité par conception
 
 <left>
-[picture:922:e_kondensator_aufbau:Prinzipieller Aufbau eines Kondensators]
+[picture:922:e_kondensator_aufbau:Structure de base d'un condensateur]
   
-* Die Kapazität kann durch die Bauart erreicht werden
+* La capacité peut être obtenue par la conception
 
 $C = \dfrac{\varepsilon_0 \cdot \varepsilon_r \cdot A}{d}$
 
-* $\rightarrow$ Kapazität ist größer bei größerer Fläche, kleinem Abstand oder anderem Dielektrikum
+* $\rightarrow$ La capacité est plus grande avec une plus grande surface, une petite distance ou un autre diélectrique
 </left>
 <right>
-* $\varepsilon_0 = \qty{0,855e-11}{\ampere\second\per\volt\meter}$: elektrische Feldkonstante
-* $\varepsilon_r$: relative Dielektrizitätszahl, abhängig vom Dielektrikum (ohne Einheit)
-* $A$: Fläche der Kondensatorplatten
-* $d$: Abstand der Platten
+* $\varepsilon_0 = \qty{0,855e-11}{\ampere\second\per\volt\meter}$: Permittivité du vide
+* $\varepsilon_r$: Permittivité relative, dépendant du diélectrique (sans unité)
+* $A$: Surface des plaques du condensateur
+* $d$: Distance entre les plaques
 </right>
 <note>
-* Nur das Verständnis ist wichtig, Berechnung ist Klasse A Stoff
+* Seule la compréhension est importante, le calcul est un sujet de classe A
 </note>
 
 ---
@@ -45,60 +45,60 @@ $C = \dfrac{\varepsilon_0 \cdot \varepsilon_r \cdot A}{d}$
 [question:EC204]
 ---
 
-### Drehkondensator
+### Condensateur rotatif
 
 <left>
-* Eine Platte ist feststehend, die andere Platte kann drehend bewegt werden
-* Nur dort, wo die Platten sich überlappen, wirkt der Kondensator
-* Die Fläche wird durch Drehung verändert $\rightarrow$ Änderung der Kapazität
+* Une plaque est fixe, l'autre plaque peut être déplacée en rotation
+* Seule là où les plaques se chevauchent, le condensateur agit
+* La surface est modifiée par rotation $\rightarrow$ Changement de capacité
 </left>
 <right>
-[picture:840:e_kondensator_drehkondensator:Drehkondensator]
+[picture:840:e_kondensator_drehkondensator:Condensateur rotatif]
 </right>
 <note>
-* Die Platten können auch Kreissegmente sein
-* Es können mehrere Platten gestackt werden
+* Les plaques peuvent également être des segments de cercle
+* Plusieurs plaques peuvent être empilées
 </note>
 ---
 
 [question:EC206]
 
 ---
-### Elektrolytkondensator
+### Condensateur électrolytique
 
 <left>
-* Spezielle Bauform
-* Ermöglicht große Kapazität
-* Nur für Gleichspannung
-* Polarität muss beachtet werden
+* Forme de construction spéciale
+* Permet une grande capacité
+* Seulement pour courant continu
+* La polarité doit être prise en compte
 </left>
 <right>
-[photo:198:e_kondensator_elkos:Elektrolytkondensatoren mit Markierung des Minus-Pols]
+[photo:198:e_kondensator_elkos:Condensateurs électrolytiques avec marquage du pôle négatif]
 </right>
 
 ---
 [question:EC207]
 ---
 
-## Ladekurve
+## Courbe de charge
 
 <left>
-* Ein leerer Kondensator wird an Gleichspannung angeschlossen
-* Die Spannung steigt steil an und flacht dann zur angelegten Spannung ab 
+* Un condensateur vide est connecté à une tension continue
+* La tension augmente fortement puis s'aplatit vers la tension appliquée 
 </left>
 <right>
-[picture:185:e_ladekurve_kondensator:Ladekurve eines Kondensators]
+[picture:185:e_ladekurve_kondensator:Courbe de charge d'un condensateur]
 </right>
 
 ---
 [question:EC201]
 --- 
 
-## Kondensator im Wechselstrom
+## Condensateur en courant alternatif
 
-* Im Gleichstromkreis lädt der Kondensator sich auf, wirkt dann aber wie ein unendlich großer Widerstand
-* Bei Wechselstrom wird der Kondensator ständig Auf- und Entladen
-* Je höher die Frequenz, umso geringer ist der Wechselstromwiderstand des Kondensators
+* Dans un circuit de courant continu, le condensateur se charge, mais agit ensuite comme une résistance infiniment grande
+* En courant alternatif, le condensateur est constamment chargé et déchargé
+* Plus la fréquence est élevée, plus la résistance alternative du condensateur est faible
 
 ---
 [question:EC202]

@@ -1,51 +1,42 @@
-Die Benennung der Grundschaltung eines bipolaren Transistors richtet sich danach, welcher Anschluss (Basis, Kollektor oder Emitter) gemeinsam vom Eingangs- und Ausgangssignal durchflossen wird.
+La dénomination du circuit de base d'un transistor bipolaire dépend de la manière dont la connexion (base, collecteur ou émetteur) est traversée par le signal d'entrée et de sortie.
 
-Bei der *Emitterschaltung* fließt das Eingangssignal von der Quelle über die Basis, den *Emitter* und die Masse zurück zur Quelle. Das Ausgangssignal fließt vom Kollektor durch die Last (Senke) und über die Masse zurück in den *Emitter*.
+Dans le cas du *circuit émetteur*, le signal d'entrée provient de la source, traverse la base, l'*émetteur* et la masse pour revenir à la source. Le signal de sortie provient du collecteur, traverse la charge (puits) et revient à l'*émetteur* via la masse.
 
 [question:AD409]
 
-%TODO: Schaubild mit Stromläufen evtl. einfügen.
+%TODO: Insérer éventuellement un schéma avec les flux de courant.
 
-Funktionsweise eines Verstärkers in Emitterschaltung:
+Fonctionnement d'un amplificateur en circuit émetteur:
 
-%TODO: Bild Emitterschaltung mit Spannungsteiler und Koppelkondensatoren einfügen
+%TODO: Insérer une image du circuit émetteur avec un diviseur de tension et des condensateurs de couplage
 
-Für den Betrieb als linearer Spannungs-Verstärker benötigt der Transistor in der Emitterschaltung einen definierten Arbeitspunkt (BIAS), der normalerweise durch einen Spannungsteiler an der Basis festgelegt wird.
+Pour fonctionner comme un amplificateur de tension linéaire, le transistor dans le circuit émetteur nécessite un point de fonctionnement défini (BIAS), qui est généralement fixé par un diviseur de tension à la base.
 
 [question:AD411]
 
-Der Kollerktorwiderstand wandelt den Strom, der durch die Kollektor-Emitter-Strecke, fließt in einen Spannungsabfall um, der am Kollektor abgegriffen wird. Der Kollektorstrom des Transistors fließt (gemeinsam mit dem normalerweise vernachlässigbaren Basis-Strom-Anteil) über den Emitter durch den Emitterwiderstand gegen Masse. Der Strom durch den Emitterwiderstand verursacht durch den entstehenden Spannungsabfall an diesem eine Erhöhung des Emitterpotenzials (Emitterspannung) und wirkt somit als Gegenkopplung für die Basis-Spannung. Hierdurch wird der Arbeitspunkt des Transistors zusätzlich stabilisiert, weil thermisch bedingte Änderungen des Kollektorstroms hierdurch ausgeregelt werden.
+La résistance du collecteur convertit le courant qui traverse la jonction collecteur-émetteur en une chute de tension, qui est prélevée au collecteur. Le courant du collecteur du transistor (ainsi que la partie normalement négligeable du courant de base) traverse l'émetteur à travers la résistance de l'émetteur vers la masse. Le courant à travers la résistance de l'émetteur provoque, par la chute de tension qui en résulte, une augmentation du potentiel de l'émetteur (tension de l'émetteur) et agit ainsi comme une contre-réaction pour la tension de base. Cela stabilise davantage le point de fonctionnement du transistor, car les variations du courant du collecteur dues à des causes thermiques sont ainsi régulées.
 
-Um die Gegenkopplung für die Verstärkung von Wechselspannungssignalen möglichst gering zu halten, wird der Emitterwiderstand kapazitiv (durch einen Kondensator) überbrückt.
+Afin de maintenir la contre-réaction pour l'amplification des signaux de tension alternative aussi faible que possible, la résistance de l'émetteur est pontée de manière capacitive (par un condensateur).
 
 [question:AD413]
 
-Die Ein- und Auskopplung der Signale an Basis und Kollektor erfolgt über sog. Koppelkondensatoren. Diese haben die Aufgabe, Gleichspannungsanteile von der Verstärkerstufe, die zu einer Veränderung des Arbeitspunktes führen würden, fernzuhalten.
+Le couplage et le découplage des signaux à la base et au collecteur se font par l'intermédiaire de condensateurs de couplage. Ceux-ci ont pour tâche d'empêcher les composantes de tension continue d'atteindre l'étage amplificateur, ce qui modifierait le point de fonctionnement.
 
 [question:AD412]
 
-Der Abblockkondensator in der Betriebsspannung (+) dient der Abführung von unerwünschten HF- und NF-Signalen, damit Rückkopplungseffekte auf die Stufe und die Versorgungsspannung vermieden werden.
+Le condensateur de blocage dans la tension d'alimentation (+) sert à évacuer les signaux HF et BF indésirables, afin d'éviter les effets de rétroaction sur l'étage et la tension d'alimentation.
 
-Die Phasenverschiebung zwischen Ein- und Ausgangssignal beträgt bei der Emitterschaltung $\qty{180}{\degree}$, da bei einer positiven Halbwelle in der Eingangsspannung der Kollektorstrom steigt und damit der Spannungsabfall am Kollektorwiderstand zunimmt. Hierdurch sinkt die Spannung am Ausgangskondensator. Es kommt zu einer negativen Halbwelle am Ausgang der Verstärkerstufe.
+Le déphasage entre le signal d'entrée et de sortie est de $\qty{180}{\degree}$ dans le circuit émetteur, car lors d'une demi-onde positive dans la tension d'entrée, le courant du collecteur augmente et donc la chute de tension à la résistance du collecteur. Cela fait baisser la tension au condensateur de sortie. Il en résulte une demi-onde négative à la sortie de l'étage amplificateur.
 
 [question:AD407]
 [question:AD408]
 
-Wird eine Emitterschaltung wie in der folgenden Frage ohne Arbeitspunktvoreinstellung durch einen Spannungsteiler betrieben, so erfolgt die Ansteuerung des Transistors allein durch das zugeführte Eingangssignal. Erst wenn dieses den Wert von ca. $\qty{0,6}{\volt}$ überschreitet, wird die Basis-Emitter-Strecke des Transistors leitend. Hierdurch fließt nur in den Spannungsspitzen ein Kollektorstrom, der einen Spannungsabfall am Ausgang hervorruft. Als Ausgangssignal erscheint die Versorgungsspannung, welche zu den Zeiten, zu denen der Transistor in den leitfähigen Bereich kommt, abfällt. So erklärt sich das entsprechende Ausgangssignal.
+Si un circuit émetteur est exploité comme dans la question suivante sans réglage préalable du point de fonctionnement par un diviseur de tension, le transistor est commandé uniquement par le signal d'entrée fourni. Ce n'est que lorsqu'il dépasse la valeur d'environ $\qty{0,6}{\volt}$ que la jonction base-émetteur du transistor devient conductrice. Cela fait que seul un courant de collecteur circule dans les pointes de tension, provoquant une chute de tension à la sortie. La tension d'alimentation apparaît comme signal de sortie, qui chute aux moments où le transistor passe en zone conductrice. Cela explique le signal de sortie correspondant.
 
 [question:AD406]
 
-Die Spannungsverstärkung der Emitterschaltung bewegt sich bei entsprechender Auslegung im Bereich von $100\dots 300$ und ist damit hoch. Wird jedoch der Emitterkondensator entfernt, so sinkt der Verstärkungsfaktor der Schaltung erheblich. Er wird letztlich nur noch durch das Verhältnis von Kollektorwiderstand zu Emitterwiderstand definiert.
+L'amplification de tension du circuit émetteur se situe, avec une conception appropriée, dans la plage de $100\dots 300$ et est donc élevée. Cependant, si le condensateur d'émetteur est retiré, le facteur d'amplification du circuit diminue considérablement. Il est finalement défini uniquement par le rapport entre la résistance du collecteur et la résistance de l'émetteur.
 
 [question:AD414]
 [question:AD415]
 [question:AD410]
-
-
-
-
-
-
-
-
-

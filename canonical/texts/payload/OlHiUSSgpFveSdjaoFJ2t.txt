@@ -1,23 +1,23 @@
-* *Automatic-Level-Control (ALC)* regelt die Aussteuerung der Senderendstufe
-* Reduziert bei Übersteuerung die Amplitude im Sendezweig
-* Nicht verwechseln mit der AGC (Automatic-Gain-Control) im Empfängerzweig
+* Le *Automatic-Level-Control (ALC)* régule l'excursion de la dernière étape de l'émetteur
+* Réduit l'amplitude dans la branche d'émission en cas de surcharge
+* Ne pas confondre avec l'AGC (Automatic-Gain-Control) dans la branche du récepteur
 
 ---
-### Funktionsweise
-* Erfassung der Ausgangsleistung und Vergleich mit vorgegebenen maximalen Wert
-* Bei Überschreiten wird eine Regelspannung an vorgelagerte HF-Verstärkerstufe gegeben
-* Amplitude des Sendesignals wird reduziert
+### Fonctionnement
+* Détection de la puissance de sortie et comparaison avec la valeur maximale prédéfinie
+* En cas de dépassement, une tension de régulation est donnée à l'étage HF amplificateur précédent
+* L'amplitude du signal d'émission est réduite
 
 ---
-* Wenn ALC-Anzeige anspricht, ist Sender durch zu starkes NF-Signal übersteuert
-* Bei SSB ist ein geringfügiges Übersteuern erwünscht
-* Gleicht Lautstärkeschwankungen in der Stimme aus
-* ALC-Anzeige ist deshalb oft ein Balken
+* Si l'indicateur ALC réagit, l'émetteur est surchargé par un signal audio trop fort
+* Pour SSB, une légère surcharge est souhaitée
+* Compense les fluctuations de volume dans la voix
+* L'indicateur ALC est donc souvent une barre
 
 ---
-* Bei Digimodes sollte die ALC nicht ansprechen
-* Verzerrung des Sendesignals
-* NF-Signal so weit aussteuern, dass ALC gerade nicht anspricht
+* Pour les modes numériques, l'ALC ne doit pas réagir
+* Distorsion du signal d'émission
+* Excursion du signal audio jusqu'à ce que l'ALC ne réagisse plus
 
 ---
 [question:EF305]

@@ -1,32 +1,32 @@
-## Funkfernschreiber
+## Radiotélétype
 <left>
 [photo:92:n_computersteuerung_funkfernschreiber:Funkfernschreiber]
 </left>
 <right>
-Die Abkürzung RTTY stammt von *radio teletype*
+L'abréviation RTTY vient de *radio teletype*
 </right>
 <note>
-RTTY ist ein digitales Übertragungsverfahren, das sich weiterhin Beliebtheit im Amateurfunk erfreut.
+RTTY est un procédé de transmission numérique qui continue de jouir de sa popularité dans le radioamateur.
 </note>
 
 ---
-## Betrieb
+## Fonctionnement
 
 <left>
-* Beide Funkpartner nutzen das gleiche Übertragungsverfahren (z.B. JS8, PSK, RTTY)
-* Gleiche Parameter müssen gesetzt sein
+* Les deux partenaires radio utilisent le même procédé de transmission (par exemple JS8, PSK, RTTY)
+* Les mêmes paramètres doivent être définis
 </left>
 <right>
-* Verwendung von betrieblichen Abkürzungen und Q-Gruppen
-* Mehr Informationsgehalt pro Zeiteinheit
+* Utilisation d'abréviations opérationnelles et de groupes Q
+* Plus d'informations par unité de temps
 </right>
 <note>
-* Abkürzungen kommen gleich
-* Q-Gruppen im nächsten Kapitel
+* Les abréviations viennent de même
+* Groupes Q dans le prochain chapitre
 </note>
 
 ---
-In einem Gespräch sieht dieses folgendermaßen aus:
+Dans une conversation, cela se présente comme suit :
 
 <qso>
 CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
@@ -37,37 +37,37 @@ BK QSL = VY 73 DE DL2AB SK
 > R 73 DE DL1PZ SK
 </qso>
 <note>
-Das QSO wird nach Erklärungen Abkürzungen Schritt für Schritt erläutert
+La QSO sera expliquée étape par étape après les explications des abréviations
 </note>
 
 ---
 
 | l: Abkz. | l: Bedeutung |
-| BK | Unterbrechung der Sendung; Formlose Übergabe |
-| CQ | Allgemeiner Anruf (vom Englischen "Seek You") |
-| DE | von |
-| K | Aufforderung zum Senden |
-| PSE | Bitte (vom Englischen "Please") |
-| QSL | Ich bestätige den Empfang |
-| R | Received (Empfangsbestätigung) |
-| RPRT | Rapport (vom Englischen "Report") |
+| BK | Interruption de l'émission; Transmission informelle |
+| CQ | Appel général (de l'anglais "Seek You") |
+| DE | de |
+| K | Invitation à émettre |
+| PSE | S'il vous plaît (de l'anglais "Please") |
+| QSL | Je confirme la réception |
+| R | Received (confirmation de réception) |
+| RPRT | Rapport (de l'anglais "Report") |
 [table:n_funkfernschreiben_abkuerzungen_1:Betriebliche Abkürzungen in der Telegrafie]
 
 --- 
 
 | l: Abkz. | l: Bedeutung |
-| RST | RST-Rapport |
-| SK | Ende der Verbindung (vom Englischen "Silent Key") |
-| TNX | Danke (vom Englischen "Thanks") |
-| UR | du bist (im Sinne von "dein Signal ist", vom Englischen "you are") |
-| VY | sehr (vom Englischen "very") |
-| 73 | viele Grüße |
-| = | Trennzeichen |
+| RST | Rapport RST |
+| SK | Fin de la liaison (de l'anglais "Silent Key") |
+| TNX | Merci (de l'anglais "Thanks") |
+| UR | tu es (au sens de "ton signal est", de l'anglais "you are") |
+| VY | très (de l'anglais "very") |
+| 73 | beaucoup de salutations |
+| = | Signe de séparation |
 [table:n_funkfernschreiben_abkuerzungen_2:Betriebliche Abkürzungen in der Telegrafie]
 
 ---
 
-Teil 1 unseres Beispiel-Gesprächs:
+Première partie de notre conversation d'exemple :
 
 <qso>
 CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
@@ -75,15 +75,15 @@ CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
 </qso>
 
 <fragment>
-Allgemeiner Anruf von DL2AB - Bitte Kommen!
+Appel général de DL2AB - S'il vous plaît, venez!
 </fragment>
 
 <fragment>
-DL2AB von DL1PZ - Kommen!
+DL2AB de DL1PZ - Venez!
 </fragment>
 
 ---
-Teil 2 unseres Beispiel-Gesprächs:
+Deuxième partie de notre conversation d'exemple :
 
 <qso>
 DL1PZ DE DL2AB = UR RST 599 599 = DL1PZ DE DL2AB K
@@ -91,15 +91,15 @@ DL1PZ DE DL2AB = UR RST 599 599 = DL1PZ DE DL2AB K
 </qso>
 
 <fragment>
-DL1PZ von DL2AB. Dein Signal ist mit dem RST-Wert 599, ich wiederhole, 599. DL1PZ von DL2AB - Kommen!
+DL1PZ de DL2AB. Votre signal est avec la valeur RST 599, je répète, 599. DL1PZ de DL2AB - Venez!
 </fragment>
 
 <fragment>
-DL2AB von DL1PZ. Danke für den RST-Rapport, dein Signal ist 479, ich wiederhole, 479. Zurück zu dir!
+DL2AB de DL1PZ. Merci pour le rapport RST, votre signal est 479, je répète, 479. Retour à toi!
 </fragment>
 
 ---
-Teil 3 unseres Beispiel-Gesprächs:
+Troisième partie de notre conversation d'exemple :
 
 <qso>
 BK QSL = VY 73 DE DL2AB SK
@@ -107,12 +107,12 @@ BK QSL = VY 73 DE DL2AB SK
 </qso>
 
 <fragment>
-Hier bin ich wieder. Ich bestätige den Empfang. Sehr viele Grüße von DL2AB. Ende der Verbindung.
+Me revoici. Je confirme la réception. Très nombreuses salutations de DL2AB. Fin de la liaison.
 </fragment>
 
 
 <fragment>
-Verstanden. Viele Grüße von DL1PZ. Ende der Verbindung.
+Compris. Beaucoup de salutations de DL1PZ. Fin de la liaison.
 </fragment>
 
 
@@ -135,14 +135,14 @@ Verstanden. Viele Grüße von DL1PZ. Ende der Verbindung.
 [question:BE112]
 
 ---
-## Morsetelegrafie
-* Auf die richtige Geschwindigkeit achten
-* Schnell gegebene Morsezeichen brauchen viel Übung zum Verstehen
-* Gegenstelle nicht mit der Geschwindigkeit überfordern
-* Faustregel: *Nicht schneller geben, als man selbst aufnehmen kann*
+## Télégraphie Morse
+* Faire attention à la bonne vitesse
+* Les signes Morse donnés rapidement nécessitent beaucoup d'entraînement pour être compris
+* Ne pas surcharger la station correspondante avec la vitesse
+* Règle empirique : *Ne pas donner plus vite que ce que l'on peut soi-même recevoir*
 
 <note>
-Es ist tatsächlich möglich und ein häufiger Anfängerfehler, in Morsetelegrafie schneller zu geben als man selbst verstehen kann.
+Il est effectivement possible et une erreur courante des débutants, en télégraphie Morse, de donner plus vite que l'on ne peut comprendre soi-même.
 </note>
 
 ---

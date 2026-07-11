@@ -1,7 +1,7 @@
-In der Klasse E haben wir bereits das Dezibel als Werkzeug zum Beschreiben von Verhältnissen kennengelernt und gesehen, dass eine Leistungsänderung von $\qty{3}{\dB}$ einem Leistungsfaktor von $\num{2}$ entspricht. In der Formelsammlung finden wir die Tabelle [ref:a_dezibel_leistungsfaktoren], welche weitere wichtige Entsprechungen beinhaltet. 
+Dans la classe E, nous avons déjà appris à utiliser le décibel comme outil pour décrire les rapports et vu qu'un changement de puissance de $\qty{3}{\dB}$ correspond à un facteur de puissance de $\num{2}$. Dans le recueil de formules, nous trouvons le tableau [ref:a_dezibel_leistungsfaktoren], qui contient d'autres correspondances importantes. 
 
 <margin>
-| c:dB | c:≈ Leistungsfaktor |
+| c:dB | c:≈ Facteur de puissance |
 | $-20$ | $\num{0,01}$ |
 | $-10$ | $\num{0,1}$ |
 | $-6$ | $\num{0,25}$ |
@@ -15,18 +15,18 @@ In der Klasse E haben wir bereits das Dezibel als Werkzeug zum Beschreiben von V
 | $6$ | $\num{4}$ |
 | $10$ | $\num{10}$ |
 | $20$ | $\num{100}$ |
-[table:a_dezibel_leistungsfaktoren:Wichtige Leistungsfaktoren in $\unit{\dB}$]
+[table:a_dezibel_leistungsfaktoren:Facteurs de puissance importants en $\unit{\dB}$]
 </margin>
 
-Die Formelsammlung gibt für das Umrechnen eines Leistungsverhältnisses in $\unit{\dB}$ folgende Formel an, welche wir auch schonmal in der Klasse E kennen gelernt haben. Das Verhältnis $g$ zweier Leistungen $P_1$ und $P_2$ in $\unit{\dB}$ ist:
+Le recueil de formules donne la formule suivante pour convertir un rapport de puissance en $\unit{\dB}$, que nous avons également apprise dans la classe E. Le rapport $g$ de deux puissances $P_1$ et $P_2$ en $\unit{\dB}$ est:
 
 $g = 10\cdot \log_{10}\left(\frac{P_2}{P_1}\right)\unit{\dB}$
 
-Möchte man aus einem $\unit{\dB}$-Wert einen Verhältnisfaktor ermitteln, so muss die Formel umgestellt werden: 
+Si l'on veut déterminer un facteur de rapport à partir d'une valeur en $\unit{\dB}$, il faut reformuler la formule : 
 
 $\begin{align*} g &= 10 \cdot \log_{10}\left( x \right) \unit{\dB} & \quad\quad\quad &|: \qty{10}{\dB} \\ \frac{g}{\qty{10}{\dB}} &= \log_{10}\left( x \right) &~&| \quad 10^{x}\\ x &= 10^{\frac{g}{\qty{10}{\dB}}} &~&~\end{align*}$
 
-Mit diesen beiden Formeln können wir also leicht zwischen $\unit{\dB}$-Angaben und Verhältnisfaktoren umrechnen. Versuche nun die zwei folgenden Fragen zu berechnen: 
+Avec ces deux formules, nous pouvons donc facilement convertir entre les indications en $\unit{\dB}$ et les facteurs de rapport. Essayez maintenant de calculer les deux questions suivantes : 
 
 ---
 
@@ -34,42 +34,42 @@ Mit diesen beiden Formeln können wir also leicht zwischen $\unit{\dB}$-Angaben 
 [question:AA106]
 
 <tip>
-In der Klasse E haben wir bereits folgenden Trick kennengelernt: Ganz ohne Taschenrechner lassen sich Dezibelwerte abschätzen, die auf "$0$" enden: Einfach die letzte Null zuhalten, die Ziffer gibt dann die Anzahl der Nullen des Verhältnisfaktors an. Beispiel: $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{Nullen} \rightarrow \text{Verhältnisfaktor}~1000$!
+Dans la classe E, nous avons déjà appris le suivant : Sans calculatrice de poche, on peut estimer les valeurs en décibels qui se terminent par "0" : il suffit de retenir le dernier zéro, le chiffre donne alors le nombre de zéros du facteur de rapport. Exemple : $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{zéros} \rightarrow \text{Facteur de rapport}~1000$!
 
-Auch anders herum lässt es sich leicht berechnen: Eins mit $12$ Nullen ($\num{1000000000000}$) in $\unit{\dB}$ ist einfach die Anzahl der Nullen, also $12$, multipliziert mit $10$. Es ergibt sich so ein Verstärkungsfaktor von $\qty{120}{\dB}$.
+De même, on peut le calculer dans l'autre sens : Un avec 12 zéros ($\num{1000000000000}$) en $\unit{\dB}$ est simplement le nombre de zéros, donc $12$, multiplié par $10$. Il en résulte ainsi un facteur d'amplification de $\qty{120}{\dB}$.
 
-Aber auch für $\unit{\dB}$-Werte die nicht auf $0$ enden kann man durch Zerlegung den entsprechenden Faktor ermitteln:
+Mais on peut aussi déterminer le facteur correspondant pour les valeurs en $\unit{\dB}$ qui ne se terminent pas par $0$ en les décomposant:
 
-* Man kann $\qty{9}{\dB}$ in $\qty{6}{\dB} + \qty{3}{\dB}$ zerlegen, was einer Multiplikation von $4\cdot 2 = 8$ entspricht. 
-* Welcher Faktor entspricht einem Leistungsverhältnis von $\qty{17}{\dB}$? $\qty{17}{\dB} = \qty{20}{\dB} - \qty{3}{\dB}$, also Faktor $100$ durch $2$ gleich $50$.
+* On peut décomposer $\qty{9}{\dB}$ en $\qty{6}{\dB} + \qty{3}{\dB}$, ce qui correspond à une multiplication de $4\cdot 2 = 8$. 
+* Quel facteur correspond à un rapport de puissance de $\qty{17}{\dB}$ ? $\qty{17}{\dB} = \qty{20}{\dB} - \qty{3}{\dB}$, donc facteur $100$ par $2$ égal à $50$.
 </tip>
 
-Das Dezibel ($\unit{\dB}$) beschreibt grundsätzlich ein dimensionsloses Verhältnis, etwa von Leistungen oder Spannungen. Deshalb wird $\unit{\dB}$ vor allem zur Angabe von Verstärkungen und Dämpfungen verwendet. In diesen Fällen ist kein weiterer Zusatz notwendig, da lediglich das Verhältnis zweier Größen angegeben wird. Negative Dezibelwerte kennzeichnen übrigens Verhältniswerte kleiner als $1$. So entspricht $\qty{-3}{\dB}$ einem Verhältniswert von $\frac{1}{2} = \num{0,5}$.
+Le décibel ($\unit{\dB}$) décrit fondamentalement un rapport sans dimension, par exemple de puissances ou de tensions. C'est pourquoi $\unit{\dB}$ est utilisé principalement pour indiquer les amplifications et les atténuations. Dans ces cas, aucun autre ajout n'est nécessaire, car seul le rapport de deux grandeurs est indiqué. Les valeurs négatives en décibels caractérisent d'ailleurs des valeurs de rapport inférieures à $1$. Ainsi, $\qty{-3}{\dB}$ correspond à une valeur de rapport de $\frac{1}{2} = \num{0,5}$.
 
-Man kann aber auch Dezibelwerte nutzen, um einen absoluten Pegel anzugeben. Dafür ist allerdings eine feste Bezugsgröße $P_0$ erforderlich:
+On peut également utiliser les valeurs en décibels pour indiquer un niveau absolu. Pour cela, une grandeur de référence fixe $P_0$ est toutefois nécessaire:
 
 $p = 10\cdot \log_{10}\left(\frac{P}{P_0}\right)\unit{\dB}$
 
 ---
 
-Diese Bezugsgröße kann zum Beispiel eine Leistung von $\qty{1}{\milli\watt}$ sein. In diesem Fall erhält der Dezibelwert einen entsprechenden Zusatz: Bezieht sich der Pegel auf $\qty{1}{\milli\watt}$, spricht man von $\unit{\dBm}$. Dadurch ist eindeutig festgelegt, auf welchen absoluten Leistungswert sich der Dezibelpegel bezieht.
+Cette grandeur de référence peut être par exemple une puissance de $\qty{1}{\milli\watt}$. Dans ce cas, la valeur en décibels reçoit un ajout correspondant : si le niveau se réfère à $\qty{1}{\milli\watt}$, on parle de $\unit{\dBm}$. Ainsi, il est clairement établi à quelle puissance absolue se réfère le niveau en décibels.
 
-Trifft man beispielsweise auf die Angabe „Der Sender hat eine Ausgangsleistung von $\qty{20}{\dBm}$“, lässt sich dieser Wert leicht in Milliwatt umrechnen. Ein Pegel von $\qty{20}{\dB}$ entspricht einem Leistungsfaktor von $100$ (also zwei Nullen). Dieser Faktor wird mit der Bezugsgröße von $\qty{1}{\milli\watt}$ multipliziert:
+Si l'on rencontre par exemple l'indication « L'émetteur a une puissance de sortie de $\qty{20}{\dBm}$ », cette valeur peut être facilement convertie en milliwatts. Un niveau de $\qty{20}{\dB}$ correspond à un facteur de puissance de $100$ (donc deux zéros). Ce facteur est multiplié par la grandeur de référence de $\qty{1}{\milli\watt}$:
 
 $ P = 100 \cdot \qty{1}{\milli\watt} = \qty{100}{\milli\watt}$
 
-In der Tabelle [ref:a_bezugsgroessen] sind die wichtigsten Bezugsgrößen und ihre jeweiligen $\unit{\dB}$-Abkürzungen aufgelistet.
+Dans le tableau [ref:a_bezugsgroessen], les principales grandeurs de référence et leurs abréviations respectives en $\unit{\dB}$ sont listées.
 
 <margin>
-| l: Abkürzung            | X: Bezugswert          |
+| l: Abréviation            | X: Valeur de référence          |
 | $\unit{\dBm}$           | $\qty{1}{\milli\watt}$ | 
 | $\unit{\dBW}$           | $\qty{1}{\watt}$       | 
 | $\unit{\dBu}$           | $\qty{0,775}{\volt}$   | 
 | $\unit{\dB\micro\volt}$ | $\qty{1}{\micro\volt}$ | 
-[table:a_bezugsgroessen:Wichtige Bezugsgrößen aus der Formelsammlung]
+[table:a_bezugsgroessen:Grandes références importantes du recueil de formules]
 </margin>
 
-Die folgenden Fragen lassen sich mit Hilfe der Formel aus der Formelsammlung und deren Umstellung vom Anfang dieser Lektion berechnen, wenn die richtige Bezugsgröße verwendet wird. 
+Les questions suivantes peuvent être calculées à l'aide de la formule du recueil de formules et de sa transformation au début de cette leçon, si la bonne grandeur de référence est utilisée. 
 
 [question:AA109]
 [question:AA110]
@@ -78,76 +78,76 @@ Die folgenden Fragen lassen sich mit Hilfe der Formel aus der Formelsammlung und
 
 ---
 
-Warum macht man das Ganze überhaupt und gibt absolute Leistungen in $\unit{\dBm}$ und $\unit{\dBW}$ an? Wie bereits in der Klasse E angedeutet, dient die Verwendung von Dezibel vor allem dazu, Rechnungen zu vereinfachen. Durch die Darstellung von Verstärkungen und Dämpfungen in Dezibel lassen sich komplette Signalketten sehr einfach durch Addition und Subtraktion überschlagen, ohne auf umständliche Multiplikationen und Divisionen zurückgreifen zu müssen.
+Pourquoi fait-on cela et pourquoi donne-t-on des puissances absolues en $\unit{\dBm}$ et $\unit{\dBW}$ ? Comme indiqué dans la classe E, l'utilisation des décibels sert principalement à simplifier les calculs. Grâce à la représentation des amplifications et des atténuations en décibels, des chaînes de signaux complètes peuvent être facilement estimées par addition et soustraction, sans avoir à recourir à des multiplications et divisions fastidieuses.
 
-Abbildung [ref:e_signalkette] zeigt eine solche Signalkette mit drei Verstärkerstufen. Das Eingangssignal besitzt eine Leistung von $\qty{1}{\milli\watt}$, was $\qty{0}{\dBm}$ entspricht. Durch die drei Verstärkerstufen wird das Signal insgesamt auf $\qty{60}{\dBm}$ verstärkt (also $\num{1000000}\cdot \qty{1}{\milli\watt}$), was einer Leistung von $\qty{1000}{\watt}$ entspricht.
+La figure [ref:e_signalkette] montre une telle chaîne de signaux avec trois étages d'amplification. Le signal d'entrée possède une puissance de $\qty{1}{\milli\watt}$, ce qui correspond à $\qty{0}{\dBm}$. Grâce aux trois étages d'amplification, le signal est amplifié au total à $\qty{60}{\dBm}$ (donc $\num{1000000}\cdot \qty{1}{\milli\watt}$), ce qui correspond à une puissance de $\qty{1000}{\watt}$.
 
-Abbildung [ref:e_signalkette_2] zeigt ein weiteres Beispiel einer Signalkette, bei der zusätzlich ein Dämpfungsglied mit einer Dämpfung von $\qty{20}{\dB}$ eingesetzt wird, was einer Verstärkung von $\qty{-20}{\dB}$ entspricht. Das Eingangssignal besitzt eine Leistung von $\qty{1}{\milli\watt}$, also $\qty{0}{\dBm}$. Durch die erste Verstärkerstufe wird das Signal auf $\qty{10}{\dBm}$ angehoben. Anschließend wird es durch das Dämpfungsglied auf $\qty{-10}{\dBm}$ abgeschwächt und schließlich durch die zweite Verstärkerstufe wieder auf $\qty{0}{\dBm}$ verstärkt, was wiederum $\qty{1}{\milli\watt}$ entspricht.
+La figure [ref:e_signalkette_2] montre un autre exemple d'une chaîne de signaux dans laquelle un atténuateur avec une atténuation de $\qty{20}{\dB}$ est utilisé, ce qui correspond à une amplification de $\qty{-20}{\dB}$. Le signal d'entrée possède une puissance de $\qty{1}{\milli\watt}$, donc $\qty{0}{\dBm}$. Grâce au premier étage d'amplification, le signal est amplifié à $\qty{10}{\dBm}$. Ensuite, il est atténué à $\qty{-10}{\dBm}$ par l'atténuateur et finalement amplifié à nouveau à $\qty{0}{\dBm}$ par le deuxième étage d'amplification, ce qui correspond à nouveau à $\qty{1}{\milli\watt}$.
 
 <margin>
-[picture:877:e_signalkette:Signalkette mit drei Verstärken]
-[picture:1053:e_signalkette_2:Signalkette mit zwei Verstärken und einem Dämpfungsglied]
+[picture:877:e_signalkette:Chaîne de signaux avec trois amplificateurs]
+[picture:1053:e_signalkette_2:Chaîne de signaux avec deux amplificateurs et un atténuateur]
 </margin>
 
 <indepth>
-Wieso ist es zulässig vom Pegel $\qty{9}{\dBm}$ eine Dämpfung von $\qty{3}{\dB}$ abzuziehen? Beide Werte haben doch unterschiedliche Maßeinheiten! Bei der Einheit Bel ($\unit{\bel}$) bzw. Dezibel ($\unit{\dB}$) handelt es sich um eine Hilfsmaßeinheit (auch Pseudoeinheit).
-Im Prinzip könnte der Zahlenwert auch ohne die Einheit $\unit{\dB}$ geschrieben werden. Aber mit dem Zusatz $\unit{\dB}$ wird deutlich, dass es um ein logarithmisches Verhältnis von zwei Größen geht. Ohne diese Einheit müsste man verbal beschreiben welche Bedeutung der Zahlenwert hat.
+Pourquoi est-il permis de soustraire une atténuation de $\qty{3}{\dB}$ d'un niveau de $\qty{9}{\dBm}$ ? Ces deux valeurs ont pourtant des unités de mesure différentes ! Dans le cas de l'unité Bel ($\unit{\bel}$) ou décibel ($\unit{\dB}$), il s'agit d'une unité de mesure auxiliaire (également pseudo-unité).
+En principe, la valeur numérique pourrait également être écrite sans l'unité $\unit{\dB}$. Mais avec l'ajout $\unit{\dB}$, il est clair qu'il s'agit d'un rapport logarithmique de deux grandeurs. Sans cette unité, il faudrait décrire verbalement quelle signification a la valeur numérique.
 </indepth>
   
-Zusätzlich haben wir in der Klasse E bereits die Zusätze $\unit{\dBd}$ und $\unit{\dBi}$ kennen gelernt, die bei der Angabe von Antennengewinnen verwendet werden. In diesem Fall bezieht sich der Dezibelwert nicht auf eine Leistung oder Spannung, sondern auf einen bestimmten Referenzstrahler. Üblich sind dabei $\unit{\dBi}$, bezogen auf den isotropen Kugelstrahler, sowie $\unit{\dBd}$, bezogen auf den Halbwellendipol.
+En outre, nous avons déjà appris dans la classe E les ajouts $\unit{\dBd}$ et $\unit{\dBi}$, qui sont utilisés pour indiquer les gains d'antenne. Dans ce cas, la valeur en décibels ne se réfère pas à une puissance ou une tension, mais à un radiateur de référence particulier. Les valeurs courantes sont $\unit{\dBi}$, par rapport au radiateur isotrope sphérique, ainsi que $\unit{\dBd}$, par rapport au dipôle demi-onde.
 
 ---
 
-Neben den Leistungsverhältnissen können wir das Dezibel können auch verwenden, um *Spannungsverhältnisse* und *Spannungspegel* anzugeben. Dazu können wir die Formel $P = \frac{U^2}{R}$ verwenden. Also können wir schreiben:
+En plus des rapports de puissance, nous pouvons également utiliser le décibel pour indiquer les *rapports de tension* et les *niveaux de tension*. Pour cela, nous pouvons utiliser la formule $P = \frac{U^2}{R}$. Nous pouvons donc écrire:
 
 $\begin{split}g &= 10 \cdot \log_{10}\left(\frac{P_1}{P_2}\right)\\ &= 10 \cdot \log_{10}\left(\frac{\frac{U_1^2}{\cancel{R}}}{\frac{U_2^2}{\cancel{R}}}\right)\\ &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right) \end{split}$
 
 <tip>
-*Rechnen mit Logarithmen:*
-Einige einfache Rechenregeln ermöglichen die Lösung von Dezibel-Aufgaben ohne Taschenrechner.
+*Calcul avec des logarithmes:*
+Quelques règles de calcul simples permettent de résoudre des problèmes en décibels sans calculatrice de poche.
 
-* Der Logarithmus eines Produkts zweier Zahlen entspricht der Summe der Logarithmen: $\log_{10}(a\cdot b) = \log_{10}(a)+ \log_{10}(b)$
-* Der Logarithmus einer Division zweier Zahlen entspricht der Differenz der Logarithmen: $\log_{10}(a / b) = \log_{10}(a) - \log_{10}(b)$
-* Der Logarithmus einer quadrierten Zahl: $\log_{10}(x^2)= 2 \cdot \log_{10}(x)$
-* Der Logarithmus einer Wurzel: $\log_{10}(\sqrt{x})= \frac{1}{2} \cdot \log_{10}(x)$
+* Le logarithme d'un produit de deux nombres correspond à la somme des logarithmes : $\log_{10}(a\cdot b) = \log_{10}(a)+ \log_{10}(b)$
+* Le logarithme d'une division de deux nombres correspond à la différence des logarithmes : $\log_{10}(a / b) = \log_{10}(a) - \log_{10}(b)$
+* Le logarithme d'un nombre au carré : $\log_{10}(x^2)= 2 \cdot \log_{10}(x)$
+* Le logarithme d'une racine : $\log_{10}(\sqrt{x})= \frac{1}{2} \cdot \log_{10}(x)$
 </tip>
 
-Der Logarithmus einer quadrierten Zahl ist aber gleich zweimal dem Logarithmus der Zahl:
+Le logarithme d'un nombre au carré est cependant égal à deux fois le logarithme du nombre:
 
 $\log_{10}(x^2)=2 \cdot \log_{10}(x)$
 
-Es folgt daraus:
+Il en résulte:
 
 $\begin{split} g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right)\\ &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\ &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \end{split}$
 
 ---
 
-Daher berechnen wir ein Verhältnis *$a$* zweier Spannungen $U_1$ und $U_2$, indem wir den Logarithmus des Verhältnisses nicht mit dem Faktor $10$, sondern mit dem Faktor $20$ multiplizieren. Diese Formel finden wir auch in der Formelsammlung.
+C'est pourquoi nous calculons un rapport *$a$* de deux tensions $U_1$ et $U_2$ en multipliant le logarithme du rapport non pas par le facteur $10$, mais par le facteur $20$. Cette formule se trouve également dans le recueil de formules.
 
 [question:AA111]
 
 <attention>
-Bei der Dezibel-Berechnung immer genau beachten, ob es sich um Leistungs- oder Spannungsverhältnisse handelt!
+Lors du calcul en décibels, il faut toujours faire très attention à savoir s'il s'agit de rapports de puissance ou de tension !
 </attention>
 
-Zur Bestimmung von Spannungspegeln müssen wir wieder erst eine Bezugsspannung festlegen (vgl. Tabelle [ref:a_bezugsgroessen]). Bei Empfangssignalen messen wir die (sehr kleinen) Spannungen am Empfängereingang gern in $\unit{\micro\volt}$. Der zugehörige Spannungspegel hat dann die Einheit $\unit{\dBuV}$. Beispiel:
+Pour déterminer les niveaux de tension, nous devons d'abord fixer une tension de référence (cf. tableau [ref:a_bezugsgroessen]). Pour les signaux reçus, nous mesurons les (très petites) tensions à l'entrée du récepteur volontiers en $\unit{\micro\volt}$. Le niveau de tension correspondant a alors l'unité $\unit{\dBuV}$. Exemple:
 
 $\qty{10}{\micro\volt} \rightarrow 20 \cdot \log_{10}\left(\frac{\qty{10}{\micro\volt}}{\qty{1}{\micro\volt}}\right)=\qty{20}{\dBuV}$
 
 ---
 
-Bei der folgenden Frage ist der Bezugswert $\qty{1}{\micro\volt\per\meter}$. Versuche die Aufgabe mit deinem Wissen zu lösen.
+Dans la question suivante, la valeur de référence est $\qty{1}{\micro\volt\per\meter}$. Essayez de résoudre le problème avec vos connaissances.
 
 <attention>
-Achtung, hier ist $\unit{\dB(\micro\volt\per\meter)}$ gemeint und nicht $\unit{(\dB\micro\volt)/\meter}$! 
+Attention, ici $\unit{\dB(\micro\volt\per\meter)}$ est prévu et non $\unit{(\dB\micro\volt)/\meter}$ ! 
 </attention>
 
 [question:AA112]
 
 <tip>
-Auch bei Spannungen kann man vieles mithilfe der Tabelle aus der Formelsammlung im Kopf rechnen:
+Même pour les tensions, on peut faire beaucoup de choses à l'aide du tableau du recueil de formules dans la tête:
 
-| c:dB | c:≈ Spannungsverhältnis |
+| c:dB | c:≈ Rapport de tension |
 | $-20$ | $\num{0,1}$ |
 | $-10$ | $\num{0,32}$ |
 | $-6$ | $\num{0,5}$ |
@@ -159,9 +159,9 @@ Auch bei Spannungen kann man vieles mithilfe der Tabelle aus der Formelsammlung 
 | $6$ | $2$ |
 | $10$ | $3,16$ |
 | $20$ | $10$ |
-[table:a_spannungsverhaeltnisse:Wichtige Spannungsverhältnisse in $\unit{\dB}$]
+[table:a_spannungsverhaeltnisse:Rapports de tension importants en $\unit{\dB}$]
 
-*Beispiel:*
+*Exemple:*
 
-* Wieviel $\unit{\dB}$ entspricht ein Spannungsverhältnis von $4$? $4 = 2 \cdot 2 \rightarrow \qty{6}{\dB} + \qty{6}{\dB} = \qty{12}{\dB}$
+* À combien de $\unit{\dB}$ correspond un rapport de tension de $4$ ? $4 = 2 \cdot 2 \rightarrow \qty{6}{\dB} + \qty{6}{\dB} = \qty{12}{\dB}$
 </tip>

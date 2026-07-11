@@ -1,27 +1,27 @@
 <left>
-[picture:716:n_Wasserfall0:Signal eines AM-Rundfunksenders (Sprache / Musik)]
+[picture:716:n_Wasserfall0:Signal d'un émetteur AM de radiodiffusion (parole / musique)]
 </left>
 <right>
-* Modulationssignal wird durch Änderung der Amplitude auf den Träger aufmoduliert
-* Frequenz des Trägers bleibt unverändert
-* Änderung der Amplitude ändert die Form des Trägers $\rightarrow$ entspricht nicht mehr einer Sinusschwingung
-* Zusätzliche Frequenzen heißen *Seitenbänder*
+* Le signal de modulation est modulé sur la porteuse en modifiant l'amplitude
+* La fréquence de la porteuse reste inchangée
+* La modification de l'amplitude change la forme de la porteuse $\rightarrow$ ne correspond plus à une oscillation sinusoïdale
+* Les fréquences supplémentaires s'appellent *bandes latérales*
 </right>
 <note>
-Es ist etwas paradox, dass bei Amplitudenmodulation trotzdem die Frequenz verändert aussieht. Eine Erklärung dazu gibt es unter "Vertiefung" auf der [50Ohm-Seite](/N_am.html). Wer es genau haben will, kann *Additionstheoremen für Winkelfunktionen* nachschlagen, wie die Berechnung dazu durchzuführen ist.
+Il est un peu paradoxal que, même dans le cas de la modulation d'amplitude, la fréquence semble modifiée. Une explication à ce sujet est donnée sous "Approfonissement" sur la [page 50Ohm](/N_am.html). Ceux qui veulent être précis peuvent consulter les *théorèmes d'addition pour les fonctions angulaires* pour savoir comment effectuer ce calcul.
 </note>
  
 ---
  
 <left>
-* In den Seitenbändern steckt die übertragene Information, also z. B. die Sprache
-* Die von AM belegte *Bandbreite* ist doppelt so hoch wie die höchste Frequenz des Modulationssignals
+* Les bandes latérales contiennent l'information transmise, par exemple la parole
+* La *bande passante* occupée par l'AM est deux fois plus élevée que la fréquence la plus élevée du signal de modulation
 </left>
 <right>
-[picture:476:n_seitenband:Symbolische Darstellung eines amplitudenmodulierten Signals mit Träger und Seitenbändern]
+[picture:476:n_seitenband:Représentation symbolique d'un signal modulé en amplitude avec porteuse et bandes latérales]
 </right>
 <note>
-* Beispiel: Bei einer höchsten Frequenz von 2700 Hz hat die AM-Aussendung eine Bandbreite von 5400 Hz.
+* Exemple : Pour une fréquence maximale de 2700 Hz, l'émission AM a une bande passante de 5400 Hz.
 </note>
 
 ---

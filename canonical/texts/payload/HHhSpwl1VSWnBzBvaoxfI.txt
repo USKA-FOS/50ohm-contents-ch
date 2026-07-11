@@ -1,35 +1,35 @@
-## Antenne: Kapazitive und induktive Wirkung
+## Antenne : effet capacitif et inductif
 
-* Ein Halbwellendipol bzw. eine gegenüber Erde erregte λ/4‑Antenne wirkt kapazitiv, wenn sie zu kurz ist, und induktiv, wenn sie zu lang ist.
-* Die abweichende Speiseimpedanz führt zu Fehlanpassung und einem schlechteren SWR.
-* Durch Einfügen eines Kondensators (elektrisch verkürzen) oder einer Verlängerungsspule (elektrisch verlängern) lässt sich die Impedanz wieder anpassen.
+* Un dipôle demi-onde ou une antenne λ/4 excitée par rapport à la terre agit de manière capacitive si elle est trop courte, et de manière inductive si elle est trop longue.
+* L'impédance d'alimentation divergente entraîne une mauvaise adaptation et un SWR moins bon.
+* L'insertion d'un condensateur (réduction électrique) ou d'une bobine de prolongement (extension électrique) permet de réadapter l'impédance.
 
 ---
 <left>
-[picture:650:a_antenne_verlaengerung:Antenne mit Spule]
+[picture:650:a_antenne_verlaengerung:Antenne avec bobine]
 </left>
 <right>
-* Die Antenne ist durch Einfügen einer Spule elektrisch verlängert.
+* L'antenne est électriquement prolongée par l'insertion d'une bobine.
 </right>
 
 ---
 [question:AG106]
 ---
 <left>
-[picture:563:a_antenne_verkuerzung:Antenne mit Kondensator]
+[picture:563:a_antenne_verkuerzung:Antenne avec condensateur]
 </left>
 <right>
-* Die Antenne ist durch Einfügen eines Kondensators elektrisch verkürzt.
+* L'antenne est électriquement raccourcie par l'insertion d'un condensateur.
 </right>
 
 ---
 [question:AG107]
 ---
-## Bestimmung der mechanischen Länge
+## Détermination de la longueur mécanique
 
-* Zunächst wird festgestellt, ob die Antenne mechanisch zu kurz oder zu lang ist.
-* Ist die Antenne zu kurz, benötigt man eine Verlängerungsspule.
-* Andernfalls ist ein Verkürzungskondensator zur Kompensation erforderlich.
+* On détermine d'abord si l'antenne est mécaniquement trop courte ou trop longue.
+* Si l'antenne est trop courte, une bobine de prolongement est nécessaire.
+* Sinon, un condensateur de raccourcissement est nécessaire pour la compensation.
 
 ---
 [question:AG108]

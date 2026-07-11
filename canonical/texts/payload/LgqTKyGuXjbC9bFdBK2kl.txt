@@ -1,11 +1,11 @@
-## Strom- und Spannungsmessung
+## Mesure du courant et de la tension
 
 <left>
-* Spannung wird parallel zum Bauteil gemessen
-* Strom wird in Reihe mit dem Bauteil gemessen
+* La tension est mesurée en parallèle avec le composant
+* Le courant est mesuré en série avec le composant
 </left>
 <right>
-[picture:1003:a_strom_spannung_messung:Messen der Leistung eines Verstärkers (PA)]
+[picture:1003:a_strom_spannung_messung:Mesure de la puissance d'un amplificateur (PA)]
 </right>
 
 ---
@@ -13,53 +13,53 @@
 ---
 [question:AI102]
 ---
-## Messgenauigkeit
+## Précision de mesure
 
-Der angezeigte Messwert unterscheidet sich meist vom tatsächlichen Wert
-* Innenwiderstand des Messgeräts
-* Auflösungsvermögen $\rightarrow$ *kleinste Auflösung*
-* Anzeige verändert sich erst nach Änderung um die kleinste Auflösung
-* Hersteller ermittelt die Abweichung
-* Abweichung wird im Datenblatt angegeben
+La valeur mesurée affichée diffère généralement de la valeur réelle
+* Résistance interne de l'appareil de mesure
+* Pouvoir de résolution $\rightarrow$ *plus petite résolution*
+* L'affichage ne change qu'après une modification de la plus petite résolution
+* Le fabricant détermine l'écart
+* L'écart est indiqué dans la fiche technique
 
 ---
 
 <left>
-[picture:1004:a_reale_spannungsmessung:Ersatzschaltbild reales Spannungsmessgerät]
+[picture:1004:a_reale_spannungsmessung:Circuit équivalent d'un appareil de mesure de tension réel]
 </left>
 
 <right>
-[picture:1007:a_reale_strommessung:Ersatzschaltbild reales Strommessgerät]
+[picture:1007:a_reale_strommessung:Circuit équivalent d'un appareil de mesure de courant réel]
 </right>
 
 ---
 [question:AI103]
 --- style="font-size: smaller;"
-### Lösungsweg
+### Solution
 
-* Prozentrechnung – die absoluten Werte sind nicht relevant
-* gegeben: $U_{\mathrm{Abw}}$ mit $\qty{95}{\percent}$ vom Realwert
-* gegeben: $I_{\mathrm{Abw}}$ mit $\qty{95}{\percent}$ vom Realwert
-* gesucht: Abweichung der Leistung $P = U \cdot I$
+* Calcul en pourcentage – les valeurs absolues ne sont pas pertinentes
+* donné: $U_{\mathrm{Abw}}$ avec $\qty{95}{\percent}$ de la valeur réelle
+* donné: $I_{\mathrm{Abw}}$ avec $\qty{95}{\percent}$ de la valeur réelle
+* recherché: écart de la puissance $P = U \cdot I$
 
 <fragment>
 $\begin{split} P_{\textrm{Abw}} &= 100\% - (U_{\mathrm{Abw}} \cdot I_{\mathrm{Abw}})\\ &= 100\% - (95\% \cdot 95\%)\\ &= 100\% - 90,25\%\\ &= 9,75\% \end{split}$
 </fragment>
 
 ---
-## Strom durch Multimeter
+## Courant à travers un multimètre
 
-* Auch bei einer Spannungsmessung fließt ein Strom durch ein Messgerät
-* Es findet eine Stromteilung statt
-* Durch den hohen Innenwiderstand ist der abfließende Strom verhältnismäßig klein
+* Même lors d'une mesure de tension, un courant traverse un appareil de mesure
+* Une division de courant a lieu
+* Grâce à la résistance interne élevée, le courant qui s'écoule est relativement faible
 
 ---
 [question:AI104]
 ---
-### Lösungsweg
-* gegeben: $U = \qty{0,5}{\volt}$
-* gegeben: $R = \qty{10}{\mega\ohm}$
-* gesucht: $I$
+### Solution
+* donné: $U = \qty{0,5}{\volt}$
+* donné: $R = \qty{10}{\mega\ohm}$
+* recherché: $I$
 
 <fragment>
 $$I = \frac{U}{R} = \frac{\qty{0,5}{\volt}}{\qty{10}{\mega\ohm}} = \qty{50}{\nano\ampere}$$

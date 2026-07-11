@@ -1,34 +1,34 @@
-% Diese Seite wird zu unterst vorläufig von YPA missbraucht als Sandkasten, wenn etwas für die Anleitung simuliert werden muss.
-In dem Gesetz mit dem sperrigen Namen Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz (TDDDG), ehemals TTDSG, werden im § 5 auch die Funkamateure angesprochen. In dem Paragrafen geht es um das Abhörverbot und die Geheimhaltungspflicht für alle Betreiber von Funkanlagen. Nur Nachrichten, die *an die Allgemeinheit, einen unbestimmten Personenkreis oder an Funkamateure* gerichtet sind, dürfen empfangen werden. Alles andere ist verboten. Dazu gehört bereits der Empfang selbst, aber auch die Verwertung und Weitergabe von Nachrichten, die nicht für die Allgemeinheit, für einen unbestimmten Personenkreis oder für Funkamateure bestimmt sind, verstoßen gegen das TDDDG.
+% Cette page est temporairement utilisée en bas par YPA comme bac à sable si quelque chose doit être simulé pour le guide.
+Dans la loi au nom compliqué de loi sur la protection des données et des communications numériques (TDDDG), anciennement TTDSG, les radioamateurs sont également mentionnés dans l'article 5. Cet article traite de l'interdiction d'écoute et de l'obligation de confidentialité pour tous les exploitants d'installations radio. Seules les messages adressés *au public, à un groupe indéterminé de personnes ou aux radioamateurs* peuvent être reçus. Tout le reste est interdit. Cela inclut déjà la réception elle-même, mais aussi l'utilisation et la transmission de messages qui ne sont pas destinés au public, à un groupe indéterminé de personnes ou aux radioamateurs, ce qui constitue une violation du TDDDG.
 
-Sollte man versehentlich solche Nachrichten empfangen, muss man den Inhalt dieser Nachricht und sogar die Tatsache des Empfangs für sich behalten. Für immer und ewig! Die einzigen Ausnahmen sind Not- und Katastrophenfälle. Formal ist dies eine sogenannte Rechtsgüterabwägung: Was ist wichtiger, der Rechtsverstoß der Nachrichtenweitergabe oder die Hilfe in einem Notfall?
+Si l'on reçoit accidentellement de tels messages, il faut garder le contenu de ce message et même le fait de la réception pour soi. Pour toujours et à jamais! Les seules exceptions sont les cas d'urgence et de catastrophe. Formellement, il s'agit d'une sorte d'évaluation des biens juridiques: ce qui est plus important, l'infraction à la loi de la transmission de messages ou l'aide en cas d'urgence?
 
 [question:VE202]
 
 [question:VE203]
 
-Der Besitz und die Herstellung von Geräten, die einen anderen Gegenstand vortäuschen und dadurch besonders geeignet sind, das nicht öffentlich gesprochene Wort heimlich abzuhören ("Wanzen"), ist verboten. Als Beispiel sei hier ein Kugelschreiber mit eingebautem Mikrofon genannt. Dieses Verbot gilt für alle und somit selbstverständlich auch für Funkamateure.
+La possession et la fabrication d'appareils qui simulent un autre objet et qui sont particulièrement adaptés pour écouter secrètement la parole non publique (« mouchards ») sont interdites. Par exemple, un stylo à bille avec un microphone intégré peut être mentionné ici. Cette interdiction s'applique à tous et donc naturellement aussi aux radioamateurs.
 
 [question:VE204]
 
-Das Abhören des nicht öffentlich gesprochenen Wortes ist ein *Straftatbestand*. Wer gegen das Abhörverbot verstößt, muss mit einer Freiheitsstrafe von bis zu zwei Jahren rechnen. Schauen wir uns dazu die Strafvorschriften des § 27 des TDDDG an:
+L'écoute de la parole non publique est un *délit*. Celui qui viole l'interdiction d'écoute doit s'attendre à une peine d'emprisonnement pouvant aller jusqu'à deux ans. Examinons à cet égard les dispositions pénales de l'article 27 du TDDDG:
 
-" (1) Mit Freiheitsstrafe bis zu zwei Jahren oder mit Geldstrafe wird bestraft, wer
-1. entgegen § 5 Absatz 1 eine Nachricht abhört oder in vergleichbarer Weise zur Kenntnis nimmt,
-2. entgegen § 5 Absatz 2 Satz 1 eine Mitteilung macht oder
-3. entgegen § 8 Absatz 1 eine dort genannte Telekommunikationsanlage herstellt oder auf dem Markt bereitstellt.
+" (1) Est puni d'une peine d'emprisonnement pouvant aller jusqu'à deux ans ou d'une amende celui qui
+1. contrevient à l'article 5, paragraphe 1, en écoutant un message ou en le prenant de manière comparable à sa connaissance,
+2. contrevient à l'article 5, paragraphe 2, première phrase, en faisant une communication ou
+3. contrevient à l'article 8, paragraphe 1, en fabriquant ou en mettant à disposition sur le marché une installation de télécommunication y mentionnée.
 
-(2) Handelt der Täter in den Fällen des Absatzes 1 Nummer 3 fahrlässig, so ist die Strafe Freiheitsstrafe bis zu einem Jahr oder Geldstrafe."
+(2) Si l'auteur agit dans les cas du paragraphe 1, numéro 3, par négligence, la peine est une peine d'emprisonnement pouvant aller jusqu'à un an ou une amende."
 
 [question:VE201]
 
 
-Sandkasten YPA
+Bac à sable YPA
 
 <danger>
-Das ist ein Mustertext mit dem Kommando (danger). Das generiert den roten Kasten «Gefahr».
+Ceci est un texte modèle avec la commande (danger). Cela génère la boîte rouge « Danger ».
 </danger>
 
 <tip>
-Das ist ein Mustertext mit dem Kommando (tipp). Das Das ist ein Test ob die Farbe dieselbe ist wie bei Gefahr.
+Ceci est un texte modèle avec la commande (tipp). Cela est un test pour voir si la couleur est la même que pour le danger.
 </tip>

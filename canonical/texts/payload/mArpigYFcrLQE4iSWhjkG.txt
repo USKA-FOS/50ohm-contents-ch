@@ -1,33 +1,33 @@
-## Der Prozess des Samplings
+## Le processus d'échantillonnage
 
-* Analoge Signale werden in diskrete Samples umgewandelt  
-* Sampling: Abtastung eines kontinuierlichen Signals in festgelegten Zeitabständen  
-* Vergleichbar mit einer Kamera, die in regelmäßigen Intervallen Bilder aufnimmt
-
----
-
-### Sampling – Das Kamerabeispiel
-
-* Eine Kamera nimmt z. B. $\num{24}$ Bilder pro Sekunde auf
-* Zwischen den Bildern können schnelle Bewegungen auftreten, die nicht erfasst werden  
-* Wie bei der Kamera kann ein plötzliches Ereignis (z. B. eine Fliege) zwischen zwei Aufnahmen verloren gehen  
-* Dadurch entsteht ein Verlust an zeitlicher Information
+* Les signaux analogiques sont convertis en échantillons discrets
+* Échantillonnage : échantillonnage d'un signal continu à intervalles de temps fixes
+* Comparable à une caméra qui prend des photos à intervalles réguliers
 
 ---
 
-### Informationsverlust und Rekonstruktionsgrenze
+### Échantillonnage – L'exemple de la caméra
 
-* Zwischen den Samples können schnelle Signaländerungen unentdeckt bleiben  
-* Für eine fehlerfreie Rekonstruktion muss vor und nach jedem Signalwechsel ein Sample vorliegen  
-* Ist dies nicht der Fall, gehen Details verloren – Aliasing tritt auf
+* Une caméra prend par exemple $\num{24}$ images par seconde
+* Entre les images, des mouvements rapides peuvent survenir, qui ne sont pas capturés
+* Comme pour la caméra, un événement soudain (par exemple une mouche) peut être perdu entre deux prises de vue
+* Cela entraîne une perte d'information temporelle
 
 ---
 
-## Das Nyquist-Shannon-Abtasttheorem
+### Perte d'information et limite de reconstruction
 
-* Für ein Signal mit maximaler Frequenz $f_{\mathrm{max}}$ muss die Abtastrate $\gt 2 \cdot f_{\mathrm{max}}$ betragen
-* Nur so können alle Signalwechsel korrekt erfasst und rekonstruiert werden  
-* Wird diese Grenze unterschritten, entstehen Alias-Effekte
+* Entre les échantillons, des changements rapides du signal peuvent rester indécelés
+* Pour une reconstruction sans erreur, un échantillon doit se trouver avant et après chaque changement de signal
+* Si ce n'est pas le cas, des détails sont perdus – l'effet d'aliasing se produit
+
+---
+
+## Le théorème d'échantillonnage de Nyquist-Shannon
+
+* Pour un signal avec une fréquence maximale $f_{\mathrm{max}}$, la fréquence d'échantillonnage doit être $\gt 2 \cdot f_{\mathrm{max}}$
+* Seuls les changements de signal peuvent être correctement capturés et reconstruits
+* Si cette limite est sous-dépassée, des effets d'aliasing se produisent
 
 ---
 
@@ -35,12 +35,12 @@
 
 ---
 
-### Praktisches Beispiel: CD-Player
+### Exemple pratique : Lecteur CD
 
-* CD-Player arbeiten typischerweise mit $\qty{44,1}{\kilo\sps}$ ($\num{44100}$ Samples pro Sekunde)
-* Daraus folgt: Frequenzen bis ca. $\qty{22}{\kilo\hertz}$ können korrekt abgebildet werden
-* Dies entspricht dem HiFi-Frequenzbereich guter Stereoanlagen  
-* Merke: Die Abtastfrequenz sollte stets knapp über dem Doppelten der maximal zu verarbeitenden Frequenz liegen
+* Les lecteurs CD fonctionnent typiquement avec $\qty{44,1}{\kilo\sps}$ ($\num{44100}$ échantillons par seconde)
+* Il en résulte : les fréquences jusqu'à environ $\qty{22}{\kilo\hertz}$ peuvent être correctement représentées
+* Cela correspond à la plage de fréquences HiFi des bonnes installations stéréo
+* Note : La fréquence d'échantillonnage doit toujours être légèrement supérieure au double de la fréquence maximale à traiter
 
 ---
 

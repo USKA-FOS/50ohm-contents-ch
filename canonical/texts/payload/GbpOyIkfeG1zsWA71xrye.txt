@@ -1,16 +1,16 @@
-### BFO für SSB
+### BFO pour SSB
 
-* Beat-Frequency-Oszillator (BFO) schwingt genau auf der Frequenz des unterdrückten Trägers
-* Mischt den Träger wieder rein
-* Möglichst hohe Frequenzstabilität $\rightarrow$ Quarzgesteuerter Oszillator
+* L'oscillateur à fréquence de battement (BFO) oscille exactement à la fréquence de la porteuse supprimée
+* Il mélange à nouveau la porteuse
+* Stabilité de fréquence aussi élevée que possible $\rightarrow$ Oscillateur à quartz
 
 ---
-### BFO für CW
+### BFO pour CW
 
-* BFO muss Abstand zum CW-Signal haben
-* So viel, wie das hörbare CW-Signal sein soll
-* Angenehmer Ton bei $\qtyrange{600}{900}{\hertz}$
-* Meistens bei $\qty{800}{\hertz}$
+* Le BFO doit avoir une distance par rapport au signal CW
+* Autant que le signal CW audible doit être
+* Son agréable à $\qtyrange{600}{900}{\hertz}$
+* Généralement à $\qty{800}{\hertz}$
 
 ---
 [question:AF211]

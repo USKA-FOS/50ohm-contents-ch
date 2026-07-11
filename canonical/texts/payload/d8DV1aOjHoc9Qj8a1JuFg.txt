@@ -1,23 +1,23 @@
-Um bei Transvertern die benötigten Oszillatorfrequenzen zu berechnen, ist die Kenntnis der gewünschten Ein- und Ausgabefrequenzen notwendig. Weiter benötigt man die Information, ob sich der Oszillator unterhalb oder oberhalb des Nutzsignals befinden soll.
+Pour calculer les fréquences d'oscillateur nécessaires pour les émetteurs-récepteurs, il est nécessaire de connaître les fréquences d'entrée et de sortie souhaitées. Il est également nécessaire de savoir si l'oscillateur doit se trouver en dessous ou au-dessus du signal utile.
 
 <indepth>
-Wenn sich die Oszillatorfrequenz unterhalb des Nutzsignals befindet, bleibt die Seitenbandlage eines SSB-Signals (USB/LSB) erhalten.
-Befindet sich die Oszillatorfrequenz oberhalb des Nutzsignals, wird die Seitenbandlage eines SSB-Signals invertiert (aus USB wird LSB und umgekehrt).
+Si la fréquence de l'oscillateur se trouve en dessous du signal utile, la position de la bande latérale d'un signal SSB (USB/LSB) est conservée.
+Si la fréquence de l'oscillateur se trouve au-dessus du signal utile, la position de la bande latérale d'un signal SSB est inversée (USB devient LSB et vice versa).
 </indepth>
 
-Rechenbeispiel:
+Exemple de calcul:
 
-Liegt die Oszillatorfrequenz unterhalb des Nutzsignals, so gehört zur höheren Frequenz des Nutzsignals auch die höhere Frequenz des Ausgangssignals des Konverters/Transverters.
+Si la fréquence de l'oscillateur se trouve en dessous du signal utile, la fréquence plus élevée du signal utile correspond également à la fréquence plus élevée du signal de sortie du convertisseur/émetteur-récepteur.
 
-Soll z.B. ein Frequenzbereich von $\qtyrange{438}{440}{\mega\hertz}$ auf einen Frequenzbereich von $\qtyrange{28}{30}{\mega\hertz}$ umgesetzt werden (bei Annahme, dass sich die Oszillatorfrequenz unterhalb des Nutzsignals befindet), so benötigt man eine Oszillatorfrequenz von $\qty{440}{\mega\hertz} - \qty{30}{\mega\hertz}$ oder $\qty{438}{\mega\hertz} - \qty{28}{\mega\hertz}$, was in beiden Fällen $\qty{410}{\mega\hertz}$ ergibt. Wird diese Oszillatorfrequenz mittels Frequenzvervielfachung erzeugt, so muss man diese bei der Rückrechnung auf die benötigte Frequenz des Quarzoszillators noch durch Teilen berücksichtigen.
+Par exemple, si une bande de fréquences de $\qtyrange{438}{440}{\mega\hertz}$ doit être convertie en une bande de fréquences de $\qtyrange{28}{30}{\mega\hertz}$ (en supposant que la fréquence de l'oscillateur se trouve en dessous du signal utile), une fréquence de l'oscillateur de $\qty{440}{\mega\hertz} - \qty{30}{\mega\hertz}$ ou $\qty{438}{\mega\hertz} - \qty{28}{\mega\hertz}$ est nécessaire, ce qui donne dans les deux cas $\qty{410}{\mega\hertz}$. Si cette fréquence de l'oscillateur est générée par multiplication de fréquence, il faut la diviser lors du calcul inverse pour obtenir la fréquence nécessaire de l'oscillateur à quartz.
 
-Gleich verhält es sich für den Frequenzbereich von $\qtyrange{436}{438}{\mega\hertz}$, wenn dieser wieder auf einen Frequenzbereich von $\qtyrange{28}{30}{\mega\hertz}$ umgesetzt werden soll (ebenfalls bei Annahme, dass sich die Oszillatorfrequenz unterhalb des Nutzsignals befindet).
-Hierbei ergibt sich bei der Rechnung $\qty{438}{\mega\hertz}$ - $\qty{30}{\mega\hertz}$ bzw. $\qty{436}{\mega\hertz}$ - $\qty{28}{\mega\hertz}$ eine Oszillatorfrequenz von $\qty{408}{\mega\hertz}$.
+Il en va de même pour la bande de fréquences de $\qtyrange{436}{438}{\mega\hertz}$, si celle-ci doit être convertie en une bande de fréquences de $\qtyrange{28}{30}{\mega\hertz}$ (également en supposant que la fréquence de l'oscillateur se trouve en dessous du signal utile).
+Dans ce cas, le calcul donne une fréquence de l'oscillateur de $\qty{438}{\mega\hertz} - \qty{30}{\mega\hertz}$ ou $\qty{436}{\mega\hertz} - \qty{28}{\mega\hertz}$, ce qui donne une fréquence de l'oscillateur de $\qty{408}{\mega\hertz}$.
 
-Werden die oben berechneten $\qty{408}{\mega\hertz}$ bzw. $\qty{410}{\mega\hertz}$ durch Verneunfachung der Quarz-Oszillatorfrequenz gewonnen, so ergeben sich die beiden Quarz-Oszillatorfrequenzen zu $\frac{\qty{408}{\mega\hertz}}{9} = \qty{45,333}{\mega\hertz}$ und $\frac{\qty{410}{\mega\hertz}}{9} = \qty{45,556}{\mega\hertz}$ (jeweils gerundet).
+Si les $\qty{408}{\mega\hertz}$ ou $\qty{410}{\mega\hertz}$ calculés ci-dessus sont obtenus par multiplication par neuf de la fréquence de l'oscillateur à quartz, les deux fréquences de l'oscillateur à quartz sont de $\frac{\qty{408}{\mega\hertz}}{9} = \qty{45,333}{\mega\hertz}$ et $\frac{\qty{410}{\mega\hertz}}{9} = \qty{45,556}{\mega\hertz}$ (arrondi dans chaque cas).
 
 [question:AF501]
 [question:AF502]
 
-%TODO: Die Frage 1472 gehört aus unserer Sicht nicht hier her, da es sich um einen Sender handelt und diese Frage nichts mit Konvertern oder Transvertern zu tun hat. Müsste evtl. in das Kapitel Sender und Senderstufen verschoben werden
+%TODO: La question 1472 ne devrait pas être ici, car il s'agit d'un émetteur et cette question n'a rien à voir avec les convertisseurs ou les émetteurs-récepteurs. Elle devrait peut-être être déplacée dans le chapitre Émetteurs et étages d'émission
 [question:AF301]

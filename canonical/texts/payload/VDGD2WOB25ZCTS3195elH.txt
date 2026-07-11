@@ -1,17 +1,17 @@
-## Spitzenwert
+## Valeur de crête
 
 <left>
-* Der Spitzenwert einer Sinusschwingung entspricht der Amplitude
-* Von Nulllinie bis höchstem Wert
-* Spitzen-Spitzen-Wert von niedrigstem bis höchstem Wert
+* La valeur de crête d'une oscillation sinusoïdale correspond à l'amplitude
+* De la ligne de base à la valeur la plus élevée
+* Valeur de crête à crête de la valeur la plus basse à la valeur la plus élevée
 </left>
 <right>
-[picture:834:e_spitze_effektiv_wert_bezeichnungen_sinus:Peridoendauer, Spitzenspannung, Effektivspannung und Spitzen-Spitzen-Spannung]
+[picture:834:e_spitze_effektiv_wert_bezeichnungen_sinus:Durée de période, tension de crête, tension efficace et tension de crête à crête]
 </right>
 
 ---
 
-Spitzen-Spitzen-Wert bei sinusförmigen Spannungen
+Valeur de crête à crête pour les tensions sinusoïdales
 
 $U_{SS} = 2\cdot \hat{U}$
 
@@ -21,14 +21,14 @@ $U_{SS} = 2\cdot \hat{U}$
 [question:EB406]
 
 ---
-## Effektivwert
+## Valeur efficace
 
-Bei einer Wechselspannung der Wert, der in einem Widerstand zu einer vergleichsweisen Gleichspannung in Leistung umgesetzt wird
+Pour une tension alternative, la valeur qui est convertie en puissance en comparaison avec une tension continue dans une résistance
 
-[picture:725:e_effektivwert_230v:Effektivwert und Spitzenwert der Spannung im Haushalt]
+[picture:725:e_effektivwert_230v:Valeur efficace et valeur de crête de la tension dans le ménage]
 
 ---
-Bei sinusförmigen Spannungen (ohne Herleitung)
+Pour les tensions sinusoïdales (sans dérivation)
 
 $\hat{U} = U_{eff}\cdot \sqrt{2}$
 
@@ -36,10 +36,10 @@ $\hat{U} = U_{eff}\cdot \sqrt{2}$
 [question:EB405]
 
 <note>
-* Lösungsweg auf nächster Seite
+* Solution sur la page suivante
 </note>
 ---
-### Lösungsweg
+### Solution
 
 $\hat{U} = U_{eff}\cdot \sqrt{2}$
 $U_{eff} = \dfrac{\hat{U}}{\sqrt{2}}$
@@ -49,10 +49,10 @@ $U_{eff} = \dfrac{\qty{1}{\volt}}{1,41} \approx \qty{0,7}{\volt}$
 [question:EB404]
 
 <note>
-* Lösungsweg auf nächster Seite
+* Solution sur la page suivante
 </note>
 ---
-### Lösungsweg
+### Solution
 
 $\hat{U} = U_{eff}\cdot \sqrt{2}$
 $U_{eff} = \dfrac{\hat{U}}{\sqrt{2}}$
@@ -61,7 +61,7 @@ $U_{eff} = \dfrac{\qty{12}{\volt}}{1,41} \approx \qty{8,5}{\volt}$
 ---
 [question:EB403]
 ---
-### Lösungsweg
+### Solution
 
 $\hat{U} = U_{eff}\cdot \sqrt{2}$
 $\hat{U} = \qty{12}{\volt}\cdot 1,41 \approx \qty{17}{\volt}$
@@ -73,10 +73,10 @@ $U_{SS} = 2\cdot \qty{17}{\volt} = \qty{34}{\volt}$
 [question:EB401]
 
 <note>
-* Lösungsweg auf nächster Seite
+* Solution sur la page suivante
 </note>
 ---
-### Lösungsweg
+### Solution
 
 $\hat{U} = U_{eff}\cdot \sqrt{2}$
 $\hat{U} = \qty{230}{\volt}\cdot 1,41 \approx \qty{325}{\volt}$
@@ -85,5 +85,5 @@ $\hat{U} = \qty{230}{\volt}\cdot 1,41 \approx \qty{325}{\volt}$
 [question:EB402]
 
 <note>
-* Ergebnis von vorher &times;2
+* Résultat de la page précédente &times;2
 </note>

@@ -1,23 +1,23 @@
-## Kombination von Quellencodierung und Kanalcodierung
+## Combinaison de codage source et de codage canal
 
-* Effektive Bandbreitennutzung durch intelligente Kombination  
-* Gleichzeitige Fehlererkennung und -korrektur durch Redundanz
-
----
-
-## Sender-Prozess
-
-1. *Quellencodierer:* Daten komprimieren  
-2. *Kanalcodierer:* Redundanz zur Fehlererkennung und -korrektur hinzufügen  
-3. *Mapper:* Binäre Daten auf Symbole (z. B. Amplitude & Phase bei QAM) abbilden
+* Utilisation efficace de la bande passante grâce à une combinaison intelligente
+* Détection et correction simultanées des erreurs grâce à la redondance
 
 ---
 
-## Empfänger-Prozess
+## Processus d'émission
 
-1. *De-Mapper:* Symbole auf binäre Daten abbilden  
-2. *Kanaldecodierer:* Fehler erkennen und korrigieren  
-3. *Quellendecodierer:* Daten dekomprimieren
+1. *Codeur source:* Compression des données
+2. *Codeur canal:* Ajout de redondance pour la détection et la correction des erreurs
+3. *Mappage:* Mappage des données binaires sur des symboles (par exemple, amplitude & phase en QAM)
+
+---
+
+## Processus de réception
+
+1. *Démappage:* Mappage des symboles sur des données binaires
+2. *Décodeur canal:* Détection et correction des erreurs
+3. *Décodeur source:* Décompression des données
 
 ---
 

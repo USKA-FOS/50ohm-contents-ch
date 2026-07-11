@@ -1,26 +1,26 @@
-# Gegeben
-Verstärkung: $g = \qty{16}{\dezibel}$  
-Eingangsleitung: $P_1 = \qty{1}{\watt}$
+# Données
+Amplification: $g = \qty{16}{\dezibel}$  
+Puissance d'entrée: $P_1 = \qty{1}{\watt}$
 
-# Lösungsweg 1
-Wir nutzen die Formel aus der Formelsammlung (Pegel, Verstärkung, Leistung):  
+# Solution 1
+Nous utilisons la formule du recueil de formules (niveau, amplification, puissance):  
 $ g = 10 \cdot \log_{10}\left(\frac{P_2}{P_1}\right)\unit{\dB}$  
-und lösen nach $P_2$ auf:
+et nous résolvons pour $P_2$:
 $P_2 = P_1 \cdot 10^{\frac{g}{\qty{10}{\dB}}}$  
-Mit den Zahlenwerten aus der Prüfungsfrage:
+Avec les valeurs numériques de la question d'examen:
 $P_2 = \qty{1}{\watt} \cdot 10^{\frac{\qty{16}{\dB}}{\qty{10}{\dB}}} = \qty{39.81}{\watt}$
 
-# Lösungsweg 2
-Wir nutzen die Tabelle in der Formelsammlung sowie das Wissen über das Logarithmengesetz:  
-Der Logarithmus eines Produkts entspricht der Addition der 
-Logarithmen der Faktoren:
+# Solution 2
+Nous utilisons le tableau dans le recueil de formules ainsi que la connaissance des lois des logarithmes:  
+Le logarithme d'un produit correspond à l'addition des 
+logarithmes des facteurs:
 
 $\log\left(a\right)+\log\left(b\right) = \log\left(a \cdot b\right)$
 
-Mit den Werten aus der Aufgabenstellung und Tabelle erhalten wir für den Verstärkungsfaktor:
+Avec les valeurs de l'énoncé et du tableau, nous obtenons pour le facteur d'amplification:
 
 $\qty{16}{\dB} = \qty{6}{\dB} + \qty{10}{\dB} \rightarrow  4 \cdot 10 = 40$
 
-Und damit:
+Et donc:
 
 $P_2 = \qty{1}{\watt} \cdot 40 = \qty{40}{\watt}$

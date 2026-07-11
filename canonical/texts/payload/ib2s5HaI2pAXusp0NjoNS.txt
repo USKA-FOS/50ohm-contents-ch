@@ -1,23 +1,23 @@
-Ein Spannungswandler wandelt eine Eingangsspannung von $U_{\mathrm{in}} = \qty{5}{\volt}$ in eine Ausgangsspannung von $U_{\mathrm{out}} = \qty{12}{\volt}$ um. Dabei nimmt er einen Eingangsstrom von $I_{\mathrm{in}} = \qty{3}{\ampere}$ auf und liefert einen Ausgangsstrom von $I_{\mathrm{out}} = \qty{1}{\ampere}$.
+Un convertisseur de tension transforme une tension d'entrée de $U_{\mathrm{in}} = \qty{5}{\volt}$ en une tension de sortie de $U_{\mathrm{out}} = \qty{12}{\volt}$. Il absorbe un courant d'entrée de $I_{\mathrm{in}} = \qty{3}{\ampere}$ et fournit un courant de sortie de $I_{\mathrm{out}} = \qty{1}{\ampere}$.
 
-Zur Berechnung des Wirkungsgrades benötigen wir zunächst die Eingangs- und Ausgangsleistung. Diese berechnen sich mit
+Pour calculer le rendement, nous avons d'abord besoin de la puissance d'entrée et de sortie. Celle-ci se calcule avec
 
 $ P = U \cdot I $
 
-Damit ergibt sich für die Eingangsleistung:
+Ainsi, la puissance d'entrée est:
 
 $ P_{\mathrm{in}} = U_{\mathrm{in}} \cdot I_{\mathrm{in}} = \qty{5}{\volt} \cdot \qty{3}{\ampere} = \qty{15}{\watt} $
 
-Die Ausgangsleistung beträgt:
+La puissance de sortie est de:
 
 $ P_{\mathrm{out}} = U_{\mathrm{out}} \cdot I_{\mathrm{out}} = \qty{12}{\volt} \cdot \qty{1}{\ampere} = \qty{12}{\watt} $
 
-Nun kann der Wirkungsgrad berechnet werden:
+Maintenant, le rendement peut être calculé:
 
 $ \eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}} = \frac{\qty{12}{\watt}}{\qty{15}{\watt}} = 0{,}8 $
 
-Zur Umrechnung in Prozent wird mit $\qty{100}{\percent}$ multipliziert:
+Pour la conversion en pourcentage, multipliez par $\qty{100}{\percent}$:
 
 $ \eta = 0{,}8 \cdot \qty{100}{\percent} = \qty{80}{\percent} $
 
-Der Spannungswandler besitzt somit einen Wirkungsgrad von $\qty{80}{\percent}$.
+Le convertisseur de tension a donc un rendement de $\qty{80}{\percent}$.

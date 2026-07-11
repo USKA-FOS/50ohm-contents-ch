@@ -1,111 +1,111 @@
-## Endspeisung des Halbwellendipols
+## Alimentation finale du dipôle demi-onde
 
 <left>
 [picture:310:a_antennenformen_fuchskreis:Fuchskreis]
 </left>
 
 <right>
-* Eine Halbwellenantenne kann auch an einem Ende gespeist werden
-* Bei einer Drahtlänge von λ/2 (oder Vielfachen) ist der Speisewiderstand hochohmig (ca. $\qtyrange{2000}{2500}{\ohm}$)
-* Als Anpassungsmöglichkeit dient der Fuchskreis
+* Une antenne demi-onde peut également être alimentée à une extrémité
+* Pour une longueur de fil de λ/2 (ou multiples), la résistance d'alimentation est haute (environ $\qtyrange{2000}{2500}{\ohm}$)
+* Un cercle de Fuchs sert de possibilité d'adaptation
 </right>
 ---
 [question:AG419]
 
 ---
-### Transformator zur Impedanzanpassung
+### Transformateur pour l'adaptation d'impédance
 
-* Ein Transformator mit einem Übersetzungsverhältnis von 1:7 bewirkt eine 1:49-Impedanztransformation, da das Windungsverhältnis im Quadrat eingeht
-* Dabei werden Spannung und Strom um den Faktor $\num{7}$ multipliziert bzw. dividiert
-* Häufig kommt es zu Verwechslungen, wenn statt des Impedanzverhältnisses das reine Windungsverhältnis angegeben wird
+* Un transformateur avec un rapport de transformation de 1:7 entraîne une transformation d'impédance de 1:49, car le rapport de bobinage est au carré
+* La tension et le courant sont multipliés ou divisés par un facteur de $\num{7}$
+* Il arrive souvent que le rapport de bobinage soit indiqué au lieu du rapport d'impédance
 
 ---
 [question:AG123]
 
 ---
-### Gegengewicht bei der Impedanzanpassung
+### Contre-poids lors de l'adaptation d'impédance
 
 <left>
-[picture:260:a_antennenformen_endfed_multiband:Endgespeiste, resonante Multibandantenne]
+[picture:260:a_antennenformen_endfed_multiband:Antenne multibande résonante alimentée en bout]
 </left>
 
 <right>
-* Als Gegengewicht wird oft ein kurzes Drahtende (mindestens 1/20 λ) oder ein Teil der koaxialen Zuleitung verwendet
-* Eine Mantelwellensperre verhindert, dass das weitere Kabel zum Antennenteil wird
+* Un court fil (au moins 1/20 λ) ou une partie de la ligne d'alimentation coaxiale est souvent utilisé comme contre-poids
+* Un piège d'onde enveloppante empêche que le reste du câble ne devienne une partie de l'antenne
 </right>
 ---
 [question:AG124]
 
 ---
-## Zeppelinantenne als Alternative
+## Antenne Zeppelin comme alternative
 
 <left>
-[picture:314:a_antennenformen_zeppelinantenne:Zeppelinantenne]
+[picture:314:a_antennenformen_zeppelinantenne:Antenne Zeppelin]
 </left>
 
 <right>
-* Anstelle eines Fuchskreises oder Transformators kann auch eine Zweidrahtleitung mit einer Länge von λ/4 verwendet werden
-* Diese Bauweise wird als Zeppelinantenne bezeichnet
+* Au lieu d'un cercle de Fuchs ou d'un transformateur, une ligne bifilaire d'une longueur de λ/4 peut également être utilisée
+* Cette construction est appelée antenne Zeppelin
 </right>
 ---
 [question:AG120]
 
 --- style="font-size: smaller;"
-## Impedanzanpassung bei Ganzwellen-Schleifen
+## Adaptation d'impédance des boucles à onde entière
 
 <left>
 [picture:311:a_antennenformen_deltaloop:Delta-Loop]
 </left>
 <right>
-* Eine Delta-Loop-Antenne hat bei gleichlangen Schenkeln eine Speiseimpedanz von ca. $\qty{100}{\ohm}$
-* Durch den Einsatz einer λ/4-Leitung mit einem Wellenwiderstand von $\qty{75}{\ohm}$ wird eine Anpassung auf ca. $\qty{50}{\ohm}$ erreicht
-* Optimal ist der Wellenwiderstand als geometrisches Mittel $(\sqrt{\qty{50}{\ohm}\cdot \qty{100}{\ohm}} \approx \qty{70,7}{\ohm})$
+* Une antenne Delta-Loop a une impédance d'alimentation d'environ $\qty{100}{\ohm}$ lorsque les branches sont de longueur égale
+* En utilisant une ligne de λ/4 avec une impédance de ligne de $\qty{75}{\ohm}$, une adaptation à environ $\qty{50}{\ohm}$ est réalisée
+* L'impédance de la ligne est optimale comme moyenne géométrique $(\sqrt{\qty{50}{\ohm}\cdot \qty{100}{\ohm}} \approx \qty{70,7}{\ohm})$
 </right>
 ---
 [question:AG117]
 
 ---
-## Quadrat-Ganzwellenschleifenantenne
+## Antenne en boucle à onde entière carrée
 
-* Wird die Ganzwellenschleife als Quadrat ausgeführt, so muss die Länge jeder Seite exakt 1/4 λ betragen
+* Si la boucle à onde entière est réalisée sous forme de carré, la longueur de chaque côté doit être exactement de 1/4 λ
 
 ---
 [question:AG119]
 
 ---
-## Multibandantennen (Teil 1)
+## Antennes multibandes (Partie 1)
 
 <left>
-[picture:313:a_antennenformen_g5rv:G5RV-Antenne]
+[picture:313:a_antennenformen_g5rv:Antenne G5RV]
 </left>
 
 <right>
-* Multibandantennen ermöglichen den Betrieb auf vielen Frequenzbändern
-* Beispiele: G5RV-Antenne (zwei gleichlange Schenkel + Zweidrahtleitung) und asymmetrisch angeregte Windomantenne
+* Les antennes multibandes permettent l'exploitation sur de nombreuses bandes de fréquences
+* Exemples : antenne G5RV (deux branches de longueur égale + ligne bifilaire) et antenne Windom asymétrique
 </right>
 ---
 [question:AG121]
 
 ---
-## Multibandantennen (Teil 2)
+## Antennes multibandes (Partie 2)
 
 <left>
-[picture:309:a_antennenformen_windom:Windom-Antenne]
+[picture:309:a_antennenformen_windom:Antenne Windom]
 </left>
 
 <right>
-* Durch geschickte Abmessungen werden zahlreiche Resonanzen realisiert, wodurch viele Amateurfunkbänder genutzt werden können
+* Grâce à des dimensions ingénieuses, de nombreuses résonances sont réalisées, permettant l'utilisation de nombreuses bandes de radioamateur
 </right>
 ---
 [question:AG122]
 
 ---
-## Resonanz und Abstrahlcharakteristik
+## Résonance et diagramme de rayonnement
 
-* Resonanz allein garantiert nicht zwangsläufig eine gute Abstrahlcharakteristik
-* Bei gegenüber Erde erregten Vertikalantennen ist eine Länge von ca. 5/8 λ optimal
-* Da ein einzelner Draht mit Erde als Gegenpol bei 5/8 λ nicht resonant ist, wird meist eine Spule eingesetzt, die die elektrische Länge auf 6/8 λ (also 3/4 λ) verlängert
-* Bei mittengespeisten Dipolen liegt das optimale Verhältnis häufig bei 5/4 λ
+* La résonance seule ne garantit pas nécessairement une bonne caractéristique de rayonnement
+* Pour les antennes verticales excitées par rapport à la terre, une longueur d'environ 5/8 λ est optimale
+* Comme un seul fil avec la terre comme contre-pôle n'est pas résonant à 5/8 λ, une bobine est généralement utilisée, qui prolonge la longueur électrique à 6/8 λ (c'est-à-dire 3/4 λ)
+* Pour les dipôles alimentés au milieu, le rapport optimal est souvent de 5/4 λ
 
 ---
 [question:AG223]

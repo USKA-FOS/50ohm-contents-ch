@@ -1,18 +1,18 @@
-Eine Antenne kann vertikal ([ref:n_vpol_antenne]) oder horizontal ([ref:n_hpol_antenne]) polarisiert sein. Das erkennt man bei den meisten Antennenbauformen  daran, dass die Antennen-Elemente senkrecht (vertikal) oder waagerecht (horizontal) ausgerichtet sind.
+Une antenne peut être polarisée verticalement ([ref:n_vpol_antenne]) ou horizontalement ([ref:n_hpol_antenne]). On le reconnaît sur la plupart des formes de construction d'antennes par le fait que les éléments d'antenne sont orientés verticalement (vertical) ou horizontalement (horizontal).
 
-% TODO Big Picture: In Bild n_vpol_antenne horizontalen und vertikalen Pfeil mit Beschriftung einfügen
+% TODO Big Picture: Insérer une flèche horizontale et verticale avec une étiquette dans l'image n_vpol_antenne
 <margin>
-[picture:51:n_vpol_antenne:vertikal polarisierte Antenne]
+[picture:51:n_vpol_antenne:antenne polarisée verticalement]
 </margin>
 
-% TODO Big Picture: In Bild n_hpol_antenne horizontalen und vertikalen Pfeil mit Beschriftung einfügen
+% TODO Big Picture: Insérer une flèche horizontale et verticale avec une étiquette dans l'image n_hpol_antenne
 <margin>
-[picture:326:n_hpol_antenne:horizontal polarisierte Antenne]
+[picture:326:n_hpol_antenne:antenne polarisée horizontalement]
 </margin>
 
-Beim Funkbetrieb auf VHF, UHF und höheren Frequenzen sollten zwei Funkstationen ihre Antennen immer in der gleichen Polarisation betreiben. Werden unterschiedliche Polarisationen verwendet, z. B. eine Station horizontal, die andere vertikal, ergibt sich eine deutlich schlechtere Verbindung.
+Lors des opérations radio sur VHF, UHF et les fréquences plus élevées, deux stations radio doivent toujours utiliser leurs antennes avec la même polarisation. Si des polarisations différentes sont utilisées, par exemple une station horizontale, l'autre verticale, il en résulte une liaison nettement moins bonne.
 
-Durch besondere Antennenbauformen kann man drehende Funkwellen erzeugen. Diese heißen "zirkular polarisiert". Je nach Drehrichtung unterscheidet man "linkszirkular" und "rechtszirkular" polarisierte Funkwellen. Zu beachten ist, dass ein Parabolspiegel die zirkulare Polarisation umkehrt. Genaueres hierzu wird im Kurs für die Klasse HB9 behandelt.
+Grâce à des formes de construction d'antennes particulières, on peut générer des ondes radio tournantes. Celles-ci sont appelées "polarisées circulairement". Selon le sens de rotation, on distingue les ondes radio "polarisées circulairement à gauche" et "polarisées circulairement à droite". Il convient de noter qu'un miroir parabolique inverse la polarisation circulaire. Plus de détails à ce sujet seront traités dans le cours pour la classe HB9.
 
 [question:NB304]
 

@@ -1,43 +1,43 @@
-## Mittengespeister Dipol
+## Dipôle alimenté au centre
 
-* Speiseimpedanz $\qty{73,1}{\ohm}$
-* Im Freiraum, also bei einer Aufbauhöhe von min. einer Wellenlänge
-* Recht nahe bei $\qty{50}{\ohm}$
+* Impédance d'alimentation $\qty{73,1}{\ohm}$
+* Dans l'espace libre, c'est-à-dire à une hauteur de construction d'au moins une longueur d'onde
+* Très proche de $\qty{50}{\ohm}$
 
 ---
 [question:EG207]
 ---
-## Mittengespeister Dipol
+## Dipôle alimenté au centre
 
-* Bei geringerer Aufbauhöhe kommt es zu Wechselwirkungen mit dem Boden
-* Speiseimpedanz ca. $\qty{40}{\ohm}$ bis $\qty{90}{\ohm}$
+* En cas de hauteur de construction plus faible, des interactions avec le sol se produisent
+* Impédance d'alimentation d'environ $\qty{40}{\ohm}$ à $\qty{90}{\ohm}$
 
 ---
 [question:EG208]
 ---
 [question:EG209]
 ---
-## Faltdipol
+## Dipôle plié
 
-* Antennenabschnitte sind teilweise parallel geführt
-* Verdoppelt die Spannung
-* Halbiert den Strom
+* Les sections d'antenne sont partiellement guidées en parallèle
+* Double la tension
+* Divise le courant par deux
 * $R = \frac{2 \cdot U}{\frac{I}{2}} = 4 \cdot \frac{U}{I}$
-* Speiseimpedanz vervierfacht sich: ca. $\qty{240}{\ohm}$ bis $\qty{300}{\ohm}$
+* L'impédance d'alimentation est quadruplée : environ $\qty{240}{\ohm}$ à $\qty{300}{\ohm}$
 
 <note>
-* Hier ist von der Speiseleitung kommend eine Anpassung mittels eines Transformators nötig
+* Ici, un adaptateur au moyen d'un transformateur est nécessaire depuis la ligne d'alimentation
 </note>
 ---
 [question:EG210]
 ---
-## Groundplane-Antenne
+## Antenne Groundplane
 
-* Ein Dipolschenkel entfällt und wird durch eine Erde mit möglichst geringem Widerstand ersetzt
-* Hälfte eines Dipols im Freiraum
-* $\rightarrow$ Speisewiderstand: $\dfrac{\qty{73,1}{\ohm}}{2} \approx \qty{37}{\ohm}$
-* Radiale um $\qty{45}{\degree}$ nach unten abwinkeln ergibt zusätzliche Abstrahlung
-* $\rightarrow$ Speisewiderstand: $\qty{50}{\ohm}$
+* Un bras du dipôle est omis et remplacé par une terre avec une résistance aussi faible que possible
+* Moitié d'un dipôle dans l'espace libre
+* $\rightarrow$ Résistance d'alimentation : $\dfrac{\qty{73,1}{\ohm}}{2} \approx \qty{37}{\ohm}$
+* Les radiaux inclinés à $\qty{45}{\degree}$ vers le bas donnent un rayonnement supplémentaire
+* $\rightarrow$ Résistance d'alimentation : $\qty{50}{\ohm}$
 
 ---
 [question:EG211]

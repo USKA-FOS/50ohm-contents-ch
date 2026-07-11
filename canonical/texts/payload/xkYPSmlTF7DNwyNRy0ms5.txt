@@ -1,39 +1,39 @@
-Bei der Frequenzmodulation (FM) wird ein Modulationssignal durch Änderung der Frequenz auf den Träger aufmoduliert. Die Amplitude des Trägers wird hingegen nicht verändert und bleibt idealerweise konstant. 
+Dans la modulation de fréquence (FM), un signal de modulation est modulé sur la porteuse en modifiant la fréquence. L'amplitude de la porteuse n'est pas modifiée et reste idéalement constante.
 
 <margin>
-[picture:711:n_fm_wasserfall:Signal einer FM-Amateurfunksendung (Sprache)]
+[picture:711:n_fm_wasserfall:Signal d'une émission radioamateur FM (voix)]
 </margin>
 
 <margin>
-[picture:357:n_fm_frequenzmodulation:Frequenzmodulation]
+[picture:357:n_fm_frequenzmodulation:Modulation de fréquence]
 </margin>
 
 [question:NE301]
 [question:NE302]
 [question:NE303]
 
-Je lauter in das Mikrofon gesprochen wird, umso größer also die Amplitude des Modulationssignals ist, umso größer ist auch die Änderung der Trägerfrequenz nach oben und unten. In Folge steigt auch die belegte Bandbreite der Aussendung.
+Plus on parle fort dans le microphone, plus l'amplitude du signal de modulation est grande, plus la modification de la fréquence porteuse vers le haut et le bas est grande. En conséquence, la bande passante occupée par l'émission augmente.
 
 ---
 
-Der Maximalwert der Änderung der Trägerfrequenz wird als *Frequenzhub* oder kurz *Hub* bezeichnet. Bei manchen Funkgeräten kann er eingestellt werden, bei anderen allerdings nicht. Oftmals kann auch zwischen zwei festen Werten umgeschaltet werden: "Normales" FM und Schmalband-FM (englisch Narrow-FM, kurz NFM), das nur etwa die halbe Bandbreite belegt.
+La valeur maximale de la modification de la fréquence porteuse est appelée *excursion de fréquence* ou simplement *excursion*. Sur certains appareils radio, elle peut être réglée, sur d'autres non. Souvent, on peut basculer entre deux valeurs fixes : "FM normale" et FM à bande étroite (en anglais Narrow-FM, abrégé en NFM), qui n'occupe qu'environ la moitié de la bande passante.
 
 <indepth>
-Der *Frequenzhub* wird genauso wie die Bandbreite in Hz angegeben, darf aber mit dieser nicht verwechselt werden. Der Frequenzhub bezeichnet die maximale Änderung der Trägerfrequenz. Die Bandbreite ist näherungsweise doppelt so groß wie die Summe aus Hub und der Bandbreite des NF-Signals. Beispiel: Ein NF-Signal mit einer Bandbreite von $\qty{3}{\kilo\hertz}$ wird mit einem Hub von $\qty{3}{\kilo\hertz}$ moduliert. Dies ergibt eine Bandbreite von:
+L'*excursion de fréquence* est indiquée en Hz, tout comme la bande passante, mais ne doit pas être confondue avec celle-ci. L'excursion de fréquence désigne la modification maximale de la fréquence porteuse. La bande passante est approximativement deux fois plus grande que la somme de l'excursion et de la bande passante du signal NF. Exemple : Un signal NF avec une bande passante de $\qty{3}{\kilo\hertz}$ est modulé avec une excursion de $\qty{3}{\kilo\hertz}$. Cela donne une bande passante de:
 $2\cdot(\qty{3}{\kilo\hertz}\nobreak+\nobreak\qty{3}{\kilo\hertz})=\qty{12}{\kilo\hertz}$
 </indepth>
 
-In diesem Zusammenhang sollte auch der IARU-Bandplan berücksichtigt werden, da er Hinweise auf die jeweils maximal empfohlene Bandbreite einer Aussendung in unterschiedlichen Frequenzbereichen gibt. Beispielsweise sollen im Bereich für FM-Telefonie im $\qty{2}{\meter}$-Band maximal $\qty{12}{\kilo\hertz}$ Bandbreite belegt werden. Dies entspricht NFM. Die folgende Frage kann gut mit diesem Wissen und dem IARU-Bandplan gelöst werden, der bei der Prüfung als Hilfsmittel vorliegt.
+Dans ce contexte, le plan de bandes de l'IARU doit également être pris en compte, car il donne des indications sur la bande passante maximale recommandée d'une émission dans différentes bandes de fréquences. Par exemple, dans la bande pour la téléphonie FM dans la bande des $\qty{2}{\meter}$, une bande passante maximale de $\qty{12}{\kilo\hertz}$ doit être occupée. Cela correspond à NFM. La question suivante peut être bien résolue avec cette connaissance et le plan de bandes de l'IARU, qui est disponible comme aide lors de l'examen.
 
 [question:BC216]
 
-Wenn sich der Hub nicht oder nicht ausreichend klein einstellen lässt, kann dies in der Praxis dazu führen, dass eine Aussendung mehr Bandbreite belegt, als für den Frequenzbereich vorgesehen ist. Gerade viele ältere Handfunkgeräte und Mobil-Transceiver verfügen aber über einen fest eingestellten Hub, der dazu führt, dass bis zu $\qty{25}{\kilo\hertz}$ Bandbreite belegt wird.
+Si l'excursion ne peut pas être réglée ou pas suffisamment petite, cela peut, en pratique, conduire à ce qu'une émission occupe plus de bande passante que prévu pour la bande de fréquences. Beaucoup d'anciens appareils radio portatifs et d'émetteurs-récepteurs mobiles disposent cependant d'une excursion fixée, ce qui conduit à ce que jusqu'à $\qty{25}{\kilo\hertz}$ de bande passante soient occupés.
 
-In solchen Situationen kann man sich dadurch helfen, leiser in das Mikrofon zu sprechen. Dadurch wird die Amplitude des Modulationssignals und somit auch die Änderung der Trägerfrequenz nicht so groß und in Folge belegt die Aussendung weniger Bandbreite.
+Dans de telles situations, on peut s'aider en parlant plus doucement dans le microphone. Cela rend l'amplitude du signal de modulation et donc la modification de la fréquence porteuse moins grandes et, par conséquent, l'émission occupe moins de bande passante.
 
 [question:NE306]
 
-Da die Amplitude des Trägers nicht verändert wird, ändert sich auch die Sendeleistung durch die Modulation nicht. Solange man die PTT-Taste drückt, ist die Sendeleistung maximal, und zwar unabhängig davon, ob man gar nicht, leise oder laut in das Mikrofon spricht. Dies hat den Vorteil, dass Störungen nicht dazu führen, dass die Lautstärke des Sprachsignals schwankt.
+Comme l'amplitude de la porteuse n'est pas modifiée, la puissance d'émission ne change pas non plus par la modulation. Tant que vous appuyez sur la touche PTT, la puissance d'émission est maximale, et ce indépendamment du fait que vous ne parliez pas du tout, doucement ou fort dans le microphone. Cela présente l'avantage que les perturbations ne provoquent pas de variations de la puissance du signal vocal.
 
 [question:NE304]
 

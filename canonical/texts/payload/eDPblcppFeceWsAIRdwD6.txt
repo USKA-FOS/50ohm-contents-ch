@@ -1,19 +1,19 @@
-Die Leerlaufspannung beträgt:
+La tension à circuit ouvert est de :
 
 $ U_0 = \qty{13,5}{\volt} $
 
-Unter Belastung sinkt die Klemmenspannung auf:
+Sous charge, la tension aux bornes diminue à :
 
 $ U = \qty{13}{\volt} $
 
-Die Spannungsdifferenz fällt am Innenwiderstand der Spannungsquelle ab:
+La différence de tension chute sur la résistance interne de la source de tension :
 
 $ U_i = \qty{13,5}{\volt} - \qty{13}{\volt} = \qty{0,5}{\volt} $
 
-Gegeben ist außerdem ein Strom von:
+Il est également donné un courant de :
 
 $ I = \qty{2}{\ampere} $
 
-Mit dem Ohmschen Gesetz ergibt sich der Innenwiderstand zu:
+Avec la loi d'Ohm, la résistance interne est :
 
 $ R_i = \frac{U_i}{I} = \frac{\qty{0,5}{\volt}}{\qty{2}{\ampere}} = \qty{0,25}{\ohm} $

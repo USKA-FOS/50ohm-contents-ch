@@ -1,12 +1,12 @@
-Gegeben ist ein Transformator mit einem Windungsverhältnis von $1:4$ sowie ein Widerstand $R = \qty{16}{\kilo\ohm}$ auf der Sekundärseite.
+Un transformateur avec un rapport de spires de $1:4$ et une résistance $R = \qty{16}{\kilo\ohm}$ sur le côté secondaire sont donnés.
 
-Zunächst bestimmen wir das Impedanzverhältnis. Für Transformatoren gilt:
+Tout d'abord, nous déterminons le rapport d'impédance. Pour les transformateurs, nous avons :
 
 $\left(\frac{N_S}{N_P}\right)^2 = \left(4\right)^2 = 16$
 
-Das bedeutet, dass die Impedanz auf der Sekundärseite um den Faktor 16 größer erscheint als auf der Primärseite.
+Cela signifie que l'impédance sur le côté secondaire apparaît 16 fois plus grande que sur le côté primaire.
 
-Gesucht ist die auf die Primärseite transformierte Impedanz:
+Nous cherchons l'impédance transformée sur le côté primaire :
 
 $Z_\text{P} = \frac{Z_\text{S}}{16} = \frac{\qty{16}{\kilo\ohm}}{16}$
 

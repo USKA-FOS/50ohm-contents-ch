@@ -1,34 +1,34 @@
-Gesucht ist die Leistung am Widerstand $R_2$.
+La puissance à la résistance $R_2$ est recherchée.
 
-Gegeben sind:
+Les données sont:
 
 $ U = \qty{15}{\volt} $
 
-und
+et
 
 $ R_1 = R_2 = R_3 = \qty{10}{\kilo\ohm} $
 
-Es ergibt sich für die Parallelschaltung aus $R_2$ und $R_3$:
+Il en résulte pour le circuit en parallèle de $R_2$ et $R_3$:
 
 $ R_{23} = \qty{5}{\kilo\ohm} $
 
-Damit beträgt der Gesamtwiderstand:
+Ainsi, la résistance totale est:
 
 $ R_\mathrm{ges} = R_1 + R_{23} = \qty{10}{\kilo\ohm} + \qty{5}{\kilo\ohm} = \qty{15}{\kilo\ohm} $
 
-Der Gesamtstrom ist somit:
+Le courant total est donc:
 
 $ I_\mathrm{ges} = \frac{U}{R_\mathrm{ges}} = \frac{\qty{15}{\volt}}{\qty{15}{\kilo\ohm}} = \qty{1}{\milli\ampere} $
 
-Dieser Strom teilt sich gleichmäßig auf $R_2$ und $R_3$ auf:
+Ce courant se divise également entre $R_2$ et $R_3$:
 
 $ I_{2} = \frac{I_\mathrm{ges}}{2} = \qty{0,5}{\milli\ampere} $
 
-Die Leistung am Widerstand $R_2$ berechnet sich mit:
+La puissance à la résistance $R_2$ se calcule avec:
 
 $ P = I^2 \cdot R $
 
-Also:
+Donc:
 
 $ P_{2} = I_{2}^2 \cdot R_2 $
 

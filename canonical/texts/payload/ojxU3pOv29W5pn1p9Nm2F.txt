@@ -1,4 +1,4 @@
-Bei bekanntem Verkürzungsfaktor lässt sich die Antennenlänge eines Halbwellendipols bzw. eines Viertel-Lambda-Schenkels einer Antenne leicht berechnen, in dem man die Hälfte bzw. ein Viertel der Wellenlänge mit dem Verkürzungsfaktor (meist $\num{0,95}$) multipliziert.
+Connu le facteur de réduction, la longueur de l'antenne d'un dipôle demi-onde ou d'une branche d'un quart de longueur d'onde d'une antenne peut être facilement calculée en multipliant la moitié ou un quart de la longueur d'onde par le facteur de réduction (généralement \num{0,95}).
 
 [question:AG101]
 [question:AG102]
@@ -8,36 +8,36 @@ Bei bekanntem Verkürzungsfaktor lässt sich die Antennenlänge eines Halbwellen
 
 ---
 
-Der Verkürzungsfaktor bei Antennen ergibt sich daraus, dass die Drähte nicht unendlich dünn sind und sich somit eine zusätzliche Kapazität zwischen Leiter und Umgebung ausbildet.
+Le facteur de réduction des antennes résulte du fait que les fils ne sont pas infiniment fins, ce qui permet de former une capacité supplémentaire entre le conducteur et l'environnement.
 
 [question:AG202]
 
 ---
 
-Bei elektrischen Schleifenantennen gibt es im Gegensatz zum Verkürzungsfaktor einen Korrekturfaktor, der überraschenderweise einer *Verlängerung* entspricht.
+Dans le cas des antennes électriques en boucle, il existe, contrairement au facteur de réduction, un facteur de correction qui correspond étonnamment à un *allongement*.
 
 <indepth>
-  Ein Verlängerungsfaktor bedeutet <u>nicht</u>, dass sich die Welle mit *Überlichtgeschwindigkeit* ausbreitet, sondern sich nur Punkte gleicher Phase mit entsprechender Geschwindigkeit bewegen (Phasengeschwindigkeit statt Gruppengeschwindigkeit). Die Phasengeschwindigkeit kann im Gegensatz zur Gruppengeschwindigkeit Werte über der Lichtgeschwindigkeit annehmen, da hier keine Informationen übertragen werden, sondern es sich vielmehr um eine Rechengröße handelt.
+  Un facteur d'allongement ne signifie pas que l'onde se propage à une *vitesse supérieure à celle de la lumière*, mais que seuls les points de phase égale se déplacent à une vitesse correspondante (vitesse de phase au lieu de vitesse de groupe). La vitesse de phase peut, contrairement à la vitesse de groupe, prendre des valeurs supérieures à la vitesse de la lumière, car ici aucune information n'est transmise, mais il s'agit plutôt d'une grandeur de calcul.
 </indepth>
 
 [question:AG118]
 
 ---
 
-Bei einer Paralleldrahtleitung befindet sich die elektromagnetische Welle weitgehend zwischen den Leitern und dringt aufgrund des Skineffekts auch nicht tief in das Metall ein, so dass der Verkürzungsfaktor annähernd $\num{1}$ entsprechend einer Freiraumausbreitung beträgt.
+Dans une ligne à conducteurs parallèles, l'onde électromagnétique se trouve principalement entre les conducteurs et ne pénètre pas profondément dans le métal en raison de l'effet de peau, de sorte que le facteur de réduction est approximativement \num{1} correspondant à une propagation en espace libre.
 
-% TODO: Komma in Frage Q1636 nicht richtig dargestellt.
+% TODO: virgule dans la question Q1636 non correctement représentée.
 [question:AG313]
 
 ---
 
-Im Koaxialkabel befindet sich die elektromagnetische Welle weitgehend zwischen den Leitern im Dielektrikum und dringt ebenfalls aufgrund des Skineffekts nicht tief in den metallischen Leiter ein. Aus diesem Grunde spielt hier nur das Dielektrikum als Medium eine Rolle und die sonstige Geometrie des Kabels (z. B. Durchmesser) ist zu vernachlässigen. Der Verkürzungsfaktor berechnet sich dann wie folgt:
+Dans le câble coaxial, l'onde électromagnétique se trouve principalement entre les conducteurs dans le diélectrique et ne pénètre pas non plus profondément dans le conducteur métallique en raison de l'effet de peau. C'est pourquoi seul le diélectrique joue un rôle de milieu ici et la géométrie otherwise du câble (par exemple, le diamètre) peut être négligée. Le facteur de réduction est alors calculé comme suit:
 
 $v_\mathrm{k} = \dfrac{1}{\sqrt{\epsilon_\mathrm{r}}}$
 
-Der Formelsammlung können wir für Polyäthylen eine relative Dielektrizitätszahl von $\epsilon_\mathrm{r} = 2,29$ entnehmen.
+Le recueil de formules nous permet de déduire pour le polyéthylène une permittivité relative de $\epsilon_\mathrm{r} = 2,29$.
 
-% TODO: lt. Formelsammlung Polyäthylen, lt. Fragen Polyethylen
+% TODO: selon le recueil de formules polyéthylène, selon les questions polyéthylène
 
 [question:AG315]
 [question:AG316]

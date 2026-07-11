@@ -1,37 +1,37 @@
-Bei der Amplitudenmodulation (AM) sowie bei SSB wird die zu übertragende Information durch eine Änderung der Amplitude des Hochfrequenzträgers übertragen. Wir haben bereits gelernt, dass bei der Frequenzmodulation (FM) die Amplitude des Trägers hingegen konstant bleibt - die Information wird hier durch eine Änderung der momentanen Frequenz des Trägers übertragen.
+Dans le cas de la modulation d'amplitude (AM) ainsi que dans le cas de la modulation SSB, l'information à transmettre est transmise par une modification de l'amplitude de la porteuse haute fréquence. Nous avons déjà appris que dans le cas de la modulation de fréquence (FM), l'amplitude de la porteuse reste constante - l'information est ici transmise par une modification de la fréquence instantanée de la porteuse.
 
-Abbildung [ref:e_frequenzmodulation_t] zeigt den zeitlichen Verlauf eines FM-Signals mit konstanter Amplitude. Ein FM-Signal ist daher daran zu erkennen, dass die Amplitude des Trägers (idealisiert) konstant bleibt, während sich seine momentane Frequenz in Abhängigkeit vom Modulationssignal fortlaufend ändert.
+La figure [ref:e_frequenzmodulation_t] montre l'évolution temporelle d'un signal FM avec une amplitude constante. Un signal FM se reconnaît donc au fait que l'amplitude de la porteuse (idéalisée) reste constante, tandis que sa fréquence instantanée change en continu en fonction du signal de modulation.
 
 <margin>
-[picture:906:e_frequenzmodulation_t:Zeitlicher Verlauf eines FM-Signals]
+[picture:906:e_frequenzmodulation_t:Évolution temporelle d'un signal FM]
 </margin>
 
 [question:EE301]
 
 ---
 
-Abbildung [ref:e_frequenzmodulation_frequenzhub] zeigt beispielhaft ein NF-Sinussignal, das eine entsprechende Frequenzabweichung (Frequenzhub) eines Hochfrequenzträgers im Spektrum verursacht. Das heißt bei einem FM-Signal wird die Lautstärkeinformation durch die *Trägerfrequenzauslenkung (Frequenzhub)* übertragen. Eine lauteres NF-Signal würde zu einer größeren Trägerfrequenzauslenkung und somit einer höheren Bandbreite des FM-Signals führen .
+La figure [ref:e_frequenzmodulation_frequenzhub] montre à titre d'exemple un signal sinusoïdal AF qui provoque une déviation de fréquence correspondante (excursion de fréquence) d'une porteuse haute fréquence dans le spectre. Cela signifie qu'avec un signal FM, l'information de volume est transmise par la *déviation de la fréquence porteuse (excursion de fréquence)*. Un signal AF plus fort entraînerait une plus grande déviation de la fréquence porteuse et donc une plus grande bande passante du signal FM.
 
 <margin>
-[picture:827:e_frequenzmodulation_frequenzhub:Trägerauslenkung bei Frequenzmodulation]
+[picture:827:e_frequenzmodulation_frequenzhub:Déviation de la porteuse lors de la modulation de fréquence]
 </margin>
 
 <indepth>
-Die belegte Bandbreite einer FM-Aussendung wird durch den Hub und die maximale Modulationsfrequenz bestimmt. In erster Näherung kann für kleinen Hub und niedrige Modulationsfrequenz die *Carson-Formel* angewendet werden. Sie gibt an in welcher Bandbreite sich $\qty{90}{\percent}$ der Sendeleistung befinden.
+La bande passante occupée d'une émission FM est déterminée par la déviation et la fréquence de modulation maximale. En première approximation, pour une petite déviation et une faible fréquence de modulation, la *formule de Carson* peut être appliquée. Elle indique dans quelle bande passante se trouvent $\qty{90}{\percent}$ de la puissance d'émission.
 
 $B\approx2 \cdot \left(\Delta f_{\textrm{T}} + f_{\textrm{mod max}} \right)$
   
-Dieses Thema wird genauer in der Klasse A besprochen. 
+Ce sujet sera abordé plus en détail dans la classe A.
 </indepth>
 
 [question:EE306]
 [question:EE304]
 
-Um die gesetzlichen Vorgaben hinsichtlich der belegten Bandbreite eines FM-Signals einzuhalten, wird in FM-Sendern das Mikrofonsignal zunächst in der Amplitude begrenzt (durch einen Begrenzerverstärker) und anschließend auf den Träger mittels FM aufmoduliert. Hierbei ist der Frequenzhub des Modulators bei maximaler Lautstärkeaussteuerung entweder festgelegt oder mittels eines Hub-Reglers einstellbar.
+Pour respecter les prescriptions légales concernant la bande passante occupée d'un signal FM, le signal du microphone est d'abord limité en amplitude dans les émetteurs FM (par un amplificateur limiteur) et ensuite modulé sur la porteuse au moyen de la FM. Dans ce cas, la déviation de fréquence du modulateur à volume maximal est soit fixée, soit réglable au moyen d'un régulateur de déviation.
 
 [question:EE305]
 
-FM-Signale sind dadurch, dass die aufmodulierte Information nicht in der Amplitude, sondern lediglich in der Frequenz enthalten ist, gegenüber Amplitudenstörungen (z.B. durch Blitze, Zündanlagen, Motoren) relativ unempfindlich im Vergleich zu AM oder SSB. Hierdurch ergeben sich insbesondere beim Betrieb in KFZ und in gestörten Umgebungen Vorteile hinsichtlich der Störanfälligkeit.
+Les signaux FM sont, du fait que l'information modulée n'est pas contenue dans l'amplitude, mais uniquement dans la fréquence, relativement insensibles aux perturbations d'amplitude (par exemple par la foudre, les allumages, les moteurs) par rapport à l'AM ou au SSB. Cela présente des avantages, notamment en ce qui concerne la sensibilité aux perturbations, lors de l'exploitation dans les véhicules et dans des environnements perturbés.
 
 [question:EE302]
 [question:EE303]

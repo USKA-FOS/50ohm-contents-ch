@@ -1,66 +1,66 @@
-Transistoren haben eine *Kennlinie*, die den *Zusammenhang zwischen Eingangssignal (Basis-Emitter- oder Gate-Source-Spannung) und Ausgangssignal (Kollektor-/Drainstrom)* darstellt. Hierbei gibt es im Bereich der Kennlinie verschiedene Abschnitte, in denen der Transistor *lineare oder auch nichtlineare Charakteristik* hat.
-Gerade Bereiche der Kennlinie, in denen eine Änderung der Steuergröße eine proportionale Änderung der Ausgangsgröße bewirkt, werden als linear bezeichnet.
-Andere Bereiche der Kennlinie, in denen eine Änderung der Steuergröße **keine** proportionale Änderung der Ausgangsgröße bewirkt, werden als nichtlinear bezeichnet.
+Les transistors ont une *caractéristique* qui représente la *relation entre le signal d'entrée (tension base-émetteur ou grille-source) et le signal de sortie (courant collecteur/drain)*. Il existe dans la caractéristique différentes sections dans lesquelles le transistor a une *caractéristique linéaire ou non linéaire*.
+Les zones linéaires de la caractéristique, dans lesquelles une modification de la grandeur de commande entraîne une modification proportionnelle de la grandeur de sortie, sont désignées comme linéaires.
+D'autres zones de la caractéristique, dans lesquelles une modification de la grandeur de commande n'entraîne **aucune** modification proportionnelle de la grandeur de sortie, sont désignées comme non linéaires.
 
 <margin>
-[picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]  
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Caractéristique d'un transistor avec points de fonctionnement]  
 </margin>
 
-Für einen optimalen Betrieb des Verstärkers bzgl. Wirkungsgrad und Oberwellenfreiheit des verstärkten Signals ist eine optimale Wahl des Arbeitspunktes des Verstärkers auf dessen Kennlinie vorzunehmen.
-Dieser Arbeitspunkt wird durch eine geeignete Hilfsgleichspannung (Vorspannung) an der Basis oder Gate festgelegt.
+Pour un fonctionnement optimal de l'amplificateur en termes de rendement et de pureté des harmoniques supérieures du signal amplifié, il est nécessaire de choisir un point de fonctionnement optimal de l'amplificateur sur sa caractéristique.
+Ce point de fonctionnement est défini par une tension continue auxiliaire appropriée (prétension) à la base ou à la grille.
 
-Die Verstärkung des Eingangssignals erfolgt dann um den gewünschten Arbeitspunkt herum, der das Zentrum des Arbeitsbereiches definiert.
-Durch die Wahl des Arbeitspunktes ergibt sich ein entsprechender Ruhestrom des Transistors. Dieser fließt auch ohne vorhandenes Eingangssignal. Der Ruhestrom beeinflusst die Effizienz eines Verstärkers maßgeblich, da er dessen thermische Verlustleistung erhöht und damit dessen Wirkungsgrad reduziert.
+L'amplification du signal d'entrée s'effectue ensuite autour du point de fonctionnement souhaité, qui définit le centre de la plage de fonctionnement.
+Le choix du point de fonctionnement donne un courant de repos correspondant du transistor. Celui-ci circule également en l'absence de signal d'entrée. Le courant de repos influence de manière significative l'efficacité d'un amplificateur, car il augmente sa puissance dissipée et réduit ainsi son rendement.
 
-Alle Signale, deren Modulations-Information sich in deren Amplitude befindet, müssen linear verstärkt werden, um die übertragene Information verzerrungsfrei zu übermitteln (SSB, AM etc.). Signale, deren Modulations-Information sich nicht in der Amplitude sondern nur in der Frequenz befindet, können auch im nichtlinearen Bereich eines Verstärkers verstärkt werden (FM etc.) und anschließend gefiltert werden.
+Tous les signaux dont l'information de modulation se trouve dans leur amplitude doivent être amplifiés de manière linéaire afin de transmettre l'information transmise sans distorsion (SSB, AM, etc.). Les signaux dont l'information de modulation ne se trouve pas dans l'amplitude mais uniquement dans la fréquence peuvent également être amplifiés dans la zone non linéaire d'un amplificateur (FM, etc.) et ensuite filtrés.
 
-Je nach Betriebsart unterscheidet man mögliche Arbeitspunkte und deren Bezeichnung auf der Kennlinie (siehe Abbildung [ref:a_kennlinien_transistor_arbeitspunkt] ):
+Selon le mode de fonctionnement, on distingue les points de fonctionnement possibles et leur désignation sur la caractéristique (voir figure [ref:a_kennlinien_transistor_arbeitspunkt] ):
 
-AP1: C-Betrieb des Verstärkers
-- ohne Vorspannung
-- Ruhestrom null
-- Wirkungsgrad ca. $\qtyrange{80}{87}{\percent}$
-- hoher Oberwellenanteil
+AP1: Fonctionnement en classe C de l'amplificateur
+- sans prétension
+- courant de repos nul
+- rendement d'environ $\qtyrange{80}{87}{\percent}$
+- taux élevé d'harmoniques supérieures
 
-AP2: B-Betrieb des Verstärkers
-- Geringe Vorspannung bis zum Einsetzen des Kollektorstroms
-- Ruhestrom fast null (gering)
-- Wirkungsgrad ca. bis zu $\qty{80}{\percent}$
-- geringer Oberwellenanteil
+AP2: Fonctionnement en classe B de l'amplificateur
+- Faible prétension jusqu'à l'apparition du courant collecteur
+- courant de repos presque nul (faible)
+- rendement jusqu'à $\qty{80}{\percent}$
+- faible taux d'harmoniques supérieures
 
-AP3: A/B-Betrieb des Verstärkers
-- Höhere Vorspannung als im B-Betrieb, jedoch geringer als im A-Betrieb
-- Ruhestrom größer als im B-Betrieb, aber deutlich geringer als im A-Betrieb
-- Wirkungsgrad zwischen $\qty{50}{\percent}$ bis $\qty{80}{\percent}$
-- geringer Oberwellenanteil
+AP3: Fonctionnement en classe A/B de l'amplificateur
+- Prétension plus élevée qu'en classe B, mais inférieure à celle de la classe A
+- courant de repos supérieur à celui de la classe B, mais nettement inférieur à celui de la classe A
+- rendement entre $\qty{50}{\percent}$ et $\qty{80}{\percent}$
+- faible taux d'harmoniques supérieures
 
-AP4: A-Betrieb des Verstärkers
-- Höhe der Vorspannung ist so gewählt, dass der Ruhestrom ca. $\qty{50}{\percent}$ des maximal zulässigen Wertes erreicht
-- Wirkungsgrad ca. $\qty{40}{\percent}$
-- sehr geringer Oberwellenanteil
+AP4: Fonctionnement en classe A de l'amplificateur
+- La prétension est choisie de telle sorte que le courant de repos atteint environ $\qty{50}{\percent}$ de la valeur maximale admissible
+- rendement d'environ $\qty{40}{\percent}$
+- très faible taux d'harmoniques supérieures
 
 [question:AD416]
 [question:AD419]
 [question:AD420]
 [question:AD421]
 
-Die Ausgangsleistung eines Verstärkers kann durch Kenntnis des Arbeitspunktes und damit dessen ungefähren Wirkungsgrads grob berechnet werden. Hierbei berechnet man zunächst die Gleichspannungsleistung aus dem Produkt von Spannung und Strom, die dem Verstärker zugeführt wird. Anschließend multipliziert man diese Leistung mit dem numerischen Faktor des Wirkungsgrads, wobei $\qty{100}{\percent}$ einem Wirkungsgrad von $1$ entsprechen. Beispielsweise entspricht ein Wirkungsgrad von $\qty{40}{\percent}$ dann einem Faktor von $0,4$.
+La puissance de sortie d'un amplificateur peut être calculée grossièrement par la connaissance du point de fonctionnement et donc de son rendement approximatif. Pour ce faire, on calcule d'abord la puissance en courant continu à partir du produit de la tension et du courant qui est fourni à l'amplificateur. Ensuite, on multiplie cette puissance par le facteur numérique du rendement, où $\qty{100}{\percent}$ correspond à un rendement de $1$. Par exemple, un rendement de $\qty{40}{\percent}$ correspond alors à un facteur de $0,4$.
 
 [question:AD424]
 [question:AD425]
 [question:AD418]
 [question:AD417]
 
-Damit ein Verstärker für den SSB-Betrieb (lineare Verstärkung) verwendet werden kann, muss sich dessen Arbeitspunkt im A-/AB- oder B-Betrieb befinden. Grundsätzlich ist A-Betrieb aufgrund der hohen Linearität möglich, jedoch bei höheren Leistungen nicht effizient. Hier schaltet man 2 Transistoren in einer sog. Gegentaktschaltung zusammen, so dass jeder der beiden Transistoren nur jeweils eine Halbwelle (positiv oder negativ) verstärkt. Hierdurch ist auch AB- oder B-Betrieb mit erhöhtem Wirkungsgrad des Verstärkers möglich.
-Im C-Betrieb wird das Signal jedoch immer verzerrt. Daher kann ein SSB-Sender nicht im C-Betrieb arbeiten.
-Insbesondere beim AB- oder B-Betrieb eines Verstärkers ist Übersteuerung zu vermeiden, da diese schnell zu Verzerrungen des Signals führen kann. Diese äußern sich bei SSB in Form von Splatter auf benachbarten Frequenzen.
+Pour qu'un amplificateur puisse être utilisé pour le fonctionnement SSB (amplification linéaire), son point de fonctionnement doit se situer en classe A/AB ou B. En principe, le fonctionnement en classe A est possible en raison de la grande linéarité, mais il n'est pas efficace à des puissances plus élevées. Dans ce cas, on connecte 2 transistors dans un circuit dit push-pull, de sorte que chacun des deux transistors n'amplifie que respectivement une demi-onde (positive ou négative). Cela permet également un fonctionnement en classe AB ou B avec un rendement accru de l'amplificateur.
+En classe C, le signal est toujours distordu. Par conséquent, un émetteur SSB ne peut pas fonctionner en classe C.
+En particulier en classe AB ou B d'un amplificateur, il faut éviter la surcharge, car celle-ci entraîne rapidement des distorsions du signal. Celles-ci se manifestent dans le cas du SSB par des splatters sur des fréquences voisines.
 
 [question:AD422]
 [question:AJ218]
 [question:AD423]
 
-Verstärker im C-Betrieb erzeugen aufgrund ihres stark nichtlinearen Betriebspunktes hohe Oberwellenanteile, die im weiteren Signalweg z.B. durch Filterung (Tiefpass) unterdrückt werden müssen.
-Da bei Leistungsverstärkern im C-Betrieb auch Oberwellenanteile mit hohen Amplituden und Leistungen im Verstärker sowie im anschließenden Filter vorhanden sind, müssen sowohl Verstärker als auch Filter in einem gut abschirmenden Metallgehäuse betrieben werden, so dass sie keine Störungen durch Oberwellenanteile verursachen.
+Les amplificateurs en classe C génèrent, en raison de leur point de fonctionnement fortement non linéaire, des taux élevés d'harmoniques supérieures qui doivent être supprimés dans la suite du trajet du signal, par exemple par filtrage (passe-bas).
+Étant donné que dans les amplificateurs de puissance en classe C, des harmoniques supérieures avec des amplitudes et des puissances élevées sont également présentes dans l'amplificateur ainsi que dans le filtre qui suit, l'amplificateur ainsi que le filtre doivent être exploités dans un boîtier métallique bien blindé, afin qu'ils ne provoquent pas de perturbations par les harmoniques supérieures.
 
 [question:AF402]
 [question:AF403]

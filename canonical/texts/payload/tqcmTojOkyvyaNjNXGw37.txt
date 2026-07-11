@@ -1,23 +1,23 @@
-### Gleichrichter
+### Redresseur
 
 <left>
-* Um die Wechselspannung zu einer Gleichspannung zu wandeln, benötigen wir einen Gleichrichter.
-* Die einfachste Möglichkeit ist die Gleichrichtung mit einer Diode, denn eine Diode leitet den Strom nur in eine Richtung.
+* Pour transformer la tension alternative en tension continue, nous avons besoin d'un redresseur.
+* La solution la plus simple est le redressement avec une diode, car une diode ne laisse passer le courant que dans un sens.
 </left>
 
 <right>
-[picture:797:e_einweggleichrichter:Einweggleichrichter]
+[picture:797:e_einweggleichrichter:Redresseur simple alternance]
 </right>
 
 ---
 
 <left>
-* Damit "schneiden" wir von der Wechselspannung die negative Halbwelle ab.
-* Weitere Bauelemente sind notwendig um aus den positiven Halbwellen eine stabile Gleichspannung zu machen, diese lernen wir im Klasse A Kurs kennen.
+* Ainsi, nous "coupons" la demi-onde négative de la tension alternative.
+* D'autres composants sont nécessaires pour transformer les demi-ondes positives en une tension continue stable, nous les apprendrons dans le cours de classe A.
 </left>
 <right>
-[picture:798:e_einweggleichrichter_ue:Eingangsspannung Einweggleichrichter]
-[picture:796:e_einweggleichrichter_ul:Lastspannung Einweggleichrichter]
+[picture:798:e_einweggleichrichter_ue:Tension d'entrée Redresseur simple alternance]
+[picture:796:e_einweggleichrichter_ul:Tension de charge Redresseur simple alternance]
 </right>
 
 ---

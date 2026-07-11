@@ -1,28 +1,28 @@
-* Starke Sender führen zu unterschiedlichen Störungen und Beeinflussungen von elektronischen Geräten und Anlagen
-* Ziel: Störungen vermeiden oder Ursachen durch Gegenmaßnahmen beseitigen
+* Les émetteurs puissants entraînent différentes perturbations et influences sur les appareils et installations électroniques
+* Objectif : éviter les perturbations ou éliminer les causes par des contre-mesures
 
 ---
-## Einströmung
+## Entrée
 
-* Hochfrequenz gelangt durch Leitungen oder Kabel in ein Gerät
-* Zum Beispiel über die Netzleitung, Antennenleitung, Lautsprecherkabel
+* Les hautes fréquences pénètrent dans un appareil par des lignes ou des câbles
+* Par exemple, via la ligne secteur, la ligne d'antenne, les câbles de haut-parleur
 
 ---
 [question:EJ101]
 ---
-## Einstrahlung
+## Irradiation
 
-* Hochfrequenz gelangt wegen ungenügend geschirmten Gehäuse in die Elektronik
-* Führt dort zu Störungen
+* Les hautes fréquences pénètrent dans l'électronique en raison de boîtiers insuffisamment blindés
+* Y provoquent des perturbations
 
 ---
 [question:EJ102]
 ---
-## Störende Beeinflussung
+## Perturbation gênante
 
-* Kann trotz gesetzeskonformen Betrieb eines Senders beim Empfänger in Nähe auftreten
-* Garagentorsteuerungen oder Funk-Autoschlüssel funktionieren nicht mehr wie gewohnt
-* Störung von LED-Leuchten
+* Peut survenir malgré le fonctionnement conforme à la loi d'un émetteur chez le récepteur à proximité
+* Les commandes de porte de garage ou les clés de voiture radio ne fonctionnent plus comme d'habitude
+* Perturbation des lumières LED
 
 ---
 [question:EJ103]
@@ -33,48 +33,48 @@
 ---
 ## Intermodulation
 
-* Beim Auftreten von mehreren starken Empfangssignalen
-* Z.B. TV-Sender und starke Amateurfunkstation in der Nachbarschaft
-* Führt zu unerwünschten Oberwellen und deren Mischprodukten
-* Durch Intermodulation werden Phantomsignale hervorgerufen
+* En cas de réception de plusieurs signaux forts
+* Par exemple, un émetteur de télévision et une station radioamateur puissante à proximité
+* Provoque des harmoniques indésirables et leurs produits de mélange
+* Des signaux fantômes sont générés par l'intermodulation
 
 ---
 [question:EJ120]
 ---
-## Oxidation
+## Oxydation
 
-* Korrodierte Kontakte (Metall-Oxide) zwischen Metallen bilden Nichtlinearitäten durch Gleichricht-Effekte
-* Unerwünschte Mischprodukte auf der Sende- und Empfangsseite
-* Kann zu Störungen im Fernseh- und Rundfunkempfang führen
+* Les contacts corrodés (oxydes métalliques) entre les métaux forment des non-linéarités par des effets de redressement
+* Produits de mélange indésirables sur le côté émission et réception
+* Peut entraîner des perturbations dans la réception de la télévision et de la radiodiffusion
 
 ---
 [question:EJ121]
 ---
-## Erforderliche Sendeleistung
+## Puissance d'émission requise
 
-* Stets nur die für eine zufriedenstellende Kommunikation erforderliche Sendeleistung verwenden
-* Zur Vermeidung von Störungen von Geräten
+* Utiliser toujours la puissance d'émission nécessaire pour une communication satisfaisante
+* Pour éviter les perturbations des appareils
 
 ---
 [question:EJ104]
 ---
 [question:EJ105]
 ---
-## Übersteuerung
+## Surcharge
 
-* Hohe Feldstärken durch hohe Sendeleistungen oder im Strahlungsbereich einer Antenne
-* Empfänger und Empfangsstufen können übersteuert werden
-* Verringert die Empfängerempfindlichkeit bis hin zur Blockierung
+* Les fortes intensités de champ dues aux fortes puissances d'émission ou dans la zone de rayonnement d'une antenne
+* Les récepteurs et les étages de réception peuvent être surchargés
+* Réduit la sensibilité du récepteur jusqu'au blocage
 
 ---
 [question:EJ106]
 ---
 [question:EJ107]
 ---
-## Weitere Maßnahmen
+## Autres mesures
 
-* Verringerung der Sendeleistung führt nicht immer zum Erfolg
-* Das gestörte Gerät oder die Zuleitung könnte nicht genügend abgeschirmt sein
+* La réduction de la puissance d'émission ne conduit pas toujours au succès
+* L'appareil perturbé ou la ligne d'alimentation pourrait ne pas être suffisamment blindé
 
 ---
 [question:EJ108]
@@ -83,20 +83,20 @@
 ---
 [question:EJ111]
 ---
-## Nachbarschaftshilfe
+## Aide aux voisins
 
-* Hilfe dem Nachbarn anbieten
-* Nur als letztes Mittel die Behörde einschalten
+* Offrir de l'aide au voisin
+* Ne faire appel à l'autorité qu'en dernier recours
 
 ---
 [question:EJ124]
 ---
-## Filter
+## Filtres
 
-* Sowohl auf Seite des störenden Geräts als auch auf Seiten des gestörten Geräts einbauen
-* Oberwellenaussendungen unterdrücken
-* Hochpass oder Bandpass auf Empfängerseite 
-* Übersteuerrung wird minimiert
+* Installer à la fois du côté de l'appareil perturbateur et du côté de l'appareil perturbé
+* Supprimer les émissions d'harmoniques supérieures
+* Passe-haut ou passe-bande sur le côté du récepteur
+* La surcharge est minimisée
 
 ---
 [question:EJ116]
@@ -104,13 +104,13 @@
 [question:EJ117]
 ---
 
-## Mantelwellensperren
+## Suppresseurs d'ondes de surface
 
-* Sendesignal der Amateurfunkstation wird über den Schirm von Koaxialkabeln oder Zuleitungen in Empfänger oder Geräte in örtlicher Nähe eingekoppelt
-* *Mantelwellensperren* in Zuleitungen von Geräten einbauen
-* Auch *Drossel* genannt
-* Ringkerne oder Klappferrite
-* Weitere Möglichkeit: Verwendung von geschirmten Steuerkabeln
+* Le signal d'émission de la station radioamateur est couplé dans les récepteurs ou les appareils à proximité via le blindage des câbles coaxiaux ou des lignes d'alimentation
+* Installer des *suppresseurs d'ondes de surface* dans les lignes d'alimentation des appareils
+* Appelés aussi *bobine d'arrêt*
+* Noyaux toroïdaux ou ferrites à pinces
+* Autre possibilité : utilisation de câbles de commande blindés
 
 ---
 [question:EJ118]
@@ -121,19 +121,19 @@
 ---
 [question:EJ114]
 ---
-## Logbuch
+## Journal de bord
 
-* Wenn die Funkanlage als Störquelle vermutet wird
-* Freiwilligen Nachweis führen
-* Ausschluss der Amateurfunkanlage als Störquelle
+* Si l'installation radio est suspectée d'être une source de perturbation
+* Preuve volontaire
+* Exclusion de l'installation radioamateur comme source de perturbation
 
 ---
 [question:EJ122]
 ---
-## Schlechte Empfangsverhältnisse
+## Mauvaises conditions de réception
 
-* Z.B. TV-Zimmerantenne für Empfang
-* Verwendung einer Außenantenne mit entsprechenden Vorfiltern
+* Par exemple, antenne intérieure pour la télévision
+* Utilisation d'une antenne extérieure avec des préfiltres correspondants
 
 ---
 [question:EJ123]

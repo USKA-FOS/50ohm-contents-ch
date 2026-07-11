@@ -1,7 +1,7 @@
-Für ortsfeste Amateurfunkstellen muss das Nachweisverfahren nur dann durchgeführt werden, wenn die Sendeanlage eine Strahlungsleistung von $\qty{10}{\watt}$ EIRP oder höher erreicht.
+Pour les stations radioamateurs fixes, la procédure de preuve ne doit être effectuée que si l'installation d'émission atteint une puissance rayonnée de $\qty{10}{\watt}$ EIRP ou plus.
 
 <note>
-* Klasse N: $\qty{10}{\meter}$-Band mit $\qty{10}{\watt}$ ERP
+* Classe N : bande des $\qty{10}{\meter}$ avec $\qty{10}{\watt}$ ERP
 * $\qty{10}{\watt}\text{ ERP} \cdot 1,64 = \qty{16,4}{\watt}$ EIRP
 </note>
 
@@ -12,31 +12,31 @@ Für ortsfeste Amateurfunkstellen muss das Nachweisverfahren nur dann durchgefü
 [question:VE507]
 
 ---
-## Anzeige bei BNetzA
+## Déclaration auprès de la BNetzA
 
-* vor der Aufnahme des Betriebs der ortsfesten Amateurfunkanlage
-* bei zuständiger Außenstelle der BNetzA
+* avant la mise en service de l'installation radioamateur fixe
+* auprès du bureau extérieur compétent de la BNetzA
 
 ---
 [question:VE509]
 
 ---
-### Inhalt der Anzeige
+### Contenu de la déclaration
 
 
-Nachvollziehbare zeichnerische Darstellung mit
-* Standortbezogener Sicherheitsabstand
-* Vom Betreiber kontrollierbarer Bereich
+Représentation graphique vérifiable avec
+* Distance de sécurité liée au lieu
+* Domaine contrôlable par l'exploitant
 
 ---
-### Zusätzlich zur Anzeige
+### En plus de la déclaration
 
-An der Funkstation liegend und auf Verlangen der BNetzA vorzulegen:
-* Einhaltung der Anforderungen
-* ggf. Antennendiagramme
-* Lageplan
-* Bauzeichnung oder Skizze mit Bemaßung
-* Konfiguration der Funkanlage
+À la station radio, présent et à fournir sur demande de la BNetzA:
+* Respect des exigences
+* Si nécessaire, diagrammes d'antenne
+* Plan de situation
+* Plan de construction ou croquis avec dimensions
+* Configuration de l'installation radio
 
 ---
 [question:VE512]
@@ -48,10 +48,10 @@ An der Funkstation liegend und auf Verlangen der BNetzA vorzulegen:
 [question:VD107]
 
 ---
-### Änderungen
+### Modifications
 
-* Fortlaufend prüfen, ob die Anlage gleich zu der in der Anzeige ist
-* Bei wesentlichen Änderungen erneute Anzeige durchführen
+* Vérifier en continu si l'installation est identique à celle de la déclaration
+* En cas de modifications substantielles, effectuer une nouvelle déclaration
 
 ---
 [question:VE514]
@@ -60,20 +60,20 @@ An der Funkstation liegend und auf Verlangen der BNetzA vorzulegen:
 [question:VE510]
 
 ---
-### Nachweisverfahren
+### Procédure de preuve
 
 <left>
-* Berechnung des Personen-Sicherheitsabstands
-* Während des Sendebetriebs dürfen keine unbefugten Personen in diesem Bereich sein
-* Ist erfüllt, wenn dieses im kontrollierbaren Bereich stattfindet, z.B. eigenes Grundstück
+* Calcul de la distance de sécurité des personnes
+* Pendant le fonctionnement en émission, aucune personne non autorisée ne doit se trouver dans cette zone
+* Est rempli si cela se produit dans la zone contrôlable, par exemple sur sa propre propriété
 </left>
 <right>
-Hilfsmittel:
-* Software "[Watt Wächter](https://50ohm.de/ww)"
-* vereinfachtes Bewertungsverfahren
-* Feldstärkemessung
-* Fernfeldberechnung
-* Nahfeldberechnung
+Outil:
+* Logiciel "[Watt Wächter](https://50ohm.de/ww)"
+* Procédure d'évaluation simplifiée
+* Mesure de l'intensité de champ
+* Calcul du champ lointain
+* Calcul du champ proche
 </right>
 
 ---
@@ -83,14 +83,14 @@ Hilfsmittel:
 [question:VE515]
 
 ---
-## Mehrere Aussendungen gleichzeitig
+## Plusieurs émissions simultanées
 
-* Es können mehrere Funkamateure gleichzeitig an einer Anlage auf verschiedenen Frequenzen senden
-* In der Regel über verschiedene Antennen
-* Alle Antennen zusammen müssen für den Personenschutzabstand berücksichtigt werden
+* Plusieurs radioamateurs peuvent émettre simultanément sur une installation sur différentes fréquences
+* En règle générale via différentes antennes
+* Toutes les antennes ensemble doivent être prises en compte pour la distance de protection des personnes
 
 <note>
-z.B. Clubstation
+par exemple station de club
 </note>
 
 ---

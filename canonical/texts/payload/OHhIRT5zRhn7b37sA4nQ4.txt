@@ -1,19 +1,19 @@
-## Reihenschaltung
+## Circuit en série
 
-Bei einer Reihenschaltung addieren sich die Widerstandswerte
+Dans un circuit en série, les valeurs des résistances s'additionnent
 
-[picture:812:e_reihenschaltung_von_r:Reihenschaltung von 3 Widerständen]
+[picture:812:e_reihenschaltung_von_r:Circuit en série de 3 résistances]
 
 $R_{\mathrm{ges}} = R_{1} + R_{2} + R_{3}$
-Beispiel: $R_{\mathrm{ges}} = \qty{100}{\ohm} + \qty{200}{\ohm} + \qty{300}{\ohm}$
+Exemple : $R_{\mathrm{ges}} = \qty{100}{\ohm} + \qty{200}{\ohm} + \qty{300}{\ohm}$
 
 --- style="font-size: 0.7em;"
 
-## Parallelschaltung
+## Circuit en parallèle
 
-Bei einer Parallelschaltung von Widerständen ist der Gesamtwiderstand kleiner als der Wert des kleinsten Widerstandes
+Dans un circuit en parallèle de résistances, la résistance totale est inférieure à la valeur de la résistance la plus petite
 
-[picture:811:e_parallelschaltung_von_r:Parallelschaltung von 3 Widerständen]
+[picture:811:e_parallelschaltung_von_r:Circuit en parallèle de 3 résistances]
 
 $\frac{1}{R_{\mathrm{ges}}} = \frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}}$
 
@@ -21,14 +21,14 @@ $\frac{1}{R_{\mathrm{ges}}} = \frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}
 
 ---
 
-Vereinfachung für zwei Widerstände:
+Simplification pour deux résistances :
 $R_{\mathrm{ges}} = \dfrac{R_{1} \cdot R_{2}}{R_{1} + R_{2}}$
 
 ---
 
-Vereinfachung für gleiche Widerstände:
+Simplification pour des résistances égales :
 $R_{\mathrm{ges}} = \dfrac{R}{n}$
-$n$ steht für die Anzahl der Widerstände
+$n$ représente le nombre de résistances
 
 ---
 
@@ -44,16 +44,16 @@ $n$ steht für die Anzahl der Widerstände
 
 ---
 
-## Gemischte Schaltungen
+## Circuits mixtes
 
 --- style="font-size: 0.7em;"
 
-### Variante 1: Zwei Parallel und dazu einer in Reihe
+### Variante 1 : Deux en parallèle et un en série
 
-[picture:813:e_gemischte_schaltung_1:Gemischte Schaltung - Variante 1]
+[picture:813:e_gemischte_schaltung_1:Circuit mixte - Variante 1]
 
 <fragment>
-Hier berechnet man zuerst die Parallelschaltung von $R_2$ und $R_3$ und addiert dann $R_1$ hinzu.
+Ici, on calcule d'abord le circuit en parallèle de $R_2$ et $R_3$ et on ajoute ensuite $R_1$.
 </fragment>
 
 <fragment>
@@ -62,12 +62,12 @@ $R_{\mathrm{ges}} = \dfrac{R_{2} \cdot R_{3}}{R_{2} + R_{3}} + R_{1}$
 
 ---
 
-### Variante 2: Zwei in Reihe und dazu einer Parallel
+### Variante 2 : Deux en série et un en parallèle
 
-[picture:814:e_gemischte_schaltung_2:Gemischte Schaltung - Variante 2]
+[picture:814:e_gemischte_schaltung_2:Circuit mixte - Variante 2]
 
 <fragment>
-Hier addiert man zuerst $R_1$ und $R_2$ um mit diesem Ergebnis die Parallelschaltung zu $R_3$ zu berechnen.
+Ici, on additionne d'abord $R_1$ et $R_2$ pour calculer avec ce résultat le circuit en parallèle avec $R_3$.
 </fragment>
 
 <fragment>
@@ -100,12 +100,12 @@ $R_{\mathrm{ges}} = \dfrac{(R_{1} + R_{2}) \cdot R_{3}} {(R_{1} + R_{2}) + R_{3}
 
 ---
 
-### Belastbarkeit von Widerständen in Reihen- und Parallelschaltung
+### Capacité de charge des résistances en circuit série et parallèle
 
-* Bei einer Reihenschaltung teilen sich die Spannungen auf.
-* Bei einer Parallelschaltung teilen sich die Ströme auf.
-* Somit ist bei der Berechnung mittels $P = U \cdot I$ immer ein Wert konstant und der andere entsprechend kleiner.
-* $\rightarrow$ die Gesamtbelastbarkeit ist in beiden Fällen größer als die Einzelbelastbarkeit.
+* Dans un circuit en série, les tensions se répartissent.
+* Dans un circuit en parallèle, les courants se répartissent.
+* Ainsi, lors du calcul par $P = U \cdot I$, une valeur est toujours constante et l'autre est en conséquence plus petite.
+* $\rightarrow$ la capacité de charge totale est dans les deux cas supérieure à la capacité de charge individuelle.
 
 ---
 

@@ -1,29 +1,29 @@
-Die *Automatic-Level-Control (ALC)* regelt die Aussteuerung der Senderendstufe des Funkgerätes und reduziert bei deren Übersteuerung die Amplitude des Signals im Sendezweig. Hierbei ist die ALC nicht zu verwechseln mit der AGC (Automatic-Gain-Control), welche sich im Empfängerzweig befindet (siehe Abbildung [ref:e_alc]).
+Le *Automatic-Level-Control (ALC)* régule l'excursion de l'étage final de l'émetteur de l'appareil radio et réduit, en cas de surcharge, l'amplitude du signal dans la branche d'émission. Il ne faut pas confondre l'ALC avec l'AGC (Automatic-Gain-Control), qui se trouve dans la branche du récepteur (voir illustration [ref:e_alc]).
 
 <margin>
-[picture:914:e_alc:Automatic-Level-Control in einem Sender]
+[picture:914:e_alc:Automatic-Level-Control dans un émetteur]
 </margin>
 
-Die ALC erfasst die Ausgangsleistung der Senderendstufe und vergleicht diese mit einem vorgegebenen maximalen Wert. Bei Überschreiten dieses Grenzwertes gibt die ALC eine entsprechende Regelspannung an die vorgelagerte HF-Verstärkerstufe im Sendezweig und reduziert damit die Amplitude des Sendesignals.
+L'ALC détecte la puissance de sortie de l'étage final de l'émetteur et la compare à une valeur maximale prédéfinie. Si cette valeur limite est dépassée, l'ALC fournit une tension de régulation correspondante à l'étage d'amplification HF précédent dans la branche d'émission et réduit ainsi l'amplitude du signal d'émission.
 
-Solange die ALC-Anzeige nicht anspricht, kann davon ausgegangen werden, dass die Regelung nicht eingreift und der Sender nicht durch ein zu starkes NF-Signal übersteuert wird. Sobald die ALC Anzeige reagiert, kann davon ausgegangen werden, dass die Regelung, zumindest teilweise, aktiv wird.
+Tant que l'indicateur ALC ne réagit pas, on peut supposer que la régulation n'intervient pas et que l'émetteur n'est pas surchargé par un signal audio trop fort. Dès que l'indicateur ALC réagit, on peut supposer que la régulation devient, au moins partiellement, active.
 
-Bei SSB-Aussendungen ist ein geringfügiges Ansprechen der ALC durchaus erwünscht, da hierdurch Lautstärkeschwankungen der Stimme ausgeglichen werden und eine optimale Nutzung der verfügbaren Sendeleistung stattfindet. Viele Transceiver besitzen eine entsprechende ALC-Anzeige, auf der meist ersichtlich ist, bis zu welchem Grad die ALC reagieren kann (grüner Bereich) und ab welchem Bereich eine zu starke Aussteuerung stattfindet, die die ALC nicht mehr verzerrungsfrei kompensieren kann (roter Bereich).
+Dans le cas des émissions SSB, une légère réaction de l'ALC est même souhaitable, car cela permet de compenser les fluctuations de volume de la voix et d'utiliser de manière optimale la puissance d'émission disponible. De nombreux émetteurs-récepteurs possèdent un indicateur ALC correspondant, sur lequel il est généralement visible jusqu'à quel point l'ALC peut réagir (zone verte) et à partir de quelle zone une excitation trop forte se produit, que l'ALC ne peut plus compenser sans distorsion (zone rouge).
 
 <margin>
-[picture:915:e_alc_trx:ALC im Display eines Funkgeräts]
+[picture:915:e_alc_trx:ALC dans l'affichage d'un appareil radio]
 </margin>
 
 <tip>
-Praktisch kann man den optimalen Punkt, an dem die ALC grade noch nicht aussteuert durch langsames Erhöhen der NF-Aussteuerung bis zu dem Punkt, an dem die ALC anspricht finden. Im Anschluss dreht man die NF-Aussteuerung wieder etwas zurück, so dass die ALC grade nicht mehr anspricht und die Sendeleistungs-Anzeige noch die gewünschte Ausgangsleistung anzeigt (evtl. etwas weniger).
+En pratique, on peut trouver le point optimal où l'ALC n'excursionne pas encore en augmentant lentement l'excursion audio jusqu'au point où l'ALC réagit. Ensuite, on réduit légèrement l'excursion audio afin que l'ALC ne réagisse plus et que l'indicateur de puissance d'émission affiche encore la puissance de sortie souhaitée (éventuellement un peu moins).
 </tip>
 
 ---
 
-Bei Aussendungen mit digitalen Übertragungsverfahren wie z. B. FT8 oder WSPR ist das Ansprechen der ALC oft ein Hinweis darauf, dass das Audiosignal vom PC zu stark ist und übersteuert wird. Das kann zu unerwünschtem *Splatter* auf dem Band führen. Deshalb sollte das Audiosignal bei diesen Übertragungsverfahren stets sorgfältig kontrolliert werden.
+Dans le cas d'émissions utilisant des procédés de transmission numériques tels que FT8 ou WSPR, la réaction de l'ALC est souvent un indice que le signal audio du PC est trop fort et qu'il y a surcharge. Cela peut entraîner un *splatter* indésirable sur la bande. C'est pourquoi le signal audio doit toujours être contrôlé avec soin dans ces procédés de transmission.
 
 <indepth>
-Das [Handbuch](https://wsjt.sourceforge.io/wsjtx-main_en.html#TRANSCEIVER) der Software WSJTX gibt hierzu eine gute Empfehlung: Im ersten Schritt sollte man durch Drücken der TUNE-Taste den Transceiver in den Sendemodus schalten, um einen gleichmäßigen Ton zu erzeugen. Dieser Ton lässt sich mit der Monitor-Funktion des Geräts durch Hören überprüfen oder im Wasserfall des TRX optisch kontrollieren. Dabei sollten keine Verzerrungen, Klicks oder andere Störungen auftreten. Anschließend stellt man den PWR-Regler von seinem Maximum langsam nach unten, bis der HF-Ausgang des Senders leicht abfällt – dies gilt allgemein als gutes Niveau für die Audioaussteuerung. Auch die ALC-Anzeige sowie die Ausgangsleistung des Transceivers können dabei helfen, den optimalen NF-Signalpegel zu finden.
+Le [manuel](https://wsjt.sourceforge.io/wsjtx-main_en.html#TRANSCEIVER) du logiciel WSJTX donne à ce sujet une bonne recommandation : dans un premier temps, on doit activer le mode émission de l'émetteur-récepteur en appuyant sur la touche TUNE pour générer un son uniforme. Ce son peut être vérifié à l'aide de la fonction de surveillance de l'appareil ou contrôlé visuellement dans le spectre de l'émetteur-récepteur. Il ne doit pas y avoir de distorsions, de clics ou d'autres perturbations. Ensuite, on réduit lentement le régulateur PWR de son maximum jusqu'à ce que la sortie HF de l'émetteur chute légèrement – cela est généralement considéré comme un bon niveau pour l'excursion audio. L'indicateur ALC ainsi que la puissance de sortie de l'émetteur-récepteur peuvent également aider à trouver le niveau optimal du signal audio.
 </indepth>
 
 [question:EF305]

@@ -1,21 +1,21 @@
-## QAM und I/Q-Verfahren
+## QAM et procédés I/Q
 
-* Digitale Modulationstechnik, die zwei Träger derselben Frequenz verwendet  
-* Einer der Träger ist um $\qty{90}{\degree}$ phasenverschoben
-* Erzeugt ein Signal, das sich in Amplitude und Phase ändert
+* Technique de modulation numérique utilisant deux porteuses de même fréquence
+* L'une des porteuses est déphasée de $\qty{90}{\degree}$
+* Génère un signal qui varie en amplitude et en phase
 
 ---
 
-### Erzeugung von QAM
+### Génération de QAM
 
 <left>
-* Zwei Träger:  
-* Einer wird mit dem I-Signal (In-Phase) moduliert  
-* Der andere, um $\qty{90}{\degree}$ verschoben, mit dem Q-Signal (Quadrature)
+* Deux porteuses :
+* L'une est modulée avec le signal I (en phase)
+* L'autre, décalée de $\qty{90}{\degree}$, avec le signal Q (en quadrature)
 </left>
 <right>
-* Beide modulierten Träger werden überlagert  
-* Das resultierende Signal ändert sich in Amplitude und Phase  
+* Les deux porteuses modulées sont superposées
+* Le signal résultant varie en amplitude et en phase
 </right>
 
 ---
@@ -32,19 +32,19 @@
 
 ---
 
-### I/Q-Verfahren – Senderseite
+### Procédé I/Q – côté émetteur
 
-* Der digitale Datenstrom wird in zwei Teile aufgeteilt: I und Q  
-* Zwei D/A-Umsetzer wandeln die digitalen I- und Q-Werte in analoge Signale um  
-* Diese modulieren die beiden phasenverschobenen Träger, die anschließend kombiniert werden
+* Le flux de données numériques est divisé en deux parties : I et Q
+* Deux convertisseurs N/A convertissent les valeurs I et Q numériques en signaux analogiques
+* Ceux-ci modulent les deux porteuses déphasées, qui sont ensuite combinées
 
 ---
 
-### I/Q-Verfahren – Empfängerseite
+### Procédé I/Q – côté récepteur
 
-* Das empfangene Signal wird mit einem $\qty{0}{\degree}$-Träger gemischt, um das I-Signal zu extrahieren
-* Gleichzeitig erfolgt eine Mischung mit einem um $\qty{90}{\degree}$ phasenverschobenen Träger, um das Q-Signal zu erhalten
-* Beide Signale werden A/D-umgesetzt und bilden so den digitalen I/Q-Datenstrom
+* Le signal reçu est mélangé avec une porteuse à $\qty{0}{\degree}$ pour extraire le signal I
+* Simultanément, un mélange est effectué avec une porteuse déphasée de $\qty{90}{\degree}$ pour obtenir le signal Q
+* Les deux signaux sont convertis N/A et forment ainsi le flux de données I/Q numérique
 
 ---
 
@@ -52,13 +52,13 @@
 
 ---
 
-### Abbildung des Frequenzbereichs
+### Représentation de la bande de fréquences
 
-* Der I/Q-Datenstrom bildet den Frequenzbereich um eine Mittenfrequenz ab  
-* Beispiel:  
-* $\qty{435}{\mega\hertz}$-Träger
-* Abtastrate von $\num{10}$ Mio. Samples/s $\rightarrow$ Bandbreite = $\qty{10}{\mega\hertz}$ ($\pm\qty{5}{\mega\hertz}$ um die Mittenfrequenz)
-* Abgedeckter Bereich: ca. $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$
+* Le flux de données I/Q représente la bande de fréquences autour d'une fréquence centrale
+* Exemple :
+* Porteuse à $\qty{435}{\mega\hertz}$
+* Fréquence d'échantillonnage de $\num{10}$ millions d'échantillons/s $\rightarrow$ bande passante = $\qty{10}{\mega\hertz}$ ($\pm\qty{5}{\mega\hertz}$ autour de la fréquence centrale)
+* Plage couverte : environ $\qty{430}{\mega\hertz}$ à $\qty{440}{\mega\hertz}$
 
 ---
 
@@ -66,9 +66,9 @@
 
 ---
 
-### Abhängigkeit der Bandbreite von der Abtastrate
+### Dépendance de la bande passante du taux d'échantillonnage
 
-* Die abgedeckte Bandbreite in $\unit{\hertz}$ entspricht der Abtastrate in Samples pro Sekunde
+* La bande passante couverte en $\unit{\hertz}$ correspond au taux d'échantillonnage en échantillons par seconde
 
 ---
 

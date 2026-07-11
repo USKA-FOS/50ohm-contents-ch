@@ -1,34 +1,34 @@
-Schauen wir uns zunächst an, wie ein Empfänger aufgebaut ist. In Abbildung [ref:aufbau_empfaenger_blockdiagramm] gehen wir zur Vereinfachung nicht auf die Ebene einzelner Bauteile, sondern betrachten Blöcke, die eine bestimmte Funktion haben. Diese Darstellung nennt man Blockdiagramm. Sie dient in der Elektrotechnik dazu, komplexe Geräte in einer vereinfachten Übersicht darzustellen. Hierzu lässt man Details weg, die zum Verständnis des gesamten Gerätes nicht erforderlich sind.
+Examinons d'abord comment un récepteur est construit. Dans la figure [ref:aufbau_empfaenger_blockdiagramm], nous ne descendons pas au niveau des composants individuels pour simplifier, mais nous considérons des blocs qui ont une fonction particulière. Cette représentation s'appelle un diagramme en blocs. Elle sert en électricité à représenter des appareils complexes dans une vue d'ensemble simplifiée. Pour ce faire, on omet les détails qui ne sont pas nécessaires à la compréhension de l'appareil dans son ensemble.
 
 <margin>
-[picture:736:aufbau_empfaenger_blockdiagramm:Blockdiagramm eines einfachen Empfängers]
+[picture:736:aufbau_empfaenger_blockdiagramm:Diagramme en blocs d'un récepteur simple]
 </margin>
 
 <indepth>
-Der hier dargestellte Empfänger wird als Geradeausempfänger bezeichnet. Der Name kommt daher, dass das von der Antenne aufgenommene Signal in seiner Frequenz bis zum Demodulator nicht verändert wird.
+Le récepteur représenté ici est appelé récepteur direct. Le nom vient du fait que le signal capté par l'antenne n'est pas modifié en fréquence jusqu'au démodulateur.
 </indepth>
 
 ---
 
-Betrachten wir die einzelnen Blöcke des Empfängers der Reihe nach von links nach rechts im Detail:
+Examinons les différents blocs du récepteur en détail, de gauche à droite:
 
-1. Antenne: Die Antenne nimmt eine Vielzahl von Funkwellen auf und leitet sie als elektrische Schwingungen weiter.
-2. Bandpassfilter: Um das gewünschte Signal herauszufiltern, folgt ein Bandpassfilter. Dieses lässt nur den gewünschten Frequenzbereich durch und sperrt alle anderen ungewünschten Frequenzen.
-3. HF-Verstärker: Als nächstes folgt ein Verstärker, der das herausgefilterte Signal verstärkt. Es handelt sich hierbei um einen Hochfrequenz-Verstärker (HF-Verstärker), da das Signal eine hohe Frequenz aufweist, beispielsweise $\qty{144,3}{\mega\hertz}$.
-4. Demodulator: Das verstärkte Signal wird vom Demodulator weiter verarbeitet. Demodulation ist das Gegenstück zur Modulation. Während bei der Modulation ein Signal (z. B. ein Sprachsignal) auf einen Hochfrequenzträger moduliert wird, passiert bei der Demodulation das Gegenteil: Aus dem modulierten Hochfrequenzträger wird das ursprüngliche Signal zurückgewonnen. Wir haben dann beispielsweise wieder das Sprachsignal, das am Sender in das Mikrofon gesprochen wurde. Man spricht auch vom Niederfrequenz-Signal, kurz NF-Signal, da es vergleichsweise niedrige Frequenzen aufweist, bei einem Sprachsignal beispielsweise Frequenzen unter $\qty{20}{\kilo\hertz}$.
-5. NF-Verstärker: Das demodulierte Signal wird dann verstärkt. Diesmal handelt es sich um einen Niederfrequenz-Verstärker (NF-Verstärker) zum Verstärken des Signals für den Lautsprecher. Das Symbol für den NF-Verstärker ist dasselbe wie für den Hochfrequenzverstärker.
-6. Lautsprecher: Das Signal wird jetzt durch den Lautsprecher von einer elektrischen Schwingung in eine Schallwelle umgewandelt und somit wieder hörbar gemacht.
+1. Antenne : L'antenne capte une multitude d'ondes radio et les transmet sous forme d'oscillations électriques.
+2. Filtre passe-bande : Pour filtrer le signal souhaité, un filtre passe-bande suit. Celui-ci ne laisse passer que la bande de fréquences souhaitée et bloque toutes les autres fréquences indésirables.
+3. Amplificateur haute fréquence : Ensuite, un amplificateur amplifie le signal filtré. Il s'agit ici d'un amplificateur haute fréquence (amplificateur HF), car le signal présente une fréquence élevée, par exemple $\qty{144,3}{\mega\hertz}$.
+4. Démodulateur : Le signal amplifié est ensuite traité par le démodulateur. La démodulation est l'inverse de la modulation. Alors que lors de la modulation, un signal (par exemple un signal vocal) est modulé sur une porteuse haute fréquence, l'inverse se produit lors de la démodulation : le signal original est récupéré à partir de la porteuse haute fréquence modulée. Nous avons alors à nouveau le signal vocal, qui a été parlé dans le microphone au niveau de l'émetteur. On parle aussi de signal basse fréquence, en abrégé signal BF, car il présente des fréquences relativement basses, par exemple des fréquences inférieures à $\qty{20}{\kilo\hertz}$ pour un signal vocal.
+5. Amplificateur audiofréquence : Le signal démodulé est ensuite amplifié. Il s'agit ici d'un amplificateur audiofréquence (amplificateur BF) pour amplifier le signal pour le haut-parleur. Le symbole de l'amplificateur BF est le même que celui de l'amplificateur haute fréquence.
+6. Haut-parleur : Le signal est maintenant converti par le haut-parleur d'une oscillation électrique en une onde sonore et ainsi rendu audible.
 
 <indepth>
-Beim *Bandpassfilter* symbolisieren die beiden durchgestrichenen Wellen, dass Frequenzen ober- und unterhalb des gewünschten Frequenzbereichs gesperrt werden. Die mittlere Welle steht dafür, dass der gewünschte Frequenzbereich durchgelassen wird.
+Pour le *filtre passe-bande*, les deux ondes barrées symbolisent que les fréquences au-dessus et en dessous de la bande de fréquences souhaitée sont bloquées. L'onde centrale indique que la bande de fréquences souhaitée est transmise.
 </indepth>
 
 <indepth>
-Der *Demodulator* wird durch das Schaltzeichen der Diode dargestellt, die das wichtigste Bestandteil vieler Demodulatoren ist. Die Funktionsweise einer Diode wird später im Kapitel "Bauteile und Schaltkreise" erklärt.
+Le *démodulateur* est représenté par le symbole de circuit de la diode, qui est le composant le plus important de nombreux démodulateurs. Le fonctionnement d'une diode sera expliqué plus tard dans le chapitre "Composants et circuits".
 </indepth>
 
 [question:NF201]
 
-Je nachdem wie ein Empfänger genau aufgebaut ist, hat er unterschiedliche Eigenschaften. Eine wichtige Eigenschaft ist die Empfindlichkeit. Damit wird die Fähigkeit des Empfängers bezeichnet, schwache Signale zu empfangen. Je empfindlicher ein Empfänger ist, desto schwächere Signale kann er empfangen.
+Selon la manière dont un récepteur est construit, il a des propriétés différentes. Une propriété importante est la sensibilité. C'est ainsi que l'on désigne la capacité du récepteur à recevoir des signaux faibles. Plus un récepteur est sensible, plus il peut recevoir des signaux faibles.
 
 [question:NF303]

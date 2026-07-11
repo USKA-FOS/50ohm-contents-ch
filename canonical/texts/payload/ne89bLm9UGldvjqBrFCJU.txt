@@ -1,42 +1,42 @@
-Im Gegensatz zum Einfachsuper werden im Doppelsuper 2 Zwischenfrequenzen verwendet.
+Contrairement au superhétérodyne simple, le double superhétérodyne utilise 2 fréquences intermédiaires.
 
 <margin>
-[picture:810:doppelsuper_blockschaltbild:Blockschaltbild eines Doppelsuper]
+[picture:810:doppelsuper_blockschaltbild:Schéma bloc d'un double superhétérodyne]
 </margin>
 
-Durch die Verwendung einer hohen ersten ZF ist eine gute Spiegelfrequenzunterdrückung möglich. Die beiden möglichen Empfangsstellen liegen hierdurch sehr weit auseinander und eine Unterdrückung der ungewünschten Empfangsstelle (Spiegelfrequenz) ist durch Eingangsfilter vor dem ersten Mischer leicht möglich. Durch die Verwendung einer niedrigen 2. ZF kann im 2. Schritt eine hohe Trennschärfe des Empfängers erreicht werden, da für niedrige Frequenzen Filter mit hoher Güte und steilen Flanken technisch sehr gut realisierbar sind.
-Die erste ZF und die höchste gewünschte Empfangsfrequenz sollten bei einem Kurzwellenempfänger, je nach Empfängerkonzept, auch möglichst weit voneinander entfernt sein, um einen Direktempfang der ZF über die Antenne zu vermeiden. Die 1. ZF sollte daher das Doppelte der maximalen Empfangsfrequenz betragen.
+Grâce à l'utilisation d'une première fréquence intermédiaire élevée, une bonne suppression de la fréquence image est possible. Les deux positions de réception possibles sont ainsi très éloignées l'une de l'autre et la suppression de la position de réception non souhaitée (fréquence image) est facilement réalisable par des filtres d'entrée avant le premier mélangeur. Grâce à l'utilisation d'une 2ème fréquence intermédiaire basse, une haute sélectivité du récepteur peut être atteinte lors de la 2ème étape, car des filtres à haute qualité et à flancs raides sont techniquement très bien réalisables pour les basses fréquences.
+La première fréquence intermédiaire et la fréquence de réception la plus élevée souhaitée devraient, dans le cas d'un récepteur à ondes courtes, être également aussi éloignées que possible l'une de l'autre, selon le concept du récepteur, afin d'éviter une réception directe de la fréquence intermédiaire via l'antenne. La 1ère fréquence intermédiaire devrait donc être le double de la fréquence de réception maximale.
 
 <tip>
-Eine Erweiterung des Doppelsuper-Konzeptes wäre der Dreifach-Super, bei dem eine niedrige 3. ZF gebildet wird. Dies kann sinnvoll sein für spezielle Demodulationsverfahren oder für die Realisierung von Störunterdrückungsverfahren (Notchfilter). Die Berechnung der Zwischenfrequenzen und Oszillatorfrequenzen erfolgt hierbei entsprechend dem des Doppelsupers.
+Une extension du concept du double superhétérodyne serait le triple superhétérodyne, dans lequel une 3ème fréquence intermédiaire basse est formée. Cela peut être utile pour des procédés de démodulation spéciaux ou pour la réalisation de procédés de suppression de perturbations (filtre coupe-bande). Le calcul des fréquences intermédiaires et des fréquences de l'oscillateur se fait ici de manière correspondante à celui du double superhétérodyne.
 </tip>
 
 [question:AF112]
 [question:AF113]
 
-Nach dem ersten Mischer kann zur Verbesserung der Großsignalfestigkeit ein sehr schmales Filter, welches auf die 1. ZF abgestimmt ist, eingesetzt werden.  Man nennt dieses Filter *Roofing Filter*. Die Bandbreite des Roofing-Filters muss hierbei mindestens so groß wie die größte benötigte Bandbreite der vorgesehenen Betriebsarten sein.
+Après le premier mélangeur, un filtre très étroit, accordé sur la 1ère fréquence intermédiaire, peut être utilisé pour améliorer la résistance aux grands signaux. On appelle ce filtre *Roofing Filter*. La bande passante du filtre Roofing doit être au moins aussi grande que la plus grande bande passante nécessaire pour les modes de fonctionnement prévus.
 
 [question:AF114]
 [question:AF116]
 
-Der Doppelsuper setzt sich aus folgenden Funktionsblöcken zusammen:
-1. HF-Teil mit Vorselektion
-2. Erster Mischer mit VFO zur Bildung der ersten ZF. Hierbei kann die Frequenz des VFO sowohl oberhalb als auch unterhalb der gewünschten Empfangsfrequenz liegen (jeweils um die 1. ZF versetzt)
-3. Erster ZF-Verstärker mit Filter (Roofing-Filter)
-4. Zweiter Mischer mit CO (Quarzoszillator) zur Bildung der zweiten ZF. Hierbei kann die Frequenz des CO sowohl oberhalb als auch unterhalb der 1. ZF liegen (jeweils um die 2. ZF versetzt)
-5. Zweiter ZF-Verstärker mit Filter (ZF-Filter je nach Modulationsart/Betriebsart, meist schaltbar).
-6. Produktdetektor oder Demodulator (je nach Betriebsart) ggf. mit BFO. Diese Stufe dient auch der Erzeugung einer Regelspannung für die Steuerung der Eingangsempfindlichkeit des Empfangszweigs (AGC)
-7. NF-Verstärker mit Lautsprecher-Ausgang oder Kopfhörer-Anschluss
+Le double superhétérodyne se compose des blocs fonctionnels suivants :
+1. Partie HF avec présélection
+2. Premier mélangeur avec VFO pour la formation de la première fréquence intermédiaire. La fréquence du VFO peut être à la fois au-dessus et en dessous de la fréquence de réception souhaitée (décalée respectivement de la 1ère fréquence intermédiaire)
+3. Premier amplificateur de fréquence intermédiaire avec filtre (filtre Roofing)
+4. Deuxième mélangeur avec CO (oscillateur à quartz) pour la formation de la deuxième fréquence intermédiaire. La fréquence du CO peut être à la fois au-dessus et en dessous de la 1ère fréquence intermédiaire (décalée respectivement de la 2ème fréquence intermédiaire)
+5. Deuxième amplificateur de fréquence intermédiaire avec filtre (filtre de fréquence intermédiaire selon le type de modulation/mode de fonctionnement, généralement commutable).
+6. Détecteur de produit ou démodulateur (selon le mode de fonctionnement) éventuellement avec BFO. Ce niveau sert également à générer une tension de régulation pour le contrôle de la sensibilité d'entrée de la voie de réception (AGC)
+7. Amplificateur AF avec sortie haut-parleur ou connecteur casque
 
 [question:AF209]
 [question:AF117]
 [question:AF210]
 
-Um die benötigten Oszillator-Frequenzen in Abhängigkeit einer gewünschten Empfangsfrequenz zu berechnen, muss man sich vergegenwärtigen, dass die Oszillatorfrequenzen jeweils ober- oder unterhalb der gewünschten Eingangsfrequenz des Mischers liegen können. Daher existieren für jede Mischerstufe jeweils zwei Lösungsmöglichkeiten.
-1. Oszillatorfrequenz = Eingangsfrequenz + Ausgangsfrequenz
-2. Oszillatorfrequenz = Eingangsfrequenz - Ausgangsfrequenz
+Pour calculer les fréquences d'oscillateur nécessaires en fonction d'une fréquence de réception souhaitée, il faut se rappeler que les fréquences d'oscillateur peuvent être à la fois au-dessus et en dessous de la fréquence d'entrée souhaitée du mélangeur. Par conséquent, il existe deux possibilités de solution pour chaque étape de mélange.
+1. Fréquence de l'oscillateur = Fréquence d'entrée + Fréquence de sortie
+2. Fréquence de l'oscillateur = Fréquence d'entrée - Fréquence de sortie
 
-Mit diesem Wissen lassen sich die folgenden Fragen beantworten.
+Avec cette connaissance, les questions suivantes peuvent être répondues.
 
 [question:AF120]
 [question:AF118]

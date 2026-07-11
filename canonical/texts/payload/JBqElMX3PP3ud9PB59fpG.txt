@@ -1,18 +1,18 @@
-SMD-Bauteile sind nur wenige Millimeter groß. SMD steht für Surface-Mounted Device (deutsch: oberflächenmontiertes Bauelement). Im Unterschied zu klassischen Bauteilen besitzen sie keine Drahtanschlüsse, sondern werden direkt auf die Leiterplatte aufgelötet – ganz ohne Durchkontaktierung. Im Folgenden beschäftigen wir uns mit der Kennzeichnung von SMD-Widerständen.
+Les composants SMD ne mesurent que quelques millimètres. SMD signifie Surface-Mounted Device (en allemand : composant monté en surface). Contrairement aux composants classiques, ils ne possèdent pas de fils de connexion, mais sont directement soudés sur la carte de circuit imprimé – sans trous métallisés. Dans ce qui suit, nous nous intéressons à la désignation des résistances SMD.
 
 <margin>
-[photo:318:e_platine_smd:Platine mit SMD-Bauteilen]
+[photo:318:e_platine_smd:Platine avec des composants SMD]
 </margin>
 
 ---
 
-Abbildung [ref:e_smd] zeigt einen SMD-Widerstand. Zur Kennzeichnung des Widerstandswerts sind darauf Zahlen aufgedruckt – in diesem Fall die Ziffern 113. Die Größe des Widerstandes ergibt sich dann wie folgt: Es werden alle Zahlen bis auf die *letzte* als reiner Zahlenwert übernommen. Im Beispiel 113 ergibt sich damit *11* als Zahlenwert. Die *letzte* Zahl gibt die *Zehnerpotenz* an mit der die anderen Zahlen zu multiplizieren sind. Eine 1 steht dabei für die erste Zehnerpotenz  $10^1$, eine 2 für die zweite Zehnerpotenz $10^2$ usw.
+La figure [ref:e_smd] montre une résistance SMD. Pour désigner la valeur de la résistance, des chiffres y sont imprimés – dans ce cas, les chiffres 113. La taille de la résistance est alors obtenue comme suit : tous les chiffres sauf le dernier sont pris comme valeur numérique pure. Dans l'exemple 113, on obtient ainsi *11* comme valeur numérique. Le dernier chiffre indique la *puissance de dix* avec laquelle les autres chiffres doivent être multipliés. Un 1 représente la première puissance de dix $10^1$, un 2 la deuxième puissance de dix $10^2$, etc.
 
 <margin>
-[picture:1006:e_smd:SMD-Bauteil]
+[picture:1006:e_smd:Composant SMD]
 </margin>
 
-In unserem Beispiel erhalten wir also: $11 \cdot 10^3$ also $\qty{11000}{\ohm}$ Ohm bzw. $\qty{11}{\kilo\ohm}$.
+Dans notre exemple, nous obtenons donc : $11 \cdot 10^3$ soit $\qty{11000}{\ohm}$ Ohm ou $\qty{11}{\kilo\ohm}$.
 
 [question:EC114]
 [question:EC115]

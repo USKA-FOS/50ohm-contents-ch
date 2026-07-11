@@ -1,113 +1,113 @@
-Das dritte passive Bauelement in der Funktechnik – nach Widerstand und Kondensator – ist die *Spule*. Verschiedene Spulenarten und Ihre Schaltsymbole sind in den Abbildungen [ref:e_spulen] und [ref:e_schaltsymbole_spulen] dargestellt. Wie wir bereits im Kapitel zum magnetischen Feld gelernt haben, wird in einer Spule ein Magnetfeld erzeugt, sobald ein elektrischer Strom durch die Spule fließt. Die einfachste Bauform einer Spule ist die sogenannte gerade *Zylinderspule*, wie sie in Abbildung [ref:e_spule_Aufbau] gezeigt wird.
+Le troisième composant passif en technique radio – après la résistance et le condensateur – est la *bobine*. Différents types de bobines et leurs symboles de circuit sont représentés dans les figures [ref:e_spulen] et [ref:e_schaltsymbole_spulen]. Comme nous l'avons déjà appris dans le chapitre sur le champ magnétique, un champ magnétique est généré dans une bobine dès qu'un courant électrique traverse la bobine. La forme la plus simple d'une bobine est la soi-disant bobine cylindrique droite, comme le montre la figure [ref:e_spule_Aufbau].
 
 <margin>
-[photo:207:e_spulen:Verschiedene Bauformen von Spulen]
-[picture:942:e_schaltsymbole_spulen:Schaltsymbole für unterschiedliche Spulenarten]
-[picture:948:e_spule_Aufbau:Aufbau einer Spule]
+[photo:207:e_spulen:Différentes formes de construction de bobines]
+[picture:942:e_schaltsymbole_spulen:Symboles de circuit pour différents types de bobines]
+[picture:948:e_spule_Aufbau:Structure d'une bobine]
 </margin>
 
 ---
 
-Eine Zylinderspule hat eine sogenannte Induktivität $L$, welche sich nach folgender Formel berechnet:
+Une bobine cylindrique a une inductance $L$, qui se calcule selon la formule suivante :
 
 $L = \frac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 
-Betrachtet man den Aufbau einer Spule, dann findet man also folgende Größen:
-1. $\mu_0$ ist die magnetische Feldkonstante, eine Naturkonstante mit dem Wert $\qty{1,2566e-6}{\henry\per\meter}$. Den Wert kann man immer in der Formelsammlung nachschlagen.
-2. $\mu_r$ ist eine Materialkonstante, denn der Spulenkern kann aus einem speziellen Material bestehen, das magnetische Felder verstärken kann.
-3. Die Anzahl $N$ der Spulenwindungen aus Kupferlackdraht oder versilbertem Kupferdraht.
-4. $A_S$ gibt die Querschnittsfläche des Spulenkerns an.
-5. Spulenlänge $l$
+En examinant la structure d'une bobine, on trouve donc les grandeurs suivantes :
+1. $\mu_0$ est la constante de champ magnétique, une constante naturelle ayant pour valeur $\qty{1,2566e-6}{\henry\per\meter}$. On peut toujours trouver cette valeur dans le recueil de formules.
+2. $\mu_r$ est une constante de matériau, car le noyau de la bobine peut être constitué d'un matériau spécial qui peut amplifier les champs magnétiques.
+3. Le nombre $N$ des enroulements de fil de cuivre émaillé ou de fil de cuivre argenté.
+4. $A_S$ donne la surface de section transversale du noyau de la bobine.
+5. Longueur de la bobine $l$
 
 [question:EA102]
 
 <indepth>
-Der Formelbuchstabe $L$ wurde zu Ehren des Professors Emil Lenz (1804–1864) aus St. Petersburg gewählt, der die nach ihm benannte Lenzsche Regel formulierte.
+La lettre de formule $L$ a été choisie en l'honneur du professeur Emil Lenz (1804–1864) de Saint-Pétersbourg, qui a formulé la règle de Lenz qui porte son nom.
 </indepth>
 
 <unit>
-Eine Spule besitzt die Induktivität $L$ mit der Einheit $\qty{1}{\volt\second\per\ampere}$, die üblicherweise in *Henry* ($\unit{\henry}$) angegeben wird. Die Einheit ist nach dem amerikanischen Physiker *Joseph Henry* (1797–1878) benannt. Eine Induktivität von $\qty{1}{\henry}$ liegt vor, wenn eine Stromänderung von $\qty{1}{\ampere}$ innerhalb einer Sekunde eine Selbstinduktionsspannung von $\qty{1}{\volt}$ hervorruft. In der Praxis liegen die Werte von Induktivitäten meist deutlich darunter und werden typischerweise in $\unit{\milli\henry}$, $\unit{\micro\henry}$ oder $\unit{\nano\henry}$ angegeben.
+Une bobine possède l'inductance $L$ avec l'unité $\qty{1}{\volt\second\per\ampere}$, qui est généralement indiquée en *Henry* ($\unit{\henry}$). L'unité est nommée en l'honneur du physicien américain *Joseph Henry* (1797–1878). Une inductance de $\qty{1}{\henry}$ est présente lorsqu'un changement de courant de $\qty{1}{\ampere}$ en une seconde provoque une tension d'auto-induction de $\qty{1}{\volt}$. En pratique, les valeurs des inductances sont généralement bien inférieures et sont généralement indiquées en $\unit{\milli\henry}$, $\unit{\micro\henry}$ ou $\unit{\nano\henry}$.
 </unit>
 
 ---
 
-Mithilfe der Formel und den folgenden qualitativen Zusammenhängen kann man bereits eine Reihe von Prüfungsfragen lösen:
+À l'aide de la formule et des relations qualitatives suivantes, on peut déjà résoudre une série de questions d'examen :
 
-1. Die Induktivität steigt quadratisch mit der Windungszahl. Wenn die Windungszahl verdoppelt wird, dann steigt die Induktivität auf das Vierfache.
-2. Wenn die Spule zusammengedrückt wird, dann steigt die Induktivität $L$.
-3. Wenn die Querschnittsfläche vergrößert wird, dann steigt die Induktivität $L$.
-4. Wenn das Magnetfeld in der Spule durch ein geeignetes, magnetisch leitfähiges Material (z.B. Eisen) verstärkt wird, dann steigt die Induktivität $L$.
+1. L'inductance augmente de manière quadratique avec le nombre de spires. Si le nombre de spires est doublé, l'inductance augmente quadruplement.
+2. Si la bobine est comprimée, l'inductance $L$ augmente.
+3. Si la surface de section transversale est agrandie, l'inductance $L$ augmente.
+4. Si le champ magnétique dans la bobine est amplifié par un matériau approprié, magnétiquement conducteur (par exemple, le fer), l'inductance $L$ augmente.
 
 [question:EC305]
 
-Wenn man die Spule staucht, dann wird $l$ verkleinert. Dadurch steigt die Induktivität $L$.
+Si l'on comprime la bobine, $l$ est réduit. Cela augmente l'inductance $L$.
 
 [question:EC306]
 
-Wenn man die Spulenlänge $l$ verdoppelt, dann muss sich die Induktivität $L$ halbieren.
+Si l'on double la longueur de la bobine $l$, l'inductance $L$ doit être divisée par deux.
 
 [question:EC307]
 
-Wenn die Anzahl der Windungen $N$ verdoppelt wird, dann vervierfacht sich die Induktivität $L$.
+Si le nombre de spires $N$ est doublé, l'inductance $L$ est quadruplée.
 
-Wenn die Windungszahl verringert wird, dann sinkt die Induktivität, aber selbst bei einer halben oder Viertelwindung und sogar bei einem geraden Stück Draht ist noch eine geringe parasitäre Induktivität vorhanden.
+Si le nombre de spires est réduit, l'inductance diminue, mais même avec une demi-spire ou un quart de spire et même avec un morceau de fil droit, une faible inductance parasite est encore présente.
 
 [question:EC304]
 
 ---
 
-Als *ferromagnetisch* bezeichnen wir eine bestimmte Klasse an Materialien, die auf atomarer Ebene kleine Elementarmagnete enthalten, die sich unter dem Einfluss eines äußeren magnetischen Felds ausrichten und so die *magnetische Flussdichte* stark erhöhen (mit der wir uns an dieser Stelle aber noch nicht beschäftigen). Unter den reinen chemischen Elementen sind nur Eisen, Kobalt und Nickel ferromagnetisch.
+Nous désignons par *ferromagnétique* une certaine classe de matériaux qui contiennent, au niveau atomique, de petits aimants élémentaires qui s'orientent sous l'influence d'un champ magnétique extérieur et augmentent ainsi fortement la *densité de flux magnétique* (que nous n'allons pas encore aborder ici). Parmi les éléments chimiques purs, seuls le fer, le cobalt et le nickel sont ferromagnétiques.
 
 <indepth>
-$\mu_r$, man sagt auch relative Permeabilität, ist bei ferromagnetischen Materialien sehr groß (bei Eisen zum Beispiel im Bereich von $300\dots\num{10000}$).
+$\mu_r$, que l'on appelle aussi perméabilité relative, est très élevée pour les matériaux ferromagnétiques (par exemple, pour le fer, dans la plage de $300\dots\num{10000}$).
 </indepth>
 
 
 [question:EB204]
 
-Wenn man ein ferromagnetisches Material wie Eisen in die Spule einführt, dann wird das Magnetfeld verstärkt und die Induktivität steigt. 
+Si l'on introduit un matériau ferromagnétique comme le fer dans la bobine, le champ magnétique est amplifié et l'inductance augmente. 
 
-Wenn wir in eine Zylinderspule einen Kern aus einem gut leitenden (nicht-ferromagnetischen) Metall wie Aluminium oder Kupfer einführen, dann sinkt die Induktivität der Spule hingegen. Das liegt daran, dass das hochfrequente Magnetfeld der Spule in den Kernen Ströme, sogenannte Wirbelströme, erzeugt ("induziert"). Diese sekundären Ströme erzeugen wiederum Magnetfelder, die dem Magnetfeld der Spule entgegenwirken. Deshalb sinkt die Induktivität. Das magnetische Feld im Inneren des Kerns wird dabei reduziert. 
+Si nous introduisons un noyau en métal bon conducteur (non ferromagnétique) comme l'aluminium ou le cuivre dans une bobine cylindrique, l'inductance de la bobine diminue en revanche. Cela est dû au fait que le champ magnétique haute fréquence de la bobine induit des courants, appelés courants de Foucault, dans les noyaux. Ces courants secondaires génèrent à leur tour des champs magnétiques qui s'opposent au champ magnétique de la bobine. C'est pourquoi l'inductance diminue. Le champ magnétique à l'intérieur du noyau est alors réduit. 
 
-Die in der folgenden Frage als richtig betrachtete Antwort ist die, dass das Magnetfeld nicht in den Kern eindringen kann und deshalb der Querschnitt des Feldes verringert. Das ist aber nicht ganz das, was physikalisch passiert. Einfach die "richtige" Antwort merken. 
+La réponse considérée comme correcte dans la question suivante est que le champ magnétique ne peut pas pénétrer dans le noyau et que la section transversale du champ est donc réduite. Ce n'est cependant pas tout à fait ce qui se passe physiquement. Il suffit de retenir la "bonne" réponse. 
 
 [question:EB205]
 
 ---
 
-Schauen wir uns, wie beim Kondensator auch, zuerst das Gleichstromverhalten der Spule an: Die Spule wird über einen Vorwiderstand an eine Gleichspannungsquelle angeschlossen, wie in Abbildung [ref:e_spule_einschalten] dargestellt. Im Moment des Einschaltens wird der Stromanstieg zunächst verzögert, sodass der Strom nicht sprunghaft, sondern nur allmählich bis zu seinem Maximalwert ansteigt.
+Examinons d'abord, comme pour le condensateur, le comportement en courant continu de la bobine : la bobine est connectée à une source de tension continue par l'intermédiaire d'une résistance en série, comme le montre la figure [ref:e_spule_einschalten]. Au moment de la mise sous tension, l'augmentation du courant est d'abord retardée, de sorte que le courant n'augmente pas par à-coups, mais seulement progressivement jusqu'à sa valeur maximale.
 
-Ursache hierfür ist die Lenzsche Regel: Beim Anstieg des Stroms erzeugt die Spule eine Selbstinduktionsspannung, die der Stromänderung – und damit der Ursache – entgegenwirkt. Dadurch wird der Stromanstieg begrenzt. Da zu Beginn noch kein Strom fließt, fällt zunächst nahezu die gesamte angelegte Spannung an der Spule ab. Mit zunehmendem Strom nimmt diese Induktionsspannung ab, während der Strom weiter ansteigt.
+La cause en est la règle de Lenz : lors de l'augmentation du courant, la bobine génère une tension d'auto-induction qui s'oppose à la variation de courant – et donc à la cause. Cela limite l'augmentation du courant. Comme aucun courant ne circule au début, presque toute la tension appliquée est d'abord dissipée dans la bobine. À mesure que le courant augmente, cette tension d'induction diminue, tandis que le courant continue d'augmenter.
 
-Ist der stationäre Zustand erreicht, verhält sich die Spule bei Gleichstrom näherungsweise wie ein Stück Draht. Die an ihr abfallende Spannung ist dann praktisch null. Der zeitliche Verlauf der Spannung an der Spule ist in Abbildung [ref:e_spule_einschalten_spannung] dargestellt.
+Lorsque l'état stationnaire est atteint, la bobine se comporte en courant continu approximativement comme un morceau de fil. La tension qui s'y dissout est alors pratiquement nulle. L'évolution temporelle de la tension aux bornes de la bobine est représentée dans la figure [ref:e_spule_einschalten_spannung].
 
 <margin>
-[picture:1016:e_spule_einschalten:Stromkreis zur Untersuchung einer Spule]
+[picture:1016:e_spule_einschalten:Circuit pour l'étude d'une bobine]
 </margin>
 <margin>
-[picture:186:e_spule_einschalten_spannung:Spannungsverlauf beim Einschalten]
+[picture:186:e_spule_einschalten_spannung:Évolution de la tension lors de la mise sous tension]
 </margin>
 
 [question:EC301]
 
 ---
 
-Im Ausschaltmoment will die Selbstinduktionsspannung den Stromfluss aufrechterhalten. Die Spule wirkt dann als Generator, dessen Induktionsspannung entgegengesetzt zur vorherigen Polarität entsteht. Damit verhält sich die Spule exakt gegenteilig zum Kondensator. Diese Vorgänge kann man gut mithilfe eines Oszilloskops wie in Abbildung [ref:e_Spulenstrom] beobachten.
+Au moment de la coupure, la tension d'auto-induction veut maintenir le flux de courant. La bobine agit alors comme un générateur dont la tension d'induction est créée en opposition à la polarité précédente. Ainsi, la bobine se comporte exactement à l'opposé du condensateur. Ces processus peuvent être bien observés à l'aide d'un oscilloscope comme dans la figure [ref:e_Spulenstrom].
 
 <margin>
-[photo:257:e_Spulenstrom:Ein-und Ausschaltverhalten der Spulenspannung und des Spulenstroms]
+[photo:257:e_Spulenstrom:Comportement de la tension et du courant de la bobine à l'enclenchement et à la coupure]
 </margin>
 
-Man kann deshalb Spulen auch zur Verzögerung benutzen. In der folgenden Frage,  steigt der Stromfluss durch Lampe 2 langsamer an, als durch Lampe 1, da eine Spule vorgeschaltet ist, deren Selbstinduktionsspannung den Einschaltstrom nur langsam ansteigen lässt.
+On peut donc utiliser des bobines aussi pour le retard. Dans la question suivante, le flux de courant à travers l'ampoule 2 augmente plus lentement que celui à travers l'ampoule 1, car une bobine est branchée en amont, dont la tension d'auto-induction ne permet au courant de mise sous tension d'augmenter que lentement.
 
 [question:EC302]
 
-Ähnlich wie beim Kondensator verhält sich eine Spule unterschiedlich, wenn sie an Gleichspannung oder an Wechselspannung angeschlossen wird. In der Funktechnik ist vor allem das Verhalten an Wechselspannung wichtig. Deshalb schauen wir uns nun das Wechselstromverhalten an. 
+De même que pour le condensateur, une bobine se comporte différemment selon qu'elle est connectée à une tension continue ou à une tension alternative. En technique radio, c'est surtout le comportement en tension alternative qui est important. C'est pourquoi nous examinons maintenant le comportement en courant alternatif. 
 
-Die Spule zeigt, ähnlich wie ein Kondensator, einen Wechselstromwiderstand $X_{\textrm{L}}$, das heißt, obwohl der Spulendraht nur einen sehr kleinen ohmschen Widerstand (Leiterwiderstand) besitzt, fließt ein Strom, der aber mit steigender Frequenz der Wechselspannung kleiner wird:
+La bobine présente, comme un condensateur, une résistance au courant alternatif $X_{\textrm{L}}$, c'est-à-dire que, bien que le fil de la bobine ne possède qu'une très faible résistance ohmique (résistance du conducteur), un courant circule, mais qui devient plus faible à mesure que la fréquence de la tension alternative augmente :
 
 $X_{L} = \omega \cdot L = 2\cdot\pi\cdot f \cdot L$
 
-Aus der Formel lässt sich erkennen, dass der Wechselstromwiderstand mit zunehmender Frequenz ansteigt und mit abnehmender Frequenz sinkt.
+La formule montre que la résistance au courant alternatif augmente avec la fréquence et diminue avec la fréquence décroissante.
 
 [question:EC303]

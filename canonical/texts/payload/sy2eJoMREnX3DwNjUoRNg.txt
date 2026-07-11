@@ -1,15 +1,15 @@
-An Stelle eines Brückengleichrichters, kann auch mit zwei Dioden und einem Transformator mit Mittelanzapfung eine Vollweggleichrichtung erreicht werden.
+À la place d'un redresseur en pont, on peut également obtenir un redressement double alternance avec deux diodes et un transformateur avec prise médiane.
 
 <latexonly>
-Die Abbildung [ref:a_vollweggleichrichter] zeigt einen solchen sogenannten Vollweggleichrichter. 
+La figure [ref:a_vollweggleichrichter] montre un tel redresseur double alternance appelé.
 
 <margin>
-[picture:946:a_vollweggleichrichter:Vollweggleichrichtung mit zwei Dioden]
+[picture:946:a_vollweggleichrichter:Redressement double alternance avec deux diodes]
 </margin>
 </latexonly>
 
 <webonly>
-Das nebenstehende Applet [ref:a_vollweggleichrichter] zeigt einen solchen sogenannten Vollweggleichrichter. 
+L'applet adjacent [ref:a_vollweggleichrichter] montre un tel redresseur double alternance appelé.
 
 <margin>
 [include:applet_gleichrichter_1]
@@ -18,16 +18,16 @@ Das nebenstehende Applet [ref:a_vollweggleichrichter] zeigt einen solchen sogena
 
 ---
 
-Zum Verständnis der Funktion muss die positive und negative Halbwelle getrennt betrachtet werden. Liegt an der oberen Wicklung eine positive Halbwelle gegenüber der Mittelanzapfung an der Anode der Diode $D_1$ an, dann leitet nur diese Diode und leitet die Halbwelle auf den Ausgang, der mit + bezeichnet ist, weiter. An der Diode $D_2$ liegt zu diesem Zeitpunkt eine negative Halbwelle an der Anode gegenüber der Mittelanzapfung an. Diese Diode bleibt bei dieser Halbwelle gesperrt.
+Pour comprendre la fonction, il faut considérer séparément les demi-ondes positive et négative. Si une demi-onde positive est appliquée à l'enroulement supérieur par rapport à la prise médiane à l'anode de la diode $D_1$, alors seule cette diode conduit et transmet la demi-onde à la sortie désignée par +. À la diode $D_2$, une demi-onde négative est appliquée à l'anode par rapport à la prise médiane. Cette diode reste bloquée pour cette demi-onde.
 
-Bei der nächsten Halbwelle ist die Diode $D_1$ gesperrt und die Diode $D_2$ leitet, da nun dort eine positive Halbwelle gegenüber der Trafomittelanzapfung anliegt. Am Gleichspannungsausgang erscheinen nun zwei Halbwellen, aber immer in positiver Richtung gegenüber der Mittelanzapfung. Die Mittelanzapfung bildet den Minuspol der Ausgangsgleichspannung.
+Lors de la demi-onde suivante, la diode $D_1$ est bloquée et la diode $D_2$ conduit, car une demi-onde positive est maintenant appliquée par rapport à la prise médiane du transformateur. Deux demi-ondes apparaissent maintenant à la sortie de la tension continue, mais toujours dans la direction positive par rapport à la prise médiane. La prise médiane forme le pôle négatif de la tension de sortie continue.
 
 <tip>
-Gleiche Eselsbrücke wie beim Brückengleichrichter: Die beiden Kathoden der Dioden liegen zusammen am Pluspol der Ausgangsspannung.
+Même astuce mnémotechnique que pour le redresseur en pont : les deux cathodes des diodes sont connectées ensemble au pôle positif de la tension de sortie.
 </tip>
 
 [question:AD307]
 
-Wenn zwei Anoden gemeinsam an einem Ausgangspol angeschlossen sind, dann wird dort die pulsierende Gleichspannung negativ gegenüber der Mittelanzapfung des Trafos sein. Beide Halbwellen befinden sich unterhalb der Nulllinie.
+Si deux anodes sont connectées ensemble à un pôle de sortie, alors la tension continue pulsée y sera négative par rapport à la prise médiane du transformateur. Les deux demi-ondes se trouvent en dessous de la ligne de zéro.
 
 [question:AD308]

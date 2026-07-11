@@ -1,24 +1,24 @@
-Zweidrahtleitungen verhalten sich, sofern diese symmetrisch gespeist und belastet werden, auch in Hinblick auf ihre Strom- und Spannungsverteilung symmetrisch. D. h. an einer bestimmten Stelle sind Strom und Spannung eines des beiden Leiter genauso groß wie im anderen Leiter – nur mit umgekehrtem Vorzeichen.
+Les lignes bifilaires se comportent, dans la mesure où elles sont alimentées et chargées de manière symétrique, également de manière symétrique en ce qui concerne leur distribution de courant et de tension. C'est-à-dire qu'à un endroit donné, le courant et la tension de l'un des deux conducteurs sont aussi grands que dans l'autre conducteur - seulement avec un signe opposé.
 
 [question:AG312]
 
-Obwohl sich die gegenphasigen Ströme aus der Ferne betrachtet weitgehend aufheben, kommt es selbst im Freiraum zu einer geringfügigen Abstrahlung. Befinden sich gar andere Leitungen im Nahfeld einer Zweidrahtleitung ist die Kopplung noch stärker. Aus diesem Grunde sollten im Haus verlegte Speiseleitungen grundsätzlich geschirmt sein. In der Regel kommen hier Koaxialkabel zum Einsatz.
+Bien que les courants en opposition de phase s'annulent largement de loin, il y a même dans l'espace libre une légère radiation. Si d'autres lignes se trouvent dans le champ proche d'une ligne bifilaire, le couplage est encore plus fort. Pour cette raison, les lignes d'alimentation posées dans la maison doivent être fondamentalement blindées. En règle générale, des câbles coaxiaux sont utilisés à cet effet.
 
 [question:AG301]
 
-Koaxialkabel gibt es in verschiedensten Ausführungen. In der folgenden Frage werden die *Hochfrequenzeigenschaften* von Koaxialkabeln, also deren elektrischen Eigenschaften hinsichtlich hoher Frequenzen betrachtet. Dies sind im Wesentlichen der Wellenwiderstand, die Kabeldämpfung und der Verkürzungsfaktor, den wir gleich näher betrachten. Der Biegeradius hingegen ist eine mechanische Eigenschaft, die angibt, wie eng das Kabel in einer Kurve verlegt werden darf. Die Rückflussdämpfung gibt an, wieviele Reflexionen vorhanden sind, was von der an einer Leitung angeschlossenen Last abhängt und somit keine Kabeleigenschaft ist.
+Il existe des câbles coaxiaux dans diverses exécutions. Dans la question suivante, les *propriétés haute fréquence* des câbles coaxiaux, c'est-à-dire leurs propriétés électriques en ce qui concerne les hautes fréquences, sont considérées. Il s'agit essentiellement de l'impédance de la ligne, de l'atténuation du câble et du facteur de réduction, que nous allons examiner de plus près. Le rayon de courbure, en revanche, est une propriété mécanique qui indique à quel point le câble peut être posé dans un virage. La perte de retour indique combien de réflexions sont présentes, ce qui dépend de la charge connectée à une ligne et n'est donc pas une propriété du câble.
 
 [question:AG303]
 
-Der Verkürzungsfaktor ergibt sich durch das zwischen Innen- und Außenleiter befindliche Dielektrikum. In diesem befindet sich der Großteil der elektromagnetischen Welle, die durch das Kabel geleitet wird. Die Wahl des Dielektrikums bestimmt, wie schnell sich eine Welle durch das Kabel fortpflanzen kann. Die Ausbreitungsgeschwindigkeit im Koaxialkabel liegt unter der Lichtgeschwindigkeit im Freiraum. Übliche Materialien für das Dielektrikum sind Polyethylen (PE) und Teflon (PTFE). Durch Aufschäumung entsteht gewissermaßen eine Mischung mit Luft, bei der die Kabeldämpfung geringer ausfällt.
+Le facteur de réduction résulte du diélectrique situé entre le conducteur intérieur et le conducteur extérieur. C'est là que se trouve la majeure partie de l'onde électromagnétique qui est guidée à travers le câble. Le choix du diélectrique détermine la vitesse à laquelle une onde peut se propager à travers le câble. La vitesse de propagation dans le câble coaxial est inférieure à la vitesse de la lumière dans l'espace libre. Les matériaux habituels pour le diélectrique sont le polyéthylène (PE) et le téflon (PTFE). Par expansion, il se forme une sorte de mélange avec l'air, où l'atténuation du câble est moins importante.
 
 [question:AG314]
 [question:AG302]
 
-Die durch das Dielektrikum reduzierte Ausbreitungsgeschwindigkeit schlägt sich im Verkürzungsfaktor nieder, der angibt, auf welche Länge ein Kabel mechanisch gekürzt werden muss, damit es elektrisch eine bestimmte Länge aufweist (also z. B. eine viertel Wellenlänge lang ist). Für den Verkürzungsfaktor finden wir in der Formelsammlung folgenden Zusammenhang:
+La vitesse de propagation réduite par le diélectrique se reflète dans le facteur de réduction, qui indique de quelle longueur un câble doit être mécaniquement raccourci pour qu'il présente électriquement une certaine longueur (c'est-à-dire qu'il soit par exemple long d'un quart de longueur d'onde). Pour le facteur de réduction, nous trouvons dans le recueil de formules la relation suivante :
 
 $k_\mathrm{v} = \frac{L_\mathrm{G}}{L_\mathrm{E}} = \frac{1}{\sqrt{\epsilon_\mathrm{r}}}$
 
-Hierbei ist $k_\mathrm{v}$ der Verkürzungsfaktor, $L_\mathrm{G}$ die geometrische ("mechanische") Länge, und $L_\mathrm{E}$ die elektrische Länge. Die relative Dielektrizitätszahl $\epsilon_\mathrm{r}$ ist abhängig vom eingesetzten Dielektrikum. Für nicht-geschäumtes Polyethylen (PE) können wir der Formelsammlung eine Dielektrizitätszahl von $\num{2,29}$ entnehmen.
+Ici, $k_\mathrm{v}$ est le facteur de réduction, $L_\mathrm{G}$ est la longueur géométrique ("mécanique"), et $L_\mathrm{E}$ est la longueur électrique. Le nombre diéléctrique relatif $\epsilon_\mathrm{r}$ dépend du diélectrique utilisé. Pour le polyéthylène (PE) non expansé, nous pouvons trouver dans le recueil de formules un nombre diéléctrique de $\num{2,29}$.
 
 [question:AG317]

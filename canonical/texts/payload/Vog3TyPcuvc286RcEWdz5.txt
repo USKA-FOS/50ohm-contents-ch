@@ -1,30 +1,30 @@
 <left>
-* Zu starkes Audiosignal am Eingang eines Senders $\rightarrow$ Oberschwingungen
-* Links ist in Gelb das erwünschte Signal
-* Rechts davon die unerwünschten Oberschwingungen
+* Signal audio trop fort à l'entrée d'un émetteur $\rightarrow$ harmoniques
+* À gauche, en jaune, se trouve le signal souhaité
+* À droite, les harmoniques indésirables
 </left>
 <right>
-[picture:720:uebersteuerung_ft8:Ein übersteuertes FT8-Signal, ganz links das erwünschte, rechts davon die unerwünschten Oberschwingungen]
+[picture:720:uebersteuerung_ft8:Un signal FT8 surchargé, tout à gauche le signal souhaité, à droite les harmoniques indésirables]
 </right>
 
 ---
 
-* Zu Verzerrungen durch Übersteuerung kann es auch im Sendeverstärker kommen
-* Um das zu verhindern, verfügen viele Funkgeräte über eine automatische Pegelregelung (englisch: Automatic Level Control, ALC) $\rightarrow$ regelt Verstärkung automatisch runter
-* Bei digitalen Übertragungsverfahren kann die ALC jedoch Problemen führen
-* Das Signal könnte je nach Lautstärke oder Frequenz die ALC zu verschiedenen Zeitpunkten unterschiedlich stark auslösen $\rightarrow$ Amplitude wird unerwünscht verändert
+* Des distorsions dues à la surcharge peuvent également se produire dans l'amplificateur d'émission
+* Pour l'éviter, de nombreux appareils radio disposent d'un contrôle automatique du niveau (en anglais : Automatic Level Control, ALC) $\rightarrow$ régule automatiquement l'amplification
+* Cependant, l'ALC peut poser des problèmes dans les procédés de transmission numériques
+* Le signal pourrait, selon le volume ou la fréquence, déclencher l'ALC à des moments différents $\rightarrow$ l'amplitude est modifiée de manière indésirable
 
 <note>
-Das heißt, unser eigentliches Nutzsignal wird zusätzlich amplitudenmoduliert. Dadurch entstehen weitere Frequenzanteile, die als Nebenaussendungen ausgestrahlt werden.
+Cela signifie que notre signal utile est en outre modulé en amplitude. Cela entraîne des composantes de fréquence supplémentaires qui sont émises comme émissions secondaires.
 </note>
 
 ---
 
-* ALC-Probleme hängen von verschiedenen Faktoren ab
-* Übertragungsverfahren
-* Umsetzung der ALC im Transceiver (Reaktions- und Haltezeit)
-* Anzeige der ALC im Transceiver
-* $\rightarrow$ greift die ALC nicht ein, erzeugt sie keine Probleme
+* Les problèmes d'ALC dépendent de divers facteurs
+* Procédés de transmission
+* Mise en œuvre de l'ALC dans l'émetteur-récepteur (temps de réaction et de maintien)
+* Affichage de l'ALC dans l'émetteur-récepteur
+* $\rightarrow$ si l'ALC n'intervient pas, elle ne pose pas de problème
 
 ---
 [question:EJ218]

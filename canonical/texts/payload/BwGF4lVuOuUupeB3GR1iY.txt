@@ -1,25 +1,25 @@
-Multibandantennen, die gezielt auf mehreren Bändern resonant sind, haben wir bereits kennengelernt. Eine besondere Möglichkeit einen Dipol gezielt in einem bestimmten, zusätzlichen Frequenzbereich nutzbar zu machen ist das Einfügen eines Parallelschwingkreises bestehend aus Kondensator und Spule (genannt *Trap* aus dem Englischen für "Falle").  Ein solcher Parallelschwingkreis ist bei seiner Resonanzfrequenz hochohmig, stellt also ein "Hindernis" für Ströme dar. Der Parallelschwingkreis wirkt dann als *Sperrkreis*, der den Stromfluss bei einer gewissen Frequenz dann an dieser Stelle sperrt und den Dipol elektrisch auf die entsprechende Länge begrenzt. Gleichzeitig kann bei Anregung mit tieferer Frequenz aber auch der ganze Dipol schwingen.
+Nous avons déjà rencontré des antennes multibandes qui sont spécifiquement résonantes sur plusieurs bandes. Une possibilité particulière pour rendre un dipôle utilisable de manière ciblée dans une bande de fréquences supplémentaire est l'insertion d'un circuit oscillant parallèle composé d'un condensateur et d'une bobine (appelé *Trap* de l'anglais pour "piège"). Un tel circuit oscillant parallèle est de haute impédance à sa fréquence de résonance, constituant ainsi un "obstacle" pour les courants. Le circuit oscillant parallèle agit alors comme un circuit bouchon, qui bloque le flux de courant à une certaine fréquence à cet endroit et limite électriquement le dipôle à la longueur correspondante. Simultanément, le dipôle entier peut également osciller lors d'une excitation avec une fréquence plus basse.
 
 [question:AG109]
 [question:AG110]
 
-Frequenzen, die über der Resonanzfrequenz eines Schwingkreises liegen, können den entsprechenden Trap zwar passieren, jedoch verkürzt der überwiegend wirkende Kondensator die Antenne ein wenig (die Spule ist für hohe Frequenzen von untergeordneter Bedeutung).
+Les fréquences supérieures à la fréquence de résonance d'un circuit oscillant peuvent traverser le trap correspondant, mais le condensateur, qui domine à ces fréquences, raccourcit légèrement l'antenne (la bobine est de moindre importance pour les hautes fréquences).
 
 [question:AG113]
 
-Betreibt man einen Trap-Dipol auf der Resonanzfrequenz eines der Parallelschwingkreise, dann wirkt der entsprechende Schwingkreis wie bereits erläutert als Sperrkreis und lässt nahezu keinen Strom hindurch. 
+Si l'on exploite un dipôle à trap à la fréquence de résonance de l'un des circuits oscillants parallèles, alors le circuit oscillant correspondant agit, comme expliqué précédemment, comme un circuit bouchon et ne laisse presque aucun courant passer. 
 
 [question:AG112]
 
-Der Dipol verhält sich bei der Resonanzfrequenz der entsprechenden Sperrkreise dann beinahe so, als ob er an der entsprechenden Stelle zu Ende wäre.
+Le dipôle se comporte à la fréquence de résonance des circuits bouchons correspondants presque comme s'il se terminait à l'endroit correspondant.
 
 [question:AG116]
 
-Bei niedrigeren Frequenzen hingegen fließt nur wenig Strom durch den Kondensator und die Wirkung der Spule überwiegt, die dann wie eine Verlängerungsspule für eine elektrische Verlängerung sorgt.
+À des fréquences plus basses, en revanche, peu de courant passe à travers le condensateur et l'effet de la bobine domine, qui agit alors comme une bobine de prolongement pour un prolongement électrique.
 
 [question:AG111]
 
-Durch Einfügen mehrerer Traps lassen sich entsprechend noch mehr Resonanzen erzeugen. Hierbei wird der Resonanzfrequenz des innersten Schwingkreises auf die höchste Frequenz abgestimmt (entsprechend der kürzesten Wellenlänge), der nächst-äußere Schwingkreis auf die nächst-niedrigere Frequenz (also die nächst-längere Wellenlänge) usw.
+En insérant plusieurs traps, on peut générer encore plus de résonances. Dans ce cas, la fréquence de résonance du circuit oscillant le plus interne est accordée sur la fréquence la plus élevée (correspondant à la longueur d'onde la plus courte), le circuit oscillant suivant sur la fréquence suivante la plus basse (c'est-à-dire la longueur d'onde suivante la plus longue), et ainsi de suite.
 
 [question:AG115]
 [question:AG114]

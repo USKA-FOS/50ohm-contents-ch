@@ -3,7 +3,7 @@
     <script src="https://www.50ohm.de/assets/leaflet/leaflet.js"></script>
     <script src="https://www.50ohm.de/assets/leaflet/L.Maidenhead.js"></script>
 
-    Mit dieser interkativen Karte, kann man sich die Maidenhead-Locators anschauen. Wenn du immer weiter Reinzoomst kommst du zur DARC Geschäftsstelle.
+    Avec cette carte interactive, vous pouvez examiner les locateurs Maidenhead. Si vous zoomez davantage, vous arriverez au siège du DARC.
     <div id="map" style="width:100%; min-width: 600px; height: 400px; position: relative;"></div>
 
     <script>

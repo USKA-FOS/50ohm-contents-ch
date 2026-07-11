@@ -1,7 +1,7 @@
-Wie wir im vorigen Kapitel bereits gelernt haben, bezeichnet man den Prozess, der ein analoges zeitkontinuierliches Signal mittels Analog-Digital-Umsetzung (A/D-Umsetzung) in ein digitales Signal (welches aus einzelnen zeitlichen Samples besteht und somit zeitdiskret ist) umsetzt, als Sampling.
+Comme nous l'avons déjà appris dans le chapitre précédent, on désigne par le processus qui convertit un signal analogique continu dans le temps en un signal numérique (qui se compose d'échantillons temporels individuels et est donc temporellement discret) au moyen d'une conversion analogique-numérique (conversion A/N) comme échantillonnage.
 
 [question:AF606]
 
-Die Geschwindigkeit, mit der ein A/D-Umsetzer die Abtastung eines analogen Signals vornimmt, wird auch als Samplingrate bezeichnet. Man definiert die Samplingrate herbei als Abtastungen, die pro Zeiteinheit (z. B. pro Sekunde) vorgenommen werden. Die Angabe erfolgt hierbei in der Einheit Samples/sek. Beispielsweise werden analoge Tonsignale bei digitalen Datenträgern wie CDs oft mit Samplingraten von $\num{44100}$ Samples pro Sekunde vorgenommen. Man gibt dies dann z. B. als $\num{44,1}$ Kilosamples/s oder kurz $\qty{44,1}{\kilo\sps}$ an.
+La vitesse à laquelle un convertisseur A/N effectue l'échantillonnage d'un signal analogique est également appelée taux d'échantillonnage. On définit le taux d'échantillonnage comme étant les échantillons effectués par unité de temps (par exemple par seconde). L'indication se fait ici dans l'unité échantillons/s. Par exemple, les signaux audio analogiques sont souvent échantillonnés à des taux d'échantillonnage de $\num{44100}$ échantillons par seconde sur des supports de données numériques tels que les CD. On indique cela par exemple comme $\num{44,1}$ kiloéchantillons/s ou brièvement $\qty{44,1}{\kilo\sps}$.
 
 [question:AF615]

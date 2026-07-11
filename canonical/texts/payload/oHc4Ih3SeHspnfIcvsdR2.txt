@@ -1,10 +1,10 @@
-Die Frequenz eines VFOs ist von seiner Betriebsspannung (Gleichspannung) direkt abhängig. Dies wird vor allem durch die Abhängigkeit des Arbeitspunktes des Transistors in dessen Oszillator hervorgerufen.
-Zur Erreichung einer möglichst hohen Frequenzstabilität eines VFOs gegenüber Schwankungen in der Betriebsspannung ist diese möglichst gut durch geeignete schaltungstechnische Maßnahmen in deren *Spannung zu stabilisieren*. Die Betriebsspannung eines VFOs sollte daher unabhängig von Betriebsspannungen anderer Stufen sein (stabilisiert) und möglichst gut *gefiltert und entkoppelt* sein.
+La fréquence d'un VFO dépend directement de sa tension de service (tension continue). Cela est principalement dû à la dépendance du point de fonctionnement du transistor dans son oscillateur.
+Pour obtenir une stabilité de fréquence aussi élevée que possible d'un VFO face aux fluctuations de la tension de service, celle-ci doit être stabilisée au mieux par des mesures appropriées de conception de circuit. La tension de service d'un VFO doit donc être indépendante des tensions de service d'autres étages (stabilisée) et doit être filtrée et découplée le plus possible.
 
 [question:AD612]
 [question:AD608]
 [question:AD607]
 
-Bei schlechter Spannungsstabilisierung der Betriebsspannung eines VFOs kann es zu impulsartigen Frequenzsprüngen im Rhythmus der Tastung des Senders kommen. Dies äußert sich insbesondere bei CW-Signalen als sog. *Chirp*, einem zwitschernden Geräusch zu Beginn von Zeichen.
+En cas de mauvaise stabilisation de la tension de service d'un VFO, il peut se produire des sauts de fréquence impulsifs au rythme de la modulation de l'émetteur. Cela se manifeste particulièrement dans les signaux CW par un soi-disant *Chirp*, un bruit de gazouillis au début des caractères.
 
 [question:AD609]

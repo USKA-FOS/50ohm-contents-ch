@@ -1,61 +1,61 @@
 <left>
-[picture:648:n_relaisfunkstellen_aufbau:Schematische Darstellung einer Relaisfunkstelle mit Nutzern]
+[picture:648:n_relaisfunkstellen_aufbau:Représentation schématique d'une station relais avec des utilisateurs]
 </left>
 <right>
-* Ermöglicht eine größere Reichweite als bei direkter Verbindung
-* Meist an exponierten Standorten, z.B. Berggipfeln, Hochhäusern, (Kirch-)Türmen
-* Oder in Satelliten
+* Permet une plus grande portée que lors d'une connexion directe
+* Souvent situé à des endroits exposés, par exemple des sommets de montagnes, des gratte-ciel, (églises-)tours
+* Ou dans des satellites
 </right>
 
 <note>
-* Durch den Berg lässt sich nicht durchfunken
-* Mit dem Relais können beide Funkamateure eine Verbindung aufbauen
-* Mehr zu Satelliten später
+* La montagne ne permet pas de communiquer
+* Avec le relais, les deux radioamateurs peuvent établir une connexion
+* Plus d'informations sur les satellites plus tard
 </note>
 ---
-## Definition Relaisfunkstelle
-eine fernbediente Amateurfunkstelle (auch in Satelliten), die empfangene Amateurfunkaussendungen, Teile davon oder sonstige eingespeiste oder eingespeicherte Signale fernausgelöst aussendet und dabei zur Erhöhung der Erreichbarkeit von Amateurfunkstellen dient
+## Définition de la station relais
+une station radioamateur télécommandée (également dans les satellites), qui émet des émissions radioamateurs reçues, des parties de celles-ci ou d'autres signaux injectés ou stockés, déclenchés à distance, et sert à augmenter la portée des stations radioamateurs
 ---
 <left>
-* Auch kurz genannt: Relais oder Repeater
-* Senden regelmäßig ihr Rufzeichen aus
-* Rufzeichen beginnt in der Regel mit DB0, DM0 oder DO0
+* Aussi appelé brièvement : relais ou répéteur
+* Émet régulièrement son indicatif
+* L'indicatif commence généralement par DB0, DM0 ou DO0
 </left>
 <fragment>
 <right>
-* Relaisfunkstellen werden nicht mit persönlichen Rufzeichen betrieben.
-* Relaisfunkstellen sind üblicherweise nicht ständig besetzt.
-* Relaisfunkstellen müssen nicht zwingend an geografisch exponierten Standorten betrieben werden.
+* Les stations relais ne sont pas exploitées avec des indicatifs personnels.
+* Les stations relais ne sont généralement pas occupées en permanence.
+* Les stations relais n'ont pas besoin d'être exploitées à des endroits géographiquement exposés.
 </right>
 </fragment>
 
 ---
 [question:NF118]
 ---
-## Funktionsweise
+## Fonctionnement
 <left>
-* Empfängt auf der Eingangsfrequenz das Signal einer Amateurfunkstation
-* Strahlt es zeitgleich auf der Ausgabefrequenz aus
-* Damit der Sender nicht stört, sind die Frequenzen meistens unterschiedlich
+* Reçoit sur la fréquence d'entrée le signal d'une station radioamateur
+* Le diffuse simultanément sur la fréquence de sortie
+* Pour que l'émetteur ne gêne pas, les fréquences sont généralement différentes
 </left>
 <right>
 <fragment>
-Den Abstand nennt man *Frequenzablage* oder kurz *Ablage*
+On appelle cet écart *décalage de fréquence* ou simplement *décalage*
 
-| r: Band | r: Ablage |
+| r: Bande | r: Décalage |
 | $\qty{10}{\meter}$ | $\qty{100}{\kilo\hertz}$ |
 | $\qty{2}{\meter}$ | $\qty{600}{\kilo\hertz}$ |
 | $\qty{70}{\centi\meter}$ | $\qty{7,6}{\mega\hertz}$ |
 | $\qty{23}{\centi\meter}$ | $\qty{28}{\mega\hertz}$ |
-[table:n_relaisfunkstellen_ablage:Frequenzablage]
+[table:n_relaisfunkstellen_ablage:Décalage de fréquence]
 </fragment>
 </right>
 
 ---
-Beispiel eines $\qty{70}{\centi\meter}$-Relais:
-* Eingabefrequenz: $\qty{431,275}{\mega\hertz}$
-* Ablage: $\qty{+7,600}{\mega\hertz}$
-* Ausgabefrequenz: $\qty{438,875}{\mega\hertz}$
+Exemple d'un relais de $\qty{70}{\centi\meter}$:
+* Fréquence d'entrée : $\qty{431,275}{\mega\hertz}$
+* Décalage : $\qty{+7,600}{\mega\hertz}$
+* Fréquence de sortie : $\qty{438,875}{\mega\hertz}$
 
 ---
 [question:BE401]
@@ -65,30 +65,30 @@ Beispiel eines $\qty{70}{\centi\meter}$-Relais:
 [question:BE403]
 
 --- indepth
-## Crossband-Betrieb
-* Sendet und empfängt gleichzeitig auf zwei verschiedenen Bändern, z.B. $\qty{2}{\meter}$ und $\qty{70}{\centi\meter}$
-* Umsetzung der Sendeart auch möglich, z.B. SSB auf FM
+## Fonctionnement en bande croisée
+* Émet et reçoit simultanément sur deux bandes différentes, par exemple $\qty{2}{\meter}$ et $\qty{70}{\centi\meter}$
+* Conversion du mode de transmission également possible, par exemple SSB sur FM
 
 ---
 ## Digipeater
-* Vermittelt Daten statt Sprache
-* Empfängt und sendet Datenpakete
-* Aussendung kann nur in Teilen oder zeitversetzt geschehen
-* Datenpakete können wiederholt werden
-* Einzelne Datenfelder können geändert werden
+* Transmet des données au lieu de la parole
+* Reçoit et émet des paquets de données
+* La transmission peut se faire en partie ou en différé
+* Les paquets de données peuvent être répétés
+* Les champs de données individuels peuvent être modifiés
 
 <note>
-* Für Packet Radio, was in den 90ern vor dem Internet beliebt war
-* Kommt später etwas ausführlicher
+* Pour le Packet Radio, qui était populaire dans les années 90 avant Internet
+* Cela sera expliqué plus en détail plus tard
 </note>
 ---
-## Besondere Einstellungen
-* Ggf. sind weitere Einstellungen für die Verbindung zum Relais notwendig
-* Diese Informationen sind in Repeaterverzeichnissen, auf Webseiten oder beim Relaisverantwortlichen erhältlich
-* Neben FM-Repeatern gibt es welche für digitale Sprache wie DMR oder D-Star
+## Paramètres spéciaux
+* Des paramètres supplémentaires peuvent être nécessaires pour la connexion au relais
+* Ces informations sont disponibles dans les annuaires de répéteurs, sur les sites web ou auprès du responsable du relais
+* Outre les répéteurs FM, il existe des répéteurs pour la parole numérique comme DMR ou D-Star
 
 <note>
-Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
+Un exemple de paramètres supplémentaires est un sous-ton avec CTCSS
 </note>
 
 ---
@@ -96,54 +96,54 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 ---
 [question:NE308]
 ---
-## Kanalbandbreite
-* Der benötigte Platz im Frequenzspektrum
-* Wide-FM: $\qty{25}{\kilo\hertz}$
-* Narrow-FM: $\qty{12,5}{\kilo\hertz}$
-* Repeater mögen Narrow-FM, da sonst Signale verzerrt sind und benachbarte Frequenzen gestört werden
+## Largeur de bande de canal
+* L'espace nécessaire dans le spectre de fréquences
+* Wide-FM : $\qty{25}{\kilo\hertz}$
+* Narrow-FM : $\qty{12,5}{\kilo\hertz}$
+* Les répéteurs préfèrent le Narrow-FM, sinon les signaux sont déformés et les fréquences voisines sont perturbées
 
 ---
 [question:BE407]
 ---
-## Störungsfreier Betrieb
-* Grundsätzlich können alle Funkamateure mit ihrem zugeteilten Rufzeichen fernbediente Amateurfunkstellen nutzen
-* Betreiber kann zur Sicherstellung des störungsfreien Betriebs Funkamateure ausschließen
-* Die BNetzA ist hiervon zu unterrichten
+## Fonctionnement sans perturbation
+* En principe, tous les radioamateurs peuvent utiliser les stations radioamateurs télécommandées avec leur indicatif attribué
+* L'exploitant peut exclure les radioamateurs pour assurer le fonctionnement sans perturbation
+* L'autorité compétente doit en être informée
 
 ---
 [question:VD504]
 ---
-## Funkbetrieb auf Repeatern
-* Kurze Durchgänge
-* Mobile und portable Stationen sind oft nur kurzzeitig in Empfangsreichweite
-* Pause zwischen den Durchgängen zum Reinmelden anderer Stationen
+## Fonctionnement radio sur les répéteurs
+* Passages courts
+* Les stations mobiles et portables sont souvent temporairement dans la zone de réception
+* Pause entre les passages pour permettre à d'autres stations de se connecter
 
 ---
 [question:BE406]
 ---
 [question:BE404]
 ---
-## Doppeln
-* Bei gleichzeitiger Spracheingabe wird die Aussendung bis zur Unlesbarkeit gestört
-* "Doppeln" durch ordentliche Übergabe vermeiden
-* Aussendung erst dann beginnen, wenn die vorige Station beendet hat
+## Double émission
+* En cas d'entrée simultanée de parole, la transmission est perturbée jusqu'à devenir illisible
+* Éviter le "doublement" par une remise correcte
+* Commencer la transmission seulement lorsque la station précédente a terminé
 
 ---
 [question:NE310]
 ---
 [question:BE405]
 ---
-## Sendeleistung
-* Nach Anlage 1 der AFuV
-* Für automatische Station oberhalb von $\qty{30}{\mega\hertz}$ mit $\qty{50}{\watt}$ ERP
+## Puissance d'émission
+* Selon l'annexe 1 de l'AFuV
+* Pour les stations automatiques au-dessus de $\qty{30}{\mega\hertz}$ avec $\qty{50}{\watt}$ ERP
 
 ---
 [question:VD503]
 ---
 ## Rapport
-* Empfangene Signalstärke (S) ist die des Relais
-* Es wird darauf verzichtet
-* Nur die Lesbarkeit (R) wird im Rapport beurteilt
+* L'intensité du signal reçu (S) est celle du relais
+* On y renonce
+* Seule la lisibilité (R) est évaluée dans le rapport
 
 ---
 [question:BE408]

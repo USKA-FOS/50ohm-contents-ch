@@ -1,7 +1,7 @@
-* Stromschlag vermeiden!
-* An anerkannte Regeln der Technik halten
-* Vom Verband der Elektrotechnik Elektronik und Informationstechnik e. V. (VDE)
-* Schutz von Menschen, Tieren und Sachen
+* Éviter les chocs électriques!
+* Respecter les règles techniques reconnues
+* De l'Association pour l'électrotechnique, l'électronique et les technologies de l'information (VDE)
+* Protection des personnes, des animaux et des biens
 
 ---
 
@@ -9,16 +9,16 @@
 
 ---
 
-## Gefährliche Spannung
+## Tension dangereuse
 
-* Wechselspannung (AC) über $\qty{50}{\volt}$
-* Gleichspannung (DC) über $\qty{120}{\volt}$
-* Darunter kommt es zu keinen lebensbedrohlichen Beeinträchtigungen des menschlichen Körpers
+* Tension alternative (AC) supérieure à $\qty{50}{\volt}$
+* Tension continue (DC) supérieure à $\qty{120}{\volt}$
+* En dessous, il n'y a pas d'altération dangereuse pour la vie du corps humain
 
 <note>
-* Der Grund für unterschiedliche Werte hängt mit den unterschiedlichen Auswirkungen auf den Körper zusammen
-* Wechselspannung kann den Herzrhythmus beeinflussen
- * Gleichspannung führt eher zu Verbrennungen
+* La raison des valeurs différentes est liée aux effets différents sur le corps
+* La tension alternative peut influencer le rythme cardiaque
+ * La tension continue entraîne plutôt des brûlures
 </note>
 
 ---
@@ -27,34 +27,34 @@
 
 ---
 
-## Stromunfälle
+## Accidents électriques
 
 <left>
-* Abhängig von Stromstärke und Dauer des Stromflusses
-* Weg durch den Körper
-* Ab $\qty{30}{\milli\ampere}$ lebensgefährliche Schäden
+* Dépend de l'intensité du courant et de la durée du flux de courant
+* Chemin à travers le corps
+* À partir de $\qty{30}{\milli\ampere}$ dommages mortels
 </left>
 <right>
-[picture:681:n_fehlerstrom:Stromschlag / Körperdurchströmung]
+[picture:681:n_fehlerstrom:Choc électrique / passage du courant dans le corps]
 </right>
 
 ---
 
-### Auswirkungen auf den Körper
+### Effets sur le corps
 
-* *Herzrhythmusstörungen*, Herzkammerflimmern oder Herzstillstand, insbesondere bei einem Stromweg im Brustbereich
-* *Verbrennungen*, meist an den Ein- und Austrittstellen des elektrischen Stroms
-* *Verkrampfen der Muskulatur*
-* *Sekundärunfälle* wie einen Sturz, verursacht durch den hervorgerufenden Schreck oder eine Muskelverkrampfung
-* Zusätzlich *(Stör-)Lichtbogen* mit hellem Leuchten über die Luft möglich
+* *Troubles du rythme cardiaque*, fibrillation ventriculaire ou arrêt cardiaque, en particulier avec un trajet de courant dans la région thoracique
+* *Brûlures*, généralement aux points d'entrée et de sortie du courant électrique
+* *Contracture musculaire*
+* *Accidents secondaires* tels qu'une chute, causée par la frayeur ou une contracture musculaire
+* En outre, *(arc) lumière* avec une lumière vive possible sur l'air
 
 ---
 
-### Gefahr beim Öffnen von Geräten
+### Danger lors de l'ouverture des appareils
 
-* Kondensatoren können hohe Spannungen speichern
-* Es können in abgeschalteten Geräten noch gefährliche Spannungen anliegen
-* Beim Öffnen von Geräten erfahrenen Funkamateur oder Elektrofachkraft zu Hilfe holen
+* Les condensateurs peuvent stocker des tensions élevées
+* Des tensions dangereuses peuvent encore être présentes dans les appareils éteints
+* Faire appel à un radioamateur expérimenté ou à un électricien professionnel pour ouvrir les appareils
 
 ---
 
@@ -66,14 +66,14 @@
 
 ---
 
-### Erste Hilfe
+### Premiers secours
 
-* In den ersten Minuten entscheidend für die Schwere der Unfallfolgen
-* Unbedingt Arzt aufsuchen
-* Herzrhythmusstörungen und Herzkammerflimmern können Stunden nach dem Unfall auftreten
+* Dans les premières minutes, décisif pour la gravité des conséquences de l'accident
+* Consulter absolument un médecin
+* Les troubles du rythme cardiaque et la fibrillation ventriculaire peuvent survenir des heures après l'accident
 
 <note>
-Der Arzt kann mit einem Elektrokardiogramm (EKG) den Herzschlag überprüfen
+Le médecin peut vérifier le rythme cardiaque avec un électrocardiogramme (ECG)
 </note>
 
 ---
@@ -82,11 +82,11 @@ Der Arzt kann mit einem Elektrokardiogramm (EKG) den Herzschlag überprüfen
 
 --- style="font-size: smaller;"
 
-### 5 Sicherheitsregeln in der Elektrotechnik
+### 5 règles de sécurité en électricité
 
-1. *Freischalten*, z. B. Gerät ausschalten
-2. *Gegen Wiedereinschalten sichern*, z. B.  Stecker ziehen
-3. *Spannungsfreiheit feststellen*, z. B. mit einem Multimeter messen
-4. *Erden und Kurzschließen*, z. B. das Gehäuse und Zuleitungen erden
-5. *Benachbarte, unter Spannung stehende Teile abdecken oder abschranken* (findet bei einzelnen Geräten meist keine Anwendung)
+1. *Mise hors tension*, par exemple, éteindre l'appareil
+2. *Protection contre la remise sous tension*, par exemple, débrancher la fiche
+3. *Vérification de l'absence de tension*, par exemple, mesurer avec un multimètre
+4. *Mise à la terre et court-circuit*, par exemple, mettre à la terre le boîtier et les câbles d'alimentation
+5. *Couvrir ou délimiter les parties voisines sous tension* (ne s'applique généralement pas aux appareils individuels)
 

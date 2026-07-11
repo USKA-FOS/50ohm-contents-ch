@@ -1,11 +1,11 @@
-%YPA: welche Rufzeichen sollen wir verwenden für die Beispiele? M/N, B/P, A/H sind gute Beispiel die man anwenden kann
+%YPA: quels indicateurs d'appel devons-nous utiliser pour les exemples? M/N, B/P, A/H sont de bons exemples que l'on peut appliquer
 
-Hört man sich die Rufzeichen DM4EAX und DN4EAX gesprochen an, so ist es schwer, die Buchstaben M und N akustisch voneinander zu unterscheiden. Gerade bei einem leisen oder verrauschten Empfang kann es hier schnell zu Missverständnissen kommen. Aus diesem Grund wird im Amateurfunk eine Buchstabiertafel [index:Buchstabiertafel] eingesetzt, bei der jedem Buchstaben genau ein englischsprachiges Wort zugeordnet ist. Anstelle der Buchstaben spricht man jeweils das entsprechende Wort. Aus DM4EAX wird *Delta Mike Vier Echo Alfa X-Ray* und aus DN4EAX wird *Delta November Vier Echo Alfa X-Ray*. Jetzt sind die beiden Rufzeichen gut unterscheidbar.
+Si l'on écoute les indicateurs d'appel DM4EAX et DN4EAX prononcés, il est difficile de distinguer les lettres M et N acoustiquement. Même avec une réception faible ou bruyante, cela peut rapidement entraîner des malentendus. C'est pourquoi, en radioamateur, on utilise un alphabet phonétique [index:alphabet phonétique] dans lequel chaque lettre est associée à un mot précis en anglais. Au lieu des lettres, on prononce le mot correspondant. DM4EAX devient *Delta Mike Quatre Echo Alfa X-Ray* et DN4EAX devient *Delta November Quatre Echo Alfa X-Ray*. Maintenant, les deux indicateurs d'appel sont bien distincts.
 
-Es gibt verschiedene Buchstabiertafeln, z. B. die deutsche, die österreichische oder die schweizerische Buchstabiertafel, die unterschiedliche Wörter benutzen. Funkamateure verwenden für die Nennung des Rufzeichens die internationale Buchstabiertafel der ITU. Die Internationale Fernmeldeunion (International Telecommunication Union, kurz ITU) führte erstmals 1927 eine internationale Buchstabiertafel [index:Buchstabiertafel:Internationale] ein und passte sie im Laufe der Zeit mehrfach an. Die heute gültige internationale Buchstabiertafel ist im Anhang 14 der Radio Regulations (RR) festgelegt, die von der ITU herausgegeben werden. Sie ist in der Tabelle [ref:n_buchstabiertafel] wiedergegeben. Diese wird nicht nur im Amateurfunk, sondern unter anderem auch in der Luftfahrt und von der NATO verwendet.
+Il existe différentes tables d'alphabet phonétique, par exemple l'alphabet phonétique allemand, autrichien ou suisse, qui utilisent des mots différents. Les radioamateurs utilisent l'alphabet phonétique international de l'ITU pour la mention de l'indicateur d'appel. L'Union internationale des télécommunications (International Telecommunication Union, abrégé en ITU) a introduit pour la première fois un alphabet phonétique international [index:alphabet phonétique:International] en 1927 et l'a adapté à plusieurs reprises au fil du temps. L'alphabet phonétique international actuellement en vigueur est défini dans l'annexe 14 des Règlements radioélectriques (RR), publiés par l'ITU. Il est reproduit dans le tableau [ref:n_buchstabiertafel]. Celui-ci est utilisé non seulement en radioamateur, mais entre autres aussi dans l'aviation et par l'OTAN.
 
 <margin>
-| c: Buchstabe | l: Wort | X: Aussprache |
+| c: Lettre | l: Mot | X: Prononciation |
 | A | Alfa | AL-FA |
 | B | Bravo | BRA-WO |
 | C | Charlie | TSCHA-LI |
@@ -32,23 +32,23 @@ Es gibt verschiedene Buchstabiertafeln, z. B. die deutsche, die österreichische
 | X | X-ray | ÄX-RÄI |
 | Y | Yankee | JENG-KI |
 | Z | Zulu | SUH-LUH |
-[table:n_buchstabiertafel:Die ITU-Buchstabiertafel]
+[table:n_buchstabiertafel:L'alphabet phonétique de l'ITU]
 </margin>
 
-%YPA Achtung bei Übersetzung: Folgezeile 38 der Sprache (F&I) anpassen!
-Die Buchstabiertafel enthält jedoch keine Ziffern [index:Buchstabiertafel:Ziffern]. Im nationalen Funkverkehr spricht man Ziffern auf Deutsch aus, z. B. Delta Mike *Vier* Echo Alpha X-ray. Im internationalen Funkverkehr wird die englische Sprache verwendet, z. B. Delta Mike *Four* Echo Alfa X-ray.
+%YPA Attention lors de la traduction: adapter la ligne suivante 38 de la langue (F&I)!
+L'alphabet phonétique ne contient cependant pas de chiffres [index:alphabet phonétique:Chiffres]. Dans les communications radio nationales, les chiffres sont prononcés en allemand, par exemple Delta Mike *Vier* Echo Alpha X-ray. Dans les communications radio internationales, on utilise la langue anglaise, par exemple Delta Mike *Four* Echo Alfa X-ray.
 
-Die Buchstabiertafel kann natürlich auch verwendet werden, um andere Wörter zu buchstabieren, z. B. einen Namen oder eine Ortsangabe. Die internationale Buchstabiertafel enthält jedoch keine deutschen Umlaute[index:Buchstabiertafel:Umlaute]. Daher wird das Ä als "Alfa Echo", das Ö als "Oscar Echo", das Ü als "Uniform Echo" buchstabiert.
+L'alphabet phonétique peut bien sûr aussi être utilisé pour épeler d'autres mots, par exemple un nom ou une indication de lieu. L'alphabet phonétique international ne contient cependant pas de voyelles allemandes [index:alphabet phonétique:Voyelles]. C'est pourquoi le Ä est épelé comme "Alfa Echo", le Ö comme "Oscar Echo", et le Ü comme "Uniform Echo".
 
-Die internationale Buchstabiertafel muss man auswendig lernen. Am Anfang kann das etwas schwerfallen, je mehr man die Buchstabiertafel anwendet, umso flüssiger wird es.
+L'alphabet phonétique international doit être appris par cœur. Au début, cela peut être un peu difficile, mais plus on l'utilise, plus cela devient fluide.
 
 <tip>
-In der Praxis wird bei der Rufzeichennennung auch mit anderen Möglichkeiten variiert, z. B. Nancy, Sugar, Ocean und Queen. Das ist zulässig und wird vorallem gemacht um die Verständlichkeit zu erhöhen. Zum Beispiel wenn mehrfach zurückgefragt wird und man offensichtlich nicht richtig verstanden wird.
+En pratique, lors de la mention de l'indicateur d'appel, on varie aussi avec d'autres possibilités, par exemple Nancy, Sugar, Ocean et Queen. Cela est autorisé et est fait surtout pour améliorer la compréhensibilité. Par exemple, si l'on demande plusieurs fois de répéter et que l'on comprend manifestement pas correctement.
 </tip>
 
 
 
-%TODO stroke erklären
+%TODO expliquer le trait
 
 [question:BA103]
 [question:BA104]

@@ -1,83 +1,83 @@
-Beim Betrieb von Sendern – insbesondere von leistungsstarken Sendern – kann es zu verschiedenen Beeinflussungen elektronischer Geräte und Anlagen kommen. Solche *störenden Beeinflussungen* und einige grundlegende Handlungshinweise haben wir bereits in der Klasse N kennengelernt. Ziel ist es, diese Beeinflussungen möglichst zu vermeiden oder ihre Ursachen durch geeignete Gegenmaßnahmen zu beseitigen. In dieser Lektion wollen wir uns Ursachen und Gegenmaßnahmen genauer ansehen. Grundsätzlich können elektronische Geräte auf zwei Arten beeinflusst werden:
+Lors de l'exploitation d'émetteurs – en particulier d'émetteurs puissants – diverses interférences d'appareils et d'installations électroniques peuvent survenir. Nous avons déjà abordé ces *interférences perturbatrices* et quelques conseils de base dans la classe N. L'objectif est d'éviter ces interférences autant que possible ou d'éliminer leurs causes par des contre-mesures appropriées. Dans cette leçon, nous allons examiner plus en détail les causes et les contre-mesures. En principe, les appareils électroniques peuvent être influencés de deux manières:
 
-- *Einstrahlung* liegt vor, wenn Hochfrequenz über die Empfangsantenne (Abbildung [ref:e_antenne_einstrahlung]) oder wegen eines ungenügend geschirmten Gehäuses (Abbildung [ref:e_direkteinstrahlung]) direkt in die Elektronik eines Gerätes gelangt und dort zu Beeinflussungen führt.
-- *Einströmungen* liegen vor, wenn Hochfrequenz über Leitungen oder Kabel in ein Gerät gelangen wie z.B. über die Netzzuleitung, Antennenzuleitung, Lautsprecherkabel etc. (Abbildung [ref:e_einstroemung])
+- *Irradiation* est présente lorsque les hautes fréquences parviennent directement dans l'électronique d'un appareil via l'antenne de réception (figure [ref:e_antenne_einstrahlung]) ou en raison d'un boîtier insuffisamment blindé (figure [ref:e_direkteinstrahlung]) et y provoquent des interférences.
+- *Intrusions* sont présentes lorsque les hautes fréquences pénètrent dans un appareil via des lignes ou des câbles, comme par exemple via la ligne d'alimentation, la ligne d'antenne, les câbles de haut-parleur, etc. (figure [ref:e_einstroemung])
 
 <margin>
-[picture:744:e_antenne_einstrahlung:Einstrahlung über die Empfangsantenne]
-[picture:746:e_direkteinstrahlung:Direkteinstrahlung in ein Gerät]
-[picture:747:e_einstroemung:Einströmung über Anschlussleitungen]
+[picture:744:e_antenne_einstrahlung:Irradiation via l'antenne de réception]
+[picture:746:e_direkteinstrahlung:Irradiation directe dans un appareil]
+[picture:747:e_einstroemung:Intrusion via les lignes de connexion]
 </margin>
 
 [question:EJ102]
 [question:EJ101]
 
-Auch beim gesetzeskonformen Betrieb eines Senders können bei Empfängern in unmittelbarer Nachbarschaft Beeinflussungen beim Empfang anderer Frequenzen auftreten. Durch hohe Sendeleistungen von Amateurfunkstationen sowie den Einsatz von Antennen mit hohem Gewinn können lokal und im Strahlungsbereich der Antennen sehr hohe Feldstärken auftreten. Diese können Empfänger und deren Empfangsstufen übersteuern, was zu einer Verringerung der Empfängerempfindlichkeit bis hin zur vollständigen Blockierung des Empfangs führen kann. Dies kann beispielsweise dazu führen, dass Garagentorsteuerungen nicht mehr wie gewohnt funktionieren. Oft werden auch LED-Leuchten, welche über kapazitive Sensoren gesteuert werden, von Aussendungen beeinflusst. Hierbei spricht man von *Übersteuerung* oder *störender Beeinflussung* von Geräten. 
+Même lors de l'exploitation conforme à la loi d'un émetteur, des interférences peuvent survenir dans les récepteurs situés à proximité immédiate lors de la réception d'autres fréquences. En raison des puissances d'émission élevées des stations de radioamateurs ainsi que de l'utilisation d'antennes à gain élevé, des intensités de champ très élevées peuvent se produire localement et dans la zone de rayonnement des antennes. Celles-ci peuvent surcharger les récepteurs et leurs étages de réception, ce qui peut entraîner une réduction de la sensibilité du récepteur jusqu'au blocage complet de la réception. Cela peut par exemple entraîner que les commandes de portes de garage ne fonctionnent plus comme d'habitude. Souvent, les lumières LED, qui sont commandées par des capteurs capacitifs, sont également influencées par les émissions. Dans ce cas, on parle de *surcharge* ou d'*interférence perturbatrice* des appareils.
 
 [question:EJ106]
 [question:EJ107]
 [question:EJ103]
 [question:EJ112]
 
-Oft werden störende Beeinflussungen in der Nachbarschaft mit dem Betrieb einer Amateurfunkstation in Verbindung gebracht. Für den Nachweis eines evtl. Zusammenhangs durch Aussendungen der Amateurfunkstation ist die Auswertung und ggf. Führung eines Logbuchs über getätigte Aussendungen und Verbindungen sehr hilfreich. Hierdurch kann auch ggf. ausgeschlossen werden, dass vermutete Beeinflussungen in der Nachbarschaft auf die Amateurfunkstelle zurückzuführen sind.
+Souvent, les interférences perturbatrices dans le voisinage sont associées à l'exploitation d'une station de radioamateur. Pour prouver un éventuel lien avec les émissions de la station de radioamateur, l'évaluation et éventuellement la tenue d'un journal de bord des émissions et des liaisons effectuées sont très utiles. Cela permet également d'exclure que les interférences supposées dans le voisinage soient imputables à la station de radioamateur.
 
 [question:EJ122]
 
-Der Funkamateur sollte in der Nachbarschaft hierbei in kooperativer Weise und lösungsorientiert unterstützen bzw. auch Vorschläge für eine Abhilfe unterbreiten. Oft lassen sich Probleme im direkten Gespräch einfacher lösen als unter Einschaltung von Behörden. Erst wenn alle Bemühungen fehlgeschlagen sind, kann die zuständige Außenstelle der Bundesnetzagentur um eine Prüfung der Gegebenheiten gebeten werden. Dies sollte allerdings wirklich das letzte Mittel der Problemlösung sein.
+Le radioamateur devrait, dans le voisinage, soutenir de manière coopérative et orientée vers la solution ou également proposer des suggestions pour un remède. Souvent, les problèmes peuvent être résolus plus facilement en conversation directe qu'en impliquant les autorités. Ce n'est que lorsque toutes les tentatives ont échoué que l'on peut demander à l'antenne locale de la Bundesnetzagentur de vérifier les conditions. Cela devrait toutefois vraiment être le dernier recours pour résoudre le problème.
 
 [question:EJ124]
 [question:VN004]
 
-Zu diesen Bemühungen zählen verschiedene Maßnahmen, wie zum Beispiel:
+Ces efforts comprennent diverses mesures, telles que par exemple:
 
-%- Reduzierung der Sendeleistung der Amateurfunkanlage % Das sollte das letzte Mittel sein!
-- Abschirmung empfindlicher Geräte oder Leitungen
-- Einbau von Filtern und Mantelwellensperren auf der Empfangsseite des Nachbarn
-- Einrichtung einer wirksamen HF-Erdung
-- Verwendung von Außenantennen für den Empfang
+%- Réduction de la puissance d'émission de l'installation de radioamateur % Cela devrait être le dernier recours !
+- Blindage des appareils ou des lignes sensibles
+- Installation de filtres et de barrières d'ondes enveloppes du côté de la réception du voisin
+- Installation d'une mise à la terre HF efficace
+- Utilisation d'antennes extérieures pour la réception
 
-Diese Maßnahmen wollen wir im Folgenden genauer betrachten.
+Nous allons examiner ces mesures plus en détail ci-dessous.
 
-Damit störende Beeinflussungen von Geräten vermieden werden, sollte ein Funkamateur stets nur die für eine *zufriedenstellende Kommunikation erforderliche Sendeleistung* für seine Aussendungen verwenden.
+Pour éviter les interférences perturbatrices des appareils, un radioamateur ne devrait toujours utiliser que la *puissance d'émission nécessaire pour une communication satisfaisante* pour ses émissions.
 
 [question:EJ104]
 [question:EJ105]
 
-Treten in einer Empfangsanlage mehrere starke Empfangssignale gleichzeitig auf (z.B. durch den Empfang eines lokalen TV-Senders und einer starken Amateurfunkstation in der Nachbarschaft) können im Empfänger unerwünschte Harmonische und deren Mischprodukte durch die Übersteuerung der Empfangsstufen des Empfängers entstehen. Dies nennt man *Intermodulation*. Durch Intermodulation werden *Phantomsignale* hervorgerufen, die nur bei Vorhandensein der beteiligten Signale entstehen.
+Si plusieurs signaux reçus forts apparaissent simultanément dans une installation de réception (par exemple par la réception d'un émetteur de télévision local et d'une station de radioamateur puissante à proximité), des harmoniques indésirables et leurs produits de mélange peuvent être générés dans le récepteur par la surcharge des étages de réception du récepteur. On appelle cela *intermodulation*. L'intermodulation provoque des *signaux fantômes* qui ne se produisent qu'en présence des signaux impliqués.
 
 [question:EJ120]
 
-Selbst in einer abgeschalteten Stereoanlage können starke HF-Signale durch Gleichrichtung in der NF-Endstufe an nichtlinearen Bauteilen wie Transistoren zu hörbaren Geräuschen in den Lautsprechern führen. Auch korrodierte Kontakte zwischen Metallen (Metall-Oxide) haben die Eigenschaft, dass sie Gleichricht-Effekte durch Nichlinearitäten  bilden können. Hierdurch können bei Aussendungen der Amateurfunkstation unerwünschte Mischprodukte auf der Sende- oder der Empfangsseite entstehen, die zu einer störenden Beeinflussung des Fernseh- und Rundfunkempfangs führen können.
+Même dans une installation stéréo éteinte, des signaux HF puissants peuvent, par redressement dans l'étage final BF, provoquer des bruits audibles dans les haut-parleurs sur des composants non linéaires tels que les transistors. Les contacts corrodés entre métaux (oxydes métalliques) ont également la propriété de pouvoir former des effets de redressement par des non-linéarités. Cela peut entraîner, lors des émissions de la station de radioamateur, des produits de mélange indésirables du côté de l'émission ou de la réception, qui peuvent perturber la réception de la télévision et de la radio.
 
 [question:EJ113]
 [question:EJ121]
 
 
-Nicht alle störenden Beeinflussungen lassen sich durch Maßnahmen auf der Sendeseite beheben. Oft ist auch das beeinflusste Gerät selbst nicht für den jeweiligen Einsatzort geeignet, erfüllt geltende gesetzliche Vorgaben nicht oder Zuleitungen und Abschirmungen sind nicht ausreichend gegen hochfrequente Einstrahlungen oder Einströmungen dimensioniert. In solchen Fällen bietet es sich an, Betroffenen Maßnahmen vorzuschlagen, so dass die Probeleme behoben werden können.
+Toutes les interférences perturbatrices ne peuvent pas être éliminées par des mesures du côté de l'émission. Souvent, l'appareil lui-même influencé n'est pas adapté à l'endroit d'utilisation respectif, ne respecte pas les prescriptions légales en vigueur ou les lignes d'alimentation et les blindages ne sont pas dimensionnés de manière suffisante contre les irradiations ou les intrusions à haute fréquence. Dans de tels cas, il est conseillé de proposer aux personnes concernées des mesures afin que les problèmes puissent être résolus.
 
-Eine mögliche Maßnahme besteht darin, HF-Baugruppen möglichst durch ein geschlossenes Metallgehäuse zu schirmen.
+Une mesure possible consiste à blinder les modules HF autant que possible par un boîtier métallique fermé.
 
 [question:EJ108]
 
-Befindet sich eine Kurzwellen-Sendeantenne in der Nähe und parallel zu einer $\qty{230}{\volt}$-Wechselstromleitung, können Hochfrequenzströme in das Stromnetz eingekoppelt werden. Um Beeinflussungen im eigenen Haus möglichst gering zu halten, empfiehlt es sich, für Sendeantennen eine separate HF-Erdleitung zu verwenden.
+Si une antenne d'émission à ondes courtes se trouve à proximité et parallèlement à une ligne de courant alternatif de $\qty{230}{\volt}$, des courants à haute fréquence peuvent être couplés dans le réseau électrique. Pour minimiser les interférences dans sa propre maison, il est recommandé d'utiliser une ligne de terre HF séparée pour les antennes d'émission.
 
 [question:EJ109]
 [question:EJ111]
 
-Eine weitere Möglichkeit ist der *Einbau von Filtern in Zuleitungen von Geräten* sowie *Mantelwellen-Sperren (Verdrosselung)* von Zuleitungen.
+Une autre possibilité est l'*installation de filtres dans les lignes d'alimentation des appareils* ainsi que *les barrières d'ondes enveloppes (inductance)* des lignes d'alimentation.
 
-Insbesondere Filter können auf der Seite des beeinflussten Gerätes (TV, DVB-T2-Empfänger, DAB-Empfänger etc.) in den Empfangspfad eingebaut werden. So kann beispielsweise die Feldstärke eines Amateurfunk-Kurzwellensenders (z. B. im Bereich von $\qtyrange{3}{30}{\mega\hertz}$) den TV-Empfang (z. B. $\qtyrange{470}{690}{\mega\hertz}$) beeinflussen. Durch den Einbau eines Hochpassfilters lässt sich der Einfluss des Amateurfunksendesignals deutlich verringern: Frequenzanteile außerhalb des TV-Empfangsbereichs – in diesem Beispiel also die Kurzwelle – werden unterdrückt, sodass die Empfangsstufen des Geräts nicht mehr übersteuert werden können.
+En particulier, des filtres peuvent être installés du côté de l'appareil influencé (TV, récepteur DVB-T2, récepteur DAB, etc.) dans le chemin de réception. Ainsi, par exemple, l'intensité de champ d'un émetteur d'ondes courtes de radioamateur (par exemple dans la plage de $\qtyrange{3}{30}{\mega\hertz}$) peut influencer la réception TV (par exemple $\qtyrange{470}{690}{\mega\hertz}$). En installant un filtre passe-haut, l'influence du signal d'émission de radioamateur peut être considérablement réduite : les composantes de fréquence en dehors de la plage de réception TV – dans cet exemple, donc les ondes courtes – sont supprimées, de sorte que les étages de réception de l'appareil ne peuvent plus être surchargés.
 
 [question:EJ116]
 [question:EJ117]
 
-Oft wird das Sendesignal einer Amateurfunkstation in örtlicher Nähe zu anderen Geräten über den Schirm von Koaxialkabeln oder Zuleitungen in gestörte Empfänger oder Geräte eingekoppelt. Wenn es hierbei zu beeinflussungen kommt sollte auf den Zuleitungen zum beeinflussten Gerät ein sog. *Mantelwellensperre* installiert werden. Eine Mantelwellensperre blockiert *Gleichtaktströme* auf dem Mantel und dem Innenleiter des beeinflussten Gerätes. Als Mantelwellensperren werden typischerweise Ringkerne oder Klappringkerne aus Ferrit verwendet. Eine weitere Möglichkeit, um Beeinflussungen bei Steuerleitungen von elektrischen Anlagen und Geräten zu vermeiden ist die Verwendung von geschirmten Steuerkabeln (z.B. bei Türsprechanlagen, Telefonleitungen etc.)
+Souvent, le signal d'émission d'une station de radioamateur à proximité locale est couplé dans des récepteurs ou des appareils perturbés via le blindage des câbles coaxiaux ou des lignes d'alimentation. Si des interférences se produisent, une soi-disant *barrière d'ondes enveloppes* doit être installée sur les lignes d'alimentation de l'appareil influencé. Une barrière d'ondes enveloppes bloque les *courants symétriques* sur le blindage et le conducteur intérieur de l'appareil influencé. Des noyaux toroïdaux ou des noyaux en ferrite sont typiquement utilisés comme barrières d'ondes enveloppes. Une autre possibilité pour éviter les interférences dans les lignes de commande d'installations et d'appareils électriques est l'utilisation de câbles de commande blindés (par exemple pour les installations d'interphone, les lignes téléphoniques, etc.)
 
 [question:EJ118]
 [question:EJ119]
 [question:EJ115]
 [question:EJ114]
 
-%Auch schlechte Empfangsverhältnisse auf Seiten des beeinflussten Gerätes (z.B. TV-Zimmerantenne für Empfang) können leichter zu Beeinflussungen im %Empfang führen. Eine mögliche Gegenmaßnahme wäre die Verwendung einer Außenantenne ggf. mit entsprechenden Vorfiltern.
+%Les mauvaises conditions de réception du côté de l'appareil influencé (par exemple une antenne de chambre TV pour la réception) peuvent plus facilement conduire à des interférences dans la %réception. Une contre-mesure possible serait l'utilisation d'une antenne extérieure éventuellement avec des préfiltres correspondants.
 
 %[question:EJ123]

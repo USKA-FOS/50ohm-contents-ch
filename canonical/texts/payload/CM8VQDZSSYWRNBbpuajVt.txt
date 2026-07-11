@@ -1,12 +1,12 @@
-Für Spulen mit bekanntem $A_L$-Wert gilt:
+Pour les bobines avec une valeur connue de $A_L$:
 
 $L = N^2 \cdot A_L $
 
-mit:
+avec:
 - $A_L = \qty{1250}{\nano\henry}$
 - $N = 300$
 
-Einsetzen ergibt:
+En insérant, on obtient:
 
 $L = 300^2 \cdot \qty{1250}{\nano\henry} $
 

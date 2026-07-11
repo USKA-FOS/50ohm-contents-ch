@@ -1,15 +1,15 @@
-Bei der Informationsübertragung unterscheidet man grundsätzlich zwischen *analogen* und *digitalen* Verfahren. Digital bedeutet, dass etwas in Stufen erfolgt, also nur bestimmte Werte annehmen kann und keine Werte dazwischen kennt (Abbildung [ref:n_digital_einleitung_digitales_signal]). Analog hingegen steht dafür, dass etwas kontinuierlich ist, also auch beliebige Zwischenwerte annehmen kann [ref:n_digital_einleitung_analoges_signal]).
+Dans la transmission d'informations, on distingue fondamentalement entre les procédés *analogiques* et *numériques*. Numérique signifie que quelque chose se fait par paliers, donc ne peut prendre que certaines valeurs et ne connaît pas de valeurs intermédiaires (figure [ref:n_digital_einleitung_digitales_signal]). Analog signifie, en revanche, que quelque chose est continu, donc peut également prendre des valeurs intermédiaires [ref:n_digital_einleitung_analoges_signal]).
 
 <margin>
-[picture:411:n_digital_einleitung_digitales_signal:Digitales Signal (abgestuft)]
+[picture:411:n_digital_einleitung_digitales_signal:Signal numérique (étagé)]
 </margin>
 
 <margin>
-[picture:408:n_digital_einleitung_analoges_signal:Analoges Signal (kontinuierlich)]
+[picture:408:n_digital_einleitung_analoges_signal:Signal analogique (continu)]
 </margin>
 
-Im Funk kann eine digitale Übertragung z. B. dadurch erreicht werden, dass die Amplitude des gesendeten Trägers nur auf bestimmte Stufen gesetzt wird, beispielsweise $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$, $\qty{100}{\percent}$ der Maximalstärke, aber nicht dazwischen. Viele im Alltag übliche Übertragungsverfahren arbeiten mittlerweile digital, beispielsweise WLAN, LTE oder DVB.
+En radio, une transmission numérique peut être réalisée, par exemple, en réglant l'amplitude de la porteuse émise uniquement sur certains paliers, par exemple $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$, $\qty{100}{\percent}$ de la puissance maximale, mais pas entre les deux. De nombreux procédés de transmission couramment utilisés fonctionnent désormais de manière numérique, par exemple le WLAN, la LTE ou la DVB.
 
 %<indepth>
-%Der Vorteil digitaler Verfahren liegt darin, dass kleine Fehler bei der Übertragung auf der Empfängerseite ausgeglichen werden können. Wird beispielsweise durch eine Störung eine Amplitude nicht als $\qty{25}{\percent}$ der Maximalstärke gemessen, sondern als $\qty{29}{\percent}$, dann kann man annehmen, dass die Amplitude eigentlich $\qty{25}{\percent}$ gewesen sein sollte und den Wert berichtigen.
+%L'avantage des procédés numériques réside dans le fait que de petites erreurs lors de la transmission peuvent être compensées du côté du récepteur. Si, par exemple, une amplitude n'est pas mesurée à $\qty{25}{\percent}$ de la puissance maximale en raison d'une perturbation, mais à $\qty{29}{\percent}$, on peut supposer que l'amplitude aurait dû être $\qty{25}{\percent}$ et corriger la valeur.
 %</indepth>

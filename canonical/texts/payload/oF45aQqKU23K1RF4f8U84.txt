@@ -1,5 +1,5 @@
-Wenn $R_1$ durch eine fehlerhafte Lötstelle keinen Kontakt mehr hat, wird die Basis nicht mehr über den Spannungsteiler mit einer positiven Vorspannung versorgt.
+Si $R_1$ n'a plus de contact en raison d'une soudure défectueuse, la base n'est plus alimentée par un diviseur de tension avec une tension de polarisation positive.
 
-Über $R_2$ liegt die Basis dann praktisch auf Massepotenzial. Dadurch ist die Basis-Emitter-Spannung zu klein, es fließt kein Basisstrom und der Transistor sperrt.
+Par $R_2$, la base est alors pratiquement au potentiel de masse. Ainsi, la tension base-émetteur est trop faible, aucun courant de base ne circule et le transistor est bloqué.
 
-Damit fließt auch kein Kollektorstrom mehr. An $R_C$ fällt keine Spannung ab, sodass die Kollektorspannung auf die Betriebsspannung ansteigt.
+Ainsi, aucun courant de collecteur ne circule plus. Aucune tension ne chute sur $R_C$, de sorte que la tension de collecteur augmente à la tension de service.

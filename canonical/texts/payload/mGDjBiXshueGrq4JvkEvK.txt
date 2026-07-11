@@ -1,17 +1,17 @@
-Wie wir bereits im Kapitel Netzgerät im Klasse N Kurs gelernt haben, sind Sicherungen zum Schutz der Elektronik im Falle eines Kurzschlusses oder Überlast notwendig. Wenn wir nun eine defekte Sicherung ersetzen wollen, ist dies nur nach Reparatur bzw. Überprüfung der abgesicherten Anlagenteile sinnvoll. Bei der Auswahl der Sicherung achten wir dabei auf die gleiche Auslösecharakteristik sowie die Stromstärke.
+Comme nous l'avons déjà appris dans le chapitre Alimentation dans le cours de classe N, les fusibles sont nécessaires pour protéger l'électronique en cas de court-circuit ou de surcharge. Si nous voulons maintenant remplacer un fusible défectueux, cela n'est utile qu'après réparation ou vérification des parties de l'installation protégées. Lors du choix du fusible, nous faisons attention à la même caractéristique de déclenchement ainsi qu'à l'intensité du courant.
 
 [question:EK204]
 
-Unsere Geräte werden meist mit Feinsicherungen, einer Untergruppe der Schmelzsicherungen, geschützt. Es gibt aber verschiedene Arten von Schmelzsicherungen, wie:
+Nos appareils sont généralement protégés par des fusibles fins, un sous-groupe des fusibles à cartouche. Mais il existe différents types de fusibles à cartouche, comme :
 
-* KFZ-Sicherung Flachstecksicherungen
-* TR5 als Sicherung zum auflöten auf die Platine
+* Fusibles automobiles à lame plate
+* TR5 en tant que fusible à souder sur la carte de circuit imprimé
 * Diazed/Neozed
-* Hochspannungssicherungen
+* Fusibles haute tension
 
-Die Abbildung [ref:e_flachstecksicherungen] zeigt Flachstecksicherungen aus dem KFZ-Bereich, die auch im Amateurfunk Anwendung finden. Bei kommerziellen Funkgeräten werden diese Sicherungen mit einem Sicherungshalter (vgl. Abbildung [ref:e_sicherungshalter]) direkt ins Kabel integriert.
+L'image [ref:e_flachstecksicherungen] montre des fusibles à lame plate du domaine automobile, qui trouvent également une application dans le radioamateur. Dans les appareils radio commerciaux, ces fusibles sont intégrés directement dans le câble avec un porte-fusible (voir illustration [ref:e_sicherungshalter]).
 
 <margin>
-[photo:295:e_flachstecksicherungen:Kfz Flachstecksicherungen]
-[photo:294:e_sicherungshalter:Sicherungshalter]
+[photo:295:e_flachstecksicherungen:Fusibles automobiles à lame plate]
+[photo:294:e_sicherungshalter:Porte-fusible]
 </margin>

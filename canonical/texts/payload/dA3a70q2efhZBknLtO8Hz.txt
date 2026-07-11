@@ -1,13 +1,13 @@
-# Lösung über Ausschlussverfahren
-Es hilft zu erkennen, dass es sich hier um den im Kapitel "Demodulator" dargestellten Hüllkurvendemodulator handelt.  
-Auf der linken Seite der Schaltung ist zu sehen, dass dort das ZF-Signal am Eingang der Schaltung anliegt.  
-$\rightarrow$ Damit fällt die Antwort "Der Ausgang für das ZF-Signal." weg.
+# Solution par exclusion
+Il est utile de reconnaître qu'il s'agit ici du démodulateur à enveloppe décrit dans le chapitre "Démodulateur".
+Sur le côté gauche du circuit, on peut voir que le signal ZF est appliqué à l'entrée du circuit.
+$\rightarrow$ Ainsi, la réponse "La sortie pour le signal ZF" est éliminée.
 
-Der Anschluss $\text{X}$ liegt hinter einem RC-Tiefpassfilter, der mit einem Elektrolytkondensator (zu erkennen am kleinen "+") aufgebaut ist. Elektrolytkondensatoren haben eine relativ hohe Kapazität. Für den Zusammenhang von Grenzfrequenz ($f_\text{g}$) und Kapazität ($C$) betrachten wir die Formel (Filter, RC-Tiefpass) aus der Formelsammlung: 
+La connexion $\text{X}$ se trouve derrière un filtre passe-bas RC, qui est construit avec un condensateur électrolytique (reconnaissable au petit "+"). Les condensateurs électrolytiques ont une capacité relativement élevée. Pour la relation entre la fréquence de coupure ($f_\text{g}$) et la capacité ($C$), nous considérons la formule (Filtre, passe-bas RC) du recueil de formules :
 
 $f_\text{g} = \frac{1}{2\cdot\pi\cdot R \cdot C}$
 
-Eine große Kapazität ($C$) erzeugt einen großen Nenner und damit eine kleine Grenzfrequenz ($f_\text{g}$) für den RC-Tiefpassfilter.  
-$\rightarrow$ Damit fallen die Antworten "Der Ausgang für das NF-Signal." und "Der Ausgang für das Oszillatorsignal." weg.
+Une grande capacité ($C$) crée un grand numérateur et donc une petite fréquence de coupure ($f_\text{g}$) pour le filtre passe-bas RC.
+$\rightarrow$ Ainsi, les réponses "La sortie pour le signal BF" et "La sortie pour le signal d'oscillateur" sont éliminées.
 
-Am Anschluss $\text{X}$ liegt eine niederfrequente Spannung an, die für die Regelung genutzt werden kann.
+À la connexion $\text{X}$, une tension basse fréquence est appliquée, qui peut être utilisée pour la régulation.

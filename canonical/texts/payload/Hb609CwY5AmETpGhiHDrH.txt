@@ -1,18 +1,18 @@
 <left>
-* *Notch-Filter* oder Kerbfilter
-* Schmalbandiges Filter
-* Unterdrückt eine bestimmte NF-Frequenz
-* Realisierbar im NF-Bereich oder ZF-Bereich
+* *Filtre coupe-bande* ou filtre coupe-bande
+* Filtre à bande étroite
+* Supprime une certaine fréquence NF
+* Réalisable dans la plage de fréquences NF ou ZF
 </left>
 <right>
-[picture:242:frequenzverlauf_notchfilter:Filtercharakteristik eines Notch-Filters]
+[picture:242:frequenzverlauf_notchfilter:Caractéristique de filtrage d'un filtre coupe-bande]
 </right>
 <note>
-* Störendes Signal, z.B. Träger ausblenden
-* Im ZF-Bereich können stärkere Störsignale wirksamer unterdrückt werden
-* Hat dann weniger Einfluss auf die AGC
-* Notch-Filter sind im Funkgerät oft anpassbar (Frequenz, Bandbreite, Filtercharakteristik)
-* Auch als Auto-Notch-Filter möglich
+* Masquer un signal perturbateur, par exemple une porteuse
+* Dans la plage de fréquences ZF, les signaux perturbateurs plus forts peuvent être supprimés plus efficacement
+* A alors moins d'influence sur l'AGC
+* Les filtres coupe-bande sont souvent adaptables dans l'appareil radio (fréquence, bande passante, caractéristique de filtrage)
+* Également possible en tant que filtre coupe-bande automatique
 </note>
 
 ---

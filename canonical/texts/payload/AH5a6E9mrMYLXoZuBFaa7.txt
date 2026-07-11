@@ -1,9 +1,9 @@
 
-Es scheint zunächst nahezuliegen, die Anzahl der Symbole möglichst groß zu wählen, damit pro Symbol möglichst viele Informationen übertragen werden können. Doch dann muss ein Empfänger z. B. zwischen vielen unterschiedlichen Amplituden unterscheiden können. Somit wird das Verfahren anfälliger für Störungen.
+Il semble initialement judicieux de choisir le nombre de symboles le plus grand possible afin de transmettre le plus d'informations possible par symbole. Cependant, un récepteur doit alors pouvoir distinguer entre de nombreuses amplitudes différentes. Ainsi, la procédure devient plus sensible aux perturbations.
 
-Um dieses Problem zu mildern, kann man auf einen Trick zurückgreifen: Anstelle der Änderung nur eines Parameters (z. B. der Amplitude) werden pro Symbol zwei Parameter verändert, nämlich die Amplitude und die Phase. Ein Symbol entspricht dann einer Kombination einer bestimmten Amplitude mit einer bestimmten Phasenlage. So ergibt sich trotz kleiner Anzahl unterschiedlicher Amplituden und Phasenlagen dennoch eine größere Anzahl an Symbolen. Es werden mehr Bits pro Symbol übertragen. Die Datenübertragung erfolgt somit schneller. Dieses Verfahren wird Quadraturamplitudenmodulation (QAM) oder manchmal auch einfach nur Quadraturmodulation genannt.
+Pour atténuer ce problème, on peut recourir à un truc : au lieu de modifier un seul paramètre (par exemple l'amplitude), deux paramètres sont modifiés par symbole, à savoir l'amplitude et la phase. Un symbole correspond alors à une combinaison d'une amplitude spécifique avec une position de phase spécifique. Ainsi, malgré un petit nombre d'amplitudes et de positions de phase différentes, un plus grand nombre de symboles est néanmoins obtenu. Plus de bits par symbole sont transmis. La transmission de données est ainsi plus rapide. Cette procédure est appelée modulation d'amplitude en quadrature (QAM) ou parfois simplement modulation en quadrature.
 
-[picture:702:8qam:Signalverlauf eines 8QAM-Signals, je Symbol mit Amplitude ($\num{0,5}$ bzw. $\num{1}$), Phasenlage und 3-stelliger Bitfolge]
+[picture:702:8qam:Courbe d'un signal 8QAM, chaque symbole avec amplitude ($\num{0,5}$ ou $\num{1}$), position de phase et séquence de bits à 3 chiffres]
 
 [question:AE403]
 

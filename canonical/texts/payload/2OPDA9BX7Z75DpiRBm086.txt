@@ -1,22 +1,22 @@
-Für die Kommunikation mittels Funkfernschreiben zwischen Amateurfunkstationen gibt es verschiedenste Verfahren. Damit eine Verbindung zustande kommt, müssen beide Kommunikationspartner das gleiche Übertragungsverfahren und die gleichen Parameter verwenden. Das gilt um so mehr, weil nicht jedem Verfahren eindeutige Frequenzbereiche zugeordnet sind.
+Pour la communication par radiotélétype entre les stations de radioamateur, il existe diverses procédures. Pour qu'une liaison soit établie, les deux partenaires de communication doivent utiliser la même procédure de transmission et les mêmes paramètres. Cela est d'autant plus vrai que chaque procédure n'est pas associée à des bandes de fréquences uniques.
 
-%[photo:0:n_funkfernschreiben_telegraphie_20m:Morsetelegrafie, FT8 und FT4 im $\qty{20}{\meter}$-Band]
-%[photo:0:n_funkfernschreiben_digimodes:Häufig verwendete Digimodes von K1JT vergrößert im Wasserfalldiagramm]
-%[photo:0:n_funkfernschreiben_olivia:Ausschnitt aus einer Olivia-Aussendung im Wasserfalldiagramm]
-%[photo:0:n_funkfernschreiben_fm:Musterbild FM]
-%[photo:0:n_funkfernschreiben_am:Musterbild AM]
-%[photo:0:n_funkfernschreiben_ft8:Ein FT8-Signal bei $\qty{1500}{\hertz}$ oberhalb der eingestellten Frequenz]
-%[photo:0:n_funkfernschreiben_ft8_20m:Mehrere FT8-Signale in einem SSB-Kanal im $\qty{20}{\meter}$-Band]
+%[photo:0:n_funkfernschreiben_telegraphie_20m:Morsetelegrafie, FT8 et FT4 dans la bande des $\qty{20}{\meter}$]
+%[photo:0:n_funkfernschreiben_digimodes:Digimodes fréquemment utilisés par K1JT agrandis dans le diagramme en cascade]
+%[photo:0:n_funkfernschreiben_olivia:Extrait d'une émission Olivia dans le diagramme en cascade]
+%[photo:0:n_funkfernschreiben_fm:Image modèle FM]
+%[photo:0:n_funkfernschreiben_am:Image modèle AM]
+%[photo:0:n_funkfernschreiben_ft8:Un signal FT8 à $\qty{1500}{\hertz}$ au-dessus de la fréquence réglée]
+%[photo:0:n_funkfernschreiben_ft8_20m:Plusieurs signaux FT8 dans un canal SSB dans la bande des $\qty{20}{\meter}$]
 
 [question:NE401]
 
-Die Abwicklung einer Telegrafie-Verbindung erfolgt sowohl bei der Morsetelegrafie als auch mit dem Computer ähnlich wie im Sprechfunk, aber mit bestimmten Abkürzungen. Diese Abkürzungen vereinfachen die Abwicklung und verkürzen die Übertragungsdauer. Es gibt auch die sogenannten Q-Gruppen. Das sind weltweit einheitliche dreibuchstabige Abkürzungen, die immer mit dem Buchstaben Q beginnen. Darauf gehen wir im Kapitel Q-Gruppen und Locator näher ein.
+La gestion d'une liaison télégraphique se fait de manière similaire dans la radiotéléphonie, mais avec certaines abréviations. Ces abréviations simplifient la gestion et réduisent la durée de transmission. Il existe également les soi-disant groupes Q. Ce sont des abréviations uniformes dans le monde entier, composées de trois lettres, qui commencent toujours par la lettre Q. Nous y reviendrons dans le chapitre Q-Gruppen et Locator.
 
 [question:BB101]
 
 ---
 
-Seitlich ist ein üblicher Ablauf einer kurzen Telegrafieverbindung dargestellt. Mit der Tabelle [ref:n_funkfernschreiben_abkuerzungen] kann die Bedeutung dahinter entschlüsselt werden.
+Sur le côté, un déroulement typique d'une courte liaison télégraphique est représenté. Le tableau [ref:n_funkfernschreiben_abkuerzungen] peut être utilisé pour décrypter la signification.
 
 <qso>
 CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
@@ -48,7 +48,7 @@ BK QSL = VY 73 DE DL2AB SK
 [table:n_funkfernschreiben_abkuerzungen:Betriebliche Abkürzungen in der Telegrafie]
 </webmargin>
   
-Es gibt auch digitale Übertragungsverfahren, bei denen die Abwicklung anders erfolgt. FT8 oder FT4 funktionieren beispielsweise auch bei widrigen Funkbedingungen, also wenn beim Empfänger im Vergleich zum Grundrauschen lediglich eine niedrige Signalstärke erreicht werden kann. Dafür können bei den genannten Verfahren aber nur ganz wenige Zeichen je Sendung übertragen werden. Entsprechend ist die Abwicklung noch kompakter. Andere digitale Verfahren übertragen gar keine Texte, sondern beispielsweise Bilder oder Video, mit an diese Umstände angepasster Betriebsabwicklung. Darauf wird in der Prüfung aber nicht eingegangen.
+Il existe également des procédures de transmission numériques, pour lesquelles la gestion est différente. FT8 ou FT4 fonctionnent par exemple dans des conditions radio défavorables, c'est-à-dire lorsque la puissance du signal par rapport au bruit de fond n'est que faible au niveau du récepteur. En revanche, avec les procédures mentionnées, seuls quelques caractères peuvent être transmis par émission. En conséquence, la gestion est encore plus compacte. D'autres procédures numériques ne transmettent pas de textes, mais par exemple des images ou des vidéos, avec une gestion adaptée à ces conditions. Cela ne sera pas abordé dans l'examen.
 
 [question:BE112]
 [question:BB109]

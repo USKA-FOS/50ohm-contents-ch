@@ -1,87 +1,87 @@
-* *Verstärkerklasse A*: Kann das gesamte Signal verstärken
-* *Verstärkerklasse B*: Das halbe Signal wird gut verstärkt
-* *Verstärkerklasse A/B*: Kombination aus A und B mit Verstärkung von etwas mehr als dem halben Signal
-* *Verstärkerklasse C*: Weniger als das halbe Signal wird gut verstärkt
+* *Classe A*: Peut amplifier l'ensemble du signal
+* *Classe B*: La moitié du signal est bien amplifiée
+* *Classe A/B*: Combinaison de A et B avec amplification de plus de la moitié du signal
+* *Classe C*: Moins de la moitié du signal est bien amplifiée
 
 <fragment>
-Die Verstärkerklassen werden durch die Wahl des Arbeitspunktes bestimmt
+Les classes d'amplificateurs sont déterminées par le choix du point de fonctionnement
 </fragment>
 
 <note>
-Die Buchstabenbezeichnungen gehen auf eine frühe systematische Klassifizierung von Röhren- und Transistorverstärker zurück
+Les désignations par lettres remontent à une classification systématique précoce des amplificateurs à tubes et à transistors
 </note>
 ---
 <left>
-[picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Caractéristique d'un transistor avec points de fonctionnement]
 </left>
 <right>
-* Transistorkennlinie zeigt den Zusammenhang zwischen Eingangssignal und Ausgangssignal
-* Basis-Emitter- oder Gate-Source-Spannung und Kollektor- oder Drainstrom
-* In linearen Bereichen ist die Änderung proportional
-* Andere Bereiche sind nichtliniear
+* La caractéristique du transistor montre la relation entre le signal d'entrée et le signal de sortie
+* Tension base-émetteur ou tension grille-source et courant collecteur ou courant de drain
+* Dans les zones linéaires, la modification est proportionnelle
+* D'autres zones sont non linéaires
 </right>
 ---
-### Arbeitspunkt
+### Point de fonctionnement
 
-* Optimaler Betrieb bei optimaler Wahl des Arbeitspunktes auf der Kennlinie
-* Arbeitspunkt wird durch die Vorspannung an Basis oder Gate festgelegt
-* Verstärkung wirkt dann um den gewünschten Arbeitspunkt herum
+* Fonctionnement optimal avec un choix optimal du point de fonctionnement sur la caractéristique
+* Le point de fonctionnement est déterminé par la tension de polarisation à la base ou à la grille
+* L'amplification agit ensuite autour du point de fonctionnement souhaité
 
 ---
-### Ruhestrom
+### Courant de repos
 
-* Ruhestrom ergibt sich duch die Wahl des Arbeitspunktes
-* Fließt auch ohne Eingangssignal
-* Beeinflusst die Effizienz eines Verstärkers
-* Erhöht thermische Verlustleistung
-* Verringert Wirkungsgrad
+* Le courant de repos résulte du choix du point de fonctionnement
+* Circule également sans signal d'entrée
+* Influence l'efficacité d'un amplificateur
+* Augmente la puissance dissipée
+* Réduit le rendement
 
 --- style="font-size: smaller;"
 ### AP1
 <left>
-[picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]  
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Caractéristique d'un transistor avec points de fonctionnement]  
 </left>
 <right>
-* C-Betrieb des Verstärkers
-* ohne Vorspannung
-* Ruhestrom null
-* Wirkungsgrad ca. $\qtyrange{80}{87}{\percent}$
-* hoher Oberwellenanteil
+* Fonctionnement en classe C de l'amplificateur
+* sans polarisation
+* Courant de repos nul
+* Rendement d'environ $\qtyrange{80}{87}{\percent}$
+* Taux d'harmoniques élevé
 </right>
 --- style="font-size: smaller;"
 ### AP2
 <left>
-[picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]  
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Caractéristique d'un transistor avec points de fonctionnement]  
 </left>
 <right>
-* B-Betrieb des Verstärkers
-* Geringe Vorspannung bis zum Einsetzen des Kollektorstroms
-* Ruhestrom fast null (gering)
-* Wirkungsgrad bis zu $\qty{80}{\percent}$
-* geringer Oberwellenanteil
+* Fonctionnement en classe B de l'amplificateur
+* Faible polarisation jusqu'au début du courant collecteur
+* Courant de repos presque nul (faible)
+* Rendement jusqu'à $\qty{80}{\percent}$
+* Faible taux d'harmoniques
 </right>
 --- style="font-size: smaller;"
 ### AP3
 <left>
-[picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]  
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Caractéristique d'un transistor avec points de fonctionnement]  
 </left>
 <right>
-* A/B-Betrieb des Verstärkers
-* Höhere Vorspannung als im B-Betrieb, jedoch geringer als im A-Betrieb
-* Ruhestrom größer als im B-Betrieb, aber deutlich geringer als im A-Betrieb
-* Wirkungsgrad zwischen $\qty{50}{\percent}$ bis $\qty{80}{\percent}$
-* geringer Oberwellenanteil
+* Fonctionnement en classe A/B de l'amplificateur
+* Polarisation plus élevée qu'en classe B, mais inférieure à celle en classe A
+* Courant de repos plus élevé qu'en classe B, mais nettement inférieur à celui en classe A
+* Rendement compris entre $\qty{50}{\percent}$ et $\qty{80}{\percent}$
+* Faible taux d'harmoniques
 </right>
 --- style="font-size: smaller;"
 ### AP4
 <left>
-[picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]  
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Caractéristique d'un transistor avec points de fonctionnement]  
 </left>
 <right>
-* A-Betrieb des Verstärkers
-* Höhe der Vorspannung so gewählt, dass der Ruhestrom ca. $\qty{50}{\percent}$ des maximal zulässigen Wertes erreicht
-* Wirkungsgrad ca. $\qty{40}{\percent}$
-* sehr geringer Oberwellenanteil
+* Fonctionnement en classe A de l'amplificateur
+* Niveau de polarisation choisi de telle sorte que le courant de repos atteint environ $\qty{50}{\percent}$ de la valeur maximale admissible
+* Rendement d'environ $\qty{40}{\percent}$
+* Taux d'harmoniques très faible
 </right>
 ---
 [question:AD416]
@@ -92,20 +92,20 @@ Die Buchstabenbezeichnungen gehen auf eine frühe systematische Klassifizierung 
 ---
 [question:AD421]
 ---
-### Ausgangsleistung
+### Puissance de sortie
 
-* Bei Kenntnis des Arbeitspunkt ist der Wirkungsgrad bekannt
-* Gleichspannungsleistung ausrechnen
-* Ausgangsleistung ist das Produkt aus Gleichspannungsleistung und Wirkungsgrad
+* Connaissant le point de fonctionnement, le rendement est connu
+* Calculer la puissance en courant continu
+* La puissance de sortie est le produit de la puissance en courant continu et du rendement
 
 ---
 [question:AD424]
 ---
-#### Lösungsweg
-* gegeben: $U=\qty{50}{\volt}$
-* gegeben: $I = \qty{2}{\ampere}$
-* gegeben: $\eta_\text{A} \approx \qty{40}{\percent}$
-* gesucht: $P_\text{ab}$
+#### Méthode de solution
+* donné: $U=\qty{50}{\volt}$
+* donné: $I = \qty{2}{\ampere}$
+* donné: $\eta_\text{A} \approx \qty{40}{\percent}$
+* recherché: $P_\text{ab}$
 
 <fragment>
 $P_\text{zu} = U \cdot I = \qty{50}{\volt} \cdot \qty{2}{\ampere} = \qty{100}{\watt}$
@@ -116,11 +116,11 @@ $\eta_\text{A} = \frac{P_\text{ab}}{P_\text{zu}} \Rightarrow P_\text{ab} = \eta_
 ---
 [question:AD425]
 ---
-#### Lösungsweg
-* gegeben: $U=\qty{50}{\volt}$
-* gegeben: $I = \qty{2}{\ampere}$
-* gegeben: $\eta_\text{C} \approx \qty{85}{\percent}$
-* gesucht: $P_\text{ab}$
+#### Méthode de solution
+* donné: $U=\qty{50}{\volt}$
+* donné: $I = \qty{2}{\ampere}$
+* donné: $\eta_\text{C} \approx \qty{85}{\percent}$
+* recherché: $P_\text{ab}$
 
 <fragment>
 $P_\text{zu} = U \cdot I = \qty{50}{\volt} \cdot \qty{2}{\ampere} = \qty{100}{\watt}$
@@ -133,11 +133,11 @@ $\eta_\text{C} = \frac{P_\text{ab}}{P_\text{zu}} \Rightarrow P_\text{ab} = \eta_
 ---
 [question:AD417]
 ---
-### SSB-Betrieb
+### Fonctionnement SSB
 
-* Lineare Verstärkung wird benötigt
-* Verstärkung im A-, A/B- oder B-Betrieb
-* Bei Übersteuerung kommt es zu Verzerrungen des Signals $\rightarrow$ Splatter auf benachbarten Frequenzen
+* Amplification linéaire nécessaire
+* Amplification en classe A, A/B ou B
+* En cas de surcharge, il y a des distorsions du signal $\rightarrow$ Splatter sur les fréquences voisines
 
 ---
 [question:AD422]
@@ -146,11 +146,11 @@ $\eta_\text{C} = \frac{P_\text{ab}}{P_\text{zu}} \Rightarrow P_\text{ab} = \eta_
 ---
 [question:AD423]
 ---
-### C-Betrieb
+### Fonctionnement en classe C
 
-* Nichtlinearer Betriebspunkt erzeugt Oberwellen
-* Müssen anschließend durch Filterung unterdrückt werden
-* Abschirmung durch ein Metallgehäuse
+* Point de fonctionnement non linéaire génère des harmoniques
+* Doivent ensuite être supprimées par filtrage
+* Blindage par un boîtier métallique
 
 ---
 [question:AF402]

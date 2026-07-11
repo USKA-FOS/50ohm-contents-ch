@@ -1,12 +1,12 @@
-Integrierte Schaltungen sind komplexe Schaltungen, die auf einem Halbleitersubstrat realisiert sind. Sie sind damit eine wesentliche Erleichterung für den Aufbau von elektronischen Schaltungen.
+Les circuits intégrés sont des circuits complexes réalisés sur un substrat semi-conducteur. Ils constituent donc une simplification essentielle pour la construction de circuits électroniques.
 
 [question:AC601]
 
 <margin>
-[photo:334:a_ic:Kurzwellensender TinyWhisper der JKU Linz und JMU Würzburg realisiert als integrierte Schaltung in 130nm CMOS-Technologie]
+[photo:334:a_ic:Émetteur TinyWhisper de l'Université de Linz et de l'Université de Würzburg réalisé sous forme de circuit intégré en technologie CMOS 130 nm]
 </margin>
 
-Als spezielle Klasse der integrierten Schaltkreise gibt es die Monolithic Microwave Integrated Circuits (MMIC). Sie vereinen dabei sowohl aktive wie auch passive Bauelemente auf dem gleichen Substrat. Diese werden typischerweise für eine Ein- und Ausgangsimpedanz von $\qty{50}{\ohm}$ ausgelegt. Mit ihnen ist eine hohe breitbandige Verstärkung mit wenigen Bauteilen möglich.
+Une classe spéciale de circuits intégrés est celle des Monolithic Microwave Integrated Circuits (MMIC). Ils combinent à la fois des composants actifs et passifs sur le même substrat. Ils sont généralement conçus pour une impédance d'entrée et de sortie de $\qty{50}{\ohm}$. Ils permettent une amplification à large bande avec peu de composants.
 
 [question:AC602]
 [question:AC603]
@@ -14,52 +14,54 @@ Als spezielle Klasse der integrierten Schaltkreise gibt es die Monolithic Microw
 
 ---
 
-Zur Berechnung der Aufgaben aus der Prüfung ist es hilfreich, die Schaltung aus Abbildung [ref:a_mmic] zunächst genauer zu betrachten.
+Pour calculer les exercices de l'examen, il est utile d'examiner d'abord plus en détail le circuit du schéma [ref:a_mmic].
 
-Die Kondensatoren $C_1$ und $C_3$ dienen als Koppelkondensatoren. Sie lassen HF-Signale passieren, sperren jedoch Gleichspannung. Dadurch wird verhindert, dass Gleichspannungen zwischen den einzelnen Schaltungsstufen übertragen werden und den Arbeitspunkt beeinflussen.
+Les condensateurs $C_1$ et $C_3$ servent de condensateurs de couplage. Ils laissent passer les signaux HF, mais bloquent la tension continue. Cela empêche que les tensions continues soient transmises entre les différents étages du circuit et influencent le point de fonctionnement.
 
-Die Drossel in der Betriebsspannungsleitung $U_\mathrm{CC}$ verhindert, dass HF-Signale über die Spannungsversorgung abfließen können. Für Hochfrequenz besitzt die Drossel einen hohen Widerstand und wirkt daher als Sperre. Der Kondensator $C_2$ dient zur HF-Abblockung der Versorgungsspannung. Er leitet verbleibende HF-Anteile gegen Masse ab und sorgt dafür, dass die Versorgungsspannung HF-mäßig stabil bleibt. Zusammen mit der Drossel bildet er eine HF-Entkopplung der Betriebsspannung. Diese Schaltung lernen wir später noch als "Bias-T" kennen.
+La bobine dans la ligne de tension de service $U_\mathrm{CC}$ empêche que les signaux HF puissent s'écouler par l'alimentation électrique. Pour les hautes fréquences, la bobine présente une résistance élevée et agit donc comme un blocage. Le condensateur $C_2$ sert à bloquer les HF de la tension d'alimentation. Il dérive les composantes HF restantes vers la masse et assure que la tension d'alimentation reste stable en HF. Avec la bobine, il forme un découplage HF de la tension de service. Nous apprendrons plus tard à connaître ce circuit sous le nom de "Bias-T".
 
-Eine Besonderheit vieler MMICs besteht darin, dass die Versorgungsspannung über den Ausgang zugeführt wird. Der Widerstand $R_\text{BIAS}$ stellt dabei den Arbeitspunkt des MMIC ein.
+Une particularité de nombreux MMIC réside dans le fait que la tension d'alimentation est fournie par la sortie. La résistance $R_\text{BIAS}$ règle le point de fonctionnement du MMIC.
 
 <margin>
-[picture:773:a_mmic:MMIC-Schaltung]
+[picture:773:a_mmic:Circuit MMIC]
 </margin>
 
-Abhängig von der Aufgabenstellung kann aus dem Spannungsabfall über dem MMIC zunächst der Spannungsabfall über dem Widerstand $R_\text{BIAS}$ bestimmt werden. Mit dem bekannten Widerstandswert lässt sich anschließend der Strom durch die Schaltung berechnen. Derselbe Strom fließt auch durch den MMIC, sodass sich daraus beispielsweise die thermische Verlustleistung bestimmen lässt.
+Selon l'énoncé de l'exercice, la chute de tension sur le MMIC permet de déterminer d'abord la chute de tension sur la résistance $R_\text{BIAS}$. Avec la valeur de résistance connue, le courant dans le circuit peut ensuite être calculé. Le même courant traverse également le MMIC, de sorte que la puissance dissipée thermique peut par exemple en être déterminée.
 
-Die folgenden Aufgaben lassen sich daher sehr ähnlich zu den bereits bekannten Schaltungen mit Bipolartransistoren lösen.
+Les exercices suivants peuvent donc être résolus de manière très similaire aux circuits déjà connus avec des transistors bipolaires.
 
 [question:AF425]
 [question:AF426]
 [question:AF427]
 
-% Eine wesentliche Erleichterung bei dem Aufbau von elektronischen Schaltung 
-% ist die Verwendung von integrierten Schaltungen.
-% Eine integrierte Schaltung enthält in einem Gehäuse eine komplexe elektronische Schaltung, 
-% die auf einem Chip hergestellt wurde.
+% Une simplification essentielle dans la construction de circuits électroniques
+% est l'utilisation de circuits intégrés.
+% Un circuit intégré contient dans un boîtier un circuit électronique complexe,
+% qui a été fabriqué sur une puce.
 
-% "Zusatzinfo" Praktische Anwendungen:
-% Operationsverstärker: siehe Abschnitt ...
-% Niederfrequenzverstärker: siehe Abschnitt ...
-% Mikrowellenverstärker MMIC: siehe Abschnitt ...
-% Kombinierte Mischer- und Oszillatorschaltung: siehe Abschnitt ...
-% Komplette Empfänger: siehe Abschnitt ...
-% Digitale Schaltkreise: siehe Abschnitt ...
-% PLL-Schaltungen: siehe Abschnitt ...
+% "Info supplémentaire" Applications pratiques:
+% Amplificateur opérationnel: voir section ...
+% Amplificateur basse fréquence: voir section ...
+% Amplificateurs à micro-ondes MMIC: voir section ...
+% Circuit mélangeur et oscillateur combiné: voir section ...
+% Récepteurs complets: voir section ...
+% Circuits numériques: voir section ...
+% Circuits PLL: voir section ...
 
-% Durch wenige externe Bauteile kann z.B. ein Audioverstärker, ein Oszillator mit Mischer oder sogar ein kompletter % Kurzwellenempfänger realisiert werden.
-% Bild eines IC mit Typenbezeichnung und Blockschaltbild z.B. LM386
-% Für Frequenzen ab ca. 100 MHz werden sogenannte Monolithic Microwave Integrated Circuit (MMIC) eingesetzt.
-% Bild MMIC MSA 0686 oder ERA 3
-% Hierbei handelt es sich um einen Verstärker. der breitbandig den Frequenzbereich von 100 MHz bis 2 GHz um  20dB verstärken kann
-% und eingangs- und ausgangsseitug für 50 Ohm Last angepasst ist.
-% Es muss lediglich der Strom für den Arbeitspunkt laut Datenblatt eingestellt werden, damit der MMIC auch nicht % thermisch überlastet wird. 
-% Dazu ist bei vorgegebener Betriebsspannung ein Widerstand und dessen elektrische Belastung zu berechnen.
+% Avec quelques composants externes, par exemple un amplificateur audio, un oscillateur avec mélangeur ou même un récepteur complet
+% peut être réalisé.
+% Image d'un IC avec désignation de type et schéma bloc par exemple LM386
+% Pour les fréquences à partir d'environ 100 MHz, on utilise des circuits intégrés monolithiques à micro-ondes (MMIC).
+% Image MMIC MSA 0686 ou ERA 3
+% Il s'agit d'un amplificateur qui peut amplifier la bande de fréquences de 100 MHz à 2 GHz de manière large bande de 20 dB
+% et est adapté côté entrée et sortie pour une charge de 50 Ohm.
+% Il suffit de régler le courant pour le point de fonctionnement selon la fiche technique, afin que le MMIC ne soit pas
+% surchargé thermiquement. 
+% Pour ce faire, une résistance et sa charge électrique doivent être calculées pour une tension de service donnée.
 
-% Da der MMIC ein Gehäuse für SMD-Technik besitzt, ist es notwendig, auch die äußere Beschaltung in SMD- Technik auszuführen.
-% Der Gesamtaufbau des Verstärkers wird so deutlich kleiner sein als früher in diskreter Schaltungstechnik.
-% Bild Vergleich diskrete Schaltung und MMIC
+% Comme le MMIC possède un boîtier pour la technique SMD, il est nécessaire d'exécuter également le câblage externe en technique SMD.
+% La structure globale de l'amplificateur sera ainsi nettement plus petite que celle des circuits discrets.
+% Image Comparaison circuit discret et MMIC
 
 
 

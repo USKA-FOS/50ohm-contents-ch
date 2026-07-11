@@ -1,30 +1,30 @@
 <left>
-[picture:795:a_einweggleichrichtung_c:Einweggleichrichtung mit Kondensator]
+[picture:795:a_einweggleichrichtung_c:Redressement simple alternance avec condensateur]
 </left>
 <right>
-* Bei positiver Halbwelle lässt Diode $D$ Strom fließen
-* Lädt Kondensator $C_L$ auf Spitzenwert der Wechselspannung und versorgt Lastwiderstand $R_L$
-* Bei negativer Halbwelle sperrt Diode $D$
-* Kondensator $C_L$ entlädt sich über Lastwiderstand $R_L$
+* Lors de la demi-onde positive, la diode $D$ laisse passer le courant
+* Charge le condensateur $C_L$ à la valeur de crête de la tension alternative et alimente la résistance de charge $R_L$
+* Lors de la demi-onde négative, la diode $D$ est bloquée
+* Le condensateur $C_L$ se décharge à travers la résistance de charge $R_L$
 </right>
 ---
 <left>
-[picture:75:a_Restwelligkeit:Welligkeit der Ausgangsgleichspannung $U_L$]
-Am Lastwiderstand $R_L$ stellt sich eine pulsierende Gleichspannung $U_L$ ein
+[picture:75:a_Restwelligkeit:Ondulation de la tension de sortie continue $U_L$]
+Une tension continue pulsée $U_L$ s'établit sur la résistance de charge $R_L$
 </left>
 <right>
-* Je größer die Kapazität, umso geglätteter die Gleichspannung
-* Die Trafospannungen sind Effektivspannungen
-* Für die Bemessung des Kondensators muss die Spitzenspannung bestimmt werden
-* Für die Diode ist die Spitzen-Spitzen-Spannung relevant
+* Plus la capacité est grande, plus la tension continue est lissée
+* Les tensions du transformateur sont des tensions efficaces
+* Pour le dimensionnement du condensateur, il faut déterminer la tension de crête
+* Pour la diode, la tension crête-crête est pertinente
 </right>
 
 ---
 [question:AD302]
 ---
-#### Lösungsweg
-* gegeben: $U_{\mathrm{eff}} = \qty{15}{\volt}$
-* gesucht: $\hat{U}$
+#### Solution
+* donné : $U_{\mathrm{eff}} = \qty{15}{\volt}$
+* recherché : $\hat{U}$
 
 <fragment>
 $\hat{U} = U_{\mathrm{eff}} \cdot \sqrt{2} = \qty{15}{\volt} \cdot 1,41 = \qty{21,21}{\volt}$
@@ -32,10 +32,10 @@ $\hat{U} = U_{\mathrm{eff}} \cdot \sqrt{2} = \qty{15}{\volt} \cdot 1,41 = \qty{2
 ---
 [question:AD303]
 ---
-#### Lösungsweg
-* gegeben: $U_P = \qty{230}{\volt}$
-* gegeben: $ü = 20:1$
-* gesucht: $\hat{U} + \qty{50}{\percent}$
+#### Solution
+* donné : $U_P = \qty{230}{\volt}$
+* donné : $ü = 20:1$
+* recherché : $\hat{U} + \qty{50}{\percent}$
 
 <fragment>
 $ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{\qty{230}{\volt}}{20} = \qty{11,5}{\volt}$
@@ -49,10 +49,10 @@ $\hat{U} + \qty{50}{\percent} \approx \qty{25}{\volt}$
 ---
 [question:AD304]
 ---
-#### Lösungsweg
-* gegeben: $U_P = \qty{230}{\volt}$
-* gegeben: $ü = 5:1$
-* gesucht: $U_{SS} + \qty{20}{\percent}$
+#### Solution
+* donné : $U_P = \qty{230}{\volt}$
+* donné : $ü = 5:1$
+* recherché : $U_{SS} + \qty{20}{\percent}$
 
 <fragment>
 $ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{\qty{230}{\volt}}{5} = \qty{46}{\volt}$

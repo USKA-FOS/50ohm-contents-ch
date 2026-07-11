@@ -1,11 +1,11 @@
-Der Blindwiderstand einer idealen Spule wird als induktiver Blindwiderstand bezeichnet und besitzt ein positives Vorzeichen. Er hängt sowohl von der Induktivität $L$ der Spule als auch von der Frequenz $f$ der angelegten Wechselspannung ab.
+La réactance d'une bobine idéale est appelée réactance inductive et possède un signe positif. Elle dépend à la fois de l'inductance $L$ de la bobine et de la fréquence $f$ de la tension alternative appliquée.
 
-Für den induktiven Blindwiderstand gilt (s. Formelsammlung):
+Pour la réactance inductive, on a (voir le recueil de formules) :
 
 $X_L = 2\pi f L$
 
-Daraus erkennt man:
-- Je größer die Frequenz $f$, desto größer wird der Blindwiderstand.
-- Je größer die Induktivität $L$, desto größer wird ebenfalls der Blindwiderstand.
+On en déduit :
+- Plus la fréquence $f$ est élevée, plus la réactance est grande.
+- Plus l'inductance $L$ est élevée, plus la réactance est également grande.
 
-Der induktive Blindwiderstand ist daher positiv und abhängig von Induktivität und Frequenz.
+La réactance inductive est donc positive et dépend de l'inductance et de la fréquence.

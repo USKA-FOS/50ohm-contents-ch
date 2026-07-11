@@ -1,11 +1,11 @@
-## Frequenzmodulation
+## Modulation de fréquence
 <left>
-* Konstante Amplitude
-* Veränderliche Frequenz
-* Relativ unempfindlich gegenüber Amplitudenstörungen (z.B. Kfz, Blitze)
+* Amplitude constante
+* Fréquence variable
+* Relativement insensible aux perturbations d'amplitude (par exemple, véhicules automobiles, éclairs)
 </left>
 <right>
-[picture:301:e_fm:Frequenzmodulation]
+[picture:301:e_fm:Modulation de fréquence]
 </right>
 
 ---
@@ -16,13 +16,13 @@
 [question:EE303]
 ---
 
-## Frequenzhub
+## Excursion de fréquence porteuse
 <left>
-* Lautstärkeinformation wird bei FM durch *Trägerfrequenzauslenkung* (Frequenzhub) übertragen
-* Lautes NF-Signal $\rightarrow$ größerer Hub $\rightarrow$ höhere Bandbreite
+* L'information de volume est transmise par FM via la *déviation de fréquence porteuse* (excursion de fréquence)
+* Signal audio fort $\rightarrow$ plus grande déviation $\rightarrow$ bande passante plus élevée
 </left>
 <right>
-[picture:827:e_frequenzmodulation_frequenzhub:Trägerauslenkung bei Frequenzmodulation]
+[picture:827:e_frequenzmodulation_frequenzhub:Déviation de fréquence porteuse lors de la modulation de fréquence]
 </right>
 
 ---
@@ -32,9 +32,9 @@
 ---
 
 ## Modulation
-* Zur Einschränkung der Bandbreite wird das Mikrofonsignal in der Amplitude begrenzt
-* Dieses Signal wird auf den Träger mittels FM aufmoduliert
-* Der Frequenzhub kann dabei fest sein oder einstellbar mittels eines Hub-Reglers
+* Pour limiter la bande passante, le signal du microphone est limité en amplitude
+* Ce signal est modulé sur la porteuse au moyen de la FM
+* La déviation de fréquence peut être fixe ou ajustable au moyen d'un régulateur de déviation
 
 ---
 [question:EE305]

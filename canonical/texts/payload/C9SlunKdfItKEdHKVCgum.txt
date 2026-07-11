@@ -1,50 +1,50 @@
-## Erregerantennen im Parabolspiegel
+## Antennes d'excitation dans un réflecteur parabolique
 <left>
-[picture:850:a_parabolspiegel_schnitt:Schnitt durch einen Parabolspiegel mit Antenne]
+[picture:850:a_parabolspiegel_schnitt:Coupe d'un réflecteur parabolique avec antenne]
 </left>
 <right>
-* Im Punkt vor dem Parabolspiegel werden die Erregerantennen platziert
-* Helixantennen, die eine zirkulare Polarisation erzeugen, eignen sich besonders für den Mikrowellenbereich
+* Les antennes d'excitation sont placées au point devant le réflecteur parabolique
+* Les antennes hélicoïdales, qui génèrent une polarisation circulaire, conviennent particulièrement pour le domaine des micro-ondes
 </right>
 
 ---
-## Hornstrahler und Hohlleiter
+## Cornes rayonnantes et guides d'ondes
 <left>
-Bild eines Hornstrahlers folgt
+Image d'une corne rayonnante suit
 </left>
 <right>
-* Hornstrahler können mit einem Hohlleiter gespeist werden
-* In Hohlleitern, also Metallrohren, wird die Mikrowellenenergie durch Reflexion an den Außenwänden geführt
+* Les cornes rayonnantes peuvent être alimentées par un guide d'ondes
+* Dans les guides d'ondes, c'est-à-dire les tubes métalliques, l'énergie des micro-ondes est guidée par réflexion sur les parois extérieures
 </right>
 
 ---
-## Hohlleiter im Detail
+## Guides d'ondes en détail
 
-* Hohlleiter leiten Mikrowellen, indem sie diese an ihren metallischen Außenwänden reflektieren
-* Dadurch gelangt die Welle in ein Horn, aus dem sie abgestrahlt oder in den Hohlleiter eingespeist wird
+* Les guides d'ondes conduisent les micro-ondes en les réfléchissant sur leurs parois extérieures métalliques
+* Ainsi, l'onde parvient dans une corne, d'où elle est rayonnée ou injectée dans le guide d'ondes
 
 ---
 [question:AG225]
 ---
-## Gewinn eines Parabolspiegels
+## Gain d'un réflecteur parabolique
 
 $g_i = 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}$
 
-* Berechnung mit der Formel in der Formelsammlung
-* Abhängig vom Durchmesser
-* Üblicherweise sehr hoher Gewinn
+* Calcul avec la formule dans le recueil de formules
+* Dépend du diamètre
+* Habituellement gain très élevé
 
 ---
 [question:AG226]
 ---
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $d = \qty{30}{\centi\meter}$
-* gegeben: $\eta_{eff} = 1$
+* donné: $d = \qty{30}{\centi\meter}$
+* donné: $\eta_{eff} = 1$
 </left>
 <right>
-* gegeben: $f = \qty{5,7}{\giga\hertz}$
-* gesucht: $g_i$
+* donné: $f = \qty{5,7}{\giga\hertz}$
+* recherché: $g_i$
 </right>
 
 <fragment>
@@ -56,14 +56,14 @@ $\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\
 ---
 [question:AG227]
 ---
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $d = \qty{80}{\centi\meter}$
-* gegeben: $\eta_{eff} = 1$
+* donné: $d = \qty{80}{\centi\meter}$
+* donné: $\eta_{eff} = 1$
 </left>
 <right>
-* gegeben: $f = \qty{5,7}{\giga\hertz}$
-* gesucht: $g_i$
+* donné: $f = \qty{5,7}{\giga\hertz}$
+* recherché: $g_i$
 </right>
 
 <fragment>
@@ -75,14 +75,14 @@ $\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\
 ---
 [question:AG228]
 ---
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $d = \qty{80}{\centi\meter}$
-* gegeben: $\eta_{eff} = 1$
+* donné: $d = \qty{80}{\centi\meter}$
+* donné: $\eta_{eff} = 1$
 </left>
 <right>
-* gegeben: $f = \qty{10,4}{\giga\hertz}$
-* gesucht: $g_i$
+* donné: $f = \qty{10,4}{\giga\hertz}$
+* recherché: $g_i$
 </right>
 
 <fragment>
@@ -94,14 +94,14 @@ $\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\
 ---
 [question:AG229]
 ---
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $d = \qty{120}{\centi\meter}$
-* gegeben: $\eta_{eff} = 1$
+* donné: $d = \qty{120}{\centi\meter}$
+* donné: $\eta_{eff} = 1$
 </left>
 <right>
-* gegeben: $f = \qty{10,4}{\giga\hertz}$
-* gesucht: $g_i$
+* donné: $f = \qty{10,4}{\giga\hertz}$
+* recherché: $g_i$
 </right>
 
 <fragment>

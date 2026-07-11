@@ -1,9 +1,9 @@
-## Parasitäre Schwingungen in HF-Leistungsverstärkern
+## Oscillations parasites dans les amplificateurs de puissance HF
 
-* Entstehen durch unerwünschte Rückkopplungen
-* Ursachen: Kapazitive oder induktive Kopplungen zwischen Elementen
-* Keine direkte Verbindung zur Betriebsfrequenz des Senders
-* Äußern sich durch Leistungsschwankungen beim Abstimmen des Senders (TX-Anzeige)
+* Causées par des rétroactions indésirables
+* Causes : Couplages capacitifs ou inductifs entre les éléments
+* Pas de connexion directe avec la fréquence de fonctionnement de l'émetteur
+* Se manifestent par des fluctuations de puissance lors de l'accord de l'émetteur (indication TX)
 
 ---
 [question:AJ212]
@@ -12,15 +12,15 @@
 [question:AJ213]
 
 --- style="font-size: 0.7em;"
-### Maßnahmen zur Unterdrückung parasitärer Schwingungen
+### Mesures pour la suppression des oscillations parasites
 
 <left>
-[picture:767:a_parasitaere_schwingungen_parallelwiderstand:Parallel-Widerstand am Transformatur zur Verhinderung von parasitären Schwingungen]
+[picture:767:a_parasitaere_schwingungen_parallelwiderstand:Résistance parallèle sur le transformateur pour empêcher les oscillations parasites]
 </left>
 <right>
-* In VHF-Sendern: Ferrit-Perlen am Emitter des Leistungstransistors (nah am Transistor)
-* In breitbandigen Kurzwellen-Endstufen: Parallel-Widerstand am Transformator zur Bedämpfung
-* Ziel: Verringerung der Schwingneigung des Verstärkers
+* Dans les émetteurs VHF : Perles de ferrite à l'émetteur du transistor de puissance (près du transistor)
+* Dans les étages finaux à large bande des ondes courtes : Résistance parallèle au transformateur pour l'atténuation
+* Objectif : Réduction de la tendance à l'oscillation de l'amplificateur
 </right>
 
 ---

@@ -1,31 +1,31 @@
-[picture:810:doppelsuper_blockschaltbild:Blockschaltbild eines Doppelsuper]
+[picture:810:doppelsuper_blockschaltbild:Schéma bloc d'un double superhétérodyne]
 
-1. HF-Teil mit Vorselektion
-2. Erster Mischer mit VFO
-3. Erster ZF-Verstärker mit Roofing-Filter
-4. Zweiter Mischer mit CO
-
---- data-transition="none"
-[picture:810:doppelsuper_blockschaltbild:Blockschaltbild eines Doppelsuper]
-
-5. Zweiter ZF-Verstärker mit Filter
-6. Dritter Mischer als Produktdetektor oder Demodulator ggf. mit BFO
-7. NF-Verstärker
+1. Partie HF avec présélection
+2. Premier mélangeur avec VFO
+3. Premier amplificateur ZF avec filtre Roofing
+4. Deuxième mélangeur avec CO
 
 --- data-transition="none"
-[picture:810:doppelsuper_blockschaltbild:Blockschaltbild eines Doppelsuper]
+[picture:810:doppelsuper_blockschaltbild:Schéma bloc d'un double superhétérodyne]
 
-* Verwendung von zwei Zwischenfrequenzen
-* Hohe 1. ZF $\rightarrow$ gute Spiegelfrequenzunterdrückung
-* Niedrige 2. ZF $\rightarrow$ hohe Trennschärfe
+5. Deuxième amplificateur ZF avec filtre
+6. Troisième mélangeur en tant que détecteur de produit ou démodulateur éventuellement avec BFO
+7. Amplificateur AF
+
+--- data-transition="none"
+[picture:810:doppelsuper_blockschaltbild:Schéma bloc d'un double superhétérodyne]
+
+* Utilisation de deux fréquences intermédiaires
+* Haute 1ère ZF $\rightarrow$ bonne suppression de la fréquence image
+* Basse 2ème ZF $\rightarrow$ haute sélectivité
 
 ---
-* Nach 1. ZF ist ein Eingangsfilter vor 2. Mischer
-* Spiegelfrequenz lässt sich durch großen Abstand gut unterdrücken
-* Nach 2. ZF Filter mit hoher Güte
-* Lässt sich für niedrige Frequenzen gut realisieren
-* ZF und gewünschte Empfangsfrequenz weit entfernt legen $\rightarrow$ Vermeidung des Direktempfangs der ZF
-* Die 1. ZF sollte das Doppelte der maximalen Empfangsfrequenz sein
+* Après la 1ère ZF, un filtre d'entrée avant le 2ème mélangeur
+* La fréquence image peut être bien supprimée grâce à un grand écart
+* Après la 2ème ZF, filtre avec un haut facteur de qualité
+* Peut être bien réalisé pour les basses fréquences
+* ZF et fréquence de réception souhaitée éloignées $\rightarrow$ Éviter la réception directe de la ZF
+* La 1ère ZF doit être le double de la fréquence de réception maximale
 
 ---
 [question:AF112]
@@ -34,11 +34,11 @@
 ---
 [question:AF114]
 ---
-### Roofing Filter
+### Filtre Roofing
 
-* Nach 1. Mischer schmales Filter (*Roofing Filter*)
-* Auf 1. ZF abgestimmt
-* Bandbreite mindestens so groß wie größte benötigte Empfangsbandbreite
+* Après le 1er mélangeur, filtre étroit (*filtre Roofing*)
+* Accordé sur la 1ère ZF
+* Bande passante au moins aussi grande que la plus grande bande passante de réception nécessaire
 
 ---
 [question:AF116]
@@ -47,9 +47,9 @@
 ---
 [question:AF117]
 ---
-### Oszillator-Frequenzen
-* Oszillatorfrequenzen sind jeweils ober- oder unterhalb der gewünschten Eingangsfrequenz
-* Es existieren für jeden Mischer zwei Lösungsmöglichkeiten
+### Fréquences de l'oscillateur
+* Les fréquences de l'oscillateur sont respectivement au-dessus ou en dessous de la fréquence d'entrée souhaitée
+* Il existe deux possibilités de solution pour chaque mélangeur
 
 <fragment>
 1. $f_\text{OSZ} = f_\text{ZF}\,+\,f_\text{E}$
@@ -59,39 +59,39 @@
 ---
 [question:AF210]
 --- style="font-size: smaller;"
-#### Lösungsweg
-* gegeben: $f_\text{E} = 3\dots\qty{30}{\mega\hertz}$
-* gegeben: $f_\text{ZF1} = \qty{50}{\mega\hertz}$
-* gesucht: $f_\text{OSZ}$
+#### Solution
+* donné: $f_\text{E} = 3\dots\qty{30}{\mega\hertz}$
+* donné: $f_\text{ZF1} = \qty{50}{\mega\hertz}$
+* recherché: $f_\text{OSZ}$
 
 <fragment>
 $f_\text{ZF} = |f_\text{E} − f_\text{OSZ}| \Rightarrow f_\text{OSZ} = f_\text{ZF} \pm f_\text{E}$
 </fragment>
 <fragment>
 <left>
-1. Lösung:
+1. Solution:
 $\begin{split}f_\text{OSZ} &= f_\text{ZF} \, + \, f_\text{E}\\ &= \qty{50}{\mega\hertz} \, + \, 3\dots\qty{30}{\mega\hertz}\\ &= 53\dots\qty{80}{\mega\hertz}\end{split}$
 </left>
 </fragment>
 <fragment>
 <right>
-2. Lösung:
+2. Solution:
 $\begin{split}f_\text{OSZ} &= f_\text{ZF} \, - \, f_\text{E}\\ &= \qty{50}{\mega\hertz} \, - \, 3\dots\qty{30}{\mega\hertz}\\ &= 47\dots\qty{20}{\mega\hertz}\end{split}$
 </right>
 </fragment>
 ---
 [question:AF120]
 --- style="font-size: smaller;"
-### Lösungsweg
+### Solution
 <left>
-* gegeben: $f_\text{E} = \qty{3,65}{\mega\hertz}$
-* gegeben: $f_\text{ZF1} = \qty{50}{\mega\hertz}$
+* donné: $f_\text{E} = \qty{3,65}{\mega\hertz}$
+* donné: $f_\text{ZF1} = \qty{50}{\mega\hertz}$
 </left>
 <right>
-* gegeben: $f_\text{ZF2} = \qty{9}{\mega\hertz}$
-* gegeben: $f_\text{NF} = \qty{455}{\kilo\hertz}$
+* donné: $f_\text{ZF2} = \qty{9}{\mega\hertz}$
+* donné: $f_\text{NF} = \qty{455}{\kilo\hertz}$
 </right>
-* gesucht: $f_\text{OSZ}$ für $f_\text{VFO}$, $f_\text{CO1}$, $f_\text{CO2}$
+* recherché: $f_\text{OSZ}$ pour $f_\text{VFO}$, $f_\text{CO1}$, $f_\text{CO2}$
 
 <fragment>
 $f_\text{ZF1} = \begin{cases}f_\text{E}\,+\,f_\text{OSZ}\\ f_\text{OSZ}\,-\,f_\text{E}\\ f_\text{E}\,-\,f_\text{OSZ}\end{cases} \Rightarrow f_\text{OSZ} = \begin{cases}f_\text{ZF}\,-\,f_\text{E}\\ f_\text{E}\,+\,f_\text{ZF}\\ f_\text{E}\,-\,f_\text{ZF}\end{cases}$
@@ -112,15 +112,15 @@ VFO: $\bold{\qty{46,35}{\mega\hertz}} \And \qty{53,65}{\mega\hertz}$, CO1: $\bol
 ---
 [question:AF118]
 --- style="font-size: smaller;"‚
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $f_\text{E} = \qty{21,1}{\mega\hertz}$
-* gegeben: $f_\text{ZF1} = \qty{9}{\mega\hertz}$
+* donné: $f_\text{E} = \qty{21,1}{\mega\hertz}$
+* donné: $f_\text{ZF1} = \qty{9}{\mega\hertz}$
 </left>
 <right>
-* gegeben: $f_\text{ZF2} = \qty{460}{\kilo\hertz}$
+* donné: $f_\text{ZF2} = \qty{460}{\kilo\hertz}$
 </right>
-* gesucht: $f_\text{VFO} \gt f_\text{E}$, $f_\text{CO} \lt f_\text{ZF1}$
+* recherché: $f_\text{VFO} \gt f_\text{E}$, $f_\text{CO} \lt f_\text{ZF1}$
 
 <fragment>
 $f_\text{ZF} = \begin{cases}f_\text{OSZ}\,-\,f_\text{E}\\ f_\text{E}\,-\,f_\text{OSZ}\end{cases} \Rightarrow f_\text{OSZ} = \begin{cases}f_\text{E}\,+\,f_\text{ZF}\\ f_\text{E}\,-\,f_\text{ZF}\end{cases}$
@@ -135,15 +135,15 @@ $f_\text{CO} = f_\text{ZF1}\,-\,f_\text{ZF2} = \qty{9}{\mega\hertz}\,-\,\qty{460
 ---
 [question:AF119]
 --- style="font-size: smaller;"‚
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $f_\text{E} = \qty{28}{\mega\hertz}$
-* gegeben: $f_\text{ZF1} = \qty{10,7}{\mega\hertz}$
+* donné: $f_\text{E} = \qty{28}{\mega\hertz}$
+* donné: $f_\text{ZF1} = \qty{10,7}{\mega\hertz}$
 </left>
 <right>
-* gegeben: $f_\text{ZF2} = \qty{460}{\kilo\hertz}$
+* donné: $f_\text{ZF2} = \qty{460}{\kilo\hertz}$
 </right>
-* gesucht: $f_\text{VFO} \gt f_\text{E}$, $f_\text{CO} \gt f_\text{ZF1}$
+* recherché: $f_\text{VFO} \gt f_\text{E}$, $f_\text{CO} \gt f_\text{ZF1}$
 
 <fragment>
 $f_\text{ZF} = \begin{cases}f_\text{OSZ}\,-\,f_\text{E}\\ f_\text{E}\,-\,f_\text{OSZ}\end{cases} \Rightarrow f_\text{OSZ} = \begin{cases}f_\text{E}\,+\,f_\text{ZF}\\ f_\text{E}\,-\,f_\text{ZF}\end{cases}$

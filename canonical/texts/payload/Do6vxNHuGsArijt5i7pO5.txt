@@ -1,30 +1,30 @@
 <left>
-[picture:482:n_seitenband:Amplitudenmodulation, Träger mit unterem (a) und oberen (b) Seitenband]
+[picture:482:n_seitenband:Modulation d'amplitude, porteuse avec bande latérale inférieure (a) et supérieure (b)]
 </left>
 <right>
-* Bei Amplitudenmodulation zusätzlich zum Träger zwei Seitenbänder $\rightarrow$ unteres bzw. oberes Seitenband
-* "lower sideband" (*LSB*) und "upper sideband" (*USB*)
-* Der Träger selbst enthält gar keine Information
+* En modulation d'amplitude, en plus de la porteuse, deux bandes latérales $\rightarrow$ bande latérale inférieure ou supérieure
+* "lower sideband" (*LSB*) et "upper sideband" (*USB*)
+* La porteuse elle-même ne contient aucune information
 </right>
 <note>
-* Der Träger selbst enthält gar keine Information und die Information des Modulationssignals wird jeweils in den Seitenbändern übertragen.
+* La porteuse elle-même ne contient aucune information et l'information du signal de modulation est transmise dans les bandes latérales.
 </note>
 ---
 
 <left>
-* Es reicht also, nur ein Seitenband auszusenden und auf den Träger und das andere Seitenband zu verzichten
-* Gesamte Sendeleistung wird für die Übertragung der Information genutzt
-* Belegte Bandbreite entspricht der Bandbreite des aufmodulierten Signals
+* Il suffit donc d'émettre une seule bande latérale et de renoncer à la porteuse et à l'autre bande latérale
+* La puissance d'émission totale est utilisée pour la transmission de l'information
+* La bande passante occupée correspond à la bande passante du signal modulé
 </left>
 <right>
-[picture:743:n_seitenband:Seitenbänder bei AM, LSB und USB im Vergleich]
-*Einseitenbandmodulation* bzw. *single-sideband (SSB)*
+[picture:743:n_seitenband:Bandes latérales en AM, LSB et USB en comparaison]
+*Modulation à bande latérale unique* ou *single-sideband (SSB)*
 </right>
 
 --- 
-USB steht für *Upper Sideband*
+USB signifie *Upper Sideband*
 
-(im Deutschen wird es gerne mit Unteres Seitenband verwechselt)
+(en allemand, on a tendance à le confondre avec la bande latérale inférieure)
 
 ---
 [question:NE203]

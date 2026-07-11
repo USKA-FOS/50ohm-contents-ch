@@ -1,11 +1,11 @@
-Zunächst berechnen wir den induktiven Blindwiderstand der Spule:
+Tout d'abord, nous calculons la réactance inductive de la bobine :
 
 $ X_L = 2 \pi f L $
 
-Werte einsetzen:
+Insérer les valeurs :
 
 $ X_L = 2 \pi \cdot \qty{1}{\mega\hertz} \cdot \qty{100}{\micro\henry} \approx \qty{628}{\ohm} $
 
-Nun berechnen wir den Betrag des Scheinwiderstands mit dem Satz des Pythagoras:
+Maintenant, nous calculons la valeur du module de l'impédance avec le théorème de Pythagore :
 
 $ |Z| = \sqrt{R^2 + X_L^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{628}{\ohm})^2} \approx \qty{636}{\ohm} $

@@ -1,22 +1,22 @@
 <left>
-* *Dummy Load* wird für Abgleicharbeiten und Messungen an Sendern verwendet
-* Ist ein Lastwiderstand
-* Sendeleistung wird fast vollständig in Wärme umgesetzt
-* auch: *Abschlusswiderstand* oder *künstliche Antenne*
+* *Charge fictive* est utilisée pour les travaux d'adaptation et les mesures sur les émetteurs
+* C'est une résistance de charge
+* La puissance d'émission est presque entièrement convertie en chaleur
+* également : *Résistance de terminaison* ou *antenne artificielle*
 </left>
 <right>
-[photo:68:n_antennenanpassung_dummy_load:Dummy Load]
+[photo:68:n_antennenanpassung_dummy_load:Charge fictive]
 </right>
 
 <note>
-* Dummy Load lässt sich am Funkgerät nicht von gut angepasster Antenne unterscheiden
+* La charge fictive ne peut pas être distinguée d'une antenne bien adaptée sur l'appareil radio
 </note>
 
 ---
-## Abgleicharbeiten und Messungen
+## Travaux d'adaptation et mesures
 
-* Immer an möglichst angepasster Antenne oder Dummy Load
-* Ansonsten kann die Reflektion der Leistung die Endstufe zerstören
+* Toujours sur une antenne aussi adaptée que possible ou une charge fictive
+* Sinon, la réflexion de la puissance peut détruire l'étage final
 
 ---
 [question:VD111]
@@ -29,12 +29,12 @@
 
 ---
 
-## Abstimmen
+## Accorder
 
-* Aussendungen zum Abstimmen lassen sich nicht vermeiden
-* Z.B. bei automatischen Anpassgeräten
-* So kurz wie möglich
-* Auf freier Frequenz
+* Les émissions pour l'accord ne peuvent pas être évitées
+* Par exemple, avec des appareils d'adaptation automatiques
+* Aussi court que possible
+* Sur une fréquence libre
 
 ---
 [question:VD112]

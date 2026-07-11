@@ -1,81 +1,81 @@
-### 1. Mikrofon
+### 1. Microphone
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Diagramme en blocs d'un émetteur simple]
 </left>
 <right>
-* Wandelt Schallwellen in NF-Signal um
+* Convertit les ondes sonores en signal BF
 </right>
 
 --- data-transition="none"
 
-### 2. Niederfrequenz-Verstärker
+### 2. Amplificateur basse fréquence
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Diagramme en blocs d'un émetteur simple]
 </left>
 <right>
-* Verstärkt das NF-Signal vom Mikrofon
+* Amplifie le signal BF du microphone
 </right>
 
 --- data-transition="none"
 
-### 3. Mischer
+### 3. Mélangeur
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Diagramme en blocs d'un émetteur simple]
 </left>
 <right>
-* Mischt das NF-Signal mit dem HF-Träger vom Oszillator (4)
+* Mélange le signal BF avec la porteuse HF de l'oscillateur (4)
 </right>
 <note>
-Wenn ein Mischer zwei Signale zusammenfügt, dann entspricht das mathematisch einer Multiplikation der beiden Signale. Daher findet sich auch das Malkreuz im Block-Symbol für den Mischer wieder. Wie ein Mischer genau funktioniert, ist Inhalt des Kurses für die Klasse A.
+Lorsque un mélangeur combine deux signaux, cela correspond mathématiquement à une multiplication des deux signaux. C'est pourquoi le symbole de multiplication se retrouve également dans le symbole de bloc pour le mélangeur. La manière dont un mélangeur fonctionne exactement fait partie du cours pour la classe A.
 </note>
 
 --- data-transition="none"
 
-### 4. Oszillator
+### 4. Oscillateur
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Diagramme en blocs d'un émetteur simple]
 </left>
 <right>
-* Erzeugt hochfrequente Schwingung der Sendefrequenz
+* Génère une oscillation haute fréquence de la fréquence d'émission
 </right>
 
 --- data-transition="none"
 
-### 5. Bandpassfilter
+### 5. Filtre passe-bande
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Diagramme en blocs d'un émetteur simple]
 </left>
 <right>
-* Mischer erzeugt unerwünschte Frequenzen
-* Mit dem Bandpassfilter werden nur die gewünschten Frequenzen durchgelassen
+* Le mélangeur produit des fréquences indésirables
+* Seules les fréquences souhaitées sont laissées passer par le filtre passe-bande
 </right>
 
 --- data-transition="none"
 
-### 6. Verstärker
+### 6. Amplificateur
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Diagramme en blocs d'un émetteur simple]
 </left>
 <right>
-* Verstärkt das HF-Signal auf gewünschte Sendeleistung
+* Amplifie le signal HF à la puissance d'émission souhaitée
 </right>
 
 --- data-transition="none"
 
-### 7. Tiefpassfilter
+### 7. Filtre passe-bas
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Diagramme en blocs d'un émetteur simple]
 </left>
 <right>
-* Verstärker kann unerwünschte Frequenzen erzeugen
-* Nur die gewünschten Frequenzen werden durchgelassen
+* L'amplificateur peut générer des fréquences indésirables
+* Seules les fréquences souhaitées sont laissées passer
 </right>
 
 --- data-transition="none"
@@ -83,11 +83,11 @@ Wenn ein Mischer zwei Signale zusammenfügt, dann entspricht das mathematisch ei
 ### 8. Antenne
 
 <left>
-[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
+[picture:735:aufbau_sender:Diagramme en blocs d'un émetteur simple]
 </left>
 <right>
-* HF-Signal wird auf Antenne gegeben
-* Antenne strahlt es als Funkwelle ab
+* Le signal HF est appliqué à l'antenne
+* L'antenne le rayonne sous forme d'onde radio
 </right>
 
 ---
@@ -101,7 +101,7 @@ Wenn ein Mischer zwei Signale zusammenfügt, dann entspricht das mathematisch ei
 
 ---
 
-Eine Amateurfunkanlage muss nach den allgemein anerkannten Regeln der Technik aufgebaut und betrieben werden. Das gilt natürlich auch ganz besonders für Sender.
+Une installation de radioamateur doit être construite et exploitée selon les règles généralement reconnues de la technique. Cela s'applique bien sûr tout particulièrement aux émetteurs.
 
 ---
 [question:VD106]

@@ -1,16 +1,16 @@
-## Antialiasingfilter vor dem A/D-Umsetzer
+## Filtre anti-aliasing avant le convertisseur A/N
 
-* Vor dem A/D-Umsetzer wird ein Filter eingesetzt, um Signalanteile höherer Frequenzen zu unterdrücken  
-* Solche Filter werden als Antialiasingfilter bezeichnet  
-* Ziel: Vermeidung von Alias-Effekten durch Abschwächung unerwünschter Frequenzen
+* Un filtre est utilisé avant le convertisseur A/N pour supprimer les composantes de signal de fréquences plus élevées  
+* De tels filtres sont appelés filtres anti-aliasing  
+* Objectif : Éviter les effets d'aliasing en atténuant les fréquences indésirables
 
 ---
 
-### Filtertypen und Anforderungen
+### Types de filtres et exigences
 
-* Tiefpass- oder Bandpassfilter können eingesetzt werden  
-* Das Filter muss Signalanteile oberhalb der halben Sampling-Frequenz wirksam dämpfen  
-* Voraussetzung: Die Abtastfrequenz muss mehr als das Doppelte der zu erfassenden Signalfrequenz betragen
+* Des filtres passe-bas ou passe-bande peuvent être utilisés  
+* Le filtre doit atténuer efficacement les composantes de signal au-dessus de la moitié de la fréquence d'échantillonnage  
+* Condition préalable : La fréquence d'échantillonnage doit être plus de deux fois supérieure à la fréquence du signal à capturer
 
 ---
 

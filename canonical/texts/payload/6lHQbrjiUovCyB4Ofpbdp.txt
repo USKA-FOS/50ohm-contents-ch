@@ -1,27 +1,27 @@
-* Passt der Speisewiderstand der Antenne nicht zum Wellenwiderstand der Zuleitung, kommt es zu einer *Reflexion*
-* Sendeleistung wird zum Funkgerät zurück reflektiert $\rightarrow$ kann nicht an der Antenne abgestrahlt werden
-* Stimmen Speisewiderstand der Antenne und Wellenwiderstand der Speiseleitung überein, liegt *Anpassung* vor
+* Si l'impédance d'alimentation de l'antenne ne correspond pas à l'impédance de la ligne d'alimentation, il se produit une *réflexion*
+* La puissance d'émission est réfléchie vers l'appareil radio $\rightarrow$ ne peut pas être rayonnée par l'antenne
+* Si l'impédance d'alimentation de l'antenne et l'impédance de la ligne d'alimentation coïncident, il y a *adaptation*
 
 ---
 
 ## SWR-Meter
 
-Misst gleichzeitig die Sendeleistung zur Antenne und die reflektierte, rücklaufende Leistung
+Mesure simultanément la puissance d'émission vers l'antenne et la puissance réfléchie, réfléchie
 
 <left>
-[photo:144:swr_meter:Ein einfaches SWR-Meter zum Bestimmen des Stehwellenverhältnisses]
+[photo:144:swr_meter:Un simple SWR-Meter pour déterminer le rapport d’ondes stationnaires]
 </left>
 <right>
-[photo:143:swr_meter_kreuzzeiger:SWR-Meter mit Kreuzzeiger, linker Zeiger für die vorlaufende und rechter Zeiger für die rücklaufende Leistung; um das SWR abzulesen wird der grünen Linie am Schnittpunkt beider Zeiger nach unten gefolgt]
+[photo:143:swr_meter_kreuzzeiger:SWR-Meter avec aiguille croisée, l'aiguille de gauche pour la puissance incidente et l'aiguille de droite pour la puissance réfléchie ; pour lire le SWR, suivez la ligne verte au point d'intersection des deux aiguilles vers le bas]
 </right>
 ---
-Wird zwischen Transceiver und Antenne eingeschleift oder ist bereits im Transceiver eingebaut
+Inséré entre l'émetteur-récepteur et l'antenne ou déjà intégré dans l'émetteur-récepteur
 
 <left>
-[picture:670:n_trx_kabel_swr_antenne:Prinzipbild SWR-Meter zwischen Transceiver  und Antenne]
+[picture:670:n_trx_kabel_swr_antenne:Schéma du SWR-Meter entre l'émetteur-récepteur et l'antenne]
 </left>
 <right>
-[photo:67:n_swr_display:Display eines Transceivers]
+[photo:67:n_swr_display:Affichage d'un émetteur-récepteur]
 </right>
 ---
 [question:NI201]
@@ -34,10 +34,10 @@ Wird zwischen Transceiver und Antenne eingeschleift oder ist bereits im Transcei
 [question:NI202]
 
 ---
-## Gute Anpassung
+## Bonne adaptation
 
-* Bei perfekter Anpassung wird der Wert 1 angezeigt
-* Der beste erreichbare Wert
+* En cas d'adaptation parfaite, la valeur 1 est affichée
+* La meilleure valeur atteignable
 
 ---
 [question:NG301]
@@ -46,12 +46,12 @@ Wird zwischen Transceiver und Antenne eingeschleift oder ist bereits im Transcei
 [question:NI203]
 
 ---
-## Schlechte Anpassung
+## Mauvaise adaptation
 
-* Bei schlechter Anpassung wird nahe unendlich angezeigt
-* Schlechte Anpassung an Übertragungsleitung
-* Schlechte Anpassung an Antenne
-* Defekte Übertragungsleitung
+* En cas de mauvaise adaptation, une valeur proche de l'infini est affichée
+* Mauvaise adaptation sur la ligne de transmission
+* Mauvaise adaptation sur l'antenne
+* Ligne de transmission défectueuse
 
 ---
 [question:NG302]
@@ -61,14 +61,14 @@ Wird zwischen Transceiver und Antenne eingeschleift oder ist bereits im Transcei
 [question:NG303]
 
 ---
-## Hohe Kabeldämpfung
+## Atténuation élevée du câble
 
-* Verringert das reflektierte Signal
-* Führt zur Verfälschung der Messung
+* Réduit le signal réfléchi
+* Fausse la mesure
 
 ---
 [question:NG208]
 
 <note>
-* SWR wird scheinbar besser, aber nur die reflektierte Leistung wird gedämpft
+* Le ROS semble s'améliorer, mais seule la puissance réfléchie est atténuée
 </note>

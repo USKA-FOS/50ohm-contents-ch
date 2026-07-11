@@ -1,40 +1,40 @@
-Im Rahmen der digitalen Signalverarbeitung beschreibt das *Mapping* den Schritt, bei dem digitale Daten in spezifische Signalpunkte (Symbole) umgewandelt werden, die über das Übertragungssystem gesendet werden können. Dies ist ein entscheidender Prozess in der Modulation, insbesondere bei Quadraturamplitudenmodulationen (QAM) und Phasenumtastungen wie QPSK (Quadrature Phase Shift Keying).
+Dans le cadre du traitement numérique des signaux, le *mapping* décrit l'étape où les données numériques sont converties en points de signal spécifiques (symboles) qui peuvent être transmis par le système de transmission. Il s'agit d'un processus crucial dans la modulation, en particulier dans les modulations d'amplitude en quadrature (QAM) et les modulations de phase comme la QPSK (Quadrature Phase Shift Keying).
 
-Um die Symbole zu visualisieren, verwenden wir ein *Konstellationsdiagramm* wie in Abbildung [ref:a_konstellation], das die möglichen Signalpunkte in einem zweidimensionalen Raum darstellt. Man bezeichnet die Achsen oft als In-Phase (I) und Quadrature (Q). Jeder Punkt im Diagramm repräsentiert eine bestimmte Amplitude und Phase, die durch das Mapping einer bestimmten Bitkombination zugeordnet ist, wie in Abbildung [ref:a_qpsk] dargestellt.
+Pour visualiser les symboles, nous utilisons un *diagramme de constellation* comme dans la figure [ref:a_konstellation], qui représente les points de signal possibles dans un espace bidimensionnel. On désigne souvent les axes comme étant en phase (I) et en quadrature (Q). Chaque point du diagramme représente une amplitude et une phase spécifiques, qui sont associées à une combinaison particulière de bits, comme le montre la figure [ref:a_qpsk].
 
 <margin>
-[picture:1060:a_konstellation:Konstellationsdiagramm]
+[picture:1060:a_konstellation:Diagramme de constellation]
 </margin>
 
 ---
 
-Schauen wir uns im ersten Schritt QPSK in Abbildung [ref:a_qpsk] an: Bei QPSK werden jeweils zwei Bits zu einem Symbol zusammengefasst. Da wir zwei Bits pro Symbol haben, ergeben sich vier mögliche Kombinationen ($\num{00}$, $\num{01}$, $\num{10}$, $\num{11}$). Jede dieser Kombinationen wird einem spezifischen Signalpunkt zugeordnet, der durch eine bestimmte Phase repräsentiert wird.
+Examinons d'abord la QPSK dans la figure [ref:a_qpsk] : dans la QPSK, deux bits sont regroupés en un symbole. Comme nous avons deux bits par symbole, cela donne quatre combinaisons possibles ($\num{00}$, $\num{01}$, $\num{10}$, $\num{11}$). Chacune de ces combinaisons est associée à un point de signal spécifique, représenté par une phase particulière.
 
 <margin>
-[picture:1059:a_qpsk:I-Q-Diagramm für ein QPSK-Mapping]
+[picture:1059:a_qpsk:Diagramme I-Q pour un mapping QPSK]
 </margin>
 
 ---
 
-Bei QPSK hat jedes Symbol eine eigene Phase. Die Phasen werden typischerweise in $\qty{90}{\degree}$-Schritten definiert und auf die vier möglichen Bitkombinationen gemapped, zum Beispiel:
+Dans la QPSK, chaque symbole a sa propre phase. Les phases sont généralement définies par des incréments de $\qty{90}{\degree}$ et sont mappées aux quatre combinaisons de bits possibles, par exemple :
 
-- $\num{11}$ entspricht $\qty{45}{\degree}$
-- $\num{01}$ entspricht $\qty{135}{\degree}$
-- $\num{00}$ entspricht $\qty{225}{\degree}$
-- $\num{10}$ entspricht $\qty{315}{\degree}$
+- $\num{11}$ correspond à $\qty{45}{\degree}$
+- $\num{01}$ correspond à $\qty{135}{\degree}$
+- $\num{00}$ correspond à $\qty{225}{\degree}$
+- $\num{10}$ correspond à $\qty{315}{\degree}$
 
-Die Amplitude der Signale bleibt dabei konstant, und die Information wird ausschließlich durch die Phasenlage übertragen. Deshalb liegen die vier Punkte im Konstellationsdiagramm für QPSK auf einem Kreis. 
+L'amplitude des signaux reste constante, et l'information est transmise exclusivement par la position de phase. C'est pourquoi les quatre points du diagramme de constellation pour la QPSK se trouvent sur un cercle. 
 
 <indepth>
-Genau genommen gibt es aber auch noch andere Möglichkeiten, die Phasen den Bitkombinationen zuzuordnen, solange sie eindeutig sind. Das hier gezeigte Mapping ist nur ein Beispiel. In dem hier gezeigten Beispiel wurden die Zuordnungen so gewählt, dass sich zwischen benachbarten Symbolen nur wenige Bits ändern. Das hat den Vorteil, dass unter Rauscheinfluss nur wenige Bitfehler entstehen. Dafür wird der Gray-Code verwendet, der in den meisten digitalen Übertragungsverfahren Anwendung findet.
+En réalité, il existe également d'autres possibilités pour associer les phases aux combinaisons de bits, à condition qu'elles soient univoques. Le mapping présenté ici n'est qu'un exemple. Dans cet exemple, les associations ont été choisies de manière à ce que peu de bits changent entre les symboles voisins. Cela présente l'avantage que, sous l'effet du bruit, peu d'erreurs de bit se produisent. Pour cela, on utilise le code de Gray, qui est utilisé dans la plupart des procédés de transmission numérique.
 </indepth>
 
 ---
 
-Jeder dieser Punkte repräsentiert ein Symbol. Der Empfänger kann anhand der Phasenlage bestimmen, welche Bitkombination gesendet wurde. Das Konstellationsdiagramm bei QPSK zeigt vier Signalpunkte im rechten Winkel zueinander, die den vier verwendeten Phasen entsprechen. Die große Trennung zwischen den einzelnen Phasen ermöglicht eine zuverlässige Decodierung auch unter rauschbehafteten Bedingungen.
+Chacun de ces points représente un symbole. Le récepteur peut déterminer, à partir de la position de phase, quelle combinaison de bits a été envoyée. Le diagramme de constellation dans la QPSK montre quatre points de signal à angle droit les uns par rapport aux autres, correspondant aux quatre phases utilisées. La grande séparation entre les phases individuelles permet un décodage fiable même dans des conditions bruitées.
 
-Ändert man neben der Phase auch die Amplitude, so spricht man von einer Quadraturamplitudenmodulation (QAM). Bei QAM werden sowohl die Amplitude als auch die Phase variiert, um mehr Bits pro Symbol zu übertragen. Zum Beispiel kann bei 16-QAM jedes Symbol vier Bits repräsentieren, was zu 16 möglichen Signalpunkten im Konstellationsdiagramm führt. Ein Beispiel für ein 16-QAM-Mapping ist in Abbildung [ref:a_qam] dargestellt.
+Si l'on modifie non seulement la phase mais aussi l'amplitude, on parle alors d'une modulation d'amplitude en quadrature (QAM). Dans la QAM, à la fois l'amplitude et la phase sont modifiées pour transmettre plus de bits par symbole. Par exemple, dans le cas de la 16-QAM, chaque symbole peut représenter quatre bits, ce qui conduit à 16 points de signal possibles dans le diagramme de constellation. Un exemple de mapping 16-QAM est représenté dans la figure [ref:a_qam].
 
 <margin>
-[picture:1061:a_qam:I-Q-Diagramm für ein 16-QAM-Mapping]
+[picture:1061:a_qam:Diagramme I-Q pour un mapping 16-QAM]
 </margin>

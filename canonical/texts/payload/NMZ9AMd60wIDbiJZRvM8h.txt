@@ -1,11 +1,11 @@
-## Bandbreite
+## Bande passante
 <left>
-* Im Gegensatz zu AM wird weniger als die halbe Bandbreite verwendet
-* Maximal $\qty{2,7}{\kilo\hertz}$
-* Entspricht dem NF-Signal
+* Contrairement à l'AM, moins de la moitié de la bande passante est utilisée
+* Maximum $\qty{2,7}{\kilo\hertz}$
+* Correspond au signal BF
 </left>
 <right>
-[picture:743:e_bandbreite_am_ssb:Bandbreite von AM, USB und LSB]
+[picture:743:e_bandbreite_am_ssb:Bande passante de l'AM, de l'USB et du LSB]
 </right>
 
 ---
@@ -20,57 +20,57 @@
 ## Modulation
 
 <left>
-* Durch Mischung und Filterung
-* Mit der Vorauswahl von USB und LSB wird die Trägerfrequenz gewählt
-* Durch den Mischer entstehen zwei Frequenzen
-* Im Bandfilter wird nur eine Frequenz durchgelassen
+* Par mélange et filtrage
+* Avec la présélection de l'USB et du LSB, la fréquence porteuse est choisie
+* Deux fréquences sont générées par le mélangeur
+* Un filtre passe-bande ne laisse passer qu'une fréquence
 </left>
 <right>
-[picture:500:e_ssb_modulation:Blockschaltbild zur Modulation von SSB mit der Filtermethode]
+[picture:500:e_ssb_modulation:Schéma bloc pour la modulation de SSB avec la méthode de filtrage]
 </right>
 
 ---
 <left>
-* Der Trick ist hier, dass das Bandfilter nur eine Resonanzfrequenz hat
-* Durch die Verschiebung der Trägerfrequenz im Oszillator wird dann das gewünschte Seitenband durchgelassen
+* Le truc ici est que le filtre passe-bande n'a qu'une fréquence de résonance
+* En décalant la fréquence porteuse dans l'oscillateur, la bande latérale souhaitée est alors laissée passer
 </left>
 <right>
-[picture:500:e_ssb_modulation:Blockschaltbild zur Modulation von SSB mit der Filtermethode]
+[picture:500:e_ssb_modulation:Schéma bloc pour la modulation de SSB avec la méthode de filtrage]
 </right>
 ---
 <left>
-Beispiel LSB:
-* Mikrofon: $\qty{300}{\hertz}$ - $\qty{3}{\kilo\hertz}$
-* LSB-Oszillator: $\qty{9001,5}{\kilo\hertz}$
-* DSB-Signal:<br/> a) $\qtyrange{8998,5}{9001,2}{\kilo\hertz}$<br/> b) $\qtyrange{9001,8}{9004,5}{\kilo\hertz}$
-* Filter: $\qty{9000}{\kilo\hertz}\pm\qty{1,5}{\kilo\hertz}$
-* SSB-Signal:<br/> $\qtyrange{8998,5}{9001,2}{\kilo\hertz}$
+Exemple LSB:
+* Microphone: $\qty{300}{\hertz}$ - $\qty{3}{\kilo\hertz}$
+* Oscillateur LSB: $\qty{9001,5}{\kilo\hertz}$
+* Signal DSB:<br/> a) $\qtyrange{8998,5}{9001,2}{\kilo\hertz}$<br/> b) $\qtyrange{9001,8}{9004,5}{\kilo\hertz}$
+* Filtre: $\qty{9000}{\kilo\hertz}\pm\qty{1,5}{\kilo\hertz}$
+* Signal SSB:<br/> $\qtyrange{8998,5}{9001,2}{\kilo\hertz}$
 </left>
 <right>
-[picture:831:e_ssb_modulation_lsb:Frequenzen mit der Filtermethode bei LSB]
-[picture:940:e_ssb_modulation_lsb_spektrum:Spektrum mit der Filtermethode bei LSB]
+[picture:831:e_ssb_modulation_lsb:Fréquences avec la méthode de filtrage pour le LSB]
+[picture:940:e_ssb_modulation_lsb_spektrum:Spectre avec la méthode de filtrage pour le LSB]
 </right>
 <note>
-* Schalter im Bild sollte auf LSB stehen
-* Nur das Signal von a) wird durchgelassen
-* Das SSB-Signal kann wieder gemischt werden für eine Aussendung im Afu-Band
+* Le commutateur dans l'image doit être sur LSB
+* Seul le signal de a) est laissé passer
+* Le signal SSB peut être à nouveau mélangé pour une émission dans la bande des AFU
 </note>
 ---
 <left>
-Beispiel USB:
-* Mikrofon: $\qty{300}{\hertz}$ - $\qty{3}{\kilo\hertz}$
-* USB-Oszillator: $\qty{8998,5}{\kilo\hertz}$
-* DSB-Signal:<br/> a) $\qtyrange{8995,5}{8998,2}{\kilo\hertz}$<br/> b) $\qtyrange{8998,8}{9001,5}{\kilo\hertz}$
-* Filter: $\qty{9000}{\kilo\hertz}\pm\qty{1,5}{\kilo\hertz}$
-* SSB-Signal:<br/> $\qtyrange{8998,8}{9001,5}{\kilo\hertz}$
+Exemple USB:
+* Microphone: $\qty{300}{\hertz}$ - $\qty{3}{\kilo\hertz}$
+* Oscillateur USB: $\qty{8998,5}{\kilo\hertz}$
+* Signal DSB:<br/> a) $\qtyrange{8995,5}{8998,2}{\kilo\hertz}$<br/> b) $\qtyrange{8998,8}{9001,5}{\kilo\hertz}$
+* Filtre: $\qty{9000}{\kilo\hertz}\pm\qty{1,5}{\kilo\hertz}$
+* Signal SSB:<br/> $\qtyrange{8998,8}{9001,5}{\kilo\hertz}$
 </left>
 <right>
-[picture:832:e_ssb_modulation_usb:Frequenzen mit der Filtermethode bei USB]
-[picture:941:e_ssb_modulation_usb_spektrum:Spektrum mit der Filtermethode bei USB]
+[picture:832:e_ssb_modulation_usb:Fréquences avec la méthode de filtrage pour l'USB]
+[picture:941:e_ssb_modulation_usb_spektrum:Spectre avec la méthode de filtrage pour l'USB]
 </right>
 <note>
-* Nur das Signal von b) wird durchgelassen
-* Das SSB-Signal kann wieder gemischt werden für eine Aussendung im Afu-Band
+* Seul le signal de b) est laissé passer
+* Le signal SSB peut être à nouveau mélangé pour une émission dans la bande des AFU
 </note>
 
 ---
@@ -79,24 +79,24 @@ Beispiel USB:
 [question:EE204]
 
 ---
-### NF-Signal
+### Signal BF
 
 <left>
-* Für Sprache reicht zwischen $\qty{300}{\hertz}$ und $\qty{3000}{\hertz}$
-* Entspricht $\qty{2,7}{\kilo\hertz}$
-* Es werden auch kleinere Filter, z.B. $\qty{2,4}{\kilo\hertz}$ verwendet
-* An vielen TRX lassen sich die Filter einstellen
+* Pour la parole, entre $\qty{300}{\hertz}$ et $\qty{3000}{\hertz}$
+* Correspond à $\qty{2,7}{\kilo\hertz}$
+* Des filtres plus petits, par exemple $\qty{2,4}{\kilo\hertz}$, sont également utilisés
+* Sur de nombreux TRX, les filtres peuvent être réglés
 </left>
 <right>
-* Wird ein NF-Signal mit größerer Bandbreite verwendet, steigt die HF-Bandbreite
-* Sollte vermieden werden, um benachbarte Signale nicht zu stören
-* Auf maximale Bandbreite im Bandplan achten
+* Si un signal BF avec une bande passante plus grande est utilisé, la bande passante HF augmente
+* Cela doit être évité pour ne pas perturber les signaux voisins
+* Faire attention à la bande passante maximale dans le plan de bande
 </right>
 
 ---
 [question:EJ211]
 <note>
-* Wenn die unteren $\qty{300}{\hertz}$ der NF abgezogen werden, sind es wieder $\qty{2,7}{\kilo\hertz}$
+* Si les $\qty{300}{\hertz}$ inférieurs du BF sont soustraits, il reste $\qty{2,7}{\kilo\hertz}$
 </note>
 ---
 [question:EF310]
@@ -104,10 +104,10 @@ Beispiel USB:
 [question:EE207]
 
 ---
-## Mikrofonverstärkung
-* Mit der NF-Leistung wird die Leistung der HF gesteuert
-* Zu leises Mikrofon bewirkt weniger Ausgangleistung am Sender
-* Eine zu starke Mikrofonverstärkung kann Störungen bei Stationen auf dicht benachbarten Frequenzen verursachen
+## Amplification du microphone
+* La puissance BF contrôle la puissance HF
+* Un microphone trop silencieux entraîne une puissance de sortie plus faible à l'émetteur
+* Une amplification trop forte du microphone peut causer des perturbations sur les stations à des fréquences voisines
 
 ---
 [question:EE206]

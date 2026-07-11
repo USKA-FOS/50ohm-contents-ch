@@ -1,25 +1,25 @@
-Dieser Alt-Text wurde noch nicht überprüft.
+Ce texte alternatif n'a pas encore été vérifié.
 
-Kurzfassung: Netzwerk-Blockdiagramm mit zwei als „Router“ beschrifteten Routersymbolen, den Bereichen „Server-netz“, „internes Netz“ und „Internet-anschluss“, einem Laptop und mehreren orange/blauen Zahlenblöcken an den Verbindungen.
+Résumé : Diagramme en blocs de réseau avec deux symboles de routeur marqués "Routeur", les domaines "Réseau de serveurs", "Réseau interne" et "Connexion Internet", un ordinateur portable et plusieurs blocs de nombres orange/bleus sur les liaisons.
 
-Detailbeschreibung:
-- Oben mittig befindet sich eine Wolke mit der Beschriftung „Server-netz“. Links und rechts führt jeweils eine horizontale Leitung zu einem runden Routersymbol (Kreis mit vier Pfeilen nach oben, rechts, unten, links), beide mit der Textbeschriftung „Router“.
-- Links unten ist eine Wolke mit der Beschriftung „internes Netz“, die über eine senkrechte Leitung mit dem linken Router verbunden ist. Rechts neben dieser Wolke steht ein Laptop, per kurzer horizontaler Linie mit der Wolke verbunden.
-- Rechts unten steht der Text „Internet-anschluss“, von dem eine senkrechte Leitung nach oben zum rechten Router führt.
+Description détaillée :
+- En haut au centre se trouve un nuage marqué "Réseau de serveurs". À gauche et à droite, une conduite horizontale mène à un symbole de routeur rond (cercle avec quatre flèches vers le haut, la droite, le bas, la gauche), tous deux marqués "Routeur".
+- En bas à gauche se trouve un nuage marqué "Réseau interne", relié au routeur de gauche par une conduite verticale. À droite de ce nuage se trouve un ordinateur portable, relié au nuage par une courte ligne horizontale.
+- En bas à droite se trouve le texte "Connexion Internet", d'où une conduite verticale mène vers le haut au routeur de droite.
 
-Zahlenblöcke (jeweils zwei Reihen mit vier kleinen Kästchen; Orange und Blau):
-- An der oberen Leitung zwischen linkem Router und „Server-netz“:
-  - obere Reihe: Orange „141“, Orange „17“, Orange „5“, Blau „18“
-  - untere Reihe: Orange „255“, Orange „255“, Orange „255“, Blau „0“
-- An der senkrechten Leitung zwischen linkem Router und „internes Netz“:
-  - obere Reihe: Orange „10“, Orange „33“, Orange „0“, Blau „1“
-  - untere Reihe: Orange „255“, Orange „255“, Orange „0“, Blau „0“
-- Neben dem Laptop (an der Verbindung zum „internes Netz“):
-  - obere Reihe: Orange „10“, Orange „33“, Orange „0“, Blau „100“
-  - untere Reihe: Orange „255“, Orange „255“, Orange „0“, Blau „0“
-- An der oberen Leitung zwischen rechtem Router und „Server-netz“:
-  - obere Reihe: Orange „141“, Orange „17“, Orange „5“, Blau „1“
-  - untere Reihe: Orange „255“, Orange „255“, Orange „255“, Blau „0“
-- An der senkrechten Leitung zwischen rechtem Router und „Internet-anschluss“:
-  - obere Reihe: Orange „46“, Orange „142“, Orange „171“, Blau „229“
-  - untere Reihe: Orange „255“, Orange „255“, Orange „255“, Blau „0“
+Blocs de nombres (deux rangées de quatre petites cases chacune ; orange et bleu) :
+- Sur la conduite supérieure entre le routeur de gauche et "Réseau de serveurs" :
+  - rangée supérieure : orange "141", orange "17", orange "5", bleu "18"
+  - rangée inférieure : orange "255", orange "255", orange "255", bleu "0"
+- Sur la conduite verticale entre le routeur de gauche et "Réseau interne" :
+  - rangée supérieure : orange "10", orange "33", orange "0", bleu "1"
+  - rangée inférieure : orange "255", orange "255", orange "0", bleu "0"
+- À côté de l'ordinateur portable (sur la liaison avec "Réseau interne") :
+  - rangée supérieure : orange "10", orange "33", orange "0", bleu "100"
+  - rangée inférieure : orange "255", orange "255", orange "0", bleu "0"
+- Sur la conduite supérieure entre le routeur de droite et "Réseau de serveurs" :
+  - rangée supérieure : orange "141", orange "17", orange "5", bleu "1"
+  - rangée inférieure : orange "255", orange "255", orange "255", bleu "0"
+- Sur la conduite verticale entre le routeur de droite et "Connexion Internet" :
+  - rangée supérieure : orange "46", orange "142", orange "171", bleu "229"
+  - rangée inférieure : orange "255", orange "255", orange "255", bleu "0"

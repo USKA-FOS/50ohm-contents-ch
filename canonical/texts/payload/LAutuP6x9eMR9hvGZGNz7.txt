@@ -1,18 +1,18 @@
-## Wechselspannung
+## Tension alternative
 
-* Die Wechselspannung im Stromnetz schwingt 50 mal in der Sekunde
-* Die Anzahl der Schwingungen pro Sekunde nennt man Frequenz
-* Die Einheit ist Hertz mit der Abkürzung $\unit{\hertz}$
-* $\qty{1}{\hertz}\rightarrow$ 1 Schwingung pro Sekunde
-* Das Stromnetz hat eine Frequenz von $\qty{50}{\hertz}$
+* La tension alternative dans le réseau électrique oscille 50 fois par seconde
+* Le nombre d'oscillations par seconde s'appelle la fréquence
+* L'unité est le hertz avec l'abréviation $\unit{\hertz}$
+* $\qty{1}{\hertz}\rightarrow$ 1 oscillation par seconde
+* Le réseau électrique a une fréquence de $\qty{50}{\hertz}$
 
 ---
-## Einheit Hertz
+## Unité Hertz
 
-* Misst die Frequenz
-* $\qty{1}{\hertz}\rightarrow$ 1 Schwingung pro Sekunde
-* Benannt nach dem deutschen Physiker Heinrich Rudolf Hertz
-* Erzeugte im Jahr 1886 als erster Mensch elektromagnetische Wellen und konnte sie nachweisen
+* Mesure la fréquence
+* $\qty{1}{\hertz}\rightarrow$ 1 oscillation par seconde
+* Nommé d'après le physicien allemand Heinrich Rudolf Hertz
+* Il a produit en 1886 pour la première fois des ondes électromagnétiques et a pu les prouver
 
 <fragment>
 $$\qty{1}{\hertz} = \frac{1}{\unit{s}}$$
@@ -25,21 +25,21 @@ $$\qty{1}{\hertz} = \frac{1}{\unit{s}}$$
 [question:NA207]
 ---
 
-## Hohe Schwingungen
+## Oscillations élevées
 
-* Im Funk wird mit viel höheren Schwingungen gearbeitet
-* z.B. $\qty{144000000}{\hertz}$
-* Abkürzung: $\qty{144}{\mega\hertz}$ (Megahertz)
-* Einheitenvorzeichen "$\unit{\mega\,}$" vor "$\unit{\hertz}$" gesetzt
-* Der Wert wird mit einer Million multipliziert
+* En radio, on travaille avec des oscillations beaucoup plus élevées
+* Par exemple, $\qty{144000000}{\hertz}$
+* Abréviation : $\qty{144}{\mega\hertz}$ (Mégahertz)
+* Le préfixe d'unité "$\unit{\mega\,}$" est placé avant "$\unit{\hertz}$"
+* La valeur est multipliée par un million
 
 ---
 
-| l: Bezeichnung | r: Abkürzung | r: Wert |
+| l: Désignation | r: Abréviation | r: Valeur |
 | 1 Kilohertz | $\qty{1}{\kilo\hertz}$ | $\qty{1000}{\hertz}$ |
-| 1 Megahertz | $\qty{1}{\mega\hertz}$ | $\qty{1000000}{\hertz}$ |
+| 1 Mégahertz | $\qty{1}{\mega\hertz}$ | $\qty{1000000}{\hertz}$ |
 | 1 Gigahertz | $\qty{1}{\giga\hertz}$ | $\qty{1000000000}{\hertz}$ |
-[table:n_frequenz_einheitenvorzeichen:Kurzschreibweise für große Frequenzen]
+[table:n_frequenz_einheitenvorzeichen:Notation abrégée pour les grandes fréquences]
 
 ---
 
@@ -47,15 +47,15 @@ $$\qty{1}{\hertz} = \frac{1}{\unit{s}}$$
 
 ---
 
-## Frequenzen Klasse N
+## Fréquences classe N
 
-In der Klasse N dürfen drei Frequenzbereiche verwendet werden
-* $\qty{28}{\mega\hertz}$ bis $\qty{29,7}{\mega\hertz}$
-* $\qty{144}{\mega\hertz}$ bis $\qty{146}{\mega\hertz}$
-* $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$
+Dans la classe N, trois bandes de fréquences peuvent être utilisées
+* $\qty{28}{\mega\hertz}$ à $\qty{29,7}{\mega\hertz}$
+* $\qty{144}{\mega\hertz}$ à $\qty{146}{\mega\hertz}$
+* $\qty{430}{\mega\hertz}$ à $\qty{440}{\mega\hertz}$
 
 <fragment>
-In der Klasse E und A kommen weitere Frequenzbereiche hinzu
+Dans les classes E et A, d'autres bandes de fréquences s'ajoutent
 </fragment>
 
 ---
@@ -64,13 +64,13 @@ In der Klasse E und A kommen weitere Frequenzbereiche hinzu
 
 ---
 
-## Oszillator
+## Oscillateur
 
-* Ein Oszillator erzeugt elektrische Schwingungen in einem Funkgerät
-* Beim Senden werden die Schwingungen auf die Antenne geleitet und als Funkwellen abgestrahlt
+* Un oscillateur génère des oscillations électriques dans un appareil radio
+* Lors de l'émission, les oscillations sont dirigées vers l'antenne et rayonnées sous forme d'ondes radio
 
 <note>
-Lateinisch "oscillare": schaukeln
+Latin "oscillare" : osciller
 </note>
 
 ---
@@ -79,15 +79,15 @@ Lateinisch "oscillare": schaukeln
 
 ---
 
-## Frequenzmessung
+## Mesure de fréquence
 
 <left>
-[photo:150:frequenz_frequenzzaehler:Frequenzzähler, der $\qty{29,6}{\mega\hertz}$ misst]
+[photo:150:frequenz_frequenzzaehler:Compteur de fréquence mesurant $\qty{29,6}{\mega\hertz}$]
 </left>
 <right>
-* Beim Senden soll eine genaue Frequenz verwendet werden
-* Die Messung erfolgt mit einem Frequenzzähler
-* Beim Bau zum Abgleich der Anzeige am Funkgerät
+* Lors de l'émission, une fréquence précise doit être utilisée
+* La mesure est effectuée avec un compteur de fréquence
+* Lors de la construction, pour l'accord de l'affichage sur l'appareil radio
 </right>
 
 ---

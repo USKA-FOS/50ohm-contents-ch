@@ -1,37 +1,37 @@
-* Oszillatoren erzeugen eine Wechselspannung
-* Es gibt verschiedene Methoden
+* Les oscillateurs génèrent une tension alternative
+* Il existe différentes méthodes
 
 ---
 
-## LC-Oszillator
+## Oscillateur LC
 <left>
-* Schwingungserzeugung mit Spule und Kondensator als Schwingkreis
-* Ein aufgeladener Kondensator entlädt sich an der Spule
-* Eine aufgeladene Spule entlädt sich am Kondensator
-* Je nach Wert der Bauteile in einer bestimmten Frequenz
+* Génération d'oscillations avec une bobine et un condensateur en tant que circuit oscillant
+* Un condensateur chargé se décharge sur la bobine
+* Une bobine chargée se décharge sur le condensateur
+* Selon les valeurs des composants, à une certaine fréquence
 </left>
 <right>
-[picture:755:e_parallelschwingkreis_cl:Parallelschwingkreis aus Kondensator und Spule]
+[picture:755:e_parallelschwingkreis_cl:Circuit oscillant parallèle composé d'un condensateur et d'une bobine]
 </right>
 <note>
-* Der Schwingkreis ist ein ganz wichtiges Thema!
-* Die Resonanzfrequenz f<sub>0</sub> aus der Formelsammlung ist Klasse A Stoff
+* Le circuit oscillant est un sujet très important!
+* La fréquence de résonance f<sub>0</sub> du recueil de formules est un sujet de classe A
 </note>
 
 ---
 [question:ED501]
 ---
 
-### Temperaturstabilität
+### Stabilité thermique
 <left>
-* Die passiven Bauelemente haben bei veränderlicher Temperatur unterschiedliche Werte
+* Les composants passifs ont des valeurs différentes à température variable
 </left>
 <right>
-* Höhere Frequenz bei *kleinerer* Kapazität oder Induktivität
-* Niedrigere Frequenz bei *höherer* Kapazität oder Induktivität
+* Fréquence plus élevée en cas de *plus petite* capacité ou inductance
+* Fréquence plus basse en cas de *plus grande* capacité ou inductance
 </right>
 <note>
-* Das ließe sich wunderbar an der Formel für f<sub>0</sub> erklären, was aber noch nicht bekannt ist
+* Cela pourrait être expliqué de manière merveilleuse avec la formule pour f<sub>0</sub>, ce qui n'est pas encore connu
 </note>
 
 ---
@@ -46,14 +46,14 @@
 [question:EF304]
 
 ---
-## Quarz-Oszillator
-* Schwingungserzeugung mit Quarz (Siliziumdioxid $SiO_2$)
-* Umgekehrter Piezoelektrischer Effekt an einem Quarzkristall
-* Quarz wird mit einem (schlechten) LC-Oszillator zum stabilen Schwingen angeregt
-* Bessere Frequenzstabilität
+## Oscillateur à quartz
+* Génération d'oscillations avec un quartz (dioxyde de silicium $SiO_2$)
+* Effet piézoélectrique inverse sur un cristal de quartz
+* Le quartz est excité en oscillation stable par un oscillateur LC (médiocre)
+* Meilleure stabilité de fréquence
 
 <note>
-Im Englischen mit t: Quartz
+En anglais avec un t: Quartz
 </note>
 
 ---
@@ -62,9 +62,9 @@ Im Englischen mit t: Quartz
 [question:ED507]
 
 ---
-## Abstrahlung
-* Vermeiden
-* Abschirmung durch Metallgehäuse
+## Rayonnement
+* À éviter
+* Blindage par un boîtier métallique
 
 ---
 [question:EF207]

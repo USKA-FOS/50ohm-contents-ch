@@ -1,19 +1,19 @@
-* Häufiger Einsatz bei DX-Verbindungen und in Contesten
-* Bewirkt ein starkes, durchdringendes Signal
-* Dazu wird das NF-Signal in einem dynamischen Equalizer verstärkt und gedämpft
-* Auf Übermodulation achten
-* Zu starke Erhöhung führt zu Splatter und schlechterer Verständlichkeit
+* Utilisation fréquente dans les liaisons DX et les contests
+* Produit un signal fort et pénétrant
+* Le signal NF est amplifié et atténué dans un égaliseur dynamique
+* Attention à la surmodulation
+* Une augmentation trop forte entraîne un splatter et une moins bonne intelligibilité
 
 ---
 [question:AE211]
 ---
 [question:AE212]
 ---
-### NF-Dynamik-Kompressor
+### Compresseur de dynamique NF
 
-* Unterschiede in der minimalen und maximalen Lautstärke eines NF-Sprachsignals $\rightarrow$ Dynamikumfang
-* NF-Dynamik-Kompressor verringert den Dynamikumfang
-* Mittlere Lautstärke wird angehoben $\rightarrow$ Mittlerer Signalpegel des Ausgangssignals des Sendesignals wird angehoben
+* Différences entre le niveau sonore minimal et maximal d'un signal vocal NF $\rightarrow$ Plage dynamique
+* Le compresseur de dynamique NF réduit la plage dynamique
+* Le niveau sonore moyen est augmenté $\rightarrow$ Le niveau de signal moyen du signal de sortie de l'émetteur est augmenté
 
 ---
 [question:AE210]

@@ -1,22 +1,22 @@
-* *Scatter*: Besondere Formen der Reflexion und Streuung eines Funksignals
-* Damit können größere Entfernungen überbrückt werden
+* *Scatter* : Formes particulières de réflexion et de diffusion d'un signal radio
+* Cela permet de couvrir de plus grandes distances
 
 ---
 ## Regenscatter
 
 <left>
-* Englisch *Rainscatter*
-* Streuung an Regentropfen in alle Richtungen (Rayleigh-Streuung)
-* Tropfengröße muss zur Wellenlänge passen: $\qty{6}{\centi\meter}$ und $\qty{3}{\centi\meter}$-Band
-* Antenne wird auf Regenwolke gehalten
-* Rauer Ton in SSB- und CW-Signalen (ähnlich Aurora)
+* Anglais *Rainscatter*
+* Diffusion par les gouttes de pluie dans toutes les directions (diffusion de Rayleigh)
+* La taille des gouttes doit correspondre à la longueur d'onde : bande des $\qty{6}{\centi\meter}$ et $\qty{3}{\centi\meter}$
+* L'antenne est dirigée vers le nuage de pluie
+* Son rauque dans les signaux SSB et CW (similaire à l'aurore)
 </left>
 <right>
-[photo:331:a_regenscatter:$\qty{10}{\giga\hertz}$ Regenscatter (DL4M Juni 2025)]
+[photo:331:a_regenscatter:Regenscatter à $\qty{10}{\giga\hertz}$ (DL4M juin 2025)]
 </right>
 
 <note>
-$\qty{5,7}{\giga\hertz}$ und $\qty{10}{\giga\hertz}$
+$\qty{5,7}{\giga\hertz}$ et $\qty{10}{\giga\hertz}$
 </note>
 
 ---
@@ -24,21 +24,21 @@ $\qty{5,7}{\giga\hertz}$ und $\qty{10}{\giga\hertz}$
 ---
 ## Backscatter
 
-* Brechung der Raumwelle zurück zum Empfänger
-* Vor allem während der Dämmerung
-* Starke und schnell schwankende Signalstärke (*Flatterfading*, flutter fading)
+* Réflexion de l'onde spatiale vers le récepteur
+* Principalement pendant le crépuscule
+* Intensité du signal forte et rapidement variable (*Flatterfading*, flutter fading)
 
 ---
 [question:AH223]
 ---
 ## Aircraft-Scatter
 
-* Reflexion (also eigentlich kein Scatter) von VHF, UHF und SHF an Flugzeugen
-* Flugzeug muss auf Verbindungslinie zwischen Sender und Empfänger sein
-* Recht kurze Verbindung aufgrund der schnellen Bewegung des Flugzeugs
+* Réflexion (donc en fait pas de scatter) des VHF, UHF et SHF sur les avions
+* L'avion doit être sur la ligne de liaison entre l'émetteur et le récepteur
+* Liaison assez courte en raison du mouvement rapide de l'avion
 
 <note>
-Auch Reflexion an Satelliten (z.B. ISS) ist möglich
+La réflexion sur les satellites (par exemple l'ISS) est également possible
 </note>
 
 ---

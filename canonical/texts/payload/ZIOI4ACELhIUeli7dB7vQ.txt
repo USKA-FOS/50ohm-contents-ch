@@ -1,35 +1,35 @@
-## Symmetrische Zweidrahtleitungen
-* Zweidrahtleitungen werden symmetrisch gespeist und belastet
-* An einer bestimmten Stelle sind Strom und Spannung in beiden Leitern gleich – nur mit umgekehrtem Vorzeichen
+## Lignes bifilaires
+* Les lignes bifilaires sont alimentées et chargées symétriquement
+* À un certain endroit, le courant et la tension sont égaux dans les deux conducteurs – mais avec un signe opposé
 
 ---
 [question:AG312]
 ---
 
-### Abstrahlung und Schirmung von Speiseleitungen
-* Gegenphasige Ströme heben sich aus der Ferne weitgehend auf
-* Im Freiraum kommt es dennoch zu geringfügiger Abstrahlung
-* Im Nahfeld anderer Leitungen verstärkt sich die Kopplung
-* Daher sollten Speiseleitungen im Haus grundsätzlich geschirmt sein (üblicherweise als Koaxialkabel)
+### Rayonnement et blindage des lignes d'alimentation
+* Les courants en opposition de phase s'annulent largement à distance
+* Dans l'espace libre, il y a néanmoins un faible rayonnement
+* Dans le champ proche d'autres lignes, le couplage est renforcé
+* Par conséquent, les lignes d'alimentation doivent être blindées dans la maison (généralement sous forme de câbles coaxiaux)
 
 ---
 [question:AG301]
 ---
 
-## Hochfrequenzeigenschaften von Koaxialkabeln
-* Koaxialkabel gibt es in verschiedenen Ausführungen
-* Betrachtet werden vor allem Wellenwiderstand, Kabeldämpfung und Verkürzungsfaktor
-* Mechanische Eigenschaften wie Biegeradius und Rückflussdämpfung zählen nicht zu den elektrischen Hochfrequenzeigenschaften
+## Propriétés haute fréquence des câbles coaxiaux
+* Il existe différentes versions de câbles coaxiaux
+* On examine surtout l'impédance de la ligne, l'atténuation du câble et le facteur de réduction
+* Les propriétés mécaniques telles que le rayon de courbure et la perte de retour ne font pas partie des propriétés électriques haute fréquence
 
 ---
 [question:AG303]
 ---
 
-### Einfluss des Dielektrikums
-* Das Dielektrikum zwischen Innen- und Außenleiter bestimmt den Verkürzungsfaktor
-* Es beeinflusst die Ausbreitungsgeschwindigkeit, die unter der Lichtgeschwindigkeit im Freiraum liegt
-* Übliche Materialien sind Polyethylen (PE) und Teflon (PTFE)
-* Aufschäumung reduziert die Kabeldämpfung
+### Influence du diélectrique
+* Le diélectrique entre le conducteur intérieur et le conducteur extérieur détermine le facteur de réduction
+* Il influence la vitesse de propagation, qui est inférieure à la vitesse de la lumière dans l'espace libre
+* Les matériaux habituels sont le polyéthylène (PE) et le téflon (PTFE)
+* La mousse réduit l'atténuation du câble
 
 ---
 [question:AG314]
@@ -37,10 +37,10 @@
 [question:AG302]
 ---
 
-### Verkürzungsfaktor und elektrische Länge
-* Verkürzungsfaktor: Verhältnis von mechanischer Länge ($L_\mathrm{G}$) zu elektrischer Länge ($L_\mathrm{E}$)
-* Formel: $k_\mathrm{v} = \frac{L_\mathrm{G}}{L_\mathrm{E}} = \frac{1}{\sqrt{\epsilon_\mathrm{r}}}$
-* Für nicht-geschäumtes Polyethylen beträgt $\epsilon_\mathrm{r} \approx 2,29$
+### Facteur de réduction et longueur électrique
+* Facteur de réduction : Rapport entre la longueur mécanique ($L_\mathrm{G}$) et la longueur électrique ($L_\mathrm{E}$)
+* Formule : $k_\mathrm{v} = \frac{L_\mathrm{G}}{L_\mathrm{E}} = \frac{1}{\sqrt{\epsilon_\mathrm{r}}}$
+* Pour le polyéthylène non moussé, $\epsilon_\mathrm{r} \approx 2,29$
 
 ---
 [question:AG317]

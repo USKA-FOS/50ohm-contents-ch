@@ -1,9 +1,9 @@
-# Gegeben
-* Messwert: $f = \qty{145}{\mega\hertz}$
-* Genauigkeit: $\qty{10}{\ppm}$
+# Données
+* Valeur mesurée: $f = \qty{145}{\mega\hertz}$
+* Précision: $\qty{10}{\ppm}$
 
-# Lösungsweg
-$\unit{ppm}$ steht für *parts per million*, $\qty{10}{\ppm}$ bedeutet also $10$ pro $10^6$.  
+# Solution
+$\unit{ppm}$ signifie *parts per million*, $\qty{10}{\ppm}$ signifie donc $10$ pour $10^6$.  
 
 $\Delta f = \qty{145}{\mega\hertz} \cdot \frac{10}{10^6} = 145\cdot \cancel{10^6}\unit{\hertz}\cdot\frac{10}{\cancel{10^6}} = \qty{1450}{\hertz}$
 

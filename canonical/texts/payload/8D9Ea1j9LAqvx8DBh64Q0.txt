@@ -1,40 +1,40 @@
-## Fourier-Transformation und Signalzerlegung
+## Transformée de Fourier et décomposition des signaux
 
-* Signale können sowohl im Zeit- als auch im Frequenzbereich dargestellt werden  
-* Im Zeitbereich: X-Achse $\rightarrow$ Zeit, Y-Achse $\rightarrow$ Spannung oder Leistung  
-* Im Frequenzbereich: X-Achse $\rightarrow$ Frequenz, Y-Achse $\rightarrow$ Amplitude oder Leistung
-
----
-
-### Zerlegung von Signalen
-
-* Jedes Signal lässt sich als Überlagerung von Sinusschwingungen darstellen  
-* Jede Sinusschwingung hat eine bestimmte Amplitude und Phase  
-* Dieses Prinzip ermöglicht es, komplexe Signale in ihre Bestandteile zu zerlegen
+* Les signaux peuvent être représentés à la fois dans le domaine temporel et dans le domaine fréquentiel  
+* Dans le domaine temporel: axe X $\rightarrow$ Temps, axe Y $\rightarrow$ Tension ou Puissance  
+* Dans le domaine fréquentiel: axe X $\rightarrow$ Fréquence, axe Y $\rightarrow$ Amplitude ou Puissance
 
 ---
 
-### Fourier-Transformation
+### Décomposition des signaux
 
-* Mathematisch komplexes Verfahren, das ein zeitliches Signal analysiert  
-* Zeigt an, welche Sinus-Schwingungen (Frequenzen) im Signal enthalten sind  
-* Das Ergebnis wird als Frequenzspektrum dargestellt (X-Achse: Frequenz, Y-Achse: Amplitude/Leistung)
-
----
-
-### Fast Fourier Transformation (FFT)
-
-* Effiziente Berechnung der diskreten Fourier-Transformation (DFT)  
-* Reduziert den Rechenaufwand erheblich  
-* Weit verbreitet in Soft- und Hardware zur Signalverarbeitung
+* Tout signal peut être représenté comme une superposition d'oscillations sinusoïdales  
+* Chaque oscillation sinusoïdale a une amplitude et une phase déterminée  
+* Ce principe permet de décomposer les signaux complexes en leurs composantes
 
 ---
 
-### Beispiel: Rechtecksignal und Oberschwingungen
+### Transformée de Fourier
 
-* Rechtecksignale enthalten neben der Grundschwingung auch zahlreiche Oberschwingungen  
-* Diese Oberschwingungen (ungerade Vielfache der Grundfrequenz) nehmen ab, sind aber deutlich sichtbar  
-* Ohne Tiefpassfilter würden diese hohen Frequenzanteile stören
+* Procédé mathématiquement complexe qui analyse un signal temporel  
+* Montre quelles oscillations sinusoïdales (fréquences) sont contenues dans le signal  
+* Le résultat est représenté sous forme de spectre de fréquence (axe X: Fréquence, axe Y: Amplitude/Puissance)
+
+---
+
+### Transformée de Fourier rapide (FFT)
+
+* Calcul efficace de la transformée de Fourier discrète (DFT)  
+* Réduit considérablement la charge de calcul  
+* Très répandue dans le logiciel et le matériel de traitement des signaux
+
+---
+
+### Exemple: Signal rectangulaire et harmoniques
+
+* Les signaux rectangulaires contiennent, outre l'oscillation fondamentale, de nombreuses harmoniques  
+* Ces harmoniques (multiples impairs de la fréquence fondamentale) diminuent, mais sont clairement visibles  
+* Sans filtre passe-bas, ces composantes de haute fréquence perturberaient
 
 ---
 

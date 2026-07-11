@@ -1,8 +1,8 @@
-## D/A-Umsetzer: Vom Digitalen zum Analogen
+## Convertisseur numérique-analogique : du numérique à l'analogique
 
-* Der D/A-Umsetzer wandelt einen digitalen Datenstrom (Samples) in ein analoges Signal um  
-* Genau wie der A/D-Umsetzer hat er eine begrenzte Auflösung (in Bit)  
-* Dadurch gibt es eine endliche Anzahl an analogen Signalwerten
+* Le convertisseur numérique-analogique transforme un flux de données numériques (échantillons) en un signal analogique  
+* Tout comme le convertisseur analogique-numérique, il a une résolution limitée (en bits)  
+* Il existe donc un nombre fini de valeurs de signal analogiques
 
 ---
 
@@ -10,19 +10,19 @@
 
 ---
 
-### Auflösung und Spannungsbereich
+### Résolution et plage de tension
 
-* Die Anzahl der möglichen Stufen wird durch die Bit-Auflösung bestimmt  
-* Beispiel: $\qty{4}{\bit}\rightarrow\num{16}$ mögliche Stufen
-* Ein D/A-Umsetzer arbeitet in einem festen Spannungsbereich (z. B. $\qty{0}{\volt}$ bis $\qty{1}{\volt}$)
-* Bei einem linear arbeitenden D/A-Umsetzer verteilt sich der Spannungsbereich gleichmäßig auf die Stufen
+* Le nombre de paliers possibles est déterminé par la résolution en bits  
+* Exemple : $\qty{4}{\bit}\rightarrow\num{16}$ paliers possibles
+* Un convertisseur numérique-analogique fonctionne dans une plage de tension fixe (par exemple, $\qty{0}{\volt}$ à $\qty{1}{\volt}$)
+* Dans le cas d'un convertisseur numérique-analogique fonctionnant de manière linéaire, la plage de tension est répartie uniformément sur les paliers
 
 ---
 
-### Schrittweite (Quantisierungsintervall)
+### Pas (intervalle de quantification)
 
-* Die Schrittweite berechnet sich aus dem Spannungsbereich geteilt durch die Anzahl der Stufen  
-* Beispiel: Bei $\num{16}$ Stufen und einem Bereich von $\qty{0}{\volt}$ bis $\qty{1}{\volt}$ ergibt sich eine Schrittweite von ca. $\qty{6,25}{\milli\volt}$
+* Le pas se calcule en divisant la plage de tension par le nombre de paliers  
+* Exemple : Avec $\num{16}$ paliers et une plage de $\qty{0}{\volt}$ à $\qty{1}{\volt}$, le pas est d'environ $\qty{6,25}{\milli\volt}$
 
 ---
 

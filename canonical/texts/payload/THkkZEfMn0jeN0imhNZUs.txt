@@ -1,28 +1,28 @@
-In der Klasse E haben wir bereits Widerstandsnetzwerke analysiert. Die meisten Aufgaben ließen sich noch recht einfach im Kopf lösen. In der Klasse A wird dieses Thema nun weiter vertieft. Die folgenden Aufgaben erfordern mehrere Rechenschritte bis zur Lösung. Dazu zerlegt man die Aufgabe in einzelne Teilbereiche, die zunächst berechnet und anschließend zusammengeführt werden. Auf diese Weise benötigt man keine komplizierten Formeln und gelangt zuverlässig zum richtigen Ergebnis.
+Dans la classe E, nous avons déjà analysé des réseaux de résistances. La plupart des exercices pouvaient encore être résolus assez simplement dans la tête. Dans la classe A, ce sujet est maintenant approfondi. Les exercices suivants nécessitent plusieurs étapes de calcul pour arriver à la solution. Pour cela, on décompose l'exercice en différentes parties, que l'on calcule d'abord et que l'on combine ensuite. De cette manière, on n'a pas besoin de formules compliquées et on arrive de manière fiable au bon résultat.
 
 [question:AD106]
 [question:AD107]
 [question:AD108]
 
-In der folgenden Widerstandsschaltung ist ein veränderbarer Widerstand (Potenziometer) eingebaut.
-Der Widerstandswert kann von $\qty{0}{\kilo\ohm}$ bis auf maximal $\qty{1}{\kilo\ohm}$ verändert werden. 
-Um den Bereich des Eingangswiderstands zu bestimmen müssen wir also zwei Grenzfälle betrachten: Zum einen, wenn der Schleifer des Potenziometers auf $\qty{0}{\ohm}$ steht, zum anderen, wenn er auf $\qty{1}{\kilo\ohm}$ steht. Also quasi zwei Aufgaben in einer.
+Dans le circuit de résistances suivant, une résistance variable (potentiomètre) est intégrée.
+La valeur de la résistance peut être modifiée de $\qty{0}{\kilo\ohm}$ à un maximum de $\qty{1}{\kilo\ohm}$.
+Pour déterminer la plage de la résistance d'entrée, nous devons donc examiner deux cas limites : d'une part, lorsque le curseur du potentiomètre est à $\qty{0}{\ohm}$, d'autre part, lorsqu'il est à $\qty{1}{\kilo\ohm}$. Donc, en quelque sorte deux exercices en un.
 
 ---
 
 [question:AD109]
 
 <tip>
-Die Parallelschaltung von $\qty{100}{\ohm}$ mit $\qty{200}{\ohm}$ (Potenziometer steht auf $\qty{0}{\ohm}$) oder $\qty{100}{\ohm}$ mit $\qty{1,2}{\kilo\ohm}$ (Potenziometer steht auf $\qty{1}{\kilo\ohm}$) ergibt immer einen Wert kleiner als $\qty{100}{\ohm}$. Wenn noch $\qty{200}{\ohm}$ addiert werden, wird er Gesamtwiderstand nicht größer als $\qty{300}{\ohm}$ sein.
-Es gibt nur eine Lösung, bei der dies erfüllt ist.
+Le circuit en parallèle de $\qty{100}{\ohm}$ avec $\qty{200}{\ohm}$ (le potentiomètre est à $\qty{0}{\ohm}$) ou $\qty{100}{\ohm}$ avec $\qty{1,2}{\kilo\ohm}$ (le potentiomètre est à $\qty{1}{\kilo\ohm}$) donne toujours une valeur inférieure à $\qty{100}{\ohm}$. Si on ajoute encore $\qty{200}{\ohm}$, la résistance totale ne sera pas supérieure à $\qty{300}{\ohm}$.
+Il n'y a qu'une solution qui satisfait cette condition.
 </tip>
 
-Nun untersuchen wir eine Widerstandsschaltung mit 4 Widerständen, die oft verwendet wird. Jeweils zwei Spannungsteiler in Parallelschaltung ergeben eine sogenannte Brückenschaltung. Brückenschaltungen werden z. B. in Widerstandsmessgeräten nach dem Prinzip einer sogenannten Wheatstone Messbrücke angewendet.
+Nous examinons maintenant un circuit de résistances avec 4 résistances, souvent utilisé. Deux diviseurs de tension en parallèle donnent un circuit en pont appelé. Les circuits en pont sont utilisés, par exemple, dans les appareils de mesure de résistance selon le principe d'un pont de mesure Wheatstone.
 
 ---
 
 [question:AD110]
 
 <tip>
-Diese Aufgabe lässt sich auch leicht im Kopf rechnen. Wir haben zwei Parallelschaltungen mit gleichen Widerständen, welche in Reihe geschaltet wurden. Bei gleich großen Widerständen halbieren sich die Widerstandswerte in der Parallelschaltung: $R_1 || R_2 = \qty{1100}{\ohm}$ sowie $R_3 || R_4 = \qty{110}{\ohm}$. Das Ergebnis ist dann nur die Summe der beiden Werte: $R_\mathrm{ges} = \qty{1100}{\ohm} + \qty{110}{\ohm} = \qty{1210}{\ohm}$.
+Cet exercice peut également être facilement calculé de tête. Nous avons deux circuits en parallèle avec des résistances égales, qui ont été connectés en série. Pour des résistances de même valeur, les valeurs de résistance sont divisées par deux dans le circuit en parallèle : $R_1 || R_2 = \qty{1100}{\ohm}$ ainsi que $R_3 || R_4 = \qty{110}{\ohm}$. Le résultat est alors seulement la somme des deux valeurs : $R_\mathrm{ges} = \qty{1100}{\ohm} + \qty{110}{\ohm} = \qty{1210}{\ohm}$.
 </tip>

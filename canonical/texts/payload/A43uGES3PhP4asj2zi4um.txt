@@ -1,23 +1,23 @@
 <left>
-* Besteht aus einer Spannungsquelle und einem Verbraucher
-* Die Spannung bringt den Strom zum Fließen
+* Comprend une source de tension et un consommateur
+* La tension fait circuler le courant
 </left>
 <right>
-[picture:662:n_stromkreis_geschlossen:Geschlossener Stromkreis]
+[picture:662:n_stromkreis_geschlossen:Circuit électrique fermé]
 </right>
 
 ---
 
-## Schalter
+## Interrupteur
 
 <left>
-* Unterbricht oder schließt Stromkreis
-* Bei offenem Schalter ist der Stromfluss unterbrochen
+* Interrompt ou ferme le circuit électrique
+* Lorsque l'interrupteur est ouvert, le flux de courant est interrompu
 
-[picture:663:n_stromkreis_offen:Offener Stromkreis]
+[picture:663:n_stromkreis_offen:Circuit électrique ouvert]
 </left>
 <right>
-[photo:202:n_stromkreis_schalter:Schaltzeichen und Bauformen von Schaltern]
+[photo:202:n_stromkreis_schalter:Symboles de circuit et formes de construction des interrupteurs]
 </right>
 
 ---
@@ -26,19 +26,19 @@
 
 ---
 
-## Widerstand
+## Résistance
 
 <left>
-* Begrenzt den Stromfluss
-* Wandelt Strom in Wärme um
+* Limite le flux de courant
+* Convertit le courant en chaleur
 </left>
 <right>
-[photo:203:n_stromkreis_widerstand:Schaltzeichen und Bauformen von Widerständen]
+[photo:203:n_stromkreis_widerstand:Symboles de circuit et formes de construction des résistances]
 </right>
 <note>
-* Stromkreis immer mit Widerstand betreiben!
-* Ansonsten entsteht ein Kurzschluss
-* Großer Strom kann fließen und Spannungsquelle oder Kabel können überhitzen
+* Toujours utiliser une résistance dans le circuit électrique!
+* Sinon, un court-circuit se produit
+* Un grand courant peut circuler et la source de tension ou les câbles peuvent surchauffer
 </note>
 
 ---
@@ -47,14 +47,14 @@
 
 ---
 
-## Stromrichtung
+## Direction du courant
 
-[picture:662:n_stromkreis_geschlossen:Geschlossener Stromkreis]
+[picture:662:n_stromkreis_geschlossen:Circuit électrique fermé]
 
-Vom Pluspol zum Minuspol: *technische Stromrichtung*
+Du pôle positif au pôle négatif : *direction technique du courant*
 
 <note>
-In Richtung des Pfeils
+Dans la direction de la flèche
 </note>
 
 ---

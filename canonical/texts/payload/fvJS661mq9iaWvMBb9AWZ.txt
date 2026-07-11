@@ -1,26 +1,26 @@
-Die Benennung der Grundschaltung eines bipolaren Transistors richtet sich danach, welcher Anschluss (Basis, Kollektor oder Emitter) gemeinsam vom Eingangs- und Ausgangssignal durchflossen wird.
+La désignation du circuit de base d'un transistor bipolaire dépend de la connexion (base, collecteur ou émetteur) qui est traversée à la fois par le signal d'entrée et le signal de sortie.
 
-Bei der *Kollektorschaltung* fließt das Eingangssignal von der Quelle über die Basis, den *Kollektor* und die Versorgungsspannung zurück zur Quelle. Das Ausgangssignal fließt vom Kollektor durch die Last (Senke) und über die Versorgungsspannung zurück in den *Kollektor*.
+Dans le cas du *circuit collecteur*, le signal d'entrée circule de la source à travers la base, le *collecteur* et la tension d'alimentation pour revenir à la source. Le signal de sortie circule du collecteur à travers la charge (puits) et à travers la tension d'alimentation pour revenir dans le *collecteur*.
 
 [question:AD401]
 
-Für den Betrieb als linearer Strom-Verstärker benötigt der Transistor in der Kollektorschaltung einen definierten Arbeitspunkt (BIAS), der normalerweise durch einen Spannungsteiler an der Basis festgelegt wird.
+Pour fonctionner comme un amplificateur de courant linéaire, le transistor dans le circuit collecteur nécessite un point de fonctionnement défini (BIAS), qui est généralement fixé par un diviseur de tension à la base.
 
-Der Emitterwiderstand wandelt den Strom, der durch die Kollektor-Emitter-Strecke fließt, in einen Spannungsabfall um, der am Emitter abgegriffen wird. Der Emitterstrom des Transistors fließt (gemeinsam mit dem normalerweise vernachlässigbaren Basis-Strom-Anteil) über den Emitter durch den Emitterwiderstand gegen Masse. Der Strom durch den Emitterwiderstand verursacht durch den entstehenden Spannungsabfall an diesem eine Erhöhung des Emitterpotenzials (Emitterspannung) und wirkt somit als Gegenkopplung für die Basis-Spannung. Hierdurch wird der Arbeitspunkt des Transistors zusätzlich stabilisiert, weil thermisch bedingte Änderungen des Kollektorstroms hierdurch ausgeregelt werden.
+La résistance d'émetteur convertit le courant qui circule à travers la jonction collecteur-émetteur en une chute de tension qui est prélevée à l'émetteur. Le courant d'émetteur du transistor circule (ensemble avec la part normalement négligeable du courant de base) à travers l'émetteur à travers la résistance d'émetteur vers la masse. Le courant à travers la résistance d'émetteur provoque, par la chute de tension qui en résulte, une augmentation du potentiel d'émetteur (tension d'émetteur) et agit ainsi comme une contre-réaction pour la tension de base. Cela stabilise davantage le point de fonctionnement du transistor, car les variations du courant de collecteur dues à la température sont ainsi régulées.
 
-Die Ein- und Auskopplung der Signale an Basis und Emitter erfolgt über sog. Koppelkondensatoren. Diese haben die Aufgabe, Gleichspannungsanteile von der Verstärkerstufe, die zu einer Veränderung des Arbeitspunktes führen würden, fernzuhalten.
+Le couplage et le découplage des signaux à la base et à l'émetteur se font par l'intermédiaire de condensateurs de couplage. Ceux-ci ont pour tâche d'éloigner les composantes de tension continue du étage amplificateur, qui conduiraient à une modification du point de fonctionnement.
 
-Der Abblockkondensator in der Betriebsspannung (+) dient der Abführung von unerwünschten HF- und NF-Signalen, damit Rückkopplungseffekte auf die Stufe und die Versorgungsspannung vermieden werden. Zudem wird der Kollektor durch den Abblockkondensator signalmäßig (für Wechselspannung) auf Ein- und Ausgang gelegt.
+Le condensateur de blocage dans la tension de service (+) sert à évacuer les signaux HF et BF indésirables, afin d'éviter les effets de rétroaction sur l'étage et la tension d'alimentation. De plus, le collecteur est mis en signal (pour la tension alternative) sur l'entrée et la sortie par le condensateur de blocage.
 
-Die Phasenverschiebung zwischen Ein- und Ausgangssignal beträgt bei der Kollektorschaltung $\qty{0}{\degree}$, da bei einer positiven Halbwelle in der Eingangsspannung der Emitterstrom steigt und damit der Spannungsabfall am Emitterwiderstand zunimmt. Hierdurch steigt die Spannung am Ausgangskondensator. Es kommt zu einer positiven Halbwelle am Ausgang der Verstärkerstufe.
+Le déphasage entre le signal d'entrée et le signal de sortie est de $\qty{0}{\degree}$ dans le circuit collecteur, car lors d'une demi-onde positive dans la tension d'entrée, le courant d'émetteur augmente et donc la chute de tension à la résistance d'émetteur augmente. Cela fait augmenter la tension au condensateur de sortie. Il en résulte une demi-onde positive à la sortie de l'étage amplificateur.
 
-Die Spannungsverstärkung der Kollektorschaltung bewegt sich bei entsprechender Auslegung im Bereich von $\num{0,9}$ bis $\num{0,98}$ und ist immer etwas kleiner als $1$. Die Stromverstärkung der Kollektorschaltung ist hingegen sehr groß, da die Eingangsimpedanz der Schaltung relativ hoch ist. Die Ausgangsimpedanz ist hingegen sehr niedrig im Vergleich zur Eingangsimpedanz.
+L'amplification de tension du circuit collecteur se situe, avec une conception appropriée, dans la plage de $\num{0,9}$ à $\num{0,98}$ et est toujours légèrement inférieure à $1$. L'amplification de courant du circuit collecteur est en revanche très élevée, car l'impédance d'entrée du circuit est relativement élevée. L'impédance de sortie est en revanche très faible par rapport à l'impédance d'entrée.
 
 [question:AD405]
 [question:AD402]
 [question:AD403]
 
-Die *Kollektorschaltung wird häufig als Pufferstufe zwischen Oszillator und weiteren Schaltungsteilen*, die den Oszillator ansonsten niederohmig belasten würden, verwendet, um eine Entkopplung und bessere Frequenzstabilisierung des Oszillators zu erreichen.
+Le *circuit collecteur est souvent utilisé comme étage tampon entre l'oscillateur et d'autres composants de circuit*, qui chargeraient autrement l'oscillateur de manière à faible impédance, afin d'obtenir un découplage et une meilleure stabilisation de fréquence de l'oscillateur.
 
 [question:AD404]
 

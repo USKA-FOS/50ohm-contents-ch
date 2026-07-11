@@ -1,10 +1,10 @@
-Oszillatoren sind eines der wichtigsten Schaltungselemente im Amateurfunk. Sie sind sozusagen das Herz eines jeden Funkgerätes. Oszillatoren dienen der Erzeugung von hochfrequenten Schwingungen in Sendern und Empfängern.
+Les oscillateurs sont l'un des éléments de circuit les plus importants dans la radioamateur. Ils sont en quelque sorte le cœur de chaque appareil radio. Les oscillateurs servent à générer des oscillations à haute fréquence dans les émetteurs et les récepteurs.
 
-Herzstück eines Oszillators ist ein Verstärkerelement, dessen *Ausgangssignal wieder auf dessen Eingang rückgekoppelt* wird.
+Le cœur d'un oscillateur est un élément amplificateur dont le *signal de sortie est à nouveau rétrocouplé à son entrée*.
 
-Damit ein Oszillator ungedämpfte Schwingungen erzeugen kann, müssen *zwei Grundbedingungen* erfüllt sein.
-Zum einen muss das *Ausgangssignal gleichphasig auf den Eingangspunkt der Schaltung rückgekoppelt* werden.
-Hierbei muss zum anderen die *Amplitude des rückgekoppelten Signals mindestens die gleiche Größe* wie die des Eingangssignals haben. Man sagt auch, dass die sog. *Schleifenverstärkung größer 1* sein muss, damit eine Selbsterregung möglich ist, die die Schwingung aufrechterhält.
+Pour qu'un oscillateur puisse générer des oscillations non amorties, *deux conditions fondamentales* doivent être remplies.
+D'une part, le *signal de sortie doit être rétrocouplé en phase avec le point d'entrée du circuit*.
+D'autre part, *l'amplitude du signal rétrocouplé doit être au moins de la même taille* que celle du signal d'entrée. On dit aussi que la soi-disant *amplification de boucle doit être supérieure à 1* pour qu'une auto-excitation soit possible, qui maintient l'oscillation.
 
 [question:AD613]
 
@@ -12,15 +12,15 @@ Hierbei muss zum anderen die *Amplitude des rückgekoppelten Signals mindestens 
 [picture:760:a_oszillator_schaltungen_oszillator:Schaltung eines kapazitiv rückgekoppelten Oszillators]  
 </margin>
 
-%TODO: Evtl. Bild 760 ableiten und noch um die 3 Punkte der Dreipunktschaltung ergänzen (am kapazitiven Spannungsteiler - oben, in der Mitte und unten)
+%TODO: Peut-être dériver l'image 760 et l'enrichir des 3 points du circuit à trois points (au diviseur de tension capacitif - en haut, au milieu et en bas)
 
-Die in Abbildung [ref:a_oszillator_schaltungen_oszillator] abgebildete Schaltung stellt einen kapazitiv rückgekoppelten Dreipunktoszillator dar. Das Ausgangssignal wird vom Emitter der Schaltung über einen kapazitiven Spannungsteiler auf die Basis des Transistors rückgekoppelt. Die Frequenz des Oszillators wird überwiegend durch den Schwingkreis in der Basis (bestehend aus Spule und Trimmkondensator) sowie den zum Schwingkreis parallel geschalteten kapazitiven Spannungsteiler bestimmt.
-Bei der Schaltung handelt es sich um einen Oszillator in Kollektorschaltung, da der Kollektor wechselspannungsmäßig auf Masse liegt.
+Le circuit représenté dans la figure [ref:a_oszillator_schaltungen_oszillator] représente un oscillateur à trois points à rétroaction capacitive. Le signal de sortie est rétrocouplé de l'émetteur du circuit à la base du transistor via un diviseur de tension capacitif. La fréquence de l'oscillateur est déterminée principalement par le circuit oscillant dans la base (composé d'une bobine et d'un condensateur d'accord) ainsi que par le diviseur de tension capacitif monté en parallèle avec le circuit oscillant.
+Dans le cas du circuit, il s'agit d'un oscillateur en circuit collecteur, car le collecteur est à la masse en tension alternative.
 
 [question:AD614]
 [question:AD616]
 
-Zur Erhöhung der Frequenzstabilität eines Oszillators kann dessen frequenzbestimmende Komponente (Schwingkreis) durch einen Quarz ersetzt werden. Quarze können sowohl bei ihrer Grundfrequenz als auch auf ihren harmonischen Frequenzen (Oberschwingungen/Obertöne) zum Schwingen angeregt werden. Damit ein Quarz jedoch auf einer Oberschwingung betrieben werden kann, muss der Verstärker frequenzselektiv (z.B. durch Verwendung eines Schwingkreises) ausgelegt sein. Ist dieser nicht vorhanden, so kann man daraus ersehen, dass der Quarz auf seiner Grundfrequenz betrieben wird (siehe Abbildung [ref:a_oszillator_schaltungen_quarzoszillator] ).
+Pour augmenter la stabilité de fréquence d'un oscillateur, sa composante déterminant la fréquence (circuit oscillant) peut être remplacée par un quartz. Les quartz peuvent être excités à la fois à leur fréquence fondamentale et à leurs fréquences harmoniques (harmoniques/surtones). Cependant, pour qu'un quartz puisse fonctionner à une harmonique, l'amplificateur doit être conçu de manière sélective en fréquence (par exemple en utilisant un circuit oscillant). Si celui-ci n'est pas présent, on peut en déduire que le quartz fonctionne à sa fréquence fondamentale (voir figure [ref:a_oszillator_schaltungen_quarzoszillator] ).
 
 <margin>
 [picture:497:a_oszillator_schaltungen_quarzoszillator:Schaltung eines Quarzoszillators in Kollektorschaltung mit Betrieb des Quarzes auf Grundfrequenz]  
@@ -28,13 +28,13 @@ Zur Erhöhung der Frequenzstabilität eines Oszillators kann dessen frequenzbest
 
 [question:AD617]
 
-Das Oszillatorsignal sollte immer am niederohmigsten Punkt eines Oszillators ausgekoppelt werden, um diesen möglichst wenig zu belasten. In einer Kollektorschaltung ist dies der Emitter des Transistors.
+Le signal de l'oscillateur doit toujours être découplé au point le moins résistif d'un oscillateur afin de le solliciter le moins possible. Dans un circuit collecteur, il s'agit de l'émetteur du transistor.
 
 [question:AD610]
 
-Einem Oszillator sollte immer eine sog. Pufferstufe nachgeschaltet werden, die dafür sorgt, dass der Oszillator von weiteren Schaltungsteilen entkoppelt wird und in seiner Frequenz nicht durch Belastung des Ausgangs beeinflusst wird. Eine Pufferstufe ist meist als Kollektorschaltung ausgelegt (Emitterfolger) und hat eine hohe Eingangsimpedanz, die den Oszillator nur minimal belastet. An dessen Ausgang kann das Oszillatorsignal dann niederohmig weiterverarbeitet werden.
+Un oscillateur doit toujours être suivi d'un soi-disant étage tampon, qui garantit que l'oscillateur est découplé des autres parties du circuit et que sa fréquence n'est pas influencée par la charge de la sortie. Un étage tampon est généralement conçu comme un circuit collecteur (suiveur d'émetteur) et a une impédance d'entrée élevée, qui ne sollicite l'oscillateur que de manière minimale. À sa sortie, le signal de l'oscillateur peut alors être traité à basse impédance.
 
-Messungen an Oszillatoren sollten immer nach der Pufferstufe durchgeführt werden, da ansonsten der Oszillator mit parasitären Kapazitäten belastet wird und in dessen Frequenz hierdurch beeinflusst wird.
+Les mesures sur les oscillateurs doivent toujours être effectuées après l'étage tampon, car sinon l'oscillateur est chargé par des capacités parasites et sa fréquence est influencée par celles-ci.
 
 [question:AD615]
 [question:AD619]

@@ -1,52 +1,50 @@
-Wir haben gelernt, dass bei der Amplitudenmodulation neben dem Träger zwei Seitenbänder entstehen, ein unteres (LSB) und ein oberes (USB), in denen die gesamte Information des Modulationssignals enthalten ist, während der Träger selbst keine Information überträgt. Da beide Seitenbänder die gleiche Information enthalten, reicht es aus, nur eines davon zu senden und den Träger zu unterdrücken (vgl. Abbildung [ref:e_ssb_am_modulation]). Dieses Verfahren nennt man Einseitenbandmodulation beziehungsweise Single Sideband (SSB). Der Vorteil von SSB besteht darin, dass keine Sendeleistung für den Träger und das zweite Seitenband verschwendet wird, wodurch die gesamte Leistung effizient für die Informationsübertragung genutzt werden kann und gleichzeitig die benötigte Bandbreite deutlich geringer ist als bei AM.
+Nous avons appris que lors de la modulation d'amplitude, outre la porteuse, deux bandes latérales sont générées, une inférieure (LSB) et une supérieure (USB), contenant toute l'information du signal de modulation, tandis que la porteuse elle-même ne transmet aucune information. Comme les deux bandes latérales contiennent la même information, il suffit d'en envoyer une seule et de supprimer la porteuse (voir figure [ref:e_ssb_am_modulation]). Cette procédure est appelée modulation à bande latérale unique ou Single Sideband (SSB). L'avantage de SSB est qu'aucune puissance d'émission n'est gaspillée pour la porteuse et la deuxième bande latérale, ce qui permet d'utiliser toute la puissance de manière efficace pour la transmission d'informations et, en même temps, la bande passante nécessaire est nettement inférieure à celle de l'AM.
 
 
-Bei der Einseitenbandmodulation (SSB) enthält das Sendesignal – abhängig vom am Transceiver gewählten Seitenband – entweder die Trägerfrequenz plus der NF-Modulationsfrequenz (bei USB) oder die Trägerfrequenz minus der NF-Modulationsfrequenz (bei LSB). Die Abbildung [ref:e_ssb_einzelsignal] zeigt hierfür zwei Beispiele: Moduliert man einen Sender mit der Trägerfrequenz $\qty{7,100}{\mega\hertz}$ mit einem NF-Signal von $\qty{1}{\kilo\hertz}$ in USB, so wird vom Sender eine Frequenz von $\qty{7,100}{\mega\hertz} + \qty{1}{\kilo\hertz} = \qty{7,101}{\mega\hertz}$ abgestrahlt. Moduliert man den Sender hingegen in LSB, so wird vom Sender eine Frequenz von $\qty{7,100}{\mega\hertz} -\qty{1}{\kilo\hertz} = \qty{7,099}{\mega\hertz}$ abgestrahlt.
+Dans la modulation à bande latérale unique (SSB), le signal émis contient – selon la bande latérale choisie sur l'émetteur-récepteur – soit la fréquence porteuse plus la fréquence de modulation audiofréquence (dans le cas de USB) soit la fréquence porteuse moins la fréquence de modulation audiofréquence (dans le cas de LSB). La figure [ref:e_ssb_einzelsignal] montre deux exemples à cet effet : si un émetteur avec une fréquence porteuse de $\qty{7,100}{\mega\hertz}$ est modulé avec un signal audiofréquence de $\qty{1}{\kilo\hertz}$ en USB, une fréquence de $\qty{7,100}{\mega\hertz} + \qty{1}{\kilo\hertz} = \qty{7,101}{\mega\hertz}$ est émise par l'émetteur. Si l'émetteur est modulé en LSB, une fréquence de $\qty{7,100}{\mega\hertz} -\qty{1}{\kilo\hertz} = \qty{7,099}{\mega\hertz}$ est émise par l'émetteur.
 
 <margin>
-[picture:1056:e_ssb_einzelsignal:Seitenbänder bei AM und SSB]
+[picture:1056:e_ssb_einzelsignal:Bandes latérales en AM et SSB]
 </margin>
 
-Die folgenden Fragen können nach diesem Schema gelöst werden.
+Les questions suivantes peuvent être résolues selon ce schéma.
 
 [question:EE203]
 [question:EE204]
 
 ---
 
-AM-Signale übertragen beide Seitenbänder und den Träger und haben daher eine Bandbreite von etwas mehr als dem Doppelten des modulierenden NF-Signals (vgl. Abbildung [ref:e_ssb_einzelsignal]). Die Bandbreite eines SSB-Signals entspricht in etwa der Bandbreite des modulierenden NF-Signals (nach Filterung und Begrenzung der Bandbreite des NF-Signals). Bei SSB werden auch Signalanteile unterhalb von $\qty{300}{\hertz}$ und der Träger ($\qty{0}{\hertz}$) nicht übertragen und unterdrückt. Daher hat SSB etwas weniger als die halbe Bandbreite von AM.
+Les signaux AM transmettent les deux bandes latérales et la porteuse et ont donc une bande passante de plus du double de celle du signal audiofréquence modulant (voir figure [ref:e_ssb_einzelsignal]). La bande passante d'un signal SSB correspond approximativement à la bande passante du signal audiofréquence modulant (après filtrage et limitation de la bande passante du signal audiofréquence). Dans le cas du SSB, les composantes du signal en dessous de $\qty{300}{\hertz}$ et la porteuse ($\qty{0}{\hertz}$) ne sont pas transmises et sont supprimées. Par conséquent, le SSB a une bande passante légèrement inférieure à la moitié de celle de l'AM.
 
 <margin>
-[picture:743:e_ssb_einzelsignal:Seitenbänder bei AM und SSB]
+[picture:743:e_ssb_einzelsignal:Bandes latérales en AM et SSB]
 </margin>
 
 [question:EE202]
 [question:EE201]
 
----
-
-Wie wir bereits in der Klasse N beim Thema Morsetelegrafie mit *Continuous Wave* (CW) gelernt haben, wird dabei ein konstanter Hochfrequenzträger in einem bestimmten Rhythmus ein- und ausgeschaltet. CW-Signale benötigen im Vergleich zu sprachmodulierten Signalen wie AM und SSB die geringste Bandbreite. Dies liegt daran, dass bei CW lediglich eine einzige Frequenz getastet wird und nicht, wie bei Sprachsignalen, mehrere Frequenzanteile eines NF-Signals gleichzeitig übertragen werden müssen.
+Comme nous l'avons déjà appris dans la classe N sur le thème de la télégraphie Morse avec *Continuous Wave* (CW), un porteuse haute fréquence constante est allumée et éteinte à un rythme déterminé. Les signaux CW nécessitent, par rapport aux signaux modulés par la voix comme l'AM et le SSB, la bande passante la plus faible. Cela est dû au fait que dans le cas du CW, une seule fréquence est modulée et non, comme dans le cas des signaux vocaux, plusieurs composantes de fréquence d'un signal audiofréquence doivent être transmises simultanément.
 
 <indepth>
-Die Bandbreite von CW-Signalen ist von der Zeichengeschwindigkeit (Geschwindigkeit der Tastung) abhängig und beträgt bei durchschnittlichen Gebegeschwindigkeiten von 20 Wörtern pro Minute (100 Zeichen pro Minute) ca. $\qty{300}{\hertz}$.
+La bande passante des signaux CW dépend de la vitesse de transmission (vitesse de modulation) et est d'environ $\qty{300}{\hertz}$ pour des vitesses de transmission moyennes de 20 mots par minute (100 caractères par minute).
 </indepth>
 
 [question:EE207]
 
-Um Störungen benachbarter Stationen im Frequenzband zu vermeiden, sollte die belegte Bandbreite eines SSB-Signals auf maximal etwa $\qty{2,7}{\kilo\hertz}$ begrenzt werden. Diese Bandbreite ist für eine gute Sprachverständlichkeit vollkommen ausreichend. Aus diesem Grund wird das NF-Signal des Mikrofons im Sender bandbegrenzt: Frequenzanteile unterhalb von etwa $\qty{300}{\hertz}$ sowie oberhalb von etwa $\qty{3}{\kilo\hertz}$ werden unterdrückt, da sie nur wenig zur Sprachverständlichkeit beitragen.
+Pour éviter les perturbations des stations voisines dans la bande de fréquences, la bande passante occupée d'un signal SSB doit être limitée à environ $\qty{2,7}{\kilo\hertz}$ au maximum. Cette bande passante est tout à fait suffisante pour une bonne intelligibilité de la parole. C'est pourquoi le signal audiofréquence du microphone dans l'émetteur est limité en bande passante : les composantes de fréquence en dessous d'environ $\qty{300}{\hertz}$ ainsi que celles au-dessus d'environ $\qty{3}{\kilo\hertz}$ sont supprimées, car elles contribuent peu à l'intelligibilité de la parole.
 
 [question:EJ211]
 [question:EJ210]
 
-In der Praxis besitzen SSB-Filter zur Erzeugung eines SSB-Signals häufig eine Bandbreite von nur etwa $\qty{2,4}{\kilo\hertz}$. Auch diese geringere Bandbreite reicht in vielen Fällen für eine gute Sprachverständlichkeit aus und ermöglicht zugleich eine noch effizientere Nutzung des verfügbaren Frequenzspektrums.
+En pratique, les filtres SSB pour la génération d'un signal SSB ont souvent une bande passante d'environ $\qty{2,4}{\kilo\hertz}$. Cette bande passante plus faible suffit dans de nombreux cas pour une bonne intelligibilité de la parole et permet en même temps une utilisation encore plus efficace du spectre de fréquences disponible.
 
 [question:EF310]
 
-Störungen benachbarter Stationen können auch durch sog. *Splatter* auftreten, die durch eine zu hoch eingestellte Mikrofonverstärkung und somit Übersteuerung der NF-Stufen erfolgen können. Im Sendesignal wirkt sich dies so aus, dass die Bandbreite der SSB-Übertragung steigt, was andere Stationen stören kann.
+Les perturbations des stations voisines peuvent également être causées par ce que l'on appelle le *Splatter*, qui peut être causé par une amplification du microphone trop élevée et donc une surcharge des étages audiofréquence. Cela se traduit dans le signal émis par le fait que la bande passante de la transmission SSB augmente, ce qui peut perturber d'autres stations.
 
 [question:EJ215]
 
-Eine zu geringe Mikrofonverstärkung (NF-Amplitude) führt zu einer geringeren Modulation des SSB-Senders, was eine Verkleinerung der Ausgangsleistung zur Folge hat. Daher ist es wichtig, dass die Mikrofonverstärkung für gute Kommunikation in SSB optimal angepasst wird (nicht zu groß und nicht zu klein). Im Kapitel Dynamikkompressor gehen wir darauf nochmal genauer ein. 
+Une amplification du microphone (amplitude audiofréquence) trop faible entraîne une modulation moindre de l'émetteur SSB, ce qui réduit la puissance de sortie. Il est donc important que l'amplification du microphone soit optimisée pour une bonne communication en SSB (ni trop grande ni trop petite). Nous reviendrons sur ce point plus en détail dans le chapitre Dynamikkompressor.
 
 [question:EE206]
 [question:EE205]

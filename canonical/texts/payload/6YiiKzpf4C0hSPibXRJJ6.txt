@@ -1,9 +1,9 @@
-## Sampling: Von analog zu digital
+## Échantillonnage : De l'analogique au numérique
 
-* Analoge Signale werden mittels Sampling in digitale Werte umgewandelt  
-* Abtastung erfolgt in definierten Zeitintervallen – nur Momentanzustände werden gemessen  
-* Analoge Signale sind zeitkontinuierlich, da sie keine kleinste zeitliche Auflösung besitzen  
-* Digitale Samples sind zeitdiskret, da ein festes Abtastintervall existiert
+* Les signaux analogiques sont convertis en valeurs numériques par échantillonnage
+* L'échantillonnage se fait à intervalles de temps définis - seuls les états instantanés sont mesurés
+* Les signaux analogiques sont continus dans le temps, car ils n'ont pas de plus petite résolution temporelle
+* Les échantillons numériques sont discrets dans le temps, car un intervalle d'échantillonnage fixe existe
 
 ---
 
@@ -11,19 +11,19 @@
 
 ---
 
-## Wertkontinuität vs. Wertdiskretheit
+## Continuité de valeur vs. Discrétion de valeur
 
-* Analoge Signale können beliebige Spannungswerte annehmen – sie sind wertkontinuierlich  
-* Bei der Digitalisierung gibt es nur begrenzte Abstufungen (z. B. $\num{-128}$ bis $\num{+127}$) – Samples sind wertdiskret
-* Zwischen zwei Spannungsstufen muss der A/D-Umsetzer eine Entscheidung treffen (Quantisierung)
+* Les signaux analogiques peuvent prendre des valeurs de tension arbitraires - ils sont continus en valeur
+* Lors de la numérisation, il n'y a que des gradations limitées (par exemple, de $\num{-128}$ à $\num{+127}$) - les échantillons sont discrets en valeur
+* Entre deux niveaux de tension, le convertisseur A/N doit prendre une décision (quantification)
 
 ---
 
-## Praktisches Beispiel: Dimmer vs. Stufenschalter
+## Exemple pratique : Variateur vs. Interrupteur à étages
 
-* Ein analoger Dimmer erlaubt feine, stufenlose Helligkeitseinstellungen  
-* Ein Stufenschalter (z. B. $\num{5}$ Stufen) ermöglicht nur feste Helligkeitswerte – Zwischenstufen sind nicht möglich
-* Quantisierung: Auswahl der nächstpassenden Stufe, um den analogen Wert abzubilden
+* Un variateur analogique permet des réglages de luminosité fins et progressifs
+* Un interrupteur à étages (par exemple, $\num{5}$ étages) ne permet que des valeurs de luminosité fixes - les étapes intermédiaires ne sont pas possibles
+* Quantification : sélection de l'étage le plus proche pour représenter la valeur analogique
 
 ---
 

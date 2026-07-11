@@ -1,34 +1,34 @@
-* Verpflichtung von Funkamateuren die Leistungsgrenzwerte ihrer Funkanlage einzuhalten
-* Auf vielen Amateurfunkbändern gilt eine *maximale Senderausgangsleistung* (*PEP*, Peak-Envelope-Power) als Grenzwert
-* Auch unerwünschte Aussendungen sind von Bedeutung
+* Obligation pour les radioamateurs de respecter les limites de puissance de leur installation radio
+* Sur de nombreuses bandes de radioamateurs, une *puissance d'émission maximale* (*PEP*, Peak-Envelope-Power) est définie comme valeur limite
+* Les émissions indésirables sont également importantes
 
 ---
-### Messung von unerwünschten Aussendungen
+### Mesure des émissions indésirables
 
-* Am Senderausgang
-* Unter Einbeziehung von Stehwellenmessgerät, Anpassgerät(e), Tiefpassfilter etc.
-* Messung von unerwünschen Aussendungen, die die Antenne erreichen können
+* À la sortie de l'émetteur
+* En tenant compte du réflectomètre, des adaptateurs, des filtres passe-bas, etc.
+* Mesure des émissions indésirables pouvant atteindre l'antenne
 
 ---
 [question:EJ209]
 ---
-### Messung der Senderausgangsleistung
+### Mesure de la puissance de sortie de l'émetteur
 
-* Direkt am Senderausgang
-* Ohne Zusatzgeräte, Filter oder Kabel
-* Bei SSB $\rightarrow$ mit Modulation
-* Ein- oder Zweitonaussteuerung, aber keine Sprache
-* Messung der maximalen *Hüllkurvenleistung* (PEP)
-* Spitzenleistung des Senders bei maximaler Aussteuerung
-* Leistung bei der höchsten Spitze einer Hochfrequenzschwingung
+* Directement à la sortie de l'émetteur
+* Sans dispositifs supplémentaires, filtres ou câbles
+* Pour SSB $\rightarrow$ avec modulation
+* Excitation à une ou deux tonalités, mais pas de parole
+* Mesure de la puissance d'enveloppe maximale (*PEP*)
+* Puissance de crête de l'émetteur à pleine excitation
+* Puissance à la crête la plus élevée d'une oscillation haute fréquence
 
 <note>
-* Sprache variiert
-* Für Klasse E und A interessant, da deren maximal zulässige Leistung in der Anlage 1 der AFuV in PEP angegeben ist
+* La parole varie
+* Intéressant pour les classes E et A, car leur puissance maximale admissible est indiquée en PEP dans l'annexe 1 de l'AFuV
 </note>
 
 ---
-[picture:875:e_senderausgangsleisung_2:Höchste Spitze der Modulationshüllkurve]
+[picture:875:e_senderausgangsleisung_2:Crête la plus élevée de l'enveloppe de modulation]
 ---
 [question:EF401]
 ---
@@ -36,9 +36,9 @@
 ---
 [question:EB501]
 ---
-## Mittlere Leistung
+## Puissance moyenne
 
-* Durchschnittliche Leistung eines Senders
+* Puissance moyenne d'un émetteur
 
 ---
 [question:EB502]

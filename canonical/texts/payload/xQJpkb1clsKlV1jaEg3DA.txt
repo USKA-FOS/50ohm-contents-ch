@@ -1,25 +1,25 @@
-Dämpfungsglieder werden in der HF-Technik oft benötigt um Signalpegel definiert abzuschwächen. Hierbei kann z.B. durch ein Leistungsdämpfungsglied die Ausgangsleistung eines Senders soweit reduziert werden, dass dessen Ausgangssignal die angeschlossenen Messgeräte nicht beschädigt oder übersteuert. Man verwendet Dämpfungsglieder auch um Eingangspegel für Verstärker und Empfänger auf ein definiertes Maß zu reduzieren.
+Les atténuateurs sont souvent utilisés en HF pour atténuer de manière définie les niveaux de signal. Par exemple, un atténuateur de puissance peut réduire la puissance de sortie d'un émetteur de manière à ne pas endommager ou saturer les appareils de mesure connectés. On utilise également des atténuateurs pour réduire les niveaux d'entrée des amplificateurs et des récepteurs à une valeur définie.
 
-Ein Dämpfungsglied muss hierbei immer für eine definierte Systemimpedanz bzgl. Ein- und Ausgang ausgelegt werden. Bei symmetrisch aufgebauten Dämpfungsgliedern sind die Ein- und Ausgangsimpedanzen identisch. Oft sind dies die in der HF-Technik üblichen $\qty{50}{\ohm}$. Damit ein Dämpfungsglied die geforderten Impedanzen an dessen Ein- und Ausgang zeigt ist ein impedanzrichtiger Abschluss auf beiden Seiten erforderlich. Dies wird durch ein geeignetes Widerstandsnetzwerk erreicht. Die Dämpfung wird hierbei in dB (Dezibel) angegeben und bezieht sich auf die Leistung; so bedeutet z.B. $\qty{20}{\dB}$ eine Dämpfung der Eingangsleistung um den Faktor $\num{100}$. Die Ausgangsleistung nach diesem Dämpfungsglied beträgt somit nur noch $\frac{1}{100}$ der Eingangsleistung was im Falle von $\qty{100}{\watt}$ Eingangsleistung einer Ausgangsleistung von $\qty{1}{\watt}$ entspricht.
+Un atténuateur doit toujours être conçu pour une impédance de système définie en ce qui concerne l'entrée et la sortie. Dans le cas des atténuateurs symétriques, les impédances d'entrée et de sortie sont identiques. Il s'agit souvent des $\qty{50}{\ohm}$ habituels en HF. Pour qu'un atténuateur présente les impédances requises à son entrée et à sa sortie, une terminaison correcte de l'impédance est nécessaire des deux côtés. Cela est réalisé par un réseau de résistances approprié. L'atténuation est ici indiquée en dB (décibels) et se réfère à la puissance ; ainsi, $\qty{20}{\dB}$ signifie une atténuation de la puissance d'entrée d'un facteur $\num{100}$. La puissance de sortie après cet atténuateur n'est donc plus que $\frac{1}{100}$ de la puissance d'entrée, ce qui, dans le cas d'une puissance d'entrée de $\qty{100}{\watt}$, correspond à une puissance de sortie de $\qty{1}{\watt}$.
 
-Bei ohmschen Dämpfungsgliedern erfolgt die Dämpfung durch Umwandlung der eingespeisten Leistung in Wärme. Wird z.B. ein $\qty{100}{\watt}$-Signal wie vorher beschrieben um $\qty{20}{\dB}$ gedämpft so werden $\qty{99}{\watt}$ im Dämpfungsglied in Wärme umgesetzt. Die verbleibende Leistung von $\qty{1}{\watt}$ steht dann noch am Ausgang des Dämpfungsglieds zur Verfügung.
+Dans le cas des atténuateurs ohmiques, l'atténuation est réalisée par conversion de la puissance injectée en chaleur. Par exemple, si un signal de $\qty{100}{\watt}$ est atténué de $\qty{20}{\dB}$ comme décrit précédemment, $\qty{99}{\watt}$ sont convertis en chaleur dans l'atténuateur. La puissance restante de $\qty{1}{\watt}$ est alors encore disponible à la sortie de l'atténuateur.
 
 [question:AD806]
 [question:AD803]
 [question:AD804]
 [question:AD805]
 
-Ein symmetrisches Dämpfungsglied kann z.B. als T oder Pi-Netzwerk aus Widerständen aufgebaut werden. Die Namensgebung resultiert hierbei aus dem Erscheinungsbild der Widerstandsanordnung in der Schaltung.
+Un atténuateur symétrique peut être constitué, par exemple, d'un réseau en T ou en Pi de résistances. La dénomination résulte de l'apparence de l'arrangement des résistances dans le circuit.
 
 <margin>
-[picture:342:daempfungsglied_pi:Dämpfungsglied in PI-Konfiguration mit Quelle und Lastwiderstand]
+[picture:342:daempfungsglied_pi:Atténuateur en configuration PI avec source et résistance de charge]
 </margin>
 
 <margin>
-[picture:341:daempfungsglied_t:Dämpfungsglied in T-Konfiguration mit Quelle und Lastwiderstand]
+[picture:341:daempfungsglied_t:Atténuateur en configuration T avec source et résistance de charge]
 </margin>
 
-%TODO: EVTL. PI ALS SONDERZEICHEN EINFÜGEN
+%TODO: ÉVENTUELLEMENT INSÉRER PI COMME CARACTÈRE SPÉCIAL
 
 [question:AD801]
 [question:AD802]

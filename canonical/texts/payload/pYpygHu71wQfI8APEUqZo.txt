@@ -1,30 +1,30 @@
-* Auch Sprache kann digital übertragen werden
-* z. B. mit den Übertragungsverfahren DMR, D-Star, C4FM und M17
-* Sprachsignale werden vor der Übertragung in einen Datenstrom umgewandelt
+* La parole peut également être transmise numériquement
+* Par exemple, avec les procédés de transmission DMR, D-Star, C4FM et M17
+* Les signaux vocaux sont convertis en flux de données avant la transmission
 
 ---
 ## TDMA
 
-Time Division Multiple Access -- Zeitmultiplexverfahren
+Time Division Multiple Access -- Procédé de multiplexage temporel
 
 <left>
-* Übertragung mehrerer Datenströme in schnell abwechselnder Folge
-* Zwei oder mehr Sprachverbindungen nutzen quasi gleichzeitig dieselbe Frequenz
+* Transmission de plusieurs flux de données en séquence rapide
+* Deux ou plusieurs liaisons vocales utilisent quasi simultanément la même fréquence
 </left>
 <right>
-[picture:474:n_digital_voice_tdma:TDMA mit drei Verbindungen auf einer Frequenz]
+[picture:474:n_digital_voice_tdma:TDMA avec trois liaisons sur une fréquence]
 </right>
 
 ---
 
-## Einstellungen
+## Réglages
 
-Es sind für digitale Sprache oft mehr Einstellungen zu berücksichtigen als zum Beispiel bei einer FM-Verbindung. Zum Beispiel:
+Pour la parole numérique, il est souvent nécessaire de prendre en compte plus de réglages que, par exemple, pour une liaison FM. Par exemple :
 
-* Sprechgruppe (Talkgroup)
-* Raum oder Reflektor zum Zusammenschalten von Relaisfunkstellen
-* TDMA-Zeitschlitz
-* Color-Code
+* Groupe de parole (Talkgroup)
+* Salle ou réflecteur pour connecter les relais
+* Créneau temporel TDMA
+* Code de couleur
 
 ---
 

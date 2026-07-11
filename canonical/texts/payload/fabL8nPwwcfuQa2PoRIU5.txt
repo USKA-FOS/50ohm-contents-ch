@@ -1,10 +1,10 @@
 <left>
 [picture:946:Vollwegleichrichter D1 D2:Vollweggleichrichtung mit zwei Dioden]
-Transformator mit Mittelanzapfung und zwei Dioden
+Transformateur avec prise médiane et deux diodes
 </left>
 <right>
-* Positive Halbwelle an oberer Wicklung gegenüber Mittelanzapfung $\rightarrow D_1$ leitet
-* An $D_2$ liegt zu diesem Zeitpunkt eine negative Halbwelle an $\rightarrow$ sperrt
+* Demi-onde positive sur l'enroulement supérieur par rapport à la prise médiane $\rightarrow D_1$ conduit
+* À $D_2$, une demi-onde négative est appliquée à ce moment-là $\rightarrow$ bloque
 </right>
 --- style="font-size: smaller;"
 [include:applet_gleichrichter_1]
@@ -12,18 +12,18 @@ Transformator mit Mittelanzapfung und zwei Dioden
 ---
 [question:AD307]
 ---
-### Negative Ausgangsspannung
+### Tension de sortie négative
 
-* Anoden sind an den Ausgang angeschlossen
-* Gleichspannung wird gegenüber der Mittelanzapfung negativ
-* Halbwellen befinden sich unterhalb der Nulllinie
+* Les anodes sont connectées à la sortie
+* La tension continue est négative par rapport à la prise médiane
+* Les demi-ondes se trouvent en dessous de la ligne de zéro
 
 ---
 [question:AD308]
 ---
-### Grundfrequenz
+### Fréquence fondamentale
 
-Nach der Gleichrichtung existiert eine pulsierende Gleichspannung mit doppelter Frequenz zur Eingangsspannung.
+Après le redressement, une tension continue pulsée existe avec une fréquence double par rapport à la tension d'entrée.
 
 ---
 [question:AD310]

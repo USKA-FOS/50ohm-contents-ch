@@ -1,47 +1,47 @@
-Idealerweise sind die Ströme durch den Innen- und Außenleiter eines Koaxialkabels genau gleich groß und in der Richtung entgegengesetzt. Deren Summe ist also Null und man spricht dann von einem reinen *Gegentaktsignal*. Genau dann treten keine Mantelwellen auf.
+Idéalement, les courants à travers le conducteur intérieur et extérieur d'un câble coaxial sont exactement de même amplitude et de direction opposée. Leur somme est donc nulle et on parle alors d'un signal *differential* pur. C'est exactement dans ce cas que les ondes de surface n'apparaissent pas.
 
-Ist die Summe des Signals hingegen ungleich Null, dann ist ein sogenanntes *Gleichtaktsignal* vorhanden. Der Gleichtaktanteil eines Stroms im Koaxialkabel fließt stets auf der Außenseite des Außenleiters und ist damit ein Mantelstrom mit zugehöriger Mantelwelle um das Koaxialkabel herum.
+Si la somme du signal n'est pas nulle, alors un signal *common-mode* est présent. La composante common-mode d'un courant dans le câble coaxial circule toujours sur la face extérieure du conducteur extérieur et est donc un courant de surface avec une onde de surface associée autour du câble coaxial.
 
 [question:AG425]
 
-Dass ein um einen Ferritkern gewickeltes Koaxialkabel zur Unterdrückung von Mantelwellen geeignet sind, haben wir bereits gelernt. Dies ist eine Form der sogenannten *stromkompensierten Drossel*.
+Nous avons déjà appris qu'un câble coaxial enroulé autour d'un noyau de ferrite est adapté pour supprimer les ondes de surface. Il s'agit d'une forme de ce que l'on appelle une *bobine de compensation de courant*.
 
-Eine Drossel ist eine Spule, die hochfrequente Ströme blockieren soll. Die stromkompensierte Drossel ist eine Bauform der Drosselspule, bei der zwei getrennte Wicklungen auf den selben Magnetkern gewickelt werden. Hierbei wird die stromkompensierte Drossel so beschaltet, dass Gegentaktsignale, d. h. Signale bei denen der Strom in der einen Wicklung genau entgegengesetzt der anderen Wicklung sind und ansonsten die gleiche Größe aufweisen, kein Magnetfeld in den Kern induzieren. Die stromkompensierte Drossel lässt also Gegentaktsignale ungehindert hindurch. Gleichtaktanteile jedoch, also z. B. Ströme die nur auf dem Außenleiter und damit nur in einer Wicklung fließen, werden durch die Induktivität blockiert.
+Une bobine est une inductance qui doit bloquer les courants à haute fréquence. La bobine de compensation de courant est une forme de construction de la bobine d'inductance, dans laquelle deux enroulements séparés sont enroulés sur le même noyau magnétique. Dans ce cas, la bobine de compensation de courant est connectée de telle sorte que les signaux différentiels, c'est-à-dire les signaux pour lesquels le courant dans un enroulement est exactement opposé à celui de l'autre enroulement et sinon de même amplitude, n'induisent pas de champ magnétique dans le noyau. La bobine de compensation de courant laisse donc passer les signaux différentiels sans entrave. Les composantes de mode commun, c'est-à-dire par exemple les courants qui ne circulent que sur le conducteur extérieur et donc dans un seul enroulement, sont bloquées par l'inductance.
 
 [question:AG426]
 
 ---
 
-Eine Alternative zur stromkompensierten Drossel stellt ein HF-Trenntrafo dar. Da die Primär- und die Sekundärwicklung nicht miteinander verbunden sind, muss ein Strom der an einem Pol in den Trenntrafo hineinfließt (zumindest näherungsweise) auch in gleicher Größe aus dem anderen Pol wieder hinausfließen. Ein Gleichtaktanteil ist damit ausgeschlossen.
+Une alternative à la bobine de compensation de courant est un transformateur d'isolation HF. Comme les enroulements primaire et secondaire ne sont pas connectés entre eux, un courant qui entre dans le transformateur d'isolation par une borne (au moins approximativement) doit également sortir par l'autre borne avec la même amplitude. Une composante de mode commun est donc exclue.
 
 <indepth>
-Da zwischen den Windungen der Spule eines Trenntrafos eine Kapazität entsteht und die Spule auch eine Kapazität gegenüber der anderen Spule ausbildet, unterdrückt auch ein Trenntrafo den Gleichtaktanteil eines Signals nicht vollständig.
+Comme une capacité se forme entre les spires de la bobine d'un transformateur d'isolation et que la bobine forme également une capacité par rapport à l'autre bobine, un transformateur d'isolation ne supprime pas non plus complètement la composante de mode commun d'un signal.
 </indepth>
 
 [question:AJ115]
 
-Wenn ein Koaxialkabel frei von HF-Gleichtaktsignalen ist, dann weist der Außenleiter keine hochfrequente Spannung gegenüber der Erde auf. Dies liegt daran, dass sich bei einem Gegentaktsignal, also entgegengesetzten Strömen im Innen- und Außenleiter, ein elektrisches Feld ausschließlich zwischen Innen- und Außenleiter ausbildet. Von außen betrachtet heben sich die Wirkungen der beiden Ströme auf, da sie in der Summe Null ergeben. Das Vorhandensein von Mantelwellen hängt also unmittelbar mit dem Vorhandensein von HF-Spannungen auf dem Außenleiter zusammen.
+Si un câble coaxial est exempt de signaux HF de mode commun, alors le conducteur extérieur ne présente pas de tension haute fréquence par rapport à la terre. Cela est dû au fait que, dans le cas d'un signal différentiel, c'est-à-dire de courants opposés dans les conducteurs intérieur et extérieur, un champ électrique se forme exclusivement entre le conducteur intérieur et le conducteur extérieur. Vus de l'extérieur, les effets des deux courants se compensent, car leur somme est nulle. La présence d'ondes de surface est donc directement liée à la présence de tensions HF sur le conducteur extérieur.
 
-Genau solche Spannungen am Außenleiter entstehen z. B., wenn wir eine symmetrische Antenne an das Kabel anschließen, denn am Speisepunkt weist jeder Dipolschenkel eine Spannung gegenüber Erde auf. Verbinden wir die Schenkel jeweils mit einem Leiter des Koaxialkabels, so wird auch der Außenleiter eine Spannung gegenüber Erde aufweisen.
+C'est exactement de telles tensions sur le conducteur extérieur qui se produisent, par exemple, lorsque nous connectons une antenne symétrique au câble, car au point d'alimentation, chaque branche du dipôle présente une tension par rapport à la terre. Si nous connectons les branches respectivement à un conducteur du câble coaxial, le conducteur extérieur présentera également une tension par rapport à la terre.
 
-Gut geerdete Antennen hingegen, z. B. eine Groundplane Antenne mit vielen gut abgestimmten oder vergrabenen Radialen, weisen am Speisepunkt der Radiale eine Spannung von nahezu Null gegenüber der Erde auf. Schlecht geerdete Groundplane-Antennen hingegen können anfällig für Mantelwellen sein.
+Les antennes bien mises à la terre, par exemple une antenne Groundplane avec de nombreux radiaux bien accordés ou enterrés, présentent au point d'alimentation des radiaux une tension presque nulle par rapport à la terre. Les antennes Groundplane mal mises à la terre, en revanche, peuvent être sensibles aux ondes de surface.
 
-Eine weitere Möglichkeit, wie Mantelwellen entstehen können, ist durch kontaktlose Einkopplung in den Koax-Schirm. Führt man beispielsweise ein Speisekabel parallel zu einem Dipolschenkel, so entsteht eine Kopplung über das elektromagnetische Nahfeld der Antenne.
+Une autre possibilité pour que des ondes de surface se produisent est l'injection sans contact dans le blindage coaxial. Par exemple, si l'on fait passer un câble d'alimentation parallèlement à une branche de dipôle, un couplage se produit par le champ proche électromagnétique de l'antenne.
 
 [question:AG427]
 
-Bei vollständig symmetrischen Antennen kann ein sogenannter Spannungsbalun eingesetzt werden, um die Ströme im Koaxkabel zu symmetrieren. Eine beliebte Bauform ist ein Spartransformator, bei dem das Koaxialkabel in der Mitte und am Ende einer Spule angeschlossen wird, und die Antenne mit den beiden Enden der Spule verbunden wird.
+Dans le cas d'antennes entièrement symétriques, un *balun* de tension peut être utilisé pour symétriser les courants dans le câble coaxial. Une forme de construction populaire est un transformateur à auto-inductance, dans lequel le câble coaxial est connecté au milieu et à l'extrémité d'une bobine, et l'antenne est connectée aux deux extrémités de la bobine.
 
-% TODO: Bild Spannungsbalun / Spartransformator
+% TODO: Image du balun de tension / transformateur à auto-inductance
 
-Bei dieser Bauform kommt es neben der gewünschten Symmetrierung zusätzlich zu einer Verdoppelung der Spannung ($ü = 2$) sowie einer entsprechenden Halbierung des Stroms, was einer 1:4 Impedanztransformation entspricht, d. h. an ein $\qty{50}{\ohm}$ Koaxialkabel ist eine Antenne mit einem Speisewiderstand von möglichst $\qty{200}{\ohm}$ anzuschließen.
+Dans cette forme de construction, en plus de la symétrisation souhaitée, il y a également un doublement de la tension ($ü = 2$) ainsi qu'une division correspondante du courant, ce qui correspond à une transformation d'impédance de 1:4, c'est-à-dire qu'une antenne avec une résistance d'alimentation de préférence de $\qty{200}{\ohm}$ doit être connectée à un câble coaxial de $\qty{50}{\ohm}$.
 
 [question:AG421]
 [question:AG422]
 
-Diese Bauform ist jedoch nur geeignet Mantelwellen zu unterdrücken, wenn sich die angeschlossene Antenne tatsächlich symmetrisch verhält und sie nicht aufgrund von Umgebungseinflüssen asymmetrisch belastet wird.
+Cette forme de construction n'est cependant adaptée à la suppression des ondes de surface que si l'antenne connectée se comporte effectivement de manière symétrique et n'est pas chargée de manière asymétrique en raison d'influences environnementales.
 
-Allen Bauteilen, die der Unterdrückung von Mantelwellen dienen, ist gemein, dass dennoch eine "kontaktlose" Einkopplung über die elektromagnetischen Nahfelder der Antennen direkt auf den Koaxschirm, also hinter der Mantelwellensperre, erfolgen kann. Hier kann z. B. eine weitere, zusätzliche Mantelwellensperre mit etwas Entfernung zur Antenne helfen.
+Tous les composants qui servent à supprimer les ondes de surface ont en commun qu'une injection "sans contact" peut encore se produire via les champs proches électromagnétiques des antennes directement sur le blindage coaxial, c'est-à-dire derrière le blocage des ondes de surface. Ici, par exemple, une autre barrière supplémentaire aux ondes de surface avec un certain éloignement de l'antenne peut aider.
 
 [question:AG428]
 [question:AG429]

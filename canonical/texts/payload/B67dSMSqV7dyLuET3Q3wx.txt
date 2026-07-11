@@ -1,60 +1,60 @@
-Damit es nicht zur Schlagzeile *"Funkamateur erleidet gefährlichen Stromschlag beim Senderbau"* kommt, müssen wichtige Regeln beachtet werden. Beim Aufbau einer Funkstation muss man sich an die anerkannten Regeln der Technik halten. Wie wir schon beim Thema Blitzschutz und Potentialausgleich gelernt haben, gibt der Verband der Elektrotechnik Elektronik und Informationstechnik e. V., kurz VDE, Normen heraus, die den jeweils aktuellen Stand der Technik dokumentieren und als anerkannt gelten. Diese Regeln dienen dem Schutz von Menschen, Tieren und Sachen.
+Pour éviter qu'il ne soit fait état de l'information *"Un radioamateur subit un choc électrique dangereux lors de la construction d'un émetteur"*, il est important de respecter certaines règles. Lors de la construction d'une station de radio, il est nécessaire de suivre les règles techniques reconnues. Comme nous l'avons déjà appris lors du thème de la protection contre la foudre et de l'égalité de potentiel, l'Association pour l'électrotechnique, l'électronique et les technologies de l'information e. V., en abrégé VDE, publie des normes qui documentent l'état actuel de la technique et sont reconnues comme telles. Ces règles servent à protéger les personnes, les animaux et les biens.
 
 <indepth>
-Der VDE, also der Verband der Elektrotechnik Elektronik und Informationstechnik e. V., ist eine weltweit tätige Organisation, in der sich Personen und Unternehmen zusammengeschlossen haben, die in den Bereichen Elektrotechnik, Elektronik oder Informationstechnik tätig sind. Die Organisation verfolgt das Ziel, die Unfallverhütung zu verbessern und das Verantwortungsbewusstsein seiner Mitglieder zu fördern. Dazu werden die VDE-Normen herauszugeben. Es werden aber beispielsweise auch kostenpflichtige Zertifizierungen durchgeführt.
+Le VDE, c'est-à-dire l'Association pour l'électrotechnique, l'électronique et les technologies de l'information e. V., est une organisation mondiale dans laquelle des personnes et des entreprises actives dans les domaines de l'électrotechnique, de l'électronique ou des technologies de l'information se sont regroupées. L'organisation vise à améliorer la prévention des accidents et à promouvoir la conscience des responsabilités de ses membres. À cet effet, les normes VDE sont publiées. Des certifications payantes sont également effectuées, par exemple.
 </indepth>
 
 [question:VE601]
 
 ---
 
-Die Hauptgefahr besteht durch Berührung einer elektrischen Spannung. In der Elektrotechnik spricht man von einer gefährlichen Spannung, wenn diese bei Wechselspannung über $\qty{50}{\volt}$ und bei Gleichspannung über $\qty{120}{\volt}$ liegt. Diese Grenzen wurden so gelegt, dass es zu keiner lebensbedrohlichen Beeinträchtigung des menschlichen Körpers kommen kann. Wechselspannung wird auch als "AC" (englisch "alternating current") und Gleichspannung als "DC" (englisch "direct current") abgekürzt.
+Le principal danger réside dans le contact avec une tension électrique. En électricité, on parle de tension dangereuse lorsqu'elle dépasse $\qty{50}{\volt}$ en tension alternative et $\qty{120}{\volt}$ en tension continue. Ces limites ont été fixées de manière à éviter toute altération dangereuse pour la vie du corps humain. La tension alternative est également abrégée en "AC" (anglais "alternating current") et la tension continue en "DC" (anglais "direct current").
 
 <indepth>
-Der Grund für die *unterschiedlichen Grenzwerte für Gleich- und Wechselspannung* hängt mit den unterschiedlichen Auswirkungen auf den Körper zusammen: Wechselspannung kann den Herzrhythmus beeinflussen, während es bei Gleichspannung eher zu Verbrennungen kommt.
+La raison des *valeurs limites différentes pour les tensions continues et alternatives* est liée aux effets différents sur le corps : la tension alternative peut influencer le rythme cardiaque, tandis que la tension continue provoque plutôt des brûlures.
 </indepth>
 
 [question:NK301]
 
 ---
 
-Bei einer Einwirkung des Stroms auf den Körper kann das Gewebe geschädigt werden. Wie stark die Schädigung ist, hängt von der Stromstärke und Dauer des Stromflusses ab. Auch der Weg, den der Strom durch den Körper nimmt, spielt eine große Rolle. Eine Stromstärke von über $\qty{30}{\milli\ampere}$ kann schon zu lebensgefährlichen Schäden führen (siehe Abbildung [ref:n_fehlerstrom]).
+Lorsqu'un courant électrique traverse le corps, les tissus peuvent être endommagés. La gravité des dommages dépend de l'intensité du courant et de la durée du flux de courant. Le trajet que le courant prend à travers le corps joue également un rôle important. Une intensité de courant supérieure à $\qty{30}{\milli\ampere}$ peut déjà entraîner des dommages mettant la vie en danger (voir figure [ref:n_fehlerstrom]).
 
 <margin>
-[picture:681:n_fehlerstrom:Stromschlag / Körperdurchströmung]
+[picture:681:n_fehlerstrom:Choc électrique / Passage du courant dans le corps]
 </margin>
 
-Stromunfälle können verschiedene Auswirkungen auf den Körper haben:
-* *Herzrhythmusstörungen*, Herzkammerflimmern oder Herzstillstand, insbesondere bei einem Stromweg im Brustbereich
-* *Verbrennungen*, meist an den Ein- und Austrittstellen des elektrischen Stroms
-* *Verkrampfen der Muskulatur*
-* *Sekundärunfälle* wie einen Sturz, verursacht durch den hervorgerufenden Schreck oder eine Muskelverkrampfung
+Les accidents électriques peuvent avoir diverses conséquences sur le corps :
+* *Troubles du rythme cardiaque*, fibrillation ventriculaire ou arrêt cardiaque, en particulier en cas de trajet du courant dans la région thoracique
+* *Brûlures*, généralement aux points d'entrée et de sortie du courant électrique
+* *Contracture musculaire*
+* *Accidents secondaires* tels qu'une chute, causée par la peur ou une contracture musculaire
 
 <attention>
-Die *5 Sicherheitsregeln der Elektrotechnik* sollten für alle Arbeiten an elektrischen Anlagen beachten werden. Diese sollten auch bei Arbeiten an Funkgeräten oder anderen elektrischen Geräten beachtet werden:
-1. *Freischalten*, z. B. Gerät ausschalten
-2. *Gegen Wiedereinschalten sichern*, z. B.  Stecker ziehen
-3. *Spannungsfreiheit feststellen*, z. B. mit einem Multimeter messen
-4. *Erden und Kurzschließen*, z. B. das Gehäuse und Zuleitungen erden
-5. *Benachbarte, unter Spannung stehende Teile abdecken oder abschranken* (findet bei einzelnen Geräten meist keine Anwendung)
+Les *5 règles de sécurité de l'électrotechnique* doivent être respectées pour tous les travaux sur les installations électriques. Celles-ci doivent également être respectées lors des travaux sur les appareils radio ou autres appareils électriques :
+1. *Mise hors tension*, par exemple, éteindre l'appareil
+2. *Protection contre la remise sous tension*, par exemple, débrancher la fiche
+3. *Vérification de l'absence de tension*, par exemple, mesurer avec un multimètre
+4. *Mise à la terre et court-circuit*, par exemple, mettre à la terre le boîtier et les câbles d'alimentation
+5. *Couverture ou délimitation des parties voisines sous tension* (ne s'applique généralement pas aux appareils individuels)
 </attention>
 
 <danger>
-In vielen Geräten sind Kondensatoren verbaut, die hohe Spannungen speichern können. Es können daher auch in abgeschalteten Geräten noch gefährliche Spannungen anliegen! Geräte sollten daher nur geöffnet werden, wenn man genau weiß, was man tut. Im Zweifel sollte man sich von einem erfahreneren Funkamateur oder einer Elektrofachkraft helfen lassen.
+De nombreux appareils contiennent des condensateurs qui peuvent stocker des tensions élevées. Il peut donc y avoir des tensions dangereuses même dans les appareils éteints ! Les appareils ne doivent donc être ouverts que si l'on sait exactement ce que l'on fait. En cas de doute, il est préférable de se faire aider par un radioamateur plus expérimenté ou par un électricien qualifié.
 </danger>
 
 ---
 
 %[class:N]
-Wie wir schon beim Einbau von Amateurfunkanlagen in Kraftfahrzeuge gelernt haben, kann es im Zusammenhang mit elektrischem Strom auch dazu kommen, dass ein Stromfluß durch die eigentlich nicht-leitende Luft auftritt und es zu einem Lichtbogen mit hohen Temperaturen und sehr hellem Leuchten kommt. Dies wird auch als Störlichtbogen bezeichnet.
+Comme nous l'avons appris lors de l'installation d'installations radioamateurs dans des véhicules, il peut également arriver, en relation avec le courant électrique, qu'un flux de courant se produise à travers l'air normalement non conducteur et qu'il se forme un arc électrique avec des températures élevées et une lumière très vive. On parle alors d'arc électrique parasite.
 %[/class]
 
 %[class:NEA]
 <danger>
-Ein *Lichtbogen* ist eine elektrische Entladung, also ein Stromfluß, durch die eigentlich nicht-leitende Luft, die mit hohen Temperaturen und einem sehr hellen Leuchten einhergeht. In Folge kann es zu Bränden und zur Schädigung der Augen kommen.
+Un *arc électrique* est une décharge électrique, c'est-à-dire un flux de courant, à travers l'air normalement non conducteur, qui s'accompagne de températures élevées et d'une lumière très vive. Il peut en résulter des incendies et des lésions oculaires.
 </danger>
 
-Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen kommen, der Brände verursachen kann.
+En cas de court-circuit, un arc électrique peut rapidement se former, ce qui peut provoquer des incendies.
 %[/class]
 
 [question:NK303]
@@ -63,10 +63,10 @@ Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen kommen, der Br�
 
 ---
 
-Erste-Hilfe-Maßnahmen sind in den ersten Minuten entscheidend für die Schwere der Unfallfolgen. Nach einem Stromunfall ist in jedem Fall ein Arzt aufzusuchen, da Herzrhythmusstörungen und Herzkammerflimmern auch noch Stunden nach dem Unfall auftreten können. 
+Les mesures de premiers secours sont décisives dans les premières minutes pour la gravité des conséquences de l'accident. Après un accident électrique, il est dans tous les cas nécessaire de consulter un médecin, car des troubles du rythme cardiaque et une fibrillation ventriculaire peuvent également survenir des heures après l'accident.
 
 <indepth>
-Ein Arzt kann nach einem Stromunfall beispielsweise mit einem *Elektrokardiogramm (EKG)* überprüfen, ob das Herz unregelmäßig schlägt oder andere Störungen aufweist.
+Un médecin peut, par exemple, vérifier après un accident électrique avec un *électrocardiogramme (ECG)* si le cœur bat de manière irrégulière ou présente d'autres troubles.
 </indepth>
 
 [question:NK304]

@@ -1,9 +1,9 @@
 <left>
-* Netzgerät wandelt Wechselspannung von $\qty{230}{\volt}$ aus der Steckdose in kleinere Gleichspannung um
-* Im Amateurfunk wird häufig $\qty{13,8}{\volt}$ für Transceiver verwendet
+* L'alimentation convertit la tension alternative de $\qty{230}{\volt}$ de la prise de courant en une tension continue plus faible
+* En radioamateur, on utilise souvent $\qty{13,8}{\volt}$ pour les émetteurs-récepteurs
 </left>
 <right>
-[picture:740:n_netzgeraet:Netzgerät]
+[picture:740:n_netzgeraet:Alimentation]
 </right>
 
 ---
@@ -16,23 +16,23 @@
 
 ---
 
-## Schutzkontakt
+## Contact de protection
 
 <left>
-* Beim *Schutzkontaktstecker* gibt es drei Pole
-* L- und N-Leiter durch Stifte
-* Dort liegt die $\qty{230}{\volt}$-Spannung an
-* *Schutzkontakt* ist der dritte Pol
-* PE-Leiter durch äußere Schleifkontakte
+* La fiche de contact de protection a trois pôles
+* Conducteurs L et N par des broches
+* La tension de $\qty{230}{\volt}$ est appliquée ici
+* *Contact de protection* est le troisième pôle
+* Conducteur PE par des contacts glissants extérieurs
 </left>
 <right>
-[photo:86:n_schutzkontakt:Schutzkontakt an einer Steckdose und Schukostecker]
+[photo:86:n_schutzkontakt:Contact de protection sur une prise de courant et fiche Schuko]
 </right>
 <note>
-* Schuko-Stecker haben keinen Verpolschutz für L- und N-Leiter
-* "protective earth" — Schutzerdung
-* Metallisches Gehäuse wird geerdet
-* Durch die Erdung wird eine gefährliche Spannung auf dem Gehäuse ausgeschlossen
+* Les fiches Schuko n'ont pas de protection contre l'inversion des pôles pour les conducteurs L et N
+* "protective earth" — mise à la terre de protection
+* Le boîtier métallique est mis à la terre
+* La mise à la terre exclut une tension dangereuse sur le boîtier
 </note>
 
 ---
@@ -41,25 +41,25 @@
 
 ---
 
-## Gleichspannungsausgang
+## Sortie de tension continue
 
-[picture:680:n_Netzgeraet_TRX:Anschluss von Netzgerät und TRX]
+[picture:680:n_Netzgeraet_TRX:Raccordement de l'alimentation et de l'émetteur-récepteur]
 
 <left>
-* Ist zweipolig zum Transceiver
-* Klemmen sind in der Regel farbig
+* Bipolaire vers l'émetteur-récepteur
+* Bornes généralement colorées
 </left>
 <right>
 <fragment>
-* Rot für Plus
-* Schwarz für Minus
-* Polung beachten!
+* Rouge pour le plus
+* Noir pour le moins
+* Respecter la polarité !
 </fragment>
 </right>
 
 <note>
-* Kurzschluss oder Zerstörung des Transceivers möglich
-* Leitungen kontrollieren, dann erst einschalten
+* Court-circuit ou destruction de l'émetteur-récepteur possible
+* Contrôler les lignes, puis seulement mettre sous tension
 </note>
 
 ---
@@ -84,41 +84,41 @@
 
 ---
 
-## Feinsicherungen
+## Fusibles fins
 
 <left>
-[photo:88:n_feinsicherungen:Feinsicherungen]
+[photo:88:n_feinsicherungen:Fusibles fins]
 </left>
 <right>
-* Unterbrechen Stromfluss im Fehlerfall (Kurzschluss oder Überlastung)
-* Schmelzsicherungen in denen ein dünner Draht schmilzt
-* *Durchgebrannte Sicherung* bzw. *thermische Abschaltung*
+* Interrompre le flux de courant en cas de défaillance (court-circuit ou surcharge)
+* Fusibles dans lesquels un fil fin fond
+* *Fusible grillé* respectivement *désactivation thermique*
 </right>
 
 ---
 
-### Feinsicherungen austauschen
+### Remplacer les fusibles fins
 
-* Erst die Ursache beheben
-* Durch gleichartige ersetzen
-* Stromstärke und Auslösecharakteristik
-
----
-
-### Kenngrößen von Feinsicherungen
-
-| c: Auslösecharakteristik | c: Kennzeichen | c: Abschaltzeit bei zehnfachem Nennstrom |
-| flink | F | max. $\qty{30}{\milli\second}$ |
-| mittelträge | MT | max. $\qty{90}{\milli\second}$ |
-| träge | T | max. $\qty{300}{\milli\second}$ |
-[table:n_feinsicherung:Kenngrößen von Feinsicherungen]
+* D'abord corriger la cause
+* Remplacer par des fusibles de même type
+* Intensité du courant et caractéristique de déclenchement
 
 ---
 
-### Elektronische Begrenzung
+### Caractéristiques des fusibles fins
 
-* In hochwertigen Netzgeräten
-* Im Kurzschlussfall wird die Stromstärke begrenzt
-* *Kurzschlussstrombegrenzung*
-* Kein Austausch von Sicherungen notwendig
+| c: Caractéristique de déclenchement | c: Symbole | c: Temps de coupure à dix fois le courant nominal |
+| rapide | F | max. $\qty{30}{\milli\second}$ |
+| moyen | MT | max. $\qty{90}{\milli\second}$ |
+| lent | T | max. $\qty{300}{\milli\second}$ |
+[table:n_feinsicherung:Caractéristiques des fusibles fins]
+
+---
+
+### Limitation électronique
+
+* Dans les alimentations de haute qualité
+* En cas de court-circuit, l'intensité du courant est limitée
+* *Limitation du courant de court-circuit*
+* Pas besoin de remplacer les fusibles
 

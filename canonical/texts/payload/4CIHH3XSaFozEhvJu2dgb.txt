@@ -1,28 +1,28 @@
 <margin>
-[picture:911:e_digitale_signalverarbeitung_blockschaltbild:Prinzip der digitalen Signalverarbeitung]
+[picture:911:e_digitale_signalverarbeitung_blockschaltbild:Principe du traitement numérique du signal]
 </margin>
 
-In den letzten 25 Jahren hat sich die Welt technologisch massiv verändert. Die Rechenleistung von Computern hat um ein Vielfaches zugenommen, und immer mehr Aufgaben in technischen Geräten werden durch Mikrochips auf kleinstem Raum durchgeführt. Auch in den kommenden Jahren wird sich diese Entwicklung in einem rasanten Tempo weiter fortsetzen. Dies alles verändert die Art und Weise, wie Geräte, insbesondere auch die Signalverarbeitung in modernen Funkgeräten, realisiert ist. Digitale Signalverarbeitung ist mittlerweile Stand der Technik, und jedes moderne Gerät basiert auf dieser Technologie. Hierbei spielen insbesondere digitale Signalprozessoren und das Grundprinzip der digitalen Signalverarbeitung eine wesentliche Rolle.
+Au cours des 25 dernières années, le monde a connu des changements technologiques massifs. La puissance de calcul des ordinateurs a augmenté de manière significative, et de plus en plus de tâches dans les appareils techniques sont réalisées par des microprocesseurs dans un espace minimal. Cette évolution va se poursuivre à un rythme rapide dans les années à venir. Tout cela change la manière dont les appareils, en particulier le traitement des signaux dans les appareils radio modernes, sont réalisés. Le traitement numérique du signal est désormais une technologie standard, et chaque appareil moderne repose sur cette technologie. Les processeurs de signal numérique et le principe fondamental du traitement numérique du signal jouent ici un rôle essentiel.
 
-Die digitale Signalverarbeitung ist hierbei nicht nur im Bereich der Funktechnik zu finden. Viele Geräte, seien es Handys, Stereoanlagen, bildgebende Systeme im medizinischen Bereich sowie praktisch alle modernen Funkapplikationen profitieren von dieser faszinierenden Technik und ermöglichen nie gekannte Möglichkeiten und Funktionen in diesen Geräten kostengünstig zu realisieren.
+Le traitement numérique du signal ne se limite pas au domaine des technologies radio. De nombreux appareils, qu'il s'agisse de téléphones portables, de chaînes stéréo, de systèmes d'imagerie médicale ou de pratiquement toutes les applications radio modernes, profitent de cette technologie fascinante et permettent de réaliser des fonctions et des possibilités inédites dans ces appareils à moindre coût.
 
-Im Bereich der Funktechnik spricht man bei Geräten, die mittels digitaler Signalverarbeitung Signale verarbeiten von sogenannten SDR-Geräten. In diesen Geräten ist zumindest ein Teil der Signalverarbeitung in Software realisiert.
+Dans le domaine des technologies radio, on parle d'appareils SDR pour les appareils qui traitent les signaux au moyen du traitement numérique du signal. Dans ces appareils, au moins une partie du traitement des signaux est réalisée par logiciel.
 
 [question:EF603]
 
-Um kontinuierliche analoge Signale digital verarbeiten zu können, müssen diese zunächst mittels eines Analog-Digital-Umsetzers (A/D-Umsetzer) abgetastet und in digitale Werte umgesetzt werden. Man spricht hierbei von Digitalisierung des analogen Eingangssignals.
+Pour pouvoir traiter numériquement des signaux analogiques continus, ceux-ci doivent d'abord être échantillonnés et convertis en valeurs numériques au moyen d'un convertisseur analogique-numérique (convertisseur A/N). On parle ici de numérisation du signal d'entrée analogique.
 
 [question:EF602]
 
 ---
 <margin>
-[picture:411:e_digitale_signalverarbeitung:Einfache Darstellung einer Sinuswelle aus $\num{16}$ Samples und $\num{7}$ Werten]
+[picture:411:e_digitale_signalverarbeitung:Représentation simple d'une onde sinusoïdale composée de $\num{16}$ échantillons et $\num{7}$ valeurs]
 </margin>
 
-Hierbei wird das analoge Signal in festen Zeitintervallen abgetastet und in einem digitalen Wertebereich (z. B. von $\num{-128}$ bis $\num{+127}$) abgebildet. Jeder Wert repräsentiert eine bestimmte gemessene Signalspannung, wobei in der Regel negativen Werten negative Spannungen und positiven Werten positive Spannungen zugeordnet werden. Man kann sich das in etwa so vorstellen wie z.B. bei einer Filmkamera, die in festen Abständen Bilder einer Szene aufnimmt. Hierbei haben die aufgenommenen Bilder immer einen festen zeitlichen Abstand zum vorherigen und nächsten Bild und stellen die momentane Szene in zeitlich kleinen Abständen dar. Dieser Prozess nennt sich Sampling (in Deutsch könnten man dies mit dem Wort Probenahme übersetzen). Die einzelnen gemessenen Signalwerte werden als Samples bezeichnet. Im nächsten Abschnitt werden wir uns diesen Prozess noch etwas genauer ansehen.
+Ici, le signal analogique est échantillonné à intervalles de temps fixes et représenté dans une plage de valeurs numériques (par exemple de $\num{-128}$ à $\num{+127}$). Chaque valeur représente une tension de signal mesurée déterminée, les valeurs négatives étant généralement associées à des tensions négatives et les valeurs positives à des tensions positives. On peut se faire une idée approximative de ce processus, par exemple, comme avec une caméra de cinéma qui prend des images d'une scène à intervalles fixes. Ici, les images prises ont toujours un intervalle de temps fixe par rapport à l'image précédente et à l'image suivante et représentent la scène momentanée à de petits intervalles de temps. Ce processus s'appelle l'échantillonnage (en allemand, on pourrait traduire cela par le mot échantillonnage). Les valeurs de signal mesurées individuelles sont appelées échantillons. Dans la section suivante, nous allons examiner ce processus un peu plus en détail.
 
-Nach der A/D-Umsetzung können die als digitale Werte vorliegenden Samples mittels digitaler Signalverarbeitung beliebig weiter verarbeitet werden.
+Après la conversion A/N, les échantillons présents sous forme de valeurs numériques peuvent être traités davantage de manière quelconque au moyen du traitement numérique du signal.
 
-Im Anschluss an die digitale Signalverarbeitung wird man aus den digital verarbeiteten Signalen wieder ein analoges Signal z.B. für die Ausgabe über einen Lautsprecher oder für die Aussendung über eine Antenne machen wollen. Um die digitalen Werte wieder in ein analoges Signal zu verwandeln, benötigt man an dieser Stelle einen Digital-Analog-Umsetzer (D/A-Umsetzer), welcher praktisch das Gegenstück zum vorbeschriebenen A/D-Umsetzer darstellt. Der D/A-Umsetzer setzt digitale Werte wieder in analoge Spannungswerte um und ermöglicht somit die Rekonstruktion eines analogen Signals aus den digitalen Werten.
+À la suite du traitement numérique du signal, on voudra à nouveau obtenir un signal analogique à partir des signaux traités numériquement, par exemple pour la sortie via un haut-parleur ou pour l'émission via une antenne. Pour convertir les valeurs numériques à nouveau en un signal analogique, on a besoin à cet endroit d'un convertisseur numérique-analogique (convertisseur N/A), qui représente pratiquement le pendant du convertisseur A/N décrit précédemment. Le convertisseur N/A convertit à nouveau les valeurs numériques en valeurs de tension analogiques et permet ainsi la reconstruction d'un signal analogique à partir des valeurs numériques.
 
 [question:EF601]

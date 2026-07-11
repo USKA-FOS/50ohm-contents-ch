@@ -1,46 +1,46 @@
 <margin>
-[picture:804:mischer_linear_vs_nichtlinear:Linearer Widerstand und nichtlineare Diode]
+[picture:804:mischer_linear_vs_nichtlinear:Résistance linéaire et diode non linéaire]
 </margin>
 
-Steuerkennlinien von Baugruppen oder Bauelementen können linearen, nichtlinearen oder abschnittsweise gemischten Charakter haben. Zum Beispiel hat ein Widerstand eine lineare Kennline, die Kennlinie einer Diode ist hingegen nichtlinear [ref:mischer_linear_vs_nichtlinear].
+Les courbes caractéristiques des modules ou des composants peuvent avoir un caractère linéaire, non linéaire ou mixte par sections. Par exemple, une résistance a une courbe caractéristique linéaire, tandis que la courbe caractéristique d'une diode est non linéaire [ref:mischer_linear_vs_nichtlinear].
 
-Im linearen Bereich von Steuerkennlinien finden keine Verzerrungen der Eingangssignale statt da zu jeder Änderung eines Eingangssignals eine prozentual gleichgroße Änderung des Ausgangssignals erfolgt. Mathematisch entspricht dies einem linearen Verhalten (Addition). Ein Beispiel für eine durchgehend lineare Steuerkennlinie ist ein Widerstand. An linearen Steuerkennlinien oder im linearen Bereich von Steuerkennlinien findet **kein** Mischprozess statt.
+Dans la plage linéaire des courbes caractéristiques, aucune distorsion des signaux d'entrée ne se produit, car à chaque modification d'un signal d'entrée correspond une modification proportionnellement égale du signal de sortie. Mathématiquement, cela correspond à un comportement linéaire (addition). Un exemple de courbe caractéristique de commande linéaire continue est une résistance. Aucune opération de mélange n'a lieu sur les courbes caractéristiques de commande linéaires ou dans la plage linéaire des courbes caractéristiques de commande.
 
-Im nichtlinearen Bereich von Steuerkennlinien finden Verzerrungen der Eingangssignale statt, da eine Änderung eines Eingangssignals keine prozentual gleichgroße Änderung eines Ausgangssignals bewirkt. Mathematisch entspricht dies einem nichtlinearen Verhalten bei dem eine Multiplikation der Eingangsgrößen stattfindet und daher zusätzliche Mischprodukte (abhängig von der Form der Kennlinie) entstehen. Daher findet im nichtlinearen Bereich von Steuerkennlinien immer ein Mischprozess statt. Mischprodukte erzeugen immer zusätzliche Frequenzen im Ausgangssignal welche überwiegend als Summen und Differenzen der Eingangsfrequenzen im Ausgangssignal vorliegen.
+Dans la plage non linéaire des courbes caractéristiques, des distorsions des signaux d'entrée se produisent, car une modification d'un signal d'entrée ne provoque pas une modification proportionnellement égale d'un signal de sortie. Mathématiquement, cela correspond à un comportement non linéaire dans lequel une multiplication des grandeurs d'entrée a lieu et donc des produits de mélange supplémentaires (dépendant de la forme de la courbe caractéristique) sont générés. Par conséquent, une opération de mélange a toujours lieu dans la plage non linéaire des courbes caractéristiques. Les produits de mélange génèrent toujours des fréquences supplémentaires dans le signal de sortie qui se présentent principalement sous forme de sommes et de différences des fréquences d'entrée dans le signal de sortie.
 
-In der Praxis bilden sich jedoch auch viele unerwünschte Mischprodukte höherer Ordnung, die durch technische Maßnahmen wie Filterung gezielt unterdrückt werden müssen.
+En pratique, de nombreux produits de mélange indésirables d'ordre supérieur se forment, qui doivent être supprimés de manière ciblée par des mesures techniques telles que le filtrage.
 
-%TODO EVTL. VERWEIS AUF WEITERE LITERATUR ODER MATHEMATISCHEN HINTERGRUND
+%TODO ÉVENTUELLEMENT RÉFÉRENCE À D'AUTRES LITTÉRATURES OU ARRIÈRE-PLAN MATHÉMATIQUE
 
 [question:AF212]
 
 ---
 <margin>
-[picture:805:mischer_ringmischer:Balancemischer, Ringmischer oder auch Ringmodulator]
+[picture:805:mischer_ringmischer:mélangeur équilibré, mélangeur en anneau ou également modulateur en anneau]
 </margin>
 
-Ziel eines Mischers ist, dass an dessen Ausgang idealerweise nur die gewünschten Mischprodukte erscheinen und unerwünschte Mischprodukte sowie die Eingangssignale maximal unterdrückt werden.
+Le but d'un mélangeur est que seuls les produits de mélange souhaités apparaissent idéalement à sa sortie et que les produits de mélange indésirables ainsi que les signaux d'entrée soient supprimés au maximum.
 
-Am besten erreicht man dieses Ziel mit Hilfe eines sog. Balancemischers. Dieser ist mit 4 Dioden oder Transistoren in Ringschaltung aufgebaut [ref:mischer_ringmischer]. Durch seinen damit symmetrischen Aufbau werden die Eingangssignale im Ausgang maximal unterdrückt. Andere Mischerbauformen wie z.B. Doppeldiodenmischer, Dualtransistormischer sowie additive Diodenmischer leiten durch ihren unsymmetrischen Aufbau immer auch eines der Eingangssignale auf den Ausgang durch.
+On atteint le mieux cet objectif à l'aide d'un mélangeur équilibré. Celui-ci est constitué de 4 diodes ou transistors en circuit en anneau [ref:mischer_ringmischer]. Grâce à sa structure symétrique, les signaux d'entrée sont supprimés au maximum à la sortie. D'autres formes de mélangeurs, comme par exemple les mélangeurs à double diode, les mélangeurs à transistors doubles ainsi que les mélangeurs à diodes additives, transmettent toujours l'un des signaux d'entrée à la sortie en raison de leur structure non symétrique.
 
 <indepth>
-Funktionsweise eines Ringmischers:
+Fonctionnement d'un mélangeur en anneau:
 
-Der Lokal-Oszillator ($U_2$ im Schaubild) schaltet immer zwei gegenüberliegende Dioden während einer Halbwelle leitend, während die beiden anderen Dioden gesperrt sind. In der nächsten Halbwelle des Lokal-Oszillators kehren sich die Verhältnisse genau um. Hierfür muss die Amplitude des Lokal-Oszillators ($U_2$) ausreichend hoch sein, damit die Dioden während der positiven und negativen Halbwellen ausreichend durchgesteuert werden können.
+L'oscillateur local ($U_2$ dans le schéma) rend toujours deux diodes opposées conductrices pendant une demi-onde, tandis que les deux autres diodes sont bloquées. Dans la demi-onde suivante de l'oscillateur local, les rapports s'inversent exactement. Pour cela, l'amplitude de l'oscillateur local ($U_2$) doit être suffisamment élevée pour que les diodes puissent être suffisamment commandées pendant les demi-ondes positives et négatives.
 
-Hierdurch arbeitet der Diodenring als Polwender für das am Eingang anliegende Signal ($U_1$).
-Zum erreichen eines guten Mischergebnisses bezüglich unerwünschter Mischprodukte und Unterdrückung des Eingangssignals muss dessen Amplitude deutlich kleiner sein als die Amplitude des Lokal-Oszillators.
-Optimale Werte werden durch sog. High-Level-Ringmischer erreicht, deren LO-Eingangspegel im Bereich von bis zu $\qty{10}{\milli\watt}$ liegen können.
+C'est ainsi que l'anneau de diodes fonctionne comme un inverseur de polarité pour le signal appliqué à l'entrée ($U_1$).
+Pour obtenir un bon résultat de mélange en ce qui concerne les produits de mélange indésirables et la suppression du signal d'entrée, son amplitude doit être nettement inférieure à l'amplitude de l'oscillateur local.
+Les valeurs optimales sont obtenues par des mélangeurs en anneau à haut niveau, dont le niveau d'entrée de l'oscillateur local peut se situer dans la plage allant jusqu'à $\qty{10}{\milli\watt}$.
 </indepth>
 
 <tip>
-Wichtig ist, dass man den Ringmischer von der Schaltung eines Dioden-Gleichrichters, welcher sehr ähnlich aussieht, dadurch unterscheiden kann, dass die Dioden beim Ringmischer hintereinander als Ring geschaltet sind (Kathode jeweils mit folgender Anode der folgenden Diode verbunden). Beim Gleichrichter hingegen sind immer 2 Kathoden und 2 Anoden verbunden.
+Il est important de distinguer le mélangeur en anneau du circuit d'un redresseur à diodes, qui a un aspect très similaire, par le fait que les diodes du mélangeur en anneau sont connectées en série en anneau (cathode respectivement connectée à l'anode suivante de la diode suivante). Dans le cas du redresseur, en revanche, 2 cathodes et 2 anodes sont toujours connectées.
 </tip>
   
-Der Balancemischer, der auch als Ringmischer oder Ringmodulator bezeichnet wird, ist am besten geeignet um unerwünschte Ausgangssignale zu unterdrücken.
+Le mélangeur équilibré, également appelé mélangeur en anneau ou modulateur en anneau, est le mieux adapté pour supprimer les signaux de sortie indésirables.
 
-% FEEDBACK: Wie funktioniert das ganze? Das wird nicht klar! Zusätlich: Hinweis zur verwechslung mit Brückengleichrichter!
-% FEEDBACK-ANTWORT: Wir haben den Artikel um einen Tipp und Vertiefung hinsichtlich der angesprochenen Punkte erweitert.
+% FEEDBACK: Comment cela fonctionne-t-il ? Cela n'est pas clair ! De plus : indication de confusion avec le redresseur en pont !
+% RÉPONSE AU FEEDBACK : Nous avons complété l'article par un conseil et une approfondissement concernant les points abordés.
 
 [question:AF213]
 [question:AF214]

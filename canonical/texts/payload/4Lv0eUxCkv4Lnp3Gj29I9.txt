@@ -1,11 +1,11 @@
-Ein Netzgerät wandelt die Wechselspannung von $\qty{230}{\volt}$ aus der Steckdose in eine kleinere Gleichspannung um. Im Amateurfunk verwenden wir häufig Netzgeräte, die an ihrem Ausgang eine Gleichspannung von $\qty{13,8}{\volt}$ bereitstellen, um damit beispielsweise einen Transceiver zu betreiben.
+Un bloc d'alimentation convertit la tension alternative de $\qty{230}{\volt}$ de la prise de courant en une tension continue plus faible. En radioamateur, nous utilisons souvent des blocs d'alimentation qui fournissent à leur sortie une tension continue de $\qty{13,8}{\volt}$ pour alimenter, par exemple, un émetteur-récepteur.
 
 <margin>
-[picture:740:n_netzgeraet:Netzgerät]
+[picture:740:n_netzgeraet:Bloc d'alimentation]
 </margin>
 
 <indepth>
-Zur *Kontrolle des Betriebszustands* eines Netzgeräts gibt es beleuchtete Schalter, Kontroll-Leuchtdioden oder beleuchtete Anzeigeinstrumente. Die Anzeigeinstrumente können getrennt die Betriebsspannung in Volt und die aktuell fließenden Stromstärke in Ampere anzeigen. Es gibt auch umschaltbare Digitalanzeigen für diesen Zweck.
+Pour *contrôler l'état de fonctionnement* d'un bloc d'alimentation, il existe des interrupteurs éclairés, des diodes électroluminescentes de contrôle ou des instruments d'affichage éclairés. Les instruments d'affichage peuvent afficher séparément la tension de service en volts et l'intensité du courant actuelle en ampères. Il existe également des affichages numériques commutables à cet effet.
 </indepth>
 
 [question:ND101]
@@ -13,25 +13,25 @@ Zur *Kontrolle des Betriebszustands* eines Netzgeräts gibt es beleuchtete Schal
 
 ---
 
-Ein Netzgerät wird oft mittels *Schutzkontaktstecker* (kurz Schukostecker) an der Steckdose angeschlossen. Beim Schutzkontaktstecker spielt die Einsteckrichtung keine Rolle, da sich die Polarität bei Wechselspannung ständig ändert. Stecker und Steckdose haben jeweils 3 Pole, wie in Abbildung [ref:n_schutzkontakt] zu erkennen ist. Die Stifte des Steckers passen in die Öffnungen der Steckdose und erlauben die Verbindung zu den sogenannten L- und N-Leitern, zwischen denen die gefährliche Wechselspannung von $\qty{230}{\volt}$ anliegt.
+Un bloc d'alimentation est souvent connecté à la prise de courant au moyen d'une *fiche de protection* (couramment appelée fiche Schuko). Avec la fiche Schuko, la direction d'insertion n'a pas d'importance, car la polarité change constamment en tension alternative. La fiche et la prise ont chacune 3 pôles, comme on peut le voir dans la figure [ref:n_schutzkontakt]. Les broches de la fiche s'adaptent aux ouvertures de la prise et permettent la connexion aux conducteurs appelés L et N, entre lesquels la tension alternative dangereuse de $\qty{230}{\volt}$ est appliquée.
 
 <margin>
-[photo:86:n_schutzkontakt:Schutzkontakt an einer Steckdose und Schukostecker]
+[photo:86:n_schutzkontakt:Contact de protection sur une prise de courant et fiche Schuko]
 </margin>
 
-Den äußeren Schleifkontakt des Schukosteckers nennt man *Schutzkontakt* (in der Abbildung [ref:n_schutzkontakt] rot markiert). Der Schutzkontakt verbindet sich beim Einstecken mit dem sogenannten *PE-Leiter* der Steckdose. "PE" ist die Abkürzung für den englischen Begriff "protective earth", der soviel wie Schutzerdung bedeutet. Beim Einstecken des Steckers wird das metallische Gehäuse des Netzgeräts also geerdet. Eine gefährliche Spannung auf dem Gehäuse wird dadurch ausgeschlossen.
+Le contact de masse extérieur de la fiche Schuko est appelé *contact de protection* (marqué en rouge dans la figure [ref:n_schutzkontakt]). Le contact de protection se connecte lors de l'insertion au conducteur appelé *PE* de la prise de courant. "PE" est l'abréviation du terme anglais "protective earth", qui signifie mise à la terre de protection. Lors de l'insertion de la fiche, le boîtier métallique du bloc d'alimentation est donc mis à la terre. Une tension dangereuse sur le boîtier est ainsi exclue.
 
 [question:ND109]
 
 ---
 
-Der Ausgang des Netzteils und die Verbindungsleitung zum Transceiver sind zweipolig ausgelegt, damit sich ein geschlossener Stromkreis ergeben kann. Das ist die Voraussetzung dafür, dass der Strom vom Netzgerät zum Transceiver, durch diesen hindurch und wieder zurück zum Netzgerät fließen kann. 
+La sortie de l'alimentation et le câble de connexion vers l'émetteur-récepteur sont conçus avec deux pôles afin de permettre un circuit fermé. C'est la condition préalable pour que le courant puisse circuler du bloc d'alimentation vers l'émetteur-récepteur, à travers celui-ci et revenir au bloc d'alimentation.
 
 <webmargin>
-[picture:680:n_Netzgeraet_TRX:Anschluss von Netzgerät und TRX]
+[picture:680:n_Netzgeraet_TRX:Connexion du bloc d'alimentation et de l'émetteur-récepteur]
 </webmargin>
 
-Die Ausgangsklemmen für die Gleichspannung sind farbig ausgeführt: Rot steht für Plus und schwarz für Minus. Beim Anschluss der Verbindungsleitung zum Transceiver ist diese Polung unbedingt zu beachten. Ansonsten kann es zum Kurzschluss oder im Extremfall sogar zur Zerstörung des Transceivers kommen. Erst wenn alle Leitungen angeschlossen sind und die Polung kontrolliert wurde, sollte das Netzgerät eingeschaltet werden. 
+Les bornes de sortie pour la tension continue sont colorées : le rouge représente le plus et le noir le moins. Lors de la connexion du câble de liaison à l'émetteur-récepteur, cette polarité doit absolument être respectée. Sinon, il peut y avoir un court-circuit ou, dans le pire des cas, même la destruction de l'émetteur-récepteur. Ce n'est qu'après avoir connecté tous les câbles et vérifié la polarité que le bloc d'alimentation doit être mis sous tension.
 
 [question:ND104]
 [question:ND103]
@@ -41,31 +41,31 @@ Die Ausgangsklemmen für die Gleichspannung sind farbig ausgeführt: Rot steht f
 
 ---
 
-Im Netzgerät und in der Verbindungsleitung zum Transceiver gibt es sogenannte Feinsicherungen. Diese können einen Fehlerfall (Kurzschluss oder Überlastung) erkennen und den Stromfluss unterbrechen. Häufig handelt es sich dabei um Schmelzsicherungen, in denen ein dünner Draht schmilzt, wenn zuviel Strom fließt. Dann ist der Stromkreis nicht mehr geschlossen und es kann kein Strom mehr fließen. Man spricht dann von einer *durchgebrannten Sicherung* oder in der Fachsprache auch von einer *thermischen Abschaltung*.
+Dans le bloc d'alimentation et dans le câble de connexion vers l'émetteur-récepteur, il existe des fusibles fins. Ceux-ci peuvent détecter un cas de défaut (court-circuit ou surcharge) et interrompre le flux de courant. Il s'agit souvent de fusibles à cartouche, dans lesquels un fil fin fond lorsqu'un courant trop élevé circule. Le circuit n'est alors plus fermé et aucun courant ne peut circuler. On parle alors d'une *fusible grillé* ou, en termes techniques, d'une *déconnexion thermique*.
 
 <margin>
-[photo:88:n_feinsicherungen:Feinsicherungen]
+[photo:88:n_feinsicherungen:Fusibles fins]
 </margin>
 
 <indepth>
-*Vertiefung:* Feinsicherungen sind $\qty{5}{\milli\meter} \times \qty{20}{\milli\meter}$ groß und in unterschiedlichen Ausführungen erhältlich. Sie unterscheiden sich nach Stromstärken und Auslösecharakteristiken. Träge Sicherungen werden immer dann eingesetzt, wenn der Einschaltstrom deutlich höher als der Nennstrom ist, z. B. in Netzgeräten. Die Auslösezeit der Sicherung hängt von der Stromstärke und der Dauer des Stromflusses ab. In Tabelle [ref:n_feinsicherung] sind übliche Werte für die Auslösezeit zusammengestellt. Genauere Angaben geben die Hersteller über Kennlinien in ihren Datenblättern an.
+*Approfondissement :* Les fusibles fins mesurent $\qty{5}{\milli\meter} \times \qty{20}{\milli\meter}$ et sont disponibles en différentes versions. Ils diffèrent selon les intensités de courant et les caractéristiques de déclenchement. Les fusibles à déclenchement lent sont utilisés lorsque le courant de démarrage est nettement plus élevé que le courant nominal, par exemple dans les blocs d'alimentation. Le temps de déclenchement du fusible dépend de l'intensité du courant et de la durée du flux de courant. Dans le tableau [ref:n_feinsicherung], des valeurs usuelles pour le temps de déclenchement sont réunies. Des indications plus précises sont données par les fabricants via des courbes caractéristiques dans leurs feuilles de données.
 </indepth>
 
-Nachdem eine Schmelzsicherung ausgelöst hat und man die Ursache erkannt und behoben hat, muss man sie austauschen. Defekte Sicherungen dürfen aber nur durch gleichartige ersetzt werden! Dabei ist sowohl auf Stromstärke als auch die sogenannte Auslösecharakteristik zu achten, die angibt, wie schnell eine Sicherung auslöst (flink, mittelträge, träge).
+Après qu'un fusible à cartouche a déclenché et que la cause a été identifiée et corrigée, il doit être remplacé. Les fusibles défectueux ne doivent cependant être remplacés que par des fusibles de même type ! Il faut alors tenir compte à la fois de l'intensité du courant et de la caractéristique de déclenchement, qui indique à quelle vitesse un fusible se déclenche (rapide, moyen, lent).
 
 <webmargin>
-| l: Auslösecharakteristik | l: Kennzeichen | X: Abschaltzeit |
-| flink | F | max. $\qty{30}{\milli\second}$ |
-| mittelträge | MT | max. $\qty{90}{\milli\second}$ |
-| träge | T | max. $\qty{300}{\milli\second}$ |
-[table:n_feinsicherung:Kenngrößen von Feinsicherungen, Abschaltzeit bei zehnfachem Nennstrom]
+| l: Caractéristique de déclenchement | l: Symbole | X: Temps de coupure |
+| rapide | F | max. $\qty{30}{\milli\second}$ |
+| moyen | MT | max. $\qty{90}{\milli\second}$ |
+| lent | T | max. $\qty{300}{\milli\second}$ |
+[table:n_feinsicherung:Caractéristiques des fusibles fins, temps de coupure pour dix fois le courant nominal]
 </webmargin>
 
 <danger>
-*ACHTUNG:* Die manchmal praktizierte Überbrückung einer defekten Sicherung, z. B. mit Alufolie, ist unzulässig und sehr gefährlich. Es besteht die Gefahr von Bränden!
+*ATTENTION :* Le pontage parfois pratiqué d'un fusible défectueux, par exemple avec une feuille d'aluminium, est inadmissible et très dangereux. Il existe un risque d'incendie !
 </danger>
 
-Hochwertige Netzgeräte besitzen oft auch eine elektronische Begrenzung von Strömen. Im Kurzschlussfall sorgt diese dafür, dass die Stromstärke begrenzt wird. Dies nennt sich *Kurzschlussstrombegrenzung*. Nachdem der Fehler beseitigt ist, muss keine Sicherung ausgetauscht werden.
+Les blocs d'alimentation de haute qualité possèdent souvent également une limitation électronique des courants. En cas de court-circuit, celle-ci garantit que l'intensité du courant est limitée. On appelle cela *limitation du courant de court-circuit*. Après avoir éliminé la panne, il n'est pas nécessaire de remplacer un fusible.
 
 [question:ND108]
 [question:NK305]

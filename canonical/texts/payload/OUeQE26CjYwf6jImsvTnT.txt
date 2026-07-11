@@ -1,52 +1,52 @@
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Transistor bipolaire en configuration d'émetteur]
 </left>
 <right>
-* Eingangssignal: Quelle $\rightarrow$ Basis $\rightarrow$ Emitter $\rightarrow$ Masse $\rightarrow$ Quelle
-* Ausgangsignal: Kollektor $\rightarrow$ Last $\rightarrow$ Betriebsspannung $\rightarrow$ Masse $\rightarrow$ Emitter $\rightarrow$ Kollektor
+* Signal d'entrée: source $\rightarrow$ base $\rightarrow$ émetteur $\rightarrow$ masse $\rightarrow$ source
+* Signal de sortie: collecteur $\rightarrow$ charge $\rightarrow$ tension de service $\rightarrow$ masse $\rightarrow$ émetteur $\rightarrow$ collecteur
 </right>
 
 ---
 [question:AD409]
 ---
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Transistor bipolaire en configuration d'émetteur]
 </left>
 <right>
-* Arbeitspunkt (BIAS) wird über den Spannungsteiler an der Basis eingestellt
+* Le point de fonctionnement (BIAS) est réglé par le diviseur de tension à la base
 </right>
 
 ---
 [question:AD411]
 ---
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Transistor bipolaire en configuration d'émetteur]
 </left>
 <right>
-* Kollektorwiderstand wandelt Kollektorstrom in eine Spannung um
-* Kollektorstrom fließt in den Emitterstrom rein
-* Emitterwiderstand erzeugt Spannungsabfall und erhöht das Emitterpotenzial
-* Thermische Änderungen des Kollektorstroms werden automatisch ausgeglichen
+* La résistance de collecteur convertit le courant de collecteur en une tension
+* Le courant de collecteur circule dans le courant d'émetteur
+* La résistance d'émetteur génère une chute de tension et augmente le potentiel d'émetteur
+* Les variations thermiques du courant de collecteur sont automatiquement compensées
 </right>
 ---
 [question:AD413]
 ---
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Transistor bipolaire en configuration d'émetteur]
 </left>
 <right>
-* Ein- und Auskopplung über Koppelkondensatoren
-* Halten Gleichspannungsanteile aus der Netzspannung vom Arbeitspunkt fern
+* Couplage et découplage via des condensateurs de couplage
+* Maintiennent les composantes de tension continue de la tension du réseau à l'écart du point de fonctionnement
 </right>
 ---
 [question:AD412]
 ---
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Transistor bipolaire en configuration d'émetteur]
 </left>
 <right>
-* Abblockkondensator führt unerwünschte HF- und NF-Signale aus der Betriebsspannung nach Masse ab
-* Phasenverschiebung zwischen Ein- und Ausgangssignal: $\qty{180}{\degree}$
+* Le condensateur de blocage conduit les signaux HF et BF indésirables de la tension de service vers la masse
+* Déphasage entre le signal d'entrée et de sortie: $\qty{180}{\degree}$
 </right>
 ---
 [question:AD407]
@@ -54,28 +54,28 @@
 [question:AD408]
 --- style="font-size: smaller;"
 <left>
-[picture:227:a_emitterschaltung_ohne_bias:Bipoltransistor in Emitterschaltung ohne Arbeitspunktvoreinstellung]
+[picture:227:a_emitterschaltung_ohne_bias:Transistor bipolaire en configuration d'émetteur sans réglage préalable du point de fonctionnement]
 </left>
 <right>
-* BIAS-Spannungsteiler entfällt
-* Ansteuerung erfolgt nur durch das zugeführte Signal
-* Basis-Emitter-Strecke leitet erst, wenn ca. $\qty{0,5}{\volt}$ überschritten werden
-* Bei Überschreitung fließt ein Kollektorstrom
-* Spannungsabfall am Ausgang
+* Le diviseur de tension BIAS est omis
+* La commande s'effectue uniquement par le signal fourni
+* La jonction base-émetteur ne conduit que lorsque environ $\qty{0,5}{\volt}$ est dépassé
+* En cas de dépassement, un courant de collecteur circule
+* Chute de tension à la sortie
 </right>
 ---
 [question:AD406]
 ---
 <left>
-[picture:136:a_emitterschaltung_schaltbild:Bipoltransistor in Emitterschaltung]
+[picture:136:a_emitterschaltung_schaltbild:Transistor bipolaire en configuration d'émetteur]
 </left>
 <right>
-* Spannungsverstärkung ca. $100\dots 300$
-* Entfernung des Emitterkondensators $\rightarrow$ Verstärkungfaktor sinkt erheblich
-* Verstärkungsfaktor nur noch durch Verhältnis Kollektor- zu Emitterwiderstand definiert
+* Amplification de tension d'environ $100\dots 300$
+* Retrait du condensateur d'émetteur $\rightarrow$ le facteur d'amplification diminue considérablement
+* Le facteur d'amplification est défini uniquement par le rapport de la résistance de collecteur à celle d'émetteur
 </right>
 <note>
-Hohe Spannungsverstärkung
+Amplification de tension élevée
 </note>
 ---
 [question:AD414]

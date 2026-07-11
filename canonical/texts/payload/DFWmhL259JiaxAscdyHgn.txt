@@ -1,24 +1,24 @@
-%TODO ggf. das Kapitel wo anders hinschieben 
+%TODO déplacer éventuellement le chapitre ailleurs 
 
-Im Unterkapitel *Dezibel* im Block über "Strom, Spannung, Widerstand, Leistung, Energie" wurde schon angedeutet, dass die Zusätze $\unit{\dBd}$ und $\unit{\dBi}$, die bei der Angabe von Antennengewinnen verwendet werden, die zugrundeliegende Referenz bezeichnen. In diesem Fall bezieht sich der Dezibelwert nicht auf eine Leistung oder Spannung, sondern auf einen bestimmten Referenzstrahler. Üblich sind dabei $\unit{\dBi}$, bezogen auf den isotropen Kugelstrahler, sowie $\unit{\dBd}$, bezogen auf den Halbwellendipol.
+Dans le sous-chapitre *Décibels* dans le bloc sur "Courant, tension, résistance, puissance, énergie", il a déjà été suggéré que les ajouts $\unit{\dBd}$ et $\unit{\dBi}$, utilisés pour indiquer les gains d'antenne, désignent la référence sous-jacente. Dans ce cas, la valeur en décibels ne se réfère pas à une puissance ou à une tension, mais à un émetteur de référence particulier. Les valeurs courantes sont $\unit{\dBi}$, par rapport à l'émetteur isotrope sphérique, et $\unit{\dBd}$, par rapport au dipôle demi-onde.
 
-Der *Isotropstrahler* (vgl. Abbildung [ref:e_Kugelstrahler]) ist eine gedachte, hypothetische Antenne, die in alle Richtungen gleich stark abstrahlt. Weist eine real vorhandene Antenne eine Richtwirkung auf, so ist die Abstrahlung in bestimmten Richtungen stärker und in anderen Richtungen schwächer als sie beim hypothetischen Isotropstrahler wäre. 
+L'*émetteur isotrope* (voir figure [ref:e_Kugelstrahler]) est une antenne hypothétique qui émet de manière égale dans toutes les directions. Si une antenne réelle présente une directivité, l'émission est plus forte dans certaines directions et plus faible dans d'autres que celle d'un émetteur isotrope hypothétique. 
 
 <margin>
-[picture:751:e_Kugelstrahler:Isotroper Strahler in der Mitte einer Kugel, der an allen Stellen der Kugeloberfläche die gleiche Strahlungsleistung erzeugt]
+[picture:751:e_Kugelstrahler:Émetteur isotrope au centre d'une sphère, produisant la même puissance de rayonnement en tous points de la surface de la sphère]
 </margin>
 
-Den Gewinn in einer Richtung (z.B. der Hauptstrahlrichtung welche die Richtung mit dem maximalen Antennengewinn ist) gegenüber einem Isotropstrahler kann man in Dezibel $\unit{\dB}$ angeben. Anstelle von $\unit{\dB}$ schreibt man $\unit{\dBi}$, um zu verdeutlichen, dass man sich auf den Isotropstrahler bezieht.
+Le gain dans une direction (par exemple, la direction du faisceau principal, qui est la direction avec le gain d'antenne maximal) par rapport à un émetteur isotrope peut être exprimé en décibels $\unit{\dB}$. Au lieu de $\unit{\dB}$, on écrit $\unit{\dBi}$ pour indiquer que la référence est l'émetteur isotrope.
 
 [question:EG220]
 
-Auch ein einfacher Halbwellendipol hat einen Gewinn, denn er strahlt senkrecht zum Leiter um $\qty{2,15}{\dB}$ stärker ab, als es ein Isotropstrahler tun würde. Entsprechend hat ein Halbwellendipol einen Gewinn von $\qty{2,15}{\dBi}$.
+Même un simple dipôle demi-onde a un gain, car il émet perpendiculairement au conducteur avec une intensité $\qty{2,15}{\dB}$ supérieure à celle d'un émetteur isotrope. Par conséquent, un dipôle demi-onde a un gain de $\qty{2,15}{\dBi}$.
 
-Gelegentlich interessiert der Gewinn der über den Gewinn eines Halbwellendipols hinausgeht, also den Gewinn in Bezug auf einen Halbwellendipol. Diesen gibt man in $\unit{\dBd}$ an, wobei das $\text{d}$ für Dipol steht. Ein Halbwellendipol hat entsprechend einen Gewinn von $\qty{0}{\dBd}$. Antennen, die mehr Gewinn aufweisen, als ein Halbwellendipol haben einen Gewinn größer als $\qty{0}{\dBd}$ und Antennen mit weniger Gewinn als ein Halbwellendipol entsprechend weniger als $\qty{0}{\dBd}$.
+Parfois, on s'intéresse au gain qui dépasse celui d'un dipôle demi-onde, c'est-à-dire au gain par rapport à un dipôle demi-onde. Celui-ci est exprimé en $\unit{\dBd}$, où le $\text{d}$ signifie dipôle. Un dipôle demi-onde a donc un gain de $\qty{0}{\dBd}$. Les antennes qui ont un gain supérieur à celui d'un dipôle demi-onde ont un gain supérieur à $\qty{0}{\dBd}$, et les antennes avec un gain inférieur à celui d'un dipôle demi-onde ont un gain inférieur à $\qty{0}{\dBd}$.
 
-Vergleichen wir noch einmal den Gewinn eines Halbwellendipols angegeben als $\unit{\dBi}$ und angegeben als $\unit{\dBd}$: Der Halbwellendipol hat in Hauptstrahlrichtung einen Gewinn von $\qty{2,15}{\dBi}$, da er gegenüber dem Isotropstrahler $\qty{2,15}{\dB}$ stärker strahlt. In $\unit{\dBd}$ angegeben sind es jedoch $\qty{0}{\dBd}$. Die Angabe in $\unit{\dBi}$ ist stets um $\qty{2,15}{\dB}$ höher als die Angabe in $\unit{\dBd}$.
+Comparons à nouveau le gain d'un dipôle demi-onde exprimé en $\unit{\dBi}$ et en $\unit{\dBd}$ : le dipôle demi-onde a dans la direction du faisceau principal un gain de $\qty{2,15}{\dBi}$, car il émet $\qty{2,15}{\dB}$ plus fortement que l'émetteur isotrope. En $\unit{\dBd}$, il s'agit cependant de $\qty{0}{\dBd}$. L'indication en $\unit{\dBi}$ est toujours $\qty{2,15}{\dB}$ plus élevée que l'indication en $\unit{\dBd}$.
 
-Das steht auch in der Formelsammlung: 
+Cela est également indiqué dans le recueil de formules : 
 
 $g_i = g_d + \qty{2,15}{\dB}$
 

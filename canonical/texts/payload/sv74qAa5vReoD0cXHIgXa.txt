@@ -1,28 +1,28 @@
-Die Verbindung in der Mitte sorgt dafür, dass die beiden mittleren Punkte elektrisch identisch sind.
+La liaison au milieu fait en sorte que les deux points centraux sont électriquement identiques.
 
-Dadurch liegen:
+Par conséquent, on a :
 
-* $R_1$ und $R_3$ parallel zwischen a und dem Mittelpunkt
-* $R_2$ und $R_4$ parallel zwischen Mittelpunkt und b
+* $R_1$ et $R_3$ en parallèle entre a et le point central
+* $R_2$ et $R_4$ en parallèle entre le point central et b
 
-Die Schaltung besteht also aus zwei Parallelschaltungen, die anschließend in Reihe liegen.
+Le circuit est donc constitué de deux circuits en parallèle, qui sont ensuite en série.
 
-Zuerst werden $R_1$ und $R_3$ zusammengefasst:
+Tout d'abord, $R_1$ et $R_3$ sont combinés :
 
 $ R_{13} = \frac{R_1 \cdot R_3}{R_1 + R_3} $
 
-Da beide Widerstände gleich groß sind:
+Puisque les deux résistances sont de même taille :
 
 $ R_{13} = \frac{\qty{2,2}{\kilo\ohm}}{2} = \qty{1,1}{\kilo\ohm} $
 
-Nun werden $R_2$ und $R_4$ zusammengefasst:
+Ensuite, $R_2$ et $R_4$ sont combinés :
 
 $ R_{24} = \frac{R_2 \cdot R_4}{R_2 + R_4} $
 
-Auch diese Widerstände sind gleich groß:
+Ces résistances sont également de même taille :
 
 $ R_{24} = \frac{\qty{220}{\ohm}}{2} = \qty{110}{\ohm} $
 
-Beide Ersatzwiderstände liegen in Reihe:
+Les deux résistances de remplacement sont en série :
 
 $ R_\mathrm{ges} = R_{13} + R_{24} = \qty{1100}{\ohm} + \qty{110}{\ohm} = \qty{1210}{\ohm} $

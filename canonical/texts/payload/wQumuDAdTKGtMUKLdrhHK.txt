@@ -1,19 +1,19 @@
-## Näherungsformel für Feldstärke
+## Formule approchée pour l'intensité de champ
 <left>
-* Berechnung der elektrischen Feldstärke
-* Im Abstand zu einem Strahler
-* Bei gegebener Leistung und Gewinn
-* Gilt nur im Freiraum <br/> ($d > \frac{\lambda}{2\pi}$)
+* Calcul de l'intensité de champ électrique
+* À une distance d'un radiateur
+* Pour une puissance et un gain donnés
+* Valable uniquement dans l'espace libre <br/> ($d > \frac{\lambda}{2\pi}$)
 </left>
 <right>
 $\begin{split} E &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{d} \end{split}$
 </right>
 
 ---
-## Näherungsformel für Abstand
+## Formule approchée pour la distance
 <left>
-* Bei gegebener Feldstärke
-* Umstellen nach $d$
+* Pour une intensité de champ donnée
+* Réarrangement en fonction de $d$
 </left>
 <right>
 $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{E}\\ &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E} \end{split}$
@@ -22,16 +22,16 @@ $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{E}\\ &= \d
 ---
 [question:EK108]
 ---
-### Lösungsweg
+### Méthode de résolution
 <left>
-* gegeben: $E = \qty{28}{\volt\per\meter}$
-* gegeben: $g_d = \qty{7,5}{\dBd}$
-* gegeben: $P_S = \qty{100}{\watt}$
+* donné: $E = \qty{28}{\volt\per\meter}$
+* donné: $g_d = \qty{7,5}{\dBd}$
+* donné: $P_S = \qty{100}{\watt}$
 </left>
 <right>
-* gegeben: $a_{\textrm{Kabel}} = \qty{1,5}{\dB}$
-* gesucht: $P_{\textrm{EIRP}}$
-* gesucht: $d$
+* donné: $a_{\textrm{Kabel}} = \qty{1,5}{\dB}$
+* recherché: $P_{\textrm{EIRP}}$
+* recherché: $d$
 </right>
 
 <left>
@@ -46,9 +46,9 @@ $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E}\\ &
 </right>
 
 ---
-### Bonusfrage
+### Question bonus
 
-Liegen die errechneten $\qty{5}{\meter}$ nicht im Nahfeld für das $\qty{10}{\meter}$-Band aus der Frage?
+Les $\qty{5}{\meter}$ calculés ne se trouvent-ils pas dans le champ proche pour la bande de $\qty{10}{\meter}$ de la question ?
 
 <fragment>
 $\begin{split} d &> \frac{\lambda}{2\pi}\\ \qty{5}{\meter} &> \frac{\qty{10}{\meter}}{2\pi}\\ \qty{5}{\meter} &\gtrapprox \qty{1,6}{\meter} \end{split}$
@@ -57,17 +57,17 @@ $\begin{split} d &> \frac{\lambda}{2\pi}\\ \qty{5}{\meter} &> \frac{\qty{10}{\me
 ---
 [question:EK106]
 ---
-### Lösung
+### Solution
 
-* Personenschutz-Sicherheitsabstand gilt nur im Freiraum
+* Distance de sécurité de protection des personnes valable uniquement dans l'espace libre
 * $d > \frac{\lambda}{2\pi}$
-* $\qty{160}{\meter}$-Band: $\qty{25,5}{\meter}$
-* $\qty{80}{\meter}$-Band: $\qty{12,7}{\meter}$
+* Bande de $\qty{160}{\meter}$: $\qty{25,5}{\meter}$
+* Bande de $\qty{80}{\meter}$: $\qty{12,7}{\meter}$
 
 ---
 [question:EK105]
 
 <note>
-Liegt im Nahfeld, was wir vorher ausgerechnet haben
+Se trouve dans le champ proche, que nous avons calculé précédemment
 </note>
 

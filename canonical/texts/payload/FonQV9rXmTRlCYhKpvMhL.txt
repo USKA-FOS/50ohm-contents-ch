@@ -1,21 +1,21 @@
-Ein Schaltnetzteil (engl. switched-mode power supply) wandelt eine Wechselspannung in eine stabilisierte Gleichspannung um. Dazu richtet es zunächst die Eingangsspannung gleich, schaltet sie anschließend sehr schnell ein und aus, transformiert sie so effizient auf die gewünschte Spannung und glättet sie abschließend. Wie das im Detail funktioniert werden wir uns in der Klasse A genauer anschauen. 
+Un bloc d'alimentation à découpage (en anglais *switched-mode power supply*) convertit une tension alternative en une tension continue stabilisée. Pour ce faire, il redresse d'abord la tension d'entrée, la commute ensuite très rapidement, la transforme efficacement à la tension souhaitée et la lisse finalement. Nous examinerons en détail comment cela fonctionne dans la classe A. 
 
 <margin>
-[photo:308:e_Ferritkerntrafo im Schaltnetzteils:Innenansicht eines Schaltnetzteils für $\qty{13,8}{\volt}$ und $\qty{35}{\ampere}$ mit einem kleinen Ferritkernübertrager zwischen den beiden Kühlkörpern, Gewicht $\qty{2}{\kilo\gram}$]
+[photo:308:e_Ferritkerntrafo im Schaltnetzteils:Vue intérieure d'un bloc d'alimentation à découpage pour $\qty{13,8}{\volt}$ et $\qty{35}{\ampere}$ avec un petit transformateur à noyau de ferrite entre les deux dissipateurs thermiques, poids $\qty{2}{\kilo\gram}$]
 </margin> 
 
-Das Schaltnetzteil mehrere positive Eigenschaften gegen über einem linear geregeltem Netzteil:
+Le bloc d'alimentation à découpage présente plusieurs avantages par rapport à une alimentation linéaire:
 
-* Hoher Wirkungsgrad auch bei kleinen Nennspannungen und wechselnden Lasten
-* Geringes Gewicht und Volumen, da durch die hohe Frequenz kleinere Transformatoren und sekundäre Siebkondensatoren verwendet werden
-* Gute Regelbarkeit
-* Geringeres Gewicht, kleinere Kühlkörper und dadurch weniger Platzbedarf im Vergleich zu einem linear geregelten Netzteil (siehe Abschnitt: Spannungsstabilisierung)
+* Rendement élevé même pour les petites tensions nominales et les charges variables
+* Poids et volume réduits, car des transformateurs et des condensateurs de filtrage secondaires plus petits sont utilisés en raison de la haute fréquence
+* Bonne régulation
+* Poids réduit, dissipateurs thermiques plus petits et donc moins d'encombrement par rapport à une alimentation linéaire (voir section : stabilisation de tension)
  
 [question:ED302]
 
-Aber durch die hohen Frequenzen ergeben sich auch negative Eigenschaften:
+Mais les hautes fréquences entraînent également des propriétés négatives:
 
-* Hochfrequente Störungen, durch den Schaltbetrieb mit hohen Frequenzen sind Maßnahmen zur Verbesserung der EMV notwendig
-* Komplexe Schaltung, mehr Bauelemente notwendig, höhere Ausfallwahrscheinlichkeit
+* Perturbations haute fréquence, des mesures pour améliorer la CEM sont nécessaires en raison du fonctionnement de commutation à hautes fréquences
+* Circuit complexe, plus de composants nécessaires, probabilité de panne plus élevée
 
 [question:ED303]

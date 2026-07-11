@@ -1,10 +1,10 @@
-Einer der ersten und einfachsten Empfänger für den Rundfunkempfang (AM) war der Detektor-Empfänger (vgl. Abbildung [ref:am_detektor]).
+L'un des premiers et des plus simples récepteurs pour la réception radiophonique (AM) était le récepteur à détecteur (voir figure [ref:am_detektor]).
 
 <margin>
-[photo:193:am_detektor:Detektor-Empfänger]
+[photo:193:am_detektor:Récepteur à détecteur]
 </margin>
 
-Beim Detektor-Empfänger wird ein Parallel-Schwingkreis, bestehend aus Spule und abstimmbarem Kondensator, durch ein empfangenes Rundfunksignal [ref:am_detektor_antenne], welches über die Antenne zugeführt wird, zum Schwingen angeregt. Voraussetzung hierfür ist, dass der Schwingkreis auf die Frequenz eines Rundfunksenders abgestimmt wird. Mittels einer Gleichrichter-Diode (Detektor) wird die im Empfangssignal enthaltene AM-Modulation gleichgerichtet (vgl. Abbildung [ref:am_detektor_diode]). Anschließend kann das demodulierte Signal mittels eines hochohmigen Kopfhörers direkt hörbar gemacht werden (vgl. Abbildung [ref:am_detektor_kopfhoerer]). Dies ist möglich, da der Kopfhörer träge ist und den einzelnen Stromstößen nicht folgen kann. Er wirkt quasi wie ein Tiefpass und stellt so die Hüllkurve wieder her, was der gewünschten Niederfrequenz entspricht.
+Dans le récepteur à détecteur, un circuit oscillant parallèle, constitué d'une bobine et d'un condensateur accordable, est excité en oscillation par un signal de radiodiffusion reçu [ref:am_detektor_antenne], qui est fourni via l'antenne. Pour cela, le circuit oscillant doit être accordé sur la fréquence d'un émetteur de radiodiffusion. Au moyen d'une diode redresseuse (détecteur), la modulation AM contenue dans le signal reçu est redressée (voir figure [ref:am_detektor_diode]). Ensuite, le signal démodulé peut être rendu directement audible au moyen d'un casque à haute impédance (voir figure [ref:am_detektor_kopfhoerer]). Cela est possible car le casque est lent et ne peut pas suivre les impulsions de courant individuelles. Il agit comme un filtre passe-bas et restaure ainsi l'enveloppe, ce qui correspond à la basse fréquence souhaitée.
 
 ---
 
@@ -15,8 +15,8 @@ Beim Detektor-Empfänger wird ein Parallel-Schwingkreis, bestehend aus Spule und
 [picture:802:am_detektor_kopfhoerer:Hörbares NF Signal]
 </margin>
 
-Ein Detektor-Empfänger verfügt nicht über eine Batterie, sondern bezieht seine Energie direkt aus dem empfangenen Signal. Daher sind Detektor-Empfänger normalerweise für den Empfang von starken Rundfunksendern im Lokalbereich verwendbar und nur eingeschränkt für den Fernempfang von Sendern im Fernbereich.
+Un récepteur à détecteur ne dispose pas d'une batterie, mais puise son énergie directement dans le signal reçu. Par conséquent, les récepteurs à détecteur sont normalement utilisables pour la réception d'émetteurs de radiodiffusion puissants dans la zone locale et seulement dans une certaine mesure pour la réception à distance d'émetteurs dans la zone éloignée.
 
-Der Kopfhörer muss beim Detektor-Empfänger hochohmig sein, damit dieser den Schwingkreis nicht zu sehr bedämpft und die Selektivität und Empfangsleistung des Empfängers nicht zu sehr beeinträchtigt.
+Le casque doit être à haute impédance dans le récepteur à détecteur afin de ne pas trop amortir le circuit oscillant et de ne pas trop affecter la sélectivité et la puissance de réception du récepteur.
 
 [question:EF101]

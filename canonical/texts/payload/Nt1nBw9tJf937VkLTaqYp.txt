@@ -1,14 +1,14 @@
 --- style="font-size: 0.7em;"
 
-## Antennencharakteristik und Richtwirkung
+## Caractéristique d'antenne et directivité
 
 <left>
-[picture:264:a_strahlungscharakteristik_dipol_richt:Strahlungscharakteristik einer Richtantenne zu einem Dipol]
-* Das *Vor-/Rück-Verhältnis* beschreibt, wie viel besser in Hauptstrahlrichtung gesendet und empfangen wird.
+[picture:264:a_strahlungscharakteristik_dipol_richt:Caractéristique de rayonnement d'une antenne directionnelle par rapport à un dipôle]
+* Le *rapport avant/arrière* décrit à quel point il est meilleur d'émettre et de recevoir dans la direction du faisceau principal.
 </left>
 <right>
-* Richtantennen senden und empfangen auch in Rückwärtsrichtung – ein unerwünschter Effekt.  
-* Der Antennengewinn bezieht sich nur auf die Hauptstrahlrichtung (im Vergleich zu einem Dipol oder isotropen Strahler).  
+* Les antennes directionnelles émettent et reçoivent également dans la direction arrière – un effet indésirable.  
+* Le gain d'antenne ne se réfère qu'à la direction du faisceau principal (par rapport à un dipôle ou un radiateur isotrope).  
 </right>
 
 ---
@@ -21,13 +21,13 @@
 
 ---
 
-### Vor-/Rück-Verhältnis in Dezibel
+### Rapport avant/arrière en décibels
 
 <left>
-[picture:263:a_strahlungscharakteristik_richt:Strahlungscharakteristik einer Richtantenne]
+[picture:263:a_strahlungscharakteristik_richt:Caractéristique de rayonnement d'une antenne directionnelle]
 </left>
 <right>
-* Das Vor-/Rück-Verhältnis wird häufig in Dezibel angegeben.
+* Le rapport avant/arrière est souvent donné en décibels.
 </right>
 
 ---
@@ -35,10 +35,10 @@
 [question:AG217]
 
 ---
-#### Lösungsweg
-* gegeben: $P_R = \qty{0,6}{\watt}$
-* gegeben: $P_V = \qty{15}{\watt}$
-* gesucht: $\frac{Vor}{Rück}$
+#### Méthode de solution
+* donné : $P_R = \qty{0,6}{\watt}$
+* donné : $P_V = \qty{15}{\watt}$
+* recherché : $\frac{Vor}{Rück}$
 
 <fragment>
 $\begin{split}\frac{Vor}{Rück} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} \unit{\dB}\\ &= 10 \cdot \log_{10}{\left(\frac{\qty{15}{\watt}}{\qty{0,6}{\watt}}\right)} \unit{\dB}\\ &= \qty{14}{\dB}\end{split}$
@@ -49,14 +49,14 @@ $\begin{split}\frac{Vor}{Rück} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\righ
 [question:AG215]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Méthode de solution
 <left>
-* gegeben: $g_D= \qty{10}{\dB}$
-* gegeben: $\frac{Vor}{Rück} = \qty{20}{\dB}$
+* donné : $g_D= \qty{10}{\dB}$
+* donné : $\frac{Vor}{Rück} = \qty{20}{\dB}$
 </left>
 <right>
-* gegeben: $P_S = \qty{100}{\watt}$
-* gesucht: $P_R$
+* donné : $P_S = \qty{100}{\watt}$
+* recherché : $P_R$
 </right>
 
 <left>
@@ -74,14 +74,14 @@ $\begin{split}\qty{20}{\dB} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} 
 [question:AG216]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Méthode de solution
 <left>
-* gegeben: $g_D= \qty{15}{\dB}$
-* gegeben: $\frac{Vor}{Rück} = \qty{25}{\dB}$
+* donné : $g_D= \qty{15}{\dB}$
+* donné : $\frac{Vor}{Rück} = \qty{25}{\dB}$
 </left>
 <right>
-* gegeben: $P_S = \qty{6}{\watt}$
-* gesucht: $P_R$
+* donné : $P_S = \qty{6}{\watt}$
+* recherché : $P_R$
 </right>
 
 <left>
@@ -100,14 +100,14 @@ $\begin{split}\qty{25}{\dB} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} 
 [question:AG218]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Méthode de solution
 <left>
-* gegeben: $U_V = \qty{300}{\micro\volt\per\meter}$
-* gegeben: $U_R = \qty{20}{\micro\volt\per\meter}$
+* donné : $U_V = \qty{300}{\micro\volt\per\meter}$
+* donné : $U_R = \qty{20}{\micro\volt\per\meter}$
 </left>
 <right>
-* gegeben: $U_D = \qty{128}{\micro\volt\per\meter}$
-* gesucht: $g_D$, $\frac{Vor}{Rück}$
+* donné : $U_D = \qty{128}{\micro\volt\per\meter}$
+* recherché : $g_D$, $\frac{Vor}{Rück}$
 </right>
 
 <left>

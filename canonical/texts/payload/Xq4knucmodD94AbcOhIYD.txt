@@ -1,17 +1,17 @@
-## Rekonstruktion durch den D/A-Umsetzer
+## Reconstruction par le convertisseur analogique
 
-* Wandelt digitale Samples zurück in analoge Spannungsstufen  
-* Samples werden in festgelegten zeitlichen Abständen wieder ausgegeben  
-* Vorgang: Rekonstruktion des ursprünglichen Signals
+* Convertit les échantillons numériques en étapes de tension analogiques  
+* Les échantillons sont émis à intervalles de temps fixes  
+* Procédé : reconstruction du signal d'origine
 
 ---
 
-### Stufenförmiges Signal und Filterung
+### Signal en escalier et filtrage
 
-* Zeitdiskrete Abtastung führt zu einem stufenförmigen Signal  
-* Unerwünschte höhere Frequenzen (Artefakte) können auftreten  
-* Einsatz eines Rekonstruktionsfilters (Tiefpass- oder Bandpassfilter)  
-* Filter unterdrückt alle Signalanteile oberhalb der halben Abtastrate
+* L'échantillonnage temporel discret conduit à un signal en escalier  
+* Des fréquences plus élevées indésirables (artefacts) peuvent survenir  
+* Utilisation d'un filtre de reconstruction (filtre passe-bas ou passe-bande)  
+* Le filtre supprime toutes les composantes du signal au-dessus de la moitié de la fréquence d'échantillonnage
 
 ---
 

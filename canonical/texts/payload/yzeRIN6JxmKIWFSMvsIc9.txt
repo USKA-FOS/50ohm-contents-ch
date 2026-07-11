@@ -1,41 +1,41 @@
-## Gründe für Störungen
+## Raisons des perturbations
 
-* Unerwünschte Frequenzanteile, die nicht ausreichend unterdrückt werden
-* Unzureichend abgeschirmte oder unzureichend geerdete Geräte 
-* Die gewünschten Aussendungen selber
+* Composantes de fréquence indésirables qui ne sont pas suffisamment supprimées
+* Appareils insuffisamment blindés ou insuffisamment mis à la terre 
+* Les émissions elles-mêmes souhaitées
 
 ---
 
-### Störung
+### Perturbation
 
 <left>
-[picture:745:stoerungen_vermeiden_oberschwingung:Störung des DVB-T2-Empfang eines Fernsehers durch die Oberschwingung einer Amateurfunkaussendung]
+[picture:745:stoerungen_vermeiden_oberschwingung:Perturbation de la réception DVB-T2 d'un téléviseur par l'harmonique d'une émission radioamateur]
 </left>
 <right>
-* Grenzwerte durch Amateurfunkanlage überschritten
-* Z.B. Oberschwingung
+* Dépassement des limites par l'installation radioamateur
+* Par exemple, harmonique
 </right>
 
 ---
 
-### Störende Beeinflussung
+### Influence perturbatrice
 
 <left>
-[picture:744:stoerungen_vermeiden_einstrahlung:Einstrahlung über die Empfangsantenne]
-[picture:746:stoerungen_vermeiden_direkteinstrahlung:Direkteinstrahlung in ein Gerät]
+[picture:744:stoerungen_vermeiden_einstrahlung:Irradiation via l'antenne de réception]
+[picture:746:stoerungen_vermeiden_direkteinstrahlung:Irradiation directe dans un appareil]
 </left>
 <right>
-[picture:747:stoerungen_vermeiden_einstroemung:Einströmung über Anschlussleitungen]
-* Grenzwerte werden eingehalten
-* Wege können einzeln oder zusammen auftreten
+[picture:747:stoerungen_vermeiden_einstroemung:Entrée via les lignes de connexion]
+* Les limites sont respectées
+* Les voies peuvent survenir individuellement ou ensemble
 </right>
 
 ---
 
-## Umgang mit Störungen
+## Gestion des perturbations
 
-* Nachbarschaftskonflikte vermeiden
-* Höflich Hilfe zur Entstörung anbieten
+* Éviter les conflits de voisinage
+* Offrir poliment de l'aide pour l'élimination des perturbations
 
 ---
 
@@ -43,55 +43,56 @@
 
 ---
 
-## Ursachenforschung
+## Recherche des causes
 
-* Prüfen auf Behebung mit eigenen Mitteln
-* Falls Ursache nicht ermittelt oder Störung nicht beseitigt werden kann $\rightarrow$ Nachbarn auf *Funkstörungsannahme der BNetzA* (24/7 Tel. 0228 14 15 16) hinweisen
+* Vérifier la possibilité de remédier avec ses propres moyens
+* Si la cause n'est pas déterminée ou si la perturbation ne peut pas être éliminée $\rightarrow$ indiquer aux voisins le *service de réception des perturbations radio de la BNetzA* (24/7 Tel. 0228 14 15 16)
 
 <note>
-* Bei eigener Suche als DARC-Mitglied Hilfe beim Referat für elektromagnetische Verträglichkeit anfragen
-* Hier Werbung für DARC-Mitgliedschaft machen
+* En cas de recherche personnelle, en tant que membre du DARC, demander de l'aide au référent pour la compatibilité électromagnétique
+* Faire ici de la publicité pour l'adhésion au DARC
 </note>
 ---
 [question:VE302]
 
 ---
 
-## Ermittlung
+## Détermination
 
-* Kann einige Zeit in Anspruch nehmen
-* Zur Wahrung des Nachbarschaftsfriedens Sendeleistung reduzieren
+* Peut prendre un certain temps
+* Pour préserver la paix de voisinage, réduire la puissance d'émission
 
 ---
 
 [question:VE301]
 
 ---
-## Überprüfung
 
-Falls Amateurfunkaussendungen die Ursache der Probleme sind, wird in drei Fälle unterschieden
+## Vérification
+
+Si les émissions radioamateurs sont la cause des problèmes, trois cas sont distingués
 
 ---
 
-### 1. Fall
+### 1. Cas
 
-* Amateurfunkanlage wird *nicht vorschriftsmäßig* betrieben
-* Ggf. Anordnung einer kostenpflichtigen Betriebseinschränkung durch BNetzA
-* Möglich ist eine Begrenzung der Sendeleistung
+* L'installation radioamateur n'est pas exploitée *conformément aux prescriptions*
+* Le cas échéant, ordonnance d'une restriction d'exploitation payante par la BNetzA
+* Une limitation de la puissance d'émission est possible
 
 <note>
-* Z.B. durch zu starke unerwünschte Aussendungen
+* Par exemple, par des émissions indésirables trop fortes
 </note>
 
 ---
 
-### 2. Fall
+### 2. Cas
 
-* Amateurfunkanlage wird *vorschriftsmäßig* betrieben
-* Feldstärke am betroffenen Gerät ist kleiner als Verträglichkeit durch die Störfestigkeit
-* Betroffenes Gerät *hält Störfestigkeit nicht ein*
-* Verantwortung zur Behebung liegt beim Betreiber des betroffenen Geräts
-* Funkamateur darf Sendebetrieb unverändert fortsetzen
+* L'installation radioamateur est exploitée *conformément aux prescriptions*
+* L'intensité de champ sur l'appareil concerné est inférieure à la compatibilité par la résistance aux perturbations
+* L'appareil concerné *ne respecte pas la résistance aux perturbations*
+* La responsabilité de l'élimination incombe à l'exploitant de l'appareil concerné
+* Le radioamateur peut poursuivre l'exploitation sans modification
 
 ---
 [question:VE305]
@@ -101,11 +102,11 @@ Falls Amateurfunkaussendungen die Ursache der Probleme sind, wird in drei Fälle
 
 ---
 
-### 3. Fall
+### 3. Cas
 
-* Amateurfunkanlage wird *vorschriftsmäßig* betrieben
-* Betroffenes Gerät *hält Störfestigkeit ein*
-* Konfliktfall: BNetzA ist befugt, eine Lösung *in Zusammenarbeit mit allen Beteiligten* herzustellen
+* L'installation radioamateur est exploitée *conformément aux prescriptions*
+* L'appareil concerné *respecte la résistance aux perturbations*
+* Cas de conflit: la BNetzA est habilitée à établir une solution *en collaboration avec toutes les parties concernées*
 
 ---
 
@@ -114,15 +115,15 @@ Falls Amateurfunkaussendungen die Ursache der Probleme sind, wird in drei Fälle
 ---
 [question:VE304]
 
---- 
+---
 
-## Anordnungen der BNetzA ohne Zusammenarbeit
+## Ordonnances de la BNetzA sans collaboration
 
-* Zum Schutz von Empfangs- und Sendegeräten, die Sicherheitszwecken dienen
-* Zum Schutz öffentlicher Telekommunikationsnetze, also beispielsweise dem Telefonnetz
-* Zum Schutz von Leib und Leben einer Person oder Sachen von bedeutendem Wert
+* Pour la protection des appareils de réception et d'émission servant à des fins de sécurité
+* Pour la protection des réseaux publics de télécommunications, par exemple le réseau téléphonique
+* Pour la protection de la vie et de l'intégrité physique d'une personne ou de biens d'une valeur considérable
 
 <note>
-* Beispiel: Amateurfunkstation neben einem Krankenhaus
-* Leistungseinschränkungen in eine bestimmte Richtung
+* Exemple: Station radioamateur à côté d'un hôpital
+* Restrictions de puissance dans une certaine direction
 </note>

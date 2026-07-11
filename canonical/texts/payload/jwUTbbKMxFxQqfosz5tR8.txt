@@ -1,20 +1,20 @@
-Mit dem Wissen über Reihen- und Parallelschaltungen können wir nun auch komplexere Widerstandsnetzwerke analysieren. Die folgenden Aufgaben dienen ausschließlich der Übung in der Analyse und Berechnung solcher Widerstandsschaltungen und haben in der Praxis – zumindest in der hier dargestellten Form – kaum Bedeutung.
+Avec la connaissance des circuits en série et en parallèle, nous pouvons maintenant analyser des réseaux de résistances plus complexes. Les tâches suivantes servent exclusivement à l'exercice de l'analyse et du calcul de tels circuits de résistances et n'ont, dans la pratique - du moins sous la forme présentée ici - que peu d'importance.
 
-Dennoch lassen sich diese Aufgaben sehr einfach systematisch lösen, indem zunächst eindeutig erkennbare Reihen- oder Parallelschaltungen schrittweise zu einem Gesamtwiderstand zusammengefasst werden. Die Widerstandswerte sind dabei bewusst so gewählt, dass sich die Lösung ohne Taschenrechner vollständig im Kopf ermitteln lässt. Man muss lediglich wissen, dass sich bei zwei gleich großen Widerständen, die parallel geschaltet sind, der Gesamtwiderstand halbiert.
+Cependant, ces tâches peuvent être résolues très simplement de manière systématique en regroupant d'abord les circuits en série ou en parallèle clairement reconnaissables en une résistance totale. Les valeurs des résistances sont choisies de manière à ce que la solution puisse être déterminée sans calculatrice, entièrement dans la tête. Il suffit de savoir que lorsque deux résistances de même valeur sont connectées en parallèle, la résistance totale est divisée par deux.
 
 [question:ED115]
 
-Lösen wir exemplarisch die erste Prüfungsaufgabe in Abbildung [ref:e_widerstandsnetzwerk_schritt0]. Im Schritt 1 fassen wir die Reihenschaltungen der $\qty{100}{\ohm}$-Widerstände zusammen. Diese ergeben jeweils $\qty{200}{\ohm}$-Widerstände, wie in Abbildung [ref:e_widerstandsnetzwerk_schritt1] gezeigt.
+Résolvons de manière exemplaire la première question d'examen dans la figure [ref:e_widerstandsnetzwerk_schritt0]. Dans l'étape 1, nous regroupons les circuits en série des résistances de $\qty{100}{\ohm}$. Ceux-ci donnent chacun des résistances de $\qty{200}{\ohm}$, comme le montre la figure [ref:e_widerstandsnetzwerk_schritt1].
 
-Im Schritt 2 fassen wir nun die Parallelschaltungen zusammen. Da hier zwei $\qty{200}{\ohm}$-Widerstände parallel geschaltet sind, halbiert sich der Widerstandswert auf $\qty{100}{\ohm}$, wie in Abbildung [ref:e_widerstandsnetzwerk_schritt2] dargestellt.
+Dans l'étape 2, nous regroupons maintenant les circuits en parallèle. Comme ici deux résistances de $\qty{200}{\ohm}$ sont connectées en parallèle, la valeur de la résistance est divisée par deux, soit $\qty{100}{\ohm}$, comme le montre la figure [ref:e_widerstandsnetzwerk_schritt2].
 
-Im letzten Schritt 3 addieren wir alle verbleibenden Widerstandswerte der Reihenschaltung. Daraus ergibt sich ein Gesamtwiderstand von $\qty{550}{\ohm}$ wie in den Abbildungen [ref:e_widerstandsnetzwerk_schritt2] und [ref:e_widerstandsnetzwerk_schritt3] gezeigt.
+Dans la dernière étape 3, nous additionnons toutes les valeurs de résistance restantes du circuit en série. Cela donne une résistance totale de $\qty{550}{\ohm}$ comme le montrent les figures [ref:e_widerstandsnetzwerk_schritt2] et [ref:e_widerstandsnetzwerk_schritt3].
 
 <margin>
-[picture:306:e_widerstandsnetzwerk_schritt0:Schritt 0 - Ausgangsschaltung]
-[picture:816:e_widerstandsnetzwerk_schritt1:Schritt 1 - Reihenschaltungen zusammengefasst]
-[picture:817:e_widerstandsnetzwerk_schritt2:Schritt 2 - Parallelschaltungen zusammengefasst]
-[picture:818:e_widerstandsnetzwerk_schritt3:Schritt 3 - Reihenschaltung zusammengefasst]
+[picture:306:e_widerstandsnetzwerk_schritt0:Étape 0 - Circuit de départ]
+[picture:816:e_widerstandsnetzwerk_schritt1:Étape 1 - Circuits en série regroupés]
+[picture:817:e_widerstandsnetzwerk_schritt2:Étape 2 - Circuits en parallèle regroupés]
+[picture:818:e_widerstandsnetzwerk_schritt3:Étape 3 - Circuit en série regroupé]
 </margin>
 
 [question:ED116]

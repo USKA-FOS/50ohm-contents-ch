@@ -1,41 +1,40 @@
-Es kommt öfter vor, dass man in einer Funkverbindung den eigenen Standort angeben möchte. Das kann man über Ortsbezeichnungen machen. Es gibt aber auch eine andere Möglichkeit, die vor allem bei Verbindungen auf VHF, UHF und höheren Bändern häufig genutzt wird: Man kann ein Locator-System verwenden. Bei einem Locator-System ist die Oberfläche der ganzen Erde in Kästchen eingeteilt, und jedes Kästchen hat eine eindeutige Bezeichnung. Im Amateurfunk verwenden wir das *Maidenhead-Locator-System*, das auch als Standortkenner oder QTH-Locator bezeichnet wird.
+Il arrive souvent qu'on veuille indiquer son propre emplacement lors d'une liaison radio. Cela peut se faire en utilisant des noms de lieux. Il existe cependant une autre méthode, surtout utilisée pour les liaisons sur les bandes VHF, UHF et supérieures : l'utilisation d'un système de localisation. Dans un système de localisation, la surface de la Terre est divisée en cases, et chaque case a une désignation unique. En radioamateur, nous utilisons le système de localisation Maidenhead, également appelé indicateur de position ou QTH-Locator.
 
 <wordorigin>
-Das Maidenhead-Locator-System ist nach der *Stadt Maidenhead* benannt, die westlich von London im Vereinigten Königreich liegt. Dort fand 1980 eine Fachkonferenz der IARU statt, die das zuvor genutzte QRA-Locator-System reformierte.
+Le système de localisation Maidenhead tire son nom de la ville de *Maidenhead*, située à l'ouest de Londres au Royaume-Uni. C'est là qu'en 1980 s'est tenue une conférence technique de l'IARU qui a réformé le système de localisation QRA précédemment utilisé.
 </wordorigin>
 
 <margin>
-[photo:4:n_locator_welt:Maidenhead-Locator weltweit. Kartendaten © OpenStreetMap-Mitwirkende, SRTM. Kartendarstellung © OpenTopoMap (CC-BY-SA)]
+[photo:4:n_locator_welt:Maidenhead-Locator mondial. Données cartographiques © Contributeurs OpenStreetMap, SRTM. Représentation cartographique © OpenTopoMap (CC-BY-SA)]
 </margin>
 
-Im Folgenden wird der Aufbau des Maidenhead-Locator-Systems erläutert. Zugleich versuchen wir den Maidenhead-Locator für die DARC-Geschäftsstelle zu ermitteln, die sich in Baunatal bei Kassel in Hessen befindet.
+Dans la suite, nous expliquons la structure du système de localisation Maidenhead. Nous essayons également de déterminer le locateur Maidenhead pour le siège du DARC, situé à Baunatal près de Kassel en Hesse.
 
 ---
 
-In einem ersten Schritt teilt das Maidenhead-Locator-System die Oberfläche der Erde in 18 mal 18 gleich große Bereiche auf, die als *Felder* (englisch *fields*) bezeichnet werden. Jedem Feld ist eine Buchstabenkombination von AA bis RR zugeordnet (Abbildung [ref:n_locator_welt]). Der erste Buchstabe zählt beginnend mit A vom 180. Längengrad von Westen nach Osten hoch bis zum R. Der zweite Buchstabe fängt bei A am Südpol an und endet mit R am Nordpol. Auf der Karte wird also von links unten beginnend nach rechts oben gezählt. Die DARC-Geschäftsstelle liegt im Feld JO.
+Dans un premier temps, le système de localisation Maidenhead divise la surface de la Terre en 18 zones de taille égale, appelées *champs* (en anglais *fields*). Chaque champ est associé à une combinaison de lettres de AA à RR (figure [ref:n_locator_welt]). Le premier chiffre commence à A à partir du 180e méridien en comptant vers l'est jusqu'à R. Le deuxième chiffre commence à A au pôle Sud et se termine à R au pôle Nord. Sur la carte, on compte donc de gauche en bas vers la droite en haut. Le siège du DARC se trouve dans le champ JO.
 
 <margin>
-[photo:2:n_locator_jo:Das Feld JO des Maidenhead-Locator-Systems, Kartendaten © OpenStreetMap-Mitwirkende, SRTM. Kartendarstellung © OpenTopoMap (CC-BY-SA)]
+[photo:2:n_locator_jo:Le champ JO du système de localisation Maidenhead, données cartographiques © Contributeurs OpenStreetMap, SRTM. Représentation cartographique © OpenTopoMap (CC-BY-SA)]
 </margin>
-
 
 ---
 
-Jedes dieser Felder wird wiederum in 10 x 10 kleinere Felder aufgeteilt, die "squares" (Quadrate) genannt werden. Jedes Quadrat erhält eine zweistellige Zahl zugewiesen. Dabei wird ähnlich der Felder von links nach rechts und von unten nach oben nummeriert (Abbildung [ref:n_locator_jo]). Die DARC-Geschäftsstelle liegt innerhalb des Feldes JO im Quadrat 41.
+Chacun de ces champs est à son tour divisé en 10 sous-champs plus petits, appelés "squares" (carrés). Chaque carré reçoit un numéro à deux chiffres. Comme pour les champs, on compte de gauche à droite et de bas en haut (figure [ref:n_locator_jo]). Le siège du DARC se trouve dans le champ JO, carré 41.
 
 <indepth>
-Eigentlich sind die Quadrate (squares) des Maidenhead-Locator gar keine Quadrate, da die Erdoberfläche gekrümmt ist. Trotzdem werden sie so bezeichnet.
+En réalité, les carrés (squares) du locateur Maidenhead ne sont pas des carrés, car la surface de la Terre est courbée. Néanmoins, ils sont ainsi désignés.
 </indepth>
 
-Jedes Quadrat wird nun wiederum in Unter-Quadrate aufgeteilt, die nach der gleichen Logik wie die Felder mit Buchstaben versehen sind, allerdings von AA bis XX. Die DARC-Geschäftsstelle liegt im Feld JO, Quadrat 41, Unter-Quadrat RG.
+Chaque carré est à son tour divisé en sous-carrés, qui sont désignés par des lettres selon la même logique que les champs, mais de AA à XX. Le siège du DARC se trouve dans le champ JO, carré 41, sous-carré RG.
 
-| X: Bezeichnung | l: Übersetzung | l: Alternative Bez. | c: | c: z.B. |
-| Field | Feld | Größtfeld | AA-RR | JO |
-| Square | Quadrat | Großfeld | 00-99 | 41 |
-| Subsquare | Unter-Quadrat | Kleinfeld | AA-XX | RG |
-[table:n_locator_stufen:Die einzelnen Stufen des Maidenhead-Locators]
+| X: Désignation | l: Traduction | l: Désignation alternative | c: | c: Exemple |
+| Field | Champ | Grand champ | AA-RR | JO |
+| Square | Carré | Grand carré | 00-99 | 41 |
+| Subsquare | Sous-carré | Petit carré | AA-XX | RG |
+[table:n_locator_stufen:Les différentes étapes du locateur Maidenhead]
 
-Um einen Maidenhead-Locator zu bilden, werden für einen gewünschten Standort die Bezeichnung für das Feld, das Quadrat und das Unter-Quadrat hintereinander gefügt. Die DARC-Geschäftsstelle befindet sich also im Locator JO41RG.
+Pour former un locateur Maidenhead, on combine la désignation du champ, du carré et du sous-carré pour un emplacement souhaité. Le siège du DARC se trouve donc dans le locateur JO41RG.
 
 [include:maidenhead]
 

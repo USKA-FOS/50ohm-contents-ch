@@ -1,23 +1,23 @@
 <left>
-* Beim Mischen von zwei Eingangs-Frequenzen entstehen immer zwei Ausgangs-Frequenzen
+* Lors du mélange de deux fréquences d'entrée, deux fréquences de sortie sont toujours générées
 
 $f_\text{a1} = f_\text{e1} + f_\text{e2}$
 $f_\text{a2} = |f_\text{e1} - f_\text{e2}|$
 </left>
 <right>
-[picture:102:e_mischer:Mischer mit zwei Eingangsfrequenzen]
+[picture:102:e_mischer:Mélangeur avec deux fréquences d'entrée]
 </right>
 <note>
-Betrag, also nur Wert ohne Minus
+Valeur absolue, donc seulement la valeur sans le signe moins
 </note>
 
 ---
 [question:EF201]
 ---
-### Lösungsweg
+### Solution
 
-* Gegeben: $f_{e1} = \qty{21}{\mega\hertz}$, $f_{e2} = \qty{31,7}{\mega\hertz}$
-* Lösung:
+* Donné: $f_{e1} = \qty{21}{\mega\hertz}$, $f_{e2} = \qty{31,7}{\mega\hertz}$
+* Solution:
 
 $\begin{split}f_{a1} &= \qty{21}{\mega\hertz} + \qty{31,7}{\mega\hertz}\\ &= \qty{52,7}{\mega\hertz}\end{split}$
 $\begin{split}f_{a2} &= |\qty{21}{\mega\hertz} - \qty{31,7}{\mega\hertz}|\\ &= |\qty{-10,7}{\mega\hertz}|\\ &= \qty{10,7}{\mega\hertz}\end{split}$
@@ -31,12 +31,12 @@ $\begin{split}f_{a2} &= |\qty{21}{\mega\hertz} - \qty{31,7}{\mega\hertz}|\\ &= |
 ---
 [question:EF205]
 ---
-## Schirmung
+## Blindage
 
-* In der Regel ist nur eine von den beiden Frequenzen erwünscht
-* Die unerwünschte Frequenz wird durch Filter beseitigt
-* Bis dahin sollte diese Frequenz nicht außerhalb der Mischerstufe zu detektieren sein
-* Deshalb wird die Mischerstufe vor Abstrahlungen gut geschirmt, z.B. mit einem Metallgehäuse
+* En règle générale, seule une des deux fréquences est souhaitée
+* La fréquence non souhaitée est éliminée par des filtres
+* Jusqu'à ce moment, cette fréquence ne doit pas être détectable à l'extérieur de l'étage mélangeur
+* C'est pourquoi l'étage mélangeur est bien blindé contre les rayonnements, par exemple avec un boîtier métallique
 
 ---
 [question:EF206]

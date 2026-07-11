@@ -1,35 +1,35 @@
-## Funktionsweise eines Stehwellenmessgeräts
+## Fonctionnement d'un rapport d'ondes stationnaires
 
 <left>
-[picture:499:a_stehwellenmessgeraet:Schaltung eines Stehwellenmessgeräts]
+[picture:499:a_stehwellenmessgeraet:Circuit d'un rapport d'ondes stationnaires]
 </left>
 <right>
-* Koppelt einen Teil der vorlaufenden Leistung  
-* Koppelt einen Teil der rücklaufenden Leistung  
-* Anzeige über eine geeignete Skala (z. B. Kreuzzeigerinstrument)  
-* Ablesen des Stehwellenverhältnisses
-</right>  
+* Couple une partie de la puissance incidente
+* Couple une partie de la puissance réfléchie
+* Affichage via une échelle appropriée (par exemple, un instrument à aiguille croisée)
+* Lecture du rapport d'ondes stationnaires
+</right>
 
----  
+---
 [question:AI401]
 
----  
+---
 [question:AI402]
 
----  
-### Stehwellen- und Impedanzverhältnis  
+---
+### Rapport d'ondes stationnaires et rapport d'impédance
 
-* Stehwellenverhältnis entspricht dem Impedanzverhältnis  
-* Gilt bei Last mit rein wirkwiderstandlicher Komponente  
-* Wichtiger Merksatz für die folgende Frage  
+* Le rapport d'ondes stationnaires correspond au rapport d'impédance
+* Valable pour une charge avec une composante résistive pure
+* Règle importante à retenir pour la question suivante
 
----  
+---
 [question:AI403]
 ---
-#### Lösungsweg
-* gegeben: $R_2 = \qty{150}{\ohm}$
-* gegeben: $Z = \qty{50}{\ohm}$
-* gesucht: $s$
+#### Solution
+* donné : $R_2 = \qty{150}{\ohm}$
+* donné : $Z = \qty{50}{\ohm}$
+* recherché : $s$
 
 <fragment>
 $s = \frac{R_2}{Z} = \frac{\qty{150}{\ohm}}{\qty{50}{\ohm}} = 3$

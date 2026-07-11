@@ -1,34 +1,34 @@
-* Oszillatoren haben eine Temperaturabhängigkeit
-* Insbesondere Transistoren und Dioden
-* Aber auch Kondensatoren, Widerstände und Schwingquarze
+* Les oscillateurs ont une dépendance à la température
+* En particulier les transistors et les diodes
+* Mais aussi les condensateurs, les résistances et les quartz oscillants
 
 ---
-### Thermische Isolation
+### Isolation thermique
 
-* Oszillatoren möglist gut thermisch isolieren
-* Großer Abstand zu internen und externen Wärme- und Kältequellen
-* Abseits von Luftströmungen
+* Les oscillateurs doivent être bien isolés thermiquement
+* Grande distance par rapport aux sources de chaleur et de froid internes et externes
+* À l'écart des courants d'air
 
 ---
-### Quarzoszillator (XO)
+### Oscillateur à quartz (XO)
 
-* Anstatt RC-, LC- oder VCO-Oszillator
-* Wesentlich frequenzstabiler durch hohe Güte (Q)
-* *XO*: Crystal Oscillator
+* Au lieu d'un oscillateur RC, LC ou VCO
+* Beaucoup plus stable en fréquence grâce à une haute qualité (Q)
+* *XO* : Crystal Oscillator
 
 ---
 ### TCXO
 
-* Quarzoszillator mit Bauelementen zur gegenseitigen Kompensation der thermischen Einflüsse
-* *TCXO*: Temperature Compensated Crystal Oscillator
+* Oscillateur à quartz avec des composants pour la compensation mutuelle des influences thermiques
+* *TCXO* : Temperature Compensated Crystal Oscillator
 
 ---
 ### OCXO
 
-* Künstliche Stabilisierung der Umgebungstemperatur
-* Thermoisoliertes Gehäuse
-* Heizt auf eine bestimmte Temperatur auf
-* *OCXO*: Oven Controlled Crystal Oszillator
+* Stabilisation artificielle de la température ambiante
+* Boîtier thermiquement isolé
+* Chauffage à une température déterminée
+* *OCXO* : Oven Controlled Crystal Oszillator
 
 ---
 [question:AF215]
@@ -39,11 +39,11 @@
 ---
 [question:AD605]
 ---
-### Frequenzabweichungen
+### Déviations de fréquence
 
-* Die Oszillatorfrequenz wird für die Sende- und Empfangsfrequenz oft vervielfacht
-* Eine kleine Abweichung der Oszillatorfrequenz führt nach Vervielfachung zu einer hohen Abweichung
-* Insbesondere im SHF-Bereich und höheren Frequenzen sehr relevant
+* La fréquence de l'oscillateur est souvent multipliée pour la fréquence d'émission et de réception
+* Une petite déviation de la fréquence de l'oscillateur conduit, après multiplication, à une grande déviation
+* Particulièrement pertinent dans la plage SHF et aux fréquences plus élevées
 
 ---
 [question:AD604]

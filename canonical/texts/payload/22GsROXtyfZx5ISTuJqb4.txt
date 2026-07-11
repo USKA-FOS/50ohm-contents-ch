@@ -1,17 +1,17 @@
-Die gespeicherte Energie eines Akkus berechnet sich aus Spannung mal Kapazität:
+L'énergie stockée d'une batterie se calcule à partir de la tension multipliée par la capacité :
 
 $W = U \cdot Q$
 
-mit
+avec
 
 $U = \qty{12}{\volt}$
 
-und
+et
 
 $Q = \qty{5}{\ampere\hour}$
 
-Damit ergibt sich:
+Ainsi, on obtient :
 
 $W = \qty{12}{\volt} \cdot \qty{5}{\ampere\hour} = \qty{60}{\watt\hour}$
 
-Der Akku kann also eine Energie von $\qty{60}{\watt\hour}$ speichern.
+La batterie peut donc stocker une énergie de $\qty{60}{\watt\hour}$.

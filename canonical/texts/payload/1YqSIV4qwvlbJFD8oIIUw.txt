@@ -1,37 +1,37 @@
-## Steuerkennlinien
+## Courbes caractéristiques de commande
 
 <left>
-[picture:804:mischer_linear_vs_nichtlinear:Linearer Widerstand und nichtlineare Diode]
-Steuerkennlinien können linear oder nicht-linear sein
+[picture:804:mischer_linear_vs_nichtlinear:Résistance linéaire et diode non linéaire]
+Les courbes caractéristiques de commande peuvent être linéaires ou non linéaires
 </left>
 <right>
-* Im linearen Bereich finden keine Verzerrungen statt
-* Mathematisches Verhalten wie bei Addition
+* Dans la plage linéaire, aucune distorsion ne se produit
+* Comportement mathématique comme lors d'une addition
 </right>
 
 ---
-* Im nichtlinearen Bereich bewirkt die Steuerkennlinie die Verzerrung von einem Eingangssignal zu unterschiedlichen Änderungen am Ausgangssignal
-* Mathematischen Verhalten wie bei einer Multiplikation
-* Deshalb findet im nichtlinearen Bereich immer ein Mischprozess statt
-* Mischprodukte erzeugen immer zusätzliche Frequenzen im Ausgangssignal
+* Dans la plage non linéaire, la courbe caractéristique de commande provoque la distorsion d'un signal d'entrée en différentes modifications du signal de sortie
+* Comportement mathématique comme lors d'une multiplication
+* C'est pourquoi un processus de mélange a toujours lieu dans la plage non linéaire
+* Les produits de mélange génèrent toujours des fréquences supplémentaires dans le signal de sortie
 
 ---
 [question:AF212]
 --- style="font-size: smaller;"
-## Ringmischer
+## Mélangeur en anneau
 
 <left>
-[picture:805:mischer_ringmischer:Balancemischer, Ringmischer oder auch Ringmodulator]
+[picture:805:mischer_ringmischer:Mélangeur équilibré, mélangeur en anneau ou également modulateur en anneau]
 </left>
 <right>
-* Am Ausgang eines Mischers soll nur das Mischprodukt erscheinen
-* Unerwünschte Mischprodukte und die Eingangssignale sollen maximal unterdrückt werden
-* 4 Dioden in Ringschaltung
-* Oszillator an $U_2$ schaltet immer zwei Dioden aktiv
-* In dieser Zeit kann eine gleichförmige Welle von $U_1$ zum Ausgang gelangen
+* Seuls les produits de mélange doivent apparaître à la sortie d'un mélangeur
+* Les produits de mélange indésirables et les signaux d'entrée doivent être supprimés au maximum
+* 4 diodes en circuit en anneau
+* L'oscillateur à $U_2$ commute toujours deux diodes actives
+* Pendant ce temps, une onde uniforme de $U_1$ peut atteindre la sortie
 </right>
 <note>
-Nicht mit der Brückenschaltung verwechseln! 
+Ne pas confondre avec le circuit en pont! 
 </note>
 
 ---

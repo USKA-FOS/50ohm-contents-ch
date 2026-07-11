@@ -1,34 +1,34 @@
-* Im Bereich der Funktechnik spricht man bei Geräten, die mittels digitaler Signalverarbeitung arbeiten von sogenannten SDR-Geräten.
-* *SDR* steht dabei  für Software Defined Radio.
-* In diesen Geräten ist zumindest ein Teil der Signalverarbeitung in Software realisiert.
-* Dieses hat einen Kostenvorteil und bringt eine große Flexibilität mit sich.
+* Dans le domaine des techniques radio, on parle d'appareils SDR pour les appareils qui fonctionnent au moyen du traitement numérique des signaux.
+* *SDR* signifie Radio Définie par Logiciel.
+* Dans ces appareils, au moins une partie du traitement des signaux est réalisée par logiciel.
+* Cela présente un avantage en termes de coût et offre une grande flexibilité.
 
 ---
 [question:EF603]
 ---
-## A/D-Umsetzer
+## Convertisseur analogique
 
-* Damit die Daten digital verarbeitet werden können, müssen sie zunächst digitalisiert werden.
-* Dazu wird das analoge Signal mittels eines Analog-Digital Umsetzers (A/D-Umsetzer) in digitale Werte umgesetzt.
+* Afin que les données puissent être traitées numériquement, elles doivent d'abord être numérisées.
+* Pour ce faire, le signal analogique est converti en valeurs numériques au moyen d'un convertisseur analogique-numérique (convertisseur A/N).
 
 ---
 <left>
-* Hierbei wird das analoge Signal in festen Zeitintervallen abgetastet und in einem digitalen Wertebereich (z.B. von $\num{-128}$ bis $\num{+127}$) abgebildet.
-* Die einzelnen gemessenen Signalwerte werden als Samples (Proben) bezeichnet.
+* Le signal analogique est échantillonné à intervalles de temps fixes et représenté dans une plage de valeurs numériques (par exemple de $\num{-128}$ à $\num{+127}$).
+* Les valeurs de signal mesurées individuelles sont appelées échantillons (échantillons).
 </left>
 <right>
-[picture:411:e_digitale_signalverarbeitung:Einfache Darstellung einer Sinuswelle aus $\num{16}$ Samples und $\num{7}$ Werten]
+[picture:411:e_digitale_signalverarbeitung:Représentation simple d'une onde sinusoïdale composée de $\num{16}$ échantillons et $\num{7}$ valeurs]
 </right>
 <note>
-* Mehr dazu in Klasse A
+* Plus de détails en classe A
 </note>
 
 ---
 [question:EF602]
 ---
-## D/A-Umsetzer
+## Convertisseur de données
 
-* Nach der digitalen Verarbeitung des Signals wird es in einem Digital-Analog-Umsetzer (D/A-Umsetzer) wieder in ein analoges Signal verwandelt.
+* Après le traitement numérique du signal, celui-ci est à nouveau transformé en un signal analogique dans un convertisseur de données-analogique (convertisseur D/A).
 
 ---
 [question:EF601]

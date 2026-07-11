@@ -1,8 +1,8 @@
-* Anbindung des Oszillators an ein externes, hochgenaues Referenzsignal
-* Primäroszillator OCXO wird über ein hochgenaues Referenzsignal von GPS langzeitstabilisiert
-* Kurzzeitstabilität stammt vom OCXO
-* Anwendung im GHz-Bereich
-* *GPSDO*: GPS Disciplined Oscillator
+* Connexion de l'oscillateur à un signal de référence externe, très précis
+* L'oscillateur primaire OCXO est stabilisé à long terme par un signal de référence très précis de GPS
+* La stabilité à court terme provient de l'OCXO
+* Application dans la plage des GHz
+* *GPSDO* : Oscillateur discipliné par GPS
 
 ---
 [question:AD606]

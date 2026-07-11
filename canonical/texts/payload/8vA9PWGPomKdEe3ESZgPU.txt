@@ -1,14 +1,14 @@
 
-Bei jeder Umschaltung zwischen zwei Symbolen wird die Amplitude, Frequenz oder Phase eines Trägers geändert. Dabei entstehen Seitenbänder. Diesen Effekt kennen wir bereits aus der analogen Modulation. Je schneller Amplitude, Frequenz oder Phase verändert werden, umso breitbandiger wird das erzeugte Signal.
+À chaque commutation entre deux symboles, l'amplitude, la fréquence ou la phase d'une porteuse est modifiée. Des bandes latérales sont ainsi générées. Nous connaissons déjà cet effet de la modulation analogique. Plus l'amplitude, la fréquence ou la phase sont modifiées rapidement, plus le signal généré est large bande.
 
-%Aus diesem Grunde vermeidet man ein schlagartiges Umschalten, da solche steilen Flanken unerwünscht viel Bandbreite belegen.
+Pour cette raison, on évite une commutation brutale, car de telles flancs raides occupent une bande passante indésirable.
 
 [question:AE415]
 
-Dieses Phänomen ist auch aus der Morsetelegrafie bekannt: Es entstehen sogenannte Tastklicks, wenn beim Drücken bzw. Loslassen der Morsetaste der Hochfrequenzträger plötzlich ein- bzw. ausgeschaltet wird. Diese Tastklicks stellen breitbandige Störungen dar, die andere Funkverbindungen beeinträchtigen können. Damit keine Tastklicks auftreten, wird schlagartiges Umschalten vermieden.
+Ce phénomène est également connu de la télégraphie Morse : des clics de frappe se produisent lorsque la touche Morse est pressée ou relâchée, le porteur haute fréquence étant brusquement allumé ou éteint. Ces clics de frappe représentent des perturbations à large bande qui peuvent perturber d'autres liaisons radio. Pour éviter les clics de frappe, on évite une commutation brutale.
 
 [question:AJ221]
 [question:AJ220]
 [question:AE214]
 
-Darüber hinaus spielt für die Bandbreite auch die Symbolrate eine Rolle: Je häufiger zwischen verschiedenen Symbolen umgeschaltet wird, um so größer ist die Bandbreite.
+En outre, le débit de symboles joue également un rôle pour la bande passante : plus souvent on commute entre différents symboles, plus la bande passante est grande.

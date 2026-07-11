@@ -1,20 +1,20 @@
-Bei einer Spule in Reihenschaltung addieren sich die Induktivitäten.
+Dans un circuit en série, les inductances s'additionnent.
 
 $L_{\mathrm{ges}} = L_1 + L_2 + L_3 + \dots$
 
-Mit der Gesamtinduktivität $L_{\mathrm{ges}}$, und den Einzelinduktivitäten $L_1, L_2, L_3, \dots$
+Avec l'inductance totale $L_{\mathrm{ges}}$, et les inductances individuelles $L_1, L_2, L_3, \dots$
 
-Veranschaulicht werden kann es dadurch, dass man sich einfach mehrere gleichartige Spulten hintereinander vorstellt. Dabei addieren sich die Windungen der Spule. Elektrisch wirkt die Kombination von zwei gleichen Spulen wie eine entsprechend längere Spule.
+On peut l'illustrer en imaginant plusieurs bobines de même type placées les unes derrière les autres. Les spires de la bobine s'additionnent. Électriquement, la combinaison de deux bobines identiques agit comme une bobine plus longue.
 
 <indepth>
-[photo:291:a_Spule mit Anzapfungen:Spule mit 14 Anzapfungen in einem selbstgebauten Antennenanpassgerät]
-Die Teilabschnitte zwischen den Anzapfungen können wie einzelne Spulen gesehen werden, deren Induktivität, durch Umschaltung der Anzapfungen,  in Schritten erhöht werden kann. Die Reihenschaltung aller Teilabschnitte ergibt dann die Induktivität der Gesamtspule.
+[photo:291:a_Spule mit Abgriffen:Bobine avec 14 prises dans un appareil d'adaptation d'antenne fait maison]
+Les sections partielles entre les prises peuvent être considérées comme des bobines individuelles, dont l'inductance peut être augmentée par étapes en commutant les prises. Le circuit série de toutes les sections partielles donne alors l'inductance de la bobine totale.
 </indepth>
 
-Achte bei der folgenden Frage darauf alle Werte der Berechnung in die gleiche Einheit umzurechnen!
+Fais attention, pour la question suivante, à convertir toutes les valeurs du calcul dans la même unité !
 
 [question:AD102]
 
-Bei der Parallelschaltung von Spulen addieren sich übrigens die Kehrwerte der Induktivitäten:
+Dans le cas du circuit parallèle de bobines, les inverses des inductances s'additionnent :
 
 $ \frac{1}{L_{\mathrm{ges}}} = \frac{1}{L_1} + \frac{1}{L_2} + \frac{1}{L_3} + \dots $

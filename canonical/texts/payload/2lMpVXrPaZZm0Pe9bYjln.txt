@@ -1,24 +1,24 @@
-## Maximal Usable Frequency (MUF)
+## Fréquence maximale utilisable (MUF)
 
 <left>
-* Höchste zwischen zwei Orten verwendbare Frequenz
-* Ist abhängig vom Abstrahlwinkel der Antenne
-* Und der kritischen Frequenz der Ionosphäre
+* Fréquence la plus élevée utilisable entre deux lieux
+* Dépend de l'angle d'émission de l'antenne
+* Et de la fréquence critique de l'ionosphère
 </left>
 <right>
-[picture:870:e_muf_winkel:Die Winkel zur Berechnung der MUF]
+[picture:870:e_muf_winkel:Les angles pour le calcul de la MUF]
 </right>
 ---
-### Berechnung der MUF
+### Calcul de la MUF
 
 $\mathrm{MUF} \approx \dfrac{f_c}{\sin(\alpha)}$
 
-$\alpha$ ist der Abstrahlwinkel der Antenne zum Boden
-$f_c$ ist die kritische Frequenz bei der senkrecht auf die Ionosphäre auftretende Funkstrahlen von den Regionen gebrochen werden $\rightarrow$ bei stärkerer Ionisation einer Region steigt die kritische Frequenz
+$\alpha$ est l'angle d'émission de l'antenne par rapport au sol
+$f_c$ est la fréquence critique à laquelle les ondes radio incidentes verticalement sur l'ionosphère sont réfractées par les régions $\rightarrow$ avec une ionisation plus forte d'une région, la fréquence critique augmente
 
 <note>
 * sin(α) = 1 → MUF = f_c
-* In Klasse E keine Berechnung, nur Verständnisfragen
+* En classe E, aucun calcul, seulement des questions de compréhension
 </note>
 
 ---
@@ -28,14 +28,14 @@ $f_c$ ist die kritische Frequenz bei der senkrecht auf die Ionosphäre auftreten
 ---
 [question:EH206]
 ---
-## Lowest Usable Frequency (LUF)
+## Fréquence minimale utilisable (LUF)
 
 <left>
-* Abhängig von der Ionisierung in der D-Schicht
-* Je weniger Dämpfung in der D-Schicht, umso mehr tiefere Funkwellen können diese Schicht durchdringen und an den höheren Schichten reflektieren
+* Dépend de l'ionisation dans la couche D
+* Moins l'atténuation dans la couche D est faible, plus les ondes radio basses peuvent traverser cette couche et être réfléchies par les couches supérieures
 </left>
 <right>
-[picture:731:e_atmosphaeren_schichten:Für den Amateurfunk relevante Schichten in der Atmosphäre]
+[picture:731:e_atmosphaeren_schichten:Couches de l'atmosphère pertinentes pour le radioamateur]
 </right>
 ---
 [question:EH209]

@@ -1,22 +1,22 @@
-In einem Empfänger, an dessen Eingang zwei starke HF-Signale anliegen, können Störungen durch Intermodulation oder Kreuzmodulation verursacht werden.
-Bei Intermodulation äußert sich dieser Effekt so, dass durch nichtlineares Verhalten der Empfängerstufe (Betrieb im nichtlinearen Grenzbereich), ähnlich wie in einem Mischer, zusätzliche unerwünschte Frequenzen erzeugt werden. Diese können erwünschte Empfangssignale überlagern und stören.
-Bei Kreuzmodulation äußert sich dieser Effekt so, dass das gewünschte Empfangssignal durch die Modulation eines starken frequenzmäßig benachbarten AM-Signals beeinflusst wird. Hierdurch wird die Modulation des benachbarten Senders im Empfangssignal hörbar und stört dieses.
+Dans un récepteur, auquel deux signaux HF puissants sont appliqués à l'entrée, des perturbations peuvent être causées par l'intermodulation ou la modulation croisée.
+Dans le cas de l'intermodulation, cet effet se manifeste par le fait que, en raison du comportement non linéaire de l'étage d'entrée du récepteur (fonctionnement dans la plage limite non linéaire), similaire à celle d'un mélangeur, des fréquences supplémentaires indésirables sont générées. Celles-ci peuvent superposer les signaux reçus souhaités et les perturber.
+Dans le cas de la modulation croisée, cet effet se manifeste par le fait que le signal reçu souhaité est influencé par la modulation d'un signal AM voisin en fréquence. Ainsi, la modulation de l'émetteur voisin devient audible dans le signal reçu et le perturbe.
 
 [question:AF217]
 [question:AF219]
 [question:AF222]
 [question:AF218]
 
-Um ein starkes unerwünschtes Signal bereits vor dem Empfängereingang zu unterdrücken kann beispielsweise ein Saugkreis, welcher auf die exakte Frequenz des störenden Signals abgestimmt wird vor dem Empfängereingang für Abhilfe sorgen.
+Pour supprimer un signal indésirable fort déjà avant l'entrée du récepteur, un circuit résonant, qui est accordé sur la fréquence exacte du signal perturbateur, peut par exemple être utilisé avant l'entrée du récepteur pour remédier à la situation.
 
 [question:AF223]
 
-Die Großsignalfestigkeit eines Empfängers kann durch den sog. Intercept Point dritter Ordnung (IP3) beschrieben werden. Er ist ein Maß für den Punkt an dem unerwünschte Mischprodukte 3. Ordnung den Amplitudenwert des Eingangssignales erreichen. Je höher der IP3 eines Empfängers ist, desto größere Signale kann dieser noch störungsfrei verarbeiten.
+La robustesse aux grands signaux d'un récepteur peut être décrite par le point d'interception de troisième ordre (IP3). Il est une mesure du point où les produits de mélange indésirables de troisième ordre atteignent la valeur d'amplitude du signal d'entrée. Plus le IP3 d'un récepteur est élevé, plus celui-ci peut traiter de grands signaux sans perturbation.
 
-%TODO: Weitere Informationen zu IP3 ggf. Tipp, Grafik zu IP3
+%TODO: Informations supplémentaires sur IP3 éventuellement Astuce, graphique sur IP3
 
 [question:AF221]
 
-Um das Entstehen von unerwünschten Mischprodukten im Empfängereingang durch starke Signale zu verringern kann ein schaltbares Dämpfungsglied (Attenuator) am Empfängereingang vorgeschaltet werden. Hierdurch werden Intermodulationsprodukte sowie Kreuzmodulation im Empfänger verringert. Das Nutzsignal wird hierbei nur um den Faktor des Dämpfungsgliedes reduziert - störende Mischprodukte werden jedoch aufgrund der mathematischen Gegebenheiten beim Mischprozess um den Faktor $\num{3}$ (3. Ordnung) in $\unit{\dB}$ abgeschwächt. Beispielsweise reduziert ein $\qty{10}{\dB}$ Dämpfungsglied das Nutzsignal nur um $\qty{10}{\dB}$ während unerwünschte Mischprodukte bereits um $\qty{30}{\dB}$ gedämpft werden.
+Pour réduire l'apparition de produits de mélange indésirables dans l'entrée du récepteur par des signaux forts, un atténuateur commutable (Attenuator) peut être connecté avant l'entrée du récepteur. Cela réduit les produits d'intermodulation ainsi que la modulation croisée dans le récepteur. Le signal utile est ici réduit seulement du facteur de l'atténuateur - les produits de mélange perturbateurs sont cependant atténués en raison des conditions mathématiques lors du processus de mélange du facteur $\num{3}$ (3ème ordre) en $\unit{\dB}$. Par exemple, un atténuateur de $\qty{10}{\dB}$ réduit le signal utile seulement de $\qty{10}{\dB}$ tandis que les produits de mélange indésirables sont déjà atténués de $\qty{30}{\dB}$.
 
 [question:AF220]

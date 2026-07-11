@@ -1,42 +1,42 @@
 
-Mit dem Einbau einer Amateurfunkanlage in ein Kraftfahrzeug macht das Autofahren gleich mehr Spaß. Über Relaisfunkstellen ist man gut mit anderen Amateurfunkstellen vernetzt und erhält so oftmals wertvolle Informationen zur Verkehrssituation auf der Fahrtstrecke. Für den Betrieb während der Fahrt ist - wie beim Smartphone - eine Freisprecheinrichtung erforderlich.
+L'installation d'une station de radioamateur dans un véhicule rend la conduite encore plus agréable. Grâce aux relais, vous êtes bien connecté à d'autres stations de radioamateurs et obtenez souvent des informations précieuses sur la situation du trafic sur votre trajet. Pour le fonctionnement pendant la conduite, comme pour le smartphone, un kit mains libres est nécessaire.
 
 <margin>
-[photo:75:n_mobilfunkgeraet:Einbau des Bedienteils eines VHF/UHF-Funkgerätes in die Mittelkonsole eines PKW]
+[photo:75:n_mobilfunkgeraet:Installation de la partie de commande d'un appareil radio VHF/UHF dans la console centrale d'une voiture]
 </margin>
 
-Der Einbau von Geräten und Antennen ins Auto muss sorgfältig geplant und ausgeführt werden. Beim Anschließen der Versorgungsspannung an das Funkgerät, Einbau der Antenne und Verlegung der Leitungen im Fahrzeug sind die Vorgaben des Fahrzeugherstellers zu beachten, da ansonsten die Zulassung das Fahrzeugs gefährdet ist.
+L'installation d'appareils et d'antennes dans la voiture doit être soigneusement planifiée et exécutée. Lors de la connexion de l'alimentation électrique à l'appareil radio, de l'installation de l'antenne et du câblage dans le véhicule, les prescriptions du constructeur du véhicule doivent être respectées, sinon l'homologation du véhicule est menacée.
 
 [question:NK308]
 
 ---
 
-Damit eine Mobilfunkantenne ihre Funksignale gut abstrahlt, sollte die Antenne möglichst mittig auf dem metallischen Fahrzeugdach montiert sein.  Dann bildet das Fahrzeugdach das Gegengewicht, ähnlich zur Erde bei einer Marconi-Antenne. Im einfachsten Fall verwendet man eine *Magnetfußantenne*. Häufig gibt es auch Vorgaben des Fahrzeugherstellers für die Einbauorte der Antenne.
+Pour qu'une antenne de radiotéléphonie émette bien ses signaux radio, l'antenne doit être montée aussi centralement que possible sur le toit métallique du véhicule. Le toit du véhicule forme alors le contrepoids, de manière similaire à la terre dans une antenne Marconi. Dans le cas le plus simple, on utilise une *antenne à pied magnétique*. Il existe souvent des prescriptions du constructeur du véhicule pour les emplacements d'installation de l'antenne.
 
 <margin>
-[photo:64:n_magnetfussantenne:Magnetfußantenne auf Fahrzeugdach]
+[photo:64:n_magnetfussantenne:Antenne à pied magnétique sur le toit d'un véhicule]
 </margin>
 
 [question:NK310]
 
-Werden Antennenleitungen einer Mobilfunkanlage parallel und sehr dicht zu anderen Leitungen im Fahrzeug verlegt, kann das Sendesignal die Fahrzeugelektronik stören. Antennenleitungen sollten deshalb so kurz wie möglich und mit möglichst großem Abstand von anderen Fahrzeugleitungen verlegt werden. Das Kreuzen anderer Leitungen hingegen ist oft unkritisch. 
+Si les lignes d'antenne d'une installation de radiotéléphonie mobile sont posées en parallèle et très près d'autres lignes dans le véhicule, le signal d'émission peut perturber l'électronique du véhicule. Les lignes d'antenne doivent donc être aussi courtes que possible et avec le plus grand écart possible par rapport aux autres lignes du véhicule. Le croisement d'autres lignes, en revanche, est souvent sans danger.
 
 [question:NK309]
 
 ---
 
-Die Bordnetzspannung im Kraftfahrzeug erscheint zunächst ungefährlich, da man beim Berühren der Spannungen von $\qty{12}{\volt}$ oder $\qty{24}{\volt}$ keinen Stromschlag bekommen kann. Es muss aber auch bedacht werden, dass eine Fahrzeugbatterie sehr hohe Ströme liefern kann. Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen, einem Kabelbrand oder sogar zu einem Fahrzeugbrand kommen. Mit dem *Unterschied zwischen Spannung und Strom* beschäftigen wir uns im Kapitel Spannungsversorgung noch näher. 
+La tension du réseau de bord dans un véhicule semble initialement inoffensive, car on ne reçoit pas de choc électrique en touchant les tensions de $\qty{12}{\volt}$ ou $\qty{24}{\volt}$. Il faut cependant garder à l'esprit qu'une batterie de voiture peut fournir des courants très élevés. En cas de court-circuit, il peut rapidement y avoir un arc électrique, un incendie de câble ou même un incendie de véhicule. Nous nous occuperons plus en détail de la *différence entre tension et courant* dans le chapitre sur l'alimentation électrique.
 
 <margin>
-[photo:76:n_Kabelsicherung:Stromkabel mit Sicherungshalter]
+[photo:76:n_Kabelsicherung:Câble de courant avec support de fusible]
 </margin>
 
 %[class:N]
 <indepth>
-Ein *Lichtbogen* ist eine elektrische Entladung, also ein Stromfluß, durch die eigentlich nicht leitende Luft, die mit hohen Temperaturen und einem sehr hellen Leuchten einhergeht. In der Folge kann es zu Bränden und zur Schädigung der Augen kommen.
+Un *arc électrique* est une décharge électrique, c'est-à-dire un flux de courant, à travers l'air normalement non conducteur, qui s'accompagne de températures élevées et d'une lumière très vive. Il peut en résulter des incendies et des dommages aux yeux.
 </indepth>
 %[/class]
 
-In der Versorgungsleitung des Fahrzeugfunkgerätes muss immer eine Sicherung des richtigen Werts verbaut sein! In Abbildung [ref:n_Kabelsicherung] ist ein üblicher Sicherungshalter mit eingesteckter Sicherung zu sehen. Bei qualitativ hochwertigen Geräten sind in beiden Kabeln Sicherungen verbaut. Eine für den Plus- und eine für den Minuspol. Damit ist ein besserer Schutz als mit nur einer Sicherung in der Zuleitung zum Pluspol gegeben.
+Dans la ligne d'alimentation de l'appareil radio du véhicule, une fusible de la bonne valeur doit toujours être installé ! Dans l'illustration [ref:n_Kabelsicherung], on peut voir un support de fusible habituel avec une fusible insérée. Dans les appareils de qualité supérieure, des fusibles sont installés dans les deux câbles. Un pour le pôle positif et un pour le pôle négatif. Cela offre une meilleure protection qu'avec un seul fusible dans la ligne d'alimentation vers le pôle positif.
 
 [question:NK307]

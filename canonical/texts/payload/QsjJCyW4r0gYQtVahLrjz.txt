@@ -1,24 +1,24 @@
-Abbildung [ref:kanal] zeigt einen Sender und einen Empfänger, welche über einen Kanal miteinander verbunden sind. Beispielsweise durch das Wetter, andere atmosphärische Einflüsse oder Aussendungen anderer Stationen kann es zu Störungen auf dem Kanal kommen. Diese können zu Fehlern bei der Übertragung führen. 
+La figure [ref:kanal] montre un émetteur et un récepteur reliés par un canal. Par exemple, la météo, d'autres influences atmosphériques ou les émissions d'autres stations peuvent causer des perturbations sur le canal. Cela peut entraîner des erreurs lors de la transmission.
 
 <margin>
 [picture:674:kanal:Kanal]
 </margin>
 
-Im Gegensatz zur Quellencodierung fügt die Kanalcodierung der zu übertragenden Information gezielt Redundanz hinzu, beispielsweise Wiederholungen oder Prüfsummen. Anders als die bei der Quellencodierung entfernte Redundanz kann diese systematisch hinzugefügte Redundanz zur automatischen Erkennung oder Korrektur von Übertragungsfehlern verwendet werden.
+Contrairement au codage source, le codage de canal ajoute délibérément de la redondance aux informations à transmettre, par exemple des répétitions ou des sommes de contrôle. Contrairement à la redondance supprimée lors du codage source, cette redondance ajoutée systématiquement peut être utilisée pour la détection ou la correction automatique des erreurs de transmission.
 
 ---
 
-Abbildung [ref:kanalcodierer] zeigt ein Symbol für einen Kanalcodierer. Der Block stellt dar, dass Redundanz den Daten hinzugefügt wird.
+La figure [ref:kanalcodierer] montre un symbole pour un codeur de canal. Le bloc représente l'ajout de redondance aux données.
 
 <margin>
-[picture:676:kanalcodierer:Kanalcodierer]
+[picture:676:kanalcodierer:Codeur de canal]
 </margin>
 
 [question:AE409]
 
-Wir unterscheiden zwei Arten der Kanalcodierung:
+Nous distinguons deux types de codage de canal :
 
-* Fehlererkennung: Man kann erkennen, dass bei der Übertragung ein Fehler aufgetreten ist, und dann z. B. eine erneute Übertragung anfordern.
-* Vorwärtsfehlerkorrektur: Fehler, die bei der Übertragung entstehen, werden mit Hilfe der Redundanz beim Empfänger korrigiert. 
+* Détection d'erreur : On peut détecter qu'une erreur s'est produite lors de la transmission, puis par exemple demander une nouvelle transmission.
+* Correction d'erreur sans retour : Les erreurs qui surviennent lors de la transmission sont corrigées à l'aide de la redondance au niveau du récepteur.
 
-Im Folgenden wollen wir uns diese beiden Arten genauer anschauen.
+Nous allons examiner de plus près ces deux types.

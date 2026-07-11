@@ -1,15 +1,15 @@
-Einen Spannungswandler benötigt man immer dann, wenn eine elektrische Spannung in eine andere Spannung umgewandelt werden soll. Im Amateurfunk kann dies beispielsweise die Erzeugung von $\qty{5}{\volt}$ für einen Mikrocontroller aus einer $\qty{13,8}{\volt}$-Versorgung sein oder die Versorgung eines Laptops mit $\qty{19}{\volt}$ aus einer $\qty{12}{\volt}$-Batterie. Solche Schaltungen bezeichnet man als DC/DC-Wandler. Wird die Spannung erhöht, spricht man von einem Step-UP-Wandler (Hochsetzsteller), wird sie verringert, von einem Step-DOWN-Wandler (Tiefsetzsteller).
+Un convertisseur de tension est nécessaire chaque fois qu'une tension électrique doit être convertie en une autre tension. En radioamateur, cela peut être par exemple la génération de $\qty{5}{\volt}$ pour un microcontrôleur à partir d'une alimentation de $\qty{13,8}{\volt}$ ou l'alimentation d'un ordinateur portable avec $\qty{19}{\volt}$ à partir d'une batterie de $\qty{12}{\volt}$. De tels circuits sont appelés convertisseurs DC/DC. Si la tension est augmentée, on parle d'un convertisseur Step-UP (élévateur de tension), si elle est réduite, d'un convertisseur Step-DOWN (abaisseur de tension).
 
-Bei jeder Spannungswandlung entstehen Verluste. Deshalb ist die abgegebene Leistung stets kleiner als die zugeführte Leistung. Das Verhältnis aus Ausgangsleistung und Eingangsleistung bezeichnet man als Wirkungsgrad $\eta$:
+À chaque conversion de tension, des pertes se produisent. Par conséquent, la puissance délivrée est toujours inférieure à la puissance fournie. Le rapport entre la puissance de sortie et la puissance d'entrée est appelé rendement $\eta$:
 
 $ \eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}} $
 
-Für die folgenden Fragen muss die Leistungsformel $P = U \cdot I$ angewendet werden, um die Eingangs- und Ausgangsleistung zu berechnen. Anschließend kann der Wirkungsgrad bestimmt werden.
+Pour les questions suivantes, la formule de puissance $P = U \cdot I$ doit être appliquée pour calculer les puissances d'entrée et de sortie. Ensuite, le rendement peut être déterminé.
 
 [question:AB213]
 [question:AB214]
 
 <indepth>
-[photo:300:StepUpWandler: Abwärts- (Buck) Aufwärts- (Boost) Wandler. Hier als Aufwärtsspannungswandler von $\qty{7,2}{\volt}$ auf $\qty{24}{\volt}$ eingestellt]
-Dieser Buck-Boost Converter kann von $\qty{0,5}{\volt}$ bis $\qty{25}{\volt}$ am Ausgang eingestellt werden. Die maximale Leistung beträgt $\qty{25}{\watt}$. Da der Wirkungsgrad sehr hoch ist, kommen die Schalttransistoren ohne Kühlkörper aus.  Die Betriebsart Abwärtswandler (Step Down = Buck Mode) oder Aufwärtswandler (Step Up = Boost Mode) kann mit dem rechten Minischalter aktiviert werden.
+[photo:300:StepUpWandler: Convertisseur Buck-Boost. Ici réglé comme convertisseur élévateur de tension de $\qty{7,2}{\volt}$ à $\qty{24}{\volt}$]
+Ce convertisseur Buck-Boost peut être réglé de $\qty{0,5}{\volt}$ à $\qty{25}{\volt}$ en sortie. La puissance maximale est de $\qty{25}{\watt}$. Comme le rendement est très élevé, les transistors de commutation se passent de dissipateur thermique. Le mode de fonctionnement en convertisseur abaisseur (Step Down = Buck Mode) ou élévateur (Step Up = Boost Mode) peut être activé avec l'interrupteur miniature de droite.
 </indepth>

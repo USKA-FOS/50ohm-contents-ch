@@ -1,13 +1,13 @@
-Das im Empfänger hörbare Rauschen ist grundsätzlich von dessen Bandbreite abhängig und hierbei proportional zur Bandbreite des Empfängers. Verdoppelt man also die Bandbreite, verdoppelt sich auch die Rauschleistung.
+Le bruit audible dans le récepteur dépend fondamentalement de sa bande passante et est proportionnel à la bande passante du récepteur. Si l'on double la bande passante, la puissance du bruit double également.
 
 [question:AB408]
 
-Um die Pegeländerung der Rauschleistung ($p_\text{r}$) bei zwei gegebenen Bandbreiten zu berechnen, verwenden wir die folgende Formel aus der Formelsammlung:
+Pour calculer le changement de niveau de la puissance du bruit ($p_\text{r}$) pour deux bandes passantes données, nous utilisons la formule suivante du recueil de formules:
 
 $\Delta P_\text{R} = 10 \cdot \log_{10}\left(\frac{B_1}{B_2}\right)\unit{\dB}$
 
-Dabei stehen $B_1$ und $B_2$ für die beiden zu vergleichenden Empfängerbandbreiten, die zueinander ins Verhältnis gesetzt werden.
+$B_1$ et $B_2$ représentent les deux largeurs de bande du récepteur à comparer, qui sont mises en rapport l'une avec l'autre.
 
-Mit Hilfe dieser Formel kann die folgende Fragen beantwortet werden.
+Avec l'aide de cette formule, la question suivante peut être répondue.
 
 [question:AB409]

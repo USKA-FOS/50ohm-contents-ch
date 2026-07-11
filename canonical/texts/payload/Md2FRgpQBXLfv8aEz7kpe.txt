@@ -1,5 +1,5 @@
-Wenn $R_2$ durch eine fehlerhafte Lötstelle keinen Kontakt mehr hat, fehlt der untere Teil des Basisspannungsteilers. Die Basis wird dann über $R_1$ nahezu auf die positive Betriebsspannung gezogen.
+Si $R_2$ n'a plus de contact en raison d'une soudure défectueuse, la partie inférieure du diviseur de tension de base manque. La base est alors tirée presque à la tension de service positive via $R_1$.
 
-Dadurch steigt die Basis-Emitter-Spannung stark an, und der Transistor wird vollständig durchgesteuert. Der Kollektorstrom wird dann im Wesentlichen nur noch durch den Kollektorwiderstand $R_C$ begrenzt.
+Cela fait augmenter fortement la tension base-émetteur, et le transistor est complètement saturé. Le courant collecteur n'est alors limité que par la résistance collectrice $R_C$.
 
-Im durchgesteuerten Zustand fällt die Kollektorspannung auf einen sehr kleinen Wert ab, typischerweise etwa $\qty{0,1}{\volt}$.
+À l'état saturé, la tension collectrice chute à une valeur très faible, typiquement environ $\qty{0,1}{\volt}$.

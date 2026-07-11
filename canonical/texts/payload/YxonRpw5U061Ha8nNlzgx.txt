@@ -1,31 +1,31 @@
-Die im Sender erzeugte Sendeleistung möchte man möglichst vollständig und ohne Verluste von der Antenne abstrahlen. Aus diesem Grund werden spezielle Antennenleitungen benötigt, die in der Fachsprache als Übertragungsleitungen bezeichnet werden.
+La puissance d'émission générée dans l'émetteur doit être rayonnée le plus complètement possible et sans pertes par l'antenne. C'est pourquoi des lignes d'antenne spéciales sont nécessaires, qui sont désignées dans la terminologie technique comme des lignes de transmission.
 
 <margin>
-[photo:65:n_Koax_Detail:Koaxialkabel im Detail]
+[photo:65:n_Koax_Detail:Détail d'un câble coaxial]
 </margin>
 
-Am weitesten verbreitet ist das *Koaxialkabel* (Abbildung [ref:n_Koax_Detail]). In der Umgangssprache wird häufig verkürzt von Koaxkabeln gesprochen. Koaxialkabel bestehen aus je einem voneinander isolierten Innen- und Außenleiter. Sie sind rohrförmig und mit einem Schutzmantel umgeben. Koaxialkabel gibt es in verschiedensten Ausführungen:
-* dick oder dünn
-* mit flexiblem oder starrem Innenleiter
-* mit Außenleitern aus Drahtgeflecht und/oder Folie oder sogar aus massivem Kupferrohr
+Le plus répandu est le *câble coaxial* (figure [ref:n_Koax_Detail]). Dans le langage courant, on parle souvent de câbles coaxiaux. Les câbles coaxiaux se composent chacun d'un conducteur intérieur et extérieur isolé l'un de l'autre. Ils sont tubulaires et entourés d'une gaine de protection. Il existe des câbles coaxiaux dans diverses exécutions:
+* épais ou fins
+* avec un conducteur intérieur flexible ou rigide
+* avec des conducteurs extérieurs en treillis de fils et/ou en feuille ou même en tube de cuivre massif
 
-% Nach Ticket #20292449 erstmal entfernt
+% Supprimé pour le moment en raison du ticket #20292449
 %<margin>
-%Die *Dämpfung* kann mit dem Wasserstrahl aus einem Gartenschlauch veranschaulicht werden: Ist der Schlauch %kurz, so tritt am Ende ein kräftiger Wasserstrahl aus. Ist der Schlauch hingegen sehr lang, so ist der austretende %Wasserstrahl schwach.
+%L'*atténuation* peut être illustrée par le jet d'eau d'un tuyau de jardin : si le tuyau %est court, un jet d'eau puissant sort à l'extrémité. Si le tuyau est en revanche très long, le %jet d'eau sortant est faible.
 %</margin>
 
 <margin>
-[photo:66:n_Koaxialkabel:Beispiele gebräuchlicher Koaxialkabel]
+[photo:66:n_Koaxialkabel:Exemples de câbles coaxiaux usuels]
 </margin>
 
-Aber auch im besten Koaxialkabel entsteht ein Verlust, weil ein Teil der Sendeleistung in Wärme umgesetzt wird. Wie hoch die Verluste einer Übertragungsleitung sind, gibt die sogenannte *Kabeldämpfung* an, die in Datenblättern meist in Dezibel ($\unit{\dB}$) je $\qty{100}{\meter}$ angegeben wird. Je länger ein Koaxialkabel ist, umso höher ist der Verlust durch Dämpfung. Auch die Frequenz der elektrischen Schwingung spielt eine Rolle: Mit zunehmender Frequenz steigt die Kabeldämpfung.
+Mais même dans le meilleur câble coaxial, une perte se produit parce qu'une partie de la puissance d'émission est convertie en chaleur. La mesure dans quelle mesure les lignes de transmission présentent des pertes est donnée par l'*atténuation du câble*, qui est généralement indiquée dans les feuilles de données en décibels ($\unit{\dB}$) par $\qty{100}{\meter}$. Plus un câble coaxial est long, plus la perte due à l'atténuation est élevée. La fréquence de l'oscillation électrique joue également un rôle : l'atténuation du câble augmente avec la fréquence.
 
 [question:NG207]
 
-Eine weiteres wichtiges Merkmal von Übertragungsleitungen ist der sogenannte *Wellenwiderstand*, der in Ohm ($\unit{\ohm}$) angegeben wird. Dabei handelt es sich um eine Eigenschaft, die vom Aufbau der Leitung abhängt, unter anderem vom Abstand zwischen Innen- und Außenleiter. Die Länge der Leitung hat keine Auswirkung auf den Wellenwiderstand.
+Une autre caractéristique importante des lignes de transmission est l'*impédance de la ligne*, qui est indiquée en ohms ($\unit{\ohm}$). Il s'agit d'une propriété qui dépend de la structure de la ligne, entre autres de la distance entre le conducteur intérieur et le conducteur extérieur. La longueur de la ligne n'a pas d'effet sur l'impédance de la ligne.
 
-Wenn man Übertragungsleitungen mit unterschiedlichem Wellenwiderstand verbindet, dann kommt es an der Verbindungsstelle zu unerwünschten Reflexionen von hochfrequenten Schwingungen. Dadurch wird ein Teil der Sendeleistung zurück in den Sender reflektiert und kann daher nicht abgestrahlt werden und im schlimmsten Fall sogar den Sender beschädigen.
+Si l'on connecte des lignes de transmission avec des impédances de ligne différentes, il se produit à l'endroit de la connexion des réflexions indésirables d'oscillations haute fréquence. Une partie de la puissance d'émission est ainsi réfléchie dans l'émetteur et ne peut donc pas être rayonnée et, dans le pire des cas, peut même endommager l'émetteur.
 
-Der Antennenanschluss von Amateurfunkgeräten ist fast immer auf einen Wellenwiderstand von $\qty{50}{\ohm}$ ausgelegt. Entsprechend haben im Amateurfunk gängige Koaxialkabel einen Wellenwiderstand von $\qty{50}{\ohm}$. In der Fernsehtechnik sind auch Koaxialkabel mit einem Wellenwiderstand von $\qty{75}{\ohm}$ üblich. Seltener finden sich Koaxialkabel mit $\qty{60}{\ohm}$.
+La connexion d'antenne des appareils de radioamateur est presque toujours conçue pour une impédance de ligne de $\qty{50}{\ohm}$. En conséquence, dans le radioamateur, les câbles coaxiaux courants ont une impédance de ligne de $\qty{50}{\ohm}$. Dans la technique de la télévision, les câbles coaxiaux avec une impédance de ligne de $\qty{75}{\ohm}$ sont également courants. Plus rarement, on trouve des câbles coaxiaux avec $\qty{60}{\ohm}$.
 
 [question:NG201]

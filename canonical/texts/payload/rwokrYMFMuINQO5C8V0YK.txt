@@ -1,41 +1,41 @@
-Erkennt der Empfänger einen Fehler, zum Beispiel durch Prüfbits, kann er den Sender um eine erneute Übertragung der Daten bitten, um den Fehler zu korrigieren. Bei der Vorwärtsfehlerkorrektur hingegen ist oft keine Neuübertragung nötig. Dazu wird weitere Redundanz zu den Daten hinzugefügt, z. B. mehrere Prüfbits. So wird nicht nur erkannt, dass ein Fehler vorliegt, sondern auch wo. Das Verfahren kann den Fehler somit korrigieren, indem es das als fehlerhaft erkannte Bit berichtigt. Wie das im Detail funktioniert, kannst du im Bonus-Kasten nachlesen. Es ist aber nicht prüfungsrelevant. Im Englischen wird von Forward Error Correction (FEC) gesprochen.
+Si le récepteur détecte une erreur, par exemple grâce à des bits de contrôle, il peut demander à l'émetteur de retransmettre les données afin de corriger l'erreur. En revanche, dans le cas de la correction d'erreur sans retransmission, une nouvelle transmission n'est souvent pas nécessaire. Pour ce faire, une redondance supplémentaire est ajoutée aux données, par exemple plusieurs bits de contrôle. Ainsi, non seulement il est détecté qu'une erreur est présente, mais aussi où. La procédure peut donc corriger l'erreur en rectifiant le bit reconnu comme erroné. Tu peux lire dans la boîte bonus comment cela fonctionne en détail. Mais ce n'est pas pertinent pour l'examen. En anglais, on parle de Forward Error Correction (FEC).
 
 [question:AE413]
 [question:AE414]
 
 <indepth>
 
-Der Hamming-Code ist ein Fehlerkorrekturverfahren, das mehrere Parity Bits verwendet. Nehmen wir an, wir wollen die folgenden 11 Bits übertragen:
+Le code de Hamming est une procédure de correction d'erreur qui utilise plusieurs bits de parité. Supposons que nous voulions transmettre les 11 bits suivants:
 
 [picture:683:hamming1: ]
 
-Das Ziel soll es sein, dass ein Bitfehler nicht nur erkannt, sondern auch korrigiert werden kann. Dazu ist es hilfreich, wenn wir uns die Positionen der einzelnen Bits mal genauer anschauen. Dazu benennen wir die Positionen alphabetisch:
+L'objectif est de pouvoir non seulement détecter, mais aussi corriger une erreur de bit. Pour ce faire, il est utile d'examiner de plus près les positions des différents bits. Nous nommons donc les positions de manière alphabétique:
 
 [picture:682:hamming2: ]
 
-Nun ordnen wir die Bits etwas anders an und fügen noch einige zusätzliche Bits hinzu:
+Nous organisons maintenant les bits un peu différemment et ajoutons encore quelques bits supplémentaires:
 
 [picture:684:hamming3: ]
 
-Anstatt eines einzelnen Prüfbits verwenden wir jetzt vier ($p_1$-$p_4$), die verschiedene Bereiche unserer Datenbits, ähnlich einem Kreuzworträtsel, abdecken:
+Au lieu d'un seul bit de contrôle, nous utilisons maintenant quatre bits ($p_1$-$p_4$), qui couvrent différentes zones de nos bits de données, de manière similaire à un mot croisé:
 
 [picture:685:hamming4: ]
 
-Jedes Prüfbit sichert einen gewissen Bereich ab:
+Chaque bit de contrôle sécurise une certaine zone:
 
 [picture:686:hamming5: ]
 
-Schauen wir uns wieder das Ganze mit unseren Daten an. Für jeden Bereich berechnen wir das Prüfbit mit Even Parity:
+Regardons à nouveau l'ensemble avec nos données. Pour chaque zone, nous calculons le bit de contrôle avec une parité paire:
 
 [picture:687:hamming6: ]
 
-Tritt bei der Übertragung ein Fehler auf, kann dieser durch die Kombination der verschiedenen Bereiche der Fehler lokalisiert und korrigiert werden. 
+Si une erreur se produit lors de la transmission, celle-ci peut être localisée et corrigée par la combinaison des différentes zones de l'erreur. 
 
-Wird zum Beispiel das Bit $k$ durch die Übertragung zu einer $\num{0}$, so werden alle Paritätsprüfungen ($p_1$-$p_4$) fehlschlagen. Der Fehler muss also bei Bit $k$ liegen.
+Par exemple, si le bit $k$ est transformé en $\num{0}$ par la transmission, toutes les vérifications de parité ($p_1$-$p_4$) échouent. L'erreur doit donc se situer au niveau du bit $k$.
 
-Tritt z.\,B. der Fehler im Bit $a$ auf, so schlägt die Paritätsprüfung von $p_1$ und $p_2$ fehl, während die von $p_3$ und $p_4$ erfolgreich ist. Der Fehler muss also bei Bit $a$ liegen.
+Si, par exemple, l'erreur se produit dans le bit $a$, la vérification de parité de $p_1$ et $p_2$ échoue, tandis que celle de $p_3$ et $p_4$ est réussie. L'erreur doit donc se situer au niveau du bit $a$.
 
-Selbst fehler in den Parity Bits können erkannt und korrigiert werden. Tritt z.\,B. der Fehler im Bit $p_1$ auf, so schlägt die Paritätsprüfung von $p_1$ fehlschlägt, während die von $p_2$, $p_3$ und $p_4$ erfolgreich ist. Der Fehler muss also bei Bit $p_1$ liegen.
+Même les erreurs dans les bits de parité peuvent être détectées et corrigées. Par exemple, si l'erreur se produit dans le bit $p_1$, la vérification de parité de $p_1$ échoue, tandis que celle de $p_2$, $p_3$ et $p_4$ est réussie. L'erreur doit donc se situer au niveau du bit $p_1$.
 
-Treten mehr als 1 Fehler auf, so kann der Hamming-Code diese nicht mehr korrekt erkennen und korrigieren. Es gibt aber Erweiterungen des Hamming-Codes, die auch Mehrbitfehler erkennen können.
+Si plus d'1 erreur se produisent, le code de Hamming ne peut plus les détecter et les corriger correctement. Mais il existe des extensions du code de Hamming qui peuvent également détecter les erreurs de plusieurs bits.
 </indepth>

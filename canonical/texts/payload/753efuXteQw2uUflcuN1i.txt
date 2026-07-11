@@ -1,10 +1,10 @@
 <html>
     <script src="https://www.50ohm.de/assets/jquery/3.7.1/jquery.min.js"></script>
-<p>Hier kann man das Ganze interaktiv ausprobieren. Wenn der Abstrahlwinkel flach ist steigt die Reichweite. Ist der Abstrahlwinkel steil, so verkürzt sich die Reichweite.</p><br>
+<p>Ici, on peut essayer tout cela de manière interactive. Si l'angle de rayonnement est plat, la portée augmente. Si l'angle de rayonnement est raide, la portée diminue.</p><br>
     <table>
         <tr>
             <td>
-                Abstrahlwinkel $\alpha$:
+                Angle de rayonnement $\alpha$:
             </td>
             <td>
                 <input type="range" class="slider" value="0" min="0" max="90" id="beamAngle">
@@ -15,7 +15,7 @@
         </tr>
     </table>
     <canvas id="myCanvas" style="border:0px; width:100%; display: block;">
-        Sorry, your browser does not support canvas.
+        Désolé, votre navigateur ne supporte pas le canvas.
         </canvas>
         
         <script>            

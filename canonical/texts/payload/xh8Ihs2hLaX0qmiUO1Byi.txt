@@ -1,21 +1,21 @@
-## Trap-Dipole
+## Dipôle à pièges
 
 <left>
-[picture:234:a_traps_allgemein:Zweiband-Dipolantenne mit Traps]
-Trap als Parallelschwingkreis aus Kondensator und Spule
+[picture:234:a_traps_allgemein:Antenne dipôle à deux bandes avec pièges]
+Piège en tant que circuit oscillant parallèle composé d'un condensateur et d'une bobine
 </left>
 <right>
-* Multibandantennen sind so konstruiert, dass sie auf mehreren Frequenzbändern resonant sind.
-* Ein Trap wird in einen Dipol eingefügt, um einen zusätzlichen Frequenzbereich zu erschließen.
+* Les antennes multibandes sont conçues pour être résonantes sur plusieurs bandes de fréquences.
+* Un piège est inséré dans un dipôle pour exploiter une bande de fréquences supplémentaire.
 </right>
 
 ---
 <left>
-[picture:234:a_traps_allgemein:Zweiband-Dipolantenne mit Traps]
+[picture:234:a_traps_allgemein:Antenne dipôle à deux bandes avec pièges]
 </left>
 <right>
-* Bei seiner Resonanz wirkt der Trap als Sperrkreis, der den Stromfluss blockiert und den Dipol elektrisch begrenzt.
-* Bei Anregung mit tieferer Frequenz schwingt hingegen der gesamte Dipol.
+* À sa résonance, le piège agit comme un circuit bouchon, qui bloque le flux de courant et limite électriquement le dipôle.
+* En revanche, lors d'une excitation avec une fréquence plus basse, l'ensemble du dipôle oscille.
 </right>
 
 ---
@@ -23,22 +23,22 @@ Trap als Parallelschwingkreis aus Kondensator und Spule
 ---
 [question:AG110]
 ---
-## Einfluss hoher Frequenzen
+## Influence des hautes fréquences
 
-* Frequenzen oberhalb der Resonanz des Traps können den Schwingkreis passieren.
-* Der überwiegend wirkende Kondensator verkürzt dadurch die Antenne leicht – die Spule spielt hier eine untergeordnete Rolle.
+* Les fréquences supérieures à la résonance du piège peuvent traverser le circuit oscillant.
+* Le condensateur, qui domine ici, raccourcit légèrement l'antenne – la bobine joue un rôle secondaire.
 
 ---
 [question:AG113]
 ---
-## Sperrwirkung im Resonanzfall
+## Effet de blocage en cas de résonance
 
 <left>
-[picture:235:a_traps_40m:Zweiband-Dipolantenne mit Trap für das 40m-Band]
+[picture:235:a_traps_40m:Antenne dipôle à deux bandes avec piège pour la bande des 40m]
 </left>
 <right>
-* Wird ein Trap-Dipol bei der Resonanzfrequenz eines der Traps betrieben, wirkt dieser wie ein Sperrkreis.
-* Dadurch fließt nahezu kein Strom, und der Dipol verhält sich, als ob er an dieser Stelle endet.
+* Lorsqu'un dipôle à pièges est utilisé à la fréquence de résonance de l'un des pièges, celui-ci agit comme un circuit bouchon.
+* Ainsi, presque aucun courant ne circule, et le dipôle se comporte comme s'il se terminait à cet endroit.
 </right>
 
 ---
@@ -46,27 +46,27 @@ Trap als Parallelschwingkreis aus Kondensator und Spule
 ---
 [question:AG116]
 ---
-## Elektrische Verlängerung bei niedrigen Frequenzen
+## Allongement électrique à basses fréquences
 
 <left>
-[picture:235:a_traps_40m:Zweiband-Dipolantenne mit Trap für das 40m-Band]
+[picture:235:a_traps_40m:Antenne dipôle à deux bandes avec piège pour la bande des 40m]
 </left>
 <right>
-* Bei Frequenzen unterhalb der Resonanz fließt nur wenig Strom durch den Kondensator.
-* Die Wirkung der Spule dominiert und führt zu einer elektrischen Verlängerung der Antenne.
+* À des fréquences inférieures à la résonance, peu de courant traverse le condensateur.
+* L'effet de la bobine domine et entraîne un allongement électrique de l'antenne.
 </right>
 
 ---
 [question:AG111]
 ---
-## Mehrere Traps für erweiterte Resonanzen
+## Plusieurs pièges pour des résonances étendues
 
 <left>
-[picture:237:a_traps_mehrband:Dreiband-Dipolantenne mit Traps]
+[picture:237:a_traps_mehrband:Antenne dipôle à trois bandes avec pièges]
 </left>
 <right>
-* Durch Einbau mehrerer Traps wird der innere Schwingkreis auf die höchste Frequenz und der nächstäußere auf eine niedrigere Frequenz abgestimmt.
-* So lassen sich mehrere Resonanzen im selben Dipol realisieren.
+* En installant plusieurs pièges, le circuit oscillant interne est accordé sur la fréquence la plus élevée et le suivant sur une fréquence plus basse.
+* Ainsi, plusieurs résonances peuvent être réalisées dans le même dipôle.
 </right>
 
 ---

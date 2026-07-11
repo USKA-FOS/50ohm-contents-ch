@@ -1,22 +1,22 @@
-## Digitale Signalverarbeitung: Filter
+## Traitement numérique du signal : Filtres
 
-* Digitale Informationen können nahezu beliebig bearbeitet werden  
-* Eingangssamples werden mittels mathematischer Funktionen in Ausgangssamples umgerechnet  
-* Filteroperationen können digital implementiert werden (z. B. Tief-, Band- oder Hochpass)
-
----
-
-### FIR-Filter (Finite Impulse Response)
-
-* "Finite" = Es werden nur eine begrenzte Anzahl von Eingangssamples für jedes Ausgangssample genutzt  
-* Keine Rückkopplung; Berechnung basiert ausschließlich auf aktuellen und vergangenen Samples
+* Les informations numériques peuvent être traitées de manière presque illimitée
+* Les échantillons d'entrée sont convertis en échantillons de sortie au moyen de fonctions mathématiques
+* Les opérations de filtrage peuvent être implémentées numériquement (par exemple, filtre passe-bas, passe-bande ou passe-haut)
 
 ---
 
-### IIR-Filter (Infinite Impulse Response)
+### Filtre FIR (Finite Impulse Response)
 
-* "Infinite" = Berechnung eines Ausgangssamples bezieht sich auf alle bisherigen Eingangssamples  
-* Einsatz von Rückkopplung führt zu einem theoretisch unendlichen Impulsverhalten
+* "Finite" = Un nombre limité d'échantillons d'entrée seulement est utilisé pour chaque échantillon de sortie
+* Pas de rétroaction ; le calcul est basé exclusivement sur les échantillons actuels et passés
+
+---
+
+### Filtre IIR (Infinite Impulse Response)
+
+* "Infinite" = Le calcul d'un échantillon de sortie se réfère à tous les échantillons d'entrée précédents
+* Utilisation de la rétroaction conduit à un comportement d'impulsion théoriquement infini
 
 ---
 

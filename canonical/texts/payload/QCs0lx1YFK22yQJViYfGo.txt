@@ -1,24 +1,24 @@
-Viele digitale Modulationsverfahren verwenden mehr als zwei Symbole. Anstelle von nur zwei Amplituden (klein und groß) funktioniert Amplitudenumtastung auch mit vier oder noch mehr unterschiedlichen Amplituden, also beispielsweise $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$, $\qty{100}{\percent}$ des Maximums. So lassen sich zwei oder mehr Bits zu einem Symbol zusammenfassen und gleichzeitig übertragen.
+De nombreux procédés de modulation numérique utilisent plus de deux symboles. Au lieu de seulement deux amplitudes (petite et grande), la modulation d'amplitude fonctionne également avec quatre amplitudes différentes ou plus, par exemple $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$, $\qty{100}{\percent}$ du maximum. Ainsi, deux bits ou plus peuvent être combinés en un symbole et transmis simultanément.
 
-[picture:701:4ask:Quaternäre Amplitudenumtastung (Quaternary Amplitude-shift Keying)]
+[picture:701:4ask:Modulation d'amplitude quaternaire (Quaternary Amplitude-shift Keying)]
 
-Dieses Prinzip lässt sich auch wieder auf die Frequenz- und Phasenumtastung übertragen. Eine einfache Phasenumtastung (Binary Phase-Shift Keying, BPSK) verwendet nur zwei verschiedene Phasenlagen und kann daher nur ein Bit gleichzeitig senden. Die Quadraturphasenumtastung (Quadrature Phase-Shift Keying, QPSK) hingegen nutzt schon vier verschiedene Phasenlagen ($\qty{0}{\degree}$, $\qty{90}{\degree}$, $\qty{180}{\degree}$ und $\qty{270}{\degree}$). QPSK überträgt somit zwei Bits in jedem Schritt.
+Ce principe peut également être appliqué à la modulation de fréquence et de phase. Une modulation de phase simple (Binary Phase-Shift Keying, BPSK) n'utilise que deux positions de phase différentes et ne peut donc envoyer qu'un bit à la fois. La modulation de phase en quadrature (Quadrature Phase-Shift Keying, QPSK), en revanche, utilise déjà quatre positions de phase différentes ($\qty{0}{\degree}$, $\qty{90}{\degree}$, $\qty{180}{\degree}$ et $\qty{270}{\degree}$). La QPSK transmet ainsi deux bits à chaque étape.
 
 [question:AE402]
 
-Da bei Verfahren wie QPSK mehr als ein Bit pro Symbol übertragen wird, müssen wir mit den Einheiten aufpassen. Während wir in Hinblick auf den Datenstrom von einer Datenrate in $\unit{\bit\per\second}$ sprechen, wird die Rate der Abfolge unterschiedlicher Symbole in Symbolen pro Sekunde mit der Einheit Baud notiert.
+Dans les procédés tels que la QPSK, plus d'un bit est transmis par symbole, nous devons donc faire attention aux unités. Alors que nous parlons d'un débit de données en $\unit{\bit\per\second}$ en ce qui concerne le flux de données, le taux de succession de symboles différents est noté en symboles par seconde avec l'unité Baud.
 
 [question:AA104]
 
-Werden nur zwei Symbole verwendet und somit jedes Bit einzeln gesendet, entspricht die Symbolrate in Baud ($\unit{\baud}$) der Datenrate in Bit pro Sekunde ($\unit{\bit\per\second}$). Werden jedoch mehr Symbole verwendet und somit mehrere Bits gleichzeitig übertragen, ist die Datenrate höher als die Symbolrate. Für den Zusammenhang gilt, dass die Datenrate in $\unit{\bit\per\second}$ gleich der Symbolrate in $\unit{\baud}$ multipliziert mit der Anzahl der pro Symbol übertragenen Bits ist:
+Si seulement deux symboles sont utilisés et donc chaque bit est envoyé individuellement, le taux de symboles en Baud ($\unit{\baud}$) correspond au débit de données en bits par seconde ($\unit{\bit\per\second}$). Cependant, si plus de symboles sont utilisés et donc plusieurs bits sont transmis simultanément, le débit de données est plus élevé que le taux de symboles. Pour la relation, il est valable que le débit de données en $\unit{\bit\per\second}$ est égal au taux de symboles en $\unit{\baud}$ multiplié par le nombre de bits transmis par symbole :
 
 $C=R_\mathrm{S}\cdot n$
 
-$C$ Datenübertragungsrate in $\unit{\bit\per\second}$
+$C$ Débit de transmission de données en $\unit{\bit\per\second}$
 
-$R_\mathrm{S}$ Symbolrate in $\unit{\baud}$
+$R_\mathrm{S}$ Taux de symboles en $\unit{\baud}$
 
-$n$ Symbolgröße in $\unit{\bit\per\text{Symbol}}$
+$n$ Taille du symbole en $\unit{\bit\per\text{Symbol}}$
 
 [question:AE405]
 [question:AE406]

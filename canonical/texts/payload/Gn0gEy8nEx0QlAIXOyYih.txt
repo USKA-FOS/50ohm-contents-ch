@@ -1,79 +1,79 @@
-Trotz aller Maßnahmen zur Vermeidung von unerwünschten Aussendungen und zur Sicherstellung der elektromagnetischen Verträglichkeit kann es zu Störungen oder störenden Beeinflussungen von elektronischen Geräten kommen. Diese können aus drei Gründen auftreten:
+Malgré toutes les mesures prises pour éviter les émissions indésirables et assurer la compatibilité électromagnétique, des perturbations ou des interférences indésirables peuvent survenir sur les appareils électroniques. Ces perturbations peuvent avoir trois causes:
 
-* durch unerwünschte Frequenzanteile, die nicht ausreichend unterdrückt werden
-* durch unzureichend abgeschirmte oder unzureichend geerdete Geräte 
-* durch die gewünschten Aussendungen selber
+* par des composantes de fréquence indésirables qui ne sont pas suffisamment supprimées
+* par des appareils insuffisamment blindés ou insuffisamment mis à la terre 
+* par les émissions souhaitées elles-mêmes
 
 <indepth>
-Es wird zwischen Störungen und störenden Beeinflussungen unterschieden.
+On distingue les perturbations des interférences indésirables.
 
-Eine Störung liegt vor, wenn die Amateurfunkstation unerwünschte Frequenzanteile in einem Maße abstrahlt, dass die Grenzwerte überschritten werden und zu einer Störung führen. Ein Beispiel wäre eine Aussendung einer Oberschwingung von einem Kurzwellentransceiver im UKW-Rundfunkbereich.
+Une perturbation se produit lorsque la station de radioamateur émet des composantes de fréquence indésirables dans une mesure telle que les valeurs limites sont dépassées et entraînent une perturbation. Un exemple serait une émission d'une harmonique d'un émetteur-récepteur à ondes courtes dans la bande des ondes ultracourtes de la radiodiffusion.
 
-[picture:745:stoerungen_vermeiden_oberschwingung:Störung des DVB-T2-Empfang eines Fernsehers durch die Oberschwingung einer Amateurfunkaussendung]
+[picture:745:stoerungen_vermeiden_oberschwingung:Perturbation de la réception DVB-T2 d'un téléviseur par l'harmonique d'une émission radioamateur]
 
 </indepth>
 
 ---
 
-Störungen oder störende Beeinflussungen von Geräten können für die betroffenen Personen natürlich mit Unannehmlichkeiten verbunden sein. Wenn die Probleme nur im eigenen Haushalt auftreten, kann man damit vielleicht noch gut umgehen. Wenn es jedoch zu Störungen bei Geräten von Nachbarn kommt, wird es schon schwieriger.
+Les perturbations ou interférences indésirables sur les appareils peuvent naturellement entraîner des inconvénients pour les personnes concernées. Si les problèmes ne se produisent que dans le ménage, on peut peut-être encore bien vivre avec. Mais si des perturbations surviennent sur les appareils des voisins, cela devient déjà plus difficile.
 
-Wenn wir von einem solchen Problem in unserer Umgebung erfahren, sollten wir immer in Betracht ziehen, dass sie mit unserer Amateurfunkanlage im Zusammenhang stehen könnte. Daher sollte ein Funkamateur in solchen Fällen anbieten, zu prüfen, ob er der Verursacher ist.
+Si nous apprenons qu'un tel problème existe dans notre environnement, nous devrions toujours envisager qu'il pourrait être lié à notre installation radioamateur. C'est pourquoi un radioamateur devrait, dans de tels cas, proposer de vérifier s'il est le responsable.
 
 [question:NJ102]
 
 <indepth>
-Bei störenden Beeinflussungen kommt es hingegen - obwohl die Grenzwerte für unerwünschte Aussendungen durch den Funkamateur eingehalten werden -  zu einer negativen Beeinflussung, z. B. des Rundfunkempfangs. Störende Beeinflussungen können auf drei unterschiedlichen Wegen in das betroffene Gerät gelangen, wobei die Wege sowohl einzeln als auch zusammen auftreten können:
-* Einstrahlung über eine Empfangsantenne
-* Direkteinstrahlung in elektrische Geräte
-* Einströmungen über Anschlussleitungen
+Dans le cas des interférences indésirables, il y a, bien que les valeurs limites pour les émissions indésirables soient respectées par le radioamateur, une influence négative, par exemple sur la réception radiophonique. Les interférences indésirables peuvent parvenir à l'appareil concerné de trois manières différentes, les voies pouvant se produire à la fois individuellement et ensemble:
+* Rayonnement par une antenne de réception
+* Rayonnement direct dans les appareils électriques
+* Rayonnement par les lignes de connexion
 
-% TODO Editionsspezifisch anpassen:
-Diese Wege zu kennen, erleichtert die Analyse der störenden Beeinflussung und die nachfolgende Behebung. Mögliche Maßnahmen werden im Kurs für Klasse E behandelt.
+% TODO Adapter selon l'édition:
+Connaître ces voies facilite l'analyse de l'interférence indésirable et sa résolution ultérieure. Les mesures possibles sont traitées dans le cours pour la classe E.
 
-[picture:744:stoerungen_vermeiden_einstrahlung:Einstrahlung über die Empfangsantenne]
-[picture:746:stoerungen_vermeiden_direkteinstrahlung:Direkteinstrahlung in ein Gerät]
-[picture:747:stoerungen_vermeiden_einstroemung:Einströmung über Anschlussleitungen]
+[picture:744:stoerungen_vermeiden_einstrahlung:Rayonnement par l'antenne de réception]
+[picture:746:stoerungen_vermeiden_direkteinstrahlung:Rayonnement direct dans un appareil]
+[picture:747:stoerungen_vermeiden_einstroemung:Rayonnement par les lignes de connexion]
 </indepth>
 
 ---
 
-Man sollte nun nach der Ursache suchen und prüfen, ob man das Problem mit eigenen Mitteln beheben kann. Möglicherweise kann die Ursache allerdings nicht ermittelt bzw. das Problem nicht beseitigt werden. Dann ist es ratsam, den Nachbarn darauf hinzuweisen, dass er sich an die Funkstörungsannahme der Bundesnetzagentur wenden kann.
+On devrait maintenant chercher la cause et vérifier si l'on peut résoudre le problème avec ses propres moyens. Il est possible que la cause ne puisse pas être déterminée ou que le problème ne puisse pas être résolu. Dans ce cas, il est conseillé d'indiquer au voisin qu'il peut s'adresser au bureau de réception des perturbations radio de la Bundesnetzagentur.
 
 <tip>
-Die Suche nach der Ursache von elektromagnetischen Störungen kann sich kompliziert gestalten. Mitglieder des DARC können sich Unterstützung bei den *Referenten für elektromagnetische Verträglichkeit* holen, die es in den Distrikten und auch vielen Ortsverbänden des DARC gibt.
+La recherche de la cause des perturbations électromagnétiques peut se révéler compliquée. Les membres du DARC peuvent obtenir de l'aide auprès des *référents pour la compatibilité électromagnétique*, qui existent dans les districts et également dans de nombreux clubs locaux du DARC.
 
-[Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+[Devenez membre du DARC maintenant!](https://50ohm.de/mw)
 </tip>
 
 [question:VE302]
 [question:VN006]
 
-Die Ermittlung der Ursache kann einige Zeit in Anspruch nehmen. Zur Wahrung des nachbarschaftlichen Friedens kann es daher sinnvoll sein, die eigene Sendeleistung so weit zu reduzieren, dass es zu keinen Problemen kommt.
+La détermination de la cause peut prendre un certain temps. Pour préserver la paix de voisinage, il peut donc être judicieux de réduire sa propre puissance d'émission de manière à ce qu'il n'y ait pas de problèmes.
 
 [question:VE301]
 
-Wenn bei der Überprüfung durch die Bundesnetzagentur herauskommt, dass die Probleme mit dem betroffenen Gerät durch die Amateurfunkaussendungen verursacht werden, gibt es drei mögliche Fälle zu unterscheiden.
+Si, lors de la vérification par la Bundesnetzagentur, il s'avère que les problèmes avec l'appareil concerné sont causés par les émissions radioamateurs, il y a trois cas possibles à distinguer.
 
-Im ersten Fall wird festgestellt, dass die Amateurfunkanlage nicht vorschriftsmäßig betrieben wird, beispielsweise weil zu starke unerwünschte Aussendungen stattfinden. In diesem Fall ist die Bundesnetzagentur berechtigt, kostenpflichtig eine Betriebseinschränkung anzuordnen. Das kann beispielsweise eine Begrenzung der Sendeleistung sein.
+Dans le premier cas, il est constaté que l'installation radioamateur n'est pas exploitée conformément aux prescriptions, par exemple parce que des émissions indésirables trop fortes ont lieu. Dans ce cas, la Bundesnetzagentur est habilitée à ordonner une restriction d'exploitation payante. Il peut s'agir par exemple d'une limitation de la puissance d'émission.
 
-Der zweite Fall stellt sich wie folgt dar: Die Amateurfunkstelle wird vorschriftsmäßig betrieben. Eine Messung der erzeugten Feldstärke am Ort des betroffenen Gerätes ergibt, dass die Feldstärke kleiner ist als die Feldstärke, die das betroffene Gerät im Rahmen der Störfestigkeit vertragen können muss.
+Le deuxième cas se présente comme suit: L'installation radioamateur est exploitée conformément aux prescriptions. Une mesure de l'intensité de champ produite à l'emplacement de l'appareil concerné montre que l'intensité de champ est inférieure à l'intensité de champ que l'appareil concerné doit pouvoir supporter dans le cadre de la résistance aux perturbations.
 
-Die Störung wird also dadurch verursacht, dass das betroffene Gerät die vorgeschriebene Störfestigkeit nicht einhält. In diesem Fall liegt die Verantwortung zur Behebung der Störung alleine beim Betreiber des betroffenen Geräts. Der Funkamateur darf seinen Sendebetrieb unverändert fortsetzen.
+La perturbation est donc causée par le fait que l'appareil concerné ne respecte pas la résistance aux perturbations prescrite. Dans ce cas, la responsabilité de l'élimination de la perturbation incombe uniquement à l'exploitant de l'appareil concerné. Le radioamateur peut poursuivre son émission sans modification.
 
 [question:VE305]
 [question:VE306]
 
-Im dritten Fall wird die Amateurfunkstelle ebenfalls vorschriftsmäßig betrieben. Das betroffene Gerät hält jedoch die vorgeschriebene Störfestigkeit ein. Die Störung ergibt sich also daraus, dass die von der Amateurfunkstation am Ort des betroffenen Geräts erzeugte Feldstärke größer ist als der Grenzwert für die Störfestigkeit des betroffenen Geräts.
+Dans le troisième cas, l'installation radioamateur est également exploitée conformément aux prescriptions. L'appareil concerné respecte cependant la résistance aux perturbations prescrite. La perturbation résulte donc du fait que l'intensité de champ produite par la station radioamateur à l'emplacement de l'appareil concerné est supérieure à la valeur limite pour la résistance aux perturbations de l'appareil concerné.
 
 ---
 
-Das bedeutet aber nicht automatisch, dass der Funkamateur seine Sendeleistung absenken muss. Es handelt sich vielmehr um einen Konfliktfall, da sowohl die Amateurfunkstation als auch das betroffene Gerät vorschriftsmäßig betrieben werden. In diesen Fällen ist die Bundesnetzagentur befugt, eine Lösung *in Zusammenarbeit mit allen Beteiligten* herzustellen.
+Cela ne signifie pas automatiquement que le radioamateur doit réduire sa puissance d'émission. Il s'agit plutôt d'un cas de conflit, car à la fois la station radioamateur et l'appareil concerné sont exploités conformément aux prescriptions. Dans ces cas, la Bundesnetzagentur est habilitée à trouver une solution *en collaboration avec toutes les parties concernées*.
 
 <attention>
-Die Bundesnetzagentur ist unter den folgenden Umständen - trotz vorschriftsmäßigem Betrieb einer Amateurfunkanlage - befugt, Maßnahmen auch ohne Zusammenarbeit mit allen Beteiligten anzuordnen:
-* zum Schutz von Empfangs- und Sendegeräten, die Sicherheitszwecken dienen
-* zum Schutz öffentlicher Telekommunikationsnetze, also beispielsweise dem Telefonnetz
-* zum Schutz von Leib und Leben einer Person oder Sachen von bedeutendem Wert
+La Bundesnetzagentur est habilitée, dans les circonstances suivantes - malgré l'exploitation conforme aux prescriptions d'une installation radioamateur - à ordonner des mesures également sans collaboration avec toutes les parties concernées:
+* pour la protection des appareils de réception et d'émission servant à des fins de sécurité
+* pour la protection des réseaux publics de télécommunication, par exemple le réseau téléphonique
+* pour la protection de la vie ou de l'intégrité physique d'une personne ou de biens de grande valeur
 </attention>
 
 [question:VE303]

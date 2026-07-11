@@ -1,19 +1,19 @@
-## Demodulation von Signalen
+## Démodulation des signaux
 
-* Demodulation wandelt ein moduliertes HF-Signal in ein hörbares NF-Signal um  
-* Abhängig von der verwendeten Modulation wird ein passendes Demodulationsverfahren gewählt  
-* Ziel: Wiederherstellung der ursprünglichen NF
+* La démodulation transforme un signal HF modulé en un signal AF audible
+* Selon la modulation utilisée, un procédé de démodulation approprié est choisi
+* Objectif : Restaurer l'AF d'origine
 
 ---
-### AM-Demodulation
+### Démodulation AM
 
 <left>
-[picture:141:demodulator_huellkurvendemodulator_am:Hüllkurvendemodulator zur Demodulation von AM-Signalen]
+[picture:141:demodulator_huellkurvendemodulator_am:Démodulateur d'enveloppe pour la démodulation des signaux AM]
 </left>
 <right>
-* AM-Signale werden mit einem Hüllkurvendemodulator verarbeitet  
-* HF-Signal wird über einen Schwingkreis selektiert und gleichgerichtet  
-* Kondensator lädt auf $\rightarrow$ Widerstand entlädt mit definierter Zeitkonstante
+* Les signaux AM sont traités avec un démodulateur d'enveloppe
+* Le signal HF est sélectionné via un circuit oscillant et redressé
+* Le condensateur se charge $\rightarrow$ La résistance se décharge avec une constante de temps définie
 </right>
 
 ---
@@ -23,15 +23,15 @@
 ---
 
 <left>
-[picture:607:demodulator_huellkurvendemodulator_am_2:Hüllkurvendemodulator mit ZF-Eingangssignal]
+[picture:607:demodulator_huellkurvendemodulator_am_2:Démodulateur d'enveloppe avec signal d'entrée ZF]
 
-[picture:146:demodulator_huellkurvendemodulator_am_abbx:Demoduliertes Signal am Punkt X]
+[picture:146:demodulator_huellkurvendemodulator_am_abbx:Signal démodulé au point X]
 </left>
 <right>
-* Anschluss X: Anzeige der gleichgerichteten Spitzenspannung  
-* Leichter Abfall der Spannung durch parallele Entladung  
-* Hüllkurve entspricht der aufmodulierten NF, überlagert mit einem Sägezahnsignal  
-* Nachfilterung entfernt den Trägeranteil
+* Connexion X : Affichage de la tension de crête redressée
+* Légère chute de tension due à la décharge parallèle
+* L'enveloppe correspond à l'AF modulée, superposée à un signal en dents de scie
+* Le filtrage ultérieur élimine la composante porteuse
 </right>
 
 ---
@@ -39,19 +39,19 @@
 [question:AD502]
 
 --- style="font-size: smaller;"
-### FM-Demodulation
+### Démodulation FM
 
 <left>
-[picture:841:demodulator_flankendiskriminator:Schwingkreis als Flankendiskriminator]
+[picture:841:demodulator_flankendiskriminator:Circuit oscillant comme discriminateur de flancs]
 
-[picture:149:demodulator_flankendiskriminator_schaltung:FM-Flankendiskriminator]
+[picture:149:demodulator_flankendiskriminator_schaltung:Discriminateur de flancs FM]
 </left>
 <right>
-* FM-Demodulation mittels Flankendiskriminator  
-* Signal aus der Zwischenfrequenz läuft in einen Schwingkreis  
-* Schwingkreis: Resonanzfrequenz $f_\text{res}$ leicht versetzt zu $f_\text{ZF}$
-* Frequenzänderungen werden in Amplitudenänderungen umgewandelt  
-* Nachgeschalteter AM-Demodulator liefert die NF
+* Démodulation FM au moyen d'un discriminateur de flancs
+* Le signal de la fréquence intermédiaire passe dans un circuit oscillant
+* Circuit oscillant : Fréquence de résonance $f_\text{res}$ légèrement décalée par rapport à $f_\text{ZF}$
+* Les variations de fréquence sont converties en variations d'amplitude
+* Un démodulateur AM en aval fournit l'AF
 </right>
 
 ---
@@ -60,15 +60,15 @@
 
 ---
 
-####  FM-Demodulation mittels PLL  
+#### Démodulation FM au moyen d'une PLL
 
 <left>
-[picture:77:a_fm_demodulation_pll:Blockschaltbild einer FM-Demodulation mittels PLL]
+[picture:77:a_fm_demodulation_pll:Schéma bloc d'une démodulation FM au moyen d'une PLL]
 </left>
 <right>
-* PLL nutzt einen spannungsgesteuerten Oszillator (VCO), der dem Eingangssignal folgt  
-* Regelspannung entspricht der FM-Modulation (aufmodulierte NF)
-* Signalabgriff zur weiteren NF-Verarbeitung
+* La PLL utilise un oscillateur commandé en tension (VCO) qui suit le signal d'entrée
+* La tension de régulation correspond à la modulation FM (AF modulée)
+* Prise de signal pour le traitement ultérieur de l'AF
 </right>
 
 ---
@@ -76,12 +76,12 @@
 [question:AD505]
 
 ---
-### SSB-Demodulation
+### Démodulation SSB
 
-* SSB-Demodulation mittels Produktdetektor  
-* Ringmischer mischt die Zwischenfrequenz (ZF) mit einem Beat Frequency Oscillator (BFO)  
-* Entstehendes Mischprodukt ist das gewünschte SSB-NF-Signal  
-* BFO muss exakt auf den unterdrückten Träger abgestimmt sein
+* Démodulation SSB au moyen d'un détecteur de produit
+* Le mélangeur en anneau mélange la fréquence intermédiaire (ZF) avec un oscillateur à fréquence de battement (BFO)
+* Le produit de mélange résultant est le signal AF SSB souhaité
+* Le BFO doit être exactement accordé sur la porteuse supprimée
 
 ---
 

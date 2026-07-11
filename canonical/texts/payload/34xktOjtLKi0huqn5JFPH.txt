@@ -1,48 +1,48 @@
-## Empfang
+## Réception
 
-* Frequenz wird am Funkgerät über Drehknopf oder Tasten eingestellt
-* Es können nur Stationen auf der eingestellten Frequenz gehört werden
-* Langsam "über das Band drehen", um andere Stationen zu hören
+* La fréquence est réglée sur l'appareil radio par un bouton rotatif ou des touches
+* Seules les stations sur la fréquence réglée peuvent être entendues
+* Tourner lentement "sur la bande" pour entendre d'autres stations
 
 ---
-## Amplitudenspektrum und Wassefalldiagramm
+## Spectre d'amplitude et diagramme en cascade
 
 <left>
-[photo:95:n_wasserfall_starke_station:Display eines ICOM IC-9700 mit Frequenzanzeige, Amplitudenspektrum und Wasserfalldiagramm. Eine starke Station wird empfangen.]
+[photo:95:n_wasserfall_starke_station:Afficheur d'un ICOM IC-9700 avec affichage de la fréquence, spectre d'amplitude et diagramme en cascade. Une station forte est reçue.]
 </left>
 <right>
-* Moderne Funkgeräte
-* Anzeige weiterer sendender Stationen ober- und unterhalb der eingestellten Frequenz
+* Appareils radio modernes
+* Affichage d'autres stations émettant au-dessus et en dessous de la fréquence réglée
 </right>
 <note>
-Anzeige erklären
-* Frequenz oben
-* $\qty{2}{\meter}$-Band
-* starkes Empfangssignal
+Expliquer l'affichage
+* Fréquence en haut
+* Bande de $\qty{2}{\meter}$
+* signal reçu fort
 </note>
 
 ---
-### Amplitudenspektrum
+### Spectre d'amplitude
 
 <left>
-[photo:135:n_wasserfall_amplitudenspektrum:Display eines ICOM IC-9700. Hervorgehoben ist das Amplitudenspektrum]
+[photo:135:n_wasserfall_amplitudenspektrum:Afficheur d'un ICOM IC-9700. Le spectre d'amplitude est mis en évidence]
 </left>
 <right>
-* Amplitude umso höher je stärker das Signal ist
-* Weitere Stationen sind im Amplitudenspektrum sichtbar
+* L'amplitude est d'autant plus élevée que le signal est fort
+* D'autres stations sont visibles dans le spectre d'amplitude
 </right>
  
 ---
-### Wasserfalldiagramm
+### Diagramme en cascade
  
 <left>
-[photo:136:n_wasserfall_wasserfall:Display eines ICOM IC-9700. Hervorgehoben ist der Wasserfall]
+[photo:136:n_wasserfall_wasserfall:Afficheur d'un ICOM IC-9700. Le diagramme en cascade est mis en évidence]
 </left>
 <right>
-* Zeitlicher Verlauf auf senkrechter Achse
-* Farbton oder Helligkeit zeigt die Stärke des Signals
-* Läuft von oben nach unten durch
-* Beginn und Ende einer Aussendung erkennbar
+* Évolution temporelle sur l'axe vertical
+* La teinte ou la luminosité indique la force du signal
+* Défile de haut en bas
+* Début et fin d'une émission reconnaissables
 </right>
 
 ---
@@ -52,10 +52,10 @@ Anzeige erklären
 ---
 [question:NF106]
 ---
-## Unterschied Oszillogramm und Amplitudenspektrum
+## Différence entre oscillogramme et spectre d'amplitude
 
-* Amplitudenspektrum zeigt horizontal Amplituden für verschiedene Frequenzen an
-* Oszillogramm zeigt horizontal Amplituden zu verschiedenen Zeitpunkten an
+* Le spectre d'amplitude montre horizontalement les amplitudes pour différentes fréquences
+* L'oscillogramme montre horizontalement les amplitudes à différents moments
 
 ---
 [question:NI401]

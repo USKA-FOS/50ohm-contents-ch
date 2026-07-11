@@ -1,10 +1,10 @@
-Gesucht ist die Verlustleistung des MOSFET.
+La puissance dissipée du MOSFET doit être déterminée.
 
-Für die Leitungsverluste gilt:
+Pour les pertes de conduction, on a :
 
 $ P = I^2 \cdot R $
 
-Werte einsetzen:
+En insérant les valeurs :
 
 $ P = \left( \qty{25}{\ampere} \right)^2 \cdot \qty{4}{\milli\ohm} $
 

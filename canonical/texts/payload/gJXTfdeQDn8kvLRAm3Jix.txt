@@ -1,35 +1,35 @@
 <left>
-* Klasse N ist in Strahlungsleistung (ERP oder EIRP) an Antenne begrenzt
+* La classe N est limitée en puissance de rayonnement (ERP ou EIRP) à l'antenne
 </left>
 <right>
-* Klassen E und A meistens auf *Senderausgangsleistung* (peak envelope power, PEP)
+* Les classes E et A sont généralement limitées à la *puissance de sortie de l'émetteur* (puissance d'enveloppe crête, PEP)
 </right>
 <fragment>
-* Viele Funkgeräte zeigen die aktuelle Senderausgangsleistung im Power-Meter an.
+* De nombreux appareils radio affichent la puissance de sortie actuelle de l'émetteur sur le Power-Meter.
 </fragment>
 
 ---
 [question:NF102]
 
 ---
-## Zulässige Senderausgangsleistung
+## Puissance de sortie admissible
 
-* In Anlage 1 der AFuV
-* Unterscheidet sich je nach Klasse und Frequenzbereich
+* Dans l'annexe 1 de l'AFuV
+* Diffère selon la classe et la bande de fréquences
 
 <note>
-* Wir empfehlen, die folgenden 10 Fragen anhand der Anlage 1 zu beantworten, um Übung beim Ablesen der richtigen Werte zu bekommen.
+* Nous recommandons de répondre aux 10 questions suivantes à l'aide de l'annexe 1 pour s'entraîner à lire les bonnes valeurs.
 </note>
 
 ---
 
-[photo:145:ausgangsleistung:Ausschnitt aus der Anlage 1 der Amateurfunkverordnung]
+[photo:145:ausgangsleistung:Extrait de l'annexe 1 de l'ordonnance sur les radioamateurs]
 
 --- 
-Aktuell ist die [Anlage 1 der AFuV](https://50ohm.de/a1) hier zu finden.
+Actuellement, l'[annexe 1 de l'AFuV](https://50ohm.de/a1) est disponible ici.
 
 <note>
-* Die AFuV ab Juni 2024 ist noch nicht in einem ordentlichen Format veröffentlicht
+* L'AFuV à partir de juin 2024 n'est pas encore publiée dans un format ordonné
 </note>
 
 ---
@@ -64,11 +64,11 @@ Aktuell ist die [Anlage 1 der AFuV](https://50ohm.de/a1) hier zu finden.
 
 ---
 
-* Für den Frequenzbereich von $\qtyrange{1240}{1300}{\mega\hertz}$ gelten zusätzliche Regelungen
-* stehen nicht direkt in der Tabelle
-* In der rechten Spalte "Zusätzliche Nutzungsbestimmungen gemäß B" kennzeichnen Zahlen ergänzende Angaben
-* Stehen unter der Tabelle
-* Für die folgende Frage ist der Punkt 11 zu beachten
+* Pour la bande de fréquences de $\qtyrange{1240}{1300}{\mega\hertz}$, des réglementations supplémentaires s'appliquent
+* ne sont pas directement indiquées dans le tableau
+* Dans la colonne de droite "Conditions d'utilisation supplémentaires selon B" les chiffres indiquent des indications complémentaires
+* Se trouvent sous le tableau
+* Pour la question suivante, il faut tenir compte du point 11
 
 ---
 [question:VD735]

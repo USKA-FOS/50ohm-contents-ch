@@ -1,16 +1,16 @@
-## Funktion des A/D-Umsetzers
+## Fonction du convertisseur A/N
 
-* Wandelt analoge Eingangssignale in digitale Samples um  
-* Essentiell für die Digitalisierung und Weiterverarbeitung von Signalen
+* Convertit les signaux d'entrée analogiques en échantillons numériques  
+* Essentiel pour la numérisation et le traitement ultérieur des signaux
 
 ---
 
-### Aliasing und Antialiasing
+### Aliasing et anti-aliasing
 
-* Abtasttheorem: Für fehlerfreie Rekonstruktion muss die Abtastrate $\gt 2 \cdot f_{\mathrm{max}}$ betragen
-* Signale oberhalb der maximal verarbeitbaren Frequenz können als fehlerhafte Aliases erscheinen  
-* Antialiasing-Filter (Tiefpass- oder Bandpassfilter) unterdrücken unerwünschte hohe Frequenzen  
-* Schützen den A/D-Umsetzer vor fehlerhaften Aliasing-Effekten
+* Théorème d'échantillonnage: Pour une reconstruction sans erreur, la fréquence d'échantillonnage doit être $\gt 2 \cdot f_{\mathrm{max}}$
+* Les signaux au-dessus de la fréquence maximale traitée peuvent apparaître comme des alias erronés  
+* Les filtres anti-aliasing (passe-bas ou filtre passe-bande) suppriment les fréquences élevées indésirables  
+* Protègent le convertisseur A/N des effets d'aliasing erronés
 
 ---
 
@@ -18,19 +18,19 @@
 
 ---
 
-### Taktgenerator (Abtastratengenerator)
+### Générateur de rythme (générateur de fréquence d'échantillonnage)
 
-* Erzeugt den exakten zeitlichen Takt für die Abtastung  
-* Bestimmt, wie oft pro Sekunde ein Sample erfasst wird  
-* Kann fest eingestellt oder durch Steuerung (z. B. Mikrocontroller) geregelt werden
+* Génère le rythme temporel exact pour l'échantillonnage  
+* Détermine combien de fois par seconde un échantillon est capturé  
+* Peut être réglé de manière fixe ou contrôlé par une commande (par exemple, un microcontrôleur)
 
 ---
 
-### Quantisierung und Quantisierungsfehler
+### Quantification et erreur de quantification
 
-* Bei der A/D-Umsetzung werden analoge Amplitudenwerte in feste Stufen abgebildet  
-* Dies führt zu einer wertdiskreten Darstellung des ursprünglich kontinuierlichen Signals  
-* Quantisierungsfehler entstehen, da nicht alle Zwischenwerte exakt erfasst werden können
+* Lors de la conversion A/N, les valeurs d'amplitude analogiques sont mappées en étapes fixes  
+* Cela conduit à une représentation discrète de valeur du signal initialement continu  
+* Les erreurs de quantification surviennent car toutes les valeurs intermédiaires ne peuvent pas être capturées avec précision
 
 ---
 
@@ -38,11 +38,11 @@
 
 ---
 
-## Auflösung des A/D-Umsetzers
+## Résolution du convertisseur A/N
 
-* Anzahl der möglichen digital darstellbaren Stufen  
-* Wird in Bit angegeben (z. B. $\qty{8}{\bit} = \num{256}$ Stufen, $\qty{16}{\bit} = \num{65536}$ Stufen)
-* Häufig wird die Hälfte der Werte für den positiven und die andere Hälfte für den negativen Bereich verwendet
+* Nombre d'étapes pouvant être représentées numériquement  
+* Exprimée en bits (par exemple, $\qty{8}{\bit} = \num{256}$ étapes, $\qty{16}{\bit} = \num{65536}$ étapes)
+* Souvent, la moitié des valeurs est utilisée pour la plage positive et l'autre moitié pour la plage négative
 
 ---
 
@@ -50,11 +50,11 @@
 
 ---
 
-### Jitter: Timing-Instabilitäten
+### Jitter: Instabilités de temporisation
 
-* Jitter beschreibt kleine, zufällige Schwankungen in den Abtastzeitpunkten  
-* Ein instabiler Abtastratengenerator führt zu zusätzlichen Rauscheffekten im digitalen Signal  
-* Hoher technischer Aufwand ist nötig, um einen präzisen Takt zu gewährleisten
+* Le jitter décrit de petites fluctuations aléatoires dans les instants d'échantillonnage  
+* Un générateur de fréquence d'échantillonnage instable entraîne des effets de bruit supplémentaires dans le signal numérique  
+* Un effort technique élevé est nécessaire pour garantir une horloge précise
 
 ---
 

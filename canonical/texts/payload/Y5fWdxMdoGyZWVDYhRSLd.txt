@@ -1,76 +1,76 @@
-Um den Sicherheitsabstand zu Berechnen gibt es eine Näherungsformel. Wir finden Sie in der Formelsammlung: 
+Pour calculer la distance de sécurité, il existe une formule approximative. Nous la trouvons dans le recueil de formules :
 
 $ E = \frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{d} $
 
-Diese kann man schnell zum Sicherheitsabstand $d$ umstellen: 
+Celle-ci peut être rapidement réarrangée pour obtenir la distance de sécurité $d$ :
 
 $ d = \frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{E} $
 
-Die Formelsammlung hat noch einen Hinweis, dass die obige Formel erst für Berechnungen im Fernfeld (bzw. stahlendem Nahfeld) ab $ d > \frac{\lambda}{2\pi} $ gilt.
+Le recueil de formules contient également une note indiquant que la formule ci-dessus ne s'applique qu'aux calculs dans le champ lointain (ou champ proche rayonnant) pour $ d > \frac{\lambda}{2\pi} $.
 
-Das liegt daran, dass nur im Fernfeld das elektrische und das magnetische Feld eine feste, konstante Phasenbeziehung zueinander aufweisen. Im reaktiven Nahfeld kann es hingegen lokal zu starken Überhöhungen sowohl des elektrischen als auch des magnetischen Feldes kommen. Diese Effekte lassen sich mit den Näherungsformeln für das Fernfeld nicht zuverlässig erfassen. Für Berechnungen im reaktiven Nahfeld, also für Abstände $d \le \frac{\lambda}{2\pi}$, sind daher in der Regel numerische Simulationen erforderlich. Mit Einschränkungen (nicht bei magnetischen Antennen, nicht bei sehr kurzen Antennen) sind die Ergebnisse auch im strahlenden Nahfeld brauchbar.
+Cela est dû au fait que seul dans le champ lointain, les vecteurs de l'intensité de champ électrique ($E$) et de l'intensité de champ magnétique ($H$) présentent une relation de phase fixe et constante. Dans le champ proche réactif, en revanche, il peut y avoir localement des surélévations importantes tant du champ électrique que du champ magnétique. Ces effets ne peuvent pas être capturés de manière fiable avec les formules d'approximation pour le champ lointain. Pour les calculs dans le champ proche réactif, c'est-à-dire pour les distances $d \le \frac{\lambda}{2\pi}$, des simulations numériques sont généralement nécessaires. Avec certaines restrictions (pas pour les antennes magnétiques, pas pour les antennes très courtes), les résultats sont également utiles dans le champ proche rayonnant.
 
 <indepth>
-Das Fernfeld einer Strahlungsquelle, ist der Bereich, in dem die Vektoren der elektrischen Feldstärke ($E$), der magnetischen Feldstärke ($H$) senkrecht aufeinander stehen und keine Phasendifferenzen aufweisen. 
+Le champ lointain d'une source de rayonnement est le domaine dans lequel les vecteurs de l'intensité de champ électrique ($E$) et de l'intensité de champ magnétique ($H$) sont perpendiculaires entre eux et ne présentent pas de différences de phase. 
 
-Die Grenze zwischen Fernfeld und Nahfeld ist in erster Linie abhängig von der Wellenlänge. Das Fernfeld bildet sich, laut den [Erläuterungen zur BEMFV](https://50ohm.de/ebemfv), in einem Abstand von etwa $4\cdot\lambda$ aus. 
+La frontière entre le champ lointain et le champ proche dépend principalement de la longueur d’onde. Selon les [explications de la BEMFV](https://50ohm.de/ebemfv), le champ lointain se forme à une distance d'environ $4\cdot\lambda$. 
 
-Das Nahfeld unterteilt sich in das *reaktive* und das *strahlende Nahfeld*. Praktisch ist, dass im strahlenden Nahfeld trotzdem die Formel für das Fernfeld verwendet werden kann. Das liegt daran, dass die Näherungsformel hier sehr konservative Abschätzungen liefert, das heißt die tatsächlichen Feldstärken sind geringer als die errechneten. Man ist auf der sicheren Seite. 
-  
-Mit der Formel $ d > \frac{\lambda}{2\pi} $ stellen wir also sicher, dass wir außerhalb des *reaktiven Nahfelds* sind.
+Le champ proche se divise en le champ proche *réactif* et le champ proche *rayonnant*. En pratique, dans le champ proche rayonnant, la formule pour le champ lointain peut toujours être utilisée. Cela est dû au fait que la formule d'approximation fournit ici des estimations très conservatrices, c'est-à-dire que les intensités de champ réelles sont inférieures à celles calculées. On est du côté de la sécurité. 
+
+Avec la formule $ d > \frac{\lambda}{2\pi} $, nous nous assurons donc que nous sommes en dehors du *champ proche réactif*.
 </indepth>
 
-%TODO Applet basteln: https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-wellen/versuche/dipolstrahlung-animation
+%TODO Applet créer : https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-wellen/versuche/dipolstrahlung-animation
 
-Auf diesen Sachverhalt zielt die folgende Frage ab:
+Le fait suivant est visé par la question suivante :
 
 [question:EK105]
 
-Für $\qty{3,5}{\mega\hertz}$ beginnt das Fernfeld (strahlendes Nahfeld) erst bei $\qty{13,64}{\meter}$.
+Pour $\qty{3,5}{\mega\hertz}$, le champ lointain (champ proche rayonnant) ne commence qu'à $\qty{13,64}{\meter}$.
 
  $\begin{split} d &> \frac{\lambda}{2 \cdot \pi}\\ d &> \frac{\qty{85,7}{\meter}}{2 \cdot \pi}\\ d &> \qty{13,64}{\meter}\end{split}$
  
-Der mit $\qty{3,65}{\meter}$ ermittelte Abstand liegt deutlich im reaktiven Nahfeld und ist deshalb ungültig. Statt der Näherungsformel für das Fernfeld muss eine andere Methode gewählt werden. In Frage kommen Messungen der E- und H-Feldanteile, Simulations- oder Nahfeldberechnungen.
+La distance de $\qty{3,65}{\meter}$ déterminée se situe clairement dans le champ proche réactif et est donc invalide. Au lieu de la formule d'approximation pour le champ lointain, une autre méthode doit être choisie. Les mesures des composantes des champs E et H, les simulations ou les calculs du champ proche sont envisageables.
 
-Damit die folgende Frage beantwortet werden kann, muss berechnet werden wo das Fernfeld (strahlendes Nahfeld) für das $\qty{160}{\meter}$- und $\qty{80}{\meter}$-Band beginnt.
+Pour que la question suivante puisse être répondue, il faut calculer où commence le champ lointain (champ proche rayonnant) pour la bande de $\qty{160}{\meter}$ et de $\qty{80}{\meter}$.
 
 [question:EK106]
 
-Für $\qty{160}{\meter}$ gilt: $d > \frac{\qty{160}{\meter}}{2\pi} = \qty{25,5}{\meter}$
+Pour $\qty{160}{\meter}$, on a : $d > \frac{\qty{160}{\meter}}{2\pi} = \qty{25,5}{\meter}$
  
-Für $\qty{80}{\meter}$ gilt: $d > \frac{\qty{80}{\meter}}{2\pi} = \qty{12,7}{\meter}$
+Pour $\qty{80}{\meter}$, on a : $d > \frac{\qty{80}{\meter}}{2\pi} = \qty{12,7}{\meter}$
 
-Die Berechnung ist ungültig, wenn die Entfernung für $\qty{160}{\meter}$ kleiner als $\qty{25,5}{\meter}$ und für $\qty{80}{m}$ kleiner als $\qty{12,7}{\meter}$ ist.
+Le calcul est invalide si la distance pour $\qty{160}{\meter}$ est inférieure à $\qty{25,5}{\meter}$ et pour $\qty{80}{m}$ inférieure à $\qty{12,7}{\meter}$.
 
 %%%%
 
-In der folgenden Frage muss nun erstmals ein richtiger Sicherheitsabstand berechnet werden. 
+Dans la question suivante, une distance de sécurité correcte doit être calculée pour la première fois. 
 
 [question:EK108]
 
-Zunächst müssen wir die Strahlungsleistung in $P_\textrm{EIRP}$ berechnen. Außerdem fällt uns auf, dass der Antennengewinn in $\unit{\dBd}$ angegeben ist. Hierzu nutzen wir wieder die Formel aus der Formelsammlung:
+Tout d'abord, nous devons calculer la puissance de rayonnement en $P_\textrm{EIRP}$. De plus, nous remarquons que le gain d'antenne est donné en $\unit{\dBd}$. À cet effet, nous utilisons à nouveau la formule du recueil de formules :
 
 $P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_d-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{100}{W} \cdot 10^{\frac{\qty{7,5}{\dBd}-\qty{1,5}{\dB}+\qty{2,15}{\dB}}{\qty{10}{\dB}}} \approx \qty{653}{\watt}$
 
-Die Summe der Gewinne und Dämpfungen des gesamten Antennensystems ist der Antennengewinn von $\qty{7,5}{\dBd}$, abzüglich der Kabeldämpfung von $\qty{1,5}{\dB}$ und plus der Gewinn von $\qty{2,15}{\dBi}$ für den isotropen Strahler (der Antennengewinn bezieht sich auf den Dipol).
+La somme des gains et des atténuations de l'ensemble du système d'antenne est le gain d'antenne de $\qty{7,5}{\dBd}$, moins l'atténuation du câble de $\qty{1,5}{\dB}$ et plus le gain de $\qty{2,15}{\dBi}$ pour le rayonnement isotrope (le gain d'antenne se réfère au dipôle).
 
-Alternativ können wir, wie schon in den vorherigen Kapiteln, für die Gewinne und die Dämpfung die jeweiligen Faktoren ermittelt werden.
-$\qty{7,5}{\dB} - \qty{1,5}{dB} = \qty{6}{\dB}$, das entspricht einem Faktor von $\num{4}$. Der Faktor für $\qty{2,15}{\dBi}$ ist $\num{1,64}$.
+En variante, comme dans les chapitres précédents, nous pouvons déterminer les facteurs respectifs pour les gains et l'atténuation.
+$\qty{7,5}{\dB} - \qty{1,5}{dB} = \qty{6}{\dB}$, ce qui correspond à un facteur de $\num{4}$. Le facteur pour $\qty{2,15}{\dBi}$ est $\num{1,64}$.
 
 $P_\textrm{EIRP} = \qty{100}{\watt} \cdot 4 \cdot 1,64 = \qty{656}{\watt}$
 
 ---
 
-Die Ergebnisse der beiden Rechenwege sollten eigentlich gleich sein. Sie weichen aber etwas voneinander ab. Das ist das Ergebnis von Rundungen bei den beiden Faktoren. Die gerundet berechnete Leistung ist aber ausreichend genau, um die Frage korrekt zu lösen. Wir setzen also diesen Wert in die Abstandsformel ein:
+Les résultats des deux méthodes de calcul devraient être identiques. Cependant, ils diffèrent légèrement l'un de l'autre. Cela est dû aux arrondis des deux facteurs. La puissance calculée de manière arrondie est cependant suffisamment précise pour résoudre correctement la question. Nous utilisons donc cette valeur dans la formule de distance :
 
 $ d = \frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{E} = \frac{\sqrt{\qty{30}{\ohm}\cdot \qty{656}{\watt}}}{\qty{28}{\volt\per\meter}} \approx \qty{5}{\meter}  $
 
-Der Sicherheitsabstand von $\qty{5}{\meter}$ wurde mit der Formel für das Fernfeld ermittelt. Deshalb ist er nur dann gültig, wenn der er auch im Fernfeld (bzw. strahlenden Nahfeld) liegt. Das wie oben schnell geprüft werden.
+La distance de sécurité de $\qty{5}{\meter}$ a été déterminée avec la formule pour le champ lointain. Elle n'est donc valable que si elle se situe également dans le champ lointain (ou champ proche rayonnant). Cela peut être rapidement vérifié comme ci-dessus.
 
 $\begin{split} d &> \frac{\lambda}{2\pi}\\ d &> \frac{\qty{10}{\meter}}{2\pi}\\ d &> \qty{1,6}{\meter} \end{split}$
 
-Der berechnete Sicherheitsabstand von $\qty{5}{\meter}$ ist größer als $\qty{1,6}{\meter}$ und liegt eindeutig im Fernfeld (bzw. strahlenden Nahfeld). Die Berechnung ist damit gültig. Die richtige Antwort ist $\qty{5}{\meter}$.
+La distance de sécurité calculée de $\qty{5}{\meter}$ est supérieure à $\qty{1,6}{\meter}$ et se situe clairement dans le champ lointain (ou champ proche rayonnant). Le calcul est donc valable. La bonne réponse est $\qty{5}{\meter}$.
 
 <indepth>
-In der Tabelle steht für $\qty{6}{\dB}$ ein Faktor von $\num{4}$. Das ist ein gerundeter Wert und beträgt eigentlich $\num{3,981071706}$. Deshalb kommt es zum Rundungsfehler.
+Dans le tableau, un facteur de $\num{4}$ est indiqué pour $\qty{6}{\dB}$. Il s'agit d'une valeur arrondie et qui est en réalité de $\num{3,981071706}$. C'est pourquoi il y a une erreur d'arrondi.
 </indepth>

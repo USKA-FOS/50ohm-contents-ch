@@ -1,152 +1,152 @@
-## Symmetrie
+## Symétrie
 
-* Mittengespeiste Dipole sind *symmetrische Antennen*
-* Weist an beiden Polen (z.B. den Einspeisepunkten) bis auf das Vorzeichen die gleiche Spannung gegenüber Erde auf
-* Bei Dipolen und darauf basierenden Yagi-Uda-Antennen der Fall
-* Die Groundplane-Antenne ist *unsymmetrisch*, da sie am Anschlusspunkt der Radiale Erdpotential hat
+* Dipôles alimentés au centre sont des *antennes symétriques*
+* Présente au niveau des deux pôles (par exemple les points d'alimentation) la même tension par rapport à la terre, à l'exception du signe
+* Cas des dipôles et des antennes Yagi-Uda basées sur ceux-ci
+* L'antenne Groundplane est *asymétrique*, car elle a le potentiel de terre au point de connexion des radiales
 
 <note>
-* Erdpotential: Spannung von Null gegenüber der Erde
-* Symmetrische und unsymmetrische Kabel kommen später bei den Kabeln dran
+* Potentiel de terre : tension de zéro par rapport à la terre
+* Les câbles symétriques et asymétriques seront abordés plus tard dans les câbles
 </note>
 ---
 [question:EG213]
 ---
-## Schleifenantennen
+## Antennes en boucle
 
-* Draht von insgesamt etwa einer Wellenlänge
-* In Form eines Kreises, Quadrats, Dreiecks, …
-* Beliebt: Delta-Loop-Antenne in Form eines Delta (Δ), da nur ein Mast benötigt wird
+* Fil d'une longueur totale d'environ une longueur d’onde
+* En forme de cercle, de carré, de triangle, …
+* Populaire : antenne Delta-Loop en forme de delta (Δ), car seul un mât est nécessaire
 
 ---
 [question:EG101]
 ---
 ## Magnetic-Loop
 
-* Magnetische Ringantenne, da Abstrahlung im Nahfeld über das Magnetfeld erfolgt
-* Ca. $\frac{\lambda}{10}$ Umfang
-* Wirkungsgrad bei $\qtyrange{1}{10}{\percent}$ im Sendebetrieb
-* Weniger Störungen bei elektrisch leitfähigen oder dämpfenden Gegenständen im Nahfeld
+* Antenne annulaire magnétique, car le rayonnement dans le champ proche se fait par l'intermédiaire du champ magnétique
+* Circonférence d'environ $\frac{\lambda}{10}$
+* Rendement de $\qtyrange{1}{10}{\percent}$ en mode émission
+* Moins de perturbations en présence d'objets conducteurs d'électricité ou amortissants dans le champ proche
 
 <note>
-* Einsatz im Innenraum möglich
-* Trotzdem sollte man bei dem starken magnetische Feld nicht direkt daneben sitzen
+* Utilisation possible en intérieur
+* Néanmoins, il ne faut pas s'asseoir directement à côté du champ magnétique intense
 </note>
 ---
 [question:EG105]
 ---
-## Endgespeiste Antennen
+## Antennes alimentées en bout
 
-* Speisung vom Ende her
-* Länge häufig $\frac{\lambda}{2}$
-* Benötigt eine höhere Spannung
+* Alimentation par l'extrémité
+* Longueur souvent de $\frac{\lambda}{2}$
+* Nécessite une tension plus élevée
 
 ---
-### Fuchs-Antenne
+### Antenne Fuchs
 <left>
-* Verwendung eines Anpassglieds (Transformator)
-* Oft verwendet: Fuchskreis
+* Utilisation d'un élément d'adaptation (transformateur)
+* Souvent utilisé : circuit Fuchs
 </left>
 <right>
-[picture:310:e_antennenformen_fuchskreis:Schematische Darstellung einer Fuchs-Antenne mit Fuchskreis]
+[picture:310:e_antennenformen_fuchskreis:Représentation schématique d'une antenne Fuchs avec circuit Fuchs]
 </right>
 
 <note>
-* Nach Dr. Josef Fuchs (OE1JF, UO1JF und EAAA) aus dem Jahr 1927
+* Selon le Dr. Josef Fuchs (OE1JF, UO1JF et EAAA) de l'année 1927
 </note>
 ---
 [question:EG104]
 ---
 [question:EG103]
 ---
-## Richtwirkung
+## Directivité
 
-* Darstellung als *Strahlungsdiagramm*
-* Für eine Ebene wird in jede Richtung der Gewinn bzw. Feldstärke oder Strahlungsleistung aufgetragen
-* Je weiter der Graphenverlauf vom Mittelpunkt entfernt ist, umso größer der Gewinn bzw. umso höher die Feldstärke und Strahlungsleistung im Fernfeld
-* Oft wird Antenne mit darin dargestellt
+* Représentation par un *diagramme de rayonnement*
+* Pour un plan, le gain ou l'intensité de champ ou la puissance rayonnée est tracé dans chaque direction
+* Plus le tracé du graphique est éloigné du centre, plus le gain est élevé ou plus l'intensité de champ et la puissance rayonnée dans le champ lointain sont élevées
+* Souvent, l'antenne y est représentée
 
 ---
-### Richtwirkung eines Dipols
+### Directivité d'un dipôle
 
 <left>
-* Strahlt rechtwinklig vom Draht ab
-* In einer Ebene betrachtet ergeben sich Keulen neben dem Dipol
-* Ein vertikaler Dipol strahlt rund herum ab
+* Rayonne perpendiculairement au fil
+* Dans un plan, des lobes se forment à côté du dipôle
+* Un dipôle vertical rayonne tout autour
 </left>
 <right>
-[picture:261:e_antennenformen_strahlungsdiagramm_dipol:Strahlungsdiagramm eines Dipols]
+[picture:261:e_antennenformen_strahlungsdiagramm_dipol:Diagramme de rayonnement d'un dipôle]
 </right>
 ---
 [question:EG215]
 ---
 [question:EG214]
 ---
-### Vertikaler Halbwellendipol
+### Dipôle demi-onde vertical
 
-* Ein vertikal montierter Halbwellendipol hat eine flache Abstrahlung
-* Beliebt im DX-Betrieb oder Kontakten über Direkt- oder Bodenwelle
+* Un dipôle demi-onde monté verticalement a un rayonnement plat
+* Populaire dans le trafic DX ou les contacts par onde directe ou onde de sol
 
 ---
 [question:EG219]
 ---
-### 5/8$\lambda$-Antenne
+### Antenne 5/8$\lambda$
 
-* Gegen Erde oder Fahrzeugkarosserie erregte 5/8$\lambda$-Antenne
-* Spezialfall einer Vertikalantenne
-* Die Länge ist so gewählt, damit sich ein optimaler Gewinn ergibt
+* Antenne 5/8$\lambda$ excitée par rapport à la terre ou à la carrosserie du véhicule
+* Cas particulier d'une antenne verticale
+* La longueur est choisie de manière à obtenir un gain optimal
 
 ---
 [question:EG108]
 ---
-### Groundplane-Antenne
+### Antenne Groundplane
 
 <left>
-* Strahlt rechtwinklig zum Strahler ab
-* Strahlungsdiagramm wird von oben betrachtet
-* Nahezu ein Rundstrahler, bis auf den Bereich der Radiale
+* Rayonne perpendiculairement au rayonneur
+* Le diagramme de rayonnement est observé de dessus
+* Presque un rayonneur omnidirectionnel, à l'exception de la zone des radiales
 </left>
 <right>
-[picture:268:e_antennenformen_strahlungsdiagramm_groundplane:Strahlungsdiagramm einer Groundplane-Antenne von oben betrachtet]
+[picture:268:e_antennenformen_strahlungsdiagramm_groundplane:Diagramme de rayonnement d'une antenne Groundplane vue de dessus]
 </right>
 <note>
-* Die Beulen der Groundplane sind in der Praxis nicht so stark wie auf der Grafik dargestellt
+* Les bosses de la Groundplane ne sont pas aussi prononcées dans la pratique que sur le graphique
 </note>
 ---
 [question:EG216]
 ---
-### Richtantenne
+### Antenne directionnelle
 
 <left>
-* Gewinn ist in eine Richtung deutlich höher als in andere Richtungen
+* Le gain est nettement plus élevé dans une direction que dans les autres directions
 </left>
 <right>
-[picture:262:e_antennenformen_strahlungsdiagramm_richtantenne:Strahlungsdiagramm einer Richtantenne]
+[picture:262:e_antennenformen_strahlungsdiagramm_richtantenne:Diagramme de rayonnement d'une antenne directionnelle]
 </right>
 ---
 [question:EG217]
 ---
-## Antennen für UHF/VHF/SHF
+## Antennes pour UHF/VHF/SHF
 
 <left>
-* Nur für hohe Frequenzen geeignet
-* Im Kurzwellenbereich unüblich, da sie unhandliche Größen erreichen würden
+* Adaptées uniquement aux hautes fréquences
+* Peu courantes dans la bande des ondes courtes, car elles atteindraient des dimensions peu pratiques
 </left>
 <right>
-* Hornstrahler
-* Parabolantennen
-* Patchantennen auf Leiterplatten
-* Sperrtopfantenne
+* Cornes rayonnantes
+* Antennes paraboliques
+* Antennes patch sur des circuits imprimés
+* Antenne à sommet de blocage
 </right>
 <note>
-* Antennen werden nur genannt, da sie in der nächsten Prüfungsfrage für den Ausschluss geeignet sind
+* Les antennes ne sont mentionnées que parce qu'elles conviennent pour l'exclusion dans la question d'examen suivante
 </note>
 
 ---
-## Weitere Antennen für Kurzwelle
+## Autres antennes pour les ondes courtes
 
-* Die *Windom-Antenne* ist eine Mehrbandantenne, die aufgrund zwei unterschiedlich langer Schenkel eine Anpassung für mehrere Frequenzen erlaubt
-* Die *W3DZZ-Antenne* ist ein Dipol für $\qty{40}{\meter}$ und $\qty{80}{\meter}$, deren Enden sich durch Sperrkreise bei $\qty{40}{\meter}$ verkürzen
+* L'*antenne Windom* est une antenne multibande qui permet une adaptation pour plusieurs fréquences en raison de deux branches de longueurs différentes
+* L'*antenne W3DZZ* est un dipôle pour $\qty{40}{\meter}$ et $\qty{80}{\meter}$, dont les extrémités sont raccourcies par des circuits bouchons à $\qty{40}{\meter}$
 
 ---
 [question:EG106]

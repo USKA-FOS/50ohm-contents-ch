@@ -1,21 +1,21 @@
-* Genauso wie es verschiedene analoge Modulationsverfahren gibt, gibt es auch verschiedene digitale Modulationsverfahren.
-* Die grundlegenden Möglichkeiten ein Signal zu modulieren, also auf einen Hochfrequenzträger aufzuprägen, sind dieselben: Veränderung der Amplitude, der Frequenz oder der Phase des Trägers.
-* Beim unmodulierten Träger hingegen bleiben Amplitude, Frequenz und Phasenlage konstant.
+* Tout comme il existe différents procédés de modulation analogique, il existe également différents procédés de modulation numérique.
+* Les possibilités fondamentales de moduler un signal, c'est-à-dire de l'appliquer à une porteuse haute fréquence, sont les mêmes : modification de l'amplitude, de la fréquence ou de la phase de la porteuse.
+* Dans le cas de la porteuse non modulée, en revanche, l'amplitude, la fréquence et la position de phase restent constantes.
 
 ---
 
-* Bei der Amplitudenumtastung (Amplitude Shift Keying, ASK) wird im einfachsten Fall zwischen zwei Amplituden gewechselt.
+* Dans le cas de la modulation par déplacement d'amplitude (Amplitude Shift Keying, ASK), on passe dans le cas le plus simple entre deux amplitudes.
 
 <fragment>
-[picture:700:ask:Amplitudenumtastung (Amplitude-shift Keying)]
+[picture:700:ask:Modulation par déplacement d'amplitude (Amplitude-shift Keying)]
 </fragment>
 
 ---
 
-* Bei der Frequenzumtastung (Frequency Shift Keying, FSK) wechselt der Sender zwischen bestimmten Frequenzen.
+* Dans le cas de la modulation par déplacement de fréquence (Frequency Shift Keying, FSK), l'émetteur passe entre certaines fréquences.
 
 <fragment>
-[picture:703:fsk:Frequenzumtastung (Frequency-shift Keying)]
+[picture:703:fsk:Modulation par déplacement de fréquence (Frequency-shift Keying)]
 </fragment>
 
 ---

@@ -1,50 +1,49 @@
-Die Speisung einer Antenne erfolgt immer mit einer Spannung und einem Strom, die zu einander in einem bestimmten Verhältnis stehen. Dieses Verhältnis wird als Speisewiderstand bezeichnet.
+L'alimentation d'une antenne se fait toujours avec une tension et un courant qui sont dans un certain rapport l'un par rapport à l'autre. Ce rapport est appelé impédance d'alimentation.
 
-Damit eine Leistung abgegeben werden kann, müssen immer Spannung *und* Strom vorhanden sein, denn die Leistung ergibt sich aus der Multiplikation von Spannung und Strom. Wäre entweder die Spannung oder der Strom Null, dann gäbe es auch keine Leistungsabgabe bzw. -aufnahme.
+Pour qu'une puissance puisse être fournie, il faut toujours qu'il y ait une tension *et* un courant, car la puissance résulte de la multiplication de la tension et du courant. Si la tension ou le courant est nul, il n'y a pas de puissance fournie ou reçue.
 
-Dennoch sprechen wir bei bestimmten Antennen von *stromgespeisten* Antennen und bei bestimmten anderen Antennen von *spannungsgespeisten* Antennen. Damit ist gemeint, dass bei bestimmten Antennen ein hoher Strom bei vergleichsweise geringer Spannung am Speisepunkt vorliegt, oder eine hohe Spannung bei vergleichsweise geringem Strom.
-
+Cependant, nous parlons de certaines antennes comme étant des antennes *alimentées par le courant* et d'autres comme étant des antennes *alimentées par la tension*. Cela signifie que pour certaines antennes, un courant élevé est présent au point d'alimentation avec une tension relativement faible, ou une tension élevée avec un courant relativement faible.
 
 ---
 
-Bei einem Halbwellendipol hängt der Speisewiderstand davon ab, wo die Einspeisung erfolgt. Dies liegt daran, dass beim Dipol die Ladungsträger hin- und herschwingen und dabei in der Mitte besonders viele Ladungsträger bewegt werden, was wir als Strombauch bezeichnen, und an den Enden besonders hohe Spannungen entstehen, was wir als Spannungsbauch bezeichnen. Dort wo keine Ladungen bewegt werden sprechen wir von einem Stromknoten, und dort wo die Spannung Null ist sprechen wir von einem Spannungsknoten. Die Abbildung [ref:e_strom_spannung_speisung_dipol] zeigt die Strom und Spannungsverteilung auf dem Dipol. 
+Pour un dipôle demi-onde, l'impédance d'alimentation dépend de l'endroit où l'alimentation est effectuée. Cela est dû au fait que dans le dipôle, les porteurs de charge oscillent et que, au milieu, un grand nombre de porteurs de charge sont déplacés, ce que nous appelons un ventre de courant, et qu'aux extrémités, des tensions particulièrement élevées se produisent, ce que nous appelons un ventre de tension. Là où aucune charge n'est déplacée, nous parlons d'un nœud de courant, et là où la tension est nulle, nous parlons d'un nœud de tension. La figure [ref:e_strom_spannung_speisung_dipol] montre la distribution du courant et de la tension sur le dipôle. 
 
 [question:EG203]
 
 <margin>
-[picture:787:e_strom_spannung_speisung_dipol:Halbwellendipol mit Spannungs- und Stromverteilung]
+[picture:787:e_strom_spannung_speisung_dipol:Dipôle demi-onde avec distribution de tension et de courant]
 </margin>
 
 ---
 
-Speisen wir einen Halbwellendipol also in der Mitte, so müssen viele Ladungen bewegt werden und wir sprechen von einer stromgespeisten Antenne (niedriger Speisewiderstand). Ein endgespeister Halbwellendipol hingegen ist eine spannungsgespeiste Antenne (hoher Speisewiderstand). Für die Speisung am Ende, wie in Abbildung [ref:e_strom_spannung_speisung_dipol_ende] gezeigt, ist ein Anpassglied erforderlich. Das werden wir erst im HB9-Teil genauer besprechen. 
+Si nous alimentons donc un dipôle demi-onde au milieu, de nombreuses charges doivent être déplacées et nous parlons d'une antenne alimentée par le courant (basse impédance d'alimentation). Un dipôle demi-onde alimenté à l'extrémité, en revanche, est une antenne alimentée par la tension (haute impédance d'alimentation). Pour l'alimentation à l'extrémité, comme le montre la figure [ref:e_strom_spannung_speisung_dipol_ende], un élément d'adaptation est nécessaire. Nous en discuterons plus en détail dans la partie HB9. 
 
 <margin>
-[picture:851:e_strom_spannung_speisung_dipol_ende:Halbwellendipol Endgespeist]
+[picture:851:e_strom_spannung_speisung_dipol_ende:Dipôle demi-onde alimenté à l'extrémité]
 </margin>
 
 ---
 
-Stromgespeiste Antennen weisen dementsprechend einen niedrigen und spannungsgespeiste Antennen einen hohen Widerstand auf.
+Les antennes alimentées par le courant présentent donc une faible résistance et les antennes alimentées par la tension une résistance élevée.
 
-Das lässt sich gut mithilfe des Ohmschen Gesetzes veranschaulichen:
+Cela peut être bien illustré à l'aide de la loi d'Ohm :
 
 $ R = \frac{U}{I} $
 
-Speist man einen Dipol in der Mitte, liegt dort eine vergleichsweise geringe Spannung bei gleichzeitig hohem Strom an. Der Quotient aus Spannung und Strom ist daher klein, der resultierende Widerstand entsprechend niedrig. Erfolgt die Speisung hingegen am Ende des Dipols, liegt dort eine hohe Spannung an, während der Strom gegen null geht. Dadurch wird der Quotient sehr groß, und der resultierende Widerstand nimmt entsprechend hohe Werte an.
+Si l'on alimente un dipôle au milieu, une tension relativement faible est présente là où le courant est simultanément élevé. Le quotient de la tension et du courant est donc petit, la résistance résultante étant en conséquence faible. Si l'alimentation est effectuée à l'extrémité du dipôle, une tension élevée est présente là où le courant tend vers zéro. Cela rend le quotient très grand, et la résistance résultante prend des valeurs très élevées.
 
-Bei niedrigen Widerständen sprechen wir auch von *niederohmigem* Verhalten ($\downarrow\unit{\ohm}$) und bei hohen Widerständen entsprechend von *hochohmigem* Verhalten  ($\uparrow\unit{\ohm}$).
+Pour les faibles résistances, nous parlons également de comportement *faible impédance* ($\downarrow\unit{\ohm}$) et pour les résistances élevées, de comportement *haute impédance* ($\uparrow\unit{\ohm}$).
 
 <indepth>
-Eine übliche Größenordnung für den *Speisewiderstand* einer stromgespeisten Antenne ist z. B. $\qty{36}{\ohm}$ bis $\qty{100}{\ohm}$ und bei spannungsgespeisten Antennen $\qty{1500}{\ohm}$ bis $\qty{4000}{\ohm}$.
+Un ordre de grandeur habituel pour l'*impédance d'alimentation* d'une antenne alimentée par le courant est par exemple $\qty{36}{\ohm}$ à $\qty{100}{\ohm}$ et pour les antennes alimentées par la tension $\qty{1500}{\ohm}$ à $\qty{4000}{\ohm}$.
 </indepth>
 
 ---
 
 <indepth>
-Die Stromverteilung auf einem Dipol hängt von der Frequenz ab, mit der die Antenne betrieben wird. Abbildung [ref:e_stromverteilungen] zeigt die Stromverteilung für ganzzahlige Vielfache der Grundfrequenz $f$ bei einem mittengespeisten Dipol. Dabei ist zu erkennen, dass bei geradzahligen Vielfachen der Grundfrequenz am Speisepunkt ein Stromknoten entsteht. In diesem Fall ist der Strom dort sehr klein, die Spannung hingegen hoch, und die Antenne erscheint am Speisepunkt hochohmig. Aus diesem Grund ist ein mittengespeister Dipol nur bei ungeraden ganzzahligen Vielfachen der Grundfrequenz resonant. Eine Nutzung mehrerer Bänder lässt sich erreichen, indem der Speisepunkt verlagert wird, etwa an einen der Strombäuche wie in Abbildung [ref:e_stromverteilungen]b (z. B. bei der Windom-Antenne) oder an das Antennenende (z. B. EFHW- oder Fuchsantenne). In diesen Fällen sind jedoch Anpassgeräte erforderlich, auf die wir erst im HB9-Teil näher eingehen werden.
+La distribution du courant sur un dipôle dépend de la fréquence à laquelle l'antenne est utilisée. La figure [ref:e_stromverteilungen] montre la distribution du courant pour des multiples entiers de la fréquence fondamentale $f$ dans un dipôle alimenté au milieu. On peut voir que pour les multiples pairs de la fréquence fondamentale, un nœud de courant se forme au point d'alimentation. Dans ce cas, le courant y est très faible, la tension est en revanche élevée, et l'antenne apparaît haute impédance au point d'alimentation. C'est pourquoi un dipôle alimenté au milieu n'est résonant qu'aux multiples entiers impairs de la fréquence fondamentale. L'utilisation de plusieurs bandes peut être réalisée en déplaçant le point d'alimentation, par exemple vers l'un des ventres de courant comme dans la figure [ref:e_stromverteilungen]b (par exemple dans le cas de l'antenne Windom) ou vers l'extrémité de l'antenne (par exemple antenne EFHW ou Fuchs). Dans ces cas, cependant, des dispositifs d'adaptation sont nécessaires, que nous aborderons plus en détail dans la partie HB9.
   
-[picture:1050:e_stromverteilungen:Stromverteilungen bei verschiedneen Grundfrequenzen]
+[picture:1050:e_stromverteilungen:Distributions de courant à différentes fréquences fondamentales]
 </indepth>
 
 [question:EG204]

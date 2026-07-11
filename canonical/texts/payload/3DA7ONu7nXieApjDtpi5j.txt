@@ -1,26 +1,26 @@
 <left>
-[photo:127:n_linkstrecken_db0fc:Wartungsarbeiten am HAMNET-Knoten DB0FC, im Vordergrund die Richtantenne für die Linkstrecke zu DB0BWL]
+[photo:127:n_linkstrecken_db0fc:Travaux de maintenance sur le nœud HAMNET DB0FC, à l'avant l'antenne directionnelle pour la liaison vers DB0BWL]
 </left>
 <right>
-* Fest eingerichtete Funkverbindung zwischen zwei Amateurfunkstellen
-* Automatisch arbeitende Station
-* Benötigt eigene Zulassung mit Rufzeichen durch BNetzA
+* Liaison radio fixe entre deux stations radioamateurs
+* Station fonctionnant automatiquement
+* Nécessite sa propre autorisation avec indicatif d'appel par la BNetzA
 </right>
 <note>
-* z.B. zwischen Relaisfunkstellen oder HAMNET-Knoten
+* Par exemple entre des stations relais ou des nœuds HAMNET
 </note>
 
 ---
-* Überträgt in der Regel Daten
-* Kann als analoge Brücke zwischen Relais dienen
-* Arbeitet meistens im $\unit{\giga\hertz}$-Bereich des Amateurfunk-Spektrums
-* Bilden zusammen das HAMNET (Highspeed Amateurradio Multimedia NET-work)
+* Transmet généralement des données
+* Peut servir de pont analogique entre relais
+* Fonctionne généralement dans la gamme des $\unit{\giga\hertz}$ du spectre radioamateur
+* Forme ensemble le HAMNET (Highspeed Amateurradio Multimedia NET-work)
 
 <note>
-* Teilweise WLAN-Router, bei denen die Frequenz etwas verändert wurde, um im Afu-$\qty{2,4}{\giga\hertz}$ oder $\qty{5}{\giga\hert}$ zu arbeiten
-* Höhere $\unit{\giga\hertz}$-Bänder mit mehr Bandbreite sind im Aufbau
-* Mehr als $\qty{100}{\kilo\meter}$ Linkstrecken möglich
-* Eventuell einen Blick auf die [HamnetDB-Karte](https://hamnetdb.net/map.cgi) werfen
+* En partie des routeurs WLAN dont la fréquence a été légèrement modifiée pour fonctionner dans le Afu-$\qty{2,4}{\giga\hertz}$ ou $\qty{5}{\giga\hert}$
+* Des bandes de $\unit{\giga\hertz}$ plus élevées avec une plus grande bande passante sont en cours de développement
+* Plus de $\qty{100}{\kilo\meter}$ de liaisons possibles
+* Peut-être jeter un coup d'œil sur la [carte HamnetDB](https://hamnetdb.net/map.cgi)
 </note>
 
 ---

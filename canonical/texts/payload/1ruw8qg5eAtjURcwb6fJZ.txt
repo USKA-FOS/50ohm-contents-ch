@@ -1,37 +1,37 @@
-### Halbleiter-Dioden in Modulatoren
+### Semi-conducteurs à diodes dans les modulateurs
 
-* Bisher als Gleichrichter bekannt
-* NF-Spannung ändert den Diodenwiderstand
-* NF-Signal steuert den Diodenstrom
-* HF-Signal wird im Takt des NF-Signals moduliert
-* Einfachste Variante hat einen Träger und zwei Seitenbänder
+* Connu jusqu'à présent comme redresseur
+* La tension audio change la résistance de la diode
+* Le signal audio commande le courant de la diode
+* Le signal HF est modulé au rythme du signal audio
+* La variante la plus simple a une porteuse et deux bandes latérales
 
 ---
-### Diode im Amplitudenmodulator
+### Diode dans le modulateur d'amplitude
 <left>
 [picture:772:a_modulatoren_am_modulator:AM-Modulator]
 </left>
 <right>
-* Eine Diode wird gleichzeitig mit einem NF- und HF-Signal beaufschlagt
-* Ein LC-Schwingkreis filtert das Ausgangssignal
+* Une diode est alimentée simultanément avec un signal audio et un signal HF
+* Un circuit oscillant LC filtre le signal de sortie
 </right>
 
 ---
 [question:AD507]
 
 ---
-### Balancemischer zur Trägerunterdrückung
-* Vier Dioden in Ring-Anordnung unterdrücken den Träger
-* Eine Gegentakt-Schaltung hebt Trägersignale auf
-* Es bleiben nur die Seitenbänder übrig
-* Bereits im Kapitel "Mischer II" als Balancemischer gezeigt
+### Mélangeur équilibré pour la suppression de la porteuse
+* Quatre diodes en arrangement annulaire suppriment la porteuse
+* Un circuit push-pull annule les signaux porteurs
+* Il ne reste que les bandes latérales
+* Déjà montré dans le chapitre "Mélangeur II" comme mélangeur équilibré
 
 ---
-### Balancemodulator im SSB-Modulator
-* Der Balancemodulator erzeugt ein Doppelseitenband-Signal (DSB)
-* Ein Bandpassfilter lässt nur ein Seitenband durch
-* Daraus entsteht ein SSB-Signal
-* Zwei Stufen sind notwendig
+### Modulateur équilibré dans le modulateur SSB
+* Le modulateur équilibré produit un signal à double bande latérale (DSB)
+* Un filtre passe-bande ne laisse passer qu'une bande latérale
+* Cela crée un signal SSB
+* Deux étapes sont nécessaires
  
 ---
 [question:AE206]
@@ -40,57 +40,57 @@
 [question:AF302]
 
 ---
-### Erkennung eines Balancemischers
+### Identification d'un mélangeur équilibré
 <left>
-[picture:759:a_modulatoren_dsb:Modulator für AM-Signale mit unterdrücktem Träger]
+[picture:759:a_modulatoren_dsb:Modulateur pour signaux AM avec porteuse supprimée]
 </left>
 <right>
-* Ein Dioden-Ring kennzeichnet den Balancemischer
-* Es gibt keine vollständige Gegentaktanregung
-* Ein Transformator liefert das Äquivalent zu einer Mittelanzapfung
+* Un anneau de diodes caractérise le mélangeur équilibré
+* Il n'y a pas d'excitation push-pull complète
+* Un transformateur fournit l'équivalent d'une prise centrale
 </right>
 
 ---
 [question:AF308]
 
 <note>
-* NF-Modulation wird in den Brückenzweig zwischen T2-Mittelanzapfung und Masse eingespeist
-* Das Oszillator-Signal wird über T1 in den Diodenring eingespeist
-* Das DSB-Signal wird über T2 ausgekoppelt
-* Ohne Modulation liegen die Spannungsteiler auf Masse
-* So wird der Träger unterdrückt
-* Mit Modulation verschiebt sich das Potential und Strom fließt in T2
-* Das Ausgangssignal entsteht
+* La modulation audio est injectée dans la branche du pont entre la prise centrale de T2 et la masse
+* Le signal de l'oscillateur est injecté dans l'anneau de diodes via T1
+* Le signal DSB est découplé via T2
+* Sans modulation, les diviseurs de tension sont à la masse
+* Ainsi, la porteuse est supprimée
+* Avec modulation, le potentiel se déplace et le courant circule dans T2
+* Le signal de sortie est généré
 </note>
 
 ---
-### Trägerunterdrückung und Ausbalancierung
+### Suppression de la porteuse et équilibrage
 
-* Trägerunterdrückung bewirkt die Auslöschung unerwünschter Signale
-* Die Modulator-Schaltung muss ausbalanciert sein
+* La suppression de la porteuse provoque l'annulation des signaux indésirables
+* Le circuit du modulateur doit être équilibré
 
 ---
 [question:AD510]
 
 ---
-### Justierung im Modulator
+### Réglage dans le modulateur
 
 <left>
-[picture:762:a_modulatoren_rc_traegerunterdrueckung:$R_1$ und $C_1$ zur Einstellung der Trägerunterdrückung nach Betrag und Phase]
+[picture:762:a_modulatoren_rc_traegerunterdrueckung:$R_1$ et $C_1$ pour le réglage de la suppression de la porteuse en amplitude et en phase]
 </left>
 <right>
-* Amplituden werden mit Potis justiert
-* Phasen werden mit C-Trimmern eingestellt
+* Les amplitudes sont ajustées avec des potentiomètres
+* Les phases sont réglées avec des condensateurs de réglage
 </right>
 
 ---
 [question:AF309]
 
 ---
-### Symmetrierung im Modulator
+### Équilibrage dans le modulateur
 
-* Der Modulator wird symmetriert um den Träger zu unterdrücken
-* Die Modulations-Seitenbänder bleiben erhalten
+* Le modulateur est équilibré pour supprimer la porteuse
+* Les bandes latérales de modulation restent conservées
 
 ---
 [question:AF304]
@@ -99,30 +99,30 @@
 [question:AF303]
 
 ---
-### Zweite Stufe des SSB-Modulators
+### Deuxième étape du modulateur SSB
 
 <left>
-[picture:98:a_modulatoren_blockschaltbild_sender:Blockschaltbild eines Senders]
+[picture:98:a_modulatoren_blockschaltbild_sender:Schéma bloc d'un émetteur]
 </left>
 <right>
-* Hinter dem Balancemodulator folgt die zweite Stufe
-* Durch Filterung wird das gewünschte Seitenband gewählt
+* Après le modulateur équilibré suit la deuxième étape
+* Par filtrage, la bande latérale souhaitée est choisie
 </right>
 
 ---
 [question:AF305]
 
 ---
-### Quarz-Frequenz und Seitenbandlage
+### Fréquence du quartz et position de la bande latérale
 
 <left>
-[picture:500:a_modulatoren_quarzfilter:Quarzfilter zur Auswahl des Seitenbands]
+[picture:500:a_modulatoren_quarzfilter:Filtre à quartz pour la sélection de la bande latérale]
 </left>
 <right>
-* Quarze bestimmen die Frequenz des unterdrückten Trägers
-* Beim LSB liegt der Träger $\qty{1,5}{\kilo\hertz}$ über der $\qty{9}{\mega\hertz}$-Mitte
-* Bei maximal $\qty{3}{\kilo\hertz}$ NF liegt das LSB $\qty{1,5}{\kilo\hertz}$ unter der Mitte
-* Für das USB gilt das umgekehrt
+* Les quartz déterminent la fréquence de la porteuse supprimée
+* Pour le LSB, la porteuse est $\qty{1,5}{\kilo\hertz}$ au-dessus du centre de $\qty{9}{\mega\hertz}$
+* Pour une NF maximale de $\qty{3}{\kilo\hertz}$, le LSB est $\qty{1,5}{\kilo\hertz}$ en dessous du centre
+* Pour le USB, c'est l'inverse
 </right>
 
 ---
@@ -131,62 +131,62 @@
 ---
 [question:AF307]
 ---
-#### Lösungsweg
-* gegeben: $f_Q = \qty{9}{\mega\hertz}$
-* gegeben: $f_{LSB} = \qty{9,0015}{\mega\hertz}$
-* gesucht: $f_{USB}$
+#### Solution
+* donné: $f_Q = \qty{9}{\mega\hertz}$
+* donné: $f_{LSB} = \qty{9,0015}{\mega\hertz}$
+* recherché: $f_{USB}$
 
 <fragment>
 $\begin{split}f_{USB} &= f_Q - (f_{LSB} - f_Q)\\ &= \qty{9}{\mega\hertz} - (\qty{9,0015}{\mega\hertz} - \qty{9}{\mega\hertz})\\ &= \qty{9}{\mega\hertz} - \qty{0,0015}{\mega\hertz}\\ &=\qty{8,9985}{\mega\hertz}\end{split}$ 
 </fragment>
 
 ---
-### Kapazitäts-Dioden in FM-Modulatoren
+### Diodes à capacité variable dans les modulateurs FM
 
 <left>
-[picture:155:a_modulatoren_fm_modulator:FM-Modulator mit Varicap]
+[picture:155:a_modulatoren_fm_modulator:Modulateur FM avec varicap]
 </left>
 <right>
-* FM-Modulatoren nutzen Kapazitäts-Dioden
-* Die Diode ist Teil eines Oszillator-Schwingkreises
-* Die Sperrspannung stellt eine feste Dioden-Kapazität ein
-* Ein NF-Signal ändert die Oszillator-Frequenz im Takt
+* Les modulateurs FM utilisent des diodes à capacité variable
+* La diode fait partie d'un circuit oscillant d'oscillateur
+* La tension de blocage établit une capacité de diode fixe
+* Un signal audio change la fréquence de l'oscillateur au rythme
 </right>
 
 ---
 [question:AD508]
 
 ---
-### Einfluss der Kapazitäts-Diode
+### Influence de la diode à capacité variable
 
 <left>
-[picture:158:a_modulatoren_fm_varicap:Varicap zur Beeinflussung Oszillator-Frequenz]
+[picture:158:a_modulatoren_fm_varicap:Varicap pour influencer la fréquence de l'oscillateur]
 </left>
 <right>
-* Die Kapazitäts-Diode beeinflusst die Oszillator-Frequenz
-* Sie ist parallel zum Schwingkreis geschaltet
+* La diode à capacité variable influence la fréquence de l'oscillateur
+* Elle est connectée en parallèle au circuit oscillant
 </right>
 
 ---
 [question:AF310]
 
 ---
-### FM-Hub-Begrenzung
-* Hohe NF-Spannungen führen zu übermäßigen Frequenzänderungen
-* Eine Hub-Begrenzung ist notwendig
-* Anti-parallel geschaltete Dioden begrenzen die Spannung auf die Knickspannung
+### Limitation de la déviation de fréquence FM
+* Les tensions audio élevées entraînent des changements de fréquence excessifs
+* Une limitation de la déviation de fréquence est nécessaire
+* Des diodes montées en antiparallèle limitent la tension à la tension de genou
 
 ---
 [question:AD509]
 
 ---
-### Signal‑Analyse einer Diode
+### Analyse du signal d'une diode
 <left>
-[picture:142:a_modulatoren_regelspannung:Schaltung mit einem Ausgang für eine Regelspannung]
+[picture:142:a_modulatoren_regelspannung:Circuit avec une sortie pour une tension de régulation]
 </left>
 <right>
-* Ein einzelnes Signal weist auf keinen Modulator hin
-* Ein Elko am Ausgang zeigt Gleichspannung an
+* Un seul signal n'indique aucun modulateur
+* Un condensateur électrolytique à la sortie indique une tension continue
 </right>
 
 ---

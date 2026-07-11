@@ -1,22 +1,22 @@
-* Kondensatoren und Spulen haben frequenzabhängige Widerstände
-* Damit sind passive Filterschaltungen möglich, um nur bestimmte Frequenzen passieren zu lassen
+* Les condensateurs et les bobines ont des résistances dépendantes de la fréquence
+* Ainsi, des circuits de filtrage passifs sont possibles pour ne laisser passer que certaines fréquences
 
 <fragment>
-*Zur Erinnerung*
-* Kondensator blockiert niedrige Frequenzen und  lässt hohe Frequenzen durch
-* Spule blockiert hohe Frequenzen und lässt niedrige Frequenzen durch
+* Pour rappel
+* Le condensateur bloque les basses fréquences et laisse passer les hautes fréquences
+* La bobine bloque les hautes fréquences et laisse passer les basses fréquences
 </fragment>
 
 ---
-## Hochpass
+## Passe-haut
 <left>
-* Bei niedrigen Frequenzen hat der Kondensator einen sehr hohen Widerstand
-* Schaltung wirkt wie ein frequenzabhängiger Spannungsteiler
-* $U_\text{A}$ ist dadurch sehr klein
+* À basses fréquences, le condensateur a une résistance très élevée
+* Le circuit agit comme un diviseur de tension dépendant de la fréquence
+* $U_\text{A}$ est donc très faible
 </left>
 <right>
-[picture:592:e_hochpass:Filtercharakteristik eines Hochpass]
-[picture:195:e_hochpass_rc:Hochpass aus Kondensator und Widerstand]
+[picture:592:e_hochpass:Caractéristique de filtrage d'un passe-haut]
+[picture:195:e_hochpass_rc:Passe-haut composé d'un condensateur et d'une résistance]
 </right>
 
 ---
@@ -26,25 +26,25 @@
 ---
 [question:ED212]
 <note>
-* Auch mit Kondensator und Spule möglich
+* Également possible avec un condensateur et une bobine
 </note>
 ---
 [question:ED213]
 <note>
-* Bei niedrigen Frequenzen erzeugt die erste Spule fast einen Kurzschluss
+* À basses fréquences, la première bobine crée presque un court-circuit
 </note>
 
 
 ---
-## Tiefpass
+## Passe-bas
 <left>
-* Bei niedrigen Frequenzen hat der Kondensator einen sehr hohen Widerstand
-* Schaltung wirkt wie ein frequenzabhängiger Spannungsteiler
-* $U_\text{A}$ ist dadurch sehr groß
+* À basses fréquences, le condensateur a une résistance très élevée
+* Le circuit agit comme un diviseur de tension dépendant de la fréquence
+* $U_\text{A}$ est donc très élevé
 </left>
 <right>
-[picture:591:e_hochpass:Filtercharakteristik eines Tiefpass]
-[picture:175:e_tiefpass_rc:Tiefpass aus Kondensator und Widerstand]
+[picture:591:e_hochpass:Caractéristique de filtrage d'un passe-bas]
+[picture:175:e_tiefpass_rc:Passe-bas composé d'un condensateur et d'une résistance]
 </right>
 
 ---
@@ -54,28 +54,28 @@
 ---
 [question:ED209]
 <note>
-* Auch mit Spule und Kondensator möglich
+* Également possible avec une bobine et un condensateur
 </note>
 ---
 [question:ED210]
 <note>
-* Bei hohen Frequenzen erzeugt der erste Kondensator fast einen Kurzschluss
+* À hautes fréquences, le premier condensateur crée presque un court-circuit
 </note>
 
 ---
-## Serienschwingkreis
+## Circuit oscillant en série
 <left>
-* Es gibt eine Resonanzfrequenz, bei der der Wechselstromwiderstand (Impedanz) sehr gering ist
-* Bandpass, Saugkreis (eine Frequenz wird rausgesaugt)
+* Il existe une fréquence de résonance à laquelle l'impédance de courant alternatif (impédance) est très faible
+* Passe-bande, circuit bouchon (une fréquence est extraite)
 </left>
 <right>
-%[picture:593:e_serienschwingkreis:Filtercharakteristik eines Serienschwingkreis]
-[picture:189:e_serienschwingkreis_z:Impedanzverlauf eines Serienschwingkreis]
-[picture:757:e_serienschwingkreis_cl:Serienschwingkreis aus Kondensator und Spule]
+%[picture:593:e_serienschwingkreis:Caractéristique de filtrage d'un circuit oscillant en série]
+[picture:189:e_serienschwingkreis_z:Variation d'impédance d'un circuit oscillant en série]
+[picture:757:e_serienschwingkreis_cl:Circuit oscillant en série composé d'un condensateur et d'une bobine]
 </right>
 <note>
-* Es wird der Impedanzverlauf gezeigt
-* Die Filtercharakteristik ist in einer der kommenden Fragen
+* La variation d'impédance est montrée
+* La caractéristique de filtrage est dans l'une des questions suivantes
  </note>
 
 ---
@@ -87,19 +87,19 @@
 
 
 ---
-## Parallelschwingkreis
+## Circuit oscillant en parallèle
 <left>
-* Es gibt eine Resonanzfrequenz, bei der der Wechselstromwiderstand (Impedanz) sehr hoch ist
-* Bandsperre, Sperrkreis
+* Il existe une fréquence de résonance à laquelle l'impédance de courant alternatif (impédance) est très élevée
+* Filtre coupe-bande, circuit bouchon
 </left>
 <right>
-%[picture:594:e_parallelschwingkreis:Filtercharakteristik eines Parallelschwingkreis]
-[picture:190:e_parallelschwingkreis_z:Impedanzverlauf eines Parallelschwingkreis]
-[picture:755:e_parallelschwingkreis_cl:Parallelschwingkreis aus Kondensator und Spule]
+%[picture:594:e_parallelschwingkreis:Caractéristique de filtrage d'un circuit oscillant en parallèle]
+[picture:190:e_parallelschwingkreis_z:Variation d'impédance d'un circuit oscillant en parallèle]
+[picture:755:e_parallelschwingkreis_cl:Circuit oscillant en parallèle composé d'un condensateur et d'une bobine]
 </right>
 <note>
-* Es wird der Impedanzverlauf gezeigt
-* Die Filtercharakteristik ist in einer der kommenden Fragen
+* La variation d'impédance est montrée
+* La caractéristique de filtrage est dans l'une des questions suivantes
  </note>
  
 ---
@@ -113,9 +113,9 @@
 
 
 ---
-## Kondensatortyp
-* kein Elektrolyt, da diese nur bei Gleichspannung funktionieren
-* Keramik- oder Luftkondensatoren können für hohe Frequenzen eingesetzt werden
+## Type de condensateur
+* pas d'électrolyte, car ceux-ci ne fonctionnent qu'avec une tension continue
+* Les condensateurs en céramique ou à air peuvent être utilisés pour les hautes fréquences
 
 ---
 [question:ED216]

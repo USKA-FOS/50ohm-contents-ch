@@ -1,7 +1,7 @@
-Ein Blick in die Formelsammlung genügt: 
+Un coup d'œil dans le recueil de formules suffit : 
 
 $|X_C| = \frac{1}{\omega\cdot C}$
 
-Der kapazitive Blindwiederstand $X_C$ hängt von der Kreisfrequenz $\omega$ und der Kapazität $C$ ab. Er ist umgekehrt proportional zu beiden Größen, das heißt, je größer die Frequenz oder die Kapazität, desto kleiner ist der Blindwiderstand.
+La résistance réactive capacitive $X_C$ dépend de la vitesse angulaire $\omega$ et de la capacité $C$. Elle est inversement proportionnelle aux deux grandeurs, c'est-à-dire que plus la fréquence ou la capacité est grande, plus la résistance réactive est petite.
 
-Zusätzlich ist zu beachten, dass der kapazitive Blindwiderstand $X_C$ eine negative Größe ist, da er eine Phasenverschiebung von $\qty{90}{\degree}$ zwischen Spannung und Strom verursacht, wobei der Strom der Spannung vorauseilt. Daher wird $X_C$ oft mit einem negativen Vorzeichen angegeben, um diese Phasenverschiebung zu verdeutlichen.
+Il est également à noter que la résistance réactive capacitive $X_C$ est une grandeur négative, car elle provoque un déphasage de $\qty{90}{\degree}$ entre la tension et le courant, le courant précédant la tension. C'est pourquoi $X_C$ est souvent indiquée avec un signe négatif pour mettre en évidence ce déphasage.

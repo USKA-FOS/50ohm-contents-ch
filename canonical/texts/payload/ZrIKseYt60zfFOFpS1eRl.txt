@@ -1,45 +1,45 @@
 <margin>
-[picture:1019:e_frequenzabhängiger_widerstand:Frequenzabhängigkeit von Kondensator und Spule im Vergleich zu einem klassischen Widerstand]
-[picture:1020:e_herleitung_tiefpass:Herleitung der Tiefpassschaltung ausgehend von einem Spannungsteiler]
+[picture:1019:e_frequenzabhängiger_widerstand:Dépendance de la fréquence des condensateurs et des bobines en comparaison avec une résistance classique]
+[picture:1020:e_herleitung_tiefpass:Dérivation du circuit passe-bas à partir d'un diviseur de tension]
 </margin>
 
-In den Kapiteln zu Kondensatoren und Spulen haben wir bereits gelernt, dass beide Bauelemente einen frequenzabhängigen Widerstand besitzen. Abbildung [ref:e_frequenzabhängiger_widerstand] zeigt qualitativ, dass der Widerstand eines ohmschen Widerstands unabhängig von der Frequenz ist, während der Widerstand eines Kondensators mit steigender Frequenz hyperbolisch abnimmt und der Widerstand einer Spule mit steigender Frequenz linear zunimmt.
+Dans les chapitres sur les condensateurs et les bobines, nous avons déjà appris que ces deux composants possèdent une résistance dépendant de la fréquence. La figure [ref:e_frequenzabhängiger_widerstand] montre qualitativement que la résistance d'une résistance ohmique est indépendante de la fréquence, tandis que la résistance d'un condensateur diminue hyperboliquement avec l'augmentation de la fréquence et que la résistance d'une bobine augmente linéairement avec l'augmentation de la fréquence.
 
-Aus diesen Bauelementen lassen sich sogenannte passive Frequenzfilter aufbauen, die wir uns nun genauer ansehen. Im ersten Teil dieses Kapitels beschäftigen wir uns mit einfachen Filtern, nämlich Hoch- und Tiefpässen. Mit diesen Filtern lassen sich unerwünschte Frequenzbereiche ober- oder unterhalb einer Grenzfrequenz unterdrücken. Im zweiten Teil widmen wir uns anschließend komplexeren Filtern, wie zum Beispiel Bandpässen.
+À partir de ces composants, on peut construire des filtres de fréquence passifs appelés filtres passifs, que nous allons examiner de plus près. Dans la première partie de ce chapitre, nous nous intéressons aux filtres simples, à savoir les passe-haut et les passe-bas. Avec ces filtres, on peut supprimer les plages de fréquences indésirables au-dessus ou en dessous d'une fréquence de coupure. Dans la deuxième partie, nous nous tournons ensuite vers des filtres plus complexes, comme les passe-bande.
 
-Wir beginnen mit der Herleitung eines Tiefpasses als sogennantes *RC-Glied*. Ausgangspunkt ist im Schritt (1) die Schaltung eines Spannungsteilers, wie sie in Abbildung [ref:e_herleitung_tiefpass] dargestellt ist und die wir bereits kennengelernt haben. Wir erinnern uns daran, dass für einen Spannungsteiler folgendes gilt: 
+Nous commençons par la dérivation d'un passe-bas en tant que ce qu'on appelle un *élément RC*. Le point de départ est, à l'étape (1), le circuit d'un diviseur de tension, tel qu'il est représenté dans la figure [ref:e_herleitung_tiefpass] et que nous avons déjà rencontré. Nous nous souvenons que pour un diviseur de tension, ce qui suit s'applique : 
 
 $\frac{U_1}{U_2} = \frac{R_1}{R_2}$
 
-Das bedeutet beispielsweise: Ist der Widerstand $R_2$ doppelt so groß wie der Widerstand $R_1$, dann ist auch die Spannung $U_2$ doppelt so groß wie die Spannung $U_1$.
+Cela signifie par exemple : si la résistance $R_2$ est deux fois plus grande que la résistance $R_1$, alors la tension $U_2$ est également deux fois plus grande que la tension $U_1$.
 
-In Schritt (2) ersetzen wir den Widerstand $R_2$ durch den Kondensator $C_1$. Anschließend zeichnen wir die Schaltung in Schritt (3) noch etwas um, sodass wir die übliche Darstellung eines Tiefpasses erhalten.
+À l'étape (2), nous remplaçons la résistance $R_2$ par le condensateur $C_1$. Ensuite, nous dessinons le circuit à l'étape (3) un peu différemment, de sorte que nous obtenons la représentation habituelle d'un passe-bas.
 
 ---
 
-Wir halten fest: Ein Tiefpass ist zunächst nichts anderes als ein Spannungsteiler. Deshalb können wir ihn im Folgenden auch genau so betrachten. In Abbildung [ref:e_wiederstaende_tiefpass] sind die Widerstandsverläufe in Abhängigkeit von der Frequenz nochmals dargestellt. Betrachten wir zunächst tiefe Frequenzen: In diesem Fall ist der Widerstand des Kondensators groß, sodass am Ausgang eine hohe Spannung anliegt. Steigt die Frequenz, wird der Widerstand des Kondensators zunehmend kleiner, und gemäß dem Prinzip des Spannungsteilers nimmt auch die Ausgangsspannung ab.
+Nous retenons : un passe-bas n'est d'abord rien d'autre qu'un diviseur de tension. C'est pourquoi nous pouvons le considérer de la même manière par la suite. Dans la figure [ref:e_wiederstaende_tiefpass], les courbes de résistance en fonction de la fréquence sont représentées à nouveau. Examinons d'abord les basses fréquences : dans ce cas, la résistance du condensateur est élevée, de sorte qu'une tension élevée est présente à la sortie. Si la fréquence augmente, la résistance du condensateur devient de plus en plus petite, et selon le principe du diviseur de tension, la tension de sortie diminue également.
 
-Auf diese Weise ergibt sich der Spannungsverlauf, wie er in Abbildung [ref:e_tiefpass_frequenzgang] gezeigt ist. Damit ist auch die Kernidee des Tiefpasses erklärt: Hohe Frequenzen werden stark gedämpft, während tiefe Frequenzen das Filter weitgehend ungehindert passieren. Ein Anwendungsbeispiel für einen Tiefpass ist die Verwendung hinter Sendeverstärkern, um die durch Verzerrungen auftretenden Oberwellen herauszufiltern. 
+De cette manière, on obtient la courbe de tension telle qu'elle est représentée dans la figure [ref:e_tiefpass_frequenzgang]. Ainsi, l'idée de base du passe-bas est expliquée : les hautes fréquences sont fortement atténuées, tandis que les basses fréquences traversent le filtre largement sans obstacle. Un exemple d'application d'un passe-bas est son utilisation derrière les amplificateurs d'émission pour filtrer les harmoniques supérieures qui apparaissent par distorsion. 
 
 <margin>
-[picture:1021:e_wiederstaende_tiefpass:Qualitatives Widerstandsverhalten im Tiefpass-Spannungsteiler]
-[picture:1024:e_tiefpass_frequenzgang:Qualitativer Spannungsverlauf $U_\text{A}$ am Tiefpass]
+[picture:1021:e_wiederstaende_tiefpass:Comportement qualitatif de la résistance dans le diviseur de tension passe-bas]
+[picture:1024:e_tiefpass_frequenzgang:Courbe de tension qualitative $U_\text{A}$ au passe-bas]
 </margin>
 
 [question:ED208]
 [question:ED201]
 
 <indepth>
-Die *Grenzfrequenz* ($f_\text{g}$) eines Tiefpasses ist die Frequenz, bei der das Ausgangssignal gerade beginnt, merklich abgeschwächt zu werden. Sie markiert also den Übergang zwischen dem Frequenzbereich, der vom Filter weitgehend ungehindert durchgelassen wird, und dem Bereich, in dem die Dämpfung deutlich zunimmt. Formal ist die Grenzfrequenz so definiert, dass bei ihr die Ausgangsleistung auf die Hälfte der Eingangsleistung abgefallen ist ($\qty{-3}{\dB}$). Da die Leistung proportional zum Quadrat der Spannung ist, entspricht dies einer Abnahme der Ausgangsspannung auf etwa $\qty{70}{\percent}$ ihres ursprünglichen Wertes ($\frac{1}{\sqrt{2}}$). In der Praxis erkennt man die Grenzfrequenz daher oft an dem Punkt, an dem die Ausgangsspannung deutlich kleiner wird und der Frequenzgang „abzuknicken“ beginnt. Unterhalb der Grenzfrequenz werden tiefe Frequenzen nahezu unverändert übertragen, oberhalb der Grenzfrequenz werden höhere Frequenzen zunehmend gedämpft.
+La *fréquence de coupure* ($f_\text{g}$) d'un passe-bas est la fréquence à laquelle le signal de sortie commence à être atténué de manière significative. Elle marque donc la transition entre la plage de fréquences qui est largement transmise par le filtre sans obstacle et la plage dans laquelle l'atténuation augmente de manière significative. Formellement, la fréquence de coupure est définie de telle sorte que, à cette fréquence, la puissance de sortie est réduite de moitié par rapport à la puissance d'entrée ($\qty{-3}{\dB}$). Comme la puissance est proportionnelle au carré de la tension, cela correspond à une diminution de la tension de sortie à environ $\qty{70}{\percent}$ de sa valeur initiale ($\frac{1}{\sqrt{2}}$). En pratique, on reconnaît donc souvent la fréquence de coupure au point où la tension de sortie devient nettement plus petite et où la réponse en fréquence commence à « s'infléchir ». En dessous de la fréquence de coupure, les basses fréquences sont transmises presque sans changement, au-dessus de la fréquence de coupure, les fréquences plus élevées sont de plus en plus atténuées.
 </indepth>
 
 ---
 
-Bei einem Hochpass hingegen werden die tiefen Frequenzen stark gedämpft, während die hohen Frequenzen dieses Filter kaum gedämpft passieren. Dies erreicht man, in dem man Kondensator und Widerstand tauscht wie in Abbildung [ref:e_wiederstaende_hochpass] dargestellt. Der Frequenzgang eines Hochpasses ist qualitativ in [ref:e_hochpass_frequenzgang] gezeigt. Ein Anwendungsbeispiel für einen Hochpass ist die Verwendung in einer Antennenweiche, um z.B. den Kurzwellenbereich vor einem UKW-Empfänger wegzufiltern, um Störungen durch Kurzwellenbetrieb zu vermeiden.
+En revanche, dans un passe-haut, les fréquences basses sont fortement atténuées, tandis que les fréquences élevées traversent ce filtre à peine atténuées. Cela est réalisé en échangeant le condensateur et la résistance comme le montre la figure [ref:e_wiederstaende_hochpass]. La réponse en fréquence d'un passe-haut est qualitativement illustrée dans [ref:e_hochpass_frequenzgang]. Un exemple d'application d'un passe-haut est son utilisation dans un diplexeur d'antenne pour filtrer, par exemple, la bande des ondes courtes avant un récepteur VHF afin d'éviter les perturbations dues à l'exploitation des ondes courtes.
 
 <margin>
-[picture:1025:e_wiederstaende_hochpass:Qualitatives Widerstandsverhalten im Hochpass-Spannungsteiler]
-[picture:1022:e_hochpass_frequenzgang:Qualitativer Spannungsverlauf $U_\text{A}$ am Hochpass]
+[picture:1025:e_wiederstaende_hochpass:Comportement qualitatif de la résistance dans le diviseur de tension passe-haut]
+[picture:1022:e_hochpass_frequenzgang:Évolution qualitative de la tension $U_\text{A}$ au passe-haut]
 </margin>
 
 [question:ED211]
@@ -47,14 +47,14 @@ Bei einem Hochpass hingegen werden die tiefen Frequenzen stark gedämpft, währe
 
 ---
 
-Einfache RC-Glieder haben den Nachteil, dass ihre Flanken im Grenzbereich eher flach verlaufen. Dazu wird die kleinste Impedanz eines RC-Tiefpasses durch den Widerstand $R$ bestimmt. Der Widerstand $R$ lässt sich jedoch durch eine Spule ersetzen, die sich im Frequenzverhalten einem Kondensator entgegengesetzt verhält. Es liegt daher nahe, Spulen und Kondensatoren zu Hoch- und Tiefpässen zu kombinieren. 
-Bei *hohen Frequenzen ist der Spulenwiderstand hoch*, der Kondensatorwiderstand dagegen klein.
-Bei *niedrigen Frequenzen ist der Spulenwiderstand niedrig*, der Kondensatorwiderstand dagegen groß. 
-Je nachdem, über welches Bauteil die Ausgangsspannung gemessen wird, erhält man einen Hoch- oder einen Tiefpass. Merkt man sich, dass der Spulenwiderstand $X_\text{L}$ bei hoher Frequenz ebenfalls hoch ist, lässt sich eine Schaltung schnell als Hoch- oder Tiefpass identifizieren, wenn man sich anschaut, über welches Bauteil die Ausgangsspannung gemessen wird.
+Les éléments RC simples ont l'inconvénient que leurs flancs dans la zone limite sont plutôt plats. Pour cela, la plus petite impédance d'un passe-bas RC est déterminée par la résistance $R$. La résistance $R$ peut cependant être remplacée par une bobine qui se comporte de manière opposée à un condensateur en termes de comportement fréquentiel. Il est donc logique de combiner des bobines et des condensateurs en passe-haut et passe-bas. 
+À *hautes fréquences, la résistance de la bobine est élevée*, tandis que la résistance du condensateur est faible.
+À *basses fréquences, la résistance de la bobine est faible*, tandis que la résistance du condensateur est élevée. 
+Selon le composant sur lequel la tension de sortie est mesurée, on obtient un passe-haut ou un passe-bas. Si l'on se souvient que la résistance de la bobine $X_\text{L}$ est également élevée à haute fréquence, un circuit peut être rapidement identifié comme passe-haut ou passe-bas en regardant sur quel composant la tension de sortie est mesurée.
 
 <tip>
-Auch bei Schaltungen mit Kondensator und Spule gilt folgende einfache Regel: Handelt es sich im oberen Zweig des Spannungsteilers um ein aufrechtes *H* – wie in *H*ochpass, so liegt ein Hochpass vor. Befindet sich im oberen Zweig hingegen ein Widerstand oder eine Spule, handelt es sich um einen Tiefpass.
-[picture:1023:e_hochpass_tipp:Tipp zum Merken]
+Même dans les circuits avec condensateur et bobine, la règle suivante s'applique : s'il s'agit d'un *H* droit dans la branche supérieure du diviseur de tension – comme dans *H*ochpass, alors il s'agit d'un passe-haut. Si, en revanche, il y a une résistance ou une bobine dans la branche supérieure, il s'agit d'un passe-bas.
+[picture:1023:e_hochpass_tipp:Astuce pour se souvenir]
 </tip>
 
 [question:ED209]
@@ -62,40 +62,40 @@ Auch bei Schaltungen mit Kondensator und Spule gilt folgende einfache Regel: Han
 
 ---
 
-In den folgenden Fragen geht es um eine praktische Anwendung unserer Filter. Natürlich können auch mehrere frequenzabhängige Bauteile in einer Schaltung verwendet werden, so dass der Übergang im Bereich der Grenzfrequenz steilflankiger wird. Welche Schaltung in den Folgenden zwei Fragen verwendet werden, solltest Du mit dem genannten Tipp nun leicht erkennen. 
+Dans les questions suivantes, il s'agit d'une application pratique de nos filtres. Bien sûr, plusieurs composants dépendant de la fréquence peuvent également être utilisés dans un circuit, de sorte que la transition dans la zone de la fréquence de coupure devient à flancs raides. Quel circuit est utilisé dans les deux questions suivantes, vous devriez maintenant le reconnaître facilement avec le conseil mentionné. 
 
 [question:ED210]
 [question:ED213] 
 
-Ein weiteres Praxisbeispiel für eine Verkettung von Spulen und Kondensatoren als Filter, ist der am Rand erklärte Diplexer. 
+Un autre exemple pratique de l'enchaînement de bobines et de condensateurs en tant que filtres est le diplexeur expliqué en marge. 
 
 <indepth>
-*Praxisbeispiel Diplexer:* Passive Hoch- und Tiefpässe werden auch in Frequenzweichen verwendet. Im untenstehenden Beispiel ist eine Schaltung für einen sog. Diplexer für $\qty{2}{\meter}$ und $\qty{70}{\centi\meter}$ zu sehen. Dieser kann verwendet werden, um z.B. ein $\qty{2}{\meter}$- und ein $\qty{70}{\centi\meter}$-Funkgerät an einer gemeinsamen Duoband-Antenne zu verwenden. Umgekehrt könnte man auch getrennte Antennen für $\qty{2}{\meter}$ und $\qty{70}{\centi\meter}$ an einem UKW-Duoband-Gerät verwenden, um z.B. für $\qty{2}{\meter}$-Direktfunk einen Rundstrahler und für $\qty{70}{\centi\meter}$-Relaisfunk eine Richtantenne zu verwenden. 
-Vor dem $\qty{2}{\meter}$-Ausgang ist ein Tiefpass, vor dem $\qty{70}{\centi\meter}$-Ausgang ein Hochpass zu sehen - jeweils aus 5 frequenzabhängigen Bauteilen kombiniert. 
-[picture:939:e_circuit_diplexer:Schaltbild $\qty{2}{\meter}$-/$\qty{70}{\centi\meter}$-Diplexer]
-[photo:171:e_example_diplexer:Aufbaubeispiel]
+*Exemple pratique de diplexeur :* Les passe-haut et passe-bas passifs sont également utilisés dans les séparateurs de fréquences. Dans l'exemple ci-dessous, un circuit pour un diplexeur pour $\qty{2}{\meter}$ et $\qty{70}{\centi\meter}$ est représenté. Celui-ci peut être utilisé, par exemple, pour utiliser un appareil radio $\qty{2}{\meter}$ et un appareil radio $\qty{70}{\centi\meter}$ sur une antenne commune Duoband. Inversement, on pourrait également utiliser des antennes séparées pour $\qty{2}{\meter}$ et $\qty{70}{\centi\meter}$ sur un appareil Duoband UHF, par exemple, pour utiliser un radiateur omnidirectionnel pour la liaison directe $\qty{2}{\meter}$ et une antenne directionnelle pour la liaison relais $\qty{70}{\centi\meter}$. 
+Un passe-bas est visible avant la sortie $\qty{2}{\meter}$, un passe-haut avant la sortie $\qty{70}{\centi\meter}$ - chacun combiné à 5 composants dépendant de la fréquence. 
+[picture:939:e_circuit_diplexer:Schéma du diplexeur $\qty{2}{\meter}$-/$\qty{70}{\centi\meter}$]
+[photo:171:e_example_diplexer:Exemple de construction]
 </indepth>
 
 <indepth>
-[photo:320:e_tiefpass_selbstbau:Selbstgebautes Tiefpassfilter]
-Die oben genannten Filter lassen sich natürlich wunderbar für alle Frequenzbereiche selbst berechnen und bauen. In der Formelsammlung finden sich die benötigten Formeln, wobei es natürlich auch viele Bauvorschläge und Berechnungsprogramme gibt. Die benötigten Spulen lassen sich dazu oft leicht selbst herstellen. Hierfür reicht bei kleinen Spulenwerten ein kleiner Vorrat an $\qty{0,8}{\milli\meter}$-Kupferlackdraht für stabile Luftspulen aus. Bei großen Spulenwerten z.B. für die Kurzwellenbereiche kommt man mit $\qty{0,2}{\milli\meter}$-Kupferlackdraht und Kernmaterial mit entsprechenden $A_\text{L}$-Werten aus, um sich jederzeit die richtigen Werte selbst herstellen zu können. Die benötigten Größen, Wicklungen usw. bekommt man über Formelsammlung, Bauvorschläge oder Berechnungsprogramme ebenfalls meist leicht heraus.
+[photo:320:e_tiefpass_selbstbau:Filtre passe-bas construit soi-même]
+Les filtres mentionnés ci-dessus peuvent bien sûr être calculés et construits pour toutes les bandes de fréquences. Dans la collection de formules, on trouve les formules nécessaires, mais il existe également de nombreuses propositions de construction et programmes de calcul. Les bobines nécessaires peuvent souvent être facilement fabriquées soi-même. Pour les petites valeurs d'inductance, un petit stock de fil de cuivre émaillé de $\qty{0,8}{\milli\meter}$ suffit pour des bobines d'air stables. Pour les grandes valeurs d'inductance, par exemple pour les bandes des ondes courtes, on peut se débrouiller avec un fil de cuivre émaillé de $\qty{0,2}{\milli\meter}$ et un matériau de noyau avec des valeurs $A_\text{L}$ correspondantes, afin de pouvoir fabriquer soi-même les bonnes valeurs à tout moment. Les tailles, enroulements, etc. nécessaires sont généralement également facilement obtenus via la collection de formules, les propositions de construction ou les programmes de calcul.
 </indepth>  
 
 ---
 
-Nun haben wir einfache RC- und LC-Glieder als Hoch- und Tiefpassfilter kennengelernt. Aus Kondensatoren und Spulen lassen sich jedoch noch weitere Filtertypen realisieren, die über reine Hoch- und Tiefpässe hinausgehen. Diese wollen wir uns nun im zweiten Teil genauer ansehen, nämlich die sogenannten *Schwingkreise*.
+Nous avons maintenant appris les filtres passe-haut et passe-bas simples à base de RC et de LC. Cependant, d'autres types de filtres peuvent être réalisés à partir de condensateurs et de bobines, qui vont au-delà des simples passe-haut et passe-bas. Nous allons maintenant les examiner plus en détail dans la deuxième partie, à savoir les soi-disant *circuits oscillants*.
 
 <margin>
-[picture:1026:e_rp_schwingkreis:(a) Reihen- (b) Parallelschwingkreis]
+[picture:1026:e_rp_schwingkreis:(a) Circuit oscillant en série (b) Circuit oscillant en parallèle]
 </margin>
 
-In Schwingkreisen werden Spule und Kondensator – je nach gewünschter Filterwirkung – so angeordnet, dass bei einer bestimmten Frequenz ein besonders hoher oder besonders niedriger Widerstand auftritt. Dadurch werden Frequenzen oberhalb oder unterhalb dieser Frequenz gezielt gedämpft oder durchgelassen.
+Dans les circuits oscillants, la bobine et le condensateur sont disposés – selon l'effet de filtrage souhaité – de telle sorte qu'une résistance particulièrement élevée ou particulièrement faible se produit à une certaine fréquence. De cette manière, les fréquences au-dessus ou en dessous de cette fréquence sont atténuées ou transmises de manière ciblée.
 
-Die Anordnung von Spule und Kondensator kann dabei entweder in Serie oder parallel erfolgen. Man unterscheidet entsprechend Reihenschwingkreise (a) und Parallelschwingkreise (b), wie in Abbildung [ref:e_rp_schwingkreis] dargestellt. 
+La disposition de la bobine et du condensateur peut être soit en série, soit en parallèle. On distingue donc les circuits oscillants en série (a) et les circuits oscillants en parallèle (b), comme le montre la figure [ref:e_rp_schwingkreis]. 
 
 ---
 
-Schaltet man Spule und Kondensator parallel und gibt zum Beispiel einen Rechteckimpuls auf diese Anordnung, gerät diese in Schwingung. Der aufgeladene Kondensator hat nun Energie im elektrischen Feld gespeichert, welches sich jedoch über die Spule abbaut. Durch den Stromfluss durch die Spule baut sich ein magnetisches Feld in ihr auf, was dem Stromfluss erst noch einen Widerstand entgegensetzt. Sobald das Magnetfeld jedoch aufgebaut ist, entlädt sich der Kondensator vollständig. Die Energie ist nun im Magnetfeld der Spule gespeichert. Da der Kondensator sich aber nicht weiter entladen und keinen Stromfluss aufrechterhalten kann, kann das Magnetfeld nicht aufrechterhalten werden. Das Magnetfeld der Spule entlädt sich und erzeugt eine Spannung in umgekehrter Richtung. Diese Spannung lädt den Kondensator nun in umgehrter Richtung auf, bis das Magnetfeld in der Spule abgebaut ist und dem elektrischen Feld im Kondensator keinen Widerstand mehr entgegensetzen kann. Der Vorgang beginnt anschließend erneut. 
+Si l'on connecte la bobine et le condensateur en parallèle et que l'on applique, par exemple, une impulsion rectangulaire à cet arrangement, celui-ci entre en oscillation. Le condensateur chargé a maintenant de l'énergie stockée dans le champ électrique, qui se décharge cependant à travers la bobine. Le flux de courant à travers la bobine construit un champ magnétique qui s'oppose d'abord au flux de courant. Dès que le champ magnétique est cependant construit, le condensateur se décharge complètement. L'énergie est maintenant stockée dans le champ magnétique de la bobine. Comme le condensateur ne peut pas se décharger davantage et ne peut pas maintenir le flux de courant, le champ magnétique ne peut pas être maintenu. Le champ magnétique de la bobine se décharge et génère une tension dans la direction opposée. Cette tension charge maintenant le condensateur dans la direction opposée, jusqu'à ce que le champ magnétique dans la bobine soit déchargé et ne puisse plus s'opposer au champ électrique dans le condensateur. Le processus recommence ensuite. 
 
 <margin>
 [include:applet_schwingkreis]
@@ -103,7 +103,7 @@ Schaltet man Spule und Kondensator parallel und gibt zum Beispiel einen Rechteck
 
 ---
 
-Aus diesem Grund spricht man von einem Schwingkreis. Die Frequenz, mit der dieser Schwingkreis schwingt, bezeichnet man als Resonanzfrequenz ($f_0$). Sie ist vergleichbar mit der Resonanzfrequenz einer Stimmgabel, die durch einen Stoß in Schwingung versetzt wird. Im Resonanzfall sind die Widerstände von Spule $X_\text{L}$ und Kondensator $X_\text{C}$ gleich groß. Solche Schwingkreise lassen sich zum einen zur Erzeugung von Schwingungen verwenden, was wir im Kapitel Oszillatoren noch genauer betrachten werden. Zum anderen können sie auch als Filter eingesetzt werden – und genau das ist das Thema dieses Kapitels.
+C'est pour cette raison que l'on parle de circuit oscillant. La fréquence à laquelle ce circuit oscillant oscille est appelée fréquence de résonance ($f_0$). Elle est comparable à la fréquence de résonance d'un diapason, qui est mis en oscillation par un coup. En cas de résonance, les résistances de la bobine $X_\text{L}$ et du condensateur $X_\text{C}$ sont égales. De tels circuits oscillants peuvent être utilisés d'une part pour la génération d'oscillations, ce que nous examinerons plus en détail dans le chapitre des oscillateurs. D'autre part, ils peuvent également être utilisés comme filtres - et c'est précisément le sujet de ce chapitre.
 
 <margin>
 [picture:1037:e_rsk_frequenzgang:Qualitativer Frequenzgang eines Reihenschwingkreises]
@@ -111,36 +111,36 @@ Aus diesem Grund spricht man von einem Schwingkreis. Die Frequenz, mit der diese
 
 ---
 
-Bei einem *Serienschwingkreis* bzw. *Reihenschwingkreis* wie in Abbildung [ref:e_rp_schwingkreis]a ist im Resonanzfall der Gesamtwiderstand am geringsten. Abbildung [ref:e_rsk_frequenzgang] zeigt den Frequenzgang. Bei Frequenzen über der Resonanzfrequenz wird der Spulenwiderstand größer, so dass auch der Gesamtwiderstand des Serienschwingkreises ansteigt. Das Gleiche passiert auch bei Frequenzen unterhalb der Resonanzfrequenz, wobei hier jedoch der Kondensatorwiderstand groß ist. Bei Serienschwingkreisen ist daher der Widerstand bei der Resonanzfrequenz am geringsten. Durch die Serienschaltung bestimmt bei Frequenzen abseits der Resonanzfrequenz das Bauteil mit dem größten Widerstand die Schwingkreisimpedanz.
+Dans un *circuit oscillant en série* ou *circuit oscillant en série* comme dans la figure [ref:e_rp_schwingkreis]a, la résistance totale est la plus faible en cas de résonance. La figure [ref:e_rsk_frequenzgang] montre la réponse en fréquence. À des fréquences supérieures à la fréquence de résonance, la résistance de la bobine augmente, de sorte que la résistance totale du circuit oscillant en série augmente également. Il en va de même pour les fréquences inférieures à la fréquence de résonance, mais ici, c'est la résistance du condensateur qui est grande. Dans les circuits oscillants en série, la résistance est donc la plus faible à la fréquence de résonance. En raison du circuit en série, c'est le composant avec la plus grande résistance qui détermine l'impédance du circuit oscillant à des fréquences éloignées de la fréquence de résonance.
 
 <indepth>
-Der Betragsfrequenzgang eines Serienschwingkreises aus einem Widerstand, einer Spule und einem Kondensator berechnet sich nach folgender Formel:
+La réponse en fréquence d'un circuit oscillant en série composé d'une résistance, d'une bobine et d'un condensateur se calcule selon la formule suivante:
   
 $Z = \sqrt{R^2+\left(X_\text{L} - X_\text{C}\right)^2}$
   
-Im Resonanzfall wenn $X_\text{C}$ = $X_\text{L}$ gilt bleibt nur der Widerstand $R$ übrig. Im Idealen Fall, wenn der Widerstand $R=\qty{0}{\ohm}$ ist der Widerstand sogar null. Wenn wir die Werte für $X_\text{L}$ und $X_\text{C}$ einsetzen erhalten wir:
+En cas de résonance, lorsque $X_\text{C}$ = $X_\text{L}$, il ne reste que la résistance $R$. Dans le cas idéal, lorsque la résistance $R=\qty{0}{\ohm}$, la résistance est même nulle. Si nous insérons les valeurs pour $X_\text{L}$ et $X_\text{C}$, nous obtenons:
   
 $Z = \sqrt{R^2+\left(2\pi f \cdot L~-~\frac{1}{2\pi f \cdot C} \right)^2}$
   
-In der Formel kann man den Frequenzgang aus Abbildung [ref:e_rsk_frequenzgang] sehr schön sehen: Wenn man die Frequenz gegen $\qty{0}{\hertz}$ gehen lässt, dann fällt der Anteil der Spule weg und nur der Kondensator wirkt. Lässt man die Frequenz hingegen gegen unendlich gehen, dann wirkt nur die Spule und der Anteil des Kondensators verschwindet.
+Dans la formule, on peut très bien voir la réponse en fréquence de la figure [ref:e_rsk_frequenzgang] : si l'on fait tendre la fréquence vers $\qty{0}{\hertz}$, alors la partie de la bobine disparaît et seul le condensateur agit. Si l'on fait tendre la fréquence vers l'infini, alors seule la bobine agit et la partie du condensateur disparaît.
   
-Man kann die Resonanzfrequenz sogar berechnen. Wenn $X_\text{L} = X_\text{C}$ gilt kann man die Formel nach $f$ auflösen:
+On peut même calculer la fréquence de résonance. Si $X_\text{L} = X_\text{C}$ est valable, on peut résoudre la formule pour $f$:
   
 $2\pi f \cdot L = \frac{1}{2\pi f \cdot C}$
   
-So ergibt sich die Formel: 
+Il en résulte la formule : 
   
 $f_0 = \frac{1}{2\pi \sqrt{L\cdot C}}$
   
-Die genaue Herleitung der Formeln kann man z. B. auf [Wikipedia](https://50ohm.de/schwk) nachlesen. Es sollte an dieser Stelle erwähnt werden, dass alle Frequenzgänge qualitativ aufgezeichnet sind und in der Realität ggf. etwas anders aussehen.
+La dérivation exacte des formules peut être lue, par exemple, sur [Wikipedia](https://50ohm.de/schwk). Il doit être mentionné à ce stade que toutes les réponses en fréquence sont tracées qualitativement et peuvent éventuellement avoir un aspect différent dans la réalité.
 </indepth>
 
 [question:ED205]
 
 ---
 
-Setzt man Kondensator und Spule zu einem *Parallelschwingkreis*, wie in Abbildung [ref:e_rp_schwingkreis]b zusammen, verhält es sich dagegen genau andersherum: Der Widerstand *$Z$* ist bei der Resonanzfrequenz der sehr hoch, vgl. Abbildung [ref:e_psk_frequenzgang]. Bei Frequenzen über der Resonanzfrequenz hat der Kondensator jedoch einen niedrigen Widerstand, so dass der Widerstand dieses Schwingkreises abnimmt. Bei Frequenzen unter der Resonanzfrequenz hat dagegen die Spule einen niedrigen Widerstand, so dass auch bei niedrigeren Frequenzen der Widerstand des Schwingkreises abnimmt. 
-Bei Parallelschwingkreisen ist daher der Widerstand bei der Resonanzfrequenz am höchsten. Bei Frequenzen abseits der Resonanzfrequenz bestimmt das Bauteil mit dem geringeren Widerstand die Impedanz des Parallelschwingkreises. 
+Si l'on combine le condensateur et la bobine en un *circuit oscillant parallèle*, comme dans la figure [ref:e_rp_schwingkreis]b, alors il en va exactement autrement : la résistance *$Z$* est très élevée à la fréquence de résonance, cf. figure [ref:e_psk_frequenzgang]. À des fréquences supérieures à la fréquence de résonance, le condensateur a cependant une faible résistance, de sorte que la résistance de ce circuit oscillant diminue. À des fréquences inférieures à la fréquence de résonance, la bobine a en revanche une faible résistance, de sorte que la résistance du circuit oscillant diminue également à des fréquences plus faibles. 
+Dans les circuits oscillants parallèles, la résistance est donc la plus élevée à la fréquence de résonance. À des fréquences éloignées de la fréquence de résonance, c'est le composant avec la plus faible résistance qui détermine l'impédance du circuit oscillant parallèle. 
 
 <margin>
 [picture:1036:e_psk_frequenzgang:Qualitativer Frequenzgang eines Parallelschwingkreises]
@@ -151,11 +151,11 @@ Bei Parallelschwingkreisen ist daher der Widerstand bei der Resonanzfrequenz am 
 
 % TODO ////
 
-Je nachdem, wie Parallel- und Serienschwingkreise im Signalweg eingesetzt werden, lassen sich nun Frequenzbereiche entweder bedämpfen oder herausfiltern. Hierzu wollen wir wieder unseren Spannungsteileransatz nutzen.
+Selon la manière dont les circuits oscillants en parallèle et en série sont utilisés dans le chemin du signal, on peut maintenant atténuer ou filtrer des plages de fréquences. Pour cela, nous voulons à nouveau utiliser notre approche de diviseur de tension.
 
 ---
 
-Beginnen wir zunächst mit den Schaltungen für *Bandsperren*. Dabei gibt es zwei Möglichkeiten, diese als Spannungsteiler aufzubauen: erstens den *Saugkreis* (vgl. Abbildung [ref:e_saugkreis]) und zweitens den *Sperrkreis* (vgl. Abbildung [ref:e_sperrkreis]). In den Abbildungen sind jeweils der frequenzabhängige Widerstand sowie die Ausgangsspannung dargestellt. Mithilfe unserer bekannten Regeln zum Spannungsteiler lassen sich diese Zusammenhänge ganz analog zu den zuvor behandelten RC-Gliedern herleiten und verstehen. Weil die Parallelschwingkreise in Resonanz einen hohen Widerstand haben, lassen sich diese gut als Sperrkreis seriell im Signalweg verwenden. Oder man verwendet den geringen Resonanzwiderstand eines Serienschwingkreises parallel zum Signalweg als Saugkreis. Oft wird aber auch hier beides in Kombination verwendet. Eine Anwendung für Bandsperren ist z.B. die Unterdrückung einzelner Bandbereiche, zum Beispiel wenn ein naheliegender UKW-Radiosender den Empfang stört.
+Commençons par les circuits pour les *filtres coupe-bande*. Il existe deux possibilités de les construire comme diviseurs de tension : d'une part le *circuit bouchon* (cf. figure [ref:e_saugkreis]) et d'autre part le *circuit bouchon* (cf. figure [ref:e_sperrkreis]). Dans les figures, la résistance dépendante de la fréquence ainsi que la tension de sortie sont représentées. À l'aide de nos règles connues sur le diviseur de tension, ces relations peuvent être dérivées et comprises de manière tout à fait analogue aux éléments RC traités précédemment. Parce que les circuits oscillants parallèles ont une résistance élevée en résonance, ceux-ci peuvent être utilisés de manière optimale comme circuit bouchon en série dans le chemin du signal. Ou bien on utilise la faible résistance de résonance d'un circuit oscillant en série en parallèle avec le chemin du signal comme circuit bouchon. Souvent, on utilise ici aussi les deux en combinaison. Une application pour les filtres coupe-bande est par exemple la suppression de certaines bandes de fréquences, par exemple lorsqu'un émetteur radio FM proche perturbe la réception.
 
 [question:ED204]
 [question:ED214] 
@@ -168,7 +168,7 @@ Beginnen wir zunächst mit den Schaltungen für *Bandsperren*. Dabei gibt es zwe
 
 ---
 
-Die zweite Kategorie an Schaltungen die man aus Schwingkreisen entwickeln kann sind *Bandpässe*. Hier gibt es auch wieder zwei Möglichkeiten diese als Spannungsteiler aufzubauen: erstens den *Leitkreis* (vgl. Abbildung [ref:e_leitkreis]) und zweitens den *Bandpass* (vgl. Abbildung [ref:e_bandpass]). Auch hier erfolgt die Herleitung wie gewohnt über das Verhalten eines Spannungsteilers. Für einen Bandpass setzt man Parallelschwingkreise parallel zum Signalweg, da diese für Frequenzen abseits der Resonanz einen geringen Widerstand haben und diese sozusagen "kurzschließen". Ein Serienschwingkreis seriell im Signalweg sorgt für eine zusätzliche Dämpfung abseits der Resonanz, während dieser bei der gewünschten Frequenz einen geringen Widerstand hat.
+La deuxième catégorie de circuits que l'on peut développer à partir des circuits oscillants sont les *passe-bande*. Ici aussi, il existe deux possibilités de les construire comme diviseurs de tension : d'une part le *circuit bouchon* (cf. figure [ref:e_leitkreis]) et d'autre part le *passe-bande* (cf. figure [ref:e_bandpass]). Ici aussi, la dérivation se fait comme d'habitude par le comportement d'un diviseur de tension. Pour un passe-bande, on met des circuits oscillants parallèles en parallèle avec le chemin du signal, car ceux-ci ont une faible résistance pour les fréquences éloignées de la résonance et les "court-circuitent" en quelque sorte. Un circuit oscillant en série dans le chemin du signal assure une atténuation supplémentaire en dehors de la résonance, tandis que celui-ci a une faible résistance à la fréquence souhaitée.
 
 [question:ED203]
 
@@ -177,13 +177,13 @@ Die zweite Kategorie an Schaltungen die man aus Schwingkreisen entwickeln kann s
 [picture:1041:e_bandpass:Qualitative Frequenzgänge eines Bandpasses]
 </margin>
 
-Ein naheliegendes Anwendungsbeispiel für Bandpässe ist ihr Einsatz in Empfängern, bei denen eine Vorfilterung bestimmter Frequenzbänder erforderlich ist. In diesem Fall wird ein Filter verwendet, das nur ein gewünschtes Frequenzband passieren lässt, während alle anderen Frequenzen gedämpft werden. Solche Bandpässe finden sich daher in nahezu jedem Empfänger, oft sogar separat für jedes einzelne Kurzwellenband. Für entsprechend hohe Leistungen ausgelegt, werden Bandpässe auch im Sendebetrieb eingesetzt, etwa bei gemeinsamen Contesten oder Fielddays, um gegenseitige Störungen zwischen benachbarten Stationen zu minimieren.
+Un exemple d'application évident pour les passe-bande est leur utilisation dans les récepteurs, où un préfiltre de certaines bandes de fréquences est nécessaire. Dans ce cas, un filtre est utilisé qui ne laisse passer qu'une bande de fréquences souhaitée, tandis que toutes les autres fréquences sont atténuées. De tels passe-bande se trouvent donc dans presque chaque récepteur, souvent même séparément pour chaque bande d'ondes courtes individuelle. Conçus pour des puissances suffisamment élevées, les passe-bande sont également utilisés en mode émission, par exemple lors de contests ou de fielddays communs, afin de minimiser les perturbations mutuelles entre les stations voisines.
 
-Um Bandpässe und Bandsperren zu bauen, können also sowohl Serien- als auch Parallelschwingkreise verwendet werden. Entscheidend ist, dabei zu beachten, wie sich die jeweiligen Schwingkreise im Resonanzfall verhalten. Entsprechend ihres Verhaltens können diese seriell im oder parallel am Signalweg angebracht sein - ggf. sogar mehrfach miteinander kombiniert. 
+Pour construire des passe-bandes et des filtres coupe-bande, on peut utiliser des circuits oscillants en série et en parallèle. Il est important de noter comment ces circuits oscillants se comportent dans le cas de la résonance. En fonction de leur comportement, ceux-ci peuvent être placés en série ou en parallèle sur le chemin du signal - éventuellement même combinés plusieurs fois entre eux.
 
-In Filtern lassen sich als Kondensatoren nur bestimmte, geeignete Typen verwenden.
-Elektrolytkondensatoren eignen sich für HF-Schaltungen zum Beispiel nicht, da ihre Kapazität zum einen stark frequenzabhängig ist, zum anderen weil sie bei hohen Frequenzen einen hohen Innenwiderstand haben. Folienkondensatoren eignen sich dagegen nicht, weil diese durch ihre Wicklungen (Eigeninduktivität) besonders ab dem Kurzwellenbereich stark frequenzabhängig sind und eine schlechte Güte haben. 
-Keramikkondensatoren haben dagegen nur kleine Verluste und die Kapazität ist nur wenig frequenz- und temperaturabhängig. Zudem sind diese auch für große Spannungen leicht zu beschaffen.
-Geeignet sind auch Kondensatoren aus Platten und Luft als Isolator, die man am ehesten als Drehkondensatoren antrifft. Für hohe Spannungen werden Drehkondensatoren in Antennentunern ebenfalls eingesetzt.
+Dans les filtres, seuls certains types de condensateurs appropriés peuvent être utilisés.
+Les condensateurs électrolytiques ne conviennent pas, par exemple, pour les circuits HF, car leur capacité est d'une part fortement dépendante de la fréquence, d'autre part parce qu'ils ont une résistance interne élevée à haute fréquence. Les condensateurs à film ne conviennent pas, car ceux-ci sont particulièrement dépendants de la fréquence en raison de leurs enroulements (inductance propre) à partir du domaine des ondes courtes et ont un facteur de qualité médiocre.
+Les condensateurs céramiques ont en revanche peu de pertes et la capacité n'est que peu dépendante de la fréquence et de la température. De plus, ceux-ci sont également faciles à obtenir pour de grandes tensions.
+Les condensateurs appropriés sont également ceux constitués de plaques et d'air comme isolant, que l'on rencontre le plus souvent sous forme de condensateurs rotatifs. Pour les hautes tensions, les condensateurs rotatifs sont également utilisés dans les accordeurs d’antenne.
 
 [question:ED216]

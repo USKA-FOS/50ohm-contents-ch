@@ -1,43 +1,43 @@
-### Bandbreite
+### Bande passante
 
-* Frequenzspektrum optimal ausnutzen
-* Minimaler Abstand zwischen SSB-Signalen sollte $\qty{3}{\kilo\hertz}$ betragen
-* Modulationsbandbreite darf dann maximal $\qty{2,7}{\kilo\hertz}$ sein
+* Optimiser le spectre de fréquences
+* La distance minimale entre les signaux SSB devrait être de $\qty{3}{\kilo\hertz}$
+* La bande passante de modulation ne doit pas dépasser $\qty{2,7}{\kilo\hertz}$
 
 ---
 [question:AE209]
 ---
 [question:AE208]
 ---
-### Übersteuerung
+### Surcharge
 
-* Bei Übersteuerung im Modulator entstehen Verzerrungen
-* Führt zu Nebenaussendungen $\rightarrow$ Splatter
-* Bandbreite steigt
-* Kann benachbarte Aussendungen stören
+* En cas de surcharge dans le modulateur, des distorsions se produisent
+* Cela entraîne des émissions parasites $\rightarrow$ Splatter
+* La bande passante augmente
+* Peut perturber les émissions voisines
 
 ---
 [question:AE205]
 ---
-### Equalizer
+### Égaliseur
 
-* Sprache ist individuell
-* Ziel: Bessere Ausnutzung des $\qty{2,7}{\kilo\hertz}$ Spektrums
-* Anhebung im höheren Frequenzbereich
-* Absenkung im tieferen Frequenzbereich
-* Oftmals Equalizer im Mikrofonverstärker
+* La parole est individuelle
+* Objectif : Meilleure utilisation du spectre de $\qty{2,7}{\kilo\hertz}$
+* Augmentation dans la plage de fréquences supérieure
+* Diminution dans la plage de fréquences inférieure
+* Souvent un égaliseur dans l'amplificateur de microphone
 
 ---
 [question:AE213]
 ---
-### Zweiton-Testsignal
+### Signal de test à deux tons
 
-* Zur Beurteilung der Qualität und Linearität eines SSB-Senders
-* NF-Signal aus zwei Sinus-Frequenzen
-* Dürfen in keinem ganzzahligen Verhältnis zueinander stehen
-* Meistens $\qty{700}{\hertz}$ und $\qty{1200}{\hertz}$
-* Ergibt eine sogenannte "HF-Schwebung" bei $\qty{500}{\hertz}$
-* Messung der Hüllkurvenleistung (PEP) möglich
+* Pour évaluer la qualité et la linéarité d'un émetteur SSB
+* Signal AF à partir de deux fréquences sinusoïdales
+* Ne doivent pas être dans un rapport entier l'une par rapport à l'autre
+* Généralement $\qty{700}{\hertz}$ et $\qty{1200}{\hertz}$
+* Donne une soi-disant "battement HF" à $\qty{500}{\hertz}$
+* Mesure de la puissance d'enveloppe de crête (PEP) possible
 
 <note>
 PEP = Peak Envelope Power

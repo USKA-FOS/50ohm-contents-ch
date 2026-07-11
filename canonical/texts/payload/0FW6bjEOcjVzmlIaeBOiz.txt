@@ -1,47 +1,47 @@
-## Funktionsprinzip
+## Principe de fonctionnement
 
 <left>
-* Einspeisung an *Strahler* ausgeführt als Dipol oder Faltdipol
-* Welle trifft auf längeren *Reflektor* und kürzeren *Direktor*
-* Es kann auch mehrere Direktoren geben
+* Alimentation à *rayonnement* réalisée sous forme de dipôle ou de dipôle plié
+* L'onde rencontre un *réflecteur* plus long et un *directeur* plus court
+* Il peut y avoir plusieurs directeurs
 </left>
 <right>
-[picture:531:e_yagi_uda_aufbau:Die Elemente einer Yagi-Uda-Antenne: 1 Reflektor, 2 Strahler, 3 Direktor]
+[picture:531:e_yagi_uda_aufbau:Les éléments d'une antenne Yagi-Uda : 1 réflecteur, 2 rayonnement, 3 directeur]
 </right>
 
 ---
 [question:EG111]
 ---
-### Parasitäre Elemente
+### Éléments parasites
 
-* Reflektor und Direktor schwingen ohne elektrische Verbindung zum Strahler zu haben
-* Haben auch keine Antenneneinspeisung
-* Nehmen dennoch Energie auf und geben sie wieder ab
+* Le réflecteur et le directeur oscillent sans avoir de connexion électrique au rayonnement
+* Ils n'ont pas non plus d'alimentation d'antenne
+* Ils captent néanmoins de l'énergie et la restituent
 
 ---
 [question:EG212]
 ---
-## Richtwirkung
+## Directivité
 
 <left>
-* Zwischen Strahler und Elementen gibt es eine räumliche und zeitliche Phasenverschiebung
-* Durch die Überlagerung der Abstrahlung entsteht eine Richtwirkung
-* *Destruktive Interferenz*: Wellen löschen sich aus
-* *Konstruktive Interferenz*: Wellen verstärken sich
+* Il y a un déphasage spatial et temporel entre le rayonnement et les éléments
+* La superposition des rayonnements crée une directivité
+* *Interférence destructive* : les ondes s'annulent
+* *Interférence constructive* : les ondes s'amplifient
 </left>
 <right>
 [include:applet_interferenz]
 </right>
 
 ---
-### Strahlungsdiagramm
+### Diagramme de rayonnement
 
 <left>
-* Große Hauptkeule in Richtung der Direktoren
-* Kleine Nebenkeulen und insbesondere Rückkeule
+* Grande lobe principal en direction des directeurs
+* Petits lobes secondaires et en particulier lobe arrière
 </left>
 <right>
-[picture:265:e_yagi_uda_strahlungsdiagramm:Strahlungsdiagramm einer Yagi-Uda-Antenne]
+[picture:265:e_yagi_uda_strahlungsdiagramm:Diagramme de rayonnement d'une antenne Yagi-Uda]
 </right>
 
 ---

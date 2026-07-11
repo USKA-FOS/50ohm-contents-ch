@@ -1,7 +1,7 @@
-* Mittels Transistoren lassen sich, abhängig von der Art der Schaltung, alle Arten von Signalen (Digital, NF oder HF) verstärken.
-* Dabei ist die Ausgangsleistung gegenüber der Eingangsleistung größer.
-* Es ist eine Spannungsquelle notwendig.
-* Wir haben im Kapitel Transistor schon gesehen, wie das funktioniert.
+* Au moyen de transistors, on peut amplifier tous les types de signaux (numériques, audiofréquences ou radiofréquences) selon le type de circuit.
+* La puissance de sortie est alors supérieure à la puissance d'entrée.
+* Une source de tension est nécessaire.
+* Nous avons déjà vu comment cela fonctionne dans le chapitre sur le transistor.
 
 ---
 
@@ -14,16 +14,16 @@
 ---
 
 <left>
-* *Linearität* bedeutet: Eine Verdoppelung des Eingangssignals muss zu einer Verdoppelung des Ausgangssignals führen
-* Linearitätsabweichungen sind unerwünscht, weil sie zu Frequenzen führen, die im Originalsignal nicht vorhanden sind.
-* Sie werden im NF-Bereich als *Verzerrungen* wahrgenommen und im HF-Bereich als *Oberwellen*
+* *Linéarité* signifie : Un doublement du signal d'entrée doit entraîner un doublement du signal de sortie
+* Les écarts de linéarité sont indésirables car ils entraînent des fréquences qui ne sont pas présentes dans le signal original.
+* Dans la plage des basses fréquences, ils sont perçus comme des *distorsions* et dans la plage des hautes fréquences comme des *harmoniques supérieures*
 </left>
 <right>
-[picture:828:e_verstaerker_linearitaet:Das Eingangssignal wird verstärkt. Bei Begrenzung durch fehlende Linearität wird das Ausgangssignal verformt.]
+[picture:828:e_verstaerker_linearitaet:Le signal d'entrée est amplifié. En cas de limitation due à l'absence de linéarité, le signal de sortie est déformé.]
 </right>
 <note>
-* Mehr zu Oberwellen im Abschnitt Unerwünschte Ausstrahlungen im Kapitel Sender
-* Ausnahme sind Verstärker für FM, da bei FM die Information mittels Frequenzänderung und nicht mit einer Änderung der Amplitude übermittelt wird.
+* Plus d'informations sur les harmoniques supérieures dans la section Émissions indésirables du chapitre Émetteur
+* Exception : les amplificateurs pour la FM, car dans la FM, l'information est transmise par une variation de fréquence et non par une variation d'amplitude.
 </note>
 
 ---
@@ -33,10 +33,10 @@
 ---
 
 <left>
-* NF-Verstärker finden im Amateurfunk zum Beispiel bei der Anhebung des Signals für eine Ausgabe im Lautsprecher Anwendung
+* Les amplificateurs audiofréquences sont utilisés dans le radioamateur, par exemple, pour amplifier le signal pour une sortie dans un haut-parleur
 </left>
 <right>
-[picture:763:e_nf_verstaerker:Schaltbild eines NF-Verstärkers]
+[picture:763:e_nf_verstaerker:Schéma d'un amplificateur audiofréquence]
 </right>
 
 ---
@@ -46,12 +46,12 @@
 ---
 
 <left>
-* Auch bei der Verstärkung des Mikrofonsignals findet man Verstärker
-* Verstärkung im Bereich von ca. $\qtyrange{300}{3000}{\hertz}$
-* Die Bandbreite liegt bei $\qty{2,7}{\kilo\hertz}$ oder darunter
+* On trouve également des amplificateurs pour l'amplification du signal du microphone
+* Amplification dans la plage d'environ $\qtyrange{300}{3000}{\hertz}$
+* La bande passante est de $\qty{2,7}{\kilo\hertz}$ ou moins
 </left>
 <right>
-[picture:246:e_frequenzgang_mikrofonverstaerker:Typischer Frequenzgang für einen Amateurfunk Mikrofonverstärker]
+[picture:246:e_frequenzgang_mikrofonverstaerker:Réponse en fréquence typique pour un amplificateur de microphone radioamateur]
 </right>
 
 ---
@@ -62,15 +62,15 @@
 
 [question:EF308]
 <note>
-* Erkennbar am Mikrofon vorher, das für SSB verwendet wird
+* Reconnaissable au microphone utilisé auparavant pour la SSB
 </note>
 
 ---
 
-* Die Stromzufuhr eines Senders sollte neben Stabilität auch einen guten Schutz gegen HF-Einstrahlung haben
-* Damit verhindert man das Einströmen von Hochfrequenz in das Stromnetz
+* L'alimentation d'un émetteur doit avoir non seulement une stabilité, mais aussi une bonne protection contre les rayonnements haute fréquence
+* Cela empêche l'entrée de haute fréquence dans le réseau électrique
 <note>
-* Mehr dazu im Abschnitt Unerwünschte Ausstrahlungen im Kapitel Sender
+* Plus d'informations à ce sujet dans la section Émissions indésirables du chapitre Émetteur
 </note>
 
 ---

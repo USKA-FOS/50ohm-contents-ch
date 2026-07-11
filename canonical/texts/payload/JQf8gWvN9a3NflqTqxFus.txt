@@ -1,23 +1,23 @@
 <left>
-[picture:489:a_frequenzvervielfacher_schaltung:Beispiel für eine Schaltung eines Frequenzvervielfachers mit Klasse-C-Verstärker ohne Basis-Vorspannung]
+[picture:489:a_frequenzvervielfacher_schaltung:Exemple de circuit d'un multiplicateur de fréquence avec un amplificateur de classe C sans polarisation de base]
 </left>
 <right>
-* Eingangssignal wird einer nichtlinearen Verzerrerstufe zugeführt
-* Z.B. Klasse-C-Verstärker, durch Betrieb ohne Basis-Vorspannung
-* Signal wird stark verzerrt
-* Mit Filter wird die gewünschte Oberschwingung selektiert
+* Le signal d'entrée est fourni à un étage de distorsion non linéaire
+* Par exemple, un amplificateur de classe C, fonctionnant sans polarisation de base
+* Le signal est fortement distordu
+* Avec un filtre, l'harmonique souhaitée est sélectionnée
 </right>
 <note>
-Verstärkerschaltungen kommen später im Kapitel.
+Les circuits amplificateurs seront traités plus tard dans le chapitre.
 </note>
 ---
 <left>
-[picture:489:a_frequenzvervielfacher_schaltung:Beispiel für eine Schaltung eines Frequenzvervielfachers mit Klasse-C-Verstärker ohne Basis-Vorspannung]
+[picture:489:a_frequenzvervielfacher_schaltung:Exemple de circuit d'un multiplicateur de fréquence avec un amplificateur de classe C sans polarisation de base]
 </left>
 <right>
-* Nur ganzzahlige Vielfache möglich
-* In der Regel wird die 2. oder 3. Harmonische verwendet
-* Höhere Frequenzvervielfachung mit hintereinander geschalteten Stufen
+* Seuls les multiples entiers sont possibles
+* En règle générale, la 2ème ou la 3ème harmonique est utilisée
+* Multiplication de fréquence plus élevée avec des étages connectés en série
 </right>
 <note>
 </note>
@@ -26,36 +26,36 @@ Verstärkerschaltungen kommen später im Kapitel.
 ---
 [question:AF311]
 ---
-### Schirmung
+### Blindage
 
-* Es werden Zwischenfrequenzen erzeugt
-* Diese führen oft zu Störungen
-* Alle Stufen müssen gut abgeschirmt sein
+* Des fréquences intermédiaires sont générées
+* Celles-ci provoquent souvent des perturbations
+* Tous les étages doivent être bien blindés
 
 ---
 [question:AF313]
 ---
-### Mehrere Vervielfacher-Stufen
+### Plusieurs étages multiplicateurs
 
-* Die einzelnen Frequenzen zwischen den Vervielfacher-Stufen können zu Störungen führen
-* Weg durch die einzelnen Stufen verfolgen und die einzelnen Frequenzen berechnen
-* Die Reihenfolge der Stufen ist wichtig zur Ermittlung der Störfrequenzen
+* Les fréquences individuelles entre les étages multiplicateurs peuvent provoquer des perturbations
+* Suivre les fréquences individuelles à travers les étages et calculer les fréquences individuelles
+* L'ordre des étages est important pour déterminer les fréquences perturbatrices
 
 ---
 [question:AF314]
 ---
-#### Lösungsweg
-* gegeben: $f_\text{Sender} = \qty{432}{\mega\hertz}$
-* gegeben: $f_\text{Grund} = \qty{12}{\mega\hertz}$
-* gegeben: $f_\text{QRM} = \qty{144}{\mega\hertz}$
-* gesucht: Vervielfachungskombination
+#### Méthode de solution
+* donné: $f_\text{émetteur} = \qty{432}{\mega\hertz}$
+* donné: $f_\text{base} = \qty{12}{\mega\hertz}$
+* donné: $f_\text{QRM} = \qty{144}{\mega\hertz}$
+* recherché: combinaison de multiplication
 
 <fragment>
-$n = \frac{f_\text{Sender}}{f_\text{QRM}} = \frac{\qty{432}{\mega\hertz}}{\qty{144}{\mega\hertz}} = 3$
+$n = \frac{f_\text{émetteur}}{f_\text{QRM}} = \frac{\qty{432}{\mega\hertz}}{\qty{144}{\mega\hertz}} = 3$
 </fragment>
 <fragment>
-Es ist nur die Kombination aus $\textrm{Grundfrequenz}\,\cdot 2\cdot 2\cdot 3\cdot 3$ möglich, da diese als letzte eine Verdreifachung der Frequenz vornimmt.
+Seule la combinaison de $\textrm{fréquence de base}\,\cdot 2\cdot 2\cdot 3\cdot 3$ est possible, car elle effectue une triple multiplication de la fréquence en dernier.
 </fragment>
 ---
-Gegenprobe:
-$\begin{split}f_\text{Sender} &= f_\text{Grund}\cdot 2\cdot 2\cdot 3\cdot 3\\ &= \qty{12}{\mega\hertz}\cdot 2\cdot 2\cdot 3\cdot 3\\ &= \qty{24}{\mega\hertz}\cdot 2\cdot 3\cdot 3\\ &= \qty{48}{\mega\hertz}\cdot 3\cdot 3\\ &= \bold{\qty{144}{\mega\hertz}}\cdot 3\\ &= \qty{432}{\mega\hertz}\end{split}$
+Vérification:
+$\begin{split}f_\text{émetteur} &= f_\text{base}\cdot 2\cdot 2\cdot 3\cdot 3\\ &= \qty{12}{\mega\hertz}\cdot 2\cdot 2\cdot 3\cdot 3\\ &= \qty{24}{\mega\hertz}\cdot 2\cdot 3\cdot 3\\ &= \qty{48}{\mega\hertz}\cdot 3\cdot 3\\ &= \bold{\qty{144}{\mega\hertz}}\cdot 3\\ &= \qty{432}{\mega\hertz}\end{split}$

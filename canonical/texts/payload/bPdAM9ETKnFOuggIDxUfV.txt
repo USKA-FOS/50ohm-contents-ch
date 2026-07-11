@@ -1,7 +1,7 @@
 <margin>
-[picture:828:begrenzverstärker:Wirkungsweise eine Begrenzverstärkers]
+[picture:828:begrenzverstärker:Fonctionnement d'un amplificateur limiteur]
 </margin>
 
-Beim FM-Empfang ist nur die Änderung der Frequenz des Eingangssignals für die Demodulation von Belang. Daher versucht man Amplitudenschwankungen und Störimpulse beim Empfang von FM-Signalen so gut wie möglich zu unterdrücken. Dies kann mit Hilfe eines Begrenzerverstärkers im ZF-Teil eines FM-Empfängers, der das Eingangssignal zunächst stark verstärkt und danach die Amplituden mit einer geeigneten Schaltung begrenzt erfolgen. Durch die Begrenzung bleibt die Information der Frequenzänderung (FM) erhalten. Amplitudenänderungen werden hierdurch jedoch stark unterdrückt, da der Signalpegel auf ein definiertes Maximum begrenzt wird und somit nur minimale Amplitudenschwankungen des Eingangssignals nach dem Begrenzerverstärker noch vorhanden sind.
+Lors de la réception FM, seule la variation de la fréquence du signal d'entrée est importante pour la démodulation. C'est pourquoi on essaie de supprimer autant que possible les fluctuations d'amplitude et les impulsions de perturbation lors de la réception des signaux FM. Cela peut être fait à l'aide d'un amplificateur limiteur dans la partie ZF d'un récepteur FM, qui amplifie d'abord fortement le signal d'entrée, puis limite les amplitudes avec un circuit approprié. Grâce à la limitation, l'information de la variation de fréquence (FM) est conservée. Les variations d'amplitude sont cependant fortement supprimées, car le niveau du signal est limité à un maximum défini et ainsi seules des fluctuations d'amplitude minimales du signal d'entrée sont encore présentes après l'amplificateur limiteur.
 
 [question:AF226]

@@ -1,23 +1,23 @@
-## Antennenlänge und Verkürzungsfaktor
+## Longueur d'antenne et facteur de réduction
 
-* Antennenlänge hängt vom Verkürzungsfaktor ab  
-* Halbwellendipol: Hälfte der Wellenlänge $\times$ Verkürzungsfaktor  
-* Viertelwellenstrahler: Viertel der Wellenlänge $\times$ Verkürzungsfaktor  
-* Typischer Wert: $\num{0,95}$  
+* La longueur d'antenne dépend du facteur de réduction  
+* Dipôle demi-onde : moitié de la longueur d’onde $\times$ facteur de réduction  
+* Antenne quart d’onde : quart de la longueur d’onde $\times$ facteur de réduction  
+* Valeur typique : $\num{0,95}$  
 
 ---
 
 [question:AG101]
 
 ---
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $f = \qty{14,2}{\mega\hertz}$
-* gegeben: $k_v = 0,95$
+* donné : $f = \qty{14,2}{\mega\hertz}$
+* donné : $k_v = 0,95$
 </left>
 <right>
-* gegeben: $\frac{\lambda}{2}$-Dipol
-* gesucht: $l_G$
+* donné : Dipôle $\frac{\lambda}{2}$
+* recherché : $l_G$
 </right>
 
 <left>
@@ -37,14 +37,14 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,9
 
 ---
 
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $f = \qty{7,1}{\mega\hertz}$
-* gegeben: $k_v = 0,95$
+* donné : $f = \qty{7,1}{\mega\hertz}$
+* donné : $k_v = 0,95$
 </left>
 <right>
-* gegeben: $\frac{\lambda}{2}$-Dipol
-* gesucht: $l_G$
+* donné : Dipôle $\frac{\lambda}{2}$
+* recherché : $l_G$
 </right>
 
 <left>
@@ -63,14 +63,14 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,9
 [question:AG103]
 
 ---
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $l_G = \qty{20}{\meter}$
-* gegeben: $k_v = 0,95$
+* donné : $l_G = \qty{20}{\meter}$
+* donné : $k_v = 0,95$
 </left>
 <right>
-* gegeben: Dipol
-* gesucht: $f$
+* donné : Dipôle
+* recherché : $f$
 </right>
 
 <left>
@@ -90,14 +90,14 @@ $\begin{split}l_E &= \frac{\lambda}{2}\\ &= \frac{1}{2} \cdot \frac{c}{f}\\ \Rig
 
 ---
 
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $f = \qty{7,1}{\mega\hertz}$
-* gegeben: $k_v = 0,95$
+* donné : $f = \qty{7,1}{\mega\hertz}$
+* donné : $k_v = 0,95$
 </left>
 <right>
-* gegeben: $\frac{\lambda}{4}$-Groundplane
-* gesucht: $l_G$
+* donné : Groundplane $\frac{\lambda}{4}$
+* recherché : $l_G$
 </right>
 
 <left>
@@ -117,14 +117,14 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,9
 
 ---
 
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $f = \qty{14,2}{\mega\hertz}$
-* gegeben: $k_v = 0,97$
+* donné : $f = \qty{14,2}{\mega\hertz}$
+* donné : $k_v = 0,97$
 </left>
 <right>
-* gegeben: $\frac{5}{8}\lambda$-Vertikalantenne
-* gesucht: $l_G$
+* donné : Antenne verticale $\frac{5}{8}\lambda$
+* recherché : $l_G$
 </right>
 
 <left>
@@ -140,11 +140,11 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,9
 
 ---
 
-### Ursache des Verkürzungsfaktors
+### Cause du facteur de réduction
 
-* Leiter sind nicht unendlich dünn  
-* Zusätzliche Kapazität zwischen Leiter und Umgebung  
-* Beeinflusst die effektive elektrische Länge der Antenne  
+* Les conducteurs ne sont pas infiniment fins  
+* Capacité supplémentaire entre le conducteur et l'environnement  
+* Influence la longueur électrique efficace de l'antenne  
 
 ---
 
@@ -152,13 +152,13 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,9
 
 ---
 
-### Verlängerungsfaktor bei Schleifenantennen
+### Facteur d'allongement des antennes en boucle
 
-* Unterschied zum Verkürzungsfaktor  
-* Führt zu einer scheinbaren Verlängerung der Antenne  
+* Différence avec le facteur de réduction  
+* Conduit à un allongement apparent de l'antenne  
 
 <note>
-Ein Verlängerungsfaktor bedeutet <u>nicht</u>, dass sich die Welle mit *Überlichtgeschwindigkeit* ausbreitet. Es handelt sich um die Phasengeschwindigkeit, nicht um die Gruppengeschwindigkeit.
+Un facteur d'allongement ne signifie <u>pas</u> que l'onde se propage à une *vitesse supérieure à celle de la lumière*. Il s'agit de la vitesse de phase, non de la vitesse de groupe.
 </note>
 
 ---
@@ -167,14 +167,14 @@ Ein Verlängerungsfaktor bedeutet <u>nicht</u>, dass sich die Welle mit *Überli
 
 ---
 
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $f = \qty{7,1}{\mega\hertz}$
-* gegeben: $k_v = 1,02$
+* donné : $f = \qty{7,1}{\mega\hertz}$
+* donné : $k_v = 1,02$
 </left>
 <right>
-* gegeben: Delta-Loop
-* gesucht: $l_G$
+* donné : Delta-Loop
+* recherché : $l_G$
 </right>
 
 <left>
@@ -190,11 +190,11 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 1,0
 
 ---
 
-### Verkürzungsfaktor bei Paralleldrahtleitungen
+### Facteur de réduction des lignes à deux fils parallèles
 
-* Welle befindet sich zwischen den Leitern  
-* Skineffekt verhindert tiefes Eindringen ins Metall  
-* Verkürzungsfaktor annähernd $1$ (wie Freiraumausbreitung)  
+* L'onde se trouve entre les conducteurs  
+* L'effet de peau empêche une pénétration profonde dans le métal  
+* Facteur de réduction approximativement $1$ (comme la propagation en espace libre)  
 
 ---
 
@@ -202,13 +202,13 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 1,0
 
 ---
 
-### Verkürzungsfaktor bei Koaxialkabeln
+### Facteur de réduction des câbles coaxiaux
 
-* Welle befindet sich im Dielektrikum zwischen den Leitern
-* Beispiel für Polyäthylen: $\epsilon_\mathrm{r} = 2,29$  
-* Skineffekt verhindert tiefes Eindringen ins Metall  
-* Geometrie des Kabels hat kaum Einfluss  
-* Berechnung des Verkürzungsfaktors:  
+* L'onde se trouve dans le diélectrique entre les conducteurs
+* Exemple pour le polyéthylène : $\epsilon_\mathrm{r} = 2,29$  
+* L'effet de peau empêche une pénétration profonde dans le métal  
+* La géométrie du câble a peu d'influence  
+* Calcul du facteur de réduction :  
 
 <fragment>
 $v_\mathrm{k} = \dfrac{1}{\sqrt{\epsilon_\mathrm{r}}}$
@@ -223,10 +223,10 @@ $v_\mathrm{k} = \dfrac{1}{\sqrt{\epsilon_\mathrm{r}}}$
 [question:AG316]
 
 ---
-#### Lösungsweg
-* gegeben: $f = \qty{145}{\mega\hertz}$
-* gegeben: $k_v = 0,66$
-* gesucht: $l_G$
+#### Solution
+* donné : $f = \qty{145}{\mega\hertz}$
+* donné : $k_v = 0,66$
+* recherché : $l_G$
 
 <left>
 <fragment>

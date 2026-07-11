@@ -1,23 +1,23 @@
-* Aufteilung des Bandes in verschiedene Frequenzsegmente
-* Bevorzugte Übertragungsverfahren und Nutzung
+* Division de la bande en différents segments de fréquence
+* Procédés de transmission et utilisation préférentiels
 
 ---
 
-[photo:102:n_iaru_bandplan_2m:IARU-Bandplan $\qty{2}{\meter}$]
+[photo:102:n_iaru_bandplan_2m:Plan de bande IARU $\qty{2}{\meter}$]
 
 ---
 
-## Anruffrequenz
+## Fréquence d'appel
 
-Um schnell Funkpartner zu finden
+Pour trouver rapidement des partenaires radio
 
-* FM-Sprechfunk ("FM calling")
-* Digitale Telefonie ("digital voice calling")
+* Radiotéléphonie FM ("FM calling")
+* Téléphonie numérique ("digital voice calling")
 
 <note>
-* FM-Sprechfunk ist analog
-* Digitale Übertragungsverfahren kann alles Digitales sein
-* Mehr dazu später im Kurs
+* La radiotéléphonie FM est analogique
+* Les procédés de transmission numériques peuvent être tout ce qui est numérique
+* Plus de détails plus tard dans le cours
 </note>
 
 ---
@@ -26,38 +26,38 @@ Um schnell Funkpartner zu finden
 [question:BC207]
 ---
 
-## Frequenzwechsel
+## Changement de fréquence
 
-* Anruffrequenzen für Anrufe freihalten
-* Nach Verbindungsaufbau auf eine andere Frequenz verständigen
-* Nützliche Frequenz aus dem Bandplan entnehmen
-* Frequenz wechseln
+* Garder les fréquences d'appel libres pour les appels
+* Après l'établissement de la liaison, s'accorder sur une autre fréquence
+* Prendre une fréquence utile dans le plan de bande
+* Changer de fréquence
 
 ---
 [question:BC209]
 ---
-## Analoge SSB-Telefonie
+## Téléphonie analogique SSB
 
-* Es gibt keine Anruffrequenz
-* Stattdessen ein *Aktivitätszentrum* bzw. *center of activity*
-* Anrufe sollen im Umfeld dieser Frequenz stattfinden
-* Es kann aber der ganze "SSB"-Bereich genutzt werden
+* Il n'y a pas de fréquence d'appel
+* Au lieu de cela, un *centre d'activité* ou *center of activity*
+* Les appels doivent avoir lieu dans l'environnement de cette fréquence
+* Mais toute la zone "SSB" peut être utilisée
 
 ---
 [question:BC211]
 ---
 [question:BC210]
 ---
-## Reservierte Frequenzbereiche
+## Zones de fréquence réservées
 
-* Satelliten-Up- und Downlink ("satellite uplink", "satellite downlink")
-* Baken ("beacons")
-* Relaisfunkstellen, Eingabe und Ausgabe ("repeater input", "repeater output")
-* Weltraumkommunikation ("space communication")
-* Morsetelegrafie ("CW")
+* Satellites Up- et Downlink ("satellite uplink", "satellite downlink")
+* Balises ("beacons")
+* Relais, entrée et sortie ("repeater input", "repeater output")
+* Communication spatiale ("space communication")
+* Télégraphie Morse ("CW")
 
 <note>
-* Andersartige Verbindungen darauf sollten vermieden werden
+* D'autres types de liaisons doivent être évités
 </note>
 ---
 [question:BC214]

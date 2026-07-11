@@ -1,28 +1,28 @@
-* Eines der wichtigsten Schaltungen im Amateurfunk
-* Erzeugung von hochfrequenten Schwingungen in Sendern und Empfängern
-* Herz eines jeden Funkgeräts
+* L'un des circuits les plus importants en radioamateur
+* Génération d'oscillations haute fréquence dans les émetteurs et les récepteurs
+* Cœur de chaque appareil radio
 
 ---
-### Schleifenverstärkung
+### Gain de boucle
 
-* Verstärkerelement, dessen Ausgangssignal wieder auf den Eingang rückgekoppelt wird
-* Gleichphasig
-* Amplitude mindestens gleich groß $\rightarrow$ *Schleifenverstärkung größer $1$*
-* Notwendig für Selbsterregung und hält die Schwingung aufrecht
+* Élément amplificateur dont le signal de sortie est à nouveau rétroaction sur l'entrée
+* En phase
+* Amplitude au moins égale $\rightarrow$ *Gain de boucle supérieur à $1$*
+* Nécessaire pour l'auto-excitation et maintient l'oscillation
 
 ---
 [question:AD613]
 ---
 <left>
-[picture:760:a_oszillator_schaltungen_oszillator:Schaltung eines kapazitiv rückgekoppelten Dreipunkt-Oszillators]
+[picture:760:a_oszillator_schaltungen_oszillator:Circuit d'un oscillateur à rétroaction capacitive à trois points]
 </left>
 <right>
-* Ausgangssignal wird vom Emitter über einen kapazitiven Spannungsteiler auf die Basis zurückgekoppelt
-* Frequenz wird durch Schwingkreis in der Basis und den parallel geschalteten kapazitiven Spannungsteiler bestimmt
-* Oszillator in Kollektorschaltung
+* Le signal de sortie est rétroaction de l'émetteur via un diviseur de tension capacitif à la base
+* La fréquence est déterminée par le circuit oscillant dans la base et le diviseur de tension capacitif monté en parallèle
+* Oscillateur en configuration collecteur
 </right>
 <note>
-Transistorschaltungen kommen etwas später im Kapitel
+Les circuits à transistors viendront un peu plus tard dans le chapitre
 </note>
 
 ---
@@ -31,43 +31,43 @@ Transistorschaltungen kommen etwas später im Kapitel
 [question:AD616]
 ---
 <left>
-[picture:497:a_oszillator_schaltungen_quarzoszillator:Schaltung eines Quarzoszillators in Kollektorschaltung mit Betrieb des Quarzes auf Grundfrequenz]  
+[picture:497:a_oszillator_schaltungen_quarzoszillator:Circuit d'un oscillateur à quartz en configuration collecteur avec fonctionnement du quartz à la fréquence fondamentale]
 </left>
 <right>
-* Schwingkreis durch Quarz ersetzt
-* Quarz kann in Grundfrequenz oder auf Harmonische schwingen $\rightarrow$ Verstärker muss frequenzselektiv z.B. mit Schwingkreis dafür ausgelegt sein
+* Le circuit oscillant est remplacé par un quartz
+* Le quartz peut osciller à la fréquence fondamentale ou sur les harmoniques $\rightarrow$ L'amplificateur doit être conçu de manière sélective en fréquence, par exemple avec un circuit oscillant
 </right>
 <note>
-Hier ist kein weiterer Schwingkreis vorhanden, also wird der Quarz in Grundfrequenz betrieben
+Il n'y a pas d'autre circuit oscillant ici, donc le quartz est exploité à la fréquence fondamentale
 </note>
 
 ---
 [question:AD617]
 ---
-### Auskopplung des Signals
+### Couplage du signal
 
-* Immer am niederohmigsten Punkt eines Oszillators
-* Dadurch wird der Oszillator wenig belastet
-* Bei Kollektorschaltung am Emitter des Transistors
+* Toujours au point de plus faible impédance d'un oscillateur
+* Ainsi, l'oscillateur est peu chargé
+* Dans le cas d'un circuit collecteur, à l'émetteur du transistor
 
 ---
-### Pufferstufe
+### Étage tampon
 
-* Pufferstufe nachschalten
-* Entkoppelt den Oszillator von weiteren Schaltungsteilen
-* Frequenz wird nicht durch Belastung des Ausgangs beeinflusst
-* Pufferstufe ist oft eine Kollektorschaltung (als Emitterfolger) und hat eine hohe Eingangsimpedanz
+* Ajouter un étage tampon
+* Découple l'oscillateur des autres parties du circuit
+* La fréquence n'est pas influencée par la charge de la sortie
+* L'étage tampon est souvent un circuit collecteur (en tant que suiveur d'émetteur) et a une impédance d'entrée élevée
 
 ---
 [question:AD610]
 ---
 [question:AD615]
 ---
-### Messung
+### Mesure
 
-* Eine Messung sollte nach der Pufferstufe durchgeführt werden
-* Andernfalls wird der Oszillator durch die parasitären Kapazitäten belastet
-* Frequenz wird dadurch beeinflusst
+* Une mesure doit être effectuée après l'étage tampon
+* Sinon, l'oscillateur est chargé par les capacités parasites
+* La fréquence est ainsi influencée
 
 ---
 [question:AD619]

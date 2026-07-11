@@ -1,38 +1,38 @@
-## Nahfeld und seine Unterteilung
+## Champ proche et sa subdivision
 
-* Das Nahfeld gliedert sich in das reaktive und das strahlende Nahfeld
-* In den meisten Fällen kann das strahlende Nahfeld wie das Fernfeld behandelt werden
+* Le champ proche se divise en champ proche réactif et champ proche rayonnant
+* Dans la plupart des cas, le champ proche rayonnant peut être traité comme le champ lointain
 
 ---
-### Reaktives Nahfeld
+### Champ proche réactif
 
-* Im reaktiven Nahfeld besteht keine konstante Phasenbeziehung zwischen elektrischer und magnetischer Feldstärke
+* Dans le champ proche réactif, il n'y a pas de relation de phase constante entre l'intensité de champ électrique et magnétique
 
 ---
 [question:AK101]
 
 ---
-## Fernfeld und konstante Phasenbeziehung
+## Champ lointain et relation de phase constante
 
-* Eine konstante Phasenbeziehung zwischen elektrischer und magnetischer Feldstärke entsteht erst im Fernfeld
-* Das eigentliche Fernfeld beginnt erst bei $4\cdot\lambda$
-* Wird die Fernfeld-Näherungsformel im strahlenden Nahfeld verwendet, ergibt sich eine höhere, konservative Feldstärke
-* Dies gilt nicht für magnetische und sehr kurze Antennen
-
----
-### Übergang vom reaktiven Nahfeld zum strahlenden Nahfeld
-
-* Der Übergang ist abhängig von der Wellenlänge
-* Erfüllte Bedingung: $d > \frac{\lambda}{2\pi}$
-* Beispiel: Bei $\lambda = \qty{20}{\meter}$ liegt der Übergang bei ca. $d \approx \qty{3,18}{\meter}$
+* Une relation de phase constante entre l'intensité de champ électrique et magnétique ne se produit qu'au champ lointain
+* Le champ lointain proprement dit ne commence qu'à $4\cdot\lambda$
+* Si la formule d'approximation du champ lointain est utilisée dans le champ proche rayonnant, une intensité de champ plus élevée, conservatrice, est obtenue
+* Cela ne s'applique pas aux antennes magnétiques et très courtes
 
 ---
-### Personenschutzabstände im Fernfeld
+### Transition du champ proche réactif au champ proche rayonnant
 
-* Im Fernfeld kann eine Näherungsformel zur Berechnung von Personenschutzabständen angewendet werden
-* Formel: $d = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$
-* Gilt für die meisten Antennenformen, wenn $d > \frac{\lambda}{2\pi}$ erfüllt ist
-* Bei kleinen Antennen oder Sicherheitsabständen im Nahfeld ist die Formel nicht anwendbar
+* La transition dépend de la longueur d'onde
+* Condition remplie: $d > \frac{\lambda}{2\pi}$
+* Exemple: Pour $\lambda = \qty{20}{\meter}$, la transition se situe à environ $d \approx \qty{3,18}{\meter}$
+
+---
+### Distances de protection des personnes dans le champ lointain
+
+* Dans le champ lointain, une formule d'approximation peut être utilisée pour calculer les distances de protection des personnes
+* Formule: $d = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$
+* Valable pour la plupart des formes d'antennes, si $d > \frac{\lambda}{2\pi}$ est rempli
+* La formule n'est pas applicable pour les petites antennes ou les distances de sécurité dans le champ proche
 
 ---
 [question:AK103]

@@ -1,26 +1,26 @@
-Bei mittengespeisten Dipolen im Freiraum liegt die Speiseimpedanz bei $\qty{73,1}{\ohm}$, also in der Größenordnung von $\qty{50}{\ohm}$ - aber eben nicht exakt! Dies gilt auch bei einer Aufbauhöhe von einer Wellenlänge oder darüber hinaus.
+Dans le cas de dipôles alimentés au centre dans l'espace libre, l'impédance d'alimentation est de $\qty{73,1}{\ohm}$, donc de l'ordre de $\qty{50}{\ohm}$ - mais pas exactement ! Cela s'applique également pour une hauteur de montage d'une longueur d'onde ou plus.
 
 <margin>
-[picture:788:e_fusspunktimpedanz_dipol:Fußpolimpedanz eines Dipols in Abhängigkeit von der Aufbauhöhe (Simuliert mit NECPP)]
+[picture:788:e_fusspunktimpedanz_dipol:Impédance de pied d'un dipôle en fonction de la hauteur de montage (Simulé avec NECPP)]
 </margin>
 
 [question:EG207]
 
-Bei Wechselwirkung mit dem Boden aufgrund geringerer Aufbauhöhe bewegt sich die Speiseimpedanz eines mittengespeisten Dipols im Bereich von $\qty{40}{\ohm}$ bis $\qty{90}{\ohm}$ wie in der Abbildung [ref:e_fusspunktimpedanz_dipol] dargestellt. 
+En cas d'interaction avec le sol en raison d'une hauteur de montage plus faible, l'impédance d'alimentation d'un dipôle alimenté au centre se situe dans la plage de $\qty{40}{\ohm}$ à $\qty{90}{\ohm}$ comme le montre la figure [ref:e_fusspunktimpedanz_dipol]. 
 
 [question:EG208]
 [question:EG209]
 
-Führt man einen Dipol als Faltdipol aus, dann verdoppelt sich aufgrund der in Reihe geschalteten jedoch teilweise parallel geführten Antennenabschnitte die anliegende Spannung und der benötigte Strom halbiert sich. Dies entspricht einer Vervierfachung der Speiseimpedanz. Deshalb hat ein Faltdipol eine Fußpunktimpedanz von $\qtyrange{240}{300}{\ohm}$.
+Si un dipôle est réalisé sous forme de dipôle plié, la tension appliquée est doublée en raison des sections d'antenne connectées en série mais partiellement en parallèle, et le courant nécessaire est divisé par deux. Cela correspond à un quadruplement de l'impédance d'alimentation. C'est pourquoi un dipôle plié a une impédance de pied de $\qtyrange{240}{300}{\ohm}$.
 
 [question:EG210]
 
 ---
 
-Bei einer Groundplane-Antenne hingegen entfällt der eine Dipolschenkel und wird durch eine Erde mit möglichst geringem Widerstand ersetzt. Hier kommt man also auf einen Speisewiderstand von $\frac{\qty{73,1}{\ohm}}{2} \approx \qty{37}{\ohm}$, was der Hälfte des Speisewiderstands eines Dipols im Freiraum entspricht. Bei Groundplaneantennen mit um $\qty{45}{\degree}$ nach unten abgewinkelten Radialen ergibt sich durch zusätzliche Abstrahlung durch die Radiale ein Speisewiderstand von genau $\qty{50}{\ohm}$, so dass keine weitere Anpassung an übliche Koaxialkabel notwendig wird. Deshalb liegt die Fußpunktimpedanz einer Groundplane zwischen $\qtyrange{30}{50}{\ohm}$.
+Dans le cas d'une antenne Groundplane, en revanche, l'un des bras du dipôle est supprimé et remplacé par une terre avec une résistance aussi faible que possible. On obtient donc une résistance d'alimentation de $\frac{\qty{73,1}{\ohm}}{2} \approx \qty{37}{\ohm}$, ce qui correspond à la moitié de la résistance d'alimentation d'un dipôle dans l'espace libre. Dans le cas des antennes Groundplane avec des radiales inclinées à $\qty{45}{\degree}$ vers le bas, une résistance d'alimentation de exactement $\qty{50}{\ohm}$ est obtenue grâce au rayonnement supplémentaire par la radiale, de sorte qu'aucune adaptation supplémentaire aux câbles coaxiaux usuels n'est nécessaire. C'est pourquoi l'impédance de pied d'une antenne Groundplane se situe entre $\qtyrange{30}{50}{\ohm}$.
 
 <indepth>
-Bei schlechter Erdung oder Wechselwirkung mit dem Erdboden kann sich für eine Groundplane-Antenne auch bei horizontal verlegten Radialen (z. B. auf der Erdoberfläche) ein Speisewiderstand von über $\qty{37}{\ohm}$ ergeben. Der zusätzliche Widerstand ergibt sich dann durch Bodenverluste.
+En cas de mauvaise mise à la terre ou d'interaction avec le sol, une résistance d'alimentation supérieure à $\qty{37}{\ohm}$ peut également résulter pour une antenne Groundplane, même avec des radiales posées horizontalement (par exemple sur la surface de la terre). La résistance supplémentaire résulte alors des pertes au sol.
 </indepth>
 
 [question:EG211]

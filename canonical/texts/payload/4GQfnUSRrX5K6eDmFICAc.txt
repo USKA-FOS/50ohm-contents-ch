@@ -1,26 +1,26 @@
-* Frequenz des Oszillators ist veränderbar
-* Beispielsweise durch Kapazitätsdiode im Schwingkreis $\rightarrow$ Kapazität wird durch Gleichspannung beeinflusst
-* Oszillator wird durch eine Steuerspannung abstimmbar
+* La fréquence de l'oscillateur est variable
+* Par exemple, par une diode de capacité dans le circuit oscillant $\rightarrow$ la capacité est influencée par la tension continue
+* L'oscillateur est accordable par une tension de commande
 
 ---
 [question:AD601]
 ---
-### Rückkopplung
+### Réaction
 <left>
-* Unerwünschte Rückkopplungen, z.B. vom HF-Signal, führen zur Frequenzinstabilität
-* Das gilt für alle Oszillatoren
+* Les réactions indésirables, par exemple du signal HF, entraînent une instabilité de fréquence
+* Cela s'applique à tous les oscillateurs
 </left>
 <right>
 <fragment>
-Ursachen:
-* Phasenverschiebung
-* Verstärkungsänderungen
-* Mischprodukte
-* Temperaturänderungen
+Causes:
+* Déphasage
+* Changements d'amplification
+* Produits de mélange
+* Changements de température
 </fragment>
 </right>
 <note>
-Ursachen sind nicht prüfungsrelevant
+Les causes ne sont pas pertinentes pour l'examen
 </note>
 
 ---

@@ -1,18 +1,18 @@
 
-Es ist auch möglich, einen Datenstrom auf mehrere Träger zu verteilen, die auf unterschiedlichen, jedoch nahegelegenen Frequenzen liegen. Die Träger können allerdings nicht beliebig dicht nebeneinander liegen, da sie aufgrund der zwangsläufig entstehenden Seitenbänder eine gewisse Breite aufweisen.
+Il est également possible de répartir un flux de données sur plusieurs porteuses, qui se trouvent sur des fréquences différentes, mais proches. Les porteuses ne peuvent cependant pas être placées de manière arbitrairement dense les unes à côté des autres, car elles présentent une certaine largeur en raison des bandes latérales inévitables.
 
-Bei der orthogonalen Frequenzmodulation (Orthogonal Frequency-Division Multiplexing, OFDM) werden nun die einzelnen Träger in genau dem Abstand platziert, wo ein gegenseitiges Stören untereinander (ein sogenanntes "Übersprechen") möglichst vermieden wird.
+Dans le cas de la modulation de fréquence orthogonale (Orthogonal Frequency-Division Multiplexing, OFDM), les différentes porteuses sont placées à une distance précise où une interférence mutuelle (appelée "diaphonie") est évitée autant que possible.
 
-Je höher die Symbolrate pro Träger ist, umso größer muss der Abstand der Träger gewählt werden. Aus diesem Grunde wählt man oft eine kleinere Symbolrate für jeden einzelnen Träger, damit entsprechend mehr Träger Platz finden. Die übertragene Informationsmenge bleibt hierbei gleich, denn obwohl pro Träger weniger Information übertragen werden kann, können mehr Träger nebeneinander verwendet werden.
+Plus le débit de symboles par porteuse est élevé, plus la distance entre les porteuses doit être grande. C'est pourquoi on choisit souvent un débit de symboles plus faible pour chaque porteuse individuelle, afin que plus de porteuses puissent être placées. La quantité d'informations transmises reste la même, car bien que moins d'informations puissent être transmises par porteuse, plus de porteuses peuvent être utilisées côte à côte.
 
-Ein Vorteil dieses Vorgehens liegt darin, dass schmalbandige Störungen nur einen oder wenige Träger stören. Im Zusammenspiel mit Fehlerkorrekturverfahren mit redundanter Datenübertragung, die wir später kennenlernen werden, ist es so möglich, trotz schmalbandiger Störungen eine fehlerfreie Übertragung zu erreichen.
+Un avantage de cette procédure réside dans le fait que les perturbations à bande étroite ne perturbent qu'une ou quelques porteuses. En combinaison avec des procédés de correction d'erreurs avec transmission de données redondantes, que nous apprendrons plus tard, il est ainsi possible d'obtenir une transmission sans erreur malgré les perturbations à bande étroite.
 
 <margin>
-[picture:704:ofdm:Frequenzspektrum eines einfachen OFDM-Signals]
+[picture:704:ofdm:Spectre de fréquence d'un signal OFDM simple]
 </margin>
 
 [question:AE421]
 
-Ein weiterer Vorteil ergibt sich aus der geringeren Symbolrate jedes einzelnen Trägers. Durch die geringere Symbolrate ist die Dauer eines jeden Symbols länger. Im Falle zeitlicher Verschiebungen aufgrund von Mehrwegeausbreitung ist der Anteil der Überlagerung zwischen den Signalen (sogenannte Intersymbolinterferenz oder Symbolübersprechen) dann entsprechend geringer. Im Falle von Mehrwegeausbreitung ist OFDM daher besonders vorteilhaft.
+Un autre avantage découle du débit de symboles plus faible de chaque porteuse individuelle. Grâce au débit de symboles plus faible, la durée de chaque symbole est plus longue. En cas de décalages temporels dus à la propagation multitrajets, la proportion de superposition entre les signaux (appelée interférence intersymboles ou diaphonie de symboles) est alors plus faible. En cas de propagation multitrajets, l'OFDM est donc particulièrement avantageux.
 
 [question:AE422]

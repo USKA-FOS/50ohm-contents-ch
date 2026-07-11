@@ -1,26 +1,26 @@
-Wir haben gelernt, dass bei Amplitudenmodulation zusätzlich zum Träger zwei Seitenbänder vorhanden sind. Diese werden unteres bzw. oberes Seitenband genannt. Wie in Abbildung [ref:n_seitenband_2] zu sehen ist, befindet sich das "untere Seitenband" in der Frequenz unterhalb des Trägers und das "obere Seitenband" oberhalb. Im Englischen wird von "lower sideband" (LSB) für das untere und "upper sideband" (USB) für das obere Seitenband gesprochen. 
+Nous avons appris que lors de la modulation d'amplitude, en plus de la porteuse, deux bandes latérales sont présentes. Celles-ci sont appelées bande latérale inférieure et supérieure. Comme le montre la figure [ref:n_seitenband_2], la "bande latérale inférieure" se situe en dessous de la fréquence de la porteuse et la "bande latérale supérieure" au-dessus. En anglais, on parle de "lower sideband" (LSB) pour la bande inférieure et de "upper sideband" (USB) pour la bande supérieure. 
 
 <margin>
-[picture:482:n_seitenband_2:Amplitudenmodulation, Träger mit unterem (a) und oberem (b) Seitenband]
+[picture:482:n_seitenband_2:Modulation d'amplitude, porteuse avec bande latérale inférieure (a) et supérieure (b)]
 </margin>
 
 <attention>
-Die gebräuchliche Abkürzung *USB* steht nicht für das untere Seitenband, sondern entsprechend der englischsprachigen Bezeichnung für das *obere Seitenband*!
+L'abréviation courante *USB* ne désigne pas la bande latérale inférieure, mais selon la désignation en anglais, la *bande latérale supérieure*!
 </attention>
 
-Bemerkenswert ist, dass sich die gesamte Information des Modulationssignals komplett in den Seitenbändern befindet, und zwar identisch gespiegelt im unteren und oberen Seitenband. Der Träger selbst enthält gar keine Information! Eigentlich reicht es also, nur ein Seitenband auszusenden und auf den Träger und das andere Seitenband zu verzichten. Genau so wird es bei der Einseitenbandmodulation gemacht. Gebräuchlicher ist dafür die englische Bezeichnung single-sideband modulation, kurz *SSB*. Diese kann technisch beispielsweise dadurch realisiert werden, dass der Träger während der Modulation unterdrückt wird und man das gewünschte Seitenband ausfiltert.
+Il est remarquable que toute l'information du signal de modulation se trouve complètement dans les bandes latérales, et ce de manière identique, reflétée dans la bande latérale inférieure et supérieure. La porteuse elle-même ne contient aucune information! En théorie, il suffirait donc d'émettre une seule bande latérale et de renoncer à la porteuse et à l'autre bande latérale. C'est exactement ce qui est fait dans le cas de la modulation à bande latérale unique. L'appellation courante pour cela est la désignation anglaise *single-sideband modulation*, abrégée en *SSB*. Cela peut être réalisé techniquement, par exemple, en supprimant la porteuse pendant la modulation et en filtrant la bande latérale souhaitée.
 
-Der Vorteil von SSB ist, dass keine Sendeleistung für den eigentlich überflüssigen Träger und das zweite Seitenband "verschwendet" wird. Stattdessen kann die gesamte Sendeleistung für die Übertragung der Information genutzt werden.
+L'avantage de SSB est qu'aucune puissance d'émission n'est "gaspillée" pour la porteuse en réalité superflue et la deuxième bande latérale. Au lieu de cela, toute la puissance d'émission peut être utilisée pour la transmission de l'information.
 
 ---
 
-Je nachdem welches Seitenband ausgesendet wird, bezeichnet man das Übertragungsverfahren als LSB oder USB. Bei LSB wird nur das untere Seitenband und bei USB wird nur das obere Seitenband ausgesendet. Die Auswahl des Seitenbands wird am Transceiver getroffen.
+Selon la bande latérale émise, on désigne le procédé de transmission par LSB ou USB. Dans le cas de LSB, seule la bande latérale inférieure est émise et dans le cas de USB, seule la bande latérale supérieure est émise. Le choix de la bande latérale est effectué sur l'émetteur-récepteur.
 
 <webmargin>
-[picture:743:n_seitenband_3:Seitenbänder bei AM, LSB und USB im Vergleich]
+[picture:743:n_seitenband_3:Bandes latérales en AM, LSB et USB en comparaison]
 </webmargin>
 
-Bei SSB kommt es in Sprechpausen quasi zu keiner Aussendung mehr, da der Träger ja unterdrückt wird. Die bei SSB belegte Bandbreite entspricht der Bandbreite des aufmodulierten Signals. Bei den Beispielen für SSB in [ref:n_seitenband_3] also $\qty{2700}{\hertz}$ und somit etwas weniger als die Hälfte der Bandbreite von AM.
+Dans le cas de SSB, il n'y a pratiquement plus d'émission pendant les pauses de parole, puisque la porteuse est supprimée. La bande passante occupée par SSB correspond à la bande passante du signal modulé. Dans les exemples de SSB de [ref:n_seitenband_3], cela représente donc $\qty{2700}{\hertz}$ et ainsi un peu moins de la moitié de la bande passante de l'AM.
 
 [question:NE203]
 

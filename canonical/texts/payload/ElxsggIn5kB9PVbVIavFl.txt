@@ -1,97 +1,97 @@
-In der Klasse E haben wir bereits Spannungsquellen kennen gelernt. Zunächst wollen wir uns mit der Stromquelle beschäftigen, bevor wir den Innenwiderstand von Spannungs- und Stromquellen genauer betrachten.
+Dans la classe E, nous avons déjà appris à connaître les sources de tension. Tout d'abord, nous allons nous occuper de la source de courant, avant d'examiner plus en détail la résistance interne des sources de tension et de courant.
 
-Ähnlich wie bei der Spannungsquelle, sorgt eine Stromquelle dafür, dass diese möglichst einen konstanten Strom liefert. Abbildung [ref:a_vsource_schematic] zeigt deren Ersatzschaltbild.
+De même que pour la source de tension, une source de courant veille à ce qu'elle fournisse un courant aussi constant que possible. La figure [ref:a_vsource_schematic] montre son schéma équivalent.
 
 <margin>
-[picture:1058:a_vsource_schematic:Ersatzschaltbild Stromquelle $R_i$ hochohmig]
+[picture:1058:a_vsource_schematic:Schéma équivalent de la source de courant $R_i$ haute impédance]
 </margin>
 
 <indepth>
-Betrachtung einer Konstantstromquelle am Beispiel eines Labornetzgerätes:
+Examen d'une source de courant constant à l'exemple d'une alimentation de laboratoire:
 
-[photo:298:a_Strombegrenzung:Labornetzgerät mit eingestellter Strombegrenzung auf $\qty{500}{\milli\ampere}$]
+[photo:298:a_Strombegrenzung:Alimentation de laboratoire avec limitation de courant réglée sur $\qty{500}{\milli\ampere}$]
 
-In Labornetzgeräten ist eine Strombegrenzung eingebaut, d.h. übersteigt der Laststrom eine maximale Stromstärke, wird die Klemmenspannung so abgesenkt, dass der Laststrom konstant bleibt. Dies entspricht der Funktion einer Konstantstromquelle -- Bei Kurzschluss an den Ausgangsklemmen fließt der eingestellte maximale Strom.
+Dans les alimentations de laboratoire, une limitation de courant est intégrée, c'est-à-dire que si le courant de charge dépasse une intensité de courant maximale, la tension aux bornes est réduite de manière à ce que le courant de charge reste constant. Cela correspond à la fonction d'une source de courant constant -- En cas de court-circuit aux bornes de sortie, le courant maximal réglé circule.
 </indepth>
 
-Eine ideale Konstantstromquelle liefert unabhängig von der angeschlossenen Last einen konstanten Dauerstrom. In der Theorie ist dies bei einem unendlichen Innenwiderstand möglich. In der Praxis haben Stromquellen einen sehr hohen Innenwiderstand.
+Une source de courant constant idéale fournit un courant continu constant, indépendamment de la charge connectée. En théorie, cela est possible avec une résistance interne infinie. En pratique, les sources de courant ont une résistance interne très élevée.
 
 <margin>
-[picture:1018:a_vsource_schematic:Ersatzschaltbild Spannungsquelle]
+[picture:1018:a_vsource_schematic:Schéma équivalent de la source de tension]
 </margin>
 
 ---
 
-Die Abbildung [ref:a_vsource_schematic] zeigt ein Ersatzschaltbild einer Spannungsquelle. Der Innenwiderstand $R_i$ liegt in Reihe zur idealen Spannungsquelle und sollte im Ideallfall $\qty{0}{\ohm}$ betragen. In der Praxis haben Spannungsquellen einen kleinen Innenwiderstand.
+La figure [ref:a_vsource_schematic] montre un schéma équivalent d'une source de tension. La résistance interne $R_i$ est en série avec la source de tension idéale et devrait, dans l'idéal, être de $\qty{0}{\ohm}$. En pratique, les sources de tension ont une faible résistance interne.
 
 [question:AB201]
 
-Wird eine reale Spannungsquelle mit $R_L$ belastet, so sinkt die Klemmenspannung $U_k$. Grund dafür ist der vorhandene Innenwiderstand $R_i$ dieser Spannungsquelle. Durch ihn entsteht quasi ein Spannungsteiler. Da die Quellenspannung $U_q$ im Leerlauf, also ohne Belastung $U_q=U_L$ ist, nennt man diese auch Leerlaufspannung. 
+Lorsqu'une source de tension réelle est chargée avec $R_L$, la tension aux bornes $U_k$ diminue. La raison en est la résistance interne $R_i$ de cette source de tension. Celle-ci crée un diviseur de tension. Comme la tension de la source $U_q$ est à vide, c'est-à-dire sans charge $U_q=U_L$, on l'appelle aussi tension à circuit ouvert.
 
-Mit einem Multimeter ist der Innenwiderstand nicht messbar, man kann ihn aber rechnerisch über das Ohmsche Gesetz ermitteln (vgl. Formelsammlung):
+Avec un multimètre, la résistance interne n'est pas mesurable, mais on peut la déterminer par le calcul selon la loi d'Ohm (voir recueil de formules):
 
 $R_i = \frac{\Delta U}{\Delta I}$
 
-Zur Berechnung werden zwei Belastungsfälle benötigt:
-1. Leerlauf ohne Belastung: $I = \qty{0}{\ampere}$ und $U_L = U_q$
-2. Belastung mit $R_L$: Wir messen $I_L$ und $U_L$
+Pour le calcul, deux cas de charge sont nécessaires:
+1. Circuit ouvert sans charge: $I = \qty{0}{\ampere}$ et $U_L = U_q$
+2. Charge avec $R_L$: Nous mesurons $I_L$ et $U_L$
 
-Über die Spannungsveränderung ($\Delta U = U_q~-~U_L$) an den Klemmen und die Laststromveränderung ($\Delta I = I_L~-~\qty{0}{\ampere}$), kann der Innenwiderstand nach der obigen Formel berechnet werden.
+Par la variation de tension ($\Delta U = U_q~-~U_L$) aux bornes et la variation de courant de charge ($\Delta I = I_L~-~\qty{0}{\ampere}$), la résistance interne peut être calculée selon la formule ci-dessus.
 
 $R_i = \frac{\Delta U}{\Delta I} = \frac{U_q - U_L}{I_L-\qty{0}{\ampere}} = \frac{U_q - U_L}{I_L}$
 
-Mit diesem Wissen können wir die folgenden Prüfungsfragen beantworten:
+Avec cette connaissance, nous pouvons répondre aux questions d'examen suivantes:
 
 [question:AB205]
 [question:AB206]
 [question:AB207]
 [question:AB208]
 
-Wir fassen zusammen:
+Nous résumons:
 
-* Spannungsquellen sollen einen sehr niedrigen Innenwiderstand $R_i \ll R_L$ aufweisen, im Idealfall: $\qty{0}{\ohm}$, dann bleibt die Ausgangsspannung bei Belastung unverändert. Bleibt die Klemmenspannung bei Belastung konstant, dann spricht man von Spannungsanpassung.
-* Stromquellen sollen einen sehr hohen Innenwiderstand $R_i \gg R_L$ aufweisen. Idealfall: $\qty{\infty}{\ohm}$, dann bleibt der Laststrom bei Änderung des Lastwiderstandes konstant, deshalb spricht man auch von Stromanpassung.
+* Les sources de tension doivent présenter une très faible résistance interne $R_i \ll R_L$, dans l'idéal: $\qty{0}{\ohm}$, alors la tension de sortie reste inchangée en cas de charge. Si la tension aux bornes reste constante en cas de charge, on parle d'adaptation de tension.
+* Les sources de courant doivent présenter une très haute résistance interne $R_i \gg R_L$. Cas idéal: $\qty{\infty}{\ohm}$, alors le courant de charge reste constant lors d'une modification de la résistance de charge, c'est pourquoi on parle aussi d'adaptation de courant.
 
 [question:AB203]
 [question:AB204]
 
 ---
 
-Soll eine Spannungsquelle die maximale Leistung an eine Last abgeben, spricht man von Leistungsanpassung. Dies ist beispielsweise auch bei einem Sender wichtig, der möglichst viel Leistung an eine Antenne übertragen soll.
+Si une source de tension doit fournir la puissance maximale à une charge, on parle d'adaptation de puissance. Cela est également important, par exemple, pour un émetteur qui doit transmettre autant de puissance que possible à une antenne.
 
-Die maximale Leistungsübertragung wird erreicht, wenn
+La transmission de puissance maximale est obtenue lorsque
 
 $R_i = R_L$
 
-gilt, also Innenwiderstand und Lastwiderstand gleich groß sind.
+git, c'est-à-dire lorsque la résistance interne et la résistance de charge sont de même valeur.
 
-In diesem Fall verteilt sich die Quellenspannung gleichmäßig auf Innenwiderstand und Last. Dadurch ergibt sich an der Last das maximale Produkt aus Spannung und Strom und somit die größtmögliche Leistung.
+Dans ce cas, la tension de la source se répartit uniformément sur la résistance interne et la charge. Cela donne à la charge le produit maximal de tension et de courant et donc la puissance maximale possible.
 
-Die Abbildung [ref:a_Leistungsanpassung] zeigt die normierte Leistung an der Last in Abhängigkeit vom Verhältnis $R_L/R_i$. Das Maximum wird genau bei $R_L/R_i = 1$ erreicht, also dann, wenn Innenwiderstand und Lastwiderstand gleich groß sind. Allerdings beträgt der Wirkungsgrad bei der Leistungsanpassung nur $\qty{50}{\percent}$, da die gleiche Leistung sowohl an der Last als auch am Innenwiderstand umgesetzt wird.
+La figure [ref:a_Leistungsanpassung] montre la puissance normalisée à la charge en fonction du rapport $R_L/R_i$. Le maximum est atteint exactement lorsque $R_L/R_i = 1$, c'est-à-dire lorsque la résistance interne et la résistance de charge sont de même valeur. Cependant, le rendement lors de l'adaptation de puissance n'est que de $\qty{50}{\percent}$, car la même puissance est dissipée à la fois dans la charge et dans la résistance interne.
 
 <margin>
-[picture:1077:a_Leistungsanpassung:Optimale Leistungsanpassung bei $R_i = R_L$, hier wird der Quotient $\frac{R_L}{R_i}=1$ und damit die maximale Leistung an der Last abgegeben. Der Plot ist logarithmisch.]
-[picture:937:a_Leistungsanpassung:Optimale Ausgangsleistung bei $\qty{50}{\ohm}$ Lastwiderstand bei einem Innenwiderstand von $\qty{50}{\ohm}$. Der Plot ist nicht logarithmisch.]
+[picture:1077:a_Leistungsanpassung:Adaptation de puissance optimale lorsque $R_i = R_L$, ici le quotient $\frac{R_L}{R_i}=1$ et donc la puissance maximale est fournie à la charge. Le graphique est logarithmique.]
+[picture:937:a_Leistungsanpassung:Puissance de sortie optimale pour une résistance de charge de $\qty{50}{\ohm}$ avec une résistance interne de $\qty{50}{\ohm}$. Le graphique n'est pas logarithmique.]
 </margin>
 
 <indepth>
-Wechselspannungsquellen, z.B. Sinusgeneratoren besitzen auch einen Innenwiderstand, der an der Ausgangsbuchse angeben ist.
-[photo:292:Sinusgenerator 50 Ohm:Sinusgenerator mit 50 Ohm Innenwiderstand]
+Les sources de tension alternative, par exemple les générateurs de sinus, possèdent également une résistance interne qui est indiquée sur la prise de sortie.
+[photo:292:Sinusgenerator 50 Ohm:Générateur de sinus avec une résistance interne de 50 ohms]
 </indepth>
 
-% GGF muss das woanders hin? 
+% Peut-être que cela doit aller ailleurs ? 
 <indepth>
-Der in der Hochfrequenztechnik häufig verwendete Wert von $\qty{50}{\ohm}$ ist ein technischer Kompromiss zwischen maximaler Leistungsübertragung und möglichst geringen Verlusten in Leitungen.
+La valeur fréquemment utilisée dans la technique des hautes fréquences de $\qty{50}{\ohm}$ est un compromis technique entre la transmission de puissance maximale et les pertes minimales dans les lignes.
 
-Koaxialkabel mit einem Wellenwiderstand von etwa $\qty{30}{\ohm}$ können besonders hohe Leistungen übertragen, da der Strom im Kabel geringer verteilt wird. Kabel mit etwa $\qty{77}{\ohm}$ besitzen dagegen die geringsten Dämpfungsverluste und eignen sich besonders gut für eine verlustarme Signalübertragung.
+Les câbles coaxiaux avec une impédance de ligne d'environ $\qty{30}{\ohm}$ peuvent transmettre des puissances particulièrement élevées, car le courant dans le câble est moins réparti. Les câbles d'environ $\qty{77}{\ohm}$ présentent les pertes d'atténuation les plus faibles et conviennent particulièrement bien à une transmission de signal à faible perte.
 
-Der heute weit verbreitete Wert von $\qty{50}{\ohm}$ liegt zwischen beiden Optima und stellt einen guten Kompromiss aus hoher Leistungsübertragung, moderaten Verlusten und praktikabler Kabelkonstruktion dar. Deshalb haben sich $\qty{50}{\ohm}$ in der Funktechnik als Standard etabliert.
+La valeur aujourd'hui largement répandue de $\qty{50}{\ohm}$ se situe entre ces deux optima et représente un bon compromis entre une transmission de puissance élevée, des pertes modérées et une construction de câble pratique. C'est pourquoi $\qty{50}{\ohm}$ se sont imposés comme standard dans la technique radio.
 
-Wird ein Sender, ein Kabel und eine Antenne jeweils auf $\qty{50}{\ohm}$ angepasst, dann wird die Leistung optimal übertragen und Reflexionen auf der Leitung werden minimiert.
+Lorsqu'un émetteur, un câble et une antenne sont chacun adaptés à $\qty{50}{\ohm}$, la puissance est transmise de manière optimale et les réflexions sur la ligne sont minimisées.
 
-[picture:1078:a_50ohm:50 Ohm als Kompromiss zwischen maximaler Leistungsübertragung und minimalen Verlusten in der Hochfrequenztechnik]
+[picture:1078:a_50ohm:50 Ohm comme compromis entre transmission de puissance maximale et pertes minimales dans la technique des hautes fréquences]
 
-Jetzt weißt du auch, warum unsere Plattform 50ohm.de heißt: Wir wollen dir helfen, die Prüfungsfragen zu meistern und damit die optimale Leistung in der Prüfung zu erreichen 🤓
+Maintenant, tu sais aussi pourquoi notre plateforme s'appelle 50ohm.de : Nous voulons t'aider à maîtriser les questions d'examen et ainsi atteindre la performance optimale à l'examen 🤓
 </indepth>
 
 [question:AG401]

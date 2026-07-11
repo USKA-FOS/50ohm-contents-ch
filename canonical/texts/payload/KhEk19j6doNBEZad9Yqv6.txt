@@ -1,11 +1,11 @@
-Eine Dummy-Load im HF-Bereich wird oft aus vielen einzelnen Teilwiderständen zusammengesetzt um eine bessere Kühlung und eine höhere Belastbarkeit zu erreichen. Hierbei können sowohl parallel als auch Serienschaltungen von Widerständen oder eine Kombination aus beiden verwendet werden. Üblicherweise werden für die Widerstände identische Werte verwendet bzgl. Widerstandswert und Belastbarkeit. Hierdurch wird die Verlustleistung auf alle Teilwiderstände gleichmäßig verteilt. Die Berechnung der Anzahl benötigter Widerstände erfolgt hierbei nach dem Ohmschen-Gesetz sowie den Gesetzen für Parallel- und Reihenschaltung von Widerständen.
+Une charge fictive dans la plage des hautes fréquences est souvent composée de nombreuses résistances partielles pour obtenir un meilleur refroidissement et une capacité de charge plus élevée. Dans ce cas, des circuits en parallèle ainsi qu'en série de résistances ou une combinaison des deux peuvent être utilisés. Habituellement, des valeurs identiques sont utilisées pour les résistances en ce qui concerne la valeur de la résistance et la capacité de charge. Cela permet de répartir uniformément la puissance dissipée sur toutes les résistances partielles. Le calcul du nombre de résistances nécessaires est effectué ici selon la loi d'Ohm ainsi que les lois pour les circuits en parallèle et en série de résistances.
 
 [question:AI601]
 
-Eine Dummy-Load mit einem Messausgang und eingebauten Spitzenwertgleichrichter kann auch zur indirekten Messung der Ausgangsleistung eines Senders verwendet werden.
+Une charge fictive avec une sortie de mesure et un redresseur de valeur de crête intégré peut également être utilisée pour mesurer indirectement la puissance de sortie d'un émetteur.
 
 [question:AI602]
 
-Eine weitere Möglichkeit die HF-Ausgangsleistung eines Senders ungefähr zu bestimmen besteht darin eine Dummy-Load mit einer Anzapfung des Widerstandsnetzwerks am erdnahen Ende zu verwenden. Hierbei wird eine HF-Teilspannung durch das Verhältnis der Widerstände (Spannungsteiler) an der Anzapfung messbar. Diese HF-Spannung kann dann z.B. mit einem HF-Tastkopf und einem digitalen Multimeter gemessen werden. Hierdurch kann, bei bekanntem Spannungsteiler-Verhältnis, die tatsächlich an der Dummy-Load anliegende HF-Spannung berechnet werden.
+Une autre possibilité de déterminer approximativement la puissance de sortie HF d'un émetteur consiste à utiliser une charge fictive avec une prise du réseau de résistances à l'extrémité proche de la terre. Dans ce cas, une tension partielle HF est mesurable à la prise par le rapport des résistances (diviseur de tension). Cette tension HF peut ensuite être mesurée, par exemple, avec une sonde HF et un multimètre numérique. Cela permet de calculer, pour un rapport de diviseur de tension connu, la tension HF réellement appliquée à la charge fictive.
 
 [question:AI603]

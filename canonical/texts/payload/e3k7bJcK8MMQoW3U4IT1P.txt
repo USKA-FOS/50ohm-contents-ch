@@ -1,28 +1,28 @@
-## Dämpfungsglied
+## Atténuateur
 
 <left>
-* Kurzwellenempfänger können durch starke Signale übersteuern
-* Insbesondere im Empfangsbereich und 1. Mischer
-* Verzerrrte und unverständliche Wiedergabe der Signale
+* Les récepteurs à ondes courtes peuvent être surchargés par des signaux forts
+* En particulier dans la plage de réception et le 1er mélangeur
+* Distorsion et reproduction incompréhensible des signaux
 </left>
 <right>
-* Zuschalten von Abschwächer (*Attenuator*) im TRX
-* Dämpfen der Eingangssignale um einen vorgegebenen Wert
+* Activation de l'atténuateur dans le TRX
+* Atténuation des signaux d'entrée d'une valeur prédéfinie
 </right>
 
 ---
 [question:EF217]
 ---
-## Vorverstärker
+## Préamplificateur
 
 <left>
-* Hohe Signale (UHF und höher) werden durch Antennenleitung abgeschwächt
-* *Vorverstärker* direkt an Empfangsantenne montieren
+* Les signaux élevés (UHF et plus) sont atténués par le câble d'antenne
+* *Préamplificateur* directement monté sur l'antenne de réception
 </left>
 <right>
-* Kabelverluste werden ausgeglichen
-* Abschaltbar im Sendefall
-* Deaktivierbar bei starken lokalen Signalen
+* Les pertes de câble sont compensées
+* Désactivable en cas d'émission
+* Désactivable en cas de signaux locaux forts
 </right>
 
 ---

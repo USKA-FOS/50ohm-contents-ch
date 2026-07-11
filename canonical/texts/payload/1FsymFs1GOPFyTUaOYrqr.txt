@@ -1,23 +1,23 @@
-Funkamateure dürfen in Not- und Katastrophenfällen durch Übermittlung von Nachrichten für und an Dritte bei der Bewältigung der Notlage unterstützen.
+Les radioamateurs peuvent, en cas de détresse et de catastrophe, soutenir la gestion de la situation d'urgence en transmettant des messages pour et à des tiers.
 
-Bei Empfang eines Notrufs sollte man sich konzentrieren und alle aufgenommenen Informationen notieren. Folgende Grundregeln sollten bei der Behandlung von Notrufen stets beachtet werden:
-* Wer einen Notruf hört, bleibt auf Empfang und schreibt alles mit!
-* Nur auf Sendung gehen, wenn man helfen kann und den Funkverkehr nicht stört!
-* Die Frequenz erst verlassen, wenn sicher ist, dass geholfen wird oder die Notlage beendet ist!
-* Anweisungen der notrufenden Station oder der Leitstation (wenn vorhanden) befolgen!
-* Meldungen vollständig und wörtlich an Rettungsdienst, Feuerwehr oder Polizei weitermelden!
+À la réception d'un appel de détresse, il faut se concentrer et noter toutes les informations reçues. Les règles de base suivantes doivent toujours être respectées lors du traitement des appels de détresse:
+* Celui qui entend un appel de détresse reste à l'écoute et note tout!
+* Ne passer à l'émission que si l'on peut aider et ne pas perturber le trafic radio!
+* Ne quitter la fréquence que si l'on est sûr que l'on a aidé ou que la situation de détresse est terminée!
+* Suivre les instructions de la station appelante ou de la station de contrôle (si disponible)!
+* Transmettre les messages complètement et mot à mot aux services de secours, aux pompiers ou à la police!
 
 <attention>
-Es besteht *Pflicht zur Hilfeleistung*. Der § 323c des Strafgesetzbuchs stellt unterlassene Hilfeleistung unter Strafe: "Wer bei Unglücksfällen oder gemeiner Gefahr oder Not nicht Hilfe leistet, obwohl dies erforderlich und ihm den Umständen nach zuzumuten, insbesondere ohne erhebliche eigene Gefahr und ohne Verletzung anderer wichtiger Pflichten möglich ist, wird mit Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe bestraft."
+Il existe une *obligation d'assistance*. L'article 323c du code pénal sanctionne l'absence d'assistance: "Celui qui, dans les cas d'accident ou de danger commun ou de détresse, ne porte pas assistance alors qu'il est nécessaire et qu'il peut le faire sans danger pour lui-même et sans violer d'autres obligations importantes, sera puni d'une peine d'emprisonnement pouvant aller jusqu'à un an ou d'une amende."
 </attention>
 
 <tip>
-Die *5 W-Fragen* können dabei helfen, alle wichtigen Informationen zu einem Notfall zu übermitteln:
-* *Wo* ist das Ereignis?
-* *Wer* meldet es?
-* *Was* ist geschehen?
-* *Wie* viele Betroffene?
-* *Warten* auf Rückfragen!
+Les *5 questions W* peuvent aider à transmettre toutes les informations importantes concernant une situation d'urgence:
+* *Où* l'événement a-t-il eu lieu?
+* *Qui* le signale?
+* *Que* s'est-il passé?
+* *Combien* de personnes sont concernées?
+* *Attendre* les questions de retour!
 </tip>
 
 [question:BF104]
@@ -26,39 +26,39 @@ Die *5 W-Fragen* können dabei helfen, alle wichtigen Informationen zu einem Not
 [question:BF107]
 
 <tip>
-Das [Notfunkreferat des DARC](https://50ohm.de/rnf) stellt Empfehlungen für die Organisation von Notfallkommunikation bereit und hält diese auf aktuellem Stand.
+Le [référent radio d'urgence du DARC](https://50ohm.de/rnf) fournit des recommandations pour l'organisation des communications d'urgence et les maintient à jour.
 
-[Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+[Devenez membre du DARC maintenant!](https://50ohm.de/mw)
 </tip>
 
-Für die folgende Frage erinnern wir uns noch einmal an die Umrechnung von mitteleuropäischer Sommerzeit in UTC. Es gilt: UTC = MESZ minus 2 Stunden. Entsprechend ist andersherum MESZ = UTC + 2 Stunden.
+Pour la question suivante, nous nous souvenons encore une fois de la conversion de l'heure d'été d'Europe centrale en UTC. Il en résulte: UTC = CEST moins 2 heures. En conséquence, à l'inverse, CEST = UTC + 2 heures.
 
 [question:BF108]
 
 ---
 
-Für den Funkverkehr einer Station des Flug- oder Seefunkdienstes gibt es die international festgelegten *Notzeichen "Mayday" und "SOS"*.  Weiterhin gibt es sogenannte *Dringlichkeits- und Sicherheitszeichen*. Dazu gehören u. a. "PAN PAN" und "SÉCURITÉ".
+Pour les communications radio d'une station du service aéronautique ou maritime, il existe les *signes de détresse "Mayday" et "SOS"* internationalement fixés. Il existe également des *signes d'urgence et de sécurité*. Ceux-ci comprennent, entre autres, "PAN PAN" et "SÉCURITÉ".
 
 <indepth>
-Mit einem *Notzeichen* teilt eine Station des See- oder Flugfunkdienstes an Bord eines Schiffs oder Flugzeugs mit, dass es sich in Not befindet. Im Sprechfunk wird dafür "Mayday" verwendet; in Telegrafie ist es "SOS". *Dringlichkeits- und Sicherheitszeichen* werden hingegen in weniger bedrohlichen Situationen verwendet.
+Avec un *signe de détresse*, une station du service maritime ou aéronautique à bord d'un navire ou d'un avion signale qu'elle est en détresse. Pour cela, "Mayday" est utilisé dans la radiotéléphonie; en télégraphie, c'est "SOS". Les *signes d'urgence et de sécurité* sont utilisés, quant à eux, dans des situations moins menaçantes.
 
-Da alle diese Zeichen im Amateurfunk nicht verwendet werden dürfen, bietet es sich im Notfall an, andere einschlägige Begriffe, wie "Notfall" oder "Emergency" zu verwenden, um auf sich aufmerksam zu machen.
+Puisque tous ces signes ne peuvent pas être utilisés dans la radioamateur, il est conseillé, en cas d'urgence, d'utiliser d'autres termes appropriés, comme "urgence" ou "Emergency", pour attirer l'attention.
 </indepth>
  
-Der Gebrauch dieser Not-, Dringlichkeits- oder Sicherheitszeichen ist im Amateurfunk durch die Amateurfunkverordnung verboten. Das bedeutet aber nicht, dass keine Notrufe abgesetzt werden dürften. Es ist lediglich darauf zu achten, dabei beispielsweise nicht MAYDAY zu verwenden.
+L'utilisation de ces signes de détresse, d'urgence ou de sécurité est interdite dans la radioamateur par l'ordonnance sur la radioamateur. Cela ne signifie pas, cependant, que les appels de détresse ne pourraient pas être émis. Il faut simplement veiller à ne pas utiliser, par exemple, MAYDAY.
 
 [question:BF101]
 [question:BF102]
 [question:VD105]
 [question:BF103]
 
-Die IARU hat für die ITU-Region 1 die folgenden Notfunkfrequenzen in den Bandplänen festgelegt, die bei Katastrophenfällen für den Funkbetrieb frei zu halten sind:
-% TODO: Eigentlich sind die Bandangaben unnötig. Aber wenn nur die Frequenz da steht, werden die Abstände zwischen den Zeilen riesig
-* $\qty{3760}{\kilo\hertz}$ im $\qty{80}{\meter}$-Band
-* $\qty{7110}{\kilo\hertz}$ im $\qty{40}{\meter}$-Band
-* $\qty{14300}{\kilo\hertz}$ im $\qty{20}{\meter}$-Band
-* $\qty{18160}{\kilo\hertz}$ im $\qty{17}{\meter}$-Band
-* $\qty{21360}{\kilo\hertz}$ im $\qty{15}{\meter}$-Band
+L'IARU a fixé pour la région ITU 1 les fréquences radio d'urgence suivantes dans les plans de bandes, qui doivent être laissées libres pour le trafic radio en cas de catastrophe:
+% TODO: Les indications de bande sont en fait inutiles. Mais si seule la fréquence est indiquée, les intervalles entre les lignes deviennent énormes
+* $\qty{3760}{\kilo\hertz}$ dans la bande $\qty{80}{\mètre}$
+* $\qty{7110}{\kilo\hertz}$ dans la bande $\qty{40}{\mètre}$
+* $\qty{14300}{\kilo\hertz}$ dans la bande $\qty{20}{\mètre}$
+* $\qty{18160}{\kilo\hertz}$ dans la bande $\qty{17}{\mètre}$
+* $\qty{21360}{\kilo\hertz}$ dans la bande $\qty{15}{\mètre}$
 
 [question:BF109]
 

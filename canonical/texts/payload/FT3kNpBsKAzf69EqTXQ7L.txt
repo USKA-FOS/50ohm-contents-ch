@@ -1,26 +1,26 @@
-## Homogenes elektrisches Feld
+## Champ électrique homogène
 
 <left>
-* In einem Kondensator wird elektrische Energie gespeichert
-* Die einfachste Art eines Kondensators ist der *Plattenkondensator*
+* Dans un condensateur, l'énergie électrique est stockée
+* Le type le plus simple de condensateur est le *condensateur à plaques*
 </left>
 <right>
-[picture:881:e_kondensator_homogenes_feld:Homogenes Feld in einem Plattenkondensator]
+[picture:881:e_kondensator_homogenes_feld:Champ homogène dans un condensateur à plaques]
 </right>
 
 ---
 <left>
-* An zwei elektrisch leitenden Platten wird jeweils der Plus- und Minus-Pol angeschlossen
-* Zwischen den Platten baut sich ein homogenes elektrisches Feld (*E-Feld*) auf
-* Elektrische Feldstärke: $E = \dfrac{U}{d}$ in $\unit{\volt\per\meter}$
-* Mit $d$ als Abstand der Platten
+* À deux plaques électriquement conductrices, le pôle positif et le pôle négatif sont connectés
+* Entre les plaques, un champ électrique homogène (*champ E*) se forme
+* Intensité du champ électrique : $E = \dfrac{U}{d}$ en $\unit{\volt\per\meter}$
+* Avec $d$ comme distance entre les plaques
 </left>
 <right>
-[picture:881:e_kondensator_homogenes_feld:Homogenes Feld in einem Plattenkondensator]
+[picture:881:e_kondensator_homogenes_feld:Champ homogène dans un condensateur à plaques]
 </right>
 <note>
-* homogen Feld: gleichgerichtetes Feld, da alle Feldlinien in gleicher Richtung verlaufen
-* Die Kapazität wird erst in Klasse A berechnet
+* Champ homogène : champ aligné, car toutes les lignes de champ sont dans la même direction
+* La capacité sera calculée en classe A
 </note>
 
 ---
@@ -30,44 +30,44 @@
 ---
 [question:EB102]
 ---
-## Wickelkondensator
+## Condensateur bobiné
 
 <left>
-* Bei einem Wickelkondensator wird zwischen den beiden Platten als Metallbeläge ein Isolator als *Dielektrikum* eingebracht
-* Vorteile: platzsparend und größere Plattenfläche möglich
+* Dans un condensateur bobiné, un isolant est introduit comme *diélectrique* entre les deux plaques en tant que revêtements métalliques
+* Avantages : économise de la place et permet une plus grande surface de plaques
 </left>
 <right>
-[picture:49:e_wickelkondensator:Schematische Darstellung eines Wickelkondensators]
+[picture:49:e_wickelkondensator:Représentation schématique d'un condensateur bobiné]
 </right>
 ---
 [question:EB103]
 ---
 [question:EB104]
 --- style="font-size: 0.7em;"
-### Lösungsweg
+### Solution
 
-Der Trick ist hier, dass die Durchschlagsfestigkeit die elektrische Feldstärke $E$ ist.
+Le truc ici est que la rigidité diélectrique est l'intensité du champ électrique $E$.
 
-* Gegeben: $d = \qty{0,15}{\milli\meter}$ und $E = \qty{400}{\kilo\volt\per\centi\meter}$
-* Gesucht: $U$
-* Lösung:
+* Donné : $d = \qty{0,15}{\milli\meter}$ et $E = \qty{400}{\kilo\volt\per\centi\meter}$
+* Recherché : $U$
+* Solution :
 
 $E = \frac{U}{d} \Rightarrow U = E\cdot d$
 $U = 400 \cdot \frac{\qty{10^3}{\volt}}{\qty{10^{-2}}{\meter}}\cdot \qty{0,15e-3}{\meter}$
 $U = \qty{6e3}{\volt} = \qty{6}{\kilo\volt}$
 
 ---
-## Vertikalantenne
+## Antenne verticale
 
 <left>
-* An einer Antenne entstehen ebenso elektrische Feldlinien
-* Die Feldlinien einer Vertikalantenne verlaufen vom "positiven Ende" zur Erde
+* Des lignes de champ électrique se forment également sur une antenne
+* Les lignes de champ d'une antenne verticale vont de l'extrémité "positive" à la terre
 </left>
 <right>
-[picture:884:e_feldlinien_vertikalantenne:Feldlinien an einer Vertikalantenne]
+[picture:884:e_feldlinien_vertikalantenne:Lignes de champ sur une antenne verticale]
 </right>
 <note>
-* Für die Klasse E reicht die Erkennung aus
+* Pour la classe E, la reconnaissance suffit
 </note>
 ---
 [question:EB105]

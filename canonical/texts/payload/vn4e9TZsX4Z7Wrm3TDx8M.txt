@@ -1,89 +1,89 @@
-## Gegentaktsignal und Mantelwellen
+## Signal en opposition de phase et ondes de surface
 
-* Idealerweise fließen im Innen- und Außenleiter eines Koaxialkabels gleich große, entgegengesetzte Ströme
-* Deren Summe ist Null – reines Gegentaktsignal
-* Reines Gegentaktsignal verhindert das Auftreten von Mantelwellen
+* Idéalement, des courants de même amplitude mais de sens opposé circulent dans le conducteur intérieur et extérieur d'un câble coaxial
+* Leur somme est nulle – signal pur en opposition de phase
+* Un signal pur en opposition de phase empêche l'apparition d'ondes de surface
 
 ---
-### Gleichtaktsignal und Mantelstrom
+### Signal en phase et courant de surface
 
-* Ist die Stromsumme ungleich Null, entsteht ein Gleichtaktsignal
-* Gleichtaktanteil fließt auf der Außenseite des Außenleiters als Mantelstrom
-* Mantelstrom erzeugt eine Mantelwelle um das Kabel
+* Si la somme des courants n'est pas nulle, un signal en phase est créé
+* La composante en phase circule sur la face extérieure du conducteur extérieur en tant que courant de surface
+* Le courant de surface génère une onde de surface autour du câble
 
 ---
 [question:AG425]
 
 ---
-### Stromkompensierte Drossel
+### Bobine de compensation de courant
 
-* Koaxialkabel, um einen Ferritkern gewickelt, unterdrückt Mantelwellen
-* Diese Bauform wird als stromkompensierte Drossel bezeichnet
+* Un câble coaxial enroulé autour d'un noyau de ferrite supprime les ondes de surface
+* Cette forme de construction est appelée bobine de compensation de courant
 
 ---
 [question:AG426]
 
 ---
-## HF-Trenntrafo zur Mantelwellensperre
+## Transformateur HF pour la suppression des ondes de surface
 
-* Alternative: HF-Trenntrafo, bei dem Primär- und Sekundärwicklung nicht verbunden sind
-* Strom, der in einen Pol hineinfließt, fließt nahezu gleich groß aus dem anderen – Gleichtaktanteil entfällt
+* Alternative : transformateur HF dont les enroulements primaire et secondaire ne sont pas connectés
+* Le courant qui entre dans une borne sort presque entièrement de l'autre – la composante en phase est éliminée
 
 <note>
-Zwischen den Spulenwindungen bildet sich Kapazität, die den Gleichtaktanteil nicht vollständig unterdrückt
+Entre les spires, une capacité se forme, qui ne supprime pas complètement la composante en phase
 </note>
 
 ---
 [question:AJ115]
 
 ---
-### HF-Spannungen und Mantelwellen
+### Tensions HF et ondes de surface
 
-* Fehlen HF-Gleichtaktsignale: Außenleiter zeigt keine hochfrequente Spannung gegenüber Erde
-* Bei Gegentaktsignalen bildet sich das elektrische Feld ausschließlich zwischen Innen- und Außenleiter
-* Außenwirkung: Die Ströme heben sich auf – keine Mantelwellen
-* Mantelwellen hängen direkt mit HF-Spannungen am Außenleiter zusammen
-
----
-## Symmetrische Antennen und Außenleiterspannung
-
-* Bei symmetrischer Antenne weist jeder Dipolschenkel eine Spannung gegenüber Erde auf
-* Verbindung der Antennenschenkel mit den Leitern des Koaxialkabels führt zu einer HF-Spannung am Außenleiter
+* En l'absence de signaux HF en phase, le conducteur extérieur ne présente pas de tension haute fréquence par rapport à la terre
+* Dans le cas des signaux en opposition de phase, le champ électrique se forme exclusivement entre le conducteur intérieur et le conducteur extérieur
+* Effet extérieur : les courants s'annulent – pas d'ondes de surface
+* Les ondes de surface sont directement liées aux tensions HF sur le conducteur extérieur
 
 ---
-### Einfluss der Erdung bei Antennen
+## Antennes symétriques et tension du conducteur extérieur
 
-* Gut geerdete Antennen (z. B. Groundplane mit abgestimmten oder vergrabenen Radialen) haben nahezu $\qty{0}{\volt}$ am Speisepunkt
-* Schlecht geerdete Groundplane-Antennen können anfällig für Mantelwellen sein
+* Dans le cas d'une antenne symétrique, chaque branche du dipôle présente une tension par rapport à la terre
+* La connexion des branches d'antenne aux conducteurs du câble coaxial entraîne une tension HF sur le conducteur extérieur
 
 ---
-## Kontaktlose Einkopplung in den Koax-Schirm
+### Influence de la mise à la terre des antennes
 
-* Mantelwellen können durch kontaktlose Einkopplung entstehen
-* Führt man ein Speisekabel parallel zu einem Dipolschenkel, koppelt das Nahfeld der Antenne in den Koax-Schirm ein
+* Les antennes bien mises à la terre (par exemple, Groundplane avec radiales accordées ou enterrées) ont presque $\qty{0}{\volt}$ au point d'alimentation
+* Les antennes Groundplane mal mises à la terre peuvent être sensibles aux ondes de surface
+
+---
+## Couplage sans contact dans le blindage coaxial
+
+* Les ondes de surface peuvent être générées par couplage sans contact
+* Si un câble d'alimentation est conduit parallèlement à une branche de dipôle, le champ proche de l'antenne se couple dans le blindage coaxial
 
 ---
 [question:AG427]
 
 ---
-### Spannungsbalun / Spartransformator
+### Balun de tension / Transformateur d'autotransformateur
 
 <left>
-[picture:447:a_mantelwellen_spannungsbalun:Aufbau eines Spannungbaluns]
+[picture:447:a_mantelwellen_spannungsbalun:Structure d'un balun de tension]
 </left>
 <right>
-* Bei vollständig symmetrischen Antennen kann ein Spannungsbalun die Ströme im Koaxialkabel symmetrieren
-* Typischer Spartransformator: Koaxialkabel in der Mitte und am Ende einer Spule angeschlossen, Antenne an beide Enden der Spule
+* Dans le cas d'antennes entièrement symétriques, un balun de tension peut symétriser les courants dans le câble coaxial
+* Transformateur d'autotransformateur typique : câble coaxial connecté au milieu et à l'extrémité d'une bobine, antenne connectée aux deux extrémités de la bobine
 </right>
 
 ---
 
 <left>
-[picture:447:a_mantelwellen_spannungsbalun:Aufbau eines Spannungbaluns]
+[picture:447:a_mantelwellen_spannungsbalun:Structure d'un balun de tension]
 </left>
 <right>
-* Verdopplung der Spannung ($ü = 2$) und Halbierung des Stroms führen zu einer 1:4 Impedanztransformation
-* An ein $\qty{50}{\ohm}$ Koaxialkabel wird idealerweise eine Antenne mit ca. $\qty{200}{\ohm}$ angeschlossen
+* Doublement de la tension ($ü = 2$) et division par deux du courant entraînent une transformation d'impédance de 1:4
+* Une antenne d'environ $\qty{200}{\ohm}$ doit idéalement être connectée à un câble coaxial de $\qty{50}{\ohm}$
 </right>
 
 ---
@@ -93,13 +93,13 @@ Zwischen den Spulenwindungen bildet sich Kapazität, die den Gleichtaktanteil ni
 [question:AG422]
 
 ---
-## Einschränkungen der Mantelwellensperre
+## Limites de la suppression des ondes de surface
 
 
-* Spannungsbalun funktioniert nur, wenn die angeschlossene Antenne tatsächlich symmetrisch ist
-* Asymmetrische Belastung kann Mantelwellen begünstigen
-* Kontaktlose Einkopplung über die elektromagnetischen Nahfelder bleibt möglich
-* Eine zusätzliche Mantelwellensperre mit räumlichem Abstand kann unterstützend wirken
+* Le balun de tension ne fonctionne que si l'antenne connectée est effectivement symétrique
+* Une charge asymétrique peut favoriser les ondes de surface
+* Le couplage sans contact par les champs proches électromagnétiques reste possible
+* Une suppression supplémentaire des ondes de surface avec un espacement spatial peut avoir un effet de soutien
 
 ---
 [question:AG428]

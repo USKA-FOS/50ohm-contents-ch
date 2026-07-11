@@ -1,20 +1,17 @@
-Gegeben ist eine Anpassung von $\qty{50}{\ohm}$ auf $\qty{450}{\ohm}$.
+Une adaptation de $\qty{50}{\ohm}$ à $\qty{450}{\ohm}$ est donnée.
 
-Zunächst bestimmen wir das notwendige Impedanzverhältnis:
+Tout d'abord, nous déterminons le rapport d'impédance nécessaire:
 
 $\frac{450}{50} = 9$
 
-Der Übertrager muss also ein Impedanzverhältnis von $1:9$ realisieren.
+Le transformateur doit donc réaliser un rapport d'impédance de $1:9$.
 
-Für Transformatoren gilt:
-Das Impedanzverhältnis ist das Quadrat des Windungsverhältnisses:
+Pour les transformateurs, le rapport d'impédance est le carré du rapport de spires:
 
 $\left(\frac{N_2}{N_1}\right)^2 = 9$
 
-Daraus folgt für das Windungsverhältnis:
+Il en résulte pour le rapport de spires:
 
 $\frac{N_2}{N_1} = \sqrt{9} = 3$
 
-Gesucht ist also ein Windungsverhältnis von:
-
-$3:1$
+Un rapport de spires de $3:1$ est donc recherché.

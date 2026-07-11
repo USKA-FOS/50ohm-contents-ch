@@ -1,40 +1,40 @@
 <left>
-* Statt Zahlenwert wird eine Codierung aus Farbringen auf Widerständen aufgedruckt
-* In diesem Beispiel: $47 \cdot \qty{1000}{\ohm} = \qty{47000}{\ohm} = \qty{47}{\kilo\ohm}$
-* Die Bedeutung der Farben ist in der Tabelle auf der nächsten Folie
+* Au lieu de la valeur numérique, un codage à anneaux de couleur est imprimé sur les résistances
+* Dans cet exemple : $47 \cdot \qty{1000}{\ohm} = \qty{47000}{\ohm} = \qty{47}{\kilo\ohm}$
+* La signification des couleurs est dans le tableau de la diapositive suivante
 </left>
 <right>
-[picture:665:n_widerstandsfarbcodes: Ein Widerstand mit 4 Farbringen]
+[picture:665:n_widerstandsfarbcodes: Une résistance avec 4 anneaux de couleur]
 </right>
 
 --- style="font-size: 0.7em;"
-| X:Farbe | l:Wert | l:Multiplikator | l:Toleranz |
-| Silber | - | $\num{0,01}$ | $\qty{\pm 10}{\percent}$ |
-| Gold | - | $\num{0,1}$ | $\qty{\pm 5}{\percent}$ |
-| Schwarz | 0 | $\num{1}$ | - |
-| Braun | 1 | $\num{10}$ | $\qty{\pm 1}{\percent}$ |
-| Rot | 2 | $\num{100}$ | $\qty{\pm 2}{\percent}$ |
+| X:Couleur | l:Valeur | l:Multiplicateur | l:Tolérance |
+| Argent | - | $\num{0,01}$ | $\qty{\pm 10}{\percent}$ |
+| Or | - | $\num{0,1}$ | $\qty{\pm 5}{\percent}$ |
+| Noir | 0 | $\num{1}$ | - |
+| Brun | 1 | $\num{10}$ | $\qty{\pm 1}{\percent}$ |
+| Rouge | 2 | $\num{100}$ | $\qty{\pm 2}{\percent}$ |
 | Orange| 3 | $\num{1000}$ | - |
-| Gelb | 4 | $\num{10000}$ | - |
-| Grün | 5 | $\num{100000}$ | - |
-| Blau | 6 | $\num{1000000}$ | $\qty{\pm 0,25}{\percent}$ |
-| Violett | 7 | $\num{10000000}$ | $\qty{\pm 0,1}{\percent}$ |
-| Grau | 8 | $\num{100000000}$ | - |
-| Weiß | 9 | $\num{1000000000}$ | - |
-| Keine | - | - | $\qty{\pm 20}{\percent}$ |
-[table:n_widerstandsfarbcodes_tabelle:Widerstandsfarbcodes Tabelle]
+| Jaune | 4 | $\num{10000}$ | - |
+| Vert | 5 | $\num{100000}$ | - |
+| Bleu | 6 | $\num{1000000}$ | $\qty{\pm 0,25}{\percent}$ |
+| Violet | 7 | $\num{10000000}$ | $\qty{\pm 0,1}{\percent}$ |
+| Gris | 8 | $\num{100000000}$ | - |
+| Blanc | 9 | $\num{1000000000}$ | - |
+| Aucun | - | - | $\qty{\pm 20}{\percent}$ |
+[table:n_widerstandsfarbcodes_tabelle:Tableau des codes de couleur des résistances]
 
 <note>
-* Tabelle ist in der Formelsammlung
+* Le tableau se trouve dans le recueil de formules
 </note>
 
 ---
-## Toleranz
+## Tolérance
 
-* Abweichung vom tatsächlichen Wert
-* Beispiel: silber bedeutet $\qty{\pm 10}{\percent}$
+* Déviation par rapport à la valeur réelle
+* Exemple : argent signifie $\qty{\pm 10}{\percent}$
 * $\qty{10}{\percent} \cdot \qty{47}{\kilo\ohm} = \qty{4,7}{\kilo\ohm}$
-* Widerstandswert zwischen $\qty{42,3}{\kilo\ohm}$ und $\qty{51,7}{\kilo\ohm}$
+* Valeur de la résistance entre $\qty{42,3}{\kilo\ohm}$ et $\qty{51,7}{\kilo\ohm}$
 
 ---
 

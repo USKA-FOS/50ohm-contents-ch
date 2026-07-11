@@ -1,28 +1,27 @@
-Im Kapitel über Dioden haben wir bereits die Photodiode kennengelernt. Derselbe Effekt – die Umwandlung von Lichtenergie in elektrische Energie – wird auch bei der Solarzelle genutzt. Eine Solarzelle wandelt die optische Strahlungsenergie der Sonne in elektrische Energie um. Damit steht eine zusätzliche Spannungsquelle zur Verfügung, die sich auch im Amateurfunk, etwa bei einem Fieldday, einsetzen lässt. Die Abbildung [ref:a_solarzelle] zeigt den Aufbau einer monokristallinen Silizium Solarzelle. 
+Dans le chapitre sur les diodes, nous avons déjà fait connaissance avec la photodiode. Le même effet - la conversion de l'énergie lumineuse en énergie électrique - est également utilisé dans la cellule solaire. Une cellule solaire convertit l'énergie du rayonnement optique du soleil en énergie électrique. Ainsi, une source de tension supplémentaire est disponible, qui peut également être utilisée dans le radioamateur, par exemple lors d'un fieldday. La figure [ref:a_solarzelle] montre la structure d'une cellule solaire en silicium monocristallin. 
 
-Trifft Licht auf die Solarzelle, lösen die Lichtteilchen (Photonen) elektrische Ladungsträger im Halbleiter aus, wodurch eine elektrische Spannung und ein Strom entstehen. Albert Einstein erklärte diesen photoelektrischen Effekt bereits 1905 und erhielt dafür später den Nobelpreis für Physik.
+Lorsque la lumière frappe la cellule solaire, les particules de lumière (photons) libèrent des porteurs de charge électrique dans le semi-conducteur, ce qui génère une tension et un courant électriques. Albert Einstein a expliqué cet effet photoélectrique dès 1905 et a reçu plus tard le prix Nobel de physique pour cela.
 
-Das Schaltzeichen eines Photoelements (Solarzelle) ist in der Abbildung [ref:a_photoelement] dargestellt. 
+Le symbole de circuit d'un photoélément (cellule solaire) est représenté dans la figure [ref:a_photoelement]. 
 
 
 <margin>
-[picture:958:a_solarzelle:Aufbau einer monokristallinen Silizium Solarzelle]
-[picture:938:a_photoelement:Schaltzeichen Photoelement (Solarzelle)]
-[picture:949:a_solarmodul:Solarmodul mit Zellen:Solarzellenverbund in einem Solarmodul]
+[picture:958:a_solarzelle:Structure d'une cellule solaire en silicium monocristallin]
+[picture:938:a_photoelement:Symbole de circuit photoélément (cellule solaire)]
+[picture:949:a_solarmodul:Module solaire avec cellules:Combinaison de cellules solaires dans un module solaire]
 </margin>
   
 [question:AB212]
 
-Wichtige Kenngrößen einer Solarzelle sind die Leerlaufspannung $U_\mathrm{OC}$, also die Spannung ohne angeschlossene Last, sowie der Kurzschlussstrom $I_\mathrm{SC}$, der bei direktem Kurzschluss der Anschlüsse unter voller Sonneneinstrahlung fließt.
+Les caractéristiques importantes d'une cellule solaire sont la tension à circuit ouvert $U_\mathrm{OC}$, c'est-à-dire la tension sans charge connectée, ainsi que le courant de court-circuit $I_\mathrm{SC}$, qui circule en cas de court-circuit direct des connexions sous un ensoleillement complet.
 
-Genau wie bei der Reihen- und Parallelschaltung von Akkus bzw. Spannungsquellen, verändert sich die Klemmenspannung und der maximale Laststrom eines Photovoltaikmoduls durch die Zusammenschaltung der einzelnen Solarzellen.
+Tout comme dans le cas des circuits en série et en parallèle de batteries ou de sources de tension, la tension aux bornes et le courant de charge maximal d'un module photovoltaïque changent en fonction du câblage des différentes cellules solaires.
 
-In einem Solarmodul sind mehrere Solarzellen zu einem Verbund zusammengeschaltet, wie in der Abbildung [ref:a_solarmodul] zu sehen ist. Hier 
-werden 30 Solarzellen mit jeweils $\qty{0,6}{\volt}$ Leerlaufspannung in Reihe geschaltet. Es addieren sich die Spannungen der einzelnen Zellen. Dadurch ergibt sich eine Gesamtspannung von
+Dans un module solaire, plusieurs cellules solaires sont connectées en combinaison, comme le montre la figure [ref:a_solarmodul]. Ici, 30 cellules solaires avec chacune une tension à circuit ouvert de $\qty{0,6}{\volt}$ sont connectées en série. Les tensions des différentes cellules s'additionnent. Cela donne une tension totale de
 
 $\qty{30}{} \cdot \qty{0,6}{\volt} = \qty{18}{\volt}$.
 
-Zusätzlich werden vier dieser Reihenschaltungen parallel geschaltet. Bei einer Parallelschaltung addieren sich die Ströme der einzelnen Stränge. Liefert jede Solarzelle beziehungsweise jeder Strang einen Kurzschlussstrom von $\qty{1}{\ampere}$, so ergibt sich insgesamt ein Kurzschlussstrom von
+En outre, quatre de ces circuits en série sont connectés en parallèle. Dans un circuit en parallèle, les courants des différentes branches s'additionnent. Si chaque cellule solaire ou chaque branche fournit un courant de court-circuit de $\qty{1}{\ampere}$, cela donne un courant de court-circuit total de
 
 $\qty{4}{} \cdot \qty{1}{\ampere} = \qty{4}{\ampere}$.
 

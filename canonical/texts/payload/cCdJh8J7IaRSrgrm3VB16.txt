@@ -1,38 +1,38 @@
-Spannungen kann man mit einem Messgerät ermitteln. Dabei ist es sehr wichtig, das Messgerät richtig einzustellen und an den richtigen Stellen zu messen. Spannungen misst man mit einem Spannungsmessgerät. Da Spannungen in *Volt* ($\unit{V}$) gemessen werden, ist das Schaltsymbol für ein Spannungsmessgerät ein Kreis mit einem V, wie in Abbildung [ref:n_messgeraete_symbol_spannungsmessgerät] gezeigt.
+Les tensions peuvent être déterminées à l'aide d'un appareil de mesure. Il est très important de régler correctement l'appareil de mesure et de mesurer aux bons endroits. Les tensions sont mesurées avec un appareil de mesure de tension. Comme les tensions sont mesurées en *volts* ($\unit{V}$), le symbole de circuit pour un appareil de mesure de tension est un cercle avec un V, comme le montre la figure [ref:n_messgeraete_symbol_spannungsmessgerät].
 
 <margin>
-[picture:625:n_messgeraete_symbol_spannungsmessgerät:Schaltsymbol Spannungsmessgerät]
+[picture:625:n_messgeraete_symbol_spannungsmessgerät:Symbole de circuit de l'appareil de mesure de tension]
 </margin>
 
 ---
 
-Eine Spannung misst man immer zwischen zwei Punkten. Wenn man die Spannung messen möchte, die an einem Bauteil anliegt, dann schließt man das Messgerät parallel zu diesem Bauteil an. Das heißt, einer der Messpunkte ist auf der einen Seite des Bauteils und der andere Messpunkt auf der anderen Seite des Bauteils. Wenn man z. B. die Spannung einer Batterie messen möchte, muss das Messgerät, wie in der Abbildung [ref:n_messgeraete_spannungsmessung] gezeigt, direkt am Pluspol und am Minuspol der Batterie angeschlossen werden.
+Une tension est toujours mesurée entre deux points. Si vous souhaitez mesurer la tension appliquée à un composant, vous devez connecter l'appareil de mesure en parallèle avec ce composant. Cela signifie qu'un des points de mesure est d'un côté du composant et l'autre point de mesure de l'autre côté du composant. Si vous souhaitez, par exemple, mesurer la tension d'une batterie, l'appareil de mesure doit être connecté, comme le montre la figure [ref:n_messgeraete_spannungsmessung], directement au pôle positif et au pôle négatif de la batterie.
 
 <margin>
-[picture:620:n_messgeraete_spannungsmessung:Spannungsmessung]
+[picture:620:n_messgeraete_spannungsmessung:Mesure de tension]
 </margin>
 
 <margin>
-[photo:11:n_messgeraete_multimeter:Multimeter]
+[photo:11:n_messgeraete_multimeter:Multimètre]
 </margin>
   
 <webtip>
-Meistens verwendet man für Messungen ein Multimeter. Das ist ein kombiniertes Messgerät, um Spannungen, Ströme und auch andere Größen wie beispielsweise Widerstände zu messen. Wenn man an einer Schaltung etwas messen möchte, muss man sich vorher im Klaren darüber sein, welche Größe man eigentlich beobachten möchte, um das Multimeter richtig einstellen zu können.
+La plupart du temps, on utilise un multimètre pour les mesures. Il s'agit d'un appareil de mesure combiné pour mesurer les tensions, les courants et d'autres grandeurs comme, par exemple, les résistances. Si vous souhaitez mesurer quelque chose dans un circuit, vous devez d'abord savoir quelle grandeur vous souhaitez observer afin de pouvoir régler correctement le multimètre.
 
-Bevor man mit dem Messen anfangen kann, müssen die beiden Messleitungen an das Messgerät angeschlossen werden. Obwohl sich dies einfach anhört, muss man aufpassen. Meistens haben Multimeter drei oder sogar vier Anschlüsse für Messleitungen. Der gemeinsame Anschluss, in den auf jeden Fall eine Messleitung kommt, ist in der Regel mit "COM" (englisch "common") gekennzeichnet. Hier schließt man üblicherweise die schwarze Messleitung an. Die rote kommt bei der Spannungsmessung in den Anschluss, der meist mit "V" gekennzeichnet ist.
+Avant de pouvoir commencer à mesurer, les deux câbles de mesure doivent être connectés à l'appareil de mesure. Bien que cela semble simple, il faut faire attention. La plupart des multimètres ont trois, voire quatre, connexions pour les câbles de mesure. La connexion commune, dans laquelle un câble de mesure doit être inséré, est généralement marquée "COM" (anglais "common"). C'est ici que l'on connecte généralement le câble de mesure noir. Le câble rouge est connecté, lors de la mesure de tension, à la connexion qui est généralement marquée "V".
 
-Um Spannungen zu messen, ist am Messgerät die Spannungsmessung auszuwählen. Möchte man Wechselspannung messen, ist bei vielen Multimetern "V ~" auszuwählen, für Gleichspannung hingegen "V =".
+Pour mesurer les tensions, la mesure de tension doit être sélectionnée sur l'appareil de mesure. Si vous souhaitez mesurer une tension alternative, "V ~" doit être sélectionné sur de nombreux multimètres, et "V =", pour une tension continue.
 
-Die meisten Multimeter verfügen über unterschiedliche Messbereiche für kleine und große Spannungen. Da vor dem Messen meist unklar ist, welche Größenordnung zu erwarten ist, sollte man am Anfang immer den größtmöglichen Messbereich wählen, um dem Gerät keinen Schaden zuzufügen. Je nach angezeigtem Messwert wird anschließend auf einen Messbereich für kleinere Werte umgeschaltet.
+La plupart des multimètres disposent de différentes plages de mesure pour les petites et grandes tensions. Comme il n'est généralement pas clair avant la mesure quelle grandeur est à attendre, il faut toujours choisir la plus grande plage de mesure possible au début, afin de ne pas endommager l'appareil. Selon la valeur de mesure affichée, on passe ensuite à une plage de mesure pour des valeurs plus petites.
 
-Verwechselt man Strom- und Spannungsmessung oder überschreitet die Messbereichseinstellung, kann das Messgerät einen Schaden erleiden. Vor der Messung sollte man außerdem an das denken, was wir zu Gefahren von elektrischem Strom gelernt haben: Wechselspannungen größer $\qty{50}{\volt}$ und Gleichspannungen größer $\qty{120}{\volt}$ können lebensgefährlich sein!
+Si l'on confond la mesure de courant et de tension ou si l'on dépasse la plage de mesure, l'appareil de mesure peut être endommagé. Avant la mesure, il faut également penser à ce que nous avons appris sur les dangers du courant électrique : les tensions alternatives supérieures à $\qty{50}{\volt}$ et les tensions continues supérieures à $\qty{120}{\volt}$ peuvent être mortelles !
 </webtip>
 
 
 [question:NI101] 
 [question:NI103]
 
-Wie wir bereits im Kapitel Strom- und Spannungsversorgung gelernt haben, kann man mehrere Batterien in Serie schalten, um eine höhere Spannung zu erhalten. Dazu wird der Pluspol der einen Batterie mit dem Minuspol der anderen Batterie verbunden. Die beiden Einzelspannungen der Batterie addieren sich dann. Schaltet man hingegen zwei Batterien so in Reihe, dass gleiche Pole miteinander verbunden sind, dann subtrahieren sich die Spannungen. Falls beide Batterien die gleiche Spannung haben, wird man keine Spannung, also $\qty{0}{\volt}$, messen.
+Comme nous l'avons déjà appris dans le chapitre sur l'alimentation électrique et en courant, on peut connecter plusieurs batteries en série pour obtenir une tension plus élevée. Pour ce faire, le pôle positif d'une batterie est connecté au pôle négatif de l'autre batterie. Les deux tensions individuelles de la batterie s'additionnent alors. Si, en revanche, deux batteries sont connectées en série de telle sorte que les pôles identiques sont connectés ensemble, alors les tensions se soustraient. Si les deux batteries ont la même tension, on ne mesurera aucune tension, donc $\qty{0}{\volt}$.
 
 
 [question:NB205]

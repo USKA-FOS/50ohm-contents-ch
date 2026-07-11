@@ -1,31 +1,31 @@
-Gleichspannungsquellen sind notwendig, um unsere Funkgeräte und das dazugehörige Zubehör mit Spannung und Strom zu versorgen. Bisher haben wir dabei vor allem Batterien betrachtet. Das allgemeine Schaltzeichen für eine ideale Spannungsquelle ist in Abbildung [ref:e_vsource] dargestellt. In der Realität ist eine Spannungsquelle jedoch nicht ideal, da sie stets einen Innenwiderstand $R_i$ besitzt, wie in Abbildung [ref:e_vsource_schematic] gezeigt.
+Les sources de tension continue sont nécessaires pour alimenter nos appareils radio et leurs accessoires en tension et en courant. Jusqu'à présent, nous avons principalement examiné les batteries. Le symbole de circuit pour une source de tension idéale est représenté dans la figure [ref:e_vsource]. En réalité, une source de tension n'est pas idéale, car elle possède toujours une résistance interne $R_i$, comme le montre la figure [ref:e_vsource_schematic].
 
-Es ist wichtig, auch bei Belastung eine konstante Spannung zu erhalten. Diese Eigenschaft wird dann erreicht, wenn der Innenwiderstand sehr klein ist. Dann gibt es an ihm, auch bei großen Lastströmen, keinen großen Spannungsfall, der die Klemmenspannung $U_k$ absinken lässt.
+Il est important d'obtenir une tension constante même sous charge. Cette propriété est atteinte lorsque la résistance interne est très faible. Dans ce cas, même avec de grands courants de charge, il n'y a pas de grande chute de tension qui fait baisser la tension aux bornes $U_k$.
 
 <margin>
-[picture:824:e_vsource:Schaltzeichen Spannungsquelle]
-[picture:1018:e_vsource_schematic:Ersatzschaltbild Spannungsquelle $R_i$ niederohmig]
+[picture:824:e_vsource:Symbole de circuit source de tension]
+[picture:1018:e_vsource_schematic:Circuit équivalent source de tension $R_i$ basse impédance]
 </margin>
 
 [question:ED301]
 
 ---
-Die Gleichspannungsquellen (Netzgeräte) werden an das bestehende 230 V Wechselspannungsnetz angeschlossen. Wie bereits am Beispiel des Schutzkontaktsteckers in Klasse N kennengelernt, haben wir bei Wechselspannung den Außenleiter L, den Neutralleiter N und den Schutzleiter PE. 
+Les sources de tension continue (alimentations) sont connectées au réseau de tension alternative existant de 230 V. Comme nous l'avons déjà vu avec l'exemple de la prise de courant de protection dans la classe N, nous avons avec la tension alternative le conducteur de phase L, le conducteur neutre N et le conducteur de protection PE.
 
-Bei einer 3-adrigen Leitung mit Schutzleiter z.B. NYM-J $3 \times \qty{1,5}{\milli\meter\squared}$ sind die Aderfarben wie in Abbildung [ref:e_NYM_Aderfarben] festgelegt:
+Dans un câble à 3 conducteurs avec conducteur de protection, par exemple NYM-J $3 \times \qty{1,5}{\milli\meter\squared}$, les couleurs des conducteurs sont fixées comme dans la figure [ref:e_NYM_Aderfarben]:
 
-* Schutzleiter (PE) = grün/gelb
-* Neutralleiter (N) = blau
-* Außenleiter (L) = braun  
+* Conducteur de protection (PE) = vert/jaune
+* Conducteur neutre (N) = bleu
+* Conducteur de phase (L) = brun
 
 <indepth>
-Der Verband der Elektrotechnik Elektronik und Informationstechnik e. V. (VDE) ist u.a. Herausgeber von Normen in der Elektrotechnik. In der Norm DIN VDE 0293-308 sind die Aderkennzeichnungen festgelegt. 
+L'Association pour l'électrotechnique, l'électronique et les technologies de l'information e. V. (VDE) est, entre autres, l'éditeur de normes en électrotechnique. Les marquages des conducteurs sont fixés dans la norme DIN VDE 0293-308.
 </indepth>
 
 <margin>
-[picture:791:e_NYM_Aderfarben:Aderfarben einer 3-adrigen Leitung]
+[picture:791:e_NYM_Aderfarben:Couleurs des conducteurs d'un câble à 3 conducteurs]
 </margin>
 
-In den folgenden Kapiteln werden wir noch einige weitere Elemente der Spannungsversorgung kennenlernen.
+Dans les chapitres suivants, nous apprendrons encore quelques autres éléments de l'alimentation électrique.
 
 [question:EK205]

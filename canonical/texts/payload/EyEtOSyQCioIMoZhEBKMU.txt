@@ -1,9 +1,9 @@
-Die Bandbreite eines Signals oder einer Aussendung wird in Hertz ($\unit{\hertz}$) bemessen. Hierbei misst man die Bandbreite eines Signals durch Messung der Differenz zwischen maximaler und minimaler Sendefrequenz der Aussendung.
+La bande passante d'un signal ou d'une émission est mesurée en Hertz ($\unit{\hertz}$). Dans ce cas, on mesure la bande passante d'un signal en mesurant la différence entre la fréquence d'émission maximale et minimale de l'émission.
 
 <indepth>
-Die Bandbreite gibt also an, wieviel Spektrum das Signal beansprucht. Üblicherweise messen wir die Bandbreite eines Signals zwischen den Frequenzpunkten, bei denen die spektrale Leistung auf $\frac{1}{2}$ (entsprechend $\qty{-3}{\dB}$) des Spitzenwerts abgefallen ist.
+La bande passante indique donc la quantité de spectre que le signal occupe. Habituellement, nous mesurons la bande passante d'un signal entre les points de fréquence où la puissance spectrale est tombée à $\frac{1}{2}$ (correspondant à $\qty{-3}{\dB}$) de la valeur de crête.
   
-[picture:1044:e_bandbreite:Definition der Bandbreite]
+[picture:1044:e_bandbreite:Définition de la bande passante]
 </indepth>
   
 [question:EA105]

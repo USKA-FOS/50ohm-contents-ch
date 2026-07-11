@@ -1,24 +1,24 @@
-Wir haben auch schon gelernt: Sobald man einen elektrischen Verbraucher wie eine Lampe an die beiden Pole einer Spannungsquelle anschließt, fangen die getrennten elektrischen Ladungen an sich zu bewegen. Wir nennen dies einen *geschlossenen Stromkreis*, in dem ein elektrischer Strom fließt. Abhängig davon, wie groß eine Spannung ist und was für ein Verbraucher angeschlossen wird, fließt mehr oder weniger Strom. Wir sprechen von der *elektrischen Stromstärke*, die in der Einheit Ampere mit der Abkürzung $\unit{\ampere}$ angegeben wird.
+Nous avons également appris : dès qu'un consommateur électrique comme une lampe est connecté aux deux pôles d'une source de tension, les charges électriques séparées commencent à se déplacer. Nous appelons cela un *circuit électrique fermé*, dans lequel un courant électrique circule. Selon l'importance d'une tension et le type de consommateur connecté, plus ou moins de courant circule. Nous parlons de l'*intensité du courant électrique*, qui est indiquée en ampères avec l'abréviation $\unit{\ampere}$.
 
 <person>
-Die Einheit Ampere ist nach dem französischem Physiker und Mathematiker *André-Marie Ampère* benannt, der in den 1820er Jahren die elektrische Spannung und den elektrischen Strom wissenschaftlich erklärte.
+L'unité ampère est nommée d'après le physicien et mathématicien français *André-Marie Ampère*, qui a expliqué scientifiquement la tension électrique et le courant électrique dans les années 1820.
 </person>
 
 [question:NA202]
 
 ---
 
-Schauen wir uns wieder einige Beispiele an: Durch eine Leuchtdiode (LED) fließen beispielsweise $\qty{5}{\milli\ampere}$ Strom. Bei einem Transceiver im Empfangsbetrieb sind es z. B. schon $\qty{900}{\milli\ampere}$, also fast ein Ampere. Durch einen Transceiver im Sendebetrieb kann schon wesentlich mehr Strom fließen, beispielsweise $\qty{21}{\ampere}$.
+Regardons à nouveau quelques exemples : par exemple, un courant de $\qty{5}{\milli\ampere}$ circule à travers une diode électroluminescente (LED). Dans le cas d'un émetteur-récepteur en mode réception, il s'agit déjà de $\qty{900}{\milli\ampere}$, soit presque un ampère. Dans le cas d'un émetteur-récepteur en mode émission, un courant beaucoup plus important peut circuler, par exemple $\qty{21}{\ampere}$.
 
 <webmargin>
-| l: Verbraucher | r: | c: | l: |
-| Leuchtdiode (LED) | $\qty{5}{\milli\ampere}$ | = | $\qty{0,005}{\ampere}$ |
-| Transceiver im Empfangsbetrieb | $\qty{900}{\milli\ampere}$ | = | $\qty{0,9}{\ampere}$ |
-| Transceiver im Sendebetrieb | $\qty{21}{\ampere}$ | = | $\qty{21}{\ampere}$ |
-[table:strom_beispiele:Beispiele für Ströme]
+| l: Consommateur | r: | c: | l: |
+| Diode électroluminescente (LED) | $\qty{5}{\milli\ampere}$ | = | $\qty{0,005}{\ampere}$ |
+| Émetteur-récepteur en mode réception | $\qty{900}{\milli\ampere}$ | = | $\qty{0,9}{\ampere}$ |
+| Émetteur-récepteur en mode émission | $\qty{21}{\ampere}$ | = | $\qty{21}{\ampere}$ |
+[table:strom_beispiele:Exemples de courants]
 </webmargin>
 
-Um die folgende Aufgabe zu lösen, müssen wir uns klar machen, dass $\qty{1}{\milli\ampere}$ das gleiche ist wie $\qty{0,001}{\ampere}$. Beim Lösen muss man aber aufpassen, mit den Nullen nach dem Komma nicht durcheinander zu kommen: Wenn $\qty{1}{\milli\ampere}$ dasselbe wie $\qty{0,001}{\ampere}$ ist, dann ist $\qty{10}{\milli\ampere}$ dasselbe wie $\qty{0,010}{\ampere}$. Demzufolge ist $\qty{40}{\milli\ampere}$ also $\qty{0,040}{\ampere}$. Schlussendlich entspricht $\qty{42}{\milli\ampere}$ also $\qty{0,042}{\ampere}$.
+Pour résoudre la tâche suivante, nous devons nous rendre compte que $\qty{1}{\milli\ampere}$ est la même chose que $\qty{0,001}{\ampere}$. Cependant, lors de la résolution, il faut faire attention à ne pas mélanger les zéros après la virgule : si $\qty{1}{\milli\ampere}$ est la même chose que $\qty{0,001}{\ampere}$, alors $\qty{10}{\milli\ampere}$ est la même chose que $\qty{0,010}{\ampere}$. Par conséquent, $\qty{40}{\milli\ampere}$ est donc $\qty{0,040}{\ampere}$. Finalement, $\qty{42}{\milli\ampere}$ correspond donc à $\qty{0,042}{\ampere}$.
 
 [question:NA209]
 

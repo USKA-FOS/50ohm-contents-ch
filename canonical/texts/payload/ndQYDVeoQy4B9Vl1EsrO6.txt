@@ -1,16 +1,16 @@
-## Große und kleine Werte
+## Grandes et petites valeurs
 
-* Im Amateurfunk haben wir große und kleine Werte
-* Um sich viele 0-en zu sparen, wurde bereits mit Einheitenvorsätzen abgekürzt, z.B. mit Milli ($\unit{\milli}$) oder Kilo ($\unit{\kilo}$)
+* En radioamateur, nous avons de grandes et de petites valeurs
+* Pour éviter d'écrire beaucoup de zéros, des préfixes d'unité ont déjà été utilisés, par exemple avec milli ($\unit{\milli}$) ou kilo ($\unit{\kilo}$)
 
 ---
 
-## Zehnerpotenzen
+## Puissances de dix
 
-* Einheitenvorsätze lassen sich in den meisten Taschenrechnern nicht direkt eingeben
-* Stattdessen wird die Zehnerpotenz verwendet
-* Kilo entspricht $1000$ oder $10 \cdot 10 \cdot 10$
-* Abgekürzt $10^3$
+* Les préfixes d'unité ne peuvent pas être saisis directement dans la plupart des calculatrices de poche
+* Au lieu de cela, la puissance de dix est utilisée
+* Kilo correspond à $1000$ ou $10 \cdot 10 \cdot 10$
+* Abréviation $10^3$
 
 <fragment>
 $\qty{1500}{\hertz} \rArr \qty{1,5}{\kilo\hertz} \rArr \qty{1,5e3}{\hertz}$
@@ -18,44 +18,44 @@ $\qty{1500000}{\hertz} \rArr \qty{1,5}{\mega\hertz} \rArr \qty{1,5e6}{\hertz}$
 </fragment>
   
 <note>
-* Gesprochen: "10 hoch 3" oder "3. Potenz von 10"
+* Prononcé : "10 à la puissance 3" ou "3ème puissance de 10"
 </note>
 
 ---
 
-* Milli entspricht $\frac{1}{1000}$ oder $\frac{1}{10 \cdot 10 \cdot 10}$
-* Abgekürzt $10^{-3}$
+* Milli correspond à $\frac{1}{1000}$ ou $\frac{1}{10 \cdot 10 \cdot 10}$
+* Abréviation $10^{-3}$
 
 <fragment>
 $\qty{0,0035}{\volt} \rArr \qty{3,5}{\milli\volt} \rArr \qty{3,5e-3}{\volt}$
 </fragment>
 
 --- style="font-size: 0.5em;"
-### Einheitenvorsätze und Zehnerpotenzen
+### Préfixes d'unité et puissances de dix
 
-| c: Bezeichnung | c: Abkürzung | l: Wert |
+| c: Désignation | c: Abréviation | l: Valeur |
 | Pico | $\unit{\pico}$ | $10^{-12} = \num{0,000000000001}$ |
 | Nano | $\unit{\nano}$ | $10^{-9} = \num{0,000000001}$ |
-| Mikro | $\unit{\micro}$ | $10^{-6} = \num{0,000001}$ |
+| Micro | $\unit{\micro}$ | $10^{-6} = \num{0,000001}$ |
 | Milli | $\unit{\milli}$ | $10^{-3} = \num{0,001}$ |
 | |  | $10^{0} = \num{1}$ |
 | Kilo | $\unit{\kilo}$ | $10^{3} = \num{1000}$ |
-| Mega | $\unit{\mega}$ | $10^{6} = \num{1000000}$ |
+| Méga | $\unit{\mega}$ | $10^{6} = \num{1000000}$ |
 | Giga | $\unit{\giga}$ | $10^{9} = \num{1000000000}$ |
-[table:e_einheitenvorzeichen:Einheitenvorsätze für Zehnerpotenzen]
+[table:e_einheitenvorzeichen:Préfixes d'unité pour les puissances de dix]
 
 ---
 
-## Taschenrechner
+## Calculatrice de poche
 
 <left>
-* Taste *EXP* oder *$\times 10^x$*
-* Eintippen: $145,3 \rightarrow$ Exp $\rightarrow 6$
-* Taste *ENG* verschiebt den Exponent um 3
-* Oft schaltet die Taste *S/D* zwischen verschiedenen Darstellungen um
+* Touche *EXP* ou *$\times 10^x$*
+* Saisie : $145,3 \rightarrow$ Exp $\rightarrow 6$
+* La touche *ENG* décale l'exposant de 3
+* La touche *S/D* passe souvent entre différentes représentations
 </left>
 <right>
-[photo:172:e_taschenrechner:Verschiedene Darstellungen der Zahl $\num{0,007} in einer Taschenrechner-App]
+[photo:172:e_taschenrechner:Différentes représentations du nombre $\num{0,007} dans une application de calculatrice]
 </right>
 
 ---

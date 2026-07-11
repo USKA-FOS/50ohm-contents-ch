@@ -1,4 +1,4 @@
-Die Funktionsweise eines vektoriellen Netzwerkanalysators ist wie folgt: Es wird ein *frequenzveränderliches* Signal erzeugt welches ausgegeben wird (z. B. auf eine Antenne oder ein anderes Messobjekt, wie einen Schwingkreis). Nun wird gemessen, wie dieses Signal verändert wird (z. B. reflektiert wird). Hierbei wird sowohl die Amplitude als auch die Phase gemessen. Somit lassen sich unter anderem der Wirk- und Blindanteil eines Widerstands als auch das Stehwellenverhältnis ermitteln.
+Le fonctionnement d'un analyseur de réseau vectoriel est le suivant : un signal à *fréquence variable* est généré et émis (par exemple sur une antenne ou un autre objet de mesure, comme un circuit oscillant). On mesure ensuite comment ce signal est modifié (par exemple, il est réfléchi). À cet effet, on mesure à la fois l'amplitude et la phase. On peut ainsi déterminer, entre autres, la partie réelle et la partie imaginaire d'une résistance ainsi que le rapport d’ondes stationnaires.
 
 [question:AI201]
 [question:AI202]
@@ -6,10 +6,10 @@ Die Funktionsweise eines vektoriellen Netzwerkanalysators ist wie folgt: Es wird
 
 ---
 
-Eine mögliche Anzeigeform des VNAs ist die Aufteilung der Impedanz in Wirk- und Blindanteil (Wirkwiderstand $R$ und Blindwiderstand $X$). Der Wirkwiderstand wird oft in $\unit{\ohm}$ und der Blindwiderstand gelegentlich auch als $j\unit{\ohm}$ angegeben. Die Anzeigen verschiedener Geräte sind nicht einheitlich. Das $j$ entstammt einer Schreibweise aus der Elektrotechnik, bei der dieses für die sogenannte imaginäre Einheit ($i$) der Mathematik steht. Positive Blindwiderstände stehen für induktives und negative Blindwiderstände für kapazitives Verhalten.
+Une forme possible d'affichage de l'ANV est la séparation de l'impédance en partie réelle et partie imaginaire (résistance $R$ et réactance $X$). La résistance est souvent indiquée en $\unit{\ohm}$ et la réactance parfois aussi en $j\unit{\ohm}$. Les affichages des différents appareils ne sont pas uniformes. Le $j$ provient d'une notation de l'électrotechnique, où celui-ci représente l'unité imaginaire ($i$) de la mathématique. Les réactances positives indiquent un comportement inductif et les réactances négatives un comportement capacitif.
 
 <indepth>
-*Imaginäre Zahlen* sind ein beliebtes Hilfsmittel in der Elektrotechnik und der Mathematik. Um Gleichungen wie $x^2 = -1$ lösen zu können, hat man sich eine sogenannte imaginäre Zahl ($i$) ausgedacht, die mit sich selbst multipliziert eine negative Zahl ergibt: $i^2 = -1$. Keine reelle Zahl erfüllt eine solche Gleichung, da eine negative Zahl mal einer negativen Zahl eine positive Zahl ist. Deshalb bezeichnet man $i$ als "imaginär". Diese "ausgedachte" Zahl ergibt mit sich selbst multipliziert eine negative Zahl, nämlich $-1$. Addiert man reelle Zahlen (z. B. $54$) mit einer imaginären Zahl (z. B. $-12i$), so ergibt sich eine komplexe Zahl: $54 - 12i$. Eine komplexe Zahl kann z. B. verwendet werden, um einen Wirk- und Blindanteil eines Widerstands zu beschreiben. Auch kann man komplexe Zahlen in eine Amplitude und eine Phase umrechnen. Anstelle des Buchstabens $i$ verwendet man in der Elektrotechnik den Buchstaben $j$, um eine Verwechselung mit dem Formelzeichen $i$ (für Ströme) zu vermeiden.
+*Les nombres imaginaires* sont un moyen populaire en électrotechnique et en mathématique. Pour résoudre des équations comme $x^2 = -1$, on a imaginé un nombre imaginaire ($i$) qui, multiplié par lui-même, donne un nombre négatif : $i^2 = -1$. Aucun nombre réel ne satisfait une telle équation, car un nombre négatif multiplié par un nombre négatif donne un nombre positif. C'est pourquoi on désigne $i$ comme "imaginaire". Ce nombre "imaginaire" donne, multiplié par lui-même, un nombre négatif, à savoir $-1$. Si l'on additionne des nombres réels (par exemple $54$) avec un nombre imaginaire (par exemple $-12i$), on obtient un nombre complexe : $54 - 12i$. Un nombre complexe peut par exemple être utilisé pour décrire une partie réelle et une partie imaginaire d'une résistance. On peut également convertir des nombres complexes en une amplitude et une phase. Au lieu de la lettre $i$, on utilise en électrotechnique la lettre $j$ pour éviter une confusion avec le symbole $i$ (pour les courants).
 </indepth>
 
 [question:AI204]
@@ -18,7 +18,7 @@ Eine mögliche Anzeigeform des VNAs ist die Aufteilung der Impedanz in Wirk- und
 
 ---
 
-Viele VNAs verfügen über die Möglichkeit, den SWR-Verlauf über die Frequenz grafisch darzustellen. Liegt die Resonanzfrequenz einer Antenne zu tief, weiß man, dass diese gekürzt werden sollte. Liegt sie zu hoch, dann müsste die Antenne verlängert werden.
+De nombreux ANV permettent de représenter graphiquement le rapport d’ondes stationnaires en fonction de la fréquence. Si la fréquence de résonance d'une antenne est trop basse, on sait qu'elle doit être raccourcie. Si elle est trop élevée, l'antenne doit être allongée.
 
 [question:AI207]
 [question:AI208]

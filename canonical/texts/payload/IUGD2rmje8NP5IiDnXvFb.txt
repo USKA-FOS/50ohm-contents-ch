@@ -1,60 +1,60 @@
-Stromkreise bilden die Grundlage der gesamten Elektrotechnik und spielen deshalb auch im Amateurfunk eine große Rolle. Grundsätzlich haben wir den Stromkreis schon kennengelernt. Schließt man an eine Stromquelle wie eine Batterie einen Verbraucher an, also z. B. eine Lampe, dann haben wir den Stromkreis geschlossen und es fließt Strom.
+Les circuits électriques constituent la base de toute l'électrotechnique et jouent donc un rôle important dans le radioamateur. En principe, nous avons déjà connu le circuit électrique. Si vous connectez une source de tension, comme une batterie, à un consommateur, par exemple une lampe, alors nous avons le circuit électrique fermé et le courant circule.
 
 <margin>
-[picture:667:n_stromkreis_wasserkreislauf:Wasserkreislauf]
+[picture:667:n_stromkreis_wasserkreislauf:Circuit d'eau]
 </margin>
 
-Um das Ganze zu veranschaulichen, schauen wir uns zunächst einen ähnlichen Sachverhalt an. Die Abbildung [ref:n_stromkreis_wasserkreislauf] zeigt einen Wasserkreislauf, bei dem Folgendes passiert:
-1. Eine Pumpe erzeugt Druck und pumpt damit das Wasser nach oben
-2. Das Wasser strömt durch ein offenes Ventil durch
-3. Ein Wasserrad wird vom fließenden Wasser angetrieben
+Pour illustrer cela, examinons d'abord un fait similaire. La figure [ref:n_stromkreis_wasserkreislauf] montre un circuit d'eau dans lequel ce qui suit se produit:
+1. Une pompe crée une pression et pompe ainsi l'eau vers le haut
+2. L'eau s'écoule à travers une vanne ouverte
+3. Une roue hydraulique est entraînée par l'eau qui s'écoule
 
-Abschließend ist der Druck abgebaut und das Wasser kann durch die Pumpe erneut hochgepumpt werden. Schließt man das Ventil, so wird der Wasserkreislauf unterbrochen, und das Wasserrad läuft nicht mehr.
+Enfin, la pression est dissipée et l'eau peut être pompée à nouveau par la pompe. Si la vanne est fermée, le circuit d'eau est interrompu et la roue hydraulique ne tourne plus.
 
 ---
 
-Ein Stromkreis wie in der Abbildung [ref:n_stromkreis_geschlossen] funktioniert so ähnlich wie der Wasserkreislauf. Auch wenn die Analogie des Wasserkreislaufs nur ein Modell ist und nicht für alle Sachverhalte in der Elektrotechnik herangezogen werden darf, kann es beim Verständnis des Stromkreises helfen.
+Un circuit électrique comme dans la figure [ref:n_stromkreis_geschlossen] fonctionne de manière similaire au circuit d'eau. Même si l'analogie du circuit d'eau n'est qu'un modèle et ne peut pas être utilisée pour tous les faits en électrotechnique, elle peut aider à comprendre le circuit électrique.
 
 <margin>
-[picture:662:n_stromkreis_geschlossen:Geschlossener Stromkreis]
+[picture:662:n_stromkreis_geschlossen:Circuit électrique fermé]
 </margin>
 
-Statt einer Pumpe verwenden wir eine Spannungsquelle, zum Beispiel eine Batterie, die statt eines Drucks eine Spannung ($U$) erzeugt. Diese Spannung bringt den Strom ($I$) zum Fließen, genauso wie der Druck das Wasser zum Fließen bringt.
+Au lieu d'une pompe, nous utilisons une source de tension, par exemple une batterie, qui crée une tension ($U$) au lieu d'une pression. Cette tension fait circuler le courant ($I$), tout comme la pression fait circuler l'eau.
 
 ---
 
-Die Aufgabe des Ventils übernimmt ein *Schalter*. Mit diesem kann man den Stromkreis unterbrechen oder schließen. Es kann immer nur dann Strom fließen, wenn der Stromkreis geschlossen ist. Öffnet man den Schalter, wie in Abbildung [ref:n_stromkreis_offen] gezeigt, wird der Stromfluss unterbrochen. Das Symbol des Schalters sowie praktische Umsetzungen als Kipp- und Schiebeschalter sieht man in der Abbildung [ref:n_stromkreis_schalter].
+La fonction de la vanne est assurée par un *interrupteur*. Avec celui-ci, on peut interrompre ou fermer le circuit électrique. Le courant ne peut circuler que lorsque le circuit électrique est fermé. Si l'interrupteur est ouvert, comme le montre la figure [ref:n_stromkreis_offen], le flux de courant est interrompu. Le symbole de l'interrupteur ainsi que les mises en œuvre pratiques sous forme d'interrupteurs à bascule et à glissière sont représentés dans la figure [ref:n_stromkreis_schalter].
 
 <margin>
-[picture:663:n_stromkreis_offen:Offener Stromkreis]
+[picture:663:n_stromkreis_offen:Circuit électrique ouvert]
 </margin>
 
 <margin>
-[photo:202:n_stromkreis_schalter:Schaltzeichen und Bauformen von Schaltern]
+[photo:202:n_stromkreis_schalter:Symboles de circuit et formes de construction des interrupteurs]
 </margin>
 
 [question:NB701]
 
 ---
 
-In unserem Wasserbeispiel bremst das Wasserrad den Wasserfluss. Analog dazu wird im elektrischen Beispiel der Stromfluss durch einen *Widerstand* ($R$) gebremst. Ein Widerstand ist ein künstlicher Verbraucher, der Strom in Wärme umwandelt. Er hat nur den Zweck, den Stromfluss zu begrenzen. Verschiedene Arten von Widerständen sind in der Abbildung [ref:n_stromkreis_widerstand] dargestellt.
+Dans notre exemple d'eau, la roue hydraulique freine le flux d'eau. De manière analogue, dans l'exemple électrique, le flux de courant est freiné par une *résistance* ($R$). Une résistance est un consommateur artificiel qui convertit le courant en chaleur. Elle n'a pour but que de limiter le flux de courant. Différents types de résistances sont représentés dans la figure [ref:n_stromkreis_widerstand].
 
 [question:NC101]
 
-Im geschlossenen Stromkreis fließt der Strom immer vom Pluspol der Batterie zum Minuspol der Batterie. Diese Flussrichtung wird in der Fachsprache als *technische Stromrichtung* bezeichnet und ist in der Abbildung [ref:n_stromkreis_geschlossen] durch Pfeile gekennzeichnet.
+Dans le circuit électrique fermé, le courant circule toujours du pôle positif de la batterie au pôle négatif de la batterie. Cette direction de flux est désignée dans la terminologie professionnelle par *direction technique du courant* et est indiquée dans la figure [ref:n_stromkreis_geschlossen] par des flèches.
 
 ---
 
 <danger>
-Damit kein Kurzschluss entsteht, darf ein Stromkreis nicht nur aus Draht und geschlossenen Schaltern bestehen, sondern der Strom muss immer auch durch einen Widerstand, z. B. einen Verbraucher, fließen. Ein Kurzschluss kann sehr gefährlich sein, weil er eine unkontrollierte große Menge an Strom durch die Leitungen fließen lässt, was zu Beschädigungen an der Spannungsquelle, Geräten, schweren Verletzungen, einer Überhitzung oder möglicherweise sogar zu einem Brand führen kann.
+Pour éviter un court-circuit, un circuit électrique ne doit pas se composer uniquement de fil et d'interrupteurs fermés, mais le courant doit toujours circuler à travers une résistance, par exemple un consommateur. Un court-circuit peut être très dangereux, car il laisse passer une grande quantité de courant incontrôlée à travers les lignes, ce qui peut entraîner des dommages à la source de tension, aux appareils, de graves blessures, une surchauffe ou éventuellement même un incendie.
 </danger>
 
 [question:NB702]
 
-Die folgende Frage ist etwas knifflig. Man könnte meinen, dass Strom fließen kann, da ein Plus-Pol mit einem Minus-Pol verbunden ist. Das reicht jedoch nicht, da sich die getrennten Ladungen innerhalb einer Spannungsquelle ausgleichen wollen. Damit das möglich ist, muss der Stromkreis vom Plus-Pol einer Spannungsquelle zum Minus-Pol *derselben* Spannungsquelle führen. Merke: Nur in einem geschlossenen Stromkreis kann Strom fließen!
+La question suivante est un peu délicate. On pourrait penser que le courant peut circuler, car un pôle positif est connecté à un pôle négatif. Cela ne suffit cependant pas, car les charges séparées à l'intérieur d'une source de tension veulent s'équilibrer. Pour que cela soit possible, le circuit électrique doit conduire du pôle positif d'une source de tension au pôle négatif de *la même* source de tension. Retenez : Le courant ne peut circuler que dans un circuit électrique fermé !
 
 <margin>
-[photo:203:n_stromkreis_widerstand:Schaltzeichen und Bauformen von Widerständen]
+[photo:203:n_stromkreis_widerstand:Symboles de circuit et formes de construction des résistances]
 </margin>
 
 [question:NB207]

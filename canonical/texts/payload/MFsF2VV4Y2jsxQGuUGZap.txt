@@ -1,22 +1,22 @@
-Wie wir zuvor gelernt haben, verwenden Amateurfunkgeräte und im Amateurfunk gebräuchliche Übertragungsleitungen meist einen Wellenwiderstand von $\qty{50}{\ohm}$. Wir haben auch gelernt, dass es an Verbindungsstellen von Übertragungsleitungen zu unerwünschten Reflexionen kommt, wenn der Wellenwiderstand nicht übereinstimmt.
+Comme nous l'avons appris précédemment, les appareils radioamateurs et les lignes de transmission couramment utilisées dans la radioamateur utilisent généralement une impédance de ligne de $\qty{50}{\ohm}$. Nous avons également appris que des réflexions indésirables se produisent aux points de connexion des lignes de transmission lorsque l'impédance de la ligne ne correspond pas.
 
-Auch Antennen haben eine dem Wellenwiderstand ähnliche Eigenschaft, die von der genauen Anordnung der Antennenelemente abhängt. Diese Eigenschaft wird als Speise- oder Fußpunktwiderstand bezeichnet. Wie bei der Verbindung von zwei Übertragungsleitungen mit unterschiedlichem Wellenwiderstand gilt auch hier: Wenn der Speisewiderstand der Antennen nicht zum Wellenwiderstand der Zuleitung passt, dann kommt es zu unerwünschten Reflexionen. Ein Teil der Sendeleistung wird zum Funkgerät zurück reflektiert und kann nicht von der Antenne abgestrahlt werden.
+Les antennes ont également une propriété similaire à l'impédance de la ligne, qui dépend de la disposition exacte des éléments de l'antenne. Cette propriété est appelée résistance d'alimentation ou résistance de base. Comme pour la connexion de deux lignes de transmission avec des impédances de ligne différentes, il en va de même ici : si la résistance d'alimentation des antennes ne correspond pas à l'impédance de la ligne d'alimentation, des réflexions indésirables se produisent. Une partie de la puissance d'émission est réfléchie vers l'appareil radio et ne peut pas être rayonnée par l'antenne.
 
-Wenn hingegen der Speisewiderstand der Antenne und der Wellenwiderstand der Speiseleitung übereinstimmen und somit eine optimale Übertragung der Sendeleistung in die Antenne gewährleistet ist, spricht man davon, dass *Anpassung* vorliegt.
+En revanche, si la résistance d'alimentation de l'antenne et l'impédance de la ligne d'alimentation sont identiques et garantissent ainsi une transmission optimale de la puissance d'émission dans l'antenne, on parle d'*adaptation*.
 
 <margin>
-[photo:144:swr_meter:Ein einfaches SWR-Meter zum Bestimmen des Stehwellenverhältnisses]
+[photo:144:swr_meter:Un simple SWR-Meter pour déterminer le rapport d’ondes stationnaires]
 </margin>
 
-Wie gut die Antennenanpassung ist, lässt sich messen. Vereinfacht gesagt wird dafür ermittelt, wieviel Sendeleistung von der Antenne reflektiert wird. Der vom Messgerät angezeigte Messwert nennt sich *Stehwellenverhältnis*. Meist wird die vom englischen Begriff "standing wave ratio" abgeleitete Abkürzung SWR verwendet. Zur Bestimmung des SWR benutzt man ein *Stehwellenmessgerät*, kurz *SWR-Meter* genannt.
+La qualité de l'adaptation de l'antenne peut être mesurée. En termes simplifiés, cela se fait en déterminant quelle partie de la puissance d'émission est réfléchie par l'antenne. La valeur mesurée indiquée par l'appareil de mesure s'appelle le *rapport d’ondes stationnaires*. On utilise généralement l'abréviation SWR, dérivée du terme anglais "standing wave ratio". Pour déterminer le SWR, on utilise un *appareil de mesure des ondes stationnaires*, appelé brièvement *SWR-Meter*.
 
-% TODO: Editionsspezifisch machen
+% TODO: Rendre spécifique à l'édition
 <indepth>
-Ein SWR-Meter misst gleichzeitig die vorlaufende Sendeleistung, die der Sender zur Antenne schickt, und die rücklaufende Leistung, die reflektiert wurde. Dies lässt sich gut am SWR-Meter in Abbildung [ref:swr_meter_kreuzzeiger] erkennen, das vor- und rücklaufende Leistung getrennt anzeigt. Das SWR gibt allerdings nicht direkt das Verhältnis dieser beiden Messwerte an, sondern wird etwas komplizierter als $\text{SWR} = \frac {\sqrt{P_\text{V}}+\sqrt{P_\text{R}}} { \sqrt{P_\text{V}}-\sqrt{P_\text{R}}}$ ermittelt, wobei $P_\text{V}$ die vorlaufende und $P_\text{R}$ die rücklaufende Leistung ist. Für die Prüfung der Klasse N muss man diese Formel nicht kennen.
+Un SWR-Meter mesure simultanément la puissance d'émission incidente, que l'émetteur envoie à l'antenne, et la puissance réfléchie, qui a été réfléchie. Cela peut être bien vu sur le SWR-Meter dans la figure [ref:swr_meter_kreuzzeiger], qui affiche séparément la puissance incidente et réfléchie. Le SWR ne donne cependant pas directement le rapport de ces deux valeurs de mesure, mais est déterminé de manière quelque peu compliquée par $\text{SWR} = \frac {\sqrt{P_\text{V}}+\sqrt{P_\text{R}}} { \sqrt{P_\text{V}}-\sqrt{P_\text{R}}}$, où $P_\text{V}$ est la puissance incidente et $P_\text{R}$ la puissance réfléchie. Pour l'examen de la classe N, il n'est pas nécessaire de connaître cette formule.
 </indepth>
 
 <margin>
-[photo:143:swr_meter_kreuzzeiger:SWR-Meter mit Kreuzzeiger, linker Zeiger für die vorlaufende und rechter Zeiger für die rücklaufende Leistung; um das SWR abzulesen, wird der grünen Linie am Schnittpunkt beider Zeiger nach unten gefolgt]
+[photo:143:swr_meter_kreuzzeiger:SWR-Meter avec indicateur croisé, l'indicateur de gauche pour la puissance incidente et l'indicateur de droite pour la puissance réfléchie ; pour lire le SWR, suivre la ligne verte au point d'intersection des deux indicateurs vers le bas]
 </margin>
 
 [question:NI201]
@@ -24,28 +24,28 @@ Ein SWR-Meter misst gleichzeitig die vorlaufende Sendeleistung, die der Sender z
 ---
 
 <margin>
-[photo:67:n_swr_display:Display eines Transceivers]
+[photo:67:n_swr_display:Affichage d'un émetteur-récepteur]
 </margin>
 
-Moderne Transceiver haben bereits ein SWR-Meter eingebaut. Die Anzeige ist meistens im Display zu finden, siehe [ref:n_swr_display].
+Les émetteurs-récepteurs modernes ont déjà un SWR-Meter intégré. L'affichage se trouve généralement dans l'affichage, voir [ref:n_swr_display].
 
 <attention>
-SWR-Meter und S-Meter klingen ähnlich, sind aber verschieden: Das SWR-Meter misst das Stehwellenverhältnis beim Senden und das S-Meter misst die Signalstärke beim Empfang.
+Les SWR-Meter et les S-Meter ont des noms similaires, mais ils sont différents : le SWR-Meter mesure le rapport d’ondes stationnaires lors de l'émission et le S-Meter mesure l'intensité du signal lors de la réception.
 </attention>
 
-% TODO Big Picture: Im Bild Trx_Display "SWR" kennzeichnen
+% TODO Big Picture: Dans l'image Trx_Display "SWR" mettre en évidence
 [question:NF101] 
 
 ---
 
-Wenn im Transceiver kein SWR-Meter eingebaut ist, kann man auch ein externes SWR-Meter verwenden. Es wird dazu wie in Abbildung [ref:n_trx_kabel_swr_antenne] zwischen Funkgerät und Antenne angeschlossen. Man sagt auch: "Das SWR-Meter wird zwischen Transceiver und Antenne eingeschleift".
+Si le Transceiver n'a pas de SWR-Meter intégré, on peut également utiliser un SWR-Meter externe. Il est connecté entre l'appareil radio et l'antenne comme dans la figure [ref:n_trx_kabel_swr_antenne]. On dit aussi : "Le SWR-Meter est inséré entre le Transceiver et l'antenne".
 
 [question:NI202]
 
-Ist eine Antenne perfekt an die Zuleitung (z. B. das Koaxialkabel) angepasst, so zeigt das SWR-Meter einen Wert von $\num{1}$ an. Dies ist der beste erreichbare Wert. Dann wird die gesamte Leistung von der Antenne aufgenommen. Es wird keine Leistung zurück in den Sender reflektiert.
+Si une antenne est parfaitement adaptée à la ligne d'alimentation (par exemple le câble coaxial), le SWR-Meter affiche une valeur de $\num{1}$. C'est la meilleure valeur possible. Alors, toute la puissance est absorbée par l'antenne. Aucune puissance n'est réfléchie dans l'émetteur.
 
 <margin>
-[picture:670:n_trx_kabel_swr_antenne:Prinzipbild SWR-Meter zwischen Transceiver  und Antenne]
+[picture:670:n_trx_kabel_swr_antenne:Schéma SWR-Meter entre Transceiver et antenne]
 </margin>
 
 [question:NG301]
@@ -53,17 +53,17 @@ Ist eine Antenne perfekt an die Zuleitung (z. B. das Koaxialkabel) angepasst, so
 
 ---
 
-Ist am Transceiver gar keine Antenne angeschlossen oder ist die Übertragungsleitung entweder unterbrochen oder kurzgeschlossen, so ist der SWR-Wert nahezu unendlich ($\infty$). Ein offenes bzw. kurzgeschlossenes Kabel reflektiert nämlich die Sendeleistung komplett. Das kann im schlimmsten Fall sogar den Sender im Funkgerät zerstören.
+Si aucune antenne n'est connectée au Transceiver ou si la ligne de transmission est soit interrompue soit en court-circuit, la valeur SWR est presque infinie ($\infty$). Un câble ouvert ou en court-circuit réfléchit en effet complètement la puissance d'émission. Cela peut, dans le pire des cas, même détruire l'émetteur dans l'appareil radio.
 
 <indepth>
-Neben den beiden *SWR*-Werten $\num{1}$ und unendlich ($\infty$) sind noch die Werte $\num{2}$ und $\num{3}$ rechts markant. Bei einem SWR-Wert von $\num{2}$ werden $\qty{11}{\percent}$, bei einem SWR-Wert von $\num{3}$ werden $\qty{25}{\percent}$ der Sendeleistung zurück in den Sender reflektiert. Bei modernen Transceivern wird einer Beschädigung des Senders dadurch vorgebeugt, dass die Sendeleistung im Funkgerät automatisch reduziert wird.
+Outre les deux valeurs *SWR* $\num{1}$ et infini ($\infty$), les valeurs $\num{2}$ et $\num{3}$ à droite sont également marquantes. Pour une valeur SWR de $\num{2}$, $\qty{11}{\percent}$ de la puissance d'émission est réfléchie dans l'émetteur, pour une valeur SWR de $\num{3}$, $\qty{25}{\percent}$ de la puissance d'émission est réfléchie. Dans les émetteurs-récepteurs modernes, une destruction de l'émetteur est évitée en réduisant automatiquement la puissance d'émission dans l'appareil radio.
 </indepth>
 
-Ein sehr schlechtes SWR, beispielsweise nahe unendlich, kann man auch erhalten, wenn eine sehr schlechte Anpassung der Antennen vorliegt oder die Übertragungsleitung beschädigt ist.
+Un très mauvais SWR, par exemple proche de l'infini, peut également être obtenu si l'adaptation des antennes est très mauvaise ou si la ligne de transmission est endommagée.
 
 [question:NG302]
 [question:NG303]
 
-Ist an einem Funkgerät mit SWR-Meter eine Antenne mit schlechter Anpassung über ein langes Koaxialkabel angeschlossen, so kann der angezeigte SWR-Wert deutlich besser sein als es aufgrund der schlechten Anpassung zu erwarten wäre. Ursache hierfür ist eine hohe Kabeldämpfung, die nicht nur das zur Antenne laufende, sondern auch das reflektierte Signal verringert.
+Si une antenne avec une mauvaise adaptation est connectée à un appareil radio avec un SWR-Meter via un long câble coaxial, la valeur SWR affichée peut être nettement meilleure que ce à quoi on pourrait s'attendre en raison de la mauvaise adaptation. La cause en est une forte atténuation du câble, qui réduit non seulement le signal allant vers l'antenne, mais aussi le signal réfléchi.
 
 [question:NG208]

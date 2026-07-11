@@ -1,17 +1,17 @@
-Funkamateure sind gesetzlich verpflichtet, bestimmte Grenzwerte für die Leistung ihrer Funkanlagen einzuhalten. Besonders wichtig ist dabei die Senderausgangsleistung sowie die Vermeidung unerwünschter Aussendungen – auf Letztere gehen wir im nächsten Kapitel ein. In diesem Kapitel befassen wir uns zunächst mit der Senderausgangsleistung.
+Les radioamateurs sont légalement tenus de respecter certaines limites de puissance pour leurs installations radio. La puissance de sortie de l'émetteur est particulièrement importante, ainsi que l'éviction des émissions indésirables – nous aborderons ce dernier point dans le prochain chapitre. Dans ce chapitre, nous nous concentrons d'abord sur la puissance de sortie de l'émetteur.
 
-In vielen Amateurfunkbändern, die dem Amateurfunk primär zugewiesen sind, gilt die maximale Senderausgangsleistung – auf Englisch Peak Envelope Power (kurz PEP) – als maßgeblicher Grenzwert. Die genauen Leistungsvorgaben finden sich in der [Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums (VVNF)](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf) auf der BAKOM-Webseite.
+Dans de nombreuses bandes de radioamateur, qui sont principalement attribuées au radioamateur, la puissance de sortie maximale de l'émetteur – en anglais Peak Envelope Power (abrégé en PEP) – est considérée comme la valeur limite déterminante. Les spécifications de puissance exactes se trouvent dans l'[ordonnance de l'OFCOM sur l'utilisation du spectre des fréquences radioélectriques (VVNF)](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf) sur le site web de l'OFCOM.
 
 ---
 
-Wie in Abbildung [ref:e_senderausgangsleisung] gezeigt, wird die Ausgangsleistung eines Senders immer direkt am Senderausgang gemessen – ohne dass zusätzliche Geräte, Filter oder Kabel dazwischengeschaltet sind. Um die Leistung eines SSB-Senders zu bestimmen, muss er mit einer geeigneten Modulation mit konstanter Amplitude betrieben werden. Ein einfaches Verfahren ist die Einspeisung eines Eintonsignals, etwa durch Drücken der Morsetaste im CW-Betrieb; noch besser ist jedoch eine Zweitonaussteuerung. Eine Messung mit Sprache ist ungeeignet, da die Ausgangsleistung hierbei stark schwankt.
+Comme le montre la figure [ref:e_senderausgangsleisung], la puissance de sortie d'un émetteur est toujours mesurée directement à la sortie de l'émetteur – sans qu'aucun appareil supplémentaire, filtre ou câble ne soit intercalé. Pour déterminer la puissance d'un émetteur SSB, il doit être exploité avec une modulation appropriée à amplitude constante. Une méthode simple consiste à injecter un signal à tonalité unique, par exemple en appuyant sur la touche Morse en mode CW ; une modulation à deux tons est encore meilleure. Une mesure avec la parole est inappropriée, car la puissance de sortie varie fortement dans ce cas.
 
 <margin>
-[picture:916:e_senderausgangsleisung:Messung der Senderausgangsleistung]
+[picture:916:e_senderausgangsleisung:Mesure de la puissance de sortie de l'émetteur]
 </margin>
 
 <indepth>
-Ein *Zweitonsignal* ist für die Leistungs- und Linearitätsmessung eines SSB-Senders ideal, weil es zwei saubere Sinustöne mit konstanter Amplitude enthält. Dadurch entstehen im Sender genau die Mischprodukte, die für reale Sprachsignale typisch sind, aber in einer klar definierten und reproduzierbaren Form.
+Un *signal à deux tons* est idéal pour la mesure de la puissance et de la linéarité d'un émetteur SSB, car il contient deux tons sinusoïdaux propres à amplitude constante. Cela produit dans l'émetteur exactement les produits de mélange typiques des signaux vocaux réels, mais sous une forme clairement définie et reproductible.
 </indepth>
 
 
@@ -20,14 +20,14 @@ Ein *Zweitonsignal* ist für die Leistungs- und Linearitätsmessung eines SSB-Se
 
 ---
 
-Die PEP beschreibt dabei die Spitzenleistung des Senders unter normalen Betriebsbedingungen: Sie ist die Leistung, die der Sender während einer Periode der Hochfrequenzschwingung an der höchsten Spitze der Modulationshüllkurve (vgl. Abbildung [ref:e_senderausgangsleisung_2]) im Mittel an einen reellen Abschlusswiderstand abgeben kann. Wie die PEP exakt misst – beispielsweise mithilfe eines Oszilloskops – werden wir erst in der Klasse A genauer behandeln.
+La PEP décrit la puissance de crête de l'émetteur dans des conditions de fonctionnement normales : il s'agit de la puissance que l'émetteur peut fournir en moyenne à une résistance de terminaison réelle pendant une période de l'oscillation haute fréquence au point le plus élevé de l'enveloppe de modulation (voir figure [ref:e_senderausgangsleisung_2]). Nous traiterons plus précisément de la manière dont la PEP est mesurée exactement – par exemple à l'aide d'un oscilloscope – dans la classe A.
 
 <margin>
-[picture:875:e_senderausgangsleisung_2:Höchste Spitze der Modulationshüllkurve]
+[picture:875:e_senderausgangsleisung_2:Point le plus élevé de l'enveloppe de modulation]
 </margin>
 
 [question:EB501]
 
-Neben der Spitzenleistung eines Senders (PEP) gibt es auch noch die *mittlere Leistung*. Sie ist von der Hüllkurve unabhängig, weil die in ihrem zeitlichen Verlauf gemessene Leistung über einen Zeitraum gemittelt wird, der lang ist gegenüber der Periode der niedrigsten Modulationsfrequenz. Mit dieser Überlegung kann man die korrekte Antwort der folgenden Frage sehr einfach identifizieren.
+Outre la puissance de crête d'un émetteur (PEP), il existe également la *puissance moyenne*. Elle est indépendante de l'enveloppe, car la puissance mesurée dans son évolution temporelle est moyennée sur une période qui est longue par rapport à la période de la fréquence de modulation la plus basse. Avec cette considération, on peut identifier très simplement la réponse correcte à la question suivante.
 
 [question:EB502]

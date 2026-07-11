@@ -1,46 +1,46 @@
-## Problemstellung
+## Problématique
 
-* Standort mitteilen, z.B. für Entfernungsmessungen
-* Es ist nicht immer eine Stadt in der Nähe
-* GPS-Koordinaten sind zu lang
-* Oft ist ein ungefährer Standort ausreichend
+* Indiquer un lieu, par exemple pour les mesures de distance
+* Il n'y a pas toujours une ville à proximité
+* Les coordonnées GPS sont trop longues
+* Souvent, une localisation approximative suffit
 
 ---
 
-## Maidenhead-Locator
+## Locateur Maidenhead
 
-* Erdoberfläche wird in $\num{18662400}$ Kästchen eingeteilt
-* Ein Kästchen entspricht in Deutschland grob einer Genauigkeit von $\qty{5}{\kilo\meter}\times\qty{5}{\kilo\meter}$
-* Diese Kästchen werden Subsquares genannt
-* Übergeordnet sind Squares und Fields
+* La surface de la terre est divisée en $\num{18662400}$ cases
+* Une case correspond en Allemagne grossièrement à une précision de $\qty{5}{\kilo\meter}\times\qty{5}{\kilo\meter}$
+* Ces cases sont appelées sous-carrés
+* Les carrés et les champs sont des entités supérieures
 
 <note>
-* nach der *Stadt Maidenhead* benannt, die westlich von London im Vereinigten Königreich liegt.
-* Dort fand 1980 eine Fachkonferenz der IARU statt, die das zuvor genutzte QRA-Locator-System reformierte.
+* nommé d'après la ville de *Maidenhead*, située à l'ouest de Londres au Royaume-Uni.
+* C'est là qu'en 1980, une conférence spécialisée de l'IARU a réformé le système de localisation QRA précédemment utilisé.
 </note>
 
 ---
-[photo:2:n_locator_jo:Das Feld JO des Maidenhead-Locator-Systems, Kartendaten © OpenStreetMap-Mitwirkende, SRTM. Kartendarstellung © OpenTopoMap (CC-BY-SA)]
+[photo:2:n_locator_jo:Le champ JO du système de localisation Maidenhead, données cartographiques © contributeurs OpenStreetMap, SRTM. Représentation cartographique © OpenTopoMap (CC-BY-SA)]
 
 <note>
-Es sind die Fields des Squares JO gezeigt
+Les champs du carré JO sont montrés
 </note>
 
 --- style="font-size: 0.7em;"
-## Stufen des Maidenhead Locators
+## Niveaux du locateur Maidenhead
 
-| X: Bezeichnung | l: Übersetzung | l: Alternative Bez. | c: | c: z.B. |
-| Field | Feld | Größtfeld | AA-RR | JO |
-| Square | Quadrat | Großfeld | 00-99 | 41 |
-| Subsquare | Unter-Quadrat | Kleinfeld | AA-XX | RG |
-[table:n_locator_stufen:Die einzelnen Stufen des Maidenhead-Locators]
+| X: Désignation | l: Traduction | l: Désignation alternative | c: | c: Par exemple |
+| Field | Champ | Grand champ | AA-RR | JO |
+| Square | Carré | Grand champ | 00-99 | 41 |
+| Subsquare | Sous-carré | Petit champ | AA-XX | RG |
+[table:n_locator_stufen:Les différents niveaux du locateur Maidenhead]
 
 <fragment>
-Daraus ergibt sich dann zum Beispiel *JO41RG* für die DARC Geschäftsstelle in Baunatal bei Kassel
+Cela donne par exemple *JO41RG* pour le siège de la DARC à Baunatal près de Cassel
 </fragment>
 <note>
-* Noch kleinere Felder sind möglich
-* [Interaktive Karte](https://f5len.org/tools/locator/)
+* Des champs encore plus petits sont possibles
+* [Carte interactive](https://f5len.org/tools/locator/)
 </note>
 
 ---

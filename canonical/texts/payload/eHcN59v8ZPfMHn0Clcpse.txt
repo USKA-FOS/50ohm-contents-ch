@@ -1,63 +1,63 @@
-Bereits in der Ausbildung zur Klasse N haben wir den Zusammenhang zwischen der Frequenz ($f$) und der Wellenlänge ($\lambda$) kennengelernt. Damals wurden dazu zwei speziell zugeschnittene Größengleichungen aus der Formelsammlung für die Prüfung angegeben.
+Nous avons déjà appris, lors de la formation pour la classe N, la relation entre la fréquence ($f$) et la longueur d'onde ($\lambda$). À l'époque, deux équations dimensionnelles spécialement adaptées ont été données dans le recueil de formules pour l'examen.
 
 $f[[\unit{\mega\hertz}]] = \dfrac{300}{\lambda[[\unit{\meter}]]}$
 
 $\lambda[[\unit{\meter}]] = \dfrac{300}{f[[\unit{\mega\hertz}]]}$
 
 <indepth>
-Gleichungen, bei denen bereits angegeben wird, in welcher Einheit die Werte zu stehen haben,  nennt man  *zugeschnittene Größengleichungen*. 
+Les équations, pour lesquelles il est déjà indiqué dans quelle unité les valeurs doivent être, sont appelées *équations dimensionnelles adaptées*. 
 </indepth>
 
-In Wirklichkeit ist das aber nur eine Gleichung, die jeweils, im ersten Fall, nach der Frequenz und im zweiten Fall nach der Wellenlänge umgestellt wurde. 
+En réalité, il ne s'agit que d'une seule équation, qui a été réarrangée, dans le premier cas, pour la fréquence et dans le second cas pour la longueur d'onde. 
 
-In technischen Rechnungen müssen wir immer wieder Gleichungen so umstellen, dass die gesuchte Größe allein auf einer Seite steht. Dazu wenden wir die nötigen mathematischen Operationen (Multiplizieren, Dividieren, Addieren, Subtrahieren, ...) auf beide der Seiten der Gleichung *gleichzeitig* an. Mit etwas Übung ist das viel einfacher, als sich alle nötigen Formen einer Beziehung separat zu merken. In der Klasse E und auch in der Klasse A ist dies sogar zwingend erforderlich, da die Gleichungen in der Formelsammlung nur noch in ihrer Grundform angegeben werden.
+Dans les calculs techniques, nous devons constamment réarranger les équations de sorte que la grandeur recherchée se trouve seule d'un côté. Pour ce faire, nous appliquons les opérations mathématiques nécessaires (multiplication, division, addition, soustraction, ...) aux deux côtés de l'équation *simultanément*. Avec un peu de pratique, cela est beaucoup plus simple que de se souvenir de toutes les formes nécessaires d'une relation. Dans la classe E et même dans la classe A, cela est même indispensable, car les équations dans le recueil de formules ne sont données que sous leur forme de base.
 
 ---
 
 <indepth>
-In Grundeinheiten ($\unit{\second}$, $\unit{\meter}$) lautet der Zusammenhang zwischen Wellenlänge und Frequenz im Freiraum:
+Dans les unités de base ($\unit{\second}$, $\unit{\meter}$), la relation entre la longueur d'onde et la fréquence dans l'espace libre est la suivante :
 
 $\lambda = \dfrac{c_0}{f}$
 
-Dabei ist $c_0$ die Ausbreitungsgeschwindigkeit von elektromagnetischen Wellen im Vakuum ("Lichtgeschwindigkeit"), $c_o \approx \qty{300000000}{\meter\per\second}$
+$c_0$ est la vitesse de propagation des ondes électromagnétiques dans le vide ("vitesse de la lumière"), $c_o \approx \qty{300000000}{\meter\per\second}$
 </indepth>
 
-Wir betrachten den Zusammenhang zwischen Frequenz und Wellenlänge hier in der abstrakteren Form:
+Nous considérons ici la relation entre la fréquence et la longueur d'onde sous une forme plus abstraite :
 
 $\lambda = \dfrac{c_0}{f}$
 
-Jetzt wollen wir die Frequenz bestimmen, die einer Wellenlänge von 2,069 m entspricht.
+Maintenant, nous voulons déterminer la fréquence qui correspond à une longueur d'onde de 2,069 m.
 
-Um dies zu erreichen, multiplizieren wir zunächst beide Seiten der Gleichung mit der Frequenz.
+Pour y parvenir, nous multiplions d'abord les deux côtés de l'équation par la fréquence.
 
 $\lambda = \dfrac{c_0}{f} \quad\quad\quad | \cdot f$
 
-Dies wird durch "$|~\cdot f$" veranschaulicht, wobei der senkrechte Strich bedeutet, dass die folgende Operation auf beiden Seiten durchgeführt wird.
+Cela est illustré par "$|~\cdot f$", où la ligne verticale signifie que l'opération suivante est effectuée des deux côtés.
 
-So entsteht eine neue Gleichung:
+Une nouvelle équation est ainsi créée :
 
 $\lambda\cdot f = \dfrac{c_0 \cdot f}{f}$
 
-wobei sich auf der rechten Seite die Frequenz herauskürzt (denn $f$ geteilt durch $f$ ergibt 1):
+où la fréquence se simplifie sur le côté droit (car $f$ divisé par $f$ donne 1) :
 
 $\lambda \cdot f = c_0$
 
-Jetzt steht schon mal die Frequenz auf der linken Seite der Gleichung, wo wir sie hinhaben wollen. Als Nächstes dividieren wir auf beiden Seiten durch die Wellenlänge:
+La fréquence se trouve déjà du côté gauche de l'équation, où nous voulons l'avoir. Ensuite, nous divisons des deux côtés par la longueur d'onde :
 
 $\lambda \cdot f = c_0 \quad\quad\quad |: \lambda$
 
-Somit ergibt sich:
+Ainsi, nous obtenons :
 
 $\frac{\lambda\cdot f}{\lambda} = \frac{c_0}{\lambda}$
 
-Auf der linken Seite kürzt sich das Lambda wieder heraus:
+Le lambda se simplifie à nouveau sur le côté gauche :
 
 $f = \dfrac{c_0}{\lambda}$
 
-Dies ist die gesuchte Beziehung. Wir setzen die Zahlenwerte ein:
+C'est la relation recherchée. Nous insérons les valeurs numériques :
 
 $f = \dfrac{\qty{300000000}{\meter\per\second}}{\qty{2,069}{\meter}} = \dfrac{\num{300000000}}{\qty{2,069}{\second}}  = \qty{144997583}{\hertz} \approx \qty{145}{\mega\hertz} $
 
-Dabei haben wir berücksichtigt, dass $\frac{1}{\unit{\second}} = \qty{1}{\hertz}$ ist.
+Nous avons pris en compte que $\frac{1}{\unit{\second}} = \qty{1}{\hertz}$.
 
-Wir können Formeln nun mithilfe von Multiplikation und Division umstellen. In der Klasse E begegnen uns weitere Formeln, bei denen auch Addition und Subtraktion, Potenzen und Wurzeln erforderlich sind. In der Klasse A kommen schließlich sogar Logarithmen hinzu. Keine Angst, an den jeweiligen Stellen werden wir genau erklären, wie diese Formeln Schritt für Schritt umgestellt werden.
+Nous pouvons maintenant réarranger les formules à l'aide de la multiplication et de la division. Dans la classe E, nous rencontrons d'autres formules pour lesquelles l'addition et la soustraction, les puissances et les racines sont également nécessaires. Dans la classe A, les logarithmes viennent finalement s'ajouter. Ne vous inquiétez pas, aux endroits respectifs, nous expliquerons exactement comment ces formules sont réarrangées étape par étape.

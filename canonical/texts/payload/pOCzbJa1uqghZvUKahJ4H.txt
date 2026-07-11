@@ -1,13 +1,13 @@
-Die Schaltung besteht aus sechs in Reihe geschalteten Zellen mit jeweils $\qty{2}{\volt}$.
+Le circuit est constitué de six cellules montées en série, chacune avec $\qty{2}{\volt}$.
 
-Bei einer Reihenschaltung addieren sich die Spannungen:
+Dans un circuit en série, les tensions s'additionnent :
 
 $U_\mathrm{ges} = 6 \cdot \qty{2}{\volt} = \qty{12}{\volt}$
 
-Die Kapazität in Amperestunden bleibt bei einer Reihenschaltung unverändert. Jede Zelle besitzt eine Kapazität von $\qty{10}{\ampere\hour}$, daher besitzt auch der gesamte Akku
+La capacité en ampères-heures reste inchangée dans un circuit en série. Chaque cellule possède une capacité de $\qty{10}{\ampere\hour}$, donc la batterie entière possède également
 
 $\qty{10}{\ampere\hour}$.
 
-Der Akku hat somit die Daten:
+La batterie a donc les données suivantes :
 
 $\qty{12}{\volt} / \qty{10}{\ampere\hour}$

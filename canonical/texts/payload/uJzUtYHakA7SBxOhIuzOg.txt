@@ -1,9 +1,9 @@
-Im oberen Teil der Erdatmosphäre befindet sich die *Ionosphäre* [index:Ionosphäre]. Sie hat großen Einfluss auf die Funkwellenausbreitung im Kurzwellenbereich.
+Dans la partie supérieure de l'atmosphère terrestre se trouve l'*ionosphère* [index:Ionosphäre]. Elle a une grande influence sur la propagation des ondes radio dans le domaine des ondes courtes.
 
-Durch die Strahlung der Sonne werden in der Ionosphäre elektrisch geladene Teilchen erzeugt. An diesen elektrisch geladenen Teilchen werden elektromagnetische Wellen gebrochen (refraktiert) und dadurch zur Erde zurückgelenkt (Abbildung [ref:n_ionosphaere]). So können im Kurzwellenbereich große Reichweiten erzielt und weltweite Funkverbindungen möglich werden. An der Ionosphäre gebrochene Funkwellen werden als Raumwelle [index:Raumwelle] bezeichnet - im Gegensatz zur Bodenwelle [index:Bodenwelle], die der Erdkrümmung folgt, aber meist nicht so weit reicht wie die Raumwelle.
+Sous l'effet du rayonnement solaire, des particules électriquement chargées sont produites dans l'ionosphère. Ces particules électriquement chargées font dévier (réfracter) les ondes électromagnétiques et les renvoient vers la Terre (figure [ref:n_ionosphaere]). Ainsi, dans le domaine des ondes courtes, de grandes portées peuvent être atteintes et des liaisons radio mondiales peuvent être établies. Les ondes radio réfractées par l'ionosphère sont appelées ondes spatiales [index:Raumwelle] - par opposition à l'onde de sol [index:Bodenwelle], qui suit la courbure de la Terre, mais n'atteint généralement pas aussi loin que l'onde spatiale.
 
 <webmargin>
-[picture:732:n_ionosphaere:Brechung an der Ionosphäre]
+[picture:732:n_ionosphaere:Réflexion dans l'ionosphère]
 </webmargin>
 
 [question:NH101]
@@ -11,20 +11,20 @@ Durch die Strahlung der Sonne werden in der Ionosphäre elektrisch geladene Teil
 
 ---
 
-Die Ausbreitungsbedingungen unterliegen einem täglichen und jahreszeitlichen Wechsel. Einen wesentlichen Einfluss auf die Kurzwellenausbreitung hat der elfjährige Sonnenzyklus [index:Sonnenzyklus]. Zum Höhepunkt des Zyklus treten besonders viele sogenannte Sonnenflecken [index:Sonnenzyklus:Sonnenflecken] auf (Abbildung [ref:n_ionosphaere_sonnenflecken].) Die Sonne stößt dann besonders viel elektromagnetische Strahlung und Materie aus und nimmt starken Einfluss auf die Ionosphäre und somit die Funkbedingungen.
+Les conditions de propagation sont soumises à des variations quotidiennes et saisonnières. Un facteur important influençant la propagation des ondes courtes est le cycle solaire de onze ans [index:Sonnenzyklus]. Au sommet du cycle, un nombre particulièrement élevé de taches solaires [index:Sonnenzyklus:Sonnenflecken] apparaissent (figure [ref:n_ionosphaere_sonnenflecken]). Le soleil émet alors une quantité particulièrement élevée de rayonnement électromagnétique et de matière, influençant fortement l'ionosphère et donc les conditions de propagation radio.
 
 <webmargin>
-[picture:729:n_ionosphaere_sonnenflecken:Die Anzahl der Sonnenflecken, die über den elfjährigen Sonnenzyklus schwankt]
+[picture:729:n_ionosphaere_sonnenflecken:Le nombre de taches solaires, qui varie sur le cycle solaire de onze ans]
 </webmargin>
 
 [question:NH201]
 
 ---
 
-Bei Funkbetrieb auf Kurzwellenbändern kann es dazu kommen, dass eine sogenannte *Tote Zone* [index:Tote Zone] entsteht. Damit sind Entfernungen gemeint, die für die Bodenwelle zu weit weg und für die Raumwelle zu nah sind (Abbildung [ref:n_ionosphaere_tote_zone]). Dies führt häufig dazu, dass man von einer laufenden Funkverbindung nur eine der beteiligten Stationen hören kann, weil sich die andere in der Toten Zone befindet. Dadurch kann zunächst der falsche Eindruck entstehen, dass eine Frequenz frei ist.
+Lors de l'exploitation des bandes de fréquences courtes, il peut se produire une zone dite *morte* [index:Tote Zone]. Cela signifie que les distances sont trop éloignées pour l'onde de sol et trop proches pour l'onde spatiale (figure [ref:n_ionosphaere_tote_zone]). Cela conduit souvent au fait que, lors d'une liaison radio en cours, on ne peut entendre qu'une des stations impliquées, car l'autre se trouve dans la zone morte. Cela peut initialement donner l'impression erronée qu'une fréquence est libre.
 
 <webmargin>
-[picture:741:n_ionosphaere_tote_zone:Die Tote Zone, die für die Bodenwelle zu weit weg und für die Raumwelle zu nah ist.]
+[picture:741:n_ionosphaere_tote_zone:La zone morte, qui est trop éloignée pour l'onde de sol et trop proche pour l'onde spatiale.]
 </webmargin>
 
 [question:BE106]

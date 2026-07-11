@@ -1,28 +1,28 @@
 <left>
-* Ein einfaches Multimeter kann keine frequenzabhängigen Widerstände messen
-* Dazu wird ein *vektorieller Netzwerkanalysator (VNA)* verwendet
+* Un multimètre simple ne peut pas mesurer les résistances dépendantes de la fréquence
+* Un *analyseur de réseau vectoriel (VNA)* est utilisé à cette fin
 </left>
 <right>
-* Aktives Messgerät
-* Misst das Verhältnis von Spannung und Strom bei einer Frequenz
-* Oft kann ein Frequenzbereich angegeben werden
+* Appareil de mesure actif
+* Mesure le rapport de tension et de courant à une fréquence
+* Souvent, une bande de fréquences peut être spécifiée
 </right>
 
 ---
-## Anwendungen
+## Applications
 
 <left>
-* Große und kleine Widerstände eines Schwingkreis
-* Resonanzfrequenz eines Schwingkreis
-* Filterverhalten
-* Impedanzmessung
-* Stehwellenverhältnisse
+* Grandes et petites résistances d'un circuit oscillant
+* Fréquence de résonance d'un circuit oscillant
+* Comportement du filtre
+* Mesure d'impédance
+* Rapports d'ondes stationnaires
 </left>
 <right>
-[photo:201:e_vna_tiefpassmessung:Messung eines Tiefpassfilters mit Grenzfrequenz bei $\qty{30}{\mega\hertz}$]
+[photo:201:e_vna_tiefpassmessung:Mesure d'un filtre passe-bas avec une fréquence de coupure à $\qty{30}{\mega\hertz}$]
 </right>
 <note>
-* Im Bild wird von $\qtyrange{0}{100}{\mega\hertz}$ gemessen und der Durchgang bis ca. $\qty{30}{\mega\hertz}$ ist erkennbar
+* Dans l'image, la mesure est effectuée de $\qtyrange{0}{100}{\mega\hertz}$ et le passage jusqu'à environ $\qty{30}{\mega\hertz}$ est visible
 </note>
 ---
 [question:EI201]
@@ -33,12 +33,12 @@
 ---
 [question:EI204]
 ---
-## Kalibrierung
+## Calibration
 
-* Vor der Benutzung kalibrieren
-* Zustand *offen*: unendlicher Widerstand
-* Zustand *Kurzschluss*: Widerstand nahe Null
-* Zustand *angepasst*: z.B. mit $\qty{50}{\ohm}$ Widerstand sollte ein SWR von $\num{1}$ angezeigt werden
+* Calibrer avant l'utilisation
+* État *ouvert* : résistance infinie
+* État *court-circuit* : résistance proche de zéro
+* État *adapté* : par exemple, avec une résistance de $\qty{50}{\ohm}$, un ROS de $\num{1}$ doit être affiché
 
 ---
 [question:EI205]

@@ -1,15 +1,15 @@
-## Heißleiter
+## Thermistor
 <left>
-* Heißleiter ist ein temperaturabhängiger Widerstand
-* Englisch: Negative Temperature Coefficient Thermistor (*NTC*)
-* Leitet bei *hohen Temperaturen* elektrischen Strom besser
+* Le thermistor est une résistance dépendante de la température
+* Anglais: Negative Temperature Coefficient Thermistor (*NTC*)
+* Conduit mieux le courant électrique à *hautes températures*
 </left>
 <right>
-[picture:125:e_ntc:Schaltzeichen eines NTC-Widerstands]
+[picture:125:e_ntc:Symbole de circuit d'une résistance NTC]
 </right>
 <note>
-* Merkhilfe: Der erste Pfeil die Temperatur an, der zweite Pfeil die Leitfähigkeit
-* Hier: Hohe Temperatur, hohe Leitfähigkeit
+* Astuce mnémotechnique: La première flèche indique la température, la deuxième flèche la conductivité
+* Ici: Haute température, haute conductivité
 </note>
 
 ---
@@ -17,19 +17,19 @@
 ---
 [question:EC110]
 ---
-## Kaltleiter
+## PTC
 
 <left>
-* Kaltleiter ist ein temperaturabhängiger Widerstand
-* Englisch: Positive Temperature Coefficient Thermistor (*PTC*)
-* Leitet bei *tiefen Temperaturen* elektrischen Strom besser
+* Le PTC est une résistance dépendante de la température
+* Anglais: Positive Temperature Coefficient Thermistor (*PTC*)
+* Conduit mieux le courant électrique à *basses températures*
 </left>
 <right>
-[picture:126:e_ptc:Schaltzeichen eines PTC-Widerstands]
+[picture:126:e_ptc:Symbole de circuit d'une résistance PTC]
 </right>
 <note>
-* Merkhilfe: Der erste Pfeil die Temperatur an, der zweite Pfeil die Leitfähigkeit
-* Hier: Tiefe Temperatur, hohe Leitfähigkeit
+* Astuce mnémotechnique: La première flèche indique la température, la deuxième flèche la conductivité
+* Ici: Basse température, haute conductivité
 </note>
 ---
 [question:EC111]

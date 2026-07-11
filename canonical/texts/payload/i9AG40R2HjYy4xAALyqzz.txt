@@ -1,19 +1,19 @@
-Die sogenannten *Mikrowellen* haben nichts mit dem Einheitenvorsatz "Mikro-" zu tun, sondern Mikrowellen bezeichnen elektromagnetische Wellen mit Frequenzen zwischen ca. $\qty{1}{\giga\hertz}$ und etwa $\qty{300}{\giga\hertz}$. Die Wellenlänge von Mikrowellen entspricht also Millimetern bis zu wenigen Dezimetern.
+Les soi-disant *micro-ondes* n'ont rien à voir avec le préfixe d'unité "micro-", mais les micro-ondes désignent les ondes électromagnétiques avec des fréquences comprises entre environ $\qty{1}{\giga\hertz}$ et environ $\qty{300}{\giga\hertz}$. La longueur d’onde des micro-ondes correspond donc aux millimètres jusqu'à quelques décimètres.
 
 <margin>
-[picture:850:e_parabolspiegel_funktion:Funktionsweise eines Parabolspiegels]
+[picture:850:e_parabolspiegel_funktion:Fonctionnement d'un miroir parabolique]
 </margin>
 
 ---
 
-Bei diesen Wellenlängen eignet sich die Bauform eines Parabolspiegels besonders. Hierbei macht man sich zu Nutze, dass eine parabolisch geformte Metalloberfläche (oder ein hinreichend engmaschiges Gitter) für parallel einfallende Wellen wie ein Spiegel wirkt, diese jedoch aufgrund der Krümmung des Spiegels in einem Punkt vor dem Spiegel bündelt
+À ces longueurs d'onde, la forme de construction d'un miroir parabolique est particulièrement adaptée. Ici, on utilise le fait qu'une surface métallique de forme parabolique (ou une grille suffisamment serrée) agit comme un miroir pour les ondes incidentes parallèles, mais les concentre en un point devant le miroir en raison de la courbure du miroir.
 
 <indepth>
-Unter einer *Parabel* versteht man in der Mathematik eine Kurve, also den Graphen, der durch eine quadratische Gleichung (z. B. $y = x^2$) beschrieben wird. Ein Paraboloid ist die Oberfläche, die sich durch Rotation einer solchen Parabel ergibt.
+Par *parabole*, on entend en mathématiques une courbe, c'est-à-dire le graphe qui est décrit par une équation quadratique (par exemple $y = x^2$). Un paraboloïde est la surface qui résulte de la rotation d'une telle parabole.
 </indepth>
 
 [question:EG113]
 
-Nur im idealisierten Modell der Strahlenoptik (also wenn sich die elektromagnetische Welle wie ein Bündel aus Strahlen verhalten würde) kommt es zu einer Konzentration in genau einem Punkt vor dem Spiegel. Tatsächlich ist die Bündelung jedoch nicht perfekt, da es aufgrund der Welleneigenschaften zu Beugungseffekten kommt. Wie stark diese Abweichung vom idealen Strahlenmodell ist, hängt von der Größe der Schüssel ab. Je größer die Schüssel im Verhältnis zur Wellenlänge, umso besser die Richtwirkung. Eine sinnvolle Richtwirkung erreichen Parabolspiegel nur dann, wenn ihr Durchmesser einige Wellenlängen oder mehr beträgt, z. B. fünf.
+Seulement dans le modèle idéalisé de l'optique des rayons (c'est-à-dire si l'onde électromagnétique se comportait comme un faisceau de rayons) il y a une concentration en un point précis devant le miroir. En réalité, le faisceau n'est cependant pas parfait, car il y a des effets de diffraction dus aux propriétés ondulatoires. La mesure dans laquelle cet écart par rapport au modèle idéal des rayons est important dépend de la taille de la coupelle. Plus la coupelle est grande par rapport à la longueur d'onde, meilleure est la directivité. Les miroirs paraboliques n'atteignent une directivité significative que lorsque leur diamètre est de quelques longueurs d'onde ou plus, par exemple cinq.
 
 [question:EG114]

@@ -1,15 +1,15 @@
-Ein Vollweggleichrichter nutzt sowohl die positive als auch die negative Halbwelle der Wechselspannung. Dadurch entstehen pro Netzperiode zwei Spannungsimpulse am Ausgang.
+Un redresseur double alternance utilise à la fois la demi-onde positive et négative de la tension alternative. Cela donne lieu à deux impulsions de tension à la sortie par période de réseau.
 
-Die Ausgangsfrequenz verdoppelt sich daher:
+La fréquence de sortie se double donc:
 
 $ f_{\mathrm{out}} = 2 \cdot f_{\mathrm{in}} $
 
-Mit einer Netzfrequenz von
+Avec une fréquence de réseau de
 
 $ f_{\mathrm{in}} = \qty{50}{\hertz} $
 
-ergibt sich:
+on obtient:
 
 $ f_{\mathrm{out}} = 2 \cdot \qty{50}{\hertz} = \qty{100}{\hertz} $
 
-Die Grundfrequenz der Ausgangsspannung beträgt somit $\qty{100}{\hertz}$.
+La fréquence fondamentale de la tension de sortie est donc de $\qty{100}{\hertz}$.

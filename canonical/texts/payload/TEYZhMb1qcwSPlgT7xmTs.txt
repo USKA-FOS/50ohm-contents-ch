@@ -1,22 +1,22 @@
-## Steuersignale
+## Signaux de commande
 
 <left>
-* Übertragung von Audio- sowie Steuersignalen (CAT) zwischen Computer und Transceiver
-* Z.B. Transceiver auf Sendung schalten und Signal vom Computer übertragen
+* Transmission de signaux audio ainsi que de signaux de commande (CAT) entre ordinateur et émetteur-récepteur
+* Par exemple, commuter l'émetteur-récepteur sur émission et transmettre le signal de l'ordinateur
 </left>
 <right>
-[picture:630:n_computersteuerung_verbindungen:Beispiele für Verbindungen zwischen Computer und Funkgerät]
+[picture:630:n_computersteuerung_verbindungen:Exemples de liaisons entre ordinateur et appareil radio]
 </right>
 
 ---
-## Datenanschluss
+## Connexion de données
 
-* Hinter dem Mikrofonanschluss im Funkgerät können Verstärker- und Filterstufen für Sprachübertragung liegen $\rightarrow$ ungeeignet für Datenübertragung
-* Eigener Datenanschluss am Transceiver
-* Lässt Signale vom Computer unverfälscht passieren
+* Derrière la connexion du microphone dans l'appareil radio, des étages d'amplification et de filtrage pour la transmission vocale peuvent se trouver $\rightarrow$ inapproprié pour la transmission de données
+* Connexion de données propre sur l'émetteur-récepteur
+* Laisse passer les signaux de l'ordinateur sans les altérer
 
 <note>
-Oft mit DATA oder 9600 bezeichnet
+Souvent désigné par DATA ou 9600
 </note>
 
 ---
@@ -28,8 +28,8 @@ Oft mit DATA oder 9600 bezeichnet
 ---
 [question:NF117]
 <note>
-* Es ist darauf zu achten, dass das Funkgerät nicht unerwartet auf Sendung geht.
-* Anekdotisch: Windows-Startsound über Funk
+* Il est important de veiller à ce que l'appareil radio ne passe pas en émission de manière inattendue.
+* Anecdotique : son de démarrage de Windows via radio
 </note>
 
 ---

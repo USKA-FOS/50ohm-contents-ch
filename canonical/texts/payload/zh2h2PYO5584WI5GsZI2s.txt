@@ -1,10 +1,10 @@
-* Eine Sonderform der digitalen Modulation stellt das Audio Frequency Shift Keying (AFSK) dar.
-* Im Gegensatz zu ASK steht hier das „A“ nicht für Amplitude, sondern für Audio, also für hörbare Frequenzen (Niederfrequenz).
-* Es wird eine Frequenzumtastung (FSK) im Bereich deutlich unter $\qty{20}{\kilo\hertz}$ durchgeführt. Oftmals wird der Bereich von ca. $\qtyrange{300}{2700}{\hertz}$ genutzt.
-* Für eine Aussendung per Funk muss eine weitere Modulation stattfinden, beispielsweise per FM, AM oder SSB.
+* Une forme particulière de modulation numérique est représentée par le décalage de fréquence audio (AFSK).
+* Contrairement à l'ASK, le "A" ne signifie pas amplitude, mais audio, c'est-à-dire des fréquences audibles (basses fréquences).
+* Un décalage de fréquence (FSK) est effectué dans la plage nettement inférieure à $\qty{20}{\kilo\hertz}$. Souvent, la plage de $\qtyrange{300}{2700}{\hertz}$ est utilisée.
+* Pour une émission par radio, une autre modulation doit avoir lieu, par exemple par FM, AM ou SSB.
 
 <note>
-Wird SSB eingesetzt, so ist das Signal auf dem Band nicht mehr von einem FSK-Signal zu unterscheiden.
+Si la SSB est utilisée, le signal sur la bande ne peut plus être distingué d'un signal FSK.
 </note>
 
 ---

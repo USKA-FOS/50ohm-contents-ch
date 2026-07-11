@@ -1,15 +1,15 @@
-## Energieerhaltung und Öffnungswinkel
+## Conservation de l'énergie et angle d'ouverture
 
-* Höherer Gewinn in einer Richtung bedeutet gemäß Energieerhaltung, dass der Gewinn in den übrigen Richtungen insgesamt niedriger sein muss
-* Antennen mit hohem Gewinn besitzen oft einen schmalen Öffnungswinkel – schon bei kleinen Abweichungen von der Hauptstrahlrichtung sinkt der Gewinn deutlich
+* Un gain plus élevé dans une direction signifie, conformément à la conservation de l'énergie, que le gain dans les autres directions doit être globalement plus faible
+* Les antennes à gain élevé possèdent souvent un angle d'ouverture étroit - déjà avec de petites déviations par rapport à la direction du faisceau principal, le gain diminue considérablement
 
 ---
 <left>
-[picture:266:a_richtdiagramm:Richtdiagramm einer gerichteten Antenne]
+[picture:266:a_richtdiagramm:Diagramme de rayonnement d'une antenne directionnelle]
 </left>
 <right>
-* Der *Öffnungswinkel* bzw. die *Halbwertsbreite* definiert den Winkel, in dem der Gewinn nicht um mehr als $\qty{3}{\dB}$ abfällt
-* d. h. auf die halbe Strahlungsleistung oder $\tfrac{1}{\sqrt{2}} \approx 0,707$ der maximalen Feldstärke
+* L'*angle d'ouverture* ou la *largeur à mi-hauteur* définit l'angle dans lequel le gain ne diminue pas de plus de $\qty{3}{\dB}$
+* c'est-à-dire à la moitié de la puissance de rayonnement ou $\tfrac{1}{\sqrt{2}} \approx 0,707$ de l'intensité de champ maximale
 </right>
   
 ---

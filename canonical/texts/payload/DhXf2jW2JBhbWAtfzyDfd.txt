@@ -1,28 +1,28 @@
 <left>
-* Automatisch arbeitende Amateurfunk-Sendeanlage
-* Ständig wiederkehrende Aussendungen
-* Zu Feldstärkebeobachtungen oder Empfangsversuchen
-* Kann auch in Satelliten sein
+* Installation d'émission automatique de radioamateur
+* Émissions répétitives constantes
+* Pour des observations d'intensité de champ ou des tentatives de réception
+* Peut également être dans les satellites
 </left>
 <right>
-* Fest zugewiesene Frequenz
-* Fester Standort
-* Rufzeichen in regelmäßigen Abständen
-* Meist in Morsetelegrafie
+* Fréquence fixée
+* Emplacement fixe
+* Indicatif d'appel à intervalles réguliers
+* Principalement en télégraphie Morse
 </right>
 
 ---
 [question:VD119]
 ---
 
-## Nutzung von Baken
-* Empfangbarkeit abhängig von wechselnden Ausbreitungsbedingungen
-* Indikator für die Machbarkeit einer Funkverbindung
-* Reflexion an Polarlichtern im VHF-Band durch "Aurora-Baken" testen
-* Durch Peilung Antennenausrichtung überprüfen
+## Utilisation des balises
+* La réception dépend des conditions de propagation changeantes
+* Indicateur de la faisabilité d'une liaison radio
+* Tester la réflexion sur les aurores boréales dans la bande VHF par des "balises aurorales"
+* Vérifier l'orientation de l'antenne par goniométrie
 
 <note>
-* Hört man auf Kurzwelle eine Bake aus Südamerika, dann ist auch eine Funkverbindung dahin möglich
+* Si l'on entend une balise sur les ondes courtes d'Amérique du Sud, alors une liaison radio est également possible
 </note>
 
 ---
@@ -30,27 +30,27 @@
 
 --- style="font-size: 0.7em;"
 
-## Internationales Bakenprojekt (IBP)
+## Projet international de balises (IBP)
 <left>
-* Größere Anzahl Baken auf allen Kontinenten verteilt
-* Senden in einem festgelegten zeitlichen Ablauf nacheinander aus
-* Alle auf der gleichen Frequenz
+* Un grand nombre de balises réparties sur tous les continents
+* Émissions successives selon un ordre temporel fixe
+* Toutes sur la même fréquence
 </left>
 <right>
-| l: Band | X: Frequenzbereich |
-| $\qty{10}{\meter}$ | $\qtyrange{28190}{28225}{\kilo\hertz}$ |
-| $\qty{12}{\meter}$ | $\qtyrange{24929}{24931}{\kilo\hertz}$ |
-| $\qty{15}{\meter}$ | $\qtyrange{21149}{21151}{\kilo\hertz}$ |
-| $\qty{17}{\meter}$ | $\qtyrange{18109}{18111}{\kilo\hertz}$ |
-| $\qty{20}{\meter}$ | $\qtyrange{14099}{14101}{\kilo\hertz}$ |
-[table:n_baken_frequenzbereiche:Frequenzbereiche für Baken gemäß IARU-Bandplan]
+| l: Bande | X: Bande de fréquences |
+| $\qty{10}{\mètre}$ | $\qtyrange{28190}{28225}{\kilo\hertz}$ |
+| $\qty{12}{\mètre}$ | $\qtyrange{24929}{24931}{\kilo\hertz}$ |
+| $\qty{15}{\mètre}$ | $\qtyrange{21149}{21151}{\kilo\hertz}$ |
+| $\qty{17}{\mètre}$ | $\qtyrange{18109}{18111}{\kilo\hertz}$ |
+| $\qty{20}{\mètre}$ | $\qtyrange{14099}{14101}{\kilo\hertz}$ |
+[table:n_baken_frequenzbereiche:Bandes de fréquences pour les balises selon le plan de bandes de l'IARU]
   
 <fragment>
-Keinen Funkbetrieb dort durchführen!
+Ne pas effectuer de trafic radio ici !
 </fragment>
 </right>
 <note>
-* Sinnvoll, um sich schnell einen Überblick über die Ausbreitungsbedingungen zu verschaffen
+* Utile pour obtenir rapidement une vue d'ensemble des conditions de propagation
 </note>
 
 ---

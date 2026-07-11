@@ -1,90 +1,90 @@
-## HF-Leistungsverstärker
+## Amplificateurs de puissance HF
 
-* Verstärken das HF-Signal aus vorherigen Stufen
-* Ziel: Erreichen der gewünschten Ausgangsleistung
-* Zwei Typen: Breitbandige und selektive HF-Verstärker
+* Amplifient le signal HF des étapes précédentes
+* Objectif : atteindre la puissance de sortie souhaitée
+* Deux types : Amplificateurs HF à large bande et sélectifs
 
 ---
-### Breitbandige HF-Verstärker
+### Amplificateurs HF à large bande
 
 <left>
-[picture:491:a_verstaerker_breitband_gegentaktverstaerker:Breitband-Gegentaktverstärker]
+[picture:491:a_verstaerker_breitband_gegentaktverstaerker:Amplificateur push-pull à large bande]
 </left>
 <right>
-* Gleichmäßige Verstärkung über einen weiten Frequenzbereich (z. B. $\qtyrange{1}{30}{\mega\hertz}$)
-* Erkennbar an breitbandigen Koppeltransformatoren
-* Keine Parallel- oder Serienkapazitäten als Schwingkreis
+* Amplification uniforme sur une large bande de fréquences (par exemple, $\qtyrange{1}{30}{\mega\hertz}$)
+* Reconnaissable aux transformateurs de couplage à large bande
+* Pas de capacités en parallèle ou en série comme circuit oscillant
 </right>
 
 ---
 [question:AF412]
 
 ---
-### Selektive HF-Verstärker
+### Amplificateurs HF sélectifs
 
 
 <left>
-[picture:778:a_verstaerker_selektiver_hf_verstaerker:Selektiver HF-Verstärker]
+[picture:778:a_verstaerker_selektiver_hf_verstaerker:Amplificateur HF sélectif]
 </left>
 <right>
-* Verstärkungsmaximum nur in einem schmalen Bereich (z. B. ein Amateurband)
-* Frequenzselektive Auslegung
-* Verwendung von Serien- oder Parallel-Schwingkreisen im HF-Signalpfad
+* Maximum d'amplification uniquement dans une bande étroite (par exemple, une bande amateur)
+* Conception sélective en fréquence
+* Utilisation de circuits oscillants série ou parallèle dans le chemin du signal HF
 </right>
 
 ---
 [question:AF408]
 
 ---
-# Mehrstufige Verstärker
+# Amplificateurs multi-étages
 
 
 <left>
-[picture:764:a_verstaerker_zweistufiger_breitband_hf_verstaerker:Zweistufiger Breitband-HF-Verstärker]
+[picture:764:a_verstaerker_zweistufiger_breitband_hf_verstaerker:Amplificateur HF à large bande à deux étages]
 </left>
 <right>
-* Verstärker können mehrstufig durch Verkettung einzelner Stufen ausgeführt sein
+* Les amplificateurs peuvent être multi-étages en enchaînant des étapes individuelles
 </right>
 
 ---
 [question:AF413]
 
 ---
-## Impedanzanpassung zwischen Verstärkerstufen
+## Adaptation d'impédance entre les étages d'amplification
 
-* Notwendig für maximale Verstärkung, minimale Verzerrung und optimalen Wirkungsgrad
-* Verhindert Reflexionen und Nichtlinearitäten
-
----
-### Methoden der Impedanzanpassung
-
-* Breitbandige Anpassung durch Transformator mit geeignetem Übersetzungsverhältnis
-* Frequenzselektive Anpassung durch angezapften Schwingkreis
+* Nécessaire pour une amplification maximale, une distorsion minimale et un rendement optimal
+* Empêche les réflexions et les non-linéarités
 
 ---
+### Méthodes d'adaptation d'impédance
 
-[picture:765:a_anpassung_breitbandige_anpassung:Breitbandige Anpassung zwischen zwei Stufen mittels Transformator mit geeignetem Übersetzungsverhältnis]
+* Adaptation large bande par transformateur avec un rapport de transformation approprié
+* Adaptation sélective en fréquence par circuit oscillant dérivé
+
+---
+
+[picture:765:a_anpassung_breitbandige_anpassung:Adaptation large bande entre deux étages au moyen d'un transformateur avec un rapport de transformation approprié]
 
 ---
 [question:AF414]
 
 ---
 
-[picture:786:a_anpassung_mosfet:Breitbandige Ein- und Ausgangs-Anpassung auf niederohmige MOSFETs mittels Transformatoren]
+[picture:786:a_anpassung_mosfet:Adaptation large bande d'entrée et de sortie sur des MOSFET à faible impédance au moyen de transformateurs]
 
 ---
 [question:AF417]
 
 ---
 
-[picture:779:a_anpassung_induktiver_spannungsteiler:Frequenzselektive Anpassung mit Spule als induktiver Spannungsteiler]
+[picture:779:a_anpassung_induktiver_spannungsteiler:Adaptation sélective en fréquence avec une bobine comme diviseur de tension inductif]
 
 ---
 [question:AF409]
 
 ---
 
-[picture:780:a_anpassung_kapazitiver_spannungsteiler:Frequenzselektive Anpassung mit Kondensator als kapazitiver Spannungsteiler]
+[picture:780:a_anpassung_kapazitiver_spannungsteiler:Adaptation sélective en fréquence avec un condensateur comme diviseur de tension capacitif]
 
 
 ---
@@ -92,54 +92,54 @@
 
 ---
 
-[picture:768:a_anpassung_eingang_schwingkreis:Schwingkreis mit veränderbaren Kondensatoren zur Anpassung der Eingangsimpedanz]
+[picture:768:a_anpassung_eingang_schwingkreis:Circuit oscillant avec des condensateurs variables pour adapter l'impédance d'entrée]
 
 ---
 [question:AF407]
 
 ---
 
-[picture:769:a_anpassung_ausgang_schwingkreis:Schwingkreis mit veränderbaren Kondensatoren zur Anpassung der Ausgangsimpedanz]
+[picture:769:a_anpassung_ausgang_schwingkreis:Circuit oscillant avec des condensateurs variables pour adapter l'impédance de sortie]
 
 ---
 [question:AF406]
 
 ---
-### Pi-Filter zur Impedanzanpassung
+### Filtre Pi pour l'adaptation d'impédance
 
-* Passt Ein- und Ausgangsimpedanzen durch Verhältnis der Kapazitäten an
-* Spule definiert mit den Kapazitäten die Auslegungsfrequenz
-* Tiefpass-Charakter unterdrückt Oberwellen
+* Adapte les impédances d'entrée et de sortie par le rapport des capacités
+* La bobine définit avec les capacités la fréquence de conception
+* Caractéristique passe-bas supprime les harmoniques supérieures
 
 ---
 [question:AF405]
 
 ---
-### LC-Schaltung hinter HF-Leistungsverstärker
+### Circuit LC derrière les amplificateurs de puissance HF
 
-* Dient zur Impedanzanpassung und gleichzeitiger Unterdrückung von Oberwellen
+* Sert à l'adaptation d'impédance et à la suppression simultanée des harmoniques supérieures
 
 ---
 [question:AF404]
 
 ---
-## Wirkungsgrad eines HF-Leistungsverstärkers
+## Rendement d'un amplificateur de puissance HF
 
-* Verhältnis zwischen abgegebener HF-Ausgangsleistung und zugeführter Gleichstrom-Versorgungsleistung
+* Rapport entre la puissance HF de sortie fournie et la puissance d'alimentation en courant continu fournie
 
 ---
 [question:AF401]
 
 ---
-## BIAS-Spannung in Leistungsverstärkern
+## Tension de polarisation dans les amplificateurs de puissance
 
 <left>
-[picture:786:a_verstaerker_bias_arbeitspunkt:Arbeitspunktverstellung in einem Verstärker durch ein Poti]
+[picture:786:a_verstaerker_bias_arbeitspunkt:Réglage du point de fonctionnement dans un amplificateur par un potentiomètre]
 </left>
 <right>
-* Betriebsspannungseinstellung durch Spannungsteiler
-* Feineinstellung über Trimmpotentiometer
-* Gleichspannungsbetrachtung: Kondensatoren ignorieren, Spulen als Kurzschluss betrachten
+* Réglage de la tension de service par diviseur de tension
+* Réglage fin par potentiomètre de réglage
+* Considération de la tension continue : ignorer les condensateurs, considérer les bobines comme un court-circuit
 </right>
 
 ---
@@ -152,26 +152,26 @@
 [question:AF424]
 
 ---
-### Berechnung der BIAS-Spannung
+### Calcul de la tension de polarisation
 
-* Anwendung des Ohmschen Gesetzes
-* Berücksichtigung von Parallel- und Serienschaltungen von Widerständen
-* Gate-Anschlüsse der Transistoren sind kapazitiv und bei Gleichspannungsbetrachtung vernachlässigbar
+* Application de la loi d'Ohm
+* Prise en compte des circuits en parallèle et en série de résistances
+* Les bornes de grille des transistors sont capacitives et négligeables dans la considération de la tension continue
 
 ---
 [question:AF421]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Méthode de solution
 <left>
-* gegeben: $U_Z = \qty{6,2}{\volt}$
-* gegeben: $R_2 = \qty{270}{\ohm}$
-* gegeben: $R_3 = \qty{220}{\ohm}$
+* donné : $U_Z = \qty{6,2}{\volt}$
+* donné : $R_2 = \qty{270}{\ohm}$
+* donné : $R_3 = \qty{220}{\ohm}$
 </left>
 <right>
-* gegeben: $R_4 = \qty{6,8}{\kilo\ohm}$
-* gegeben: $R_6 = \qty{150}{\ohm}$
-* gesucht: $U_{GS}$
+* donné : $R_4 = \qty{6,8}{\kilo\ohm}$
+* donné : $R_6 = \qty{150}{\ohm}$
+* recherché : $U_{GS}$
 </right>
 
 <left>
@@ -186,15 +186,15 @@ $\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{\q
 </right>
 
 ---
-## HF-Entkopplung der Betriebsspannung
+## Découplage HF de la tension de service
 
-* Verhindert Rückwirkungen zwischen Verstärkerstufen (z. B. Schwingneigung)
-* Umsetzung durch in Serie geschaltete Induktivitäten und Abblock-Kondensatoren
-* Tiefpass-Charakter: DC-Spannung bleibt erhalten, HF wird abgeblockt
+* Empêche les rétroactions entre les étages d'amplification (par exemple, tendance à osciller)
+* Mise en œuvre par des inductances en série et des condensateurs de blocage
+* Caractéristique passe-bas : la tension continue reste conservée, la HF est bloquée
 
 ---
 
-[picture:781:a_entkopplung_drossel:Drossel zur Entkopplung der HF von der Betriebsspannung]
+[picture:781:a_entkopplung_drossel:Bobine de découplage de la HF de la tension de service]
 
 ---
 [question:AF411]
@@ -204,7 +204,7 @@ $\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{\q
 
 ---
 
-[picture:786:a_entkopplung_abblock_kondensatoren:Abblock-Kondensatoren zur Entkopplung der HF von der Betriebsspannung mit Tiefpass-Charakter]
+[picture:786:a_entkopplung_abblock_kondensatoren:Condensateurs de blocage pour le découplage de la HF de la tension de service avec une caractéristique passe-bas]
 
 ---
 [question:AF419]
@@ -213,33 +213,33 @@ $\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{\q
 [question:AF418]
 
 ---
-## HF-Eigenschaften von Kondensatoren
+## Propriétés HF des condensateurs
 
-* Große Kapazitäten (z. B. Elektrolytkondensatoren) nur bei niedrigen Frequenzen einsetzbar
-* Für HF-Anwendungen Kombination verschiedener Kapazitätswerte zur Abdeckung eines breiten Frequenzbereichs
+* Grandes capacités (par exemple, condensateurs électrolytiques) ne peuvent être utilisées qu'à basses fréquences
+* Pour les applications HF, combinaison de différentes valeurs de capacité pour couvrir une large bande de fréquences
 
 ---
 [question:AF415]
 
 ---
-## Gesamtverstärkung eines Leistungsverstärkers
+## Amplification totale d'un amplificateur de puissance
 
 <left>
-[picture:470:a_verstaerker_gesamtverstaerkung:Blockschaltbild eines Verstärkers mit Gewinn und Verlust je Stufe]
+[picture:470:a_verstaerker_gesamtverstaerkung:Schéma bloc d'un amplificateur avec gain et perte par étage]
 </left>
 <right>
-* Ermittelt durch Differenz zwischen Ausgangs- und Eingangsleistung
-* Berechnung über vorzeichenrichtige Subtraktion der dBm-Werte
+* Déterminée par la différence entre la puissance de sortie et la puissance d'entrée
+* Calcul par soustraction des valeurs dBm avec signe
 </right>
 
 ---
 [question:AF428]
 ---
-#### Lösungsweg
+#### Méthode de solution
 
-* gegeben: $P_1 = \qty{0,3}{\milli\watt}$ oder $\qty{-5}{\dBm}$
-* gegeben: $P_2 = \qty{20}{\watt}$ oder $\qty{43}{\dBm}$
-* gesucht: $g$
+* donné : $P_1 = \qty{0,3}{\milli\watt}$ ou $\qty{-5}{\dBm}$
+* donné : $P_2 = \qty{20}{\watt}$ ou $\qty{43}{\dBm}$
+* recherché : $g$
 
 <left>
 <fragment>

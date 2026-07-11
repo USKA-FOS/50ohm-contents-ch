@@ -1,16 +1,16 @@
-Liegt eine Sendefrequenz unter der kritischen Frequenz, dann wird selbst eine senkrecht nach oben gestrahlte Raumwelle noch von der Ionosphäre reflektiert. Entsprechend verschwindet die Tote Zone. Diesen Effekt kann man sich für Nahverbindungen zunutze machen, bei der die Bodenwelle das Ziel nicht mehr erreichen würde. Voraussetzung ist jedoch eine Kurzwellenantenne, die in möglichst steilem Winkel nach oben strahlt. Man spricht bei einer dann folgenden Reflektion in der Ionosphäre von *"NVIS"* aus dem Englischen: Near Vertical Incidence Skywave. Oder zu Deutsch: Raumwelle mit nahezu vertikalem Einfallswinkel.
+Si une fréquence d'émission est inférieure à la fréquence critique, alors même une onde spatiale émise verticalement vers le haut est encore réfléchie par l'ionosphère. En conséquence, la zone morte disparaît. Cet effet peut être utilisé pour les liaisons à courte distance, où l'onde de sol ne pourrait pas atteindre la destination. La condition préalable est cependant une antenne à ondes courtes qui émet dans un angle aussi raide que possible vers le haut. On parle alors de *"NVIS"* de l'anglais : Near Vertical Incidence Skywave. Ou en allemand : onde spatiale avec un angle d'incidence presque vertical.
 
-% TODO: Bild NVIS
+% TODO: Image NVIS
 
 ---
 
-Besonders im Notfunk haben NVIS-Verbindungen den Vorteil, dass sich Hindernisse (z. B. bergiges Gelände) überwinden lassen. Als Antennen geeignet sind Horizontal-Dipole, die in einer Aufbauhöhe von maximal einem Viertel Wellenlänge aufgehangen werden. Damit wirkt die Erdoberfläche als Reflektor und sorgt so für einen Gewinn in Richtung des Himmels, senkrecht nach oben (also in Richtung des Zenits).
+En particulier dans les communications d'urgence, les liaisons NVIS ont l'avantage de permettre de surmonter les obstacles (par exemple, un terrain montagneux). Les antennes appropriées sont les dipôles horizontaux, qui sont suspendus à une hauteur de montage maximale d'un quart de longueur d'onde. Ainsi, la surface de la terre agit comme un réflecteur et assure un gain en direction du ciel, verticalement vers le haut (c'est-à-dire en direction du zénith).
 
 <indepth>
-Hinge man einen Horizontal-Dipol höher auf, dann würde aufgrund der Verzögerung bei der Reflektion und der damit einhergehenden Phasenverschiebung die reflektierte Welle teilweise zu einer Auslöschung in Richtung Zenit führen und entsprechend einen Gewinn in flacherer Abstrahlrichtung erwirken, was jedoch bei NVIS-Kommunikation gar nicht gewünscht ist. Ebenso ungeeignet sind Vertikalantennen, da diese einen flachen Abstrahlwinkel hätten.
+Si l'on suspendait un dipôle horizontal plus haut, alors en raison du retard lors de la réflexion et du déphasage qui en résulte, l'onde réfléchie conduirait partiellement à une annulation en direction du zénith et provoquerait ainsi un gain dans une direction de rayonnement plus plate, ce qui n'est cependant pas souhaité dans les communications NVIS. De même, les antennes verticales sont inappropriées, car elles auraient un angle de rayonnement plat.
 </indepth>
 
-NVIS-Antennen sind also typischerweise horizontale Dipole, die in Relation zur verwendeten Wellenlänge vergleichsweise tief aufgehangen werden.
+Les antennes NVIS sont donc typiquement des dipôles horizontaux qui, par rapport à la longueur d'onde utilisée, sont suspendus relativement bas.
 
 [question:AG125]
 [question:AG224]

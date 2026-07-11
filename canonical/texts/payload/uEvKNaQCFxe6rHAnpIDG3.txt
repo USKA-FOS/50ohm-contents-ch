@@ -1,22 +1,22 @@
 <html>
     <script src="https://www.50ohm.de/assets/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://www.50ohm.de/assets/chartjs/4.4.1/chart.min.js"></script>
-    <p>Hier gibt es die Möglichkeit das Ganze nochmal auszuprobieren. Ein zeitkontinuierliches Sinus-Signal wird von einem AD-Umsetzer digitalisiert und anschließend wieder von einem DA-Umsetzer in ein analoges Signal gewandelt. An den Reglern kann man die Zeitquantisierung und die Wertquantisierung der AD/DA-Umsetzer einstellen.</p><br>
+    <p>Ici, vous avez la possibilité d'essayer à nouveau. Un signal sinusoïdal continu dans le temps est numérisé par un convertisseur analogique et ensuite reconverti en un signal analogique par un convertisseur numérique. Les réglages permettent d'ajuster la quantification temporelle et la quantification de valeur des convertisseurs analogique/numérique.</p><br>
     <table>
         <tr>
             <td>
-                Zeit-Quantisierung:
+                Quantification temporelle:
             </td>
             <td>
                 <input type="range" class="slider" value="10" min="1" max="10" id="timeq">
             </td>
             <td>
-                <div id="timeqSteps" style="display:inline-block;">1024</div> Samples/s.
+                <div id="timeqSteps" style="display:inline-block;">1024</div> échantillons/s.
             </td>
         </tr>
         <tr>
             <td>
-                Wert-Quantisierung:
+                Quantification de valeur:
             </td>
             <td>
                 <input type="range" class="slider" value="16" min="1" max="16" id="valueq">

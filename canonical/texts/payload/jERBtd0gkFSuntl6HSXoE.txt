@@ -1,11 +1,11 @@
-* $\qty{10}{\meter}$-Band: $\qty{10}{\watt}$ ERP / $\qty{16,4}{\watt}$ EIRP
-* $\qty{2}{\meter}$- und $\qty{70}{\centi\meter}$-Band: $\qty{6,1}{\watt}$ ERP / $\qty{10}{\watt}$ EIRP
+* Bande de $\qty{10}{\meter}$: $\qty{10}{\watt}$ ERP / $\qty{16,4}{\watt}$ EIRP
+* Bande de $\qty{2}{\meter}$ et $\qty{70}{\centi\meter}$: $\qty{6,1}{\watt}$ ERP / $\qty{10}{\watt}$ EIRP
 
 <fragment>
-Ein Funkgerät mit $\qty{5}{\watt}$ Sendeleistung und einem Gewinnfaktor von $\num{1,8}$ bezogen auf den isotropen Kugelstrahler darf damit betrieben werden:<br/>$\qty{5}{\watt} \cdot 1,8 = \qty{9}{\watt}$ EIRP
+Un appareil radio avec une puissance d'émission de $\qty{5}{\watt}$ et un facteur de gain de $\num{1,8}$ par rapport au rayonnement isotrope sphérique peut être utilisé avec celui-ci :<br/>$\qty{5}{\watt} \cdot 1,8 = \qty{9}{\watt}$ EIRP
 </fragment>
 <note>
-Dass ERP und EIRP verwendet wird, hängt (vermutlich) mit den vorangig verwendeten Antennen in den nutzbaren Bändern für Klasse N zusammen. Eine Begründung von Seiten der BNetzA gibt es nicht.
+Le fait que l'ERP et l'EIRP soient utilisés dépend (probablement) des antennes utilisées précédemment dans les bandes utilisables pour la classe N. Il n'y a pas d'explication de la part de la BNetzA.
 </note>
 
 ---

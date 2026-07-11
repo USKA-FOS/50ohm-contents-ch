@@ -1,7 +1,7 @@
-[picture:357:n_fm_frequenzmodulation:Frequenzmodulation]
+[picture:357:n_fm_frequenzmodulation:Modulation de fréquence]
 
-* Modulationssignal wird durch Änderung der Frequenz auf den Träger aufmoduliert
-* Amplitude des Trägers wird nicht verändert und bleibt idealerweise konstant
+* Le signal de modulation est modulé sur la porteuse par modification de la fréquence
+* L'amplitude de la porteuse n'est pas modifiée et reste idéalement constante
 
 ---
 [question:NE301]
@@ -13,16 +13,16 @@
 [question:NE303]
 
 ---
-## Frequenzhub
+## Excursion de fréquence porteuse
 
-* Je lauter in das Mikrofon gesprochen wird, umso größer die Änderung der Trägerfrequenz
-* Dadurch steigt auch die belegte Bandbreite der Aussendung
-* Maximalwert der Änderung der Trägerfrequenz wird als *Frequenzhub* oder kurz *Hub* bezeichnet
-* In der Praxis kommt Schmalband-FM (englisch Narrow- FM, kurz NFM) mit $\qty{12}{\kilo\hertz}$ Bandbreite zum Einsatz
+* Plus on parle fort dans le microphone, plus la modification de la fréquence porteuse est grande
+* La bande passante de l'émission augmente également
+* La valeur maximale de la modification de la fréquence porteuse est appelée *excursion de fréquence* ou simplement *excursion*
+* En pratique, la modulation de fréquence à bande étroite (en anglais Narrow-FM, abrégé en NFM) avec une bande passante de $\qty{12}{\kilo\hertz}$ est utilisée
 
 <note>
-Lauter in das Mikrofon sprechen &rarr; Amplitude des Modulationssignals wird größer
-Bandplan beachten, wo maximal 12 kHz Bandbreite belegt werden darf.
+Parler plus fort dans le microphone &rarr; L'amplitude du signal de modulation augmente
+Respecter le plan de fréquences, où une bande passante maximale de 12 kHz peut être occupée.
 </note>
 
 ---
@@ -34,7 +34,7 @@ Bandplan beachten, wo maximal 12 kHz Bandbreite belegt werden darf.
 [question:NE306]
 
 <note>
-Bei älteren Funkgeräten ist evtl. der Hub fest auf $\qty{25}{\kilo\hertz}$ eingestellt.
+Pour les anciens appareils radio, le déviation est peut-être fixée à $\qty{25}{\kilo\hertz}$.
 </note>
 
 ---
@@ -42,7 +42,7 @@ Bei älteren Funkgeräten ist evtl. der Hub fest auf $\qty{25}{\kilo\hertz}$ ein
 [question:NE304]
 
 <note>
-* Achtung: Amplitude des Modulationssignals wird geändert!
-* Amplitude des Trägers ändert sich nicht.
-* Bei Störungen schwankt nicht die Lautstärke des Sprachsignals.
+* Attention : L'amplitude du signal de modulation est modifiée !
+* L'amplitude de la porteuse ne change pas.
+* En cas de perturbations, le niveau sonore du signal vocal ne varie pas.
 </note>

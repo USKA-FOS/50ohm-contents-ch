@@ -1,42 +1,42 @@
 <left>
-[picture:938:a_photoelement:Schaltzeichen Photoelement (Solarzelle)]
-[picture:958:monokristalline Silizium Solarzelle:Aufbau einer monokristallinen Silizium Solarzelle]
+[picture:938:a_photoelement:Symbole de circuit Photoelement (cellule solaire)]
+[picture:958:monokristalline Silizium Solarzelle:Structure d'une cellule solaire en silicium monocristallin]
 </left>
 <right>
-* Solarzelle wandelt optische Strahlungsenergie in elektrische Energie um
-* Grundsätzlicher Aufbau wie in einer Diode
-* Durch die Strahlungsenergie werden Elektronen freigesetzt
-* Bei Anschluss eines elektrischen Verbrauchers können diese fließen
+* La cellule solaire convertit l'énergie du rayonnement optique en énergie électrique
+* Structure de base similaire à celle d'une diode
+* L'énergie du rayonnement libère des électrons
+* En connectant un consommateur électrique, ceux-ci peuvent circuler
 </right>
 ---
 [question:AB212]
 --- style="font-size: 0.7em;"
-### Kenngrößen von Solarzellen
-| l: Bezeichnung       | c: Abkürzung  | X: Erklärung   |
-| Leerlaufspannung | ${U}_{OC}$ |Ist die Spannung, die ohne Last bei voller Sonneneinstrahlung anliegt. |
-| Kurzschlussstrom | ${I}_{SC}$  |Ist der Strom, welcher bei einem Kurzschluss am Ausgang, bei voller Sonneneinstrahlung, fließen wird.| 
-[table:a_solarzelle:Kenngrößen von Solarzellen]
+### Caractéristiques des cellules solaires
+| l: Désignation       | c: Abréviation  | X: Explication   |
+| Tension à circuit ouvert | ${U}_{OC}$ |C'est la tension qui est présente sans charge sous un éclairage complet. |
+| Courant de court-circuit | ${I}_{SC}$  |C'est le courant qui circule en cas de court-circuit à la sortie, sous un éclairage complet.| 
+[table:a_solarzelle:Caractéristiques des cellules solaires]
 ---
-### Zusammenschaltung von Solarzellen
+### Connexion de cellules solaires
 
 <left>
-[picture:949:Solarmodul mit Zellen:Solarzellenverbund in einem Solarmodul]
+[picture:949:Solarmodul mit Zellen:Combinaison de cellules solaires dans un module solaire]
 </left>
 <right>
-Bei Reihen- und Parallelschaltung verändern sich Klemmenspannung und der maximale Laststrom
+Dans le cas d'un montage en série et en parallèle, la tension aux bornes et le courant de charge maximal changent
 </right>
 <note>
-Analog zur Reihen- und Parallelschaltung von Akkus bzw. Spannungsquellen
+Analog au montage en série et en parallèle des accumulateurs ou des sources de tension
 </note>
 
 ---
 [question:AD301]
 ---
-#### Lösungsweg
-* gegeben: $U_0 = \qty{0,6}{\volt}$
-* gegeben: $I_k = \qty{1}{\ampere}$
-* gegeben: $N_R = 30, N_P = 4$
-* gesucht: $U_{0,\mathrm{ges}}, I_{k,\mathrm{ges}}$
+#### Solution
+* donné: $U_0 = \qty{0,6}{\volt}$
+* donné: $I_k = \qty{1}{\ampere}$
+* donné: $N_R = 30, N_P = 4$
+* recherché: $U_{0,\mathrm{ges}}, I_{k,\mathrm{ges}}$
 
 <fragment>
 $U_{0,\mathrm{ges}} = N_R \cdot U_0 = 30 \cdot \qty{0,6}{\volt} = \qty{18}{\volt}$

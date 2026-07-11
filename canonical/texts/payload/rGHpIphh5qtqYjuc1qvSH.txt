@@ -1,37 +1,37 @@
-## Kugelstrahler oder Isotroper Strahler
+## Rayonnement sphérique ou rayonnement isotrope
 
 <left>
-[picture:751:n_Kugelstrahler:Isotroper Strahler in der Mitte einer Kugel, der an allen Stellen der Kugeloberfläche die gleiche Strahlungsleistung erzeugt]
+[picture:751:n_Kugelstrahler:Rayonnement isotrope au centre d'une sphère, qui produit la même puissance de rayonnement à tous les points de la surface de la sphère]
 </left>
 <right>
-* Theoretische Antenne
-* Unendlich klein
-* Funkwellen werden gleichmäßig in alle Richtungen abgestrahlt
-* Es existiert keine Hauptstrahlrichtung
+* Antenne théorique
+* Infiniment petite
+* Les ondes radio sont émises uniformément dans toutes les directions
+* Il n'y a pas de direction principale de rayonnement
 </right>
 
 <note>
-isotrop: von altgriechisch ἴσος isos „gleich“ und τρόπος tropos „Drehung, Richtung“
+isotrope: du grec ancien ἴσος isos "égal" et τρόπος tropos "rotation, direction"
 </note>
 
 ---
 ## EIRP
 
-* Bei Berechnung der Strahlungsleistung in Bezug zum isotropen Strahler wird von "äquivalenter isotroper Strahlungsleistung" gesprochen
-* Englisch "equivalent isotropic radiated power" (EIRP)
+* Lors du calcul de la puissance de rayonnement par rapport au rayonnement isotrope, on parle de "puissance de rayonnement isotrope équivalente"
+* En anglais "equivalent isotropic radiated power" (EIRP)
 
 ---
-## Berechnung
+## Calcul
 
-* Erfolgt gleich zu ERP
-* Hat eine Antennen einen Gewinnfaktor von $\num{3}$ bezogen auf den isotropen Strahler, dann strahlt diese Antenne in Hauptstrahlrichtung dreimal so stark wie ein isotroper Strahler in jede beliebige Richtung
-* Bei $\qty{5}{\watt}$ Sendeleistung auf Antenne mit Gewinnfaktor $\num{3}$ gegenüber dem isotropen Strahler ergibt das die Strahlungsleistung $\qty{15}{\watt}$ EIRP
+* Effectué de la même manière que l'ERP
+* Si une antenne a un facteur de gain de $\num{3}$ par rapport au rayonnement isotrope, alors cette antenne rayonne dans la direction principale trois fois plus fort qu'un rayonnement isotrope dans n'importe quelle direction
+* Avec une puissance d'émission de $\qty{5}{\watt}$ sur une antenne avec un facteur de gain de $\num{3}$ par rapport au rayonnement isotrope, cela donne la puissance de rayonnement de $\qty{15}{\watt}$ EIRP
 
 ---
-## Bezug zum Halbwellendipol
+## Référence au dipôle demi-onde
 
-* Halbwellendipol hat den Gewinnfaktor $\num{1,64}$ gegenüber isotropen Strahler
-* Antenne mit Gewinnfaktor $\num{2}$ gegenüber Halbwellendipol hat einen Gewinnfaktor von $2 \cdot 1,64 = 3,28$ gegenüber isotropen Strahler
+* Le dipôle demi-onde a un facteur de gain de $\num{1,64}$ par rapport au rayonnement isotrope
+* Une antenne avec un facteur de gain de $\num{2}$ par rapport au dipôle demi-onde a un facteur de gain de $2 \cdot 1,64 = 3,28$ par rapport au rayonnement isotrope
 
 ---
 [question:NG402]

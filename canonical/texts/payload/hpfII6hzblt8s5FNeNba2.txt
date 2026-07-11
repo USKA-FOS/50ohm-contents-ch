@@ -1,57 +1,57 @@
-Wir haben bereits gelernt, dass eine Antenne  vertikal oder horizontal polarisiert sein. Das erkennt man bei den meisten Antennenbauformen daran, dass die Antennen-Elemente senkrecht (vertikal) oder waagerecht (horizontal) ausgerichtet sind. In der Klasse E werden nun konkrete Antennenformen abgefragt. 
+Nous avons déjà appris qu'une antenne peut être polarisée verticalement ou horizontalement. On le reconnaît chez la plupart des formes de construction d'antennes par le fait que les éléments d'antenne sont orientés perpendiculairement (verticalement) ou horizontalement. Dans la classe E, des formes d'antennes concrètes sont maintenant interrogées. 
 
 [question:EB309]
 
-Die Antennenelemente dieser Antenne sind parallel zum Erdboden. Sie entsprechen der elektrischen Feldkomponente. Also handelt es sich um eine horizontal polarisierte Antenne.
+Les éléments d'antenne de cette antenne sont parallèles au sol. Ils correspondent à la composante du champ électrique. Il s'agit donc d'une antenne polarisée horizontalement.
 
 [question:EB310]
 
-Die Antennenelemente dieser Antenne sind senkrecht zum Erdboden. Sie entsprechen der elektrischen Feldkomponente. Also handelt es sich um eine vertikal polarisierte Antenne.
+Les éléments d'antenne de cette antenne sont perpendiculaires au sol. Ils correspondent à la composante du champ électrique. Il s'agit donc d'une antenne polarisée verticalement.
 
 ---
 
-Dass die Polarisationsrichtung oft mit der geometrischen Anordnung der Antennenelemente übereinstimmt liegt daran, dass meistens Antennen eingesetzt werden, bei denen die Leiteranordnung geometrisch mit der Richtung des elektrischen Feldes übereinstimmt. Die Angabe "horizontal" oder "vertikal" bezieht sich nämlich vereinbarungsgemäß auf die Ausrichtung des elektrischen Feldes und nicht auf die Ausrichtung des magnetischen Feldanteils.
+Le fait que la direction de la polarisation coïncide souvent avec la disposition géométrique des éléments d'antenne tient au fait que l'on utilise généralement des antennes dont la disposition des conducteurs coïncide géométriquement avec la direction du champ électrique. L'indication "horizontale" ou "verticale" se réfère, par convention, à l'orientation du champ électrique et non à l'orientation de la composante du champ magnétique.
 
 <indepth>
-Die einfache Merkregel, dass geometrisch vertikal angeordnete Antennen vertikal polarisieren und horizontal angeordnete Antennen horizontal polarisieren stimmt *nicht im Allgemeinen*. So weist beispielsweise eine horizontal liegende Magnetic-Loop-Antenne eine vertikale Polarisation auf und eine vertikal liegende Magnetic-Loop entsprechend eine horizontale Polarisation. Bei einer Ganzwellenschleifenantenne (z.B. Delta-Loop) hingegen hängt die Polarisationsrichtung von der Positionierung der Einspeisung ab. Bei Dipol- und Yagi-Uda-Antennen kann man die Polarisation aber anhand der mechanischen Ausrichtung der Drähte erkennen, da sich in dieser Richtung auch das elektrische Feld ausbildet.
+La règle simple selon laquelle les antennes disposées géométriquement verticalement polarisent verticalement et les antennes disposées horizontalement polarisent horizontalement ne s'applique *pas en général*. Par exemple, une antenne Magnetic-Loop horizontale présente une polarisation verticale et une Magnetic-Loop verticale présente une polarisation horizontale. En revanche, dans le cas d'une antenne boucle à onde entière (par exemple, une antenne Delta-Loop), la direction de la polarisation dépend de la position de l'alimentation. Dans le cas des antennes dipôles et Yagi-Uda, on peut reconnaître la polarisation à partir de l'orientation mécanique des fils, car le champ électrique se forme également dans cette direction.
 </indepth>
 
 [question:EG222]
 
-Die Bezugsebene der Polarisation ist bei terrestrischen Funkstellen stets die Erdoberfläche. Maßgebend für die Angabe der Polarisation ist die Ausrichtung des elektrischen Feldes.
+Le plan de référence de la polarisation est toujours la surface de la terre pour les stations radio terrestres. L'orientation du champ électrique est déterminante pour l'indication de la polarisation.
 
 [question:EB305]
 
-Der hier vorkommende Poynting-Vektor ist ein Vektor, der sowohl auf der elektrischen als auch der magnetischen Feldkomponente senkrecht steht, also in Ausbreitungsrichtung zeigt. Für die Feststellung der Polarisation ist aber die Ausrichtung der *elektrischen Feldkomponente* maßgeblich.
+Le vecteur de Poynting mentionné ici est un vecteur qui est perpendiculaire à la fois à la composante du champ électrique et à la composante du champ magnétique, donc il montre dans la direction de propagation. Cependant, pour déterminer la polarisation, c'est l'orientation de la *composante du champ électrique* qui est décisive.
 
 ---
 
 [question:EB306]
 
 <margin>
-[picture:886:e_funkhorizont:Horizontale Polarisation]
+[picture:886:e_funkhorizont:Polarisation horizontale]
 </margin>
 
-Die elektrische Feldkomponente ist parallel zum Erdboden, also handelt es sich um eine horizontale Polarisation. Nebenbei: der Richtungspfeil "S" zeigt in Ausbreitungsrichtung, es handelt sich um den Poynting-Vektor.
+La composante du champ électrique est parallèle au sol, il s'agit donc d'une polarisation horizontale. À propos : la flèche directionnelle "S" montre la direction de propagation, il s'agit du vecteur de Poynting.
 
 ---
 
 [question:EB307]
 
-Hier ist die magnetische Feldkomponente parallel zur Erdoberfläche. Die elektrische Feldkomponente steht darauf senkrecht, also handelt es sich um eine vertikale Polarisation. 
+Ici, la composante du champ magnétique est parallèle à la surface de la terre. La composante du champ électrique est perpendiculaire à celle-ci, il s'agit donc d'une polarisation verticale. 
 
 <margin>
-[picture:936:e_funkhorizont:Vertikale Polarisation]
+[picture:936:e_funkhorizont:Polarisation verticale]
 </margin>
 
 ---
 
-In den bisherigen Beispielen waren die elektrischen und magnetischen Feldkomponenten *zeitlich* in Phase (ihre Sinusschwingungen haben ihre Nulldurchgänge zur selben Zeit). Dennoch stehen sie *räumlich* senkrecht aufeinander. 
+Dans les exemples précédents, les composantes des champs électrique et magnétique étaient *temporellement* en phase (leurs oscillations sinusoïdales ont leurs passages par zéro au même moment). Néanmoins, elles sont *spatialement* perpendiculaires l'une à l'autre. 
 
-Wir können aber die elektrische Feldkomponente  auch so erzeugen, dass sich ihre Ausrichtung im Raum zeitlich ändert, zum Beispiel, indem man zwei senkrecht auf einander stehende Dipole verwendet. Wenn diese Dipole in Ausbreitungsrichtung eine Viertelwellenlänge voneinander entfernt sind und in gleicher Phase gespeist werden, dreht sich die abgestrahlte elektrische Feldkomponente zeitlich kreisförmig im Raum. Wir können auch zwei senkrecht auf einander stehende Dipole verwenden, die in derselben Ebene befinden. Speisen wir diese Dipole mit zwei sinusförmigen Signalen, die zeitlich um 90° gegen einander verschoben sind, ergibt sich dasselbe Bild. Die magnetische Feldkomponente steht immer noch und zu jeder Zeit senkrecht auf der elektrischen, sie dreht sich also ebenfalls im Raum. Diese Wellen nennt man *zirkuar polarisiert*.
+Nous pouvons cependant générer la composante du champ électrique de telle sorte que son orientation dans l'espace change avec le temps, par exemple en utilisant deux dipôles perpendiculaires l'un à l'autre. Si ces dipôles sont éloignés d'un quart d'onde dans la direction de propagation et sont alimentés en phase, la composante du champ électrique rayonnée tourne circulairement dans l'espace avec le temps. Nous pouvons également utiliser deux dipôles perpendiculaires l'un à l'autre, qui se trouvent dans le même plan. Si nous alimentons ces dipôles avec deux signaux sinusoïdaux qui sont décalés de 90° dans le temps l'un par rapport à l'autre, nous obtenons la même image. La composante du champ magnétique est toujours et à tout moment perpendiculaire à la composante électrique, elle tourne donc également dans l'espace. On appelle ces ondes *polarisées circulairement*.
 
 <margin>
-[picture:935:e_funkhorizont:Zirkulare Polarisation]
+[picture:935:e_funkhorizont:Polarisation circulaire]
 </margin>
 
 [question:EB308]

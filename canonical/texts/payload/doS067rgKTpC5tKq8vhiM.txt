@@ -1,26 +1,26 @@
 <left>
-* Strommessgeräte messen den elektrischen Strom
-* Schaltsymbol "A in einem Kreis" 
+* Les ampèremètres mesurent le courant électrique
+* Symbole de circuit "A dans un cercle" 
 </left>
 <right>
-[picture:624:n_messgeraete_symbol_strommessgerät:Schaltsymbol Strommessgerät]
+[picture:624:n_messgeraete_symbol_strommessgerät:Symbole de circuit d'un ampèremètre]
 </right>
 
 ---
 
-## Richtig messen
+## Mesurer correctement
 
 <left>
-* Strom wird in Serie mit den Bauteilen gemessen
-* Dadurch wird die Stromstärke durch das Bauteil ermittelt
+* Le courant est mesuré en série avec les composants
+* Cela permet de déterminer l'intensité du courant à travers le composant
 </left>
 <right>
-[picture:616:n_messgeraete_strommessung:Strommessung]
+[picture:616:n_messgeraete_strommessung:Mesure du courant]
 </right>
 <note>
-* Strommessgeräte haben keinen Widerstand
-* Beim Messen des Stroms an einer Batterie wird Kurzschluss verursacht
-* Kann die Feinsicherung im Messgerät zerstören
+* Les ampèremètres n'ont pas de résistance
+* La mesure du courant sur une batterie provoque un court-circuit
+* Peut détruire le fusible fin dans l'appareil de mesure
 </note>
 
 ---

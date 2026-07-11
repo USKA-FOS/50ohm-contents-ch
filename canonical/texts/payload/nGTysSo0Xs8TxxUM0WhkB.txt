@@ -1,56 +1,56 @@
-Mit Hilfe eines Mischers kann eine bestimmte Frequenz (bzw. ein Frequenzbereich mit definierter Bandbreite) in eine höhere oder niedrigere Frequenz umgesetzt werden. Dafür werden die Signale miteinander Multipliziert. 
+À l'aide d'un mélangeur, une fréquence spécifique (ou une bande de fréquences avec une bande passante définie) peut être convertie en une fréquence plus élevée ou plus basse. Pour ce faire, les signaux sont multipliés entre eux. 
 
 <indepth>
-Eine Multiplikation von Signalen im Zeitbereich führt zu einer Addition (bzw. Subtraktion) im Frequenzbereich. Dieser Zusammenhang lässt sich anschaulich mit der folgenden trigonometrischen Identität (etwas vereinfacht, die Faktoren $2\pi\cdot t$ wurden der Übersicht halber weggelassen) erklären:  
+Une multiplication de signaux dans le domaine temporel conduit à une addition (ou soustraction) dans le domaine fréquentiel. Cette relation peut être expliquée de manière intuitive avec l'identité trigonométrique suivante (un peu simplifiée, les facteurs $2\pi\cdot t$ ont été omis pour plus de clarté) :  
   
 $\sin(f_1)\cdot\sin(f_2) = \frac{1}{2}\left(\cos(f_1-f_2)-\cos(f_1+f_2)\right)$
   
-Werden zwei Sinussignale miteinander multipliziert – eines mit der Frequenz $f_1$ und eines mit der Frequenz $f_2$ – entstehen im Frequenzbereich zwei neue Cosinussignale (was nichts anderes als ein phasenverschobener Sinus ist). Diese liegen bei den Frequenzen $f_1 - f_2$ und $f_1 + f_2$. Man kann sich das so vorstellen, dass ein Frequenzanteil nach unten und ein weiterer nach oben verschoben wird. Genau dieses Prinzip macht sich der Mischer zunutze.
+Lorsque deux signaux sinusoïdaux sont multipliés ensemble – l'un avec la fréquence $f_1$ et l'autre avec la fréquence $f_2$ – deux nouveaux signaux cosinusoïdaux (qui ne sont rien d'autre qu'un sinus déphasé) apparaissent dans le domaine fréquentiel. Ceux-ci se situent aux fréquences $f_1 - f_2$ et $f_1 + f_2$. On peut se représenter cela comme une composante de fréquence déplacée vers le bas et une autre vers le haut. C'est exactement ce principe que le mélangeur exploite.
 
-Dabei entstehen grundsätzlich immer zwei Frequenzkomponenten. In der Praxis ist jedoch meist nur eine davon erwünscht, weshalb im Anschluss an den Mischer geeignete Filter eingesetzt werden, um das gewünschte Mischprodukt zu selektieren. Genau genommen können bei der Differenzbildung auch negative Frequenzen auftreten, weshalb man im Allgemeinen den Betrag $| f_1 \pm f_2 |$ betrachtet.
+Deux composantes de fréquence sont toujours générées. En pratique, cependant, une seule d'entre elles est généralement souhaitée, c'est pourquoi des filtres appropriés sont utilisés après le mélangeur pour sélectionner le produit de mélange souhaité. En fait, des fréquences négatives peuvent également apparaître lors de la formation de la différence, c'est pourquoi on considère généralement la valeur absolue $| f_1 \pm f_2 |$.
 </indepth>
 
 ---
 
-Ein Mischer nutzt nichtlineare Bauelemente, beispielsweise Dioden, um Signale miteinander zu multiplizieren. Dabei entstehen sogenannte Mischprodukte, deren Frequenzen mathematisch der Summe und der Differenz der Frequenzen der Eingangssignale entsprechen.
+Un mélangeur utilise des composants non linéaires, par exemple des diodes, pour multiplier les signaux entre eux. Des produits de mélange sont alors générés, dont les fréquences correspondent mathématiquement à la somme et à la différence des fréquences des signaux d'entrée.
 
-Aufgrund dieser Eigenschaft werden Mischer gezielt eingesetzt, um Signale in andere, gewünschte Frequenzbereiche umzusetzen – etwa zur Hoch- oder Heruntermischung in Sendern und Empfängern. In Blockschaltbildern wird ein Mischer, wie in Abbildung [ref:e_mischer] dargestellt, durch einen Kreis mit einem Multiplikationszeichen symbolisiert, das auf die multiplikative Wirkung dieser Baugruppe hinweist.
+En raison de cette propriété, les mélangeurs sont utilisés de manière ciblée pour convertir les signaux dans d'autres bandes de fréquences souhaitées - par exemple pour la conversion ascendante ou descendante dans les émetteurs et les récepteurs. Dans les schémas blocs, un mélangeur, comme représenté dans la figure [ref:e_mischer], est symbolisé par un cercle avec un signe de multiplication, qui indique l'effet multiplicatif de ce composant.
 
 <margin>
-[picture:903:e_mischer:Mischer]
+[picture:903:e_mischer:Mélangeur]
 </margin>
 
 ---
 
-Die an einem Ausgang eines Mischers erzeugten Frequenzen bestehen hierbei vorwiegend aus den beiden Mischprodukten der zugeführten Signale $f_\text{e}$, dem Eingangssignal und $f_\text{o}$ dem Signal was von einem Oszillator kommt. Hierbei ergeben sich zwei erwünschte Mischprodukte als Summe und Betrag der Differenz der zugeführten Signale:
+Les fréquences générées à une sortie d'un mélangeur consistent principalement en les deux produits de mélange des signaux fournis $f_\text{e}$, le signal d'entrée et $f_\text{o}$ le signal provenant d'un oscillateur. Deux produits de mélange souhaités résultent de la somme et de la valeur absolue de la différence des signaux fournis :
 
 $f_\text{z}=|f_\text{e}\pm f_\text{o}|$
 
-Wegen des $\pm$ muss eine Fallunterscheidung getroffen werden: Es ergibt sich somit $f_\text{z1} = f_\text{e}+f_\text{o}$ sowie $f_\text{z2}=|f_\text{e}-f_\text{o}|$.
+En raison du $\pm$, une distinction de cas doit être faite : il en résulte ainsi $f_\text{z1} = f_\text{e}+f_\text{o}$ ainsi que $f_\text{z2}=|f_\text{e}-f_\text{o}|$.
 
-Die Betragsstriche $|x|$ bedeuten, dass nur der Zahlenwert ohne Vorzeichen betrachtet wird. Ist $x$ negativ, wird es positiv gemacht. Ist $x$ bereits positiv, bleibt es unverändert.
+Les barres de valeur absolue $|x|$ signifient que seule la valeur numérique sans signe est considérée. Si $x$ est négatif, il est rendu positif. Si $x$ est déjà positif, il reste inchangé.
 
-Normalerweise wird nur eines der erwünschten Mischprodukte für die weitere Signalverarbeitung genutzt. Das andere Mischprodukt (sowie ggf. weitere unerwünschte Mischprodukte - siehe Vertiefung) müssen anschließend durch Filterung aus dem Signalgemisch entfernt werden.
+Normalement, seul un des produits de mélange souhaités est utilisé pour le traitement ultérieur du signal. L'autre produit de mélange (ainsi que d'éventuels autres produits de mélange indésirables - voir approfondissement) doivent ensuite être éliminés du mélange de signaux par filtrage.
 
 <indepth>
-Ein realer Mischer erzeugt neben den erwünschten Mischprodukten auch Mischprodukte höherer Ordnung wie z.B. $2 * f_\text{in1} + f_\text{in2}$ usw. Diese unerwünschten Mischprodukte müssen anschließend ebenfalls durch geeignete Filter entfernt werden. Auch die beiden Eingangsfrequenzen sind bei realen Mischern in deren Ausgangssignal nicht vollständig unterdrückt und müssen bei der weiteren Signalverarbeitung berücksichtigt werden. Durch Verwendung eines balancierten Ringmischers (Balance-Mixer) können die beiden Eingangssignale im Ausgangssignal sehr stark unterdrückt werden, weshalb dieser Mischer-Typ häufig zum Einsatz kommt.
+Un mélangeur réel génère, outre les produits de mélange souhaités, également des produits de mélange d'ordre supérieur comme par exemple $2 * f_\text{in1} + f_\text{in2}$ etc. Ces produits de mélange indésirables doivent ensuite être éliminés par des filtres appropriés. Les deux fréquences d'entrée ne sont également pas complètement supprimées dans le signal de sortie des mélangeurs réels et doivent être prises en compte lors du traitement ultérieur du signal. En utilisant un mélangeur en anneau équilibré (mélangeur équilibré), les deux signaux d'entrée peuvent être très fortement supprimés dans le signal de sortie, c'est pourquoi ce type de mélangeur est souvent utilisé.
 </indepth>
 
 [question:EF201]
 
-Bei dieser Frage müssen wir einfach nur die Oszilatorfrequenz einmal addieren und einmal subtrahieren und dabei den Betrag beachten.
+Pour cette question, nous devons simplement ajouter et soustraire une fois la fréquence de l'oscillateur et tenir compte de la valeur absolue.
 
 $f_\text{z1} = f_\text{e}+f_\text{o} = \qty{21}{\mega\hertz} + \qty{31,7}{\mega\hertz} = \qty{52,7}{\mega\hertz}$
 
 $f_\text{z2}=|f_\text{e}-f_\text{o}| =|\qty{21}{\mega\hertz} - \qty{31,7}{\mega\hertz}| = |\qty{-10,7}{\mega\hertz}| = \qty{10,7}{\mega\hertz}$
 
-Die folgenden Fragen funktionieren nach dem gleichen Prinzip.
+Les questions suivantes fonctionnent selon le même principe.
 
 [question:EF202]
 [question:EF203]
 [question:EF204]
 [question:EF205]
 
-Da in Mischern verschiedenste Frequenzen durch den Mischvorgang erzeugt werden, müssen *Mischstufen immer sehr gut geschirmt werden*, damit von diesen keine Abstrahlung in andere Stufen oder Geräte erfolgen kann und insbesondere andere Funkdienste nicht gestört werden!
+Comme diverses fréquences sont générées dans les mélangeurs par le processus de mélange, les *étages mélangeurs doivent toujours être très bien blindés*, afin que ceux-ci ne rayonnent pas vers d'autres étages ou appareils et que surtout d'autres services radio ne soient pas perturbés !
 
 [question:EF206]

@@ -1,9 +1,9 @@
-## Vorwärtsfehlerkorrektur (FEC)
+## Correction d'erreurs sans retour (FEC)
 
-* Erkennt der Empfänger einen Fehler (z. B. mittels Prüfbits), kann er um eine erneute Übertragung bitten  
-* Bei der Vorwärtsfehlerkorrektur wird zusätzliche Redundanz (z. B. weitere Prüfbits) hinzugefügt  
-* So wird nicht nur erkannt, dass ein Fehler vorliegt, sondern auch an welcher Stelle $\rightarrow$ das fehlerhafte Bit kann berichtigt werden
-* Im Englischen spricht man von Forward Error Correction (FEC)
+* Si le récepteur détecte une erreur (par exemple au moyen de bits de contrôle), il peut demander une nouvelle transmission
+* Dans la correction d'erreurs sans retour, une redondance supplémentaire (par exemple des bits de contrôle supplémentaires) est ajoutée
+* Ainsi, non seulement on reconnaît qu'une erreur est présente, mais aussi à quel endroit $\rightarrow$ le bit erroné peut être corrigé
+* En anglais, on parle de Forward Error Correction (FEC)
 
 ---
 
@@ -15,75 +15,75 @@
 
 ---
 
-## Hamming-Code – Fehlerkorrektur im Detail
+## Code de Hamming – Correction d'erreurs en détail
 
-* Der Hamming-Code nutzt mehrere Parity Bits, um nicht nur Fehler zu erkennen, sondern auch zu korrigieren  
-* Ziel: Ein einzelner Bitfehler soll lokalisiert und berichtigt werden
+* Le code de Hamming utilise plusieurs bits de parité pour non seulement détecter les erreurs, mais aussi les corriger
+* Objectif : Un seul bit erroné doit être localisé et corrigé
 
 ---
 
 <left>
-[picture:683:hamming1:Übertragung von 11 Bits]
+[picture:683:hamming1:Transmission de 11 bits]
 </left>
 <right>
-* Beispiel: Übertragung eines 11-Bit-Datenworts  
-* Ziel: Fehlererkennung und -korrektur bei einem Bitfehler
+* Exemple : Transmission d'un mot de données de 11 bits
+* Objectif : Détection et correction d'erreurs en cas d'erreur sur un bit
 </right>
 
 ---
 
 <left>
-[picture:682:hamming2:Alphabetische Benennung der Bitpositionen]
+[picture:682:hamming2:Désignation alphabétique des positions des bits]
 </left>
 <right>
-* Die Positionen der Bits werden alphabetisch benannt, um die einzelnen Bereiche zu identifizieren
+* Les positions des bits sont désignées par des lettres alphabétiques afin d'identifier les différentes zones
 </right>
 
 ---
 
 <left>
-[picture:684:hamming3:Neuordnung mit zusätzlichen Bits]
+[picture:684:hamming3:Réorganisation avec des bits supplémentaires]
 </left>
 <right>
-* Anordnung der Datenbits mit zusätzlichen Bit-Positionen für Parity Bits
+* Disposition des bits de données avec des positions de bits supplémentaires pour les bits de parité
 </right>
 
 ---
 
 <left>
-[picture:685:hamming4:Vier Parity Bits im Hamming-Code]
+[picture:685:hamming4:Quatre bits de parité dans le code de Hamming]
 </left>
 <right>
-* Anstelle eines einzelnen Prüfbit werden vier Parity Bits ($p_1$–$p_4$) eingesetzt  
-* Diese decken unterschiedliche Bereiche der Datenbits ab – ähnlich einem Kreuzworträtsel
+* Au lieu d'un seul bit de contrôle, quatre bits de parité ($p_1$–$p_4$) sont utilisés
+* Ceux-ci couvrent différentes zones des bits de données – de manière similaire à un mot croisé
 </right>
 
 ---
 
 <left>
-[picture:686:hamming5:Zuweisung der Parity-Bereiche]
+[picture:686:hamming5:Attribution des zones de parité]
 </left>
 <right>
-* Jedes Parity Bit sichert einen bestimmten Bereich der Daten ab
+* Chaque bit de parité protège une zone spécifique des données
 </right>
 
 ---
 
 <left>
-[picture:687:hamming6:Berechnung der Parity Bits (Even Parity)]
+[picture:687:hamming6:Calcul des bits de parité (parité paire)]
 </left>
 <right>
-* Für jeden Bereich wird das Parity Bit mittels Even Parity berechnet  
-* Tritt ein Fehler auf, können die fehlerhaften Bereiche identifiziert und korrigiert werden
+* Pour chaque zone, le bit de parité est calculé au moyen de la parité paire
+* Si une erreur se produit, les zones erronées peuvent être identifiées et corrigées
 </right>
 
 ---
 
 <left>
-[picture:687:hamming6:Berechnung der Parity Bits (Even Parity)]
+[picture:687:hamming6:Calcul des bits de parité (parité paire)]
 </left>
 <right>
-* Durch die Kombination der Parity-Bereiche lässt sich der fehlerhafte Bit-Standort bestimmen  
-* Beispiel: Wird ein bestimmtes Bit (z. B. Bit $k$) während der Übertragung verändert, schlagen alle zugehörigen Paritätsprüfungen fehl – der Fehler liegt also bei Bit $k$
+* Grâce à la combinaison des zones de parité, l'emplacement du bit erroné peut être déterminé
+* Exemple : Si un bit particulier (par exemple le bit $k$) est modifié pendant la transmission, toutes les vérifications de parité associées échouent – l'erreur se situe donc au niveau du bit $k$
 </right>
 

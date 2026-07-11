@@ -1,52 +1,52 @@
-Beim Anschluss von Antennen möchten wir erreichen, dass nur die Antenne Signale abstrahlt bzw. aufnimmt, nicht jedoch die Speiseleitung selbst, die im Haus verlegt sein könnte. Hierzu eigenen sich geschirmte Leitungen, z. B. Koaxialkabel, da diese im Idealfall selbst keine elektromagnetischen Wellen abstrahlen oder aufnehmen, sondern das Signal abgeschirmt von der Außenwelt (also z. B. der Hauselektrik) durch das Kabel leiten.
+Lors du raccordement des antennes, nous souhaitons atteindre que seule l'antenne émette ou capte des signaux, et non la ligne d'alimentation elle-même, qui pourrait être installée dans la maison. Pour cela, des lignes blindées, par exemple des lignes coaxiales usuelles, conviennent, car celles-ci, dans l'idéal, n'émettent ou ne captent pas elles-mêmes d'ondes électromagnétiques, mais conduisent le signal à travers le câble, isolé de l'extérieur (par exemple de l'électricité domestique).
 
 <indepth>
-Damit die Schirmung eines Koaxialkabels auch die gewünschte Funktion erfüllt, muss eine *Bedingung* erfüllt sein: Der Strom im Innenleiter muss dem Strom im Außenleiter genau entgegengesetzt sein und beide Ströme müssen den gleichen Betrag haben. In diesem Falle entsteht nur zwischen den beiden Leitern ein Feld, und die Umgebung des Kabels wird nicht beeinflusst. Der Außenleiter weist genau dann keine hochfrequente Spannung gegenüber der Erde auf.
+Pour que le blindage d'un câble coaxial remplisse également la fonction souhaitée, une *condition* doit être remplie : le courant dans le conducteur intérieur doit être exactement opposé au courant dans le conducteur extérieur et les deux courants doivent avoir la même valeur. Dans ce cas, un champ n'est créé qu'entre les deux conducteurs, et l'environnement du câble n'est pas influencé. Le conducteur extérieur ne présente alors aucune tension haute fréquence par rapport à la terre.
 
-Umgekehrt bedeutet dies aber auch: Wenn der Außenleiter eine hochfrequente Spannung gegenüber der Erde aufweist, dann sind die Ströme im Innenleiter nicht symmetrisch und das Koaxialkabel strahlt ab.
+Inversement, cela signifie également : si le conducteur extérieur présente une tension haute fréquence par rapport à la terre, alors les courants dans le conducteur intérieur ne sont pas symétriques et le câble coaxial émet.
 
-Die Ströme im Koaxialkabel sollten also symmetrisch sein (gleicher Betrag aber umgekehrtes Vorzeichen bzw. umgekehrte Richtung) und die Spannungen gegenüber der Erde sollten *unsymmetrisch* sein (nur der Innenleiter führt Spannung gegenüber der Erde).
+Les courants dans le câble coaxial doivent donc être symétriques (même valeur mais signe opposé ou direction opposée) et les tensions par rapport à la terre doivent être *asymétriques* (seul le conducteur intérieur conduit une tension par rapport à la terre).
 </indepth>
 
 ---
 
-Schließt man jedoch eine symmetrische Antenne, z. B. einen Halbwellendipol, an ein Koaxialkabel an, so kann es dennoch dazu kommen, dass das Koaxkabel trotz Abschirmung strahlt! Dies liegt daran, dass auf der Oberfläche der Außenseite des metallischen Außenleiters hochfrequente Ströme fließen können, die von einem elektromagnetischen Feld um die äußere Isolierung herum begleitet werden (vgl. Abbildung [ref:e_mantelwellen]). Diesen Effekt bezeichnen wir als *Mantelwellen*, welche sowohl beim Senden andere Geräte im Haus stören können, als auch zu Empfangsstörungen führen können, da das Koaxialkabel gewissermaßen zum Teil der Antenne wird und damit störende Einflüsse im Haus leichter vom Funkgerät aufgenommen werden können. Die zusätzlichen Mantelströme "fehlen" dann auf einem der beiden Dipolschenkel, wodurch es außerdem zu einer Verformung der Richtcharakteristik kommt.
+Cependant, si l'on connecte une antenne symétrique, par exemple un dipôle demi-onde, à un câble coaxial, il peut arriver que le câble coaxial émet malgré le blindage ! Cela est dû au fait que des courants haute fréquence peuvent circuler sur la surface de la face extérieure du conducteur extérieur métallique, accompagnés d'un champ électromagnétique autour de l'isolation extérieure (cf. figure [ref:e_mantelwellen]). Nous désignons cet effet par *ondes de gaine*, qui peuvent perturber d'autres appareils dans la maison lors de l'émission, mais aussi entraîner des perturbations de réception, car le câble coaxial devient en quelque sorte une partie de l'antenne et les influences perturbatrices dans la maison peuvent alors être plus facilement captées par l'appareil radio. Les courants de gaine supplémentaires "manquent" alors sur l'un des deux bras du dipôle, ce qui entraîne en outre une déformation de la caractéristique directionnelle.
 
 [question:EG405]
 [question:EG406]
 
-Abbildung [ref:e_mantelwellen] verdeutlicht, wie ein Teil des Stroms, der eigentlich in den Dipolschenkel fließen sollte, auf dem Koaxschirm zurückfließt.
+La figure [ref:e_mantelwellen] illustre comment une partie du courant, qui devrait normalement circuler dans le bras du dipôle, retourne sur l'écran coaxial.
 
 <margin>
-[picture:633:e_mantelwellen:Mantelwellen]
+[picture:633:e_mantelwellen:Ondes de gaine]
 </margin>
 
-Mantelströme fließen tatsächlich weitgehend auf der Oberfläche des Außenleiters. Dies hängt mit dem sogenannten *Skineffekt* zusammen, der dafür sorgt, dass hochfrequente Ströme weitgehend auf der Oberfläche von metallischen Leitern fließen. Insofern kann man sich ein Koaxialkabel auch als ein Dreileitersystem vorstellen:
+Les courants de gaine circulent en fait largement à la surface du conducteur extérieur. Cela est lié à ce que l'on appelle l'*effet de peau*, qui fait que les courants haute fréquence circulent largement à la surface des conducteurs métalliques. Dans ce sens, on peut se représenter un câble coaxial comme un système à trois conducteurs :
   
-1. Außenseite des Innenleiters
-2. Innenseite des Außenleiters
-3. Außenseite des Außenleiters
+1. Face extérieure du conducteur intérieur
+2. Face intérieure du conducteur extérieur
+3. Face extérieure du conducteur extérieur
   
-Der Strom auf der Außenseite des Innenleiters und der Strom auf der Innenseite des Außenleiters haben immer den gleichen Betrag und sind entgegengerichtet ($I_1$). Der Strom auf der Außenseite des Außenleiters ($I_3$) stellt den Mantelstrom dar.
+Le courant sur la face extérieure du conducteur intérieur et le courant sur la face intérieure du conducteur extérieur ont toujours la même valeur et sont opposés ($I_1$). Le courant sur la face extérieure du conducteur extérieur ($I_3$) représente le courant de gaine.
 
 [question:EG404]
 
 ---
 
-Mantelwellen lassen sich beispielsweise dadurch verhindern, dass man ein sogenanntes *Symmetrierglied*, einen Balun, zur Verbindung von Koaxialkabel und Antenne verwendet.
+Les ondes de gaine peuvent être évitées, par exemple, en utilisant un *élément de symétrisation*, un balun, pour la liaison entre le câble coaxial et l'antenne.
 
 <indepth>
-Das Wort *Balun* ist zusammengesetzt aus den englischen Worten "balanced" und "unbalanced", da eine symmetrische Seite (z. B. eine symmetrische Antenne) mit einer unsymmetrischen Seite (dem Koaxialkabel, bei dem idealerweise nur der Innenleiter eine Spannung gegenüber Erde aufweist) verbunden werden soll.
+Le mot *balun* est composé des mots anglais "balanced" et "unbalanced", car un côté symétrique (par exemple une antenne symétrique) doit être relié à un côté asymétrique (le câble coaxial, pour lequel idéalement seul le conducteur intérieur présente une tension par rapport à la terre).
 </indepth>
 
 [question:EG407]
 
 ---
 
-Eine weitere Bauform für einen Balun ist es, ein Koaxialkabel um einen Ferritkern zu wickeln. Dies stellt eine sogenannte *stromkompensierte Drossel* dar und wird auch als *Mantelwellensperre* bezeichnet. Für Gegentaktsignale hat sie eine geringe Impedanz, da, wenn im Innenleiter der umgekehrte Strom wie im Außenleiter fließt, keine nennenswerte Wechselwirkung mit dem Ferritmaterial stattfindet. Für Mantelwellen jedoch wirkt der Aufbau wie eine (verlustbehaftete) Spule.
+Une autre forme de construction pour un balun consiste à enrouler un câble coaxial autour d'un noyau de ferrite. Cela représente une soi-disant *bobine à compensation de courant* et est également appelé *barrière d'ondes de gaine*. Pour les signaux en opposition de phase, elle présente une faible impédance, car, lorsque le courant dans le conducteur intérieur est opposé à celui dans le conducteur extérieur, il n'y a pas d'interaction notable avec le matériau ferritique. Pour les ondes de gaine, cependant, la structure agit comme une bobine (à pertes).
 
 <margin>
-[photo:325:e_mantelwellendrossel:Mantelwellensperre]
+[photo:325:e_mantelwellendrossel:Barrière d'ondes de gaine]
 </margin>
 
 [question:EG408]

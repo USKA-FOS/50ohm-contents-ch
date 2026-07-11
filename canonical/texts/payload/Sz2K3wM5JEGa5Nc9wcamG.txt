@@ -1,56 +1,56 @@
-## Speisewiderstand
+## Impédance d'alimentation
 
-* Eine Antenne wird mit Spannung und Strom gespeist
-* Deren Verhältnis zueinander ergibt den Speisewiderstand
-* Für Leistung müssen immer Spannung <u>und</u> Strom vorhanden sein
-* Wäre eines von beiden 0, erfolgt keine Leistungsabgabe
-* Speisewiderstand hängt vom Ort der Einspeisung ab
+* Une antenne est alimentée avec une tension et un courant
+* Leur rapport l'un à l'autre donne l'impédance d'alimentation
+* Pour la puissance, il faut toujours avoir une tension <u>et</u> un courant
+* Si l'un des deux est 0, il n'y a pas de transfert de puissance
+* L'impédance d'alimentation dépend de l'endroit où l'alimentation est fournie
 
 <note>
-* Ohmsches Gesetz
+* Loi d'Ohm
 </note>
 
 ---
 
-## Stromgespeiste Antennen
+## Antennes alimentées en courant
 
-* Hoher Strom bei vergleichsweise geringer Spannung am Speisepunkt
-* Niedriger Speisewiderstand
-* ca. $\qtyrange{36}{100}{\ohm}$
-* Niederohmiges Verhalten
-
----
-
-## Spannungsgespeiste Antenne
-* Hohe Spannung bei vergleichsweise geringem Strom am Speisepunkt
-* Hoher Speisewiderstand
-* ca. $\qtyrange{1500}{4000}{\ohm}$
-* Hochohmiges Verhalten
+* Courant élevé avec une tension relativement faible au point d'alimentation
+* Faible impédance d'alimentation
+* environ $\qtyrange{36}{100}{\ohm}$
+* Comportement à faible impédance
 
 ---
 
-## Einspeisung am Halbwellendipol
+## Antenne alimentée en tension
+* Tension élevée avec un courant relativement faible au point d'alimentation
+* Haute impédance d'alimentation
+* environ $\qtyrange{1500}{4000}{\ohm}$
+* Comportement à haute impédance
 
-* Ladungsträger schwingen hin und her
-* In der Mitte werden besonders viele Ladungsträger bewegt $\rightarrow$ Strombauch
-* An den Enden entstehen besonders hohe Spannungen $\rightarrow$ Spannungsbauch
-* Wenige Ladungsträger $\rightarrow$ Stromknoten
-* Keine Spannung $\rightarrow$ Spannungsknoten
+---
+
+## Alimentation d'un dipôle demi-onde
+
+* Les porteurs de charge oscillent d'avant en arrière
+* Au milieu, un grand nombre de porteurs de charge sont déplacés $\rightarrow$ ventre de courant
+* Aux extrémités, des tensions particulièrement élevées sont créées $\rightarrow$ ventre de tension
+* Peu de porteurs de charge $\rightarrow$ nœud de courant
+* Aucune tension $\rightarrow$ nœud de tension
 
 <note>
-* Grafik auf folgender Seite verdeutlicht es
+* Le graphique sur la page suivante le clarifie
 </note>
 
 ---
 
 <left>
-* Strombauch in der Mitte
-* Spannungsbauch an den Enden
-* Stromknoten an den Enden
-* Spannungsknoten in der Mitte
+* Ventre de courant au milieu
+* Ventre de tension aux extrémités
+* Nœud de courant aux extrémités
+* Nœud de tension au milieu
 </left>
 <right>
-[picture:787:e_strom_spannung_speisung_dipol:Halbwellendipol mit Spannungs- und Stromverteilung]
+[picture:787:e_strom_spannung_speisung_dipol:Dipôle demi-onde avec distribution de tension et de courant]
 </right>
 
 ---
@@ -63,15 +63,15 @@
 
 ---
 
-## Endgespeister Halbwellendipol
+## Dipôle demi-onde alimenté en bout
 
 
 <left>
-* Spannungsgespeiste Antenne
-* Hoher Speisewiderstand
+* Antenne alimentée en tension
+* Haute impédance d'alimentation
 </left>
 <right>
-[picture:851:e_strom_spannung_speisung_dipol_ende:Halbwellendipol Endgespeist]
+[picture:851:e_strom_spannung_speisung_dipol_ende:Dipôle demi-onde alimenté en bout]
 </right>
 
 ---

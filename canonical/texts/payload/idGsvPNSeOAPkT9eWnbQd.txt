@@ -1,7 +1,7 @@
-Beim Anlegen einer Gleichspannung wirkt bei einer Spule nach dem Einschwingvorgang nur ihr ohmscher Wicklungswiderstand. Der Strom wird daher im Wesentlichen nur durch diesen Gleichstromwiderstand begrenzt.
+Lors de l'application d'une tension continue, seule la résistance ohmique de l'enroulement agit sur une bobine après le processus de transitoire. Le courant est donc limité principalement par cette résistance de courant continu.
 
-Bei Wechselspannung kommt zusätzlich der induktive Blindwiderstand $X_L$ hinzu. Dieser erhöht den Gesamtwiderstand der Spule (s. Formelsammlung):
+En tension alternative, la résistance réactive inductive $X_L$ s'ajoute. Celle-ci augmente la résistance totale de la bobine (voir le recueil de formules) :
 
 $X_L = 2\pi\cdot f \cdot L$
 
-Dadurch wird der Strom bei gleicher Spannung kleiner als bei Gleichspannung.
+Cela réduit le courant à tension égale par rapport à la tension continue.

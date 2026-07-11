@@ -3,17 +3,17 @@
 <html>
     <script src="https://www.50ohm.de/assets/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://www.50ohm.de/assets/chartjs/4.4.1/chart.min.js"></script>
-    <p>Hier gibt es die Möglichkeit das Ganze nochmal auszuprobieren. An dem Regler kann man die Wellenlänge $\lambda$ einstellen. Die Frequenz wird automatisch berechnet.</p>
+    <p>Ici, vous avez la possibilité d'essayer à nouveau. Avec le réglage, vous pouvez ajuster la longueur d'onde $\lambda$. La fréquence est calculée automatiquement.</p>
     <table>
         <tr>
             <td>
-                Periode:
+                Période:
             </td>
             <td>
                 <input type="range" class="slider" value="69" min="50" max="1000" id="period">
             </td>
             <td>
-                $\lambda$=<div id="twl" style="display:inline-block;">1s</div> und $f$=<div id="tfrequency" style="display:inline-block;">1Hz</div>
+                $\lambda$=<div id="twl" style="display:inline-block;">1s</div> et $f$=<div id="tfrequency" style="display:inline-block;">1Hz</div>
           </td>
         </tr>
     </table>

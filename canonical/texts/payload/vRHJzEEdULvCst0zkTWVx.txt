@@ -1,7 +1,7 @@
-### Netzgerät
+### Appareil d'alimentation
 
-* Die für uns Funkamateure wichtigste Spannungsquelle ist, neben Batterien, das Netzgerät. Es wird über das Stromnetz mit $\qty{230}{\volt}$ Wechselspannung versorgt und erzeugt eine Gleichspannung von $\qty{13,8}{\volt}$. Damit lassen sich Funkgeräte und Zubehör versorgen.
-* Wichtig ist, dass die Ausgangsspannung bei Last konstant bleibt.
+* La source de tension la plus importante pour nous, les radioamateurs, outre les batteries, est l'appareil d'alimentation. Il est alimenté par le réseau électrique avec une tension alternative de $\qty{230}{\volt}$ et produit une tension continue de $\qty{13,8}{\volt}$. Cela permet d'alimenter les appareils radio et les accessoires.
+* Il est important que la tension de sortie reste constante sous charge.
 
 ---
 
@@ -9,23 +9,23 @@
 
 ---
 
-### Elektrische Sicherheit
+### Sécurité électrique
 
-Bei Netzgeräten, besonders mit einem Metallgehäuse, ist ein normgerechter Anschluss an das Stromnetz wichtig. Der Schutzleiter (grün/gelb) hat dabei die Aufgabe im Fehlerfall die Spannung zur "Erde" abzuleiten und damit die Haussicherung auszulösen, damit keine gefährliche Spannung am Metallgehäuse anliegt. Bei einer 3-adrigen Leitung sind die Adernkennfarben wie folgt festgelegt:
+Pour les appareils d'alimentation, en particulier ceux avec un boîtier métallique, une connexion conforme aux normes au réseau électrique est importante. Le conducteur de protection (vert/jaune) a pour tâche, en cas de défaut, de dériver la tension vers la "terre" et de déclencher ainsi le disjoncteur de la maison, afin qu'aucune tension dangereuse ne soit présente sur le boîtier métallique. Pour un câble à trois conducteurs, les couleurs des conducteurs sont définies comme suit:
 
 ---
-### Aderfarben
+### Couleurs des conducteurs
 
 <left>
-* Außenleiter (L) $\rightarrow$ braun
-* Neutralleiter (N) $\rightarrow$ blau
-* Schutzleiter (PE) $\rightarrow$ grün/gelb
+* Conducteur de phase (L) $\rightarrow$ marron
+* Conducteur neutre (N) $\rightarrow$ bleu
+* Conducteur de protection (PE) $\rightarrow$ vert/jaune
 </left>
 <right>
-[picture:791:e_NYM_Aderfarben:Aderfarben einer 3-adrigen Leitung]
+[picture:791:e_NYM_Aderfarben:Couleurs des conducteurs d'un câble à trois conducteurs]
 </right>
 <note>
-Nicht drauf verlassen, sondern messen!
+Ne pas se fier à cela, mais mesurer!
 </note>
 
 ---

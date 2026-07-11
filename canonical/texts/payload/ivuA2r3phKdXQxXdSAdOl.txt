@@ -1,21 +1,21 @@
-Ein altes Funkersprichwort sagt, dass der beste Hochfrequenzverstärker die Antenne ist. In den ersten Jahren der Funktechnik war sie der einzige "Verstärker", verstärkende Elektronik gab es nicht. 1907 kam dann die Elektronenröhre - ein sehr erfolgreiches Bauelement, aber doch recht groß und wenig effizient. Bereits seit den zwanziger Jahren träumte die Wissenschaft von Bauelementen ähnlicher Funktion, bei der aber alles im Inneren eines Festkörpers (Halbleiters) abläuft, nicht im Vakuum. Das erste Bauelement, bei dem das auch praktisch gelang, war 1947/1948 der *Bipolartransistor*, der auch ganz überwiegend Gegenstand der Prüfungsfragen der Klasse-E-Prüfung ist.
+Un vieux dicton de radio dit que le meilleur amplificateur haute fréquence est l'antenne. Dans les premières années de la technologie radio, c'était le seul "amplificateur", il n'y avait pas d'électronique amplificatrice. En 1907, la lampe à vide est apparue - un composant très réussi, mais assez grand et peu efficace. Dès les années vingt, la science rêvait de composants à fonction similaire, mais où tout se déroule à l'intérieur d'un solide (semi-conducteur), et non dans le vide. Le premier composant où cela a également réussi en pratique était le *transistor bipolaire* en 1947/1948, qui est également principalement le sujet des questions d'examen de la classe E.
 
 [question:EC602]
 
 <indepth>
-Der *Bipolartransistor* wird im Englischen auch BJT: Bipolar Junction Transistor, dt. bipolarer Sperrschicht-Transistor genannt.
+Le *transistor bipolaire* est également appelé BJT : Bipolar Junction Transistor, en allemand transistor bipolaire à jonction, en anglais.
 </indepth>
 
-Die ideale Funktion aller Transistortypen, und auch der Elektronenröhre, ist die einer *spannungsgesteuerten Stromquelle*: mit einer möglichst kleinen Spannungsänderung am Eingang soll eine möglichst große Stromänderung am Ausgang bewirkt werden.
+La fonction idéale de tous les types de transistors, ainsi que de la lampe à vide, est celle d'une *source de courant commandée par la tension* : avec une variation de tension aussi faible que possible à l'entrée, une variation de courant aussi grande que possible doit être obtenue à la sortie.
 
-Der Bipolartransistor hat drei Anschlüsse, die Emitter, Basis und Kollektor genannt werden. Der Emitter sendet Ladungsträger in die Basis - beim npn-Bipolartransistor sind das *Elektronen*, beim pnp-Bipolartransistor Defektelektronen, auch *Löcher* genannt. Die Physik hinter diesen Begriffen werden wir erst in der Ausbildung für die Klasse A besprechen. Diese Ladungsträger durchqueren die Basis und werden vom Kollektor wieder aufgesammelt. 
+Le transistor bipolaire a trois bornes, appelées émetteur, base et collecteur. L'émetteur envoie des porteuses de charge dans la base - pour le transistor bipolaire npn, ce sont des *électrons*, pour le transistor bipolaire pnp des électrons déficients, également appelés *trous*. La physique derrière ces termes sera discutée lors de la formation pour la classe A. Ces porteuses de charge traversent la base et sont à nouveau collectées par le collecteur. 
 
 ---
 
-Die Abbildung [ref:e_npn_pnp_symbol] zeigt die Schaltzeichen von NPN- und PNP-Transistoren. Die Emitterelektrode erkennen wir an einem Pfeil, der beim pnp-Transistor zur Basis hin und beim npn-Transistor von der Basis weg zeigt. 
+L'illustration [ref:e_npn_pnp_symbol] montre les symboles de circuit des transistors NPN et PNP. Nous reconnaissons l'électrode d'émetteur à une flèche qui, pour le transistor pnp, pointe vers la base et, pour le transistor npn, s'éloigne de la base. 
 
 <margin>
-[picture:864:e_npn_pnp_symbol:Symbole NPN und PNP Transistor]
+[picture:864:e_npn_pnp_symbol:Symboles NPN et PNP Transistor]
 </margin>
 
 [question:EC605]
@@ -26,14 +26,14 @@ Die Abbildung [ref:e_npn_pnp_symbol] zeigt die Schaltzeichen von NPN- und PNP-Tr
 
 ---
 
-Bipolartransistoren sind aus zwei Dioden zusammengesetzt - der Emitter-Basis- und Basis-Kollektor-Diode.
-Im aktiven Betrieb ist die Emitter-Basis-Diode stets in Flussrichtung geschaltet. Beim NPN-Transistor muss dabei das Potential an der Basis positiver sein als das des Emitters, beim PNP-Transistor negativer. Die Basis-Kollektor-Diode ist in Sperrrichtung gepolt. Dazu ist das Kollektorpotential beim NPN-Transistor positiver als die Basis zu wählen, beim PNP-Transistor negativer.
+Les transistors bipolaires sont composés de deux diodes - la diode émetteur-base et la diode base-collecteur.
+En fonctionnement actif, la diode émetteur-base est toujours branchée dans le sens passant. Pour le transistor NPN, le potentiel à la base doit être plus positif que celui de l'émetteur, et pour le transistor PNP, plus négatif. La diode base-collecteur est polarisée dans le sens bloquant. À cet effet, le potentiel du collecteur doit être choisi plus positif que la base pour le transistor NPN, et plus négatif pour le transistor PNP.
 
 <tip>
-Die Transistorfunktion stellt sich aber nur ein, wenn die Basiszone zwischen Emitter und Kollektor maximal wenige Mikrometer breit ist. Also können wir keinen Transistor erzeugen, indem wir zwei separate Dioden aneinander löten.
+La fonction du transistor ne s'établit cependant que si la zone de base entre l'émetteur et le collecteur est large d'au maximum quelques micromètres. Nous ne pouvons donc pas créer un transistor en soudant deux diodes séparées l'une à l'autre.
 </tip>
 
-Die minimale Spannung am Emitter-Basis-Übergang hängt vom verwendeten Halbleiter ab. Bei einem Silizium-NPN-Transistor muss die Basis etwa $\qty{0,6}{\volt}$ positiver als der Emitter sein, beim Silizium-PNP-Transistor etwa $\qty{0,6}{\volt}$ negativer.
+La tension minimale à la jonction émetteur-base dépend du semi-conducteur utilisé. Pour un transistor NPN en silicium, la base doit être environ $\qty{0,6}{\volt}$ plus positive que l'émetteur, et pour un transistor PNP en silicium, environ $\qty{0,6}{\volt}$ plus négative.
 
 [question:EC610]
 [question:EC612]
@@ -44,63 +44,63 @@ Die minimale Spannung am Emitter-Basis-Übergang hängt vom verwendeten Halbleit
 ---
 
 <margin>
-[picture:863:e_npn_i_u:Ströme uns Spannungen an einem npn-Transistor]
+[picture:863:e_npn_i_u:Courants et tensions à un transistor npn]
 </margin>
 
 ---
 
-Die Ströme und Spannungen an einem npn-Transistor sind in der Abbildung [ref:e_npn_i_u] dargestellt. Die Basis-Emitter-Spannung $U_{BE}$ kennen wir bereits, ebenso die Kollektor-Basis-Spannung $U_{CB}$. Der Kollektorstrom $I_C$ hängt exponentiell von der Basis-Emitter-Spannung ab:
+Les courants et tensions à un transistor npn sont représentés dans l'illustration [ref:e_npn_i_u]. Nous connaissons déjà la tension base-émetteur $U_{BE}$, ainsi que la tension collecteur-base $U_{CB}$. Le courant de collecteur $I_C$ dépend de manière exponentielle de la tension base-émetteur:
 
 $I_C = I_\text{S}\ e^{\frac{U_{BE}}{U_T}}$
 
-$U_T$ ist bei Raumtemperatur etwa $\qty{26}{\milli\volt}$.
+$U_T$ est d'environ $\qty{26}{\milli\volt}$ à température ambiante.
 
 <indepth>
-$I_\text{S}$ bezeichnet den sogenannten Sättigungs-Sperrstrom eines Bipolartransistors. Er ist ein charakteristischer Bauteilparameter und steht in engem Zusammenhang mit der Emitter-Basis-Diode. Dabei handelt es sich um einen sehr kleinen Leckstrom, der auch dann durch den Transistor fließt, wenn die Basis-Emitter-Strecke nicht leitend ist.
+$I_\text{S}$ désigne le courant de saturation de blocage dit d'un transistor bipolaire. Il s'agit d'un paramètre caractéristique du composant et il est en étroite relation avec la diode émetteur-base. Il s'agit d'un très petit courant de fuite qui traverse également le transistor lorsque la jonction base-émetteur n'est pas conductrice.
 </indepth>
 
-Der Basisstrom $I_B$ hat in weiten Betriebsbereichen die gleiche Spannungsabhängig wie der Kollektorstrom, sodass das Verhältnis von Kollektorstrom und Basisstrom konstant ist:
+Le courant de base $I_B$ a, dans de larges domaines de fonctionnement, la même dépendance à la tension que le courant de collecteur, de sorte que le rapport entre le courant de collecteur et le courant de base est constant:
 
 $\frac{I_C}{I_B} = B$
 
-*B* ist die Stromverstärkung (genau genommen die Stromverstärkung in Emitterschaltung). Es ist oft praktischer, sich den Transistor als ein stromgesteuertes Bauelement vorzustellen, auch wenn das physikalisch nicht so ist. Die Stromverstärkung beträgt in praktischen Transistoren $50 \dots 350$.
+*B* est l'amplification de courant (plus précisément l'amplification de courant en configuration émetteur). Il est souvent plus pratique de se représenter le transistor comme un composant commandé par le courant, même si ce n'est pas le cas physiquement. L'amplification de courant dans les transistors pratiques est de $50 \dots 350$.
 
 <tip>
-Für die Stromsteuerung des Bipolartransistors gibt es eine uralte Analogie, bei der ein großer und ein kleiner Wasserkanal, ein Wehr im großen Kanal und eine Steuerklappe eine Rolle spielen. Die Älteren unter uns kennen das vielleicht noch aus dem "Kleinen Radiomann" des Kosmos-Verlags ...
+Pour la commande de courant du transistor bipolaire, il existe une vieille analogie où un grand et un petit canal d'eau, un barrage dans le grand canal et un clapet de commande jouent un rôle. Les plus âgés d'entre nous s'en souviennent peut-être encore du "Petit Radiomann" de l'éditeur Kosmos ...
   
-[picture:835:e_transistor_wehr_geschlossen:Steuerkanal schließt Wehr komplett]
+[picture:835:e_transistor_wehr_geschlossen:Le canal de commande ferme complètement le barrage]
   
-Zunächst fließt kein Wasser im kleinen Kanal. Das Wehr im großen Kanal ist geschlossen, daher fließt dort auch kein Wasser.
+Au début, aucune eau ne s'écoule dans le petit canal. Le barrage dans le grand canal est fermé, donc aucune eau ne s'écoule non plus.
   
-[picture:837:e_transistor_wehr_halb_offen:Steuerkanal öffnet Wehr halb]
+[picture:837:e_transistor_wehr_halb_offen:Le canal de commande ouvre le barrage à moitié]
 
-Dann beginnt Wasser im kleinen Kanal zu fließen, dem Steuerkanal. Das Wasser hebt die Klappe an, die wiederum das Wehr betätigt - auch im Hauptkanal beginnt, Wasser zu fließen.
+Ensuite, l'eau commence à s'écouler dans le petit canal, le canal de commande. L'eau soulève le clapet, qui à son tour actionne le barrage - l'eau commence également à s'écouler dans le canal principal.
   
-[picture:836:e_transistor_wehr_geoeffnet:Steuerkanal öffnet Wehr komplett]
+[picture:836:e_transistor_wehr_geoeffnet:Le canal de commande ouvre complètement le barrage]
 
-Jetzt fließt mehr Wasser im Steuerkanal, die Klappe wird weiter angehoben, das Wehr im Hauptkanal öffnet komplett.
+Maintenant, plus d'eau s'écoule dans le canal de commande, le clapet est soulevé plus loin, le barrage dans le canal principal s'ouvre complètement.
 </tip>
 
 [question:EC603]
 
-Der Emitterstrom $I_E$ ist die Summe aus Kollektorstrom und Basisstrom:
+Le courant d'émetteur $I_E$ est la somme du courant de collecteur et du courant de base:
 
 $I_E = I_C + I_B$
 
 [question:EC611]
 
-Der Spannungsarbeitspunkt von Transistoren wird meist über die Kollektor-Emitter-Spannung angegeben:
+Le point de fonctionnement en tension des transistors est généralement donné par la tension collecteur-émetteur:
 
 $U_{CE} = U_{CB} + U_{BE}$
 
-Neben den hier überwiegend behandelten Bipolartransistoren gibt es vor allem auch *Feldeffekttransistoren*, die physikalisch anders funktionieren, aber nach außen die selbe Grundfunktion (spannungsgesteuerte Stromquelle) haben. In Form der MOSFETs beherrschen sie unsere Elektronik, denn sie sind millionen- bis milliardenfach in den integrierten Schaltkreisen der Digitalelektronik enthalten.
+Outre les transistors bipolaires principalement traités ici, il existe surtout aussi des *transistors à effet de champ*, qui fonctionnent physiquement différemment, mais ont la même fonction de base (source de courant commandée par la tension) vers l'extérieur. Sous forme de MOSFET, ils dominent notre électronique, car ils sont intégrés à des millions, voire des milliards de fois dans les circuits intégrés de l'électronique numérique.
 
 <indepth>
-MOSFET steht für *metal-oxide-semiconductor field effect transistor*, dt. Metall-Oxid-Halbleiter-Feldeffekttransistor
+MOSFET signifie *metal-oxide-semiconductor field effect transistor*, en allemand transistor à effet de champ métal-oxyde-semi-conducteur
 </indepth>
 
 [question:EC604]
 
-Transistoren können nicht nur als Verstärker, sondern auch als (Strom-)Schalter (Strom an/aus) oder auch, bei kleinen Spannungen am Ausgang, als steuerbarer Widerstand eingesetzt werden. Die letzte Funktion wird vor allem mit Feldeffekttransistoren umgesetzt.
+Les transistors peuvent être utilisés non seulement comme amplificateurs, mais aussi comme interrupteurs (courant marche/arrêt) ou, pour de petites tensions à la sortie, comme résistance commandée. Cette dernière fonction est principalement mise en œuvre avec des transistors à effet de champ.
 
 [question:EC601]

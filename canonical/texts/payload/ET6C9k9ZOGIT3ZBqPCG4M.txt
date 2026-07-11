@@ -1,54 +1,54 @@
-Das Schaltnetzteil wurde in Klasse N und E schon einführend erklärt. Nun betrachten wir das vereinfachte Blockschaltbild genauer.
+L'alimentation à découpage a été expliquée de manière introductive dans les classes N et E. Nous allons maintenant examiner plus en détail le schéma bloc simplifié.
 
 <margin>
-[picture:35:a_schaltnetzteil:Prinzipschaltbild Schaltnetzteil]
+[picture:35:a_schaltnetzteil:Schéma bloc d'une alimentation à découpage]
 </margin>
 
-Der wichtige elektronische Schalter im Block E dient auch zur Regelung auf eine konstante Ausgangsspannung.
-Da es keine Zustände zwischen leitendem und gesperrtem Transistor gibt, muss es eine andere Möglichkeit zur Regelung geben. Der Energietransport von der Eingangsseite auf die Lastseite kann durch die Schaltzeit variiert werden. Ist der Schalter länger geschlossen, dann wird mehr Energie zur Lastseite transportiert und die Ausgangsspannung steigt an. Um dies festzustellen, ist eine Rückmeldung der Ausgangsspannung an den Steuerblock des elektronischen Schalters erforderlich. Diese Rückführung fehlt im dargestellten, vereinfachten Schaltbild. Die Regelung der Ausgangsspannung geschieht nun über den sogenannten Impulsbreitenmodulator. Dies bedeutet, dass der leitende Zustand des Schalters verändert wird, die Schaltfrequenz bleibt dabei konstant. 
+L'interrupteur électronique important dans le bloc E sert également à réguler une tension de sortie constante.
+Comme il n'y a pas d'états entre le transistor conducteur et bloqué, il doit y avoir une autre possibilité de régulation. Le transport d'énergie du côté entrée vers le côté charge peut être varié par le temps de commutation. Si l'interrupteur est fermé plus longtemps, plus d'énergie est transportée vers le côté charge et la tension de sortie augmente. Pour déterminer cela, un retour d'information de la tension de sortie vers le bloc de commande de l'interrupteur électronique est nécessaire. Ce retour est absent dans le schéma de circuit simplifié représenté. La régulation de la tension de sortie se fait maintenant via le modulateur de largeur d'impulsion. Cela signifie que l'état conducteur de l'interrupteur est modifié, la fréquence de commutation restant constante. 
 
 ---
 
 [question:AD311]
 
-Wichtig ist auch die galvanische Trennung der Eingangs- und Ausgangsseite, um Netzspannungspotentiale vom Ausgang fernzuhalten. Diese Netztrennung geschieht durch den Übertrager mit Ferritkern. 
-Siehe Abbildung [ref:a_innenansicht_eines_schaltnetzteils]. 
+Il est également important d'assurer l'isolation galvanique des côtés entrée et sortie afin de maintenir les potentiels de la tension du réseau loin de la sortie. Cette séparation du réseau est réalisée par le transformateur à noyau de ferrite. 
+Voir l'illustration [ref:a_innenansicht_eines_schaltnetzteils]. 
 
 <margin>
-[photo:264:a_innenansicht_eines_schaltnetzteils:Innenansicht eines Schaltnetzteils]
+[photo:264:a_innenansicht_eines_schaltnetzteils:Vue intérieure d'une alimentation à découpage]
 </margin>
 
 ---
 
-Die Veränderung der Schaltzeit bewirkt zusätzliche Störsignale, die unbedingt von der Netzspannungsseite ferngehalten werden müssen, damit sie sich nicht über das Stromnetz ausbreiten und andere elektronische Geräte stören. Das Stromnetz wirkt auch wie eine Antenne und kann deshalb Störsignale als elektromagnetische Welle abstrahlen. Wird der elektronische Schalter mit einer Schaltfrequenz von $\qty{30}{\kilo\hertz}$ betrieben, dann ergibt sich ein Störspektrum, in dem alle $\qty{30}{\kilo\hertz}$ ein Störsignal erscheint. Die Abbildung [ref:a_störspektrum] zeigt das Störspektrum eines Schaltnetzteils. Das Störspektrum wurde direkt oberhalb des Schaltnetzteilgehäuses empfangen. In $\qty{1}{\meter}$ Entfernung ist das Störspektrum kaum messbar.
+La modification du temps de commutation entraîne des signaux parasites supplémentaires qui doivent absolument être maintenus à l'écart du côté de la tension du réseau afin qu'ils ne se propagent pas à travers le réseau électrique et n'interfèrent pas avec d'autres appareils électroniques. Le réseau électrique agit également comme une antenne et peut donc émettre des signaux parasites sous forme d'onde électromagnétique. Si l'interrupteur électronique est exploité à une fréquence de commutation de $\qty{30}{\kilo\hertz}$, un spectre de perturbations se produit dans lequel un signal de perturbation apparaît tous les $\qty{30}{\kilo\hertz}$. L'illustration [ref:a_störspektrum] montre le spectre de perturbations d'une alimentation à découpage. Le spectre de perturbations a été reçu directement au-dessus du boîtier de l'alimentation à découpage. À une distance de $\qty{1}{\meter}$, le spectre de perturbations est à peine mesurable.
 
 [question:AD312]
 
-Bei ungenügend entstörten Schaltnetzteilen beeinträchtigt das Störspektrum den Funkempfang.
+Dans le cas d'alimentations à découpage insuffisamment filtrées, le spectre de perturbations affecte la réception radio.
 
 [question:AD313]
 
 <margin>
-[photo:277:a_störspektrum:Störspektrum eines Schaltnetzteils]
+[photo:277:a_störspektrum:Spectre de perturbations d'une alimentation à découpage]
 </margin>
 
 ---
 
-Um zu verhindern das Störungen in das Stromnet gelangen muss im Schaltnetzteil ein hochwertiges Tiefpassfilter auf der Seite des Anschlusses zum $\qty{230}{\volt}$ Wechselspannungsnetzes eingebaut sein. Der typische Aufbau des Filters ist in der Abbildung [ref:a-schaltnetzteilfilter] zu sehen.
+Pour empêcher les perturbations de pénétrer dans le réseau électrique, un filtre passe-bas de haute qualité doit être intégré dans l'alimentation à découpage du côté de la connexion au réseau de tension alternative de $\qty{230}{\volt}$. La structure typique du filtre est visible dans l'illustration [ref:a-schaltnetzteilfilter].
 
 <margin>
-[picture:367:a-schaltnetzteilfilter:Filter am $\qty{230}{\volt}$ Eingang eines Schaltnetzteils]
+[picture:367:a-schaltnetzteilfilter:Filtre sur l'entrée de $\qty{230}{\volt}$ d'une alimentation à découpage]
 </margin>
 
-Vergleiche auch die Filter in Abbildung [ref:a_EMV_Filter1] und [ref:a_EMV_Filter2]
-*Merke:* Der PE-Leiter darf nicht mit dem L1-Leiter oder dem N-Leiter verbunden sein.
-Die Drossel T darf keine Transformatorfunktion für die Netzwechselspannung bewirken.
+Comparez également les filtres dans les illustrations [ref:a_EMV_Filter1] et [ref:a_EMV_Filter2]
+*À noter :* Le conducteur PE ne doit pas être connecté au conducteur L1 ou au conducteur N.
+La bobine de self T ne doit pas avoir de fonction de transformateur pour la tension alternative du réseau.
 
 [question:AD314]
 
 
 <margin>
-EMV Filter = Funkentstörfilter gegen leitungsgebundene Störungen
-[photo:242:a_EMV_Filter1: Funkentstörfilter Filter für ein Schaltnetzteil]
-[photo:243:a_EMV_Filter2: Filter direkt am $\qty{230}{\volt}$ AC Spannungseingang]
+Filtre CEM = filtre anti-parasites contre les perturbations conduites
+[photo:242:a_EMV_Filter1: Filtre anti-parasites pour une alimentation à découpage]
+[photo:243:a_EMV_Filter2: Filtre directement sur l'entrée de tension alternative de $\qty{230}{\volt}$]
 </margin>

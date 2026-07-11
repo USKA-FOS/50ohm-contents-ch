@@ -1,10 +1,10 @@
 <left>
-[picture:965:a_brueckenlgeichrichter:Brückengleichrichter]
+[picture:965:a_brueckenlgeichrichter:Redresseur en pont]
 </left>
 <right>
-* Erweiterte und häufige Gleichrichterschaltung
-* Beide Halbwellen werden verwendet
-* Pulsierende Gleichspannung am Ausgang mit doppelter Frequenz wie Eingangsspannung
+* Schéma de redresseur étendu et fréquent
+* Les deux demi-ondes sont utilisées
+* Tension continue pulsée à la sortie avec une fréquence double de celle de la tension d'entrée
 </right>
 --- style="font-size: smaller;"
 [include:applet_gleichrichter_2]
@@ -12,30 +12,30 @@
 ---
 [question:AD305]
 ---
-### Siebung
+### Filtrage
 <left>
-[picture:66:a_netzteil_Ucs:Gleichrichterschaltung mit Siebung]
+[picture:66:a_netzteil_Ucs:Circuit de redresseur avec filtrage]
 </left>
 <right>
-* Mit Ladekondensator $C_L$ und LC-Siebglied mit $C_S$
-* Kleinere Amplituden der pulsierenden Gleichspannung
-* Kondensatoren laden sich auf die sekundäre Spitzenspannung auf
+* Avec condensateur de charge $C_L$ et filtre LC avec $C_S$
+* Amplitudes plus petites de la tension continue pulsée
+* Les condensateurs se chargent à la tension de crête secondaire
 </right>
 <note>
 </note>
 ---
 [question:AD306]
 ---
-#### Lösungsweg
-* gegeben: $U_P = \qty{230}{\volt}$
-* gegeben: $ü = 8:1$
-* gegeben: $U_D = \qty{0,6}{\volt}$
-* gesucht: $\hat{U}$
+#### Solution
+* donné : $U_P = \qty{230}{\volt}$
+* donné : $ü = 8:1$
+* donné : $U_D = \qty{0,6}{\volt}$
+* recherché : $\hat{U}$
 
 <fragment>
 $ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{\qty{230}{\volt}}{8} = \qty{28,75}{\volt}$
 </fragment>
 <fragment>
-Im Leerlauf kann die Diodenspannung vernachlässigt werden.
+Au repos, la tension de la diode peut être négligée.
 $\hat{U} = U_S \cdot \sqrt{2} = \qty{28,75}{\volt} \cdot 1,41 \approx \qty{40}{\volt}$
 </fragment>

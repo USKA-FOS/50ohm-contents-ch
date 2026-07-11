@@ -1,17 +1,17 @@
-## Verzögerungen in der Signalübertragung
+## Retards dans la transmission des signaux
 
-* Bei der Signalübertragung und -verarbeitung entstehen Verzögerungen  
-* Lichtgeschwindigkeit: Zeit, die elektromagnetische Wellen vom Sender zum Empfänger benötigen  
-* Weitere Verzögerungen durch Zwischenspeicherung (Buffer) und Filter
+* Des retards se produisent lors de la transmission et du traitement des signaux
+* Vitesse de la lumière : temps que les ondes électromagnétiques mettent pour aller de l'émetteur au récepteur
+* Autres retards dus au stockage intermédiaire (buffer) et aux filtres
 
 ---
 
-## Latenz in der Signalverarbeitung
+## Latence dans le traitement des signaux
 
-* Laufzeit zwischen Sender und Empfänger oder zwischen Verarbeitungsstufen  
-* Latenz wird in Sekunden gemessen  
-* Typische Werte: wenige Millisekunden bis einige Sekunden  
-* Analoge Verfahren haben oft geringere Latenzen als digitale, da weniger Zwischenspeicherung erfolgt
+* Temps de propagation entre l'émetteur et le récepteur ou entre les étapes de traitement
+* La latence est mesurée en secondes
+* Valeurs typiques : quelques millisecondes à quelques secondes
+* Les procédés analogiques ont souvent des latences plus faibles que les procédés numériques, car moins de stockage intermédiaire est effectué
 
 ---
 

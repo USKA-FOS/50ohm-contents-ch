@@ -1,31 +1,31 @@
-* Mit einem Logbuch hat man die Möglichkeit, seine Funkaktivitäten zu dokumentieren
-* Die Führung eines Logbuchs ist freiwillig
+* Avec un journal de bord, on a la possibilité de documenter ses activités radio
+* La tenue d'un journal de bord est volontaire
 
 <note>
-* Für Conteste müssen oft Logbücher eingereicht werden
+* Pour les concours, des journaux de bord doivent souvent être soumis
 </note>
 
 ---
 
-Folgende Daten werden üblicherweise in einem Logbuch für jede Funkverbindung festgehalten:
-* Rufzeichen der Gegenstation
-* Frequenz oder Band
-* Datum und Uhrzeit
-* Übertragungsverfahren (z. B. SSB, FT8, RTTY, ...)
-* Vergebener und erhaltener Rapport
-* Verwendete Sendeleistung
-* Bemerkungen (z.B. Name des QSO-Partners oder eigene verwendete Station)
+Les données suivantes sont généralement enregistrées dans un journal de bord pour chaque liaison radio:
+* Indicatif de l'autre station
+* Fréquence ou bande
+* Date et heure
+* Procédure de transmission (par exemple SSB, FT8, RTTY, ...)
+* Rapport attribué et reçu
+* Puissance d'émission utilisée
+* Remarques (par exemple nom du partenaire QSO ou station utilisée)
 
 ---
 [question:BG101]
 
 ---
-## Verpflichtende Logbuchführung
+## Tenue obligatoire du journal de bord
 
-Es kann aber auch dazu kommen, dass man eine Aufforderung der Bundesnetzagentur erhält, die einen verpflichtet, ein Logbuch zu führen.
+Il peut également arriver que l'on reçoive une demande de l'Agence fédérale des réseaux, qui nous oblige à tenir un journal de bord.
 
-* Zur Untersuchung von Störungsursachen
-* Zur Klärung frequenztechnischer Fragen
+* Pour l'examen des causes des perturbations
+* Pour clarifier les questions techniques de fréquence
 
 ---
 [question:VD109]
@@ -34,12 +34,12 @@ Es kann aber auch dazu kommen, dass man eine Aufforderung der Bundesnetzagentur 
 [question:VD108]
 
 ---
-## Aufbewahrung des Logbuchs
+## Conservation du journal de bord
 
-* Bei angeordneter Logbuchführung
-* Über eine bestimmte Zeit einsehbar
-* Bei elektronischem Logbuch ist Transfer mit ADIF-Dateiformat möglich
-* Bei Transfer von Papier auf elektronisch muss das Papierformat weiter aufbewahrt werden
+* En cas de tenue obligatoire du journal de bord
+* Accessible pendant une certaine période
+* En cas de journal de bord électronique, transfert possible avec le format de fichier ADIF
+* En cas de transfert du papier à l'électronique, le format papier doit être conservé
 
 ---
 
@@ -49,11 +49,11 @@ Es kann aber auch dazu kommen, dass man eine Aufforderung der Bundesnetzagentur 
 [question:BG103]
 
 ---
-## Koordinierte Weltzeit
+## Temps universel coordonné
 
-* Zeiten in UTC (Universal Time Coordinated) führen
-* Uhrzeiten über unterschiedliche Zeitzonen müssen nicht umgerechnet werden
-* Keine Probleme mit Sommer-/Winterzeit
-* Berlin zu Mitteleuropäischer Zeit (MEZ): UTC+1
-* Berlin zu Mitteleuropäischer Sommerzeit (MESZ): UTC+2
+* Les heures sont en UTC (Temps universel coordonné)
+* Les heures dans différentes zones horaires ne doivent pas être converties
+* Pas de problèmes avec l'heure d'été/hiver
+* Berlin en heure d'Europe centrale (HEC) : UTC+1
+* Berlin en heure d'été d'Europe centrale (HEC+1) : UTC+2
 

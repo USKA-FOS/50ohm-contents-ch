@@ -1,5 +1,5 @@
-Bei einem Basisspannungsteiler soll der Strom durch $R_2$ deutlich größer als der Basisstrom $I_B$ sein, typischerweise etwa um den Faktor 10.
+Dans un diviseur de tension de base, le courant à travers $R_2$ doit être nettement plus grand que le courant de base $I_B$, typiquement environ d'un facteur 10.
 
-Dadurch belastet der Basisstrom den Spannungsteiler nur wenig und die Basisspannung bleibt nahezu konstant. Der Arbeitspunkt des Transistors verändert sich dadurch deutlich weniger bei Änderungen der Stromverstärkung $B$ oder der Temperatur. So arbeitet die Verstärkerschaltung stabiler.
+Cela signifie que le courant de base ne charge que peu le diviseur de tension et la tension de base reste presque constante. Le point de fonctionnement du transistor change donc beaucoup moins en cas de variations de l'amplification $B$ ou de la température. Ainsi, le circuit amplificateur fonctionne de manière plus stable.
 
 

@@ -1,103 +1,103 @@
-In der Klasse E haben wir bereits die Grundlagen des Transformators kennengelernt. Er besteht aus zwei Spulen, die über einen Eisen- oder Ferritkern magnetisch gekoppelt sind. Damit die Seiten auseinandergehalten werden können, spricht man von Primärseite mit der Windungszahl $N_P$ und der Sekundärseite mit der Windungszahl $N_S$.
+En classe E, nous avons déjà appris les bases du transformateur. Il se compose de deux bobines couplées magnétiquement par un noyau de fer ou de ferrite. Afin de pouvoir distinguer les côtés, on parle de côté primaire avec le nombre de spires $N_P$ et de côté secondaire avec le nombre de spires $N_S$.
 
-Das Transformatorprinzip beruht auf einem grundlegenden physikalischen Effekt: der elektromagnetischen Induktion. Ändert sich das Magnetfeld in einer Spule – wie es beim Anlegen einer Wechselspannung der Fall ist – so wird in einer benachbarten, magnetisch gekoppelten Spule eine elektrische Spannung induziert. Diese ist gemäß dem Induktionsgesetz so gerichtet, dass sie der Ursache ihrer Entstehung entgegenwirkt. Man spricht daher auch von *Gegeninduktion*.
+Le principe du transformateur repose sur un effet physique fondamental : l'induction électromagnétique. Si le champ magnétique dans une bobine change – comme c'est le cas lors de l'application d'une tension alternative – une tension électrique est induite dans une bobine voisine, magnétiquement couplée. Celle-ci est, conformément à la loi d'induction, dirigée de manière à s'opposer à la cause de sa formation. On parle donc aussi d'*induction inverse*.
 
 [question:AC301]
 
-In der Klasse E haben wir bereits die Formel für das Übersetzungsverhältnis $ü$ kennengelernt:
+En classe E, nous avons déjà appris la formule pour le rapport de transformation $ü$:
 
 $ü = \frac{N_P}{N_S} = \frac{U_P}{U_S}$
 
-Für die Ströme gilt entsprechend umgekehrt:
+Pour les courants, il en va de même à l'inverse:
 
 $ü = \frac{N_P}{N_S} = \frac{I_S}{I_P} = \frac{U_P}{U_S}$
 
-Mit dieser Formel, die auch in der Formelsammlung zu finden ist, kann die nächste Frage gelöst werden:
+Avec cette formule, que l'on trouve également dans le recueil de formules, la question suivante peut être résolue:
 
 [question:AC302]
 
 ---
 
-Da stromführende Leitungen nicht übermäßig erwärmt werden dürfen, um Schäden an der Isolation oder sogar ein Glühen des Leiters zu vermeiden, darf eine bestimmte maximale Stromstärke in Abhängigkeit vom Leiterquerschnitt nicht überschritten werden. Setzt man die Stromstärke in Bezug zum Leiterquerschnitt in $\unit{\milli\meter\squared}$, so erhält man die sogenannte Stromdichte $S$. Für Transformatoren gilt nach den relevanten Normen, dass eine maximale Stromdichte von etwa $\qty{2,5}{\ampere\per\milli\meter\squared}$ nicht überschritten werden sollte.
+Comme les conducteurs parcourus par un courant ne doivent pas être chauffés de manière excessive pour éviter d'endommager l'isolation ou même de faire rougir le conducteur, une intensité de courant maximale ne doit pas être dépassée en fonction de la section transversale du conducteur. Si l'on met l'intensité du courant en relation avec la section transversale du conducteur en $\unit{\milli\meter\squared}$, on obtient la densité de courant $S$. Pour les transformateurs, selon les normes pertinentes, une densité de courant maximale d'environ $\qty{2,5}{\ampere\per\milli\meter\squared}$ ne doit pas être dépassée.
 
-Die Berechnungsformel lautet (siehe Formelsammlung -  Stichwort: Belastbarkeit von Wicklungen):
+La formule de calcul est (voir recueil de formules - mot-clé : capacité de charge des enroulements):
 
 $I = S \cdot A_\mathrm{Dr}$
 
 <unit>
-Stromdichte $S = \frac{I}{A} $ in  $\unit{\ampere\per\milli\meter\squared}$
+Densité de courant $S = \frac{I}{A} $ en  $\unit{\ampere\per\milli\meter\squared}$
 </unit>
 
 <indepth>
-Nach VDE ist für frei verlegte Leiter aus Kupfer die maximal zulässige Stromstärke mit $\qty{12}{\ampere}$ bei einer Querschnittsfläche von $\qty{0,75}{\milli\meter\squared}$ festgelegt. Bei Schmelzsicherungen kann die Stromdichte bis zu $\qty{3000}{\ampere\per\milli\meter\squared}$ erreichen.
+Selon la VDE, l'intensité de courant maximale admissible pour les conducteurs en cuivre posés librement est fixée à $\qty{12}{\ampere}$ pour une surface de section transversale de $\qty{0,75}{\milli\meter\squared}$. Dans le cas des fusibles, la densité de courant peut atteindre jusqu'à $\qty{3000}{\ampere\per\milli\meter\squared}$.
 </indepth>
 
-Versuche nun die folgende Frage zu beantworten. Dafür brauchst du die Formel für die Querschnittsfläche eines Leiters und die Formel für die Belastbarkeit von Wicklungen. Achte darauf, dass die Einheiten korrekt umgerechnet werden.
+Essaie maintenant de répondre à la question suivante. Pour cela, tu as besoin de la formule pour la surface de section transversale d'un conducteur et de la formule pour la capacité de charge des enroulements. Fais attention à ce que les unités soient correctement converties.
 
 [question:AC307]
 
 ---
 
-Eines der wichtigsten Anwendungsgebiete von Transformatoren in der Hochfrequenztechnik ist die **Impedanzanpassung**. Hierbei werden Transformatoren als sogenannte Anpassungsübertrager eingesetzt.
+L'un des domaines d'application les plus importants des transformateurs dans la technique des hautes fréquences est l'**adaptation d'impédance**. Dans ce cas, les transformateurs sont utilisés comme des transformateurs d'adaptation.
 
-Im Gegensatz zu Netztransformatoren besteht der Kern solcher Übertrager meist nicht aus massivem Eisen, sondern aus gepresstem Eisenpulver oder Ferrit. Diese Materialien sind für hohe Frequenzen besser geeignet und reduzieren Verluste.
+Contrairement aux transformateurs de réseau, le noyau de ces transformateurs est généralement constitué non pas de fer massif, mais de poudre de fer pressée ou de ferrite. Ces matériaux sont mieux adaptés aux hautes fréquences et réduisent les pertes.
 
 <indepth>
-Unter *Anpassung* versteht man, dass die Impedanz einer Quelle (z. B. eines Senders) möglichst genau an die Impedanz der Last (z. B. einer Antenne) angepasst wird. Nur bei guter Anpassung kann die Leistung optimal übertragen werden, ohne dass ein Teil der Energie reflektiert wird.
+Par *adaptation*, on entend que l'impédance d'une source (par exemple un émetteur) est adaptée le plus précisément possible à l'impédance de la charge (par exemple une antenne). Ce n'est que dans le cas d'une bonne adaptation que la puissance peut être transmise de manière optimale, sans qu'une partie de l'énergie soit réfléchie.
 </indepth>
 
-Ein Anpassungsübertrager hat daher die Aufgabe, eine gegebene Impedanz in eine andere umzuwandeln, sodass Quelle und Last möglichst gut zueinander passen.
+Un transformateur d'adaptation a donc pour tâche de transformer une impédance donnée en une autre, de sorte que la source et la charge soient le mieux possible adaptées l'une à l'autre.
 
 ---
 
-In der Formelsammlung finden wir die Formel für das Übersetzungsverhältnis $ü$:
+Dans le recueil de formules, nous trouvons la formule pour le rapport de transformation $ü$:
 
 $ü = \sqrt{\frac{Z_p}{Z_s}} = \frac{N_p}{N_s} = \frac{U_p}{U_s}$
 
-Quadriert man die Seiten der Gleichung ergibt sich: 
+Si l'on élève les côtés de l'équation au carré, on obtient: 
 
 
 $ü^2 = \frac {Z_p}{Z_s} = \left(\frac{N_p}{N_s}\right)^2 = \left(\frac{U_p}{U_s}\right)^2$
 
-Daran erkennt man, dass das Impedanzverhältnis ist das Quadrat des Spannungsverhältnisses und damit auch das Quadrat des Windungszahlenverhältnisses. Oder anders herum gesagt, ein bestimmtes Windungsverhältnis führt zu einem quadratisch höheren Impedanzverhältnis.
+On voit ainsi que le rapport d'impédance est le carré du rapport de tension et donc aussi le carré du rapport des nombres de spires. Ou, dit autrement, un certain rapport de spires conduit à un rapport d'impédance carrément plus élevé.
 
 <indepth>
-Herleitung der Formel zur Impedanzübertragung:
+Démonstration de la formule pour la transmission d'impédance:
 $ P_p = P_s$
 $U_p \cdot I_p = U_s \cdot I_s$
-Für $U$ das Ohmsche Gesetz einsetzen: $U = I \cdot R$;
-$R$ wird durch $Z$ ersetzt
+Pour $U$ insérer la loi d'Ohm: $U = I \cdot R$;
+$R$ est remplacé par $Z$
 $(I_p \cdot Z_p) \cdot I_p = (I_s \cdot Z_s) \cdot I_s$
-Das Impedanzverhältnis auf einer Seite bilden:
+Former le rapport d'impédance d'un côté:
 $ \frac{Z_p}{Z_s} = \frac{{I_s}^2}{{I_p}^2} = ü^2$
-Alternativ für $I$ das Ohmsche Gesetz einsetzen:
+Alternativement pour $I$ insérer la loi d'Ohm:
 $I = \frac{U}{R}$
-$R$ wird durch $Z$ ersetzt
+$R$ est remplacé par $Z$
 $\frac{U_p}{Z_p} \cdot U_p  = \frac{U_s}{Z_s} \cdot U_s$
-Das Impedanzverhältnis auf einer Seite bilden:
+Former le rapport d'impédance d'un côté:
 $ \frac{Z_p}{Z_s} = \frac{{U_p}^2}{{U_s}^2} = ü^2$
 </indepth>
 
 ---
 
-Als Beispiel betrachten wir eine endgespeiste Antenne, die wir in einem späteren Kapitel noch genauer untersuchen werden. Deren Eingangsimpedanz beträgt etwa $\qty{2450}{\ohm}$ und ist damit deutlich hochohmig. Sie soll an einen Sender mit einer Lastimpedanz von $\qty{50}{\ohm}$ angepasst werden.
+Prenons comme exemple une antenne alimentée en bout, que nous examinerons plus en détail dans un chapitre ultérieur. Son impédance d'entrée est d'environ $\qty{2450}{\ohm}$ et est donc nettement haute impédance. Elle doit être adaptée à un émetteur avec une impédance de charge de $\qty{50}{\ohm}$.
 
 <margin>
-[picture:260:a_endgespeiste_antenne:Endgespeiste Antenne mit Impedanzanpassung druch einen Übertrager]
+[picture:260:a_endgespeiste_antenne:Antenne alimentée en bout avec adaptation d'impédance par un transformateur]
 </margin>
 
-Für die Impedanzübertragung von $\qty{50}{\ohm}$ auf $\qty{2450}{\ohm}$ ist das Verhältnis $Z_p:Z_s = \qty{50}{\ohm}:\qty{2450}{\ohm} = 1:49$. Das bedeutet $ü^2 = 1:49$ und damit $ü=\sqrt{1}:\sqrt{49}=1:7$. Das bedeutet, dass die Primärseite nur ein Siebtel der Windungen der Sekundärseite haben darf, damit die Impedanzanpassung gelingt, z.B. $N_p=1$ und $N_s=7$. In der Praxis wird üblicherweise ein Windungsverhältnis von $2:14$ verwendet (vgl. Abbildung [ref:a_unun]).
+Pour la transmission d'impédance de $\qty{50}{\ohm}$ à $\qty{2450}{\ohm}$, le rapport $Z_p:Z_s = \qty{50}{\ohm}:\qty{2450}{\ohm} = 1:49$. Cela signifie que $ü^2 = 1:49$ et donc $ü=\sqrt{1}:\sqrt{49}=1:7$. Cela signifie que le côté primaire ne doit avoir qu'un septième du nombre de spires du côté secondaire pour que l'adaptation d'impédance réussisse, par exemple $N_p=1$ et $N_s=7$. En pratique, on utilise généralement un rapport de spires de $2:14$ (cf. figure [ref:a_unun]).
 
 <margin>
-[photo:332:a_unun:Beispiel für einen Unun-Übertrager mit einem Windungsverhältnis von 2 zu 14, wobei die Primärseite und Sekundärseite zusammen bifilar (verdrillt) gewickelt sind]
+[photo:332:a_unun:Exemple d'un transformateur Unun avec un rapport de spires de 2 à 14, le côté primaire et le côté secondaire étant ensemble bobinés de manière bifilaire (torsadés)]
 </margin>
 
-Die folgende Aufgabe entspricht im Wesentlichen dem zuvor betrachteten Beispiel. Für einen endgespeisten Dipol wird hier eine Eingangsimpedanz von etwa $\qty{2,5}{\kilo\ohm}$ angegeben. In der Praxis schwankt dieser Wert jedoch, abhängig von Umgebung und Aufbau, typischerweise im Bereich von etwa $\qty{2}{\kilo\ohm}$ bis $\qty{3}{\kilo\ohm}$. 
-Mit einem Windungsverhältnis von etwa $1:7$ lässt sich dennoch in der Regel eine ausreichend gute Anpassung an $\qty{50}{\ohm}$ erreichen.
+La tâche suivante correspond essentiellement à l'exemple examiné précédemment. Pour un dipôle alimenté en bout, une impédance d'entrée d'environ $\qty{2,5}{\kilo\ohm}$ est indiquée ici. En pratique, cette valeur varie cependant, en fonction de l'environnement et de la structure, typiquement dans la plage d'environ $\qty{2}{\kilo\ohm}$ à $\qty{3}{\kilo\ohm}$. 
+Avec un rapport de spires d'environ $1:7$, une adaptation suffisante à $\qty{50}{\ohm}$ peut néanmoins être réalisée dans la plupart des cas.
 
 [question:AC306]
 
-Versuche nun, die folgenden Fragen selbständig mit deinem Wissen zu lösen.
+Essaie maintenant de résoudre les questions suivantes par toi-même avec tes connaissances.
 
 [question:AC305]
 [question:AC303]

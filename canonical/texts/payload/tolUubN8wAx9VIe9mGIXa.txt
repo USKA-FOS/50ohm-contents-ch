@@ -1,7 +1,5 @@
-Energie hat die Einheit $\unit{\joule}$ (für Joule).  
-Ein Joule ($\qty{1}{\joule}$) entspricht einem Watt ($\qty{1}{\watt}$), das über eine Dauer von einer Sekunde ($\qty{1}{\second}$) wirkt: $\qty{1}{\joule} = \qty{1}{\watt\second}$.  
-Damit entspricht $\qty{1}{\watt\hour} = \qty{3600}{\joule}$.
+L'énergie a pour unité le joule (pour Joule). Un joule (1 J) correspond à un watt (1 W) qui agit pendant une durée d'une seconde (1 s) : 1 J = 1 Ws. Ainsi, 1 Wh = 3600 J.
 
-Tipp: An die Stromrechnung denken, dort wird der Stromverbrauch üblicherweise auch in kWh angegeben ($\qty{1}{\kilo\watt\hour} = \qty{1000\cdot3600}{\joule}$).  
+Astuce : Pensez à la facture d'électricité, où la consommation d'électricité est généralement indiquée en kWh (1 kWh = 1000 × 3600 J).
 
-Ausschlussverfahren: Volt ist eine Spannung, Watt ist eine Leistung (also Energie pro Zeit).
+Méthode d'exclusion : Le volt est une tension, le watt est une puissance (donc une énergie par unité de temps).

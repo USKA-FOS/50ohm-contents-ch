@@ -1,35 +1,35 @@
 ---
-## Dummy-Load im HF-Bereich
+## Charge fictive dans la gamme HF
 
 <left>
-[picture:47:a_dummy_load:Dummy-Load aus mehreren Widerstandsketten]
+[picture:47:a_dummy_load:Charge fictive composée de plusieurs chaînes de résistances]
 </left>
 <right>
-* Besteht oft aus mehreren Teilwiderständen für bessere Kühlung und Belastbarkeit
-* Widerstände können parallel, in Reihe oder kombiniert geschaltet werden
+* Se compose souvent de plusieurs résistances partielles pour une meilleure dissipation thermique et une capacité de charge
+* Les résistances peuvent être connectées en parallèle, en série ou combinées
 </right>
 ---
 
-* Identische Widerstandswerte sorgen für gleichmäßige Verteilung der Verlustleistung
-* Berechnung erfolgt nach dem Ohmschen Gesetz und den Regeln für Reihen- und Parallelschaltungen
+* Des valeurs de résistance identiques assurent une répartition uniforme de la puissance dissipée
+* Le calcul se fait selon la loi d'Ohm et les règles pour les circuits en série et en parallèle
 
 ---
 [question:AI601]
 
 --- style="font-size: smaller;"
-#### Lösungsweg
+#### Solution
 <left>
-* gegeben: $R = \qty{150}{\ohm}$
-* gegeben: $R_S = 4\cdot \qty{150}{\ohm} = \qty{600}{\ohm}$
+* donné : $R = \qty{150}{\ohm}$
+* donné : $R_S = 4\cdot \qty{150}{\ohm} = \qty{600}{\ohm}$
 </left>
 <right>
-* gegeben: $R_{ges} = \qty{50}{\ohm}$
-* gegeben: $P_R = \qty{1}{\watt}$
-* gesucht: $n$ Widerstände, $P$
+* donné : $R_{ges} = \qty{50}{\ohm}$
+* donné : $P_R = \qty{1}{\watt}$
+* recherché : $n$ résistances, $P$
 </right>
 
 <fragment>
-Reihen mit je 4 Widerständen:
+Lignes avec 4 résistances chacune :
 $\frac{1}{R_{ges}} = n_S \cdot \frac{1}{R_S} \Rightarrow n_S = \frac{R_S}{R_{ges}} = \frac{\qty{600}{\ohm}}{\qty{50}{\ohm}} = 12$
 $n = 4 \cdot n_S = 4 \cdot 12 = 48$ 
 </fragment>
@@ -38,20 +38,20 @@ $P = n \cdot P_R = 48 \cdot \qty{1}{\watt} = \qty{48}{\watt}$
 </fragment>
 
 ---
-### Dummy-Load mit Messausgang
+### Charge fictive avec sortie de mesure
 
-* Kann zur indirekten Messung der Ausgangsleistung eines Senders verwendet werden
-* Spitzenwertgleichrichter wandelt HF-Spannung in Gleichspannung um
+* Peut être utilisée pour la mesure indirecte de la puissance de sortie d'un émetteur
+* Le redresseur de valeur de crête convertit la tension HF en tension continue
 
 ---
 [question:AI602]
 
 ---
-### Messung der HF-Ausgangsleistung über Spannungsteiler
+### Mesure de la puissance de sortie HF via un diviseur de tension
 
-* Dummy-Load mit Anzapfung ermöglicht grobe Leistungsbestimmung
-* HF-Teilspannung wird über Spannungsteiler-Verhältnis berechnet
-* Messung mit HF-Tastkopf und Multimeter möglich
+* Charge fictive avec prise intermédiaire permet une détermination approximative de la puissance
+* La tension partielle HF est calculée via le rapport du diviseur de tension
+* Mesure possible avec une sonde HF et un multimètre
 
 ---
 [question:AI603]

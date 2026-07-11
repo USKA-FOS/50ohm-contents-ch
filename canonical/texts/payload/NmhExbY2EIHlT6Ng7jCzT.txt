@@ -3,21 +3,21 @@
     <script src="https://www.50ohm.de/assets/chartjs/4.4.1/chart.min.js"></script>
 
     <p>
-    Durch Druck auf den Button "Mikrofon einschalten", wird das Mikrofon des Browsers
-    aktiviert. Danach kann man das Spektrum der eigenen Sprache betrachten. Durch Druck auf den Button "Mikrofon ausschalten", wird das Mikrofon des Browsers
-    deaktiviert.
+    En appuyant sur le bouton "Activer le microphone", le microphone du navigateur
+    est activé. Ensuite, vous pouvez examiner le spectre de votre propre voix. En appuyant sur le bouton "Désactiver le microphone", le microphone du navigateur
+    est désactivé.
     </p>
 
     <p>
-        <button onclick="start()">Mikrofon Einschalten</button>
-        <button onclick="stop()">Mikrofon Ausschalten</button>
+        <button onclick="start()">Activer le microphone</button>
+        <button onclick="stop()">Désactiver le microphone</button>
     </p>
 
     <p>
         <canvas id="Spectrum" style="max-height:200px;"></canvas>
     </p>
 
-    Stärkste Amplitude bei der Frequenz f = 
+    Amplitude la plus forte à la fréquence f = 
     <div id="mainfrequency" style="display:inline-block;">0</div> Hz<br>
 
     <script type="text/javascript">

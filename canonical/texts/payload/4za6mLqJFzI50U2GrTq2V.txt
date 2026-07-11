@@ -1,19 +1,19 @@
-Gegeben: 
+Données : 
 
-* Sprachsignal mit $f_\text{max}=\qty{4}{\kilo\hertz}$ Bandbreite
+* Signal vocal avec $f_\text{max}=\qty{4}{\kilo\hertz}$ de bande passante
 
-Gesucht: 
+Recherché : 
 
-* Abtastrate $f_\text{s}$
+* Fréquence d'échantillonnage $f_\text{s}$
 
-Lösung:
+Solution:
 
-Damit eine fehlerfreie Abtastung möglich ist, muss die Nyquist-Bedingung erfüllt werden: 
+Pour qu'un échantillonnage sans erreur soit possible, la condition de Nyquist doit être remplie : 
 
  $f_\text{s} > 2 \cdot f_\text{max}$
 
-Wir setzen ein: 
+Nous insérons : 
 
 $\begin{split} f_\text{s} &> 2 \cdot f_\text{max}\\ &> 2 \cdot \qty{4000}{\hertz}\\ &> \qty{8000}{\hertz} \end{split}$
 
-Damit bleibt nur die Lösung $\qty{9600}{\sps}$ übrig, da nur dieser Wert größer als $\qty{8000}{\hertz}$ ist. 
+Ainsi, seule la solution $\qty{9600}{\sps}$ reste, car seule cette valeur est supérieure à $\qty{8000}{\hertz}$.
