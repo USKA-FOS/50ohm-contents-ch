@@ -65,4 +65,4 @@ Einige weitere Dezibelwerte lassen sich mit nachfolgender Tabelle auch ganz ohne
 
 [question:EA107]
 
-Neben der Einheit $\unit{dB}$ begegnet man in der Praxis häufig auch Angaben wie $\unit{\dBi}$, $\unit{\dBm}$, $\unit{\dBW}$ oder $\unit{\dBu}$. Diese Zusätze geben an, auf welche Bezugsgröße sich der jeweilige Dezibelwert bezieht. In der Klasse E werden uns insbesondere bei Antennen die Angaben $\unit{\dBi}$ und $\unit{\dBd}$ im Antennenkapitel begegnen. Die anderen Größen wie $\unit{\dBm}$ und $\unit{\dBW}$ werden erst für die Klasse A benötigt.
+Neben der Einheit $\unit{dB}$ begegnet man in der Praxis häufig auch Angaben wie $\unit{\dBi}$, $\unit{\dBm}$, $\unit{\dBW}$ oder $\unit{\dBu}$. Diese Zusätze geben an, auf welche Bezugsgröße sich der jeweilige Dezibelwert bezieht. Insbesondere bei Antennen werden uns die Angaben $\unit{\dBi}$ und $\unit{\dBd}$ im Antennenkapitel begegnen. Die anderen Größen wie $\unit{\dBm}$ und $\unit{\dBW}$ werden erst im Kurs für HB9 benötigt.
