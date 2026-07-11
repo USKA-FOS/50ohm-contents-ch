@@ -56,6 +56,13 @@ Für die Klasse E ist es zunächst ausreichend, den Dezibelwert für den Leistun
 Ganz ohne Taschenrechner lassen sich Dezibelwerte abschätzen, die auf "$0$" enden: Einfach die letzte Null zuhalten, die Ziffer gibt dann die Anzahl der Nullen des Verhältnisfaktors an. Beispiel: $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{Nullen} \rightarrow \text{Verhältnisfaktor}~1000$!
 </tip>
 
+<indepth>
+Einige weitere Dezibelwerte lassen sich mit nachfolgender Tabelle auch ganz ohne Taschenrechner abschätzen:
+  
+  TODO ARK
+  
+</indepth>
+
 [question:EA107]
 
 Neben der Einheit $\unit{dB}$ begegnet man in der Praxis häufig auch Angaben wie $\unit{\dBi}$, $\unit{\dBm}$, $\unit{\dBW}$ oder $\unit{\dBu}$. Diese Zusätze geben an, auf welche Bezugsgröße sich der jeweilige Dezibelwert bezieht. In der Klasse E werden uns insbesondere bei Antennen die Angaben $\unit{\dBi}$ und $\unit{\dBd}$ im Antennenkapitel begegnen. Die anderen Größen wie $\unit{\dBm}$ und $\unit{\dBW}$ werden erst für die Klasse A benötigt.
