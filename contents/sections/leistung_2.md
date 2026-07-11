@@ -1,4 +1,4 @@
-In der Klasse N haben wir den Leistungsbegriff bereits als Produkt aus Strom und Spannung ($P = U \cdot I$) kennengelernt. In der Klasse E vertiefen wir dieses Thema weiter, indem wir uns unter anderem mit dem Umstellen von Formeln befassen.
+Wir haben den Leistungsbegriff bereits als Produkt aus Strom und Spannung ($P = U \cdot I$) kennengelernt. Hier vertiefen wir dieses Thema weiter, indem wir uns unter anderem mit dem Umstellen von Formeln befassen.
 
 ---
 
@@ -11,7 +11,7 @@ Dazu betrachten wir die Schaltung in Abbildung [ref:e_leistung_r]. Sie zeigt, wi
 ---
 
 <tip>
-Die hergeleiteten Formeln sind auch übersichtlich in der [Formelsammlung](https://50ohm.de/hm) zu finden. 
+Die hergeleiteten Formeln sind auch übersichtlich in der [Formelsammlung des BAKOM](https://www.bakom.admin.ch/dam/de/sd-web/ooOLDCmCmEmX/formelsammlung.pdf) zu finden. 
 </tip>
   
 Zunächst stellen wir dazu die Gleichung des ohmschen Gesetzes nach dem Strom um:
