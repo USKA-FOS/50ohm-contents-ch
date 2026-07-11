@@ -1,0 +1,24 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[include:sprungdistanz_applet]",
+    "relation_type": "includes_object",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "include_key",
+    "target_id_value": "sprungdistanz_applet",
+    "target_object_type": "html_include"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EH208]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EH208",
+    "target_object_type": "question"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG428]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG428",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_mantelwellen_spannungsbalun",
+    "inline_label": "Aufbau eines Spannungbaluns",
+    "raw_marker": "[picture:447:a_mantelwellen_spannungsbalun:Aufbau eines Spannungbaluns]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "447",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG421]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG421",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG427]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG427",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AJ115]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AJ115",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG422]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG422",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG429]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG429",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG425]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG425",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_mantelwellen_spannungsbalun",
+    "inline_label": "Aufbau eines Spannungbaluns",
+    "raw_marker": "[picture:447:a_mantelwellen_spannungsbalun:Aufbau eines Spannungbaluns]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "447",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG426]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG426",
+    "target_object_type": "question"
+  }
+]

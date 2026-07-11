@@ -1,0 +1,46 @@
+[
+  {
+    "inline_alias": "n_antennenformen_schaltbild_endfed",
+    "inline_label": null,
+    "raw_marker": "[ref:n_antennenformen_schaltbild_endfed]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_antennenformen_schaltbild_endfed",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NG107]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NG107",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NG109]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NG109",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_antennenformen_schaltbild_endfed",
+    "inline_label": "Schaltbild einer endgespeisten Antenne",
+    "raw_marker": "[picture:615:n_antennenformen_schaltbild_endfed:Schaltbild einer endgespeisten Antenne]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "615",
+    "target_object_type": "drawing"
+  }
+]

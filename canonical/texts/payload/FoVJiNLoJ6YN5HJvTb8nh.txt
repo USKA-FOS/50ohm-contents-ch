@@ -1,9 +1,0 @@
-Un convertisseur de bloc à faible bruit (LNB) est souvent utilisé lors du traitement de fréquences élevées dans la gamme des $\unit{\giga\hertz}$ pour les communications radioamateurs par satellite. Dans ce cas, la très haute fréquence de réception, généralement reçue par un réflecteur satellite, est déjà mélangée à une fréquence beaucoup plus basse directement dans le LNB pour éviter les pertes de câble élevées qui se produiraient à des fréquences élevées.
-
-[question:AF230]
-
-Un LNB est un composant actif qui nécessite une alimentation électrique. Celle-ci est généralement fournie directement par le câble coaxial menant au LNB. Pour ce faire, un Bias-T est installé dans le point de réception dans le câble coaxial. Sa fonction est d'alimenter le LNB en tension continue et de séparer la tension continue du signal HF dans le trajet du signal vers le récepteur.
-Un LNB peut recevoir des signaux polarisés horizontalement ou verticalement. La commutation entre les deux directions de polarisation s'effectue ici par le niveau de la tension de service avec laquelle le LNB est alimenté. Les valeurs habituelles sont par exemple $\qty{12}{\volt}$ et $\qty{18}{\volt}$.
-
-[question:AF231]
-

@@ -1,0 +1,90 @@
+[
+  {
+    "inline_alias": "e_einweggleichrichter_ul",
+    "inline_label": "Lastspannung Einweggleichrichter",
+    "raw_marker": "[picture:796:e_einweggleichrichter_ul:Lastspannung Einweggleichrichter]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "796",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "e_einweggleichrichter_ue",
+    "inline_label": null,
+    "raw_marker": "[ref:e_einweggleichrichter_ue]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_einweggleichrichter_ue",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_halbleiter_diode_merkhilfe",
+    "inline_label": "Merkhilfe Diode",
+    "raw_marker": "[picture:666:n_halbleiter_diode_merkhilfe:Merkhilfe Diode]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "666",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ED304]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ED304",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_einweggleichrichter",
+    "inline_label": null,
+    "raw_marker": "[ref:e_einweggleichrichter]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_einweggleichrichter",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "e_einweggleichrichter_ul",
+    "inline_label": null,
+    "raw_marker": "[ref:e_einweggleichrichter_ul]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_einweggleichrichter_ul",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "e_einweggleichrichter_ue",
+    "inline_label": "Eingangsspannung Einweggleichrichter",
+    "raw_marker": "[picture:798:e_einweggleichrichter_ue:Eingangsspannung Einweggleichrichter]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "798",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "e_einweggleichrichter",
+    "inline_label": "Einweggleichrichter",
+    "raw_marker": "[picture:797:e_einweggleichrichter:Einweggleichrichter]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "797",
+    "target_object_type": "drawing"
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "inline_alias": "n_sprachspektrum",
+    "inline_label": "Menschliche Sprache im Amplitudenspektrum, links die tiefen und rechts die hohen Töne",
+    "raw_marker": "[picture:742:n_sprachspektrum:Menschliche Sprache im Amplitudenspektrum, links die tiefen und rechts die hohen Töne]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "742",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "n_sprachspektrum_symbolisch",
+    "inline_label": null,
+    "raw_marker": "[ref:n_sprachspektrum_symbolisch]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_sprachspektrum_symbolisch",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_sprachspektrum",
+    "inline_label": null,
+    "raw_marker": "[ref:n_sprachspektrum]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_sprachspektrum",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[include:spektrum_sprachsignale]",
+    "relation_type": "includes_object",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "include_key",
+    "target_id_value": "spektrum_sprachsignale",
+    "target_object_type": "html_include"
+  },
+  {
+    "inline_alias": "n_sprachspektrum_beispiel",
+    "inline_label": "Beispiel für ein Audiospektrums",
+    "raw_marker": "[picture:475:n_sprachspektrum_beispiel:Beispiel für ein Audiospektrums]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "475",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "n_sprachspektrum_symbolisch",
+    "inline_label": "Symbolische Darstellung des Audiospektrums",
+    "raw_marker": "[picture:730:n_sprachspektrum_symbolisch:Symbolische Darstellung des Audiospektrums]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "730",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "n_sprachspektrum_beispiel",
+    "inline_label": null,
+    "raw_marker": "[ref:n_sprachspektrum_beispiel]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_sprachspektrum_beispiel",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_sprachspektrum_beispiel",
+    "inline_label": null,
+    "raw_marker": "[ref:n_sprachspektrum_beispiel]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_sprachspektrum_beispiel",
+    "target_object_type": null
+  }
+]

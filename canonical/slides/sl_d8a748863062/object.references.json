@@ -1,0 +1,156 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ED107]",
+    "relation_type": "references_question",
+    "sort_order": 14,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ED107",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ED110]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ED110",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_gemischte_schaltung_2",
+    "inline_label": "Gemischte Schaltung - Variante 2",
+    "raw_marker": "[picture:814:e_gemischte_schaltung_2:Gemischte Schaltung - Variante 2]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "814",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ED106]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ED106",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ED111]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ED111",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ED105]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ED105",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_gemischte_schaltung_1",
+    "inline_label": "Gemischte Schaltung - Variante 1",
+    "raw_marker": "[picture:813:e_gemischte_schaltung_1:Gemischte Schaltung - Variante 1]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "813",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ED104]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ED104",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ED109]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ED109",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ED108]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ED108",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ED113]",
+    "relation_type": "references_question",
+    "sort_order": 13,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ED113",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ED112]",
+    "relation_type": "references_question",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ED112",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_reihenschaltung_von_r",
+    "inline_label": "Reihenschaltung von 3 Widerständen",
+    "raw_marker": "[picture:812:e_reihenschaltung_von_r:Reihenschaltung von 3 Widerständen]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "812",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "e_parallelschaltung_von_r",
+    "inline_label": "Parallelschaltung von 3 Widerständen",
+    "raw_marker": "[picture:811:e_parallelschaltung_von_r:Parallelschaltung von 3 Widerständen]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "811",
+    "target_object_type": "drawing"
+  }
+]

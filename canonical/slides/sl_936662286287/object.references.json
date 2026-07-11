@@ -1,0 +1,46 @@
+[
+  {
+    "inline_alias": "n_exterritoriale_stationen_neumeyer_station",
+    "inline_label": "Auf der Polarforschungsstation Neumayer III befindet sich die Amateurfunkstation DP0GVN.",
+    "raw_marker": "[photo:126:n_exterritoriale_stationen_neumeyer_station:Auf der Polarforschungsstation Neumayer III befindet sich die Amateurfunkstation DP0GVN.]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "126",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BD107]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BD107",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_exterritoriale_stationen_polarstern",
+    "inline_label": "Die Amateurfunkstation an Bord des Forschungsschiff Polarstern verwendet das Rufzeichen DP0POL.",
+    "raw_marker": "[photo:125:n_exterritoriale_stationen_polarstern:Die Amateurfunkstation an Bord des Forschungsschiff Polarstern verwendet das Rufzeichen DP0POL.]",
+    "relation_type": "embeds_photo",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "125",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BD108]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BD108",
+    "target_object_type": "question"
+  }
+]

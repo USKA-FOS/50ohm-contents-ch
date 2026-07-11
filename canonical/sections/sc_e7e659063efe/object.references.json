@@ -1,0 +1,79 @@
+[
+  {
+    "inline_alias": "n_spannung_einheitenvorzeichen",
+    "inline_label": null,
+    "raw_marker": "[ref:n_spannung_einheitenvorzeichen]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_spannung_einheitenvorzeichen",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "spannung_beispiele",
+    "inline_label": "Beispiele für Spannungen",
+    "raw_marker": "[table:spannung_beispiele:Beispiele für Spannungen]",
+    "relation_type": "embeds_table",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "spannung_beispiele",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": "n_spannung_einheitenvorzeichen",
+    "inline_label": "Kurzschreibweise für große Spannungen",
+    "raw_marker": "[table:n_spannung_einheitenvorzeichen:Kurzschreibweise für große Spannungen]",
+    "relation_type": "embeds_table",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "n_spannung_einheitenvorzeichen",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": "n_spannung_einheitenvorzeichen_2",
+    "inline_label": null,
+    "raw_marker": "[ref:n_spannung_einheitenvorzeichen_2]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_spannung_einheitenvorzeichen_2",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NA208]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NA208",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_spannung_einheitenvorzeichen_2",
+    "inline_label": "Kurzschreibweisen für kleine Spannungen",
+    "raw_marker": "[table:n_spannung_einheitenvorzeichen_2:Kurzschreibweisen für kleine Spannungen]",
+    "relation_type": "embeds_table",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "n_spannung_einheitenvorzeichen_2",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NA201]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NA201",
+    "target_object_type": "question"
+  }
+]

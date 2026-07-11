@@ -1,0 +1,68 @@
+[
+  {
+    "inline_alias": "Solarmodul mit Zellen",
+    "inline_label": "Solarzellenverbund in einem Solarmodul",
+    "raw_marker": "[picture:949:Solarmodul mit Zellen:Solarzellenverbund in einem Solarmodul]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "949",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_photoelement",
+    "inline_label": "Schaltzeichen Photoelement (Solarzelle)",
+    "raw_marker": "[picture:938:a_photoelement:Schaltzeichen Photoelement (Solarzelle)]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "938",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB212]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB212",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "monokristalline Silizium Solarzelle",
+    "inline_label": "Aufbau einer monokristallinen Silizium Solarzelle",
+    "raw_marker": "[picture:958:monokristalline Silizium Solarzelle:Aufbau einer monokristallinen Silizium Solarzelle]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "958",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_solarzelle",
+    "inline_label": "Kenngrößen von Solarzellen",
+    "raw_marker": "[table:a_solarzelle:Kenngrößen von Solarzellen]",
+    "relation_type": "embeds_table",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "a_solarzelle",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD301]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD301",
+    "target_object_type": "question"
+  }
+]

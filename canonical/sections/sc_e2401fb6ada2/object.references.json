@@ -1,0 +1,200 @@
+[
+  {
+    "inline_alias": "n_feinsicherungen",
+    "inline_label": "Feinsicherungen",
+    "raw_marker": "[photo:88:n_feinsicherungen:Feinsicherungen]",
+    "relation_type": "embeds_photo",
+    "sort_order": 14,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "88",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ND106]",
+    "relation_type": "references_question",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ND106",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NK305]",
+    "relation_type": "references_question",
+    "sort_order": 18,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NK305",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ND108]",
+    "relation_type": "references_question",
+    "sort_order": 17,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ND108",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_schutzkontakt",
+    "inline_label": null,
+    "raw_marker": "[ref:n_schutzkontakt]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_schutzkontakt",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ND109]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ND109",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ND105]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ND105",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ND102]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ND102",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ND103]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ND103",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_feinsicherung",
+    "inline_label": null,
+    "raw_marker": "[ref:n_feinsicherung]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 15,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_feinsicherung",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_netzgeraet",
+    "inline_label": "Netzgerät",
+    "raw_marker": "[picture:740:n_netzgeraet:Netzgerät]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "740",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ND107]",
+    "relation_type": "references_question",
+    "sort_order": 13,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ND107",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_Netzgeraet_TRX",
+    "inline_label": "Anschluss von Netzgerät und TRX",
+    "raw_marker": "[picture:680:n_Netzgeraet_TRX:Anschluss von Netzgerät und TRX]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "680",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ND101]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ND101",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_schutzkontakt",
+    "inline_label": "Schutzkontakt an einer Steckdose und Schukostecker",
+    "raw_marker": "[photo:86:n_schutzkontakt:Schutzkontakt an einer Steckdose und Schukostecker]",
+    "relation_type": "embeds_photo",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "86",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ND104]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ND104",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_schutzkontakt",
+    "inline_label": null,
+    "raw_marker": "[ref:n_schutzkontakt]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_schutzkontakt",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_feinsicherung",
+    "inline_label": "Kenngrößen von Feinsicherungen, Abschaltzeit bei zehnfachem Nennstrom",
+    "raw_marker": "[table:n_feinsicherung:Kenngrößen von Feinsicherungen, Abschaltzeit bei zehnfachem Nennstrom]",
+    "relation_type": "embeds_table",
+    "sort_order": 16,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "n_feinsicherung",
+    "target_object_type": "table_object"
+  }
+]

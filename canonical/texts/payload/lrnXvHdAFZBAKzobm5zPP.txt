@@ -1,8 +1,0 @@
-La sélectivité d'un récepteur est déterminée par la bande passante des filtres dans sa partie ZF. La bande passante de ces filtres doit toujours être adaptée au type de modulation à recevoir. Pour la réception de signaux vocaux SSB, par exemple, une bande passante de filtre d'environ $\qty{2,7}{\kilo\hertz}$ est utilisée. Les signaux CW ainsi que RTTY peuvent être reçus avec des bandes passantes de filtre de $\qty{500}{\hertz}$, afin que ceux-ci puissent être bien distingués des autres signaux adjacents. Les signaux FM nécessitent une bande passante nettement plus grande d'environ $\qty{12}{\kilo\hertz}$.
-
-Les filtres et leurs bandes passantes ainsi que leur pente peuvent être réalisés techniquement par différents concepts. Les filtres les plus à pente raide et à bande étroite sont les filtres à quartz, suivis des filtres en céramique. Les filtres LC ont des bandes passantes plus larges et ne sont pas aussi à pente raide, les filtres RC ne sont normalement pas utilisés dans la plage HF des récepteurs.
-
-[question:AF208]
-[question:AF206]
-[question:AF205]
-[question:AF207]

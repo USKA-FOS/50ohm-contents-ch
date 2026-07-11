@@ -1,0 +1,51 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "sp_74e30e01136e",
+  "identifiers": [
+    {
+      "id_system": "file_stem",
+      "id_value": "kurse_vor_ort_karte_sidebar",
+      "preferred": true
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "metadata": {},
+  "object_type": "static_page",
+  "reconstruction": {
+    "strategy": "replace_source_file",
+    "targets": [
+      {
+        "kind": "localized_text_file",
+        "path": "contents/static/kurse_vor_ort_karte_sidebar.html"
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    }
+  ],
+  "source": {
+    "format": "html",
+    "key": "kurse_vor_ort_karte_sidebar",
+    "path": "contents/static/kurse_vor_ort_karte_sidebar.html"
+  },
+  "text_slots": [
+    {
+      "slot_key": "body_html",
+      "slot_type": "html",
+      "sort_order": 0,
+      "storage": {
+        "files": {
+          "de": "body.de.html"
+        },
+        "kind": "text_file"
+      },
+      "translation_group_key": null
+    }
+  ]
+}

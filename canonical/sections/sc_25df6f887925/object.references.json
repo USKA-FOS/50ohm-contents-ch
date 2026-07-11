@@ -1,0 +1,68 @@
+[
+  {
+    "inline_alias": "aufbau_sender",
+    "inline_label": "Blockdiagramm eines einfachen Senders",
+    "raw_marker": "[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "735",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NF401]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NF401",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NF402]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NF402",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NF403]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NF403",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VD106]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VD106",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "aufbau_sender",
+    "inline_label": null,
+    "raw_marker": "[ref:aufbau_sender]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "aufbau_sender",
+    "target_object_type": null
+  }
+]

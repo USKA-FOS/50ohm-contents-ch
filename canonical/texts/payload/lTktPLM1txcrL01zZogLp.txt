@@ -1,8 +1,0 @@
-A prima vista, sembrerebbe logico scegliere un numero elevato di simboli, in modo che ogni simbolo possa trasmettere quante più informazioni possibile. Tuttavia, un ricevitore deve essere in grado di distinguere, ad esempio, tra molte ampiezze diverse. Ciò rende il metodo più suscettibile ai disturbi.
-
-Per mitigare questo problema, si può ricorrere a un trucco: invece di modificare un solo parametro (ad esempio, l'ampiezza), si modificano due parametri per simbolo, ovvero l'ampiezza e la fase. Un simbolo corrisponde quindi a una combinazione di una determinata ampiezza con una determinata fase. In questo modo, nonostante il numero ridotto di ampiezze e fasi distinte, si ottiene comunque un numero maggiore di simboli. Vengono trasmessi più bit per simbolo. La trasmissione dei dati è quindi più veloce. Questo metodo è chiamato modulazione di ampiezza in quadratura (QAM) o talvolta semplicemente modulazione in quadratura.
-
-[picture:702:8qam:Andamento del segnale di un segnale 8QAM, con ampiezza ($\num{0,5}$ o $\num{1}$), fase e sequenza di bit a 3 cifre per simbolo]
-
-[question:AE403]
-

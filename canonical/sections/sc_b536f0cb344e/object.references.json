@@ -1,0 +1,167 @@
+[
+  {
+    "inline_alias": "n_funkfernschreiben_olivia",
+    "inline_label": "Ausschnitt aus einer Olivia-Aussendung im Wasserfalldiagramm",
+    "raw_marker": "[photo:0:n_funkfernschreiben_olivia:Ausschnitt aus einer Olivia-Aussendung im Wasserfalldiagramm]",
+    "relation_type": "embeds_photo",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "0",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "n_funkfernschreiben_fm",
+    "inline_label": "Musterbild FM",
+    "raw_marker": "[photo:0:n_funkfernschreiben_fm:Musterbild FM]",
+    "relation_type": "embeds_photo",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "0",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "n_funkfernschreiben_ft8",
+    "inline_label": "Ein FT8-Signal bei $\\qty{1500}{\\hertz}$ oberhalb der eingestellten Frequenz",
+    "raw_marker": "[photo:0:n_funkfernschreiben_ft8:Ein FT8-Signal bei $\\qty{1500}{\\hertz}$ oberhalb der eingestellten Frequenz]",
+    "relation_type": "embeds_photo",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "0",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "n_funkfernschreiben_abkuerzungen",
+    "inline_label": null,
+    "raw_marker": "[ref:n_funkfernschreiben_abkuerzungen]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_funkfernschreiben_abkuerzungen",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_funkfernschreiben_telegraphie_20m",
+    "inline_label": "Morsetelegrafie, FT8 und FT4 im $\\qty{20}{\\meter}$-Band",
+    "raw_marker": "[photo:0:n_funkfernschreiben_telegraphie_20m:Morsetelegrafie, FT8 und FT4 im $\\qty{20}{\\meter}$-Band]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "0",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "n_funkfernschreiben_digimodes",
+    "inline_label": "Häufig verwendete Digimodes von K1JT vergrößert im Wasserfalldiagramm",
+    "raw_marker": "[photo:0:n_funkfernschreiben_digimodes:Häufig verwendete Digimodes von K1JT vergrößert im Wasserfalldiagramm]",
+    "relation_type": "embeds_photo",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "0",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BB108]",
+    "relation_type": "references_question",
+    "sort_order": 15,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BB108",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_funkfernschreiben_ft8_20m",
+    "inline_label": "Mehrere FT8-Signale in einem SSB-Kanal im $\\qty{20}{\\meter}$-Band",
+    "raw_marker": "[photo:0:n_funkfernschreiben_ft8_20m:Mehrere FT8-Signale in einem SSB-Kanal im $\\qty{20}{\\meter}$-Band]",
+    "relation_type": "embeds_photo",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "0",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BB109]",
+    "relation_type": "references_question",
+    "sort_order": 13,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BB109",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BB110]",
+    "relation_type": "references_question",
+    "sort_order": 14,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BB110",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_funkfernschreiben_abkuerzungen",
+    "inline_label": "Betriebliche Abkürzungen in der Telegrafie",
+    "raw_marker": "[table:n_funkfernschreiben_abkuerzungen:Betriebliche Abkürzungen in der Telegrafie]",
+    "relation_type": "embeds_table",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "n_funkfernschreiben_abkuerzungen",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NE401]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NE401",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_funkfernschreiben_am",
+    "inline_label": "Musterbild AM",
+    "raw_marker": "[photo:0:n_funkfernschreiben_am:Musterbild AM]",
+    "relation_type": "embeds_photo",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "0",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE112]",
+    "relation_type": "references_question",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE112",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BB101]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BB101",
+    "target_object_type": "question"
+  }
+]

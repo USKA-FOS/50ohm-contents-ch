@@ -1,0 +1,35 @@
+[
+  {
+    "inline_alias": "e_kompressor",
+    "inline_label": "Funktionsweise eines Kompressors",
+    "raw_marker": "[picture:1043:e_kompressor:Funktionsweise eines Kompressors]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1043",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "e_kompressor",
+    "inline_label": null,
+    "raw_marker": "[ref:e_kompressor]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_kompressor",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF306]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF306",
+    "target_object_type": "question"
+  }
+]

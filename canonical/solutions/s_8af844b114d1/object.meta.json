@@ -1,0 +1,51 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "s_8af844b114d1",
+  "identifiers": [
+    {
+      "id_system": "file_stem",
+      "id_value": "AC405",
+      "preferred": true
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "metadata": {},
+  "object_type": "solution_article",
+  "reconstruction": {
+    "strategy": "replace_source_file",
+    "targets": [
+      {
+        "kind": "localized_text_file",
+        "path": "contents/solutions/AC405.md"
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    }
+  ],
+  "source": {
+    "format": "md",
+    "key": "AC405",
+    "path": "contents/solutions/AC405.md"
+  },
+  "text_slots": [
+    {
+      "slot_key": "body_markdown",
+      "slot_type": "markdown",
+      "sort_order": 0,
+      "storage": {
+        "files": {
+          "de": "body.de.md"
+        },
+        "kind": "text_file"
+      },
+      "translation_group_key": null
+    }
+  ]
+}

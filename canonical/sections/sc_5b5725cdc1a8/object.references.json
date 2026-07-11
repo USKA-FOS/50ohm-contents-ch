@@ -1,0 +1,35 @@
+[
+  {
+    "inline_alias": "StepUpWandler",
+    "inline_label": "Abwärts- (Buck) Aufwärts- (Boost) Wandler. Hier als Aufwärtsspannungswandler von $\\qty{7,2}{\\volt}$ auf $\\qty{24}{\\volt}$ eingestellt",
+    "raw_marker": "[photo:300:StepUpWandler: Abwärts- (Buck) Aufwärts- (Boost) Wandler. Hier als Aufwärtsspannungswandler von $\\qty{7,2}{\\volt}$ auf $\\qty{24}{\\volt}$ eingestellt]",
+    "relation_type": "embeds_photo",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "300",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB214]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB214",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB213]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB213",
+    "target_object_type": "question"
+  }
+]

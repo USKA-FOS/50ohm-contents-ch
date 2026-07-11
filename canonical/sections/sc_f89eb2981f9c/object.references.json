@@ -1,0 +1,90 @@
+[
+  {
+    "inline_alias": "e_senderausgangsleisung",
+    "inline_label": "Messung der Senderausgangsleistung",
+    "raw_marker": "[picture:916:e_senderausgangsleisung:Messung der Senderausgangsleistung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "916",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF402]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF402",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB502]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB502",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_senderausgangsleisung",
+    "inline_label": null,
+    "raw_marker": "[ref:e_senderausgangsleisung]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_senderausgangsleisung",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF401]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF401",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_senderausgangsleisung_2",
+    "inline_label": null,
+    "raw_marker": "[ref:e_senderausgangsleisung_2]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_senderausgangsleisung_2",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "e_senderausgangsleisung_2",
+    "inline_label": "Höchste Spitze der Modulationshüllkurve",
+    "raw_marker": "[picture:875:e_senderausgangsleisung_2:Höchste Spitze der Modulationshüllkurve]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "875",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB501]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB501",
+    "target_object_type": "question"
+  }
+]

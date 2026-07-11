@@ -1,8 +1,0 @@
-La propagation d'une onde électromagnétique se fait, comme nous l'avons appris, à la vitesse de la lumière. Dans l'espace libre, il s'agit de la vitesse de la lumière dans le vide ; dans le conducteur, nous devons prendre en compte le facteur de réduction.
-
-À l'intérieur d'un conducteur, il y a donc un retard entre le début et la fin de la ligne, car la vitesse de propagation n'est pas infinie : lorsque lors de la transmission d'une oscillation sinusoïdale, à un moment donné, la tension de crête positive est appliquée à une extrémité, celle-ci n'est appliquée qu'un peu plus tard à l'autre extrémité. Comme les oscillations sinusoïdales se répètent, nous donnons ce retard sous forme de déphasage de $\qty{0}{\degree}$ à $\qty{360}{\degree}$, $\qty{360}{\degree}$ correspondant à une période d'oscillation. En raison de la répétition de l'onde, $\qty{360}{\degree}$ correspond donc à nouveau à $\qty{0}{\degree}$.
-
-Dans les questions d'examen suivantes, le facteur de réduction a déjà été pris en compte, car il est question de la *longueur électrique* d'un câble coaxial, raison pour laquelle le câble peut être mécaniquement plus long. Nous pouvons donc convertir directement la longueur en déphasage en degrés : une longueur d’onde ($\lambda$) correspond exactement à $\qty{360}{\degree}$, et des fractions de celle-ci correspondent à un déphasage proportionnellement plus petit. Ainsi, par exemple, $\lambda / 2$ correspond exactement à $\frac{\qty{360}{\degree}}{2} = \qty{180}{\degree}$.
-
-[question:AG407]
-[question:AG408]

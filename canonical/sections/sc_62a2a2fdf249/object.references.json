@@ -1,0 +1,35 @@
+[
+  {
+    "inline_alias": "n_tropo",
+    "inline_label": null,
+    "raw_marker": "[ref:n_tropo]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_tropo",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_tropo",
+    "inline_label": "Inversionswetterlage, Schichten unterschiedlicher Temperatur liegen aufeinander, an der Grenze der Schichten werden Funkwellen im VHF-Bereich reflektiert",
+    "raw_marker": "[picture:734:n_tropo:Inversionswetterlage, Schichten unterschiedlicher Temperatur liegen aufeinander, an der Grenze der Schichten werden Funkwellen im VHF-Bereich reflektiert]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "734",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NH304]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NH304",
+    "target_object_type": "question"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "tb_3be1b593d9a8",
+  "identifiers": [
+    {
+      "id_system": "table_id",
+      "id_value": "n_itu_regionen",
+      "preferred": true
+    }
+  ],
+  "languages": [],
+  "metadata": {},
+  "object_type": "table_object",
+  "reconstruction": {
+    "strategy": "none",
+    "targets": []
+  },
+  "review_states": [],
+  "source": {
+    "format": "synthetic",
+    "key": "n_itu_regionen",
+    "path": null
+  },
+  "text_slots": []
+}

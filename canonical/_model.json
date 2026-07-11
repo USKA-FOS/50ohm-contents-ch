@@ -1,0 +1,28 @@
+{
+  "excluded_object_types": [
+    "question",
+    "question_catalog_file",
+    "question_layout_file",
+    "question_metadata_file",
+    "questions_readme",
+    "toc_file"
+  ],
+  "exported_object_types": [
+    "drawing",
+    "html_include",
+    "legal_document",
+    "photo",
+    "section_article",
+    "slide_article",
+    "snippet",
+    "solution_article",
+    "static_page",
+    "table_object"
+  ],
+  "languages": [
+    "de"
+  ],
+  "model": "object-centric-canonical",
+  "support_artifacts_root": "work/canonical_support",
+  "version": 1
+}

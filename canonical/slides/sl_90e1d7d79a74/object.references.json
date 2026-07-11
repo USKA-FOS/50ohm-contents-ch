@@ -1,0 +1,24 @@
+[
+  {
+    "inline_alias": "n_sstv",
+    "inline_label": "Ein per SSTV übertragenes Bild",
+    "raw_marker": "[photo:84:n_sstv:Ein per SSTV übertragenes Bild]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "84",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE210]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE210",
+    "target_object_type": "question"
+  }
+]

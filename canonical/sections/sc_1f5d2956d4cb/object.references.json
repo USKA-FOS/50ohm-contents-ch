@@ -1,0 +1,134 @@
+[
+  {
+    "inline_alias": "a_oszilloskop_ueberlagerung",
+    "inline_label": null,
+    "raw_marker": "[ref:a_oszilloskop_ueberlagerung]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_oszilloskop_ueberlagerung",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_impulsbreite",
+    "inline_label": "Bestimmung der Impulsbreite eines nicht-idealen Rechtecksignals",
+    "raw_marker": "[picture:1005:a_impulsbreite:Bestimmung der Impulsbreite eines nicht-idealen Rechtecksignals]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1005",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AI301]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AI301",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AI302]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AI302",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_oszilloskop_messung",
+    "inline_label": "Messung mit einem Tastkopf. Zwischen den Dioden D1 und D2 ist die Prüfspitze zu sehen und weiter links die Krokodilklemme für die Masseverbindung.",
+    "raw_marker": "[photo:224:a_oszilloskop_messung:Messung mit einem Tastkopf. Zwischen den Dioden D1 und D2 ist die Prüfspitze zu sehen und weiter links die Krokodilklemme für die Masseverbindung.]",
+    "relation_type": "embeds_photo",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "224",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EI303]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EI303",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_oszilloskop_messung",
+    "inline_label": null,
+    "raw_marker": "[ref:a_oszilloskop_messung]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_oszilloskop_messung",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_oszilloskop_tastkoepfe",
+    "inline_label": "Tastköpfe mit verschiedenen Prüfspitzen. Die Krokodilklemmen wurden für diese Aufnahme abgenommen.",
+    "raw_marker": "[photo:223:a_oszilloskop_tastkoepfe:Tastköpfe mit verschiedenen Prüfspitzen. Die Krokodilklemmen wurden für diese Aufnahme abgenommen.]",
+    "relation_type": "embeds_photo",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "223",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "a_oszilloskop_einzelbild",
+    "inline_label": "Einzelbild aus einer Musikaufnahme",
+    "raw_marker": "[photo:222:a_oszilloskop_einzelbild:Einzelbild aus einer Musikaufnahme]",
+    "relation_type": "embeds_photo",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "222",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "a_oszilloskop_einzelbild",
+    "inline_label": null,
+    "raw_marker": "[ref:a_oszilloskop_einzelbild]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_oszilloskop_einzelbild",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AI303]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AI303",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_oszilloskop_tastkoepfe",
+    "inline_label": null,
+    "raw_marker": "[ref:a_oszilloskop_tastkoepfe]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_oszilloskop_tastkoepfe",
+    "target_object_type": null
+  }
+]

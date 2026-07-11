@@ -1,0 +1,66 @@
+[
+  {
+    "annotation_key": "Verbraucher",
+    "annotation_type": "index_term",
+    "annotation_value": null,
+    "raw_marker": "[index:Verbraucher]",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown"
+  },
+  {
+    "annotation_key": "Ladung",
+    "annotation_type": "index_term",
+    "annotation_value": null,
+    "raw_marker": "[index:Ladung]",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown"
+  },
+  {
+    "annotation_key": "Spannung",
+    "annotation_type": "index_term",
+    "annotation_value": "Gleichspannung",
+    "raw_marker": "[index:Spannung:Gleichspannung]",
+    "sort_order": 14,
+    "source_slot_key": "body_markdown"
+  },
+  {
+    "annotation_key": "Spannung",
+    "annotation_type": "index_term",
+    "annotation_value": "Wechselspannung",
+    "raw_marker": "[index:Spannung:Wechselspannung]",
+    "sort_order": 13,
+    "source_slot_key": "body_markdown"
+  },
+  {
+    "annotation_key": "Spannung",
+    "annotation_type": "index_term",
+    "annotation_value": null,
+    "raw_marker": "[index:Spannung]",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown"
+  },
+  {
+    "annotation_key": "Strom",
+    "annotation_type": "index_term",
+    "annotation_value": null,
+    "raw_marker": "[index:Strom]",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown"
+  },
+  {
+    "annotation_key": "Einheit",
+    "annotation_type": "index_term",
+    "annotation_value": "Volt",
+    "raw_marker": "[index:Einheit:Volt]",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown"
+  },
+  {
+    "annotation_key": "Spannung",
+    "annotation_type": "index_term",
+    "annotation_value": "Spannungsquelle",
+    "raw_marker": "[index:Spannung:Spannungsquelle]",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown"
+  }
+]

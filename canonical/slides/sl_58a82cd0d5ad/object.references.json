@@ -1,0 +1,24 @@
+[
+  {
+    "inline_alias": "n_digital_einleitung_digitales_signal",
+    "inline_label": "Digitales Signal (abgestuft)",
+    "raw_marker": "[picture:411:n_digital_einleitung_digitales_signal:Digitales Signal (abgestuft)]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "411",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "n_digital_einleitung_analoges_signal",
+    "inline_label": "Analoges Signal (kontinuierlich)",
+    "raw_marker": "[picture:408:n_digital_einleitung_analoges_signal:Analoges Signal (kontinuierlich)]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "408",
+    "target_object_type": "drawing"
+  }
+]

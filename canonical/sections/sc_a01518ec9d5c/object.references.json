@@ -1,0 +1,57 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NH302]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NH302",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_funkhorizont",
+    "inline_label": null,
+    "raw_marker": "[ref:n_funkhorizont]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_funkhorizont",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NH301]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NH301",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NH303]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NH303",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_funkhorizont",
+    "inline_label": "Ausbreitung",
+    "raw_marker": "[picture:484:n_funkhorizont:Ausbreitung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "484",
+    "target_object_type": "drawing"
+  }
+]

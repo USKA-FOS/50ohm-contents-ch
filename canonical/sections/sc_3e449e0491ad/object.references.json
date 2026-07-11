@@ -1,0 +1,123 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EH221]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EH221",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_muf_luf",
+    "inline_label": null,
+    "raw_marker": "[ref:e_muf_luf]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_muf_luf",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EH204]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EH204",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_muf_luf",
+    "inline_label": null,
+    "raw_marker": "[ref:e_muf_luf]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_muf_luf",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "e_muf_luf2",
+    "inline_label": "Simulation der Sprungdistanzen für verschiedene Frequenzen und einer MUF bei ca. $\\qty{7,5}{\\mega\\hertz}$ in einer Augustnacht 2024 bei einem Abstrahlwinkel von $\\qty{45}{\\degree}$",
+    "raw_marker": "[picture:997:e_muf_luf2:Simulation der Sprungdistanzen für verschiedene Frequenzen und einer MUF bei ca. $\\qty{7,5}{\\mega\\hertz}$ in einer Augustnacht 2024 bei einem Abstrahlwinkel von $\\qty{45}{\\degree}$]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "997",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EH207]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EH207",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EH209]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EH209",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EH206]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EH206",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_muf_luf",
+    "inline_label": "Vorhersage von MUF und LUF im Juli 2025",
+    "raw_marker": "[picture:991:e_muf_luf:Vorhersage von MUF und LUF im Juli 2025]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "991",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EH220]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EH220",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_muf_luf2",
+    "inline_label": null,
+    "raw_marker": "[ref:e_muf_luf2]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_muf_luf2",
+    "target_object_type": null
+  }
+]

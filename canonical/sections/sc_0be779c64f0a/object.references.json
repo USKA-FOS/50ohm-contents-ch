@@ -1,0 +1,134 @@
+[
+  {
+    "inline_alias": "e_h_feld_spule",
+    "inline_label": "Magnetische Feldlinien in einer Zylinderspule",
+    "raw_marker": "[picture:882:e_h_feld_spule:Magnetische Feldlinien in einer Zylinderspule]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "882",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "e_ringkern",
+    "inline_label": "Ringkernspule",
+    "raw_marker": "[picture:40:e_ringkern:Ringkernspule]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "40",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB206]",
+    "relation_type": "references_question",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB206",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB201]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB201",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_konzentrisch",
+    "inline_label": "Konzentrische magnetische Feldlinien um einen stromdurchflossenen Leiter",
+    "raw_marker": "[picture:833:e_konzentrisch:Konzentrische magnetische Feldlinien um einen stromdurchflossenen Leiter]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "833",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB203]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB203",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_konzentrisch",
+    "inline_label": null,
+    "raw_marker": "[ref:e_konzentrisch]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_konzentrisch",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB202]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB202",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_ringkern",
+    "inline_label": null,
+    "raw_marker": "[ref:e_ringkern]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_ringkern",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "e_vertikalantenne_magnetfeld",
+    "inline_label": "Magnetfeld an einer Vertikalantenne",
+    "raw_marker": "[picture:883:e_vertikalantenne_magnetfeld:Magnetfeld an einer Vertikalantenne]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "883",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA104]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA104",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_vertikalantenne_magnetfeld",
+    "inline_label": null,
+    "raw_marker": "[ref:e_vertikalantenne_magnetfeld]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_vertikalantenne_magnetfeld",
+    "target_object_type": null
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "inline_alias": "a_wechselstrom_leistung",
+    "inline_label": "Effektivwerte für die Leistungsberechnung",
+    "raw_marker": "[picture:834:a_wechselstrom_leistung:Effektivwerte für die Leistungsberechnung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "834",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AI105]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AI105",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB301]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB301",
+    "target_object_type": "question"
+  }
+]

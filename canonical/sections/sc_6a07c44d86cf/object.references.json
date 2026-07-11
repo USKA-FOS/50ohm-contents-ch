@@ -1,0 +1,178 @@
+[
+  {
+    "inline_alias": "e_ssb_am_modulation",
+    "inline_label": null,
+    "raw_marker": "[ref:e_ssb_am_modulation]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_ssb_am_modulation",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE202]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE202",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF310]",
+    "relation_type": "references_question",
+    "sort_order": 13,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF310",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_ssb_einzelsignal",
+    "inline_label": null,
+    "raw_marker": "[ref:e_ssb_einzelsignal]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_ssb_einzelsignal",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE201]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE201",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE207]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE207",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EJ215]",
+    "relation_type": "references_question",
+    "sort_order": 14,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EJ215",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EJ210]",
+    "relation_type": "references_question",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EJ210",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE206]",
+    "relation_type": "references_question",
+    "sort_order": 15,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE206",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE205]",
+    "relation_type": "references_question",
+    "sort_order": 16,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE205",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_ssb_einzelsignal",
+    "inline_label": "Seitenbänder bei AM und SSB",
+    "raw_marker": "[picture:1056:e_ssb_einzelsignal:Seitenbänder bei AM und SSB]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1056",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE203]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE203",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE204]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE204",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_ssb_einzelsignal",
+    "inline_label": null,
+    "raw_marker": "[ref:e_ssb_einzelsignal]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_ssb_einzelsignal",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EJ211]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EJ211",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_ssb_einzelsignal",
+    "inline_label": "Seitenbänder bei AM und SSB",
+    "raw_marker": "[picture:743:e_ssb_einzelsignal:Seitenbänder bei AM und SSB]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "743",
+    "target_object_type": "drawing"
+  }
+]

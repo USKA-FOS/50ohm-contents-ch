@@ -5,105 +5,183 @@ import sqlite3
 from pathlib import Path
 from typing import Any, Iterable
 
-from build_content_model_db import Builder
+from build_content_model_db import Builder, ReferenceTarget
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CANONICAL_ROOT = REPO_ROOT / "canonical"
+SUPPORT_ROOT = REPO_ROOT / "work" / "canonical_support"
 DB_PATH = REPO_ROOT / "work" / "canonical_model" / "content_model.sqlite"
+OBJECT_FAMILY_DIRECTORIES = (
+    "sections",
+    "slides",
+    "solutions",
+    "snippets",
+    "static_pages",
+    "html_includes",
+    "photos",
+    "drawings",
+    "tables",
+    "legal_documents",
+)
 
 
 def read_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def insert_row(connection: sqlite3.Connection, table: str, row: dict[str, Any]) -> None:
-    columns = list(row)
-    placeholders = ", ".join("?" for _ in columns)
-    connection.execute(
-        f"INSERT INTO {table} ({', '.join(columns)}) VALUES ({placeholders})",
-        [row[column] for column in columns],
-    )
-
-
-def json_files(directory: Path) -> Iterable[Path]:
-    return sorted(path for path in directory.rglob("*.json") if path.is_file())
+def object_dirs(directory: Path) -> Iterable[Path]:
+    return sorted(path for path in directory.iterdir() if path.is_dir()) if directory.exists() else []
 
 
 def build_database() -> dict[str, int]:
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     if DB_PATH.exists():
         DB_PATH.unlink()
+
     builder = Builder(DB_PATH)
     builder.create_schema()
     connection = builder.conn
-    # Canonical node files are ordered by stable id, not by parent hierarchy.
-    # Validate all foreign keys after loading the complete graph instead.
     connection.execute("PRAGMA foreign_keys = OFF")
 
-    for path in json_files(CANONICAL_ROOT / "objects"):
-        obj = read_json(path)
-        metadata = read_json(CANONICAL_ROOT / "metadata" / "objects" / f"{obj['id']}.json")
-        source = metadata["source"]
-        insert_row(
-            connection,
-            "content_object",
-            {
-                "id": obj["id"],
-                "object_type": obj["object_type"],
-                "source_path": source["path"],
-                "source_format": source["format"],
-                "source_key": source["key"],
-                "active": obj["active"],
-            },
+    for family in OBJECT_FAMILY_DIRECTORIES:
+        for directory in object_dirs(CANONICAL_ROOT / family):
+            meta = read_json(directory / "object.meta.json")
+            source = meta["source"]
+            builder.add_external_object(
+                object_id=str(meta["id"]),
+                object_type=str(meta["object_type"]),
+                source_path=source.get("path"),
+                source_format=source.get("format"),
+                source_key=source.get("key"),
+            )
+            connection.execute("UPDATE content_object SET active=? WHERE id=?", (int(bool(meta.get("active", True))), str(meta["id"])))
+
+            for identifier in meta.get("identifiers", []):
+                builder.add_identifier(
+                    str(meta["id"]),
+                    str(identifier["id_system"]),
+                    str(identifier["id_value"]),
+                    preferred=bool(identifier.get("preferred", False)),
+                )
+
+            for scope, scope_payload in sorted((meta.get("metadata") or {}).items()):
+                if not isinstance(scope_payload, dict):
+                    continue
+                for key, value in sorted(scope_payload.items()):
+                    builder.add_metadata(str(meta["id"]), str(scope), str(key), value)
+
+            for state in meta.get("review_states", []):
+                builder.add_review_state("content_object", str(meta["id"]), state.get("language"), str(state["state"]))
+
+            for slot in meta.get("text_slots", []):
+                slot_id = builder.add_text_slot(
+                    str(meta["id"]),
+                    str(slot["slot_key"]),
+                    str(slot["slot_type"]),
+                    translation_group_key=slot.get("translation_group_key"),
+                    sort_order=int(slot.get("sort_order", 0)),
+                )
+                storage = slot["storage"]
+                if str(storage["kind"]) == "text_file":
+                    for language, relative_name in sorted((storage.get("files") or {}).items()):
+                        builder.add_localized_text(slot_id, str(language), (directory / relative_name).read_text(encoding="utf-8"))
+                elif str(storage["kind"]) == "json_file":
+                    json_field = str(storage["json_field"])
+                    for language, relative_name in sorted((storage.get("files") or {}).items()):
+                        payload = read_json(directory / relative_name)
+                        builder.add_localized_text(slot_id, str(language), str(payload.get(json_field, "")))
+                else:
+                    raise RuntimeError(f"Unsupported slot storage kind: {storage['kind']}")
+
+            for reference in read_json(directory / "object.references.json"):
+                builder.add_reference(
+                    str(meta["id"]),
+                    str(reference["source_slot_key"]),
+                    str(reference["raw_marker"]),
+                    int(reference.get("sort_order", 0)),
+                    ReferenceTarget(
+                        reference.get("target_object_type"),
+                        str(reference["target_id_system"]),
+                        str(reference["target_id_value"]),
+                        str(reference["relation_type"]),
+                        inline_alias=reference.get("inline_alias"),
+                        inline_label=reference.get("inline_label"),
+                    ),
+                )
+
+            for annotation in read_json(directory / "object.annotations.json"):
+                builder.add_annotation(
+                    str(meta["id"]),
+                    str(annotation["source_slot_key"]),
+                    str(annotation["annotation_type"]),
+                    annotation.get("annotation_key"),
+                    annotation.get("annotation_value"),
+                    str(annotation["raw_marker"]),
+                    int(annotation.get("sort_order", 0)),
+                )
+
+    for edition_dir in object_dirs(CANONICAL_ROOT / "structure" / "editions"):
+        edition_meta = read_json(edition_dir / "edition.meta.json")
+        edition_payload = read_json(edition_dir / "edition.de.json")
+
+        def insert_node(node: dict[str, Any], parent_node_id: str | None) -> None:
+            connection.execute(
+                """
+                INSERT INTO curriculum_node(id, edition, node_type, parent_node_id, sort_order, source_path)
+                VALUES (?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    str(node["id"]),
+                    str(edition_meta["edition"]),
+                    str(node["node_type"]),
+                    parent_node_id,
+                    int(node.get("sort_order", 0)),
+                    edition_meta.get("source_path"),
+                ),
+            )
+            for identifier in node.get("identifiers", []):
+                builder.add_node_identifier(
+                    str(node["id"]),
+                    str(identifier["id_system"]),
+                    str(identifier["id_value"]),
+                    preferred=bool(identifier.get("preferred", False)),
+                )
+            builder.add_node_text(str(node["id"]), node.get("title"), node.get("abstract"))
+            for key, value in sorted((node.get("metadata") or {}).items()):
+                builder.add_node_metadata(str(node["id"]), str(key), value)
+            for placement in node.get("placements", []):
+                builder.add_placement(
+                    node_id=str(node["id"]),
+                    object_id=str(placement["object_id"]),
+                    placement_role=str(placement["placement_role"]),
+                    sort_order=int(placement.get("sort_order", 0)),
+                    visible_label=placement.get("visible_label"),
+                )
+            for child in node.get("chapters", []):
+                insert_node(child, str(node["id"]))
+            for child in node.get("sections", []):
+                insert_node(child, str(node["id"]))
+
+        insert_node(edition_payload, None)
+
+    manifest = read_json(SUPPORT_ROOT / "artifacts.manifest.json")
+    for artifact in manifest:
+        payload = (SUPPORT_ROOT / artifact["payload_path"]).read_bytes()
+        connection.execute(
+            """
+            INSERT INTO source_artifact(id, object_id, source_path, media_type, checksum_sha256, payload)
+            VALUES (?, ?, ?, ?, ?, ?)
+            """,
+            (
+                str(artifact["id"]),
+                artifact.get("object_id"),
+                str(artifact["source_path"]),
+                str(artifact["media_type"]),
+                str(artifact["checksum_sha256"]),
+                payload,
+            ),
         )
-        for identifier in metadata["identifiers"]:
-            insert_row(connection, "object_identifier", identifier)
-        for value in metadata["metadata"]:
-            insert_row(connection, "object_metadata", value)
-
-    for path in json_files(CANONICAL_ROOT / "texts" / "slots"):
-        slot = read_json(path)
-        localized = slot.pop("localized")
-        insert_row(connection, "text_slot", slot)
-        for text in localized:
-            payload = (CANONICAL_ROOT / text.pop("path")).read_text(encoding="utf-8")
-            text["text_value"] = payload
-            insert_row(connection, "localized_text", text)
-
-    for path in json_files(CANONICAL_ROOT / "structure" / "nodes"):
-        node = read_json(path)
-        metadata = read_json(CANONICAL_ROOT / "metadata" / "nodes" / f"{node['id']}.json")
-        node["source_path"] = metadata["source_path"]
-        insert_row(connection, "curriculum_node", node)
-        for identifier in metadata["identifiers"]:
-            insert_row(connection, "node_identifier", identifier)
-        for value in metadata["metadata"]:
-            insert_row(connection, "node_metadata", value)
-        for placement in read_json(CANONICAL_ROOT / "structure" / "placements" / f"{node['id']}.json"):
-            insert_row(connection, "content_placement", placement)
-
-    for path in json_files(CANONICAL_ROOT / "texts" / "nodes"):
-        node_text = read_json(path)
-        for field in ("title", "abstract"):
-            payload_path = node_text.pop(f"{field}_path")
-            node_text[field] = (CANONICAL_ROOT / payload_path).read_text(encoding="utf-8") if payload_path else None
-        insert_row(connection, "node_text", node_text)
-
-    for path in json_files(CANONICAL_ROOT / "relations" / "references"):
-        for reference in read_json(path):
-            insert_row(connection, "object_reference", reference)
-    for path in json_files(CANONICAL_ROOT / "relations" / "annotations"):
-        for annotation in read_json(path):
-            insert_row(connection, "text_annotation", annotation)
-    for path in json_files(CANONICAL_ROOT / "review"):
-        for state in read_json(path):
-            insert_row(connection, "review_state", state)
-    for path in json_files(CANONICAL_ROOT / "metadata" / "artifacts"):
-        artifact = read_json(path)
-        payload = (CANONICAL_ROOT / artifact.pop("payload_path")).read_bytes()
-        artifact["payload"] = payload
-        insert_row(connection, "source_artifact", artifact)
 
     connection.commit()
     connection.execute("PRAGMA foreign_keys = ON")
@@ -113,12 +191,24 @@ def build_database() -> dict[str, int]:
     foreign_key_errors = connection.execute("PRAGMA foreign_key_check").fetchall()
     if foreign_key_errors:
         raise RuntimeError(f"SQLite foreign-key failures: {len(foreign_key_errors)}")
+
     counts = {
         table: connection.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
         for table in [
-            "content_object", "object_identifier", "text_slot", "localized_text", "object_metadata", "review_state",
-            "curriculum_node", "node_identifier", "node_text", "node_metadata", "content_placement",
-            "object_reference", "text_annotation", "source_artifact",
+            "content_object",
+            "object_identifier",
+            "text_slot",
+            "localized_text",
+            "object_metadata",
+            "review_state",
+            "curriculum_node",
+            "node_identifier",
+            "node_text",
+            "node_metadata",
+            "content_placement",
+            "object_reference",
+            "text_annotation",
+            "source_artifact",
         ]
     }
     builder.close()

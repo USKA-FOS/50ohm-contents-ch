@@ -1,0 +1,24 @@
+[
+  {
+    "inline_alias": "a_phasenwinkel_zeit",
+    "inline_label": "Phasenwinkel in Grad und Bogenmaß oder Periodendauerangabe",
+    "raw_marker": "[picture:878:a_phasenwinkel_zeit:Phasenwinkel in Grad und Bogenmaß oder Periodendauerangabe]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "878",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_phasenwinkel_zeit",
+    "inline_label": null,
+    "raw_marker": "[ref:a_phasenwinkel_zeit]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_phasenwinkel_zeit",
+    "target_object_type": null
+  }
+]

@@ -1,7 +1,0 @@
-<margin>
-[picture:828:begrenzverstärker:Fonctionnement d'un amplificateur limiteur]
-</margin>
-
-Lors de la réception FM, seule la variation de la fréquence du signal d'entrée est importante pour la démodulation. C'est pourquoi on essaie de supprimer autant que possible les fluctuations d'amplitude et les impulsions de perturbation lors de la réception des signaux FM. Cela peut être fait à l'aide d'un amplificateur limiteur dans la partie ZF d'un récepteur FM, qui amplifie d'abord fortement le signal d'entrée, puis limite les amplitudes avec un circuit approprié. Grâce à la limitation, l'information de la variation de fréquence (FM) est conservée. Les variations d'amplitude sont cependant fortement supprimées, car le niveau du signal est limité à un maximum défini et ainsi seules des fluctuations d'amplitude minimales du signal d'entrée sont encore présentes après l'amplificateur limiteur.
-
-[question:AF226]

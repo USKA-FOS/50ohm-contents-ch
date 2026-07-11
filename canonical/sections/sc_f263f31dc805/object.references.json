@@ -1,0 +1,134 @@
+[
+  {
+    "inline_alias": "n_bauelemente_kondensator",
+    "inline_label": "Schaltzeichen und Bauformen von Kondensatoren",
+    "raw_marker": "[photo:206:n_bauelemente_kondensator:Schaltzeichen und Bauformen von Kondensatoren]",
+    "relation_type": "embeds_photo",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "206",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NC501]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NC501",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_bauelemente_bauteile",
+    "inline_label": null,
+    "raw_marker": "[ref:n_bauelemente_bauteile]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_bauelemente_bauteile",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_bauelemente_transistor",
+    "inline_label": "Schaltzeichen und Bauformen von Transistoren",
+    "raw_marker": "[photo:208:n_bauelemente_transistor:Schaltzeichen und Bauformen von Transistoren]",
+    "relation_type": "embeds_photo",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "208",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "n_bauelemente_spule",
+    "inline_label": "Schaltzeichen und Bauformen von Spulen",
+    "raw_marker": "[photo:207:n_bauelemente_spule:Schaltzeichen und Bauformen von Spulen]",
+    "relation_type": "embeds_photo",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "207",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NC201]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NC201",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_bauelemente_kondensator",
+    "inline_label": null,
+    "raw_marker": "[ref:n_bauelemente_kondensator]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_bauelemente_kondensator",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NC301]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NC301",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_bauelemente_bauteile",
+    "inline_label": "Elektrische Bauteile, Messgeräte und ihre Schaltzeichen",
+    "raw_marker": "[picture:694:n_bauelemente_bauteile:Elektrische Bauteile, Messgeräte und ihre Schaltzeichen]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "694",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NB202]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NB202",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_bauelemente_spule",
+    "inline_label": null,
+    "raw_marker": "[ref:n_bauelemente_spule]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_bauelemente_spule",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_bauelemente_transistor",
+    "inline_label": null,
+    "raw_marker": "[ref:n_bauelemente_transistor]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_bauelemente_transistor",
+    "target_object_type": null
+  }
+]

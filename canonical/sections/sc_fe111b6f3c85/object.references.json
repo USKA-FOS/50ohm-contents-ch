@@ -1,0 +1,24 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE101]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE101",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_unmodulierter_traeger",
+    "inline_label": "Unmodulierter Träger",
+    "raw_marker": "[picture:904:e_unmodulierter_traeger:Unmodulierter Träger]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "904",
+    "target_object_type": "drawing"
+  }
+]

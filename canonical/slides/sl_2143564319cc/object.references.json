@@ -1,0 +1,46 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NG207]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NG207",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_Koax_Detail",
+    "inline_label": "Koaxialkabel im Detail",
+    "raw_marker": "[photo:65:n_Koax_Detail:Koaxialkabel im Detail]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "65",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "n_Koaxialkabel",
+    "inline_label": "Beispiele gebräuchlicher Koaxialkabel",
+    "raw_marker": "[photo:66:n_Koaxialkabel:Beispiele gebräuchlicher Koaxialkabel]",
+    "relation_type": "embeds_photo",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "66",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NG201]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NG201",
+    "target_object_type": "question"
+  }
+]

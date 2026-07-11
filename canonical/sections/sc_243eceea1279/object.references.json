@@ -1,0 +1,167 @@
+[
+  {
+    "inline_alias": "binaer_zahlensysteme",
+    "inline_label": "Zahlen im Dezimal- und im Binärsystem",
+    "raw_marker": "[table:binaer_zahlensysteme:Zahlen im Dezimal- und im Binärsystem]",
+    "relation_type": "embeds_table",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "binaer_zahlensysteme",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA203]",
+    "relation_type": "references_question",
+    "sort_order": 15,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA203",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA205]",
+    "relation_type": "references_question",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA205",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA208]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA208",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "binaer_zahlensysteme",
+    "inline_label": null,
+    "raw_marker": "[ref:binaer_zahlensysteme]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "binaer_zahlensysteme",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "binar_stellenwert_dual",
+    "inline_label": null,
+    "raw_marker": "[ref:binar_stellenwert_dual]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "binar_stellenwert_dual",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "binar_stellenwert_dual",
+    "inline_label": "Stellenwerte der achtstelligen Dualzahl $\\num{10001110}$",
+    "raw_marker": "[table:binar_stellenwert_dual:Stellenwerte der achtstelligen Dualzahl $\\num{10001110}$]",
+    "relation_type": "embeds_table",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "binar_stellenwert_dual",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA202]",
+    "relation_type": "references_question",
+    "sort_order": 14,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA202",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "binar_stellenwert_dual",
+    "inline_label": null,
+    "raw_marker": "[ref:binar_stellenwert_dual]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "binar_stellenwert_dual",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA204]",
+    "relation_type": "references_question",
+    "sort_order": 13,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA204",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA207]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA207",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA206]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA206",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA201]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA201",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "binaer_stellenwert_dezimal",
+    "inline_label": null,
+    "raw_marker": "[ref:binaer_stellenwert_dezimal]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "binaer_stellenwert_dezimal",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "binaer_stellenwert_dezimal",
+    "inline_label": "Stellenwerte der vierstelligen Dezimalzahl $\\num{5573}$",
+    "raw_marker": "[table:binaer_stellenwert_dezimal:Stellenwerte der vierstelligen Dezimalzahl $\\num{5573}$]",
+    "relation_type": "embeds_table",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "binaer_stellenwert_dezimal",
+    "target_object_type": "table_object"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "active": true,
+  "asset_files": {
+    "image_path": "331.png"
+  },
+  "id": "ph_3af2091d8130",
+  "identifiers": [
+    {
+      "id_system": "photo_id",
+      "id_value": "331",
+      "preferred": true
+    },
+    {
+      "id_system": "file_stem",
+      "id_value": "331",
+      "preferred": false
+    }
+  ],
+  "languages": [],
+  "metadata": {
+    "asset": {
+      "image_path": "contents/photos/331.png"
+    }
+  },
+  "object_type": "photo",
+  "reconstruction": {
+    "strategy": "render_photo_description_file",
+    "targets": [
+      {
+        "kind": "rendered_description_file",
+        "path": "contents/photos/331.txt",
+        "slot_keys": [
+          "short_description",
+          "long_description"
+        ]
+      }
+    ]
+  },
+  "review_states": [],
+  "source": {
+    "format": "grouped_asset",
+    "key": "331",
+    "path": "translator/50ohm-contents-ch/contents/photos/331"
+  },
+  "text_slots": []
+}

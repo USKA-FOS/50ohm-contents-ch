@@ -1,1 +1,0 @@
-Kurse vor Ort und Online

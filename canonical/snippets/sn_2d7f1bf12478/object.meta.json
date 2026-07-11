@@ -1,0 +1,51 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "sn_2d7f1bf12478",
+  "identifiers": [
+    {
+      "id_system": "file_stem",
+      "id_value": "lernen_selbst_btn_digi",
+      "preferred": true
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "metadata": {},
+  "object_type": "snippet",
+  "reconstruction": {
+    "strategy": "replace_source_file",
+    "targets": [
+      {
+        "kind": "localized_text_file",
+        "path": "contents/snippets/lernen_selbst_btn_digi.md"
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    }
+  ],
+  "source": {
+    "format": "md",
+    "key": "lernen_selbst_btn_digi",
+    "path": "contents/snippets/lernen_selbst_btn_digi.md"
+  },
+  "text_slots": [
+    {
+      "slot_key": "body_markdown",
+      "slot_type": "markdown",
+      "sort_order": 0,
+      "storage": {
+        "files": {
+          "de": "body.de.md"
+        },
+        "kind": "text_file"
+      },
+      "translation_group_key": null
+    }
+  ]
+}

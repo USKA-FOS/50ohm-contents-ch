@@ -1,0 +1,51 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "sc_84bf0258a083",
+  "identifiers": [
+    {
+      "id_system": "file_stem",
+      "id_value": "langer_kurzer_weg_1",
+      "preferred": true
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "metadata": {},
+  "object_type": "section_article",
+  "reconstruction": {
+    "strategy": "replace_source_file",
+    "targets": [
+      {
+        "kind": "localized_text_file",
+        "path": "contents/sections/langer_kurzer_weg_1.md"
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    }
+  ],
+  "source": {
+    "format": "md",
+    "key": "langer_kurzer_weg_1",
+    "path": "contents/sections/langer_kurzer_weg_1.md"
+  },
+  "text_slots": [
+    {
+      "slot_key": "body_markdown",
+      "slot_type": "markdown",
+      "sort_order": 0,
+      "storage": {
+        "files": {
+          "de": "body.de.md"
+        },
+        "kind": "text_file"
+      },
+      "translation_group_key": null
+    }
+  ]
+}

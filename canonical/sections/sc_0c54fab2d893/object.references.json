@@ -1,0 +1,156 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA109]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA109",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_einheitenvorzeichen",
+    "inline_label": "Einheitenvorsätze für Zehnerpotenzen",
+    "raw_marker": "[table:e_einheitenvorzeichen:Einheitenvorsätze für Zehnerpotenzen]",
+    "relation_type": "embeds_table",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "e_einheitenvorzeichen",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA115]",
+    "relation_type": "references_question",
+    "sort_order": 13,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA115",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_taschenrechner",
+    "inline_label": null,
+    "raw_marker": "[ref:e_taschenrechner]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_taschenrechner",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA114]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA114",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA110]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA110",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_einheitenvorzeichen",
+    "inline_label": null,
+    "raw_marker": "[ref:e_einheitenvorzeichen]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_einheitenvorzeichen",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA113]",
+    "relation_type": "references_question",
+    "sort_order": 14,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA113",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA116]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA116",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_taschenrechner",
+    "inline_label": "Verschiedene Darstellungen der Zahl 0,007 in einer Taschenrechner-App",
+    "raw_marker": "[photo:172:e_taschenrechner:Verschiedene Darstellungen der Zahl 0,007 in einer Taschenrechner-App]",
+    "relation_type": "embeds_photo",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "172",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA108]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA108",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_einheitenvorzeichen",
+    "inline_label": null,
+    "raw_marker": "[ref:e_einheitenvorzeichen]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_einheitenvorzeichen",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA111]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA111",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA112]",
+    "relation_type": "references_question",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA112",
+    "target_object_type": "question"
+  }
+]

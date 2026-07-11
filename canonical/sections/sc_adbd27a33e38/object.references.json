@@ -1,0 +1,156 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VT005]",
+    "relation_type": "references_question",
+    "sort_order": 14,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VT005",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VT004]",
+    "relation_type": "references_question",
+    "sort_order": 13,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VT004",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_grenzwerte_pulse",
+    "inline_label": null,
+    "raw_marker": "[ref:e_grenzwerte_pulse]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_grenzwerte_pulse",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "e_grenzwerte_max",
+    "inline_label": "Visualisierung der Grenzwerte der 26. BImSchV, Tabelle 1a, Momentaner Spitzenwert",
+    "raw_marker": "[picture:980:e_grenzwerte_max:Visualisierung der Grenzwerte der 26. BImSchV, Tabelle 1a, Momentaner Spitzenwert]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "980",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EK102]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EK102",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VT002]",
+    "relation_type": "references_question",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VT002",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EK101]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EK101",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_grenzwerte_avg",
+    "inline_label": null,
+    "raw_marker": "[ref:e_grenzwerte_avg]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_grenzwerte_avg",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VT001]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VT001",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EK103]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EK103",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_grenzwerte_pulse",
+    "inline_label": "Visualisierung der Grenzwerte der 26. BImSchV, Anhang 3, Gepulste Felder",
+    "raw_marker": "[picture:981:e_grenzwerte_pulse:Visualisierung der Grenzwerte der 26. BImSchV, Anhang 3, Gepulste Felder]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "981",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "e_grenzwerte_max",
+    "inline_label": null,
+    "raw_marker": "[ref:e_grenzwerte_max]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_grenzwerte_max",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EK109]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EK109",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_grenzwerte_avg",
+    "inline_label": "Visualisierung der Grenzwerte der 26. BImSchV, Tabelle 1b, 6-Minuten-Intervalle",
+    "raw_marker": "[picture:979:e_grenzwerte_avg:Visualisierung der Grenzwerte der 26. BImSchV, Tabelle 1b, 6-Minuten-Intervalle]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "979",
+    "target_object_type": "drawing"
+  }
+]

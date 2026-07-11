@@ -1,8 +1,0 @@
-Le rapport signal/bruit (SNR) est défini comme le rapport entre le signal utile et le bruit (Noise). Plus le SNR d'un signal reçu est élevé, plus le signal utile se distingue du bruit pour une bande passante donnée.
-
-[question:AF227]
-
-Le facteur de bruit est souvent indiqué pour les préamplificateurs HF. Celui-ci décrit la dégradation du SNR lors du passage d'un signal à travers ce composant. Dans ce cas, le facteur de bruit est déterminé comme le rapport entre la valeur SNR entrante et la valeur SNR sortante. Le facteur de bruit peut être converti en bruit de fond (en utilisant la logarithme ($\unit{\dB}$)). Un facteur de bruit de $\num{2}$ correspond par exemple à un bruit de fond de $\qty{3}{\dB}$.
-
-[question:AF228]
-[question:AF229]

@@ -1,0 +1,80 @@
+{
+  "active": true,
+  "asset_files": {
+    "image_path": "103.png"
+  },
+  "id": "ph_565d0df91fe7",
+  "identifiers": [
+    {
+      "id_system": "photo_id",
+      "id_value": "103",
+      "preferred": true
+    },
+    {
+      "id_system": "file_stem",
+      "id_value": "103",
+      "preferred": false
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "metadata": {
+    "asset": {
+      "image_path": "contents/photos/103.png"
+    }
+  },
+  "object_type": "photo",
+  "reconstruction": {
+    "strategy": "render_photo_description_file",
+    "targets": [
+      {
+        "kind": "rendered_description_file",
+        "path": "contents/photos/103.txt",
+        "slot_keys": [
+          "short_description",
+          "long_description"
+        ]
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    }
+  ],
+  "source": {
+    "format": "grouped_asset",
+    "key": "103",
+    "path": "translator/50ohm-contents-ch/contents/photos/103"
+  },
+  "text_slots": [
+    {
+      "slot_key": "short_description",
+      "slot_type": "plain_text",
+      "sort_order": 1,
+      "storage": {
+        "files": {
+          "de": "content.de.json"
+        },
+        "json_field": "short_description",
+        "kind": "json_file"
+      },
+      "translation_group_key": "photo:srSxuM2XBWDZ4WpzZo2uX"
+    },
+    {
+      "slot_key": "long_description",
+      "slot_type": "plain_text",
+      "sort_order": 2,
+      "storage": {
+        "files": {
+          "de": "content.de.json"
+        },
+        "json_field": "long_description",
+        "kind": "json_file"
+      },
+      "translation_group_key": "photo:srSxuM2XBWDZ4WpzZo2uX"
+    }
+  ]
+}

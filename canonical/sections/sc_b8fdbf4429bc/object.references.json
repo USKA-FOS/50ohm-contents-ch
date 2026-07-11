@@ -1,0 +1,101 @@
+[
+  {
+    "inline_alias": "n_morsetelegrafie_morsecode_ziffern_satzzeichen",
+    "inline_label": null,
+    "raw_marker": "[ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_morsetelegrafie_morsecode_ziffern_satzzeichen",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VA304]",
+    "relation_type": "references_question",
+    "sort_order": 60,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VA304",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_morsetelegrafie_morsecode_ziffern_satzzeichen",
+    "inline_label": "Morsecode (Ziffern und Satzzeichen)",
+    "raw_marker": "[table:n_morsetelegrafie_morsecode_ziffern_satzzeichen:Morsecode (Ziffern und Satzzeichen)]",
+    "relation_type": "embeds_table",
+    "sort_order": 52,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "n_morsetelegrafie_morsecode_ziffern_satzzeichen",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": "n_morsetelegrafie_morsecode_buchstaben",
+    "inline_label": null,
+    "raw_marker": "[ref:n_morsetelegrafie_morsecode_buchstaben]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_morsetelegrafie_morsecode_buchstaben",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE117]",
+    "relation_type": "references_question",
+    "sort_order": 61,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE117",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_morsetelegrafie_morsecode_spezial",
+    "inline_label": null,
+    "raw_marker": "[ref:n_morsetelegrafie_morsecode_spezial]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_morsetelegrafie_morsecode_spezial",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_morsetelegrafie_morsecode_spezial",
+    "inline_label": "Morsecode (besondere Zeichen, Auswahl)",
+    "raw_marker": "[table:n_morsetelegrafie_morsecode_spezial:Morsecode (besondere Zeichen, Auswahl)]",
+    "relation_type": "embeds_table",
+    "sort_order": 59,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "n_morsetelegrafie_morsecode_spezial",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE118]",
+    "relation_type": "references_question",
+    "sort_order": 62,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE118",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_morsetelegrafie_morsecode_buchstaben",
+    "inline_label": "Morsecode (Buchstaben)",
+    "raw_marker": "[table:n_morsetelegrafie_morsecode_buchstaben:Morsecode (Buchstaben)]",
+    "relation_type": "embeds_table",
+    "sort_order": 35,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "n_morsetelegrafie_morsecode_buchstaben",
+    "target_object_type": "table_object"
+  }
+]

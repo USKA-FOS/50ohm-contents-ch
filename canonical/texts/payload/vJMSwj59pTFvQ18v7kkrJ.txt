@@ -1,9 +1,0 @@
-Andiamo ora più nel dettaglio del convertitore digitale-analogico (DAC), l'opposto del convertitore analogico-digitale (ADC). Il DAC genera nuovamente un segnale analogico da un flusso di dati digitali (campioni). Naturalmente, anche il DAC, proprio come l'ADC, non può generare valori di ampiezza arbitrariamente precisi, ma ha, proprio come l'ADC, una risoluzione massima (in bit). Ciò significa che esiste anche un numero finito di valori di segnale analogico che il DAC può generare. Il numero di livelli possibili si calcola come descritto in precedenza per l'ADC.
-
-[question:AF609]
-
-Un DAC può generare sempre solo tensioni all'interno di un determinato intervallo di valori (ad esempio, da $\qty{0}{\volt}$ a $\qty{1}{\volt}$ o da $\qty{-2}{\volt}$ a $\qty{2}{\volt}$). In questo caso, il numero di livelli descritti in precedenza (risoluzione del DAC) si distribuisce sull'intervallo di valori per un DAC che opera linearmente (lineare significa qui che la distanza tra i singoli livelli è sempre la stessa). Se il DAC ha, ad esempio, una risoluzione di soli $\qty{4}{\bit}$, abbiamo $\num{16}$ livelli possibili. Questi si distribuiscono poi, ad esempio, su un intervallo di valori di tensione da $\qty{0}{\volt}$ a $\qty{1}{\volt}$. Per calcolare il passo tra due livelli, è sufficiente dividere l'intervallo di valori per il numero di livelli possibili. Nel nostro esempio precedente, ciò dà una distanza (passo) di $\qty{6,25}{\milli\volt}$.
-
-[question:AF611]
-[question:AF610]
-

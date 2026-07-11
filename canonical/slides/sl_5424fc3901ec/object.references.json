@@ -1,0 +1,35 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EI101]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EI101",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EI102]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EI102",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_strom_und_spannungsmessung",
+    "inline_label": "Korrekte Anordnung zur Messung von Strom und Spannung an einem Widerstand",
+    "raw_marker": "[picture:238:e_strom_und_spannungsmessung:Korrekte Anordnung zur Messung von Strom und Spannung an einem Widerstand]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "238",
+    "target_object_type": "drawing"
+  }
+]

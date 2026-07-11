@@ -1,0 +1,68 @@
+[
+  {
+    "inline_alias": "e_wellenausbreitung_refraktion",
+    "inline_label": "Refraktion an Schichten der Ionosphäre",
+    "raw_marker": "[picture:865:e_wellenausbreitung_refraktion:Refraktion an Schichten der Ionosphäre]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "865",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AH213]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AH213",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AH212]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AH212",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_sprungdistanz_2",
+    "inline_label": "Simulation der Sprungdistanz in Abhängigkeit von Jahreszeit sowie Tag und Nacht im $\\qty{80}{\\meter}$-Band bei $\\qty{45}{\\degree}$ Abstrahlwinkel; zusätzlich wirkt die Dämpfung der D-Schicht am Tag",
+    "raw_marker": "[picture:996:a_sprungdistanz_2:Simulation der Sprungdistanz in Abhängigkeit von Jahreszeit sowie Tag und Nacht im $\\qty{80}{\\meter}$-Band bei $\\qty{45}{\\degree}$ Abstrahlwinkel; zusätzlich wirkt die Dämpfung der D-Schicht am Tag]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "996",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_sprungdistanz_1",
+    "inline_label": "Simulation der Sprungdistanz in Abhängigkeit vom Abstrahlwinkel im $\\qty{40}{\\meter}$-Band, im Januar 2025",
+    "raw_marker": "[picture:994:a_sprungdistanz_1:Simulation der Sprungdistanz in Abhängigkeit vom Abstrahlwinkel im $\\qty{40}{\\meter}$-Band, im Januar 2025]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "994",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_sprungdistanz_3",
+    "inline_label": "Simulation der Sprungdistanz in Abhängigkeit der Frequenz bei $\\qty{45}{\\degree}$ Abstrahlwinkel, im Januar 2025",
+    "raw_marker": "[picture:995:a_sprungdistanz_3:Simulation der Sprungdistanz in Abhängigkeit der Frequenz bei $\\qty{45}{\\degree}$ Abstrahlwinkel, im Januar 2025]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "995",
+    "target_object_type": "drawing"
+  }
+]

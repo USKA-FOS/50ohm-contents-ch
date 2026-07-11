@@ -1,0 +1,68 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD308]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD308",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_vollweggleichrichter",
+    "inline_label": "Vollweggleichrichtung mit zwei Dioden",
+    "raw_marker": "[picture:946:a_vollweggleichrichter:Vollweggleichrichtung mit zwei Dioden]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "946",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD307]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD307",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[include:applet_gleichrichter_1]",
+    "relation_type": "includes_object",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "include_key",
+    "target_id_value": "applet_gleichrichter_1",
+    "target_object_type": "html_include"
+  },
+  {
+    "inline_alias": "a_vollweggleichrichter",
+    "inline_label": null,
+    "raw_marker": "[ref:a_vollweggleichrichter]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_vollweggleichrichter",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_vollweggleichrichter",
+    "inline_label": null,
+    "raw_marker": "[ref:a_vollweggleichrichter]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_vollweggleichrichter",
+    "target_object_type": null
+  }
+]

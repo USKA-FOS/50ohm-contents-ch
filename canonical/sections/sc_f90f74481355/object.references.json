@@ -1,0 +1,167 @@
+[
+  {
+    "inline_alias": "a_z_diode_kennlinie",
+    "inline_label": "Kennline einer Z-Diode",
+    "raw_marker": "[picture:862:a_z_diode_kennlinie:Kennline einer Z-Diode]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "862",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD320]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD320",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD318]",
+    "relation_type": "references_question",
+    "sort_order": 14,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD318",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_Festspannungsregler",
+    "inline_label": "Festspannungsregler",
+    "raw_marker": "[picture:200:a_Festspannungsregler:Festspannungsregler]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "200",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD319]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD319",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_stab_z_diode",
+    "inline_label": null,
+    "raw_marker": "[ref:a_stab_z_diode]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_stab_z_diode",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_z_diode_kennlinie",
+    "inline_label": null,
+    "raw_marker": "[ref:a_z_diode_kennlinie]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_z_diode_kennlinie",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD321]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD321",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_diskrete_pannungsstabilisierung",
+    "inline_label": "diskret aufgebaute Spannungsstabilisierung",
+    "raw_marker": "[picture:1079:a_diskrete_pannungsstabilisierung:diskret aufgebaute Spannungsstabilisierung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1079",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD315]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD315",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_stab_z_diode",
+    "inline_label": "Spannungsstabilisierung mit Z-Diode",
+    "raw_marker": "[picture:323:a_stab_z_diode:Spannungsstabilisierung mit Z-Diode]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "323",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_Festspannungsregler",
+    "inline_label": "Festspannungsregler für $\\qty{5}{\\volt}$, $\\qty{12}{\\volt}$ und $\\qty{9}{\\volt}$ auf Kühlkörper",
+    "raw_marker": "[photo:245:a_Festspannungsregler:Festspannungsregler für $\\qty{5}{\\volt}$, $\\qty{12}{\\volt}$ und $\\qty{9}{\\volt}$ auf Kühlkörper]",
+    "relation_type": "embeds_photo",
+    "sort_order": 15,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "245",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD317]",
+    "relation_type": "references_question",
+    "sort_order": 13,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD317",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD316]",
+    "relation_type": "references_question",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD316",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_Längstransistor 2N3055 auf Kühlkörper",
+    "inline_label": "Der Längstransistor in einem linear geregelten Netzteil muss große Verlustleistungen aushalten und wird deshalb auf einen Kühlkörper montiert.",
+    "raw_marker": "[photo:246:a_Längstransistor 2N3055 auf Kühlkörper:Der Längstransistor in einem linear geregelten Netzteil muss große Verlustleistungen aushalten und wird deshalb auf einen Kühlkörper montiert.]",
+    "relation_type": "embeds_photo",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "246",
+    "target_object_type": "photo"
+  }
+]

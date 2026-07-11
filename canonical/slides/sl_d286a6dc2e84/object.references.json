@@ -1,0 +1,123 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB411]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB411",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_periode_amplitude",
+    "inline_label": "Periode und Amplitude in einer Sinusschwingung",
+    "raw_marker": "[picture:790:e_periode_amplitude:Periode und Amplitude in einer Sinusschwingung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "790",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "e_oszilloskop_verzerrt",
+    "inline_label": "sinusförmiges Eingangssignal (oben) und verzerrtes Ausgangsignal eines übersteuerten Verstärkers",
+    "raw_marker": "[photo:215:e_oszilloskop_verzerrt:sinusförmiges Eingangssignal (oben) und verzerrtes Ausgangsignal eines übersteuerten Verstärkers]",
+    "relation_type": "embeds_photo",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "215",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB410]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB410",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EI302]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EI302",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EI301]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EI301",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[include:applet_sinus_amplitude_und_periode]",
+    "relation_type": "includes_object",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "include_key",
+    "target_id_value": "applet_sinus_amplitude_und_periode",
+    "target_object_type": "html_include"
+  },
+  {
+    "inline_alias": "e_sinuswelle_oszilloskop",
+    "inline_label": "Eine Sinuswelle auf dem Bildschirm eine Oszilloskops",
+    "raw_marker": "[picture:36:e_sinuswelle_oszilloskop:Eine Sinuswelle auf dem Bildschirm eine Oszilloskops]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "36",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB409]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB409",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EI304]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EI304",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB408]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB408",
+    "target_object_type": "question"
+  }
+]

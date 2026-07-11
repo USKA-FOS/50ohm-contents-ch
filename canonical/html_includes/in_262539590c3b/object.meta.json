@@ -1,0 +1,51 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "in_262539590c3b",
+  "identifiers": [
+    {
+      "id_system": "file_stem",
+      "id_value": "maidenhead",
+      "preferred": true
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "metadata": {},
+  "object_type": "html_include",
+  "reconstruction": {
+    "strategy": "replace_source_file",
+    "targets": [
+      {
+        "kind": "localized_text_file",
+        "path": "contents/html/maidenhead.html"
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    }
+  ],
+  "source": {
+    "format": "html",
+    "key": "maidenhead",
+    "path": "contents/html/maidenhead.html"
+  },
+  "text_slots": [
+    {
+      "slot_key": "body_html",
+      "slot_type": "html",
+      "sort_order": 0,
+      "storage": {
+        "files": {
+          "de": "body.de.html"
+        },
+        "kind": "text_file"
+      },
+      "translation_group_key": null
+    }
+  ]
+}

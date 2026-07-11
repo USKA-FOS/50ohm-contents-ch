@@ -1,0 +1,48 @@
+{
+  "active": true,
+  "asset_files": {
+    "svg_path": "1041.svg",
+    "tex_path": "1041.tex"
+  },
+  "id": "dr_7c39a7d3740a",
+  "identifiers": [
+    {
+      "id_system": "drawing_id",
+      "id_value": "1041",
+      "preferred": true
+    },
+    {
+      "id_system": "file_stem",
+      "id_value": "1041",
+      "preferred": false
+    }
+  ],
+  "languages": [],
+  "metadata": {
+    "asset": {
+      "svg_path": "contents/drawings/1041.svg",
+      "tex_path": "contents/drawings/1041.tex"
+    }
+  },
+  "object_type": "drawing",
+  "reconstruction": {
+    "strategy": "render_drawing_description_file",
+    "targets": [
+      {
+        "kind": "rendered_description_file",
+        "path": "contents/drawings/1041.txt",
+        "slot_keys": [
+          "short_description",
+          "long_description"
+        ]
+      }
+    ]
+  },
+  "review_states": [],
+  "source": {
+    "format": "grouped_asset",
+    "key": "1041",
+    "path": "translator/50ohm-contents-ch/contents/drawings/1041"
+  },
+  "text_slots": []
+}

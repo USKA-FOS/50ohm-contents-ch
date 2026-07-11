@@ -1,0 +1,134 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EC206]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EC206",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EC201]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EC201",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EA101]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EA101",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EC204]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EC204",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EC205]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EC205",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_kondensator_aufbau",
+    "inline_label": "Prinzipieller Aufbau eines Kondensators",
+    "raw_marker": "[picture:922:e_kondensator_aufbau:Prinzipieller Aufbau eines Kondensators]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "922",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "e_kondensator_elkos",
+    "inline_label": "Elektrolytkondensatoren mit Markierung des Minus-Pols",
+    "raw_marker": "[photo:198:e_kondensator_elkos:Elektrolytkondensatoren mit Markierung des Minus-Pols]",
+    "relation_type": "embeds_photo",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "198",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EC207]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EC207",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_kondensator_drehkondensator",
+    "inline_label": "Drehkondensator",
+    "raw_marker": "[picture:840:e_kondensator_drehkondensator:Drehkondensator]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "840",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "e_ladekurve_kondensator",
+    "inline_label": "Ladekurve eines Kondensators",
+    "raw_marker": "[picture:185:e_ladekurve_kondensator:Ladekurve eines Kondensators]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "185",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EC203]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EC203",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EC202]",
+    "relation_type": "references_question",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EC202",
+    "target_object_type": "question"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NA213]",
+    "relation_type": "references_question",
+    "sort_order": 15,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NA213",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NB405]",
+    "relation_type": "references_question",
+    "sort_order": 14,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NB405",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "amplitude_periode_perioden",
+    "inline_label": "Perioden einer Sinusschwingung",
+    "raw_marker": "[picture:728:amplitude_periode_perioden:Perioden einer Sinusschwingung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "728",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[include:applet_sinus_amplitude_und_periode]",
+    "relation_type": "includes_object",
+    "sort_order": 13,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "include_key",
+    "target_id_value": "applet_sinus_amplitude_und_periode",
+    "target_object_type": "html_include"
+  },
+  {
+    "inline_alias": "amplitude_periode_amplitudee",
+    "inline_label": "Amplitude einer Sinusschwingung",
+    "raw_marker": "[picture:726:amplitude_periode_amplitudee: Amplitude einer Sinusschwingung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "726",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "amplitude_periode_halbwellen",
+    "inline_label": null,
+    "raw_marker": "[ref:amplitude_periode_halbwellen]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "amplitude_periode_halbwellen",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "amplitude_periode_perioden",
+    "inline_label": null,
+    "raw_marker": "[ref:amplitude_periode_perioden]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "amplitude_periode_perioden",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "amplitude_periode_amplitudee",
+    "inline_label": null,
+    "raw_marker": "[ref:amplitude_periode_amplitudee]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "amplitude_periode_amplitudee",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "amplitude_periode_halbwellen",
+    "inline_label": "Positive und negative Halbwellen einer Sinusschwingung",
+    "raw_marker": "[picture:727:amplitude_periode_halbwellen:Positive und negative Halbwellen einer Sinusschwingung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "727",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NB404]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NB404",
+    "target_object_type": "question"
+  }
+]

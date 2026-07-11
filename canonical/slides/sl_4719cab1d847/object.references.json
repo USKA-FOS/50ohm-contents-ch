@@ -1,0 +1,35 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[include:applet_interferenz]",
+    "relation_type": "includes_object",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "include_key",
+    "target_id_value": "applet_interferenz",
+    "target_object_type": "html_include"
+  },
+  {
+    "inline_alias": "a_mehrwegeausbreitung_reflexion",
+    "inline_label": "Mehrwegeausbreitung durch Reflexion",
+    "raw_marker": "[picture:1064:a_mehrwegeausbreitung_reflexion:Mehrwegeausbreitung durch Reflexion]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1064",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AH222]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AH222",
+    "target_object_type": "question"
+  }
+]

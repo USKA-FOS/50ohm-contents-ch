@@ -1,7 +1,0 @@
-I convertitori A/D e D/A sono utilizzati in ricevitori e trasmettitori-ricevitori SDR in vari punti. I segnali di ingresso analogici vengono digitalizzati da un convertitore A/D, quindi elaborati digitalmente, e poi ricostruiti tramite un convertitore D/A in segnali analogici per ulteriore elaborazione o uscita. Naturalmente, è possibile che un segnale di ingresso, a causa della sua grandezza, non sfrutti l'intero intervallo di valori del convertitore A/D e del successivo convertitore D/A. Di conseguenza, questo segnale verrà mappato solo su un intervallo di valori più piccolo dei livelli digitali possibili. È anche concepibile che il segnale di ingresso possa assumere valori superiori all'intervallo di valori massimo del convertitore A/D o D/A. In questo caso, un convertitore A/D sarà in grado di mappare correttamente il segnale solo fino alla tensione di ingresso massima del convertitore. Valori superiori potranno essere mappati solo con il valore massimo del convertitore A/D. In questo caso si parla anche di clipping (in italiano, troncamento) del segnale. Questo si manifesta con parti troncate nelle aree massime del segnale, che corrono come una linea retta con il valore massimo del convertitore A/D.
-
-Più alta è la risoluzione di un convertitore A/D e D/A, più "finemente" i valori di ampiezza del segnale possono essere mappati digitalmente e anche ricostruiti. Una bassa risoluzione, al contrario, porta a campionare o ricostruire i segnali a gradini.
-
-[question:AF613]
-[question:AF612]
-[question:AF614]

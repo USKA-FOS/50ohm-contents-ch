@@ -1,5 +1,0 @@
-Se $R_1$ non ha più contatto a causa di una saldatura difettosa, la Base non viene più alimentata con una tensione di polarizzazione positiva tramite il Partitore di tensione.
-
-Tramite $R_2$, la Base si trova quindi praticamente al potenziale di Massa. Di conseguenza, la tensione Base-Emettitore è troppo bassa, non scorre corrente di Base e il Transistor blocca.
-
-Di conseguenza, non scorre più nemmeno corrente di Collettore. Non si verifica alcuna caduta di tensione su $R_C$, in modo che la tensione di Collettore aumenti fino alla tensione di servizio.

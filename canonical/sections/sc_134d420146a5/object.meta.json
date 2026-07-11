@@ -1,0 +1,51 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "sc_134d420146a5",
+  "identifiers": [
+    {
+      "id_system": "file_stem",
+      "id_value": "iaru_bandplan",
+      "preferred": true
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "metadata": {},
+  "object_type": "section_article",
+  "reconstruction": {
+    "strategy": "replace_source_file",
+    "targets": [
+      {
+        "kind": "localized_text_file",
+        "path": "contents/sections/iaru_bandplan.md"
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    }
+  ],
+  "source": {
+    "format": "md",
+    "key": "iaru_bandplan",
+    "path": "contents/sections/iaru_bandplan.md"
+  },
+  "text_slots": [
+    {
+      "slot_key": "body_markdown",
+      "slot_type": "markdown",
+      "sort_order": 0,
+      "storage": {
+        "files": {
+          "de": "body.de.md"
+        },
+        "kind": "text_file"
+      },
+      "translation_group_key": null
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG108]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG108",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG107]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG107",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG106]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG106",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_antenne_verkuerzung",
+    "inline_label": "Antenne mit Kondensator",
+    "raw_marker": "[picture:563:a_antenne_verkuerzung:Antenne mit Kondensator]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "563",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_antenne_verlaengerung",
+    "inline_label": "Antenne mit Spule",
+    "raw_marker": "[picture:650:a_antenne_verlaengerung:Antenne mit Spule]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "650",
+    "target_object_type": "drawing"
+  }
+]

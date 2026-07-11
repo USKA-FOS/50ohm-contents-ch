@@ -87,7 +87,29 @@ def export_artifacts(connection: sqlite3.Connection, target_root: Path) -> int:
     return count
 
 
-def overlay_object_texts(connection: sqlite3.Connection, target_root: Path, language: str) -> int:
+def append_usage(
+    usage: list[dict[str, Any]],
+    *,
+    path: str,
+    action: str,
+    origin: str,
+    object_id: str | None = None,
+    object_type: str | None = None,
+    slot_keys: list[str] | None = None,
+) -> None:
+    usage.append(
+        {
+            "path": path,
+            "action": action,
+            "origin": origin,
+            "object_id": object_id,
+            "object_type": object_type,
+            "slot_keys": slot_keys or [],
+        }
+    )
+
+
+def overlay_object_texts(connection: sqlite3.Connection, target_root: Path, language: str) -> dict[str, Any]:
     query = """
         SELECT o.id AS object_id, o.object_type, o.source_path, o.source_key,
                s.slot_key, lt.language, lt.text_value
@@ -111,10 +133,13 @@ def overlay_object_texts(connection: sqlite3.Connection, target_root: Path, lang
 
     by_object: dict[str, dict[str, Any]] = defaultdict(dict)
     written = 0
+    usage: list[dict[str, Any]] = []
     for (object_id, slot_key), payload in grouped.items():
         by_object[object_id]["object_type"] = payload["object_type"]
         by_object[object_id]["source_path"] = payload["source_path"]
         by_object[object_id]["source_key"] = payload["source_key"]
+        by_object[object_id]["object_id"] = object_id
+        by_object[object_id].setdefault("slot_keys", []).append(slot_key)
         by_object[object_id][slot_key] = choose_language(payload["texts"], language)
 
     for payload in by_object.values():
@@ -122,6 +147,15 @@ def overlay_object_texts(connection: sqlite3.Connection, target_root: Path, lang
         source_path = payload["source_path"]
         text = payload.get("body_markdown") or payload.get("body_html") or payload.get("body_text")
         if source_path and text is not None and source_path.startswith("contents/"):
+            append_usage(
+                usage,
+                path=str(source_path),
+                action="overwritten_from_canonical",
+                origin="content_object",
+                object_id=str(payload["object_id"]),
+                object_type=str(object_type),
+                slot_keys=sorted(payload.get("slot_keys", [])),
+            )
             (target_root / source_path).write_text(text, encoding="utf-8")
             written += 1
             continue
@@ -129,13 +163,23 @@ def overlay_object_texts(connection: sqlite3.Connection, target_root: Path, lang
             family = "photos" if object_type == "photo" else "drawings"
             short_text = payload.get("short_description") or ""
             long_text = payload.get("long_description") or short_text
-            target = target_root / "contents" / family / f"{payload['source_key']}.txt"
+            relative_target = Path("contents") / family / f"{payload['source_key']}.txt"
+            append_usage(
+                usage,
+                path=str(relative_target),
+                action="rendered_from_canonical",
+                origin="content_object",
+                object_id=str(payload["object_id"]),
+                object_type=str(object_type),
+                slot_keys=sorted(payload.get("slot_keys", [])),
+            )
+            target = target_root / relative_target
             target.write_text(
                 f"1) Kurzbeschreibung:\n{short_text}\n\n2) Ausführliche Beschreibung:\n{long_text}\n",
                 encoding="utf-8",
             )
             written += 1
-    return written
+    return {"written_files": written, "usage": usage}
 
 
 def children_by_parent(connection: sqlite3.Connection, source_path: str) -> dict[str | None, list[dict[str, Any]]]:
@@ -174,9 +218,10 @@ def apply_node_text(payload: dict[str, Any], text: dict[str, str | None] | None)
         payload["abstract"] = text["abstract"]
 
 
-def overlay_toc_texts(connection: sqlite3.Connection, target_root: Path, language: str) -> int:
+def overlay_toc_texts(connection: sqlite3.Connection, target_root: Path, language: str) -> dict[str, Any]:
     node_texts = localized_node_texts(connection, language)
     written = 0
+    usage: list[dict[str, Any]] = []
     for toc_path in sorted((target_root / "toc").glob("*.json")):
         source_path = str(toc_path.relative_to(target_root))
         children = children_by_parent(connection, source_path)
@@ -195,9 +240,18 @@ def overlay_toc_texts(connection: sqlite3.Connection, target_root: Path, languag
                 walk(child_payload, node["id"])
 
         walk(payload, root["id"])
+        append_usage(
+            usage,
+            path=source_path,
+            action="overwritten_from_canonical",
+            origin="curriculum_node",
+            object_id=str(root["id"]),
+            object_type=str(root["node_type"]),
+            slot_keys=["title", "abstract"],
+        )
         write_json(toc_path, payload)
         written += 1
-    return written
+    return {"written_files": written, "usage": usage}
 
 
 def iter_questions(payload: dict[str, Any]):
@@ -234,21 +288,81 @@ def stage_questions(target_root: Path, language: str) -> dict[str, Any]:
     # canonical question-pool build is the source of truth, so the upstream
     # compatibility file must be identical.
     write_json(questions_dir / "fragenkatalog_4pre.json", payload)
-    return {"question_catalog": str(source_build), "questions": question_count}
+    return {
+        "question_catalog": str(source_build),
+        "questions": question_count,
+        "usage": [
+            {
+                "path": "contents/questions/fragenkatalog_ch.json",
+                "action": "overwritten_from_question_pool",
+                "origin": "question_pool",
+                "object_id": None,
+                "object_type": "question_catalog_file",
+                "slot_keys": [],
+            },
+            {
+                "path": "contents/questions/fragenkatalog_4pre.json",
+                "action": "overwritten_from_question_pool",
+                "origin": "question_pool",
+                "object_id": None,
+                "object_type": "question_catalog_file",
+                "slot_keys": [],
+            },
+        ],
+    }
+
+
+def retained_support_artifacts(target_root: Path, usage_entries: list[dict[str, Any]]) -> list[str]:
+    replaced = {entry["path"] for entry in usage_entries}
+    retained: list[str] = []
+    for path in sorted(target_root.rglob("*")):
+        if not path.is_file():
+            continue
+        relative = str(path.relative_to(target_root))
+        if relative not in replaced:
+            retained.append(relative)
+    return retained
+
+
+def usage_action_counts(usage_entries: list[dict[str, Any]]) -> dict[str, int]:
+    counts: dict[str, int] = {}
+    for entry in usage_entries:
+        action = str(entry["action"])
+        counts[action] = counts.get(action, 0) + 1
+    return counts
 
 
 def stage_language(connection: sqlite3.Connection, language: str) -> dict[str, Any]:
     target_root = INPUT_ROOT / language
     artifact_count = export_artifacts(connection, target_root)
-    text_files = overlay_object_texts(connection, target_root, language)
-    toc_files = overlay_toc_texts(connection, target_root, language)
+    text_report = overlay_object_texts(connection, target_root, language)
+    toc_report = overlay_toc_texts(connection, target_root, language)
     question_info = stage_questions(target_root, language)
+    usage_entries = text_report["usage"] + toc_report["usage"] + question_info["usage"]
+    retained = retained_support_artifacts(target_root, usage_entries)
+    usage_report = {
+        "language": language,
+        "replaced_or_rendered": usage_entries,
+        "retained_paths": retained,
+        "retained_count": len(retained),
+        "action_counts": usage_action_counts(usage_entries),
+    }
+    usage_report_path = VALIDATION_ROOT / f"support-artifact-usage-{language}.json"
+    write_json(usage_report_path, usage_report)
     return {
         "input_root": str(target_root),
         "source_artifacts": artifact_count,
-        "localized_text_files": text_files,
-        "localized_toc_files": toc_files,
-        **question_info,
+        "localized_text_files": text_report["written_files"],
+        "localized_toc_files": toc_report["written_files"],
+        "question_catalog": question_info["question_catalog"],
+        "questions": question_info["questions"],
+        "support_artifact_usage": {
+            "report_path": str(usage_report_path),
+            "replaced_or_rendered_count": len(usage_entries),
+            "action_counts": usage_report["action_counts"],
+            "retained_paths": retained[:500],
+            "retained_count": len(retained),
+        },
     }
 
 

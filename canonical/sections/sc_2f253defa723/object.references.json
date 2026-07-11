@@ -1,0 +1,79 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB101]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB101",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB103]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB103",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_leitermodell",
+    "inline_label": "Atome (+) und bewegliche Elektronen (-) in einem metallischen Leiter",
+    "raw_marker": "[picture:713:a_leitermodell:Atome (+) und bewegliche Elektronen (-) in einem metallischen Leiter]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "713",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AB102]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AB102",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_spezifischer_widerstand",
+    "inline_label": "Spezifische Widerstände aus der Formelsammlung",
+    "raw_marker": "[table:a_spezifischer_widerstand:Spezifische Widerstände aus der Formelsammlung]",
+    "relation_type": "embeds_table",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "a_spezifischer_widerstand",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": "a_leitermodell",
+    "inline_label": null,
+    "raw_marker": "[ref:a_leitermodell]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_leitermodell",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_spezifischer_widerstand",
+    "inline_label": null,
+    "raw_marker": "[ref:a_spezifischer_widerstand]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_spezifischer_widerstand",
+    "target_object_type": null
+  }
+]

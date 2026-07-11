@@ -1,0 +1,24 @@
+[
+  {
+    "inline_alias": "n_yagi_uda",
+    "inline_label": "Yagi-Uda-Antenne mit Einspeisung am Dipol am vorletzten Element",
+    "raw_marker": "[picture:613:n_yagi_uda:Yagi-Uda-Antenne mit Einspeisung am Dipol am vorletzten Element]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "613",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NG108]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NG108",
+    "target_object_type": "question"
+  }
+]

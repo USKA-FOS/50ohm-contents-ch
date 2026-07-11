@@ -1,0 +1,167 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NB701]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NB701",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NB702]",
+    "relation_type": "references_question",
+    "sort_order": 13,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NB702",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_stromkreis_wasserkreislauf",
+    "inline_label": "Wasserkreislauf",
+    "raw_marker": "[picture:667:n_stromkreis_wasserkreislauf:Wasserkreislauf]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "667",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "n_stromkreis_offen",
+    "inline_label": null,
+    "raw_marker": "[ref:n_stromkreis_offen]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_stromkreis_offen",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_stromkreis_geschlossen",
+    "inline_label": null,
+    "raw_marker": "[ref:n_stromkreis_geschlossen]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_stromkreis_geschlossen",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_stromkreis_geschlossen",
+    "inline_label": null,
+    "raw_marker": "[ref:n_stromkreis_geschlossen]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_stromkreis_geschlossen",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_stromkreis_wasserkreislauf",
+    "inline_label": null,
+    "raw_marker": "[ref:n_stromkreis_wasserkreislauf]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_stromkreis_wasserkreislauf",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NB207]",
+    "relation_type": "references_question",
+    "sort_order": 15,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NB207",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NC101]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NC101",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_stromkreis_offen",
+    "inline_label": "Offener Stromkreis",
+    "raw_marker": "[picture:663:n_stromkreis_offen:Offener Stromkreis]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "663",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "n_stromkreis_schalter",
+    "inline_label": null,
+    "raw_marker": "[ref:n_stromkreis_schalter]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_stromkreis_schalter",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_stromkreis_widerstand",
+    "inline_label": null,
+    "raw_marker": "[ref:n_stromkreis_widerstand]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_stromkreis_widerstand",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_stromkreis_schalter",
+    "inline_label": "Schaltzeichen und Bauformen von Schaltern",
+    "raw_marker": "[photo:202:n_stromkreis_schalter:Schaltzeichen und Bauformen von Schaltern]",
+    "relation_type": "embeds_photo",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "202",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "n_stromkreis_geschlossen",
+    "inline_label": "Geschlossener Stromkreis",
+    "raw_marker": "[picture:662:n_stromkreis_geschlossen:Geschlossener Stromkreis]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "662",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "n_stromkreis_widerstand",
+    "inline_label": "Schaltzeichen und Bauformen von Widerständen",
+    "raw_marker": "[photo:203:n_stromkreis_widerstand:Schaltzeichen und Bauformen von Widerständen]",
+    "relation_type": "embeds_photo",
+    "sort_order": 14,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "203",
+    "target_object_type": "photo"
+  }
+]

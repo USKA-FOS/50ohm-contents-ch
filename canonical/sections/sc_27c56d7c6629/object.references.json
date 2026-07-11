@@ -1,0 +1,35 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[include:applet_aurora]",
+    "relation_type": "includes_object",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "include_key",
+    "target_id_value": "applet_aurora",
+    "target_object_type": "html_include"
+  },
+  {
+    "inline_alias": "e_aurora",
+    "inline_label": "Aurora am Notfunk Ausbildungswochenende im Mai 2024",
+    "raw_marker": "[photo:217:e_aurora:Aurora am Notfunk Ausbildungswochenende im Mai 2024]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "217",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EH305]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EH305",
+    "target_object_type": "question"
+  }
+]

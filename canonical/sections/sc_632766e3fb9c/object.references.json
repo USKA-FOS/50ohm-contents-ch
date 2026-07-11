@@ -1,0 +1,35 @@
+[
+  {
+    "inline_alias": "n_schwingung",
+    "inline_label": "Schwingung",
+    "raw_marker": "[picture:790:n_schwingung:Schwingung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "790",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "n_modulationsarten_am",
+    "inline_label": "Bei der Amplitudenmodulation (AM) wird die Amplitude einer elektrischen Schwingung verändert.",
+    "raw_marker": "[picture:905:n_modulationsarten_am:Bei der Amplitudenmodulation (AM) wird die Amplitude einer elektrischen Schwingung verändert.]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "905",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "n_modulationsarten_fm",
+    "inline_label": "Bei der Frequenzmodulation (FM) wird die Schwingungsdauer und somit die Frequenz verändert.",
+    "raw_marker": "[picture:906:n_modulationsarten_fm:Bei der Frequenzmodulation (FM) wird die Schwingungsdauer und somit die Frequenz verändert.]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "906",
+    "target_object_type": "drawing"
+  }
+]

@@ -1,1 +1,0 @@
-Aufstockungskurs N nach A

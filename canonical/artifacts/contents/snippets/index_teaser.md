@@ -1,1 +1,0 @@
-Wir bereiten dich auf die Prüfung zum Funkamateur vor. Unsere erfahrenen Ausbilder unterstützen dich auf dem gesamten Weg!

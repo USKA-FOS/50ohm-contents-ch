@@ -1,0 +1,68 @@
+[
+  {
+    "inline_alias": "m17_tnc",
+    "inline_label": "Module M17 ein TNC für das M17 Übertragungsverfahren",
+    "raw_marker": "[photo:185:m17_tnc:Module M17 ein TNC für das M17 Übertragungsverfahren]",
+    "relation_type": "embeds_photo",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "185",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "e_9600_port_fm_sender",
+    "inline_label": "FM-Sender mit Zuführung des $\\qty{9600}{\\baud}$-Baud-Datensignals an Punkt 2",
+    "raw_marker": "[picture:354:e_9600_port_fm_sender:FM-Sender mit Zuführung des $\\qty{9600}{\\baud}$-Baud-Datensignals an Punkt 2]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "354",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF219]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF219",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_9600_port_fm_empfaenger",
+    "inline_label": "FM-Empfänger mit Abgreifen des $\\qty{9600}{\\baud}$-Datensignals an Punkt 4",
+    "raw_marker": "[picture:355:e_9600_port_fm_empfaenger:FM-Empfänger mit Abgreifen des $\\qty{9600}{\\baud}$-Datensignals an Punkt 4]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "355",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF309]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF309",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_9600_port",
+    "inline_label": "Funkgerät mit DATA-Port",
+    "raw_marker": "[photo:303:e_9600_port:Funkgerät mit DATA-Port]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "303",
+    "target_object_type": "photo"
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "inline_alias": "a_qam",
+    "inline_label": null,
+    "raw_marker": "[ref:a_qam]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_qam",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_qpsk",
+    "inline_label": null,
+    "raw_marker": "[ref:a_qpsk]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_qpsk",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_qam",
+    "inline_label": "I-Q-Diagramm für ein 16-QAM-Mapping",
+    "raw_marker": "[picture:1061:a_qam:I-Q-Diagramm für ein 16-QAM-Mapping]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1061",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_qpsk",
+    "inline_label": "I-Q-Diagramm für ein QPSK-Mapping",
+    "raw_marker": "[picture:1059:a_qpsk:I-Q-Diagramm für ein QPSK-Mapping]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1059",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_qpsk",
+    "inline_label": null,
+    "raw_marker": "[ref:a_qpsk]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_qpsk",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_konstellation",
+    "inline_label": "Konstellationsdiagramm",
+    "raw_marker": "[picture:1060:a_konstellation:Konstellationsdiagramm]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1060",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_konstellation",
+    "inline_label": null,
+    "raw_marker": "[ref:a_konstellation]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_konstellation",
+    "target_object_type": null
+  }
+]

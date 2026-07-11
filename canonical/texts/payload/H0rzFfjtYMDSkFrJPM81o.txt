@@ -1,5 +1,0 @@
-
-Comme déjà mentionné brièvement, un filtre correspondant doit être inséré avant le convertisseur A/N pour supprimer les composantes de signal de fréquences plus élevées. On appelle un tel filtre également un filtre anti-repliement. En tant que types de filtres, on peut utiliser ici à la fois des filtres passe-bas et des filtres passe-bande. Le filtre doit être conçu de telle sorte que les composantes de signal situées au-dessus de la moitié de la fréquence d'échantillonnage soient efficacement supprimées. Nous nous souvenons que pour l'échantillonnage d'un signal, plus du double de la fréquence d'échantillonnage de la fréquence du signal à capturer est nécessaire.
-
-[question:AF622]
-[question:AF623]

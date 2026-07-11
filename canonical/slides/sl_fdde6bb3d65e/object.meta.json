@@ -1,0 +1,51 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "sl_fdde6bb3d65e",
+  "identifiers": [
+    {
+      "id_system": "file_stem",
+      "id_value": "intermodulation_kreuzmodulation",
+      "preferred": true
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "metadata": {},
+  "object_type": "slide_article",
+  "reconstruction": {
+    "strategy": "replace_source_file",
+    "targets": [
+      {
+        "kind": "localized_text_file",
+        "path": "contents/slides/intermodulation_kreuzmodulation.md"
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    }
+  ],
+  "source": {
+    "format": "md",
+    "key": "intermodulation_kreuzmodulation",
+    "path": "contents/slides/intermodulation_kreuzmodulation.md"
+  },
+  "text_slots": [
+    {
+      "slot_key": "body_markdown",
+      "slot_type": "markdown",
+      "sort_order": 0,
+      "storage": {
+        "files": {
+          "de": "body.de.md"
+        },
+        "kind": "text_file"
+      },
+      "translation_group_key": null
+    }
+  ]
+}

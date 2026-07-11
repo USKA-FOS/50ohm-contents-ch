@@ -1,0 +1,35 @@
+[
+  {
+    "inline_alias": "e_dnr",
+    "inline_label": "DNR Taste am Kurzwellenfunkgerät FT-710",
+    "raw_marker": "[photo:326:e_dnr:DNR Taste am Kurzwellenfunkgerät FT-710]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "326",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF213]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF213",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF214]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF214",
+    "target_object_type": "question"
+  }
+]

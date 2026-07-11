@@ -1,1 +1,0 @@
-Bringe dir das nötige Wissen für die Amateurfunkprüfung einfach selber bei. Unser Lernmaterial hilft dir auf deinem Weg!

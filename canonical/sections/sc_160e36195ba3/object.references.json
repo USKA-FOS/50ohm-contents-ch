@@ -1,0 +1,101 @@
+[
+  {
+    "inline_alias": "a_brueckenlgeichrichter",
+    "inline_label": "Brückengleichrichter",
+    "raw_marker": "[picture:965:a_brueckenlgeichrichter:Brückengleichrichter]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "965",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_netzteil_Ucs",
+    "inline_label": null,
+    "raw_marker": "[ref:a_netzteil_Ucs]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_netzteil_Ucs",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD306]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD306",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD305]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD305",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_netzteil_Ucs",
+    "inline_label": "Gleichrichterschaltung mit Siebung",
+    "raw_marker": "[picture:66:a_netzteil_Ucs:Gleichrichterschaltung mit Siebung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "66",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_brueckenlgeichrichter",
+    "inline_label": null,
+    "raw_marker": "[ref:a_brueckenlgeichrichter]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_brueckenlgeichrichter",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[include:applet_gleichrichter_2]",
+    "relation_type": "includes_object",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "include_key",
+    "target_id_value": "applet_gleichrichter_2",
+    "target_object_type": "html_include"
+  },
+  {
+    "inline_alias": "Brückengleichrichter Bauformen",
+    "inline_label": "Bauformen von Brückengleichrichtern",
+    "raw_marker": "[photo:296: Brückengleichrichter Bauformen: Bauformen von Brückengleichrichtern]",
+    "relation_type": "embeds_photo",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "296",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "a_brueckenlgeichrichter_2",
+    "inline_label": "Anordnung der Dioden im Brückengleichrichter",
+    "raw_marker": "[picture:67:a_brueckenlgeichrichter_2:Anordnung der Dioden im Brückengleichrichter]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "67",
+    "target_object_type": "drawing"
+  }
+]

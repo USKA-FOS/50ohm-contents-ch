@@ -1,0 +1,24 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NG101]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NG101",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_trx_kabel_und_antenne",
+    "inline_label": "Schematische Darstellung einer Amateurfunkstation mit Funkgerät, Speiseleitung und Antenne",
+    "raw_marker": "[picture:657:n_trx_kabel_und_antenne:Schematische Darstellung einer Amateurfunkstation mit Funkgerät, Speiseleitung und Antenne]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "657",
+    "target_object_type": "drawing"
+  }
+]

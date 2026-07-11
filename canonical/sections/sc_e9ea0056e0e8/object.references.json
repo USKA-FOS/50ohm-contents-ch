@@ -1,0 +1,57 @@
+[
+  {
+    "inline_alias": "n_koaxsteckverbinder_pl_einbaubuchse",
+    "inline_label": "PL-Einbaubuchse",
+    "raw_marker": "[photo:70:n_koaxsteckverbinder_pl_einbaubuchse:PL-Einbaubuchse]",
+    "relation_type": "embeds_photo",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "70",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "n_koaxsteckverbinder_pl_stecker",
+    "inline_label": "PL-Stecker",
+    "raw_marker": "[photo:69:n_koaxsteckverbinder_pl_stecker:PL-Stecker]",
+    "relation_type": "embeds_photo",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "69",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "n_koaxsteckverbinder_pl_einbaubuchse",
+    "inline_label": null,
+    "raw_marker": "[ref:n_koaxsteckverbinder_pl_einbaubuchse]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_koaxsteckverbinder_pl_einbaubuchse",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NG202]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NG202",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_koaxsteckverbinder_pl_stecker",
+    "inline_label": null,
+    "raw_marker": "[ref:n_koaxsteckverbinder_pl_stecker]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_koaxsteckverbinder_pl_stecker",
+    "target_object_type": null
+  }
+]

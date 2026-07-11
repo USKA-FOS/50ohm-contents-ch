@@ -1,0 +1,90 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NB703]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NB703",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NC402]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NC402",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_halbleiter_led",
+    "inline_label": "Schaltzeichen und Bauformen von LEDs",
+    "raw_marker": "[photo:205:n_halbleiter_led:Schaltzeichen und Bauformen von LEDs]",
+    "relation_type": "embeds_photo",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "205",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NC401]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NC401",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_halbleiter_diode_merkhilfe",
+    "inline_label": "Merkhilfe Diode",
+    "raw_marker": "[picture:666:n_halbleiter_diode_merkhilfe:Merkhilfe Diode]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "666",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NC403]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NC403",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_halbleiter_dioden",
+    "inline_label": "Schaltzeichen und Bauformen von Dioden",
+    "raw_marker": "[photo:204:n_halbleiter_dioden:Schaltzeichen und Bauformen von Dioden]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "204",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NC404]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NC404",
+    "target_object_type": "question"
+  }
+]

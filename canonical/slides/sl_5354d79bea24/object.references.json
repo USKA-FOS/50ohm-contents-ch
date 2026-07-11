@@ -1,0 +1,35 @@
+[
+  {
+    "inline_alias": "a_spannungsbauch_multiband",
+    "inline_label": "Eine endgespeiste Halbwellenantenne für das $\\qty{80}{\\meter}$-Band kann ohne Probleme auch für das $\\qty{20}{\\meter}$-Band genutzt werden. In diesem Fall bilden sich mehrere Spannungsbäuche aus. Deshalb ist Verletzungsgefahr nicht nur an den Antennenenden besonders hoch, das ist sie auch bei den Spannungsbäuchen dazwischen.",
+    "raw_marker": "[picture:852:a_spannungsbauch_multiband:Eine endgespeiste Halbwellenantenne für das $\\qty{80}{\\meter}$-Band kann ohne Probleme auch für das $\\qty{20}{\\meter}$-Band genutzt werden. In diesem Fall bilden sich mehrere Spannungsbäuche aus. Deshalb ist Verletzungsgefahr nicht nur an den Antennenenden besonders hoch, das ist sie auch bei den Spannungsbäuchen dazwischen.]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "852",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AK204]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AK204",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_spannungsbauch",
+    "inline_label": "Wie beim klassischen Dipol bilden sich bei der endgespeisten Halbwellenantenne an beiden Enden Spannungsbäuche. Dort ist eine Berührung besonders gefährlich",
+    "raw_marker": "[picture:851:a_spannungsbauch:Wie beim klassischen Dipol bilden sich bei der endgespeisten Halbwellenantenne an beiden Enden Spannungsbäuche. Dort ist eine Berührung besonders gefährlich]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "851",
+    "target_object_type": "drawing"
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "inline_alias": "demodulator_flankendiskriminator",
+    "inline_label": "Schwingkreis als Flankendiskriminator",
+    "raw_marker": "[picture:841:demodulator_flankendiskriminator:Schwingkreis als Flankendiskriminator]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "841",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD502]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD502",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "demodulator_huellkurvendemodulator_am_2",
+    "inline_label": "Hüllkurvendemodulator mit ZF-Eingangssignal",
+    "raw_marker": "[picture:607:demodulator_huellkurvendemodulator_am_2:Hüllkurvendemodulator mit ZF-Eingangssignal]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "607",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD504]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD504",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "demodulator_flankendiskriminator_schaltung",
+    "inline_label": "FM-Flankendiskriminator",
+    "raw_marker": "[picture:149:demodulator_flankendiskriminator_schaltung:FM-Flankendiskriminator]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "149",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD501]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD501",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD506]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD506",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "demodulator_huellkurvendemodulator_am",
+    "inline_label": "Hüllkurvendemodulator zur Demodulation von AM-Signalen",
+    "raw_marker": "[picture:141:demodulator_huellkurvendemodulator_am:Hüllkurvendemodulator zur Demodulation von AM-Signalen]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "141",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "demodulator_huellkurvendemodulator_am_abbx",
+    "inline_label": "Demoduliertes Signal am Punkt X",
+    "raw_marker": "[picture:146:demodulator_huellkurvendemodulator_am_abbx:Demoduliertes Signal am Punkt X]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "146",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_fm_demodulation_pll",
+    "inline_label": "Blockschaltbild einer FM-Demodulation mittels PLL",
+    "raw_marker": "[picture:77:a_fm_demodulation_pll:Blockschaltbild einer FM-Demodulation mittels PLL]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "77",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD505]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD505",
+    "target_object_type": "question"
+  }
+]

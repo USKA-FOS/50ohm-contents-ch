@@ -1,0 +1,79 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE413]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE413",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE414]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE414",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "netzwerk",
+    "inline_label": "Ausschnitt aus einer Netzwerk-Infrastruktur",
+    "raw_marker": "[picture:706:netzwerk:Ausschnitt aus einer Netzwerk-Infrastruktur]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "706",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE412]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE412",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[include:hamnet_map]",
+    "relation_type": "includes_object",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "include_key",
+    "target_id_value": "hamnet_map",
+    "target_object_type": "html_include"
+  },
+  {
+    "inline_alias": "netzmaske",
+    "inline_label": "IPv4-Adresse und Netzmaske in Dezimal- und Dualschreibweise",
+    "raw_marker": "[picture:699:netzmaske:IPv4-Adresse und Netzmaske in Dezimal- und Dualschreibweise]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "699",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "netzmaske",
+    "inline_label": null,
+    "raw_marker": "[ref:netzmaske]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "netzmaske",
+    "target_object_type": null
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "inline_alias": "n_rst_beispiele",
+    "inline_label": "Beispiele für RST-Rapporte im Sprechfunk",
+    "raw_marker": "[table:n_rst_beispiele:Beispiele für RST-Rapporte im Sprechfunk]",
+    "relation_type": "embeds_table",
+    "sort_order": 14,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "n_rst_beispiele",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE211]",
+    "relation_type": "references_question",
+    "sort_order": 17,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE211",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NF103]",
+    "relation_type": "references_question",
+    "sort_order": 19,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NF103",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_rst",
+    "inline_label": "Die Bestandteile des RST-Rapports",
+    "raw_marker": "[table:n_rst:Die Bestandteile des RST-Rapports]",
+    "relation_type": "embeds_table",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "n_rst",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE202]",
+    "relation_type": "references_question",
+    "sort_order": 15,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE202",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE208]",
+    "relation_type": "references_question",
+    "sort_order": 25,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE208",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NF301]",
+    "relation_type": "references_question",
+    "sort_order": 20,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NF301",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_rst_r",
+    "inline_label": null,
+    "raw_marker": "[ref:n_rst_r]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_rst_r",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_rst_s-meter",
+    "inline_label": "Display eines IC9700-Transceivers, hervorgehoben ist das S-Meter, das den aktuellen Empfangspegel anzeigt",
+    "raw_marker": "[photo:123:n_rst_s-meter:Display eines IC9700-Transceivers, hervorgehoben ist das S-Meter, das den aktuellen Empfangspegel anzeigt]",
+    "relation_type": "embeds_photo",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "123",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE212]",
+    "relation_type": "references_question",
+    "sort_order": 18,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE212",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE209]",
+    "relation_type": "references_question",
+    "sort_order": 26,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE209",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE201]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE201",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE206]",
+    "relation_type": "references_question",
+    "sort_order": 23,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE206",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE203]",
+    "relation_type": "references_question",
+    "sort_order": 16,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE203",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE204]",
+    "relation_type": "references_question",
+    "sort_order": 21,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE204",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_rst_beispiele",
+    "inline_label": null,
+    "raw_marker": "[ref:n_rst_beispiele]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_rst_beispiele",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE207]",
+    "relation_type": "references_question",
+    "sort_order": 24,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE207",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_rst_r",
+    "inline_label": "Anhaltspunkte für die subjektive Bewertung der Lesbarkeit (Verständlichkeit)",
+    "raw_marker": "[table:n_rst_r:Anhaltspunkte für die subjektive Bewertung der Lesbarkeit (Verständlichkeit)]",
+    "relation_type": "embeds_table",
+    "sort_order": 13,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "n_rst_r",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE205]",
+    "relation_type": "references_question",
+    "sort_order": 22,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE205",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_rst_s-meter",
+    "inline_label": null,
+    "raw_marker": "[ref:n_rst_s-meter]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_rst_s-meter",
+    "target_object_type": null
+  }
+]

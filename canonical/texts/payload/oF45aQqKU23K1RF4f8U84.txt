@@ -1,5 +1,0 @@
-Si $R_1$ n'a plus de contact en raison d'une soudure défectueuse, la base n'est plus alimentée par un diviseur de tension avec une tension de polarisation positive.
-
-Par $R_2$, la base est alors pratiquement au potentiel de masse. Ainsi, la tension base-émetteur est trop faible, aucun courant de base ne circule et le transistor est bloqué.
-
-Ainsi, aucun courant de collecteur ne circule plus. Aucune tension ne chute sur $R_C$, de sorte que la tension de collecteur augmente à la tension de service.

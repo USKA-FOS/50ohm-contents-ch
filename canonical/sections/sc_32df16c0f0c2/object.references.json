@@ -1,0 +1,101 @@
+[
+  {
+    "inline_alias": "e_cdma",
+    "inline_label": null,
+    "raw_marker": "[ref:e_cdma]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_cdma",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "e_tdma",
+    "inline_label": "Zeitmultiplexing",
+    "raw_marker": "[picture:844:e_tdma:Zeitmultiplexing]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "844",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE410]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE410",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_fdma",
+    "inline_label": "Frequenzmultiplexing",
+    "raw_marker": "[picture:845:e_fdma:Frequenzmultiplexing]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "845",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "e_cdma",
+    "inline_label": "Codemultiplexing",
+    "raw_marker": "[picture:846:e_cdma:Codemultiplexing]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "846",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE409]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE409",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_fdma",
+    "inline_label": null,
+    "raw_marker": "[ref:e_fdma]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_fdma",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "e_tdma",
+    "inline_label": null,
+    "raw_marker": "[ref:e_tdma]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_tdma",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EE411]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EE411",
+    "target_object_type": "question"
+  }
+]

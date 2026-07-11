@@ -1,6 +1,0 @@
-
-Nella trasmissione ed elaborazione dei segnali si verificano ritardi. Dalla velocità della luce deriva il tempo impiegato da un'onda elettromagnetica per raggiungere il trasmettitore e il ricevitore. Nell'elaborazione dei segnali si verificano ulteriori ritardi, soprattutto a causa del buffering (in inglese "buffer") e dei filtri. A differenza dell'elaborazione digitale dei segnali, nei metodi analogici i ritardi percepibili sono rari, poiché di solito non vi è alcun buffering e vengono costruiti solo filtri relativamente semplici.
-
-Il ritardo porta a un tempo di percorrenza tra trasmettitore e ricevitore o tra l'ingresso e l'uscita di uno stadio di elaborazione. Questo tempo di percorrenza è chiamato latenza e viene misurato in secondi. Le latenze tipiche vanno da pochi millisecondi ad alcuni secondi.
-
-[question:AF637]

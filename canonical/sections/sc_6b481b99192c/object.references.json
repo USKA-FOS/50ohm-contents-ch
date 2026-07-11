@@ -1,0 +1,68 @@
+[
+  {
+    "inline_alias": "n_frequenz_elektrische_ladungen",
+    "inline_label": "Positiv und negativ geladene Teilchen gleichverteilt in einem Gegenstand.",
+    "raw_marker": "[picture:713:n_frequenz_elektrische_ladungen:Positiv und negativ geladene Teilchen gleichverteilt in einem Gegenstand.]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "713",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "n_frequenz_elektrische_ladungen",
+    "inline_label": null,
+    "raw_marker": "[ref:n_frequenz_elektrische_ladungen]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_frequenz_elektrische_ladungen",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_frequenz_strom_fliesst",
+    "inline_label": null,
+    "raw_marker": "[ref:n_frequenz_strom_fliesst]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_frequenz_strom_fliesst",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_ladungen",
+    "inline_label": null,
+    "raw_marker": "[ref:n_ladungen]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_ladungen",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_frequenz_strom_fliesst",
+    "inline_label": "Die Pole einer Batterie, am Minus-Pol befindet sich ein Überschuss an negativen Ladungen und am Plus-Pol ein Überschuss an positiven Ladungen, die Pole der Batterie sind verbunden, daher kann der Strom durch den Verbraucher fließen.",
+    "raw_marker": "[picture:714:n_frequenz_strom_fliesst:Die Pole einer Batterie, am Minus-Pol befindet sich ein Überschuss an negativen Ladungen und am Plus-Pol ein Überschuss an positiven Ladungen, die Pole der Batterie sind verbunden, daher kann der Strom durch den Verbraucher fließen.]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "714",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "n_ladungen",
+    "inline_label": "Anziehung und Abstoßung von Ladungen",
+    "raw_marker": "[picture:710:n_ladungen:Anziehung und Abstoßung von Ladungen]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "710",
+    "target_object_type": "drawing"
+  }
+]

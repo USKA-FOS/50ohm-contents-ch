@@ -1,0 +1,79 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD302]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD302",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_Restwelligkeit",
+    "inline_label": null,
+    "raw_marker": "[ref:a_Restwelligkeit]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_Restwelligkeit",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD303]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD303",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_einweggleichrichtung_c",
+    "inline_label": null,
+    "raw_marker": "[ref:a_einweggleichrichtung_c]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_einweggleichrichtung_c",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD304]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD304",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_Restwelligkeit",
+    "inline_label": "Welligkeit der Ausgangsgleichspannung $U_L$",
+    "raw_marker": "[picture:75:a_Restwelligkeit:Welligkeit der Ausgangsgleichspannung $U_L$]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "75",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_einweggleichrichtung_c",
+    "inline_label": "Einweggleichrichtung mit Kondensator",
+    "raw_marker": "[picture:795:a_einweggleichrichtung_c:Einweggleichrichtung mit Kondensator]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "795",
+    "target_object_type": "drawing"
+  }
+]

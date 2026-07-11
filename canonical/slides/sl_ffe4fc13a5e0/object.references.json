@@ -1,0 +1,90 @@
+[
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BC106]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BC106",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_frequenzspektrum_bereiche",
+    "inline_label": "Die Frequenzbereiche von $\\qty{30}{\\kilo\\hertz}$ bis $\\qty{300}{\\giga\\hertz}$ und ihre üblichen Bezeichnungen.",
+    "raw_marker": "[table:n_frequenzspektrum_bereiche:Die Frequenzbereiche von $\\qty{30}{\\kilo\\hertz}$ bis $\\qty{300}{\\giga\\hertz}$ und ihre üblichen Bezeichnungen.]",
+    "relation_type": "embeds_table",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "n_frequenzspektrum_bereiche",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BC102]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BC102",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BC105]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BC105",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_frequenzspektrum",
+    "inline_label": "Spektrum der elektromagnetischen Wellen",
+    "raw_marker": "[picture:471:n_frequenzspektrum:Spektrum der elektromagnetischen Wellen]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "471",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BC104]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BC104",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BC103]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BC103",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BC101]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BC101",
+    "target_object_type": "question"
+  }
+]

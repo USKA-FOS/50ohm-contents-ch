@@ -1,0 +1,123 @@
+[
+  {
+    "inline_alias": "e_uebertragungsleitungen_huehnerleiter",
+    "inline_label": null,
+    "raw_marker": "[ref:e_uebertragungsleitungen_huehnerleiter]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_uebertragungsleitungen_huehnerleiter",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EG306]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EG306",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_uebertragungsleitungen_n_stecker_buchse",
+    "inline_label": "N-Buchse und N-Stecker",
+    "raw_marker": "[photo:73:e_uebertragungsleitungen_n_stecker_buchse:N-Buchse und N-Stecker]",
+    "relation_type": "embeds_photo",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "73",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EG302]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EG302",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EG303]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EG303",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EG305]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EG305",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_uebertragungsleitungen_huehnerleiter",
+    "inline_label": "Paralleldraht-Speiseleitung (Hühnerleiter)",
+    "raw_marker": "[photo:324:e_uebertragungsleitungen_huehnerleiter:Paralleldraht-Speiseleitung (Hühnerleiter)]",
+    "relation_type": "embeds_photo",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "324",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "e_uebertragungsleitungen_koaxialkabel",
+    "inline_label": "Geöffnetes Koaxialkabel aus Mantel, Schirmung, Dielektrikum und Innenleiter",
+    "raw_marker": "[photo:65:e_uebertragungsleitungen_koaxialkabel:Geöffnetes Koaxialkabel aus Mantel, Schirmung, Dielektrikum und Innenleiter]",
+    "relation_type": "embeds_photo",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "65",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EG301]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EG301",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_uebertragungsleitungen_koaxialkabel",
+    "inline_label": null,
+    "raw_marker": "[ref:e_uebertragungsleitungen_koaxialkabel]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_uebertragungsleitungen_koaxialkabel",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EG304]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EG304",
+    "target_object_type": "question"
+  }
+]
