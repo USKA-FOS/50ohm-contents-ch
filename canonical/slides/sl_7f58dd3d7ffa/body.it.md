@@ -1,0 +1,253 @@
+## Amplificatore di potenza HF
+
+* Amplificano il segnale HF dagli stadi precedenti
+* Obiettivo: Raggiungere la potenza d’uscita desiderata
+* Due tipi: Amplificatori HF a banda larga e selettivi
+
+---
+### Amplificatori HF a banda larga
+
+<left>
+[picture:491:a_verstaerker_breitband_gegentaktverstaerker:Amplificatore a controfase a banda larga]
+</left>
+<right>
+* Amplificazione uniforme su un ampio intervallo di frequenza (es. $\qtyrange{1}{30}{\mega\hertz}$)
+* Riconoscibile dai trasformatori di accoppiamento a banda larga
+* Nessuna capacità parallela o in serie come circuito oscillante
+</right>
+
+---
+[question:AF412]
+
+---
+### Amplificatori HF selettivi
+
+
+<left>
+[picture:778:a_verstaerker_selektiver_hf_verstaerker:Amplificatore HF selettivo]
+</left>
+<right>
+* Massimo di amplificazione solo in un intervallo ristretto (es. una banda amatoriale)
+* Progettazione selettiva in frequenza
+* Utilizzo di circuiti oscillanti in serie o parallelo nel percorso del segnale HF
+</right>
+
+---
+[question:AF408]
+
+---
+# Amplificatori multistadio
+
+
+<left>
+[picture:764:a_verstaerker_zweistufiger_breitband_hf_verstaerker:Amplificatore HF a banda larga a due stadi]
+</left>
+<right>
+* Gli amplificatori possono essere multistadio collegando singoli stadi in cascata
+</right>
+
+---
+[question:AF413]
+
+---
+## Adattamento di impedenza tra stadi dell'amplificatore
+
+* Necessario per la massima amplificazione, minima distorsione e rendimento ottimale
+* Impedisce riflessioni e non linearità
+
+---
+### Metodi di adattamento di impedenza
+
+* Adattamento a banda larga tramite trasformatore con opportuno rapporto di trasformazione
+* Adattamento selettivo in frequenza tramite circuito oscillante con presa
+
+---
+
+[picture:765:a_anpassung_breitbandige_anpassung:Adattamento a banda larga tra due stadi tramite trasformatore con opportuno rapporto di trasformazione]
+
+---
+[question:AF414]
+
+---
+
+[picture:786:a_anpassung_mosfet:Adattamento a banda larga in ingresso e uscita su MOSFET a bassa impedenza tramite trasformatori]
+
+---
+[question:AF417]
+
+---
+
+[picture:779:a_anpassung_induktiver_spannungsteiler:Adattamento selettivo in frequenza con bobina come partitore di tensione induttivo]
+
+---
+[question:AF409]
+
+---
+
+[picture:780:a_anpassung_kapazitiver_spannungsteiler:Adattamento selettivo in frequenza con condensatore come partitore di tensione capacitivo]
+
+
+---
+[question:AF410]
+
+---
+
+[picture:768:a_anpassung_eingang_schwingkreis:Circuito oscillante con condensatori variabili per l'adattamento dell'impedenza d'ingresso]
+
+---
+[question:AF407]
+
+---
+
+[picture:769:a_anpassung_ausgang_schwingkreis:Circuito oscillante con condensatori variabili per l'adattamento dell'impedenza d'uscita]
+
+---
+[question:AF406]
+
+---
+### Filtro Pi per l'adattamento di impedenza
+
+* Adatta le impedenze d'ingresso e d'uscita tramite il rapporto delle capacità
+* La bobina, insieme ai condensatori, definisce la frequenza di progetto
+* Carattere passa-basso sopprime le armoniche superiori
+
+---
+[question:AF405]
+
+---
+### Circuito LC dopo l'amplificatore di potenza HF
+
+* Serve per l'adattamento di impedenza e la contemporanea soppressione delle armoniche superiori
+
+---
+[question:AF404]
+
+---
+## Rendimento di un amplificatore di potenza HF
+
+* Rapporto tra la potenza d’uscita HF erogata e la potenza di alimentazione in corrente continua fornita
+
+---
+[question:AF401]
+
+---
+## Tensione di BIAS negli amplificatori di potenza
+
+<left>
+[picture:786:a_verstaerker_bias_arbeitspunkt:Regolazione del punto di funzionamento in un amplificatore tramite potenziometro]
+</left>
+<right>
+* Regolazione della tensione di servizio tramite partitore di tensione
+* Regolazione fine tramite potenziometro trimmer
+* Considerazione della corrente continua: ignorare i condensatori, considerare le bobine come cortocircuiti
+</right>
+
+---
+[question:AF420]
+
+---
+[question:AF423]
+
+---
+[question:AF424]
+
+---
+### Calcolo della tensione di BIAS
+
+* Applicazione della legge di Ohm
+* Considerazione di resistenze in parallelo e in serie
+* I gate dei transistor sono capacitivi e trascurabili nella considerazione della corrente continua
+
+---
+[question:AF421]
+
+--- style="font-size: smaller;"
+#### Percorso di soluzione
+<left>
+* dato: $U_Z = \qty{6,2}{\volt}$
+* dato: $R_2 = \qty{270}{\ohm}$
+* dato: $R_3 = \qty{220}{\ohm}$
+</left>
+<right>
+* dato: $R_4 = \qty{6,8}{\kilo\ohm}$
+* dato: $R_6 = \qty{150}{\ohm}$
+* cercato: $U_{GS}$
+</right>
+
+<left>
+<fragment>
+$\begin{split}R_E &= \frac{(R_3+R_6) \cdot R_4}{(R_3 + R_6) + R_4}\\ &= \frac{(\qty{220}{\ohm} + \qty{150}{\ohm}) \cdot \qty{6,8}{\kilo\ohm}}{\qty{220}{\ohm} + \qty{150}{\ohm} + \qty{6,8}{\kilo\ohm}}\\ &= \frac{\qty{2,516}{\mega\ohm}^2}{\qty{7170}{\ohm}}\\ &= \qty{351}{\ohm}\end{split}$
+</fragment>
+</left>
+<right>
+<fragment>
+$\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{\qty{6,2}{\volt}}{U_{GS}} &= \frac{\qty{270}{\ohm}+\qty{351}{\ohm}}{\qty{351}{\ohm}}\\ &= 1,77\\ \Rightarrow U_{GS} &= \frac{\qty{6,2}{\volt}}{1,77}\\ &= \qty{3,50}{\volt}\end{split}$
+</fragment>
+</right>
+
+---
+## Disaccoppiamento HF dell'alimentazione
+
+* Impedisce retroazioni tra gli stadi dell'amplificatore (es. tendenza all'oscillazione)
+* Realizzato tramite induttanze in serie e condensatori di disaccoppiamento
+* Carattere passa-basso: la tensione CC rimane invariata, l'HF viene bloccata
+
+---
+
+[picture:781:a_entkopplung_drossel:Bobina di disaccoppiamento per disaccoppiare l'HF dalla tensione di servizio]
+
+---
+[question:AF411]
+
+---
+[question:AF422]
+
+---
+
+[picture:786:a_entkopplung_abblock_kondensatoren:Condensatori di disaccoppiamento per disaccoppiare l'HF dalla tensione di servizio con carattere passa-basso]
+
+---
+[question:AF419]
+
+---
+[question:AF418]
+
+---
+## Proprietà HF dei condensatori
+
+* Grandi capacità (es. condensatori elettrolitici) utilizzabili solo a basse frequenze
+* Per applicazioni HF, combinazione di diversi valori di capacità per coprire un ampio intervallo di frequenza
+
+---
+[question:AF415]
+
+---
+## Guadagno totale di un amplificatore di potenza
+
+<left>
+[picture:470:a_verstaerker_gesamtverstaerkung:Schema a blocchi di un amplificatore con guadagno e perdita per stadio]
+</left>
+<right>
+* Determinato dalla differenza tra potenza d’uscita e potenza d’ingresso
+* Calcolo tramite sottrazione algebrica dei valori in dBm
+</right>
+
+---
+[question:AF428]
+---
+#### Percorso di soluzione
+
+* dato: $P_1 = \qty{0,3}{\milli\watt}$ o $\qty{-5}{\dBm}$
+* dato: $P_2 = \qty{20}{\watt}$ o $\qty{43}{\dBm}$
+* cercato: $g$
+
+<left>
+<fragment>
+$\begin{split}g &= P_2 - P_1\\ &= \qty{43}{\dBm} - (\qty{-5}{\dBm})\\ &= \qty{43}{\dBm} + \qty{5}{\dBm}\\ &= \qty{48}{\dB}\end{split}$
+</fragment>
+</left>
+<right>
+<fragment>
+$\begin{split}g &= \qty{10 \cdot \log_{10}{\left(\frac{P_2}{P_1}\right)}}{\dB}\\ &= \qty{10 \cdot \log_{10}{\left(\frac{\qty{20}{\watt}}{\qty{0,3}{\milli\watt}}\right)}}{\dB} \\ &\approx \qty{48}{\dB}\end{split}$
+</fragment>
+</right>

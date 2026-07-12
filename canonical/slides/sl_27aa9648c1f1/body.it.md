@@ -1,0 +1,13 @@
+Utilizzo: Dove c'è poco spazio, anche ad alte frequenze
+
+[photo:74:n_koaxsteckverbinder_sma:Connettore SMA, qui fortemente ingrandito]
+
+<note>
+Dalla gamma WLAN esistono "connettori Reverse-SMA", in cui la presa ha un pin e il connettore ha un'apertura.
+</note>
+
+---
+[question:NG205]
+
+---
+[question:NG206]

@@ -1,0 +1,73 @@
+Gli amplificatori di potenza nel campo della radioamatorialità vengono utilizzati per amplificare il segnale RF generato internamente da stadi precedenti al fine di ottenere la potenza d’uscita desiderata del trasmettitore. Si distinguono fondamentalmente 2 tipi di amplificatori RF. Da un lato amplificatori RF a banda larga, che hanno un’amplificazione costante su un’area di frequenza relativamente ampia (ad es. banda delle onde corte $\qtyrange{1}{30}{\mega\hertz}$). Dall’altro amplificatori RF selettivi, che hanno il massimo della loro amplificazione solo in una stretta area di frequenza (ad es. solo in una banda amatoriale della banda delle onde corte).
+
+Gli amplificatori RF a banda larga si riconoscono tipicamente dai trasformatori di accoppiamento a banda larga tra i singoli stadi dell’amplificatore, che **non** sono realizzati mediante una capacità parallela o serie come circuito oscillante.
+
+Gli amplificatori RF selettivi si riconoscono invece tipicamente dalla loro progettazione frequenza-selettiva, caratterizzata da circuiti oscillanti serie o parallelo nel percorso del segnale RF.
+
+
+
+[question:AF412]
+[question:AF408]
+
+Gli amplificatori dei tipi sopra menzionati possono anche essere realizzati a più stadi collegando singoli stadi.
+
+[question:AF413]
+
+Tra gli stadi dell’amplificatore di potenza e i loro ingressi e uscite è necessario effettuare un adattamento di impedenza. Ciò è necessario affinché l’impedenza d’uscita RF di uno stadio precedente sia adattata nel modo migliore possibile all’impedenza d’ingresso RF dello stadio successivo per ottenere la massima amplificazione e distorsioni minime e un rendimento ottimale (evitare riflessioni e non linearità).
+
+L’adattamento di impedenza può avvenire sia a banda larga utilizzando un trasformatore con un opportuno rapporto di trasformazione, sia in modo frequenza-selettivo tramite un circuito oscillante con presa.
+
+Nell’adattamento frequenza-selettivo ci sono due possibilità fondamentali per realizzarlo:
+- tramite un partitore di tensione induttivo (bobina con presa e condensatore parallelo)
+- tramite un partitore di tensione capacitivo (due condensatori in serie con bobina in parallelo)
+
+Queste bobine e condensatori possono essere disposti in diverse configurazioni (circuito parallelo o serie) per ottenere la trasformazione di impedenza desiderata e, se necessario, sopprimere contemporaneamente le armoniche superiori (filtro Pi).
+
+[question:AF409]
+[question:AF410]
+[question:AF414]
+[question:AF407]
+[question:AF406]
+[question:AF417]
+
+Un filtro Pi può adattare le impedenze ai suoi ingressi e uscite tramite il rapporto tra le due capacità. La bobina del filtro PI, insieme alle due capacità, definisce la frequenza di progetto del filtro. Il filtro PI, grazie al suo carattere di filtro passa-basso, sopprime contemporaneamente le armoniche superiori indesiderate del segnale trasmesso.
+
+[question:AF405]
+
+Una funzione simile ha un circuito LC posto dietro un amplificatore di potenza RF. Anche questo serve per l’adattamento di impedenza e la soppressione simultanea delle armoniche superiori.
+
+[question:AF404]
+
+Il rendimento di un amplificatore di potenza RF è definito dal rapporto tra la potenza d’uscita RF erogata dall’amplificatore di potenza e la potenza di alimentazione in corrente continua fornita all’amplificatore.
+
+[question:AF401]
+
+Gli elementi attivi in un amplificatore di potenza necessitano, oltre alla tensione di servizio richiesta, anche di una regolazione in corrente continua del punto di funzionamento (BIAS). Questo punto di funzionamento viene solitamente generato da partitori di tensione che, utilizzando una tensione ausiliaria stabilizzata e potenziometri per una regolazione ottimale, generano la tensione BIAS desiderata sugli elementi.
+Considerando la tensione BIAS e i suoi effetti sugli elementi del circuito, il circuito deve essere considerato solo in corrente continua. In questo caso, i condensatori vengono ignorati come elementi che possono trasmettere solo tensioni alternate.
+Le avvolgimenti dei trasformatori e le bobine sono visti come cortocircuiti nella considerazione in corrente continua.
+
+[question:AF420]
+[question:AF423]
+[question:AF424]
+
+%TODO Correggere i numeri delle domande
+%TODO La domanda 2373 necessita di una spiegazione più precisa su come si ottengono i 3,5 V (370||6800 = 350).
+
+Il calcolo della tensione BIAS per un dato circuito (domanda AF421) avviene applicando la legge di Ohm tenendo conto del collegamento parallelo e serie delle resistenze. È importante nella considerazione della domanda che i terminali di gate dei transistor rappresentino capacità e quindi siano trascurabili in una considerazione in corrente continua.
+
+[question:AF421]
+
+Negli amplificatori di potenza è importante disaccoppiare al meglio i singoli stadi dalla tensione di servizio in termini di RF per evitare retroazioni su altri stadi (tendenza all’oscillazione, effetti di modulazione, ecc.). A tal fine, le alimentazioni di tensione di servizio dei singoli stadi vengono disaccoppiate reciprocamente mediante induttanze collegate in serie e condensatori di disaccoppiamento verso massa. Questa disposizione rappresenta un filtro passa-basso, poiché idealmente viene fatta passare solo la tensione di servizio DC desiderata, mentre le componenti RF vengono bloccate.
+
+[question:AF411]
+[question:AF419]
+[question:AF418]
+[question:AF422]
+
+Le proprietà RF dei condensatori reali dipendono dalla frequenza. Grandi capacità come i condensatori elettrolitici possono essere utilizzati solo a basse frequenze e sono efficaci solo in misura limitata nel campo RF. Per bloccare anche frequenze più elevate tramite condensatori, si utilizza spesso una combinazione di diversi tipi di condensatori e valori di capacità, che insieme possono bloccare un’area di frequenza più ampia.
+
+[question:AF415]
+
+Per determinare l’amplificazione totale di un amplificatore di potenza a più stadi, la differenza tra la potenza d’uscita e la potenza d’ingresso deve essere calcolata sottraendo i valori dBm con il segno corretto. Esempio: potenza d’ingresso $\qty{-5}{\dBm}$, potenza d’uscita $\qty{20}{\dBm}$ dà un’amplificazione totale di $\qty{25}{\dB}$ ($\qty{20}{\dBm} - (\qty{-5}{\dBm}) = \qty{25}{\dB}$)
+
+[question:AF428]

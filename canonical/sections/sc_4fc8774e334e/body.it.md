@@ -1,0 +1,94 @@
+Ci troviamo spesso di fronte al problema che un valore di resistenza desiderato non è incluso nella cosiddetta "serie standard di resistenze". Potrebbe anche succedere che una resistenza debba dissipare una grande potenza, cosa non possibile con resistenze singole comunemente disponibili - solo per citare due esempi. Ora esamineremo come ottenere altri valori di resistenza collegando resistenze in serie o in parallelo.
+
+Dalla legge di Ohm possiamo derivare le regole per le connessioni in serie e in parallelo di resistenze:
+
+$U=R \cdot I$
+
+<margin>
+[picture:819:e_spannungsteiler:Partitore di tensione]
+</margin>
+
+La figura [ref:e_spannungsteiler] mostra due resistenze $R_1$ e $R_2$, collegate una dopo l'altra. Sono attraversate dalla stessa corrente *I*. Le tensioni
+
+$U_1 = R_1 \cdot I$ e $U_2 = R_2 \cdot I$ cadono sulle resistenze. 
+La tensione totale $U_g$ è semplicemente la somma di queste due tensioni:
+
+$U_g = U_1 + U_2 = R_{\mathrm{ges}} \cdot {I} = R_1 \cdot I + R_2 \cdot I$
+
+Ora possiamo calcolare la resistenza visibile tra i terminali esterni:
+$R_{\mathrm{ges}} = \frac{U_g}{I} = R_1 + R_2$, poiché la corrente $I$ si semplifica su entrambi i lati dell'equazione.
+
+Tutto ciò funziona anche per più di due resistenze, come mostrato nella raccolta di formule:
+
+$R_{\mathrm{ges}} = R_1 + R_2 + R_3 + R_4 + \dots$
+
+---
+
+Ma come si comporta quando colleghiamo due resistenze $R_1$ e $R_2$ in parallelo come mostrato nella figura [ref:e_parallelschaltung]? 
+
+Ora la stessa tensione $U$ è applicata a entrambe le resistenze, facendo scorrere nelle resistenze le correnti
+
+$I_1 = \frac{U}{R_1}$ e $I_2 = \frac{U}{R_2}$
+
+<margin>
+[picture:945:e_parallelschaltung:In questo circuito sono visibili tutte le tensioni e le correnti.]
+</margin>
+
+La corrente che scorre nel circuito esterno è la somma di queste due correnti:
+
+$I = I_1 + I_2 = \frac{U}{R_1} + \frac{U}{R_2}$
+
+Cerchiamo di nuovo una resistenza totale $R_{\mathrm{ges}}$, per cui deve valere: $I=\frac{U}{R_{\mathrm{ges}}}$ e di conseguenza:
+
+$\dfrac{1}{R_{\mathrm{ges}}} = \dfrac{1}{R_1} + \dfrac{1}{R_2}$
+
+---
+
+Il reciproco della resistenza totale è quindi la somma dei reciproci delle singole resistenze. Una conseguenza è che, in una connessione parallela di una serie di resistenze uguali, si divide semplicemente il valore della singola resistenza per il numero di resistenze.
+
+Anche qui possiamo eseguire il calcolo per un numero qualsiasi di resistenze in parallelo (cfr. raccolta di formule):
+
+$\dfrac{1}{R_{\mathrm{ges}}} = \dfrac{1}{R_1} + \dfrac{1}{R_2} + \dfrac{1}{R_3} + \dfrac{1}{R_4} + \dots$
+
+Possiamo anche scrivere l'espressione per due resistenze in parallelo secondo le regole dell'aritmetica delle frazioni come:
+
+$R_{\mathrm{ges}} = \dfrac{R_1 \cdot R_2}{R_1 + R_2}$
+
+<tip>
+Nella connessione in serie, il valore della resistenza totale è sempre maggiore della resistenza singola più grande. Nella connessione in parallelo, la resistenza totale è sempre minore della resistenza singola più piccola.
+</tip>
+
+---
+
+[question:ED104]
+[question:ED105]
+[question:ED106]
+
+<tip>
+Prestare molta attenzione a che le resistenze utilizzate nel calcolo abbiano sempre le stesse unità. Raccomandiamo sempre di passare, se possibile, all'unità di base ($\unit{\ohm}$). Se, ad esempio, colleghiamo in serie una resistenza da $\qty{1}{\kilo\ohm}$ e una da $\qty{10}{\ohm}$, calcoliamo $\qty{1000}{\ohm} + \qty{10}{\ohm} = \qty{1010}{\ohm}$.
+</tip>
+
+---
+
+Alcuni esercizi contengono reti di resistenze in cui sono presenti sia connessioni in serie che in parallelo. Procediamo in modo tale da convertire prima, ad esempio, la connessione in parallelo in una resistenza equivalente, che poi combiniamo con la terza resistenza collegata in serie. O viceversa, a seconda di ciò che è più conveniente dal diagramma del circuito.
+
+<tip>
+[picture:305:e_tipp_aufgabe:Esempio di circuito]
+
+Un importante metodo di soluzione è il "metodo dell'osservazione attenta"... c'è ad esempio un circuito che ha una resistenza $R_1$ in serie con due resistenze $R_2$ e $R_3$ collegate in parallelo. I valori sono $R_1 = \qty{1}{\kilo\ohm}$, $R_2 = \qty{2000}{\ohm}$ e $R_3 = \qty{2}{\kilo\ohm}$. Ora, $\qty{2}{\kilo\ohm} = \qty{2000}{\ohm}$. La connessione in parallelo di $R_2$ e $R_3$ produce una resistenza la metà più piccola: $\qty{1000}{\ohm} = \qty{1}{\kilo\ohm}$. La colleghiamo in serie con $R_1$ e otteniamo il risultato: $R_{\mathrm{ges}} = \qty{2}{\kilo\ohm}$.
+</tip>
+
+[question:ED111]
+[question:ED110]
+[question:ED112]
+[question:ED113]
+[question:ED108]
+[question:ED109]
+
+Nelle considerazioni sulla potenza, è meglio partire dall'espressione nota per la potenza:
+
+$P = U \cdot I$
+
+Nella connessione in serie di, ad esempio, tre resistenze uguali, la stessa corrente scorre attraverso tutte le resistenze, ma solo un terzo della tensione esterna cade su ciascuna singola resistenza. Nella connessione in parallelo, la stessa tensione è presente su tutte le resistenze, ma la corrente si divide in tre percorsi. In entrambi i casi, il circuito può quindi sopportare tre volte la potenza della singola resistenza.
+
+[question:ED107]

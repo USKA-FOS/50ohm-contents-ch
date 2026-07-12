@@ -1,0 +1,1 @@
+Impara da solo le conoscenze necessarie per l'esame di radioamatore. Il nostro materiale didattico ti aiuterà nel tuo percorso!

@@ -1,0 +1,113 @@
+%Per calcolare l'intensità di campo di un'antenna nel campo lontano ($d>\frac \lambda {2 \pi}$) esiste la seguente formula approssimata:
+
+%$E=\frac{\sqrt{\qty{30}{\ohm} \cdot P_\text{A} \cdot G_\text{i}}} {d}=\frac {\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}} d$
+
+%con la potenza all'antenna $P_\text{A}$, il fattore di guadagno rispetto all'emettitore isotropo %$G_\text{i}$, e la distanza $d$
+
+%Per il fattore di guadagno delle antenne è dato:
+
+%$G_\text{i}=G_\text{d} \cdot 1,64$ 
+
+%o
+
+%$g_\text{i} = g_\text{d}+2,15\text{ dB}$
+
+%Nella prova è indicato il valore limite per la distanza di protezione delle persone. Per calcolare la distanza di protezione delle persone, la formula deve essere riorganizzata in
+
+%$d=\frac{\sqrt{\qty{30}{\ohm} \cdot P_\text{A} \cdot G_\text{i}}} {E}$
+
+%Tuttavia, di solito non è indicata la potenza all'antenna, né il guadagno rispetto a un emettitore isotropo. Di conseguenza, ciò deve essere preso in considerazione. Questo porta a:
+
+%$d=\dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{Transceiver} \cdot G_\text{Kabel} \cdot G_\text{d} \cdot 1,64}} {E}$
+
+%Con la potenza al trasmettitore-ricevitore $P_\text{Transceiver}$, il "guadagno" del cavo $G_\text{Kabel}$ (qui da inserire con segno negativo) e il guadagno rispetto al dipolo $G_\text{d}$.
+
+%Il "guadagno" del cavo può essere calcolato, ad esempio, per un cavo con un'attenuazione di $2 \text{ dB}$:
+%$G_\text{Kabel} = 10^{\frac {-2 \text{ dB}} {10 \text{ dB}}} = 10^{-0,2}= 0,631$
+
+% DD4UQ
+Nella visualizzazione di un impianto radioamatoriale fisso, le distanze di sicurezza possono essere determinate con diverse procedure. Una di queste è il calcolo del campo lontano. 
+Per il calcolo sono necessari la potenza di trasmissione ($P_\text{S}$), il fattore di guadagno dell'antenna rispetto all'emettitore isotropo ($G_i = 1,64$) e il valore limite per l'intensità di campo $(E = \qty{28}{\volt\per\meter})$ nel campo lontano di un'antenna. La lunghezza d'onda ($\qty{10}{\meter}$) è indicata solo per determinare l'inizio del campo lontano.
+
+$\begin{split} d &=\dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{A} \cdot G_\text{i}}}{E}\\ d &=\dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{100}{\watt} \cdot 1,64}}{\qty{28}{\volt\per\meter}}\\ d &\approx \qty{2,50}{\meter}\end{split}$
+
+La distanza è nel campo lontano (campo vicino radiante)?
+
+ $\begin{split}d &= \dfrac{\lambda}{2 \cdot \pi}\\ d &= \dfrac{\qty{10}{\meter}}{2 \cdot \pi}\\ d &\approx \qty{1,59}{\meter}\end{split}$
+ 
+ La distanza di sicurezza di $\qty{2,50}{\meter}$ si trova chiaramente nel campo lontano (campo vicino radiante) ed è quindi valida.
+
+[question:AK106]
+
+La domanda AK108 è simile alla domanda precedente. Qui è necessario considerare anche l'attenuazione del cavo. 
+
+Qui è opportuno calcolare prima la ERIP.
+
+$P_\text{EIRP} = P_S \cdot {10^\dfrac{g_d  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}$
+Con un'antenna direttiva, è necessario indicare il valore per $g_d$. Un semplice dipolo ha solo un guadagno rispetto a un emettitore isotropo. Qui $g_d = \qty{0}{\dBd}$.
+$\begin{split}P_\text{EIRP} &= \qty{300}{\watt}\cdot {10^\dfrac{\qty{0}{\dBd} −  \qty{0,5}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{300}{\watt}\cdot {10^\dfrac{\qty{1,65}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{300}{\watt}\cdot {10^{0,165}}\\ P_\text{EIRP} &\approx \qty{438,65}{\watt}\end{split}$
+
+Ora è possibile calcolare la distanza di sicurezza.
+
+$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{438,65}{\watt}}} {\qty{28}{\volt\per\meter}}\\ d &\approx \qty{4,10}{\meter}\end{split}$
+
+La distanza è nel campo lontano (campo vicino radiante)?
+
+ $\begin{split} d &= \dfrac{\lambda}{2 \cdot \pi}\\ d &= \dfrac{\qty{20}{\meter}}{2 \cdot \pi}\\ d &\approx \qty{3,18}{\meter}\end{split}$
+ 
+ La distanza di sicurezza di $\qty{4,10}{\meter}$ si trova anche qui nel campo lontano (campo vicino radiante) ed è quindi valida.
+
+[question:AK108]
+
+Qui si può procedere allo stesso modo della domanda precedente.
+$\begin{split} P_\text{EIRP} &= P_S \cdot {10^\dfrac{g_d  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{700}{\watt}\cdot {10^\dfrac{\qty{0}{\dBd} −  \qty{0,5}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{700}{\watt}\cdot {10^\dfrac{\qty{1,65}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{700}{\watt}\cdot {10^{0,165}}\\ P_\text{EIRP} &\approx \qty{1023,52}{\watt}\end{split}$
+
+$\begin{split} d & =\dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{1023,52}{\watt}}} {\qty{28}{\volt\per\meter}}\\ d &\approx \qty{6,26}{\meter}\end{split}$
+
+[question:AK109]
+
+Nella prossima domanda è necessario calcolare la distanza di sicurezza per un'antenna direttiva. Il guadagno $g_d = \qty{11,5}{\dBd}$.
+
+$\begin{split} P_\text{EIRP} &= P_S \cdot {10^\dfrac{g_d  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{75}{\watt}\cdot {10^\dfrac{\qty{11,5}{\dB} −  \qty{1,5}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{75}{\watt}\cdot {10^\dfrac{\qty{12,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{75}{\watt}\cdot {10^{1,215}}\\ P_\text{EIRP} &\approx \qty{1230,44}{\watt}\end{split}$
+
+$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{1230,44}{\watt}}} {\qty{28}{\volt\per\meter}}\\ d &\approx \qty{6,86}{\meter}\end{split}$
+
+La distanza è nel campo lontano (campo vicino radiante)?
+
+ $\begin{split} d &= \dfrac{\lambda}{2 \cdot \pi}\\ d &= \dfrac{\qty{2}{\meter}}{2 \cdot \pi}\\ d &\approx \qty{0,32}{\meter}\end{split}$
+ 
+ La distanza di sicurezza di $\qty{6,86}{\meter}$ si trova anche qui nel campo lontano (campo vicino radiante) ed è quindi valida.
+
+[question:AK110]
+
+La procedura è analoga a quella della domanda precedente.
+
+$\begin{split} P_\text{EIRP} &= P_S \cdot {10^\dfrac{g_d  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{100}{\watt}\cdot {10^\dfrac{\qty{10,5}{\dBd} −  \qty{1,5}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{100}{\watt}\cdot {10^\dfrac{\qty{11,15}{\dBd}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{100}{\watt}\cdot {10^{1,115}}\\ P_\text{EIRP} &\approx \qty{1303,17}{\watt}\end{split}$
+
+$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{1303,17}{\watt}}} {\qty{28}{\volt\per\meter}}\\ d &\approx \qty{7,1}{\meter}\end{split}$
+
+La distanza di sicurezza di $\qty{7,1}{\meter}$ si trova anche qui nel campo lontano (campo vicino radiante).
+
+[question:AK111]
+
+La banda dei $\qty{13}{\centi\meter}$ va da $\qtyrange{2320}{2450}{\mega\hertz}$. Per la banda di frequenza $\qtyrange{2000}{300000}{\mega\hertz}$, il valore limite per l'intensità del campo elettrico è $\qty{61}{\volt\per\meter}$.
+
+$\begin{split} P_\text{EIRP} &= P_S \cdot {10^\dfrac{g_d  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{40}{\watt}\cdot {10^\dfrac{\qty{18}{\dBd} −  \qty{2}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{40}{\watt}\cdot {10^\dfrac{\qty{18,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{40}{\watt}\cdot {10^{1,815}}\\ P_\text{EIRP} &\approx \qty{2612,52}{\watt}\end{split}$
+
+$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{2612,52}{\watt}}} {\qty{61}{\volt\per\meter}}\\ d &\approx \qty{4,6}{\meter}\end{split}$
+
+La distanza è nel campo lontano (campo vicino radiante)?
+
+$\begin{split} d &= \dfrac{\lambda}{2 \cdot \pi}\\ d &= \dfrac{\qty{0,13}{\meter}}{2 \cdot \pi}\\ d &\approx \qty{0,02}{\meter}\end{split}$
+
+La distanza di sicurezza di $\qty{4,6}{\meter}$ si trova chiaramente nel campo lontano (campo vicino radiante).
+
+[question:AK112]
+
+<indepth>
+Perché nelle domande di questa sezione si fa riferimento ai metodi di modulazione RTTY e FM?
+Nella visualizzazione di un impianto radioamatoriale fisso (ai sensi del § 9, BEMFV) è necessario inserire il fattore di conversione $\textrm{Faktor}_\textrm{FmodPers}$ nella configurazione.
+Con il fattore, la potenza di picco indicata (PEP) viene convertita nella potenza media P. La potenza così corretta può essere utilizzata nella formula del campo lontano per calcolare la distanza di sicurezza per la protezione delle persone. 
+
+RTTY e FM hanno il fattore $\num{1}$, come la maggior parte dei metodi di modulazione.
+</indepth>

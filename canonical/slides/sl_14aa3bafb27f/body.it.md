@@ -1,0 +1,9 @@
+## Quantizzazione nella conversione A/D
+
+* I segnali tempo-continui vengono convertiti in campioni digitali tramite conversione A/D
+* Durante la quantizzazione, i valori analogici continui vengono mappati su livelli fissi (discreti in valore)
+* Un segnale analogico, continuo in valore, viene quindi trasformato in un segnale a gradini, discreto in valore
+
+---
+
+[question:AF605]

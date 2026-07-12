@@ -1,0 +1,36 @@
+## Segnali di controllo
+
+<left>
+* Trasmissione di segnali audio e di controllo (CAT) tra computer e trasmettitore-ricevitore
+* Ad esempio, mettere il trasmettitore-ricevitore in trasmissione e trasmettere il segnale dal computer
+</left>
+<right>
+[picture:630:n_computersteuerung_verbindungen:Esempi di connessioni tra computer e apparecchio radio]
+</right>
+
+---
+## Connessione dati
+
+* Dietro l'attacco del microfono nell'apparecchio radio possono esserci stadi di amplificazione e filtraggio per la trasmissione vocale $\rightarrow$ inadatto per la trasmissione dati
+* Connessione dati separata sul trasmettitore-ricevitore
+* Lascia passare i segnali dal computer senza alterazioni
+
+<note>
+Spesso indicato come DATA o 9600
+</note>
+
+---
+[question:NF114]
+
+---
+[question:NF116]
+
+---
+[question:NF117]
+<note>
+* Bisogna fare attenzione che l'apparecchio radio non vada in trasmissione inaspettatamente.
+* Aneddotico: suono di avvio di Windows via radio
+</note>
+
+---
+[question:NF115]

@@ -1,0 +1,3 @@
+Se una giunzione PN viene utilizzata in direzione di conduzione, la regione di svuotamento viene notevolmente ridotta. Ciò consente ai portatori di carica liberi di attraversare la giunzione.
+
+Gli elettroni si muovono quindi dalla regione di tipo n con un eccesso di elettroni nella regione di tipo p (direzione fisica della corrente da - a +). Allo stesso tempo, le lacune si muovono nella direzione opposta.

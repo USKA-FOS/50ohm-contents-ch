@@ -1,0 +1,41 @@
+*Convertitori* e *transverter* sono utilizzati nel radioamatore per ampliare le bande di frequenza aggiuntive con apparecchi radio esistenti, che questi apparecchi originariamente non coprono. Un *convertitore* converte il segnale solo in una direzione, o nel percorso di trasmissione o nel percorso di ricezione. Un *transverter*, invece, dispone di un commutatore interno di trasmissione/ricezione e si occupa della conversione di frequenza sia in modalità di trasmissione che di ricezione. La conversione di frequenza nei convertitori e nei transverter avviene sempre tramite miscelazione in uno o più mixer.
+
+Ad esempio, con un transverter appropriato e un trasmettitore-ricevitore per onde corte esistente, è possibile operare anche nelle bande VHF/UHF/SHF. In questo caso, si convertirebbe ad esempio la banda dei $\qty{10}{\meter}$ del trasmettitore-ricevitore per onde corte tramite un transverter a $\qty{2}{\meter}$/$\qty{70}{\centi\meter}$ o $\qty{23}{\centi\meter}$ in entrambe le direzioni.
+
+[question:EF501]
+[question:EF502]
+
+---
+
+Consideriamo nel primo passo lo schema a blocchi di un convertitore nella figura [ref:e_konverter]. Un tale convertitore potrebbe essere utilizzato, ad esempio, per convertire un segnale da un apparecchio radio VHF per il satellite per radioamatori QO-100, che richiede una frequenza di ingresso nella banda dei $\qty{2,4}{\giga\hertz}$. Un transverter potrebbe non essere necessario qui, poiché la ricezione avviene tramite uno stick SDR e un LNB.
+
+Dallo schema a blocchi è evidente che una banda di frequenza di ingresso definita viene convertita in un'altra banda di frequenza di uscita utilizzando almeno un mixer. Non è prevista una commutazione di trasmissione e ricezione. Pertanto, un convertitore può convertire un segnale solo in una direzione, o nel percorso di ricezione (RX) o nel percorso di trasmissione (TX). Nei convertitori per il funzionamento in trasmissione è spesso presente un controllo PTT, che attiva gli stadi di amplificazione del convertitore in caso di trasmissione.
+
+Su quale banda di frequenza un convertitore converte il segnale può essere determinato matematicamente dalla frequenza dell'oscillatore fornita ai mixer e dalla frequenza di ingresso o uscita. Nell'esempio concreto, la frequenza di destinazione risulta dal prodotto di miscelazione di
+$\qty{144}{\mega\hertz} + \qty{2,256}{\giga\hertz} = \qty{2,4}{\giga\hertz}$,
+dove il prodotto desiderato viene successivamente selezionato da filtri appropriati.
+
+<margin>
+[picture:651:e_konverter:Circuito convertitore es. per QO-100]
+</margin>
+
+[question:EF504]
+
+---
+
+Il circuito di un transverter si distingue bene da quello di un convertitore. Le figure [ref:e_transverter_rx] e [ref:e_transverter_tx] mostrano il diagramma a blocchi di un transverter, che consente di operare sulla banda dei $\qty{2}{\meter}$ con un trasmettitore-ricevitore per onde corte da $\qty{10}{\meter}$. Per questo vengono utilizzati un commutatore di trasmissione/ricezione, due mixer e due percorsi di segnale separati – uno per il funzionamento di ricezione (RX) e uno per il funzionamento di trasmissione (TX).
+
+Il ramo TX converte il segnale di uscita del trasmettitore-ricevitore nella banda di frequenza superiore desiderata in caso di trasmissione, mentre il ramo RX nel caso di ricezione riduce il segnale proveniente dall'antenna alla banda di frequenza adatta al trasmettitore-ricevitore. Tra quali bande di frequenza opera il transverter può essere determinato matematicamente conoscendo la frequenza dell'oscillatore fornita ai mixer e le rispettive frequenze di ingresso e uscita. Queste relazioni sono mostrate nelle figure.
+
+L'oscillatore stabilizzato al quarzo ($G$) genera una frequenza di $\qty{38,666}{\mega\hertz}$, che viene aumentata a $\qty{116}{\mega\hertz}$ tramite un moltiplicatore di frequenza 1:3. In caso di ricezione, mostrato nella figura [ref:e_transverter_rx], il segnale di ingresso dalla banda di frequenza $\qtyrange{144}{146}{\mega\hertz}$ viene ridotto alla banda $\qtyrange{28}{30}{\mega\hertz}$. In caso di trasmissione, mostrato nella figura [ref:e_transverter_tx], il segnale di uscita dell'apparecchio radio dalla banda $\qtyrange{28}{30}{\mega\hertz}$ viene aumentato alla banda di frequenza $\qtyrange{144}{146}{\mega\hertz}$. Come di consueto, in entrambi i percorsi di segnale vengono utilizzati filtri appropriati per la selezione dei prodotti di miscelazione desiderati, che qui non sono disegnati per ragioni di chiarezza.
+
+[question:EF503]
+
+<margin>
+[picture:842:e_transverter_rx:Transverter nel percorso RX]
+[picture:843:e_transverter_tx:Transverter nel percorso TX]
+</margin>
+
+I transverter e i convertitori progettati per frequenze di ingresso o uscita elevate (nella gamma GHz) devono disporre di un oscillatore molto stabile. Errori nella frequenza dell'oscillatore portano, a causa della moltiplicazione interna della frequenza, a causa delle alte frequenze di uscita in modalità a banda stretta o SSB, a deviazioni inaccettabili nella frequenza di destinazione. Una deviazione nella frequenza dell'oscillatore viene anch'essa moltiplicata dalla sua moltiplicazione. Spesso si utilizza un cosiddetto TCXO o OCXO, che può anche essere sincronizzato esternamente tramite una sorgente di riferimento (ad es. GPS) per stabilizzare al meglio la frequenza dell'oscillatore e mantenere piccole le deviazioni nella frequenza di destinazione.
+
+[question:EF505]

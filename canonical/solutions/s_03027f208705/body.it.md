@@ -1,0 +1,1 @@
+Ricorda: i due catodi dei diodi sono collegati insieme al polo positivo della tensione d’uscita.

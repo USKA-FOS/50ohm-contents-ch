@@ -1,0 +1,78 @@
+## Direzione di passaggio
+
+* Flusso di elettroni da N a P
+* La direzione tecnica della corrente è opposta alla direzione del flusso di elettroni
+
+---
+[question:AC401]
+---
+## Temperatura
+
+* A temperature più elevate ci sono più elettroni liberi
+* La corrente di saturazione aumenta con l'aumentare della temperatura
+* Ma la mobilità cambia
+* Di conseguenza, la tensione di passaggio diminuisce (di circa $\qty{-2}{\milli\volt\per\kelvin}$)
+
+---
+[question:AC403]
+---
+## Diodo capacità (Varicap)
+
+<left>
+* Il diodo capacità sfrutta la capacità sulla zona di svuotamento
+* Non deve fluire corrente continua
+* Viene utilizzato in polarizzazione inversa
+</left>
+<right>
+<fragment>
+Quanto più negativa è la tensione del diodo, tanto più si espande la zona di svuotamento e tanto minore diventa la capacità del diodo.
+</fragment>
+</right>
+
+---
+[question:AC404]
+---
+## Limitazione di tensione
+
+* Diodi antiparalleli
+* Limitazione dell'ampiezza di una tensione alternata
+* Silicio: circa $\qty{0,6}{\volt}$ tensione di soglia
+* Germanio: circa $\qty{0,3}{\volt}$ tensione di soglia
+* $\rightarrow$ *Clipping*
+
+<note>
+Le tensioni di soglia sono materia di Classe E
+</note>
+
+--- style="font-size: smaller;"
+[question:AC405]
+--- style="font-size: smaller;"
+[question:AC406]
+---
+## Fotodiodo
+
+* La luce viene assorbita nella zona di svuotamento
+* Si creano coppie elettrone-lacuna
+* Gli elettroni si muovono verso la regione p, le lacune verso la regione n
+* Se viene collegato un carico (con tensione negativa al terminale p), il fotodiodo agisce come una fonte di corrente
+* La corrente è proporzionale all'intensità luminosa
+
+<note>
+Misurazione della luce, sensori di immagine nelle fotocamere, celle solari
+</note>
+
+---
+[question:AC407]
+---
+## Optoisolatore
+
+* Collegamento di un diodo a emissione luminosa e un fotodiodo in un unico alloggiamento
+* Lato di ingresso: diodo a emissione luminosa
+* Lato di uscita: fotodiodo
+* Entrambi sono galvanicamente separati l'uno dall'altro
+
+<note>
+Separare galvanicamente le interfacce, ad esempio per evitare anelli di massa
+</note>
+---
+[question:AC408]

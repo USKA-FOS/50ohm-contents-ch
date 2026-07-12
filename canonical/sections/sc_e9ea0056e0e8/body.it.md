@@ -1,0 +1,15 @@
+Per tutte le onde corte, ma anche oltre fino alla banda dei $\qty{2}{\meter}$ (VHF), viene spesso utilizzato il connettore PL. Come si può vedere nelle immagini [ref:n_koaxsteckverbinder_pl_stecker] e [ref:n_koaxsteckverbinder_pl_einbaubuchse], si tratta di una connessione a vite.
+
+<margin>
+[photo:69:n_koaxsteckverbinder_pl_stecker:Connettore PL]
+</margin>
+
+<margin>
+[photo:70:n_koaxsteckverbinder_pl_einbaubuchse:Presa da pannello PL]
+</margin>
+
+<attention>
+Il connettore PL è anche chiamato, in modo fuorviante, *connettore UHF*, sebbene in realtà non sia adatto per frequenze nella gamma UHF e superiori.
+</attention>
+
+[question:NG202]

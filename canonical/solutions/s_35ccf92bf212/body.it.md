@@ -1,0 +1,22 @@
+Poiché la resistenza di carico $R_L$ è in parallelo a $R_2$, entrambe le resistenze devono prima essere combinate in una resistenza equivalente.
+
+La connessione in parallelo dà:
+
+$ R_\mathrm{2L} = \frac{R_2 \cdot R_L}{R_2 + R_L} $
+
+Inserendo i valori:
+
+$ R_\mathrm{2L} = \frac{\qty{2,2}{\kilo\ohm} \cdot \qty{8,2}{\kilo\ohm}}
+{\qty{2,2}{\kilo\ohm} + \qty{8,2}{\kilo\ohm}} $
+
+$ R_\mathrm{2L} \approx \qty{1,74}{\kilo\ohm} $
+
+Ora il circuito consiste solo in un semplice partitore di tensione composto da $R_1$ e $R_\mathrm{2L}$.
+
+La tensione di uscita si calcola con:
+
+$ U_2 = U_B \cdot \frac{R_\mathrm{2L}}{R_1 + R_\mathrm{2L}} $
+
+Inserendo i valori:
+
+$ U_2 = \qty{12}{\volt} \cdot \frac{\qty{1,74}{\kilo\ohm}}{\qty{10}{\kilo\ohm} + \qty{1,74}{\kilo\ohm}} = \approx \qty{1,8}{\volt} $

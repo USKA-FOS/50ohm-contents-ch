@@ -1,0 +1,61 @@
+<margin>
+[photo:124:n_satellit_oscar1:Modello del primo satellite per radioamatori OSCAR 1, che nel 1961 ha trasmesso per 22 giorni un segnale di beacon dalla sua orbita terrestre nella banda dei $\qty{2}{\meter}$, udito da 570 radioamatori di 28 paesi]
+</margin>
+
+---
+
+I satelliti orbitano attorno alla Terra su traiettorie circolari o ellittiche e a diverse altitudini. Dal 1961, anche i satelliti per radioamatori fanno parte di questa categoria. Questi sono noti come OSCAR, acronimo di "Orbiting Satellite Carrying Amateur Radio" ("Satellite orbitante che trasporta radioamatore"). Il primo satellite per radioamatori è stato chiamato OSCAR 1 ([ref:n_satellit_oscar1]). OSCAR 1 è stato solo l'inizio. Negli anni successivi, fino ad oggi, una serie di carichi utili per radioamatori sempre più sofisticati sono stati lanciati nello spazio.
+
+[question:BE415]
+
+Le stazioni ripetitrici a bordo sono chiamate "transponder". La frequenza di ingresso, ovvero il collegamento radio dalla Terra al satellite, è chiamata "uplink" nelle comunicazioni satellitari. La frequenza di uscita, ovvero il collegamento radio dal satellite alla Terra, è invece chiamata "downlink". Spesso vengono utilizzati bande di frequenza diverse per uplink e downlink, poiché ciò consente una più facile separazione dei segnali di trasmissione e ricezione e riduce le dimensioni dei filtri sul satellite.
+
+<webindepth>
+Diverse altitudini e orbite satellitari consentono un'ampia gamma di applicazioni satellitari, dalla comunicazione alla navigazione, alla ricerca scientifica e all'osservazione della Terra. Di seguito presentiamo le principali altitudini e orbite.
+
+*Orbita terrestre bassa (Low Earth Orbit - LEO)*
+I satelliti in orbita terrestre bassa sono generalmente posizionati ad altitudini comprese tra circa 160 e 2.000 chilometri sopra la Terra. Queste sono orbite relativamente vicine alla superficie terrestre. In questa regione si muovono molti satelliti per l'osservazione della Terra, come ad esempio satelliti meteorologici o satelliti per il monitoraggio ambientale. La vicinanza alla Terra consente un'elevata risoluzione nell'acquisizione di dati e immagini.
+
+*Orbita terrestre media (Medium Earth Orbit - MEO)*
+Le orbite terrestri medie si estendono ad altitudini comprese tra circa 2.000 e 35.786 chilometri sopra la Terra. Questa regione ospita spesso satelliti di navigazione, come quelli utilizzati per il sistema GPS di fama mondiale. Poiché i satelliti impiegano più tempo per orbitare attorno alla Terra, offrono un equilibrio tra copertura e precisione per la navigazione e il posizionamento.
+
+*Orbita geostazionaria (Geostationary Orbit - GEO)*
+Ad altitudini di circa 35.786 chilometri sopra la superficie terrestre si trovano le orbite geostazionarie. Questi satelliti orbitano attorno alla Terra alla stessa velocità con cui la Terra ruota, facendoli apparire apparentemente stazionari nel cielo. I satelliti geostazionari sono ideali per scopi di comunicazione, poiché possono utilizzare stazioni di ricezione del segnale fisse, offrendo così una copertura costante di una determinata area.
+
+*Orbita altamente ellittica (Highly Elliptical Orbit - HEO)*
+Le orbite altamente ellittiche sono orbite eccentriche in cui i satelliti hanno la loro distanza minima dalla Terra in una regione e la loro distanza massima in un'altra. Questo tipo di orbita è adatto per satelliti che richiedono una copertura estesa delle regioni polari, ad esempio per compiti di sorveglianza nelle aree artiche o antartiche.
+
+*Orbita polare (Polar Orbit)*
+I satelliti che operano in orbite polari volano sopra i poli della Terra. Queste orbite forniscono una copertura completa della superficie terrestre nel tempo e sono spesso utilizzate per ricerche scientifiche, monitoraggio ambientale e osservazione della Terra.
+</webindepth>
+
+[question:BE416]
+[question:BE411]
+[question:BE412]
+[question:NF113]
+
+---
+
+Nell'utilizzo delle comunicazioni satellitari, l'orientamento delle antenne è di fondamentale importanza. I termini *azimut* ed *elevazione* giocano un ruolo chiave. Descrivono l'orientamento orizzontale e l'angolo verticale con cui un satellite viene percepito dalla superficie terrestre:
+* L'azimut è la direzione lungo l'orizzonte in cui si guarda per vedere il satellite. Viene solitamente misurato in gradi e va da $\qty{0}{\degree}$ (Nord) attraverso $\qty{90}{\degree}$ (Est), $\qty{180}{\degree}$ (Sud) fino a $\qty{270}{\degree}$ (Ovest).
+* L'elevazione è l'angolo verticale con cui un satellite si trova sopra l'orizzonte dalla posizione. Viene anch'essa misurata in gradi e varia da $\qty{0}{\degree}$ (direttamente all'orizzonte) a $\qty{90}{\degree}$ (verticalmente sopra).
+
+<margin>
+[picture:876:n_azimut_elevation:Azimut ed elevazione nello spazio]
+</margin>
+
+<wordorigin>
+Il termine *azimut* deriva dall'arabo *as-sumūt* ("le vie"). *Elevazione* deriva dal latino elevare ("sollevare").
+</wordorigin>
+
+[question:BE413]
+[question:BE414]
+
+Nel servizio di radioamatore via satellite, si applica un'eccezione all'obbligo di utilizzare solo linguaggio aperto. È consentito crittografare segnali di controllo tra stazioni di terra e satelliti per radioamatori allo scopo di offuscare. Ciò significa che, in via eccezionale, possono essere utilizzati metodi di crittografia che impediscono a terzi di leggere il contenuto dei segnali di controllo. Ciò serve a proteggere i satelliti da comandi di controllo non autorizzati.
+
+[question:VA303]
+
+Nel diritto tedesco - ma non a livello internazionale - questa disposizione si applica anche ai segnali di controllo verso stazioni automatiche e telecomandate, nonché verso stazioni remote.
+
+[question:VD104]
+[question:VN026]

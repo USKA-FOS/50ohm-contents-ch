@@ -1,0 +1,27 @@
+Abbiamo già conosciuto l'antenna direttiva Yagi-Uda. Il principio di funzionamento di questa antenna è il seguente: a un dipolo, occasionalmente realizzato anche come dipolo ripiegato, viene immesso un segnale. L'onda che si propaga da questo elemento, definito *radiatore*, incontra sia un *riflettore* leggermente più lungo sia un *direttore* leggermente più corto (cfr. figura [ref:e_yagi]). Molte antenne Yagi-Uda hanno anche più direttori. Riflettore e direttori iniziano quindi a oscillare da soli, anche se non hanno alcun collegamento elettrico diretto con il radiatore.
+
+<margin>
+[picture:1048:e_yagi:Antenna Yagi-Uda con riflettore, radiatore e un solo direttore]
+</margin>
+
+[question:EG111]
+
+Riflettore e direttori sono anche chiamati *elementi parassiti*, poiché a questi non viene collegato alcun cavo d'antenna, ma essi assorbono ed emettono comunque energia (analogamente agli organismi del regno animale e vegetale che sottraggono risorse ad altri organismi).
+
+[question:EG212]
+
+---
+<margin>
+[include:applet_interferenz]
+</margin>
+<margin>
+[picture:1049:e_yagi_richtung:Direttività di un'antenna Yagi-Uda]
+</margin>
+
+La direttività si crea perché il radiatore e gli altri elementi presentano uno sfasamento temporale e spaziale, cioè le creste e le valli delle onde non si formano nello stesso momento o nello stesso luogo. La sovrapposizione dell'irraggiamento (sfasato) di tutti gli elementi crea una direttività, poiché in certe direzioni le onde si annullano (interferenza distruttiva, dove cresta d'onda incontra valle d'onda) e in altre direzioni le onde si rafforzano (interferenza costruttiva, dove cresta d'onda incontra cresta d'onda e valle d'onda incontra valle d'onda).
+
+Nel diagramma di radiazione (diagramma direzionale) si osserva questa direttività sotto forma di un grande *lobo principale*, come mostrato nella figura [ref:e_yagi_richtung]. Il lobo principale si trova nella direzione di irraggiamento principale, in cui il segnale o la Sensibilità in ricezione è essenzialmente concentrata.
+
+Tuttavia, possono esserci anche lobi secondari e in particolare un lobo posteriore. Ciò significa che un'antenna Yagi-Uda irradia anche all'indietro in una certa misura, sebbene ciò sia in realtà indesiderato. I lobi posteriori ed eventualmente presenti lobi secondari sono tuttavia più piccoli.
+
+[question:EG218]

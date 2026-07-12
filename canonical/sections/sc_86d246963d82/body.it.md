@@ -1,0 +1,19 @@
+L'S-meter di un ricevitore serve per indicare la potenza del segnale HF presente all'ingresso del ricevitore.
+L'S-meter è solitamente suddiviso in 9 livelli S e un'area successiva indicata in $\qty{+}{\dB}$. Qui, una variazione di un livello S corrisponde a $\qty{6}{\dB}$. A partire dal valore S9, a causa della rappresentazione logaritmica dello strumento, i segnali più forti vengono visualizzati come S9 più $\unit{\dB}$-valore.
+Dalla definizione dei decibel, $\qty{+6}{\dB}$ corrispondono a un raddoppio della tensione o a un quadruplicamento della potenza del segnale di ingresso. Analogamente, una dimezzamento della tensione all'ingresso del ricevitore corrisponde a una riduzione di un quarto della potenza o a $\qty{-6}{\dB}$.
+
+[question:AF101]
+[question:AF104]
+[question:AF103]
+[question:AA113]
+[question:AF102]
+
+Nella gamma delle onde corte fino a $\qty{30}{\mega\hertz}$, un valore S di S9 corrisponde esattamente a $\qty{50}{\micro\volt}$ su $\qty{50}{\ohm}$.
+Dalla gamma VHF ($\qty{144}{\mega\hertz}$) in poi, un valore S di S9 corrisponde esattamente a $\qty{5}{\micro\volt}$ su $\qty{50}{\ohm}$.
+
+<tip>
+Gli S-meter dei dispositivi a onde corte solitamente mostrano valori intorno a S9 solo in modo abbastanza affidabile, poiché spesso sono calibrati solo per questo valore. Valori S più bassi, in particolare, vengono visualizzati in modo molto impreciso. La caratteristica logaritmica di un S-meter viene spesso interpolata in modo insufficiente. Per definizione non esiste un valore S0, poiché è sempre presente un rumore di fondo o un rumore proprio del ricevitore. Se l'S-meter non indica alcun valore nell'intervallo inferiore, il segnale ricevuto è molto debole, ma non ha mai raggiunto il valore S0. Pertanto, non dovrebbe essere trasmesso.
+</tip>
+
+[question:AA114]
+[question:AF105]

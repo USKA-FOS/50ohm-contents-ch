@@ -1,0 +1,24 @@
+Il funzionamento di un analizzatore di rete vettoriale è il seguente: viene generato un segnale *a frequenza variabile* che viene emesso (ad esempio, su un'antenna o un altro oggetto di misurazione, come un circuito oscillante). Ora si misura come questo segnale viene modificato (ad esempio, riflesso). Vengono misurate sia l'ampiezza che la fase. In questo modo è possibile determinare, tra le altre cose, la componente attiva e reattiva di una resistenza, nonché il rapporto d’onda stazionaria.
+
+[question:AI201]
+[question:AI202]
+[question:AI203]
+
+---
+
+Una possibile forma di visualizzazione del VNA è la suddivisione dell'impedenza in componente attiva e reattiva (resistenza attiva $R$ e resistenza reattiva $X$). La resistenza attiva è spesso indicata in $\unit{\ohm}$ e la resistenza reattiva occasionalmente anche come $j\unit{\ohm}$. Le visualizzazioni dei diversi apparecchi non sono uniformi. La $j$ deriva da una notazione dell'elettrotecnica, dove questa sta per la cosiddetta unità immaginaria ($i$) della matematica. Le resistenze reattive positive indicano un comportamento induttivo e quelle negative un comportamento capacitivo.
+
+<indepth>
+I *numeri immaginari* sono un utile strumento in elettrotecnica e matematica. Per poter risolvere equazioni come $x^2 = -1$, si è inventato un cosiddetto numero immaginario ($i$), che moltiplicato per se stesso dà un numero negativo: $i^2 = -1$. Nessun numero reale soddisfa una tale equazione, poiché un numero negativo moltiplicato per un numero negativo dà un numero positivo. Per questo motivo $i$ viene definito "immaginario". Questo numero "inventato" moltiplicato per se stesso dà un numero negativo, cioè $-1$. Se si sommano numeri reali (ad esempio, $54$) con un numero immaginario (ad esempio, $-12i$), si ottiene un numero complesso: $54 - 12i$. Un numero complesso può essere utilizzato, ad esempio, per descrivere una componente attiva e una reattiva di una resistenza. Si possono anche convertire numeri complessi in ampiezza e fase. Al posto della lettera $i$, in elettrotecnica si usa la lettera $j$ per evitare confusione con il simbolo di formula $i$ (per le correnti).
+</indepth>
+
+[question:AI204]
+[question:AI205]
+[question:AI206]
+
+---
+
+Molti VNA dispongono della possibilità di rappresentare graficamente l'andamento del ROS in funzione della frequenza. Se la frequenza di risonanza di un'antenna è troppo bassa, si sa che dovrebbe essere accorciata. Se è troppo alta, l'antenna dovrebbe essere allungata.
+
+[question:AI207]
+[question:AI208]

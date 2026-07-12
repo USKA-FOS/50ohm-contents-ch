@@ -1,0 +1,39 @@
+Nella modulazione di frequenza (FM) un segnale di modulazione viene sovrapposto alla portante modificandone la frequenza. L'ampiezza della portante, invece, non viene modificata e rimane idealmente costante. 
+
+<margin>
+[picture:711:n_fm_wasserfall:Segnale di una trasmissione radioamatoriale FM (voce)]
+</margin>
+
+<margin>
+[picture:357:n_fm_frequenzmodulation:Modulazione di frequenza]
+</margin>
+
+[question:NE301]
+[question:NE302]
+[question:NE303]
+
+Più forte si parla nel microfono, maggiore è quindi l'ampiezza del segnale di modulazione, maggiore è anche la variazione della frequenza portante verso l'alto e verso il basso. Di conseguenza aumenta anche la larghezza di banda occupata dalla trasmissione.
+
+---
+
+Il valore massimo della variazione della frequenza portante è chiamato *deviazione di frequenza portante* o semplicemente *deviazione*. In alcuni apparecchi radio può essere impostato, in altri invece no. Spesso è possibile anche passare da due valori fissi: FM "normale" e FM a banda stretta (in inglese Narrow-FM, abbreviato NFM), che occupa circa la metà della larghezza di banda.
+
+<indepth>
+La *deviazione di frequenza portante* è indicata in Hz, così come la larghezza di banda, ma non deve essere confusa con essa. La deviazione di frequenza portante indica la variazione massima della frequenza portante. La larghezza di banda è approssimativamente il doppio della somma della deviazione e della larghezza di banda del segnale NF. Esempio: un segnale NF con una larghezza di banda di $\qty{3}{\kilo\hertz}$ viene modulato con una deviazione di $\qty{3}{\kilo\hertz}$. Ciò produce una larghezza di banda di:
+$2\cdot(\qty{3}{\kilo\hertz}\nobreak+\nobreak\qty{3}{\kilo\hertz})=\qty{12}{\kilo\hertz}$
+</indepth>
+
+In questo contesto, è necessario considerare anche il piano di banda IARU, poiché fornisce indicazioni sulla larghezza di banda massima raccomandata per una trasmissione in diverse bande di frequenza. Ad esempio, nella banda dei $\qty{2}{\meter}$ per la telefonia FM, la larghezza di banda massima da occupare dovrebbe essere di $\qty{12}{\kilo\hertz}$. Questo corrisponde a NFM. La domanda seguente può essere risolta facilmente con queste conoscenze e il piano di banda IARU, che è disponibile come ausilio durante l'esame.
+
+[question:BC216]
+
+Se la deviazione non può essere impostata o non può essere impostata sufficientemente bassa, ciò può portare nella pratica a che una trasmissione occupi più larghezza di banda di quanto previsto per la banda di frequenza. Molti vecchi apparecchi portatili e trasmettitori-ricevitori mobili, in particolare, hanno una deviazione fissa che porta all'occupazione di una larghezza di banda fino a $\qty{25}{\kilo\hertz}$.
+
+In tali situazioni, ci si può aiutare parlando più piano nel microfono. In questo modo, l'ampiezza del segnale di modulazione e quindi anche la variazione della frequenza portante non saranno così grandi e di conseguenza la trasmissione occuperà meno larghezza di banda.
+
+[question:NE306]
+
+Dato che l'ampiezza della portante non viene modificata, anche la potenza di trasmissione non cambia a causa della modulazione. Finché si preme il tasto PTT, la potenza di trasmissione è massima, indipendentemente dal fatto che si parli o meno, piano o forte nel microfono. Questo ha il vantaggio che i disturbi non causano fluttuazioni del volume del segnale vocale.
+
+[question:NE304]
+

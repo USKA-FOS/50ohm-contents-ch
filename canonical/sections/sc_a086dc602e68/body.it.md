@@ -1,0 +1,41 @@
+<margin>
+[picture:807:spiegelfrequenzen_mischen1:Processo di miscelazione con frequenza di ricezione $f_\text{e}$, frequenza dell’oscillatore $f_\text{o}$ e la frequenza intermedia $f_\text{ZF}$]
+</margin>
+
+A causa del concetto, in un ricevitore supereterodina, il processo di miscelazione qui in corso (cfr. figura [ref:spiegelfrequenzen_mischen1]) con la frequenza dell’oscillatore del ricevitore genera sempre due possibili frequenze di ricezione:
+
+$f_\text{ZF} = \left|f_\text{e} \pm f_\text{o}\right|$
+
+---
+
+<margin>
+[picture:806:spiegelfrequenzen_fe1_fe2:Frequenze di ricezione che portano entrambe alla stessa $f_\text{ZF}$]
+</margin>
+
+Supponiamo che il nostro oscillatore oscilli, come mostrato nella figura [ref:spiegelfrequenzen_fe1_fe2], alla frequenza $f_\text{o}=\qty{3,955}{\mega\hertz}$. La frequenza intermedia $f_\text{ZF}$ dovrebbe essere $\qty{0,455}{\mega\hertz}$. A causa del valore assoluto nella nostra formula, ci sono ora due possibilità per le frequenze di ricezione che si possono ascoltare, ovvero $f_\text{e1} = \qty{3,500}{\mega\hertz}$ e $f_\text{e2} = \qty{4,410}{\mega\hertz}$. Per entrambi i valori, la formula dà la frequenza intermedia $f_\text{ZF}$.
+
+Se $f_\text{e1}$ è la frequenza di ricezione desiderata, allora $f_\text{e2}$ è chiamata la *frequenza immagine* di $f_\text{e1}$. Se $f_\text{e2}$ è la frequenza di ricezione desiderata, allora $f_\text{e1}$ è chiamata la *frequenza immagine* di $f_\text{e2}$.
+
+La distanza tra la frequenza di ricezione desiderata e la frequenza immagine è sempre il doppio della frequenza intermedia (ZF).
+Se l'oscillatore oscilla <u>al di sopra</u> della frequenza di ricezione, anche la frequenza immagine si trova <u>al di sopra</u> della frequenza di ricezione del doppio della ZF.
+Se invece l'oscillatore si trova <u>al di sotto</u> della frequenza di ricezione, anche la frequenza immagine si trova <u>al di sotto</u> della frequenza di ricezione del doppio della ZF.
+
+---
+<margin>
+[picture:808:spiegelfrequenzen_mischen2:Filtro passa-banda aggiuntivo per la soppressione della frequenza immagine]
+</margin>
+
+La frequenza immagine può causare disturbi di ricezione se la soppressione è insufficiente, poiché i segnali che si trovano sulla frequenza immagine sono anch'essi udibili nel ricevitore. Per evitare ciò, la frequenza di ricezione desiderata, come mostrato nella figura [ref:spiegelfrequenzen_mischen2], viene selezionata da un filtro passa-banda e la *frequenza immagine* viene così soppressa il più possibile.
+
+Per consentire la massima soppressione possibile della frequenza immagine, è vantaggioso se la distanza tra la frequenza di ricezione desiderata e la frequenza immagine può essere scelta il più grande possibile attraverso un'alta ZF. Con una grande distanza tra la frequenza di ricezione desiderata e la frequenza immagine, un filtro passa-banda di alta qualità può essere realizzato più facilmente rispetto a una piccola distanza.
+
+[question:AF201]
+[question:AF202]
+[question:AF203]
+[question:AF204]
+[question:AF106]
+[question:AF107]
+[question:AF108]
+[question:AF109]
+[question:AF110]
+[question:AF111]

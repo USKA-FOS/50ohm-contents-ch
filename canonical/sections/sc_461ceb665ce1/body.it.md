@@ -1,0 +1,29 @@
+Con l'abbreviazione DX, i radioamatori intendono un collegamento radio a lunga distanza. DX sta per "long distance" e proviene originariamente dalla telegrafia in codice Morse. Con DX, si deve distinguere tra onde corte e VHF.
+
+Se una stazione chiama "CQ DX" sulle bande delle onde corte, desidera stabilire un contatto con radioamatori di un altro continente. I radioamatori dello stesso continente non dovrebbero rispondere o reagire a questa chiamata generale.
+
+[question:BB103]
+[question:BE114]
+[question:BB105]
+
+Sulle frequenze più alte, è estremamente raro raggiungere altri continenti dalla Germania. Pertanto, i collegamenti DX sono definiti diversamente qui rispetto alle onde corte. Su VHF e UHF, con una chiamata DX si desidera contattare altre stazioni che si trovano chiaramente a diverse centinaia di chilometri di distanza.
+
+[question:BB104]
+[question:BE109]
+
+Se si desidera raggiungere un paese specifico, invece di "CQ DX" si può anche chiamare specificamente il prefisso del paese cercato. Ad esempio, una chiamata CQ potrebbe essere "CQ VK/ZL" per chiamare stazioni dall'Australia o dalla Nuova Zelanda.
+
+[question:BE110]
+[question:BE113]
+
+Chi cerca collegamenti internazionali, di solito chiama in inglese. Di conseguenza, anche una risposta dovrebbe essere in inglese. DF1KW, ad esempio, potrebbe rispondere a una chiamata CQ in inglese di EA6VQ con "EA6VQ, this is DF1KW calling you".
+
+[question:BE104]
+
+Se si nota che la propria chiamata "CQ DX" rimane senza risposta per molto tempo, sarebbe una buona idea passare semplicemente a una normale chiamata CQ e stabilire contatti con stazioni della zona.
+
+Ci sono anche radioamatori ambiziosi che vogliono attivare luoghi speciali della Terra con attività DX. Un gruppo di radioamatori si pone l'obiettivo di attivare isole rare, regioni inesplorate o paesi con scarsa attività radio. Questa avventura o spedizione è chiamata *DX-pedition* tra i radioamatori. Queste stazioni rare si trovano per lo più nei luoghi più remoti del mondo.
+
+[question:BE312]
+
+Perché si attivano luoghi così speciali? Esistono programmi di diplomi in cui è necessario effettuare collegamenti con diversi paesi, e c'è il cosiddetto *DX Century Club* (DXCC). Per essere ammessi in questo club, sono necessari collegamenti radio confermati con almeno 100 paesi diversi. Con le attivazioni, i radioamatori possono aggiungere i paesi mancanti alla loro lista.

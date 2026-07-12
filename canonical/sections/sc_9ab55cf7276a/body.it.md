@@ -1,0 +1,24 @@
+Molti metodi di modulazione digitale utilizzano più di due simboli. Invece di sole due ampiezze (piccola e grande), la modulazione di ampiezza funziona anche con quattro o più ampiezze diverse, quindi ad esempio il $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$, $\qty{100}{\percent}$ del massimo. In questo modo è possibile raggruppare due o più bit in un simbolo e trasmetterli contemporaneamente.
+
+[picture:701:4ask:Modulazione di ampiezza quaternaria (Quaternary Amplitude-shift Keying)]
+
+Questo principio può essere applicato anche alla modulazione di frequenza e di fase. Una semplice modulazione di fase (Binary Phase-Shift Keying, BPSK) utilizza solo due diverse posizioni di fase e quindi può inviare solo un bit alla volta. La modulazione di fase in quadratura (Quadrature Phase-Shift Keying, QPSK), invece, utilizza già quattro diverse posizioni di fase ($\qty{0}{\degree}$, $\qty{90}{\degree}$, $\qty{180}{\degree}$ e $\qty{270}{\degree}$). La QPSK trasmette quindi due bit per ogni passo.
+
+[question:AE402]
+
+Dato che con metodi come la QPSK vengono trasmessi più di un bit per simbolo, dobbiamo prestare attenzione alle unità. Mentre parliamo di una velocità di trasmissione dati in $\unit{\bit\per\second}$ in relazione al flusso di dati, la velocità di successione di simboli diversi in simboli al secondo viene registrata con l'unità Baud.
+
+[question:AA104]
+
+Se vengono utilizzati solo due simboli e quindi ogni bit viene inviato singolarmente, la velocità di simbolo in Baud ($\unit{\baud}$) corrisponde alla velocità di trasmissione dati in bit al secondo ($\unit{\bit\per\second}$). Tuttavia, se vengono utilizzati più simboli e quindi più bit vengono trasmessi contemporaneamente, la velocità di trasmissione dati è superiore alla velocità di simbolo. Per la relazione vale che la velocità di trasmissione dati in $\unit{\bit\per\second}$ è uguale alla velocità di simbolo in $\unit{\baud}$ moltiplicata per il numero di bit trasmessi per simbolo:
+
+$C=R_\mathrm{S}\cdot n$
+
+$C$ Velocità di trasmissione dati in $\unit{\bit\per\second}$
+
+$R_\mathrm{S}$ Velocità di simbolo in $\unit{\baud}$
+
+$n$ Dimensione del simbolo in $\unit{\bit\per\text{Symbol}}$
+
+[question:AE405]
+[question:AE406]

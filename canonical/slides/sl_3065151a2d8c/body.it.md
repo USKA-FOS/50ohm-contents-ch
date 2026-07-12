@@ -1,0 +1,15 @@
+### Indirizzo e modifiche
+
+* Le modifiche al nome o all'indirizzo devono essere comunicate immediatamente alla BNetzA.
+* Nell'elenco dei nominativi pubblicato dall'Agenzia federale delle reti (Bundesnetzagentur) sono inclusi il nome, il nominativo e, se non è stata presentata opposizione, l'indirizzo.
+
+--- data-background-iframe="https://ans.bundesnetzagentur.de/Amateurfunk/Rufzeichen.aspx" data-background-interactive
+
+<note>
+Incorporamento della pagina web per la ricerca dei nominativi
+</note>
+---
+[question:VD113]
+
+---
+[question:VD114]

@@ -1,0 +1,63 @@
+<left>
+[picture:978:a_swr:Onda stazionaria]
+</left>
+<right>
+* Il rapporto d’onda stazionaria (ROS) può spesso essere indicato direttamente in base all'impedenza di alimentazione di un'antenna
+* In caso di resistenza puramente attiva (senza componenti induttive o capacitive), il ROS si calcola dal rapporto tra la resistenza di carico e l'impedenza caratteristica del cavo (in modo che ROS ≥ $\num{1}$)
+</right>
+
+---
+
+* Esempio: Un'antenna con $\qty{100}{\ohm}$ su un cavo da $\qty{50}{\ohm}$ produce un ROS di $\num{2}$, mentre una da $\qty{10}{\ohm}$ produce un ROS di $\num{5}$
+* Per ricordare: La resistenza di un dipolo ripiegato è di poco inferiore a $\qty{300}{\ohm}$
+
+---
+[question:AG405]
+---
+#### Percorso di soluzione
+* dato: $Z = \qty{75}{\ohm}$
+* dato: $R_2 \approx \qty{300}{\ohm}$ resistenza dipolo ripiegato
+* cercato: $s$
+
+<fragment>
+$s = \frac{R_2}{Z} = \frac{\qty{300}{\ohm}}{\qty{75}{\ohm}} = 4$
+</fragment>
+---
+
+### Influenza dell'attenuazione della linea sul rapporto d’onda stazionaria
+
+* L'attenuazione della linea riduce sia la potenza in avanti che la potenza riflessa
+* Anche se il $\qty{100}{\percent}$ dell'energia viene riflessa all'estremità del cavo, è possibile misurare un ROS inferiore (migliore) al trasmettitore
+* Esempio: Se metà della potenza viene persa in entrambe le direzioni (andata e ritorno), rimane solo un quarto della potenza originale – questo corrisponde a un ROS misurato di $\num{3}$ ($\qty{25}{\percent}$ di potenza riflessa)
+
+---
+[question:AG402]
+---
+[question:AG403]
+---
+
+### Effetto dell'attenuazione della linea sul ROS misurato
+
+* Con un'attenuazione della linea di $\qty{5}{\dB}$ in entrambe le direzioni (totale $\qty{10}{\dB}$), la potenza riflessa corrisponde solo a un decimo della potenza in avanti
+* Il ROS misurato può essere calcolato con la formula:
+  
+<fragment>
+$s = \frac{\sqrt{P_\mathrm{v}}+\sqrt{P_\mathrm{r}}}{\sqrt{P_\mathrm{v}}-\sqrt{P_\mathrm{r}}}$
+</fragment>
+
+---
+[question:AG404]
+---
+
+#### Percorso di soluzione
+* dato: $P_V = \qty{10}{\watt}$
+* dato: $a = \qty{5}{\dB}$
+* cercato: $s$
+
+<fragment>
+Attenuazione totale del cavo per il percorso di andata e ritorno: $\qty{10}{\dB}$
+$P_R = \qty{-10}{\dB} \cdot P_V = \dfrac{\qty{10}{\watt}}{10} = \qty{1}{\watt}$
+</fragment>
+<fragment>
+$s = \dfrac{\sqrt{P_\mathrm{v}}+\sqrt{P_\mathrm{r}}}{\sqrt{P_\mathrm{v}}-\sqrt{P_\mathrm{r}}} = \dfrac{\sqrt{\qty{10}{\watt}}+\sqrt{\qty{1}{\watt}}}{\sqrt{\qty{10}{\watt}}-\sqrt{\qty{1}{\watt}}} = 1,92$
+</fragment>

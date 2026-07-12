@@ -1,0 +1,10 @@
+La frequenza di un VFO dipende direttamente dalla sua tensione di servizio (tensione continua). Ciò è dovuto principalmente alla dipendenza del punto di funzionamento del transistor nel suo oscillatore.
+Per ottenere la massima stabilità di frequenza possibile di un VFO rispetto alle fluttuazioni della tensione di servizio, questa deve essere stabilizzata il meglio possibile mediante adeguate misure di progettazione del circuito nella sua *tensione*. La tensione di servizio di un VFO dovrebbe quindi essere indipendente dalle tensioni di servizio di altri stadi (stabilizzata) e il più possibile *filtrata e disaccoppiata*.
+
+[question:AD612]
+[question:AD608]
+[question:AD607]
+
+In caso di scarsa stabilizzazione della tensione di servizio di un VFO, possono verificarsi salti di frequenza impulsivi al ritmo della modulazione del trasmettitore. Ciò si manifesta in particolare nei segnali CW come il cosiddetto *Chirp*, un suono cinguettante all'inizio dei caratteri.
+
+[question:AD609]

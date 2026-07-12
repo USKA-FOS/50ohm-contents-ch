@@ -1,0 +1,4 @@
+Come accennato in precedenza, prima del convertitore A/D è necessario inserire un filtro appropriato per la soppressione delle componenti del segnale di frequenza più alta. Un tale filtro viene chiamato anche filtro anti-aliasing. Come tipi di filtro, qui possono essere utilizzati sia filtri passa-basso che filtri passa-banda. Il filtro deve essere progettato in modo tale che le componenti del segnale al di sopra della metà della frequenza di campionamento vengano efficacemente soppresse. Ricordiamo che per il campionamento di un segnale è necessaria una frequenza di campionamento più del doppio della frequenza del segnale da acquisire.
+
+[question:AF622]
+[question:AF623]

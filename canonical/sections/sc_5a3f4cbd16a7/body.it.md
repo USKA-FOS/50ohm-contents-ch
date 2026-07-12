@@ -1,0 +1,30 @@
+Nell'radioamatore si svolgono anche concorsi, definiti *Contest*. In sintesi, l'obiettivo di ogni contest è stabilire il maggior numero possibile di collegamenti radio in un tempo limitato. I contest servono alla competizione sportiva, ma anche a migliorare la propria stazione radioamatoriale e la gestione operativa. Ogni contest è soggetto a regole che l'organizzatore stabilisce in un *bando di gara*.
+
+<indepth>
+I contest si svolgono su diverse bande e in diverse modalità di trasmissione. A seconda del bando di gara, si possono contattare tutte le stazioni partecipanti o solo alcune specifiche. In alcuni contest, stazioni particolari, ad esempio provenienti da un paese o una regione specifica, valgono più punti. In altri contest, come nel contest Fieldday della IARU Regione 1, si entra in classifica solo con una stazione portatile.
+</indepth>
+
+---
+
+Le chiamate nell'ambito di un contest contengono sempre l'indicazione "Contest" o, in telegrafia, "Test". Da ciò si riconosce immediatamente che la stazione chiamante partecipa a un contest. Se, ad esempio, DD4UQ partecipa in portatile al popolare contest Fieldday in telegrafia, la sua chiamata potrebbe essere "CQ FD DD4UQ/P TEST".
+
+<indepth>
+In telegrafia, *TEST* non significa che qualcuno sta facendo una prova, testando ad esempio la propria antenna, ma sta per la partecipazione a un contest.
+</indepth>
+
+[question:BE301]
+[question:BE116]
+
+È importante leggere il bando di gara prima di partecipare a un contest. Esso contiene informazioni importanti sul periodo e sulle bande di frequenza da utilizzare, nonché su quali informazioni devono essere scambiate in ogni collegamento. Un contest potrebbe, ad esempio, richiedere lo scambio di nominativi, rapporti e localizzatori Maidenhead, mentre un altro contest, oltre ai nominativi e ai rapporti, richiede un numero progressivo o l'età.
+
+Nel bando di gara è anche stabilito secondo quali regole i partecipanti verranno valutati successivamente per determinare il vincitore e una classifica. Se le regole non vengono rispettate, ad esempio si trasmette nel momento sbagliato o sulla banda di frequenza sbagliata, o se non tutte le informazioni richieste vengono scambiate, i collegamenti corrispondenti non potranno essere conteggiati o si verificherà una detrazione di punti.
+
+Ogni collegamento radio e lo scambio di informazioni dovrebbero essere mantenuti il più brevi possibile nel contest, in modo da poter stabilire il maggior numero possibile di collegamenti nel tempo assegnato.
+
+[question:BE303]
+[question:BE302]
+
+Una particolarità si presenta quando si partecipa a un *Sprint Contest*. In questo caso, non ci si può soffermare su una frequenza. Dopo aver chiamato CQ e aver effettuato un collegamento radio, è necessario lasciare la frequenza alla stazione che ha risposto. Bisogna cercare una nuova frequenza libera per chiamare nuovamente CQ o rispondere ad altre stazioni.
+
+[question:BE304]
+

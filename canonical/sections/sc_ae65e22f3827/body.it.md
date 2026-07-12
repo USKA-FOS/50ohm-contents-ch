@@ -1,0 +1,21 @@
+Il campo vicino si divide in campo vicino reattivo e campo vicino radiante. Nella maggior parte dei casi, il campo vicino radiante può essere trattato come il campo lontano.
+
+Nel campo vicino (reattivo) di un'antenna, l'intensità del campo elettrico e l'intensità del campo magnetico non hanno una relazione di fase costante tra loro.
+
+[question:AK101]
+
+Una relazione di fase costante si crea solo nel campo lontano di un'antenna. Il vero campo lontano inizia solo a $4\cdot\lambda$. Se si utilizza la formula approssimata per il campo lontano nel campo vicino radiante, l'intensità del campo calcolata è superiore all'intensità del campo effettiva. Si è quindi dalla parte sicura. Questo non vale però per le antenne magnetiche e molto corte.
+
+La transizione tra il campo vicino reattivo e il campo vicino radiante (campo lontano) dipende dalla lunghezza d’onda.
+
+$d > \dfrac {\lambda} {2 \cdot \pi}$
+
+Con una lunghezza d’onda di, ad esempio, $\qty{20}{\meter}$, la transizione avviene quindi approssimativamente a una distanza di $d = \dfrac {\qty{20}{\meter}} {2 \cdot \pi} \approx \qty{3,18}{\meter}$.
+
+Per il calcolo delle distanze di protezione delle persone è possibile utilizzare una formula approssimata nel campo lontano. Ciò consente di evitare eventuali misurazioni o simulazioni complesse.
+
+La formula $d = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$ è valida per la maggior parte delle forme di antenna, se la condizione $d > \dfrac {\lambda} {2 \cdot \pi}$ è soddisfatta.
+
+Per antenne piccole rispetto alla lunghezza d’onda, o se la distanza di sicurezza si trova nel campo vicino, la formula approssimata sopra non può essere applicata.
+ 
+[question:AK103]

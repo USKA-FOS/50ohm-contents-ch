@@ -1,0 +1,27 @@
+## Comunicazioni radio solo con radioamatori
+
+Una stazione radioamatoriale può contattare solo altre stazioni radioamatoriali.
+
+È vietato comunicare con stazioni di altri servizi radio.
+
+<note>
+* nessuna comunicazione radio con autorità, stazioni radio aeree o marittime o con una stazione radio CB
+</note>
+
+---
+[question:VC111]
+---
+[question:VD703]
+---
+
+### Trasmissione di messaggi
+
+* È vietato trasmettere messaggi da o a non radioamatori.
+* L'unica eccezione sono i **casi di emergenza e catastrofe**. In tal caso, è consentito inviare messaggi da e a non radioamatori.
+
+<note>
+* Ad esempio, non è consentito inviare saluti ai parenti di un radioamatore se questi non sono essi stessi radioamatori.
+</note>
+
+---
+[question:VC112]

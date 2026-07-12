@@ -1,0 +1,13 @@
+<left>
+* Campo in cui l'onda di terra non arriva più
+* E l'onda spaziale non è ancora arrivata
+* Dipende dall'angolo di riflessione dell'onda spaziale
+* Le stazioni radio nella zona d'ombra non possono sentirmi
+</left>
+<right>
+[picture:741:e_tote_zone:Zona d'ombra]
+</right>
+
+---
+
+[question:EH201]

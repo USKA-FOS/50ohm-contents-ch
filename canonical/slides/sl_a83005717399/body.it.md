@@ -1,0 +1,43 @@
+* La velocità di trasmissione dati raggiungibile dipende dalla larghezza di banda utilizzabile e dal rapporto segnale/rumore.
+* Da queste due grandezze, con la legge di Shannon-Hartley, è possibile calcolare la velocità di trasmissione dati teoricamente massima raggiungibile per un canale di trasmissione.
+* Un valore facile da ricordare si ottiene con un rapporto segnale/rumore di $\qty{0}{\dB}$.
+* Qui la larghezza di banda in hertz corrisponde esattamente alla velocità di trasmissione dati massima raggiungibile in $\unit{\bit\per\second}$.
+
+---
+[question:AE416]
+
+---
+
+* Rapporti segnale/rumore peggiori consentono una minore velocità di trasmissione dati, rapporti segnale/rumore migliori velocità di trasmissione dati maggiori.
+* Poiché i calcoli sono piuttosto complessi, le domande d'esame sono state formulate in modo che il risultato possa essere facilmente stimato.
+
+---
+[question:AE417]
+---
+#### Percorso di soluzione
+
+Con un SNR di $\qty{0}{\dB}$, la larghezza di banda in $\unit{\hertz}$ corrisponde esattamente alla velocità di trasmissione dati massima raggiungibile in $\unit{\bit\per\second}$, ovvero $\qty{2,7}{\kilo\bit\per\second}$.
+
+---
+[question:AE418]
+---
+#### Percorso di soluzione
+
+Con un SNR di $\qty{0}{\dB}$, la larghezza di banda in $\unit{\hertz}$ corrisponde esattamente alla velocità di trasmissione dati massima raggiungibile in $\unit{\bit\per\second}$, ovvero $\qty{10}{\mega\bit\per\second}$.
+
+---
+[question:AE420]
+---
+#### Percorso di soluzione
+
+Con un SNR di $\qty{-20}{\dB}$, la velocità di trasmissione dati massima raggiungibile deve essere inferiore a $\qty{2,7}{\kilo\bit\per\second}$. Solo $\qty{39}{\bit\per\second}$ può essere corretto.
+
+---
+[question:AE419]
+---
+
+#### Percorso di soluzione
+
+Con un SNR di $\qty{30}{\dB}$, la velocità di trasmissione dati massima raggiungibile deve essere maggiore di $\qty{10}{\mega\bit\per\second}$. Solo $\qty{100}{\mega\bit\per\second}$ può essere corretto.
+
+

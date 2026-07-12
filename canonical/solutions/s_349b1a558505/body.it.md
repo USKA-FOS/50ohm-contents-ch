@@ -1,0 +1,3 @@
+La controinduzione si verifica quando il campo magnetico di una bobina cambia nel tempo. Ciò accade, ad esempio, quando una corrente variabile scorre attraverso una bobina adiacente accoppiata magneticamente. Il campo magnetico mutevole induce quindi una tensione nella bobina considerata.
+
+Una corrente continua costante, al contrario, non genera un campo magnetico mutevole e quindi nessuna tensione di induzione.

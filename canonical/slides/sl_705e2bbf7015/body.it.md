@@ -1,0 +1,29 @@
+<left>
+* Misura l'adattamento di linea
+* Quanto bene l'impedenza caratteristica corrisponde all'impedenza di alimentazione dell'antenna o all'impedenza del trasmettitore-ricevitore?
+* Chiamato anche ponte di misura SWR
+</left>
+<right>
+[photo:144:e_swr_meter_geraet:Un misuratore SWR per misurazioni fino a un massimo di $\qty{100}{\watt}$]
+</right>
+
+---
+[question:EI401]
+---
+[question:EI402]
+---
+[question:EI403]
+---
+
+<left>
+* Misurazione dell'adattamento dell'antenna: il più vicino possibile all'antenna per escludere cambiamenti nella linea di alimentazione
+* Misurazione dell'intero impianto: il più vicino possibile dietro il trasmettitore
+</left>
+<right>
+[picture:670:e_swr_meter_messung:Principio di misurazione di un misuratore SWR]
+</right>
+
+---
+[question:EI404]
+---
+[question:EI405]

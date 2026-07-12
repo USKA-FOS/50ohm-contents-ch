@@ -1,0 +1,12 @@
+* All'inizio sembra logico scegliere un numero elevato di simboli, in modo che per ogni simbolo si possano trasmettere quante più informazioni possibile.
+* Ma poi un ricevitore deve essere in grado di distinguere, ad esempio, tra molte ampiezze diverse. In questo modo il metodo diventa più suscettibile ai disturbi.
+
+--- style="font-size: 0.7em;"
+
+[picture:702:8qam:Andamento del segnale di un segnale 8QAM, per simbolo con ampiezza ($\num{0,5}$ o $\num{1}$), fase e sequenza di bit a 3 cifre]
+
+* Trucco: Invece di modificare un solo parametro (ad esempio, l'ampiezza), per ogni simbolo vengono modificati due parametri, ovvero l'ampiezza e la fase.
+* Un simbolo corrisponde quindi a una combinazione di una determinata ampiezza con una determinata fase.
+
+---
+[question:AE403]

@@ -1,0 +1,30 @@
+## Definizione del campo lontano
+
+* Nel campo lontano, i vettori dell'intensità di campo elettrico (E), dell'intensità di campo magnetico (H) e della direzione di propagazione sono perpendicolari tra loro
+* Non ci sono differenze di fase tra E e H
+* L'impedenza caratteristica dell'onda corrisponde a quella dello spazio libero
+
+---
+### Confine tra campo vicino e campo lontano
+
+* Il confine dipende principalmente dalla lunghezza d'onda
+* Per antenne filari (ad es. dipoli), il campo lontano si forma tipicamente a una distanza di circa $4\cdot\lambda$
+* Condizione di transizione nel campo vicino: $d > \frac{\lambda}{2\pi}$; per $\lambda = \qty{20}{\meter}$ circa $d \approx \qty{3,18}{\meter}$
+
+---
+### Applicazione della formula approssimata del campo lontano
+
+* La formula approssimata $d = \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E}$ vale per la maggior parte delle forme di antenna
+* Viene applicata quando la distanza di sicurezza calcolata si trova nel campo vicino radiante o nel campo lontano
+* La formula evita misurazioni o simulazioni complesse per determinare le distanze di protezione delle persone
+
+---
+### Procedura di valutazione secondo BEMFV
+
+<left>
+[photo:80:n_Bewertungsverfahren:Le procedure di valutazione sono descritte in questo documento.]
+</left>
+<right>
+Nelle [spiegazioni delle procedure di valutazione secondo BEMFV](https://50ohm.de/bemfv), l'BNetzA ha descritto i termini e le procedure per la determinazione delle distanze di sicurezza.
+</right>
+

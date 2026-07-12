@@ -1,0 +1,1 @@
+Ti prepariamo per l'esame da radioamatore. I nostri istruttori esperti ti supporteranno lungo tutto il percorso!

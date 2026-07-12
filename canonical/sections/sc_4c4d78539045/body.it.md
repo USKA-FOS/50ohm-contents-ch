@@ -1,0 +1,18 @@
+
+È anche possibile distribuire un flusso di dati su più portanti che si trovano a frequenze diverse ma vicine. Tuttavia, le portanti non possono essere posizionate arbitrariamente vicine l'una all'altra, poiché presentano una certa larghezza a causa delle bande laterali inevitabilmente generate.
+
+Nella modulazione a frequenza ortogonale (Orthogonal Frequency-Division Multiplexing, OFDM), le singole portanti vengono ora posizionate a una distanza tale da evitare il più possibile l'interferenza reciproca (il cosiddetto "crosstalk").
+
+Più alta è la velocità di simbolo per portante, maggiore deve essere la distanza tra le portanti. Per questo motivo, si sceglie spesso una velocità di simbolo inferiore per ciascuna singola portante, in modo che possano trovare posto più portanti. La quantità di informazione trasmessa rimane la stessa, perché sebbene per portante possa essere trasmessa meno informazione, più portanti possono essere utilizzate una accanto all'altra.
+
+Un vantaggio di questo approccio è che disturbi a banda stretta disturbano solo una o poche portanti. In combinazione con metodi di correzione degli errori con trasmissione dati ridondante, che impareremo in seguito, è così possibile ottenere una trasmissione priva di errori nonostante i disturbi a banda stretta.
+
+<margin>
+[picture:704:ofdm:Spettro di frequenza di un semplice segnale OFDM]
+</margin>
+
+[question:AE421]
+
+Un ulteriore vantaggio deriva dalla minore velocità di simbolo di ciascuna singola portante. A causa della minore velocità di simbolo, la durata di ciascun simbolo è più lunga. In caso di spostamenti temporali dovuti alla propagazione multi-percorso, la sovrapposizione tra i segnali (la cosiddetta interferenza intersimbolica o crosstalk tra simboli) è quindi proporzionalmente minore. Nel caso della propagazione multi-percorso, OFDM è quindi particolarmente vantaggioso.
+
+[question:AE422]

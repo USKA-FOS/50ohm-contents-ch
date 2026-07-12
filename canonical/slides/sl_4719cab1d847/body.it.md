@@ -1,0 +1,31 @@
+<left>
+* Il segnale radio raggiunge il ricevitore attraverso più di un percorso
+* Riflessione su edifici, terreno, aerei, ecc.
+* Rifrazione attraverso la ionosfera per le onde corte
+* Porta a interferenze con amplificazione o cancellazione del segnale
+</left>
+<right>
+[picture:1064:a_mehrwegeausbreitung_reflexion:Propagazione multi-percorso dovuta a riflessione]
+</right>
+
+---
+
+<left>
+* Il segnale radio raggiunge il ricevitore attraverso più di un percorso
+* Riflessione su edifici, terreno, aerei, ecc.
+* Rifrazione attraverso la ionosfera per le onde corte
+* Porta a interferenze con amplificazione o cancellazione del segnale
+</left>
+<right>
+[include:applet_interferenz]
+</right>
+
+---
+
+* Con movimento aggiuntivo (operazione in auto, rifrazione su un aereo, cambiamenti nella ionosfera) il segnale sommato nel ricevitore cambia continuamente
+* Fluttuazione dell'intensità del segnale $\rightarrow$ *sbiadimento*, *fading* o *QSB*
+* Distorsioni del segnale e peggiore intelligibilità
+
+---
+
+[question:AH222]

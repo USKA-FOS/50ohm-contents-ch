@@ -1,0 +1,17 @@
+Nel capitolo precedente abbiamo visto che esistono diversi tipi di oscillatori con diversa stabilità. La migliore stabilità si ottiene con l'OCXO: i moderni apparati radio raggiungono un valore di $\qty{\pm0,5}{\ppm}$, il che significa che per una frequenza desiderata di $\qty{10}{\mega\hertz}$, la frequenza effettiva si trova nell'intervallo $\qtyrange{9,999995}{10,000005}{\mega\hertz}$, ovvero $\qty{\pm5}{\hertz}$ attorno alla frequenza effettiva. Questo valore è già abbastanza buono e più che sufficiente per le onde corte. Tuttavia, se volessimo operare non a $\qty{10}{\mega\hertz}$ ma a $\qty{10}{\giga\hertz}$, l'errore aumenterebbe a $\qty{\pm5000}{\hertz}$. Questo è già così grande che un segnale SSB si troverebbe ben al di fuori dei limiti del filtro e un collegamento radio a una frequenza concordata non potrebbe avvenire. Per questo motivo sono necessari oscillatori ancora migliori.
+
+<margin>
+[picture:1081:a_gpsdo:Oscillatore disciplinato da GPS (GPSDO) nel contesto di una stazione QO-100]
+</margin>
+
+Si potrebbe investire molto sforzo per stabilizzare ulteriormente un OCXO, o utilizzare altri tipi di oscillatori, come i normali al rubidio, che sono ancora più stabili degli oscillatori al quarzo. Tuttavia, tali oscillatori presentano anche svantaggi come un maggiore assorbimento di corrente, dimensioni maggiori e, non da ultimo, un prezzo molto elevato, poiché ci muoviamo già nell'ambito delle apparecchiature professionali. Fortunatamente, esiste un'altra alternativa: i sistemi di navigazione satellitare (in inglese Global Navigation Satellite Systems, GNSS) come GPS o Galileo richiedono anch'essi orologi molto stabili, poiché la localizzazione avviene tramite la misurazione del tempo di percorrenza dei segnali dal ricevitore a più satelliti. Poiché un orologio non è altro che un oscillatore, possiamo sfruttare questo fatto e sincronizzare il nostro OCXO con gli oscillatori dei satelliti. In questo modo otteniamo un oscillatore sincronizzato con GPS, o in inglese GPS-Disciplined Oscillator (GPSDO). Come ciò funzioni tecnicamente, lo vedremo in un capitolo successivo.
+
+---
+
+Ora ci si potrebbe chiedere perché non utilizzare direttamente il segnale GPS come segnale dell'oscillatore. Il segnale proveniente dai satelliti arriva debole sulla Terra e viene ulteriormente modificato durante il percorso attraverso la ionosfera. Di conseguenza, il segnale dell'oscillatore derivato da esso ha una scarsa stabilità a breve termine. Conosciamo già effetti simili dalla propagazione dei segnali vocali sulle onde corte: in quel caso, il segnale può variare nel tempo, ad esempio a causa del fading, e suonare diversamente, ma riusciamo comunque a capire il nostro interlocutore. È simile con i segnali satellitari: a breve termine (meno di un secondo) il segnale può essere falsato da rumore e altre influenze, ma se guardiamo più a lungo, il segnale in media si trova molto precisamente alla frequenza desiderata. Poiché sappiamo dal capitolo precedente che, ad esempio, gli OCXO hanno un'ottima stabilità a breve termine, questi effetti si completano a vicenda e con un GPSDO otteniamo un'ottima stabilità a breve termine grazie all'OCXO e un'ottima stabilità a lungo termine e precisione di frequenza grazie alla sincronizzazione con il segnale GPS.
+
+[question:AD606]
+
+<margin>
+[photo:335:a_gpsdo_homebrew:GPSDO autocostruito]
+</margin>

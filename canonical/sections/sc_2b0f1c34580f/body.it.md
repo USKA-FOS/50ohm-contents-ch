@@ -1,0 +1,17 @@
+%TODO: Riformattare in LaTeX
+Nel capitolo sui codici colore delle resistenze, abbiamo già incontrato brevemente il concetto di tolleranza. La tolleranza di una resistenza descrive quanto il suo valore effettivo possa discostarsi dal valore nominale, cioè stampato. Viene solitamente indicata in percentuale e definisce l'intervallo entro cui può trovarsi il valore reale della resistenza.
+
+Ad esempio, una tolleranza di $\qty{\pm 5}{\percent}$ significa che il valore effettivo della resistenza può variare tra il $\qty{95}{\percent}$ e il $\qty{105}{\percent}$ del valore indicato.
+
+Supponiamo di avere una resistenza con un valore nominale di $\qty{1000}{\ohm}$ ($\qty{1}{\kilo\ohm}$) e una tolleranza di $\qty{\pm 5}{\percent}$. Poiché il $\qty{5}{\percent}$ di $\qty{1000}{\ohm}$ Ohm sono esattamente $\qty{50}{\ohm}$, il valore effettivo della resistenza può discostarsi di $\qty{\pm 50}{\ohm}$. Il valore effettivo di questa resistenza da $\qty{1}{\kilo\ohm}$ con tolleranza del $\qty{5}{\percent}$ potrebbe quindi trovarsi tra $\qty{950}{\ohm}$ e $\qty{1050}{\ohm}$.
+
+Le tolleranze più comuni per le resistenze sono $\qty{\pm 1}{\percent}$, $\qty{\pm 2}{\percent}$, $\qty{\pm 5}{\percent}$ e $\qty{\pm 10}{\percent}$. Le resistenze con tolleranza inferiore (ad es. $\qty{\pm 1}{\percent}$) sono più precise, ma spesso anche più costose. Le tolleranze sono particolarmente importanti quando i circuiti richiedono alta precisione, come negli strumenti di misura o nei sensori sensibili. In tali casi, vengono spesso utilizzate resistenze con bassa tolleranza ($\qty{\pm 1}{\percent}$ o meno).
+
+%EC112
+%tutto già risposto nel codice colore delle resistenze
+[question:EC112]
+
+Per la seguente domanda, ricordiamo - o cerchiamo nella raccolta di formule - che il colore argento corrisponde a una tolleranza del $\qty{\pm 10}{\percent}$.
+
+%EC113
+[question:EC113]

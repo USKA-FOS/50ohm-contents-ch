@@ -1,0 +1,111 @@
+## Alimentazione finale del dipolo a semionda
+
+<left>
+[picture:310:a_antennenformen_fuchskreis:Cerchio a volpe]
+</left>
+
+<right>
+* Un'antenna a semionda può essere alimentata anche a un'estremità
+* Con una lunghezza del filo di λ/2 (o multipli) l'impedenza di alimentazione è ad alta impedenza (circa $\qtyrange{2000}{2500}{\ohm}$)
+* Il cerchio a volpe serve come opzione di adattamento
+</right>
+---
+[question:AG419]
+
+---
+### Trasformatore per l'adattamento di impedenza
+
+* Un trasformatore con un rapporto di trasformazione di 1:7 provoca una trasformazione di impedenza di 1:49, poiché il rapporto di spire viene elevato al quadrato
+* Tensione e corrente vengono moltiplicate o divise per il fattore $\num{7}$
+* Spesso si verificano confusioni quando invece del rapporto di impedenza viene indicato il puro rapporto di spire
+
+---
+[question:AG123]
+
+---
+### Contrappeso nell'adattamento di impedenza
+
+<left>
+[picture:260:a_antennenformen_endfed_multiband:Antenna multibanda risonante alimentata all'estremità]
+</left>
+
+<right>
+* Come contrappeso viene spesso utilizzata una breve estremità di filo (almeno 1/20 λ) o una parte della linea coassiale di alimentazione
+* Uno strangle impedisce che il cavo continui diventi parte dell'antenna
+</right>
+---
+[question:AG124]
+
+---
+## Antenna Zeppelin come alternativa
+
+<left>
+[picture:314:a_antennenformen_zeppelinantenne:Antenna Zeppelin]
+</left>
+
+<right>
+* Invece di un cerchio a volpe o di un trasformatore, si può utilizzare anche una linea bifilare con una lunghezza di λ/4
+* Questa costruzione è chiamata antenna Zeppelin
+</right>
+---
+[question:AG120]
+
+--- style="font-size: smaller;"
+## Adattamento di impedenza per loop a onda intera
+
+<left>
+[picture:311:a_antennenformen_deltaloop:Delta-Loop]
+</left>
+<right>
+* Un'antenna Delta-Loop con lati di uguale lunghezza ha un'impedenza di alimentazione di circa $\qty{100}{\ohm}$
+* Utilizzando una linea λ/4 con un'impedenza caratteristica di $\qty{75}{\ohm}$, si ottiene un adattamento a circa $\qty{50}{\ohm}$
+* L'impedenza caratteristica ottimale è la media geometrica $(\sqrt{\qty{50}{\ohm}\cdot \qty{100}{\ohm}} \approx \qty{70,7}{\ohm})$
+</right>
+---
+[question:AG117]
+
+---
+## Antenna loop quadrata a onda intera
+
+* Se il loop a onda intera è realizzato come un quadrato, la lunghezza di ogni lato deve essere esattamente 1/4 λ
+
+---
+[question:AG119]
+
+---
+## Antenne multibanda (Parte 1)
+
+<left>
+[picture:313:a_antennenformen_g5rv:Antenna G5RV]
+</left>
+
+<right>
+* Le antenne multibanda consentono il funzionamento su molte bande di frequenza
+* Esempi: Antenna G5RV (due lati di uguale lunghezza + linea bifilare) e antenna Windom eccitata asimmetricamente
+</right>
+---
+[question:AG121]
+
+---
+## Antenne multibanda (Parte 2)
+
+<left>
+[picture:309:a_antennenformen_windom:Antenna Windom]
+</left>
+
+<right>
+* Grazie a dimensioni intelligenti, vengono realizzate numerose risonanze, consentendo l'utilizzo di molte bande radioamatoriali
+</right>
+---
+[question:AG122]
+
+---
+## Risonanza e caratteristica di irraggiamento
+
+* La sola risonanza non garantisce necessariamente una buona caratteristica di irraggiamento
+* Nelle antenne verticali eccitate rispetto a terra, una lunghezza di circa 5/8 λ è ottimale
+* Poiché un singolo filo con terra come contropolo non è risonante a 5/8 λ, viene solitamente utilizzata una bobina che allunga la lunghezza elettrica a 6/8 λ (cioè 3/4 λ)
+* Nei dipoli alimentati al centro, il rapporto ottimale è spesso di 5/4 λ
+
+---
+[question:AG223]

@@ -1,0 +1,1 @@
+I nostri tutor di formazione sono radioamatori esperti che saranno lieti di supportarti. Possono anche esercitarsi con te nel traffico radio pratico.

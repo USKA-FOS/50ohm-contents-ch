@@ -1,0 +1,3 @@
+Al confine di una giunzione PN, gli elettroni liberi si diffondono dalla regione conduttrice n alla regione conduttrice p. Lì ricombinano con le lacune elettroniche presenti.
+
+Ciò compensa parzialmente l'eccesso di elettroni sul lato n e la carenza di elettroni sul lato p. Nella regione di confine rimangono cariche legate in modo fisso, formando uno strato di svuotamento povero di portatori di carica. Questo agisce come isolante e inizialmente impedisce ulteriore trasporto di carica.

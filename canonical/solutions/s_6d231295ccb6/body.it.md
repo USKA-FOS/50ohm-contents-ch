@@ -1,0 +1,3 @@
+Per la costruzione di induttori ad alta frequenza vengono comunemente utilizzati nuclei di ferrite. La ferrite ha un'elevata permeabilità magnetica e contemporaneamente basse perdite per correnti parassite ad alte frequenze. Ciò consente di aumentare l'Induttanza senza incorrere in grandi perdite.
+
+L'acciaio sarebbe inadatto per applicazioni ad alta frequenza a causa delle elevate perdite per correnti parassite. La plastica o i materiali diamagnetici, al contrario, influenzano a malapena il campo magnetico.

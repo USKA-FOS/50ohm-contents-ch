@@ -1,0 +1,19 @@
+## Antenna
+
+* Una oscillazione elettrica in un'antenna viene irradiata come onda radio
+* Le onde radio sono onde elettromagnetiche
+* Si propagano alla velocità della luce
+* Velocità della luce nello spazio libero: circa 300.000 chilometri al secondo
+
+---
+[question:NB301]
+---
+## Onde radio
+
+* Sono costituite da creste e valli d'onda
+* Rappresentano la forza del segnale radio
+* Questo corrisponde all'*intensità di campo*
+* Anche qui, l'altezza delle creste e delle valli d'onda si chiama *ampiezza*
+
+---
+[question:NB402]

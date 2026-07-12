@@ -1,0 +1,52 @@
+L'alimentazione di un'antenna avviene sempre con una tensione e una corrente che stanno tra loro in un certo rapporto. Questo rapporto è chiamato impedenza di alimentazione.
+
+Affinché una potenza possa essere erogata, devono essere sempre presenti tensione *e* corrente, poiché la potenza deriva dalla moltiplicazione di tensione e corrente. Se la tensione o la corrente fosse zero, non ci sarebbe alcuna erogazione o assorbimento di potenza.
+
+Ciononostante, parliamo di antenne *alimentate in corrente* per certe antenne e di antenne *alimentate in tensione* per altre. Ciò significa che per certe antenne si ha un'alta corrente con una tensione relativamente bassa al punto di alimentazione, o un'alta tensione con una corrente relativamente bassa.
+
+
+---
+
+In un dipolo a semionda, l'impedenza di alimentazione dipende da dove avviene l'alimentazione. Ciò è dovuto al fatto che nel dipolo i portatori di carica oscillano avanti e indietro, muovendo molti portatori di carica al centro, che chiamiamo ventre di corrente, e generando tensioni particolarmente elevate alle estremità, che chiamiamo ventri di tensione. Dove non vengono mosse cariche, parliamo di nodo di corrente, e dove la tensione è zero, parliamo di nodo di tensione. La figura [ref:e_strom_spannung_speisung_dipol] mostra la distribuzione di corrente e tensione sul dipolo.
+
+[question:EG203]
+
+<margin>
+[picture:787:e_strom_spannung_speisung_dipol:Dipolo a semionda con distribuzione di tensione e corrente]
+</margin>
+
+---
+
+Se alimentiamo un dipolo a semionda al centro, devono essere spostate molte cariche e parliamo di un'antenna alimentata in corrente (bassa impedenza di alimentazione). Un dipolo a semionda alimentato all'estremità, invece, è un'antenna alimentata in tensione (alta impedenza di alimentazione). Per l'alimentazione all'estremità, come mostrato nella figura [ref:e_strom_spannung_speisung_dipol_ende], è necessario un adattatore di impedenza. Lo discuteremo più in dettaglio solo nella parte HB9.
+
+<margin>
+[picture:851:e_strom_spannung_speisung_dipol_ende:Dipolo a semionda alimentato all'estremità]
+</margin>
+
+---
+
+Le antenne alimentate in corrente presentano quindi una bassa impedenza e le antenne alimentate in tensione un'alta impedenza.
+
+Ciò può essere ben illustrato con la legge di Ohm:
+
+$ R = \frac{U}{I} $
+
+Se si alimenta un dipolo al centro, si ha una tensione relativamente bassa con una corrente elevata contemporaneamente. Il rapporto tra tensione e corrente è quindi piccolo, l'impedenza risultante di conseguenza bassa. Se invece l'alimentazione avviene all'estremità del dipolo, si ha una tensione elevata mentre la corrente tende a zero. Di conseguenza, il rapporto diventa molto grande e l'impedenza risultante assume valori elevati.
+
+Con basse impedenze parliamo anche di comportamento *a bassa impedenza* ($\downarrow\unit{\ohm}$) e con alte impedenze di comportamento *ad alta impedenza* ($\uparrow\unit{\ohm}$).
+
+<indepth>
+Un ordine di grandezza tipico per l'*impedenza di alimentazione* di un'antenna alimentata in corrente è, ad esempio, da $\qty{36}{\ohm}$ a $\qty{100}{\ohm}$ e per le antenne alimentate in tensione da $\qty{1500}{\ohm}$ a $\qty{4000}{\ohm}$.
+</indepth>
+
+---
+
+<indepth>
+La distribuzione della corrente su un dipolo dipende dalla frequenza con cui viene utilizzato l'antenna. La figura [ref:e_stromverteilungen] mostra la distribuzione della corrente per multipli interi della frequenza fondamentale $f$ in un dipolo alimentato al centro. Si può osservare che per multipli pari della frequenza fondamentale si crea un nodo di corrente al punto di alimentazione. In questo caso, la corrente è molto bassa lì, mentre la tensione è alta, e l'antenna appare ad alta impedenza al punto di alimentazione. Per questo motivo, un dipolo alimentato al centro è risonante solo per multipli interi dispari della frequenza fondamentale. È possibile utilizzare più bande spostando il punto di alimentazione, ad esempio su uno dei ventri di corrente come nella figura [ref:e_stromverteilungen]b (ad esempio, nell'antenna Windom) o all'estremità dell'antenna (ad esempio, antenna EFHW o Fuchs). In questi casi, tuttavia, sono necessari dispositivi di adattamento, che discuteremo più in dettaglio solo nella parte HB9.
+
+[picture:1050:e_stromverteilungen:Distribuzioni di corrente a diverse frequenze fondamentali]
+</indepth>
+
+[question:EG204]
+[question:EG205]
+[question:EG206]

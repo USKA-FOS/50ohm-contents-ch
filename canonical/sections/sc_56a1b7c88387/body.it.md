@@ -1,0 +1,6 @@
+Nel demodulatore, durante la ricezione di segnali con portante soppressa o segnali CW, il segnale ricevuto viene miscelato con il BFO, chiamato anche oscillatore ausiliario di portante. Nel ricevere SSB, il BFO deve trovarsi esattamente alla frequenza della portante soppressa. Durante la ricezione di segnali CW, il BFO deve trovarsi a una certa distanza dal segnale CW. Questa distanza determina anche la frequenza audio con cui il segnale CW diventa udibile nel ricevitore. Per i segnali CW, vengono solitamente percepite frequenze audio comprese tra $\qtyrange{600}{900}{\hertz}$ come piacevoli. Pertanto, la differenza tra la frequenza del BFO e l'ultima FI per una ricezione piacevole di segnali CW dovrebbe essere di circa $\qty{800}{\hertz}$.
+
+Un oscillatore BFO dovrebbe avere la massima stabilità di frequenza possibile, in modo che i segnali ricevuti possano essere riprodotti in modo stabile e non distorto e il ricevitore non debba essere costantemente regolato in frequenza. Pertanto, gli oscillatori controllati al quarzo sono i più adatti.
+
+[question:AF211]
+[question:AF216]

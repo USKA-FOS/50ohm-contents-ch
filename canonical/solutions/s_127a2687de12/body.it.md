@@ -1,0 +1,15 @@
+Un modulo fotovoltaico è composto da quattro serie collegate in parallelo. Ogni serie contiene 30 celle solari.
+
+In una connessione in serie, le tensioni si sommano:
+
+$ U = 30 \cdot \qty{0,6}{\volt} = \qty{18}{\volt} $
+
+La corrente di cortocircuito in una connessione in serie rimane inizialmente a:
+
+$ I_\mathrm{SC} = \qty{1}{\ampere} $
+
+Dato che quattro di queste serie sono collegate in parallelo, le correnti si sommano:
+
+$ I_\mathrm{tot} = 4 \cdot \qty{1}{\ampere} = \qty{4}{\ampere} $
+
+Il modulo fornisce quindi una tensione a vuoto di $\qty{18}{\volt}$ e una corrente di cortocircuito di $\qty{4}{\ampere}$.

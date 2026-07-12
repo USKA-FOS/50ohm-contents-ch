@@ -1,0 +1,1 @@
+Un regolatore di tensione lineare può stabilizzare la tensione d'uscita solo se la tensione d'ingresso è superiore alla tensione d'uscita desiderata. Una parte della tensione d'ingresso è infatti necessaria nel regolatore stesso affinché possa funzionare correttamente e compensare le fluttuazioni di tensione.

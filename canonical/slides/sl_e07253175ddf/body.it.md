@@ -1,0 +1,127 @@
+## Impedenza caratteristica e intensità di campo
+* Impedenza caratteristica nel vuoto:
+* $Z_{F0} = \sqrt{\dfrac{\mu_0}{\varepsilon_0}}$
+* $\mu_0$ è la costante del campo magnetico, $\varepsilon_0$ la costante dielettrica del vuoto  
+* L'intensità di campo magnetico viene calcolata tramite $\mu_0$, la densità di flusso magnetico e la magnetizzazione  
+
+---
+
+* In un mezzo (ad es. aria) vale:
+* $Z_{F} = \sqrt{\dfrac{\mu}{\varepsilon}}$
+* L'intensità di campo elettrico e magnetico dipendono dall'impedenza caratteristica del mezzo
+
+---
+[question:AK102]
+
+---
+### Potenza al punto di immissione dell'antenna
+
+* La potenza d’ingresso dell'antenna si ottiene dalla potenza di trasmissione meno l'attenuazione del cavo.  
+* Le perdite del cavo sono considerate come fattore di attenuazione (ad es. $\qty{10}{\dB}$ → $\num{0,1}$)  
+* Formula: $P_{Ant} = D \cdot P_{Sender}$
+
+---
+[question:AK104]
+
+---
+## Potenza di trasmissione massima secondo BEMFV
+
+* La distanza di sicurezza deve trovarsi nel campo lontano:  
+
+<fragment>
+$d > \dfrac{\lambda}{2\pi}$  
+</fragment>
+
+---
+
+[question:AK107]
+
+--- style="font-size: smaller;"
+#### Percorso di soluzione
+<left>
+* dato: $g_d = \qty{6}{\dBd}$
+* dato: $E = \qty{28}{\volt\per\meter}$
+</left>
+<right>
+* dato: $d = \qty{5}{\meter}$
+* cercato: $P_S$
+</right>
+
+<fragment>
+<left>
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow P_{EIRP} &= \frac{(E \cdot d)^2}{\qty{30}{\ohm}}\\ &= \frac{(\qty{28}{\volt\per\meter} \cdot \qty{5}{\meter})^2}{\qty{30}{\ohm}}\\ &\approx \qty{653}{\watt}\end{split}$
+</left>
+</fragment>
+<fragment>
+<right>
+$\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d - a + 2,15dB}{\qty{10}{\dB}}}\\ \Rightarrow P_S &= \frac{P_{EIRP}}{10^{\frac{g_d - a + 2,15dB}{\qty{10}{\dB}}}}\\ &= \frac{\qty{653}{\watt}}{10^{\frac{\qty{6}{\dBd} - \qty{0}{\dB} + 2,15dB}{\qty{10}{\dB}}}}\\ &\approx \frac{\qty{653}{\watt}}{6,53}\\ &= \qty{100}{\watt}\end{split}$
+</right>
+</fragment>
+
+---
+
+[question:AK113]
+
+--- style="font-size: smaller;"
+#### Percorso di soluzione
+<left>
+* dato: $g_i = \qty{12,15}{\dBi}$
+* dato: $P_A = \qty{250}{\watt}$
+</left>
+<right>
+* dato: $d = \qty{30}{\meter}$
+* cercato: $E$
+</right>
+
+<fragment>
+<left>
+$\begin{split}G_i &= 10^{\frac{g_i}{\qty{10}{\dB}}}\\ &= 10^{\frac{\qty{12,15}{\dBi}}{\qty{10}{\dB}}}\\ &\approx 16,4\end{split}$
+</left>
+</fragment>
+<fragment>
+<right>
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{250}{\watt} \cdot 16,4}}{\qty{30}{\meter}}\\ &\approx \frac{\qty{350}{\volt}}{\qty{30}{\meter}}\\ &\approx \qty{11,7}{\volt\per\meter}\end{split}$
+</right>
+</fragment>
+
+---
+
+[question:AK114]
+
+--- style="font-size: smaller;"
+#### Percorso di soluzione
+* dato: $P_{ERP} = \qty{100}{\watt}$
+* dato: $d = \qty{100}{\meter}$
+* cercato: $E$
+
+<fragment>
+<left>
+$\begin{split}P_{EIRP} &= P_{ERP} \cdot 1,64\\ &= \qty{100}{\watt} \cdot 1,64\\ &= \qty{164}{\watt}\end{split}$
+</left>
+</fragment>
+<fragment>
+<right>
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{164}{\watt}}}{\qty{100}{\meter}}\\ &\approx \qty{0,7}{\volt\per\meter}\end{split}$
+</right>
+</fragment>
+
+---
+
+[question:AK115]
+
+--- style="font-size: smaller;"
+#### Percorso di soluzione
+* dato: $P_{ERP} = \qty{100}{\watt}$
+* dato: $d = \qty{100}{\meter}$
+* cercato: $E$
+
+<fragment>
+<left>
+$\begin{split}P_{EIRP} &= P_{ERP} \cdot 1,64\\ &= \qty{100}{\watt} \cdot 1,64\\ &= \qty{164}{\watt}\end{split}$
+</left>
+</fragment>
+<fragment>
+<right>
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{164}{\watt}}}{\qty{100}{\meter}}\\ &\approx \qty{0,7}{\volt\per\meter}\end{split}$
+</right>
+</fragment>

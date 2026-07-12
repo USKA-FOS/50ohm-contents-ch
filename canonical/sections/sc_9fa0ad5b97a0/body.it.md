@@ -1,0 +1,33 @@
+Se l'impedenza caratteristica di un cavo di alimentazione non è identica alla resistenza del carico, oltre all'onda stazionaria che si verifica, è possibile ottenere una trasformazione di impedenza. Ciò significa che una sorgente di segnale a un'estremità del cavo "vede" una resistenza diversa da quella collegata all'altra estremità del cavo.
+
+Sono di particolare importanza due casi: la linea $\lambda/4$ per una trasformazione di impedenza mirata e le linee $\lambda/2$ e i loro multipli, che non effettuano alcuna trasformazione di impedenza indipendentemente dall'impedenza caratteristica.
+
+In una linea la cui lunghezza elettrica è $\lambda/4$, le resistenze attive inferiori all'impedenza caratteristica della linea diventano resistenze superiori all'impedenza caratteristica della linea. Viceversa, le resistenze attive superiori all'impedenza caratteristica della linea diventano resistenze inferiori all'impedenza caratteristica della linea. Questo fatto viene sfruttato, ad esempio, per adattare antenne ad alta impedenza a un sistema a bassa impedenza ($\qty{50}{\ohm}$).
+
+Con una lunghezza della linea di $\lambda/2$, tuttavia, l'effetto si annulla nuovamente, in modo che non si verifichi alcuna trasformazione di impedenza.
+
+[question:AG412]
+[question:AG416]
+
+Per le seguenti domande, ricordiamo che un dipolo a semionda è alimentato in corrente (bassa impedenza) e un dipolo a onda intera è alimentato in tensione (alta impedenza).
+
+[question:AG413]
+[question:AG414]
+[question:AG415]
+
+Se si desidera trasformare un valore di resistenza specifico, l'impedenza caratteristica necessaria si ottiene dalla media geometrica tra la resistenza di carico $Z_\mathrm{A}$ e la resistenza di alimentazione desiderata $Z_\mathrm{E}$ all'altra estremità del cavo:
+
+$Z = \sqrt{Z_\mathrm{E} \cdot Z_\mathrm{A}}$
+
+[question:AG417]
+[question:AG418]
+
+---
+
+Spesso, tuttavia, vengono utilizzate anche bobine e condensatori per l'adattamento di impedenza. Spesso si trova il cosiddetto filtro a Pi, che oltre alla sua funzione di filtro passa-basso ha come conseguenza una trasformazione di impedenza. Di conseguenza, un tale filtro a Pi può essere utilizzato anche come accordatore d’antenna.
+
+<indepth>
+*Il nome "filtro a Pi"* deriva dalla disposizione dei componenti nello schema elettrico, che ricorda la lettera greca $\pi$, e non ha nulla a che fare con la costante Pi.
+</indepth>
+
+[question:AG406]

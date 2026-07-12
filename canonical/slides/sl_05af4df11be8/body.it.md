@@ -1,0 +1,48 @@
+## Problema
+
+* Comunicare la posizione, ad es. per misurazioni di distanza
+* Non c'è sempre una città nelle vicinanze
+* Le coordinate GPS sono troppo lunghe
+* Spesso è sufficiente una posizione approssimativa
+
+---
+
+## Locator Maidenhead
+
+* La Superficie terrestre è suddivisa in $\num{18662400}$ caselle
+* Una casella corrisponde in Germania approssimativamente a una precisione di $\qty{5}{\kilo\meter}\times\qty{5}{\kilo\meter}$
+* Queste caselle sono chiamate Subsquares
+* Sopra di esse ci sono Squares e Fields
+
+<note>
+* prende il nome dalla *città di Maidenhead*, situata a ovest di Londra nel Regno Unito.
+* Lì si tenne nel 1980 una conferenza specialistica della IARU che riformò il precedente sistema di localizzazione QRA.
+</note>
+
+---
+[photo:2:n_locator_jo:Il campo JO del sistema di locator Maidenhead, dati cartografici © Contributori OpenStreetMap, SRTM. Rappresentazione cartografica © OpenTopoMap (CC-BY-SA)]
+
+<note>
+Sono mostrati i Fields dello Square JO
+</note>
+
+--- style="font-size: 0.7em;"
+## Livelli del Locator Maidenhead
+
+| X: Denominazione | l: Traduzione | l: Denominazione alternativa | c: | c: Es. |
+| Field | Campo | Campo grande | AA-RR | JO |
+| Square | Quadrato | Campo grande | 00-99 | 41 |
+| Subsquare | Sottocuadrato | Campo piccolo | AA-XX | RG |
+[table:n_locator_stufen:I singoli livelli del locator Maidenhead]
+
+<fragment>
+Ciò porta, ad esempio, a *JO41RG* per la sede centrale del DARC a Baunatal vicino a Kassel
+</fragment>
+<note>
+* Sono possibili campi ancora più piccoli
+* [Mappa interattiva](https://f5len.org/tools/locator/)
+</note>
+
+---
+[question:BE111]
+

@@ -1,0 +1,17 @@
+<left>
+* Direzione tecnica della corrente dal polo positivo al polo negativo
+* Successivamente si è scoperto nella scienza che nella metalli si muovono le particelle cariche negativamente (elettroni)
+* Gli elettroni vengono respinti dal polo negativo della fonte di tensione e attratti dal polo positivo
+* La *Direzione fisica della corrente* è opposta alla direzione tecnica della corrente
+</left>
+<right>
+[picture:1002:a_physikalische_stromrechnung:Direzione tecnica e fisica della corrente]
+</right>
+
+<note>
+- Gli elettroni non si muovono alla velocità della corrente, poiché questa avviene attraverso il campo elettrico nel conduttore
+- Nei liquidi conduttivi possono muoversi anche gli ioni; in tal caso la direzione tecnica e fisica della corrente coincidono
+</note>
+
+---
+[question:AB601]

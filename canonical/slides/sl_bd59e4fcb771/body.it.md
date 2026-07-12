@@ -1,0 +1,9 @@
+*Non toccare un'antenna di trasmissione in funzione!*
+
+* Alte tensioni alternate
+* Causano aritmie cardiache, ustioni e altre lesioni
+* Possono portare alla morte
+* Anche a incidenti secondari come cadute da una scala a causa di spavento e crampi
+
+---
+[question:EK202]

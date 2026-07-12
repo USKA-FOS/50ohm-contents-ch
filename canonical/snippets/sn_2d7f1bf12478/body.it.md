@@ -1,0 +1,1 @@
+Estratto Tecnica digitale (Ingresso e Uscita)

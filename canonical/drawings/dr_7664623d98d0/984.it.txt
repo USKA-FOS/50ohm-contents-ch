@@ -1,0 +1,13 @@
+Questo testo alternativo non è ancora stato verificato.
+
+1) Breve riassunto:
+Schema elettrico con un transistor bipolare, diverse resistenze e condensatori, grandezze etichettate UE, UA, IB, IC e UCE, nonché due piccoli diagrammi temporali per UE(t) e IB(t).
+
+2) Descrizione dettagliata:
+- In alto e in basso scorrono linee orizzontali; a destra ci sono morsetti aperti con i simboli „+“ (in alto) e „–“ (in basso). Nella metà sinistra e destra dell'immagine ci sono grandi frecce rivolte verso il basso con le etichette „UE“ (a sinistra) e „UA“ (a destra).
+- Al centro si trova un transistor bipolare in un cerchio. A sinistra del transistor si trova la base; una freccia con l'etichetta „IB“ punta lì. In alto a destra del transistor si trova il collettore; accanto ad esso una freccia rivolta verso il basso con „IC“. A destra del transistor scorre una freccia verticale verso il basso con l'etichetta „UCE“.
+- Ramo del collettore: dal nodo del collettore, una resistenza conduce verso l'alto alla linea positiva. Dallo stesso nodo, un condensatore va a destra verso un morsetto aperto (uscita).
+- Ramo dell'emettitore: l'emettitore è collegato verso il basso alla linea inferiore tramite una resistenza; in parallelo a questa resistenza, un condensatore è collegato alla linea inferiore. Al nodo inferiore è disegnato un simbolo di massa.
+- Collegamento della base: l'ingresso a sinistra è un morsetto aperto; da lì, un condensatore in serie conduce al nodo della base. Dal nodo della base partono due resistenze: una verso l'alto alla linea positiva, una verso il basso alla linea inferiore (Partitore di tensione).
+- I punti di collegamento sono rappresentati come nodi pieni.
+- In basso ci sono due piccoli diagrammi: a sinistra un andamento sinusoidale con le etichette degli assi „UE“ (verticale, freccia verso l'alto) e „t“ (orizzontale, freccia verso destra); a destra un andamento ondulatorio con le etichette degli assi „IB“ (verticale, freccia verso l'alto) e „t“ (orizzontale, freccia verso destra).

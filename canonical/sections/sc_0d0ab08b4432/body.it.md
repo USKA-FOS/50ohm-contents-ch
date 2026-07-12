@@ -1,0 +1,49 @@
+La tensione alternata nella nostra rete elettrica *oscilla* avanti e indietro 50 volte al secondo. Il numero di oscillazioni [index:Schwingung] al secondo è chiamato frequenza [index:Frequenz]. La frequenza è indicata nell'unità hertz [index:Einheit:Hertz] con l'abbreviazione $\unit{\hertz}$. Un $\unit{\hertz}$ corrisponde esattamente a un'oscillazione al secondo. La rete elettrica ha quindi una frequenza di $\qty{50}{\hertz}$.
+
+<unit>
+La frequenza viene misurata nell'*unità Hertz*. Un Hertz equivale a un'oscillazione al secondo. L'unità prende il nome dal fisico tedesco Heinrich Rudolf Hertz, che nel 1886 fu il primo uomo a generare e rilevare onde elettromagnetiche.
+  
+$$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
+  
+</unit>
+
+[question:NA206]
+[question:NA207]
+
+---
+
+Nella radio utilizziamo anche oscillazioni elettriche, ma con frequenze molto più alte della rete elettrica, ad es. $\qty{144000000}{\hertz}$. Con così tanti numeri, diventa rapidamente confuso. Pertanto, utilizziamo il termine megahertz ($\unit{\mega\hertz}$) per un milione di hertz e diciamo "144 megahertz". Abbiamo utilizzato il *prefisso di unità* "$\unit{\mega\,}$" e l'abbiamo posto prima dell'unità effettiva "$\unit{\hertz}$". Ciò indica che il valore specificato viene moltiplicato per un milione. Altri esempi di frequenze con prefissi di unità sono raccolti nella tabella [ref:n_frequenz_einheitenvorzeichen] [index:Einheitenvorzeichen].
+
+<webmargin>
+| X: Denominazione | r: Abbreviazione | r: Valore |
+| 1 Kilohertz | $\qty{1}{\kilo\hertz}$ | $\qty{1000}{\hertz}$ |
+| 1 Megahertz | $\qty{1}{\mega\hertz}$ | $\qty{1000000}{\hertz}$ |
+| 1 Gigahertz | $\qty{1}{\giga\hertz}$ | $\qty{1000000000}{\hertz}$ |
+[table:n_frequenz_einheitenvorzeichen:Notazione abbreviata per alte frequenze]
+</webmargin>
+
+[question:NA212]
+
+Nella classe base per radioamatori N, ad esempio, è consentito utilizzare le frequenze da $\num{28}$ a $\qty{29,7}{\mega\hertz}$, da $\num{144}$ a $\qty{146}{\mega\hertz}$ e da $\qty{430}{\mega\hertz}$ a $\qty{440}{\mega\hertz}$. Con la classe E o A si aggiungono altre bande di frequenza.
+
+[question:VD723]
+
+---
+
+Negli apparecchi radio, le oscillazioni elettriche vengono generate da un cosiddetto oscillatore. Quando si preme il tasto di trasmissione sull'apparecchio radio, le oscillazioni vengono quindi inviate all'antenna e lì irradiate come onde radio.
+
+<wordorigin>
+Il termine *oscillatore* [index:Oszillator] deriva dalla parola latina oscillare, che significa dondolare.
+</wordorigin>
+
+[question:ND201]
+
+---
+
+Durante il funzionamento radio, dobbiamo sapere esattamente a quale frequenza stiamo trasmettendo. Per misurare la frequenza di trasmissione, si utilizza quindi un frequenzimetro [index:Frequenz:Frequenzzähler], come mostrato ad esempio nella figura [ref:frequenz_frequenzzaehler]. Durante la costruzione e la calibrazione di apparecchi radio, si utilizzano frequenzimetri per misurare se la frequenza di trasmissione corrisponde all'indicazione sul dispositivo.
+
+<margin>
+[photo:150:frequenz_frequenzzaehler:Frequenzimetro che misura e visualizza attualmente $\qty{29,6}{\mega\hertz}$]
+</margin>
+
+[question:NI301]

@@ -10,7 +10,8 @@
     }
   ],
   "languages": [
-    "de"
+    "de",
+    "it"
   ],
   "metadata": {},
   "object_type": "snippet",
@@ -27,6 +28,10 @@
     {
       "language": "de",
       "state": "imported_approved"
+    },
+    {
+      "language": "it",
+      "state": "to_be_reviewed"
     }
   ],
   "source": {
@@ -41,7 +46,8 @@
       "sort_order": 0,
       "storage": {
         "files": {
-          "de": "body.de.md"
+          "de": "body.de.md",
+          "it": "body.it.md"
         },
         "kind": "text_file"
       },

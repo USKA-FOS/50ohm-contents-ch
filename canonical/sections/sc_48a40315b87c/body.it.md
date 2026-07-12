@@ -1,0 +1,3 @@
+Nei metodi di modulazione analogici (FM, SSB, AM ecc.) la larghezza di banda occupata dal segnale trasmesso dipende direttamente dalla frequenza di modulazione massima del segnale audio modulato. Per rispettare le disposizioni legali relative alla larghezza di banda massima del segnale trasmesso, la frequenza di modulazione audio massima deve essere limitata in questi tipi di modulazione. Ciò può avvenire, ad esempio, tramite un filtro passa-basso o un filtro passa-banda nell'amplificatore del microfono, che sopprime le componenti ad alta frequenza.
+
+[question:AD433]

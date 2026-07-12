@@ -1,0 +1,21 @@
+Nel calcolo delle distanze di sicurezza, l'attenuazione angolare delle antenne direttive gioca un ruolo importante. La massima potenza di irraggiamento viene irradiata al centro del fascio di irraggiamento. Nelle altre direzioni è minore. Se l'antenna è sufficientemente alta, l'antenna irradia in gran parte oltre l'area <u>non</u> controllabile, cioè l'area in cui i limiti devono assolutamente essere rispettati.
+
+All'angolo critico di $\qty{40}{\degree}$ sotto l'antenna si trova un'area non controllabile. La potenza di irraggiamento è lì inferiore di $\qty{6}{\dB}$ rispetto al centro del diagramma di irraggiamento. La conseguenza diretta è che la distanza di sicurezza può essere di conseguenza minore.
+
+$\qty{6}{\dB}$ corrispondono a un fattore di $\num{0,25}$ o $\dfrac{1}{4}$ (raccolta di formule).
+
+$ E = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_\textrm{EIRP}}}{d}$
+Riorganizzazione della formula per $d$ (distanza di sicurezza).
+$ d = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_\textrm{EIRP}}}{E}$
+
+La potenza di irraggiamento $P_\textrm{EIRP}$ non è nota. Tuttavia, sappiamo che in questo calcolo dobbiamo considerare solo un quarto della potenza di irraggiamento rispetto alla potenza di irraggiamento massima.
+
+$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_\textrm{EIRP}\cdot \dfrac{1}{4}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_\textrm{EIRP}}}{E}\cdot \sqrt{\dfrac{1}{4}}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_\textrm{EIRP}}}{E}\cdot \mathbf{\dfrac{1}{2}}\end{split}$
+
+Se la potenza di irraggiamento viene ridotta a $\dfrac{1}{4}$, la distanza di sicurezza di $\qty{20}{\meter}$ viene dimezzata. Si riduce a $\qty{10}{\meter}$.
+
+[question:AK105]
+
+<margin>
+[picture:950:a_richtantenne_personenschutz:In un angolo di 40° sotto l'asse del lobo di irraggiamento principale, la potenza di irraggiamento è inferiore di 6 dB rispetto all'angolo di 0°.]
+</margin>

@@ -1,0 +1,1 @@
+Corso classe A (con N ed E)

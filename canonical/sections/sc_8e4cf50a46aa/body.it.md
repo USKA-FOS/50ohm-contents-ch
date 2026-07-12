@@ -1,0 +1,59 @@
+Nella sezione "Riorganizzare le formule" avevamo già visto come riorganizzare la relazione tra frequenza $f$, lunghezza d’onda $\lambda$ e velocità della luce nello spazio libero $c_0$ 
+
+$f = \frac{c_0}{\lambda}$
+
+o, come equazione dimensionale adattata
+
+$f[[\unit{\mega\hertz}]] = \frac{300}{\lambda[[\unit{\meter}]]}$
+
+per riorganizzarla in base alla frequenza o alla lunghezza d’onda.
+
+In questa sezione esaminiamo le applicazioni pratiche. Cerca sempre prima di trovare la soluzione autonomamente.
+
+[question:EB314]
+
+Le prime domande riguardano la determinazione della frequenza per una data lunghezza d’onda. Nella prima domanda, la lunghezza d’onda è specificata come $\qty{80}{\meter}$. La banda radioamatoriale degli $\qty{80}{\meter}$ va da $\qtyrange{3,5}{3,8}{\mega\hertz}$. Le opzioni di risposta rientrano tutte in questo campo, quindi dobbiamo usare la calcolatrice:
+
+$f[[\unit{\mega\hertz}]] = \frac{300}{80} = 3,75$
+
+---
+
+[question:EB315]
+
+In questa domanda, la lunghezza d’onda è $\qty{30}{\milli\meter} = \qty{3}{\centi\meter} = \qty{0,03}{\meter}$. Il risultato può essere calcolato con la calcolatrice – o addirittura a mente.
+
+<attention>
+Quando si inseriscono valori in una formula, prestare sempre attenzione a utilizzare le unità di base. Ciò significa che i valori potrebbero dover essere convertiti – ad esempio da millimetri a metri.
+</attention>
+
+$f[[\unit{\mega\hertz}]] = \frac{300}{0,03} = \frac{300 \cdot 100}{3} = \num{10000}$
+
+Quindi $f=\qty{10}{\giga\hertz}$ è la risposta corretta, poiché $\qty{1}{\giga\hertz} = 1000 {\mega\hertz}$.
+
+[question:EB316]
+
+È ancora più facile trovare la frequenza che corrisponde a una lunghezza d’onda di $\qty{10}{\centi\meter}$. $\qty{10}{\centi\meter} = \qty{0,1}{\meter}$. Quindi:
+
+$f[[\unit{\mega\hertz}]]=\frac{300}{0,1}=3000$
+
+Poiché $\qty{1}{\giga\hertz}$ corrisponde a $\qty{1000}{\mega\hertz}$, la risposta è: $\qty{3}{\giga\hertz}$.
+
+Per le prossime domande, riorganizziamo l'equazione per $\lambda$:
+
+$\lambda[[\unit{\meter}]] = \frac{300}{f[[\unit{\mega\hertz}]]}$
+
+[question:EB311]
+
+Questa domanda può essere risolta di nuovo senza calcoli, se si conoscono le assegnazioni di frequenza per il radioamatore. La banda dei $\qty{160}{\meter}$ va infatti da $\qtyrange{1,8}{2}{\mega\hertz}$, quindi $\qty{1,84}{\mega\hertz}$ rientra in questo intervallo – quindi la risposta può solo essere $\qty{163}{\meter}$.
+
+[question:EB312]
+
+Ora viene cercata la lunghezza d’onda corrispondente a una frequenza di $\qty{21}{\mega\hertz}$. La banda dei $\qty{15}{\meter}$ va da $\qtyrange{21}{21,45}{\mega\hertz}$ – quindi la risposta "$\qty{14,29}{\meter}$" si impone come corretta, e riconosciamo che la banda dei $\qty{15}{\meter}$ è in realtà chiamata in modo errato. La banda dei $\qty{14}{\meter}$ sarebbe in realtà più corretta...
+
+Per sicurezza, possiamo calcolare (con l'equazione dimensionale adattata):
+
+$\lambda[[\unit{\meter}]] = \frac{300}{21}=14,29$
+
+[question:EB313]
+
+Diventa di nuovo molto semplice con l'ultima domanda. Quale lunghezza d’onda corrisponde a una frequenza di $\qty{28,5}{\mega\hertz}$? Beh, la banda dei $\qty{10}{\meter}$ si estende da $\qtyrange{28}{29,5}{\mega\hertz}$, di conseguenza la risposta "$\qty{10,5}{\meter}$" è corretta. La risposta (sbagliata) $\qty{9,49}{\meter}$ è ancora vicina, ma la frequenza corrispondente dovrebbe essere superiore a $\qty{30}{\mega\hertz}$.

@@ -1,0 +1,48 @@
+[picture:357:n_fm_frequenzmodulation:Modulazione di frequenza]
+
+* Il segnale di modulazione viene modulato sulla portante modificando la frequenza
+* L'ampiezza della portante non viene modificata e rimane idealmente costante
+
+---
+[question:NE301]
+
+---
+[question:NE302]
+
+---
+[question:NE303]
+
+---
+## Deviazione di frequenza portante
+
+* Più forte si parla nel microfono, maggiore è la variazione della frequenza portante
+* Di conseguenza, aumenta anche la larghezza di banda occupata dalla trasmissione
+* Il valore massimo della variazione della frequenza portante è chiamato *Deviazione di frequenza portante* o brevemente *Deviazione*
+* In pratica, si utilizza la FM a banda stretta (in inglese Narrow- FM, abbreviato NFM) con una larghezza di banda di $\qty{12}{\kilo\hertz}$
+
+<note>
+Parlare più forte nel microfono &rarr; l'ampiezza del segnale di modulazione aumenta
+Osservare il piano di banda, dove è consentito occupare al massimo 12 kHz di larghezza di banda.
+</note>
+
+---
+
+[question:BC216]
+
+---
+
+[question:NE306]
+
+<note>
+Nei vecchi apparecchi radio, la deviazione potrebbe essere impostata fissa su $\qty{25}{\kilo\hertz}$.
+</note>
+
+---
+
+[question:NE304]
+
+<note>
+* Attenzione: l'ampiezza del segnale di modulazione viene modificata!
+* L'ampiezza della portante non cambia.
+* In caso di disturbi, il volume del segnale vocale non oscilla.
+</note>

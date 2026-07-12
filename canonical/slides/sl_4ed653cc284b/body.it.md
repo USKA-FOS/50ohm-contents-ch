@@ -1,0 +1,31 @@
+## Convertitori A/D e D/A nei sistemi SDR
+
+* Nei ricevitori e trasmettitori-ricevitori SDR, i convertitori A/D convertono i segnali di ingresso analogici in dati digitali.
+* I dati digitali vengono elaborati e riconvertiti in segnali analogici tramite convertitori D/A.
+
+---
+
+### Utilizzo dell'intervallo di valori
+
+* Se l'intero intervallo di valori non viene sfruttato, il segnale viene mappato solo su un'area digitale più piccola.
+* Se il segnale di ingresso supera l'intervallo massimo, il convertitore A/D-/D/A può mappare correttamente solo fino alla tensione massima.
+* I valori in eccesso vengono visualizzati come valore massimo (clipping), il che porta ad ampiezze di segnale tagliate.
+
+---
+
+## Influenza della risoluzione
+
+* Una risoluzione più elevata consente una rappresentazione più fine delle ampiezze del segnale.
+* Una risoluzione inferiore porta a una ricostruzione del segnale a gradini e meno precisa.
+
+---
+
+[question:AF613]
+
+---
+
+[question:AF612]
+
+---
+
+[question:AF614]

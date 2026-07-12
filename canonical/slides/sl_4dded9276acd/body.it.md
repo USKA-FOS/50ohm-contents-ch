@@ -1,0 +1,27 @@
+* La frequenza dell’oscillatore è modificabile
+* Ad esempio, tramite un diodo a capacità variabile in un circuito oscillante $\rightarrow$ la capacità è influenzata da una tensione continua
+* L’oscillatore può essere sintonizzato tramite una tensione di controllo
+
+---
+[question:AD601]
+---
+### Retroazione
+<left>
+* Retroazioni indesiderate, ad es. dal segnale HF, portano a instabilità di frequenza
+* Questo vale per tutti gli oscillatori
+</left>
+<right>
+<fragment>
+Cause:
+* Sfasamento
+* Variazioni di amplificazione
+* Prodotti di intermodulazione
+* Variazioni di temperatura
+</fragment>
+</right>
+<note>
+Le cause non sono rilevanti per l'esame
+</note>
+
+---
+[question:AD611]

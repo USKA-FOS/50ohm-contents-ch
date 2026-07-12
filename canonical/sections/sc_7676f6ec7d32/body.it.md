@@ -1,0 +1,4 @@
+Con forti segnali di ingresso, l'AGC riduce il guadagno degli stadi dell'amplificatore nel ramo del ricevitore e lo aumenta di conseguenza con segnali di ingresso deboli. Ciò mantiene costante l'ampiezza del segnale demodulato e quindi il volume del segnale audio.
+Senza un AGC, segnali forti sovrasterebbero l'audio e segnali deboli sarebbero udibili solo a volume molto basso nell'audio. Il volume dell'audio dovrebbe essere sempre regolato manualmente. L'AGC compensa quindi la dinamica del segnale ricevuto e adatta dinamicamente la sensibilità del ramo del ricevitore in dipendenza dei segnali di ingresso HF.
+
+[question:AF224]

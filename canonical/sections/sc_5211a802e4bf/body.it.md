@@ -1,0 +1,8 @@
+Il rapporto segnale-rumore (SNR) è definito come il rapporto tra segnale utile e segnale di rumore (Noise). Più alto è l'SNR di un segnale ricevuto, più il segnale utile si distingue dal rumore per una data larghezza di banda.
+
+[question:AF227]
+
+Il fattore di rumore viene spesso indicato per i preamplificatori HF. Questo descrive il peggioramento dell'SNR al passaggio di un segnale attraverso questo modulo. Il fattore di rumore viene determinato come rapporto tra il valore SNR in ingresso e il valore SNR in uscita. Il fattore di rumore può essere convertito nel cosiddetto fattore di rumore mediante logaritmazione ($\unit{\dB}$). Un fattore di rumore di $\num{2}$ corrisponde ad esempio a un fattore di rumore di $\qty{3}{\dB}$.
+
+[question:AF228]
+[question:AF229]

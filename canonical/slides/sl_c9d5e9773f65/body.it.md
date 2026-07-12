@@ -1,0 +1,35 @@
+### Servizio radioamatoriale
+
+Poiché il servizio radioamatoriale è un servizio radio ufficiale secondo le RR, esso include compiti significativi e responsabili, quali:
+
+* Serve alla propria formazione
+* Traffico radio tra radioamatori
+* Studi tecnici
+
+---
+
+La legge sui radioamatori lo descrive essenzialmente allo stesso modo, ma aggiunge i seguenti dettagli:
+
+* L'aspetto della comprensione tra i popoli
+* Il supporto di azioni di soccorso in caso di emergenza e catastrofi
+
+<note>
+* Quanto sopra si applica anche al "servizio radioamatoriale via satellite", che è incluso sia nelle RR che nell'AFuG.
+* Il motivo per cui il "servizio radioamatoriale via satellite" è elencato separatamente potrebbe essere che si tratta di oggetti in ambito extraterritoriale.
+</note>
+
+---
+
+[question:VA101]
+
+---
+
+[question:VA102]
+
+---
+
+[question:VA103]
+
+---
+
+[question:VC102]

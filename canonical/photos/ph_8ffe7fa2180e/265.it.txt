@@ -1,0 +1,17 @@
+Questo testo alternativo non è stato ancora verificato.
+
+1) Riepilogo:
+Screenshot di un programma di misurazione con il grafico „Impedenza e angolo di fase in funzione della frequenza“ (da 500 kHz a 10 MHz), una curva |Z| blu crescente, una linea di fase rossa quasi costante vicino a +90° e quattro marcatori impostati.
+
+2) Descrizione dettagliata:
+- Titolo in alto: „Impedenza e angolo di fase in funzione della frequenza“.
+- Scala sinistra: „|Z| / Ohm“ (logaritmica, da 2 a 10.000). Scala destra: „Phi / Gradi“ (−90° a +90°, 0° al centro).
+- Andamenti dei dati: La curva blu (impedenza) aumenta nella gamma inferiore a doppia cifra di Ohm con la frequenza. La linea rossa (angolo di fase) corre quasi orizzontalmente vicino a +90° al bordo superiore.
+- Asse delle frequenze in basso: da 500 kHz a 10 MHz; marcatori a 1M, 2M, 5M, ecc.
+- I marcatori 1–4 sono posizionati come piccoli triangoli con numeri sulla curva blu a circa 0,5 MHz, 1,6 MHz, 2,5 MHz e 5,0 MHz.
+- Visualizzazione dei valori dei marcatori (dai campi sottostanti):
+  - Marcatore 1: Frequenza 502,217 kHz; Reale: 0,4; Reattiva: 10,1; Fase: 87,7; ROS: 130.1
+  - Marcatore 2: Frequenza 1,6010 MHz; Reale: 0,6; Reattiva: 31,0; Fase: 88,9; ROS: 115.4
+  - Marcatore 3: Frequenza 2,5032 MHz; Reale: 0,8; Reattiva: 49,1; Fase: 89,2; ROS: 122.8
+  - Marcatore 4: Frequenza 4,9921 MHz; Reale: 1,2; Reattiva: 99,3; Fase: 89,7; ROS: 412.3
+- Barra di comando in basso: fStart 500,000 k (sinistra), fStop 10,000 M (destra); Tipo „RG58/CU“; Lunghezza 0,00 m; Indicatore batteria 12,20 V; „Memory Off“; Traccia „2“ selezionata.

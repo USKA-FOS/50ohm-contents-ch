@@ -1,0 +1,1 @@
+L'unità di misura dell'impedenza è l'Ohm ($\unit{\ohm}$), è una resistenza elettrica nella tecnica della corrente alternata, chiamata anche resistenza complessa o resistenza di corrente alternata.

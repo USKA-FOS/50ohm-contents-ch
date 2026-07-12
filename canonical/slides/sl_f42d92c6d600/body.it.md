@@ -1,0 +1,14 @@
+* Trasmissione automatica tramite riconoscimento vocale invece di PTT
+* *voice-operated exchange* (*VOX*)
+* Durante il parlato, il trasmettitore-ricevitore passa alla trasmissione
+* In assenza di segnale, la trasmissione termina dopo un breve ritardo
+
+<note>
+Livello e ritardo sono spesso regolabili
+</note>
+
+---
+[question:NF109]
+
+---
+[question:NF110]

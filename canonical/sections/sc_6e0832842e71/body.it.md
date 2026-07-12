@@ -1,0 +1,28 @@
+Un segnale sinusoidale puro ideale è composto solo dalla sua *onda fondamentale, chiamata anche 1ª armonica*. Non appena un segnale non corrisponde più alla forma sinusoidale e si discosta anche leggermente da essa, il segnale contiene *multipli interi* della sua oscillazione fondamentale, chiamati anche *armoniche superiori o sovratoni*. È importante distinguere tra i due termini armoniche superiori e armoniche.
+La 1ª armonica superiore corrisponde alla 2ª armonica dell'oscillazione fondamentale e si trova alla frequenza doppia dell'oscillazione fondamentale. La 2ª armonica superiore corrisponde alla 3ª armonica dell'oscillazione fondamentale e si trova alla frequenza tripla dell'oscillazione fondamentale. Secondo questo principio, tutte le armoniche superiori e le armoniche vengono riferite all'onda fondamentale e numerate con un numero d'ordine (n).
+
+<indepth>
+A seconda del tipo di distorsione di un segnale, nel suo spettro di frequenza si generano proporzionalmente più armoniche pari o dispari. I segnali a onda quadra, che si verificano ad esempio a causa della sovraeccitazione degli stadi di amplificazione (in questo caso le punte delle ampiezze vengono limitate e appiattite), contengono prevalentemente armoniche dispari o armoniche superiori pari.
+I segnali a dente di sega contengono prevalentemente armoniche pari o armoniche superiori dispari.
+</indepth>
+
+<margin>
+[picture:869:zusammenhang_oberwellen_harmonische:Relazione tra armoniche superiori e armoniche]
+</margin>
+
+[question:AB403]
+[question:AB401]
+[question:AB402]
+
+Anche se un segnale appare sinusoidale sull'oscilloscopio, può comunque contenere componenti di armoniche superiori (o armoniche dell'onda fondamentale) significative. Per valutare quantitativamente e qualitativamente la componente di armoniche superiori di un segnale, è necessario un *analizzatore di spettro* che possa rappresentare il segnale nel dominio della frequenza e visualizzare i valori di ampiezza delle singole armoniche superiori in modo logaritmico, in modo che le loro proporzioni rispetto al segnale totale siano misurabili.
+
+[question:AI615]
+[question:AI614]
+
+Data la frequenza fondamentale (1ª armonica) di un segnale, le frequenze delle armoniche possono essere calcolate moltiplicando la frequenza fondamentale per il rispettivo numero d'ordine (n) dell'armonica.
+Allo stesso modo, le frequenze delle armoniche superiori di un segnale possono essere calcolate moltiplicando la frequenza fondamentale per il numero d'ordine dell'armonica superiore più 1 (n+1).
+
+[question:AJ201]
+[question:AJ205]
+[question:AJ202]
+[question:AJ206]

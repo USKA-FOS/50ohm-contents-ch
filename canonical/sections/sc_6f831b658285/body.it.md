@@ -1,0 +1,18 @@
+I servizi radio (Services) sono definiti a livello internazionale nel Radio Regulations (RR). Questi includono, ad esempio, il servizio marittimo (Maritime Service), il servizio di radiodiffusione (Broadcasting Service), ma anche il servizio radioamatoriale (Amateur Service). Le applicazioni radio con assegnazione generale (CB radio, WLAN, ecc.) possono essere regolate anche a livello internazionale, ma non sono un servizio radio secondo il Radio Regulations (RR) dell'ITU.
+
+[question:VA101]
+
+Poiché anche il servizio radioamatoriale è un servizio radio ufficiale, esso comporta compiti significativi e responsabili. Lo spettro spazia dalla formazione, agli studi tecnici, fino alla comunicazione tra radioamatori. Quest'ultimo punto non va sottovalutato. I nostri collegamenti radio promuovono la comprensione reciproca tra i popoli. Anche il servizio radioamatoriale via satellite non differisce nello scopo dal resto del servizio radioamatoriale.
+
+[question:VA102]
+[question:VA103]
+
+Come piccolo compito, confrontiamo la definizione internazionale sopra riportata del servizio radioamatoriale con il relativo passaggio nel § 2 comma 2 della legge sulla radioamatorialità (AFuG):
+
+"Ai fini della presente legge, (il) servizio radioamatoriale è un servizio radio svolto da radioamatori tra loro, per studi sperimentali e tecnico-scientifici, per la propria formazione continua, per la comprensione reciproca tra i popoli e per il supporto di azioni di soccorso in caso di emergenza e catastrofe; il servizio radioamatoriale include l'uso di stazioni spaziali radio. Il servizio radioamatoriale e il servizio radioamatoriale via satellite non sono servizi radio di sicurezza, ..."
+
+% A cosa serve il servizio radioamatoriale a livello nazionale
+Si può facilmente notare che le definizioni del servizio radioamatoriale nel RR e nell'AFuG non differiscono nella sostanza. Non guasta leggere il passaggio nell'AFuG, perché è sempre bene conoscere il testo di legge nell'originale.
+
+[question:VC102]
+

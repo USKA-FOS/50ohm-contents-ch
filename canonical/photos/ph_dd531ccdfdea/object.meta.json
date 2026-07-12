@@ -23,7 +23,8 @@
     }
   },
   "languages": [
-    "de"
+    "de",
+    "it"
   ],
   "metadata": {
     "asset": {
@@ -38,7 +39,8 @@
     },
     "reconstruction": {
       "description_canonical_files": {
-        "de": "333.de.txt"
+        "de": "333.de.txt",
+        "it": "333.it.txt"
       },
       "description_source_format": "single_description"
     }
@@ -61,6 +63,10 @@
     {
       "language": "de",
       "state": "imported_approved"
+    },
+    {
+      "language": "it",
+      "state": "to_be_reviewed"
     }
   ],
   "source": {
@@ -75,7 +81,8 @@
       "sort_order": 1,
       "storage": {
         "files": {
-          "de": "333.de.txt"
+          "de": "333.de.txt",
+          "it": "333.it.txt"
         },
         "kind": "description_file_bundle"
       },
@@ -87,7 +94,8 @@
       "sort_order": 2,
       "storage": {
         "files": {
-          "de": "333.de.txt"
+          "de": "333.de.txt",
+          "it": "333.it.txt"
         },
         "kind": "description_file_bundle"
       },

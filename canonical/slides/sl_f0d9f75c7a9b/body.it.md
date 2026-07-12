@@ -1,0 +1,194 @@
+### Diodi a semiconduttore nei modulatori
+
+* Finora conosciute come raddrizzatori
+* La tensione BF modifica la resistenza della diodo
+* Il segnale BF controlla la corrente della diodo
+* Il segnale HF viene modulato a tempo con il segnale BF
+* La variante più semplice ha una portante e due bande laterali
+
+---
+### Diodo nel modulatore di ampiezza
+<left>
+[picture:772:a_modulatoren_am_modulator:Modulatore AM]
+</left>
+<right>
+* Una diodo viene applicata contemporaneamente a un segnale BF e HF
+* Un circuito oscillante LC filtra il segnale di uscita
+</right>
+
+---
+[question:AD507]
+
+---
+### Mixer bilanciato per la soppressione della portante
+* Quattro diodi disposti ad anello sopprimono la portante
+* Un circuito push-pull annulla i segnali portanti
+* Rimangono solo le bande laterali
+* Già mostrato nel capitolo "Mixer II" come mixer bilanciato
+
+---
+### Modulatore bilanciato nel modulatore SSB
+* Il modulatore bilanciato genera un segnale a doppia banda laterale (DSB)
+* Un filtro passa-banda lascia passare solo una banda laterale
+* Da ciò si ottiene un segnale SSB
+* Sono necessarie due stadi
+ 
+---
+[question:AE206]
+
+---
+[question:AF302]
+
+---
+### Riconoscimento di un mixer bilanciato
+<left>
+[picture:759:a_modulatoren_dsb:Modulatore per segnali AM con portante soppressa]
+</left>
+<right>
+* Un anello di diodi contrassegna il mixer bilanciato
+* Non c'è un'eccitazione push-pull completa
+* Un trasformatore fornisce l'equivalente di un punto centrale
+</right>
+
+---
+[question:AF308]
+
+<note>
+* La modulazione BF viene immessa nel ramo a ponte tra il punto centrale di T2 e la massa
+* Il segnale dell'oscillatore viene immesso nell'anello di diodi tramite T1
+* Il segnale DSB viene estratto tramite T2
+* Senza modulazione, i partitori di tensione sono a massa
+* In questo modo la portante viene soppressa
+* Con la modulazione, il potenziale si sposta e la corrente fluisce in T2
+* Si ottiene il segnale di uscita
+</note>
+
+---
+### Soppressione della portante e bilanciamento
+
+* La soppressione della portante provoca l'annullamento dei segnali indesiderati
+* Il circuito del modulatore deve essere bilanciato
+
+---
+[question:AD510]
+
+---
+### Regolazione nel modulatore
+
+<left>
+[picture:762:a_modulatoren_rc_traegerunterdrueckung:$R_1$ e $C_1$ per la regolazione della soppressione della portante per ampiezza e fase]
+</left>
+<right>
+* Le ampiezze vengono regolate con potenziometri
+* Le fasi vengono regolate con trimmer C
+</right>
+
+---
+[question:AF309]
+
+---
+### Simmetrizzazione nel modulatore
+
+* Il modulatore viene simmetrizzato per sopprimere la portante
+* Le bande laterali di modulazione vengono mantenute
+
+---
+[question:AF304]
+
+---
+[question:AF303]
+
+---
+### Secondo stadio del modulatore SSB
+
+<left>
+[picture:98:a_modulatoren_blockschaltbild_sender:Schema a blocchi di un trasmettitore]
+</left>
+<right>
+* Dopo il modulatore bilanciato segue il secondo stadio
+* Tramite filtraggio viene selezionata la banda laterale desiderata
+</right>
+
+---
+[question:AF305]
+
+---
+### Frequenza del quarzo e posizione della banda laterale
+
+<left>
+[picture:500:a_modulatoren_quarzfilter:Filtro a quarzo per la selezione della banda laterale]
+</left>
+<right>
+* I quarzi determinano la frequenza della portante soppressa
+* Con LSB, la portante si trova $\qty{1,5}{\kilo\hertz}$ sopra il centro di $\qty{9}{\mega\hertz}$
+* Con un massimo di $\qty{3}{\kilo\hertz}$ BF, la LSB si trova $\qty{1,5}{\kilo\hertz}$ sotto il centro
+* Per l'USB vale il contrario
+</right>
+
+---
+[question:AF306]
+
+---
+[question:AF307]
+---
+#### Percorso di soluzione
+* dato: $f_Q = \qty{9}{\mega\hertz}$
+* dato: $f_{LSB} = \qty{9,0015}{\mega\hertz}$
+* cercato: $f_{USB}$
+
+<fragment>
+$\begin{split}f_{USB} &= f_Q - (f_{LSB} - f_Q)\\ &= \qty{9}{\mega\hertz} - (\qty{9,0015}{\mega\hertz} - \qty{9}{\mega\hertz})\\ &= \qty{9}{\mega\hertz} - \qty{0,0015}{\mega\hertz}\\ &=\qty{8,9985}{\mega\hertz}\end{split}$ 
+</fragment>
+
+---
+### Diodi capacitivi nei modulatori FM
+
+<left>
+[picture:155:a_modulatoren_fm_modulator:Modulatore FM con Varicap]
+</left>
+<right>
+* I modulatori FM utilizzano diodi capacitivi
+* La diodo fa parte di un circuito oscillante dell'oscillatore
+* La tensione di polarizzazione inversa imposta una capacità fissa della diodo
+* Un segnale BF modifica la frequenza dell'oscillatore a tempo
+</right>
+
+---
+[question:AD508]
+
+---
+### Influenza della diodo capacitiva
+
+<left>
+[picture:158:a_modulatoren_fm_varicap:Varicap per influenzare la frequenza dell'oscillatore]
+</left>
+<right>
+* La diodo capacitiva influenza la frequenza dell'oscillatore
+* È collegata in parallelo al circuito oscillante
+</right>
+
+---
+[question:AF310]
+
+---
+### Limitazione della deviazione FM
+* Tensioni BF elevate portano a eccessive variazioni di frequenza
+* È necessaria una limitazione della deviazione
+* Diodi collegati in anti-parallelo limitano la tensione alla tensione di ginocchio
+
+---
+[question:AD509]
+
+---
+### Analisi del segnale di una diodo
+<left>
+[picture:142:a_modulatoren_regelspannung:Circuito con un'uscita per una tensione di regolazione]
+</left>
+<right>
+* Un singolo segnale non indica un modulatore
+* Un condensatore elettrolitico all'uscita indica una tensione continua
+</right>
+
+---
+[question:AD503]
+

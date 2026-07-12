@@ -1,0 +1,302 @@
+## Transistor bipolare
+
+
+[picture:864:a_bauelemente_bipolartransistor:Schema di un transistor bipolare npn e pnp con collettore (C), base (B) ed emettitore (E)]
+
+* Tre zone semiconduttrici
+* Dope alternativamente n e p
+* Transistor npn e transistor pnp
+
+---
+[question:AC503]
+---
+[question:AC504]
+---
+### Controllo della corrente e fattore
+
+* La tensione base-emettitore $U_{\textrm{BE}}$ controlla la corrente di collettore $I_{\textrm{C}}$ esponenzialmente
+* Nel transistor bipolare scorre sempre una corrente di base $I_{\textrm{B}}$ che dipende esponenzialmente da $U_{\textrm{BE}}$
+* Il fattore $B$ è il *fattore di amplificazione di corrente* del transistor
+* È compreso tra 20 e 500 circa
+
+<fragment>
+$B = \frac{I_{\textrm{C}}}{I_{\textrm{B}}}$
+</fragment>
+
+<note>
+Un fattore più alto richiede una corrente di base più piccola per controllare una corrente di collettore maggiore
+</note>
+---
+[question:AC501]
+---
+### Transistor bipolare conduttivo
+
+* Scorre una corrente di collettore significativa
+* Diodo base-emettitore in direzione di conduzione
+* Diodo collettore-base bloccato, in modo che nessun portatore di carica possa passare dal collettore alla base
+
+---
+[question:AC505]
+---
+[question:AC515]
+---
+#### Percorso di soluzione
+* La grandezza di $R_1$ imposta la corrente di base $I_B$
+* $I_B$ è inferiore di 298 rispetto a $I_C$
+* Per la tensione su $R_1$ è necessario sottrarre la caduta di tensione del transistor
+
+---
+* dato: $U = \qty{12}{\volt}$
+* dato: $I_{\textrm{C}} = \qty{5}{\milli\ampere}$
+* dato: $B = 298$
+* dato: $U_{\textrm{BE}} = \qty{0,6}{\volt}$
+* cercato: $R_1$
+
+<fragment>
+$B = \frac{I_{\textrm{C}}}{I_{\textrm{B}}} \Rightarrow I_{\textrm{B}} = \frac{I_{\textrm{C}}}{B} = \frac{\qty{5}{\milli\ampere}}{298} = \qty{16,779}{\micro\ampere}$
+</fragment>
+<fragment>
+$R_1 = \frac{U-U_{\textrm{BE}}}{I_{\textrm{B}}} = \frac{\qty{12}{\volt} - \qty{0,6}{\volt}}{\qty{16,779}{\micro\ampere}} \approx \qty{680}{\kilo\ohm}$
+</fragment>
+
+<note>
+Svantaggio del circuito è un'amplificazione di corrente scarsamente controllata
+</note>
+---
+[question:AC518]
+---
+### Stabilizzazione del punto di funzionamento
+
+<left>
+[picture:361:a_bauelemente_arbeitspunkteinstellung:Circuito a transistor con partitore di tensione di base]
+</left>
+<right>
+* Il punto di funzionamento viene impostato tramite il partitore di tensione
+* La corrente trasversale attraverso $R_2$ deve essere così alta che la corrente di base non abbia una grande influenza sul punto di funzionamento
+</right>
+<note>
+La corrente di collettore dipende esponenzialmente dalla tensione base-emettitore; la tolleranza delle resistenze può avere grandi effetti sulla corrente di collettore. La forte dipendenza dalla temperatura nel transistor può influenzare la corrente di collettore.
+</note>
+
+---
+[question:AC516]
+
+--- style="font-size: smaller;"
+#### Percorso di soluzione
+<left>
+* dato: $U = \qty{10}{\volt}$
+* dato: $I_{\textrm{C}} = \qty{2}{\milli\ampere}$
+* dato: $B = 200$
+</left>
+<right>
+* dato: $U_{\textrm{R2}} = \qty{0,6}{\volt}$
+* dato: $I_{\textrm{R2}} = 10 \cdot I_{\textrm{B}}$
+* cercato: $R_1$
+</right>
+
+<fragment>
+$B = \frac{I_{\textrm{C}}}{I_{\textrm{B}}} \Rightarrow I_{\textrm{B}} = \frac{I_{\textrm{C}}}{B} = \frac{\qty{2}{\milli\ampere}}{200} = \qty{10}{\micro\ampere}$
+</fragment>
+<fragment>
+$U_{\textrm{R1}} = U - U_{\textrm{R2}} = \qty{10}{\volt} - \qty{0,6}{\volt} = \qty{9,4}{\volt}$
+</fragment>
+<fragment>
+$I_{\textrm{R1}} = I_{\textrm{B}} + I_{\textrm{R2}} = I_{\textrm{B}} + 10 \cdot I_{\textrm{B}} = \qty{110}{\micro\ampere}$
+</fragment>
+<fragment>
+$R_1 = \frac{U_{\textrm{R1}}}{I_{\textrm{R1}}} = \frac{\qty{9,4}{\volt}}{\qty{110}{\micro\ampere}} \approx \qty{85,5}{\kilo\ohm}$
+</fragment>
+
+---
+[question:AC517]
+---
+#### Percorso di soluzione
+
+* $U_{\textrm{R2}}$ è uguale a $U_{\textrm{BE}} + U_{\textrm{RE}}$
+* La corrente di collettore è determinata principalmente da $R_{\textrm{E}}$
+* Circuito molto stabile
+
+--- style="font-size: smaller;"
+<left>
+* dato: $U = \qty{10}{\volt}$
+* dato: $I_{\textrm{C}} = \qty{2}{\milli\ampere}$
+* dato: $B = 200$
+</left>
+<right>
+* dato: $U_{\textrm{BE}} = \qty{0,6}{\volt}$
+* dato: $U_{\textrm{RE}} = \qty{1}{\volt}$
+* dato: $I_{\textrm{R2}} = 10 \cdot I_{\textrm{B}}$
+</right>
+* cercato: $R_1$
+
+<fragment>
+$B = \frac{I_{\textrm{C}}}{I_{\textrm{B}}} \Rightarrow I_{\textrm{B}} = \frac{I_{\textrm{C}}}{B} = \frac{\qty{2}{\milli\ampere}}{200} = \qty{10}{\micro\ampere}$
+</fragment>
+<fragment>
+$U_{\textrm{R2}} = U_{\textrm{BE}} + U_{R_{\textrm{E}}} = \qty{0,6}{\volt} + \qty{1}{\volt} = \qty{1,6}{\volt}$
+</fragment>
+<fragment>
+$U_{\textrm{R1}} = U - U_{\textrm{R2}} = \qty{10}{\volt} - \qty{1,6}{\volt} = \qty{8,4}{\volt}$
+</fragment>
+<fragment>
+$I_{\textrm{R1}} = I_{\textrm{B}} + I_{\textrm{R2}} = I_{\textrm{B}} + 10 \cdot I_{\textrm{B}} = \qty{110}{\micro\ampere}$
+</fragment>
+<fragment>
+$R_1 = \frac{U_{\textrm{R1}}}{I_{\textrm{R1}}} = \frac{\qty{8,4}{\volt}}{\qty{110}{\micro\ampere}} \approx \qty{76,4}{\kilo\ohm}$
+</fragment>
+
+---
+[question:AC519]
+---
+#### Percorso di soluzione
+
+* Nessuna corrente attraverso $R_1 \rightarrow$ nessuna tensione su $R_2$
+* La base è a potenziale di massa $ightarrow$ il transistor è senza corrente
+* Nessuna caduta di tensione su $R_{\textrm{C}} \rightarrow$ il potenziale del collettore sale alla tensione di servizio
+
+---
+[question:AC520]
+---
+#### Percorso di soluzione
+
+* $R_2$ è senza corrente $ightarrow$ la base è collegata alla tensione di servizio tramite $R_1$
+* A causa del dimensionamento, la corrente di base è ora 11 volte più alta del previsto
+* La corrente di collettore aumenterà notevolmente $ightarrow$ la caduta di tensione su $R_{\textrm{C}}$ aumenta notevolmente
+* $U_{\textrm{CE}}$ scende al valore di saturazione di circa $\qty{0,1}{\volt}$
+
+---
+## Transistor a effetto di campo (FET)
+
+[picture:271:a_bauelemente_fet:Schemi di transistor a effetto di campo]
+
+* Struttura diversa
+* Esiste un canale semiconduttore
+* Il flusso di corrente è controllato da un campo elettrico
+* Pertanto, controllato in tensione
+
+<note>
+La linea verticale simboleggia il canale, collegato al drain (sopra) e al source (sotto); a sinistra c'è il gate e la freccia ricorda un diodo
+</note>
+---
+[question:AC502]
+---
+[question:AC506]
+---
+### Connessioni del FET
+
+* *Source* Sorgente dei portatori di carica nel canale
+* *Drain* Scarico dei portatori di carica nel canale
+* *Gate* Controlla il flusso dei portatori di carica nel canale
+
+---
+[question:AC513]
+---
+[question:AC512]
+---
+[question:AC514]
+
+<note>
+Sarebbe meglio dire: controlla la corrente del canale invece di resistenza, poiché questo comportamento resistivo si verifica solo a basse tensioni drain-source
+</note>
+---
+### Tipi di FET
+
+* *a conduzione diretta*: Senza tensione gate-source, il FET è conduttivo
+* *ad interruzione*: Senza tensione gate-source, il FET è bloccato
+* *FET a canale n*: La corrente nel canale è trasportata da elettroni
+* *FET a canale p*: La corrente nel canale è trasportata da lacune
+* *FET a giunzione*: Il gate è un diodo
+* *FET a strato isolante*: Il gate è una struttura a condensatore (es. MOSFET)
+
+<note>
+MOSFET: metal oxide semiconductor FET
+</note>
+---
+### Simboli di circuito FET
+
+<left>
+[picture:273:a_bauelemente_selbstleitender_p_kanal_mosfet:MOSFET a canale p a conduzione diretta]
+[picture:276:a_bauelemente_selbstsperrender_n_kanal_mosfet:MOSFET a canale n ad interruzione]
+</left>
+<right>
+* *a conduzione diretta*/*ad interruzione*: Gate continuo/tratteggiato
+* *canale p*/*canale n*: La freccia punta via dal/verso il canale
+* *strato isolante* (MOSFET): Gate e canale come condensatore
+</right>
+
+---
+[question:AC507]
+---
+[question:AC508]
+---
+[question:AC509]
+---
+[question:AC510]
+---
+[question:AC511]
+---
+[question:AC521]
+---
+#### Percorso di soluzione
+
+<left>
+* dato: $U_{\textrm{B}} = \qty{44}{\volt}$
+* dato: $R_1 = \qty{10}{\kilo\ohm}$
+* dato: $R_2 = \qty{1}{\kilo\ohm}$
+* dato: $R_3 = \qty{2,2}{\kilo\ohm}$
+* cercato: $U_{\textrm{GS}}$
+* Approccio: Partitore di tensione non caricato su $R_1$ e $R_2$, con $U_{\textrm{GS}} = U_{\textrm{R2}}$
+</left>
+<right>
+<fragment>
+$\begin{split} \frac{U_{\textrm{R2}}}{U_{\textrm{B}}} &= \frac{R_2}{R_1+R_2}\\ \Rightarrow U_{\textrm{R2}} &= \frac{R_2}{R_1+R_2} \cdot U_{\textrm{B}}\\ &= \frac{\qty{1}{\kilo\ohm}}{\qty{10}{\kilo\ohm}+\qty{1}{\kilo\ohm}} \cdot \qty{44}{\volt}\\ &= \frac{1}{11} \cdot \qty{44}{\volt} = \qty{4}{\volt} \end{split}$
+</fragment>
+</right>
+
+---
+[question:AC522]
+---
+#### Percorso di soluzione
+
+<left>
+* dato: $U_{\textrm{B}} = \qty{44}{\volt}$
+* dato: $R_1 = \qty{10}{\kilo\ohm}$
+* dato: $R_3 = \qty{2,2}{\kilo\ohm}$
+* dato: $U_{\textrm{GS}} = U_{\textrm{R2}} = \qty{2,8}{\volt}$
+* dato: $U_{\textrm{B}} = U_{\textrm{R1}} + U_{\textrm{R2}}$
+* cercato: $R_2$
+</left>
+<right>
+<fragment>
+$\begin{split} \frac{U_{\textrm{R1}}}{U_{\textrm{R2}}} &= \frac{R_1}{R_2}\\ \Rightarrow R_2 &= R_1 \cdot \frac{U_{\textrm{R2}}}{U_{\textrm{R1}}}\\ &= R_1 \cdot \frac{U_{\textrm{R2}}}{U_{\textrm{B}}-U_{\textrm{GS}}}\\ &= \qty{10}{\kilo\ohm} \cdot \frac{\qty{2,8}{\volt}}{\qty{44}{\volt}-\qty{2,8}{\volt}}\\ &\approx \qty{680}{\ohm} \end{split}$
+</fragment>
+</right>
+---
+[question:AC523]
+---
+#### Percorso di soluzione
+
+* dato: $R_{\textrm{DSon}} = \qty{4}{\milli\ohm}$
+* dato: $I = \qty{25}{\ampere}$
+* cercato: $P$
+
+<fragment>
+$P = I^2 \cdot R = (\qty{25}{\ampere})^2 \cdot \qty{4}{\milli\ohm} = \qty{2,5}{\watt}$
+</fragment>
+
+<note>
+Il MOSFET si comporta come una resistenza ohmica
+</note>
+
+---
+### Diodo di ricircolo
+
+* Il relè viene azionato tramite un transistor bipolare collegato in serie
+* Il transistor si accende $ightarrow$ la corrente scorre attraverso la bobina del relè
+* Il transistor si spegne $ightarrow$ la corrente nella bobina induce una tensione negativa sul transistor
+* Può portare alla distruzione del transistor
+* Per evitarlo: installare un *diodo di ricircolo* in parallelo al relè in direzione di blocco
+* La tensione di induzione viene limitata alla tensione del diodo
+
+---
+[question:AC524]

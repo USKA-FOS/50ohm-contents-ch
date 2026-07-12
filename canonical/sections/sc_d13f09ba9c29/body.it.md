@@ -1,0 +1,33 @@
+%Nel campo vicino di un'antenna, l'intensità del campo elettrico e l'intensità del campo magnetico non presentano una relazione di fase costante tra loro. Ciò cambia solo nel campo lontano di un'antenna. Il passaggio tra le due aree è fluido e viene anche chiamato campo di transizione.
+
+%In linea di principio, il passaggio tra campo vicino e campo lontano dipende dalla lunghezza d'onda considerata. È indicato come
+
+%$d > \dfrac {\lambda} {2 \cdot \pi}$
+
+%Ad esempio, per una lunghezza d'onda di $\qty{20}{\meter}$, il passaggio si trova quindi a una distanza di circa $d = \frac {\qty{20}{\meter}} {2 \cdot \pi} \approx \qty{3,18}{\meter}$.
+
+%Tuttavia, per antenne geometricamente piccole rispetto alla loro lunghezza d'onda, il campo lontano può formarsi solo più tardi.
+
+%Per il calcolo delle distanze di sicurezza per le persone è possibile una formula approssimata nel campo lontano. Ciò può evitare misurazioni o simulazioni complesse.
+
+% ************
+
+Il campo lontano di una sorgente radiante è l'area in cui i vettori dell'intensità del campo elettrico (E), dell'intensità del campo magnetico (H) e la direzione di propagazione sono perpendicolari tra loro e non presentano differenze di fase. Inoltre, l'impedenza caratteristica dell'onda deve corrispondere a quella dello spazio libero.
+
+Il confine tra campo lontano e campo vicino dipende principalmente dalla lunghezza d'onda. Tuttavia, il tipo di antenna utilizzata e il suo ambiente giocano un ruolo. Per le antenne a filo prevalentemente utilizzate nel radioamatore (ad esempio, dipoli), il campo lontano si forma a una distanza di circa $4\cdot\lambda$.
+
+Il campo vicino è suddiviso in campo vicino reattivo e campo vicino radiante. In pratica, nel campo vicino radiante è comunque possibile utilizzare la formula per il campo lontano. Ciò è dovuto al fatto che la formula approssimata fornisce qui stime molto conservative, il che significa che le intensità di campo effettive sono inferiori a quelle calcolate. Si è al sicuro. Tuttavia, ciò non vale per le antenne magnetiche e per le antenne molto corte rispetto alla lunghezza d'onda. In questi casi, è necessario ricorrere ad altri metodi, ad esempio programmi di calcolo del campo vicino.
+
+Il passaggio tra il campo vicino reattivo e il campo vicino radiante dipende dalla lunghezza d'onda.
+
+$d > \dfrac {\lambda} {2 \cdot \pi}$
+
+Il calcolo con la formula approssimata può evitare misurazioni o simulazioni complesse.
+
+La formula $d = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$ è valida per la maggior parte delle forme di antenna, se la distanza di sicurezza calcolata si trova nel campo vicino radiante o nel campo lontano.
+
+<indepth>
+Nelle [Spiegazioni delle procedure di valutazione secondo BEMFV](https://50ohm.de/bemfv), la BNetzA ha illustrato i termini e le procedure per la determinazione delle distanze di sicurezza.
+% Immagine di DL4HR
+[photo:80:n_Bewertungsverfahren:In questo documento sono descritte le procedure di valutazione.]
+</indepth>

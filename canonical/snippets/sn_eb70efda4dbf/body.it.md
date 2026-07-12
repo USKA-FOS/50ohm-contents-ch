@@ -1,0 +1,1 @@
+Corso di aggiornamento E ad A

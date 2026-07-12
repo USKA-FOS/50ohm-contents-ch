@@ -1,0 +1,1 @@
+Corso di aggiornamento N dopo A

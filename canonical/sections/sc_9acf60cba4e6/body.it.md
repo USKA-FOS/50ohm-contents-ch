@@ -1,0 +1,7 @@
+Un *salto* (o in inglese *Hop*) è il percorso dell'onda spaziale di un segnale radio dall'antenna trasmittente fino al ritorno alla superficie terrestre, dopo aver subito una rifrazione nella ionosfera. La distanza percorsa in questo modo può essere determinata puramente geometricamente e dipende dall'altitudine della regione rifrangente e dall'angolo (rispetto alla superficie terrestre) con cui il segnale viene irradiato dall'antenna trasmittente. Più l'angolo è piatto e più alta è la regione rifrangente, maggiore è la distanza del salto. 
+
+<indepth>
+[include:sprungdistanz_applet]
+</indepth>
+
+[question:EH208]

@@ -1,0 +1,3 @@
+Dobbiamo aggiungere il guadagno di $\qty{2,15}{\dB}$ del dipolo. 
+Suggerimento: Il guadagno del dipolo si trova nella raccolta di formule.
+Calcolo: $\qty{5}{\dBd} + \qty{2,15}{\dB} = \qty{7,15}{\dBi}$ 

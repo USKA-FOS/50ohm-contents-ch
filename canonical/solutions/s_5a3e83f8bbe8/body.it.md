@@ -1,0 +1,3 @@
+Materiali semiconduttori come il silicio, allo stato puro e a temperatura ambiente, hanno solo una bassa conduttività elettrica e si comportano quasi come isolanti.
+
+Attraverso un drogaggio mirato con piccole quantità di atomi estranei appropriati, come ad esempio il boro o il fosforo, la conduttività può essere notevolmente aumentata. Anche un aumento della temperatura porta alla disponibilità di più portatori di carica e rende il materiale più conduttivo.

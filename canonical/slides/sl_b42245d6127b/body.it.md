@@ -1,0 +1,89 @@
+## Correzione degli errori in avanti (FEC)
+
+* Se il ricevitore rileva un errore (ad es. tramite bit di parità), può richiedere una ritrasmissione.
+* Con la correzione degli errori in avanti, viene aggiunta ridondanza aggiuntiva (ad es. ulteriori bit di parità).
+* In questo modo non solo viene rilevato che esiste un errore, ma anche dove si trova $\rightarrow$ il bit errato può essere corretto.
+* In inglese si parla di Forward Error Correction (FEC).
+
+---
+
+[question:AE413]
+
+---
+
+[question:AE414]
+
+---
+
+## Codice di Hamming – Correzione degli errori in dettaglio
+
+* Il codice di Hamming utilizza più bit di parità per non solo rilevare gli errori, ma anche per correggerli.
+* Obiettivo: Un singolo errore di bit deve essere localizzato e corretto.
+
+---
+
+<left>
+[picture:683:hamming1:Trasmissione di 11 bit]
+</left>
+<right>
+* Esempio: Trasmissione di una parola dati di 11 bit.
+* Obiettivo: Rilevamento e correzione degli errori in caso di errore di un singolo bit.
+</right>
+
+---
+
+<left>
+[picture:682:hamming2:Denominazione alfabetica delle posizioni dei bit]
+</left>
+<right>
+* Le posizioni dei bit sono denominate alfabeticamente per identificare le singole aree.
+</right>
+
+---
+
+<left>
+[picture:684:hamming3:Riordino con bit aggiuntivi]
+</left>
+<right>
+* Disposizione dei bit di dati con posizioni di bit aggiuntive per i bit di parità.
+</right>
+
+---
+
+<left>
+[picture:685:hamming4:Quattro bit di parità nel codice di Hamming]
+</left>
+<right>
+* Invece di un singolo bit di parità, vengono utilizzati quattro bit di parità ($p_1$–$p_4$).
+* Questi coprono diverse aree dei bit di dati, simili a un cruciverba.
+</right>
+
+---
+
+<left>
+[picture:686:hamming5:Assegnazione delle aree di parità]
+</left>
+<right>
+* Ogni bit di parità protegge un'area specifica dei dati.
+</right>
+
+---
+
+<left>
+[picture:687:hamming6:Calcolo dei bit di parità (Parità pari)]
+</left>
+<right>
+* Per ogni area, il bit di parità viene calcolato utilizzando la parità pari.
+* Se si verifica un errore, le aree errate possono essere identificate e corrette.
+</right>
+
+---
+
+<left>
+[picture:687:hamming6:Calcolo dei bit di parità (Parità pari)]
+</left>
+<right>
+* Combinando le aree di parità, è possibile determinare la posizione del bit errato.
+* Esempio: Se un determinato bit (ad es. bit $k$) viene modificato durante la trasmissione, tutti i controlli di parità associati falliscono, quindi l'errore si trova nel bit $k$.
+</right>
+

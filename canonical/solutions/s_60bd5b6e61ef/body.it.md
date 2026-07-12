@@ -1,0 +1,1 @@
+Affinché un transistor bipolare conduca, la giunzione base-emettitore deve essere polarizzata in avanti come una normale diodo. Ciò consente il flusso di una corrente di base che accende il transistor.

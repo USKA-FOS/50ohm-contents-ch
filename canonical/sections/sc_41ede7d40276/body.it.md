@@ -1,0 +1,31 @@
+La distanza massima dalla linea dello zero al punto più alto o più basso della tensione alternata, come mostrato nella figura [ref:amplitude_periode_amplitudee], è chiamata *ampiezza* [index:Schwingung:Amplitude].
+
+<margin>
+[picture:726:amplitude_periode_amplitudee: Ampiezza di un'oscillazione sinusoidale]
+</margin>
+
+[question:NB404]
+
+<tip>
+I corsi temporali delle oscillazioni possono essere ben rappresentati con un *oscilloscopio* [index:Oszilloskop]. Sullo schermo vengono visualizzati orizzontalmente il tempo e verticalmente la tensione delle oscillazioni. Questa rappresentazione visiva è chiamata *oscillogramma* [index:Oszillogramm].
+</tip>
+
+---
+
+Un'oscillazione sinusoidale è composta da una semionda positiva e una negativa [index:Schwingung:Halbwelle] (figura [ref:amplitude_periode_halbwellen]). Per questo, l'oscillazione sinusoidale richiede un certo tempo ($t$). L'intervallo di tempo dall'inizio di una semionda positiva alla fine della semionda negativa successiva è chiamato *periodo* [index:Schwingung:Periode] o anche durata del periodo (figura [ref:amplitude_periode_perioden]). Dopo che un periodo è trascorso, il processo ricomincia.
+
+<margin>
+[picture:727:amplitude_periode_halbwellen: Semionde positive e negative di un'oscillazione sinusoidale]
+</margin>
+
+<margin>
+[picture:728:amplitude_periode_perioden: Periodi di un'oscillazione sinusoidale]
+</margin>
+
+[include:applet_sinus_amplitude_und_periode]
+
+[question:NB405]
+
+Come abbiamo appena appreso, un periodo corrisponde esattamente a un'oscillazione. E ricordiamo: un'oscillazione al secondo corrisponde esattamente a $\qty{1}{\hertz}$. Combinando queste conoscenze, la seguente domanda dovrebbe essere risolvibile.
+
+[question:NA213]

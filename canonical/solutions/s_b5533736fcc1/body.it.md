@@ -1,0 +1,37 @@
+Si cerca la potenza sulla resistenza $R_2$.
+
+Dati:
+
+$ U = \qty{15}{\volt} $
+
+e
+
+$ R_1 = R_2 = R_3 = \qty{10}{\kilo\ohm} $
+
+Per la connessione in parallelo di $R_2$ e $R_3$ si ottiene:
+
+$ R_{23} = \qty{5}{\kilo\ohm} $
+
+La resistenza totale è quindi:
+
+$ R_\mathrm{ges} = R_1 + R_{23} = \qty{10}{\kilo\ohm} + \qty{5}{\kilo\ohm} = \qty{15}{\kilo\ohm} $
+
+La corrente totale è quindi:
+
+$ I_\mathrm{ges} = \frac{U}{R_\mathrm{ges}} = \frac{\qty{15}{\volt}}{\qty{15}{\kilo\ohm}} = \qty{1}{\milli\ampere} $
+
+Questa corrente si divide equamente tra $R_2$ e $R_3$:
+
+$ I_{2} = \frac{I_\mathrm{ges}}{2} = \qty{0,5}{\milli\ampere} $
+
+La potenza sulla resistenza $R_2$ si calcola con:
+
+$ P = I^2 \cdot R $
+
+Quindi:
+
+$ P_{2} = I_{2}^2 \cdot R_2 $
+
+$ P_{2} = \left(\qty{0,5}{\milli\ampere}\right)^2 \cdot \qty{10}{\kilo\ohm} $
+
+$ P_{2} = \qty{2,5}{\milli\watt} $

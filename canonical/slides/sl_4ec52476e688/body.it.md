@@ -1,0 +1,116 @@
+## In serie
+
+* Poiché la tensione è decisiva per la formazione del campo elettrico (e questa si divide nella connessione in serie), il calcolo della capacità è esattamente l'opposto di quello delle resistenze.
+* Caso d'uso: Con tensioni elevate, più condensatori vengono collegati in serie per prevenire il rischio di scarica. È utile che la tensione totale si divida tra i condensatori.
+
+---
+
+* In una connessione in serie di condensatori, la capacità totale è inferiore al valore del condensatore più piccolo
+
+[picture:823:e_reihenschaltung_kondensatoren:Connessione in serie di 3 condensatori]
+
+$\frac{1}{C_{\mathrm{tot}}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
+
+---
+
+* Semplificazione per due condensatori:
+
+$C_{\mathrm{tot}} = \dfrac{C_{1} \cdot C_{2}}{C_{1} + C_{2}}$
+
+---
+
+* Semplificazione per condensatori uguali:
+
+$C_{\mathrm{tot}} = \dfrac{C}{n}$
+
+$n$ sta per il numero di condensatori
+
+---
+
+[question:ED119]
+
+---
+
+[question:ED120]
+
+---
+
+## In parallelo
+
+* Qui è esattamente l'opposto che con le resistenze, perché su tutti i condensatori agisce la stessa tensione, che è decisiva per la formazione del campo elettrico.
+* Caso d'uso: I condensatori vengono collegati in parallelo per ottenere dalla serie standard il valore necessario.
+
+<note>
+* I condensatori collegati in parallelo agiscono come un grande condensatore
+</note>
+
+---
+
+* Nella connessione in parallelo, le capacità si sommano
+
+[picture:822:e_parallelschaltung_kondensatoren:Connessione in parallelo di 3 condensatori]
+
+$C_{\mathrm{tot}} = C_{1} + C_{2} + C_{3}$
+
+---
+
+[question:ED117]
+
+---
+
+[question:ED118]
+
+---
+
+## Circuiti misti
+
+--- style="font-size: 0.7em;"
+
+### Variante 1: Due in parallelo e uno in serie
+
+<left>
+* Qui si calcola prima la connessione in parallelo di $C_{2}$ e $C_{3}$
+
+$C_{\mathrm{tot,p}} = C_{2} + C_{3}$
+
+* Successivamente si calcola la connessione in serie di $C_{1}$ e $C_{\mathrm{tot,p}}$
+
+$C_{\mathrm{tot}} = \frac{C_{1} \cdot C_{\mathrm{tot,p}}}{C_{1} + C_{Gp}}$
+</left>
+<right>
+[picture:820:e_gemischt_variante_1:Circuito misto - Variante 1]
+</right>
+
+---
+
+[question:ED123]
+
+---
+
+[question:ED124]
+
+---
+
+[question:ED122]
+
+--- style="font-size: 0.7em;"
+
+### Variante 2: Due in serie e uno in parallelo
+
+<left>
+* Qui si calcola prima la connessione in serie di $C_{1}$ e $C_{2}$
+
+$C_{\mathrm{tot,r}} = \frac{C_{1} \cdot C_{2}}{C_{1} + C_{2}}$
+
+* Successivamente si calcola la connessione in parallelo di $C_{3}$ e $C_{\mathrm{tot,r}}$
+
+$C_{\mathrm{tot}} = \frac{C_{3} \cdot C_{\mathrm{tot,r}}}{C_{3} + C_{\mathrm{tot,r}}}$
+</left>
+<right>
+[picture:457:e_gemischt_variante_2:Circuito misto - Variante 2]
+</right>
+
+---
+
+[question:ED121]
+

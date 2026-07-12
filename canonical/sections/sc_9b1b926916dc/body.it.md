@@ -1,0 +1,8 @@
+La propagazione di un'onda elettromagnetica avviene, come abbiamo imparato, alla velocità della luce. Nello spazio libero questa è la velocità della luce nel vuoto; nel conduttore dobbiamo considerare il fattore di riduzione.
+
+All'interno di un conduttore si verifica quindi un ritardo temporale tra l'inizio e la fine della linea, poiché la velocità di propagazione non è infinita: se durante la trasmissione di un'oscillazione sinusoidale la tensione di picco positiva si presenta a un'estremità in un certo momento, essa si presenterà solo un po' più tardi all'altra estremità. Poiché le oscillazioni sinusoidali si ripetono, indichiamo questo ritardo come uno sfasamento da $\qty{0}{\degree}$ a $\qty{360}{\degree}$, dove $\qty{360}{\degree}$ corrisponde a un periodo di oscillazione. A causa della ripetizione dell'onda, $\qty{360}{\degree}$ corrisponde quindi nuovamente a $\qty{0}{\degree}$.
+
+Nelle seguenti domande d'esame, il fattore di riduzione è già stato considerato, poiché si parla della *lunghezza elettrica* di un cavo coassiale, motivo per cui il cavo può essere meccanicamente più lungo. Possiamo quindi convertire direttamente la lunghezza nello sfasamento in gradi: una lunghezza d'onda ($\lambda$) corrisponde esattamente a $\qty{360}{\degree}$, e le sue frazioni corrispondono a uno sfasamento proporzionalmente minore. Ad esempio, $\lambda / 2$ corrisponde esattamente a $\frac{\qty{360}{\degree}}{2} = \qty{180}{\degree}$.
+
+[question:AG407]
+[question:AG408]

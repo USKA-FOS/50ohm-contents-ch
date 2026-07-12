@@ -1,0 +1,99 @@
+### I radioamatori possono aiutare?
+
+* Sì! I radioamatori possono supportare la gestione di una situazione di emergenza trasmettendo messaggi per e a terzi in caso di emergenza e catastrofe.
+
+---
+
+[question:BF103]
+
+---
+
+### Cosa fare quando si riceve un messaggio di emergenza?
+
+* In caso di messaggio di emergenza, si dovrebbe prima ascoltare attentamente e annotare tutte le informazioni importanti.
+
+---
+
+[question:BF104]
+
+---
+
+### Cosa fare se un'organizzazione di soccorso si occupa della questione?
+
+* Se il messaggio di emergenza viene risposto da un'organizzazione di soccorso, ci si tiene indietro per non disturbare le operazioni radio.
+
+---
+
+[question:BF105]
+
+---
+
+### Cosa fare se inizialmente nessuno risponde?
+
+* Se nessun'altra stazione radio risponde, si risponde alla chiamata e si informa la polizia o la centrale di soccorso.
+
+---
+
+[question:BF106]
+
+---
+
+### Cosa fare dopo aver informato le autorità competenti?
+
+* Idealmente, si rimane raggiungibili e si trasmettono informazioni fino all'arrivo dei soccorsi.
+
+---
+[question:BF107]
+
+---
+
+### Cosa si deve osservare in caso di coinvolgimento internazionale?
+
+* In caso di coinvolgimento internazionale, si utilizza l'UTC invece dell'ora locale.
+
+---
+
+[question:BF108]
+
+---
+
+### Segnali di emergenza
+
+* I segnali di emergenza al di fuori del radioamatore sono SOS e Mayday, questi non devono essere utilizzati nel radioamatore.
+
+<note>
+* È possibile inviare chiamate di soccorso.
+* Ma i segnali di emergenza SOS e MAYDAY sono riservati alle comunicazioni marittime e aeree.
+</note>
+
+---
+
+[question:VD105]
+
+---
+
+[question:BF101]
+
+---
+
+[question:BF102]
+
+---
+
+### Frequenze di emergenza
+
+La IARU ha stabilito per la Regione ITU 1 le seguenti frequenze di emergenza nei piani di banda, che devono essere tenute libere per le operazioni di emergenza:
+% TODO: In realtà, le indicazioni di banda non sono necessarie. Ma se c'è solo la frequenza, gli spazi tra le righe diventano enormi
+* $\qty{3760}{\kilo\hertz}$ nella banda degli $\qty{80}{\meter}$
+* $\qty{7110}{\kilo\hertz}$ nella banda dei $\qty{40}{\meter}$
+* $\qty{14300}{\kilo\hertz}$ nella banda dei $\qty{20}{\meter}$
+* $\qty{18160}{\kilo\hertz}$ nella banda dei $\qty{17}{\meter}$
+* $\qty{21360}{\kilo\hertz}$ nella banda dei $\qty{15}{\meter}$
+
+<note>
+Inoltre, ad esempio in caso di terremoti, le organizzazioni locali comunicano ulteriori frequenze nei "media radioamatoriali".
+  </note>
+  
+---
+
+[question:BF109]

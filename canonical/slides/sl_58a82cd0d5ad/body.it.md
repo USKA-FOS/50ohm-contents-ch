@@ -1,0 +1,14 @@
+<left>
+Nella trasmissione di informazioni si distingue fondamentalmente tra metodi analogici e digitali.
+
+* *Digitale*: a gradini, solo valori specifici, nessun valore intermedio
+* *Analogico*: continuo, valori intermedi arbitrari
+</left>
+<right>
+[picture:411:n_digital_einleitung_digitales_signal:Segnale digitale (a gradini)]
+[picture:408:n_digital_einleitung_analoges_signal:Segnale analogico (continuo)]
+</right>
+<note>
+Digitus (latino): dito
+analogos (greco antico): corrispondente, simile, proporzionato, appropriato, affine
+</note>
