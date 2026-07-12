@@ -1,0 +1,51 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "sa_1a8c2de8413a",
+  "identifiers": [
+    {
+      "id_system": "file_path",
+      "id_value": "latex/DARC-ausbildungsmaterialien.sty",
+      "preferred": true
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "metadata": {},
+  "object_type": "support_asset",
+  "reconstruction": {
+    "strategy": "replace_source_file",
+    "targets": [
+      {
+        "kind": "localized_text_file",
+        "path": "latex/DARC-ausbildungsmaterialien.sty"
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    }
+  ],
+  "source": {
+    "format": "sty",
+    "key": "DARC-ausbildungsmaterialien.sty",
+    "path": "latex/DARC-ausbildungsmaterialien.sty"
+  },
+  "text_slots": [
+    {
+      "slot_key": "body_text",
+      "slot_type": "plain_text",
+      "sort_order": 0,
+      "storage": {
+        "files": {
+          "de": "body.de.txt"
+        },
+        "kind": "text_file"
+      },
+      "translation_group_key": null
+    }
+  ]
+}

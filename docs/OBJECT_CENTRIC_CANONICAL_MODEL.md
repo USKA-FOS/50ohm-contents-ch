@@ -24,6 +24,10 @@ The design goal is therefore:
 - SQLite used as a validated working database strategy, but not treated as the
   source of truth.
 
+The source-update workflow is intentionally non-destructive toward canonical
+Git. Canonical content is the reference baseline; source imports are expected
+to update that baseline, not recreate it from nothing during normal operation.
+
 The question-pool repository is the reference style for this direction.
 
 This is a fresh model, not a compatibility layer over the previous canonical
@@ -138,8 +142,20 @@ Example for a photo:
 ```text
 canonical/photos/ph_8f3d771302c4/
   object.meta.json
-  content.de.json
-  102.png
+  102.de.png
+  102.de.txt
+  object.references.json
+  object.annotations.json
+```
+
+Example for a drawing:
+
+```text
+canonical/drawings/dr_b4bfdee9ee99/
+  object.meta.json
+  1021.de.svg
+  1021.de.tex
+  1021.de.txt
   object.references.json
   object.annotations.json
 ```
@@ -160,6 +176,10 @@ Each object directory contains `object.meta.json` with:
 - available languages;
 - copied asset filenames where relevant.
 
+For `photo` and `drawing`, `object.meta.json` must also expose the language
+variant mapping of the visual asset. The imported German file is the initial
+default variant and therefore becomes `*.de.<ext>` in canonical storage.
+
 ## Text Storage
 
 Single-field objects store text in raw language files beside the object:
@@ -174,6 +194,46 @@ Multi-field objects store language content in one local JSON file:
 
 This keeps the object boundary intact while still allowing multiple text fields
 to belong to one business object.
+
+`photo` and `drawing` descriptions are stored as source-like per-language files
+named `<stem>.<lang>.txt`. The working SQLite model may still split them into
+`short_description` and `long_description` slots, but canonical Git keeps the
+language-qualified description file itself.
+
+## Source-Update Status Strategy
+
+Source updates are expected to work from canonical baseline, not from an empty
+canonical tree.
+
+Current agreed strategy:
+
+- load the working SQLite database from canonical;
+- integrate the incoming German source data non-destructively;
+- keep stable canonical ids for matching objects;
+- mark German objects missing from the new source with a reversible state such
+  as `to_be_deleted` instead of deleting them immediately;
+- keep the canonical directory and links temporarily so review and cleanup can
+  happen later under Git control.
+
+Important business rule:
+
+- if an object disappears from German source, it is considered removed for all
+  languages, not only for German;
+- the full node should therefore be treated as `to_be_deleted`, not only one
+  language variant;
+- when this state is set, the node content is left untouched for `de`, `fr`,
+  and `it` until a later explicit cleanup step removes the node.
+
+This is a deliberate transitional policy and must remain documented so it can
+be revised later if needed.
+
+Recommended Git workflow around source updates:
+
+- create a Git tag before each new source import;
+- validate the resulting canonical export;
+- create another Git tag after that validated export.
+
+This is currently documented discipline, not enforced by the tools.
 
 ## Structure Storage
 

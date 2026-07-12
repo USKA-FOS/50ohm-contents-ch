@@ -102,7 +102,8 @@ V4 baseline `translator/site-original/app/50ohm-contents-ch/`, then clears and
 recreates `work/build/de/` from `work/site-content/`. Before the latter build,
 it overlays the V4 `contents/questions/` directory unchanged into
 `work/generator-input/de/`; this deliberately holds the separate question
-module constant while content reconstruction is validated. Each build runs
+module constant while content reconstruction is validated. The comparison phase
+also excludes `contents/questions/` entirely. Each build runs
 from a private copy of the generator, so it never changes the shared generator
 configuration. It captures both logs and compares the generated trees by path
 and SHA-256 checksum. Its reports are stored in

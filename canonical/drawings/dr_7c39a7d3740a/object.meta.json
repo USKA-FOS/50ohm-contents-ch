@@ -1,9 +1,6 @@
 {
   "active": true,
-  "asset_files": {
-    "svg_path": "1041.svg",
-    "tex_path": "1041.tex"
-  },
+  "asset_files": {},
   "id": "dr_7c39a7d3740a",
   "identifiers": [
     {
@@ -17,17 +14,45 @@
       "preferred": false
     }
   ],
+  "language_variants": {
+    "de": {
+      "asset_files": {
+        "svg": "1041.de.svg",
+        "tex": "1041.de.tex"
+      }
+    }
+  },
   "languages": [],
   "metadata": {
     "asset": {
       "svg_path": "contents/drawings/1041.svg",
       "tex_path": "contents/drawings/1041.tex"
+    },
+    "language_asset": {
+      "de.svg": {
+        "canonical_file": "1041.de.svg",
+        "source_path": "contents/drawings/1041.svg"
+      },
+      "de.tex": {
+        "canonical_file": "1041.de.tex",
+        "source_path": "contents/drawings/1041.tex"
+      }
     }
   },
   "object_type": "drawing",
   "reconstruction": {
-    "strategy": "render_drawing_description_file",
+    "strategy": "render_drawing_assets_and_description",
     "targets": [
+      {
+        "asset_key": "svg_path",
+        "kind": "asset_file",
+        "path": "contents/drawings/1041.svg"
+      },
+      {
+        "asset_key": "tex_path",
+        "kind": "asset_file",
+        "path": "contents/drawings/1041.tex"
+      },
       {
         "kind": "rendered_description_file",
         "path": "contents/drawings/1041.txt",

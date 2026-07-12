@@ -20,6 +20,17 @@ SUMMARY_PATH = WORK_ROOT / "summary.json"
 LEGAL_FILES = ("README.md", "LICENSE")
 SUPPORT_DIRECTORIES = ("latex", "src")
 QUESTION_POOL_ROOT = REPO_ROOT.parent / "50ohm-question-pool" / "pool" / "questions"
+SOURCE_SITE_ROOT = REPO_ROOT.parent / "site-original" / "app" / "50ohm-contents-ch"
+SUPPORT_ASSET_PATHS = (
+    CONTENTS_ROOT / "metadata" / "question_layout.json",
+    CONTENTS_ROOT / "questions" / "README.txt",
+    CONTENTS_ROOT / "questions" / "fragenkatalog3b.json",
+    CONTENTS_ROOT / "questions" / "metadata3b.json",
+)
+EXTERNAL_SUPPORT_ASSET_PATHS = (
+    (SOURCE_SITE_ROOT / "contents" / "questions" / "fragenkatalog_4pre.json", "contents/questions/fragenkatalog_4pre.json"),
+    (SOURCE_SITE_ROOT / "contents" / "questions" / "fragenkatalog_ch.json", "contents/questions/fragenkatalog_ch.json"),
+)
 
 NANOID_ALPHABET = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 MARKER_RE = re.compile(r"\[(question|photo|picture|table|include|ref|index|class|morse):([^\]]*)\]")
@@ -35,6 +46,10 @@ def stable_id(namespace: str, *parts: str, size: int = 21) -> str:
         value, index = divmod(value, alphabet_len)
         chars.append(NANOID_ALPHABET[index])
     return "".join(chars)
+
+
+def canonical_media_filename(stem: str, language: str, suffix: str) -> str:
+    return f"{stem}.{language}{suffix}"
 
 
 def load_json(path: Path) -> Any:
@@ -561,17 +576,59 @@ class Builder:
             self.parse_and_store_markers(object_id, slot_key, path.read_text(encoding="utf-8"))
         return objects_by_stem
 
-    def import_raw_file_object(self, path: Path, object_type: str, slot_key: str = "body_text", slot_type: str = "text") -> str:
+    def import_raw_file_object(
+        self,
+        path: Path,
+        object_type: str,
+        slot_key: str = "body_text",
+        slot_type: str = "text",
+        *,
+        source_path_override: str | None = None,
+        source_key_override: str | None = None,
+    ) -> str:
         object_id = self.add_object(
             object_type=object_type,
-            source_path=str(path.relative_to(REPO_ROOT)),
+            source_path=source_path_override or str(path.relative_to(REPO_ROOT)),
             source_format=path.suffix.lstrip("."),
-            source_key=path.name,
+            source_key=source_key_override or path.name,
         )
         slot_id = self.add_text_slot(object_id, slot_key, slot_type)
         self.add_localized_text(slot_id, "de", path.read_text(encoding="utf-8"))
         self.add_review_state("content_object", object_id, "de", "imported_approved")
         return object_id
+
+    def import_support_assets(self) -> dict[str, str]:
+        objects_by_path: dict[str, str] = {}
+        paths = list(SUPPORT_ASSET_PATHS)
+        external_paths = list(EXTERNAL_SUPPORT_ASSET_PATHS)
+        paths.extend(sorted(path for path in TOC_ROOT.glob("*.json") if path.is_file()))
+        paths.extend(sorted(path for path in (REPO_ROOT / "latex").glob("*") if path.is_file()))
+        paths.extend(sorted(path for path in (REPO_ROOT / "src").glob("*") if path.is_file()))
+        for path in paths:
+            slot_key = "body_markdown" if path.suffix == ".md" else "body_text"
+            slot_type = "markdown" if path.suffix == ".md" else "plain_text"
+            object_id = self.import_raw_file_object(
+                path,
+                object_type="support_asset",
+                slot_key=slot_key,
+                slot_type=slot_type,
+            )
+            self.add_identifier(object_id, "file_path", str(path.relative_to(REPO_ROOT)), preferred=True)
+            objects_by_path[str(path.relative_to(REPO_ROOT))] = object_id
+        for path, logical_path in external_paths:
+            slot_key = "body_markdown" if path.suffix == ".md" else "body_text"
+            slot_type = "markdown" if path.suffix == ".md" else "plain_text"
+            object_id = self.import_raw_file_object(
+                path,
+                object_type="support_asset",
+                slot_key=slot_key,
+                slot_type=slot_type,
+                source_path_override=logical_path,
+                source_key_override=Path(logical_path).name,
+            )
+            self.add_identifier(object_id, "file_path", logical_path, preferred=True)
+            objects_by_path[logical_path] = object_id
+        return objects_by_path
 
     def import_photos(self) -> dict[str, str]:
         objects_by_id: dict[str, str] = {}
@@ -586,10 +643,30 @@ class Builder:
             self.add_identifier(object_id, "photo_id", stem, preferred=True)
             self.add_identifier(object_id, "file_stem", stem)
             if ".png" in members:
-                self.add_metadata(object_id, "asset", "image_path", str(members[".png"].relative_to(REPO_ROOT)))
+                image_path = str(members[".png"].relative_to(REPO_ROOT))
+                self.add_metadata(object_id, "asset", "image_path", image_path)
+                self.add_metadata(
+                    object_id,
+                    "language_asset",
+                    "de.image",
+                    {
+                        "source_path": image_path,
+                        "canonical_file": canonical_media_filename(stem, "de", ".png"),
+                    },
+                )
             if ".txt" in members:
+                self.add_metadata(object_id, "asset", "description_source_path", str(members[".txt"].relative_to(REPO_ROOT)))
+                self.add_metadata(
+                    object_id,
+                    "reconstruction",
+                    "description_canonical_files",
+                    {"de": canonical_media_filename(stem, "de", ".txt")},
+                )
                 raw_text = members[".txt"].read_text(encoding="utf-8")
-                short_text, long_text = split_description_text(raw_text)
+                short_text, long_text, description_format, description_preamble = split_description_text(raw_text)
+                self.add_metadata(object_id, "reconstruction", "description_source_format", description_format)
+                if description_preamble:
+                    self.add_metadata(object_id, "reconstruction", "description_preamble", description_preamble)
                 short_slot = self.add_text_slot(
                     object_id,
                     "short_description",
@@ -622,12 +699,42 @@ class Builder:
             self.add_identifier(object_id, "drawing_id", stem, preferred=True)
             self.add_identifier(object_id, "file_stem", stem)
             if ".svg" in members:
-                self.add_metadata(object_id, "asset", "svg_path", str(members[".svg"].relative_to(REPO_ROOT)))
+                svg_path = str(members[".svg"].relative_to(REPO_ROOT))
+                self.add_metadata(object_id, "asset", "svg_path", svg_path)
+                self.add_metadata(
+                    object_id,
+                    "language_asset",
+                    "de.svg",
+                    {
+                        "source_path": svg_path,
+                        "canonical_file": canonical_media_filename(stem, "de", ".svg"),
+                    },
+                )
             if ".tex" in members:
-                self.add_metadata(object_id, "asset", "tex_path", str(members[".tex"].relative_to(REPO_ROOT)))
+                tex_path = str(members[".tex"].relative_to(REPO_ROOT))
+                self.add_metadata(object_id, "asset", "tex_path", tex_path)
+                self.add_metadata(
+                    object_id,
+                    "language_asset",
+                    "de.tex",
+                    {
+                        "source_path": tex_path,
+                        "canonical_file": canonical_media_filename(stem, "de", ".tex"),
+                    },
+                )
             if ".txt" in members:
+                self.add_metadata(object_id, "asset", "description_source_path", str(members[".txt"].relative_to(REPO_ROOT)))
+                self.add_metadata(
+                    object_id,
+                    "reconstruction",
+                    "description_canonical_files",
+                    {"de": canonical_media_filename(stem, "de", ".txt")},
+                )
                 raw_text = members[".txt"].read_text(encoding="utf-8")
-                short_text, long_text = split_description_text(raw_text)
+                short_text, long_text, description_format, description_preamble = split_description_text(raw_text)
+                self.add_metadata(object_id, "reconstruction", "description_source_format", description_format)
+                if description_preamble:
+                    self.add_metadata(object_id, "reconstruction", "description_preamble", description_preamble)
                 short_slot = self.add_text_slot(
                     object_id,
                     "short_description",
@@ -877,11 +984,14 @@ class Builder:
         legal_objects: dict[str, str] = {}
         for name in LEGAL_FILES:
             path = REPO_ROOT / name
-            legal_objects[name] = self.add_object(
+            source_format = path.suffix.lstrip(".") or "plain"
+            slot_key = "body_markdown" if source_format == "md" else "body_text"
+            slot_type = "markdown" if source_format == "md" else "plain_text"
+            legal_objects[name] = self.import_raw_file_object(
+                path,
                 object_type="legal_document",
-                source_path=name,
-                source_format=path.suffix.lstrip(".") or "plain",
-                source_key=name,
+                slot_key=slot_key,
+                slot_type=slot_type,
             )
             source_paths.append(path)
 
@@ -957,12 +1067,16 @@ class Builder:
         self.conn.close()
 
 
-def split_description_text(raw_text: str) -> tuple[str, str]:
+def split_description_text(raw_text: str) -> tuple[str, str, str, str | None]:
     short_match = re.search(r"1\)\s*Kurzbeschreibung:\s*(.+?)(?:\n\s*\n|\n2\)|$)", raw_text, flags=re.DOTALL)
     long_match = re.search(r"2\)\s*(?:Ausführliche Beschreibung:)?\s*(.+)$", raw_text, flags=re.DOTALL)
-    short_text = short_match.group(1).strip() if short_match else raw_text.strip()
-    long_text = long_match.group(1).strip() if long_match else raw_text.strip()
-    return short_text, long_text
+    if short_match and long_match:
+        short_text = short_match.group(1).strip()
+        long_text = long_match.group(1).strip()
+        prefix = raw_text[: short_match.start()].strip()
+        return short_text, long_text, "split_descriptions", prefix or None
+    text = raw_text.strip()
+    return text, text, "single_description", None
 
 
 def build_database() -> dict[str, Any]:
@@ -978,7 +1092,7 @@ def build_database() -> dict[str, Any]:
     builder.import_simple_text_file("html", "html_include", "body_html", "html")
     builder.import_photos()
     builder.import_drawings()
-    builder.import_raw_file_object(CONTENTS_ROOT / "questions" / "README.txt", "questions_readme")
+    builder.import_support_assets()
 
     questions_by_code = builder.import_questions_from_pool()
     builder.import_question_metadata(questions_by_code)

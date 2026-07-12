@@ -24,6 +24,19 @@ INPUT_ROOT = CONTENT_REPO / "work" / "generator-input"
 BUILD_ROOT = CONTENT_REPO / "work" / "build"
 VALIDATION_ROOT = CONTENT_REPO / "work" / "validation" / "multilingual"
 LANGUAGES = ("de", "fr", "it")
+OBJECT_FAMILY_DIRECTORIES = {
+    "section_article": "sections",
+    "slide_article": "slides",
+    "solution_article": "solutions",
+    "snippet": "snippets",
+    "static_page": "static_pages",
+    "html_include": "html_includes",
+    "photo": "photos",
+    "drawing": "drawings",
+    "table_object": "tables",
+    "legal_document": "legal_documents",
+    "support_asset": "support_assets",
+}
 QUESTION_OBJECT_TYPES = {
     "question",
     "question_catalog_file",
@@ -59,6 +72,10 @@ def tree_manifest(root: Path) -> dict[str, str]:
 
 def load_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def decode_value(value_json: str) -> Any:
+    return json.loads(value_json)
 
 
 def write_json(path: Path, payload: Any) -> None:
@@ -131,6 +148,18 @@ def overlay_object_texts(connection: sqlite3.Connection, target_root: Path, lang
         )
         grouped[key]["texts"][row["language"]] = row["text_value"]
 
+    reconstruction_metadata: dict[str, dict[str, Any]] = defaultdict(dict)
+    for row in rows(
+        connection,
+        """
+        SELECT object_id, metadata_key, value_json
+        FROM object_metadata
+        WHERE metadata_scope='reconstruction'
+        ORDER BY object_id, metadata_key
+        """,
+    ):
+        reconstruction_metadata[str(row["object_id"])][str(row["metadata_key"])] = decode_value(str(row["value_json"]))
+
     by_object: dict[str, dict[str, Any]] = defaultdict(dict)
     written = 0
     usage: list[dict[str, Any]] = []
@@ -145,8 +174,12 @@ def overlay_object_texts(connection: sqlite3.Connection, target_root: Path, lang
     for payload in by_object.values():
         object_type = payload["object_type"]
         source_path = payload["source_path"]
-        text = payload.get("body_markdown") or payload.get("body_html") or payload.get("body_text")
-        if source_path and text is not None and source_path.startswith("contents/"):
+        text = None
+        for slot_key in ("body_markdown", "body_html", "body_text"):
+            if slot_key in payload and payload[slot_key] is not None:
+                text = payload[slot_key]
+                break
+        if source_path and text is not None:
             append_usage(
                 usage,
                 path=str(source_path),
@@ -161,24 +194,151 @@ def overlay_object_texts(connection: sqlite3.Connection, target_root: Path, lang
             continue
         if object_type in {"photo", "drawing"} and payload.get("source_key"):
             family = "photos" if object_type == "photo" else "drawings"
-            short_text = payload.get("short_description") or ""
-            long_text = payload.get("long_description") or short_text
             relative_target = Path("contents") / family / f"{payload['source_key']}.txt"
+            object_dir = canonical_object_dir(str(object_type), str(payload["object_id"]))
+            canonical_candidate = None
+            if object_dir is not None:
+                preferred = object_dir / f"{payload['source_key']}.{language}.txt"
+                fallback = object_dir / f"{payload['source_key']}.de.txt"
+                if preferred.exists():
+                    canonical_candidate = preferred
+                elif fallback.exists():
+                    canonical_candidate = fallback
+            if canonical_candidate is not None:
+                rendered_text = canonical_candidate.read_text(encoding="utf-8")
+                origin = "content_object_description_file"
+                action = "overwritten_from_canonical"
+            else:
+                short_text = payload.get("short_description") or ""
+                long_text = payload.get("long_description") or short_text
+                description_format = reconstruction_metadata.get(str(payload["object_id"]), {}).get(
+                    "description_source_format",
+                    "split_descriptions",
+                )
+                description_preamble = reconstruction_metadata.get(str(payload["object_id"]), {}).get(
+                    "description_preamble"
+                )
+                if description_format == "single_description":
+                    rendered_text = long_text
+                else:
+                    rendered_text = (
+                        (f"{description_preamble}\n\n" if description_preamble else "")
+                        +
+                        f"1) Kurzbeschreibung: {short_text}\n\n"
+                        f"2) Ausführliche Beschreibung: {long_text}"
+                    )
+                origin = "content_object"
+                action = "rendered_from_canonical"
             append_usage(
                 usage,
                 path=str(relative_target),
-                action="rendered_from_canonical",
-                origin="content_object",
+                action=action,
+                origin=origin,
                 object_id=str(payload["object_id"]),
                 object_type=str(object_type),
                 slot_keys=sorted(payload.get("slot_keys", [])),
             )
             target = target_root / relative_target
-            target.write_text(
-                f"1) Kurzbeschreibung:\n{short_text}\n\n2) Ausführliche Beschreibung:\n{long_text}\n",
-                encoding="utf-8",
-            )
+            target.write_text(rendered_text, encoding="utf-8")
             written += 1
+    return {"written_files": written, "usage": usage}
+
+
+def canonical_object_dir(object_type: str, object_id: str) -> Path | None:
+    family = OBJECT_FAMILY_DIRECTORIES.get(object_type)
+    if not family:
+        return None
+    return CONTENT_REPO / "canonical" / family / object_id
+
+
+def overlay_object_assets(connection: sqlite3.Connection, target_root: Path, language: str) -> dict[str, Any]:
+    asset_rows = rows(
+        connection,
+        """
+        SELECT o.id AS object_id, o.object_type, m.metadata_scope, m.metadata_key, m.value_json
+        FROM content_object o
+        JOIN object_metadata m ON m.object_id = o.id
+        WHERE m.metadata_scope IN ('asset', 'language_asset')
+        ORDER BY o.id, m.metadata_scope, m.metadata_key
+        """
+    )
+    usage: list[dict[str, Any]] = []
+    written = 0
+    object_types = {str(row["object_id"]): str(row["object_type"]) for row in asset_rows}
+    grouped_language_assets: dict[tuple[str, str], dict[str, dict[str, Any]]] = defaultdict(dict)
+    fallback_assets: list[dict[str, Any]] = []
+    for row in asset_rows:
+        if str(row["metadata_scope"]) == "language_asset":
+            metadata_key = str(row["metadata_key"])
+            lang_key, _, asset_kind = metadata_key.partition(".")
+            if asset_kind:
+                grouped_language_assets[(str(row["object_id"]), asset_kind)][lang_key] = decode_value(str(row["value_json"]))
+        else:
+            fallback_assets.append(row)
+
+    handled_fallback_keys: set[tuple[str, str]] = set()
+    for (object_id, asset_kind), variants in grouped_language_assets.items():
+        selected = variants.get(language) or variants.get("de")
+        if not isinstance(selected, dict):
+            continue
+        source_path = selected.get("source_path")
+        canonical_file = selected.get("canonical_file")
+        object_type = object_types.get(object_id)
+        object_dir = canonical_object_dir(str(object_type), object_id) if object_type else None
+        if object_dir is None:
+            continue
+        canonical_asset = object_dir / str(canonical_file)
+        if not canonical_asset.exists():
+            continue
+        target = target_root / str(source_path)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(canonical_asset, target)
+        append_usage(
+            usage,
+            path=str(source_path),
+            action="overwritten_from_canonical",
+            origin="content_object_asset",
+            object_id=object_id,
+            object_type=str(object_type),
+            slot_keys=[asset_kind],
+        )
+        written += 1
+        handled_fallback_keys.add((object_id, asset_kind))
+
+    fallback_key_map = {
+        "image_path": "image",
+        "svg_path": "svg",
+        "tex_path": "tex",
+    }
+    for row in fallback_assets:
+        object_id = str(row["object_id"])
+        object_type = str(row["object_type"])
+        metadata_key = str(row["metadata_key"])
+        if metadata_key == "description_source_path":
+            continue
+        if (object_id, fallback_key_map.get(metadata_key, metadata_key)) in handled_fallback_keys:
+            continue
+        source_path = str(decode_value(str(row["value_json"])))
+        object_dir = canonical_object_dir(object_type, object_id)
+        if object_dir is None:
+            continue
+        source_name = Path(source_path).name
+        canonical_asset = object_dir / source_name
+        if not canonical_asset.exists():
+            continue
+        target = target_root / source_path
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(canonical_asset, target)
+        append_usage(
+            usage,
+            path=source_path,
+            action="overwritten_from_canonical",
+            origin="content_object_asset",
+            object_id=object_id,
+            object_type=object_type,
+            slot_keys=[metadata_key],
+        )
+        written += 1
     return {"written_files": written, "usage": usage}
 
 
@@ -219,6 +379,8 @@ def apply_node_text(payload: dict[str, Any], text: dict[str, str | None] | None)
 
 
 def overlay_toc_texts(connection: sqlite3.Connection, target_root: Path, language: str) -> dict[str, Any]:
+    if language == "de":
+        return {"written_files": 0, "usage": []}
     node_texts = localized_node_texts(connection, language)
     written = 0
     usage: list[dict[str, Any]] = []
@@ -271,6 +433,15 @@ def source_rationales() -> tuple[dict[str, Any], dict[str, Any]]:
 
 
 def stage_questions(target_root: Path, language: str) -> dict[str, Any]:
+    if language == "de":
+        source_build = QUESTION_POOL_REPO / "builds" / language / f"question_pool_rev0_ch-{language}.json"
+        payload = load_json(source_build)
+        question_count = sum(1 for _ in iter_questions(payload))
+        return {
+            "question_catalog": str(source_build),
+            "questions": question_count,
+            "usage": [],
+        }
     questions_dir = target_root / "contents" / "questions"
     questions_dir.mkdir(parents=True, exist_ok=True)
     source_build = QUESTION_POOL_REPO / "builds" / language / f"question_pool_rev0_ch-{language}.json"
@@ -336,9 +507,10 @@ def stage_language(connection: sqlite3.Connection, language: str) -> dict[str, A
     target_root = INPUT_ROOT / language
     artifact_count = export_artifacts(connection, target_root)
     text_report = overlay_object_texts(connection, target_root, language)
+    asset_report = overlay_object_assets(connection, target_root, language)
     toc_report = overlay_toc_texts(connection, target_root, language)
     question_info = stage_questions(target_root, language)
-    usage_entries = text_report["usage"] + toc_report["usage"] + question_info["usage"]
+    usage_entries = text_report["usage"] + asset_report["usage"] + toc_report["usage"] + question_info["usage"]
     retained = retained_support_artifacts(target_root, usage_entries)
     usage_report = {
         "language": language,
@@ -353,6 +525,7 @@ def stage_language(connection: sqlite3.Connection, language: str) -> dict[str, A
         "input_root": str(target_root),
         "source_artifacts": artifact_count,
         "localized_text_files": text_report["written_files"],
+        "canonical_asset_files": asset_report["written_files"],
         "localized_toc_files": toc_report["written_files"],
         "question_catalog": question_info["question_catalog"],
         "questions": question_info["questions"],

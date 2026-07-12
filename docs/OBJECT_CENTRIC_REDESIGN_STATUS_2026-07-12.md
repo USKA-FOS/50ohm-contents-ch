@@ -137,3 +137,24 @@ The current design line is:
   reconstruction, but not the source of truth;
 - `work/` contains operational reconstruction support until the model can
   replace it fully.
+
+## Later Workflow Decision
+
+After this intermediate redesign checkpoint, the workflow direction was
+clarified further:
+
+- the destructive reset used during the model transition was a one-time
+  migration maneuver, not a normal operating procedure;
+- future source updates should start from canonical baseline and integrate new
+  German source data non-destructively;
+- objects missing from the refreshed German source should be marked
+  `to_be_deleted` first, not physically removed immediately;
+- the object may stay in canonical temporarily for review and later cleanup;
+- if the object is gone in German, it is considered gone for all languages as a
+  business object.
+- when an object is marked `to_be_deleted`, its node content is left untouched
+  until a later explicit cleanup step.
+- workflow safety should rely on Git tags before each new source import and
+  after each validated export, even though this is not yet enforced by tools.
+
+This decision is intentionally documented as revisable later.

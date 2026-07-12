@@ -1,0 +1,51 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "sa_0f6e74add089",
+  "identifiers": [
+    {
+      "id_system": "file_path",
+      "id_value": "latex/settings.tex",
+      "preferred": true
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "metadata": {},
+  "object_type": "support_asset",
+  "reconstruction": {
+    "strategy": "replace_source_file",
+    "targets": [
+      {
+        "kind": "localized_text_file",
+        "path": "latex/settings.tex"
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    }
+  ],
+  "source": {
+    "format": "tex",
+    "key": "settings.tex",
+    "path": "latex/settings.tex"
+  },
+  "text_slots": [
+    {
+      "slot_key": "body_text",
+      "slot_type": "plain_text",
+      "sort_order": 0,
+      "storage": {
+        "files": {
+          "de": "body.de.txt"
+        },
+        "kind": "text_file"
+      },
+      "translation_group_key": null
+    }
+  ]
+}

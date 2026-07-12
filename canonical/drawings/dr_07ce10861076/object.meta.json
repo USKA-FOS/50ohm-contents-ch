@@ -1,9 +1,6 @@
 {
   "active": true,
-  "asset_files": {
-    "svg_path": "867.svg",
-    "tex_path": "867.tex"
-  },
+  "asset_files": {},
   "id": "dr_07ce10861076",
   "identifiers": [
     {
@@ -17,19 +14,55 @@
       "preferred": true
     }
   ],
+  "language_variants": {
+    "de": {
+      "asset_files": {
+        "svg": "867.de.svg",
+        "tex": "867.de.tex"
+      },
+      "review_state": "imported_approved"
+    }
+  },
   "languages": [
     "de"
   ],
   "metadata": {
     "asset": {
+      "description_source_path": "contents/drawings/867.txt",
       "svg_path": "contents/drawings/867.svg",
       "tex_path": "contents/drawings/867.tex"
+    },
+    "language_asset": {
+      "de.svg": {
+        "canonical_file": "867.de.svg",
+        "source_path": "contents/drawings/867.svg"
+      },
+      "de.tex": {
+        "canonical_file": "867.de.tex",
+        "source_path": "contents/drawings/867.tex"
+      }
+    },
+    "reconstruction": {
+      "description_canonical_files": {
+        "de": "867.de.txt"
+      },
+      "description_source_format": "single_description"
     }
   },
   "object_type": "drawing",
   "reconstruction": {
-    "strategy": "render_drawing_description_file",
+    "strategy": "render_drawing_assets_and_description",
     "targets": [
+      {
+        "asset_key": "svg_path",
+        "kind": "asset_file",
+        "path": "contents/drawings/867.svg"
+      },
+      {
+        "asset_key": "tex_path",
+        "kind": "asset_file",
+        "path": "contents/drawings/867.tex"
+      },
       {
         "kind": "rendered_description_file",
         "path": "contents/drawings/867.txt",
@@ -58,10 +91,9 @@
       "sort_order": 1,
       "storage": {
         "files": {
-          "de": "content.de.json"
+          "de": "867.de.txt"
         },
-        "json_field": "short_description",
-        "kind": "json_file"
+        "kind": "description_file_bundle"
       },
       "translation_group_key": "drawing:cajpJMW6rphLSmokBecnz"
     },
@@ -71,10 +103,9 @@
       "sort_order": 2,
       "storage": {
         "files": {
-          "de": "content.de.json"
+          "de": "867.de.txt"
         },
-        "json_field": "long_description",
-        "kind": "json_file"
+        "kind": "description_file_bundle"
       },
       "translation_group_key": "drawing:cajpJMW6rphLSmokBecnz"
     }

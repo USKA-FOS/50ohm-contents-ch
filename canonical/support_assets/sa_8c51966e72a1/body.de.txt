@@ -1,0 +1,1822 @@
+{
+    "title": "Gesamtkurs E",
+    "abstract": "Die goldene Mitte: Von Null auf Klasse E.",
+    "chapters": [
+        {
+            "title": "Erste Schritte",
+            "abstract": "Im ersten Kapitel legen wir die Grundlage für das Wissen des zukünftigen Funkamateurs. Wir konzentrieren uns dabei auf die Kenntnisse, die erforderlich sind, um eine erste Verbindung im Ausbildungsfunkbetrieb unter Anleitung und Aufsicht eines Funkamateurs durchzuführen.",
+            "ident": "ne_erste_schritte",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Vorwort",
+                    "ident": "vorwort",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": null
+                },
+                {
+                    "title": "Der erste Schritt",
+                    "ident": "erste_schritte",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=WnOBk1UogjM&t=0s"
+                },
+                {
+                    "title": "Rufzeichen",
+                    "ident": "rufzeichen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=WnOBk1UogjM&t=198s"
+                },
+                {
+                    "title": "Internationale Buchstabiertafel",
+                    "ident": "buchstabiertafel",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=WnOBk1UogjM&t=258s"
+                },
+                {
+                    "title": "Betriebsabwicklung",
+                    "ident": "betriebsabwicklung",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=WnOBk1UogjM&t=544s"
+                },
+                {
+                    "title": "Das RST-System",
+                    "ident": "rst",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=WnOBk1UogjM&t=806s"
+                },
+                {
+                    "title": "Ausbildungsfunkbetrieb",
+                    "ident": "ausbildungsfunk",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=WnOBk1UogjM&t=1120s"
+                },
+                {
+                    "title": "Offene Sprache",
+                    "ident": "offene_sprache",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=WnOBk1UogjM&t=1178s"
+                },
+                {
+                    "title": "Funkverkehr nur mit Funkamateuren",
+                    "ident": "nur_mit_afu_stellen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=WnOBk1UogjM&t=1212s"
+                },
+                {
+                    "title": "Gewerbliche Nutzung",
+                    "ident": "gewerblich",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=WnOBk1UogjM&t=1259s"
+                }
+            ]
+        },
+        {
+            "title": "Elektrische Schwingungen und Funkwellen",
+            "abstract": "Dieses Kapitel vermittelt die physikalischen Grundlagen elektrischer Schwingungen und elektromagnetischer Wellen als Basis der Funktechnik. Es behandelt den Zusammenhang zwischen Spannung, Frequenz, Wellenlänge und Spektrum sowie deren Darstellung und mathematische Beschreibung. Abschließend werden die praktische Einordnung von Funkwellen im Frequenzspektrum, die Frequenzzuteilung und die Amateurfunkbänder erläutert.",
+            "ident": "ne_elektrische_schwingungen_funkwellen",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Gleich- und  Wechselspannung",
+                    "ident": "gleich_und_wechselspannung",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=20s"
+                },
+                {
+                    "title": "Frequenz",
+                    "ident": "frequenz",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=188s"
+                },
+                {
+                    "title": "Sinusschwingung",
+                    "ident": "sinusschwingung",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=368s"
+                },
+                {
+                    "title": "Amplitude und Periode",
+                    "ident": "amplitude_periode",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=455s"
+                },
+                {
+                    "title": "Zehnerpotenzen",
+                    "ident": "zehnerpotenzen",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Funkwellen",
+                    "ident": "funkwellen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=514s"
+                },
+                {
+                    "title": "Wellenlänge",
+                    "ident": "wellenlaenge",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=588s"
+                },
+                {
+                    "title": "Formeln umstellen I",
+                    "ident": "formeln_umstellen",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Wellenlänge II",
+                    "ident": "wellenlaenge_2",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Wasserfalldiagramm",
+                    "ident": "wasserfall",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=855s"
+                },
+                {
+                    "title": "Frequenzspektrum",
+                    "ident": "frequenzspektrum",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=1119s"
+                },
+                {
+                    "title": "Frequenzzuteilung",
+                    "ident": "frequenzzuteilung",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=1236s"
+                },
+                {
+                    "title": "Amateurfunkbänder",
+                    "ident": "amateurfunkbaender",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=1362s"
+                },
+                {
+                    "title": "Primärer und sekundärer Funkdienst",
+                    "ident": "primaerer_sekundaerer_funkdienst",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=1394s"
+                },
+                {
+                    "title": "IARU-Bandpläne",
+                    "ident": "iaru_bandplan",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=1539s"
+                },
+                {
+                    "title": "IARU-Bandplan für 2 m",
+                    "ident": "iaru_bandplan_2m",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=1603s"
+                },
+                {
+                    "title": "IARU-Bandplan für 70 cm",
+                    "ident": "iaru_bandplan_70cm",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=1755s"
+                }
+            ]
+        },
+        {
+            "title": "Wellenausbreitung",
+            "abstract": "Dieses Kapitel beschreibt, wie sich Funkwellen unter realen atmosphärischen und ionosphärischen Bedingungen ausbreiten. Es behandelt die verschiedenen Ausbreitungsmechanismen wie Bodenwelle, Raumwelle und Brechung sowie deren Abhängigkeit von Tageszeit, Jahreszeit und Sonnenaktivität. Zudem werden typische Effekte wie Fading, tote Zonen, Sprungdistanz sowie MUF und LUF erläutert, die für die praktische Funkverbindung entscheidend sind.",
+            "ident": "ne_wellenausbreitung",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Wellenausbreitung",
+                    "ident": "wellenausbreitung",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=1788s"
+                },
+                {
+                    "title": "Funkhorizont",
+                    "ident": "funkhorizont",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=1848s"
+                },
+                {
+                    "title": "Troposphärische Inversionsbildung",
+                    "ident": "troposphaere",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=1904s"
+                },
+                {
+                    "title": "Troposphäre II",
+                    "ident": "troposphaere_2",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Aurora I",
+                    "ident": "aurora_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Sporadic-E",
+                    "ident": "sporadic_e_1",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=1976s"
+                },
+                {
+                    "title": "Sporadic-E II",
+                    "ident": "sporadic_e_2",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Ionosphäre",
+                    "ident": "ionosphaere",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=MPSwrnhAbyY&t=2043s"
+                },
+                {
+                    "title": "Ionosphäre II",
+                    "ident": "ionosphaere_2",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Tote Zone I",
+                    "ident": "tote_zone_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Fading",
+                    "ident": "fading",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Sprungdistanz I",
+                    "ident": "sprungdistanz_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "MUF und LUF",
+                    "ident": "muf_luf_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Bodenwelle",
+                    "ident": "bodenwelle",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Greyline",
+                    "ident": "greyline",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Mögel-Dellinger-Effekt",
+                    "ident": "moegel_dellinger_effekt",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Langer und kurzer Weg I",
+                    "ident": "langer_kurzer_weg_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                }
+            ]
+        },
+        {
+            "title": "Amateurfunkstationen",
+            "abstract": "In diesem Kapitel beschäftigen wir uns mit den unterschiedlichesten Arten von Amateurfunkstationen und deren Rufzeichen. Wir lernen was Klubstationen, Remote-Stationen, Relaisfunkstellen, Baken und Linkstrecken sind und wir beschäftigen uns mit Amateurfunkstationen an besonderen Orten wie Satelliten oder der Antarktis. ",
+            "ident": "ne_amateurfunkstationen",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Aufbau von Rufzeichen",
+                    "ident": "rufzeichenaufbau",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=E5RuFuUv7ag&t=0s"
+                },
+                {
+                    "title": "Persönliche Rufzeichen",
+                    "ident": "persoenliche_rufzeichen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=E5RuFuUv7ag&t=178s"
+                },
+                {
+                    "title": "Klubstationen",
+                    "ident": "klubstationen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=E5RuFuUv7ag&t=363s"
+                },
+                {
+                    "title": "Ausbildungsrufzeichen",
+                    "ident": "ausbildungsrufzeichen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=E5RuFuUv7ag&t=621s"
+                },
+                {
+                    "title": "Remote-Stationen",
+                    "ident": "remote_stationen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=E5RuFuUv7ag&t=738s"
+                },
+                {
+                    "title": "Rufzeichenzusätze",
+                    "ident": "rufzeichenzusaetze",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=E5RuFuUv7ag&t=890s"
+                },
+                {
+                    "title": "Besondere Anlässe",
+                    "ident": "besondere_anlaesse",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=E5RuFuUv7ag&t=1221s"
+                },
+                {
+                    "title": "Fernbediente und automatische Stationen",
+                    "ident": "fernbediente_automatische_stationen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=E5RuFuUv7ag&t=1405s"
+                },
+                {
+                    "title": "Relaisfunkstellen",
+                    "ident": "relaisfunkstellen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=E5RuFuUv7ag&t=1419s"
+                },
+                {
+                    "title": "Baken",
+                    "ident": "baken",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=E5RuFuUv7ag&t=1937s"
+                },
+                {
+                    "title": "Linkstrecken",
+                    "ident": "linkstrecken",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=E5RuFuUv7ag&t=2229s"
+                },
+                {
+                    "title": "Satelliten",
+                    "ident": "satelliten",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=E5RuFuUv7ag&t=2262s"
+                },
+                {
+                    "title": "Exterritoriale Stationen",
+                    "ident": "exterritoriale_stationen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=E5RuFuUv7ag&t=2522s"
+                },
+                {
+                    "title": "Experimentelle Studien",
+                    "ident": "experimentelle_studien",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=E5RuFuUv7ag&t=2797s"
+                }
+            ]
+        },
+        {
+            "title": "Internationaler Funkbetrieb",
+            "abstract": "Dank der zahlreichen Frequenzbänder, die wir im Amateurfunk zur Verfügung haben, beschränken sich die Funkkontakte nicht nur auf den Freund von nebenan. Die ganze Welt ist unser Nachbar! Für die Funkwellen gibt es keine Grenzen, diese können rund um die Welt jeden Fleck erreichen. Dieses Kapitel beschäftigt sich mit Funkverbindungen ins Ausland und mit Funkbetrieb im Ausland, beispielsweise auf einer Urlaubsreise.",
+            "ident": "ne_internationaler_funkbetrieb",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Internationale Landeskenner",
+                    "ident": "internationale_landeskenner",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=KMxUv8N_F70&t=0s"
+                },
+                {
+                    "title": "ITU-Regionen",
+                    "ident": "itu_regionen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=KMxUv8N_F70&t=484s"
+                },
+                {
+                    "title": "DX",
+                    "ident": "dx",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=KMxUv8N_F70&t=532s"
+                },
+                {
+                    "title": "Funken im Ausland",
+                    "ident": "funken_im_ausland",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=KMxUv8N_F70&t=798s"
+                }
+            ]
+        },
+        {
+            "title": "Strom, Spannung, Widerstand, Leistung, Energie",
+            "abstract": "Dieses Kapitel vermittelt die grundlegenden elektrischen Größen Strom, Spannung, Widerstand, Leistung und Energie und zeigt, wie sie physikalisch zusammenhängen. Es behandelt den sicheren Umgang mit elektrischen Schaltungen, das Messen elektrischer Größen, das Ohmsche Gesetz sowie Bauelemente und deren Eigenschaften. Darüber hinaus werden praktische Konzepte wie Wechselstrom, Dezibel und Schaltzeichen eingeführt, die für das Verständnis moderner Funk- und Elektronikschaltungen unerlässlich sind.",
+            "ident": "ne_strom_spannung_widerstand_leistung_energie",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Recht zum Selbstbau",
+                    "ident": "recht_zum_selbstbau",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=M6c2mlsrIvo&t=19s"
+                },
+                {
+                    "title": "Elektrische Spannung",
+                    "ident": "spannung",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=H9wytHFZ2Z0&t=20s"
+                },
+                {
+                    "title": "Elektrischer Strom",
+                    "ident": "strom",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=H9wytHFZ2Z0&t=327s"
+                },
+                {
+                    "title": "Gefahren durch elektrischen Strom",
+                    "ident": "gefahren",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=H9wytHFZ2Z0&t=485s"
+                },
+                {
+                    "title": "Leiter und Nichtleiter",
+                    "ident": "leiter_nichtleiter",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=M6c2mlsrIvo&t=398s"
+                },
+                {
+                    "title": "Stromkreis",
+                    "ident": "stromkreis",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=M6c2mlsrIvo&t=793s"
+                },
+                {
+                    "title": "Spannungsmessung",
+                    "ident": "spannungsmessung",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=M6c2mlsrIvo&t=1161s"
+                },
+                {
+                    "title": "Strom messen",
+                    "ident": "strommessung",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=M6c2mlsrIvo&t=1547s"
+                },
+                {
+                    "title": "Strom- und Spannungsmessung II",
+                    "ident": "strom_spannung_messung_2",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Zeigerinstrumente ablesen",
+                    "ident": "zeigerinstrumente_ablesen",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Spitzen- und Effektivwert",
+                    "ident": "spitze_effektiv_wert",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Oszilloskop I",
+                    "ident": "oszilloskop_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Ohmsches Gesetz",
+                    "ident": "ohmsches_gesetz",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=M6c2mlsrIvo&t=1780s"
+                },
+                {
+                    "title": "Widerstandsfarbcode",
+                    "ident": "widerstandsfarbcode",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=M6c2mlsrIvo&t=1926s"
+                },
+                {
+                    "title": "SMD-Widerstände",
+                    "ident": "widerstand_smd",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Widerstandsmaterialien",
+                    "ident": "widerstand_materialien",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Widerstandstoleranzen",
+                    "ident": "widerstand_toleranz",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Heißleiter und Kaltleiter",
+                    "ident": "widerstand_ntc_ptc",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Halbleiter",
+                    "ident": "halbleiter",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=M6c2mlsrIvo&t=2058s"
+                },
+                {
+                    "title": "Leistung",
+                    "ident": "leistung",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=M6c2mlsrIvo&t=2243s"
+                },
+                {
+                    "title": "Leistung II",
+                    "ident": "leistung_2",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Dezibel I",
+                    "ident": "dezibel_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Schaltzeichen und Bauelemente",
+                    "ident": "bauelemente",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=M6c2mlsrIvo&t=2433s"
+                }
+            ]
+        },
+        {
+            "title": "Elektromagnetisches Feld",
+            "abstract": "Dieses Kapitel führt in die grundlegenden Konzepte elektrischer und magnetischer Felder ein und zeigt, wie beide zusammen ein elektromagnetisches Feld bilden. Es schafft damit die physikalische Grundlage für das Verständnis von Funkwellen, Antennen und elektromagnetischer Ausbreitung.",
+            "ident": "ne_em_feld",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Elektrisches Feld",
+                    "ident": "e_feld",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Magnetisches Feld",
+                    "ident": "h_feld",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Elektromagnetisches Feld",
+                    "ident": "em_feld",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                }
+            ]
+        },
+        {
+            "title": "Bauelemente",
+            "abstract": "Dieses Kapitel vermittelt die grundlegenden Eigenschaften und das Zusammenspiel wichtiger elektronischer Bauelemente wie Kondensatoren, Spulen, Dioden, Transistoren und integrierte Schaltungen. Es bildet die Basis zum Verständnis elektronischer Schaltungen und ihrer Funktion in Sendern, Empfängern und anderen Funkgeräten.",
+            "ident": "ne_bauelemente",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Kondensator I",
+                    "ident": "kondensator_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Spule I",
+                    "ident": "spule_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Übertrager I",
+                    "ident": "uebertrager_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Diode I",
+                    "ident": "diode_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Transistor I",
+                    "ident": "transistor_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                }
+            ]
+        },
+        {
+            "title": "Reihen- und Parallelschaltung von Bauelementen",
+            "abstract": "In diesem Kapitel werden die grundlegenden Regeln für Reihen- und Parallelschaltungen von Bauelementen behandelt. Ziel ist es, das Verhalten einfacher und gemischter Netzwerke zu verstehen und z. B. Gesamtwiderstände, Spannungen und Ströme systematisch zu berechnen.",
+            "ident": "ne_reihen_parallelschaltung",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Widerstand in Reihen- und Parallelschaltung",
+                    "ident": "reihe_parallel_widerstand",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Widerstandsnetzwerke I",
+                    "ident": "reihe_parallel_widerstandsnetz_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Spannungsteiler I",
+                    "ident": "spannungsteiler_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Kondensator in Reihen- und Parallelschaltung",
+                    "ident": "reihe_parallel_kondensator",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                }
+            ]
+        },
+        {
+            "title": "Strom- und Spannungsversorgung",
+            "abstract": "Funkgeräte müssen mit elektrischer Spannung und Strom versorgt werden, damit sie funktionieren. In diesem Kapitel lernen wir die Grundlagen der Spannungs- und Stromversorgung mit Netzgeräten, Batterien und Akkus. Auch die Gefahren vom elektrischen Strom werden behandelt.",
+            "ident": "ne_strom_spannungsversorgung",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Spannungsquellen",
+                    "ident": "spannungsquelle",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Netzgerät",
+                    "ident": "netzgeraet_1",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=H9wytHFZ2Z0&t=679s"
+                },
+                {
+                    "title": "Batterien und Akkus",
+                    "ident": "batterien_und_akkus",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=H9wytHFZ2Z0&t=959s"
+                },
+                {
+                    "title": "Gleichrichter I",
+                    "ident": "gleichrichter_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Schaltnetzteil I",
+                    "ident": "schaltnetzteil_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Sicherungen",
+                    "ident": "sicherungen",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                }
+            ]
+        },
+        {
+            "title": "Grundlegende Schaltungen",
+            "abstract": "In diesem Kapitel werden grundlegende Schaltungsblöcke der Funktechnik vorgestellt, die für die Erzeugung, Verarbeitung und Umsetzung von Hochfrequenzsignalen notwendig sind. Dazu zählen Filter und Schwingkreise, Oszillatoren, Mischer, Frequenzvervielfacher sowie Verstärker und Frequenzumsetzer. Diese Baugruppen bilden die Basis moderner Sender- und Empfängerschaltungen.",
+            "ident": "ne_grundlegende_schaltungen",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Filter und Schwingkreise I",
+                    "ident": "schwingkreis_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Oszillatoren",
+                    "ident": "oszillatoren",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Frequenzvervielfacher I",
+                    "ident": "frequenzvervielfacher_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Mischer",
+                    "ident": "mischer",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Konverter und Transverter",
+                    "ident": "transverter_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Verstärker",
+                    "ident": "verstaerker",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                }
+            ]
+        },
+        {
+            "title": "Modulation",
+            "abstract": "In diesem Kapitel beschäftigen wir uns damit, dass es durch die sogenannte Modulation möglich ist,  Informationen wie die menschliche Sprache, auf eine Funkwelle aufzuprägen. Dabei lernen wir die grundlegenden Modulationsarten AM, FM und SSB kennen.",
+            "ident": "ne_modulation",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Rauch- und Morsezeichen",
+                    "ident": "rauch_und_morsezeichen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=AeeffN4SOaE&t=0s"
+                },
+                {
+                    "title": "Unmodulierter Träger",
+                    "ident": "unmodulierter_traeger",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Modulationsarten",
+                    "ident": "modulationsarten",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=AeeffN4SOaE&t=277s"
+                },
+                {
+                    "title": "Sprachsignale",
+                    "ident": "sprachsignale",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=AeeffN4SOaE&t=344s"
+                },
+                {
+                    "title": "Amplitudenmodulation (AM)",
+                    "ident": "am",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=AeeffN4SOaE&t=607s"
+                },
+                {
+                    "title": "Einseitenbandmodulation (SSB)",
+                    "ident": "ssb",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=AeeffN4SOaE&t=744s"
+                },
+                {
+                    "title": "Einseitenbandmodulation (SSB) II",
+                    "ident": "ssb_2",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Frequenzmodulation (FM)",
+                    "ident": "fm",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=AeeffN4SOaE&t=873s"
+                },
+                {
+                    "title": "Frequenzmodulation (FM) II",
+                    "ident": "fm_2",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Bandbreite",
+                    "ident": "bandbreite",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=AeeffN4SOaE&t=1072s"
+                },
+                {
+                    "title": "Bandbreite II",
+                    "ident": "bandbreite_2",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Modulationseinstellungen am Funkgerät",
+                    "ident": "trxmodulation",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=AeeffN4SOaE&t=1468s"
+                },
+                {
+                    "title": "Dynamikkompressor I",
+                    "ident": "dynamik_kompressor_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                }
+            ]
+        },
+        {
+            "title": "Empfänger",
+            "abstract": "In diesem Kapitel wird der grundsätzliche Aufbau von Funkempfängern sowie deren wichtigste Baugruppen und Funktionen behandelt. Es werden verschiedene Empfängerkonzepte vorgestellt und zentrale Eigenschaften wie Trennschärfe, Verstärkungsregelung, Rauschverhalten und Frequenzaufbereitung erklärt. Ziel ist es, das Zusammenwirken der einzelnen Stufen eines Empfängers und deren Einfluss auf den Empfang zu verstehen.",
+            "ident": "ne_empfaenger",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Aufbau eines Empfängers",
+                    "ident": "aufbau_empfaenger",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=0bn_wZe4a2I&t=0s"
+                },
+                {
+                    "title": "Detektorempfänger",
+                    "ident": "detektorempfänger",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Überlagerungsempfänger (Einfachsuper) I",
+                    "ident": "ueberlagerungsempfaenger_einfachsuper_1",
+                    "status": "beta",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Trennschärfe I",
+                    "ident": "trennschaerfe_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "BFO I",
+                    "ident": "bfo_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Vorverstärker und Dämpfungsglied",
+                    "ident": "vorverstaerker_daempfungsglied",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Automatische Verstärkungsregelung (AGC) I",
+                    "ident": "agc_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "RIT",
+                    "ident": "rit",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=0bn_wZe4a2I&t=245s"
+                },
+                {
+                    "title": "VOX",
+                    "ident": "vox",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=0bn_wZe4a2I&t=449s"
+                },
+                {
+                    "title": "Squelch",
+                    "ident": "squelch",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=0bn_wZe4a2I&t=551s"
+                },
+                {
+                    "title": "Notch-Filter",
+                    "ident": "notchfilter",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Rauschunterdrückung",
+                    "ident": "noise_reduction",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Frequenzmessung I",
+                    "ident": "frequenzmessung_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                }
+            ]
+        },
+        {
+            "title": "Sender",
+            "abstract": "In diesem Kapitel wird der grundlegende Aufbau eines Funksenders sowie das Zusammenspiel seiner einzelnen Baugruppen behandelt. Thematisiert werden unter anderem Ausgangsleistung, Leistungsbegrenzung, Messmittel und Lasten sowie die Entstehung und Vermeidung unerwünschter Aussendungen. Ein weiterer Schwerpunkt liegt auf elektromagnetischer Verträglichkeit und dem verantwortungsvollen Umgang mit Störungen im Sendebetrieb.",
+            "ident": "ne_sender",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Aufbau eines Senders",
+                    "ident": "aufbau_sender",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=0bn_wZe4a2I&t=649s"
+                },
+                {
+                    "title": "ALC",
+                    "ident": "alc",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Ausgangsleistung",
+                    "ident": "ausgangsleistung",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=0bn_wZe4a2I&t=807s"
+                },
+                {
+                    "title": "Senderausgangsleistung",
+                    "ident": "senderausgangsleistung",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Dummy-Load",
+                    "ident": "dummy_load_1",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=0bn_wZe4a2I&t=1001s"
+                },
+                {
+                    "title": "Unerwünschte Aussendungen",
+                    "ident": "unerwuenschte_aussendungen_1",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=0bn_wZe4a2I&t=1088s"
+                },
+                {
+                    "title": "Unerwünschte Aussendungen II",
+                    "ident": "unerwuenschte_aussendungen_2",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Elektromagnetische Verträglichkeit",
+                    "ident": "elektromagnetische_vertraeglichkeit",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=0bn_wZe4a2I&t=1204s"
+                },
+                {
+                    "title": "Störungen vermeiden",
+                    "ident": "stoerungen_vermeiden",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=0bn_wZe4a2I&t=1311s"
+                },
+                {
+                    "title": "Störende Beeinflussung elektronischer Geräte I",
+                    "ident": "stoerungen_elektronischer_geraete_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Störungen beim Empfang",
+                    "ident": "empfangsstoerungen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=0bn_wZe4a2I&t=1492s"
+                }
+            ]
+        },
+        {
+            "title": "Logbuch und QSL-Karten",
+            "abstract": "Viele Funkamateure dokumentieren jede Funkverbindung in einem Logbuch und senden an ihre Funkpartner sogenannte QSO-Karten, um stattgefundene Verbindungen zu bestätigen. Manchmal wird die Logbuchführung auch von der Bundesnetzagentur angeordnet, um Störungen nachzugehen.",
+            "ident": "ne_logbuch_und_qsl_karten",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Logbuch",
+                    "ident": "logbuch",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=JdrDCAynRkU&list=PLDpWnjHk5ERbcgpLPUaU0iTsD-wrmfENk&index=11&t=0s"
+                },
+                {
+                    "title": "QSL-Karten",
+                    "ident": "qsl_karten",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=JdrDCAynRkU&list=PLDpWnjHk5ERbcgpLPUaU0iTsD-wrmfENk&index=11&t=355s"
+                }
+            ]
+        },
+        {
+            "title": "Digitale Übertragungsverfahren",
+            "abstract": "Dieses Kapitel beschäftigt sich mit den digitalen Übertragungsverfahren. Wir lernen, was digital von analog unterscheidet, die Grundlagen von Telegrafie und Funkfernschreiben und welche digitalen Verfahren für Sprachübertragungen genutzt werden und welche Besonderheiten diese haben.",
+            "ident": "ne_digitale_uebertragungsverfahren",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Analog vs. Digital",
+                    "ident": "analog_vs_digital",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=QRq0uPzdPZY&t=0s"
+                },
+                {
+                    "title": "Binäres Zahlensystem",
+                    "ident": "binaer",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Morsetelegrafie",
+                    "ident": "morsetelegrafie",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=QRq0uPzdPZY&t=50s"
+                },
+                {
+                    "title": "Computersteuerung",
+                    "ident": "computersteuerung",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=QRq0uPzdPZY&t=156s"
+                },
+                {
+                    "title": "Funkfernschreiben",
+                    "ident": "funkfernschreiben",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=QRq0uPzdPZY&t=356s"
+                },
+                {
+                    "title": "Digimode per SSB",
+                    "ident": "digimode_ssb",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "9600-Port",
+                    "ident": "9600_port",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Übersteuerung",
+                    "ident": "digimod_uebersteuerung",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Automatische Empfangsberichte",
+                    "ident": "automatische_empfangsberichte",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Digital Voice (DV)",
+                    "ident": "digital_voice",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=QRq0uPzdPZY&t=715s"
+                },
+                {
+                    "title": "Paketvermittelte Netzwerke",
+                    "ident": "paketvermittelte_netzwerke",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Amplituden- und Frequenzumtastung (ASK, FSK)",
+                    "ident": "ask_fsk_afsk",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "AFSK",
+                    "ident": "afsk",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Datenübertragungsrate",
+                    "ident": "datenuebertragungsdrate",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Vielfachzugriff",
+                    "ident": "vielfachzugriff",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                }
+            ]
+        },
+        {
+            "title": "Digitale Signalverarbeitung",
+            "abstract": "Dieses Kapitel beleuchtet die Grundlagen und Anwendungen der digitalen Signalverarbeitung, die essenziell für die moderne Informationsverarbeitung ist.",
+            "ident": "ne_digitale_signalverarbeitung",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Digitale Signalverarbeitung",
+                    "ident": "digitale_signalverarbeitung_einleitung",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                }
+            ]
+        },
+        {
+            "title": "Betriebsabwicklung",
+            "abstract": "Nachdem schon am Anfang des Kurses die Grundlagen der Betriebsabwicklung behandelt wurden, geht es in diesem Kapitel um die Betriebsabwicklung unter besonderen Umständen. Konkret beschäftigen wir uns mit dem speziellen Prozedere wenn eine Station von sehr vielen anderen Stationen gleichzeitig gerufen wird, mit Amateurfunkwettbewerben, dem Amateurfunk-Peilsport, Bildübertragungen und dem Funkbetrieb in Not- und Katastrophenfällen.",
+            "ident": "ne_betriebsabwicklung",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Pile-up",
+                    "ident": "pileup",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=iVZDwRE4cwg&t=0s"
+                },
+                {
+                    "title": "Split-Verkehr",
+                    "ident": "split_betrieb",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=iVZDwRE4cwg&t=205s"
+                },
+                {
+                    "title": "Contest",
+                    "ident": "contest",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=iVZDwRE4cwg&t=412s"
+                },
+                {
+                    "title": "Fuchsjagd (ARDF)",
+                    "ident": "ardf",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=iVZDwRE4cwg&t=545s"
+                },
+                {
+                    "title": "SSTV",
+                    "ident": "sstv",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=iVZDwRE4cwg&t=630s"
+                },
+                {
+                    "title": "Notfunk",
+                    "ident": "notfunk",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=iVZDwRE4cwg&t=771s"
+                }
+            ]
+        },
+        {
+            "title": "Antennen und Übertragungsleitungen",
+            "abstract": "Dieses Kapitel beschäftigt sich mit allem rund um Antennen und Antennenkabel. Dabei behandeln wird neben den wichtigsten Antennenbauformen auch Themen wie den Einbau von Antennenanlagen in Kraftfahrzeuge, den Schutz von Personen vor elektromagnetischer Strahlung und die Sicherheit beim Aufbau und Betrieb einer Antennenanlage.",
+            "ident": "ne_antennen_uebertragungsleitungen",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Antennen",
+                    "ident": "antennen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=19s"
+                },
+                {
+                    "title": "Dipol-Antenne",
+                    "ident": "dipol",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=89s"
+                },
+                {
+                    "title": "Yagi-Uda-Antenne",
+                    "ident": "yagi_uda_1",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=308s"
+                },
+                {
+                    "title": "Rundstrahlantennen",
+                    "ident": "rundstrahler",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=369s"
+                },
+                {
+                    "title": "Endgespeiste Antennen (End-Fed)",
+                    "ident": "endgespeiste_antennen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=527s"
+                },
+                {
+                    "title": "Polarisation",
+                    "ident": "polarisation",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=554s"
+                },
+                {
+                    "title": "Polarisation II",
+                    "ident": "polarisation_2",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Antennenformen II",
+                    "ident": "antennenformen_2",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Antennenlänge und -resonanz",
+                    "ident": "antenne_laenge_resonanz",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Verkürzungsfaktor I",
+                    "ident": "verkuerzungsfaktor_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Fußpunktimpedanz I",
+                    "ident": "fusspunktimpedanz_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Yagi-Uda Antenne II",
+                    "ident": "yagi_uda_2",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Parabolspiegel I",
+                    "ident": "parabolspiegel_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Strom- und Spannungsspeisung I",
+                    "ident": "strom_spannung_speisung_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Antennengewinn in dBi und dBd",
+                    "ident": "antennengewinn",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Standortwahl",
+                    "ident": "standortwahl",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Einbau Kfz",
+                    "ident": "einbau_kfz",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=652s"
+                },
+                {
+                    "title": "Übertragungsleitungen",
+                    "ident": "uebertragungsleitungen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=752s"
+                },
+                {
+                    "title": "Übertragungsleitungen II",
+                    "ident": "uebertragungsleitungen_2",
+                    "status": "beta",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Koaxialsteckverbinder",
+                    "ident": "koaxsteckverbinder",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=888s"
+                },
+                {
+                    "title": "PL-Steckverbinder",
+                    "ident": "steckverbinder_pl",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=954s"
+                },
+                {
+                    "title": "N-Steckverbinder",
+                    "ident": "steckverbinder_n",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=968s"
+                },
+                {
+                    "title": "BNC-Steckverbinder",
+                    "ident": "steckverbinder_bnc",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=997s"
+                },
+                {
+                    "title": "SMA-Steckverbinder",
+                    "ident": "steckverbinder_sma",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=1029s"
+                },
+                {
+                    "title": "Kabeldämpfung I",
+                    "ident": "kabeldaempfung_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Stehwellenverhältnis (SWR)",
+                    "ident": "swr",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=1089s"
+                },
+                {
+                    "title": "Stehwellenverhältnis (SWR) II",
+                    "ident": "swr_2",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Stehwellenmessgerät (SWR-Meter) I",
+                    "ident": "swr_meter_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Vektorieller Netzwerkanalysator (VNA) I",
+                    "ident": "vna_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Mantelwellen I",
+                    "ident": "mantelwellen_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                }
+            ]
+        },
+        {
+            "title": "Personenschutzabstand",
+            "abstract": "Dieses Kapitel behandelt den Schutz von Personen vor elektromagnetischen Feldern im Amateurfunk. Es führt in die Begriffe ERP und EIRP ein, erläutert gesetzliche Grenzwerte sowie Anzeige- und Genehmigungspflichten und zeigt, wie Sicherheits- und Personenschutzabstände berechnet und bewertet werden. Ziel ist ein sicherer und regelkonformer Funkbetrieb, insbesondere bei ortsfesten Amateurfunkanlagen.",
+            "ident": "ne_personenschutzabstand",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Personenschutz",
+                    "ident": "personenschutzabstand",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=1965s"
+                },
+                {
+                    "title": "Effektive Strahlungsleistung (ERP)",
+                    "ident": "effektive_strahlungsleistung_erp_1",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=2053s"
+                },
+                {
+                    "title": "Äquivalente isotrope Strahlungsleistung (EIRP)",
+                    "ident": "aequivalente_isotrope_strahlungsleistung_eirp_1",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=2119s"
+                },
+                {
+                    "title": "Äquivalente isotrope Strahlungsleistung (EIRP) II",
+                    "ident": "aequivalente_isotrope_strahlungsleistung_eirp_2",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Sendeleistung Klasse N",
+                    "ident": "sendeleistung_klasse_n",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=2188s"
+                },
+                {
+                    "title": "Anzeige ortsfester Amateurfunkanlagen",
+                    "ident": "anzeige_ortsfester_amateurfunkanlagen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=2209s"
+                },
+                {
+                    "title": "Standortbescheinigung",
+                    "ident": "standortbescheinigung",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=2264s"
+                },
+                {
+                    "title": "Personenschutzabstand II",
+                    "ident": "personenschutzabstand_2",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Grenzwerte",
+                    "ident": "personenschutzabstand_grenzwerte",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Näherungsformel I",
+                    "ident": "naeherungsformel_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                }
+            ]
+        },
+        {
+            "title": "Sicherheit",
+            "abstract": "Dieses Kapitel behandelt zentrale Sicherheitsaspekte im Amateurfunkbetrieb, von baurechtlichen und haftungsrechtlichen Fragen bis hin zu elektrischer Sicherheit und Blitzschutz. Es erläutert Maßnahmen wie Erdung, Potentialausgleich und den sicheren Umgang mit Antennen und elektrischen Geräten. Ziel ist es, Risiken für Personen, Gebäude und Geräte zu minimieren und einen sicheren Funkbetrieb zu gewährleisten.",
+            "ident": "ne_sicherheit",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Baurecht und Haftung",
+                    "ident": "antennen_baurecht_haftung",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=2884s"
+                },
+                {
+                    "title": "Energieleitungen",
+                    "ident": "antennen_energieleitungen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=2839s"
+                },
+                {
+                    "title": "Öffnen elektrischer Geräte I",
+                    "ident": "elektrische_geaete_oeffnen_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Blitzschutz",
+                    "ident": "n_blitzschutz",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": null
+                },
+                {
+                    "title": "Blitzerdung",
+                    "ident": "blitzerdung",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Potentialausgleich",
+                    "ident": "blitzschutz",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=Oe2XpzhSVEQ&t=2780s"
+                },
+                {
+                    "title": "Schutzerdung und Potentialausgleich I",
+                    "ident": "schutzerdung_1",
+                    "status": "beta",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Statische Aufladung von Antennen",
+                    "ident": "statische_aufladung",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Berühren von Antennen I",
+                    "ident": "antennen_beruehrung_1",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                },
+                {
+                    "title": "Aufenthalt im Strahlengang",
+                    "ident": "strahlengang_aufenthalt",
+                    "status": "prod",
+                    "class": "E",
+                    "video_url": null
+                }
+            ]
+        },
+        {
+            "title": "Gesetze und Vorschriften",
+            "abstract": "Der Amateurfunk unterliegt nationalen Gesetzen und anderen Vorschriften, die großteils auf internationalen Vereinbarungen basieren. In diesem Kapitel lernen wir alle für Funkamateure wichtige rechtlichen Grundlagen, die im bisherigen Kursverlauf noch nicht behandelt wurden.",
+            "ident": "ne_gesetze_und_vorschriften",
+            "video_url": "https://youtu.be/QRq0uPzdPZY",
+            "sections": [
+                {
+                    "title": "Internationale Vereinbarungen, Gesetze und Vorschriften",
+                    "ident": "gesetze_vorschriften",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=VdCP90XGQUU&t=0s"
+                },
+                {
+                    "title": "Amateurfunkdienst",
+                    "ident": "amateurfunkdienst",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=VdCP90XGQUU&t=299s"
+                },
+                {
+                    "title": "Amateurfunkstelle",
+                    "ident": "amateurfunkstelle",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=VdCP90XGQUU&t=433s"
+                },
+                {
+                    "title": "Funkamateur",
+                    "ident": "funkamateur",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=VdCP90XGQUU&t=576s"
+                },
+                {
+                    "title": "Zulassung",
+                    "ident": "zulassung",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=VdCP90XGQUU&t=651s"
+                },
+                {
+                    "title": "Anschrift und Änderung",
+                    "ident": "anschrift",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=VdCP90XGQUU&t=707s"
+                },
+                {
+                    "title": "Gebühren und Beiträge",
+                    "ident": "gebuehren_beitraege",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=VdCP90XGQUU&t=739s"
+                },
+                {
+                    "title": "Fernmeldegeheimnis und Abhörverbot",
+                    "ident": "fernmeldegeheimnis_abhoerverbot",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=VdCP90XGQUU&t=797s"
+                },
+                {
+                    "title": "Verstöße und Folgen",
+                    "ident": "verstoesse_und_folgen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=VdCP90XGQUU&t=965s"
+                }
+            ]
+        },
+        {
+            "title": "Abkürzungen",
+            "abstract": "Wenn man erfahrenen Funkamateuren zuhört, fallen sofort die vielen Abkürzungen auf, die in einer Funkverbindung oder in einem persönlichen Gespräch ganz selbstverständlich genutzt werden. Eine Reihe von Abkürzungen haben wir schon in den vorherigen Kapiteln kennengelernt. Weitere wichtige Abkürzungen werden in diesem Kapitel vorgestellt.",
+            "ident": "ne_abkuerzungen",
+            "video_url": null,
+            "sections": [
+                {
+                    "title": "Betriebliche Abkürzungen",
+                    "ident": "betriebliche_abkuerzungen",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=iVov9T0EO74&list=PLDpWnjHk5ERbcgpLPUaU0iTsD-wrmfENk&index=8&t=19s"
+                },
+                {
+                    "title": "Q-Schlüssel",
+                    "ident": "q_schluessel",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=iVov9T0EO74&list=PLDpWnjHk5ERbcgpLPUaU0iTsD-wrmfENk&index=8&t=275s"
+                },
+                {
+                    "title": "Maidenhead Locator",
+                    "ident": "locator",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": "https://www.youtube.com/watch?v=iVov9T0EO74&list=PLDpWnjHk5ERbcgpLPUaU0iTsD-wrmfENk&index=8&t=783s"
+                },
+                {
+                    "title": "Kursabschluss",
+                    "ident": "N_Ende",
+                    "status": "prod",
+                    "class": "N",
+                    "video_url": null
+                }
+            ]
+        }
+    ],
+    "edition": "NE"
+}

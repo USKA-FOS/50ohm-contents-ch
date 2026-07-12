@@ -208,6 +208,9 @@ Metadata currently required for reconstruction includes at least:
 `directus_id` must be preserved as a legacy reference or metadata value, but it
 is not treated as canonical identity.
 
+`photo` and `drawing` media assets must also be referencable per language, with
+the imported German asset acting as the default initial variant.
+
 ## Translation Rule
 
 The translation pipeline must evolve toward generic text items.
@@ -230,6 +233,11 @@ Question stem and answers remain one translation group.
 
 Photo and drawing descriptions must stay local to their own object. A global
 group such as all drawing descriptions or all photo descriptions is invalid.
+
+In canonical Git, these descriptions are language-qualified files such as
+`1021.de.txt`, `1021.fr.txt`, and `1021.it.txt`. Visual media may also become
+language-qualified when needed, for example `1021.de.svg` and later
+`1021.fr.svg`.
 
 For HTML-bearing objects, the canonical slot may remain HTML, but translation
 must operate on extracted text segments rather than on raw HTML source.
@@ -257,6 +265,11 @@ This requires preserving:
 - `README.md` and `LICENSE` as non-translatable legal artifacts
 - `latex/` and `src/` as byte-exact source-support artifacts required by the
   current repository-level reconstruction workflow
+
+Question-generator inputs remain deliberately outside the current reconstruction
+diff target. `contents/questions/` stays under the separate
+`50ohm-question-pool` cycle until that integration boundary is worked on
+explicitly.
 
 ## Initial Canonical Git Skeleton
 

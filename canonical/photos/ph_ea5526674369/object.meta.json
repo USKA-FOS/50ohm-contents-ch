@@ -1,8 +1,6 @@
 {
   "active": true,
-  "asset_files": {
-    "image_path": "160.png"
-  },
+  "asset_files": {},
   "id": "ph_ea5526674369",
   "identifiers": [
     {
@@ -16,10 +14,23 @@
       "preferred": true
     }
   ],
+  "language_variants": {
+    "de": {
+      "asset_files": {
+        "image": "160.de.png"
+      }
+    }
+  },
   "languages": [],
   "metadata": {
     "asset": {
       "image_path": "contents/photos/160.png"
+    },
+    "language_asset": {
+      "de.image": {
+        "canonical_file": "160.de.png",
+        "source_path": "contents/photos/160.png"
+      }
     }
   },
   "object_type": "photo",

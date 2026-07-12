@@ -5,7 +5,7 @@ import sqlite3
 from pathlib import Path
 from typing import Any, Iterable
 
-from build_content_model_db import Builder, ReferenceTarget
+from build_content_model_db import Builder, ReferenceTarget, split_description_text
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -23,6 +23,7 @@ OBJECT_FAMILY_DIRECTORIES = (
     "drawings",
     "tables",
     "legal_documents",
+    "support_assets",
 )
 
 
@@ -91,6 +92,12 @@ def build_database() -> dict[str, int]:
                     for language, relative_name in sorted((storage.get("files") or {}).items()):
                         payload = read_json(directory / relative_name)
                         builder.add_localized_text(slot_id, str(language), str(payload.get(json_field, "")))
+                elif str(storage["kind"]) == "description_file_bundle":
+                    for language, relative_name in sorted((storage.get("files") or {}).items()):
+                        raw_text = (directory / relative_name).read_text(encoding="utf-8")
+                        short_text, long_text, _, _ = split_description_text(raw_text)
+                        value = short_text if str(slot["slot_key"]) == "short_description" else long_text
+                        builder.add_localized_text(slot_id, str(language), value)
                 else:
                     raise RuntimeError(f"Unsupported slot storage kind: {storage['kind']}")
 

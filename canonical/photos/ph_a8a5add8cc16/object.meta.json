@@ -1,8 +1,6 @@
 {
   "active": true,
-  "asset_files": {
-    "image_path": "294.png"
-  },
+  "asset_files": {},
   "id": "ph_a8a5add8cc16",
   "identifiers": [
     {
@@ -16,12 +14,33 @@
       "preferred": true
     }
   ],
+  "language_variants": {
+    "de": {
+      "asset_files": {
+        "image": "294.de.png"
+      },
+      "review_state": "imported_approved"
+    }
+  },
   "languages": [
     "de"
   ],
   "metadata": {
     "asset": {
+      "description_source_path": "contents/photos/294.txt",
       "image_path": "contents/photos/294.png"
+    },
+    "language_asset": {
+      "de.image": {
+        "canonical_file": "294.de.png",
+        "source_path": "contents/photos/294.png"
+      }
+    },
+    "reconstruction": {
+      "description_canonical_files": {
+        "de": "294.de.txt"
+      },
+      "description_source_format": "single_description"
     }
   },
   "object_type": "photo",
@@ -56,10 +75,9 @@
       "sort_order": 1,
       "storage": {
         "files": {
-          "de": "content.de.json"
+          "de": "294.de.txt"
         },
-        "json_field": "short_description",
-        "kind": "json_file"
+        "kind": "description_file_bundle"
       },
       "translation_group_key": "photo:eHqWugES63jSNiMaCn6SZ"
     },
@@ -69,10 +87,9 @@
       "sort_order": 2,
       "storage": {
         "files": {
-          "de": "content.de.json"
+          "de": "294.de.txt"
         },
-        "json_field": "long_description",
-        "kind": "json_file"
+        "kind": "description_file_bundle"
       },
       "translation_group_key": "photo:eHqWugES63jSNiMaCn6SZ"
     }

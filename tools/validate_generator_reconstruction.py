@@ -23,6 +23,7 @@ RECONSTRUCTED_INPUT = CONTENT_REPO / "work" / "site-content"
 STAGED_RECONSTRUCTED_INPUT = CONTENT_REPO / "work" / "generator-input" / "de"
 RECONSTRUCTED_OUTPUT = CONTENT_REPO / "work" / "build" / "de"
 VALIDATION_ROOT = CONTENT_REPO / "work" / "validation" / "generator-de"
+IGNORED_COMPARE_PREFIXES = ("contents/questions/",)
 
 
 def sha256_file(path: Path) -> str:
@@ -38,8 +39,16 @@ def tree_manifest(root: Path) -> dict[str, str]:
 
 
 def compare_trees(left: Path, right: Path) -> dict[str, Any]:
-    left_manifest = tree_manifest(left)
-    right_manifest = tree_manifest(right)
+    left_manifest = {
+        path: digest
+        for path, digest in tree_manifest(left).items()
+        if not path.startswith(IGNORED_COMPARE_PREFIXES)
+    }
+    right_manifest = {
+        path: digest
+        for path, digest in tree_manifest(right).items()
+        if not path.startswith(IGNORED_COMPARE_PREFIXES)
+    }
     left_paths = set(left_manifest)
     right_paths = set(right_manifest)
     changed = sorted(path for path in left_paths & right_paths if left_manifest[path] != right_manifest[path])
