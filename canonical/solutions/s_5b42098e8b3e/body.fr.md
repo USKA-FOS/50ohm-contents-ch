@@ -1,0 +1,3 @@
+Dans une bobine idéale, la tension précède le courant de $\qty{90}{\degree}$. Autrement dit : le courant suit la tension de $\qty{90}{\degree}$.
+
+Ce comportement est dû à l'auto-induction de la bobine. Les variations de courant génèrent un champ magnétique qui s'oppose à la variation de courant.

@@ -1,0 +1,106 @@
+### Génération
+
+<left>
+[picture:155:a_frequenzmodulation_schaltung:Modulateur pour la génération de FM]
+</left>
+<right>
+* Capacité d'un oscillateur est modifiée par le signal audiofréquence
+* Par exemple avec une diode de capacité
+* La fréquence de modulation détermine la fréquence de changement de la porteuse HF
+</right>
+<note>
+Voir plus tard dans le chapitre émetteur
+</note>
+
+---
+[question:AE303]
+---
+[question:AE301]
+---
+### Sensibilité aux perturbations
+
+* L'information à transmettre est contenue dans la variation du signal
+* Les fluctuations d'amplitude n'ont pas d'effet
+* Un amplificateur limiteur est souvent utilisé en interne
+* Insensible aux perturbations impulsives dues aux étincelles d'allumage, aux moteurs électriques, etc.
+
+---
+[question:AE302]
+---
+### Déviation de fréquence
+
+* Détermine la quantité dont la fréquence de l'oscillateur change en fonction de l'amplitude du signal modulé
+* Amplitude plus grande dans le signal audiofréquence $\leftrightarrow$ plus grande déviation dans la porteuse
+* Plus grande déviation $\rightarrow$ plus grande puissance dans le signal démodulé
+
+---
+[question:AE305]
+--- style="font-size: smaller;"
+### Bande passante
+
+<left>
+[picture:910:a_bandbreite_fm:Bande passante en FM]
+$B \approx 2 \cdot \left(\Delta f_{\textrm{T}} + f_{\textrm{mod max}}\right)$
+</left>
+<right>
+* Bande passante occupée : déviation et fréquence de modulation maximale
+* Pour une petite déviation et une faible fréquence de modulation $\rightarrow$ *Formule de Carson*
+* Fréquence de modulation plus élevée ou plus grande déviation $\rightarrow$ plus grande bande passante
+* Des interférences de canal adjacent sont possibles
+</right>
+
+<note>
+Environ 99% de la puissance d'émission se trouvent dans la bande passante
+</note>
+---
+[question:AE306]
+---
+[question:AE307]
+---
+[question:AE304]
+---
+[question:AE309]
+---
+#### Solution
+* donné : $f_{\textrm{mod max}} = \qty{2}{\kilo\hertz}$
+* donné : $\Delta f_{\textrm{T}} = \qty{1,8}{\kilo\hertz}$
+* recherché : $B$
+
+<fragment>
+$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ &= 2 \cdot (\qty{1,8}{\kilo\hertz} + \qty{2}{\kilo\hertz}) = \qty{7,6}{\kilo\hertz} \end{split}$
+</fragment>
+---
+[question:AE308]
+---
+#### Solution
+* donné : $f_{\textrm{mod max}} = \qty{2,7}{\kilo\hertz}$
+* donné : $\Delta f_{\textrm{T}} = \qty{2,5}{\kilo\hertz}$
+* recherché : $B$
+
+<fragment>
+$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ &= 2 \cdot (\qty{2,5}{\kilo\hertz} + \qty{2,7}{\kilo\hertz}) = \qty{10,4}{\kilo\hertz} \end{split}$
+</fragment>
+---
+[question:AE311]
+---
+#### Solution
+* donné : $B = \qty{10}{\kilo\hertz}$
+* donné : $\Delta f_{\textrm{T}} = \qty{2,5}{\kilo\hertz}$
+* recherché : $f_{\textrm{mod max}}$
+
+<fragment>
+$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ \Rightarrow f_{\textrm{mod max}} &= \frac{B}{2} - \Delta f_T\\ &= \frac{\qty{10}{\kilo\hertz}}{2} - \qty{2,5}{\kilo\hertz} = \qty{2,5}{\kilo\hertz} \end{split}$
+</fragment>
+---
+[question:AE312]
+---
+#### Solution
+* donné : $B = \qty{10}{\kilo\hertz}$
+* donné : $f_{\textrm{mod max}} = \qty{2,7}{\kilo\hertz}$
+* recherché : $\Delta f_{\textrm{T}}$
+
+<fragment>
+$\begin{split} B &\approx 2 \cdot (\Delta f_{\textrm{T}} + f_{\textrm{mod max}})\\ \Rightarrow \Delta f_T &= \frac{B}{2} - f_{\textrm{mod max}}\\ &= \frac{\qty{10}{\kilo\hertz}}{2} - \qty{2,7}{\kilo\hertz} = \qty{2,3}{\kilo\hertz} \end{split}$
+</fragment>
+---
+[question:AE310]

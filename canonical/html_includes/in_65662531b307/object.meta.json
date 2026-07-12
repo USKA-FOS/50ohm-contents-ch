@@ -11,7 +11,8 @@
   ],
   "languages": [
     "de",
-    "it"
+    "it",
+    "fr"
   ],
   "metadata": {},
   "object_type": "html_include",
@@ -32,6 +33,10 @@
     {
       "language": "it",
       "state": "to_be_reviewed"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_reviewed"
     }
   ],
   "source": {
@@ -47,6 +52,7 @@
       "storage": {
         "files": {
           "de": "body.de.html",
+          "fr": "body.fr.html",
           "it": "body.it.html"
         },
         "kind": "text_file"

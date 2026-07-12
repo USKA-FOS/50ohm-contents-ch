@@ -1,0 +1,7 @@
+Ici, nous utilisons la formule du circuit oscillant de Thomson. Remarque : la résistance à l'intérieur du circuit oscillant n'a pas d'importance pour le calcul de la fréquence de résonance !
+
+$f = \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}$
+
+Avec les valeurs insérées :
+
+$\begin{split} f &= \frac{1}{2 \pi \cdot \sqrt{2,2 \cdot \qty{10^{-6}}{\henry} \cdot 56 \cdot \qty{10^{-12}}{\farad}}}\\ &\approx \qty{14338865,06}{\hertz} \approx 14,34 \cdot \qty{10^6}{\hertz} = \qty{14,34}{\mega\hertz}\end{split}$

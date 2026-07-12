@@ -1,0 +1,27 @@
+La précision des fréquences et des plages de mesure dans les émetteurs, récepteurs, oscillateurs, compteurs de fréquence, etc. est indiquée soit en $\unit{\percent}$ ($1 \cdot \num{10^{-2}}$) soit en parts par million ($\unit{\ppm} = 1 \cdot \num{10^{-6}}$). Parfois, l'indication est également donnée directement en notation exponentielle comme par exemple une précision de $1 \cdot \num{10^{-7}}$.
+Avec cette précision, il faut multiplier la fréquence pour calculer l'écart possible des valeurs de mesure ou des affichages.
+
+<indepth>
+  Remarque concernant la conversion/la représentation des puissances de 10:
+  
+  $1 \cdot {\num{10^{-2}}} = \frac{1}{\num{10^2}}$
+  $1 \cdot {\num{10^{-6}}} = \frac{1}{\num{10^6}}$
+  
+  etc.
+</indepth>
+  
+[question:AA115]
+
+[question:AA116]
+
+[question:AI508]
+
+[question:AI509]
+
+[question:AI510]
+
+%TODO - Peut-être qu'une image devrait être intégrée ici pour illustrer la tâche 1823
+
+[question:AI506]
+
+[question:AI507]

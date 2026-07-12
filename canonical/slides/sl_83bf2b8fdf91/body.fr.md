@@ -1,0 +1,158 @@
+* *Amplificateur classe A*: Peut amplifier l'ensemble du signal
+* *Amplificateur classe B*: La moitié du signal est bien amplifiée
+* *Amplificateur classe A/B*: Combinaison de A et B avec amplification de plus de la moitié du signal
+* *Amplificateur classe C*: Moins de la moitié du signal est bien amplifiée
+
+<fragment>
+Les classes d'amplificateurs sont déterminées par le choix du point de fonctionnement
+</fragment>
+
+<note>
+Les désignations par lettres remontent à une classification systématique précoce des amplificateurs à tubes et à transistors
+</note>
+---
+<left>
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Caractéristique d'un transistor avec points de fonctionnement]
+</left>
+<right>
+* La caractéristique du transistor montre la relation entre le signal d'entrée et le signal de sortie
+* Tension base-émetteur ou grille-source et courant de collecteur ou de drain
+* Dans les zones linéaires, la variation est proportionnelle
+* Les autres zones sont non linéaires
+</right>
+---
+### Point de fonctionnement
+
+* Fonctionnement optimal avec un choix optimal du point de fonctionnement sur la caractéristique
+* Le point de fonctionnement est déterminé par la tension de polarisation à la base ou à la grille
+* L'amplification agit alors autour du point de fonctionnement souhaité
+
+---
+### Courant de repos
+
+* Le courant de repos résulte du choix du point de fonctionnement
+* Circule également sans signal d'entrée
+* Influence l'efficacité d'un amplificateur
+* Augmente la puissance dissipée thermique
+* Réduit le rendement
+
+--- style="font-size: smaller;"
+### AP1
+<left>
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Caractéristique d'un transistor avec points de fonctionnement]  
+</left>
+<right>
+* Fonctionnement en classe C de l'amplificateur
+* sans polarisation
+* Courant de repos nul
+* Rendement d'environ $\qtyrange{80}{87}{\percent}$
+* Taux élevé d'harmoniques supérieures
+</right>
+--- style="font-size: smaller;"
+### AP2
+<left>
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Caractéristique d'un transistor avec points de fonctionnement]  
+</left>
+<right>
+* Fonctionnement en classe B de l'amplificateur
+* Faible polarisation jusqu'au début du courant de collecteur
+* Courant de repos presque nul (faible)
+* Rendement jusqu'à $\qty{80}{\percent}$
+* Faible taux d'harmoniques supérieures
+</right>
+--- style="font-size: smaller;"
+### AP3
+<left>
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Caractéristique d'un transistor avec points de fonctionnement]  
+</left>
+<right>
+* Fonctionnement en classe A/B de l'amplificateur
+* Polarisation plus élevée qu'en classe B, mais inférieure qu'en classe A
+* Courant de repos plus élevé qu'en classe B, mais nettement inférieur qu'en classe A
+* Rendement entre $\qty{50}{\percent}$ et $\qty{80}{\percent}$
+* Faible taux d'harmoniques supérieures
+</right>
+--- style="font-size: smaller;"
+### AP4
+<left>
+[picture:377:a_kennlinien_transistor_arbeitspunkt:Caractéristique d'un transistor avec points de fonctionnement]  
+</left>
+<right>
+* Fonctionnement en classe A de l'amplificateur
+* Niveau de polarisation choisi de telle sorte que le courant de repos atteigne environ $\qty{50}{\percent}$ de la valeur maximale admissible
+* Rendement d'environ $\qty{40}{\percent}$
+* Très faible taux d'harmoniques supérieures
+</right>
+---
+[question:AD416]
+---
+[question:AD419]
+---
+[question:AD420]
+---
+[question:AD421]
+---
+### Puissance de sortie
+
+* Connaissant le point de fonctionnement, le rendement est connu
+* Calculer la puissance continue
+* La puissance de sortie est le produit de la puissance continue et du rendement
+
+---
+[question:AD424]
+---
+#### Méthode de solution
+* donné: $U=\qty{50}{\volt}$
+* donné: $I = \qty{2}{\ampere}$
+* donné: $\eta_\text{A} \approx \qty{40}{\percent}$
+* recherché: $P_\text{ab}$
+
+<fragment>
+$P_\text{zu} = U \cdot I = \qty{50}{\volt} \cdot \qty{2}{\ampere} = \qty{100}{\watt}$
+</fragment>
+<fragment>
+$\eta_\text{A} = \frac{P_\text{ab}}{P_\text{zu}} \Rightarrow P_\text{ab} = \eta_\text{A} \cdot P_\text{zu} = 0,4 \cdot \qty{100}{\watt} = \qty{40}{\watt}$
+</fragment>
+---
+[question:AD425]
+---
+#### Méthode de solution
+* donné: $U=\qty{50}{\volt}$
+* donné: $I = \qty{2}{\ampere}$
+* donné: $\eta_\text{C} \approx \qty{85}{\percent}$
+* recherché: $P_\text{ab}$
+
+<fragment>
+$P_\text{zu} = U \cdot I = \qty{50}{\volt} \cdot \qty{2}{\ampere} = \qty{100}{\watt}$
+</fragment>
+<fragment>
+$\eta_\text{C} = \frac{P_\text{ab}}{P_\text{zu}} \Rightarrow P_\text{ab} = \eta_\text{C} \cdot P_\text{zu} = 0,85 \cdot \qty{100}{\watt} = \qty{85}{\watt}$
+</fragment>
+---
+[question:AD418]
+---
+[question:AD417]
+---
+### Fonctionnement SSB
+
+* Amplification linéaire nécessaire
+* Amplification en classe A, A/B ou B
+* En cas de surcharge, il se produit des distorsions du signal $\rightarrow$ Splatter sur les fréquences adjacentes
+
+---
+[question:AD422]
+---
+[question:AJ218]
+---
+[question:AD423]
+---
+### Fonctionnement en classe C
+
+* Le point de fonctionnement non linéaire génère des harmoniques supérieures
+* Doivent ensuite être supprimées par filtrage
+* Blindage par un boîtier métallique
+
+---
+[question:AF402]
+---
+[question:AF403]

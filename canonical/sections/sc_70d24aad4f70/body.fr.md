@@ -1,0 +1,19 @@
+Les soi-disant *micro-ondes* n'ont rien à voir avec le préfixe d'unité "micro-", mais les micro-ondes désignent les ondes électromagnétiques avec des fréquences comprises entre environ $\qty{1}{\giga\hertz}$ et environ $\qty{300}{\giga\hertz}$. La longueur d'onde des micro-ondes correspond donc aux millimètres jusqu'à quelques décimètres.
+
+<margin>
+[picture:850:e_parabolspiegel_funktion:Fonctionnement d'un miroir parabolique]
+</margin>
+
+---
+
+À ces longueurs d'onde, la forme de construction d'un miroir parabolique est particulièrement adaptée. Ici, on utilise le fait qu'une surface métallique de forme parabolique (ou une grille suffisamment serrée) agit comme un miroir pour les ondes incidentes parallèles, mais les concentre en un point devant le miroir en raison de la courbure du miroir.
+
+<indepth>
+Par *parabole*, on entend en mathématiques une courbe, c'est-à-dire le graphe décrit par une équation quadratique (par exemple $y = x^2$). Un paraboloïde est la surface obtenue par rotation d'une telle parabole.
+</indepth>
+
+[question:EG113]
+
+Seulement dans le modèle idéalisé de l'optique des rayons (c'est-à-dire si l'onde électromagnétique se comportait comme un faisceau de rayons) il y a une concentration en un point précis devant le miroir. En réalité, la concentration n'est cependant pas parfaite, car il y a des effets de diffraction dus aux propriétés ondulatoires. La mesure dans laquelle cet écart par rapport au modèle idéal des rayons est important dépend de la taille de la coupelle. Plus la coupelle est grande par rapport à la longueur d'onde, meilleure est la directivité. Les miroirs paraboliques n'atteignent une directivité significative que lorsque leur diamètre est de quelques longueurs d'onde ou plus, par exemple cinq.
+
+[question:EG114]

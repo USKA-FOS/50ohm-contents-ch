@@ -1,0 +1,6 @@
+# Solution
+Nous utilisons la formule du rapport de tension du recueil de formules (niveau, amplification/gain) :
+$ g = 20 \cdot \log_{10}\left(\frac{U_2}{U_1}\right)\unit{\dB}$
+Avec les valeurs de l'énoncé ($\frac{U_2}{U_1} = 15$), nous obtenons:
+
+$ g = 20 \cdot \log_{10}\left(15\right)\unit{\dB} = 20 \cdot \qty{1.176}{\dB} = \qty{23.522}{\dB}$

@@ -1,0 +1,29 @@
+* Rapport de la puissance de sortie à la puissance continue fournie
+* Maximum $1$ ou $\qty{100}{\percent}$
+
+---
+[question:AD430]
+---
+#### Solution
+* donné : $U = \qty{12,5}{\volt}$
+* donné : $I = \qty{16}{\ampere}$
+* donné : $P_\text{ab} = \qty{90}{\watt}$
+* recherché : $\eta$
+
+<fragment>
+$P_\text{zu} = U \cdot I = \qty{12,5}{\volt} \cdot \qty{16}{\ampere} = \qty{200}{\watt}$
+</fragment>
+<fragment>
+$\eta = \frac{P_\text{ab}}{P_\text{zu}} = \frac{\qty{90}{\watt}}{\qty{200}{\watt}} = \qty{45}{\percent}$
+</fragment>
+---
+[question:AD429]
+---
+#### Solution
+* donné : $P_\text{ab} = \qty{10}{\watt}$
+* donné : $P_\text{zu} = \qty{25}{\watt}$
+* recherché : $\eta$
+
+<fragment>
+$\eta = \frac{P_\text{ab}}{P_\text{zu}} = \frac{\qty{10}{\watt}}{\qty{25}{\watt}} = \qty{40}{\percent}$
+</fragment>

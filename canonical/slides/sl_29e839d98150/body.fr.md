@@ -1,0 +1,22 @@
+## NVIS – Réflexion des ondes spatiales
+* Si la fréquence d'émission est inférieure à la fréquence critique, même une onde spatiale émise verticalement vers le haut est réfléchie par l'ionosphère.
+* Cela élimine la zone morte – un effet qui peut être utilisé pour les liaisons à courte distance.
+* Condition préalable : une antenne à ondes courtes qui rayonne vers le haut à un angle aussi raide que possible.
+* Cet effet est désigné par *Near Vertical Incidence Skywave (NVIS)*.
+
+---
+## NVIS – Avantages dans les communications d'urgence
+* Les liaisons NVIS permettent de surmonter les obstacles (par exemple, un terrain montagneux) qui bloqueraient autrement l'onde de sol.
+* Les dipôles horizontaux sont adaptés, qui sont suspendus à une hauteur de montage maximale d'un quart de la longueur d'onde – ainsi, la surface de la terre agit comme un réflecteur et assure un gain en direction du zénith.
+
+---
+## NVIS – Construction et optimisation de l'antenne
+* Si un dipôle horizontal est suspendu trop haut, le retard lors de la réflexion entraîne un déphasage.
+* $\rightarrow$ Cela entraîne une annulation partielle de l'onde réfléchie en direction du zénith.
+* $\rightarrow$ Le résultat est un gain dans une direction de rayonnement plus plate, ce qui est indésirable dans les communications NVIS.
+* Les antennes verticales ne conviennent pas, car elles présentent déjà un angle de rayonnement plat.
+
+---
+[question:AG125]
+---
+[question:AG224]

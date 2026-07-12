@@ -1,0 +1,3 @@
+Si le diviseur de tension est chargé avec la résistance de charge $R_L$, $R_L$ est en parallèle avec $R_2$. Cela réduit la résistance partielle inférieure du diviseur de tension.
+
+La résistance totale du circuit diminue, ce qui fait augmenter le courant total $I_1$. Comme ce courant traverse $R_1$, plus de puissance est convertie en chaleur dans $R_1$.

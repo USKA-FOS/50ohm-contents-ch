@@ -1,0 +1,31 @@
+Les sources de tension continue sont nécessaires pour alimenter nos appareils radio et leurs accessoires en tension et en courant. Jusqu'à présent, nous avons principalement examiné les batteries. Le symbole de circuit pour une source de tension idéale est représenté dans la figure [ref:e_vsource]. En réalité, une source de tension n'est cependant pas idéale, car elle possède toujours une résistance interne $R_i$, comme le montre la figure [ref:e_vsource_schematic].
+
+Il est important d'obtenir une tension constante même sous charge. Cette propriété est alors atteinte lorsque la résistance interne est très faible. Dans ce cas, il n'y a pas de grande chute de tension à sa charge, même pour de grands courants de charge, ce qui fait baisser la tension aux bornes $U_k$.
+
+<margin>
+[picture:824:e_vsource:Symbole de circuit source de tension]
+[picture:1018:e_vsource_schematic:Circuit équivalent source de tension $R_i$ basse impédance]
+</margin>
+
+[question:ED301]
+
+---
+Les sources de tension continue (alimentations) sont connectées au réseau de tension alternative existant de 230 V. Comme nous l'avons déjà vu avec la prise de courant de protection dans la classe N, nous avons avec la tension alternative le conducteur de phase L, le conducteur neutre N et le conducteur de protection PE. 
+
+Pour un câble à 3 conducteurs avec conducteur de protection, par exemple NYM-J $3 \times \qty{1,5}{\milli\meter\squared}$, les couleurs des conducteurs sont fixées comme dans la figure [ref:e_NYM_Aderfarben] :
+
+* Conducteur de protection (PE) = vert/jaune
+* Conducteur neutre (N) = bleu
+* Conducteur de phase (L) = brun  
+
+<indepth>
+L'Association pour l'électrotechnique, l'électronique et les technologies de l'information (VDE) est, entre autres, l'éditeur de normes en électrotechnique. Dans la norme DIN VDE 0293-308, les marquages des conducteurs sont fixés. 
+</indepth>
+
+<margin>
+[picture:791:e_NYM_Aderfarben:Couleurs des conducteurs d'un câble à 3 conducteurs]
+</margin>
+
+Dans les chapitres suivants, nous apprendrons encore quelques autres éléments de l'alimentation électrique.
+
+[question:EK205]

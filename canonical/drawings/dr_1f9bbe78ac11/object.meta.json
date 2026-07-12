@@ -25,7 +25,8 @@
   },
   "languages": [
     "de",
-    "it"
+    "it",
+    "fr"
   ],
   "metadata": {
     "asset": {
@@ -46,6 +47,7 @@
     "reconstruction": {
       "description_canonical_files": {
         "de": "388.de.txt",
+        "fr": "388.fr.txt",
         "it": "388.it.txt"
       },
       "description_preamble": "Dieser Alt-Text wurde noch nicht überprüft.",
@@ -84,6 +86,10 @@
     {
       "language": "it",
       "state": "to_be_reviewed"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_reviewed"
     }
   ],
   "source": {
@@ -99,6 +105,7 @@
       "storage": {
         "files": {
           "de": "388.de.txt",
+          "fr": "388.fr.txt",
           "it": "388.it.txt"
         },
         "kind": "description_file_bundle"
@@ -112,6 +119,7 @@
       "storage": {
         "files": {
           "de": "388.de.txt",
+          "fr": "388.fr.txt",
           "it": "388.it.txt"
         },
         "kind": "description_file_bundle"

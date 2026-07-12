@@ -1,0 +1,1 @@
+Un étage S correspond par définition à $\qty{6}{\dB}$. Les signaux qui sont si forts qu'ils ont un niveau S supérieur à S9 sont indiqués sous la forme S9+$\qty{x}{\dB}$. Entre S9+$\qty{20}{dB}$ et S8, la tension d'entrée du récepteur diminue donc de : S9+$\qty{20}{dB} \rightarrow $ S9: $\qty{20}{\dB}$ S9 $\rightarrow $ S8: $\qty{6}{\dB}$ au total $\qty{26}{\dB}$.

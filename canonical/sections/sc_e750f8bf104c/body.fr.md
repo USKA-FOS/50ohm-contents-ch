@@ -1,0 +1,36 @@
+Dans la classe N, nous avons appris : si une antenne est parfaitement adaptée à la ligne d'alimentation (par exemple, un câble coaxial), le compteur SWR affiche la valeur 1. Il s'agit du meilleur cas possible, car toute la puissance d'émission est absorbée par l'antenne et aucune puissance n'est réfléchie vers l'émetteur. En revanche, si aucune antenne n'est connectée ou si la ligne de transmission est interrompue ou court-circuitée, la valeur SWR tend vers l'infini ($\infty$). Dans ces cas, la puissance d'émission est presque entièrement réfléchie. Une telle réflexion totale peut, dans le pire des cas, endommager l'étage final de l'émetteur. Dans la classe E, nous approfondissons maintenant le sujet et apprenons également des valeurs comprises entre $\num{1}$ et $\infty$.
+
+Le rapport d'ondes stationnaires (ROS), représenté par le symbole de formule $s$, peut être calculé à partir de la puissance incidente $P_\text{V}$ et de la puissance réfléchie $P_\text{R}$. La relation correspondante se trouve dans le recueil de formules :
+
+$s = \frac{\sqrt{P_\text{V}}+\sqrt{P_\text{R}}} { \sqrt{P_\text{V}}-\sqrt{P_\text{R}}}$
+
+Par exemple, si l'émetteur émet une puissance de $P_\text{V}=\qty{100}{\watt}$, et que $P_\text{R}=\qty{25}{\watt}$ sont réfléchis par l'antenne en direction de l'émetteur, alors on obtient :
+
+$s = \frac{\sqrt{100}+\sqrt{25}}{\sqrt{100}-\sqrt{25}} = \frac{10+5}{10-5} = \frac{15}{5} = 3$
+
+Cela signifie qu'un ROS de $\num{3}$ correspond à une réflexion de $\frac{\qty{25}{\watt}}{\qty{100}{\watt}}=\qty{25}{\percent}$. D'autres correspondances sont représentées dans le tableau [ref:e_swr_werte].
+
+<margin>
+| l: ROS | l: Puissance réfléchie |
+| $\num{1}$ | $\qty{0}{\percent}$ |
+| $\num{1,5}$ | $\qty{4}{\percent}$ |
+| $\num{2}$ | $\qty{11,1}{\percent}$ |
+| $\num{2,5}$ | $\qty{18,4}{\percent}$ |
+| *$\num{3}$* | *$\qty{25}{\percent}$* |
+| $\num{4}$ | $\qty{36}{\percent}$ |
+| $\num{6}$ | $\qty{51}{\percent}$ |
+| $\num{10}$ | $\qty{66,9}{\percent}$ |
+| $\num{20}$ | $\qty{81,9}{\percent}$ |
+| $\infty$ | $\qty{100}{\percent}$ |
+[table:e_swr_werte:Valeurs ROS en fonction de la puissance réfléchie]
+</margin>
+
+---
+
+<tip>
+Pour répondre aux questions suivantes, il suffit de savoir qu'un rapport d'ondes stationnaires de $\num{3}$ correspond à une réflexion de $\qty{25}{\percent}$ de l'énergie, c'est-à-dire que l'onde réfléchie transmet un quart de l'énergie de l'onde incidente. Par conséquent, seulement $\qty{75}{\percent}$ de l'énergie est délivrée à la fin de la ligne, par exemple à une antenne ou à une résistance de perte (donc non réfléchie). 
+</tip>
+
+[question:EG401]
+[question:EG402]
+[question:EG403]

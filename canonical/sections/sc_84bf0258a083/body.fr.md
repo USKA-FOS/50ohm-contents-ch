@@ -1,0 +1,11 @@
+Les ondes radio se propagent en ligne droite. Pour relier deux lieux sur la surface de la terre, il y a donc toujours exactement deux chemins (sauf si les deux lieux sont exactement opposés). Cela donne la direction dans laquelle une antenne directionnelle doit être tournée. La liaison radio ne se fait donc pas par le chemin direct vers la station correspondante, mais par la direction opposée au chemin le plus court.
+
+[question:EH216]
+
+L'un des deux chemins est plus court que l'autre, c'est pourquoi nous parlons du *chemin court* et du *chemin long* (parfois aussi "chemin direct" et "chemin indirect"). Normalement, la liaison se fait par le chemin court, car plus de distance signifie toujours plus d'atténuation et on peut donc s'attendre à une meilleure intensité de signal sur le chemin court. Mais il est - en fonction des conditions de propagation, de l'heure de la journée et de la fréquence utilisée - tout à fait possible d'atteindre la zone cible par le chemin long. En classe A, nous examinerons ces relations de plus près. 
+
+<margin>
+[picture:873:n_kurzer_langer_weg:Chemin court et long]
+</margin>
+
+[question:EH217]

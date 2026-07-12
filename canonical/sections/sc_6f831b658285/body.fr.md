@@ -1,0 +1,18 @@
+Les services de radiocommunication (Services) sont définis internationalement dans les Règlements Radioélectriques (RR). Cela inclut, par exemple, la radiocommunication maritime (Maritime Service), la radiodiffusion (Broadcasting Service), ainsi que la radioamateur (Amateur Service). Les applications radio avec attribution générale (CB radio, WLAN, etc.) peuvent également être réglementées internationalement, mais elles ne constituent pas un service de radiocommunication au sens des Règlements Radioélectriques (RR) de l'UIT.
+
+[question:VA101]
+
+Étant donné que la radioamateur est également un service de radiocommunication officiel, elle comprend des tâches significatives et responsables. Le spectre va de la formation, en passant par des études techniques, jusqu'à la communication entre radioamateurs. Ce dernier point ne doit pas être sous-estimé. Nos liaisons radio favorisent la compréhension entre les peuples. La radioamateur par satellite ne diffère pas en termes d'objectif du reste de la radioamateur.
+
+[question:VA102]
+[question:VA103]
+
+En guise de petite tâche, nous comparons la définition internationale de la radioamateur ci-dessus avec le passage correspondant de l'article 2, paragraphe 2, de la loi sur la radioamateur (AFuG) :
+
+"Au sens de la présente loi, le service de radioamateur est un service de radiocommunication qui est assuré par les radioamateurs entre eux, à des fins expérimentales et techniques-scientifiques, pour leur propre formation, pour la compréhension entre les peuples et pour soutenir les actions d'aide en cas de situations d'urgence et de catastrophes ; le service de radioamateur inclut l'utilisation de stations spatiales. Le service de radioamateur et le service de radioamateur par satellite ne sont pas des services de radiocommunication de sécurité, ..."
+
+% À quoi sert la radioamateur au niveau national
+On peut bien voir que les définitions de la radioamateur dans les RR et dans l'AFuG ne diffèrent pas fondamentalement. Il ne nuit pas de relire le passage dans l'AFuG, car il est toujours bon de connaître le texte de la loi dans son original.
+
+[question:VC102]
+

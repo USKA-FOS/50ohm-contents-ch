@@ -1,0 +1,35 @@
+## Sécurité lors des réparations
+
+* Réparer ses propres appareils est une question d'honneur pour de nombreux radioamateurs
+* Ne pas oublier la sécurité – les dommages ne doivent pas être aggravés
+* Porter des gants isolants d'une classe de protection suffisante
+* Utiliser des outils isolés
+
+---
+## Recherche de pannes et préparation
+
+* La réparation commence toujours par la recherche de pannes
+* L'appareil est d'abord déconnecté du réseau avant d'être ouvert
+* *Attention*: Les condensateurs dans l'alimentation restent chargés même sans courant de réseau
+
+---
+### Tensions dangereuses
+
+* Les alimentations à découpage pour les étages finaux à transistors peuvent présenter des tensions supérieures à la tension nominale du réseau aux bornes des condensateurs
+* Dans le cas des étages finaux à tubes, la tension est encore nettement plus élevée
+* Le comportement peut être mortel
+
+---
+### Décharge sûre des condensateurs
+
+* Sans intervention, la charge se décharge lentement – mais pas assez rapidement pour la sécurité
+* La mise en court-circuit directe des condensateurs est dangereuse et peut entraîner des chocs électriques mortels ou des incendies
+
+---
+### Décharge sûre avec une résistance
+
+* La décharge s'effectue avec une résistance isolée et de haute impédance – lentement et en toute sécurité
+* La capacité de charge de la résistance doit être adaptée à la capacité du condensateur
+
+---
+[question:AK201]

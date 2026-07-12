@@ -1,0 +1,37 @@
+* Contrôle automatique de gain (Automatic-Gain-Control, *AGC*) régule le signal de sortie AF en cas de signal d'entrée HF fluctuant
+* Utilisation par exemple en cas de fading
+* Les fluctuations de volume sont réduites
+
+---
+## Fonctionnement
+
+* Détection du niveau de réception à la sortie de la branche du récepteur
+* Cela permet de réguler l'amplification HF
+* Influence sur le volume de réception après la démodulation
+* Adaptation du comportement de réponse (temps de réponse, temps de décroissance) possible
+<note>
+* Ne pas confondre avec le contrôle automatique de niveau (ALC) dans l'émetteur
+</note>
+
+---
+## Modes AGC
+
+<left>
+* AGC Lente
+* AGC Normale
+* AGC Rapide
+* AGC Désactivée
+</left>
+<right>
+* SSB: AGC Lente ou Normale
+* Morse: AGC Normale ou Rapide
+* Digimodes: AGC Rapide ou Désactivée
+</right>
+<note>
+* Réponse plus rapide afin que les signaux forts ne puissent pas masquer les signaux faibles et que la régulation puisse suivre rapidement
+</note>
+
+---
+[question:EF211]
+---
+[question:EF212]

@@ -1,0 +1,14 @@
+Ce texte alternatif n'a pas encore été vérifié.
+
+Résumé : Une grille de 4×4 avec des lignes noires épaisses montre des chiffres 0 et 1, certains champs sont en surbrillance grise, plusieurs entrées ont de petites lettres en indice ; le champ en haut à gauche est vide.
+
+Description détaillée :
+- Cadre : bordure noire, grille avec des lignes noires épaisses.
+- Ligne 1 (de gauche à droite) :
+  1) blanc, vide ; 2) gris, « 1 » ; 3) gris, « 0 » ; 4) blanc, « 1_a » (a petit, en indice en bas à droite).
+- Ligne 2 :
+  1) gris, « 0 » ; 2) blanc, « 1_b » ; 3) blanc, « 0_c » ; 4) blanc, « 0_d ».
+- Ligne 3 :
+  1) gris, « 1 » ; 2) blanc, « 1_e » ; 3) blanc, « 0_f » ; 4) blanc, « 1_g ».
+- Ligne 4 :
+  1) blanc, « 1_h » ; 2) blanc, « 0_i » ; 3) blanc, « 1_j » ; 4) blanc, « 1_k ».

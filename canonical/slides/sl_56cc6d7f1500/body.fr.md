@@ -1,0 +1,26 @@
+## Ligne de Lecher : Comportement de résonance
+* Ligne de Lecher : ligne bifilaire ouverte à l'extrémité
+* En fonctionnement à $\lambda/4$, l'extrémité ouverte ($\qty{\infty}{\ohm}$) est transformée en un court-circuit ($\qty{0}{\ohm}$)
+* Dans le cas de la résonance, la ligne devient conductrice, bien que les fils ne soient pas connectés
+* Inversement : une ligne court-circuitée devient haute impédance en résonance
+
+---
+[question:AG320]
+
+---
+[question:AG411]
+---
+
+### Lignes coaxiales : Effet similaire
+<left>
+[picture:445:a_lecherleitung_koaxialkabel:Lignes coaxiales usuelles pour la transformation d'impédance]
+</left>
+<right>
+* Avec des lignes coaxiales, un effet de transformation d'impédance comparable peut être obtenu
+</right>
+
+---
+[question:AG410]
+
+---
+[question:AG409]

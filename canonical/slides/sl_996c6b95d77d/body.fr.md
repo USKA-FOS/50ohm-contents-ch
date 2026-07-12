@@ -1,0 +1,23 @@
+## Traitement numérique du signal : Filtres
+
+* Les informations numériques peuvent être traitées de manière presque illimitée  
+* Les échantillons d'entrée sont convertis en échantillons de sortie au moyen de fonctions mathématiques  
+* Les opérations de filtrage peuvent être mises en œuvre numériquement (par exemple, passe-bas, passe-bande ou passe-haut)
+
+---
+
+### Filtres FIR (Finite Impulse Response)
+
+* "Finite" = Un nombre limité d'échantillons d'entrée est utilisé pour chaque échantillon de sortie  
+* Pas de rétroaction ; le calcul est basé exclusivement sur les échantillons actuels et passés
+
+---
+
+### Filtres IIR (Infinite Impulse Response)
+
+* "Infinite" = Le calcul d'un échantillon de sortie se réfère à tous les échantillons d'entrée précédents  
+* Utilisation de la rétroaction conduit à un comportement d'impulsion théoriquement infini
+
+---
+
+[question:AF631]

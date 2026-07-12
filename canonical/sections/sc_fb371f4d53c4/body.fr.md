@@ -1,0 +1,14 @@
+Si vous avez maintenant terminé ce cours et réussi l'examen pour devenir radioamateur, vous recevrez un *certificat d'examen* ainsi qu'un *certificat d'examen de radioamateur* et vous pourrez vous appeler radioamateur. Avez-vous alors le droit d'exploiter une station de radioamateur ? Absolument pas ! Vous avez besoin en plus d'une *autorisation de participation au service de radioamateur*. Ce n'est qu'avec le certificat d'autorisation que l'indicatif personnel est attribué. 
+
+<margin>
+[photo:91:n_zulassung_urkunde:Le certificat d'autorisation de participation au service de radioamateur]
+</margin>
+
+[question:VC106]
+
+Si vous avez eu l'occasion de lire des magazines de radioamateurs, vous avez peut-être déjà remarqué des annonces comme "Simon (14) et Sophie (11) ont réussi leur examen auprès de l'Agence fédérale des réseaux à Dortmund le 8 février". Notre loi sur la radioamateur ne connaît en effet pas d'âge minimum pour les radioamateurs. Dans l'article 4 de la loi AFuG, il est dit à ce sujet : "Toute personne physique résidant en Allemagne peut être admise sur demande à l'examen technique pour les radioamateurs."
+
+[question:VC108]
+
+
+[question:VN011]

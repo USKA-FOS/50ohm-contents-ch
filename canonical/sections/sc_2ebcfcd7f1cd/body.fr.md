@@ -1,0 +1,19 @@
+
+Examinons de plus près la fonction du convertisseur analogique-numérique. Nous savons, grâce à la leçon sur le théorème d'échantillonnage, que pour pouvoir échantillonner un signal sans perte d'information, nous devons échantillonner au moins à un peu plus du double de la fréquence que contient le signal à échantillonner. En règle générale, nous recevons via une antenne toutes sortes de signaux - y compris ceux qui se situent au-dessus de la fréquence maximale que nous voulons traiter. Que se passe-t-il alors lorsque ces signaux rencontrent le convertisseur analogique-numérique ? Rappelons-nous à ce sujet l'exemple de la mouche qui traverse l'image. Ces signaux ne peuvent plus être capturés en raison de la fréquence d'échantillonnage trop faible et apparaissent dans nos échantillons comme des fréquences capturées de manière erronée. On les appelle aussi des alias (en quelque sorte des pseudonymes en allemand). Un signal légèrement supérieur à la fréquence d'entrée maximale apparaîtrait comme un alias avec une fréquence légèrement inférieure à la fréquence d'entrée maximale de notre convertisseur analogique-numérique et représenterait ainsi un signal qui n'existe pas en réalité. Pour empêcher cela, nous devons placer un filtre anti-repliement (en règle générale un filtre passe-bas ou un filtre passe-bande) avant l'entrée du convertisseur analogique-numérique, de sorte que les fréquences indésirables, qui pourraient entraîner des alias, soient efficacement supprimées avant que le signal n'atteigne le convertisseur analogique-numérique.
+
+Le convertisseur analogique-numérique a également besoin d'un générateur de rythme pour sa tâche, que l'on appelle aussi générateur de fréquence d'échantillonnage, afin qu'il puisse générer des échantillons du signal d'entrée à intervalles de temps, qu'il peut ensuite transmettre sous forme de flux de données numériques à d'autres parties d'un circuit. La fréquence de rythme peut être fixée ou contrôlée par des informations de contrôle, par exemple, par un microcontrôleur.
+
+[question:AF620]
+
+Comme un convertisseur analogique-numérique fonctionne toujours avec un nombre limité de valeurs numériques possibles, qui peuvent représenter la taille du signal d'entrée analogique, la capture des valeurs d'amplitude se fait par paliers. Nous nous souvenons de l'exemple précédent avec le variateur et l'interrupteur à gradins. Le fait que le signal d'entrée analogique ne puisse désormais être capturé que par certains paliers entraîne des erreurs de quantification.
+
+[question:AF607]
+
+Le nombre de paliers possibles d'un convertisseur analogique-numérique est également appelé sa résolution. On indique souvent ce nombre en bits (\unit{\bit}). Si un convertisseur peut distinguer \num{256} paliers (par exemple de \num{-128} à \num{+127}), il a \qty{8}{\bit}. Un convertisseur \qty{16}{\bit} peut déjà distinguer \num{65536} paliers. En règle générale, la moitié des valeurs sont utilisées pour la plage de signaux positifs et l'autre moitié des valeurs pour la plage de signaux négatifs.
+
+[question:AF608]
+
+Une autre propriété importante d'un convertisseur analogique-numérique consiste à capturer le signal d'entrée aussi précisément que possible et à éviter les erreurs dans les intervalles de temps entre les échantillons individuels. Pour cela, un générateur de fréquence d'échantillonnage aussi stable que possible est décisif, qui produit une horloge temporelle exacte pour le convertisseur analogique-numérique. Malheureusement, cela est souvent techniquement associé à un effort élevé, de sorte qu'il y a toujours une légère différence entre les fronts de signal de l'horloge. On appelle cela aussi le jitter (en quelque sorte le tremblement en allemand). En fin de compte, cela entraîne un bruit supplémentaire dans le résultat de l'échantillonnage (le flux de données numériques) du convertisseur analogique-numérique.
+
+[question:AF621]
+

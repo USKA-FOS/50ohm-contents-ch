@@ -1,0 +1,3 @@
+Simple réflexion en \unit{\dB} : La puissance est divisée par deux sur la ligne de transmission (pour un SWR optimal de 1).
+Un facteur 2 correspond exactement à \qty{3}{\dB} (rapport de puissance).
+Vous vous en souvenez, ou vous trouvez l'indication dans le recueil de formules dans la section Niveau. Comme il s'agit d'une atténuation, la valeur positive \qty{3}{\dB} est correcte et \qty{-3}{\dB} est incorrecte.

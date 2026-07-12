@@ -1,0 +1,67 @@
+<left>
+* Se compose d'une source de tension et d'un consommateur
+* La tension fait circuler le courant
+</left>
+<right>
+[picture:662:n_stromkreis_geschlossen:Circuit électrique fermé]
+</right>
+
+---
+
+## Interrupteur
+
+<left>
+* Interrompt ou ferme le circuit
+* Lorsque l'interrupteur est ouvert, le flux de courant est interrompu
+
+[picture:663:n_stromkreis_offen:Circuit électrique ouvert]
+</left>
+<right>
+[photo:202:n_stromkreis_schalter:Symboles de circuit et formes de construction des interrupteurs]
+</right>
+
+---
+
+[question:NB701]
+
+---
+
+## Résistance
+
+<left>
+* Limite le flux de courant
+* Convertit le courant en chaleur
+</left>
+<right>
+[photo:203:n_stromkreis_widerstand:Symboles de circuit et formes de construction des résistances]
+</right>
+<note>
+* Toujours utiliser un circuit avec une résistance!
+* Sinon, un court-circuit se produit
+* Un grand courant peut circuler et la source de tension ou les câbles peuvent surchauffer
+</note>
+
+---
+
+[question:NC101]
+
+---
+
+## Direction du courant
+
+[picture:662:n_stromkreis_geschlossen:Circuit électrique fermé]
+
+Du pôle positif au pôle négatif : *direction technique du courant*
+
+<note>
+Dans la direction de la flèche
+</note>
+
+---
+
+[question:NB702]
+
+---
+
+[question:NB207]
+

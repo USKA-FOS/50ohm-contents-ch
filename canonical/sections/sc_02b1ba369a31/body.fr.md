@@ -1,0 +1,47 @@
+Les mesures importantes pour le radioamateur sur les émetteurs sont les mesures de la puissance de sortie des émetteurs ou la mesure des tensions HF dans les composants des circuits HF.
+
+Lors de la mesure de la puissance de sortie des émetteurs, l'émetteur doit être terminé par une impédance définie, qui correspond à l'impédance de sortie de l'émetteur. Dans le domaine du radioamateur, l'impédance habituelle (terminaison de l'émetteur) est de $\qty{50}{\ohm}$. La terminaison peut également être effectuée directement dans le circuit de mesure, mais cela n'est utile que pour les petites puissances.
+
+La mesure des tensions HF est effectuée au moyen d'une sonde HF par redressement de diode et lissage ultérieur de la tension continue ainsi produite avec un condensateur monté en aval.
+
+Avec les sondes HF à une seule diode, la tension de crête de la tension HF appliquée, moins la tension directe de la diode utilisée et d'un diviseur de tension éventuellement monté en amont, peut être mesurée à la sortie de mesure.
+
+[question:AI608]
+
+Pour augmenter la précision de la mesure, en particulier pour les petites puissances dans la gamme VHF/UHF, on utilise souvent un redressement double via 2 diodes, de sorte que les deux demi-ondes HF sont redressées (tension de crête double) et, moins deux fois la tension directe des diodes utilisées, sont disponibles comme tension de mesure additionnée à la sortie de mesure.
+
+[question:AI605]
+[question:AI604]
+
+Pour les puissances HF plus élevées, un atténuateur approprié doit être monté en amont, qui absorbe une grande partie de la puissance de sortie de l'émetteur qui doit être mesurée. L'atténuateur doit être pris en compte dans le calcul de la puissance.
+
+[question:AI609]
+
+Pour pouvoir mesurer les puissances et les tensions HF avec les circuits mentionnés ci-dessus de manière exacte, ceux-ci doivent être calibrés afin de créer des valeurs de correction correspondantes pour les mesures.
+
+[question:AI612]
+
+Examinons maintenant le calcul des circuits en détail.
+Un palpeur HF avec redressement simple et lissage ultérieur est calculé comme suit:
+
+Le signal d'entrée HF est terminé de manière impédante par la résistance existante (ou combinaison de résistances individuelles) à l'entrée. Dans le circuit représenté, la tension HF est divisée par deux par le diviseur de tension suivant (celui-ci étant également efficace en ce qui concerne l'impédance). Ensuite, le redressement de valeur de crête est effectué au moyen d'une diode, dont la tension de sortie se calcule comme la valeur de crête moins la tension directe de la diode et est tamponnée dans le condensateur monté en aval.
+
+Pour une puissance d'entrée de $\qty{1}{\watt}$ dans un système de $\qty{50}{\ohm}$, on obtient une tension d'entrée de $\qty{7,07}{\volt}$ de tension efficace et $\qty{10}{\volt}$ de tension de crête.
+Le diviseur de tension monté en aval divise cette tension en une tension de crête de $\qty{5}{\volt}$, qui, après redressement par la diode, moins sa tension directe de $\qty{0,23}{\volt}$, est encore de $\qty{4,77}{\volt}$. On mesure alors environ $\qty{4,8}{\volt}$ à la sortie du circuit.
+
+[question:AI610]
+
+Inversement, la puissance fournie au circuit peut être calculée à partir de la tension continue mesurée.
+
+À la sortie du circuit, on mesure une tension de crête de $\qty{14,9}{\volt}$. En raison de la tension directe de la diode, la valeur de crête HF avant la diode est de $\qty{15,6}{\volt}$. En tenant compte du diviseur de tension monté en amont, cela donne une tension de crête HF de $\qty{31,2}{\volt}$. Cela correspond à une puissance d'entrée dans un système de $\qty{50}{\ohm}$ de $\qty{9,73}{\watt}$ et donc environ $\qty{9,7}{\watt}$.
+
+[question:AI611]
+
+Dans le cas des sondes HF et des wattmètres avec redressement double de la valeur de crête (2 diodes), le calcul est effectué comme dans le cas du redressement simple, mais il faut tenir compte de la double tension de crête à la sortie et de la double chute de tension à travers 2 diodes.
+
+[question:AI607]
+[question:AI606]
+
+Pour indiquer qu'un émetteur rayonne de la puissance via son antenne, on peut utiliser un indicateur d'intensité de champ. Dans ce cas, le HF reçu est fourni à une diode via une antenne de mesure et redressé par la diode. Ensuite, la tension redressée est fournie à un condensateur via des bobines de choc HF, qui tamponne la tension redressée. L'affichage est effectué par un appareil de mesure de courant sensible. Plus la déviation de l'aiguille de l'instrument de mesure est grande, plus l'intensité de champ HF mesurée à l'antenne est élevée. Pour effectuer des mesures exactes, l'antenne de mesure ainsi que le champ de mesure doivent être calibrés.
+
+[question:AI613]

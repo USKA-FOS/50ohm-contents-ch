@@ -1,0 +1,11 @@
+Un dipôle demi-onde alimenté au centre n'est pas seulement alimenté en courant à sa fréquence fondamentale, mais aussi aux *multiples impairs* de sa fréquence fondamentale, comme le montre la figure [ref:e_stromverteilungen].
+
+[question:AG207]
+
+En revanche, pour les *multiples pairs*, il y a une alimentation en tension, car le point d'alimentation se trouve alors à un ventre de tension.
+
+[question:AG208]
+
+<margin>
+[picture:1050:e_stromverteilungen:Distributions de courant à différentes fréquences fondamentales]
+</margin>

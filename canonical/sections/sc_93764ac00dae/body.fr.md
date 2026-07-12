@@ -1,0 +1,101 @@
+La fonction de base de la diode est déjà connue de la formation de classe N : elle ne laisse passer le courant que dans une direction, à savoir lorsque la tension appliquée à l'anode ($U_a$) est supérieure à la tension à la cathode ($U_k$), cf. figure [ref:e_diode_u_i].
+
+<margin>
+[picture:859:e_diode_u_i:Tensions et courant sur une diode avec une résistance en série]
+</margin>
+
+Mathématiquement, nous pouvons exprimer cette exigence comme suit :
+
+$U_d = U_a - U_k > 0$
+
+Cependant, si $U_d$ est seulement un peu plus grand que 0, aucun courant notable ne circule. Cela est dû à la *caractéristique exponentielle* d'une diode. Le courant de la diode est en effet :
+
+$I_d = I_S \left(e^{\frac{U_d}{U_T}}-1\right)$
+
+$e$ est le nombre dit d'Euler ($e\approx 2,718$), $U_T$ une constante qui, à température ambiante, est d'environ $\qty{26}{\milli\volt}$.
+
+$I_S$ est ici le *courant de saturation inverse*, c'est le très faible courant qui circule à travers la diode lorsque les tensions sont négatives. La valeur de $I_S$ dépend, outre quelques paramètres de la diode, tels que la surface de la diode, principalement du matériau semi-conducteur utilisé. Pour des matériaux comme le germanium (Ge) avec un *écart d'énergie de bande* faible (nous y reviendrons dans la formation de classe A) $I_S$ est plus grand, pour des matériaux avec un écart d'énergie de bande plus grand, $I_S$ est plus petit. 
+
+<margin>
+[picture:861:e_diode_kennlinie_iu:Caractéristique d'une diode]
+</margin>
+
+[question:EC501]
+
+Si nous examinons une caractéristique de diode dans la figure [ref:e_diode_kennlinie_iu], le courant de la diode augmente fortement à partir d'une certaine tension pour des $U_d$ positifs. Cette tension est également appelée *tension de seuil* $U_{th}$, mais elle n'est qu'une expression des différents $I_S$ : plus $I_S$ est petit, plus la tension de seuil est élevée. 
+
+Comme points de repère pour la tension de seuil des diodes pn, nous pouvons indiquer pour Ge environ $\qtyrange{0,2}{0,3}{\volt}$ et pour Si environ $\qtyrange{0,6}{0,7}{\volt}$.
+
+Les *diodes électroluminescentes* (DEL) sont également des diodes pn, dont le matériau semi-conducteur est tel qu'il émet de la lumière lorsque la diode est polarisée dans le sens passant. Cela ne fonctionne qu'avec certains matériaux - pas avec Si et Ge. La couleur de la lumière est donnée par l'écart d'énergie de bande. Plus l'écart d'énergie de bande est grand, plus la lumière est de courte longueur d'onde, plus le courant de saturation inverse est faible, et donc plus la tension de seuil est élevée. Ainsi, les DEL rouges ont environ $\qty{1,7}{\volt}$ de tension de seuil et les DEL vertes $\qty{2,5}{\volt}$. Les différentes caractéristiques sont représentées dans la figure [ref:e_diode_kennlinien].
+
+[question:EC513]
+[question:EC510]
+[question:EC509]
+[question:EC511]
+[question:EC512]
+
+---
+
+<margin>
+[picture:858:e_diode_kennlinien:Caractéristiques de différentes diodes]
+</margin>
+
+
+[question:EC503]
+[question:EC506]
+[question:EC507]
+[question:EC508]
+
+Comme les DEL sont utilisées en polarisation directe, il est important de placer une résistance $R_V$ entre la source de tension $U$ et la DEL. $R_V$ règle le courant $I$ souhaité. Il faut tenir compte de la tension de seuil $U_{th}$ de la DEL :
+
+$ I=\frac{U-U_{th}}{R_V}$
+
+[question:EC514]
+[question:EC515]
+[question:EC516]
+
+---
+
+Dans notre modèle simple, pour des $U_d$ négatifs, seul un faible courant de blocage circule. Mais cela n'est pas vrai pour des tensions très négatives. À un moment donné, le champ électrique sur la zone de déplétion entre n et p devient trop élevé et la diode "passe en conduction", le courant dans le sens inverse augmente extrêmement fortement, comme le montre la figure [ref:n_diode_kennlinie_uz].
+
+Cette *avalanche de blocage* peut avoir diverses causes physiques que nous ne pouvons pas traiter en détail ici. La tension à laquelle cette rupture se produit est généralement appelée *tension Zener* $U_z$, même si l'effet Zener (un effet tunnel quantique) n'est qu'un mécanisme de rupture possible. Les *diodes Zener* sont utilisées pour la stabilisation de tension. Il est important de limiter le courant de rupture par une résistance en série. 
+
+<margin>
+[picture:862:n_diode_kennlinie_uz:Caractéristique d'une diode Z]
+</margin>
+
+---
+
+Le symbole de commutation d'une diode Zener (figure [ref:e_zener_symbol]) est celui d'une diode régulière, dont la barre de cathode reçoit un prolongement supplémentaire sous $\qty{90}{\degree}$. Cela doit rappeler le "pliage" de la caractéristique dans la rupture.
+
+<margin>
+[picture:860:e_zener_symbol:Symbole de commutation d'une diode Zener]
+</margin>
+
+
+
+[question:EC517]
+[question:EC520]
+[question:EC521]
+[question:EC522]
+
+Les diodes traitées jusqu'à présent étaient toutes des *diodes pn*, la propriété de la diode est due à une jonction semi-conductrice. Dans le cas de la *diode Schottky*, il s'agit d'une diode dont les propriétés sont dues à une jonction métal-semi-conducteur. La tension de seuil est environ moitié moindre que celle d'une diode pn en même matériau, ou plus petite, selon la conception exacte de la jonction métal-semi-conducteur. Les diodes Schottky sont utilisées lorsque la tension de seuil doit être faible, ou bien comme diodes de commutation très rapides. 
+
+[question:EC504]
+[question:EC505]
+
+<margin>
+Les diodes métal-semi-conducteur sont les plus anciens composants redresseurs à semi-conducteurs. Ferdinand Braun a découvert leur effet redresseur dès 1874, sans pouvoir expliquer son observation.
+</margin>
+
+En résumé :
+
+Les diodes ne laissent passer le courant que dans une direction. Elles conviennent donc au redressement du courant alternatif.
+
+Cependant, à des tensions de blocage élevées ($U_d < U_z$), le courant dans le sens inverse augmente fortement. Ce point de fonctionnement peut être utilisé très efficacement pour la stabilisation de tension (*diode Zener*).
+
+En outre, elles peuvent être utilisées en inverse comme des capacités commandées en tension, mais nous ne traiterons cela que dans la formation de classe A. 
+
+[question:EC502]
+[question:EC518]
+[question:EC519]

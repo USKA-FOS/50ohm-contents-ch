@@ -1,0 +1,11 @@
+La réactance d'une bobine idéale est appelée réactance inductive et possède un signe positif. Elle dépend à la fois de l'inductance $L$ de la bobine et de la fréquence $f$ de la tension alternative appliquée.
+
+Pour la réactance inductive, on a (voir le recueil de formules) :
+
+$X_L = 2\pi f L$
+
+On en déduit :
+- Plus la fréquence $f$ est grande, plus la réactance est grande.
+- Plus l'inductance $L$ est grande, plus la réactance est également grande.
+
+La réactance inductive est donc positive et dépend de l'inductance et de la fréquence.

@@ -1,0 +1,127 @@
+## Impédance de champ et intensité de champ
+* Impédance de champ dans le vide:
+* $Z_{F0} = \sqrt{\dfrac{\mu_0}{\varepsilon_0}}$
+* $\mu_0$ est la constante de champ magnétique, $\varepsilon_0$ la permittivité du vide  
+* L'intensité de champ magnétique est calculée via $\mu_0$, la densité de flux magnétique et la magnétisation  
+
+---
+
+* Dans un milieu (par exemple, l'air) s'applique:
+* $Z_{F} = \sqrt{\dfrac{\mu}{\varepsilon}}$
+* L'intensité de champ électrique et magnétique dépend de l'impédance de la ligne du milieu
+
+---
+[question:AK102]
+
+---
+### Puissance au point d'alimentation de l'antenne
+
+* La puissance d'entrée de l'antenne résulte de la puissance d'émission moins l'atténuation du câble  
+* Les pertes de câble sont prises en compte comme facteur d'atténuation (par exemple, $\qty{10}{\dB}$ → $\num{0,1}$)  
+* Formule: $P_{Ant} = D \cdot P_{Sender}$
+
+---
+[question:AK104]
+
+---
+## Puissance d'émission maximale selon la BEMFV
+
+* La distance de sécurité doit se situer dans le champ lointain:  
+
+<fragment>
+$d > \dfrac{\lambda}{2\pi}$  
+</fragment>
+
+---
+
+[question:AK107]
+
+--- style="font-size: smaller;"
+#### Solution
+<left>
+* donné: $g_d = \qty{6}{\dBd}$
+* donné: $E = \qty{28}{\volt\per\meter}$
+</left>
+<right>
+* donné: $d = \qty{5}{\meter}$
+* recherché: $P_S$
+</right>
+
+<fragment>
+<left>
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow P_{EIRP} &= \frac{(E \cdot d)^2}{\qty{30}{\ohm}}\\ &= \frac{(\qty{28}{\volt\per\meter} \cdot \qty{5}{\meter})^2}{\qty{30}{\ohm}}\\ &\approx \qty{653}{\watt}\end{split}$
+</left>
+</fragment>
+<fragment>
+<right>
+$\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d - a + 2,15dB}{\qty{10}{\dB}}}\\ \Rightarrow P_S &= \frac{P_{EIRP}}{10^{\frac{g_d - a + 2,15dB}{\qty{10}{\dB}}}}\\ &= \frac{\qty{653}{\watt}}{10^{\frac{\qty{6}{\dBd} - \qty{0}{\dB} + 2,15dB}{\qty{10}{\dB}}}}\\ &\approx \frac{\qty{653}{\watt}}{6,53}\\ &= \qty{100}{\watt}\end{split}$
+</right>
+</fragment>
+
+---
+
+[question:AK113]
+
+--- style="font-size: smaller;"
+#### Solution
+<left>
+* donné: $g_i = \qty{12,15}{\dBi}$
+* donné: $P_A = \qty{250}{\watt}$
+</left>
+<right>
+* donné: $d = \qty{30}{\meter}$
+* recherché: $E$
+</right>
+
+<fragment>
+<left>
+$\begin{split}G_i &= 10^{\frac{g_i}{\qty{10}{\dB}}}\\ &= 10^{\frac{\qty{12,15}{\dBi}}{\qty{10}{\dB}}}\\ &\approx 16,4\end{split}$
+</left>
+</fragment>
+<fragment>
+<right>
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{250}{\watt} \cdot 16,4}}{\qty{30}{\meter}}\\ &\approx \frac{\qty{350}{\volt}}{\qty{30}{\meter}}\\ &\approx \qty{11,7}{\volt\per\meter}\end{split}$
+</right>
+</fragment>
+
+---
+
+[question:AK114]
+
+--- style="font-size: smaller;"
+#### Solution
+* donné: $P_{ERP} = \qty{100}{\watt}$
+* donné: $d = \qty{100}{\meter}$
+* recherché: $E$
+
+<fragment>
+<left>
+$\begin{split}P_{EIRP} &= P_{ERP} \cdot 1,64\\ &= \qty{100}{\watt} \cdot 1,64\\ &= \qty{164}{\watt}\end{split}$
+</left>
+</fragment>
+<fragment>
+<right>
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{164}{\watt}}}{\qty{100}{\meter}}\\ &\approx \qty{0,7}{\volt\per\meter}\end{split}$
+</right>
+</fragment>
+
+---
+
+[question:AK115]
+
+--- style="font-size: smaller;"
+#### Solution
+* donné: $P_{ERP} = \qty{100}{\watt}$
+* donné: $d = \qty{100}{\meter}$
+* recherché: $E$
+
+<fragment>
+<left>
+$\begin{split}P_{EIRP} &= P_{ERP} \cdot 1,64\\ &= \qty{100}{\watt} \cdot 1,64\\ &= \qty{164}{\watt}\end{split}$
+</left>
+</fragment>
+<fragment>
+<right>
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{164}{\watt}}}{\qty{100}{\meter}}\\ &\approx \qty{0,7}{\volt\per\meter}\end{split}$
+</right>
+</fragment>

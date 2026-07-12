@@ -1,0 +1,1 @@
+Pour qu'un transistor bipolaire conduise, la jonction base-émetteur doit être polarisée dans le sens direct comme une diode normale. Cela permet à un courant de base de circuler, ce qui active le transistor.

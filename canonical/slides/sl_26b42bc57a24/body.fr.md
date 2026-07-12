@@ -1,0 +1,109 @@
+--- style="font-size: 0.7em;"
+## Les décibels expliqués simplement
+
+| l:Quoi | r:Puissance en $\unit{\milli\watt}$ |
+| Puissance efficace station EME | 100 000 000 | 
+| Émetteur-récepteur standard | 100 000 |
+| Petit émetteur-récepteur portatif | 1 000 |
+| Signal du haut-parleur (niveau sonore de la pièce) | 100 |
+| Signal des écouteurs | 1 |
+| Signal radio fort | 0,000 001 |
+| Signal radio faible (entrée antenne RX) | 0,000 000 000 001 |
+[table:e_dezibel_leistungen_mw:Puissances en $\unit{\milli\watt}$]
+
+Celui qui manipule ces chiffres commence automatiquement à compter les zéros.
+
+--- style="font-size: 0.7em;"
+Nous comptons les zéros (et appelons le résultat "Bel")
+
+| l:Quoi | r:Puissance en $\unit{\milli\watt}$ | r:Bel |
+| Puissance efficace station EME | 100 000 000 | 8 |
+| Émetteur-récepteur standard | 100 000 | 5 |
+| Petit émetteur-récepteur portatif | 1 000 | 3 |
+| Signal du haut-parleur (niveau sonore de la pièce) | 100 | 2 |
+| Signal des écouteurs | 1 | 0 |
+| Signal radio fort | 0,000 001 | -6 |
+| Signal radio faible (entrée antenne RX) | 0,000 000 000 001 | -12 |
+[table:e_dezibel_leistungen_bel:Puissances en $\unit{\milli\watt}$ et Bel]
+
+<note>
+D'après Alexander Graham Bell
+</note>
+--- style="font-size: 0.7em;"
+$\unit{\dBm}$ = Décibels par rapport à $\unit{\milli\watt}$
+
+| l:Quoi | r:Puissance en $\unit{\milli\watt}$ | r:Bel | r:$\unit{\dBm}$ |
+| Puissance efficace station EME | 100 000 000 | 8 | 80 |
+| Émetteur-récepteur standard | 100 000 | 5 | 50 |
+| Petit émetteur-récepteur portatif | 1 000 | 3 | 30 |
+| Signal du haut-parleur (niveau sonore de la pièce) | 100 | 2 | 20 |
+| Signal des écouteurs | 1 | 0 | 0 |
+| Signal radio fort | 0,000 001 | -6 | -60 |
+| Signal radio faible (entrée antenne RX) | 0,000 000 000 001 | -12 | -120 |
+[table:e_dezibel_leistungen_bel:Puissances en $\unit{\milli\watt}$ et Bel]
+
+<note>
+* Facteur 10
+* déci comme dans décimètre
+</note>
+---
+### Amplification de puissance
+
+*Récepteur*
+* Signal d'entrée: $\qty{0,000000000001}{\milli\watt}$
+* Signal de sortie: $\qty{100}{\milli\watt}$
+* Amplification nécessaire: $\num{100000000000000}$
+ 
+*Émetteur*
+* Étape de génération de fréquence (oscillateur): $\qty{10}{\milli\watt}$
+* Signal de sortie: $\qty{100000}{\milli\watt}$
+* Amplification nécessaire: $\num{10000}$
+ 
+---
+### Amplification de puissance avec dB
+*Récepteur*
+* Signal d'entrée: $\qty{0,000000000001}{\milli\watt} = \qty{-120}{\dBm}$
+* Signal de sortie: $\qty{100}{\milli\watt} = \qty{20}{\dBm}$
+* Amplification nécessaire: $\num{100000000000000} = \qty{140}{\dB}$
+ 
+*Émetteur*
+* Étape de génération de fréquence (oscillateur): $\qty{10}{\milli\watt} = \qty{10}{\dBm}$
+* Signal de sortie: $\qty{100000}{\milli\watt} = \qty{50}{\dBm}$
+* Amplification nécessaire: $\num{10000} = \qty{40}{\dB}$
+
+<note>
+* La différence est l'amplification
+* L'amplification est un facteur et non basée sur le $\unit{mW}$, donc seulement $\unit{\dB}$
+</note>
+
+--- style="font-size: 0.7em;"
+## Facteurs de puissance importants
+
+| c:$\unit{dB}$ | c:≈ Facteur de puissance |
+| $0$ | $1$ |
+| $1,5$ | $\sqrt{2} = 1,41$ |
+| $2,15$ | $1,64$ |
+| $3$ | $2$ |
+| $5$ | $\sqrt{10} = 3,16$ |
+| $6$ | $4$ |
+| $10$ | $10$ |
+| $20$ | $100$ |
+[table:e_dezibel_leistungsfaktoren:Facteurs de puissance importants en $\unit{\dB}$]
+
+<note>
+* Rappel: 1,64 est le facteur entre un dipôle et un radiateur isotrope sphérique
+</note>
+
+---
+### Calcul avec une calculatrice
+
+Modèles plus anciens
+* Valeur du facteur $\rightarrow$ Touche *log* $\rightarrow\times 10 \rightarrow\unit{\dB}$
+* Valeur en $\unit{\dB}$ $\rightarrow\div 10 \rightarrow$ Touche *$10^x$* $\rightarrow$ Facteur
+
+Modèles plus récents
+* Touche *log* $\rightarrow$ Valeur du facteur $\rightarrow$ Touche *)* $\rightarrow\times 10 \rightarrow$ Touche *=* $\rightarrow\unit{\dB}$
+* Touche *$10^x$* $\rightarrow$ Valeur en $\unit{\dB}$ $\rightarrow \div 10 \rightarrow$ Touche *=* $\rightarrow$ Facteur
+
+---
+[question:EA107]

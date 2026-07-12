@@ -1,0 +1,71 @@
+* Division de la bande en différents segments de fréquence
+* Procédés de transmission et utilisation préférentiels
+
+---
+
+[photo:102:n_iaru_bandplan_2m:IARU-Bandplan $\qty{2}{\meter}$]
+
+---
+
+## Fréquence d'appel
+
+Pour trouver rapidement des partenaires radio
+
+* Radiotéléphonie FM ("FM calling")
+* Téléphonie numérique ("digital voice calling")
+
+<note>
+* La radiotéléphonie FM est analogique
+* Les procédés de transmission numérique peuvent être tout ce qui est numérique
+* Plus de détails plus tard dans le cours
+</note>
+
+---
+[question:BC205]
+---
+[question:BC207]
+---
+
+## Changement de fréquence
+
+* Garder les fréquences d'appel libres pour les appels
+* Après l'établissement de la liaison, informer sur une autre fréquence
+* Prendre une fréquence utile dans le plan de bande
+* Changer de fréquence
+
+---
+[question:BC209]
+---
+## Téléphonie analogique SSB
+
+* Il n'y a pas de fréquence d'appel
+* Au lieu de cela, un *centre d'activité* ou *center of activity*
+* Les appels doivent avoir lieu dans l'environnement de cette fréquence
+* Mais toute la zone "SSB" peut être utilisée
+
+---
+[question:BC211]
+---
+[question:BC210]
+---
+## Bandes de fréquences réservées
+
+* Satellites, liaison montante et descendante ("satellite uplink", "satellite downlink")
+* Balises ("beacons")
+* Relais, entrée et sortie ("repeater input", "repeater output")
+* Communication spatiale ("space communication")
+* Télégraphie Morse ("CW")
+
+<note>
+* D'autres types de liaisons doivent être évités
+</note>
+---
+[question:BC214]
+---
+[question:BC215]
+---
+[question:BC218]
+---
+[question:BC217]
+---
+[question:BC213]

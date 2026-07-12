@@ -1,0 +1,41 @@
+La forme de base de l'antenne est l'antenne *dipôle* (figure [ref:n_dipol]). Elle est également appelée simplement dipôle par les radioamateurs. Un dipôle se compose de deux parties, généralement des fils ou des tiges métalliques. L'un des conducteurs du câble d'antenne est connecté à l'une des parties, l'autre conducteur à l'autre partie.
+
+<margin>
+[picture:589:n_dipol:Représentation d'une antenne dipôle]
+</margin>
+
+<wordorigin>
+Le terme *dipôle* vient du grec et signifie "deux pôles".
+</wordorigin>
+
+---
+
+En pratique, on utilise souvent le dipôle demi-onde, qui a une longueur de $\lambda / 2$, c'est-à-dire une demi-longueur d'onde. Exemple : dans la bande des $\qty{10}{\meter}$, la longueur d'onde est d'environ $\qty{10}{\meter}$. La demi-longueur d'onde est donc de $\qty{5}{\meter}$. Un dipôle demi-onde pour la bande des $\qty{10}{\meter}$ doit donc avoir une longueur de $\qty{5}{\meter}$. Chaque segment doit donc avoir une longueur d'environ $\qty{2,5}{\meter}$. On dit alors que le dipôle demi-onde est en *résonance*.
+
+<indepth>
+Il existe également d'autres *variantes de l'antenne dipôle*, par exemple le dipôle plein onde, le dipôle raccourci ou le dipôle alimenté de manière asymétrique, dans lequel le câble d'antenne n'est pas connecté au milieu et les deux parties ont donc des longueurs différentes.
+</indepth>
+
+---
+
+Un dipôle de la bonne longueur a une bonne *rayonnement*. Il émet, lors de l'émission, autant que possible de l'oscillation électrique sous forme d'onde radio ou, lors de la réception, il capte autant que possible d'une onde radio sous forme d'oscillation électrique. Si l'on utilise le dipôle à des fréquences plus élevées ou plus basses, il fonctionne de plus en plus mal.
+
+<indepth>
+La *résonance* n'existe pas seulement dans les antennes, mais par exemple aussi dans les instruments de musique. Cela est évident à l'exemple du contrebasse et du violon : un contrebasse a des cordes relativement longues et produit des tons graves, c'est-à-dire des fréquences basses. Un violon, en revanche, a des cordes plutôt courtes et produit des tons aigus, c'est-à-dire des fréquences élevées. Pour les antennes, c'est en principe la même chose. Les longues antennes dipôles conviennent aux fréquences basses et les courtes antennes dipôles aux fréquences élevées.
+</indepth>
+
+[question:NG103]
+
+Si la fréquence de résonance est inférieure à la fréquence souhaitée, le dipôle est trop long. L'antenne dipôle peut être ajustée à la fréquence souhaitée en la raccourcissant uniformément des deux côtés.
+
+[question:NG304]
+
+---
+
+Inversement, une fréquence de résonance trop élevée d'un dipôle peut être modifiée vers le bas en prolongeant uniformément les deux côtés.
+
+<tip>
+Un fil ou une tige métallique peut être raccourci beaucoup plus facilement qu'allongé. Il est donc judicieux, lors de la construction d'un dipôle, de le concevoir initialement un peu plus long que calculé, puis de le raccourcir progressivement avec précaution jusqu'à ce que la résonance soit atteinte.
+</tip>
+
+[question:NG305]

@@ -1,0 +1,39 @@
+L'Impédance de la ligne n'est pas seulement indépendante de la longueur d'une ligne, mais aussi indépendante de ce qui est connecté à la ligne. Elle dépend essentiellement seulement de la structure transversale du conducteur (géométrie des conducteurs et du diélectrique éventuellement présent). Pour les hautes fréquences, l'impédance de la ligne est largement constante.
+
+[question:EG301]
+
+Les lignes HF importantes sont le câble coaxial, cf. figure [ref:e_uebertragungsleitungen_koaxialkabel], et la ligne d'alimentation à fils parallèles (souvent appelée ligne de poulet, cf. figure [ref:e_uebertragungsleitungen_huehnerleiter]). Le câble coaxial offre, lorsqu'il est utilisé conformément à sa destination, l'avantage d'éviter les rayonnements indésirables du câble.
+
+<margin>
+[photo:65:e_uebertragungsleitungen_koaxialkabel:Câble coaxial ouvert composé de la gaine, du blindage, du diélectrique et du conducteur intérieur]
+</margin>
+
+<margin>
+[photo:324:e_uebertragungsleitungen_huehnerleiter:Ligne d'alimentation à fils parallèles (ligne de poulet)]
+</margin>
+
+[question:EG302]
+
+Les câbles coaxiaux peuvent également rayonner de manière indésirable si des ondes dites d'enveloppe sont présentes. Cela peut perturber les câbles posés directement à côté des câbles coaxiaux et une partie de la puissance peut être découplée. Les ondes d'enveloppe peuvent être supprimées, par exemple, avec un bloqueur d'ondes d'enveloppe.
+
+[question:EG306]
+
+Dans les câbles coaxiaux, les deux conducteurs ont des formes différentes et, en cas de fonctionnement conforme, des tensions différentes y sont appliquées (le blindage n'a pas de tension par rapport à la terre).
+
+---
+
+[question:EG304]
+
+L'inconvénient des câbles coaxiaux est qu'une perte se produit dans le diélectrique et qu'un claquage peut se produire à haute tension. La ligne d'alimentation à fils parallèles a l'avantage d'avoir une atténuation plus faible et une tension de claquage plus élevée.
+
+[question:EG305]
+
+---
+
+<margin>
+[photo:73:e_uebertragungsleitungen_n_stecker_buchse:Douille N et connecteur N]
+</margin>
+
+En cas de tensions et/ou de puissances élevées, des connecteurs appropriés doivent également être utilisés. Le connecteur N est particulièrement adapté.
+%TODO: Appartient-il aux lignes ?
+[question:EG303]

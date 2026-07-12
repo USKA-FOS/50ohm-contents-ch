@@ -1,0 +1,3 @@
+Dans les procédés de modulation analogiques (FM, SSB, AM, etc.), la bande passante occupée du signal émis dépend directement de la fréquence de modulation maximale du signal NF modulé. Pour respecter les réglementations légales concernant la bande passante maximale admissible du signal émis, dans ces types de modulation, la fréquence de modulation NF maximale doit être limitée. Cela peut être fait, par exemple, via un filtre passe-bas ou un filtre passe-bande dans l'amplificateur de microphone, qui supprime les composantes de fréquence élevées.
+
+[question:AD433]

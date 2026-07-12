@@ -1,0 +1,1 @@
+Apprends toi-même les connaissances nécessaires pour l'examen d'amateur radio. Notre matériel d'apprentissage t'aide sur ton chemin !

@@ -1,0 +1,40 @@
+Pour établir une liaison radio entre deux lieux via l'onde spatiale, il faut choisir une fréquence qui soit fiablement réfléchie par l'ionosphère vers la Terre. En règle générale, cela ne concerne pas une seule fréquence, mais une bande de fréquences entière. On choisit souvent la bande radioamateur la plus élevée dans cette plage.
+
+Cette bande de fréquences est limitée vers le haut par la *MUF* (*maximal usable frequency*), c'est-à-dire la fréquence la plus élevée que l'ionosphère peut encore réfléchir pour la distance entre l'émetteur et le récepteur.
+
+[question:EH204]
+
+La MUF dépend de la densité des électrons libres dans la région de réfraction (ici : région F2) ainsi que de l'angle d'incidence de l'onde radio sur l'ionosphère. La figure [ref:e_muf_luf] montre la prévision de la MUF pour un jour d'été en juillet 2025. Il est clair que la MUF dépend de l'heure de la journée : en journée, l'ionisation plus forte entraîne une MUF plus élevée, tandis que la nuit, l'ionisation diminue et la MUF baisse en conséquence. Un autre exemple est montré dans la figure [ref:e_muf_luf2]. La MUF est ici d'environ $\qty{7,5}{\mega\hertz}$. Cela signifie que les fréquences $\qty{3,5}{\mega\hertz}$ et $\qty{7}{\mega\hertz}$ sont encore réfléchies vers la Terre, tandis que les fréquences au-dessus de $\qty{7,5}{\mega\hertz}$ sont déviées en direction de l'espace. C'est aussi la raison pour laquelle nous communiquons avec la station spatiale ISS sur la bande des $\qty{2}{\meter}$ : avec $\qty{145,800}{\mega\hertz}$, nous sommes bien au-dessus d'une MUF typique.
+
+<margin>
+[picture:991:e_muf_luf:Prévision de MUF et LUF en juillet 2025]
+</margin>
+
+<margin>
+[picture:997:e_muf_luf2:Simulation des distances de saut pour différentes fréquences et une MUF d'environ $\qty{7,5}{\mega\hertz}$ lors d'une nuit d'août 2024 avec un angle d'émission de $\qty{45}{\degree}$]
+</margin>
+
+Les relations exactes de la MUF, par exemple en ce qui concerne l'angle d'émission, ne sont traitées qu'en classe A. Pour la classe E, il est important de savoir : plus l'ionisation de l'ionosphère est forte, plus la MUF est généralement élevée.
+
+[question:EH207]
+[question:EH206]
+
+Nous avons déjà rencontré la région D dans le chapitre Ionosphère II. Elle détermine une autre fréquence limite – la LUF (Lowest Usable Frequency), c'est-à-dire la fréquence utilisable la plus basse, en dessous de laquelle l'atténuation est trop forte.
+Ainsi, la LUF constitue la limite vers le bas. Elle est déterminée en premier lieu par l'ionisation dans la *région D*, mais dépend également de l'équipement (puissance d'émission, antennes, sensibilité du récepteur).
+
+[question:EH209]
+
+En particulier en cas d'activité solaire très faible ou pendant de fortes tempêtes magnétiques, le cas particulier peut survenir où, pour un certain trajet de signal, la LUF est supérieure à la MUF. Dans ce cas, aucune communication radio via l'onde spatiale n'est possible entre les lieux concernés. La figure [ref:e_muf_luf] montre également une prévision de la LUF pour juillet 2025. Il est clair que entre 6 et 12 heures, la LUF est supérieure à la MUF et qu'aucune opération en ondes courtes n'est donc possible.
+
+
+
+---
+
+*Note YPA pour l'éditeur : intégrer les deux nouvelles questions là où cela a du sens. Si nécessaire, créer le contenu correspondant.
+Attention : la ligne 17 fait référence à un contenu supplémentaire dans HB9, il viendra peut-être aussi là-bas.*
+
+[question:EH220]
+[question:EH221]
+
+
+

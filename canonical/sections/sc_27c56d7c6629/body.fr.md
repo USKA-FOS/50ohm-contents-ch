@@ -1,0 +1,29 @@
+<margin>
+[photo:217:e_aurora:Aurora am Notfunk Ausbildungswochenende im Mai 2024]
+</margin>
+
+Lorsque des particules chargées du vent solaire pénètrent dans le champ magnétique terrestre, elles sont déviées vers les pôles. Là, elles rencontrent une atmosphère de plus en plus dense et ionisent principalement l'oxygène et l'azote de la haute atmosphère jusqu'à une altitude d'environ $\qty{90}{\kilo\meter}$, c'est-à-dire la région de la E-Region. Les atomes et molécules ainsi excités produisent d'une part les phénomènes lumineux des aurores polaires, d'autre part ils réfractent les ondes radio. Cela est principalement utilisé dans la bande des VHF ($\qty{6}{\meter}$ et $\qty{2}{\meter}$-Band) pour les liaisons DX.
+
+---
+
+Les zones de réfraction sont très dynamiques, le trajet du signal des ondes radio change donc constamment et de manière significative. Cela entraîne des fluctuations rapides du signal (Fading) et, en outre, une extension fréquentielle du signal, appelée Doppler-Spread. C'est pourquoi les liaisons téléphoniques sont difficiles, car la parole devient difficile à comprendre. Les signaux télégraphiques (CW) conviennent mieux, mais ils ont également un son très rugueux, raison pour laquelle, dans le rapport de signal RST, on omet le "T" pour l'évaluation de la qualité du son et on utilise à la place la lettre "A" pour "Aurora".
+
+<webonly>
+<margin>
+La fin d'un QSO CW Aurora entre GM4YXI et OK/DF7TR/P peut être écoutée ici:
+
+[include:applet_aurora]
+
+Un QSO SSB Aurora est également disponible sur [Youtube](https://50ohm.de/assb) pour écouter.
+</margin>
+</webonly>
+
+<latexonly>
+<indepth>
+Un exemple d'un QSO CW Aurora entre OH2MA et OH2LAK sur $\qty{50}{\mega\hertz}$ est disponible sur [Youtube](https://50ohm.de/acw). Ici, on peut entendre le son très rugueux et bruité des signes Morse. Un QSO SSB est également disponible sur [Youtube](https://50ohm.de/assb) pour écouter.
+</indepth>
+</latexonly>
+
+---
+
+[question:EH305]

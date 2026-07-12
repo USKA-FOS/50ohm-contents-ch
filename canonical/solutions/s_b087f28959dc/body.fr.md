@@ -1,0 +1,13 @@
+Le circuit est composé de six cellules en série, chacune avec $\qty{2}{\volt}$.
+
+Dans un circuit en série, les tensions s'additionnent:
+
+$U_\mathrm{ges} = 6 \cdot \qty{2}{\volt} = \qty{12}{\volt}$
+
+La capacité en ampères-heures reste inchangée dans un circuit en série. Chaque cellule a une capacité de $\qty{10}{\ampere\hour}$, donc la batterie entière a également
+
+$\qty{10}{\ampere\hour}$.
+
+La batterie a donc les données suivantes:
+
+$\qty{12}{\volt} / \qty{10}{\ampere\hour}$

@@ -1,0 +1,43 @@
+<left>
+[photo:59:n_besondere_anlaesse_qsl_karte_DA200TF:Carte QSL de la station club avec l'indicatif spécial DA200TF à l'occasion du 200e anniversaire de Theodor Fontane]
+</left>
+<right>
+* Indicatif d'appel de station club avec suffixe de 4-7 caractères
+* Par exemple, pour des événements historiques, des fêtes de ville ou des événements sportifs
+* Le monde entier de la radioamateur peut participer à l'événement
+</right>
+
+---
+## Spécifications
+* Attribution maximale pour 1 an par la BNetzA
+* Pas de prolongation possible
+* Le suffixe peut être composé de chiffres et de lettres
+* Le dernier caractère doit toujours être une lettre
+
+---
+## International
+* Il peut aussi y avoir des stations spéciales à l'étranger
+* Les indicatifs d'appel peuvent avoir d'autres spécifications
+
+--- style="font-size: 0.7em;"
+| l: Indicatif d'appel | l: Attribution | X: Événement |
+| DL1250BRET | 2017 | 1250 ans de la ville de Bretten |
+| DL500BIER | 2016 | 500 ans de la loi allemande sur la pureté de la bière |
+| DF13DEJU | 2019 | Premier vol du Junkers F 13 |
+| DL73AFUG | 2022 | 73e anniversaire de la loi sur la radioamateur |
+| DB50AFZ | 2022 | 50 ans du centre de radioamateur |
+| DP44N44T | 2022 | 44 ans du district N44 |
+| DC0YOTA | 2021 | Youngsters On The Air |
+| DL22MAUS | 2022 | Portes ouvertes avec la souris ! |
+| DL0ELEFANT | 2022 | Portes ouvertes avec la souris ! |
+[table:n_besondere_anlaesse:Exemples de stations spéciales]
+
+<note>
+* Il existe de nombreuses possibilités pour les activités radio
+* Peut apporter de la joie aux activistes ainsi qu'aux collectionneurs
+* Activistes : opérateur d'une station spéciale
+* Les collectionneurs essaient d'atteindre le plus grand nombre de telles stations spéciales
+</note>
+
+---
+[question:VD204]

@@ -1,0 +1,65 @@
+<left>
+[picture:795:a_einweggleichrichtung_c:Redressement simple avec condensateur]
+</left>
+<right>
+* Lors de la demi-onde positive, la diode $D$ laisse passer le courant
+* Charge le condensateur $C_L$ à la valeur de crête de la tension alternative et alimente la résistance de charge $R_L$
+* Lors de la demi-onde négative, la diode $D$ est bloquée
+* Le condensateur $C_L$ se décharge à travers la résistance de charge $R_L$
+</right>
+---
+<left>
+[picture:75:a_Restwelligkeit:Ondulation de la tension continue de sortie $U_L$]
+Une tension continue pulsée $U_L$ s'établit sur la résistance de charge $R_L$
+</left>
+<right>
+* Plus la capacité est grande, plus la tension continue est lissée
+* Les tensions du transformateur sont des tensions efficaces
+* Pour le dimensionnement du condensateur, il faut déterminer la tension de crête
+* Pour la diode, la tension de crête à crête est pertinente
+</right>
+
+---
+[question:AD302]
+---
+#### Solution
+* donné : $U_{\mathrm{eff}} = \qty{15}{\volt}$
+* recherché : $\hat{U}$
+
+<fragment>
+$\hat{U} = U_{\mathrm{eff}} \cdot \sqrt{2} = \qty{15}{\volt} \cdot 1,41 = \qty{21,21}{\volt}$
+</fragment>
+---
+[question:AD303]
+---
+#### Solution
+* donné : $U_P = \qty{230}{\volt}$
+* donné : $ü = 20:1$
+* recherché : $\hat{U} + \qty{50}{\percent}$
+
+<fragment>
+$ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{\qty{230}{\volt}}{20} = \qty{11,5}{\volt}$
+</fragment>
+<fragment>
+$\hat{U} = U_S \cdot \sqrt{2} = \qty{11,5}{\volt} \cdot 1,41 \approx \qty{16,26}{\volt}$
+</fragment>
+<fragment>
+$\hat{U} + \qty{50}{\percent} \approx \qty{25}{\volt}$
+</fragment>
+---
+[question:AD304]
+---
+#### Solution
+* donné : $U_P = \qty{230}{\volt}$
+* donné : $ü = 5:1$
+* recherché : $U_{SS} + \qty{20}{\percent}$
+
+<fragment>
+$ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{\qty{230}{\volt}}{5} = \qty{46}{\volt}$
+</fragment>
+<fragment>
+$\hat{U} = U_S \cdot \sqrt{2} = \qty{46}{\volt} \cdot 1,41 \approx \qty{65,05}{\volt}$
+</fragment>
+<fragment>
+$U_{SS} + \qty{20}{\percent} = 2 \cdot \hat{U} + \qty{20}{\percent} \approx \qty{156}{\volt}$
+</fragment>

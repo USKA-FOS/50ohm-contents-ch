@@ -1,0 +1,25 @@
+Ce texte alternatif n'a pas encore été vérifié.
+
+Résumé : Diagramme en blocs de réseau avec deux symboles de routeur étiquetés « Routeur », les domaines « Réseau de serveurs », « Réseau interne » et « Connexion Internet », un ordinateur portable et plusieurs blocs numériques orange/bleus sur les connexions.
+
+Description détaillée :
+- En haut au centre se trouve un nuage avec l'étiquette « Réseau de serveurs ». À gauche et à droite, une conduite horizontale mène à un symbole de routeur rond (cercle avec quatre flèches vers le haut, la droite, le bas, la gauche), tous deux avec l'étiquette textuelle « Routeur ».
+- En bas à gauche se trouve un nuage avec l'étiquette « Réseau interne », qui est connecté au routeur de gauche par une conduite verticale. À droite de ce nuage se trouve un ordinateur portable, connecté au nuage par une courte ligne horizontale.
+- En bas à droite se trouve le texte « Connexion Internet », d'où une conduite verticale mène vers le haut au routeur de droite.
+
+Blocs numériques (deux rangées de quatre petites cases chacune ; Orange et Bleu) :
+- Sur la conduite supérieure entre le routeur de gauche et « Réseau de serveurs » :
+  - rangée supérieure : Orange « 141 », Orange « 17 », Orange « 5 », Bleu « 18 »
+  - rangée inférieure : Orange « 255 », Orange « 255 », Orange « 255 », Bleu « 0 »
+- Sur la conduite verticale entre le routeur de gauche et « Réseau interne » :
+  - rangée supérieure : Orange « 10 », Orange « 33 », Orange « 0 », Bleu « 1 »
+  - rangée inférieure : Orange « 255 », Orange « 255 », Orange « 0 », Bleu « 0 »
+- À côté de l'ordinateur portable (sur la connexion au « Réseau interne ») :
+  - rangée supérieure : Orange « 10 », Orange « 33 », Orange « 0 », Bleu « 100 »
+  - rangée inférieure : Orange « 255 », Orange « 255 », Orange « 0 », Bleu « 0 »
+- Sur la conduite supérieure entre le routeur de droite et « Réseau de serveurs » :
+  - rangée supérieure : Orange « 141 », Orange « 17 », Orange « 5 », Bleu « 1 »
+  - rangée inférieure : Orange « 255 », Orange « 255 », Orange « 255 », Bleu « 0 »
+- Sur la conduite verticale entre le routeur de droite et « Connexion Internet » :
+  - rangée supérieure : Orange « 46 », Orange « 142 », Orange « 171 », Bleu « 229 »
+  - rangée inférieure : Orange « 255 », Orange « 255 », Orange « 255 », Bleu « 0 »

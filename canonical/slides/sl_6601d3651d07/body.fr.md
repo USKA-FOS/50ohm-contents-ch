@@ -1,0 +1,161 @@
+## Types de batteries
+
+Les types de batteries les plus courants en radioamateur:
+* Batterie au plomb (Pb)
+* Nickel-Métal Hydrure (NiMH)
+* Lithium-Fer-Phosphate (LiFePO4)
+
+---
+[photo:175:a_akku_lifepo4:LiFePO4]
+
+<left>
+* Capacité: $\qty{4200}{\milli\ampere\hour}$
+* Tension: 4S1P / $\qty{13,2}{\volt}$
+</left>
+<right>
+* Décharge: 30C Constant / 40C Burst
+* Connecteur d'équilibrage: JST-XH
+</right>
+
+---
+### Circuits
+
+Exemples:
+
+* 4S1P: 4 cellules en série, 1 en parallèle
+* 4S2P: 4 cellules en série, 2 en parallèle
+
+<fragment>
+Par cellule environ $\qty{3,2}{\volt}$ à $\qty{3,3}{\volt}$, donc<br/>$\qty{3,3}{\volt} \cdot 4 = \qty{13,2}{\volt}$
+</fragment>
+
+---
+### Capacité
+
+Exemple de batterie: $\qty{4200}{\milli\ampere\hour} = \qty{4,2}{\ampere\hour}$
+
+<fragment>
+$\rightarrow$ 1 heure avec $\qty{4,2}{\ampere}$ ou 2 heures avec $\qty{2,1}{\ampere}$ de charge
+</fragment>
+<fragment>
+$t = \frac{Q}{I}$
+</fragment>
+<fragment>
+$t = \frac{\qty{4,2}{\ampere\hour}}{\qty{4,2}{\ampere}} = \qty{1}{\hour}$
+</fragment>
+<note>
+Le cas échéant, convertir les heures en secondes avec $\qty{1}{\hour} = \qty{3600}{\second}$
+</note>
+---
+### Énergie électrique
+
+Énergie électrique stockée dans la batterie
+
+$E = Q \cdot U$
+
+<fragment>
+Exemple de batterie: $E = \qty{4,2}{\ampere\hour} \cdot \qty{13,2}{\volt} = \qty{55,44}{\watt\hour}$
+</fragment>
+---
+### Courant de décharge
+
+Indication sur la batterie exemple: 30C
+
+La décharge peut se faire avec 30 fois la capacité $Q$
+
+<fragment>
+Courant de décharge = $30 \cdot \frac{1}{\unit{\hour}} \cdot \qty{4,2}{\ampere\hour} = \qty{126}{\ampere}$
+</fragment>
+
+<fragment>
+La batterie serait déchargée en 128 secondes.
+</fragment>
+
+<note>
+La section des câbles doit être prise en compte
+</note>
+
+---
+### Circuit série de batteries
+
+<left>
+[photo:176:a_akku_4S1P:Circuit série]
+</left>
+<right>
+* Les tensions s'additionnent
+* Ne connecter que des cellules ayant les mêmes données
+</right>
+<note>
+En cas de données inégales, les cellules s'influencent ou se détériorent
+</note>
+
+---
+### Circuit parallèle de batteries
+
+<left>
+[photo:177:a_akku_4S2P:Circuit parallèle]
+</left>
+<right>
+* Les tensions restent les mêmes
+* Les capacités s'additionnent
+</right>
+<note>
+</note>
+
+---
+### Équilibreur
+
+<left>
+[photo:178:a_akku_lifepo4_anschluss:Connecteurs LiFePO4]
+</left>
+<right>
+* Le connecteur de l'équilibreur peut accéder à la tension de chaque cellule
+* Circuit d'équilibrage pour équilibrer les tensions
+* Protection des cellules
+* Moniteur de batterie
+</right>
+<note>
+</note>
+
+---
+[question:AB210]
+---
+[question:AB209]
+---
+#### Solution
+* donné: $U = \qty{2}{\volt}$
+* donné: $Q = \qty{10}{\ampere\hour}$
+* donné: $N = 6$
+* recherché: $U_{\mathrm{ges}}, Q_{\mathrm{ges}}$
+
+<fragment>
+$U_{\mathrm{ges}} = N \cdot U = 6 \cdot \qty{2}{\volt} = \qty{12}{\volt}$
+</fragment>
+<fragment>
+$Q_{\mathrm{ges}} = Q \cdot 1 = \qty{10}{\ampere\hour}$
+</fragment>
+---
+
+[question:AB211]
+---
+#### Solution
+* donné: $Q_{\mathrm{max}} = \qty{60}{\ampere\hour}$
+* donné: $Q_{\qty{10}{\percent}} = 0,1 \cdot Q_\mathrm{max} = \qty{6}{\ampere\hour}$
+* donné: $I = \qty{0,8}{\ampere}$
+* recherché: $t$
+
+<fragment>
+$Q = I \cdot t \Rightarrow t = \frac{Q}{I} = \frac{Q_{\mathrm{max}} - Q_{10\%}}{I} = \frac{\qty{54}{\ampere\hour}}{\qty{0,8}{\ampere}} = \qty{67,5}{\hour}$
+</fragment>
+
+---
+[question:AB501]
+---
+#### Solution
+* donné: $U = \qty{12}{\volt}$
+* donné: $Q = \qty{5}{\ampere\hour}$
+* recherché: $W$
+
+<fragment>
+$W = P \cdot t = U \cdot I \cdot t = U \cdot Q = \qty{12}{\volt} \cdot \qty{5}{\ampere\hour} = \qty{60,0}{\watt\hour}$
+</fragment>

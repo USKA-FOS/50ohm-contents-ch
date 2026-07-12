@@ -1,0 +1,137 @@
+## Exploitation à distance des stations radio
+
+* Composé de plusieurs blocs fonctionnels  
+* Les appareils modernes intègrent partiellement plusieurs blocs  
+* Séparation entre l'opérateur et le site distant  
+
+---
+
+### Schéma bloc d'une station à distance
+
+<left>
+[picture:501:a_remotebetrieb:Schéma bloc Exploitation à distance]
+</left>
+<right>
+* Représentation logique des blocs fonctionnels  
+* Commande, connexion réseau, interface à distance  
+* Émetteur-récepteur et appareils connectés  
+</right>
+
+---
+
+#### Ordinateur et partie de commande de l'opérateur (Bloc 1)
+
+<left>
+[picture:501:a_remotebetrieb:Schéma bloc Exploitation à distance]
+</left>
+<right>
+* Convertit les signaux audio et de commande en paquets de réseau  
+* Les signaux reçus sont rendus audibles et visibles  
+</right>
+
+---
+
+#### Réseau
+
+<left>
+[picture:501:a_remotebetrieb:Schéma bloc Exploitation à distance]
+</left>
+<right>
+* Connecte l'opérateur au site distant  
+* Utilisation d'Internet possible  
+</right>
+
+---
+
+#### Interface à distance sur le site distant (Bloc 2)
+
+<left>
+[picture:501:a_remotebetrieb:Schéma bloc Exploitation à distance]
+</left>
+<right>
+* Convertit les paquets de réseau en signaux de commande et audio  
+* Transmet les signaux audio reçus à l'opérateur  
+</right>
+
+---
+
+#### Émetteur-récepteur/Amplificateur/Syntoniseur/Rotateur d'antenne (Bloc 3)
+
+<left>
+[picture:501:a_remotebetrieb:Schéma bloc Exploitation à distance]
+</left>
+<right>
+* Commandés via l'interface à distance  
+* Le retour des commandes de contrôle se fait via le réseau  
+</right>
+
+---
+
+[question:AF701]
+
+---
+
+[question:AF702]
+
+---
+
+[question:AF704]
+
+---
+
+[question:AF703]
+
+---
+
+[question:AF705]
+
+---
+
+### Retards dans l'exploitation à distance
+
+* Les temps de réseau et de traitement entraînent des latences  
+* Le codage et le décodage des signaux audio provoquent des retards  
+* Doit être pris en compte lors de l'exploitation radio  
+
+---
+
+[question:AF709]
+
+---
+
+[question:AF710]
+
+---
+
+### Watchdog pour la surveillance de la station à distance
+
+* Empêche un état incontrôlable en cas de rupture de connexion  
+* Échange régulier de paquets de données entre la station et l'opérateur  
+* En cas de réponse manquante, l'émetteur-récepteur passe en état sûr  
+
+---
+
+[question:AF708]
+
+---
+
+### Déconnexion à distance de l'alimentation électrique
+
+* L'émetteur-récepteur peut passer dans un état indéfini  
+* La tension d'alimentation doit pouvoir être coupée à distance  
+* Solution : prise IP pour la commande via le réseau  
+
+---
+
+[question:AF707]
+
+---
+
+### Perturbations par l'émetteur-récepteur
+
+* La station à distance peut être perturbée par ses propres signaux  
+* Des mesures appropriées pour l'élimination des perturbations sont nécessaires  
+
+---
+
+[question:AF706]

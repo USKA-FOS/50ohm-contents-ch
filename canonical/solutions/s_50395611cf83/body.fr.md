@@ -1,0 +1,5 @@
+Le déphasage entre la tension et le courant est de $\qty{90}{\degree}$, le courant (rouge) précédant la tension (bleue),
+
+[picture:943:a_blindleistung_kondensator:Déphasage au condensateur entre la tension et le courant]
+
+Astuce : Au condensat*ooo*r, le courant précède v*ooo*r!

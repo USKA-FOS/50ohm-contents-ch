@@ -1,0 +1,49 @@
+Dans la classe E, nous avons appris qu'un oscilloscope représente l'évolution temporelle des tensions. Nous pouvons donc vérifier les formes d'onde des signaux avec un oscilloscope.
+
+[question:AI301]
+
+<margin>
+[picture:1005:a_impulsbreite:Détermination de la largeur d'impulsion d'un signal rectangulaire non idéal]
+</margin>
+
+---
+
+En plus des tensions alternatives sinusoïdales, des tensions rectangulaires apparaissent également grâce à la technique numérique. Cependant, il n'existe pas de tension rectangulaire exactement. Les bords sont toujours un peu inclinés ou déformés. Le temps entre la montée et la descente d'un rectangle, que l'on appelle largeur d'impulsion ou durée d'impulsion, est donc toujours mesuré à mi-hauteur, c'est-à-dire à 50% de la tension. Ainsi, il est garanti que pour le même signal, tout le monde obtient le même résultat de mesure.
+
+<indepth>
+La raison de ces déformations est les capacités et inductances inévitables dans les lignes et composants, qui agissent comme des filtres et atténuent les composantes de haute fréquence d'un signal rectangulaire.
+</indepth>
+
+[question:AI303]
+[question:EI303]
+
+
+Les oscilloscopes peuvent représenter des signaux avec des fréquences et des formes d'onde très différentes. Pour que ces signaux apparaissent stables à l'écran, les oscilloscopes possèdent un dispositif de déclenchement (en anglais trigger = « déclencher »). L'appareil surveille ainsi en continu le signal d'entrée et commence l'enregistrement dès qu'une condition préalablement définie est remplie – par exemple, lorsque le signal dépasse une certaine tension, appelée tension de déclenchement. À partir de ce moment, l'échantillonnage et la mémorisation des valeurs de mesure commencent, qui sont ensuite représentées sous forme de courbe à l'écran.
+
+
+Grâce à cette procédure, chaque représentation commence toujours au même état de signal, de sorte que les signaux périodiques comme les oscillations sinusoïdales ou les impulsions rectangulaires semblent figés et clairement reconnaissables. Les oscilloscopes numériques peuvent en outre également afficher des images individuelles, c'est-à-dire « figer » l'écran. Cela facilite l'analyse des signaux non périodiques. La touche prévue à cet effet est généralement marquée SINGLE. De plus, plusieurs mesures peuvent être superposées pour rendre visibles, par exemple, les fluctuations temporelles d'un signal (en anglais jitter).
+
+[question:AI302]
+
+%<indepth>
+%La figure [ref:a_oszilloskop_einzelbild] montre une image individuelle de l'enregistrement musical de la figure [ref:a_oszilloskop_ueberlagerung]. Elle a été photographiée à partir d'un oscilloscope plus ancien qui fonctionne principalement de manière analogique et possède en outre une petite mémoire numérique.
+%[photo:222:a_oszilloskop_einzelbild:Image individuelle d'un enregistrement musical]
+%</indepth>
+
+Toute ligne ne convient pas pour les signaux haute fréquence – cela s'applique également à la liaison entre l'objet de mesure et l'oscilloscope. Pour cela, on utilise généralement des sondes. Elles établissent la liaison et veillent à ce que le signal soit transmis le plus fidèlement possible, sans charger fortement le circuit. Pour ce faire, elles réduisent la tension du signal (par exemple dans un rapport de 10:1), adaptent la résistance et la capacité et contiennent souvent une compensation pour les hautes fréquences.
+
+Une sonde se compose d'un boîtier en forme de poignée, comparable à un stylo à bille. À son extrémité, différentes pointes ou aiguilles peuvent être fixées pour contacter le point de mesure. La liaison de masse s'effectue par l'intermédiaire d'une pince crocodile (voir figure [ref:a_oszilloskop_messung]). La figure [ref:a_oszilloskop_tastkoepfe] montre trois exemples de telles sondes. Les modèles haut de gamme sont en conséquence coûteux, car ils doivent offrir de larges bandes passantes, une faible altération du signal et une mécanique précise.
+
+<margin>
+[photo:224:a_oszilloskop_messung:Mesure avec une sonde. Entre les diodes D1 et D2, on voit la pointe de test et plus à gauche la pince crocodile pour la liaison de masse.]
+</margin>
+
+<margin>
+[photo:223:a_oszilloskop_tastkoepfe:Sondes avec différentes pointes de test. Les pinces crocodiles ont été retirées pour cette prise de vue.]
+</margin>
+
+Les sondes les plus simples relient la pointe de test directement à l'entrée de mesure. On parle de sondes 1:1, car la tension appliquée à la pointe arrive inchangée à l'oscilloscope. Les sondes pour hautes fréquences sont plus élaborées. Elles divisent la tension d'entrée à une valeur plus faible, souvent un dixième. Si l'on mesure une tension de 10 volts avec une telle sonde 10:1, 1 volt est affiché à l'écran.
+
+<indepth>
+Chez certains oscilloscopes, on peut régler le rapport de division de la sonde. La tension réelle est alors affichée à l'écran. Les sondes passives 10:1 contiennent entre autres une résistance de $\qty{9}{\mega\ohm}$ qui se trouve dans le chemin du signal. Les oscilloscopes ont en règle générale une résistance interne de $\qty{1}{\mega\ohm}$. Il en résulte ainsi un diviseur de tension de 10:1. De plus, un petit condensateur rotatif est présent dans la sonde ou dans la fiche. Il sert à adapter la capacité de la sonde et du câble à l'entrée de mesure et est réglé de telle sorte qu'un signal rectangulaire apparaît le plus fidèlement possible à l'écran. En plus des sondes passives décrites ici, il existe plusieurs autres variantes. Il existe par exemple des sondes avec un câble coaxial adapté de $\qty{50}{\ohm}$. Elles sont particulièrement adaptées aux très hautes fréquences, mais n'ont qu'une résistance interne relativement faible. Les versions actives résolvent ce problème en amplifiant le signal directement dans la sonde.
+</indepth>

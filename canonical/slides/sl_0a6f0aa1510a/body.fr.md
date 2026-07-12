@@ -1,0 +1,18 @@
+## Retards dans la transmission des signaux
+
+* Des retards surviennent lors de la transmission et du traitement des signaux
+* Vitesse de la lumière : temps que les ondes électromagnétiques mettent pour aller de l'émetteur au récepteur
+* Autres retards dus au stockage intermédiaire (buffer) et aux filtres
+
+---
+
+## Latence dans le traitement des signaux
+
+* Temps de propagation entre l'émetteur et le récepteur ou entre les étapes de traitement
+* La latence est mesurée en secondes
+* Valeurs typiques : quelques millisecondes à quelques secondes
+* Les procédés analogiques ont souvent des latences plus faibles que les procédés numériques, car il y a moins de stockage intermédiaire
+
+---
+
+[question:AF637]

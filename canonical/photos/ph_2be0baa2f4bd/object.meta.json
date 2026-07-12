@@ -24,7 +24,8 @@
   },
   "languages": [
     "de",
-    "it"
+    "it",
+    "fr"
   ],
   "metadata": {
     "asset": {
@@ -40,6 +41,7 @@
     "reconstruction": {
       "description_canonical_files": {
         "de": "271.de.txt",
+        "fr": "271.fr.txt",
         "it": "271.it.txt"
       },
       "description_preamble": "Dieser Alt-Text wurde noch nicht überprüft.",
@@ -68,6 +70,10 @@
     {
       "language": "it",
       "state": "to_be_reviewed"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_reviewed"
     }
   ],
   "source": {
@@ -83,6 +89,7 @@
       "storage": {
         "files": {
           "de": "271.de.txt",
+          "fr": "271.fr.txt",
           "it": "271.it.txt"
         },
         "kind": "description_file_bundle"
@@ -96,6 +103,7 @@
       "storage": {
         "files": {
           "de": "271.de.txt",
+          "fr": "271.fr.txt",
           "it": "271.it.txt"
         },
         "kind": "description_file_bundle"

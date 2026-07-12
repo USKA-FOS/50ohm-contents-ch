@@ -1,0 +1,1 @@
+Un régulateur linéaire de tension ne peut stabiliser la tension de sortie que si la tension d'entrée est supérieure à la tension de sortie souhaitée. Une partie de la tension d'entrée est en effet nécessaire dans le régulateur lui-même pour qu'il fonctionne correctement et puisse réguler les fluctuations de tension.

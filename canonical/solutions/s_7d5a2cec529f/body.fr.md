@@ -1,0 +1,29 @@
+Données:
+
+$ U = \qty{15}{\volt} $
+
+et
+
+$ R_1 = R_2 = R_3 = \qty{10}{\kilo\ohm} $
+
+Tout d'abord, la résistance de remplacement du circuit en parallèle de $R_2$ et $R_3$ est calculée:
+
+$ R_{23} = \frac{R_2 \cdot R_3}{R_2 + R_3} $
+
+Comme les deux résistances sont de taille égale, il en résulte:
+
+$ R_{23} = \qty{5}{\kilo\ohm} $
+
+La résistance totale du circuit est donc:
+
+$ R_\mathrm{ges} = R_1 + R_{23} = \qty{10}{\kilo\ohm} + \qty{5}{\kilo\ohm} = \qty{15}{\kilo\ohm} $
+
+Maintenant, le courant total peut être calculé:
+
+$ I_\mathrm{ges} = \frac{U}{R_\mathrm{ges}} = \frac{\qty{15}{\volt}}{\qty{15}{\kilo\ohm}} = \qty{1}{\milli\ampere} $
+
+Ce courant traverse d'abord $R_1$ et se divise ensuite en deux branches de résistances égales $R_2$ et $R_3$.
+
+Comme les deux résistances sont de taille égale, la moitié du courant total traverse chaque branche:
+
+$ I_3 = \frac{I_\mathrm{ges}}{2} = \frac{\qty{1}{\milli\ampere}}{2} = \qty{0,5}{\milli\ampere} $

@@ -1,0 +1,21 @@
+Le champ proche se divise en champ proche réactif et champ proche rayonnant. Dans la plupart des cas, le champ proche rayonnant peut être traité comme le champ lointain.
+
+Dans le champ proche (réactif) d'une antenne, l'intensité du champ électrique et l'intensité du champ magnétique n'ont pas de relation de phase constante entre elles. 
+
+[question:AK101]
+
+Une relation de phase constante ne se produit que dans le champ lointain d'une antenne. Le champ lointain proprement dit ne commence qu'à $4\cdot\lambda$. Si la formule approchée pour le champ lointain est utilisée dans le champ proche rayonnant, l'intensité de champ calculée est supérieure à l'intensité de champ réelle. On est donc du bon côté. Cela ne s'applique cependant pas aux antennes magnétiques et très courtes.
+
+La transition entre le champ proche réactif et le champ proche rayonnant (champ lointain) dépend de la longueur d'onde. 
+
+$d > \dfrac {\lambda} {2 \cdot \pi}$
+
+Pour une longueur d'onde de par exemple $\qty{20}{\meter}$, la transition se situe donc à une distance de $d = \dfrac {\qty{20}{\meter}} {2 \cdot \pi} \approx \qty{3,18}{\meter}$.
+
+Pour le calcul des distances de protection des personnes dans le champ lointain, une formule approchée est possible. Cela évite des mesures ou des simulations éventuellement coûteuses.
+
+La formule $d = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$ s'applique à la plupart des formes d'antennes, si la condition $d > \dfrac {\lambda} {2 \cdot \pi}$ est remplie.
+
+Pour les antennes qui sont petites par rapport à la longueur d'onde, ou si la distance de sécurité se situe dans la zone proche, la formule approchée ci-dessus ne peut pas être appliquée.
+ 
+[question:AK103]

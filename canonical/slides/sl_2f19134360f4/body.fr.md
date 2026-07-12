@@ -1,0 +1,14 @@
+Utilisation : ondes courtes jusqu'à la bande des 2 m
+
+<left>
+[photo:69:n_koaxsteckverbinder_pl_stecker:Connecteur PL]
+</left>
+<right>
+[photo:70:n_koaxsteckverbinder_pl_einbaubuchse:Douille PL encastrée]
+</right>
+<note>
+"Connecteur à banane blindé"
+</note>
+---
+
+[question:NG202]

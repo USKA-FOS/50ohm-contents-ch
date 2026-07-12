@@ -1,0 +1,1 @@
+Une cellule solaire convertit directement l'énergie rayonnante de la lumière du soleil en énergie électrique. Ce processus est appelé effet photovoltaïque.

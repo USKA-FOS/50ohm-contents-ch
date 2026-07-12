@@ -1,0 +1,62 @@
+<left>
+* L'un des premiers et des plus simples récepteurs pour AM
+* L'énergie est directement prélevée du signal reçu
+* Utilisable uniquement dans la zone locale des émetteurs de radiodiffusion puissants
+</left>
+<right>
+[photo:193:am_detektor:Récepteur détecteur]
+</right>
+
+---
+
+<left>
+[picture:799:am_detektor:Schéma d'un simple récepteur détecteur]
+* Circuit oscillant parallèle composé d'une bobine et d'un condensateur variable
+</left>
+<right>
+[picture:800:am_detektor_antenne:Signal à l'antenne]
+[picture:801:am_detektor_diode:Signal redressé à la diode]
+[picture:802:am_detektor_kopfhoerer:Signal AF audible]
+</right>
+
+--- data-transition="none"
+
+<left>
+[picture:799:am_detektor:Schéma d'un simple récepteur détecteur]
+* Le signal de l'antenne (rouge) excite le circuit oscillant s'il est accordé sur la fréquence
+</left>
+<right>
+[picture:800:am_detektor_antenne:Signal à l'antenne]
+[picture:801:am_detektor_diode:Signal redressé à la diode]
+[picture:802:am_detektor_kopfhoerer:Signal AF audible]
+</right>
+
+--- data-transition="none"
+
+<left>
+[picture:799:am_detektor:Schéma d'un simple récepteur détecteur]
+* La diode (bleue) redresse la modulation AM
+</left>
+<right>
+[picture:800:am_detektor_antenne:Signal à l'antenne]
+[picture:801:am_detektor_diode:Signal redressé à la diode]
+[picture:802:am_detektor_kopfhoerer:Signal AF audible]
+</right>
+
+--- data-transition="none"
+
+<left>
+[picture:799:am_detektor:Schéma d'un simple récepteur détecteur]
+* Un casque à haute impédance (vert) rend le signal audible, car le casque est lent et ne peut pas suivre les impulsions de courant individuelles
+</left>
+<right>
+[picture:800:am_detektor_antenne:Signal à l'antenne]
+[picture:801:am_detektor_diode:Signal redressé à la diode]
+[picture:802:am_detektor_kopfhoerer:Signal AF audible]
+</right>
+<note>
+* Le casque agit comme un filtre passe-bas et restaure l'enveloppe
+</note>
+
+---
+[question:EF101]

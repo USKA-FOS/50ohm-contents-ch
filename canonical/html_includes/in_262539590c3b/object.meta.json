@@ -10,7 +10,8 @@
     }
   ],
   "languages": [
-    "de"
+    "de",
+    "fr"
   ],
   "metadata": {},
   "object_type": "html_include",
@@ -27,6 +28,10 @@
     {
       "language": "de",
       "state": "imported_approved"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_reviewed"
     }
   ],
   "source": {
@@ -41,7 +46,8 @@
       "sort_order": 0,
       "storage": {
         "files": {
-          "de": "body.de.html"
+          "de": "body.de.html",
+          "fr": "body.fr.html"
         },
         "kind": "text_file"
       },

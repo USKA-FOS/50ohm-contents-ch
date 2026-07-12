@@ -1,0 +1,26 @@
+La désignation du circuit de base d'un transistor bipolaire dépend de la connexion (base, collecteur ou émetteur) qui est traversée à la fois par le signal d'entrée et le signal de sortie.
+
+Dans le cas du *circuit collecteur*, le signal d'entrée provient de la source, traverse la base, le *collecteur* et la tension d'alimentation pour revenir à la source. Le signal de sortie provient du collecteur, traverse la charge (puits) et revient au *collecteur* via la tension d'alimentation.
+
+[question:AD401]
+
+Pour fonctionner comme un amplificateur de courant linéaire, le transistor dans le circuit collecteur nécessite un point de fonctionnement défini (BIAS), généralement fixé par un diviseur de tension à la base.
+
+La résistance d'émetteur convertit le courant qui traverse la jonction collecteur-émetteur en une chute de tension qui est prélevée à l'émetteur. Le courant d'émetteur du transistor (ainsi que la partie normalement négligeable du courant de base) traverse la résistance d'émetteur vers la masse. Le courant à travers la résistance d'émetteur provoque une augmentation du potentiel d'émetteur (tension d'émetteur) en raison de la chute de tension qui en résulte, agissant ainsi comme une contre-réaction pour la tension de base. Cela stabilise davantage le point de fonctionnement du transistor, car les variations du courant de collecteur dues à des causes thermiques sont ainsi régulées.
+
+Le couplage et le découplage des signaux à la base et à l'émetteur se font via des condensateurs de couplage. Ceux-ci ont pour rôle d'empêcher les composantes de tension continue d'atteindre l'étage amplificateur, ce qui modifierait le point de fonctionnement.
+
+Le condensateur de blocage dans la tension de service (+) sert à évacuer les signaux HF et BF indésirables, afin d'éviter les effets de rétroaction sur l'étage et la tension d'alimentation. De plus, le collecteur est mis en signal (pour la tension alternative) sur l'entrée et la sortie par le condensateur de blocage.
+
+Le déphasage entre le signal d'entrée et le signal de sortie est de $\qty{0}{\degree}$ dans le circuit collecteur, car lors d'une demi-onde positive dans la tension d'entrée, le courant d'émetteur augmente et donc la chute de tension à la résistance d'émetteur augmente. Cela augmente la tension au condensateur de sortie. Il en résulte une demi-onde positive à la sortie de l'étage amplificateur.
+
+L'amplification de tension du circuit collecteur se situe, avec une conception appropriée, dans la plage de $\num{0,9}$ à $\num{0,98}$ et est toujours légèrement inférieure à $1$. L'amplification de courant du circuit collecteur est en revanche très élevée, car l'impédance d'entrée du circuit est relativement élevée. L'impédance de sortie est en revanche très faible par rapport à l'impédance d'entrée.
+
+[question:AD405]
+[question:AD402]
+[question:AD403]
+
+Le *circuit collecteur est souvent utilisé comme étage tampon entre l'oscillateur et d'autres parties du circuit*, qui sinon chargeraient l'oscillateur de manière à faible impédance, afin d'obtenir un découplage et une meilleure stabilisation de la fréquence de l'oscillateur.
+
+[question:AD404]
+

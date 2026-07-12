@@ -1,0 +1,53 @@
+* Trois autres composants de base
+* Le fonctionnement est le sujet de la classe E et A
+* Pour l'examen : reconnaître les symboles de circuit
+
+---
+## Condensateur
+
+<left>
+* Stocke une petite quantité d'énergie
+* Se compose souvent de deux plaques parallèles
+</left>
+<right>
+[photo:206:n_bauelemente_kondensator:Symboles de circuit et formes de construction des condensateurs]
+</right>
+
+---
+
+[question:NC201]
+
+---
+## Bobine
+
+<left>
+* Stocke également une petite quantité d'énergie
+* Fonctionne techniquement mais complètement différemment du condensateur
+* Se compose, dans les cas simples, d'un fil enroulé
+</left>
+<right>
+[photo:207:n_bauelemente_spule:Symboles de circuit et formes de construction des bobines]
+</right>
+
+---
+
+[question:NC301]
+
+---
+## Transistor
+
+<left>
+* Interrupteur électrique
+* Ou amplificateur, selon le câblage
+* A trois connexions
+</left>
+<right>
+[photo:208:n_bauelemente_transistor:Symboles de circuit et formes de construction des transistors]
+</right>
+<note>
+Dans la classe N, il n'y a pas d'autre composant avec trois connexions
+</note>
+
+---
+
+[question:NC501]

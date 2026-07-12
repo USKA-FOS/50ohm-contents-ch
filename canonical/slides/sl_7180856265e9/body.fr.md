@@ -1,0 +1,144 @@
+## Fréquence maximale utilisable (MUF)
+
+<left>
+* Classe E : Fréquence la plus élevée avec laquelle une liaison peut être établie par l'onde spatiale
+</left>
+<right>
+[picture:997:e_muf_luf2:Simulation des sauts de distance pour différentes fréquences et une MUF d'environ $\qty{7,5}{\mega\hertz}$ lors d'une nuit d'août 2024 avec un angle d'émission de $\qty{45}{\degree}$]
+</right>
+
+---
+
+## Fréquence maximale utilisable (MUF)
+
+<left>
+* Classe A : Dépend de l'angle d'émission $\alpha$
+</left>
+<right>
+[picture:870:e_muf_winkel:Les angles pour le calcul de la MUF]
+</right>
+
+---
+
+## Fréquence maximale utilisable (MUF)
+
+<left>
+* Si l'on émet de manière raide (par exemple $\qty{60}{\degree}$), la MUF diminue et l'onde radio n'est éventuellement plus réfractée.
+* Si l'on émet de manière plate (par exemple $\qty{30}{\degree}$), la MUF augmente.
+</left>
+<right>
+[picture:998:e_muf_winkel2:Distance de saut à 7 MHz en été 2024]
+</right>
+
+---
+
+[question:AH206]
+
+---
+
+[question:AH207]
+
+---
+
+## Fréquence critique
+
+<left>
+* À un angle d'émission de $\qty{90}{\degree}$, le signal doit effectuer un virage de $\qty{180}{\degree}$ dans l'ionosphère
+* Fréquence critique $f_c$ à laquelle le signal est réfléchi
+* La MUF est supérieure à $f_c$, car en règle générale, on n'émet pas verticalement vers le haut
+</left>
+<right>
+[picture:870:e_muf_winkel:Les angles pour le calcul de la MUF]
+<fragment>
+$\mathrm{MUF} \approx \frac{f_c}{\sin(\alpha)}$
+</fragment>
+</right>
+
+<note>
+La fréquence critique est également indiquée comme $f_k$ ou $f_\mathrm{krit}$
+</note>
+
+---
+
+## Exemple Ionosonde Juliusruh
+
+[picture:999:e_muf_fof2:MUF 3000 (Émission plate) et $f_\text{c}$ le 08.09.2025]
+
+---
+
+[question:AH208]
+
+--- style="font-size: smaller;"
+## Fréquence optimale
+
+* La planification de fréquence commerciale utilise une *Frequency of optimal transmission*, fréquence d'émission optimale
+* Fréquence qui, sur un certain trajet de signal, permet statistiquement une liaison radio sur 90% des jours
+* Se situe à 15% en dessous de la moyenne mensuelle de la MUF
+* $f_{\mathrm{opt}} = \mathrm{MUF}\cdot 0,85$
+* Joue un rôle mineur dans le radioamateur, car aucune liaison permanente n'est établie
+* Dans le radioamateur, on travaille jusqu'à près de la MUF
+
+---
+[question:AH209]
+---
+### Solution
+<left>
+* donné : $\alpha = \qty{45}{\degree}$
+* donné : $f_c = 3MHz$
+</left>
+<right>
+* recherché : $\mathrm{MUF}$
+* recherché : $f_{\mathrm{opt}}$
+</right>
+
+<left>
+<fragment>
+$\begin{split} \text{MUF} & \approx \frac{f_c}{\sin(\alpha)}\\&\approx \frac{\qty{3}{\mega\hertz}}{\num{0,71}}\\&\approx \qty{4,2}{\mega\hertz}\end{split}$
+</fragment>
+</left>
+<right>
+<fragment>
+$\begin{split} f_{\mathrm{opt}} &= \mathrm{MUF}\cdot 0,85\\ &= \qty{4,2}{\mega\hertz} \cdot 0,85\\ &= \qty{3,6}{\mega\hertz} \end{split}$
+</fragment>
+</right>
+
+---
+## Fréquence minimale utilisable (LUF)
+
+Fréquence minimale avec laquelle une liaison peut être établie par l'onde spatiale
+
+---
+[question:AH210]
+---
+[question:AH211]
+---
+
+## Fréquence critique
+
+<left>
+[picture:870:e_muf_winkel:Les angles pour le calcul de la MUF]
+Répétition
+</left>
+<right>
+* À un angle d'émission de $\qty{90}{\degree}$, le signal doit effectuer un virage de $\qty{180}{\degree}$ dans l'ionosphère
+* Fréquence critique $f_c$ à laquelle le signal est réfléchi
+* La MUF est supérieure à $f_c$, car en règle générale, on n'émet pas verticalement vers le haut
+</right>
+
+<note>
+La fréquence critique est également indiquée comme $f_k$ ou $f_\mathrm{krit}$
+</note>
+---
+
+* La fréquence critique varie selon la région ionosphérique, le lieu et l'heure
+* Indications séparées possibles selon la région ionosphérique
+* Symbole : fo
+* Complété par la couche, par exemple foF2
+
+<note>
+fo avec petit "o" pour onde ordinaire
+</note>
+---
+[question:AH204]
+---
+[question:AH205]

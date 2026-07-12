@@ -1,0 +1,3 @@
+Calcul simple pour les deux morceaux de câble:
+
+$ \qty{2}{\dB} + \qty{3}{\dB} = \qty{5}{\dB}$

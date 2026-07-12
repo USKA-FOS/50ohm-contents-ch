@@ -1,0 +1,1 @@
+Si deux anodes sont connectées ensemble à une borne de sortie, alors la tension continue pulsée sera négative par rapport à la prise médiane du transformateur. Les deux demi-ondes se trouvent en dessous de la ligne de zéro.

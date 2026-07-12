@@ -1,0 +1,51 @@
+Rappel du début du cours:
+* Après la séparation des charges positives et négatives, celles-ci tentent de se rejoindre à nouveau
+* Il y a une tension électrique
+* L'unité est le volt, abrégé en $\unit{\volt}$
+
+---
+
+[question:NA201]
+
+---
+## Petites tensions
+
+<left>
+* Entrée du récepteur: $\qty{10}{\micro\volt}$
+* Microphone: $\qty{200}{\milli\volt}$
+* Batterie: $\qty{1,5}{\volt}$ ou $\qty{9}{\volt}$
+</left>
+<right>
+| l: Désignation | r: Abréviation | l: Valeur |
+| 1 Microvolt | $\qty{1}{\micro\volt}$ | $\qty{0,000001}{\volt}$ |
+| 1 Millivolt | $\qty{1}{\milli\volt}$ | $\qty{0,001}{\volt}$ |
+| 1 Volt | $\qty{1}{\volt}$ | $\qty{1}{\volt}$ |
+[table:spannung_einheitenvorzeichen:Notation abrégée pour les petites tensions]
+</right>
+<note>
+* S'attarder brièvement sur les préfixes d'unité
+* Similaire à "Millilitre" ou "Milligramme"
+</note>
+
+---
+## Grandes tensions
+
+<left>
+* Prise de courant: $\qty{230}{\volt}$
+* Antenne chargée électrostatiquement: $\qty{1,5}{\kilo\volt}$
+* Ligne à haute tension: $\qty{380}{\kilo\volt}$
+</left>
+<right>
+| l: Désignation | r: Abréviation | r: Valeur |
+| 1 Kilovolt | $\qty{1}{\kilo\volt}$ | $\qty{1000}{\volt}$ |
+| 1 Mégavolt | $\qty{1}{\mega\volt}$ | $\qty{1000000}{\volt}$ |
+| 1 Gigavolt | $\qty{1}{\giga\volt}$ | $\qty{1000000000}{\volt}$ |
+[table:n_frequenz_einheitenvorzeichen:Notation abrégée pour les grandes tensions]
+</right>
+<note>
+* Antenne chargée électrostatiquement par temps d'orage ou de pluie
+</note>
+
+---
+
+[question:NA208]

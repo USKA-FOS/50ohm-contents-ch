@@ -1,0 +1,15 @@
+Pour toute l'onde courte, mais aussi au-delà jusqu'à la bande des $\qty{2}{\meter}$ (VHF), le connecteur PL est souvent utilisé. Comme on peut le voir sur les images [ref:n_koaxsteckverbinder_pl_stecker] et [ref:n_koaxsteckverbinder_pl_einbaubuchse], il s'agit d'une connexion vissée.
+
+<margin>
+[photo:69:n_koaxsteckverbinder_pl_stecker:Connecteur PL]
+</margin>
+
+<margin>
+[photo:70:n_koaxsteckverbinder_pl_einbaubuchse:Douille PL encastrée]
+</margin>
+
+<attention>
+Le connecteur PL est de manière déroutante également appelé *connecteur UHF*, bien qu'il ne soit en réalité pas du tout adapté aux fréquences de la bande UHF et au-delà.
+</attention>
+
+[question:NG202]

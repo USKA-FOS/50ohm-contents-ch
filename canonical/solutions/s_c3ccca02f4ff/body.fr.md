@@ -1,0 +1,16 @@
+# Solution 1: 
+Nous utilisons la formule du recueil de formules (niveau, amplification, puissance): 
+$ g = 10 \cdot \log_{10}\left(\frac{P_2}{P_1}\right)\unit{\dB}$
+Avec $P_1$ = 1 et $P_2$ = 40: 
+$ g = 10 \cdot \log_{10}\left(\frac{40}{1}\right)\unit{\dB} = \qty{16.021}{\dB}$  
+
+# Solution 2: 
+Nous utilisons le tableau du recueil de formules ainsi que la connaissance de la loi des logarithmes: 
+Le logarithme d'un produit correspond à l'addition des 
+logarithmes des facteurs:
+
+$\log\left(a \cdot b\right) = \log\left(a\right)+\log\left(b\right)$
+
+Avec les valeurs de l'énoncé et du tableau:
+
+$40 = 4 \cdot 10 \rightarrow \qty{6}{\dB} + \qty{10}{\dB}  = \qty{16}{\dB}$

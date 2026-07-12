@@ -1,0 +1,5 @@
+Dans le circuit, deux diodes au silicium sont branchées en antiparallèle à la sortie. Elles limitent ainsi la tension de sortie dans les deux directions.
+
+Tant que la tension reste inférieure à environ $\qty{0,6}{\volt}$, les deux diodes sont bloquées et le signal apparaît presque inchangé à la sortie. Si la tension dépasse cependant la tension de seuil d'une diode au silicium, l'une des deux diodes conduit et limite la tension à environ $\pm\qty{0,6}{\volt}$.
+
+Le signal de sortie est donc coupé en haut et en bas lorsqu'il est supérieur à $\qty{0,6}{\volt}$ ou inférieur à $-\qty{0,6}{\volt}$.

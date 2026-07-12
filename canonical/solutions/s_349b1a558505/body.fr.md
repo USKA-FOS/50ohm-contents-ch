@@ -1,0 +1,3 @@
+L'induction inverse se produit lorsque le champ magnétique d'une bobine change dans le temps. Cela se produit, par exemple, lorsqu'un courant variable circule dans une bobine magnétiquement couplée voisine. Le champ magnétique changeant induit alors une tension dans la bobine considérée.
+
+Un courant continu constant, en revanche, ne produit pas de champ magnétique variable et donc pas de tension d'induction.

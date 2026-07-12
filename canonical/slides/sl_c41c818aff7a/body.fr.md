@@ -1,0 +1,37 @@
+* Transition entre le jour et la nuit
+* Intéressant pour les ondes courtes
+
+---
+[include:greyline]
+
+<note>
+Carte du monde avec la greyline actuelle
+</note>
+
+---
+
+<left>
+Jour à nuit
+* La région D est démantelée
+* La région E peut encore être présente
+* La région $F_1$ se démantèle lentement
+* La région $F_2$ reste affaiblie
+</left>
+<right>
+Nuit au jour
+* La région D ne se construit que lorsque le soleil arrive dans les régions inférieures
+* La région E se construit lentement
+* La région $F_1$ est construite avant les régions E et D
+* La région $F_2$ devient à nouveau plus forte
+</right>
+
+---
+## Greyline-DX
+
+* Les ondes courtes sont réfractées de manière plate sur la région D faible et moins atténuées
+* Les ondes courtes réfractées sont réfléchies de manière plate dans la région F
+* Grande distance de saut
+* *Greyline-DX* ou *Twilight-DX*
+
+---
+[question:EH213]

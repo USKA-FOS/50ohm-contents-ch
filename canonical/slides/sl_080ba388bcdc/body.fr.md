@@ -1,0 +1,41 @@
+<left>
+* Classe E : modifier la distance de saut par l'angle de rayonnement
+</left>
+<right>
+[picture:994:a_sprungdistanz_1:Simulation de la distance de saut en fonction de l'angle de rayonnement dans la bande des $\qty{40}{\meter}$, en janvier 2025]
+</right>
+
+---
+<left>
+* À noter également :
+* *Hauteur de la région ionisée*
+* *l'heure de la journée* en raison des différentes couches
+* *fréquence utilisée* en raison des différentes propriétés de réfraction aux couches
+</left>
+<right>
+[picture:865:e_wellenausbreitung_refraktion:Réfracion aux couches de l'ionosphère]
+</right>
+
+<note>
+Aux couches, expliquer comment cela modifie la distance de saut
+</note>
+
+---
+
+## Dépendance de l'heure et de la saison
+
+[picture:996:a_sprungdistanz_2:Simulation de la distance de saut en fonction de la saison ainsi que du jour et de la nuit dans la bande des $\qty{80}{\meter}$ avec un angle de rayonnement de $\qty{45}{\degree}$ ; en outre, l'atténuation de la couche D agit en journée]
+
+---
+
+## Dépendance de la fréquence
+
+[picture:995:a_sprungdistanz_3:Simulation de la distance de saut en fonction de la fréquence avec un angle de rayonnement de $\qty{45}{\degree}$, en janvier 2025]
+
+---
+
+[question:AH212]
+
+---
+
+[question:AH213]

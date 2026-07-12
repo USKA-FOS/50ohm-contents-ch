@@ -1,0 +1,53 @@
+Même en radioamateur, de nombreux procédés de transmission numériques sont utilisés. Nous en avons déjà discuté un très simple. Dans la télégraphie Morse avec onde continue (CW), une porteuse est allumée et éteinte à un rythme déterminé. Il n'y a donc que deux niveaux, $\qty{0}{\percent}$ et $\qty{100}{\percent}$ de l'amplitude maximale. La transmission est donc numérique.
+
+La télégraphie Morse est le plus ancien procédé de transmission utilisé en radio. Les premiers émetteurs radio ne connaissaient aucun autre procédé. La seule possibilité de transmission d'informations était d'allumer et d'éteindre l'émetteur à l'aide d'une touche. À la réception, cela se traduit par un son qui s'allume et s'éteint au rythme donné.
+
+Pour transmettre différents caractères, c'est-à-dire des lettres, des chiffres et des signes de ponctuation, on utilise le code Morse. Pour chaque caractère, une séquence déterminée de sons courts et longs est définie. Dans les tableaux [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] et [ref:n_morsetelegrafie_morsecode_spezial], on trouve une partie du code Morse. Un point ([morse:e]) représente un son court et un trait ([morse:t]) un son long. Le décodage, c'est-à-dire la traduction des sons en caractères à la réception, se fait avec les oreilles et le cerveau - ou de nos jours aussi avec l'ordinateur.
+
+<webmargin>
+| c: | l: | c: | l: | c: | l: |
+|  |  |  |  |  |  |
+| A | [morse:a] | K | [morse:k] | U | [morse:u] |
+| B | [morse:b] | L | [morse:l] | V | [morse:v] |
+| C | [morse:c] | M | [morse:m] | W | [morse:w] |
+| D | [morse:d] | N | [morse:n] | X | [morse:x] |
+| E | [morse:e] | O | [morse:o] | Y | [morse:y] |
+| F | [morse:f] | P | [morse:p] | Z | [morse:z] |
+| G | [morse:g] | Q | [morse:q] | Ä | [morse:ä] |
+| H | [morse:h] | R | [morse:r] | Ö | [morse:ö] |
+| I | [morse:i] | S | [morse:s] | Ü | [morse:ü] |
+| J | [morse:j] | T | [morse:t] |  |  |
+[table:n_morsetelegrafie_morsecode_buchstaben:Code Morse (lettres)]
+</webmargin>
+
+<webmargin>
+| c: | l: | c: | l: | c: | l: |
+|  |  |  |  |  |  | 
+| 0 | [morse:0] | 5 | [morse:5] | / | [morse:/] |
+| 1 | [morse:1] | 6 | [morse:6] | . | [morse:.] |
+| 2 | [morse:2] | 7 | [morse:7] | , | [morse:,] |
+| 3 | [morse:3] | 8 | [morse:8] | ? | [morse:?] |
+| 4 | [morse:4] | 9 | [morse:9] | - | [morse:-] |
+|  |  |  |  | @ | [morse:@] |
+[table:n_morsetelegrafie_morsecode_ziffern_satzzeichen:Code Morse (chiffres et signes de ponctuation)]
+</webmargin>
+
+<webmargin>
+| l: | l: |
+|  |  |
+| Interruption (BK) | [morse:bk] |
+| Séparation au sein d'un passage (BT, =) | [morse:=] |
+| Fin du passage (AR)  | [morse:ar] |
+| Fin de l'émission (SK) | [morse:sk] |
+| Erreur, confusion | [morse:h] [morse:h]|
+[table:n_morsetelegrafie_morsecode_spezial:Code Morse (signes particuliers, sélection)]
+</webmargin>
+
+Bien que des procédés de transmission pour la parole, les images et même la vidéo aient été inventés, la télégraphie Morse est encore pratiquée aujourd'hui en radioamateur. Pendant longtemps, il était obligatoire dans le monde entier que chaque radioamateur passe un examen de Morse avant de pouvoir émettre sur les ondes courtes. Ce n'est qu'à la fin des années 1990 que cette règle a été abrogée. Depuis, chaque pays peut décider lui-même s'il exige un examen de Morse. En Allemagne, il est volontaire depuis 2003.
+
+[question:VA304]
+
+Il y a une particularité à prendre en compte lors de la gestion des opérations en télégraphie Morse : le choix d'une vitesse appropriée. Les signes Morse peuvent être donnés à des vitesses différentes. Cependant, il faut beaucoup de pratique pour pouvoir recevoir des signes Morse donnés rapidement. Il est donc important de veiller à ne pas surcharger la station correspondante avec la vitesse. Il est bon de ne pas donner plus vite que l'autre station et aussi de ne pas donner plus vite que ce que l'on peut soi-même recevoir. Ainsi, tout le monde suit.
+
+[question:BE117]
+[question:BE118]

@@ -1,0 +1,17 @@
+Le S-mètre d'un récepteur sert à afficher l'intensité du signal HF présent à l'entrée du récepteur.
+Le S-mètre se divise généralement en 9 points S et une plage suivante indiquée en $\qty{+}{\dB}$. Ici, une variation d'un point S correspond à $\qty{6}{\dB}$. À partir de la valeur S S9, en raison de la représentation logarithmique de l'instrument, des signaux plus forts sont affichés comme S9 plus une valeur en $\unit{\dB}$. De la définition des décibels, il découle que $\qty{+6}{\dB}$ correspond à un doublement de la tension ou à un quadruplement de la puissance du signal d'entrée. De même, une division par deux de la tension à l'entrée du récepteur correspond à une division par quatre de la puissance ou à $\qty{-6}{\dB}$.
+
+[question:AF101]
+[question:AF104]
+[question:AF103]
+[question:AA113]
+[question:AF102]
+
+Dans la plage des ondes courtes jusqu'à $\qty{30}{\mega\hertz}$, une valeur S de S9 correspond exactement à $\qty{50}{\micro\volt}$ à $\qty{50}{\ohm}$. À partir de la bande VHF ($\qty{144}{\mega\hertz}$), une valeur S de S9 correspond exactement à $\qty{5}{\micro\volt}$ à $\qty{50}{\ohm}$.
+
+<tip>
+Les S-mètres des appareils à ondes courtes affichent généralement les valeurs autour de S9 de manière assez fiable, car ceux-ci sont souvent calibrés uniquement sur cette valeur. En particulier, les valeurs S plus petites ne sont affichées que de manière très imprécise. La caractéristique logarithmique d'un S-mètre est souvent interpolée de manière insuffisante. Il n'y a pas de valeur S de S0 par définition, car il y a toujours un bruit de fond ou un bruit propre du récepteur. Si le S-mètre n'affiche pas de valeur dans la plage inférieure, le signal reçu est très faible, mais il n'a jamais la valeur S0. Celle-ci ne doit donc pas non plus être transmise. 
+</tip>
+
+[question:AA114]
+[question:AF105]

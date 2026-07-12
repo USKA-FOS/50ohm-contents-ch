@@ -1,0 +1,1 @@
+Note : Les deux cathodes des diodes sont ensemble au pôle positif de la tension de sortie.

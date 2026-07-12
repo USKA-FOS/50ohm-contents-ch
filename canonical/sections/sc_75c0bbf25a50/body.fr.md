@@ -1,0 +1,21 @@
+Un bloc d'alimentation à découpage (en anglais *switched-mode power supply*) convertit une tension alternative en une tension continue stabilisée. Pour ce faire, il redresse d'abord la tension d'entrée, la commute ensuite très rapidement, la transforme efficacement à la tension souhaitée et la lisse enfin. Nous examinerons en détail comment cela fonctionne dans la classe A. 
+
+<margin>
+[photo:308:e_Ferritkerntrafo im Schaltnetzteils:Vue intérieure d'un bloc d'alimentation à découpage pour $\qty{13,8}{\volt}$ et $\qty{35}{\ampere}$ avec un petit transformateur à noyau de ferrite entre les deux dissipateurs thermiques, poids $\qty{2}{\kilo\gram}$]
+</margin> 
+
+Le bloc d'alimentation à découpage présente plusieurs propriétés positives par rapport à un bloc d'alimentation linéaire:
+
+* Rendement élevé même à de petites tensions nominales et charges variables
+* Poids et volume réduits, car des transformateurs et des condensateurs de filtrage secondaires plus petits sont utilisés en raison de la haute fréquence
+* Bonne régulation
+* Poids réduit, dissipateurs thermiques plus petits et donc moins d'encombrement par rapport à un bloc d'alimentation linéaire (voir section : stabilisation de tension)
+ 
+[question:ED302]
+
+Mais les hautes fréquences entraînent également des propriétés négatives:
+
+* Perturbations haute fréquence, des mesures pour améliorer la CEM sont nécessaires en raison du fonctionnement de commutation avec des hautes fréquences
+* Circuit complexe, plus de composants nécessaires, probabilité de panne plus élevée
+
+[question:ED303]

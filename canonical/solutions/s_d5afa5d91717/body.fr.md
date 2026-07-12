@@ -1,0 +1,29 @@
+D'abord, le courant de base nécessaire est calculé :
+
+$ I_B = \frac{I_C}{B} $
+
+avec
+
+$ I_C = \qty{5}{\milli\ampere} $
+
+et
+
+$ B = 298 $
+
+donc :
+
+$ I_B = \frac{\qty{5}{\milli\ampere}}{298} \approx \qty{16,8}{\micro\ampere} $
+
+Sur la résistance $R_1$, la tension totale de $\qty{12}{\volt}$ n'est pas appliquée, mais en raison de la tension base-émetteur, seulement :
+
+$ U_{R_1} = \qty{12}{\volt}~-~\qty{0,6}{\volt} = \qty{11,4}{\volt} $
+
+Maintenant avec la loi d'Ohm :
+
+$ R_1 = \frac{U_{R_1}}{I_B} $
+
+$ R_1 = \frac{\qty{11,4}{\volt}}{\qty{16,8}{\micro\ampere}} \approx \qty{679000}{\ohm} $
+
+donc environ :
+
+$ R_1 \approx \qty{680}{\kilo\ohm} $

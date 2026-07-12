@@ -1,0 +1,49 @@
+Les indicatifs personnels sont les indicatifs les plus fréquemment attribués. En Allemagne, il existe trois classes de licence différentes, chacune avec ses propres plages dans le plan d'indicatifs. Les différentes classes, construites les unes sur les autres, sont la classe N (licence de niveau d'entrée), la classe E (novice) et la classe A (avancée). Le tableau [ref:n_persoenliche_rufzeichen_praefixe] permet de savoir quels préfixes et chiffres sont attribués aux classes de radioamateur. Le tableau [ref:n_persoenliche_rufzeichen_beispiele] contient quelques exemples d'indicatifs personnels des 3 classes. La plupart des radioamateurs en Allemagne possèdent la licence de radioamateur de classe A, c'est pourquoi ce bloc est le plus grand. 
+
+<margin>
+| l: Classe | X: Préfixe et chiffre |
+| Classe N | DN9 |
+| Classe E | DO1 - DO9 |
+| Classe A | DB1 - DD9 |
+| | DF1 - DH9 |
+| | DJ1 - DM9 |
+[table:n_persoenliche_rufzeichen_praefixe:Préfixes et chiffres pour les indicatifs personnels]
+</margin>
+
+<margin>
+| l: Classe | X: Indicatif |
+| Classe N | DN9AAA, DN9ZZZ |
+| Classe E | DO2AAA, DO2ZZZ |
+| Classe A | DL3AAA, DL3ZZZ |
+[table:n_persoenliche_rufzeichen_beispiele:Exemples d'indicatifs personnels]
+</margin>
+
+Le [plan d'indicatifs](https://50ohm.de/rzp) de la BNetzA aide à répondre aux questions d'examen suivantes.
+
+[question:BD105]
+[question:BD106]
+[question:BD104]
+
+Après avoir réussi l'examen, vous pouvez déposer une demande d'« autorisation de participation au service de radioamateur » auprès de la BNetzA. Après traitement, vous recevrez le certificat d'autorisation avec votre indicatif personnel. Ce n'est qu'avec cette autorisation que vous pouvez commencer à émettre. L'autorisation ne vaut que personnellement pour le radioamateur inscrit dans le certificat. Elle n'est pas transférable.
+
+[question:VC107]
+
+---
+
+Dans le formulaire de demande de la BNetzA, il est possible d'indiquer un indicatif souhaité. Il est conseillé de vérifier au préalable dans la [liste des indicatifs de la BNetzA](https://50ohm.de/rzl) ou dans la [recherche en ligne de la BNetzA](https://50ohm.de/rza) si l'indicatif n'est pas déjà attribué ! Bien que la demande soit généralement satisfaite, il n'y a pas de droit à l'attribution d'un indicatif particulier. Il peut être judicieux d'indiquer plus d'un souhait, car un indicatif peut avoir été attribué entre-temps ou ne pas pouvoir être attribué pour d'autres raisons.
+
+%TODO expliquer un bon suffixe pour la télégraphie Morse
+
+<indepth>
+Lors du *choix des indicatifs*, il existe des préférences très différentes. Certains radioamateurs choisissent l'abréviation de leur nom, comme par exemple DL1FLO (*FLO*rian) ou les initiales du nom DL4HR (*H*arry *R*ode). D'autres accordent plus d'importance à une bonne intelligibilité en radiotéléphonie ou attachent de l'importance à un bon suffixe pour la télégraphie Morse. Souvent, les indicatifs avec 2 lettres dans le suffixe sont déjà attribués. Dans ce cas, la première lettre du lieu de résidence peut être proposée comme troisième lettre du suffixe, par exemple DL1ASN (*A*lexander *S*chumacher de *N*eheim). Si aucun souhait n'est indiqué ou si les indicatifs souhaités sont déjà attribués, la BNetzA choisit un indicatif pour vous.
+</indepth>
+
+[question:VD208]
+
+La BNetzA ne modifie généralement pas les indicatifs de sa propre initiative. Cependant, si les réglementations ou les classes d'autorisation changent, il peut être nécessaire que la BNetzA retire ou modifie les indicatifs. Cependant, tout radioamateur peut de sa propre initiative déposer une nouvelle demande d'autorisation pour le service de radioamateur. De cette manière, vous pouvez changer votre propre indicatif.
+
+[question:VC117]
+
+[question:VU002]
+[question:VU006]
+[question:VP001]

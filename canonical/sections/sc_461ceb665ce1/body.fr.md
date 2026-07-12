@@ -1,0 +1,29 @@
+Avec l'abréviation DX, les radioamateurs désignent une liaison radio sur une grande distance. DX signifie "long distance" et provient à l'origine de la télégraphie Morse. Dans le cas du DX, il faut distinguer entre les ondes courtes et les VHF.
+
+Si une station appelle sur les bandes des ondes courtes "CQ DX", elle souhaite établir le contact avec des radioamateurs d'un autre continent. Les radioamateurs du même continent ne doivent pas répondre à cet appel général ou y réagir.
+
+[question:BB103]
+[question:BE114]
+[question:BB105]
+
+Sur les fréquences plus élevées, il est extrêmement rare d'atteindre d'autres continents depuis l'Allemagne. C'est pourquoi les liaisons DX sont définies différemment sur les VHF et UHF que sur les ondes courtes. Sur les VHF et UHF, on souhaite contacter d'autres stations qui sont manifestement éloignées de quelques centaines de kilomètres avec un appel DX.
+
+[question:BB104]
+[question:BE109]
+
+Si l'on souhaite atteindre un pays spécifique, on peut appeler non pas "CQ DX", mais directement l'indicatif du pays recherché. Ainsi, un appel CQ peut être "CQ VK/ZL" pour appeler des stations d'Australie ou de Nouvelle-Zélande.
+
+[question:BE110]
+[question:BE113]
+
+Celui qui cherche des liaisons internationales appelle en règle générale en anglais. En conséquence, une réponse doit également être donnée en anglais. DF1KW pourrait par exemple répondre à un appel CQ en anglais de EA6VQ par "EA6VQ, this is DF1KW calling you".
+
+[question:BE104]
+
+Si l'on constate que son propre appel "CQ DX" reste sans réponse pendant un certain temps, il serait bon de passer simplement à un appel CQ normal et d'établir le contact avec des stations des environs.
+
+Il existe également des radioamateurs ambitieux qui souhaitent activer des endroits particuliers de la Terre avec des activités DX. Un groupe de radioamateurs se fixe comme objectif d'activer des îles rares, des régions inexplorées ou des pays avec une faible activité radio. Cette aventure ou cette expédition est désignée parmi les radioamateurs comme *DX-Pedition*. Ces stations rares se trouvent généralement dans les endroits les plus reculés du monde.
+
+[question:BE312]
+
+Pourquoi active-t-on de tels endroits particuliers ? Il existe des programmes de diplômes pour lesquels les différents pays doivent être travaillés, et il existe le *DX Century Club* (DXCC). Pour être admis dans ce club, il faut avoir des liaisons radio confirmées avec au moins 100 pays différents. Avec les activations, les radioamateurs peuvent compléter leur liste des pays qui leur manquent encore.

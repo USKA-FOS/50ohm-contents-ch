@@ -1,0 +1,83 @@
+Lors de l'exploitation d'émetteurs – en particulier d'émetteurs puissants – diverses interférences d'appareils électroniques et d'installations peuvent survenir. Nous avons déjà étudié de telles *interférences perturbatrices* et quelques consignes de base dans la classe N. L'objectif est d'éviter ces interférences autant que possible ou d'éliminer leurs causes par des contre-mesures appropriées. Dans cette leçon, nous allons examiner plus en détail les causes et les contre-mesures. En principe, les appareils électroniques peuvent être influencés de deux manières:
+
+- *Irradiation* est présente lorsque les hautes fréquences parviennent directement dans l'électronique d'un appareil via l'antenne de réception (figure [ref:e_antenne_einstrahlung]) ou en raison d'un boîtier insuffisamment blindé (figure [ref:e_direkteinstrahlung]) et y provoquent des interférences.
+- *Intrusions* sont présentes lorsque les hautes fréquences pénètrent dans un appareil via des lignes ou des câbles, comme par exemple via la ligne d'alimentation, la ligne d'antenne, les câbles de haut-parleur, etc. (figure [ref:e_einstroemung])
+
+<margin>
+[picture:744:e_antenne_einstrahlung:Irradiation via l'antenne de réception]
+[picture:746:e_direkteinstrahlung:Irradiation directe dans un appareil]
+[picture:747:e_einstroemung:Intrusion via les lignes de connexion]
+</margin>
+
+[question:EJ102]
+[question:EJ101]
+
+Même lors de l'exploitation conforme à la loi d'un émetteur, des interférences peuvent survenir dans les récepteurs à proximité immédiate lors de la réception d'autres fréquences. Des intensités de champ très élevées peuvent survenir localement et dans la zone de rayonnement de l'antenne en raison des puissances d'émission élevées des stations de radioamateur ainsi que de l'utilisation d'antennes à gain élevé. Celles-ci peuvent surcharger les récepteurs et leurs étages de réception, ce qui peut entraîner une réduction de la sensibilité du récepteur jusqu'au blocage complet de la réception. Cela peut par exemple entraîner que les commandes de porte de garage ne fonctionnent plus comme d'habitude. Souvent, les lumières LED, qui sont commandées par des capteurs capacitifs, sont également influencées par les émissions. Dans ce cas, on parle de *surcharge* ou d'*interférence perturbatrice* des appareils.
+
+[question:EJ106]
+[question:EJ107]
+[question:EJ103]
+[question:EJ112]
+
+Souvent, les interférences perturbatrices dans le voisinage sont associées à l'exploitation d'une station de radioamateur. Pour prouver une éventuelle relation avec les émissions de la station de radioamateur, l'évaluation et éventuellement la tenue d'un journal de bord des émissions et des liaisons effectuées sont très utiles. Cela permet également d'exclure que les interférences supposées dans le voisinage soient imputables à la station de radioamateur.
+
+[question:EJ122]
+
+Le radioamateur devrait, dans le voisinage, soutenir de manière coopérative et orientée vers la solution ou également proposer des suggestions pour un remède. Souvent, les problèmes peuvent être résolus plus facilement en conversation directe qu'en impliquant les autorités. Ce n'est que lorsque toutes les tentatives ont échoué que l'on peut demander à l'antenne locale de la Bundesnetzagentur de vérifier les conditions. Cela devrait toutefois vraiment être le dernier recours pour résoudre le problème.
+
+[question:EJ124]
+[question:VN004]
+
+Ces efforts comprennent diverses mesures, telles que par exemple:
+
+%- Réduction de la puissance d'émission de l'installation de radioamateur % Cela devrait être le dernier recours !
+- Blindage des appareils ou des lignes sensibles
+- Installation de filtres et de barrières d'ondes enveloppantes du côté de la réception du voisin
+- Installation d'une mise à la terre HF efficace
+- Utilisation d'antennes extérieures pour la réception
+
+Nous allons examiner ces mesures plus en détail ci-dessous.
+
+Pour éviter les interférences perturbatrices des appareils, un radioamateur ne devrait toujours utiliser que la *puissance d'émission nécessaire pour une communication satisfaisante* pour ses émissions.
+
+[question:EJ104]
+[question:EJ105]
+
+Si plusieurs signaux reçus forts apparaissent simultanément dans une installation de réception (par exemple par la réception d'un émetteur de télévision local et d'une station de radioamateur puissante à proximité), des harmoniques indésirables et leurs produits de mélange peuvent être générés dans le récepteur par la surcharge des étages de réception du récepteur. On appelle cela *Intermodulation*. Par intermodulation, des *signaux fantômes* sont générés qui ne se produisent que lorsqu'il y a présence des signaux impliqués.
+
+[question:EJ120]
+
+Même dans une installation stéréo éteinte, des signaux HF forts peuvent, par redressement dans l'étage final BF, provoquer des bruits audibles dans les haut-parleurs sur des composants non linéaires tels que les transistors. Les contacts corrodés entre métaux (oxydes métalliques) ont également la propriété de pouvoir former des effets de redressement par des non-linéarités. Cela peut entraîner, lors des émissions de la station de radioamateur, des produits de mélange indésirables du côté de l'émission ou de la réception, qui peuvent perturber la réception de la télévision et de la radio.
+
+[question:EJ113]
+[question:EJ121]
+
+
+Toutes les interférences perturbatrices ne peuvent pas être éliminées par des mesures du côté de l'émission. Souvent, l'appareil lui-même influencé n'est pas adapté à l'endroit d'utilisation respectif, ne remplit pas les prescriptions légales en vigueur ou les lignes d'alimentation et les blindages ne sont pas dimensionnés de manière suffisante contre les irradiations ou les intrusions à haute fréquence. Dans de tels cas, il est conseillé de proposer aux personnes concernées des mesures afin que les problèmes puissent être résolus.
+
+Une mesure possible consiste à blinder les modules HF autant que possible par un boîtier métallique fermé.
+
+[question:EJ108]
+
+Si une antenne d'émission à ondes courtes se trouve à proximité et parallèlement à une ligne de courant alternatif de $\qty{230}{\volt}$, des courants à haute fréquence peuvent être couplés dans le réseau électrique. Pour minimiser les interférences dans sa propre maison, il est recommandé d'utiliser une ligne de terre HF séparée pour les antennes d'émission.
+
+[question:EJ109]
+[question:EJ111]
+
+Une autre possibilité est l'*installation de filtres dans les lignes d'alimentation des appareils* ainsi que *les barrières d'ondes enveloppantes (inductance)* des lignes d'alimentation.
+
+En particulier, les filtres peuvent être installés du côté de l'appareil influencé (TV, récepteur DVB-T2, récepteur DAB, etc.) dans le chemin de réception. Ainsi, par exemple, l'intensité de champ d'un émetteur d'ondes courtes de radioamateur (par exemple dans la plage de $\qtyrange{3}{30}{\mega\hertz}$) peut influencer la réception TV (par exemple $\qtyrange{470}{690}{\mega\hertz}$). En installant un filtre passe-haut, l'influence du signal d'émission de radioamateur peut être considérablement réduite : les composantes de fréquence en dehors de la plage de réception TV – dans cet exemple donc les ondes courtes – sont supprimées, de sorte que les étages de réception de l'appareil ne peuvent plus être surchargés.
+
+[question:EJ116]
+[question:EJ117]
+
+Souvent, le signal d'émission d'une station de radioamateur à proximité locale est couplé dans des récepteurs ou des appareils perturbés via le blindage des câbles coaxiaux ou des lignes d'alimentation. Si des interférences se produisent, une soi-disant *barrière d'ondes enveloppantes* doit être installée sur les lignes d'alimentation de l'appareil influencé. Une barrière d'ondes enveloppantes bloque les *courants différentiels* sur le blindage et le conducteur intérieur de l'appareil influencé. Des noyaux toroïdaux ou des noyaux toroïdaux pliables en ferrite sont typiquement utilisés comme barrières d'ondes enveloppantes. Une autre possibilité pour éviter les interférences dans les lignes de commande d'installations et d'appareils électriques est l'utilisation de câbles de commande blindés (par exemple pour les installations d'interphone, les lignes téléphoniques, etc.)
+
+[question:EJ118]
+[question:EJ119]
+[question:EJ115]
+[question:EJ114]
+
+%Même de mauvaises conditions de réception du côté de l'appareil influencé (par exemple antenne de chambre TV pour la réception) peuvent plus facilement conduire à des interférences dans la %réception. Une contre-mesure possible serait l'utilisation d'une antenne extérieure éventuellement avec des pré-filtres correspondants.
+
+%[question:EJ123]

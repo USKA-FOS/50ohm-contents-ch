@@ -1,0 +1,33 @@
+Si l'impédance d'une ligne d'alimentation n'est pas identique à la résistance de la charge, une onde stationnaire peut apparaître et une transformation d'impédance peut être obtenue. Cela signifie qu'une source de signal à une extrémité du câble voit une résistance différente de celle connectée à l'autre extrémité du câble.
+
+En particulier, deux cas sont importants : la ligne de $\lambda/4$ pour la transformation d'impédance ciblée ainsi que les lignes de $\lambda/2$ et leurs multiples, qui ne réalisent aucune transformation d'impédance, indépendamment de l'impédance de la ligne.
+
+Dans une ligne dont la longueur électrique est de $\lambda/4$, les résistances actives inférieures à l'impédance de la ligne sont transformées en résistances supérieures à l'impédance de la ligne. Inversement, les résistances actives supérieures à l'impédance de la ligne sont transformées en résistances inférieures à l'impédance de la ligne. Cet effet est utilisé, par exemple, pour adapter des antennes haute impédance à un système basse impédance ($\qty{50}{\ohm}$).
+
+Pour une longueur de ligne de $\lambda/2$, l'effet s'annule, de sorte qu'aucune transformation d'impédance n'apparaît.
+
+[question:AG412]
+[question:AG416]
+
+Pour les questions suivantes, nous nous souvenons qu'un dipôle demi-onde est alimenté en courant (basse impédance) et qu'un dipôle entier est alimenté en tension (haute impédance).
+
+[question:AG413]
+[question:AG414]
+[question:AG415]
+
+Si l'on souhaite transformer une résistance spécifique, l'impédance nécessaire à cet effet est donnée par la moyenne géométrique de la résistance de charge $Z_\mathrm{A}$ et de la résistance d'alimentation souhaitée $Z_\mathrm{E}$ à l'autre extrémité du câble :
+
+$Z = \sqrt{Z_\mathrm{E} \cdot Z_\mathrm{A}}$
+
+[question:AG417]
+[question:AG418]
+
+---
+
+Souvent, des bobines et des condensateurs sont également utilisés pour l'adaptation d'impédance. On trouve souvent le filtre Pi, qui, outre son effet de passe-bas, entraîne une transformation d'impédance. Par conséquent, un tel filtre Pi peut également être utilisé comme accordeur d’antenne.
+
+<indepth>
+*Le nom "filtre Pi"* provient de l'arrangement des composants dans le schéma de circuit, qui rappelle la lettre grecque $\pi$, et n'a rien à voir avec le nombre Pi $\pi$.
+</indepth>
+
+[question:AG406]

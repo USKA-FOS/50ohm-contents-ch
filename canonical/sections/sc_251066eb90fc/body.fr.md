@@ -1,0 +1,20 @@
+Les instruments à aiguille ont encore leur importance dans le radioamateur. De nombreux appareils de mesure comme les multimètres ou les SWR-mètres fonctionnent encore avec des indicateurs à aiguille. Alors que dans les affichages numériques, le dernier chiffre peut sauter, une aiguille reste stable. Les changements de la valeur mesurée sont immédiatement reconnaissables et souvent intuitifs à lire et à interpréter. C'est pourquoi de nombreux appareils radio numériques ou programmes SDR utilisent encore des indicateurs à aiguille animés.
+
+L'image [ref:e_zeigerinstrument_strom] montre un multimètre analogique avec un indicateur à aiguille. Comme pour les appareils de mesure numériques, il est également important de commencer chaque mesure dans la plage de mesure la plus élevée. C'est particulièrement important ici : si la plage de mesure est réglée trop basse – par exemple sur $\qty{10}{\volt}$, alors qu'en réalité $\qty{100}{\volt}$ sont appliqués – l'aiguille se déplace vers la droite, heurte la butée et peut ainsi endommager l'appareil de mesure. Après la première mesure dans la plage élevée, on peut passer à la plage la plus petite qui peut encore représenter la valeur. Ainsi, une lecture très précise est possible.
+
+<margin>
+[photo:197:e_zeigerinstrument_strom:Ici, la plage de mesure est réglée sur $\qty{300}{\milli\ampere}$. L'appareil indique environ $\qty{37}{\milli\ampere}$.
+</margin>
+
+<tip>
+Lors d'une observation oblique, l'aiguille semble indiquer une valeur incorrecte. Dans la figure [ref:e_zeigerinstrument_parallaxenfehler], au lieu de $\qty{7}{\volt}$, on ne lit que légèrement plus de $\qty{6,9}{\volt}$. Cet effet s'appelle l'erreur de parallaxe.
+ 
+[photo:196:e_zeigerinstrument_parallaxenfehler:angle de vue défavorable sur une échelle]
+  
+De nombreux instruments à aiguille ont un miroir entre les échelles. Lorsque l'aiguille coïncide exactement avec son reflet, on regarde droit dessus. Alors, on lit la bonne valeur.
+</tip>
+
+Avant de lire, il faut d'abord choisir l'échelle appropriée qui correspond à la plage de mesure réglée. Si nécessaire, toute l'échelle est multipliée ou divisée par une puissance de dix. L'indicateur à aiguille dans les questions d'examen suivantes possède une échelle de $\qty{100}{\volt}$ et une échelle de $\qty{30}{\volt}$. Si la plage de mesure est réglée sur $\qty{100}{\volt}$, on lit directement sur l'échelle de $\qty{100}{\volt}$. Pour une plage de mesure de $\qty{10}{\volt}$, on lit également sur l'échelle de $\qty{100}{\volt}$, mais il faut diviser la valeur par dix ou déplacer la virgule d'un cran vers la gauche. Si la plage de mesure est réglée sur $\qty{30}{\volt}$ ou $\qty{300}{\volt}$, la lecture se fait sur l'échelle de $\qty{30}{\volt}$.
+
+[question:EI103]
+[question:EI104]

@@ -1,0 +1,33 @@
+### Alimentation
+
+* La source de tension la plus importante pour nous, les radioamateurs, outre les batteries, est l'alimentation secteur. Elle est alimentée par le réseau électrique avec une tension alternative de $\qty{230}{\volt}$ et produit une tension continue de $\qty{13,8}{\volt}$. Cela permet d'alimenter les appareils radio et les accessoires.
+* Il est important que la tension de sortie reste constante en charge.
+
+---
+
+[question:ED301]
+
+---
+
+### Sécurité électrique
+
+Pour les alimentations secteur, en particulier avec un boîtier métallique, une connexion conforme aux normes au réseau électrique est importante. Le conducteur de protection (vert/jaune) a pour tâche, en cas de défaut, de dériver la tension vers la "terre" et ainsi de déclencher le disjoncteur de la maison, afin qu'aucune tension dangereuse ne soit présente sur le boîtier métallique. Pour un câble à trois conducteurs, les couleurs des conducteurs sont définies comme suit :
+
+---
+### Couleurs des conducteurs
+
+<left>
+* Conducteur de phase (L) $\rightarrow$ marron
+* Conducteur neutre (N) $\rightarrow$ bleu
+* Conducteur de protection (PE) $\rightarrow$ vert/jaune
+</left>
+<right>
+[picture:791:e_NYM_Aderfarben:Couleurs des conducteurs d'un câble à trois conducteurs]
+</right>
+<note>
+Ne pas se fier, mais mesurer !
+</note>
+
+---
+
+[question:EK205]

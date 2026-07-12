@@ -1,0 +1,6 @@
+* Préparation à l'examen & inscription : utiliser l'application d'apprentissage 50ohm du DARC et s'inscrire à l'examen d'amateur radio auprès de la Bundesnetzagentur en temps opportun – ensuite demander un indicatif d'appel.
+* Adhésion au DARC : La plus grande association allemande de radioamateurs se bat pour les fréquences, la formation et les jeunes – une adhésion soutient activement ce travail.
+* Sections locales (OV) : Trouver le plus proche des 24 districts via la recherche par code postal – les membres locaux facilitent l'entrée dans le hobby.
+* Communauté en ligne : Échange via DARC-Chat, DARC-Treff et leur propre instance Mastodon avec d'autres radioamateurs dans le monde.
+* Activités après l'examen : Contests, construction personnelle, radio d'urgence, exploitation portable, etc. – le défi annuel HAM offre un bon aperçu de tous les domaines.
+* Événements & formation continue : HAM RADIO Friedrichshafen, Funk.Tag Kassel, AFUBarcamp et le rendez-vous du mardi comme formats pour apprendre et se connecter.

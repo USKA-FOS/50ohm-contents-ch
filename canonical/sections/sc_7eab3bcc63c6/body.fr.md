@@ -1,0 +1,24 @@
+Dans la suite, nous nous intéressons principalement à la modulation de la parole. Pour cela, nous devons d'abord comprendre ce qui caractérise la parole. Lorsque nous parlons, de nombreux sons différents, graves et aigus, ainsi que doux et forts, sont produits sous forme d'ondes sonores. Nous appelons cela un *signal vocal*.
+
+Lorsque nous parlons dans un microphone, celui-ci convertit le signal vocal. Des sons graves et aigus, ainsi que doux et forts, deviennent des oscillations électriques lentes et rapides avec de petites et grandes amplitudes. Le signal vocal n'est plus présent sous forme d'onde sonore, mais sous forme d'oscillation électrique et peut être traité dans l'appareil radio.
+
+<webmargin>
+[picture:742:n_sprachspektrum:La parole humaine dans le spectre d'amplitude, à gauche les sons graves et à droite les sons aigus]
+</webmargin>
+
+Dans la figure [ref:n_sprachspektrum], nous voyons un signal vocal typique sous forme de spectre d'amplitude. La bande de fréquences de $\qtyrange{0}{20}{\kilo\hertz}$ est montrée. La courbe représente l'amplitude pour chaque fréquence. On peut bien voir que la parole ne contient pas de fréquences arbitrairement élevées. Pour les transmissions radio, une bande de fréquences encore plus restreinte est souvent utilisée.
+
+[include:spektrum_sprachsignale]
+
+---
+
+<margin>
+[picture:730:n_sprachspektrum_symbolisch:Représentation symbolique du spectre audio]
+[picture:475:n_sprachspektrum_beispiel:Exemple d'un spectre audio]
+</margin>
+
+Dans la figure [ref:n_sprachspektrum_symbolisch], nous voyons la représentation symbolique d'un spectre vocal. Sur l'axe des X, de gauche à droite, différentes fréquences sont représentées. Les sons graves avec des fréquences plus petites se trouvent plus à gauche que les sons aigus avec des fréquences plus élevées, qui se trouvent plus à droite. Sur l'axe des Y, de bas en haut, le volume de chaque fréquence est représenté, en termes techniques, nous appelons cela l'amplitude. Plus c'est haut, plus le son est fort.
+
+Dans la figure [ref:n_sprachspektrum_beispiel], on trouve un exemple concret. Une bande de fréquences utilisée de $\qtyrange{300}{2700}{\hertz}$ peut être lue. La "largeur" du signal est d'ailleurs appelée bande passante et est indiquée en Hertz ($\unit{\hertz}$). La bande passante est dans ce cas de $\qty{2700}{\hertz}$ - $\qty{300}{\hertz}$ = $\qty{2400}{\hertz}$.
+
+Ce signal vocal exemplaire sera utilisé pour moduler une porteuse. Un signal avec lequel une porteuse est modulée est appelé *signal de modulation*.

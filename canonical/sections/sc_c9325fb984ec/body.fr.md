@@ -1,0 +1,27 @@
+Le terme *Scatter* est utilisé de manière générale pour diverses formes particulières de réflexion et de diffusion d'un signal radio, permettant de couvrir de plus grandes distances.
+
+Dans le cas du *Regenscatter* (*Rainscatter*), les ondes sont diffusées par les gouttes de pluie (pour ceux qui veulent approfondir : physiquement, il s'agit d'une diffusion de Rayleigh). Comme la taille des gouttes doit correspondre à la longueur d'onde, on obtient les meilleurs résultats dans la bande des $\qty{6}{\centi\meter}$ et $\qty{3}{\centi\meter}$ (à $\qty{5,7}{\giga\hertz}$ et $\qty{10}{\giga\hertz}$). La diffusion se fait dans toutes les directions, c'est-à-dire que l'on oriente généralement l'antenne vers le nuage de pluie et non vers l'emplacement de la station correspondante. Les signaux CW et SSB ont souvent un son rugueux, similaire à la propagation par aurore.
+
+[question:AH311]
+
+Sur les ondes courtes, la région de l'ionosphère qui réfracte l'onde spatiale vers la Terre peut être très dynamique, en particulier pendant le crépuscule. Par conséquent, des parties du signal peuvent également être diffusées sur le côté et même en retour vers l'émetteur. On appelle cela *Backscatter*. De tels signaux ont généralement une intensité de signal très forte et rapidement variable (*Flatterfading*).
+
+[question:AH223]
+
+<margin>
+% Photo par DC2CB:
+[photo:331:a_regenscatter:$\qty{10}{\giga\hertz}$ Regenscatter (DL4M juin 2025)]
+</margin>
+
+
+---
+
+%TODO: ou anecdote du confinement COVID
+
+Enfin, sur les bandes VHF, UHF et SHF, on peut également obtenir de l'aide d'une autre manière pour émettre au-delà de l'horizon, à savoir par *Aircraft-Scatter* : ici, les avions servent de réflecteurs temporaires lorsqu'ils se trouvent sur ou près de la ligne de liaison entre l'émetteur et le récepteur. En raison de la rapidité du mouvement de l'avion, de telles possibilités de liaison sont assez courtes, de sorte qu'une procédure de QSO rapide est requise.
+
+<indepth>
+Précision : Bien que l'*Aircraft-Scatter* soit désigné comme "Scatter", ce n'est physiquement pas une diffusion, mais une réflexion.
+</indepth>
+
+[question:AH310]

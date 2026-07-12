@@ -1,0 +1,29 @@
+### Chasse au renard (ARDF)
+
+* Une autre forme de compétition est le Amateur Radio Direction Finding (ARDF).
+* Les "renards" sont de petits émetteurs cachés qui doivent être trouvés et atteints à pied par les participants à l'aide de récepteurs directionnels.
+* Les renards émettent à tour de rôle l'un des indicateurs d'appel suivants en télégraphie Morse CW : MO, MOE, MOI, MOS, MOH ou MO5.
+
+---
+#### Indicatifs d'appel des émetteurs de chasse au renard
+
+<left>
+| l: Indicatif d'appel | l: Code Morse |
+| MO | [morse:mo] |
+| MOE | [morse:moe] |
+| MOI | [morse:moi] |
+| MOS | [morse:mos] |
+| MOH | [morse:moh] |
+| MO5 | [morse:mo5] |
+[table:ardf_morse_code:Indicatifs d'appel des émetteurs de chasse au renard]
+</left>
+
+<right>
+[photo:190:n_ardf_fuchs:ARDF-Fuchs im Wald mit Wimpel und Zeitnehmer]
+</right>
+
+---
+[question:BE313]
+
+---
+[question:BD109]

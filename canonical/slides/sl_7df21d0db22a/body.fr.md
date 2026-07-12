@@ -1,0 +1,22 @@
+<left>
+[picture:658:n_itu_regionen_karte:Représentation cartographique des régions ITU]
+</left>
+<right>
+* Coordination mondiale des fréquences radio séparées en 3 régions
+* Réglementée par l'ITU
+* Nécessaire pour effectuer différentes attributions de bandes de fréquences aux services radio
+</right>
+<note>
+* L'Antarctique est particulièrement réparti sur trois régions
+</note>
+
+---
+[question:VA402]
+---
+[question:VA401]
+---
+[question:VA403]
+---
+[question:VA404]
+---
+[question:VA405]

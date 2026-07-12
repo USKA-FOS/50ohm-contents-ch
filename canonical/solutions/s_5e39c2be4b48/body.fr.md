@@ -1,0 +1,1 @@
+La lettre i dans $\unit{\dBi}$ le révèle : émetteur isotrope.

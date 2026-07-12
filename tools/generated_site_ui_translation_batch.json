@@ -1,0 +1,509 @@
+{
+  "description": "Temporary post-build translations for generator-owned UI outside the canonical model.",
+  "entries": [
+    {
+      "id": "html-lang",
+      "paths": ["*.html"],
+      "source": "<html lang=\"de\">",
+      "translations": {
+        "fr": "<html lang=\"fr\">",
+        "it": "<html lang=\"it\">"
+      }
+    },
+    {
+      "id": "page-title-and-brand",
+      "paths": ["*.html"],
+      "source": "Lernplattform für Amateurfunk",
+      "translations": {
+        "fr": "Plateforme d'apprentissage pour la radioamateur",
+        "it": "Piattaforma di apprendimento per radioamatori"
+      }
+    },
+    {
+      "id": "nav-start",
+      "paths": ["*.html"],
+      "source": "<span class=\"material-icons\">home</span>\n                Start",
+      "translations": {
+        "fr": "<span class=\"material-icons\">home</span>\n                Accueil",
+        "it": "<span class=\"material-icons\">home</span>\n                Home"
+      }
+    },
+    {
+      "id": "nav-lernen",
+      "paths": ["*.html"],
+      "source": "<span class=\"material-icons\">local_library</span>\n                Lernen",
+      "translations": {
+        "fr": "<span class=\"material-icons\">local_library</span>\n                Apprendre",
+        "it": "<span class=\"material-icons\">local_library</span>\n                Studiare"
+      }
+    },
+    {
+      "id": "nav-suche",
+      "paths": ["*.html"],
+      "source": "<span class=\"material-icons\">search</span>\n                Suche",
+      "translations": {
+        "fr": "<span class=\"material-icons\">search</span>\n                Recherche",
+        "it": "<span class=\"material-icons\">search</span>\n                Ricerca"
+      }
+    },
+    {
+      "id": "nav-infos",
+      "paths": ["*.html"],
+      "source": "<span class=\"material-icons\">info</span>\n                Infos",
+      "translations": {
+        "fr": "<span class=\"material-icons\">info</span>\n                Infos",
+        "it": "<span class=\"material-icons\">info</span>\n                Info"
+      }
+    },
+    {
+      "id": "nav-pruefung",
+      "paths": ["*.html"],
+      "source": "<span class=\"material-icons\">fact_check</span>\n                Prüfung",
+      "translations": {
+        "fr": "<span class=\"material-icons\">fact_check</span>\n                Examen",
+        "it": "<span class=\"material-icons\">fact_check</span>\n                Esame"
+      }
+    },
+    {
+      "id": "footer-developed-with",
+      "paths": ["*.html"],
+      "source": "Mit\n                    <svg",
+      "translations": {
+        "fr": "Développé avec\n                    <svg",
+        "it": "Sviluppato con\n                    <svg"
+      }
+    },
+    {
+      "id": "footer-developed-by-team",
+      "paths": ["*.html"],
+      "source": "vom <a class=link-secondary href=\"/infos.html#contributors\">50ohm-Team</a> entwickelt",
+      "translations": {
+        "fr": "par l'<a class=link-secondary href=\"/infos.html#contributors\">équipe 50ohm</a>",
+        "it": "dal <a class=link-secondary href=\"/infos.html#contributors\">team 50ohm</a>"
+      }
+    },
+    {
+      "id": "footer-uska-offer",
+      "paths": ["*.html"],
+      "source": "Ein Angebot der Union Schweizerischer Kurzwellen Amateure (USKA)",
+      "translations": {
+        "fr": "Une offre de l'Union suisse des radioamateurs à ondes courtes (USKA)",
+        "it": "Un'offerta dell'Unione svizzera dei radioamatori a onde corte (USKA)"
+      }
+    },
+    {
+      "id": "footer-impressum",
+      "paths": ["*.html"],
+      "source": ">Impressum<",
+      "translations": {
+        "fr": ">Mentions légales<",
+        "it": ">Note legali<"
+      }
+    },
+    {
+      "id": "footer-datenschutz",
+      "paths": ["*.html"],
+      "source": ">Datenschutz<",
+      "translations": {
+        "fr": ">Protection des données<",
+        "it": ">Protezione dei dati<"
+      }
+    },
+    {
+      "id": "button-slides",
+      "paths": ["*.html"],
+      "source": "title=\"Präsentationsfolien öffnen\"",
+      "translations": {
+        "fr": "title=\"Ouvrir les diapositives\"",
+        "it": "title=\"Aprire le diapositive\""
+      }
+    },
+    {
+      "id": "button-download-tools",
+      "paths": ["*.html"],
+      "source": "title=\"Hilfsmittel herunterladen\"",
+      "translations": {
+        "fr": "title=\"Télécharger les aides\"",
+        "it": "title=\"Scaricare gli strumenti di supporto\""
+      }
+    },
+    {
+      "id": "button-edit-content",
+      "paths": ["*.html"],
+      "source": "title=\"Inhalt editieren\"",
+      "translations": {
+        "fr": "title=\"Modifier le contenu\"",
+        "it": "title=\"Modificare il contenuto\""
+      }
+    },
+    {
+      "id": "button-open-issue",
+      "paths": ["*.html"],
+      "source": "title=\"GitHub Issue eröffnen\"",
+      "translations": {
+        "fr": "title=\"Ouvrir un ticket GitHub\"",
+        "it": "title=\"Aprire una issue GitHub\""
+      }
+    },
+    {
+      "id": "button-show-diff",
+      "paths": ["*.html"],
+      "source": "title=\"Änderungen anzeigen\"",
+      "translations": {
+        "fr": "title=\"Afficher les modifications\"",
+        "it": "title=\"Mostrare le modifiche\""
+      }
+    },
+    {
+      "id": "alert-error",
+      "paths": ["*.html"],
+      "source": "'Fehler'",
+      "translations": {
+        "fr": "'Erreur'",
+        "it": "'Errore'"
+      }
+    },
+    {
+      "id": "alert-connection-error",
+      "paths": ["*.html"],
+      "source": "'Verbindungsfehler'",
+      "translations": {
+        "fr": "'Erreur de connexion'",
+        "it": "'Errore di connessione'"
+      }
+    },
+    {
+      "id": "solution-button-text",
+      "paths": ["*.html"],
+      "source": "<span>Lösungsweg anzeigen</span>",
+      "translations": {
+        "fr": "<span>Afficher la solution détaillée</span>",
+        "it": "<span>Mostra il procedimento risolutivo</span>"
+      }
+    },
+    {
+      "id": "solution-aria-label",
+      "paths": ["*.html"],
+      "source": "aria-label=\"Lösungshinweis zu Frage ",
+      "translations": {
+        "fr": "aria-label=\"Indication de solution pour la question ",
+        "it": "aria-label=\"Suggerimento di soluzione per la domanda "
+      }
+    },
+    {
+      "id": "solution-title",
+      "paths": ["*.html"],
+      "source": "title=\"Lösungshinweis\"",
+      "translations": {
+        "fr": "title=\"Indication de solution\"",
+        "it": "title=\"Suggerimento di soluzione\""
+      }
+    },
+    {
+      "id": "solution-question-label",
+      "paths": ["*.html"],
+      "source": "Frage:",
+      "translations": {
+        "fr": "Question :",
+        "it": "Domanda:"
+      }
+    },
+    {
+      "id": "solution-answer-label",
+      "paths": ["*.html"],
+      "source": "Lösung:",
+      "translations": {
+        "fr": "Solution :",
+        "it": "Soluzione:"
+      }
+    },
+    {
+      "id": "solution-wrong-label",
+      "paths": ["*.html"],
+      "source": "Falsch:",
+      "translations": {
+        "fr": "Faux :",
+        "it": "Errato:"
+      }
+    },
+    {
+      "id": "solution-card-title",
+      "paths": ["*.html"],
+      "source": "Lösungsweg: ",
+      "translations": {
+        "fr": "Solution détaillée : ",
+        "it": "Procedimento risolutivo: "
+      }
+    },
+    {
+      "id": "carousel-previous",
+      "paths": ["index.html"],
+      "source": ">Previous<",
+      "translations": {
+        "fr": ">Précédent<",
+        "it": ">Precedente<"
+      }
+    },
+    {
+      "id": "carousel-next",
+      "paths": ["index.html"],
+      "source": ">Next<",
+      "translations": {
+        "fr": ">Suivant<",
+        "it": ">Successivo<"
+      }
+    },
+    {
+      "id": "index-online-lernen",
+      "paths": ["index.html"],
+      "source": "<h2>Online lernen</h2>",
+      "translations": {
+        "fr": "<h2>Apprendre en ligne</h2>",
+        "it": "<h2>Studiare online</h2>"
+      }
+    },
+    {
+      "id": "index-online-lernen-text",
+      "paths": ["index.html"],
+      "source": "<p>Bringe dir das nötige Wissen für die Amateurfunkprüfung einfach selber bei. Unser Lernmaterial hilft dir auf deinem Weg! Es gibt die beiden <a href=\"infos.html\">Klassen HB3 und HB9</a> mit unterschiedlichen Schweregraden und Privilegien.</p>",
+      "translations": {
+        "fr": "<p>Acquérez vous-même facilement les connaissances nécessaires pour l'examen de radioamateur. Notre matériel d'apprentissage vous accompagne tout au long du parcours. Il existe les deux <a href=\"infos.html\">classes HB3 et HB9</a> avec des niveaux de difficulté et des privilèges différents.</p>",
+        "it": "<p>Acquisisci in autonomia e con facilità le conoscenze necessarie per l'esame di radioamatore. Il nostro materiale didattico ti accompagna lungo tutto il percorso. Esistono le due <a href=\"infos.html\">classi HB3 e HB9</a> con diversi livelli di difficoltà e privilegi.</p>"
+      }
+    },
+    {
+      "id": "index-h5-kurse",
+      "paths": ["index.html"],
+      "source": "<h5>Kurse</h5>",
+      "translations": {
+        "fr": "<h5>Cours</h5>",
+        "it": "<h5>Corsi</h5>"
+      }
+    },
+    {
+      "id": "index-kurse-text",
+      "paths": ["index.html"],
+      "source": "<p>Wir bieten Lerninhalte in folgenden Editionen online an:</p>",
+      "translations": {
+        "fr": "<p>Nous proposons en ligne des contenus d'apprentissage dans les éditions suivantes :</p>",
+        "it": "<p>Offriamo online contenuti didattici nelle seguenti edizioni:</p>"
+      }
+    },
+    {
+      "id": "index-einsteiger",
+      "paths": ["index.html"],
+      "source": "Einsteiger",
+      "translations": {
+        "fr": "Débutant",
+        "it": "Principianti"
+      }
+    },
+    {
+      "id": "index-upgrade",
+      "paths": ["index.html"],
+      "source": "Upgrade auf HB9",
+      "translations": {
+        "fr": "Passage à HB9",
+        "it": "Passaggio a HB9"
+      }
+    },
+    {
+      "id": "index-full-course",
+      "paths": ["index.html"],
+      "source": "Gesamtkurs",
+      "translations": {
+        "fr": "Cours complet",
+        "it": "Corso completo"
+      }
+    },
+    {
+      "id": "index-uska-chat-text",
+      "paths": ["index.html"],
+      "source": "<p>Die USKA betreibt für 50Ω eine eigenen Matrix-Instanz. Dort gibt es einen Raum, in dem du deine Fragen zur Ausbildung oder während der Ausbildung stellen kannst:</p>",
+      "translations": {
+        "fr": "<p>L'USKA exploite pour 50Ω sa propre instance Matrix. Vous y trouverez un salon dans lequel vous pouvez poser vos questions sur la formation, avant ou pendant celle-ci :</p>",
+        "it": "<p>L'USKA gestisce per 50Ω una propria istanza Matrix. Lì trovi uno spazio in cui puoi porre le tue domande sulla formazione, prima o durante il percorso:</p>"
+      }
+    },
+    {
+      "id": "index-ausbildung-button",
+      "paths": ["index.html"],
+      "source": ">💬 Ausbildung<",
+      "translations": {
+        "fr": ">💬 Formation<",
+        "it": ">💬 Formazione<"
+      }
+    },
+    {
+      "id": "index-mitglied-heading",
+      "paths": ["index.html"],
+      "source": "<h5>Mitglied werden</h5>",
+      "translations": {
+        "fr": "<h5>Devenir membre</h5>",
+        "it": "<h5>Diventare membro</h5>"
+      }
+    },
+    {
+      "id": "index-mitglied-text",
+      "paths": ["index.html"],
+      "source": "<p>Die <a href=\"https://uska.ch/\">USKA</a> ist der Verband der Funkamateure in der Schweiz. Ihre Mitglieder begleiten dich auf dem Weg zur Amateurfunkprüfung und danach.</p>",
+      "translations": {
+        "fr": "<p>L'<a href=\"https://uska.ch/\">USKA</a> est l'association des radioamateurs en Suisse. Ses membres vous accompagnent sur le chemin vers l'examen de radioamateur et au-delà.</p>",
+        "it": "<p>L'<a href=\"https://uska.ch/\">USKA</a> è l'associazione dei radioamatori in Svizzera. I suoi membri ti accompagnano nel percorso verso l'esame di radioamatore e anche oltre.</p>"
+      }
+    },
+    {
+      "id": "index-mitglied-button",
+      "paths": ["index.html"],
+      "source": ">Mitglied werden<",
+      "translations": {
+        "fr": ">Devenir membre<",
+        "it": ">Diventare membro<"
+      }
+    },
+    {
+      "id": "index-videokurse-heading",
+      "paths": ["index.html"],
+      "source": "<h2>Videokurse</h2>",
+      "translations": {
+        "fr": "<h2>Cours vidéo</h2>",
+        "it": "<h2>Videocorsi</h2>"
+      }
+    },
+    {
+      "id": "index-videokurse-text-1",
+      "paths": ["index.html"],
+      "source": "<p>50Ω Schweiz basiert auf <a href=\"https://50ohm.de\">50Ohm.de</a> mit den Fragen der Bundesnetzagentur Deutschland. Die deutschen Videokurse sind auch in der Schweiz nützlich für die Ausbildung in Technik und Betriebstechnik. Die Vorschriften hingegen unterscheiden sich in der Schweiz deutlich von denjenigen in Deutschland. Für eine Prüfungsvorbereitung im Bereich Vorschriften sind diese Videos daher nicht geeignet.</p>",
+      "translations": {
+        "fr": "<p>50Ω Suisse s'appuie sur <a href=\"https://50ohm.de\">50Ohm.de</a> avec les questions de l'Agence fédérale des réseaux allemande. Les cours vidéo allemands sont également utiles en Suisse pour la formation en technique et en exploitation. En revanche, la réglementation diffère nettement en Suisse par rapport à l'Allemagne. Ces vidéos ne conviennent donc pas à une préparation à l'examen dans le domaine réglementaire.</p>",
+        "it": "<p>50Ω Svizzera si basa su <a href=\"https://50ohm.de\">50Ohm.de</a> con le domande della Bundesnetzagentur tedesca. I videocorsi tedeschi sono utili anche in Svizzera per la formazione in tecnica ed esercizio. Le normative, invece, si differenziano sensibilmente tra Svizzera e Germania. Per questo motivo questi video non sono adatti alla preparazione dell'esame per la parte normativa.</p>"
+      }
+    },
+    {
+      "id": "index-videokurse-text-2",
+      "paths": ["index.html"],
+      "source": "<p>In Zusammenarbeit mit DL2YMR ist ein Videokurs für die Klasse N entstanden, der auf seinem YouTube-Kanal abrufbar ist. Weiterhin gibt es noch Vorlesungen für N+E sowie A. </p>",
+      "translations": {
+        "fr": "<p>En collaboration avec DL2YMR, un cours vidéo pour la classe N a été réalisé et peut être consulté sur sa chaîne YouTube. Il existe également des cours magistraux pour N+E ainsi que pour A.</p>",
+        "it": "<p>In collaborazione con DL2YMR è stato realizzato un videocorso per la classe N, disponibile sul suo canale YouTube. Sono inoltre disponibili lezioni per N+E e per A.</p>"
+      }
+    },
+    {
+      "id": "index-video-button-n",
+      "paths": ["index.html"],
+      "source": ">Zum Videokurs Klasse N<",
+      "translations": {
+        "fr": ">Vers le cours vidéo classe N<",
+        "it": ">Al videocorso classe N<"
+      }
+    },
+    {
+      "id": "index-video-button-ne",
+      "paths": ["index.html"],
+      "source": ">Vorlesung Klasse N+E<",
+      "translations": {
+        "fr": ">Cours magistral classe N+E<",
+        "it": ">Lezione classe N+E<"
+      }
+    },
+    {
+      "id": "index-video-button-a",
+      "paths": ["index.html"],
+      "source": ">Vorlesung Klasse A<",
+      "translations": {
+        "fr": ">Cours magistral classe A<",
+        "it": ">Lezione classe A<"
+      }
+    },
+    {
+      "id": "index-kurse-heading-2",
+      "paths": ["index.html"],
+      "source": "<h2>Kurse</h2>",
+      "translations": {
+        "fr": "<h2>Cours accompagnés</h2>",
+        "it": "<h2>Corsi assistiti</h2>"
+      }
+    },
+    {
+      "id": "index-kurse-text-2",
+      "paths": ["index.html"],
+      "source": "<p>Einige unserer Ortsverbände bieten Präsenz- oder Onlinekurse mit erfahrenen Ausbildern an. Finde heraus, ob es einen für dich passenden Kurs bei dir in der Nähe gibt!</p>",
+      "translations": {
+        "fr": "<p>Certaines de nos sections locales proposent des cours en présentiel ou en ligne avec des formateurs expérimentés. Découvrez s'il existe un cours adapté près de chez vous.</p>",
+        "it": "<p>Alcune delle nostre sezioni locali offrono corsi in presenza o online con formatori esperti. Scopri se c'è un corso adatto a te nelle tue vicinanze.</p>"
+      }
+    },
+    {
+      "id": "index-kurse-button",
+      "paths": ["index.html"],
+      "source": ">Liste der Kursanbieter<",
+      "translations": {
+        "fr": ">Liste des organismes de cours<",
+        "it": ">Elenco dei corsi disponibili<"
+      }
+    },
+    {
+      "id": "index-coaching-text",
+      "paths": ["index.html"],
+      "source": "<p>Unsere Ausbildungs-Coaches sind erfahrene Funkamateure, die dich gerne unterstützen. Sie können mit dir auch praktischen üben und nützliche Tipps für die Praxis geben.</p>",
+      "translations": {
+        "fr": "<p>Nos coaches de formation sont des radioamateurs expérimentés qui se feront un plaisir de vous aider. Ils peuvent aussi s'exercer avec vous en pratique et vous donner des conseils utiles.</p>",
+        "it": "<p>I nostri coach di formazione sono radioamatori esperti e saranno lieti di sostenerti. Possono anche esercitarsi con te nella pratica e darti consigli utili.</p>"
+      }
+    },
+    {
+      "id": "index-coaching-button",
+      "paths": ["index.html"],
+      "source": ">Zum USKA-Coaching<",
+      "translations": {
+        "fr": ">Vers le coaching USKA<",
+        "it": ">Al coaching USKA<"
+      }
+    },
+    {
+      "id": "index-fragenkatalog-heading",
+      "paths": ["index.html"],
+      "source": "<h2>Fragenkatalog</h2>",
+      "translations": {
+        "fr": "<h2>Catalogue de questions</h2>",
+        "it": "<h2>Catalogo delle domande</h2>"
+      }
+    },
+    {
+      "id": "index-fragenkatalog-text-1",
+      "paths": ["index.html"],
+      "source": "<p>Einen Fragenkatalog mit den amtlichen Prüfungsfragen gibt es derzeit leider nicht.</p>",
+      "translations": {
+        "fr": "<p>Il n'existe malheureusement pas encore de catalogue contenant les questions officielles de l'examen.</p>",
+        "it": "<p>Purtroppo al momento non esiste ancora un catalogo con le domande ufficiali d'esame.</p>"
+      }
+    },
+    {
+      "id": "index-fragenkatalog-text-2",
+      "paths": ["index.html"],
+      "source": "<p>Hier kann man sich einen Katalog mit den in unseren Lerninhalten dargestellten Fragen herunterladen.</p>",
+      "translations": {
+        "fr": "<p>Vous pouvez toutefois télécharger ici un catalogue contenant les questions présentées dans nos contenus d'apprentissage.</p>",
+        "it": "<p>Qui puoi comunque scaricare un catalogo con le domande presentate nei nostri contenuti didattici.</p>"
+      }
+    },
+    {
+      "id": "index-fragenkatalog-button",
+      "paths": ["index.html"],
+      "source": ">Download Fragenkatalog<",
+      "translations": {
+        "fr": ">Télécharger le catalogue de questions<",
+        "it": ">Scarica il catalogo delle domande<"
+      }
+    },
+    {
+      "id": "index-photo-credit",
+      "paths": ["index.html"],
+      "source": "Foto:",
+      "translations": {
+        "fr": "Photo :",
+        "it": "Foto:"
+      }
+    }
+  ]
+}

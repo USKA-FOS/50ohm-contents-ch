@@ -1,0 +1,19 @@
+Une adaptation de $\qty{50}{\ohm}$ à $\qty{450}{\ohm}$ est donnée.
+
+Tout d'abord, nous déterminons le rapport d'impédance nécessaire:
+
+$\frac{450}{50} = 9$
+
+Le transformateur doit donc réaliser un rapport d'impédance de $1:9$.
+
+Pour les transformateurs, le rapport d'impédance est le carré du rapport de spires:
+
+$\left(\frac{N_2}{N_1}\right)^2 = 9$
+
+Ce qui donne pour le rapport de spires:
+
+$\frac{N_2}{N_1} = \sqrt{9} = 3$
+
+Nous cherchons donc un rapport de spires de:
+
+$3:1$

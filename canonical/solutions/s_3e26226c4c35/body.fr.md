@@ -1,0 +1,13 @@
+Un transformateur avec un rapport de spires de $1:4$ ainsi qu'une résistance $R = \qty{6,4}{\kilo\ohm}$ sur le côté secondaire sont donnés.
+
+Tout d'abord, nous déterminons le rapport d'impédance. Pour les transformateurs, nous avons :
+
+$\left(\frac{N_S}{N_P}\right)^2 = 4^2 = 16$
+
+Ainsi, l'impédance sur le côté secondaire est transformée sur le côté primaire par un facteur de 16.
+
+Nous cherchons l'impédance transformée sur le côté primaire :
+
+$Z_\text{P} = \frac{Z_\text{S}}{16} = \frac{\qty{6,4}{\kilo\ohm}}{16}$
+
+$Z_\text{P} = \qty{0,4}{\kilo\ohm}$

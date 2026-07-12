@@ -1,0 +1,11 @@
+Une antenne directionnelle émet et reçoit dans une certaine mesure également dans la direction arrière, ce qui est généralement indésirable. Alors que le gain d'antenne indique uniquement le gain dans la direction principale du faisceau par rapport au dipôle ou à un rayonnement isotrope sphérique, le *rapport avant/arrière* détermine à quel point l'antenne émet et reçoit mieux dans la direction principale par rapport à la direction arrière.
+
+[question:AG214]
+[question:AG213]
+
+Le rapport avant/arrière est souvent exprimé en décibels.
+
+[question:AG217]
+[question:AG215]
+[question:AG216]
+[question:AG218]

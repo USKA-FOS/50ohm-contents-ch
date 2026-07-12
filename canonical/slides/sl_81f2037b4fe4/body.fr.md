@@ -1,0 +1,78 @@
+## Sens de passage
+
+* Flux d'électrons de N à P
+* La direction du courant technique est opposée à la direction du flux d'électrons
+
+---
+[question:AC401]
+---
+## Température
+
+* À température plus élevée, il y a plus d'électrons libres
+* Le courant de saturation augmente avec la température
+* Mais la mobilité change
+* Par conséquent, la tension de passage diminue (d'environ $\qty{-2}{\milli\volt\per\kelvin}$)
+
+---
+[question:AC403]
+---
+## Diode à capacité variable (Varicap)
+
+<left>
+* La diode à capacité variable utilise la capacité sur la zone de charge d'espace
+* Aucun courant continu ne doit circuler
+* Fonctionne en inverse
+</left>
+<right>
+<fragment>
+Plus la tension de la diode est négative, plus la zone de charge d'espace s'étend et plus la capacité de la diode diminue.
+</fragment>
+</right>
+
+---
+[question:AC404]
+---
+## Limitation de tension
+
+* Diodes antiparallèles
+* Limitation de l'amplitude d'une tension alternative
+* Silicium : tension de seuil d'environ $\qty{0,6}{\volt}$
+* Germanium : tension de seuil d'environ $\qty{0,3}{\volt}$
+* $\rightarrow$ *Clipping*
+
+<note>
+Les tensions de seuil sont des sujets de classe E
+</note>
+
+--- style="font-size: smaller;"
+[question:AC405]
+--- style="font-size: smaller;"
+[question:AC406]
+---
+## Photodiode
+
+* La lumière est absorbée dans la zone de charge d'espace
+* Des paires électron-trou sont créées
+* Les électrons se déplacent vers la région p, les trous vers la région n
+* Si un consommateur (avec une tension négative à la borne p) est connecté, la photodiode agit comme une source de courant
+* Le courant est proportionnel à l'intensité lumineuse
+
+<note>
+Mesure de la lumière, capteurs d'image dans les caméras, cellules solaires
+</note>
+
+---
+[question:AC407]
+---
+## Optocoupleur
+
+* Combinaison d'une diode électroluminescente et d'une photodiode dans un boîtier
+* Côté entrée : diode électroluminescente
+* Côté sortie : photodiode
+* Les deux sont galvaniquement séparés l'un de l'autre
+
+<note>
+Séparer les interfaces galvaniquement, par exemple pour éviter les boucles de masse
+</note>
+---
+[question:AC408]

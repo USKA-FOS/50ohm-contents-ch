@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import Any
 
 from build_db_from_canonical_model import build_database as build_canonical_database
+from patch_generated_site_ui import apply_batch as apply_generated_site_ui_batch
 
 
 CONTENT_REPO = Path(__file__).resolve().parent.parent
@@ -570,11 +571,19 @@ def run_generator(language: str) -> dict[str, Any]:
     )
     log_path = VALIDATION_ROOT / f"{language}.log"
     log_path.write_text(completed.stdout, encoding="utf-8")
+    ui_patch_report = None
+    if completed.returncode == 0 and language in {"fr", "it"}:
+        ui_patch_report = apply_generated_site_ui_batch(
+            build_root=output_root,
+            language=language,
+        )
+        write_json(VALIDATION_ROOT / f"ui-patch-{language}.json", ui_patch_report)
     return {
         "exit_code": completed.returncode,
         "log": str(log_path),
         "output_root": str(output_root),
         "output_files": len(tree_manifest(output_root)),
+        "ui_patch": ui_patch_report,
     }
 
 

@@ -1,0 +1,16 @@
+<left>
+* Signal reçu perturbé par le bruit ou des impulsions
+* Signal faible avec des parts de bruit
+* Étincelles d'allumage, alimentations à découpage, machines, etc.
+</left>
+<right>
+* Réduction du bruit (*NR*)
+* $\rightarrow$ Différenciation active du signal utile et du bruit
+* Suppression du bruit (*NB*)
+* $\rightarrow$ Élimination des perturbations impulsionnelles
+</right>
+
+---
+[question:EF213]
+---
+[question:EF214]

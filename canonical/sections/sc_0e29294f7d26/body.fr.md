@@ -1,0 +1,132 @@
+Nous avons déjà appris certaines formes d'antennes. Nous allons maintenant discuter plus en détail des propriétés des différentes antennes. Les dipôles alimentés au centre sont des *antennes symétriques*. Par antenne symétrique, nous entendons une antenne qui, en théorie, présente aux deux pôles (par exemple, aux points d'alimentation de chaque branche d'un dipôle) la même tension par rapport à la terre, à l'exception du signe. C'est le cas des dipôles, y compris le dipôle plié et les antennes Yagi-Uda basées sur celui-ci. Une antenne Groundplane, en revanche, présente au point de connexion des radiales un potentiel de terre idéal (c'est-à-dire une tension de zéro par rapport à la terre) et ne fait donc pas partie des antennes symétriques.
+
+<indepth>
+Même pour les câbles de transmission de signaux, par exemple la ligne d'alimentation d'une antenne, on distingue les *câbles symétriques et asymétriques*. La symétrie se réfère ici aux tensions électriques prédominantes en théorie par rapport à la terre. Dans un câble coaxial, les courants doivent être symétriques, mais seul le conducteur intérieur doit avoir une tension par rapport à la terre. Les câbles coaxiaux appartiennent donc aux lignes d'alimentation asymétriques. Comme nous l'apprendrons plus tard, ces lignes d'alimentation asymétriques ne doivent être connectées à une antenne symétrique qu'au moyen d'un élément appelé symétriseur (balun).
+</indepth>
+
+[question:EG213]
+
+---
+
+Une forme d'antenne populaire est un fil d'environ une longueur d’onde en forme de cercle, de carré, de triangle ou d'une forme similaire. On parle alors d'antennes boucles à onde entière. Très populaire en raison de sa structure simple est l'antenne boucle delta, qui, comme le grand delta (Δ) de l'alphabet grec, a la forme d'un triangle.
+
+<margin>
+[picture:311:e_delta_loop:Exemple d'une antenne boucle delta]
+</margin>
+
+[question:EG101]
+
+<indepth>
+La *forme* exacte n'a pas d'importance pour les antennes boucles à onde entière, à condition que la longueur du fil corresponde à peu près à une longueur d’onde. Selon la forme, cependant, différents impédances d'alimentation ou des gains d'antenne légèrement meilleurs ou pires peuvent en résulter.
+</indepth>
+
+---
+
+Les antennes boucles à onde entière doivent être distinguées des antennes boucles magnétiques (Magnetic-Loops), qui présentent des dimensions beaucoup plus petites par rapport à la longueur d’onde et qui génèrent un champ magnétique proche (cf. figure [ref:e_mag_loop]).
+
+<margin>
+[picture:977:e_mag_loop:Exemple d'une antenne boucle magnétique]
+</margin>
+
+[question:EG105]
+
+<indepth>
+Bien que de telles antennes boucles magnétiques soient en principe également adaptées à l'émission, il est difficile d'obtenir un *rendement* élevé. Des rendements compris entre $\qty{1}{\percent}$ et $\qty{10}{\percent}$ sont courants pour les antennes magnétiques en mode émission. Néanmoins, ces boucles magnétiques peuvent offrir des avantages par rapport à d'autres antennes : outre la structure compacte, elles sont souvent moins perturbées par les objets conducteurs ou amortissants situés dans le champ proche, par exemple les murs ou les tuiles de toit lors de l'installation dans un espace intérieur ou sous un toit.
+</indepth>
+
+---
+
+Les antennes *alimentées en bout* sont alimentées par une extrémité. Leur longueur est généralement d'un demi-onde. On parle alors d'un dipôle demi-onde alimenté en bout (en anglais : end fed half wave, EFHW). Une telle antenne nécessite une tension nettement plus élevée par rapport au courant, qui peut être générée par un élément d'adaptation approprié, par exemple un cercle de Fuchs. Les dipôles demi-onde alimentés en bout qui sont adaptés avec un cercle de Fuchs sont appelés antenne Fuchs.
+
+[question:EG104]
+[question:EG103]
+
+<margin>
+[picture:310:e_fuchsantenne:Exemple d'une antenne Fuchs]
+</margin>
+
+<person>
+Le cercle de Fuchs ou l'antenne Fuchs doit son nom à *Dr. Josef Fuchs* (indicatif d'appel radioamateur OE1JF, UO1JF et EAAA), qui a également breveté cette antenne en 1927.
+</person>
+
+<indepth>
+Une antenne alimentée en bout nécessite également un *contrepoids*, par exemple sous la forme d'un fil de $\lambda / 4$ ou d'une autre forme de mise à la terre HF. Cependant, les courants qui apparaissent aux EFHW au point d'alimentation sont nettement plus faibles, de sorte qu'une mise à la terre moins bonne peut également suffire, par exemple un court fil de seulement un dixième ou même un vingtième de la longueur d’onde. Parfois, même le blindage de la ligne d'alimentation ou d'autres éléments métalliques (destinés à d'autres fins) servent de mise à la terre.
+
+Ne pas confondre avec les dipôles demi-onde alimentés en bout les antennes filaires longues alimentées en bout, dont la longueur est nettement supérieure à une longueur d’onde. La confusion vient du fait que les dipôles demi-onde alimentés en bout sont souvent également utilisés à des fréquences plus élevées, ce qui les transforme alors en fait en une antenne filaire longue pour ces fréquences.
+</indepth>
+
+---
+
+La directivité d'une antenne peut être représentée dans un diagramme de rayonnement appelé diagramme de rayonnement. Dans ce cas, le gain ou l'intensité de champ ou la puissance de rayonnement est tracé dans chaque direction pour un plan. Plus le tracé du graphique est éloigné du centre, plus le gain est élevé ou plus l'intensité de champ et la puissance de rayonnement sont élevées dans le champ lointain. Si aucune échelle avec des angles n'est utilisée, on représente également souvent la disposition mécanique de l'antenne dans le même diagramme afin de clarifier quelle direction dans le diagramme correspond à quelle direction par rapport à la disposition de l'antenne.
+
+Un dipôle ne rayonne pas, comme on pourrait le supposer à tort, dans la direction du fil, mais perpendiculairement à celui-ci. Dans un plan considéré et tracé sous forme de diagramme de rayonnement, des lobes correspondants (par exemple à gauche et à droite) se forment à côté du dipôle (cf. figure [ref:e_dipol_strahlungsdiagramm]). Un dipôle suspendu verticalement rayonne donc par exemple vers la gauche et la droite ainsi que vers l'avant et l'arrière. Comme le diagramme de rayonnement ne considère qu'un plan, on ne voit par exemple qu'un lobe pour le rayonnement vers la gauche et un lobe pour le rayonnement vers la droite. Selon l'échelle, ces lobes peuvent avoir l'air circulaires.
+
+<margin>
+[picture:1045:e_dipol_strahlungsdiagramm:Exemple du rayonnement du dipôle]
+</margin>
+
+<indepth>
+Un lobe *circulaire en coupe transversale* résulte d'une échelle qui est linéaire par rapport à l'intensité de champ, lorsque l'on considère un dipôle fortement raccourci (dipôle hertzien). Un dipôle demi-onde a en réalité un gain légèrement plus élevé correspondant à un lobe légèrement plus étroit. Néanmoins, nous trouvons dans les questions d'examen une représentation circulaire qui ne correspond que de manière approximative. Avec une échelle qui serait linéaire par rapport à la puissance de rayonnement dans la direction respective, le lobe devrait même être plus étroit.
+% TODO: éventuellement corriger l'image de la question
+</indepth>
+
+[question:EG215]
+[question:EG214]
+
+---
+
+En raison de la caractéristique de rayonnement perpendiculaire au dipôle, un dipôle demi-onde monté verticalement peut permettre un rayonnement plat, qui peut être souhaité par exemple dans le trafic DX mais aussi dans les contacts par onde directe ou onde de sol.
+
+[question:EG219]
+
+<margin>
+[photo:316:e_vertikaldipol:Dipôle vertical $\frac{\lambda}{2}$]
+</margin>
+
+---
+
+Un cas particulier d'antenne verticale est l'antenne $5/8 \lambda$ excitée par rapport à la terre (ou à une carrosserie de véhicule) (cf. figure [ref:e_fuenf_achtel]). Ici, la longueur est choisie de manière à obtenir un gain optimal.
+
+[question:EG108]
+
+<margin>
+[picture:650:e_fuenf_achtel:Antenne $5/8 \lambda$]
+</margin>
+
+---
+
+Une antenne Groundplane rayonne également perpendiculairement au rayonneur (et non aux radiales). Comme le diagramme de rayonnement montre souvent l'antenne Groundplane vue de dessus, il en résulte presque un rayonneur omnidirectionnel qui présente presque le même gain dans toutes les directions (cf. figure [ref:e_ground_plane_abstrahlung]). Les radiales n'ont qu'une faible influence et peuvent légèrement "déformer" le diagramme de rayonnement, ce qui correspond à un gain légèrement différent dans certaines directions.
+
+<margin>
+[picture:1046:e_ground_plane_abstrahlung:Rayonnement antenne Groundplane]
+</margin>
+
+[question:EG216]
+
+<indepth>
+Même si le diagramme de rayonnement d'une antenne Groundplane avec des radiales est légèrement "déformé", cette déviation est en théorie beaucoup plus petite que souvent représentée. Par conséquent, une antenne Groundplane est en fait un émetteur omnidirectionnel presque idéal dans le plan.
+</indepth>
+
+---
+
+Les antennes directionnelles (par exemple l'antenne Yagi-Uda) se caractérisent par le fait que le gain est nettement plus élevé dans une direction que dans les autres directions, comme le montre la figure [ref:e_richtantenne_abstrahlung].
+
+[question:EG217]
+
+<margin>
+[picture:1047:e_richtantenne_abstrahlung:Rayonnement antenne directionnelle]
+</margin>
+
+---
+
+À des fréquences plus élevées, par exemple dans la gamme UHF ou au-delà, on utilise également des cornets ou des antennes paraboliques (cf. [ref:e_parabolantenne]). On trouve également des antennes patch sur les cartes de circuits imprimés de petits appareils. Toutes ces formes d'antennes sont inhabituelles pour la bande des ondes courtes, car elles atteindraient des dimensions peu pratiques. C'est pourquoi il ne reste plus que l'antenne filaire longue, l'antenne Yagi-Uda, l'antenne dipôle, l'antenne Windom, l'antenne boucle delta pour les questions suivantes.
+
+[question:EG106]
+
+<margin>
+[picture:850:e_parabolantenne:Antenne parabolique]
+</margin>
+
+L'antenne à pot de blocage se compose d'un pot de $\lambda / 4$ de long, qui agit comme un symétriseur ou un bloqueur d'onde de surface. Avec cette connaissance, on peut répondre à la question suivante, car aussi bien un pot de blocage qu'une croix-Yagi-Uda seraient tout aussi peu pratiques qu'un miroir parabolique dans la bande des $\qty{80}{\meter}$.
+
+[question:EG107]

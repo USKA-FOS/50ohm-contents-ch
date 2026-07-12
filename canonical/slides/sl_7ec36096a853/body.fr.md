@@ -1,0 +1,25 @@
+## Déterminer la longueur d’onde et la fréquence
+
+<left>
+[picture:34:a_dipol_stromverteilung:Répartition du courant sur un dipôle]
+</left>
+<right>
+* Déterminez la longueur d’onde des distributions de courant représentées.
+* Convertissez la longueur d’onde en la fréquence correspondante.
+</right>
+
+---
+[question:AG206]
+
+---
+
+[question:AG205]
+
+---
+
+[question:AG204]
+
+---
+
+[question:AG203]
+

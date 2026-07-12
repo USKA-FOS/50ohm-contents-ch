@@ -1,0 +1,59 @@
+Dans les leçons des classes N et E, nous avons déjà appris les influences typiques des appareils et installations électroniques - par exemple par irradiation directe dans le boîtier ou par couplage dans les lignes d'alimentation - ainsi que les contre-mesures et comportements appropriés. Dans la classe A, ces aspects sont encore un peu plus approfondis. 
+
+[question:AJ105]
+
+En cas de perturbations de réception sur des récepteurs numériques faits maison, une cause possible peut être une mauvaise blindage du récepteur. Il est alors conseillé d'installer la carte de circuit imprimé du récepteur dans un boîtier métallique mis à la terre. En particulier pour les récepteurs SDR ou les solutions maison en technologie SDR, un bon blindage pour éviter les rayonnements est absolument nécessaire. Inversement, cela réduit également les rayonnements indésirables de ces appareils.
+
+[question:AJ103]
+
+---
+
+Dans la classe E, nous avons déjà traité des couplages dans les lignes d'alimentation. Il existe cependant une autre contre-mesure que nous allons examiner plus en détail ci-dessous. Si des perturbations arrivent par la ligne d'alimentation, il est conseillé d'installer un filtre de réseau sous forme de filtre passe-bas (voir figure [ref:a_netzfilter] et figure [ref:a_netzfilter_draw]). Ces filtres sont disponibles sous forme d'appareils finis en respectant les directives VDE. 
+
+[question:AJ116]
+[question:AJ117]
+[question:AJ118]
+
+<margin>
+[photo:244:a_netzfilter:Filtre de réseau]
+[picture:367:a_netzfilter_draw:Circuit d'un filtre de réseau]
+</margin>
+
+Différents procédés de transmission ont, en raison de leur caractéristique de modulation, des effets différents sur les perturbations des appareils et des lignes. En particulier, les types de modulation CW ainsi que SSB (où l'amplitude change rapidement) entraînent souvent des perturbations dans les lignes des haut-parleurs et une rectification ultérieure de la HF dans les parties NF des amplificateurs. La jonction base-émetteur se comporte ici comme une diode et redresse la HF. Ainsi, le NF ainsi démodulé devient audible dans les haut-parleurs.
+
+[question:AJ107]
+[question:AJ106]
+
+Pour protéger les récepteurs DVB-T contre les signaux forts d'un émetteur radioamateur VHF/UHF à proximité immédiate, un filtre passe-haut doit être installé dans la ligne d'antenne du récepteur DVB-T. Cela n'est efficace qu'avec des antennes de réception passives. En particulier, les préamplificateurs d'antennes de télévision non sélectifs sont rapidement surchargés par les signaux d'émission voisins, car ceux-ci amplifient une large bande de fréquences.
+Pour les antennes de réception actives, un filtre passe-haut doit être installé avant le préamplificateur d'antenne de l'antenne.
+Lors de l'installation de filtres, l'atténuation d'insertion des filtres dans la bande passante doit également être prise en compte. Celle-ci doit être aussi faible que possible et ne pas dépasser $\qtyrange{2}{3}{\dB}$ afin de laisser passer le signal reçu souhaité le plus librement possible.
+
+[question:AJ113]
+[question:AJ114]
+[question:AJ108]
+
+En principe, il est judicieux d'installer un filtre passe-bas avec une fréquence de coupure de $\qtyrange{30}{40}{\mega\hertz}$ derrière un émetteur à ondes courtes puissant. Une action de filtre passe-bas peut également être obtenue en utilisant un syntoniseur d'antenne en configuration filtre passe-bas (filtre Pi ou LC), qui supprime efficacement les émissions d'harmoniques supérieures.
+
+[question:AJ112]
+[question:AJ104]
+
+Les signaux d'émission forts d'une station radioamateur peuvent provoquer des perturbations de réception, des bruits parasites ou des coupures/artefacts/extinction (en particulier dans les récepteurs numériques comme DAB/DVB-T) dans les récepteurs DAB, TV et UKW. Ces perturbations sont souvent causées par la surcharge de l'entrée du récepteur par des intensités de signal élevées à l'emplacement de réception et entraînent une réduction de la sensibilité du récepteur ou une surcharge du premier étage du récepteur.
+
+[question:AJ110]
+[question:AJ111]
+[question:AJ109]
+
+Pour éviter les problèmes mentionnés ci-dessus, le radioamateur doit donc toujours travailler avec la puissance d'émission minimale nécessaire pour une communication satisfaisante.
+
+[question:AJ101]
+
+Pour bloquer les perturbations HF dans les circuits et les appareils, on utilise souvent des condensateurs de blocage. Ceux-ci doivent avoir la propriété de dériver la HF contre la masse de la manière la plus efficace possible. Les condensateurs en céramique conviennent particulièrement bien à cet effet. Les condensateurs électrolytiques et les condensateurs à film plastique sont inappropriés, car ils possèdent une inductance propre élevée en raison de leur construction enroulée. Dans le cas des condensateurs en tantale, un condensateur en céramique est souvent connecté en parallèle en raison des meilleures propriétés de dérivation HF, car ceux-ci seuls ne conviennent que pour les fréquences HF moyennes jusqu'à environ $\qty{30}{\mega\hertz}$ et les condensateurs en céramique peuvent bloquer des fréquences bien plus élevées.
+Pour dériver efficacement les perturbations HF, une mise à la terre efficace avec une impédance faible doit être présente.
+
+[question:AJ119]
+[question:AJ102]
+
+Dans les lignes d'alimentation des étages HF, on utilise souvent des selfs HF. Celles-ci représentent une impédance longitudinale pour les hautes fréquences et bloquent efficacement les entrées et les retours de haute fréquence dans les étages ainsi que les retours HF dans l'alimentation des étages.
+En raison de leur construction enroulée, ces selfs ont également des capacités propres, de sorte qu'elles forment, en association avec leur inductance, des points de résonance indésirables (circuits oscillants). Cela peut entraîner des *résonances secondaires* indésirables dans les étages HF, qui sont causées par les *résonances propres* des selfs HF. Les résonances secondaires peuvent influencer négativement la caractéristique des étages HF. Cela peut entraîner des effets de rétroaction indésirables, en particulier dans les amplificateurs, ainsi que des chutes dans la caractéristique de puissance des étages HF.
+
+[question:AJ214]

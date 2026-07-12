@@ -1,0 +1,79 @@
+<left>
+[picture:342:daempfungsglied_pi:Atténuateur en configuration PI avec source et résistance de charge]
+</left>
+<right>
+* Affaiblit le niveau du signal de manière définie
+* Évite la surcharge ou les dommages aux instruments de mesure
+* Réduit le niveau d'entrée pour les amplificateurs et les récepteurs à un niveau défini
+</right>
+<note>
+Le nom configuration PI provient de la structure des résistances en π
+</note>
+
+---
+<left>
+[picture:342:daempfungsglied_pi:Atténuateur en configuration PI avec source et résistance de charge]
+</left>
+<right>
+* Atténuation via les résistances et conversion en chaleur
+* Pour les atténuateurs symétriques, les impédances d'entrée et de sortie sont égales
+* Généralement $\qty{50}{\ohm}$
+</right>
+
+---
+<left>
+[picture:341:daempfungsglied_t:Atténuateur en configuration T avec source et résistance de charge]
+</left>
+<right>
+* L'atténuation est indiquée en $\unit{\dB}$
+* Par exemple, $\qty{20}{\dB}$ = Facteur $\num{100}$
+* $\qty{100}{\watt}$ de puissance d'entrée $\rightarrow\qty{1}{\watt}$ de puissance de sortie
+</right>
+<note>
+Le nom configuration T provient de la structure des résistances en T
+</note>
+
+---
+[question:AD806]
+--- style="font-size: smaller;"
+#### Solution
+* donné : $P_1 = \qty{100}{\watt}$
+* donné : $a = \qty{20}{\dB}$
+* recherché : $\Delta P = P_2 - P_1$
+
+<fragment>
+$\begin{split} a &= \qty{10 \cdot \log_{10}{\left(\frac{P_1}{P_2}\right)}}{\dB}\\ \Rightarrow \frac{a}{\qty{10}{\dB}} &= \log_{10}{\left(\frac{P_1}{P_2}\right)}\\ \Rightarrow 10^{\frac{a}{\qty{10}{\dB}}} &= \frac{P_1}{P_2}\\ \Rightarrow P_2 &= \frac{P_1}{10^{\frac{a}{\qty{10}{\dB}}}}\end{split}$
+</fragment>
+---
+<fragment>
+$P_2 = \frac{P_1}{10^{\frac{a}{10}}} = \frac{\qty{100}{\watt}}{10^{\frac{20}{10}}} = \qty{1}{\watt}$
+</fragment>
+<fragment>
+$\Delta P = P_2 - P_1 = \qty{100}{\watt} - \qty{1}{\watt} = \qty{99}{\watt}$
+</fragment>
+---
+[question:AD803]
+---
+#### Solution
+
+* $\qty{20}{\dB}$ correspondent à une atténuation de puissance avec un facteur de $\num{100}$
+
+---
+[question:AD804]
+---
+#### Solution
+
+* $\qty{6}{\dB}$ correspondent à une atténuation de puissance avec un facteur de $\num{4}$
+
+---
+[question:AD805]
+---
+#### Solution
+
+* L'impédance pour le circuit global ne change pas – donc $\qty{50}{\ohm}$
+
+
+---
+[question:AD801]
+---
+[question:AD802]

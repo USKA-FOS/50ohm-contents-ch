@@ -1,0 +1,9 @@
+Les tensions alternatives élevées sont dangereuses, cela va de soi également pour les tensions alternatives haute fréquence élevées. Elles peuvent provoquer des troubles du rythme cardiaque, des *brûlures et d'autres blessures*. Même dans les cas inoffensifs, on sursaute ou on se crispe au contact. La conséquence peut être, par exemple, une chute de l'échelle. Il s'agirait alors d'un accident secondaire. En principe, tout cela peut être mortel.
+
+C'est pourquoi il faut toujours respecter la règle suivante: Ne touchez pas à une antenne d'émission en fonctionnement!
+
+<danger>
+Les *"Dangers du courant électrique"* ont déjà été abordés dans la section 6.4.
+</danger>
+
+[question:EK202]

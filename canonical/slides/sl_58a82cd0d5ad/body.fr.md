@@ -1,0 +1,14 @@
+<left>
+Dans la transmission d'informations, on distingue fondamentalement entre les procédés analogiques et numériques.
+
+* *Numérique* : par paliers, seulement certaines valeurs, pas de valeurs intermédiaires
+* *Analogique* : continu, valeurs intermédiaires arbitraires
+</left>
+<right>
+[picture:411:n_digital_einleitung_digitales_signal:Signal numérique (étagé)]
+[picture:408:n_digital_einleitung_analoges_signal:Signal analogique (continu)]
+</right>
+<note>
+Digitus (latin) : doigt
+analogos (grec ancien) : correspondant, de même nature, proportionnel, approprié, similaire
+</note>

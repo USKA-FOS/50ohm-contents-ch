@@ -1,0 +1,33 @@
+Les radioamateurs sont légalement tenus de respecter certaines limites de puissance pour leurs installations radio. Il est particulièrement important de respecter la puissance de sortie de l'émetteur ainsi que d'éviter les émissions indésirables – nous aborderons ce dernier point dans le prochain chapitre. Dans ce chapitre, nous nous concentrons d'abord sur la puissance de sortie de l'émetteur.
+
+Dans de nombreuses bandes de fréquences radioamateurs qui sont principalement attribuées au radioamateur, la puissance de sortie maximale de l'émetteur – en anglais Peak Envelope Power (abrégé en PEP) – est considérée comme la valeur limite déterminante. Les spécifications de puissance exactes se trouvent dans l'[ordonnance de l'OFCOM sur l'utilisation du spectre des fréquences radioélectriques (OVNF)](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf) sur le site web de l'OFCOM.
+
+---
+
+Comme le montre la figure [ref:e_senderausgangsleisung], la puissance de sortie d'un émetteur est toujours mesurée directement à la sortie de l'émetteur – sans qu'aucun appareil supplémentaire, filtre ou câble ne soit intercalé. Pour déterminer la puissance d'un émetteur SSB, il doit être exploité avec une modulation appropriée à amplitude constante. Une méthode simple consiste à injecter un signal à tonalité unique, par exemple en appuyant sur la touche Morse en mode CW ; une modulation à deux tons est encore meilleure. Une mesure avec un signal vocal n'est pas appropriée, car la puissance de sortie varie fortement dans ce cas.
+
+<margin>
+[picture:916:e_senderausgangsleisung:Mesure de la puissance de sortie de l'émetteur]
+</margin>
+
+<indepth>
+Un *signal à deux tons* est idéal pour la mesure de puissance et de linéarité d'un émetteur SSB, car il contient deux tons sinusoïdaux purs à amplitude constante. Cela permet de générer dans l'émetteur exactement les produits de mélange typiques des signaux vocaux réels, mais sous une forme clairement définie et reproductible.
+</indepth>
+
+
+[question:EF401]
+[question:EF402]
+
+---
+
+La PEP décrit la puissance de crête de l'émetteur dans des conditions de fonctionnement normales : il s'agit de la puissance que l'émetteur peut fournir en moyenne pendant une période de l'oscillation haute fréquence au pic le plus élevé de l'enveloppe de modulation (cf. figure [ref:e_senderausgangsleisung_2]) à une résistance de terminaison réelle. Comment mesurer exactement la PEP – par exemple à l'aide d'un oscilloscope – sera traité plus en détail dans la classe A.
+
+<margin>
+[picture:875:e_senderausgangsleisung_2:Pic le plus élevé de l'enveloppe de modulation]
+</margin>
+
+[question:EB501]
+
+En plus de la puissance de crête d'un émetteur (PEP), il existe également la *puissance moyenne*. Elle est indépendante de l'enveloppe, car la puissance mesurée dans son évolution temporelle est moyennée sur une période qui est longue par rapport à la période de la fréquence de modulation la plus basse. Avec cette considération, on peut identifier très simplement la réponse correcte à la question suivante.
+
+[question:EB502]

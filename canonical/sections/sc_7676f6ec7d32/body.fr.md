@@ -1,0 +1,3 @@
+En cas de signaux d'entrée forts, l'AGC réduit le gain des étages d'amplification dans la branche de réception et l'augmente en cas de signaux d'entrée faibles. Cela permet de maintenir constante l'amplitude du signal démodulé et donc le volume du signal AF. Sans AGC, les signaux forts satureraient l'AF et les signaux faibles ne seraient que très faiblement audibles en AF. Le volume AF devrait toujours être réajusté manuellement. L'AGC compense ainsi la dynamique du signal reçu et adapte dynamiquement la sensibilité de la branche de réception en fonction des signaux HF d'entrée.
+
+[question:AF224]

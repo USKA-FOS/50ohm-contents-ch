@@ -1,0 +1,46 @@
+<left>
+* Un simple multimètre ne peut pas mesurer les résistances dépendantes de la fréquence
+* Pour cela, on utilise un *analyseur de réseau vectoriel (VNA)*
+</left>
+<right>
+* Appareil de mesure actif
+* Mesure le rapport de tension et de courant à une fréquence
+* Souvent, une plage de fréquences peut être spécifiée
+</right>
+
+---
+## Applications
+
+<left>
+* Grandes et petites résistances d'un circuit oscillant
+* Fréquence de résonance d'un circuit oscillant
+* Comportement du filtre
+* Mesure d'impédance
+* Rapports d'ondes stationnaires
+</left>
+<right>
+[photo:201:e_vna_tiefpassmessung:Mesure d'un filtre passe-bas avec une fréquence de coupure à $\qty{30}{\mega\hertz}$]
+</right>
+<note>
+* Dans l'image, la mesure est effectuée de $\qtyrange{0}{100}{\mega\hertz}$ et la transmission jusqu'à environ $\qty{30}{\mega\hertz}$ est visible
+</note>
+---
+[question:EI201]
+---
+[question:EI202]
+---
+[question:EI203]
+---
+[question:EI204]
+---
+## Calibration
+
+* Calibrer avant l'utilisation
+* État *ouvert* : résistance infinie
+* État *court-circuit* : résistance proche de zéro
+* État *adapté* : par exemple, avec une résistance de $\qty{50}{\ohm}$, un ROS de $\num{1}$ doit être affiché
+
+---
+[question:EI205]
+---
+[question:EI206]

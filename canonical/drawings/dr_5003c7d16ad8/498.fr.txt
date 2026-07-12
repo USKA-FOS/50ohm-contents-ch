@@ -1,0 +1,12 @@
+Ce texte alternatif n'a pas encore été vérifié.
+
+1) Résumé :
+Circuit avec deux transistors, un quartz entre les bornes 1 et 2, plusieurs résistances et condensateurs, une bobine pour l'alimentation marquée « + » et une sortie couplée capacitivement à la borne 4.
+
+2) Description détaillée :
+- En haut, une piste conductrice horizontale continue ; à droite, elle est connectée via une bobine (self) à une borne d'alimentation marquée « + », à gauche, un symbole de batterie est dessiné sur la barre supérieure. De la barre supérieure, une résistance descend vers le bas : une à gauche vers un nœud de gauche, une à droite vers un nœud de droite.
+- À gauche, se trouvent deux bornes ouvertes « 1 » (en bas) et « 2 » (en haut) ; entre elles, un quartz (résonateur rectangulaire entre deux plaques) est dessiné. De la borne « 1 », un condensateur réglable (barre oblique/curseur) descend vers la barre inférieure. De la borne « 2 », une ligne va vers la droite vers un nœud ; à ce nœud, un condensateur est connecté vers le bas à la barre inférieure et vers le haut, la résistance mentionnée de la barre supérieure.
+- Au milieu à gauche, se trouve un transistor dans un cercle. Sa borne supérieure est connectée à la barre supérieure ; une borne latérale va au nœud avec la borne « 2 » ; la borne inférieure mène à un nœud avec la borne ouverte « 3 ». De ce nœud « 3 », une résistance descend vers la barre inférieure et un condensateur vers la barre inférieure ; vers la droite, un condensateur de couplage en série mène à un nœud central.
+- Au nœud central (à droite du condensateur en série), trois connexions partent : vers le bas, une résistance vers la barre inférieure, vers la gauche, retour vers le condensateur de couplage, et vers la droite, via une résistance, vers un conducteur vertical droit.
+- À droite, se trouve un deuxième transistor dans un cercle. Sa borne supérieure est connectée au conducteur vertical droit ; celui-ci est connecté vers le haut via la résistance mentionnée à droite à la barre supérieure et vers la droite via un condensateur à la borne ouverte « 4 » (sortie). La borne inférieure du transistor de droite va via une résistance à la barre inférieure ; en outre, un condensateur est dessiné de cette borne inférieure vers le bas à la barre inférieure.
+- En bas, une barre de référence horizontale continue ; dans la moitié gauche, un symbole de masse est dessiné, à l'extrémité droite, une borne ouverte. Tous les points d'intersection avec des points pleins représentent des nœuds électriques.

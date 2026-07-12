@@ -1,0 +1,5382 @@
+{
+  "abstract": "Êtes-vous un radioamateur de classe E et souhaitez-vous exploiter à distance, 20 et 40 mètres ainsi que plus de puissance ? Alors, suivez notre cours de classe A et nous vous mènerons garantis à la classe la plus élevée.",
+  "chapters": [
+    {
+      "abstract": "Ce chapitre décrit comment les ondes radio se propagent dans des conditions atmosphériques et ionosphériques réelles. Il traite des différents mécanismes de propagation tels que l'onde de sol, l'onde spatiale et la réfraction ainsi que leur dépendance de l'heure de la journée, de la saison et de l'activité solaire. De plus, des effets typiques tels que le fading, les zones mortes, la distance de saut ainsi que le MUF et le LUF sont expliqués, qui sont décisifs pour la liaison radio pratique.",
+      "id": "ch_46f406a88a39",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "a_wellenausbreitung",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_4084ac8909eb",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "troposphaere_3",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "prod",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_92ae9e1c9f64",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "troposphaere_3"
+            },
+            {
+              "object_id": "sl_d8c869b4e0bf",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "troposphaere_3"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Troposphère III"
+        },
+        {
+          "abstract": null,
+          "id": "se_c87a13218bee",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "mehrwegeausbreitung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "prod",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_86fde678e8a8",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "mehrwegeausbreitung"
+            },
+            {
+              "object_id": "sl_4719cab1d847",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "mehrwegeausbreitung"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Propagation par trajets multiples"
+        },
+        {
+          "abstract": null,
+          "id": "se_9a2de0c1e46d",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "aurora_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "prod",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_8a8557afdedd",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "aurora_2"
+            },
+            {
+              "object_id": "sl_e25c8043d95e",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "aurora_2"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Aurore II"
+        },
+        {
+          "abstract": null,
+          "id": "se_c31cddd79fb3",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "sporadic_e_3",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "prod",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_780d68465fff",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "sporadic_e_3"
+            },
+            {
+              "object_id": "sl_a2857d1c08ab",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "sporadic_e_3"
+            }
+          ],
+          "sort_order": 4,
+          "title": "Sporadique E III"
+        },
+        {
+          "abstract": null,
+          "id": "se_526ced2fa9fd",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "ionosphaere_3",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "prod",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_0ed6e301dd42",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "ionosphaere_3"
+            },
+            {
+              "object_id": "sl_b23e95d6d655",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "ionosphaere_3"
+            }
+          ],
+          "sort_order": 5,
+          "title": "Ionosphère III"
+        },
+        {
+          "abstract": null,
+          "id": "se_5df4d43e6b76",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "tote_zone_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "prod",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_6e08fa2221f0",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "tote_zone_2"
+            },
+            {
+              "object_id": "sl_a2a0a39d9269",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "tote_zone_2"
+            }
+          ],
+          "sort_order": 6,
+          "title": "Zone morte II"
+        },
+        {
+          "abstract": null,
+          "id": "se_02a1bd839431",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "sprungdistanz_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "prod",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_e897c7a39bef",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "sprungdistanz_2"
+            },
+            {
+              "object_id": "sl_080ba388bcdc",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "sprungdistanz_2"
+            }
+          ],
+          "sort_order": 7,
+          "title": "Distance de saut II"
+        },
+        {
+          "abstract": null,
+          "id": "se_f6c7f4d33f0e",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "muf_luf_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "prod",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_acb495fcab51",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "muf_luf_2"
+            },
+            {
+              "object_id": "sl_7180856265e9",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "muf_luf_2"
+            }
+          ],
+          "sort_order": 8,
+          "title": "MUF et LUF II"
+        },
+        {
+          "abstract": null,
+          "id": "se_d6efc2a11530",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "langer_kurzer_weg_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "prod",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_84ff90c064ea",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "langer_kurzer_weg_2"
+            },
+            {
+              "object_id": "sl_e6aed07a69e9",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "langer_kurzer_weg_2"
+            }
+          ],
+          "sort_order": 9,
+          "title": "Long et court chemin II"
+        },
+        {
+          "abstract": null,
+          "id": "se_9505e5f945e1",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "scatter",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "beta",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_c9325fb984ec",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "scatter"
+            },
+            {
+              "object_id": "sl_846044f72203",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "scatter"
+            }
+          ],
+          "sort_order": 10,
+          "title": "Scatter"
+        }
+      ],
+      "sort_order": 1,
+      "title": "Propagation des ondes"
+    },
+    {
+      "abstract": "Ce chapitre enseigne les grandeurs électriques fondamentales que sont le courant, la tension, la résistance, la puissance et l'énergie et montre comment elles sont physiquement liées. Il traite de la manipulation sécurisée des circuits électriques, de la mesure des grandeurs électriques, de la loi d'Ohm ainsi que des composants et de leurs propriétés. En outre, des concepts pratiques tels que le courant alternatif, les décibels et les symboles de circuit sont introduits, qui sont indispensables à la compréhension des circuits modernes de radio et d'électronique.",
+      "id": "ch_b899e376eac1",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "a_strom_spannung_widerstand_leistung_energie",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_4907fcda0c19",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "physikalische_stromrichtung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "prod",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_2c4cb6110791",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "physikalische_stromrichtung"
+            },
+            {
+              "object_id": "sl_ce5d23fcbf49",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "physikalische_stromrichtung"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Direction physique du courant"
+        },
+        {
+          "abstract": null,
+          "id": "se_ec4f01186c56",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "strom_spannung_messung_3",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "prod",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_600f9f769313",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "strom_spannung_messung_3"
+            },
+            {
+              "object_id": "sl_96da0cc22316",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "strom_spannung_messung_3"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Mesure de courant et de tension III"
+        },
+        {
+          "abstract": null,
+          "id": "se_3fe50210c5aa",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "oszilloskop_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "prod",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_1f5d2956d4cb",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "oszilloskop_2"
+            },
+            {
+              "object_id": "sl_cf0ddf1ed97e",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "oszilloskop_2"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Oscilloscope II"
+        },
+        {
+          "abstract": null,
+          "id": "se_e0b193403b7c",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "leiterwiderstand",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_2f253defa723",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "leiterwiderstand"
+            },
+            {
+              "object_id": "sl_2e1090fe89e3",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "leiterwiderstand"
+            }
+          ],
+          "sort_order": 4,
+          "title": "Résistance du conducteur"
+        },
+        {
+          "abstract": null,
+          "id": "se_48467d7640cc",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "wechselstrom_leistung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_dff3949b54ac",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "wechselstrom_leistung"
+            },
+            {
+              "object_id": "sl_c9f4d29c16e4",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "wechselstrom_leistung"
+            }
+          ],
+          "sort_order": 5,
+          "title": "Puissance en courant alternatif"
+        },
+        {
+          "abstract": null,
+          "id": "se_fd5542fa329a",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "dezibel_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_cd63d7dcbb77",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "dezibel_2"
+            },
+            {
+              "object_id": "sl_38cb113d09bb",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "dezibel_2"
+            }
+          ],
+          "sort_order": 6,
+          "title": "Décibel II"
+        },
+        {
+          "abstract": null,
+          "id": "se_41d01f84a6ad",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "ladung_energie",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_ff1a9da66617",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "ladung_energie"
+            },
+            {
+              "object_id": "sl_36c0a7ea4be7",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "ladung_energie"
+            }
+          ],
+          "sort_order": 7,
+          "title": "Charge et énergie"
+        }
+      ],
+      "sort_order": 2,
+      "title": "Courant, tension, résistance, puissance, énergie"
+    },
+    {
+      "abstract": "Ce chapitre transmet les propriétés fondamentales et l'interaction des composants électroniques importants tels que les condensateurs, les bobines, les diodes, les transistors et les circuits intégrés. Il forme la base de la compréhension des circuits électroniques et de leur fonction dans les émetteurs, les récepteurs et autres appareils radio.",
+      "id": "ch_9f8458272612",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "a_bauelemente",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_562d142c45e8",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "phase",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_6a55e83533a5",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "phase"
+            },
+            {
+              "object_id": "sl_6fbb798372a4",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "phase"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Phase"
+        },
+        {
+          "abstract": null,
+          "id": "se_1f9756bca0c8",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "kondensator_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_33fb174ddf00",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "kondensator_2"
+            },
+            {
+              "object_id": "sl_e7c543f8dcc3",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "kondensator_2"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Condensateur II"
+        },
+        {
+          "abstract": null,
+          "id": "se_fcc441ee6ffd",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "spule_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_9e22cbc1199d",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "spule_2"
+            },
+            {
+              "object_id": "sl_1c30daf0759e",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "spule_2"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Bobine II"
+        },
+        {
+          "abstract": null,
+          "id": "se_8f4e81909502",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "uebertrager_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_1b31e68186d0",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "uebertrager_2"
+            },
+            {
+              "object_id": "sl_00d750474f58",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "uebertrager_2"
+            }
+          ],
+          "sort_order": 4,
+          "title": "Transformateur II"
+        },
+        {
+          "abstract": null,
+          "id": "se_8a349189f945",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "halbleiter_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_1a324cd25606",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "halbleiter_2"
+            },
+            {
+              "object_id": "sl_2cbc5d4b7f7c",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "halbleiter_2"
+            }
+          ],
+          "sort_order": 5,
+          "title": "Semi-conducteurs II"
+        },
+        {
+          "abstract": null,
+          "id": "se_3636a4093ae8",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "diode_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_cc17b0c9aa12",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "diode_2"
+            },
+            {
+              "object_id": "sl_81f2037b4fe4",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "diode_2"
+            }
+          ],
+          "sort_order": 6,
+          "title": "Diode II"
+        },
+        {
+          "abstract": null,
+          "id": "se_38e298c772c2",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "transistor_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_9021b3a94776",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "transistor_2"
+            },
+            {
+              "object_id": "sl_eb1c2a39bfc1",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "transistor_2"
+            }
+          ],
+          "sort_order": 7,
+          "title": "Transistor II"
+        },
+        {
+          "abstract": null,
+          "id": "se_3c4692b30ebb",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "integrierte_schaltkreise",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_2833bac51291",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "integrierte_schaltkreise"
+            },
+            {
+              "object_id": "sl_5844d866d13b",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "integrierte_schaltkreise"
+            }
+          ],
+          "sort_order": 8,
+          "title": "Circuits intégrés"
+        }
+      ],
+      "sort_order": 3,
+      "title": "Composants"
+    },
+    {
+      "abstract": "Dans ce chapitre, les règles fondamentales pour les circuits série et parallèle de composants sont traitées. L'objectif est de comprendre le comportement de réseaux simples et mixtes et de calculer systématiquement les résistances totales, les tensions et les courants.",
+      "id": "ch_fcaca64dc591",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "a_reihen_parallelschaltung",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_b9b6cb6d8ff4",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "reihe_parallel_widerstandsnetz_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_929379065ad6",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "reihe_parallel_widerstandsnetz_2"
+            },
+            {
+              "object_id": "sl_2b23ed308d59",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "reihe_parallel_widerstandsnetz_2"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Réseaux de résistances II"
+        },
+        {
+          "abstract": null,
+          "id": "se_b5c5f29e7563",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "spannungsteiler_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_e7885a332244",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "spannungsteiler_2"
+            },
+            {
+              "object_id": "sl_224dda9b4387",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "spannungsteiler_2"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Diviseur de tension II"
+        },
+        {
+          "abstract": null,
+          "id": "se_1396a00cb80a",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "brueckenschaltung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_315f0145eb6a",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "brueckenschaltung"
+            },
+            {
+              "object_id": "sl_1b3b1e8ff4f2",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "brueckenschaltung"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Circuit en pont"
+        },
+        {
+          "abstract": null,
+          "id": "se_947fbb2e287f",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "reihenschaltung_spule",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_663b48ff8b54",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "reihenschaltung_spule"
+            },
+            {
+              "object_id": "sl_7ebacd3bc73d",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "reihenschaltung_spule"
+            }
+          ],
+          "sort_order": 4,
+          "title": "Bobine en série"
+        },
+        {
+          "abstract": null,
+          "id": "se_1e9c534330d2",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "reihe_parallel_gemischt",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_d4010c9e1bce",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "reihe_parallel_gemischt"
+            },
+            {
+              "object_id": "sl_393280ae50fd",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "reihe_parallel_gemischt"
+            }
+          ],
+          "sort_order": 5,
+          "title": "Circuit série et parallèle de composants mixtes"
+        }
+      ],
+      "sort_order": 4,
+      "title": "Circuit série et parallèle de composants"
+    },
+    {
+      "abstract": "Les appareils radio doivent être alimentés en tension et en courant électriques pour fonctionner. Dans ce chapitre, nous apprenons les bases de l'alimentation en tension et en courant avec des alimentations secteur, des batteries et des accumulateurs. Les dangers du courant électrique sont également traités.",
+      "id": "ch_caa3f6e1afc9",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "a_strom_spannungsversorgung",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_291a50de5598",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "innenwiderstand",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_dc09b24a2ab0",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "innenwiderstand"
+            },
+            {
+              "object_id": "sl_06f73ab41386",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "innenwiderstand"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Résistance interne des sources de courant et de tension"
+        },
+        {
+          "abstract": null,
+          "id": "se_0337a1e4949b",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "akku",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_02b7fb48ec12",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "akku"
+            },
+            {
+              "object_id": "sl_6601d3651d07",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "akku"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Batteries"
+        },
+        {
+          "abstract": null,
+          "id": "se_92c785bfd0b4",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "photovoltaik",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_a66455eda1ad",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "photovoltaik"
+            },
+            {
+              "object_id": "sl_8a6276aa2ed1",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "photovoltaik"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Photovoltaïque"
+        },
+        {
+          "abstract": null,
+          "id": "se_7d8ff1b78dcc",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "spannungswandler",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_5b5725cdc1a8",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "spannungswandler"
+            },
+            {
+              "object_id": "sl_ccd7122e0afb",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "spannungswandler"
+            }
+          ],
+          "sort_order": 4,
+          "title": "Convertisseurs de tension"
+        },
+        {
+          "abstract": null,
+          "id": "se_8b39817ce51b",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "gleichrichter_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_9dd5e3617e3d",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "gleichrichter_2"
+            },
+            {
+              "object_id": "sl_9763aaf80bb8",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "gleichrichter_2"
+            }
+          ],
+          "sort_order": 5,
+          "title": "Redresseur II"
+        },
+        {
+          "abstract": null,
+          "id": "se_f62619094143",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "brueckengleichrichter",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_160e36195ba3",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "brueckengleichrichter"
+            },
+            {
+              "object_id": "sl_2514f540f9e6",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "brueckengleichrichter"
+            }
+          ],
+          "sort_order": 6,
+          "title": "Redresseur en pont"
+        },
+        {
+          "abstract": null,
+          "id": "se_8bba5bc696a2",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "vollweggleichrichter",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_c3e7a7148953",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "vollweggleichrichter"
+            },
+            {
+              "object_id": "sl_fd75ae670f32",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "vollweggleichrichter"
+            }
+          ],
+          "sort_order": 7,
+          "title": "Redresseur pleine onde"
+        },
+        {
+          "abstract": null,
+          "id": "se_ee7074a3905b",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "restwelligkeit",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_44f11935bb46",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "restwelligkeit"
+            },
+            {
+              "object_id": "sl_2cec35fd5120",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "restwelligkeit"
+            }
+          ],
+          "sort_order": 8,
+          "title": "Ondulation résiduelle"
+        },
+        {
+          "abstract": null,
+          "id": "se_928554c03cb4",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "schaltnetzteil_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_d73f4201b69f",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "schaltnetzteil_2"
+            },
+            {
+              "object_id": "sl_348e8169e224",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "schaltnetzteil_2"
+            }
+          ],
+          "sort_order": 9,
+          "title": "Alimentation à découpage II"
+        },
+        {
+          "abstract": null,
+          "id": "se_cd5909b2d944",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "spannungsstabilisierung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_f90f74481355",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "spannungsstabilisierung"
+            },
+            {
+              "object_id": "sl_7481443b5f7b",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "spannungsstabilisierung"
+            }
+          ],
+          "sort_order": 10,
+          "title": "Stabilisation de tension"
+        },
+        {
+          "abstract": null,
+          "id": "se_5c7d7e997e86",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "fernspeiseweiche",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_83ea6e1f0aa7",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "fernspeiseweiche"
+            },
+            {
+              "object_id": "sl_b708e4d9ff6b",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "fernspeiseweiche"
+            }
+          ],
+          "sort_order": 11,
+          "title": "Séparateur d'alimentation"
+        }
+      ],
+      "sort_order": 5,
+      "title": "Alimentation électrique et tension"
+    },
+    {
+      "abstract": "Dans ce chapitre, nous présentons les blocs de circuits fondamentaux de la technique radio, nécessaires à la génération, au traitement et à la conversion des signaux haute fréquence. Cela inclut les filtres et les circuits oscillants, les oscillateurs, les mélangeurs, les multiplicateurs de fréquence ainsi que les amplificateurs et les convertisseurs de fréquence. Ces composants forment la base des circuits modernes d'émetteurs et de récepteurs.",
+      "id": "ch_b1986239ab2b",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "a_grundlegende_schaltungen",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_cbf35a6692b0",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "schwingkreis_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_8025a74a0370",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "schwingkreis_2"
+            },
+            {
+              "object_id": "sl_357138d7a536",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "schwingkreis_2"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Circuit oscillant II"
+        },
+        {
+          "abstract": null,
+          "id": "se_468cfeb9fb11",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "oszillator_vco",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_36c613940c2e",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "oszillator_vco"
+            },
+            {
+              "object_id": "sl_4dded9276acd",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "oszillator_vco"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Oscillateur commandé en tension (VCO)"
+        },
+        {
+          "abstract": null,
+          "id": "se_7df0dcd37795",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "oszillator_tcxo_ocxo",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_81a7762996e9",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "oszillator_tcxo_ocxo"
+            },
+            {
+              "object_id": "sl_4cd3ad93b145",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "oszillator_tcxo_ocxo"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Compensation de température des oscillateurs"
+        },
+        {
+          "abstract": null,
+          "id": "se_c025fa2deef9",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "oszillator_gpsdo",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_c9682ab8909b",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "oszillator_gpsdo"
+            },
+            {
+              "object_id": "sl_e2fd5f112866",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "oszillator_gpsdo"
+            }
+          ],
+          "sort_order": 4,
+          "title": "Oscillateur synchronisé par GPS"
+        },
+        {
+          "abstract": null,
+          "id": "se_dd70b9d8bd4e",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "oszillator_spannungsstabilitaet",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_d612b3f0d53e",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "oszillator_spannungsstabilitaet"
+            },
+            {
+              "object_id": "sl_1e9b6e0a7510",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "oszillator_spannungsstabilitaet"
+            }
+          ],
+          "sort_order": 5,
+          "title": "Stabilité de tension des oscillateurs"
+        },
+        {
+          "abstract": null,
+          "id": "se_b295a89be054",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "oszillator_schaltungen",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_3f9cf431cd93",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "oszillator_schaltungen"
+            },
+            {
+              "object_id": "sl_3ad89d1de4cf",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "oszillator_schaltungen"
+            }
+          ],
+          "sort_order": 6,
+          "title": "Circuits oscillateurs"
+        },
+        {
+          "abstract": null,
+          "id": "se_43bacd34c2b1",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "oszillator_dds",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_6ff04eb6f875",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "oszillator_dds"
+            },
+            {
+              "object_id": "sl_ce3f866dbcbd",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "oszillator_dds"
+            }
+          ],
+          "sort_order": 7,
+          "title": "Synthèse numérique directe"
+        },
+        {
+          "abstract": null,
+          "id": "se_1590a496184a",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "oszillator_pll",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_ca07e6ca4416",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "oszillator_pll"
+            },
+            {
+              "object_id": "sl_ea7c62e0be5c",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "oszillator_pll"
+            }
+          ],
+          "sort_order": 8,
+          "title": "Boucle à verrouillage de phase (PLL)"
+        },
+        {
+          "abstract": null,
+          "id": "se_94ecc2486576",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "frequenzvervielfacher_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_02b80ee9c78e",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "frequenzvervielfacher_2"
+            },
+            {
+              "object_id": "sl_d3cd2cf104cd",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "frequenzvervielfacher_2"
+            }
+          ],
+          "sort_order": 9,
+          "title": "Multiplicateur de fréquence II"
+        },
+        {
+          "abstract": null,
+          "id": "se_27b473f01b41",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "transverter_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_fee62951ffce",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "transverter_2"
+            },
+            {
+              "object_id": "sl_e4c1a5812476",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "transverter_2"
+            }
+          ],
+          "sort_order": 10,
+          "title": "Convertisseurs et transverters II"
+        },
+        {
+          "abstract": null,
+          "id": "se_2b09209dff59",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "kollektorschaltung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_9b818b2a279f",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "kollektorschaltung"
+            },
+            {
+              "object_id": "sl_e8145610c937",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "kollektorschaltung"
+            }
+          ],
+          "sort_order": 11,
+          "title": "Circuit collecteur"
+        },
+        {
+          "abstract": null,
+          "id": "se_f7f54bca5288",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "emitterschaltung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_fcb469105a7c",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "emitterschaltung"
+            },
+            {
+              "object_id": "sl_00ae48e9b7d2",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "emitterschaltung"
+            }
+          ],
+          "sort_order": 12,
+          "title": "Montage émetteur commun"
+        },
+        {
+          "abstract": null,
+          "id": "se_bb0da125eac7",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "verstaerker_klasse",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_f615fd5c7598",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "verstaerker_klasse"
+            },
+            {
+              "object_id": "sl_83bf2b8fdf91",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "verstaerker_klasse"
+            }
+          ],
+          "sort_order": 13,
+          "title": "Classes d'amplificateurs"
+        },
+        {
+          "abstract": null,
+          "id": "se_6c5bc756580f",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "verstaerkungsleistung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_93b2d3f14103",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "verstaerkungsleistung"
+            },
+            {
+              "object_id": "sl_58440dfebbd8",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "verstaerkungsleistung"
+            }
+          ],
+          "sort_order": 14,
+          "title": "Puissance d'amplification"
+        },
+        {
+          "abstract": null,
+          "id": "se_c275ba74bd1d",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "verstaerker_wirkungsgrad",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_73f0638a7873",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "verstaerker_wirkungsgrad"
+            },
+            {
+              "object_id": "sl_20c1648ec97a",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "verstaerker_wirkungsgrad"
+            }
+          ],
+          "sort_order": 15,
+          "title": "Rendement"
+        },
+        {
+          "abstract": null,
+          "id": "se_1ce15ffe7ac5",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "verstaerker_linearverstaerker",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_1aa5b0eb3480",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "verstaerker_linearverstaerker"
+            },
+            {
+              "object_id": "sl_aafefbb0563a",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "verstaerker_linearverstaerker"
+            }
+          ],
+          "sort_order": 16,
+          "title": "Amplificateur linéaire"
+        },
+        {
+          "abstract": null,
+          "id": "se_a4c4bb9bf857",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "verstaerker_eigenschwingung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_56810344cd4e",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "verstaerker_eigenschwingung"
+            },
+            {
+              "object_id": "sl_5225634db274",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "verstaerker_eigenschwingung"
+            }
+          ],
+          "sort_order": 17,
+          "title": "Auto-oscillation"
+        },
+        {
+          "abstract": null,
+          "id": "se_1d76e1be13a6",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "verstaerker_begrenzung_bandbreite",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_48a40315b87c",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "verstaerker_begrenzung_bandbreite"
+            },
+            {
+              "object_id": "sl_93c8defb9fdc",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "verstaerker_begrenzung_bandbreite"
+            }
+          ],
+          "sort_order": 18,
+          "title": "Limitation de la bande passante de l'amplificateur"
+        }
+      ],
+      "sort_order": 6,
+      "title": "Circuit de base"
+    },
+    {
+      "abstract": "Dans ce chapitre, nous nous intéressons au fait que la modulation permet d'appliquer des informations telles que la parole humaine sur une onde radio. Nous apprenons les types de modulation de base AM, FM et SSB.",
+      "id": "ch_419825cd56ca",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "a_modulation",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_c4a2d6a53106",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "am_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_79646c5f24b4",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "am_2"
+            },
+            {
+              "object_id": "sl_6e65296ee2fd",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "am_2"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Modulation d'amplitude (AM) II"
+        },
+        {
+          "abstract": null,
+          "id": "se_6f4a09e13662",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "ssb_3",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_63382483c592",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "ssb_3"
+            },
+            {
+              "object_id": "sl_fe6fad508afe",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "ssb_3"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Modulation à bande latérale unique (SSB) III"
+        },
+        {
+          "abstract": null,
+          "id": "se_39102541a2d7",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "fm_3",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_ea2b72bf205f",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "fm_3"
+            },
+            {
+              "object_id": "sl_06514b6b77bb",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "fm_3"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Modulation de fréquence (FM) III"
+        },
+        {
+          "abstract": null,
+          "id": "se_f4d084077896",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "pm",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_64013afc4341",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "pm"
+            },
+            {
+              "object_id": "sl_77c4c5be95be",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "pm"
+            }
+          ],
+          "sort_order": 4,
+          "title": "Modulation de phase (PM)"
+        },
+        {
+          "abstract": null,
+          "id": "se_52086fe68573",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "bandreite_3",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_13ef069b00d2",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "bandreite_3"
+            },
+            {
+              "object_id": "sl_6f160695fd55",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "bandreite_3"
+            }
+          ],
+          "sort_order": 5,
+          "title": "Bande passante III"
+        },
+        {
+          "abstract": null,
+          "id": "se_cb0ae6704777",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "dynamik_compressor_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_d1d1ac283eb1",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "dynamik_compressor_2"
+            },
+            {
+              "object_id": "sl_10d745d0e112",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "dynamik_compressor_2"
+            }
+          ],
+          "sort_order": 6,
+          "title": "Compresseur de dynamique II"
+        }
+      ],
+      "sort_order": 7,
+      "title": "Modulation"
+    },
+    {
+      "abstract": "Dans ce chapitre, nous traitons de la structure de base des récepteurs radio ainsi que de leurs composants et fonctions les plus importants. Différents concepts de récepteurs sont présentés et des propriétés centrales telles que la sélectivité, la régulation de l'amplification, le comportement du bruit et la préparation de la fréquence sont expliquées. L'objectif est de comprendre l'interaction des différentes étapes d'un récepteur et leur influence sur la réception.",
+      "id": "ch_ed2985078a57",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "a_empfaenger",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_5a8a98f9685a",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "ueberlagerungsempfaenger_einfachsuper_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "beta",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_cc199916b5c1",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "ueberlagerungsempfaenger_einfachsuper_2"
+            },
+            {
+              "object_id": "sl_4587e93c6255",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "ueberlagerungsempfaenger_einfachsuper_2"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Récepteur superhétérodyne (Superhétérodyne simple) II"
+        },
+        {
+          "abstract": null,
+          "id": "se_3d2688a4046b",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "mischer_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "beta",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_42703994c6b3",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "mischer_2"
+            },
+            {
+              "object_id": "sl_36d817e4e3db",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "mischer_2"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Mélangeur II"
+        },
+        {
+          "abstract": null,
+          "id": "se_610cfcf03d9b",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "spiegelfrequenzen",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "beta",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_a086dc602e68",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "spiegelfrequenzen"
+            },
+            {
+              "object_id": "sl_43511a51145c",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "spiegelfrequenzen"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Fréquences image"
+        },
+        {
+          "abstract": null,
+          "id": "se_318e9b40b652",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "doppelueberlagerungsempfaenger_doppelsuper",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "beta",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_cb850895f2f9",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "doppelueberlagerungsempfaenger_doppelsuper"
+            },
+            {
+              "object_id": "sl_ef8d820f4bb6",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "doppelueberlagerungsempfaenger_doppelsuper"
+            }
+          ],
+          "sort_order": 4,
+          "title": "Récepteur superhétérodyne double"
+        },
+        {
+          "abstract": null,
+          "id": "se_31b6d39d0f93",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "trennschaerfe_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_db9f8dfb9812",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "trennschaerfe_2"
+            },
+            {
+              "object_id": "sl_085983a57c74",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "trennschaerfe_2"
+            }
+          ],
+          "sort_order": 5,
+          "title": "Sélectivité II"
+        },
+        {
+          "abstract": null,
+          "id": "se_cfe6b9d58b34",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "bfo_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_56a1b7c88387",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "bfo_2"
+            },
+            {
+              "object_id": "sl_cd6909c6f424",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "bfo_2"
+            }
+          ],
+          "sort_order": 6,
+          "title": "BFO II"
+        },
+        {
+          "abstract": null,
+          "id": "se_bdf8907b453e",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "intermodulation_kreuzmodulation",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_c765d61109c3",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "intermodulation_kreuzmodulation"
+            },
+            {
+              "object_id": "sl_fdde6bb3d65e",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "intermodulation_kreuzmodulation"
+            }
+          ],
+          "sort_order": 7,
+          "title": "Intermodulation et modulation croisée"
+        },
+        {
+          "abstract": null,
+          "id": "se_7b5047e7a3af",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "begrenzerverstaerker",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_1334757a4e5a",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "begrenzerverstaerker"
+            },
+            {
+              "object_id": "sl_cbd5a61a6005",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "begrenzerverstaerker"
+            }
+          ],
+          "sort_order": 8,
+          "title": "Limiteur d'amplification"
+        },
+        {
+          "abstract": null,
+          "id": "se_5a609a8bc120",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "low_noise_block",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_417cd79f0099",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "low_noise_block"
+            },
+            {
+              "object_id": "sl_8084daaf7622",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "low_noise_block"
+            }
+          ],
+          "sort_order": 9,
+          "title": "Bloc faible bruit (LNB)"
+        },
+        {
+          "abstract": null,
+          "id": "se_64aaba127cf9",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "s_meter",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_86d246963d82",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "s_meter"
+            },
+            {
+              "object_id": "sl_a92500787b80",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "s_meter"
+            }
+          ],
+          "sort_order": 10,
+          "title": "S-mètre"
+        },
+        {
+          "abstract": null,
+          "id": "se_28426f82032a",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "daempfungsglieder",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_ebc6772a04b8",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "daempfungsglieder"
+            },
+            {
+              "object_id": "sl_b1f96028be92",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "daempfungsglieder"
+            }
+          ],
+          "sort_order": 11,
+          "title": "Atténuateurs"
+        },
+        {
+          "abstract": null,
+          "id": "se_8444094274e5",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "agc_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_7676f6ec7d32",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "agc_2"
+            },
+            {
+              "object_id": "sl_f29d583837dd",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "agc_2"
+            }
+          ],
+          "sort_order": 12,
+          "title": "Régulation automatique de gain (AGC) II"
+        },
+        {
+          "abstract": null,
+          "id": "se_b1e960461919",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "snr_rauschzahl",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_5211a802e4bf",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "snr_rauschzahl"
+            },
+            {
+              "object_id": "sl_c6ecc1e7d2b1",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "snr_rauschzahl"
+            }
+          ],
+          "sort_order": 13,
+          "title": "SNR et facteur de bruit"
+        },
+        {
+          "abstract": null,
+          "id": "se_a5e03cc340d0",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "rauschen",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_6a343b115aa8",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "rauschen"
+            },
+            {
+              "object_id": "sl_92b8608e17da",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "rauschen"
+            }
+          ],
+          "sort_order": 14,
+          "title": "Bruit"
+        },
+        {
+          "abstract": null,
+          "id": "se_df7858375a7e",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "squelch_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_31c83bd03b92",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "squelch_2"
+            },
+            {
+              "object_id": "sl_c034aa0759f8",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "squelch_2"
+            }
+          ],
+          "sort_order": 15,
+          "title": "Squelch II"
+        },
+        {
+          "abstract": null,
+          "id": "se_8cdfd928d95a",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "demodulator",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_36c00a4bf432",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "demodulator"
+            },
+            {
+              "object_id": "sl_f1e826808ac8",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "demodulator"
+            }
+          ],
+          "sort_order": 16,
+          "title": "Démodulateur"
+        },
+        {
+          "abstract": null,
+          "id": "se_0b60923ecf39",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "frequenzmessung_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_f0499d13cb22",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "frequenzmessung_2"
+            },
+            {
+              "object_id": "sl_db9259b6f48e",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "frequenzmessung_2"
+            }
+          ],
+          "sort_order": 17,
+          "title": "Mesure de fréquence II"
+        },
+        {
+          "abstract": null,
+          "id": "se_3647fbfe5e15",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "frequenzgenauigkeit",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_ddc1d5b442ee",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "frequenzgenauigkeit"
+            },
+            {
+              "object_id": "sl_1ec3c5948fb0",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "frequenzgenauigkeit"
+            }
+          ],
+          "sort_order": 18,
+          "title": "Précision de fréquence"
+        }
+      ],
+      "sort_order": 8,
+      "title": "Récepteur"
+    },
+    {
+      "abstract": "Dans ce chapitre, la structure de base d'un émetteur radio ainsi que l'interaction de ses différents composants sont traitées. Parmi les sujets abordés figurent, entre autres, la puissance de sortie, la limitation de puissance, les moyens de mesure et les charges ainsi que la formation et l'éviction des émissions indésirables. Un autre accent est mis sur la compatibilité électromagnétique et la manipulation responsable des perturbations en mode émission.",
+      "id": "ch_a115b4dc9639",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "a_sender",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_0c704fc9f1b3",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "modulatoren",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_9004a722f484",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "modulatoren"
+            },
+            {
+              "object_id": "sl_f0d9f75c7a9b",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "modulatoren"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Modulateurs"
+        },
+        {
+          "abstract": null,
+          "id": "se_ffa6a68fc1a5",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "nicht_sinus_signale",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_6e0832842e71",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "nicht_sinus_signale"
+            },
+            {
+              "object_id": "sl_e814ef9e077f",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "nicht_sinus_signale"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Signaux non sinusoïdaux"
+        },
+        {
+          "abstract": null,
+          "id": "se_c27ab8eac91a",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "leistungsvertaerker",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_4f5be3ab2106",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "leistungsvertaerker"
+            },
+            {
+              "object_id": "sl_7f58dd3d7ffa",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "leistungsvertaerker"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Amplificateur de puissance"
+        },
+        {
+          "abstract": null,
+          "id": "se_029cd8c5be33",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "parasitaere_schwingungen",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_bb24849b7457",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "parasitaere_schwingungen"
+            },
+            {
+              "object_id": "sl_eee38dbb77df",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "parasitaere_schwingungen"
+            }
+          ],
+          "sort_order": 4,
+          "title": "Oscillations parasites"
+        },
+        {
+          "abstract": null,
+          "id": "se_a3704dbc2076",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "sender_messungen",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_02b1ba369a31",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "sender_messungen"
+            },
+            {
+              "object_id": "sl_f173ec81e4c7",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "sender_messungen"
+            }
+          ],
+          "sort_order": 5,
+          "title": "Mesures sur l'émetteur"
+        },
+        {
+          "abstract": null,
+          "id": "se_f4b49140889d",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "dummy_load_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_f7e270bef721",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "dummy_load_2"
+            },
+            {
+              "object_id": "sl_fe3d7ff9a429",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "dummy_load_2"
+            }
+          ],
+          "sort_order": 6,
+          "title": "Charge fictive II"
+        },
+        {
+          "abstract": null,
+          "id": "se_485cb85dc1b0",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "unerwuenschte_aussendungen_3",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "prod",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_40ae517fd9a2",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "unerwuenschte_aussendungen_3"
+            },
+            {
+              "object_id": "sl_94ffdf22d6e6",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "unerwuenschte_aussendungen_3"
+            }
+          ],
+          "sort_order": 7,
+          "title": "Émissions indésirables III"
+        },
+        {
+          "abstract": null,
+          "id": "se_200413bea4b5",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "stoerungen_elektronischer_geraete_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_cebab7b400bb",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "stoerungen_elektronischer_geraete_2"
+            },
+            {
+              "object_id": "sl_6b9d003a55a1",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "stoerungen_elektronischer_geraete_2"
+            }
+          ],
+          "sort_order": 8,
+          "title": "Influence perturbatrice sur les appareils électroniques II"
+        },
+        {
+          "abstract": null,
+          "id": "se_59629ae969b5",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "remote_station",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_900a06cd7ae1",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "remote_station"
+            },
+            {
+              "object_id": "sl_53a03c419f60",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "remote_station"
+            }
+          ],
+          "sort_order": 9,
+          "title": "Station à distance"
+        }
+      ],
+      "sort_order": 9,
+      "title": "Émetteurs"
+    },
+    {
+      "abstract": "Ce chapitre traite des bases et des applications du traitement numérique du signal, qui est essentiel pour le traitement moderne de l'information.",
+      "id": "ch_95803478f848",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "a_digitale_uebertragungsverfahren",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_ff5de5f1b399",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "psk",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_eafec4af57b8",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "psk"
+            },
+            {
+              "object_id": "sl_eaf906f2f430",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "psk"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Modulation par déplacement de phase (PSK)"
+        },
+        {
+          "abstract": null,
+          "id": "se_eec9cebba03b",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "symbolumschaltung_bandbreite",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_512ed5083f19",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "symbolumschaltung_bandbreite"
+            },
+            {
+              "object_id": "sl_0fdedf089490",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "symbolumschaltung_bandbreite"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Commutation de symboles et bande passante"
+        },
+        {
+          "abstract": null,
+          "id": "se_c78020c2c34d",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "mehrwertige_verfahren",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_9ab55cf7276a",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "mehrwertige_verfahren"
+            },
+            {
+              "object_id": "sl_8918d211a9d5",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "mehrwertige_verfahren"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Procédés à valeurs multiples"
+        },
+        {
+          "abstract": null,
+          "id": "se_06a1eb405f04",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "qam",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_a06957e83288",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "qam"
+            },
+            {
+              "object_id": "sl_10111de17690",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "qam"
+            }
+          ],
+          "sort_order": 4,
+          "title": "Modulation d'amplitude en quadrature (QAM)"
+        },
+        {
+          "abstract": null,
+          "id": "se_cf67346ac7d3",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "ofdm",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_4c4d78539045",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "ofdm"
+            },
+            {
+              "object_id": "sl_d1b70c5cbe35",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "ofdm"
+            }
+          ],
+          "sort_order": 5,
+          "title": "Multiplexage par répartition orthogonale de la fréquence (OFDM)"
+        },
+        {
+          "abstract": null,
+          "id": "se_9a3ef34c5aa9",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "shannon_hartley_gesetzt",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_757dacb1cd44",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "shannon_hartley_gesetzt"
+            },
+            {
+              "object_id": "sl_a83005717399",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "shannon_hartley_gesetzt"
+            }
+          ],
+          "sort_order": 6,
+          "title": "Loi de Shannon-Hartley"
+        },
+        {
+          "abstract": null,
+          "id": "se_17e4ea37b6c0",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "quellencodierung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_3d0e06e712a1",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "quellencodierung"
+            },
+            {
+              "object_id": "sl_7be1ede7ee61",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "quellencodierung"
+            }
+          ],
+          "sort_order": 7,
+          "title": "Codage source"
+        },
+        {
+          "abstract": null,
+          "id": "se_54f68b47b16e",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "kanalcodierung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_66956d2134d1",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "kanalcodierung"
+            },
+            {
+              "object_id": "sl_2f3baca58f1b",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "kanalcodierung"
+            }
+          ],
+          "sort_order": 8,
+          "title": "Codage de canal"
+        },
+        {
+          "abstract": null,
+          "id": "se_f74f88761a0f",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "fehlererkennung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_60cde1d78cc1",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "fehlererkennung"
+            },
+            {
+              "object_id": "sl_d909267b3a2c",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "fehlererkennung"
+            }
+          ],
+          "sort_order": 9,
+          "title": "Détection d'erreurs"
+        },
+        {
+          "abstract": null,
+          "id": "se_5a829c70f66d",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "fehlerkorrektur",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_14e198ae00df",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "fehlerkorrektur"
+            },
+            {
+              "object_id": "sl_b42245d6127b",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "fehlerkorrektur"
+            }
+          ],
+          "sort_order": 10,
+          "title": "Correction d'erreurs"
+        },
+        {
+          "abstract": null,
+          "id": "se_4874b6730b51",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "mapping",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_d52a229d9413",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "mapping"
+            },
+            {
+              "object_id": "sl_f50be1db959c",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "mapping"
+            }
+          ],
+          "sort_order": 11,
+          "title": "Mapping"
+        },
+        {
+          "abstract": null,
+          "id": "se_98a8c0a5511c",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "sende_empfangsketten",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_7fdfca446180",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "sende_empfangsketten"
+            },
+            {
+              "object_id": "sl_a3c4a7f7d695",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "sende_empfangsketten"
+            }
+          ],
+          "sort_order": 12,
+          "title": "Chaînes d'émission et de réception"
+        },
+        {
+          "abstract": null,
+          "id": "se_1f88c38e5530",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "synchronisation",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_8d8770185d29",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "synchronisation"
+            },
+            {
+              "object_id": "sl_4e9e2caaa661",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "synchronisation"
+            }
+          ],
+          "sort_order": 13,
+          "title": "Synchronisation"
+        }
+      ],
+      "sort_order": 10,
+      "title": "Procédés de transmission numérique"
+    },
+    {
+      "abstract": "Ce chapitre traite des bases et des applications du traitement numérique du signal, qui est essentiel pour le traitement moderne de l'information.",
+      "id": "ch_a97da26f870a",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "a_digitale_signalverarbeitung",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_b74497baf2de",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "sampling_quantisierung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_23e58832a7b6",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "sampling_quantisierung"
+            },
+            {
+              "object_id": "sl_b1a8c69d92d2",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "sampling_quantisierung"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Échantillonnage et quantification"
+        },
+        {
+          "abstract": null,
+          "id": "se_570c0b2f1654",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "sampling",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_a1db435c27a7",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "sampling"
+            },
+            {
+              "object_id": "sl_0e99d3a53464",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "sampling"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Échantillonnage"
+        },
+        {
+          "abstract": null,
+          "id": "se_609a39d678d2",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "abtasttheorem",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_7f33cbfe0548",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "abtasttheorem"
+            },
+            {
+              "object_id": "sl_d411c70e96fe",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "abtasttheorem"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Échantillonnage"
+        },
+        {
+          "abstract": null,
+          "id": "se_81a1f2ace66c",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "quantisierung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_8810b2b83165",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "quantisierung"
+            },
+            {
+              "object_id": "sl_14aa3bafb27f",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "quantisierung"
+            }
+          ],
+          "sort_order": 4,
+          "title": "Quantification"
+        },
+        {
+          "abstract": null,
+          "id": "se_f82aae61477e",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "analog_digital_umsetzer",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_2ebcfcd7f1cd",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "analog_digital_umsetzer"
+            },
+            {
+              "object_id": "sl_626b403fb530",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "analog_digital_umsetzer"
+            }
+          ],
+          "sort_order": 5,
+          "title": "Convertisseur analogique-numérique (CAN)"
+        },
+        {
+          "abstract": null,
+          "id": "se_1ce9aaf79e3b",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "digital_analog_umsetzer",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_c35e68b3dace",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "digital_analog_umsetzer"
+            },
+            {
+              "object_id": "sl_d71f0f4823a5",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "digital_analog_umsetzer"
+            }
+          ],
+          "sort_order": 6,
+          "title": "Convertisseur numérique-analogique (DAC)"
+        },
+        {
+          "abstract": null,
+          "id": "se_55a28faa8e7e",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "anwendung_dac_adc",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_19d7214060d7",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "anwendung_dac_adc"
+            },
+            {
+              "object_id": "sl_4ed653cc284b",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "anwendung_dac_adc"
+            }
+          ],
+          "sort_order": 7,
+          "title": "Utilisation des ADC et DAC"
+        },
+        {
+          "abstract": null,
+          "id": "se_e9ff642b5b57",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "anti_alias_filter",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_26e43fcb7319",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "anti_alias_filter"
+            },
+            {
+              "object_id": "sl_3aa487cb9f45",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "anti_alias_filter"
+            }
+          ],
+          "sort_order": 8,
+          "title": "Filtre anti-repliement"
+        },
+        {
+          "abstract": null,
+          "id": "se_7a4552d52c71",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "rekonstruktionsfilter",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_8660c33ce66a",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "rekonstruktionsfilter"
+            },
+            {
+              "object_id": "sl_4ef8ea92aefd",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "rekonstruktionsfilter"
+            }
+          ],
+          "sort_order": 9,
+          "title": "Filtre de reconstruction"
+        },
+        {
+          "abstract": null,
+          "id": "se_035b840ad6d5",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "fourier_transformation",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_dfc39cf1d92b",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "fourier_transformation"
+            },
+            {
+              "object_id": "sl_fb6057aaf5d0",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "fourier_transformation"
+            }
+          ],
+          "sort_order": 10,
+          "title": "Transformée de Fourier"
+        },
+        {
+          "abstract": null,
+          "id": "se_2c0399c57036",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "digitale_filter",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_b665c11e6e87",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "digitale_filter"
+            },
+            {
+              "object_id": "sl_996c6b95d77d",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "digitale_filter"
+            }
+          ],
+          "sort_order": 11,
+          "title": "Filtres numériques"
+        },
+        {
+          "abstract": null,
+          "id": "se_f86c893b6fb7",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "iq_verfahren",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_96b2b8bd34bc",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "iq_verfahren"
+            },
+            {
+              "object_id": "sl_af054b3c3ede",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "iq_verfahren"
+            }
+          ],
+          "sort_order": 12,
+          "title": "Méthode I/Q"
+        },
+        {
+          "abstract": null,
+          "id": "se_1bd508b70f3c",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "latenz",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_9beaaac9d91e",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "latenz"
+            },
+            {
+              "object_id": "sl_0a6f0aa1510a",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "latenz"
+            }
+          ],
+          "sort_order": 13,
+          "title": "Latence"
+        }
+      ],
+      "sort_order": 11,
+      "title": "Traitement numérique du signal"
+    },
+    {
+      "abstract": "Ce chapitre traite de tout ce qui concerne les antennes et les câbles d'antenne. En plus des principales formes de construction d'antennes, nous abordons également des sujets tels que l'installation d'installations d'antennes dans des véhicules, la protection des personnes contre les rayonnements électromagnétiques et la sécurité lors de la construction et de l'exploitation d'une installation d'antenne.",
+      "id": "ch_9781c7170319",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "a_antennen_uebertragungsleitungen",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_ad23728b1900",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "polarisation_3",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_4ba7191a2734",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "polarisation_3"
+            },
+            {
+              "object_id": "sl_e8373e2f3c9f",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "polarisation_3"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Polarisation III"
+        },
+        {
+          "abstract": null,
+          "id": "se_ada995c66b16",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "antennenformen_3",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_dbac0906100c",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "antennenformen_3"
+            },
+            {
+              "object_id": "sl_b1ff634cb166",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "antennenformen_3"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Formes d'antennes III"
+        },
+        {
+          "abstract": null,
+          "id": "se_29a1bcc87ac2",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "verkuerzungsfaktor_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_ac8e341d34ef",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "verkuerzungsfaktor_2"
+            },
+            {
+              "object_id": "sl_5ee87c6eedb5",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "verkuerzungsfaktor_2"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Facteur de réduction II"
+        },
+        {
+          "abstract": null,
+          "id": "se_52622f4added",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "fusspunktimpedanz_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_fd623dd96ed9",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "fusspunktimpedanz_2"
+            },
+            {
+              "object_id": "sl_14a915efe75d",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "fusspunktimpedanz_2"
+            }
+          ],
+          "sort_order": 4,
+          "title": "Impédance au pied II"
+        },
+        {
+          "abstract": null,
+          "id": "se_d8da51c33dbb",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "elektrische_verlaengerung_verkuerzung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_1dcffc0d1fc1",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "elektrische_verlaengerung_verkuerzung"
+            },
+            {
+              "object_id": "sl_1187fce46e9b",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "elektrische_verlaengerung_verkuerzung"
+            }
+          ],
+          "sort_order": 5,
+          "title": "Allongement et raccourcissement électriques"
+        },
+        {
+          "abstract": null,
+          "id": "se_03922d39beca",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "nvis",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_82d84a31980c",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "nvis"
+            },
+            {
+              "object_id": "sl_29e839d98150",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "nvis"
+            }
+          ],
+          "sort_order": 6,
+          "title": "Near Vertical Incidence Skywave (NVIS)"
+        },
+        {
+          "abstract": null,
+          "id": "se_92b4a3d4700c",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "traps",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_61d96097333f",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "traps"
+            },
+            {
+              "object_id": "sl_6b42dfdc783d",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "traps"
+            }
+          ],
+          "sort_order": 7,
+          "title": "Traps"
+        },
+        {
+          "abstract": null,
+          "id": "se_6b7b2cd33416",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "yagi_uda_3",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_4808e0ef0cbf",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "yagi_uda_3"
+            },
+            {
+              "object_id": "sl_fff36ce6cb7d",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "yagi_uda_3"
+            }
+          ],
+          "sort_order": 8,
+          "title": "Antenne Yagi-Uda III"
+        },
+        {
+          "abstract": null,
+          "id": "se_439517f62979",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "parbolspiegel_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_1db665620331",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "parbolspiegel_2"
+            },
+            {
+              "object_id": "sl_2cca45ed4355",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "parbolspiegel_2"
+            }
+          ],
+          "sort_order": 9,
+          "title": "Réflecteur parabolique II"
+        },
+        {
+          "abstract": null,
+          "id": "se_3366a51eb891",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "offsetspiegel",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_54ac90b01c0c",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "offsetspiegel"
+            },
+            {
+              "object_id": "sl_d5f8d69c165b",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "offsetspiegel"
+            }
+          ],
+          "sort_order": 10,
+          "title": "Miroir décalé"
+        },
+        {
+          "abstract": null,
+          "id": "se_33bb60ef49ab",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "vor_rueck_verhaeltnis",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_32d675ddb26d",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "vor_rueck_verhaeltnis"
+            },
+            {
+              "object_id": "sl_eac3a950a61a",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "vor_rueck_verhaeltnis"
+            }
+          ],
+          "sort_order": 11,
+          "title": "Rapport avant/arrière"
+        },
+        {
+          "abstract": null,
+          "id": "se_4e058be98041",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "halbwertsbreite",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_7247bf407bba",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "halbwertsbreite"
+            },
+            {
+              "object_id": "sl_6a0d12f80218",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "halbwertsbreite"
+            }
+          ],
+          "sort_order": 12,
+          "title": "Demi-largeur de bande"
+        },
+        {
+          "abstract": null,
+          "id": "se_1508de5bf45f",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "strom_spannung_speisung_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "prod",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_773e1fe4be7f",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "strom_spannung_speisung_2"
+            },
+            {
+              "object_id": "sl_4f17c984dae5",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "strom_spannung_speisung_2"
+            }
+          ],
+          "sort_order": 13,
+          "title": "Alimentation en courant et en tension II"
+        },
+        {
+          "abstract": null,
+          "id": "se_b5379bbec92c",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "frequenzabhaengige_stromverteilung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_cb4c3d9d57a9",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "frequenzabhaengige_stromverteilung"
+            },
+            {
+              "object_id": "sl_7ec36096a853",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "frequenzabhaengige_stromverteilung"
+            }
+          ],
+          "sort_order": 14,
+          "title": "Distribution du courant en fonction de la fréquence"
+        },
+        {
+          "abstract": null,
+          "id": "se_92fb6d595dad",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "uebertragungsleitungen_3",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_b79fade4cf56",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "uebertragungsleitungen_3"
+            },
+            {
+              "object_id": "sl_f974afc2486b",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "uebertragungsleitungen_3"
+            }
+          ],
+          "sort_order": 15,
+          "title": "Lignes de transmission III"
+        },
+        {
+          "abstract": null,
+          "id": "se_3f793ac730a9",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "wellenwiderstand",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_bdf572685516",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "wellenwiderstand"
+            },
+            {
+              "object_id": "sl_503ee15723be",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "wellenwiderstand"
+            }
+          ],
+          "sort_order": 16,
+          "title": "Impédance de la ligne"
+        },
+        {
+          "abstract": null,
+          "id": "se_03fbc2765f4e",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "kabeldaempfung_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_88d0e2e3bc56",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "kabeldaempfung_2"
+            },
+            {
+              "object_id": "sl_7d8d32e0ce13",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "kabeldaempfung_2"
+            }
+          ],
+          "sort_order": 17,
+          "title": "Atténuation des câbles II"
+        },
+        {
+          "abstract": null,
+          "id": "se_02e3465e1cc4",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "skineffekt",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_21b4667f37f3",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "skineffekt"
+            },
+            {
+              "object_id": "sl_617cd6899320",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "skineffekt"
+            }
+          ],
+          "sort_order": 18,
+          "title": "Effet de peau"
+        },
+        {
+          "abstract": null,
+          "id": "se_bbc14a9eb241",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swr_3",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_c968948f4d09",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swr_3"
+            },
+            {
+              "object_id": "sl_580c0412f0ec",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swr_3"
+            }
+          ],
+          "sort_order": 19,
+          "title": "Rapport d’ondes stationnaires (ROS) III"
+        },
+        {
+          "abstract": null,
+          "id": "se_ac6c68b0e887",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swr_meter_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_080226b3b97b",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swr_meter_2"
+            },
+            {
+              "object_id": "sl_3e6217fe48c7",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swr_meter_2"
+            }
+          ],
+          "sort_order": 20,
+          "title": "Mesureur de ROS II"
+        },
+        {
+          "abstract": null,
+          "id": "se_adadaa97ec57",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "vna_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_a3ec4624b718",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "vna_2"
+            },
+            {
+              "object_id": "sl_93d57a7b6367",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "vna_2"
+            }
+          ],
+          "sort_order": 21,
+          "title": "Analyseur de réseau vectoriel (VNA) II"
+        },
+        {
+          "abstract": null,
+          "id": "se_e46071b96b54",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "leitung_phasenverschiebung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_9b1b926916dc",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "leitung_phasenverschiebung"
+            },
+            {
+              "object_id": "sl_c636250d831f",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "leitung_phasenverschiebung"
+            }
+          ],
+          "sort_order": 22,
+          "title": "Déphasage dans les lignes de transmission"
+        },
+        {
+          "abstract": null,
+          "id": "se_b6ef22b174b5",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "impedanztransformation",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_9fa0ad5b97a0",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "impedanztransformation"
+            },
+            {
+              "object_id": "sl_cf325b210a91",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "impedanztransformation"
+            }
+          ],
+          "sort_order": 23,
+          "title": "Transformation d'impédance"
+        },
+        {
+          "abstract": null,
+          "id": "se_5d21def14700",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "lecherleitung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_497e1d651de6",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "lecherleitung"
+            },
+            {
+              "object_id": "sl_56cc6d7f1500",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "lecherleitung"
+            }
+          ],
+          "sort_order": 24,
+          "title": "Ligne de Lecher"
+        },
+        {
+          "abstract": null,
+          "id": "se_8291449b84ff",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "mantelwellen_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_e1d99ff10a53",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "mantelwellen_2"
+            },
+            {
+              "object_id": "sl_a60d0ea91971",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "mantelwellen_2"
+            }
+          ],
+          "sort_order": 25,
+          "title": "Ondes de gain II"
+        },
+        {
+          "abstract": null,
+          "id": "se_d187e772856f",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "umwegleitung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_a92f421064cc",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "umwegleitung"
+            },
+            {
+              "object_id": "sl_c601948a03d6",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "umwegleitung"
+            }
+          ],
+          "sort_order": 26,
+          "title": "Ligne de détour"
+        }
+      ],
+      "sort_order": 12,
+      "title": "Antennes et lignes de transmission"
+    },
+    {
+      "abstract": "Ce chapitre traite de la protection des personnes contre les champs électromagnétiques dans le radioamateur. Il introduit les notions d'ERP et d'EIRP, explique les limites légales ainsi que les obligations d'affichage et d'autorisation et montre comment les distances de sécurité et de protection des personnes sont calculées et évaluées. L'objectif est un fonctionnement radio sûr et conforme aux règles, en particulier dans les installations radioamateurs fixes.",
+      "id": "ch_8eda960b74ef",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "a_personenschutzabstand",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_91f961650775",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "effektive_strahlungsleistung_erp_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_fd8fe6de590c",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "effektive_strahlungsleistung_erp_2"
+            },
+            {
+              "object_id": "sl_6bdd356d9797",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "effektive_strahlungsleistung_erp_2"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Puissance rayonnée effective (PRE) II"
+        },
+        {
+          "abstract": null,
+          "id": "se_806fbfacdb44",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "personenschutzabstand_3",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_f1fefe4e5472",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "personenschutzabstand_3"
+            },
+            {
+              "object_id": "sl_e07253175ddf",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "personenschutzabstand_3"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Distance de sécurité III"
+        },
+        {
+          "abstract": null,
+          "id": "se_a7dc58635fa1",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "naeherungsformel_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_48a1c1d57ea8",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "naeherungsformel_2"
+            },
+            {
+              "object_id": "sl_cf1995641146",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "naeherungsformel_2"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Formule de proximité II"
+        },
+        {
+          "abstract": null,
+          "id": "se_35212d2d286f",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "nahfeld",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_ae65e22f3827",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "nahfeld"
+            },
+            {
+              "object_id": "sl_7c71d2096a5b",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "nahfeld"
+            }
+          ],
+          "sort_order": 4,
+          "title": "Champ proche"
+        },
+        {
+          "abstract": null,
+          "id": "se_b1aca27d4fd2",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "fernfeld",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_d13f09ba9c29",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "fernfeld"
+            },
+            {
+              "object_id": "sl_5e6b60175010",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "fernfeld"
+            }
+          ],
+          "sort_order": 5,
+          "title": "Champ lointain"
+        },
+        {
+          "abstract": null,
+          "id": "se_4a0718d36629",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "personenschutzabstand_richtantennen",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_523185221e10",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "personenschutzabstand_richtantennen"
+            },
+            {
+              "object_id": "sl_0af965d0780b",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "personenschutzabstand_richtantennen"
+            }
+          ],
+          "sort_order": 6,
+          "title": "Distance de sécurité pour antennes directionnelles"
+        }
+      ],
+      "sort_order": 13,
+      "title": "Distance de sécurité des personnes"
+    },
+    {
+      "abstract": "Ce chapitre traite des aspects centraux de la sécurité dans l'exploitation radioamateur, des questions de droit de la construction et de la responsabilité aux mesures de sécurité électrique et de protection contre la foudre. Il explique les mesures telles que la mise à la terre, l'égalité de potentiel et la manipulation sûre des antennes et des appareils électriques. L'objectif est de minimiser les risques pour les personnes, les bâtiments et les appareils et de garantir une exploitation radio sûre.",
+      "id": "ch_8440a9b32b5b",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "a_sicherheit",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_cb3373288863",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "elektrische_geaete_oeffnen_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_f24b626f345e",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "elektrische_geaete_oeffnen_2"
+            },
+            {
+              "object_id": "sl_10aaf14b6f6b",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "elektrische_geaete_oeffnen_2"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Ouverture d'appareils électriques II"
+        },
+        {
+          "abstract": null,
+          "id": "se_d60681361160",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "schutzerdung_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_4ece26ae5fcc",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "schutzerdung_2"
+            },
+            {
+              "object_id": "sl_a18c12d9b9e9",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "schutzerdung_2"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Mise à la terre de protection et liaison équipotentielle II"
+        },
+        {
+          "abstract": null,
+          "id": "se_10c21178b239",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "antennen_beruehrung_2",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_11f914627581",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "antennen_beruehrung_2"
+            },
+            {
+              "object_id": "sl_5354d79bea24",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "antennen_beruehrung_2"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Toucher les antennes II"
+        },
+        {
+          "abstract": null,
+          "id": "se_f8c1d3f2992a",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "N_Ende",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "N",
+            "status": "prod",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_0a9323bdb8e4",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "N_Ende"
+            },
+            {
+              "object_id": "sl_d9c0790b5846",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "N_Ende"
+            }
+          ],
+          "sort_order": 4,
+          "title": "Fin du cours"
+        }
+      ],
+      "sort_order": 14,
+      "title": "Sécurité"
+    }
+  ],
+  "id": "ed_596398ce18a5",
+  "identifiers": [
+    {
+      "id_system": "edition",
+      "id_value": "A",
+      "preferred": true
+    }
+  ],
+  "metadata": {
+    "edition": "A"
+  },
+  "node_type": "curriculum_root",
+  "placements": [],
+  "sort_order": 0,
+  "title": "Cours de perfectionnement E -> A"
+}

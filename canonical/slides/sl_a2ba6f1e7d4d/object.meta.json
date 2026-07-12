@@ -11,7 +11,8 @@
   ],
   "languages": [
     "de",
-    "it"
+    "it",
+    "fr"
   ],
   "metadata": {},
   "object_type": "slide_article",
@@ -32,6 +33,10 @@
     {
       "language": "it",
       "state": "to_be_reviewed"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_reviewed"
     }
   ],
   "source": {
@@ -47,6 +52,7 @@
       "storage": {
         "files": {
           "de": "body.de.md",
+          "fr": "body.fr.md",
           "it": "body.it.md"
         },
         "kind": "text_file"

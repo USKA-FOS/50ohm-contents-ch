@@ -1,0 +1,10 @@
+Pour calculer la densité de courant, il faut déterminer la surface de section transversale en $\unit{\milli\meter\squared}$ à partir du diamètre du fil.
+Surface de section transversale (voir recueil de formules - mot-clé : résistance des fils) :
+
+$A_\mathrm{Dr} = d^2 \cdot \frac{\pi}{4}$
+
+Surface de section transversale du fil : $A_\mathrm{Dr} = (\qty{0,5}{\milli\meter})^2 \cdot \frac{\pi}{4} = \qty{0,196}{\milli\meter\squared}$
+
+La tâche ne peut être calculée qu'avec la formule de "Capacité de charge des enroulements" :
+
+$I = S \cdot A_\mathrm{Dr} = \qty{2,5}{\ampere\per\milli\meter\squared} \cdot \qty{0,196}{\milli\meter\squared} \approx \qty{0,49}{\ampere}$
