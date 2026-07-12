@@ -28,7 +28,26 @@ Questions are handled canonically in `50ohm-question-pool`. The content model
 in this repository may still reference question objects by business identifier,
 but question ownership remains external to this repository.
 
-## 2. Modeling Principles
+## 2. Purpose Of The Model
+
+The purpose of this model is to represent the business content of the German
+site as stable multilingual objects that can be:
+
+- identified independently from visible content or publication codes;
+- stored canonically in Git;
+- translated into French and Italian without changing object identity;
+- reconstructed back into the source-site file contract;
+- versioned and reviewed as coherent editorial units.
+
+The canonical model is therefore not only a storage format. It is the
+reference representation used to:
+
+- separate stable object identity from mutable text;
+- keep all languages of one business object together;
+- preserve the metadata required for reconstruction and lifecycle management;
+- provide a deterministic bridge toward SQLite, translation, and site rebuild.
+
+## 3. Modeling Principles
 
 - the business object is the canonical unit;
 - one business object is stored in one directory;
@@ -38,7 +57,7 @@ but question ownership remains external to this repository.
 - SQLite is a working representation used for import, validation, joins,
   reconstruction, translation support, and deterministic export.
 
-## 3. Canonical Top-Level Layout
+## 4. Canonical Top-Level Layout
 
 ```text
 canonical/
@@ -74,7 +93,47 @@ canonical/photos/ph_563d2e772bfa/
 canonical/drawings/dr_b4bfdee9ee99/
 ```
 
-## 4. Identifier Format
+## 5. Object-As-Directory Rule
+
+The canonical object is the directory, not one file inside the directory.
+
+This is a core rule of the model:
+
+- the directory is the business object boundary;
+- all files inside that directory belong to the same object;
+- all language variants inside that directory are variants of the same object;
+- `object.meta.json`, references, annotations, text payloads, and media files
+  are not separate canonical objects;
+- the object is the full package made of those dependent items.
+
+For example, a photo object is not only `102.de.png` and not only `102.de.txt`.
+The photo object is the whole directory:
+
+```text
+canonical/photos/ph_563d2e772bfa/
+  object.meta.json
+  102.de.png
+  102.de.txt
+  102.fr.txt
+  object.references.json
+  object.annotations.json
+```
+
+Meaning of this package:
+
+- `ph_563d2e772bfa/` is the object;
+- `102.de.png` is one language-specific asset variant belonging to that
+  object;
+- `102.de.txt` and `102.fr.txt` are translatable description payloads
+  belonging to that same object;
+- `object.meta.json` declares identity, storage, reconstruction, review state,
+  and language presence for the object;
+- `object.references.json` and `object.annotations.json` describe structured
+  information extracted from the object text.
+
+The same packaging rule applies to all object families.
+
+## 6. Identifier Format
 
 The current identifier format is:
 
@@ -104,7 +163,7 @@ Current prefixes:
 - `ld_` legal document
 - `sa_` support asset
 
-## 5. Object Families
+## 7. Object Families
 
 Current `content_object.object_type` families modeled by this repository:
 
@@ -126,7 +185,7 @@ Current structure node families:
 - `curriculum_chapter`
 - `curriculum_section`
 
-## 6. Canonical Object Directory
+## 8. Canonical Object Directory
 
 Each object directory contains:
 
@@ -136,7 +195,23 @@ Each object directory contains:
 - zero or more language files
 - zero or more language-specific media files
 
-### 6.1 `object.meta.json`
+These items do not all play the same role. The directory usually contains:
+
+- authoritative business payloads:
+  - markdown bodies
+  - HTML bodies
+  - canonical description files
+  - JSON payload files when a family stores text that way
+- language-specific media assets:
+  - image files
+  - SVG files
+  - TeX files
+- structured metadata and control files:
+  - `object.meta.json`
+  - `object.references.json`
+  - `object.annotations.json`
+
+### 8.1 `object.meta.json`
 
 `object.meta.json` is the primary object descriptor. It contains:
 
@@ -156,7 +231,19 @@ Each object directory contains:
 - `language_variants`: per-language media variant mapping for objects that carry
   language-dependent assets.
 
-### 6.2 `object.references.json`
+Purpose of `object.meta.json`:
+
+- declares what the object is;
+- lists which language payloads belong to it;
+- lists which media variants belong to it;
+- records metadata needed for reconstruction and workflow;
+- records review state and language presence;
+- tells the SQLite rebuild layer how to read the object.
+
+`object.meta.json` is metadata and control information. It is not itself the
+business text to translate.
+
+### 8.2 `object.references.json`
 
 `object.references.json` contains parsed inline links and embeddings originating
 from the object text.
@@ -180,7 +267,15 @@ Typical `relation_type` values currently used:
 - `embeds_table`
 - `references_embedded_alias`
 
-### 6.3 `object.annotations.json`
+Purpose of `object.references.json`:
+
+- preserve structured outgoing links extracted from the object payload;
+- keep those links independent from raw text parsing during later steps;
+- support validation, rebuild, and future editing workflows.
+
+It is derived structured metadata, not translatable primary content.
+
+### 8.3 `object.annotations.json`
 
 `object.annotations.json` contains parsed non-reference markers extracted from
 text, for example:
@@ -197,7 +292,15 @@ Each entry describes:
 - the original marker via `raw_marker`;
 - `sort_order` inside the source slot.
 
-## 7. Text Slot Model In Canonical Git
+Purpose of `object.annotations.json`:
+
+- preserve structured semantic markers extracted from text;
+- avoid losing information that is not plain prose;
+- support reconstruction and future processing.
+
+It is derived structured metadata, not translatable primary content.
+
+## 9. Text Slot Model In Canonical Git
 
 Each entry of `text_slots` defines one logical text slot.
 
@@ -221,7 +324,14 @@ Current `storage.kind` variants:
 - `json_file`
 - `description_file_bundle`
 
-### 7.1 `text_file`
+The purpose of `text_slots` is to tell the system:
+
+- which business text exists on the object;
+- which file carries that text for each language;
+- how translation units map back to canonical payloads;
+- how SQLite must rebuild its `text_slot` and `localized_text` rows.
+
+### 9.1 `text_file`
 
 Used when one slot maps directly to one language-qualified file.
 
@@ -243,7 +353,9 @@ Storage shape:
 }
 ```
 
-### 7.2 `json_file`
+This is authoritative translatable content.
+
+### 9.2 `json_file`
 
 Used when multiple logical slot values share a local JSON payload file.
 
@@ -260,7 +372,10 @@ Storage shape:
 }
 ```
 
-### 7.3 `description_file_bundle`
+The JSON file is the authoritative canonical payload file. The extracted
+logical field is the translatable text view used by the operational model.
+
+### 9.3 `description_file_bundle`
 
 Used by `photo` and `drawing` descriptions.
 
@@ -286,9 +401,9 @@ Operational rule:
 - any derived split into short and long description belongs to the operational
   model, not to the authoritative file contract.
 
-## 8. Per-Family Canonical Patterns
+## 10. Per-Family Canonical Patterns
 
-### 8.1 Section, Slide, Solution, Snippet
+### 10.1 Section, Slide, Solution, Snippet
 
 Typical files:
 
@@ -300,12 +415,30 @@ object.references.json
 object.annotations.json
 ```
 
+Directory meaning:
+
+- the directory is one multilingual article-like object;
+- `body.<lang>.md` files are the authoritative translatable content;
+- `object.meta.json` describes identity, storage, and reconstruction;
+- `object.references.json` stores extracted links;
+- `object.annotations.json` stores extracted semantic markers.
+
 Typical text contract:
 
 - one markdown body slot
 - storage kind `text_file`
 
-### 8.2 Static Page And HTML Include
+What is translated:
+
+- the markdown body payload.
+
+What is metadata:
+
+- `object.meta.json`
+- `object.references.json`
+- `object.annotations.json`
+
+### 10.2 Static Page And HTML Include
 
 Typical files:
 
@@ -317,6 +450,13 @@ object.references.json
 object.annotations.json
 ```
 
+Directory meaning:
+
+- the directory is one multilingual HTML-bearing object;
+- `body.<lang>.html` files are the authoritative content payloads;
+- the full HTML file remains the canonical payload, even though translation
+  operates on extracted text segments.
+
 Typical text contract:
 
 - one HTML body slot
@@ -324,7 +464,17 @@ Typical text contract:
 - translation is performed on extracted text segments, but canonical storage
   remains full HTML files
 
-### 8.3 Photo
+What is translated:
+
+- the visible text content carried by the HTML payload.
+
+What is metadata:
+
+- `object.meta.json`
+- `object.references.json`
+- `object.annotations.json`
+
+### 10.3 Photo
 
 Typical files:
 
@@ -337,6 +487,15 @@ object.references.json
 object.annotations.json
 ```
 
+Directory meaning:
+
+- the directory is one multilingual photo object;
+- image files such as `102.de.png` are dependent media variants belonging to
+  that object;
+- description files such as `102.de.txt` and `102.fr.txt` are the authoritative
+  translatable text payloads belonging to that same object;
+- the object is the whole package, not the image alone and not the text alone.
+
 Additional canonical semantics:
 
 - `language_variants.<lang>.asset_files.image` maps the image file for each
@@ -345,7 +504,22 @@ Additional canonical semantics:
 - current reconstruction metadata records whether the source description format
   was split or single-file.
 
-### 8.4 Drawing
+What is translated:
+
+- the description file `102.<lang>.txt`.
+
+What is content but usually not translated automatically:
+
+- image assets such as `102.de.png`, unless a future workflow adds
+  language-specific media variants.
+
+What is metadata:
+
+- `object.meta.json`
+- `object.references.json`
+- `object.annotations.json`
+
+### 10.4 Drawing
 
 Typical files:
 
@@ -359,13 +533,38 @@ object.references.json
 object.annotations.json
 ```
 
+Directory meaning:
+
+- the directory is one multilingual drawing object;
+- `1021.de.svg` and `1021.de.tex` are dependent source assets belonging to that
+  object;
+- `1021.de.txt` and `1021.fr.txt` are the authoritative text payloads for the
+  drawing description;
+- the object is the full package made of media assets, text payloads, and
+  metadata.
+
 Additional canonical semantics:
 
 - `language_variants.<lang>.asset_files.svg` maps the SVG file;
 - `language_variants.<lang>.asset_files.tex` maps the TeX file when present;
 - description payloads are language-qualified text files.
 
-### 8.5 Table Object
+What is translated:
+
+- the description text payload when present.
+
+What is content but usually not translated automatically:
+
+- SVG and TeX asset files, unless a future workflow introduces localized asset
+  variants.
+
+What is metadata:
+
+- `object.meta.json`
+- `object.references.json`
+- `object.annotations.json`
+
+### 10.5 Table Object
 
 Current state:
 
@@ -373,7 +572,21 @@ Current state:
 - they are referenced through table markers and aliases;
 - they may carry little or no direct text payload depending on the source.
 
-### 8.6 Legal Document And Support Asset
+Directory meaning:
+
+- the directory is one reusable embedded object;
+- the payload may be minimal today, but the object boundary is still the
+  directory.
+
+What is translated:
+
+- only explicit text payloads if present.
+
+What is metadata:
+
+- aliasing, identifiers, references, and reconstruction data.
+
+### 10.6 Legal Document And Support Asset
 
 Current state:
 
@@ -381,7 +594,22 @@ Current state:
 - they are modeled for reconstruction traceability;
 - they are not part of the normal translatable business-content scope.
 
-## 9. Structure Model In Canonical Git
+Directory meaning:
+
+- the directory is one non-regular business object whose main purpose is
+  preservation, reconstruction, or support traceability;
+- the object may have files, but its normal lifecycle is not the same as
+  editorial multilingual content.
+
+What is translated:
+
+- usually nothing in the standard content translation workflow.
+
+What is metadata:
+
+- most of the object package, including reconstruction and source-trace data.
+
+## 11. Structure Model In Canonical Git
 
 Curriculum structure is stored per edition under:
 
@@ -396,7 +624,11 @@ canonical/structure/editions/<edition>/
 Not every language file is required to exist at all times. `de` is the
 structural baseline currently expected to exist.
 
-### 9.1 `edition.meta.json`
+The edition directory itself is the canonical structure object for that
+edition. `edition.de.json`, `edition.fr.json`, and `edition.it.json` are
+language variants of that same structure object.
+
+### 11.1 `edition.meta.json`
 
 Current fields:
 
@@ -405,7 +637,13 @@ Current fields:
 - `node_type`
 - `source_path`
 
-### 9.2 `edition.<lang>.json`
+Purpose of `edition.meta.json`:
+
+- identify the edition object;
+- declare the source-side edition contract;
+- anchor the localized structure files belonging to that edition.
+
+### 11.2 `edition.<lang>.json`
 
 This file stores the full localized node tree for one edition and one
 language.
@@ -430,7 +668,25 @@ Placement entries contain:
 - `sort_order`
 - `visible_label`
 
-## 10. SQLite Working Model
+Purpose of `edition.<lang>.json`:
+
+- carry the localized structure tree for that edition;
+- keep titles and abstracts together with the node hierarchy;
+- keep object placements associated with the structure they belong to.
+
+What is translated:
+
+- node `title`
+- node `abstract`
+
+What is metadata:
+
+- identifiers
+- structural hierarchy
+- placements
+- non-text node metadata
+
+## 12. SQLite Working Model
 
 The operational database schema contains these tables:
 
@@ -449,7 +705,7 @@ The operational database schema contains these tables:
 - `text_annotation`
 - `source_artifact`
 
-### 10.1 `content_object`
+### 12.1 `content_object`
 
 One row per business object.
 
@@ -462,7 +718,7 @@ Fields:
 - `source_key`
 - `active`
 
-### 10.2 `object_identifier`
+### 12.2 `object_identifier`
 
 One row per identifier attached to a business object.
 
@@ -474,7 +730,7 @@ Fields:
 - `id_value`
 - `preferred`
 
-### 10.3 `text_slot`
+### 12.3 `text_slot`
 
 One row per logical text slot.
 
@@ -487,7 +743,7 @@ Fields:
 - `translation_group_key`
 - `sort_order`
 
-### 10.4 `localized_text`
+### 12.4 `localized_text`
 
 One row per slot and per language.
 
@@ -498,7 +754,7 @@ Fields:
 - `language`
 - `text_value`
 
-### 10.5 `object_metadata`
+### 12.5 `object_metadata`
 
 Structured metadata attached to content objects.
 
@@ -510,7 +766,7 @@ Fields:
 - `metadata_key`
 - `value_json`
 
-### 10.6 `review_state`
+### 12.6 `review_state`
 
 Review lifecycle records for content objects and other reviewable subjects.
 
@@ -522,7 +778,7 @@ Fields:
 - `language`
 - `state`
 
-### 10.7 `curriculum_node`
+### 12.7 `curriculum_node`
 
 One row per structure node.
 
@@ -535,7 +791,7 @@ Fields:
 - `sort_order`
 - `source_path`
 
-### 10.8 `node_identifier`
+### 12.8 `node_identifier`
 
 Identifiers attached to structure nodes.
 
@@ -547,7 +803,7 @@ Fields:
 - `id_value`
 - `preferred`
 
-### 10.9 `node_text`
+### 12.9 `node_text`
 
 Localized text attached to structure nodes.
 
@@ -559,7 +815,7 @@ Fields:
 - `title`
 - `abstract`
 
-### 10.10 `node_metadata`
+### 12.10 `node_metadata`
 
 Structured non-text properties of structure nodes.
 
@@ -570,7 +826,7 @@ Fields:
 - `metadata_key`
 - `value_json`
 
-### 10.11 `content_placement`
+### 12.11 `content_placement`
 
 Links structure nodes to business objects in presentation order.
 
@@ -583,7 +839,7 @@ Fields:
 - `sort_order`
 - `visible_label`
 
-### 10.12 `object_reference`
+### 12.12 `object_reference`
 
 Normalized inline links and embeddings extracted from object texts.
 
@@ -601,7 +857,7 @@ Fields:
 - `raw_marker`
 - `sort_order`
 
-### 10.13 `text_annotation`
+### 12.13 `text_annotation`
 
 Normalized non-reference markers extracted from object texts.
 
@@ -616,7 +872,7 @@ Fields:
 - `raw_marker`
 - `sort_order`
 
-### 10.14 `source_artifact`
+### 12.14 `source_artifact`
 
 Byte-preserved source files used for exact reconstruction and validation.
 
@@ -629,7 +885,7 @@ Fields:
 - `checksum_sha256`
 - `payload`
 
-## 11. Git-To-SQLite Correspondence
+## 13. Git-To-SQLite Correspondence
 
 The operational correspondence is:
 
@@ -652,7 +908,7 @@ For `photo` and `drawing`:
 - multiple `localized_text` rows can therefore correspond to one canonical
   description file.
 
-## 12. Review-State Expectations
+## 14. Review-State Expectations
 
 Current review-state usage in canonical Git:
 
@@ -670,7 +926,7 @@ fixed by this model:
 - review state is metadata;
 - review state is not embedded in business-text payload files.
 
-## 13. Reconstruction Metadata
+## 15. Reconstruction Metadata
 
 Each object may define a reconstruction contract in `object.meta.json` under
 `reconstruction`.
@@ -694,7 +950,7 @@ paths such as:
 - `contents/drawings/*.svg`
 - `contents/drawings/*.tex`
 
-## 14. Out-Of-Scope Runtime Material
+## 16. Out-Of-Scope Runtime Material
 
 This reference does not treat the following as canonical source of truth:
 
