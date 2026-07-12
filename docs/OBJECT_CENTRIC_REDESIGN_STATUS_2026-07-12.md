@@ -20,7 +20,7 @@ It is intentionally an intermediate checkpoint:
 ## Decisions Already Applied
 
 1. Canonical Git is business-object centric.
-2. SQLite is a rebuild target only.
+2. SQLite is an operational working database, not the editorial source of truth.
 3. Fresh ids are used; no legacy ids are preserved in the new model.
 4. Support artifacts do not belong in `canonical/`.
 5. Reconstruction metadata belongs on canonical objects.
@@ -133,5 +133,7 @@ Do not reintroduce support files into `canonical/`.
 The current design line is:
 
 - canonical Git contains business objects and structure;
+- SQLite is a validated working strategy for import, joins, validation, and
+  reconstruction, but not the source of truth;
 - `work/` contains operational reconstruction support until the model can
   replace it fully.

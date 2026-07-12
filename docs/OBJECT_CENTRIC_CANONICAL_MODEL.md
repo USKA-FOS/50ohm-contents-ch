@@ -5,18 +5,33 @@
 This document defines the new direction for the `50ohm-contents-ch` canonical
 Git model.
 
-The design goal is:
+The product goal is to take an existing German 50Ohms site, extract its
+business objects from the current source structure, assign them stable internal
+identifiers independent from visible content codes, and store them in a
+canonical Git structure where one object is represented by one directory.
+
+That canonical object directory is intended to hold the language variants of
+the same business object together, so the object remains the stable editorial
+unit across German, French, and Italian.
+
+The design goal is therefore:
 
 - Git-first canonical storage;
 - human-maintainable object boundaries;
 - one object directory per business object;
 - all language variants stored with that object;
-- SQLite rebuilt from canonical Git, not treated as source of truth.
+- deterministic site reconstruction in the original source format;
+- SQLite used as a validated working database strategy, but not treated as the
+  source of truth.
 
 The question-pool repository is the reference style for this direction.
 
 This is a fresh model, not a compatibility layer over the previous canonical
 layout.
+
+Questions are handled separately in `50ohm-question-pool`, but according to the
+same canonical principle: stable internal object ids, language variants grouped
+with the object, and deterministic rebuilt publication outputs.
 
 ## Current Redesign Scope
 
@@ -24,7 +39,8 @@ This first redesign step covers:
 
 - object-centric canonical export for German content objects;
 - object-centric structure export for curriculum editions;
-- SQLite rebuild from the new canonical layout.
+- SQLite rebuild from the new canonical layout as the operational working
+  database.
 
 It does **not** yet cover:
 
@@ -70,9 +86,10 @@ work/
 
 ## Identifier Policy
 
-Every canonical object id follows the question-pool convention:
+Every canonical object id follows the current content-model convention:
 
 - `prefix_` + `12` hexadecimal characters
+- prefix length is at most `3` characters before the underscore
 - deterministic from a stable source-side key
 - no inherited ids from the previous content canonical model
 
@@ -202,10 +219,19 @@ the basis for removing remaining support-artifact dependencies later.
 
 ## SQLite Role
 
-SQLite remains an operational rebuild target.
+SQLite is a validated working-database strategy.
 
-It is rebuilt from the object-centric canonical Git model and is not treated as
-an older canonical source.
+Its role is operational rather than editorial:
+
+- first import the original site data into a normalized working database;
+- export canonical Git objects from that database;
+- on subsequent runs, rebuild the working database from canonical Git;
+- integrate source-site changes while preserving existing stable ids;
+- support joins, integrity checks, reconstruction logic, and deterministic
+  exports.
+
+SQLite is therefore part of the workflow strategy, but it is not the source of
+truth. Canonical Git objects remain the source of truth.
 
 ## Current Validation Result
 
