@@ -130,7 +130,32 @@ def build_database() -> dict[str, int]:
 
     for edition_dir in object_dirs(CANONICAL_ROOT / "structure" / "editions"):
         edition_meta = read_json(edition_dir / "edition.meta.json")
-        edition_payload = read_json(edition_dir / "edition.de.json")
+        localized_payloads = {
+            path.stem.split(".")[-1]: read_json(path)
+            for path in sorted(edition_dir.glob("edition.*.json"))
+            if path.name != "edition.meta.json"
+        }
+        edition_payload = localized_payloads.get("de")
+        if edition_payload is None:
+            raise RuntimeError(f"Missing edition.de.json in {edition_dir}")
+
+        def build_language_index(node: dict[str, Any], language: str, index: dict[str, dict[str, Any]]) -> None:
+            index[str(node["id"])] = {
+                "language": language,
+                "title": node.get("title"),
+                "abstract": node.get("abstract"),
+            }
+            for child in node.get("chapters", []):
+                build_language_index(child, language, index)
+            for child in node.get("sections", []):
+                build_language_index(child, language, index)
+
+        localized_node_index: dict[str, dict[str, dict[str, Any]]] = {}
+        for language, payload in localized_payloads.items():
+            language_index: dict[str, dict[str, Any]] = {}
+            build_language_index(payload, language, language_index)
+            for node_id, values in language_index.items():
+                localized_node_index.setdefault(node_id, {})[language] = values
 
         def insert_node(node: dict[str, Any], parent_node_id: str | None) -> None:
             connection.execute(
@@ -154,7 +179,13 @@ def build_database() -> dict[str, int]:
                     str(identifier["id_value"]),
                     preferred=bool(identifier.get("preferred", False)),
                 )
-            builder.add_node_text(str(node["id"]), node.get("title"), node.get("abstract"))
+            for language, values in sorted(localized_node_index.get(str(node["id"]), {}).items()):
+                builder.add_node_text(
+                    str(node["id"]),
+                    values.get("title"),
+                    values.get("abstract"),
+                    language=str(language),
+                )
             for key, value in sorted((node.get("metadata") or {}).items()):
                 builder.add_node_metadata(str(node["id"]), str(key), value)
             for placement in node.get("placements", []):

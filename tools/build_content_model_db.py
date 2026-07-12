@@ -382,14 +382,14 @@ class Builder:
             (identifier_id, node_id, id_system, id_value, int(preferred)),
         )
 
-    def add_node_text(self, node_id: str, title: str | None, abstract: str | None) -> None:
-        text_id = stable_id("ntxt", node_id, "de")
+    def add_node_text(self, node_id: str, title: str | None, abstract: str | None, *, language: str = "de") -> None:
+        text_id = stable_id("ntxt", node_id, language)
         self.conn.execute(
             """
             INSERT OR REPLACE INTO node_text(id, node_id, language, title, abstract)
             VALUES (?, ?, ?, ?, ?)
             """,
-            (text_id, node_id, "de", title, abstract),
+            (text_id, node_id, language, title, abstract),
         )
 
     def add_node_metadata(self, node_id: str, metadata_key: str, value: Any) -> None:
@@ -404,7 +404,7 @@ class Builder:
 
     def import_node_payload(self, node_id: str, payload: dict[str, Any], *, structural_keys: set[str]) -> None:
         """Preserve every non-structural TOC property on its modeled node."""
-        self.add_node_text(node_id, payload.get("title"), payload.get("abstract"))
+        self.add_node_text(node_id, payload.get("title"), payload.get("abstract"), language="de")
         for key, value in sorted(payload.items()):
             if key not in structural_keys | {"title", "abstract", "ident"}:
                 self.add_node_metadata(node_id, key, value)

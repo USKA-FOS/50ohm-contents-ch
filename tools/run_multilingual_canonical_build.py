@@ -578,39 +578,42 @@ def run_generator(language: str) -> dict[str, Any]:
     }
 
 
-def compare_outputs(builds: dict[str, dict[str, Any]]) -> dict[str, Any]:
-    manifests = {language: tree_manifest(BUILD_ROOT / language) for language in LANGUAGES}
+def compare_outputs(builds: dict[str, dict[str, Any]], languages: tuple[str, ...]) -> dict[str, Any]:
+    manifests = {language: tree_manifest(BUILD_ROOT / language) for language in languages}
     result: dict[str, Any] = {}
-    for language in LANGUAGES:
+    for language in languages:
         manifest = manifests[language]
         result[language] = {
             "file_count": len(manifest),
             "html_count": sum(1 for path in manifest if path.endswith(".html")),
             "asset_count": sum(1 for path in manifest if path.startswith("assets/")),
         }
-    de_paths = set(manifests["de"])
-    for language in ("fr", "it"):
-        paths = set(manifests[language])
-        result[f"de_vs_{language}"] = {
-            "only_in_de": sorted(de_paths - paths)[:200],
-            "only_in_language": sorted(paths - de_paths)[:200],
-            "only_in_de_count": len(de_paths - paths),
-            "only_in_language_count": len(paths - de_paths),
-        }
-    result["all_builds_succeeded"] = all(builds[language]["exit_code"] == 0 for language in LANGUAGES)
+    if "de" in manifests:
+        de_paths = set(manifests["de"])
+        for language in ("fr", "it"):
+            if language not in manifests:
+                continue
+            paths = set(manifests[language])
+            result[f"de_vs_{language}"] = {
+                "only_in_de": sorted(de_paths - paths)[:200],
+                "only_in_language": sorted(paths - de_paths)[:200],
+                "only_in_de_count": len(de_paths - paths),
+                "only_in_language_count": len(paths - de_paths),
+            }
+    result["all_builds_succeeded"] = all(builds[language]["exit_code"] == 0 for language in languages)
     return result
 
 
-def run(*, skip_build: bool = False) -> dict[str, Any]:
+def run(*, skip_build: bool = False, languages: tuple[str, ...] = LANGUAGES) -> dict[str, Any]:
     reset_runtime_state()
     db_counts = build_canonical_database()
     connection = sqlite3.connect(DB_PATH)
     connection.row_factory = sqlite3.Row
-    staged = {language: stage_language(connection, language) for language in LANGUAGES}
+    staged = {language: stage_language(connection, language) for language in languages}
     connection.close()
 
-    builds = {language: run_generator(language) for language in LANGUAGES} if not skip_build else {}
-    comparison = compare_outputs(builds) if builds else {}
+    builds = {language: run_generator(language) for language in languages} if not skip_build else {}
+    comparison = compare_outputs(builds, languages) if builds else {}
     report = {
         "database": str(DB_PATH),
         "database_counts": db_counts,
@@ -625,8 +628,14 @@ def run(*, skip_build: bool = False) -> dict[str, Any]:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--skip-build", action="store_true")
+    parser.add_argument(
+        "--language",
+        choices=LANGUAGES,
+        help="Limit staging and build to a single language.",
+    )
     args = parser.parse_args()
-    report = run(skip_build=args.skip_build)
+    languages = (args.language,) if args.language else LANGUAGES
+    report = run(skip_build=args.skip_build, languages=languages)
     print(json.dumps(report, indent=2, ensure_ascii=False))
 
 
