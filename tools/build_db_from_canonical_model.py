@@ -35,6 +35,26 @@ def object_dirs(directory: Path) -> Iterable[Path]:
     return sorted(path for path in directory.iterdir() if path.is_dir()) if directory.exists() else []
 
 
+def storage_files_with_fallback(directory: Path, files: dict[str, str] | None) -> dict[str, str]:
+    resolved = dict(files or {})
+    if not resolved:
+        return resolved
+
+    for relative_name in list(resolved.values()):
+        name = Path(relative_name).name
+        parts = name.split(".")
+        if len(parts) < 3:
+            continue
+        stem = ".".join(parts[:-2])
+        suffix = parts[-1]
+        for language in ("fr", "it"):
+            candidate_name = f"{stem}.{language}.{suffix}"
+            candidate_path = directory / candidate_name
+            if language not in resolved and candidate_path.exists():
+                resolved[language] = candidate_name
+    return resolved
+
+
 def build_database() -> dict[str, int]:
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     if DB_PATH.exists():
@@ -85,15 +105,15 @@ def build_database() -> dict[str, int]:
                 )
                 storage = slot["storage"]
                 if str(storage["kind"]) == "text_file":
-                    for language, relative_name in sorted((storage.get("files") or {}).items()):
+                    for language, relative_name in sorted(storage_files_with_fallback(directory, storage.get("files")).items()):
                         builder.add_localized_text(slot_id, str(language), (directory / relative_name).read_text(encoding="utf-8"))
                 elif str(storage["kind"]) == "json_file":
                     json_field = str(storage["json_field"])
-                    for language, relative_name in sorted((storage.get("files") or {}).items()):
+                    for language, relative_name in sorted(storage_files_with_fallback(directory, storage.get("files")).items()):
                         payload = read_json(directory / relative_name)
                         builder.add_localized_text(slot_id, str(language), str(payload.get(json_field, "")))
                 elif str(storage["kind"]) == "description_file_bundle":
-                    for language, relative_name in sorted((storage.get("files") or {}).items()):
+                    for language, relative_name in sorted(storage_files_with_fallback(directory, storage.get("files")).items()):
                         raw_text = (directory / relative_name).read_text(encoding="utf-8")
                         short_text, long_text, _, _ = split_description_text(raw_text)
                         value = short_text if str(slot["slot_key"]) == "short_description" else long_text

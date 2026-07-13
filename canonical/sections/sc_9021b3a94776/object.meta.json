@@ -10,7 +10,9 @@
     }
   ],
   "languages": [
-    "de"
+    "de",
+    "fr",
+    "it"
   ],
   "metadata": {},
   "object_type": "section_article",
@@ -27,6 +29,14 @@
     {
       "language": "de",
       "state": "imported_approved"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_reviewed"
+    },
+    {
+      "language": "it",
+      "state": "to_be_reviewed"
     }
   ],
   "source": {
@@ -41,7 +51,9 @@
       "sort_order": 0,
       "storage": {
         "files": {
-          "de": "body.de.md"
+          "de": "body.de.md",
+          "fr": "body.fr.md",
+          "it": "body.it.md"
         },
         "kind": "text_file"
       },

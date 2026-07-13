@@ -54,7 +54,7 @@ def reset_runtime_state() -> None:
         VALIDATION_ROOT / "summary.json",
     ):
         if path.exists():
-            path.unlink()
+            path.unlink(missing_ok=True)
 
 
 def sha256_file(path: Path) -> str:
