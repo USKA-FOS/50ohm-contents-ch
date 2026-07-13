@@ -58,11 +58,8 @@ Ganz ohne Taschenrechner lassen sich Dezibelwerte abschätzen, die auf "$0$" end
 
 <indepth>
 Einige weitere Dezibelwerte lassen sich mit nachfolgender Tabelle auch ganz ohne Taschenrechner abschätzen:
-  
-  TODO ARK
-
+*Oft verwendete (Leistungs-)deziBel Angaben*
 | c: | l: | c: | l: |
-|---:|:---|---:|:---|
 | dB | Faktor | dB | Faktor |
 | -3 dB | 0.5 | +3 dB | 2 |
 | -6 dB | 0.25 | +6 dB | 4 |
@@ -70,8 +67,22 @@ Einige weitere Dezibelwerte lassen sich mit nachfolgender Tabelle auch ganz ohne
 | -20 dB | 1/100 | +20 dB | 100 |
 | -30 dB | 1/1000 | +30 dB | 1000 |
 [table:n_db_leistungsangaben:Häufig verwendete Leistungs-dB-Werte]
-  
 </indepth>
+
+<tip>
+*dB Beispiele*
+| c: | c: | l: |
+|---:|---:|:---|
+| Faktor | dB | Herleitung |
+| × 8 | 9 dB | 3 + 3 + 3 |
+| × 20 | 13 dB | 10 + 3 |
+| × 1/8 | -9 dB | -3 -3 -3 |
+| × 50 | 17 dB | 20 - 3 |
+| × 3 | 5 dB | näherungsweise |
+| × 1.25 | 1 dB | 10 - 9 |
+| × 1.5 | 2 dB | näherungsweise |
+[table:n_db_beispiele:dB-Beispiele]
+</tip>
 
 [question:EA107]
 
