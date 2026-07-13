@@ -1,12 +1,17 @@
 from __future__ import annotations
 
 import argparse
+import fcntl
 import json
+import os
 import shutil
 import sqlite3
 import subprocess
+import sys
 from collections import defaultdict
+from contextlib import contextmanager
 from copy import deepcopy
+from datetime import UTC, datetime
 from hashlib import sha256
 from pathlib import Path
 from typing import Any
@@ -20,9 +25,11 @@ QUESTION_POOL_REPO = CONTENT_REPO.parent / "50ohm-question-pool"
 GENERATOR_ROOT = WORKSPACE_ROOT / "translator" / "sites" / "app" / "generator_ch"
 SOURCE_INPUT = WORKSPACE_ROOT / "translator" / "site-original" / "app" / "50ohm-contents-ch"
 DB_PATH = CONTENT_REPO / "work" / "canonical_model" / "content_model.sqlite"
+DB_STATE_PATH = CONTENT_REPO / "work" / "canonical_model" / "content_model.state.json"
 INPUT_ROOT = CONTENT_REPO / "work" / "generator-input"
 BUILD_ROOT = CONTENT_REPO / "work" / "build"
 VALIDATION_ROOT = CONTENT_REPO / "work" / "validation" / "multilingual"
+LOCK_ROOT = CONTENT_REPO / "work" / "locks"
 GENERATOR_EXTRA_CONTENT_ROOT = CONTENT_REPO / "generator_extra_content"
 LANGUAGES = ("de", "fr", "it")
 OBJECT_FAMILY_DIRECTORIES = {
@@ -48,13 +55,9 @@ QUESTION_OBJECT_TYPES = {
 
 
 def reset_runtime_state() -> None:
-    """Remove runtime-only state before deriving anything from canonical Git."""
-    for path in (
-        DB_PATH,
-        VALIDATION_ROOT / "summary.json",
-    ):
-        if path.exists():
-            path.unlink(missing_ok=True)
+    """Ensure runtime directories exist before deriving anything from canonical Git."""
+    for path in (VALIDATION_ROOT, LOCK_ROOT, DB_PATH.parent):
+        path.mkdir(parents=True, exist_ok=True)
 
 
 def sha256_file(path: Path) -> str:
@@ -71,6 +74,12 @@ def tree_manifest(root: Path) -> dict[str, str]:
     }
 
 
+def path_manifest(root: Path) -> list[str]:
+    if not root.exists():
+        return []
+    return [str(path.relative_to(root)) for path in sorted(root.rglob("*")) if path.is_file()]
+
+
 def load_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -82,6 +91,139 @@ def decode_value(value_json: str) -> Any:
 def write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def make_run_id(languages: tuple[str, ...]) -> str:
+    timestamp = datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ")
+    return f"{timestamp}-{os.getpid()}-{'-'.join(languages)}"
+
+
+def validation_run_root(run_id: str) -> Path:
+    return VALIDATION_ROOT / "runs" / run_id
+
+
+@contextmanager
+def file_lock(path: Path):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("a+", encoding="utf-8") as handle:
+        fcntl.flock(handle.fileno(), fcntl.LOCK_EX)
+        try:
+            yield
+        finally:
+            fcntl.flock(handle.fileno(), fcntl.LOCK_UN)
+
+
+@contextmanager
+def language_lock(language: str):
+    with file_lock(LOCK_ROOT / f"multilingual-build-{language}.lock"):
+        yield
+
+
+def command_output(*args: str) -> str:
+    completed = subprocess.run(
+        list(args),
+        cwd=CONTENT_REPO,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+        check=True,
+    )
+    return completed.stdout.strip()
+
+
+def canonical_git_is_clean() -> bool:
+    return command_output("git", "-C", str(CONTENT_REPO), "status", "--porcelain", "--", "canonical") == ""
+
+
+def canonical_tree_hash() -> str:
+    return command_output("git", "-C", str(CONTENT_REPO), "rev-parse", "HEAD:canonical")
+
+
+def importer_signature() -> str:
+    tool_files = (
+        CONTENT_REPO / "tools" / "build_content_model_db.py",
+        CONTENT_REPO / "tools" / "build_db_from_canonical_model.py",
+    )
+    digest = sha256()
+    digest.update(sys.version.encode("utf-8"))
+    for path in tool_files:
+        digest.update(str(path.relative_to(CONTENT_REPO)).encode("utf-8"))
+        digest.update(path.read_bytes())
+    return digest.hexdigest()
+
+
+def current_db_state() -> dict[str, Any]:
+    return {
+        "canonical_tree_hash": canonical_tree_hash(),
+        "importer_signature": importer_signature(),
+    }
+
+
+def should_rebuild_database() -> tuple[bool, str, dict[str, Any]]:
+    state = current_db_state()
+    if not DB_PATH.exists():
+        return True, "database_missing", state
+    if not DB_STATE_PATH.exists():
+        return True, "state_missing", state
+    if not canonical_git_is_clean():
+        return True, "canonical_dirty", state
+    previous_state = load_json(DB_STATE_PATH)
+    if previous_state.get("canonical_tree_hash") != state["canonical_tree_hash"]:
+        return True, "canonical_changed", state
+    if previous_state.get("importer_signature") != state["importer_signature"]:
+        return True, "importer_changed", state
+    return False, "reused", state
+
+
+def prepare_canonical_database() -> dict[str, Any]:
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    rebuild, reason, state = should_rebuild_database()
+    if rebuild:
+        with file_lock(LOCK_ROOT / "canonical-db-rebuild.lock"):
+            rebuild, reason, state = should_rebuild_database()
+            if rebuild:
+                if DB_PATH.exists():
+                    DB_PATH.unlink(missing_ok=True)
+                db_counts = build_canonical_database()
+                write_json(DB_STATE_PATH, state)
+                return {
+                    "database": str(DB_PATH),
+                    "state_file": str(DB_STATE_PATH),
+                    "reused": False,
+                    "reason": reason,
+                    "counts": db_counts,
+                    "state": state,
+                }
+    connection = sqlite3.connect(DB_PATH)
+    connection.row_factory = sqlite3.Row
+    counts = {
+        table: connection.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
+        for table in (
+            "content_object",
+            "object_identifier",
+            "text_slot",
+            "localized_text",
+            "object_metadata",
+            "review_state",
+            "curriculum_node",
+            "node_identifier",
+            "node_text",
+            "node_metadata",
+            "content_placement",
+            "object_reference",
+            "text_annotation",
+            "source_artifact",
+        )
+    }
+    connection.close()
+    return {
+        "database": str(DB_PATH),
+        "state_file": str(DB_STATE_PATH),
+        "reused": True,
+        "reason": reason,
+        "counts": counts,
+        "state": state,
+    }
 
 
 def rows(connection: sqlite3.Connection, sql: str, params: tuple[Any, ...] = ()) -> list[dict[str, Any]]:
@@ -504,7 +646,12 @@ def usage_action_counts(usage_entries: list[dict[str, Any]]) -> dict[str, int]:
     return counts
 
 
-def stage_language(connection: sqlite3.Connection, language: str) -> dict[str, Any]:
+def stage_language(
+    connection: sqlite3.Connection,
+    language: str,
+    *,
+    validation_root: Path,
+) -> dict[str, Any]:
     target_root = INPUT_ROOT / language
     artifact_count = export_artifacts(connection, target_root)
     text_report = overlay_object_texts(connection, target_root, language)
@@ -525,7 +672,7 @@ def stage_language(connection: sqlite3.Connection, language: str) -> dict[str, A
         "retained_count": len(retained),
         "action_counts": usage_action_counts(usage_entries),
     }
-    usage_report_path = VALIDATION_ROOT / f"support-artifact-usage-{language}.json"
+    usage_report_path = validation_root / f"support-artifact-usage-{language}.json"
     write_json(usage_report_path, usage_report)
     return {
         "input_root": str(target_root),
@@ -555,9 +702,9 @@ def build_config(input_root: Path, output_root: Path) -> dict[str, str]:
     }
 
 
-def run_generator(language: str) -> dict[str, Any]:
-    VALIDATION_ROOT.mkdir(parents=True, exist_ok=True)
-    runner_root = VALIDATION_ROOT / f"generator-{language}"
+def run_generator(language: str, *, validation_root: Path) -> dict[str, Any]:
+    validation_root.mkdir(parents=True, exist_ok=True)
+    runner_root = validation_root / f"generator-{language}"
     output_root = BUILD_ROOT / language
     BUILD_ROOT.mkdir(parents=True, exist_ok=True)
     if runner_root.exists():
@@ -574,19 +721,19 @@ def run_generator(language: str) -> dict[str, Any]:
         text=True,
         check=False,
     )
-    log_path = VALIDATION_ROOT / f"{language}.log"
+    log_path = validation_root / f"{language}.log"
     log_path.write_text(completed.stdout, encoding="utf-8")
     return {
         "exit_code": completed.returncode,
         "log": str(log_path),
         "output_root": str(output_root),
-        "output_files": len(tree_manifest(output_root)),
+        "output_files": len(path_manifest(output_root)),
         "ui_patch": None,
     }
 
 
 def compare_outputs(builds: dict[str, dict[str, Any]], languages: tuple[str, ...]) -> dict[str, Any]:
-    manifests = {language: tree_manifest(BUILD_ROOT / language) for language in languages}
+    manifests = {language: path_manifest(BUILD_ROOT / language) for language in languages}
     result: dict[str, Any] = {}
     for language in languages:
         manifest = manifests[language]
@@ -613,22 +760,39 @@ def compare_outputs(builds: dict[str, dict[str, Any]], languages: tuple[str, ...
 
 def run(*, skip_build: bool = False, languages: tuple[str, ...] = LANGUAGES) -> dict[str, Any]:
     reset_runtime_state()
-    db_counts = build_canonical_database()
+    run_id = make_run_id(languages)
+    run_validation_root = validation_run_root(run_id)
+    run_validation_root.mkdir(parents=True, exist_ok=True)
+    db_info = prepare_canonical_database()
     connection = sqlite3.connect(DB_PATH)
     connection.row_factory = sqlite3.Row
-    staged = {language: stage_language(connection, language) for language in languages}
+    staged: dict[str, dict[str, Any]] = {}
+    builds: dict[str, dict[str, Any]] = {}
+    for language in languages:
+        with language_lock(language):
+            staged[language] = stage_language(
+                connection,
+                language,
+                validation_root=run_validation_root,
+            )
+            if not skip_build:
+                builds[language] = run_generator(language, validation_root=run_validation_root)
     connection.close()
-
-    builds = {language: run_generator(language) for language in languages} if not skip_build else {}
     comparison = compare_outputs(builds, languages) if builds else {}
     report = {
+        "run_id": run_id,
+        "validation_root": str(run_validation_root),
+        "report_path": str(run_validation_root / "summary.json"),
         "database": str(DB_PATH),
-        "database_counts": db_counts,
+        "database_counts": db_info["counts"],
+        "database_reused": db_info["reused"],
+        "database_reason": db_info["reason"],
+        "database_state": db_info["state"],
         "staged": staged,
         "builds": builds,
         "comparison": comparison,
     }
-    write_json(VALIDATION_ROOT / "summary.json", report)
+    write_json(run_validation_root / "summary.json", report)
     return report
 
 

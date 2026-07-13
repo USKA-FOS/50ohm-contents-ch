@@ -87,8 +87,8 @@ python3 tools/run_multilingual_canonical_build.py
 This command imports `canonical/` into `work/canonical_model/content_model.sqlite`,
 stages three generator inputs under `work/generator-input/{de,fr,it}`, injects
 question catalogs from `../50ohm-question-pool/builds/{language}/`, runs the
-generator into `work/build/{de,fr,it}`, and writes a comparison report to
-`work/validation/multilingual/summary.json`.
+generator into `work/build/{de,fr,it}`, and writes a comparison report to a
+run-specific directory under `work/validation/multilingual/runs/<run-id>/`.
 
 Generator-owned multilingual UI content is now consumed directly from
 `generator_extra_content/{de,fr,it}/` by `generator_ch`. The build no longer
@@ -100,6 +100,28 @@ merged.
 
 This rebuild principle is strict. The SQLite database is an operational
 intermediate only and must never be treated as a previous-version store.
+
+Current optimization:
+
+- if `canonical/` is Git-clean,
+- and `work/canonical_model/content_model.sqlite` already exists,
+- and `work/canonical_model/content_model.state.json` matches both the current
+  Git tree hash of `canonical/` and the current importer-tool signature,
+
+then the validator reuses the existing SQLite database instead of rebuilding
+it.
+
+If any of these conditions fail, the database is recreated from `canonical/`.
+
+Concurrency model:
+
+- the SQLite cache is shared across runs;
+- a rebuild lock is taken only when the cache must actually be recreated;
+- each language takes its own lock for staging and generation, so two runs for
+  the same language cannot collide in `work/generator-input/<lang>` or
+  `work/build/<lang>`;
+- validation logs and reports are isolated per run under
+  `work/validation/multilingual/runs/<run-id>/`.
 
 The validator clears and recreates `translator/sites/app/build/de/` from the
 V4 baseline `translator/site-original/app/50ohm-contents-ch/`, then clears and
