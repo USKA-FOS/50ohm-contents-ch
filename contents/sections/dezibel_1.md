@@ -60,6 +60,16 @@ Ganz ohne Taschenrechner lassen sich Dezibelwerte abschätzen, die auf "$0$" end
 Einige weitere Dezibelwerte lassen sich mit nachfolgender Tabelle auch ganz ohne Taschenrechner abschätzen:
   
   TODO ARK
+
+| c: | l: | c: | l: |
+|---:|:---|---:|:---|
+| dB | Faktor | dB | Faktor |
+| -3 dB | 0.5 | +3 dB | 2 |
+| -6 dB | 0.25 | +6 dB | 4 |
+| -10 dB | 1/10 | +10 dB | 10 |
+| -20 dB | 1/100 | +20 dB | 100 |
+| -30 dB | 1/1000 | +30 dB | 1000 |
+[table:n_db_leistungsangaben:Häufig verwendete Leistungs-dB-Werte]
   
 </indepth>
 
