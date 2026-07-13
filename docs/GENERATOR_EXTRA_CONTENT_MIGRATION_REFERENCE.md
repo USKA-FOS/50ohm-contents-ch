@@ -17,7 +17,7 @@ The current strategy is:
 - keep canonical business content in the canonical model;
 - move generator-owned multilingual content into
   `generator_extra_content/{de,fr,it}/`;
-- make the forked generator `generator_ch` consume those resources directly;
+- make the generator branch in `translator/sites/app/generator/` consume those resources directly;
 - keep generation source-driven rather than patch-driven.
 
 This temporary layer exists to produce correct multilingual sites now, without
@@ -36,7 +36,7 @@ input tree during build:
 - staged build location:
   `50ohm-contents-ch/work/generator-input/<lang>/generator_extra_content/`
 - consumer:
-  `translator/sites/app/generator_ch/`
+  `translator/sites/app/generator/`
 
 Typical resource types:
 
@@ -50,8 +50,8 @@ During multilingual build:
 
 1. canonical content is staged for one target language;
 2. `generator_extra_content/<lang>/` is copied beside that staged content;
-3. `generator_ch` detects the target language from the staged input root;
-4. `generator_ch` loads localized generator resources, with German fallback;
+3. `generator` detects the target language from the staged input root;
+4. `generator` loads localized generator resources, with German fallback;
 5. the site is generated directly from language-aware sources.
 
 The intended end state is that generator-owned multilingual strings are solved
@@ -59,7 +59,7 @@ at generation time and not rewritten afterward by string replacement.
 
 ## What Has Already Left the Patch Layer
 
-The following patch families are now absorbed by `generator_ch` or by
+The following patch families are now absorbed by `generator` or by
 language-specific resources in `generator_extra_content` and should no longer
 require post-build replacement:
 
@@ -136,9 +136,9 @@ These are now generated from localized labels and no longer require patching.
 
 Current authoritative generator sources:
 
-- `translator/sites/app/generator_ch/templates/html/question.html`
-- `translator/sites/app/generator_ch/templates/html/solution.html`
-- `translator/sites/app/generator_ch/templates/html/solution_question.html`
+- `translator/sites/app/generator/templates/html/question.html`
+- `translator/sites/app/generator/templates/html/solution.html`
+- `translator/sites/app/generator/templates/html/solution_question.html`
 
 ### B. Review-widget Alert Messages
 
@@ -146,8 +146,8 @@ These are now generated from localized labels and no longer require patching.
 
 Current authoritative generator sources:
 
-- `translator/sites/app/generator_ch/templates/html/section-review-widget.html`
-- `translator/sites/app/generator_ch/templates/html/chapter-review-widget.html`
+- `translator/sites/app/generator/templates/html/section-review-widget.html`
+- `translator/sites/app/generator/templates/html/chapter-review-widget.html`
 
 ### C. Index Page Content
 
@@ -158,7 +158,7 @@ The landing page is now localized through language-specific template overrides:
 
 The German base template remains in:
 
-- `translator/sites/app/generator_ch/templates/html/index.html`
+- `translator/sites/app/generator/templates/html/index.html`
 
 ## Current Validation Result
 
