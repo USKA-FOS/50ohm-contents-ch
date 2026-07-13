@@ -15,4 +15,4 @@ Current resource types:
 
 - `labels.json`: shared UI labels used by the forked generator;
 - `templates/...`: language-specific template overrides for generator-owned
-  injected content such as slide help pages.
+  injected content such as slide help pages and the localized landing page.

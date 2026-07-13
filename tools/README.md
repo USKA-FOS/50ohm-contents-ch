@@ -90,6 +90,10 @@ question catalogs from `../50ohm-question-pool/builds/{language}/`, runs the
 generator into `work/build/{de,fr,it}`, and writes a comparison report to
 `work/validation/multilingual/summary.json`.
 
+Generator-owned multilingual UI content is now consumed directly from
+`generator_extra_content/{de,fr,it}/` by `generator_ch`. The build no longer
+applies a post-build HTML patch layer for `fr` and `it`.
+
 The SQLite database is runtime-only. It is deleted and rebuilt from the Git
 canonical model at the start of each run; no previous SQLite state is read or
 merged.
