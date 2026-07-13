@@ -59,7 +59,7 @@ Ganz ohne Taschenrechner lassen sich Dezibelwerte abschätzen, die auf "$0$" end
 <indepth>
 Einige weitere Dezibelwerte lassen sich mit nachfolgender Tabelle auch ganz ohne Taschenrechner abschätzen:
 *Oft verwendete (Leistungs-)deziBel Angaben*
-| c: | l: | c: | l: |
+| c:dB | l:Faktor | c:dB | l:Faktor |
 | dB | Faktor | dB | Faktor |
 | -3 dB | 0.5 | +3 dB | 2 |
 | -6 dB | 0.25 | +6 dB | 4 |
