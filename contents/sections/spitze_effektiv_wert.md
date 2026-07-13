@@ -36,7 +36,7 @@ Wird eine Wechselspannung nur mit dem Buchstaben $U$ ohne Zusatz angegeben, ist 
 $\hat{U} = \qty{230}{\volt} \cdot \sqrt{2} \approx \qty{325}{\volt}$.
 
 <indepth>
-Die genaue Herleitung dieser Formel erfolgt mithilfe der Integralrechnung und geht über das für die Amateurfunkprüfung erforderliche Wissen hinaus. Wer mit der Integralrechnung vertraut ist und sich dafür interessiert, kann die Herleitung hier nachlesen: [Wikipedia](https://50ohm.de/ew)
+Die genaue Herleitung dieser Formel erfolgt mithilfe der Integralrechnung und geht über das für die Amateurfunkprüfung erforderliche Wissen hinaus. Wer mit der Integralrechnung vertraut ist und sich dafür interessiert, kann die Herleitung hier nachlesen: [Wikipedia]https://de.wikipedia.org/wiki/Effektivwert)
 </indepth>
 
 [question:EB401]
