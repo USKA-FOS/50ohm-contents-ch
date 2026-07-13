@@ -1,4 +1,4 @@
-Kommen wir jetzt zurück zu den Halbleitern. Wie wir schon gelernt haben, sind das Materialien, die nur unter bestimmten Umständen leiten. Halbleiter wie Silizium oder Germanium weisen sowohl Eigenschaften von Leitern als auch von Nichtleitern auf. Die genaue Funktionsweise wird im Ausbildungsmaterial für die Klassen E und A besprochen.
+Kommen wir jetzt zurück zu den Halbleitern. Wie wir schon gelernt haben, sind das Materialien, die nur unter bestimmten Umständen leiten. Halbleiter wie Silizium oder Germanium weisen sowohl Eigenschaften von Leitern als auch von Nichtleitern auf. Die genaue Funktionsweise wird im Ausbildungsmaterial für HB9 besprochen.
 
 Das einfachste Bauteil, das aus Halbleitern besteht, ist die *Diode*, die in der Abbildung [ref:n_halbleiter_dioden] gezeigt wird. Die Diode hat die interessante Eigenschaft, dass Strom nur *in einer Richtung* durch sie hindurchfließen kann.
 
