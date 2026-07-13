@@ -59,27 +59,25 @@ Ganz ohne Taschenrechner lassen sich Dezibelwerte abschätzen, die auf "$0$" end
 <indepth>
 Einige weitere Dezibelwerte lassen sich mit nachfolgender Tabelle auch ganz ohne Taschenrechner abschätzen:
   
-*Oft verwendete (Leistungs-)deziBel Angaben*
 | c:dB | l:Faktor | c:dB | l:Faktor |
 | -3 | 0.5 | +3 | 2 |
 | -6 | 0.25 | +6 | 4 |
 | -10 | 1/10 | +10 | 10 |
 | -20 | 1/100 | +20 | 100 |
 | -30 | 1/1000 | +30 | 1000 |
-[table:n_db_leistungsangaben:Häufig verwendete Leistungsfaktoren in $\unit{\dB}$]
+[table:n_db_leistungsangaben:Oft verwendete (Leistungs-)deziBel Angaben]
 </indepth>
 
 <tip>
-*dB Beispiele*
 | c:Faktor | c:dB | l:Herleitung |
-| × 8 | 9 | $3+3+3$ |
-| × 20 | 13 | $10+3$ |
-| × 1/8 | -9 | $-3-3-3$ |
-| × 50 | 17 | $20-3$ |
-| × 3 | 5 | näherungsweise |
-| × 1.25 | 1 | $10-9$ |
-| × 1.5 | 2 | näherungsweise |
-[table:n_db_beispiele:dB-Beispiele]
+| ×8 | 9 | 3+3+3 |
+| ×20 | 13 | 10+3 |
+| ×1/8 | -9 | -3-3-3 |
+| ×50 | 17 | 20-3 |
+| ×3 | 5 | näherungsweise |
+| ×1.25 | 1 | 10-9 |
+| ×1.5 | 2 | näherungsweise |
+[table:n_db_beispiele:dB Beispiele]
 </tip>
 
 [question:EA107]
