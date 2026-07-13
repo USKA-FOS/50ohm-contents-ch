@@ -1,0 +1,15 @@
+<section data-background="#f3dad8">
+    <h2>Domande?</h2>
+    <hr />
+    <h3>Link a questo set di diapositive</h3>
+    <ul>
+        {% if next_chapter is defined -%}
+        <li><a href="{{ edition }}_slide_{{ next_chapter["ident"] }}.html">Vai al capitolo successivo: {{
+                next_chapter["title"] }}</a></li>
+        {% endif -%}
+        <li><a href="{{ edition }}_chapter_{{ chapter["ident"] }}.html">Vai al capitolo su 50Ohm.de</a></li>
+        <li><a href="{{ edition }}_slide_index.html">Vai alla panoramica di tutti i set di diapositive</a></li>
+        <li><a href="?print-pdf">Apri questo set di diapositive per la stampa</a></li>
+        <li><a href="?print-pdf&showNotes=true">Apri questo set di diapositive con note per la stampa</a></li>
+    </ul>
+</section>

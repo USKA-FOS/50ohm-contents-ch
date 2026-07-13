@@ -18,12 +18,13 @@ from patch_generated_site_ui import apply_batch as apply_generated_site_ui_batch
 CONTENT_REPO = Path(__file__).resolve().parent.parent
 WORKSPACE_ROOT = CONTENT_REPO.parents[1]
 QUESTION_POOL_REPO = CONTENT_REPO.parent / "50ohm-question-pool"
-GENERATOR_ROOT = WORKSPACE_ROOT / "translator" / "sites" / "app" / "generator"
+GENERATOR_ROOT = WORKSPACE_ROOT / "translator" / "sites" / "app" / "generator_ch"
 SOURCE_INPUT = WORKSPACE_ROOT / "translator" / "site-original" / "app" / "50ohm-contents-ch"
 DB_PATH = CONTENT_REPO / "work" / "canonical_model" / "content_model.sqlite"
 INPUT_ROOT = CONTENT_REPO / "work" / "generator-input"
 BUILD_ROOT = CONTENT_REPO / "work" / "build"
 VALIDATION_ROOT = CONTENT_REPO / "work" / "validation" / "multilingual"
+GENERATOR_EXTRA_CONTENT_ROOT = CONTENT_REPO / "generator_extra_content"
 LANGUAGES = ("de", "fr", "it")
 OBJECT_FAMILY_DIRECTORIES = {
     "section_article": "sections",
@@ -510,6 +511,11 @@ def stage_language(connection: sqlite3.Connection, language: str) -> dict[str, A
     text_report = overlay_object_texts(connection, target_root, language)
     asset_report = overlay_object_assets(connection, target_root, language)
     toc_report = overlay_toc_texts(connection, target_root, language)
+    if GENERATOR_EXTRA_CONTENT_ROOT.exists():
+        staged_extra_root = target_root / "generator_extra_content"
+        if staged_extra_root.exists():
+            shutil.rmtree(staged_extra_root)
+        shutil.copytree(GENERATOR_EXTRA_CONTENT_ROOT, staged_extra_root)
     question_info = stage_questions(target_root, language)
     usage_entries = text_report["usage"] + asset_report["usage"] + toc_report["usage"] + question_info["usage"]
     retained = retained_support_artifacts(target_root, usage_entries)
