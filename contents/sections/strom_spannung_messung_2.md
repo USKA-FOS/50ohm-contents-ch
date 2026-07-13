@@ -1,4 +1,4 @@
-In der Klasse N haben wir bereits Strom- und Spannungsmessgeräte und ihre Schaltsymbole kennengelernt. Ein Strom- oder Spannungsmessung soll den Stromkreis möglichst wenig beeinflussen, da der eigentliche Betrieb normalerweise ohne die entsprechenden Messgeräte erfolgt. Dazu besitzen Strom- und Spannungsmessgeräte unterschiedlich hohe *Innenwiderstände*. Der Innenwiderstand gibt an, wie stark der Stromfluss durch das Messgerät begrenzt wird und entspricht im Prinzip einem normalen Widerstand. Der Innenwiderstand wird ebenfalls in Ohm angegeben.
+Wir haben bereits Strom- und Spannungsmessgeräte und ihre Schaltsymbole kennengelernt. Ein Strom- oder Spannungsmessung soll den Stromkreis möglichst wenig beeinflussen, da der eigentliche Betrieb normalerweise ohne die entsprechenden Messgeräte erfolgt. Dazu besitzen Strom- und Spannungsmessgeräte unterschiedlich hohe *Innenwiderstände*. Der Innenwiderstand gibt an, wie stark der Stromfluss durch das Messgerät begrenzt wird und entspricht im Prinzip einem normalen Widerstand. Der Innenwiderstand wird ebenfalls in Ohm angegeben.
 
 <margin>
 [picture:238:e_strom_spannung_messung:Gleichzeitige Strom- und Spannungsmessung]
