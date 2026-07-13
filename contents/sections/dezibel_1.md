@@ -69,6 +69,7 @@ Einige weitere Dezibelwerte lassen sich mit nachfolgender Tabelle auch ganz ohne
 </indepth>
 
 <tip>
+Durch Kombinieren obiger Werte lassen sich noch weitere Werte ohne Taschenrechner abschätzen.
 | c:Faktor | c:dB | l:Herleitung |
 | ×8 | 9 | 3+3+3 |
 | ×20 | 13 | 10+3 |
