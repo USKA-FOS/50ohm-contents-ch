@@ -58,30 +58,27 @@ Ganz ohne Taschenrechner lassen sich Dezibelwerte abschätzen, die auf "$0$" end
 
 <indepth>
 Einige weitere Dezibelwerte lassen sich mit nachfolgender Tabelle auch ganz ohne Taschenrechner abschätzen:
+  
 *Oft verwendete (Leistungs-)deziBel Angaben*
 | c:dB | l:Faktor | c:dB | l:Faktor |
-|---:|---:|:---|:---|
-| dB | Faktor | dB | Faktor |
-| -3 dB | 0.5 | +3 dB | 2 |
-| -6 dB | 0.25 | +6 dB | 4 |
-| -10 dB | 1/10 | +10 dB | 10 |
-| -20 dB | 1/100 | +20 dB | 100 |
-| -30 dB | 1/1000 | +30 dB | 1000 |
-[table:n_db_leistungsangaben:Häufig verwendete Leistungs-dB-Werte]
+| -3 | 0.5 | +3 | 2 |
+| -6 | 0.25 | +6 | 4 |
+| -10 | 1/10 | +10 | 10 |
+| -20 | 1/100 | +20 | 100 |
+| -30 | 1/1000 | +30 | 1000 |
+[table:n_db_leistungsangaben:Häufig verwendete Leistungsfaktoren in $\unit{\dB}$]
 </indepth>
 
 <tip>
 *dB Beispiele*
-| c: | c: | l: |
-|---:|---:|:---|
-| Faktor | dB | Herleitung |
-| × 8 | 9 dB | 3 + 3 + 3 |
-| × 20 | 13 dB | 10 + 3 |
-| × 1/8 | -9 dB | -3 -3 -3 |
-| × 50 | 17 dB | 20 - 3 |
-| × 3 | 5 dB | näherungsweise |
-| × 1.25 | 1 dB | 10 - 9 |
-| × 1.5 | 2 dB | näherungsweise |
+| c:Faktor | c:dB | l:Herleitung |
+| × 8 | 9 | $3+3+3$ |
+| × 20 | 13 | $10+3$ |
+| × 1/8 | -9 | $-3-3-3$ |
+| × 50 | 17 | $20-3$ |
+| × 3 | 5 | näherungsweise |
+| × 1.25 | 1 | $10-9$ |
+| × 1.5 | 2 | näherungsweise |
 [table:n_db_beispiele:dB-Beispiele]
 </tip>
 
