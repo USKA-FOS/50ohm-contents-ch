@@ -65,11 +65,12 @@ Einige weitere Dezibelwerte lassen sich mit nachfolgender Tabelle auch ganz ohne
 | -10 | 1/10 | +10 | 10 |
 | -20 | 1/100 | +20 | 100 |
 | -30 | 1/1000 | +30 | 1000 |
-[table:n_db_leistungsangaben:Oft verwendete (Leistungs-)deziBel Angaben]
+[table:n_db_leistungsangaben:Oft verwendete (Leistungs-) Dezibel Angaben]
 </indepth>
 
 <tip>
 Durch Kombinieren obiger Werte lassen sich noch weitere Werte ohne Taschenrechner abschätzen.
+  
 | c:Faktor | c:dB | l:Herleitung |
 | ×8 | 9 | 3+3+3 |
 | ×20 | 13 | 10+3 |
