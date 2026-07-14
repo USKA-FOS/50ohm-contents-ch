@@ -24,6 +24,7 @@ WORKSPACE_ROOT = CONTENT_REPO.parent
 QUESTION_POOL_REPO = CONTENT_REPO.parent / "50ohm-question-pool"
 GENERATOR_ROOT = WORKSPACE_ROOT / "50ohm-generator"
 SOURCE_INPUT = WORKSPACE_ROOT / "site-original" / "app" / "50ohm-contents-ch"
+SUPPORT_ROOT = CONTENT_REPO / "work" / "canonical_support"
 DB_PATH = CONTENT_REPO / "work" / "canonical_model" / "content_model.sqlite"
 DB_STATE_PATH = CONTENT_REPO / "work" / "canonical_model" / "content_model.state.json"
 INPUT_ROOT = CONTENT_REPO / "work" / "generator-input"
@@ -155,10 +156,31 @@ def importer_signature() -> str:
     return digest.hexdigest()
 
 
+def support_artifact_signature() -> str:
+    manifest_path = SUPPORT_ROOT / "artifacts.manifest.json"
+    digest = sha256()
+    if not manifest_path.exists():
+        digest.update(b"missing")
+        return digest.hexdigest()
+    manifest_bytes = manifest_path.read_bytes()
+    digest.update(manifest_bytes)
+    manifest = json.loads(manifest_bytes.decode("utf-8"))
+    for artifact in manifest:
+        payload_path = SUPPORT_ROOT / str(artifact["payload_path"])
+        digest.update(str(artifact["source_path"]).encode("utf-8"))
+        digest.update(str(artifact.get("checksum_sha256", "")).encode("utf-8"))
+        if payload_path.exists():
+            digest.update(payload_path.read_bytes())
+        else:
+            digest.update(b"missing-payload")
+    return digest.hexdigest()
+
+
 def current_db_state() -> dict[str, Any]:
     return {
         "canonical_tree_hash": canonical_tree_hash(),
         "importer_signature": importer_signature(),
+        "support_artifact_signature": support_artifact_signature(),
     }
 
 
@@ -175,6 +197,8 @@ def should_rebuild_database() -> tuple[bool, str, dict[str, Any]]:
         return True, "canonical_changed", state
     if previous_state.get("importer_signature") != state["importer_signature"]:
         return True, "importer_changed", state
+    if previous_state.get("support_artifact_signature") != state["support_artifact_signature"]:
+        return True, "support_artifacts_changed", state
     return False, "reused", state
 
 
@@ -716,6 +740,49 @@ def stage_language(
     }
 
 
+def validate_staged_generator_input(target_root: Path) -> None:
+    required_dirs = [
+        target_root / "toc",
+        target_root / "contents" / "questions",
+        target_root / "contents" / "html",
+        target_root / "contents" / "drawings",
+        target_root / "contents" / "photos",
+        target_root / "contents" / "sections",
+        target_root / "contents" / "slides",
+        target_root / "contents" / "snippets",
+        target_root / "contents" / "static",
+        target_root / "contents" / "solutions",
+        target_root / "generator_extra_content",
+    ]
+    required_files = [
+        target_root / "contents" / "questions" / "fragenkatalog_ch.json",
+        target_root / "contents" / "questions" / "fragenkatalog_4pre.json",
+        target_root / "contents" / "questions" / "metadata3b.json",
+    ]
+    for edition_dir in sorted(EDITION_ROOT.iterdir()):
+        if edition_dir.is_dir():
+            edition = load_json(edition_dir / "edition.meta.json")["edition"]
+            required_files.append(target_root / "toc" / f"{edition}.json")
+
+    missing_dirs = [str(path.relative_to(target_root)) for path in required_dirs if not path.is_dir()]
+    missing_files = [str(path.relative_to(target_root)) for path in required_files if not path.is_file()]
+    empty_dirs = []
+    for path in required_dirs:
+        if path.is_dir() and not any(path.iterdir()):
+            empty_dirs.append(str(path.relative_to(target_root)))
+    if missing_dirs or missing_files or empty_dirs:
+        problems = []
+        if missing_dirs:
+            problems.append(f"missing_dirs={missing_dirs}")
+        if missing_files:
+            problems.append(f"missing_files={missing_files}")
+        if empty_dirs:
+            problems.append(f"empty_dirs={empty_dirs}")
+        raise RuntimeError(
+            "Staged generator input is incomplete: " + "; ".join(problems)
+        )
+
+
 def build_config(input_root: Path, output_root: Path, *, generator_seed: int) -> dict[str, Any]:
     return {
         "input": str(input_root),
@@ -740,6 +807,7 @@ def run_generator(language: str, *, validation_root: Path, generator_seed: int) 
     validation_root.mkdir(parents=True, exist_ok=True)
     runner_root = validation_root / f"generator-{language}"
     output_root = BUILD_ROOT / language
+    validate_staged_generator_input(INPUT_ROOT / language)
     BUILD_ROOT.mkdir(parents=True, exist_ok=True)
     if runner_root.exists():
         shutil.rmtree(runner_root)
