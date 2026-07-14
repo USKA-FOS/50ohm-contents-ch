@@ -14,10 +14,10 @@ from typing import Any
 
 
 CONTENT_REPO = Path(__file__).resolve().parent.parent
-WORKSPACE_ROOT = CONTENT_REPO.parents[1]
-SOURCE_INPUT = WORKSPACE_ROOT / "translator" / "site-original" / "app" / "50ohm-contents-ch"
-APP_ROOT = WORKSPACE_ROOT / "translator" / "sites" / "app"
-GENERATOR_ROOT = WORKSPACE_ROOT / "translator" / "50ohm-generator"
+WORKSPACE_ROOT = CONTENT_REPO.parent
+SOURCE_INPUT = WORKSPACE_ROOT / "site-original" / "app" / "50ohm-contents-ch"
+APP_ROOT = WORKSPACE_ROOT / "sites" / "app"
+GENERATOR_ROOT = WORKSPACE_ROOT / "50ohm-generator"
 SOURCE_OUTPUT = APP_ROOT / "build" / "de"
 RECONSTRUCTED_INPUT = CONTENT_REPO / "work" / "site-content"
 STAGED_RECONSTRUCTED_INPUT = CONTENT_REPO / "work" / "generator-input" / "de"

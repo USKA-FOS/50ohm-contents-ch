@@ -20,10 +20,10 @@ from build_db_from_canonical_model import build_database as build_canonical_data
 
 
 CONTENT_REPO = Path(__file__).resolve().parent.parent
-WORKSPACE_ROOT = CONTENT_REPO.parents[1]
+WORKSPACE_ROOT = CONTENT_REPO.parent
 QUESTION_POOL_REPO = CONTENT_REPO.parent / "50ohm-question-pool"
-GENERATOR_ROOT = WORKSPACE_ROOT / "translator" / "50ohm-generator"
-SOURCE_INPUT = WORKSPACE_ROOT / "translator" / "site-original" / "app" / "50ohm-contents-ch"
+GENERATOR_ROOT = WORKSPACE_ROOT / "50ohm-generator"
+SOURCE_INPUT = WORKSPACE_ROOT / "site-original" / "app" / "50ohm-contents-ch"
 DB_PATH = CONTENT_REPO / "work" / "canonical_model" / "content_model.sqlite"
 DB_STATE_PATH = CONTENT_REPO / "work" / "canonical_model" / "content_model.state.json"
 INPUT_ROOT = CONTENT_REPO / "work" / "generator-input"
