@@ -684,8 +684,13 @@ def source_rationales() -> tuple[dict[str, Any], dict[str, Any]]:
 def stage_questions(target_root: Path, language: str) -> dict[str, Any]:
     questions_dir = target_root / "contents" / "questions"
     questions_dir.mkdir(parents=True, exist_ok=True)
-    source_build = QUESTION_POOL_REPO / f"question_pool_rev0_ch-{language}.json"
+    if language == "de":
+        source_build = QUESTION_POOL_REPO / "question_pool_rev0_ch-de.json"
+    else:
+        source_build = QUESTION_POOL_REPO / "builds" / language / f"question_pool_rev0_ch-{language}.json"
     payload = load_json(source_build)
+    for question in iter_questions(payload):
+        question.setdefault("HB.rationale", None)
     question_count = sum(1 for _ in iter_questions(payload))
     write_json(questions_dir / "fragenkatalog_4.json", payload)
     write_json(questions_dir / "fragenkatalog_4pre.json", payload)
