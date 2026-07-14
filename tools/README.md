@@ -145,6 +145,14 @@ configuration. It captures both logs and compares the generated trees by path
 and SHA-256 checksum. Its reports are stored in
 `work/validation/generator-de/`.
 
+Portability note:
+
+- `translator/site-original/` is not recreated by the workspace bootstrap;
+- workflows that compare against the original source snapshot still require it
+  to exist locally;
+- missing `translator/site-original/...` on a fresh machine is therefore a
+  setup limitation, not a canonical-model corruption.
+
 ## Related Compatibility Tool
 
 The current review-site compatibility export for question catalogs is **not**
