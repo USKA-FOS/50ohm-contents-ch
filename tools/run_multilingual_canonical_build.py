@@ -551,6 +551,12 @@ def apply_node_text(payload: dict[str, Any], text: dict[str, str | None] | None)
 def stage_toc_files(target_root: Path, language: str) -> dict[str, Any]:
     toc_root = target_root / "toc"
     toc_root.mkdir(parents=True, exist_ok=True)
+    if not EDITION_ROOT.is_dir():
+        existing = sorted(toc_root.glob("*.json"))
+        return {
+            "written_files": len(existing),
+            "usage": [],
+        }
     written = 0
     usage: list[dict[str, Any]] = []
     for edition_dir in sorted(EDITION_ROOT.iterdir()):
@@ -759,10 +765,21 @@ def validate_staged_generator_input(target_root: Path) -> None:
         target_root / "contents" / "questions" / "fragenkatalog_4pre.json",
         target_root / "contents" / "questions" / "metadata3b.json",
     ]
-    for edition_dir in sorted(EDITION_ROOT.iterdir()):
-        if edition_dir.is_dir():
-            edition = load_json(edition_dir / "edition.meta.json")["edition"]
-            required_files.append(target_root / "toc" / f"{edition}.json")
+    if EDITION_ROOT.is_dir():
+        for edition_dir in sorted(EDITION_ROOT.iterdir()):
+            if edition_dir.is_dir():
+                edition = load_json(edition_dir / "edition.meta.json")["edition"]
+                required_files.append(target_root / "toc" / f"{edition}.json")
+    else:
+        required_files.extend([
+            target_root / "toc" / "A.json",
+            target_root / "toc" / "E.json",
+            target_root / "toc" / "EA.json",
+            target_root / "toc" / "HB.json",
+            target_root / "toc" / "N.json",
+            target_root / "toc" / "NE.json",
+            target_root / "toc" / "NEA.json",
+        ])
 
     missing_dirs = [str(path.relative_to(target_root)) for path in required_dirs if not path.is_dir()]
     missing_files = [str(path.relative_to(target_root)) for path in required_files if not path.is_file()]
