@@ -174,6 +174,34 @@ def should_rebuild_database() -> tuple[bool, str, dict[str, Any]]:
         return True, "canonical_changed", state
     if previous_state.get("importer_signature") != state["importer_signature"]:
         return True, "importer_changed", state
+    try:
+        connection = sqlite3.connect(DB_PATH)
+        required_tables = (
+            "content_object",
+            "object_identifier",
+            "text_slot",
+            "localized_text",
+            "object_metadata",
+            "review_state",
+            "curriculum_node",
+            "node_identifier",
+            "node_text",
+            "node_metadata",
+            "content_placement",
+            "object_reference",
+            "text_annotation",
+            "source_artifact",
+        )
+        present = {
+            row[0]
+            for row in connection.execute("SELECT name FROM sqlite_master WHERE type='table'")
+        }
+        missing = [table for table in required_tables if table not in present]
+        connection.close()
+        if missing:
+            return True, "schema_incomplete", state
+    except sqlite3.DatabaseError:
+        return True, "schema_invalid", state
     return False, "reused", state
 
 
@@ -240,6 +268,11 @@ def export_artifacts(connection: sqlite3.Connection, target_root: Path) -> int:
     if target_root.exists():
         shutil.rmtree(target_root)
     target_root.mkdir(parents=True)
+    table_exists = connection.execute(
+        "SELECT 1 FROM sqlite_master WHERE type='table' AND name='source_artifact'"
+    ).fetchone()
+    if not table_exists:
+        return 0
     count = 0
     for row in connection.execute("SELECT source_path, payload FROM source_artifact ORDER BY source_path"):
         target = target_root / row["source_path"]
@@ -651,27 +684,17 @@ def source_rationales() -> tuple[dict[str, Any], dict[str, Any]]:
 def stage_questions(target_root: Path, language: str) -> dict[str, Any]:
     questions_dir = target_root / "contents" / "questions"
     questions_dir.mkdir(parents=True, exist_ok=True)
-    source_build = QUESTION_POOL_REPO / "builds" / language / f"question_pool_rev0_ch-{language}.json"
+    source_build = QUESTION_POOL_REPO / f"question_pool_rev0_ch-{language}.json"
     payload = load_json(source_build)
-    rationales, pruned = source_rationales()
-    question_count = 0
-    for question in iter_questions(payload):
-        number = question.get("number")
-        question["HB.rationale"] = rationales.get(number) if language == "de" else None
-        question_count += 1
-    payload["pruned"] = pruned if language == "de" else {}
-    write_json(questions_dir / "fragenkatalog_ch.json", payload)
-    # The review generator shows correction/diff markup whenever the upstream
-    # catalog differs from the selected catalog. For localized builds, the
-    # canonical question-pool build is the source of truth, so the upstream
-    # compatibility file must be identical.
+    question_count = sum(1 for _ in iter_questions(payload))
+    write_json(questions_dir / "fragenkatalog_4.json", payload)
     write_json(questions_dir / "fragenkatalog_4pre.json", payload)
     return {
         "question_catalog": str(source_build),
         "questions": question_count,
         "usage": [
             {
-                "path": "contents/questions/fragenkatalog_ch.json",
+                "path": "contents/questions/fragenkatalog_4.json",
                 "action": "overwritten_from_question_pool",
                 "origin": "question_pool",
                 "object_id": None,
@@ -771,7 +794,7 @@ def validate_staged_generator_input(target_root: Path) -> None:
         target_root / "generator_extra_content",
     ]
     required_files = [
-        target_root / "contents" / "questions" / "fragenkatalog_ch.json",
+        target_root / "contents" / "questions" / "fragenkatalog_4.json",
         target_root / "contents" / "questions" / "fragenkatalog_4pre.json",
         target_root / "contents" / "questions" / "metadata3b.json",
     ]
@@ -813,7 +836,7 @@ def validate_staged_generator_input(target_root: Path) -> None:
 def build_config(input_root: Path, output_root: Path, *, generator_seed: int) -> dict[str, Any]:
     return {
         "input": str(input_root),
-        "questions": "fragenkatalog_ch.json",
+        "questions": "fragenkatalog_4.json",
         "questions_upstream": "fragenkatalog_4pre.json",
         "repo_base_url": "https://github.com/USKA-FOS/50ohm-contents-ch",
         "output": str(output_root),

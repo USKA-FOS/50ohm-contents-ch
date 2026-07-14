@@ -33,11 +33,19 @@ This document covers the content-side workflow around:
 The build boundary is:
 
 - content input responsibility: `50ohm-contents-ch`, excluding question files;
-- question input responsibility: `50ohm-question-pool/builds/{de,fr,it}/`;
+- question input responsibility: `50ohm-question-pool/question_pool_rev0_ch-{de,fr,it}.json`;
 - site output responsibility: `50ohm-contents-ch/work/build/{de,fr,it}`.
 
-At build time, the question-pool outputs are copied into the generator input in
-place of the local question catalog files expected by the generator.
+At build time, the content-side builder copies:
+
+- `50ohm-question-pool/question_pool_rev0_ch-<lang>.json`
+  to `contents/questions/fragenkatalog_4.json`;
+- the same file again
+  to `contents/questions/fragenkatalog_4pre.json`.
+
+This copy must stay semantically identical to the source question-pool file.
+The content-side build must not rewrite, enrich, or otherwise transform the
+question catalog payload during staging.
 
 The content-side workflows in this document therefore do not manage question
 translation or question review.
@@ -116,7 +124,9 @@ content plus question-pool build artifacts.
 
 1. rebuild the working SQLite database from canonical content;
 2. stage generator inputs for the requested languages;
-3. inject question-pool build files into the expected question input paths;
+3. inject the root `question_pool_rev0_ch-<lang>.json` file into the expected
+   generator question input paths `fragenkatalog_4.json` and
+   `fragenkatalog_4pre.json`;
 4. run the content generator per language;
 5. inspect generated content under `work/build/<lang>/`.
 
