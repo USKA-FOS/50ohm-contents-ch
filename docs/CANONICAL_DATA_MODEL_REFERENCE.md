@@ -956,7 +956,7 @@ This reference does not treat the following as canonical source of truth:
 
 - generated site output under `work/build/`;
 - transient generator input staging under `work/generator-input/`;
-- translation run caches under `ai-translation-tool/work/ai_output/`.
+- translation run caches under `50ohm-ai-translation-tool/work/ai_output/`.
 
 Those artifacts may depend on the canonical model, but they are not part of
 the model itself.
