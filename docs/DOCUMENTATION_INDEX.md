@@ -19,7 +19,7 @@ contextual support, or a candidate for later cleanup.
 | [CANONICAL_DATA_MODEL_REFERENCE.md](./CANONICAL_DATA_MODEL_REFERENCE.md) | authoritative description of the current canonical Git model and SQLite counterpart | current reference |
 | [CANONICAL_USE_CASES_AND_WORKFLOWS.md](./CANONICAL_USE_CASES_AND_WORKFLOWS.md) | authoritative description of current use cases and workflows | current reference |
 | [DOCUMENTATION_INDEX.md](./DOCUMENTATION_INDEX.md) | entry point and status index for documentation | current reference |
-| [GENERATOR_EXTRA_CONTENT_MIGRATION_REFERENCE.md](./GENERATOR_EXTRA_CONTENT_MIGRATION_REFERENCE.md) | reference for the temporary generator-owned multilingual content layer and its current source-driven generation model | current reference |
+| [GENERATOR_EXTRA_CONTENT_MIGRATION_REFERENCE.md](./GENERATOR_EXTRA_CONTENT_MIGRATION_REFERENCE.md) | reference for the temporary generator-owned multilingual content layer, its migration boundary, and what still remains inside the generator | current reference |
 | [VALIDATION_LOG.md](./VALIDATION_LOG.md) | records validation findings, rules derived from validation, and operational validation evidence | contextual |
 | [MAPPING_MATRIX.md](./MAPPING_MATRIX.md) | source-to-model mapping aid, especially for import coverage and marker families | contextual |
 | [GLOBAL_CANONICAL_MODEL.md](./GLOBAL_CANONICAL_MODEL.md) | older broad conceptual note about the global model scope | candidate for cleanup |

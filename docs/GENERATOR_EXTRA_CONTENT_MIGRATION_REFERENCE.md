@@ -24,6 +24,34 @@ This temporary layer exists to produce correct multilingual sites now, without
 mixing additional generator-owned structures into the canonical business model
 before that model is fully stabilized.
 
+## Current Status
+
+The current migration is intentionally partial.
+
+What is already true:
+
+- the validated multilingual build keeps the current rendered output stable;
+- the migrated generator-owned UI families are resolved at generation time
+  from `generator_extra_content`;
+- the build no longer relies on a post-build translation patch for those
+  migrated families.
+
+What is not yet true:
+
+- the generator is not yet a fully minimal shell containing only pure build
+  mechanics;
+- German fallback strings and some generator-owned page bodies still exist in
+  `translator/50ohm-generator/`;
+- that remaining material is still part of the generator source tree, even
+  when the current build is already overridden by localized resources.
+
+This document therefore describes a controlled intermediate state:
+
+- output behavior is stabilized;
+- multilingual generator-owned content is being isolated;
+- remaining cleanup work is still explicitly visible and must not be confused
+  with canonical business content.
+
 ## What `generator_extra_content` Is
 
 `generator_extra_content` is not a business-object repository.
@@ -43,6 +71,13 @@ Typical resource types:
 - `labels.json`: language-dependent UI strings consumed by templates;
 - `templates/...`: language-specific template fragments or full template
   overrides for generator-injected pages.
+
+Current checked-in resources are:
+
+- `generator_extra_content/{de,fr,it}/labels.json`
+- `generator_extra_content/{de,fr,it}/templates/slide/help.html`
+- `generator_extra_content/{de,fr,it}/templates/slide/next.html`
+- `generator_extra_content/{fr,it}/templates/html/index.html`
 
 ## Current Build Rule
 
@@ -160,6 +195,77 @@ The German base template remains in:
 
 - `translator/50ohm-generator/templates/html/index.html`
 
+### D. Slide Help and Slide Navigation Fragments
+
+The reveal.js help and next-page fragments are now provided through localized
+template overrides:
+
+- `50ohm-contents-ch/generator_extra_content/de/templates/slide/help.html`
+- `50ohm-contents-ch/generator_extra_content/fr/templates/slide/help.html`
+- `50ohm-contents-ch/generator_extra_content/it/templates/slide/help.html`
+- `50ohm-contents-ch/generator_extra_content/de/templates/slide/next.html`
+- `50ohm-contents-ch/generator_extra_content/fr/templates/slide/next.html`
+- `50ohm-contents-ch/generator_extra_content/it/templates/slide/next.html`
+
+The German templates still also exist inside the generator as defaults:
+
+- `translator/50ohm-generator/templates/slide/help.html`
+- `translator/50ohm-generator/templates/slide/next.html`
+
+## What Still Remains Inside the Generator
+
+The generator still contains user-visible text in three different forms.
+
+### 1. Active fallback labels
+
+Some templates and renderers still carry German fallback literals, for
+example `Abbildung`, `Tabelle`, `Tipp`, `Neue Einheit`, or `Vertiefung`.
+
+Current role:
+
+- they are technical fallbacks if `generator_extra_content` is missing or
+  incomplete;
+- they are not intended to be the authoritative multilingual source.
+
+### 2. Generator-owned base templates
+
+Some generator pages still exist in German in the generator repository and are
+then selectively overridden by `generator_extra_content`.
+
+Examples:
+
+- `translator/50ohm-generator/templates/html/index.html`
+- `translator/50ohm-generator/templates/slide/help.html`
+- `translator/50ohm-generator/templates/slide/next.html`
+
+Current role:
+
+- German base implementation;
+- fallback source for languages that do not provide an override;
+- temporary location for generator-owned content that has not yet been fully
+  externalized.
+
+### 3. Non-runtime documentation, tests, and comments
+
+German text also remains in generator documentation, tests, CSS comments, and
+LaTeX helper files.
+
+These are not part of the multilingual site-content migration boundary unless
+they directly affect generated runtime output.
+
+## Boundary Rule
+
+The migration rule is not "move every German string out of the repository."
+
+The actual rule is:
+
+- move generator-owned multilingual runtime content out of hard-coded
+  generator paths into language-scoped resources where practical;
+- keep pure technical fallbacks allowed for now, as long as the validated
+  builds remain correct;
+- do not move canonical business objects into `generator_extra_content`;
+- do not silently invent a second content model inside the generator.
+
 ## Current Validation Result
 
 Current multilingual validation shows that `fr` and `it` UI generation works
@@ -169,9 +275,11 @@ Current validation reports indicate:
 
 - the generated sites build successfully for `fr` and `it`
 - the migrated UI families are produced directly at generation time
+- the validated reference build currently remains at `0 diff` against the
+  accepted local baseline when rebuilt with the same inputs
 
 This means the current system works and the UI layer is now produced directly
-from source-level localization.
+from source-level localization for the migrated families.
 
 ## Operational Consequence
 
@@ -200,5 +308,6 @@ For project discussion, the current position can be summarized as follows:
   and `it`;
 - the previous UI patch scope for `fr` and `it` has been migrated to
   source-time generation;
-- the remaining work in this area is cleanup or later model refactoring, not
-  additional UI translation migration.
+- the remaining work in this area is explicit cleanup of remaining
+  generator-resident runtime content or later migration of that content into
+  canonical objects once the model is ready.

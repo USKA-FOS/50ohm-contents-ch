@@ -103,7 +103,10 @@ run-specific directory under `work/validation/multilingual/runs/<run-id>/`.
 
 Generator-owned multilingual UI content is now consumed directly from
 `generator_extra_content/{de,fr,it}/` by `translator/50ohm-generator/`. The build no longer
-applies a post-build HTML patch layer for `fr` and `it`.
+applies a post-build HTML patch layer for the migrated `fr` and `it` UI
+families. German fallback strings may still remain inside the generator as
+technical defaults, but they are no longer the intended multilingual source
+for those migrated families.
 
 The SQLite database is runtime-only. It is deleted and rebuilt from the Git
 canonical model at the start of each run; no previous SQLite state is read or
