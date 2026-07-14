@@ -28,6 +28,7 @@ DB_PATH = CONTENT_REPO / "work" / "canonical_model" / "content_model.sqlite"
 DB_STATE_PATH = CONTENT_REPO / "work" / "canonical_model" / "content_model.state.json"
 INPUT_ROOT = CONTENT_REPO / "work" / "generator-input"
 BUILD_ROOT = CONTENT_REPO / "work" / "build"
+REVIEW_BUILD_ROOT = WORKSPACE_ROOT / "sites" / "app" / "build"
 VALIDATION_ROOT = CONTENT_REPO / "work" / "validation" / "multilingual"
 LOCK_ROOT = CONTENT_REPO / "work" / "locks"
 GENERATOR_EXTRA_CONTENT_ROOT = CONTENT_REPO / "generator_extra_content"
@@ -706,6 +707,15 @@ def build_config(input_root: Path, output_root: Path, *, generator_seed: int) ->
     }
 
 
+def sync_review_build(language: str, output_root: Path) -> Path:
+    target_root = REVIEW_BUILD_ROOT / language
+    target_root.parent.mkdir(parents=True, exist_ok=True)
+    if target_root.exists():
+        shutil.rmtree(target_root)
+    shutil.copytree(output_root, target_root)
+    return target_root
+
+
 def run_generator(language: str, *, validation_root: Path, generator_seed: int) -> dict[str, Any]:
     validation_root.mkdir(parents=True, exist_ok=True)
     runner_root = validation_root / f"generator-{language}"
@@ -730,11 +740,17 @@ def run_generator(language: str, *, validation_root: Path, generator_seed: int) 
     )
     log_path = validation_root / f"{language}.log"
     log_path.write_text(completed.stdout, encoding="utf-8")
+    if completed.returncode != 0:
+        raise RuntimeError(
+            f"Generator build failed for {language}; see log {log_path}"
+        )
+    review_output_root = sync_review_build(language, output_root)
     return {
         "exit_code": completed.returncode,
         "log": str(log_path),
         "output_root": str(output_root),
         "output_files": len(path_manifest(output_root)),
+        "review_output_root": str(review_output_root),
         "generator_seed": generator_seed,
         "ui_patch": None,
     }

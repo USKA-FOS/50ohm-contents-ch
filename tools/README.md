@@ -97,7 +97,8 @@ python3 tools/run_multilingual_canonical_build.py --generator-seed 123
 This command imports `canonical/` into `work/canonical_model/content_model.sqlite`,
 stages three generator inputs under `work/generator-input/{de,fr,it}`, injects
 question catalogs from `../50ohm-question-pool/builds/{language}/`, runs the
-generator into `work/build/{de,fr,it}`, and writes a comparison report to a
+generator into `work/build/{de,fr,it}`, mirrors each successful build into
+`../sites/app/build/{de,fr,it}` for local review, and writes a comparison report to a
 run-specific directory under `work/validation/multilingual/runs/<run-id>/`.
 
 Generator-owned multilingual UI content is now consumed directly from
