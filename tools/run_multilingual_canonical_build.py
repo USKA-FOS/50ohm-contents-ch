@@ -580,15 +580,6 @@ def source_rationales() -> tuple[dict[str, Any], dict[str, Any]]:
 
 
 def stage_questions(target_root: Path, language: str) -> dict[str, Any]:
-    if language == "de":
-        source_build = QUESTION_POOL_REPO / "builds" / language / f"question_pool_rev0_ch-{language}.json"
-        payload = load_json(source_build)
-        question_count = sum(1 for _ in iter_questions(payload))
-        return {
-            "question_catalog": str(source_build),
-            "questions": question_count,
-            "usage": [],
-        }
     questions_dir = target_root / "contents" / "questions"
     questions_dir.mkdir(parents=True, exist_ok=True)
     source_build = QUESTION_POOL_REPO / "builds" / language / f"question_pool_rev0_ch-{language}.json"
