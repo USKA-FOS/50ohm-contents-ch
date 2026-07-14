@@ -84,6 +84,16 @@ Current transitional state:
 python3 tools/run_multilingual_canonical_build.py
 ```
 
+By default this orchestration uses a fixed generator seed (`50`) so repeated
+validation builds remain comparable even when the site generator shuffles
+embedded question answers.
+
+To override that seed explicitly:
+
+```bash
+python3 tools/run_multilingual_canonical_build.py --generator-seed 123
+```
+
 This command imports `canonical/` into `work/canonical_model/content_model.sqlite`,
 stages three generator inputs under `work/generator-input/{de,fr,it}`, injects
 question catalogs from `../50ohm-question-pool/builds/{language}/`, runs the

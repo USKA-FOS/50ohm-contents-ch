@@ -32,6 +32,7 @@ VALIDATION_ROOT = CONTENT_REPO / "work" / "validation" / "multilingual"
 LOCK_ROOT = CONTENT_REPO / "work" / "locks"
 GENERATOR_EXTRA_CONTENT_ROOT = CONTENT_REPO / "generator_extra_content"
 LANGUAGES = ("de", "fr", "it")
+DEFAULT_GENERATOR_SEED = 50
 OBJECT_FAMILY_DIRECTORIES = {
     "section_article": "sections",
     "slide_article": "slides",
@@ -692,17 +693,18 @@ def stage_language(
     }
 
 
-def build_config(input_root: Path, output_root: Path) -> dict[str, str]:
+def build_config(input_root: Path, output_root: Path, *, generator_seed: int) -> dict[str, Any]:
     return {
         "input": str(input_root),
         "questions": "fragenkatalog_ch.json",
         "questions_upstream": "fragenkatalog_4pre.json",
         "repo_base_url": "https://github.com/USKA-FOS/50ohm-contents-ch",
         "output": str(output_root),
+        "random_seed": generator_seed,
     }
 
 
-def run_generator(language: str, *, validation_root: Path) -> dict[str, Any]:
+def run_generator(language: str, *, validation_root: Path, generator_seed: int) -> dict[str, Any]:
     validation_root.mkdir(parents=True, exist_ok=True)
     runner_root = validation_root / f"generator-{language}"
     output_root = BUILD_ROOT / language
@@ -712,7 +714,10 @@ def run_generator(language: str, *, validation_root: Path) -> dict[str, Any]:
     if output_root.exists():
         shutil.rmtree(output_root)
     shutil.copytree(GENERATOR_ROOT, runner_root, ignore=shutil.ignore_patterns(".git", "__pycache__", ".venv"))
-    write_json(runner_root / "config" / "config.json", build_config(INPUT_ROOT / language, output_root))
+    write_json(
+        runner_root / "config" / "config.json",
+        build_config(INPUT_ROOT / language, output_root, generator_seed=generator_seed),
+    )
     completed = subprocess.run(
         ["uv", "run", "python3", "build.py"],
         cwd=runner_root,
@@ -728,6 +733,7 @@ def run_generator(language: str, *, validation_root: Path) -> dict[str, Any]:
         "log": str(log_path),
         "output_root": str(output_root),
         "output_files": len(path_manifest(output_root)),
+        "generator_seed": generator_seed,
         "ui_patch": None,
     }
 
@@ -758,7 +764,12 @@ def compare_outputs(builds: dict[str, dict[str, Any]], languages: tuple[str, ...
     return result
 
 
-def run(*, skip_build: bool = False, languages: tuple[str, ...] = LANGUAGES) -> dict[str, Any]:
+def run(
+    *,
+    skip_build: bool = False,
+    languages: tuple[str, ...] = LANGUAGES,
+    generator_seed: int = DEFAULT_GENERATOR_SEED,
+) -> dict[str, Any]:
     reset_runtime_state()
     run_id = make_run_id(languages)
     run_validation_root = validation_run_root(run_id)
@@ -776,7 +787,11 @@ def run(*, skip_build: bool = False, languages: tuple[str, ...] = LANGUAGES) -> 
                 validation_root=run_validation_root,
             )
             if not skip_build:
-                builds[language] = run_generator(language, validation_root=run_validation_root)
+                builds[language] = run_generator(
+                    language,
+                    validation_root=run_validation_root,
+                    generator_seed=generator_seed,
+                )
     connection.close()
     comparison = compare_outputs(builds, languages) if builds else {}
     report = {
@@ -788,6 +803,7 @@ def run(*, skip_build: bool = False, languages: tuple[str, ...] = LANGUAGES) -> 
         "database_reused": db_info["reused"],
         "database_reason": db_info["reason"],
         "database_state": db_info["state"],
+        "generator_seed": generator_seed,
         "staged": staged,
         "builds": builds,
         "comparison": comparison,
@@ -800,13 +816,26 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--skip-build", action="store_true")
     parser.add_argument(
+        "--generator-seed",
+        type=int,
+        default=DEFAULT_GENERATOR_SEED,
+        help=(
+            "Deterministic seed passed to the site generator for answer shuffling. "
+            f"Defaults to {DEFAULT_GENERATOR_SEED} for reproducible validation builds."
+        ),
+    )
+    parser.add_argument(
         "--language",
         choices=LANGUAGES,
         help="Limit staging and build to a single language.",
     )
     args = parser.parse_args()
     languages = (args.language,) if args.language else LANGUAGES
-    report = run(skip_build=args.skip_build, languages=languages)
+    report = run(
+        skip_build=args.skip_build,
+        languages=languages,
+        generator_seed=args.generator_seed,
+    )
     print(json.dumps(report, indent=2, ensure_ascii=False))
 
 
