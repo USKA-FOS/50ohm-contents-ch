@@ -571,7 +571,9 @@ def iter_questions(payload: dict[str, Any]):
 
 
 def source_rationales() -> tuple[dict[str, Any], dict[str, Any]]:
-    source = load_json(SOURCE_INPUT / "contents" / "questions" / "fragenkatalog_ch.json")
+    source = load_json(
+        QUESTION_POOL_REPO / "builds" / "de" / "question_pool_rev0_ch-de.json"
+    )
     rationales = {question["number"]: question.get("HB.rationale") for question in iter_questions(source)}
     return rationales, deepcopy(source.get("pruned", {}))
 
