@@ -17,7 +17,7 @@ CONTENT_REPO = Path(__file__).resolve().parent.parent
 WORKSPACE_ROOT = CONTENT_REPO.parents[1]
 SOURCE_INPUT = WORKSPACE_ROOT / "translator" / "site-original" / "app" / "50ohm-contents-ch"
 APP_ROOT = WORKSPACE_ROOT / "translator" / "sites" / "app"
-GENERATOR_ROOT = APP_ROOT / "generator"
+GENERATOR_ROOT = WORKSPACE_ROOT / "translator" / "50ohm-generator"
 SOURCE_OUTPUT = APP_ROOT / "build" / "de"
 RECONSTRUCTED_INPUT = CONTENT_REPO / "work" / "site-content"
 STAGED_RECONSTRUCTED_INPUT = CONTENT_REPO / "work" / "generator-input" / "de"
@@ -109,7 +109,7 @@ def run_build(label: str, input_root: Path, output_root: Path) -> tuple[int, Pat
     if runner_root.exists():
         shutil.rmtree(runner_root)
     # Run from a private generator copy so an interrupted validation can never
-    # leave translator/sites/app/generator/config/config.json altered.
+    # leave translator/50ohm-generator/config/config.json altered.
     shutil.copytree(GENERATOR_ROOT, runner_root, ignore=shutil.ignore_patterns(".git", "__pycache__", ".venv"))
     (runner_root / "config" / "config.json").write_text(
         json.dumps(build_config(input_root, output_root), indent=2) + "\n", encoding="utf-8"

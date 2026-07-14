@@ -91,7 +91,7 @@ generator into `work/build/{de,fr,it}`, and writes a comparison report to a
 run-specific directory under `work/validation/multilingual/runs/<run-id>/`.
 
 Generator-owned multilingual UI content is now consumed directly from
-`generator_extra_content/{de,fr,it}/` by `translator/sites/app/generator/`. The build no longer
+`generator_extra_content/{de,fr,it}/` by `translator/50ohm-generator/`. The build no longer
 applies a post-build HTML patch layer for `fr` and `it`.
 
 The SQLite database is runtime-only. It is deleted and rebuilt from the Git

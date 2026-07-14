@@ -17,7 +17,7 @@ The current strategy is:
 - keep canonical business content in the canonical model;
 - move generator-owned multilingual content into
   `generator_extra_content/{de,fr,it}/`;
-- make the generator branch in `translator/sites/app/generator/` consume those resources directly;
+- make the generator branch in `translator/50ohm-generator/` consume those resources directly;
 - keep generation source-driven rather than patch-driven.
 
 This temporary layer exists to produce correct multilingual sites now, without
@@ -36,7 +36,7 @@ input tree during build:
 - staged build location:
   `50ohm-contents-ch/work/generator-input/<lang>/generator_extra_content/`
 - consumer:
-  `translator/sites/app/generator/`
+  `translator/50ohm-generator/`
 
 Typical resource types:
 
@@ -136,9 +136,9 @@ These are now generated from localized labels and no longer require patching.
 
 Current authoritative generator sources:
 
-- `translator/sites/app/generator/templates/html/question.html`
-- `translator/sites/app/generator/templates/html/solution.html`
-- `translator/sites/app/generator/templates/html/solution_question.html`
+- `translator/50ohm-generator/templates/html/question.html`
+- `translator/50ohm-generator/templates/html/solution.html`
+- `translator/50ohm-generator/templates/html/solution_question.html`
 
 ### B. Review-widget Alert Messages
 
@@ -146,8 +146,8 @@ These are now generated from localized labels and no longer require patching.
 
 Current authoritative generator sources:
 
-- `translator/sites/app/generator/templates/html/section-review-widget.html`
-- `translator/sites/app/generator/templates/html/chapter-review-widget.html`
+- `translator/50ohm-generator/templates/html/section-review-widget.html`
+- `translator/50ohm-generator/templates/html/chapter-review-widget.html`
 
 ### C. Index Page Content
 
@@ -158,7 +158,7 @@ The landing page is now localized through language-specific template overrides:
 
 The German base template remains in:
 
-- `translator/sites/app/generator/templates/html/index.html`
+- `translator/50ohm-generator/templates/html/index.html`
 
 ## Current Validation Result
 

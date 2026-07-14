@@ -35,7 +35,7 @@ zero missing or mismatched properties across all seven TOC files.
 
 ## German Review-Site Build
 
-Procedure run from `translator/sites/app/generator`:
+Procedure run from `translator/50ohm-generator`:
 
 ```bash
 ./build_local_review_site.sh de
