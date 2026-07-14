@@ -24,13 +24,23 @@ This temporary layer exists to produce correct multilingual sites now, without
 mixing additional generator-owned structures into the canonical business model
 before that model is fully stabilized.
 
+The target of this sanitation work is not "zero diff" at any cost.
+
+The real target is:
+
+- generator-visible multilingual runtime content must no longer be authored in
+  the generator source tree;
+- migrated content must be owned by localized resources outside the generator;
+- intentional output differences are acceptable when they correct previously
+  wrong German-only or partially localized pages.
+
 ## Current Status
 
 The current migration is intentionally partial.
 
 What is already true:
 
-- the validated multilingual build keeps the current rendered output stable;
+- the validated multilingual build keeps the rendered output under control;
 - the migrated generator-owned UI families are resolved at generation time
   from `generator_extra_content`;
 - the build no longer relies on a post-build translation patch for those
@@ -40,14 +50,15 @@ What is not yet true:
 
 - the generator is not yet a fully minimal shell containing only pure build
   mechanics;
-- German fallback strings and some generator-owned page bodies still exist in
+- some technical fallbacks and loader structures still exist in
   `translator/50ohm-generator/`;
-- that remaining material is still part of the generator source tree, even
-  when the current build is already overridden by localized resources.
+- that remaining material is still part of the generator source tree and must
+  continue to shrink until runtime-visible multilingual content is fully owned
+  by localized resources.
 
 This document therefore describes a controlled intermediate state:
 
-- output behavior is stabilized;
+- output behavior is stabilized enough to validate the migration;
 - multilingual generator-owned content is being isolated;
 - remaining cleanup work is still explicitly visible and must not be confused
   with canonical business content.
@@ -77,7 +88,11 @@ Current checked-in resources are:
 - `generator_extra_content/{de,fr,it}/labels.json`
 - `generator_extra_content/{de,fr,it}/templates/slide/help.html`
 - `generator_extra_content/{de,fr,it}/templates/slide/next.html`
-- `generator_extra_content/{fr,it}/templates/html/index.html`
+- `generator_extra_content/{de,fr,it}/templates/html/index.html`
+- `generator_extra_content/{de,fr,it}/templates/html/kurse-liste.html`
+- `generator_extra_content/{de,fr,it}/templates/html/kurse-karte.html`
+- `generator_extra_content/{de,fr,it}/templates/html/patenkarte.html`
+- `generator_extra_content/{de,fr,it}/templates/html/todo.html`
 
 ## Current Build Rule
 
@@ -91,6 +106,13 @@ During multilingual build:
 
 The intended end state is that generator-owned multilingual strings are solved
 at generation time and not rewritten afterward by string replacement.
+
+The migration validation rule is therefore:
+
+- no unintended regressions;
+- no new generator-owned multilingual runtime text in the generator;
+- intentional diffs are acceptable when they replace previously incorrect
+  output with the localized authoritative version.
 
 ## What Has Already Left the Patch Layer
 
@@ -188,14 +210,28 @@ Current authoritative generator sources:
 
 The landing page is now localized through language-specific template overrides:
 
+- `50ohm-contents-ch/generator_extra_content/de/templates/html/index.html`
 - `50ohm-contents-ch/generator_extra_content/fr/templates/html/index.html`
 - `50ohm-contents-ch/generator_extra_content/it/templates/html/index.html`
 
-The German base template remains in:
+### D. Generator-Owned Utility Pages
 
-- `translator/50ohm-generator/templates/html/index.html`
+The following generated pages are now also localized through
+`generator_extra_content` for all three languages:
 
-### D. Slide Help and Slide Navigation Fragments
+- `kurse_vor_ort_liste.html`
+- `kurse_vor_ort_karte.html`
+- `patenkarte.html`
+- `todo.html`
+
+Their authoritative sources are:
+
+- `generator_extra_content/{de,fr,it}/templates/html/kurse-liste.html`
+- `generator_extra_content/{de,fr,it}/templates/html/kurse-karte.html`
+- `generator_extra_content/{de,fr,it}/templates/html/patenkarte.html`
+- `generator_extra_content/{de,fr,it}/templates/html/todo.html`
+
+### E. Slide Help and Slide Navigation Fragments
 
 The reveal.js help and next-page fragments are now provided through localized
 template overrides:
@@ -207,43 +243,38 @@ template overrides:
 - `50ohm-contents-ch/generator_extra_content/fr/templates/slide/next.html`
 - `50ohm-contents-ch/generator_extra_content/it/templates/slide/next.html`
 
-The German templates still also exist inside the generator as defaults:
-
-- `translator/50ohm-generator/templates/slide/help.html`
-- `translator/50ohm-generator/templates/slide/next.html`
-
 ## What Still Remains Inside the Generator
 
-The generator still contains user-visible text in three different forms.
+The generator should now be understood as a runtime consumer of localized
+resources, not as the authority for multilingual page content.
 
-### 1. Active fallback labels
+What may still remain inside the generator is limited to the following:
 
-Some templates and renderers still carry German fallback literals, for
-example `Abbildung`, `Tabelle`, `Tipp`, `Neue Einheit`, or `Vertiefung`.
+### 1. Technical fallback behavior
+
+Some templates, renderers, or code paths may still carry fallback behavior for
+defensive execution if localized resources are missing.
 
 Current role:
 
-- they are technical fallbacks if `generator_extra_content` is missing or
-  incomplete;
+- they are technical safeguards, not authoritative content;
+- they must not be treated as the source for normal multilingual builds;
+- if a user-visible runtime text is still effectively owned there, that is a
+  cleanup gap to remove.
 - they are not intended to be the authoritative multilingual source.
 
-### 2. Generator-owned base templates
+### 2. Non-authoritative runtime stubs
 
-Some generator pages still exist in German in the generator repository and are
-then selectively overridden by `generator_extra_content`.
-
-Examples:
-
-- `translator/50ohm-generator/templates/html/index.html`
-- `translator/50ohm-generator/templates/slide/help.html`
-- `translator/50ohm-generator/templates/slide/next.html`
+The generator still contains template files at the original paths, but these
+now act only as non-authoritative stubs documenting that the real runtime
+content lives in `generator_extra_content`.
 
 Current role:
 
-- German base implementation;
-- fallback source for languages that do not provide an override;
-- temporary location for generator-owned content that has not yet been fully
-  externalized.
+- preserve the template path contract expected by the generator;
+- keep runtime authority outside `50ohm-generator`;
+- make it explicit that these templates must not become a second source of
+  multilingual page content.
 
 ### 3. Non-runtime documentation, tests, and comments
 
@@ -268,18 +299,21 @@ The actual rule is:
 
 ## Current Validation Result
 
-Current multilingual validation shows that `fr` and `it` UI generation works
-without any post-build UI patch step.
+Current multilingual validation shows that `de`, `fr`, and `it` UI generation
+works without any post-build UI patch step.
 
 Current validation reports indicate:
 
-- the generated sites build successfully for `fr` and `it`
-- the migrated UI families are produced directly at generation time
-- the validated reference build currently remains at `0 diff` against the
-  accepted local baseline when rebuilt with the same inputs
+- the generated sites build successfully for `de`, `fr`, and `it`
+- the migrated UI families and generator-owned utility pages are produced
+  directly at generation time
+- differences against an older accepted baseline must now be interpreted,
+  not blindly rejected, because some previous pages were themselves wrong or
+  incompletely localized
 
-This means the current system works and the UI layer is now produced directly
-from source-level localization for the migrated families.
+This means the current system works and the runtime generator-owned text layer
+is now produced directly from source-level localization for the migrated
+families.
 
 ## Operational Consequence
 
@@ -306,8 +340,7 @@ For project discussion, the current position can be summarized as follows:
   `generator_extra_content`;
 - the forked generator now consumes these resources directly for `de`, `fr`,
   and `it`;
-- the previous UI patch scope for `fr` and `it` has been migrated to
-  source-time generation;
+- the previous UI patch scope has been migrated to source-time generation;
 - the remaining work in this area is explicit cleanup of remaining
   generator-resident runtime content or later migration of that content into
   canonical objects once the model is ready.

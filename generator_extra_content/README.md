@@ -27,9 +27,11 @@ Important scope rule:
 
 Current migration state:
 
-- some runtime UI and generator-owned page fragments already come from this
-  directory;
-- the generator still contains German fallback strings and base templates for
-  some of those same families;
-- this is intentional for now and must be documented as a partial migration,
-  not mistaken for a fully cleaned generator.
+- generator-owned runtime pages and fragments now come from this directory for
+  `de`, `fr`, and `it`;
+- the generator still contains technical loader stubs and label lookups, but
+  the authoritative runtime text no longer belongs in `50ohm-generator`;
+- validation is based on correct localized output, not on preserving old wrong
+  pages unchanged;
+- if a new generated page or fragment introduces visible text, that text must
+  be added here rather than directly to the generator.
