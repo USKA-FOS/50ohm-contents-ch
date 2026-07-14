@@ -32,6 +32,7 @@ REVIEW_BUILD_ROOT = WORKSPACE_ROOT / "sites" / "app" / "build"
 VALIDATION_ROOT = CONTENT_REPO / "work" / "validation" / "multilingual"
 LOCK_ROOT = CONTENT_REPO / "work" / "locks"
 GENERATOR_EXTRA_CONTENT_ROOT = CONTENT_REPO / "generator_extra_content"
+EDITION_ROOT = CONTENT_REPO / "canonical" / "structure" / "editions"
 LANGUAGES = ("de", "fr", "it")
 DEFAULT_GENERATOR_SEED = 50
 OBJECT_FAMILY_DIRECTORIES = {
@@ -523,12 +524,40 @@ def apply_node_text(payload: dict[str, Any], text: dict[str, str | None] | None)
         payload["abstract"] = text["abstract"]
 
 
-def overlay_toc_texts(connection: sqlite3.Connection, target_root: Path, language: str) -> dict[str, Any]:
-    if language == "de":
-        return {"written_files": 0, "usage": []}
-    node_texts = localized_node_texts(connection, language)
+def stage_toc_files(target_root: Path, language: str) -> dict[str, Any]:
+    toc_root = target_root / "toc"
+    toc_root.mkdir(parents=True, exist_ok=True)
     written = 0
     usage: list[dict[str, Any]] = []
+    for edition_dir in sorted(EDITION_ROOT.iterdir()):
+        if not edition_dir.is_dir():
+            continue
+        edition_meta = load_json(edition_dir / "edition.meta.json")
+        source_path = edition_dir / f"edition.{language}.json"
+        if not source_path.exists():
+            source_path = edition_dir / "edition.de.json"
+        target_path = toc_root / f"{edition_meta['edition']}.json"
+        write_json(target_path, load_json(source_path))
+        append_usage(
+            usage,
+            path=str(target_path.relative_to(target_root)),
+            action="overwritten_from_canonical",
+            origin="curriculum_root",
+            object_id=str(edition_meta["id"]),
+            object_type=str(edition_meta["node_type"]),
+            slot_keys=["title", "abstract"],
+        )
+        written += 1
+    return {"written_files": written, "usage": usage}
+
+
+def overlay_toc_texts(connection: sqlite3.Connection, target_root: Path, language: str) -> dict[str, Any]:
+    staged = stage_toc_files(target_root, language)
+    if language == "de":
+        return staged
+    node_texts = localized_node_texts(connection, language)
+    written = staged["written_files"]
+    usage: list[dict[str, Any]] = list(staged["usage"])
     for toc_path in sorted((target_root / "toc").glob("*.json")):
         source_path = str(toc_path.relative_to(target_root))
         children = children_by_parent(connection, source_path)
