@@ -2,21 +2,16 @@ from __future__ import annotations
 
 import json
 import sqlite3
-from hashlib import sha256
 from pathlib import Path
 from typing import Any, Iterable
 
-from build_content_model_db import Builder, ReferenceTarget, split_description_text, stable_id
+from build_content_model_db import Builder, ReferenceTarget, split_description_text
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CANONICAL_ROOT = REPO_ROOT / "canonical"
 SUPPORT_ROOT = REPO_ROOT / "work" / "canonical_support"
 DB_PATH = REPO_ROOT / "work" / "canonical_model" / "content_model.sqlite"
-CONTENTS_ROOT = REPO_ROOT / "contents"
-TOC_ROOT = REPO_ROOT / "toc"
-LEGAL_FILES = ("README.md", "LICENSE")
-SUPPORT_DIRECTORIES = ("latex", "src")
 OBJECT_FAMILY_DIRECTORIES = (
     "sections",
     "slides",
@@ -58,44 +53,6 @@ def storage_files_with_fallback(directory: Path, files: dict[str, str] | None) -
             if language not in resolved and candidate_path.exists():
                 resolved[language] = candidate_name
     return resolved
-
-
-def import_source_artifacts_from_repo(connection: sqlite3.Connection) -> None:
-    source_paths = [
-        path
-        for root in (CONTENTS_ROOT, TOC_ROOT, *(REPO_ROOT / name for name in SUPPORT_DIRECTORIES))
-        if root.exists()
-        for path in sorted(root.rglob("*"))
-        if path.is_file()
-    ]
-    for name in LEGAL_FILES:
-        path = REPO_ROOT / name
-        if path.exists():
-            source_paths.append(path)
-
-    objects_by_path = {
-        row["source_path"]: row["id"]
-        for row in connection.execute(
-            "SELECT id, source_path FROM content_object WHERE source_path IS NOT NULL"
-        )
-    }
-    for path in sorted(source_paths, key=lambda item: str(item.relative_to(REPO_ROOT))):
-        relative_path = str(path.relative_to(REPO_ROOT))
-        payload = path.read_bytes()
-        connection.execute(
-            """
-            INSERT INTO source_artifact(id, object_id, source_path, media_type, checksum_sha256, payload)
-            VALUES (?, ?, ?, ?, ?, ?)
-            """,
-            (
-                stable_id("artifact", relative_path),
-                objects_by_path.get(relative_path),
-                relative_path,
-                path.suffix.lstrip(".") or "plain",
-                sha256(payload).hexdigest(),
-                payload,
-            ),
-        )
 
 
 def import_source_artifacts_from_support(connection: sqlite3.Connection) -> bool:
@@ -297,8 +254,7 @@ def build_database() -> dict[str, int]:
 
         insert_node(edition_payload, None)
 
-    if not import_source_artifacts_from_support(connection):
-        import_source_artifacts_from_repo(connection)
+    import_source_artifacts_from_support(connection)
 
     connection.commit()
     connection.execute("PRAGMA foreign_keys = ON")

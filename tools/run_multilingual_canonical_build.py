@@ -23,8 +23,6 @@ CONTENT_REPO = Path(__file__).resolve().parent.parent
 WORKSPACE_ROOT = CONTENT_REPO.parent
 QUESTION_POOL_REPO = CONTENT_REPO.parent / "50ohm-question-pool"
 GENERATOR_ROOT = WORKSPACE_ROOT / "50ohm-generator"
-SOURCE_INPUT = WORKSPACE_ROOT / "site-original" / "app" / "50ohm-contents-ch"
-SUPPORT_ROOT = CONTENT_REPO / "work" / "canonical_support"
 DB_PATH = CONTENT_REPO / "work" / "canonical_model" / "content_model.sqlite"
 DB_STATE_PATH = CONTENT_REPO / "work" / "canonical_model" / "content_model.state.json"
 INPUT_ROOT = CONTENT_REPO / "work" / "generator-input"
@@ -156,31 +154,10 @@ def importer_signature() -> str:
     return digest.hexdigest()
 
 
-def support_artifact_signature() -> str:
-    manifest_path = SUPPORT_ROOT / "artifacts.manifest.json"
-    digest = sha256()
-    if not manifest_path.exists():
-        digest.update(b"missing")
-        return digest.hexdigest()
-    manifest_bytes = manifest_path.read_bytes()
-    digest.update(manifest_bytes)
-    manifest = json.loads(manifest_bytes.decode("utf-8"))
-    for artifact in manifest:
-        payload_path = SUPPORT_ROOT / str(artifact["payload_path"])
-        digest.update(str(artifact["source_path"]).encode("utf-8"))
-        digest.update(str(artifact.get("checksum_sha256", "")).encode("utf-8"))
-        if payload_path.exists():
-            digest.update(payload_path.read_bytes())
-        else:
-            digest.update(b"missing-payload")
-    return digest.hexdigest()
-
-
 def current_db_state() -> dict[str, Any]:
     return {
         "canonical_tree_hash": canonical_tree_hash(),
         "importer_signature": importer_signature(),
-        "support_artifact_signature": support_artifact_signature(),
     }
 
 
@@ -197,8 +174,6 @@ def should_rebuild_database() -> tuple[bool, str, dict[str, Any]]:
         return True, "canonical_changed", state
     if previous_state.get("importer_signature") != state["importer_signature"]:
         return True, "importer_changed", state
-    if previous_state.get("support_artifact_signature") != state["support_artifact_signature"]:
-        return True, "support_artifacts_changed", state
     return False, "reused", state
 
 
@@ -350,6 +325,8 @@ def overlay_object_texts(connection: sqlite3.Connection, target_root: Path, lang
                 text = payload[slot_key]
                 break
         if source_path and text is not None:
+            target_path = target_root / source_path
+            target_path.parent.mkdir(parents=True, exist_ok=True)
             append_usage(
                 usage,
                 path=str(source_path),
@@ -359,7 +336,7 @@ def overlay_object_texts(connection: sqlite3.Connection, target_root: Path, lang
                 object_type=str(object_type),
                 slot_keys=sorted(payload.get("slot_keys", [])),
             )
-            (target_root / source_path).write_text(text, encoding="utf-8")
+            target_path.write_text(text, encoding="utf-8")
             written += 1
             continue
         if object_type in {"photo", "drawing"} and payload.get("source_key"):
@@ -409,6 +386,7 @@ def overlay_object_texts(connection: sqlite3.Connection, target_root: Path, lang
                 slot_keys=sorted(payload.get("slot_keys", [])),
             )
             target = target_root / relative_target
+            target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(rendered_text, encoding="utf-8")
             written += 1
     return {"written_files": written, "usage": usage}
@@ -548,41 +526,50 @@ def apply_node_text(payload: dict[str, Any], text: dict[str, str | None] | None)
         payload["abstract"] = text["abstract"]
 
 
-def stage_toc_files(target_root: Path, language: str) -> dict[str, Any]:
+def stage_toc_files(connection: sqlite3.Connection, target_root: Path, language: str) -> dict[str, Any]:
     toc_root = target_root / "toc"
     toc_root.mkdir(parents=True, exist_ok=True)
-    if not EDITION_ROOT.is_dir():
-        existing = sorted(toc_root.glob("*.json"))
-        return {
-            "written_files": len(existing),
-            "usage": [],
-        }
     written = 0
     usage: list[dict[str, Any]] = []
-    for edition_dir in sorted(EDITION_ROOT.iterdir()):
-        if not edition_dir.is_dir():
+    toc_rows = rows(
+        connection,
+        """
+        SELECT o.id AS object_id, o.object_type, o.source_path, lt.language, lt.text_value
+        FROM content_object o
+        JOIN text_slot s ON s.object_id = o.id
+        JOIN localized_text lt ON lt.text_slot_id = s.id
+        WHERE o.object_type='support_asset' AND o.source_path LIKE 'toc/%.json'
+        ORDER BY o.source_path, lt.language
+        """,
+    )
+    grouped: dict[str, dict[str, Any]] = defaultdict(lambda: {"texts": {}})
+    for row in toc_rows:
+        grouped[str(row["source_path"])]["object_id"] = str(row["object_id"])
+        grouped[str(row["source_path"])]["object_type"] = str(row["object_type"])
+        grouped[str(row["source_path"])]["texts"][str(row["language"])] = str(row["text_value"])
+
+    for source_path, payload in sorted(grouped.items()):
+        rendered = choose_language(payload["texts"], language)
+        if not rendered:
             continue
-        edition_meta = load_json(edition_dir / "edition.meta.json")
-        source_path = edition_dir / f"edition.{language}.json"
-        if not source_path.exists():
-            source_path = edition_dir / "edition.de.json"
-        target_path = toc_root / f"{edition_meta['edition']}.json"
-        write_json(target_path, load_json(source_path))
+        target_path = target_root / source_path
+        target_path.parent.mkdir(parents=True, exist_ok=True)
+        target_path.write_text(rendered, encoding="utf-8")
         append_usage(
             usage,
-            path=str(target_path.relative_to(target_root)),
+            path=source_path,
             action="overwritten_from_canonical",
-            origin="curriculum_root",
-            object_id=str(edition_meta["id"]),
-            object_type=str(edition_meta["node_type"]),
-            slot_keys=["title", "abstract"],
+            origin="support_asset",
+            object_id=str(payload["object_id"]),
+            object_type=str(payload["object_type"]),
+            slot_keys=["body_text"],
         )
         written += 1
     return {"written_files": written, "usage": usage}
 
 
 def overlay_toc_texts(connection: sqlite3.Connection, target_root: Path, language: str) -> dict[str, Any]:
-    staged = stage_toc_files(target_root, language)
+    staged = stage_toc_files(connection, target_root, language)
     if language == "de":
         return staged
     node_texts = localized_node_texts(connection, language)
@@ -630,10 +617,33 @@ def iter_questions(payload: dict[str, Any]):
                     yield question
 
 
+def canonical_support_asset_text(source_path: str, language: str = "de") -> str | None:
+    support_root = CONTENT_REPO / "canonical" / "support_assets"
+    for meta_path in sorted(support_root.glob("*/object.meta.json")):
+        meta = load_json(meta_path)
+        if meta.get("source", {}).get("path") != source_path:
+            continue
+        for slot in meta.get("text_slots", []):
+            storage = slot.get("storage", {})
+            if storage.get("kind") != "text_file":
+                continue
+            relative_name = storage.get("files", {}).get(language) or storage.get("files", {}).get("de")
+            if not relative_name:
+                continue
+            payload_path = meta_path.parent / relative_name
+            if payload_path.exists():
+                return payload_path.read_text(encoding="utf-8")
+    return None
+
+
 def source_rationales() -> tuple[dict[str, Any], dict[str, Any]]:
-    source = load_json(
-        QUESTION_POOL_REPO / "builds" / "de" / "question_pool_rev0_ch-de.json"
-    )
+    canonical_catalog = canonical_support_asset_text("contents/questions/fragenkatalog_ch.json")
+    if canonical_catalog is not None:
+        source = json.loads(canonical_catalog)
+    else:
+        source = load_json(
+            QUESTION_POOL_REPO / "builds" / "de" / "question_pool_rev0_ch-de.json"
+        )
     rationales = {question["number"]: question.get("HB.rationale") for question in iter_questions(source)}
     return rationales, deepcopy(source.get("pruned", {}))
 
@@ -814,9 +824,12 @@ def build_config(input_root: Path, output_root: Path, *, generator_seed: int) ->
 def sync_review_build(language: str, output_root: Path) -> Path:
     target_root = REVIEW_BUILD_ROOT / language
     target_root.parent.mkdir(parents=True, exist_ok=True)
-    if target_root.exists():
-        shutil.rmtree(target_root)
-    shutil.copytree(output_root, target_root)
+    if target_root.is_symlink() or target_root.exists():
+        if target_root.is_symlink() or target_root.is_file():
+            target_root.unlink()
+        else:
+            shutil.rmtree(target_root)
+    target_root.symlink_to(output_root.resolve(), target_is_directory=True)
     return target_root
 
 
