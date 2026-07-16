@@ -32,26 +32,6 @@ Insbesondere bei sehr geringer Sonnenaktivität oder während starker Magnetstü
 
 %*Hinweis YPA an Bearbeiter: die zwei neuen Fragen einbetten wo sinnvoll. Wenn nötig entsprechenden Inhalt erschaffen. 
 %Achtung: Zeile 17 verweist auf weiteren Inhalt in HB9, evtl kommt es auch erst dort.*
-
-
-Bitte zu den folgenden zwei Fragen etwas Lehrtext erfinden! 
-
-Gerne! Schick mir einfach die zwei Fragen, zu denen ich passenden Lehrtext erfinden soll. Ich formuliere den Text so, dass er beispielsweise für Unterricht, Schulungsunterlagen oder ein Arbeitsblatt geeignet ist.
-
-voll. Wenn nötig entsprechenden Inhalt erschaffen. Achtung: Zeile 17 verweist auf weiteren Inhalt in HB9, evtl kommt es auch erst dort.
-
-EH220 (neu): Ist die LUF (Lowest Usable Frequency) leistungsabhängig?
- Ja, sie kann durch erhöhen der Sendeleistung gesenkt werden.
- Ja, sie kann durch erhöhen der Sendeleistung angehoben werden.
- Nein, sie hängt nur von der Frequenz ab.
- Nein, sie hängt nur von der Reflexionsfähigkeit der ionisierten Schichten (E, F1, F2) ab.
-Rationale: 1:1 8.17 aus altem Katalog
-EH221 (neu): Ist die MUF (Maximum Usable Frequency) leistungsabhängig?
- Nein, sie wird nur durch die Reflexionsfähigkeit der entsprechenden ionosphärischen Schichten (E, F1, F2) bestimmt.
- Nein, sie wird nur durch die Leitfähigkeit des Bodens und der Reflexionsfähigkeit der ionosphärischen D-Schicht bestimmt.
- Ja, sie hängt von der Frequenz und der Leistung ab.
- Ja, sie ist von der Frequenz und der Temperatur abhängig.
-Rationale: 1:1 8.15 aus altem Katalog (mit verlängerter answer_b)
  
 Für die Ausbreitung von Kurzwellen über die Ionosphäre sind zwei Grenzfrequenzen besonders wichtig: die LUF (Lowest Usable Frequency) und die MUF (Maximum Usable Frequency). Zwischen diesen beiden Werten ist eine Funkverbindung über die Ionosphäre grundsätzlich möglich.
 
@@ -60,7 +40,6 @@ Die LUF (Lowest Usable Frequency) bezeichnet die niedrigste Frequenz, bei der ei
 Die MUF (Maximum Usable Frequency) bezeichnet dagegen die höchste Frequenz, die auf einer bestimmten Strecke und zu einem bestimmten Zeitpunkt noch von der Ionosphäre zur Erde zurückgebrochen wird. Oberhalb der MUF wird die Funkwelle nicht mehr ausreichend gebrochen und durchdringt die Ionosphäre in den Weltraum. Die MUF ist nicht von der Sendeleistung abhängig. Sie wird im Wesentlichen durch die Elektronendichte und damit die Reflexions- bzw. Brechungseigenschaften der ionosphärischen Schichten (vor allem E-, F1- und F2-Schicht) bestimmt.
 
 Merksatz:
-
 LUF → hängt auch von der Sendeleistung ab (mehr Leistung → niedrigere LUF).
 MUF → hängt nicht von der Sendeleistung ab, sondern von den Eigenschaften der Ionosphäre.
 
