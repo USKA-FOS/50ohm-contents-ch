@@ -35,6 +35,6 @@ Das ist ein Mustertext mit dem Kommando (tipp). Das Das ist ein Test ob die Farb
 </tip>
 
 <law>
-Das ist ein Mustertext mit dem Kommando (law). Das generiert den blauen Kasten «Gesetzesgrundlage».
-Dieser wird verwendet für Ausführunge oder Links zu Gesetzen, Verordnungen RR, CEPT, Merkblatt BAKOM, etc.
+Das ist ein Mustertext mit dem Kommando (law). Das generiert den blauen Kasten «Gesetzliche Grundlage».
+Dieser wird verwendet für Ausführungen von oder Links zu Gesetzen, Verordnungen, RR, CEPT, Merkblatt BAKOM, etc.
 </law>
