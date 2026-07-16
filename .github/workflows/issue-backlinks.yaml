@@ -1,0 +1,39 @@
+name: Add backlinks to new review issues
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Extract IDENT from issue title
+        id: extract
+        shell: bash
+        run: |
+          title="${{ github.event.issue.title }}"
+
+          if [[ "$title" =~ ^\[Review-Feedback\]\ ([A-Za-z0-9_-]+)\.md ]]; then
+            ident="${BASH_REMATCH[1]}"
+            printf 'ident=%s\n' "$ident" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Comment on issue
+        if: steps.extract.outputs.ident != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          IDENT: ${{ steps.extract.outputs.ident }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        shell: bash
+        run: |
+          body=$(printf 'Backlink:\nhttps://50ohm.uska.ch/50ohm_review_de/NE_%s.html' "$IDENT")
+
+          gh issue comment "$ISSUE_NUMBER" \
+            --repo "$GH_REPO" \
+            --body "$body"
