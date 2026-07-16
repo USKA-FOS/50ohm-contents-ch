@@ -30,8 +30,10 @@ Insbesondere bei sehr geringer Sonnenaktivität oder während starker Magnetstü
 
 ---
 
-%*Hinweis YPA an Bearbeiter: die zwei neuen Fragen einbetten wo sinnvoll. Wenn nötig entsprechenden Inhalt erschaffen. 
-%Achtung: Zeile 17 verweist auf weiteren Inhalt in HB9, evtl kommt es auch erst dort.*
+*Hinweis YPA an Bearbeiter: die zwei neuen Fragen einbetten wo sinnvoll. Wenn nötig entsprechenden Inhalt erschaffen. 
+Achtung: Zeile 17 verweist auf weiteren Inhalt in HB9, evtl kommt es auch erst dort.*
+
+*TODO ARK: Redundanzen enfernen und Formatierung verbessern*
  
 Für die Ausbreitung von Kurzwellen über die Ionosphäre sind zwei Grenzfrequenzen besonders wichtig: die *LUF (Lowest Usable Frequency)* und die *MUF (Maximum Usable Frequency)*. Zwischen diesen beiden Werten ist eine Funkverbindung über die Ionosphäre grundsätzlich möglich.
 
