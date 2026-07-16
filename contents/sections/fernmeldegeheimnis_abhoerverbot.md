@@ -22,8 +22,9 @@ Das Abhören des nicht öffentlich gesprochenen Wortes ist ein *Straftatbestand*
 
 [question:VE201]
 
-
+<margin>
 Sandkasten YPA
+</margin>
 
 <danger>
 Das ist ein Mustertext mit dem Kommando (danger). Das generiert den roten Kasten «Gefahr».
@@ -32,3 +33,8 @@ Das ist ein Mustertext mit dem Kommando (danger). Das generiert den roten Kasten
 <tip>
 Das ist ein Mustertext mit dem Kommando (tipp). Das Das ist ein Test ob die Farbe dieselbe ist wie bei Gefahr.
 </tip>
+
+<law>
+Das ist ein Mustertext mit dem Kommando (law). Das generiert den blauen Kasten «Gesetzesgrundlage».
+Dieser wird verwendet für Ausführunge oder Links zu Gesetzen, Verordnungen RR, CEPT, Merkblatt BAKOM, etc.
+</law>
