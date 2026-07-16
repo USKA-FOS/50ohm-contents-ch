@@ -31,7 +31,7 @@ Das ist ein Mustertext mit dem Kommando (danger). Das generiert den roten Kasten
 </danger>
 
 <tip>
-Das ist ein Mustertext mit dem Kommando (tipp). Das Das ist ein Test ob die Farbe dieselbe ist wie bei Gefahr.
+Das ist ein Mustertext mit dem Kommando (tipp). Das ist ein Test ob die Farbe dieselbe ist wie bei Gefahr.
 </tip>
 
 <law>
