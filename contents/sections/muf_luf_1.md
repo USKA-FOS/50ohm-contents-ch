@@ -46,6 +46,7 @@ Die *MUF (Maximum Usable Frequency)* bezeichnet dagegen die höchste Frequenz, d
 Merksatz:
 
 LUF → hängt auch von der Sendeleistung ab (mehr Leistung → niedrigere LUF).
+
 MUF → hängt nicht von der Sendeleistung ab, sondern von den Eigenschaften der Ionosphäre.
 
 Hinweis: Die physikalischen Grundlagen der Ionosphäre und ihrer Schichten (D-, E-, F1- und F2-Schicht) werden im entsprechenden Kapitel über die Ionosphäre (HB9) ausführlicher behandelt. Hier genügt das Verständnis, dass die LUF von der Signalstärke beeinflusst werden kann, die MUF hingegen ausschließlich von den Ausbreitungsbedingungen der Ionosphäre bestimmt wird.
