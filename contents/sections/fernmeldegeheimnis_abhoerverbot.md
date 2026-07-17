@@ -43,7 +43,7 @@ Dieser wird verwendet für Ausführungen von oder Links zu Gesetzen, Verordnunge
 Testzone YPA
 
 Das ist ein Test für eine interne Verlinkung zu einem anderen Abschnitt innerhalb von der 50Ohm-Webseite. 
-Das ist zu benutzen, wenn bspw. im Text steht "Das haben wir bereits im Abschnitt [sec:Rufzeichen] behandelt".
+Das ist zu benutzen, wenn bspw. im Text steht "Das haben wir bereits im Abschnitt [sec:rufzeichen] behandelt".
 
 Dieser zweite Test ist für die kursübergreifende Verlinkung.
 Bspw wenn man "im Abschnitt [sec:kondensator_2] wird da noch tiefer darauf eingegangen." schreiben will.
