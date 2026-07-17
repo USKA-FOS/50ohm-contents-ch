@@ -37,7 +37,7 @@ Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertrage
 |  |  |
 | Unterbrechung (BK) | [morse:bk] |
 | Trennung innerhalb eines Durchgangs (BT, =) | [morse:=] |
-| Ende des Durchgangs (AR)  | [morse:ar] |
+| Ende des Durchgangs (AR)  | [morse:+] |
 | Ende der Sendung (SK) | [morse:sk] |
 | Fehler, Irrung | [morse:h] [morse:h]|
 [table:n_morsetelegrafie_morsecode_spezial:Morsecode (besondere Zeichen, Auswahl)]
