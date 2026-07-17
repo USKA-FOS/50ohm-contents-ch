@@ -39,7 +39,10 @@ Das ist ein Mustertext mit dem Kommando (law). Das generiert den blauen Kasten �
 Dieser wird verwendet f체r Ausf체hrungen von oder Links zu Gesetzen, Verordnungen, RR, CEPT, Merkblatt BAKOM, etc.
 </law>
 
-Das ist ein Test f체r eine webseiten interne Verlinkung zu einem anderen Abschnitt. 
-Das ist zu benutzen, wenn bspw. im Text steht "Das haben wir bereits im Abschnitt [sec:Rufzeichen] behandelt".
+Testzone YPA
 
-Dieser zweite Test ist f체r die Kurs체bergreifende Verlinkung [sec:troposphaere_2]
+Das ist ein Test f체r eine webseiten interne Verlinkung zu einem anderen Abschnitt. 
+Das ist zu benutzen, wenn bspw. im Text steht "Das haben wir bereits im Abschnitt [sec:rufzeichen] behandelt".
+
+Dieser zweite Test ist f체r die kurs체bergreifende Verlinkung.
+Bspw wenn man "im Abschnitt [sec:troposphaere_2] wird da noch tiefer darauf eingegangen."
