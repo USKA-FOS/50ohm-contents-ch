@@ -1,4 +1,5 @@
 % Diese Seite wird zu unterst vorläufig von YPA missbraucht als Sandkasten, wenn etwas für die Anleitung simuliert werden muss.
+
 In dem Gesetz mit dem sperrigen Namen Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz (TDDDG), ehemals TTDSG, werden im § 5 auch die Funkamateure angesprochen. In dem Paragrafen geht es um das Abhörverbot und die Geheimhaltungspflicht für alle Betreiber von Funkanlagen. Nur Nachrichten, die *an die Allgemeinheit, einen unbestimmten Personenkreis oder an Funkamateure* gerichtet sind, dürfen empfangen werden. Alles andere ist verboten. Dazu gehört bereits der Empfang selbst, aber auch die Verwertung und Weitergabe von Nachrichten, die nicht für die Allgemeinheit, für einen unbestimmten Personenkreis oder für Funkamateure bestimmt sind, verstoßen gegen das TDDDG.
 
 Sollte man versehentlich solche Nachrichten empfangen, muss man den Inhalt dieser Nachricht und sogar die Tatsache des Empfangs für sich behalten. Für immer und ewig! Die einzigen Ausnahmen sind Not- und Katastrophenfälle. Formal ist dies eine sogenannte Rechtsgüterabwägung: Was ist wichtiger, der Rechtsverstoß der Nachrichtenweitergabe oder die Hilfe in einem Notfall?
@@ -41,8 +42,8 @@ Dieser wird verwendet für Ausführungen von oder Links zu Gesetzen, Verordnunge
 
 Testzone YPA
 
-Das ist ein Test für eine webseiten interne Verlinkung zu einem anderen Abschnitt. 
+Das ist ein Test für eine interne Verlinkung zu einem anderen Abschnitt innerhalb von der 50Ohm-Webseite. 
 Das ist zu benutzen, wenn bspw. im Text steht "Das haben wir bereits im Abschnitt [sec:rufzeichen] behandelt".
 
 Dieser zweite Test ist für die kursübergreifende Verlinkung.
-Bspw wenn man "im Abschnitt [sec:troposphaere_2] wird da noch tiefer darauf eingegangen."
+Bspw wenn man "im Abschnitt [sec:kondensator_2] wird da noch tiefer darauf eingegangen." schreiben will.
