@@ -32,6 +32,8 @@ Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertrage
 [table:n_morsetelegrafie_morsecode_ziffern_satzzeichen:Morsecode (Ziffern und Satzzeichen)]
 </webmargin>
 
+%TODO ARK: Die Prosigns bk und sk funktionieren noch nicht ohne den störenden Zwischenraum.
+
 <webmargin>
 | l: | l: |
 |  |  |
