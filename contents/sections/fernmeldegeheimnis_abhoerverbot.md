@@ -38,3 +38,8 @@ Das ist ein Mustertext mit dem Kommando (tipp). Das ist ein Test ob die Farbe di
 Das ist ein Mustertext mit dem Kommando (law). Das generiert den blauen Kasten «Gesetzliche Grundlage».
 Dieser wird verwendet für Ausführungen von oder Links zu Gesetzen, Verordnungen, RR, CEPT, Merkblatt BAKOM, etc.
 </law>
+
+Das ist ein Test für eine webseiten interne Verlinkung zu einem anderen Abschnitt. 
+Das ist zu benutzen, wenn bspw. im Text steht "Das haben wir bereits im Abschnitt [sec:Rufzeichen] behandelt".
+
+Dieser zweite Test ist für die Kursübergreifende Verlinkung [sec:troposphaere_2]
