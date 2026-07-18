@@ -675,7 +675,7 @@ def source_rationales() -> tuple[dict[str, Any], dict[str, Any]]:
         source = json.loads(canonical_catalog)
     else:
         source = load_json(
-            QUESTION_POOL_REPO / "builds" / "de" / "question_pool_rev0_ch-de.json"
+            QUESTION_POOL_REPO / "builds" / "de" / "question_pool_rev1_ch-de.json"
         )
     rationales = {question["number"]: question.get("HB.rationale") for question in iter_questions(source)}
     return rationales, deepcopy(source.get("pruned", {}))
@@ -685,9 +685,9 @@ def stage_questions(target_root: Path, language: str) -> dict[str, Any]:
     questions_dir = target_root / "contents" / "questions"
     questions_dir.mkdir(parents=True, exist_ok=True)
     if language == "de":
-        source_build = QUESTION_POOL_REPO / "question_pool_rev0_ch-de.json"
+        source_build = QUESTION_POOL_REPO / "question_pool_rev1_ch-de.json"
     else:
-        source_build = QUESTION_POOL_REPO / "builds" / language / f"question_pool_rev0_ch-{language}.json"
+        source_build = QUESTION_POOL_REPO / "builds" / language / f"question_pool_rev1_ch-{language}.json"
     payload = load_json(source_build)
     for question in iter_questions(payload):
         question.setdefault("HB.rationale", None)
