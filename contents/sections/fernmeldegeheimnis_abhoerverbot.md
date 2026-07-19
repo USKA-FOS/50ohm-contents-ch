@@ -42,15 +42,19 @@ Dieser wird verwendet für Ausführungen von oder Links zu Gesetzen, Verordnunge
 
 Testzone YPA
 
-Das ist ein Test für eine interne Verlinkung zu einem anderen Abschnitt innerhalb von der 50Ohm-Webseite. - 
+Das ist ein Test für eine interne Verlinkung zu einem anderen Abschnitt innerhalb von der 50Ohm-Webseite. - Das ist so wie es sein soll  - 
 Das ist zu benutzen, wenn bspw. im Text steht "Das haben wir bereits im Abschnitt [sec:rufzeichen] behandelt".
 
-Dieser zweite Test ist für die kursübergreifende Verlinkung. - 
+Dieser Test ist für die fehlerhafte Verlinkung.  - Das ist okay so. Das muss der Editor/Reviewer bereits merken und korrigieren. - 
+Wenn man den Namen der Section gross [sec:Rufzeichen] oder mit dem Zusatz NE_ [sec:NE_rufzeichen] oder mit der Endung .md [sec:rufzeichen.md] oder .html [sec:rufzeichen.html] oder sonstirgendwie fehlerhaft schreibt.
+
+
+Dieser Test ist für die kursübergreifende Verlinkung. - 
+
 Bspw wenn man "im Abschnitt [sec:kondensator_2] wird da noch tiefer darauf eingegangen." schreiben will (Verweis auf eine HB9 Section in der HB3 Edition.)
+
 Bspw wenn man "wie wir im Abschnitt [sec:kondensator_2] schon gelernt haben." schreiben will. (Verweis auf eine HB3 Section in der HB9 Upgrade Edition.)
 
-Dieser dritte Test ist für die fehlerhaftte Verlinkung. Das ist okay so. Das muss der Editor/Reviewer bereits merken und korrigieren. - 
-Wenn man den Namen der Section gross schreibt [sec:Rufzeichen] oder mit dem Zusatz NE_ [sec:NE_rufzeichen] oder mit der Endung .md [sec:rufzeichen.md] oder .html [sec:rufzeichen.html]
 
 <margin>
 Das ist ein Muster wie der Text bei editonsübergreifenden Verweisen sein sollte (Wunsch) - Es ist okay, wenn die editonsübergreifenden Verweise nicht verlinkt sind.
