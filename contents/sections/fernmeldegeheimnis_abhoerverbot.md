@@ -47,3 +47,7 @@ Das ist zu benutzen, wenn bspw. im Text steht "Das haben wir bereits im Abschnit
 
 Dieser zweite Test ist für die kursübergreifende Verlinkung.
 Bspw wenn man "im Abschnitt [sec:kondensator_2] wird da noch tiefer darauf eingegangen." schreiben will.
+
+Dieser dritte Test ist für die kursübergreifende Verlinkung.
+Wenn man den Namen der Section gross schreibt [sec:Rufzeichen] oder mit dem Zusatz N_ [sec:N_rufzeichen] oder mit der Endung .md [sec:rufzeichen.md]
+
