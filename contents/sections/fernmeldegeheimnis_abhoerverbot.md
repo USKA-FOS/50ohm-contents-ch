@@ -49,5 +49,5 @@ Dieser zweite Test ist für die kursübergreifende Verlinkung.
 Bspw wenn man "im Abschnitt [sec:kondensator_2] wird da noch tiefer darauf eingegangen." schreiben will.
 
 Dieser dritte Test ist für die kursübergreifende Verlinkung.
-Wenn man den Namen der Section gross schreibt [sec:Rufzeichen] oder mit dem Zusatz N_ [sec:N_rufzeichen] oder mit der Endung .md [sec:rufzeichen.md]
+Wenn man den Namen der Section gross schreibt [sec:Rufzeichen] oder mit dem Zusatz NE_ [sec:NE_rufzeichen] oder mit der Endung .md [sec:rufzeichen.md] oder .html [sec:rufzeichen.html]
 
