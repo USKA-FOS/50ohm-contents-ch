@@ -46,7 +46,8 @@ Das ist ein Test für eine interne Verlinkung zu einem anderen Abschnitt innerha
 Das ist zu benutzen, wenn bspw. im Text steht "Das haben wir bereits im Abschnitt [sec:rufzeichen] behandelt".
 
 Dieser zweite Test ist für die kursübergreifende Verlinkung.
-Bspw wenn man "im Abschnitt [sec:kondensator_2] wird da noch tiefer darauf eingegangen." schreiben will.
+Bspw wenn man "im Abschnitt [sec:kondensator_2] wird da noch tiefer darauf eingegangen." schreiben will (Verweis auf eine HB9 Section in der HB3 Edition.)
+Bspw wenn man "wie wir im Abschnitt [sec:kondensator_2] schon gelernt haben." schreiben will. (Verweis auf eine HB3 Section in der HB9 Upgrade Edition.)
 
 Dieser dritte Test ist für die kursübergreifende Verlinkung.
 Wenn man den Namen der Section gross schreibt [sec:Rufzeichen] oder mit dem Zusatz NE_ [sec:NE_rufzeichen] oder mit der Endung .md [sec:rufzeichen.md] oder .html [sec:rufzeichen.html]
