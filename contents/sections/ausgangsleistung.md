@@ -37,21 +37,5 @@ Für den Frequenzbereich von $\qtyrange{1240}{1300}{\mega\hertz}$ gelten zusätz
 
 
 ---
-Ab hier neuer Bereich für Helvetisierung
-Unsortiert der Reihe nach. Sortierung nach Klassen oder Rechten tbd.
-[question:VO004]
-[question:VO005]
-[question:VO006]
-[question:VO007]
-[question:VO008]
-[question:VO009]
-[question:VO010]
-[question:VO011]
-[question:VO012]
-[question:VO013]
-[question:VO014]
-[question:VO015]
-[question:VO016]
-[question:VO017]
-[question:VO018]
-[question:VO019]
+VO004-019 (Anhang 4-Fragen) sind in 2.12 Frequenzzuteilung, weil dort sinnvoller und stimmiger.
+
