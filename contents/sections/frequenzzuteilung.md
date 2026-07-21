@@ -40,7 +40,23 @@ Hier gehts direkt zum System zur Meldung für [Spezielle Frequenznutzung](https:
 [photo:99:n_frequenzbereiche_afuv_anlage_1:Tabellarische Übersicht, Anlage 1, AFuV]
 </webmargin>
 
-
+% Fragen dieser Art sind im Original in 14.7. Entscheid EXR/YPA, dass hier sinnvoller und stimmiger
+[question:VO004]
+[question:VO005]
+[question:VO006]
+[question:VO007]
+[question:VO008]
+[question:VO009]
+[question:VO010]
+[question:VO011]
+[question:VO012]
+[question:VO013]
+[question:VO014]
+[question:VO015]
+[question:VO016]
+[question:VO017]
+[question:VO018]
+[question:VO019]
 
 
 
