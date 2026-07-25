@@ -72,5 +72,4 @@ Zur Ionisation wird Strahlung im extremen Ultraviolett- sowie im Röntgenbereich
 Während des Aktivitätsmaximums erreicht die Sonnenaktivität ein besonders hohes Niveau und führt zu einer ausgeprägten Ionisation der F-Region. Deshalb können dann alle oberen Kurzwellenbänder und teilweise sogar das $\qty{6}{\meter}$-Band für DX-Verbindungen genutzt werden, währenddessen im Aktivitätsminimum die Frequenzbänder oberhalb des $\qty{20}{\meter}$-Bandes (z.B. $\qty{10}{\meter}$) meist nicht nutzbar sind.
 
 [question:EH205]
-
-Im Kapitel [sec:ionosphaere_3] werden wir noch mehr über die für unsere Kurzwellenausbreitung so wichtige Ionosphäre. 
+Im Kapitel [sec:ionosphaere_3] werden wir noch mehr über die für unsere Kurzwellenausbreitung so wichtige Ionosphäre lernen. 
