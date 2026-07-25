@@ -1,4 +1,4 @@
-Mit den Grundlagen zur Ionosphäre, Sonnenfleckenaktivität und der sogenannten „Toten Zone“ haben wir uns bereits in den Prüfungsfragen im Kapitel [sec:ionosphaere] und [sec:totezone_1] beschäftigt. Hier werden diese Themen nun weiter vertieft und um zusätzliche Aspekte der Wellenausbreitung ergänzt.
+Mit den Grundlagen zur Ionosphäre, Sonnenfleckenaktivität und der sogenannten „Toten Zone“ haben wir uns bereits in den Prüfungsfragen im Kapitel [sec:ionosphaere] und [sec:tote_zone_1] beschäftigt. Hier werden diese Themen nun weiter vertieft und um zusätzliche Aspekte der Wellenausbreitung ergänzt.
 
 Die von der Sonne kommende Strahlung schlägt Elektronen aus den Sauerstoff- und Stickstoff-Atomen und -Molekülen der Hochatmosphäre (*Ionisation*). Diese freien Elektronen werden von Funkwellen geeigneter Frequenz zum Schwingen angeregt; das führt letztlich dazu, dass diese Wellen in Richtung Erdoberfläche gebrochen werden. Wie in Abbildung [ref:e_wellenausbreitung_refraktion] zu erkennen ist, erweckt die durch Refraktion – also Brechung – verursachte Richtungsänderung der Funkwellen den Eindruck, sie würden reflektiert.
 
@@ -16,7 +16,7 @@ Andererseits wollen diese freien Elektronen sich sofort wieder mit den Atomrümp
 
 ---
 
-Für den Kurzwellenbereich sind insbesondere drei Regionen der Ionosphäre von Bedeutung: die D-, E- und F-Region, wie in den Abbildungen [ref:e_wellenausbreitung_refraktion] und [ref:e_schichten_jahreszeiten] dargestellt. Für die Prüfungsfragen der Klasse E ist lediglich ein grundlegendes, qualitatives Verständnis dieser Regionen erforderlich. Dabei sollte man wissen, dass sich die für die Kurzwellen-Fernausbreitung (DX) besonders wichtigen F-Regionen der Ionosphäre in einer Höhe von etwa 130 bis 450 Kilometern befinden. Erst in der Klasse A müssen auch die genauen Höhenlagen der einzelnen Regionen für Tag und Nacht benannt werden können.
+Für den Kurzwellenbereich sind insbesondere drei Regionen der Ionosphäre von Bedeutung: die D-, E- und F-Region, wie in den Abbildungen [ref:e_wellenausbreitung_refraktion] und [ref:e_schichten_jahreszeiten] dargestellt. Für die Prüfungsfragen der Klasse HB3 ist lediglich ein grundlegendes, qualitatives Verständnis dieser Regionen erforderlich. Dabei sollte man wissen, dass sich die für die Kurzwellen-Fernausbreitung (DX) besonders wichtigen F-Regionen der Ionosphäre in einer Höhe von etwa 130 bis 450 Kilometern befinden. Erst in der Klasse A müssen auch die genauen Höhenlagen der einzelnen Regionen für Tag und Nacht benannt werden können.
 
 [question:EH102]
 
@@ -72,3 +72,5 @@ Zur Ionisation wird Strahlung im extremen Ultraviolett- sowie im Röntgenbereich
 Während des Aktivitätsmaximums erreicht die Sonnenaktivität ein besonders hohes Niveau und führt zu einer ausgeprägten Ionisation der F-Region. Deshalb können dann alle oberen Kurzwellenbänder und teilweise sogar das $\qty{6}{\meter}$-Band für DX-Verbindungen genutzt werden, währenddessen im Aktivitätsminimum die Frequenzbänder oberhalb des $\qty{20}{\meter}$-Bandes (z.B. $\qty{10}{\meter}$) meist nicht nutzbar sind.
 
 [question:EH205]
+
+Im Kapitel [sec:ionosphaere_3] werden wir noch mehr über die für unsere Kurzwellenausbreitung so wichtige Ionosphäre. 
