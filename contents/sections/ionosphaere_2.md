@@ -16,7 +16,7 @@ Andererseits wollen diese freien Elektronen sich sofort wieder mit den Atomrümp
 
 ---
 
-Für den Kurzwellenbereich sind insbesondere drei Regionen der Ionosphäre von Bedeutung: die D-, E- und F-Region, wie in den Abbildungen [ref:e_wellenausbreitung_refraktion] und [ref:e_schichten_jahreszeiten] dargestellt. Für die Prüfungsfragen der Klasse HB3 ist lediglich ein grundlegendes, qualitatives Verständnis dieser Regionen erforderlich. Dabei sollte man wissen, dass sich die für die Kurzwellen-Fernausbreitung (DX) besonders wichtigen F-Regionen der Ionosphäre in einer Höhe von etwa 130 bis 450 Kilometern befinden. Erst in der Klasse A müssen auch die genauen Höhenlagen der einzelnen Regionen für Tag und Nacht benannt werden können.
+Für den Kurzwellenbereich sind insbesondere drei Regionen der Ionosphäre von Bedeutung: die D-, E- und F-Region, wie in den Abbildungen [ref:e_wellenausbreitung_refraktion] und [ref:e_schichten_jahreszeiten] dargestellt. Für die Prüfungsfragen der Klasse HB3 ist lediglich ein grundlegendes, qualitatives Verständnis dieser Regionen erforderlich. Dabei sollte man wissen, dass sich die für die Kurzwellen-Fernausbreitung (DX) besonders wichtigen F-Regionen der Ionosphäre in einer Höhe von etwa 130 bis 450 Kilometern befinden. In der Klasse HB9 müssen auch die genauen Höhenlagen der einzelnen Regionen für Tag und Nacht benannt werden können.
 
 [question:EH102]
 
