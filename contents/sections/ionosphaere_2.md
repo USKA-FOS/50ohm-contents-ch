@@ -1,4 +1,4 @@
-Mit den Grundlagen zur Ionosphäre, Sonnenfleckenaktivität und der sogenannten „Toten Zone“ haben wir uns bereits in den Prüfungsfragen zur Klasse N beschäftigt. In der Klasse E werden diese Themen nun weiter vertieft und um zusätzliche Aspekte der Wellenausbreitung ergänzt.
+Mit den Grundlagen zur Ionosphäre, Sonnenfleckenaktivität und der sogenannten „Toten Zone“ haben wir uns bereits in den Prüfungsfragen im Kapitel [sec:ionosphaere] beschäftigt. Hier werden diese Themen nun weiter vertieft und um zusätzliche Aspekte der Wellenausbreitung ergänzt.
 
 Die von der Sonne kommende Strahlung schlägt Elektronen aus den Sauerstoff- und Stickstoff-Atomen und -Molekülen der Hochatmosphäre (*Ionisation*). Diese freien Elektronen werden von Funkwellen geeigneter Frequenz zum Schwingen angeregt; das führt letztlich dazu, dass diese Wellen in Richtung Erdoberfläche gebrochen werden. Wie in Abbildung [ref:e_wellenausbreitung_refraktion] zu erkennen ist, erweckt die durch Refraktion – also Brechung – verursachte Richtungsänderung der Funkwellen den Eindruck, sie würden reflektiert.
 
