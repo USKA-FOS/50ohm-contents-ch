@@ -84,6 +84,4 @@ Durch Kombinieren obiger Werte lassen sich noch weitere Werte ohne Taschenrechne
 
 [question:EA107]
 
-Neben der Einheit $\unit{dB}$ begegnet man in der Praxis häufig auch Angaben wie $\unit{\dBi}$, $\unit{\dBm}$, $\unit{\dBW}$ oder $\unit{\dBu}$. Diese Zusätze geben an, auf welche Bezugsgröße sich der jeweilige Dezibelwert bezieht. Insbesondere bei Antennen werden uns die Angaben $\unit{\dBi}$ und $\unit{\dBd}$ im Kapitel [sec:antennengewinn] begegnen. Die anderen Größen wie $\unit{\dBm}$ und $\unit{\dBW}$ werden erst im Kurs für HB9 benötigt.
-
-*TODO ARK: verlinkung nach https://50ohm.uska.ch/50ohm_review_de/NE_antennengewinn.html gemäss neuer Anleitung.*
+Neben der Einheit $\unit{dB}$ begegnet man in der Praxis häufig auch Angaben wie $\unit{\dBi}$, $\unit{\dBm}$, $\unit{\dBW}$ oder $\unit{\dBu}$. Diese Zusätze geben an, auf welche Bezugsgröße sich der jeweilige Dezibelwert bezieht. Insbesondere bei Antennen werden uns die Angaben $\unit{\dBi}$ und $\unit{\dBd}$ im Kapitel [sec:antennengewinn] begegnen. Die anderen Größen wie $\unit{\dBm}$ und $\unit{\dBW}$ werden erst im Kapitel [sec:dezibel_2]  benötigt.
