@@ -4,4 +4,4 @@ Im Kapitel [sec:troposphaere] haben wir bereits troposphärische Überreichweite
 [question:EH302]
 [question:EH303]
 
-Im Kapitel [sec:troposphaere_3] gehen wir dann noch tiefer auf die für unsere so wichtige Ionisphäre ein.
+Im Kapitel [sec:troposphaere_3] gehen wir dann noch tiefer auf die Troposphäre ein.
