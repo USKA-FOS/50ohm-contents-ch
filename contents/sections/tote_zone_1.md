@@ -11,7 +11,7 @@ Unter der Toten Zone versteht man den Bereich, der durch die Bodenwelle nicht me
 Genau genommene bildet sich um den Sender ein ringförmiges Gebiet, das nicht mehr von der Bodenwelle erreicht wird und noch nicht von der Raumwelle des Senders. Die Abbildung [ref:e_tote_zone_2d] zeigt eine Simulation des Signal-Rausch-Verhältnisses (SNR), welches wir erst in der Klasse A kennenlernen. Um die Tote Zone zu verstehen, reicht es aus, sich vorzustellen, dass im blauen Bereich keine Übertragung möglich ist und im roten Bereich eine hohe Wahrscheinlichkeit besteht, dass man empfangen wird. 
 
 <margin>
-[picture:992:e_tote_zone_2d:Simulation eines 100-W-Senders auf dem 20-m-Band in Deutschland, August 2025, 07:00 UTC]
+[picture:992:e_tote_zone_2d:Simulation eines 100-W-Senders auf dem 20-m-Band in Deutschland, August 2025, 07:00 UTC.]
 </margin>
 
 [question:EH201]
