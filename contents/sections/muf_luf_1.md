@@ -38,4 +38,4 @@ Die *MUF (Maximum Usable Frequency)* bezeichnet dagegen die höchste Frequenz, d
 
 [question:EH221]
 
-Hinweis: Die physikalischen Grundlagen der Ionosphäre und ihrer Schichten (D-, E-, F1- und F2-Schicht) werden im entsprechenden Kapitel [sec:ionosphaere_3] über die Ionosphäre für HB9 ausführlicher behandelt. Hier genügt das Verständnis, dass die LUF von der Signalstärke beeinflusst werden kann, die MUF hingegen ausschließlich von den Ausbreitungsbedingungen der Ionosphäre bestimmt wird.
+Hinweis: Die physikalischen Grundlagen der Ionosphäre und ihrer Schichten (D-, E-, F1- und F2-Schicht) werden in den entsprechenden Kapiteln [sec:ionosphaere_3], [sec:tote_zone_2] über die Ionosphäre für HB9 ausführlicher behandelt. Hier genügt das Verständnis, dass die LUF von der Signalstärke beeinflusst werden kann, die MUF hingegen ausschließlich von den Ausbreitungsbedingungen der Ionosphäre bestimmt wird.
