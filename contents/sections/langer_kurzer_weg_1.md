@@ -2,7 +2,7 @@ Funkwellen breiten sich geradlinig aus. Um zwei Orte auf der Erdoberfläche zu v
 
 [question:EH216]
 
-Einer der beiden Wege ist kürzer als der andere, deswegen sprechen wir vom *kurzen* und vom *langen Weg* (manchmal auch "direkter Weg" und "indirekter Weg"). Normalerweise läuft die Verbindung über den kurzen Weg, da mehr Wegstrecke auch immer mehr Dämpfung bedeutet und man daher auf dem kurzen Weg mit einer besseren Signalstärke rechnen kann. Es ist aber - abhängig von den Ausbreitungsbedingungen, der Tageszeit und der genutzten Frequenz - durchaus auch möglich, das Zielgebiet auf dem langen Weg zu erreichen. In der Klasse A werden wir diese Zusammenhänge genauer betrachten. 
+Einer der beiden Wege ist kürzer als der andere, deswegen sprechen wir vom *kurzen* und vom *langen Weg* (manchmal auch "direkter Weg" und "indirekter Weg"). Normalerweise läuft die Verbindung über den kurzen Weg, da mehr Wegstrecke auch immer mehr Dämpfung bedeutet und man daher auf dem kurzen Weg mit einer besseren Signalstärke rechnen kann. Es ist aber - abhängig von den Ausbreitungsbedingungen, der Tageszeit und der genutzten Frequenz - durchaus auch möglich, das Zielgebiet auf dem langen Weg zu erreichen. im Kapitel [sec:langer_kurzer_weg_2] werden wir diese Zusammenhänge genauer betrachten. 
 
 <margin>
 [picture:873:n_kurzer_langer_weg:Kurzer und langer Weg]
