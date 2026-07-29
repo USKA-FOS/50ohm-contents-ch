@@ -1,4 +1,4 @@
-Eine Reihenschaltung aus zwei Widerständen wird häufig als Spannungsteiler verwendet. In der Klasse E betrachten wir zunächst den *unbelasteten Spannungsteiler*, wie er auch in den folgenden Aufgaben vorkommt. Bei einem unbelasteten Spannungsteiler verhalten sich die Spannungen proportional zu den Widerständen. Das bedeutet beispielsweise, dass an einem hochohmigen Widerstand eine größere Spannung abfällt, während an einem niederohmigen Widerstand eine entsprechend kleinere Spannung messbar ist.
+Eine Reihenschaltung aus zwei Widerständen wird häufig als Spannungsteiler verwendet. Wir betrachten zunächst den *unbelasteten Spannungsteiler*, wie er auch in den folgenden Aufgaben vorkommt. Bei einem unbelasteten Spannungsteiler verhalten sich die Spannungen proportional zu den Widerständen. Das bedeutet beispielsweise, dass an einem hochohmigen Widerstand eine größere Spannung abfällt, während an einem niederohmigen Widerstand eine entsprechend kleinere Spannung messbar ist.
 
 <margin>
 [picture:819:E 63. Spannungsteiler:Spannungsteiler]
@@ -19,7 +19,7 @@ $\frac{U_{2}}{U_g} = \frac{R_{2}}{R_{1} + R_{2}}$
 
 % TODO implementiere Attention in CSS!
 <danger>
-Bei einem belasteten Spannungsteiler gelten diese Formeln nicht. Fragen dazu folgen im Kursteil für HB9.
+Bei einem belasteten Spannungsteiler gelten diese Formeln nicht. Fragen dazu folgen im Kapitel [sec:spannungsteiler_2].
 </danger>
 
 Bei den folgenden Fragen wird der Begriff Spannungsteiler nicht direkt erwähnt, aber durch die Wortwahl : "Wie teilt sich die Spannung an zwei in Reihe geschalteten Widerständen auf ...." sollte man erkennen, dass es sich um einen Spannungsteiler handelt.
