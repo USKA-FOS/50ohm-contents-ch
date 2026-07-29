@@ -1,4 +1,4 @@
-In diesem Kapitel haben wir bereits einen Großteil der grundlegenden Bauteile in einem Schaltplan kennengelernt. Es fehlen aber noch drei wichtige Bauteile, deren Schaltzeichen man in der Prüfung erkennen soll. Die genaue Funktionsweise dieser Bauteile wird aber erst in den Kapiteln [sec:kondensator_1], [sec:spule_1] und (sec:transistor_1] behandelt.
+In diesem Kapitel haben wir bereits einen Großteil der grundlegenden Bauteile in einem Schaltplan kennengelernt. Es fehlen aber noch drei wichtige Bauteile, deren Schaltzeichen man in der Prüfung erkennen soll. Die genaue Funktionsweise dieser Bauteile wird aber erst in den Kapiteln [sec:kondensator_1], [sec:spule_1] und [sec:transistor_1] behandelt.
 
 In der Abbildung [ref:n_bauelemente_kondensator] sieht man verschiedene Kondensatoren. Ein Kondensator speichert eine kleine Menge an Energie. Er besteht beispielsweise aus zwei parallelen Platten. Daran kann man auch gut das Schaltzeichen erkennen. 
 
