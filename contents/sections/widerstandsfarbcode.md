@@ -34,7 +34,7 @@ $ 47 \cdot \qty{1000}{\ohm} = \qty{47000}{\ohm} = \qty{47}{\kilo\ohm} $
 ---
 
 Es bleibt noch ein vierter Farbring übrig. Dieser steht für die sogenannte Toleranz, die angibt, wie stark der tatsächliche Widerstandswert vom dem aufgedruckten Wert abweichen darf.
-Weitere Details dazu folgen in der Klasse E. 
+Weitere Details dazu findet man im Kapitel [sec:widerstand_toleranz]. 
 
 <indepth>
 *Vertiefung:* In unserem Beispiel ist der letzte Ring *silber*, was eine Toleranz von $\qty{\pm 10}{\percent}$ bedeutet. Der wahre Wert des Widerstandes kann $\qty{10}{\percent} \cdot \qty{47}{\kilo\ohm} = \qty{4,7}{\kilo\ohm}$ mehr oder weniger als der angegebene Wert sein. Er kann also zwischen $\qty{42,3}{\kilo\ohm}$ und $\qty{51,7}{\kilo\ohm}$ liegen.
