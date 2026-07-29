@@ -66,7 +66,7 @@ $R = \frac{P}{I^2}$
 
 [question:EB506]
 
-Alle zuvor vorgestellten Zusammenhänge der Gleichspannungstechnik zwischen Leistung, Strom und Spannung gelten auch für Wechselstrom. Allerdings müssen dabei die Effektivwerte von Strom und Spannung verwendet werden. In einem vorherigen Kapitel [sec:spitze_effektiv_wert] haben wir bereits kennen gelernt wie man aus dem Spitzenwert den Effektivwert berechnet: 
+Alle zuvor vorgestellten Zusammenhänge der Gleichspannungstechnik zwischen Leistung, Strom und Spannung gelten auch für Wechselstrom. Allerdings müssen dabei die Effektivwerte von Strom und Spannung verwendet werden. In einem vorherigen Kapitel [sec:spitze_effektiv_wert] haben wir bereits kennen gelernt, wie man aus dem Spitzenwert den Effektivwert berechnet: 
 
 $U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}\text{ bzw. }\hat{U} = U_\text{eff} \cdot \sqrt{2}$
 
