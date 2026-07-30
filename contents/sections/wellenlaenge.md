@@ -7,7 +7,7 @@ Der Zusammenhang zwischen der Frequenz und der Wellenlänge ergibt sich aus der 
 
 Daraus ergeben sich folgende Formeln, mit denen sich leicht zwischen Frequenz $f$ (in $\unit{\mega\hertz}$) und Wellenlänge $\lambda$ (in Metern) umrechnen lässt:
 
-$f[[\unit{\mega\hertz}]] = \dfrac{300}{\lambda[[\unit{\meter}]]} \quad\quad\quad \lambda[[\unit{\meter}]] = \dfrac{300}{f[[\unit{\mega\hertz}]]}$
+$f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} \quad\quad\quad \lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]}$
 
 Die beiden Formeln finden sich auch in der Formelsammlung, die bei der Prüfung als Hilfsmittel vorliegt.
 
