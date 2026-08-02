@@ -1,4 +1,4 @@
-Bei der Amplitudenmodulation (AM) sowie bei SSB wird die zu übertragende Information durch eine Änderung der Amplitude des Hochfrequenzträgers übertragen. Wir haben im Kapitel [sec:fm_1] bereits gelernt, dass bei der Frequenzmodulation (FM) die Amplitude des Trägers hingegen konstant bleibt - die Information wird hier durch eine Änderung der momentanen Frequenz des Trägers übertragen.
+Bei der Amplitudenmodulation (AM) sowie bei SSB wird die zu übertragende Information durch eine Änderung der Amplitude des Hochfrequenzträgers übertragen. Wir haben im Kapitel [sec:fm] bereits gelernt, dass bei der Frequenzmodulation (FM) die Amplitude des Trägers hingegen konstant bleibt - die Information wird hier durch eine Änderung der momentanen Frequenz des Trägers übertragen.
 
 Abbildung [ref:e_frequenzmodulation_t] zeigt den zeitlichen Verlauf eines FM-Signals mit konstanter Amplitude. Ein FM-Signal ist daher daran zu erkennen, dass die Amplitude des Trägers (idealisiert) konstant bleibt, während sich seine momentane Frequenz in Abhängigkeit vom Modulationssignal fortlaufend ändert.
 
