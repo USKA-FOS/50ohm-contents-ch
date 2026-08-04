@@ -33,8 +33,8 @@ Es gibt verschiedene Buchstabiertafeln, z. B. die deutsche, die österreichische
 [table:n_buchstabiertafel:Die ITU-Buchstabiertafel]
 </margin>
 
-%YPA Achtung bei Übersetzung: Folgezeile 38 der Sprache (F&I) anpassen!
-Die Buchstabiertafel enthält jedoch keine Ziffern [index:Buchstabiertafel:Ziffern]. Im nationalen Funkverkehr spricht man Ziffern auf Deutsch aus, z. B. Delta Mike *Vier* Echo Alpha X-ray. Im internationalen Funkverkehr wird die englische Sprache verwendet, z. B. Delta Mike *Four* Echo Alfa X-ray.
+%YPA Achtung bei Übersetzung: Folgezeile 37 der Sprache (F&I) anpassen!
+Die Buchstabiertafel enthält jedoch keine Ziffern [index:Buchstabiertafel:Ziffern]. Im nationalen Funkverkehr spricht man Ziffern auf Deutsch aus, z. B. Hotel Bravo *Drei* Charlie Golf Foxtrott. Im internationalen Funkverkehr wird die englische Sprache verwendet, z. B. Hotel Bravo *Three* Charlie Golf Foxtrott.
 
 Die Buchstabiertafel kann natürlich auch verwendet werden, um andere Wörter zu buchstabieren, z. B. einen Namen oder eine Ortsangabe. Die internationale Buchstabiertafel enthält jedoch keine deutschen Umlaute[index:Buchstabiertafel:Umlaute]. Daher wird das Ä als "Alfa Echo", das Ö als "Oscar Echo", das Ü als "Uniform Echo" buchstabiert.
 
