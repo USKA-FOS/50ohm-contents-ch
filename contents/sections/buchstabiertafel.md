@@ -1,6 +1,4 @@
-%YPA: welche Rufzeichen sollen wir verwenden für die Beispiele? M/N, B/P, A/H sind gute Beispiel die man anwenden kann
-
-Hört man sich die Rufzeichen DM4EAX und DN4EAX gesprochen an, so ist es schwer, die Buchstaben M und N akustisch voneinander zu unterscheiden. Gerade bei einem leisen oder verrauschten Empfang kann es hier schnell zu Missverständnissen kommen. Aus diesem Grund wird im Amateurfunk eine Buchstabiertafel [index:Buchstabiertafel] eingesetzt, bei der jedem Buchstaben genau ein englischsprachiges Wort zugeordnet ist. Anstelle der Buchstaben spricht man jeweils das entsprechende Wort. Aus DM4EAX wird *Delta Mike Vier Echo Alfa X-Ray* und aus DN4EAX wird *Delta November Vier Echo Alfa X-Ray*. Jetzt sind die beiden Rufzeichen gut unterscheidbar.
+Hört man sich die Rufzeichen HB3CGF und HB3EGF gesprochen an, so ist es schwer, die Buchstaben C und E akustisch voneinander zu unterscheiden. Gerade bei einem leisen oder verrauschten Empfang kann es hier schnell zu Missverständnissen kommen. Aus diesem Grund wird im Amateurfunk eine Buchstabiertafel [index:Buchstabiertafel] eingesetzt, bei der jedem Buchstaben genau ein englischsprachiges Wort zugeordnet ist. Anstelle der Buchstaben spricht man jeweils das entsprechende Wort. Aus HB3CGF wird *Hotel Bravo Drei Charlie Golf Foxtrott* und aus HB3EGF wird *Hotel Bravo Drei Echo Golf Foxtrott*. Jetzt sind die beiden Rufzeichen gut unterscheidbar.
 
 Es gibt verschiedene Buchstabiertafeln, z. B. die deutsche, die österreichische oder die schweizerische Buchstabiertafel, die unterschiedliche Wörter benutzen. Funkamateure verwenden für die Nennung des Rufzeichens die internationale Buchstabiertafel der ITU. Die Internationale Fernmeldeunion (International Telecommunication Union, kurz ITU) führte erstmals 1927 eine internationale Buchstabiertafel [index:Buchstabiertafel:Internationale] ein und passte sie im Laufe der Zeit mehrfach an. Die heute gültige internationale Buchstabiertafel ist im Anhang 14 der Radio Regulations (RR) festgelegt, die von der ITU herausgegeben werden. Sie ist in der Tabelle [ref:n_buchstabiertafel] wiedergegeben. Diese wird nicht nur im Amateurfunk, sondern unter anderem auch in der Luftfahrt und von der NATO verwendet.
 
@@ -61,6 +59,3 @@ In der Praxis wird bei der Rufzeichennennung auch mit anderen Möglichkeiten var
 [question:BA107]
 [question:BA108]
 
-
----
-[question:VD206]
