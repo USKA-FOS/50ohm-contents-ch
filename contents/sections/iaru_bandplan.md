@@ -20,9 +20,3 @@ Eines ist auf fast allen Bändern übrigens gleich geregelt. Bis auf wenige Ausn
 
 [question:BC204]
 
-
-%YPA: TODO erfassen von Erklärtexten zu den nachfolgenden Fragen
-Zum Verständnis der Bandpläne werden hier en paar "Lesebeispiele" erklärt.
-[question:BC223]
-[question:BC224]
-[question:BC226]
