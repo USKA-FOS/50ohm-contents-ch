@@ -1,3 +1,4 @@
+%TOTO: Seitentitel muss geändert werden, #32 eröffnet.
 Die Bandpläne teilen ein Band in einzelne Frequenzsegmente auf. Für jeden Frequenzbereich (Spalte 1) werden bevorzugte Übertragungsverfahren (Spalte 3 und 4) ausgewiesen.
 
 %YPA: Anderer Bandplan als Bild? Ohne Nummerierung im Titel. Übersichtlicher (Konsistentere Darstellung)?
