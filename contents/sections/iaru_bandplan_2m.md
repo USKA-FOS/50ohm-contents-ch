@@ -4,7 +4,9 @@ Die Bandpläne teilen ein Band in einzelne Frequenzsegmente auf. Für jeden Freq
 <margin>
 [photo:102:n_iaru_bandplan_2m:IARU-Bandplan $\qty{2}{\meter}$]
 </margin>
- 
+<margin>
+[photo:103:n_iaru_bandplan_70cm:IARU-Bandplan $\qty{70}{\centi\meter}$]
+</margin>
 
 Um schnell einen Funkpartner zu finden, kann man einen CQ-Ruf auf der "Anruffrequenz" [index:Anruffrequenz] eines Bandes starten. Diese werden im IARU-Bandplan als *calling* gekennzeichnet. Dabei wird zwischen zwei Übertragungsverfahren unterschieden:
 * FM-Sprechfunk ("FM calling")
@@ -14,7 +16,7 @@ Bei FM-Sprechfunk handelt es sich um ein analoges Übertragungsverfahren. Digita
 
 Anruffrequenzen sollten grundsätzlich für Anrufe freigehalten werden, d. h. sobald nach einem Anruf eine Verbindung hergestellt wurde, sollte man sich auf eine andere Frequenz verständigen und den Funkverkehr dort fortsetzen. Es bietet sich dafür eine Frequenz aus dem Bereich für FM-Sprechfunk und digitale Telefonie an, der im Bandplan als "FM/Digital Voice" gekennzeichnet ist.
 
-Die Anruffrequenzen für den klassischen FM-Sprechfunk liegt auf dem $\qty{2}{\meter}$ Band auf $\qty{145,000}{\mega\hertz}$.
+Die Anruffrequenzen für den klassischen FM-Sprechfunk liegt auf dem $\qty{2}{\meter}$ Band auf $\qty{145,000}{\mega\hertz}$ und auf dem $\qty{70}{\centi\meter}$ Band auf $\qty{433,500}{\mega\hertz}$.
 
 <tip>
 Nachdem eine andere Station auf einen CQ-Anruf geantwortet hat, sollte man die Frequenz wechseln und die „Anruffrequenz“ freigeben.
