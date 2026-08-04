@@ -40,7 +40,7 @@ HB9CN von HB9RW bitte kommen
 Es kann vorkommen, dass man einen Anruf nicht ganz mitbekommt, aber Teile des eigenen Rufzeichens hört und sich nicht sicher ist, ob man gemeint war. In einem solchem Fall sollte einfach nachfragt werden, ob man gemeint war.
 
 <qso>
-H*(krschkrsch)*RW von HB9CNP, bitte kommen
+H*(krschkrsch)*RW von HB9CN, bitte kommen
 > Hier ist HB9RW, wurde ich gerufen?
 </qso>
 
