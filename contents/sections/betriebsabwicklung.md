@@ -8,12 +8,12 @@ Bei vielen Funkdiensten ist die Betriebsabwicklung ganz genau vorgeschrieben, z.
 Alle Funkamateure nutzen die zur Verfügung stehenden Frequenzen gemeinsam. Es gilt hier das Prinzip: Wer zuerst kommt, mahlt zuerst. Daher sollte man, bevor eine Funkverbindung begonnen wird, erst einige Zeit hören, ob die Frequenz nicht schon von einer anderen Station verwendet wird. Um ganz sicherzugehen, sollte dann noch zwei- bis dreimal kurz gefragt werden, ob die Frequenz frei ist.
 
 <qso>
-Ist diese Frequenz frei? DL1PZ
+Ist diese Frequenz frei? HB9RW
 > *(keine Antwort)*
-Ist diese Frequenz frei? DL1PZ
+Ist diese Frequenz frei? HB9RW
 > *(keine Antwort)*
-CQ CQ hier ist DL1PZ mit einem allgemeinen Anruf, hier ist DL1PZ und hört.
-> DL1PZ hier ist DL9MJ bitte kommen
+CQ CQ hier ist HB9RW mit einem allgemeinen Anruf, hier ist HB9RW und hört.
+> HB9RW hier ist HB9CN bitte kommen
 </qso>
 
 Wenn darauf keine Antwort folgt, kann davon ausgegangen werden, dass die Frequenz nicht belegt ist. Jetzt kann man selber eine Funkverbindung beginnen. Wie beim Telefon nennt sich das Anruf [index:Anruf]. Grundsätzlich gibt es zwei Möglichkeiten, den allgemeinen Anruf und den gezielten Anruf:
@@ -26,8 +26,8 @@ Wenn darauf keine Antwort folgt, kann davon ausgegangen werden, dass die Frequen
 Die Antwort erfolgt bei allgemeinen und gezielten Anrufen auf die gleiche Art. Man nennt erst das Rufzeichen der anrufenden Station und dann das eigene Rufzeichen.
 
 <qso>
-DL9MJ von DL1PZ bitte kommen
-> DL1PZ hier ist DL9MJ
+HB9CN von HB9RW bitte kommen
+> HB9RW hier ist HB9CN
 </qso>
 
 [question:BB102]
@@ -40,8 +40,8 @@ DL9MJ von DL1PZ bitte kommen
 Es kann vorkommen, dass man einen Anruf nicht ganz mitbekommt, aber Teile des eigenen Rufzeichens hört und sich nicht sicher ist, ob man gemeint war. In einem solchem Fall sollte einfach nachfragt werden, ob man gemeint war.
 
 <qso>
-D*(krschkrsch)*MJ von DK5WP, bitte kommen
-> Hier ist DL9MJ, wurde ich gerufen?
+H*(krschkrsch)*RW von HB9CNP, bitte kommen
+> Hier ist HB9RW, wurde ich gerufen?
 </qso>
 
 [question:BE103]
