@@ -52,7 +52,7 @@ Nun wird die einer Frequenz von $\qty{21}{\mega\hertz}$ entsprechende Wellenlän
 
 Wir können zur Sicherheit ja mal rechnen (mit der zugeschnittenen Größengleichung):
 
-$\lambda[[\unit{\meter}]] = \frac{300}{21}=14,29$
+$\lambda[\unit{\meter}] = \frac{300}{21}=14,29$
 
 [question:EB313]
 
