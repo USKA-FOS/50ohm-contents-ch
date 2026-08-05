@@ -1,5 +1,5 @@
 %TODO: Nach LaTeX umformatieren
-Im Kapitel zu den Widerstandsfarbcodes [sec:widerstandsfarbcode] haben wir den Begriff der Toleranz bereits kurz kennengelernt. Die Toleranz eines Widerstands beschreibt, wie stark sein tatsächlicher Wert vom nominalen, also aufgedruckten, Wert abweichen darf. Sie wird üblicherweise in Prozent angegeben und legt den Bereich fest, innerhalb dessen der reale Widerstandswert liegen kann.
+Im Kapitel zum [sec:widerstandsfarbcode] haben wir den Begriff der Toleranz bereits kurz kennengelernt. Die Toleranz eines Widerstands beschreibt, wie stark sein tatsächlicher Wert vom nominalen, also aufgedruckten, Wert abweichen darf. Sie wird üblicherweise in Prozent angegeben und legt den Bereich fest, innerhalb dessen der reale Widerstandswert liegen kann.
 
 Beispielsweise bedeutet eine Toleranz von $\qty{\pm 5}{\percent}$, dass der tatsächliche Widerstandswert zwischen $\qty{95}{\percent}$ und $\qty{105}{\percent}$ des angegebenen Wertes liegen kann.
 
