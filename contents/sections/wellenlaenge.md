@@ -15,7 +15,7 @@ Teilt man also 300 durch die Wellenlänge in Metern, erhält man die Frequenz in
 
 Wollen wir also beispielsweise die Wellenlänge der Frequenz $\qty{145,3}{\mega\hertz}$ berechnen, dann setzen wir diese in die zweite Formel ein und lösen dann:
 
-$\lambda[[\unit{\meter}]] = \dfrac{300}{f[[\unit{\mega\hertz}]]} = \dfrac{300}{\qty{145,3}{\mega\hertz}} \approx \qty{2,06}{\meter}$
+$\lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]} = \dfrac{300}{\qty{145,3}{\mega\hertz}} \approx \qty{2,06}{\meter}$
 
 Genauso funktioniert es andersherum. Setzen wir die Wellenlänge von 2,06 m in die erste Formel ein, dann kommt die ursprüngliche Frequenz heraus:
 
