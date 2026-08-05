@@ -19,7 +19,7 @@ $\lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]} = \dfrac{300}{\qty{
 
 Genauso funktioniert es andersherum. Setzen wir die Wellenlänge von 2,06 m in die erste Formel ein, dann kommt die ursprüngliche Frequenz heraus:
 
-$f[[\unit{\mega\hertz}]] = \dfrac{300}{\lambda[[\unit{\meter}]]} = \dfrac{300}{\qty{2,06}{\meter}} \approx \qty{145,3}{\mega\hertz}$
+$f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} = \dfrac{300}{\qty{2,06}{\meter}} \approx \qty{145,3}{\mega\hertz}$
 
 [include:applet_lambda_und_f]
 
