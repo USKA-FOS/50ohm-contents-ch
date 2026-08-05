@@ -1,4 +1,4 @@
-Im Abschnitt zum "Umstellen von Formeln" [sec:umstellen_formeln] hatten wir bereits gesehen, wie wir den Zusammenhang zwischen Frequenz $f$, Wellenlänge $\lambda$ und Lichtgeschwindigkeit im Freiraum $c_0$ 
+Im Abschnitt zum "Umstellen von Formeln" [sec:formeln_umstellen] hatten wir bereits gesehen, wie wir den Zusammenhang zwischen Frequenz $f$, Wellenlänge $\lambda$ und Lichtgeschwindigkeit im Freiraum $c_0$ 
 
 $f = \frac{c_0}{\lambda}$
 
