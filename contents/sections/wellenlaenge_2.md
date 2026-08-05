@@ -1,10 +1,10 @@
-Im Abschnitt zum "Umstellen von Formeln" hatten wir bereits gesehen, wie wir den Zusammenhang zwischen Frequenz $f$, Wellenlänge $\lambda$ und Lichtgeschwindigkeit im Freiraum $c_0$ 
+Im Abschnitt zum "Umstellen von Formeln" [sec:umstellen_formeln] hatten wir bereits gesehen, wie wir den Zusammenhang zwischen Frequenz $f$, Wellenlänge $\lambda$ und Lichtgeschwindigkeit im Freiraum $c_0$ 
 
 $f = \frac{c_0}{\lambda}$
 
 bzw. als zugeschnittene Größengleichung
 
-$f[[\unit{\mega\hertz}]] = \frac{300}{\lambda[[\unit{\meter}]]}$
+$f[\unit{\mega\hertz}] = \frac{300}{\lambda[\unit{\meter}]}$
 
 wahlweise nach der Frequenz oder der Wellenlänge umstellen können.
 
@@ -14,7 +14,7 @@ In diesem Abschnitt betrachten wir praktische Anwendungen. Versuche zunächst im
 
 Bei den ersten Fragen geht es darum, für eine gegebene Wellenlänge die Frequenz zu bestimmen. Bei der ersten Frage ist die Wellenlänge als $\qty{80}{\meter}$ angegeben. Das $\qty{80}{\meter}$-Amateurfunkband geht von $\qtyrange{3,5}{3,8}{\mega\hertz}$. Die Antwortmöglichkeiten liegen alle in dem Bereich, sodass wir den Taschenrechner bemühen müssen:
 
-$f[[\unit{\mega\hertz}]] = \frac{300}{80} = 3,75$
+$f[\unit{\mega\hertz}] = \frac{300}{80} = 3,75$
 
 ---
 
@@ -26,7 +26,7 @@ Bei dieser Frage ist die Wellenlänge $\qty{30}{\milli\meter} = \qty{3}{\centi\m
 Achte beim Einsetzen von Werten in eine Formel stets darauf, die Grundeinheiten zu verwenden. Das bedeutet, dass Werte gegebenenfalls umgerechnet werden müssen – zum Beispiel von Millimetern in Meter.
 </attention>
 
-$f[[\unit{\mega\hertz}]] = \frac{300}{0,03} = \frac{300 \cdot 100}{3} = \num{10000}$
+$f[\unit{\mega\hertz}] = \frac{300}{0,03} = \frac{300 \cdot 100}{3} = \num{10000}$
 
 Also ist $f=\qty{10}{\giga\hertz}$ die richtige Antwort, weil ja $\qty{1}{\giga\hertz} = 1000 {\mega\hertz}$ ist.
 
@@ -34,13 +34,13 @@ Also ist $f=\qty{10}{\giga\hertz}$ die richtige Antwort, weil ja $\qty{1}{\giga\
 
 Sogar noch einfacher lässt sich die Frequenz finden, die einer Wellenlänge von $\qty{10}{\centi\meter}$ entspricht. $\qty{10}{\centi\meter} = \qty{0,1}{\meter}$. Also:
 
-$f[[\unit{\mega\hertz}]]=\frac{300}{0,1}=3000$
+$f[\unit{\mega\hertz}]=\frac{300}{0,1}=3000$
 
 Da $\qty{1}{\giga\hertz} = \qty{1000}{\mega\hertz}$ entspricht, heißt die Antwort: $\qty{3}{\giga\hertz}$.
 
 Für die nächsten Fragen stellen wir die Gleichung nach $\lambda$ um:
 
-$\lambda[[\unit{\meter}]] = \frac{300}{f[[\unit{\mega\hertz}]]}$
+$\lambda[\unit{\meter}] = \frac{300}{f[\unit{\mega\hertz}]}$
 
 [question:EB311]
 
