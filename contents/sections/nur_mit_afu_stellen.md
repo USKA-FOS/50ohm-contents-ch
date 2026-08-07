@@ -22,9 +22,8 @@ Beispielsweise dürfen keine Grüße für Angehörige eines Funkamateurs gesende
 
 [question:VN014]
 [question:VN017]
-%YPA: VN014 und VN017 redundant. Unterschiede nur in Distraktoren. Zusammenführen?
 [question:VN015]
-
+% Hinweis: VN016 (rechtsgeschäftliche) ist im nächsten Abschnitt.
 
 [question:VC111]
 [question:VD703]
