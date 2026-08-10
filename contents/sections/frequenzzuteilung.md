@@ -23,7 +23,7 @@ Auch wenn die Frequenzbereiche international vereinbart werden, sind ausschließ
 Der Anhang 4 besteht aus zwei Tabellen. Die Tabelle a) gilt für Amateurfunkzulassung (HB9), die Tabelle b) gilt für Inhabern einer Amateurfunkzulassung NOVICE (HB3). Beide Listen haben jeweils eine Legende, welche die in der Tabelle verwendeten hochgestellten Verweiszeichen erläutert die die speziellen Nutzungsbedingungen kennzeichnen.
 %Evtl Bild von Legende in Marginale?
 
-Denn neben den Frequenzbereichen enthält der Anhang auch ausführliche Nutzungsbestimmungen [index:Frequenzzuteilung:Nutzungsbestimmungen] u.a. mit welcher maximalen Leistung man senden darf, die ebenfalls von jedem Funkamateur einzuhalten sind. 
+Denn neben den Frequenzbereichen enthält der Anhang 4 auch ausführliche Nutzungsbestimmungen [index:Frequenzzuteilung:Nutzungsbestimmungen] u.a. mit welcher maximalen Leistung man senden darf, die ebenfalls von jedem Funkamateur einzuhalten sind. 
 
 %YPA: Nutzungsbedingungen oder Nutzungsbestimmungen? jenachdem überall anpassen.
 
