@@ -41,8 +41,6 @@ In vielen Geräten sind Kondensatoren verbaut, die hohe Spannungen speichern kö
 
 
 <danger>
-Bei einem Kurzschluss kann ein *Lichtbogen* entstehen, also eine elektrische Entladung, bei der Strom durch die eigentlich nicht leitende Luft fliesst. Dabei entstehen sehr hohe Temperaturen und ein sehr helles Leuchten, wodurch *Brandgefahr* besteht und die *Augen geschädigt* werden können.
-
 Bei einem Kurzschluss kann ein Lichtbogen entstehen, also eine elektrische Entladung, bei der Strom durch die eigentlich nicht leitende Luft fliesst. Dabei entstehen sehr hohe Temperaturen und ein sehr helles Leuchten, wodurch Brandgefahr besteht und die Augen geschädigt werden können.
 </danger>
 
