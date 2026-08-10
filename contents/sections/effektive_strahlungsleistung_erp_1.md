@@ -6,6 +6,9 @@ Die vom Nachweisverfahren zum Schutz von Personen in elektromagnetischen Feldern
 
 ---
 
+Die Grenzwerte, die eine Sendeanlage einhalten muss, sind in der Nicht-ionisierenden Strahlungsverodung NISV festgelegt. 
+
+---
 Wie stark eine Antenne in ihre Hauptstrahlrichtung abstrahlt, wird durch den *Gewinnfaktor* bezogen auf den Halbwellendipol ausgedrückt. Dieser gibt an, wieviel besser eine Antenne im Vergleich zu einem Halbwellendipol in die jeweilige Hauptstrahlrichtung abstrahlt. Ein Gewinnfaktor von $\num{2}$ gegenüber dem Halbwellendipol bedeutet beispielsweise, dass eine Antenne in die Hauptstrahlrichtung doppelt so stark abstrahlt wie ein Halbwellendipol in seine Hauptstrahlrichtung.
 
 <indepth>
