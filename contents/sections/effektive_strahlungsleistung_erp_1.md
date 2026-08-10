@@ -17,7 +17,7 @@ Zur Berechnung der einzuhaltenden Abstände gibt es geeignete Programme bzw. Exc
 *TODO Programme bzw. Excel Tabellen angeben*
 
 Darüber hinaus ist kein Anlagegrenzwert einzuhalten, solange die Betriebsdauer unter 800 Stunden pro Jahr liegt. Dies ist bei Amateurfunkanwendungen praktisch immer der Fall. Sendet eine Anlage ausnahmsweise doch mehr, so muss sie an Orten mit empfindlicher Nutzung (OMEN) einen Anlagegrenzwert einhalten. Dieser beträgt bei Langwellen- und Mittelwellensendern 8.5 V/m und für alle übrigen Frequenzbänder 3.0 V/m
-[Quelle:](https://www.bafu.admin.ch/de/amateurfunk-als-elektrosmog-quelle)
+[Quellenangabe](https://www.bafu.admin.ch/de/amateurfunk-als-elektrosmog-quelle)
 
 ---
 
