@@ -1,12 +1,6 @@
-Damit es nicht zur Schlagzeile *"Funkamateur erleidet gefährlichen Stromschlag beim Senderbau"* kommt, müssen wichtige Regeln beachtet werden. Beim Aufbau einer Funkstation muss man sich an die anerkannten Regeln der Technik halten. Wie wir schon beim Thema Blitzschutz und Potentialausgleich gelernt haben, gibt der Verband der Elektrotechnik Elektronik und Informationstechnik e. V., kurz VDE, Normen heraus, die den jeweils aktuellen Stand der Technik dokumentieren und als anerkannt gelten. Diese Regeln dienen dem Schutz von Menschen, Tieren und Sachen.
+Damit es nicht zur Schlagzeile *"Funkamateur erleidet gefährlichen Stromschlag beim Senderbau"* kommt, müssen wichtige Regeln beachtet werden. Beim Aufbau einer Funkstation muss man sich an die anerkannten Regeln der Technik halten. Wie wir noch im Kapitel 21-Sicherheit (Blitzschutz u.ä.) lernen werden, gibt die electrosuisse, Normen heraus, die den jeweils aktuellen Stand der Technik dokumentieren und als anerkannt gelten. Diese Regeln dienen dem Schutz von Menschen, Tieren und Sachen.
 
-<indepth>
-Der VDE, also der Verband der Elektrotechnik Elektronik und Informationstechnik e. V., ist eine weltweit tätige Organisation, in der sich Personen und Unternehmen zusammengeschlossen haben, die in den Bereichen Elektrotechnik, Elektronik oder Informationstechnik tätig sind. Die Organisation verfolgt das Ziel, die Unfallverhütung zu verbessern und das Verantwortungsbewusstsein seiner Mitglieder zu fördern. Dazu werden die VDE-Normen herauszugeben. Es werden aber beispielsweise auch kostenpflichtige Zertifizierungen durchgeführt.
-</indepth>
-
-[question:VE601]
-
----
+Hier wird erst auf die allgemeinen Gefahren eingegangen.
 
 Die Hauptgefahr besteht durch Berührung einer elektrischen Spannung. In der Elektrotechnik spricht man von einer gefährlichen Spannung, wenn diese bei Wechselspannung über $\qty{50}{\volt}$ und bei Gleichspannung über $\qty{120}{\volt}$ liegt. Diese Grenzen wurden so gelegt, dass es zu keiner lebensbedrohlichen Beeinträchtigung des menschlichen Körpers kommen kann. Wechselspannung wird auch als "AC" (englisch "alternating current") und Gleichspannung als "DC" (englisch "direct current") abgekürzt.
 
@@ -26,9 +20,11 @@ Bei einer Einwirkung des Stroms auf den Körper kann das Gewebe geschädigt werd
 
 Stromunfälle können verschiedene Auswirkungen auf den Körper haben:
 * *Herzrhythmusstörungen*, Herzkammerflimmern oder Herzstillstand, insbesondere bei einem Stromweg im Brustbereich
-* *Verbrennungen*, meist an den Ein- und Austrittstellen des elektrischen Stroms
+* *Verbrennungen*, meist an den Ein- und Austrittstellen des elektrischen Stroms (sogenannte Strommarken)
+* *Gewebezerstörung*, durch Wärmebildung, der elektrische Widerstand des Gewebes erzeugt starke Hitze, die Zellen von innen heraus verbrennt und zerstört
 * *Verkrampfen der Muskulatur*
 * *Sekundärunfälle* wie einen Sturz, verursacht durch den hervorgerufenden Schreck oder eine Muskelverkrampfung
+
 
 <attention>
 Die *5 Sicherheitsregeln der Elektrotechnik* sollten für alle Arbeiten an elektrischen Anlagen beachten werden. Diese sollten auch bei Arbeiten an Funkgeräten oder anderen elektrischen Geräten beachtet werden:
