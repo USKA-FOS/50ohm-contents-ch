@@ -1,10 +1,3 @@
-%YPA: Mich stört, dass es zu dem Bild keine zusätzlichen Infos gibt. Bsp: was die einzelnen "Spalten" zeigen, keine Markierung des Funkwellenbereichs.
-<margin>
-[picture:847:n_frequenzspektrum:Spektrum der elektromagnetischen Wellen]
-</margin>
-  
----
-
 Der Frequenzbereich elektromagnetischer Wellen ist sehr groß (Abbildung [ref:n_frequenzspektrum]). Für Funkwellen wird nur ein Teil dieses Spektrums [index:Spektrum] genutzt, üblicherweise der Frequenzbereich zwischen $\qty{30}{\kilo\hertz}$ und $\qty{300}{\giga\hertz}$. In der Tabelle [ref:n_frequenzspektrum_bereiche] ist zu sehen, welche Frequenzen welchen Bereichen zugeordnet sind. Den Frequenzbereichen [index:Spektrum:Frequenzbereiche] werden Abkürzungen zugeordnet. 
 
 %YPA Der effektiven Liste anpassen. Hinweis: In DL gehört der folgende Satz noch zum vorhergehenden Absatz.
@@ -40,3 +33,9 @@ Für die folgenden Fragen muss man die sehr häufig genutzen Bänder, den jeweil
 [question:BC101]
 [question:BC102]
 [question:BC103]
+
+
+%YPA: Mich stört, dass es zu dem Bild keine zusätzlichen Infos gibt. Bsp: was die einzelnen "Spalten" zeigen, keine Markierung des Funkwellenbereichs. Ein anderes/besseres/Aussagekräftigeres Bild, das nicht soviel Platz einnimmt fänd ich besser. Deshalb das Bild 847 nach untengeschoben, damit die Tabelle, um die es hier geht, prominenter ist.
+<margin>
+[picture:847:n_frequenzspektrum:Spektrum der elektromagnetischen Wellen]
+</margin>
