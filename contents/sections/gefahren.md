@@ -39,19 +39,14 @@ Die *5 Sicherheitsregeln der Elektrotechnik* sollten für alle Arbeiten an elekt
 In vielen Geräten sind Kondensatoren verbaut, die hohe Spannungen speichern können. Es können daher auch in abgeschalteten Geräten noch gefährliche Spannungen anliegen! *Geräte sollten daher nur geöffnet werden, wenn man genau weiß, was man tut.* Im Zweifel sollte man sich von einem erfahreneren Funkamateur oder einer Elektrofachkraft helfen lassen.
 </danger>
 
----
 
-%[class:N]
-Wie wir schon beim Einbau von Amateurfunkanlagen in Kraftfahrzeuge gelernt haben, kann es im Zusammenhang mit elektrischem Strom auch dazu kommen, dass ein Stromfluß durch die eigentlich nicht-leitende Luft auftritt und es zu einem Lichtbogen mit hohen Temperaturen und sehr hellem Leuchten kommt. Dies wird auch als Störlichtbogen bezeichnet.
-%[/class]
-
-%[class:NEA]
 <danger>
-Ein *Lichtbogen* ist eine elektrische Entladung, also ein Stromfluß, durch die eigentlich nicht-leitende Luft, die mit hohen Temperaturen und einem sehr hellen Leuchten einhergeht. In Folge kann es zu Bränden und zur Schädigung der Augen kommen.
+Bei einem Kurzschluss kann ein *Lichtbogen* entstehen, also eine elektrische Entladung, bei der Strom durch die eigentlich nicht leitende Luft fliesst. Dabei entstehen sehr hohe Temperaturen und ein sehr helles Leuchten, wodurch *Brandgefahr* besteht und die *Augen geschädigt* werden können.
+
+Bei einem Kurzschluss kann ein Lichtbogen entstehen, also eine elektrische Entladung, bei der Strom durch die eigentlich nicht leitende Luft fliesst. Dabei entstehen sehr hohe Temperaturen und ein sehr helles Leuchten, wodurch Brandgefahr besteht und die Augen geschädigt werden können.
 </danger>
 
-Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen kommen, der Brände verursachen kann.
-%[/class]
+
 
 [question:NK303]
 
