@@ -8,12 +8,17 @@ Der Amateurfunkdienst hat in einigen zugewiesenen Frequenzbereichen primäre und
 </indepth>
 
 Welcher Status dem Amateurfunkdienst in der Schweiz in den einzelnen Frequenzbereichen zugewiesen wurde, kann in der *Spalte 2* der Frequenzbänder-Liste Anhang 4 der VVNF abgelesen werden. Der Buchstabe b steht für Sekundär. So steht es in der Legende unterhalb der Listen für beide Zulassungen.
+
+% Hier könnte man noch mehr sinnvollen Inhalt generieren. 
+
+
 [question:VO035]
 [question:VO036]
 
 <attention>
 Es ist zu beachten, dass die primären und sekundären Zuweisungen in anderen Ländern abweichend geregelt sein können. Man muss sich daher vor der Betriebsaufnahme im Ausland über die jeweiligen Bestimmungen des Gastlandes informieren.
 
+% Hier gut prüfen, ob dieser Text für HB stimmt.
 So wird ein Teilbereich des $\qty{70}{\centi\meter}$-Amateurfunkbandes für Anwendungen aus den Bereichen Industrie, Wissenschaft und Medizin und auch von Haushaltsgeräten mitbenutzt. Dort finden sich z. B. Signale von Garagentoröffnern, Funkwetterstationen, Autoschlüsseln, Wegfahrsperren oder Reifendrucksensoren. 
 In der Schweiz ist der Amateurfunk in dem Frequenzbereich grundsätzlich sekundär. In Deutschland hingegen eigentlich primär, muss aber Störungen durch solche Geräte ausnahmsweise dennoch hinnehmen.
 </attention>
