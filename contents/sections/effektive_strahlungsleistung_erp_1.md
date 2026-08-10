@@ -12,7 +12,7 @@ Die Grenzwerte, die eine Sendeanlage einhalten muss, sind in der Nicht-Ionisiere
 *Grenzwerte für Amateurfunkanlagen* 
 
 Amateurfunkanlagen müssen die *Immissionsgrenzwerte* der NISV einhalten. Je nach Frequenz liegen diese zwischen 28 und 87 [V/m].
-Zur Berechnung der einzuhaltenden Abständen gibt es geeignete Programme bzw. Excel Tabellen.
+Zur Berechnung der einzuhaltenden Abstände gibt es geeignete Programme bzw. Excel Tabellen.
 
 *TODO Programme bzw. Excel Tabellen angeben*
 
@@ -25,7 +25,7 @@ Wie stark eine Antenne in ihre Hauptstrahlrichtung abstrahlt, wird durch den *Ge
 
 <indepth>
 % TODO: Editionsspezifisch machen
-Anstelle des Gewinnfaktors von Antennen wird häufig der "Gewinn in Dezibel ($\unit{\dB}$)" angegeben. Mit der Einheit Dezibel beschäftigt sich der Kurs für die Klasse E.
+Anstelle des Gewinnfaktors von Antennen wird häufig der "Gewinn in Dezibel ($\unit{\dB}$)" angegeben. Mit der Einheit Dezibel beschäftigt sich der Kurs im Kapitel [sec:dezibel_1].
 </indepth>
 
 ---
