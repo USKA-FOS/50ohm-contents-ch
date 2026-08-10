@@ -1,4 +1,4 @@
-In der Klasse N haben wir bereits den isotropen Strahler (vgl. Abbildung [ref:e_Kugelstrahler]) kennengelernt. Der isotrope Strahler ist keine reale Antenne, er ist ein physikalisches Modell für einen Strahler, der die Energie in alle Richtungen des Raumes gleichmäßig abstrahlt. 
+Im Kapitel [sec:antennengewinn] haben wir bereits den isotropen Strahler (vgl. Abbildung [ref:e_Kugelstrahler]) kennengelernt. Der isotrope Strahler ist keine reale Antenne, er ist ein physikalisches Modell für einen Strahler, der die Energie in alle Richtungen des Raumes gleichmäßig abstrahlt. 
 
 Die Äquivalente Isotrope Strahlungsleistung (EIRP) einer realen Antenne bezieht sich auf den isotropen Strahler. Mit anderen Worten, die Strahlungsleistung einer realen Antenne wird mit der Strahlungsleistung des isotropen Strahlers verglichen. Für die abgestrahlte Leistung ist nur die Energie relevant, die tatsächlich an der Antenne ankommt. Durch Kabeldämpfung etc. kann die Leistung des Senders in der realen Welt nicht vollständig der Antenne zugeführt werden. Diese verlorene Leistung darf nicht in die Berechnung der Stahlungsleistung eingehen. Der Antennengewinn in der Vorzugsrichtung ist natürlich Teil der Rechnung. In Formeln bedeutet das:
 
@@ -22,7 +22,7 @@ Bei der nächsten Frage ist unbedingt auf die Rechenzeichen zu achten. Die Verlu
 
 ---
 
-Im Kapitel zu Dezibel haben wir gelernt, dass es sinnvoll ist, mit dB-Werten zu rechnen, da sich viele Berechnungen dadurch deutlich vereinfachen. Verstärkungen und Dämpfungen lassen sich in Dezibel einfach addieren beziehungsweise subtrahieren. Abbildung [ref:e_verstaerkung_daempfung] zeigt eine Funkanlage mit mehreren Verstärkungs- und Dämpfungsgliedern. Die Gesamtverstärkung dieser Anlage ergibt sich durch Addition der einzelnen Beiträge zu $\qty{-2}{\dB} + \qty{6}{\dB} - \qty{3}{\dB} + \qty{2}{\dB} = \qty{3}{\dB}$, was einem Leistungsfaktor von $\num{2}$ entspricht.
+Im Kapitel zu Dezibel [sec:dezibel] haben wir gelernt, dass es sinnvoll ist, mit dB-Werten zu rechnen, da sich viele Berechnungen dadurch deutlich vereinfachen. Verstärkungen und Dämpfungen lassen sich in Dezibel einfach addieren beziehungsweise subtrahieren. Abbildung [ref:e_verstaerkung_daempfung] zeigt eine Funkanlage mit mehreren Verstärkungs- und Dämpfungsgliedern. Die Gesamtverstärkung dieser Anlage ergibt sich durch Addition der einzelnen Beiträge zu $\qty{-2}{\dB} + \qty{6}{\dB} - \qty{3}{\dB} + \qty{2}{\dB} = \qty{3}{\dB}$, was einem Leistungsfaktor von $\num{2}$ entspricht.
 
 <margin>
 [picture:439:e_verstaerkung_daempfung:Verstärkungen und Dämpfungen in einer Funkanlage]
@@ -83,6 +83,10 @@ $\qty{26}{\dBi} = \qty{20}{\dBi} + \qty{6}{\dB}$
 | $\num{10}$ | $\num{10}$ |
 | $\num{20}$ | $\num{100}$ |
 [table:e_dezibel_leistungsfaktoren:Wichtige Leistungsfaktoren in dB]
+</margin>
+
+<margin>
+Weitere oft nützliche Dezibelwerte findet man im Kapitel [sec:dezibel_1].
 </margin>
 
 Für $\qty{20}{\dB}$ ist in der Tabelle ein Leistungsfaktor von $\num{100}$ angegeben, für $\qty{6}{\dB}$ ein Faktor von $\num{4}$. Damit lässt sich die äquivalente isotrope Strahlungsleistung sehr einfach berechnen:
