@@ -1,3 +1,6 @@
+%YPA an EXR:  Keine entsprechenden Fragen in HB. Verbindung Frequenz - Band trotzdem wichtig.  Die Listen in der Marginale sind nicht sehr hübsch. Irgend welcher sinnvoller, zweckmässiger, Inhalt muss erschaffen werden.
+
+
 Für den Funkbetrieb ist es wichtig zu wissen, welche Frequenzbereiche durch Funkamateure genutzt werden dürfen. Dies lässt sich aus der [Anlage 1 der AFuV](https://50ohm.de/a1) ablesen. Damit sollten die folgenden Fragen leicht zu beantworten sein. Die Anlage 1 der AFuV liegt während der Prüfung als Hilfsmittel bereit.
 
 <tip>
