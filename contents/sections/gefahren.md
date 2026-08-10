@@ -52,7 +52,8 @@ Bei einem Kurzschluss kann ein *Lichtbogen* entstehen, also eine elektrische Ent
 
 ---
 
-Erste-Hilfe-Maßnahmen sind in den ersten Minuten entscheidend für die Schwere der Unfallfolgen. Nach einem Stromunfall ist in **jedem** Fall **zeitnah** ein Arzt aufzusuchen, da Herzrhythmusstörungen und Herzkammerflimmern, sowie unsichtbare Gewebe- und Organzerstörung, nur durch Ärzte erkannt und behandelt werden können. 
+Erste-Hilfe-Maßnahmen sind in den ersten Minuten entscheidend für die Schwere der Unfallfolgen. Trotzdem auf keinen Fall den *Selbstschutz* vergessen. Immer zuerst die Stromquelle abstellen, bzw unterbrechen.
+Nach einem Stromunfall ist in *jedem* Fall *zeitnah* ein Arzt aufzusuchen, da Herzrhythmusstörungen und Herzkammerflimmern, sowie unsichtbare Gewebe- und Organzerstörung, nur durch Ärzte erkannt und behandelt werden können. 
 
 <indepth>
 Ein Arzt kann nach einem Stromunfall beispielsweise mit einem *Elektrokardiogramm (EKG)* überprüfen, ob das Herz unregelmäßig schlägt oder andere Störungen aufweist. Eine unsichtbare Gewebe- und Organzerstörung, entstanden durch die Wärmebildung des Stroms (die sogenannte *Joule-Erwärmung*), kann nur in einem Spital durch eine Kombination aus Labordiagnostik, kontinuierlicher Überwachung und bildgebenden Verfahren festgestellt werden. Ein *Spital ist einem Hausarzt vorzuziehen*, da dieses nebst dem EKG auch die Laboruntersuchungen machen und im Bedarfsfall Massnahmen einleiten kann.
