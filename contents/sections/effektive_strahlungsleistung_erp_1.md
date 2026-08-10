@@ -6,7 +6,17 @@ Die vom Nachweisverfahren zum Schutz von Personen in elektromagnetischen Feldern
 
 ---
 
-Die Grenzwerte, die eine Sendeanlage einhalten muss, sind in der Nicht-ionisierenden Strahlungsverodung NISV festgelegt. 
+Die Grenzwerte, die eine Sendeanlage einhalten muss, sind in der Nicht-ionisierenden Strahlungsverodung
+[NISV](https://www.fedlex.admin.ch/eli/cc/2000/38/de) festgelegt. 
+
+*Grenzwerte für Amateurfunkanlagen* 
+Amateurfunkanlagen müssen die *Immissionsgrenzwerte* der NISV einhalten. Je nach Frequenz liegen diese zwischen 28 und 87 [V/m].
+Zur Berechnung der einzuhaltenden Abständen gibt es geeignete Programme bzw. Excel Tabellen.
+
+*TODO* Programme bzw. Excel Tabellen angeben
+
+Darüber hinaus ist kein Anlagegrenzwert einzuhalten, solange die Betriebsdauer unter 800 Stunden pro Jahr liegt. Dies ist bei Amateurfunkanwendungen praktisch immer der Fall. Sendet eine Anlage ausnahmsweise doch mehr, so muss sie an Orten mit empfindlicher Nutzung (OMEN) einen Anlagegrenzwert einhalten. Dieser beträgt bei Langwellen- und Mittelwellensendern 8.5 V/m und für alle übrigen Frequenzbänder 3.0 V/m
+Quelle: [Quelle](https://www.bafu.admin.ch/de/amateurfunk-als-elektrosmog-quelle)
 
 ---
 Wie stark eine Antenne in ihre Hauptstrahlrichtung abstrahlt, wird durch den *Gewinnfaktor* bezogen auf den Halbwellendipol ausgedrückt. Dieser gibt an, wieviel besser eine Antenne im Vergleich zu einem Halbwellendipol in die jeweilige Hauptstrahlrichtung abstrahlt. Ein Gewinnfaktor von $\num{2}$ gegenüber dem Halbwellendipol bedeutet beispielsweise, dass eine Antenne in die Hauptstrahlrichtung doppelt so stark abstrahlt wie ein Halbwellendipol in seine Hauptstrahlrichtung.
