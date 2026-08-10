@@ -9,11 +9,14 @@ Um die peak envelope power (PEP) zu ermitteln, misst man - vereinfacht gesagt - 
 [question:NF102]
 
 ---
-Hinweis von YPA an Bearbeiter VO004-019 (Anhang 4-Fragen) sind in 2.12 Frequenzzuteilung, weil dort sinnvoller und stimmiger.
-Daher Inhalt der Seite nur noch "technischer Natur".
+
+
+
+**Hinweis von YPA an Bearbeiter** VO004-019 (Anhang 4-Fragen) sind in 2.12 Frequenzzuteilung platziert worden, weil dort sinnvoller und stimmiger.
+Daher Inhalt der Seite ist folglich nur noch "technischer Natur".
 Inhalt/Text/Fragen ab hier kann gelöscht werden. Wird in 2.12 bereits behandelt.
 
----
+
 Die zulässige Senderausgangsleistung unterscheidet sich je nach Klasse und Frequenzbereich. Sie ist in der [Anlage 1 der Amateurfunkverordnung](https://50ohm.de/a1) festgelegt, die als Hilfsmittel bei der Prüfung vorliegt.
 
 <margin>
