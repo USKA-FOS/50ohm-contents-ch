@@ -22,7 +22,7 @@ Bei der nächsten Frage ist unbedingt auf die Rechenzeichen zu achten. Die Verlu
 
 ---
 
-Im Kapitel zu Dezibel [sec:dezibel] haben wir gelernt, dass es sinnvoll ist, mit dB-Werten zu rechnen, da sich viele Berechnungen dadurch deutlich vereinfachen. Verstärkungen und Dämpfungen lassen sich in Dezibel einfach addieren beziehungsweise subtrahieren. Abbildung [ref:e_verstaerkung_daempfung] zeigt eine Funkanlage mit mehreren Verstärkungs- und Dämpfungsgliedern. Die Gesamtverstärkung dieser Anlage ergibt sich durch Addition der einzelnen Beiträge zu $\qty{-2}{\dB} + \qty{6}{\dB} - \qty{3}{\dB} + \qty{2}{\dB} = \qty{3}{\dB}$, was einem Leistungsfaktor von $\num{2}$ entspricht.
+Im Kapitel zu Dezibel [sec:dezibel_1] haben wir gelernt, dass es sinnvoll ist, mit dB-Werten zu rechnen, da sich viele Berechnungen dadurch deutlich vereinfachen. Verstärkungen und Dämpfungen lassen sich in Dezibel einfach addieren beziehungsweise subtrahieren. Abbildung [ref:e_verstaerkung_daempfung] zeigt eine Funkanlage mit mehreren Verstärkungs- und Dämpfungsgliedern. Die Gesamtverstärkung dieser Anlage ergibt sich durch Addition der einzelnen Beiträge zu $\qty{-2}{\dB} + \qty{6}{\dB} - \qty{3}{\dB} + \qty{2}{\dB} = \qty{3}{\dB}$, was einem Leistungsfaktor von $\num{2}$ entspricht.
 
 <margin>
 [picture:439:e_verstaerkung_daempfung:Verstärkungen und Dämpfungen in einer Funkanlage]
