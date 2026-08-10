@@ -27,7 +27,7 @@ Denn neben den Frequenzbereichen enthält der Anhang 4 auch ausführliche Nutzun
 
 %YPA: Nutzungsbedingungen oder Nutzungsbestimmungen? jenachdem überall anpassen.
 
-Zudem unterliegen gewisse Frequenzen speziellen Nutzungsbedingungen. So gibt es Frequenzen auf welchen andere Nutzer Vorrang haben, sprich der Amateurfunk nur *sekundäre* Nutznungsrechte hat und somit dafür sorgen muss, dass er den *primären* Dienst nicht stört.
+Zudem unterliegen gewisse Frequenzen speziellen Nutzungsbedingungen. So gibt es Frequenzen auf welchen andere Nutzer Vorrang haben, sprich der Amateurfunk nur *sekundäre* Nutznungsrechte hat und somit dafür sorgen muss, dass er den *primären* Dienst nicht stört. Mehr dazu später im Abschnitt [sec:primaerer_sekundaerer_funkdienst].
 
 [question:VN008]
 
