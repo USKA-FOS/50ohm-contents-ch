@@ -86,7 +86,7 @@ $\qty{26}{\dBi} = \qty{20}{\dBi} + \qty{6}{\dB}$
 </margin>
 
 <margin>
-Weitere oft nützliche Dezibelwerte findet man im Kapitel [sec:dezibel_1].
+Weitere oft nützliche Dezibelwerte findet man im Kapitel [sec:dezibel_2].
 </margin>
 
 Für $\qty{20}{\dB}$ ist in der Tabelle ein Leistungsfaktor von $\num{100}$ angegeben, für $\qty{6}{\dB}$ ein Faktor von $\num{4}$. Damit lässt sich die äquivalente isotrope Strahlungsleistung sehr einfach berechnen:
