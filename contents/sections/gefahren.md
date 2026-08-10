@@ -36,7 +36,7 @@ Die *5 Sicherheitsregeln der Elektrotechnik* sollten für alle Arbeiten an elekt
 </attention>
 
 <danger>
-In vielen Geräten sind Kondensatoren verbaut, die hohe Spannungen speichern können. Es können daher auch in abgeschalteten Geräten noch gefährliche Spannungen anliegen! Geräte sollten daher nur geöffnet werden, wenn man genau weiß, was man tut. Im Zweifel sollte man sich von einem erfahreneren Funkamateur oder einer Elektrofachkraft helfen lassen.
+In vielen Geräten sind Kondensatoren verbaut, die hohe Spannungen speichern können. Es können daher auch in abgeschalteten Geräten noch gefährliche Spannungen anliegen! *Geräte sollten daher nur geöffnet werden, wenn man genau weiß, was man tut.* Im Zweifel sollte man sich von einem erfahreneren Funkamateur oder einer Elektrofachkraft helfen lassen.
 </danger>
 
 ---
@@ -59,10 +59,10 @@ Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen kommen, der Br�
 
 ---
 
-Erste-Hilfe-Maßnahmen sind in den ersten Minuten entscheidend für die Schwere der Unfallfolgen. Nach einem Stromunfall ist in jedem Fall ein Arzt aufzusuchen, da Herzrhythmusstörungen und Herzkammerflimmern auch noch Stunden nach dem Unfall auftreten können. 
+Erste-Hilfe-Maßnahmen sind in den ersten Minuten entscheidend für die Schwere der Unfallfolgen. Nach einem Stromunfall ist in **jedem** Fall **zeitnah** ein Arzt aufzusuchen, da Herzrhythmusstörungen und Herzkammerflimmern auch noch Stunden nach dem Unfall auftreten können. Zudem kann durch Laboruntersuchungen eine unsichtbare Gewebe- und Organzerstörung, entstanden durch die Wärmebildung des Stroms (die sogenannte Joule-Erwärmung), in der Klinik durch eine Kombination aus Labordiagnostik, kontinuierlicher Überwachung und bildgebenden Verfahren festgestellt werden. Ein Spital ist einem Hausarzt vorzuziehen, da dieses nebst dem EKG auch die Laboruntersuchungen machem kann.
 
 <indepth>
-Ein Arzt kann nach einem Stromunfall beispielsweise mit einem *Elektrokardiogramm (EKG)* überprüfen, ob das Herz unregelmäßig schlägt oder andere Störungen aufweist.
+Ein Arzt kann nach einem Stromunfall beispielsweise mit einem *Elektrokardiogramm (EKG)* überprüfen, ob das Herz unregelmäßig schlägt oder andere Störungen aufweist. 
 </indepth>
 
 [question:NK304]
