@@ -31,11 +31,11 @@ Die Bordnetzspannung im Kraftfahrzeug erscheint zunächst ungefährlich, da man 
 [photo:76:n_Kabelsicherung:Stromkabel mit Sicherungshalter]
 </margin>
 
-%[class:N]
-<indepth>
-Ein *Lichtbogen* ist eine elektrische Entladung, also ein Stromfluß, durch die eigentlich nicht leitende Luft, die mit hohen Temperaturen und einem sehr hellen Leuchten einhergeht. In der Folge kann es zu Bränden und zur Schädigung der Augen kommen.
-</indepth>
-%[/class]
+
+<danger>
+Bei einem Kurzschluss kann ein Lichtbogen entstehen, also eine elektrische Entladung, bei der Strom durch die eigentlich nicht leitende Luft fliesst. Dabei entstehen sehr hohe Temperaturen und ein sehr helles Leuchten, wodurch Brandgefahr besteht und die Augen geschädigt werden können.
+</danger>
+
 
 In der Versorgungsleitung des Fahrzeugfunkgerätes muss immer eine Sicherung des richtigen Werts verbaut sein! In Abbildung [ref:n_Kabelsicherung] ist ein üblicher Sicherungshalter mit eingesteckter Sicherung zu sehen. Bei qualitativ hochwertigen Geräten sind in beiden Kabeln Sicherungen verbaut. Eine für den Plus- und eine für den Minuspol. Damit ist ein besserer Schutz als mit nur einer Sicherung in der Zuleitung zum Pluspol gegeben.
 
