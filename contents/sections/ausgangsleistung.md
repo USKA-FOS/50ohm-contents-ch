@@ -7,11 +7,12 @@ Die zulässige Senderausgangsleistung unterscheidet sich je nach Konzessionklass
 Die maximal zulässige Senderausgangsleistung (PEP) ist begrenzt:
 
 * für InhaberInnen einer Sendekonzession HB9: 1000 Watt
+
 * für InhaberInnen einer Sendekonzession HB3:  100 Watt
 
 Auf gewissen Frequenzbändern gibt es bei beiden Konzessionsklassen weitere Einschränkungen, die einzuhalten sind. 
 
-Die detaillierten Frequenzbereiche und Leistungsgrenzen sind auf der [BAKOM-Mebseite](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf) aufgeführt. Dieses Hilfsblatt darf an der Prüfung verwendet werden.
+Die detaillierten Frequenzbereiche und Leistungsgrenzen sind auf der [BAKOM-Webseite](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf) aufgeführt. Dieses Hilfsblatt darf an der Prüfung verwendet werden.
 
 <indepth>
 Begrifflichkeiten:
