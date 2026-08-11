@@ -2,7 +2,7 @@
 [picture:666:n_halbleiter_diode_merkhilfe:Merkhilfe Diode]
 </margin>
 
-Um aus einer Wechselspannung eine Gleichspannung zu erzeugen, wird ein Gleichrichter benötigt. Die einfachste Form der Gleichrichtung erfolgt mithilfe einer Diode. Wie wir bereits im Kapitel [sec:diode] gelernt haben, lässt eine Diode den Strom nur in einer Richtung fließen.
+Um aus einer Wechselspannung eine Gleichspannung zu erzeugen, wird ein Gleichrichter benötigt. Die einfachste Form der Gleichrichtung erfolgt mithilfe einer Diode. Wie wir bereits im Kapitel [sec:diode_1] gelernt haben, lässt eine Diode den Strom nur in einer Richtung fließen.
 
 ---
 
