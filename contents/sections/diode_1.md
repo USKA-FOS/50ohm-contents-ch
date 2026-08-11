@@ -26,7 +26,7 @@ Betrachten wir eine Diodenkennlinie in Abbildung [ref:e_diode_kennlinie_iu], so 
 
 Als Anhaltspunkte für die Schwellspannung von pn-Dioden können wir für Ge etwa $\qtyrange{0,2}{0,3}{\volt}$ und für Si etwa $\qtyrange{0,6}{0,7}{\volt}$ angeben.
 
-<tipattention>
+<attention>
 Die Schwellspannung wird auch *Flussspannung* genannt, weil erst aber dieser Spannung der Strom markant zu fliessen beginnt.
 </attention>
 
