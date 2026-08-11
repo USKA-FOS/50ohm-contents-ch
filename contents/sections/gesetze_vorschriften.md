@@ -30,11 +30,6 @@ Es gibt noch weitere Regeln in anderen Gesetzen, von denen einige auch den Amate
 
 
 %YPA an EXR: Warum haben wir VC104 nicht adaptiert?
-Ab hier löschen:
+
 [question:VC104]
-
-Der Deutsche Bundestag beschloss im Jahr 1997 das derzeit gültige Amateurfunkgesetz (AFuG). Die aktuelle Amateurfunkverordnung  (AFuV) wurde durch den Bundesminister für Digitales und Verkehr in Kraft gesetzt. Die Aufgaben und Befugnisse, die aus dem AFuG und der AFuV erwachsen, nimmt die Bundesnetzagentur (BNetzA) wahr. 
-
-Das Amateurfunkgesetz regelt grundsätzlich den Amateurfunk. In anderen Gesetzen gibt es aber weitere Regeln, von denen einige auch den Amateurfunk betreffen. Dies ist beispielsweise beim *Telekommunikationsgesetz (TKG)* der Fall. 
-
-[question:VE101]
+Die Aufgaben und Befugnisse, die aus dem AFuG und der AFuV erwachsen, nimmt die Bundesnetzagentur (BNetzA) wahr. 
