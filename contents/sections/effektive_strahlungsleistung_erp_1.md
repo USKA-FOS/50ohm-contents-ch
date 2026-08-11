@@ -7,7 +7,7 @@ Die vom Nachweisverfahren zum Schutz von Personen in elektromagnetischen Feldern
 ---
 
 Die Grenzwerte, die eine Sendeanlage einhalten muss, sind in der Nicht-Ionisierenden-Strahlungs-Verordnung
-[NISV](https://www.fedlex.admin.ch/eli/cc/2000/38/de) festgelegt. 
+[NISV](https://www.fedlex.admin.ch/eli/cc/2000/38/de) festgelegt. Die *NISV* ist ziemlich umfangreich und betrifft auch die kommerziellen Funkdienste. Deshalb ist hier das für Amateurfunkanlagen relevante zusammengefasst:
 
 *Grenzwerte für Amateurfunkanlagen* 
 
