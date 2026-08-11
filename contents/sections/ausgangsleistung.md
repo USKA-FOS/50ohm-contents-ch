@@ -6,9 +6,9 @@ Hier folgt zur Erinnerung nur noch eine kurze Zusammenfassung. Dann betrachten w
 Die zulässige Senderausgangsleistung unterscheidet sich je nach Konzessionklasse und Frequenzbereich.
 Die maximal zulässige Senderausgangsleistung (PEP) ist begrenzt:
 
-* für InhaberInnen einer Sendekonzession HB9: 1000 Watt
+* Sendekonzession HB3:  100 Watt
 
-* für InhaberInnen einer Sendekonzession HB3:  100 Watt
+* Sendekonzession HB9: 1000 Watt
 
 Auf gewissen Frequenzbändern gibt es bei beiden Konzessionsklassen weitere Einschränkungen, die einzuhalten sind. 
 
