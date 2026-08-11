@@ -2,6 +2,10 @@ Mit dem Wissen über Reihen- und Parallelschaltungen können wir nun auch komple
 
 Dennoch lassen sich diese Aufgaben sehr einfach systematisch lösen, indem zunächst eindeutig erkennbare Reihen- oder Parallelschaltungen schrittweise zu einem Gesamtwiderstand zusammengefasst werden. Die Widerstandswerte sind dabei bewusst so gewählt, dass sich die Lösung ohne Taschenrechner vollständig im Kopf ermitteln lässt. Man muss lediglich wissen, dass sich bei zwei gleich großen Widerständen, die parallel geschaltet sind, der Gesamtwiderstand halbiert.
 
+<indepth>
+Der so berechnete Gesamtwiderstand wird oft auch als *Ersatzwiderstand* bezeichnet, weil sich die gesamte Schaltung durch den *Ersatzwiderstand* ersetzen lässt.
+</indepth>
+
 [question:ED115]
 
 Lösen wir exemplarisch die erste Prüfungsaufgabe in Abbildung [ref:e_widerstandsnetzwerk_schritt0]. Im Schritt 1 fassen wir die Reihenschaltungen der $\qty{100}{\ohm}$-Widerstände zusammen. Diese ergeben jeweils $\qty{200}{\ohm}$-Widerstände, wie in Abbildung [ref:e_widerstandsnetzwerk_schritt1] gezeigt.
