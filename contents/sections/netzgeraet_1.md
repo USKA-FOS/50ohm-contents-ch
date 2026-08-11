@@ -12,27 +12,26 @@ Zur *Kontrolle des Betriebszustands* eines Netzgeräts gibt es beleuchtete Schal
 [question:ND102]
 
 ---
-Ein Netzgerät wird häufig mit einem **Stecker mit Schutzkontakt** an die Netzsteckdose angeschlossen. Bei einer Wechselspannung spielt die Einsteckrichtung grundsätzlich keine Rolle, da sich die Polarität der Spannung ständig ändert.
+Ein Netzgerät wird häufig mit einem **Stecker mit Schutzkontakt** an die Netzsteckdose angeschlossen. In der Schweiz werden dafür Stecksysteme nach
+*SN 441011* verwendet. Bei einer dreipoligen Steckdose sind die drei Anschlüsse für den *Aussenleiter (L)*, den *Neutralleiter (N)* und den *Schutzleiter (PE)* vorgesehen, wie in Abbildung [NE-10.3.2](https://50ohm.uska.ch/50ohm_review_de/NE_netzgeraet_1.html#ref_n_schutzkontakt) zu erkennen ist. Zwischen dem Aussenleiter L und dem Neutralleiter N liegt die Netzspannung von 230 V Wechselspannung an.
 
-In der Schweiz werden dafür Stecksysteme nach **SN 441011** verwendet. Bei einer dreipoligen Steckdose sind die drei Anschlüsse für den **Aussenleiter (L)**, den **Neutralleiter (N)** und den **Schutzleiter (PE)** vorgesehen, wie in Abbildung [NE-10.3.2](https://50ohm.uska.ch/50ohm_review_de/NE_netzgeraet_1.html#ref_n_schutzkontakt) zu erkennen ist. Zwischen dem Aussenleiter L und dem Neutralleiter N liegt die Netzspannung von **230 V Wechselspannung** an.
+Der Schutzkontakt des Steckers stellt beim Einstecken die Verbindung zum Schutzleiter PE der Steckdose her. „PE“ ist die Abkürzung für den englischen Begriff „protective earth“, also Schutzleiter bzw. Schutzerdung.
 
-Der **Schutzkontakt** des Steckers stellt beim Einstecken die Verbindung zum Schutzleiter PE der Steckdose her. „PE“ ist die Abkürzung für den englischen Begriff **„protective earth“**, also Schutzleiter bzw. Schutzerdung.
-
-Ist das Netzgerät mit einem leitfähigen Gehäuse und einem Schutzleiteranschluss ausgeführt, wird das Gehäuse über den PE-Leiter mit dem Schutzleitersystem der elektrischen Installation verbunden. Dadurch kann bei einem Isolationsfehler ein Fehlerstrom über den Schutzleiter abfliessen und die **Schutzeinrichtung**, beispielsweise ein Leitungsschutzschalter oder ein Fehlerstrom-Schutzschalter (FI/RCD), auslösen. Das Gehäuse bleibt dadurch im Normalfall nicht dauerhaft auf einer gefährlichen Spannung.
+Ist das Netzgerät mit einem leitfähigen Gehäuse und einem Schutzleiteranschluss ausgeführt, wird das Gehäuse über den PE-Leiter mit dem Schutzleitersystem der elektrischen Installation verbunden. Dadurch kann bei einem Isolationsfehler ein Fehlerstrom über den Schutzleiter abfliessen und die Schutzeinrichtung, beispielsweise ein Leitungsschutzschalter oder ein Fehlerstrom-Schutzschalter (Fi), auslösen. Das Gehäuse bleibt dadurch im Normalfall nicht dauerhaft auf einer gefährlichen Spannung.
 
 ---
-TODO: CHECK AND DELETE
-Ein Netzgerät wird oft mittels *Schutzkontaktstecker* (kurz Schukostecker) an der Steckdose angeschlossen. Beim Schutzkontaktstecker spielt die Einsteckrichtung keine Rolle, da sich die Polarität bei Wechselspannung ständig ändert. Stecker und Steckdose haben jeweils 3 Pole, wie in Abbildung [ref:n_schutzkontakt] zu erkennen ist. Die Stifte des Steckers passen in die Öffnungen der Steckdose und erlauben die Verbindung zu den sogenannten L- und N-Leitern, zwischen denen die gefährliche Wechselspannung von $\qty{230}{\volt}$ anliegt.
 
 <margin>
 [photo:86:n_schutzkontakt:Schutzkontakt an einer Steckdose und Schukostecker]
 </margin>
 
-Den äußeren Schleifkontakt des Schukosteckers nennt man *Schutzkontakt* (in der Abbildung [ref:n_schutzkontakt] rot markiert). Der Schutzkontakt verbindet sich beim Einstecken mit dem sogenannten *PE-Leiter* der Steckdose. "PE" ist die Abkürzung für den englischen Begriff "protective earth", der soviel wie Schutzerdung bedeutet. Beim Einstecken des Steckers wird das metallische Gehäuse des Netzgeräts also geerdet. Eine gefährliche Spannung auf dem Gehäuse wird dadurch ausgeschlossen.
-
-TODO: CHECK AND DELETE END
-
 [question:ND109]
+
+---
+
+Ein zweipoliger Anschluss, also ohne den Schutzleiter, ist nur dann zulässig, wenn das Gerät doppelt schutzisoliert ist.
+
+BILD einfügen 
 
 ---
 
