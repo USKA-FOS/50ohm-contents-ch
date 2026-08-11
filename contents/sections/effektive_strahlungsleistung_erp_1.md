@@ -2,6 +2,8 @@ Am Anfang dieses Kapitels haben wir uns mit dem Dipol als Grundform aller Antenn
 * Eine Groundplane-Antenne strahlt in alle Himmelsrichtungen nahezu gleichmäßig ab, aber nicht nach oben oder unten.
 * Bei einer Yagi-Uda-Antenne werden die Funkwellen wie bei einer Taschenlampe in einem Strahl nach vorn gebündelt und in alle anderen Richtungen reduziert.
 
+---
+
 <law>
 Die Grenzwerte, die eine Sendeanlage einhalten muss, sind in der Nicht-Ionisierenden-Strahlungs-Verordnung
 [NISV](https://www.fedlex.admin.ch/eli/cc/2000/38/de) festgelegt. Die *NISV* ist ziemlich umfangreich und betrifft auch die kommerziellen Funkdienste. Deshalb ist hier das für Amateurfunkanlagen relevante zusammengefasst:
