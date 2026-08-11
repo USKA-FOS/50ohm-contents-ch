@@ -1,4 +1,4 @@
-Bereits aus der Klasse-N-Ausbildung ist die Grundfunktion der Diode bekannt: sie lässt Strom nur in einer Richtung fließen, nämlich wenn die an der Anode anliegende Spannung ($U_a$) größer ist als die Spannung an der Kathode ($U_k$), vgl. Abbildung [ref:e_diode_u_i].
+Bereits aus dem Kapitel [sec:halbleiter] ist die Grundfunktion der Diode bekannt: sie lässt Strom nur in einer Richtung fließen, nämlich wenn die an der Anode anliegende Spannung ($U_a$) größer ist als die Spannung an der Kathode ($U_k$), vgl. Abbildung [ref:e_diode_u_i].
 
 <margin>
 [picture:859:e_diode_u_i:Spannungen und Strom an einer Diode mit Vorwiderstand]
