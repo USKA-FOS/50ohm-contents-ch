@@ -2,10 +2,6 @@ Am Anfang dieses Kapitels haben wir uns mit dem Dipol als Grundform aller Antenn
 * Eine Groundplane-Antenne strahlt in alle Himmelsrichtungen nahezu gleichmäßig ab, aber nicht nach oben oder unten.
 * Bei einer Yagi-Uda-Antenne werden die Funkwellen wie bei einer Taschenlampe in einem Strahl nach vorn gebündelt und in alle anderen Richtungen reduziert.
 
-Die vom Nachweisverfahren zum Schutz von Personen in elektromagnetischen Feldern vorgegebenen Grenzwerte muss eine Sendeanlage in jede Richtung einhalten. Wenn in einem bestimmten Abstand von der Antenne die Grenzwerte in die Richtung eingehalten werden, in die sie am stärksten abstrahlt, dann wird sie die Grenzwerte im gleichen Abstand auch in alle anderen Richtungen einhalten. Daher interessiert uns besonders die Richtung der stärksten Abstrahlung. Diese wird als *Hauptstrahlrichtung* bezeichnet.
-
----
-
 <law>
 Die Grenzwerte, die eine Sendeanlage einhalten muss, sind in der Nicht-Ionisierenden-Strahlungs-Verordnung
 [NISV](https://www.fedlex.admin.ch/eli/cc/2000/38/de) festgelegt. Die *NISV* ist ziemlich umfangreich und betrifft auch die kommerziellen Funkdienste. Deshalb ist hier das für Amateurfunkanlagen relevante zusammengefasst:
@@ -22,6 +18,10 @@ Darüber hinaus ist *kein Anlagegrenzwert* einzuhalten, solange die Betriebsdaue
 
 Als "Orte Mit Empfindlicher Nutzung" (OMEN) gelten Orte, an denen sich Personen regelmässig während längerer Zeit aufhalten.
 </law>
+
+---
+
+Die vom Nachweisverfahren zum Schutz von Personen in elektromagnetischen Feldern vorgegebenen Grenzwerte muss eine Sendeanlage in jede Richtung einhalten. Wenn in einem bestimmten Abstand von der Antenne die Grenzwerte in die Richtung eingehalten werden, in die sie am stärksten abstrahlt, dann wird sie die Grenzwerte im gleichen Abstand auch in alle anderen Richtungen einhalten. Daher interessiert uns besonders die Richtung der stärksten Abstrahlung. Diese wird als *Hauptstrahlrichtung* bezeichnet.
 
 ---
 
