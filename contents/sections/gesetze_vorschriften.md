@@ -33,3 +33,5 @@ Es gibt noch weitere Regeln in anderen Gesetzen, von denen einige auch den Amate
 
 [question:VC104]
 Die Aufgaben und Befugnisse, die aus dem AFuG und der AFuV erwachsen, nimmt die Bundesnetzagentur (BNetzA) wahr. 
+Das Bundesamt für Kommunikation (BAKOM) ist für die Belange des Amateurfunks zuständig.  
+% extra den Originaltext stehen lassen als Vergleich. Der Satz gefällt mir noch nicht. Auch ohne VC104 find ich ihn nichtunwichtig. Habe extra nicht "alle Belange" geschrieben weil ja NISV nicht BAKOM ist.
