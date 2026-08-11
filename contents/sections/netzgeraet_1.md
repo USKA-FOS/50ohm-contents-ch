@@ -17,7 +17,9 @@ Ein Netzgerät wird häufig mit einem **Stecker mit Schutzkontakt** an die Netzs
 
 Der Schutzkontakt des Steckers stellt beim Einstecken die Verbindung zum Schutzleiter PE der Steckdose her. „PE“ ist die Abkürzung für den englischen Begriff „protective earth“, also Schutzleiter bzw. Schutzerdung.
 
-Ist das Netzgerät mit einem leitfähigen Gehäuse und einem Schutzleiteranschluss ausgeführt, wird das Gehäuse über den PE-Leiter mit dem Schutzleitersystem der elektrischen Installation verbunden. Dadurch kann bei einem Isolationsfehler ein Fehlerstrom über den Schutzleiter abfliessen und die Schutzeinrichtung, beispielsweise ein Leitungsschutzschalter oder ein Fehlerstrom-Schutzschalter (Fi), auslösen. Das Gehäuse bleibt dadurch im Normalfall nicht dauerhaft auf einer gefährlichen Spannung.
+Ist das Netzgerät mit einem leitfähigen Gehäuse und einem Schutzleiteranschluss ausgeführt, wird das Gehäuse über den PE-Leiter mit dem Schutzleitersystem der elektrischen Installation verbunden. Dadurch kann bei einem Isolationsfehler ein Fehlerstrom über den Schutzleiter abfliessen und die Schutzeinrichtung, beispielsweise ein Leitungsschutzschalter oder ein Fehlerstrom-Schutzschalter (Fi), auslösen. Das Gehäuse bleibt dadurch im Normalfall nicht dauerhaft auf einer gefährlichen Spannung. Ein zweipoliger Anschluss, also ohne den Schutzleiter, ist nur dann zulässig, wenn das Gerät doppelt schutzisoliert ist.
+
+BILD einfügen
 
 ---
 
@@ -26,12 +28,6 @@ Ist das Netzgerät mit einem leitfähigen Gehäuse und einem Schutzleiteranschlu
 </margin>
 
 [question:ND109]
-
----
-
-Ein zweipoliger Anschluss, also ohne den Schutzleiter, ist nur dann zulässig, wenn das Gerät doppelt schutzisoliert ist.
-
-BILD einfügen 
 
 ---
 
