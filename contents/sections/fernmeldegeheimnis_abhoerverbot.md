@@ -56,10 +56,9 @@ Bspw wenn man "im Abschnitt [sec:kondensator_2] wird da noch tiefer darauf einge
 Bspw wenn man "wie wir im Abschnitt [sec:kondensator_2] schon gelernt haben." schreiben will. (Verweis auf eine HB3 Section in der HB9 Upgrade Edition.)
 
 
-<margin>
-Das ist ein Muster wie der Text bei editonsübergreifenden Verweisen sein sollte (Wunsch) - Es ist okay, wenn die editonsübergreifenden Verweise nicht verlinkt sind.
 
-Bspw wenn man "im Abschnitt *Kondensator_2* wird da noch tiefer darauf eingegangen." schreiben will (Verweis auf eine HB9 Section in der HB3 Edition.)
+Externer Link
+So macht man einen Direktlink auf eine externe Seite [angezeigter Text](Direktlink zur Zielseite)
 
-Bspw wenn man "wie wir im Abschnitt *Kondensator_1* schon gelernt haben." schreiben will. (Verweis auf eine HB3 Section in der HB9 Upgrade Edition.)
-</margin>
+
+
