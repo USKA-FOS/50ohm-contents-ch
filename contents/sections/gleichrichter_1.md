@@ -2,7 +2,7 @@
 [picture:666:n_halbleiter_diode_merkhilfe:Merkhilfe Diode]
 </margin>
 
-Um aus einer Wechselspannung eine Gleichspannung zu erzeugen, wird ein Gleichrichter benötigt. Die einfachste Form der Gleichrichtung erfolgt mithilfe einer Diode. Wie wir bereits in der Klasse N gelernt haben, lässt eine Diode den Strom nur in einer Richtung fließen.
+Um aus einer Wechselspannung eine Gleichspannung zu erzeugen, wird ein Gleichrichter benötigt. Die einfachste Form der Gleichrichtung erfolgt mithilfe einer Diode. Wie wir bereits im Kapitel [sec:diode] gelernt haben, lässt eine Diode den Strom nur in einer Richtung fließen.
 
 ---
 
@@ -21,4 +21,4 @@ Während der negativen Halbwelle sperrt die Diode, sodass die Ausgangsspannung i
 
 Schaltet man nun zusätzlich einen ausreichend großen Kondensator parallel zum Lastwiderstand, lädt sich dieser während der leitenden Halbwelle schnell über die Diode auf. In der darauffolgenden Halbwelle, in der die Diode sperrt, entlädt sich der Kondensator langsam über den Widerstand. Auf diese Weise wird die pulsierende Spannung geglättet und nähert sich einer Gleichspannung an.
 
-Neben der Einweggleichrichtung existieren weitere Gleichrichterschaltungen, beispielsweise der Brückengleichrichter. Auf diese Varianten werden wir jedoch erst in der Klasse A genauer eingehen.
+Neben der Einweggleichrichtung existieren weitere Gleichrichterschaltungen, beispielsweise der Brückengleichrichter. Auf diese Varianten werden wir jedoch erst im Kurs für HB9 in den Kapiteln [sec:gleichrichter_2] und [sec:brueckengleichrichter] genauer eingehen.
