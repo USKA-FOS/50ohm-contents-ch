@@ -1,4 +1,7 @@
-WORK IN PROGRESS @ARK
+Das Thema Vorschriften betreffend die Ausgangsleistung wurde bereits im Kapitel [sec:frequenzzuteilung] ausführlich behandelt. 
+Hier folgt zur Erinnerung nur noch eine kurze Zusammenfassung. Dann betrachten wir hier technische Aspekte der Ausgangsleistung.
+
+---
 
 Die zulässige Senderausgangsleistung unterscheidet sich je nach Konzessionklasse und Frequenzbereich.
 Die maximal zulässige Senderausgangsleistung (PEP) ist begrenzt:
@@ -6,7 +9,7 @@ Die maximal zulässige Senderausgangsleistung (PEP) ist begrenzt:
 * für InhaberInnen einer Sendekonzession HB9: 1000 Watt
 * für InhaberInnen einer Sendekonzession HB3:  100 Watt
 
-Auf gewissen Frequenzbändern gibt es bei beide  Konzessionsklassen weitere Einschränkungen, die einzuhalten sind. 
+Auf gewissen Frequenzbändern gibt es bei beiden Konzessionsklassen weitere Einschränkungen, die einzuhalten sind. 
 
 Die detaillierten Frequenzbereiche und Leistungsgrenzen sind auf der [BAKOM-Mebseite](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf) aufgeführt. Dieses Hilfsblatt darf an der Prüfung verwendet werden.
 
@@ -14,8 +17,8 @@ Die detaillierten Frequenzbereiche und Leistungsgrenzen sind auf der [BAKOM-Mebs
 Begrifflichkeiten:
   
 * die *Strahlungsleistung* ist die Leistung, die eine Sendeantenne abgeben kann. Der Gewinn (gain) der Antenne wird dabei berücksichtigt.
-* die *Senderausgangsleistung* ist die am Antennenausgang des Funkgeräts gemessene Leistung. 
 
+* die *Senderausgangsleistung* ist die am Antennenausgang des Funkgeräts gemessene Leistung. 
 </indepth>
 
 Die Senderausgangsleistung ist die Leistung, die ein Funkgerät am Antennenausgang abgibt, bevor Zusatzgeräte durchlaufen werden, wie z. B. ein externes SWR-Meter oder Anpassgeräte. Sie wird als sogenannte *peak envelope power (PEP)* angegeben. Wir werden darauf in einem späteren Kapitel zurückkommen, wenn wir uns im Zusammenhang mit dem Personenschutz [sec:personenschutzabstand] die Strahlungsleistung von Antennen besprechen. Viele Funkgeräte verfügen über ein *Power-Meter*, das die aktuelle Senderausgangsleistung anzeigt. Es ist beispielsweise mit "P" oder "PO" oder "PWR" beschriftet.
