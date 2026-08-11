@@ -12,12 +12,14 @@ Die Grenzwerte, die eine Sendeanlage einhalten muss, sind in der Nicht-Ionisiere
 *Grenzwerte für Amateurfunkanlagen* 
 
 Amateurfunkanlagen müssen die *Immissionsgrenzwerte* der NISV einhalten. Je nach Frequenz liegen diese zwischen 28 und 87 [V/m].
-Zur Berechnung der einzuhaltenden Abstände gibt es geeignete Programme bzw. Excel Tabellen.
+Zur Berechnung der einzuhaltenden Abstände gibt es geeignete Programme bzw. Excel Tabellen:
 
-*TODO Programme bzw. Excel Tabellen angeben*
+[Hilfsmittel zur NISV-Berechnung](https://uska.ch/emissions-berechnung/)
 
-Darüber hinaus ist kein Anlagegrenzwert einzuhalten, solange die Betriebsdauer unter 800 Stunden pro Jahr liegt. Dies ist bei Amateurfunkanwendungen praktisch immer der Fall. Sendet eine Anlage ausnahmsweise doch mehr, so muss sie an Orten mit empfindlicher Nutzung (OMEN) einen Anlagegrenzwert einhalten. Dieser beträgt bei Langwellen- und Mittelwellensendern 8.5 V/m und für alle übrigen Frequenzbänder 3.0 V/m
+Darüber hinaus ist *kein Anlagegrenzwert* einzuhalten, solange die Betriebsdauer *unter 800 Stunden pro Jahr* liegt. Dies ist bei Amateurfunkanwendungen praktisch immer der Fall. Sendet eine Anlage ausnahmsweise doch mehr, so muss sie an Orten mit empfindlicher Nutzung (OMEN) einen Anlagegrenzwert einhalten. Dieser beträgt bei Langwellen- und Mittelwellensendern 8.5 V/m und für alle übrigen Frequenzbänder 3.0 V/m
 [Quellenangabe](https://www.bafu.admin.ch/de/amateurfunk-als-elektrosmog-quelle)
+
+Als "Orte Mit Empfindlicher Nutzung" (OMEN) geltenOrte, an denen sich Personen regelmässig während längerer Zeit aufhalten.
 
 ---
 
