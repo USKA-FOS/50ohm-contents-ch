@@ -6,6 +6,7 @@ Die vom Nachweisverfahren zum Schutz von Personen in elektromagnetischen Feldern
 
 ---
 
+<law>
 Die Grenzwerte, die eine Sendeanlage einhalten muss, sind in der Nicht-Ionisierenden-Strahlungs-Verordnung
 [NISV](https://www.fedlex.admin.ch/eli/cc/2000/38/de) festgelegt. Die *NISV* ist ziemlich umfangreich und betrifft auch die kommerziellen Funkdienste. Deshalb ist hier das für Amateurfunkanlagen relevante zusammengefasst:
 
@@ -19,7 +20,8 @@ Zur Berechnung der einzuhaltenden Abstände gibt es geeignete Programme bzw. Exc
 Darüber hinaus ist *kein Anlagegrenzwert* einzuhalten, solange die Betriebsdauer *unter 800 Stunden pro Jahr* liegt. Dies ist bei Amateurfunkanwendungen praktisch immer der Fall. Sendet eine Anlage ausnahmsweise doch mehr, so muss sie an Orten mit empfindlicher Nutzung (OMEN) einen Anlagegrenzwert einhalten. Dieser beträgt bei Langwellen- und Mittelwellensendern 8.5 V/m und für alle übrigen Frequenzbänder 3.0 V/m
 [Quellenangabe](https://www.bafu.admin.ch/de/amateurfunk-als-elektrosmog-quelle)
 
-Als "Orte Mit Empfindlicher Nutzung" (OMEN) geltenOrte, an denen sich Personen regelmässig während längerer Zeit aufhalten.
+Als "Orte Mit Empfindlicher Nutzung" (OMEN) gelten Orte, an denen sich Personen regelmässig während längerer Zeit aufhalten.
+</law>
 
 ---
 
