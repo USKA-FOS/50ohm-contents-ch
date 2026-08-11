@@ -16,7 +16,9 @@ Der Amateurfunk in der Schweiz ist nicht in einem Gesetz geregelt. Die Rechtsgru
 ---
 <law>
 [Fernmeldegesetz FMG](https://www.fedlex.admin.ch/eli/cc/1997/2187_2187_2187/de)
+  
 [Verordnung über die Nutzung des Funkfrequenzspektrums VNF](https://www.fedlex.admin.ch/eli/cc/2020/1024/de)
+
 [Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums VVNF](https://www.fedlex.admin.ch/eli/cc/2020/914/de)
 </law>
 [question:VU001]
