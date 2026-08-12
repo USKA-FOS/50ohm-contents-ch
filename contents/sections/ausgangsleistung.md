@@ -32,8 +32,7 @@ Um die peak envelope power (PEP) zu ermitteln, misst man - vereinfacht gesagt - 
 
 <law>
   
- Zur Erinnerung:
- Erlaubte Bänder und maximal zulässige Sendeleistung für **HB3**
+ Zur Erinnerung: Erlaubte Bänder und maximal zulässige Sendeleistung für **HB3**
   
 | Frequenzband | Max. Leistung |
 |              |               |
@@ -46,20 +45,16 @@ Um die peak envelope power (PEP) zu ermitteln, misst man - vereinfacht gesagt - 
 | 430–440 MHz | 50 W |
 </law>
 
-Zur Erinnerung:
-Erlaubte Bänder und maximal zulässige Sendeleistung für **HB9**
-
 <law>
+Zur Erinnerung: Erlaubte Bänder und maximal zulässige Sendeleistung für **HB9**
 | Frequenzband | Max. Leistung |
 |              |               |
-| 1810–1850 kHz | 1000 W |
-| 1850–2000 kHz | 1000 W |
+| 1810–2000 kHz | 1000 W |
 | 3500–3800 kHz | 1000 W |
 | 5351.5–5366.5 kHz | 15 W EIRP |
 | 7000–7200 kHz | 1000 W |
 | 10100–10150 kHz | 1000 W |
-| 14000–14250 kHz | 1000 W |
-| 14250–14350 kHz | 1000 W |
+| 14000–14350 kHz | 1000 W |
 | 18068–18168 kHz | 1000 W |
 | 21000–21450 kHz | 1000 W |
 | 24890–24990 kHz | 1000 W |
