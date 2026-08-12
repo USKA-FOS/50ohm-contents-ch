@@ -30,6 +30,10 @@ Um die peak envelope power (PEP) zu ermitteln, misst man - vereinfacht gesagt - 
 
 [question:NF102]
 
+<margin>
+Im Kapitel [sec:frequenzzuteilung] wurden die Frequenzen der Amateurfunkbänder ausführlich behandelt. 
+</margin>
+
 <law>
   
  Zur Erinnerung: Erlaubte Bänder und maximal zulässige Sendeleistung für **HB3**
