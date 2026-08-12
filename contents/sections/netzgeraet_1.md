@@ -1,5 +1,9 @@
 Ein Netzgerät wandelt die Wechselspannung von $\qty{230}{\volt}$ aus der Steckdose in eine kleinere Gleichspannung um. Im Amateurfunk verwenden wir häufig Netzgeräte, die an ihrem Ausgang eine Gleichspannung von $\qty{13,8}{\volt}$ bereitstellen, um damit beispielsweise einen Transceiver zu betreiben.
 
+<danger>
+Zweipolige Stecker dürfen nur für doppelt schutzisolierte Geräte verwendet werden.
+</danger>
+
 <margin>
 [picture:740:n_netzgeraet:Netzgerät]
 </margin>
