@@ -46,7 +46,9 @@ Um die peak envelope power (PEP) zu ermitteln, misst man - vereinfacht gesagt - 
 </law>
 
 <law>
+
 Zur Erinnerung: Erlaubte Bänder und maximal zulässige Sendeleistung für **HB9**
+
 | Frequenzband | Max. Leistung |
 |              |               |
 | 1810–2000 kHz | 1000 W |
