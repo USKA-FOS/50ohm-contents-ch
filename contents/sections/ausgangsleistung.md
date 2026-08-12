@@ -29,3 +29,17 @@ Um die peak envelope power (PEP) zu ermitteln, misst man - vereinfacht gesagt - 
 </indepth>
 
 [question:NF102]
+
+<law>
+  HB3
+  
+| Frequenzband | Max. Leistung |
+| ------------ | ------------- |
+| 1810–1850 kHz | 100 W |
+| 1850–2000 kHz | 100 W |
+| 3500–3800 kHz | 100 W |
+| 21000–21450 kHz | 100 W |
+| 28000–29700 kHz | 100 W |
+| 144–146 MHz | 50 W |
+| 430–440 MHz | 50 W |
+</law>
