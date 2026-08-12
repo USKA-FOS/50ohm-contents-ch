@@ -34,6 +34,8 @@ Um die peak envelope power (PEP) zu ermitteln, misst man - vereinfacht gesagt - 
 Im Kapitel [sec:frequenzzuteilung] wurden die Frequenzen der Amateurfunkbänder, die zulässigen Senderausgangsleistungen und weitere Punkte ausführlich behandelt. 
 </margin>
 
+% @YPA: Vielleicht willst Du die nachfolgenden zwei Tabellen auch ins Kapitel Frequenzzuteilung verschieben? de ARK
+
 <law>
   
  Zur Erinnerung: Erlaubte Bänder und maximal zulässige Sendeleistung für **HB3**
