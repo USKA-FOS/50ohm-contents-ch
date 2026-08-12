@@ -1,9 +1,5 @@
 Ein Netzgerät wandelt die Wechselspannung von $\qty{230}{\volt}$ aus der Steckdose in eine kleinere Gleichspannung um. Im Amateurfunk verwenden wir häufig Netzgeräte, die an ihrem Ausgang eine Gleichspannung von $\qty{13,8}{\volt}$ bereitstellen, um damit beispielsweise einen Transceiver zu betreiben.
 
-<danger>
-Zweipolige Stecker dürfen nur für doppelt schutzisolierte Geräte verwendet werden.
-</danger>
-
 <margin>
 [picture:740:n_netzgeraet:Netzgerät]
 </margin>
@@ -14,6 +10,10 @@ Zur *Kontrolle des Betriebszustands* eines Netzgeräts gibt es beleuchtete Schal
 
 [question:ND101]
 [question:ND102]
+
+<danger>
+Zweipolige Stecker dürfen nur für doppelt schutzisolierte Geräte verwendet werden.
+</danger>
 
 ---
 Ein Netzgerät wird häufig mit einem **Stecker mit Schutzkontakt** an die Netzsteckdose angeschlossen. In der Schweiz werden dafür Stecksysteme nach
