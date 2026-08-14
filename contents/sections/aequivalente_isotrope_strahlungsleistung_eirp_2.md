@@ -101,7 +101,7 @@ Bei der nächsten Frage können wir genauso vorgehen wie bei der vorhergehenden 
 
 ---
 
-Für viele Funkamateure ist es schwierig den notwendigen Sicherheitsabstand bei einer Sendeleistung von z.B. $\qty{100}{\watt}$ einzuhalten. Der QRP-Betrieb ist in diesen Fällen eine Lösung. Bleibt man mit der Strahlungsleistung unter der $\qty{10}{\watt}$-EIRP-Grenze, kann die Anzeige einer ortsfesten Amateurfunkanlage nach § 9 BEMFV entfallen. Auch bei einem nicht-QRP-Gerät kann man die Ausgangsleistung auf einen bestimmten Wert reduzieren, wie in Abbildung [ref:e_ausgangsleistung_ic] dargestellt.
+Für viele Funkamateure ist es schwierig den notwendigen Sicherheitsabstand bei einer Sendeleistung von z.B. $\qty{100}{\watt}$ einzuhalten. Der QRP-Betrieb ist in diesen Fällen eine Lösung. Auch bei einem nicht-QRP-Gerät kann man die Ausgangsleistung auf einen bestimmten Wert reduzieren, wie in Abbildung [ref:e_ausgangsleistung_ic] dargestellt.
 
 <margin>
 [photo:229:e_ausgangsleistung_ic:Bei vielen Transeiver lässt sich die Ausgangsleistung stufenlos, oder wie hier beim IC-705 in kleinen Schritten einstellen.]
