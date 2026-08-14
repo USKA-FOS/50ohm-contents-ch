@@ -1,3 +1,5 @@
+ERSATZLOS STREICHEN - KEIN ÄQUVALENT IN HB
+
 Möchte ein Funkamateur das Nachweisverfahren zur Begrenzung elektromagnetischer Felder nicht selbst durchführen, kann er dies - wie jeder andere Betreiber einer Sendeanlage - durch die Bundesnetzagentur durchführen lassen. Dazu muss eine sogenannte "Standortbescheinigung" beantragt werden.
 
 <indepth>
