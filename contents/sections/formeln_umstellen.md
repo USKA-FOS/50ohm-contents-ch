@@ -1,8 +1,8 @@
 Bereits in der Ausbildung zur Klasse N haben wir den Zusammenhang zwischen der Frequenz ($f$) und der Wellenlänge ($\lambda$) kennengelernt. Damals wurden dazu zwei speziell zugeschnittene Größengleichungen aus der Formelsammlung für die Prüfung angegeben.
 
-$f[[\unit{\mega\hertz}]] = \dfrac{300}{\lambda[[\unit{\meter}]]}$
+$f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]}$
 
-$\lambda[[\unit{\meter}]] = \dfrac{300}{f[[\unit{\mega\hertz}]]}$
+$\lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]}$
 
 <indepth>
 Gleichungen, bei denen bereits angegeben wird, in welcher Einheit die Werte zu stehen haben,  nennt man  *zugeschnittene Größengleichungen*. 
