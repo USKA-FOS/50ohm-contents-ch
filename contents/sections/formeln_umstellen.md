@@ -60,4 +60,4 @@ $f = \dfrac{\qty{300000000}{\meter\per\second}}{\qty{2,069}{\meter}} = \dfrac{\n
 
 Dabei haben wir berücksichtigt, dass $\frac{1}{\unit{\second}} = \qty{1}{\hertz}$ ist.
 
-Wir können Formeln nun mithilfe von Multiplikation und Division umstellen. Später begegnen uns weitere Formeln, bei denen auch Addition und Subtraktion, Potenzen und Wurzeln erforderlich sind. In Kurs für HB9 kommen schließlich sogar Logarithmen hinzu. Keine Angst, an den jeweiligen Stellen werden wir genau erklären, wie diese Formeln Schritt für Schritt umgestellt werden.
+Wir können Formeln nun mithilfe von Multiplikation und Division umstellen. Später begegnen uns weitere Formeln, bei denen auch Addition und Subtraktion, Potenzen und Wurzeln erforderlich sind. In Kapitel [sec:dezibel_1] und  [sec:dezibel_2] kommen schließlich sogar Logarithmen hinzu. Keine Angst, an den jeweiligen Stellen werden wir genau erklären, wie diese Formeln Schritt für Schritt umgestellt werden.
