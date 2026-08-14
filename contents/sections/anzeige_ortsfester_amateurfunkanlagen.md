@@ -1,3 +1,8 @@
+NUR DOKUMENTATIONSPFLICHT
+Titel ändern
+Texte sinngemäss übernehmen
+
+
 Bevor wir auf die Strahlungsleistung eingegangen sind, haben wir besprochen, dass der Nachweis der Einhaltung der Personenschutzgrenzwerte erst dann erforderlich ist, wenn eine bestimmte Strahlungsleistung erreicht wird. Da wir jetzt wissen, was EIRP bedeutet, können wir diese jetzt auch beziffern: Für ortsfeste Amateurfunkstellen muss das Nachweisverfahren nur dann durchgeführt werden, wenn die Sendeanlage eine Strahlungsleistung von $\qty{10}{\watt}$ EIRP oder höher erreicht.
 
 [question:VE508]
