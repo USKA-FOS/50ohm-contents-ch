@@ -13,7 +13,9 @@ Das liegt daran, dass nur im Fernfeld das elektrische und das magnetische Feld e
 <indepth>
 Das Fernfeld einer Strahlungsquelle, ist der Bereich, in dem die Vektoren der elektrischen Feldstärke ($E$), der magnetischen Feldstärke ($H$) senkrecht aufeinander stehen und keine Phasendifferenzen aufweisen. 
 
-Die Grenze zwischen Fernfeld und Nahfeld ist in erster Linie abhängig von der Wellenlänge. Das Fernfeld bildet sich, laut der [Wegleitung zur Emissionserklärung für Amateurfunkanlagen](https://uska.ch/wp-content/uploads/2016/06/Wegleitung_d_08-03-02_Rev_A-1.pdf) der USKA [**Emissions-Berechnung** ](https://uska.ch/emissions-berechnung/) in einem Abstand von etwa $4\cdot\lambda$ aus. 
+Die Grenze zwischen Fernfeld und Nahfeld ist in erster Linie abhängig von der Wellenlänge. Das Fernfeld bildet sich, laut der [Wegleitung zur Emissionserklärung für Amateurfunkanlagen](https://uska.ch/wp-content/uploads/2016/06/Wegleitung_d_08-03-02_Rev_A-1.pdf) der in einem Abstand von etwa $4\cdot\lambda$ aus. 
+
+Ausführliche Informationen zur Erstellung einer konkreten Emmissionserklärung findet man bei der USKA unter [**Emissions-Berechnung** ](https://uska.ch/emissions-berechnung/).
 
 % Entfernte deutsche Quelle: [Erläuterungen zur BEMFV](https://50ohm.de/ebemfv)
 
@@ -24,11 +26,15 @@ Mit der Formel $ d > \frac{\lambda}{2\pi} $ stellen wir also sicher, dass wir au
 
 %TODO Applet basteln: https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-wellen/versuche/dipolstrahlung-animation
 
+<tip>
+Die Emmissionserklärung braucht nicht eingereicht zu werden; sie muss allerdings bei Bedarf, z. Bsp. bei verursachtrn Störungen, vorgelegt werden können.
+</tip>
+
 Auf diesen Sachverhalt zielt die folgende Frage ab:
 
 [question:EK105]
 
-Für $\qty{3,5}{\mega\hertz}$ beginnt das Fernfeld (strahlendes Nahfeld) erst bei $\qty{13,64}{\meter}$.
+Für $\qty{3,5}{\mega\hertz}$  beginnt das Fernfeld (strahlendes Nahfeld) erst bei $\qty{13,64}{\meter}$.
 
  $\begin{split} d &> \frac{\lambda}{2 \cdot \pi}\\ d &> \frac{\qty{85,7}{\meter}}{2 \cdot \pi}\\ d &> \qty{13,64}{\meter}\end{split}$
  
