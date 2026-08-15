@@ -8,14 +8,14 @@ $ d = \frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{E} $
 
 Die Formelsammlung hat noch einen Hinweis, dass die obige Formel erst für Berechnungen im Fernfeld (bzw. stahlendem Nahfeld) ab $ d > \frac{\lambda}{2\pi} $ gilt.
 
-Das liegt daran, dass nur im Fernfeld das elektrische und das magnetische Feld eine feste, konstante Phasenbeziehung zueinander aufweisen. Im reaktiven Nahfeld kann es hingegen lokal zu starken Überhöhungen sowohl des elektrischen als auch des magnetischen Feldes kommen. Diese Effekte lassen sich mit den Näherungsformeln für das Fernfeld nicht zuverlässig erfassen. Für Berechnungen im reaktiven Nahfeld, also für Abstände $d \le \frac{\lambda}{2\pi}$, sind daher in der Regel numerische Simulationen erforderlich. Mit Einschränkungen (nicht bei magnetischen Antennen, nicht bei sehr kurzen Antennen) sind die Ergebnisse auch im strahlenden Nahfeld brauchbar.
+Das liegt daran, dass nur im Fernfeld das elektrische und das magnetische Feld eine feste, konstante Phasenbeziehung zueinander aufweisen. Im reaktiven Nahfeld kann es hingegen lokal zu starken Überhöhungen sowohl des elektrischen als auch des magnetischen Feldes kommen. Diese Effekte lassen sich mit den Näherungsformeln für das Fernfeld nicht zuverlässig erfassen. Für Berechnungen im reaktiven Nahfeld, also für Abstände $d \le \frac{\lambda}{2\pi}$, sind daher in der Regel numerische Simulationen,  z.Bsp. mit [EZNEC](https://www.eznec.com/) oder [Grasp/TICRA Student-Edition](https://www.ticra.com/software/ticra-tools-student-edition/) erforderlich. Der Umgang mit numerischen Simulatoren ist für die Prüfung nicht relevant; er kann aber später in der Praxis für die Beurteilung von Antennen Bedeutung erlangen. Mit Einschränkungen (nicht bei magnetischen Antennen, nicht bei sehr kurzen Antennen) sind die Ergebnisse auch im strahlenden Nahfeld brauchbar.
 
 <indepth>
 Das Fernfeld einer Strahlungsquelle, ist der Bereich, in dem die Vektoren der elektrischen Feldstärke ($E$), der magnetischen Feldstärke ($H$) senkrecht aufeinander stehen und keine Phasendifferenzen aufweisen. 
 
-Die Grenze zwischen Fernfeld und Nahfeld ist in erster Linie abhängig von der Wellenlänge. Das Fernfeld bildet sich, laut der [Formelblatt zur Emissionserklärung für Amateurfunkanlagen](https://uska.ch/wp-content/uploads/2016/06/Formelblatt_d_08-02-21.pdf) der in einem Abstand von etwa $4\cdot\lambda$ aus. 
+Die Grenze zwischen Fernfeld und Nahfeld ist in erster Linie abhängig von der Wellenlänge. Das Fernfeld bildet sich, laut des [Formelblatts zur Emissionserklärung für Amateurfunkanlagen](https://uska.ch/wp-content/uploads/2016/06/Formelblatt_d_08-02-21.pdf) in einem Abstand von etwa $4\cdot\lambda$ aus. 
 
-Ausführliche Informationen zur Erstellung einer konkreten Emmissionserklärung findet man bei der USKA unter [**Emissions-Berechnung** ](https://uska.ch/emissions-berechnung/) und in der [Wegleitungzur zur Emissionserklärung für Amateurfunkanlagen](https://uska.ch/wp-content/uploads/2016/06/Wegleitung_d_08-03-02_Rev_A-1.pdf).
+Ausführliche Informationen zur Erstellung einer konkreten Emmissionserklärung findet man bei der USKA unter [**Emissions-Berechnung**](https://uska.ch/emissions-berechnung/) und die Vorgehensweise ist in der [Wegleitungzur zur Emissionserklärung für Amateurfunkanlagen](https://uska.ch/wp-content/uploads/2016/06/Wegleitung_d_08-03-02_Rev_A-1.pdf) beschrieben.
 
 % Entfernte deutsche Quelle: [Erläuterungen zur BEMFV](https://50ohm.de/ebemfv)
 
