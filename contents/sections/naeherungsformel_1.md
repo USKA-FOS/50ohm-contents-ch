@@ -15,7 +15,7 @@ Das Fernfeld einer Strahlungsquelle, ist der Bereich, in dem die Vektoren der el
 
 Die Grenze zwischen Fernfeld und Nahfeld ist in erster Linie abhängig von der Wellenlänge. Das Fernfeld bildet sich, laut des [Formelblatts zur Emissionserklärung für Amateurfunkanlagen](https://uska.ch/wp-content/uploads/2016/06/Formelblatt_d_08-02-21.pdf) in einem Abstand von etwa $4\cdot\lambda$ aus. 
 
-Ausführliche Informationen zur Erstellung einer konkreten Emmissionserklärung findet man bei der USKA unter [**Emissions-Berechnung**](https://uska.ch/emissions-berechnung/) und die Vorgehensweise ist in der [Wegleitung zur zur Emissionserklärung für Amateurfunkanlagen](https://uska.ch/wp-content/uploads/2016/06/Wegleitung_d_08-03-02_Rev_A-1.pdf) beschrieben.
+Ausführliche Informationen zur Erstellung einer konkreten Emmissionserklärung findet man bei der USKA unter [**Emissions-Berechnung**](https://uska.ch/emissions-berechnung/) und die Vorgehensweise ist in der [Wegleitung zur Emissionserklärung für Amateurfunkanlagen](https://uska.ch/wp-content/uploads/2016/06/Wegleitung_d_08-03-02_Rev_A-1.pdf) beschrieben.
 
 % Entfernte deutsche Quelle: [Erläuterungen zur BEMFV](https://50ohm.de/ebemfv)
 
