@@ -13,9 +13,9 @@ Das liegt daran, dass nur im Fernfeld das elektrische und das magnetische Feld e
 <indepth>
 Das Fernfeld einer Strahlungsquelle, ist der Bereich, in dem die Vektoren der elektrischen Feldstärke ($E$), der magnetischen Feldstärke ($H$) senkrecht aufeinander stehen und keine Phasendifferenzen aufweisen. 
 
-Die Grenze zwischen Fernfeld und Nahfeld ist in erster Linie abhängig von der Wellenlänge. Das Fernfeld bildet sich, laut der [Wegleitung zur Emissionserklärung für Amateurfunkanlagen](https://uska.ch/wp-content/uploads/2016/06/Wegleitung_d_08-03-02_Rev_A-1.pdf) der in einem Abstand von etwa $4\cdot\lambda$ aus. 
+Die Grenze zwischen Fernfeld und Nahfeld ist in erster Linie abhängig von der Wellenlänge. Das Fernfeld bildet sich, laut der [Formelblatt zur Emissionserklärung für Amateurfunkanlagen](https://uska.ch/wp-content/uploads/2016/06/Formelblatt_d_08-02-21.pdf) der in einem Abstand von etwa $4\cdot\lambda$ aus. 
 
-Ausführliche Informationen zur Erstellung einer konkreten Emmissionserklärung findet man bei der USKA unter [**Emissions-Berechnung** ](https://uska.ch/emissions-berechnung/).
+Ausführliche Informationen zur Erstellung einer konkreten Emmissionserklärung findet man bei der USKA unter [**Emissions-Berechnung** ](https://uska.ch/emissions-berechnung/) und in der [Wegleitungzur zur Emissionserklärung für Amateurfunkanlagen](https://uska.ch/wp-content/uploads/2016/06/Wegleitung_d_08-03-02_Rev_A-1.pdf).
 
 % Entfernte deutsche Quelle: [Erläuterungen zur BEMFV](https://50ohm.de/ebemfv)
 
