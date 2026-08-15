@@ -72,5 +72,5 @@ $\begin{split} d &> \frac{\lambda}{2\pi}\\ d &> \frac{\qty{10}{\meter}}{2\pi}\\ 
 Der berechnete Sicherheitsabstand von $\qty{5}{\meter}$ ist größer als $\qty{1,6}{\meter}$ und liegt eindeutig im Fernfeld (bzw. strahlenden Nahfeld). Die Berechnung ist damit gültig. Die richtige Antwort ist $\qty{5}{\meter}$.
 
 <indepth>
-In der Tabelle steht für $\qty{6}{\dB}$ ein Faktor von $\num{4}$. Das ist ein gerundeter Wert und beträgt eigentlich $\num{3,981071706}$. Deshalb kommt es zum Rundungsfehler.
+In der Tabelle [sec:dezibel_1] steht für $\qty{6}{\dB}$ ein Faktor von $\num{4}$. Das ist ein gerundeter Wert und beträgt eigentlich $\num{3,981071706}$. Deshalb kommt es zum Rundungsfehler.
 </indepth>
