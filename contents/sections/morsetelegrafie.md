@@ -2,7 +2,7 @@ Auch im Amateurfunk werden viele digitale Übertragungsverfahren eingesetzt. Ein
 
 Morsetelegrafie ist das älteste Übertragungsverfahren, das im Funk benutzt wird. Die ersten Funksender kannten kein anderes Verfahren. Die einzige Möglichkeit der Informationsübermittlung war, mit einer Taste den Sender immer wieder kurz ein- und auszuschalten. Beim Empfänger ist das dann als Ton zu hören, der in dem gegebenen Rhythmus an- und wieder ausgeht.
 
-Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertragen, wird der Morsecode verwendet. Für jedes Zeichen ist eine bestimmte Abfolge an kurzen und langen Tönen festgelegt. In den Tabellen [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] und [ref:n_morsetelegrafie_morsecode_spezial] findet sich ein Teil des Morsecodes. Ein Punkt ([morse:e])  (gesprochen: "dit") steht für einen kurzen Ton und ein Strich ([morse:t]) (gesprochen: "dah) für einen langen Ton. Die Decodierung, also die Übersetzung der Töne in Zeichen beim Empfänger, erfolgt mit den Ohren und dem Gehirn - oder heutzutage auch mit dem Computer.
+Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertragen, wird der Morsecode verwendet. Für jedes Zeichen ist eine bestimmte Abfolge an kurzen und langen Tönen festgelegt. In den Tabellen [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] und [ref:n_morsetelegrafie_morsecode_spezial] findet sich ein Teil des Morsecodes. Ein Punkt ([morse:e])  (gesprochen: "dit") steht für einen kurzen Ton und ein Strich ([morse:t]) (gesprochen: "dah") für einen langen Ton. Die Decodierung, also die Übersetzung der Töne in Zeichen beim Empfänger, erfolgt mit den Ohren und dem Gehirn - oder heutzutage auch mit dem Computer.
 
 **Morsen ist eine zeitlich definierte Tastung eines Trägers. Information entsteht nicht nur durch Punkt und Strich, sondern auch durch die exakt definierten Pausen.**
 
@@ -63,6 +63,11 @@ Lange Zeit war es weltweit vorgeschrieben, dass jeder Funkamateur eine Morseprü
 [question:VA304]
 
 Eine Besonderheit gibt es bei Betriebsabwicklung in Morsetelegrafie zu beachten: Die Wahl einer geeigneten Geschwindigkeit. Morsezeichen können unterschiedlich schnell gegeben werden. Allerdings braucht es viel Übung, um auch schnell gegebene Morsezeichen aufnehmen zu können. Daher ist es wichtig, darauf zu achten, die Gegenstelle mit der Geschwindigkeit nicht zu überfordern. Es ist eine gute Faustregel, nicht schneller zu geben als die andere Station und auch nicht schneller, als man selber aufnehmen kann. So ist sichergestellt, dass alle mitkommen.
+
+<indepth>
+Es ist kein Zufall, dass häufigen Buchstaben (n, t, i, .. ) kurze Morsezeichen und seltenen Buchstaben (x, y, ...) lange Morsezeichen zugeordnet sind.
+Das spart Zeit bei der Übertragung einer Nachricht. Man nennt das auch Datenkompression an der Quelle. 
+</indepth>
 
 [question:BE117]
 [question:BE118]
