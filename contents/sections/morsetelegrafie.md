@@ -2,7 +2,7 @@ Auch im Amateurfunk werden viele digitale Übertragungsverfahren eingesetzt. Ein
 
 Morsetelegrafie ist das älteste Übertragungsverfahren, das im Funk benutzt wird. Die ersten Funksender kannten kein anderes Verfahren. Die einzige Möglichkeit der Informationsübermittlung war, mit einer Taste den Sender immer wieder kurz ein- und auszuschalten. Beim Empfänger ist das dann als Ton zu hören, der in dem gegebenen Rhythmus an- und wieder ausgeht.
 
-Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertragen, wird der Morsecode verwendet. Für jedes Zeichen ist eine bestimmte Abfolge an kurzen und langen Tönen festgelegt. In den Tabellen [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] und [ref:n_morsetelegrafie_morsecode_spezial] findet sich ein Teil des Morsecodes. Ein Punkt ([morse:e]) steht für einen kurzen Ton und ein Strich ([morse:t]) für einen langen Ton. Die Decodierung, also die Übersetzung der Töne in Zeichen beim Empfänger, erfolgt mit den Ohren und dem Gehirn - oder heutzutage auch mit dem Computer.
+Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertragen, wird der Morsecode verwendet. Für jedes Zeichen ist eine bestimmte Abfolge an kurzen und langen Tönen festgelegt. In den Tabellen [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] und [ref:n_morsetelegrafie_morsecode_spezial] findet sich ein Teil des Morsecodes. Ein Punkt ([morse:e])  (gesprochen: "dit") steht für einen kurzen Ton und ein Strich ([morse:t]) (gesprochen: "dah) für einen langen Ton. Die Decodierung, also die Übersetzung der Töne in Zeichen beim Empfänger, erfolgt mit den Ohren und dem Gehirn - oder heutzutage auch mit dem Computer.
 
 **Morsen ist eine zeitlich definierte Tastung eines Trägers. Information entsteht nicht nur durch Punkt und Strich, sondern auch durch die exakt definierten Pausen.**
 
@@ -44,7 +44,8 @@ Die „Geschwindigkeit“ wird in Worten pro Minute [WPM] (Words Per Minute) ang
 [table:n_morsetelegrafie_morsecode_ziffern_satzzeichen:Morsecode (Ziffern und Satzzeichen)]
 </webmargin>
 
-%TODO ARK: Die Prosigns bk und sk funktionieren noch nicht ohne den störenden Zwischenraum.
+% TODO ARK: Die Prosigns bk, sk und irrung funktionieren noch nicht ohne den störenden Zwischenraum. Das Programm morse.py im Generator muss ersetzt
+% werden durch das im issue xxx angegebene Programm morse.py.
 
 <webmargin>
 | l: | l: |
