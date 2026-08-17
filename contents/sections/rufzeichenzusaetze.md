@@ -38,8 +38,6 @@ Wenn man sich mit einem Motorboot, einer Segelyacht oder einem anderen Wasserfah
 
 [question:VO021]
 [question:BD205]
-[question:VE706]
-[question:VD115]
 [question:VO032]
 
 
