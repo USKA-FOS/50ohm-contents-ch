@@ -4,6 +4,8 @@ Morsetelegrafie ist das älteste Übertragungsverfahren, das im Funk benutzt wir
 
 Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertragen, wird der Morsecode verwendet. Für jedes Zeichen ist eine bestimmte Abfolge an kurzen und langen Tönen festgelegt. In den Tabellen [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] und [ref:n_morsetelegrafie_morsecode_spezial] findet sich ein Teil des Morsecodes. Ein Punkt ([morse:e]) steht für einen kurzen Ton und ein Strich ([morse:t]) für einen langen Ton. Die Decodierung, also die Übersetzung der Töne in Zeichen beim Empfänger, erfolgt mit den Ohren und dem Gehirn - oder heutzutage auch mit dem Computer.
 
+**Morsen ist eine zeitlich definierte Tastung eines Trägers. Information entsteht nicht nur durch Punkt und Strich, sondern auch durch die exakt definierten Pausen.**
+
 Die Zeitverhältnisse von Punkt, Strich und Pausen sind wie folgt definiert:
 
 * Punkt = 1 Zeiteinheit
@@ -55,7 +57,7 @@ Die „Geschwindigkeit“ wird in Worten pro Minute [WPM] (Words Per Minute) ang
 [table:n_morsetelegrafie_morsecode_spezial:Morsecode (besondere Zeichen, Auswahl)]
 </webmargin>
 
-Obwohl Übertragungsverfahren für Sprache, Bilder und sogar Video erfunden wurden, wird Morsetelegrafie bis heute im Amateurfunk praktiziert. Lange Zeit war es weltweit vorgeschrieben, dass jeder Funkamateur eine Morseprüfung ablegen musste, bevor er auf der Kurzwelle funken durfte. Erst in den 1990er Jahren wurde diese Regel aufgehoben. Seitdem darf jedes Land selber entscheiden, ob es eine Morseprüfung verlangt. In Deutschland ist sie seit 2003 freiwillig.
+Lange Zeit war es weltweit vorgeschrieben, dass jeder Funkamateur eine Morseprüfung ablegen musste, bevor er auf der Kurzwelle funken durfte. Seit den 1990er Jahren darf jedes Land selber entscheiden, ob es eine Morseprüfung verlangt. In den meisten Ländern, so auch in der Schweiz ist keine Morseprüfung erforderlich. Obwohl Übertragungsverfahren für Sprache, Bilder und sogar Video erfunden wurden, wird Morsetelegrafie bis heute im Amateurfunk praktiziert. Es hat seinen speziellen Reiz, mit einfachsten Mitteln weltweit zu kommunizieren.
 
 [question:VA304]
 
