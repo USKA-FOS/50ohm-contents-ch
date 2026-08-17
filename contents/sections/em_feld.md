@@ -42,7 +42,7 @@ Der Punkt ⋅ bedeutet *Divergenz*. Sie beschreibt, ob an einem Punkt Feldlinien
 
 Das Kreuz × bedeutet *Rotation*. Sie beschreibt, wie stark ein Feld „wirbelt“
 
-Es ist anzumerken, dass Verständnis und Anwendung der Maxwell'schen Gleichungen weit über das an der Prüfung verlangte Wissen hinaus geht. Es ist aber etwas dermassen Fundamentales der Elektrotechnik, dass man es zumindest dem Namen nach einmal gehört haben soll.
+Es ist anzumerken, dass Verständnis und Anwendung der Maxwell'schen Gleichungen weit über das an der Prüfung verlangte Wissen hinaus gehen. Es ist aber etwas dermassen Fundamentales der Elektrotechnik, dass man es zumindest dem Namen nach einmal gehört haben soll.
 </indepth>
 
 Wie in den Abbildungen  und [ref:e_emfeld_ausbreitung] gezeigt, steht die magnetische Feldkomponente im Fernfeld (weit weg von der Antenne) stets senkrecht auf der elektrischen Feldkomponente.
