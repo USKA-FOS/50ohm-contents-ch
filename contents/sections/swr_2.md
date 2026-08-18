@@ -36,7 +36,7 @@ Zur Beantwortung der folgenden Fragen reicht es aus zu wissen, dass ein Stehwell
 [question:EG403]
 
 <indepth>
-Herleitung der hier verwendeten SWR-Leistungsformel anhand der BAKOM-Formelsammlung
+Herleitung der hier verwendeten SWR-Leistungsformel anhand der BAKOM-Formelsammlung.
 Man kann obige Formel auch einfach verwenden. Ein Verständnis der Herleitung ist nicht erforderich! 😉
 
 1. Ausgangsbasis (BAKOM-Formelsammlung)
