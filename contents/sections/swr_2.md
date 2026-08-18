@@ -47,8 +47,6 @@ $$s = \frac{1 + |r|}{1 - |r|}$$
 
 $$|r| = \frac{\sqrt{P_\text{r}}}{\sqrt{P_\text{d}}}$$
 
-*Hierbei steht $P_\text{r}$ für die rücklaufende Leistung und $P_\text{d}$ für die vorlaufende Leistung (Dauerstrich).*
-
 ---
 
 2. Herleitung
