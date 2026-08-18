@@ -36,9 +36,10 @@ Zur Beantwortung der folgenden Fragen reicht es aus zu wissen, dass ein Stehwell
 [question:EG403]
 
 <indepth>
-# Herleitung der hier verwendeten SWR-Leistungsformel anhand der BAKOM-Formelsammlung
+Herleitung der hier verwendeten SWR-Leistungsformel anhand der BAKOM-Formelsammlung
+Man kann obige Formel auch einfach verwenden. Ein Verständnis der Herleitung ist nicht erforderich! 😉
 
-## 1. Ausgangsbasis (BAKOM-Formelsammlung)
+1. Ausgangsbasis (BAKOM-Formelsammlung)
 
 Die BAKOM-Formelsammlung definiert das Stehwellenverhältnis ($s$) und den Reflexionsfaktor ($|r|$) über folgende zwei Gleichungen:
 
@@ -50,13 +51,13 @@ $$|r| = \frac{\sqrt{P_\text{r}}}{\sqrt{P_\text{d}}}$$
 
 ---
 
-## 2. Herleitung
+2. Herleitung
 
 Um den Bruch für $s$ zu vereinfachen und das $|r|$ zu ersetzen, multipliziert man gedanklich jeden Term im Zähler und im Nenner direkt mit $\sqrt{P_\text{d}}$. Dadurch kürzt sich der Nenner von $|r|$ sofort weg:
 
-1. **Aus der $1$ wird:** 
+1. Aus der $1$ wird:
    $$1 \cdot \sqrt{P_\text{d}} = \sqrt{P_\text{d}}$$
-2. **Aus dem $|r|$ wird:** 
+2. Aus dem $|r|$ wird:
    $$\frac{\sqrt{P_\text{r}}}{\sqrt{P_\text{d}}} \cdot \sqrt{P_\text{d}} = \sqrt{P_\text{r}}$$
 
 Setzt man diese Terme direkt in die SWR-Gleichung ein, ergibt sich unmittelbar:
@@ -65,7 +66,7 @@ $$s = \frac{\sqrt{P_\text{d}} + \sqrt{P_\text{r}}}{\sqrt{P_\text{d}} - \sqrt{P_\
 
 ---
 
-## 3. Anpassung an die hier verwendete Notation
+3. Anpassung an die hier verwendete Notation
 
 Durch das Ersetzen der Variablennamen ($s \rightarrow \text{SWR}$ und $P_\text{d} \rightarrow P_\text{v}$ für die Vorwärtsleistung) erhält man exakt die Zielformel:
 
