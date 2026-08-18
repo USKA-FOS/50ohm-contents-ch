@@ -63,6 +63,18 @@ def dump_json(path: Path, payload: Any) -> None:
     )
 
 
+def review_status(meta: dict[str, Any], language: str | None) -> str:
+    review = meta.get("review")
+    if isinstance(review, dict):
+        key = "de" if language is None else language
+        value = review.get(key)
+        if isinstance(value, str):
+            return value
+    if language is None:
+        return str(meta.get("review_status", "approved"))
+    return str(meta.get(f"review_status_{language}", "to_be_translated"))
+
+
 def ensure_clean_workdir() -> None:
     WORK_ROOT.mkdir(parents=True, exist_ok=True)
     if DB_PATH.exists():
@@ -852,11 +864,11 @@ class Builder:
             self.add_identifier(question_id, "question_pool_id", question_id, preferred=True)
             self.add_identifier(question_id, "question_code", code)
             for key, value in sorted(meta.items()):
-                if key not in {"id", "internal_code", "review_status", "review_status_fr", "review_status_it"}:
+                if key not in {"id", "internal_code", "review_status", "review_status_fr", "review_status_it", "review"}:
                     self.add_metadata(question_id, "question_pool", key, value)
-            self.add_review_state("content_object", question_id, None, meta.get("review_status", "approved"))
+            self.add_review_state("content_object", question_id, None, review_status(meta, None))
             for language in ("fr", "it"):
-                self.add_review_state("content_object", question_id, language, meta.get(f"review_status_{language}", "to_be_translated"))
+                self.add_review_state("content_object", question_id, language, review_status(meta, language))
             for language in ("de", "fr", "it"):
                 text_path = meta_path.parent / f"question.{language}.json"
                 text = load_json(text_path)

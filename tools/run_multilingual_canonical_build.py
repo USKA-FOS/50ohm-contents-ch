@@ -22,6 +22,12 @@ from build_db_from_canonical_model import build_database as build_canonical_data
 CONTENT_REPO = Path(__file__).resolve().parent.parent
 WORKSPACE_ROOT = CONTENT_REPO.parent
 QUESTION_POOL_REPO = CONTENT_REPO.parent / "50ohm-question-pool"
+QUESTION_POOL_TOOLS = QUESTION_POOL_REPO / "tools"
+if str(QUESTION_POOL_TOOLS) not in sys.path:
+    sys.path.insert(0, str(QUESTION_POOL_TOOLS))
+
+from canonical_pool_common import normalize_rationale  # type: ignore  # noqa: E402
+
 GENERATOR_ROOT = WORKSPACE_ROOT / "50ohm-generator"
 DB_PATH = CONTENT_REPO / "work" / "canonical_model" / "content_model.sqlite"
 DB_STATE_PATH = CONTENT_REPO / "work" / "canonical_model" / "content_model.state.json"
@@ -677,7 +683,7 @@ def source_rationales() -> tuple[dict[str, Any], dict[str, Any]]:
         source = load_json(
             QUESTION_POOL_REPO / "builds" / "de" / "question_pool_rev1_ch-de.json"
         )
-    rationales = {question["number"]: question.get("HB.rationale") for question in iter_questions(source)}
+    rationales = {question["number"]: normalize_rationale(question.get("HB.rationale")) for question in iter_questions(source)}
     return rationales, deepcopy(source.get("pruned", {}))
 
 
@@ -690,7 +696,7 @@ def stage_questions(target_root: Path, language: str) -> dict[str, Any]:
         source_build = QUESTION_POOL_REPO / "builds" / language / f"question_pool_rev1_ch-{language}.json"
     payload = load_json(source_build)
     for question in iter_questions(payload):
-        question.setdefault("HB.rationale", None)
+        question["HB.rationale"] = normalize_rationale(question.get("HB.rationale"))
     question_count = sum(1 for _ in iter_questions(payload))
     write_json(questions_dir / "fragenkatalog_4.json", payload)
     write_json(questions_dir / "fragenkatalog_4pre.json", payload)
