@@ -680,20 +680,50 @@ def source_rationales() -> tuple[dict[str, Any], dict[str, Any]]:
     if canonical_catalog is not None:
         source = json.loads(canonical_catalog)
     else:
-        source = load_json(
-            QUESTION_POOL_REPO / "builds" / "de" / "question_pool_rev1_ch-de.json"
-        )
+        source = load_json(resolve_question_pool_catalog("de"))
     rationales = {question["number"]: normalize_rationale(question.get("HB.rationale")) for question in iter_questions(source)}
     return rationales, deepcopy(source.get("pruned", {}))
+
+
+def resolve_question_pool_catalog(language: str) -> Path:
+    candidates: list[Path] = []
+    if language == "de":
+        candidates.extend(
+            sorted(
+                (QUESTION_POOL_REPO / "builds" / "de_full").glob("question_pool_rev*_ch-de.json"),
+                reverse=True,
+            )
+        )
+        candidates.extend(
+            sorted(
+                (QUESTION_POOL_REPO / "builds" / "de").glob("question_pool_rev*_ch-de.json"),
+                reverse=True,
+            )
+        )
+        root_catalog = QUESTION_POOL_REPO / "question_pool_ch-de.json"
+        if root_catalog.exists():
+            candidates.append(root_catalog)
+    else:
+        candidates.extend(
+            sorted(
+                (QUESTION_POOL_REPO / "builds" / language).glob(
+                    f"question_pool_rev*_ch-{language}.json"
+                ),
+                reverse=True,
+            )
+        )
+    for candidate in candidates:
+        if candidate.exists():
+            return candidate
+    raise FileNotFoundError(
+        f"No staged question pool catalog found for language={language} under {QUESTION_POOL_REPO}"
+    )
 
 
 def stage_questions(target_root: Path, language: str) -> dict[str, Any]:
     questions_dir = target_root / "contents" / "questions"
     questions_dir.mkdir(parents=True, exist_ok=True)
-    if language == "de":
-        source_build = QUESTION_POOL_REPO / "question_pool_rev1_ch-de.json"
-    else:
-        source_build = QUESTION_POOL_REPO / "builds" / language / f"question_pool_rev1_ch-{language}.json"
+    source_build = resolve_question_pool_catalog(language)
     payload = load_json(source_build)
     for question in iter_questions(payload):
         question["HB.rationale"] = normalize_rationale(question.get("HB.rationale"))
