@@ -51,10 +51,10 @@ Die „Geschwindigkeit“ wird in Worten pro Minute [WPM] (Words Per Minute) ang
 | l: | l: |
 |  |  |
 | Unterbrechung (BK) | [morse:bk] |
-| Trennung innerhalb eines Durchgangs (BT, =) | [morse:=] |
-| Ende des Durchgangs (AR)  | [morse:+] |
+| Trennung innerhalb eines Durchgangs (BT, =) | [morse:bt] |
+| Ende des Durchgangs (AR)  | [morse:ar] |
 | Ende der Sendung (SK) | [morse:sk] |
-| Fehler, Irrung | [morse:h] [morse:h]|
+| Fehler, Irrung | [morse:correction] |
 [table:n_morsetelegrafie_morsecode_spezial:Morsecode (besondere Zeichen, Auswahl)]
 </webmargin>
 
