@@ -51,7 +51,7 @@ Die „Geschwindigkeit“ wird in Worten pro Minute [WPM] (Words Per Minute) ang
 | l: | l: |
 |  |  |
 | Unterbrechung (BK) | [morse:bk] |
-| Trennung innerhalb eines Durchgangs (BT,=) | [morse:= |
+| Trennung innerhalb eines Durchgangs (BT,=) | [morse:=] |
 | Ende des Durchgangs (AR)  | [morse:ar] |
 | Ende der Sendung (SK) | [morse:sk] |
 | Fehler, Irrung | [morse:correction] |
