@@ -1,3 +1,5 @@
+% TODO Rufzeichen Spezialitäten für Clubrufzeichen (HB9xx), Contest (HB1,2,5,6,7,8), Armee (HB4) auf dieser Seite Abhandeln. Siehe Merkblatt. 
+
 <margin>
 [photo:58:n_klubstationen_klubstation:Die Klubstation DL0AO des DARC-Ortsverbands Amberg]
 </margin>
