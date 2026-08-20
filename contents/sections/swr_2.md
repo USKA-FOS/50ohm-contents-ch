@@ -1,6 +1,6 @@
 Wir haben gelernt: Ist eine Antenne perfekt an die Zuleitung (z. B. ein Koaxialkabel) angepasst, zeigt das SWR-Meter den Wert 1 an. Dies ist der bestmögliche Fall, da die gesamte Sendeleistung von der Antenne aufgenommen wird und keine Leistung zum Sender zurückreflektiert wird. Ist hingegen gar keine Antenne angeschlossen oder ist die Übertragungsleitung unterbrochen bzw. kurzgeschlossen, steigt der SWR-Wert gegen unendlich ($\infty$). In diesen Fällen wird die Sendeleistung nahezu vollständig reflektiert. Eine solche vollständige Rückreflexion kann im schlimmsten Fall zur Beschädigung der Endstufe des Senders führen. Hier vertiefen wir das Thema nun etwas und lernen auch Werte zwischen $\num{1}$ und $\infty$ kennen.
 
-Das Stehwellenverhältnis (SWR), als Formelsymbol $s$, lässt sich aus der vorlaufenden Leistung $P_\text{V}$ und der rücklaufenden Leistung $P_\text{R}$ berechnen. Den entsprechenden Zusammenhang finden wir in der Formelsammlung:
+Das Stehwellenverhältnis (SWR), als Formelsymbol $s$, lässt sich aus der vorlaufenden Leistung $P_\text{V}$ und der rücklaufenden Leistung $P_\text{R}$ berechnen. Der entsprechende Zusammenhang lautet:
 
 $s = \frac{\sqrt{P_\text{V}}+\sqrt{P_\text{R}}} { \sqrt{P_\text{V}}-\sqrt{P_\text{R}}}$
 
