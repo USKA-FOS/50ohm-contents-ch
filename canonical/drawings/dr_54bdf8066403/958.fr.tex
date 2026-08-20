@@ -22,7 +22,7 @@
         rectangle (+1.0, +0.45, +0.0);
     \path (+0.0, +0.3, +0.0)
         to [open, name={h1}] (+1.0, +0.45, +0.0);
-    \draw (h1.center) node[](){N-Dotiert};
+    \draw (h1.center) node[](){Dopé au N};
 
     % P-Gebiet
     \draw[fill=DARCred!70, draw=none]
@@ -30,7 +30,7 @@
         rectangle (+1.0, +0.20, +0.0);
     \path (+0.0, +0.05, +0.0)
         to [open, name={h3}] (+1.0, +0.20, +0.0);
-    \draw (h3.center) node[](){P-Dotiert};
+    \draw (h3.center) node[](){Dopé au P};
 
     % Elektrode unten:
     \draw[fill=DARCgray!50!black, draw=none]
@@ -138,7 +138,7 @@
 
     \draw(h4.center)
         to [short, *-] ++(1,0,0)
-        to [european resistor, l={Verbraucher}, v={\qty{0.5}{\volt}}] ++(0,0.45,0)
+        to [european resistor, l={consommateur}, v={\qty{0.5}{\volt}}] ++(0,0.45,0)
         to [short, -*] (h5.center);
 
     \draw[DARCorange, very thick, Triangle-] (0.25,0.50,0.25) -- ++(0.25,0.5,0.25);
@@ -148,6 +148,6 @@
     \draw[DARCorange, very thick, Triangle-] (0.50,0.50,0.50) -- ++(0.25,0.5,0.25);
     \draw[DARCorange, very thick, Triangle-] (0.75,0.50,0.50) -- ++(0.25,0.5,0.25);
     \draw[DARCorange, very thick, Triangle-] (0.25,0.50,0.75) -- ++(0.25,0.5,0.25);
-    \draw[DARCorange, very thick, Triangle-] (0.50,0.50,0.75) -- ++(0.25,0.5,0.25) node[anchor=south](){Sonnenlicht};
+    \draw[DARCorange, very thick, Triangle-] (0.50,0.50,0.75) -- ++(0.25,0.5,0.25) node[anchor=south](){Lumière solaire};
     \draw[DARCorange, very thick, Triangle-] (0.75,0.50,0.75) -- ++(0.25,0.5,0.25);
 \end{tikzpicture}

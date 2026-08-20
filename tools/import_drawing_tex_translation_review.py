@@ -16,6 +16,9 @@ DEFAULT_REVIEW = (
 DEFAULT_SPECIAL = (
     REPO_ROOT / "work" / "drawing_text_audit" / "drawing_tex_special_compounds_review.csv"
 )
+DEFAULT_SIMPLE = (
+    REPO_ROOT / "work" / "drawing_text_audit" / "drawing_tex_translation_simple_actions.csv"
+)
 DEFAULT_OUTPUT_CSV = (
     REPO_ROOT / "work" / "drawing_text_audit" / "drawing_tex_translation_imported_ok.csv"
 )
@@ -36,24 +39,68 @@ def load_special_terms(path: Path) -> set[str]:
     return {term for term in special_terms if term}
 
 
+def make_key(term: str, references: str) -> tuple[str, str]:
+    return term.strip(), references.strip()
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--review-csv", type=Path, default=DEFAULT_REVIEW)
     parser.add_argument("--special-csv", type=Path, default=DEFAULT_SPECIAL)
+    parser.add_argument("--simple-csv", type=Path, default=DEFAULT_SIMPLE)
     parser.add_argument("--output-csv", type=Path, default=DEFAULT_OUTPUT_CSV)
     parser.add_argument("--output-json", type=Path, default=DEFAULT_OUTPUT_JSON)
     args = parser.parse_args()
 
     special_terms = load_special_terms(args.special_csv)
+    simple_rows = []
+    if args.simple_csv.exists():
+        with args.simple_csv.open(encoding="utf-8", newline="") as handle:
+            simple_rows = list(csv.DictReader(handle))
     with args.review_csv.open(encoding="utf-8", newline="") as handle:
         review_rows = list(csv.DictReader(handle))
 
     accepted_rows: list[dict[str, str]] = []
+    accepted_index: dict[tuple[str, str], int] = {}
     skipped_special = 0
     skipped_non_ok = 0
     skipped_missing_translation = 0
+    imported_simple = 0
+    imported_review = 0
+
+    for row in simple_rows:
+        term = row.get("source_term_candidate", "").strip()
+        references = row.get("canonical_references", "").strip()
+        fr = row.get("fr", "").strip()
+        it = row.get("it", "").strip()
+        if term in special_terms:
+            skipped_special += 1
+            continue
+        if not term or not references or not fr or not it:
+            skipped_missing_translation += 1
+            continue
+        payload = {
+            "item_id": "",
+            "source_term_candidate": term,
+            "classification": row.get("classification", ""),
+            "occurrence_count": row.get("occurrence_count", ""),
+            "figure_numbers": row.get("figure_numbers", ""),
+            "canonical_references": references,
+            "format_command_examples": row.get("format_command_examples", ""),
+            "protected_token_examples": row.get("protected_token_examples", ""),
+            "raw_tex_examples": row.get("raw_tex_examples", ""),
+            "fr_reviewed": fr,
+            "it_reviewed": it,
+            "reviewer": "",
+            "comment": row.get("notes", ""),
+        }
+        accepted_index[make_key(term, references)] = len(accepted_rows)
+        accepted_rows.append(payload)
+        imported_simple += 1
+
     for row in review_rows:
         term = row.get("source_term_candidate", "").strip()
+        references = row.get("canonical_references", "").strip()
         status = row.get("status", "").strip().lower()
         fr = row.get("fr_reviewed", "").strip()
         it = row.get("it_reviewed", "").strip()
@@ -73,7 +120,7 @@ def main() -> None:
                 "classification": row.get("classification", ""),
                 "occurrence_count": row.get("occurrence_count", ""),
                 "figure_numbers": row.get("figure_numbers", ""),
-                "canonical_references": row.get("canonical_references", ""),
+                "canonical_references": references,
                 "format_command_examples": row.get("format_command_examples", ""),
                 "protected_token_examples": row.get("protected_token_examples", ""),
                 "raw_tex_examples": row.get("raw_tex_examples", ""),
@@ -83,6 +130,13 @@ def main() -> None:
                 "comment": row.get("comment", ""),
             }
         )
+        key = make_key(term, references)
+        if key in accepted_index:
+            accepted_rows[accepted_index[key]] = accepted_rows[-1]
+            accepted_rows.pop()
+        else:
+            accepted_index[key] = len(accepted_rows) - 1
+        imported_review += 1
 
     args.output_csv.parent.mkdir(parents=True, exist_ok=True)
     with args.output_csv.open("w", encoding="utf-8", newline="") as handle:
@@ -96,6 +150,8 @@ def main() -> None:
                 "items": accepted_rows,
                 "summary": {
                     "accepted_count": len(accepted_rows),
+                    "imported_simple": imported_simple,
+                    "imported_review": imported_review,
                     "skipped_special": skipped_special,
                     "skipped_non_ok": skipped_non_ok,
                     "skipped_missing_translation": skipped_missing_translation,
@@ -108,6 +164,8 @@ def main() -> None:
         encoding="utf-8",
     )
     print(f"accepted_count={len(accepted_rows)}")
+    print(f"imported_simple={imported_simple}")
+    print(f"imported_review={imported_review}")
     print(f"skipped_special={skipped_special}")
     print(f"skipped_non_ok={skipped_non_ok}")
     print(f"skipped_missing_translation={skipped_missing_translation}")

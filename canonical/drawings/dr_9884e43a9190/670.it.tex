@@ -8,9 +8,9 @@
         to [short, name=h2] ++(2,0) 
         to [short] ++(0,1) 
         node[bareantenna](ant){};
-    \draw(trx.south) node[below]{Transceiver};
+    \draw(trx.south) node[below]{trasmettitore-ricevitore};
     \draw(swr.south) node[below]{SWR-Meter};
-    \draw(ant.top) node[anchor=south]{Antenne};
+    \draw(ant.top) node[anchor=south]{antenna};
     %
     \draw[DARCblue,-Triangle] (h2.center) ++(0,0.75) coordinate(c0) -- ++(0.25,0);
     \draw[DARCblue] (h2.center) ++(0,0.75) -- ++(-0.25,0);
@@ -18,6 +18,6 @@
     \draw[DARCred,-Triangle] (h2.center) ++(0,0.25) coordinate(c1) -- ++(-0.25,0);
     \draw[DARCred] (h2.center) ++(0,0.25) -- ++(0.25,0);
     %
-    \draw[DARCblue] (c0) node[above](){\small Vorlaufend};
-    \draw[DARCred] (c1) node[above](){\small Reflektiert};
+    \draw[DARCblue] (c0) node[above](){\small In anticipo};
+    \draw[DARCred] (c1) node[above](){\small Riflesso};
 \end{tikzpicture}

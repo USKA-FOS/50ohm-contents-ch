@@ -152,14 +152,15 @@ def looks_translatable(raw_text: str) -> bool:
     text = raw_text.strip()
     if not text:
         return False
-    if "$" in text:
-        return False
     simplified = re.sub(r"\\[A-Za-z@]+(?:\s*\[[^]]*\])?", " ", text)
     simplified = re.sub(r"[{}_^&~]", " ", simplified)
+    simplified = re.sub(r"\$[^$]*\$", " ", simplified)
     simplified = simplified.replace("\\\\", " ")
     simplified = re.sub(r"\s+", " ", simplified).strip()
     if not simplified:
         return False
+    if re.search(r"[ÄÖÜäöüß]", simplified):
+        return True
     letters = re.findall(r"[A-Za-zÄÖÜäöüß]{2,}", simplified)
     return bool(letters)
 
@@ -208,6 +209,66 @@ def extract_pgftext_candidates(text: str) -> list[tuple[str, str]]:
             cursor = index_after
         else:
             cursor = index
+    return candidates
+
+
+def extract_circuitikz_label_candidates(text: str) -> list[tuple[str, str]]:
+    candidates: list[tuple[str, str]] = []
+    cursor = 0
+    pattern = re.compile(r"(?<![A-Za-z@])(?:l|l_|l\^|l\^_|i|i_|i\^|i\^_|v|v_|v\^|v\^_)\s*=\s*")
+    while True:
+        match = pattern.search(text, cursor)
+        if not match:
+            break
+        index = match.end()
+        if index < len(text) and text[index] == "{":
+            try:
+                content, index_after = read_balanced_group(text, index)
+            except ValueError:
+                cursor = index + 1
+                continue
+            if looks_translatable(content):
+                candidates.append(("circuitikz_label", content.strip()))
+            cursor = index_after
+        else:
+            cursor = index
+    return candidates
+
+
+def read_bare_option_value(text: str, index: int) -> tuple[str, int] | None:
+    end = index
+    while end < len(text) and text[end] not in ",]":
+        end += 1
+    value = text[index:end].strip()
+    if not value:
+        return None
+    return value, end
+
+
+def extract_tikz_option_label_candidates(text: str) -> list[tuple[str, str]]:
+    candidates: list[tuple[str, str]] = []
+    cursor = 0
+    pattern = re.compile(r"(?<![A-Za-z@])label\s*=\s*")
+    while True:
+        match = pattern.search(text, cursor)
+        if not match:
+            break
+        index = match.end()
+        if index < len(text) and text[index] == "{":
+            try:
+                content, index_after = read_balanced_group(text, index)
+            except ValueError:
+                cursor = index + 1
+                continue
+        else:
+            bare = read_bare_option_value(text, index)
+            if bare is None:
+                cursor = index + 1
+                continue
+            content, index_after = bare
+        if looks_translatable(content):
+            candidates.append(("tikz_option_label", content.strip()))
+        cursor = index_after
     return candidates
 
 
@@ -337,6 +398,8 @@ def build_candidates() -> list[Candidate]:
             content = strip_comments(tex_path.read_text(encoding="utf-8"))
             extracted = extract_node_candidates(content)
             extracted.extend(extract_pgftext_candidates(content))
+            extracted.extend(extract_circuitikz_label_candidates(content))
+            extracted.extend(extract_tikz_option_label_candidates(content))
             for category, raw_content in extracted:
                 candidate = build_structured_candidate(
                     canonical_reference=canonical_reference,

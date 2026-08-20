@@ -24,10 +24,10 @@
     \path(0,0) arc (65:90:3)  coordinate(mid1);
     \draw(tx) node[antenna,scale=0.25,rotate=+20](){};
     \draw(rx) node[antenna,scale=0.25,rotate=-20](){};
-    \draw[DARCred, ultra thick, -Triangle] (tx) arc (110:97.5:3)  node[pos=0.5, anchor=north, rotate=13](){Bodenwelle} coordinate(bw);
+    \draw[DARCred, ultra thick, -Triangle] (tx) arc (110:97.5:3)  node[pos=0.5, anchor=north, rotate=13](){Onda di terra} coordinate(bw);
     \path(mid1) ++(0,1.75) coordinate(mid2);
     \draw(mid2) node[anchor=south](){Riflessione apparente};
     \draw[dashed] (tx) -- (mid2) -- (rx);
-    \draw[DARCred, ultra thick] (tx) .. controls (mid2) and (mid2) .. (rx) node[pos=0.5, anchor=south]{\bfseries Refraktion};
+    \draw[DARCred, ultra thick] (tx) .. controls (mid2) and (mid2) .. (rx) node[pos=0.5, anchor=south]{\bfseries Rifrazione};
     \draw(mid1) node[anchor=south west](){Zona morta};
 \end{tikzpicture}

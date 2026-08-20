@@ -2,11 +2,11 @@
 % Year: 2023
 \begin{circuitikz}[european]
     \draw[-Triangle](0.0,0.0) -- (5.0,0.0)  node[right]{$f$ [\unit{\kilo\hertz}]};
-    \draw[-Triangle](0.0,0.0) -- (0.0,2.00) node[above left, rotate=90] () {Lautstärke};
+    \draw[-Triangle](0.0,0.0) -- (0.0,2.00) node[above left, rotate=90] () {Volume};
     \draw[thick](0.3,0.0) coordinate(c1) -- ++ (0,1.25) coordinate(c3) -- ++ (2.4,-0.5) coordinate(c4) -- (2.7,0) coordinate(c2);
     \draw(c1) node[below, align=center]{Toni\\bassi};
     \draw(c2) node[below, align=center]{Toni\\alti};
-    \draw(c3) node[above right, align=center]{Laut};
-    \draw(c4) node[above right, align=center]{Leise};
+    \draw(c3) node[above right, align=center]{volume};
+    \draw(c4) node[above right, align=center]{Silenzioso};
     \draw(1.5,0.45) node[align=center](){Informazione\\(parola)};
 \end{circuitikz}

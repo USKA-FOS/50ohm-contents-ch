@@ -21,6 +21,20 @@
         "tex": "918.de.tex"
       },
       "review_state": "imported_approved"
+    },
+    "fr": {
+      "asset_files": {
+        "tex": "918.fr.tex",
+        "svg": "918.fr.svg"
+      },
+      "review_state": "to_be_reviewed"
+    },
+    "it": {
+      "asset_files": {
+        "tex": "918.it.tex",
+        "svg": "918.it.svg"
+      },
+      "review_state": "to_be_reviewed"
     }
   },
   "languages": [
@@ -42,6 +56,18 @@
       "de.tex": {
         "canonical_file": "918.de.tex",
         "source_path": "contents/drawings/918.tex"
+      },
+      "fr.tex": {
+        "canonical_file": "918.fr.tex"
+      },
+      "it.tex": {
+        "canonical_file": "918.it.tex"
+      },
+      "fr.svg": {
+        "canonical_file": "918.fr.svg"
+      },
+      "it.svg": {
+        "canonical_file": "918.it.svg"
       }
     },
     "reconstruction": {

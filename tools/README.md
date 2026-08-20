@@ -287,6 +287,38 @@ The generated review copies are not authoritative canonical data. They exist
 only to support the visual audit of remaining untranslated or incorrectly
 localized drawing labels after SVG rendering.
 
+### Validate localized drawing TeX files against the import contract
+
+```bash
+python tools/validate_localized_drawing_tex_structure.py
+```
+
+This validator rebuilds the expected `.fr.tex` and `.it.tex` files from the
+German `.de.tex` sources by reusing the exact import logic from
+`tools/import_drawing_tex_translations.py`, then compares the expected content
+with the localized files present in `canonical/drawings/`.
+
+It is intentionally stricter and more reliable than the previous heuristic
+token-count check:
+
+- it validates the exact import contract;
+- it avoids false positives caused by compact translated labels such as `H2`,
+  `H3`, `H4`, or `r~=~${1}:{7}$`;
+- it only expects localized files for drawings that are actually touched by the
+  reviewed translation import.
+- it ignores a final trailing newline difference, because that is only a file
+  serialization detail and not a TeX-content divergence.
+
+It reads:
+
+- `work/drawing_text_audit/drawing_tex_translation_candidates_2.csv`
+- `work/drawing_text_audit/drawing_tex_translation_imported_ok.csv`
+- `work/drawing_text_audit/drawing_tex_special_compounds_review.csv`
+
+and writes:
+
+- `work/drawing_text_audit/localized_tex_structure_validation.json`
+
 ## Related Compatibility Tool
 
 The current review-site compatibility export for question catalogs is **not**

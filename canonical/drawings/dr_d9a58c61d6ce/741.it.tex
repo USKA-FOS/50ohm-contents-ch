@@ -21,13 +21,13 @@
     %
     \draw[DARCgreen, ultra thick] (tx.right) -- ++(0.5,0.5) coordinate(end);
     %
-    \draw(tx.left) node[below left]() {Sender};
-    \draw(rx.right) node[below right]() {Empfänger};
+    \draw(tx.left) node[below left]() {trasmettitore};
+    \draw(rx.right) node[below right]() {ricevitore};
     %
     \draw(c4) to [open, name={h1}] (c2);
-    \draw[DARCred](h1.center) node[above, rotate=-44](){\small~~~Raumwelle};
+    \draw[DARCred](h1.center) node[above, rotate=-44](){\small~~~Onda spaziale};
     %
-    \draw[DARCgreen](end) node[above](){\footnotesize\quad\quad~~Bodenwelle};
+    \draw[DARCgreen](end) node[above](){\footnotesize\quad\quad~~Onda di terra};
     %
     \draw(c2) node[](){|};
     \draw(c5) node[rotate=30](){|};

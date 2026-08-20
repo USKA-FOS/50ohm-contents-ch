@@ -21,6 +21,18 @@
         "tex": "1028.de.tex"
       },
       "review_state": "imported_approved"
+    },
+    "fr": {
+      "asset_files": {
+        "tex": "1028.fr.tex"
+      },
+      "review_state": "to_be_reviewed"
+    },
+    "it": {
+      "asset_files": {
+        "tex": "1028.it.tex"
+      },
+      "review_state": "to_be_reviewed"
     }
   },
   "languages": [
@@ -42,6 +54,12 @@
       "de.tex": {
         "canonical_file": "1028.de.tex",
         "source_path": "contents/drawings/1028.tex"
+      },
+      "fr.tex": {
+        "canonical_file": "1028.fr.tex"
+      },
+      "it.tex": {
+        "canonical_file": "1028.it.tex"
       }
     },
     "reconstruction": {

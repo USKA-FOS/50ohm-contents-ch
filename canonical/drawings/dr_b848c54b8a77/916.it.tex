@@ -11,9 +11,9 @@
         to [short] ++(1,0) 
         to [short] ++(0,1) 
         node[bareantenna](ant){};
-    \draw(trx.south) node[below]{Transceiver};
+    \draw(trx.south) node[below]{trasmettitore-ricevitore};
     \draw(swr.south) node[below]{SWR-Meter};
-    \draw(lpf.south) node[below]{Tiefpass};
-    \draw(ant.top) node[anchor=south]{Antenne};
-    \draw[DARCred, Triangle-] (trx.east) -- ++(0.5,0.5) -- ++(0,0.5) node[above]{Senderausgangsleistung};
+    \draw(lpf.south) node[below]{filtro passa-basso};
+    \draw(ant.top) node[anchor=south]{antenna};
+    \draw[DARCred, Triangle-] (trx.east) -- ++(0.5,0.5) -- ++(0,0.5) node[above]{Potenza di uscita del trasmettitore};
 \end{tikzpicture}

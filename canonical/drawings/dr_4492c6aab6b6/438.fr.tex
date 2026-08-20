@@ -28,12 +28,12 @@
         to [short] ++(4.15,0) coordinate(h6)
         |- (reg.clk) node[inputarrow]{};
 
-    \draw(clk.south) node[anchor=west, rotate=-90] () {Taktgenerator};
-    \draw(add.south) node[anchor=west, rotate=-90] () {Adresszähler};
-    \draw(tab.south) node[anchor=west, rotate=-90] () {Sinus-Tabelle};
-    \draw(reg.south) node[anchor=west, rotate=-90] () {Register};
+    \draw(clk.south) node[anchor=west, rotate=-90] () {Générateur d'horloge};
+    \draw(add.south) node[anchor=west, rotate=-90] () {Compteur d'adresses};
+    \draw(tab.south) node[anchor=west, rotate=-90] () {Tableau sinusoïdal};
+    \draw(reg.south) node[anchor=west, rotate=-90] () {registre};
     \draw(dac.south) node[anchor=west, rotate=-90] () {Convertisseur N/A};
 
     \draw(h2.center) ++(0,+0.5) node[anchor=south] () {N};
-    \draw(h2.center) ++(0,-0.5) node[anchor=west, rotate=-90] () {Bits};
+    \draw(h2.center) ++(0,-0.5) node[anchor=west, rotate=-90] () {bits};
 \end{circuitikz}

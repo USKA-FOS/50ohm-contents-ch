@@ -26,6 +26,16 @@ DEFAULT_REPORT = (
 )
 
 
+def normalize_lookup_term(value: str) -> str:
+    value = re.sub(r"^[~\s]+", "", value or "")
+    value = re.sub(r"\s+", " ", value).strip()
+    return value
+
+
+def normalize_translation_text(value: str) -> str:
+    return (value or "").replace("\\\\", "\\").strip()
+
+
 def load_csv(path: Path) -> list[dict[str, str]]:
     with path.open(encoding="utf-8", newline="") as handle:
         return list(csv.DictReader(handle))
@@ -42,10 +52,10 @@ def split_figure_numbers(value: str) -> list[str]:
 def build_normal_translation_map(rows: list[dict[str, str]]) -> dict[tuple[str, str], dict[str, str]]:
     result: dict[tuple[str, str], dict[str, str]] = {}
     for row in rows:
-        term = row["source_term_candidate"].strip()
+        term = normalize_lookup_term(row["source_term_candidate"])
         payload = {
-            "fr": row["fr_reviewed"].strip(),
-            "it": row["it_reviewed"].strip(),
+            "fr": normalize_translation_text(row["fr_reviewed"]),
+            "it": normalize_translation_text(row["it_reviewed"]),
         }
         for ref in split_refs(row["canonical_references"]):
             result[(ref, term)] = payload
@@ -57,16 +67,16 @@ def build_special_translation_map(rows: list[dict[str, str]]) -> dict[tuple[str,
     for row in rows:
         line_map = {
             "fr": {
-                "part_1": row["fr_line_1"].strip(),
-                "part_2": row["fr_line_2"].strip(),
+                "part_1": normalize_translation_text(row["fr_line_1"]),
+                "part_2": normalize_translation_text(row["fr_line_2"]),
             },
             "it": {
-                "part_1": row["it_line_1"].strip(),
-                "part_2": row["it_line_2"].strip(),
+                "part_1": normalize_translation_text(row["it_line_1"]),
+                "part_2": normalize_translation_text(row["it_line_2"]),
             },
         }
-        part_1 = row["part_1_de"].strip()
-        part_2 = row["part_2_de"].strip()
+        part_1 = normalize_lookup_term(row["part_1_de"])
+        part_2 = normalize_lookup_term(row["part_2_de"])
         for ref in split_refs(row["canonical_references"]):
             result[(ref, part_1)] = line_map
             result[(ref, part_2)] = line_map
@@ -82,6 +92,8 @@ def translation_segments_for_regular(raw_fragment: str, translation_text: str) -
             return parts
     if len(source_segments) == 1:
         return [translation_text.strip()]
+    if len(translation_text.strip().split()) <= 1:
+        return [translation_text.strip()] + [""] * (len(source_segments) - 1)
 
     words = translation_text.strip().split()
     if not words:
@@ -131,6 +143,77 @@ def split_protected_tokens_by_segment(raw_fragment: str, protected_tokens: list[
 PLACEHOLDER_PATTERN = re.compile(r"§P(\d+)§")
 
 
+def read_balanced_group(text: str, brace_index: int) -> tuple[str, int]:
+    if brace_index >= len(text) or text[brace_index] != "{":
+        raise ValueError("brace_index must point to an opening brace")
+    depth = 0
+    chars: list[str] = []
+    i = brace_index
+    while i < len(text):
+        char = text[i]
+        if char == "{":
+            depth += 1
+            if depth > 1:
+                chars.append(char)
+        elif char == "}":
+            depth -= 1
+            if depth == 0:
+                return "".join(chars), i + 1
+            chars.append(char)
+        else:
+            chars.append(char)
+        i += 1
+    raise ValueError("unbalanced braces")
+
+
+def rebuild_wrapped_segment(source_segment: str, translated: str) -> str | None:
+    stripped = source_segment.strip()
+    leading_ws_len = len(source_segment) - len(source_segment.lstrip())
+    trailing_ws_len = len(source_segment) - len(source_segment.rstrip())
+    leading_ws = source_segment[:leading_ws_len]
+    trailing_ws = source_segment[len(source_segment) - trailing_ws_len:] if trailing_ws_len else ""
+    if not stripped.startswith("\\"):
+        return None
+
+    def wrap_result(value: str) -> str:
+        return leading_ws + value + trailing_ws
+
+    if stripped.startswith(r"\textcolor"):
+        cursor = len(r"\textcolor")
+        while cursor < len(stripped) and stripped[cursor].isspace():
+            cursor += 1
+        if cursor >= len(stripped) or stripped[cursor] != "{":
+            return None
+        color_arg, cursor = read_balanced_group(stripped, cursor)
+        while cursor < len(stripped) and stripped[cursor].isspace():
+            cursor += 1
+        if cursor >= len(stripped) or stripped[cursor] != "{":
+            return None
+        inner_arg, cursor = read_balanced_group(stripped, cursor)
+        if stripped[cursor:].strip():
+            return None
+        rebuilt_inner = rebuild_wrapped_segment(inner_arg, translated)
+        if rebuilt_inner is None:
+            rebuilt_inner = translated
+        return wrap_result(rf"\textcolor{{{color_arg}}}{{{rebuilt_inner}}}")
+
+    command_match = re.match(r"\\([A-Za-z@]+\*?)", stripped)
+    if not command_match:
+        return None
+    cursor = command_match.end()
+    while cursor < len(stripped) and stripped[cursor].isspace():
+        cursor += 1
+    if cursor >= len(stripped) or stripped[cursor] != "{":
+        return None
+    inner_arg, cursor = read_balanced_group(stripped, cursor)
+    if stripped[cursor:].strip():
+        return None
+    rebuilt_inner = rebuild_wrapped_segment(inner_arg, translated)
+    if rebuilt_inner is None:
+        rebuilt_inner = translated
+    return wrap_result(stripped[:command_match.end()] + "{" + rebuilt_inner + "}")
+
+
 def distribute_translation_over_spans(source_spans: list[str], translated: str) -> list[str]:
     if not source_spans:
         return []
@@ -171,6 +254,20 @@ def dedupe_boundary_punctuation(text: str, next_literal: str) -> str:
     return text
 
 
+def replace_alpha_span_preserving_context(source: str, translated: str) -> str:
+    matches = list(re.finditer(r"[A-Za-zÀ-ÖØ-öø-ÿß]+", source))
+    if len(matches) != 1:
+        return translated
+    if re.search(r"[(){}[\],.:;~=+$\\\\]", translated):
+        return translated
+    match = matches[0]
+    if not match:
+        return translated
+    prefix = source[:match.start()]
+    suffix = source[match.end():]
+    return prefix + translated + suffix
+
+
 def replace_fragment_text(
     raw_fragment: str,
     translated_segments: list[str],
@@ -205,6 +302,10 @@ def replace_fragment_text(
         match = re.match(r"^(\s*(?:\\[A-Za-z@]+\*?\s*)*)", source_segment)
         prefix = match.group(1) if match else ""
         if protected_tokens and translatable_indices:
+            if translated and all(token in translated for token in protected_tokens):
+                rebuilt = rebuild_wrapped_segment(source_segment, translated)
+                rebuilt_segments.append(rebuilt if rebuilt is not None else translated)
+                continue
             source_spans = [parts[index] for index in translatable_indices]
             translated_spans = distribute_translation_over_spans(source_spans, translated)
             for index, translated_span in zip(translatable_indices, translated_spans):
@@ -214,7 +315,8 @@ def replace_fragment_text(
                         continue
                     next_literal = follower
                     break
-                parts[index] = dedupe_boundary_punctuation(translated_span, next_literal)
+                rebuilt_span = replace_alpha_span_preserving_context(parts[index], translated_span)
+                parts[index] = dedupe_boundary_punctuation(rebuilt_span, next_literal)
             rebuilt = "".join(parts)
             for index, token in enumerate(protected_tokens):
                 rebuilt = rebuilt.replace(f"§P{index}§", token)
@@ -222,10 +324,19 @@ def replace_fragment_text(
             continue
 
         remainder = source_segment[len(prefix):].strip()
-        if prefix and remainder.startswith("{") and remainder.endswith("}"):
+        leading_markers = ""
+        marker_match = re.match(r"^([~\s]+)", remainder)
+        if marker_match:
+            leading_markers = marker_match.group(1)
+        rebuilt = rebuild_wrapped_segment(source_segment, translated) if translated else None
+        if rebuilt is not None:
+            rebuilt_segments.append(rebuilt)
+        elif prefix and remainder.startswith("{") and remainder.endswith("}"):
             rebuilt_segments.append(prefix + "{" + translated + "}")
         elif prefix and translated:
-            rebuilt_segments.append(prefix.rstrip() + " " + translated)
+            rebuilt_segments.append(prefix + leading_markers + translated)
+        elif translated:
+            rebuilt_segments.append(leading_markers + translated)
         else:
             rebuilt_segments.append(prefix + translated)
     return "{" + "\\\\".join(rebuilt_segments) + "}"
@@ -248,6 +359,18 @@ def update_meta_for_tex(object_dir: Path, stem: str) -> None:
             "canonical_file": f"{stem}.{language}.tex",
         }
     meta_path.write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def replace_tikz_option_label(text: str, source_term: str, translated: str) -> tuple[str, bool]:
+    for source, target in (
+        (f"label={source_term}", f"label={translated}"),
+        (f"label = {source_term}", f"label = {translated}"),
+        (f"label={{{source_term}}}", f"label={{{translated}}}"),
+        (f"label = {{{source_term}}}", f"label = {{{translated}}}"),
+    ):
+        if source in text:
+            return text.replace(source, target, 1), True
+    return text, False
 
 
 def main() -> None:
@@ -282,7 +405,7 @@ def main() -> None:
         for row in sorted(rows, key=lambda item: int(item["index"])):
             if row["to_be_translated"].lower() != "true":
                 continue
-            term = row["translatable_text"].strip()
+            term = normalize_lookup_term(row["translatable_text"])
             raw_fragment = row["raw_tex_fragment"]
             if (ref, term) in special_map:
                 line_map = special_map[(ref, term)]
@@ -303,6 +426,12 @@ def main() -> None:
             for language in ("fr", "it"):
                 translated = payload[language].strip()
                 if not translated:
+                    continue
+                if row["category"] == "tikz_option_label":
+                    updated, replaced = replace_tikz_option_label(rendered[language], term, translated)
+                    if replaced:
+                        rendered[language] = updated
+                        touched = True
                     continue
                 segments = translation_segments_for_regular(raw_fragment, translated)
                 protected_tokens = json.loads(row["protected_tokens"])

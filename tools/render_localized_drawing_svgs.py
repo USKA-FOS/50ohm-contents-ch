@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import shutil
 import subprocess
 import tempfile
@@ -47,6 +48,56 @@ def resolve_photos_root() -> Path | None:
     if CANONICAL_PHOTOS_ROOT.exists():
         return CANONICAL_PHOTOS_ROOT
     return None
+
+
+def build_photo_asset_map(language: str) -> dict[str, Path]:
+    if not CANONICAL_PHOTOS_ROOT.exists():
+        return {}
+    mapping: dict[str, Path] = {}
+    for meta_path in sorted(CANONICAL_PHOTOS_ROOT.glob("*/object.meta.json")):
+        payload = json.loads(meta_path.read_text(encoding="utf-8"))
+        object_dir = meta_path.parent
+        variants = payload.get("language_variants", {}) or {}
+
+        asset_name = (
+            ((variants.get(language, {}) or {}).get("asset_files", {}) or {}).get("image")
+            or ((variants.get("de", {}) or {}).get("asset_files", {}) or {}).get("image")
+        )
+        if not asset_name:
+            continue
+        asset_path = object_dir / asset_name
+        if not asset_path.exists():
+            continue
+
+        keys: set[str] = set()
+        for identifier in payload.get("identifiers", []):
+            value = str(identifier.get("id_value", "")).strip()
+            if value:
+                keys.add(value)
+        source_key = str((payload.get("source", {}) or {}).get("key", "")).strip()
+        if source_key:
+            keys.add(source_key)
+        keys.add(asset_path.stem.split(".")[0])
+
+        for key in keys:
+            mapping[key] = asset_path
+    return mapping
+
+
+def materialize_photo_assets(target_dir: Path, language: str) -> None:
+    photo_map = build_photo_asset_map(language)
+    target_dir.mkdir(parents=True, exist_ok=True)
+    for key, asset_path in photo_map.items():
+        suffix = asset_path.suffix
+        named_target = target_dir / f"{key}{suffix}"
+        if named_target.exists() or named_target.is_symlink():
+            named_target.unlink()
+        named_target.symlink_to(asset_path)
+
+        bare_target = target_dir / key
+        if bare_target.exists() or bare_target.is_symlink():
+            bare_target.unlink()
+        bare_target.symlink_to(named_target.name)
 
 
 def tex_requires_photo_assets(tex_text: str) -> bool:
@@ -101,20 +152,28 @@ def render_tex_to_svg(*, tex_path: Path, stem: str, width_cm: float) -> None:
                     f"{PHOTOS_ROOT} nor {CANONICAL_PHOTOS_ROOT} exists."
                 )
             photo_link = tmp_dir / "foto"
-            photo_link.symlink_to(photos_root)
+            materialize_photo_assets(photo_link, language)
             photo_link_2 = img_dir / "foto"
-            photo_link_2.symlink_to(photos_root)
+            materialize_photo_assets(photo_link_2, language)
+
+        env = os.environ.copy()
+        env.setdefault("TEXMFCACHE", str(tmp_dir / ".texmf-cache"))
+        env.setdefault("TEXMFVAR", str(tmp_dir / ".texmf-var"))
+        Path(env["TEXMFCACHE"]).mkdir(parents=True, exist_ok=True)
+        Path(env["TEXMFVAR"]).mkdir(parents=True, exist_ok=True)
 
         subprocess.run(
             ["latexmk", "-lualatex", "-cd", str(aux_file)],
             check=True,
             cwd=tmp_dir,
+            env=env,
             stdin=subprocess.DEVNULL,
         )
         subprocess.run(
             ["pdftocairo", "-svg", str(tmp_dir / f"{stem}.pdf"), str(output_svg)],
             check=True,
             cwd=tmp_dir,
+            env=env,
             stdin=subprocess.DEVNULL,
         )
 
