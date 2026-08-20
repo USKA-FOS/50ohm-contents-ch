@@ -223,6 +223,14 @@ def iter_target_tex_paths(*, languages: list[str], canonical_refs: list[str] | N
     return targets
 
 
+def should_rerender(*, tex_path: Path, svg_path: Path, skip_existing: bool) -> bool:
+    if not svg_path.exists():
+        return True
+    if tex_path.stat().st_mtime > svg_path.stat().st_mtime:
+        return True
+    return not skip_existing
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--language", action="append", choices=SUPPORTED_LANGUAGES)
@@ -256,7 +264,12 @@ def main() -> None:
         language = tex_path.suffixes[-2].lstrip(".")
         stem = infer_stem(tex_path, language)
         svg_path = tex_path.with_name(f"{stem}.{language}.svg")
-        used_existing = args.skip_existing and svg_path.exists()
+        rerender = should_rerender(
+            tex_path=tex_path,
+            svg_path=svg_path,
+            skip_existing=args.skip_existing,
+        )
+        used_existing = not rerender and svg_path.exists()
         if used_existing:
             skipped_existing += 1
         else:

@@ -270,6 +270,14 @@ into:
 - `work/drawing_svg_review/fr/`
 - `work/drawing_svg_review/it/`
 
+Behavior note:
+
+- if the target localized SVG does not exist, it is rendered;
+- if the localized `.tex` file is newer than the existing `.svg`, it is
+  rendered again;
+- `--skip-existing` now skips only SVG files that already exist and are at
+  least as recent as their corresponding localized `.tex` file.
+
 System dependencies required on the workstation:
 
 - `latexmk`
