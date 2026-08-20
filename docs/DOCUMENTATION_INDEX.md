@@ -19,6 +19,7 @@ contextual support, or a candidate for later cleanup.
 | [CANONICAL_DATA_MODEL_REFERENCE.md](./CANONICAL_DATA_MODEL_REFERENCE.md) | authoritative description of the current canonical Git model and SQLite counterpart | current reference |
 | [CANONICAL_USE_CASES_AND_WORKFLOWS.md](./CANONICAL_USE_CASES_AND_WORKFLOWS.md) | authoritative description of current use cases and workflows | current reference |
 | [DOCUMENTATION_INDEX.md](./DOCUMENTATION_INDEX.md) | entry point and status index for documentation | current reference |
+| [DRAWING_TEXT_LOCALIZATION_WORKFLOW.md](./DRAWING_TEXT_LOCALIZATION_WORKFLOW.md) | reference for extracting, reviewing, importing, rendering, and auditing visible text embedded in drawing TeX assets | current reference |
 | [GENERATOR_EXTRA_CONTENT_MIGRATION_REFERENCE.md](./GENERATOR_EXTRA_CONTENT_MIGRATION_REFERENCE.md) | reference for the temporary generator-owned multilingual content layer, its migration boundary, and what still remains inside the generator | current reference |
 | [VALIDATION_LOG.md](./VALIDATION_LOG.md) | records validation findings, rules derived from validation, and operational validation evidence | contextual |
 | [MAPPING_MATRIX.md](./MAPPING_MATRIX.md) | source-to-model mapping aid, especially for import coverage and marker families | contextual |
@@ -32,9 +33,10 @@ For a new contributor:
 
 1. read [CANONICAL_DATA_MODEL_REFERENCE.md](./CANONICAL_DATA_MODEL_REFERENCE.md)
 2. read [CANONICAL_USE_CASES_AND_WORKFLOWS.md](./CANONICAL_USE_CASES_AND_WORKFLOWS.md)
-3. read [GENERATOR_EXTRA_CONTENT_MIGRATION_REFERENCE.md](./GENERATOR_EXTRA_CONTENT_MIGRATION_REFERENCE.md) for generator-owned multilingual content outside canonical
-4. use [VALIDATION_LOG.md](./VALIDATION_LOG.md) for evidence and constraints
-5. use [MAPPING_MATRIX.md](./MAPPING_MATRIX.md) for detailed source mapping
+3. read [DRAWING_TEXT_LOCALIZATION_WORKFLOW.md](./DRAWING_TEXT_LOCALIZATION_WORKFLOW.md) when working on localized drawing assets
+4. read [GENERATOR_EXTRA_CONTENT_MIGRATION_REFERENCE.md](./GENERATOR_EXTRA_CONTENT_MIGRATION_REFERENCE.md) for generator-owned multilingual content outside canonical
+5. use [VALIDATION_LOG.md](./VALIDATION_LOG.md) for evidence and constraints
+6. use [MAPPING_MATRIX.md](./MAPPING_MATRIX.md) for detailed source mapping
 
 ## Maintenance Rule
 
@@ -42,6 +44,7 @@ When the canonical model changes:
 
 - update `CANONICAL_DATA_MODEL_REFERENCE.md`
 - update `CANONICAL_USE_CASES_AND_WORKFLOWS.md` if workflows or scope changed
+- update `DRAWING_TEXT_LOCALIZATION_WORKFLOW.md` if drawing text extraction or localized asset rules change
 - update `GENERATOR_EXTRA_CONTENT_MIGRATION_REFERENCE.md` if generator-owned multilingual resources or generation rules changed
 - update this index if document status changed
 

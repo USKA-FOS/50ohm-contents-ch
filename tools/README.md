@@ -157,6 +157,136 @@ Portability note:
 - missing `translator/site-original/...` on a fresh machine is therefore a
   setup limitation, not a canonical-model corruption.
 
+### Extract visible-text candidates from drawing TeX assets
+
+```bash
+python tools/extract_drawing_tex_translation_candidates.py
+```
+
+This command scans `canonical/drawings/*/*.de.tex` and writes:
+
+- `work/drawing_text_audit/drawing_tex_translation_candidates.csv`
+
+Current extraction scope:
+
+- `node[...] { ... }`
+- `node[...](){ ... }`
+- `\node[...] { ... }`
+- `\node[...](){ ... }`
+- `\pgftext{ ... }`
+- `\pgftext[<options>]{ ... }`
+
+Important limitation:
+
+- the output is a candidate list of visible text fragments;
+- it is not a perfect German detector;
+- manual review is still required before creating localized `*.fr.tex`,
+  `*.it.tex`, and later `*.fr.svg`, `*.it.svg`.
+
+### Build drawing-text review files from the filtered candidate CSV
+
+```bash
+python tools/build_drawing_tex_translation_review_files.py
+```
+
+This command reads:
+
+- `work/drawing_text_audit/drawing_tex_translation_candidates_2.csv`
+- `../50ohm-ai-translation-glossary/glossary.yml`
+
+and regenerates:
+
+- `work/drawing_text_audit/drawing_tex_translation_unique_from_filter.csv`
+- `work/drawing_text_audit/drawing_tex_translation_unique_working_with_suggestions.csv`
+- `work/drawing_text_audit/drawing_tex_translation_simple_actions.csv`
+- `work/drawing_text_audit/drawing_tex_glossary_proposals_from_filter.csv`
+- `work/drawing_text_audit/drawing_tex_translation_manual_residual.csv`
+
+Glossary lookup is performed against the real glossary structure:
+
+- top-level key `terms`
+- source text in `source_term`
+- translations in `translations.<lang>.term`
+
+This avoids treating already-glossarized drawing terms as unresolved manual
+items.
+
+### Export special split-word drawing cases for separate review
+
+```bash
+python tools/export_drawing_tex_special_compounds.py
+```
+
+This writes:
+
+- `work/drawing_text_audit/drawing_tex_special_compounds_review.csv`
+
+It groups two-line compounds such as `Antennen-` + `tuner` so they can be
+reviewed and line-broken explicitly in the target language.
+
+### Import accepted drawing review rows, excluding special compounds
+
+```bash
+python tools/import_drawing_tex_translation_review.py
+```
+
+This reads:
+
+- `work/drawing_text_audit/drawing_tex_translation_review_consolidated.csv`
+- `work/drawing_text_audit/drawing_tex_special_compounds_review.csv`
+
+and writes only accepted non-special rows to:
+
+- `work/drawing_text_audit/drawing_tex_translation_imported_ok.csv`
+- `work/drawing_text_audit/drawing_tex_translation_imported_ok.json`
+
+### Import reviewed drawing translations and generate localized TeX files
+
+```bash
+python tools/import_drawing_tex_translations.py
+```
+
+This reads:
+
+- `work/drawing_text_audit/drawing_tex_translation_candidates_2.csv`
+- `work/drawing_text_audit/drawing_tex_translation_imported_ok.csv`
+- `work/drawing_text_audit/drawing_tex_special_compounds_review.csv`
+
+and generates `*.fr.tex` and `*.it.tex` beside the existing `*.de.tex` files,
+while updating the touched drawing `object.meta.json` files to declare the new
+language-specific TeX assets.
+
+### Render localized drawing SVG files from localized TeX files
+
+```bash
+python tools/render_localized_drawing_svgs.py --from-import-report
+```
+
+This renders `*.fr.svg` and `*.it.svg` from the available `*.fr.tex` and
+`*.it.tex` files, updates the touched drawing `object.meta.json` files to
+declare the language-specific SVG assets, and copies the generated SVG files
+into:
+
+- `work/drawing_svg_review/fr/`
+- `work/drawing_svg_review/it/`
+
+System dependencies required on the workstation:
+
+- `latexmk`
+- `lualatex`
+- `pdftocairo`
+
+Repository-local support files also required:
+
+- `latex_deleted/FiftyOhm.cls`
+- `latex_deleted/DARC-ausbildungsmaterialien.sty`
+- `latex_deleted/settings.tex`
+- `latex_deleted/settings-pre.tex`
+
+The generated review copies are not authoritative canonical data. They exist
+only to support the visual audit of remaining untranslated or incorrectly
+localized drawing labels after SVG rendering.
+
 ## Related Compatibility Tool
 
 The current review-site compatibility export for question catalogs is **not**
