@@ -123,6 +123,7 @@ Working files used by the import/render phase:
 - `work/drawing_text_audit/drawing_tex_translation_imported_ok.csv`
 - `work/drawing_text_audit/drawing_tex_translation_imported_ok.json`
 - `work/drawing_text_audit/drawing_tex_translation_import_report.json`
+- `work/drawing_svg_review/de/`
 - `work/drawing_svg_review/fr/`
 - `work/drawing_svg_review/it/`
 
@@ -133,6 +134,14 @@ Canonical outputs created by this phase:
 - `canonical/drawings/*/*.fr.svg`
 - `canonical/drawings/*/*.it.svg`
 - updated `canonical/drawings/*/object.meta.json`
+
+Important review note:
+
+- the generated SVG files are suitable for visual review only;
+- rendered labels are currently converted into vector glyph paths, not kept as
+  SVG `<text>` nodes;
+- textual verification must therefore be done from the localized `*.tex`
+  files, not by grepping inside the SVG payloads.
 
 ## 3. Syntaxes Currently Extracted
 

@@ -24,13 +24,15 @@
     },
     "fr": {
       "asset_files": {
-        "tex": "973.fr.tex"
+        "tex": "973.fr.tex",
+        "svg": "973.fr.svg"
       },
       "review_state": "to_be_reviewed"
     },
     "it": {
       "asset_files": {
-        "tex": "973.it.tex"
+        "tex": "973.it.tex",
+        "svg": "973.it.svg"
       },
       "review_state": "to_be_reviewed"
     }
@@ -60,6 +62,12 @@
       },
       "it.tex": {
         "canonical_file": "973.it.tex"
+      },
+      "fr.svg": {
+        "canonical_file": "973.fr.svg"
+      },
+      "it.svg": {
+        "canonical_file": "973.it.svg"
       }
     },
     "reconstruction": {

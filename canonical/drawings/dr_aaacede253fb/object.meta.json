@@ -31,7 +31,8 @@
     },
     "it": {
       "asset_files": {
-        "tex": "593.it.tex"
+        "tex": "593.it.tex",
+        "svg": "593.it.svg"
       },
       "review_state": "to_be_reviewed"
     }
@@ -64,6 +65,9 @@
       },
       "fr.svg": {
         "canonical_file": "593.fr.svg"
+      },
+      "it.svg": {
+        "canonical_file": "593.it.svg"
       }
     },
     "reconstruction": {
