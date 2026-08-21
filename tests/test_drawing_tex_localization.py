@@ -107,6 +107,17 @@ class DrawingRendererTest(unittest.TestCase):
             width = renderer.source_width_cm(tex_path, "471", None)
             self.assertAlmostEqual(width, 24.87, places=2)
 
+    def test_accepts_unitless_german_svg_width_from_pdftocairo(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            tex_path = root / "689.fr.tex"
+            tex_path.write_text("", encoding="utf-8")
+            (root / "689.de.svg").write_text(
+                '<svg width="260.588" height="260.588"></svg>', encoding="utf-8"
+            )
+            width = renderer.source_width_cm(tex_path, "689", None)
+            self.assertAlmostEqual(width, 9.16, places=2)
+
     def test_rerenders_existing_svg_when_german_width_differs(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)

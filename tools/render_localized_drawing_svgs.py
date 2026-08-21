@@ -160,8 +160,8 @@ def source_width_cm(tex_path: Path, stem: str, override: float | None) -> float:
         raise FileNotFoundError(f"Missing German reference SVG: {de_svg}")
     header = de_svg.read_text(encoding="utf-8", errors="replace")[:2048]
     match = SVG_WIDTH_PATTERN.search(header)
-    if not match or match.group(2) != "pt":
-        raise ValueError(f"German reference SVG has no width in pt: {de_svg}")
+    if not match:
+        raise ValueError(f"German reference SVG has no numeric width: {de_svg}")
     return float(match.group(1)) / TEX_POINTS_PER_INCH * 2.54
 
 
@@ -170,7 +170,7 @@ def svg_width_pt(svg_path: Path) -> float | None:
         return None
     header = svg_path.read_text(encoding="utf-8", errors="replace")[:2048]
     match = SVG_WIDTH_PATTERN.search(header)
-    if not match or match.group(2) != "pt":
+    if not match:
         return None
     return float(match.group(1))
 
