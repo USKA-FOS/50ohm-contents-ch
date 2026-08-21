@@ -6,9 +6,11 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import shutil
 import subprocess
 import tempfile
+import traceback
 from pathlib import Path
 from typing import Any
 
@@ -22,6 +24,12 @@ DEFAULT_IMPORT_REPORT = (
     REPO_ROOT / "work" / "drawing_text_audit" / "drawing_tex_translation_import_report.json"
 )
 DEFAULT_REVIEW_DIR = REPO_ROOT / "work" / "drawing_svg_review"
+DEFAULT_RENDER_REPORT = (
+    REPO_ROOT / "work" / "drawing_text_audit" / "drawing_svg_render_report.json"
+)
+DEFAULT_RENDER_LOG = (
+    REPO_ROOT / "work" / "drawing_text_audit" / "drawing_svg_render.log"
+)
 SUPPORTED_LANGUAGES = ("fr", "it")
 LATEX_SUPPORT_FILES = (
     "FiftyOhm.cls",
@@ -29,6 +37,7 @@ LATEX_SUPPORT_FILES = (
     "settings.tex",
     "settings-pre.tex",
 )
+PHOTO_INCLUDE_PATTERN = re.compile(r"\\includegraphics(?:\[[^]]*\])?\{foto/([^}]+)\}")
 
 
 def ensure_dependencies() -> list[str]:
@@ -100,6 +109,23 @@ def materialize_photo_assets(target_dir: Path, language: str) -> None:
         bare_target.symlink_to(named_target.name)
 
 
+def extract_photo_refs(tex_text: str) -> list[str]:
+    return [match.group(1).strip() for match in PHOTO_INCLUDE_PATTERN.finditer(tex_text)]
+
+
+def validate_photo_refs(tex_text: str, language: str) -> None:
+    refs = extract_photo_refs(tex_text)
+    if not refs:
+        return
+    available = build_photo_asset_map(language)
+    missing = sorted({ref for ref in refs if ref not in available})
+    if missing:
+        raise SystemExit(
+            "Missing canonical photo assets for localized drawing render: "
+            + ", ".join(missing)
+        )
+
+
 def tex_requires_photo_assets(tex_text: str) -> bool:
     return "\\includegraphics" in tex_text or "foto/" in tex_text or "foto" in tex_text
 
@@ -151,6 +177,7 @@ def render_tex_to_svg(*, tex_path: Path, stem: str, width_cm: float) -> None:
                     "This drawing requires photo assets, but neither "
                     f"{PHOTOS_ROOT} nor {CANONICAL_PHOTOS_ROOT} exists."
                 )
+            validate_photo_refs(tex_text, language)
             photo_link = tmp_dir / "foto"
             materialize_photo_assets(photo_link, language)
             photo_link_2 = img_dir / "foto"
@@ -231,6 +258,12 @@ def should_rerender(*, tex_path: Path, svg_path: Path, skip_existing: bool) -> b
     return not skip_existing
 
 
+def append_log(log_path: Path, message: str) -> None:
+    log_path.parent.mkdir(parents=True, exist_ok=True)
+    with log_path.open("a", encoding="utf-8") as handle:
+        handle.write(message.rstrip() + "\n")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--language", action="append", choices=SUPPORTED_LANGUAGES)
@@ -240,6 +273,8 @@ def main() -> None:
     parser.add_argument("--width-cm", type=float, default=9.0)
     parser.add_argument("--copy-review-dir", type=Path, default=DEFAULT_REVIEW_DIR)
     parser.add_argument("--no-copy-review", action="store_true")
+    parser.add_argument("--report-json", type=Path, default=DEFAULT_RENDER_REPORT)
+    parser.add_argument("--log-file", type=Path, default=DEFAULT_RENDER_LOG)
     parser.add_argument(
         "--skip-existing",
         action="store_true",
@@ -259,39 +294,71 @@ def main() -> None:
 
     tex_paths = iter_target_tex_paths(languages=languages, canonical_refs=canonical_refs or None)
     rendered: list[dict[str, Any]] = []
+    failed: list[dict[str, Any]] = []
     skipped_existing = 0
+    append_log(args.log_file, "")
+    append_log(args.log_file, "=== render_localized_drawing_svgs run start ===")
     for tex_path in tex_paths:
         language = tex_path.suffixes[-2].lstrip(".")
         stem = infer_stem(tex_path, language)
         svg_path = tex_path.with_name(f"{stem}.{language}.svg")
-        rerender = should_rerender(
-            tex_path=tex_path,
-            svg_path=svg_path,
-            skip_existing=args.skip_existing,
-        )
-        used_existing = not rerender and svg_path.exists()
-        if used_existing:
-            skipped_existing += 1
-        else:
-            render_tex_to_svg(tex_path=tex_path, stem=stem, width_cm=args.width_cm)
-        update_meta_for_svg(tex_path.parent, stem, language)
         record: dict[str, Any] = {
             "tex": str(tex_path.relative_to(REPO_ROOT)),
             "svg": str(svg_path.relative_to(REPO_ROOT)),
             "language": language,
         }
-        if used_existing:
-            record["used_existing_svg"] = True
-        if not args.no_copy_review:
-            review_path = copy_to_review(svg_path=svg_path, language=language, review_dir=args.copy_review_dir)
-            record["review_copy"] = str(review_path.relative_to(REPO_ROOT))
-        rendered.append(record)
+        try:
+            rerender = should_rerender(
+                tex_path=tex_path,
+                svg_path=svg_path,
+                skip_existing=args.skip_existing,
+            )
+            used_existing = not rerender and svg_path.exists()
+            if used_existing:
+                skipped_existing += 1
+                record["used_existing_svg"] = True
+                append_log(args.log_file, f"SKIP  {record['svg']} (up-to-date)")
+            else:
+                append_log(args.log_file, f"START {record['tex']} -> {record['svg']}")
+                render_tex_to_svg(tex_path=tex_path, stem=stem, width_cm=args.width_cm)
+                append_log(args.log_file, f"OK    {record['svg']}")
+            update_meta_for_svg(tex_path.parent, stem, language)
+            if not args.no_copy_review:
+                review_path = copy_to_review(svg_path=svg_path, language=language, review_dir=args.copy_review_dir)
+                record["review_copy"] = str(review_path.relative_to(REPO_ROOT))
+            rendered.append(record)
+        except Exception as exc:
+            failure = {
+                **record,
+                "error_type": type(exc).__name__,
+                "error": str(exc),
+            }
+            failed.append(failure)
+            append_log(args.log_file, f"FAIL  {record['tex']} -> {record['svg']}")
+            append_log(args.log_file, traceback.format_exc())
+            continue
+
+    args.report_json.parent.mkdir(parents=True, exist_ok=True)
+    report = {
+        "rendered_count": len(rendered),
+        "failed_count": len(failed),
+        "skipped_existing": skipped_existing,
+        "languages": languages,
+        "scoped_drawings": len(canonical_refs),
+        "rendered": rendered,
+        "failed": failed,
+        "log_file": str(args.log_file.relative_to(REPO_ROOT)),
+    }
+    args.report_json.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     print(f"rendered_count={len(rendered)}")
+    print(f"failed_count={len(failed)}")
     print(f"skipped_existing={skipped_existing}")
     print(f"languages={','.join(languages)}")
     if canonical_refs:
         print(f"scoped_drawings={len(canonical_refs)}")
+    print(f"report_json={args.report_json}")
+    print(f"log_file={args.log_file}")
     if not args.no_copy_review:
         print(f"review_dir={args.copy_review_dir}")
 

@@ -236,8 +236,18 @@ review.
 Render localized SVG assets from the import report:
 
 ```bash
-python tools/render_localized_drawing_svgs.py --from-import-report
+python tools/render_localized_drawing_svgs.py --from-import-report --skip-existing
 ```
+
+Current renderer behavior:
+
+- it rerenders when the localized `.tex` is newer than the `.svg`;
+- it skips only up-to-date SVG files when `--skip-existing` is used;
+- it continues after per-file failures;
+- it writes a short summary report to
+  `work/drawing_text_audit/drawing_svg_render_report.json`;
+- it writes a detailed log to
+  `work/drawing_text_audit/drawing_svg_render.log`.
 
 Required workstation tools:
 

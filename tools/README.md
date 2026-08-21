@@ -276,7 +276,13 @@ Behavior note:
 - if the localized `.tex` file is newer than the existing `.svg`, it is
   rendered again;
 - `--skip-existing` now skips only SVG files that already exist and are at
-  least as recent as their corresponding localized `.tex` file.
+  least as recent as their corresponding localized `.tex` file;
+- rendering continues after per-file failures instead of aborting the whole
+  run;
+- a short JSON summary is written to
+  `work/drawing_text_audit/drawing_svg_render_report.json`;
+- a detailed text log is written to
+  `work/drawing_text_audit/drawing_svg_render.log`.
 
 System dependencies required on the workstation:
 
