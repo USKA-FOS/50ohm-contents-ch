@@ -148,6 +148,30 @@ def render_expected_localized(
                         }
                     )
                 continue
+            if row["category"].startswith("pgfplots_"):
+                option_name = row["category"].removeprefix("pgfplots_")
+                replacement = importer.replace_fragment_text(raw_fragment, [translated])
+                updated, replaced = importer.replace_braced_option(
+                    rendered[language], option_name, raw_fragment, replacement
+                )
+                if replaced:
+                    rendered[language] = updated
+                    touched = True
+                continue
+            if row["category"] == "circuitikz_bare_label":
+                updated, replaced = importer.replace_circuitikz_bare_label(
+                    rendered[language], term, translated
+                )
+                if replaced:
+                    rendered[language] = updated
+                    touched = True
+                continue
+            if row["category"] == "math_text":
+                updated, replaced = importer.replace_math_text(rendered[language], term, translated)
+                if replaced:
+                    rendered[language] = updated
+                    touched = True
+                continue
             segments = importer.translation_segments_for_regular(raw_fragment, translated)
             protected_tokens = json.loads(row["protected_tokens"])
             protected_by_segment = importer.split_protected_tokens_by_segment(raw_fragment, protected_tokens)
@@ -180,10 +204,18 @@ def main() -> None:
     parser.add_argument("--imported-csv", type=Path, default=DEFAULT_IMPORTED)
     parser.add_argument("--special-csv", type=Path, default=DEFAULT_SPECIAL)
     parser.add_argument("--report-json", type=Path, default=DEFAULT_REPORT)
+    parser.add_argument(
+        "--canonical-ref",
+        action="append",
+        help="Limit validation to a canonical drawing reference; may be repeated.",
+    )
     args = parser.parse_args()
 
     importer = load_import_module()
     by_ref = load_candidates(args.candidates_csv)
+    if args.canonical_ref:
+        selected_refs = set(args.canonical_ref)
+        by_ref = {ref: rows for ref, rows in by_ref.items() if ref in selected_refs}
     normal_map = importer.build_normal_translation_map(importer.load_csv(args.imported_csv))
     special_map = importer.build_special_translation_map(importer.load_csv(args.special_csv))
 

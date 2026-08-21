@@ -1,0 +1,10 @@
+{
+  "name": "50ohm-contents-ch-development-tools",
+  "private": true,
+  "scripts": {
+    "test:drawing-review": "playwright test tests/drawing-svg-review.spec.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.62.1"
+  }
+}

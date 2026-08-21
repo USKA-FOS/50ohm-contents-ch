@@ -13,7 +13,7 @@
     \draw[red](netzteil.plus)
         to [fuse, l={fusibile}, color=red] ++(2.5,0)
         to [short, i={corrente continua (I)}, color=red] (trx.plus);
-    \draw(trx.minus) to [short, i={}, l={\textcolor{gray}{\small{\textit{Pericolo di cortocircuito e inversione di polarità}}}}] (netzteil.minus);
+    \draw(trx.minus) to [short, i={}, l={\textcolor{gray}{\small{\textit{\shortstack{Pericolo di cortocircuito\\e inversione di polarità}}}}}] (netzteil.minus);
     \draw(netzteil.u1) to [short, -o] ++(-1,0) coordinate(c1);
     \draw(netzteil.u2) to [short, -o] ++(-1,0) coordinate(c2);
     \draw(c1) to [open, l_={$\sim\qty{230}{\volt}$}] (c2);

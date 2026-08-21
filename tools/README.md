@@ -270,6 +270,10 @@ into:
 - `work/drawing_svg_review/fr/`
 - `work/drawing_svg_review/it/`
 
+Pass `--language de --language fr --language it` to render all three language
+variants. Without explicit `--language` options, the localization default
+remains FR and IT.
+
 Behavior note:
 
 - if the target localized SVG does not exist, it is rendered;
@@ -332,6 +336,33 @@ It reads:
 and writes:
 
 - `work/drawing_text_audit/localized_tex_structure_validation.json`
+
+### Review localized drawing SVG files in the browser
+
+```bash
+python tools/serve_drawing_svg_review.py
+```
+
+Open `http://127.0.0.1:8765/`. The read-only interface discovers drawing stems
+available in all three `work/drawing_svg_review/{de,fr,it}/` directories and
+shows the three SVG variants together. Navigation is available through the
+previous/next buttons, the drawing selector, and the left/right arrow keys.
+The URL hash preserves the current drawing, and zoom is synchronized across
+the three panels.
+
+Run its desktop and mobile browser checks with:
+
+```bash
+npm install
+npx playwright install chromium
+npm run test:drawing-review
+```
+
+On a new Ubuntu workstation, Playwright may first require:
+
+```bash
+sudo env PATH="$PATH" npx playwright install-deps chromium
+```
 
 ## Related Compatibility Tool
 

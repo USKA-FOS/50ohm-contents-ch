@@ -68,6 +68,7 @@ PROTECTED_COMMANDS = (
     "degree",
     "ctikzvalof",
 )
+MATH_TEXT_NON_TRANSLATABLE = {"max", "min"}
 
 
 @dataclass
@@ -215,7 +216,7 @@ def extract_pgftext_candidates(text: str) -> list[tuple[str, str]]:
 def extract_circuitikz_label_candidates(text: str) -> list[tuple[str, str]]:
     candidates: list[tuple[str, str]] = []
     cursor = 0
-    pattern = re.compile(r"(?<![A-Za-z@])(?:l|l_|l\^|l\^_|i|i_|i\^|i\^_|v|v_|v\^|v\^_)\s*=\s*")
+    pattern = re.compile(r"(?<![A-Za-z@])(?:l\^_|l\^|l_|l|i\^_|i\^|i_|i|v\^_|v\^|v_|v)\s*=\s*")
     while True:
         match = pattern.search(text, cursor)
         if not match:
@@ -231,7 +232,14 @@ def extract_circuitikz_label_candidates(text: str) -> list[tuple[str, str]]:
                 candidates.append(("circuitikz_label", content.strip()))
             cursor = index_after
         else:
-            cursor = index
+            bare = read_bare_option_value(text, index)
+            if bare is None:
+                cursor = index + 1
+                continue
+            content, index_after = bare
+            if looks_translatable(content):
+                candidates.append(("circuitikz_bare_label", content.strip()))
+            cursor = index_after
     return candidates
 
 
@@ -270,6 +278,77 @@ def extract_tikz_option_label_candidates(text: str) -> list[tuple[str, str]]:
             candidates.append(("tikz_option_label", content.strip()))
         cursor = index_after
     return candidates
+
+
+def extract_pgfplots_option_candidates(text: str) -> list[tuple[str, str]]:
+    candidates: list[tuple[str, str]] = []
+    for option_name in ("title", "xlabel", "ylabel"):
+        cursor = 0
+        pattern = re.compile(rf"(?<![A-Za-z@]){option_name}\s*=\s*")
+        while True:
+            match = pattern.search(text, cursor)
+            if not match:
+                break
+            index = match.end()
+            if index >= len(text) or text[index] != "{":
+                cursor = index
+                continue
+            try:
+                content, index_after = read_balanced_group(text, index)
+            except ValueError:
+                cursor = index + 1
+                continue
+            if looks_translatable(content):
+                candidates.append((f"pgfplots_{option_name}", content.strip()))
+            cursor = index_after
+    return candidates
+
+
+def extract_math_text_candidates(text: str) -> list[tuple[str, str]]:
+    candidates: list[tuple[str, str]] = []
+    cursor = 0
+    pattern = re.compile(r"\\text\s*")
+    while True:
+        match = pattern.search(text, cursor)
+        if not match:
+            break
+        index = match.end()
+        if index >= len(text) or text[index] != "{":
+            cursor = index
+            continue
+        try:
+            content, index_after = read_balanced_group(text, index)
+        except ValueError:
+            cursor = index + 1
+            continue
+        if looks_translatable(content) and content.strip() not in MATH_TEXT_NON_TRANSLATABLE:
+            candidates.append(("math_text", content.strip()))
+        cursor = index_after
+    return candidates
+
+
+def unwrap_textcolor_content(text: str) -> str:
+    stripped = text.strip()
+    if not stripped.startswith(r"\textcolor"):
+        return text
+    cursor = len(r"\textcolor")
+    while cursor < len(stripped) and stripped[cursor].isspace():
+        cursor += 1
+    if cursor >= len(stripped) or stripped[cursor] != "{":
+        return text
+    try:
+        _, cursor = read_balanced_group(stripped, cursor)
+    except ValueError:
+        return text
+    while cursor < len(stripped) and stripped[cursor].isspace():
+        cursor += 1
+    if cursor >= len(stripped) or stripped[cursor] != "{":
+        return text
+    try:
+        visible, cursor = read_balanced_group(stripped, cursor)
+    except ValueError:
+        return text
+    return visible if not stripped[cursor:].strip() else text
 
 
 def collect_leading_format_commands(text: str) -> tuple[list[str], str]:
@@ -363,14 +442,21 @@ def build_structured_candidate(
     raw_content: str,
     category: str,
 ) -> Candidate:
-    format_commands, remainder = collect_leading_format_commands(raw_content)
+    visible_content = unwrap_textcolor_content(raw_content)
+    format_commands, remainder = collect_leading_format_commands(visible_content)
     protected_tokens, remainder = collect_protected_tokens(remainder)
     translatable_text = cleanup_translatable_text(remainder)
     return Candidate(
         canonical_reference=canonical_reference,
         figure_number=figure_number,
         index=index,
-        raw_tex_fragment="{" + raw_content.strip() + "}",
+        raw_tex_fragment=(
+            raw_content.strip()
+            if category == "circuitikz_bare_label"
+            else rf"\text{{{raw_content.strip()}}}"
+            if category == "math_text"
+            else "{" + raw_content.strip() + "}"
+        ),
         format_commands=json.dumps(format_commands, ensure_ascii=False),
         protected_tokens=json.dumps(protected_tokens, ensure_ascii=False),
         translatable_text=translatable_text,
@@ -400,6 +486,8 @@ def build_candidates() -> list[Candidate]:
             extracted.extend(extract_pgftext_candidates(content))
             extracted.extend(extract_circuitikz_label_candidates(content))
             extracted.extend(extract_tikz_option_label_candidates(content))
+            extracted.extend(extract_pgfplots_option_candidates(content))
+            extracted.extend(extract_math_text_candidates(content))
             for category, raw_content in extracted:
                 candidate = build_structured_candidate(
                     canonical_reference=canonical_reference,

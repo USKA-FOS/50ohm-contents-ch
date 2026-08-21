@@ -30,7 +30,10 @@ DEFAULT_RENDER_REPORT = (
 DEFAULT_RENDER_LOG = (
     REPO_ROOT / "work" / "drawing_text_audit" / "drawing_svg_render.log"
 )
-SUPPORTED_LANGUAGES = ("fr", "it")
+TEXMF_CACHE_ROOT = REPO_ROOT / "work" / "drawing_text_audit" / "texmf-cache"
+TEXMF_VAR_ROOT = REPO_ROOT / "work" / "drawing_text_audit" / "texmf-var"
+SUPPORTED_LANGUAGES = ("de", "fr", "it")
+DEFAULT_LANGUAGES = ("fr", "it")
 LATEX_SUPPORT_FILES = (
     "FiftyOhm.cls",
     "DARC-ausbildungsmaterialien.sty",
@@ -38,6 +41,8 @@ LATEX_SUPPORT_FILES = (
     "settings-pre.tex",
 )
 PHOTO_INCLUDE_PATTERN = re.compile(r"\\includegraphics(?:\[[^]]*\])?\{foto/([^}]+)\}")
+SVG_WIDTH_PATTERN = re.compile(r'<svg\b[^>]*\bwidth="([0-9.]+)(pt)?"')
+TEX_POINTS_PER_INCH = 72.27
 
 
 def ensure_dependencies() -> list[str]:
@@ -147,6 +152,29 @@ def infer_stem(tex_path: Path, language: str) -> str:
     return tex_path.name[: -len(suffix)]
 
 
+def source_width_cm(tex_path: Path, stem: str, override: float | None) -> float:
+    if override is not None:
+        return override
+    de_svg = tex_path.with_name(f"{stem}.de.svg")
+    if not de_svg.exists():
+        raise FileNotFoundError(f"Missing German reference SVG: {de_svg}")
+    header = de_svg.read_text(encoding="utf-8", errors="replace")[:2048]
+    match = SVG_WIDTH_PATTERN.search(header)
+    if not match or match.group(2) != "pt":
+        raise ValueError(f"German reference SVG has no width in pt: {de_svg}")
+    return float(match.group(1)) / TEX_POINTS_PER_INCH * 2.54
+
+
+def svg_width_pt(svg_path: Path) -> float | None:
+    if not svg_path.exists():
+        return None
+    header = svg_path.read_text(encoding="utf-8", errors="replace")[:2048]
+    match = SVG_WIDTH_PATTERN.search(header)
+    if not match or match.group(2) != "pt":
+        return None
+    return float(match.group(1))
+
+
 def render_tex_to_svg(*, tex_path: Path, stem: str, width_cm: float) -> None:
     drawing_dir = tex_path.parent
     language = tex_path.suffixes[-2].lstrip(".")
@@ -184,25 +212,35 @@ def render_tex_to_svg(*, tex_path: Path, stem: str, width_cm: float) -> None:
             materialize_photo_assets(photo_link_2, language)
 
         env = os.environ.copy()
-        env.setdefault("TEXMFCACHE", str(tmp_dir / ".texmf-cache"))
-        env.setdefault("TEXMFVAR", str(tmp_dir / ".texmf-var"))
+        env.setdefault("TEXMFCACHE", str(TEXMF_CACHE_ROOT))
+        env.setdefault("TEXMFVAR", str(TEXMF_VAR_ROOT))
         Path(env["TEXMFCACHE"]).mkdir(parents=True, exist_ok=True)
         Path(env["TEXMFVAR"]).mkdir(parents=True, exist_ok=True)
 
-        subprocess.run(
+        latex_result = subprocess.run(
             ["latexmk", "-lualatex", "-cd", str(aux_file)],
-            check=True,
             cwd=tmp_dir,
             env=env,
             stdin=subprocess.DEVNULL,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True,
         )
-        subprocess.run(
+        if latex_result.returncode:
+            tail = latex_result.stdout[-8000:]
+            raise RuntimeError(f"latexmk failed for {tex_path}:\n{tail}")
+        cairo_result = subprocess.run(
             ["pdftocairo", "-svg", str(tmp_dir / f"{stem}.pdf"), str(output_svg)],
-            check=True,
             cwd=tmp_dir,
             env=env,
             stdin=subprocess.DEVNULL,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True,
         )
+        if cairo_result.returncode:
+            tail = cairo_result.stdout[-8000:]
+            raise RuntimeError(f"pdftocairo failed for {tex_path}:\n{tail}")
 
 
 def update_meta_for_svg(object_dir: Path, stem: str, language: str) -> None:
@@ -255,6 +293,12 @@ def should_rerender(*, tex_path: Path, svg_path: Path, skip_existing: bool) -> b
         return True
     if tex_path.stat().st_mtime > svg_path.stat().st_mtime:
         return True
+    stem = infer_stem(tex_path, tex_path.suffixes[-2].lstrip("."))
+    de_width = svg_width_pt(tex_path.with_name(f"{stem}.de.svg"))
+    localized_width = svg_width_pt(svg_path)
+    if de_width is not None and localized_width is not None:
+        if abs(de_width - localized_width) > 0.01:
+            return True
     return not skip_existing
 
 
@@ -270,7 +314,12 @@ def main() -> None:
     parser.add_argument("--canonical-ref", action="append", help="Canonical drawing reference like canonical/drawings/dr_xxx")
     parser.add_argument("--from-import-report", action="store_true", help="Limit rendering to drawings listed in the latest drawing translation import report.")
     parser.add_argument("--import-report", type=Path, default=DEFAULT_IMPORT_REPORT)
-    parser.add_argument("--width-cm", type=float, default=9.0)
+    parser.add_argument(
+        "--width-cm",
+        type=float,
+        default=None,
+        help="Override the German SVG reference width instead of preserving it.",
+    )
     parser.add_argument("--copy-review-dir", type=Path, default=DEFAULT_REVIEW_DIR)
     parser.add_argument("--no-copy-review", action="store_true")
     parser.add_argument("--report-json", type=Path, default=DEFAULT_RENDER_REPORT)
@@ -278,7 +327,7 @@ def main() -> None:
     parser.add_argument(
         "--skip-existing",
         action="store_true",
-        help="Do not rerender when the target localized SVG already exists.",
+        help="Skip only existing SVGs that are up to date and match the German width.",
     )
     args = parser.parse_args()
 
@@ -286,7 +335,7 @@ def main() -> None:
     if missing:
         raise SystemExit("Missing dependencies: " + ", ".join(missing))
 
-    languages = args.language or list(SUPPORTED_LANGUAGES)
+    languages = args.language or list(DEFAULT_LANGUAGES)
     canonical_refs = list(args.canonical_ref or [])
     if args.from_import_report:
         canonical_refs.extend(load_import_report(args.import_report))
@@ -320,7 +369,9 @@ def main() -> None:
                 append_log(args.log_file, f"SKIP  {record['svg']} (up-to-date)")
             else:
                 append_log(args.log_file, f"START {record['tex']} -> {record['svg']}")
-                render_tex_to_svg(tex_path=tex_path, stem=stem, width_cm=args.width_cm)
+                width_cm = source_width_cm(tex_path, stem, args.width_cm)
+                record["width_cm"] = width_cm
+                render_tex_to_svg(tex_path=tex_path, stem=stem, width_cm=width_cm)
                 append_log(args.log_file, f"OK    {record['svg']}")
             update_meta_for_svg(tex_path.parent, stem, language)
             if not args.no_copy_review:

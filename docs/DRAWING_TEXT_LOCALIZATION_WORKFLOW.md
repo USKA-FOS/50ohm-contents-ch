@@ -90,6 +90,13 @@ Glossary lookup uses the actual glossary model:
 - source key: `source_term`
 - translated labels: `translations.fr.term`, `translations.it.term`
 
+Glossary terms contain semantic text only. TeX layout markers such as `\\`
+must not be stored in the glossary. For a source label split across multiple
+lines, the importer distributes a multiword translation over the existing
+lines. If the approved translation is a single word, obsolete trailing source
+line breaks are removed. Exceptional reviewer-controlled breaks use `[[BR]]`
+in the drawing review CSV, not in the glossary.
+
 Derived outputs:
 
 - `drawing_tex_translation_unique_from_filter.csv`
@@ -250,7 +257,11 @@ python tools/render_localized_drawing_svgs.py --from-import-report --skip-existi
 
 Current renderer behavior:
 
+- `--language` accepts `de`, `fr`, and `it`; without an explicit language it
+  retains the localization default `fr` and `it`;
 - it rerenders when the localized `.tex` is newer than the `.svg`;
+- with `--skip-existing`, it also rerenders a localized SVG whose width differs
+  from the German reference SVG;
 - it skips only up-to-date SVG files when `--skip-existing` is used;
 - it continues after per-file failures;
 - it writes a short summary report to
@@ -278,6 +289,50 @@ The renderer also copies the generated SVG files to:
 
 These review directories are the expected input for the post-render audit.
 
+### 6.1 Trilingual browser review
+
+Start the local visual comparison tool from `50ohm-contents-ch`:
+
+```bash
+python tools/serve_drawing_svg_review.py
+```
+
+Then open:
+
+```text
+http://127.0.0.1:8765/
+```
+
+The server reads the intersection of the SVG files present under:
+
+- `work/drawing_svg_review/de/`
+- `work/drawing_svg_review/fr/`
+- `work/drawing_svg_review/it/`
+
+Only drawings available in all three languages are listed. The interface shows
+the three variants simultaneously and supports:
+
+- previous and next buttons;
+- direct drawing selection;
+- left and right keyboard arrows;
+- a synchronized zoom for all three panels;
+- direct links such as `http://127.0.0.1:8765/#689`.
+
+The interface is read-only. It does not change canonical assets, review status,
+or files under `work/`.
+
+Install and run the reusable browser checks with:
+
+```bash
+npm install
+npx playwright install chromium
+sudo env PATH="$PATH" npx playwright install-deps chromium
+npm run test:drawing-review
+```
+
+Playwright writes its review screenshots and transient results below
+`work/drawing_svg_review/`. They are intentionally excluded from Git.
+
 ## 7. Current Audit Rule
 
 SVG generation success is not sufficient to declare the drawing localization
@@ -295,3 +350,8 @@ After each render run:
 
 Examples already observed during the current audit cycle include figure `865`
 (`Reflektion`, `Bodenwelle`) and figure `972` (`NF`).
+
+The trilingual view also makes geometric regressions visible. For example,
+figure `689` currently shows overlapping localized labels in French and
+Italian even though all TeX structure and SVG rendering checks pass. Rendering
+success must therefore remain distinct from visual approval.

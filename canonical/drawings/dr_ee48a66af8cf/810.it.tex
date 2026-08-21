@@ -18,17 +18,17 @@
         node[inputarrow](){}
         node[mixer, box, anchor=west, DARCred] (mix1) {};
     \draw[DARCblue](mix1.east)
-        to [amp, box, >, l_=1.ZF, name={amp2}] ++ (2,0) coordinate(f3);
+        to [amp, box, >, l_=1.IF, name={amp2}] ++ (2,0) coordinate(f3);
     \draw(f3)
         node[inputarrow](){}
         node[mixer, box, anchor=west, DARCred] (mix2) {};
     \draw[DARCblue](mix2.east)
-        to [amp, box, >, l_=2.ZF, name={amp3}] ++ (2,0) coordinate(f4);
+        to [amp, box, >, l_=2.IF, name={amp3}] ++ (2,0) coordinate(f4);
     \draw(f4)
         node[inputarrow](){}
         node[mixer, box, anchor=west, DARCred](mix3){};
     \draw[DARCblue](mix3.east)
-        to [amp, box, >, l_=NF, name={amp4}] ++ (2,0) coordinate(f5);
+        to [amp, box, >, l_=BF, name={amp4}] ++ (2,0) coordinate(f5);
     \draw(f5)
         node[inputarrow](){}
         node[loudspeakershape, anchor=south, rotate=-90](L){};

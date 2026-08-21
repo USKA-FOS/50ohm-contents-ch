@@ -33,7 +33,8 @@ def normalize_lookup_term(value: str) -> str:
 
 
 def normalize_translation_text(value: str) -> str:
-    return (value or "").replace("\\\\", "\\").strip()
+    normalized = (value or "").replace("\\\\", "\\").strip()
+    return normalized.replace("[[BR]]", r"\\")
 
 
 def load_csv(path: Path) -> list[dict[str, str]]:
@@ -339,6 +340,8 @@ def replace_fragment_text(
             rebuilt_segments.append(leading_markers + translated)
         else:
             rebuilt_segments.append(prefix + translated)
+    while len(rebuilt_segments) > 1 and not rebuilt_segments[-1]:
+        rebuilt_segments.pop()
     return "{" + "\\\\".join(rebuilt_segments) + "}"
 
 
@@ -373,12 +376,64 @@ def replace_tikz_option_label(text: str, source_term: str, translated: str) -> t
     return text, False
 
 
+def replace_braced_option(
+    text: str,
+    option_name: str,
+    raw_fragment: str,
+    replacement: str,
+) -> tuple[str, bool]:
+    source = raw_fragment[1:-1]
+    pattern = re.compile(rf"(?<![A-Za-z@]){re.escape(option_name)}\s*=\s*")
+    cursor = 0
+    while True:
+        match = pattern.search(text, cursor)
+        if not match:
+            return text, False
+        brace_index = match.end()
+        if brace_index < len(text) and text[brace_index] == "{":
+            try:
+                content, end = read_balanced_group(text, brace_index)
+            except ValueError:
+                cursor = brace_index + 1
+                continue
+            if content.strip() == source.strip():
+                return text[:brace_index] + replacement + text[end:], True
+            cursor = end
+        else:
+            cursor = brace_index
+
+
+def replace_circuitikz_bare_label(
+    text: str,
+    source_term: str,
+    translated: str,
+) -> tuple[str, bool]:
+    pattern = re.compile(
+        rf"((?<![A-Za-z@])(?:l\^_|l\^|l_|l|i\^_|i\^|i_|i|v\^_|v\^|v_|v)\s*=\s*)"
+        rf"{re.escape(source_term)}(?=\s*(?:,|\]))"
+    )
+    return pattern.subn(lambda match: match.group(1) + translated, text, count=1)
+
+
+def replace_math_text(text: str, source_term: str, translated: str) -> tuple[str, bool]:
+    source = rf"\text{{{source_term}}}"
+    target = rf"\text{{{translated}}}"
+    if source not in text:
+        return text, False
+    return text.replace(source, target, 1), True
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--candidates-csv", type=Path, default=DEFAULT_CANDIDATES)
     parser.add_argument("--imported-csv", type=Path, default=DEFAULT_IMPORTED)
     parser.add_argument("--special-csv", type=Path, default=DEFAULT_SPECIAL)
     parser.add_argument("--report-json", type=Path, default=DEFAULT_REPORT)
+    parser.add_argument(
+        "--canonical-ref",
+        action="append",
+        help="Limit import to a canonical drawing reference; may be repeated.",
+    )
     args = parser.parse_args()
 
     candidates = load_csv(args.candidates_csv)
@@ -389,6 +444,9 @@ def main() -> None:
     by_ref: dict[str, list[dict[str, str]]] = {}
     for row in candidates:
         by_ref.setdefault(row["canonical_reference"], []).append(row)
+    if args.canonical_ref:
+        selected_refs = set(args.canonical_ref)
+        by_ref = {ref: rows for ref, rows in by_ref.items() if ref in selected_refs}
 
     report: dict[str, Any] = {"updated_drawings": [], "languages": {"fr": 0, "it": 0}}
     for ref, rows in sorted(by_ref.items()):
@@ -429,6 +487,30 @@ def main() -> None:
                     continue
                 if row["category"] == "tikz_option_label":
                     updated, replaced = replace_tikz_option_label(rendered[language], term, translated)
+                    if replaced:
+                        rendered[language] = updated
+                        touched = True
+                    continue
+                if row["category"].startswith("pgfplots_"):
+                    option_name = row["category"].removeprefix("pgfplots_")
+                    replacement = replace_fragment_text(raw_fragment, [translated])
+                    updated, replaced = replace_braced_option(
+                        rendered[language], option_name, raw_fragment, replacement
+                    )
+                    if replaced:
+                        rendered[language] = updated
+                        touched = True
+                    continue
+                if row["category"] == "circuitikz_bare_label":
+                    updated, replaced = replace_circuitikz_bare_label(
+                        rendered[language], term, translated
+                    )
+                    if replaced:
+                        rendered[language] = updated
+                        touched = True
+                    continue
+                if row["category"] == "math_text":
+                    updated, replaced = replace_math_text(rendered[language], term, translated)
                     if replaced:
                         rendered[language] = updated
                         touched = True

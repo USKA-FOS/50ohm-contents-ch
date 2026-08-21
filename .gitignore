@@ -3,5 +3,12 @@
 
 /src/__pycache__
 /tools/__pycache__
-/work/
+/work/*
+!/work/drawing_svg_review/
+/work/drawing_svg_review/*
+!/work/drawing_svg_review/Review_result.xlsx
+!/work/drawing_svg_review/Review_result_analysis.md
 /drawing_svg_*/
+/node_modules/
+/work/drawing_svg_review/screenshots/
+__pycache__/

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Revue des dessins</title>
+    <link rel="stylesheet" href="/assets/review.css">
+  </head>
+  <body>
+    <header class="toolbar">
+      <div class="identity">
+        <span class="product">50Ohm</span>
+        <span class="view-name">Revue des dessins</span>
+      </div>
+
+      <nav class="navigation" aria-label="Navigation des dessins">
+        <button id="previous" class="icon-button" type="button" title="Dessin précédent" aria-label="Dessin précédent">&#8592;</button>
+        <label class="drawing-select-label" for="drawing-select">Dessin</label>
+        <select id="drawing-select" aria-label="Choisir un dessin"></select>
+        <span id="position" class="position" aria-live="polite">0 / 0</span>
+        <button id="next" class="icon-button" type="button" title="Dessin suivant" aria-label="Dessin suivant">&#8594;</button>
+      </nav>
+
+      <div class="zoom-controls" aria-label="Zoom synchronisé">
+        <button id="zoom-out" class="icon-button" type="button" title="Réduire" aria-label="Réduire">&#8722;</button>
+        <input id="zoom" type="range" min="50" max="200" step="10" value="100" aria-label="Niveau de zoom">
+        <output id="zoom-value" for="zoom">100%</output>
+        <button id="zoom-in" class="icon-button" type="button" title="Agrandir" aria-label="Agrandir">+</button>
+      </div>
+    </header>
+
+    <main>
+      <div id="error" class="error" role="alert" hidden></div>
+      <section class="comparison" aria-label="Comparaison trilingue">
+        <article class="language-panel language-de">
+          <header><span>DE</span><strong>Deutsch</strong></header>
+          <div class="canvas"><img id="image-de" alt=""></div>
+          <div id="error-de" class="image-error" hidden>SVG indisponible</div>
+        </article>
+        <article class="language-panel language-fr">
+          <header><span>FR</span><strong>Français</strong></header>
+          <div class="canvas"><img id="image-fr" alt=""></div>
+          <div id="error-fr" class="image-error" hidden>SVG indisponible</div>
+        </article>
+        <article class="language-panel language-it">
+          <header><span>IT</span><strong>Italiano</strong></header>
+          <div class="canvas"><img id="image-it" alt=""></div>
+          <div id="error-it" class="image-error" hidden>SVG indisponibile</div>
+        </article>
+      </section>
+    </main>
+
+    <script src="/assets/review.js"></script>
+  </body>
+</html>

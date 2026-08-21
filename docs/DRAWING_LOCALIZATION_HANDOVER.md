@@ -25,10 +25,13 @@ As of 2026-08-21:
   - `174` `*.fr.tex`
   - `174` `*.it.tex`
 - localized SVG present:
-  - `167` `*.fr.svg`
-  - `167` `*.it.svg`
+  - `174` `*.fr.svg`
+  - `174` `*.it.svg`
 - German SVG review export:
   - `work/drawing_svg_review/de/`
+- trilingual browser review:
+  - `python tools/serve_drawing_svg_review.py`
+  - `http://127.0.0.1:8765/`
 
 The current session snapshot is also recorded in:
 
@@ -44,6 +47,9 @@ The current session snapshot is also recorded in:
   - rerenders when `.tex` is newer than `.svg`;
   - can continue after per-file failures;
   - writes a short JSON report and a detailed log.
+- the browser review tool now displays DE, FR, and IT simultaneously with
+  direct selection, previous/next navigation, keyboard navigation, and
+  synchronized zoom.
 
 ## 4. Important Rules Already Validated
 
@@ -139,13 +145,18 @@ Visual SVG review export:
 
 The intended next sequence is:
 
-1. finish SVG rendering for the remaining localized drawings;
+1. review the rendered drawings in the trilingual browser interface;
 2. audit residual German text by comparing German, French, and Italian TeX;
 3. resolve remaining glossary-worthy terms through the glossary, not by ad hoc
    patching;
 4. review and resolve special split-label cases;
 5. regenerate affected SVG files;
 6. rebuild the multilingual sites again for visual validation.
+
+The localized render set is now complete: `174` French and `174` Italian SVG
+files are present, and the last render report contains zero failures. This does
+not imply visual approval. Figure `689`, for example, exposes overlapping
+localized labels in the comparison interface.
 
 ## 8. What A New Agent Must Not Assume
 
