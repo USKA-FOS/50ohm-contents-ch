@@ -264,6 +264,8 @@ Current renderer behavior:
   from the German reference SVG;
 - it skips only up-to-date SVG files when `--skip-existing` is used;
 - it continues after per-file failures;
+- it prints every `START`, `OK`, `SKIP`, and `FAIL` event immediately in the
+  terminal while retaining the same events in the detailed log;
 - it writes a short summary report to
   `work/drawing_text_audit/drawing_svg_render_report.json`;
 - it writes a detailed log to

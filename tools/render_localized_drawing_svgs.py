@@ -303,6 +303,8 @@ def should_rerender(*, tex_path: Path, svg_path: Path, skip_existing: bool) -> b
 
 
 def append_log(log_path: Path, message: str) -> None:
+    if message:
+        print(message.rstrip(), flush=True)
     log_path.parent.mkdir(parents=True, exist_ok=True)
     with log_path.open("a", encoding="utf-8") as handle:
         handle.write(message.rstrip() + "\n")

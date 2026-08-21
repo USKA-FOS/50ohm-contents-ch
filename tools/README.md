@@ -277,6 +277,8 @@ remains FR and IT.
 Behavior note:
 
 - if the target localized SVG does not exist, it is rendered;
+- each image reports `START`, then `OK` or `FAIL`; up-to-date images report
+  `SKIP`, with output flushed immediately to the terminal;
 - if the localized `.tex` file is newer than the existing `.svg`, it is
   rendered again;
 - `--skip-existing` now skips only SVG files that already exist and are at
