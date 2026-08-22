@@ -256,12 +256,20 @@ def update_meta_for_svg(object_dir: Path, stem: str, language: str) -> None:
 
     metadata = meta.setdefault("metadata", {})
     language_asset = metadata.setdefault("language_asset", {})
+    svg_source_path = (language_asset.get("de.svg") or {}).get("source_path")
+    svg_source_path = svg_source_path or (metadata.get("asset") or {}).get("svg_path")
+    tex_source_path = (language_asset.get("de.tex") or {}).get("source_path")
+    tex_source_path = tex_source_path or (metadata.get("asset") or {}).get("tex_path")
+    if not svg_source_path or not tex_source_path:
+        raise ValueError(f"Drawing {stem} has incomplete German asset source paths.")
     svg_key = f"{language}.svg"
     svg_entry = language_asset.setdefault(svg_key, {})
     svg_entry["canonical_file"] = f"{stem}.{language}.svg"
+    svg_entry["source_path"] = svg_source_path
     tex_key = f"{language}.tex"
     tex_entry = language_asset.setdefault(tex_key, {})
     tex_entry["canonical_file"] = f"{stem}.{language}.tex"
+    tex_entry["source_path"] = tex_source_path
 
     meta_path.write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
@@ -337,11 +345,17 @@ def main() -> None:
         action="store_true",
         help="Skip only existing SVGs that are up to date and match the German width.",
     )
+    parser.add_argument(
+        "--metadata-only",
+        action="store_true",
+        help="Update localized asset metadata without checking dependencies or rendering SVGs.",
+    )
     args = parser.parse_args()
 
-    missing = ensure_dependencies()
-    if missing:
-        raise SystemExit("Missing dependencies: " + ", ".join(missing))
+    if not args.metadata_only:
+        missing = ensure_dependencies()
+        if missing:
+            raise SystemExit("Missing dependencies: " + ", ".join(missing))
 
     languages = args.language or list(DEFAULT_LANGUAGES)
     canonical_refs = list(args.canonical_ref or [])
@@ -365,6 +379,12 @@ def main() -> None:
             "language": language,
         }
         try:
+            if args.metadata_only:
+                update_meta_for_svg(tex_path.parent, stem, language)
+                record["metadata_only"] = True
+                append_log(args.log_file, f"META  {record['svg']}")
+                rendered.append(record)
+                continue
             rerender = should_rerender(
                 tex_path=tex_path,
                 svg_path=svg_path,

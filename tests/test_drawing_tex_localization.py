@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import importlib.util
+import json
 import os
 import sys
 import tempfile
@@ -65,6 +66,30 @@ class DrawingCandidateExtractionTest(unittest.TestCase):
 
 
 class DrawingTranslationImportTest(unittest.TestCase):
+    def test_localized_tex_metadata_preserves_generator_source_path(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            object_dir = Path(temp_dir)
+            meta_path = object_dir / "object.meta.json"
+            meta_path.write_text(
+                json.dumps(
+                    {
+                        "metadata": {
+                            "asset": {"tex_path": "contents/drawings/202.tex"},
+                            "language_asset": {},
+                        }
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            importer.update_meta_for_tex(object_dir, "202")
+
+            updated = json.loads(meta_path.read_text(encoding="utf-8"))
+            self.assertEqual(
+                updated["metadata"]["language_asset"]["fr.tex"]["source_path"],
+                "contents/drawings/202.tex",
+            )
+
     def test_expands_explicit_line_break_marker(self):
         self.assertEqual(
             importer.normalize_translation_text(r"\shortstack{ligne 1[[BR]]ligne 2}"),
@@ -114,6 +139,32 @@ class DrawingTranslationImportTest(unittest.TestCase):
 
 
 class DrawingRendererTest(unittest.TestCase):
+    def test_localized_svg_metadata_preserves_generator_source_paths(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            object_dir = Path(temp_dir)
+            meta_path = object_dir / "object.meta.json"
+            meta_path.write_text(
+                json.dumps(
+                    {
+                        "metadata": {
+                            "asset": {
+                                "svg_path": "contents/drawings/202.svg",
+                                "tex_path": "contents/drawings/202.tex",
+                            },
+                            "language_asset": {},
+                        }
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            renderer.update_meta_for_svg(object_dir, "202", "fr")
+
+            updated = json.loads(meta_path.read_text(encoding="utf-8"))
+            language_asset = updated["metadata"]["language_asset"]
+            self.assertEqual(language_asset["fr.svg"]["source_path"], "contents/drawings/202.svg")
+            self.assertEqual(language_asset["fr.tex"]["source_path"], "contents/drawings/202.tex")
+
     def test_uses_german_svg_width(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)

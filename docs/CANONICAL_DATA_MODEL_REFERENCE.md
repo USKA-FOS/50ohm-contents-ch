@@ -547,16 +547,24 @@ Additional canonical semantics:
 
 - `language_variants.<lang>.asset_files.svg` maps the SVG file;
 - `language_variants.<lang>.asset_files.tex` maps the TeX file when present;
+- `metadata.language_asset.<lang>.<kind>.canonical_file` identifies the file in
+  the canonical object directory;
+- `metadata.language_asset.<lang>.<kind>.source_path` identifies the
+  language-independent path expected by the generator;
+- localized FR/IT entries inherit the German generator `source_path` while
+  selecting their own language-qualified `canonical_file`;
 - description payloads are language-qualified text files.
 
 What is translated:
 
 - the description text payload when present.
 
-What is content but usually not translated automatically:
+Localized asset rule:
 
-- SVG and TeX asset files, unless a future workflow introduces localized asset
-  variants.
+- approved visible labels embedded in drawing TeX may be localized through the
+  dedicated drawing-text workflow;
+- localized TeX is rendered to a language-specific SVG;
+- geometry and non-text drawing properties must remain aligned with German.
 
 What is metadata:
 

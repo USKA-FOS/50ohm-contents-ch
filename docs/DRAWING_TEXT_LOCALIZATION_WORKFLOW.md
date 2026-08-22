@@ -130,6 +130,16 @@ After reviewer validation:
 5. touched `object.meta.json` files are updated so the generator can resolve
    language-specific drawing assets.
 
+Every `metadata.language_asset.<lang>.<kind>` entry must contain both:
+
+- `canonical_file`, the language-specific file stored in the object directory;
+- `source_path`, the language-independent generator target path inherited from
+  the German asset.
+
+The multilingual build rejects an asset when neither the selected language
+entry nor its German fallback defines `source_path`. It must never stringify a
+missing path or stage an asset under a filename such as `None`.
+
 Working files used by the import/render phase:
 
 - `work/drawing_text_audit/drawing_tex_translation_review_consolidated.csv`
@@ -259,13 +269,15 @@ review.
 Render localized SVG assets from the import report:
 
 ```bash
-python tools/render_localized_drawing_svgs.py --from-import-report --skip-existing
+uv run python tools/render_localized_drawing_svgs.py --from-import-report --skip-existing
 ```
 
 Current renderer behavior:
 
 - `--language` accepts `de`, `fr`, and `it`; without an explicit language it
   retains the localization default `fr` and `it`;
+- `--metadata-only` repairs localized asset metadata without requiring the
+  rendering dependencies or modifying SVG files;
 - it rerenders when the localized `.tex` is newer than the `.svg`;
 - with `--skip-existing`, it also rerenders a localized SVG whose width differs
   from the German reference SVG;
@@ -305,7 +317,7 @@ These review directories are the expected input for the post-render audit.
 Start the local visual comparison tool from `50ohm-contents-ch`:
 
 ```bash
-python tools/serve_drawing_svg_review.py
+uv run python tools/serve_drawing_svg_review.py
 ```
 
 Then open:
@@ -331,6 +343,11 @@ the three variants simultaneously and supports:
 
 The interface is read-only. It does not change canonical assets, review status,
 or files under `work/`.
+
+It displays exported review copies rather than reading canonical SVGs directly.
+After a canonical SVG changes, run the renderer with review-copy output enabled
+before reviewing that change. `--metadata-only` intentionally does not refresh
+these copies.
 
 Install and run the reusable browser checks with:
 

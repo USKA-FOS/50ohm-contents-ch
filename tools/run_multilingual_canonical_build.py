@@ -468,8 +468,17 @@ def overlay_object_assets(connection: sqlite3.Connection, target_root: Path, lan
         selected = variants.get(language) or variants.get("de")
         if not isinstance(selected, dict):
             continue
-        source_path = selected.get("source_path")
+        source_path = selected.get("source_path") or (variants.get("de") or {}).get("source_path")
         canonical_file = selected.get("canonical_file")
+        if not source_path:
+            raise RuntimeError(
+                f"Canonical {language} asset {object_id}/{asset_kind} has no source_path "
+                "and no German source_path fallback."
+            )
+        if not canonical_file:
+            raise RuntimeError(
+                f"Canonical {language} asset {object_id}/{asset_kind} has no canonical_file."
+            )
         object_type = object_types.get(object_id)
         object_dir = canonical_object_dir(str(object_type), object_id) if object_type else None
         if object_dir is None:

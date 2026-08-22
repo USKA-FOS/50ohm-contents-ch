@@ -81,7 +81,7 @@ Current transitional state:
 ### Build de/fr/it from canonical SQLite and federated questions
 
 ```bash
-python3 tools/run_multilingual_canonical_build.py
+uv run python tools/run_multilingual_canonical_build.py
 ```
 
 By default this orchestration uses a fixed generator seed (`50`) so repeated
@@ -91,7 +91,7 @@ embedded question answers.
 To override that seed explicitly:
 
 ```bash
-python3 tools/run_multilingual_canonical_build.py --generator-seed 123
+uv run python tools/run_multilingual_canonical_build.py --generator-seed 123
 ```
 
 This command imports `canonical/` into `work/canonical_model/content_model.sqlite`,
@@ -243,7 +243,7 @@ and writes only accepted non-special rows to:
 ### Import reviewed drawing translations and generate localized TeX files
 
 ```bash
-python tools/import_drawing_tex_translations.py
+uv run python tools/import_drawing_tex_translations.py
 ```
 
 This reads:
@@ -259,7 +259,7 @@ language-specific TeX assets.
 ### Render localized drawing SVG files from localized TeX files
 
 ```bash
-python tools/render_localized_drawing_svgs.py --from-import-report
+uv run python tools/render_localized_drawing_svgs.py --from-import-report --skip-existing
 ```
 
 This renders `*.fr.svg` and `*.it.svg` from the available `*.fr.tex` and
@@ -283,6 +283,8 @@ Behavior note:
   rendered again;
 - `--skip-existing` now skips only SVG files that already exist and are at
   least as recent as their corresponding localized `.tex` file;
+- `--metadata-only --no-copy-review` repairs localized TeX/SVG asset metadata
+  without invoking LaTeX, modifying SVGs, or refreshing review copies;
 - rendering continues after per-file failures instead of aborting the whole
   run;
 - a short JSON summary is written to
@@ -310,7 +312,7 @@ localized drawing labels after SVG rendering.
 ### Validate localized drawing TeX files against the import contract
 
 ```bash
-python tools/validate_localized_drawing_tex_structure.py
+uv run python tools/validate_localized_drawing_tex_structure.py
 ```
 
 This validator rebuilds the expected `.fr.tex` and `.it.tex` files from the
@@ -342,7 +344,7 @@ and writes:
 ### Review localized drawing SVG files in the browser
 
 ```bash
-python tools/serve_drawing_svg_review.py
+uv run python tools/serve_drawing_svg_review.py
 ```
 
 Open `http://127.0.0.1:8765/`. The read-only interface discovers drawing stems
@@ -351,6 +353,10 @@ shows the three SVG variants together. Navigation is available through the
 previous/next buttons, the drawing selector, and the left/right arrow keys.
 The URL hash preserves the current drawing, and zoom is synchronized across
 the three panels.
+
+The interface reads review copies only. After changing or rerendering canonical
+SVGs, rerun the renderer without `--no-copy-review` before inspecting them in
+the browser. The interface never writes canonical data or review decisions.
 
 Run its desktop and mobile browser checks with:
 

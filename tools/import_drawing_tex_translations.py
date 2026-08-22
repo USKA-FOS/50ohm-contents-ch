@@ -373,10 +373,15 @@ def update_meta_for_tex(object_dir: Path, stem: str) -> None:
         variant.setdefault("review_state", "to_be_reviewed")
     metadata = meta.setdefault("metadata", {})
     language_asset = metadata.setdefault("language_asset", {})
+    source_path = (language_asset.get("de.tex") or {}).get("source_path")
+    source_path = source_path or (metadata.get("asset") or {}).get("tex_path")
+    if not source_path:
+        raise ValueError(f"Drawing {stem} has no German TeX source_path.")
     for language in ("fr", "it"):
         key = f"{language}.tex"
         language_asset[key] = {
             "canonical_file": f"{stem}.{language}.tex",
+            "source_path": source_path,
         }
     meta_path.write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 

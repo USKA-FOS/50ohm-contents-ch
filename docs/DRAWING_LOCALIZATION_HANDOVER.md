@@ -18,7 +18,7 @@ Italian by:
 
 ## 2. Current State
 
-As of 2026-08-21:
+As of 2026-08-22:
 
 - import scope: `174` drawing objects
 - localized TeX present:
@@ -30,8 +30,13 @@ As of 2026-08-21:
 - German SVG review export:
   - `work/drawing_svg_review/de/`
 - trilingual browser review:
-  - `python tools/serve_drawing_svg_review.py`
+  - `uv run python tools/serve_drawing_svg_review.py`
   - `http://127.0.0.1:8765/`
+- visual review status:
+  - all 174 localized drawings reviewed and approved;
+- multilingual site build status:
+  - DE, FR, and IT each contain the same 4,165-file output set;
+  - no drawing asset is missing from FR or IT.
 
 The current session snapshot is also recorded in:
 
@@ -46,6 +51,8 @@ The current session snapshot is also recorded in:
 - the SVG renderer now:
   - rerenders when `.tex` is newer than `.svg`;
   - can continue after per-file failures;
+  - reports every image to the terminal;
+  - supports metadata-only repair without rendering;
   - writes a short JSON report and a detailed log.
 - the browser review tool now displays DE, FR, and IT simultaneously with
   direct selection, previous/next navigation, keyboard navigation, and
@@ -143,20 +150,14 @@ Visual SVG review export:
 
 ## 7. Expected Next Steps
 
-The intended next sequence is:
+The reviewed drawing set is complete. The next operational sequence is:
 
-1. review the rendered drawings in the trilingual browser interface;
-2. audit residual German text by comparing German, French, and Italian TeX;
-3. resolve remaining glossary-worthy terms through the glossary, not by ad hoc
-   patching;
-4. review and resolve special split-label cases;
-5. regenerate affected SVG files;
-6. rebuild the multilingual sites again for visual validation.
-
-The localized render set is now complete: `174` French and `174` Italian SVG
-files are present, and the last render report contains zero failures. This does
-not imply visual approval. Figure `689`, for example, exposes overlapping
-localized labels in the comparison interface.
+1. commit and push canonical assets, metadata, tools, and documentation;
+2. publish the rebuilt DE, FR, and IT sites;
+3. inspect the deployed sites for integration defects outside the drawing-only
+   review interface;
+4. route any later drawing correction through the same extract, import, render,
+   review, and rebuild workflow.
 
 ## 8. What A New Agent Must Not Assume
 
