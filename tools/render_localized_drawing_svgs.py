@@ -293,7 +293,13 @@ def should_rerender(*, tex_path: Path, svg_path: Path, skip_existing: bool) -> b
         return True
     if tex_path.stat().st_mtime > svg_path.stat().st_mtime:
         return True
-    stem = infer_stem(tex_path, tex_path.suffixes[-2].lstrip("."))
+    language = tex_path.suffixes[-2].lstrip(".")
+    photo_map = build_photo_asset_map(language)
+    for photo_ref in extract_photo_refs(tex_path.read_text(encoding="utf-8")):
+        photo_path = photo_map.get(photo_ref)
+        if photo_path is not None and photo_path.stat().st_mtime > svg_path.stat().st_mtime:
+            return True
+    stem = infer_stem(tex_path, language)
     de_width = svg_width_pt(tex_path.with_name(f"{stem}.de.svg"))
     localized_width = svg_width_pt(svg_path)
     if de_width is not None and localized_width is not None:

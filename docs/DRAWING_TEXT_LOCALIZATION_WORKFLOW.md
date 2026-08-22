@@ -97,6 +97,13 @@ lines. If the approved translation is a single word, obsolete trailing source
 line breaks are removed. Exceptional reviewer-controlled breaks use `[[BR]]`
 in the drawing review CSV, not in the glossary.
 
+The importer must preserve nested presentation commands around translated
+text. For example, translating `\textbf{\large Frequenz [MHz]}` changes only
+the visible words and retains both `\textbf` and the declaration `\large`.
+When the exact position of a protected math token matters, the drawing review
+artifact may enrich the glossary translation with that existing token. The
+glossary itself remains semantic and free of TeX layout markup.
+
 Derived outputs:
 
 - `drawing_tex_translation_unique_from_filter.csv`
@@ -262,6 +269,8 @@ Current renderer behavior:
 - it rerenders when the localized `.tex` is newer than the `.svg`;
 - with `--skip-existing`, it also rerenders a localized SVG whose width differs
   from the German reference SVG;
+- an included canonical photo newer than the target SVG also makes that SVG
+  stale, even when the TeX itself is unchanged;
 - it skips only up-to-date SVG files when `--skip-existing` is used;
 - it continues after per-file failures;
 - it prints every `START`, `OK`, `SKIP`, and `FAIL` event immediately in the

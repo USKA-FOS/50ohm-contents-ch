@@ -24,6 +24,12 @@ DEFAULT_SPECIAL = (
 DEFAULT_REPORT = (
     REPO_ROOT / "work" / "drawing_text_audit" / "drawing_tex_translation_import_report.json"
 )
+DECLARATION_COMMANDS = {
+    "bfseries", "mdseries", "itshape", "slshape", "upshape", "scshape",
+    "rmfamily", "sffamily", "ttfamily", "tiny", "scriptsize", "footnotesize",
+    "small", "normalsize", "large", "Large", "LARGE", "huge", "Huge",
+    "centering",
+}
 
 
 def normalize_lookup_term(value: str) -> str:
@@ -204,6 +210,17 @@ def rebuild_wrapped_segment(source_segment: str, translated: str) -> str | None:
     cursor = command_match.end()
     while cursor < len(stripped) and stripped[cursor].isspace():
         cursor += 1
+    command_name = command_match.group(1).rstrip("*")
+    if command_name in DECLARATION_COMMANDS and (
+        cursor >= len(stripped) or stripped[cursor] != "{"
+    ):
+        if cursor >= len(stripped):
+            return None
+        spacing = stripped[command_match.end():cursor]
+        rebuilt_inner = rebuild_wrapped_segment(stripped[cursor:], translated)
+        if rebuilt_inner is None:
+            rebuilt_inner = translated
+        return wrap_result(stripped[:command_match.end()] + spacing + rebuilt_inner)
     if cursor >= len(stripped) or stripped[cursor] != "{":
         return None
     inner_arg, cursor = read_balanced_group(stripped, cursor)

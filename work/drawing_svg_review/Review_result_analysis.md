@@ -83,3 +83,33 @@ suffisent pas à valider la mise en page finale.
   annotée; la superposition ne peut pas être corrigée par une traduction TeX.
 - `1075` a été confirmé correct par le réviseur; aucune correction n'est
   nécessaire.
+
+## Revue du 2026-08-22
+
+La deuxième revue contient 174 dessins: 168 sont entièrement validés et six
+comportent encore une remarque (`202`, `501`, `689`, `866`, `1002`, `1072`).
+
+Corrections déterministes intégrées dans les TeX FR/IT:
+
+- `202`: `Frequenz [MHz]` devient `Fréquence [MHz]` et `Frequenza [MHz]`;
+- `501`: la phrase complète est répartie sur deux lignes comme `Signaux de
+  commande / et de contrôle` et `Segnali di comando / e di controllo`;
+- `866`: l'indication d'environ 1000 km passe sur une seconde ligne, alignée
+  sous `longue` ou `lunga` avec `\phantom`;
+- `1002`: `Direction physique/technique du courant` et les équivalents italiens;
+- `1072`: `sens` est remplacé par `direction` en français.
+
+Le nouveau fichier `canonical/photos/ph_24f64631b390/205.de.png` de `689` a été
+inspecté: les annotations incorporées ont été retirées correctement. Aucun
+travail graphique manuel supplémentaire n'est nécessaire; les trois SVG
+doivent seulement être régénérés.
+
+Le résidu `202` a ensuite été résolu par les entrées validées du glossaire:
+
+- FR: `Atténuation de base a_0 par 100 m de longueur de câble en dB`;
+- IT: `Attenuazione di base a_0 per 100 m di lunghezza del cavo in dB`.
+
+Le token TeX protégé `a_0`, les formats `\textbf`/`\large` et l'espacement
+`100\,m` sont conservés dans les TeX reconstruits. Il ne reste aucune
+correction manuelle identifiée dans cette revue; une validation visuelle des
+nouveaux SVG reste nécessaire après rendu.

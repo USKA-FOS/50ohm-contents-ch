@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import importlib.util
+import os
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 
@@ -74,6 +76,22 @@ class DrawingTranslationImportTest(unittest.TestCase):
         segments = importer.translation_segments_for_regular(source, "voltmètre")
         self.assertEqual(importer.replace_fragment_text(source, segments), "{voltmètre}")
 
+    def test_preserves_nested_declaration_formatting(self):
+        source = r"{\textbf{\large Frequenz [MHz]}}"
+        self.assertEqual(
+            importer.replace_fragment_text(source, ["Fréquence [MHz]"]),
+            r"{\textbf{\large Fréquence [MHz]}}",
+        )
+
+    def test_preserves_nested_formatting_and_explicit_protected_token(self):
+        token = r"$\mathbf{\mathrm{a}_0}$"
+        source = rf"{{\textbf{{\large Grunddämpfung {token} je 100\,m Leitungslänge in dB}}}}"
+        translated = rf"Atténuation de base {token} par 100\,m de longueur de câble en dB"
+        self.assertEqual(
+            importer.replace_fragment_text(source, [translated], [[token]]),
+            rf"{{\textbf{{\large {translated}}}}}",
+        )
+
     def test_replaces_only_matching_pgfplots_option(self):
         source = "title={Eingangssignal}, label={Eingangssignal}"
         updated, replaced = importer.replace_braced_option(
@@ -135,6 +153,30 @@ class DrawingRendererTest(unittest.TestCase):
                     skip_existing=True,
                 )
             )
+
+    def test_rerenders_when_included_photo_is_newer(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            tex_path = root / "689.fr.tex"
+            svg_path = root / "689.fr.svg"
+            photo_path = root / "205.de.png"
+            tex_path.write_text(r"\includegraphics{foto/205}", encoding="utf-8")
+            svg_path.write_text('<svg width="260pt"></svg>', encoding="utf-8")
+            (root / "689.de.svg").write_text(
+                '<svg width="260pt"></svg>', encoding="utf-8"
+            )
+            photo_path.write_bytes(b"new photo")
+            svg_path.touch()
+            svg_mtime = svg_path.stat().st_mtime
+            os.utime(photo_path, (svg_mtime + 1, svg_mtime + 1))
+            with patch.object(renderer, "build_photo_asset_map", return_value={"205": photo_path}):
+                self.assertTrue(
+                    renderer.should_rerender(
+                        tex_path=tex_path,
+                        svg_path=svg_path,
+                        skip_existing=True,
+                    )
+                )
 
 
 if __name__ == "__main__":
