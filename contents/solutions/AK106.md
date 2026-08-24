@@ -1,0 +1,38 @@
+## Benötigte Formeln
+
+Zu nutzende Formeln aus den Hilfsmitteln der Bundesnetzagentur zur Berechnung des Sicherheitsabstands im Fernfeld:
+
+$d = \frac{\sqrt{\qty{30}{\ohm} \cdot P_\mathrm{EIRP}}}{E}$
+
+und zum Leistungszusammenhang EIRP und ERP:
+
+$P_\mathrm{EIRP} = P_\mathrm{ERP} \cdot 10^{\frac{g_i - a}{10}}$
+
+
+## Angaben aus der Aufgabenstellung
+
+1. Da es sich um einen Halbwellendipol handelt, gilt: $g_i = \qty{2,15}{\dBi}$ 
+2. Die Kabeldämpfung ist zu vernachlässigen: $a = \qty{0,0}{\dB}$
+3. Die Sendeleistung beträgt 100 Watt: $P_\mathrm{ERP} = \qty{100}{\watt}$
+4. Der Grenzwert für den Personenschutzabstand ist: $E = \qty{28}{\volt\per\meter}$
+5. Das $\qty{10}{\meter}$-Band wird betrachtet: $\lambda = \qty{10}{\meter}$
+
+
+## Lösungschritte
+
+1. Berechnung von $P_\mathrm{EIRP}$:
+
+$P_\mathrm{EIRP} = \qty{100}{\watt} \cdot 10^{\frac{2{,}15 - 0{,}0}{10}} = \qty{100}{\watt} \cdot 10^{0{,}215} \approx \qty{164,1}{\watt}$
+
+2. Berechnung des Sicherheitsabstands $d$:
+
+$d = \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{164,1}{\watt}}}{\qty{28}{\volt\per\meter}} = \frac{\qty{70,2}{\volt}}{\qty{28}{\volt\per\meter}} \approx \qty{2,50}{\meter}$
+
+3. Prüfung der Fernfeldbedingung:
+
+$d > \frac{\lambda}{2\pi} = \frac{\qty{10}{\meter}}{2\pi} \approx \qty{1,59}{\meter}$
+
+
+## Interpretation
+
+Die Fernfeldbedingung ist für das $\qty{10}{\meter}$ Band erfüllt. Der Sicherheitsabstand beträgt $\qty{2,50}{\meter}$.

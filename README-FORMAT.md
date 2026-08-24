@@ -1,6 +1,6 @@
 # DARCdown
 
-Im folgenden werden die entsprechenden Kommandos von DARCdown beschrieben: Grundsätzliche gilt wie bei Makdown: Den Text einfach so hinschreiben. Allerdings gibt es ein paar Spezialbefehle die wir im folgenden beschreiben wollen. 
+Im Folgenden werden die entsprechenden Kommandos von DARCdown beschrieben: Grundsätzlich gilt wie bei Markdown: den Text einfach so hinschreiben. Allerdings gibt es ein paar Spezialbefehle, die wir im Folgenden beschreiben wollen. 
 
 ## Fragen, Zeichnungen und Fotos
 
@@ -85,7 +85,9 @@ Eine nummerierte Aufzählung erfolgt einfach indem die Nummern vorangestellt wer
 
 Einzelne Wörter und Wortgruppen lassen sich mit dem Stern hervorheben:
 
-Einige *wichtige Wörter* hervorheben
+```
+Einige *wichtige Wörter* hervorheben.
+```
 
 ## Formeln und Einheiten
 
@@ -137,7 +139,7 @@ Hyperlinks sollten immer über den 50ohm.de-URL-Shortener abgebildet werden.
 
 ## Index
 
-Indexeinträge werden mit `[index:Begriff]` bzw. `[index:Hauptbegriff:Unterbegriff]` gesetzt. Ein optionales Leerzeichen vor dem Befehl wird beim Konvertieren entfernt.
+Indexeinträge für die Suche auf 50ohm.de und für das Stichwortverzeichnis ("Index") im Buch werden mit `[index:Begriff]` bzw. `[index:Hauptbegriff:Unterbegriff]` erzeugt. Ein optionales Leerzeichen vor dem Befehl wird beim Konvertieren entfernt.
 
 Beispiel:
 

@@ -6,9 +6,7 @@ Diese kann man schnell zum Sicherheitsabstand $d$ umstellen:
 
 $ d = \frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{E} $
 
-Die Formelsammlung hat noch einen Hinweis, dass die obige Formel erst für Berechnungen im Fernfeld (bzw. stahlendem Nahfeld) ab $ d > \frac{\lambda}{2\pi} $ gilt.
-
-Das liegt daran, dass nur im Fernfeld das elektrische und das magnetische Feld eine feste, konstante Phasenbeziehung zueinander aufweisen. Im reaktiven Nahfeld kann es hingegen lokal zu starken Überhöhungen sowohl des elektrischen als auch des magnetischen Feldes kommen. Diese Effekte lassen sich mit den Näherungsformeln für das Fernfeld nicht zuverlässig erfassen. Für Berechnungen im reaktiven Nahfeld, also für Abstände $d \le \frac{\lambda}{2\pi}$, sind daher in der Regel numerische Simulationen erforderlich. Mit Einschränkungen (nicht bei magnetischen Antennen, nicht bei sehr kurzen Antennen) sind die Ergebnisse auch im strahlenden Nahfeld brauchbar.
+Die Formelsammlung hat noch einen Hinweis, dass die obige Formel erst für Berechnungen im Fernfeld (bzw. strahlenden Nahfeld) ab $ d > \frac{\lambda}{2\pi} $ gilt. Warum das so ist, werden wir in der Klasse A genauer besprechen. Für die Berechnung des Sicherheitsabstandes ist es aber wichtig, dass wir uns im Fernfeld (bzw. strahlenden Nahfeld) befinden und diese Bedingung erfüllt ist.
 
 <indepth>
 Das Fernfeld einer Strahlungsquelle, ist der Bereich, in dem die Vektoren der elektrischen Feldstärke ($E$), der magnetischen Feldstärke ($H$) senkrecht aufeinander stehen und keine Phasendifferenzen aufweisen. 
@@ -40,7 +38,7 @@ Für $\qty{160}{\meter}$ gilt: $d > \frac{\qty{160}{\meter}}{2\pi} = \qty{25,5}{
  
 Für $\qty{80}{\meter}$ gilt: $d > \frac{\qty{80}{\meter}}{2\pi} = \qty{12,7}{\meter}$
 
-Die Berechnung ist ungültig, wenn die Entfernung für $\qty{160}{\meter}$ kleiner als $\qty{25,5}{\meter}$ und für $\qty{80}{m}$ kleiner als $\qty{12,7}{\meter}$ ist.
+Die Berechnung ist ungültig, wenn die Entfernung für $\qty{160}{\meter}$ kleiner als $\qty{25,5}{\meter}$ und für $\qty{80}{\meter}$ kleiner als $\qty{12,7}{\meter}$ ist.
 
 %%%%
 
@@ -50,7 +48,7 @@ In der folgenden Frage muss nun erstmals ein richtiger Sicherheitsabstand berech
 
 Zunächst müssen wir die Strahlungsleistung in $P_\textrm{EIRP}$ berechnen. Außerdem fällt uns auf, dass der Antennengewinn in $\unit{\dBd}$ angegeben ist. Hierzu nutzen wir wieder die Formel aus der Formelsammlung:
 
-$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_d-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{100}{W} \cdot 10^{\frac{\qty{7,5}{\dBd}-\qty{1,5}{\dB}+\qty{2,15}{\dB}}{\qty{10}{\dB}}} \approx \qty{653}{\watt}$
+$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_d-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{100}{\watt} \cdot 10^{\frac{\qty{7,5}{\dBd}-\qty{1,5}{\dB}+\qty{2,15}{\dB}}{\qty{10}{\dB}}} \approx \qty{653}{\watt}$
 
 Die Summe der Gewinne und Dämpfungen des gesamten Antennensystems ist der Antennengewinn von $\qty{7,5}{\dBd}$, abzüglich der Kabeldämpfung von $\qty{1,5}{\dB}$ und plus der Gewinn von $\qty{2,15}{\dBi}$ für den isotropen Strahler (der Antennengewinn bezieht sich auf den Dipol).
 
