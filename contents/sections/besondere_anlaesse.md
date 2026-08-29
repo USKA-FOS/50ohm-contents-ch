@@ -13,6 +13,7 @@ Funkamateure haben national und international die Möglichkeit, Sonderstationen 
 
 <law>
 Direktlink ins [eGov](https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung) Beantragung eines Sonderrufzeichens.
+Direktlink zum [Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) wo das unter 1.1.2 + 1.1.4 beschrieben ist.
 </law>
 
 ---
