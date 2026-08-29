@@ -5,7 +5,7 @@
 
 ---
 
-In der Regel wird eine Amateurfunkstation nur von einer Person betrieben. Es gibt aber auch Amateurfunkvereine die eine Station betreib, die dann als Klubstation bezeichnet wird. Neben den personengebundenem Rufzeichen gibt es für solche Gruppen  spezielle Rufzeichen zur Nutzung an einer Klubstation. Diese werden Vereinsrufzeichen genannt. 
+In der Regel wird eine Amateurfunkstation nur von einer Person betrieben. Es gibt aber auch Amateurfunkvereine die eine Station betreiben, die dann als Klubstation bezeichnet wird. Neben den personengebundenem Rufzeichen gibt es für solche Gruppen  spezielle Rufzeichen zur Nutzung an der Klubstation. Diese werden Vereinsrufzeichen genannt. 
 
 ---
 % Tabelle umnutzen für Beispiel zu den verschidenen Rufzeichen (Vereine, Contest, Armee)
@@ -34,11 +34,16 @@ Direktlink ins eGov zur Beantragung eines Vereinsrufzeichen sowie Contest- und S
 </law>
 Vereinsrufzeichen sind Rufzeichen mit zweistelligem Suffix und werden nur an Amateurfunkvereine vergeben. Rufzeichenwünsche können berücksichtigt werden, sofern das gewünschte Rufzeichen seit mindestens 5 Jahren frei ist.
 
-Dem BAKOM müssen eingereicht werden:
+Um ein Vereinsrufzeichen zu bestellen, müssen dem BAKOM folgende Unterlagen eingereicht werden:
 * Kopie der Vereinsstatuten;
 * aktuelle Zusammensetzung des Vereinsvorstandes;
 * der Name und das Rufzeichen des technischen Leiters. Dieser muss Inhaber eines Fähigkeitszeugnis CEPT (HB9) mit Zugang zu allen Amateurfunkbändern und Sendearten sein;
-* der Antrag erfolgt über folgenden Service auf unserem eGov Portal.  https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung
+* der Antrag erfolgt über folgenden Service auf dem eGov Portal.
+
+---
+<law>
+Direktlink ins [eGov](https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung) Beantragung eines Vereinsrufzeichens
+</law>
 
 [question:BD103]
 
