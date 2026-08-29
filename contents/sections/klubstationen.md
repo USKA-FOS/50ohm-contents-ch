@@ -32,6 +32,7 @@ In der Regel wird eine Amateurfunkstation nur von einer Person betrieben. Es gib
 <law>
 Direktlink ins eGov zur Beantragung eines Vereinsrufzeichen sowie Contest- und Sonderrufzeichen für Amateurfunkvereine[eGov](https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung)
 </law>
+
 Vereinsrufzeichen sind Rufzeichen mit zweistelligem Suffix und werden nur an Amateurfunkvereine vergeben. Rufzeichenwünsche können berücksichtigt werden, sofern das gewünschte Rufzeichen seit mindestens 5 Jahren frei ist.
 
 Um ein Vereinsrufzeichen zu bestellen, müssen dem BAKOM folgende Unterlagen eingereicht werden:
@@ -57,7 +58,14 @@ Auch ein Funkamateur mit Fähigkeitszeugnis NOVICE (HB3) darf an einer Klubstati
 [question:VU009]
 
 
-% TODO Rufzeichen Spezialitäten für Clubrufzeichen (HB9xx), Contest (HB1,2,5,6,7,8), Armee (HB4) auf dieser Seite abhandeln. Siehe Merkblatt 1.1.3 + 1.1.4
-[question:BD110]
+Vereine können zusätzlich zum normalen Vereinsrufzeichen spezielle Contestrufzeichen beantragen.
+Contestrufzeichen können wie folgt aufgebaut sein: HB1... / HB2... / HB5... / HB6... / HB7... / HB8... 
 [question:BD111]
+Rufzeichen mit HB4… sind ausschliesslich für Vereine und Stationen mit Militärbezug.
+[question:BD110]
 [question:BD116]
+
+---
+<law>
+Direktlink zum [Merkblatt Amateurfunk]([https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) wo das unter 1.1.2 + 1.1.3 beschrieben ist.
+</law>
