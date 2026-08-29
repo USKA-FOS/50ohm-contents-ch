@@ -1,17 +1,15 @@
-% TODO Rufzeichen Spezialitäten für Clubrufzeichen (HB9xx), Contest (HB1,2,5,6,7,8), Armee (HB4) auf dieser Seite Abhandeln. Siehe Merkblatt. 
-
+%TODO Bild ändern. Wenn besseres Bild vorhanden.
 <margin>
 [photo:58:n_klubstationen_klubstation:Die Klubstation DL0AO des DARC-Ortsverbands Amberg]
 </margin>
 
 ---
 
-In der Regel wird eine Amateurfunkstation nur von einer Person betrieben. Manche Funkamateure betreiben aber auch gemeinsam eine Station, die dann als Klubstation bezeichnet wird. Neben den personengebundenem Rufzeichen gibt es für solche Gruppen von mindestens drei Funkamateuren spezielle Rufzeichen zur gemeinschaftlichen Nutzung an einer Klubstation (siehe Tabelle [ref:n_klubstation_rufzeichen]).
-
-[question:VD117]
+In der Regel wird eine Amateurfunkstation nur von einer Person betrieben. Es gibt aber auch Amateurfunkvereine die eine Station betreib, die dann als Klubstation bezeichnet wird. Neben den personengebundenem Rufzeichen gibt es für solche Gruppen  spezielle Rufzeichen zur Nutzung an einer Klubstation. Diese werden Vereinsrufzeichen genannt. 
 
 ---
-
+% Tabelle umnutzen für Beispiel zu den verschidenen Rufzeichen (Vereine, Contest, Armee)
+(siehe Tabelle [ref:n_klubstation_rufzeichen])
 <margin>
 | l: Rufzeichen | l: | l: | X: Klasse |
 | DAØAA | - | DAØZZZ | A |
@@ -30,50 +28,34 @@ In der Regel wird eine Amateurfunkstation nur von einer Person betrieben. Manche
 [table:n_klubstation_rufzeichen:Rufzeichen für Klubstationen]
 </margin>
 
-Die folgenden Fragen können wieder mit Hilfe des [Rufzeichenplans](https://50ohm.de/rzp) beantwortet werden:
 
-[question:BD101]
 [question:BD103]
 
-Um ein Rufzeichen für eine Klubstation zu beantragen, muss die Gruppe eine Person als Stationsverantwortlichen benennen, die selber Funkamateur mit Zulassung zur Teilnahme am Amateurfunkdienst ist. Der Stationsverantwortliche wird Inhaber des Rufzeichens, das auf fünf Jahre befristet zugeteilt wird. Eine Verlängerung muss rechtzeitig beantragt werden. Das Rufzeichen für die Klubstation darf erst verwendet werden, wenn die Zuteilung erfolgt ist.
-
-[question:VD401]
-[question:VD402]
-[question:VD403]
-
-Eine Klubstation darf von jedem Funkamateur genutzt werden, der über eine Zulassung zur Teilnahme am Amateurfunkdienst verfügt. Die Benutzung ist auch nicht auf Mitglieder der Gruppe beschränkt.
-
-[question:VD404]
-[question:VD405]
-
 ---
+<law>
+[Direktlink ins eGov zur Beantragung eines Vereinsrufzeichen sowie Contest- und Sonderrufzeichen für Amateurfunkvereine](https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung)
+</law>
+Vereinsrufzeichen sind Rufzeichen mit zweistelligem Suffix und werden nur an Amateurfunkvereine vergeben. Rufzeichenwünsche können berücksichtigt werden, sofern das gewünschte Rufzeichen seit mindestens 5 Jahren frei ist.
 
-Ein Funkamateur mit der Zeugnisklasse N oder E darf auch an einer Klubstation der Klasse A Funkbetrieb machen, jedoch nur im Rahmen seiner Berechtigung. Umgekehrt darf ein Funkamateur mit Zeugnisklasse A an einer Klubstation der Klasse E oder N nur die jeweils für die Klasse E bzw. N zugelassenen Leistungen und Bänder verwenden. Das gleiche gilt entsprechend für alle anderen Kombinationen, so wie in der Tabelle [ref:n_klubstation_unterschiedliche_klassen] dargestellt.
+Dem BAKOM müssen eingereicht werden:
+• Kopie der Vereinsstatuten;
+• aktuelle Zusammensetzung des Vereinsvorstandes;
+• der Name und das Rufzeichen des technischen Leiters. Dieser muss Inhaber eines Fähigkeitszeugnis CEPT (HB9) mit Zugang zu allen Amateurfunkbändern und Sendearten sein.
+• Der Antrag erfolgt über folgenden Service auf unserem eGov Portal.  https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung
 
-<webmargin>
-| X: | c: Station N | c: Station E | c: Station A |
-| Funkamateur N | N | N | N |
-| Funkamateur E | N | E | E |
-| Funkamateur A | N | E | A |
-[table:n_klubstation_unterschiedliche_klassen:Darstellung, im Rahmen welcher Klasse Funkbetrieb durchgeführt werden darf, wenn sich Klasse des Funkamateurs und Klasse der Klubstation unterscheiden]
-</webmargin>
 
-Hier zwei Beispiele anhand des $\qty{40}{\meter}$-Bands, das nur Inhaber einer Amateurfunkzulassung der Klasse A nutzen dürfen:
-* Der Funkamateur der Klasse E darf die Klubstation der Klasse A nutzen, aber nicht das $\qty{40}{\meter}$-Band, da dieses für die Klasse E nicht freigegeben ist.
-* Der Funkamateur der Klasse A darf die Klubstation der Klasse E nutzen, aber dort nicht das $\qty{40}{\meter}$-Band, da dieses, wie bereits erwähnt, nicht für die Klasse E zugelassen ist.
 
-Zusammenfassend gesagt: Die niedrigste Klasse gibt die maximale Berechtigung vor.
+Eine Klubstation darf von jedem Funkamateur genutzt werden, der über eine Zulassung zur Teilnahme am Amateurfunkdienst verfügt. Die Benutzung ist *nicht* auf Mitglieder der Gruppe beschränkt.
 
-[question:VD406]
-[question:VD407]
-
-Bei Veranstaltungen oder ähnlichem kann eine Klubstation auch kurzzeitig an anderen Standorten betrieben werden. Eine Meldung an die BNetzA ist bei einer *kurzzeitigen* Änderung des Standortes nicht erforderlich.
-
-[question:VD408]
-
-[question:VU008]
-[question:VU009]
 [question:VN028]
+[question:VU008]
+
+Ein Funkamateur mit Fähigkeitszeugnis NOVICE (HB3) darf auch an einer Klubstation Funkbetrieb machen, jedoch nur im Rahmen seiner Berechtigung.
+
+[question:VU009]
+
+
+% TODO Rufzeichen Spezialitäten für Clubrufzeichen (HB9xx), Contest (HB1,2,5,6,7,8), Armee (HB4) auf dieser Seite abhandeln. Siehe Merkblatt 1.1.3 + 1.1.4
 [question:BD110]
 [question:BD111]
 [question:BD116]
