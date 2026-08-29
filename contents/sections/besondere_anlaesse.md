@@ -12,8 +12,9 @@ Funkamateure haben national und international die Möglichkeit, Sonderstationen 
 % EXR/EVT: gibt es Beschränkungen? kommen die aus den grundsätzlichen Rufzeichenaufbau-Vorgaben?
 
 <law>
-Direktlink ins [eGov](https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung) Beantragung eines Sonderrufzeichens.
-Direktlink zum [Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) wo das unter 1.1.2 + 1.1.4 beschrieben ist.
+Direktlink ins [eGov](https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung) zur Beantragung eines Sonderrufzeichens.
+  
+Direktlink zum [Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) wo das unter 1.1.4 beschrieben ist.
 </law>
 
 ---
@@ -21,11 +22,11 @@ Direktlink zum [Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk
 Aus der Tabelle [ref:n_besondere_anlaesse] kann man erkennen, dass es eine Vielzahl von Möglichkeiten gibt, Funkaktivitäten durchzuführen. Die Aktivierung einer Sonderstation kann sowohl den Aktivierenden als auch den Sammlern sehr viel Freude bereiten. Der Aktivierende ist der Bediener einer Sonderstation. Der Sammler versucht, möglichst viele solche Sonderstationen zu erreichen.
 
 
-%TODO: HB Sonderrufzeichen zusammensuchen
+%TODO: HB Sonderrufzeichen zusammensuchen. per Mail bei sekr@uska angefragt ob Liste vorhanden (17.8.26).
 <webmargin>
 | l: Rufzeichen | l: Zuteilung | X: Ereignis |
 | HB100USKA | 2017 | 1250 Jahre Stadt Bretten |
-| HBxxESAF | 2016 | 500 Jahre Deutsches Reinheitsgebot |
+| HB9ESAF | 2025 | Eidgenössischen Schwing- und Älplerfests 2025 |
 | DF13DEJU | 2019 | Erstflug der Junkers F 13 |
 | DL73AFUG | 2022 | 73. Geburtstag des Amateurfunkgesetzes |
 | DB50AFZ | 2022 | 50 Jahre Amateurfunkzentrum |
