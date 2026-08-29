@@ -37,7 +37,7 @@ Nach bestandener Prüfung kann man ein persönliches Rufzeichen Amateurfunk beim
 [question:VU002]
 
 <law>
-[Direktlink zur Rufzeichenbestellung]( https://www.egov.swiss/de/amateurfunk/rufzeichen-privatpersonen-beschreibung)
+Direktlink ins eGov zur [Rufzeichenbestellung](https://www.egov.swiss/de/amateurfunk/rufzeichen-privatpersonen-beschreibung)
 </law>
 
 ---
