@@ -31,6 +31,8 @@ In der Regel wird eine Amateurfunkstation nur von einer Person betrieben. Es gib
 ---
 <law>
 Direktlink ins [eGov](https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung) zur Beantragung eines Vereinsrufzeichen sowie Contest- und Sonderrufzeichen für Amateurfunkvereine
+
+[Direktlink ins eGov](https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung) zur Beantragung eines Vereinsrufzeichen sowie Contest- und Sonderrufzeichen für Amateurfunkvereine
 </law>
 
 Vereinsrufzeichen sind Rufzeichen mit zweistelligem Suffix und werden nur an Amateurfunkvereine vergeben. Rufzeichenwünsche können berücksichtigt werden, sofern das gewünschte Rufzeichen seit mindestens 5 Jahren frei ist.
