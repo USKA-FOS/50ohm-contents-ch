@@ -9,7 +9,6 @@ In der Regel wird eine Amateurfunkstation nur von einer Person betrieben. Es gib
 
 ---
 % Tabelle umnutzen für Beispiel zu den verschidenen Rufzeichen (Vereine, Contest, Armee)
-(siehe Tabelle [ref:n_klubstation_rufzeichen])
 <margin>
 | l: Rufzeichen | l: | l: | X: Klasse |
 | DAØAA | - | DAØZZZ | A |
