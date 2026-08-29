@@ -28,11 +28,9 @@ In der Regel wird eine Amateurfunkstation nur von einer Person betrieben. Es gib
 </margin>
 
 
-[question:BD103]
-
 ---
 <law>
-[Direktlink ins eGov zur Beantragung eines Vereinsrufzeichen sowie Contest- und Sonderrufzeichen für Amateurfunkvereine](https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung)
+Direktlink ins eGov zur Beantragung eines Vereinsrufzeichen sowie Contest- und Sonderrufzeichen für Amateurfunkvereine[eGov](https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung)
 </law>
 Vereinsrufzeichen sind Rufzeichen mit zweistelligem Suffix und werden nur an Amateurfunkvereine vergeben. Rufzeichenwünsche können berücksichtigt werden, sofern das gewünschte Rufzeichen seit mindestens 5 Jahren frei ist.
 
@@ -42,15 +40,15 @@ Dem BAKOM müssen eingereicht werden:
 * der Name und das Rufzeichen des technischen Leiters. Dieser muss Inhaber eines Fähigkeitszeugnis CEPT (HB9) mit Zugang zu allen Amateurfunkbändern und Sendearten sein;
 * der Antrag erfolgt über folgenden Service auf unserem eGov Portal.  https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung
 
+[question:BD103]
 
-
-Eine Klubstation darf von jedem Funkamateur genutzt werden, der über eine Zulassung zur Teilnahme am Amateurfunkdienst verfügt. Die Benutzung ist *nicht* auf Mitglieder der Gruppe beschränkt.
-
+Eine Klubstation darf von jedem Funkamateur genutzt werden, der über eine Zulassung zur Teilnahme am Amateurfunkdienst verfügt. 
 [question:VN028]
+Die Benutzung ist *nicht* auf Mitglieder der Gruppe beschränkt.
 [question:VU008]
 
-Ein Funkamateur mit Fähigkeitszeugnis NOVICE (HB3) darf auch an einer Klubstation Funkbetrieb machen, jedoch nur im Rahmen seiner Berechtigung.
-
+Auch ein Funkamateur mit Fähigkeitszeugnis NOVICE (HB3) darf an einer Klubstation Funkbetrieb machen, jedoch nur im Rahmen seiner Berechtigung (Bänder und Leistung).
+%TODO: Fähigkeitszeugnis an Endfassung der Frage anpassen 
 [question:VU009]
 
 
