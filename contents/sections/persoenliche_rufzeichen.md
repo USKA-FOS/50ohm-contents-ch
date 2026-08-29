@@ -1,5 +1,5 @@
 Personengebundene Rufzeichen sind die am häufigsten vergebenen Rufzeichen. In der Schweiz gibt es zwei unterschiedliche Zulassungsklassen, mit jeweils eigenen Bereichen im Rufzeichenplan. Die einzelnen Klassen lauten, CEPT und NOVICE. Aus der Tabelle [ref:n_persoenliche_rufzeichen_praefixe] kann man entnehmen, welche Präfixe und Ziffern den Amateurfunkklassen zugeordnet sind. In der Tabelle [ref:n_persoenliche_rufzeichen_beispiele] finden sich einige Beispiele für personengebundene Rufzeichen der 2 Klassen. *Die meisten Funkamateure in der Schweiz besitzen die Amateurfunkzulassung CEPT, deshalb wird dafür auch der vollständige Buchstabenblock des ersten Suffixzeichens verwendet.*
-% *Text von vorhergehendem Block* evtl irgendwo anders einbauen und oder umbauen oder löschen.
+% *Text* evtl irgendwo anders einbauen und oder umbauen oder löschen.
 
 
 
@@ -10,16 +10,12 @@ Personengebundene Rufzeichen sind die am häufigsten vergebenen Rufzeichen. In d
 | CEPT | HB9 |
 | FL-NOVICE | HB0Y |
 | FL-CEPT | HB0 |
-| Klasse N | DN9 |
-| Klasse E | DO1 - DO9 |
-| Klasse A | DB1 - DD9 |
-| | DF1 - DH9 |
-| | DJ1 - DM9 |
+| SWL | HE9 |
 [table:n_persoenliche_rufzeichen_praefixe:Präfixe und Ziffern für personengebunde Rufzeichen]
 </margin>
 
 
-% FL-CEPT immer noch 2stelliges Suffix?? 
+% FL-CEPT immer noch 2stelliges Suffix?? Muss geklärt werden.
 <margin>
 | l: Klasse | X: Rufzeichen |
 | CEPT | HB9AAA - HB9ZZZ |
@@ -36,7 +32,7 @@ Personengebundene Rufzeichen sind die am häufigsten vergebenen Rufzeichen. In d
 
 
 Nach bestandener Prüfung kann man ein persönliches Rufzeichen Amateurfunk beim BAKOM beantragen. *Nach abgeschlossener Bearbeitung bekommt man die Zulassungsurkunde mit dem persönlichen Rufzeichen zugestellt. Erst mit dieser Zulassung darf der Funkbetrieb aufgenommen werden.* Die Zulassung gilt nur persönlich für den Funkamateur, der in der Urkunde eingetragen ist. Sie ist nicht übertragbar.
-% *Text von vorhergehendem Block* ganz genau klären. YPA aktuell unbekannt ob das noch per Post kommt oder nur im eGov. Der Kreditkartenausweis kommt sicher per Post.
+% *Text* ganz genau klären. YPA aktuell unbekannt ob das noch per Post kommt oder nur im eGov. Der Kreditkartenausweis kommt sicher per Post.
 
 [question:VU002]
 
