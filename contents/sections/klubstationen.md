@@ -30,7 +30,7 @@ In der Regel wird eine Amateurfunkstation nur von einer Person betrieben. Es gib
 
 ---
 <law>
-Direktlink ins eGov zur Beantragung eines Vereinsrufzeichen sowie Contest- und Sonderrufzeichen für Amateurfunkvereine[eGov](https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung)
+Direktlink ins [eGov](https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung) zur Beantragung eines Vereinsrufzeichen sowie Contest- und Sonderrufzeichen für Amateurfunkvereine
 </law>
 
 Vereinsrufzeichen sind Rufzeichen mit zweistelligem Suffix und werden nur an Amateurfunkvereine vergeben. Rufzeichenwünsche können berücksichtigt werden, sofern das gewünschte Rufzeichen seit mindestens 5 Jahren frei ist.
@@ -41,10 +41,7 @@ Um ein Vereinsrufzeichen zu bestellen, müssen dem BAKOM folgende Unterlagen ein
 * der Name und das Rufzeichen des technischen Leiters. Dieser muss Inhaber eines Fähigkeitszeugnis CEPT (HB9) mit Zugang zu allen Amateurfunkbändern und Sendearten sein;
 * der Antrag erfolgt über folgenden Service auf dem eGov Portal.
 
----
-<law>
-Direktlink ins [eGov](https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung) Beantragung eines Vereinsrufzeichens
-</law>
+
 
 [question:BD103]
 
@@ -56,7 +53,13 @@ Die Benutzung ist *nicht* auf Mitglieder der Gruppe beschränkt.
 Auch ein Funkamateur mit Fähigkeitszeugnis NOVICE (HB3) darf an einer Klubstation Funkbetrieb machen, jedoch nur im Rahmen seiner Berechtigung (Bänder und Leistung).
 %TODO: Fähigkeitszeugnis an Endfassung der Frage anpassen 
 [question:VU009]
+% Unter Aufsicht eines HB9ers auch volle Nutzung. Sprechfreigabe nötig dazu? EXR klärt das ab.
 
+
+---
+<law>
+Direktlink zum [Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) wo das unter 1.1.2 + 1.1.3 beschrieben ist.
+</law>
 
 Vereine können zusätzlich zum normalen Vereinsrufzeichen spezielle Contestrufzeichen beantragen.
 Contestrufzeichen können wie folgt aufgebaut sein: HB1... / HB2... / HB5... / HB6... / HB7... / HB8... 
@@ -65,7 +68,3 @@ Rufzeichen mit HB4… sind ausschliesslich für Vereine und Stationen mit Milit�
 [question:BD110]
 [question:BD116]
 
----
-<law>
-Direktlink zum [Merkblatt Amateurfunk]([https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) wo das unter 1.1.2 + 1.1.3 beschrieben ist.
-</law>
