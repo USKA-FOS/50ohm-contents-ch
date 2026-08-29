@@ -11,6 +11,10 @@ Funkamateure haben national und international die Möglichkeit, Sonderstationen 
 
 % EXR/EVT: gibt es Beschränkungen? kommen die aus den grundsätzlichen Rufzeichenaufbau-Vorgaben?
 
+<law>
+Direktlink ins [eGov](https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung) Beantragung eines Sonderrufzeichens.
+</law>
+
 ---
 
 Aus der Tabelle [ref:n_besondere_anlaesse] kann man erkennen, dass es eine Vielzahl von Möglichkeiten gibt, Funkaktivitäten durchzuführen. Die Aktivierung einer Sonderstation kann sowohl den Aktivierenden als auch den Sammlern sehr viel Freude bereiten. Der Aktivierende ist der Bediener einer Sonderstation. Der Sammler versucht, möglichst viele solche Sonderstationen zu erreichen.
