@@ -9,6 +9,14 @@ Die Nutzung von Remotestationen ermöglicht es Funkamateuren, eine Station an ei
 
 [question:VU010]
 
+---
+<law>
+[Direktlink ins eGov zur Meldung einer Remotestation](https://www.egov.swiss/de/amateurfunk/spezielle-frequenznutzung-detail)
+
+Die Nutzungsbedingungen sind im [Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) unter 1.7 beschrieben.
+</law>
+
+
 %Merkblatt 1.7 Fernbediente Stationen
 Abgesetzte Stationen, die über das Internet fernbedient werden, unterliegen der Meldepflicht an das BAKOM. Diese muss vor der Inbetriebnahme beim BAKOM gemeldet werden. Aus dem Gesuch muss der genaue Standort der Anlage, der Name und das Rufzeichen des verantwortlichen technischen Leiters hervorgehen. Die Bewilligung für fernbediente Stationen wird auch an Einzelpersonen, die Inhaber einer entsprechenden Berechtigung sind, erteilt.
 Spezielle Frequenznutzung Detailinformationen | eGovernment Portal
