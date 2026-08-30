@@ -80,7 +80,8 @@ Eine wichtige Einstellung ist die Kanalbandbreite bei FM-Betrieb. Wir erinnern u
 [question:BE407]
 [question:BE417]
 
-Der Funkbetrieb über fernbediente Amateurfunkstellen ist grundsätzlich allen Funkamateuren mit zugeteiltem Rufzeichen zu gestatten. Zur Sicherstellung eines störungsfreien Betriebs kann der Betreiber allerdings andere Funkamateure von der Nutzung der Amateurfunkstelle ausschließen. Die BNetzA ist hiervon zu unterrichten.
+Der Funkbetrieb über fernbediente Amateurfunkstellen ist grundsätzlich allen Funkamateuren mit zugeteiltem Rufzeichen zu gestatten. Zur Sicherstellung eines störungsfreien Betriebs kann der Betreiber allerdings andere Funkamateure von der Nutzung der Amateurfunkstelle ausschließen. 
+%Die BNetzA ist hiervon zu unterrichten.
 [question:VD504]
 % Gibt es eine HB Rechtsgrundlage? Text stehen lassen soweit sinnvoll?
 
@@ -105,7 +106,7 @@ Eine Besonderheit gibt es bei der Beurteilung einer Funkverbindung über eine Re
 
 ---
 <indepth>
-Rapport am Relais mit Beispiel erklären.
+Rapport auf Relais mit Beispiel erklären.
 </indepth>
 %Todo Margin-Box sinnvoll füllen
 
