@@ -39,6 +39,8 @@ Das ist ein Mustertext mit dem Kommando (tipp). Das ist ein Test ob die Farbe di
 Das ist ein Mustertext mit dem Kommando (law). Das generiert den blauen Kasten «Gesetzliche Grundlage».
 Dieser wird verwendet für Ausführungen von oder Links zu Gesetzen, Verordnungen, RR, CEPT, Merkblatt BAKOM, etc.
 [angezeigter Text](Direktlink zur Zielseite)
+
+[Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk)
 </law>
 
 
