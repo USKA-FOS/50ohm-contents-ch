@@ -38,7 +38,15 @@ Das ist ein Mustertext mit dem Kommando (tipp). Das ist ein Test ob die Farbe di
 <law>
 Das ist ein Mustertext mit dem Kommando (law). Das generiert den blauen Kasten «Gesetzliche Grundlage».
 Dieser wird verwendet für Ausführungen von oder Links zu Gesetzen, Verordnungen, RR, CEPT, Merkblatt BAKOM, etc.
+[angezeigter Text](Direktlink zur Zielseite)
 </law>
+
+
+
+<margin>
+Externer Link
+So macht man einen Direktlink auf eine externe Seite [angezeigter Text](Direktlink zur Zielseite)
+</margin>
 
 Testzone YPA
 
@@ -56,10 +64,7 @@ Bspw wenn man "im Abschnitt [sec:kondensator_2] wird da noch tiefer darauf einge
 Bspw wenn man "wie wir im Abschnitt [sec:kondensator_2] schon gelernt haben." schreiben will. (Verweis auf eine HB3 Section in der HB9 Upgrade Edition.)
 
 
-<margin>
-Externer Link
-So macht man einen Direktlink auf eine externe Seite [angezeigter Text](Direktlink zur Zielseite)
-</margin>
+
 
 
 
