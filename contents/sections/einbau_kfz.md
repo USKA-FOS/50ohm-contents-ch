@@ -1,3 +1,4 @@
+%Titel ändern in "Einbau in Motorfahrzeug" Issue #19 eröffnet.
 
 Mit dem Einbau einer Amateurfunkanlage in ein Kraftfahrzeug macht das Autofahren gleich mehr Spaß. Über Relaisfunkstellen ist man gut mit anderen Amateurfunkstellen vernetzt und erhält so oftmals wertvolle Informationen zur Verkehrssituation auf der Fahrtstrecke. Für den Betrieb während der Fahrt ist - wie beim Smartphone - eine Freisprecheinrichtung erforderlich.
 
