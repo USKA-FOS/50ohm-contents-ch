@@ -15,7 +15,3 @@ Dafür braucht es eine Sprecherlaubnis des BAKOM. Diese Sprecherlaubnis erhalten
 Der Auszubildende benutzt dabei das Rufzeichen des Vereins und hängt den Zusatz "operator" und seinen Vornamen an. Ein Auszubildender vom Verein HB9FZ sagt beispielsweise als Rufzeichen "HB9FR operator Hans". Damit ist für andere erkennbar, dass ein Auszubildender funkt.
 
 [question:BD209] 
-
-
-[question:VD303]
-[question:VD306]
