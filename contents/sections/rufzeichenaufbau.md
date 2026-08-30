@@ -3,6 +3,7 @@ Im Amateurfunk gibt es unterschiedliche Arten von Rufzeichen. In der Schweiz wir
 ---
 
 Ein Rufzeichen besteht aus drei Teilen: Präfix, Ziffer und Suffix. Das Präfix besteht in der Regel aus den ersten beiden Zeichen, z. B. DL oder 4U. Manchmal ist er aber auch nur ein Zeichen lang. Es folgt eine Ziffer von 0 bis 9. Den Abschluss bildet das Suffix mit mindestens einem weiteren Zeichen. Die Abbildung [ref:n_amateurfunkstrationen_aufbau_rufzeichen] gibt einen grafischen Überblick über den Rufzeichenaufbau.
+%DL wurde extra stehen gelassen, weil HB ja "Sonderstatus" hat. Zudem passt es dann auch zum Bild.
 
 <margin>
 [picture:654:n_amateurfunkstrationen_aufbau_rufzeichen:Aufbau Rufzeichen - K4EAX, WZ6Y, DL1FLO]
