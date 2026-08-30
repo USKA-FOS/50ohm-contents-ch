@@ -34,6 +34,9 @@ In der Regel wird eine Amateurfunkstation nur von einer Person betrieben. Es gib
 Direktlink ins [eGov](https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung) zur Beantragung eines Vereinsrufzeichen sowie Contest- und Sonderrufzeichen für Amateurfunkvereine
 
 [Direktlink ins eGov](https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung) zur Beantragung eines Vereinsrufzeichen sowie Contest- und Sonderrufzeichen für Amateurfunkvereine
+
+Direktlink ins eGov zur [zur Beantragung eines Vereinsrufzeichen](https://www.egov.swiss/de/amateurfunk/rufzeichen-vereine-beschreibung) sowie Contest- und Sonderrufzeichen für Amateurfunkvereine
+
 </law>
 
 %tbd welche Schreibweise besser ist. Oder noch eine andere. 
