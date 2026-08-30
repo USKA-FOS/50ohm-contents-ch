@@ -54,8 +54,7 @@ Der Begriff *Azimut* stammt von arabisch *as-sumūt*, ("die Wege") ab. *Elevatio
 Im Amateurfunkdienst über Satelliten gilt eine Ausnahme von der Pflicht, nur offene Sprache zu verwenden. Es ist erlaubt, Steuersignale zwischen Bodenstationen und Amateurfunksatelliten zum Zwecke der Verschleierung zu verschlüsseln. Das heißt, dass hierfür ausnahmsweise Verschlüsselungsverfahren genutzt werden dürfen, die verhindern, dass der Inhalt der Steuersignale von Dritten mitgelesen werden kann. Dies dient der Sicherheit der Satelliten vor Steuerkommandos von Unbefugten.
 
 [question:VA303]
-
-Im deutschen Recht - nicht aber international - gilt diese Regelung auch für die Steuersignale an automatische und fernbediente Stationen sowie Remote-Stationen.
-
-[question:VD104]
 [question:VN026]
+
+
+%Im deutschen Recht - nicht aber international - gilt diese Regelung auch für die Steuersignale an automatische und fernbediente Stationen sowie Remote-Stationen. Etsprechende Frage VD104 gelöscht.
