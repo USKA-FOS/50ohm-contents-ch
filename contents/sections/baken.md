@@ -1,4 +1,5 @@
 % keine DL-HB Textanpassungen nötig. zu löschende Fragen ans Ende gestellt (noch nicht gelöscht weil evtl doch wichtig für Review)
+
 Eine „Funkbake“ ist eine automatisch arbeitende Amateurfunk-Sendeanlage (auch in Satelliten), die selbsttätig ständig wiederkehrende Aussendungen zur Feldstärkebeobachtung oder zu Empfangsversuchen erzeugt.
 
 Funkbaken senden stets auf einer fest zugewiesenen Frequenz und immer von einem festen Standort aus. Ähnlich wie Relaisstationen senden sie zur Identifikation in regelmäßigen Abständen ihr Rufzeichen aus, üblicherweise in Morsetelegrafie. Manche Baken können auch zeitlich synchronisiert sein und weitere Informationen aussenden.
