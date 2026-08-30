@@ -68,7 +68,7 @@ Auch ein Funkamateur mit Fähigkeitszeugnis NOVICE (HB3) darf an einer Klubstati
 
 ---
 <law>
-Direktlink zum [Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) wo das unter 1.1.2 + 1.1.3 beschrieben ist.
+Direktlink zum [Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) 1.1.2 + 1.1.3
 </law>
 
 Vereine können zusätzlich zum normalen Vereinsrufzeichen spezielle Contestrufzeichen beantragen.
