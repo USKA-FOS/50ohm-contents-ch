@@ -1,3 +1,5 @@
+% Issue 14 zu Titel eröffnet (Der Titel heisst Antennenformen II. Es gibt aber kein Kapitel Antennenformen I)
+
 Wir haben bereits einige Antennenformen kennen gelernt. Jetzt wollen wir nun die Eigenschaften der verscheidenen Antennen genauer besprechen. Mittengespeiste Dipole sind *symmetrische Antennen*. Unter einer symmetrischen Antenne verstehen wir eine Antenne, die im Idealfall im Betrieb an beiden Polen (z. B. den Einspeisepunkten jedes Schenkels eines Dipols) bis auf das Vorzeichen die gleiche Spannung gegenüber Erde aufweist. Dies ist bei Dipolen einschließlich Faltdipol und auch den darauf basierenden Yagi-Uda-Antennen der Fall. Eine Groundplane-Antenne hingegen weist am Anschlusspunkt der Radiale idealerweise Erdpotential auf (also eine Spannung von Null gegenüber der Erde) und zählt damit nicht zu den symmetrischen Antennen.
 
 <indepth>
