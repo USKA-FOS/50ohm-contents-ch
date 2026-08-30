@@ -1,3 +1,6 @@
+% Diese Seite wird als Einleitungsseite genutzt. Neuer Text erfinden, der auch die Remotestation miteinbezieht (weil ganz klar "fernbedient") oder nur allgemein  "fernbedient und automatisch" beschreiben oder der die Seite ganz weglassen.
+§ Text wurde nicht verändert
+
 Normalerweise muss ein Funkamateur seine Funkstation besetzt betreiben. "Besetzt" bedeutet, dass die Aussendungen nur unter Aufsicht erfolgen dürfen. Die Aufsicht erfolgt entweder unmittelbar an der Sendeanlage oder bei einer Remote-Station auch mittelbar, z. B. über das Internet.
 
 Es gibt aber auch die Möglichkeit, eine Station unbesetzt zu betreiben, als sogenannte fernbediente oder automatische Station. Darunter versteht man eine Station, die ohne Aufsicht läuft. Meist handelt es sich dabei um sogenannte Relaisfunkstellen oder um Baken:
