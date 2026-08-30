@@ -1,5 +1,5 @@
-Die Remotestation ist nach §2 Nr. 6a AFuV wie folgt definiert: "*Remote-Betrieb: der unbesetzte, fernbediente Betrieb einer ortsfesten  Amateurfunkstelle unter ununterbrochener, mittelbarer und vollständiger Kontrolle eines zur Teilnahme am Amateurfunkdienst zugelassenen Funkamateurs, einschließlich der Einstellung der für den Sende- und Empfangsbetrieb genutzten Frequenzen und Bestimmung von Zeitpunkt und Dauer der Amateurfunk-Aussendungen.*"
-% Gibt es in HB eine Definition, bzw Rechtsgrundlage, ausser Merkblatt 1.7?
+% OriginalText von DARC: Die Remotestation ist nach §2 Nr. 6a AFuV wie folgt definiert: "*Remote-Betrieb: der unbesetzte, fernbediente Betrieb einer ortsfesten  Amateurfunkstelle unter ununterbrochener, mittelbarer und vollständiger Kontrolle eines zur Teilnahme am Amateurfunkdienst zugelassenen Funkamateurs, einschließlich der Einstellung der für den Sende- und Empfangsbetrieb genutzten Frequenzen und Bestimmung von Zeitpunkt und Dauer der Amateurfunk-Aussendungen.*"
+% Gibt es in HB eine Definition, bzw Rechtsgrundlage, ausser Merkblatt 1.7? Wo sinnvoll kann der Text auch ohne Rechtsgrundlage als Information übernommen werden
 
 <margin>
 [picture:668:n_remotestation:Remotestation]
@@ -27,7 +27,7 @@ Abgesetzte Stationen, die über das Internet fernbedient werden, unterliegen der
 Während der gesamten Betriebszeit muss eine ununterbrochene, mittelbare und vollständige Kontrolle der Station sichergestellt sein. Mittelbar bedeutet dabei, dass die Kontrolle über Hilfsmittel oder Helfer erfolgen darf und man eben nicht persönlich vor Ort sein muss. Praktisch muss man dafür sorgen, dass die Remotestation bei Störungen, wie z. B. Verbindungsverlust, in einen sicheren Zustand versetzt werden kann, beispielsweise durch eine Netzabschaltung. 
 %DARC: Der bedienende Funkamateur muss jederzeit den Zeitpunkt und die Dauer seiner Aussendung bestimmen können. Dies bedeutet, dass das Funkgerät an der Station nur solange Senden darf, wie du die Sendetaste aktiv betätigst. Unbeabsichtigte Aussendungen sind somit ausgeschlossen.
 [question:VD605]
-% Gibt es dafür eine Rechtsgrundlage in HB, bzw was gilt in HB?
+% Gibt es dafür eine Rechtsgrundlage in HB, bzw was gilt in HB? eGov sagt nur "Der technische Leiter muss während dem Betrieb permanent erreichbar sein"
 
 Für die Benutzung der Remotestation eines anderen Funkamateures benötigt man die Erlaubnis des Betreibers. Der Betreiber muss sicherstellen, dass nur von ihm berechtigte Funkamateure seine Remotestation benutzen können.
 %DARC: Unbefugte Benutzung ist zu unterbinden. Eine Remotestation darf nicht öffentlich zugänglich sein. Im Schadensfall ist hierdurch die notwendige Nachvollziehbarkeit gewährleistet.
