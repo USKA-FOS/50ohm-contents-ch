@@ -49,6 +49,21 @@ Baken werden in den IARU-Bandplänen spezielle Frequenzbereiche zugewiesen. Die 
 [question:BE410]
 [question:VD119]
 
+<indepth>
+### Weitere Möglichkeiten zur Beobachtung der Ausbreitungsbedingungen
+
+Neben Funkbaken gibt es heute weitere Systeme, mit denen sich die aktuellen Ausbreitungsbedingungen beobachten lassen. Dazu gehören beispielsweise [PSK Reporter](https://pskreporter.info/pskmap.html) und das [Reverse Beacon Network](https://www.reversebeacon.net/).
+
+Diese Systeme sind keine Funkbaken. Sie sammeln automatisch Empfangs- und Verbindungsinformationen von Amateurfunkstationen und stellen diese nahezu in Echtzeit dar.
+
+Auch [WSPR](https://www.wsprnet.org/) wird häufig zur Untersuchung der Ausbreitungsbedingungen eingesetzt. Dabei werden sehr schwache Signale verwendet, die von vielen Stationen automatisch empfangen und ausgewertet werden.
+
+Eine ausführliche Beschreibung dieser Systeme würde den Umfang dieses Kapitels überschreiten. Sie sind jedoch im praktischen Funkbetrieb nützliche Ergänzungen zur Beobachtung der aktuellen Ausbreitungsbedingungen.
+
+</indepth>
+
+%TODO Zwei Tips durch obiges indepth ersetzen!
+
 <tip>
 %TODO   und RBN – Reverse Beacon Network als Tip einfügen, Ev. auf HB9 konfigurieren 
 Neben den hier vorgestellten Baken gibt es weitere Systeme, die **aktuelle Ausbreitungsbedingungen in Echtzeit** darstellen. 
