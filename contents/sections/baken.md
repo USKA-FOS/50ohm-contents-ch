@@ -25,10 +25,19 @@ Kann man z. B. auf Kurzwelle eine Bake aus Südamerika gut empfangen, ist dies e
 
 ---
 
-Das Internationale Bakenprojekt (IBP) besteht aus einer größeren Anzahl von Baken, die in mehreren Ländern auf allen Kontinenten verteilt sind. Sie senden in einem festgelegten zeitlichen Ablauf nacheinander jeweils einige Sekunden lang, alle auf der gleichen Frequenz eines Kurzwellenbandes. Hierdurch kannst du dir sehr schnell einen Überblick über die aktuellen Ausbreitungsbedingungen auf dem jeweiligen Band verschaffen.
+Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus einer größeren Anzahl von Baken, die in mehreren Ländern auf allen Kontinenten verteilt sind. Sie senden in einem festgelegten zeitlichen Ablauf nacheinander jeweils einige Sekunden lang, alle auf der gleichen Frequenz eines Kurzwellenbandes. Hierdurch kannst du dir sehr schnell einen Überblick über die aktuellen Ausbreitungsbedingungen auf dem jeweiligen Band verschaffen.
 
 Baken werden in den IARU-Bandplänen spezielle Frequenzbereiche zugewiesen. Auf Bakenfrequenzen sollte niemals Funkbetrieb abgewickelt werden. In der Tabelle [ref:n_baken_frequenzbereiche] finden sich die Bakenfrequenzen des Kurzwellenbereiches. Alle weiteren ausgewiesenen Bakenfrequenzbereiche finden sich in den Bandplänen des jeweiligen Frequenzbandes.
 % warum nur die KW Baken in der Liste? Sollten mehr rein (bsp die oben erwähnten VHF/UHF-Baken)? Oder gar keine Erwähnung spezieller Bereiche, sonden nur Verweis auf Bandpläne?
+
+
+<tip>
+%TODO  pskreporter und RBN – Reverse Beacon Network als Tip einfügen
+</tip>
+
+<tip>
+%TODO wsprnet einfügen
+</tip>
 
 <margin>
 | l: Band | X: Frequenzbereich |
