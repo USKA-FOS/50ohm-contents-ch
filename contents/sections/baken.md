@@ -50,18 +50,23 @@ Baken werden in den IARU-Bandplänen spezielle Frequenzbereiche zugewiesen. Die 
 [question:VD119]
 
 <tip>
-%TODO   und RBN – Reverse Beacon Network als Tip einfügen
-Neben den Baken gibt es weitere Systeme, die die aktuellen Ausbreitungsbedingungen in Echtzeit darstellen. 
+%TODO   und RBN – Reverse Beacon Network als Tip einfügen, Ev. auf HB9 konfigurieren 
+Neben den hier vorgestellten Baken gibt es weitere Systeme, die **aktuelle Ausbreitungsbedingungen in Echtzeit** darstellen. 
 Zu nennen sind hier der
   
-  *[pskreporter](https://pskreporter.info/pskmap.html)
+  [pskreporter](https://pskreporter.info/pskmap.html) und das 
   
-  *[Reverse Beacon Network](https://www.reversebeacon.net/main.php?zoom=17.94,58.61,1.65&max_age=1,hours&bands=160,80,40,30,20,17,15,12,10&rows=25&spotters=1&modes=cw&spot_types=1&continent_de=EU&continent_dx=NA,SA,AF,AS,OC,AN&hide=distance_mi) 
+  [Reverse Beacon Network](https://www.reversebeacon.net/main.php?zoom=17.94,58.61,1.65&max_age=1,hours&bands=160,80,40,30,20,17,15,12,10&rows=25&spotters=1&modes=cw&spot_types=1&continent_de=EU&continent_dx=NA,SA,AF,AS,OC,AN&hide=distance_mi) 
 
-Ein ausführliche Erklärung würde hier zu umfangreich. Interessierte können sich auf den hier genannten Webseiten weiter informieren. Im praktischen Funkbetrieb spielen solche Systeme eine wichtige Rolle. 
+Ein ausführliche Erklärung würde hier zu umfangreich. Interessierte können sich auf den hier genannten Webseiten weiter informieren. Im praktischen Funkbetrieb spielen solche Systeme heute eine wichtige Rolle. 
 </tip>
 
 <tip>
 %TODO wsprnet einfügen
 Einen noch etwas anderen Weg geht das [wspnet](https://www.wsprnet.org/drupal/wsprnet/map), das mit extrem kleinen Sendeleistungen ein realistisches Bild der aktuellen Ausbreitungsbedingungen gibt. 
+</tip>
+
+<tip>
+Wo sind **VHF, UHF, SHF Baken** zu finden? 
+Die USKA bietet eine [Liste mit Bakenfrequenzen](https://uska.ch/wp-content/uploads/2026/03/251116-Baken-Schweiz.pdf) an.
 </tip>
