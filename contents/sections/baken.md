@@ -2,7 +2,8 @@
 
 % keine DL-HB Textanpassungen nötig. zu löschende Fragen ans Ende gestellt (noch nicht gelöscht weil evtl doch wichtig für Review)
 
-% DELETE Eine „Funkbake“ ist eine automatisch arbeitende Amateurfunk-Sendeanlage (auch in Satelliten), die selbsttätig ständig wiederkehrende % % % %  % DELETE Aussendungen zur Feldstärkebeobachtung oder zu Empfangsversuchen erzeugt.
+% DELETE Eine „Funkbake“ ist eine automatisch arbeitende Amateurfunk-Sendeanlage (auch in Satelliten), die selbsttätig ständig wiederkehrende
+% DELETE Aussendungen zur Feldstärkebeobachtung oder zu Empfangsversuchen erzeugt.
 
 Eine "Funkbake" ist eine automatisch arbeitende Amateurfunk-Sendeanlage, die in regelmässigen Abständen definierte Signale aussendet. Sie dient insbesondere zur Beobachtung der Ausbreitungsbedingungen, zur Beurteilung der Empfangbarkeit und für technische Messungen. Funkbaken gibt es auch an Bord von Amateurfunksatelliten.
 
