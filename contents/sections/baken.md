@@ -5,7 +5,7 @@
 % DELETE Eine „Funkbake“ ist eine automatisch arbeitende Amateurfunk-Sendeanlage (auch in Satelliten), die selbsttätig ständig wiederkehrende
 % DELETE Aussendungen zur Feldstärkebeobachtung oder zu Empfangsversuchen erzeugt.
 
-Eine "Funkbake" ist eine automatisch arbeitende Amateurfunk-Sendeanlage, die in regelmässigen Abständen definierte Signale aussendet. Sie dient insbesondere zur Beobachtung der Ausbreitungsbedingungen, zur Beurteilung der Empfangbarkeit und für technische Messungen. Funkbaken gibt es auch an Bord von Amateurfunksatelliten.
+Eine "Funkbake" (englisch: beacon) ist eine automatisch arbeitende Amateurfunk-Sendeanlage, die in regelmässigen Abständen definierte Signale aussendet. Sie dient insbesondere zur Beobachtung der Ausbreitungsbedingungen, zur Beurteilung der Empfangbarkeit und für technische Messungen. Funkbaken gibt es auch an Bord von Amateurfunksatelliten.
 
 % DELETE Funkbaken senden stets auf einer fest zugewiesenen Frequenz und immer von einem festen Standort aus. Ähnlich wie Relaisstationen senden sie % % DELETE zur Identifikation in regelmäßigen Abständen ihr Rufzeichen aus, üblicherweise in Morsetelegrafie. Manche Baken können auch zeitlich 
 % DELETE synchronisiert sein und weitere Informationen aussenden.
@@ -20,25 +20,21 @@ Da ihre Empfangbarkeit stark von den wechselnden Ausbreitungsbedingungen des jew
 
 Kann man z. B. auf Kurzwelle eine Bake aus Südamerika gut empfangen, ist dies ein Hinweis darauf, dass die Ausbreitungsbedingungen für Funkverbindungen in diese Richtung günstig sein können.
 
-„Aurora-Baken“ im VHF-Bereich helfen dabei herauszufinden, ob aktuell DX-Verbindungen in die skandinavischen Länder durch Nutzung von Funkreflexionen an polaren Nordlichtern möglich ist. Mit bekannten Baken auf den VHF-, UHF- und SHF-Bändern kann man durch Peilung die Antennenausrichtung und auch die korrekte Funktion der Empfangsanlage überprüfen.
+% DELETE „Aurora-Baken“ im VHF-Bereich helfen dabei herauszufinden, ob aktuell DX-Verbindungen in die skandinavischen Länder durch Nutzung von
+% DELETE Funkreflexionen an polaren Nordlichtern möglich ist. Mit bekannten Baken auf den VHF-, UHF- und SHF-Bändern kann man durch Peilung die
+% DELETE Antennenausrichtung und auch die korrekte Funktion der Empfangsanlage überprüfen.
+
+"Aurora-Baken" im VHF-Bereich können Hinweise darauf geben, ob derzeit Aurora-Ausbreitung und damit DX-Verbindungen in Richtung Skandinavien möglich sind. Mit bekannten Baken auf den VHF-, UHF- und SHF-Bändern kann man beispielsweise die Empfangsanlage überprüfen und feststellen, ob eine Richtantenne korrekt ausgerichtet ist.
 
 [question:BE409]
 
 ---
 
-Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus einer größeren Anzahl von Baken, die in mehreren Ländern auf allen Kontinenten verteilt sind. Sie senden in einem festgelegten zeitlichen Ablauf nacheinander jeweils einige Sekunden lang, alle auf der gleichen Frequenz eines Kurzwellenbandes. Hierdurch kannst du dir sehr schnell einen Überblick über die aktuellen Ausbreitungsbedingungen auf dem jeweiligen Band verschaffen.
+Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus einer größeren Anzahl von Baken, die in mehreren Ländern auf allen Kontinenten verteilt sind. Sie senden in einem festgelegten zeitlichen Ablauf nacheinander jeweils einige Sekunden lang, alle auf der gleichen Frequenz eines Kurzwellenbandes. Dadurch lässt sich schnell beurteilen, wie gut die Ausbreitungsbedingungen auf dem jeweiligen Band aktuell sind.
 
-Baken werden in den IARU-Bandplänen spezielle Frequenzbereiche zugewiesen. Auf Bakenfrequenzen sollte niemals Funkbetrieb abgewickelt werden. In der Tabelle [ref:n_baken_frequenzbereiche] finden sich die Bakenfrequenzen des Kurzwellenbereiches. Alle weiteren ausgewiesenen Bakenfrequenzbereiche finden sich in den Bandplänen des jeweiligen Frequenzbandes.
+Baken werden in den IARU-Bandplänen spezielle Frequenzbereiche zugewiesen. Die in den IARU-Bandplänen ausgewiesenen Bakenfrequenzbereiche sind für Baken vorgesehen und sollten nicht für normalen Funkverkehr verwendet werden. In der Tabelle [ref:n_baken_frequenzbereiche] finden sich die Bakenfrequenzen des Kurzwellenbereiches. Alle weiteren ausgewiesenen Bakenfrequenzbereiche finden sich in den Bandplänen des jeweiligen Frequenzbandes.
+
 % warum nur die KW Baken in der Liste? Sollten mehr rein (bsp die oben erwähnten VHF/UHF-Baken)? Oder gar keine Erwähnung spezieller Bereiche, sonden nur Verweis auf Bandpläne?
-
-
-<tip>
-%TODO  pskreporter und RBN – Reverse Beacon Network als Tip einfügen
-</tip>
-
-<tip>
-%TODO wsprnet einfügen
-</tip>
 
 <margin>
 | l: Band | X: Frequenzbereich |
@@ -52,3 +48,20 @@ Baken werden in den IARU-Bandplänen spezielle Frequenzbereiche zugewiesen. Auf 
 
 [question:BE410]
 [question:VD119]
+
+<tip>
+%TODO   und RBN – Reverse Beacon Network als Tip einfügen
+Neben den Baken gibt es weitere Systeme, die die aktuellen Ausbreitungsbedingungen in Echtzeit darstellen. 
+Zu nennen sind hier der
+  
+  *[pskreporter](https://pskreporter.info/pskmap.html)
+  
+  *[Reverse Beacon Network](https://www.reversebeacon.net/main.php?zoom=17.94,58.61,1.65&max_age=1,hours&bands=160,80,40,30,20,17,15,12,10&rows=25&spotters=1&modes=cw&spot_types=1&continent_de=EU&continent_dx=NA,SA,AF,AS,OC,AN&hide=distance_mi) 
+
+Ein ausführliche Erklärung würde hier zu umfangreich. Interessierte können sich auf den hier genannten Webseiten weiter informieren. Im praktischen Funkbetrieb spielen solche Systeme eine wichtige Rolle. 
+</tip>
+
+<tip>
+%TODO wsprnet einfügen
+Einen noch etwas anderen Weg geht das [wspnet](https://www.wsprnet.org/drupal/wsprnet/map), das mit extrem kleinen Sendeleistungen ein realistisches Bild der aktuellen Ausbreitungsbedingungen gibt. 
+</tip>
