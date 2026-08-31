@@ -83,5 +83,5 @@ Einen noch etwas anderen Weg geht das [wspnet](https://www.wsprnet.org/drupal/ws
 
 <tip>
 Wo sind **VHF, UHF, SHF Baken** zu finden? 
-Die USKA bietet eine [Liste mit Bakenfrequenzen](https://uska.ch/wp-content/uploads/2026/03/251116-Baken-Schweiz.pdf) an.
+Für die Schweiz bietet die USKA eine aktuelle [Übersicht über Bakenfrequenzen](https://uska.ch/wp-content/uploads/2026/03/251116-Baken-Schweiz.pdf) an.
 </tip>
