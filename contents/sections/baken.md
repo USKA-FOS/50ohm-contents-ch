@@ -28,8 +28,6 @@ Baken werden in den IARU-Bandplänen spezielle Frequenzbereiche zugewiesen. Die 
 
 % warum nur die KW Baken in der Liste? Sollten mehr rein (bsp die oben erwähnten VHF/UHF-Baken)? Oder gar keine Erwähnung spezieller Bereiche, sonden nur Verweis auf Bandpläne?
 
-| l: Band | X: Frequenzbereich | | $\qty{10}{\meter}$ | $\qtyrange{28190}{28225}{\kilo\hertz}$ | | $\qty{12}{\meter}$ | $\qtyrange{24929}{24931}{\kilo\hertz}$ | | $\qty{15}{\meter}$ | $\qtyrange{21149}{21151}{\kilo\hertz}$ | | $\qty{17}{\meter}$ | $\qtyrange{18109}{18111}{\kilo\hertz}$ | | $\qty{20}{\meter}$ | $\qtyrange{14099}{14101}{\kilo\hertz}$ | [table:n_baken_frequenzbereiche:Frequenzbereiche für Baken gemäß IARU-Bandplan]
-[question:BE410] [question:VD119]
 
 ### Weitere Möglichkeiten zur Beobachtung der Ausbreitungsbedingungen
 Neben Funkbaken gibt es heute weitere Systeme, mit denen sich die aktuellen Ausbreitungsbedingungen beobachten lassen. Dazu gehören beispielsweise PSK Reporter und das Reverse Beacon Network.
