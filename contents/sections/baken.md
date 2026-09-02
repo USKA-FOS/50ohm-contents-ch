@@ -21,7 +21,8 @@ Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus
 Baken werden in den IARU-Bandplänen spezielle Frequenzbereiche zugewiesen. Die in den IARU-Bandplänen ausgewiesenen Bakenfrequenzbereiche sind für Baken vorgesehen und sollten nicht für normalen Funkverkehr verwendet werden. In der Tabelle [ref:n_baken_frequenzbereiche] finden sich die Bakenfrequenzen des Kurzwellenbereiches. Alle weiteren ausgewiesenen Bakenfrequenzbereiche finden sich in den Bandplänen des jeweiligen Frequenzbandes.
 
 <margin>
-Die folgende Tabelle zeigt die Bakenfrequenzbereiche der Kurzwellenbänder. Die Bakenfrequenzbereiche der übrigen Amateurfunkbänder sind den jeweils gültigen IARU-Bandplänen zu entnehmen.
+Bakenfrequenzbereiche der Kurzwellenbänder
+
 | l: Band | X: Frequenzbereich |
 | $\qty{10}{\meter}$ | $\qtyrange{28190}{28225}{\kilo\hertz}$ |
 | $\qty{12}{\meter}$ | $\qtyrange{24929}{24931}{\kilo\hertz}$ |
@@ -35,7 +36,7 @@ Die folgende Tabelle zeigt die Bakenfrequenzbereiche der Kurzwellenbänder. Die 
 [question:VD119]
 
 <indepth>
-### Weitere Möglichkeiten zur Beobachtung der Ausbreitungsbedingungen
+Weitere Möglichkeiten zur Beobachtung der Ausbreitungsbedingungen
 
 Neben Funkbaken gibt es heute weitere Systeme, mit denen sich die aktuellen Ausbreitungsbedingungen beobachten lassen. Dazu gehören beispielsweise [PSK Reporter](https://pskreporter.info/pskmap.html) und das [Reverse Beacon Network](https://www.reversebeacon.net/).
 
@@ -44,7 +45,6 @@ Diese Systeme sind keine Funkbaken. Sie sammeln automatisch Empfangs- und Verbin
 Auch [WSPR](https://www.wsprnet.org/) wird häufig zur Untersuchung der Ausbreitungsbedingungen eingesetzt. Dabei werden sehr schwache Signale verwendet, die von vielen Stationen automatisch empfangen und ausgewertet werden.
 
 Eine ausführliche Beschreibung dieser Systeme würde den Umfang dieses Kapitels überschreiten. Sie sind jedoch im praktischen Funkbetrieb nützliche Ergänzungen zur Beobachtung der aktuellen Ausbreitungsbedingungen.
-
 </indepth>
 
 <tip>
