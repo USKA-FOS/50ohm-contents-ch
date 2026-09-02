@@ -38,7 +38,10 @@ Bakenfrequenzbereiche Kurzwellenbänder
 <indepth>
 Weitere Möglichkeiten zur Beobachtung der Ausbreitungsbedingungen
 
-Neben Funkbaken gibt es heute weitere Systeme, mit denen sich die aktuellen Ausbreitungsbedingungen beobachten lassen. Dazu gehören beispielsweise [PSK Reporter](https://pskreporter.info/pskmap.html) und das [Reverse Beacon Network](https://www.reversebeacon.net/).
+Neben Funkbaken gibt es heute weitere Systeme, mit denen sich die aktuellen Ausbreitungsbedingungen beobachten lassen. Dazu gehören beispielsweise 
+
+[PSK Reporter](https://pskreporter.info/pskmap.html) und das 
+[Reverse Beacon Network](https://www.reversebeacon.net/).
 
 Diese Systeme sind keine Funkbaken. Sie sammeln automatisch Empfangs- und Verbindungsinformationen von Amateurfunkstationen und stellen diese nahezu in Echtzeit dar.
 
