@@ -21,7 +21,7 @@ Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus
 Baken werden in den IARU-Bandplänen spezielle Frequenzbereiche zugewiesen. Die in den IARU-Bandplänen ausgewiesenen Bakenfrequenzbereiche sind für Baken vorgesehen und sollten nicht für normalen Funkverkehr verwendet werden. In der Tabelle [ref:n_baken_frequenzbereiche] finden sich die Bakenfrequenzen des Kurzwellenbereiches. Alle weiteren ausgewiesenen Bakenfrequenzbereiche finden sich in den Bandplänen des jeweiligen Frequenzbandes.
 
 <margin>
-Bakenfrequenzbereiche Kurzwellenbänder
+ *Bakenfrequenzbereiche Kurzwellenbänder*
 
 | l: Band | X: Frequenzbereich |
 | $\qty{10}{\meter}$ | $\qtyrange{28190}{28225}{\kilo\hertz}$ |
@@ -40,9 +40,9 @@ Weitere Möglichkeiten zur Beobachtung der Ausbreitungsbedingungen
 
 Neben Funkbaken gibt es heute weitere Systeme, mit denen sich die aktuellen Ausbreitungsbedingungen beobachten lassen. Dazu gehören beispielsweise 
 
-*[PSK Reporter](https://pskreporter.info/pskmap.html) und das 
+- [PSK Reporter](https://pskreporter.info/pskmap.html) und das 
 
-*[Reverse Beacon Network](https://www.reversebeacon.net/).
+- [Reverse Beacon Network](https://www.reversebeacon.net/).
 
 Diese Systeme sind keine Funkbaken. Sie sammeln automatisch Empfangs- und Verbindungsinformationen von Amateurfunkstationen und stellen diese nahezu in Echtzeit dar.
 
