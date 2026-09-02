@@ -53,5 +53,6 @@ Eine ausführliche Beschreibung dieser Systeme würde den Umfang dieses Kapitels
 
 <tip>
 Wo sind *VHF, UHF, SHF Baken* zu finden? 
+  
 Für die Schweiz bietet die USKA eine aktuelle [Übersicht über Bakenfrequenzen](https://uska.ch/wp-content/uploads/2026/03/251116-Baken-Schweiz.pdf) an.
 </tip>
