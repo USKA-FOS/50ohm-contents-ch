@@ -22,7 +22,6 @@ Baken werden in den IARU-Bandplänen spezielle Frequenzbereiche zugewiesen. Die 
 
 <margin>
 Bakenfrequenzbereiche Kurzwellenbänder
-
 | l: Band | X: Frequenzbereich |
 | $\qty{10}{\meter}$ | $\qtyrange{28190}{28225}{\kilo\hertz}$ |
 | $\qty{12}{\meter}$ | $\qtyrange{24929}{24931}{\kilo\hertz}$ |
