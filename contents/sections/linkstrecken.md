@@ -1,10 +1,6 @@
-**IN BEARBEITUNG**
-% Ist Echolink-Gateways und Linkstrecke das gleiche? ARK: NEIN.  Wenn Ja; muss Text aus Merkblatt 1.4 (Zeile 6+7) mit Zeile 3 abgeglichen werden. Wenn Nein; Hinweis auf MB1.4 löschen. Auch in Law-Box. Zeile 6 auch bei Ja, löschen. Die steht nr zur Erkennung da.
-ARK: Vorschlag: Echolink zu Relais verschieben. 
-
 In diesem Kapitel werden Grundlagen über Linkstrecken und zugehörige Vorschriften für den Betrieb behandelt. Eine erweiterte Behandlung technischer Aspekte erfolgt im Kapitel [sec:paketvermittelte_netzwerke].
 
-Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung von zwei Amateurfunkstellen, z. B. Relais oder HAMNET-Knoten, dient. Linkstrecken können Bestandteil unbedienter Amateurfunkanlagen sein. Der Betrieb unbedienter Anlagen ist dem BAKOM zu melden. Für die Nutzung als unbediente Anlage ist ein entsprechendes Amateurfunkrufzeichen (CEPT-Rufzeichen, HB9) erforderlich.
+Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung von zwei Amateurfunkstellen, z. B. Relais oder HAMNET-Knoten, dient. Linkstrecken können Bestandteil unbedienter Amateurfunkanlagen sein. Der Betrieb unbedienter Anlagen ist dem BAKOM zu melden. Für die Nutzung als unbediente Anlage ist ein entsprechendes Amateurfunkrufzeichen (HB9) erforderlich.
 
 <margin>
 [photo:127:n_linkstrecken_db0fc:Wartungsarbeiten am HAMNET-Knoten DB0FC, im Vordergrund die Richtantenne für die Linkstrecke zu DB0BWL]
