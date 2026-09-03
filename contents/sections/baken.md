@@ -4,9 +4,7 @@
 
 Eine "Funkbake" (englisch: beacon) ist eine automatisch arbeitende Amateurfunk-Sendeanlage, die in regelmässigen Abständen definierte Signale aussendet. Sie dient insbesondere zur Beobachtung der Ausbreitungsbedingungen, zur Beurteilung der Empfangbarkeit und für technische Messungen. Funkbaken gibt es auch an Bord von Amateurfunksatelliten.
 
-Funkbaken senden in der Regel auf einer festgelegten Frequenz und können an festen Standorten oder auf beweglichen Plattformen, beispielsweise Satelliten, betrieben werden.
-
-Da ihre Empfangbarkeit stark von den wechselnden Ausbreitungsbedingungen des jeweiligen Funkbandes abhängt, ist eine Bake ein guter Indikator für die Machbarkeit einer Funkverbindung in eine bestimmte Richtung. 
+Funkbaken senden in der Regel auf einer festgelegten Frequenz und können an festen Standorten oder auf beweglichen Plattformen, beispielsweise Satelliten, betrieben werden. Da ihre Empfangbarkeit stark von den wechselnden Ausbreitungsbedingungen des jeweiligen Funkbandes abhängt, kann eine Bake als Indikator für die aktuellen Ausbreitungsbedingungen in eine bestimmte Richtung dienen.
 
 Kann man z. B. auf Kurzwelle eine Bake aus Südamerika gut empfangen, ist dies ein Hinweis darauf, dass die Ausbreitungsbedingungen für Funkverbindungen in diese Richtung günstig sein können.
 
