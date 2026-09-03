@@ -18,9 +18,7 @@ Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung 
 </margin>
 
 <law>
-Direktlink zur Meldung ans BAKOM im [eGov](https://www.egov.swiss/de/amateurfunk/spezielle-frequenznutzung-detail)
-
-[Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) 1.4
+Direktlink zur Meldung sogenannter "Spezieller Frequenznutzungen" ans BAKOM im [eGov](https://www.egov.swiss/de/amateurfunk/spezielle-frequenznutzung-detail) [Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) 1.4
 </law>
 
 
