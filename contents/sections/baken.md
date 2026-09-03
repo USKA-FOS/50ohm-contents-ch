@@ -1,7 +1,3 @@
-**IN BEARBEITUNG**
-
-% keine DL-HB Textanpassungen nötig. zu löschende Fragen ans Ende gestellt (noch nicht gelöscht weil evtl doch wichtig für Review)
-
 Eine "Funkbake" (englisch: beacon) ist eine automatisch arbeitende Amateurfunk-Sendeanlage, die in regelmässigen Abständen definierte Signale aussendet. Sie dient insbesondere zur Beobachtung der Ausbreitungsbedingungen, zur Beurteilung der Empfangbarkeit und für technische Messungen. Funkbaken gibt es auch an Bord von Amateurfunksatelliten.
 
 Funkbaken senden in der Regel auf einer festgelegten Frequenz und können an festen Standorten oder auf beweglichen Plattformen, beispielsweise Satelliten, betrieben werden. Da ihre Empfangbarkeit stark von den wechselnden Ausbreitungsbedingungen des jeweiligen Funkbandes abhängt, kann eine Bake als Indikator für die aktuellen Ausbreitungsbedingungen in eine bestimmte Richtung dienen.
@@ -30,8 +26,8 @@ Baken werden in den IARU-Bandplänen spezielle Frequenzbereiche zugewiesen. Die 
 [table:n_baken_frequenzbereiche:Bakenfrequenzbereiche gemäß IARU-Bandplan]
 </margin>
 
-[question:BE410]
-[question:VD119]
+% [question:BE410]
+% [question:VD119]
 
 <indepth>
 Weitere Möglichkeiten zur Beobachtung der Ausbreitungsbedingungen
@@ -54,3 +50,7 @@ Wo sind *VHF-, UHF- und SHF-Baken* zu finden?
   
 Für die Schweiz bietet die USKA eine aktuelle [Übersicht über Bakenfrequenzen](https://uska.ch/wp-content/uploads/2026/03/251116-Baken-Schweiz.pdf) an.
 </tip>
+
+% Änderungen im Review
+% Fehlerkorrekturen und Präzisierungen 
+% Vertiefung Reverse Beacon Network, pskreporter und WSPR
