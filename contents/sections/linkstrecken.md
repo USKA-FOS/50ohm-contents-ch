@@ -4,14 +4,7 @@ ARK: Vorschlag: Echolink zu Relais verschieben.
 
 In diesem Kapitel werden Grundlagen über Linkstrecken und zugehörige Vorschriften für den Betrieb behandelt. Eine erweiterte Behandlung technischer Aspekte erfolgt im Kapitel [sec:paketvermittelte_netzwerke].
 
-Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung von zwei Amateurfunkstellen, z. B. Relais oder HAMNET-Knoten, dient. Da es sich bei Linkstrecken um automatisch arbeitende Stationen handelt, benötigen diese immer eine Meldung an das BAKOM und ein eigenes Rufzeichen.
-% eigenes Rufzeichen korrekt?
-
-% DELETE 1.4 Betrieb von Echolink-Gateways 
-%Funkamateuren, die einen Echolink-Gateway betreiben möchten, wird empfohlen, die Frequenzen für den Betrieb mit dem Frequenzkoordinator der USKA
-%[Kontakt](qrg@uska.ch) abzusprechen. Ein Echolink-Gateway darf nur eingerichtet werden, wenn der Betreiber ständig daneben sitzt, solange das Gateway %in Betrieb ist. Andernfalls zählt das Echolink-Gateway als unbediente Funkanlage und deren Betrieb ist ausschliesslich Amateurfunkvereinen vorbehalten.
-% END DELETE 
-
+Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung von zwei Amateurfunkstellen, z. B. Relais oder HAMNET-Knoten, dient. Linkstrecken können Bestandteil unbedienter Amateurfunkanlagen sein. Der Betrieb unbedienter Anlagen ist dem BAKOM zu melden. Für die Nutzung als unbediente Anlage ist ein entsprechendes Amateurfunkrufzeichen erforderlich.
 
 <margin>
 [photo:127:n_linkstrecken_db0fc:Wartungsarbeiten am HAMNET-Knoten DB0FC, im Vordergrund die Richtantenne für die Linkstrecke zu DB0BWL]
@@ -20,8 +13,6 @@ Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung 
 <law>
 Direktlink zur Meldung sogenannter "Spezieller Frequenznutzungen" ans BAKOM im [eGov](https://www.egov.swiss/de/amateurfunk/spezielle-frequenznutzung-detail) [Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk)
 </law>
-
-
 
 Eine Linkstrecke überträgt in der Regel Daten. Sie kann aber auch als analoge Brücke zwischen Relais dienen. Linkstrecken arbeiten häufig im $\unit{\giga\hertz}$-Bereich des Amateurfunkspektrums. Mehrere miteinander verbundene Linkstrecken können beispielsweise das HAMNET (Highspeed Amateurradio Multimedia NETwork) bilden, ein von Funkamateuren betriebenes IP-Datennetz.
 
