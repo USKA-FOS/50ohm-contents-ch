@@ -16,7 +16,9 @@ Kann man z. B. auf Kurzwelle eine Bake aus Südamerika gut empfangen, ist dies e
 
 ---
 
-Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus einer größeren Anzahl von Baken, die in mehreren Ländern auf allen Kontinenten verteilt sind. Sie senden in einem festgelegten zeitlichen Ablauf nacheinander jeweils einige Sekunden lang, alle auf der gleichen Frequenz eines Kurzwellenbandes. Dadurch lässt sich schnell beurteilen, wie gut die Ausbreitungsbedingungen auf dem jeweiligen Band aktuell sind.
+Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus einer größeren Anzahl von Baken, die in mehreren Ländern auf allen Kontinenten verteilt sind. Sie senden in einem festgelegten zeitlichen Ablauf nacheinander jeweils einige Sekunden lang auf einer gemeinsamen Frequenz des jeweiligen Kurzwellenbandes
+
+Dadurch lässt sich schnell beurteilen, wie gut die Ausbreitungsbedingungen auf dem jeweiligen Band aktuell sind.
 
 Baken werden in den IARU-Bandplänen spezielle Frequenzbereiche zugewiesen. Die in den IARU-Bandplänen ausgewiesenen Bakenfrequenzbereiche sind für Baken vorgesehen und sollten nicht für normalen Funkverkehr verwendet werden. In der Tabelle [ref:n_baken_frequenzbereiche] finden sich die Bakenfrequenzen des Kurzwellenbereiches. Alle weiteren ausgewiesenen Bakenfrequenzbereiche finden sich in den Bandplänen des jeweiligen Frequenzbandes.
 
@@ -29,7 +31,7 @@ Baken werden in den IARU-Bandplänen spezielle Frequenzbereiche zugewiesen. Die 
 | $\qty{15}{\meter}$ | $\qtyrange{21149}{21151}{\kilo\hertz}$ |
 | $\qty{17}{\meter}$ | $\qtyrange{18109}{18111}{\kilo\hertz}$ |
 | $\qty{20}{\meter}$ | $\qtyrange{14099}{14101}{\kilo\hertz}$ |
-[table:n_baken_frequenzbereiche:Frequenzbereiche für Baken gemäß IARU-Bandplan]
+[table:n_baken_frequenzbereiche:Bakenfrequenzbereiche gemäß IARU-Bandplan]
 </margin>
 
 [question:BE410]
@@ -46,13 +48,13 @@ Neben Funkbaken gibt es heute weitere Systeme, mit denen sich die aktuellen Ausb
 
 Diese Systeme sind keine Funkbaken. Sie sammeln automatisch Empfangs- und Verbindungsinformationen von Amateurfunkstationen und stellen diese nahezu in Echtzeit dar.
 
-Auch [WSPR](https://www.wsprnet.org/) wird häufig zur Untersuchung der Ausbreitungsbedingungen eingesetzt. Dabei werden sehr schwache Signale verwendet, die von vielen Stationen automatisch empfangen und ausgewertet werden.
+Auch [WSPR](https://www.wsprnet.org/) wird häufig zur Untersuchung der Ausbreitungsbedingungen eingesetzt. Dabei werden sehr schwache, standardisierte Signale ausgesendet, die von vielen Stationen automatisch empfangen und ausgewertet werden.
 
 Eine ausführliche Beschreibung dieser Systeme würde den Umfang dieses Kapitels überschreiten. Sie sind jedoch im praktischen Funkbetrieb nützliche Ergänzungen zur Beobachtung der aktuellen Ausbreitungsbedingungen.
 </indepth>
 
 <tip>
-Wo sind *VHF, UHF, SHF Baken* zu finden? 
+Wo sind *VHF-, UHF-, SHF-Baken* zu finden? 
   
 Für die Schweiz bietet die USKA eine aktuelle [Übersicht über Bakenfrequenzen](https://uska.ch/wp-content/uploads/2026/03/251116-Baken-Schweiz.pdf) an.
 </tip>
