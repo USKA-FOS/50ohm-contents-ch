@@ -24,6 +24,12 @@ Eine Linkstrecke überträgt in der Regel Daten. Sie kann aber auch als analoge 
 
 
 <indepth>
-Linkberechnungstool http://ham.remote-area.net/linktool/index.php
+*Linkberechnung*
+
+Mit einem Linkberechnungstool lässt sich beurteilen, ob eine Funkverbindung zwischen zwei Standorten technisch möglich ist. Neben **Frequenz, Entfernung, Sendeleistung, Antennengewinn und Kabelverlusten** berücksichtigt das Tool auch das **Geländemodell** zwischen den beiden Standorten.
+
+Aus den Höhendaten des Geländes kann beispielsweise ein **Höhenprofil der Funkstrecke** erstellt werden. Dadurch lässt sich erkennen, ob Hindernisse wie Hügel oder andere Erhebungen die direkte Funkverbindung beeinträchtigen. Zusätzlich kann die **Fresnelzone** berücksichtigt werden, da für eine zuverlässige Richtfunkverbindung nicht nur die direkte Sichtverbindung, sondern auch eine möglichst freie Fresnelzone wichtig ist.
+
+Das Tool liefert daraus unter anderem die **Freiraumdämpfung, Empfangsleistung und Linkreserve** und hilft bei der Beurteilung und Planung von Richtfunk- und HAMNET-Verbindungen.
+[Linkberechnungstool](http://ham.remote-area.net/linktool/index.php)
 </indepth>
-% Todo: Erklärenden Text zum Tool in der Box erfassen
