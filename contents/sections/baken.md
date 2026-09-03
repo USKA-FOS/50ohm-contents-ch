@@ -16,11 +16,9 @@ Kann man z. B. auf Kurzwelle eine Bake aus Südamerika gut empfangen, ist dies e
 
 ---
 
-Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus einer größeren Anzahl von Baken, die in mehreren Ländern auf allen Kontinenten verteilt sind. Sie senden in einem festgelegten zeitlichen Ablauf nacheinander jeweils einige Sekunden lang auf einer gemeinsamen Frequenz des jeweiligen Kurzwellenbandes
+Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus einer größeren Anzahl von Baken, die in mehreren Ländern auf allen Kontinenten verteilt sind. Sie senden in einem festgelegten zeitlichen Ablauf nacheinander jeweils einige Sekunden lang auf einer gemeinsamen Frequenz des jeweiligen Kurzwellenbandes. Dadurch lässt sich schnell beurteilen, wie gut die aktuellen Ausbreitungsbedingungen auf dem jeweiligen Band sind.
 
-Dadurch lässt sich schnell beurteilen, wie gut die Ausbreitungsbedingungen auf dem jeweiligen Band aktuell sind.
-
-Baken werden in den IARU-Bandplänen spezielle Frequenzbereiche zugewiesen. Die in den IARU-Bandplänen ausgewiesenen Bakenfrequenzbereiche sind für Baken vorgesehen und sollten nicht für normalen Funkverkehr verwendet werden. In der Tabelle [ref:n_baken_frequenzbereiche] finden sich die Bakenfrequenzen des Kurzwellenbereiches. Alle weiteren ausgewiesenen Bakenfrequenzbereiche finden sich in den Bandplänen des jeweiligen Frequenzbandes.
+Baken werden in den IARU-Bandplänen spezielle Frequenzbereiche zugewiesen. Die in den IARU-Bandplänen ausgewiesenen Bakenfrequenzbereiche sind für Baken vorgesehen und sollten nicht für normalen Funkverkehr verwendet werden. In der Tabelle [ref:n_baken_frequenzbereiche] finden sich die Bakenfrequenzbereiche des Kurzwellenbereiches. Alle weiteren ausgewiesenen Bakenfrequenzbereiche finden sich in den Bandplänen des jeweiligen Frequenzbandes.
 
 <margin>
  *Bakenfrequenzbereiche Kurzwellenbänder*
@@ -54,7 +52,7 @@ Eine ausführliche Beschreibung dieser Systeme würde den Umfang dieses Kapitels
 </indepth>
 
 <tip>
-Wo sind *VHF-, UHF-, SHF-Baken* zu finden? 
+Wo sind *VHF-, UHF- und SHF-Baken* zu finden? 
   
 Für die Schweiz bietet die USKA eine aktuelle [Übersicht über Bakenfrequenzen](https://uska.ch/wp-content/uploads/2026/03/251116-Baken-Schweiz.pdf) an.
 </tip>
