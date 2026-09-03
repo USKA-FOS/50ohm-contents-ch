@@ -4,7 +4,7 @@
 <right>
 * Fest eingerichtete Funkverbindung zwischen zwei Amateurfunkstellen
 * Automatisch arbeitende Station
-* Benötigt eigene Zulassung mit Rufzeichen durch BNetzA
+* Benötigt eigene Zulassung mit Rufzeichen durch das BAKOM 
 </right>
 <note>
 * z.B. zwischen Relaisfunkstellen oder HAMNET-Knoten
