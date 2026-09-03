@@ -4,7 +4,7 @@ ARK: Vorschlag: Echolink zu Relais verschieben.
 
 In diesem Kapitel werden Grundlagen über Linkstrecken und zugehörige Vorschriften für den Betrieb behandelt. Eine erweiterte Behandlung technischer Aspekte erfolgt im Kapitel [sec:paketvermittelte_netzwerke].
 
-Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung von zwei Amateurfunkstellen, z. B. Relais oder HAMNET-Knoten, dient. Linkstrecken können Bestandteil unbedienter Amateurfunkanlagen sein. Der Betrieb unbedienter Anlagen ist dem BAKOM zu melden. Für die Nutzung als unbediente Anlage ist ein entsprechendes Amateurfunkrufzeichen erforderlich.
+Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung von zwei Amateurfunkstellen, z. B. Relais oder HAMNET-Knoten, dient. Linkstrecken können Bestandteil unbedienter Amateurfunkanlagen sein. Der Betrieb unbedienter Anlagen ist dem BAKOM zu melden. Für die Nutzung als unbediente Anlage ist ein entsprechendes Amateurfunkrufzeichen (CEPT-Rufzeichen, HB9) erforderlich.
 
 <margin>
 [photo:127:n_linkstrecken_db0fc:Wartungsarbeiten am HAMNET-Knoten DB0FC, im Vordergrund die Richtantenne für die Linkstrecke zu DB0BWL]
