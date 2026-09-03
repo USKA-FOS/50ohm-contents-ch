@@ -1,3 +1,4 @@
+**IN BEARBEITUNG**
 % Ist Echolink-Gateways und Linkstrecke das gleiche? ARK: NEIN.  Wenn Ja; muss Text aus Merkblatt 1.4 (Zeile 6+7) mit Zeile 3 abgeglichen werden. Wenn Nein; Hinweis auf MB1.4 löschen. Auch in Law-Box. Zeile 6 auch bei Ja, löschen. Die steht nr zur Erkennung da.
 ARK: Vorschlag: Echolink zu Relais verschieben. 
 
@@ -5,7 +6,8 @@ Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung 
 % eigenes Rufzeichen korrekt?
 
 % DELETE 1.4 Betrieb von Echolink-Gateways 
-Funkamateuren, die einen Echolink-Gateway betreiben möchten, wird empfohlen, die Frequenzen für den Betrieb mit dem Frequenzkoordinator der USKA [Kontakt](qrg@uska.ch) abzusprechen. Ein Echolink-Gateway darf nur eingerichtet werden, wenn der Betreiber ständig daneben sitzt, solange das Gateway in Betrieb ist. Andernfalls zählt das Echolink-Gateway als unbediente Funkanlage und deren Betrieb ist ausschliesslich Amateurfunkvereinen vorbehalten.
+%Funkamateuren, die einen Echolink-Gateway betreiben möchten, wird empfohlen, die Frequenzen für den Betrieb mit dem Frequenzkoordinator der USKA
+%[Kontakt](qrg@uska.ch) abzusprechen. Ein Echolink-Gateway darf nur eingerichtet werden, wenn der Betreiber ständig daneben sitzt, solange das Gateway %in Betrieb ist. Andernfalls zählt das Echolink-Gateway als unbediente Funkanlage und deren Betrieb ist ausschliesslich Amateurfunkvereinen vorbehalten.
 % END DELETE 
 
 
