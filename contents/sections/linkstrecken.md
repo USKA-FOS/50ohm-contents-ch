@@ -11,7 +11,7 @@ Direktlink zur Meldung sogenannter "Spezieller Frequenznutzungen" ans BAKOM im [
 </law>
 
 <law>
-Ausführliche "Erläuternde Angaben zum Amateurfunkdienst" findet man im [Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) des BAKOM. Es empfiehlt sich, dieses Dokument zu lesen. 
+Ausführliche "Erläuternde Angaben zum Amateurfunkdienst" findet man im [Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) des BAKOM.
 </law>
 
 Eine Linkstrecke überträgt in der Regel Daten. Sie kann aber auch als analoge Brücke zwischen Relais dienen. Linkstrecken arbeiten häufig im $\unit{\giga\hertz}$-Bereich des Amateurfunkspektrums. Mehrere miteinander verbundene Linkstrecken können beispielsweise das HAMNET (Highspeed Amateurradio Multimedia NETwork) bilden, ein von Funkamateuren betriebenes IP-Datennetz.
