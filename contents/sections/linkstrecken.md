@@ -28,3 +28,8 @@ Aus den Höhendaten des Geländes kann beispielsweise ein **Höhenprofil der Fun
 Das Tool liefert daraus unter anderem die **Freiraumdämpfung, Empfangsleistung und Linkreserve** und hilft bei der Beurteilung und Planung von Richtfunk- und HAMNET-Verbindungen.
 [Linkberechnungstool](http://ham.remote-area.net/linktool/index.php)
 </indepth>
+
+% Änderungen 
+% Echolink entfernt, es gehört zu Relais.
+% Beschreibungen zu den Links erstellt bzw. ergänzt 
+% Linkberechnungstool beschrieben, wozu es dient.
