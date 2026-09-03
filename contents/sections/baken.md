@@ -6,6 +6,28 @@ Kann man z. B. auf Kurzwelle eine Bake aus Südamerika gut empfangen, ist dies e
 
 "Aurora-Baken" im VHF-Bereich können Hinweise darauf geben, ob derzeit Aurora-Ausbreitung und damit DX-Verbindungen in Richtung Skandinavien möglich sind. Mit bekannten Baken auf den VHF-, UHF- und SHF-Bändern kann man beispielsweise die Empfangsanlage überprüfen und feststellen, ob eine Richtantenne korrekt ausgerichtet ist.
 
+<indepth>
+Weitere Möglichkeiten zur Beobachtung der Ausbreitungsbedingungen
+
+Neben Funkbaken gibt es heute weitere Systeme, mit denen sich die aktuellen Ausbreitungsbedingungen beobachten lassen. Dazu gehören beispielsweise 
+
+- [PSK Reporter](https://pskreporter.info/pskmap.html) und das 
+
+- [Reverse Beacon Network](https://www.reversebeacon.net/).
+
+Diese Systeme sind keine Funkbaken. Sie sammeln automatisch Empfangs- und Verbindungsinformationen von Amateurfunkstationen und stellen diese nahezu in Echtzeit dar.
+
+Auch [WSPR](https://www.wsprnet.org/) wird häufig zur Untersuchung der Ausbreitungsbedingungen eingesetzt. Dabei werden sehr schwache, standardisierte Signale ausgesendet, die von vielen Stationen automatisch empfangen und ausgewertet werden.
+
+Eine ausführliche Beschreibung dieser Systeme würde den Umfang dieses Kapitels überschreiten. Sie sind jedoch im praktischen Funkbetrieb nützliche Ergänzungen zur Beobachtung der aktuellen Ausbreitungsbedingungen.
+</indepth>
+
+<tip>
+Wo sind *VHF-, UHF- und SHF-Baken* zu finden? 
+  
+Für die Schweiz bietet die USKA eine aktuelle [Übersicht über Bakenfrequenzen](https://uska.ch/wp-content/uploads/2026/03/251116-Baken-Schweiz.pdf) an.
+</tip>
+
 [question:BE409]
 
 ---
@@ -28,28 +50,6 @@ Baken werden in den IARU-Bandplänen spezielle Frequenzbereiche zugewiesen. Die 
 
 % [question:BE410]
 % [question:VD119]
-
-<indepth>
-Weitere Möglichkeiten zur Beobachtung der Ausbreitungsbedingungen
-
-Neben Funkbaken gibt es heute weitere Systeme, mit denen sich die aktuellen Ausbreitungsbedingungen beobachten lassen. Dazu gehören beispielsweise 
-
-- [PSK Reporter](https://pskreporter.info/pskmap.html) und das 
-
-- [Reverse Beacon Network](https://www.reversebeacon.net/).
-
-Diese Systeme sind keine Funkbaken. Sie sammeln automatisch Empfangs- und Verbindungsinformationen von Amateurfunkstationen und stellen diese nahezu in Echtzeit dar.
-
-Auch [WSPR](https://www.wsprnet.org/) wird häufig zur Untersuchung der Ausbreitungsbedingungen eingesetzt. Dabei werden sehr schwache, standardisierte Signale ausgesendet, die von vielen Stationen automatisch empfangen und ausgewertet werden.
-
-Eine ausführliche Beschreibung dieser Systeme würde den Umfang dieses Kapitels überschreiten. Sie sind jedoch im praktischen Funkbetrieb nützliche Ergänzungen zur Beobachtung der aktuellen Ausbreitungsbedingungen.
-</indepth>
-
-<tip>
-Wo sind *VHF-, UHF- und SHF-Baken* zu finden? 
-  
-Für die Schweiz bietet die USKA eine aktuelle [Übersicht über Bakenfrequenzen](https://uska.ch/wp-content/uploads/2026/03/251116-Baken-Schweiz.pdf) an.
-</tip>
 
 % Änderungen im Review
 % Fehlerkorrekturen und Präzisierungen 
