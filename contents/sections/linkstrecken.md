@@ -1,4 +1,4 @@
-% Ist Echolink-Gateways und Linkstrecke das gleiche? Wenn Ja; muss Text aus Merkblatt 1.4 (Zeile 6+7) mit Zeile 3 abgeglichen werden. Wenn Nein; Hinweis auf MB1.4 löschen. Auch in Law-Box. Zeile 6 auch bei Ja, löschen. Die steht nr zur Erkennung da.
+% Ist Echolink-Gateways und Linkstrecke das gleiche? ARK: NEIN.  Wenn Ja; muss Text aus Merkblatt 1.4 (Zeile 6+7) mit Zeile 3 abgeglichen werden. Wenn Nein; Hinweis auf MB1.4 löschen. Auch in Law-Box. Zeile 6 auch bei Ja, löschen. Die steht nr zur Erkennung da.
 
 Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung von zwei Amateurfunkstellen, z. B. Relais oder HAMNET-Knoten, dient. Da es sich bei Linkstrecken um automatisch arbeitende Stationen handelt, benötigen diese immer eine Meldung an das BAKOM und ein eigenes Rufzeichen.
 % eigenes Rufzeichen korrekt?
@@ -18,14 +18,13 @@ Direktlink zur Meldung ans BAKOM im [eGov](https://www.egov.swiss/de/amateurfunk
 
 
 
-Eine Linkstrecke überträgt in der Regel Daten. Sie kann aber auch als analoge Brücke zwischen Relais dienen. Die meisten Linkstrecken arbeiten im $\unit{\giga\hertz}$-Bereich des Amateurfunkspektrums und bilden zusammen als HAMNET (Highspeed Amateurradio Multimedia NETwork) ein von Funkamateuren betriebenes Daten-Netzwerk.
+Eine Linkstrecke überträgt in der Regel Daten. Sie kann aber auch als analoge Brücke zwischen Relais dienen. Linkstrecken arbeiten häufig im $\unit{\giga\hertz}$-Bereich des Amateurfunkspektrums. Mehrere miteinander verbundene Linkstrecken können beispielsweise das HAMNET (Highspeed Amateurradio Multimedia NETwork) bilden, ein von Funkamateuren betriebenes IP-Datennetz.
 
 [question:NE405]
 
 
 <indepth>
 *Linkberechnung*
-
 Mit einem Linkberechnungstool lässt sich beurteilen, ob eine Funkverbindung zwischen zwei Standorten technisch möglich ist. Neben **Frequenz, Entfernung, Sendeleistung, Antennengewinn und Kabelverlusten** berücksichtigt das Tool auch das **Geländemodell** zwischen den beiden Standorten.
 
 Aus den Höhendaten des Geländes kann beispielsweise ein **Höhenprofil der Funkstrecke** erstellt werden. Dadurch lässt sich erkennen, ob Hindernisse wie Hügel oder andere Erhebungen die direkte Funkverbindung beeinträchtigen. Zusätzlich kann die **Fresnelzone** berücksichtigt werden, da für eine zuverlässige Richtfunkverbindung nicht nur die direkte Sichtverbindung, sondern auch eine möglichst freie Fresnelzone wichtig ist.
