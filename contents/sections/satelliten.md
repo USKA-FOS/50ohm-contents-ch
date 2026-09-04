@@ -65,6 +65,8 @@ Im Amateurfunkdienst über Satelliten gilt eine Ausnahme von der Pflicht, nur of
 
 % XXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
+**IDEEN-SAMMLUNG**
+
 <margin>
 
 [photo:124:n_satellit_oscar1:Modell des ersten Amateurfunksatelliten OSCAR 1, der am 12. Dezember 1961 gestartet wurde und 22 Tage lang aus einer Erdumlaufbahn eine Bake im $\qty{2}{\meter}$-Band sendete. Mehr als 570 Funkamateure aus 28 Ländern reichten Beobachtungen ein]
@@ -128,6 +130,7 @@ Mit zunehmender Bahnhöhe verlängert sich die Umlaufzeit. Gleichzeitig vergrös
 Eine geosynchrone Umlaufbahn hat eine Umlaufzeit von ungefähr einem siderischen Tag, also 23 Stunden, 56 Minuten und 4 Sekunden. Eine besondere Form davon ist die geostationäre Umlaufbahn (Geostationary Orbit - GEO).
 
 Ein geostationärer Satellit bewegt sich auf einer nahezu kreisförmigen Bahn über dem Äquator und umläuft die Erde in derselben Drehrichtung und mit derselben Winkelgeschwindigkeit, mit der sich die Erde dreht. Dadurch erscheint er von der Erde aus gesehen nahezu ortsfest am Himmel.
+[QO-100](https://amsat-dl.org/p4-a-nb-transponder-bandplan-und-betriebsrichtlinien/) ist der bisher erste geostationäre Satellit mit einer Amateurfunk Nutzlast.
 
 Die Höhe einer geostationären Umlaufbahn beträgt etwa 35.786 Kilometer über dem Äquator. Für Kommunikationsanwendungen ist dies besonders interessant, weil eine Bodenstation die Antenne grundsätzlich auf eine feste Position am Himmel ausrichten kann.
 
