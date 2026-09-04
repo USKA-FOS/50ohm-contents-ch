@@ -32,7 +32,7 @@ Für die Schweiz bietet die USKA eine [Übersicht über Bakenfrequenzen](https:/
 
 ---
 
-Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus einer größeren Anzahl von Baken, die in mehreren Ländern auf allen Kontinenten verteilt sind. Die einzelnen Baken senden in einem festgelegten zeitlichen Ablauf auf den fünf IBP-Bakenfrequenzen jeweils etwa 10 Sekunden lang. Dadurch lässt sich schnell beurteilen, wie gut die aktuellen Ausbreitungsbedingungen auf dem jeweiligen Band sind.
+Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus einer größeren Anzahl von Baken, die in mehreren Ländern auf allen Kontinenten verteilt sind. Die einzelnen Baken senden in einem festgelegten zeitlichen Ablauf nacheinander auf den fünf IBP-Bakenfrequenzen, wobei jede Frequenz etwa 10 Sekunden lang genutzt wird. Dadurch lässt sich schnell beurteilen, wie gut die aktuellen Ausbreitungsbedingungen auf dem jeweiligen Band sind.
 
 In den IARU-Bandplänen sind spezielle Frequenzbereiche für Baken vorgesehen. Diese Bakenfrequenzbereiche sollten nicht für normalen Funkverkehr verwendet werden. In der Tabelle [ref:n_baken_frequenzbereiche] sind die im IARU-Region-1-Bandplan vorgesehenen Bakenbereiche der Kurzwellenbänder aufgeführt.
 
