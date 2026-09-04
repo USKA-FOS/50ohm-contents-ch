@@ -1,3 +1,5 @@
+**IN BEARBEITUNG**
+
 <margin>
 [photo:124:n_satellit_oscar1:Modell des ersten Amateurfunksatelliten OSCAR 1, der 1961 für 22 Tage aus dem Orbit der Erde eine Bake im $\qty{2}{\meter}$-Band sendete und von 570 Funkamateuren aus 28 Ländern gehört wurde]
 </margin>
@@ -79,7 +81,7 @@ Die mitgeführten Funkbaugruppen können als Relaisfunkstellen oder als Transpon
 
 Die Funkstrecke von der Erde zum Satelliten wird als "Uplink" bezeichnet. Die Funkstrecke vom Satelliten zur Erde wird hingegen "Downlink" genannt. Uplink und Downlink werden oftmals in unterschiedlichen Frequenzbereichen betrieben. Dadurch lassen sich Sende- und Empfangssignale besser voneinander trennen und die erforderlichen Filter auf dem Satelliten können einfacher ausgeführt werden.
 
-<webindepth>
+<indepth>
 
 ## Umlaufbahnen und Keplersche Gesetze
 
@@ -205,11 +207,17 @@ Für den praktischen Satellitenfunk werden die aktuelle Bahn und die Position de
 
 Damit lassen sich Überflüge planen und Funkgeräte sowie Antennen automatisch nachführen.
 
-</webindepth>
+</indepth>
 ateurfunksatelliten verfügen über eine Bake. Eine Bake sendet automatisch in regelmässigen Abständen oder kontinuierlich definierte Signale aus. Sie kann dazu dienen, die Empfangbarkeit des Satelliten, die Ausbreitungsbedingungen und den Zustand der Funknutzlast zu beobachten.
 
 Beim Empfang einer Bake kann eine Funkstation beispielsweise feststellen, ob der Satellit bereits über dem Horizont steht, wie sich die Empfangsfrequenz durch den Dopplereffekt verändert und wie gut die Funkverbindung funktioniert.
 
 ## Satellitenverfolgung
 
-Für den praktischen Satellitenfunk werden die aktuelle Bahn und die 
+Für den praktischen Satellitenfunk werden die aktuelle Bahn und die Position des Satelliten benötigt. Dazu werden Bahnelemente, beispielsweise sogenannte TLE (Two-Line Elements), verwendet. Tracking-Programme berechnen daraus die voraussichtliche Position des Satelliten und zeigen unter anderem Azimut, Elevation, AOS und LOS sowie den zu erwartenden Dopplereffekt an.
+</indepth>
+
+<tip>
+Mit Amateurfunk über Satelliten befassen sich weltweit die AMSAT-Organisationen, in der Schweiz ist das [AMSAT-HB](https://amsat-hb.org/) 
+</tip>
+
