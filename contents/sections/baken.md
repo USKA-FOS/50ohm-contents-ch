@@ -26,7 +26,7 @@ Eine ausführliche Beschreibung dieser Systeme würde den Umfang dieses Kapitels
 Wo sind *VHF-, UHF- und SHF-Baken* zu finden? 
   
 Für die Schweiz bietet die USKA eine [Übersicht über Bakenfrequenzen](https://uska.ch/wp-content/uploads/2026/03/251116-Baken-Schweiz.pdf) an.
-</tip
+</tip>
 
 [question:BE409]
 
@@ -34,17 +34,17 @@ Für die Schweiz bietet die USKA eine [Übersicht über Bakenfrequenzen](https:/
 
 Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus einer größeren Anzahl von Baken, die in mehreren Ländern auf allen Kontinenten verteilt sind. Sie senden in einem festgelegten zeitlichen Ablauf nacheinander jeweils einige Sekunden lang auf der Bakenfrequenz des jeweiligen Kurzwellenbandes. Dadurch lässt sich schnell beurteilen, wie gut die aktuellen Ausbreitungsbedingungen auf dem jeweiligen Band sind.
 
-Baken werden in den IARU-Bandplänen spezielle Frequenzbereiche zugewiesen. Die in den IARU-Bandplänen ausgewiesenen Bakenfrequenzbereiche sind für Baken vorgesehen und sollten nicht für normalen Funkverkehr verwendet werden. In der Tabelle [ref:n_baken_frequenzbereiche] finden sich die Bakenfrequenzbereiche des Kurzwellenbereiches. Alle weiteren ausgewiesenen Bakenfrequenzbereiche finden sich in den Bandplänen des jeweiligen Frequenzbandes.
+In den IARU-Bandplänen sind spezielle Frequenzbereiche für Baken vorgesehen. Diese Bakenfrequenzbereiche sollten nicht für normalen Funkverkehr verwendet werden. In der Tabelle [ref:n_baken_frequenzbereiche] sind die im IARU-Region-1-Bandplan vorgesehenen Bakenbereiche der Kurzwellenbänder aufgeführt.
 
 <margin>
  *Bakenfrequenzbereiche Kurzwellenbänder*
 
-| l: Band | X: Frequenzbereich | Frequenz  |
-| $\qty{10}{\meter}$ | $\qtyrange{28190}{28225}{\kilo\hertz}$ | $\qty{14.100}{\mega\hertz}$|
-| $\qty{12}{\meter}$ | $\qtyrange{24929}{24931}{\kilo\hertz}$ | |
-| $\qty{15}{\meter}$ | $\qtyrange{21149}{21151}{\kilo\hertz}$ | |
-| $\qty{17}{\meter}$ | $\qtyrange{18109}{18111}{\kilo\hertz}$ | |
-| $\qty{20}{\meter}$ | $\qtyrange{14099}{14101}{\kilo\hertz}$ | |
+| l: Band | X: Frequenzbereich | IBP-Frequenz  |
+| $\qty{10}{\meter}$ | $\qtyrange{28190}{28225}{\kilo\hertz}$ | $\qty{28.200}{\mega\hertz}$ |
+| $\qty{12}{\meter}$ | $\qtyrange{24929}{24931}{\kilo\hertz}$ | $\qty{24.930}{\mega\hertz}$ |
+| $\qty{15}{\meter}$ | $\qtyrange{21149}{21151}{\kilo\hertz}$ | $\qty{21.150}{\mega\hertz}$ |
+| $\qty{17}{\meter}$ | $\qtyrange{18109}{18111}{\kilo\hertz}$ | $\qty{18.110}{\mega\hertz}$ |
+| $\qty{20}{\meter}$ | $\qtyrange{14099}{14101}{\kilo\hertz}$ | $\qty{14.100}{\mega\hertz}$ |
 [table:n_baken_frequenzbereiche:Bakenfrequenzbereiche gemäß IARU-Bandplan]
 </margin>
 
