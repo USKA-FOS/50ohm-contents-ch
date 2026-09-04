@@ -61,7 +61,9 @@ Im Amateurfunkdienst über Satelliten gilt eine Ausnahme von der Pflicht, nur of
 
 %Im deutschen Recht - nicht aber international - gilt diese Regelung auch für die Steuersignale an automatische und fernbediente Stationen sowie Remote-Stationen. Etsprechende Frage VD104 gelöscht.
 
-
+<attention>
+Aufgrund der von Satelliten verwendeten Frequenzen setzt der Amateurfunk über Satelliten eine HB9-Konzession voraus.
+</attention>
 
 **XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX**
 **IDEEN-SAMMLUNG FÜR DEN HB3-TEIL**
