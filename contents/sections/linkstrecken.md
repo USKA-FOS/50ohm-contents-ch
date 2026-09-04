@@ -20,9 +20,9 @@ Linkstrecken können digitale Daten übertragen oder als analoge Brücke zwische
 <indepth>
 *Linkberechnung*
 
-Mit einem [Linkberechnungstool](http://ham.remote-area.net/linktool/index.php) lässt sich beurteilen, ob eine Richtfunkverbindung zwischen zwei Standorten technisch möglich ist. Es berücksichtigt unter anderem Frequenz, Entfernung, Sendeleistung, Antennengewinne, Kabelverluste und das *Geländeprofil* zwischen den Standorten. Das Tool berechnet unter anderem Freiraumdämpfung, Empfangsleistung und Linkreserve und unterstützt damit die Planung von Richtfunk- und HAMNET-Verbindungen.0
+Mit einem [Linkberechnungstool](http://ham.remote-area.net/linktool/index.php) lässt sich beurteilen, ob eine Richtfunkverbindung zwischen zwei Standorten technisch möglich ist. Es berücksichtigt unter anderem Frequenz, Entfernung, Sendeleistung, Antennengewinne, Kabelverluste und das *Geländeprofil* zwischen den Standorten. Das Tool berechnet unter anderem Freiraumdämpfung, Empfangsleistung und Linkreserve und unterstützt damit die Planung von Richtfunk- und HAMNET-Verbindungen.
 
-Für eine zuverlässige Richtfunkverbindung ist neben der direkten Sichtverbindung auch eine möglichst freie Fresnelzone wichtig. Sie umfasst einen räumlichen Bereich um die direkte Verbindungslinie, in dem Hindernisse die Funkübertragung durch Beugung und zusätzliche Dämpfung beeinträchtigen können.
+Für eine zuverlässige Richtfunkverbindung ist neben der direkten Sichtverbindung auch eine möglichst freie Fresnelzone wichtig. Die Fresnelzone bezeichnet einen räumlichen Bereich um die direkte Verbindungslinie, in dem Hindernisse die Funkübertragung durch Beugung und zusätzliche Dämpfung beeinträchtigen können.
 </indepth>
 
 % Änderungen 
