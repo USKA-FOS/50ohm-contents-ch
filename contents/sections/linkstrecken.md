@@ -1,11 +1,6 @@
 In diesem Kapitel werden Grundlagen über Linkstrecken und zugehörige Vorschriften für den Betrieb behandelt. Eine erweiterte Behandlung technischer Aspekte erfolgt im Kapitel [sec:paketvermittelte_netzwerke].
 
-Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung von Amateurfunkstellen, beispielsweise Relais, Digipeatern oder HAMNET-Knoten, dient.
-
-%Delete Linkstrecken können Bestandteil unbedienter Amateurfunkanlagen sein. Der Betrieb unbedienter Anlagen ist dem BAKOM zu melden. Für die Nutzung %delete als unbediente Anlage ist ein entsprechendes Amateurfunkrufzeichen erforderlich.
-
-
-Linkstrecken können Bestandteil unbedienter Amateurfunkanlagen sein. Der Betrieb solcher Anlagen ist dem BAKOM entsprechend den geltenden Vorschriften zu melden. Für eine unbediente Amateurfunkanlage ist ein dafür vorgesehenes Amateurfunkrufzeichen erforderlich.
+Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung von Amateurfunkstellen, beispielsweise Relais, Digipeatern oder HAMNET-Knoten, dient. Linkstrecken können Bestandteil unbedienter Amateurfunkanlagen sein. Der Betrieb solcher Anlagen ist dem BAKOM entsprechend den geltenden Vorschriften zu melden. Für eine unbediente Amateurfunkanlage ist ein dafür vorgesehenes Amateurfunkrufzeichen erforderlich.
 
 <margin>
 [photo:127:n_linkstrecken_db0fc:Wartungsarbeiten am HAMNET-Knoten DB0FC, im Vordergrund die Richtantenne für die Linkstrecke zu DB0BWL]
@@ -19,10 +14,9 @@ Direktlink zur Meldung sogenannter "Spezieller Frequenznutzungen" ans BAKOM im [
 Ausführliche "Erläuternde Angaben zum Amateurfunkdienst" findet man im [Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) des BAKOM.
 </law>
 
-Eine Linkstrecke überträgt in der Regel Daten. Sie kann aber auch als analoge Brücke zwischen Relais dienen. Linkstrecken arbeiten häufig im $\unit{\giga\hertz}$-Bereich des Amateurfunkspektrums. Mehrere miteinander verbundene Linkstrecken können beispielsweise das HAMNET (Highspeed Amateurradio Multimedia NETwork) bilden, ein von Funkamateuren betriebenes IP-Datennetz.
+Eine Linkstrecke überträgt in der Regel Daten. Sie kann aber auch als analoge Brücke zwischen Relais dienen. Linkstrecken arbeiten häufig im $\unit{\giga\hertz}$-Bereich des Amateurfunkspektrums. Mehrere miteinander verbundene Linkstrecken können beispielsweise das HAMNET (Highspeed Amateurradio Multimedia NETwork) aufbauen, ein von Funkamateuren betriebenes IP-Datennetz.
 
 [question:NE405]
-
 
 <indepth>
 *Linkberechnung*
