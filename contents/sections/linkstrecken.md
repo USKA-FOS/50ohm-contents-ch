@@ -7,11 +7,9 @@ Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung 
 </margin>
 
 <law>
-Direktlink zur Meldung sogenannter "Spezieller Frequenznutzungen" ans BAKOM im [eGov](https://www.egov.swiss/de/amateurfunk/spezielle-frequenznutzung-detail) 
-</law>
-
-<law>
 Ausführliche "Erläuternde Angaben zum Amateurfunkdienst" findet man im [Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) des BAKOM.
+
+Direktlink zur Meldung sogenannter "Spezieller Frequenznutzungen" ans BAKOM im [eGov](https://www.egov.swiss/de/amateurfunk/spezielle-frequenznutzung-detail) 
 </law>
 
 Linkstrecken können digitale Daten übertragen oder als analoge Brücke zwischen Relais dienen. Linkstrecken arbeiten häufig im $\unit{\giga\hertz}$-Bereich des Amateurfunkspektrums. Mehrere miteinander verbundene Linkstrecken können beispielsweise das HAMNET (Highspeed Amateurradio Multimedia NETwork) aufbauen, ein von Funkamateuren betriebenes IP-Datennetz.
@@ -21,11 +19,11 @@ Linkstrecken können digitale Daten übertragen oder als analoge Brücke zwische
 <indepth>
 *Linkberechnung*
 
-Mit einem Linkberechnungstool lässt sich beurteilen, ob eine Funkverbindung zwischen zwei Standorten technisch möglich ist. Es berücksichtigt unter anderem *Frequenz, Entfernung, Sendeleistung, Antennengewinn, Kabelverluste und das Geländeprofil* zwischen den Standorten.
+Mit einem Linkberechnungstool lässt sich beurteilen, ob eine Funkverbindung zwischen zwei Standorten technisch möglich ist. Es berücksichtigt unter anderem Frequenz, Entfernung, Sendeleistung, Antennengewinn, Kabelverluste und das *Geländeprofil zwischen den Standorten.
 
-Für eine zuverlässige Richtfunkverbindung ist neben der direkten Sichtverbindung auch eine möglichst freie *Fresnelzone* wichtig. Sie bezeichnet einen räumlichen Bereich um die direkte Verbindungslinie, in dem Hindernisse die Funkübertragung durch Beugung und zusätzliche Dämpfung beeinträchtigen können.
+Für eine zuverlässige Richtfunkverbindung ist neben der direkten Sichtverbindung auch eine möglichst freie Fresnelzone wichtig. Sie bezeichnet einen räumlichen Bereich um die direkte Verbindungslinie, in dem Hindernisse die Funkübertragung durch Beugung und zusätzliche Dämpfung beeinträchtigen können.
 
-Das Tool berechnet unter anderem *Freiraumdämpfung, Empfangsleistung und Linkreserve* und unterstützt damit die Planung von Richtfunk- und HAMNET-Verbindungen.
+Das Tool berechnet unter anderem Freiraumdämpfung, Empfangsleistung und Linkreserve und unterstützt damit die Planung von Richtfunk- und HAMNET-Verbindungen.
 
 [Linkberechnungstool](http://ham.remote-area.net/linktool/index.php) </indepth>
 </indepth>
