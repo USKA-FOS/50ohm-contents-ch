@@ -32,12 +32,12 @@ Für die Schweiz bietet die USKA eine [Übersicht über Bakenfrequenzen](https:/
 
 ---
 
-Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus einer größeren Anzahl von Baken, die in mehreren Ländern auf allen Kontinenten verteilt sind. Sie senden in einem festgelegten zeitlichen Ablauf nacheinander etwa 10 Sekunden lang auf der Bakenfrequenz des jeweiligen Kurzwellenbandes. Dadurch lässt sich schnell beurteilen, wie gut die aktuellen Ausbreitungsbedingungen auf dem jeweiligen Band sind.
+Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus einer größeren Anzahl von Baken, die in mehreren Ländern auf allen Kontinenten verteilt sind. Sie senden in einem festgelegten zeitlichen Ablauf nacheinander etwa 10 Sekunden lang auf der Bakenfrequenz der jeweiligen Kurzwellenbänder. Dadurch lässt sich schnell beurteilen, wie gut die aktuellen Ausbreitungsbedingungen auf dem jeweiligen Band sind.
 
 In den IARU-Bandplänen sind spezielle Frequenzbereiche für Baken vorgesehen. Diese Bakenfrequenzbereiche sollten nicht für normalen Funkverkehr verwendet werden. In der Tabelle [ref:n_baken_frequenzbereiche] sind die im IARU-Region-1-Bandplan vorgesehenen Bakenbereiche der Kurzwellenbänder aufgeführt.
 
 <margin>
- *Bakenfrequenzbereiche Kurzwellenbänder*
+ *Bakenfrequenzbereiche der Kurzwellenbänder*
 
 | l: Band | X: Frequenzbereich | IBP-Frequenz  |
 | $\qty{10}{\meter}$ | $\qtyrange{28190}{28225}{\kilo\hertz}$ | $\qty{28.200}{\mega\hertz}$ |
@@ -45,7 +45,7 @@ In den IARU-Bandplänen sind spezielle Frequenzbereiche für Baken vorgesehen. D
 | $\qty{15}{\meter}$ | $\qtyrange{21149}{21151}{\kilo\hertz}$ | $\qty{21.150}{\mega\hertz}$ |
 | $\qty{17}{\meter}$ | $\qtyrange{18109}{18111}{\kilo\hertz}$ | $\qty{18.110}{\mega\hertz}$ |
 | $\qty{20}{\meter}$ | $\qtyrange{14099}{14101}{\kilo\hertz}$ | $\qty{14.100}{\mega\hertz}$ |
-[table:n_baken_frequenzbereiche:Bakenfrequenzbereiche gemäß IARU-Bandplan und IBP-Fequenzen]
+[table:n_baken_frequenzbereiche:Bakenfrequenzbereiche gemäß IARU-Bandplan und IBP-Frequenzen]
 </margin>
 
 % [question:BE410]
