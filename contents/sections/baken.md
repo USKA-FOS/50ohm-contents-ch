@@ -1,4 +1,4 @@
-Eine "Funkbake" (englisch: beacon) ist eine automatisch arbeitende Amateurfunk-Sendeanlage, die in regelmässigen Abständen definierte Signale aussendet. Sie dient insbesondere zur Beobachtung der Ausbreitungsbedingungen, zur Beurteilung der Empfangbarkeit und für technische Messungen. Funkbaken gibt es auch an Bord von Amateurfunksatelliten. Bei Amateurfunksatelliten haben Baken zusätzlich oft eine wichtige Funktion zur Identifikation und Überwachung des [sec:satelliten] und zur Übermittlung von Telemetrie.
+Eine "Funkbake" (englisch: beacon) ist eine automatisch arbeitende Amateurfunk-Sendeanlage, die kontinuierlich oder in regelmässigen Abständen definierte Signale aussendet. Sie dient insbesondere zur Beobachtung der Ausbreitungsbedingungen, zur Beurteilung der Empfangbarkeit und für technische Messungen. Funkbaken gibt es auch an Bord von Amateurfunksatelliten. Bei Amateurfunksatelliten haben Baken zusätzlich oft eine wichtige Funktion zur Identifikation und Überwachung des [sec:satelliten] und zur Übermittlung von Telemetrie.
 
 Funkbaken senden in der Regel auf einer festgelegten Frequenz und können an festen Standorten oder auf beweglichen Plattformen, beispielsweise Satelliten, betrieben werden. Da ihre Empfangbarkeit stark von den wechselnden Ausbreitungsbedingungen des jeweiligen Funkbandes abhängt, kann eine Bake als Indikator für die aktuellen Ausbreitungsbedingungen auf dem Ausbreitungsweg zwischen Bake und Empfangsort dienen.
 
@@ -15,9 +15,9 @@ Neben Funkbaken gibt es heute weitere Systeme, mit denen sich die aktuellen Ausb
 
 - [Reverse Beacon Network](https://www.reversebeacon.net/).
 
-Diese Systeme sind keine Funkbaken. Sie sammeln automatisch Empfangs- und Verbindungsinformationen von Amateurfunkstationen und stellen diese nahezu in Echtzeit dar.
+Diese Systeme sind keine Funkbaken. Sie sammeln automatisch Empfangsberichte bzw. Informationen über erkannte Aussendungen von Amateurfunkstationen und stellen diese nahezu in Echtzeit auf einer Landkarte dar.
 
-Auch [WSPR](https://www.wsprnet.org/) wird häufig zur Untersuchung der Ausbreitungsbedingungen eingesetzt. Dabei werden sehr schwache, standardisierte Signale ausgesendet, die von von zahlreichen automatisch betriebenen Empfangsstationen empfangen und ausgewertet werden.
+Auch [WSPR](https://www.wsprnet.org/) wird häufig zur Untersuchung der Ausbreitungsbedingungen eingesetzt. Dabei werden sehr schwache, standardisierte Signale ausgesendet, die von zahlreichen automatisch betriebenen Empfangsstationen empfangen und ausgewertet werden.
 
 Eine ausführliche Beschreibung dieser Systeme würde den Umfang dieses Kapitels überschreiten. Sie sind jedoch im praktischen Funkbetrieb nützliche Ergänzungen zur Beobachtung der aktuellen Ausbreitungsbedingungen.
 </indepth>
@@ -32,7 +32,7 @@ Für die Schweiz bietet die USKA eine [Übersicht über Bakenfrequenzen](https:/
 
 ---
 
-Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus einer größeren Anzahl von Baken, die in mehreren Ländern auf allen Kontinenten verteilt sind. Sie senden in einem festgelegten zeitlichen Ablauf nacheinander jeweils einige Sekunden lang auf der Bakenfrequenz des jeweiligen Kurzwellenbandes. Dadurch lässt sich schnell beurteilen, wie gut die aktuellen Ausbreitungsbedingungen auf dem jeweiligen Band sind.
+Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus einer größeren Anzahl von Baken, die in mehreren Ländern auf allen Kontinenten verteilt sind. Sie senden in einem festgelegten zeitlichen Ablauf nacheinander etwa 10 Sekunden lang auf der Bakenfrequenz des jeweiligen Kurzwellenbandes. Dadurch lässt sich schnell beurteilen, wie gut die aktuellen Ausbreitungsbedingungen auf dem jeweiligen Band sind.
 
 In den IARU-Bandplänen sind spezielle Frequenzbereiche für Baken vorgesehen. Diese Bakenfrequenzbereiche sollten nicht für normalen Funkverkehr verwendet werden. In der Tabelle [ref:n_baken_frequenzbereiche] sind die im IARU-Region-1-Bandplan vorgesehenen Bakenbereiche der Kurzwellenbänder aufgeführt.
 
