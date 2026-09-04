@@ -229,10 +229,41 @@ Implemented and validated in the current system:
 
 Partially implemented or still evolving:
 
-- non-destructive German source update integration with automatic
-  `to_be_deleted` handling;
+- non-destructive German source update integration;
 - final cleanup workflow for deactivated objects;
 - remaining elimination of support-artifact dependencies outside canonical.
+
+### Known Gap: Incremental German Content Import
+
+No active tool currently imports a newer German `50ohm-contents-ch` source
+incrementally into an existing multilingual canonical tree.
+`build_content_model_db.py` builds a disposable SQLite model from source data,
+and `export_canonical_model.py --replace-existing-canonical` is an
+initialization or controlled model-migration operation. It must not be used as
+a normal source-update command once French or Italian canonical content exists.
+
+Before the next German source import, an incremental importer must be designed,
+implemented, and tested with the following contract:
+
+- start only from a clean, committed and tagged canonical state;
+- load the existing canonical model into the working SQLite database before
+  integrating the new German source;
+- preserve stable object ids, French and Italian payloads, relations, and
+  language-specific assets;
+- update only German payloads and source metadata that actually changed;
+- set the French and Italian review states of every German-changed object to
+  `to_be_reviewed`, without rewriting either target-language payload;
+- leave target review states unchanged for source metadata changes that cannot
+  affect translated or localized content;
+- create a versioned audit identifying added, changed, unchanged, and missing
+  source objects plus every review-state transition;
+- mark a missing whole object `to_be_deleted` without deleting any of its
+  German, French, or Italian files during the import;
+- support a dry-run that performs all matching and validation before any
+  canonical file is written.
+
+The accepted import audit, not a manually assembled list, must define the scope
+for subsequent FR/IT retranslation and review campaigns.
 
 ## 12. Workflow Checkpoints
 

@@ -66,6 +66,13 @@ python3 tools/compare_model_databases.py
 relations, review states, and source artifacts. The final comparison checks
 every modeled SQLite row and the SHA-256 of every binary artifact payload.
 
+These commands currently cover initialization and model validation, not an
+incremental German source import. In particular,
+`export_canonical_model.py --replace-existing-canonical` must not be used to
+refresh a multilingual canonical tree. The missing incremental importer and
+its required FR/IT `to_be_reviewed` propagation are specified in
+`docs/CANONICAL_USE_CASES_AND_WORKFLOWS.md`.
+
 `ensure_canonical_multilingual.py` makes the Git model explicitly
 multilingual for all non-question objects and curriculum nodes. Missing `fr`
 and `it` payloads are initialized from `de` as operational fallbacks; question
