@@ -45,7 +45,7 @@ In den IARU-Bandplänen sind spezielle Frequenzbereiche für Baken vorgesehen. D
 | $\qty{15}{\meter}$ | $\qtyrange{21149}{21151}{\kilo\hertz}$ | $\qty{21.150}{\mega\hertz}$ |
 | $\qty{17}{\meter}$ | $\qtyrange{18109}{18111}{\kilo\hertz}$ | $\qty{18.110}{\mega\hertz}$ |
 | $\qty{20}{\meter}$ | $\qtyrange{14099}{14101}{\kilo\hertz}$ | $\qty{14.100}{\mega\hertz}$ |
-[table:n_baken_frequenzbereiche:Bakenfrequenzbereiche gemäß IARU-Bandplan]
+[table:n_baken_frequenzbereiche:Bakenfrequenzbereiche gemäß IARU-Bandplan und IBP-Fequenzen]
 </margin>
 
 % [question:BE410]
