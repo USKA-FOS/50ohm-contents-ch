@@ -4,7 +4,7 @@ Funkbaken senden in der Regel auf einer festgelegten Frequenz und können an fes
 
 Kann man z. B. auf Kurzwelle eine Bake aus Südamerika gut empfangen, ist dies ein Hinweis darauf, dass die Ausbreitungsbedingungen für Funkverbindungen in diese Richtung günstig sein können.
 
-Aurora-Baken im VHF-Bereich können Hinweise darauf geben, ob aktuell Aurora-Ausbreitung und damit DX-Verbindungen in Richtung Skandinavien möglich sein können. Mit bekannten Baken auf den VHF-, UHF- und SHF-Bändern kann man beispielsweise die Empfangsanlage überprüfen und feststellen, ob eine Richtantenne korrekt ausgerichtet ist. Baken dienen auch der Überprüfung von Empfängerempfindlichkeit, Signalpegel und Frequenzgenauigkeit.
+Aurora-Baken im VHF-Bereich können Hinweise darauf geben, ob aktuell Aurora-Ausbreitung vorliegt und damit DX-Verbindungen in Richtung Skandinavien möglich sind. Mit bekannten Baken auf den VHF-, UHF- und SHF-Bändern kann man beispielsweise die Empfangsanlage überprüfen und feststellen, ob eine Richtantenne korrekt ausgerichtet ist. Baken dienen auch der Überprüfung von Empfängerempfindlichkeit, Signalpegel und Frequenzgenauigkeit.
 
 <indepth>
 Weitere Möglichkeiten zur Beobachtung der Ausbreitungsbedingungen
@@ -32,7 +32,7 @@ Für die Schweiz bietet die USKA eine [Übersicht über Bakenfrequenzen](https:/
 
 ---
 
-Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus einer größeren Anzahl von Baken, die in mehreren Ländern auf allen Kontinenten verteilt sind. Sie senden in einem festgelegten zeitlichen Ablauf nacheinander etwa 10 Sekunden lang auf der Bakenfrequenz der jeweiligen Kurzwellenbänder. Dadurch lässt sich schnell beurteilen, wie gut die aktuellen Ausbreitungsbedingungen auf dem jeweiligen Band sind.
+Das Internationale Bakenprojekt [IBP](https://www.ncdxf.org/beacon/) besteht aus einer größeren Anzahl von Baken, die in mehreren Ländern auf allen Kontinenten verteilt sind. Sie senden in einem festgelegten zeitlichen Ablauf nacheinander etwa 10 Sekunden lang auf den Bakenfrequenzen der jeweiligen Kurzwellenbänder. Dadurch lässt sich schnell beurteilen, wie gut die aktuellen Ausbreitungsbedingungen auf dem jeweiligen Band sind.
 
 In den IARU-Bandplänen sind spezielle Frequenzbereiche für Baken vorgesehen. Diese Bakenfrequenzbereiche sollten nicht für normalen Funkverkehr verwendet werden. In der Tabelle [ref:n_baken_frequenzbereiche] sind die im IARU-Region-1-Bandplan vorgesehenen Bakenbereiche der Kurzwellenbänder aufgeführt.
 
