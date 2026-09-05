@@ -47,6 +47,7 @@ Tabellen werden mit senkrechten Strichen "gemalt". Der senkrechte Strich ist auf
 * Achtung: `<attention>...</attention>`
 * Vertiefung: `<indepth>...</indepth>`
 * Tipp: `<tip>...</tip>`
+* Gesetzliche Grundlage: `<law>...</law>`
 * Randbemerkung im Web, aber nicht in LaTeX, dort wird es Fließtext: `<webmargin>...</webmargin>`
 * Tipp als Randbemerkung im Web, aber nicht in LaTeX, dort wird es Fließtext: `<webtip>...</webtip>`
 * Vertiefung als Randbemerkung im Web, in LaTeX geht es über die komplette Seitenbreite: `<webindepth>...</webindepth>`
