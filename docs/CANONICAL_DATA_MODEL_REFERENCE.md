@@ -243,6 +243,20 @@ Purpose of `object.meta.json`:
 `object.meta.json` is metadata and control information. It is not itself the
 business text to translate.
 
+Current lifecycle and source-tracking metadata used by incremental imports:
+
+- `metadata.lifecycle.status`: `active` or `to_be_deleted`;
+- `metadata.lifecycle.missing_since_revision`: source revision at which an
+  absent object was first deactivated;
+- `metadata.source_tracking.revision`: imported German source commit;
+- `metadata.source_tracking.status`: source presence state;
+- `metadata.source_tracking.files`: SHA-256 by source-relative file path.
+
+These values describe provenance and lifecycle. They do not replace the
+authoritative payload files. An object marked `active: false` and
+`metadata.lifecycle.status: to_be_deleted` remains complete in Git, including
+all language files, until a separate reviewed cleanup removes the whole object.
+
 ### 8.2 `object.references.json`
 
 `object.references.json` contains parsed inline links and embeddings originating
@@ -437,6 +451,18 @@ What is metadata:
 - `object.meta.json`
 - `object.references.json`
 - `object.annotations.json`
+
+Incremental-update rule:
+
+- the German HTML file defines the current markup structure;
+- when that structure changes, target HTML is rebuilt on the new German
+  skeleton;
+- translations are retained only for source text segments that are exactly
+  unchanged and structurally align with the previous target;
+- changed and new segments remain German placeholders until the scoped
+  translation run replaces them;
+- an existing target that is not structurally aligned is rejected rather than
+  being merged positionally.
 
 ### 10.2 Static Page And HTML Include
 
@@ -681,6 +707,11 @@ Purpose of `edition.<lang>.json`:
 - carry the localized structure tree for that edition;
 - keep titles and abstracts together with the node hierarchy;
 - keep object placements associated with the structure they belong to.
+
+Incremental source integration preserves node ids by edition, node type and
+source `ident`. It rebuilds hierarchy and placements from the German TOC.
+Existing target titles and abstracts are retained only when their German
+source fields are unchanged; changed fields become pending translation nodes.
 
 What is translated:
 

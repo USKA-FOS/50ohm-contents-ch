@@ -66,12 +66,31 @@ python3 tools/compare_model_databases.py
 relations, review states, and source artifacts. The final comparison checks
 every modeled SQLite row and the SHA-256 of every binary artifact payload.
 
-These commands currently cover initialization and model validation, not an
-incremental German source import. In particular,
+These commands cover initialization and model validation. In particular,
 `export_canonical_model.py --replace-existing-canonical` must not be used to
-refresh a multilingual canonical tree. The missing incremental importer and
-its required FR/IT `to_be_reviewed` propagation are specified in
-`docs/CANONICAL_USE_CASES_AND_WORKFLOWS.md`.
+refresh a multilingual canonical tree.
+
+### Validate and incrementally import German `main`
+
+```bash
+git fetch origin main
+python tools/validate_canonical_model.py
+python tools/import_incremental_german_source.py
+python tools/import_incremental_german_source.py --apply
+```
+
+The first importer command is a dry-run. By default, the source is the local
+`origin/main` commit, archived without changing the current branch. Apply
+requires a clean `canonical/`, preserves ids and target payloads, marks changed
+target states for review, deactivates missing objects as `to_be_deleted`, and
+writes the accepted audit under `review/source_imports/`.
+
+PNG, SVG and TeX changes are recorded as `media_review_required`; they
+invalidate existing localized media variants. Image/SVG-only changes do so
+without creating artificial text units.
+
+Ambiguous renames, stale target HTML structure and missing complete editions
+block apply. Questions are outside this importer’s scope.
 
 `ensure_canonical_multilingual.py` makes the Git model explicitly
 multilingual for all non-question objects and curriculum nodes. Missing `fr`
@@ -168,6 +187,14 @@ Portability note:
 
 ```bash
 python tools/extract_drawing_tex_translation_candidates.py
+```
+
+After an incremental German import, restrict the extraction to changed drawing
+TeX listed by the accepted audit:
+
+```bash
+python tools/extract_drawing_tex_translation_candidates.py \
+  --source-import-audit review/source_imports/<audit>.json
 ```
 
 This command scans `canonical/drawings/*/*.de.tex` and writes:

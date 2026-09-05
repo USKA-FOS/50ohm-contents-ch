@@ -27,6 +27,17 @@ The current extraction tool writes:
 
 - `work/drawing_text_audit/drawing_tex_translation_candidates.csv`
 
+For a German source update, the accepted import audit must scope extraction so
+unchanged drawings are not reopened:
+
+```bash
+python tools/extract_drawing_tex_translation_candidates.py \
+  --source-import-audit review/source_imports/<audit>.json
+```
+
+Only drawing changes with `translation_required: true` and an applied import
+status are accepted. A dry-run audit is rejected.
+
 Current columns:
 
 - `canonical_reference`

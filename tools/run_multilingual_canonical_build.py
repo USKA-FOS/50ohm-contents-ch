@@ -16,7 +16,10 @@ from hashlib import sha256
 from pathlib import Path
 from typing import Any
 
-from build_db_from_canonical_model import build_database as build_canonical_database
+try:
+    from .build_db_from_canonical_model import build_database as build_canonical_database
+except ImportError:
+    from build_db_from_canonical_model import build_database as build_canonical_database
 
 
 CONTENT_REPO = Path(__file__).resolve().parent.parent
@@ -317,7 +320,7 @@ def overlay_object_texts(connection: sqlite3.Connection, target_root: Path, lang
         FROM content_object o
         JOIN text_slot s ON s.object_id = o.id
         JOIN localized_text lt ON lt.text_slot_id = s.id
-        WHERE o.object_type NOT IN ({})
+        WHERE o.active=1 AND o.object_type NOT IN ({})
         ORDER BY o.id, s.sort_order, lt.language
     """.format(",".join("?" for _ in QUESTION_OBJECT_TYPES))
     grouped: dict[tuple[str, str], dict[str, Any]] = defaultdict(lambda: {"texts": {}})
@@ -445,7 +448,7 @@ def overlay_object_assets(connection: sqlite3.Connection, target_root: Path, lan
         SELECT o.id AS object_id, o.object_type, m.metadata_scope, m.metadata_key, m.value_json
         FROM content_object o
         JOIN object_metadata m ON m.object_id = o.id
-        WHERE m.metadata_scope IN ('asset', 'language_asset')
+        WHERE o.active=1 AND m.metadata_scope IN ('asset', 'language_asset')
         ORDER BY o.id, m.metadata_scope, m.metadata_key
         """
     )
@@ -586,7 +589,7 @@ def stage_toc_files(connection: sqlite3.Connection, target_root: Path, language:
         FROM content_object o
         JOIN text_slot s ON s.object_id = o.id
         JOIN localized_text lt ON lt.text_slot_id = s.id
-        WHERE o.object_type='support_asset' AND o.source_path LIKE 'toc/%.json'
+        WHERE o.active=1 AND o.object_type='support_asset' AND o.source_path LIKE 'toc/%.json'
         ORDER BY o.source_path, lt.language
         """,
     )

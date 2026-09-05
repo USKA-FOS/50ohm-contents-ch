@@ -149,20 +149,32 @@ without destructively resetting the canonical baseline.
 
 1. ensure the canonical repository is clean;
 2. create a Git tag before the import;
-3. rebuild the working SQLite model from the current canonical baseline;
-4. integrate the new German source data into that working state;
-5. preserve existing object ids when the source-side business object still
-   matches;
-6. export updated canonical objects non-destructively;
-7. mark disappeared German business objects with a reversible status such as
-   `to_be_deleted` instead of deleting them immediately;
-8. generate a diff or audit report for changed, new, and deleted objects;
-9. review German-side changes;
-10. translate the objects that need target-language propagation;
-11. review target-language results;
-12. commit the validated canonical update;
-13. create a new Git tag after the validated export;
-14. rebuild multilingual sites.
+3. fetch `origin/main`; only changes merged into `main` are import candidates;
+4. run `python tools/import_incremental_german_source.py` without `--apply`;
+5. inspect its complete dry-run audit and resolve every blocking ambiguity;
+6. rerun the same command with `--apply`;
+7. validate the canonical tree and rebuild the German site;
+8. commit the German import together with its accepted audit under
+   `review/source_imports/`;
+9. use that accepted audit as the exact FR/IT translation scope;
+10. process changed drawing TeX through the drawing-specific workflow;
+11. review and commit each target language;
+12. rebuild multilingual sites and create the post-validation tag.
+
+Default command sequence:
+
+```bash
+git fetch origin main
+python tools/validate_canonical_model.py
+python tools/import_incremental_german_source.py
+python tools/import_incremental_german_source.py --apply
+python tools/validate_canonical_model.py
+python tools/run_multilingual_canonical_build.py --language de
+```
+
+`--source-ref` defaults to the local `origin/main` commit. `--source-root` is
+available for an explicit checkout, but review branches are not implicitly
+combined with `main`.
 
 ### Business Rule For Deletion
 
@@ -192,6 +204,39 @@ using reviewable translation states.
 8. mark approved content as approved;
 9. commit the canonical update;
 10. rebuild the target-language sites.
+
+The accepted import audit supplies `translation_object_ids` and
+`translation_node_ids`; these are authoritative and must replace manually
+assembled lists. For ordinary text and HTML:
+
+```bash
+cd ../50ohm-ai-translation-tool
+uv run python -m question_pipeline.run_canonical_content_translation \
+  --config config/local.toml \
+  --task-id <task-id> \
+  --canonical-root ../50ohm-contents-ch/canonical \
+  --target-language <fr-or-it> \
+  --source-import-audit ../50ohm-contents-ch/review/source_imports/<audit>.json \
+  --max-batch-chars 7000
+```
+
+Repeat with the same arguments and `--apply` after the translation run is
+complete and the canonical repository is ready for the language commit.
+Translation unit ids include a digest of the German source text, so cached
+results from an older source revision cannot silently satisfy a changed unit.
+
+The audit distinguishes `translation_required` from `media_review_required`.
+A German PNG/SVG-only change does not create a text-translation unit. Changes
+to German PNG, SVG or TeX assets move existing localized media variants to
+`to_be_reviewed`.
+
+Drawing TeX is not ordinary HTML/text content. Limit its established extraction
+and review workflow with:
+
+```bash
+python tools/extract_drawing_tex_translation_candidates.py \
+  --source-import-audit review/source_imports/<audit>.json
+```
 
 ## 10. Use Case UC6: Cleanup Of `to_be_deleted` Objects
 
@@ -226,44 +271,22 @@ Implemented and validated in the current system:
 - translation-unit extraction from object-centric canonical content;
 - translation result reinjection into canonical target-language payloads;
 - localized structure translation storage in `edition.<lang>.json`.
+- non-destructive German import from `origin/main`, including dry-run audit;
+- stable-id preservation and exact-content rename detection;
+- reversible `to_be_deleted` lifecycle handling;
+- HTML structure alignment and unchanged-segment translation preservation;
+- accepted-audit scoping for ordinary content, structure and drawing TeX;
+- build and translation exclusion of inactive objects.
 
 Partially implemented or still evolving:
 
-- non-destructive German source update integration;
 - final cleanup workflow for deactivated objects;
 - remaining elimination of support-artifact dependencies outside canonical.
 
-### Known Gap: Incremental German Content Import
-
-No active tool currently imports a newer German `50ohm-contents-ch` source
-incrementally into an existing multilingual canonical tree.
-`build_content_model_db.py` builds a disposable SQLite model from source data,
-and `export_canonical_model.py --replace-existing-canonical` is an
-initialization or controlled model-migration operation. It must not be used as
-a normal source-update command once French or Italian canonical content exists.
-
-Before the next German source import, an incremental importer must be designed,
-implemented, and tested with the following contract:
-
-- start only from a clean, committed and tagged canonical state;
-- load the existing canonical model into the working SQLite database before
-  integrating the new German source;
-- preserve stable object ids, French and Italian payloads, relations, and
-  language-specific assets;
-- update only German payloads and source metadata that actually changed;
-- set the French and Italian review states of every German-changed object to
-  `to_be_reviewed`, without rewriting either target-language payload;
-- leave target review states unchanged for source metadata changes that cannot
-  affect translated or localized content;
-- create a versioned audit identifying added, changed, unchanged, and missing
-  source objects plus every review-state transition;
-- mark a missing whole object `to_be_deleted` without deleting any of its
-  German, French, or Italian files during the import;
-- support a dry-run that performs all matching and validation before any
-  canonical file is written.
-
-The accepted import audit, not a manually assembled list, must define the scope
-for subsequent FR/IT retranslation and review campaigns.
+The importer deliberately ignores `contents/questions/`, which remains owned
+by `50ohm-question-pool`. It blocks ambiguous exact-content renames, malformed
+canonical input, structurally stale target HTML and disappearance of a complete
+edition. It never resolves those cases by guessing.
 
 ## 12. Workflow Checkpoints
 

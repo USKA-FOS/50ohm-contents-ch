@@ -5,7 +5,10 @@ import sqlite3
 from pathlib import Path
 from typing import Any, Iterable
 
-from build_content_model_db import Builder, ReferenceTarget, split_description_text
+try:
+    from .build_content_model_db import Builder, ReferenceTarget, split_description_text
+except ImportError:
+    from build_content_model_db import Builder, ReferenceTarget, split_description_text
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent

@@ -472,11 +472,29 @@ def load_figure_number(meta_path: Path) -> str:
     return str(payload.get("source", {}).get("key", ""))
 
 
-def build_candidates() -> list[Candidate]:
+def load_source_import_drawing_refs(path: Path) -> set[str]:
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    if payload.get("workflow") != "incremental_german_source_import":
+        raise ValueError(f"Not an incremental German source import audit: {path}")
+    if payload.get("applied") is not True:
+        raise ValueError(f"Source import audit was not applied: {path}")
+    drawing_ids = {
+        str(change["object_id"])
+        for change in payload.get("changes", [])
+        if change.get("object_type") == "drawing"
+        and change.get("translation_required") is True
+        and change.get("action") in {"added", "changed", "reactivated", "renamed"}
+    }
+    return {f"canonical/drawings/{object_id}" for object_id in drawing_ids}
+
+
+def build_candidates(canonical_references: set[str] | None = None) -> list[Candidate]:
     rows: list[Candidate] = []
     for meta_path in sorted(CANONICAL_DRAWINGS.glob("*/object.meta.json")):
         drawing_dir = meta_path.parent
         canonical_reference = str(drawing_dir.relative_to(REPO_ROOT))
+        if canonical_references is not None and canonical_reference not in canonical_references:
+            continue
         figure_number = load_figure_number(meta_path)
         tex_paths = sorted(drawing_dir.glob("*.de.tex"))
         index = 1
@@ -527,10 +545,22 @@ def write_csv(rows: list[Candidate], output_path: Path) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument(
+        "--source-import-audit",
+        type=Path,
+        help="Limit extraction to changed drawings from an applied German source import audit.",
+    )
     args = parser.parse_args()
-    rows = build_candidates()
+    canonical_references = (
+        load_source_import_drawing_refs(args.source_import_audit.resolve())
+        if args.source_import_audit
+        else None
+    )
+    rows = build_candidates(canonical_references)
     write_csv(rows, args.output)
     print(f"rows={len(rows)}")
+    if canonical_references is not None:
+        print(f"scoped_drawings={len(canonical_references)}")
     print(f"output={args.output}")
 
 
