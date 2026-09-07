@@ -73,11 +73,11 @@ Nachdem eine Schmelzsicherung ausgelöst hat und man die Ursache erkannt und beh
 *ACHTUNG:* Die manchmal praktizierte Überbrückung einer defekten Sicherung, z. B. mit Alufolie, ist unzulässig und sehr gefährlich. Es besteht die Gefahr von Bränden!
 </danger>
 
-<danger>
+<attention>
 *VORSICHT:* Wird ein Funkgerät direkt an die Fahrzeugbatterie angeschlossen, sollen Plus- und Minusleitung jeweils mit einer Sicherung abgesichert werden. Die Sicherungen werden möglichst nahe bei der Batterie eingebaut.
 
 Die Sicherung in der Minusleitung schützt die Leitung im seltenen Fall, dass die normale Masseverbindung der Batterie zum Fahrzeug unterbrochen ist und dadurch ein hoher Fahrzeugstrom über eine andere Masseverbindung des Funkgeräts fliessen könnte.
-</danger>
+</attention>
 
 Hochwertige Netzgeräte besitzen oft auch eine elektronische Begrenzung von Strömen. Im Kurzschlussfall sorgt diese dafür, dass die Stromstärke begrenzt wird. Dies nennt sich *Kurzschlussstrombegrenzung*. Nachdem der Fehler beseitigt ist, muss keine Sicherung ausgetauscht werden.
 
