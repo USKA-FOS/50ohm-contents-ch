@@ -7,3 +7,5 @@ Damit sind - besonders in der Zeit um die Tag- und Nacht-Gleichen herum - DX-Ver
 <margin>
 [include:greyline]
 </margin>
+
+<!-- Review abgeschlossen, passt so für mich. Vy 73 de Marc -->
