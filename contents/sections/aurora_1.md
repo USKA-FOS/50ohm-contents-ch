@@ -27,3 +27,6 @@ Ein Beispiel eines Aurora-CW-QSOs zwischen OH2MA und OH2LAK auf $\qty{50}{\mega\
 ---
 
 [question:EH305]
+
+
+<!-- Review abgeschlossen, passt so für mich. Vy 73 de Marc -->
