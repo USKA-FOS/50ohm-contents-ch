@@ -184,7 +184,7 @@ Ein Digipeater empfängt digitale Daten und sendet sie nach einem definierten Ve
 
 ## Satellitenbaken
 
-Viele Amateurfunksatelliten verfügen über eine Bake. Eine Bake sendet automatisch in regelmässigen Abständen oder kontinuierlich definierte Signale aus. Sie kann dazu dienen, die Empfangbarkeit des Satelliten, die Ausbreitungsbedingungen und den Zustand der Funknutzlast zu beobachten.
+Viele Amateurfunksatelliten verfügen über eine Bake. [sec:baken] Eine Bake sendet automatisch in regelmässigen Abständen oder kontinuierlich definierte Signale aus. Sie kann dazu dienen, die Empfangbarkeit des Satelliten, die Ausbreitungsbedingungen und den Zustand der Funknutzlast zu beobachten.
 
 Beim Empfang einer Bake kann eine Funkstation beispielsweise feststellen, ob der Satellit bereits über dem Horizont steht, wie sich die Empfangsfrequenz durch den Dopplereffekt verändert und wie gut die Funkverbindung funktioniert.
 
