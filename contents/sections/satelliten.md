@@ -200,9 +200,6 @@ Amateurfunksatelliten verfügen über eine Bake. Eine Bake sendet automatisch in
 
 Beim Empfang einer Bake kann eine Funkstation beispielsweise feststellen, ob der Satellit bereits über dem Horizont steht, wie sich die Empfangsfrequenz durch den Dopplereffekt verändert und wie gut die Funkverbindung funktioniert.
 
-## Satellitenverfolgung
-
-Für den praktischen Satellitenfunk werden die aktuelle Bahn und die Position des Satelliten benötigt. Dazu werden Bahnelemente, beispielsweise sogenannte TLE (Two-Line Elements), verwendet. Tracking-Programme berechnen daraus die voraussichtliche Position des Satelliten und zeigen unter anderem Azimut, Elevation, AOS und LOS sowie den zu erwartenden Dopplereffekt an.
 </indepth>
 
 <tip>
