@@ -69,24 +69,6 @@ Aufgrund der von Satelliten verwendeten Frequenzen setzt der Amateurfunk über S
 **IDEEN-SAMMLUNG FÜR DEN HB3-TEIL**
 **DIESER TEIL GEHÖRT DANN IN EIN FORTSETZUNGS KAPITEL FÜR DEN HB9-TEIL**
 
-<margin>
-
-[photo:124:n_satellit_oscar1:Modell des ersten Amateurfunksatelliten OSCAR 1, der am 12. Dezember 1961 gestartet wurde und 22 Tage lang aus einer Erdumlaufbahn eine Bake im $\qty{2}{\meter}$-Band sendete. Mehr als 570 Funkamateure aus 28 Ländern reichten Beobachtungen ein]
-
-</margin>
-
----
-
-Satelliten umrunden die Erde in kreisförmigen oder elliptischen Bahnen und in unterschiedlichen Höhen. Seit 1961 gehören dazu auch Amateurfunksatelliten. Die Bezeichnung OSCAR steht für "Orbiting Satellite Carrying Amateur Radio" ("Umkreisender Satellit, der Amateurfunk mitführt"). Der erste Amateurfunksatellit wurde OSCAR 1 ([ref:n_satellit_oscar1]) genannt. OSCAR 1 war nur der Anfang. In den Folgejahren - bis heute - wurde eine ganze Reihe immer umfangreicher ausgestatteter Amateurfunknutzlasten ins All gebracht.
-
-[question:BE415]
-
-Die mitgeführten Funkbaugruppen können als Relaisfunkstellen oder als Transponder ausgeführt sein. Ein Transponder empfängt Signale in einem bestimmten Frequenzbereich und sendet sie auf einer anderen Frequenz wieder aus. Damit können mehrere Funkstationen über den Satelliten miteinander kommunizieren.
-
-Die Funkstrecke von der Erde zum Satelliten wird als "Uplink" bezeichnet. Die Funkstrecke vom Satelliten zur Erde wird hingegen "Downlink" genannt. Uplink und Downlink werden oftmals in unterschiedlichen Frequenzbereichen betrieben. Dadurch lassen sich Sende- und Empfangssignale besser voneinander trennen und die erforderlichen Filter auf dem Satelliten können einfacher ausgeführt werden.
-
-<indepth>
-
 ## Umlaufbahnen und Keplersche Gesetze
 
 Satelliten bewegen sich nicht beliebig um die Erde. Ihre Bahnen werden durch die Gravitation bestimmt und lassen sich mit den Keplerschen Gesetzen beschreiben. Eine Kreisbahn ist dabei ein Sonderfall einer elliptischen Bahn.
@@ -212,8 +194,9 @@ Für den praktischen Satellitenfunk werden die aktuelle Bahn und die Position de
 
 Damit lassen sich Überflüge planen und Funkgeräte sowie Antennen automatisch nachführen.
 
-</indepth>
-ateurfunksatelliten verfügen über eine Bake. Eine Bake sendet automatisch in regelmässigen Abständen oder kontinuierlich definierte Signale aus. Sie kann dazu dienen, die Empfangbarkeit des Satelliten, die Ausbreitungsbedingungen und den Zustand der Funknutzlast zu beobachten.
+---
+
+Amateurfunksatelliten verfügen über eine Bake. Eine Bake sendet automatisch in regelmässigen Abständen oder kontinuierlich definierte Signale aus. Sie kann dazu dienen, die Empfangbarkeit des Satelliten, die Ausbreitungsbedingungen und den Zustand der Funknutzlast zu beobachten.
 
 Beim Empfang einer Bake kann eine Funkstation beispielsweise feststellen, ob der Satellit bereits über dem Horizont steht, wie sich die Empfangsfrequenz durch den Dopplereffekt verändert und wie gut die Funkverbindung funktioniert.
 
