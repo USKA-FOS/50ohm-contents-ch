@@ -166,14 +166,6 @@ Dabei ist $d$ die Entfernung zwischen Sender und Empfänger und $\lambda$ die We
 
 Für eine funktionierende Satellitenverbindung müssen deshalb Sendeleistung, Antennengewinn, Kabelverluste, Freiraumdämpfung und Empfängerempfindlichkeit gemeinsam betrachtet werden. Diese Betrachtung wird als Linkbudget bezeichnet.
 
-<indepth>
-Vereinfachtes Beispiel für ein Link-Budget eines CubeSats
-
-TABELLE ZU ERSTELLEN 
-
-</indepth>
-
-
 ## Antennen und Polarisation
 
 Da sich der Satellit während eines Überflugs bewegt, verändert sich auch seine Richtung relativ zur Bodenstation. Für viele Satellitenverbindungen werden deshalb Antennen mit geeignetem Gewinn und einer ausreichenden Richtwirkung eingesetzt. Bei stärker richtenden Antennen kann eine Nachführung der Antenne erforderlich sein.
@@ -207,6 +199,13 @@ Damit lassen sich Überflüge planen und Funkgeräte sowie Antennen automatisch 
 Amateurfunksatelliten verfügen über eine Bake. Eine Bake sendet automatisch in regelmässigen Abständen oder kontinuierlich definierte Signale aus. Sie kann dazu dienen, die Empfangbarkeit des Satelliten, die Ausbreitungsbedingungen und den Zustand der Funknutzlast zu beobachten.
 
 Beim Empfang einer Bake kann eine Funkstation beispielsweise feststellen, ob der Satellit bereits über dem Horizont steht, wie sich die Empfangsfrequenz durch den Dopplereffekt verändert und wie gut die Funkverbindung funktioniert.
+
+<indepth>
+Vereinfachtes Beispiel für ein Downlink-Budget eines CubeSats
+
+TABELLE ZU ERSTELLEN 
+
+</indepth>
 
 <tip>
 Mit Amateurfunk über Satelliten befassen sich weltweit die AMSAT-Organisationen, in der Schweiz ist das [AMSAT-HB](https://amsat-hb.org/) 
