@@ -166,6 +166,13 @@ Dabei ist $d$ die Entfernung zwischen Sender und Empfänger und $\lambda$ die We
 
 Für eine funktionierende Satellitenverbindung müssen deshalb Sendeleistung, Antennengewinn, Kabelverluste, Freiraumdämpfung und Empfängerempfindlichkeit gemeinsam betrachtet werden. Diese Betrachtung wird als Linkbudget bezeichnet.
 
+<indepth>
+Vereinfachtes Beispiel für ein Link-Budget eines CubeSats
+
+TABELLE ZU ERSTELLEN 
+  
+</indepth>
+
 ## Antennen und Polarisation
 
 Da sich der Satellit während eines Überflugs bewegt, verändert sich auch seine Richtung relativ zur Bodenstation. Für viele Satellitenverbindungen werden deshalb Antennen mit geeignetem Gewinn und einer ausreichenden Richtwirkung eingesetzt. Bei stärker richtenden Antennen kann eine Nachführung der Antenne erforderlich sein.
