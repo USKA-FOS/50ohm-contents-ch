@@ -10,7 +10,7 @@ Wie wir schon zu Beginn des Kurses in [sec:ausbildungsfunk] gelernt haben, kann 
 % Leider aktuell nicht korrekt: unter Aufsicht und im Berechtigungsumfang des Ausbilders durchführen. 
 
 ---
-Der Verein muss beim BAKOM mindestens zwei Wochen vor dem Anlass schriftlich eine Bewilligung einholen. Die während eines Anlasses verantwortlichen Stationsleiter müssen im Gesuch klar bezeichnet werden.
+Der Verein muss beim BAKOM mindestens zwei Wochen vorher schriftlich eine Bewilligung einholen. Die verantwortlichen Stationsleiter müssen im Gesuch klar bezeichnet werden.
 <law>
 [Sprecherlaubnis bestellen beim BAKOM](https://www.bakom.admin.ch/de/amateurfunk#Gesuch-Sprecherlaubnis-f%C3%BCr-Funkamateurclubs)
 </law>
@@ -20,7 +20,6 @@ Der Auszubildende benutzt dabei das Rufzeichen des Vereins und hängt den Zusatz
 
 Nimmt der Verein unter seinem Rufzeichen an einem Wettbewerb teil, muss der Name des Operators nicht übermittelt werden.
 
-[question:BD210] 
 [question:BD209] 
 [question:BD211]
 
