@@ -10,9 +10,8 @@ Im Fernmeldegesetz [index:Fernmeldegesetz] (FMG) ist das Prinzip verankert, dass
 </indepth>
 ---
 <law>
-[Anhang 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4) der "Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums"
+[Anhang 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4) der "Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums" VVNF
 
-Weil in Artikel 6 der VVNF definiert ist, wer diese Frequenzen nutzen darf und dort auf die Liste im Anhang 4 verwiesen wird, trägt auch die Liste den "Titel" Art. 6 VVNF, obwohl es strenggenommen der Anhang 4 zur VVNF ist.
 </law>
 Funkamateure dürfen Funkbetrieb nur auf den ihnen zugeteilten Frequenzen durchführen.
 Die Frequenzbereiche für den Amateurfunkdienst in der Schweiz sind im Anhang 4 der "Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums" (VVNF) geregelt. 
@@ -44,6 +43,8 @@ Hier gehts direkt zum System zur Meldung für [Spezielle Frequenznutzung](https:
 ---
 <law>
 Hier gehts direkt zur [Hilfstabelle](https://www.bakom.admin.ch/de/amateurfunk-pruefungen#Zugelassene-Hilfsmittel-f%C3%BCr-die-Amateurfunkpr%C3%BCfungen).
+
+Weil in Artikel 6 der VVNF definiert ist, wer diese Frequenzen nutzen darf und dort auf die Liste im Anhang 4 verwiesen wird, trägt auch die Liste den "Titel" Art. 6 VVNF, obwohl es strenggenommen der Anhang 4 zur VVNF ist.
 </law>
 
 Das BAKOM bezeichnet den "Anhang 4" auch als "Hilfstabelle". Dies weil diese Tabelle an der Prüfung ausgeteilt wird und zur Beantwortung der Fragen benutzt werden darf. Man muss folglich die genauen Nutzungsbestimmungen nicht auswendig können, sondern nur die Tabelle richtig interpretieren können. Mit der "Hilfstabelle" können die folgenden Fragen beanwortet werden.
