@@ -4,9 +4,10 @@ Für den Funkbetrieb ist es wichtig zu wissen, welche Frequenzbereiche durch Fun
 Hier kommt jetzt wieder die Tabelle aus [sec:frequenzspektrum] ins Spiel.
 In der Tabelle wir der Bezug von der Frequenz zu den Metern bereits aufgeführt.
 
+In ARBEIT
 Man kann das aber auch berechnen. 300/Frequenz = Meter oder 300/Meter = Frequenz
-% Wird das irgendwo thematisiert? YPA bei ARK angefragt (261013)
-% Sinnvoller Inhalt erschaffen. Mit https://50ohm.uska.ch/50ohm_review_de/NE_wellenlaenge.html abgleichen.
+Mit https://50ohm.uska.ch/50ohm_review_de/NE_wellenlaenge.html abgleichen.
+Sinnvoller Inhalt erschaffen. 
 
 
 %übernommen von 2.11
