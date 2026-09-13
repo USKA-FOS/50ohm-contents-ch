@@ -1,9 +1,5 @@
 % 1.6 + 4.4 zusammenlegen (eines Streichen) oder sauberer trennen. Saubere Trennung durch EXR und YPA besprochen.
 
-<law>
-[BAKOM-Merkblatt 1.2 Sprechfreigabe für Personen ohne Fähigkeitszeugnis](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk)
-</law>
-
 Wie wir im [sec:erste_schritte] gelernt haben, dürfen nur Funkamateure auf den Amateurfunkfrequenzen senden. Davon gibt es eine Ausnahme; den Ausbildungsfunkbetrieb [index:Ausbildungsfunkbetrieb]. Dieser erlaubt es Personen, die nicht Inhaber eines Fähigkeitszeugnisses sind, bei speziellen Anlässen unter ständiger Aufsicht eines Funkamateurs CEPT (HB9) die Funkanlage eines Funkamateurvereins zu nutzen.
 
 % nach aktuellem Merkblatt ist das nicht zulässig, deshalb Box inaktiv<indepth>Amateurfunkvereine haben immer ein HB9 Bewilligung. Aber auch HB3-Funkamateure dürfen an der Vereinsstation mit Nicht-Funkamateuren Ausbildung machen. Dann allerdings nur auf den Frequenzen und mit der Leistung die für HB3 zugelassen ist.</indepth>
@@ -11,7 +7,12 @@ Wie wir im [sec:erste_schritte] gelernt haben, dürfen nur Funkamateure auf den 
 Dafür braucht es eine Sprecherlaubnis des BAKOM. Diese erhalten nur Amateurfunkvereine.
 Was dabei zu beachten ist, wird in [sec:ausbildungsrufzeichen] genauer erklärt.
 
-Der Ausbildungsfunkbetrieb ist für Personen vorgesehen, die nicht Inhaber eines entsprechenden Amateurfunkzeugnisses sind. Der Ausbildungsfunkbetrieb dient der praktischen Vorbereitung auf das Ablegen der Prüfung zum Erwerb eines Amateurfunkzeugnisses, indem man das theoretisch Erlernte in der Praxis anwenden kann. Ausserdem dient es auch dem "Leben nach der Prüfung": Denn nur mit dem theoretisch Erlernten kann man noch lange nicht funken.
+<law>
+[BAKOM-Merkblatt 1.2 Sprechfreigabe für Personen ohne Fähigkeitszeugnis](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk)
+</law>
+
+Der Ausbildungsfunkbetrieb ist für Personen vorgesehen, die nicht Inhaber eines entsprechenden Amateurfunkzeugnisses sind. Der Ausbildungsfunkbetrieb dient der praktischen Vorbereitung auf das Ablegen der Prüfung zum Erwerb eines Amateurfunkzeugnisses, indem man das theoretisch Erlernte in der Praxis anwenden kann. 
+Ausserdem dient es auch dem "Leben nach der Prüfung": Denn nur mit dem theoretisch Erlernten kann man noch lange nicht funken.
 
 Der Ausbilder muss sich stets in unmittelbarer Nähe des Auszubildenden aufhalten und ihn bei der Bedienung des Funkgerätes und der Betriebsabwicklung anleiten. Denn nur das Aufhalten in unmittelbarer Nähe ermöglicht es dem Ausbilder, regulierend in den Ausbildungsfunkbetrieb einzugreifen. Das kann im Extremfall auch das Abschalten des Senders bedeuten. Die Betreuung eines Auszubildenden über eine größere Entfernung oder per Funk, von einem anderen Standort aus, ist nicht gestattet. Denn hierbei ist die unmittelbare Anleitung und Aufsicht nicht gewährleistet.
 % keine Rechtsgrundlage für diese ausdrückliche Beschreibung. im Merkblatt 1.2 steht nur "unter ständiger Aufsicht". Ich finde den Abschnitt aber grundsätzlich gut. Denn es soll ja schon so sein.
