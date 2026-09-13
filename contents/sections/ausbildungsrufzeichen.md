@@ -9,14 +9,16 @@
 Wie wir schon zu Beginn des Kurses in [sec:ausbildungsfunk] gelernt haben, kann das Rufzeichen von Klubstationen zu Ausbildung benutzt werden, wenn eine *Sprecherlaubnis* vorliegt. Der Auszubildende darf damit Funkbetrieb unter ständiger Aufsicht eines Funkamateurs CEPT (HB9) durchführen.
 % Leider aktuell nicht korrekt: unter Aufsicht und im Berechtigungsumfang des Ausbilders durchführen. 
 
+Der Verein muss beim BAKOM mindestens zwei Wochen vorher schriftlich eine Bewilligung (Sprecherlaubnis oder auch Sprechfreigabe genannt) einholen. Die verantwortlichen Stationsleiter müssen im Gesuch klar bezeichnet werden.
+
 ---
-Der Verein muss beim BAKOM mindestens zwei Wochen vorher schriftlich eine Bewilligung einholen. Die verantwortlichen Stationsleiter müssen im Gesuch klar bezeichnet werden.
 <law>
+[BAKOM-Merkblatt 1.2 Sprechfreigabe für Personen ohne Fähigkeitszeugnis](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk)
 [Sprecherlaubnis bestellen beim BAKOM](https://www.bakom.admin.ch/de/amateurfunk#Gesuch-Sprecherlaubnis-f%C3%BCr-Funkamateurclubs)
 </law>
 
 
-Der Auszubildende benutzt dabei das Rufzeichen des Vereins und hängt den Zusatz "operator" und seinen Vornamen an. Ein Auszubildender vom Verein HB9FZ sagt beispielsweise als Rufzeichen "HB9FZ operator Hans". Damit ist für andere erkennbar, dass ein Auszubildender funkt.
+Der Auszubildende benutzt dann das Rufzeichen des Vereins und hängt den Zusatz "operator" und seinen Vornamen an. Ein Auszubildender vom Verein HB9FZ sagt beispielsweise als Rufzeichen "HB9FZ operator Hans". Damit ist für andere erkennbar, dass ein Auszubildender funkt.
 
 Nimmt der Verein unter seinem Rufzeichen an einem Wettbewerb teil, muss der Name des Operators nicht übermittelt werden.
 
@@ -30,6 +32,5 @@ Nimmt der Verein unter seinem Rufzeichen an einem Wettbewerb teil, muss der Name
 % verschoben nach 1.6: Der Ausbilder muss sich stets in unmittelbarer Nähe des Auszubildenden aufhalten und ihn bei der Bedienung des Funkgerätes und der Betriebsabwicklung anleiten. Denn nur das Aufhalten in unmittelbarer Nähe ermöglicht es dem Ausbilder, regulierend in den Ausbildungsfunkbetrieb einzugreifen. Das kann im Extremfall auch das Abschalten des Senders bedeuten. Die Betreuung eines Auszubildenden über eine größere Entfernung oder per Funk, von einem anderen Standort aus, ist nicht gestattet. Denn hierbei ist die unmittelbare Anleitung und Aufsicht nicht gewährleistet.
 % keine Rechtsgrundlage für diese ausdrückliche Beschreibung. im Merkblatt 1.2 steht nur "unter ständiger Aufsicht". Ich finde den Abschnitt aber grundsätzlich gut. Denn es soll ja schon so sein.
 
-%Verschoben nah 1.6: Wenn die BNetzA es verlangt, muss der Ausbilder der Behörde gegenüber Auskunft über "Art und Umfang" des Ausbildungsbetriebs geben.
-[question:VD305] 
+%Verschoben nah 1.6: Wenn die BNetzA es verlangt, muss der Ausbilder der Behörde gegenüber Auskunft über "Art und Umfang" des Ausbildungsbetriebs geben.[question:VD305] 
 % keine Rechtsgrundlage. Ich weiss nicht wie das BAKOM das handhabt, bzw bei Verstössen handhaben würde.
