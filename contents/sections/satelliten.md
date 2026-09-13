@@ -154,6 +154,8 @@ beschrieben werden. Dabei ist $f_0$ die Sendefrequenz, $v_r$ die Relativgeschwin
 
 Bei LEO-Satelliten kann die Dopplerverschiebung insbesondere bei höheren Frequenzen und bei schmalbandigen Betriebsarten deutlich bemerkbar sein. Deshalb muss die Frequenz während eines Satellitenüberflugs gegebenenfalls laufend nachgeführt werden. Moderne Satellitenstationen können die Dopplerkompensation automatisch durchführen.
 
+[include:dopplervisualisierung]
+
 ## Freiraumdämpfung und Funkverbindung
 
 Das Funksignal eines Satelliten muss eine grosse Entfernung zwischen Bodenstation und Satellit zurücklegen. Dabei entsteht die sogenannte Freiraumdämpfung. Sie nimmt mit zunehmender Entfernung und mit steigender Frequenz zu.
