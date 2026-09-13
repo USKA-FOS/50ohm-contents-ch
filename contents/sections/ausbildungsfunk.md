@@ -1,6 +1,6 @@
-% 1.6 + 4.4 zusammenlegen (eines Streichen) oder sauberer trennen.
+% 1.6 + 4.4 zusammenlegen (eines Streichen) oder sauberer trennen. Saubere Trennung durch EXR und YPA besprochen.
 
-Wie wir in der Einleitung gelernt haben, dürfen nur Funkamateure auf den Amateurfunkfrequenzen senden. Davon gibt es eine Ausnahme, den Ausbildungsfunkbetrieb [index:Ausbildungsfunkbetrieb]. Dieser erlaubt es Nicht-Funkamateuren zur Ausbildung unter unmittelbarer Anleitung und Aufsicht eines zugelassenen Funkamateurs der Klasse HB3 oder HB9 zu senden.
+Wie wir im [sec:erste_schritte] gelernt haben, dürfen nur Funkamateure auf den Amateurfunkfrequenzen senden. Davon gibt es eine Ausnahme; den Ausbildungsfunkbetrieb [index:Ausbildungsfunkbetrieb]. Dieser erlaubt es Personen, die nicht Inhaber eines Fähigkeitszeugnisses sind, bei speziellen Anlässen unter ständiger Aufsicht eines Funkamateurs CEPT (HB9) die Funkanlage eines Funkamateurvereins zu nutzen.
 
 <indepth>
 Amateurfunkvereine haben immer ein HB9 Bewilligung. Aber auch HB3-Funkamateure dürfen an der Vereinsstation mit Nicht-Funkamateuren Ausbildung machen. Dann allerdings nur auf den Frequenzen und mit der Leistung die für HB3 zugelassen ist.
