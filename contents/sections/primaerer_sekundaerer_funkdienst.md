@@ -22,9 +22,3 @@ Es ist zu beachten, dass die primären und sekundären Zuweisungen in anderen L�
 So wird ein Teilbereich des $\qty{70}{\centi\meter}$-Amateurfunkbandes für Anwendungen aus den Bereichen Industrie, Wissenschaft und Medizin und auch von Haushaltsgeräten mitbenutzt. Dort finden sich z. B. Signale von Garagentoröffnern, Funkwetterstationen, Autoschlüsseln, Wegfahrsperren oder Reifendrucksensoren. 
 In der Schweiz ist der Amateurfunk in dem Frequenzbereich grundsätzlich sekundär. In Deutschland hingegen eigentlich primär, muss aber Störungen durch solche Geräte ausnahmsweise dennoch hinnehmen.
 </attention>
-
-
-
-
-
-[question:VD708][question:VD706][question:VD707]
