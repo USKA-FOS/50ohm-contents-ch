@@ -20,7 +20,7 @@ Auch wenn die Frequenzbereiche international vereinbart werden, sind ausschließ
 [question:VO034]
 [question:VO037]
 
-Der Anhang 4 besteht aus zwei Tabellen. Die eine Tabelle gilt für Amateurfunkzulassung (HB9), die andere Tabelle gilt für Inhabern einer Amateurfunkzulassung NOVICE (HB3). Zu beiden Listen gibt es eine Legende, welche die in der Tabelle verwendeten hochgestellten Verweiszeichen erläutert die die speziellen Nutzungsbestimmungen kennzeichnen.
+Der Anhang 4 besteht aus zwei Tabellen. Die eine Tabelle gilt für die Amateurfunkzulassung (HB9), die andere Tabelle gilt für die Amateurfunkzulassung NOVICE (HB3). Zu beiden Listen gibt es eine Legende, welche die in der Tabelle verwendeten hochgestellten Verweiszeichen erläutert die die speziellen Nutzungsbestimmungen kennzeichnen.
 %Evtl Bild von Legende in Marginale?
 
 Denn neben den Frequenzbereichen enthält der Anhang 4 auch ausführliche Nutzungsbestimmungen [index:Frequenzzuteilung:Nutzungsbestimmungen] u.a. mit welcher maximalen Leistung man senden darf, die ebenfalls von jedem Funkamateur einzuhalten sind. 
@@ -37,11 +37,15 @@ Zudem unterliegen gewisse Frequenzen speziellen Nutzungsbestimmungen. So gibt es
 ---
 Für einige Frequenzen bedarf es vor der Benutzung gar einer Meldung an das BAKOM. Diese muss über das vom BAKOM bestimmte System elektronisch übermittelt werden.
 [question:VN009]
-<indepth>
+<law>
 Hier gehts direkt zum System zur Meldung für [Spezielle Frequenznutzung](https://www.egov.swiss/de/amateurfunk/spezielle-frequenznutzung-detail)
-</indepth>
+</law>
 
 ---
+<law>
+Hier gehts direkt zur [Hilfstabelle](https://www.bakom.admin.ch/de/amateurfunk-pruefungen#Zugelassene-Hilfsmittel-f%C3%BCr-die-Amateurfunkpr%C3%BCfungen).
+</law>
+
 Das BAKOM bezeichnet den "Anhang 4" auch als "Hilfstabelle". Dies weil diese Tabelle an der Prüfung ausgeteilt wird und zur Beantwortung der Fragen benutzt werden darf. Man muss folglich die genauen Nutzungsbestimmungen nicht auswendig können, sondern nur die Tabelle richtig interpretieren können. Mit der "Hilfstabelle" können die folgenden Fragen beanwortet werden.
 
 % der folgende Satz muss spätestens mit den zuküntigen Bedingungen hier stehen: Es ist zu beachten, dass dies nur Musterfragen sind, damit man eine Vorstellung hat, wie solche Fragen aussehen könnten. An der Prüfung können auch Fragen zu anderen Frequenzen oder Nutzungsbedingungen gestellt werden.
