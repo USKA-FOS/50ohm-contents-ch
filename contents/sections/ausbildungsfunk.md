@@ -3,6 +3,7 @@
 Wie wir im [sec:erste_schritte] gelernt haben, dürfen nur Funkamateure auf den Amateurfunkfrequenzen senden. Davon gibt es eine Ausnahme; den Ausbildungsfunkbetrieb [index:Ausbildungsfunkbetrieb]. Dieser erlaubt es Personen, die nicht Inhaber eines Fähigkeitszeugnisses sind, bei speziellen Anlässen unter ständiger Aufsicht eines Funkamateurs CEPT (HB9) die Funkanlage eines Funkamateurvereins zu nutzen.
 
 Dafür braucht es eine Sprecherlaubnis des BAKOM. Diese Sprecherlaubnis erhalten nur Amateurfunkvereine.
+Was bei der Sprecherlaubnis zu beachten ist, wird in [sec:ausbildungsrufzeichen] genauer erklärt.
 
 ---
 <law>
@@ -23,6 +24,4 @@ Der Ausbilder muss sich stets in unmittelbarer Nähe des Auszubildenden aufhalte
 % keine Rechtsgrundlage für diese ausdrückliche Beschreibung. Merkblatt: "Die während eines Anlasses verantwortlichen Stationsleiter müssen im Gesuch klar bezeichnet werden." Ich weiss nicht wie das BAKOM das handhabt, bzw bei Verstössen handhaben würde. DARC: Wenn die BNetzA es verlangt, muss der Ausbilder der Behörde gegenüber Auskunft über "Art und Umfang" des Ausbildungsbetriebs geben.[question:VD305] 
 
 
-Der Auszubildende benutzt dabei das Rufzeichen des Vereins und hängt den Zusatz "operator" und seinen Vornamen an. Ein Auszubildender vom Verein HB9FZ sagt beispielsweise als Rufzeichen "HB9FR operator Hans". Damit ist für andere erkennbar, dass ein Auszubildender funkt.
-
-[question:BD209] 
+% verschoben nach 4.4.: Der Auszubildende benutzt dabei das Rufzeichen des Vereins und hängt den Zusatz "operator" und seinen Vornamen an. Ein Auszubildender vom Verein HB9FZ sagt beispielsweise als Rufzeichen "HB9FR operator Hans". Damit ist für andere erkennbar, dass ein Auszubildender funkt.[question:BD209] 
