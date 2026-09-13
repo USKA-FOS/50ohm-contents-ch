@@ -19,11 +19,12 @@ Für die folgenden Fragen muss man die sehr häufig genutzen Bänder, den jeweil
 
 
 
-AB HIER alles in HB nicht relevant --> Löschen
+**AB HIER** alles in HB nicht relevant --> Löschen
 Dies lässt sich aus der [Anlage 1 der AFuV](https://50ohm.de/a1) ablesen. Damit sollten die folgenden Fragen leicht zu beantworten sein. Die Anlage 1 der AFuV liegt während der Prüfung als Hilfsmittel bereit.
 
 Das war mal eine Tip-Box: Für diese Fragen ist wirklich kein Auswendiglernen oder Ausrechnen erforderlich: Man muss nur überprüfen, welcher der in der Prüfungsfrage angegebenen Werte in der Liste der Anlage 1 auftaucht. Dieser Wert ist dann die richtige Antwort. Die Werte können sich, wie z.B. beim $\qty{160}{\meter}$-Band, auch aus mehreren Einträgen zusammensetzen.
 
+die 2 Bilder in der Marginale
 <margin>
 [picture:749:amateuerfunkbaender_2:Frequenzbereiche im Amateurfunk unter $\qty{300}{\mega\hertz}$]
 </margin>
