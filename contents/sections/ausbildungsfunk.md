@@ -6,6 +6,8 @@ Wie wir im [sec:erste_schritte] gelernt haben, dürfen nur Funkamateure auf den 
 Amateurfunkvereine haben immer ein HB9 Bewilligung. Aber auch HB3-Funkamateure dürfen an der Vereinsstation mit Nicht-Funkamateuren Ausbildung machen. Dann allerdings nur auf den Frequenzen und mit der Leistung die für HB3 zugelassen ist.
 </indepth>
 
+Der Ausbildungsfunkbetrieb ist für Personen vorgesehen, die nicht Inhaber eines entsprechenden Amateurfunkzeugnisses sind. Der Ausbildungsfunkbetrieb dient der praktischen Vorbereitung auf das Ablegen der Prüfung zum Erwerb eines Amateurfunkzeugnisses, indem man das theoretisch Erlernte in der Praxis anwenden kann. Die dient auch dem "Leben nach der Prüfung". Denn nur mit dem theoretisch Erlernten kann man noch lange nicht funken.
+
 Dafür braucht es eine Sprecherlaubnis des BAKOM. Diese Sprecherlaubnis erhalten nur Amateurfunkvereine.
 
 ---
