@@ -20,14 +20,12 @@ Auch wenn die Frequenzbereiche international vereinbart werden, sind ausschließ
 [question:VO034]
 [question:VO037]
 
-Der Anhang 4 besteht aus zwei Tabellen. Die Tabelle a) gilt für Amateurfunkzulassung (HB9), die Tabelle b) gilt für Inhabern einer Amateurfunkzulassung NOVICE (HB3). Beide Listen haben jeweils eine Legende, welche die in der Tabelle verwendeten hochgestellten Verweiszeichen erläutert die die speziellen Nutzungsbedingungen kennzeichnen.
+Der Anhang 4 besteht aus zwei Tabellen. Die eine Tabelle gilt für Amateurfunkzulassung (HB9), die andere Tabelle gilt für Inhabern einer Amateurfunkzulassung NOVICE (HB3). Zu beiden Listen gibt es eine Legende, welche die in der Tabelle verwendeten hochgestellten Verweiszeichen erläutert die die speziellen Nutzungsbestimmungen kennzeichnen.
 %Evtl Bild von Legende in Marginale?
 
 Denn neben den Frequenzbereichen enthält der Anhang 4 auch ausführliche Nutzungsbestimmungen [index:Frequenzzuteilung:Nutzungsbestimmungen] u.a. mit welcher maximalen Leistung man senden darf, die ebenfalls von jedem Funkamateur einzuhalten sind. 
 
-%YPA: Nutzungsbedingungen oder Nutzungsbestimmungen? jenachdem überall anpassen.
-
-Zudem unterliegen gewisse Frequenzen speziellen Nutzungsbedingungen. So gibt es Frequenzen auf welchen andere Nutzer Vorrang haben, sprich der Amateurfunk nur *sekundäre* Nutznungsrechte hat und somit dafür sorgen muss, dass er den *primären* Dienst nicht stört. Mehr dazu später im Abschnitt [sec:primaerer_sekundaerer_funkdienst].
+Zudem unterliegen gewisse Frequenzen speziellen Nutzungsbestimmungen. So gibt es Frequenzen auf welchen andere Nutzer Vorrang haben, sprich der Amateurfunk nur *sekundäre* Nutznungsrechte hat und somit dafür sorgen muss, dass er den *primären* Dienst nicht stört. Mehr dazu später im Abschnitt [sec:primaerer_sekundaerer_funkdienst].
 
 [question:VN008]
 
@@ -44,10 +42,9 @@ Hier gehts direkt zum System zur Meldung für [Spezielle Frequenznutzung](https:
 </indepth>
 
 ---
+Das BAKOM bezeichnet den "Anhang 4" auch als "Hilfstabelle". Dies weil diese Tabelle an der Prüfung ausgeteilt wird und zur Beantwortung der Fragen benutzt werden darf. Man muss folglich die genauen Nutzungsbestimmungen nicht auswendig können, sondern nur die Tabelle richtig interpretieren können. Mit der "Hilfstabelle" können die folgenden Fragen beanwortet werden.
 
-Das BAKOM bezeichnet den "Anhang 4" auch als "Hilfstabelle". Dies weil diese Tabelle an der Prüfung ausgeteilt wird und zur Beantwortung der Fragen benutzt werden darf. Man muss folglich die genauen Nutzungsbedingungen nicht auswendig können, sondern nur die Tabelle richtig interpretieren können. Mit der "Hilfstabelle" können die folgenden Fragen beanwortet werden.
-
-% dieser Satz muss spätestens mit den zuküntigen Bedingungen hier stehen: Es ist zu beachten, dass dies nur Musterfragen sind, damit man eine Vorstellung hat, wie solche Fragen aussehen könnten. An der Prüfung können auch Fragen zu anderen Frequenzen oder Nutzungsbedingungen gestellt werden.
+% der folgende Satz muss spätestens mit den zuküntigen Bedingungen hier stehen: Es ist zu beachten, dass dies nur Musterfragen sind, damit man eine Vorstellung hat, wie solche Fragen aussehen könnten. An der Prüfung können auch Fragen zu anderen Frequenzen oder Nutzungsbedingungen gestellt werden.
 
 % Fragen dieser Art (DL-VD727-737) sind in DL in 14.7. Entscheid EXR/YPA, dass hier sinnvoller und stimmiger
 [question:VO004]
