@@ -42,7 +42,7 @@ Hier gehts direkt zum System zur Meldung für [Spezielle Frequenznutzung](https:
 
 ---
 <law>
-Hier gehts direkt zur [Hilfstabelle](https://www.bakom.admin.ch/de/amateurfunk-pruefungen#Zugelassene-Hilfsmittel-f%C3%BCr-die-Amateurfunkpr%C3%BCfungen).
+Hier gehts direkt zur [Hilfstabelle](https://www.bakom.admin.ch/de/amateurfunk-pruefungen#Zugelassene-Hilfsmittel-f%C3%BCr-die-Amateurfunkpr%C3%BCfungen) wie sie an der Prüfung abgegeben wird.
 
 Weil in Artikel 6 der VVNF definiert ist, wer diese Frequenzen nutzen darf und dort auf die Liste im Anhang 4 verwiesen wird, trägt auch die Liste den "Titel" Art. 6 VVNF, obwohl es strenggenommen der Anhang 4 zur VVNF ist.
 </law>
