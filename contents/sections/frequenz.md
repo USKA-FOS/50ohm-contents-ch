@@ -24,10 +24,6 @@ Im Funk benutzen wir auch elektrische Schwingungen, allerdings mit sehr viel hö
 
 [question:NA212]
 
-In der Amateurfunk-Einsteigerklasse HB3 darf man beispielsweise die Frequenzen von $\num{28}$ bis $\qty{29,7}{\mega\hertz}$, von $\num{144}$ bis $\qty{146}{\mega\hertz}$ sowie von $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$ benutzen. Bei der Klasse HB9 kommen weitere Frequenzbereiche und höhere zulässige Sendeleistungen dazu.
-
-[question:VD723]
-
 ---
 
 In Funkgeräten werden elektrische Schwingungen von einem sogenannten Oszillator erzeugt. Wenn man die Sendetaste am Funkgerät betätigt, werden die Schwingungen dann zur Antenne geleitet und dort als Funkwellen abgestrahlt.
