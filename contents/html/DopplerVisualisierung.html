@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dopplereffekt Visualisierung</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e24;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #2a2a35;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        canvas {
+            border: 2px solid #4e4e5a;
+            border-radius: 8px;
+            background-color: #111;
+        }
+        .controls {
+            margin-top: 15px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="range"] {
+            cursor: pointer;
+        }
+        .value-display {
+            display: inline-block;
+            width: 50px;
+            color: #00ffcc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Visualisierung des Dopplereffekts</h1>
+    
+    <div class="container">
+        <canvas id="dopplerCanvas" width="800" height="400"></canvas>
+        
+        <div class="controls">
+            <div>
+                <label for="speedSlider">Geschwindigkeit der Quelle: </label>
+                <input type="range" id="speedSlider" min="0" max="5" step="0.1" value="1.5">
+                <span id="speedValue" class="value-display">1.5</span>
+            </div>
+            <button id="resetBtn" style="padding: 5px 15px; cursor: pointer; border-radius: 4px; border: none; background: #00ffcc; color: #111; font-weight: bold;">Reset</button>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('dopplerCanvas');
+        const ctx = canvas.getContext('2d');
+        const speedSlider = document.getElementById('speedSlider');
+        const speedValue = document.getElementById('speedValue');
+        const resetBtn = document.getElementById('resetBtn');
+
+        // Parameter der Simulation
+        let source = {
+            x: 50,
+            y: canvas.height / 2,
+            vx: parseFloat(speedSlider.value)
+        };
+
+        const waveSpeed = 3; // Ausbreitungsgeschwindigkeit der Wellenfronten (c)
+        let waves = [];      // Array zur Speicherung der emittierten Wellenringe
+        let frameCount = 0;
+        const emissionRate = 20; // Alle x Frames wird eine neue Welle erzeugt
+
+        // Event-Listener für Slider
+        speedSlider.addEventListener('input', (e) => {
+            source.vx = parseFloat(e.target.value);
+            speedValue.textContent = source.vx.toFixed(1);
+        });
+
+        // Event-Listener für Reset
+        resetBtn.addEventListener('click', () => {
+            waves = [];
+            source.x = 50;
+        });
+
+        function animate() {
+            // Hintergrund leeren
+            ctx.fillStyle = '#111';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // Bewegung der Quelle aktualisieren
+            source.x += source.vx;
+            
+            // Wenn die Quelle den rechten Rand verlässt, fängt sie links wieder an
+            if (source.x > canvas.width + 20) {
+                source.x = -20;
+            }
+
+            // Neue Welle emittieren
+            frameCount++;
+            if (frameCount % emissionRate === 0) {
+                waves.push({
+                    x: source.x,
+                    y: source.y,
+                    radius: 0
+                });
+            }
+
+            // Wellen zeichnen und aktualisieren
+            for (let i = waves.length - 1; i >= 0; i--) {
+                let w = waves[i];
+                w.radius += waveSpeed; // Welle dehnt sich aus
+
+                // Transparenz nimmt mit der Größe ab (Dämpfung)
+                let maxRadius = Math.max(canvas.width, canvas.height);
+                let alpha = 1 - (w.radius / maxRadius);
+
+                if (alpha <= 0) {
+                    waves.splice(i, 1); // Entferne alte Wellen aus dem Speicher
+                    continue;
+                }
+
+                ctx.beginPath();
+                ctx.arc(w.x, w.y, w.radius, 0, Math.PI * 2);
+                ctx.strokeStyle = `rgba(0, 255, 204, ${alpha})`;
+                ctx.lineWidth = 2;
+                ctx.stroke();
+            }
+
+            // Schallquelle zeichnen (roter Punkt)
+            ctx.beginPath();
+            ctx.arc(source.x, source.y, 8, 0, Math.PI * 2);
+            ctx.fillStyle = '#ff3366';
+            ctx.shadowBlur = 10;
+            ctx.shadowColor = '#ff3366';
+            ctx.fill();
+            ctx.shadowBlur = 0; // Shadow-Reset für Performance
+
+            requestAnimationFrame(animate);
+        }
+
+        // Start der Simulation
+        animate();
+    </script>
+</body>
+</html>
