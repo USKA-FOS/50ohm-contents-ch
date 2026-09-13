@@ -1108,8 +1108,16 @@ def validate_staged_generator_input(target_root: Path) -> None:
         )
 
 
-def build_config(input_root: Path, output_root: Path, *, generator_seed: int) -> dict[str, Any]:
-    return {
+def build_config(
+    input_root: Path,
+    output_root: Path,
+    *,
+    generator_seed: int,
+    release_id: str | None = None,
+    beta: bool = False,
+    feedback_url: str = DEFAULT_FEEDBACK_URL,
+) -> dict[str, Any]:
+    config = {
         "input": str(input_root),
         "questions": "fragenkatalog_4.json",
         "questions_upstream": "fragenkatalog_4pre.json",
@@ -1117,6 +1125,15 @@ def build_config(input_root: Path, output_root: Path, *, generator_seed: int) ->
         "output": str(output_root),
         "random_seed": generator_seed,
     }
+    if release_id is not None:
+        config.update(
+            {
+                "release_id": release_id,
+                "beta": beta,
+                "feedback_url": feedback_url,
+            }
+        )
+    return config
 
 
 def sync_review_build(language: str, output_root: Path) -> Path:
@@ -1131,7 +1148,15 @@ def sync_review_build(language: str, output_root: Path) -> Path:
     return target_root
 
 
-def run_generator(language: str, *, validation_root: Path, generator_seed: int) -> dict[str, Any]:
+def run_generator(
+    language: str,
+    *,
+    validation_root: Path,
+    generator_seed: int,
+    release_id: str | None = None,
+    beta: bool = False,
+    feedback_url: str = DEFAULT_FEEDBACK_URL,
+) -> dict[str, Any]:
     validation_root.mkdir(parents=True, exist_ok=True)
     runner_root = validation_root / f"generator-{language}"
     output_root = BUILD_ROOT / language
@@ -1144,7 +1169,14 @@ def run_generator(language: str, *, validation_root: Path, generator_seed: int) 
     shutil.copytree(GENERATOR_ROOT, runner_root, ignore=shutil.ignore_patterns(".git", "__pycache__", ".venv"))
     write_json(
         runner_root / "config" / "config.json",
-        build_config(INPUT_ROOT / language, output_root, generator_seed=generator_seed),
+        build_config(
+            INPUT_ROOT / language,
+            output_root,
+            generator_seed=generator_seed,
+            release_id=release_id,
+            beta=beta,
+            feedback_url=feedback_url,
+        ),
     )
     generator_environment = os.environ.copy()
     generator_environment.setdefault("UV_CACHE_DIR", str(CONTENT_REPO / "work" / "uv-cache"))
@@ -1246,6 +1278,9 @@ def run(
                     language,
                     validation_root=run_validation_root,
                     generator_seed=generator_seed,
+                    release_id=release_id,
+                    beta=beta,
+                    feedback_url=feedback_url,
                 )
     connection.close()
     comparison = compare_outputs(builds, languages) if builds else {}

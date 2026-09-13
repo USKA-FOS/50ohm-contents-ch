@@ -155,6 +155,12 @@ The feedback URL recorded in the manifest defaults to
 Neither release mode nor promotion creates a Git commit, tag, or push. Those
 remain explicit operator actions after inspection.
 
+Release mode also passes `release_id`, `beta`, and `feedback_url` to the site
+generator. Every generated regular page and Reveal.js presentation displays
+the release id and feedback action. Beta releases additionally display the
+localized warning and disclaimer. Development builds without `--release-id`
+do not render these elements.
+
 This command imports `canonical/` into `work/canonical_model/content_model.sqlite`,
 stages three generator inputs under `work/generator-input/{de,fr,it}`, injects
 question catalogs from `../50ohm-question-pool/builds/{language}/`, runs the

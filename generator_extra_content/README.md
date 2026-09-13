@@ -17,6 +17,22 @@ Current resource types:
 - `templates/...`: language-specific template overrides for generator-owned
   injected content such as slide help pages and the localized landing page.
 
+Release presentation resources:
+
+- `de/templates/html/release-beta-warning.html` provides the shared regular-page
+  beta-warning structure;
+- `de/templates/html/release-footer.html` displays the release id and feedback
+  action on regular pages;
+- `de/templates/slide/release-overlay.html` provides equivalent release context
+  on Reveal.js pages;
+- `labels.json` in each language owns the translated warning, disclaimer,
+  release, and feedback labels.
+
+The structure is stored once under the default `de` template tree and rendered
+with the selected language's labels. It is active only when the wrapper passes
+an explicit `release_id`. Feedback links receive `release_id`, `lang`, and the
+browser's current page path as query parameters.
+
 Important scope rule:
 
 - this directory is a temporary multilingual resource pack for

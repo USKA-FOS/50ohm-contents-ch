@@ -1,0 +1,9 @@
+<script>
+  document.querySelectorAll('[data-feedback-link]').forEach((link) => {
+    const url = new URL(link.dataset.feedbackBase, window.location.href);
+    url.searchParams.set('release_id', '{{ release_id|e }}');
+    url.searchParams.set('lang', '{{ lang|e }}');
+    url.searchParams.set('page', window.location.pathname + window.location.search + window.location.hash);
+    link.href = url.toString();
+  });
+</script>

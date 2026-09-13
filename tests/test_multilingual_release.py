@@ -5,8 +5,12 @@ import subprocess
 from pathlib import Path
 
 import pytest
+from jinja2 import Environment, FileSystemLoader
 
 from tools import run_multilingual_canonical_build as build
+
+
+EXTRA_CONTENT_ROOT = Path(__file__).resolve().parents[1] / "generator_extra_content"
 
 
 def git(repository: Path, *args: str) -> str:
@@ -106,6 +110,49 @@ def test_release_manifest_describes_each_language_tree(tmp_path: Path, monkeypat
     assert set(manifest["artifacts"]) == set(build.LANGUAGES)
     assert all(manifest["artifacts"][language]["file_count"] == 1 for language in build.LANGUAGES)
     assert all(len(manifest["artifacts"][language]["sha256"]) == 64 for language in build.LANGUAGES)
+
+
+def test_generator_config_receives_release_context_only_in_release_mode() -> None:
+    development = build.build_config(Path("input"), Path("output"), generator_seed=50)
+    release = build.build_config(
+        Path("input"),
+        Path("output"),
+        generator_seed=50,
+        release_id="beta-test-1",
+        beta=True,
+        feedback_url="https://example.invalid/feedback",
+    )
+
+    assert "release_id" not in development
+    assert "beta" not in development
+    assert "feedback_url" not in development
+    assert release["release_id"] == "beta-test-1"
+    assert release["beta"] is True
+    assert release["feedback_url"] == "https://example.invalid/feedback"
+
+
+@pytest.mark.parametrize("language", build.LANGUAGES)
+def test_release_fragments_use_localized_labels(language: str) -> None:
+    labels = json.loads((EXTRA_CONTENT_ROOT / language / "labels.json").read_text(encoding="utf-8"))
+    environment = Environment(loader=FileSystemLoader(EXTRA_CONTENT_ROOT / "de" / "templates"))
+    environment.globals.update(
+        ui=lambda key, default="": labels.get(key, default),
+        lang=language,
+        release_id="beta-test-1",
+        beta=True,
+        feedback_url="https://50ohm.jp2s.ch/feedback",
+    )
+
+    regular = environment.get_template("html/release-beta-warning.html").render()
+    footer = environment.get_template("html/release-footer.html").render()
+    slide = environment.get_template("slide/release-overlay.html").render()
+
+    assert labels["beta_disclaimer"] in regular
+    assert labels["feedback_button"] in regular
+    assert "beta-test-1" in footer
+    assert "window.location.pathname" in footer
+    assert labels["beta_disclaimer"] in slide
+    assert "beta-test-1" in slide
 
 
 def test_promotion_moves_release_and_preserves_feedback(

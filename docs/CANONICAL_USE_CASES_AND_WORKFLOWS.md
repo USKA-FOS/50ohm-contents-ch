@@ -150,13 +150,15 @@ the dedicated Git release repository without publishing it automatically.
 1. require clean content, question-pool, and generator repositories;
 2. require an explicit release id that is safe and unused as a release tag;
 3. lock all three language build slots and clean `work/build/`;
-4. build and validate German, French, and Italian;
-5. write `work/build/release-manifest.json` with source commits, source tags,
+4. pass the release id, beta state, and feedback URL to the generator;
+5. build and validate German, French, and Italian, including the localized
+   release presentation on ordinary and Reveal.js pages;
+6. write `work/build/release-manifest.json` with source commits, source tags,
    build settings, and artifact digests;
-6. if a release output was requested, require that repository to be clean;
-7. replace only its generated language trees and manifest while preserving its
+7. if a release output was requested, require that repository to be clean;
+8. replace only its generated language trees and manifest while preserving its
    `feedback/` tree and repository/deployment files;
-8. inspect the resulting Git diff before an explicit commit, tag, and push.
+9. inspect the resulting Git diff before an explicit commit, tag, and push.
 
 ### Safety Rules
 

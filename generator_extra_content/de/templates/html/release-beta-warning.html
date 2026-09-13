@@ -1,0 +1,14 @@
+<details class="alert alert-warning p-2 m-2" style="position: relative; z-index: 10; min-width: 12rem;">
+  <summary class="d-flex align-items-center gap-1" style="cursor: pointer;" aria-label="{{ ui('beta_warning_aria')|e }}">
+    <span class="material-icons" aria-hidden="true">warning</span>
+    <strong>BETA</strong>
+  </summary>
+  <div class="mt-2 small">
+    <p>{{ ui('beta_disclaimer') }}</p>
+    {% if feedback_url %}
+      <a class="btn btn-sm btn-outline-dark" data-feedback-link data-feedback-base="{{ feedback_url|e }}" href="{{ feedback_url|e }}">
+        {{ ui('feedback_button') }}
+      </a>
+    {% endif %}
+  </div>
+</details>

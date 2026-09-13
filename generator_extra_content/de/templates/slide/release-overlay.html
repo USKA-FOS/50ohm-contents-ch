@@ -1,0 +1,18 @@
+<aside style="position: fixed; right: 0.75rem; bottom: 0.75rem; z-index: 50; max-width: 24rem; padding: 0.6rem 0.8rem; border: 1px solid #856404; border-radius: 0.35rem; background: #fff3cd; color: #332701; font: 14px/1.35 sans-serif;">
+  {% if beta %}
+    <details>
+      <summary style="cursor: pointer; font-weight: bold;" aria-label="{{ ui('beta_warning_aria')|e }}">&#9888; BETA</summary>
+      <p>{{ ui('beta_disclaimer') }}</p>
+    </details>
+  {% endif %}
+  <div>
+    {{ ui('release_label') }}: <strong>{{ release_id|e }}</strong>
+    {% if feedback_url %}
+      &middot;
+      <a style="color: inherit;" data-feedback-link data-feedback-base="{{ feedback_url|e }}" href="{{ feedback_url|e }}">
+        {{ ui('feedback_button') }}
+      </a>
+    {% endif %}
+  </div>
+</aside>
+{% include "html/release-link-script.html" %}
