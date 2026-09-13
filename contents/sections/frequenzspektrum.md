@@ -1,6 +1,5 @@
 Der Frequenzbereich elektromagnetischer Wellen ist sehr groß (Abbildung [ref:n_frequenzspektrum]). Für Funkwellen wird nur ein Teil dieses Spektrums [index:Spektrum] genutzt, üblicherweise der Frequenzbereich zwischen $\qty{30}{\kilo\hertz}$ und $\qty{300}{\giga\hertz}$. In der Tabelle [ref:n_frequenzspektrum_bereiche] ist zu sehen, welche Frequenzen welchen Bereichen zugeordnet sind. Den Frequenzbereichen [index:Spektrum:Frequenzbereiche] werden Abkürzungen zugeordnet. 
 
-%YPA Der effektiven Liste anpassen. Hinweis: In DL gehört der folgende Satz noch zum vorhergehenden Absatz.
 An der Prüfung können Fragen aus der gesamten Liste vorkommen. Die angezeigten Fragen bilden nur eine Auswahl wie solche Fragen gestellt werden könnten. 
 % Es sind alle Fragen in derselben Frageart. Es gibt keine mit den alten Fragestellungen.
 
@@ -8,7 +7,7 @@ An der Prüfung können Fragen aus der gesamten Liste vorkommen. Die angezeigten
 Als ShortwaveListener oder kurz SWL werden Kurzwellenhörer bezeichnet. Das sind Personen die nur zuhören, aber selber nicht senden.
 </indepth>
 
-%YPA: Liste anpassen. 
+%YPA: Liste anpassen. In der neuen HB Version fehlt die ausgeschriebene Englische Bezeichnung, dadurch auch der Bezug zur Abkürzung und zudem zu den Antworten in den vorhandenen Fragen.
 <webmargin>
 | r: | c: | r: | X: | l: |
 | von | | bis | Bezeichnung | Abk. |
