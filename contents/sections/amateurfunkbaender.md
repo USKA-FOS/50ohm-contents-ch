@@ -1,6 +1,12 @@
 %YPA an EXR:  Keine entsprechenden Fragen in HB. Verbindung Frequenz - Band trotzdem wichtig.  Die Listen in der Marginale sind nicht sehr hübsch. Irgend welcher sinnvoller, zweckmässiger, Inhalt muss erschaffen werden.
 
-Für den Funkbetrieb ist es wichtig zu wissen, welche Frequenzbereiche durch Funkamateure genutzt werden dürfen. Die Bereiche werden auch als Bänder bezeichnet.
+Für den Funkbetrieb ist es wichtig zu wissen, welche Frequenzbereiche durch Funkamateure genutzt werden dürfen. Die Bereiche werden auch als Bänder bezeichnet. Diese Bänder werden in Meter (oder ihrer Einheiten) bezeichnet.
+Hier kommt jetzt wieder die Tabelle aus [sec:frequenzspektrum] ins Spiel.
+In der Tabelle wir der Bezug von der Frequenz zu den Metern bereits aufgeführt.
+
+Man kann das aber auch berechnen. 300/Frequenz = Meter oder 300/Meter = Frequenz
+% Wird das irgendwo thematisiert? YPA bei ARK angefragt (261013)
+% Sinnvoller Inhalt erschaffen.
 
 
 %übernommen von 2.11
@@ -13,15 +19,16 @@ Für die folgenden Fragen muss man die sehr häufig genutzen Bänder, den jeweil
 
 
 
-
+AB HIER alles in HB nicht relevant --> Löschen
 Dies lässt sich aus der [Anlage 1 der AFuV](https://50ohm.de/a1) ablesen. Damit sollten die folgenden Fragen leicht zu beantworten sein. Die Anlage 1 der AFuV liegt während der Prüfung als Hilfsmittel bereit.
 
-<tip>
-Für diese Fragen ist wirklich kein Auswendiglernen oder Ausrechnen erforderlich: Man muss nur überprüfen, welcher der in der Prüfungsfrage angegebenen Werte in der Liste der Anlage 1 auftaucht. Dieser Wert ist dann die richtige Antwort. Die Werte können sich, wie z.B. beim $\qty{160}{\meter}$-Band, auch aus mehreren Einträgen zusammensetzen.
-</tip>
+Das war mal eine Tip-Box: Für diese Fragen ist wirklich kein Auswendiglernen oder Ausrechnen erforderlich: Man muss nur überprüfen, welcher der in der Prüfungsfrage angegebenen Werte in der Liste der Anlage 1 auftaucht. Dieser Wert ist dann die richtige Antwort. Die Werte können sich, wie z.B. beim $\qty{160}{\meter}$-Band, auch aus mehreren Einträgen zusammensetzen.
 
 <margin>
 [picture:749:amateuerfunkbaender_2:Frequenzbereiche im Amateurfunk unter $\qty{300}{\mega\hertz}$]
+</margin>
+<margin>
+[picture:750:amateuerfunkbaender_1:Frequenzbereiche im Amateurfunk über $\qty{300}{\mega\hertz}$]
 </margin>
 
 [question:VD709]
@@ -34,11 +41,6 @@ Für diese Fragen ist wirklich kein Auswendiglernen oder Ausrechnen erforderlich
 [question:VD716]
 [question:VD717]
 [question:VD718]
-
-<margin>
-[picture:750:amateuerfunkbaender_1:Frequenzbereiche im Amateurfunk über $\qty{300}{\mega\hertz}$]
-</margin>
-
 [question:VD719]
 [question:VD720]
 [question:VD721]
