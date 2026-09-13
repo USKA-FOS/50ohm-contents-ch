@@ -6,8 +6,15 @@
 % Wir haben leider kein gesichertes Einverständnis der Personen... TODO neues bild.
 % Kommi zu Photo 57 ist von DARC. YPA könnte evtl ein passendes Foto liefern, wenn gewünscht. Mit 3 Generationen.
 
-Wie wir schon zu Beginn des Kurses in [sec:ausbildungsfunk] gelernt haben, kann das Rufzeichen von Klubstationen zu Ausbildung benutzt werden, wenn eine Sprecherlaubnis vorliegt. Der Auszubildende darf damit Funkbetrieb unter ständiger Aufsicht eines Funkamateurs CEPT (HB9) durchführen.
+Wie wir schon zu Beginn des Kurses in [sec:ausbildungsfunk] gelernt haben, kann das Rufzeichen von Klubstationen zu Ausbildung benutzt werden, wenn eine *Sprecherlaubnis* vorliegt. Der Auszubildende darf damit Funkbetrieb unter ständiger Aufsicht eines Funkamateurs CEPT (HB9) durchführen.
 % Leider aktuell nicht korrekt: unter Aufsicht und im Berechtigungsumfang des Ausbilders durchführen. 
+
+---
+Der Verein muss beim BAKOM mindestens zwei Wochen vor dem Anlass schriftlich eine Bewilligung einholen. Die während eines Anlasses verantwortlichen Stationsleiter müssen im Gesuch klar bezeichnet werden.
+<law>
+[Sprecherlaubnis bestellen beim BAKOM](https://www.bakom.admin.ch/de/amateurfunk#Gesuch-Sprecherlaubnis-f%C3%BCr-Funkamateurclubs)
+</law>
+
 
 Der Auszubildende benutzt dabei das Rufzeichen des Vereins und hängt den Zusatz "operator" und seinen Vornamen an. Ein Auszubildender vom Verein HB9FZ sagt beispielsweise als Rufzeichen "HB9FZ operator Hans". Damit ist für andere erkennbar, dass ein Auszubildender funkt.
 
