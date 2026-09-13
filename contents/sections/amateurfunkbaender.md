@@ -6,7 +6,7 @@ In der Tabelle wir der Bezug von der Frequenz zu den Metern bereits aufgeführt.
 
 Man kann das aber auch berechnen. 300/Frequenz = Meter oder 300/Meter = Frequenz
 % Wird das irgendwo thematisiert? YPA bei ARK angefragt (261013)
-% Sinnvoller Inhalt erschaffen.
+% Sinnvoller Inhalt erschaffen. Mit https://50ohm.uska.ch/50ohm_review_de/NE_wellenlaenge.html abgleichen.
 
 
 %übernommen von 2.11
