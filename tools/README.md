@@ -120,6 +120,41 @@ To override that seed explicitly:
 uv run python tools/run_multilingual_canonical_build.py --generator-seed 123
 ```
 
+### Build and promote a versioned site release
+
+A release build requires all three languages and clean Git states in
+`50ohm-contents-ch`, `50ohm-question-pool`, and `50ohm-generator`. It cleans the
+complete `work/build/` staging tree before generation, records the exact source
+commits and exact-match tags, and writes per-language file counts and tree
+digests to `work/build/release-manifest.json`:
+
+```bash
+uv run python tools/run_multilingual_canonical_build.py \
+  --release-id beta-2026-09-13-01 \
+  --beta
+```
+
+Add a release output to promote the validated result:
+
+```bash
+uv run python tools/run_multilingual_canonical_build.py \
+  --release-id beta-2026-09-13-01 \
+  --beta \
+  --release-output ../50ohm-site-releases
+```
+
+`--release-output` must be the root of a clean Git repository and the release
+tag must not already exist there. Promotion replaces only `de/`, `fr/`, `it/`,
+and `release-manifest.json`; it preserves `feedback/`, `.git/`, and deployment
+files. The generated artifacts are moved from `work/build/`, and the local
+review links are redirected to their promoted locations. A failed build or
+validation never changes the release repository.
+
+The feedback URL recorded in the manifest defaults to
+`https://50ohm.jp2s.ch/feedback` and can be changed with `--feedback-url`.
+Neither release mode nor promotion creates a Git commit, tag, or push. Those
+remain explicit operator actions after inspection.
+
 This command imports `canonical/` into `work/canonical_model/content_model.sqlite`,
 stages three generator inputs under `work/generator-input/{de,fr,it}`, injects
 question catalogs from `../50ohm-question-pool/builds/{language}/`, runs the
@@ -162,6 +197,8 @@ Concurrency model:
   `work/build/<lang>`;
 - validation logs and reports are isolated per run under
   `work/validation/multilingual/runs/<run-id>/`.
+- generator subprocesses use `work/uv-cache/` unless `UV_CACHE_DIR` is already
+  set, so builds do not depend on a writable user-level cache.
 
 The validator clears and recreates `translator/sites/app/build/de/` from the
 V4 baseline `translator/site-original/app/50ohm-contents-ch/`, then clears and

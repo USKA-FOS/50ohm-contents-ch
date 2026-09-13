@@ -4,17 +4,19 @@ import argparse
 import fcntl
 import json
 import os
+import re
 import shutil
 import sqlite3
 import subprocess
 import sys
 from collections import defaultdict
-from contextlib import contextmanager
+from contextlib import ExitStack, contextmanager
 from copy import deepcopy
 from datetime import UTC, datetime
 from hashlib import sha256
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlsplit
 
 try:
     from .build_db_from_canonical_model import build_database as build_canonical_database
@@ -43,6 +45,10 @@ GENERATOR_EXTRA_CONTENT_ROOT = CONTENT_REPO / "generator_extra_content"
 EDITION_ROOT = CONTENT_REPO / "canonical" / "structure" / "editions"
 LANGUAGES = ("de", "fr", "it")
 DEFAULT_GENERATOR_SEED = 50
+DEFAULT_FEEDBACK_URL = "https://50ohm.jp2s.ch/feedback"
+RELEASE_MANIFEST_NAME = "release-manifest.json"
+RELEASE_REPOSITORY = "isqsoft/50ohm-site-releases"
+RELEASE_ID_PATTERN = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$")
 OBJECT_FAMILY_DIRECTORIES = {
     "section_article": "sections",
     "slide_article": "slides",
@@ -130,6 +136,14 @@ def language_lock(language: str):
         yield
 
 
+@contextmanager
+def language_locks(languages: tuple[str, ...]):
+    with ExitStack() as stack:
+        for language in sorted(languages):
+            stack.enter_context(language_lock(language))
+        yield
+
+
 def command_output(*args: str) -> str:
     completed = subprocess.run(
         list(args),
@@ -140,6 +154,214 @@ def command_output(*args: str) -> str:
         check=True,
     )
     return completed.stdout.strip()
+
+
+def git_output(repository: Path, *args: str) -> str:
+    completed = subprocess.run(
+        ["git", "-C", str(repository), *args],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+        check=True,
+    )
+    return completed.stdout.strip()
+
+
+def git_repository_is_clean(repository: Path) -> bool:
+    return git_output(repository, "status", "--porcelain") == ""
+
+
+def git_exact_tags(repository: Path, commit: str = "HEAD") -> list[str]:
+    output = git_output(repository, "tag", "--points-at", commit)
+    return sorted(line for line in output.splitlines() if line)
+
+
+def source_repository_state(repository: Path, repository_name: str) -> dict[str, Any]:
+    if not repository.is_dir():
+        raise RuntimeError(f"Release source repository does not exist: {repository}")
+    if not git_repository_is_clean(repository):
+        raise RuntimeError(f"Release source repository is not clean: {repository}")
+    commit = git_output(repository, "rev-parse", "HEAD")
+    return {
+        "repository": repository_name,
+        "commit": commit,
+        "tags": git_exact_tags(repository, commit),
+    }
+
+
+def release_source_states() -> dict[str, dict[str, Any]]:
+    return {
+        "contents": source_repository_state(CONTENT_REPO, "USKA-FOS/50ohm-contents-ch"),
+        "questions": source_repository_state(QUESTION_POOL_REPO, "USKA-FOS/50ohm-question-pool"),
+        "generator": source_repository_state(GENERATOR_ROOT, "USKA-FOS/50ohm-generator"),
+    }
+
+
+def verify_release_source_states(expected: dict[str, dict[str, Any]]) -> None:
+    current = release_source_states()
+    if current != expected:
+        raise RuntimeError("Release source repositories changed during the build.")
+
+
+def validate_release_id(release_id: str) -> None:
+    if not RELEASE_ID_PATTERN.fullmatch(release_id):
+        raise ValueError(
+            "release_id must contain 1-128 letters, digits, dots, underscores, or hyphens "
+            "and must start with a letter or digit."
+        )
+    if ".." in release_id or release_id.endswith(".") or release_id.endswith(".lock"):
+        raise ValueError("release_id is not safe as a Git tag.")
+
+
+def validate_feedback_url(feedback_url: str) -> None:
+    parsed = urlsplit(feedback_url)
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        raise ValueError("feedback_url must be an absolute HTTP or HTTPS URL.")
+    if parsed.query or parsed.fragment:
+        raise ValueError("feedback_url must not contain a query string or fragment.")
+
+
+def validate_release_request(
+    *,
+    release_id: str | None,
+    release_output: Path | None,
+    beta: bool,
+    feedback_url: str,
+    skip_build: bool,
+    languages: tuple[str, ...],
+) -> None:
+    if release_output is not None and release_id is None:
+        raise ValueError("--release-output requires --release-id.")
+    if beta and release_id is None:
+        raise ValueError("--beta requires --release-id.")
+    if release_id is None:
+        return
+    validate_release_id(release_id)
+    validate_feedback_url(feedback_url)
+    if skip_build:
+        raise ValueError("A release cannot be created with --skip-build.")
+    if tuple(languages) != LANGUAGES:
+        raise ValueError("A release requires the complete de/fr/it build.")
+
+
+def clean_complete_build_root() -> None:
+    if BUILD_ROOT.is_symlink() or BUILD_ROOT.is_file():
+        BUILD_ROOT.unlink()
+    elif BUILD_ROOT.exists():
+        shutil.rmtree(BUILD_ROOT)
+    BUILD_ROOT.mkdir(parents=True, exist_ok=True)
+
+
+def tree_digest(root: Path) -> str:
+    digest = sha256()
+    for relative_path, file_digest in tree_manifest(root).items():
+        digest.update(relative_path.encode("utf-8"))
+        digest.update(b"\0")
+        digest.update(file_digest.encode("ascii"))
+        digest.update(b"\n")
+    return digest.hexdigest()
+
+
+def build_release_manifest(
+    *,
+    release_id: str,
+    beta: bool,
+    feedback_url: str,
+    generator_seed: int,
+    sources: dict[str, dict[str, Any]],
+) -> dict[str, Any]:
+    artifacts = {}
+    for language in LANGUAGES:
+        language_root = BUILD_ROOT / language
+        files = path_manifest(language_root)
+        if not files:
+            raise RuntimeError(f"Release build is empty for language={language}.")
+        artifacts[language] = {
+            "path": language,
+            "file_count": len(files),
+            "sha256": tree_digest(language_root),
+        }
+    return {
+        "schema_version": 1,
+        "release_id": release_id,
+        "release_repository": RELEASE_REPOSITORY,
+        "release_tag": release_id,
+        "beta": beta,
+        "feedback_url": feedback_url,
+        "created_at": datetime.now(UTC).isoformat().replace("+00:00", "Z"),
+        "sources": sources,
+        "generator_seed": generator_seed,
+        "languages": list(LANGUAGES),
+        "artifacts": artifacts,
+    }
+
+
+def release_tag_exists(repository: Path, release_id: str) -> bool:
+    completed = subprocess.run(
+        ["git", "-C", str(repository), "show-ref", "--verify", "--quiet", f"refs/tags/{release_id}"],
+        check=False,
+    )
+    return completed.returncode == 0
+
+
+def validate_release_repository(repository: Path, release_id: str) -> None:
+    repository = repository.resolve()
+    try:
+        top_level = Path(git_output(repository, "rev-parse", "--show-toplevel")).resolve()
+    except (FileNotFoundError, subprocess.CalledProcessError) as exc:
+        raise RuntimeError(f"Release output is not a Git repository: {repository}") from exc
+    if top_level != repository:
+        raise RuntimeError(f"Release output must be the Git repository root: {repository}")
+    if not git_repository_is_clean(repository):
+        raise RuntimeError(f"Release repository is not clean: {repository}")
+    if release_tag_exists(repository, release_id):
+        raise RuntimeError(f"Release tag already exists: {release_id}")
+
+
+def promote_release(build_root: Path, release_output: Path, release_id: str) -> dict[str, Any]:
+    release_output = release_output.resolve()
+    validate_release_repository(release_output, release_id)
+    promoted_names = (*LANGUAGES, RELEASE_MANIFEST_NAME)
+    for name in promoted_names:
+        if not (build_root / name).exists():
+            raise RuntimeError(f"Release artifact is missing before promotion: {build_root / name}")
+
+    backup_root = release_output / f".release-promotion-backup-{os.getpid()}"
+    if backup_root.exists():
+        raise RuntimeError(f"Release promotion backup already exists: {backup_root}")
+    backup_root.mkdir()
+    moved_new: list[str] = []
+    moved_old: list[str] = []
+    try:
+        for name in promoted_names:
+            target = release_output / name
+            if target.exists() or target.is_symlink():
+                shutil.move(str(target), str(backup_root / name))
+                moved_old.append(name)
+        for name in promoted_names:
+            shutil.move(str(build_root / name), str(release_output / name))
+            moved_new.append(name)
+    except Exception:
+        for name in reversed(moved_new):
+            target = release_output / name
+            if target.exists() or target.is_symlink():
+                shutil.move(str(target), str(build_root / name))
+        for name in reversed(moved_old):
+            shutil.move(str(backup_root / name), str(release_output / name))
+        raise
+    finally:
+        if backup_root.exists():
+            shutil.rmtree(backup_root)
+
+    for language in LANGUAGES:
+        sync_review_build(language, release_output / language)
+    return {
+        "repository": str(release_output),
+        "branch": git_output(release_output, "branch", "--show-current"),
+        "release_id": release_id,
+        "manifest": str(release_output / RELEASE_MANIFEST_NAME),
+        "languages": {language: str(release_output / language) for language in LANGUAGES},
+    }
 
 
 def canonical_git_is_clean() -> bool:
@@ -924,9 +1146,12 @@ def run_generator(language: str, *, validation_root: Path, generator_seed: int) 
         runner_root / "config" / "config.json",
         build_config(INPUT_ROOT / language, output_root, generator_seed=generator_seed),
     )
+    generator_environment = os.environ.copy()
+    generator_environment.setdefault("UV_CACHE_DIR", str(CONTENT_REPO / "work" / "uv-cache"))
     completed = subprocess.run(
-        ["uv", "run", "python3", "build.py"],
+        ["uv", "run", "python", "build.py"],
         cwd=runner_root,
+        env=generator_environment,
         stdout=subprocess.PIPE,
         stderr=subprocess.STDOUT,
         text=True,
@@ -981,18 +1206,36 @@ def run(
     skip_build: bool = False,
     languages: tuple[str, ...] = LANGUAGES,
     generator_seed: int = DEFAULT_GENERATOR_SEED,
+    release_id: str | None = None,
+    release_output: Path | None = None,
+    beta: bool = False,
+    feedback_url: str = DEFAULT_FEEDBACK_URL,
 ) -> dict[str, Any]:
+    validate_release_request(
+        release_id=release_id,
+        release_output=release_output,
+        beta=beta,
+        feedback_url=feedback_url,
+        skip_build=skip_build,
+        languages=languages,
+    )
+    if release_output is not None:
+        assert release_id is not None
+        validate_release_repository(release_output, release_id)
     reset_runtime_state()
     run_id = make_run_id(languages)
     run_validation_root = validation_run_root(run_id)
     run_validation_root.mkdir(parents=True, exist_ok=True)
+    release_sources = release_source_states() if release_id is not None else None
     db_info = prepare_canonical_database()
     connection = sqlite3.connect(DB_PATH)
     connection.row_factory = sqlite3.Row
     staged: dict[str, dict[str, Any]] = {}
     builds: dict[str, dict[str, Any]] = {}
-    for language in languages:
-        with language_lock(language):
+    with language_locks(languages):
+        if not skip_build and tuple(languages) == LANGUAGES:
+            clean_complete_build_root()
+        for language in languages:
             staged[language] = stage_language(
                 connection,
                 language,
@@ -1006,6 +1249,35 @@ def run(
                 )
     connection.close()
     comparison = compare_outputs(builds, languages) if builds else {}
+    release: dict[str, Any] | None = None
+    if release_id is not None:
+        assert release_sources is not None
+        verify_release_source_states(release_sources)
+        manifest = build_release_manifest(
+            release_id=release_id,
+            beta=beta,
+            feedback_url=feedback_url,
+            generator_seed=generator_seed,
+            sources=release_sources,
+        )
+        manifest_path = BUILD_ROOT / RELEASE_MANIFEST_NAME
+        write_json(manifest_path, manifest)
+        release = {
+            "manifest": str(manifest_path),
+            "promoted": False,
+            "metadata": manifest,
+        }
+        if release_output is not None:
+            promotion = promote_release(BUILD_ROOT, release_output, release_id)
+            for language in LANGUAGES:
+                builds[language]["output_root"] = promotion["languages"][language]
+                builds[language]["review_output_root"] = str(REVIEW_BUILD_ROOT / language)
+            release = {
+                "manifest": promotion["manifest"],
+                "promoted": True,
+                "metadata": manifest,
+                "promotion": promotion,
+            }
     report = {
         "run_id": run_id,
         "validation_root": str(run_validation_root),
@@ -1019,6 +1291,7 @@ def run(
         "staged": staged,
         "builds": builds,
         "comparison": comparison,
+        "release": release,
     }
     write_json(run_validation_root / "summary.json", report)
     return report
@@ -1041,12 +1314,40 @@ def main() -> None:
         choices=LANGUAGES,
         help="Limit staging and build to a single language.",
     )
+    parser.add_argument(
+        "--release-id",
+        help="Create a complete release manifest with this public id and intended Git tag.",
+    )
+    parser.add_argument(
+        "--release-output",
+        type=Path,
+        help=(
+            "Promote a successful complete release into this clean Git repository. "
+            "Requires --release-id."
+        ),
+    )
+    parser.add_argument(
+        "--beta",
+        action="store_true",
+        help="Mark the release as beta. Requires --release-id.",
+    )
+    parser.add_argument(
+        "--feedback-url",
+        default=DEFAULT_FEEDBACK_URL,
+        help=f"Public feedback form URL. Defaults to {DEFAULT_FEEDBACK_URL}.",
+    )
     args = parser.parse_args()
+    if args.release_id is None and args.feedback_url != DEFAULT_FEEDBACK_URL:
+        parser.error("--feedback-url requires --release-id")
     languages = (args.language,) if args.language else LANGUAGES
     report = run(
         skip_build=args.skip_build,
         languages=languages,
         generator_seed=args.generator_seed,
+        release_id=args.release_id,
+        release_output=args.release_output.expanduser().resolve() if args.release_output else None,
+        beta=args.beta,
+        feedback_url=args.feedback_url,
     )
     print(json.dumps(report, indent=2, ensure_ascii=False))
 
