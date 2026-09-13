@@ -1,7 +1,20 @@
 %YPA an EXR:  Keine entsprechenden Fragen in HB. Verbindung Frequenz - Band trotzdem wichtig.  Die Listen in der Marginale sind nicht sehr hübsch. Irgend welcher sinnvoller, zweckmässiger, Inhalt muss erschaffen werden.
 
+Für den Funkbetrieb ist es wichtig zu wissen, welche Frequenzbereiche durch Funkamateure genutzt werden dürfen. Die Bereiche werden auch als Bänder bezeichnet.
 
-Für den Funkbetrieb ist es wichtig zu wissen, welche Frequenzbereiche durch Funkamateure genutzt werden dürfen. Dies lässt sich aus der [Anlage 1 der AFuV](https://50ohm.de/a1) ablesen. Damit sollten die folgenden Fragen leicht zu beantworten sein. Die Anlage 1 der AFuV liegt während der Prüfung als Hilfsmittel bereit.
+
+%übernommen von 2.11
+Für die folgenden Fragen muss man die sehr häufig genutzen Bänder, den jeweiligen Bereichen zuordnen können. Das $\qty{10}{\meter}$-Band gehört gerade noch zur Kurzwelle, $\qty{2}{\meter}$ liegt im VHF- und $\qty{70}{\centi\meter}$ liegt im UHF-Bereich.
+[question:BC101]
+[question:BC102]
+[question:BC103]
+
+
+
+
+
+
+Dies lässt sich aus der [Anlage 1 der AFuV](https://50ohm.de/a1) ablesen. Damit sollten die folgenden Fragen leicht zu beantworten sein. Die Anlage 1 der AFuV liegt während der Prüfung als Hilfsmittel bereit.
 
 <tip>
 Für diese Fragen ist wirklich kein Auswendiglernen oder Ausrechnen erforderlich: Man muss nur überprüfen, welcher der in der Prüfungsfrage angegebenen Werte in der Liste der Anlage 1 auftaucht. Dieser Wert ist dann die richtige Antwort. Die Werte können sich, wie z.B. beim $\qty{160}{\meter}$-Band, auch aus mehreren Einträgen zusammensetzen.
