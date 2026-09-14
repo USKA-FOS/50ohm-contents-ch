@@ -1,32 +1,24 @@
-<!DOCTYPE html>
-<html lang="de">
-// resize and change background to transparency 14-SEP-2026 HB9ARK
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-    Dopplereffekt Visualisierung
-    </title>
+<div class="doppler-widget">
     <style>
-        html, body {
-            background: transparent;
-        }
-        body {
+        .doppler-widget {
             font-family: Arial, sans-serif;
             color: #fff;
-            margin: 0;
-            padding: 12px;
             display: flex;
             flex-direction: column;
             align-items: center;
             box-sizing: border-box;
         }
-        h1 {
-            margin-bottom: 10px;
+        .doppler-widget *,
+        .doppler-widget *::before,
+        .doppler-widget *::after {
+            box-sizing: border-box;
+        }
+        .doppler-widget h2 {
+            margin: 0 0 10px 0;
             font-size: 1.3em;
             text-align: center;
         }
-        .container {
+        .doppler-widget .dw-container {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -35,10 +27,9 @@
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.5);
             max-width: 100%;
-            box-sizing: border-box;
             width: 800px;
         }
-        canvas {
+        .doppler-widget canvas {
             border: 2px solid #4e4e5a;
             border-radius: 8px;
             background-color: #111;
@@ -47,7 +38,7 @@
             height: auto;
             max-width: 800px;
         }
-        .controls {
+        .doppler-widget .dw-controls {
             margin-top: 15px;
             display: flex;
             flex-wrap: wrap;
@@ -55,42 +46,51 @@
             align-items: center;
             justify-content: center;
         }
-        label {
+        .doppler-widget label {
             font-weight: bold;
         }
-        input[type="range"] {
+        .doppler-widget input[type="range"] {
             cursor: pointer;
         }
-        .value-display {
+        .doppler-widget .dw-value {
             display: inline-block;
             width: 50px;
             color: #00ffcc;
         }
+        .doppler-widget button {
+            padding: 5px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+            border: none;
+            background: #00ffcc;
+            color: #111;
+            font-weight: bold;
+        }
     </style>
-</head>
-<body>
 
-    <h1>Visualisierung des Dopplereffekts</h1>
-    
-    <div class="container">
-        <canvas id="dopplerCanvas" width="800" height="400"></canvas>
-        
-        <div class="controls">
+    <h2>Visualisierung des Dopplereffekts</h2>
+
+    <div class="dw-container">
+        <canvas class="dw-canvas" width="800" height="400"></canvas>
+
+        <div class="dw-controls">
             <div>
-                <label for="speedSlider">Geschwindigkeit der Quelle: </label>
-                <input type="range" id="speedSlider" min="0" max="5" step="0.1" value="1.5">
-                <span id="speedValue" class="value-display">1.5</span>
+                <label>Geschwindigkeit der Quelle: </label>
+                <input type="range" class="dw-speed-slider" min="0" max="5" step="0.1" value="1.5">
+                <span class="dw-speed-value dw-value">1.5</span>
             </div>
-            <button id="resetBtn" style="padding: 5px 15px; cursor: pointer; border-radius: 4px; border: none; background: #00ffcc; color: #111; font-weight: bold;">Reset</button>
+            <button type="button" class="dw-reset-btn">Reset</button>
         </div>
     </div>
 
     <script>
-        const canvas = document.getElementById('dopplerCanvas');
+    (function () {
+        const root = document.currentScript.closest('.doppler-widget');
+        const canvas = root.querySelector('.dw-canvas');
         const ctx = canvas.getContext('2d');
-        const speedSlider = document.getElementById('speedSlider');
-        const speedValue = document.getElementById('speedValue');
-        const resetBtn = document.getElementById('resetBtn');
+        const speedSlider = root.querySelector('.dw-speed-slider');
+        const speedValue = root.querySelector('.dw-speed-value');
+        const resetBtn = root.querySelector('.dw-reset-btn');
 
         // Parameter der Simulation
         let source = {
@@ -123,7 +123,7 @@
 
             // Bewegung der Quelle aktualisieren
             source.x += source.vx;
-            
+
             // Wenn die Quelle den rechten Rand verlässt, fängt sie links wieder an
             if (source.x > canvas.width + 20) {
                 source.x = -20;
@@ -174,6 +174,6 @@
 
         // Start der Simulation
         animate();
+    })();
     </script>
-</body>
-</html>
+</div>
