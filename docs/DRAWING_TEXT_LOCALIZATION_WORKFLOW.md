@@ -106,7 +106,10 @@ must not be stored in the glossary. For a source label split across multiple
 lines, the importer distributes a multiword translation over the existing
 lines. If the approved translation is a single word, obsolete trailing source
 line breaks are removed. Exceptional reviewer-controlled breaks use `[[BR]]`
-in the drawing review CSV, not in the glossary.
+for a break without a hyphen and `[[BR-]]` for a break preceded by a hyphen.
+These markers belong in the drawing review artifact, never in the glossary.
+Existing TeX spacing such as `\\[-0.3em]` is presentation detail and is not
+part of the semantic term.
 
 The importer must preserve nested presentation commands around translated
 text. For example, translating `\textbf{\large Frequenz [MHz]}` changes only
@@ -177,6 +180,31 @@ Important review note:
   SVG `<text>` nodes;
 - textual verification must therefore be done from the localized `*.tex`
   files, not by grepping inside the SVG payloads.
+
+### Fallback drawing review import
+
+The September 2026 fallback audit uses the human-reviewed workbook
+`work/drawing_text_audit/fallback_drawing_german_text_review_translation_proposals.xlsx`.
+Only rows whose `decision` is `to_be_translated` are imported. Validate first:
+
+```bash
+python tools/import_fallback_drawing_text_review.py
+```
+
+Apply only after the dry-run succeeds and the repository is clean:
+
+```bash
+python tools/import_fallback_drawing_text_review.py --apply
+```
+
+The import rejects stale canonical references, missing translations, and TeX
+fragments that no longer match. For a German fallback it creates both target
+TeX files from the German source. For an already localized drawing it retains
+the target file and applies only the approved residual correction. The full
+review sheet is preserved as UTF-8 CSV, together with an import audit, under
+`review/drawing_localization/2026-09-14/`. A compatible working render report
+is also written so `render_localized_drawing_svgs.py --from-import-report` can
+render exactly the touched drawings.
 
 ## 3. Syntaxes Currently Extracted
 

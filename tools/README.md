@@ -333,6 +333,26 @@ and generates `*.fr.tex` and `*.it.tex` beside the existing `*.de.tex` files,
 while updating the touched drawing `object.meta.json` files to declare the new
 language-specific TeX assets.
 
+### Import the reviewed German-fallback drawing workbook
+
+Dry-run validation:
+
+```bash
+python tools/import_fallback_drawing_text_review.py
+```
+
+Controlled canonical import:
+
+```bash
+python tools/import_fallback_drawing_text_review.py --apply
+```
+
+Only `decision=to_be_translated` rows are applied. `[[BR]]` inserts a line
+break and `[[BR-]]` inserts a hyphen followed by a line break. The command
+preserves the complete review worksheet as a tracked CSV and writes the
+versioned audit under `review/drawing_localization/2026-09-14/`. It also
+refreshes the working render report consumed by `--from-import-report`.
+
 ### Render localized drawing SVG files from localized TeX files
 
 ```bash

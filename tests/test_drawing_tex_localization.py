@@ -28,6 +28,7 @@ renderer = load_tool("render_localized_drawing_svgs")
 review_preparer = load_tool("prepare_drawing_svg_review")
 review_server = load_tool("serve_drawing_svg_review")
 fallback_exporter = load_tool("export_fallback_drawing_text_review")
+fallback_importer = load_tool("import_fallback_drawing_text_review")
 
 
 class DrawingCandidateExtractionTest(unittest.TestCase):
@@ -126,6 +127,34 @@ class DrawingTranslationImportTest(unittest.TestCase):
             importer.normalize_translation_text(r"\shortstack{ligne 1[[BR]]ligne 2}"),
             r"\shortstack{ligne 1\\ligne 2}",
         )
+
+    def test_expands_hyphenated_line_break_marker(self):
+        self.assertEqual(
+            importer.normalize_translation_text("antenne[[BR-]]cadre"),
+            r"antenne-\\cadre",
+        )
+
+    def test_fallback_import_replaces_all_matching_occurrences(self):
+        candidate = extractor.build_structured_candidate(
+            "canonical/drawings/dr_test", "1", 1, "Sperrbereich", "node_command_text"
+        )
+        source = r"\node {Sperrbereich}; \node {Sperrbereich};"
+        for _ in range(2):
+            source, replaced = fallback_importer.apply_candidate(
+                source, candidate, "bande coupée"
+            )
+            self.assertTrue(replaced)
+        self.assertEqual(source, r"\node {bande coupée}; \node {bande coupée};")
+
+    def test_fallback_import_preserves_math_around_legend_text(self):
+        candidate = extractor.build_structured_candidate(
+            "canonical/drawings/dr_test", "1", 1,
+            r"$f_\text{c}$ bzw. $f_\text{oF2}$", "pgfplots_legend",
+        )
+        source = r"legend entries={$f_\text{c}$ bzw. $f_\text{oF2}$}"
+        updated, replaced = fallback_importer.apply_candidate(source, candidate, "resp.")
+        self.assertTrue(replaced)
+        self.assertEqual(updated, r"legend entries={$f_\text{c}$ resp. $f_\text{oF2}$}")
 
     def test_single_word_translation_removes_obsolete_source_line_break(self):
         source = r"{Spannungs-\\messgerät}"

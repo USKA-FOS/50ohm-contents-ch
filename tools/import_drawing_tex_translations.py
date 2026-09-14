@@ -40,7 +40,7 @@ def normalize_lookup_term(value: str) -> str:
 
 def normalize_translation_text(value: str) -> str:
     normalized = (value or "").replace("\\\\", "\\").strip()
-    return normalized.replace("[[BR]]", r"\\")
+    return normalized.replace("[[BR-]]", r"-\\").replace("[[BR]]", r"\\")
 
 
 def load_csv(path: Path) -> list[dict[str, str]]:
