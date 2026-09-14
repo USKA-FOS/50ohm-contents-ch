@@ -155,14 +155,15 @@ beschrieben werden. Dabei ist $f_0$ die Sendefrequenz, $v_r$ die Relativgeschwin
 Bei LEO-Satelliten kann die Dopplerverschiebung insbesondere bei höheren Frequenzen und bei schmalbandigen Betriebsarten deutlich bemerkbar sein. Deshalb muss die Frequenz während eines Satellitenüberflugs gegebenenfalls laufend nachgeführt werden. Moderne Satellitenstationen können die Dopplerkompensation automatisch durchführen.
 
 <indepth>
-Dieses Applet visualisiert den Dopplereffekt. Mit dem Schieberegler kann die Relativgeschwindigkeit zwischen Sender und Empfänger eingestellt werden.
+Dieses Applet visualisiert den Dopplereffekt. Mit dem Schieberegler kann die *Relativgeschwindigkeit zwischen Sender und Empfänger* eingestellt werden.
   
-- Wenn sich die Quelle auf einem zubewegt, treffen mehr Wellenfronten pro Zeiteinheit ein, was einer Erhöhung der empfangenen Frequenz entspricht.
+- Wenn sich die *Quelle auf einem zubewegt*, treffen mehr Wellenfronten pro Zeiteinheit ein, was einer *Erhöhung der empfangenen Frequenz* entspricht. Obwohl der Sender immer mit der gleichen Frequenz sendet. 
   
-- Wenn sich die Quelle von einem wegbewegt, treffen weniger Wellenfronten pro Zeiteinheit ein, was einer Erniedrigung der empfangenen Frequenz entspricht.
+- Wenn sich die *Quelle von einem wegbewegt*, treffen weniger Wellenfronten pro Zeiteinheit ein, was einer *Erniedrigung der empfangenen Frequenz* entspricht. Obwohl der Sender immer mit der gleichen Frequenz sendet.
 
 [include:doppler_visualisierung]
-[/indepth>
+
+/indepth>
 
 ## Freiraumdämpfung und Funkverbindung
 
