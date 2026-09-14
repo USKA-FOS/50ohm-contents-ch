@@ -340,9 +340,10 @@ uv run python tools/render_localized_drawing_svgs.py --from-import-report --skip
 ```
 
 This renders `*.fr.svg` and `*.it.svg` from the available `*.fr.tex` and
-`*.it.tex` files, updates the touched drawing `object.meta.json` files to
-declare the language-specific SVG assets, and copies the generated SVG files
-into:
+`*.it.tex` files and updates the touched drawing `object.meta.json` files to
+declare the language-specific SVG assets. The renderer can also copy processed
+files into the working review directory, but those incremental copies are not
+a complete or authoritative review export.
 
 - `work/drawing_svg_review/fr/`
 - `work/drawing_svg_review/it/`
@@ -420,20 +421,44 @@ and writes:
 
 ### Review localized drawing SVG files in the browser
 
+Rebuild the complete review export before every review session:
+
+```bash
+python tools/prepare_drawing_svg_review.py
+```
+
+This command constructs a temporary export from canonical, validates that
+every drawing has exactly one German SVG, and atomically replaces
+`work/drawing_svg_review`. It removes stale files from previous sessions. The
+export contains every German drawing and only the explicit French and Italian
+variants that exist in canonical.
+
 ```bash
 uv run python tools/serve_drawing_svg_review.py
 ```
 
-Open `http://127.0.0.1:8765/`. The read-only interface discovers drawing stems
-available in all three `work/drawing_svg_review/{de,fr,it}/` directories and
-shows the three SVG variants together. Navigation is available through the
-previous/next buttons, the drawing selector, and the left/right arrow keys.
-The URL hash preserves the current drawing, and zoom is synchronized across
-the three panels.
+Open `http://127.0.0.1:8765/`. The read-only interface lists every German SVG.
+For FR and IT, it displays the localized SVG when present and otherwise falls
+back to the German SVG with a visible `Fallback DE` marker. Navigation is
+available through the previous/next buttons, the drawing selector, and the
+left/right arrow keys. The URL hash preserves the current drawing, and zoom is
+synchronized across the three panels.
 
 The interface reads review copies only. After changing or rerendering canonical
-SVGs, rerun the renderer without `--no-copy-review` before inspecting them in
-the browser. The interface never writes canonical data or review decisions.
+SVGs, rerun `prepare_drawing_svg_review.py` before inspecting them. The
+interface never writes canonical data or review decisions.
+
+Export one row per candidate `[text, drawing]` tuple for drawings using the
+German fallback:
+
+```bash
+python tools/export_fallback_drawing_text_review.py
+```
+
+The output is
+`work/drawing_text_audit/fallback_drawing_german_text_review.xlsx`. Its first
+two columns are `text` and `drawing_number`; candidates newly found by improved
+TeX syntax coverage are explicitly identified for human validation.
 
 Run its desktop and mobile browser checks with:
 

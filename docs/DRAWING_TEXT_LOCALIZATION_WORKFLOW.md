@@ -192,6 +192,10 @@ This category is extracted from text groups attached to TikZ nodes, including:
 - `\node[...] { ... }`
 - `\node[...](){ ... }`
 
+Direct `\node` commands are reported as `node_command_text`; node clauses
+attached to paths are reported as `node_text`. Positioning tokens between the
+command and its final text group do not hide the visible label.
+
 Examples:
 
 ```tex
@@ -246,6 +250,21 @@ Example:
 ```tex
 \pgftext[x=0.45\pgf@circ@res@left]{\ctikzvalof{bipoles/twoport/text}}
 ```
+
+### 3.3 PGFPlots labels and legends
+
+The extractor covers braced and unbraced `title`, `xlabel`, and `ylabel`
+values, plus `legend entries={...}` and `\addlegendentry{...}`. This includes
+forms such as:
+
+```tex
+xlabel=Zeit,
+ylabel={Höhe [km]},
+legend entries={Winter Nacht, Sommer Nacht}
+```
+
+Legend entries are split only on top-level commas so nested TeX groups remain
+intact.
 
 ## 4. What Is Explicitly Not Treated As Authoritative Text Yet
 
@@ -325,7 +344,19 @@ These review directories are the expected input for the post-render audit.
 
 ### 6.1 Trilingual browser review
 
-Start the local visual comparison tool from `50ohm-contents-ch`:
+First rebuild the review export from the current canonical state:
+
+```bash
+python tools/prepare_drawing_svg_review.py
+```
+
+The command stages the complete export in a temporary directory and replaces
+`work/drawing_svg_review/` only after successful validation and copying. Each
+run therefore removes stale files left by earlier rendering or review runs.
+The exported language directories contain explicit assets only: all German
+SVGs and the French or Italian SVGs that actually exist in canonical.
+
+Then start the local visual comparison tool:
 
 ```bash
 uv run python tools/serve_drawing_svg_review.py
@@ -337,14 +368,14 @@ Then open:
 http://127.0.0.1:8765/
 ```
 
-The server reads the intersection of the SVG files present under:
+The server reads every German SVG under:
 
 - `work/drawing_svg_review/de/`
-- `work/drawing_svg_review/fr/`
-- `work/drawing_svg_review/it/`
 
-Only drawings available in all three languages are listed. The interface shows
-the three variants simultaneously and supports:
+For each FR or IT panel, it uses the explicit localized SVG when present and
+otherwise serves the German SVG as fallback. A visible `Fallback DE` marker
+identifies that situation. The interface shows all three panels simultaneously
+and supports:
 
 - previous and next buttons;
 - direct drawing selection;
@@ -355,10 +386,22 @@ the three variants simultaneously and supports:
 The interface is read-only. It does not change canonical assets, review status,
 or files under `work/`.
 
+Export the fallback text worklist after visual inspection:
+
+```bash
+python tools/export_fallback_drawing_text_review.py
+```
+
+The resulting
+`work/drawing_text_audit/fallback_drawing_german_text_review.xlsx` contains one
+row per unique `[text, drawing]` tuple. `text` is the first column and
+`drawing_number` the second. Previously rejected candidates are omitted;
+newly covered syntax is marked `newly_detected` and still requires human
+validation.
+
 It displays exported review copies rather than reading canonical SVGs directly.
-After a canonical SVG changes, run the renderer with review-copy output enabled
-before reviewing that change. `--metadata-only` intentionally does not refresh
-these copies.
+After a canonical SVG changes, rebuild the review export. Incremental copies
+made by the renderer are not a substitute for this clean reconstruction.
 
 Install and run the reusable browser checks with:
 

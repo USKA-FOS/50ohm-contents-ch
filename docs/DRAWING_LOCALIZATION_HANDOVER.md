@@ -27,8 +27,11 @@ As of 2026-08-22:
 - localized SVG present:
   - `174` `*.fr.svg`
   - `174` `*.it.svg`
-- German SVG review export:
-  - `work/drawing_svg_review/de/`
+- complete SVG review export:
+  - all canonical German drawings;
+  - explicit FR/IT variants where available;
+  - German fallback for missing FR/IT variants in the browser;
+  - rebuilt with `python tools/prepare_drawing_svg_review.py`;
 - trilingual browser review:
   - `uv run python tools/serve_drawing_svg_review.py`
   - `http://127.0.0.1:8765/`
@@ -56,7 +59,11 @@ The current session snapshot is also recorded in:
   - writes a short JSON report and a detailed log.
 - the browser review tool now displays DE, FR, and IT simultaneously with
   direct selection, previous/next navigation, keyboard navigation, and
-  synchronized zoom.
+  synchronized zoom;
+- the browser lists every German drawing and visibly marks the German fallback
+  whenever an explicit French or Italian SVG does not exist;
+- the review export is reconstructed atomically from canonical before review,
+  so stale incremental copies cannot affect the list.
 
 ## 4. Important Rules Already Validated
 
@@ -147,6 +154,13 @@ Visual SVG review export:
 - `work/drawing_svg_review/de/`
 - `work/drawing_svg_review/fr/`
 - `work/drawing_svg_review/it/`
+- deterministic preparation: `python tools/prepare_drawing_svg_review.py`
+
+The completed August 2026 review evidence is versioned separately from the
+replaceable working export:
+
+- `review/drawing_localization/2026-08-22/Review_result.xlsx`
+- `review/drawing_localization/2026-08-22/Review_result_analysis.md`
 
 ## 7. Expected Next Steps
 

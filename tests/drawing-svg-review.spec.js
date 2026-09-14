@@ -17,12 +17,19 @@ test("shows and navigates the trilingual drawing set", async ({ page, request })
   const response = await request.get("/api/drawings");
   expect(response.ok()).toBeTruthy();
   const payload = await response.json();
-  expect(payload.drawings).toHaveLength(174);
+  expect(payload.drawings.length).toBeGreaterThan(0);
   expect(payload.languages).toEqual(["de", "fr", "it"]);
+  expect(payload.availability).toBeTruthy();
 
   await page.goto("/#689");
   await expect(page.locator("#drawing-select")).toHaveValue("689");
   await expectLoadedImages(page);
+  const availability = payload.availability["689"];
+  if (availability.fr) {
+    await expect(page.locator("#fallback-fr")).toBeHidden();
+  } else {
+    await expect(page.locator("#fallback-fr")).toBeVisible();
+  }
 
   const index = payload.drawings.indexOf("689");
   const nextDrawing = payload.drawings[index + 1];
@@ -72,4 +79,19 @@ test("keeps controls and drawings within a mobile viewport", async ({ page }) =>
     path: `${screenshotDir}/drawing-review-mobile.png`,
     fullPage: true,
   });
+});
+
+test("shows the German fallback when localized SVGs are absent", async ({ page, request }) => {
+  const response = await request.get("/api/drawings");
+  const payload = await response.json();
+  const drawing = payload.drawings.find(
+    (stem) => !payload.availability[stem].fr && !payload.availability[stem].it,
+  );
+  expect(drawing).toBeTruthy();
+
+  await page.goto(`/#${drawing}`);
+  await expect(page.locator("#drawing-select")).toHaveValue(drawing);
+  await expectLoadedImages(page);
+  await expect(page.locator("#fallback-fr")).toBeVisible();
+  await expect(page.locator("#fallback-it")).toBeVisible();
 });

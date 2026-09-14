@@ -2,6 +2,7 @@
 
 const state = {
   drawings: [],
+  availability: {},
   index: 0,
   zoom: 100,
 };
@@ -62,6 +63,10 @@ function render() {
       error.hidden = false;
     };
     image.src = `/drawing/${language}/${encodeURIComponent(drawing)}.${language}.svg`;
+    if (language !== "de") {
+      const fallback = document.querySelector(`#fallback-${language}`);
+      fallback.hidden = state.availability[drawing]?.[language] !== false;
+    }
   }
 
   const hash = `#${encodeURIComponent(drawing)}`;
@@ -138,6 +143,7 @@ async function initialize() {
       throw new Error("Aucun dessin trilingue disponible.");
     }
     state.drawings = payload.drawings;
+    state.availability = payload.availability ?? {};
     for (const drawing of state.drawings) {
       const option = document.createElement("option");
       option.value = drawing;

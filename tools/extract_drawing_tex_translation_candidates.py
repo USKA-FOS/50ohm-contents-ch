@@ -189,6 +189,29 @@ def extract_node_candidates(text: str) -> list[tuple[str, str]]:
     return candidates
 
 
+def extract_node_command_candidates(text: str) -> list[tuple[str, str]]:
+    candidates: list[tuple[str, str]] = []
+    for match in re.finditer(r"\\node\b", text):
+        statement_end = text.find(";", match.end())
+        if statement_end == -1:
+            statement_end = len(text)
+        statement = text[match.end():statement_end]
+        groups: list[str] = []
+        cursor = 0
+        while cursor < len(statement):
+            brace_index = statement.find("{", cursor)
+            if brace_index == -1:
+                break
+            try:
+                content, cursor = read_balanced_group(statement, brace_index)
+            except ValueError:
+                break
+            groups.append(content.strip())
+        if groups and looks_translatable(groups[-1]):
+            candidates.append(("node_command_text", groups[-1]))
+    return candidates
+
+
 def extract_pgftext_candidates(text: str) -> list[tuple[str, str]]:
     candidates: list[tuple[str, str]] = []
     cursor = 0
@@ -290,17 +313,63 @@ def extract_pgfplots_option_candidates(text: str) -> list[tuple[str, str]]:
             if not match:
                 break
             index = match.end()
-            if index >= len(text) or text[index] != "{":
-                cursor = index
-                continue
-            try:
-                content, index_after = read_balanced_group(text, index)
-            except ValueError:
-                cursor = index + 1
-                continue
+            if index < len(text) and text[index] == "{":
+                try:
+                    content, index_after = read_balanced_group(text, index)
+                except ValueError:
+                    cursor = index + 1
+                    continue
+            else:
+                bare = read_bare_option_value(text, index)
+                if bare is None:
+                    cursor = index + 1
+                    continue
+                content, index_after = bare
             if looks_translatable(content):
                 candidates.append((f"pgfplots_{option_name}", content.strip()))
             cursor = index_after
+    return candidates
+
+
+def split_top_level_commas(text: str) -> list[str]:
+    parts: list[str] = []
+    start = 0
+    brace_depth = 0
+    for index, char in enumerate(text):
+        if char == "{":
+            brace_depth += 1
+        elif char == "}":
+            brace_depth = max(0, brace_depth - 1)
+        elif char == "," and brace_depth == 0:
+            parts.append(text[start:index].strip())
+            start = index + 1
+    parts.append(text[start:].strip())
+    return [part for part in parts if part]
+
+
+def extract_pgfplots_legend_candidates(text: str) -> list[tuple[str, str]]:
+    candidates: list[tuple[str, str]] = []
+    for match in re.finditer(r"(?<![A-Za-z@])legend entries\s*=\s*", text):
+        index = match.end()
+        if index >= len(text) or text[index] != "{":
+            continue
+        try:
+            content, _index_after = read_balanced_group(text, index)
+        except ValueError:
+            continue
+        for entry in split_top_level_commas(content):
+            if looks_translatable(entry):
+                candidates.append(("pgfplots_legend", entry))
+    for match in re.finditer(r"\\addlegendentry\s*", text):
+        index = match.end()
+        if index >= len(text) or text[index] != "{":
+            continue
+        try:
+            content, _index_after = read_balanced_group(text, index)
+        except ValueError:
+            continue
+        if looks_translatable(content):
+            candidates.append(("pgfplots_legend", content.strip()))
     return candidates
 
 
@@ -501,10 +570,12 @@ def build_candidates(canonical_references: set[str] | None = None) -> list[Candi
         for tex_path in tex_paths:
             content = strip_comments(tex_path.read_text(encoding="utf-8"))
             extracted = extract_node_candidates(content)
+            extracted.extend(extract_node_command_candidates(content))
             extracted.extend(extract_pgftext_candidates(content))
             extracted.extend(extract_circuitikz_label_candidates(content))
             extracted.extend(extract_tikz_option_label_candidates(content))
             extracted.extend(extract_pgfplots_option_candidates(content))
+            extracted.extend(extract_pgfplots_legend_candidates(content))
             extracted.extend(extract_math_text_candidates(content))
             for category, raw_content in extracted:
                 candidate = build_structured_candidate(

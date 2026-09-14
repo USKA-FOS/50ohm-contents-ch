@@ -25,6 +25,9 @@ def load_tool(name: str):
 extractor = load_tool("extract_drawing_tex_translation_candidates")
 importer = load_tool("import_drawing_tex_translations")
 renderer = load_tool("render_localized_drawing_svgs")
+review_preparer = load_tool("prepare_drawing_svg_review")
+review_server = load_tool("serve_drawing_svg_review")
+fallback_exporter = load_tool("export_fallback_drawing_text_review")
 
 
 class DrawingCandidateExtractionTest(unittest.TestCase):
@@ -45,6 +48,34 @@ class DrawingCandidateExtractionTest(unittest.TestCase):
             [
                 ("circuitikz_bare_label", "HF"),
                 ("circuitikz_bare_label", "1.ZF"),
+            ],
+        )
+
+    def test_extracts_node_command_text_after_positioning(self):
+        source = r"\node[align=center] at (axis cs: 1,0.5) {\footnotesize Sperrbereich};"
+        self.assertEqual(
+            extractor.extract_node_command_candidates(source),
+            [("node_command_text", r"\footnotesize Sperrbereich")],
+        )
+
+    def test_extracts_unbraced_pgfplots_labels(self):
+        source = "xlabel=Zeit, ylabel=Wert, title=ASK"
+        self.assertEqual(
+            extractor.extract_pgfplots_option_candidates(source),
+            [
+                ("pgfplots_title", "ASK"),
+                ("pgfplots_xlabel", "Zeit"),
+                ("pgfplots_ylabel", "Wert"),
+            ],
+        )
+
+    def test_extracts_pgfplots_legend_entries(self):
+        source = r"legend entries={Winter Nacht, $f_\text{c}$ bzw. $f_\text{oF2}$}"
+        self.assertEqual(
+            extractor.extract_pgfplots_legend_candidates(source),
+            [
+                ("pgfplots_legend", "Winter Nacht"),
+                ("pgfplots_legend", r"$f_\text{c}$ bzw. $f_\text{oF2}$"),
             ],
         )
 
@@ -229,6 +260,76 @@ class DrawingRendererTest(unittest.TestCase):
                     )
                 )
 
+
+class DrawingReviewExportTest(unittest.TestCase):
+    def test_rebuilds_review_export_and_removes_stale_files(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            canonical = root / "canonical"
+            review = root / "review"
+            drawing = canonical / "dr_test"
+            drawing.mkdir(parents=True)
+            (drawing / "42.de.svg").write_text("de", encoding="utf-8")
+            (drawing / "42.fr.svg").write_text("fr", encoding="utf-8")
+            (review / "de").mkdir(parents=True)
+            (review / "de" / "stale.de.svg").write_text("stale", encoding="utf-8")
+
+            report = review_preparer.prepare_review(canonical, review)
+
+            self.assertEqual(report["drawing_count"], 1)
+            self.assertEqual(
+                report["explicit_variant_counts"], {"de": 1, "fr": 1, "it": 0}
+            )
+            self.assertFalse((review / "de" / "stale.de.svg").exists())
+            self.assertTrue((review / "de" / "42.de.svg").is_file())
+            self.assertTrue((review / "fr" / "42.fr.svg").is_file())
+            self.assertFalse((review / "it" / "42.it.svg").exists())
+
+    def test_server_lists_german_drawings_and_resolves_localized_fallback(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            review = Path(temp_dir)
+            for language in ("de", "fr", "it"):
+                (review / language).mkdir()
+            (review / "de" / "2.de.svg").write_text("de-2", encoding="utf-8")
+            (review / "de" / "10.de.svg").write_text("de-10", encoding="utf-8")
+            (review / "fr" / "2.fr.svg").write_text("fr-2", encoding="utf-8")
+
+            self.assertEqual(review_server.discover_drawings(review), ["2", "10"])
+            localized = review_server.resolve_drawing_path(review, "2", "fr")
+            fallback = review_server.resolve_drawing_path(review, "10", "fr")
+            self.assertEqual(localized, ((review / "fr" / "2.fr.svg").resolve(), False))
+            self.assertEqual(fallback, ((review / "de" / "10.de.svg").resolve(), True))
+
+    def test_fallback_text_workbook_uses_one_text_drawing_tuple_per_row(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            output = Path(temp_dir) / "review.xlsx"
+            rows = [
+                [
+                    "Frequenz",
+                    "42",
+                    "dr_test",
+                    "canonical/drawings/dr_test",
+                    "42.de.tex",
+                    "newly_detected",
+                    "node_text",
+                    "fallback_de",
+                    "fallback_de",
+                    "",
+                    "",
+                    "",
+                ]
+            ]
+            with patch.object(fallback_exporter, "build_rows", return_value=rows):
+                self.assertEqual(
+                    fallback_exporter.write_workbook(output, Path("unused.csv")), 1
+                )
+
+            from openpyxl import load_workbook
+
+            sheet = load_workbook(output, read_only=True, data_only=True).active
+            values = list(sheet.iter_rows(values_only=True))
+            self.assertEqual(values[0][:2], ("text", "drawing_number"))
+            self.assertEqual(values[1][:2], ("Frequenz", "42"))
 
 if __name__ == "__main__":
     unittest.main()

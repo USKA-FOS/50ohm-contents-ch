@@ -186,6 +186,20 @@ main {
   text-align: center;
 }
 
+.language-panel > header .fallback {
+  margin-left: auto;
+  padding: 3px 7px;
+  color: #704d08;
+  background: #fff0bd;
+  border: 1px solid #dfbd57;
+  border-radius: 3px;
+  font-size: 0.68rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+}
+
 .language-de > header span {
   background: #9b6811;
 }

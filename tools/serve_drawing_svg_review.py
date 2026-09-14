@@ -27,22 +27,43 @@ def drawing_sort_key(stem: str) -> tuple[int, int | str, str]:
 
 
 def discover_drawings(review_dir: Path) -> list[str]:
-    """Return drawing stems present in every language review directory."""
-    language_stems: list[set[str]] = []
+    """Return every German drawing stem available for review."""
     for language in LANGUAGES:
         language_dir = review_dir / language
         if not language_dir.is_dir():
             raise FileNotFoundError(f"Missing drawing review directory: {language_dir}")
-        suffix = f".{language}.svg"
-        stems = {
-            path.name[: -len(suffix)]
-            for path in language_dir.glob(f"*{suffix}")
-            if path.is_file()
-        }
-        language_stems.append(stems)
+    german_dir = review_dir / "de"
+    suffix = ".de.svg"
+    stems = {
+        path.name[: -len(suffix)]
+        for path in german_dir.glob(f"*{suffix}")
+        if path.is_file()
+    }
+    return sorted(stems, key=drawing_sort_key)
 
-    common_stems = set.intersection(*language_stems)
-    return sorted(common_stems, key=drawing_sort_key)
+
+def drawing_availability(review_dir: Path, drawings: list[str]) -> dict[str, dict[str, bool]]:
+    return {
+        stem: {
+            language: (review_dir / language / f"{stem}.{language}.svg").is_file()
+            for language in LANGUAGES
+        }
+        for stem in drawings
+    }
+
+
+def resolve_drawing_path(review_dir: Path, stem: str, language: str) -> tuple[Path, bool] | None:
+    language_dir = (review_dir / language).resolve()
+    localized_path = (language_dir / f"{stem}.{language}.svg").resolve()
+    if localized_path.parent == language_dir and localized_path.is_file():
+        return localized_path, False
+    if language == "de":
+        return None
+    german_dir = (review_dir / "de").resolve()
+    german_path = (german_dir / f"{stem}.de.svg").resolve()
+    if german_path.parent == german_dir and german_path.is_file():
+        return german_path, True
+    return None
 
 
 def create_handler(review_dir: Path, static_dir: Path = STATIC_DIR) -> type[BaseHTTPRequestHandler]:
@@ -84,7 +105,11 @@ def create_handler(review_dir: Path, static_dir: Path = STATIC_DIR) -> type[Base
                 self._send_error(HTTPStatus.INTERNAL_SERVER_ERROR, str(exc))
                 return
             payload = json.dumps(
-                {"drawings": drawings, "languages": list(LANGUAGES)},
+                {
+                    "drawings": drawings,
+                    "languages": list(LANGUAGES),
+                    "availability": drawing_availability(resolved_review_dir, drawings),
+                },
                 ensure_ascii=True,
             ).encode("utf-8")
             self._send_bytes(payload, "application/json; charset=utf-8")
@@ -100,11 +125,11 @@ def create_handler(review_dir: Path, static_dir: Path = STATIC_DIR) -> type[Base
                 self._send_error(HTTPStatus.NOT_FOUND, "Drawing not found.")
                 return
 
-            language_dir = (resolved_review_dir / language).resolve()
-            drawing_path = (language_dir / filename).resolve()
-            if drawing_path.parent != language_dir or not drawing_path.is_file():
+            resolved = resolve_drawing_path(resolved_review_dir, match.group(1), language)
+            if resolved is None:
                 self._send_error(HTTPStatus.NOT_FOUND, "Drawing not found.")
                 return
+            drawing_path, _used_fallback = resolved
             self._serve_file(drawing_path, "image/svg+xml")
 
         def _serve_file(self, path: Path, content_type: str | None = None) -> None:
@@ -153,7 +178,7 @@ def main() -> None:
     review_dir = args.review_dir.resolve()
     drawings = discover_drawings(review_dir)
     if not drawings:
-        raise SystemExit(f"No drawing is present in all three language directories: {review_dir}")
+        raise SystemExit(f"No German drawing is available for review: {review_dir}")
     if not STATIC_DIR.is_dir():
         raise SystemExit(f"Missing review interface files: {STATIC_DIR}")
 
