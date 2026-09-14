@@ -92,27 +92,44 @@ def create_handler(review_dir: Path, static_dir: Path = STATIC_DIR) -> type[Base
             if path == "/api/drawings":
                 self._serve_manifest()
                 return
+            if path == "/manifest.json":
+                self._serve_file(resolved_review_dir / "manifest.json", "application/json; charset=utf-8")
+                return
             if path.startswith("/drawing/"):
                 self._serve_drawing(path)
+                return
+            if any(path.startswith(f"/{language}/") for language in LANGUAGES):
+                self._serve_static_drawing(path)
                 return
 
             self._send_error(HTTPStatus.NOT_FOUND, "Resource not found.")
 
         def _serve_manifest(self) -> None:
             try:
-                drawings = discover_drawings(resolved_review_dir)
-            except FileNotFoundError as exc:
+                manifest = json.loads(
+                    (resolved_review_dir / "manifest.json").read_text(encoding="utf-8")
+                )
+            except (FileNotFoundError, json.JSONDecodeError) as exc:
                 self._send_error(HTTPStatus.INTERNAL_SERVER_ERROR, str(exc))
                 return
-            payload = json.dumps(
-                {
-                    "drawings": drawings,
-                    "languages": list(LANGUAGES),
-                    "availability": drawing_availability(resolved_review_dir, drawings),
-                },
-                ensure_ascii=True,
-            ).encode("utf-8")
+            payload = json.dumps(manifest, ensure_ascii=True).encode("utf-8")
             self._send_bytes(payload, "application/json; charset=utf-8")
+
+        def _serve_static_drawing(self, request_path: str) -> None:
+            parts = request_path.lstrip("/").split("/")
+            if len(parts) != 2 or parts[0] not in LANGUAGES:
+                self._send_error(HTTPStatus.NOT_FOUND, "Drawing not found.")
+                return
+            match = DRAWING_FILE_PATTERN.fullmatch(parts[1])
+            if match is None or match.group(2) != parts[0]:
+                self._send_error(HTTPStatus.NOT_FOUND, "Drawing not found.")
+                return
+            language_dir = (resolved_review_dir / parts[0]).resolve()
+            drawing_path = (language_dir / parts[1]).resolve()
+            if drawing_path.parent != language_dir:
+                self._send_error(HTTPStatus.NOT_FOUND, "Drawing not found.")
+                return
+            self._serve_file(drawing_path, "image/svg+xml")
 
         def _serve_drawing(self, request_path: str) -> None:
             parts = request_path.removeprefix("/drawing/").split("/")

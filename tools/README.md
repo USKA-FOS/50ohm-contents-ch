@@ -462,11 +462,23 @@ For FR and IT, it displays the localized SVG when present and otherwise falls
 back to the German SVG with a visible `Fallback DE` marker. Navigation is
 available through the previous/next buttons, the drawing selector, and the
 left/right arrow keys. The URL hash preserves the current drawing, and zoom is
-synchronized across the three panels.
+synchronized across the three panels. `Translated only` retains drawings with
+explicit FR and IT SVGs. The feedback button carries the review ID, drawing
+number, and canonical ID to the common feedback form.
 
 The interface reads review copies only. After changing or rerendering canonical
 SVGs, rerun `prepare_drawing_svg_review.py` before inspecting them. The
 interface never writes canonical data or review decisions.
+
+Create a self-contained public export only from a committed canonical state:
+
+```bash
+python tools/prepare_drawing_svg_review.py \
+  --review-dir ../50ohm-site-releases/drawing-review \
+  --require-clean-source
+```
+
+See `docs/DRAWING_REVIEW_DEPLOYMENT.md` for the manifest and server contract.
 
 Export one row per candidate `[text, drawing]` tuple for drawings using the
 German fallback:

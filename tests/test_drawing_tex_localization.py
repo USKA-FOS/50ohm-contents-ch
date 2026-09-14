@@ -313,7 +313,12 @@ class DrawingReviewExportTest(unittest.TestCase):
             (review / "de").mkdir(parents=True)
             (review / "de" / "stale.de.svg").write_text("stale", encoding="utf-8")
 
-            report = review_preparer.prepare_review(canonical, review)
+            report = review_preparer.prepare_review(
+                canonical,
+                review,
+                review_id="drawing-review-test",
+                source_state={"commit": "a" * 40, "dirty": False},
+            )
 
             self.assertEqual(report["drawing_count"], 1)
             self.assertEqual(
@@ -323,6 +328,16 @@ class DrawingReviewExportTest(unittest.TestCase):
             self.assertTrue((review / "de" / "42.de.svg").is_file())
             self.assertTrue((review / "fr" / "42.fr.svg").is_file())
             self.assertFalse((review / "it" / "42.it.svg").exists())
+            self.assertTrue((review / "index.html").is_file())
+            self.assertTrue((review / "assets" / "review.js").is_file())
+            manifest = json.loads((review / "manifest.json").read_text(encoding="utf-8"))
+            self.assertEqual(manifest["review_id"], "drawing-review-test")
+            self.assertEqual(manifest["context_type"], "drawing_review")
+            self.assertEqual(manifest["drawings"]["42"]["canonical_id"], "dr_test")
+            self.assertEqual(
+                manifest["drawings"]["42"]["availability"],
+                {"de": True, "fr": True, "it": False},
+            )
 
     def test_server_lists_german_drawings_and_resolves_localized_fallback(self):
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -338,6 +353,23 @@ class DrawingReviewExportTest(unittest.TestCase):
             fallback = review_server.resolve_drawing_path(review, "10", "fr")
             self.assertEqual(localized, ((review / "fr" / "2.fr.svg").resolve(), False))
             self.assertEqual(fallback, ((review / "de" / "10.de.svg").resolve(), True))
+
+    def test_public_review_requires_clean_canonical_source(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            canonical = root / "canonical"
+            review = root / "review"
+            drawing = canonical / "dr_test"
+            drawing.mkdir(parents=True)
+            (drawing / "42.de.svg").write_text("de", encoding="utf-8")
+
+            with self.assertRaisesRegex(RuntimeError, "canonical/ is not clean"):
+                review_preparer.prepare_review(
+                    canonical,
+                    review,
+                    source_state={"commit": "a" * 40, "dirty": True},
+                    require_clean_source=True,
+                )
 
     def test_fallback_text_workbook_uses_one_text_drawing_tuple_per_row(self):
         with tempfile.TemporaryDirectory() as temp_dir:

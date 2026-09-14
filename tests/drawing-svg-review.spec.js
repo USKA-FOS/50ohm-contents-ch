@@ -17,22 +17,22 @@ test("shows and navigates the trilingual drawing set", async ({ page, request })
   const response = await request.get("/api/drawings");
   expect(response.ok()).toBeTruthy();
   const payload = await response.json();
-  expect(payload.drawings.length).toBeGreaterThan(0);
-  expect(payload.languages).toEqual(["de", "fr", "it"]);
-  expect(payload.availability).toBeTruthy();
+  const drawings = Object.keys(payload.drawings);
+  expect(drawings.length).toBeGreaterThan(0);
+  expect(payload.context_type).toBe("drawing_review");
 
   await page.goto("/#689");
   await expect(page.locator("#drawing-select")).toHaveValue("689");
   await expectLoadedImages(page);
-  const availability = payload.availability["689"];
+  const availability = payload.drawings["689"].availability;
   if (availability.fr) {
     await expect(page.locator("#fallback-fr")).toBeHidden();
   } else {
     await expect(page.locator("#fallback-fr")).toBeVisible();
   }
 
-  const index = payload.drawings.indexOf("689");
-  const nextDrawing = payload.drawings[index + 1];
+  const index = drawings.indexOf("689");
+  const nextDrawing = drawings[index + 1];
   await page.locator("#next").click();
   await expect(page.locator("#drawing-select")).toHaveValue(nextDrawing);
   await expectLoadedImages(page);
@@ -84,8 +84,8 @@ test("keeps controls and drawings within a mobile viewport", async ({ page }) =>
 test("shows the German fallback when localized SVGs are absent", async ({ page, request }) => {
   const response = await request.get("/api/drawings");
   const payload = await response.json();
-  const drawing = payload.drawings.find(
-    (stem) => !payload.availability[stem].fr && !payload.availability[stem].it,
+  const drawing = Object.keys(payload.drawings).find(
+    (stem) => !payload.drawings[stem].availability.fr && !payload.drawings[stem].availability.it,
   );
   expect(drawing).toBeTruthy();
 
@@ -94,4 +94,23 @@ test("shows the German fallback when localized SVGs are absent", async ({ page, 
   await expectLoadedImages(page);
   await expect(page.locator("#fallback-fr")).toBeVisible();
   await expect(page.locator("#fallback-it")).toBeVisible();
+});
+
+test("filters fully translated drawings and builds a contextual feedback link", async ({ page, request }) => {
+  const response = await request.get("/api/drawings");
+  const payload = await response.json();
+  const translated = Object.entries(payload.drawings)
+    .filter(([, detail]) => detail.availability.fr && detail.availability.it)
+    .map(([stem]) => stem);
+  expect(translated.length).toBeGreaterThan(0);
+
+  await page.goto("/");
+  await page.locator("#filter-translated").click();
+  await expect(page.locator("#drawing-select option")).toHaveCount(translated.length);
+  const drawing = await page.locator("#drawing-select").inputValue();
+  const feedback = new URL(await page.locator("#feedback").getAttribute("href"));
+  expect(feedback.searchParams.get("context")).toBe("drawing_review");
+  expect(feedback.searchParams.get("review_id")).toBe(payload.review_id);
+  expect(feedback.searchParams.get("drawing")).toBe(drawing);
+  expect(feedback.searchParams.get("canonical_id")).toBe(payload.drawings[drawing].canonical_id);
 });
