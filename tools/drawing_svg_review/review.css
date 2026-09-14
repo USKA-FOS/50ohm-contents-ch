@@ -340,6 +340,15 @@ main {
     justify-content: center;
   }
 
+  .zoom-controls {
+    flex-wrap: wrap;
+  }
+
+  .feedback-button {
+    flex-basis: 100%;
+    justify-content: center;
+  }
+
   .drawing-select-label {
     position: absolute;
     width: 1px;
