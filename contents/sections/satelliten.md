@@ -163,13 +163,13 @@ Dieses Applet visualisiert den Dopplereffekt. Mit dem Schieberegler kann die *Re
 
 [include:doppler_visualisierung]
 
-/indepth>
+</indepth>
 
 ## Freiraumdämpfung und Funkverbindung
 
 Das Funksignal eines Satelliten muss eine grosse Entfernung zwischen Bodenstation und Satellit zurücklegen. Dabei entsteht die sogenannte Freiraumdämpfung. Sie nimmt mit zunehmender Entfernung und mit steigender Frequenz zu.
 
-Für eine ideale Freiraumverbindung gilt:
+Für eine ideale Freiraumverbindung gilt die Frii'sche Freiraumformel, welche die Basis für jedes Linkbudget bildet:
 
 $$L_{FS}=20\log_{10}\left(\frac{4\pi d}{\lambda}\right)$$
 
