@@ -226,16 +226,12 @@ LEO-CubeSat zu einer Bodenstation könnte so aussehen:
 | Sendeleistung | 1 W = 0 dBW |
 | TX-Kabel und Stecker | −1 dB |
 | Sendeantenne | +3 dBi |
-| *EIRP* | *+2 dBW* |
+| EIRP | +2 dBW |
 | Entfernung | 1 000 km |
 | Freiraumdämpfung | −135,7 dB |
 | Empfangsantenne | +15 dBi |
 | RX-Kabel und Stecker | −2 dB |
-| Empfangsleistung* | −120,7 dBW = −90,7 dBm |
-
-Merksatz
-Empfangsleistung = Sendeleistung + Antennengewinne − Verluste − Freiraumdämpfung
-Die Kabel- und Stecker-Verluste werden dabei einfach als Verlust in dB abgezogen.
+| Empfangsleistung | −120,7 dBW = −90,7 dBm |
 
 In einem echten Linkbudget kommen weitere Faktoren hinzu, z. B. Modulationsart, Datenrate, Empfängerrauschen und Linkreserve.
 </indepth>
