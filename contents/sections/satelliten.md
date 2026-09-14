@@ -142,6 +142,8 @@ Die Position eines Satelliten am Himmel wird durch den Azimut, also die Richtung
 
 Der Bereich auf der Erdoberfläche, von dem aus ein Satellit grundsätzlich über dem Horizont gesehen werden kann, wird als Footprint bezeichnet. Je höher der Satellit fliegt, desto grösser kann dieser Bereich sein.
 
+---
+
 ## Dopplereffekt beim Satellitenfunk
 
 Da sich ein Satellit relativ zur Funkstation auf der Erde bewegt, tritt bei einer Funkverbindung mit dem Satelliten der Dopplereffekt auf. Dabei verändert sich die empfangene Frequenz gegenüber der tatsächlich ausgesendeten Frequenz.
