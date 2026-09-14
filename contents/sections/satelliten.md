@@ -216,10 +216,32 @@ Amateurfunksatelliten verfügen über eine Bake. Eine Bake sendet automatisch in
 Beim Empfang einer Bake kann eine Funkstation beispielsweise feststellen, ob der Satellit bereits über dem Horizont steht, wie sich die Empfangsfrequenz durch den Dopplereffekt verändert und wie gut die Funkverbindung funktioniert.
 
 <indepth>
-Vereinfachtes Beispiel für ein Downlink-Budget eines CubeSats
+# Vereinfachtes Downlink-Budget eines LEO-CubeSats bei 145 MHz
 
-TABELLE ZU ERSTELLEN 
+Ein stark vereinfachtes Beispiel für einen Downlink von einem
+LEO-CubeSat zu einer Bodenstation könnte so aussehen:
 
+| Grösse | Beispielwert |
+|---|---:|
+| Frequenz | 145 MHz |
+| Sendeleistung | 1 W = 0 dBW |
+| TX-Kabel und Stecker | −1 dB |
+| Sendeantenne | +3 dBi |
+| **EIRP** | **+2 dBW** |
+| Entfernung | 1 000 km |
+| Freiraumdämpfung | −135,7 dB |
+| Empfangsantenne | +15 dBi |
+| RX-Kabel und Stecker | −2 dB |
+| **Empfangsleistung** | **−120,7 dBW = −90,7 dBm** |
+
+## Merksatz
+
+**Empfangsleistung = Sendeleistung + Antennengewinne − Verluste − Freiraumdämpfung**
+
+Die Kabel- und Stecker-Verluste werden dabei einfach als **Verlust in dB**
+abgezogen.
+
+In einem echten Linkbudget kommen weitere Faktoren hinzu, z. B. Modulationsart, Datenrate, Empfängerrauschen und Linkreserve.
 </indepth>
 
 <tip>
