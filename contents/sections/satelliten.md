@@ -181,6 +181,27 @@ Dabei ist $d$ die Entfernung zwischen Sender und Empfänger und $\lambda$ die We
 
 Für eine funktionierende Satellitenverbindung müssen deshalb Sendeleistung, Antennengewinn, Kabelverluste, Freiraumdämpfung und Empfängerempfindlichkeit gemeinsam betrachtet werden. Diese Betrachtung wird als Linkbudget bezeichnet.
 
+<indepth>
+*Vereinfachtes Downlink-Budget eines LEO-CubeSats bei 145 MHz*
+
+Ein stark vereinfachtes Beispiel für einen Downlink von einem
+LEO-CubeSat zu einer Bodenstation könnte so aussehen:
+
+| Grösse | Beispielwert |
+| Frequenz | 145 MHz |
+| Sendeleistung | 1 W = 0 dBW |
+| TX-Kabel und Stecker | −1 dB |
+| Sendeantenne | +3 dBi |
+| EIRP | +2 dBW |
+| Entfernung | 1 000 km |
+| Freiraumdämpfung | −135,7 dB |
+| Empfangsantenne | +15 dBi |
+| RX-Kabel und Stecker | −2 dB |
+| Empfangsleistung | −120,7 dBW = −90,7 dBm |
+
+In einem echten Linkbudget kommen weitere Faktoren hinzu, z. B. Modulationsart, Datenrate, Empfängerrauschen und Linkreserve.
+</indepth>
+
 ## Antennen und Polarisation
 
 Da sich der Satellit während eines Überflugs bewegt, verändert sich auch seine Richtung relativ zur Bodenstation. Für viele Satellitenverbindungen werden deshalb Antennen mit geeignetem Gewinn und einer ausreichenden Richtwirkung eingesetzt. Bei stärker richtenden Antennen kann eine Nachführung der Antenne erforderlich sein.
@@ -214,27 +235,6 @@ Damit lassen sich Überflüge planen und Funkgeräte sowie Antennen automatisch 
 Amateurfunksatelliten verfügen über eine Bake. Eine Bake sendet automatisch in regelmässigen Abständen oder kontinuierlich definierte Signale aus. Sie kann dazu dienen, die Empfangbarkeit des Satelliten, die Ausbreitungsbedingungen und den Zustand der Funknutzlast zu beobachten.
 
 Beim Empfang einer Bake kann eine Funkstation beispielsweise feststellen, ob der Satellit bereits über dem Horizont steht, wie sich die Empfangsfrequenz durch den Dopplereffekt verändert und wie gut die Funkverbindung funktioniert.
-
-<indepth>
-*Vereinfachtes Downlink-Budget eines LEO-CubeSats bei 145 MHz*
-
-Ein stark vereinfachtes Beispiel für einen Downlink von einem
-LEO-CubeSat zu einer Bodenstation könnte so aussehen:
-
-| Grösse | Beispielwert |
-| Frequenz | 145 MHz |
-| Sendeleistung | 1 W = 0 dBW |
-| TX-Kabel und Stecker | −1 dB |
-| Sendeantenne | +3 dBi |
-| EIRP | +2 dBW |
-| Entfernung | 1 000 km |
-| Freiraumdämpfung | −135,7 dB |
-| Empfangsantenne | +15 dBi |
-| RX-Kabel und Stecker | −2 dB |
-| Empfangsleistung | −120,7 dBW = −90,7 dBm |
-
-In einem echten Linkbudget kommen weitere Faktoren hinzu, z. B. Modulationsart, Datenrate, Empfängerrauschen und Linkreserve.
-</indepth>
 
 <tip>
 Mit Amateurfunk über Satelliten befassen sich weltweit die AMSAT-Organisationen, in der Schweiz ist das [AMSAT-HB](https://amsat-hb.org/) 
