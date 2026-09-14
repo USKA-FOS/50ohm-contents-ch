@@ -65,6 +65,8 @@ Im Amateurfunkdienst über Satelliten gilt eine Ausnahme von der Pflicht, nur of
 Aufgrund der von Satelliten verwendeten Frequenzen setzt der Amateurfunk über Satelliten eine HB9-Konzession voraus.
 </attention>
 
+---
+
 **XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX**
 **IDEEN-SAMMLUNG FÜR DEN HB3-TEIL**
 **DIESER TEIL GEHÖRT DANN IN EIN FORTSETZUNGS KAPITEL FÜR DEN HB9-TEIL**
