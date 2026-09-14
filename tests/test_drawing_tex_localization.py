@@ -156,6 +156,16 @@ class DrawingTranslationImportTest(unittest.TestCase):
         self.assertTrue(replaced)
         self.assertEqual(updated, r"legend entries={$f_\text{c}$ resp. $f_\text{oF2}$}")
 
+    def test_fallback_import_accepts_already_applied_formula(self):
+        source = r"$f_\mathrm{OSZ}$"
+        target = r"$f_\mathrm{o}$"
+        updated, replaced, already_applied = fallback_importer.replace_once_or_accept_applied(
+            target, source, target
+        )
+        self.assertEqual(updated, target)
+        self.assertFalse(replaced)
+        self.assertTrue(already_applied)
+
     def test_single_word_translation_removes_obsolete_source_line_break(self):
         source = r"{Spannungs-\\messgerät}"
         segments = importer.translation_segments_for_regular(source, "voltmètre")

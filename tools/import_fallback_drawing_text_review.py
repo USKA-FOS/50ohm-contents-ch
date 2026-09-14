@@ -105,6 +105,15 @@ def replace_once(text: str, source: str, target: str) -> tuple[str, bool]:
     return text.replace(source, target, 1), True
 
 
+def replace_once_or_accept_applied(
+    text: str, source: str, target: str
+) -> tuple[str, bool, bool]:
+    updated, replaced = replace_once(text, source, target)
+    if replaced:
+        return updated, True, False
+    return text, False, target in text
+
+
 def apply_candidate(text: str, candidate: extractor.Candidate, translation: str) -> tuple[str, bool]:
     category = candidate.category
     source_term = tex_importer.normalize_lookup_term(candidate.translatable_text)
@@ -183,6 +192,7 @@ def plan_import(rows: list[dict[str, str]]) -> dict[str, Any]:
         stem = source_path.name.removesuffix(".de.tex")
         rendered: dict[str, str] = {}
         replacement_counts = {language: 0 for language in LANGUAGES}
+        already_applied_counts = {language: 0 for language in LANGUAGES}
         expected_counts = {language: 0 for language in LANGUAGES}
         for language in LANGUAGES:
             target_path = object_dir / f"{stem}.{language}.tex"
@@ -193,12 +203,13 @@ def plan_import(rows: list[dict[str, str]]) -> dict[str, Any]:
                 translation = row[language].strip()
                 if row["category"] == "math_text_subscript":
                     source = row["text_de_ori"].strip()
-                    content, replaced = replace_once(
+                    content, replaced, already_applied = replace_once_or_accept_applied(
                         content, source, tex_importer.normalize_translation_text(translation)
                     )
                     expected_counts[language] += 1
                     replacement_counts[language] += int(replaced)
-                    if not replaced:
+                    already_applied_counts[language] += int(already_applied)
+                    if not replaced and not already_applied:
                         errors.append(f"Missing OSZ expression in {base_path}: {source}")
                     continue
                 matches = matching_candidates(row, candidate_index)
@@ -221,6 +232,7 @@ def plan_import(rows: list[dict[str, str]]) -> dict[str, Any]:
                 "it_tex": str((object_dir / f"{stem}.it.tex").relative_to(REPO_ROOT)),
                 "selected_rows": len(reference_rows),
                 "replacement_counts": replacement_counts,
+                "already_applied_counts": already_applied_counts,
                 "expected_counts": expected_counts,
             }
         )
