@@ -1,0 +1,1477 @@
+{
+  "workflow": "fallback_drawing_text_review_import",
+  "created_at": "2026-09-14T20:47:19.026590+00:00",
+  "applied": true,
+  "source_workbook": "work/drawing_text_audit/fallback_drawing_german_text_review_translation_proposals.xlsx",
+  "source_workbook_sha256": "3c32e472b392d43b9f82600734b7b8f3b1c787f9003515058191fd8213bd9f58",
+  "review_csv": "review/drawing_localization/2026-09-14/fallback_drawing_text_review.csv",
+  "review_csv_sha256": "7e360ebb6d9debbafd24407a3faf8c4409581a14d5d6baf9d9c851497b26f1fc",
+  "selected_rows": 131,
+  "updated_drawing_count": 73,
+  "line_break_markers": {
+    "without_hyphen": "[[BR]]",
+    "with_hyphen": "[[BR-]]"
+  },
+  "updated_drawings": [
+    {
+      "canonical_reference": "canonical/drawings/dr_04f4064cd923",
+      "drawing_number": "402",
+      "de_tex": "canonical/drawings/dr_04f4064cd923/402.de.tex",
+      "fr_tex": "canonical/drawings/dr_04f4064cd923/402.fr.tex",
+      "it_tex": "canonical/drawings/dr_04f4064cd923/402.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_07cfdd1e7d98",
+      "drawing_number": "409",
+      "de_tex": "canonical/drawings/dr_07cfdd1e7d98/409.de.tex",
+      "fr_tex": "canonical/drawings/dr_07cfdd1e7d98/409.fr.tex",
+      "it_tex": "canonical/drawings/dr_07cfdd1e7d98/409.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_07d381b1ba01",
+      "drawing_number": "204",
+      "de_tex": "canonical/drawings/dr_07d381b1ba01/204.de.tex",
+      "fr_tex": "canonical/drawings/dr_07d381b1ba01/204.fr.tex",
+      "it_tex": "canonical/drawings/dr_07d381b1ba01/204.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_090781debad1",
+      "drawing_number": "403",
+      "de_tex": "canonical/drawings/dr_090781debad1/403.de.tex",
+      "fr_tex": "canonical/drawings/dr_090781debad1/403.fr.tex",
+      "it_tex": "canonical/drawings/dr_090781debad1/403.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_0a4f9f531916",
+      "drawing_number": "650",
+      "de_tex": "canonical/drawings/dr_0a4f9f531916/650.de.tex",
+      "fr_tex": "canonical/drawings/dr_0a4f9f531916/650.fr.tex",
+      "it_tex": "canonical/drawings/dr_0a4f9f531916/650.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_1162d81517f1",
+      "drawing_number": "408",
+      "de_tex": "canonical/drawings/dr_1162d81517f1/408.de.tex",
+      "fr_tex": "canonical/drawings/dr_1162d81517f1/408.fr.tex",
+      "it_tex": "canonical/drawings/dr_1162d81517f1/408.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_195a1b379f97",
+      "drawing_number": "970",
+      "de_tex": "canonical/drawings/dr_195a1b379f97/970.de.tex",
+      "fr_tex": "canonical/drawings/dr_195a1b379f97/970.fr.tex",
+      "it_tex": "canonical/drawings/dr_195a1b379f97/970.it.tex",
+      "selected_rows": 3,
+      "replacement_counts": {
+        "fr": 3,
+        "it": 3
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 3,
+        "it": 3
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_1fd4f7e0651a",
+      "drawing_number": "994",
+      "de_tex": "canonical/drawings/dr_1fd4f7e0651a/994.de.tex",
+      "fr_tex": "canonical/drawings/dr_1fd4f7e0651a/994.fr.tex",
+      "it_tex": "canonical/drawings/dr_1fd4f7e0651a/994.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_2079b8f11324",
+      "drawing_number": "630",
+      "de_tex": "canonical/drawings/dr_2079b8f11324/630.de.tex",
+      "fr_tex": "canonical/drawings/dr_2079b8f11324/630.fr.tex",
+      "it_tex": "canonical/drawings/dr_2079b8f11324/630.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_26b175745ed2",
+      "drawing_number": "86",
+      "de_tex": "canonical/drawings/dr_26b175745ed2/86.de.tex",
+      "fr_tex": "canonical/drawings/dr_26b175745ed2/86.fr.tex",
+      "it_tex": "canonical/drawings/dr_26b175745ed2/86.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "already_applied_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_2bd9759d65d2",
+      "drawing_number": "203",
+      "de_tex": "canonical/drawings/dr_2bd9759d65d2/203.de.tex",
+      "fr_tex": "canonical/drawings/dr_2bd9759d65d2/203.fr.tex",
+      "it_tex": "canonical/drawings/dr_2bd9759d65d2/203.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_2f1492a8022d",
+      "drawing_number": "1010",
+      "de_tex": "canonical/drawings/dr_2f1492a8022d/1010.de.tex",
+      "fr_tex": "canonical/drawings/dr_2f1492a8022d/1010.fr.tex",
+      "it_tex": "canonical/drawings/dr_2f1492a8022d/1010.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_3555d09607af",
+      "drawing_number": "997",
+      "de_tex": "canonical/drawings/dr_3555d09607af/997.de.tex",
+      "fr_tex": "canonical/drawings/dr_3555d09607af/997.fr.tex",
+      "it_tex": "canonical/drawings/dr_3555d09607af/997.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_36052217a4d8",
+      "drawing_number": "411",
+      "de_tex": "canonical/drawings/dr_36052217a4d8/411.de.tex",
+      "fr_tex": "canonical/drawings/dr_36052217a4d8/411.fr.tex",
+      "it_tex": "canonical/drawings/dr_36052217a4d8/411.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_38ad714a80ba",
+      "drawing_number": "995",
+      "de_tex": "canonical/drawings/dr_38ad714a80ba/995.de.tex",
+      "fr_tex": "canonical/drawings/dr_38ad714a80ba/995.fr.tex",
+      "it_tex": "canonical/drawings/dr_38ad714a80ba/995.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_41299e8c11e9",
+      "drawing_number": "193",
+      "de_tex": "canonical/drawings/dr_41299e8c11e9/193.de.tex",
+      "fr_tex": "canonical/drawings/dr_41299e8c11e9/193.fr.tex",
+      "it_tex": "canonical/drawings/dr_41299e8c11e9/193.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_476e0c99214d",
+      "drawing_number": "705",
+      "de_tex": "canonical/drawings/dr_476e0c99214d/705.de.tex",
+      "fr_tex": "canonical/drawings/dr_476e0c99214d/705.fr.tex",
+      "it_tex": "canonical/drawings/dr_476e0c99214d/705.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_4d854bf3e1e8",
+      "drawing_number": "968",
+      "de_tex": "canonical/drawings/dr_4d854bf3e1e8/968.de.tex",
+      "fr_tex": "canonical/drawings/dr_4d854bf3e1e8/968.fr.tex",
+      "it_tex": "canonical/drawings/dr_4d854bf3e1e8/968.it.tex",
+      "selected_rows": 3,
+      "replacement_counts": {
+        "fr": 3,
+        "it": 3
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 3,
+        "it": 3
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_510813f24e20",
+      "drawing_number": "991",
+      "de_tex": "canonical/drawings/dr_510813f24e20/991.de.tex",
+      "fr_tex": "canonical/drawings/dr_510813f24e20/991.fr.tex",
+      "it_tex": "canonical/drawings/dr_510813f24e20/991.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_531d861a6c31",
+      "drawing_number": "969",
+      "de_tex": "canonical/drawings/dr_531d861a6c31/969.de.tex",
+      "fr_tex": "canonical/drawings/dr_531d861a6c31/969.fr.tex",
+      "it_tex": "canonical/drawings/dr_531d861a6c31/969.it.tex",
+      "selected_rows": 3,
+      "replacement_counts": {
+        "fr": 3,
+        "it": 3
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 3,
+        "it": 3
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_5378a9407d08",
+      "drawing_number": "729",
+      "de_tex": "canonical/drawings/dr_5378a9407d08/729.de.tex",
+      "fr_tex": "canonical/drawings/dr_5378a9407d08/729.fr.tex",
+      "it_tex": "canonical/drawings/dr_5378a9407d08/729.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_54bc1db8a361",
+      "drawing_number": "80",
+      "de_tex": "canonical/drawings/dr_54bc1db8a361/80.de.tex",
+      "fr_tex": "canonical/drawings/dr_54bc1db8a361/80.fr.tex",
+      "it_tex": "canonical/drawings/dr_54bc1db8a361/80.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "already_applied_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_55a3c0a171ee",
+      "drawing_number": "841",
+      "de_tex": "canonical/drawings/dr_55a3c0a171ee/841.de.tex",
+      "fr_tex": "canonical/drawings/dr_55a3c0a171ee/841.fr.tex",
+      "it_tex": "canonical/drawings/dr_55a3c0a171ee/841.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_5683e16afdcc",
+      "drawing_number": "82",
+      "de_tex": "canonical/drawings/dr_5683e16afdcc/82.de.tex",
+      "fr_tex": "canonical/drawings/dr_5683e16afdcc/82.fr.tex",
+      "it_tex": "canonical/drawings/dr_5683e16afdcc/82.it.tex",
+      "selected_rows": 3,
+      "replacement_counts": {
+        "fr": 3,
+        "it": 3
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 3,
+        "it": 3
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_58d61252789c",
+      "drawing_number": "998",
+      "de_tex": "canonical/drawings/dr_58d61252789c/998.de.tex",
+      "fr_tex": "canonical/drawings/dr_58d61252789c/998.fr.tex",
+      "it_tex": "canonical/drawings/dr_58d61252789c/998.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_5cb6a2eb284f",
+      "drawing_number": "974",
+      "de_tex": "canonical/drawings/dr_5cb6a2eb284f/974.de.tex",
+      "fr_tex": "canonical/drawings/dr_5cb6a2eb284f/974.fr.tex",
+      "it_tex": "canonical/drawings/dr_5cb6a2eb284f/974.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "already_applied_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_5d9a78948275",
+      "drawing_number": "839",
+      "de_tex": "canonical/drawings/dr_5d9a78948275/839.de.tex",
+      "fr_tex": "canonical/drawings/dr_5d9a78948275/839.fr.tex",
+      "it_tex": "canonical/drawings/dr_5d9a78948275/839.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_5e2f54ffb534",
+      "drawing_number": "980",
+      "de_tex": "canonical/drawings/dr_5e2f54ffb534/980.de.tex",
+      "fr_tex": "canonical/drawings/dr_5e2f54ffb534/980.fr.tex",
+      "it_tex": "canonical/drawings/dr_5e2f54ffb534/980.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_63f83c1ed536",
+      "drawing_number": "936",
+      "de_tex": "canonical/drawings/dr_63f83c1ed536/936.de.tex",
+      "fr_tex": "canonical/drawings/dr_63f83c1ed536/936.fr.tex",
+      "it_tex": "canonical/drawings/dr_63f83c1ed536/936.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_6c2ef49fdcb8",
+      "drawing_number": "84",
+      "de_tex": "canonical/drawings/dr_6c2ef49fdcb8/84.de.tex",
+      "fr_tex": "canonical/drawings/dr_6c2ef49fdcb8/84.fr.tex",
+      "it_tex": "canonical/drawings/dr_6c2ef49fdcb8/84.it.tex",
+      "selected_rows": 3,
+      "replacement_counts": {
+        "fr": 3,
+        "it": 3
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 3,
+        "it": 3
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_6c33dcd43376",
+      "drawing_number": "827",
+      "de_tex": "canonical/drawings/dr_6c33dcd43376/827.de.tex",
+      "fr_tex": "canonical/drawings/dr_6c33dcd43376/827.fr.tex",
+      "it_tex": "canonical/drawings/dr_6c33dcd43376/827.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_738ebdcbd799",
+      "drawing_number": "935",
+      "de_tex": "canonical/drawings/dr_738ebdcbd799/935.de.tex",
+      "fr_tex": "canonical/drawings/dr_738ebdcbd799/935.fr.tex",
+      "it_tex": "canonical/drawings/dr_738ebdcbd799/935.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_74a9265ba73f",
+      "drawing_number": "872",
+      "de_tex": "canonical/drawings/dr_74a9265ba73f/872.de.tex",
+      "fr_tex": "canonical/drawings/dr_74a9265ba73f/872.fr.tex",
+      "it_tex": "canonical/drawings/dr_74a9265ba73f/872.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_79776adf1c24",
+      "drawing_number": "655",
+      "de_tex": "canonical/drawings/dr_79776adf1c24/655.de.tex",
+      "fr_tex": "canonical/drawings/dr_79776adf1c24/655.fr.tex",
+      "it_tex": "canonical/drawings/dr_79776adf1c24/655.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_7a7511658fa8",
+      "drawing_number": "831",
+      "de_tex": "canonical/drawings/dr_7a7511658fa8/831.de.tex",
+      "fr_tex": "canonical/drawings/dr_7a7511658fa8/831.fr.tex",
+      "it_tex": "canonical/drawings/dr_7a7511658fa8/831.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "already_applied_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_7ab97825b9e3",
+      "drawing_number": "90",
+      "de_tex": "canonical/drawings/dr_7ab97825b9e3/90.de.tex",
+      "fr_tex": "canonical/drawings/dr_7ab97825b9e3/90.fr.tex",
+      "it_tex": "canonical/drawings/dr_7ab97825b9e3/90.it.tex",
+      "selected_rows": 3,
+      "replacement_counts": {
+        "fr": 3,
+        "it": 3
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 3,
+        "it": 3
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_7f063f9e1a7e",
+      "drawing_number": "742",
+      "de_tex": "canonical/drawings/dr_7f063f9e1a7e/742.de.tex",
+      "fr_tex": "canonical/drawings/dr_7f063f9e1a7e/742.fr.tex",
+      "it_tex": "canonical/drawings/dr_7f063f9e1a7e/742.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_7ffd53570773",
+      "drawing_number": "913",
+      "de_tex": "canonical/drawings/dr_7ffd53570773/913.de.tex",
+      "fr_tex": "canonical/drawings/dr_7ffd53570773/913.fr.tex",
+      "it_tex": "canonical/drawings/dr_7ffd53570773/913.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_80147de134af",
+      "drawing_number": "886",
+      "de_tex": "canonical/drawings/dr_80147de134af/886.de.tex",
+      "fr_tex": "canonical/drawings/dr_80147de134af/886.fr.tex",
+      "it_tex": "canonical/drawings/dr_80147de134af/886.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_8ab5ef664247",
+      "drawing_number": "885",
+      "de_tex": "canonical/drawings/dr_8ab5ef664247/885.de.tex",
+      "fr_tex": "canonical/drawings/dr_8ab5ef664247/885.fr.tex",
+      "it_tex": "canonical/drawings/dr_8ab5ef664247/885.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_909d30dc7bfe",
+      "drawing_number": "633",
+      "de_tex": "canonical/drawings/dr_909d30dc7bfe/633.de.tex",
+      "fr_tex": "canonical/drawings/dr_909d30dc7bfe/633.fr.tex",
+      "it_tex": "canonical/drawings/dr_909d30dc7bfe/633.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_925e0fa8ef7a",
+      "drawing_number": "39",
+      "de_tex": "canonical/drawings/dr_925e0fa8ef7a/39.de.tex",
+      "fr_tex": "canonical/drawings/dr_925e0fa8ef7a/39.fr.tex",
+      "it_tex": "canonical/drawings/dr_925e0fa8ef7a/39.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "already_applied_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_97a0f41efa52",
+      "drawing_number": "832",
+      "de_tex": "canonical/drawings/dr_97a0f41efa52/832.de.tex",
+      "fr_tex": "canonical/drawings/dr_97a0f41efa52/832.fr.tex",
+      "it_tex": "canonical/drawings/dr_97a0f41efa52/832.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "already_applied_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_9aaf79ee6f4d",
+      "drawing_number": "706",
+      "de_tex": "canonical/drawings/dr_9aaf79ee6f4d/706.de.tex",
+      "fr_tex": "canonical/drawings/dr_9aaf79ee6f4d/706.fr.tex",
+      "it_tex": "canonical/drawings/dr_9aaf79ee6f4d/706.it.tex",
+      "selected_rows": 3,
+      "replacement_counts": {
+        "fr": 3,
+        "it": 3
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 3,
+        "it": 3
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_9ad0865fe4de",
+      "drawing_number": "759",
+      "de_tex": "canonical/drawings/dr_9ad0865fe4de/759.de.tex",
+      "fr_tex": "canonical/drawings/dr_9ad0865fe4de/759.fr.tex",
+      "it_tex": "canonical/drawings/dr_9ad0865fe4de/759.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "already_applied_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_9d99a23721b2",
+      "drawing_number": "803",
+      "de_tex": "canonical/drawings/dr_9d99a23721b2/803.de.tex",
+      "fr_tex": "canonical/drawings/dr_9d99a23721b2/803.fr.tex",
+      "it_tex": "canonical/drawings/dr_9d99a23721b2/803.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_a12eb4c4d865",
+      "drawing_number": "910",
+      "de_tex": "canonical/drawings/dr_a12eb4c4d865/910.de.tex",
+      "fr_tex": "canonical/drawings/dr_a12eb4c4d865/910.fr.tex",
+      "it_tex": "canonical/drawings/dr_a12eb4c4d865/910.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_a2a8c6fdd798",
+      "drawing_number": "702",
+      "de_tex": "canonical/drawings/dr_a2a8c6fdd798/702.de.tex",
+      "fr_tex": "canonical/drawings/dr_a2a8c6fdd798/702.fr.tex",
+      "it_tex": "canonical/drawings/dr_a2a8c6fdd798/702.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_a2f0b10b33da",
+      "drawing_number": "988",
+      "de_tex": "canonical/drawings/dr_a2f0b10b33da/988.de.tex",
+      "fr_tex": "canonical/drawings/dr_a2f0b10b33da/988.fr.tex",
+      "it_tex": "canonical/drawings/dr_a2f0b10b33da/988.it.tex",
+      "selected_rows": 3,
+      "replacement_counts": {
+        "fr": 3,
+        "it": 3
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 3,
+        "it": 3
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_a3b52efc8b99",
+      "drawing_number": "400",
+      "de_tex": "canonical/drawings/dr_a3b52efc8b99/400.de.tex",
+      "fr_tex": "canonical/drawings/dr_a3b52efc8b99/400.fr.tex",
+      "it_tex": "canonical/drawings/dr_a3b52efc8b99/400.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_a8f8923181a4",
+      "drawing_number": "500",
+      "de_tex": "canonical/drawings/dr_a8f8923181a4/500.de.tex",
+      "fr_tex": "canonical/drawings/dr_a8f8923181a4/500.fr.tex",
+      "it_tex": "canonical/drawings/dr_a8f8923181a4/500.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "already_applied_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_bd7e83418ecf",
+      "drawing_number": "806",
+      "de_tex": "canonical/drawings/dr_bd7e83418ecf/806.de.tex",
+      "fr_tex": "canonical/drawings/dr_bd7e83418ecf/806.fr.tex",
+      "it_tex": "canonical/drawings/dr_bd7e83418ecf/806.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_c0254ca7e657",
+      "drawing_number": "996",
+      "de_tex": "canonical/drawings/dr_c0254ca7e657/996.de.tex",
+      "fr_tex": "canonical/drawings/dr_c0254ca7e657/996.fr.tex",
+      "it_tex": "canonical/drawings/dr_c0254ca7e657/996.it.tex",
+      "selected_rows": 6,
+      "replacement_counts": {
+        "fr": 6,
+        "it": 6
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 6,
+        "it": 6
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_c2c4d5ff5ff4",
+      "drawing_number": "192",
+      "de_tex": "canonical/drawings/dr_c2c4d5ff5ff4/192.de.tex",
+      "fr_tex": "canonical/drawings/dr_c2c4d5ff5ff4/192.fr.tex",
+      "it_tex": "canonical/drawings/dr_c2c4d5ff5ff4/192.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_c3b934c45f36",
+      "drawing_number": "83",
+      "de_tex": "canonical/drawings/dr_c3b934c45f36/83.de.tex",
+      "fr_tex": "canonical/drawings/dr_c3b934c45f36/83.fr.tex",
+      "it_tex": "canonical/drawings/dr_c3b934c45f36/83.it.tex",
+      "selected_rows": 3,
+      "replacement_counts": {
+        "fr": 3,
+        "it": 3
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 3,
+        "it": 3
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_c68ad44059db",
+      "drawing_number": "762",
+      "de_tex": "canonical/drawings/dr_c68ad44059db/762.de.tex",
+      "fr_tex": "canonical/drawings/dr_c68ad44059db/762.fr.tex",
+      "it_tex": "canonical/drawings/dr_c68ad44059db/762.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "already_applied_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_c7a0b4760db9",
+      "drawing_number": "699",
+      "de_tex": "canonical/drawings/dr_c7a0b4760db9/699.de.tex",
+      "fr_tex": "canonical/drawings/dr_c7a0b4760db9/699.fr.tex",
+      "it_tex": "canonical/drawings/dr_c7a0b4760db9/699.it.tex",
+      "selected_rows": 3,
+      "replacement_counts": {
+        "fr": 3,
+        "it": 3
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 3,
+        "it": 3
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_d5b7f32ec4cc",
+      "drawing_number": "999",
+      "de_tex": "canonical/drawings/dr_d5b7f32ec4cc/999.de.tex",
+      "fr_tex": "canonical/drawings/dr_d5b7f32ec4cc/999.fr.tex",
+      "it_tex": "canonical/drawings/dr_d5b7f32ec4cc/999.it.tex",
+      "selected_rows": 3,
+      "replacement_counts": {
+        "fr": 3,
+        "it": 3
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 3,
+        "it": 3
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_da829294ae58",
+      "drawing_number": "838",
+      "de_tex": "canonical/drawings/dr_da829294ae58/838.de.tex",
+      "fr_tex": "canonical/drawings/dr_da829294ae58/838.fr.tex",
+      "it_tex": "canonical/drawings/dr_da829294ae58/838.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_dd27f3802d8c",
+      "drawing_number": "976",
+      "de_tex": "canonical/drawings/dr_dd27f3802d8c/976.de.tex",
+      "fr_tex": "canonical/drawings/dr_dd27f3802d8c/976.fr.tex",
+      "it_tex": "canonical/drawings/dr_dd27f3802d8c/976.it.tex",
+      "selected_rows": 3,
+      "replacement_counts": {
+        "fr": 3,
+        "it": 3
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 3,
+        "it": 3
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_ddc7287c0ac7",
+      "drawing_number": "194",
+      "de_tex": "canonical/drawings/dr_ddc7287c0ac7/194.de.tex",
+      "fr_tex": "canonical/drawings/dr_ddc7287c0ac7/194.fr.tex",
+      "it_tex": "canonical/drawings/dr_ddc7287c0ac7/194.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_df01997a76d3",
+      "drawing_number": "410",
+      "de_tex": "canonical/drawings/dr_df01997a76d3/410.de.tex",
+      "fr_tex": "canonical/drawings/dr_df01997a76d3/410.fr.tex",
+      "it_tex": "canonical/drawings/dr_df01997a76d3/410.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_e2618c00d169",
+      "drawing_number": "884",
+      "de_tex": "canonical/drawings/dr_e2618c00d169/884.de.tex",
+      "fr_tex": "canonical/drawings/dr_e2618c00d169/884.fr.tex",
+      "it_tex": "canonical/drawings/dr_e2618c00d169/884.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_e310639ecb2e",
+      "drawing_number": "1078",
+      "de_tex": "canonical/drawings/dr_e310639ecb2e/1078.de.tex",
+      "fr_tex": "canonical/drawings/dr_e310639ecb2e/1078.fr.tex",
+      "it_tex": "canonical/drawings/dr_e310639ecb2e/1078.it.tex",
+      "selected_rows": 4,
+      "replacement_counts": {
+        "fr": 4,
+        "it": 4
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 4,
+        "it": 4
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_e4ef2fda766a",
+      "drawing_number": "401",
+      "de_tex": "canonical/drawings/dr_e4ef2fda766a/401.de.tex",
+      "fr_tex": "canonical/drawings/dr_e4ef2fda766a/401.fr.tex",
+      "it_tex": "canonical/drawings/dr_e4ef2fda766a/401.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 3,
+        "it": 3
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 3,
+        "it": 3
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_e8f5eeb2e506",
+      "drawing_number": "563",
+      "de_tex": "canonical/drawings/dr_e8f5eeb2e506/563.de.tex",
+      "fr_tex": "canonical/drawings/dr_e8f5eeb2e506/563.fr.tex",
+      "it_tex": "canonical/drawings/dr_e8f5eeb2e506/563.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_ee75e69047e4",
+      "drawing_number": "979",
+      "de_tex": "canonical/drawings/dr_ee75e69047e4/979.de.tex",
+      "fr_tex": "canonical/drawings/dr_ee75e69047e4/979.fr.tex",
+      "it_tex": "canonical/drawings/dr_ee75e69047e4/979.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_f1fa2f10cf0f",
+      "drawing_number": "85",
+      "de_tex": "canonical/drawings/dr_f1fa2f10cf0f/85.de.tex",
+      "fr_tex": "canonical/drawings/dr_f1fa2f10cf0f/85.fr.tex",
+      "it_tex": "canonical/drawings/dr_f1fa2f10cf0f/85.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "already_applied_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_f8eebd8baf79",
+      "drawing_number": "541",
+      "de_tex": "canonical/drawings/dr_f8eebd8baf79/541.de.tex",
+      "fr_tex": "canonical/drawings/dr_f8eebd8baf79/541.fr.tex",
+      "it_tex": "canonical/drawings/dr_f8eebd8baf79/541.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_f9db21bc3008",
+      "drawing_number": "883",
+      "de_tex": "canonical/drawings/dr_f9db21bc3008/883.de.tex",
+      "fr_tex": "canonical/drawings/dr_f9db21bc3008/883.fr.tex",
+      "it_tex": "canonical/drawings/dr_f9db21bc3008/883.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_fb7617613398",
+      "drawing_number": "981",
+      "de_tex": "canonical/drawings/dr_fb7617613398/981.de.tex",
+      "fr_tex": "canonical/drawings/dr_fb7617613398/981.fr.tex",
+      "it_tex": "canonical/drawings/dr_fb7617613398/981.it.tex",
+      "selected_rows": 2,
+      "replacement_counts": {
+        "fr": 2,
+        "it": 2
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 2,
+        "it": 2
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_fb8e04550ffb",
+      "drawing_number": "973",
+      "de_tex": "canonical/drawings/dr_fb8e04550ffb/973.de.tex",
+      "fr_tex": "canonical/drawings/dr_fb8e04550ffb/973.fr.tex",
+      "it_tex": "canonical/drawings/dr_fb8e04550ffb/973.it.tex",
+      "selected_rows": 1,
+      "replacement_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "already_applied_counts": {
+        "fr": 1,
+        "it": 1
+      },
+      "expected_counts": {
+        "fr": 1,
+        "it": 1
+      }
+    },
+    {
+      "canonical_reference": "canonical/drawings/dr_ffb02e6b61f6",
+      "drawing_number": "93",
+      "de_tex": "canonical/drawings/dr_ffb02e6b61f6/93.de.tex",
+      "fr_tex": "canonical/drawings/dr_ffb02e6b61f6/93.fr.tex",
+      "it_tex": "canonical/drawings/dr_ffb02e6b61f6/93.it.tex",
+      "selected_rows": 3,
+      "replacement_counts": {
+        "fr": 3,
+        "it": 3
+      },
+      "already_applied_counts": {
+        "fr": 0,
+        "it": 0
+      },
+      "expected_counts": {
+        "fr": 3,
+        "it": 3
+      }
+    }
+  ]
+}
