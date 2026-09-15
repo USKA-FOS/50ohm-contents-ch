@@ -3,7 +3,7 @@ Pourquoi existe-t-il un réseau de tension alternative de $\qty{230}{\volt}$ ? L
 En raison de l'auto-induction dans les bobines, l'énergie peut être transmise lors d'une tension alternative entre deux bobines, comme le montre la figure [ref:e_netztrafo]. Il en résulte un nouveau composant, le *transformateur* ou *transformateur*, en abrégé *Trafo*. Il se compose de deux bobines qui sont couplées magnétiquement par un noyau en fer ou en ferrite. Afin de pouvoir séparer les côtés, on parle du côté primaire avec le nombre de spires $N_P$ et du côté secondaire avec le nombre de spires $N_S$.
 
 <margin>
-[picture:1017:e_netztrafo:Schaltbild Transformator]
+[picture:1017:e_netztrafo:Schéma électrique du transformateur]
 </margin>
 
 <margin>
