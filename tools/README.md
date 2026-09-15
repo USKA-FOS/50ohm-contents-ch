@@ -158,6 +158,11 @@ files. The generated artifacts are moved from `work/build/`, and the local
 review links are redirected to their promoted locations. A failed build or
 validation never changes the release repository.
 
+After each successful language build, the wrapper writes the generated
+`generator_status.json` into that language output. The optional footer widget
+uses it to display the completion time and silently ignores a missing file; it
+is not canonical data.
+
 The feedback URL recorded in the manifest defaults to
 `https://50ohm.jp2s.ch/feedback` and can be changed with `--feedback-url`.
 Neither release mode nor promotion creates a Git commit, tag, or push. Those

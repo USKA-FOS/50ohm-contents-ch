@@ -1220,6 +1220,10 @@ def run_generator(
         raise RuntimeError(
             f"Generator build failed for {language}; see log {log_path}"
         )
+    write_json(
+        output_root / "generator_status.json",
+        {"status": "completed", "timestamp": int(datetime.now(UTC).timestamp())},
+    )
     review_output_root = sync_review_build(language, output_root)
     return {
         "exit_code": completed.returncode,

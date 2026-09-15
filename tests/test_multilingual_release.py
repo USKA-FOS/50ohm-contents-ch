@@ -217,6 +217,18 @@ def test_release_fragments_use_localized_labels(language: str) -> None:
     assert "beta-test-1" in slide
 
 
+def test_generator_status_widget_handles_missing_status_file() -> None:
+    template = (
+        Path(__file__).resolve().parents[2]
+        / "50ohm-generator"
+        / "templates"
+        / "html"
+        / "generator_status.html"
+    ).read_text(encoding="utf-8")
+    assert ".catch(() =>" in template
+    assert "generator_status.json" in template
+
+
 def test_promotion_moves_release_and_preserves_feedback(
     tmp_path: Path,
     monkeypatch: pytest.MonkeyPatch,
