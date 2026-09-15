@@ -79,6 +79,8 @@ Satelliten bewegen sich nicht beliebig um die Erde. Ihre Bahnen werden durch die
 
 Die Bahn eines Satelliten um die Erde ist grundsätzlich eine Ellipse. Die Erde befindet sich dabei in einem der beiden Brennpunkte der Ellipse. Bei einer kreisförmigen Bahn fallen die beiden Brennpunkte zusammen.
 
+---
+
 ### 2. Keplersches Gesetz - Flächengesetz
 
 Die Verbindungslinie zwischen Erde und Satellit überstreicht in gleichen Zeiten gleiche Flächen. Daraus folgt: Ein Satellit bewegt sich auf einer elliptischen Bahn beim erdnächsten Punkt, dem Perigäum, schneller und beim erdfernsten Punkt, dem Apogäum, langsamer.
