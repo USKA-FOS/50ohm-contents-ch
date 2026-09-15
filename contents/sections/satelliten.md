@@ -71,6 +71,11 @@ Aufgrund der von Satelliten verwendeten Frequenzen setzt der Amateurfunk über S
 **IDEEN-SAMMLUNG FÜR DEN HB3-TEIL**
 **DIESER TEIL GEHÖRT DANN IN EIN FORTSETZUNGS KAPITEL FÜR DEN HB9-TEIL**
 
+<attention>
+*Dieser Stoff ist nicht prüfungsrelevant.*
+Satelliten und Raumfahrt werden immer wichtiger. Wir Funkamateure können dank des Amateurfunktdiensts über Satelliten auch auf diesem spannenden Feld tätig werden. Deshalb sind wir der Meinung, dass diese Einführung in einen Amateurfunkkurs reingehört.
+</attention>
+
 ## Umlaufbahnen und Keplersche Gesetze
 
 Satelliten bewegen sich nicht beliebig um die Erde. Ihre Bahnen werden durch die Gravitation bestimmt und lassen sich mit den Keplerschen Gesetzen beschreiben. Eine Kreisbahn ist dabei ein Sonderfall einer elliptischen Bahn ([ref:a_kepler_ellipse]).
