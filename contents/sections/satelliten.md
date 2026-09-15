@@ -71,6 +71,8 @@ Aufgrund der von Satelliten verwendeten Frequenzen setzt der Amateurfunk über S
 **IDEEN-SAMMLUNG FÜR DEN HB3-TEIL**
 **DIESER TEIL GEHÖRT DANN IN EIN FORTSETZUNGS KAPITEL FÜR DEN HB9-TEIL**
 
+
+
 <attention>
 *Dieser Stoff ist nicht prüfungsrelevant.*
 Satelliten und Raumfahrt werden immer wichtiger. Wir Funkamateure können dank des Amateurfunktdiensts über Satelliten auch auf diesem spannenden Feld tätig werden. Deshalb sind wir der Meinung, dass diese Einführung in einen Amateurfunkkurs reingehört.
@@ -175,7 +177,9 @@ Dieses Applet visualisiert den Dopplereffekt. Mit dem Schieberegler kann die *Re
 - Wenn sich die *Quelle auf einem zubewegt*, treffen mehr Wellenfronten pro Zeiteinheit ein, was einer *Erhöhung der empfangenen Frequenz* entspricht. Obwohl der Sender immer mit der gleichen Frequenz sendet. 
   
 - Wenn sich die *Quelle von einem wegbewegt*, treffen weniger Wellenfronten pro Zeiteinheit ein, was einer *Erniedrigung der empfangenen Frequenz* entspricht. Obwohl der Sender immer mit der gleichen Frequenz sendet.
+- 
 [include:doppler_visualisierung]
+
 </indepth>
 
 ## Freiraumdämpfung und Funkverbindung
