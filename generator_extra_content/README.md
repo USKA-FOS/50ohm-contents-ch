@@ -19,13 +19,16 @@ Current resource types:
 
 Release presentation resources:
 
-- `de/templates/html/header-language-controls.html` places BETA in the centre
-  and the DE/FR/IT links on the right of a compact header row. The shared
+- `de/templates/html/header-language-controls.html` provides macros placing BETA
+  between the logo and navigation and DE/FR/IT in the existing right header
+  space, aligned with the menu icons without adding a row or header height. The shared
   generator script preserves the page URL and restores same-tab scroll position.
 - `de/templates/html/release-beta-warning.html` provides the shared regular-page
   beta-warning structure;
 - `de/templates/html/release-footer.html` displays the release id and feedback
-  action on regular pages;
+  action stacked in the existing footer's right column, vertically centred on
+  the USKA offer text and flush with the right edge of the footer separator.
+  On narrow screens the footer stacks its sections without overlapping;
 - `de/templates/slide/release-overlay.html` provides equivalent release context
   on Reveal.js pages;
 - `labels.json` in each language owns the translated warning, disclaimer,
