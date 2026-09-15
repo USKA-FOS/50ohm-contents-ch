@@ -24,13 +24,15 @@
     },
     "fr": {
       "asset_files": {
-        "tex": "979.fr.tex"
+        "tex": "979.fr.tex",
+        "svg": "979.fr.svg"
       },
       "review_state": "to_be_reviewed"
     },
     "it": {
       "asset_files": {
-        "tex": "979.it.tex"
+        "tex": "979.it.tex",
+        "svg": "979.it.svg"
       },
       "review_state": "to_be_reviewed"
     }
@@ -62,6 +64,14 @@
       "it.tex": {
         "canonical_file": "979.it.tex",
         "source_path": "contents/drawings/979.tex"
+      },
+      "fr.svg": {
+        "canonical_file": "979.fr.svg",
+        "source_path": "contents/drawings/979.svg"
+      },
+      "it.svg": {
+        "canonical_file": "979.it.svg",
+        "source_path": "contents/drawings/979.svg"
       }
     },
     "reconstruction": {
