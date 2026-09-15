@@ -98,7 +98,7 @@ Dabei ist $T$ die Umlaufzeit und $a$ die grosse Halbachse der Bahnellipse. Je gr
 Für die Satellitenpraxis bedeutet dies: Satelliten in niedrigen Umlaufbahnen umkreisen die Erde wesentlich schneller als Satelliten in höheren Umlaufbahnen.
 
 <margin>
-[picture:1001:a_kepler_ellipse:TestBildBeschreibung für falsches Bild]
+[picture:hb_101:a_kepler_ellipse:Kepler Ellipse]
 </margin>
 
 ## Bahnhöhen und Bahnformen
