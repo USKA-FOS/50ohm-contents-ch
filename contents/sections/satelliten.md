@@ -46,10 +46,6 @@ Bei der Nutzung von Satellitenkommunikation ist die Ausrichtung von Antennen von
 [picture:876:n_azimut_elevation:Azimut und Elevation im Raum]
 </margin>
 
-<margin>
-[picture:101:a_kapler_ellipse:TestBildBeschreibung]
-</margin>
-
 <wordorigin>
 Der Begriff *Azimut* stammt von arabisch *as-sumūt*, ("die Wege") ab. *Elevation* leitet sich vom lateinischen elevare ("erheben") ab.
 </wordorigin>
@@ -98,6 +94,10 @@ $$T^2 \propto a^3$$
 Dabei ist $T$ die Umlaufzeit und $a$ die grosse Halbachse der Bahnellipse. Je grösser die grosse Halbachse und damit die mittlere Bahnentfernung ist, desto länger dauert ein Umlauf.
 
 Für die Satellitenpraxis bedeutet dies: Satelliten in niedrigen Umlaufbahnen umkreisen die Erde wesentlich schneller als Satelliten in höheren Umlaufbahnen.
+
+<margin>
+[picture:1001:a_kapler_ellipse:TestBildBeschreibung für falsches Bild]
+</margin>
 
 ## Bahnhöhen und Bahnformen
 
