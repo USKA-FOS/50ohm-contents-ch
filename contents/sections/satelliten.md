@@ -46,6 +46,10 @@ Bei der Nutzung von Satellitenkommunikation ist die Ausrichtung von Antennen von
 [picture:876:n_azimut_elevation:Azimut und Elevation im Raum]
 </margin>
 
+<margin>
+[picture:101:a_kapler_ellipse:TestBildBeschreibung]
+</margin>
+
 <wordorigin>
 Der Begriff *Azimut* stammt von arabisch *as-sumūt*, ("die Wege") ab. *Elevation* leitet sich vom lateinischen elevare ("erheben") ab.
 </wordorigin>
