@@ -188,9 +188,11 @@ def test_generator_config_receives_release_context_only_in_release_mode() -> Non
     assert "release_id" not in development
     assert "beta" not in development
     assert "feedback_url" not in development
+    assert development["generator_status"] is False
     assert release["release_id"] == "beta-test-1"
     assert release["beta"] is True
     assert release["feedback_url"] == "https://example.invalid/feedback"
+    assert release["generator_status"] is False
 
 
 @pytest.mark.parametrize("language", build.LANGUAGES)

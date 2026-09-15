@@ -1149,6 +1149,7 @@ def build_config(
         "repo_base_url": "https://github.com/USKA-FOS/50ohm-contents-ch",
         "output": str(output_root),
         "random_seed": generator_seed,
+        "generator_status": False,
     }
     if release_id is not None:
         config.update(
@@ -1220,10 +1221,6 @@ def run_generator(
         raise RuntimeError(
             f"Generator build failed for {language}; see log {log_path}"
         )
-    write_json(
-        output_root / "generator_status.json",
-        {"status": "completed", "timestamp": int(datetime.now(UTC).timestamp())},
-    )
     review_output_root = sync_review_build(language, output_root)
     return {
         "exit_code": completed.returncode,
