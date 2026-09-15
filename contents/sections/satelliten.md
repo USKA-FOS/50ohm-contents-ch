@@ -73,7 +73,7 @@ Aufgrund der von Satelliten verwendeten Frequenzen setzt der Amateurfunk über S
 
 ## Umlaufbahnen und Keplersche Gesetze
 
-Satelliten bewegen sich nicht beliebig um die Erde. Ihre Bahnen werden durch die Gravitation bestimmt und lassen sich mit den Keplerschen Gesetzen beschreiben. Eine Kreisbahn ist dabei ein Sonderfall einer elliptischen Bahn [ref:a_kepler_ellipse].
+Satelliten bewegen sich nicht beliebig um die Erde. Ihre Bahnen werden durch die Gravitation bestimmt und lassen sich mit den Keplerschen Gesetzen beschreiben. Eine Kreisbahn ist dabei ein Sonderfall einer elliptischen Bahn ([ref:a_kepler_ellipse]).
 
 ### 1. Keplersches Gesetz - Ellipsengesetz
 
