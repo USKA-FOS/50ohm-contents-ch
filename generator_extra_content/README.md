@@ -19,6 +19,9 @@ Current resource types:
 
 Release presentation resources:
 
+- `de/templates/html/header-language-controls.html` places BETA in the centre
+  and the DE/FR/IT links on the right of a compact header row. The shared
+  generator script preserves the page URL and restores same-tab scroll position.
 - `de/templates/html/release-beta-warning.html` provides the shared regular-page
   beta-warning structure;
 - `de/templates/html/release-footer.html` displays the release id and feedback

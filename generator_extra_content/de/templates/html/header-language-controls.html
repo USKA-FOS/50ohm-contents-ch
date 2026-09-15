@@ -1,0 +1,12 @@
+<div class="header-language-controls">
+  <div class="header-beta-slot">
+    {% if release_id and beta %}
+      {% include "html/release-beta-warning.html" %}
+    {% endif %}
+  </div>
+  <nav class="header-languages" aria-label="DE / FR / IT">
+    {% for language in ['de', 'fr', 'it'] %}
+      <a href="../{{ language }}/index.html" data-site-language="{{ language }}" lang="{{ language }}"{% if language == lang %} aria-current="true"{% endif %}>{{ language|upper }}</a>
+    {% endfor %}
+  </nav>
+</div>
