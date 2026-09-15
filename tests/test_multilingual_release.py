@@ -8,6 +8,7 @@ import pytest
 from jinja2 import Environment, FileSystemLoader
 
 from tools import run_multilingual_canonical_build as build
+from tools import import_incremental_german_source as importer
 
 
 EXTRA_CONTENT_ROOT = Path(__file__).resolve().parents[1] / "generator_extra_content"
@@ -51,6 +52,67 @@ def create_build_tree(root: Path) -> None:
         json.dumps({"release_id": "beta-test-1"}) + "\n",
         encoding="utf-8",
     )
+
+
+def test_read_only_build_accepts_dirty_tools_and_records_actual_source(tmp_path: Path, monkeypatch) -> None:
+    repository = tmp_path / "source"
+    initialize_release_repository(repository)
+    clean = build.source_repository_state(repository, "source")
+    (repository / "tool.py").write_text("print('local tool')\n", encoding="utf-8")
+    changed = build.source_repository_state(repository, "source")
+    assert changed["commit"] == clean["commit"]
+    assert changed["dirty"] is True
+    assert changed["worktree_sha256"] != clean["worktree_sha256"]
+    (repository / "tool.py").write_text("print('new local tool')\n", encoding="utf-8")
+    assert build.source_repository_state(repository, "source")["worktree_sha256"] != changed["worktree_sha256"]
+    monkeypatch.setattr(build, "release_source_states", lambda: {"source": build.source_repository_state(repository, "source")})
+    with pytest.raises(RuntimeError, match="changed during the build"):
+        build.verify_release_source_states({"source": changed})
+
+
+def test_source_fingerprint_detects_dirty_canonical_and_deletions(tmp_path: Path) -> None:
+    repository = tmp_path / "source"
+    initialize_release_repository(repository)
+    canonical = repository / "canonical"
+    canonical.mkdir()
+    material = canonical / "body.de.md"
+    material.write_text("German text\n", encoding="utf-8")
+    git(repository, "add", "canonical")
+    git(repository, "commit", "-m", "Add material")
+    before = build.source_repository_state(repository, "source")
+    material.write_text("Updated German text\n", encoding="utf-8")
+    after = build.source_repository_state(repository, "source")
+    assert after["dirty"] is True
+    assert before["worktree_sha256"] != after["worktree_sha256"]
+    material.unlink()
+    assert build.source_repository_state(repository, "source")["worktree_sha256"] != after["worktree_sha256"]
+
+
+def test_cli_expected_failure_is_reported_without_traceback(monkeypatch, capsys) -> None:
+    def fail(**kwargs):
+        raise RuntimeError("test validation error")
+    monkeypatch.setattr(build, "run", fail)
+    monkeypatch.setattr(build.sys, "argv", ["build"])
+    with pytest.raises(SystemExit) as exc:
+        build.main()
+    assert exc.value.code == 1
+    assert capsys.readouterr().err == "Build failed: test validation error\n"
+
+
+def test_canonical_writer_blocks_dirty_material_but_not_dirty_tools(tmp_path, monkeypatch) -> None:
+    repository = tmp_path / "source"
+    initialize_release_repository(repository)
+    material = repository / "canonical" / "body.de.md"
+    material.parent.mkdir()
+    material.write_text("German text\n", encoding="utf-8")
+    git(repository, "add", "canonical")
+    git(repository, "commit", "-m", "Add material")
+    monkeypatch.setattr(importer, "REPO_ROOT", repository)
+    (repository / "tool.py").write_text("local tool\n", encoding="utf-8")
+    importer.ensure_clean_canonical()
+    material.write_text("Local material\n", encoding="utf-8")
+    with pytest.raises(RuntimeError, match="canonical/ has uncommitted changes"):
+        importer.ensure_clean_canonical()
 
 
 def test_release_request_requires_complete_build_and_release_id() -> None:
@@ -181,22 +243,28 @@ def test_promotion_moves_release_and_preserves_feedback(
     assert not list(release_repository.glob(".release-promotion-backup-*"))
 
 
-def test_promotion_rejects_dirty_release_repository(
+def test_promotion_replaces_dirty_generated_artifacts_and_preserves_other_paths(
     tmp_path: Path,
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
     release_repository = tmp_path / "release"
     initialize_release_repository(release_repository)
     (release_repository / "de" / "index.html").write_text("local change\n", encoding="utf-8")
+    (release_repository / "de" / "obsolete.html").write_text("obsolete\n", encoding="utf-8")
+    (release_repository / "feedback" / "index.html").write_text("local feedback\n", encoding="utf-8")
+    review = release_repository / "drawing-review"
+    review.mkdir()
+    (review / "index.html").write_text("drawing review\n", encoding="utf-8")
     build_root = tmp_path / "build"
     create_build_tree(build_root)
     monkeypatch.setattr(build, "REVIEW_BUILD_ROOT", tmp_path / "review-build")
 
-    with pytest.raises(RuntimeError, match="Release repository is not clean"):
-        build.promote_release(build_root, release_repository, "beta-test-1")
+    build.promote_release(build_root, release_repository, "beta-test-1")
 
-    assert (build_root / "de" / "index.html").read_text(encoding="utf-8") == "new de\n"
-    assert (release_repository / "feedback" / "index.html").read_text(encoding="utf-8") == "feedback\n"
+    assert (release_repository / "de" / "index.html").read_text(encoding="utf-8") == "new de\n"
+    assert not (release_repository / "de" / "obsolete.html").exists()
+    assert (release_repository / "feedback" / "index.html").read_text(encoding="utf-8") == "local feedback\n"
+    assert (review / "index.html").read_text(encoding="utf-8") == "drawing review\n"
 
 
 def test_promotion_rejects_existing_release_tag(tmp_path: Path) -> None:

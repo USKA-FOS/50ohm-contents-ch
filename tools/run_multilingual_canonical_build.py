@@ -176,16 +176,43 @@ def git_exact_tags(repository: Path, commit: str = "HEAD") -> list[str]:
     return sorted(line for line in output.splitlines() if line)
 
 
+def source_worktree_hash(repository: Path) -> str:
+    digest = sha256()
+    digest.update(git_output(repository, "rev-parse", "HEAD").encode("ascii") + b"\0")
+    # The commit identifies unchanged files; hash only local deltas, not all SVGs.
+    paths = []
+    for arguments in (
+        ("diff", "--name-only", "--no-renames", "-z", "HEAD", "--"),
+        ("ls-files", "--others", "--exclude-standard", "-z"),
+    ):
+        paths.extend(subprocess.check_output(
+            ["git", "-C", str(repository), *arguments],
+        ).decode("utf-8").split("\0"))
+    for name in sorted(set(paths) - {""}):
+        path = repository / name
+        digest.update(name.encode("utf-8") + b"\0")
+        if path.is_symlink():
+            digest.update(b"symlink\0" + os.readlink(path).encode("utf-8"))
+        elif path.is_file():
+            digest.update(b"file\0" + str(path.stat().st_mode & 0o777).encode("ascii") + b"\0")
+            digest.update(sha256(path.read_bytes()).digest())
+        elif not path.exists():
+            digest.update(b"deleted\0")
+        else:
+            raise RuntimeError(f"Unsupported source entry: {path}")
+    return digest.hexdigest()
+
+
 def source_repository_state(repository: Path, repository_name: str) -> dict[str, Any]:
     if not repository.is_dir():
         raise RuntimeError(f"Release source repository does not exist: {repository}")
-    if not git_repository_is_clean(repository):
-        raise RuntimeError(f"Release source repository is not clean: {repository}")
     commit = git_output(repository, "rev-parse", "HEAD")
     return {
         "repository": repository_name,
         "commit": commit,
         "tags": git_exact_tags(repository, commit),
+        "dirty": not git_repository_is_clean(repository),
+        "worktree_sha256": source_worktree_hash(repository),
     }
 
 
@@ -312,8 +339,6 @@ def validate_release_repository(repository: Path, release_id: str) -> None:
         raise RuntimeError(f"Release output is not a Git repository: {repository}") from exc
     if top_level != repository:
         raise RuntimeError(f"Release output must be the Git repository root: {repository}")
-    if not git_repository_is_clean(repository):
-        raise RuntimeError(f"Release repository is not clean: {repository}")
     if release_tag_exists(repository, release_id):
         raise RuntimeError(f"Release tag already exists: {release_id}")
 
@@ -1357,7 +1382,8 @@ def main() -> None:
         "--release-output",
         type=Path,
         help=(
-            "Promote a successful complete release into this clean Git repository. "
+            "Replace generated de/fr/it trees and manifest in this Git repository after success, "
+            "even if those artifacts are uncommitted. Other paths are preserved. "
             "Requires --release-id."
         ),
     )
@@ -1375,15 +1401,19 @@ def main() -> None:
     if args.release_id is None and args.feedback_url != DEFAULT_FEEDBACK_URL:
         parser.error("--feedback-url requires --release-id")
     languages = (args.language,) if args.language else LANGUAGES
-    report = run(
-        skip_build=args.skip_build,
-        languages=languages,
-        generator_seed=args.generator_seed,
-        release_id=args.release_id,
-        release_output=args.release_output.expanduser().resolve() if args.release_output else None,
-        beta=args.beta,
-        feedback_url=args.feedback_url,
-    )
+    try:
+        report = run(
+            skip_build=args.skip_build,
+            languages=languages,
+            generator_seed=args.generator_seed,
+            release_id=args.release_id,
+            release_output=args.release_output.expanduser().resolve() if args.release_output else None,
+            beta=args.beta,
+            feedback_url=args.feedback_url,
+        )
+    except (RuntimeError, ValueError, OSError, subprocess.CalledProcessError) as exc:
+        print(f"Build failed: {exc}", file=sys.stderr)
+        raise SystemExit(1) from None
     print(json.dumps(report, indent=2, ensure_ascii=False))
 
 

@@ -122,8 +122,14 @@ uv run python tools/run_multilingual_canonical_build.py --generator-seed 123
 
 ### Build and promote a versioned site release
 
-A release build requires all three languages and clean Git states in
-`50ohm-contents-ch`, `50ohm-question-pool`, and `50ohm-generator`. It cleans the
+A release build requires all three languages, not entirely clean source
+repositories: it reads canonical material and tools without rewriting them.
+Canonical-writing imports still require clean canonical paths, regardless of
+unrelated tool edits. The build records each source's commit, tags, dirty flag
+and actual Git-visible worktree SHA-256 (excluding ignored artifacts), and
+checks that this state has not changed during generation. Expected CLI failures
+are reported as a short stderr message and exit code 1, without a traceback.
+It cleans the
 complete `work/build/` staging tree before generation, records the exact source
 commits and exact-match tags, and writes per-language file counts and tree
 digests to `work/build/release-manifest.json`:
@@ -143,9 +149,11 @@ uv run python tools/run_multilingual_canonical_build.py \
   --release-output ../50ohm-site-releases
 ```
 
-`--release-output` must be the root of a clean Git repository and the release
+`--release-output` must be the root of a Git repository and the release
 tag must not already exist there. Promotion replaces only `de/`, `fr/`, `it/`,
-and `release-manifest.json`; it preserves `feedback/`, `.git/`, and deployment
+and `release-manifest.json`, even if a previous build left them uncommitted.
+There is no preliminary purge or temporary commit requirement for generated
+sites. Promotion preserves `feedback/`, `drawing-review/`, `.git/`, and deployment
 files. The generated artifacts are moved from `work/build/`, and the local
 review links are redirected to their promoted locations. A failed build or
 validation never changes the release repository.
