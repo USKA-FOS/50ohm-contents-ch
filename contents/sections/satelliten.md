@@ -12,24 +12,30 @@ Satelliten umrunden die Erde in kreisförmigen oder elliptischen Bahnen und in u
 
 Die mitgeführten Relaisfunkstellen werden als "Transponder" bezeichnet. Die Eingabefrequenz, also die Funkstrecke von der Erde zum Satelliten, wird im Satellitenfunk als "Uplink" bezeichnet. Die Ausgabefrequenz, also die Funkstrecke vom Satelliten zur Erde, wird hingegen "Downlink" genannt . Für Uplink und Downlink werden oftmals unterschiedliche Frequenzbänder benutzt, weil dies eine einfachere Trennung von Sende- und Empfangssignal ermöglicht und die Baugröße von Filtern auf dem Satelliten reduziert wird.
 
-<webindepth>
-Verschiedene Flughöhen und Umlaufbahnen von Satelliten ermöglichen eine breite Palette von Satellitenanwendungen, angefangen von Kommunikation über Navigation bis hin zu wissenschaftlicher Forschung und Erdbeobachtung. Im Folgenden stellen wir die wichtigsten Flughöhen bzw. Umlaufbahnen vor.
+<indepth>
+Satellitenbahnen können nach verschiedenen Eigenschaften beschrieben werden. Die Begriffe LEO, MEO und GEO beziehen sich hauptsächlich auf die Bahnhöhe. Begriffe wie HEO oder Polar Orbit beschreiben dagegen andere Eigenschaften der Bahn, insbesondere deren Form oder Neigung. Diese Einteilungen können sich daher überschneiden. Im Folgenden stellen wir die wichtigsten Flughöhen bzw. Umlaufbahnen vor.
 
 *Niedrige Umlaufbahnen (Low Earth Orbit - LEO)*
-Satelliten in niedrigen Umlaufbahnen sind in der Regel in Höhen von etwa 160 bis 2.000 Kilometern über der Erde positioniert. Hierbei handelt es sich um Umlaufbahnen, die sich relativ nahe an der Erdoberfläche befinden. In dieser Region bewegen sich viele Erdbeobachtungssatelliten, wie zum Beispiel Wettersatelliten oder Umweltüberwachungssatelliten. Die Nähe zur Erde ermöglicht eine hohe Auflösung bei der Erfassung von Daten und Bildern.
+Satelliten in niedrigen Umlaufbahnen befinden sich in Höhen von etwa 400 bis 2'000  Metern über über der Erdoberfläche. Das sind Umlaufbahnen, die sich relativ nahe an der Erdoberfläche befinden. In diesem Bereich bewegen sich viele Erdbeobachtungs- und Wettersatelliten sowie zahlreiche Amateurfunksatelliten. Die Nähe zur Erde ermöglicht eine hohe Auflösung bei der Erfassung von Daten und Bildern. Die geringe Entfernung zur Erde ermöglicht relativ kurze Funkstrecken und damit geringe Freiraumdämpfung. Gleichzeitig bewegen sich LEO-Satelliten schnell über den Himmel und sind von einer bestimmten Funkstation nur während eines zeitlich begrenzten Überflugs sichtbar.
 
 *Mittlere Umlaufbahnen (Medium Earth Orbit - MEO)*
-Mittlere Umlaufbahnen erstrecken sich in Höhen von etwa 2.000 bis 35.786 Kilometern über der Erde. Diese Region beherbergt oft Navigationssatelliten, wie sie für das weltbekannte GPS-System verwendet werden. Da die Satelliten hier länger brauchen, um die Erde zu umkreisen, bieten sie eine ausgeglichene Balance zwischen Abdeckung und Genauigkeit für Navigation und Positionierung.
+Mittlere Umlaufbahnen liegen grob zwischen 2'000 und 35'786 Kilometern Höhe. In diesem Bereich befinden sich beispielsweise viele Navigationssatelliten, wie sie für das weltbekannte GPS-System verwendet werden. Da die Satelliten hier länger brauchen, um die Erde zu umkreisen, bieten sie eine ausgeglichene Balance zwischen Abdeckung und Genauigkeit für Navigation und Positionierung. Mit zunehmender Bahnhöhe verlängert sich die Umlaufzeit. Gleichzeitig vergrössert sich das von einem Satelliten erreichbare Gebiet.
 
 *Hohe Umlaufbahnen (Geostationary Orbit - GEO)*
-In Höhen von etwa 35.786 Kilometern über der Erdoberfläche befinden sich die geostationären Umlaufbahnen. Diese Satelliten umkreisen die Erde in der gleichen Geschwindigkeit, mit der sich die Erde dreht, wodurch sie scheinbar stationär am Himmel erscheinen. Geostationäre Satelliten sind ideal für Kommunikationszwecke, da sie feste Signalempfangsstationen nutzen können und somit eine konstante Abdeckung eines bestimmten Gebiets bieten.
+
+Eine geosynchrone Umlaufbahn hat eine Umlaufzeit von ungefähr einem siderischen Tag, also 23 Stunden, 56 Minuten und 4 Sekunden. Eine besondere Form davon ist die geostationäre Umlaufbahn (Geostationary Orbit, GEO) in einer Höhe von etwa 35.786 Kilometern über dem Äquator.
+
+Ein geostationärer Satellit bewegt sich auf einer nahezu kreisförmigen Bahn über dem Äquator in derselben Drehrichtung und mit derselben Winkelgeschwindigkeit wie die Erde. Dadurch erscheint er von der Erde aus gesehen nahezu ortsfest am Himmel. Dies ermöglicht es einer Bodenstation, ihre Antenne dauerhaft auf dieselbe Position auszurichten. Geostationäre Satelliten eignen sich daher besonders für Kommunikationsanwendungen und ermöglichen eine konstante Abdeckung eines bestimmten Gebiets.
+
+[QO-100](https://amsat-dl.org/p4-a-nb-transponder-bandplan-und-betriebsrichtlinien/) ist der bisher erste geostationäre Satellit mit einer Amateurfunk Nutzlast.
 
 *Hochelliptische Umlaufbahnen (Highly Elliptical Orbit - HEO)*
-Hochelliptische Umlaufbahnen sind exzentrische Bahnen, bei denen Satelliten ihre geringste Entfernung zur Erde in einem Bereich und ihre größte Entfernung in einem anderen Bereich haben. Diese Art von Umlaufbahnen eignet sich gut für Satelliten, die eine erweiterte Abdeckung der Polregionen benötigen, wie beispielsweise für Überwachungsaufgaben in arktischen oder antarktischen Gebieten.
+
+Hochelliptische Umlaufbahnen besitzen eine stark exzentrische Ellipsenform. Der Satellit ist dabei während eines Teils der Bahn wesentlich weiter von der Erde entfernt als während des restlichen Umlaufs. HEO-Bahnen können so ausgelegt werden, dass ein Satellit lange über hohen geografischen Breiten sichtbar bleibt. Sie eignen sich deshalb beispielsweise für Anwendungen, bei denen eine gute Abdeckung der Polarregionen benötigt wird. HEO ist keine reine Höhenklasse wie LEO oder MEO, sondern beschreibt vor allem die Form der Bahn. 
 
 *Polarumlaufbahnen (Polar Orbit)*
-Satelliten, die in Polumlaufbahnen operieren, fliegen über die Pole der Erde hinweg. Diese Bahnen bieten eine vollständige Abdeckung der Erdoberfläche im Laufe der Zeit und werden häufig für wissenschaftliche Untersuchungen, Umweltüberwachung und Erdbeobachtung verwendet.
-</webindepth>
+Satelliten, die in Polumlaufbahnen operieren, fliegen über die Pole der Erde hinweg. Bei einer Polarumlaufbahn ist die Bahnneigung ungefähr 90 Grad. Da sich die Erde unter der Bahn des Satelliten weiterdreht, können bei geeigneter Bahn im Laufe der Zeit nahezu alle Regionen der Erdoberfläche überflogen werden. Auch eine Polarumlaufbahn ist keine eigene Höhenklasse. Ein Satellit kann beispielsweise gleichzeitig in einer LEO- und in einer Polarumlaufbahn betrieben werden.
+</indepth>
 
 [question:BE416]
 [question:BE411]
@@ -68,8 +74,7 @@ Aufgrund der von Satelliten verwendeten Frequenzen setzt der Amateurfunk über S
 ---
 
 **XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX**
-**IDEEN-SAMMLUNG FÜR DEN HB3-TEIL**
-**DIESER TEIL GEHÖRT DANN IN EIN FORTSETZUNGS KAPITEL FÜR DEN HB9-TEIL**
+**DIESER TEIL GEHÖRT IN EIN FORTSETZUNGSKAPITEL FÜR DEN HB9-TEIL**
 
 ---
 
@@ -107,45 +112,6 @@ Für die Satellitenpraxis bedeutet dies: Satelliten in niedrigen Umlaufbahnen um
 <margin>
 [picture:10100:a_kepler_ellipse:Kepler Ellipse] 
 </margin>
-
-## Bahnhöhen und Bahnformen
-
-Satellitenbahnen können nach verschiedenen Eigenschaften beschrieben werden. Die Begriffe LEO, MEO und GEO beziehen sich hauptsächlich auf die Bahnhöhe. Begriffe wie HEO oder Polar Orbit beschreiben dagegen andere Eigenschaften der Bahn, insbesondere deren Form oder Neigung. Diese Einteilungen können sich daher überschneiden.
-
-### Niedrige Umlaufbahnen (Low Earth Orbit - LEO)
-
-Satelliten in niedrigen Umlaufbahnen befinden sich typischerweise in Höhen von etwa 160 bis 2.000 Kilometern über der Erde. In diesem Bereich bewegen sich viele Erdbeobachtungs- und Wettersatelliten sowie zahlreiche Amateurfunksatelliten.
-
-Die geringe Entfernung zur Erde ermöglicht relativ kurze Funkstrecken und damit geringe Freiraumdämpfung. Gleichzeitig bewegen sich LEO-Satelliten schnell über den Himmel und sind von einer bestimmten Funkstation nur während eines begrenzten Überflugs sichtbar.
-
-### Mittlere Umlaufbahnen (Medium Earth Orbit - MEO)
-
-Mittlere Umlaufbahnen liegen grob zwischen 2.000 und 35.786 Kilometern Höhe. In diesem Bereich befinden sich beispielsweise viele Navigationssatelliten.
-
-Mit zunehmender Bahnhöhe verlängert sich die Umlaufzeit. Gleichzeitig vergrössert sich das von einem Satelliten erreichbare Gebiet.
-
-### Geosynchrone und geostationäre Umlaufbahnen
-
-Eine geosynchrone Umlaufbahn hat eine Umlaufzeit von ungefähr einem siderischen Tag, also 23 Stunden, 56 Minuten und 4 Sekunden. Eine besondere Form davon ist die geostationäre Umlaufbahn (Geostationary Orbit - GEO).
-
-Ein geostationärer Satellit bewegt sich auf einer nahezu kreisförmigen Bahn über dem Äquator und umläuft die Erde in derselben Drehrichtung und mit derselben Winkelgeschwindigkeit, mit der sich die Erde dreht. Dadurch erscheint er von der Erde aus gesehen nahezu ortsfest am Himmel.
-[QO-100](https://amsat-dl.org/p4-a-nb-transponder-bandplan-und-betriebsrichtlinien/) ist der bisher erste geostationäre Satellit mit einer Amateurfunk Nutzlast.
-
-Die Höhe einer geostationären Umlaufbahn beträgt etwa 35.786 Kilometer über dem Äquator. Für Kommunikationsanwendungen ist dies besonders interessant, weil eine Bodenstation die Antenne grundsätzlich auf eine feste Position am Himmel ausrichten kann.
-
-### Hochelliptische Umlaufbahnen (Highly Elliptical Orbit - HEO)
-
-Hochelliptische Umlaufbahnen besitzen eine stark exzentrische Ellipsenform. Der Satellit ist dabei während eines Teils der Bahn wesentlich weiter von der Erde entfernt als während des restlichen Umlaufs.
-
-HEO-Bahnen können so ausgelegt werden, dass ein Satellit lange über hohen geografischen Breiten sichtbar bleibt. Sie eignen sich deshalb beispielsweise für Anwendungen, bei denen eine gute Abdeckung der Polarregionen benötigt wird.
-
-HEO ist keine reine Höhenklasse wie LEO oder MEO, sondern beschreibt vor allem die Form der Bahn. Eine HEO-Bahn kann deshalb gleichzeitig stark geneigt sein.
-
-### Polarumlaufbahnen (Polar Orbit)
-
-Bei einer Polarumlaufbahn ist die Bahnneigung ungefähr 90 Grad. Der Satellit überfliegt dabei die Erde in der Nähe der Pole. Da sich die Erde unter der Bahn des Satelliten weiterdreht, können bei geeigneter Bahn im Laufe der Zeit nahezu alle Regionen der Erdoberfläche überflogen werden.
-
-Auch eine Polarumlaufbahn ist keine eigene Höhenklasse. Ein Satellit kann beispielsweise gleichzeitig in einer LEO- und in einer Polarumlaufbahn betrieben werden.
 
 ## Sichtbarkeit eines Satelliten
 
