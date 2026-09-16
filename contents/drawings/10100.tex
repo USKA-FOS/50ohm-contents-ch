@@ -88,12 +88,12 @@
 % ============================================================
 \filldraw[fill=blue!55, draw=blue!20!black, thick]
     (Earth) circle (0.42cm);
-\node[below left=4pt] at (Earth) {\textbf{Erde}};
+\node[anchor=north] at (-\c,-0.6) {\textbf{Erde}};
 
-% Leerer Brennpunkt (2. Brennpunkt der Ellipse, unbesetzt)
+% Zweiter Brennpunkt (unbesetzter Brennpunkt der Ellipse)
 \draw[gray!70, thick] (EmptyFocus) circle (0.12cm);
-\node[below right=2pt, font=\tiny, gray!40!black]
-    at (EmptyFocus) {leerer Brennpunkt};
+\node[below=3pt, align=center, text width=1.7cm, font=\tiny, gray!40!black]
+    at (EmptyFocus) {zweiter Brennpunkt};
 
 % Zentrum der Ellipse
 \fill[black] (Center) circle (1.2pt);
@@ -108,11 +108,11 @@
 % Geschwindigkeiten (echte Bahntangenten, konsistente Umlaufrichtung;
 % Pfeillänge grob proportional zur Bahngeschwindigkeit, v ~ 1/r)
 % ============================================================
-\draw[very thick,->] (S1) -- ++(-0.429,0.344)
-    node[above left] {\textbf{langsamer}};
+\draw[very thick,->] (S1) -- ++(-0.429,0.344);
+\node[anchor=south west] at (3.92,2.70) {\textbf{langsamer}};
 
 \draw[very thick,->] (S2) -- ++(0.496,-0.061)
-    node[right] {\textbf{schneller}};
+    node[above right=1pt] {\textbf{schneller}};
 
 % ============================================================
 % Beschriftung der beiden Flächen
