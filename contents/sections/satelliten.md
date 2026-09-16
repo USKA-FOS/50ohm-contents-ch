@@ -6,7 +6,7 @@
 
 ---
 
-Satelliten umrunden die Erde in kreisförmigen oder elliptischen Bahnen und in unterschiedlichen Höhen. Seit 1961 gehören dazu auch Amateurfunksatelliten. Diese werden als OSCAR bezeichnet. Das ist die Abkürzung für "Orbiting Satellite Carrying Amateur Radio" ("Umkreisender Satellit, der Amateurfunk mitführt"). Der erste Amateurfunksatellit wurde OSCAR 1 ([ref:n_satellit_oscar1]) genannt. OSCAR 1 war nur der Anfang. In den Folgejahren - bis heute - wurde eine ganze Reihe immer umfangreicher ausgestatteter Amateurfunknutzlasten ins All gebracht.
+Satelliten umrunden die Erde in kreisförmigen oder elliptischen Bahnen und in unterschiedlichen Höhen. Mehr dazu folgt in [sec:satelliten_2]. Seit 1961 gehören dazu auch Amateurfunksatelliten. Diese werden als OSCAR bezeichnet. Das ist die Abkürzung für "Orbiting Satellite Carrying Amateur Radio" ("Umkreisender Satellit, der Amateurfunk mitführt"). Der erste Amateurfunksatellit wurde OSCAR 1 ([ref:n_satellit_oscar1]) genannt. OSCAR 1 war nur der Anfang. In den Folgejahren - bis heute - wurde eine ganze Reihe immer umfangreicher ausgestatteter Amateurfunknutzlasten ins All gebracht.
 
 [question:BE415]
 
@@ -113,10 +113,6 @@ Für die Satellitenpraxis bedeutet dies: Satelliten in niedrigen Umlaufbahnen um
 [picture:10100:a_kepler_ellipse:Kepler Ellipse mit mit Satellit im Umlauf] 
 </margin>
 
-<margin>
-[picture:10101:a_umlaufzeiten:Umlaufzeiten in Funktion der Höhe der Bahn] 
-</margin>
-
 ## Sichtbarkeit eines Satelliten
 
 Für eine Funkstation auf der Erde ist nicht entscheidend, ob ein Satellit grundsätzlich die Erde umkreist, sondern ob er sich gerade über dem lokalen Horizont befindet. Ein Überflug beginnt mit dem "Acquisition of Signal" (AOS), wenn der Satellit für die Station sichtbar beziehungsweise empfangbar wird. Er endet mit dem "Loss of Signal" (LOS), wenn er wieder unter den Horizont sinkt.
@@ -218,6 +214,14 @@ Damit lassen sich Überflüge planen und Funkgeräte sowie Antennen automatisch 
 Amateurfunksatelliten verfügen über eine Bake. Eine Bake sendet automatisch in regelmässigen Abständen oder kontinuierlich definierte Signale aus. Sie kann dazu dienen, die Empfangbarkeit des Satelliten, die Ausbreitungsbedingungen und den Zustand der Funknutzlast zu beobachten.
 
 Beim Empfang einer Bake kann eine Funkstation beispielsweise feststellen, ob der Satellit bereits über dem Horizont steht, wie sich die Empfangsfrequenz durch den Dopplereffekt verändert und wie gut die Funkverbindung funktioniert.
+
+Im Kapitel [sec:satelliten] haben wir verschiedene Satellitenbahnen kennengelernt. Die Umlaufzeit eines Satelliten um die Erde hängt von der Höhe seiner Bahn ab. Dieser Zusammenhang ist im Bild 
+[ref: a_umlaufzeiten] dargestellt. 
+
+<indepth>
+*Umlaufzeit eines Satelliten* 
+[picture:10101:a_umlaufzeiten:Umlaufzeiten in Funktion der Höhe der Bahn] 
+</indepth>
 
 <tip>
 Mit Amateurfunk über Satelliten befassen sich weltweit die AMSAT-Organisationen, in der Schweiz ist das [AMSAT-HB](https://amsat-hb.org/) 
