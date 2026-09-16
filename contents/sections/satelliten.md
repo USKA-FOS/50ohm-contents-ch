@@ -71,7 +71,7 @@ Aufgrund der von Satelliten verwendeten Frequenzen setzt der Amateurfunk über S
 **IDEEN-SAMMLUNG FÜR DEN HB3-TEIL**
 **DIESER TEIL GEHÖRT DANN IN EIN FORTSETZUNGS KAPITEL FÜR DEN HB9-TEIL**
 
-
+---
 
 <attention>
 *Dieser Stoff ist nicht prüfungsrelevant.*
