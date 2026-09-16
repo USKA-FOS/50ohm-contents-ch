@@ -13,6 +13,8 @@ Satelliten umrunden die Erde in kreisförmigen oder elliptischen Bahnen und in u
 Die mitgeführten Relaisfunkstellen werden als "Transponder" bezeichnet. Die Eingabefrequenz, also die Funkstrecke von der Erde zum Satelliten, wird im Satellitenfunk als "Uplink" bezeichnet. Die Ausgabefrequenz, also die Funkstrecke vom Satelliten zur Erde, wird hingegen "Downlink" genannt . Für Uplink und Downlink werden oftmals unterschiedliche Frequenzbänder benutzt, weil dies eine einfachere Trennung von Sende- und Empfangssignal ermöglicht und die Baugröße von Filtern auf dem Satelliten reduziert wird.
 
 <indepth>
+*Charakterisierung von Satellitenbahnen (orbits)*
+
 Satellitenbahnen können nach verschiedenen Eigenschaften beschrieben werden. Die Begriffe LEO, MEO und GEO beziehen sich hauptsächlich auf die Bahnhöhe. Begriffe wie HEO oder Polar Orbit beschreiben dagegen andere Eigenschaften der Bahn, insbesondere deren Form oder Neigung. Diese Einteilungen können sich daher überschneiden. Im Folgenden stellen wir die wichtigsten Flughöhen bzw. Umlaufbahnen vor.
 
 *Niedrige Umlaufbahnen (Low Earth Orbit - LEO)*
@@ -45,8 +47,8 @@ Satelliten, die in Polumlaufbahnen operieren, fliegen über die Pole der Erde hi
 ---
 
 Bei der Nutzung von Satellitenkommunikation ist die Ausrichtung von Antennen von zentraler Bedeutung. Die Begriffe *Azimut* und *Elevation* spielen dabei eine Schlüsselrolle. Sie beschreiben die horizontale Ausrichtung und den vertikalen Winkel, unter denen ein Satellit von der Erdoberfläche aus wahrgenommen wird.:
-* Der Azimut ist die Richtung entlang des Horizonts, in die man schaut, um den Satelliten zu sehen. Er wird meist in Grad gemessen und reicht von $\qty{0}{\degree}$ (Norden) über $\qty{90}{\degree}$ (Osten), $\qty{180}{\degree}$ (Süden) bis $\qty{270}{\degree}$ (Westen).
-* Die Elevation ist der vertikale Winkel, unter dem ein Satellit von der Position aus über dem Horizont steht. Sie wird ebenfalls in Grad gemessen und variiert von $\qty{0}{\degree}$ (direkt am Horizont) bis $\qty{90}{\degree}$ (senkrecht über einem).
+* Das *Azimut* ist die Richtung entlang des Horizonts, in die man schaut, um den Satelliten zu sehen. Er wird meist in Grad gemessen und reicht von $\qty{0}{\degree}$ (Norden) über $\qty{90}{\degree}$ (Osten), $\qty{180}{\degree}$ (Süden) bis $\qty{270}{\degree}$ (Westen).
+* Die *Elevation* ist der vertikale Winkel, unter dem ein Satellit von der Position aus über dem Horizont steht. Sie wird ebenfalls in Grad gemessen und variiert von $\qty{0}{\degree}$ (direkt am Horizont) bis $\qty{90}{\degree}$ (senkrecht über einem).
 
 <margin>
 [picture:876:n_azimut_elevation:Azimut und Elevation im Raum]
@@ -65,7 +67,7 @@ Im Amateurfunkdienst über Satelliten gilt eine Ausnahme von der Pflicht, nur of
 [question:VN026]
 
 
-%Im deutschen Recht - nicht aber international - gilt diese Regelung auch für die Steuersignale an automatische und fernbediente Stationen sowie Remote-Stationen. Etsprechende Frage VD104 gelöscht.
+%Im deutschen Recht - nicht aber international - gilt diese Regelung auch für die Steuersignale an automatische und fernbediente Stationen sowie Remote-Stationen. Entsprechende Frage VD104 gelöscht.
 
 <attention>
 Aufgrund der von Satelliten verwendeten Frequenzen setzt der Amateurfunk über Satelliten eine HB9-Konzession voraus.
@@ -80,7 +82,7 @@ Aufgrund der von Satelliten verwendeten Frequenzen setzt der Amateurfunk über S
 
 <attention>
 *Dieser Stoff ist nicht prüfungsrelevant.*
-Satelliten und Raumfahrt werden immer wichtiger. Wir Funkamateure können dank des Amateurfunktdiensts über Satelliten auch auf diesem spannenden Feld tätig werden. Deshalb sind wir der Meinung, dass diese Einführung in einen Amateurfunkkurs reingehört.
+Satelliten und Raumfahrt spielen eine immer wichtigere Rolle. Wir Funkamateure können dank des Amateurfunktdiensts über Satelliten auch auf diesem spannenden Feld tätig werden. Deshalb sind wir der Meinung, dass diese Einführung in einen Amateurfunkkurs reingehört, auch wenn das Thema aktuell nicht geprüft wird.
 </attention>
 
 ## Umlaufbahnen und Keplersche Gesetze
@@ -110,14 +112,14 @@ Dabei ist $T$ die Umlaufzeit und $a$ die grosse Halbachse der Bahnellipse. Je gr
 Für die Satellitenpraxis bedeutet dies: Satelliten in niedrigen Umlaufbahnen umkreisen die Erde wesentlich schneller als Satelliten in höheren Umlaufbahnen.
 
 <margin>
-[picture:10100:a_kepler_ellipse:Kepler Ellipse mit mit Satellit im Umlauf] 
+[picture:10100:a_kepler_ellipse:Kepler Ellipse mit Satellit im Umlauf] 
 </margin>
 
 ## Sichtbarkeit eines Satelliten
 
 Für eine Funkstation auf der Erde ist nicht entscheidend, ob ein Satellit grundsätzlich die Erde umkreist, sondern ob er sich gerade über dem lokalen Horizont befindet. Ein Überflug beginnt mit dem "Acquisition of Signal" (AOS), wenn der Satellit für die Station sichtbar beziehungsweise empfangbar wird. Er endet mit dem "Loss of Signal" (LOS), wenn er wieder unter den Horizont sinkt.
 
-Die Position eines Satelliten am Himmel wird durch den Azimut, also die Richtung entlang des Horizonts, und die Elevation, also den Winkel über dem Horizont, angegeben. Während eines Überflugs ändern sich beide Werte laufend.
+Die Position eines Satelliten am Himmel wird durch das Azimut, also die Richtung entlang des Horizonts, und die Elevation, also den Winkel über dem Horizont, angegeben. Während eines Überflugs ändern sich beide Werte laufend.
 
 Der Bereich auf der Erdoberfläche, von dem aus ein Satellit grundsätzlich über dem Horizont gesehen werden kann, wird als Footprint bezeichnet. Je höher der Satellit fliegt, desto grösser kann dieser Bereich sein.
 
