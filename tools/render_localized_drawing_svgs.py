@@ -43,6 +43,9 @@ LATEX_SUPPORT_FILES = (
 PHOTO_INCLUDE_PATTERN = re.compile(r"\\includegraphics(?:\[[^]]*\])?\{foto/([^}]+)\}")
 SVG_WIDTH_PATTERN = re.compile(r'<svg\b[^>]*\bwidth="([0-9.]+)(pt)?"')
 TEX_POINTS_PER_INCH = 72.27
+# Files copied from the same source can differ by a few microseconds. Treat
+# that timestamp noise as equal instead of recompiling an unchanged drawing.
+MTIME_TOLERANCE_SECONDS = 1.0
 
 
 def ensure_dependencies() -> list[str]:
@@ -163,16 +166,6 @@ def source_width_cm(tex_path: Path, stem: str, override: float | None) -> float:
     if not match:
         raise ValueError(f"German reference SVG has no numeric width: {de_svg}")
     return float(match.group(1)) / TEX_POINTS_PER_INCH * 2.54
-
-
-def svg_width_pt(svg_path: Path) -> float | None:
-    if not svg_path.exists():
-        return None
-    header = svg_path.read_text(encoding="utf-8", errors="replace")[:2048]
-    match = SVG_WIDTH_PATTERN.search(header)
-    if not match:
-        return None
-    return float(match.group(1))
 
 
 def render_tex_to_svg(*, tex_path: Path, stem: str, width_cm: float) -> None:
@@ -299,19 +292,17 @@ def iter_target_tex_paths(*, languages: list[str], canonical_refs: list[str] | N
 def should_rerender(*, tex_path: Path, svg_path: Path, skip_existing: bool) -> bool:
     if not svg_path.exists():
         return True
-    if tex_path.stat().st_mtime > svg_path.stat().st_mtime:
+    if tex_path.stat().st_mtime > svg_path.stat().st_mtime + MTIME_TOLERANCE_SECONDS:
         return True
     language = tex_path.suffixes[-2].lstrip(".")
     photo_map = build_photo_asset_map(language)
     for photo_ref in extract_photo_refs(tex_path.read_text(encoding="utf-8")):
         photo_path = photo_map.get(photo_ref)
-        if photo_path is not None and photo_path.stat().st_mtime > svg_path.stat().st_mtime:
-            return True
-    stem = infer_stem(tex_path, language)
-    de_width = svg_width_pt(tex_path.with_name(f"{stem}.de.svg"))
-    localized_width = svg_width_pt(svg_path)
-    if de_width is not None and localized_width is not None:
-        if abs(de_width - localized_width) > 0.01:
+        if (
+            photo_path is not None
+            and photo_path.stat().st_mtime
+            > svg_path.stat().st_mtime + MTIME_TOLERANCE_SECONDS
+        ):
             return True
     return not skip_existing
 
@@ -343,7 +334,12 @@ def main() -> None:
     parser.add_argument(
         "--skip-existing",
         action="store_true",
-        help="Skip only existing SVGs that are up to date and match the German width.",
+        help="Compatibility flag; existing up-to-date SVGs are skipped by default.",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Recompile existing SVGs even when their inputs are unchanged.",
     )
     parser.add_argument(
         "--metadata-only",
@@ -388,7 +384,7 @@ def main() -> None:
             rerender = should_rerender(
                 tex_path=tex_path,
                 svg_path=svg_path,
-                skip_existing=args.skip_existing,
+                skip_existing=not args.force,
             )
             used_existing = not rerender and svg_path.exists()
             if used_existing:

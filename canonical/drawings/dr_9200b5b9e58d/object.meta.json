@@ -21,6 +21,20 @@
         "tex": "482.de.tex"
       },
       "review_state": "imported_approved"
+    },
+    "fr": {
+      "review_state": "to_be_reviewed",
+      "asset_files": {
+        "tex": "482.fr.tex",
+        "svg": "482.fr.svg"
+      }
+    },
+    "it": {
+      "review_state": "to_be_reviewed",
+      "asset_files": {
+        "tex": "482.it.tex",
+        "svg": "482.it.svg"
+      }
     }
   },
   "languages": [
@@ -42,6 +56,22 @@
       "de.tex": {
         "canonical_file": "482.de.tex",
         "source_path": "contents/drawings/482.tex"
+      },
+      "fr.tex": {
+        "canonical_file": "482.fr.tex",
+        "source_path": "contents/drawings/482.tex"
+      },
+      "it.tex": {
+        "canonical_file": "482.it.tex",
+        "source_path": "contents/drawings/482.tex"
+      },
+      "fr.svg": {
+        "canonical_file": "482.fr.svg",
+        "source_path": "contents/drawings/482.svg"
+      },
+      "it.svg": {
+        "canonical_file": "482.it.svg",
+        "source_path": "contents/drawings/482.svg"
       }
     },
     "reconstruction": {

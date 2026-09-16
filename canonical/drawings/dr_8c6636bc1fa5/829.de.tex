@@ -2,7 +2,12 @@
 % 2024, Prof. Dr. Matthias Jung (DL9MJ)
 
 \begin{tikzpicture}
+    % The band macro uses footnotesize internally; reduce it for this course slide.
+    \renewcommand{\footnotesize}{\fontsize{3pt}{3.5pt}\selectfont}
     \begin{semilogxaxis}[
+        every node/.append style={font=\fontsize{3pt}{3.5pt}\selectfont},
+        tick label style={font=\fontsize{6pt}{7pt}\selectfont},
+        every axis label/.append style={font=\fontsize{6pt}{7pt}\selectfont},
         xmin=30, xmax=300000,
         ymin=-50, ymax=50,
         xtick={30,300,3000,30000,300000},
@@ -46,10 +51,10 @@
         \bandC{  70150}{  70210}{ 70.150}{ 70.210}{\mega\hertz}{  4}{\metre} 
         \bandC{ 144000}{ 146000}{144.000}{146.000}{\mega\hertz}{  2}{\metre} 
 
-        \draw(   94.05,-55) node(){LW};
-        \draw(  940.50,-55) node(){MF};
-        \draw( 9405.00,-55) node(){HF (KW)};
-        \draw(94050.00,-55) node(){VHF (UKW)};
+        \draw(   94.05,-55) node[font=\fontsize{3pt}{3.5pt}\selectfont](){LW};
+        \draw(  940.50,-55) node[font=\fontsize{3pt}{3.5pt}\selectfont](){MF};
+        \draw( 9405.00,-55) node[font=\fontsize{3pt}{3.5pt}\selectfont](){HF (KW)};
+        \draw(94050.00,-55) node[font=\fontsize{3pt}{3.5pt}\selectfont](){VHF (UKW)};
 
 
     \end{semilogxaxis}

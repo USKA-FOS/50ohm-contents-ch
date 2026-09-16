@@ -16,12 +16,12 @@
         node[mixer, box, anchor=west, DARCred, color=DARCred] (mix1) {};
     \draw(amp1.west) node[inputarrow](){};
     \draw(mix1.east)
-        to [amp, box, l_=ZF, name={amp2}, DARCblue, color=DARCblue] ++ (2,0)
+        to [amp, box, l_=IF, name={amp2}, DARCblue, color=DARCblue] ++ (2,0)
         node[inputarrow](){}
         node[mixer, box, anchor=west, DARCred, color=DARCred] (mix2) {};
     \draw(amp2.west) node[inputarrow](){};
     \draw(mix2.east)
-        to [amp, box, l_=NF, name={amp3}, DARCblue, color=DARCblue] ++ (2,0)
+        to [amp, box, l_=BF, name={amp3}, DARCblue, color=DARCblue] ++ (2,0)
         node[inputarrow](){}
         node[loudspeakershape, anchor=south, rotate=-90](L){};
     \draw(amp3.west) node[inputarrow](){};

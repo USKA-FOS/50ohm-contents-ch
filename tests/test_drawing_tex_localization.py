@@ -257,7 +257,7 @@ class DrawingRendererTest(unittest.TestCase):
             width = renderer.source_width_cm(tex_path, "689", None)
             self.assertAlmostEqual(width, 9.16, places=2)
 
-    def test_rerenders_existing_svg_when_german_width_differs(self):
+    def test_does_not_rerender_existing_svg_only_when_width_differs(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)
             tex_path = root / "471.fr.tex"
@@ -267,7 +267,7 @@ class DrawingRendererTest(unittest.TestCase):
             (root / "471.de.svg").write_text(
                 '<svg width="707.636pt"></svg>', encoding="utf-8"
             )
-            self.assertTrue(
+            self.assertFalse(
                 renderer.should_rerender(
                     tex_path=tex_path,
                     svg_path=svg_path,
@@ -289,7 +289,7 @@ class DrawingRendererTest(unittest.TestCase):
             photo_path.write_bytes(b"new photo")
             svg_path.touch()
             svg_mtime = svg_path.stat().st_mtime
-            os.utime(photo_path, (svg_mtime + 1, svg_mtime + 1))
+            os.utime(photo_path, (svg_mtime + 2, svg_mtime + 2))
             with patch.object(renderer, "build_photo_asset_map", return_value={"205": photo_path}):
                 self.assertTrue(
                     renderer.should_rerender(

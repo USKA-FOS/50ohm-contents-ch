@@ -3,7 +3,7 @@
 \begin{circuitikz}
     % Anpassglied:
     \draw(0,0) node[tlground]{}
-        to [twoport, name=ag, -*] ++(0,2)  coordinate(feed);
+        to [twoport, name=ag, -*, bipoles/twoport/height=0.77, bipoles/twoport/width=0.77] ++(0,2)  coordinate(feed);
     \draw[very thick] (feed) to [short] ++(5,0) coordinate(end);
     \draw (ag) node[above](){\tiny circuit};
     \draw (ag) node[below](){\tiny d’adaptation};

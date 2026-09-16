@@ -366,6 +366,38 @@ preserves the complete review worksheet as a tracked CSV and writes the
 versioned audit under `review/drawing_localization/2026-09-14/`. It also
 refreshes the working render report consumed by `--from-import-report`.
 
+### Import the validated drawing feedback workbook
+
+For the issue-based visual review workbook:
+
+```bash
+python tools/import_drawing_feedback_review.py
+python tools/import_drawing_feedback_review.py --apply
+```
+
+The first command is a dry run. The second command applies only rows from the
+`Translation review` sheet whose `decision` is `to_be_translated`. It preserves
+existing localized TeX files and creates a localized file from the German
+source only when that file does not exist. The import writes its audit to
+`work/drawing_feedback_review_2026-09-16.import-audit.json`; unmatched source
+terms are reported there and are not silently replaced.
+
+For a subsequent review column, select it explicitly, for example:
+
+```bash
+python tools/import_drawing_feedback_review.py \
+  --decision-column decision_2 \
+  --audit work/drawing_feedback_review_2026-09-16.decision-2.import-audit.json
+python tools/import_drawing_feedback_review.py \
+  --decision-column decision_2 \
+  --apply \
+  --audit work/drawing_feedback_review_2026-09-16.decision-2.import-audit.json
+```
+
+This tool modifies only canonical `.fr.tex` and `.it.tex` files (and their
+metadata). It never compiles TeX or generates SVG files; rendering is a
+separate, explicitly launched operation.
+
 ### Render localized drawing SVG files from localized TeX files
 
 ```bash
@@ -390,10 +422,14 @@ Behavior note:
 - if the target localized SVG does not exist, it is rendered;
 - each image reports `START`, then `OK` or `FAIL`; up-to-date images report
   `SKIP`, with output flushed immediately to the terminal;
-- if the localized `.tex` file is newer than the existing `.svg`, it is
-  rendered again;
-- `--skip-existing` now skips only SVG files that already exist and are at
-  least as recent as their corresponding localized `.tex` file;
+- if the localized `.tex` file or a referenced photo is more than one second
+  newer than the existing `.svg`, it is rendered again;
+- a width difference between the localized SVG and the German reference does
+  not trigger rendering; width differences are a rendering-quality concern,
+  not evidence that the input `.tex` changed;
+- existing up-to-date SVGs are skipped by default; `--skip-existing` remains
+  accepted for compatibility;
+- `--force` explicitly recompiles existing selected SVGs;
 - `--metadata-only --no-copy-review` repairs localized TeX/SVG asset metadata
   without invoking LaTeX, modifying SVGs, or refreshing review copies;
 - rendering continues after per-file failures instead of aborting the whole

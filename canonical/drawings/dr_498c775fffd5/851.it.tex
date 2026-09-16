@@ -3,7 +3,7 @@
 \begin{circuitikz}
     % Anpassglied:
     \draw(0,0) node[ground, anchor=north](gnd){};
-    \draw(gnd) node[twoportshape, anchor=south](ag){};
+    \draw(gnd) node[twoportshape, circuitikz/bipoles/twoport/height=0.77, circuitikz/bipoles/twoport/width=0.77, anchor=south](ag){};
     \draw[very thick] (ag.east) coordinate(feed) to [short] ++(2.5,0) coordinate(mid) to [short] ++(2.5,0) coordinate(end);
     \draw (ag) node[above](){\tiny rete di};
     \draw (ag) node[below](){\tiny adattamento};
