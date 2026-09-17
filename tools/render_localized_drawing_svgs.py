@@ -17,7 +17,7 @@ from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DRAWINGS_ROOT = REPO_ROOT / "canonical" / "drawings"
-LATEX_SUPPORT_ROOT = REPO_ROOT / "latex_deleted"
+LATEX_SUPPORT_ROOT = REPO_ROOT / "latex"
 PHOTOS_ROOT = REPO_ROOT / "contents" / "photos"
 CANONICAL_PHOTOS_ROOT = REPO_ROOT / "canonical" / "photos"
 DEFAULT_IMPORT_REPORT = (
