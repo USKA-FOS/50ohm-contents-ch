@@ -1,5 +1,61 @@
-% Diese Seite wird zu unterst vorläufig von YPA missbraucht als Sandkasten, wenn etwas für die Anleitung simuliert werden muss.
+Diese Seite wird vorläufig für die Bearbeiter missbraucht als Sandkasten, wenn etwas simuliert werden muss (Bsp wenn etwas nicht funktioniert) und dient auch als Vorlagen-Container um wiederkehrende Sachen (wie bsp die farbigen Boxen in der rechten Spalte) mit Copy&Paste holen zu können.
+Der Originalinhalt ist noch immer hier drin, weil bisher unklar ist ob der noch gebraucht wird.
 
+<margin>
+hier sind alle die verschiedenen Boxen als Vorlage
+</margin>
+
+<indepth>
+Das ist ein Mustertext mit dem Kommando <indepth>. Das generiert den grauen Kasten „Vertiefung“.
+</indepth>
+
+<tip>
+Das ist ein Mustertext mit dem Kommando <tip>. Das generiert den roten Kasten „Tipp“.
+</tip>
+
+<attention>
+Das ist ein Mustertext mit dem Kommando <attention>. Das generiert den gelben Kasten „Achtung“.
+</attention>
+
+<danger>
+Das ist ein Mustertext mit dem Kommando <danger>. Das generiert den roten Kasten „Gefahr“.
+</danger>
+
+<unit>
+Das ist ein Mustertext mit dem Kommando <unit>. Das generiert den grünen Kasten „Neue Einheit“.
+</unit>
+
+<law>
+Das ist ein Mustertext mit dem Kommando (law). Das generiert den blauen Kasten «Gesetzliche Grundlage».
+Dieser wird verwendet für Ausführungen von oder Links zu Gesetzen, Verordnungen, RR, CEPT, Merkblatt BAKOM, etc.
+[angezeigter Text](Direktlink zur Zielseite)
+
+[Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk)
+</law>
+
+
+<margin>
+Externer Link
+So macht man einen Direktlink auf eine externe Seite [angezeigter Text](Direktlink zur Zielseite)
+</margin>
+
+
+**Interne Verlinkung**
+Das ist ein Test für eine interne Verlinkung zu einem anderen Abschnitt innerhalb von der 50Ohm-Webseite. - Das ist so wie es sein soll  - 
+Das ist zu benutzen, wenn bspw. im Text steht "Das haben wir bereits im Abschnitt [sec:rufzeichen] behandelt".
+
+Dieser Test ist für die fehlerhafte Verlinkung.  - Das ist okay so. Das muss der Editor/Reviewer bereits merken und korrigieren. - 
+Wenn man den Namen der Section gross [sec:Rufzeichen] oder mit dem Zusatz NE_ [sec:NE_rufzeichen] oder mit der Endung .md [sec:rufzeichen.md] oder .html [sec:rufzeichen.html] oder sonstirgendwie fehlerhaft schreibt.
+
+Dieser Test ist für die kursübergreifende Verlinkung. - 
+
+Bspw wenn man "im Abschnitt [sec:kondensator_2] wird da noch tiefer darauf eingegangen." schreiben will (Verweis auf eine HB9 Section in der HB3 Edition.)
+
+Bspw wenn man "wie wir im Abschnitt [sec:kondensator_2] schon gelernt haben." schreiben will. (Verweis auf eine HB3 Section in der HB9 Upgrade Edition.)
+
+
+
+**AB HIER ORIGINALTEXT - BITTE STEHEN LASSEN**
 In dem Gesetz mit dem sperrigen Namen Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz (TDDDG), ehemals TTDSG, werden im § 5 auch die Funkamateure angesprochen. In dem Paragrafen geht es um das Abhörverbot und die Geheimhaltungspflicht für alle Betreiber von Funkanlagen. Nur Nachrichten, die *an die Allgemeinheit, einen unbestimmten Personenkreis oder an Funkamateure* gerichtet sind, dürfen empfangen werden. Alles andere ist verboten. Dazu gehört bereits der Empfang selbst, aber auch die Verwertung und Weitergabe von Nachrichten, die nicht für die Allgemeinheit, für einen unbestimmten Personenkreis oder für Funkamateure bestimmt sind, verstoßen gegen das TDDDG.
 
 Sollte man versehentlich solche Nachrichten empfangen, muss man den Inhalt dieser Nachricht und sogar die Tatsache des Empfangs für sich behalten. Für immer und ewig! Die einzigen Ausnahmen sind Not- und Katastrophenfälle. Formal ist dies eine sogenannte Rechtsgüterabwägung: Was ist wichtiger, der Rechtsverstoß der Nachrichtenweitergabe oder die Hilfe in einem Notfall?
@@ -22,52 +78,6 @@ Das Abhören des nicht öffentlich gesprochenen Wortes ist ein *Straftatbestand*
 (2) Handelt der Täter in den Fällen des Absatzes 1 Nummer 3 fahrlässig, so ist die Strafe Freiheitsstrafe bis zu einem Jahr oder Geldstrafe."
 
 [question:VE201]
-
-<margin>
-Sandkasten YPA
-</margin>
-
-<danger>
-Das ist ein Mustertext mit dem Kommando (danger). Das generiert den roten Kasten «Gefahr».
-</danger>
-
-<tip>
-Das ist ein Mustertext mit dem Kommando (tipp). Das ist ein Test ob die Farbe dieselbe ist wie bei Gefahr.
-</tip>
-
-<law>
-Das ist ein Mustertext mit dem Kommando (law). Das generiert den blauen Kasten «Gesetzliche Grundlage».
-Dieser wird verwendet für Ausführungen von oder Links zu Gesetzen, Verordnungen, RR, CEPT, Merkblatt BAKOM, etc.
-[angezeigter Text](Direktlink zur Zielseite)
-
-[Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk)
-</law>
-
-
-
-<margin>
-Externer Link
-So macht man einen Direktlink auf eine externe Seite [angezeigter Text](Direktlink zur Zielseite)
-</margin>
-
-Testzone YPA
-
-Das ist ein Test für eine interne Verlinkung zu einem anderen Abschnitt innerhalb von der 50Ohm-Webseite. - Das ist so wie es sein soll  - 
-Das ist zu benutzen, wenn bspw. im Text steht "Das haben wir bereits im Abschnitt [sec:rufzeichen] behandelt".
-
-Dieser Test ist für die fehlerhafte Verlinkung.  - Das ist okay so. Das muss der Editor/Reviewer bereits merken und korrigieren. - 
-Wenn man den Namen der Section gross [sec:Rufzeichen] oder mit dem Zusatz NE_ [sec:NE_rufzeichen] oder mit der Endung .md [sec:rufzeichen.md] oder .html [sec:rufzeichen.html] oder sonstirgendwie fehlerhaft schreibt.
-
-
-Dieser Test ist für die kursübergreifende Verlinkung. - 
-
-Bspw wenn man "im Abschnitt [sec:kondensator_2] wird da noch tiefer darauf eingegangen." schreiben will (Verweis auf eine HB9 Section in der HB3 Edition.)
-
-Bspw wenn man "wie wir im Abschnitt [sec:kondensator_2] schon gelernt haben." schreiben will. (Verweis auf eine HB3 Section in der HB9 Upgrade Edition.)
-
-
-
-
 
 
 
