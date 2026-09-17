@@ -1,14 +1,25 @@
 [
   {
-    "inline_alias": "n_persoenliche_rufzeichen_beispiele",
-    "inline_label": "Beispiele für personengebundene Rufzeichen",
-    "raw_marker": "[table:n_persoenliche_rufzeichen_beispiele:Beispiele für personengebundene Rufzeichen]",
-    "relation_type": "embeds_table",
-    "sort_order": 4,
+    "inline_alias": "n_persoenliche_rufzeichen_praefixe",
+    "inline_label": null,
+    "raw_marker": "[ref:n_persoenliche_rufzeichen_praefixe]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
     "source_slot_key": "body_markdown",
-    "target_id_system": "table_id",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_persoenliche_rufzeichen_praefixe",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_persoenliche_rufzeichen_beispiele",
+    "inline_label": null,
+    "raw_marker": "[ref:n_persoenliche_rufzeichen_beispiele]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
     "target_id_value": "n_persoenliche_rufzeichen_beispiele",
-    "target_object_type": "table_object"
+    "target_object_type": null
   },
   {
     "inline_alias": "n_persoenliche_rufzeichen_praefixe",
@@ -23,14 +34,14 @@
   },
   {
     "inline_alias": "n_persoenliche_rufzeichen_beispiele",
-    "inline_label": null,
-    "raw_marker": "[ref:n_persoenliche_rufzeichen_beispiele]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 2,
+    "inline_label": "Beispiele für personengebundene Rufzeichen",
+    "raw_marker": "[table:n_persoenliche_rufzeichen_beispiele:Beispiele für personengebundene Rufzeichen]",
+    "relation_type": "embeds_table",
+    "sort_order": 4,
     "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
+    "target_id_system": "table_id",
     "target_id_value": "n_persoenliche_rufzeichen_beispiele",
-    "target_object_type": null
+    "target_object_type": "table_object"
   },
   {
     "inline_alias": null,
@@ -41,39 +52,6 @@
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "BD105",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": "n_persoenliche_rufzeichen_praefixe",
-    "inline_label": null,
-    "raw_marker": "[ref:n_persoenliche_rufzeichen_praefixe]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 1,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "n_persoenliche_rufzeichen_praefixe",
-    "target_object_type": null
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:VU006]",
-    "relation_type": "references_question",
-    "sort_order": 12,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "VU006",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:VC107]",
-    "relation_type": "references_question",
-    "sort_order": 8,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "VC107",
     "target_object_type": "question"
   },
   {
@@ -90,31 +68,9 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:VP001]",
-    "relation_type": "references_question",
-    "sort_order": 13,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "VP001",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:VC117]",
-    "relation_type": "references_question",
-    "sort_order": 10,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "VC117",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
     "raw_marker": "[question:VU002]",
     "relation_type": "references_question",
-    "sort_order": 11,
+    "sort_order": 7,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "VU002",
@@ -123,23 +79,23 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:BD104]",
+    "raw_marker": "[question:VU006]",
     "relation_type": "references_question",
-    "sort_order": 7,
+    "sort_order": 8,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "BD104",
+    "target_id_value": "VU006",
     "target_object_type": "question"
   },
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:VD208]",
+    "raw_marker": "[question:VP001]",
     "relation_type": "references_question",
     "sort_order": 9,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "VD208",
+    "target_id_value": "VP001",
     "target_object_type": "question"
   }
 ]

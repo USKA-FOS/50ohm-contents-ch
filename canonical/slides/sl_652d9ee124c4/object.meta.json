@@ -11,10 +11,21 @@
   ],
   "languages": [
     "de",
-    "it",
-    "fr"
+    "fr",
+    "it"
   ],
-  "metadata": {},
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/slides/modulationsarten.md": "6cbf01eddd7ade281a929ea7ad402cc47af6d4e22ff78486b3a03d81c220023e"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
+    }
+  },
   "object_type": "slide_article",
   "reconstruction": {
     "strategy": "replace_source_file",

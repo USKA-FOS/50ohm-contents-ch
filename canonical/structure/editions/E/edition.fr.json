@@ -2582,6 +2582,39 @@
         },
         {
           "abstract": null,
+          "id": "se_a8fcd5098003",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "datenuebertragungsrate",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "E",
+            "status": "prod",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_d18f536663f1",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "datenuebertragungsrate"
+            },
+            {
+              "object_id": "sl_4eb8d8ecd726",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "datenuebertragungsrate"
+            }
+          ],
+          "sort_order": 7,
+          "title": "Datenübertragungsrate"
+        },
+        {
+          "abstract": null,
           "id": "se_3f014c7cd045",
           "identifiers": [
             {
@@ -2610,7 +2643,7 @@
               "visible_label": "ask_fsk_afsk"
             }
           ],
-          "sort_order": 7,
+          "sort_order": 8,
           "title": "Télettage d'amplitude et de fréquence (ASK, FSK)"
         },
         {
@@ -2643,41 +2676,8 @@
               "visible_label": "afsk"
             }
           ],
-          "sort_order": 8,
-          "title": "AFSK"
-        },
-        {
-          "abstract": null,
-          "id": "se_f899133621f4",
-          "identifiers": [
-            {
-              "id_system": "toc_ident",
-              "id_value": "datenuebertragungsdrate",
-              "preferred": true
-            }
-          ],
-          "metadata": {
-            "class": "E",
-            "status": "prod",
-            "video_url": null
-          },
-          "node_type": "curriculum_section",
-          "placements": [
-            {
-              "object_id": "sc_eb4720912d47",
-              "placement_role": "section_article",
-              "sort_order": 1,
-              "visible_label": "datenuebertragungsdrate"
-            },
-            {
-              "object_id": "sl_4eb8d8ecd726",
-              "placement_role": "slide_article",
-              "sort_order": 2,
-              "visible_label": "datenuebertragungsdrate"
-            }
-          ],
           "sort_order": 9,
-          "title": "Débit de transmission de données"
+          "title": "AFSK"
         },
         {
           "abstract": null,

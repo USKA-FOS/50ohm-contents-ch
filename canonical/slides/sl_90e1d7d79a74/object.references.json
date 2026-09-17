@@ -11,11 +11,22 @@
     "target_object_type": "photo"
   },
   {
+    "inline_alias": "n_sstv_rsv",
+    "inline_label": "Rapportsystem RSV",
+    "raw_marker": "[table:n_sstv_rsv:Rapportsystem RSV]",
+    "relation_type": "embeds_table",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "n_sstv_rsv",
+    "target_object_type": "table_object"
+  },
+  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:BE210]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 3,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "BE210",

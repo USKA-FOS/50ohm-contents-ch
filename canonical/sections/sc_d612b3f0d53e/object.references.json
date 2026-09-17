@@ -1,21 +1,21 @@
 [
   {
-    "inline_alias": null,
+    "inline_alias": "a_osc_stab",
     "inline_label": null,
-    "raw_marker": "[question:AD608]",
-    "relation_type": "references_question",
-    "sort_order": 2,
+    "raw_marker": "[ref:a_osc_stab]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AD608",
-    "target_object_type": "question"
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_osc_stab",
+    "target_object_type": null
   },
   {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:AD612]",
     "relation_type": "references_question",
-    "sort_order": 1,
+    "sort_order": 2,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AD612",
@@ -24,9 +24,42 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AD609]",
+    "raw_marker": "[question:AD608]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD608",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD607]",
     "relation_type": "references_question",
     "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD607",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_osc_stab",
+    "inline_label": "Festspannungsregler",
+    "raw_marker": "[picture:200:a_osc_stab:Festspannungsregler]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "200",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD609]",
+    "relation_type": "references_question",
+    "sort_order": 6,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AD609",
@@ -35,12 +68,23 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AD607]",
-    "relation_type": "references_question",
-    "sort_order": 3,
+    "raw_marker": "[include:applet_chirp_1]",
+    "relation_type": "includes_object",
+    "sort_order": 7,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AD607",
-    "target_object_type": "question"
+    "target_id_system": "include_key",
+    "target_id_value": "applet_chirp_1",
+    "target_object_type": "html_include"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[include:applet_chirp_2]",
+    "relation_type": "includes_object",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "include_key",
+    "target_id_value": "applet_chirp_2",
+    "target_object_type": "html_include"
   }
 ]

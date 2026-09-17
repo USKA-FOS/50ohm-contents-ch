@@ -11,25 +11,47 @@
     "target_object_type": "drawing"
   },
   {
+    "inline_alias": "a_gpsdo",
+    "inline_label": null,
+    "raw_marker": "[ref:a_gpsdo]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_gpsdo",
+    "target_object_type": null
+  },
+  {
     "inline_alias": "a_gpsdo_homebrew",
-    "inline_label": "Selbstgebautes GPSDO",
-    "raw_marker": "[photo:335:a_gpsdo_homebrew:Selbstgebautes GPSDO]",
-    "relation_type": "embeds_photo",
+    "inline_label": null,
+    "raw_marker": "[ref:a_gpsdo_homebrew]",
+    "relation_type": "references_embedded_alias",
     "sort_order": 3,
     "source_slot_key": "body_markdown",
-    "target_id_system": "photo_id",
-    "target_id_value": "335",
-    "target_object_type": "photo"
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_gpsdo_homebrew",
+    "target_object_type": null
   },
   {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:AD606]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 4,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AD606",
     "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_gpsdo_homebrew",
+    "inline_label": "Selbstgebautes GPSDO mit TCXO",
+    "raw_marker": "[photo:335:a_gpsdo_homebrew:Selbstgebautes GPSDO mit TCXO]",
+    "relation_type": "embeds_photo",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "335",
+    "target_object_type": "photo"
   }
 ]

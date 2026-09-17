@@ -1,3 +1,8 @@
+HB Inhalt
+Unterschiedliche Sendeleistungen der unterschiedlichen Klassen thematisieren.
+
+DL Inhalt löschen
+
 Wo wir uns gerade mit der Strahlungsleistung beschäftigt haben, sollten wir noch einen kurzen Ausflug zur maximal zulässigen Strahlungsleistung für Funkamateure der Klasse N machen. Diese wird nämlich in ERP bzw. EIRP angegeben und beträgt im $\qty{10}{\meter}$-Band $\qty{10}{\watt}$ ERP und im $\qty{2}{\meter}$- und im $\qty{70}{\centi\meter}$-Band $\qty{10}{\watt}$ EIRP.
 
 [question:VD724]

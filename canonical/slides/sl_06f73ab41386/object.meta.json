@@ -11,10 +11,21 @@
   ],
   "languages": [
     "de",
-    "it",
-    "fr"
+    "fr",
+    "it"
   ],
-  "metadata": {},
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/slides/innenwiderstand.md": "4d4855e8fed05a7e57b7f44f4c0787945ad3b39a26829b69de7b2bfc8642ae90"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
+    }
+  },
   "object_type": "slide_article",
   "reconstruction": {
     "strategy": "replace_source_file",

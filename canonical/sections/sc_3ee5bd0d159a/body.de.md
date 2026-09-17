@@ -1,4 +1,3 @@
-
 Mit dem Einbau einer Amateurfunkanlage in ein Kraftfahrzeug macht das Autofahren gleich mehr Spaß. Über Relaisfunkstellen ist man gut mit anderen Amateurfunkstellen vernetzt und erhält so oftmals wertvolle Informationen zur Verkehrssituation auf der Fahrtstrecke. Für den Betrieb während der Fahrt ist - wie beim Smartphone - eine Freisprecheinrichtung erforderlich.
 
 <margin>
@@ -25,17 +24,18 @@ Werden Antennenleitungen einer Mobilfunkanlage parallel und sehr dicht zu andere
 
 ---
 
-Die Bordnetzspannung im Kraftfahrzeug erscheint zunächst ungefährlich, da man beim Berühren der Spannungen von $\qty{12}{\volt}$ oder $\qty{24}{\volt}$ keinen Stromschlag bekommen kann. Es muss aber auch bedacht werden, dass eine Fahrzeugbatterie sehr hohe Ströme liefern kann. Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen, einem Kabelbrand oder sogar zu einem Fahrzeugbrand kommen. Mit dem *Unterschied zwischen Spannung und Strom* beschäftigen wir uns im Kapitel Spannungsversorgung noch näher. 
+Die Bordnetzspannung im Kraftfahrzeug erscheint zunächst ungefährlich, da man beim Berühren der Spannungen von $\qty{12}{\volt}$ oder $\qty{24}{\volt}$ keinen Stromschlag bekommen kann. Es muss aber auch bedacht werden, dass eine Fahrzeugbatterie sehr hohe Ströme liefern kann. Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen, einem Kabelbrand oder sogar zu einem Fahrzeugbrand kommen. Mit dem *Unterschied zwischen Spannung und Strom* haben wir uns im Kapitel 6 schon beschäftigt. 
+% wenn möglich auf Kapitel verweisen. Da es mehr als ein Abschnitt ist, ist verweis auf Abschnitt icht möglich.
 
 <margin>
 [photo:76:n_Kabelsicherung:Stromkabel mit Sicherungshalter]
 </margin>
 
-%[class:N]
-<indepth>
-Ein *Lichtbogen* ist eine elektrische Entladung, also ein Stromfluß, durch die eigentlich nicht leitende Luft, die mit hohen Temperaturen und einem sehr hellen Leuchten einhergeht. In der Folge kann es zu Bränden und zur Schädigung der Augen kommen.
-</indepth>
-%[/class]
+
+<danger>
+Bei einem Kurzschluss kann ein *Lichtbogen* entstehen, also eine elektrische Entladung, bei der Strom durch die eigentlich nicht leitende Luft fliesst. Dabei entstehen sehr hohe Temperaturen und ein sehr helles Leuchten, wodurch *Brandgefahr* besteht und die *Augen geschädigt* werden können.
+</danger>
+
 
 In der Versorgungsleitung des Fahrzeugfunkgerätes muss immer eine Sicherung des richtigen Werts verbaut sein! In Abbildung [ref:n_Kabelsicherung] ist ein üblicher Sicherungshalter mit eingesteckter Sicherung zu sehen. Bei qualitativ hochwertigen Geräten sind in beiden Kabeln Sicherungen verbaut. Eine für den Plus- und eine für den Minuspol. Damit ist ein besserer Schutz als mit nur einer Sicherung in der Zuleitung zum Pluspol gegeben.
 

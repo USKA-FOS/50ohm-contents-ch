@@ -33,6 +33,18 @@ Die Gleichung (3) zeigt, dass ein zeitlich veränderliches Magnetfeld ein elektr
 Experimentell wurde die Existenz des elektromagnetischen Felds allerdings erst mehr als zwanzig Jahre später (1886) durch Heinrich Hertz nachgewiesen.
 </indepth>
 
+<indepth>
+Da in obiger Vertiefung die Maxwell'schen Gleichungen gezeigt werden, soll hier die spezielle Symbolik erklärt werden:
+
+Der *Nabla-Operator* ∇ ist ein mathematisches Werkzeug, das beschreibt, wie sich ein Feld (z. B. ein elektrisches oder magnetisches Feld) von Ort zu Ort verändert. Je nachdem, wie er verwendet wird, zeigt er an, wo Feldlinien entstehen oder enden, oder ob sie sich um einen Punkt herum drehen.
+
+Der Punkt ⋅ bedeutet *Divergenz*. Sie beschreibt, ob an einem Punkt Feldlinien entstehen oder verschwinden.
+
+Das Kreuz × bedeutet *Rotation*. Sie beschreibt, wie stark ein Feld „wirbelt“
+
+Es ist anzumerken, dass Verständnis und Anwendung der Maxwell'schen Gleichungen weit über das an der Prüfung verlangte Wissen hinaus gehen. Es ist aber etwas dermassen Fundamentales der Elektrotechnik, dass man es zumindest dem Namen nach einmal gehört haben soll.
+</indepth>
+
 Wie in den Abbildungen  und [ref:e_emfeld_ausbreitung] gezeigt, steht die magnetische Feldkomponente im Fernfeld (weit weg von der Antenne) stets senkrecht auf der elektrischen Feldkomponente.
 
 [question:EB303]

@@ -1,16 +1,5 @@
 [
   {
-    "inline_alias": "e_transverter_tx",
-    "inline_label": "Transverter im TX-Pfad",
-    "raw_marker": "[picture:843:e_transverter_tx:Transverter im TX-Pfad]",
-    "relation_type": "embeds_drawing",
-    "sort_order": 12,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "drawing_id",
-    "target_id_value": "843",
-    "target_object_type": "drawing"
-  },
-  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:EF501]",
@@ -22,48 +11,37 @@
     "target_object_type": "question"
   },
   {
-    "inline_alias": "e_transverter_rx",
-    "inline_label": null,
-    "raw_marker": "[ref:e_transverter_rx]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 8,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "e_transverter_rx",
-    "target_object_type": null
-  },
-  {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:EF503]",
+    "raw_marker": "[question:EF502]",
     "relation_type": "references_question",
-    "sort_order": 10,
+    "sort_order": 2,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "EF503",
+    "target_id_value": "EF502",
     "target_object_type": "question"
   },
   {
-    "inline_alias": null,
+    "inline_alias": "e_konverter",
     "inline_label": null,
-    "raw_marker": "[question:EF505]",
-    "relation_type": "references_question",
-    "sort_order": 13,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "EF505",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": "e_transverter_tx",
-    "inline_label": null,
-    "raw_marker": "[ref:e_transverter_tx]",
+    "raw_marker": "[ref:e_konverter]",
     "relation_type": "references_embedded_alias",
-    "sort_order": 9,
+    "sort_order": 3,
     "source_slot_key": "body_markdown",
     "target_id_system": "inline_alias",
-    "target_id_value": "e_transverter_tx",
+    "target_id_value": "e_konverter",
     "target_object_type": null
+  },
+  {
+    "inline_alias": "e_konverter",
+    "inline_label": "Konverterschaltung z. B. Für QO-100",
+    "raw_marker": "[picture:651:e_konverter:Konverterschaltung z. B. Für QO-100]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "651",
+    "target_object_type": "drawing"
   },
   {
     "inline_alias": null,
@@ -88,26 +66,48 @@
     "target_object_type": null
   },
   {
-    "inline_alias": null,
+    "inline_alias": "e_transverter_tx",
     "inline_label": null,
-    "raw_marker": "[question:EF502]",
-    "relation_type": "references_question",
-    "sort_order": 2,
+    "raw_marker": "[ref:e_transverter_tx]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 7,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "EF502",
-    "target_object_type": "question"
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_transverter_tx",
+    "target_object_type": null
   },
   {
-    "inline_alias": "e_konverter",
-    "inline_label": "Konverterschaltung z. B. Für QO-100",
-    "raw_marker": "[picture:651:e_konverter:Konverterschaltung z. B. Für QO-100]",
-    "relation_type": "embeds_drawing",
-    "sort_order": 4,
+    "inline_alias": "e_transverter_rx",
+    "inline_label": null,
+    "raw_marker": "[ref:e_transverter_rx]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 8,
     "source_slot_key": "body_markdown",
-    "target_id_system": "drawing_id",
-    "target_id_value": "651",
-    "target_object_type": "drawing"
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_transverter_rx",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "e_transverter_tx",
+    "inline_label": null,
+    "raw_marker": "[ref:e_transverter_tx]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_transverter_tx",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF503]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF503",
+    "target_object_type": "question"
   },
   {
     "inline_alias": "e_transverter_rx",
@@ -122,24 +122,24 @@
   },
   {
     "inline_alias": "e_transverter_tx",
-    "inline_label": null,
-    "raw_marker": "[ref:e_transverter_tx]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 7,
+    "inline_label": "Transverter im TX-Pfad",
+    "raw_marker": "[picture:843:e_transverter_tx:Transverter im TX-Pfad]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 12,
     "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "e_transverter_tx",
-    "target_object_type": null
+    "target_id_system": "drawing_id",
+    "target_id_value": "843",
+    "target_object_type": "drawing"
   },
   {
-    "inline_alias": "e_konverter",
+    "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[ref:e_konverter]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 3,
+    "raw_marker": "[question:EF505]",
+    "relation_type": "references_question",
+    "sort_order": 13,
     "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "e_konverter",
-    "target_object_type": null
+    "target_id_system": "question_code",
+    "target_id_value": "EF505",
+    "target_object_type": "question"
   }
 ]

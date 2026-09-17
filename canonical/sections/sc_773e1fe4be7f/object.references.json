@@ -1,16 +1,5 @@
 [
   {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AG207]",
-    "relation_type": "references_question",
-    "sort_order": 2,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AG207",
-    "target_object_type": "question"
-  },
-  {
     "inline_alias": "e_stromverteilungen",
     "inline_label": null,
     "raw_marker": "[ref:e_stromverteilungen]",
@@ -22,15 +11,15 @@
     "target_object_type": null
   },
   {
-    "inline_alias": "e_stromverteilungen",
-    "inline_label": "Stromverteilungen bei verschiedenen Grundfrequenzen",
-    "raw_marker": "[picture:1050:e_stromverteilungen:Stromverteilungen bei verschiedenen Grundfrequenzen]",
-    "relation_type": "embeds_drawing",
-    "sort_order": 4,
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG207]",
+    "relation_type": "references_question",
+    "sort_order": 2,
     "source_slot_key": "body_markdown",
-    "target_id_system": "drawing_id",
-    "target_id_value": "1050",
-    "target_object_type": "drawing"
+    "target_id_system": "question_code",
+    "target_id_value": "AG207",
+    "target_object_type": "question"
   },
   {
     "inline_alias": null,
@@ -41,6 +30,105 @@
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AG208",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_stromverteilungen",
+    "inline_label": "Stromverteilungen bei verschiedenen Grundfrequenzen",
+    "raw_marker": "[picture:1050:a_stromverteilungen:Stromverteilungen bei verschiedenen Grundfrequenzen]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1050",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_stromverteilungen_b",
+    "inline_label": null,
+    "raw_marker": "[ref:a_stromverteilungen_b]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_stromverteilungen_b",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_stromverteilungen_c",
+    "inline_label": null,
+    "raw_marker": "[ref:a_stromverteilungen_c]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_stromverteilungen_c",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_stromverteilungen_b",
+    "inline_label": "Stromverteilungen für Grundfrequenz von $\\qty{3,5}{\\mega\\hertz}$ und ganzzahligen Vielfachen",
+    "raw_marker": "[picture:1137:a_stromverteilungen_b:Stromverteilungen für Grundfrequenz von $\\qty{3,5}{\\mega\\hertz}$ und ganzzahligen Vielfachen]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1137",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_stromverteilungen_c",
+    "inline_label": "Stromverteilungen für Grundfrequenz von $\\qty{3,5}{\\mega\\hertz}$ und ungeradzahligen Vielfachen",
+    "raw_marker": "[picture:1138:a_stromverteilungen_c:Stromverteilungen für Grundfrequenz von $\\qty{3,5}{\\mega\\hertz}$ und ungeradzahligen Vielfachen]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1138",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG203]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG203",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG204]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG204",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG205]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG205",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG206]",
+    "relation_type": "references_question",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG206",
     "target_object_type": "question"
   }
 ]

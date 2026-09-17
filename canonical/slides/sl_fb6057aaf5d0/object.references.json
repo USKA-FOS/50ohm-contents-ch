@@ -2,12 +2,12 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AB407]",
+    "raw_marker": "[question:AF630]",
     "relation_type": "references_question",
-    "sort_order": 5,
+    "sort_order": 1,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AB407",
+    "target_id_value": "AF630",
     "target_object_type": "question"
   },
   {
@@ -46,12 +46,12 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AF630]",
+    "raw_marker": "[question:AB407]",
     "relation_type": "references_question",
-    "sort_order": 1,
+    "sort_order": 5,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AF630",
+    "target_id_value": "AB407",
     "target_object_type": "question"
   }
 ]

@@ -2,12 +2,12 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AI501]",
+    "raw_marker": "[question:AI511]",
     "relation_type": "references_question",
-    "sort_order": 4,
+    "sort_order": 1,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AI501",
+    "target_id_value": "AI511",
     "target_object_type": "question"
   },
   {
@@ -35,6 +35,17 @@
   {
     "inline_alias": null,
     "inline_label": null,
+    "raw_marker": "[question:AI501]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AI501",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
     "raw_marker": "[question:AI503]",
     "relation_type": "references_question",
     "sort_order": 5,
@@ -44,25 +55,36 @@
     "target_object_type": "question"
   },
   {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AI505]",
-    "relation_type": "references_question",
+    "inline_alias": "a_frequenzmessung_torzeit",
+    "inline_label": "Zählung eines Signals mit einer Frequenz von $\\qty{1,1}{\\kilo\\hertz}$ bei sehr kleinen Torzeiten",
+    "raw_marker": "[picture:1126:a_frequenzmessung_torzeit:Zählung eines Signals mit einer Frequenz von $\\qty{1,1}{\\kilo\\hertz}$ bei sehr kleinen Torzeiten]",
+    "relation_type": "embeds_drawing",
     "sort_order": 6,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AI505",
-    "target_object_type": "question"
+    "target_id_system": "drawing_id",
+    "target_id_value": "1126",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_frequenzmessung_torzeit",
+    "inline_label": null,
+    "raw_marker": "[ref:a_frequenzmessung_torzeit]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_frequenzmessung_torzeit",
+    "target_object_type": null
   },
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AI511]",
+    "raw_marker": "[question:AI505]",
     "relation_type": "references_question",
-    "sort_order": 1,
+    "sort_order": 8,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AI511",
+    "target_id_value": "AI505",
     "target_object_type": "question"
   }
 ]

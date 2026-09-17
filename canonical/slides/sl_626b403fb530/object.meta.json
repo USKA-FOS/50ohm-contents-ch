@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "asset_files": {},
   "id": "sl_626b403fb530",
   "identifiers": [
@@ -14,7 +14,12 @@
     "it",
     "fr"
   ],
-  "metadata": {},
+  "metadata": {
+    "lifecycle": {
+      "missing_since_revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "to_be_deleted"
+    }
+  },
   "object_type": "slide_article",
   "reconstruction": {
     "strategy": "replace_source_file",

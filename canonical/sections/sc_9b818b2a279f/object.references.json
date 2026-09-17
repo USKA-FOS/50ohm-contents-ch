@@ -1,13 +1,112 @@
 [
   {
+    "inline_alias": "a_emitter_collector",
+    "inline_label": null,
+    "raw_marker": "[ref:a_emitter_collector]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_emitter_collector",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_emitter_collector",
+    "inline_label": "Emitter- und Kollektorschaltung mit Bezeichnugnen Basis (B), Kollektor (C) und Emitter (E)",
+    "raw_marker": "[picture:1118:a_emitter_collector:Emitter- und Kollektorschaltung mit Bezeichnugnen Basis (B), Kollektor (C) und Emitter (E)]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1118",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD401]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD401",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_emitter_collector",
+    "inline_label": null,
+    "raw_marker": "[ref:a_emitter_collector]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_emitter_collector",
+    "target_object_type": null
+  },
+  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:AD405]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 5,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AD405",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_collector_circuit",
+    "inline_label": null,
+    "raw_marker": "[ref:a_collector_circuit]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_collector_circuit",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_collector_circuit",
+    "inline_label": "Kollektorschaltung mit Spannungsversorgung, Emitterwiderstand und Koppelkondensatoren",
+    "raw_marker": "[picture:140:a_collector_circuit:Kollektorschaltung mit Spannungsversorgung, Emitterwiderstand und Koppelkondensatoren]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "140",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_kennlinie",
+    "inline_label": null,
+    "raw_marker": "[ref:a_kennlinie]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_kennlinie",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_kennlinie",
+    "inline_label": "Kennlinie eines NPN-Transistors mit Arbeitspunkt und Signalüberlagerung",
+    "raw_marker": "[picture:1119:a_kennlinie:Kennlinie eines NPN-Transistors mit Arbeitspunkt und Signalüberlagerung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1119",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD402]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD402",
     "target_object_type": "question"
   },
   {
@@ -15,7 +114,7 @@
     "inline_label": null,
     "raw_marker": "[question:AD403]",
     "relation_type": "references_question",
-    "sort_order": 4,
+    "sort_order": 11,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AD403",
@@ -24,34 +123,12 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AD401]",
-    "relation_type": "references_question",
-    "sort_order": 1,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AD401",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
     "raw_marker": "[question:AD404]",
     "relation_type": "references_question",
-    "sort_order": 5,
+    "sort_order": 12,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AD404",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AD402]",
-    "relation_type": "references_question",
-    "sort_order": 3,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AD402",
     "target_object_type": "question"
   }
 ]

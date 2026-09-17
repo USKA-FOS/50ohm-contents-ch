@@ -23,24 +23,24 @@
       "review_state": "imported_approved"
     },
     "fr": {
-      "review_state": "to_be_reviewed",
       "asset_files": {
-        "tex": "488.fr.tex",
-        "svg": "488.fr.svg"
-      }
+        "svg": "488.fr.svg",
+        "tex": "488.fr.tex"
+      },
+      "review_state": "to_be_reviewed"
     },
     "it": {
-      "review_state": "to_be_reviewed",
       "asset_files": {
-        "tex": "488.it.tex",
-        "svg": "488.it.svg"
-      }
+        "svg": "488.it.svg",
+        "tex": "488.it.tex"
+      },
+      "review_state": "to_be_reviewed"
     }
   },
   "languages": [
     "de",
-    "it",
-    "fr"
+    "fr",
+    "it"
   ],
   "metadata": {
     "asset": {
@@ -57,22 +57,25 @@
         "canonical_file": "488.de.tex",
         "source_path": "contents/drawings/488.tex"
       },
-      "fr.tex": {
-        "canonical_file": "488.fr.tex",
-        "source_path": "contents/drawings/488.tex"
-      },
-      "it.tex": {
-        "canonical_file": "488.it.tex",
-        "source_path": "contents/drawings/488.tex"
-      },
       "fr.svg": {
         "canonical_file": "488.fr.svg",
         "source_path": "contents/drawings/488.svg"
       },
+      "fr.tex": {
+        "canonical_file": "488.fr.tex",
+        "source_path": "contents/drawings/488.tex"
+      },
       "it.svg": {
         "canonical_file": "488.it.svg",
         "source_path": "contents/drawings/488.svg"
+      },
+      "it.tex": {
+        "canonical_file": "488.it.tex",
+        "source_path": "contents/drawings/488.tex"
       }
+    },
+    "lifecycle": {
+      "status": "active"
     },
     "reconstruction": {
       "description_canonical_files": {
@@ -82,6 +85,15 @@
       },
       "description_preamble": "Dieser Alt-Text wurde noch nicht überprüft.",
       "description_source_format": "split_descriptions"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/drawings/488.svg": "78b992b8f96b60175cb3acf33270abe22f350c5e5106874b2738bb7a4f120f8a",
+        "contents/drawings/488.tex": "1b3352449560838bd459e3532449eb7443d346008ebea9b47b312f1899d8495a",
+        "contents/drawings/488.txt": "fc749fcba8b10def7dbcd7a30e0bf88e7516b671cac11e585833650c2a97e69e"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
     }
   },
   "object_type": "drawing",

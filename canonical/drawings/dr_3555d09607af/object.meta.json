@@ -24,23 +24,23 @@
     },
     "fr": {
       "asset_files": {
-        "tex": "997.fr.tex",
-        "svg": "997.fr.svg"
+        "svg": "997.fr.svg",
+        "tex": "997.fr.tex"
       },
       "review_state": "to_be_reviewed"
     },
     "it": {
       "asset_files": {
-        "tex": "997.it.tex",
-        "svg": "997.it.svg"
+        "svg": "997.it.svg",
+        "tex": "997.it.tex"
       },
       "review_state": "to_be_reviewed"
     }
   },
   "languages": [
     "de",
-    "it",
-    "fr"
+    "fr",
+    "it"
   ],
   "metadata": {
     "asset": {
@@ -57,22 +57,25 @@
         "canonical_file": "997.de.tex",
         "source_path": "contents/drawings/997.tex"
       },
-      "fr.tex": {
-        "canonical_file": "997.fr.tex",
-        "source_path": "contents/drawings/997.tex"
-      },
-      "it.tex": {
-        "canonical_file": "997.it.tex",
-        "source_path": "contents/drawings/997.tex"
-      },
       "fr.svg": {
         "canonical_file": "997.fr.svg",
         "source_path": "contents/drawings/997.svg"
       },
+      "fr.tex": {
+        "canonical_file": "997.fr.tex",
+        "source_path": "contents/drawings/997.tex"
+      },
       "it.svg": {
         "canonical_file": "997.it.svg",
         "source_path": "contents/drawings/997.svg"
+      },
+      "it.tex": {
+        "canonical_file": "997.it.tex",
+        "source_path": "contents/drawings/997.tex"
       }
+    },
+    "lifecycle": {
+      "status": "active"
     },
     "reconstruction": {
       "description_canonical_files": {
@@ -81,6 +84,15 @@
         "it": "997.it.txt"
       },
       "description_source_format": "single_description"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/drawings/997.svg": "9b09ad457e12453b63bce71c6981ae6b7eb5fe08f7010fc3cb1b22ee545b4d2b",
+        "contents/drawings/997.tex": "b4275cb787358a6099ade254e72ce33a0dc02cb439138acc374217a69c482f06",
+        "contents/drawings/997.txt": "2127937b3fd02bd97323da40c1ea783b91e7df0ba41a1587e615cce296a05c09"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
     }
   },
   "object_type": "drawing",

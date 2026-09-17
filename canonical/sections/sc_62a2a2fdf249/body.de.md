@@ -9,3 +9,5 @@ Insbesondere im Frühjahr und Herbst kommt es vor, dass sich warme über kalte L
 Die auftretenden Überreichweiten ermöglichen Funkverbindungen mit Stationen in rund $\num{800}$ bis über $\qty{1000}{\kilo\meter}$ Entfernung. Im VHF-Bereich ist dies ein häufiger Ausbreitungsweg für Weitverbindungen.
 
 [question:NH304]
+
+<!-- Review abgeschlossen, passt so für mich. Vy 73 de Marc -->

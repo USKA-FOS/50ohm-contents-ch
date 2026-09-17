@@ -2,23 +2,12 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AE207]",
+    "raw_marker": "[question:AE208]",
     "relation_type": "references_question",
-    "sort_order": 5,
+    "sort_order": 1,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AE207",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AI305]",
-    "relation_type": "references_question",
-    "sort_order": 7,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AI305",
+    "target_id_value": "AE208",
     "target_object_type": "question"
   },
   {
@@ -26,32 +15,10 @@
     "inline_label": null,
     "raw_marker": "[question:AE209]",
     "relation_type": "references_question",
-    "sort_order": 1,
+    "sort_order": 2,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AE209",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AI304]",
-    "relation_type": "references_question",
-    "sort_order": 6,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AI304",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AI306]",
-    "relation_type": "references_question",
-    "sort_order": 8,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AI306",
     "target_object_type": "question"
   },
   {
@@ -68,23 +35,100 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AE208]",
-    "relation_type": "references_question",
-    "sort_order": 2,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AE208",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
     "raw_marker": "[question:AE213]",
     "relation_type": "references_question",
     "sort_order": 4,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AE213",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AI304]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AI304",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_ssb_zweiton",
+    "inline_label": "Zweiton-Signal zur Beurteilung der Hüllkurvenform eines SSB-Senders",
+    "raw_marker": "[picture:1092:a_ssb_zweiton:Zweiton-Signal zur Beurteilung der Hüllkurvenform eines SSB-Senders]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1092",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_ssb_zweiton",
+    "inline_label": null,
+    "raw_marker": "[ref:a_ssb_zweiton]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_ssb_zweiton",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AE207]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AE207",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_pep_hüllkurve",
+    "inline_label": null,
+    "raw_marker": "[ref:a_pep_hüllkurve]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_pep_hüllkurve",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_pep_hüllkurve",
+    "inline_label": "Modulationshüllkurve zur Leistungsberechnung",
+    "raw_marker": "[picture:875:a_pep_hüllkurve:Modulationshüllkurve zur Leistungsberechnung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "875",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AI305]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AI305",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AI306]",
+    "relation_type": "references_question",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AI306",
     "target_object_type": "question"
   }
 ]

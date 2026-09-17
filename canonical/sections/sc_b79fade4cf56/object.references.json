@@ -1,32 +1,54 @@
 [
   {
-    "inline_alias": null,
+    "inline_alias": "a_huenerleiter",
     "inline_label": null,
-    "raw_marker": "[question:AG303]",
-    "relation_type": "references_question",
-    "sort_order": 3,
+    "raw_marker": "[ref:a_huenerleiter]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AG303",
-    "target_object_type": "question"
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_huenerleiter",
+    "target_object_type": null
   },
   {
-    "inline_alias": null,
+    "inline_alias": "a_zweidrahtleitung",
     "inline_label": null,
-    "raw_marker": "[question:AG301]",
-    "relation_type": "references_question",
+    "raw_marker": "[ref:a_zweidrahtleitung]",
+    "relation_type": "references_embedded_alias",
     "sort_order": 2,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AG301",
-    "target_object_type": "question"
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_zweidrahtleitung",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_huenerleiter",
+    "inline_label": "Hühnerleiter, auch als Zweidrahtleitung bezeichnet",
+    "raw_marker": "[photo:324:a_huenerleiter:Hühnerleiter, auch als Zweidrahtleitung bezeichnet]",
+    "relation_type": "embeds_photo",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "324",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "a_zweidrahtleitung",
+    "inline_label": "Strom- und Spannungsverteilung an einer Zweidrahtleitung",
+    "raw_marker": "[picture:1107:a_zweidrahtleitung:Strom- und Spannungsverteilung an einer Zweidrahtleitung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1107",
+    "target_object_type": "drawing"
   },
   {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:AG312]",
     "relation_type": "references_question",
-    "sort_order": 1,
+    "sort_order": 5,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AG312",
@@ -35,12 +57,34 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AG317]",
+    "raw_marker": "[question:AG301]",
     "relation_type": "references_question",
     "sort_order": 6,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AG317",
+    "target_id_value": "AG301",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG303]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG303",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG314]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG314",
     "target_object_type": "question"
   },
   {
@@ -48,7 +92,7 @@
     "inline_label": null,
     "raw_marker": "[question:AG302]",
     "relation_type": "references_question",
-    "sort_order": 5,
+    "sort_order": 9,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AG302",
@@ -57,12 +101,12 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AG314]",
+    "raw_marker": "[question:AG317]",
     "relation_type": "references_question",
-    "sort_order": 4,
+    "sort_order": 10,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AG314",
+    "target_id_value": "AG317",
     "target_object_type": "question"
   }
 ]

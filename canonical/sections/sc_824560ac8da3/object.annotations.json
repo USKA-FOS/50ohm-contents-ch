@@ -1,10 +1,10 @@
 [
   {
-    "annotation_key": "Frequenzzuteilung",
+    "annotation_key": "Fernmeldegesetz",
     "annotation_type": "index_term",
-    "annotation_value": "Allgemeinzuteilung",
-    "raw_marker": "[index:Frequenzzuteilung:Allgemeinzuteilung]",
-    "sort_order": 4,
+    "annotation_value": null,
+    "raw_marker": "[index:Fernmeldegesetz]",
+    "sort_order": 1,
     "source_slot_key": "body_markdown"
   },
   {
@@ -26,17 +26,17 @@
   {
     "annotation_key": "Frequenzzuteilung",
     "annotation_type": "index_term",
-    "annotation_value": "Nutzungsbestimmungen",
-    "raw_marker": "[index:Frequenzzuteilung:Nutzungsbestimmungen]",
-    "sort_order": 7,
+    "annotation_value": "Allgemeinzuteilung",
+    "raw_marker": "[index:Frequenzzuteilung:Allgemeinzuteilung]",
+    "sort_order": 4,
     "source_slot_key": "body_markdown"
   },
   {
-    "annotation_key": "Fernmeldegesetz",
+    "annotation_key": "Frequenzzuteilung",
     "annotation_type": "index_term",
-    "annotation_value": null,
-    "raw_marker": "[index:Fernmeldegesetz]",
-    "sort_order": 1,
+    "annotation_value": "Nutzungsbestimmungen",
+    "raw_marker": "[index:Frequenzzuteilung:Nutzungsbestimmungen]",
+    "sort_order": 7,
     "source_slot_key": "body_markdown"
   }
 ]

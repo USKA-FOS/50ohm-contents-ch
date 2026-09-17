@@ -1,16 +1,5 @@
 [
   {
-    "inline_alias": "a_frequenzvervielfacher_schaltung",
-    "inline_label": null,
-    "raw_marker": "[ref:a_frequenzvervielfacher_schaltung]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 3,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "a_frequenzvervielfacher_schaltung",
-    "target_object_type": null
-  },
-  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:AF311]",
@@ -24,13 +13,24 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AF312]",
+    "raw_marker": "[question:AF313]",
     "relation_type": "references_question",
-    "sort_order": 5,
+    "sort_order": 2,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AF312",
+    "target_id_value": "AF313",
     "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_frequenzvervielfacher_schaltung",
+    "inline_label": null,
+    "raw_marker": "[ref:a_frequenzvervielfacher_schaltung]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_frequenzvervielfacher_schaltung",
+    "target_object_type": null
   },
   {
     "inline_alias": "a_frequenzvervielfacher_schaltung",
@@ -46,12 +46,12 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AF313]",
+    "raw_marker": "[question:AF312]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 5,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AF313",
+    "target_id_value": "AF312",
     "target_object_type": "question"
   },
   {

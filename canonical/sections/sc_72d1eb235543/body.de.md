@@ -32,3 +32,5 @@ Bei Funkbetrieb auf Kurzwellenbändern kann es dazu kommen, dass eine sogenannte
 <latexonly>
 \newpage
 </latexonly>
+
+<!-- Review abgeschlossen, passt so für mich. Vy 73 de Marc -->

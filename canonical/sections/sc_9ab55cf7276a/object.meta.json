@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "asset_files": {},
   "id": "sc_9ab55cf7276a",
   "identifiers": [
@@ -14,7 +14,12 @@
     "it",
     "fr"
   ],
-  "metadata": {},
+  "metadata": {
+    "lifecycle": {
+      "missing_since_revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "to_be_deleted"
+    }
+  },
   "object_type": "section_article",
   "reconstruction": {
     "strategy": "replace_source_file",

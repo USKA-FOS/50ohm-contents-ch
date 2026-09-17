@@ -1,16 +1,5 @@
 [
   {
-    "inline_alias": "n_Kabelsicherung",
-    "inline_label": null,
-    "raw_marker": "[ref:n_Kabelsicherung]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 8,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "n_Kabelsicherung",
-    "target_object_type": null
-  },
-  {
     "inline_alias": "n_mobilfunkgeraet",
     "inline_label": "Einbau des Bedienteils eines VHF/UHF-Funkgerätes in die Mittelkonsole eines PKW",
     "raw_marker": "[photo:75:n_mobilfunkgeraet:Einbau des Bedienteils eines VHF/UHF-Funkgerätes in die Mittelkonsole eines PKW]",
@@ -30,28 +19,6 @@
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "NK308",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:NK307]",
-    "relation_type": "references_question",
-    "sort_order": 9,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "NK307",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:NK309]",
-    "relation_type": "references_question",
-    "sort_order": 5,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "NK309",
     "target_object_type": "question"
   },
   {
@@ -77,6 +44,17 @@
     "target_object_type": "question"
   },
   {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NK309]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NK309",
+    "target_object_type": "question"
+  },
+  {
     "inline_alias": "n_Kabelsicherung",
     "inline_label": "Stromkabel mit Sicherungshalter",
     "raw_marker": "[photo:76:n_Kabelsicherung:Stromkabel mit Sicherungshalter]",
@@ -86,5 +64,27 @@
     "target_id_system": "photo_id",
     "target_id_value": "76",
     "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "n_Kabelsicherung",
+    "inline_label": null,
+    "raw_marker": "[ref:n_Kabelsicherung]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_Kabelsicherung",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NK307]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NK307",
+    "target_object_type": "question"
   }
 ]

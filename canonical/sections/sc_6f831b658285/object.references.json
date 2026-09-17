@@ -2,12 +2,12 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:VC102]",
+    "raw_marker": "[question:VA101]",
     "relation_type": "references_question",
-    "sort_order": 4,
+    "sort_order": 1,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "VC102",
+    "target_id_value": "VA101",
     "target_object_type": "question"
   },
   {
@@ -19,17 +19,6 @@
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "VA102",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:VA101]",
-    "relation_type": "references_question",
-    "sort_order": 1,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "VA101",
     "target_object_type": "question"
   },
   {

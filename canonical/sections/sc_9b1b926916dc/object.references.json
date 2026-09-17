@@ -1,10 +1,43 @@
 [
   {
+    "inline_alias": "a_kabel_phasenverschiebung",
+    "inline_label": "Koaxialkabel mit definierter Länge",
+    "raw_marker": "[picture:442:a_kabel_phasenverschiebung:Koaxialkabel mit definierter Länge]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "442",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_kabel_phasenverschiebung_table",
+    "inline_label": "Phasenverschiebung in Abhängigkeit von der Leitungslänge",
+    "raw_marker": "[table:a_kabel_phasenverschiebung_table:Phasenverschiebung in Abhängigkeit von der Leitungslänge]",
+    "relation_type": "embeds_table",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "a_kabel_phasenverschiebung_table",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": "a_kabel_phasenverschiebung_table",
+    "inline_label": null,
+    "raw_marker": "[ref:a_kabel_phasenverschiebung_table]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_kabel_phasenverschiebung_table",
+    "target_object_type": null
+  },
+  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:AG407]",
     "relation_type": "references_question",
-    "sort_order": 1,
+    "sort_order": 4,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AG407",
@@ -15,7 +48,7 @@
     "inline_label": null,
     "raw_marker": "[question:AG408]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 5,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AG408",

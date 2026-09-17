@@ -1,10 +1,76 @@
 [
   {
+    "inline_alias": "a_dds_aufbau",
+    "inline_label": "Blockschaltbild einer DDS (Direct Digital Synthesizer)",
+    "raw_marker": "[picture:1082:a_dds_aufbau:Blockschaltbild einer DDS (Direct Digital Synthesizer)]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1082",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_dds_aufbau",
+    "inline_label": null,
+    "raw_marker": "[ref:a_dds_aufbau]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_dds_aufbau",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_dds_phaseninkrement_k1",
+    "inline_label": null,
+    "raw_marker": "[ref:a_dds_phaseninkrement_k1]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_dds_phaseninkrement_k1",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_dds_phaseninkrement_k1",
+    "inline_label": "Vergleichssignal",
+    "raw_marker": "[picture:1083:a_dds_phaseninkrement_k1:Vergleichssignal]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1083",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_dds_phaseninkrement_k2",
+    "inline_label": null,
+    "raw_marker": "[ref:a_dds_phaseninkrement_k2]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_dds_phaseninkrement_k2",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_dds_phaseninkrement_k2",
+    "inline_label": "Doppeltes Phaseninkrement und doppelte Ausgangsfrequenz",
+    "raw_marker": "[picture:1084:a_dds_phaseninkrement_k2:Doppeltes Phaseninkrement und doppelte Ausgangsfrequenz]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1084",
+    "target_object_type": "drawing"
+  },
+  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:AD620]",
     "relation_type": "references_question",
-    "sort_order": 1,
+    "sort_order": 10,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AD620",

@@ -1,10 +1,32 @@
 [
   {
+    "inline_alias": "a_lnb",
+    "inline_label": null,
+    "raw_marker": "[ref:a_lnb]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_lnb",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_lnb",
+    "inline_label": "LNB (blau) und Bias-T (rot) in einem QO-100 Transceiver",
+    "raw_marker": "[picture:1094:a_lnb:LNB (blau) und Bias-T (rot) in einem QO-100 Transceiver]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1094",
+    "target_object_type": "drawing"
+  },
+  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:AF230]",
     "relation_type": "references_question",
-    "sort_order": 1,
+    "sort_order": 3,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AF230",
@@ -15,7 +37,7 @@
     "inline_label": null,
     "raw_marker": "[question:AF231]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 4,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AF231",

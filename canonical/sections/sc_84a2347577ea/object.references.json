@@ -1,6 +1,17 @@
 [
   {
     "inline_alias": "e_dezibel_leistungsfaktoren",
+    "inline_label": "Wichtige Leistungsfaktoren in $\\unit{\\dB}$",
+    "raw_marker": "[table:e_dezibel_leistungsfaktoren:Wichtige Leistungsfaktoren in $\\unit{\\dB}$]",
+    "relation_type": "embeds_table",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "e_dezibel_leistungsfaktoren",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": "e_dezibel_leistungsfaktoren",
     "inline_label": null,
     "raw_marker": "[ref:e_dezibel_leistungsfaktoren]",
     "relation_type": "references_embedded_alias",
@@ -11,25 +22,36 @@
     "target_object_type": null
   },
   {
+    "inline_alias": "n_db_leistungsangaben",
+    "inline_label": "Oft verwendete (Leistungs-) Dezibel Angaben",
+    "raw_marker": "[table:n_db_leistungsangaben:Oft verwendete (Leistungs-) Dezibel Angaben]",
+    "relation_type": "embeds_table",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "n_db_leistungsangaben",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": "n_db_beispiele",
+    "inline_label": "dB Beispiele",
+    "raw_marker": "[table:n_db_beispiele:dB Beispiele]",
+    "relation_type": "embeds_table",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "n_db_beispiele",
+    "target_object_type": "table_object"
+  },
+  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:EA107]",
     "relation_type": "references_question",
-    "sort_order": 3,
+    "sort_order": 5,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "EA107",
     "target_object_type": "question"
-  },
-  {
-    "inline_alias": "e_dezibel_leistungsfaktoren",
-    "inline_label": "Wichtige Leistungsfaktoren in $\\unit{\\dB}$",
-    "raw_marker": "[table:e_dezibel_leistungsfaktoren:Wichtige Leistungsfaktoren in $\\unit{\\dB}$]",
-    "relation_type": "embeds_table",
-    "sort_order": 1,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "table_id",
-    "target_id_value": "e_dezibel_leistungsfaktoren",
-    "target_object_type": "table_object"
   }
 ]

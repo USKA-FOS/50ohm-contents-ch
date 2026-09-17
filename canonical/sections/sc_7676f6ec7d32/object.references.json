@@ -9,5 +9,49 @@
     "target_id_system": "question_code",
     "target_id_value": "AF224",
     "target_object_type": "question"
+  },
+  {
+    "inline_alias": "e_agc",
+    "inline_label": "AGC im Überlagerungsempfänger",
+    "raw_marker": "[picture:1055:e_agc:AGC im Überlagerungsempfänger]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1055",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "e_agc_regelspannung",
+    "inline_label": null,
+    "raw_marker": "[ref:e_agc_regelspannung]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_agc_regelspannung",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "e_agc_regelspannung",
+    "inline_label": "AGC-Regelspannung",
+    "raw_marker": "[picture:142:e_agc_regelspannung:AGC-Regelspannung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "142",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD503]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD503",
+    "target_object_type": "question"
   }
 ]

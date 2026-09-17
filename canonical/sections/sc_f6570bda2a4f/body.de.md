@@ -8,12 +8,16 @@ $ d = \frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{E} $
 
 Die Formelsammlung hat noch einen Hinweis, dass die obige Formel erst für Berechnungen im Fernfeld (bzw. stahlendem Nahfeld) ab $ d > \frac{\lambda}{2\pi} $ gilt.
 
-Das liegt daran, dass nur im Fernfeld das elektrische und das magnetische Feld eine feste, konstante Phasenbeziehung zueinander aufweisen. Im reaktiven Nahfeld kann es hingegen lokal zu starken Überhöhungen sowohl des elektrischen als auch des magnetischen Feldes kommen. Diese Effekte lassen sich mit den Näherungsformeln für das Fernfeld nicht zuverlässig erfassen. Für Berechnungen im reaktiven Nahfeld, also für Abstände $d \le \frac{\lambda}{2\pi}$, sind daher in der Regel numerische Simulationen erforderlich. Mit Einschränkungen (nicht bei magnetischen Antennen, nicht bei sehr kurzen Antennen) sind die Ergebnisse auch im strahlenden Nahfeld brauchbar.
+Das liegt daran, dass nur im Fernfeld das elektrische und das magnetische Feld eine feste, konstante Phasenbeziehung zueinander aufweisen. Im reaktiven Nahfeld kann es hingegen lokal zu starken Überhöhungen sowohl des elektrischen als auch des magnetischen Feldes kommen. Diese Effekte lassen sich mit den Näherungsformeln für das Fernfeld nicht zuverlässig erfassen. Für Berechnungen im reaktiven Nahfeld, also für Abstände $d \le \frac{\lambda}{2\pi}$, sind daher in der Regel numerische Simulationen,  z.Bsp. mit [EZNEC](https://www.eznec.com/) oder [Grasp/TICRA Student-Edition](https://www.ticra.com/software/ticra-tools-student-edition/) erforderlich. Der Umgang mit numerischen Simulatoren ist für die Prüfung nicht relevant; er kann aber später in der Praxis für die Beurteilung von Antennen Bedeutung erlangen. Mit Einschränkungen (nicht bei magnetischen Antennen, nicht bei sehr kurzen Antennen) sind die Ergebnisse auch im strahlenden Nahfeld brauchbar.
 
 <indepth>
 Das Fernfeld einer Strahlungsquelle, ist der Bereich, in dem die Vektoren der elektrischen Feldstärke ($E$), der magnetischen Feldstärke ($H$) senkrecht aufeinander stehen und keine Phasendifferenzen aufweisen. 
 
-Die Grenze zwischen Fernfeld und Nahfeld ist in erster Linie abhängig von der Wellenlänge. Das Fernfeld bildet sich, laut den [Erläuterungen zur BEMFV](https://50ohm.de/ebemfv), in einem Abstand von etwa $4\cdot\lambda$ aus. 
+Die Grenze zwischen Fernfeld und Nahfeld ist in erster Linie abhängig von der Wellenlänge. Angaben zur Berechnung der Feldstärke finden sich im [Formelblatt zur Emissionserklärung für Amateurfunkanlagen](https://uska.ch/wp-content/uploads/2016/06/Formelblatt_d_08-02-21.pdf).
+
+Ausführliche Informationen zur Erstellung einer konkreten Emmissionserklärung findet man bei der USKA unter [**Emissions-Berechnung**](https://uska.ch/emissions-berechnung/) und die Vorgehensweise ist in der [Wegleitung zur Emissionserklärung für Amateurfunkanlagen](https://uska.ch/wp-content/uploads/2016/06/Wegleitung_d_08-03-02_Rev_A-1.pdf) beschrieben.
+
+% Entfernte deutsche Quelle: [Erläuterungen zur BEMFV](https://50ohm.de/ebemfv)
 
 Das Nahfeld unterteilt sich in das *reaktive* und das *strahlende Nahfeld*. Praktisch ist, dass im strahlenden Nahfeld trotzdem die Formel für das Fernfeld verwendet werden kann. Das liegt daran, dass die Näherungsformel hier sehr konservative Abschätzungen liefert, das heißt die tatsächlichen Feldstärken sind geringer als die errechneten. Man ist auf der sicheren Seite. 
   
@@ -21,6 +25,10 @@ Mit der Formel $ d > \frac{\lambda}{2\pi} $ stellen wir also sicher, dass wir au
 </indepth>
 
 %TODO Applet basteln: https://www.leifiphysik.de/elektrizitaetslehre/elektromagnetische-wellen/versuche/dipolstrahlung-animation
+
+<tip>
+Die Emmissionserklärung braucht nicht eingereicht zu werden; sie muss allerdings bei Bedarf, z. Bsp. bei verursachtrn Störungen, vorgelegt werden können.
+</tip>
 
 Auf diesen Sachverhalt zielt die folgende Frage ab:
 
@@ -40,7 +48,7 @@ Für $\qty{160}{\meter}$ gilt: $d > \frac{\qty{160}{\meter}}{2\pi} = \qty{25,5}{
  
 Für $\qty{80}{\meter}$ gilt: $d > \frac{\qty{80}{\meter}}{2\pi} = \qty{12,7}{\meter}$
 
-Die Berechnung ist ungültig, wenn die Entfernung für $\qty{160}{\meter}$ kleiner als $\qty{25,5}{\meter}$ und für $\qty{80}{m}$ kleiner als $\qty{12,7}{\meter}$ ist.
+Die Berechnung ist ungültig, wenn die Entfernung für $\qty{160}{\meter}$ kleiner als $\qty{25,5}{\meter}$ und für $\qty{80}{\meter}$ kleiner als $\qty{12,7}{\meter}$ ist.
 
 %%%%
 
@@ -50,7 +58,7 @@ In der folgenden Frage muss nun erstmals ein richtiger Sicherheitsabstand berech
 
 Zunächst müssen wir die Strahlungsleistung in $P_\textrm{EIRP}$ berechnen. Außerdem fällt uns auf, dass der Antennengewinn in $\unit{\dBd}$ angegeben ist. Hierzu nutzen wir wieder die Formel aus der Formelsammlung:
 
-$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_d-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{100}{W} \cdot 10^{\frac{\qty{7,5}{\dBd}-\qty{1,5}{\dB}+\qty{2,15}{\dB}}{\qty{10}{\dB}}} \approx \qty{653}{\watt}$
+$P_\text{EIRP} = P_\text{Sender} \cdot 10^{\frac{g_d-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{100}{\watt} \cdot 10^{\frac{\qty{7,5}{\dBd}-\qty{1,5}{\dB}+\qty{2,15}{\dB}}{\qty{10}{\dB}}} \approx \qty{653}{\watt}$
 
 Die Summe der Gewinne und Dämpfungen des gesamten Antennensystems ist der Antennengewinn von $\qty{7,5}{\dBd}$, abzüglich der Kabeldämpfung von $\qty{1,5}{\dB}$ und plus der Gewinn von $\qty{2,15}{\dBi}$ für den isotropen Strahler (der Antennengewinn bezieht sich auf den Dipol).
 
@@ -72,5 +80,5 @@ $\begin{split} d &> \frac{\lambda}{2\pi}\\ d &> \frac{\qty{10}{\meter}}{2\pi}\\ 
 Der berechnete Sicherheitsabstand von $\qty{5}{\meter}$ ist größer als $\qty{1,6}{\meter}$ und liegt eindeutig im Fernfeld (bzw. strahlenden Nahfeld). Die Berechnung ist damit gültig. Die richtige Antwort ist $\qty{5}{\meter}$.
 
 <indepth>
-In der Tabelle steht für $\qty{6}{\dB}$ ein Faktor von $\num{4}$. Das ist ein gerundeter Wert und beträgt eigentlich $\num{3,981071706}$. Deshalb kommt es zum Rundungsfehler.
+In der Tabelle [sec:dezibel_1] steht für $\qty{6}{\dB}$ ein Faktor von $\num{4}$. Das ist ein gerundeter Wert und beträgt eigentlich $\num{3,981071706}$. Deshalb kommt es zum Rundungsfehler.
 </indepth>

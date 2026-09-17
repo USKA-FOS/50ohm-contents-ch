@@ -2,7 +2,7 @@ Wie wir bereits beim Sender gelernt haben, erzeugen sowohl Mischer als auch Vers
 
 Die Frequenzen dieser unerwünschten Aussendungen liegen oft außerhalb der Amateurfunkbänder. Sie können stattdessen beispielsweise in Frequenzbereichen des Flugfunks oder des kommerziellen Rundfunks liegen.
 
-Damit wir weder andere Funkdienste noch unsere Nachbarn beim Rundfunkempfang stören, sollte ein Sender immer so betrieben werden, dass er keine unerwünschten Aussendungen hervorruft. Dies kann beispielsweise durch ein Bandpassfilter erreicht werden, das nur den gewünschten Frequenzbereich durchlässt, während es alle Frequenzen darüber und darunter sperrt.
+Damit wir weder andere Funkdienste noch unsere Nachbarn beim Radioempfang stören, sollte ein Sender immer so betrieben werden, dass er keine unerwünschten Aussendungen hervorruft. Dies kann beispielsweise durch ein Bandpassfilter erreicht werden, das nur den gewünschten Frequenzbereich durchlässt, während es alle Frequenzen darüber und darunter sperrt.
 
 Da die tatsächlich verfügbaren Filter nicht perfekt sind, lassen sich unerwünschte Aussendungen damit nicht vollständig vermeiden. In der Praxis sind unerwünschten Aussendungen daher auf das *geringstmögliche Maß* zu beschränken.
 

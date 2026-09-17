@@ -1,14 +1,14 @@
 [
   {
-    "inline_alias": null,
+    "inline_alias": "e_swr_werte",
     "inline_label": null,
-    "raw_marker": "[question:EG403]",
-    "relation_type": "references_question",
-    "sort_order": 5,
+    "raw_marker": "[ref:e_swr_werte]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "EG403",
-    "target_object_type": "question"
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_swr_werte",
+    "target_object_type": null
   },
   {
     "inline_alias": "e_swr_werte",
@@ -44,14 +44,14 @@
     "target_object_type": "question"
   },
   {
-    "inline_alias": "e_swr_werte",
+    "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[ref:e_swr_werte]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 1,
+    "raw_marker": "[question:EG403]",
+    "relation_type": "references_question",
+    "sort_order": 5,
     "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "e_swr_werte",
-    "target_object_type": null
+    "target_id_system": "question_code",
+    "target_id_value": "EG403",
+    "target_object_type": "question"
   }
 ]

@@ -1,6 +1,17 @@
 [
   {
     "inline_alias": "e_tote_zone",
+    "inline_label": "Die Tote Zone, die für die Bodenwelle zu weit weg und für die Raumwelle zu nah ist.",
+    "raw_marker": "[picture:741:e_tote_zone:Die Tote Zone, die für die Bodenwelle zu weit weg und für die Raumwelle zu nah ist.]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "741",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "e_tote_zone",
     "inline_label": null,
     "raw_marker": "[ref:e_tote_zone]",
     "relation_type": "references_embedded_alias",
@@ -9,17 +20,6 @@
     "target_id_system": "inline_alias",
     "target_id_value": "e_tote_zone",
     "target_object_type": null
-  },
-  {
-    "inline_alias": "e_tote_zone_2d",
-    "inline_label": "Simulation eines 100-W-Senders auf dem 20-m-Band in Deutschland, August 2025, 07:00 UTC",
-    "raw_marker": "[picture:992:e_tote_zone_2d:Simulation eines 100-W-Senders auf dem 20-m-Band in Deutschland, August 2025, 07:00 UTC]",
-    "relation_type": "embeds_drawing",
-    "sort_order": 4,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "drawing_id",
-    "target_id_value": "992",
-    "target_object_type": "drawing"
   },
   {
     "inline_alias": "e_tote_zone_2d",
@@ -33,6 +33,17 @@
     "target_object_type": null
   },
   {
+    "inline_alias": "e_tote_zone_2d",
+    "inline_label": "Simulation eines 100-W-Senders auf dem 20-m-Band in Deutschland, August 2025, 0700 UTC.",
+    "raw_marker": "[picture:992:e_tote_zone_2d:Simulation eines 100-W-Senders auf dem 20-m-Band in Deutschland, August 2025, 0700 UTC.]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "992",
+    "target_object_type": "drawing"
+  },
+  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:EH201]",
@@ -42,16 +53,5 @@
     "target_id_system": "question_code",
     "target_id_value": "EH201",
     "target_object_type": "question"
-  },
-  {
-    "inline_alias": "e_tote_zone",
-    "inline_label": "Die Tote Zone, die für die Bodenwelle zu weit weg und für die Raumwelle zu nah ist.",
-    "raw_marker": "[picture:741:e_tote_zone:Die Tote Zone, die für die Bodenwelle zu weit weg und für die Raumwelle zu nah ist.]",
-    "relation_type": "embeds_drawing",
-    "sort_order": 1,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "drawing_id",
-    "target_id_value": "741",
-    "target_object_type": "drawing"
   }
 ]

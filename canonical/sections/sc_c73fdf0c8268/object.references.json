@@ -1,47 +1,25 @@
 [
   {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:EB401]",
-    "relation_type": "references_question",
-    "sort_order": 8,
+    "inline_alias": "e_wechselspannung_kenngroessen",
+    "inline_label": "Die drei Kenngrößen einer Wechselspannung",
+    "raw_marker": "[picture:834:e_wechselspannung_kenngroessen:Die drei Kenngrößen einer Wechselspannung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "EB401",
-    "target_object_type": "question"
+    "target_id_system": "drawing_id",
+    "target_id_value": "834",
+    "target_object_type": "drawing"
   },
   {
-    "inline_alias": null,
+    "inline_alias": "e_wechselspannung_kenngroessen",
     "inline_label": null,
-    "raw_marker": "[question:EB406]",
-    "relation_type": "references_question",
-    "sort_order": 5,
+    "raw_marker": "[ref:e_wechselspannung_kenngroessen]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "EB406",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:EB404]",
-    "relation_type": "references_question",
-    "sort_order": 11,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "EB404",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:EB403]",
-    "relation_type": "references_question",
-    "sort_order": 10,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "EB403",
-    "target_object_type": "question"
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_wechselspannung_kenngroessen",
+    "target_object_type": null
   },
   {
     "inline_alias": "e_spannungsfestigkeit_elkos",
@@ -55,37 +33,26 @@
     "target_object_type": null
   },
   {
-    "inline_alias": "e_wechselspannung_kenngroessen",
-    "inline_label": "Die drei Kenngrößen einer Wechselspannung",
-    "raw_marker": "[picture:834:e_wechselspannung_kenngroessen:Die drei Kenngrößen einer Wechselspannung]",
-    "relation_type": "embeds_drawing",
-    "sort_order": 1,
+    "inline_alias": "e_spannungsfestigkeit_elkos",
+    "inline_label": "Elektrolytkondensatoren mit den Spannungsfestigkeiten 16 Volt und 25 Volt",
+    "raw_marker": "[photo:198:e_spannungsfestigkeit_elkos:Elektrolytkondensatoren mit den Spannungsfestigkeiten 16 Volt und 25 Volt]",
+    "relation_type": "embeds_photo",
+    "sort_order": 4,
     "source_slot_key": "body_markdown",
-    "target_id_system": "drawing_id",
-    "target_id_value": "834",
-    "target_object_type": "drawing"
+    "target_id_system": "photo_id",
+    "target_id_value": "198",
+    "target_object_type": "photo"
   },
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:EB402]",
+    "raw_marker": "[question:EB406]",
     "relation_type": "references_question",
-    "sort_order": 9,
+    "sort_order": 5,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "EB402",
+    "target_id_value": "EB406",
     "target_object_type": "question"
-  },
-  {
-    "inline_alias": "e_wechselspannung_kenngroessen",
-    "inline_label": null,
-    "raw_marker": "[ref:e_wechselspannung_kenngroessen]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 2,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "e_wechselspannung_kenngroessen",
-    "target_object_type": null
   },
   {
     "inline_alias": null,
@@ -112,6 +79,50 @@
   {
     "inline_alias": null,
     "inline_label": null,
+    "raw_marker": "[question:EB401]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB401",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB402]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB402",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB403]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB403",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB404]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB404",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
     "raw_marker": "[question:EB405]",
     "relation_type": "references_question",
     "sort_order": 12,
@@ -119,16 +130,5 @@
     "target_id_system": "question_code",
     "target_id_value": "EB405",
     "target_object_type": "question"
-  },
-  {
-    "inline_alias": "e_spannungsfestigkeit_elkos",
-    "inline_label": "Elektrolytkondensatoren mit den Spannungsfestigkeiten 16 Volt und 25 Volt",
-    "raw_marker": "[photo:198:e_spannungsfestigkeit_elkos:Elektrolytkondensatoren mit den Spannungsfestigkeiten 16 Volt und 25 Volt]",
-    "relation_type": "embeds_photo",
-    "sort_order": 4,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "photo_id",
-    "target_id_value": "198",
-    "target_object_type": "photo"
   }
 ]

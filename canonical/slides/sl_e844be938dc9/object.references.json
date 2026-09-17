@@ -1,16 +1,5 @@
 [
   {
-    "inline_alias": "nichtleiter",
-    "inline_label": "Einige nicht-leitende Materialien",
-    "raw_marker": "[table:nichtleiter:Einige nicht-leitende Materialien]",
-    "relation_type": "embeds_table",
-    "sort_order": 5,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "table_id",
-    "target_id_value": "nichtleiter",
-    "target_object_type": "table_object"
-  },
-  {
     "inline_alias": "leiter",
     "inline_label": "Einige leitende Materialien",
     "raw_marker": "[table:leiter:Einige leitende Materialien]",
@@ -24,12 +13,12 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:NB103]",
+    "raw_marker": "[question:NB101]",
     "relation_type": "references_question",
-    "sort_order": 4,
+    "sort_order": 2,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "NB103",
+    "target_id_value": "NB101",
     "target_object_type": "question"
   },
   {
@@ -46,13 +35,24 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:NB101]",
+    "raw_marker": "[question:NB103]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 4,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "NB101",
+    "target_id_value": "NB103",
     "target_object_type": "question"
+  },
+  {
+    "inline_alias": "nichtleiter",
+    "inline_label": "Einige nicht-leitende Materialien",
+    "raw_marker": "[table:nichtleiter:Einige nicht-leitende Materialien]",
+    "relation_type": "embeds_table",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "nichtleiter",
+    "target_object_type": "table_object"
   },
   {
     "inline_alias": null,

@@ -23,24 +23,24 @@
       "review_state": "imported_approved"
     },
     "fr": {
-      "review_state": "to_be_reviewed",
       "asset_files": {
-        "tex": "829.fr.tex",
-        "svg": "829.fr.svg"
-      }
+        "svg": "829.fr.svg",
+        "tex": "829.fr.tex"
+      },
+      "review_state": "to_be_reviewed"
     },
     "it": {
-      "review_state": "to_be_reviewed",
       "asset_files": {
-        "tex": "829.it.tex",
-        "svg": "829.it.svg"
-      }
+        "svg": "829.it.svg",
+        "tex": "829.it.tex"
+      },
+      "review_state": "to_be_reviewed"
     }
   },
   "languages": [
     "de",
-    "it",
-    "fr"
+    "fr",
+    "it"
   ],
   "metadata": {
     "asset": {
@@ -57,22 +57,25 @@
         "canonical_file": "829.de.tex",
         "source_path": "contents/drawings/829.tex"
       },
-      "fr.tex": {
-        "canonical_file": "829.fr.tex",
-        "source_path": "contents/drawings/829.tex"
-      },
-      "it.tex": {
-        "canonical_file": "829.it.tex",
-        "source_path": "contents/drawings/829.tex"
-      },
       "fr.svg": {
         "canonical_file": "829.fr.svg",
         "source_path": "contents/drawings/829.svg"
       },
+      "fr.tex": {
+        "canonical_file": "829.fr.tex",
+        "source_path": "contents/drawings/829.tex"
+      },
       "it.svg": {
         "canonical_file": "829.it.svg",
         "source_path": "contents/drawings/829.svg"
+      },
+      "it.tex": {
+        "canonical_file": "829.it.tex",
+        "source_path": "contents/drawings/829.tex"
       }
+    },
+    "lifecycle": {
+      "status": "active"
     },
     "reconstruction": {
       "description_canonical_files": {
@@ -81,6 +84,15 @@
         "it": "829.it.txt"
       },
       "description_source_format": "single_description"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/drawings/829.svg": "2fef352495bf37f7d6e0ecd605457bc473a5f46cd502d4b12d547e7cdd1bb1d1",
+        "contents/drawings/829.tex": "b1cd2af008455f0dd51089218e816cb2548e5e6b75ef7acf241604c75664aa8f",
+        "contents/drawings/829.txt": "4d70cd31bad1524d3ffaeed6cd89ce8467458cb5e57ba2049497a77513466ed2"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
     }
   },
   "object_type": "drawing",

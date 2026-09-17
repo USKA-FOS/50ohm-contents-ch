@@ -1,4 +1,4 @@
-Bei der Amplitudenmodulation (AM) sowie bei SSB wird die zu übertragende Information durch eine Änderung der Amplitude des Hochfrequenzträgers übertragen. Wir haben bereits gelernt, dass bei der Frequenzmodulation (FM) die Amplitude des Trägers hingegen konstant bleibt - die Information wird hier durch eine Änderung der momentanen Frequenz des Trägers übertragen.
+Bei der Amplitudenmodulation (AM) sowie bei SSB wird die zu übertragende Information durch eine Änderung der Amplitude des Hochfrequenzträgers übertragen. Wir haben im Kapitel [sec:fm] bereits gelernt, dass bei der Frequenzmodulation (FM) die Amplitude des Trägers hingegen konstant bleibt - die Information wird hier durch eine Änderung der momentanen Frequenz des Trägers übertragen.
 
 Abbildung [ref:e_frequenzmodulation_t] zeigt den zeitlichen Verlauf eines FM-Signals mit konstanter Amplitude. Ein FM-Signal ist daher daran zu erkennen, dass die Amplitude des Trägers (idealisiert) konstant bleibt, während sich seine momentane Frequenz in Abhängigkeit vom Modulationssignal fortlaufend ändert.
 
@@ -17,11 +17,11 @@ Abbildung [ref:e_frequenzmodulation_frequenzhub] zeigt beispielhaft ein NF-Sinus
 </margin>
 
 <indepth>
-Die belegte Bandbreite einer FM-Aussendung wird durch den Hub und die maximale Modulationsfrequenz bestimmt. In erster Näherung kann für kleinen Hub und niedrige Modulationsfrequenz die *Carson-Formel* angewendet werden. Sie gibt an in welcher Bandbreite sich $\qty{90}{\percent}$ der Sendeleistung befinden.
+Die belegte Bandbreite einer FM-Aussendung wird durch den Hub und die maximale Modulationsfrequenz bestimmt. In erster Näherung kann für kleinen Hub und niedrige Modulationsfrequenz die *Carson-Formel* angewendet werden. Sie gibt an in welcher Bandbreite sich $\qty{99}{\percent}$ der Sendeleistung befinden.
 
 $B\approx2 \cdot \left(\Delta f_{\textrm{T}} + f_{\textrm{mod max}} \right)$
   
-Dieses Thema wird genauer in der Klasse A besprochen. 
+Dieses Thema wird genauer in [sec:fm_3] besprochen.
 </indepth>
 
 [question:EE306]

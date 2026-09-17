@@ -1868,72 +1868,6 @@
         },
         {
           "abstract": null,
-          "id": "se_bb0da125eac7",
-          "identifiers": [
-            {
-              "id_system": "toc_ident",
-              "id_value": "verstaerker_klasse",
-              "preferred": true
-            }
-          ],
-          "metadata": {
-            "class": "A",
-            "status": "alpha",
-            "video_url": null
-          },
-          "node_type": "curriculum_section",
-          "placements": [
-            {
-              "object_id": "sc_f615fd5c7598",
-              "placement_role": "section_article",
-              "sort_order": 1,
-              "visible_label": "verstaerker_klasse"
-            },
-            {
-              "object_id": "sl_83bf2b8fdf91",
-              "placement_role": "slide_article",
-              "sort_order": 2,
-              "visible_label": "verstaerker_klasse"
-            }
-          ],
-          "sort_order": 13,
-          "title": "Verstärkerklassen"
-        },
-        {
-          "abstract": null,
-          "id": "se_6c5bc756580f",
-          "identifiers": [
-            {
-              "id_system": "toc_ident",
-              "id_value": "verstaerkungsleistung",
-              "preferred": true
-            }
-          ],
-          "metadata": {
-            "class": "A",
-            "status": "alpha",
-            "video_url": null
-          },
-          "node_type": "curriculum_section",
-          "placements": [
-            {
-              "object_id": "sc_93b2d3f14103",
-              "placement_role": "section_article",
-              "sort_order": 1,
-              "visible_label": "verstaerkungsleistung"
-            },
-            {
-              "object_id": "sl_58440dfebbd8",
-              "placement_role": "slide_article",
-              "sort_order": 2,
-              "visible_label": "verstaerkungsleistung"
-            }
-          ],
-          "sort_order": 14,
-          "title": "Verstärkungsleistung"
-        },
-        {
-          "abstract": null,
           "id": "se_c275ba74bd1d",
           "identifiers": [
             {
@@ -1962,8 +1896,41 @@
               "visible_label": "verstaerker_wirkungsgrad"
             }
           ],
-          "sort_order": 15,
+          "sort_order": 13,
           "title": "Wirkungsgrad"
+        },
+        {
+          "abstract": null,
+          "id": "se_bb0da125eac7",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "verstaerker_klasse",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_f615fd5c7598",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "verstaerker_klasse"
+            },
+            {
+              "object_id": "sl_83bf2b8fdf91",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "verstaerker_klasse"
+            }
+          ],
+          "sort_order": 14,
+          "title": "Verstärkerklassen"
         },
         {
           "abstract": null,
@@ -1995,7 +1962,7 @@
               "visible_label": "verstaerker_linearverstaerker"
             }
           ],
-          "sort_order": 16,
+          "sort_order": 15,
           "title": "Linearverstärker"
         },
         {
@@ -2028,7 +1995,7 @@
               "visible_label": "verstaerker_eigenschwingung"
             }
           ],
-          "sort_order": 17,
+          "sort_order": 16,
           "title": "Eigenschwingung"
         },
         {
@@ -2061,7 +2028,7 @@
               "visible_label": "verstaerker_begrenzung_bandbreite"
             }
           ],
-          "sort_order": 18,
+          "sort_order": 17,
           "title": "Begrenzung der Verstärkerbandbreite"
         }
       ],
@@ -3218,7 +3185,7 @@
       "title": "Sender"
     },
     {
-      "abstract": "Dieses Kapitel beleuchtet die Grundlagen und Anwendungen der digitalen Signalverarbeitung, die essenziell für die moderne Informationsverarbeitung ist.",
+      "abstract": "Dieses Kapitel beleuchtet die Grundlagen und Anwendungen der digitalen Übertragungsverfahren, die essenziell für die moderne Kommunikation im Amateurfunk sind.",
       "id": "ch_95803478f848",
       "identifiers": [
         {
@@ -3233,6 +3200,105 @@
       "node_type": "curriculum_chapter",
       "placements": [],
       "sections": [
+        {
+          "abstract": null,
+          "id": "se_276c7c24bf60",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "symbole_symbolrate",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_9d5fe15e293e",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "symbole_symbolrate"
+            },
+            {
+              "object_id": "sl_81871fa51fcb",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "symbole_symbolrate"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Symbole und Symbolrate"
+        },
+        {
+          "abstract": null,
+          "id": "se_f86c893b6fb7",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "iq_verfahren",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_96b2b8bd34bc",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "iq_verfahren"
+            },
+            {
+              "object_id": "sl_af054b3c3ede",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "iq_verfahren"
+            }
+          ],
+          "sort_order": 2,
+          "title": "I/Q-Darstellung und Konstellationsdiagramm"
+        },
+        {
+          "abstract": null,
+          "id": "se_4874b6730b51",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "mapping",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_d52a229d9413",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "mapping"
+            },
+            {
+              "object_id": "sl_f50be1db959c",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "mapping"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Mapping"
+        },
         {
           "abstract": null,
           "id": "se_ff5de5f1b399",
@@ -3263,74 +3329,8 @@
               "visible_label": "psk"
             }
           ],
-          "sort_order": 1,
-          "title": "Phasenumtastung (PSK)"
-        },
-        {
-          "abstract": null,
-          "id": "se_eec9cebba03b",
-          "identifiers": [
-            {
-              "id_system": "toc_ident",
-              "id_value": "symbolumschaltung_bandbreite",
-              "preferred": true
-            }
-          ],
-          "metadata": {
-            "class": "A",
-            "status": "alpha",
-            "video_url": null
-          },
-          "node_type": "curriculum_section",
-          "placements": [
-            {
-              "object_id": "sc_512ed5083f19",
-              "placement_role": "section_article",
-              "sort_order": 1,
-              "visible_label": "symbolumschaltung_bandbreite"
-            },
-            {
-              "object_id": "sl_0fdedf089490",
-              "placement_role": "slide_article",
-              "sort_order": 2,
-              "visible_label": "symbolumschaltung_bandbreite"
-            }
-          ],
-          "sort_order": 2,
-          "title": "Symbolumschaltung und Bandbreite"
-        },
-        {
-          "abstract": null,
-          "id": "se_c78020c2c34d",
-          "identifiers": [
-            {
-              "id_system": "toc_ident",
-              "id_value": "mehrwertige_verfahren",
-              "preferred": true
-            }
-          ],
-          "metadata": {
-            "class": "A",
-            "status": "alpha",
-            "video_url": null
-          },
-          "node_type": "curriculum_section",
-          "placements": [
-            {
-              "object_id": "sc_9ab55cf7276a",
-              "placement_role": "section_article",
-              "sort_order": 1,
-              "visible_label": "mehrwertige_verfahren"
-            },
-            {
-              "object_id": "sl_8918d211a9d5",
-              "placement_role": "slide_article",
-              "sort_order": 2,
-              "visible_label": "mehrwertige_verfahren"
-            }
-          ],
-          "sort_order": 3,
-          "title": "Mehrwertige Verfahren"
+          "sort_order": 4,
+          "title": "Phasenumtastung: PSK und QPSK"
         },
         {
           "abstract": null,
@@ -3362,16 +3362,16 @@
               "visible_label": "qam"
             }
           ],
-          "sort_order": 4,
-          "title": "Quadraturamplitudenmodulation  (QAM)"
+          "sort_order": 5,
+          "title": "Quadraturamplitudenmodulation (QAM)"
         },
         {
           "abstract": null,
-          "id": "se_cf67346ac7d3",
+          "id": "se_eec9cebba03b",
           "identifiers": [
             {
               "id_system": "toc_ident",
-              "id_value": "ofdm",
+              "id_value": "symbolumschaltung_bandbreite",
               "preferred": true
             }
           ],
@@ -3383,20 +3383,20 @@
           "node_type": "curriculum_section",
           "placements": [
             {
-              "object_id": "sc_4c4d78539045",
+              "object_id": "sc_512ed5083f19",
               "placement_role": "section_article",
               "sort_order": 1,
-              "visible_label": "ofdm"
+              "visible_label": "symbolumschaltung_bandbreite"
             },
             {
-              "object_id": "sl_d1b70c5cbe35",
+              "object_id": "sl_0fdedf089490",
               "placement_role": "slide_article",
               "sort_order": 2,
-              "visible_label": "ofdm"
+              "visible_label": "symbolumschaltung_bandbreite"
             }
           ],
-          "sort_order": 5,
-          "title": "Orthogonales Frequenzmultiplexverfahren (OFDM)"
+          "sort_order": 6,
+          "title": "Symbolumschaltung und Bandbreite"
         },
         {
           "abstract": null,
@@ -3428,7 +3428,7 @@
               "visible_label": "shannon_hartley_gesetzt"
             }
           ],
-          "sort_order": 6,
+          "sort_order": 7,
           "title": "Shannon-Hartley-Gesetz"
         },
         {
@@ -3461,7 +3461,7 @@
               "visible_label": "quellencodierung"
             }
           ],
-          "sort_order": 7,
+          "sort_order": 8,
           "title": "Quellencodierung"
         },
         {
@@ -3494,7 +3494,7 @@
               "visible_label": "kanalcodierung"
             }
           ],
-          "sort_order": 8,
+          "sort_order": 9,
           "title": "Kanalcodierung"
         },
         {
@@ -3527,7 +3527,7 @@
               "visible_label": "fehlererkennung"
             }
           ],
-          "sort_order": 9,
+          "sort_order": 10,
           "title": "Fehlererkennung"
         },
         {
@@ -3560,41 +3560,8 @@
               "visible_label": "fehlerkorrektur"
             }
           ],
-          "sort_order": 10,
-          "title": "Fehlerkorrektur"
-        },
-        {
-          "abstract": null,
-          "id": "se_4874b6730b51",
-          "identifiers": [
-            {
-              "id_system": "toc_ident",
-              "id_value": "mapping",
-              "preferred": true
-            }
-          ],
-          "metadata": {
-            "class": "A",
-            "status": "alpha",
-            "video_url": null
-          },
-          "node_type": "curriculum_section",
-          "placements": [
-            {
-              "object_id": "sc_d52a229d9413",
-              "placement_role": "section_article",
-              "sort_order": 1,
-              "visible_label": "mapping"
-            },
-            {
-              "object_id": "sl_f50be1db959c",
-              "placement_role": "slide_article",
-              "sort_order": 2,
-              "visible_label": "mapping"
-            }
-          ],
           "sort_order": 11,
-          "title": "Mapping"
+          "title": "Fehlerkorrektur"
         },
         {
           "abstract": null,
@@ -3631,6 +3598,39 @@
         },
         {
           "abstract": null,
+          "id": "se_cf67346ac7d3",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "ofdm",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_4c4d78539045",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "ofdm"
+            },
+            {
+              "object_id": "sl_d1b70c5cbe35",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "ofdm"
+            }
+          ],
+          "sort_order": 13,
+          "title": "Orthogonales Frequenzmultiplexverfahren (OFDM)"
+        },
+        {
+          "abstract": null,
           "id": "se_1f88c38e5530",
           "identifiers": [
             {
@@ -3659,8 +3659,41 @@
               "visible_label": "synchronisation"
             }
           ],
-          "sort_order": 13,
+          "sort_order": 14,
           "title": "Synchronisation"
+        },
+        {
+          "abstract": null,
+          "id": "se_755f0ec66441",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "polarmodulation",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_d0ddf45e700c",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "polarmodulation"
+            },
+            {
+              "object_id": "sl_3b8c36238781",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "polarmodulation"
+            }
+          ],
+          "sort_order": 15,
+          "title": "Polarmodulation"
         }
       ],
       "sort_order": 10,
@@ -3717,39 +3750,6 @@
         },
         {
           "abstract": null,
-          "id": "se_570c0b2f1654",
-          "identifiers": [
-            {
-              "id_system": "toc_ident",
-              "id_value": "sampling",
-              "preferred": true
-            }
-          ],
-          "metadata": {
-            "class": "A",
-            "status": "alpha",
-            "video_url": null
-          },
-          "node_type": "curriculum_section",
-          "placements": [
-            {
-              "object_id": "sc_a1db435c27a7",
-              "placement_role": "section_article",
-              "sort_order": 1,
-              "visible_label": "sampling"
-            },
-            {
-              "object_id": "sl_0e99d3a53464",
-              "placement_role": "slide_article",
-              "sort_order": 2,
-              "visible_label": "sampling"
-            }
-          ],
-          "sort_order": 2,
-          "title": "Sampling"
-        },
-        {
-          "abstract": null,
           "id": "se_609a39d678d2",
           "identifiers": [
             {
@@ -3778,16 +3778,16 @@
               "visible_label": "abtasttheorem"
             }
           ],
-          "sort_order": 3,
+          "sort_order": 2,
           "title": "Abtasttheorem"
         },
         {
           "abstract": null,
-          "id": "se_81a1f2ace66c",
+          "id": "se_6dad8976f5d4",
           "identifiers": [
             {
               "id_system": "toc_ident",
-              "id_value": "quantisierung",
+              "id_value": "dac_adc",
               "preferred": true
             }
           ],
@@ -3799,185 +3799,53 @@
           "node_type": "curriculum_section",
           "placements": [
             {
-              "object_id": "sc_8810b2b83165",
+              "object_id": "sc_de1e20d6827a",
               "placement_role": "section_article",
               "sort_order": 1,
-              "visible_label": "quantisierung"
+              "visible_label": "dac_adc"
             },
             {
-              "object_id": "sl_14aa3bafb27f",
+              "object_id": "sl_5ee3db34ad20",
               "placement_role": "slide_article",
               "sort_order": 2,
-              "visible_label": "quantisierung"
+              "visible_label": "dac_adc"
+            }
+          ],
+          "sort_order": 3,
+          "title": "A/D- und D/A-Umsetzung"
+        },
+        {
+          "abstract": null,
+          "id": "se_f12becc57300",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "anti_alias_rekonstruktionsfilter",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_4e781323c82d",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "anti_alias_rekonstruktionsfilter"
+            },
+            {
+              "object_id": "sl_c4caa85f5a9f",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "anti_alias_rekonstruktionsfilter"
             }
           ],
           "sort_order": 4,
-          "title": "Quantisierung"
-        },
-        {
-          "abstract": null,
-          "id": "se_f82aae61477e",
-          "identifiers": [
-            {
-              "id_system": "toc_ident",
-              "id_value": "analog_digital_umsetzer",
-              "preferred": true
-            }
-          ],
-          "metadata": {
-            "class": "A",
-            "status": "alpha",
-            "video_url": null
-          },
-          "node_type": "curriculum_section",
-          "placements": [
-            {
-              "object_id": "sc_2ebcfcd7f1cd",
-              "placement_role": "section_article",
-              "sort_order": 1,
-              "visible_label": "analog_digital_umsetzer"
-            },
-            {
-              "object_id": "sl_626b403fb530",
-              "placement_role": "slide_article",
-              "sort_order": 2,
-              "visible_label": "analog_digital_umsetzer"
-            }
-          ],
-          "sort_order": 5,
-          "title": "Analog-Digital-Umsetzer (ADC)"
-        },
-        {
-          "abstract": null,
-          "id": "se_1ce9aaf79e3b",
-          "identifiers": [
-            {
-              "id_system": "toc_ident",
-              "id_value": "digital_analog_umsetzer",
-              "preferred": true
-            }
-          ],
-          "metadata": {
-            "class": "A",
-            "status": "alpha",
-            "video_url": null
-          },
-          "node_type": "curriculum_section",
-          "placements": [
-            {
-              "object_id": "sc_c35e68b3dace",
-              "placement_role": "section_article",
-              "sort_order": 1,
-              "visible_label": "digital_analog_umsetzer"
-            },
-            {
-              "object_id": "sl_d71f0f4823a5",
-              "placement_role": "slide_article",
-              "sort_order": 2,
-              "visible_label": "digital_analog_umsetzer"
-            }
-          ],
-          "sort_order": 6,
-          "title": "Digital-Analog-Umsetzer (DAC)"
-        },
-        {
-          "abstract": null,
-          "id": "se_55a28faa8e7e",
-          "identifiers": [
-            {
-              "id_system": "toc_ident",
-              "id_value": "anwendung_dac_adc",
-              "preferred": true
-            }
-          ],
-          "metadata": {
-            "class": "A",
-            "status": "alpha",
-            "video_url": null
-          },
-          "node_type": "curriculum_section",
-          "placements": [
-            {
-              "object_id": "sc_19d7214060d7",
-              "placement_role": "section_article",
-              "sort_order": 1,
-              "visible_label": "anwendung_dac_adc"
-            },
-            {
-              "object_id": "sl_4ed653cc284b",
-              "placement_role": "slide_article",
-              "sort_order": 2,
-              "visible_label": "anwendung_dac_adc"
-            }
-          ],
-          "sort_order": 7,
-          "title": "Anwendung von ADC und DAC"
-        },
-        {
-          "abstract": null,
-          "id": "se_e9ff642b5b57",
-          "identifiers": [
-            {
-              "id_system": "toc_ident",
-              "id_value": "anti_alias_filter",
-              "preferred": true
-            }
-          ],
-          "metadata": {
-            "class": "A",
-            "status": "alpha",
-            "video_url": null
-          },
-          "node_type": "curriculum_section",
-          "placements": [
-            {
-              "object_id": "sc_26e43fcb7319",
-              "placement_role": "section_article",
-              "sort_order": 1,
-              "visible_label": "anti_alias_filter"
-            },
-            {
-              "object_id": "sl_3aa487cb9f45",
-              "placement_role": "slide_article",
-              "sort_order": 2,
-              "visible_label": "anti_alias_filter"
-            }
-          ],
-          "sort_order": 8,
-          "title": "Anti-Alias-Filter"
-        },
-        {
-          "abstract": null,
-          "id": "se_7a4552d52c71",
-          "identifiers": [
-            {
-              "id_system": "toc_ident",
-              "id_value": "rekonstruktionsfilter",
-              "preferred": true
-            }
-          ],
-          "metadata": {
-            "class": "A",
-            "status": "alpha",
-            "video_url": null
-          },
-          "node_type": "curriculum_section",
-          "placements": [
-            {
-              "object_id": "sc_8660c33ce66a",
-              "placement_role": "section_article",
-              "sort_order": 1,
-              "visible_label": "rekonstruktionsfilter"
-            },
-            {
-              "object_id": "sl_4ef8ea92aefd",
-              "placement_role": "slide_article",
-              "sort_order": 2,
-              "visible_label": "rekonstruktionsfilter"
-            }
-          ],
-          "sort_order": 9,
-          "title": "Rekonstruktionsfilter"
+          "title": "Anti-Alias- und Rekonstruktionsfilter"
         },
         {
           "abstract": null,
@@ -4009,7 +3877,7 @@
               "visible_label": "fourier_transformation"
             }
           ],
-          "sort_order": 10,
+          "sort_order": 5,
           "title": "Fourier-Transformation"
         },
         {
@@ -4042,16 +3910,16 @@
               "visible_label": "digitale_filter"
             }
           ],
-          "sort_order": 11,
+          "sort_order": 6,
           "title": "Digitale Filter"
         },
         {
           "abstract": null,
-          "id": "se_f86c893b6fb7",
+          "id": "se_ca276d05825c",
           "identifiers": [
             {
               "id_system": "toc_ident",
-              "id_value": "iq_verfahren",
+              "id_value": "digital_iq",
               "preferred": true
             }
           ],
@@ -4063,20 +3931,20 @@
           "node_type": "curriculum_section",
           "placements": [
             {
-              "object_id": "sc_96b2b8bd34bc",
+              "object_id": "sc_768f4d172129",
               "placement_role": "section_article",
               "sort_order": 1,
-              "visible_label": "iq_verfahren"
+              "visible_label": "digital_iq"
             },
             {
-              "object_id": "sl_af054b3c3ede",
+              "object_id": "sl_9580168f4530",
               "placement_role": "slide_article",
               "sort_order": 2,
-              "visible_label": "iq_verfahren"
+              "visible_label": "digital_iq"
             }
           ],
-          "sort_order": 12,
-          "title": "I/Q-Verfahren"
+          "sort_order": 7,
+          "title": "Digitale I/Q-Signalverarbeitung"
         },
         {
           "abstract": null,
@@ -4108,7 +3976,7 @@
               "visible_label": "latenz"
             }
           ],
-          "sort_order": 13,
+          "sort_order": 8,
           "title": "Latenz"
         }
       ],
@@ -4331,39 +4199,6 @@
         },
         {
           "abstract": null,
-          "id": "se_92b4a3d4700c",
-          "identifiers": [
-            {
-              "id_system": "toc_ident",
-              "id_value": "traps",
-              "preferred": true
-            }
-          ],
-          "metadata": {
-            "class": "A",
-            "status": "alpha",
-            "video_url": null
-          },
-          "node_type": "curriculum_section",
-          "placements": [
-            {
-              "object_id": "sc_61d96097333f",
-              "placement_role": "section_article",
-              "sort_order": 1,
-              "visible_label": "traps"
-            },
-            {
-              "object_id": "sl_6b42dfdc783d",
-              "placement_role": "slide_article",
-              "sort_order": 2,
-              "visible_label": "traps"
-            }
-          ],
-          "sort_order": 7,
-          "title": "Traps"
-        },
-        {
-          "abstract": null,
           "id": "se_6b7b2cd33416",
           "identifiers": [
             {
@@ -4392,7 +4227,7 @@
               "visible_label": "yagi_uda_3"
             }
           ],
-          "sort_order": 8,
+          "sort_order": 7,
           "title": "Yagi-Uda-Antenne III"
         },
         {
@@ -4425,7 +4260,7 @@
               "visible_label": "parbolspiegel_2"
             }
           ],
-          "sort_order": 9,
+          "sort_order": 8,
           "title": "Parabolspiegel II"
         },
         {
@@ -4458,7 +4293,7 @@
               "visible_label": "offsetspiegel"
             }
           ],
-          "sort_order": 10,
+          "sort_order": 9,
           "title": "Offset-Spiegel"
         },
         {
@@ -4491,7 +4326,7 @@
               "visible_label": "vor_rueck_verhaeltnis"
             }
           ],
-          "sort_order": 11,
+          "sort_order": 10,
           "title": "Vor-/Rückverhältnis"
         },
         {
@@ -4524,7 +4359,7 @@
               "visible_label": "halbwertsbreite"
             }
           ],
-          "sort_order": 12,
+          "sort_order": 11,
           "title": "Halbwertsbreite"
         },
         {
@@ -4557,16 +4392,16 @@
               "visible_label": "strom_spannung_speisung_2"
             }
           ],
-          "sort_order": 13,
+          "sort_order": 12,
           "title": "Strom- und Spannungsspeisung II"
         },
         {
           "abstract": null,
-          "id": "se_b5379bbec92c",
+          "id": "se_92b4a3d4700c",
           "identifiers": [
             {
               "id_system": "toc_ident",
-              "id_value": "frequenzabhaengige_stromverteilung",
+              "id_value": "traps",
               "preferred": true
             }
           ],
@@ -4578,20 +4413,20 @@
           "node_type": "curriculum_section",
           "placements": [
             {
-              "object_id": "sc_cb4c3d9d57a9",
+              "object_id": "sc_61d96097333f",
               "placement_role": "section_article",
               "sort_order": 1,
-              "visible_label": "frequenzabhaengige_stromverteilung"
+              "visible_label": "traps"
             },
             {
-              "object_id": "sl_7ec36096a853",
+              "object_id": "sl_6b42dfdc783d",
               "placement_role": "slide_article",
               "sort_order": 2,
-              "visible_label": "frequenzabhaengige_stromverteilung"
+              "visible_label": "traps"
             }
           ],
-          "sort_order": 14,
-          "title": "Frequenzabhängige Stromverteilung"
+          "sort_order": 13,
+          "title": "Traps"
         },
         {
           "abstract": null,
@@ -4623,7 +4458,7 @@
               "visible_label": "uebertragungsleitungen_3"
             }
           ],
-          "sort_order": 15,
+          "sort_order": 14,
           "title": "Übertragungsleitungen III"
         },
         {
@@ -4656,7 +4491,7 @@
               "visible_label": "wellenwiderstand"
             }
           ],
-          "sort_order": 16,
+          "sort_order": 15,
           "title": "Wellenwiderstand"
         },
         {
@@ -4689,7 +4524,7 @@
               "visible_label": "kabeldaempfung_2"
             }
           ],
-          "sort_order": 17,
+          "sort_order": 16,
           "title": "Kabeldämpfung II"
         },
         {
@@ -4722,7 +4557,7 @@
               "visible_label": "skineffekt"
             }
           ],
-          "sort_order": 18,
+          "sort_order": 17,
           "title": "Skineffekt"
         },
         {
@@ -4755,7 +4590,7 @@
               "visible_label": "swr_3"
             }
           ],
-          "sort_order": 19,
+          "sort_order": 18,
           "title": "Stehwellenverhältnis (SWR) III"
         },
         {
@@ -4788,7 +4623,7 @@
               "visible_label": "swr_meter_2"
             }
           ],
-          "sort_order": 20,
+          "sort_order": 19,
           "title": "Stehwellenmessgerät (SWR-Meter) II"
         },
         {
@@ -4821,7 +4656,7 @@
               "visible_label": "vna_2"
             }
           ],
-          "sort_order": 21,
+          "sort_order": 20,
           "title": "Vektorieller Netzwerkanalysator (VNA) II"
         },
         {
@@ -4854,8 +4689,41 @@
               "visible_label": "leitung_phasenverschiebung"
             }
           ],
-          "sort_order": 22,
+          "sort_order": 21,
           "title": "Phasenverschiebung in Übertragungsleitungen"
+        },
+        {
+          "abstract": null,
+          "id": "se_5d21def14700",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "lecherleitung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "A",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_497e1d651de6",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "lecherleitung"
+            },
+            {
+              "object_id": "sl_56cc6d7f1500",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "lecherleitung"
+            }
+          ],
+          "sort_order": 22,
+          "title": "Lecherleitung"
         },
         {
           "abstract": null,
@@ -4892,39 +4760,6 @@
         },
         {
           "abstract": null,
-          "id": "se_5d21def14700",
-          "identifiers": [
-            {
-              "id_system": "toc_ident",
-              "id_value": "lecherleitung",
-              "preferred": true
-            }
-          ],
-          "metadata": {
-            "class": "A",
-            "status": "alpha",
-            "video_url": null
-          },
-          "node_type": "curriculum_section",
-          "placements": [
-            {
-              "object_id": "sc_497e1d651de6",
-              "placement_role": "section_article",
-              "sort_order": 1,
-              "visible_label": "lecherleitung"
-            },
-            {
-              "object_id": "sl_56cc6d7f1500",
-              "placement_role": "slide_article",
-              "sort_order": 2,
-              "visible_label": "lecherleitung"
-            }
-          ],
-          "sort_order": 24,
-          "title": "Lecherleitung"
-        },
-        {
-          "abstract": null,
           "id": "se_8291449b84ff",
           "identifiers": [
             {
@@ -4953,7 +4788,7 @@
               "visible_label": "mantelwellen_2"
             }
           ],
-          "sort_order": 25,
+          "sort_order": 24,
           "title": "Mantelwellen II"
         },
         {
@@ -4986,7 +4821,7 @@
               "visible_label": "umwegleitung"
             }
           ],
-          "sort_order": 26,
+          "sort_order": 25,
           "title": "Umwegleitung"
         }
       ],
@@ -5044,11 +4879,11 @@
         },
         {
           "abstract": null,
-          "id": "se_806fbfacdb44",
+          "id": "se_35212d2d286f",
           "identifiers": [
             {
               "id_system": "toc_ident",
-              "id_value": "personenschutzabstand_3",
+              "id_value": "nahfeld",
               "preferred": true
             }
           ],
@@ -5060,20 +4895,20 @@
           "node_type": "curriculum_section",
           "placements": [
             {
-              "object_id": "sc_f1fefe4e5472",
+              "object_id": "sc_ae65e22f3827",
               "placement_role": "section_article",
               "sort_order": 1,
-              "visible_label": "personenschutzabstand_3"
+              "visible_label": "nahfeld"
             },
             {
-              "object_id": "sl_e07253175ddf",
+              "object_id": "sl_7c71d2096a5b",
               "placement_role": "slide_article",
               "sort_order": 2,
-              "visible_label": "personenschutzabstand_3"
+              "visible_label": "nahfeld"
             }
           ],
           "sort_order": 2,
-          "title": "Personenschutzabstand III"
+          "title": "Nah- und Fernfeld"
         },
         {
           "abstract": null,
@@ -5110,11 +4945,11 @@
         },
         {
           "abstract": null,
-          "id": "se_35212d2d286f",
+          "id": "se_806fbfacdb44",
           "identifiers": [
             {
               "id_system": "toc_ident",
-              "id_value": "nahfeld",
+              "id_value": "personenschutzabstand_3",
               "preferred": true
             }
           ],
@@ -5126,53 +4961,20 @@
           "node_type": "curriculum_section",
           "placements": [
             {
-              "object_id": "sc_ae65e22f3827",
+              "object_id": "sc_f1fefe4e5472",
               "placement_role": "section_article",
               "sort_order": 1,
-              "visible_label": "nahfeld"
+              "visible_label": "personenschutzabstand_3"
             },
             {
-              "object_id": "sl_7c71d2096a5b",
+              "object_id": "sl_e07253175ddf",
               "placement_role": "slide_article",
               "sort_order": 2,
-              "visible_label": "nahfeld"
+              "visible_label": "personenschutzabstand_3"
             }
           ],
           "sort_order": 4,
-          "title": "Nahfeld"
-        },
-        {
-          "abstract": null,
-          "id": "se_b1aca27d4fd2",
-          "identifiers": [
-            {
-              "id_system": "toc_ident",
-              "id_value": "fernfeld",
-              "preferred": true
-            }
-          ],
-          "metadata": {
-            "class": "A",
-            "status": "alpha",
-            "video_url": null
-          },
-          "node_type": "curriculum_section",
-          "placements": [
-            {
-              "object_id": "sc_d13f09ba9c29",
-              "placement_role": "section_article",
-              "sort_order": 1,
-              "visible_label": "fernfeld"
-            },
-            {
-              "object_id": "sl_5e6b60175010",
-              "placement_role": "slide_article",
-              "sort_order": 2,
-              "visible_label": "fernfeld"
-            }
-          ],
-          "sort_order": 5,
-          "title": "Fernfeld"
+          "title": "Personenschutzabstand III"
         },
         {
           "abstract": null,
@@ -5204,7 +5006,7 @@
               "visible_label": "personenschutzabstand_richtantennen"
             }
           ],
-          "sort_order": 6,
+          "sort_order": 5,
           "title": "Personenschutz bei Richtantennen"
         }
       ],

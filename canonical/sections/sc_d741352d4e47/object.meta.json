@@ -12,7 +12,18 @@
   "languages": [
     "de"
   ],
-  "metadata": {},
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/sections/aequivalente_isotrope_strahlungsleistung_eirp_2.md": "50490a225423dc4522d2be6b414ed4dd809afe9a8867899b5f373b475c1c9fe8"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
+    }
+  },
   "object_type": "section_article",
   "reconstruction": {
     "strategy": "replace_source_file",
@@ -27,6 +38,14 @@
     {
       "language": "de",
       "state": "imported_approved"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_translated"
+    },
+    {
+      "language": "it",
+      "state": "to_be_translated"
     }
   ],
   "source": {

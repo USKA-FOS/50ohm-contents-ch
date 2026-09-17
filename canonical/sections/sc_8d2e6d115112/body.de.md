@@ -8,6 +8,10 @@ Oszillatoren sind eines der wichtigsten Schaltungselemente im Amateurfunk. Sie s
 
 Die einfachste Form eines Oszillators ist der sog. *LC-Oszillator*, der als frequenzbestimmende Elemente einen Schwingkreis (bestehend aus einer Spule und einem Kondensator), welchen wir im vorherigen Kapitel kennen gelernt haben, enthält.
 
+<indepth>
+Ein Oszillator besteht aus einem *frequenzbestimmenden Element*, beispielsweise einem LC-Schwingkreis oder einem Quarz, einem *Verstärker* sowie einer *positiven Rückkopplung*. Die Rückkopplung führt einen Teil des Ausgangssignals phasengleich zum Eingang zurück und gleicht die Verluste des Schwingkreises aus. Dadurch werden ungedämpfte Schwingungen mit der durch das frequenzbestimmende Element vorgegebenen Frequenz erzeugt.
+</indepth>
+
 [question:ED501]
 
 LC-Oszillatoren haben den Nachteil, dass sich Ihre frequenzbestimmenden Komponenten (L und C) in Abhängigkeit von der Temperatur stark ändern können, was zu großen Frequenzabweichungen führen kann.
@@ -16,7 +20,7 @@ Laut Formelsammlung ist die Formel für die Schwingungsfrequenz (Thomsonsche Sch
 
 $ f_0 = \frac{1}{2\pi \sqrt{L\cdot C}} $
 
-Die Frequenz eines LC-Oszillators ändert sich, wenn sich der Wert des Kondensators oder der Spule z.B. durch Temperatureinwirkung ändert. Wie Sich das auf die Frequenz auswirkt, kann man in der Formel erkennen: 
+Die Frequenz eines LC-Oszillators ändert sich, wenn sich der Wert des Kondensators oder der Spule z.B. durch Temperatureinwirkung ändert. Wie sich das auf die Frequenz auswirkt, kann man in der Formel erkennen:
 Bei *steigender* Kapazität des Kondensators oder steigender Induktivität der Spule *verringert sich die Frequenz* des Schwingkreises. Umgekehrt *steigt die Frequenz* des Schwingkreises bei *sinkender* Kapazität oder Induktivität.
 
 [question:ED503]

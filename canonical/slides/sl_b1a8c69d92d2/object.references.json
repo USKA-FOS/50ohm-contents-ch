@@ -1,21 +1,43 @@
 [
   {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AF604]",
-    "relation_type": "references_question",
-    "sort_order": 5,
+    "inline_alias": "a_wertkont_zeitkont",
+    "inline_label": "Wert- und Zeitkontinuierliches Signal",
+    "raw_marker": "[picture:408:a_wertkont_zeitkont:Wert- und Zeitkontinuierliches Signal]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AF604",
-    "target_object_type": "question"
+    "target_id_system": "drawing_id",
+    "target_id_value": "408",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_wertkont_zeitkont",
+    "inline_label": "Wert- und Zeitkontinuierliches Signal",
+    "raw_marker": "[picture:408:a_wertkont_zeitkont:Wert- und Zeitkontinuierliches Signal]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "408",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_wertkont_zeitdisk",
+    "inline_label": "Wertkontinuierliches und Zeitdiskretes Signal",
+    "raw_marker": "[picture:409:a_wertkont_zeitdisk:Wertkontinuierliches und Zeitdiskretes Signal]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "409",
+    "target_object_type": "drawing"
   },
   {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:AF601]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 4,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AF601",
@@ -24,9 +46,64 @@
   {
     "inline_alias": null,
     "inline_label": null,
+    "raw_marker": "[question:AF603]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF603",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF606]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF606",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF615]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF615",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_wertdisk_zeitkont",
+    "inline_label": "Wertdiskretes und Zeitkontinuierliches Signal",
+    "raw_marker": "[picture:410:a_wertdisk_zeitkont:Wertdiskretes und Zeitkontinuierliches Signal]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "410",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_wertdisk_zeitdisk",
+    "inline_label": "Wert- und Zeitdiskretes Signal",
+    "raw_marker": "[picture:411:a_wertdisk_zeitdisk:Wert- und Zeitdiskretes Signal]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "411",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
     "raw_marker": "[question:AF602]",
     "relation_type": "references_question",
-    "sort_order": 4,
+    "sort_order": 10,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AF602",
@@ -35,23 +112,34 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[include:quantisierung_und_sampling]",
-    "relation_type": "includes_object",
-    "sort_order": 1,
+    "raw_marker": "[question:AF604]",
+    "relation_type": "references_question",
+    "sort_order": 11,
     "source_slot_key": "body_markdown",
-    "target_id_system": "include_key",
-    "target_id_value": "quantisierung_und_sampling",
-    "target_object_type": "html_include"
+    "target_id_system": "question_code",
+    "target_id_value": "AF604",
+    "target_object_type": "question"
   },
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AF603]",
+    "raw_marker": "[question:AF605]",
     "relation_type": "references_question",
-    "sort_order": 3,
+    "sort_order": 12,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AF603",
+    "target_id_value": "AF605",
     "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[include:quantisierung_und_sampling]",
+    "relation_type": "includes_object",
+    "sort_order": 13,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "include_key",
+    "target_id_value": "quantisierung_und_sampling",
+    "target_object_type": "html_include"
   }
 ]

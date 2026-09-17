@@ -1,21 +1,32 @@
 [
   {
-    "inline_alias": null,
+    "inline_alias": "e_fusspunktimpedanz_dipol",
     "inline_label": null,
-    "raw_marker": "[question:AG210]",
-    "relation_type": "references_question",
-    "sort_order": 3,
+    "raw_marker": "[ref:e_fusspunktimpedanz_dipol]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AG210",
-    "target_object_type": "question"
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_fusspunktimpedanz_dipol",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "e_fusspunktimpedanz_dipol",
+    "inline_label": "Fußpolimpedanz eines Dipols in Abhängigkeit von der Aufbauhöhe (Simuliert mit NECPP)",
+    "raw_marker": "[picture:788:e_fusspunktimpedanz_dipol:Fußpolimpedanz eines Dipols in Abhängigkeit von der Aufbauhöhe (Simuliert mit NECPP)]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "788",
+    "target_object_type": "drawing"
   },
   {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:AG211]",
     "relation_type": "references_question",
-    "sort_order": 1,
+    "sort_order": 3,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AG211",
@@ -26,10 +37,21 @@
     "inline_label": null,
     "raw_marker": "[question:AG209]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 4,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AG209",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AG210]",
+    "relation_type": "references_question",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG210",
     "target_object_type": "question"
   }
 ]

@@ -1,26 +1,10 @@
 [
   {
-    "annotation_key": "Einheitenvorzeichen",
+    "annotation_key": "Schwingung",
     "annotation_type": "index_term",
     "annotation_value": null,
-    "raw_marker": "[index:Einheitenvorzeichen]",
-    "sort_order": 7,
-    "source_slot_key": "body_markdown"
-  },
-  {
-    "annotation_key": "Oszillator",
-    "annotation_type": "index_term",
-    "annotation_value": null,
-    "raw_marker": "[index:Oszillator]",
-    "sort_order": 11,
-    "source_slot_key": "body_markdown"
-  },
-  {
-    "annotation_key": "Frequenz",
-    "annotation_type": "index_term",
-    "annotation_value": "Frequenzzähler",
-    "raw_marker": "[index:Frequenz:Frequenzzähler]",
-    "sort_order": 13,
+    "raw_marker": "[index:Schwingung]",
+    "sort_order": 1,
     "source_slot_key": "body_markdown"
   },
   {
@@ -40,11 +24,27 @@
     "source_slot_key": "body_markdown"
   },
   {
-    "annotation_key": "Schwingung",
+    "annotation_key": "Einheitenvorzeichen",
     "annotation_type": "index_term",
     "annotation_value": null,
-    "raw_marker": "[index:Schwingung]",
-    "sort_order": 1,
+    "raw_marker": "[index:Einheitenvorzeichen]",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown"
+  },
+  {
+    "annotation_key": "Oszillator",
+    "annotation_type": "index_term",
+    "annotation_value": null,
+    "raw_marker": "[index:Oszillator]",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown"
+  },
+  {
+    "annotation_key": "Frequenz",
+    "annotation_type": "index_term",
+    "annotation_value": "Frequenzzähler",
+    "raw_marker": "[index:Frequenz:Frequenzzähler]",
+    "sort_order": 12,
     "source_slot_key": "body_markdown"
   }
 ]

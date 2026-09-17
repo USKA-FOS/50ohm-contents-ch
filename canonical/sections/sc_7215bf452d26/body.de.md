@@ -2,6 +2,27 @@ Am Anfang dieses Kapitels haben wir uns mit dem Dipol als Grundform aller Antenn
 * Eine Groundplane-Antenne strahlt in alle Himmelsrichtungen nahezu gleichmäßig ab, aber nicht nach oben oder unten.
 * Bei einer Yagi-Uda-Antenne werden die Funkwellen wie bei einer Taschenlampe in einem Strahl nach vorn gebündelt und in alle anderen Richtungen reduziert.
 
+---
+
+<law>
+Die Grenzwerte, die eine Sendeanlage einhalten muss, sind in der Nicht-Ionisierenden-Strahlungs-Verordnung
+[NISV](https://www.fedlex.admin.ch/eli/cc/2000/38/de) festgelegt. Die *NISV* ist ziemlich umfangreich und betrifft auch die kommerziellen Funkdienste. Deshalb ist hier das für Amateurfunkanlagen relevante zusammengefasst:
+
+*Grenzwerte für Amateurfunkanlagen* 
+
+Amateurfunkanlagen müssen die *Immissionsgrenzwerte* der NISV einhalten. Je nach Frequenz liegen diese zwischen 28 und 87 [V/m].
+Zur Berechnung der einzuhaltenden Abstände gibt es im Mitgliederbereich der USKA geeignete Programme bzw. Excel Tabellen:
+
+[Hilfsmittel zur NISV-Berechnung](https://uska.ch/emissions-berechnung/)
+
+Darüber hinaus ist *kein Anlagegrenzwert* einzuhalten, solange die Betriebsdauer *unter 800 Stunden pro Jahr* liegt. Dies ist bei Amateurfunkanwendungen praktisch immer der Fall. Sendet eine Anlage ausnahmsweise doch mehr, so muss sie an Orten mit empfindlicher Nutzung (OMEN) einen Anlagegrenzwert einhalten. Dieser beträgt bei Langwellen- und Mittelwellensendern 8.5 V/m und für alle übrigen Frequenzbänder 3.0 V/m
+[Quellenangabe](https://www.bafu.admin.ch/de/amateurfunk-als-elektrosmog-quelle)
+
+Als "Orte Mit Empfindlicher Nutzung" (OMEN) gelten Orte, an denen sich Personen regelmässig während längerer Zeit aufhalten.
+</law>
+
+---
+
 Die vom Nachweisverfahren zum Schutz von Personen in elektromagnetischen Feldern vorgegebenen Grenzwerte muss eine Sendeanlage in jede Richtung einhalten. Wenn in einem bestimmten Abstand von der Antenne die Grenzwerte in die Richtung eingehalten werden, in die sie am stärksten abstrahlt, dann wird sie die Grenzwerte im gleichen Abstand auch in alle anderen Richtungen einhalten. Daher interessiert uns besonders die Richtung der stärksten Abstrahlung. Diese wird als *Hauptstrahlrichtung* bezeichnet.
 
 ---
@@ -10,7 +31,7 @@ Wie stark eine Antenne in ihre Hauptstrahlrichtung abstrahlt, wird durch den *Ge
 
 <indepth>
 % TODO: Editionsspezifisch machen
-Anstelle des Gewinnfaktors von Antennen wird häufig der "Gewinn in Dezibel ($\unit{\dB}$)" angegeben. Mit der Einheit Dezibel beschäftigt sich der Kurs für die Klasse E.
+Anstelle des Gewinnfaktors von Antennen wird häufig der "Gewinn in Dezibel ($\unit{\dB}$)" angegeben. Mit der Einheit Dezibel beschäftigt sich der Kurs im Kapitel [sec:dezibel_1].
 </indepth>
 
 ---

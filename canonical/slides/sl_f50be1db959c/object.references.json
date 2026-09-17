@@ -1,13 +1,57 @@
 [
   {
-    "inline_alias": "a_8qam",
-    "inline_label": "I-Q-Diagramm für ein 8QAM-Mapping",
-    "raw_marker": "[picture:697:a_8qam:I-Q-Diagramm für ein 8QAM-Mapping]",
+    "inline_alias": "a_mapper",
+    "inline_label": "Blockschaltbild eines Mappers",
+    "raw_marker": "[picture:1102:a_mapper:Blockschaltbild eines Mappers]",
     "relation_type": "embeds_drawing",
     "sort_order": 1,
     "source_slot_key": "body_markdown",
     "target_id_system": "drawing_id",
-    "target_id_value": "697",
+    "target_id_value": "1102",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_ask",
+    "inline_label": "ASK (Amplitude-Shift Keying) im zeitlichen Verlauf",
+    "raw_marker": "[picture:700:a_ask:ASK (Amplitude-Shift Keying) im zeitlichen Verlauf]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "700",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_ask_mapping",
+    "inline_label": "ASK (Amplitude-Shift Keying) im Konstellationsdiagramm",
+    "raw_marker": "[picture:1128:a_ask_mapping:ASK (Amplitude-Shift Keying) im Konstellationsdiagramm]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1128",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_4_ask",
+    "inline_label": "Quaternäre Amplitudenumtastung",
+    "raw_marker": "[picture:701:a_4_ask:Quaternäre Amplitudenumtastung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "701",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_4_ask_mapping",
+    "inline_label": "4ASK im Konstellationsdiagramm",
+    "raw_marker": "[picture:1129:a_4_ask_mapping:4ASK im Konstellationsdiagramm]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1129",
     "target_object_type": "drawing"
   }
 ]

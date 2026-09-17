@@ -1,21 +1,32 @@
 [
   {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AG228]",
-    "relation_type": "references_question",
-    "sort_order": 4,
+    "inline_alias": "a_parabol",
+    "inline_label": "Parabolspiegel mit Erregerantenne",
+    "raw_marker": "[picture:850:a_parabol:Parabolspiegel mit Erregerantenne]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AG228",
-    "target_object_type": "question"
+    "target_id_system": "drawing_id",
+    "target_id_value": "850",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_hornstrahler",
+    "inline_label": "Hornstrahler",
+    "raw_marker": "[picture:1105:a_hornstrahler:Hornstrahler]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1105",
+    "target_object_type": "drawing"
   },
   {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:AG225]",
     "relation_type": "references_question",
-    "sort_order": 1,
+    "sort_order": 3,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AG225",
@@ -24,9 +35,20 @@
   {
     "inline_alias": null,
     "inline_label": null,
+    "raw_marker": "[question:AG226]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG226",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
     "raw_marker": "[question:AG227]",
     "relation_type": "references_question",
-    "sort_order": 3,
+    "sort_order": 5,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AG227",
@@ -35,23 +57,23 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AG229]",
+    "raw_marker": "[question:AG228]",
     "relation_type": "references_question",
-    "sort_order": 5,
+    "sort_order": 6,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AG229",
+    "target_id_value": "AG228",
     "target_object_type": "question"
   },
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AG226]",
+    "raw_marker": "[question:AG229]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 7,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AG226",
+    "target_id_value": "AG229",
     "target_object_type": "question"
   }
 ]

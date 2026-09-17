@@ -1,5 +1,16 @@
 [
   {
+    "inline_alias": "n_zulassung_urkunde",
+    "inline_label": "Der Zulassungsbescheid zur Teilnahme am Amateurfunkdienst",
+    "raw_marker": "[photo:91:n_zulassung_urkunde:Der Zulassungsbescheid zur Teilnahme am Amateurfunkdienst]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "91",
+    "target_object_type": "photo"
+  },
+  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:VC106]",
@@ -31,16 +42,5 @@
     "target_id_system": "question_code",
     "target_id_value": "VN011",
     "target_object_type": "question"
-  },
-  {
-    "inline_alias": "n_zulassung_urkunde",
-    "inline_label": "Der Zulassungsbescheid zur Teilnahme am Amateurfunkdienst",
-    "raw_marker": "[photo:91:n_zulassung_urkunde:Der Zulassungsbescheid zur Teilnahme am Amateurfunkdienst]",
-    "relation_type": "embeds_photo",
-    "sort_order": 1,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "photo_id",
-    "target_id_value": "91",
-    "target_object_type": "photo"
   }
 ]

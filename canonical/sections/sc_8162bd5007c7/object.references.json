@@ -1,5 +1,38 @@
 [
   {
+    "inline_alias": "n_Bat_AA",
+    "inline_label": null,
+    "raw_marker": "[ref:n_Bat_AA]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_Bat_AA",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_schaltzeichen_batt",
+    "inline_label": null,
+    "raw_marker": "[ref:n_schaltzeichen_batt]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_schaltzeichen_batt",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NB201]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NB201",
+    "target_object_type": "question"
+  },
+  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:NB203]",
@@ -9,6 +42,17 @@
     "target_id_system": "question_code",
     "target_id_value": "NB203",
     "target_object_type": "question"
+  },
+  {
+    "inline_alias": "n_Bat_AA",
+    "inline_label": "Eine Batterie mit Kennzeichnung der Pole und Warnhinweisen",
+    "raw_marker": "[photo:89:n_Bat_AA:Eine Batterie mit Kennzeichnung der Pole und Warnhinweisen]",
+    "relation_type": "embeds_photo",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "89",
+    "target_object_type": "photo"
   },
   {
     "inline_alias": "n_schaltzeichen_batt",
@@ -35,57 +79,24 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:NB201]",
+    "raw_marker": "[question:NB204]",
     "relation_type": "references_question",
-    "sort_order": 3,
+    "sort_order": 8,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "NB201",
+    "target_id_value": "NB204",
     "target_object_type": "question"
   },
   {
-    "inline_alias": "n_Bat_AA",
+    "inline_alias": "n_Bat_Sicherung",
     "inline_label": null,
-    "raw_marker": "[ref:n_Bat_AA]",
+    "raw_marker": "[ref:n_Bat_Sicherung]",
     "relation_type": "references_embedded_alias",
-    "sort_order": 1,
+    "sort_order": 9,
     "source_slot_key": "body_markdown",
     "target_id_system": "inline_alias",
-    "target_id_value": "n_Bat_AA",
+    "target_id_value": "n_Bat_Sicherung",
     "target_object_type": null
-  },
-  {
-    "inline_alias": "n_schaltzeichen_batt",
-    "inline_label": null,
-    "raw_marker": "[ref:n_schaltzeichen_batt]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 2,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "n_schaltzeichen_batt",
-    "target_object_type": null
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:ND110]",
-    "relation_type": "references_question",
-    "sort_order": 11,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "ND110",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": "n_Bat_AA",
-    "inline_label": "Eine Batterie mit Kennzeichnung der Pole und Warnhinweisen",
-    "raw_marker": "[photo:89:n_Bat_AA:Eine Batterie mit Kennzeichnung der Pole und Warnhinweisen]",
-    "relation_type": "embeds_photo",
-    "sort_order": 5,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "photo_id",
-    "target_id_value": "89",
-    "target_object_type": "photo"
   },
   {
     "inline_alias": "n_Bat_Sicherung",
@@ -97,6 +108,17 @@
     "target_id_system": "photo_id",
     "target_id_value": "90",
     "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:ND110]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "ND110",
+    "target_object_type": "question"
   },
   {
     "inline_alias": "n_Bat_AA",
@@ -119,27 +141,5 @@
     "target_id_system": "question_code",
     "target_id_value": "NK306",
     "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:NB204]",
-    "relation_type": "references_question",
-    "sort_order": 8,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "NB204",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": "n_Bat_Sicherung",
-    "inline_label": null,
-    "raw_marker": "[ref:n_Bat_Sicherung]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 9,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "n_Bat_Sicherung",
-    "target_object_type": null
   }
 ]

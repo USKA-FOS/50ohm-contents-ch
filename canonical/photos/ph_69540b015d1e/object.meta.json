@@ -24,8 +24,8 @@
   },
   "languages": [
     "de",
-    "it",
-    "fr"
+    "fr",
+    "it"
   ],
   "metadata": {
     "asset": {
@@ -38,6 +38,9 @@
         "source_path": "contents/photos/86.png"
       }
     },
+    "lifecycle": {
+      "status": "active"
+    },
     "reconstruction": {
       "description_canonical_files": {
         "de": "86.de.txt",
@@ -45,6 +48,14 @@
         "it": "86.it.txt"
       },
       "description_source_format": "split_descriptions"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/photos/86.png": "304a674ca322a1e242969f4f0a21372d06220efe782b7013335707c0eec0006e",
+        "contents/photos/86.txt": "ac23eece1c0433f93189342c9898be41fe2ea47c68d134f44e367a64371d2834"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
     }
   },
   "object_type": "photo",

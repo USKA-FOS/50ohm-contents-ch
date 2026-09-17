@@ -11,6 +11,17 @@
     "target_object_type": "drawing"
   },
   {
+    "inline_alias": "n_messgeraete_strommessung",
+    "inline_label": "Strommessung",
+    "raw_marker": "[picture:616:n_messgeraete_strommessung:Strommessung]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "616",
+    "target_object_type": "drawing"
+  },
+  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:NI102]",
@@ -31,16 +42,5 @@
     "target_id_system": "question_code",
     "target_id_value": "NI104",
     "target_object_type": "question"
-  },
-  {
-    "inline_alias": "n_messgeraete_strommessung",
-    "inline_label": "Strommessung",
-    "raw_marker": "[picture:616:n_messgeraete_strommessung:Strommessung]",
-    "relation_type": "embeds_drawing",
-    "sort_order": 2,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "drawing_id",
-    "target_id_value": "616",
-    "target_object_type": "drawing"
   }
 ]

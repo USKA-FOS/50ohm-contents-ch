@@ -24,23 +24,23 @@
     },
     "fr": {
       "asset_files": {
-        "tex": "1000.fr.tex",
-        "svg": "1000.fr.svg"
+        "svg": "1000.fr.svg",
+        "tex": "1000.fr.tex"
       },
       "review_state": "to_be_reviewed"
     },
     "it": {
       "asset_files": {
-        "tex": "1000.it.tex",
-        "svg": "1000.it.svg"
+        "svg": "1000.it.svg",
+        "tex": "1000.it.tex"
       },
       "review_state": "to_be_reviewed"
     }
   },
   "languages": [
     "de",
-    "it",
-    "fr"
+    "fr",
+    "it"
   ],
   "metadata": {
     "asset": {
@@ -57,22 +57,25 @@
         "canonical_file": "1000.de.tex",
         "source_path": "contents/drawings/1000.tex"
       },
-      "fr.tex": {
-        "canonical_file": "1000.fr.tex",
-        "source_path": "contents/drawings/1000.tex"
-      },
-      "it.tex": {
-        "canonical_file": "1000.it.tex",
-        "source_path": "contents/drawings/1000.tex"
-      },
       "fr.svg": {
         "canonical_file": "1000.fr.svg",
         "source_path": "contents/drawings/1000.svg"
       },
+      "fr.tex": {
+        "canonical_file": "1000.fr.tex",
+        "source_path": "contents/drawings/1000.tex"
+      },
       "it.svg": {
         "canonical_file": "1000.it.svg",
         "source_path": "contents/drawings/1000.svg"
+      },
+      "it.tex": {
+        "canonical_file": "1000.it.tex",
+        "source_path": "contents/drawings/1000.tex"
       }
+    },
+    "lifecycle": {
+      "status": "active"
     },
     "reconstruction": {
       "description_canonical_files": {
@@ -81,6 +84,15 @@
         "it": "1000.it.txt"
       },
       "description_source_format": "single_description"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/drawings/1000.svg": "df93dad34f1f1f30d068821876e345fdd5f4ac6b475152d44c9a1e798c66c272",
+        "contents/drawings/1000.tex": "c0255c30d4794ea0dcd0650bb838a1edfaaca1c313cd4ba0a4677d0459846b04",
+        "contents/drawings/1000.txt": "0478b54bc81029efe1e3c7f435af0f70aa95d8d5f7abaa8b50649c76631e6f29"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
     }
   },
   "object_type": "drawing",

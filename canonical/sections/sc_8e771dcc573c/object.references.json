@@ -12,6 +12,17 @@
   },
   {
     "inline_alias": "n_besondere_anlaesse",
+    "inline_label": null,
+    "raw_marker": "[ref:n_besondere_anlaesse]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_besondere_anlaesse",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_besondere_anlaesse",
     "inline_label": "Beispiele für Sonderstationen",
     "raw_marker": "[table:n_besondere_anlaesse:Beispiele für Sonderstationen]",
     "relation_type": "embeds_table",
@@ -26,32 +37,10 @@
     "inline_label": null,
     "raw_marker": "[question:BD114]",
     "relation_type": "references_question",
-    "sort_order": 5,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "BD114",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": "n_besondere_anlaesse",
-    "inline_label": null,
-    "raw_marker": "[ref:n_besondere_anlaesse]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 2,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "n_besondere_anlaesse",
-    "target_object_type": null
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:VD204]",
-    "relation_type": "references_question",
     "sort_order": 4,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "VD204",
+    "target_id_value": "BD114",
     "target_object_type": "question"
   },
   {
@@ -59,7 +48,7 @@
     "inline_label": null,
     "raw_marker": "[question:VP002]",
     "relation_type": "references_question",
-    "sort_order": 6,
+    "sort_order": 5,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "VP002",

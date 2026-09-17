@@ -1,24 +1,123 @@
 [
   {
+    "inline_alias": "a_nahfernfeld",
+    "inline_label": null,
+    "raw_marker": "[ref:a_nahfernfeld]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_nahfernfeld",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_Bewertungsverfahren",
+    "inline_label": "In diesem Dokument sind die Bewertungsverfahren beschrieben.",
+    "raw_marker": "[photo:80:n_Bewertungsverfahren:In diesem Dokument sind die Bewertungsverfahren beschrieben.]",
+    "relation_type": "embeds_photo",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "80",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "a_nahfernfeld",
+    "inline_label": "Abstandsdefinitionen für Nahfeld und Fernfeld nach der Bundesnetzagentur (BNetzA).",
+    "raw_marker": "[picture:1113:a_nahfernfeld:Abstandsdefinitionen für Nahfeld und Fernfeld nach der Bundesnetzagentur (BNetzA).]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1113",
+    "target_object_type": "drawing"
+  },
+  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:AK101]",
     "relation_type": "references_question",
-    "sort_order": 1,
+    "sort_order": 4,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AK101",
     "target_object_type": "question"
   },
   {
+    "inline_alias": "a_dipol_feld_e_h",
+    "inline_label": null,
+    "raw_marker": "[ref:a_dipol_feld_e_h]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_dipol_feld_e_h",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_loop_feld_e_h",
+    "inline_label": null,
+    "raw_marker": "[ref:a_loop_feld_e_h]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_loop_feld_e_h",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_dipol_feld_e_h",
+    "inline_label": "Verlauf der elektrischen und magnetischen Feldstärke einer Dipolantenne über die Bereiche Nahfeld und Fernfeld (Logarithmisch).",
+    "raw_marker": "[picture:1114:a_dipol_feld_e_h:Verlauf der elektrischen und magnetischen Feldstärke einer Dipolantenne über die Bereiche Nahfeld und Fernfeld (Logarithmisch).]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1114",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_loop_feld_e_h",
+    "inline_label": "Verlauf der elektrischen und magnetischen Feldstärke einer Loopantenne über die Bereiche Nahfeld und Fernfeld (Logarithmisch).",
+    "raw_marker": "[picture:1115:a_loop_feld_e_h:Verlauf der elektrischen und magnetischen Feldstärke einer Loopantenne über die Bereiche Nahfeld und Fernfeld (Logarithmisch).]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1115",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_feldwellenwiderstand",
+    "inline_label": null,
+    "raw_marker": "[ref:a_feldwellenwiderstand]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_feldwellenwiderstand",
+    "target_object_type": null
+  },
+  {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AK103]",
+    "raw_marker": "[question:AK102]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 10,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AK103",
+    "target_id_value": "AK102",
     "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_feldwellenwiderstand",
+    "inline_label": "Verlauf des Feldwellenwiderstands über die Bereiche Nahfeld und Fernfeld (Logarithmisch).",
+    "raw_marker": "[picture:1116:a_feldwellenwiderstand:Verlauf des Feldwellenwiderstands über die Bereiche Nahfeld und Fernfeld (Logarithmisch).]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1116",
+    "target_object_type": "drawing"
   }
 ]

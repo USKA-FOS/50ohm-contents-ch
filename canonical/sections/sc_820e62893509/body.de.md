@@ -14,7 +14,7 @@ Den Gewinn in einer Richtung (z.B. der Hauptstrahlrichtung welche die Richtung m
 
 Auch ein einfacher Halbwellendipol hat einen Gewinn, denn er strahlt senkrecht zum Leiter um $\qty{2,15}{\dB}$ stärker ab, als es ein Isotropstrahler tun würde. Entsprechend hat ein Halbwellendipol einen Gewinn von $\qty{2,15}{\dBi}$.
 
-Gelegentlich interessiert der Gewinn der über den Gewinn eines Halbwellendipols hinausgeht, also den Gewinn in Bezug auf einen Halbwellendipol. Diesen gibt man in $\unit{\dBd}$ an, wobei das $\text{d}$ für Dipol steht. Ein Halbwellendipol hat entsprechend einen Gewinn von $\qty{0}{\dBd}$. Antennen, die mehr Gewinn aufweisen, als ein Halbwellendipol haben einen Gewinn größer als $\qty{0}{\dBd}$ und Antennen mit weniger Gewinn als ein Halbwellendipol entsprechend weniger als $\qty{0}{\dBd}$.
+Gelegentlich interessiert der Gewinn der über den Gewinn eines Halbwellendipols hinausgeht, also der Gewinn in Bezug auf einen Halbwellendipol. Diesen gibt man in $\unit{\dBd}$ an, wobei das $\text{d}$ für Dipol steht. Ein Halbwellendipol hat entsprechend einen Gewinn von $\qty{0}{\dBd}$. Antennen, die mehr Gewinn aufweisen, als ein Halbwellendipol haben einen Gewinn größer als $\qty{0}{\dBd}$ und Antennen mit weniger Gewinn als ein Halbwellendipol entsprechend weniger als $\qty{0}{\dBd}$.
 
 Vergleichen wir noch einmal den Gewinn eines Halbwellendipols angegeben als $\unit{\dBi}$ und angegeben als $\unit{\dBd}$: Der Halbwellendipol hat in Hauptstrahlrichtung einen Gewinn von $\qty{2,15}{\dBi}$, da er gegenüber dem Isotropstrahler $\qty{2,15}{\dB}$ stärker strahlt. In $\unit{\dBd}$ angegeben sind es jedoch $\qty{0}{\dBd}$. Die Angabe in $\unit{\dBi}$ ist stets um $\qty{2,15}{\dB}$ höher als die Angabe in $\unit{\dBd}$.
 

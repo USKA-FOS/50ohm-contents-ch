@@ -1,16 +1,5 @@
 [
   {
-    "inline_alias": "n_koaxsteckverbinder_n_stecker",
-    "inline_label": "Ein N-Stecker vor seiner Montage",
-    "raw_marker": "[photo:72:n_koaxsteckverbinder_n_stecker:Ein N-Stecker vor seiner Montage]",
-    "relation_type": "embeds_photo",
-    "sort_order": 2,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "photo_id",
-    "target_id_value": "72",
-    "target_object_type": "photo"
-  },
-  {
     "inline_alias": "n_koaxsteckverbinder_n_buchse_und_stecker",
     "inline_label": "N-Einbaubuchse und N-Stecker",
     "raw_marker": "[photo:73:n_koaxsteckverbinder_n_buchse_und_stecker:N-Einbaubuchse und N-Stecker]",
@@ -19,6 +8,17 @@
     "source_slot_key": "body_markdown",
     "target_id_system": "photo_id",
     "target_id_value": "73",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "n_koaxsteckverbinder_n_stecker",
+    "inline_label": "Ein N-Stecker vor seiner Montage",
+    "raw_marker": "[photo:72:n_koaxsteckverbinder_n_stecker:Ein N-Stecker vor seiner Montage]",
+    "relation_type": "embeds_photo",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "72",
     "target_object_type": "photo"
   },
   {

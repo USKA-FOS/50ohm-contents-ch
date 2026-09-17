@@ -1,6 +1,17 @@
 [
   {
     "inline_alias": "e_Kugelstrahler",
+    "inline_label": null,
+    "raw_marker": "[ref:e_Kugelstrahler]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_Kugelstrahler",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "e_Kugelstrahler",
     "inline_label": "Isotroper Strahler in der Mitte einer Kugel, der an allen Stellen der Kugeloberfläche die gleiche Strahlungsleistung erzeugt",
     "raw_marker": "[picture:751:e_Kugelstrahler:Isotroper Strahler in der Mitte einer Kugel, der an allen Stellen der Kugeloberfläche die gleiche Strahlungsleistung erzeugt]",
     "relation_type": "embeds_drawing",
@@ -31,16 +42,5 @@
     "target_id_system": "question_code",
     "target_id_value": "EG221",
     "target_object_type": "question"
-  },
-  {
-    "inline_alias": "e_Kugelstrahler",
-    "inline_label": null,
-    "raw_marker": "[ref:e_Kugelstrahler]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 1,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "e_Kugelstrahler",
-    "target_object_type": null
   }
 ]

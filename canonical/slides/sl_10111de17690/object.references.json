@@ -1,8 +1,8 @@
 [
   {
-    "inline_alias": "8qam",
+    "inline_alias": "a_8qam",
     "inline_label": "Signalverlauf eines 8QAM-Signals, je Symbol mit Amplitude ($\\num{0,5}$ bzw. $\\num{1}$), Phasenlage und 3-stelliger Bitfolge",
-    "raw_marker": "[picture:702:8qam:Signalverlauf eines 8QAM-Signals, je Symbol mit Amplitude ($\\num{0,5}$ bzw. $\\num{1}$), Phasenlage und 3-stelliger Bitfolge]",
+    "raw_marker": "[picture:702:a_8qam:Signalverlauf eines 8QAM-Signals, je Symbol mit Amplitude ($\\num{0,5}$ bzw. $\\num{1}$), Phasenlage und 3-stelliger Bitfolge]",
     "relation_type": "embeds_drawing",
     "sort_order": 1,
     "source_slot_key": "body_markdown",
@@ -11,14 +11,69 @@
     "target_object_type": "drawing"
   },
   {
+    "inline_alias": "a_16qam",
+    "inline_label": "I-Q-Diagramm für ein 16-QAM-Mapping",
+    "raw_marker": "[picture:1061:a_16qam:I-Q-Diagramm für ein 16-QAM-Mapping]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1061",
+    "target_object_type": "drawing"
+  },
+  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:AE403]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 3,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AE403",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_iq_modulator",
+    "inline_label": "Blockschaltbild eines I/Q-Modulators",
+    "raw_marker": "[picture:196:a_iq_modulator:Blockschaltbild eines I/Q-Modulators]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "196",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[include:applet_iq_169]",
+    "relation_type": "includes_object",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "include_key",
+    "target_id_value": "applet_iq_169",
+    "target_object_type": "html_include"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF632]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF632",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AE404]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AE404",
     "target_object_type": "question"
   }
 ]

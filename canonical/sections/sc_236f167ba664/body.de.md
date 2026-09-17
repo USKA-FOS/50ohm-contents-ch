@@ -19,7 +19,11 @@ Bei einer 3-adrigen Leitung mit Schutzleiter z.B. NYM-J $3 \times \qty{1,5}{\mil
 * Außenleiter (L) = braun  
 
 <indepth>
-Der Verband der Elektrotechnik Elektronik und Informationstechnik e. V. (VDE) ist u.a. Herausgeber von Normen in der Elektrotechnik. In der Norm DIN VDE 0293-308 sind die Aderkennzeichnungen festgelegt. 
+Die 3-adrige Aderkennzeichnung für Niederspannungsinstallationen folgt in der Schweiz der europäischen Norm SN HD 308 S2, die durch Electrosuisse (früher SEV/ASE) geregelt wird. Standardmässig ist bei einem 3-adrigen Kabel mit Schutzleiter die Belegung wie folgt: 
+  
+*  Braun (Phase / Aussenleiter L), 
+* Blau (Neutralleiter N)
+* Grün-Gelb (Schutzleiter PE).
 </indepth>
 
 <margin>

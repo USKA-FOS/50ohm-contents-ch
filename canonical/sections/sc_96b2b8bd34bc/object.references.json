@@ -2,34 +2,12 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AF634]",
-    "relation_type": "references_question",
-    "sort_order": 5,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AF634",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AF636]",
-    "relation_type": "references_question",
-    "sort_order": 7,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AF636",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[include:applet_iq]",
+    "raw_marker": "[include:applet_iq_zeiger]",
     "relation_type": "includes_object",
     "sort_order": 1,
     "source_slot_key": "body_markdown",
     "target_id_system": "include_key",
-    "target_id_value": "applet_iq",
+    "target_id_value": "applet_iq_zeiger",
     "target_object_type": "html_include"
   },
   {
@@ -37,43 +15,54 @@
     "inline_label": null,
     "raw_marker": "[question:AF633]",
     "relation_type": "references_question",
-    "sort_order": 4,
+    "sort_order": 2,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AF633",
     "target_object_type": "question"
   },
   {
-    "inline_alias": null,
+    "inline_alias": "a_iq_ebene",
     "inline_label": null,
-    "raw_marker": "[question:AF632]",
-    "relation_type": "references_question",
+    "raw_marker": "[ref:a_iq_ebene]",
+    "relation_type": "references_embedded_alias",
     "sort_order": 3,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AF632",
-    "target_object_type": "question"
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_iq_ebene",
+    "target_object_type": null
   },
   {
-    "inline_alias": null,
+    "inline_alias": "a_konstellationsdiagramm",
     "inline_label": null,
-    "raw_marker": "[question:AE404]",
-    "relation_type": "references_question",
-    "sort_order": 2,
+    "raw_marker": "[ref:a_konstellationsdiagramm]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 4,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AE404",
-    "target_object_type": "question"
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_konstellationsdiagramm",
+    "target_object_type": null
   },
   {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AF635]",
-    "relation_type": "references_question",
+    "inline_alias": "a_iq_ebene",
+    "inline_label": "I/Q-Ebene mit einem Signalpunkt",
+    "raw_marker": "[picture:1060:a_iq_ebene:I/Q-Ebene mit einem Signalpunkt]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1060",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_konstellationsdiagramm",
+    "inline_label": "Konstellationsdiagramm mit 4 Konstellationspunkten",
+    "raw_marker": "[picture:1059:a_konstellationsdiagramm:Konstellationsdiagramm mit 4 Konstellationspunkten]",
+    "relation_type": "embeds_drawing",
     "sort_order": 6,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AF635",
-    "target_object_type": "question"
+    "target_id_system": "drawing_id",
+    "target_id_value": "1059",
+    "target_object_type": "drawing"
   }
 ]

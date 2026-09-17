@@ -2,6 +2,17 @@
   {
     "inline_alias": null,
     "inline_label": null,
+    "raw_marker": "[question:AG212]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AG212",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
     "raw_marker": "[question:AG222]",
     "relation_type": "references_question",
     "sort_order": 2,
@@ -11,25 +22,25 @@
     "target_object_type": "question"
   },
   {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AG126]",
-    "relation_type": "references_question",
+    "inline_alias": "a_kreuzyagi",
+    "inline_label": "Kreuzyagi mit zirkularer Polarisation",
+    "raw_marker": "[picture:1103:a_kreuzyagi:Kreuzyagi mit zirkularer Polarisation]",
+    "relation_type": "embeds_drawing",
     "sort_order": 3,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AG126",
-    "target_object_type": "question"
+    "target_id_system": "drawing_id",
+    "target_id_value": "1103",
+    "target_object_type": "drawing"
   },
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AG212]",
+    "raw_marker": "[question:AG126]",
     "relation_type": "references_question",
-    "sort_order": 1,
+    "sort_order": 4,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AG212",
+    "target_id_value": "AG126",
     "target_object_type": "question"
   }
 ]

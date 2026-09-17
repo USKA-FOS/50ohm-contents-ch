@@ -1,8 +1,8 @@
 [
   {
-    "inline_alias": "psk",
-    "inline_label": "Phasenumtastung (Phase-shift Keying)",
-    "raw_marker": "[picture:705:psk:Phasenumtastung (Phase-shift Keying)]",
+    "inline_alias": "a_psk",
+    "inline_label": "Phasenumtastung (Phase-Shift Keying)",
+    "raw_marker": "[picture:705:a_psk:Phasenumtastung (Phase-Shift Keying)]",
     "relation_type": "embeds_drawing",
     "sort_order": 1,
     "source_slot_key": "body_markdown",
@@ -11,14 +11,69 @@
     "target_object_type": "drawing"
   },
   {
+    "inline_alias": "a_psk_mapping",
+    "inline_label": "BPSK im Konstellationsdiagramm",
+    "raw_marker": "[picture:1101:a_psk_mapping:BPSK im Konstellationsdiagramm]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1101",
+    "target_object_type": "drawing"
+  },
+  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:AE401]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 3,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AE401",
     "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AE402]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AE402",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_qpsk",
+    "inline_label": "I/Q-Diagramm für ein QPSK-Mapping",
+    "raw_marker": "[picture:1059:a_qpsk:I/Q-Diagramm für ein QPSK-Mapping]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1059",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_qpsk_gray",
+    "inline_label": "I/Q-Diagramm für ein QPSK-Mapping",
+    "raw_marker": "[picture:1059:a_qpsk_gray:I/Q-Diagramm für ein QPSK-Mapping]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1059",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[include:applet_qpsk]",
+    "relation_type": "includes_object",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "include_key",
+    "target_id_value": "applet_qpsk",
+    "target_object_type": "html_include"
   }
 ]

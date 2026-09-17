@@ -2,12 +2,12 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AC306]",
+    "raw_marker": "[question:AC301]",
     "relation_type": "references_question",
-    "sort_order": 7,
+    "sort_order": 1,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AC306",
+    "target_id_value": "AC301",
     "target_object_type": "question"
   },
   {
@@ -22,6 +22,28 @@
     "target_object_type": "question"
   },
   {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AC307]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AC307",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_endgespeiste_antenne",
+    "inline_label": "Endgespeiste Antenne mit Impedanzanpassung durch einen Übertrager",
+    "raw_marker": "[picture:260:a_endgespeiste_antenne:Endgespeiste Antenne mit Impedanzanpassung durch einen Übertrager]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "260",
+    "target_object_type": "drawing"
+  },
+  {
     "inline_alias": "a_unun",
     "inline_label": null,
     "raw_marker": "[ref:a_unun]",
@@ -31,28 +53,6 @@
     "target_id_system": "inline_alias",
     "target_id_value": "a_unun",
     "target_object_type": null
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AC303]",
-    "relation_type": "references_question",
-    "sort_order": 9,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AC303",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AC305]",
-    "relation_type": "references_question",
-    "sort_order": 8,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AC305",
-    "target_object_type": "question"
   },
   {
     "inline_alias": "a_unun",
@@ -68,23 +68,34 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AC301]",
+    "raw_marker": "[question:AC306]",
     "relation_type": "references_question",
-    "sort_order": 1,
+    "sort_order": 7,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AC301",
+    "target_id_value": "AC306",
     "target_object_type": "question"
   },
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AC307]",
+    "raw_marker": "[question:AC305]",
     "relation_type": "references_question",
-    "sort_order": 3,
+    "sort_order": 8,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AC307",
+    "target_id_value": "AC305",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AC303]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AC303",
     "target_object_type": "question"
   },
   {
@@ -97,16 +108,5 @@
     "target_id_system": "question_code",
     "target_id_value": "AC304",
     "target_object_type": "question"
-  },
-  {
-    "inline_alias": "a_endgespeiste_antenne",
-    "inline_label": "Endgespeiste Antenne mit Impedanzanpassung druch einen Übertrager",
-    "raw_marker": "[picture:260:a_endgespeiste_antenne:Endgespeiste Antenne mit Impedanzanpassung druch einen Übertrager]",
-    "relation_type": "embeds_drawing",
-    "sort_order": 4,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "drawing_id",
-    "target_id_value": "260",
-    "target_object_type": "drawing"
   }
 ]

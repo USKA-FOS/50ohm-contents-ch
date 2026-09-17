@@ -1,4 +1,4 @@
-An vielen Stellen der Hochfrequenztechnik spielen Leistungsverhältnisse eine wichtige Rolle, etwa beim Gewinn einer Antenne oder eines Verstärkers, oder bei der Dämpfung eines Kabels. In der Klasse N haben wir diese Zusammenhänge noch in Form einfacher Faktoren kennengelernt, zum Beispiel: „Die Antenne hat einen Gewinn von Faktor $2$“.
+An vielen Stellen der Hochfrequenztechnik spielen Leistungsverhältnisse eine wichtige Rolle, etwa beim Gewinn einer Antenne oder eines Verstärkers, oder bei der Dämpfung eines Kabels. Bisher haben wir diese Zusammenhänge noch in Form einfacher Faktoren kennengelernt, zum Beispiel: „Die Antenne hat einen Gewinn von Faktor $2$“.
 
 Diese Verhältnisse können sehr große oder sehr kleine Zahlenwerte annehmen. So besitzt beispielsweise ein Kurzwellenempfänger einen Gesamtverstärkungsfaktor von $\num{1000000000000}$, also eine Eins mit zwölf Nullen. Mit solchen Zahlen wird das Rechnen schnell unübersichtlich, und man beginnt unweigerlich, die Nullen zu zählen.
 
@@ -50,12 +50,38 @@ Wobei $P_1$ der Eingangsleistung entspricht und $P_2$ der Ausgangsleistung. Nehm
 
 $g = 10\cdot \log_{10}\left(\frac{\qty{100}{\watt}}{\qty{50}{\watt}}\right)\unit{\dB} = 10\cdot \log_{10}\left(2\right)\unit{\dB} = 10\cdot \qty{0.301}{\dB} \approx \qty{3}{\dB} $
 
-Für die Klasse E ist es zunächst ausreichend, den Dezibelwert für den Leistungsfaktor $2$ zu kennen. Die Formelsammlung enthält dazu eine Tabelle, die auch in Tabelle [ref:e_dezibel_leistungsfaktoren] dargestellt ist. Daraus lässt sich ablesen, dass ein Leistungsfaktor von $2$ einem Dezibelwert von $\qty{3}{\dB}$ entspricht. Das ausführliche Rechnen mit Dezibelwerten wird erst in der Klasse A behandelt.
+Für HB3 ist es zunächst ausreichend, den Dezibelwert für den Leistungsfaktor $2$ zu kennen. Die Formelsammlung enthält dazu eine Tabelle, die auch in Tabelle [ref:e_dezibel_leistungsfaktoren] dargestellt ist. Daraus lässt sich ablesen, dass ein Leistungsfaktor von $2$ einem Dezibelwert von $\qty{3}{\dB}$ entspricht. Das ausführliche Rechnen mit Dezibelwerten wird erst in der Klasse A behandelt.
 
 <tip>
 Ganz ohne Taschenrechner lassen sich Dezibelwerte abschätzen, die auf "$0$" enden: Einfach die letzte Null zuhalten, die Ziffer gibt dann die Anzahl der Nullen des Verhältnisfaktors an. Beispiel: $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{Nullen} \rightarrow \text{Verhältnisfaktor}~1000$!
 </tip>
 
+<indepth>
+Einige weitere Dezibelwerte lassen sich mit nachfolgender Tabelle auch ganz ohne Taschenrechner abschätzen:
+  
+| c:dB | l:Faktor | c:dB | l:Faktor |
+| -3 | 0.5 | +3 | 2 |
+| -6 | 0.25 | +6 | 4 |
+| -10 | 1/10 | +10 | 10 |
+| -20 | 1/100 | +20 | 100 |
+| -30 | 1/1000 | +30 | 1000 |
+[table:n_db_leistungsangaben:Oft verwendete (Leistungs-) Dezibel Angaben]
+</indepth>
+
+<tip>
+Durch Kombinieren obiger Werte lassen sich noch weitere Werte ohne Taschenrechner abschätzen.
+  
+| c:Faktor | c:dB | l:Herleitung |
+| ×8 | 9 | 3+3+3 |
+| ×20 | 13 | 10+3 |
+| ×1/8 | -9 | -3-3-3 |
+| ×50 | 17 | 20-3 |
+| ×3 | 5 | näherungsweise |
+| ×1.25 | 1 | 10-9 |
+| ×1.5 | 2 | näherungsweise |
+[table:n_db_beispiele:dB Beispiele]
+</tip>
+
 [question:EA107]
 
-Neben der Einheit $\unit{dB}$ begegnet man in der Praxis häufig auch Angaben wie $\unit{\dBi}$, $\unit{\dBm}$, $\unit{\dBW}$ oder $\unit{\dBu}$. Diese Zusätze geben an, auf welche Bezugsgröße sich der jeweilige Dezibelwert bezieht. In der Klasse E werden uns insbesondere bei Antennen die Angaben $\unit{\dBi}$ und $\unit{\dBd}$ im Antennenkapitel begegnen. Die anderen Größen wie $\unit{\dBm}$ und $\unit{\dBW}$ werden erst für die Klasse A benötigt.
+Neben der Einheit $\unit{dB}$ begegnet man in der Praxis häufig auch Angaben wie $\unit{\dBi}$, $\unit{\dBm}$, $\unit{\dBW}$ oder $\unit{\dBu}$. Diese Zusätze geben an, auf welche Bezugsgröße sich der jeweilige Dezibelwert bezieht. Insbesondere bei Antennen werden uns die Angaben $\unit{\dBi}$ und $\unit{\dBd}$ im Kapitel [sec:antennengewinn] begegnen. Die anderen Größen wie $\unit{\dBm}$ und $\unit{\dBW}$ werden erst im Kapitel [sec:dezibel_2]  benötigt.

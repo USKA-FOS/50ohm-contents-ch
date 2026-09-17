@@ -2,7 +2,19 @@ Auch im Amateurfunk werden viele digitale Übertragungsverfahren eingesetzt. Ein
 
 Morsetelegrafie ist das älteste Übertragungsverfahren, das im Funk benutzt wird. Die ersten Funksender kannten kein anderes Verfahren. Die einzige Möglichkeit der Informationsübermittlung war, mit einer Taste den Sender immer wieder kurz ein- und auszuschalten. Beim Empfänger ist das dann als Ton zu hören, der in dem gegebenen Rhythmus an- und wieder ausgeht.
 
-Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertragen, wird der Morsecode verwendet. Für jedes Zeichen ist eine bestimmte Abfolge an kurzen und langen Tönen festgelegt. In den Tabellen [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] und [ref:n_morsetelegrafie_morsecode_spezial] findet sich ein Teil des Morsecodes. Ein Punkt ([morse:e]) steht für einen kurzen Ton und ein Strich ([morse:t]) für einen langen Ton. Die Decodierung, also die Übersetzung der Töne in Zeichen beim Empfänger, erfolgt mit den Ohren und dem Gehirn - oder heutzutage auch mit dem Computer.
+Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertragen, wird der Morsecode verwendet. Für jedes Zeichen ist eine bestimmte Abfolge an kurzen und langen Tönen festgelegt. In den Tabellen [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] und [ref:n_morsetelegrafie_morsecode_spezial] findet sich ein Teil des Morsecodes. Ein Punkt ([morse:e])  (gesprochen: "dit") steht für einen kurzen Ton und ein Strich ([morse:t]) (gesprochen: "dah") für einen langen Ton. Die Decodierung, also die Übersetzung der Töne in Zeichen beim Empfänger, erfolgt mit den Ohren und dem Gehirn - oder heutzutage auch mit dem Computer.
+
+**Morsen ist eine zeitlich definierte Tastung eines Trägers. Information entsteht nicht nur durch Punkt und Strich, sondern auch durch die exakt definierten Pausen.**
+
+Die Zeitverhältnisse von Punkt, Strich und Pausen sind wie folgt definiert:
+
+* Punkt = 1 Zeiteinheit
+* Strich = 3 Zeiteinheiten
+* Pause zwischen Elementen eines Zeichens = 1 Zeiteinheit
+* Pause zwischen zwei Zeichen = 3 Zeiteinheiten
+* Pause zwischen Wörtern = 7 Zeiteinheiten
+
+Die „Geschwindigkeit“ wird in Worten pro Minute [WPM] (Words Per Minute) angegeben, wobei die international übliche Referenz das Wort PARIS ist.
 
 <webmargin>
 | c: | l: | c: | l: | c: | l: |
@@ -32,22 +44,30 @@ Um verschiedene Zeichen, also Buchstaben, Ziffern und Satzzeichen, zu übertrage
 [table:n_morsetelegrafie_morsecode_ziffern_satzzeichen:Morsecode (Ziffern und Satzzeichen)]
 </webmargin>
 
+% TODO ARK: Die Prosigns bk, sk und irrung funktionieren noch nicht ohne den störenden Zwischenraum. Das Programm morse.py im Generator muss ersetzt
+% werden durch das im issue xxx angegebene Programm morse.py.
+
 <webmargin>
 | l: | l: |
 |  |  |
 | Unterbrechung (BK) | [morse:bk] |
-| Trennung innerhalb eines Durchgangs (BT, =) | [morse:=] |
+| Trennung innerhalb eines Durchgangs (BT,=) | [morse:=] |
 | Ende des Durchgangs (AR)  | [morse:ar] |
 | Ende der Sendung (SK) | [morse:sk] |
-| Fehler, Irrung | [morse:h] [morse:h]|
+| Fehler, Irrung | [morse:correction] |
 [table:n_morsetelegrafie_morsecode_spezial:Morsecode (besondere Zeichen, Auswahl)]
 </webmargin>
 
-Obwohl Übertragungsverfahren für Sprache, Bilder und sogar Video erfunden wurden, wird Morsetelegrafie bis heute im Amateurfunk praktiziert. Lange Zeit war es weltweit vorgeschrieben, dass jeder Funkamateur eine Morseprüfung ablegen musste, bevor er auf der Kurzwelle funken durfte. Erst in den 1990er Jahren wurde diese Regel aufgehoben. Seitdem darf jedes Land selber entscheiden, ob es eine Morseprüfung verlangt. In Deutschland ist sie seit 2003 freiwillig.
+Lange Zeit war es weltweit vorgeschrieben, dass jeder Funkamateur eine Morseprüfung ablegen musste, bevor er auf der Kurzwelle funken durfte. Seit den 1990er Jahren darf jedes Land selber entscheiden, ob es eine Morseprüfung verlangt. In den meisten Ländern, so auch in der Schweiz ist keine Morseprüfung erforderlich. Obwohl Übertragungsverfahren für Sprache, Bilder und sogar Video erfunden wurden, wird Morsetelegrafie bis heute im Amateurfunk praktiziert. Es hat seinen speziellen Reiz, mit einfachsten Mitteln weltweit zu kommunizieren.
 
 [question:VA304]
 
 Eine Besonderheit gibt es bei Betriebsabwicklung in Morsetelegrafie zu beachten: Die Wahl einer geeigneten Geschwindigkeit. Morsezeichen können unterschiedlich schnell gegeben werden. Allerdings braucht es viel Übung, um auch schnell gegebene Morsezeichen aufnehmen zu können. Daher ist es wichtig, darauf zu achten, die Gegenstelle mit der Geschwindigkeit nicht zu überfordern. Es ist eine gute Faustregel, nicht schneller zu geben als die andere Station und auch nicht schneller, als man selber aufnehmen kann. So ist sichergestellt, dass alle mitkommen.
+
+<indepth>
+Es ist kein Zufall, dass häufigen Buchstaben (n, t, i, .. ) kurze Morsezeichen und seltenen Buchstaben (x, y, ...) lange Morsezeichen zugeordnet sind.
+Das spart Zeit bei der Übertragung einer Nachricht. Man nennt das auch Datenkompression an der Quelle. 
+</indepth>
 
 [question:BE117]
 [question:BE118]

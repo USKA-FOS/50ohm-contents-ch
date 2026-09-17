@@ -1,5 +1,9 @@
 %YPA: Wo ist das definiert? in RR 1.56? 
 %YPA: gehört "rechtsgeschäftlich" hier hin?
+%YPA: in D verboten ist "gewerbliche Nutzung" in HB ist "rechtsgeschäftliche mitteilung". Stimmt die Aussage im ersten Absatz für die Schweiz? Ich würde die ganze Seite nur auf das "Rechtsgeschäftlich" reduzieren. Mit dem ersten Absatz machen wir ein Fass auf, dass nirgends gefragt wird und wohl nicht abschliessend geklärt werden kann.
+Die zwei Beispiele zum Rechtsgeschäftlich sind von mir.
+%YPA: der Seitentitel muss geändert werden. Neu tbd. Deshalb noch kein Issue eröffnet.
+
 
 Der Amateurfunk darf nicht wirtschaftlich genutzt werden. Es ist also beispielsweise unzulässig, gegen Geld die Nutzung des Amateurfunks anzubieten oder den Amateurfunk für Absprachen in einem Unternehmen zu benutzen, z. B. als Taxi-Funk.
 
@@ -9,7 +13,7 @@ Der Austausch von Preis-Informationen ist erlaubt ("Ich nutze ein Yaesu FT-991A.
 
 Reine Vereinsinformationen ohne finanzielle Anreize sind normaler Funkbetrieb ("Unser Verein führt ein Fest durch. Wir freuen uns über Besucher und Helfer."). Das Versprechen von Gegenleistungen (Gutscheine, Geld, Gratis-Leistungen) macht den Aufruf jedoch zu einem unzulässigen rechtsgeschäftlichen Angebot ("Unser Verein sucht noch Helfer für das Fest. Wer mithilft, bekommt Gratisverpflegung.").
 [question:VN016]
-%YPA: VN016: Ist c nicht zu wenig falsch.
+
 
 [question:VC114]
 [question:VC115]

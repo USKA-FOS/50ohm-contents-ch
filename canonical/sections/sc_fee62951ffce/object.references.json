@@ -1,13 +1,68 @@
 [
   {
+    "inline_alias": "a_konverter_2",
+    "inline_label": null,
+    "raw_marker": "[ref:a_konverter_2]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_konverter_2",
+    "target_object_type": null
+  },
+  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:AF301]",
     "relation_type": "references_question",
-    "sort_order": 3,
+    "sort_order": 2,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AF301",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_konverter_2",
+    "inline_label": "Up-Konverter für QO-100",
+    "raw_marker": "[picture:651:a_konverter_2:Up-Konverter für QO-100]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "651",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_konverter",
+    "inline_label": null,
+    "raw_marker": "[ref:a_konverter]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_konverter",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_konverter",
+    "inline_label": "Konverter mit Umschaltung der Oszillatorfrequenz",
+    "raw_marker": "[picture:85:a_konverter:Konverter mit Umschaltung der Oszillatorfrequenz]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "85",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF501]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF501",
     "target_object_type": "question"
   },
   {
@@ -15,21 +70,10 @@
     "inline_label": null,
     "raw_marker": "[question:AF502]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 7,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AF502",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AF501]",
-    "relation_type": "references_question",
-    "sort_order": 1,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AF501",
     "target_object_type": "question"
   }
 ]

@@ -2,12 +2,12 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AF416]",
+    "raw_marker": "[question:AJ212]",
     "relation_type": "references_question",
-    "sort_order": 4,
+    "sort_order": 1,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AF416",
+    "target_id_value": "AJ212",
     "target_object_type": "question"
   },
   {
@@ -22,25 +22,47 @@
     "target_object_type": "question"
   },
   {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AJ212]",
-    "relation_type": "references_question",
-    "sort_order": 1,
+    "inline_alias": "a_parasitics",
+    "inline_label": "Ferrit-Perlen an einem IC",
+    "raw_marker": "[photo:351:a_parasitics:Ferrit-Perlen an einem IC]",
+    "relation_type": "embeds_photo",
+    "sort_order": 3,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AJ212",
-    "target_object_type": "question"
+    "target_id_system": "photo_id",
+    "target_id_value": "351",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "a_parasitics",
+    "inline_label": null,
+    "raw_marker": "[ref:a_parasitics]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_parasitics",
+    "target_object_type": null
   },
   {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:AJ217]",
     "relation_type": "references_question",
-    "sort_order": 3,
+    "sort_order": 5,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AJ217",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF416]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF416",
     "target_object_type": "question"
   }
 ]

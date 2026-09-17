@@ -5,23 +5,34 @@
   "identifiers": [
     {
       "id_system": "file_stem",
-      "id_value": "datenuebertragungsdrate",
+      "id_value": "datenuebertragungsrate",
       "preferred": true
     }
   ],
   "languages": [
     "de",
-    "it",
-    "fr"
+    "fr",
+    "it"
   ],
-  "metadata": {},
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/slides/datenuebertragungsrate.md": "c8deb4e26e01f583a9685a092c1c82a7d03fea05bce49be3e82785fc663d5cae"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
+    }
+  },
   "object_type": "slide_article",
   "reconstruction": {
     "strategy": "replace_source_file",
     "targets": [
       {
         "kind": "localized_text_file",
-        "path": "contents/slides/datenuebertragungsdrate.md"
+        "path": "contents/slides/datenuebertragungsrate.md"
       }
     ]
   },
@@ -41,8 +52,8 @@
   ],
   "source": {
     "format": "md",
-    "key": "datenuebertragungsdrate",
-    "path": "contents/slides/datenuebertragungsdrate.md"
+    "key": "datenuebertragungsrate",
+    "path": "contents/slides/datenuebertragungsrate.md"
   },
   "text_slots": [
     {

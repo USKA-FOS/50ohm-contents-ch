@@ -22,17 +22,6 @@
     "target_object_type": "question"
   },
   {
-    "inline_alias": "n_funkwellen_baender",
-    "inline_label": null,
-    "raw_marker": "[ref:n_funkwellen_baender]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 6,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "n_funkwellen_baender",
-    "target_object_type": null
-  },
-  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[include:applet_lambda_und_f]",
@@ -44,15 +33,26 @@
     "target_object_type": "html_include"
   },
   {
-    "inline_alias": null,
+    "inline_alias": "n_funkwellen_baender",
     "inline_label": null,
-    "raw_marker": "[question:NB303]",
-    "relation_type": "references_question",
-    "sort_order": 9,
+    "raw_marker": "[ref:n_funkwellen_baender]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 6,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "NB303",
-    "target_object_type": "question"
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_funkwellen_baender",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_funkwellen_baender",
+    "inline_label": "Die drei Amateurfunkbänder, die für alle Klassen freigegeben sind",
+    "raw_marker": "[table:n_funkwellen_baender:Die drei Amateurfunkbänder, die für alle Klassen freigegeben sind]",
+    "relation_type": "embeds_table",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "n_funkwellen_baender",
+    "target_object_type": "table_object"
   },
   {
     "inline_alias": null,
@@ -66,14 +66,14 @@
     "target_object_type": "question"
   },
   {
-    "inline_alias": "n_funkwellen_baender",
-    "inline_label": "Die drei Amateurfunkbänder, die für alle Klassen freigegeben sind",
-    "raw_marker": "[table:n_funkwellen_baender:Die drei Amateurfunkbänder, die für alle Klassen freigegeben sind]",
-    "relation_type": "embeds_table",
-    "sort_order": 7,
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NB303]",
+    "relation_type": "references_question",
+    "sort_order": 9,
     "source_slot_key": "body_markdown",
-    "target_id_system": "table_id",
-    "target_id_value": "n_funkwellen_baender",
-    "target_object_type": "table_object"
+    "target_id_system": "question_code",
+    "target_id_value": "NB303",
+    "target_object_type": "question"
   }
 ]

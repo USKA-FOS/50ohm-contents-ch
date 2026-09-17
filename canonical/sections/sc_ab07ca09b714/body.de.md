@@ -8,3 +8,5 @@ Funkwellen mit unterschiedlichen Frequenzen verhalten sich unterschiedlich, was 
 [picture:731:n_ionosphäre:Ionosphäre, Troposphäre und Sporadic-E]
 </webmargin>
 
+<!-- Review abgeschlossen, passt so für mich. Vy 73 de Marc -->
+

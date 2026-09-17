@@ -1,12 +1,6 @@
-Damit es nicht zur Schlagzeile *"Funkamateur erleidet gefährlichen Stromschlag beim Senderbau"* kommt, müssen wichtige Regeln beachtet werden. Beim Aufbau einer Funkstation muss man sich an die anerkannten Regeln der Technik halten. Wie wir schon beim Thema Blitzschutz und Potentialausgleich gelernt haben, gibt der Verband der Elektrotechnik Elektronik und Informationstechnik e. V., kurz VDE, Normen heraus, die den jeweils aktuellen Stand der Technik dokumentieren und als anerkannt gelten. Diese Regeln dienen dem Schutz von Menschen, Tieren und Sachen.
+Damit es nicht zur Schlagzeile *"Funkamateur erleidet gefährlichen Stromschlag beim Senderbau"* kommt, müssen wichtige Regeln beachtet werden. Beim Aufbau einer Funkstation muss man sich an die anerkannten Regeln der Technik halten. Wie wir noch im Kapitel 21-Sicherheit (Blitzschutz u.ä.) lernen werden, gibt die electrosuisse, Normen heraus, die den jeweils aktuellen Stand der Technik dokumentieren und als anerkannt gelten. Diese Regeln dienen dem Schutz von Menschen, Tieren und Sachen.
 
-<indepth>
-Der VDE, also der Verband der Elektrotechnik Elektronik und Informationstechnik e. V., ist eine weltweit tätige Organisation, in der sich Personen und Unternehmen zusammengeschlossen haben, die in den Bereichen Elektrotechnik, Elektronik oder Informationstechnik tätig sind. Die Organisation verfolgt das Ziel, die Unfallverhütung zu verbessern und das Verantwortungsbewusstsein seiner Mitglieder zu fördern. Dazu werden die VDE-Normen herauszugeben. Es werden aber beispielsweise auch kostenpflichtige Zertifizierungen durchgeführt.
-</indepth>
-
-[question:VE601]
-
----
+Hier wird erst auf die allgemeinen Gefahren eingegangen.
 
 Die Hauptgefahr besteht durch Berührung einer elektrischen Spannung. In der Elektrotechnik spricht man von einer gefährlichen Spannung, wenn diese bei Wechselspannung über $\qty{50}{\volt}$ und bei Gleichspannung über $\qty{120}{\volt}$ liegt. Diese Grenzen wurden so gelegt, dass es zu keiner lebensbedrohlichen Beeinträchtigung des menschlichen Körpers kommen kann. Wechselspannung wird auch als "AC" (englisch "alternating current") und Gleichspannung als "DC" (englisch "direct current") abgekürzt.
 
@@ -26,9 +20,11 @@ Bei einer Einwirkung des Stroms auf den Körper kann das Gewebe geschädigt werd
 
 Stromunfälle können verschiedene Auswirkungen auf den Körper haben:
 * *Herzrhythmusstörungen*, Herzkammerflimmern oder Herzstillstand, insbesondere bei einem Stromweg im Brustbereich
-* *Verbrennungen*, meist an den Ein- und Austrittstellen des elektrischen Stroms
+* *Verbrennungen*, meist an den Ein- und Austrittstellen des elektrischen Stroms (sogenannte Strommarken)
+* *Gewebezerstörung*, durch Wärmebildung, der elektrische Widerstand des Gewebes erzeugt starke Hitze, die Zellen von innen heraus verbrennt und zerstört
 * *Verkrampfen der Muskulatur*
 * *Sekundärunfälle* wie einen Sturz, verursacht durch den hervorgerufenden Schreck oder eine Muskelverkrampfung
+
 
 <attention>
 Die *5 Sicherheitsregeln der Elektrotechnik* sollten für alle Arbeiten an elektrischen Anlagen beachten werden. Diese sollten auch bei Arbeiten an Funkgeräten oder anderen elektrischen Geräten beachtet werden:
@@ -40,22 +36,15 @@ Die *5 Sicherheitsregeln der Elektrotechnik* sollten für alle Arbeiten an elekt
 </attention>
 
 <danger>
-In vielen Geräten sind Kondensatoren verbaut, die hohe Spannungen speichern können. Es können daher auch in abgeschalteten Geräten noch gefährliche Spannungen anliegen! Geräte sollten daher nur geöffnet werden, wenn man genau weiß, was man tut. Im Zweifel sollte man sich von einem erfahreneren Funkamateur oder einer Elektrofachkraft helfen lassen.
+In vielen Geräten sind Kondensatoren verbaut, die hohe Spannungen speichern können. Es können daher auch in abgeschalteten Geräten noch gefährliche Spannungen anliegen! *Geräte sollten daher nur geöffnet werden, wenn man genau weiß, was man tut.* Im Zweifel sollte man sich von einem erfahreneren Funkamateur oder einer Elektrofachkraft helfen lassen.
 </danger>
 
----
 
-%[class:N]
-Wie wir schon beim Einbau von Amateurfunkanlagen in Kraftfahrzeuge gelernt haben, kann es im Zusammenhang mit elektrischem Strom auch dazu kommen, dass ein Stromfluß durch die eigentlich nicht-leitende Luft auftritt und es zu einem Lichtbogen mit hohen Temperaturen und sehr hellem Leuchten kommt. Dies wird auch als Störlichtbogen bezeichnet.
-%[/class]
-
-%[class:NEA]
 <danger>
-Ein *Lichtbogen* ist eine elektrische Entladung, also ein Stromfluß, durch die eigentlich nicht-leitende Luft, die mit hohen Temperaturen und einem sehr hellen Leuchten einhergeht. In Folge kann es zu Bränden und zur Schädigung der Augen kommen.
+Bei einem Kurzschluss kann ein *Lichtbogen* entstehen, also eine elektrische Entladung, bei der Strom durch die eigentlich nicht leitende Luft fliesst. Dabei entstehen sehr hohe Temperaturen und ein sehr helles Leuchten, wodurch *Brandgefahr* besteht und die *Augen geschädigt* werden können.
 </danger>
 
-Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen kommen, der Brände verursachen kann.
-%[/class]
+
 
 [question:NK303]
 
@@ -63,10 +52,11 @@ Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen kommen, der Br�
 
 ---
 
-Erste-Hilfe-Maßnahmen sind in den ersten Minuten entscheidend für die Schwere der Unfallfolgen. Nach einem Stromunfall ist in jedem Fall ein Arzt aufzusuchen, da Herzrhythmusstörungen und Herzkammerflimmern auch noch Stunden nach dem Unfall auftreten können. 
+Erste-Hilfe-Maßnahmen sind in den ersten Minuten entscheidend für die Schwere der Unfallfolgen. Trotzdem auf keinen Fall den *Selbstschutz* vergessen. Immer zuerst die Stromquelle abstellen, bzw unterbrechen.
+Nach einem Stromunfall ist in *jedem* Fall *zeitnah* ein Arzt aufzusuchen, da Herzrhythmusstörungen und Herzkammerflimmern, sowie unsichtbare Gewebe- und Organzerstörung, nur durch Ärzte erkannt und behandelt werden können. 
 
 <indepth>
-Ein Arzt kann nach einem Stromunfall beispielsweise mit einem *Elektrokardiogramm (EKG)* überprüfen, ob das Herz unregelmäßig schlägt oder andere Störungen aufweist.
+Ein Arzt kann nach einem Stromunfall beispielsweise mit einem *Elektrokardiogramm (EKG)* überprüfen, ob das Herz unregelmäßig schlägt oder andere Störungen aufweist. Eine unsichtbare Gewebe- und Organzerstörung, entstanden durch die Wärmebildung des Stroms (die sogenannte *Joule-Erwärmung*), kann nur in einem Spital durch eine Kombination aus Labordiagnostik, kontinuierlicher Überwachung und bildgebenden Verfahren festgestellt werden. Ein *Spital ist einem Hausarzt vorzuziehen*, da dieses nebst dem EKG auch die Laboruntersuchungen machen und im Bedarfsfall Massnahmen einleiten kann.
 </indepth>
 
 [question:NK304]

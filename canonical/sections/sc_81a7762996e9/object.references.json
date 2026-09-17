@@ -2,9 +2,53 @@
   {
     "inline_alias": null,
     "inline_label": null,
+    "raw_marker": "[question:AF215]",
+    "relation_type": "references_question",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF215",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_xo",
+    "inline_label": null,
+    "raw_marker": "[ref:a_xo]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_xo",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "a_xo",
+    "inline_label": "XO Quarzoszillator mit $\\qty{433,75}{\\mega\\hertz}$",
+    "raw_marker": "[photo:333:a_xo:XO Quarzoszillator mit $\\qty{433,75}{\\mega\\hertz}$]",
+    "relation_type": "embeds_photo",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "333",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "a_ocxo",
+    "inline_label": "OCXO Quarzoszillator mit $\\qty{10}{\\mega\\hertz}$",
+    "raw_marker": "[photo:337:a_ocxo:OCXO Quarzoszillator mit $\\qty{10}{\\mega\\hertz}$]",
+    "relation_type": "embeds_photo",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "337",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
     "raw_marker": "[question:AD602]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 5,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AD602",
@@ -15,7 +59,7 @@
     "inline_label": null,
     "raw_marker": "[question:AD603]",
     "relation_type": "references_question",
-    "sort_order": 3,
+    "sort_order": 6,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AD603",
@@ -24,34 +68,23 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AD604]",
-    "relation_type": "references_question",
-    "sort_order": 5,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AD604",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AF215]",
-    "relation_type": "references_question",
-    "sort_order": 1,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AF215",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
     "raw_marker": "[question:AD605]",
     "relation_type": "references_question",
-    "sort_order": 4,
+    "sort_order": 7,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "AD605",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD604]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AD604",
     "target_object_type": "question"
   }
 ]

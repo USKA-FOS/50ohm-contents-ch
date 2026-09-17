@@ -12,7 +12,18 @@
   "languages": [
     "de"
   ],
-  "metadata": {},
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/sections/schwingkreis_1.md": "f0886f396639e3de05e7c5d75f44f17c50e9f075fc939ddc940d385cb9d45c8f"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
+    }
+  },
   "object_type": "section_article",
   "reconstruction": {
     "strategy": "replace_source_file",
@@ -27,6 +38,14 @@
     {
       "language": "de",
       "state": "imported_approved"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_translated"
+    },
+    {
+      "language": "it",
+      "state": "to_be_translated"
     }
   ],
   "source": {

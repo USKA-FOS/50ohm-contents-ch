@@ -1,46 +1,24 @@
 [
   {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:NE310]",
-    "relation_type": "references_question",
-    "sort_order": 13,
+    "inline_alias": "n_relaisfunkstellen_aufbau",
+    "inline_label": "Schematische Darstellung einer Relaisfunkstelle mit Nutzern",
+    "raw_marker": "[picture:648:n_relaisfunkstellen_aufbau:Schematische Darstellung einer Relaisfunkstelle mit Nutzern]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
     "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "NE310",
-    "target_object_type": "question"
+    "target_id_system": "drawing_id",
+    "target_id_value": "648",
+    "target_object_type": "drawing"
   },
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:BE403]",
+    "raw_marker": "[question:VD118]",
     "relation_type": "references_question",
-    "sort_order": 6,
+    "sort_order": 2,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "BE403",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:BE408]",
-    "relation_type": "references_question",
-    "sort_order": 16,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "BE408",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:BE401]",
-    "relation_type": "references_question",
-    "sort_order": 4,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "BE401",
+    "target_id_value": "VD118",
     "target_object_type": "question"
   },
   {
@@ -57,56 +35,12 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:NF118]",
+    "raw_marker": "[question:BE401]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 4,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "NF118",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:NE308]",
-    "relation_type": "references_question",
-    "sort_order": 8,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "NE308",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": "n_relaisfunkstellen_aufbau",
-    "inline_label": "Schematische Darstellung einer Relaisfunkstelle mit Nutzern",
-    "raw_marker": "[picture:648:n_relaisfunkstellen_aufbau:Schematische Darstellung einer Relaisfunkstelle mit Nutzern]",
-    "relation_type": "embeds_drawing",
-    "sort_order": 1,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "drawing_id",
-    "target_id_value": "648",
-    "target_object_type": "drawing"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:BE407]",
-    "relation_type": "references_question",
-    "sort_order": 9,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "BE407",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:BE404]",
-    "relation_type": "references_question",
-    "sort_order": 12,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "BE404",
+    "target_id_value": "BE401",
     "target_object_type": "question"
   },
   {
@@ -123,34 +57,23 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:BE405]",
+    "raw_marker": "[question:BE403]",
     "relation_type": "references_question",
-    "sort_order": 14,
+    "sort_order": 6,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "BE405",
+    "target_id_value": "BE403",
     "target_object_type": "question"
   },
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:BE406]",
+    "raw_marker": "[question:NF118]",
     "relation_type": "references_question",
-    "sort_order": 11,
+    "sort_order": 7,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "BE406",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:VD503]",
-    "relation_type": "references_question",
-    "sort_order": 15,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "VD503",
+    "target_id_value": "NF118",
     "target_object_type": "question"
   },
   {
@@ -158,7 +81,7 @@
     "inline_label": null,
     "raw_marker": "[question:NE309]",
     "relation_type": "references_question",
-    "sort_order": 7,
+    "sort_order": 8,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "NE309",
@@ -167,12 +90,100 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:VD504]",
+    "raw_marker": "[question:NE308]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NE308",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE407]",
     "relation_type": "references_question",
     "sort_order": 10,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
+    "target_id_value": "BE407",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VD504]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
     "target_id_value": "VD504",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE406]",
+    "relation_type": "references_question",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE406",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE404]",
+    "relation_type": "references_question",
+    "sort_order": 13,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE404",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NE310]",
+    "relation_type": "references_question",
+    "sort_order": 14,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NE310",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE405]",
+    "relation_type": "references_question",
+    "sort_order": 15,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE405",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VD503]",
+    "relation_type": "references_question",
+    "sort_order": 16,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VD503",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BE408]",
+    "relation_type": "references_question",
+    "sort_order": 17,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BE408",
     "target_object_type": "question"
   }
 ]

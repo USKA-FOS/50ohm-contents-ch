@@ -1,25 +1,14 @@
 [
   {
-    "inline_alias": "e_widerstandsnetzwerk_schritt1",
-    "inline_label": "Schritt 1 - Reihenschaltungen zusammengefasst",
-    "raw_marker": "[picture:816:e_widerstandsnetzwerk_schritt1:Schritt 1 - Reihenschaltungen zusammengefasst]",
-    "relation_type": "embeds_drawing",
-    "sort_order": 8,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "drawing_id",
-    "target_id_value": "816",
-    "target_object_type": "drawing"
-  },
-  {
-    "inline_alias": "e_widerstandsnetzwerk_schritt2",
+    "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[ref:e_widerstandsnetzwerk_schritt2]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 4,
+    "raw_marker": "[question:ED115]",
+    "relation_type": "references_question",
+    "sort_order": 1,
     "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "e_widerstandsnetzwerk_schritt2",
-    "target_object_type": null
+    "target_id_system": "question_code",
+    "target_id_value": "ED115",
+    "target_object_type": "question"
   },
   {
     "inline_alias": "e_widerstandsnetzwerk_schritt0",
@@ -44,6 +33,39 @@
     "target_object_type": null
   },
   {
+    "inline_alias": "e_widerstandsnetzwerk_schritt2",
+    "inline_label": null,
+    "raw_marker": "[ref:e_widerstandsnetzwerk_schritt2]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_widerstandsnetzwerk_schritt2",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "e_widerstandsnetzwerk_schritt2",
+    "inline_label": null,
+    "raw_marker": "[ref:e_widerstandsnetzwerk_schritt2]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_widerstandsnetzwerk_schritt2",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "e_widerstandsnetzwerk_schritt3",
+    "inline_label": null,
+    "raw_marker": "[ref:e_widerstandsnetzwerk_schritt3]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_widerstandsnetzwerk_schritt3",
+    "target_object_type": null
+  },
+  {
     "inline_alias": "e_widerstandsnetzwerk_schritt0",
     "inline_label": "Schritt 0 - Ausgangsschaltung",
     "raw_marker": "[picture:306:e_widerstandsnetzwerk_schritt0:Schritt 0 - Ausgangsschaltung]",
@@ -52,6 +74,28 @@
     "source_slot_key": "body_markdown",
     "target_id_system": "drawing_id",
     "target_id_value": "306",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "e_widerstandsnetzwerk_schritt1",
+    "inline_label": "Schritt 1 - Reihenschaltungen zusammengefasst",
+    "raw_marker": "[picture:816:e_widerstandsnetzwerk_schritt1:Schritt 1 - Reihenschaltungen zusammengefasst]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "816",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "e_widerstandsnetzwerk_schritt2",
+    "inline_label": "Schritt 2 - Parallelschaltungen zusammengefasst",
+    "raw_marker": "[picture:817:e_widerstandsnetzwerk_schritt2:Schritt 2 - Parallelschaltungen zusammengefasst]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "817",
     "target_object_type": "drawing"
   },
   {
@@ -66,17 +110,6 @@
     "target_object_type": "drawing"
   },
   {
-    "inline_alias": "e_widerstandsnetzwerk_schritt3",
-    "inline_label": null,
-    "raw_marker": "[ref:e_widerstandsnetzwerk_schritt3]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 6,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "e_widerstandsnetzwerk_schritt3",
-    "target_object_type": null
-  },
-  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:ED116]",
@@ -88,28 +121,6 @@
     "target_object_type": "question"
   },
   {
-    "inline_alias": "e_widerstandsnetzwerk_schritt2",
-    "inline_label": null,
-    "raw_marker": "[ref:e_widerstandsnetzwerk_schritt2]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 5,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "e_widerstandsnetzwerk_schritt2",
-    "target_object_type": null
-  },
-  {
-    "inline_alias": "e_widerstandsnetzwerk_schritt2",
-    "inline_label": "Schritt 2 - Parallelschaltungen zusammengefasst",
-    "raw_marker": "[picture:817:e_widerstandsnetzwerk_schritt2:Schritt 2 - Parallelschaltungen zusammengefasst]",
-    "relation_type": "embeds_drawing",
-    "sort_order": 9,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "drawing_id",
-    "target_id_value": "817",
-    "target_object_type": "drawing"
-  },
-  {
     "inline_alias": null,
     "inline_label": null,
     "raw_marker": "[question:ED114]",
@@ -118,17 +129,6 @@
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "ED114",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:ED115]",
-    "relation_type": "references_question",
-    "sort_order": 1,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "ED115",
     "target_object_type": "question"
   }
 ]

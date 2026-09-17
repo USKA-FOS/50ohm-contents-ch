@@ -9,5 +9,27 @@
     "target_id_system": "include_key",
     "target_id_value": "spektrum_sprachsignale",
     "target_object_type": "html_include"
+  },
+  {
+    "inline_alias": "n_sprachspektrum_symbolisch",
+    "inline_label": "Symbolische Darstellung des Audiospektrums",
+    "raw_marker": "[picture:730:n_sprachspektrum_symbolisch:Symbolische Darstellung des Audiospektrums]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "730",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "n_sprachspektrum_beispiel",
+    "inline_label": "Beispiel für ein Audiospektrum",
+    "raw_marker": "[picture:475:n_sprachspektrum_beispiel:Beispiel für ein Audiospektrum]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "475",
+    "target_object_type": "drawing"
   }
 ]

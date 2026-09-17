@@ -1,6 +1,6 @@
-In der Klasse N haben wir gelernt: Ist eine Antenne perfekt an die Zuleitung (z. B. ein Koaxialkabel) angepasst, zeigt das SWR-Meter den Wert 1 an. Dies ist der bestmögliche Fall, da die gesamte Sendeleistung von der Antenne aufgenommen wird und keine Leistung zum Sender zurückreflektiert wird. Ist hingegen gar keine Antenne angeschlossen oder ist die Übertragungsleitung unterbrochen bzw. kurzgeschlossen, steigt der SWR-Wert gegen unendlich ($\infty$). In diesen Fällen wird die Sendeleistung nahezu vollständig reflektiert. Eine solche vollständige Rückreflexion kann im schlimmsten Fall zur Beschädigung der Endstufe des Senders führen. In der Klasse E vertiefen wir das Thema nun etwas und lernen auch Werte zwischen $\num{1}$ und $\infty$ kennen.
+Wir haben gelernt: Ist eine Antenne perfekt an die Zuleitung (z. B. ein Koaxialkabel) angepasst, zeigt das SWR-Meter den Wert 1 an. Dies ist der bestmögliche Fall, da die gesamte Sendeleistung von der Antenne aufgenommen wird und keine Leistung zum Sender zurückreflektiert wird. Ist hingegen gar keine Antenne angeschlossen oder ist die Übertragungsleitung unterbrochen bzw. kurzgeschlossen, steigt der SWR-Wert gegen unendlich ($\infty$). In diesen Fällen wird die Sendeleistung nahezu vollständig reflektiert. Eine solche vollständige Rückreflexion kann im schlimmsten Fall zur Beschädigung der Endstufe des Senders führen. Hier vertiefen wir das Thema nun etwas und lernen auch Werte zwischen $\num{1}$ und $\infty$ kennen.
 
-Das Stehwellenverhältnis (SWR), als Formelsymbol $s$, lässt sich aus der vorlaufenden Leistung $P_\text{V}$ und der rücklaufenden Leistung $P_\text{R}$ berechnen. Den entsprechenden Zusammenhang finden wir in der Formelsammlung:
+Das Stehwellenverhältnis (SWR), als Formelsymbol $s$, lässt sich aus der vorlaufenden Leistung $P_\text{V}$ und der rücklaufenden Leistung $P_\text{R}$ berechnen. Der entsprechende Zusammenhang lautet:
 
 $s = \frac{\sqrt{P_\text{V}}+\sqrt{P_\text{R}}} { \sqrt{P_\text{V}}-\sqrt{P_\text{R}}}$
 
@@ -34,3 +34,39 @@ Zur Beantwortung der folgenden Fragen reicht es aus zu wissen, dass ein Stehwell
 [question:EG401]
 [question:EG402]
 [question:EG403]
+
+<indepth>
+Herleitung der hier verwendeten SWR-Leistungsformel anhand der BAKOM-Formelsammlung.
+Man kann obige Formel auch einfach verwenden. Ein Verständnis der Herleitung ist nicht erforderich! 😉
+
+1. Ausgangsbasis (BAKOM-Formelsammlung)
+
+Die BAKOM-Formelsammlung definiert das Stehwellenverhältnis ($s$) und den Reflexionsfaktor ($|r|$) über folgende zwei Gleichungen:
+
+$$s = \frac{1 + |r|}{1 - |r|}$$
+
+$$|r| = \frac{\sqrt{P_\text{r}}}{\sqrt{P_\text{d}}}$$
+
+---
+
+2. Herleitung
+
+Um den Bruch für $s$ zu vereinfachen und das $|r|$ zu ersetzen, multipliziert man gedanklich jeden Term im Zähler und im Nenner direkt mit $\sqrt{P_\text{d}}$. Dadurch kürzt sich der Nenner von $|r|$ sofort weg:
+
+1. Aus der $1$ wird:
+   $$1 \cdot \sqrt{P_\text{d}} = \sqrt{P_\text{d}}$$
+2. Aus dem $|r|$ wird:
+   $$\frac{\sqrt{P_\text{r}}}{\sqrt{P_\text{d}}} \cdot \sqrt{P_\text{d}} = \sqrt{P_\text{r}}$$
+
+Setzt man diese Terme direkt in die SWR-Gleichung ein, ergibt sich unmittelbar:
+
+$$s = \frac{\sqrt{P_\text{d}} + \sqrt{P_\text{r}}}{\sqrt{P_\text{d}} - \sqrt{P_\text{r}}}$$
+
+---
+
+3. Anpassung an die hier verwendete Notation
+
+Durch das Ersetzen der Variablennamen ($s \rightarrow \text{SWR}$ und $P_\text{d} \rightarrow P_\text{v}$ für die Vorwärtsleistung) erhält man exakt die Zielformel:
+
+$$\text{SWR} = \frac{\sqrt{P_\text{v}} + \sqrt{P_\text{r}}}{\sqrt{P_\text{v}} - \sqrt{P_\text{r}}}$$
+</indepth>
