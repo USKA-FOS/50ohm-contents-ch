@@ -1,4 +1,4 @@
-Diese Seite wird vorläufig für die Bearbeiter missbraucht als Sandkasten, wenn etwas simuliert werden muss (Bsp wenn etwas nicht funktioniert) und dient auch als Vorlagen-Container um wiederkehrende Sachen (wie bsp die farbigen Boxen in der rechten Spalte) mit Copy&Paste holen zu können.
+Diese Seite wird vorläufig für die Bearbeiter missbraucht als Sandkasten, wenn etwas simuliert werden muss (Bsp wenn etwas nicht funktioniert) und dient auch als "Vorlagen-Container" um wiederkehrende Sachen (wie bsp die farbigen Boxen in der rechten Spalte) mit Copy&Paste im Markdown holen zu können.
 Der Originalinhalt ist noch immer hier drin, weil bisher unklar ist ob der noch gebraucht wird.
 
 <margin>
@@ -41,6 +41,7 @@ So macht man einen Direktlink auf eine externe Seite [angezeigter Text](Direktli
 
 
 **Interne Verlinkung**
+
 Das ist ein Test für eine interne Verlinkung zu einem anderen Abschnitt innerhalb von der 50Ohm-Webseite. - Das ist so wie es sein soll  - 
 Das ist zu benutzen, wenn bspw. im Text steht "Das haben wir bereits im Abschnitt [sec:rufzeichen] behandelt".
 
@@ -56,6 +57,7 @@ Bspw wenn man "wie wir im Abschnitt [sec:kondensator_2] schon gelernt haben." sc
 
 
 **AB HIER ORIGINALTEXT - BITTE STEHEN LASSEN**
+
 In dem Gesetz mit dem sperrigen Namen Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz (TDDDG), ehemals TTDSG, werden im § 5 auch die Funkamateure angesprochen. In dem Paragrafen geht es um das Abhörverbot und die Geheimhaltungspflicht für alle Betreiber von Funkanlagen. Nur Nachrichten, die *an die Allgemeinheit, einen unbestimmten Personenkreis oder an Funkamateure* gerichtet sind, dürfen empfangen werden. Alles andere ist verboten. Dazu gehört bereits der Empfang selbst, aber auch die Verwertung und Weitergabe von Nachrichten, die nicht für die Allgemeinheit, für einen unbestimmten Personenkreis oder für Funkamateure bestimmt sind, verstoßen gegen das TDDDG.
 
 Sollte man versehentlich solche Nachrichten empfangen, muss man den Inhalt dieser Nachricht und sogar die Tatsache des Empfangs für sich behalten. Für immer und ewig! Die einzigen Ausnahmen sind Not- und Katastrophenfälle. Formal ist dies eine sogenannte Rechtsgüterabwägung: Was ist wichtiger, der Rechtsverstoß der Nachrichtenweitergabe oder die Hilfe in einem Notfall?
