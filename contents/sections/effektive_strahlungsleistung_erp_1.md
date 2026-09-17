@@ -11,7 +11,7 @@ Die Grenzwerte, die eine Sendeanlage einhalten muss, sind in der Nicht-Ionisiere
 *Grenzwerte für Amateurfunkanlagen* 
 
 Amateurfunkanlagen müssen die *Immissionsgrenzwerte* der NISV einhalten. Je nach Frequenz liegen diese zwischen 28 und 87 [V/m].
-Zur Berechnung der einzuhaltenden Abstände gibt es geeignete Programme bzw. Excel Tabellen:
+Zur Berechnung der einzuhaltenden Abstände gibt es im Mitgliederbereich der USKA geeignete Programme bzw. Excel Tabellen:
 
 [Hilfsmittel zur NISV-Berechnung](https://uska.ch/emissions-berechnung/)
 
