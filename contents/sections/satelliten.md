@@ -145,7 +145,7 @@ Dieses Applet visualisiert den Dopplereffekt. Mit dem Schieberegler kann die *Re
 - Wenn sich die *Quelle auf einem zubewegt*, treffen mehr Wellenfronten pro Zeiteinheit ein, was einer *Erhöhung der empfangenen Frequenz* entspricht. Obwohl der Sender immer mit der gleichen Frequenz sendet. 
   
 - Wenn sich die *Quelle von einem wegbewegt*, treffen weniger Wellenfronten pro Zeiteinheit ein, was einer *Erniedrigung der empfangenen Frequenz* entspricht. Obwohl der Sender immer mit der gleichen Frequenz sendet.
-- 
+
 [include:doppler_visualisierung]
 
 </indepth>
