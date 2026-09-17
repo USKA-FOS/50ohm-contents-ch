@@ -1,0 +1,24 @@
+[
+  {
+    "inline_alias": "swl_was_ist_swl_transceiver",
+    "inline_label": "Ein Transceiver für den Amateurfunk",
+    "raw_marker": "[photo:117:swl_was_ist_swl_transceiver:Ein Transceiver für den Amateurfunk]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "117",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:VD102]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "VD102",
+    "target_object_type": "question"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "inline_alias": "swl_elektrische_sicherheit_feinsicherungen",
+    "inline_label": "Feinsicherungen",
+    "raw_marker": "[photo:88:swl_elektrische_sicherheit_feinsicherungen:Feinsicherungen]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "88",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NK305]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NK305",
+    "target_object_type": "question"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "inline_alias": "swl_ionosphaere_brechung",
+    "inline_label": "Brechung von Kurzwellen an der Ionosphäre",
+    "raw_marker": "[picture:732:swl_ionosphaere_brechung:Brechung von Kurzwellen an der Ionosphäre]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "732",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NH101]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NH101",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "swl_ionosphaere_sonnenzyklus",
+    "inline_label": "Die Zahl der Sonnenflecken schwankt über den elfjährigen Sonnenzyklus",
+    "raw_marker": "[picture:729:swl_ionosphaere_sonnenzyklus:Die Zahl der Sonnenflecken schwankt über den elfjährigen Sonnenzyklus]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "729",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NH201]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NH201",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "swl_ionosphaere_tote_zone",
+    "inline_label": "Brechung an der Ionosphäre sowie die tote Zone zwischen Boden- und Raumwelle",
+    "raw_marker": "[picture:741:swl_ionosphaere_tote_zone:Brechung an der Ionosphäre sowie die tote Zone zwischen Boden- und Raumwelle]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "741",
+    "target_object_type": "drawing"
+  }
+]

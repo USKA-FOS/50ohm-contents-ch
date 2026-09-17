@@ -1,0 +1,70 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "sc_92a9a9d993df",
+  "identifiers": [
+    {
+      "id_system": "file_stem",
+      "id_value": "swl_abschluss",
+      "preferred": true
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/sections/swl_abschluss.md": "e61ba1a946fbf9809ee55fe12c55991dfd7fc9b939d7c4b597574723e5214c3f"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
+    }
+  },
+  "object_type": "section_article",
+  "reconstruction": {
+    "strategy": "replace_source_file",
+    "targets": [
+      {
+        "kind": "localized_text_file",
+        "path": "contents/sections/swl_abschluss.md"
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_translated"
+    },
+    {
+      "language": "it",
+      "state": "to_be_translated"
+    }
+  ],
+  "source": {
+    "format": "md",
+    "key": "swl_abschluss",
+    "path": "contents/sections/swl_abschluss.md"
+  },
+  "text_slots": [
+    {
+      "slot_key": "body_markdown",
+      "slot_type": "markdown",
+      "sort_order": 0,
+      "storage": {
+        "files": {
+          "de": "body.de.md"
+        },
+        "kind": "text_file"
+      },
+      "translation_group_key": null
+    }
+  ]
+}

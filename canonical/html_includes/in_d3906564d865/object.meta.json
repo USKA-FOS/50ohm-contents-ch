@@ -1,0 +1,70 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "in_d3906564d865",
+  "identifiers": [
+    {
+      "id_system": "file_stem",
+      "id_value": "applet_chirp_2",
+      "preferred": true
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/html/applet_chirp_2.html": "48a1c5353938d727024ed3107d4290bb77bc31eef59e9f40cc7a032534cfa7a9"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
+    }
+  },
+  "object_type": "html_include",
+  "reconstruction": {
+    "strategy": "replace_source_file",
+    "targets": [
+      {
+        "kind": "localized_text_file",
+        "path": "contents/html/applet_chirp_2.html"
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_translated"
+    },
+    {
+      "language": "it",
+      "state": "to_be_translated"
+    }
+  ],
+  "source": {
+    "format": "html",
+    "key": "applet_chirp_2",
+    "path": "contents/html/applet_chirp_2.html"
+  },
+  "text_slots": [
+    {
+      "slot_key": "body_html",
+      "slot_type": "html",
+      "sort_order": 0,
+      "storage": {
+        "files": {
+          "de": "body.de.html"
+        },
+        "kind": "text_file"
+      },
+      "translation_group_key": null
+    }
+  ]
+}

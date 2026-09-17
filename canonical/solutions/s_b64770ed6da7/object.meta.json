@@ -1,0 +1,70 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "s_b64770ed6da7",
+  "identifiers": [
+    {
+      "id_system": "file_stem",
+      "id_value": "AK202",
+      "preferred": true
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/solutions/AK202.md": "493389d979873df1dab386a348280f37a39c25e5bb12bf37103b3ef4f9b184dc"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
+    }
+  },
+  "object_type": "solution_article",
+  "reconstruction": {
+    "strategy": "replace_source_file",
+    "targets": [
+      {
+        "kind": "localized_text_file",
+        "path": "contents/solutions/AK202.md"
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_translated"
+    },
+    {
+      "language": "it",
+      "state": "to_be_translated"
+    }
+  ],
+  "source": {
+    "format": "md",
+    "key": "AK202",
+    "path": "contents/solutions/AK202.md"
+  },
+  "text_slots": [
+    {
+      "slot_key": "body_markdown",
+      "slot_type": "markdown",
+      "sort_order": 0,
+      "storage": {
+        "files": {
+          "de": "body.de.md"
+        },
+        "kind": "text_file"
+      },
+      "translation_group_key": null
+    }
+  ]
+}

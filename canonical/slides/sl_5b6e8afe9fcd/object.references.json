@@ -1,0 +1,35 @@
+[
+  {
+    "inline_alias": "swl_erste_empfangsstation",
+    "inline_label": "Beispiel für eine erste Empfangsstation",
+    "raw_marker": "[picture:657:swl_erste_empfangsstation:Beispiel für eine erste Empfangsstation]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "657",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "swl_erste_empfangsstation_geraete",
+    "inline_label": "Empfänger für unterschiedliche Einstiegsbereiche",
+    "raw_marker": "[table:swl_erste_empfangsstation_geraete:Empfänger für unterschiedliche Einstiegsbereiche]",
+    "relation_type": "embeds_table",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "swl_erste_empfangsstation_geraete",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": "swl_erste_empfangsstation_sdr",
+    "inline_label": "Spektrum und Wasserfall bei einem Empfangsversuch mit einem SDR",
+    "raw_marker": "[photo:346:swl_erste_empfangsstation_sdr:Spektrum und Wasserfall bei einem Empfangsversuch mit einem SDR]",
+    "relation_type": "embeds_photo",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "346",
+    "target_object_type": "photo"
+  }
+]

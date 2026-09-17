@@ -1,0 +1,112 @@
+[
+  {
+    "inline_alias": "swl_steckverbinder_uebersicht",
+    "inline_label": null,
+    "raw_marker": "[ref:swl_steckverbinder_uebersicht]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "swl_steckverbinder_uebersicht",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "swl_steckverbinder_uebersicht",
+    "inline_label": "Gebräuchliche HF-Steckverbinder",
+    "raw_marker": "[table:swl_steckverbinder_uebersicht:Gebräuchliche HF-Steckverbinder]",
+    "relation_type": "embeds_table",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "swl_steckverbinder_uebersicht",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": "swl_steckverbinder_pl",
+    "inline_label": "PL-Stecker",
+    "raw_marker": "[photo:69:swl_steckverbinder_pl:PL-Stecker]",
+    "relation_type": "embeds_photo",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "69",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "swl_steckverbinder_n",
+    "inline_label": "N-Stecker",
+    "raw_marker": "[photo:73:swl_steckverbinder_n:N-Stecker]",
+    "relation_type": "embeds_photo",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "73",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "swl_steckverbinder_bnc",
+    "inline_label": "BNC-Stecker",
+    "raw_marker": "[photo:71:swl_steckverbinder_bnc:BNC-Stecker]",
+    "relation_type": "embeds_photo",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "71",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "swl_steckverbinder_sma",
+    "inline_label": "SMA-Stecker",
+    "raw_marker": "[photo:74:swl_steckverbinder_sma:SMA-Stecker]",
+    "relation_type": "embeds_photo",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "74",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NG202]",
+    "relation_type": "references_question",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NG202",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NG203]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NG203",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NG204]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NG204",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NG205]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NG205",
+    "target_object_type": "question"
+  }
+]

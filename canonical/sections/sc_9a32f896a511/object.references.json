@@ -1,0 +1,35 @@
+[
+  {
+    "inline_alias": "swl_modulationsarten_uebersicht",
+    "inline_label": null,
+    "raw_marker": "[ref:swl_modulationsarten_uebersicht]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "swl_modulationsarten_uebersicht",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "swl_modulationsarten_uebersicht",
+    "inline_label": "Wichtige Modulationsarten beim Amateurfunkempfang",
+    "raw_marker": "[table:swl_modulationsarten_uebersicht:Wichtige Modulationsarten beim Amateurfunkempfang]",
+    "relation_type": "embeds_table",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "swl_modulationsarten_uebersicht",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NE209]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NE209",
+    "target_object_type": "question"
+  }
+]

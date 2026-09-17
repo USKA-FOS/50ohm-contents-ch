@@ -11,10 +11,21 @@
   ],
   "languages": [
     "de",
-    "it",
-    "fr"
+    "fr",
+    "it"
   ],
-  "metadata": {},
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/static/pruefung_sidebar.html": "3ac07447fd8a4a91d5694c07c8b49169a1e44c0013208d544348ca245e212011"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
+    }
+  },
   "object_type": "static_page",
   "reconstruction": {
     "strategy": "replace_source_file",

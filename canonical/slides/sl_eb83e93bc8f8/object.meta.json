@@ -1,0 +1,70 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "sl_eb83e93bc8f8",
+  "identifiers": [
+    {
+      "id_system": "file_stem",
+      "id_value": "swl_rechtsgrundlagen",
+      "preferred": true
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/slides/swl_rechtsgrundlagen.md": "15978be39a7759c78d7a02781cd30609128e73264cb3f876dd6a32b1d5f19a9c"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
+    }
+  },
+  "object_type": "slide_article",
+  "reconstruction": {
+    "strategy": "replace_source_file",
+    "targets": [
+      {
+        "kind": "localized_text_file",
+        "path": "contents/slides/swl_rechtsgrundlagen.md"
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_translated"
+    },
+    {
+      "language": "it",
+      "state": "to_be_translated"
+    }
+  ],
+  "source": {
+    "format": "md",
+    "key": "swl_rechtsgrundlagen",
+    "path": "contents/slides/swl_rechtsgrundlagen.md"
+  },
+  "text_slots": [
+    {
+      "slot_key": "body_markdown",
+      "slot_type": "markdown",
+      "sort_order": 0,
+      "storage": {
+        "files": {
+          "de": "body.de.md"
+        },
+        "kind": "text_file"
+      },
+      "translation_group_key": null
+    }
+  ]
+}

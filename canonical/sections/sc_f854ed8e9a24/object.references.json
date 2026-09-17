@@ -1,0 +1,46 @@
+[
+  {
+    "inline_alias": "swl_landeskenner_europa",
+    "inline_label": "Prüfungsrelevante europäische Landeskenner",
+    "raw_marker": "[table:swl_landeskenner_europa:Prüfungsrelevante europäische Landeskenner]",
+    "relation_type": "embeds_table",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "swl_landeskenner_europa",
+    "target_object_type": "table_object"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BD303]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BD303",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BD305]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BD305",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:BD311]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "BD311",
+    "target_object_type": "question"
+  }
+]

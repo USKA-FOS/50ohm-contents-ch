@@ -1,0 +1,70 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "in_39666539de2a",
+  "identifiers": [
+    {
+      "id_system": "file_stem",
+      "id_value": "applet_am_modulator",
+      "preferred": true
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/html/applet_am_modulator.html": "3213e7fbef34a5eae43bb74951db187369da414dee9f0f4b5614335fbb95673f"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
+    }
+  },
+  "object_type": "html_include",
+  "reconstruction": {
+    "strategy": "replace_source_file",
+    "targets": [
+      {
+        "kind": "localized_text_file",
+        "path": "contents/html/applet_am_modulator.html"
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_translated"
+    },
+    {
+      "language": "it",
+      "state": "to_be_translated"
+    }
+  ],
+  "source": {
+    "format": "html",
+    "key": "applet_am_modulator",
+    "path": "contents/html/applet_am_modulator.html"
+  },
+  "text_slots": [
+    {
+      "slot_key": "body_html",
+      "slot_type": "html",
+      "sort_order": 0,
+      "storage": {
+        "files": {
+          "de": "body.de.html"
+        },
+        "kind": "text_file"
+      },
+      "translation_group_key": null
+    }
+  ]
+}

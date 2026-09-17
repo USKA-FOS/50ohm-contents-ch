@@ -1,0 +1,93 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "dr_d48a39a547c5",
+  "identifiers": [
+    {
+      "id_system": "drawing_id",
+      "id_value": "hb_101",
+      "preferred": true
+    },
+    {
+      "id_system": "file_stem",
+      "id_value": "hb_101",
+      "preferred": false
+    }
+  ],
+  "language_variants": {
+    "de": {
+      "asset_files": {
+        "svg": "hb_101.de.svg",
+        "tex": "hb_101.de.tex"
+      },
+      "review_state": "imported_approved"
+    }
+  },
+  "languages": [
+    "de"
+  ],
+  "metadata": {
+    "asset": {
+      "svg_path": "contents/drawings/hb_101.svg",
+      "tex_path": "contents/drawings/hb_101.tex"
+    },
+    "language_asset": {
+      "de.svg": {
+        "canonical_file": "hb_101.de.svg",
+        "source_path": "contents/drawings/hb_101.svg"
+      },
+      "de.tex": {
+        "canonical_file": "hb_101.de.tex",
+        "source_path": "contents/drawings/hb_101.tex"
+      }
+    },
+    "lifecycle": {
+      "status": "active"
+    },
+    "reconstruction": {},
+    "source_tracking": {
+      "files": {
+        "contents/drawings/hb_101.svg": "748e75480fc96b5296eec21b8d796e7d29caa56dbff04611792fc24c84c2eb2f",
+        "contents/drawings/hb_101.tex": "f55cd08bc4077fde52fb17e9421247cf863c136495b533736fa0c6446b90c76e"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
+    }
+  },
+  "object_type": "drawing",
+  "reconstruction": {
+    "strategy": "render_drawing_assets_and_description",
+    "targets": [
+      {
+        "asset_key": "svg_path",
+        "kind": "asset_file",
+        "path": "contents/drawings/hb_101.svg"
+      },
+      {
+        "asset_key": "tex_path",
+        "kind": "asset_file",
+        "path": "contents/drawings/hb_101.tex"
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_translated"
+    },
+    {
+      "language": "it",
+      "state": "to_be_translated"
+    }
+  ],
+  "source": {
+    "format": "grouped_asset",
+    "key": "hb_101",
+    "path": "contents/drawings/hb_101"
+  },
+  "text_slots": []
+}

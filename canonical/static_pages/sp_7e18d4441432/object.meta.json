@@ -11,10 +11,21 @@
   ],
   "languages": [
     "de",
-    "it",
-    "fr"
+    "fr",
+    "it"
   ],
-  "metadata": {},
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/static/infos.html": "7c65fcba74854590ea80a438214d6f37a57e2beaa5267d4be3b9ce4fc22c3657"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
+    }
+  },
   "object_type": "static_page",
   "reconstruction": {
     "strategy": "replace_source_file",

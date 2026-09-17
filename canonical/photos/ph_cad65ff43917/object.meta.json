@@ -1,0 +1,67 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "ph_cad65ff43917",
+  "identifiers": [
+    {
+      "id_system": "photo_id",
+      "id_value": "348",
+      "preferred": true
+    },
+    {
+      "id_system": "file_stem",
+      "id_value": "348",
+      "preferred": false
+    }
+  ],
+  "language_variants": {
+    "de": {
+      "asset_files": {
+        "image": "348.de.png"
+      },
+      "review_state": "imported_approved"
+    }
+  },
+  "languages": [
+    "de"
+  ],
+  "metadata": {
+    "asset": {
+      "image_path": "contents/photos/348.png"
+    },
+    "language_asset": {
+      "de.image": {
+        "canonical_file": "348.de.png",
+        "source_path": "contents/photos/348.png"
+      }
+    },
+    "lifecycle": {
+      "status": "active"
+    },
+    "reconstruction": {},
+    "source_tracking": {
+      "files": {
+        "contents/photos/348.png": "161475b26db23e1162b8dde836e8777c329e3b919c989ee5c91a90331ee78596"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
+    }
+  },
+  "object_type": "photo",
+  "reconstruction": {
+    "strategy": "render_photo_description_file",
+    "targets": []
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    }
+  ],
+  "source": {
+    "format": "grouped_asset",
+    "key": "348",
+    "path": "contents/photos/348"
+  },
+  "text_slots": []
+}

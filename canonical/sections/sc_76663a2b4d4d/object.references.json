@@ -1,0 +1,24 @@
+[
+  {
+    "inline_alias": "swl_sdr",
+    "inline_label": "Empfang von Satellitenfunk mit einem SDR-Stick und einem Computer",
+    "raw_marker": "[photo:346:swl_sdr:Empfang von Satellitenfunk mit einem SDR-Stick und einem Computer]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "346",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "swl_sdr",
+    "inline_label": null,
+    "raw_marker": "[ref:swl_sdr]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "swl_sdr",
+    "target_object_type": null
+  }
+]

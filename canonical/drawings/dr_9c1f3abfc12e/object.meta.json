@@ -1,0 +1,93 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "dr_9c1f3abfc12e",
+  "identifiers": [
+    {
+      "id_system": "drawing_id",
+      "id_value": "1112",
+      "preferred": true
+    },
+    {
+      "id_system": "file_stem",
+      "id_value": "1112",
+      "preferred": false
+    }
+  ],
+  "language_variants": {
+    "de": {
+      "asset_files": {
+        "svg": "1112.de.svg",
+        "tex": "1112.de.tex"
+      },
+      "review_state": "imported_approved"
+    }
+  },
+  "languages": [
+    "de"
+  ],
+  "metadata": {
+    "asset": {
+      "svg_path": "contents/drawings/1112.svg",
+      "tex_path": "contents/drawings/1112.tex"
+    },
+    "language_asset": {
+      "de.svg": {
+        "canonical_file": "1112.de.svg",
+        "source_path": "contents/drawings/1112.svg"
+      },
+      "de.tex": {
+        "canonical_file": "1112.de.tex",
+        "source_path": "contents/drawings/1112.tex"
+      }
+    },
+    "lifecycle": {
+      "status": "active"
+    },
+    "reconstruction": {},
+    "source_tracking": {
+      "files": {
+        "contents/drawings/1112.svg": "14e7f14e94b3300a155745f67c29ff98f866dcbf43b46d6853fd1456c2c4129c",
+        "contents/drawings/1112.tex": "b2151c9d54695e4e332ccde8b09702cf7775c73330e3e5aea8a78e8170a0a990"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
+    }
+  },
+  "object_type": "drawing",
+  "reconstruction": {
+    "strategy": "render_drawing_assets_and_description",
+    "targets": [
+      {
+        "asset_key": "svg_path",
+        "kind": "asset_file",
+        "path": "contents/drawings/1112.svg"
+      },
+      {
+        "asset_key": "tex_path",
+        "kind": "asset_file",
+        "path": "contents/drawings/1112.tex"
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_translated"
+    },
+    {
+      "language": "it",
+      "state": "to_be_translated"
+    }
+  ],
+  "source": {
+    "format": "grouped_asset",
+    "key": "1112",
+    "path": "contents/drawings/1112"
+  },
+  "text_slots": []
+}

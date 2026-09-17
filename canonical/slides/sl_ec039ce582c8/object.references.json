@@ -1,0 +1,24 @@
+[
+  {
+    "inline_alias": "swl_bedienung_display",
+    "inline_label": "Display mit Frequenzanzeige, Modulationsart, Spektrum und Wasserfalldiagramm",
+    "raw_marker": "[photo:95:swl_bedienung_display:Display mit Frequenzanzeige, Modulationsart, Spektrum und Wasserfalldiagramm]",
+    "relation_type": "embeds_photo",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "95",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NF105]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NF105",
+    "target_object_type": "question"
+  }
+]

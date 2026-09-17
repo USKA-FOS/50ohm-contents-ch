@@ -1,0 +1,1210 @@
+{
+  "abstract": "Der Einstieg in den Amateurfunk als Kurzwellenhörer: Empfangstechnik, Funkbetrieb, QSL-Karten und Vorbereitung auf die DARC DE-Prüfung.",
+  "chapters": [
+    {
+      "abstract": "Wir lernen das Hobby der Kurzwellenhörer kennen, grenzen Hören und Senden voneinander ab und stellen eine erste Empfangsstation zusammen.",
+      "id": "ch_ee5b509828d7",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "swl_einstieg",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_e69a91aa7021",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_vorwort",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_4d051cf3bdda",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_vorwort"
+            },
+            {
+              "object_id": "sl_2c708ecd13ca",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_vorwort"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Vorwort"
+        },
+        {
+          "abstract": null,
+          "id": "se_8882e3fd3a8e",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_was_ist_swl",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_e3985b430c69",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_was_ist_swl"
+            },
+            {
+              "object_id": "sl_36a6057fcd9b",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_was_ist_swl"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Was ist ein SWL?"
+        },
+        {
+          "abstract": null,
+          "id": "se_8fff4fd67b09",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_erste_empfangsstation",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_76663a2b4d4d",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_erste_empfangsstation"
+            },
+            {
+              "object_id": "sl_5b6e8afe9fcd",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_erste_empfangsstation"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Die erste Empfangsstation"
+        }
+      ],
+      "sort_order": 1,
+      "title": "Einstieg in den Amateurfunkempfang"
+    },
+    {
+      "abstract": "Wir bedienen einen Empfänger, wählen das passende Übertragungsverfahren und erkennen die gebräuchlichen HF-Steckverbinder.",
+      "id": "ch_74183ff3dcc9",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "swl_empfangstechnik",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_ead578063c78",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_modulationsarten",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_9a32f896a511",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_modulationsarten"
+            },
+            {
+              "object_id": "sl_a86721ab2ee8",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_modulationsarten"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Modulationsarten"
+        },
+        {
+          "abstract": null,
+          "id": "se_a648dbd506d7",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_bedienung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_2ace0ed6a7fc",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_bedienung"
+            },
+            {
+              "object_id": "sl_ec039ce582c8",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_bedienung"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Display und Bedienung"
+        },
+        {
+          "abstract": null,
+          "id": "se_954a9a274a53",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_steckverbinder",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_a03a2e523d8e",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_steckverbinder"
+            },
+            {
+              "object_id": "sl_c5b2a3dbb45d",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_steckverbinder"
+            }
+          ],
+          "sort_order": 3,
+          "title": "HF-Steckverbinder"
+        }
+      ],
+      "sort_order": 2,
+      "title": "Empfänger im Detail: Modulationsarten und Steckverbinder"
+    },
+    {
+      "abstract": "Die Ionosphäre ermöglicht weltweiten Kurzwellenempfang; besondere Bedingungen erschließen auch auf höheren Frequenzen große Entfernungen.",
+      "id": "ch_15930f785880",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "swl_wellenausbreitung",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_eb6cdde946f0",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_ionosphaere",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_0f877ec28de7",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_ionosphaere"
+            },
+            {
+              "object_id": "sl_0d86f770aadd",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_ionosphaere"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Ionosphäre und Kurzwelle"
+        },
+        {
+          "abstract": null,
+          "id": "se_7220e0914860",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_sporadic_e",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_a6176e8bf041",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_sporadic_e"
+            },
+            {
+              "object_id": "sl_2eee6eb08d35",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_sporadic_e"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Sporadic-E"
+        }
+      ],
+      "sort_order": 3,
+      "title": "Wellenausbreitung"
+    },
+    {
+      "abstract": "Auch eine reine Empfangsstation braucht eine sichere Stromversorgung und eine fachgerecht errichtete Antennenanlage.",
+      "id": "ch_c62bf5911d02",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "swl_sicherheit",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_0ea3c84e59da",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_elektrische_sicherheit",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_0753ddb98ec6",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_elektrische_sicherheit"
+            },
+            {
+              "object_id": "sl_7cdd78ad7ff2",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_elektrische_sicherheit"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Elektrische Sicherheit"
+        },
+        {
+          "abstract": null,
+          "id": "se_d11964e38073",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_antennensicherheit",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_18ff52be908a",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_antennensicherheit"
+            },
+            {
+              "object_id": "sl_2c717fce620e",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_antennensicherheit"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Antennensicherheit und Haftung"
+        }
+      ],
+      "sort_order": 4,
+      "title": "Sicherheit"
+    },
+    {
+      "abstract": "Wir lesen Amateurfunkrufzeichen, ordnen wichtige Landeskenner zu und verbinden Frequenzbereiche mit den gebräuchlichen Bandbezeichnungen.",
+      "id": "ch_e41cf7db8ba8",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "swl_rufzeichen_baender",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_d9c63517d5a6",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_rufzeichen",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_f4725cf6fede",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_rufzeichen"
+            },
+            {
+              "object_id": "sl_4b18e8a9d570",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_rufzeichen"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Amateurfunkrufzeichen"
+        },
+        {
+          "abstract": null,
+          "id": "se_b0406247a5e7",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_landeskenner",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_f854ed8e9a24",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_landeskenner"
+            },
+            {
+              "object_id": "sl_7892856f186a",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_landeskenner"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Internationale Landeskenner"
+        },
+        {
+          "abstract": null,
+          "id": "se_586a70c2d1ca",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_frequenzbereiche",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_b46503208dba",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_frequenzbereiche"
+            },
+            {
+              "object_id": "sl_6e9976950abd",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_frequenzbereiche"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Amateurfunkbänder"
+        }
+      ],
+      "sort_order": 5,
+      "title": "Rufzeichen, Länder und Bänder"
+    },
+    {
+      "abstract": "Buchstabieralphabet, Betriebsabkürzungen und Q-Gruppen helfen dabei, auch schwache oder fremdsprachige Funkverbindungen sicher zu verstehen.",
+      "id": "ch_a4ac8c5d1e33",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "swl_sprache",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_144dce199b67",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_buchstabieralphabet",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_82e76675df2d",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_buchstabieralphabet"
+            },
+            {
+              "object_id": "sl_4b31492e4bea",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_buchstabieralphabet"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Internationales Buchstabieralphabet"
+        },
+        {
+          "abstract": null,
+          "id": "se_687cebe12ceb",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_abkuerzungen",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_a2663854e3e6",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_abkuerzungen"
+            },
+            {
+              "object_id": "sl_f67f486ae970",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_abkuerzungen"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Betriebliche Abkürzungen"
+        },
+        {
+          "abstract": null,
+          "id": "se_5fb28a6455e4",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_q_gruppen",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_d989155a79cc",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_q_gruppen"
+            },
+            {
+              "object_id": "sl_596df44cbc9a",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_q_gruppen"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Q-Gruppen"
+        },
+        {
+          "abstract": null,
+          "id": "se_9b690e4eb80d",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_qso",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_708ae35d5c98",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_qso"
+            },
+            {
+              "object_id": "sl_ec6ede65f9ea",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_qso"
+            }
+          ],
+          "sort_order": 4,
+          "title": "Das QSO"
+        }
+      ],
+      "sort_order": 6,
+      "title": "Sprache auf den Bändern"
+    },
+    {
+      "abstract": "Wir beurteilen Signale, verfolgen besondere Betriebssituationen und dokumentieren gehörte Funkverbindungen im Logbuch und auf SWL-QSL-Karten.",
+      "id": "ch_600f0992756e",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "swl_praxis",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_b065040adbfe",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_rst",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_9522d414e5e2",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_rst"
+            },
+            {
+              "object_id": "sl_6ad65c6cc377",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_rst"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Der RST-Rapport"
+        },
+        {
+          "abstract": null,
+          "id": "se_6b4ad2ce9788",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_betriebsbeobachtung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_0c0280e6cf9a",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_betriebsbeobachtung"
+            },
+            {
+              "object_id": "sl_cf02f72fd042",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_betriebsbeobachtung"
+            }
+          ],
+          "sort_order": 2,
+          "title": "CQ, DX, Contest und Split"
+        },
+        {
+          "abstract": null,
+          "id": "se_ced19a4dc162",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_relais",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_1c3e9b3f6118",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_relais"
+            },
+            {
+              "object_id": "sl_a7a85d81e22c",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_relais"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Relaisfunkstellen"
+        },
+        {
+          "abstract": null,
+          "id": "se_9b3d7631e8d3",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_logbuch",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_43eac6c19cc2",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_logbuch"
+            },
+            {
+              "object_id": "sl_9029a71809b7",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_logbuch"
+            }
+          ],
+          "sort_order": 4,
+          "title": "Das SWL-Logbuch"
+        },
+        {
+          "abstract": null,
+          "id": "se_d72663bfed21",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_qsl",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_e817914e3700",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_qsl"
+            },
+            {
+              "object_id": "sl_21a170f54b2a",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_qsl"
+            }
+          ],
+          "sort_order": 5,
+          "title": "SWL-QSL-Karten"
+        }
+      ],
+      "sort_order": 7,
+      "title": "Praktischer Empfangsbetrieb"
+    },
+    {
+      "abstract": "Hören ist grundsätzlich frei, doch das Abhörverbot und die Geheimhaltungspflicht setzen klare Grenzen. Wir unterscheiden außerdem Höramateur, Funkamateur und Amateurfunkstelle.",
+      "id": "ch_d0bda989f6b4",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "swl_recht",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_64718d89b103",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_rechtsgrundlagen",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_f1b8664b90f1",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_rechtsgrundlagen"
+            },
+            {
+              "object_id": "sl_eb83e93bc8f8",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_rechtsgrundlagen"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Rechtsgrundlagen des Amateurfunks"
+        },
+        {
+          "abstract": null,
+          "id": "se_6707757281d4",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_abhoerverbot",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_b6dfe94a40f2",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_abhoerverbot"
+            },
+            {
+              "object_id": "sl_46dd19f164dc",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_abhoerverbot"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Abhörverbot und Geheimhaltung"
+        }
+      ],
+      "sort_order": 8,
+      "title": "Rechtliche Aspekte"
+    },
+    {
+      "abstract": "Wir betrachten Ablauf und Inhalt der DE-Prüfung, das System der DE-Kennzeichen und den Weg vom Antrag bis zur Urkunde.",
+      "id": "ch_4752c421f741",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "swl_de_kennzeichen_kapitel",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_69f1d3ea46d2",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_de_pruefung",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_24770e8dc2cd",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_de_pruefung"
+            },
+            {
+              "object_id": "sl_cef1b1edea3f",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_de_pruefung"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Die DE-Prüfung"
+        },
+        {
+          "abstract": null,
+          "id": "se_47625d7d3b9d",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_de_kennzeichen",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_4e3b1195b004",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_de_kennzeichen"
+            },
+            {
+              "object_id": "sl_21fea810a8a2",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_de_kennzeichen"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Das DE-Kennzeichen"
+        },
+        {
+          "abstract": null,
+          "id": "se_d6c161d9fa91",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_antrag",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_271e49472029",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_antrag"
+            },
+            {
+              "object_id": "sl_a431ab9cbf8b",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_antrag"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Beantragung und QSL-Vermittlung"
+        }
+      ],
+      "sort_order": 9,
+      "title": "DE-Prüfung und DE-Kennzeichen"
+    },
+    {
+      "abstract": "Bestätigte Hörberichte eröffnen den Weg zum DLD-SWL, zum Deutschen Empfangsmeister und vielleicht später zum eigenen Amateurfunkzeugnis.",
+      "id": "ch_8e7d8bb80260",
+      "identifiers": [
+        {
+          "id_system": "toc_ident",
+          "id_value": "swl_diplome",
+          "preferred": true
+        }
+      ],
+      "metadata": {
+        "video_url": null
+      },
+      "node_type": "curriculum_chapter",
+      "placements": [],
+      "sections": [
+        {
+          "abstract": null,
+          "id": "se_128317b8ce44",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_dld",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_4e477232897e",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_dld"
+            },
+            {
+              "object_id": "sl_4fb24ba580b4",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_dld"
+            }
+          ],
+          "sort_order": 1,
+          "title": "Deutschland-Diplom-SWL"
+        },
+        {
+          "abstract": null,
+          "id": "se_7e995c7ac9e0",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_dem",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_49c94bdde084",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_dem"
+            },
+            {
+              "object_id": "sl_e290f4f054b4",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_dem"
+            }
+          ],
+          "sort_order": 2,
+          "title": "Deutscher Empfangsmeister"
+        },
+        {
+          "abstract": null,
+          "id": "se_c75a01bdc246",
+          "identifiers": [
+            {
+              "id_system": "toc_ident",
+              "id_value": "swl_abschluss",
+              "preferred": true
+            }
+          ],
+          "metadata": {
+            "class": "SWL",
+            "status": "alpha",
+            "video_url": null
+          },
+          "node_type": "curriculum_section",
+          "placements": [
+            {
+              "object_id": "sc_92a9a9d993df",
+              "placement_role": "section_article",
+              "sort_order": 1,
+              "visible_label": "swl_abschluss"
+            },
+            {
+              "object_id": "sl_d11c37216790",
+              "placement_role": "slide_article",
+              "sort_order": 2,
+              "visible_label": "swl_abschluss"
+            }
+          ],
+          "sort_order": 3,
+          "title": "Kursabschluss"
+        }
+      ],
+      "sort_order": 10,
+      "title": "Diplome und nächste Ziele"
+    }
+  ],
+  "id": "ed_92e3660ff86c",
+  "identifiers": [
+    {
+      "id_system": "edition",
+      "id_value": "swl",
+      "preferred": true
+    }
+  ],
+  "metadata": {
+    "edition": "SWL"
+  },
+  "node_type": "curriculum_root",
+  "placements": [],
+  "sort_order": 0,
+  "title": "SWL-Kurs"
+}

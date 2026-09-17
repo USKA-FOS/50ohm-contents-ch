@@ -1,0 +1,133 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "dr_2f88a2beb9db",
+  "identifiers": [
+    {
+      "id_system": "drawing_id",
+      "id_value": "1098",
+      "preferred": true
+    },
+    {
+      "id_system": "file_stem",
+      "id_value": "1098",
+      "preferred": false
+    }
+  ],
+  "language_variants": {
+    "de": {
+      "asset_files": {
+        "svg": "1098.de.svg",
+        "tex": "1098.de.tex"
+      },
+      "review_state": "imported_approved"
+    }
+  },
+  "languages": [
+    "de"
+  ],
+  "metadata": {
+    "asset": {
+      "description_source_path": "contents/drawings/1098.txt",
+      "svg_path": "contents/drawings/1098.svg",
+      "tex_path": "contents/drawings/1098.tex"
+    },
+    "language_asset": {
+      "de.svg": {
+        "canonical_file": "1098.de.svg",
+        "source_path": "contents/drawings/1098.svg"
+      },
+      "de.tex": {
+        "canonical_file": "1098.de.tex",
+        "source_path": "contents/drawings/1098.tex"
+      }
+    },
+    "lifecycle": {
+      "status": "active"
+    },
+    "reconstruction": {
+      "description_canonical_files": {
+        "de": "1098.de.txt"
+      },
+      "description_source_format": "single_description"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/drawings/1098.svg": "0092016d5fa771331007da45ba30d5255efac52fa75ab469a7f04023754da5ca",
+        "contents/drawings/1098.tex": "627977dba27f09ffb92f636577f9a4169f32cae7fb176fd625641e1a7fff4642",
+        "contents/drawings/1098.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "revision": "0ebada583debdfe4dcf699fbb4cbcff04e4bf822",
+      "status": "active"
+    }
+  },
+  "object_type": "drawing",
+  "reconstruction": {
+    "strategy": "render_drawing_assets_and_description",
+    "targets": [
+      {
+        "asset_key": "svg_path",
+        "kind": "asset_file",
+        "path": "contents/drawings/1098.svg"
+      },
+      {
+        "asset_key": "tex_path",
+        "kind": "asset_file",
+        "path": "contents/drawings/1098.tex"
+      },
+      {
+        "kind": "rendered_description_file",
+        "path": "contents/drawings/1098.txt",
+        "slot_keys": [
+          "short_description",
+          "long_description"
+        ]
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_translated"
+    },
+    {
+      "language": "it",
+      "state": "to_be_translated"
+    }
+  ],
+  "source": {
+    "format": "grouped_asset",
+    "key": "1098",
+    "path": "contents/drawings/1098"
+  },
+  "text_slots": [
+    {
+      "slot_key": "short_description",
+      "slot_type": "plain_text",
+      "sort_order": 1,
+      "storage": {
+        "files": {
+          "de": "1098.de.txt"
+        },
+        "kind": "description_file_bundle"
+      },
+      "translation_group_key": "drawing:dr_2f88a2beb9db"
+    },
+    {
+      "slot_key": "long_description",
+      "slot_type": "plain_text",
+      "sort_order": 2,
+      "storage": {
+        "files": {
+          "de": "1098.de.txt"
+        },
+        "kind": "description_file_bundle"
+      },
+      "translation_group_key": "drawing:dr_2f88a2beb9db"
+    }
+  ]
+}

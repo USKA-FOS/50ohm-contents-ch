@@ -1,0 +1,24 @@
+[
+  {
+    "inline_alias": "spiegelfrequenzen_fe1_fe2",
+    "inline_label": "Empfangsfrequenzen, die beide zur selben $f_\\text{ZF}$ führen",
+    "raw_marker": "[picture:806:spiegelfrequenzen_fe1_fe2:Empfangsfrequenzen, die beide zur selben $f_\\text{ZF}$ führen]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "806",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "spiegelfrequenzen_fe1_fe2",
+    "inline_label": null,
+    "raw_marker": "[ref:spiegelfrequenzen_fe1_fe2]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "spiegelfrequenzen_fe1_fe2",
+    "target_object_type": null
+  }
+]

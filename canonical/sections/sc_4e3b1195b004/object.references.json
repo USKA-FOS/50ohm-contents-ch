@@ -1,0 +1,13 @@
+[
+  {
+    "inline_alias": "swl_de_kennzeichen_bereiche",
+    "inline_label": "Bereiche des DE-Kennzeichensystems",
+    "raw_marker": "[table:swl_de_kennzeichen_bereiche:Bereiche des DE-Kennzeichensystems]",
+    "relation_type": "embeds_table",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "table_id",
+    "target_id_value": "swl_de_kennzeichen_bereiche",
+    "target_object_type": "table_object"
+  }
+]

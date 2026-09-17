@@ -1,0 +1,35 @@
+[
+  {
+    "inline_alias": "swl_sporadic_e_ausbreitung",
+    "inline_label": null,
+    "raw_marker": "[ref:swl_sporadic_e_ausbreitung]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "swl_sporadic_e_ausbreitung",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "swl_sporadic_e_ausbreitung",
+    "inline_label": "Brechung von Funkwellen an einem stark ionisierten Bereich der E-Region",
+    "raw_marker": "[picture:733:swl_sporadic_e_ausbreitung:Brechung von Funkwellen an einem stark ionisierten Bereich der E-Region]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "733",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:NH306]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "NH306",
+    "target_object_type": "question"
+  }
+]

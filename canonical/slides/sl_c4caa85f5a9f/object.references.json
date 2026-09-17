@@ -1,0 +1,112 @@
+[
+  {
+    "inline_alias": "a_adc_dac_filter",
+    "inline_label": "A/D- und D/A-Umsetzung mit Anti-Aliasing- und Rekonstruktionsfilter",
+    "raw_marker": "[picture:1131:a_adc_dac_filter:A/D- und D/A-Umsetzung mit Anti-Aliasing- und Rekonstruktionsfilter]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1131",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_adc_dac_filter_aa",
+    "inline_label": "A/D- und D/A-Umsetzung mit Anti-Aliasing- und Rekonstruktionsfilter",
+    "raw_marker": "[picture:1131:a_adc_dac_filter_aa:A/D- und D/A-Umsetzung mit Anti-Aliasing- und Rekonstruktionsfilter]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1131",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF622]",
+    "relation_type": "references_question",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF622",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF623]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF623",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_anit_alias",
+    "inline_label": "Anti-Aliasing-Filter, A/D-Umsetzer und Taktgenerator",
+    "raw_marker": "[picture:1132:a_anit_alias:Anti-Aliasing-Filter, A/D-Umsetzer und Taktgenerator]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "1132",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF620]",
+    "relation_type": "references_question",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF620",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_adc_4bit",
+    "inline_label": "Signal vor dem Rekonstruktionsfilter",
+    "raw_marker": "[picture:300:a_adc_4bit:Signal vor dem Rekonstruktionsfilter]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "300",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_adc_12bit",
+    "inline_label": "Signal nach dem Rekonstruktionsfilter",
+    "raw_marker": "[picture:299:a_adc_12bit:Signal nach dem Rekonstruktionsfilter]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "299",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF624]",
+    "relation_type": "references_question",
+    "sort_order": 9,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF624",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AF625]",
+    "relation_type": "references_question",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AF625",
+    "target_object_type": "question"
+  }
+]
