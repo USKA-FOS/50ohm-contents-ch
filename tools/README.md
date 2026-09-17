@@ -83,17 +83,19 @@ These commands cover initialization and model validation. In particular,
 `export_canonical_model.py --replace-existing-canonical` must not be used to
 refresh a multilingual canonical tree.
 
-### Validate and incrementally import German `main`
+### Validate and incrementally import German `review/de/main`
 
 ```bash
-git fetch origin main
+git fetch origin review/de/main
 python tools/validate_canonical_model.py
 python tools/import_incremental_german_source.py
-python tools/import_incremental_german_source.py --apply
+python tools/import_incremental_german_source.py \
+  --review-workbook work/source_import_audits/german-source-import-review.xlsx \
+  --apply
 ```
 
 The first importer command is a dry-run. By default, the source is the local
-`origin/main` commit, archived without changing the current branch. Apply
+`origin/review/de/main` commit, archived without changing the current branch. Apply
 requires a clean `canonical/`, preserves ids and target payloads, marks changed
 target states for review, deactivates missing objects as `to_be_deleted`, and
 writes the accepted audit under `review/source_imports/`.
@@ -101,6 +103,28 @@ writes the accepted audit under `review/source_imports/`.
 PNG, SVG and TeX changes are recorded as `media_review_required`; they
 invalidate existing localized media variants. Image/SVG-only changes do so
 without creating artificial text units.
+
+Before the first controlled import, export an explicit review workbook:
+
+```bash
+python tools/export_german_source_import_review.py \
+  --source-ref origin/review/de/main \
+  --output work/source_import_audits/german-source-import-review.xlsx
+```
+
+This command is read-only for `canonical/`. It lists only objects whose source
+content differs from the canonical content, plus new and missing objects. Each
+row contains `new`, `updated`, or `deleted`, the affected source suffixes, the
+source commit and a `decision` column. HTML candidates are initialized with
+`to_be_imported`. Modified or deleted German `.tex` candidates require an
+explicit decision; newly added `.tex` files are the exception and are
+pre-initialized for import.
+
+The workbook is the review boundary. Do not run the importer with `--apply`
+until the workbook has been checked and the accepted workbook is recorded with
+the import manifest. Every later campaign must use the previously accepted
+source revision as its baseline; a dry-run must never silently redefine that
+baseline.
 
 Ambiguous renames, stale target HTML structure and missing complete editions
 block apply. Questions are outside this importer’s scope.

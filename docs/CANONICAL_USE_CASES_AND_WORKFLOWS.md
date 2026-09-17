@@ -181,32 +181,43 @@ without destructively resetting the canonical baseline.
 
 1. ensure the canonical repository is clean;
 2. create a Git tag before the import;
-3. fetch `origin/main`; only changes merged into `main` are import candidates;
-4. run `python tools/import_incremental_german_source.py` without `--apply`;
-5. inspect its complete dry-run audit and resolve every blocking ambiguity;
-6. rerun the same command with `--apply`;
-7. validate the canonical tree and rebuild the German site;
-8. commit the German import together with its accepted audit under
+3. fetch `origin/review/de/main`; only changes present in that review branch
+   are import candidates until this policy changes;
+4. export `work/source_import_audits/german-source-import-review.xlsx`;
+5. inspect every candidate and record an explicit decision, especially for
+   modified or deleted German `.tex` files;
+6. run `python tools/import_incremental_german_source.py` without `--apply`;
+7. compare the importer dry-run with the accepted workbook;
+8. resolve every blocking ambiguity and only then apply the approved rows;
+9. validate the canonical tree and rebuild the German site;
+10. commit the German import together with its accepted audit under
    `review/source_imports/`;
-9. use that accepted audit as the exact FR/IT translation scope;
-10. process changed drawing TeX through the drawing-specific workflow;
-11. review and commit each target language;
-12. rebuild multilingual sites and create the post-validation tag.
+11. use that accepted audit as the exact FR/IT translation scope;
+12. process changed drawing TeX through the drawing-specific workflow;
+13. review and commit each target language;
+14. rebuild multilingual sites and create the post-validation tag.
 
 Default command sequence:
 
 ```bash
-git fetch origin main
+git fetch origin review/de/main
 python tools/validate_canonical_model.py
+python tools/export_german_source_import_review.py \
+  --source-ref origin/review/de/main \
+  --output work/source_import_audits/german-source-import-review.xlsx
 python tools/import_incremental_german_source.py
-python tools/import_incremental_german_source.py --apply
+python tools/import_incremental_german_source.py \
+  --review-workbook work/source_import_audits/german-source-import-review.xlsx \
+  --apply
 python tools/validate_canonical_model.py
 python tools/run_multilingual_canonical_build.py --language de
 ```
 
-`--source-ref` defaults to the local `origin/main` commit. `--source-root` is
-available for an explicit checkout, but review branches are not implicitly
-combined with `main`.
+`--source-ref` defaults to the local `origin/review/de/main` commit.
+`--source-root` is available for an explicit checkout, but review branches are
+not implicitly combined with `main`. After an accepted import, its source
+commit is the baseline for the next comparison; the canonical tree remains
+the authoritative content model.
 
 ### Business Rule For Deletion
 
@@ -303,7 +314,7 @@ Implemented and validated in the current system:
 - translation-unit extraction from object-centric canonical content;
 - translation result reinjection into canonical target-language payloads;
 - localized structure translation storage in `edition.<lang>.json`.
-- non-destructive German import from `origin/main`, including dry-run audit;
+- non-destructive German import from `origin/review/de/main`, including dry-run audit;
 - stable-id preservation and exact-content rename detection;
 - reversible `to_be_deleted` lifecycle handling;
 - HTML structure alignment and unchanged-segment translation preservation;

@@ -7,12 +7,15 @@ import json
 import re
 import shutil
 import subprocess
+import sys
 import tarfile
 import tempfile
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+
+from openpyxl import load_workbook
 
 try:
     from .validate_canonical_model import validate_canonical
@@ -60,6 +63,55 @@ def read_json(path: Path) -> Any:
 def write_json(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
+
+
+def load_review_decisions(path: Path, changes: list[dict[str, Any]]) -> dict[tuple[str, str], str]:
+    workbook = load_workbook(path, read_only=True, data_only=True)
+    try:
+        sheet = workbook.active
+        rows = sheet.iter_rows(values_only=True)
+        header = next(rows, None)
+        if not header:
+            raise RuntimeError(f"Review workbook is empty: {path}")
+        columns = {str(value).strip(): index for index, value in enumerate(header) if value is not None}
+        required = {"object_id", "object_type", "source_key", "change_kind", "decision"}
+        missing = sorted(required - set(columns))
+        if missing:
+            raise RuntimeError(f"Review workbook is missing columns: {', '.join(missing)}")
+        decisions: dict[tuple[str, str], str] = {}
+        for row_number, row in enumerate(rows, start=2):
+            if not any(value not in (None, "") for value in row):
+                continue
+            key = (
+                str(row[columns["object_type"]] or "").strip(),
+                str(row[columns["source_key"]] or "").strip(),
+            )
+            if not key[0] or not key[1]:
+                raise RuntimeError(f"Review workbook row {row_number} has no object identity")
+            if key in decisions:
+                raise RuntimeError(f"Review workbook contains duplicate object: {key}")
+            decisions[key] = str(row[columns["decision"]] or "").strip()
+        expected = {
+            (str(change["object_type"]), str(change["source_key"]))
+            for change in changes
+            if change["action"] != "unchanged"
+        }
+        unknown = sorted(set(decisions) - expected)
+        missing_candidates = sorted(expected - set(decisions))
+        if unknown:
+            raise RuntimeError(f"Review workbook contains unknown candidates: {unknown[:5]}")
+        if missing_candidates:
+            raise RuntimeError(f"Review workbook omits candidates: {missing_candidates[:5]}")
+        return decisions
+    finally:
+        workbook.close()
+
+
+def decision_allows_import(change: dict[str, Any], decisions: dict[tuple[str, str], str]) -> bool:
+    # New source objects are safe to create without an additional approval.
+    if change["action"] == "added":
+        return True
+    return decisions.get((str(change["object_type"]), str(change["source_key"]))) == "to_be_imported"
 
 
 def sha256_bytes(payload: bytes) -> str:
@@ -782,9 +834,6 @@ def build_plan(
                 alignment[language] = {"safe": False, "error": str(exc)}
                 html_errors.append(f"{change['object_id']}:{language}: {exc}")
         change["html_alignment"] = alignment
-    summary: dict[str, int] = {}
-    for change in changes:
-        summary[change["action"]] = summary.get(change["action"], 0) + 1
     object_ids = {
         (change["object_type"], change["source_key"]): str(change["object_id"])
         for change in changes
@@ -793,6 +842,31 @@ def build_plan(
     structure_entries, structure_payloads, translation_node_ids, structure_errors = plan_structures(
         source_root, canonical_root, object_ids
     )
+    for entry in structure_entries:
+        if entry["action"] == "unchanged":
+            continue
+        payload = structure_payloads.get(str(entry["edition"]))
+        meta = (payload or {}).get("meta") or {}
+        changes.append(
+            {
+                "action": "added" if entry["action"] == "added" else "changed",
+                "object_id": str(
+                    meta.get(
+                        "id",
+                        stable_node_id("ed", str(entry["edition"]), "curriculum_root", str(entry["edition"])),
+                    )
+                ),
+                "object_type": "curriculum_structure",
+                "source_key": str(entry["edition"]),
+                "previous_source_key": None,
+                "changed_suffixes": [".json"],
+                "translation_required": True,
+                "media_review_required": False,
+            }
+        )
+    summary: dict[str, int] = {}
+    for change in changes:
+        summary[change["action"]] = summary.get(change["action"], 0) + 1
     report = {
         "schema_version": 1,
         "workflow": "incremental_german_source_import",
@@ -825,9 +899,12 @@ def run_import(
     apply: bool = False,
     report_path: Path | None = None,
     source_revision_override: str | None = None,
+    review_workbook: Path | None = None,
 ) -> dict[str, Any]:
     if apply:
         ensure_clean_canonical()
+        if review_workbook is None:
+            raise RuntimeError("Applying a German source import requires --review-workbook.")
     report, source_records, canonical_records, structure_payloads = build_plan(
         source_root,
         canonical_root,
@@ -835,15 +912,26 @@ def run_import(
     )
     if apply and (report["ambiguous_rename_candidates"] or report["blocking_errors"]):
         raise RuntimeError("Import plan contains blocking ambiguities or structural errors; inspect the dry-run audit.")
+    decisions = load_review_decisions(review_workbook, report["changes"]) if apply and review_workbook else {}
     if apply:
         rename_lookup = {
             (change["object_type"], change["source_key"]): (change["object_type"], change["previous_source_key"])
             for change in report["changes"] if change["action"] == "renamed"
         }
+        approved_structures: set[str] = set()
         for change in report["changes"]:
             identity = (change["object_type"], change["source_key"])
             action = change["action"]
             if action == "unchanged":
+                continue
+            if not decision_allows_import(change, decisions):
+                change["import_decision"] = decisions.get((str(change["object_type"]), str(change["source_key"])), "")
+                change["imported"] = False
+                continue
+            change["import_decision"] = "to_be_imported" if action == "added" else decisions[(str(change["object_type"]), str(change["source_key"]))]
+            change["imported"] = True
+            if change["object_type"] == "curriculum_structure":
+                approved_structures.add(str(change["source_key"]))
                 continue
             if action == "missing":
                 change["review_state_transitions"] = mark_missing(canonical_records[identity], report["source_revision"])
@@ -859,11 +947,18 @@ def run_import(
                 bool(change["media_review_required"]),
             )
             change.update(details)
-        apply_structures(canonical_root, structure_payloads, report["structures"])
+        apply_structures(
+            canonical_root,
+            {edition: payload for edition, payload in structure_payloads.items() if edition in approved_structures},
+            [entry for entry in report["structures"] if str(entry["edition"]) in approved_structures],
+        )
         post_validation = validate_canonical(canonical_root)
         if not post_validation["valid"]:
             raise RuntimeError(f"Post-import canonical validation failed: {post_validation['errors'][:5]}")
         report["applied"] = True
+        report["review_workbook"] = str(review_workbook)
+        report["imported_change_count"] = sum(1 for change in report["changes"] if change.get("imported"))
+        report["skipped_change_count"] = sum(1 for change in report["changes"] if change["action"] != "unchanged" and not change.get("imported"))
         report["post_validation"] = {"object_count": post_validation["object_count"], "error_count": 0}
     if report_path is None:
         revision_label = re.sub(r"[^0-9A-Za-z._-]", "_", report["source_revision"][:40])
@@ -891,28 +986,38 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Non-destructively import a newer German source tree into canonical Git.")
     source = parser.add_mutually_exclusive_group()
     source.add_argument("--source-root", type=Path, help="Checkout containing contents/ and toc/.")
-    source.add_argument("--source-ref", default="origin/main", help="Git ref to import without creating a checkout (default: origin/main).")
+    source.add_argument(
+        "--source-ref",
+        default="origin/review/de/main",
+        help="Git ref to import without creating a checkout (default: origin/review/de/main).",
+    )
     parser.add_argument("--canonical-root", type=Path, default=CANONICAL_ROOT)
     parser.add_argument("--report", type=Path)
+    parser.add_argument("--review-workbook", type=Path, help="Validated candidate workbook required with --apply.")
     parser.add_argument("--apply", action="store_true", help="Apply the validated plan. The default is dry-run.")
     args = parser.parse_args()
-    temporary = None
-    revision_override = None
-    if args.source_root:
-        source_root = args.source_root.resolve()
-    else:
-        source_root, revision_override, temporary = resolve_source_ref(args.source_ref)
     try:
-        report = run_import(
-            source_root,
-            canonical_root=args.canonical_root.resolve(),
-            apply=args.apply,
-            report_path=args.report.resolve() if args.report else None,
-            source_revision_override=revision_override,
-        )
-    finally:
-        if temporary is not None:
-            temporary.cleanup()
+        temporary = None
+        revision_override = None
+        if args.source_root:
+            source_root = args.source_root.resolve()
+        else:
+            source_root, revision_override, temporary = resolve_source_ref(args.source_ref)
+        try:
+            report = run_import(
+                source_root,
+                canonical_root=args.canonical_root.resolve(),
+                apply=args.apply,
+                report_path=args.report.resolve() if args.report else None,
+                source_revision_override=revision_override,
+                review_workbook=args.review_workbook.resolve() if args.review_workbook else None,
+            )
+        finally:
+            if temporary is not None:
+                temporary.cleanup()
+    except (OSError, RuntimeError, subprocess.CalledProcessError) as exc:
+        print(f"import_error: {exc}", file=sys.stderr)
+        raise SystemExit(2) from None
     print(f"report={report['report_path']}")
     print(json.dumps(report["summary"], indent=2, sort_keys=True))
     print(f"translation_objects={len(report['translation_object_ids'])}")
