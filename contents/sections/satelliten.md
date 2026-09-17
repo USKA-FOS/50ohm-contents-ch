@@ -1,7 +1,7 @@
 **IN BEARBEITUNG**
 
 <attention>
-Aufgrund der von Satelliten verwendeten Frequenzen setzt der Amateurfunk über Satelliten leider eine HB9-Konzession voraus. Da es hier auch um Vorschriften und Betriebstechnik geht, wird dieses Thema im HB3-Kurs behandelt.
+Aufgrund der von Satelliten verwendeten Frequenzen setzt der Amateurfunk über Satelliten leider eine HB9-Konzession voraus. Da es hier vorwiegend um Vorschriften und Betriebstechnik geht, wird dieses Thema bereits im HB3-Kurs behandelt.
 </attention>
 
 <margin>
