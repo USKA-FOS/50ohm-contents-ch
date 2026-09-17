@@ -9,7 +9,7 @@
     {{ ui('release_label') }}: <strong>{{ release_id|e }}</strong>
     {% if feedback_url %}
       &middot;
-      <a style="color: inherit;" data-feedback-link data-feedback-base="{{ feedback_url|e }}" href="{{ feedback_url|e }}">
+      <a style="color: inherit;" data-feedback-link data-feedback-base="{{ feedback_url|e }}" href="{{ feedback_url|e }}" target="_blank" rel="noopener noreferrer">
         {{ ui('feedback_button') }}
       </a>
     {% endif %}

@@ -6,7 +6,7 @@
   <div class="header-beta-disclaimer small">
     <p>{{ ui('beta_disclaimer') }}</p>
     {% if feedback_url %}
-      <a class="btn btn-sm btn-outline-dark" data-feedback-link data-feedback-base="{{ feedback_url|e }}" href="{{ feedback_url|e }}">
+      <a class="btn btn-sm btn-outline-dark" data-feedback-link data-feedback-base="{{ feedback_url|e }}" href="{{ feedback_url|e }}" target="_blank" rel="noopener noreferrer">
         {{ ui('feedback_button') }}
       </a>
     {% endif %}
