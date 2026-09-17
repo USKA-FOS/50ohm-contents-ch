@@ -3,6 +3,14 @@
 This document describes the current workflow for localizing text embedded in
 canonical drawing TeX assets.
 
+`canonical/` is authoritative. The legacy-compatible source directories
+`contents/`, `latex/`, `src/`, and `toc/` are retained as source and generator
+support trees; they are not alternate canonical storage. A modification in
+one of those directories must be explicitly reviewed and imported into
+`canonical/` before it is used for a multilingual build. The workflow below
+reads canonical drawing objects and writes localized assets back into the
+corresponding canonical drawing object.
+
 ## 1. Scope
 
 Some drawing objects contain user-visible text inside `*.de.tex` files. The
@@ -358,10 +366,10 @@ Required workstation tools:
 
 Required repository support files:
 
-- `latex_deleted/FiftyOhm.cls`
-- `latex_deleted/DARC-ausbildungsmaterialien.sty`
-- `latex_deleted/settings.tex`
-- `latex_deleted/settings-pre.tex`
+- `latex/FiftyOhm.cls`
+- `latex/DARC-ausbildungsmaterialien.sty`
+- `latex/settings.tex`
+- `latex/settings-pre.tex`
 
 The renderer also copies the generated SVG files to:
 

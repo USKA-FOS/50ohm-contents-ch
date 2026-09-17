@@ -1,5 +1,18 @@
 # Content Model Tools
 
+## Source Tree and Canonical Authority
+
+`canonical/` is the authoritative model for the content represented by this
+repository. The sibling directories `contents/`, `latex/`, `src/`, and `toc/`
+are source and generator-support trees retained for synchronization,
+comparison, and import workflows. They are not a second canonical model.
+
+Changes made in one of these source trees must be reviewed and explicitly
+imported into `canonical/` by the appropriate importer. No build or validation
+tool may silently overwrite canonical objects from these directories. The
+canonical tree is therefore the reference used for multilingual staging and
+reproducible builds.
+
 ## Current Tool
 
 ### Build the validation SQLite database and full inventory
@@ -447,10 +460,10 @@ System dependencies required on the workstation:
 
 Repository-local support files also required:
 
-- `latex_deleted/FiftyOhm.cls`
-- `latex_deleted/DARC-ausbildungsmaterialien.sty`
-- `latex_deleted/settings.tex`
-- `latex_deleted/settings-pre.tex`
+- `latex/FiftyOhm.cls`
+- `latex/DARC-ausbildungsmaterialien.sty`
+- `latex/settings.tex`
+- `latex/settings-pre.tex`
 
 The generated review copies are not authoritative canonical data. They exist
 only to support the visual audit of remaining untranslated or incorrectly
