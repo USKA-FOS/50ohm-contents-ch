@@ -1,5 +1,9 @@
 **IN BEARBEITUNG**
 
+<attention>
+Aufgrund der von Satelliten verwendeten Frequenzen setzt der Amateurfunk über Satelliten leider eine HB9-Konzession voraus. Da es hier auch um Vorschriften und Betriebstechnik geht, wird dieses Thema im HB3-Kurs behandelt.
+</attention>
+
 <margin>
 [photo:124:n_satellit_oscar1:Modell des ersten Amateurfunksatelliten OSCAR 1, der 1961 für 22 Tage aus dem Orbit der Erde eine Bake im $\qty{2}{\meter}$-Band sendete und von 570 Funkamateuren aus 28 Ländern gehört wurde]
 </margin>
@@ -68,10 +72,6 @@ Im Amateurfunkdienst über Satelliten gilt eine Ausnahme von der Pflicht, nur of
 
 
 %Im deutschen Recht - nicht aber international - gilt diese Regelung auch für die Steuersignale an automatische und fernbediente Stationen sowie Remote-Stationen. Entsprechende Frage VD104 gelöscht.
-
-<attention>
-Aufgrund der von Satelliten verwendeten Frequenzen setzt der Amateurfunk über Satelliten eine HB9-Konzession voraus.
-</attention>
 
 ---
 
