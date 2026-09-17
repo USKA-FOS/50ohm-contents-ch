@@ -17,5 +17,9 @@ Im letzten Schritt 3 addieren wir alle verbleibenden Widerstandswerte der Reihen
 [picture:818:e_widerstandsnetzwerk_schritt3:Schritt 3 - Reihenschaltung zusammengefasst]
 </margin>
 
+<indepth>
+Der so berechnete Gesamtwiderstand wird oft auch als *Ersatzwiderstand* bezeichnet, weil sich die gesamte Schaltung durch den Ersatzwiderstand ersetzen lässt.
+</indepth>
+
 [question:ED116]
 [question:ED114]

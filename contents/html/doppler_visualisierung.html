@@ -1,0 +1,179 @@
+<div class="doppler-widget">
+    <style>
+        .doppler-widget {
+            font-family: Arial, sans-serif;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .doppler-widget *,
+        .doppler-widget *::before,
+        .doppler-widget *::after {
+            box-sizing: border-box;
+        }
+        .doppler-widget h2 {
+            margin: 0 0 10px 0;
+            font-size: 1.3em;
+            text-align: center;
+        }
+        .doppler-widget .dw-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #2a2a35;
+            padding: 16px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            max-width: 100%;
+            width: 800px;
+        }
+        .doppler-widget canvas {
+            border: 2px solid #4e4e5a;
+            border-radius: 8px;
+            background-color: #111;
+            display: block;
+            width: 100%;
+            height: auto;
+            max-width: 800px;
+        }
+        .doppler-widget .dw-controls {
+            margin-top: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px 20px;
+            align-items: center;
+            justify-content: center;
+        }
+        .doppler-widget label {
+            font-weight: bold;
+        }
+        .doppler-widget input[type="range"] {
+            cursor: pointer;
+        }
+        .doppler-widget .dw-value {
+            display: inline-block;
+            width: 50px;
+            color: #00ffcc;
+        }
+        .doppler-widget button {
+            padding: 5px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+            border: none;
+            background: #00ffcc;
+            color: #111;
+            font-weight: bold;
+        }
+    </style>
+
+    <h2>Visualisierung des Dopplereffekts</h2>
+
+    <div class="dw-container">
+        <canvas class="dw-canvas" width="800" height="400"></canvas>
+
+        <div class="dw-controls">
+            <div>
+                <label>Geschwindigkeit der Quelle: </label>
+                <input type="range" class="dw-speed-slider" min="0" max="5" step="0.1" value="1.5">
+                <span class="dw-speed-value dw-value">1.5</span>
+            </div>
+            <button type="button" class="dw-reset-btn">Reset</button>
+        </div>
+    </div>
+
+    <script>
+    (function () {
+        const root = document.currentScript.closest('.doppler-widget');
+        const canvas = root.querySelector('.dw-canvas');
+        const ctx = canvas.getContext('2d');
+        const speedSlider = root.querySelector('.dw-speed-slider');
+        const speedValue = root.querySelector('.dw-speed-value');
+        const resetBtn = root.querySelector('.dw-reset-btn');
+
+        // Parameter der Simulation
+        let source = {
+            x: 50,
+            y: canvas.height / 2,
+            vx: parseFloat(speedSlider.value)
+        };
+
+        const waveSpeed = 3; // Ausbreitungsgeschwindigkeit der Wellenfronten (c)
+        let waves = [];      // Array zur Speicherung der emittierten Wellenringe
+        let frameCount = 0;
+        const emissionRate = 20; // Alle x Frames wird eine neue Welle erzeugt
+
+        // Event-Listener für Slider
+        speedSlider.addEventListener('input', (e) => {
+            source.vx = parseFloat(e.target.value);
+            speedValue.textContent = source.vx.toFixed(1);
+        });
+
+        // Event-Listener für Reset
+        resetBtn.addEventListener('click', () => {
+            waves = [];
+            source.x = 50;
+        });
+
+        function animate() {
+            // Hintergrund leeren
+            ctx.fillStyle = '#111';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // Bewegung der Quelle aktualisieren
+            source.x += source.vx;
+
+            // Wenn die Quelle den rechten Rand verlässt, fängt sie links wieder an
+            if (source.x > canvas.width + 20) {
+                source.x = -20;
+            }
+
+            // Neue Welle emittieren
+            frameCount++;
+            if (frameCount % emissionRate === 0) {
+                waves.push({
+                    x: source.x,
+                    y: source.y,
+                    radius: 0
+                });
+            }
+
+            // Wellen zeichnen und aktualisieren
+            for (let i = waves.length - 1; i >= 0; i--) {
+                let w = waves[i];
+                w.radius += waveSpeed; // Welle dehnt sich aus
+
+                // Transparenz nimmt mit der Größe ab (Dämpfung)
+                let maxRadius = Math.max(canvas.width, canvas.height);
+                let alpha = 1 - (w.radius / maxRadius);
+
+                if (alpha <= 0) {
+                    waves.splice(i, 1); // Entferne alte Wellen aus dem Speicher
+                    continue;
+                }
+
+                ctx.beginPath();
+                ctx.arc(w.x, w.y, w.radius, 0, Math.PI * 2);
+                ctx.strokeStyle = `rgba(0, 255, 204, ${alpha})`;
+                ctx.lineWidth = 2;
+                ctx.stroke();
+            }
+
+            // Schallquelle zeichnen (roter Punkt)
+            ctx.beginPath();
+            ctx.arc(source.x, source.y, 8, 0, Math.PI * 2);
+            ctx.fillStyle = '#ff3366';
+            ctx.shadowBlur = 10;
+            ctx.shadowColor = '#ff3366';
+            ctx.fill();
+            ctx.shadowBlur = 0; // Shadow-Reset für Performance
+
+            requestAnimationFrame(animate);
+        }
+
+        // Start der Simulation
+        animate();
+    })();
+    </script>
+</div>

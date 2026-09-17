@@ -1,21 +1,29 @@
+% 1.6 + 4.4 zusammenlegen (eines Streichen) oder sauberer trennen. Saubere Trennung durch EXR und YPA besprochen.
+
 %<margin>
 %[photo:57:n_ausbildungsrufzeichen_ausbildungsfunkbetrieb:Ausbildungsfunkbetrieb verbindet oft die Generationen]
 %</margin>
 % Wir haben leider kein gesichertes Einverständnis der Personen... TODO neues bild.
+% Kommi zu Photo 57 ist von DARC. YPA könnte evtl ein passendes Foto liefern, wenn gewünscht. Mit 3 Generationen.
 
-Wie wir schon zu Beginn des Kurses gelernt haben, ist jeder in Deutschland zugelassene Funkamateur der Klassen E und A automatisch auch Ausbilder. Durch die Verwendung des Rufzeichenzusatz "/T" bzw. "/Trainee" wird jedes personengebundene Rufzeichen zu einem Ausbildungsrufzeichen. Dasselbe gilt für Rufzeichen von Klubstationen. Der Auszubildende darf damit Funkbetrieb unter Aufsicht und im Berechtigungsumfang des Ausbilders durchführen. 
+Wie wir schon zu Beginn des Kurses in [sec:ausbildungsfunk] gelernt haben, kann das Rufzeichen von Klubstationen zu Ausbildung benutzt werden, wenn eine *Sprecherlaubnis* vorliegt. Der Auszubildende darf damit Funkbetrieb unter ständiger Aufsicht eines Funkamateurs CEPT (HB9) durchführen.
+% Leider aktuell nicht korrekt: unter Aufsicht und im Berechtigungsumfang des Ausbilders durchführen. 
 
-[question:VD302]
-[question:BD211]
-[question:VD304]
+---
+<law>
+[BAKOM-Merkblatt 1.2 Sprechfreigabe für Personen ohne Fähigkeitszeugnis](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk)
+
+  
+[Sprecherlaubnis bestellen beim BAKOM](https://www.bakom.admin.ch/de/amateurfunk#Gesuch-Sprecherlaubnis-f%C3%BCr-Funkamateurclubs)
+</law>
+
+Der Verein muss beim BAKOM mindestens zwei Wochen vorher schriftlich eine Bewilligung (Sprecherlaubnis oder auch Sprechfreigabe genannt) einholen. Die verantwortlichen Stationsleiter müssen im Gesuch klar bezeichnet werden.
+
+Der Auszubildende benutzt dann das Rufzeichen des Vereins und hängt den Zusatz "operator" und seinen Vornamen an. Ein Auszubildender vom Verein HB9FZ sagt beispielsweise als Rufzeichen "HB9FZ operator Hans". Damit ist für andere erkennbar, dass ein Auszubildender funkt.
+
+Nimmt der Verein unter seinem Rufzeichen an einem Wettbewerb teil, muss der Name des Operators nicht übermittelt werden.
 [question:BD210] 
+[question:BD209] 
+[question:BD211]
 
-Der Ausbildungsfunkbetrieb ist für Personen vorgesehen, die nicht Inhaber eines entsprechenden Amateurfunkzeugnisses sind. Das Ausbildungsrufzeichen darf nicht vom Ausbilder selbst für eigene Aussendungen verwendet werden. Der Ausbildungsfunkbetrieb dient der praktischen Vorbereitung auf das Ablegen der fachlichen Prüfung zum Erwerb eines Amateurfunkzeugnisses.
-
-[question:VD301]
-
-Der Ausbilder muss sich stets in unmittelbarer Nähe des Auszubildenden aufhalten und ihn bei der Bedienung des Funkgerätes und der Betriebsabwicklung anleiten. Denn nur das Aufhalten in unmittelbarer Nähe ermöglicht es dem Ausbilder, regulierend in den Ausbildungsfunkbetrieb einzugreifen. Das kann im Extremfall auch das Abschalten des Senders bedeuten. Die Betreuung eines Auszubildenden über eine größere Entfernung oder per Funk, von einem anderen Standort aus, ist nicht gestattet. Denn hierbei ist die unmittelbare Anleitung und Aufsicht nicht gewährleistet.
-
-Wenn die BNetzA es verlangt, muss der Ausbilder der Behörde gegenüber Auskunft über "Art und Umfang" des Ausbildungsbetriebs geben.
-
-[question:VD305] 
+% Erklärtext zu BD211?

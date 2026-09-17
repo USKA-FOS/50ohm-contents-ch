@@ -1,3 +1,5 @@
+% Issue 14 zu Titel eröffnet (Der Titel heisst Antennenformen II. Es gibt aber kein Kapitel Antennenformen I)
+
 Wir haben bereits einige Antennenformen kennen gelernt. Jetzt wollen wir nun die Eigenschaften der verscheidenen Antennen genauer besprechen. Mittengespeiste Dipole sind *symmetrische Antennen*. Unter einer symmetrischen Antenne verstehen wir eine Antenne, die im Idealfall im Betrieb an beiden Polen (z. B. den Einspeisepunkten jedes Schenkels eines Dipols) bis auf das Vorzeichen die gleiche Spannung gegenüber Erde aufweist. Dies ist bei Dipolen einschließlich Faltdipol und auch den darauf basierenden Yagi-Uda-Antennen der Fall. Eine Groundplane-Antenne hingegen weist am Anschlusspunkt der Radiale idealerweise Erdpotential auf (also eine Spannung von Null gegenüber der Erde) und zählt damit nicht zu den symmetrischen Antennen.
 
 <indepth>
@@ -85,11 +87,12 @@ Aufgrund der zum Dipol senkrechten Abstrahlcharakteristik kann ein vertikal mont
 
 ---
 
-Einen Spezialfall einer Vertikalantenne stellt die gegen Erde (oder einer Fahrzeugkarosserie) erregte $5/8 \lambda$-Antenne dar (vgl. Abbildung [ref:e_fuenf_achtel]). Hier ist die Länge gerade so gewählt, dass sich ein optimaler Gewinn ergibt.
+Einen Spezialfall einer Vertikalantenne stellt die gegen Erde (oder einer Fahrzeugkarosserie) erregte $\frac{5}{8}\lambda$-Antenne dar (vgl. Abbildung [ref:e_fuenf_achtel]). Hier ist die Länge mit umgerechnet $\qty{0.625}{\lambda}$ aus einem bestimmten Grund gewählt. Der Strahler ist damit mechanisch etwa 2,5-mal so lang wie der einer normalen $\frac{\lambda}{4}$-Groundplane ($\qty{0.25}{\lambda}$). Die größere Strahlerlänge verändert das vertikale Strahlungsdiagramm vorteilhaft, wie in Abbildung [ref:a_5_8_lambda_strahlung] dargestellt: Mehr von der abgestrahlten Leistung wird in Richtung Horizont gebündelt, weniger wird nach oben oder unten abgestrahlt. Das ergibt bei terrestrischen Verbindungen bei gleicher Leistung in der Regel eine höhere Reichweite. Eine Strahlerlänge von etwa $\frac{5}{8} \lambda$ ist für diesen Effekt optimal: Wird der Strahler weiter verlängert, geht wieder mehr Leistung nach oben und unten verloren.
 
 [question:EG108]
 
 <margin>
+[picture:1134:a_5_8_lambda_strahlung:Strahlungsmuster und Stromverteilung von Vertikalantennen bei idealer Erde]
 [picture:650:e_fuenf_achtel:$5/8 \lambda$-Antenne]
 </margin>
 

@@ -1,6 +1,28 @@
-Im vorherigen Kapitel haben wir bereits gelernt, dass für Funkamateure der Klasse N die Strahlungsleistung begrenzt ist, die eine Sendeantenne abgeben darf. Für die Klassen E und A hingegen ist auf den allermeisten Bändern nicht die Strahlungsleistung beschränkt, dafür aber die *Senderausgangsleistung*. Nur für einige wenige Frequenzbereiche gilt auch für die Klasse A eine Begrenzung der Strahlungsleistung.
+Das Thema Vorschriften betreffend die Ausgangsleistung wurde bereits im Kapitel [sec:frequenzzuteilung] ausführlich behandelt. 
+Hier folgt zur Erinnerung nur noch eine kurze Zusammenfassung. Dann betrachten wir hier technische Aspekte der Ausgangsleistung.
 
-Die Senderausgangsleistung ist die Leistung, die ein Funkgerät am Antennenausgang abgibt, bevor Zusatzgeräte durchlaufen werden, wie z. B. ein externes SWR-Meter oder Anpassgeräte. Sie wird als sogenannte *peak envelope power (PEP)* angegeben. Für die Klasse N ist abweichend nicht die Senderausgangsleistung, sondern die tatsächlich von der Antenne abgegebene Strahlungsleistung maßgeblich. Wir werden darauf in einem späteren Kapitel zurückkommen, wenn wir uns im Zusammenhang mit dem Personenschutz die Strahlungsleistung von Antennen besprechen. Viele Funkgeräte verfügen über ein *Power-Meter*, das die aktuelle Senderausgangsleistung anzeigt. Es ist beispielsweise mit "P" oder "PO" oder "PWR" beschriftet.
+---
+
+Die zulässige Senderausgangsleistung unterscheidet sich je nach Konzessionklasse und Frequenzbereich.
+Die maximal zulässige Senderausgangsleistung (PEP) ist begrenzt:
+
+* Sendekonzession HB3:  100 Watt
+
+* Sendekonzession HB9: 1000 Watt
+
+Auf gewissen Frequenzbändern gibt es bei beiden Konzessionsklassen weitere Einschränkungen, die einzuhalten sind. 
+
+Die detaillierten Frequenzbereiche und Leistungsgrenzen sind auf der [BAKOM-Webseite](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf) aufgeführt. Dieses Hilfsblatt darf an der Prüfung verwendet werden.
+
+<indepth>
+Begrifflichkeiten:
+  
+* die *Strahlungsleistung* ist die Leistung, die eine Sendeantenne abgeben kann. Der Gewinn (gain) der Antenne wird dabei berücksichtigt.
+
+* die *Senderausgangsleistung* ist die am Antennenausgang des Funkgeräts gemessene Leistung. 
+</indepth>
+
+Die Senderausgangsleistung ist die Leistung, die ein Funkgerät am Antennenausgang abgibt, bevor Zusatzgeräte durchlaufen werden, wie z. B. ein externes SWR-Meter oder Anpassgeräte. Sie wird als sogenannte *peak envelope power (PEP)* angegeben. Wir werden darauf in einem späteren Kapitel zurückkommen, wenn wir uns im Zusammenhang mit dem [sec:personenschutzabstand] die Strahlungsleistung von Antennen besprechen. Viele Funkgeräte verfügen über ein *Power-Meter*, das die aktuelle Senderausgangsleistung anzeigt. Es ist beispielsweise mit "P" oder "PO" oder "PWR" beschriftet.
 
 <indepth>
 Um die peak envelope power (PEP) zu ermitteln, misst man - vereinfacht gesagt - am Senderausgang die durchschnittliche Leistung jeder einzelnen Periode der Hochfrequenzschwingung und verwendet dann den höchsten gemessenen Wert. In der Fachsprache nennt man dies die "effektive Wirkleistung am Ausgang einer Sendeendstufe während einer Periode der Hochfrequenzschwingung bei der höchsten Spitze der Modulationshüllkurve". Der selten verwendete deutsche Begriff für PEP ist Hüllkurvenspitzenleistung.
@@ -8,50 +30,50 @@ Um die peak envelope power (PEP) zu ermitteln, misst man - vereinfacht gesagt - 
 
 [question:NF102]
 
----
-
-Die zulässige Senderausgangsleistung unterscheidet sich je nach Klasse und Frequenzbereich. Sie ist in der [Anlage 1 der Amateurfunkverordnung](https://50ohm.de/a1) festgelegt, die als Hilfsmittel bei der Prüfung vorliegt.
-
 <margin>
-[photo:145:ausgangsleistung:Ausschnitt aus der Anlage 1 der Amateurfunkverordnung]
+Im Kapitel [sec:frequenzzuteilung] wurden die Frequenzen der Amateurfunkbänder, die zulässigen Senderausgangsleistungen und weitere Punkte ausführlich behandelt. 
 </margin>
 
-Um die zulässige Sendeleistung aus der Anlage 1 zu ermitteln, sucht man zunächst anhand der Spalte "Frequenzbereiche" die richtige Zeile heraus. Dann kann man in der Spalte "Maximale Leistung" den Wert für die drei Klassen ablesen. Findet sich für eine Klasse kein Eintrag, darf diese Klasse den Frequenzbereich nicht verwenden.
+% @YPA: Vielleicht willst Du die nachfolgenden zwei Tabellen auch ins Kapitel Frequenzzuteilung verschieben? de ARK
 
-Wir empfehlen, die folgenden Fragen anhand der Anlage 1 zu beantworten, um Übung beim Ablesen der richtigen Werte zu bekommen.
+<law>
+  
+ Zur Erinnerung: Erlaubte Bänder und maximal zulässige Sendeleistung für **HB3**
+  
+| Frequenzband | Max. Leistung |
+|              |               |
+| 1810–1850 kHz | 100 W |
+| 1850–2000 kHz | 100 W |
+| 3500–3800 kHz | 100 W |
+| 21000–21450 kHz | 100 W |
+| 28000–29700 kHz | 100 W |
+| 144–146 MHz | 50 W |
+| 430–440 MHz | 50 W |
+</law>
 
-[question:VD727]
-[question:VD729]
-[question:VD728]
-[question:VD730]
-[question:VD731]
-[question:VD732]
-[question:VD733]
-[question:VD734]
+<law>
 
-Für den Frequenzbereich von $\qtyrange{1240}{1300}{\mega\hertz}$ gelten zusätzliche Regelungen, die nicht direkt in der Tabelle stehen. In der rechten Spalte "Zusätzliche Nutzungsbestimmungen gemäß B" kennzeichnen Zahlen ergänzende Angaben, die unter der Tabelle stehen. Für die folgende Frage ist der Punkt 11 zu beachten.
+Zur Erinnerung: Erlaubte Bänder und maximal zulässige Sendeleistung für **HB9**
 
-[question:VD735]
-[question:VD736]
-[question:VD737]
-
-
----
-Ab hier neuer Bereich für Helvetisierung
-Unsortiert der Reihe nach. Sortierung nach Klassen oder Rechten tbd.
-[question:VO004]
-[question:VO005]
-[question:VO006]
-[question:VO007]
-[question:VO008]
-[question:VO009]
-[question:VO010]
-[question:VO011]
-[question:VO012]
-[question:VO013]
-[question:VO014]
-[question:VO015]
-[question:VO016]
-[question:VO017]
-[question:VO018]
-[question:VO019]
+| Frequenzband | Max. Leistung |
+|              |               |
+| 1810–2000 kHz | 1000 W |
+| 3500–3800 kHz | 1000 W |
+| 5351.5–5366.5 kHz | 15 W EIRP |
+| 7000–7200 kHz | 1000 W |
+| 10100–10150 kHz | 1000 W |
+| 14000–14350 kHz | 1000 W |
+| 18068–18168 kHz | 1000 W |
+| 21000–21450 kHz | 1000 W |
+| 24890–24990 kHz | 1000 W |
+| 28000–29700 kHz | 1000 W |
+| 50–52 MHz | 100 W |
+| 70–70.0375 MHz | 25 W ERP |
+| 70.1125–70.500 MHz | 25 W ERP |
+| 144–146 MHz | 1000 W |
+| 430–440 MHz | 1000 W |
+| 1240–1300 MHz | 1000 W |
+| 2300–2450 MHz | 100 W |
+| 5650–5850 MHz | 100 W |
+| 10000–10450 MHz | 100 W |
+</law>

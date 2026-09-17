@@ -1,0 +1,20 @@
+## Erklärung:
+
+Im Fernfeld sind die Beträge der elektrischen Feldstärke $E$ und der magnetischen Feldstärke $H$ eines elektromagnetischen Feldes durch den Wellenwiderstand $Z$ miteinander verknüpft.
+
+$E = H \cdot Z$
+
+Anders ausgedrückt:
+
+Im Fernfeld ist das Verhältnis zwischen elektrischer Feldstärke $E$ und magnetischer Feldstärke $H$ konstant und entspricht dem Wellenwiderstand $Z$:
+
+$\frac{E}{H} = Z$
+
+Dadurch lässt sich aus der Messung einer Feldkomponente die andere berechnen. Im Nahfeld ist dies im Allgemeinen nicht möglich.
+
+Der Wellenwiderstand $Z$ hängt dabei vom Medium ab, in dem sich das elektromagnetische Feld ausbreitet. 
+Für den Wellenwiderstand des freien Raums $Z_0$ gilt:
+
+$Z_0  = \sqrt{\frac{\mu_0}{\varepsilon_0}} \approx \qty{120\pi}{\ohm} \approx \qty{377}{\ohm}$ 
+
+Dabei bezeichnen $\mu_0$ und $\varepsilon_0$ die Permeabilität bzw. die Permittivität des Vakuums. Der Wellenwiderstand von Luft ist praktisch identisch mit dem des Vakuums.

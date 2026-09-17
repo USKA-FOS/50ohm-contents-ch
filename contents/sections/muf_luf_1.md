@@ -14,7 +14,9 @@ Die MUF hängt von der Dichte der freien Elektronen in der brechenden Region (hi
 [picture:997:e_muf_luf2:Simulation der Sprungdistanzen für verschiedene Frequenzen und einer MUF bei ca. $\qty{7,5}{\mega\hertz}$ in einer Augustnacht 2024 bei einem Abstrahlwinkel von $\qty{45}{\degree}$]
 </margin>
 
-Die genauen Zusammenhänge der MUF, beispielsweise in Bezug auf den Abstrahlwinkel, werden erst in der Klasse A behandelt. Für die Klasse E ist wichtig zu wissen: Je stärker die Ionisation der Ionosphäre, desto höher ist in der Regel auch die MUF.
+Die genauen Zusammenhänge der MUF, beispielsweise in Bezug auf den Abstrahlwinkel, werden erst im Stoff für HB9 behandelt. Für HB3 ist es wichtig zu wissen:
+
+*Je stärker die Ionisation der Ionosphäre, desto höher ist in der Regel auch die MUF.*
 
 [question:EH207]
 [question:EH206]
@@ -25,16 +27,17 @@ Nach unten hin stellt die LUF also die Begrenzung dar. Sie wird in erster Linie 
 [question:EH209]
 
 Insbesondere bei sehr geringer Sonnenaktivität oder während starker Magnetstürme kann der Sonderfall auftreten, dass für einen bestimmten Signalweg die LUF über der MUF liegt. In diesem Fall ist zwischen den betreffenden Orten kein Funkverkehr über die Raumwelle möglich. Abbildung [ref:e_muf_luf] zeigt auch eine Vorhersage der LUF für Juli 2025. Dort wird deutlich, dass zwischen 6 und 12 Uhr die LUF oberhalb der MUF liegt und daher kein Kurzwellenbetrieb möglich ist.
+ 
+Für die Ausbreitung von Kurzwellen über die Ionosphäre sind zwei Grenzfrequenzen besonders wichtig: die *LUF (Lowest Usable Frequency)* und die *MUF (Maximum Usable Frequency)*. Zwischen diesen beiden Werten ist eine Funkverbindung über die Ionosphäre grundsätzlich möglich.
 
-
-
----
-
-*Hinweis YPA an Bearbeiter: die zwei neuen Fragen einbetten wo sinnvoll. Wenn nötig entsprechenden Inhalt erschaffen. 
-Achtung: Zeile 17 verweist auf weiteren Inhalt in HB9, evtl kommt es auch erst dort.*
+Die *LUF (Lowest Usable Frequency)* bezeichnet die niedrigste Frequenz, bei der eine Verbindung auf einer bestimmten Funkstrecke mit ausreichender Signalqualität noch möglich ist. Die LUF ist leistungsabhängig: Wird die Sendeleistung erhöht, kann ein stärker gedämpftes Signal den Empfänger dennoch mit ausreichender Feldstärke erreichen. Dadurch sinkt die LUF, sodass auch niedrigere Frequenzen nutzbar werden.
 
 [question:EH220]
+
+Die *MUF (Maximum Usable Frequency)* bezeichnet dagegen die höchste Frequenz, die auf einer bestimmten Strecke und zu einem bestimmten Zeitpunkt noch von der Ionosphäre zur Erde zurückgebrochen wird. Oberhalb der MUF wird die Funkwelle nicht mehr ausreichend gebrochen und durchdringt die Ionosphäre in den Weltraum. Die MUF ist nicht von der Sendeleistung abhängig.
+
 [question:EH221]
 
+Hinweis: Die physikalischen Grundlagen der Ionosphäre und ihrer Schichten (D-, E-, F1- und F2-Schicht) werden in den entsprechenden Kapiteln [sec:ionosphaere_3], [sec:tote_zone_2], [sec:sprungdistanz_2] und [sec:muf_luf_2] über die Ionosphäre für HB9 ausführlicher behandelt. Hier genügt das Verständnis, dass die LUF von der Signalstärke beeinflusst werden kann, die MUF hingegen ausschließlich von den Ausbreitungsbedingungen der Ionosphäre bestimmt wird.
 
-
+<!-- Review abgeschlossen, passt so für mich. Vy 73 de Marc -->
