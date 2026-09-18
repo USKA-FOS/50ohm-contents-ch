@@ -24,15 +24,15 @@
     },
     "fr": {
       "asset_files": {
-        "tex": "264.fr.tex",
-        "svg": "264.fr.svg"
+        "svg": "264.fr.svg",
+        "tex": "264.fr.tex"
       },
       "review_state": "to_be_reviewed"
     },
     "it": {
       "asset_files": {
-        "tex": "264.it.tex",
-        "svg": "264.it.svg"
+        "svg": "264.it.svg",
+        "tex": "264.it.tex"
       },
       "review_state": "to_be_reviewed"
     }
@@ -57,21 +57,21 @@
         "canonical_file": "264.de.tex",
         "source_path": "contents/drawings/264.tex"
       },
-      "fr.tex": {
-        "canonical_file": "264.fr.tex",
-        "source_path": "contents/drawings/264.tex"
-      },
-      "it.tex": {
-        "canonical_file": "264.it.tex",
-        "source_path": "contents/drawings/264.tex"
-      },
       "fr.svg": {
         "canonical_file": "264.fr.svg",
         "source_path": "contents/drawings/264.svg"
       },
+      "fr.tex": {
+        "canonical_file": "264.fr.tex",
+        "source_path": "contents/drawings/264.tex"
+      },
       "it.svg": {
         "canonical_file": "264.it.svg",
         "source_path": "contents/drawings/264.svg"
+      },
+      "it.tex": {
+        "canonical_file": "264.it.tex",
+        "source_path": "contents/drawings/264.tex"
       }
     },
     "reconstruction": {

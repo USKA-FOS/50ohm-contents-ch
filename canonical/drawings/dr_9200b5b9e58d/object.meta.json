@@ -23,18 +23,18 @@
       "review_state": "imported_approved"
     },
     "fr": {
-      "review_state": "to_be_reviewed",
       "asset_files": {
-        "tex": "482.fr.tex",
-        "svg": "482.fr.svg"
-      }
+        "svg": "482.fr.svg",
+        "tex": "482.fr.tex"
+      },
+      "review_state": "to_be_reviewed"
     },
     "it": {
-      "review_state": "to_be_reviewed",
       "asset_files": {
-        "tex": "482.it.tex",
-        "svg": "482.it.svg"
-      }
+        "svg": "482.it.svg",
+        "tex": "482.it.tex"
+      },
+      "review_state": "to_be_reviewed"
     }
   },
   "languages": [
@@ -57,21 +57,21 @@
         "canonical_file": "482.de.tex",
         "source_path": "contents/drawings/482.tex"
       },
-      "fr.tex": {
-        "canonical_file": "482.fr.tex",
-        "source_path": "contents/drawings/482.tex"
-      },
-      "it.tex": {
-        "canonical_file": "482.it.tex",
-        "source_path": "contents/drawings/482.tex"
-      },
       "fr.svg": {
         "canonical_file": "482.fr.svg",
         "source_path": "contents/drawings/482.svg"
       },
+      "fr.tex": {
+        "canonical_file": "482.fr.tex",
+        "source_path": "contents/drawings/482.tex"
+      },
       "it.svg": {
         "canonical_file": "482.it.svg",
         "source_path": "contents/drawings/482.svg"
+      },
+      "it.tex": {
+        "canonical_file": "482.it.tex",
+        "source_path": "contents/drawings/482.tex"
       }
     },
     "reconstruction": {
