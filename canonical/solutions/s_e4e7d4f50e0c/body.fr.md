@@ -1,10 +1,10 @@
-La batterie possède une *capacité* de $\qty{60}{\ampere\hour}$.
+La batterie possède une capacité de $\qty{60}{\ampere\hour}$.
 
-L’émetteur-récepteur doit fonctionner jusqu’à ce que la batterie soit déchargée à $\qty{10}{\percent}$ de sa *capacité* restante. Ainsi, seule $\qty{90}{\percent}$ de la *capacité* peut être utilisée :
+L’émetteur-récepteur doit fonctionner jusqu’à ce qu’il ne reste que $\qty{10}{\percent}$ de la capacité de la batterie. Ainsi, seule une capacité correspondant à $\qty{90}{\percent}$ de la capacité nominale peut être utilisée :
 
 $Q = 0{,}9 \cdot \qty{60}{\ampere\hour} = \qty{54}{\ampere\hour}$
 
-L’émetteur-récepteur consomme un *courant* de $\qty{0,8}{\ampere}$.
+L’émetteur-récepteur consomme un courant de $\qty{0,8}{\ampere}$.
 
 La durée de fonctionnement se calcule comme suit :
 

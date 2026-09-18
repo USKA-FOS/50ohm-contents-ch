@@ -8,8 +8,8 @@ Nella trasmissione delle informazioni si distinguono fondamentalmente i metodi *
 [picture:408:n_digital_einleitung_analoges_signal:Segnale analogico (continuo)]
 </margin>
 
-Nella radio, una trasmissione digitale può essere ottenuta, ad esempio, impostando l'ampiezza della portante trasmessa solo su determinati livelli, come $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$, $\qty{100}{\percent}$ della potenza massima, ma non tra questi valori. Molti metodi di trasmissione comunemente utilizzati nella vita quotidiana sono ormai digitali, ad esempio Wi-Fi, LTE o DVB.
+Nella radio, una trasmissione digitale può essere ottenuta, ad esempio, impostando l'ampiezza della portante trasmessa solo su determinati livelli, come $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$, $\qty{100}{\percent}$ dell'ampiezza massima, ma non tra questi valori. Molti metodi di trasmissione comunemente utilizzati nella vita quotidiana sono ormai digitali, ad esempio Wi-Fi, LTE o DVB.
 
 %<indepth>
-%Il vantaggio dei metodi digitali risiede nel fatto che piccoli errori di trasmissione possono essere corretti dal ricevitore. Se, ad esempio, un disturbo fa sì che un'ampiezza non venga misurata come $\qty{25}{\percent}$ della potenza massima, ma come $\qty{29}{\percent}$, si può supporre che l'ampiezza fosse effettivamente $\qty{25}{\percent}$ e correggere il valore.
+%Il vantaggio dei metodi digitali risiede nel fatto che piccoli errori di trasmissione possono essere corretti dal ricevitore. Se, ad esempio, un disturbo fa sì che un'ampiezza non venga misurata come $\qty{25}{\percent}$ dell'ampiezza massima, ma come $\qty{29}{\percent}$, si può supporre che l'ampiezza fosse effettivamente $\qty{25}{\percent}$ e correggere il valore.
 %</indepth>

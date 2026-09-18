@@ -1,16 +1,14 @@
 * I radioamatori devono sapere quali frequenze possono essere utilizzate
-* Può essere dedotto dall'allegato 1 dell'AfuV
-* L'allegato 1 è fornito come strumento durante l'esame
+* Questo si può consultare nell'allegato 1 dell'AfuV
+* L'allegato 1 è disponibile come ausilio durante l'esame
 
 --- style="font-size: 0.5em;"
 
-[picture:829:amateuerfunkbaender_2:Frequenze utilizzate nel radioamatoriale sotto $\qty{300}{\mega\hertz}$]
-
+[picture:829:amateuerfunkbaender_2:Frequenze utilizzate nel servizio radioamatoriale sotto $\qty{300}{\mega\hertz}$]
 
 --- style="font-size: 0.5em;"
 
-[picture:830:amateuerfunkbaender_1:Frequenze utilizzate nel radioamatoriale sopra $\qty{300}{\mega\hertz}$]
-
+[picture:830:amateuerfunkbaender_1:Frequenze utilizzate nel servizio radioamatoriale sopra $\qty{300}{\mega\hertz}$]
 
 ---
 [question:VD709]

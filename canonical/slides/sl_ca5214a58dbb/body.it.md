@@ -23,7 +23,7 @@
 | DJØA | - | DM9Z | A |
 | DFØAA | - | DFØZZZ | A |
 | DKØAA | - | DKØZZZ | A |
-[table:n_klubstation_rufzeichen_1:Rufzeichen für Klubstationen]
+[table:n_klubstation_rufzeichen_1:Nominativi per stazioni club]
 </left>
 <right>
 | l: Nominativo | l: | l: | l: Classe |
@@ -33,7 +33,7 @@
 | DOØA | - | DO9Z | E |
 | DP3A | - | DP9Z | A |
 | DQØA | - | DR9Z | A |
-[table:n_klubstation_rufzeichen_2:Rufzeichen für Klubstationen]
+[table:n_klubstation_rufzeichen_2:Nominativi per stazioni club]
 </right>
 <note>
 Tratto dal [piano dei nominativi](https://50ohm.de/rzp)
@@ -89,7 +89,7 @@ La classe più bassa definisce i diritti massimi.
 | Radioamatore N | N | N | N |
 | Radioamatore E | N | E | E |
 | Radioamatore A | N | E | A |
-[table:n_klubstation_unterschiedliche_klassen:Darstellung im Rahmen welcher Klasse Funkbetrieb durchgeführt werden darf, wenn sich Klasse des Funkamateurs und Klasse der Klubstation unterscheiden]
+[table:n_klubstation_unterschiedliche_klassen:Presentazione della classe nell'ambito della quale è consentito svolgere attività radio quando la classe del radioamatore e quella della stazione club differiscono]
 
 ---
 

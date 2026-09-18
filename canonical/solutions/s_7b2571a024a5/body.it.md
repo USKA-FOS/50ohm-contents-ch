@@ -1,3 +1,3 @@
-In questa domanda si rischia facilmente di cadere in errore. Il trasformatore serve per l'adattamento dell'impedenza di uscita del primo circuito all'ingresso del circuito successivo. Questa parte è comune a tutte le risposte. Il "trucco" consiste nel classificare i circuiti.
+In questa domanda si rischia facilmente di cadere in errore. Il trasformatore serve per l'adattamento della resistenza di uscita del primo circuito all'ingresso del circuito successivo. Questa parte è comune a tutte le risposte. Il "trucco" consiste nel classificare i circuiti.
 
-Entrambi i transistor hanno l'emettitore non collegato, quindi si tratta di circuiti a emettitore comune. Pertanto, solo la risposta "Serve per l'adattamento dell'impedenza di uscita del circuito a *emettitore* comune all'ingresso del circuito a *emettitore* comune successivo." è corretta.
+Entrambi i transistor non hanno un carico collegato all'emettitore, quindi si tratta di circuiti a emettitore comune. Pertanto, solo la risposta "Serve per l'adattamento della resistenza di uscita del circuito a *emettitore* comune all'ingresso del circuito a *emettitore* comune successivo." è corretta.

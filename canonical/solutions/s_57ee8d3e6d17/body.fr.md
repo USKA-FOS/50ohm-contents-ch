@@ -1,3 +1,3 @@
-Dans un diviseur de tension de base, le courant traversant $R_2$ doit être nettement supérieur au courant de base $I_B$, typiquement d'un facteur 10.
+Dans un diviseur de tension de base, le courant traversant $R_2$ doit être nettement supérieur au courant de base $I_B$, typiquement d'environ un facteur 10.
 
 Ainsi, le courant de base ne charge que faiblement le diviseur de tension et la tension de base reste presque constante. Le point de fonctionnement du transistor varie donc beaucoup moins en cas de modifications du gain en courant $B$ ou de la température. La stabilité du circuit amplificateur s'en trouve améliorée.

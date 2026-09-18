@@ -1,1 +1,1 @@
-Che cos'è il radioamatoriale?
+Che cos'è il radioamatorismo?

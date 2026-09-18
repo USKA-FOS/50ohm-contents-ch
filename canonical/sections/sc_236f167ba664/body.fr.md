@@ -10,7 +10,7 @@ Il est important de maintenir une tension constante même en charge. Cette propr
 [question:ED301]
 
 ---
-Les sources de tension continue (alimentations électriques) sont branchées sur le réseau de tension alternative 230 V existant. Comme nous l'avons déjà vu avec l'exemple de la prise de courant de classe N, en tension alternative, nous avons le conducteur extérieur L, le neutre N et le conducteur de protection PE.
+Les sources de tension continue (alimentations électriques) sont branchées sur le réseau de tension alternative 230 V existant. Comme nous l'avons déjà vu avec l'exemple de la fiche à contact de protection de classe N, en tension alternative, nous avons le conducteur extérieur L, le neutre N et le conducteur de protection PE.
 
 Pour un câble à 3 conducteurs avec conducteur de protection, par exemple NYM-J $3 \times \qty{1,5}{\milli\meter\squared}$, les couleurs des conducteurs sont définies comme suit dans la figure [ref:e_NYM_Aderfarben] :
 

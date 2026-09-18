@@ -1,6 +1,6 @@
-## Antenna a dipolo verticale ed orizzontale
+## Antenna up-and-outer
 <left>
-[picture:659:n_up_and_outer:Antenne a dipolo verticale ed orizzontale]
+[picture:659:n_up_and_outer:Antenna up-and-outer]
 </left>
 <right>
 * Un ramo del dipolo viene orientato verticalmente (*radiatore*), l'altro orizzontalmente (*radiale*/*contrappeso*)
@@ -15,9 +15,8 @@ Non è solo il radiatore a irradiare, ma l'intera struttura composta da radiator
 
 Se si moltiplicano i radiali, si ottiene un'antenna *Groundplane*
 
-
 <note>
-Nelle VHF le antenne Groundplane sono spesso utilizzate per comunicazioni locali e ripetitori.
+Nella banda VHF le antenne Groundplane sono spesso utilizzate per comunicazioni locali e collegamenti via ripetitore.
 </note>
 
 ---
@@ -33,13 +32,12 @@ Nelle VHF le antenne Groundplane sono spesso utilizzate per comunicazioni locali
 <left>
 [picture:669:n_marconi_antenne:Antenna Marconi]
 
-
-[picture:544:n_schaltzeichen_erde:Simbolo elettrico per terra]
+[picture:544:n_schaltzeichen_erde:Simbolo elettrico della terra]
 </left>
 <right>
 * Il radiale viene sostituito dal terreno
 * Il radiatore rimane lungo $\lambda / 4$
-* Detto anche "antenna verticale $\lambda / 4$ eccitata contro terra"
+* Detta anche "antenna verticale da $\lambda / 4$ eccitata contro terra"
 </right>
 <note>
 Ad esempio, con un picchetto di terra (asta metallica nel terreno) o con molti fili interrati come i radiali di un'antenna Groundplane
@@ -64,7 +62,6 @@ Ad esempio, con un picchetto di terra (asta metallica nel terreno) o con molti f
 ---
 [question:NG111]
 
-
 <note>
-Le *antenne a magnete* menzionate nella risposta errata vengono spesso utilizzate per comunicazioni mobili sul tetto dell'auto - il tetto dell'auto funge allora da contrappeso
+Le *antenne a base magnetica* menzionate nella risposta errata vengono spesso utilizzate per comunicazioni mobili sul tetto dell'auto - il tetto dell'auto funge allora da contrappeso
 </note>

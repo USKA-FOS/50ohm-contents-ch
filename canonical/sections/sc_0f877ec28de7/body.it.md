@@ -1,4 +1,4 @@
-L'*ionosfera* si trova nella parte superiore dell'atmosfera terrestre. La radiazione solare genera in questa zona particelle elettricamente cariche. Le onde corte possono essere riflesse in queste regioni e deviate verso la Terra. Ciò consente collegamenti di ricezione che coprono centinaia o migliaia di chilometri (cfr. figura [ref:swl_ionosphaere_ausbreitung]).
+L'*ionosfera* si trova nella parte superiore dell'atmosfera terrestre. La radiazione solare genera in questa zona particelle elettricamente cariche. Le onde corte possono essere rifratte in queste regioni e deviate verso la Terra. Ciò consente collegamenti di ricezione che coprono centinaia o migliaia di chilometri (cfr. figura [ref:swl_ionosphaere_ausbreitung]).
 
 <margin>
 [picture:741:swl_ionosphaere_ausbreitung:Rifrazione delle onde corte nell'ionosfera e zona morta]

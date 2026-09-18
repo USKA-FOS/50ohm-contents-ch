@@ -1,1 +1,1 @@
-Extrait de la technique numérique (E et S)
+Extrait de la technique numérique (E et A)

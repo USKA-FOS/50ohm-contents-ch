@@ -1,18 +1,16 @@
-### Attestato d’esame
-
-* Dopo aver superato l’esame, si riceve un *attestato d’esame* nonché un *attestato di abilitazione al servizio di radioamatore* e si può essere chiamati radioamatore
-* Tuttavia, con questo non si può ancora operare una stazione radioamatoriale!
+* Dopo aver superato l’esame, si riceve un *avviso d’esame* nonché un *certificato d’esame per il servizio di radioamatore* e ci si può definire radioamatore
+* Tuttavia, con questo non si può ancora esercire una stazione di radioamatore!
 
 ---
 
-### Abilitazione
+### Autorizzazione
 
 <left>
-* Inoltre necessario: l’*abilitazione alla partecipazione al servizio di radioamatore*
-* Solo con il certificato di abilitazione viene assegnato il nominativo personale
+* Inoltre è necessaria l’*autorizzazione a partecipare al servizio di radioamatore*
+* Solo con il provvedimento di autorizzazione viene assegnato il nominativo personale
 </left>
 <right>
-[photo:91:n_zulassung_urkunde:Il certificato di abilitazione]
+[photo:91:n_zulassung_urkunde:Il certificato di autorizzazione]
 </right>
 
 ---
@@ -20,8 +18,8 @@
 
 ---
 
-* La legge sulla radioamatoriale tedesca non prevede un’età minima per i radioamatori
-* Secondo il § 4 AFuG, ogni persona fisica con residenza in Germania può essere ammessa, su richiesta, all’esame di abilitazione per radioamatori
+* La legge tedesca sul servizio di radioamatore non prevede un’età minima per i radioamatori
+* Secondo il § 4 AFuG, ogni persona fisica residente in Germania può essere ammessa, su richiesta, all’esame tecnico per radioamatori
 
 ---
 [question:VC108]

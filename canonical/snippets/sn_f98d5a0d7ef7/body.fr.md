@@ -1,1 +1,1 @@
-Cours de mise à niveau N selon E
+Cours de mise à niveau de N vers E

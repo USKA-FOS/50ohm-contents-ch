@@ -1,1 +1,1 @@
-Estratto di elettronica digitale (E e U)
+Estratto della tecnica digitale (E e A)

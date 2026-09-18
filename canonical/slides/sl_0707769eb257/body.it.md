@@ -31,7 +31,7 @@
 * Frequenza più bassa con *capacità* o *induttanza* più *alta*
 </right>
 <note>
-* Questo potrebbe essere spiegato molto bene con la formula di $f_0$, ma non è ancora noto
+* Questo potrebbe essere spiegato molto bene con la formula di $f_0$, ma non è ancora nota
 </note>
 
 ---
@@ -62,7 +62,7 @@ In inglese si scrive con la t: Quartz
 [question:ED507]
 
 ---
-## Irradiazione
+## Radiazione
 * Da evitare
 * Schermatura tramite custodia metallica
 

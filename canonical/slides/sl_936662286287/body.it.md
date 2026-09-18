@@ -1,10 +1,10 @@
 <left>
 * Stazione radioamatoriale al di fuori del territorio della Repubblica Federale di Germania
-* E nessun altro paese ha giurisdizione in quella posizione
+* E nessun altro Paese possiede un territorio sovrano in quella posizione
 * Nominativo compreso tra DP0AA e DP2ZZZ
 </left>
 <right>
-[photo:126:n_exterritoriale_stazioni_neumeyer_station:Sulla stazione di ricerca polare Neumayer III si trova la stazione radioamatoriale DP0GVN.]
+[photo:126:n_exterritoriale_stationen_neumeyer_station:Sulla stazione di ricerca polare Neumayer III si trova la stazione radioamatoriale DP0GVN.]
 </right>
 
 ---
@@ -15,7 +15,7 @@ Esempi:
 * Nave da ricerca Polarstern: DP0POL
 </left>
 <right>
-[photo:125:n_exterritoriale_stazioni_polarstern:La stazione radioamatoriale a bordo della nave da ricerca Polarstern utilizza il nominativo DP0POL.]
+[photo:125:n_exterritoriale_stationen_polarstern:La stazione radioamatoriale a bordo della nave da ricerca Polarstern utilizza il nominativo DP0POL.]
 </right>
 
 ---

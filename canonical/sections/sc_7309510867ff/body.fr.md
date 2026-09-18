@@ -1,12 +1,11 @@
 %TODO Modifier l’image. Si une meilleure image est disponible.
 <margin>
-[photo:58:n_klubstationen_klubstation:La station club DL0AO de l’association locale DARC Amberg]
+[photo:58:n_klubstationen_klubstation:La station club DL0AO de l’association locale DARC d’Amberg]
 </margin>
 
 ---
 
 En règle générale, une station de radioamateurisme est exploitée par une seule personne. Cependant, il existe aussi des associations de radioamateurisme qui gèrent une station, appelée alors *station club*. En plus des indicatifs d’appel attribués à des personnes, il existe des indicatifs spéciaux pour ces groupes, utilisés à la station club. On les appelle des *indicatifs d’association*.
-
 
 ---
 % Réutiliser le tableau pour un exemple des différents indicatifs (associations, concours, armée)
@@ -44,7 +43,7 @@ Lien direct vers eGov pour [la demande d’un indicatif d’association](https:/
 %Todo. Adapter tous les éléments <law> avec lien vers eGov selon le modèle.
 
 
-Les indicatifs d’association sont des indicatifs dont le suffixe est composé de deux lettres et sont attribués uniquement aux associations de radioamateurisme. Les souhaits d’indicatifs peuvent être pris en compte, à condition que l’indicatif souhaité soit libre depuis au moins 5 ans.
+Les indicatifs d’association sont des indicatifs dont le suffixe comporte deux caractères et sont attribués uniquement aux associations de radioamateurisme. Les souhaits d’indicatifs peuvent être pris en compte, à condition que l’indicatif souhaité soit libre depuis au moins 5 ans.
 
 Pour commander un indicatif d’association, les documents suivants doivent être soumis à l’OFCOM :
 * Copie des statuts de l’association ;

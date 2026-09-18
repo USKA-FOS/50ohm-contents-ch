@@ -17,9 +17,7 @@ Lors d’un concours, les indicatifs sont souvent énoncés très rapidement. No
 * Des indications comme *up 5* précisent l’écart par rapport à la fréquence de réponse
 * La station recherchée reste ainsi audible, sans être submergée par le *pile-up*
 
-
-[picture:672:swl_betriebsbeobachtung_split:Fréquence d’émission d’une station recherchée et la fréquence de réponse supérieure de 5 kHz]
-
+[picture:672:swl_betriebsbeobachtung_split:Fréquence d’émission d’une station recherchée et fréquence de réponse supérieure de 5 kHz]
 
 ---
 
@@ -34,5 +32,5 @@ Lors d’un concours, les indicatifs sont souvent énoncés très rapidement. No
 * Seuls les contacts clairement compris sont documentés
 
 <fragment>
-Parfois, seule la station DX mentionne l’indicatif complet de sa **station correspondante**.
+Parfois, seule la station DX mentionne l’indicatif complet de sa station correspondante.
 </fragment>

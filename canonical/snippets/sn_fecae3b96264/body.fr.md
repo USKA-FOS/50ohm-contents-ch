@@ -1,1 +1,1 @@
-Vers la carte de patente
+Vers la carte de licence

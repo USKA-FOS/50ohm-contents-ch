@@ -6,11 +6,11 @@ Avec les valeurs insérées :
 
 $\begin{split} f &= \frac{1}{2 \pi \cdot \sqrt{100 \cdot \qty{10^{-6}}{\henry} \cdot 0,01 \cdot 10^{-6}\text{ F}}} \\ &\approx \qty{159154,94}{\hertz} \approx 159,2 \cdot \qty{10^3}{\hertz}\\ &\approx \qty{159,2}{\kilo\hertz}\end{split}$
 
-La résistance inductive $X_\text{L}$ peut alors être calculée comme suit (formules issues du recueil de formules) :
+La réactance inductive $X_\text{L}$ peut alors être calculée comme suit (formules issues du recueil de formules) :
 
 Pulsation : $\omega = 2 \pi \cdot f$
 
-Résistance inductive : $X_\text{L} = \omega \cdot L$
+Réactance inductive : $X_\text{L} = \omega \cdot L$
 
 Avec les valeurs insérées :
 $\begin{split}X_\text{L} &= 2 \pi \cdot 159,2 \cdot \qty{10^3}{\hertz} \cdot 100 \cdot \qty{10^{-6}}{\henry}\\ &\approx \qty{100,03}{\ohm}\end{split}$

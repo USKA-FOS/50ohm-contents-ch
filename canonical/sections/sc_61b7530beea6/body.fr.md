@@ -1,4 +1,4 @@
-Nous avons déjà appris qu'une antenne peut être polarisée verticalement ou horizontalement. On le reconnaît sur la plupart des modèles d'antennes au fait que les éléments de l'antenne sont orientés verticalement (vertical) ou horizontalement (horizontal). Les formes concrètes d'antennes sont demandées à l'examen.
+Nous avons déjà appris qu'une antenne peut être polarisée verticalement ou horizontalement. On le reconnaît sur la plupart des modèles d'antennes au fait que les éléments de l'antenne sont orientés verticalement (verticalement) ou horizontalement (horizontalement). Les formes concrètes d'antennes sont demandées à l'examen.
 
 [question:EB309]
 
@@ -10,10 +10,10 @@ Les éléments de l'antenne de cette illustration sont perpendiculaires au sol. 
 
 ---
 
-Le fait que la direction de polarisation corresponde souvent à l'orientation géométrique des éléments de l'antenne s'explique par le fait que la plupart des antennes utilisées ont une disposition des conducteurs qui coïncide géométriquement avec la direction du champ électrique. En effet, par convention, l'indication "horizontal" ou "vertical" se réfère à l'orientation du champ électrique et non à celle de la composante magnétique.
+Le fait que la direction de polarisation corresponde souvent à l'orientation géométrique des éléments de l'antenne s'explique par le fait que la plupart des antennes utilisées ont une disposition des conducteurs qui coïncide géométriquement avec la direction du champ électrique. En effet, par convention, l'indication « horizontal » ou « vertical » se réfère à l'orientation du champ électrique et non à celle de la composante magnétique.
 
 <indepth>
-La règle empirique simple selon laquelle les antennes disposées verticalement polarisent verticalement et les antennes disposées horizontalement polarisent horizontalement *n'est pas valable en général*. Par exemple, une antenne Magnetic-Loop horizontale présente une polarisation verticale, et une antenne Magnetic-Loop verticale présente une polarisation horizontale. En revanche, pour une antenne en boucle demi-onde (par exemple une Delta-Loop), la direction de polarisation dépend de l'emplacement de l'alimentation. Pour les antennes dipôles et Yagi-Uda, on peut déterminer la polarisation à partir de l'orientation mécanique des fils, car c'est dans cette direction que le champ électrique se forme.
+La règle empirique simple selon laquelle les antennes disposées verticalement polarisent verticalement et les antennes disposées horizontalement polarisent horizontalement *n'est pas valable en général*. Par exemple, une antenne Magnetic-Loop horizontale présente une polarisation verticale, et une antenne Magnetic-Loop verticale présente une polarisation horizontale. En revanche, pour une antenne en boucle d'onde entière (par exemple une Delta-Loop), la direction de polarisation dépend de l'emplacement de l'alimentation. Pour les antennes dipôles et Yagi-Uda, on peut déterminer la polarisation à partir de l'orientation mécanique des fils, car c'est dans cette direction que le champ électrique se forme.
 </indepth>
 
 [question:EG222]
@@ -32,7 +32,7 @@ Le vecteur de Poynting mentionné ici est un vecteur perpendiculaire à la fois 
 [picture:886:e_funkhorizont:Polarisation horizontale]
 </margin>
 
-La composante du champ électrique est parallèle au sol, il s'agit donc d'une polarisation horizontale. À noter : la flèche directionnelle "S" indique la direction de propagation, il s'agit du vecteur de Poynting.
+La composante du champ électrique est parallèle au sol, il s'agit donc d'une polarisation horizontale. À noter : la flèche directionnelle « S » indique la direction de propagation, il s'agit du vecteur de Poynting.
 
 ---
 
@@ -44,11 +44,9 @@ Ici, la composante du champ magnétique est parallèle à la surface de la terre
 [picture:936:e_funkhorizont:Polarisation verticale]
 </margin>
 
----
-
 Dans les exemples précédents, les composantes des champs électrique et magnétique étaient *en phase dans le temps* (leurs oscillations sinusoïdales atteignent le zéro au même moment). Cependant, elles sont *perpendiculaires dans l'espace*.
 
-Nous pouvons cependant générer la composante du champ électrique de telle sorte que son orientation dans l'espace change au fil du temps, par exemple en utilisant deux dipôles perpendiculaires l'un à l'autre. Si ces dipôles sont espacés d'un quart de longueur d'onde dans la direction de propagation et alimentés en phase, la composante électrique rayonnée tourne circulairement dans l'espace au fil du temps. Nous pouvons également utiliser deux dipôles perpendiculaires situés dans le même plan. Si nous alimentons ces dipôles avec deux signaux sinusoïdaux décalés de 90° dans le temps, nous obtenons le même résultat. La composante du champ magnétique reste toujours perpendiculaire au champ électrique à tout moment, elle tourne donc également dans l'espace. Ces ondes sont appelées *polarisation circulaire*.
+Nous pouvons cependant générer la composante du champ électrique de telle sorte que son orientation dans l'espace change au fil du temps, par exemple en utilisant deux dipôles perpendiculaires l'un à l'autre. Si ces dipôles sont espacés d'un quart de longueur d'onde dans la direction de propagation et alimentés en phase, la composante électrique rayonnée tourne circulairement dans l'espace au fil du temps. Nous pouvons également utiliser deux dipôles perpendiculaires situés dans le même plan. Si nous alimentons ces dipôles avec deux signaux sinusoïdaux décalés de 90° dans le temps, nous obtenons le même résultat. La composante du champ magnétique reste toujours perpendiculaire au champ électrique à tout moment, elle tourne donc également dans l'espace. Ces ondes sont appelées *polarisées circulairement*.
 
 <margin>
 [picture:935:e_funkhorizont:Polarisation circulaire]

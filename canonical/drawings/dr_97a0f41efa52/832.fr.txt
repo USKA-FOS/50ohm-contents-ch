@@ -1,11 +1,11 @@
 Ce texte alternatif n'a pas encore été vérifié.
 
 1) Résumé court :
-<em>Diagramme en blocs</em> avec un flux de signal allant de gauche à droite à travers un <em>amplificateur</em>, un <em>mélangeur</em> DSB et un <em>filtre</em> BLU, avec en dessous une commutation entre deux branches à 9 MHz (LSB/USB) et plusieurs indications de fréquences.
+Diagramme en blocs avec un flux de signal allant de gauche à droite à travers un amplificateur, un mélangeur DSB et un filtre SSB, avec en dessous une commutation entre deux branches à 9 MHz (LSB/USB) et plusieurs indications de fréquences.
 
 2) Description détaillée :
-- À gauche, un cercle ; une flèche mène vers la droite dans un bloc rectangulaire avec un triangle (symbole de l'<em>amplificateur</em>). De là, une flèche mène dans un bloc rectangulaire avec le symbole du <em>mélangeur</em> (cercle avec une croix), portant la légende « DSB ». À droite se trouve un autre bloc rectangulaire avec trois lignes ondulées, portant la légende « BLU », d'où une flèche sort vers la droite.
-- Légendes de texte au-dessus de la zone DSB/BLU : « a) 8995,5–8998,2 kHz » et en dessous « b) 8998,8–9001,5 kHz ». En haut à droite, à côté de la sortie BLU, figure à nouveau « 8998,8–9001,5 kHz ». Entre DSB et BLU figure « 9000 kHz ± 1,5 kHz ».
+- À gauche, un cercle ; une flèche mène vers la droite dans un bloc rectangulaire avec un triangle (symbole de l'amplificateur). De là, une flèche mène dans un bloc rectangulaire avec le symbole du mélangeur (cercle avec une croix), portant la légende « DSB ». À droite se trouve un autre bloc rectangulaire avec trois lignes ondulées, portant la légende « SSB », d'où une flèche sort vers la droite.
+- Légendes de texte au-dessus de la zone DSB/SSB : « a) 8995,5–8998,2 kHz » et en dessous « b) 8998,8–9001,5 kHz ». En haut à droite, à côté de la sortie SSB, figure à nouveau « 8998,8–9001,5 kHz ». Entre DSB et SSB figure « 9000 kHz ± 1,5 kHz ».
 - Sous le bloc DSB se trouve un bloc rectangulaire portant l'inscription « G ». Une flèche part de « G » vers le haut en direction du bloc DSB et est légendée « fosz ».
-- De « G », une ligne descend vers la gauche puis forme une boucle en U vers la droite, avec deux dérivations verticales portant des symboles d'<em>interrupteur</em> ouverts, à gauche « LSB », à droite « USB ».
+- De « G », une ligne descend vers la gauche puis forme une boucle en U vers la droite, avec deux dérivations verticales portant des symboles d'interrupteur ouverts, à gauche « LSB », à droite « USB ».
 - Sous la dérivation de gauche (« LSB ») se trouve un petit rectangle, en dessous la légende « 9001,5 kHz ». Sur la ligne horizontale en dessous se trouve un point noir. Sous la dérivation de droite (« USB ») se trouve un rectangle similaire, en dessous « 8998,5 kHz ». Tous ces éléments sont reliés à la ligne inférieure, qui retourne au bloc « G ».

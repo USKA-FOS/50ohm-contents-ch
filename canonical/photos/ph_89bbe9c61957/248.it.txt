@@ -4,14 +4,14 @@ Descrizione breve: Screenshot di un grafico di misurazione che mostra l'impedenz
 
 Descrizione dettagliata:
 - Titolo in alto: «Impedenza & Fase in funzione della frequenza».
-- Asse y sinistro: «|Z| / ohm» con scala da 1 a 10000; asse y destro: «Φ / grado» da −90° a +90°.
+- Asse y sinistro: «|Z| / ohm» con scala da 1 a 10000; asse y destro: «Phi / grado» da −90° a +90°.
 - Asse x: frequenza da «900,000k» a «5,000M».
 - La curva blu (valore assoluto dell'impedenza) diminuisce da circa 70 ohm a ~1 MHz a circa 40–50 ohm a ~5 MHz; i marker triangolari con i numeri 1–4 sono posizionati sulla curva a circa 1, 2, 3 e 4 MHz.
 - La curva rossa (fase) si mantiene vicino alla linea dei −90° e sale leggermente (i simboli dei marker 1–4 sono anch'essi lungo la curva).
 - Sotto il grafico sono presenti i campi dei marker con i valori di misurazione:
-  - Marker 1: frequenza 1,0010 MHz; parte reale 0,8; parte immaginaria 102,6; fase −89,5°; ROS 307,8.
-  - Marker 2: frequenza 2,0038 MHz; parte reale 1,7; parte immaginaria −50,1; fase −88,0°; ROS 58,4.
-  - Marker 3: frequenza 3,0051 MHz; parte reale 1,8; parte immaginaria −31,4; fase −86,7°; ROS 38,7.
-  - Marker 4: frequenza 4,0010 MHz; parte reale 1,7; parte immaginaria −22,2; fase −85,6°; ROS 35,2.
-- Riga di comando e stato in basso: campi di input «fStart 900,000k» e «fStop 5,000M», lunghezza 0,00 m, tipo «RG142», simbolo batteria con «12,22 V» (barra verde), «Memoria disattivata», nonché pulsanti con bande radioamatoriali (ad es. 2 m, 6 m, 10 m, 12 m, 15 m, 17 m, 20 m, 40 m, 80 m, 160 m).
+  - Marker 1: frequenza 1,0010 MHz; parte reale 0,8; componente reattiva 102,6; fase −89,5°; ROS 307,8.
+  - Marker 2: frequenza 2,0038 MHz; parte reale 1,7; componente reattiva −50,1; fase −88,0°; ROS 58,4.
+  - Marker 3: frequenza 3,0051 MHz; parte reale 1,8; componente reattiva −31,4; fase −86,7°; ROS 38,7.
+  - Marker 4: frequenza 4,0010 MHz; parte reale 1,7; componente reattiva −22,2; fase −85,6°; ROS 35,2.
+- Riga di comando e stato in basso: campi di input «fStart 900,000k» e «fStop 5,000M», lunghezza 0,00 m, tipo «RG142», simbolo batteria con «12,22 V» (barra verde), «Memory Off», nonché pulsanti con bande radioamatoriali (ad es. 2 m, 6 m, 10 m, 12 m, 15 m, 17 m, 20 m, 40 m, 80 m, 160 m).
 - Lo sfondo è una griglia beige con linee principali e secondarie; gli assi e le curve sono chiaramente distinti per colore (blu/rosso).

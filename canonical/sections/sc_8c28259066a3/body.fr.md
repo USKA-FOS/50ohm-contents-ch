@@ -8,8 +8,8 @@ Pour la transmission d'informations, on distingue fondamentalement les procédé
 [picture:408:n_digital_einleitung_analoges_signal:Signal analogique (continu)]
 </margin>
 
-En radio, une transmission numérique peut être obtenue, par exemple, en fixant l'amplitude de la porteuse émise à certains niveaux, par exemple $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$, $\qty{100}{\percent}$ de la puissance maximale, mais pas entre ces valeurs. De nombreux procédés de transmission couramment utilisés aujourd'hui fonctionnent en numérique, comme le Wi-Fi, la 4G ou la TNT.
+En radio, une transmission numérique peut être obtenue, par exemple, en fixant l'amplitude de la porteuse émise à certains niveaux, par exemple $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$, $\qty{100}{\percent}$ de l'amplitude maximale, mais pas entre ces valeurs. De nombreux procédés de transmission couramment utilisés aujourd'hui fonctionnent en numérique, comme le Wi-Fi, le LTE ou le DVB.
 
 %<indepth>
-%L'avantage des procédés numériques réside dans le fait que de petites erreurs de transmission peuvent être corrigées côté récepteur. Si, par exemple, une perturbation fait que l'amplitude n'est pas mesurée à $\qty{25}{\percent}$ de la puissance maximale, mais à $\qty{29}{\percent}$, on peut supposer que l'amplitude était en réalité de $\qty{25}{\percent}$ et corriger la valeur.
+%L'avantage des procédés numériques réside dans le fait que de petites erreurs de transmission peuvent être corrigées côté récepteur. Si, par exemple, une perturbation fait que l'amplitude n'est pas mesurée à $\qty{25}{\percent}$ de l'amplitude maximale, mais à $\qty{29}{\percent}$, on peut supposer que l'amplitude était en réalité de $\qty{25}{\percent}$ et corriger la valeur.
 %</indepth>

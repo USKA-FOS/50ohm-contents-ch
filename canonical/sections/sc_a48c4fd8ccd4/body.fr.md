@@ -10,6 +10,6 @@ Les récepteurs modernes disposent de systèmes correspondants qui permettent de
 
 [question:EF213]
 
-Les interférences impulsionnelles peuvent quant à elles être éliminées du *signal reçu* à l’aide d’un effaceur d’interférences, ou *Noise Blanker (NB)*.
+Les interférences impulsionnelles peuvent quant à elles être supprimées du *signal reçu* à l’aide d’un *réducteur de bruit impulsionnel*, ou *Noise Blanker (NB)*.
 
 [question:EF214]

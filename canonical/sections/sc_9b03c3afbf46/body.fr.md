@@ -2,9 +2,9 @@ Tout le monde ne peut pas s’appeler radioamateur. Selon le règlement des radi
 
 [question:VA104]
 
-Le § 2 alinéa 1 de la loi sur le radioamateurisme en Allemagne décrit précisément qui peut se désigner comme radioamateur. Selon cette loi, seul le titulaire d’un *certificat d’opérateur radioamateur* ou d’un *certificat d’examen harmonisé pour radioamateur* peut être considéré comme radioamateur. Dans les deux cas, le chemin passe uniquement par la réussite à un examen.
+Selon le § 2, alinéa 1, de la loi allemande sur le service radioamateur, il est précisément décrit qui peut se désigner comme radioamateur. Selon cette loi, seul le titulaire d’un *certificat de capacité pour le service radioamateur* ou d’une *attestation d’examen harmonisée de radioamateur* est un radioamateur. Dans les deux cas, le chemin passe uniquement par la réussite à un examen.
 
-Mais ce n’est pas tout. Un radioamateur ne peut s’occuper du service d’amateur que par inclination personnelle et non dans un but commercial ou économique. Voici un exemple : des radioamateurs travaillant ensemble dans une entreprise artisanale ne peuvent pas coordonner leur travail via le relais local du radioamateurisme.
+Mais ce n’est pas tout. Un radioamateur ne peut s’occuper du service d’amateur que par inclination personnelle et non dans un but commercial ou économique. Voici un exemple : des radioamateurs travaillant ensemble dans une entreprise artisanale ne peuvent pas coordonner leur travail via le relais radioamateur local.
 
 [question:VC105]
 

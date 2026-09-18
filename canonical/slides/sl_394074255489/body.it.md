@@ -17,9 +17,9 @@ isotropo: dal greco antico ἴσος *isos* „uguale“ e τρόπος *tropos*
 ---
 ## EIRP
 
-*Equivalent Isotropic Radiated Power*
+*Potenza isotropica irradiata equivalente*
 
-* Nel calcolo della potenza irradiata rispetto al radiatore isotropo si parla di "potenza irradiata equivalente isotropo"
+* Nel calcolo della potenza irradiata rispetto al radiatore isotropo si parla di «potenza isotropica irradiata equivalente»
 
 ---
 ## Calcolo

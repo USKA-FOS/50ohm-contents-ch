@@ -12,4 +12,4 @@ Inserendo i valori dati si ottiene:
 
 $\Delta f_{\textrm{T}} = \frac{\qty{10}{\kilo\hertz}}{2} - \qty{2,7}{\kilo\hertz} = \qty{5}{\kilo\hertz} - \qty{2,7}{\kilo\hertz} = \qty{2,3}{\kilo\hertz}$
 
-La deviazione di frequenza portante massima può quindi essere di $\qty{2,3}{\kilo\hertz}$. 
+La deviazione di frequenza portante non deve quindi superare $\qty{2,3}{\kilo\hertz}$.

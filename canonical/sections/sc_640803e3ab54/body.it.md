@@ -10,7 +10,7 @@ Sebbene la parte verticale delle antenne verticali come l’Up- and Outer venga 
 
 L’antenna Up- and Outer appartiene alle cosiddette antenne verticali, poiché il radiatore è disposto verticalmente. Come nel dipolo, la lunghezza complessiva delle due parti dell’antenna Up- and Outer è pari a λ/2, cioè mezza lunghezza d’onda. Di conseguenza, il radiatore e il contrapeso sono ciascuno lungo λ/4.
 
-Se si moltiplicano i radiali disposti parallelamente al suolo, si ottiene un’*antenna Groundplane*, molto utilizzata nel radioamatoriale.
+Se si moltiplicano i radiali disposti parallelamente al suolo, si ottiene un’*antenna Groundplane*, molto utilizzata nel radioamatorismo.
 
 [question:NG105]
 [question:NG106]
@@ -20,7 +20,7 @@ Se si moltiplicano i radiali disposti parallelamente al suolo, si ottiene un’*
 È possibile sostituire il radiale di un’antenna Up- and Outer con la *terra*. In questo caso si ottiene l’antenna Marconi mostrata nella Figura [ref:n_marconi_antenne]. Il contrapeso, cioè la seconda parte dell’antenna, è ora rappresentato dalla *terra*, che idealmente deve essere molto conduttiva. Nei diagrammi di circuito, per rappresentare la terra viene utilizzato il simbolo mostrato nella Figura [ref:n_schaltzeichen_erde].
 
 <margin>
-[picture:669:n_marconi_antenne:Antenne Marconi]
+[picture:669:n_marconi_antenne:Antenna Marconi]
 </margin>
 
 <margin>
@@ -36,9 +36,9 @@ Come nell’antenna Up- and Outer, il radiatore verticale dell’antenna Marconi
 [question:NG104]
 [question:NG102]
 
-Sia l’antenna Groundplane che quella Marconi emettono uniformemente in tutte le direzioni. Per questo motivo, queste due antenne vengono chiamate anche "antenne omnidirezionali". A differenza delle antenne direzionali, le antenne omnidirezionali sono adatte per raggiungere radioamatori o stazioni ripetitori in direzioni diverse nell’area circostante. Un’antenna direzionale dovrebbe invece essere continuamente riorientata.
+Sia l’antenna Groundplane che quella Marconi emettono uniformemente in tutte le direzioni. Per questo motivo, queste due antenne vengono chiamate anche "antenne omnidirezionali". A differenza delle antenne direzionali, le antenne omnidirezionali sono adatte per raggiungere radioamatori o stazioni ripetitrici in direzioni diverse nell’area circostante. Un’antenna direzionale dovrebbe invece essere continuamente riorientata.
 
-Affinché un’antenna omnidirezionale funzioni correttamente, dovrebbe essere posizionata il più in alto possibile e libera da ostacoli. La posizione ottimale è quindi su un alto palo che supera gli edifici e gli alberi circostanti, o sul tetto di una casa.
+Affinché un’antenna omnidirezionale funzioni correttamente, dovrebbe essere posizionata il più in alto possibile e libera da ostacoli. La posizione ottimale è quindi su un palo alto che supera gli edifici e gli alberi circostanti, o sul tetto di una casa.
 
 [question:NG110]
 
@@ -47,5 +47,5 @@ Affinché un’antenna omnidirezionale funzioni correttamente, dovrebbe essere p
 [question:NG111]
 
 <indepth>
-Le *antenne a magnete* menzionate nella risposta errata vengono spesso utilizzate per il traffico radio mobile sul tetto di un’auto. Il tetto dell’auto, simile alla terra nell’antenna Marconi, funge da contrapeso. Il traffico radio da veicoli a motore verrà trattato in modo più approfondito nel capitolo successivo "Installazione di impianti radio in veicoli a motore".
+Le *antenne a base magnetica*, menzionate nella risposta errata, vengono spesso utilizzate per il traffico radio mobile sul tetto di un’auto. Il tetto dell’auto, simile alla terra nell’antenna Marconi, funge da contrapeso. Il traffico radio da veicoli a motore verrà trattato in modo più approfondito nel capitolo successivo "Installazione di impianti radio in veicoli a motore".
 </indepth>

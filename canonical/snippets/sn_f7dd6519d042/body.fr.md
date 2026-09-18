@@ -1,1 +1,1 @@
-Cours Classe N
+Cours de classe N

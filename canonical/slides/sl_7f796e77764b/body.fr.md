@@ -6,7 +6,7 @@
 <right>
 * Réduction du bruit (*NR*)
 * → Différenciation active entre signal utile et bruit
-* Suppression des parasites (*NB*)
+* Réducteur de bruit impulsionnel (*NB*)
 * → Élimine les perturbations de type impulsif
 </right>
 

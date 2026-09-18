@@ -794,7 +794,7 @@
             }
           ],
           "sort_order": 20,
-          "title": "Chemin long et chemin court I"
+          "title": "Trajet long et trajet court I"
         },
         {
           "abstract": null,
@@ -860,7 +860,7 @@
             }
           ],
           "sort_order": 22,
-          "title": "Scatter"
+          "title": "Diffusion"
         }
       ],
       "sort_order": 2,
@@ -913,7 +913,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Sens de circulation du courant physique"
+          "title": "Sens physique du courant"
         },
         {
           "abstract": null,
@@ -1276,7 +1276,7 @@
             }
           ],
           "sort_order": 12,
-          "title": "Thermistance et thermistance à coefficient de température négatif"
+          "title": "Thermistances CTN et CTP"
         },
         {
           "abstract": null,
@@ -1408,7 +1408,7 @@
             }
           ],
           "sort_order": 16,
-          "title": "Décibels II"
+          "title": "Décibel II"
         },
         {
           "abstract": null,
@@ -2128,7 +2128,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Circuits résistifs II"
+          "title": "Réseaux de résistances II"
         },
         {
           "abstract": null,
@@ -2326,7 +2326,7 @@
             }
           ],
           "sort_order": 9,
-          "title": "Montage en série et en parallèle d'éléments mixtes"
+          "title": "Montage en série et en parallèle de composants mixtes"
         }
       ],
       "sort_order": 6,
@@ -3125,7 +3125,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Circuits oscillateurs"
+          "title": "Circuits d’oscillateurs"
         },
         {
           "abstract": null,
@@ -3389,7 +3389,7 @@
             }
           ],
           "sort_order": 16,
-          "title": "Amplificateurs"
+          "title": "Amplificateur"
         },
         {
           "abstract": null,
@@ -3620,7 +3620,7 @@
             }
           ],
           "sort_order": 23,
-          "title": "Limitation de la largeur de bande des amplificateurs"
+          "title": "Limitation de la largeur de bande de l’amplificateur"
         }
       ],
       "sort_order": 8,
@@ -4485,7 +4485,7 @@
             }
           ],
           "sort_order": 14,
-          "title": "Bloc à faible bruit (LNB)"
+          "title": "Convertisseur à faible bruit (LNB)"
         },
         {
           "abstract": null,
@@ -4749,7 +4749,7 @@
             }
           ],
           "sort_order": 22,
-          "title": "Filtre coupe-bande"
+          "title": "Filtre réjecteur"
         },
         {
           "abstract": null,
@@ -6142,7 +6142,7 @@
             }
           ],
           "sort_order": 23,
-          "title": "Orthogonal Frequency Division Multiplexing (OFDM)"
+          "title": "Multiplexage par répartition orthogonale de la fréquence (OFDM)"
         },
         {
           "abstract": null,
@@ -6393,7 +6393,7 @@
             }
           ],
           "sort_order": 5,
-          "title": "Filtres anti-repllement et de reconstruction"
+          "title": "Filtres anti-repliement et de reconstruction"
         },
         {
           "abstract": null,
@@ -6492,7 +6492,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Traitement numérique des signaux I/Q"
+          "title": "Traitement numérique du signal I/Q"
         },
         {
           "abstract": null,
@@ -6809,7 +6809,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Impédance au point de pied I"
+          "title": "Impédance au point d’alimentation I"
         },
         {
           "abstract": null,
@@ -6842,7 +6842,7 @@
             }
           ],
           "sort_order": 9,
-          "title": "Impédance au point de connexion II"
+          "title": "Impédance au point d’alimentation II"
         },
         {
           "abstract": null,
@@ -7007,7 +7007,7 @@
             }
           ],
           "sort_order": 14,
-          "title": "Antenne parabolique I"
+          "title": "Réflecteur parabolique I"
         },
         {
           "abstract": null,
@@ -7040,7 +7040,7 @@
             }
           ],
           "sort_order": 15,
-          "title": "Antenne parabolique II"
+          "title": "Réflecteur parabolique II"
         },
         {
           "abstract": null,
@@ -7073,7 +7073,7 @@
             }
           ],
           "sort_order": 16,
-          "title": "Miroir à décalage"
+          "title": "parabole offset"
         },
         {
           "abstract": null,
@@ -8334,7 +8334,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Mise à la terre des éclairs"
+          "title": "Mise à la terre contre la foudre"
         },
         {
           "abstract": null,
@@ -8466,7 +8466,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Toucher d'antennes I"
+          "title": "Contact avec des antennes I"
         },
         {
           "abstract": null,
@@ -8532,7 +8532,7 @@
             }
           ],
           "sort_order": 9,
-          "title": "Séjour dans le trajet du rayonnement"
+          "title": "Présence dans le faisceau de rayonnement"
         },
         {
           "abstract": null,
@@ -8565,7 +8565,7 @@
             }
           ],
           "sort_order": 10,
-          "title": "Clôture du cours"
+          "title": "Conclusion du cours"
         }
       ],
       "sort_order": 16,

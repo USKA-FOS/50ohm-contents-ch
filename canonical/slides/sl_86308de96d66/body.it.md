@@ -1,9 +1,9 @@
 <left>
-[photo:92:n_computersteuerung_funkfernschreiber:Telegrafo a distanza]
+[photo:92:n_computersteuerung_funkfernschreiber:Telescrivente radio]
 * Sviluppo della telegrafia Morse: telescrivente collegata tramite modem all’apparecchio radio
 </left>
 <right>
-* In questo modo è nato il *telegrafo a distanza* per inviare e ricevere testi in modo automatizzato via radio
+* In questo modo è nata la *telescrivente radio*, per inviare e ricevere testi in modo automatizzato via radio
 * L’abbreviazione *RTTY* (radio teletype) è ancora in uso oggi
 * Oggi il computer svolge solitamente questo compito $\rightarrow$ possibilità di utilizzare molti altri *modi digitali*
 </right>
@@ -23,7 +23,6 @@ Telescrivente: dispositivo per trasmettere messaggi in forma testuale tramite se
 [picture:630:n_computersteuerung_verbindungen:Esempi di collegamenti tra computer e apparecchio radio]
 </right>
 
----
 ## Connessione dati
 
 * Dietro il connettore del microfono nell’apparecchio radio possono esserci stadi di amplificazione e filtraggio per la trasmissione vocale $\rightarrow$ non adatto per la trasmissione dati

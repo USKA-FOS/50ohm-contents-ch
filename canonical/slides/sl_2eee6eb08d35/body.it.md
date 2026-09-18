@@ -8,7 +8,7 @@
 <right>
 * sopra i $\qty{30}{\mega\hertz}$ le onde radio si propagano normalmente in modo rettilineo
 * temporaneamente si formano piccole zone fortemente ionizzate nello strato E
-* le onde radio vengono riflesse in queste zone
+* le onde radio vengono rifratte in queste zone
 * sulle bande dei $\qty{2}{\meter}$ diventano improvvisamente possibili grandi portate
 </right>
 

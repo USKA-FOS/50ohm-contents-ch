@@ -2,7 +2,7 @@
 
 * La frequenza viene impostata sull'apparecchio radio tramite manopola o tasti
 * È possibile ascoltare solo le stazioni sulla frequenza impostata
-* Ruotare lentamente "sul canale" per ascoltare altre stazioni
+* Ruotare lentamente "sulla banda" per ascoltare altre stazioni
 
 ---
 ## Spettro di ampiezza e diagramma a cascata
@@ -40,9 +40,9 @@ Spiegazione della visualizzazione
 </left>
 <right>
 * Andamento temporale sull'asse verticale
-* Tonalità o luminosità indica la forza del segnale
+* La tonalità o la luminosità indicano la forza del segnale
 * Scorre dall'alto verso il basso
-* Riconoscibile l'inizio e la fine di un'emissione
+* Sono riconoscibili l'inizio e la fine di un'emissione
 </right>
 
 ---

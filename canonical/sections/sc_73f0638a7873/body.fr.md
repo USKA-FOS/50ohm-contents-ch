@@ -8,7 +8,7 @@ Le *rendement* $\eta$ indique quelle proportion de la puissance en courant conti
 
 $\eta = \frac{P_\mathrm{HF}}{P_\mathrm{DC}}$
 
-Ici, $P_\mathrm{HF}$ est la puissance de sortie haute fréquence et $P_\mathrm{DC}$ la puissance en courant continu absorbée par l’alimentation électrique. Cette dernière peut être calculée à partir de la tension d’alimentation et du courant consommé :
+Ici, $P_\mathrm{HF}$ est la puissance de sortie haute fréquence et $P_\mathrm{DC}$ la puissance en courant continu fournie par l’alimentation électrique. Cette dernière peut être calculée à partir de la tension d’alimentation et du courant consommé :
 
 $P_\mathrm{DC} = U_\mathrm{B} \cdot I_\mathrm{B}$
 
@@ -16,14 +16,14 @@ Le rendement est un rapport sans unité et peut atteindre au maximum la valeur $
 
 $\eta_\mathrm{\%} = \eta \cdot \qty{100}{\percent}$
 
-Le rendement d’un amplificateur de puissance HF est donc défini par le rapport entre la puissance HF de sortie fournie par l’amplificateur et la puissance en courant continu fournie par l’alimentation.
+Le rendement d’un amplificateur de puissance HF est donc défini par le rapport entre la puissance HF de sortie fournie par l’amplificateur et la puissance en courant continu fournie par l’alimentation électrique.
 
 [question:AF401]
 
 Un rendement élevé signifie qu’une faible partie de la puissance absorbée est perdue sous forme de chaleur. Avec un rendement faible, il faut évacuer une puissance dissipée plus importante à l’aide de dissipateurs thermiques ou d’autres mesures.
 
 <tip>
-Dans les questions d’examen suivantes, le rendement est considéré comme le rapport entre la puissance HF de sortie et la puissance en courant continu absorbée. Une éventuelle puissance HF d’entrée indiquée en plus n’est pas prise en compte dans ce calcul simplifié.
+Dans les questions d’examen suivantes, le rendement est considéré comme le rapport entre la puissance HF de sortie et la puissance en courant continu fournie par l’alimentation électrique. Une éventuelle puissance HF d’entrée indiquée en plus n’est pas prise en compte dans ce calcul simplifié.
 </tip>
 
 [question:AD430]

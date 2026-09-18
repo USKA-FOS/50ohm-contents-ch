@@ -22,8 +22,8 @@
 
 ### Influence des diélectriques sur l’atténuation
 
-* Les diélectriques, c’est-à-dire les gaines en plastique, augmentent l’atténuation des signaux à haute fréquence
-* Les lignes bifilaires avec un diélectrique minimal entre les conducteurs sont particulièrement peu atténuantes
+* Les diélectriques ou les gaines en plastique augmentent l’atténuation des signaux à haute fréquence
+* Les lignes bifilaires avec le moins de diélectrique possible entre les conducteurs présentent une atténuation particulièrement faible
 
 ---
 [question:AG311]

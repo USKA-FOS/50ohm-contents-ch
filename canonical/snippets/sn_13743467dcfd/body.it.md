@@ -1,1 +1,1 @@
-I nostri tutor di formazione sono radioamatori esperti che sono lieti di supportarti. Possono anche aiutarti a esercitarti nella pratica del funzionamento radio.
+I nostri tutor di formazione sono radioamatori esperti, lieti di offrirti il loro sostegno. Possono anche esercitarsi con te nella pratica dell'attività radioamatoriale.

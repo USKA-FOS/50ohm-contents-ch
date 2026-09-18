@@ -1,1 +1,1 @@
-Corso di aggiornamento N secondo E
+Corso di aggiornamento da N a E

@@ -9,9 +9,9 @@ Eccezione: stazioni telecomandate e automatiche
 
 ---
 
-## Stazione ripetitore
+## Stazione ripetitrice
 * Consente collegamenti radio tra radioamatori che non possono raggiungersi direttamente
-* Trasmette tutto ciò che riceve su una frequenza su un'altra frequenza
+* Ritrasmette su un'altra frequenza tutto ciò che riceve su una determinata frequenza
 
 <note>
 Maggiori dettagli nel prossimo paragrafo
@@ -19,7 +19,7 @@ Maggiori dettagli nel prossimo paragrafo
 
 ---
 
-## Bala
+## Baliza
 * Trasmette sempre lo stesso segnale
 * A intervalli regolari
 * Spesso solo il nominativo
@@ -34,4 +34,5 @@ Maggiori dettagli nel prossimo paragrafo
 
 ---
 [question:VD501]
+---
 [question:VD502]

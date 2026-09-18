@@ -1,1 +1,1 @@
-Torna alla carta patente
+Torna alla carta di licenza

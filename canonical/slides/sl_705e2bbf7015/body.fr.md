@@ -1,6 +1,6 @@
 <left>
 * Mesure l’adaptation de ligne
-* À quel point l’impédance caractéristique correspond-elle à l’impédance d’alimentation de l’antenne ou à celle de l’émetteur ?
+* À quel point l’impédance caractéristique correspond-elle à la résistance d’alimentation de l’antenne ou à l’impédance de l’émetteur ?
 * Appelé aussi pont de mesure du ROS
 </left>
 <right>

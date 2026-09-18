@@ -1,4 +1,4 @@
-L’examen *DE* atteste des connaissances de base et des compétences pratiques d’un radioécouteur. Son niveau de difficulté est inférieur à celui de l’examen d’État pour radioamateurs de classe N. Associé aux autres conditions requises, il permet de demander un indicatif DE et ainsi de participer à l’échange international de QSL via l’IARU-R1 (DARC).
+L’examen *DE* atteste des connaissances de base et des compétences pratiques d’un radioécouteur. Son niveau de difficulté est inférieur à celui de l’examen d’État pour radioamateurs de classe N. Associé aux autres conditions requises, il permet de demander un indicatif DE et ainsi de participer à l’échange international de QSL via le DARC.
 
 Les 70 questions possibles proviennent de trois domaines :
 
@@ -14,8 +14,8 @@ Les examens blancs disponibles sur 50ohm.de aident à s’entraîner. Pour l’e
 
 ---
 
-L’examen peut être organisé, selon les réglementations actuelles du DARC, par le président de l’association locale, le président de district, un référent AJW de district, le référat DL-AJW ou un membre du comité directeur. Ces personnes peuvent déléguer l’organisation à un autre membre. Dans des cas exceptionnels justifiés, par exemple en cas de restrictions physiques ou de connaissances préalables particulières avérées, des dérogations peuvent être accordées.
+L’examen peut être administré, selon les réglementations actuelles du DARC, par le président de l’association locale, le président de district, un référent AJW de district, le service DL-AJW ou un membre du comité directeur. Ces personnes peuvent déléguer la tenue de l’examen à un autre membre. Dans des cas exceptionnels justifiés, par exemple en cas de restrictions physiques ou de connaissances préalables particulières avérées, des dérogations peuvent être accordées.
 
 <attention>
-L’examen DE ne constitue pas une autorisation d’émission. Pour pratiquer le radioamateurisme en émission, il faut réussir l’examen d’État pour radioamateurs et obtenir une licence de la Bundesnetzagentur.
+L’examen DE ne constitue pas une autorisation d’émission. Pour pratiquer le radioamateurisme en émission, il faut réussir l’examen d’État pour radioamateurs et obtenir une autorisation de la Bundesnetzagentur.
 </attention>

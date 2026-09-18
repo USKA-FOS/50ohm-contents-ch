@@ -1,18 +1,18 @@
 <left>
-* Deux bobines sur un noyau commun couplées magnétiquement
-* L'énergie est transmise par ce biais
+* Deux bobines couplées magnétiquement sur un noyau commun
+* L’énergie est transmise par ce moyen
 * Il est possible de modifier les tensions et les courants
-* *Coupleur* ou *transformateur*, appelé plus brièvement *trafo*
+* *Transformateur*, ou plus brièvement *trafo*
 </left>
 <right>
-[picture:197:e_uebertrager:Schéma d'un coupleur]
+[picture:197:e_uebertrager:Schéma d’un transformateur]
 </right>
 
 ---
 ## Rapport de transformation
 
 <left>
-* Les tensions aux bornes du coupleur sont proportionnelles au nombre de spires
+* Les tensions aux bornes du transformateur sont proportionnelles au nombre de spires
 
 $r = \dfrac{N_P}{N_S} = \dfrac{U_P}{U_S}$
 </left>

@@ -32,9 +32,9 @@
 ## Sintonizzazione
 
 * Le emissioni durante la sintonizzazione non possono essere evitate
-* Ad esempio con adattatori automatici
+* Ad esempio con dispositivi di adattamento automatici
 * Il più breve possibile
-* Su frequenza libera
+* Su una frequenza libera
 
 ---
 [question:VD112]

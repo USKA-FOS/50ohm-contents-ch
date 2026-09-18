@@ -40,7 +40,7 @@ Link diretto al portale eGov per la [richiesta di un nominativo di associazione]
 %tbd quale formulazione sia migliore. O un'altra ancora.
 %Todo. Adattare tutti i riferimenti legali con link al portale eGov.
 
-I nominativi di associazione sono nominativi con suffisso a due cifre e vengono assegnati esclusivamente ad associazioni di radioamatori. È possibile prendere in considerazione richieste specifiche per il nominativo, purché il nominativo desiderato sia libero da almeno 5 anni.
+I nominativi di associazione sono nominativi con un suffisso di due caratteri e vengono assegnati esclusivamente ad associazioni di radioamatori. È possibile prendere in considerazione richieste specifiche per il nominativo, purché il nominativo desiderato sia libero da almeno 5 anni.
 
 Per richiedere un nominativo di associazione, occorre inviare all'UFCOM i seguenti documenti:
 * Copia dello statuto dell'associazione;

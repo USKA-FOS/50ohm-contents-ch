@@ -3,7 +3,7 @@ Ce texte alternatif n’a pas encore été vérifié.
 Résumé : Un graphique linéaire en deux dimensions montre une courbe orange de l’intensité de champ en fonction de la fréquence, qui augmente par paliers depuis des valeurs très basses à 0,01 MHz jusqu’à environ 2 000 V/m à partir de 1 000 MHz, puis reste constante.
 
 Description détaillée :
-- Étiquettes des axes : axe y (vertical) « intensité de champ en V m » (le « m » est placé sous le « V »), échelle 0, 500, 1 000, 1 500, 2 000, 2 500 ; axe x (horizontal) « fréquence en MHz », échelle 0,01, 0,1, 1, 10, 100, 1 000, 10 000, 100 000.
+- Étiquettes des axes : axe y (vertical) « intensité de champ en V/m », échelle 0, 500, 1 000, 1 500, 2 000, 2 500 ; axe x (horizontal) « fréquence en MHz », échelle 0,01, 0,1, 1, 10, 100, 1 000, 10 000, 100 000.
 - L’axe x est logarithmique avec de nombreuses fines lignes verticales grises auxiliaires (certaines légèrement plus foncées), l’axe y semble linéaire.
 - La ligne orange part du bas à gauche à 0,01 MHz, juste au-dessus de 0 V/m, presque horizontalement jusqu’à environ 0,1 MHz, puis monte progressivement, atteint environ 600 V/m vers 1 MHz et continue à augmenter légèrement jusqu’à environ 850–900 V/m vers 10 MHz.
 - De 10 MHz jusqu’à juste en dessous de 1 000 MHz, la courbe reste presque horizontale à ce niveau.

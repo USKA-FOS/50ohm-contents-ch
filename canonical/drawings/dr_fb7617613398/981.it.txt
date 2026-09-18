@@ -3,7 +3,7 @@ Questa descrizione alternativa non è stata ancora revisionata.
 Descrizione breve: Un grafico lineare bidimensionale mostra una curva arancione dell’intensità di campo in funzione della frequenza, che sale in diversi gradini da valori molto bassi a 0,01 MHz fino a circa 2 000 V/m da circa 1 000 MHz in poi, per poi rimanere costante.
 
 Descrizione dettagliata:
-- Etichette degli assi: asse y (verticale) „intensità di campo in V m“ (la „m“ è sotto la „V“), scala 0, 500, 1 000, 1 500, 2 000, 2 500; asse x (orizzontale) „frequenza in MHz“, scala 0.01, 0.1, 1, 10, 100, 1 000, 10 000, 100 000.
+- Etichette degli assi: asse y (verticale) „intensità di campo in V/m“, scala 0, 500, 1 000, 1 500, 2 000, 2 500; asse x (orizzontale) „frequenza in MHz“, scala 0.01, 0.1, 1, 10, 100, 1 000, 10 000, 100 000.
 - L’asse x è logaritmico con molte linee verticali di supporto grigie fini (alcune leggermente più scure), l’asse y appare lineare.
 - La linea arancione parte da in basso a sinistra a 0.01 MHz, appena sopra 0 V/m, quasi orizzontale fino a circa 0.1 MHz, poi sale gradualmente, raggiunge circa 600 V/m a 1 MHz e continua a salire leggermente fino a circa 850–900 V/m a 10 MHz.
 - Da circa 10 MHz fino a poco sotto 1 000 MHz la curva rimane quasi orizzontale a questo livello.

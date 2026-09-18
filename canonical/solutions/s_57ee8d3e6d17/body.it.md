@@ -1,3 +1,3 @@
-In un partitore di tensione di base, la corrente che attraversa $R_2$ deve essere notevolmente maggiore della corrente di base $I_B$, tipicamente di un fattore 10.
+In un partitore di tensione di base, la corrente che attraversa $R_2$ deve essere notevolmente maggiore della corrente di base $I_B$, tipicamente di circa un fattore 10.
 
 In questo modo, la corrente di base carica solo leggermente il partitore di tensione e la tensione di base rimane quasi costante. Il punto di funzionamento del transistor risulta così meno influenzato dalle variazioni del guadagno di corrente $B$ o della temperatura. La circuiteria di amplificazione funziona quindi in modo più stabile.

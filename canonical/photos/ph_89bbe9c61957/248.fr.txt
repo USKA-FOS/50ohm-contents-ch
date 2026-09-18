@@ -1,17 +1,17 @@
 Ce texte alternatif n’a pas encore été vérifié.
 
-Description courte : Capture d’écran d’un diagramme de mesure montrant l’<i>impédance</i> (courbe bleue) et l’angle de phase (courbe rouge) entre environ 0,9 et 5 MHz ; la courbe bleue diminue légèrement, tandis que la courbe rouge reste proche de −90°.
+Description courte : Capture d’écran d’un diagramme de mesure montrant l’impédance (courbe bleue) et l’angle de phase (courbe rouge) entre environ 0,9 et 5 MHz ; la courbe bleue diminue légèrement, tandis que la courbe rouge reste proche de −90°.
 
 Description détaillée :
-- Titre en haut : « <i>Impédance</i> & angle de phase en fonction de la <i>fréquence</i> ».
+- Titre en haut : « Impédance & angle de phase en fonction de la fréquence ».
 - Axe y gauche : « |Z| / ohm » avec une échelle de 1 à 10 000 ; axe y droit : « Phi / ° » de −90° à +90°.
-- Axe x : <i>fréquence</i> de « 900,000k » à « 5,000M ».
-- Courbe bleue (module de l’<i>impédance</i>) décroît d’environ 70 ohm à ~1 MHz à environ 40–50 ohm à ~5 MHz ; des marqueurs triangulaires numérotés 1 à 4 sont placés sur la courbe à environ 1, 2, 3 et 4 MHz.
+- Axe x : fréquence de « 900,000k » à « 5,000M ».
+- Courbe bleue (module de l’impédance) décroît d’environ 70 ohms à ~1 MHz à environ 40–50 ohms à ~5 MHz ; des marqueurs triangulaires numérotés 1 à 4 sont placés sur la courbe à environ 1, 2, 3 et 4 MHz.
 - Courbe rouge (angle de phase) suit de près la ligne des −90° et augmente légèrement (les symboles des marqueurs 1 à 4 sont également alignés sur la courbe).
 - Sous le graphique figurent les champs des marqueurs avec les valeurs de mesure :
-  - Marqueur 1 : <i>fréquence</i> 1,0010 MHz ; Réelle 0,8 ; Réactive 102,6 ; Phase −89,5° ; ROS 307,8.
-  - Marqueur 2 : <i>fréquence</i> 2,0038 MHz ; Réelle 1,7 ; Réactive −50,1 ; Phase −88,0° ; ROS 58,4.
-  - Marqueur 3 : <i>fréquence</i> 3,0051 MHz ; Réelle 1,8 ; Réactive −31,4 ; Phase −86,7° ; ROS 38,7.
-  - Marqueur 4 : <i>fréquence</i> 4,0010 MHz ; Réelle 1,7 ; Réactive −22,2 ; Phase −85,6° ; ROS 35,2.
-- Ligne de commande et de statut en bas : champs de saisie « fDébut 900,000k » et « fFin 5,000M », longueur 0,00 m, type « RG142 », symbole de batterie avec « 12,22 V » (barre verte), « Mémoire désactivée », ainsi que des boutons pour les bandes radioamateur (par exemple 2 m, 6 m, 10 m, 12 m, 15 m, 17 m, 20 m, 40 m, 80 m, 160 m).
-- Fond à damier beige avec lignes principales et secondaires ; les axes et courbes sont clairement différenciés par les couleurs (bleu/rouge).
+  - Marqueur 1 : fréquence 1,0010 MHz ; partie réelle 0,8 ; partie réactive 102,6 ; phase −89,5° ; ROS 307,8.
+  - Marqueur 2 : fréquence 2,0038 MHz ; partie réelle 1,7 ; partie réactive −50,1 ; phase −88,0° ; ROS 58,4.
+  - Marqueur 3 : fréquence 3,0051 MHz ; partie réelle 1,8 ; partie réactive −31,4 ; phase −86,7° ; ROS 38,7.
+  - Marqueur 4 : fréquence 4,0010 MHz ; partie réelle 1,7 ; partie réactive −22,2 ; phase −85,6° ; ROS 35,2.
+- Ligne de commande et de statut en bas : champs de saisie « fStart 900,000k » et « fStop 5,000M », longueur 0,00 m, type « RG142 », symbole de batterie avec « 12,22 V » (barre verte), « Memory Off », ainsi que des boutons pour les bandes radioamateur (par exemple 2 m, 6 m, 10 m, 12 m, 15 m, 17 m, 20 m, 40 m, 80 m, 160 m).
+- Fond à grille beige avec lignes principales et secondaires ; les axes et courbes sont clairement différenciés par les couleurs (bleu/rouge).

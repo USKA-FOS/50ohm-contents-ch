@@ -2,7 +2,7 @@
 
 * L'attenuazione è spesso indesiderata
 * Obiettivo: trovare un cavo la cui attenuazione sia inferiore al valore prefissato
-* Diagramma di attenuazione dei cavi dalla raccolta di formule
+* Diagramma di attenuazione del cavo dalla raccolta di formule
 
 ---
 [question:AG309]
@@ -22,8 +22,8 @@
 
 ### Influenza dei materiali dielettrici sull'attenuazione
 
-* I materiali dielettrici o le guaine in plastica aumentano l'attenuazione nei segnali ad alta frequenza
-* Le linee bifilari con il minor materiale dielettrico possibile tra i conduttori sono particolarmente a bassa attenuazione
+* I materiali dielettrici o le guaine in plastica aumentano l'attenuazione dei segnali ad alta frequenza
+* Le linee bifilari con la minore quantità possibile di materiale dielettrico tra i conduttori presentano un'attenuazione particolarmente bassa
 
 ---
 [question:AG311]

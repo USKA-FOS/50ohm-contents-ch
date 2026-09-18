@@ -14,10 +14,10 @@ La distanza massima dalla linea zero al punto più alto o più basso viene chiam
 [question:NB404]
 ---
 
-## Mezza onda
+## Mezze onde
 
 <left>
-[picture:727:amplitude_periode_halbwellen: Mezza onda positiva e negativa di un'oscillazione sinusoidale]
+[picture:727:amplitude_periode_halbwellen: Mezze onde positive e negative di un'oscillazione sinusoidale]
 </left>
 <right>
 In un'oscillazione sinusoidale esistono mezze onde positive e negative

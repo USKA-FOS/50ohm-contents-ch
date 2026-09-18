@@ -596,7 +596,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Manipulation de formules I"
+          "title": "Réarrangement de formules I"
         },
         {
           "abstract": null,
@@ -794,7 +794,7 @@
             }
           ],
           "sort_order": 14,
-          "title": "Service radio primaire et secondaire"
+          "title": "Service de radiocommunication primaire et secondaire"
         },
         {
           "abstract": null,
@@ -1408,7 +1408,7 @@
             }
           ],
           "sort_order": 15,
-          "title": "Zone d'ombre I"
+          "title": "Zone morte I"
         },
         {
           "abstract": null,
@@ -1573,7 +1573,7 @@
             }
           ],
           "sort_order": 20,
-          "title": "Fréquence maximale utilisable et fréquence minimale utilisable"
+          "title": "MUF et LUF"
         },
         {
           "abstract": null,
@@ -2022,7 +2022,7 @@
             }
           ],
           "sort_order": 6,
-          "title": "Compléments d’indicatif"
+          "title": "Suffixes d’indicatif"
         },
         {
           "abstract": null,
@@ -2187,7 +2187,7 @@
             }
           ],
           "sort_order": 11,
-          "title": "Liaisons par réflexion"
+          "title": "Liaisons radio"
         },
         {
           "abstract": null,
@@ -2339,7 +2339,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Préfixes nationaux"
+          "title": "Préfixes internationaux"
         },
         {
           "abstract": null,
@@ -2491,7 +2491,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Droit de construction personnelle"
+          "title": "Droit à l’autoconstruction"
         },
         {
           "abstract": null,
@@ -3184,7 +3184,7 @@
             }
           ],
           "sort_order": 22,
-          "title": "Thermistances et résistances à coefficient de température"
+          "title": "Thermistances CTN et CTP"
         },
         {
           "abstract": null,
@@ -3382,7 +3382,7 @@
             }
           ],
           "sort_order": 28,
-          "title": "Décibels II"
+          "title": "Décibel II"
         },
         {
           "abstract": null,
@@ -3818,7 +3818,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Transformateurs II"
+          "title": "Transformateur II"
         },
         {
           "abstract": null,
@@ -4333,7 +4333,7 @@
             }
           ],
           "sort_order": 9,
-          "title": "Montage en série et en parallèle d'éléments mixtes"
+          "title": "Montage en série et en parallèle de composants mixtes"
         }
       ],
       "sort_order": 9,
@@ -5594,7 +5594,7 @@
             }
           ],
           "sort_order": 20,
-          "title": "Classes d'amplification"
+          "title": "Classes d’amplificateurs"
         },
         {
           "abstract": null,
@@ -5746,7 +5746,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Fumée et signaux Morse"
+          "title": "Signaux de fumée et signaux Morse"
         },
         {
           "abstract": null,
@@ -6822,7 +6822,7 @@
             }
           ],
           "sort_order": 14,
-          "title": "Préamplificateurs et atténuateurs"
+          "title": "Préamplificateur et atténuateur"
         },
         {
           "abstract": null,
@@ -7020,7 +7020,7 @@
             }
           ],
           "sort_order": 20,
-          "title": "Rapport signal/bruit et facteur de bruit"
+          "title": "SNR et facteur de bruit"
         },
         {
           "abstract": null,
@@ -7218,7 +7218,7 @@
             }
           ],
           "sort_order": 26,
-          "title": "filtre coupe-bande"
+          "title": "Filtre réjecteur"
         },
         {
           "abstract": null,
@@ -7251,7 +7251,7 @@
             }
           ],
           "sort_order": 27,
-          "title": "Réduction du bruit"
+          "title": "Suppression du bruit"
         },
         {
           "abstract": null,
@@ -7535,7 +7535,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Amplificateurs de puissance"
+          "title": "Amplificateur de puissance"
         },
         {
           "abstract": null,
@@ -8202,7 +8202,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Analogique vs. digital"
+          "title": "Analogique vs. numérique"
         },
         {
           "abstract": null,
@@ -8664,7 +8664,7 @@
             }
           ],
           "sort_order": 15,
-          "title": "Modulation d'amplitude et de fréquence (ASK, FSK)"
+          "title": "Modulation par déplacement d'amplitude et de fréquence (ASK, FSK)"
         },
         {
           "abstract": null,
@@ -8796,7 +8796,7 @@
             }
           ],
           "sort_order": 19,
-          "title": "Commutation de symbole et bande passante"
+          "title": "Commutation de symboles et bande passante"
         },
         {
           "abstract": null,
@@ -9093,7 +9093,7 @@
             }
           ],
           "sort_order": 28,
-          "title": "Orthogonal Frequency-Division Multiplexing (OFDM)"
+          "title": "Multiplexage orthogonal par répartition en fréquence (OFDM)"
         },
         {
           "abstract": null,
@@ -9311,7 +9311,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Conversion A/N et N/A"
+          "title": "Conversion A/D et D/A"
         },
         {
           "abstract": null,
@@ -9344,7 +9344,7 @@
             }
           ],
           "sort_order": 5,
-          "title": "Filtres anti-repllement et de reconstruction"
+          "title": "Filtres anti-repliement et de reconstruction"
         },
         {
           "abstract": null,
@@ -9443,7 +9443,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Traitement numérique des signaux I/Q"
+          "title": "Traitement numérique du signal I/Q"
         },
         {
           "abstract": null,
@@ -10176,7 +10176,7 @@
             }
           ],
           "sort_order": 14,
-          "title": "Impédance au point de pied I"
+          "title": "Impédance au point d’alimentation I"
         },
         {
           "abstract": null,
@@ -10209,7 +10209,7 @@
             }
           ],
           "sort_order": 15,
-          "title": "Impédance au point de référence II"
+          "title": "Impédance au point d’alimentation II"
         },
         {
           "abstract": null,
@@ -10374,7 +10374,7 @@
             }
           ],
           "sort_order": 20,
-          "title": "Antenne parabolique I"
+          "title": "Réflecteur parabolique I"
         },
         {
           "abstract": null,
@@ -10407,7 +10407,7 @@
             }
           ],
           "sort_order": 21,
-          "title": "Antenne parabolique II"
+          "title": "Réflecteur parabolique II"
         },
         {
           "abstract": null,
@@ -10440,7 +10440,7 @@
             }
           ],
           "sort_order": 22,
-          "title": "Miroir à décalage"
+          "title": "parabole offset"
         },
         {
           "abstract": null,
@@ -11034,7 +11034,7 @@
             }
           ],
           "sort_order": 40,
-          "title": "Affaiblissement des câbles I"
+          "title": "Atténuation du câble I"
         },
         {
           "abstract": null,
@@ -11067,7 +11067,7 @@
             }
           ],
           "sort_order": 41,
-          "title": "Affaiblissement des câbles II"
+          "title": "Atténuation du câble II"
         },
         {
           "abstract": null,
@@ -11232,7 +11232,7 @@
             }
           ],
           "sort_order": 46,
-          "title": "ROS-mètre I"
+          "title": "ROS-mètre (SWR-Meter) I"
         },
         {
           "abstract": null,
@@ -11265,7 +11265,7 @@
             }
           ],
           "sort_order": 47,
-          "title": "ROS-mètre II"
+          "title": "ROS-mètre (SWR-mètre) II"
         },
         {
           "abstract": null,
@@ -11813,7 +11813,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Certificat de localisation"
+          "title": "Certificat de site"
         },
         {
           "abstract": null,
@@ -11879,7 +11879,7 @@
             }
           ],
           "sort_order": 10,
-          "title": "Limites admissibles"
+          "title": "Limites"
         },
         {
           "abstract": null,
@@ -12044,7 +12044,7 @@
             }
           ],
           "sort_order": 15,
-          "title": "Protection des personnes avec des antennes directives"
+          "title": "Protection des personnes à proximité d’antennes directionnelles"
         }
       ],
       "sort_order": 20,
@@ -12097,7 +12097,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Droit de construction et responsabilité"
+          "title": "Droit de la construction et responsabilité"
         },
         {
           "abstract": null,
@@ -12262,7 +12262,7 @@
             }
           ],
           "sort_order": 6,
-          "title": "Mise à la terre des éclairs"
+          "title": "Mise à la terre contre la foudre"
         },
         {
           "abstract": null,
@@ -12295,7 +12295,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Mise à la terre de protection"
+          "title": "Liaison équipotentielle"
         },
         {
           "abstract": null,
@@ -12328,7 +12328,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Mise à la terre de protection et égalisation des potentiels I"
+          "title": "Mise à la terre de protection et liaison équipotentielle I"
         },
         {
           "abstract": null,
@@ -12361,7 +12361,7 @@
             }
           ],
           "sort_order": 9,
-          "title": "Mise à la terre de protection et équilibrage des potentiels II"
+          "title": "Mise à la terre de protection et liaison équipotentielle II"
         },
         {
           "abstract": null,
@@ -12427,7 +12427,7 @@
             }
           ],
           "sort_order": 11,
-          "title": "Toucher d'antennes I"
+          "title": "Contact avec des antennes I"
         },
         {
           "abstract": null,
@@ -12460,7 +12460,7 @@
             }
           ],
           "sort_order": 12,
-          "title": "Toucher d'antennes II"
+          "title": "Toucher des antennes II"
         },
         {
           "abstract": null,
@@ -12579,7 +12579,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "service d'amateur"
+          "title": "Service d’amateur"
         },
         {
           "abstract": null,
@@ -12744,7 +12744,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Frais et cotisations"
+          "title": "Redevances et contributions"
         },
         {
           "abstract": null,
@@ -12896,7 +12896,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Code Q"
+          "title": "Codes Q"
         },
         {
           "abstract": null,
@@ -12929,7 +12929,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Locateur Maidenhead"
+          "title": "Locator Maidenhead"
         },
         {
           "abstract": null,
