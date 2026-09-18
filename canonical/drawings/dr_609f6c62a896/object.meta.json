@@ -21,6 +21,20 @@
         "tex": "1132.de.tex"
       },
       "review_state": "imported_approved"
+    },
+    "fr": {
+      "asset_files": {
+        "svg": "1132.fr.svg",
+        "tex": "1132.fr.tex"
+      },
+      "review_state": "to_be_reviewed"
+    },
+    "it": {
+      "asset_files": {
+        "svg": "1132.it.svg",
+        "tex": "1132.it.tex"
+      },
+      "review_state": "to_be_reviewed"
     }
   },
   "languages": [
@@ -38,6 +52,22 @@
       },
       "de.tex": {
         "canonical_file": "1132.de.tex",
+        "source_path": "contents/drawings/1132.tex"
+      },
+      "fr.svg": {
+        "canonical_file": "1132.fr.svg",
+        "source_path": "contents/drawings/1132.svg"
+      },
+      "fr.tex": {
+        "canonical_file": "1132.fr.tex",
+        "source_path": "contents/drawings/1132.tex"
+      },
+      "it.svg": {
+        "canonical_file": "1132.it.svg",
+        "source_path": "contents/drawings/1132.svg"
+      },
+      "it.tex": {
+        "canonical_file": "1132.it.tex",
         "source_path": "contents/drawings/1132.tex"
       }
     },
