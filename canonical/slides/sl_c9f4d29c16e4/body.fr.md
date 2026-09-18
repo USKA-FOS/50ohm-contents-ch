@@ -1,5 +1,5 @@
 <left>
-[picture:834:a_wechselstrom_leistung:Valeurs efficaces pour le calcul de la puissance]
+[picture:834:a_wechselstrom_leistung:Valeurs efficaces pour le calcul de puissance]
 </left>
 <right>
 Calcul avec les valeurs efficaces
@@ -19,7 +19,7 @@ $P = U_{\mathrm{eff}} \cdot I_{\mathrm{eff}}$
 ---
 [question:AB301]
 ---
-### Solution
+### Méthode de résolution
 * donné : $I_{\mathrm{max}} = \hat{I} = \qty{0,5}{\ampere}$
 * donné : $R = \qty{20}{\ohm}$
 * recherché : $P$
@@ -29,12 +29,12 @@ $\begin{split} P &=  I^2 \cdot R = \left(\frac{I_{\mathrm{max}}}{\sqrt{2}}\right
 </fragment>
 
 ---
-## Thermoumformer
+## Convertisseur thermique
 
-* Appareil de mesure dans lequel la chaleur rayonnée par une résistance est mesurée
-* La chaleur rayonnée est convertie en une tension continue mesurable par un thermocouple
-* Utilisé lorsque la mesure électrique n'est pas possible, par exemple pour les signaux non périodiques
-* La *valeur efficace* de l'intensité du courant est mesurée
+* Appareil de mesure où la chaleur rayonnée est mesurée au niveau d’une résistance
+* À partir de la chaleur rayonnée, une tension continue est générée à l’aide d’un thermocouple, qui peut être mesurée
+* Utilisé lorsque la mesure électrique n’est pas possible, par exemple pour des signaux non périodiques
+* C’est la *valeur efficace* de l’intensité du courant qui est mesurée
 
 ---
 [question:AI105]

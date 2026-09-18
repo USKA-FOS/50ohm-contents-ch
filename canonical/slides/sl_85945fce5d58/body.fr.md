@@ -1,17 +1,18 @@
-## Indicateurs d'appel liés à une personne
+## Indicatifs personnels
 
-* Chaque radioamateur ayant une autorisation pour le service radioamateur en Allemagne
-* L'indicatif d'appel est attribué par la BNetzA
-* Unique au niveau mondial
-* Ne peut être utilisé que par le radioamateur auquel il a été attribué
+* Tout **radioamateur** titulaire d’une licence pour le **service d’amateur** en Allemagne
+* L’indicatif est attribué par l’Agence fédérale des réseaux (BNetzA)
+* Unique à l’échelle mondiale
+* Ne peut être utilisé que par le **radioamateur** auquel il est attribué
 
 ---
 [question:VC116]
 ---
-## Structure des indicateurs d'appel
+
+## Structure des indicatifs
 
 <left>
-[picture:654:n_amateurfunkstrationen_aufbau_rufzeichen:Structure de l'indicatif d'appel : DL1FLO, WZ6Y, K4EAX]
+[picture:654:n_amateurfunkstrationen_aufbau_rufzeichen:Structure de l’indicatif - K4EAX, WZ6Y, DL1FLO]
 </left>
 <right>
 Trois parties :
@@ -21,67 +22,73 @@ Trois parties :
 </right>
 
 <note>
-* Préfixe : un à deux caractères, par exemple DL, 4U ou K
+* Préfixe : un ou deux caractères, par ex. DL, 4U ou K
 * Chiffre : de 0 à 9
-* Suffixe : au moins un autre caractère
+* Suffixe : au moins un caractère supplémentaire
 </note>
 ---
-## Préfixe
+## Préfixes
 
-* Attribué de manière spécifique à chaque pays
-* Pour localiser les stations radioamateurs
-* Déterminé par l'Union internationale des télécommunications (International Telecommunication Union, ITU)
-* Figurent dans les Règlements des radiocommunications (RR)
+* Spécifique à chaque pays
+* Permet de localiser les stations de **radioamateur**
+* Définis par l’Union internationale des télécommunications (UIT)
+* Consignés dans le **règlement des radiocommunications** (RR)
 * Les États membres doivent les intégrer dans leur droit national
 
 ---
-## Préfixes Allemagne
+
+## Préfixes pour l’Allemagne
 
 * DA à DR
 * Y2 à Y9
+  * Anciennement attribués à la RDA et très rarement utilisés aujourd’hui
 
 <note>
-* Y2 à Y9 était autrefois la RDA et n'est utilisé que très rarement aujourd'hui
-* Pour la dernière fois lors du championnat du monde de radioamateur WRTC 2018
+* Y8 : Dernière utilisation lors du Championnat du monde de radioamateur WRTC 2018
 </note>
+
 ---
 [question:VA406]
 ---
-## Indicateurs d'appel liés à une personne en Allemagne
+
+## Indicatifs personnels en Allemagne
 
 <left>
-* 2 lettres de préfixe
-* un chiffre
-* 2-3 lettres de suffixe
+* Préfixe à 2 lettres
+* Un chiffre
+* Suffixe de 2 à 3 lettres
 </left>
 <right>
-| l |
-| DL1ABC |
-| DO5XYZ |
-| DA0RC |
-[table:n_amateurfunkstationen_rufzeichen_beispiele:Exemple d'indicateurs d'appel radioamateurs allemands liés à une personne]
+Exemples :
+* DL1ABC
+* DO5XYZ
+* DA0RC
 </right>
+
 ---
 [question:VD203]
 ---
-## Autres indicateurs d'appel
 
-* Stations radioamateurs télécommandées et fonctionnant automatiquement
+## Autres types d’indicatifs
+
+* Stations de **radioamateur** télécommandées ou fonctionnant de manière automatique
 * Stations de club
 
 ---
 [question:VD202]
 ---
-## Plan des indicateurs d'appel
 
-* En Allemagne par la BNetzA
-* Selon le [plan des indicateurs d'appel](https://50ohm.de/rzp)
-* L'usage peut être reconnu grâce au préfixe, aux chiffres et au suffixe
-* Disponible pendant l'examen
+## Plan d’attribution des indicatifs
+
+* En Allemagne, géré par l’Agence fédérale des réseaux (BNetzA)
+* Selon le [plan d’attribution des indicatifs](https://50ohm.de/rzp)
+* Le but d’utilisation est identifiable grâce au préfixe, aux chiffres et au suffixe
+* Disponible pendant l’examen
+* Après l’examen, se tenir régulièrement informé des modifications
 
 <note>
-* Se familiariser avec le document, car très utile pour de nombreuses questions
-* Après l'examen, s'informer régulièrement des modifications
+* Se familiariser avec ce document, car il est très utile pour de nombreuses questions.
 </note>
+
 ---
 [question:VD201]

@@ -1,8 +1,8 @@
-* Pour contourner les filtres, certains appareils radio FM offrent un port séparé pour les Digimodes
-* Celui-ci est souvent marqué *DATA* ou *9600*
-* 9600 correspondant au débit de données en bauds ($\unit{\baud}$), qui peut être transmis avec celui-ci
-* Le TNC (Terminal Node Controller) de l'ordinateur y est connecté directement
-* Aujourd'hui souvent réalisé directement sous forme de connexion USB
+* Pour contourner les filtres, certains appareils radio FM proposent un port séparé pour les modes numériques
+* Ce port est souvent étiqueté *DATA* ou *9600*
+* 9600 correspond au débit en bauds ($\unit{\baud}$) pouvant être transmis
+* Un TNC (Terminal Node Controller) ou un ordinateur y est directement connecté
+* Aujourd’hui souvent réalisé directement sous forme de port USB
 
 ---
 
@@ -10,22 +10,22 @@
 
 ---
 <left>
-* L'émission et la réception se font sans filtre BF et sans étage final BF
-* Le modulateur FM ou le démodulateur FM est sollicité directement
+* L’émission et la réception s’effectuent sans filtre BF ni étage final BF
+* Le modulateur FM ou le démodulateur FM est directement sollicité
 * Les signaux ne sont pas déformés
 </left>
 <right>
-[picture:354:e_9600_port_fm_sender:Émetteur FM avec alimentation du signal de données à $\qty{9600}{\baud}$ Baud en point 2]
-[picture:355:e_9600_port_fm_empfaenger:Récepteur FM avec prélèvement du signal de données à $\qty{9600}{\baud}$ Baud en point 4]
+[picture:354:e_9600_port_fm_sender:Émetteur FM avec ligne d’alimentation du signal de données à $\qty{9600}{\baud}$ au point 2]
+[picture:355:e_9600_port_fm_empfaenger:Récepteur FM avec prélèvement du signal de données à $\qty{9600}{\baud}$ au point 4]
 </right>
 ---
 
 <left>
 * Utilisé autrefois pour le Packet Radio
-* Aujourd'hui pour les modes modernes et libres comme M17
+* Aujourd’hui pour des modes modernes et libres comme M17
 </left>
 <right>
-[photo:185:m17_tnc:Module M17 un TNC pour le procédé de transmission M17]
+[photo:185:m17_tnc:Module M17, un TNC pour le procédé de transmission M17]
 </right>
 
 ---

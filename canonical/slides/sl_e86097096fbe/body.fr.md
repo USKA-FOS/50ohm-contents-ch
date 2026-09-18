@@ -1,16 +1,29 @@
 <left>
-* La polarisation peut être *verticale* ou *horizontale*
-* Peut être facilement reconnue sur la plupart des antennes
-* Sur VHF et au-dessus, tous devraient utiliser la même polarisation
+[picture:51:n_vpol_antenne:antenne à polarisation verticale]
 </left>
 <right>
-* *Polarisation circulaire*
-* Ondes radio tournantes avec une forme d'antenne particulière
-* Distinction entre "circulaire gauche" et "circulaire droite"
+[picture:326:n_hpol_antenne:antenne à polarisation horizontale]
 </right>
+
+---
+
+* La polarisation peut être *verticale* ou *horizontale*
+* Elle est facilement identifiable sur la plupart des antennes
+* En VHF et au-dessus, toutes les stations doivent utiliser la même polarisation
+
 <note>
-* À ondes courtes, la polarisation n'est plus décisive dans le champ lointain
-* DVB-T d'Alexanderplatz à Berlin est horizontal - avec une antenne fouet verticale, la réception est mauvaise ; la raison était la réutilisation des antennes Yagi-Uda existantes
+* En ondes courtes, la polarisation n'est plus déterminante en champ lointain
+* La télévision numérique terrestre (TNT) de Berlin-Alexanderplatz est en polarisation horizontale : une antenne verticale de type "tige" donne une mauvaise réception ; la raison en est l'utilisation d'antennes Yagi-Uda existantes
+</note>
+
+---
+
+* Polarisation *circulaire*
+* Ondes radio tournantes avec une forme d'antenne particulière
+* Distinction entre polarisation circulaire "à gauche" et "à droite"
+
+<note>
+Plus de détails dans les cours pour les classes E et A
 </note>
 
 ---

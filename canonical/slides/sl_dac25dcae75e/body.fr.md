@@ -1,15 +1,15 @@
-## Thermistor à coefficient de température négatif
+## Thermistance à coefficient de température négatif (CTN)
 <left>
-* Un thermistor à coefficient de température négatif est une résistance dépendante de la température
-* En anglais: Negative Temperature Coefficient Thermistor (*NTC*)
-* Il conduit mieux le courant électrique à *haute température*
+* Une thermistance à coefficient de température négatif est une résistance dépendant de la température
+* En anglais : *Negative Temperature Coefficient Thermistor* (*NTC*)
+* Conduit mieux le courant électrique à *hautes températures*
 </left>
 <right>
-[picture:125:e_ntc:Symbole de circuit d'une résistance NTC]
+[picture:125:e_ntc:symbole de circuit d'une résistance CTN]
 </right>
 <note>
-* Astuce mnémotechnique: La première flèche indique la température, la deuxième flèche la conductivité
-* Ici: Haute température, haute conductivité
+* Astuce : La première flèche indique la température, la deuxième la conductivité
+* Ici : Haute température, haute conductivité
 </note>
 
 ---
@@ -17,19 +17,19 @@
 ---
 [question:EC110]
 ---
-## Thermistor à coefficient de température positif
+## Thermistance à coefficient de température positif (CTP)
 
 <left>
-* Un thermistor à coefficient de température positif est une résistance dépendante de la température
-* En anglais: Positive Temperature Coefficient Thermistor (*PTC*)
-* Il conduit mieux le courant électrique à *basse température*
+* Une thermistance à coefficient de température positif est une résistance dépendant de la température
+* En anglais : *Positive Temperature Coefficient Thermistor* (*PTC*)
+* Conduit mieux le courant électrique à *basses températures*
 </left>
 <right>
-[picture:126:e_ptc:Symbole de circuit d'une résistance PTC]
+[picture:126:e_ptc:symbole de circuit d'une résistance CTP]
 </right>
 <note>
-* Astuce mnémotechnique: La première flèche indique la température, la deuxième flèche la conductivité
-* Ici: Basse température, haute conductivité
+* Astuce : La première flèche indique la température, la deuxième la conductivité
+* Ici : Basse température, haute conductivité
 </note>
 ---
 [question:EC111]

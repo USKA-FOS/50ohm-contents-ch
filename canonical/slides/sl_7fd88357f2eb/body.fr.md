@@ -1,9 +1,9 @@
 <left>
-* L'appareil de réseau convertit la tension alternative de $\qty{230}{\volt}$ de la prise en une tension continue plus petite
-* En radioamateur, on utilise souvent $\qty{13,8}{\volt}$ pour les émetteurs-récepteurs
+* Le bloc d’alimentation convertit la tension alternative de $\qty{230}{\volt}$ du secteur en une tension continue plus faible
+* En radioamateurisme, une tension de $\qty{13,8}{\volt}$ est couramment utilisée pour les émetteurs-récepteurs
 </left>
 <right>
-[picture:740:n_netzgeraet:Appareil de réseau]
+[picture:740:n_netzgeraet:Bloc d’alimentation]
 </right>
 
 ---
@@ -16,23 +16,23 @@
 
 ---
 
-## Schutzkontakt
+## Contact de protection
 
 <left>
-* La fiche *Schutzkontakt* a trois pôles
-* L- et N-conducteurs par des broches
-* Là, la tension de $\qty{230}{\volt}$ est appliquée
-* *Schutzkontakt* est le troisième pôle
-* Conducteur PE par des contacts glissants extérieurs
+* La fiche de contact de protection possède trois pôles
+* Conducteurs L et N par broches
+* La tension de $\qty{230}{\volt}$ est présente sur ces broches
+* Le *contact de protection* est le troisième pôle
+* Conducteur PE par contacts glissants extérieurs
 </left>
 <right>
-[photo:86:n_schutzkontakt:Schutzkontakt sur une prise et une fiche Schuko]
+[photo:86:n_schutzkontakt:Contact de protection sur une prise de courant et fiche Schuko]
 </right>
 <note>
-* Les fiches Schuko n'ont pas de protection contre l'inversion des pôles pour L- et N-conducteurs
-* "protective earth" — Mise à la terre de protection
-* Boîtier métallique mis à la terre
-* La mise à la terre exclut une tension dangereuse sur le boîtier
+* Les fiches Schuko ne protègent pas contre une inversion des conducteurs L et N
+* *Protective Earth* — mise à la terre de protection
+* Le boîtier métallique est mis à la terre
+* La mise à la terre élimine tout risque de tension dangereuse sur le boîtier
 </note>
 
 ---
@@ -41,25 +41,25 @@
 
 ---
 
-## Sortie de tension continue
+## Sortie en tension continue
 
-[picture:680:n_Netzgeraet_TRX:Connexion de l'appareil de réseau et du TRX]
+[picture:680:n_Netzgeraet_TRX:Branchement d’un bloc d’alimentation et d’un émetteur-récepteur]
 
 <left>
-* Est bipolaire vers l'émetteur-récepteur
+* Connexion bipolaire vers l’émetteur-récepteur
 * Les bornes sont généralement colorées
 </left>
 <right>
 <fragment>
-* Rouge pour le plus
-* Noir pour le moins
+* Rouge pour le positif
+* Noir pour le négatif
 * Respecter la polarité !
 </fragment>
 </right>
 
 <note>
-* Court-circuit ou destruction de l'émetteur-récepteur possible
-* Contrôler les câbles, puis seulement allumer
+* Risque de court-circuit ou de destruction de l’émetteur-récepteur
+* Contrôler les câbles avant de mettre sous tension
 </note>
 
 ---
@@ -84,41 +84,51 @@
 
 ---
 
-## Sécurité fine
+## Fusibles miniatures
 
 <left>
-[photo:88:n_feinsicherungen:Sécurité fine]
+[photo:88:n_feinsicherungen:Fusibles miniatures]
 </left>
 <right>
-* Interrompre le flux de courant en cas de défaillance (court-circuit ou surcharge)
-* Fusibles dans lesquels un fil fin fond
-* *Fusible grillé* ou *déconnexion thermique*
+* Interrompent le flux de courant en cas de défaut (court-circuit ou surcharge)
+* Fusibles à fusion dans lesquels un fil fin fond
+* *Fusible grillé* ou *coupure thermique*
 </right>
 
 ---
 
-### Remplacer les sécurités fines
+### Remplacer les fusibles miniatures
 
-* D'abord corriger la cause
-* Remplacer par des sécurités de même type
-* Intensité du courant et caractéristique de déclenchement
+* D’abord corriger la cause du défaut
+* Remplacer par un fusible de même type
+* Tenir compte de l’intensité du courant et de la caractéristique de déclenchement
+
+<note>
+ATTENTION : Il est interdit et très dangereux de court-circuiter un fusible défectueux avec du papier aluminium — risque d’incendie !
+</note>
 
 ---
 
-### Caractéristiques des sécurités fines
+### Caractéristiques des fusibles miniatures
 
 | c: Caractéristique de déclenchement | c: Symbole | c: Temps de coupure à dix fois le courant nominal |
 | rapide | F | max. $\qty{30}{\milli\second}$ |
-| moyen | MT | max. $\qty{90}{\milli\second}$ |
-| lent | T | max. $\qty{300}{\milli\second}$ |
-[table:n_feinsicherung:Caractéristiques des sécurités fines]
+| moyenne | M | max. $\qty{90}{\milli\second}$ |
+| lente | T | max. $\qty{300}{\milli\second}$ |
+[table:n_feinsicherung:Caractéristiques des fusibles miniatures]
 
 ---
 
 ### Limitation électronique
 
-* Dans les appareils de réseau de haute qualité
-* En cas de court-circuit, l'intensité du courant est limitée
+* Présente dans les blocs d’alimentation haut de gamme
+* En cas de court-circuit, la limitation de courant est activée
 * *Limitation du courant de court-circuit*
 * Pas besoin de remplacer les fusibles
+
+---
+[question:ND108]
+
+---
+[question:NK305]
 

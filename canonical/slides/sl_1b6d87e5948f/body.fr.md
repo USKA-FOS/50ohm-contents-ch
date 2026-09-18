@@ -1,7 +1,7 @@
-Certaines bandes de fréquences nous sont attribuées en priorité et d'autres de manière secondaire
-* *Primaire* signifie que nous avons la priorité sur les autres services de radiocommunication et que nous ne devons pas accepter les perturbations de leur part
-* *Secondaire* signifie que nous, en tant que radioamateurs, ne devons pas perturber les autres services de radiocommunication et devons accepter les perturbations de leur part
-* Le statut est indiqué dans la colonne 3 de l'annexe 1 de l'AFuV par P et S
+Certaines bandes de fréquences nous sont attribuées en priorité, d'autres en secondaire
+* *Primaire* signifie que nous avons la priorité sur les autres services de radiocommunication et ne devons pas subir leurs perturbations
+* *Secondaire* signifie que nous, radioamateurs, ne devons pas perturber les autres services de radiocommunication et devons accepter leurs perturbations
+* Le statut est indiqué dans la colonne 3 de l'annexe 1 de l'AFuV par les lettres P et S
 
 ---
 [question:VD704]
@@ -13,40 +13,40 @@ Certaines bandes de fréquences nous sont attribuées en priorité et d'autres d
 
 ## Attributions dans d'autres pays
 
-* Les attributions primaires et secondaires peuvent différer dans d'autres pays
-* Avant de commencer l'exploitation, informez-vous sur les réglementations du pays hôte !
+* Les attributions en primaire et secondaire peuvent varier selon les pays
+* Avant de commencer à émettre, informez-vous sur la réglementation du pays hôte !
 
 ---
 
-## Service de radiocommunication maritime
+## Service maritime mobile
 
-* La bande des $\qty{80}{\meter}$ est attribuée en priorité au radioamateur
-* Les stations côtières du service de radiocommunication maritime ont néanmoins la priorité
-* Raison : Fréquence fixe attribuée
+* La bande $\qty{80}{\meter}$ est attribuée en priorité au radioamateurisme
+* Les stations côtières du service maritime mobile conservent cependant la priorité
+* Raison : attribution de fréquences fixes
 
 <note>
-* En pratique, grâce à la radiocommunication par satellite, le trafic côtier sur 80m est rarement utilisé
-* Le service de radiocommunication maritime civil a été arrêté en Allemagne le 31.12.1998
+* En pratique, grâce aux satellites, le service maritime sur 80 m est rarement utilisé
+* Le service maritime civil a été arrêté en Allemagne le 31.12.1998
 * Il existe encore des stations côtières militaires
 </note>
 ---
 [question:VD707]
 ---
 
-## Domaine ISM
+## Bande ISM
 
 <left>
-* "*Bande industrielle, scientifique et médicale*"
-* Sous-bande de la bande des $\qty{70}{\centi\meter}$ du radioamateur
-* De nombreux appareils ménagers utilisent cette bande
-* Les perturbations dans le radioamateur doivent être acceptées malgré l'attribution primaire
+* *I*ndustrielle, *S*cientifique et *M*édicale
+* Sous-bande du $\qty{70}{\centi\meter}$ du service amateur
+* De nombreux appareils ménagers l'utilisent
+* Malgré l'attribution en priorité, les perturbations dans le service amateur doivent être acceptées
 </left>
 
 <right>
-  * Ouvreurs de porte de garage
-  * Stations météo radio
+  * Ouvre-porte de garage
+  * Stations météo sans fil
   * Clés de voiture
-  * Immobilisateurs
+  * Immobiliseurs
   * Capteurs de pression des pneus
   * …
 </right>

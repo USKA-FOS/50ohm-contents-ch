@@ -1,4 +1,4 @@
-Dans la transmission d'informations, on distingue fondamentalement entre les procédés *analogiques* et *numériques*. Numérique signifie que quelque chose se fait par paliers, c'est-à-dire qu'il ne peut prendre que certaines valeurs et ne connaît pas de valeurs intermédiaires (figure [ref:n_digital_einleitung_digitales_signal]). Analogique, en revanche, signifie que quelque chose est continu, c'est-à-dire qu'il peut également prendre des valeurs intermédiaires [ref:n_digital_einleitung_analoges_signal]).
+Pour la transmission d'informations, on distingue fondamentalement les procédés *analogiques* et *numériques*. Le numérique signifie que quelque chose se fait par étapes, c'est-à-dire qu'il ne peut prendre que certaines valeurs et ne connaît pas de valeurs intermédiaires (Figure [ref:n_digital_einleitung_digitales_signal]). L'analogique, en revanche, désigne quelque chose de continu, qui peut donc prendre n'importe quelle valeur intermédiaire [ref:n_digital_einleitung_analoges_signal]).
 
 <margin>
 [picture:411:n_digital_einleitung_digitales_signal:Signal numérique (par paliers)]
@@ -8,8 +8,8 @@ Dans la transmission d'informations, on distingue fondamentalement entre les pro
 [picture:408:n_digital_einleitung_analoges_signal:Signal analogique (continu)]
 </margin>
 
-En radio, une transmission numérique peut être réalisée, par exemple, en réglant l'amplitude de la porteuse émise uniquement sur certains paliers, par exemple $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$, $\qty{100}{\percent}$ de l'intensité maximale, mais pas entre les deux. De nombreux procédés de transmission couramment utilisés fonctionnent désormais de manière numérique, par exemple le WLAN, le LTE ou le DVB.
+En radio, une transmission numérique peut être obtenue, par exemple, en fixant l'amplitude de la porteuse émise à certains niveaux, par exemple $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$, $\qty{100}{\percent}$ de la puissance maximale, mais pas entre ces valeurs. De nombreux procédés de transmission couramment utilisés aujourd'hui fonctionnent en numérique, comme le Wi-Fi, la 4G ou la TNT.
 
 %<indepth>
-%L'avantage des procédés numériques réside dans le fait que de petites erreurs lors de la transmission peuvent être compensées du côté du récepteur. Par exemple, si une amplitude n'est pas mesurée comme $\qty{25}{\percent}$ de l'intensité maximale, mais comme $\qty{29}{\percent}$, on peut supposer que l'amplitude aurait dû être $\qty{25}{\percent}$ et corriger la valeur.
+%L'avantage des procédés numériques réside dans le fait que de petites erreurs de transmission peuvent être corrigées côté récepteur. Si, par exemple, une perturbation fait que l'amplitude n'est pas mesurée à $\qty{25}{\percent}$ de la puissance maximale, mais à $\qty{29}{\percent}$, on peut supposer que l'amplitude était en réalité de $\qty{25}{\percent}$ et corriger la valeur.
 %</indepth>

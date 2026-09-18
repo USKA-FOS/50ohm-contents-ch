@@ -1,9 +1,9 @@
-Comme nous l'avons déjà appris dans les questions d'examen pour la classe N et E, il peut y avoir des surdistances dans la gamme VHF en raison des conditions météorologiques d'inversion. Les ondes radio peuvent être réfléchies aux transitions entre les couches d'air chaud et froid et être renvoyées sur de plus grandes distances vers la terre.
+Comme nous l'avons déjà appris dans les questions d'examen pour les classes N et E, des **portées exceptionnelles** peuvent survenir dans la bande VHF en raison de situations météorologiques d'inversion. Aux interfaces entre des couches d'air chaudes et froides, les **ondes radio** peuvent être **réfléchies** et guidées sur de plus longues distances vers la **terre**.
 
-Un autre phénomène dans ce contexte est ce qu'on appelle le ducting (du mot anglais duct, qui signifie tube, canal ou guidage). Dans ce type de propagation (cf. figure [ref:a_tropo]), les ondes radio parviennent entre des couches d'air de températures différentes et sont guidées dans ce canal de guide d'ondes naturel. De cette manière, des distances de plus de $\qty{1000}{\kilo\meter}$ peuvent être couvertes.
+Un autre phénomène lié à ce contexte est ce que l'on appelle le *ducting* (de l'anglais *duct*, qui signifie tube, canal ou guide). Dans ce mode de propagation (cf. figure [ref:a_tropo]), les **ondes radio** circulent entre des couches d'air de **températures** différentes et sont guidées dans ce guide d'ondes naturel. De cette manière, il est même possible de couvrir des distances nettement supérieures à $\qty{1000}{\kilo\meter}$.
 
 <margin>
-[picture:987:a_tropo:Propagation par ducting]
+[picture:987:a_tropo:Propagation par conduit troposphérique]
 </margin>
 
 [question:AH309]

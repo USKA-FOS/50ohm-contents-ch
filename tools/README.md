@@ -126,6 +126,18 @@ the import manifest. Every later campaign must use the previously accepted
 source revision as its baseline; a dry-run must never silently redefine that
 baseline.
 
+When one German source update was applied in several import phases, combine
+the accepted manifests before translating the target languages:
+
+```bash
+python tools/merge_german_source_import_audits.py \
+  review/source_imports/german-source-import.0ebada583d.json \
+  review/source_imports/german-source-import-remaining.json \
+  --output review/source_imports/german-source-import-combined.json
+```
+
+The combined file is a translation scope only; it does not import anything.
+
 Ambiguous renames, stale target HTML structure and missing complete editions
 block apply. Questions are outside this importer’s scope.
 

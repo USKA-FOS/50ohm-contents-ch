@@ -1,5 +1,5 @@
-Un transistor PNP est constitué de deux zones dopées p et d'une zone dopée n entre elles. La zone dopée n forme la fine couche de commande du transistor.
+Un transistor PNP est composé de deux zones dopées de type P et d'une zone dopée de type N entre elles. La zone dopée de type N forme la fine couche de commande du transistor.
 
-Cette zone dopée n est connectée à la base.
+Cette zone dopée de type N est reliée à la broche de base.
 
-Il est recommandé de mémoriser par exemple le transistor NPN. Dans le cas du PNP, tout est inversé.
+Il est conseillé, par exemple, de retenir le transistor NPN. Pour le PNP, tout est inversé.

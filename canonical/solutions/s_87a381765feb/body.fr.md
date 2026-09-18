@@ -1,19 +1,19 @@
-Donné : 
+Données :
 
-* Signal vocal avec $f_\text{max}=\qty{4}{\kilo\hertz}$ de bande passante
+* Signal vocal avec une bande passante $f_\text{max}=\qty{4}{\kilo\hertz}$
 
-Recherché : 
+Recherché :
 
-* Fréquence d'échantillonnage $f_\text{s}$
+* Fréquence d’échantillonnage $f_\text{s}$
 
-Solution:
+Solution :
 
-Pour qu'un échantillonnage sans erreur soit possible, la condition de Nyquist doit être remplie : 
+Pour qu’un échantillonnage sans erreur soit possible, la condition de Nyquist doit être respectée :
 
- $f_\text{s} > 2 \cdot f_\text{max}$
+$f_\text{s} > 2 \cdot f_\text{max}$
 
-Nous insérons : 
+Nous insérons :
 
 $\begin{split} f_\text{s} &> 2 \cdot f_\text{max}\\ &> 2 \cdot \qty{4000}{\hertz}\\ &> \qty{8000}{\hertz} \end{split}$
 
-Il ne reste donc que la solution $\qty{9600}{\sps}$, car seule cette valeur est supérieure à $\qty{8000}{\hertz}$.
+La seule solution restante est donc $\qty{9600}{\sps}$, car cette valeur est la seule supérieure à $\qty{8000}{\hertz}$. 

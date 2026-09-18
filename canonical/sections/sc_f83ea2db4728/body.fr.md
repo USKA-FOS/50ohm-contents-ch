@@ -1,15 +1,15 @@
-Si l'on écoute une fréquence sur laquelle aucune station n'émet, on entend du bruit. En FM, le bruit est particulièrement fort et peut donc être très gênant. Presque tous les récepteurs FM disposent donc d'un *Squelch*, qui permet de masquer ce bruit. En général, le terme anglais *Squelch* (abréviation : SQL) est utilisé pour cette fonction.
+Si l'on écoute une fréquence sur laquelle aucune station n'émet, on entend du bruit. En FM, le bruit est particulièrement fort et peut donc être très gênant. Presque tous les récepteurs FM disposent donc d'un *squelch* (ou *bruitage*), qui permet de masquer ce bruit. Le terme anglais *squelch* (abréviation : SQL) est généralement utilisé pour désigner cette fonction.
 
 <webmargin>
-[picture:737:squelch:Évolution temporelle de l'amplitude sur une fréquence, on peut voir une forte et une faible émission, autour de laquelle il n'y a pas d'émission (bruit), le Squelch masque à la fois le bruit et les signaux faibles, si l'amplitude est inférieure à la valeur réglée.]
+[picture:737:squelch:Évolution temporelle de l'amplitude sur une fréquence, on observe une émission forte et une émission faible, autour aucune émission (bruit). Le squelch masque à la fois le bruit et les signaux faibles lorsque l'amplitude est inférieure à la valeur réglée.]
 </webmargin>
 
-Pour que le Squelch fonctionne correctement, il doit être réglé via les boutons ou touches prévus à cet effet de telle sorte qu'il ne reste plus de bruit pendant les pauses d'émission. S'il est réglé trop faiblement, il y a du bruit. Si le Squelch est réglé trop fortement, les signaux faibles sont également masqués.
+Pour que le squelch fonctionne correctement, il doit être réglé à l'aide des boutons ou touches prévus à cet effet de manière à ce qu'il n'y ait plus de bruit en l'absence d'émission. S'il est réglé trop faiblement, le bruit persiste. Si le squelch est réglé trop fortement, les signaux faibles sont également masqués.
 
 <indepth>
-Le Squelch utilise le fait que le bruit a toujours une amplitude plus faible que la porteuse haute fréquence que l'on peut recevoir de manière significative. Car si l'amplitude de la porteuse haute fréquence était plus faible que le bruit, on ne pourrait plus démoduler. C'est pourquoi le Squelch fonctionne de telle sorte que le signal démodulé n'est transmis au haut-parleur que lorsqu'une certaine amplitude est dépassée. Sinon, il reste silencieux.
+Le squelch exploite le fait que le bruit a toujours une amplitude plus faible que la porteuse haute fréquence que l'on peut recevoir de manière utile. En effet, si l'amplitude de la porteuse haute fréquence était plus faible que le bruit, il ne serait plus possible de démoduler. Le squelch fonctionne donc de telle sorte que le signal démodulé n'est transmis au haut-parleur que lorsque l'amplitude dépasse une certaine valeur. Sinon, le haut-parleur reste silencieux.
 
-Pour les signaux modulés en AM et en SSB, il existe également des Squelch. Ceux-ci fonctionnent cependant techniquement différemment de ceux des signaux modulés en fréquence. Mais à la fin, ils produisent le même résultat. 
+Il existe également des squelchs pour les signaux modulés en AM et BLU. Ceux-ci fonctionnent cependant différemment sur le plan technique que pour les signaux modulés en fréquence. Ils produisent cependant le même résultat final.
 </indepth>
 
 [question:NF302]

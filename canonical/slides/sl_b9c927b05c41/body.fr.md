@@ -1,61 +1,61 @@
 <left>
-* L'un des premiers et des plus simples récepteurs pour AM
+* L'un des premiers et plus simples récepteurs pour la modulation d'amplitude (AM)
 * L'énergie est directement prélevée du signal reçu
-* Utilisable uniquement dans la zone locale des émetteurs de radiodiffusion puissants
+* Ne fonctionne que dans la zone locale des émetteurs radio puissants
 </left>
 <right>
-[photo:193:am_detektor:Récepteur détecteur]
+[photo:193:am_detektor:Récepteur à détecteur]
 </right>
 
 ---
 
 <left>
-[picture:799:am_detektor:Schéma d'un simple récepteur détecteur]
+[picture:799:am_detektor:Schéma d'un récepteur à détecteur simple]
 * Circuit oscillant parallèle composé d'une bobine et d'un condensateur variable
 </left>
 <right>
 [picture:800:am_detektor_antenne:Signal à l'antenne]
 [picture:801:am_detektor_diode:Signal redressé à la diode]
-[picture:802:am_detektor_kopfhoerer:Signal AF audible]
+[picture:802:am_detektor_kopfhoerer:Signal BF audible]
 </right>
 
 --- data-transition="none"
 
 <left>
-[picture:799:am_detektor:Schéma d'un simple récepteur détecteur]
-* Le signal de l'antenne (rouge) excite le circuit oscillant s'il est accordé sur la fréquence
+[picture:799:am_detektor:Schéma d'un récepteur à détecteur simple]
+* Le signal de l'antenne (en rouge) excite le circuit oscillant s'il est accordé sur la fréquence
 </left>
 <right>
 [picture:800:am_detektor_antenne:Signal à l'antenne]
 [picture:801:am_detektor_diode:Signal redressé à la diode]
-[picture:802:am_detektor_kopfhoerer:Signal AF audible]
+[picture:802:am_detektor_kopfhoerer:Signal BF audible]
 </right>
 
 --- data-transition="none"
 
 <left>
-[picture:799:am_detektor:Schéma d'un simple récepteur détecteur]
-* La diode (bleue) redresse la modulation AM
+[picture:799:am_detektor:Schéma d'un récepteur à détecteur simple]
+* La diode (en bleu) redresse la modulation AM
 </left>
 <right>
 [picture:800:am_detektor_antenne:Signal à l'antenne]
 [picture:801:am_detektor_diode:Signal redressé à la diode]
-[picture:802:am_detektor_kopfhoerer:Signal AF audible]
+[picture:802:am_detektor_kopfhoerer:Signal BF audible]
 </right>
 
 --- data-transition="none"
 
 <left>
-[picture:799:am_detektor:Schéma d'un simple récepteur détecteur]
-* Un casque à haute impédance (vert) rend le signal audible, car le casque est lent et ne peut pas suivre les impulsions de courant individuelles
+[picture:799:am_detektor:Schéma d'un récepteur à détecteur simple]
+* Un casque à haute impédance (en vert) permet d'entendre le signal, car il est trop lent pour suivre les impulsions de courant individuelles
 </left>
 <right>
 [picture:800:am_detektor_antenne:Signal à l'antenne]
 [picture:801:am_detektor_diode:Signal redressé à la diode]
-[picture:802:am_detektor_kopfhoerer:Signal AF audible]
+[picture:802:am_detektor_kopfhoerer:Signal BF audible]
 </right>
 <note>
-* Le casque agit comme un filtre passe-bas et restaure l'enveloppe
+* Le casque agit comme un passe-bas et restitue l'enveloppe du signal
 </note>
 
 ---

@@ -1,12 +1,12 @@
 * La tension d'entrée peut varier
 * Par exemple, dans les appareils alimentés par batterie
-* Les composants sensibles (par exemple, les oscillateurs) changeraient la fréquence
+* Des modules sensibles (par exemple, des oscillateurs) modifieraient la fréquence
 * Solution : stabilisation de la tension
 
 ---
-## Stabilisation avec une diode Z
+## Stabilisation avec une diode Zener
 <left>
-[picture:323:a_Stabilisierung mit Z-Diode:Stabilisation de tension avec une diode Z]
+[picture:323:a_Stabilisierung mit Z-Diode:Stabilisation de la tension avec une diode Zener]
 </left>
 <right>
 * Circuit très simple
@@ -17,7 +17,7 @@
 ---
 [question:AD321]
 --- style="font-size: 0.7em;"
-#### Solution
+#### Méthode de résolution
 * donné : $R_L = \qty{470}{\ohm}$
 * donné : $I_L = \qty{10}{\milli\ampere}$
 * donné : $I_Z = \qty{15}{\milli\ampere}$
@@ -37,11 +37,11 @@ $\eta = \frac{P_L}{P_{\mathrm{in}}} = \frac{\qty{47}{\milli\watt}}{\qty{345}{\mi
 ## Régulateur de tension linéaire
 
 <left>
-[picture:985:a_spannungsregler_linear:Schaltbild eines linearen Spannungsreglers]
+[picture:985:a_spannungsregler_linear:Schéma d'un régulateur de tension linéaire]
 </left>
 <right>
-* Le transistor de puissance est utilisé comme une résistance variable
-* Forme un diviseur de tension avec la résistance de charge
+* Le transistor de puissance fonctionne comme une résistance variable
+* Forme, avec la résistance de charge, un diviseur de tension
 * Le rendement est souvent très faible
 </right>
 
@@ -50,7 +50,7 @@ $\eta = \frac{P_L}{P_{\mathrm{in}}} = \frac{\qty{47}{\milli\watt}}{\qty{345}{\mi
 ---
 [question:AD319]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $U_{\mathrm{in}} = \qty{13,8}{\volt}$
 * donné : $U_{\mathrm{out}} = \qty{9}{\volt}$
 * donné : $I = \qty{900}{\milli\ampere}$
@@ -65,7 +65,7 @@ $P_V = U_{IC1} \cdot I = \qty{4,8}{\volt} \cdot \qty{900}{\milli\ampere} = \qty{
 ---
 [question:AD320]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $U_{\mathrm{in}} = \qty{13,8}{\volt}$
 * donné : $U_{\mathrm{out}} = \qty{5}{\volt}$
 * donné : $I_{\mathrm{in}} = \qty{455}{\milli\ampere}$
@@ -81,9 +81,9 @@ $\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}} = \frac{U_{\mathrm{out}} \cdot 
 [picture:200:a_Festspannungsregler:Régulateur de tension fixe]
 </left>
 <right>
-* Conçu comme un circuit intégré
+* Conçu sous forme de circuit intégré
 * Fonctionne comme un régulateur de tension linéaire avec une source de référence de tension très précise et une régulation électronique optimale
-* Même en cas de forte fluctuation du côté de l'entrée, le côté de la sortie est très stable
+* Même en cas de forte fluctuation côté entrée, la sortie reste très stable
 </right>
 
 ---
@@ -92,19 +92,3 @@ $\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}} = \frac{U_{\mathrm{out}} \cdot 
 [question:AD316]
 ---
 [question:AD318]
----
-#### Solution
-* donné : $U_{\mathrm{in}} = \qty{13,8}{\volt}$
-* donné : $U_{\mathrm{out}} = \qty{5}{\volt}$
-* donné : $R_L = \qty{10}{\ohm}$
-* recherché : $P_V$
-
-<fragment>
-$I = \frac{U_{\mathrm{in}}}{R_L} = \frac{\qty{5}{\volt}}{\qty{10}{\ohm}} = \qty{500}{\milli\ampere}$
-</fragment>
-<fragment>
-$U_{IC1} = U_{\mathrm{in}} - U_{\mathrm{out}} = \qty{13,8}{\volt} - \qty{5}{\volt} = \qty{8,8}{\volt}$
-</fragment>
-<fragment>
-$P_V = U_{IC1} \cdot I = \qty{8,8}{\volt} \cdot \qty{500}{\milli\ampere} = \qty{4,4}{\watt}$
-</fragment>

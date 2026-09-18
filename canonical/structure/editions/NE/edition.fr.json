@@ -1,8 +1,8 @@
 {
-  "abstract": "La solution idéale : de zéro à la classe E.",
+  "abstract": "Le juste milieu : de zéro à la classe E.",
   "chapters": [
     {
-      "abstract": "Dans le premier chapitre, nous posons les bases des connaissances du futur radioamateur. Nous nous concentrons sur les connaissances nécessaires pour établir une première liaison dans le trafic de formation sous la direction et la surveillance d'un radioamateur.",
+      "abstract": "Dans le premier chapitre, nous posons les bases des connaissances du futur radioamateur. Nous nous concentrons sur les connaissances nécessaires pour établir une première connexion en trafic radio de formation, sous la direction et la supervision d’un radioamateur.",
       "id": "ch_9eee5f414e84",
       "identifiers": [
         {
@@ -48,7 +48,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Préface"
+          "title": "Avant-propos"
         },
         {
           "abstract": null,
@@ -81,7 +81,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Le premier pas"
+          "title": "Premier pas"
         },
         {
           "abstract": null,
@@ -114,7 +114,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Indicatifs"
+          "title": "Indicatifs d’appel"
         },
         {
           "abstract": null,
@@ -147,7 +147,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Tableau d'épellation international"
+          "title": "Alphabet phonétique international"
         },
         {
           "abstract": null,
@@ -180,7 +180,7 @@
             }
           ],
           "sort_order": 5,
-          "title": "Procédure d'exploitation"
+          "title": "Conduite des opérations"
         },
         {
           "abstract": null,
@@ -246,7 +246,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Trafic radio d'instruction"
+          "title": "Trafic radio de formation"
         },
         {
           "abstract": null,
@@ -312,7 +312,7 @@
             }
           ],
           "sort_order": 9,
-          "title": "Trafic radio uniquement entre radioamateurs"
+          "title": "Trafic radio uniquement avec des radioamateurs"
         },
         {
           "abstract": null,
@@ -345,14 +345,14 @@
             }
           ],
           "sort_order": 10,
-          "title": "Usage commercial"
+          "title": "Utilisation commerciale"
         }
       ],
       "sort_order": 1,
       "title": "Premiers pas"
     },
     {
-      "abstract": "Ce chapitre enseigne les bases physiques des oscillations électriques et des ondes électromagnétiques comme base de la technique radio. Il traite de la relation entre tension, fréquence, longueur d’onde et spectre ainsi que de leur représentation et description mathématique. Enfin, l'intégration pratique des ondes radio dans le spectre des fréquences, l'attribution des fréquences et les bandes radioamateurs sont expliquées.",
+      "abstract": "Ce chapitre présente les bases physiques des oscillations électriques et des ondes électromagnétiques, fondements de la technique radio. Il aborde la relation entre la tension, la fréquence, la longueur d’onde λ et le spectre, ainsi que leur représentation et leur description mathématique. Enfin, il explique le positionnement pratique des ondes radio dans le spectre des fréquences, l’attribution des fréquences et les bandes radioamateurs.",
       "id": "ch_79c8c980e780",
       "identifiers": [
         {
@@ -398,7 +398,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Tension continue et alternative"
+          "title": "Tension continue et tension alternative"
         },
         {
           "abstract": null,
@@ -563,7 +563,7 @@
             }
           ],
           "sort_order": 6,
-          "title": "Ondes radioélectriques"
+          "title": "Ondes radio"
         },
         {
           "abstract": null,
@@ -596,7 +596,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Longueur d'onde"
+          "title": "Longueur d’onde"
         },
         {
           "abstract": null,
@@ -629,7 +629,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Réarranger les formules I"
+          "title": "Réarranger des formules I"
         },
         {
           "abstract": null,
@@ -662,7 +662,7 @@
             }
           ],
           "sort_order": 9,
-          "title": "Longueur d'onde II"
+          "title": "Longueur d’onde II"
         },
         {
           "abstract": null,
@@ -728,7 +728,7 @@
             }
           ],
           "sort_order": 11,
-          "title": "Spectre de fréquences"
+          "title": "Spectre de fréquence"
         },
         {
           "abstract": null,
@@ -827,7 +827,7 @@
             }
           ],
           "sort_order": 14,
-          "title": "Service radio primaire et secondaire"
+          "title": "Service radioélectrique primaire et secondaire"
         },
         {
           "abstract": null,
@@ -926,14 +926,14 @@
             }
           ],
           "sort_order": 17,
-          "title": "Plan de bande IARU pour 70 cm"
+          "title": "Plan de bandes IARU pour 70 cm"
         }
       ],
       "sort_order": 2,
       "title": "Oscillations électriques et ondes radio"
     },
     {
-      "abstract": "Ce chapitre décrit comment les ondes radio se propagent dans des conditions atmosphériques et ionosphériques réelles. Il traite des différents mécanismes de propagation tels que l'onde de sol, l'onde spatiale et la réfraction ainsi que leur dépendance de l'heure de la journée, de la saison et de l'activité solaire. De plus, des effets typiques tels que le fading, les zones mortes, la distance de saut ainsi que le MUF et le LUF sont expliqués, qui sont décisifs pour la liaison radio pratique.",
+      "abstract": "Ce chapitre décrit comment les ondes radio se propagent dans des conditions atmosphériques et ionosphériques réelles. Il aborde les différents mécanismes de propagation tels que l’onde de sol, l’onde spatiale et la réfraction, ainsi que leur dépendance à l’heure de la journée, à la saison et à l’activité solaire. De plus, il explique des effets typiques comme le fading, les zones mortes, la distance de saut ainsi que la MUF et la LUF, qui sont déterminants pour la liaison radio pratique.",
       "id": "ch_053b27ddb9a4",
       "identifiers": [
         {
@@ -1045,7 +1045,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Formation d'inversion troposphérique"
+          "title": "Formation d’inversion troposphérique"
         },
         {
           "abstract": null,
@@ -1144,7 +1144,7 @@
             }
           ],
           "sort_order": 6,
-          "title": "Sporadique E"
+          "title": "E sporadique"
         },
         {
           "abstract": null,
@@ -1177,7 +1177,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Sporadique E II"
+          "title": "E sporadique II"
         },
         {
           "abstract": null,
@@ -1309,7 +1309,7 @@
             }
           ],
           "sort_order": 11,
-          "title": "Évanouissement"
+          "title": "Fading"
         },
         {
           "abstract": null,
@@ -1375,7 +1375,7 @@
             }
           ],
           "sort_order": 13,
-          "title": "MUF et LUF"
+          "title": "Fréquence maximale utilisable (MUF) et fréquence minimale utilisable (LUF)"
         },
         {
           "abstract": null,
@@ -1441,7 +1441,7 @@
             }
           ],
           "sort_order": 15,
-          "title": "Greyline"
+          "title": "Ligne grise"
         },
         {
           "abstract": null,
@@ -1507,14 +1507,14 @@
             }
           ],
           "sort_order": 17,
-          "title": "Chemin long et court I"
+          "title": "Chemin long et chemin court I"
         }
       ],
       "sort_order": 3,
       "title": "Propagation des ondes"
     },
     {
-      "abstract": "Dans ce chapitre, nous nous intéressons aux différents types de stations de radioamateurs et à leurs indicatifs d'appel. Nous apprenons ce que sont les stations de club, les stations à distance, les relais radio, les balises et les liaisons, et nous nous intéressons aux stations de radioamateurs dans des endroits particuliers comme les satellites ou l'Antarctique.",
+      "abstract": "Dans ce chapitre, nous abordons les différents types de stations de radioamateur et leurs indicatifs d’appel. Nous découvrons ce que sont les stations de club, les stations à distance, les relais, les balises et les liaisons par relais, et nous nous intéressons aux stations de radioamateur dans des lieux particuliers comme les satellites ou l’Antarctique.",
       "id": "ch_2c3adeb1bfa7",
       "identifiers": [
         {
@@ -1560,7 +1560,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Structure des indicatifs d'appel"
+          "title": "Structure des indicatifs d’appel"
         },
         {
           "abstract": null,
@@ -1593,7 +1593,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Indicatifs personnels"
+          "title": "Indicatifs d’appel personnels"
         },
         {
           "abstract": null,
@@ -1659,7 +1659,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Indicatifs d'apprentissage"
+          "title": "Indicatifs de formation"
         },
         {
           "abstract": null,
@@ -1725,7 +1725,7 @@
             }
           ],
           "sort_order": 6,
-          "title": "Suffixes d'indicatifs"
+          "title": "Compléments d'indicatifs"
         },
         {
           "abstract": null,
@@ -1758,7 +1758,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Occasions spéciales"
+          "title": "Événements particuliers"
         },
         {
           "abstract": null,
@@ -1791,7 +1791,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Stations à distance"
+          "title": "Stations télécommandées et automatiques"
         },
         {
           "abstract": null,
@@ -1890,7 +1890,7 @@
             }
           ],
           "sort_order": 11,
-          "title": "Liaisons"
+          "title": "Liaisons descendantes"
         },
         {
           "abstract": null,
@@ -1993,10 +1993,10 @@
         }
       ],
       "sort_order": 4,
-      "title": "Stations de radioamateurs"
+      "title": "Stations de radioamateur"
     },
     {
-      "abstract": "Grâce aux nombreuses bandes de fréquences que nous avons à notre disposition dans le radioamateur, les contacts radio ne se limitent pas seulement au voisin d'à côté. Le monde entier est notre voisin ! Les ondes radio n'ont pas de frontières, elles peuvent atteindre chaque recoin du monde. Ce chapitre traite des liaisons radio à l'étranger et des opérations radio à l'étranger, par exemple lors d'un voyage de vacances.",
+      "abstract": "Grâce aux nombreuses bandes de fréquences disponibles en radioamateurisme, les contacts radio ne se limitent pas à votre voisin immédiat. Le monde entier est votre voisin ! Les ondes radio n'ont pas de frontières et peuvent atteindre chaque recoin de la planète. Ce chapitre traite des liaisons radio à l'étranger et de l'exploitation radio à l'étranger, par exemple lors d'un voyage de vacances.",
       "id": "ch_b8de0045dc81",
       "identifiers": [
         {
@@ -2042,7 +2042,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Préfixes internationaux"
+          "title": "Préfixes nationaux internationaux"
         },
         {
           "abstract": null,
@@ -2075,7 +2075,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Régions UIT"
+          "title": "Régions de l'UIT"
         },
         {
           "abstract": null,
@@ -2141,14 +2141,14 @@
             }
           ],
           "sort_order": 4,
-          "title": "Radio à l'étranger"
+          "title": "Émission radioamateur à l'étranger"
         }
       ],
       "sort_order": 5,
-      "title": "Opérations radio internationales"
+      "title": "Exploitation radio internationale"
     },
     {
-      "abstract": "Ce chapitre enseigne les grandeurs électriques fondamentales que sont le courant, la tension, la résistance, la puissance et l'énergie et montre comment elles sont physiquement liées. Il traite de la manipulation sécurisée des circuits électriques, de la mesure des grandeurs électriques, de la loi d'Ohm ainsi que des composants et de leurs propriétés. En outre, des concepts pratiques tels que le courant alternatif, les décibels et les symboles de circuit sont introduits, qui sont indispensables à la compréhension des circuits modernes de radio et d'électronique.",
+      "abstract": "Ce chapitre présente les grandeurs électriques fondamentales que sont le courant, la tension, la résistance, la puissance et l’énergie, et montre leurs relations physiques. Il traite de la manipulation sûre des circuits électriques, de la mesure des grandeurs électriques, de la loi d’Ohm ainsi que des composants et de leurs propriétés. Il introduit également des concepts pratiques comme le courant alternatif, le décibel et les symboles de circuit, indispensables à la compréhension des circuits radio et électroniques modernes.",
       "id": "ch_c75ec5f9ba04",
       "identifiers": [
         {
@@ -2194,7 +2194,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Droit à l'auto-construction"
+          "title": "Droit à la construction personnelle"
         },
         {
           "abstract": null,
@@ -2260,7 +2260,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Courant électrique"
+          "title": "Le courant électrique"
         },
         {
           "abstract": null,
@@ -2293,7 +2293,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Dangers du courant électrique"
+          "title": "Dangers liés au courant électrique"
         },
         {
           "abstract": null,
@@ -2359,7 +2359,7 @@
             }
           ],
           "sort_order": 6,
-          "title": "Circuit"
+          "title": "Circuit électrique"
         },
         {
           "abstract": null,
@@ -2425,7 +2425,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Mesure du courant"
+          "title": "Mesurer le courant"
         },
         {
           "abstract": null,
@@ -2491,7 +2491,7 @@
             }
           ],
           "sort_order": 10,
-          "title": "Lire les instruments à aiguille"
+          "title": "Lecture d'instruments à aiguille"
         },
         {
           "abstract": null,
@@ -2590,7 +2590,7 @@
             }
           ],
           "sort_order": 13,
-          "title": "Loi d'Ohm"
+          "title": "loi d'Ohm"
         },
         {
           "abstract": null,
@@ -2623,7 +2623,7 @@
             }
           ],
           "sort_order": 14,
-          "title": "Code de couleur des résistances"
+          "title": "Code des couleurs pour résistances"
         },
         {
           "abstract": null,
@@ -2689,7 +2689,7 @@
             }
           ],
           "sort_order": 16,
-          "title": "Matériaux de résistance"
+          "title": "Matériaux résistifs"
         },
         {
           "abstract": null,
@@ -2755,7 +2755,7 @@
             }
           ],
           "sort_order": 18,
-          "title": "Thermistance et varistance"
+          "title": "Thermistance et résistances à coefficient de température"
         },
         {
           "abstract": null,
@@ -2887,7 +2887,7 @@
             }
           ],
           "sort_order": 22,
-          "title": "Décibel I"
+          "title": "Décibels I"
         },
         {
           "abstract": null,
@@ -2927,7 +2927,7 @@
       "title": "Courant, tension, résistance, puissance, énergie"
     },
     {
-      "abstract": "Ce chapitre introduit les concepts fondamentaux des champs électriques et magnétiques et montre comment les deux forment ensemble un champ électromagnétique. Il crée ainsi la base physique pour la compréhension des ondes radio, des antennes et de la propagation électromagnétique.",
+      "abstract": "Ce chapitre introduit les concepts fondamentaux des champs électriques et magnétiques et montre comment ils forment ensemble un champ électromagnétique. Il pose ainsi les bases physiques pour comprendre les ondes radio, les antennes et la propagation électromagnétique.",
       "id": "ch_2388a3194057",
       "identifiers": [
         {
@@ -3046,7 +3046,7 @@
       "title": "Champ électromagnétique"
     },
     {
-      "abstract": "Ce chapitre enseigne les propriétés fondamentales et l'interaction des composants électroniques importants tels que les condensateurs, les bobines, les diodes, les transistors et les circuits intégrés. Il forme la base de la compréhension des circuits électroniques et de leur fonction dans les émetteurs, les récepteurs et autres appareils radio.",
+      "abstract": "Ce chapitre présente les propriétés fondamentales et le fonctionnement des principaux composants électroniques, tels que les condensateurs, les bobines, les diodes, les transistors et les circuits intégrés. Il constitue la base pour comprendre les circuits électroniques et leur rôle dans les émetteurs, récepteurs et autres appareils radio.",
       "id": "ch_d2e11af778b0",
       "identifiers": [
         {
@@ -3231,7 +3231,7 @@
       "title": "Composants"
     },
     {
-      "abstract": "Dans ce chapitre, les règles fondamentales pour les circuits série et parallèle de composants sont traitées. L'objectif est de comprendre le comportement de réseaux simples et mixtes et de calculer, par exemple, les résistances totales, les tensions et les courants de manière systématique.",
+      "abstract": "Ce chapitre aborde les règles fondamentales des montages en série et en parallèle de composants. L’objectif est de comprendre le comportement des réseaux simples et mixtes et de calculer systématiquement, par exemple, les résistances totales, les tensions et les courants.",
       "id": "ch_d20b7b5a419a",
       "identifiers": [
         {
@@ -3277,7 +3277,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Résistances en série et en parallèle"
+          "title": "Résistance en montage série et en montage en parallèle"
         },
         {
           "abstract": null,
@@ -3376,14 +3376,14 @@
             }
           ],
           "sort_order": 4,
-          "title": "Condensateur en série et en parallèle"
+          "title": "Condensateur en montage en série et en montage en parallèle"
         }
       ],
       "sort_order": 9,
-      "title": "Circuit série et parallèle de composants"
+      "title": "Montages en série et en parallèle de composants"
     },
     {
-      "abstract": "Les appareils radio doivent être alimentés en tension et en courant électriques pour fonctionner. Dans ce chapitre, nous apprenons les bases de l'alimentation en tension et en courant avec des appareils de réseau, des batteries et des accumulateurs. Les dangers du courant électrique sont également traités.",
+      "abstract": "Les équipements radio doivent être alimentés en tension et en courant pour fonctionner. Ce chapitre présente les bases de l’alimentation électrique avec des alimentations secteur, des batteries et des accumulateurs. Il aborde également les dangers liés au courant électrique.",
       "id": "ch_7a8f3c92fc0d",
       "identifiers": [
         {
@@ -3462,7 +3462,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Alimentation"
+          "title": "Bloc d'alimentation"
         },
         {
           "abstract": null,
@@ -3598,10 +3598,10 @@
         }
       ],
       "sort_order": 10,
-      "title": "Alimentation électrique"
+      "title": "Alimentation électrique en courant et tension"
     },
     {
-      "abstract": "Dans ce chapitre, des blocs de circuits de base de la technique radio sont présentés, qui sont nécessaires pour la génération, le traitement et la conversion des signaux haute fréquence. Il s'agit des filtres et des circuits oscillants, des oscillateurs, des mélangeurs, des multiplicateurs de fréquence ainsi que des amplificateurs et des convertisseurs de fréquence. Ces modules constituent la base des circuits d'émetteurs et de récepteurs modernes.",
+      "abstract": "Ce chapitre présente les modules de base de la technique radio nécessaires à la génération, au traitement et à la conversion des signaux haute fréquence. Il s’agit notamment de filtres et de circuits oscillants, d’oscillateurs, de mélangeurs, de multiplicateurs de fréquence ainsi que d’amplificateurs et de convertisseurs de fréquence. Ces modules constituent la base des circuits modernes d’émetteurs et de récepteurs.",
       "id": "ch_4cf286a3914a",
       "identifiers": [
         {
@@ -3779,7 +3779,7 @@
             }
           ],
           "sort_order": 5,
-          "title": "Convertisseurs et transverters"
+          "title": "Convertisseur et transverter"
         },
         {
           "abstract": null,
@@ -3812,14 +3812,14 @@
             }
           ],
           "sort_order": 6,
-          "title": "Amplificateurs"
+          "title": "Amplificateur"
         }
       ],
       "sort_order": 11,
       "title": "Circuits de base"
     },
     {
-      "abstract": "Dans ce chapitre, nous nous occupons du fait que grâce à la soi-disant modulation, il est possible d'imprimer des informations comme la parole humaine sur une onde radio. Nous apprenons les principales formes de modulation AM, FM et SSB.",
+      "abstract": "Dans ce chapitre, nous expliquons comment il est possible, grâce à la modulation, de transmettre des informations comme la voix humaine sur une onde radio. Nous y découvrons les principales techniques de modulation : AM, FM et BLU.",
       "id": "ch_f99329b5694c",
       "identifiers": [
         {
@@ -3865,7 +3865,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Signaux de fumée et de morse"
+          "title": "Signaux de fumée et Morse"
         },
         {
           "abstract": null,
@@ -4030,7 +4030,7 @@
             }
           ],
           "sort_order": 6,
-          "title": "Modulation à bande latérale unique (BLU)"
+          "title": "Modulation à bande latérale unique (SSB)"
         },
         {
           "abstract": null,
@@ -4063,7 +4063,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Modulation à bande latérale unique (SSB) II"
+          "title": "Modulation à bande latérale unique (BLU) II"
         },
         {
           "abstract": null,
@@ -4228,7 +4228,7 @@
             }
           ],
           "sort_order": 12,
-          "title": "Réglages de modulation sur l'appareil radio"
+          "title": "Paramètres de modulation sur l'appareil radio"
         },
         {
           "abstract": null,
@@ -4268,7 +4268,7 @@
       "title": "Modulation"
     },
     {
-      "abstract": "Dans ce chapitre, la structure de base des récepteurs radio ainsi que leurs composants et fonctions les plus importants sont traités. Différents concepts de récepteurs sont présentés et des propriétés centrales telles que la sélectivité, le contrôle de l'amplification, le comportement du bruit et la préparation de la fréquence sont expliqués. L'objectif est de comprendre l'interaction des différentes étapes d'un récepteur et leur influence sur la réception.",
+      "abstract": "Ce chapitre présente la structure de base des récepteurs radio ainsi que leurs principaux modules et fonctions. Différents concepts de récepteurs sont abordés, et des propriétés centrales comme la sélectivité, le contrôle de gain, le comportement au bruit et la génération de fréquence sont expliqués. L'objectif est de comprendre l'interaction des différents étages d'un récepteur et leur influence sur la réception.",
       "id": "ch_54bc904dc21e",
       "identifiers": [
         {
@@ -4347,7 +4347,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Récepteurs à cristal"
+          "title": "Récepteur à cristal"
         },
         {
           "abstract": null,
@@ -4380,7 +4380,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Récepteur superhétérodyne (Super simple) I"
+          "title": "Récepteur superhétérodyne (superhétérodyne simple) I"
         },
         {
           "abstract": null,
@@ -4644,7 +4644,7 @@
             }
           ],
           "sort_order": 11,
-          "title": "Filtre Notch"
+          "title": "Filtre réjecteur"
         },
         {
           "abstract": null,
@@ -4717,7 +4717,7 @@
       "title": "Récepteur"
     },
     {
-      "abstract": "Dans ce chapitre, nous traitons de la structure de base d'un émetteur radio ainsi que de l'interaction de ses différents composants. Les sujets abordés incluent, entre autres, la puissance de sortie, la limitation de puissance, les moyens de mesure et les charges, ainsi que la formation et l'éviction des émissions indésirables. Un autre point central est la compatibilité électromagnétique et la gestion responsable des perturbations pendant le fonctionnement de l'émetteur.",
+      "abstract": "Ce chapitre traite de la structure fondamentale d’un émetteur radio ainsi que de l’interaction de ses différents modules. Sont abordés notamment la puissance de sortie, la limitation de puissance, les instruments de mesure et les charges, ainsi que la formation et l’évitement des émissions indésirables. Un autre point central concerne la compatibilité électromagnétique et la gestion responsable des perturbations en fonctionnement en émission.",
       "id": "ch_f10ad525c36e",
       "identifiers": [
         {
@@ -4961,7 +4961,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Émissions indésirables II"
+          "title": "Émissions non désirées II"
         },
         {
           "abstract": null,
@@ -5093,14 +5093,14 @@
             }
           ],
           "sort_order": 11,
-          "title": "Perturbations lors de la réception"
+          "title": "Perturbations en réception"
         }
       ],
       "sort_order": 14,
-      "title": "Émetteur"
+      "title": "Émetteurs"
     },
     {
-      "abstract": "De nombreux radioamateurs documentent chaque communication radio dans un journal de bord et envoient à leurs partenaires radio des cartes QSO appelées cartes QSL pour confirmer les communications effectuées. Parfois, la tenue du journal de bord est également ordonnée par l'Agence fédérale des réseaux pour enquêter sur les perturbations.",
+      "abstract": "De nombreux radioamateurs documentent chaque liaison radio dans un journal de trafic et envoient à leurs correspondants des cartes QSL pour confirmer les contacts établis. Parfois, la tenue du journal de trafic est même exigée par l’Agence fédérale des réseaux pour enquêter sur d’éventuelles perturbations.",
       "id": "ch_78aabb4b18e8",
       "identifiers": [
         {
@@ -5146,7 +5146,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Journal de bord"
+          "title": "Journal de trafic"
         },
         {
           "abstract": null,
@@ -5183,10 +5183,10 @@
         }
       ],
       "sort_order": 15,
-      "title": "Journal de bord et cartes QSL"
+      "title": "Journal de trafic et cartes QSL"
     },
     {
-      "abstract": "Ce chapitre traite des procédés de transmission numérique. Nous apprenons ce qui distingue le numérique de l'analogique, les bases de la télégraphie et du radiotélétype et quels procédés numériques sont utilisés pour les transmissions vocales et quelles particularités ils présentent.",
+      "abstract": "Ce chapitre traite des procédés de transmission numériques. Nous apprenons ce qui distingue le numérique de l'analogique, les bases de la télégraphie et du radiotélétype (RTTY), ainsi que les procédés numériques utilisés pour la transmission de la voix et leurs particularités.",
       "id": "ch_b27f380b0515",
       "identifiers": [
         {
@@ -5232,7 +5232,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Analogique vs. Numérique"
+          "title": "Analogique vs. numérique"
         },
         {
           "abstract": null,
@@ -5265,7 +5265,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Système binaire"
+          "title": "Système binaire de numération"
         },
         {
           "abstract": null,
@@ -5397,7 +5397,7 @@
             }
           ],
           "sort_order": 6,
-          "title": "Modes numériques en SSB"
+          "title": "Modes numériques en BLU"
         },
         {
           "abstract": null,
@@ -5463,7 +5463,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Surcharge"
+          "title": "Surmodulation"
         },
         {
           "abstract": null,
@@ -5562,7 +5562,7 @@
             }
           ],
           "sort_order": 11,
-          "title": "Réseaux à commutation de paquets"
+          "title": "Réseaux à commutation par paquets"
         },
         {
           "abstract": null,
@@ -5595,7 +5595,7 @@
             }
           ],
           "sort_order": 12,
-          "title": "Datenübertragungsrate"
+          "title": "Débit de transmission de données"
         },
         {
           "abstract": null,
@@ -5628,7 +5628,7 @@
             }
           ],
           "sort_order": 13,
-          "title": "Modulation d'amplitude et de fréquence (ASK, FSK)"
+          "title": "Modulation d'amplitude et modulation par déplacement de fréquence (ASK, FSK)"
         },
         {
           "abstract": null,
@@ -5698,10 +5698,10 @@
         }
       ],
       "sort_order": 16,
-      "title": "Procédés de transmission numérique"
+      "title": "Procédés de transmission numériques"
     },
     {
-      "abstract": "Ce chapitre traite des bases et des applications du traitement numérique du signal, qui est essentiel pour le traitement moderne de l'information.",
+      "abstract": "Ce chapitre aborde les principes et les applications du traitement numérique du signal, essentiels pour le traitement moderne de l'information.",
       "id": "ch_949b680dda49",
       "identifiers": [
         {
@@ -5754,7 +5754,7 @@
       "title": "Traitement numérique du signal"
     },
     {
-      "abstract": "Après avoir déjà traité les bases de la gestion des opérations au début du cours, ce chapitre traite de la gestion des opérations dans des circonstances particulières. Plus précisément, nous nous occupons de la procédure spéciale lorsqu'une station est appelée simultanément par de nombreuses autres stations, des concours de radioamateurs, du sport de repérage des radioamateurs, des transmissions d'images et de l'exploitation radio en cas d'urgence et de catastrophe.",
+      "abstract": "Après avoir abordé les bases de l'exploitation radio dès le début du cours, ce chapitre traite de l'exploitation radio dans des circonstances particulières. Plus précisément, nous nous intéressons aux procédures spéciales lorsqu'une station est appelée simultanément par un très grand nombre d'autres stations, aux concours de radioamateurisme, à la radiogoniométrie, aux transmissions d'images et à l'exploitation radio en cas d'urgence et de catastrophe.",
       "id": "ch_0ea2abdd5751",
       "identifiers": [
         {
@@ -5965,14 +5965,14 @@
             }
           ],
           "sort_order": 6,
-          "title": "Urgence radio"
+          "title": "Radio d'urgence"
         }
       ],
       "sort_order": 18,
-      "title": "Gestion des opérations"
+      "title": "Exploitation radio"
     },
     {
-      "abstract": "Ce chapitre traite de tout ce qui concerne les antennes et les câbles d'antenne. Nous traitons non seulement des principales formes de construction d'antennes, mais aussi des sujets tels que l'installation d'installations d'antennes dans des véhicules, la protection des personnes contre les rayonnements électromagnétiques et la sécurité lors de la construction et de l'exploitation d'une installation d'antenne.",
+      "abstract": "Ce chapitre traite de tout ce qui concerne les antennes et les câbles d'antenne. Outre les principales formes de construction d'antennes, il aborde également des sujets tels que l'installation d'antennes dans les véhicules, la protection des personnes contre les rayonnements électromagnétiques et la sécurité lors de la construction et de l'exploitation d'une installation d'antenne.",
       "id": "ch_3284b4bab949",
       "identifiers": [
         {
@@ -6282,7 +6282,7 @@
             }
           ],
           "sort_order": 9,
-          "title": "Longueur et résonance de l'antenne"
+          "title": "Longueur et résonance d'antenne"
         },
         {
           "abstract": null,
@@ -6315,7 +6315,7 @@
             }
           ],
           "sort_order": 10,
-          "title": "Facteur de réduction I"
+          "title": "Facteur de vélocité I"
         },
         {
           "abstract": null,
@@ -6348,7 +6348,7 @@
             }
           ],
           "sort_order": 11,
-          "title": "Impédance au pied I"
+          "title": "Impédance au point d'alimentation I"
         },
         {
           "abstract": null,
@@ -6414,7 +6414,7 @@
             }
           ],
           "sort_order": 13,
-          "title": "Réflecteur parabolique I"
+          "title": "Antenne parabolique I"
         },
         {
           "abstract": null,
@@ -6513,7 +6513,7 @@
             }
           ],
           "sort_order": 16,
-          "title": "Choix du site"
+          "title": "Choix de l'emplacement"
         },
         {
           "abstract": null,
@@ -6546,7 +6546,7 @@
             }
           ],
           "sort_order": 17,
-          "title": "Installation dans un véhicule"
+          "title": "Montage dans un véhicule"
         },
         {
           "abstract": null,
@@ -6678,7 +6678,7 @@
             }
           ],
           "sort_order": 21,
-          "title": "Connecteur PL"
+          "title": "Connecteurs PL"
         },
         {
           "abstract": null,
@@ -6711,7 +6711,7 @@
             }
           ],
           "sort_order": 22,
-          "title": "Connecteur N"
+          "title": "Connecteurs de type N"
         },
         {
           "abstract": null,
@@ -6909,7 +6909,7 @@
             }
           ],
           "sort_order": 28,
-          "title": "Mesure du rapport d'ondes stationnaires (ROS) I"
+          "title": "ROS-mètre I"
         },
         {
           "abstract": null,
@@ -6975,14 +6975,14 @@
             }
           ],
           "sort_order": 30,
-          "title": "Ondes de gaine I"
+          "title": "Courants de gaine I"
         }
       ],
       "sort_order": 19,
       "title": "Antennes et lignes de transmission"
     },
     {
-      "abstract": "Ce chapitre traite de la protection des personnes contre les champs électromagnétiques dans le radioamateur. Il introduit les notions d'ERP et d'EIRP, explique les valeurs limites légales ainsi que les obligations d'affichage et d'autorisation et montre comment les distances de sécurité et de protection des personnes sont calculées et évaluées. L'objectif est un fonctionnement radio sûr et conforme aux règles, en particulier dans le cas des installations radioamateurs fixes.",
+      "abstract": "Ce chapitre traite de la protection des personnes contre les champs électromagnétiques dans le cadre du radioamateurisme. Il introduit les notions de puissance rayonnée apparente (ERP) et de puissance isotrope rayonnée équivalente (EIRP), explique les valeurs limites légales ainsi que les obligations d’affichage et d’autorisation, et montre comment calculer et évaluer les distances de sécurité et de protection des personnes. L’objectif est d’assurer un fonctionnement radio sûr et conforme, notamment pour les installations radioamateur fixes.",
       "id": "ch_26802b441c60",
       "identifiers": [
         {
@@ -7061,7 +7061,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Puissance apparente rayonnée (PAR)"
+          "title": "Puissance rayonnée effective (ERP)"
         },
         {
           "abstract": null,
@@ -7094,7 +7094,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Puissance isotrope rayonnée équivalente (PIRE)"
+          "title": "Puissance isotrope rayonnée équivalente (EIRP)"
         },
         {
           "abstract": null,
@@ -7127,7 +7127,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Puissance isotrope rayonnée équivalente (PIRE) II"
+          "title": "Puissance isotrope rayonnée équivalente (EIRP) II"
         },
         {
           "abstract": null,
@@ -7193,7 +7193,7 @@
             }
           ],
           "sort_order": 6,
-          "title": "Affichage des installations radioamateur fixes"
+          "title": "Affichage des installations radioamateurs fixes"
         },
         {
           "abstract": null,
@@ -7226,7 +7226,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Certificat de site"
+          "title": "Certificat de localisation"
         },
         {
           "abstract": null,
@@ -7259,7 +7259,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Distance de sécurité II"
+          "title": "Distance de protection des personnes II"
         },
         {
           "abstract": null,
@@ -7292,7 +7292,7 @@
             }
           ],
           "sort_order": 9,
-          "title": "Limites"
+          "title": "Valeurs limites"
         },
         {
           "abstract": null,
@@ -7325,14 +7325,14 @@
             }
           ],
           "sort_order": 10,
-          "title": "Formule de proximité I"
+          "title": "Formule approchée I"
         }
       ],
       "sort_order": 20,
       "title": "Distance de protection des personnes"
     },
     {
-      "abstract": "Ce chapitre traite des aspects de sécurité centraux dans le fonctionnement du radioamateur, des questions de droit de la construction et de responsabilité aux questions de sécurité électrique et de protection contre la foudre. Il explique des mesures telles que la mise à la terre, l'équipotentialité et la manipulation sûre des antennes et des appareils électriques. L'objectif est de minimiser les risques pour les personnes, les bâtiments et les appareils et de garantir un fonctionnement radio sûr.",
+      "abstract": "Ce chapitre aborde les aspects centraux de la sécurité dans le cadre du radioamateurisme, depuis les questions de droit de la construction et de responsabilité jusqu'à la sécurité électrique et la protection contre la foudre. Il explique les mesures telles que la mise à la terre, l'équipotentialité et la manipulation sûre des antennes et des appareils électriques. L'objectif est de minimiser les risques pour les personnes, les bâtiments et les équipements, et de garantir un fonctionnement radio sécurisé.",
       "id": "ch_637073f02c88",
       "identifiers": [
         {
@@ -7378,7 +7378,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Droit de la construction et responsabilité"
+          "title": "Droit de construction et responsabilité"
         },
         {
           "abstract": null,
@@ -7411,7 +7411,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Lignes d'énergie"
+          "title": "Lignes d'alimentation électrique"
         },
         {
           "abstract": null,
@@ -7510,7 +7510,7 @@
             }
           ],
           "sort_order": 5,
-          "title": "Mise à la terre par étincelles"
+          "title": "Mise à la terre par éclateurs"
         },
         {
           "abstract": null,
@@ -7543,7 +7543,7 @@
             }
           ],
           "sort_order": 6,
-          "title": "Égalisation de potentiel"
+          "title": "Équipotentialité"
         },
         {
           "abstract": null,
@@ -7576,7 +7576,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Mise à la terre de protection et liaison équipotentielle I"
+          "title": "Mise à la terre de protection et équipotentialité I"
         },
         {
           "abstract": null,
@@ -7642,7 +7642,7 @@
             }
           ],
           "sort_order": 9,
-          "title": "Toucher les antennes I"
+          "title": "Toucher d'antennes I"
         },
         {
           "abstract": null,
@@ -7675,14 +7675,14 @@
             }
           ],
           "sort_order": 10,
-          "title": "Séjour dans le faisceau"
+          "title": "Séjour dans le trajet du faisceau"
         }
       ],
       "sort_order": 21,
       "title": "Sécurité"
     },
     {
-      "abstract": "Le radioamateur est soumis à des lois nationales et à d'autres réglementations qui sont en grande partie basées sur des accords internationaux. Dans ce chapitre, nous apprenons toutes les bases juridiques importantes pour les radioamateurs qui n'ont pas encore été traitées dans le cours jusqu'à présent.",
+      "abstract": "Le radioamateurisme est soumis à des lois nationales et autres règlements, qui reposent en grande partie sur des accords internationaux. Dans ce chapitre, nous abordons toutes les bases juridiques importantes pour les radioamateurs, qui n'ont pas encore été traitées dans le cadre du cours jusqu'à présent.",
       "id": "ch_5594c3a2be88",
       "identifiers": [
         {
@@ -7761,7 +7761,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Service radioamateur"
+          "title": "service d'amateur"
         },
         {
           "abstract": null,
@@ -7794,7 +7794,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Station de radioamateur"
+          "title": "Station radioamateur"
         },
         {
           "abstract": null,
@@ -7827,7 +7827,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Radioamateur"
+          "title": "radioamateur"
         },
         {
           "abstract": null,
@@ -7860,7 +7860,7 @@
             }
           ],
           "sort_order": 5,
-          "title": "Autorisation"
+          "title": "Homologation"
         },
         {
           "abstract": null,
@@ -7996,10 +7996,10 @@
         }
       ],
       "sort_order": 22,
-      "title": "Législation et réglementation"
+      "title": "Lois et règlements"
     },
     {
-      "abstract": "Lorsque l'on écoute des radioamateurs expérimentés, on remarque immédiatement les nombreuses abréviations utilisées de manière tout à fait naturelle dans une communication radio ou dans une conversation personnelle. Nous avons déjà rencontré une série d'abréviations dans les chapitres précédents. D'autres abréviations importantes sont présentées dans ce chapitre.",
+      "abstract": "En écoutant des radioamateurs expérimentés, on remarque immédiatement l'utilisation fréquente d'abréviations dans une liaison radio ou une conversation personnelle. Certaines abréviations ont déjà été présentées dans les chapitres précédents. Ce chapitre en introduit d'autres importantes.",
       "id": "ch_8c93d84463cc",
       "identifiers": [
         {
@@ -8111,7 +8111,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Maidenhead Locator"
+          "title": "Indicatif Maidenhead"
         },
         {
           "abstract": null,
@@ -8144,7 +8144,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Fin du cours"
+          "title": "Clôture du cours"
         }
       ],
       "sort_order": 23,
@@ -8165,5 +8165,5 @@
   "node_type": "curriculum_root",
   "placements": [],
   "sort_order": 0,
-  "title": "Cours complet E"
+  "title": "Cours complet classe E"
 }

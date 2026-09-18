@@ -4,8 +4,8 @@
 [picture:34:a_dipol_stromverteilung:Répartition du courant sur un dipôle]
 </left>
 <right>
-* Déterminez la longueur d’onde des distributions de courant représentées.
-* Convertissez la longueur d’onde en la fréquence correspondante.
+* Déterminez la longueur d’onde des répartitions de courant représentées.
+* Convertissez la longueur d’onde en fréquence correspondante.
 </right>
 
 ---
@@ -22,4 +22,3 @@
 ---
 
 [question:AG203]
-

@@ -1,1 +1,1 @@
-Cours sur place et en ligne
+Cours en présentiel et en ligne

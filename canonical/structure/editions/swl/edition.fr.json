@@ -1,8 +1,8 @@
 {
-  "abstract": "Der Einstieg in den Amateurfunk als Kurzwellenhörer: Empfangstechnik, Funkbetrieb, QSL-Karten und Vorbereitung auf die DARC DE-Prüfung.",
+  "abstract": "L’entrée dans le radioamateurisme en tant qu’écouteur d’ondes courtes : techniques de réception, exploitation radio, cartes QSL et préparation à l’examen DARC DE.",
   "chapters": [
     {
-      "abstract": "Wir lernen das Hobby der Kurzwellenhörer kennen, grenzen Hören und Senden voneinander ab und stellen eine erste Empfangsstation zusammen.",
+      "abstract": "Nous découvrons le hobby des écouteurs d’ondes courtes, distinguons l’écoute de l’émission et assemblons une première station de réception.",
       "id": "ch_ee5b509828d7",
       "identifiers": [
         {
@@ -48,7 +48,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Vorwort"
+          "title": "Avant-propos"
         },
         {
           "abstract": null,
@@ -81,7 +81,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Was ist ein SWL?"
+          "title": "Qu’est-ce qu’un écouteur de trafic (SWL) ?"
         },
         {
           "abstract": null,
@@ -114,14 +114,14 @@
             }
           ],
           "sort_order": 3,
-          "title": "Die erste Empfangsstation"
+          "title": "La première station de réception"
         }
       ],
       "sort_order": 1,
-      "title": "Einstieg in den Amateurfunkempfang"
+      "title": "Découverte de l’écoute des ondes courtes"
     },
     {
-      "abstract": "Wir bedienen einen Empfänger, wählen das passende Übertragungsverfahren und erkennen die gebräuchlichen HF-Steckverbinder.",
+      "abstract": "Nous utilisons un récepteur, choisissons le mode de transmission adapté et identifions les connecteurs HF courants.",
       "id": "ch_74183ff3dcc9",
       "identifiers": [
         {
@@ -167,7 +167,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Modulationsarten"
+          "title": "Types de modulation"
         },
         {
           "abstract": null,
@@ -200,7 +200,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Display und Bedienung"
+          "title": "Écran et commande"
         },
         {
           "abstract": null,
@@ -233,14 +233,14 @@
             }
           ],
           "sort_order": 3,
-          "title": "HF-Steckverbinder"
+          "title": "Connecteurs HF"
         }
       ],
       "sort_order": 2,
-      "title": "Empfänger im Detail: Modulationsarten und Steckverbinder"
+      "title": "Récepteurs en détail : types de modulation et connecteurs"
     },
     {
-      "abstract": "Die Ionosphäre ermöglicht weltweiten Kurzwellenempfang; besondere Bedingungen erschließen auch auf höheren Frequenzen große Entfernungen.",
+      "abstract": "L'ionosphère permet la réception mondiale en ondes courtes ; des conditions particulières permettent également d'atteindre de grandes distances sur des fréquences plus élevées.",
       "id": "ch_15930f785880",
       "identifiers": [
         {
@@ -286,7 +286,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Ionosphäre und Kurzwelle"
+          "title": "Ionosphère et ondes courtes"
         },
         {
           "abstract": null,
@@ -319,14 +319,14 @@
             }
           ],
           "sort_order": 2,
-          "title": "Sporadic-E"
+          "title": "E sporadique"
         }
       ],
       "sort_order": 3,
-      "title": "Wellenausbreitung"
+      "title": "Propagation des ondes"
     },
     {
-      "abstract": "Auch eine reine Empfangsstation braucht eine sichere Stromversorgung und eine fachgerecht errichtete Antennenanlage.",
+      "abstract": "Même une station de réception pure nécessite une alimentation électrique sécurisée et une installation d’antenne réalisée selon les règles de l’art.",
       "id": "ch_c62bf5911d02",
       "identifiers": [
         {
@@ -372,7 +372,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Elektrische Sicherheit"
+          "title": "Sécurité électrique"
         },
         {
           "abstract": null,
@@ -405,14 +405,14 @@
             }
           ],
           "sort_order": 2,
-          "title": "Antennensicherheit und Haftung"
+          "title": "Sécurité et responsabilité des antennes"
         }
       ],
       "sort_order": 4,
-      "title": "Sicherheit"
+      "title": "Sécurité"
     },
     {
-      "abstract": "Wir lesen Amateurfunkrufzeichen, ordnen wichtige Landeskenner zu und verbinden Frequenzbereiche mit den gebräuchlichen Bandbezeichnungen.",
+      "abstract": "Nous lisons les indicatifs d’appel de radioamateur, attribuons les principaux préfixes nationaux et associons les plages de fréquences aux désignations de bandes courantes.",
       "id": "ch_e41cf7db8ba8",
       "identifiers": [
         {
@@ -458,7 +458,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Amateurfunkrufzeichen"
+          "title": "Indicatif d’appel de radioamateur"
         },
         {
           "abstract": null,
@@ -491,7 +491,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Internationale Landeskenner"
+          "title": "Préfixes nationaux internationaux"
         },
         {
           "abstract": null,
@@ -524,14 +524,14 @@
             }
           ],
           "sort_order": 3,
-          "title": "Amateurfunkbänder"
+          "title": "Bandes radioamateur"
         }
       ],
       "sort_order": 5,
-      "title": "Rufzeichen, Länder und Bänder"
+      "title": "Indicatifs d’appel, pays et bandes"
     },
     {
-      "abstract": "Buchstabieralphabet, Betriebsabkürzungen und Q-Gruppen helfen dabei, auch schwache oder fremdsprachige Funkverbindungen sicher zu verstehen.",
+      "abstract": "L'alphabet phonétique, les abréviations d'exploitation et les groupes Q aident à comprendre même les liaisons radio faibles ou dans une langue étrangère.",
       "id": "ch_a4ac8c5d1e33",
       "identifiers": [
         {
@@ -577,7 +577,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Internationales Buchstabieralphabet"
+          "title": "Alphabet phonétique international"
         },
         {
           "abstract": null,
@@ -610,7 +610,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Betriebliche Abkürzungen"
+          "title": "Abréviations opérationnelles"
         },
         {
           "abstract": null,
@@ -643,7 +643,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Q-Gruppen"
+          "title": "Groupes Q"
         },
         {
           "abstract": null,
@@ -676,14 +676,14 @@
             }
           ],
           "sort_order": 4,
-          "title": "Das QSO"
+          "title": "Le QSO"
         }
       ],
       "sort_order": 6,
-      "title": "Sprache auf den Bändern"
+      "title": "Langage sur les bandes"
     },
     {
-      "abstract": "Wir beurteilen Signale, verfolgen besondere Betriebssituationen und dokumentieren gehörte Funkverbindungen im Logbuch und auf SWL-QSL-Karten.",
+      "abstract": "Nous évaluons les signaux, suivons des situations de trafic particulières et documentons les liaisons radio entendues dans le journal de bord et sur des cartes SWL-QSL.",
       "id": "ch_600f0992756e",
       "identifiers": [
         {
@@ -729,7 +729,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Der RST-Rapport"
+          "title": "Le rapport RST"
         },
         {
           "abstract": null,
@@ -762,7 +762,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "CQ, DX, Contest und Split"
+          "title": "CQ, DX, concours et split"
         },
         {
           "abstract": null,
@@ -795,7 +795,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Relaisfunkstellen"
+          "title": "Relais radio"
         },
         {
           "abstract": null,
@@ -828,7 +828,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Das SWL-Logbuch"
+          "title": "Le carnet de réception SWL"
         },
         {
           "abstract": null,
@@ -861,14 +861,14 @@
             }
           ],
           "sort_order": 5,
-          "title": "SWL-QSL-Karten"
+          "title": "Cartes QSL pour SWL"
         }
       ],
       "sort_order": 7,
-      "title": "Praktischer Empfangsbetrieb"
+      "title": "Pratique de la réception"
     },
     {
-      "abstract": "Hören ist grundsätzlich frei, doch das Abhörverbot und die Geheimhaltungspflicht setzen klare Grenzen. Wir unterscheiden außerdem Höramateur, Funkamateur und Amateurfunkstelle.",
+      "abstract": "L’écoute est en principe libre, mais l’interdiction d’interception et l’obligation de confidentialité fixent des limites claires. Nous distinguons également l’auditeur radio, le radioamateur et la station radioamateur.",
       "id": "ch_d0bda989f6b4",
       "identifiers": [
         {
@@ -914,7 +914,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Rechtsgrundlagen des Amateurfunks"
+          "title": "Bases légales de la radioamateur"
         },
         {
           "abstract": null,
@@ -947,14 +947,14 @@
             }
           ],
           "sort_order": 2,
-          "title": "Abhörverbot und Geheimhaltung"
+          "title": "Interdiction d’écoute et confidentialité"
         }
       ],
       "sort_order": 8,
-      "title": "Rechtliche Aspekte"
+      "title": "Aspects juridiques"
     },
     {
-      "abstract": "Wir betrachten Ablauf und Inhalt der DE-Prüfung, das System der DE-Kennzeichen und den Weg vom Antrag bis zur Urkunde.",
+      "abstract": "Nous examinons le déroulement et le contenu de l'examen DE, le système des indicatifs DE et la procédure allant de la demande à l'obtention du certificat.",
       "id": "ch_4752c421f741",
       "identifiers": [
         {
@@ -1000,7 +1000,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Die DE-Prüfung"
+          "title": "L’examen DE"
         },
         {
           "abstract": null,
@@ -1033,7 +1033,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Das DE-Kennzeichen"
+          "title": "L’indicatif DE"
         },
         {
           "abstract": null,
@@ -1066,14 +1066,14 @@
             }
           ],
           "sort_order": 3,
-          "title": "Beantragung und QSL-Vermittlung"
+          "title": "Demande et transmission de QSL"
         }
       ],
       "sort_order": 9,
-      "title": "DE-Prüfung und DE-Kennzeichen"
+      "title": "Examen DE et indicatif DE"
     },
     {
-      "abstract": "Bestätigte Hörberichte eröffnen den Weg zum DLD-SWL, zum Deutschen Empfangsmeister und vielleicht später zum eigenen Amateurfunkzeugnis.",
+      "abstract": "Les rapports d'écoute confirmés ouvrent la voie au DLD-SWL, au titre de champion suisse de la réception, et peut-être plus tard à l'obtention du certificat de radioamateurisme.",
       "id": "ch_8e7d8bb80260",
       "identifiers": [
         {
@@ -1119,7 +1119,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Deutschland-Diplom-SWL"
+          "title": "Diplôme Allemagne pour écouteurs (SWL)"
         },
         {
           "abstract": null,
@@ -1152,7 +1152,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Deutscher Empfangsmeister"
+          "title": "Maître réceptionniste allemand"
         },
         {
           "abstract": null,
@@ -1185,11 +1185,11 @@
             }
           ],
           "sort_order": 3,
-          "title": "Kursabschluss"
+          "title": "Clôture du cours"
         }
       ],
       "sort_order": 10,
-      "title": "Diplome und nächste Ziele"
+      "title": "Diplômes et prochains objectifs"
     }
   ],
   "id": "ed_92e3660ff86c",
@@ -1206,5 +1206,5 @@
   "node_type": "curriculum_root",
   "placements": [],
   "sort_order": 0,
-  "title": "SWL-Kurs"
+  "title": "Cours pour écouteurs d’ondes courtes"
 }

@@ -1,7 +1,7 @@
-La tension alternative dans notre réseau électrique *oscille* 50 fois par seconde en avant et en arrière. Le nombre d'oscillations par seconde s'appelle la fréquence. La fréquence est indiquée dans l'unité hertz avec l'abréviation Hz. Un hertz correspond exactement à une oscillation par seconde. Le réseau électrique a donc une fréquence de 50 Hz.
+La *tension alternative* dans notre réseau électrique *oscille* 50 fois par seconde d’avant en arrière. Le nombre d’*oscillations* [index:Schwingung] par seconde s’appelle la *fréquence* [index:Frequenz]. La fréquence est exprimée en *hertz* [index:Einheit:Hertz] avec l’abréviation $\unit{\hertz}$. Un $\unit{\hertz}$ correspond exactement à une oscillation par seconde. Le réseau électrique a donc une fréquence de $\qty{50}{\hertz}$.
 
 <unit>
-Dans l'*unité hertz*, la fréquence est mesurée. Un hertz est égal à une oscillation par seconde. L'unité a été nommée d'après le physicien allemand Heinrich Rudolf Hertz, qui a pu générer et prouver pour la première fois des ondes électromagnétiques en 1886.
+Dans l’*unité hertz*, on mesure la fréquence. Un hertz équivaut à une oscillation par seconde. Cette unité porte le nom du physicien allemand Heinrich Rudolf Hertz, qui fut le premier à produire et détecter des ondes électromagnétiques en 1886.
   
 $$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
   
@@ -12,38 +12,34 @@ $$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
 
 ---
 
-En radio, nous utilisons également des oscillations électriques, mais avec des fréquences beaucoup plus élevées que le réseau électrique, par exemple 144 000 000 Hz. Avec autant de chiffres, cela devient rapidement peu clair. C'est pourquoi nous utilisons l'expression mégahertz (MHz) pour un million de hertz et disons "144 mégahertz". Nous avons utilisé le *préfixe d'unité* "M" et l'avons placé devant l'unité réelle "Hz". Cela exprime que la valeur indiquée est multipliée par un million. D'autres exemples de fréquences avec des préfixes d'unité sont rassemblés dans le tableau [ref:n_frequenz_einheitenvorzeichen] [index:Einheitenvorzeichen].
+En radio, nous utilisons aussi des oscillations électriques, mais avec des *fréquences* bien plus élevées que celles du réseau électrique, par exemple $\qty{144000000}{\hertz}$. Avec autant de chiffres, cela devient rapidement peu lisible. C’est pourquoi nous employons l’expression *mégahertz* ($\unit{\mega\hertz}$) pour un million de hertz et nous disons « 144 mégahertz ». Nous avons utilisé le *préfixe d’unité* «$\unit{\mega\,}$» et l’avons placé devant l’unité proprement dite «$\unit{\hertz}$». Cela signifie que la valeur indiquée est multipliée par un million. D’autres exemples de fréquences avec des préfixes d’unité sont présentés dans le tableau [ref:n_frequenz_einheitenvorzeichen] [index:Einheitenvorzeichen].
 
 <webmargin>
-| X: Bezeichnung | r: Abkürzung | r: Wert |
-| 1 Kilohertz | $\qty{1}{\kilo\hertz}$ | $\qty{1000}{\hertz}$ |
-| 1 Megahertz | $\qty{1}{\mega\hertz}$ | $\qty{1000000}{\hertz}$ |
-| 1 Gigahertz | $\qty{1}{\giga\hertz}$ | $\qty{1000000000}{\hertz}$ |
-[table:n_frequenz_einheitenvorzeichen:Notation abrégée pour les grandes fréquences]
+| X: Désignation | r: Abréviation | r: Valeur |
+| 1 kilohertz | $\qty{1}{\kilo\hertz}$ | $\qty{1000}{\hertz}$ |
+| 1 mégahertz | $\qty{1}{\mega\hertz}$ | $\qty{1000000}{\hertz}$ |
+| 1 gigahertz | $\qty{1}{\giga\hertz}$ | $\qty{1000000000}{\hertz}$ |
+[table:n_frequenz_einheitenvorzeichen:Abréviations pour les grandes fréquences]
 </webmargin>
 
 [question:NA212]
 
-Dans la classe d'entrée en radioamateur N, on peut par exemple utiliser les fréquences de 28 à 29,7 MHz, de 144 à 146 MHz ainsi que de 430 MHz à 440 MHz. Dans les classes E ou A, d'autres bandes de fréquences s'ajoutent.
-
-[question:VD723]
-
 ---
 
-Dans les appareils radio, les oscillations électriques sont générées par un oscillateur. Lorsque l'on appuie sur la touche d'émission de l'appareil radio, les oscillations sont alors dirigées vers l'antenne et y sont émises sous forme d'ondes radio.
+Dans les appareils radio, les oscillations électriques sont générées par un oscillateur. Lorsque l’on appuie sur la touche d’émission de l’appareil radio, les oscillations sont alors transmises à l’antenne et y sont rayonnées sous forme d’*ondes radio*.
 
 <wordorigin>
-Le terme *oscillateur* [index:Oszillator] dérive du mot latin oscillare, qui signifie osciller.
+Le terme *oscillateur* [index:Oszillator] dérive du mot latin *oscillare*, qui signifie « balancer » ou « osciller ».
 </wordorigin>
 
 [question:ND201]
 
 ---
 
-Lors des opérations radio, nous devons savoir exactement sur quelle fréquence nous émettons. Pour mesurer la fréquence d'émission, on utilise donc un compteur de fréquence [index:Frequenz:Frequenzzähler], comme on peut en voir un exemple dans la figure [ref:frequenz_frequenzzaehler]. Lors de la construction et de l'accord des appareils radio, on utilise des compteurs de fréquence pour mesurer si la fréquence d'émission correspond à l'affichage sur l'appareil.
+Lors d’une communication radio, il est essentiel de connaître précisément la *fréquence* d’émission. Pour mesurer cette fréquence, on utilise un *fréquencemètre* [index:Frequenz:Frequenzzähler], comme celui illustré à la figure [ref:frequenz_frequenzzaehler]. Lors de la construction et de l’ajustement d’appareils radio, on utilise des fréquencemètres pour vérifier que la fréquence d’émission correspond bien à l’affichage de l’appareil.
 
 <margin>
-[photo:150:frequenz_frequenzzaehler:Compteur de fréquence mesurant et affichant 29,6 MHz]
+[photo:150:frequenz_frequenzzaehler:Fréquencemètre affichant $\qty{29,6}{\mega\hertz}$]
 </margin>
 
 [question:NI301]

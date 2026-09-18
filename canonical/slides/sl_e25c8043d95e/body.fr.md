@@ -1,21 +1,21 @@
-## Apparition de l'aurore
+## Apparition des aurores boréales
 
 <left>
-[photo:217:e_aurora:Aurora lors du week-end de formation en radio d'urgence en mai 2024]
+[photo:217:e_aurora:Aurore lors du week-end de formation radio d'urgence en mai 2024]
 </left>
 <right>
-* L'aurore se produit près des pôles
-* L'aurore se situe à la hauteur de la région E ($\num{90}$ à $\qty{130}{\kilo\meter}$)
-* Des particules chargées du soleil pénètrent dans l'atmosphère
+* Les aurores boréales se produisent près des pôles
+* L'aurore boréale se situe à la hauteur de la couche E (entre $\qty{90}{\kilo\meter}$ et $\qty{130}{\kilo\meter}$)
+* Des particules chargées en provenance du Soleil pénètrent dans l'atmosphère
 </right>
 
 <note>
-Les bonnes questions contiennent "Pôles" ou "Région polaire" et pour nous en Europe, la région polaire est au nord.
+Les bonnes réponses contiennent le terme « pôles » ou « régions polaires » et, pour nous en Europe, la région polaire se trouve au nord.
 </note>
 
 ---
 
-La fin d'un QSO CW d'aurore entre GM4YXI et OK/DF7TR/P:
+La fin d'un QSO en CW via aurore boréale entre GM4YXI et OK/DF7TR/P :
 
 [include:applet_aurora]
 
@@ -29,10 +29,10 @@ La fin d'un QSO CW d'aurore entre GM4YXI et OK/DF7TR/P:
 ---
 ## Utilisation pour la propagation des ondes
 
-* L'aurore est une zone fortement ionisée, les ondes radio au-dessus de $\qty{30}{\mega\hertz}$ sont réfléchies
-* Elle est donc principalement utilisée avec UHF et VHF
-* La parole est trop large bande, donc CW convient le mieux
-* Néanmoins, le signal est "flottant" et "bourdonnant"
+* L'aurore boréale est une zone fortement ionisée qui **réfléchit** les ondes radio au-dessus de $\qty{30}{\mega\hertz}$
+* Elle est donc principalement utilisée en UHF et VHF
+* La voix est trop large bande, c'est pourquoi le CW est le mieux adapté
+* Malgré cela, le signal est « tremblotant » et « brouillé »
 
 ---
 [question:AH304]

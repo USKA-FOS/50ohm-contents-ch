@@ -1,22 +1,22 @@
-Comme nous l'avons appris précédemment, les appareils radioamateurs et les lignes de transmission couramment utilisées dans le radioamateur utilisent généralement une impédance de ligne de $\qty{50}{\ohm}$. Nous avons également appris qu'il se produit des réflexions indésirables aux points de connexion des lignes de transmission lorsque l'impédance de la ligne ne correspond pas.
+Comme nous l’avons appris précédemment, les appareils radioamateurs et les lignes de transmission couramment utilisées en radioamateurisme ont généralement une impédance caractéristique de $\qty{50}{\ohm}$. Nous avons également appris que des réflexions indésirables se produisent aux points de connexion des lignes de transmission si l’impédance caractéristique n’est pas adaptée.
 
-Les antennes ont également une propriété similaire à l'impédance de la ligne, qui dépend de la disposition exacte des éléments de l'antenne. Cette propriété est appelée résistance d'alimentation ou résistance de base. Comme pour la connexion de deux lignes de transmission avec des impédances de ligne différentes, il en va de même ici: si la résistance d'alimentation des antennes ne correspond pas à l'impédance de la ligne d'alimentation, des réflexions indésirables se produisent. Une partie de la puissance d'émission est réfléchie vers l'appareil radio et ne peut pas être rayonnée par l'antenne.
+Les antennes possèdent également une propriété similaire à l’impédance caractéristique, qui dépend de la disposition exacte des éléments de l’antenne. Cette propriété est appelée impédance d’alimentation ou impédance au point d’alimentation. Comme pour la connexion de deux lignes de transmission d’impédances caractéristiques différentes, si l’impédance d’alimentation de l’antenne ne correspond pas à l’impédance caractéristique de la ligne d’alimentation, des réflexions indésirables se produisent. Une partie de la puissance d’émission est réfléchie vers l’émetteur et ne peut pas être rayonnée par l’antenne.
 
-En revanche, si la résistance d'alimentation de l'antenne et l'impédance de la ligne d'alimentation coïncident et garantissent ainsi une transmission optimale de la puissance d'émission dans l'antenne, on parle d'*adaptation*.
+En revanche, si l’impédance d’alimentation de l’antenne et l’impédance caractéristique de la ligne d’alimentation sont adaptées, garantissant ainsi une transmission optimale de la puissance d’émission vers l’antenne, on parle alors d’*adaptation*.
 
 <margin>
-[photo:144:swr_meter:Un simple SWR-Meter pour déterminer le rapport d’ondes stationnaires]
+[photo:144:swr_meter:Un ROS-mètre simple pour déterminer le rapport d’ondes stationnaires]
 </margin>
 
-On peut mesurer à quel point l'adaptation de l'antenne est bonne. En termes simplifiés, on détermine ainsi la quantité de puissance d'émission réfléchie par l'antenne. La valeur mesurée indiquée par l'appareil de mesure s'appelle *rapport d’ondes stationnaires*. On utilise généralement l'abréviation SWR, dérivée du terme anglais "standing wave ratio". Pour déterminer le SWR, on utilise un *appareil de mesure des ondes stationnaires*, appelé brièvement *SWR-Meter*.
+On peut mesurer la qualité de l’adaptation de l’antenne. En termes simplifiés, on détermine la quantité de puissance d’émission réfléchie par l’antenne. La valeur mesurée affichée par l’appareil s’appelle le *rapport d’ondes stationnaires*. On utilise généralement l’abréviation SWR, dérivée de l’anglais *standing wave ratio*. Pour déterminer le SWR, on utilise un *ROS-mètre*, appelé aussi *SWR-Meter*.
 
-% TODO: Rendre spécifique à l'édition
+% TODO: À adapter selon l’édition
 <indepth>
-Un SWR-Meter mesure simultanément la puissance d'émission avant qui est envoyée par l'émetteur à l'antenne, et la puissance réfléchie qui a été réfléchie. Cela peut être bien vu sur le SWR-Meter dans la figure [ref:swr_meter_kreuzzeiger], qui affiche séparément la puissance avant et réfléchie. Le SWR ne donne cependant pas directement le rapport de ces deux valeurs de mesure, mais est déterminé de manière quelque peu plus compliquée comme $\text{SWR} = \frac {\sqrt{P_\text{V}}+\sqrt{P_\text{R}}} { \sqrt{P_\text{V}}-\sqrt{P_\text{R}}}$, où $P_\text{V}$ est la puissance avant et $P_\text{R}$ la puissance réfléchie. Pour l'examen de la classe N, il n'est pas nécessaire de connaître cette formule.
+Un ROS-mètre mesure simultanément la puissance d’émission incidente envoyée par l’émetteur vers l’antenne et la puissance réfléchie renvoyée. Cela peut être clairement observé sur le ROS-mètre de la figure [ref:swr_meter_kreuzzeiger], qui affiche séparément la puissance incidente et la puissance réfléchie. Le SWR n’indique cependant pas directement le rapport de ces deux valeurs mesurées, mais est calculé de manière un peu plus complexe selon la formule $\text{SWR} = \frac {\sqrt{P_\text{inc}}+\sqrt{P_\text{réfl}}} { \sqrt{P_\text{inc}}-\sqrt{P_\text{réfl}}}$, où $P_\text{inc}$ est la puissance incidente et $P_\text{réfl}$ la puissance réfléchie.
 </indepth>
 
 <margin>
-[photo:143:swr_meter_kreuzzeiger:SWR-Meter avec aiguille croisée, l'aiguille de gauche pour la puissance avant et l'aiguille de droite pour la puissance réfléchie; pour lire le SWR, on suit la ligne verte au point d'intersection des deux aiguilles vers le bas]
+[photo:143:swr_meter_kreuzzeiger:ROS-mètre à aiguilles croisées, l’aiguille de gauche pour la puissance incidente et celle de droite pour la puissance réfléchie ; pour lire le SWR, on suit la ligne verte au point d’intersection des deux aiguilles vers le bas]
 </margin>
 
 [question:NI201]
@@ -24,28 +24,28 @@ Un SWR-Meter mesure simultanément la puissance d'émission avant qui est envoy�
 ---
 
 <margin>
-[photo:67:n_swr_display:Affichage d'un émetteur-récepteur]
+[photo:67:n_swr_display:Écran d’un émetteur-récepteur]
 </margin>
 
-Les émetteurs-récepteurs modernes ont déjà un SWR-Meter intégré. L'affichage se trouve généralement dans l'affichage, voir [ref:n_swr_display].
+Les émetteurs-récepteurs modernes intègrent déjà un ROS-mètre. L’affichage se trouve généralement dans l’écran, voir [ref:n_swr_display].
 
 <attention>
-Les SWR-Meter et les S-Meter ont des noms similaires, mais sont différents: le SWR-Meter mesure le rapport d’ondes stationnaires lors de l'émission et le S-Meter mesure l'intensité du signal lors de la réception.
+ROS-mètre et S-mètre se ressemblent, mais ils sont différents : le ROS-mètre mesure le rapport d’ondes stationnaires lors de l’émission, tandis que le S-mètre mesure l’intensité du signal lors de la réception.
 </attention>
 
-% TODO Big Picture: Dans l'image Trx_Display "SWR" marquer
-[question:NF101] 
+% TODO Big Picture : Dans l’image Trx_Display, indiquer "SWR"
+[question:NF101]
 
 ---
 
-Si aucun SWR-Meter n'est intégré dans l'émetteur-récepteur, on peut également utiliser un SWR-Meter externe. Il est branché entre l'appareil radio et l'antenne comme dans la figure [ref:n_trx_kabel_swr_antenne]. On dit aussi: "Le SWR-Meter est inséré entre l'émetteur-récepteur et l'antenne".
+Si l’émetteur-récepteur ne dispose pas d’un ROS-mètre intégré, on peut utiliser un ROS-mètre externe. Celui-ci est alors connecté entre l’appareil radio et l’antenne, comme illustré dans la figure [ref:n_trx_kabel_swr_antenne]. On dit aussi : « Le ROS-mètre est inséré entre l’émetteur-récepteur et l’antenne ».
 
 [question:NI202]
 
-Si une antenne est parfaitement adaptée à la ligne d'alimentation (par exemple le câble coaxial), le SWR-Meter affiche une valeur de $\num{1}$. C'est la meilleure valeur atteignable. Alors, toute la puissance est absorbée par l'antenne. Aucune puissance n'est réfléchie vers l'émetteur.
+Si une antenne est parfaitement adaptée à la ligne d’alimentation (par exemple, le câble coaxial), le ROS-mètre affiche une valeur de $\num{1}$. Il s’agit de la meilleure valeur possible. Dans ce cas, toute la puissance est absorbée par l’antenne. Aucune puissance n’est réfléchie vers l’émetteur.
 
 <margin>
-[picture:670:n_trx_kabel_swr_antenne:Schéma SWR-Meter entre émetteur-récepteur et antenne]
+[picture:670:n_trx_kabel_swr_antenne:Schéma de principe d’un ROS-mètre inséré entre l’émetteur-récepteur et l’antenne]
 </margin>
 
 [question:NG301]
@@ -53,17 +53,17 @@ Si une antenne est parfaitement adaptée à la ligne d'alimentation (par exemple
 
 ---
 
-Si aucune antenne n'est branchée sur l'émetteur-récepteur ou si la ligne de transmission est soit interrompue soit en court-circuit, la valeur SWR est presque infinie ($\infty$). Un câble ouvert ou en court-circuit réfléchit en effet complètement la puissance d'émission. Cela peut, dans le pire des cas, même détruire l'émetteur dans l'appareil radio.
+Si aucune antenne n’est connectée à l’émetteur-récepteur, ou si la ligne de transmission est soit coupée, soit en court-circuit, la valeur du SWR est quasi infinie ($\infty$). En effet, un câble ouvert ou en court-circuit réfléchit intégralement la puissance d’émission. Dans le pire des cas, cela peut même endommager l’émetteur de l’appareil radio.
 
 <indepth>
-Outre les deux valeurs *SWR* $\num{1}$ et infini ($\infty$), les valeurs $\num{2}$ et $\num{3}$ à droite sont également marquantes. Pour une valeur SWR de $\num{2}$, $\qty{11}{\percent}$ de la puissance d'émission est réfléchie vers l'émetteur, et pour une valeur SWR de $\num{3}$, $\qty{25}{\percent}$ de la puissance d'émission est réfléchie vers l'émetteur. Dans les émetteurs-récepteurs modernes, une destruction de l'émetteur est évitée en réduisant automatiquement la puissance d'émission dans l'appareil radio.
+En plus des deux valeurs de SWR $\num{1}$ et infinie ($\infty$), les valeurs $\num{2}$ et $\num{3}$ sont également marquantes. Pour un SWR de $\num{2}$, $\qty{11}{\percent}$ de la puissance d’émission sont réfléchis vers l’émetteur, et pour un SWR de $\num{3}$, $\qty{25}{\percent}$ le sont. Dans les émetteurs-récepteurs modernes, une puissance d’émission trop élevée est évitée en réduisant automatiquement la puissance de l’émetteur.
 </indepth>
 
-Un SWR très mauvais, par exemple proche de l'infini, peut également être obtenu si l'adaptation des antennes est très mauvaise ou si la ligne de transmission est endommagée.
+Un SWR très élevé, par exemple proche de l’infini, peut également indiquer une adaptation très médiocre de l’antenne ou un endommagement de la ligne de transmission.
 
 [question:NG302]
 [question:NG303]
 
-Si une antenne avec une mauvaise adaptation est connectée à un appareil radio avec un SWR-Meter via un long câble coaxial, la valeur SWR affichée peut être nettement meilleure que ce à quoi on pourrait s'attendre en raison de la mauvaise adaptation. La cause en est une forte atténuation du câble, qui réduit non seulement le signal allant vers l'antenne, mais aussi le signal réfléchi.
+Si une antenne mal adaptée est connectée à un appareil radio équipé d’un ROS-mètre via un long câble coaxial, la valeur de SWR affichée peut être nettement meilleure que ce à quoi on pourrait s’attendre en raison de la mauvaise adaptation. La cause en est l’atténuation élevée du câble, qui réduit non seulement le signal allant vers l’antenne, mais aussi le signal réfléchi.
 
 [question:NG208]

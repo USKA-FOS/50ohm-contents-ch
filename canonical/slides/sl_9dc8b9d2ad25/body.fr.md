@@ -1,10 +1,10 @@
 <left>
-[picture:725:n_frequenz_sinusschwingung:La tension du réseau électrique dans le temps. Comme la tension n'a pas toujours la valeur maximale de $\qty{325}{\volt}$, elle agit effectivement seulement avec $\qty{230}{\volt}$.]
+[picture:725:n_frequenz_sinusschwingung:L'évolution temporelle de la tension du réseau électrique. Comme la tension n'atteint pas en permanence sa valeur maximale de $\qty{325}{\volt}$, elle n'agit en réalité qu'avec une valeur efficace de $\qty{230}{\volt}$.]
 </left>
 <right>
-* La tension alternative du réseau électrique ne revient pas directement
-* Il y a une transition douce par 0
-* Comme avec un pendule
+* La tension alternative du réseau électrique ne revient pas directement à zéro
+* Il y a une transition progressive par 0
+* Comme un pendule
 * Ce type d'oscillation est une oscillation sinusoïdale
 </right>
 

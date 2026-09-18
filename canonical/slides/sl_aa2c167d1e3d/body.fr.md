@@ -1,25 +1,25 @@
-## Indicatif d'appel
+## Indicatifs d’appel
 
 <left>
-[photo:167:rufzeichen_flugzeug:Avion avec l'indicatif d'appel DEBPF]
+[photo:167:rufzeichen_flugzeug:Avion avec l’indicatif d’appel DEBPF]
 </left>
 <right>
-* Les stations radio utilisent des indicatifs d'appel pour s'identifier
-* Suite de lettres et de chiffres
-* Chaque avion et navire équipé de radio a un indicatif d'appel
+* Les stations radio utilisent des **indicatifs d’appel** pour s’identifier
+* Séquence de lettres et de chiffres
+* Chaque avion ou navire équipé de radio possède un indicatif d’appel
 </right>
 <note>
-Indicatif d'appel DEBPF dans l'image
+Montrer l’indicatif d’appel DEBPF sur l’image
 </note>
 
 ---
 
-### Indicatif d'appel radioamateur
+### Indicatifs d’appel de radioamateur
 
-* L'indicatif d'appel personnel est attribué
-* Unique au niveau mondial
-* Doit être mentionné au début et à la fin de chaque liaison
-* Et toutes les 10 minutes lors des liaisons plus longues
+* Un indicatif personnel est attribué
+* Unique à l’échelle mondiale
+* Doit être mentionné au début et à la fin de chaque communication
+* Et toutes les 10 minutes lors de communications prolongées
 
 ---
 
@@ -28,4 +28,3 @@ Indicatif d'appel DEBPF dans l'image
 ---
 
 [question:VD205]
-

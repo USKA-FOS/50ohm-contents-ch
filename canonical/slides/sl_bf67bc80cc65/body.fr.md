@@ -1,10 +1,12 @@
+--- data-transition="none"
 ### 1. Microphone
 
 <left>
-[picture:735:aufbau_sender:diagramme en blocs d'un émetteur simple]
+[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
 </left>
 <right>
-* Convertit les ondes sonores en signal AF
+* Convertit les ondes sonores en signal BF
+* Ou transmet le signal de la sortie audio d’un ordinateur
 </right>
 
 --- data-transition="none"
@@ -12,10 +14,10 @@
 ### 2. Amplificateur basse fréquence
 
 <left>
-[picture:735:aufbau_sender:diagramme en blocs d'un émetteur simple]
+[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
 </left>
 <right>
-* Amplifie le signal AF du microphone
+* Amplifie le signal BF provenant du microphone ou de l’ordinateur
 </right>
 
 --- data-transition="none"
@@ -23,13 +25,14 @@
 ### 3. Mélangeur
 
 <left>
-[picture:735:aufbau_sender:diagramme en blocs d'un émetteur simple]
+[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
 </left>
 <right>
-* Mélange le signal AF avec la porteuse HF de l'oscillateur (4)
+* Combine le signal BF avec la porteuse HF de l’oscillateur (4)
+* La porteuse haute fréquence est modulée en amplitude
 </right>
 <note>
-Lorsque un mélangeur combine deux signaux, cela correspond mathématiquement à une multiplication des deux signaux. C'est pourquoi le symbole de multiplication se retrouve également dans le symbole de bloc pour le mélangeur. La manière dont un mélangeur fonctionne exactement fait partie du cours pour la classe A.
+Lorsqu’un mélangeur combine deux signaux, cela correspond mathématiquement à une multiplication des deux signaux. C’est pourquoi le symbole du mélangeur dans le diagramme en blocs représente également une croix de multiplication. Le fonctionnement exact d’un mélangeur est abordé dans le cours de classe A.
 </note>
 
 --- data-transition="none"
@@ -37,10 +40,10 @@ Lorsque un mélangeur combine deux signaux, cela correspond mathématiquement à
 ### 4. Oscillateur
 
 <left>
-[picture:735:aufbau_sender:diagramme en blocs d'un émetteur simple]
+[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
 </left>
 <right>
-* Génère une oscillation haute fréquence de la fréquence d'émission
+* Génère une oscillation haute fréquence à la fréquence d’émission
 </right>
 
 --- data-transition="none"
@@ -48,11 +51,11 @@ Lorsque un mélangeur combine deux signaux, cela correspond mathématiquement à
 ### 5. Filtre passe-bande
 
 <left>
-[picture:735:aufbau_sender:diagramme en blocs d'un émetteur simple]
+[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
 </left>
 <right>
-* Le mélangeur produit des fréquences indésirables
-* Avec le filtre passe-bande, seules les fréquences souhaitées sont laissées passer
+* Le mélangeur génère d’autres fréquences indésirables
+* Le filtre passe-bande ne laisse passer que les fréquences souhaitées
 </right>
 
 --- data-transition="none"
@@ -60,10 +63,10 @@ Lorsque un mélangeur combine deux signaux, cela correspond mathématiquement à
 ### 6. Amplificateur
 
 <left>
-[picture:735:aufbau_sender:diagramme en blocs d'un émetteur simple]
+[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
 </left>
 <right>
-* Amplifie le signal HF à la puissance d'émission souhaitée
+* Amplifie le signal HF à la puissance d’émission souhaitée
 </right>
 
 --- data-transition="none"
@@ -71,11 +74,11 @@ Lorsque un mélangeur combine deux signaux, cela correspond mathématiquement à
 ### 7. Filtre passe-bas
 
 <left>
-[picture:735:aufbau_sender:diagramme en blocs d'un émetteur simple]
+[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
 </left>
 <right>
-* L'amplificateur peut générer des fréquences indésirables
-* Seules les fréquences souhaitées sont laissées passer
+* L’amplificateur peut générer des fréquences indésirables
+* Seul les fréquences souhaitées sont transmises
 </right>
 
 --- data-transition="none"
@@ -83,11 +86,11 @@ Lorsque un mélangeur combine deux signaux, cela correspond mathématiquement à
 ### 8. Antenne
 
 <left>
-[picture:735:aufbau_sender:diagramme en blocs d'un émetteur simple]
+[picture:735:aufbau_sender:Blockdiagramm eines einfachen Senders]
 </left>
 <right>
-* Le signal HF est appliqué à l'antenne
-* L'antenne le rayonne sous forme d'onde radio
+* Le signal HF est appliqué à l’antenne
+* L’antenne l’émet sous forme d’onde radio
 </right>
 
 ---
@@ -101,7 +104,7 @@ Lorsque un mélangeur combine deux signaux, cela correspond mathématiquement à
 
 ---
 
-Une installation radioamateur doit être construite et exploitée selon les règles généralement reconnues de la technique. Cela s'applique bien sûr tout particulièrement aux émetteurs.
+Une installation de radioamateur doit être conçue et exploitée conformément aux règles techniques généralement reconnues. Cela s’applique bien sûr tout particulièrement aux émetteurs.
 
 ---
 [question:VD106]

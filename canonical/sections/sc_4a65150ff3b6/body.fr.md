@@ -1,18 +1,18 @@
-Comme nous l'avons vu avec l'antenne $5/8 \lambda$, les longueurs de fil ne sont pas toujours choisies de manière à être résonantes par elles-mêmes. En principe, les antennes peuvent avoir des longueurs arbitraires, à condition de les adapter à la ligne d'alimentation. Cela peut se faire, par exemple, par un appareil d'adaptation ou un syntoniseur.
+Comme nous l’avons vu avec l’antenne $5/8 \lambda$, les longueurs de fil ne sont pas toujours choisies de manière à être résonantes par elles-mêmes. En principe, les antennes peuvent avoir des longueurs quelconques, à condition de les adapter à la ligne d’alimentation. Cela peut par exemple être réalisé à l’aide d’un adaptateur ou d’un tuner.
 
 [question:EG102]
 
 ---
 
 <margin>
-[picture:562:e_antenne_laenge_resonanz:Un dipôle plié]
+[picture:562:e_antenne_laenge_resonanz:Un dipôle replié]
 </margin>
 
-Le dipôle plié représente en principe une boucle d'onde entière aplatie. La longueur totale du fil est donc exactement une longueur d'onde.
+Le dipôle replié représente en principe une boucle demi-onde aplatie. La longueur totale du fil est donc exactement d’une longueur d’onde.
 
 [question:EG110]
 
-La question suivante peut être facilement répondue avec le recueil de formules, en convertissant la fréquence en longueur d'onde et en la multipliant par le facteur $\frac{5}{8}$.
+La question suivante peut être facilement résolue à l’aide du recueil de formules en convertissant la fréquence en longueur d’onde et en multipliant par le facteur $\frac{5}{8}$.
 
 [question:EG109]
 

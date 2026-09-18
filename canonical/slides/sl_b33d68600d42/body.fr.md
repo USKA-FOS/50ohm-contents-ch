@@ -1,10 +1,7 @@
-* Les émetteurs et les installations d'émission nécessitent généralement une autorisation administrative
+* Les émetteurs et installations d’émission nécessitent généralement une autorisation officielle
 * Les radioamateurs en sont exemptés
-* Ils sont autorisés à exploiter des installations d'émission *disponibles dans le commerce, fabriquées par eux-mêmes ou modifiées pour les fréquences radioamateurs*
-
-<note>
-Ce privilège est accordé aux radioamateurs grâce à l'examen technique exigeant
-</note>
+* Ils sont autorisés à utiliser des *installations d’émission disponibles dans le commerce, fabriquées par eux-mêmes ou modifiées pour les fréquences radioamateur*
+* Ce privilège est accordé aux radioamateurs grâce à l’examen technique exigeant
 
 ---
 
@@ -14,25 +11,25 @@ Ce privilège est accordé aux radioamateurs grâce à l'examen technique exigea
 
 ## Composants
 
-* Pour l'autoconstruction, différents composants électroniques sont nécessaires
+* Pour la construction personnelle, divers composants électroniques sont nécessaires
 * Ceux-ci présentent des propriétés différentes
-* Dans la classe N, il n'y a que quelques circuits simples $\rightarrow$ plus dans les classes E et A
-* Les connaissances des symboles et des désignations suffisent
+* En classe N, il n’y a que quelques circuits simples $\rightarrow$ plus en classe E et A
+* La connaissance des symboles et désignations suffit
 
 <note>
-Plus à ce sujet dans les sections suivantes
+Plus d’informations dans les sections suivantes
 </note>
 
 ---
 
-## Exigences pour les appareils radio
+## Exigences relatives aux appareils radio
 
-* Toutes les *installations radio disponibles dans le commerce, produites en série* doivent respecter les *exigences et réglementations de base de la loi sur les installations radio (FuAG)*
-* Déclaration de conformité UE (*marquage CE*) avant la mise sur le marché
-* Seules les installations mises à disposition sur le marché peuvent être mises en service
+* Tous les *appareils radio disponibles dans le commerce et fabriqués en série* doivent respecter les *exigences et réglementations de base de la loi sur les installations radio (FuAG)*
+* Déclaration de conformité UE (*marquage CE*) doit être établie avant leur mise sur le marché
+* Seuls les appareils conformes peuvent être mis en service
 
 <note>
-* Appareils radioamateurs fabriqués commercialement
+* Appareils radioamateur commerciaux
 </note>
 
 ---
@@ -45,11 +42,11 @@ Plus à ce sujet dans les sections suivantes
 [question:VE404]
 ---
 
-## Autoconstruction
+## Construction personnelle
 
-* Exception : installations radio *construites et modifiées par des radioamateurs*
-* Ne doivent pas respecter les exigences de la loi sur les installations radio
-* Ne doivent pas porter le marquage CE
+* Exception : installations radio *construites ou modifiées par des radioamateurs*
+* Ne sont pas tenues de respecter les exigences de la loi sur les installations radio
+* N’ont pas besoin de porter le marquage CE
 
 ---
 

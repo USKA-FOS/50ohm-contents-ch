@@ -1,12 +1,12 @@
 <left>
-Problème:
-* Les objets conducteurs peuvent présenter des potentiels indésirables (tensions)
+Problème :
+* Des objets conducteurs peuvent présenter des potentiels (tensions) indésirables
 * Par exemple, charge électrique, foudre ou défaut dans l'appareil
 </left>
 <right>
-Mesures:
-* Relier les parties électriquement conductrices entre elles
-* Pour les câbles coaxiaux, relier les blindages entre eux et les connecter à la barre de mise à la terre principale
+Mesures :
+* Relier entre eux les parties conductrices
+* Pour les câbles coaxiaux, relier les blindages entre eux et les connecter à la barre de terre principale
 </right>
 
 ---

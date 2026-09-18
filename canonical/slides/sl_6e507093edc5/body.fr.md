@@ -1,5 +1,5 @@
-* Calcul de pourcentage simple
-* Correction vers le bas et vers le haut de la valeur de résistance indiquée
+* Calculs de pourcentage simples
+* Correction à la baisse et à la hausse de la valeur de résistance indiquée
 
 ---
 [question:EC112]

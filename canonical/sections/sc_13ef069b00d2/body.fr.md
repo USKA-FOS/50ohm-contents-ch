@@ -1,9 +1,11 @@
-Pour l'évaluation des exigences légales concernant la bande passante d'une émission, la puissance moyenne d'émission dans la bande émise est considérée selon l'ordonnance sur le radioamateur. Ici, 99 % de la puissance d'émission doivent se situer dans les limites de la bande passante requise. Ainsi, au maximum 0,5 % de la puissance d'émission peut être attribuée aux bandes adjacentes en dessous et au-dessus du signal d'émission. Cela est particulièrement important pour les émissions FM.
+Pour évaluer les exigences légales concernant la bande passante d’une émission, la réglementation sur la radio amateur considère la puissance moyenne d’émission dans la plage de fréquences émise. Ainsi, 99 % de la puissance d’émission doivent se situer dans les limites de la bande passante requise. Par conséquent, au maximum 0,5 % de la puissance d’émission peut être répartie sur les plages de fréquences adjacentes en dessous et au-dessus du signal émis. Cela est particulièrement important pour les émissions en modulation de fréquence (FM).
 
-%TODO: Insérer un graphique/une esquisse concernant la bande passante et la distribution de la puissance.
+<margin>
+[picture:1121:bandbreite_leistungsverteilung:Répartition de la puissance d’une émission]
+</margin>
 
 <tip>
-Pour mesurer les parts de puissance concernant une émission et sa bande passante, un analyseur de spectre est nécessaire. Ici, les appareils modernes ont souvent des fonctions mathématiques intégrées, de sorte que la puissance moyenne dans une bande passante déterminée peut être calculée (mesure de la puissance du canal, mesure de la puissance du canal adjacent). Des informations plus précises à ce sujet peuvent être trouvées dans le manuel d'utilisation de l'appareil respectif.
+Pour mesurer les parts de puissance relatives à une émission et sa bande passante, un analyseur de spectre est nécessaire. Les appareils modernes disposent souvent de fonctions mathématiques intégrées, permettant de déterminer par calcul la puissance moyenne dans une bande passante donnée (mesure de la puissance de canal, mesure de la puissance adjacente). Pour plus d’informations, veuillez consulter le manuel d’utilisation de l’appareil concerné.
 </tip>
 
 [question:AE101]

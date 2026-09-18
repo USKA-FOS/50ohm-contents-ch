@@ -1,7 +1,7 @@
 Rappel rapide :
-* Les charges électriques sont séparées dans les sources de tension, ce qui crée une tension électrique. Symbole $U$, unité volt ($\unit{\volt}$).
-* La tension électrique provoque un flux de courant électrique dans un circuit fermé. Symbole $I$, unité ampère ($\unit{\ampere}$).
-* Les récepteurs exercent une résistance dans un circuit et freinent le flux de courant. Symbole $R$, unité ohm ($\unit{\ohm}$).
+* Les charges électriques sont séparées dans les sources de tension, ce qui crée une tension électrique. Lettre $U$, unité volt ($\unit{\volt}$).
+* La tension électrique provoque un courant électrique dans un circuit fermé. Lettre $I$, unité ampère ($\unit{\ampere}$).
+* Les récepteurs exercent une résistance dans un circuit électrique et freinent le flux de courant. Lettre $R$, unité ohm ($\unit{\ohm}$).
 
 ---
 
@@ -21,24 +21,24 @@ Rappel rapide :
 
 ---
 
-* À $\qty{20}{\volt}$, le courant augmente à $\qty{2}{\milli\ampere}$
-* À $\qty{5}{\volt}$, le courant diminue à $\qty{0,5}{\milli\ampere}$
+* Pour $\qty{20}{\volt}$, le courant augmente à $\qty{2}{\milli\ampere}$
+* Pour $\qty{5}{\volt}$, le courant diminue à $\qty{0,5}{\milli\ampere}$
 
 <fragment>
 $\dfrac{U}{I} = \dfrac{\qty{10}{\volt}}{\qty{0,001}{\ampere}} = \dfrac{\qty{20}{\volt}}{\qty{0,002}{\ampere}} = \dfrac{\qty{5}{\volt}}{\qty{0,0005}{\ampere}} = \qty{10000}{\volt\per\ampere}$
 </fragment>
 <fragment>
-Proportionalité : $I$ est proportionnel à $U$ avec un *facteur de proportionnalité* de 10000
+Proportionnalité : $I$ est proportionnel à $U$ avec un *facteur de proportionnalité* de $\num{10000}$
 </fragment>
 <note>
-Le *facteur de proportionnalité* est le rapport numérique de deux grandeurs qui sont proportionnelles l'une à l'autre.
+Le *facteur de proportionnalité* est le rapport numérique entre deux grandeurs proportionnelles.
 </note>
 
 ---
 
 ## Résistance
 
-* Le facteur de proportionnalité de 10000 de l'exemple est la résistance $R$
+* Le facteur de proportionnalité de $\num{10000}$ de l'exemple est la résistance $R$
 * Unité : $\qty{1}{\ohm} = \qty{1}{\volt\per\ampere}$
 * La résistance de l'exemple est de $\qty{10000}{\ohm}$ ou $\qty{10}{\kilo\ohm}$
 
@@ -46,12 +46,12 @@ Le *facteur de proportionnalité* est le rapport numérique de deux grandeurs qu
 
 ## Loi d'Ohm
 
-La résistance est le *rapport de la tension et du courant*
+La résistance est le *rapport entre la tension et le courant*
 
 $ R = \dfrac{U}{I} $
 
 <note>
-Le physicien allemand *Georg Simon Ohm* a découvert en 1826 la relation entre la tension électrique, le courant électrique et la résistance. En son honneur, la formule $ R = \frac{U}{I} $ est appelée la Loi d'Ohm.
+Le physicien allemand *Georg Simon Ohm* a découvert en 1826 la relation entre la tension électrique, le courant électrique et la résistance. En son honneur, la formule $ R = \frac{U}{I} $ est appelée loi d'Ohm.
 </note>
 
 ---
@@ -60,7 +60,7 @@ Le physicien allemand *Georg Simon Ohm* a découvert en 1826 la relation entre l
 
 ---
 
-## Réarrangement de la formule
+## Réarrangement des formules
 
 <left>
 * Tension et résistance connues
@@ -69,13 +69,13 @@ Le physicien allemand *Georg Simon Ohm* a découvert en 1826 la relation entre l
 $ I = \dfrac{U}{R} $
 </left>
 <right>
-* Courant et résistance connus
+* Courant et résistance connues
 * Tension inconnue
 
 $ U = R\cdot I $
 </right>
 <note>
-* Les formules sont dans le recueil de formules
+* Les formules sont disponibles dans le recueil de formules
 </note>
 
 ---

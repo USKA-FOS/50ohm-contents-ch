@@ -1,49 +1,49 @@
 <left>
-[photo:268:a_I eilt vor:Phasenverschiebung am Kondensator zwischen Spannung und Strom]
+[photo:268:a_I eilt vor:Déphasage entre tension et courant dans un condensateur]
 </left>
 <right>
-* Phasenverschiebung de $\qty{90}{\degree}$
+* Déphasage de $\qty{90}{\degree}$
 * Le courant précède la tension
 </right>
 <note>
-Notez : Condensateuuuur, le courant précède !
+À retenir : Condensateeeeur, le courant précède !
 </note>
 ---
 [question:AC101]
 ---
 ### Puissance active
 <left>
-[picture:943:a_Blindleistung Kondensator:Das Produkt von $U \cdot I$ ergibt die grüne Leistungskurve]
+[picture:943:a_Blindleistung Kondensator:Le produit de $U \cdot I$ donne la courbe de puissance en vert]
 </left>
 <right>
-* La courbe de puissance verte est le produit du courant et de la tension
-* La puissance oscille symétriquement autour de la ligne de zéro et s'équilibre
-* *Puissance réactive* sur une *résistance réactive*
+* La courbe de puissance en vert est le produit du courant et de la tension
+* La puissance oscille symétriquement autour de la ligne zéro et s'annule
+* *Puissance réactive* aux bornes d'une *réactance*
 </right>
 ---
 [question:AC111]
 <note>
-À l'état stable, presque aucun courant ne circule plus, c'est pourquoi la puissance est également presque de 0W.
+En régime établi, le courant est presque nul, ce qui explique que la puissance est également quasi nulle (0 W).
 </note>
 ---
-* La puissance active n'est convertie que dans une résistance ohmique (courant et tension en phase)
-* La résistance réactive n'absorbe pas d'énergie active
-* Ne chauffe donc pas
-* Un condensateur chaud à haute fréquence a une composante ohmique et doit être remplacé
+* La puissance active n'est dissipée que dans une résistance ohmique (courant et tension en phase)
+* Une réactance ne consomme pas d'énergie active
+* Elle ne chauffe donc pas
+* Un condensateur chaud en haute fréquence présente une composante résistive et doit être remplacé
 
 ---
 [question:AC103]
 
 --- style="font-size: smaller;"
-### Résistance réactive capacitive $X_{\textrm{C}}$
+### Réactance capacitive $X_{\textrm{C}}$
 
-Le condensateur est constamment chargé et déchargé lorsqu'il est connecté à une tension alternative $\rightarrow$ résistance au courant alternatif / résistance réactive capacitive
+Un condensateur connecté à une tension alternative est constamment chargé et déchargé $\rightarrow$ impédance / réactance capacitive
 
 <fragment>
-1. Si la fréquence de la tension alternative à un condensateur est augmentée, alors plus de courant circule ; cela signifie que la résistance réactive capacitive est devenue plus petite.
+1. Si la fréquence de la tension alternative aux bornes d'un condensateur augmente, le courant augmente ; cela signifie que la réactance capacitive diminue.
 </fragment>
 <fragment>
-2. Si la capacité du condensateur est augmentée, alors le courant augmente également, c'est-à-dire que la résistance réactive diminue également.
+2. Si la capacité du condensateur augmente, le courant augmente également, c'est-à-dire que la réactance diminue aussi.
 </fragment>
 
 <fragment>
@@ -51,14 +51,14 @@ $X_{\textrm{C}} = \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot f \cdot C}$
 </fragment>
 
 <note>
-Un VNA mesure la variation de la résistance réactive $X_C$ en fonction de la fréquence
+Un analyseur de réseau mesure la variation de la réactance $X_C$ en fonction de la fréquence
 </note>
 ---
 [question:AC102]
 ---
 [question:AC104]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $C = \qty{10}{\pico\farad}$
 * donné : $f = \qty{100}{\mega\hertz}$
 * recherché : $X_{\textrm{C}}$
@@ -70,7 +70,7 @@ $\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot 
 ---
 [question:AC105]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $C = \qty{50}{\pico\farad}$
 * donné : $f = \qty{145}{\mega\hertz}$
 * recherché : $X_{\textrm{C}}$
@@ -81,7 +81,7 @@ $\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot 
 ---
 [question:AC106]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $C = \qty{100}{\pico\farad}$
 * donné : $f = \qty{100}{\mega\hertz}$
 * recherché : $X_{\textrm{C}}$
@@ -93,7 +93,7 @@ $\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot 
 ---
 [question:AC107]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $C = \qty{100}{\pico\farad}$
 * donné : $f = \qty{435}{\mega\hertz}$
 * recherché : $X_{\textrm{C}}$
@@ -105,7 +105,7 @@ $\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} = \frac{1}{2\pi \cdot 
 ---
 [question:AC108]
 ---
-#### Solution
+#### Méthode de résolution
 <left>
 * donné : $U = \qty{16}{\volt}$
 * donné : $I = \qty{32}{\milli\ampere}$
@@ -124,14 +124,15 @@ $\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} \\ \Rightarrow C &= \f
 </fragment>
 
 ---
-### Pertes de condensateur
+### Pertes dans un condensateur
 
 <left>
-[photo:260:a_Kondensator Ersatzschaltbild:Ersatzschaltbild eines realen Kondensators mit einem seriellen Verlustwiderstand (ESR).]
+[photo:260:a_Kondensator Ersatzschaltbild:Schéma équivalent d'un condensateur réel avec une résistance de perte série (ESR).]
 </left>
 <right>
-* Facteur de perte<br/>$\tan(\delta) = \frac{R}{X_C}$
-* Pertes dans le diélectrique et le câblage
+* Facteur de perte
+$\tan(\delta) = \frac{R}{X_C}$
+* Pertes dans le diélectrique et les connexions
 </right>
 
 ---

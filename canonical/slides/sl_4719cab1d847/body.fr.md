@@ -1,20 +1,20 @@
 <left>
-* Le signal radio arrive au récepteur par plus d'un chemin depuis l'émetteur
-* Réflexion sur les bâtiments, le terrain, les avions, etc.
-* Réfraction dans l'ionosphère pour les ondes courtes
-* Conduit à une interférence avec amplification ou annulation du signal
+* Le signal radio parvient au récepteur par plus d'un chemin
+* Réflexion sur des bâtiments, le relief, des avions, etc.
+* Réfraction dans l'ionosphère en ondes courtes
+* Conduit à des interférences avec amplification ou annulation du signal
 </left>
 <right>
-[picture:1064:a_mehrwegeausbreitung_reflexion:Propagation multi-trajets par réflexion]
+[picture:1064:a_mehrwegeausbreitung_reflexion:Propagation par trajets multiples par réflexion]
 </right>
 
 ---
 
 <left>
-* Le signal radio arrive au récepteur par plus d'un chemin depuis l'émetteur
-* Réflexion sur les bâtiments, le terrain, les avions, etc.
-* Réfraction dans l'ionosphère pour les ondes courtes
-* Conduit à une interférence avec amplification ou annulation du signal
+* Le signal radio parvient au récepteur par plus d'un chemin
+* Réflexion sur des bâtiments, le relief, des avions, etc.
+* Réfraction dans l'ionosphère en ondes courtes
+* Conduit à des interférences avec amplification ou annulation du signal
 </left>
 <right>
 [include:applet_interferenz]
@@ -22,9 +22,9 @@
 
 ---
 
-* En cas de mouvement supplémentaire (fonctionnement en voiture, réfraction sur l'avion, changement dans l'ionosphère), le signal total dans le récepteur change constamment
-* Intensité du signal fluctuante $\rightarrow$ *évanouissement*, *fading* ou *QSB*
-* Distorsion du signal et compréhension plus difficile
+* En cas de mouvement supplémentaire (utilisation en voiture, réfraction dans un avion, variation dans l'ionosphère), le signal reçu au récepteur change constamment
+* Intensité du signal fluctuante $\rightarrow$ *affaiblissement*, *fading* ou *QSB*
+* Distorsions du signal et compréhension altérée
 
 ---
 

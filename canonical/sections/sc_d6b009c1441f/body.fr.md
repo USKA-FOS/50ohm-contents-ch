@@ -1,21 +1,28 @@
+% Fusionner 1.6 + 4.4 (supprimer l'un des deux) ou les séparer plus clairement. Séparation claire discutée avec EXR et YPA.
+
 %<margin>
-%[photo:57:n_ausbildungsrufzeichen_ausbildungsfunkbetrieb:Ausbildungsfunkbetrieb verbindet oft die Generationen]
+%[photo:57:n_ausbildungsrufzeichen_ausbildungsfunkbetrieb:Le trafic radio de formation relie souvent les générations]
 %</margin>
-% Wir haben leider kein gesichertes Einverständnis der Personen... TODO neues bild.
+% Nous n'avons malheureusement pas obtenu de consentement écrit des personnes... TODO nouvelle image.
+% La photo 57 provient du DARC. YPA pourrait éventuellement fournir une image appropriée, si souhaité, avec 3 générations.
 
-Comme nous l'avons déjà appris au début du cours, chaque radioamateur agréé en Allemagne des classes E et A est automatiquement également formateur. L'utilisation du suffixe d'indicatif d'appel "/T" ou "/Trainee" transforme chaque indicatif d'appel lié à une personne en un indicatif d'appel de formation. Il en va de même pour les indicatifs d'appel des stations de club. L'apprenti peut ainsi effectuer des opérations radio sous supervision et dans le cadre des autorisations de l'instructeur. 
+Comme nous l'avons appris dès le début du cours dans la section [sec:ausbildungsfunk], l'indicatif d'une station de club peut être utilisé pour la formation, à condition qu'une *autorisation d’émettre* soit obtenue. L'apprenti peut ainsi effectuer des communications radio sous la supervision constante d'un radioamateur CEPT (HB9).
+% Actuellement, cette formulation n'est pas tout à fait exacte : l'apprenti doit agir sous la supervision et dans le cadre des autorisations de l'instructeur.
 
-[question:VD302]
+---
+<law>
+[Fiche OFCOM 1.2 Autorisation d’émettre pour les personnes sans certificat de capacité](https://www.bakom.admin.ch/fr/amateurfunk#Merkblatt-Amateurfunk)
+
+[Demander une autorisation d’émettre auprès de l'OFCOM](https://www.bakom.admin.ch/fr/amateurfunk#Gesuch-Sprecherlaubnis-f%C3%BCr-Funkamateurclubs)
+</law>
+
+Le club doit obtenir une autorisation écrite (autorisation d’émettre ou autorisation de transmission) auprès de l'OFCOM au moins deux semaines à l'avance. Les responsables de station doivent être clairement désignés dans la demande.
+
+L'apprenti utilise ensuite l'indicatif du club et ajoute le suffixe "operator" suivi de son prénom. Par exemple, un apprenti du club HB9FZ s'annonce comme "HB9FZ operator Hans". Cela permet aux autres de savoir qu'un apprenti est en train d'émettre.
+
+Si le club participe à un concours sous son indicatif, le nom de l'opérateur n'a pas besoin d'être transmis.
+[question:BD210]
+[question:BD209]
 [question:BD211]
-[question:VD304]
-[question:BD210] 
 
-L'exploitation radio de formation est destinée aux personnes qui ne sont pas titulaires d'un certificat d'opérateur radioamateur correspondant. L'indicatif d'appel de formation ne doit pas être utilisé par l'instructeur lui-même pour ses propres émissions. L'exploitation radio de formation sert à la préparation pratique pour passer l'examen technique en vue de l'obtention d'un certificat d'opérateur radioamateur.
-
-[question:VD301]
-
-L'instructeur doit toujours se trouver à proximité immédiate de l'apprenti et le guider dans l'utilisation de l'appareil radio et dans le déroulement des opérations. En effet, seule la présence à proximité immédiate permet à l'instructeur d'intervenir de manière régulatrice dans l'exploitation radio de formation. Cela peut, dans le cas extrême, signifier l'arrêt de l'émetteur. La supervision d'un apprenti à une plus grande distance ou par radio, depuis un autre site, n'est pas autorisée. En effet, dans ce cas, la direction et la surveillance immédiates ne sont pas garanties.
-
-Si la BNetzA le demande, l'instructeur doit fournir à l'autorité des informations sur "la nature et l'étendue" de l'exploitation de formation.
-
-[question:VD305] 
+% Explication pour BD211 ?

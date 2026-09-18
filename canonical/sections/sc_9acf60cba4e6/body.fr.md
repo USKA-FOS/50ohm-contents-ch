@@ -1,4 +1,4 @@
-Un *saut* (ou *hop* en anglais) est le trajet de l'onde spatiale d'un signal radio de l'antenne émettrice jusqu'au retour à la surface de la terre, une réfraction dans l'ionosphère ayant eu lieu entre les deux. La distance ainsi franchie peut être déterminée de manière purement géométrique et dépend de la hauteur à laquelle se trouve la région réfractante et de l'angle (par rapport à la surface de la terre) sous lequel le signal est émis par l'antenne émettrice. Plus cet angle est plat et plus la région réfractante est élevée, plus la distance de saut est grande. 
+Un *saut* (ou *bond* en anglais) est le trajet de l’onde spatiale d’un signal radio depuis l’antenne d’émission jusqu’à son retour à la surface de la terre, après une réfraction dans l’ionosphère. La distance ainsi parcourue peut être déterminée géométriquement et dépend de la hauteur de la région de réfraction ainsi que de l’angle d’émission du signal par rapport à la surface terrestre. Plus cet angle est faible et plus la région de réfraction est élevée, plus la distance de saut est grande.
 
 <indepth>
 [include:sprungdistanz_applet]

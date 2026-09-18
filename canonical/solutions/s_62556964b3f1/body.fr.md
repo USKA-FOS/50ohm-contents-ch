@@ -1,4 +1,4 @@
-Ici, nous utilisons la formule du circuit oscillant de Thomson. Remarque : la résistance à l'intérieur du circuit oscillant n'a pas d'importance pour le calcul de la fréquence de résonance !
+Ici, nous utilisons la formule du circuit oscillant de Thomson. Remarque : la résistance à l’intérieur du circuit oscillant n’a aucune incidence sur le calcul de la fréquence de résonance !
 
 $f = \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}$
 

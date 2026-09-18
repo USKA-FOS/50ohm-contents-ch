@@ -13,8 +13,8 @@
 ## Alimentation en tension pour les multiples pairs
 
 * Pour les multiples pairs : alimentation en tension  
-* Le point d'alimentation se situe au ventre de tension  
-* Génère une tension élevée au lieu d'un courant
+* Point d'alimentation situé au ventre de tension  
+* Produit une tension élevée au lieu d'un courant
 
 ---
 

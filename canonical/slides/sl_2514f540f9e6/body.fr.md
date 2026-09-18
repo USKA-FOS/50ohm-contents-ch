@@ -2,9 +2,9 @@
 [picture:965:a_brueckenlgeichrichter:Redresseur en pont]
 </left>
 <right>
-* Schéma de redressement étendu et fréquent
+* Circuit redresseur étendu et fréquent
 * Les deux demi-ondes sont utilisées
-* Tension continue pulsée à la sortie avec une fréquence double de celle de la tension d'entrée
+* Tension continue pulsée en sortie avec une fréquence double par rapport à la tension d’entrée
 </right>
 --- style="font-size: smaller;"
 [include:applet_gleichrichter_2]
@@ -14,11 +14,11 @@
 ---
 ### Filtrage
 <left>
-[picture:66:a_netzteil_Ucs:Schéma de redressement avec filtrage]
+[picture:66:a_netzteil_Ucs:Circuit redresseur avec filtrage]
 </left>
 <right>
-* Avec condensateur de charge $C_L$ et filtre LC avec $C_S$
-* Amplitudes plus petites de la tension continue pulsée
+* Avec condensateur de charge $C_L$ et cellule de filtrage LC avec $C_S$
+* Amplitudes plus faibles de la tension continue pulsée
 * Les condensateurs se chargent à la tension de crête secondaire
 </right>
 <note>
@@ -26,16 +26,16 @@
 ---
 [question:AD306]
 ---
-#### Méthode de solution
+#### Méthode de résolution
 * donné : $U_P = \qty{230}{\volt}$
-* donné : $ü = 8:1$
+* donné : $r = 8:1$
 * donné : $U_D = \qty{0,6}{\volt}$
 * recherché : $\hat{U}$
 
 <fragment>
-$ü = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{ü} = \frac{\qty{230}{\volt}}{8} = \qty{28,75}{\volt}$
+$r = \frac{U_P}{U_S} \Rightarrow U_S = \frac{U_P}{r} = \frac{\qty{230}{\volt}}{8} = \qty{28,75}{\volt}$
 </fragment>
 <fragment>
-En circuit ouvert, la tension de la diode peut être négligée.
+En circuit ouvert, la chute de tension aux bornes de la diode peut être négligée.
 $\hat{U} = U_S \cdot \sqrt{2} = \qty{28,75}{\volt} \cdot 1,41 \approx \qty{40}{\volt}$
 </fragment>

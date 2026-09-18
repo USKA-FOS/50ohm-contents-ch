@@ -1,12 +1,12 @@
 <left>
-* Un certificat de localisation peut être délivré *sur demande et moyennant des frais* par l'OFCOM
-* Le radioamateur doit fournir toutes les informations et documents nécessaires pour le calcul
+* Une attestation de site remplace l’affichage et peut être demandée *à titre onéreux* auprès de l’Agence fédérale des réseaux (BNetzA)
+* Le radioamateur doit fournir tous les documents et informations nécessaires au calcul
 </left>
 <right>
 <fragment>
 * Plan de situation
-* Plan de construction avec l'emplacement de montage des antennes
-* Informations sur le comportement d'émission de toutes les antennes
+* Plan de construction avec l’emplacement de montage des antennes
+* Informations sur le comportement de rayonnement de toutes les antennes
 </fragment>
 </right>
 
@@ -15,13 +15,10 @@
 
 ---
 
-## Certificat de localisation obligatoire
- 
-Un certificat de localisation est obligatoire si, à l'emplacement de la station radioamateur fixe prévue, se trouvent déjà des installations radio fixes qui nécessitent elles-mêmes un certificat de localisation.
+## Attestation de site obligatoire
 
-<note>
-Installations commerciales, par exemple la téléphonie mobile
-</note>
+* Sur le site de l’installation radioamateur se trouve déjà une installation radio fixe nécessitant une attestation de site
+* Par exemple, des installations commerciales comme la téléphonie mobile
 
 ---
 [question:VE519]

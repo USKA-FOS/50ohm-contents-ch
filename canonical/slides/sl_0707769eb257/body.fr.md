@@ -5,33 +5,33 @@
 
 ## Oscillateur LC
 <left>
-* Génération d'oscillations avec une bobine et un condensateur en tant que circuit oscillant
+* Génération d'oscillations à l'aide d'une bobine et d'un condensateur formant un circuit oscillant
 * Un condensateur chargé se décharge dans la bobine
 * Une bobine chargée se décharge dans le condensateur
-* Selon les valeurs des composants à une certaine fréquence
+* Selon les valeurs des composants, à une fréquence déterminée
 </left>
 <right>
-[picture:755:e_parallelschwingkreis_cl:Circuit oscillant parallèle composé d'un condensateur et d'une bobine]
+[picture:755:e_parallelschwingkreis_cl: Circuit oscillant parallèle composé d'un condensateur et d'une bobine]
 </right>
 <note>
 * Le circuit oscillant est un sujet très important !
-* La fréquence de résonance f<sub>0</sub> de la collection de formules est un sujet de classe A
+* La fréquence de résonance $f_0$ du recueil de formules fait partie du programme de la classe A
 </note>
 
 ---
 [question:ED501]
 ---
 
-### Stabilité thermique
+### Stabilité en température
 <left>
-* Les composants passifs ont des valeurs différentes lorsque la température change
+* Les composants passifs voient leurs valeurs varier avec la température
 </left>
 <right>
-* Fréquence plus élevée avec une *plus petite* capacité ou inductance
-* Fréquence plus basse avec une *plus grande* capacité ou inductance
+* Fréquence plus élevée pour une *plus faible* capacité ou inductance
+* Fréquence plus basse pour une *plus grande* capacité ou inductance
 </right>
 <note>
-* Cela pourrait être merveilleusement expliqué par la formule pour f<sub>0</sub>, mais qui n'est pas encore connue
+* Cela pourrait s'expliquer parfaitement avec la formule de $f_0$, mais celle-ci n'est pas encore connue
 </note>
 
 ---
@@ -47,13 +47,13 @@
 
 ---
 ## Oscillateur à quartz
-* Génération d'oscillations avec du quartz (dioxyde de silicium $SiO_2$)
+* Génération d'oscillations à l'aide d'un quartz (dioxyde de silicium $SiO_2$)
 * Effet piézoélectrique inverse sur un cristal de quartz
-* Le quartz est excité en oscillation stable par un oscillateur LC (médiocre)
-* Meilleure stabilité de fréquence
+* Le quartz est excité pour osciller de manière stable avec un (mauvais) oscillateur LC
+* Meilleure stabilité en fréquence
 
 <note>
-En anglais avec t : Quartz
+En anglais, quartz s'écrit avec un *t* : Quartz
 </note>
 
 ---
@@ -63,8 +63,8 @@ En anglais avec t : Quartz
 
 ---
 ## Rayonnement
-* Éviter
-* Blindage par un boîtier métallique
+* À éviter
+* Blindage par boîtier métallique
 
 ---
 [question:EF207]

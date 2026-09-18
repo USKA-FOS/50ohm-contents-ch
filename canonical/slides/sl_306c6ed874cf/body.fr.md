@@ -1,22 +1,22 @@
-* En particulier dans la gamme des micro-ondes, des antennes paraboliques ou hélicoïdales sont utilisées
+* En particulier dans le domaine des micro-ondes, on utilise des antennes paraboliques ou hélicoïdales
 * Gain d'antenne élevé
-* Une faible puissance d'entrée devient une puissance de rayonnement élevée
-* $\qty{20}{\dB}$ sont courants $\rightarrow\qty{1}{\watt}$ puissance d'émission devient $\qty{100}{\watt}$ puissance de rayonnement
+* Une faible puissance d'entrée permet d'obtenir une puissance rayonnée élevée
+* $\qty{20}{\dB}$ sont courants $\rightarrow$ une puissance d'émission de $\qty{1}{\watt}$ donne une puissance rayonnée de $\qty{100}{\watt}$
 
 <note>
-* 20dB = Facteur 100
+* 20 dB = facteur 100
 </note>
 
 ---
-* Champs électromagnétiques élevés dans le lobe de rayonnement
+* Champs électromagnétiques intenses dans le lobe de rayonnement
 * Danger pour le corps, en particulier les yeux, le cerveau et les testicules
 * Peut entraîner des maladies de ces organes
 * Le rayonnement n'est pas directement perceptible
-* *Il faut éviter de se trouver dans le trajet direct des antennes d'émission !*
+* *Il est interdit de séjourner dans le trajet direct des ondes des antennes d'émission !*
 
 ---
 [question:EK201]
 
 <note>
-* En raison des distracteurs très divertissants, certaines réponses peuvent être exclues directement
+* En raison des distracteurs très amusants, certaines réponses peuvent être directement exclues
 </note>

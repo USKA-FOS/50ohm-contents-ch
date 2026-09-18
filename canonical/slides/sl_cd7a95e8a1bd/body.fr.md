@@ -1,19 +1,19 @@
-## Formule approchée pour l'intensité de champ
+## Formule d'approximation pour l'intensité de champ
 <left>
 * Calcul de l'intensité de champ électrique
-* À une distance d'un émetteur
-* Avec une puissance et un gain donnés
-* Valable uniquement dans l'espace libre <br/> ($d > \frac{\lambda}{2\pi}$)
+* À une distance donnée d'un radiateur
+* Pour une puissance et un gain donnés
+* Valable uniquement en espace libre <br/> ($d > \frac{\lambda}{2\pi}$)
 </left>
 <right>
 $\begin{split} E &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{d} \end{split}$
 </right>
 
 ---
-## Formule approchée pour la distance
+## Formule d'approximation pour la distance
 <left>
-* Avec une intensité de champ donnée
-* Réarrangement pour $d$
+* Pour une intensité de champ donnée
+* Résolution par rapport à $d$
 </left>
 <right>
 $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{E}\\ &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E} \end{split}$
@@ -22,16 +22,16 @@ $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{E}\\ &= \d
 ---
 [question:EK108]
 ---
-### Solution
+### Méthode de résolution
 <left>
-* donné: $E = \qty{28}{\volt\per\meter}$
-* donné: $g_d = \qty{7,5}{\dBd}$
-* donné: $P_S = \qty{100}{\watt}$
+* donné : $E = \qty{28}{\volt\per\meter}$
+* donné : $g_d = \qty{7,5}{\dBd}$
+* donné : $P_S = \qty{100}{\watt}$
 </left>
 <right>
-* donné: $a_{\textrm{Kabel}} = \qty{1,5}{\dB}$
-* recherché: $P_{\textrm{EIRP}}$
-* recherché: $d$
+* donné : $a_{\textrm{câble}} = \qty{1,5}{\dB}$
+* recherché : $P_{\textrm{EIRP}}$
+* recherché : $d$
 </right>
 
 <left>
@@ -48,7 +48,7 @@ $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E}\\ &
 ---
 ### Question bonus
 
-Les $\qty{5}{\meter}$ calculés ne sont-ils pas dans le champ proche pour la bande de $\qty{10}{\meter}$ de la question?
+Les $\qty{5}{\meter}$ calculés ne se situent-ils pas dans le champ proche pour la bande des $\qty{10}{\meter}$ mentionnée dans la question ?
 
 <fragment>
 $\begin{split} d &> \frac{\lambda}{2\pi}\\ \qty{5}{\meter} &> \frac{\qty{10}{\meter}}{2\pi}\\ \qty{5}{\meter} &\gtrapprox \qty{1,6}{\meter} \end{split}$
@@ -61,13 +61,12 @@ $\begin{split} d &> \frac{\lambda}{2\pi}\\ \qty{5}{\meter} &> \frac{\qty{10}{\me
 
 * La distance de sécurité pour la protection des personnes ne s'applique qu'en espace libre
 * $d > \frac{\lambda}{2\pi}$
-* Bande de $\qty{160}{\meter}$: $\qty{25,5}{\meter}$
-* Bande de $\qty{80}{\meter}$: $\qty{12,7}{\meter}$
+* Bande des $\qty{160}{\meter}$ : $\qty{25,5}{\meter}$
+* Bande des $\qty{80}{\meter}$ : $\qty{12,7}{\meter}$
 
 ---
 [question:EK105]
 
 <note>
-Se trouve dans le champ proche, comme nous l'avons calculé précédemment
+Se situe dans le champ proche, comme nous l'avons calculé précédemment
 </note>
-

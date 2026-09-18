@@ -1,10 +1,10 @@
 ## Conducteur parcouru par un courant
 
 <left>
-* Un courant circulant dans un conducteur crée des champs magnétiques concentriques autour du conducteur
+* Lorsqu’un courant traverse un conducteur, des champs magnétiques concentriques se forment autour de celui-ci
 </left>
 <right>
-Grafik eines stromdurchflossenen Leiters mit konzentrischen magnetischen Feldlinien kommt noch
+Graphique d’un conducteur parcouru par un courant avec des lignes de champ magnétique concentriques à venir
 </right>
 ---
 [question:EB201]
@@ -12,15 +12,15 @@ Grafik eines stromdurchflossenen Leiters mit konzentrischen magnetischen Feldlin
 ## Champ magnétique homogène
 
 <left>
-* Si un conducteur parcouru par un courant est enroulé en une bobine cylindrique, un champ magnétique homogène (*champ H*) est créé à l'intérieur
-* Une bobine stocke de l'énergie magnétique
+* Lorsqu’un conducteur parcouru par un courant est enroulé en une bobine cylindrique, un champ magnétique homogène (*champ H*) se forme à l’intérieur
+* Une bobine stocke de l’énergie magnétique
 </left>
 <right>
-[picture:50:e_h_feld_spule:Magnetische Feldlinien in einer Zylinderspule]
-* Unité : $\unit{\ampere\per\meter}$
+[picture:50:e_h_feld_spule:Lignes de champ magnétique dans une bobine cylindrique]
+* Unité : $\unit{\ampère\par\mètre}$
 </right>
 <note>
-* Champ H de l'intensité de champ magnétique H quelques diapositives plus loin
+* Le champ H, ou intensité de champ magnétique, sera abordé dans quelques diapositives
 </note>
 
 ---
@@ -28,41 +28,41 @@ Grafik eines stromdurchflossenen Leiters mit konzentrischen magnetischen Feldlin
 ---
 [question:EA104]
 ---
-## Anneau de fer
+## Noyau toroïdal
 
 <left>
-* Le conducteur est enroulé sur un noyau magnétique annulaire, par exemple en fer
-* Avantages : Économise de la place et plus stable
+* Le conducteur est enroulé autour d’un noyau magnétique en anneau, par exemple en fer
+* Avantages : gain de place et stabilité accrue
 </left>
 <right>
-[picture:40:e_ringkern:Ringkernspule]
+[picture:40:e_ringkern:Bobine à noyau toroïdal]
 </right>
 
 ---
 <left>
-* Intensité de champ magnétique $H = \dfrac{I\cdot N}{l_m}$ en $\unit{\ampere\per\meter}$
-* avec $N$ comme nombre de spires et $l_m$ longueur moyenne de l'anneau
+* Intensité de champ magnétique $H = \dfrac{I\cdot N}{l_m}$ en $\unit{\ampère\par\mètre}$
+* avec $N$ comme nombre de spires et $l_m$ longueur moyenne de l’anneau
 </left>
 <right>
-[picture:40:e_ringkern:Ringkernspule]
+[picture:40:e_ringkern:Bobine à noyau toroïdal]
 </right>
 
 ---
 [question:EB203]
 <note>
-* Calculer la circonférence du cercle comme longueur moyenne de l'anneau avec le diamètre
+* Calculer la longueur moyenne de l’anneau à partir de la circonférence avec le diamètre
 * $l_m = \pi \cdot d$
 </note>
 ---
 
-## Champ magnétique d'une antenne
+## Champ magnétique d’une antenne
 
 <left>
-* Le champ magnétique autour du conducteur agit sur une antenne
-* Ici, sur une antenne verticale, concentrique autour de l'antenne
+* Autour d’une antenne, le champ magnétique agit autour du conducteur
+* Ici, autour d’une antenne verticale, de manière concentrique autour de l’antenne
 </left>
 <right>
-[picture:192:e_vertikalantenne_magnetfeld:Magnetfeld an einer Vertikalantenne]
+[picture:192:e_vertikalantenne_magnetfeld:Champ magnétique autour d’une antenne verticale]
 </right>
 ---
 [question:EB206]

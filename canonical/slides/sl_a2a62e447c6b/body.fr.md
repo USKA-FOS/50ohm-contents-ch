@@ -1,28 +1,28 @@
-* Les émetteurs puissants entraînent différentes perturbations et influences sur les appareils et installations électroniques
-* Objectif : éviter les perturbations ou éliminer les causes par des mesures contraires
+* Les émetteurs puissants entraînent divers types de perturbations et d’afflux sur les appareils et installations électroniques
+* Objectif : éviter les perturbations ou éliminer leurs causes par des mesures correctives
 
 ---
-## Entrée
+## Afflux
 
-* Les hautes fréquences pénètrent dans un appareil par des lignes ou des câbles
-* Par exemple, via la ligne secteur, la ligne d'antenne, les câbles de haut-parleur
+* La haute fréquence pénètre dans un appareil par des lignes ou câbles
+* Par exemple via la ligne secteur, la ligne d’antenne, les câbles de haut-parleur
 
 ---
 [question:EJ101]
 ---
-## Irradiation
+## Rayonnement parasite
 
-* Les hautes fréquences pénètrent dans l'électronique en raison de boîtiers insuffisamment blindés
-* Y provoquent des perturbations
+* La haute fréquence pénètre dans l’électronique en raison d’un boîtier insuffisamment blindé
+* Provoque des perturbations à cet endroit
 
 ---
 [question:EJ102]
 ---
-## Influence perturbatrice
+## Perturbations gênantes
 
-* Peut survenir malgré le fonctionnement conforme à la loi d'un émetteur chez le récepteur à proximité
-* Les commandes de porte de garage ou les clés de voiture sans fil ne fonctionnent plus comme d'habitude
-* Perturbation des lumières LED
+* Peut survenir malgré un fonctionnement conforme à la loi d’un émetteur, au niveau d’un récepteur situé à proximité
+* Les commandes de portes de garage ou les clés de voiture radio ne fonctionnent plus comme prévu
+* Perturbation des éclairages LED
 
 ---
 [question:EJ103]
@@ -33,26 +33,26 @@
 ---
 ## Intermodulation
 
-* En cas de présence de plusieurs signaux reçus puissants
-* Par exemple, un émetteur de télévision et une station radioamateur puissante à proximité
-* Provoque des harmoniques supérieures indésirables et leurs produits de mélange
-* Des signaux fantômes sont générés par l'intermodulation
+* En présence de plusieurs signaux de réception puissants
+* Par exemple, émetteurs TV et station radioamateur puissante dans le voisinage
+* Provoque des harmoniques indésirables et leurs produits de mélange
+* L’intermodulation génère des signaux fantômes
 
 ---
 [question:EJ120]
 ---
 ## Oxydation
 
-* Les contacts corrodés (oxydes métalliques) entre les métaux forment des non-linéarités par des effets de redressement
-* Produits de mélange indésirables sur le côté émission et réception
-* Peut entraîner des perturbations dans la réception de la télévision et de la radio
+* Les contacts corrodés (oxydes métalliques) entre métaux forment des non-linéarités par effet de redressement
+* Produits de mélange indésirables côté émission et réception
+* Peut entraîner des perturbations dans la réception TV et radio
 
 ---
 [question:EJ121]
 ---
-## Puissance d'émission requise
+## Puissance d’émission requise
 
-* Utiliser toujours la puissance d'émission nécessaire pour une communication satisfaisante
+* Utiliser uniquement la puissance d’émission nécessaire pour une communication satisfaisante
 * Pour éviter les perturbations des appareils
 
 ---
@@ -60,11 +60,11 @@
 ---
 [question:EJ105]
 ---
-## Surcharge
+## Surmodulation
 
-* Fortes intensités de champ dues à de fortes puissances d'émission ou dans la zone de rayonnement d'une antenne
-* Les récepteurs et les étages de réception peuvent être surchargés
-* Réduit la sensibilité du récepteur jusqu'au blocage
+* Champs de haute intensité dus à des puissances d’émission élevées ou à la zone de rayonnement d’une antenne
+* Les récepteurs et étages de réception peuvent être surmodulés
+* Réduit la sensibilité du récepteur, voire le bloque
 
 ---
 [question:EJ106]
@@ -73,8 +73,8 @@
 ---
 ## Autres mesures
 
-* La réduction de la puissance d'émission ne conduit pas toujours au succès
-* L'appareil perturbé ou la ligne d'alimentation pourrait ne pas être suffisamment blindé
+* La réduction de la puissance d’émission ne mène pas toujours au succès
+* L’appareil perturbé ou la ligne d’alimentation pourrait ne pas être suffisamment blindé
 
 ---
 [question:EJ108]
@@ -83,20 +83,20 @@
 ---
 [question:EJ111]
 ---
-## Aide au voisinage
+## Aide de voisinage
 
-* Offrir de l'aide au voisin
-* Ne faire appel à l'autorité qu'en dernier recours
+* Proposer de l’aide au voisin
+* Ne faire appel à l’autorité qu’en dernier recours
 
 ---
 [question:EJ124]
 ---
 ## Filtres
 
-* À installer à la fois du côté de l'appareil perturbateur et du côté de l'appareil perturbé
-* Supprimer les émissions d'harmoniques supérieures
-* Passe-haut ou passe-bande du côté du récepteur
-* La surcharge est minimisée
+* Installer des filtres aussi bien du côté de l’appareil perturbateur que de l’appareil perturbé
+* Supprimer les émissions d’harmoniques
+* Passe-haut ou passe-bande du côté récepteur
+* La surmodulation est minimisée
 
 ---
 [question:EJ116]
@@ -104,13 +104,13 @@
 [question:EJ117]
 ---
 
-## Barrières d'ondes de surface
+## Selfs de blindage
 
-* Le signal d'émission de la station radioamateur est couplé dans les récepteurs ou les appareils à proximité via le blindage des lignes coaxiales ou des lignes d'alimentation
-* Installer des *barrières d'ondes de surface* dans les lignes d'alimentation des appareils
-* Appelé aussi *bobine d'arrêt*
-* Noyaux toroïdaux ou ferrites à pinces
-* Autre possibilité : utilisation de câbles de commande blindés
+* Le signal d’émission de la station radioamateur est couplé via l’écran des câbles coaxiaux ou des lignes d’alimentation dans les récepteurs ou appareils situés à proximité
+* Installer des *selfs de blindage* dans les lignes d’alimentation des appareils
+* Également appelées *bobines d’arrêt*
+* Noyaux toroïdaux ou ferrites à pince
+* Autre possibilité : utiliser des câbles de commande blindés
 
 ---
 [question:EJ118]
@@ -123,17 +123,17 @@
 ---
 ## Journal de bord
 
-* Si l'installation radio est suspectée d'être une source de perturbation
-* Preuve volontaire
-* Exclusion de l'installation radioamateur comme source de perturbation
+* Si l’installation de radioamateur est suspectée d’être à l’origine d’une perturbation
+* Tenir une preuve volontaire
+* Exclure l’installation de radioamateur comme source de perturbation
 
 ---
 [question:EJ122]
 ---
 ## Mauvaises conditions de réception
 
-* Par exemple, antenne intérieure pour la télévision
-* Utilisation d'une antenne extérieure avec des préfiltres correspondants
+* Par exemple, antenne TV intérieure pour la réception
+* Utiliser une antenne extérieure avec des préfiltres appropriés
 
 ---
 [question:EJ123]

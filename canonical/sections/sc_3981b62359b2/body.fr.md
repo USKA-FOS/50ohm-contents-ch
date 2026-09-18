@@ -1,21 +1,23 @@
-Comme nous l'avons appris dans l'introduction, seuls les radioamateurs peuvent émettre sur les fréquences radioamateurs. Il existe une exception, le trafic radio éducatif [index:Trafic radio éducatif]. Celui-ci permet aux non-radioamateurs d'émettre pour la formation sous la direction et la surveillance immédiates d'un radioamateur agréé de classe HB3 ou HB9.
+Les paragraphes 1.6 et 4.4 peuvent être fusionnés (en enlevant l’un des deux) ou mieux séparés. Une séparation claire a été discutée avec EXR et YPA.
 
-<tip>
-Les clubs de radioamateurs ont toujours une licence HB9. Mais les radioamateurs HB3 peuvent également former des non-radioamateurs à la station du club. Dans ce cas, cependant, seulement sur les fréquences et avec la puissance autorisées pour HB3.
-</tip>
+Le paragraphe 1.6 ne contient que des informations, sans questions.
 
-Pour cela, une autorisation de parole de l'OFCOM est nécessaire. Cette autorisation de parole n'est accordée qu'aux clubs de radioamateurs.
+Comme nous l’avons appris dans la section [sec:erste_schritte], seuls les radioamateurs sont autorisés à émettre sur les [fréquences](https://fr.wikipedia.org/wiki/Fréquence) radioamateur. Il existe une exception : le [trafic radio de formation](https://www.bakom.admin.ch/fr/amateurfunk#Merkblatt-Amateurfunk). Celui-ci permet à des personnes ne détenant pas de certificat de capacité d’utiliser, lors d’événements spécifiques et sous la surveillance constante d’un radioamateur CEPT (HB9), l’installation radio d’un club radioamateur.
 
----
-<tip>
-[Demander une autorisation de parole à l'OFCOM](https://www.bakom.admin.ch/de/amateurfunk#Gesuch-Sprecherlaubnis-f%C3%BCr-Funkamateurclubs)
-</tip>
+<indepth>Les clubs radioamateurs disposent toujours d’une autorisation HB9. Mais même les radioamateurs HB3 peuvent dispenser une formation à la station du club avec des non-radioamateurs. Ils doivent alors se limiter aux [fréquences](https://fr.wikipedia.org/wiki/Fréquence) et à la [puissance d'émission](https://fr.wikipedia.org/wiki/Puissance_d%27émission) autorisées pour les HB3.</indepth>
 
 
-Le stagiaire utilise l'indicatif du club et ajoute le suffixe "opérateur" et son prénom. Un stagiaire du club HB9FZ dit par exemple comme indicatif "HB9FR opérateur Hans". Ainsi, il est reconnaissable pour les autres qu'un stagiaire fonctionne.
+Pour cela, une [autorisation d’émettre](https://www.bakom.admin.ch/fr/amateurfunk#Merkblatt-Amateurfunk) de l’[OFCOM](https://www.bakom.admin.ch) est nécessaire. Seuls les clubs radioamateurs peuvent l’obtenir.
+Cela sera abordé plus en détail dans la section [sec:ausbildungsrufzeichen].
 
-[question:BD209] 
 
+<law>
+[Feuille d’information 1.2 de l’OFCOM](https://www.bakom.admin.ch/fr/amateurfunk#Merkblatt-Amateurfunk)
+</law>
 
-[question:VD303]
-[question:VD306]
+Le [trafic radio de formation](https://www.bakom.admin.ch/fr/amateurfunk#Merkblatt-Amateurfunk) s’adresse aux personnes *ne détenant pas* de certificat de capacité radioamateur. Il sert à la préparation pratique à l’examen en permettant d’appliquer les connaissances théoriques acquises. Il favorise également la « vie après l’examen » : car sans pratique, les connaissances théoriques seules ne suffisent pas pour opérer sur les ondes.
+
+L’instructeur doit toujours se trouver à proximité immédiate de l’apprenant et le guider dans l’utilisation de l’émetteur-récepteur et la gestion des communications. En effet, seule une présence immédiate permet à l’instructeur d’intervenir en cas de besoin, y compris en coupant l’émetteur si nécessaire. Il n’est pas autorisé de superviser un apprenant à distance ou par radio depuis un autre lieu, car cela ne garantit pas une guidance et une surveillance immédiates.
+% Aucune base légale explicite pour cette description précise. La feuille d’information 1.2 de l’OFCOM mentionne uniquement « sous surveillance constante ». Cependant, cette section est jugée pertinente.
+
+% Aucune base légale explicite pour cette description précise. La feuille d’information de l’OFCOM indique : « Les responsables de station désignés lors d’un événement doivent être clairement identifiés dans la demande. » Je ne sais pas comment l’OFCOM gère cela en cas de manquement. Le DARC précise que si l’Agence fédérale des réseaux l’exige, l’instructeur doit fournir à l’autorité des informations sur « la nature et l’étendue » de l’activité de formation.[question:VD305]

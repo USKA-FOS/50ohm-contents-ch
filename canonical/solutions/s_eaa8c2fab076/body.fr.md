@@ -1,4 +1,4 @@
-L'énergie stockée d'une batterie se calcule à partir de la tension multipliée par la capacité :
+L’énergie stockée d’un accumulateur se calcule à partir de la tension multipliée par la capacité :
 
 $W = U \cdot Q$
 
@@ -10,8 +10,8 @@ et
 
 $Q = \qty{5}{\ampere\hour}$
 
-Ainsi, on obtient :
+Il en résulte :
 
 $W = \qty{12}{\volt} \cdot \qty{5}{\ampere\hour} = \qty{60}{\watt\hour}$
 
-La batterie peut donc stocker une énergie de $\qty{60}{\watt\hour}$.
+L’accumulateur peut donc stocker une énergie de $\qty{60}{\watt\hour}$. 

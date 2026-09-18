@@ -1,52 +1,55 @@
-Qu'est-ce qu'un radioamateur peut faire et que les autres ne peuvent pas faire ? Tout le monde peut acheter et posséder un récepteur radioamateur (récepteur) pour le radioamateur, sans autorisation. Construire et connecter une installation d'antenne avec le récepteur ne pose aucun problème, tant que les prescriptions de construction sont respectées. De même, la réception des émissions radioamateurs - tout le monde peut le faire, sans avoir besoin d'une licence pour le radioamateur !
+Que peut faire un radioamateur que les autres ne peuvent pas faire ? Tout le monde peut acheter et posséder un récepteur pour le radioamateurisme sans autorisation. Il est également possible de construire une installation d'antenne et de la connecter au récepteur, à condition de respecter les prescriptions de construction. De même, la réception des émissions de radioamateur est autorisée à tous, sans qu'une licence de radioamateur soit nécessaire !
 
-Mais seul un radioamateur peut posséder un émetteur radioamateur (émetteur) et émettre sur les fréquences radioamateurs. 
+
+Mais seul un radioamateur a le droit de posséder un émetteur pour le radioamateurisme et d'émettre sur les fréquences radioamateurs.
+
 
 <tip>
-Le terme *émetteur-récepteur* [index:émetteur-récepteur] est formé des deux mots anglais pour émetteur (transmitter) et récepteur (receiver).
+Le terme *émetteur-récepteur* [index:émetteur-récepteur] est formé à partir des deux mots anglais *transmitter* (émetteur) et *receiver* (récepteur).
 </tip>
 
 ---
 
-Pour acquérir un appareil radioamateur capable d'émettre en Suisse, il faut être titulaire d'un indicatif d'appel. Celui-ci n'est obtenu que par ceux qui ont réussi l'examen d'amateur. Le certificat de compétence, que l'on reçoit après avoir réussi l'examen, ne suffit *pas* pour l'achat d'un appareil radio. Selon la loi, même l'indicatif d'appel seul ne suffit pas. Il faut prouver avec la <facture pour les frais administratifs de l'année en cours> que l'on possède toujours cet indicatif d'appel. De plus, une quittance doit toujours être établie lors de la vente, sur laquelle sont enregistrés à la fois les appareils, ainsi que le nom et l'indicatif d'appel de l'acheteur. Ces réglementations s'appliquent aussi bien dans les magasins que lors des ventes privées. 
+Pour acquérir un appareil radio émetteur-récepteur utilisable en Suisse, il faut posséder un indicatif d’appel. Celui-ci n’est attribué qu’après avoir réussi l’examen de radioamateur. Le certificat de compétence obtenu à l’issue de l’examen ne suffit *pas* à lui seul pour acheter un appareil radio. Selon la loi, même l’indicatif d’appel ne suffit pas. Il faut prouver, avec la <facture pour les frais administratifs de l’année en cours>, que l’on possède toujours cet indicatif. De plus, lors de la vente, un reçu doit être établi, mentionnant à la fois les appareils, ainsi que le nom et l’indicatif d’appel de l’acheteur. Ces règles s’appliquent aussi bien dans les commerces que pour les ventes privées.
 
 <indepth>
-Ici, on trouve le texte intégral de la loi. [VFAV Art. 7 Abs. 2](https://www.fedlex.admin.ch/eli/cc/2016/307/de#art_7)
+Le texte intégral de la loi se trouve ici : [VFAV Art. 7 Abs. 2](https://www.fedlex.admin.ch/eli/cc/2016/307/fr#art_7)
 </indepth>
 
-%YPA La question doit être précisée (appareil émetteur)
+%YPA La question devrait être précisée (appareil émetteur)
 [question:VR001]
 [question:VD102]
 
 <margin>
-[photo:117:n_erste_schritte_transceiver:Un émetteur-récepteur (appareil radio) pour le radioamateur]
+[photo:117:n_erste_schritte_transceiver:Un émetteur-récepteur pour le radioamateurisme]
 </margin>
 
 ---
 
-Être à l'émission signifie concrètement appuyer sur le bouton PTT. PTT [index:PTT] est l'abréviation de "push to talk", c'est-à-dire "appuyer pour parler". C'est ainsi que l'on désigne la fonction qui met un émetteur-récepteur en émission. Normalement, un émetteur-récepteur est d'abord en mode réception. Ce n'est que lorsque l'on appuie et maintient le bouton PTT que l'on émet. Après avoir relâché le bouton, l'émetteur-récepteur revient en mode réception. Le bouton PTT est généralement fixé au microphone.
+Émettre signifie en pratique appuyer sur la touche PTT. PTT [index:PTT] est l’abréviation de *push to talk*, c’est-à-dire « appuyer pour parler ». Cette fonction permet de basculer un émetteur-récepteur en mode émission. Normalement, un émetteur-récepteur est en mode réception. Ce n’est qu’en appuyant et en maintenant la touche PTT que l’émission commence. Dès que l’on relâche la touche, l’émetteur-récepteur revient en mode réception. La touche PTT est généralement située sur le microphone.
 [question:NF108]
 
 <margin>
-[photo:118:n_erste_schritte_ptt:Microphone avec bouton PTT (en haut à gauche)]
+[photo:118:n_erste_schritte_ptt:Microphone avec touche PTT (en haut à gauche)]
 </margin>
 
 ---
 
----  
+---
 
 **Connaissances mathématiques nécessaires**
 
-%YPA: En DL, les formules ne doivent pas être réarrangées (voir DLFS). La partie sur les connaissances de base en mathématiques, ou ce qu'il faut savoir en mathématiques, devrait avoir sa propre section. Là, on pourrait aussi traiter du réarrangement des formules (je ne sais pas si c'est fait là où cela apparaît dans le contenu). La section a été réécrite ici sur les 3 questions existantes. 
 
-Ce cours enseigne tout le savoir nécessaire pour réussir l'examen. Nous supposons toutefois quelques connaissances de base en mathématiques scolaires. Les quatre opérations de base et la règle de trois doivent être maîtrisées. Cela permet de répondre correctement aux questions d'examen suivantes.
+%YPA : En Allemagne, il n’est pas nécessaire de transformer les formules (voir DLFS). La partie sur les bases en mathématiques, ou ce qu’il faut savoir en mathématiques, devrait faire l’objet d’une section dédiée. On pourrait y aborder également la transformation de formules (je ne sais pas si cela est déjà fait à l’endroit où cela est pertinent). La section a été réécrite pour les trois questions existantes.
+
+Ce cours couvre toutes les connaissances nécessaires pour réussir l’examen. Cependant, nous supposons que vous maîtrisez les bases en mathématiques scolaires. Les quatre opérations de base et la règle de trois doivent être maîtrisées. Cela permet de répondre correctement aux questions d’examen suivantes.
 
 [question:NA101]
 [question:NA103]
 [question:NA102]
 
-Plus tard dans le cours, il faudra alors réarranger des formules simples. Il faudra alors pouvoir réarranger des fractions, des racines et des exponentielles. Cela sera expliqué à ce moment-là.
+Plus tard dans le cours, il faudra transformer des formules simples. À ce stade, il faudra savoir manipuler des fractions, des racines et des exposants. Cela sera expliqué à ce moment-là.
 
 <margin>
-*Difficultés avec les mathématiques ?* On trouve du matériel d'apprentissage sur Internet à ce sujet, par exemple [ici](https://50ohm.de/tr). Peut-être que des personnes serviables du cercle d'amis, de la famille, de l'école ou de la formation professionnelle peuvent également aider.
+*Difficultés en mathématiques ?* Des ressources d’apprentissage sont disponibles en ligne, par exemple [ici](https://50ohm.de/tr). Peut-être que des personnes bienveillantes de votre entourage, de votre famille, de votre école ou de votre lieu de formation pourront vous aider.
 </margin>

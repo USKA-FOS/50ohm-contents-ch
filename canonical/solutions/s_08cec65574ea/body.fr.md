@@ -1,10 +1,10 @@
-La puissance dissipée du MOSFET est recherchée.
+On cherche la puissance dissipée du MOSFET.
 
-Pour les pertes de conduction, on a :
+Pour les pertes en conduction, on a :
 
 $ P = I^2 \cdot R $
 
-En insérant les valeurs :
+Substitution des valeurs :
 
 $ P = \left( \qty{25}{\ampere} \right)^2 \cdot \qty{4}{\milli\ohm} $
 

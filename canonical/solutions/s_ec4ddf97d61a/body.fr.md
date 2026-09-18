@@ -1,3 +1,3 @@
-Une photodiode utilise l'effet photoélectrique dans un semi-conducteur. Si la lumière frappe la jonction PN, des porteuses de charge libres sont créées et un courant électrique peut circuler.
+Une photodiode utilise l’effet photoélectrique dans un semi-conducteur. Lorsqu’elle est exposée à la lumière au niveau de la jonction PN, des porteurs de charge libres se forment et un courant électrique peut circuler.
 
-Une photorésistance, en revanche, ne modifie que sa valeur de résistance et ne génère pas elle-même de courant.
+Une photorésistance, en revanche, ne fait que modifier sa valeur de résistance et ne génère pas elle-même de courant.

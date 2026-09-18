@@ -1,25 +1,38 @@
-### Gestion du Pile-Up 2
+### Le trafic en *split* en détail
 
-* Le trafic en split est la méthode la plus utilisée pour permettre à de nombreux appels d'établir une liaison.
-* Dans ce cas, la station souhaitée reçoit sur une autre fréquence que celle sur laquelle elle émet.
-* La station appelant CQ annonce le trafic en split avec une indication de la fréquence ou de la bande de fréquences sur laquelle elle reçoit. Par exemple "5 up" ou "split 14270 to 14280".
+* Le trafic en *split* est la méthode la plus utilisée pour permettre à de nombreux appels d’établir une connexion.
+* Dans ce cas, la station convoitée reçoit sur une fréquence différente de celle sur laquelle elle émet.
+* La station appelant en CQ annonce le trafic en *split* en indiquant la fréquence ou la bande de fréquences sur laquelle elle reçoit.
+* Les indications sont toujours données en kHz.
 
 <note>
-* Un avantage du trafic en split est que la station particulière reste claire à recevoir et ne "disparaît" pas elle-même dans le Pile-Up.
-* Le truc avec le trafic en split avec la bande de fréquences est que personne ne sait sur quelle fréquence la station souhaitée écoute. Pour la station appelant CQ, l'avantage est qu'elle peut mieux entendre les indicateurs d'appel individuels.
+Un avantage du trafic en *split* est que la station particulière reste clairement audible et ne « s’efface » pas dans le *pile-up*.
 </note>
 
 ---
 
-[picture:672:n_split_verkehr_anruffrequenz:Trafic en split, fréquence d'émission de la station souhaitée et fréquence de réponse sur laquelle elle reçoit]
+* « 5 up » signifie : la station appelante écoute $\qty{5}{\kilo\hertz}$ au-dessus de sa propre fréquence d’émission.
+* Exemple : si la station émet sur $\qty{28410}{\kilo\hertz}$, il faut répondre sur $\qty{28415}{\kilo\hertz}$.
 
-[picture:673:n_split_verkehr_anrufbereich:Trafic en split, fréquence d'émission de la station souhaitée et bande de fréquences pour les réponses, dans laquelle elle reçoit]
+[picture:672:n_split_verkehr_anruffrequenz:Trafic en split, fréquence d’émission de la station convoitée et fréquence de réponse sur laquelle elle reçoit]
 
 ---
 [question:BE308]
 
 ---
 [question:BE310]
+
+---
+
+* Plus souvent, une bande de fréquences entière est indiquée, par exemple « split up 28420 to 28430 » ou, en abrégé, « tuning 420 to 430 up ».
+* Cela signifie : la station reçoit sur des fréquences variables dans la bande indiquée.
+* Comme personne ne sait sur quelle fréquence elle écoute à un moment donné, il faut choisir une fréquence au hasard dans la bande et y répondre.
+
+[picture:673:n_split_verkehr_anrufbereich:Trafic en split, fréquence d’émission de la station convoitée et bande de fréquences pour les réponses, sur laquelle elle reçoit]
+
+<note>
+Avantage pour la station appelant en CQ : seule une petite partie des radioamateurs intéressés atteint la bonne fréquence, ce qui lui permet d’entendre plus facilement les indicatifs d’appel individuels.
+</note>
 
 ---
 [question:BE309]

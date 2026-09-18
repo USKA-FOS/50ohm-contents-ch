@@ -1,35 +1,35 @@
-## Impédance de champ et intensité de champ
-* Impédance de champ dans le vide:
+## Impédance d’onde et intensité de champ
+* Impédance d’onde dans le vide :
 * $Z_{F0} = \sqrt{\dfrac{\mu_0}{\varepsilon_0}}$
-* $\mu_0$ est la constante de champ magnétique, $\varepsilon_0$ la permittivité du vide  
-* L'intensité de champ magnétique est calculée via $\mu_0$, la densité de flux magnétique et la magnétisation  
+* $\mu_0$ est la perméabilité du vide, $\varepsilon_0$ la permittivité du vide
+* L’intensité de champ magnétique se calcule à partir de $\mu_0$, de la densité de flux magnétique et de l’aimantation
 
 ---
 
-* Dans un milieu (par exemple, l'air) s'applique:
+* Dans un milieu (par ex. l’air) :
 * $Z_{F} = \sqrt{\dfrac{\mu}{\varepsilon}}$
-* L'intensité de champ électrique et magnétique dépend de l'impédance de la ligne du milieu
+* L’intensité de champ électrique et magnétique dépend de l’impédance caractéristique du milieu
 
 ---
 [question:AK102]
 
 ---
-### Puissance au point d'alimentation de l'antenne
+### Puissance à l’entrée de l’antenne
 
-* La puissance d'entrée de l'antenne résulte de la puissance d'émission moins l'atténuation du câble  
-* Les pertes de câble sont prises en compte comme facteur d'atténuation (par exemple, $\qty{10}{\dB}$ → $\num{0,1}$)  
-* Formule: $P_{Ant} = D \cdot P_{Sender}$
+* La puissance d’entrée de l’antenne résulte de la puissance d’émission moins l’atténuation du câble
+* Les pertes de câble sont prises en compte sous forme de facteur d’atténuation (par ex. $\qty{10}{\dB}$ → $\num{0,1}$)
+* Formule : $P_{Ant} = D \cdot P_{Sender}$
 
 ---
 [question:AK104]
 
 ---
-## Puissance d'émission maximale selon la BEMFV
+## Puissance d’émission maximale selon la BEMFV
 
-* La distance de sécurité doit se situer dans le champ lointain:  
+* La distance de sécurité doit se situer dans le champ lointain :
 
 <fragment>
-$d > \dfrac{\lambda}{2\pi}$  
+$d > \dfrac{\lambda}{2\pi}$
 </fragment>
 
 ---
@@ -37,14 +37,14 @@ $d > \dfrac{\lambda}{2\pi}$
 [question:AK107]
 
 --- style="font-size: smaller;"
-#### Solution
+#### Méthode de résolution
 <left>
-* donné: $g_d = \qty{6}{\dBd}$
-* donné: $E = \qty{28}{\volt\per\meter}$
+* donné : $g_d = \qty{6}{\dBd}$
+* donné : $E = \qty{28}{\volt\per\meter}$
 </left>
 <right>
-* donné: $d = \qty{5}{\meter}$
-* recherché: $P_S$
+* donné : $d = \qty{5}{\meter}$
+* recherché : $P_S$
 </right>
 
 <fragment>
@@ -63,14 +63,14 @@ $\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d - a + 2,15dB}{\qty{10}{\dB}}}\
 [question:AK113]
 
 --- style="font-size: smaller;"
-#### Solution
+#### Méthode de résolution
 <left>
-* donné: $g_i = \qty{12,15}{\dBi}$
-* donné: $P_A = \qty{250}{\watt}$
+* donné : $g_i = \qty{12,15}{\dBi}$
+* donné : $P_A = \qty{250}{\watt}$
 </left>
 <right>
-* donné: $d = \qty{30}{\meter}$
-* recherché: $E$
+* donné : $d = \qty{30}{\meter}$
+* recherché : $E$
 </right>
 
 <fragment>
@@ -89,10 +89,10 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ &= \fra
 [question:AK114]
 
 --- style="font-size: smaller;"
-#### Solution
-* donné: $P_{ERP} = \qty{100}{\watt}$
-* donné: $d = \qty{100}{\meter}$
-* recherché: $E$
+#### Méthode de résolution
+* donné : $P_{ERP} = \qty{100}{\watt}$
+* donné : $d = \qty{100}{\meter}$
+* recherché : $E$
 
 <fragment>
 <left>
@@ -110,10 +110,10 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ &= \frac{\sq
 [question:AK115]
 
 --- style="font-size: smaller;"
-#### Solution
-* donné: $P_{ERP} = \qty{100}{\watt}$
-* donné: $d = \qty{100}{\meter}$
-* recherché: $E$
+#### Méthode de résolution
+* donné : $P_{ERP} = \qty{100}{\watt}$
+* donné : $d = \qty{100}{\meter}$
+* recherché : $E$
 
 <fragment>
 <left>

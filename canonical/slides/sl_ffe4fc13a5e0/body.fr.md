@@ -1,7 +1,7 @@
-* La bande de fréquences des ondes électromagnétiques est très large
-* Les ondes radio n'utilisent qu'une partie de ce spectre
-* Habituellement entre $\qty{30}{\kilo\hertz}$ et $\qty{300}{\giga\hertz}$
-* Pour l'examen $\qty{3}{\mega\hertz}$-$\qty{3}{\giga\hertz}$ avec les désignations importantes
+* La **bande de fréquences** des ondes électromagnétiques est très étendue
+* Les **ondes radio** n’en utilisent qu’une partie
+* Généralement entre $\qty{30}{\kilo\hertz}$ et $\qty{300}{\giga\hertz}$
+* Pour l’examen, les plages de $\qty{3}{\mega\hertz}$ à $\qty{3}{\giga\hertz}$ avec leurs désignations sont importantes
 
 ---
 
@@ -14,19 +14,20 @@
 --- style="font-size: 0.5em;"
 | r: | c: | r: | X: | l: |
 | $\qty{30}{\kilo\hertz}$ | - | $\qty{300}{\kilo\hertz}$ | Low Frequency | LF |
-| | | | (Longue onde) | (LW) |
+| | | | (Onde longue) | (OL) |
 | $\qty{300}{\kilo\hertz}$ | - | $\qty{3000}{\kilo\hertz}$ | Medium Frequency | MF |
-| | | | (Onde moyenne) | (MW) |
+| | | | (Onde moyenne) | (OM) |
 | $\qty{3}{\mega\hertz}$ | - | $\qty{30}{\mega\hertz}$ | *High Frequency* | *HF* |
-| | | | Short Wave | SW |
-| | | | (Onde courte) | (KW) |
+| | | | Onde courte | OC |
+| | | | (**KW**) | |
 | $\qty{30}{\mega\hertz}$ | - | $\qty{300}{\mega\hertz}$ | *Very High Frequency* | *VHF* |
-| | | | (Onde ultra-courte) | (UKW) |
+| | | | Onde ultracourte | OUC |
+| | | | (**UKW**) | |
 | $\qty{300}{\mega\hertz}$ | - | $\qty{3000}{\mega\hertz}$ | *Ultra High Frequency* | *UHF* |
 | | | | (Onde décimétrique) | |
 | $\qty{3}{\giga\hertz}$ | - | $\qty{30}{\giga\hertz}$ | Super High Frequency | SHF |
-| $\qty{30}{\giga\hertz}$ | - | $\qty{300}{\giga\hertz}$ | Extemely High Frequency | EHF |
-[table:n_frequenzspektrum_bereiche:Les bandes de fréquences de $\qty{30}{\kilo\hertz}$ à $\qty{300}{\giga\hertz}$ et leurs désignations habituelles.]
+| $\qty{30}{\giga\hertz}$ | - | $\qty{300}{\giga\hertz}$ | Extremely High Frequency | EHF |
+[table:n_frequenzspektrum_bereiche:Les bandes de fréquences de $\qty{30}{\kilo\hertz}$ à $\qty{300}{\giga\hertz}$ et leurs désignations courantes.]
 ---
 [question:BC104]
 ---

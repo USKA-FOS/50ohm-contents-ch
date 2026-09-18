@@ -1,11 +1,11 @@
-## Communication radio uniquement avec les radioamateurs
+## Communications radio uniquement avec des radioamateurs
 
-Une station de radioamateur ne peut contacter que d'autres stations de radioamateur.
+Une station de radio amateur ne peut contacter que d’autres stations de radio amateur.
 
-Il est interdit de communiquer par radio avec des stations radio d'autres services radio.
+Il est interdit de communiquer avec des stations d’autres services de radiocommunication.
 
 <note>
-* aucune communication radio avec les autorités, les stations radio aéronautiques ou maritimes ou avec une station radio CB
+* pas de communications radio avec des services publics, des stations aéronautiques ou maritimes, ou avec une station de CB
 </note>
 
 ---
@@ -16,11 +16,11 @@ Il est interdit de communiquer par radio avec des stations radio d'autres servic
 
 ### Transmission de messages
 
-* Il est interdit de transmettre des messages de ou vers des non-radioamateurs.
-* La seule exception sont les **cas d'urgence et de catastrophe**. Il est alors permis d'envoyer des messages de et vers des non-radioamateurs.
+* Il est interdit de transmettre des messages en provenance ou à destination de non-radioamateurs.
+* La seule exception concerne les **cas d’urgence et de catastrophe**. Dans ces situations, il est permis d’envoyer des messages en provenance ou à destination de non-radioamateurs.
 
 <note>
-* Par exemple, il n'est pas permis d'envoyer des salutations pour les proches d'un radioamateur si ces derniers ne sont pas eux-mêmes radioamateurs.
+* Par exemple, il est interdit d’envoyer des salutations pour des proches d’un radioamateur si ces derniers ne sont pas eux-mêmes des radioamateurs.
 </note>
 
 ---

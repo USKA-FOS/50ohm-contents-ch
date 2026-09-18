@@ -1,17 +1,17 @@
 <left>
 *Sans compresseur*
-* La parole est soumise à de fortes fluctuations d'amplitude
-* Cela entraîne une modulation différente du signal
-* Parfois, le signal peut être difficile à comprendre chez le récepteur
+* La parole présente de fortes variations d'amplitude
+* Cela entraîne une modulation variable du signal
+* Parfois, le signal est mal compris par le récepteur
 </left>
 <right>
 *Avec compresseur*
-* Un *compresseur de dynamique* augmente les signaux faibles par rapport aux forts
-* Le signal est comprimé en ce qui concerne ses fluctuations d'amplitude
-* Cela conduit à une meilleure compréhension chez le récepteur
+* Un *compresseur de dynamique* relève les signaux faibles par rapport aux forts
+* Le signal est compressé en termes de variations d'amplitude
+* Permet une meilleure compréhension au niveau du récepteur
 </right>
 <note>
-* De nombreux appareils radio ont aujourd'hui un compresseur intégré
+* De nombreux postes radio disposent aujourd'hui d'un compresseur intégré
 </note>
 
 ---

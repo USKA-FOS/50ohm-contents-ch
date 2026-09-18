@@ -1,60 +1,60 @@
-## Fonctionnement d'un analyseur de réseau vectoriel
+## Fonctionnement d'un analyseur de réseau vectoriel  
 
-* Génère un signal *à fréquence variable*
-* Le signal est émis (par exemple vers une antenne ou un circuit oscillant)
-* Mesure comment le signal est modifié (par exemple par réflexion)
-* Capture à la fois l'amplitude et la phase
-* Permet de déterminer la partie réelle et la partie imaginaire ainsi que le rapport d'ondes stationnaires
+* Génère un *signal variable en fréquence*  
+* Le signal est émis (par exemple vers une antenne ou un circuit oscillant)  
+* Mesure comment le signal est modifié (par exemple par réflexion)  
+* Enregistre à la fois l'amplitude et la phase  
+* Permet de déterminer la composante active et réactive ainsi que le rapport d’ondes stationnaires  
 
----
+---  
 [question:AI201]
 
----
+---  
 [question:AI202]
 
----
+---  
 [question:AI203]
 
----
-### Affichage de l'impédance de l'ANV
+---  
+### Affichage de l'analyseur de réseau vectoriel – Décomposition de l'impédance  
 
-* Séparation en partie réelle ($R$) et partie imaginaire ($X$)
-* La résistance est souvent en $\Omega$, la réactance occasionnellement en $j\Omega$
-* Les appareils affichent les valeurs d'impédance de manière non uniforme
-* Le $j$ symbolise dans l'électrotechnique l'unité imaginaire ($i$)
-* Les valeurs de réactance positives indiquent un comportement inductif, les valeurs négatives un comportement capacitif
+* Décomposition en composante active ($R$) et réactive ($X$)  
+* La résistance active est souvent exprimée en $\Omega$, la réactance parfois en $j\Omega$  
+* Les appareils affichent les valeurs d'impédance de manière non uniforme  
+* Le $j$ symbolise en électrotechnique l'unité imaginaire ($i$)  
+* Des valeurs réactives positives indiquent un comportement inductif, des valeurs négatives un comportement capacitif  
 
 <note>
-*Les nombres imaginaires* sont un outil éprouvé en électrotechnique et en mathématiques.<br/>
-- Pour résoudre $x^2 = -1$, le nombre imaginaire $i$ est défini, où $i^2 = -1$ s'applique.<br/>
-- Les nombres réels ne peuvent pas le faire, car le produit de deux nombres négatifs est positif.<br/>
-- Les nombres complexes, comme $54 - 12i$, combinent les parties réelles et imaginaires.<br/>
-- En électrotechnique, pour éviter les confusions avec le courant, $j$ est utilisé au lieu de $i$.
+*Les nombres imaginaires* sont un outil éprouvé en électrotechnique et en mathématiques.<br/>  
+- Pour résoudre $x^2 = -1$, on définit le nombre imaginaire $j$ avec $j^2 = -1$.  <br/>
+- Les nombres réels ne permettent pas cela, car le produit de deux nombres négatifs est positif.  <br/>
+- Les nombres complexes, comme $54 - 12j$, combinent des parties réelles et imaginaires.  <br/>
+- En électrotechnique, on utilise $j$ au lieu de $i$ pour éviter toute confusion avec le courant.
 </note>
 
----
+---  
 [question:AI204]
 
----
+---  
 [question:AI205]
 
----
+---  
 [question:AI206]
 
----
-### Représentation graphique de la courbe ROS
+---  
+### Représentation graphique de l'évolution du ROS
 
 <left>
-[picture:526:a_vna_swr_verlauf:Courbe ROS sur l'écran d'un ANV]
+[picture:526:a_vna_swr_verlauf:Évolution du ROS sur l'écran d'un analyseur de réseau vectoriel]  
 </left>
 <right>
-* Les ANV représentent graphiquement la courbe ROS sur la fréquence
-* Une fréquence de résonance trop basse indique une antenne trop longue (nécessité de la raccourcir)
-* Une fréquence de résonance trop élevée indique que l'antenne doit être allongée
+* Les analyseurs de réseau vectoriel affichent graphiquement l'évolution du ROS en fonction de la fréquence  
+* Une fréquence de résonance trop basse indique une antenne trop longue (nécessité de la raccourcir)  
+* Une fréquence de résonance trop élevée signifie qu'il faut allonger l'antenne  
 </right>
 
----
+---  
 [question:AI207]
 
----
+---  
 [question:AI208]

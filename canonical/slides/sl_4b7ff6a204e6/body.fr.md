@@ -1,20 +1,20 @@
 ## Protection contre la foudre
 
-* Les antennes sont menacées par des impacts de foudre directs
-* Prendre des mesures de protection selon les *règles reconnues de la technique*
-* Il existe la norme VDE 0185-305 de la part du VDE
+* Les antennes sont exposées aux risques de foudroiement direct
+* Mettre en place des mesures de protection conformes aux *règles de l'art reconnues*
+* La norme VDE 0185-305 existe à cet effet
 
 <note>
-* VDE : Verband der Elektrotechnik Elektronik und Informationstechnik e. V.
-* Organisation active dans le monde entier
-* publie des normes VDE pour la prévention des accidents
-* Les normes VDE sont chères, mais il existe de la littérature qui décrit les contenus des normes
+* VDE : Association pour l'électrotechnique, l'électronique et les technologies de l'information
+* Organisation active à l'échelle mondiale
+* Publie des normes VDE pour la prévention des accidents
+* Les normes VDE sont payantes, mais il existe des ouvrages décrivant leur contenu
 </note>
 
---- 
+---
 ## Attention
 
-Les travaux sur un système de protection contre la foudre ne doivent être effectués que par des spécialistes de la protection contre la foudre disposant d'une formation appropriée !
+Les travaux sur un système de protection contre la foudre doivent être réalisés exclusivement par des spécialistes en protection contre la foudre disposant d'une formation appropriée !
 
 ---
 [question:VE603]

@@ -1,1 +1,1 @@
-Apprends toi-même les connaissances nécessaires pour l'examen d'amateur radio. Notre matériel d'apprentissage t'aide sur ton chemin !
+Acquiers toi-même les connaissances nécessaires pour l'examen d'amateur radio. Notre matériel d'apprentissage t'accompagne sur ton chemin !

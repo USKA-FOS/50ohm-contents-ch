@@ -1,18 +1,13 @@
-Si une station radioamateur allemande est exploitée en dehors du territoire de la République fédérale d'Allemagne et qu'aucun autre pays n'a de territoire à cet endroit, on parle d'une "station extraterritoriale". De telles stations se voient attribuer un indicatif d'appel du bloc DP0AA à DP2ZZZ.
+Les stations radioamateurs suisses peuvent-elles être exploitées en territoire exterritorial ?
 
-Des exemples de stations extraterritoriales sont la Station Spatiale Internationale (ISS), la station de recherche Neumayer III en Antarctique et le navire de recherche Polarstern avec les indicatifs d'appel DP0ISS, DP0GVN et DP0POL.
+Une station radioamateur allemande exploitée en dehors du territoire de la République fédérale d’Allemagne, et pour laquelle aucun autre pays ne dispose de souveraineté sur le site, est qualifiée de « station exterritoriale ». Ces stations se voient attribuer un indicatif d’appel compris entre DP0AA et DP2ZZZ.
+
+Des exemples de stations exterritoriales sont la Station spatiale internationale (ISS), la station de recherche Neumayer III en Antarctique et le navire de recherche Polarstern, avec les indicatifs d’appel DP0ISS, DP0GVN et DP0POL.
 
 <margin>
-[photo:126:n_exterritoriale_stationen_neumeyer_station:Sur la station de recherche polaire Neumayer III se trouve la station radioamateur DP0GVN.]
+[photo:126:n_exterritoriale_stationen_neumeyer_station:La station radioamateur DP0GVN est située à la station de recherche polaire Neumayer III.]
 </margin>
 
 <margin>
-[photo:125:n_exterritoriale_stationen_polarstern:La station radioamateur à bord du navire de recherche Polarstern utilise l'indicatif d'appel DP0POL.]
+[photo:125:n_exterritoriale_stationen_polarstern:Le navire de recherche Polarstern utilise l’indicatif d’appel DP0POL pour sa station radioamateur à bord.]
 </margin>
-
-%Dans la suite, les questions suivantes peuvent être facilement répondues avec le [plan des indicatifs d'appel](https://50ohm.de/rzp).
-%La phrase a été inversée pour éviter une erreur LaTeX.
-Avec l'aide du [plan des indicatifs d'appel](https://50ohm.de/rzp), les questions suivantes peuvent être facilement répondues.
-
-[question:BD107]
-[question:BD108]

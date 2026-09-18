@@ -1,34 +1,34 @@
 --- data-transition="none"
 ## De la diode au transistor
 <left>
-La fonction peut être imaginée comme suit:
-* Au moyen d'un canal de commande, le débit d'un barrage est régulé
+On peut imaginer la fonction comme suit :
+* Un canal de commande régule le débit d’un barrage
 * Si aucun courant ne circule dans le canal de commande, le barrage est fermé
 </left>
 <right>
-[picture:835:e_transistor_wehr_geschlossen:Canal de commande ferme le barrage complètement]
+[picture:835:e_transistor_wehr_geschlossen:Le canal de commande ferme complètement le barrage]
 </right>
 
 --- data-transition="none"
 
 ## De la diode au transistor
 <left>
-La fonction peut être imaginée comme suit:
-* Si un peu d'eau circule dans le canal de commande, le barrage s'ouvre à moitié
+On peut imaginer la fonction comme suit :
+* Si un peu d’eau circule dans le canal de commande, le barrage s’ouvre à moitié
 </left>
 <right>
-[picture:837:e_transistor_wehr_halb_offen:Canal de commande ouvre le barrage à moitié]
+[picture:837:e_transistor_wehr_halb_offen:Le canal de commande ouvre le barrage à moitié]
 </right>
 
 --- data-transition="none"
 
 ## De la diode au transistor
 <left>
-La fonction peut être imaginée comme suit:
-* Si plus d'eau circule dans le canal de commande, le barrage est complètement ouvert
+On peut imaginer la fonction comme suit :
+* Si davantage d’eau circule dans le canal de commande, le barrage s’ouvre complètement
 </left>
 <right>
-[picture:836:e_transistor_wehr_geoeffnet:Canal de commande ouvre le barrage complètement]
+[picture:836:e_transistor_wehr_geoeffnet:Le canal de commande ouvre complètement le barrage]
 </right>
 
 ---
@@ -41,14 +41,14 @@ La fonction peut être imaginée comme suit:
 
 ---
 
-### Transistor bipolaire et schéma
+### Transistor bipolaire et schéma de câblage
 
 <left>
-Règle mnémotechnique pour PNP $\rightarrow$ Flèche vers la plaque
+Astuce pour le PNP → Flèche vers la plaque
 </left>
 <right>
-[picture:374:e_schaltbild_npn_transistor:Schéma du transistor NPN]
-[picture:375:e_schaltbild_pnp_transistor:Schéma du transistor PNP]
+[picture:374:e_schaltbild_npn_transistor:Schéma de câblage du transistor NPN]
+[picture:375:e_schaltbild_pnp_transistor:Schéma de câblage du transistor PNP]
 </right>
 
 ---
@@ -69,9 +69,9 @@ Règle mnémotechnique pour PNP $\rightarrow$ Flèche vers la plaque
 
 ---
 
-### Interrupteur ou amplificateur?
-* Le pilotage peut être réglé de manière à ce que le transistor soit bloqué ou complètement conducteur, on parle alors d'un transistor de commutation.
-* Le pilotage peut être réglé de manière à ce que le transistor soit commandé de manière progressive, on parle alors d'un amplificateur.
+### Interrupteur ou amplificateur ?
+* La commande peut être réglée de manière à ce que le transistor soit bloqué ou complètement conducteur : on parle alors de transistor de commutation.
+* La commande peut être réglée de manière à ce que le transistor soit contrôlé de façon progressive : on parle alors d’amplificateur.
 
 ---
 
@@ -83,12 +83,12 @@ Règle mnémotechnique pour PNP $\rightarrow$ Flèche vers la plaque
 ---
 
 ## Tension de commande et sa polarité
-Selon le type de transistor bipolaire, on a différentes polarités.
+Selon le type de transistor bipolaire, les polarités diffèrent.
 
-* Pour un transistor NPN, on a besoin d'une tension de commande positive pour la conduction.
-* Pour un transistor PNP, on a besoin d'une tension de commande négative pour la conduction.
+* Pour un transistor NPN, une tension de commande positive est nécessaire pour le rendre conducteur.
+* Pour un transistor PNP, une tension de commande négative est nécessaire pour le rendre conducteur.
 
-La tension de commande est d'environ $\qty{0,6}{\volt}$ comme pour une diode au silicium.
+La tension de commande, comme pour une diode au silicium, est d’environ $\qty{0,6}{\volt}$.
 
 ---
 
@@ -96,7 +96,7 @@ La tension de commande est d'environ $\qty{0,6}{\volt}$ comme pour une diode au 
 
 ---
 
-Comme le courant de collecteur et le courant de base traversent le transistor, le courant le plus important traverse la borne d'émetteur.
+Comme le courant de collecteur et le courant de base circulent à travers le transistor, le courant le plus élevé passe par la broche d’émetteur.
 
 ---
 
@@ -104,16 +104,16 @@ Comme le courant de collecteur et le courant de base traversent le transistor, l
 
 --- style="font-size: smaller;"
 
-### Quand le transistor NPN conduit-il?
-La tension base-émetteur est-elle suffisante et positive?
-Il faut faire attention aux signes et repenser en cas de signes négatifs, exemples:
+### Quand le transistor NPN devient-il conducteur ?
+La tension base-émetteur est-elle suffisante et se trouve-t-elle à un potentiel positif ?
+Il faut ici faire attention aux signes et adapter sa réflexion en cas de valeurs négatives, exemples :
 
-* Base $\qty{+2}{\volt}$ et Émetteur $\qty{+1,4}{\volt} \rightarrow$ La tension base-émetteur est positive et vaut $\qty{+0,6}{\volt}$
-* Base $\qty{-5,6}{\volt}$ et Émetteur $\qty{-6,2}{\volt} \rightarrow$ La tension base-émetteur est positive et vaut $\qty{+0,6}{\volt}$
+* Base $\qty{+2}{\volt}$ et émetteur $\qty{+1,4}{\volt} \rightarrow$ La tension base-émetteur est positive et s’élève à $\qty{+0,6}{\volt}$
+* Base $\qty{-5,6}{\volt}$ et émetteur $\qty{-6,2}{\volt} \rightarrow$ La tension base-émetteur est positive et s’élève à $\qty{+0,6}{\volt}$
 
 ---
 
-Soit on le comprend intuitivement, soit on le calcule (en tenant compte des signes).
+On peut le déterminer intuitivement ou par calcul (en tenant compte des signes).
 
 $U_{ BE } = U_{ B } - U_{ E }$
 
@@ -127,16 +127,16 @@ $U_{ BE } = U_{ B } - U_{ E }$
 
 --- style="font-size: smaller;"
 
-### Quand le transistor PNP conduit-il?
-La tension base-émetteur est-elle suffisante et négative?
-Il faut faire attention aux signes et repenser en cas de signes négatifs, exemples:
+### Quand le transistor PNP devient-il conducteur ?
+La tension base-émetteur est-elle suffisante et se trouve-t-elle à un potentiel négatif ?
+Il faut ici faire attention aux signes et adapter sa réflexion en cas de valeurs négatives, exemples :
 
-* Base $\qty{+5,6}{\volt}$ et Émetteur $\qty{+6,2}{\volt} \rightarrow$ La tension base-émetteur est négative et vaut $\qty{-0,6}{\volt}$
-* Base $\qty{-2}{\volt}$ et Émetteur $\qty{-1,4}{\volt} \rightarrow$ La tension base-émetteur est négative et vaut $\qty{-0,6}{\volt}$
+* Base $\qty{+5,6}{\volt}$ et émetteur $\qty{+6,2}{\volt} \rightarrow$ La tension base-émetteur est négative et s’élève à $\qty{-0,6}{\volt}$
+* Base $\qty{-2}{\volt}$ et émetteur $\qty{-1,4}{\volt} \rightarrow$ La tension base-émetteur est négative et s’élève à $\qty{-0,6}{\volt}$
 
 ---
 
-Soit on le comprend intuitivement, soit on le calcule (en tenant compte des signes).
+On peut le déterminer intuitivement ou par calcul (en tenant compte des signes).
 
 $U_{ BE } = U_{ B } - U_{ E }$
 
@@ -151,7 +151,7 @@ $U_{ BE } = U_{ B } - U_{ E }$
 ---
 
 ## Types de transistors
-Les transistors traités jusqu'à présent sont appelés *transistors bipolaires*. Ce sont les types de transistors qui ont déclenché une révolution technique dans les années 50 et ont remplacé les tubes électroniques. Contrairement aux transistors bipolaires commandés par le courant, les *transistors à effet de champ (FET)* sont commandés par la tension, donc aucun courant de commande ne les traverse. Nous nous occuperons plus intensivement de ceux-ci dans le cours de classe A.
+Les transistors traités jusqu’ici sont appelés *transistors bipolaires*. Il s’agit du type de transistors qui, dans les années 1950, a révolutionné la technique et remplacé les tubes électroniques. Contrairement aux transistors bipolaires commandés par le courant, les *transistors à effet de champ (FET)* sont commandés par la tension : aucun courant de commande ne circule donc dans le transistor. Nous aborderons ces derniers plus en détail dans le cours de classe A.
 
 ---
 

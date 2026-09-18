@@ -1,3 +1,3 @@
-Les matériaux semi-conducteurs comme le silicium ne possèdent, à l'état pur et à température ambiante, qu'une faible conductivité électrique et se comportent presque comme des isolants.
+Les matériaux semi-conducteurs comme le silicium, à l'état pur, n'ont qu'une faible conductivité électrique à température ambiante et se comportent presque comme des isolants.
 
-Grâce à un dopage ciblé avec de petites quantités d'atomes étrangers appropriés, par exemple le bore ou le phosphore, la conductivité peut être fortement augmentée. Une augmentation de la température a également pour effet de rendre plus de porteurs de charge disponibles et le matériau plus conducteur.
+Par dopage ciblé avec de petites quantités d'atomes étrangers appropriés, par exemple du bore ou du phosphore, la conductivité peut être fortement augmentée. Une élévation de la température permet également de libérer davantage de porteurs de charge, ce qui rend le matériau plus conducteur.

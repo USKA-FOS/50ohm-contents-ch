@@ -1,6 +1,6 @@
 * Éviter les chocs électriques !
-* Respecter les règles reconnues de la technique
-* De l'Association pour l'électrotechnique, l'électronique et les technologies de l'information e. V. (VDE)
+* Respecter les règles techniques reconnues
+* Selon l'Association allemande pour l'électrotechnique, l'électronique et les technologies de l'information (VDE)
 * Protection des personnes, des animaux et des biens
 
 ---
@@ -13,12 +13,12 @@
 
 * Tension alternative (AC) supérieure à $\qty{50}{\volt}$
 * Tension continue (DC) supérieure à $\qty{120}{\volt}$
-* En dessous, il n'y a pas d'altération mettant la vie en danger du corps humain
+* En dessous de ces valeurs, aucun risque vital pour le corps humain
 
 <note>
-* La raison des valeurs différentes est liée aux effets différents sur le corps
+* La raison des valeurs différentes est liée aux effets distincts sur le corps
 * La tension alternative peut influencer le rythme cardiaque
- * La tension continue entraîne plutôt des brûlures
+* La tension continue provoque plutôt des brûlures
 </note>
 
 ---
@@ -30,31 +30,41 @@
 ## Accidents électriques
 
 <left>
-* Dépend de l'intensité du courant et de la durée du flux de courant
-* Chemin à travers le corps
-* À partir de $\qty{30}{\milli\ampere}$ dommages mortels
+* Dépend de l'intensité du courant et de la durée du passage du courant
+* Trajet à travers le corps
+* À partir de $\qty{30}{\milli\ampere}$, risques de lésions mortelles
 </left>
 <right>
-[picture:681:n_fehlerstrom:Choc électrique / Passage du courant dans le corps]
+[picture:681:n_fehlerstrom:Choc électrique / Passage du courant à travers le corps]
 </right>
 
 ---
 
 ### Effets sur le corps
 
-* *Troubles du rythme cardiaque*, fibrillation ventriculaire ou arrêt cardiaque, en particulier en cas de trajet de courant dans la région thoracique
-* *Brûlures*, le plus souvent aux points d'entrée et de sortie du courant électrique
-* *Contracture musculaire*
-* *Accidents secondaires* tels qu'une chute, causée par la frayeur provoquée ou une contracture musculaire
-* De plus, *(perturbation) arc électrique* avec une lumière vive à travers l'air possible
+* *Troubles du rythme cardiaque*, fibrillation ventriculaire ou arrêt cardiaque, notamment si le courant traverse la poitrine
+* *Brûlures*, généralement aux points d'entrée et de sortie du courant électrique
+* *Crispation des muscles*
+* *Accidents secondaires* comme une chute, causée par la peur ou une crispation musculaire
+* En outre, un *(arc) électrique perturbateur* avec une lumière intense peut se produire dans l'air
+
+--- style="font-size: smaller;"
+
+### 5 règles de sécurité en électrotechnique
+
+1. *Mise hors tension*, par exemple éteindre l'appareil
+2. *Empêcher le réenclenchement*, par exemple débrancher la prise
+3. *Vérifier l'absence de tension*, par exemple avec un multimètre
+4. *Mise à la terre et court-circuit*, par exemple mettre à la terre le boîtier et les câbles d'alimentation
+5. *Couvrir ou protéger les parties voisines sous tension* (ne s'applique généralement pas aux appareils individuels)
 
 ---
 
-### Danger lors de l'ouverture des appareils
+### Danger lors de l'ouverture d'appareils
 
 * Les condensateurs peuvent stocker des tensions élevées
-* Des tensions dangereuses peuvent encore être présentes dans les appareils éteints
-* En ouvrant les appareils, faire appel à un radioamateur expérimenté ou à un électricien
+* Des tensions dangereuses peuvent subsister dans des appareils éteints
+* En cas d'ouverture d'appareils, faire appel à un radioamateur expérimenté ou à un électricien qualifié
 
 ---
 
@@ -68,9 +78,9 @@
 
 ### Premiers secours
 
-* Dans les premières minutes, décisif pour la gravité des conséquences de l'accident
-* Consulter absolument un médecin
-* Les troubles du rythme cardiaque et la fibrillation ventriculaire peuvent survenir des heures après l'accident
+* Les premières minutes sont décisives pour la gravité des conséquences de l'accident
+* Consulter impérativement un médecin
+* Les troubles du rythme cardiaque et la fibrillation ventriculaire peuvent survenir plusieurs heures après l'accident
 
 <note>
 Le médecin peut vérifier le rythme cardiaque avec un électrocardiogramme (ECG)
@@ -79,14 +89,3 @@ Le médecin peut vérifier le rythme cardiaque avec un électrocardiogramme (ECG
 ---
 
 [question:NK304]
-
---- style="font-size: smaller;"
-
-### 5 règles de sécurité en électricité
-
-1. *Mettre hors tension*, par exemple, éteindre l'appareil
-2. *Se protéger contre la remise sous tension*, par exemple, débrancher la fiche
-3. *Vérifier l'absence de tension*, par exemple, mesurer avec un multimètre
-4. *Mettre à la terre et court-circuiter*, par exemple, mettre à la terre le boîtier et les câbles d'alimentation
-5. *Couvrir ou délimiter les parties voisines sous tension* (ne s'applique généralement pas aux appareils individuels)
-

@@ -1,4 +1,4 @@
-* La fréquence d'un VFO dépend de la tension de service
+* La fréquence d’un oscillateur à fréquence variable (VFO) dépend de la tension de service
 * Modifie le point de fonctionnement des transistors
 * $\rightarrow$ Stabilisation de la tension de service
 * $\rightarrow$ Tension de service indépendante des autres étages
@@ -13,9 +13,9 @@
 ---
 ### Chirp
 
-* Mauvaise stabilisation de la tension $\rightarrow$ Sauts de fréquence impulsifs
-* En particulier lors de la modulation d'un émetteur
-* Dans les signaux CW, cela s'entend comme un bruit de gazouillis au début des signes $\rightarrow$ *Chirp*
+* Une mauvaise stabilisation de la tension $\rightarrow$ Sauts de fréquence impulsifs
+* En particulier lors de la manipulation d’un émetteur
+* Pour les signaux CW, cela se traduit par un bruit de gazouillis au début des caractères $\rightarrow$ *Chirp*
 
 ---
 [question:AD609]

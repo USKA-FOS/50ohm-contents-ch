@@ -1,6 +1,6 @@
-* Les oscillations propres se produisent lorsque la puissance est dirigée à l'intérieur des étages ou de la sortie vers l'entrée d'un amplificateur
+* Les oscillations propres se produisent lorsque la puissance est renvoyée à l'intérieur des étages ou de la sortie vers l'entrée d'un amplificateur
 * Découpler au mieux les circuits d'entrée et de sortie
-* Bien protéger les étages individuels
+* Bien blinder chaque étage
 * Plus le facteur d'amplification est élevé, plus les oscillations propres et les rétroactions apparaissent
 
 ---

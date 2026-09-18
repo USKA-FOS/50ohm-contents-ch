@@ -1,14 +1,14 @@
 <left>
-* Installation automatique de radioamateur
-* Émissions répétitives
-* Pour les observations d'intensité de champ ou les tentatives de réception
-* Peut également être dans les satellites
+* Installation d'émission radioamateur automatique
+* Émissions répétitives constantes
+* Pour des observations de force de champ ou des essais de réception
+* Peut également se trouver dans des satellites
 </left>
 <right>
-* Fréquence fixe attribuée
+* Fréquence assignée de manière fixe
 * Emplacement fixe
-* Indicatif d'appel à intervalles réguliers
-* Principalement en télégraphie Morse
+* Indicatif d’appel à intervalles réguliers
+* Généralement en télégraphie Morse
 </right>
 
 ---
@@ -16,13 +16,13 @@
 ---
 
 ## Utilisation des balises
-* La réception dépend des conditions de propagation changeantes
-* Indicateur de la faisabilité d'une liaison radio
-* Tester la réflexion sur les aurores boréales dans la bande VHF par les "balises aurorales"
-* Vérifier l'orientation de l'antenne par goniométrie
+* Réception dépendante des conditions de propagation changeantes
+* Indicateur de la faisabilité d’une liaison radio
+* Tester la réflexion sur les aurores boréales dans la bande VHF via des "balises aurores"
+* Vérifier l’orientation des antennes par radiogoniométrie
 
 <note>
-* Si l'on entend une balise sur les ondes courtes en provenance d'Amérique du Sud, alors une liaison radio vers cet endroit est également possible
+* Si l’on capte une balise en ondes courtes en provenance d’Amérique du Sud, une liaison radio vers cette région est également possible
 </note>
 
 ---
@@ -32,8 +32,8 @@
 
 ## Projet international de balises (IBP)
 <left>
-* Un grand nombre de balises réparties sur tous les continents
-* Émissions successives selon un ordre temporel prédéterminé
+* Grand nombre de balises réparties sur tous les continents
+* Émission successive selon un calendrier prédéfini
 * Toutes sur la même fréquence
 </left>
 <right>
@@ -43,14 +43,14 @@
 | $\qty{15}{\meter}$ | $\qtyrange{21149}{21151}{\kilo\hertz}$ |
 | $\qty{17}{\meter}$ | $\qtyrange{18109}{18111}{\kilo\hertz}$ |
 | $\qty{20}{\meter}$ | $\qtyrange{14099}{14101}{\kilo\hertz}$ |
-[table:n_baken_frequenzbereiche:Bandes de fréquences pour les balises selon le plan de bandes de l'IARU]
-  
+[table:n_baken_frequenzbereiche:Bandes de fréquences pour balises selon le plan de bandes de l’IARU]
+
 <fragment>
-Ne pas effectuer de trafic radio ici !
+Aucune exploitation radio à cet endroit !
 </fragment>
 </right>
 <note>
-* Utile pour se faire rapidement une idée des conditions de propagation
+* Utile pour obtenir rapidement un aperçu des conditions de propagation
 </note>
 
 ---

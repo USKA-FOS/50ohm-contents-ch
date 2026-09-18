@@ -1,20 +1,20 @@
-* La puissance d'un signal haute fréquence diminue avec l'augmentation de la longueur du câble
-* Appelé *atténuation du câble*
+* L'intensité du signal d'un signal haute fréquence diminue avec l'augmentation de la longueur du câble
+* Cela est appelé *atténuation du câble*
 * Les connecteurs peuvent également atténuer le signal
-* C'est indésirable
+* Ce phénomène est indésirable
 
 ---
 <left>
-* L'atténuation est généralement exprimée en décibels ($\unit{\dB}$)
-* Lorsque l'on parle d'atténuation, le nombre reste positif
+* L'atténuation est généralement indiquée en décibels ($\unit{\dB}$)
+* Lorsqu'on parle d'atténuation, le chiffre reste positif
 </left>
 <right>
 * Utiliser le facteur de conversion en $\unit{\dB}$
-* Ou le trouver dans le recueil de formules
+* Ou consulter le recueil de formules
 </right>
 <note>
-* C'est un peu déroutant, mais sinon les réponses à l'examen sont fausses
-* Cependant, lors d'une évaluation globale des gains et des pertes, l'atténuation compte négativement
+* Cela peut prêter à confusion, mais sans cela, les réponses aux examens seraient incorrectes
+* Dans une évaluation globale des gains et des pertes, l'atténuation est cependant comptée négativement
 </note>
 
 ---
@@ -35,12 +35,12 @@
 ## Diagramme d'atténuation du câble
 
 <left>
-* Dans l'annexe du recueil de formules
-* Atténuation de divers câbles en fonction de la fréquence
-* Référence à $\qty{100}{\meter}$ – pour les câbles plus courts, il faut convertir
+* Annexe du recueil de formules
+* Atténuations de différents câbles en fonction de la fréquence
+* Référence à $\qty{100}{\meter}$ – pour des câbles plus courts, il faut convertir
 </left>
 <right>
-[picture:202:e_kabeldaempfung_diagramm:Diagramme d'atténuation du câble dans l'annexe du recueil de formules]
+[picture:202:e_kabeldaempfung_diagramm:Diagramme d'atténuation du câble dans le recueil de formules]
 </right>
 <note>
 * éventuellement zoomer ici
@@ -52,19 +52,19 @@
 ### Méthode de résolution
 
 * recherché : atténuation pour $\qty{100}{\meter}$ de câble RG58 à $\qty{145}{\mega\hertz}$
-* solution : lecture dans le diagramme
-* point d'intersection de la ligne RG58 avec $\qty{145}{\mega\hertz}\rightarrow \qty{20}{\dB}$
+* Solution : lecture sur le diagramme
+* Point d'intersection de la ligne RG58 avec $\qty{145}{\mega\hertz} \rightarrow \qty{20}{\dB}$
 
 ---
 [question:EG311]
 ---
 ### Méthode de résolution
 
-* recherché : atténuation pour $\qty{20}{\meter}$ à $\qty{20}{\dB}$ d'atténuation sur $\qty{100}{\meter}$
-* solution : règle de trois
+* recherché : atténuation pour $\qty{20}{\meter}$ avec une atténuation de $\qty{20}{\dB}$ sur $\qty{100}{\meter}$
+* Solution : règle de trois
 
 $\dfrac{\qty{20}{\dB}}{\qty{100}{\meter}} = \dfrac{x}{\qty{20}{\meter}}$
-$x = \dfrac{\qty{20}{\dB}\cdot \qty{20}{\meter}}{\qty{100}{\meter}} = \qty{4}{\dB}$
+$x = \dfrac{\qty{20}{\dB} \cdot \qty{20}{\meter}}{\qty{100}{\meter}} = \qty{4}{\dB}$
 
 ---
 [question:EG313]
@@ -72,11 +72,11 @@ $x = \dfrac{\qty{20}{\dB}\cdot \qty{20}{\meter}}{\qty{100}{\meter}} = \qty{4}{\d
 ### Méthode de résolution
 
 * recherché : atténuation pour $\qty{15}{\meter}$ de câble RG58 à $\qty{145}{\mega\hertz}$
-* solution : lecture dans le diagramme et règle de trois
-* point d'intersection de la ligne RG58 avec $\qty{145}{\mega\hertz}\rightarrow \qty{20}{\dB}$
+* Solution : lecture sur le diagramme et règle de trois
+* Point d'intersection de la ligne RG58 avec $\qty{145}{\mega\hertz} \rightarrow \qty{20}{\dB}$
 
 $\dfrac{\qty{20}{\dB}}{\qty{100}{\meter}} = \dfrac{x}{\qty{15}{\meter}}$
-$x = \dfrac{\qty{20}{\dB}\cdot \qty{15}{\meter}}{\qty{100}{\meter}} = \qty{3}{\dB}$
+$x = \dfrac{\qty{20}{\dB} \cdot \qty{15}{\meter}}{\qty{100}{\meter}} = \qty{3}{\dB}$
 
 ---
 [question:EG314]

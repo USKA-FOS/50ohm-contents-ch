@@ -1,1 +1,1 @@
-Cours d'extension E après A
+Cours de perfectionnement E après A

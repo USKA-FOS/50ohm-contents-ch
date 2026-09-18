@@ -1,30 +1,30 @@
-La manière la plus simple de détecter les erreurs est réalisée en ajoutant un bit supplémentaire, le bit de contrôle. Il est également appelé *bit de parité*. Il existe deux variantes de cette procédure. Dans le cas de la *parité paire*, la valeur de ce bit est choisie pour chaque bloc de telle sorte que le nombre de bits mis à $\num{1}$ soit toujours pair. Dans le cas de la *parité impaire*, en revanche, le nombre doit toujours être impair. L'émetteur et le récepteur doivent se mettre d'accord avant la transmission sur la variante à utiliser.
+Le moyen le plus simple de détecter une erreur consiste à ajouter un bit supplémentaire, le bit de parité. On l'appelle aussi *Parity Bit*. Cette méthode existe sous deux variantes. Avec la *parité paire* (*Even Parity*), la valeur de ce bit est choisie pour chaque bloc de sorte que le nombre de bits à $\num{1}$ soit toujours pair. Avec la *parité impaire* (*Odd Parity*), le nombre doit toujours être impair. L'émetteur et le récepteur doivent convenir de la variante utilisée avant la transmission.
 
 <indepth>
-Supposons que nous voulions transmettre l'octet suivant avec une parité paire :
+Prenons l'exemple de la transmission d'un octet avec parité paire :
 
 [picture:677:byte:Un octet]
 
-Nous comptons 5 uns, donc un nombre impair. Le bit de contrôle doit donc être mis à $\num{1}$ pour obtenir un nombre pair de uns :
+Nous comptons 5 uns, soit un nombre impair. Le bit de parité doit donc être mis à $\num{1}$ pour obtenir un nombre pair de uns :
 
-[picture:678:even_parity:L'octet avec le bit de parité paire]
+[picture:678:even_parity:L'octet avec bit de parité paire]
 
-Si une erreur de transmission modifie *un* bit (de $\num{1}$ à $\num{0}$ ou inversement), alors le nombre de uns devient impair. Le récepteur reconnaît ainsi qu'une erreur s'est produite.
+Si une erreur de transmission modifie *un seul* bit (de $\num{1}$ à $\num{0}$ ou inversement), le nombre de uns devient impair. Le récepteur détecte ainsi qu'une erreur s'est produite.
 
-Un autre exemple suit ici : 
+Voici un autre exemple :
 
 [picture:679:even_parity:Octet avec parité paire]
 
-Dans l'octet d'origine, nous comptons 4 uns, ce qui correspond à un nombre pair. C'est pourquoi nous devons insérer un $\num{0}$ comme bit de contrôle.
+Dans l'octet d'origine, nous comptons 4 uns, ce qui correspond à un nombre pair. Nous devons donc insérer un $\num{0}$ comme bit de parité.
 </indepth>
 
-Cette procédure atteint rapidement ses limites, à savoir lorsque plus d'une erreur se produit lors de la transmission. Si deux bits sont modifiés lors de la transmission, le nombre de uns reste pair. Le récepteur ne peut plus reconnaître qu'une erreur s'est produite. Si trois erreurs se produisent lors de la transmission, un nombre impair de uns est à nouveau créé et le récepteur reconnaît les erreurs.
+Cette méthode atteint rapidement ses limites, notamment lorsqu'il y a plus d'une erreur lors de la transmission. Si deux bits sont modifiés pendant la transmission, le nombre de uns reste pair. Le récepteur ne peut plus détecter qu'une erreur s'est produite. Si trois erreurs surviennent lors de la transmission, le nombre de uns devient à nouveau impair et le récepteur détecte les erreurs.
 
-La parité impaire fonctionne en principe de la même manière, avec une seule différence : le nombre de uns doit être impair et non pair. Pour la parité impaire, comme pour la parité paire, seul un nombre impair de bits transmis de manière incorrecte est détecté. Une transmission sans erreur ne peut cependant pas être distinguée d'un nombre pair d'erreurs.
+La parité impaire fonctionne selon le même principe, avec une seule différence : le nombre de uns doit être impair et non pair. Comme pour la parité paire, seule une quantité impaire de bits mal transmis est détectée. Une transmission sans erreur ne peut pas être distinguée d'un nombre pair d'erreurs.
 
 [question:AE411]
 [question:AE412]
 
-Pour détecter les erreurs de plusieurs bits, on peut ajouter d'autres bits de contrôle. Cela fonctionne très bien pour les messages de longueur fixe. Si la longueur des données est variable, on utilise souvent des procédures de somme de contrôle spéciales comme la *vérification de redondance cyclique (CRC)*, qui détectent les erreurs jusqu'à une certaine probabilité résiduelle. Des procédures similaires sont également rencontrées dans la vie quotidienne, par exemple avec les numéros d'identification ou l'IBAN.
+Pour détecter des erreurs sur plusieurs bits, on peut ajouter d'autres bits de parité. Cela fonctionne très bien pour des messages de longueur fixe. Si la longueur des données est variable, on utilise souvent des méthodes de somme de contrôle spéciales comme le *contrôle de redondance cyclique (CRC)*, qui permet de détecter des erreurs avec une certaine probabilité résiduelle. Des méthodes similaires sont également utilisées au quotidien, par exemple pour les numéros de carte d'identité ou l'IBAN.
 
 [question:AE410]

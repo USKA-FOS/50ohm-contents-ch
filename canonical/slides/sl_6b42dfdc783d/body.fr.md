@@ -1,32 +1,37 @@
-## Dipôle à piège
+## Dipôle à trappes
 
 <left>
-[picture:234:a_traps_allgemein:Antenne dipôle à deux bandes avec pièges]
-Piège comme circuit oscillant parallèle composé d'un condensateur et d'une bobine
+[picture:234:a_traps_allgemein:Zweiband-Dipolantenne mit Traps]
+Trap en tant que circuit oscillant parallèle composé d'un condensateur et d'une bobine
 </left>
 <right>
-* Les antennes multibandes sont conçues pour être résonantes sur plusieurs bandes de fréquences.
-* Un piège est inséré dans un dipôle pour exploiter une bande de fréquences supplémentaire.
+* Les antennes multibandes sont conçues pour être accordées sur plusieurs bandes de fréquences.
+* Une trappe est intégrée dans un dipôle pour permettre l'accès à une bande de fréquences supplémentaire.
 </right>
 
 ---
 <left>
-[picture:234:a_traps_allgemein:Antenne dipôle à deux bandes avec pièges]
+[picture:234:a_traps_allgemein:Zweiband-Dipolantenne mit Traps]
 </left>
 <right>
-* À sa résonance, le piège agit comme un circuit bouchon qui bloque le flux de courant et limite électriquement le dipôle.
-* En revanche, lors d'une excitation avec une fréquence plus basse, l'ensemble du dipôle oscille.
+* À sa fréquence de résonance, la trappe agit comme un circuit bouchon qui bloque le courant et limite électriquement le dipôle.
+* Excité par une fréquence plus basse, c'est l'ensemble du dipôle qui oscille.
 </right>
+
+---
+## Essayer un dipôle à trappes
+
+[include:applet_traps]
 
 ---
 [question:AG109]
 ---
 [question:AG110]
 ---
-## Influence des hautes fréquences
+## Influence des fréquences élevées
 
-* Les fréquences supérieures à la résonance du piège peuvent traverser le circuit oscillant.
-* Le condensateur, qui domine ici, raccourcit légèrement l'antenne – la bobine joue un rôle secondaire.
+* Les fréquences supérieures à la résonance de la trappe peuvent traverser le circuit oscillant.
+* Le condensateur, qui joue alors le rôle principal, raccourcit légèrement l'antenne – la bobine n'a qu'un rôle secondaire.
 
 ---
 [question:AG113]
@@ -34,11 +39,11 @@ Piège comme circuit oscillant parallèle composé d'un condensateur et d'une bo
 ## Effet de blocage en cas de résonance
 
 <left>
-[picture:235:a_traps_40m:Antenne dipôle à deux bandes avec piège pour la bande des 40m]
+[picture:235:a_traps_40m:Zweiband-Dipolantenne mit Trap für das 40m-Band]
 </left>
 <right>
-* Lorsqu'un dipôle à piège est exploité à la fréquence de résonance de l'un des pièges, celui-ci agit comme un circuit bouchon.
-* Ainsi, presque aucun courant ne circule, et le dipôle se comporte comme s'il se terminait à cet endroit.
+* Lorsqu'un dipôle à trappes est utilisé à la fréquence de résonance de l'une des trappes, celle-ci agit comme un circuit bouchon.
+* Le courant est alors presque nul et le dipôle se comporte comme s'il se terminait à cet endroit.
 </right>
 
 ---
@@ -46,27 +51,27 @@ Piège comme circuit oscillant parallèle composé d'un condensateur et d'une bo
 ---
 [question:AG116]
 ---
-## Allongement électrique aux fréquences basses
+## Allongement électrique aux basses fréquences
 
 <left>
-[picture:235:a_traps_40m:Antenne dipôle à deux bandes avec piège pour la bande des 40m]
+[picture:235:a_traps_40m:Zweiband-Dipolantenne mit Trap für das 40m-Band]
 </left>
 <right>
-* Aux fréquences inférieures à la résonance, peu de courant circule à travers le condensateur.
+* Aux fréquences inférieures à la résonance, peu de courant traverse le condensateur.
 * L'effet de la bobine domine et entraîne un allongement électrique de l'antenne.
 </right>
 
 ---
 [question:AG111]
 ---
-## Plusieurs pièges pour des résonances étendues
+## Plusieurs trappes pour des résonances étendues
 
 <left>
-[picture:237:a_traps_mehrband:Antenne dipôle à trois bandes avec pièges]
+[picture:237:a_traps_mehrband:Dreiband-Dipolantenne mit Traps]
 </left>
 <right>
-* En installant plusieurs pièges, le circuit oscillant intérieur est accordé sur la fréquence la plus élevée et le suivant sur une fréquence plus basse.
-* Ainsi, plusieurs résonances peuvent être réalisées dans le même dipôle.
+* En intégrant plusieurs trappes, le circuit oscillant interne est accordé sur la fréquence la plus élevée et le suivant sur une fréquence plus basse.
+* Il est ainsi possible de réaliser plusieurs résonances dans un même dipôle.
 </right>
 
 ---

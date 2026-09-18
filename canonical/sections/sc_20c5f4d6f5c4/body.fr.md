@@ -1,15 +1,12 @@
-%YPA: Où est-ce défini? dans RR 1.56? 
-%YPA: "affaires juridiques" appartient-elle ici?
+Le radioamateurisme ne doit pas être utilisé à des fins économiques. Il est donc par exemple interdit de proposer l’utilisation du radioamateurisme contre rémunération ou d’utiliser le radioamateurisme pour des accords dans une entreprise, par exemple comme radio taxi.
 
-Le radioamateur ne doit pas être utilisé à des fins économiques. Il est donc par exemple interdit d'offrir l'utilisation du radioamateur contre de l'argent ou d'utiliser le radioamateur pour des arrangements dans une entreprise, par exemple comme radio taxi.
+Les *communications à caractère juridique* sont également explicitement interdites. Deux exemples :
 
-Les *communications juridiques* sont également expressément interdites. Deux exemples : 
+L’échange d’informations sur les prix est autorisé (« J’utilise un Yaesu FT-991A. Il coûte actuellement environ 700 francs sur le marché de l’occasion. »). En revanche, l’offre, la négociation ou la conclusion concrète d’une vente constituent une opération juridique et sont donc interdites (« J’ai un Yaesu FT-991A. Le premier qui propose 700 francs l’obtient. D’accord ? »).
 
-L'échange d'informations sur les prix est autorisé ("J'utilise un Yaesu FT-991A. Cela coûte actuellement environ 700 francs sur le marché de l'occasion."). L'offre, la négociation ou la conclusion concrète d'une vente, en revanche, est une transaction juridique et donc interdite ("J'ai un Yaesu FT-991A. La première personne à offrir 700 francs l'obtient. Deal?").
-
-Les informations purement associatives sans incitations financières font partie de l'exploitation normale ("Notre association organise une fête. Nous nous réjouissons des visiteurs et des aides."). La promesse de contreparties (bons, argent, services gratuits) transforme cependant l'appel en une offre juridique illicite ("Notre association recherche encore des aides pour la fête. Ceux qui aident reçoivent une restauration gratuite.").
+Les informations purement associatives sans incitation financière relèvent du fonctionnement normal de la radio (« Notre association organise une fête. Nous nous réjouissons des visiteurs et des bénévoles. »). En revanche, la promesse d’une contrepartie (bons d’achat, argent, services gratuits) transforme l’appel en une offre juridique interdite (« Notre association cherche encore des bénévoles pour la fête. Ceux qui aident reçoivent une collation gratuite. »).
 [question:VN016]
-%YPA: VN016: c n'est-il pas un peu faux.
+
 
 [question:VC114]
 [question:VC115]

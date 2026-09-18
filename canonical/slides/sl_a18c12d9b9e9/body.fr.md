@@ -1,27 +1,27 @@
-## Égalisation du potentiel dans les ménages et les stations
+## Mise à la terre des masses dans les habitations et les stations
 
-* Dans chaque ménage et dans chaque station radioamateur, il existe de nombreux objets électriquement conducteurs (par exemple, des lignes de terre, des conduites d'eau, des tuyaux de chauffage, des lignes coaxiales usuelles, des boîtiers métalliques)
-* Les défauts, les erreurs dans les installations électriques, les charges électrostatiques ou la foudre peuvent entraîner des différences de potentiel dangereuses
+* Dans chaque habitation et dans chaque station de radioamateur, il existe de nombreux objets conducteurs d'électricité (par exemple, conducteurs de mise à la terre, conduites d'eau, tuyaux de chauffage, câbles coaxiaux, boîtiers métalliques)
+* Des défauts, des erreurs dans les installations électriques, des charges électrostatiques ou la foudre peuvent entraîner des différences de potentiel dangereuses
 
 ---
 
-* En reliant toutes les parties conductrices dans une zone, une égalisation du potentiel est obtenue, qui protège les personnes des chocs électriques
-* Les connexions doivent être à faible impédance pour garantir une égalisation du potentiel sûre
+* En reliant tous les éléments conducteurs dans une zone, on obtient une mise à la terre des masses qui protège les personnes contre les chocs électriques
+* Les liaisons doivent être de faible résistance pour garantir une mise à la terre des masses sûre
 
 ---
 [question:AK202]
 
 ---
-## Résonance dans les lignes de terre séparées
+## Résonance dans les conducteurs de mise à la terre séparés
 
-* Les appareils sont mis à la terre pour dériver en toute sécurité les potentiels étrangers
-* Les courants haute fréquence cherchent souvent leur propre chemin - les lignes de terre séparées peuvent ainsi entrer en résonance avec la fréquence d'émission
+* Les appareils sont mis à la terre pour évacuer en toute sécurité les potentiels parasites
+* Les courants haute fréquence empruntent souvent leurs propres chemins – des conducteurs de mise à la terre séparés peuvent ainsi entrer en résonance avec la fréquence d’émission
 
 ---
 
-* Une résonance se produit lorsque la longueur de la ligne est de $ \lambda/4 $ ou d'un multiple impair de celle-ci
-* Comme l'extrémité de la ligne est mise à la terre, aucun ventre de tension ne peut s'y former - au lieu de cela, une tension élevée se forme à la connexion de la ligne de terre à l'émetteur
-* Le boîtier de l'émetteur devient "chaud" et sensible au toucher, ce qui peut entraîner un choc électrique ou des brûlures
+* Pour une longueur de conducteur de $ \lambda/4 $ ou un multiple impair de celle-ci, une résonance se produit
+* Comme l'extrémité du conducteur est mise à la terre, un ventre de tension ne peut pas s'y former – à la place, une tension élevée se forme à la connexion du conducteur de mise à la terre sur l'émetteur
+* Le boîtier de l'émetteur devient « chaud » et sensible au toucher, ce qui peut entraîner des chocs électriques ou des brûlures
 
 ---
 [question:AK203]
@@ -29,6 +29,6 @@
 ---
 ### Conseils
 
-* Changez la longueur de la ligne de terre séparée de sorte qu'aucune résonance ne se produise avec l'une des bandes radioamateurs
-* Si nécessaire, une ligne de terre existante doit être prolongée
+* Modifiez la longueur du conducteur de mise à la terre séparé de manière à éviter toute résonance avec l'une des bandes de radioamateur
+* Si nécessaire, il faut allonger un conducteur de mise à la terre existant
 

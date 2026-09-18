@@ -1,5 +1,5 @@
-La *sélectivité* d'un récepteur décrit sa capacité à recevoir le signal souhaité et à supprimer les signaux indésirables proches.
+La *sélectivité* d’un récepteur décrit sa capacité à recevoir le signal souhaité tout en supprimant les signaux indésirables proches.
 
-Prérequis pour une haute sélectivité d'un récepteur est une faible bande passante, qui est idéalement aussi étroite que la bande passante du signal à recevoir.
+Pour obtenir une haute sélectivité, un récepteur doit avoir une *bande passante* faible, idéalement limitée à la largeur de bande du signal à recevoir.
 
 [question:EF210]

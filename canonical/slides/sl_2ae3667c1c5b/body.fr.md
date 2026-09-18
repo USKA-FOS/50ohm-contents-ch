@@ -1,34 +1,34 @@
-* Contrôle automatique de gain (Automatic-Gain-Control, *AGC*) régule le signal de sortie AF en cas de signal d'entrée HF fluctuant
+* La régulation automatique du gain (*AGC*) ajuste le signal BF de sortie en fonction des variations du signal HF d'entrée
 * Utilisation par exemple en cas de fading
-* Les fluctuations de volume sont réduites
+* Les variations de volume sonore sont réduites
 
 ---
 ## Fonctionnement
 
-* Détection du niveau de réception à la sortie de la branche du récepteur
-* Cela permet de réguler l'amplification HF
-* Influence sur le volume de réception après la démodulation
-* Adaptation du comportement de réponse (temps de réponse, temps de décroissance) possible
+* Détection du niveau de réception à la sortie de la branche réceptrice
+* Cela permet de réguler le gain HF
+* Influence sur le volume sonore après la démodulation
+* Possibilité d'ajuster le comportement de réponse (temps de montée, temps de descente)
 <note>
-* Ne pas confondre avec le contrôle automatique de niveau (ALC) dans l'émetteur
+* Ne pas confondre avec la régulation automatique de niveau (*ALC*) dans l'émetteur
 </note>
 
 ---
 ## Modes AGC
 
 <left>
-* AGC Lente
-* AGC Normale
+* AGC Lent
+* AGC Normal
 * AGC Rapide
-* AGC Désactivée
+* AGC Désactivé
 </left>
 <right>
-* SSB: AGC Lente ou Normale
-* Morse: AGC Normale ou Rapide
-* Digimodes: AGC Rapide ou Désactivée
+* BLU : AGC Lent ou Normal
+* Morse : AGC Normal ou Rapide
+* Modes numériques : AGC Rapide ou Désactivé
 </right>
 <note>
-* Réponse plus rapide afin que les signaux forts ne puissent pas masquer les signaux faibles et que la régulation puisse suivre rapidement
+* Un comportement de réponse plus rapide permet d'éviter que des signaux forts n'écrasent des signaux faibles et que la régulation suive rapidement
 </note>
 
 ---

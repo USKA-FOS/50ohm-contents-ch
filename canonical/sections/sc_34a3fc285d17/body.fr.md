@@ -1,6 +1,9 @@
-Dans la classe N, nous avons déjà rencontré le Sporadic-E : Des zones fortement ionisées de petite taille se forment à environ $\qtyrange{100}{110}{\kilo\meter}$ d'altitude, qui renvoient les ondes radio vers la Terre et permettent ainsi de grandes portées pendant les mois d'été, dont l'apparition n'est cependant pas prévisible.
+Dans le chapitre [sec:sporadic_e_1], nous avons déjà abordé l’E sporadique : à une hauteur d’environ $\qtyrange{100}{110}{\kilo\meter}$, des zones fortement ionisées et de petite taille se forment. Elles réfléchissent les ondes radio vers la terre et permettent ainsi, pendant les mois d’été, d’atteindre de grandes distances, bien que leur apparition ne soit pas prévisible.
 
-Dans la classe E, le sujet est un peu approfondi : Comme la réfraction lors du Sporadic E se produit dans des conditions de la région E située à une altitude plus basse, la distance de saut maximale est inférieure à celle de la propagation via la région F, avec au maximum $\qty{2200}{\kilo\meter}$. En revanche, la zone morte est nettement plus petite, ce qui permet donc des liaisons radio sur des distances nettement plus courtes. On parle donc de conditions de *Short Skip* (en anglais *short skip* = "saut court") lors du Sporadic E.
+Voici quelques précisions supplémentaires : comme la réfraction lors de l’E sporadique se produit dans la couche E, située à une hauteur plus basse, la distance maximale de saut est limitée à $\qty{2200}{\kilo\meter}$, ce qui est inférieur à la propagation via la couche F. En revanche, la zone de silence est nettement plus petite, ce qui permet d’établir des liaisons radio sur des distances beaucoup plus courtes. C’est pourquoi on parle aussi, pour l’E sporadique, de conditions de *short skip* (en anglais *short skip* = « saut court »).
 
 [question:EH218]
 [question:EH304]
+
+
+<!-- Révision terminée, cela me convient. Vy 73 de Marc -->

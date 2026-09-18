@@ -1,35 +1,34 @@
+Imaginons que l’on soit un tout nouveau radioamateur et que l’on cherche à établir une liaison DX avec une station de radioamateur située sur un autre continent. Une telle liaison ne peut être établie que si les stations, dans les différentes régions du monde, utilisent les mêmes bandes de fréquences. Heureusement, il existe des accords internationaux à cet effet.
 
-Imaginez que vous êtes un radioamateur fraîchement diplômé et que vous cherchez à établir une liaison DX avec une station de radioamateur sur un autre continent. Cette liaison ne peut se faire que si les stations des différentes régions du monde peuvent utiliser les mêmes fréquences. Heureusement, il existe des accords internationaux à cet effet.
+Parmi les accords les plus importants qui régissent le radioamateurisme, mais aussi d’autres services de radiocommunication au niveau international, figurent le règlement des radiocommunications (RR), adopté dans le cadre de l’Union internationale des télécommunications (UIT), ainsi que les recommandations de la Conférence européenne des administrations des postes et télécommunications (CEPT).
 
-Parmi les accords les plus importants qui régissent le radioamateur, mais aussi d'autres services de radiocommunication, figurent le règlement international des télécommunications, les soi-disant Radio Regulations (RR), qui sont adoptées dans le cadre de l'Union internationale des télécommunications (International Telecommunication Union, ITU), ainsi que les recommandations de la Conférence européenne des administrations des postes et des télécommunications (European Conference of Postal and Telecommunications Administrations, CEPT).
+Ces accords internationaux s’appliquent aux États membres de ces organisations. Ils sont transposés dans les lois et ordonnances nationales. Par conséquent, ces accords ne s’appliquent pas directement aux radioamateurs, mais uniquement par le biais de leur transposition dans les lois et ordonnances nationales du pays où l’on se trouve.
 
-Ces accords internationaux s'appliquent aux États qui sont membres de ces organisations. Ils sont transposés dans les lois et règlements nationaux. Ces accords ne s'appliquent donc pas directement aux radioamateurs, mais toujours seulement à leur mise en œuvre dans les lois et règlements nationaux du pays dans lequel on se trouve.
+Les radioamateurs peuvent être fiers du fait que le radioamateurisme fait partie intégrante du règlement des radiocommunications (RR), l’un des accords internationaux les plus importants. Ses règles générales s’appliquent à tous les services de radiocommunication, y compris le radioamateurisme. [question:VA301]
 
-<margin>
-[photo:3:n_gesetze_vorschriften_backstein:Brique de l'action des briques de 1949]
-</margin>
-  
+Alors que l’UIT traite, par le biais du RR, des questions fondamentales relatives au radioamateurisme à l’échelle mondiale, la CEPT coordonne les normes en Europe. Elle a élaboré des recommandations concernant le contenu de l’examen du radioamateurisme et la reconnaissance mutuelle des certificats de radioamateur. Elle a également établi des règles relatives aux droits d’exploitation du radioamateurisme lors d’un séjour temporaire dans d’autres pays membres. Ce sujet a déjà été traité en détail dans le cadre des opérations radio internationales (chapitre 5).
+
+Nous avons déjà appris que les règles du RR ou les recommandations de la CEPT ne constituent pas directement un droit applicable en Suisse. Cependant, les dispositions de ces accords internationaux ont été prises en compte dans les lois concernées.
+
+En Suisse, le radioamateurisme n’est pas régi par une loi unique. Les conditions et exigences relatives à la participation au service d’amateur en Suisse sont définies par plusieurs lois et ordonnances. La base juridique la plus importante est constituée par la *loi sur les télécommunications (LTC)*, l’*ordonnance sur l’utilisation du spectre des fréquences radioélectriques (OUF)* et l’*ordonnance de l’OFCOM sur l’utilisation du spectre des fréquences radioélectriques (OUF- OFCOM)*.
+
 ---
+<law>
+[loi sur les télécommunications LTC](https://www.fedlex.admin.ch/eli/cc/1997/2187_2187_2187/fr)
 
-La base juridique allemande pour le radioamateur est la loi sur le radioamateur (AFuG). Les détails se trouvent dans le règlement sur le radioamateur (AFuV) ainsi que dans les dispositions ou communications de l'Agence fédérale des réseaux. En plus du droit spécifique au radioamateur, il existe d'autres réglementations qui concernent, entre autres, le radioamateur. Des exemples sont la marque CE ou le secret des télécommunications.
+[ordonnance sur l’utilisation du spectre des fréquences radioélectriques OUF](https://www.fedlex.admin.ch/eli/cc/2020/1024/fr)
 
-<indepth>
-Le 15 mars 1949, la première loi sur le radioamateur est entrée en vigueur avant même la loi fondamentale de la République fédérale d'Allemagne. Elle a été précédée par la légendaire *"action des briques"* : lorsque l'adoption de la loi menaçait de se retarder, les radioamateurs ont envoyé en janvier 1949 des colis de briques à M. Plünder, le président du Conseil économique. Une lettre de protestation était jointe à chaque colis, contenant la formulation "que l'on se plaignait ainsi du traitement lent de l'affaire".
-</indepth>
-
-Les radioamateurs peuvent être fiers que le radioamateur fasse partie du plus important traité international de télécommunications, les Radio Regulations (RR). Les règles générales de celles-ci s'appliquent à tous les services de radiocommunication, donc aussi au radioamateur. 
-[question:VA301]
-
-Alors que l'ITU traite avec les RR les questions fondamentales du radioamateur dans le monde entier, la CEPT coordonne les normes en Europe. Elle a élaboré des recommandations sur le contenu de l'examen du radioamateur et sur la reconnaissance mutuelle des certificats de radioamateur. En outre, il existe des règles pour les droits d'exploitation du radioamateur pendant un séjour de courte durée dans d'autres pays membres. Nous avons déjà traité ce sujet en détail en relation avec l'exploitation internationale des radiocommunications.
-
-Nous avons déjà appris que les règles des RR ou les recommandations de la CEPT ne sont pas un droit directement applicable en République fédérale d'Allemagne. Les dispositions de ces accords internationaux ont toutefois été prises en compte lors de l'adoption de la loi sur le radioamateur. La loi sur le radioamateur, qui s'intitule en réalité *loi sur le radioamateur*, constitue la base juridique du radioamateur en Allemagne. 
-[question:VC101]
+[ordonnance de l’OFCOM sur l’utilisation du spectre des fréquences radioélectriques OUF-OFCOM](https://www.fedlex.admin.ch/eli/cc/2020/914/fr)
+</law>
 [question:VU001]
+[question:VC101]
+Des détails et explications supplémentaires sont également disponibles dans les communications et notices, ainsi que sur le site web de l’OFCOM.
 
-Le Bundestag allemand a adopté en 1997 la loi sur le radioamateur actuellement en vigueur (AFuG). Le règlement actuel sur le radioamateur (AFuV) a été mis en vigueur par le ministre fédéral de la Numérisation et des Transports. Les tâches et compétences découlant de l'AFuG et de l'AFuV sont exercées par l'Agence fédérale des réseaux (BNetzA). 
+D’autres règles, contenues dans d’autres lois, peuvent également concerner le radioamateurisme. C’est le cas, par exemple, de l’*ordonnance sur la protection contre les rayonnements non ionisants (ORNI)*.
+
+%YPA an EXR: Pourquoi n’avons-nous pas adapté VC104 ?
 
 [question:VC104]
-
-La loi sur le radioamateur régit en principe le radioamateur. Dans d'autres lois, il existe cependant d'autres règles, dont certaines concernent également le radioamateur. C'est par exemple le cas de la *loi sur les télécommunications (TKG)*. 
-
-[question:VE101]
+Les tâches et compétences découlant de la loi sur le radioamateurisme (LRAm) et de l’ordonnance sur le radioamateurisme (ORAm) sont exercées par l’Agence fédérale des réseaux (BNetzA).
+Le Bureau fédéral de la communication (OFCOM) est compétent pour les questions relatives au radioamateurisme.
+% texte original laissé en l’état à titre de comparaison. La phrase ne me plaît pas encore. Même sans VC104, je ne la trouve pas négligeable. J’ai évité d’écrire « toutes les questions » car l’ORNI ne relève pas de l’OFCOM.

@@ -1,38 +1,38 @@
 <left>
-[picture:938:a_photoelement:Symbole de circuit Photoelement (Pile solaire)]
-[picture:958:monokristalline Silizium Solarzelle:Structure d'une pile solaire en silicium monocristallin]
+[picture:938:a_photoelement:Symbole de circuit d'un élément photoélectrique (cellule solaire)]
+[picture:958:monokristalline Silizium Solarzelle:Structure d'une cellule solaire en silicium monocristallin]
 </left>
 <right>
-* La pile solaire convertit l'énergie rayonnante optique en énergie électrique
+* Une cellule solaire convertit l'énergie rayonnante optique en énergie électrique
 * Structure de base similaire à celle d'une diode
 * L'énergie rayonnante libère des électrons
-* En connectant un consommateur électrique, ceux-ci peuvent circuler
+* En connectant un consommateur électrique, ces électrons peuvent circuler
 </right>
 ---
 [question:AB212]
 --- style="font-size: 0.7em;"
-### Caractéristiques des piles solaires
+### Caractéristiques des cellules solaires
 | l: Désignation       | c: Abréviation  | X: Explication   |
-| Tension à circuit ouvert | ${U}_{OC}$ |C'est la tension qui est présente sans charge sous un ensoleillement complet. |
-| Courant de court-circuit | ${I}_{SC}$  |C'est le courant qui circulera en cas de court-circuit à la sortie, sous un ensoleillement complet.| 
-[table:a_solarzelle:Caractéristiques des piles solaires]
+| Tension à circuit ouvert | ${U}_{OC}$ |Tension présente sans charge sous un ensoleillement maximal. |
+| Courant de court-circuit | ${I}_{SC}$  |Courant qui circule en cas de court-circuit à la sortie, sous un ensoleillement maximal.| 
+[table:a_solarzelle:Caractéristiques des cellules solaires]
 ---
-### Assemblage de piles solaires
+### Association de cellules solaires
 
 <left>
-[picture:949:Solarmodul mit Zellen:Assemblage de piles solaires dans un module solaire]
+[picture:949:Solarmodul mit Zellen:Association de cellules solaires dans un module solaire]
 </left>
 <right>
-Dans le cas d'un montage en série et en parallèle, la tension aux bornes et le courant de charge maximal changent
+En montage en série et en parallèle, la tension aux bornes et le courant de charge maximal changent
 </right>
 <note>
-Analogique au montage en série et en parallèle des accumulateurs ou des sources de tension
+Analogue au montage en série et en parallèle d'accumulateurs ou de sources de tension
 </note>
 
 ---
 [question:AD301]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $U_0 = \qty{0,6}{\volt}$
 * donné : $I_k = \qty{1}{\ampere}$
 * donné : $N_R = 30, N_P = 4$

@@ -3,21 +3,20 @@
     <script src="https://www.50ohm.de/assets/chartjs/4.4.1/chart.min.js"></script>
 
     <p>
-    En appuyant sur le bouton "Activer le microphone", le microphone du navigateur
-    est activé. Ensuite, vous pouvez examiner le spectre de votre propre voix. En appuyant sur le bouton "Désactiver le microphone", le microphone du navigateur
-    est désactivé.
+    En appuyant sur le bouton « Activer le microphone », le microphone du navigateur est activé. 
+    Vous pouvez ensuite observer le spectre de votre voix. En appuyant sur le bouton « Désactiver le microphone », le microphone du navigateur est désactivé.
     </p>
 
     <p>
         <button onclick="start()">Activer le microphone</button>
-        <button onclick="stop()">Désactiver le microphone</button>
+        <button onclick="stop()">Couper le microphone</button>
     </p>
 
     <p>
         <canvas id="Spectrum" style="max-height:200px;"></canvas>
     </p>
 
-    Amplitude la plus forte à la fréquence f =
+    Amplitude maximale à la fréquence f = 
     <div id="mainfrequency" style="display:inline-block;">0</div> Hz<br>
 
     <script type="text/javascript">

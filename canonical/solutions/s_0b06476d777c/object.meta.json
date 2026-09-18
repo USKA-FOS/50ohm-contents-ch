@@ -11,7 +11,8 @@
   ],
   "languages": [
     "de",
-    "it"
+    "it",
+    "fr"
   ],
   "metadata": {
     "lifecycle": {
@@ -42,7 +43,7 @@
     },
     {
       "language": "fr",
-      "state": "to_be_translated"
+      "state": "to_be_reviewed"
     },
     {
       "language": "it",
@@ -62,7 +63,8 @@
       "storage": {
         "files": {
           "de": "body.de.md",
-          "it": "body.it.md"
+          "it": "body.it.md",
+          "fr": "body.fr.md"
         },
         "kind": "text_file"
       },

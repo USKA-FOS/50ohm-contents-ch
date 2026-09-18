@@ -1,7 +1,7 @@
-* Représente le signal d'entrée de manière linéaire sur le signal de sortie
-* Cependant, augmenté du facteur d'amplification
+* Reproduit linéairement le signal d'entrée sur le signal de sortie
+* Mais amplifié par le facteur de gain
 * Aucune distorsion ne se produit
-* Nécessaire pour les types de modulation qui transmettent l'information dans l'amplitude ou la phase (SSB, AM, QAM, QPSK, PSK, ...)
+* Nécessaire pour les modes de modulation qui transmettent l'information dans l'amplitude ou la phase (BLU, AM, QAM, QPSK, PSK, ...)
 
 ---
 [question:AD431]

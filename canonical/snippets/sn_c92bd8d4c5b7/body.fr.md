@@ -1,1 +1,1 @@
-Auto-étude
+Auto-apprentissage

@@ -1,20 +1,20 @@
-## Examen des perturbations sur les appareils
+## Analyse des perturbations sur les appareils
 
-* Décrochage systématique des connexions
-* Vérification si la perturbation est toujours présente
-* Cause : Intrusions ou irradiation directe
+* Vérification systématique des connexions  
+* Contrôle de la persistance de la perturbation  
+* Cause : courants entrants ou rayonnement direct  
 
 ---
 
-### Filtre secteur contre les intrusions
+### Filtre secteur contre les courants entrants
 
 <left>
-[picture:164:a_stoerungen_elektrischer_geraete_tiefpassfilter:Filtre passe-bas]
+[picture:164:a_stoerungen_elektronischer_geraete_tiefpassfilter:Filtre passe-bas]
 </left>
 <right>
-* Filtre secteur en tant que filtre passe-bas
-* Réduit les perturbations via la ligne d'alimentation secteur
-* Disponible selon les directives VDE
+* Filtre secteur conçu comme un filtre passe-bas  
+* Réduit les perturbations via l'alimentation secteur  
+* Disponible selon les normes VDE  
 </right>
 
 ---
@@ -31,11 +31,11 @@
 
 ---
 
-### Blindage des récepteurs faits maison
+### Blindage des récepteurs de construction amateur
 
-* Perturbations de réception dues à un mauvais blindage
-* Installer le récepteur dans un boîtier métallique mis à la terre
-* Particulièrement important pour la technologie SDR
+* Perturbations de réception dues à un blindage insuffisant  
+* Installer le récepteur dans un boîtier métallique mis à la masse  
+* Particulièrement important avec la technologie SDR  
 
 ---
 
@@ -49,9 +49,9 @@
 
 ### Potentiel de perturbation des différents modes de fonctionnement
 
-* CW et SSB génèrent des perturbations par des changements rapides d'amplitude
-* HF est redressé aux jonctions base-émetteur
-* BF démodulé audible dans les haut-parleurs
+* Le CW et le BLU génèrent des perturbations en raison de variations rapides d'amplitude  
+* La HF est redressée au niveau des jonctions base-émetteur  
+* La BF démodulée est audible dans les haut-parleurs  
 
 ---
 
@@ -65,11 +65,11 @@
 
 ### Protection des récepteurs DVB-T
 
-* Un filtre passe-haut protège contre les signaux forts
-* Efficace uniquement avec les antennes passives
-* Les préamplificateurs non sélectifs sont particulièrement sensibles aux perturbations
-* Filtre nécessaire avant l'amplificateur pour les antennes actives
-* L'atténuation d'insertion doit être $\le\qtyrange{2}{3}{\dB}$
+* Un filtre passe-haut protège contre les signaux forts  
+* Efficace uniquement avec des antennes passives  
+* Les préamplificateurs non sélectifs sont particulièrement sensibles aux perturbations  
+* Un filtre est nécessaire avant l'amplificateur en cas d'antennes actives  
+* L'affaiblissement d'insertion doit être $\le\qtyrange{2}{3}{\dB}$  
 
 ---
 
@@ -85,15 +85,15 @@
 
 ---
 
-### Filtres passe-bas pour émetteurs ondes courtes
+### Filtre passe-bas pour émetteurs ondes courtes
 
 <left>
 [photo:201:a_stoerungen_elektrischer_geraete_tiefpassfilter:Filtre passe-bas pour ondes courtes avec réponse en fréquence]
 </left>
 <right>
 * Fréquence de coupure $\qtyrange{30}{40}{\mega\hertz}$
-* Tuner d'antenne en configuration passe-bas comme alternative
-* Réduction des émissions d'harmoniques supérieures
+* Un tuner d'antenne en configuration passe-bas peut servir d'alternative  
+* Réduction des émissions d'harmoniques  
 </right>
 
 ---
@@ -106,11 +106,11 @@
 
 ---
 
-### Perturbations par des signaux radioamateurs forts
+### Perturbations causées par des signaux radioamateurs puissants
 
-* Perturbations de réception sur DAB, TV et FM
-* Cause : Surcharge de l'entrée du récepteur
-* Réduction de la sensibilité ou pannes complètes
+* Perturbations de réception sur DAB, TV et FM  
+* Cause : surmodulation de l'entrée du récepteur  
+* Réduction de la sensibilité ou pannes complètes  
 
 ---
 
@@ -128,8 +128,8 @@
 
 ### Minimisation des perturbations par la puissance d'émission
 
-* Fonctionnement avec la puissance minimale requise
-* Éviter les perturbations inutiles
+* Utilisation de la puissance minimale nécessaire  
+* Éviter les perturbations inutiles  
 
 ---
 
@@ -137,13 +137,13 @@
 
 ---
 
-### Condensateurs de blocage contre les perturbations HF
+### Condensateurs de découplage contre les perturbations HF
 
-* Déviation des HF vers la masse
-* Les condensateurs céramiques sont les plus adaptés
-* Les condensateurs électrolytiques et en plastique sont inappropriés
-* Combinaison avec des condensateurs en tantale possible
-* Mise à la terre avec une impédance faible nécessaire
+* Dérivation de la HF vers la masse  
+* Les condensateurs en céramique sont les plus adaptés  
+* Les condensateurs électrolytiques et plastiques sont inadaptés  
+* Combinaison possible avec des condensateurs au tantale  
+* Mise à la masse avec une impédance faible nécessaire  
 
 ---
 
@@ -155,15 +155,14 @@
 
 ---
 
-### Bobines HF dans les alimentations électriques
+### Selfs HF dans l'alimentation électrique
 
-* Bloquent les intrusions haute fréquence
-* Empêchent les reflux HF dans l'alimentation électrique
-* Les capacités propres peuvent générer des résonances secondaires
-* Les résonances secondaires influencent négativement les étages HF
-* Les amplificateurs peuvent recevoir des rétroactions indésirables
+* Blocage des courants entrants haute fréquence  
+* Empêche les retours HF dans l'alimentation électrique  
+* Les capacités parasites peuvent générer des résonances parasites  
+* Les résonances parasites influencent négativement les étages HF  
+* Les amplificateurs peuvent subir des couplages indésirables  
 
 ---
 
 [question:AJ214]
-

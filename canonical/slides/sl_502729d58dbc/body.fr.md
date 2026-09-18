@@ -3,13 +3,13 @@
 [picture:713:n_frequenz_elektrische_ladungen:Particules chargées positivement et négativement réparties uniformément dans un objet.]
 </left>
 <right>
-* Toutes les substances sont constituées de minuscules particules chargées électriquement
-* Certaines sont chargées "positivement" (Plus)
-* Certaines sont chargées "négativement" (Moins)
+* Tous les matériaux sont constitués de minuscules particules chargées électriquement
+* Certaines sont chargées "positivement" (plus)
+* Certaines sont chargées "négativement" (moins)
 </right>
 
 <note>
-C'est la classe N - nous sommes assez précis pour comprendre le principe, mais nous n'entrons pas dans la physique des particules.
+C'est le niveau Classe N – nous sommes suffisamment précis pour comprendre le principe, mais nous n'entrons pas dans la physique des particules.
 </note>
 
 ---
@@ -23,7 +23,7 @@ C'est la classe N - nous sommes assez précis pour comprendre le principe, mais 
 * La plupart des objets sont électriquement équilibrés
 </right>
 <note>
-Sauf si on "prend une décharge".
+Sauf quand on reçoit "une décharge".
 </note>
 ---
 
@@ -31,32 +31,32 @@ Sauf si on "prend une décharge".
 
 * Les charges peuvent être séparées de manière ciblée
 * Dans une batterie, une cellule solaire ou une éolienne
-* Les charges tentent de se réunir
-* Il y a une tension électrique
-* Les appareils de séparation des charges s'appellent *sources de tension*
+* Les charges tentent de se rejoindre
+* Il existe une *tension* électrique
+* Les dispositifs servant à séparer les charges s'appellent des *sources de tension*
 
 ---
 
 ## Source de tension
 
-* La borne positivement chargée s'appelle le pôle positif
-* La borne négativement chargée s'appelle le pôle négatif
-* La tension peut être de différentes grandeurs
-* Les sources de tension, dont les pôles oscillent constamment entre une tension positive et négative, produisent une tension alternative
+* Le pôle chargé positivement s'appelle pôle positif
+* Le pôle chargé négativement s'appelle pôle négatif
+* La tension peut être de différentes valeurs
+* Les sources de tension dont les pôles oscillent constamment entre une tension positive et négative produisent une tension alternative
 
 <fragment>
-La tension électrique est mesurée dans l'unité volt avec l'abréviation $\unit{V}$.
+La tension électrique se mesure en volts, avec l'unité $\unit{V}$.
 </fragment>
 
 ---
 
-## Consommateur électrique
+## Récepteur électrique
 
 <left>
-[picture:714:n_frequenz_strom_fliesst:Les pôles d'une batterie, au pôle négatif se trouve un excès de charges négatives et au pôle positif un excès de charges positives, les pôles de la batterie sont connectés, donc le courant peut circuler à travers le consommateur.]
+[picture:714:n_frequenz_strom_fliesst:Les pôles d'une batterie, le pôle négatif présente un excès de charges négatives et le pôle positif un excès de charges positives, les pôles de la batterie sont reliés, donc le courant peut circuler à travers le récepteur.]
 </left>
 <right>
-* Lorsqu'un consommateur électrique est connecté entre les deux pôles, les charges se déplacent
+* Si un récepteur électrique est branché entre les deux pôles, les charges se déplacent
 * Un courant électrique circule
-* Le mouvement des charges se termine par un équilibre des porteurs de charge aux pôles
+* Le mouvement des charges cesse lorsque les porteurs de charge s'équilibrent aux pôles
 </right>

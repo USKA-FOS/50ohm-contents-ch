@@ -1,7 +1,7 @@
-* Fonctionnement automatique de l'émission par reconnaissance vocale au lieu de PTT
-* *voice-operated exchange* (*VOX*)
-* Lors de la parole, l'émetteur-récepteur passe en émission
-* En cas de silence, le fonctionnement de l'émission se termine après un court retard
+* Fonctionnement en émission automatique par la voix au lieu de l’utilisation du PTT
+* *Voice-operated exchange* (*VOX*)
+* En parlant, l’émetteur-récepteur passe en émission
+* À la fin de la parole, le fonctionnement en émission se termine après un court retard
 
 <note>
 Le niveau et le retard peuvent souvent être réglés

@@ -1,17 +1,27 @@
-### Autorisation
+### Attestation d’examen
 
-* En plus d'un examen de radioamateur réussi, une "autorisation de participer au service de radioamateur" est absolument nécessaire pour pouvoir exploiter une station de radioamateur.
-
-* Cette autorisation est accompagnée de l'attribution d'un indicatif d'appel personnel.
-
-* La loi sur les radiocommunications amateurs (AFuG) ne prévoit pas d'âge minimum.
+* Après avoir réussi l’examen, on reçoit un *avis d’examen* ainsi qu’une *attestation d’examen pour le radioamateurisme* et on peut se nommer radioamateur
+* Cependant, cela ne permet pas encore d’exploiter une station de radioamateur !
 
 ---
 
-[photo:91:n_zulassung_urkunde:Le certificat d'autorisation]
+### Autorisation
+
+<left>
+* Nécessaire en plus : l’*autorisation de participer au service d’amateur*
+* C’est seulement avec l’attestation d’autorisation que l’indicatif d’appel personnel est attribué
+</left>
+<right>
+[photo:91:n_zulassung_urkunde:L’attestation d’autorisation]
+</right>
 
 ---
 [question:VC106]
+
+---
+
+* La loi sur le radioamateurisme ne prévoit pas d’âge minimum pour les radioamateurs
+* Selon le § 4 AFuG, toute personne physique ayant son domicile en Allemagne peut, sur demande, être admise à l’examen technique pour les radioamateurs
 
 ---
 [question:VC108]

@@ -1,3 +1,3 @@
-Pour qu'une bobine d'un circuit oscillant accordé émette ou soit influencée le moins possible par l'énergie électromagnétique, elle est souvent logée dans un boîtier métallique conducteur. Celui-ci agit comme un écran et réduit les rayonnements et les irradiations indésirables.
+Afin que la **bobine** d'un circuit résonant accordé émette le moins possible d'énergie électromagnétique ou ne soit pas influencée de l'extérieur, elle est souvent placée dans un boîtier métallique conducteur. Celui-ci agit comme un écran et réduit les rayonnements indésirables ainsi que les perturbations par induction.
 
-Un boîtier en plastique, en revanche, n'a pas d'effet d'écran.
+Un boîtier en plastique, en revanche, n'a aucun effet d'écran.

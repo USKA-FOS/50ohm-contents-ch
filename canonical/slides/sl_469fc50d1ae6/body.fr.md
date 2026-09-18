@@ -1,13 +1,13 @@
 ## Amplitude
 
 <left>
-[picture:726:amplitude_periode_amplitudee: Amplitude d'une oscillation sinusoïdale]
+[picture:726:amplitude_periode_amplitudee: Amplitude d’une oscillation sinusoïdale]
 </left>
 <right>
-La distance maximale par rapport à la ligne de référence au point le plus haut ou le plus bas s'appelle *amplitude*
+La distance maximale entre la ligne zéro et le point le plus haut ou le plus bas s’appelle *amplitude*
 </right>
 <note>
-* Représentation des oscillations sur un *oscilloscope* possible
+* Représentation des oscillations possible sur un *oscilloscope*
 * Cette représentation visuelle est appelée *oscillogramme*
 </note>
 ---
@@ -17,20 +17,20 @@ La distance maximale par rapport à la ligne de référence au point le plus hau
 ## Demi-ondes
 
 <left>
-[picture:727:amplitude_periode_halbwellen:Demi-ondes positives et négatives d'une oscillation sinusoïdale]
+[picture:727:amplitude_periode_halbwellen: Demi-ondes positives et négatives d’une oscillation sinusoïdale]
 </left>
 <right>
-Dans une oscillation sinusoïdale, il y a des demi-ondes *positives* et *négatives*
+Dans une oscillation sinusoïdale, il existe des *demi-ondes* positives et négatives
 </right>
 
 ---
 ## Période
 
 <left>
-[picture:728:amplitude_periode_perioden:Périodes d'une oscillation sinusoïdale]
+[picture:728:amplitude_periode_perioden:périodes d’une oscillation sinusoïdale]
 </left>
 <right>
-Le temps ($t$) du début d'une demi-onde positive à la fin de la demi-onde négative suivante s'appelle *période* ou *durée d’une période*
+Le *temps* ($t$) entre le début d’une demi-onde positive et la fin de la demi-onde négative suivante s’appelle *période* ou *durée d’une période*
 </right>
 ---
 ## Interactif
@@ -38,8 +38,8 @@ Le temps ($t$) du début d'une demi-onde positive à la fin de la demi-onde nég
 [include:applet_sinus_amplitude_und_periode]
 
 <note>
-* Les réglages dans le Speaker View ne sont visibles qu'à cet endroit et ne sont pas reflétés
-* Pour la démonstration, utiliser la grande fenêtre de présentation
+* Les paramètres dans la vue Speaker ne sont visibles que dans cette vue et ne sont pas reflétés
+* Utiliser la grande fenêtre de présentation pour la démonstration
 </note>
 
 ---

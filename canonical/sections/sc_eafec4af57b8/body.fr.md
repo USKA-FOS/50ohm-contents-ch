@@ -1,33 +1,72 @@
-La modulation par déplacement de phase (Phase Shift Keying, PSK) est un procédé de modulation numérique utilisé pour la transmission de données dans les télécommunications et en radioamateur. La PSK repose sur la modification de la phase d'un signal porteur pour représenter différents états de données. Comparée à la modulation d'amplitude ou de fréquence, la PSK est moins sensible au bruit d'amplitude et peut atteindre un débit de données plus élevé pour une bande passante donnée.
+Dans la modulation par déplacement de phase (Phase-Shift Keying, PSK), les différents symboles sont représentés par des décalages de phase distincts d'une porteuse. L'amplitude et la fréquence de la porteuse restent inchangées. En revanche, lors du passage d'un symbole à l'autre, la phase peut varier.
 
-[picture:705:psk:Modulation par déplacement de phase (Phase-shift Keying)]
+L'illustration [ref:a_psk] montre un signal PSK dans le domaine temporel. Aux limites des symboles, on observe que l'oscillation se poursuit avec une autre phase.
 
-Principe de la modulation par déplacement de phase (PSK)
+<margin>
+[picture:705:a_psk:Modulation par déplacement de phase (Phase-Shift Keying)]
+</margin>
 
-Dans sa forme la plus simple, le **BPSK (Binary Phase Shift Keying)**, il existe deux angles de phase, par exemple $\qty{0}{\degree}$ et $\qty{180}{\degree}$. Chaque angle de phase représente une valeur binaire ($\num{0}$ ou $\num{1}$). Lors d'un changement des valeurs binaires, la phase du porteur change de $\qty{180}{\degree}$.
+---
 
-Pour des débits de données plus élevés, il existe des variantes telles que le **QPSK (Quadrature Phase Shift Keying)** et le **8-PSK**, qui utilisent respectivement quatre et huit positions de phase pour transmettre plusieurs bits par symbole:
-- **QPSK**: Utilise quatre phases ($\qty{0}{\degree}$, $\qty{90}{\degree}$, $\qty{180}{\degree}$ et $\qty{270}{\degree}$) pour coder respectivement deux bits par symbole.
-- **8-PSK**: Utilise huit phases pour coder trois bits par symbole.
+La forme la plus simple est la modulation par déplacement de phase binaire (Binary Phase-Shift Keying, BPSK). Elle utilise deux décalages de phase distincts et donc deux symboles possibles. Par exemple, les décalages de phase à $\qty{0}{\degree}$ et $\qty{180}{\degree}$ peuvent être associés aux valeurs de bits $0$ et $1$. L'illustration [ref:a_psk_mapping] montre une association possible des deux valeurs de bits aux deux symboles BPSK.
 
-Signaux dans la représentation temporelle
+Comme les deux symboles ne diffèrent que par leur phase et que leur amplitude est identique, les deux points du diagramme de constellation sont situés en opposition sur un cercle.
 
-Dans la représentation temporelle d'un signal PSK, la modulation par déplacement de phase se manifeste par un changement brutal de l'angle de phase du signal porteur, tandis que l'amplitude reste constante. Il s'agit d'une différence marquée par rapport à la modulation d'amplitude ou de fréquence, car l'amplitude et la fréquence du signal restent constantes, seule la phase change à chaque changement de symbole.
+<margin>
+[picture:1101:a_psk_mapping:BPSK dans un diagramme de constellation]
+</margin>
 
-Exemple: BPSK dans la représentation temporelle
-- Dans le cas du BPSK, le signal est divisé en deux phases: par exemple, une amplitude positive pour une phase ($\qty{0}{\degree}$) et une amplitude négative pour la phase opposée ($\qty{180}{\degree}$).
-- Dans un diagramme temporel, on observe donc un saut du signal à chaque changement de bit, par exemple de positif à négatif ou vice versa.
+<indepth>
+Précision : techniquement, la BPSK avec les angles $\qty{0}{\degree}$ et $\qty{180}{\degree}$ peut aussi être considérée comme une modulation ASK où l'amplitude du signal porteur est commutée entre une valeur négative et une valeur positive. La multiplication par $-1$ d'un signal sinusoïdal équivaut à un décalage de phase de $\qty{180}{\degree}$ :
 
-Exemple: QPSK dans la représentation temporelle
-- Ici, on observe quatre angles de phase différents. Les transitions peuvent également être abruptes, mais l'amplitude ne change pas.
-- Comme plusieurs angles de phase sont utilisés, les sauts de phase sont plus petits, et la courbe a un aspect légèrement "lissé" par rapport au BPSK.
+$-\sin(\omega t)=\sin(\omega t+\qty{180}{\degree})$
 
-Comment les signaux sont identifiés
-
-Dans un oscilloscope ou un diagramme de phase, les transitions de phase sont visibles:
-- **Dans le domaine temporel**: Un basculement brutal de la phase du signal (positif à négatif ou entre différentes positions de phase).
-- **Dans le diagramme de phase** (souvent affiché sous forme de diagramme de constellation): Chaque angle de phase est représenté par un point sur un cercle, qui correspond aux différents états (bits). Pour un signal propre, les points restent stables à des positions fixes.
-
-La PSK est particulièrement utile dans les communications numériques, car elle permet des débits de données élevés tout en assurant une transmission relativement robuste. La modification de la phase tout en maintenant une amplitude constante aide à mieux identifier le signal même en présence de bruit et d'interférences, permettant ainsi une transmission plus stable.
+Il s'agit d'un cas particulier. D'autres angles de phase, comme $\qty{90}{\degree}$ et $\qty{270}{\degree}$, seraient également possibles, leurs deux phases de symbole étant séparées de $\qty{180}{\degree}$.
+</indepth>
 
 [question:AE401]
+
+---
+
+Avec plus de deux décalages de phase distincts, il est possible de représenter davantage de symboles. Cela permet de regrouper plusieurs bits en un seul symbole.
+
+---
+
+Dans la modulation par déplacement de phase en quadrature (Quadrature Phase-Shift Keying, QPSK), quatre décalages de phase distincts sont utilisés, offrant ainsi quatre symboles possibles. Comme il existe quatre combinaisons de bits possibles à partir de deux bits, chaque symbole permet de transmettre deux bits.
+
+Pour comparaison :
+
+* BPSK : $\num{2}$ symboles → $\num{1}$ bit par symbole
+* QPSK : $\num{4}$ symboles → $\num{2}$ bits par symbole
+* 8-PSK : $\num{8}$ symboles → $\num{3}$ bits par symbole
+
+[question:AE402]
+
+Examinons maintenant la QPSK dans un diagramme de constellation. Les quatre symboles possibles ont la même amplitude, mais diffèrent par leur phase. C'est pourquoi les quatre points du signal se trouvent sur un cercle. L'illustration [ref:a_qpsk] montre une association possible des quatre combinaisons de bits $00$, $01$, $10$ et $11$ aux quatre symboles QPSK.
+
+<margin>
+[picture:1059:a_qpsk:Diagramme I/Q pour une association QPSK]
+</margin>
+
+---
+
+Dans cet exemple, les décalages de phase suivants sont utilisés :
+
+* $11$ correspond à $\qty{45}{\degree}$
+* $01$ correspond à $\qty{135}{\degree}$
+* $00$ correspond à $\qty{225}{\degree}$
+* $10$ correspond à $\qty{315}{\degree}$
+
+<margin>
+L'applet suivant illustre la modulation numérique QPSK. Dans un système réel, le signal est affecté par le bruit et d'autres perturbations. Les points du signal reçu ne se trouvent donc pas exactement sur les positions idéales, mais s'écartent à la fois en amplitude et en phase. L'applet simule cela en ajoutant du bruit. Les croix marquent les quatre symboles QPSK idéaux. Chaque point coloré représente une valeur de réception bruitée. Le récepteur l'attribue au symbole le plus proche. Les zones colorées en arrière-plan sont les zones de décision du récepteur. Tant qu'une valeur de réception bruitée reste dans la zone du symbole initialement émis, elle est correctement reconnue. Si un point dépasse une limite vers une zone voisine en raison d'un bruit important, le récepteur choisit le mauvais symbole. Cependant, ces erreurs peuvent être corrigées par un codage de canal. Nous aborderons ce sujet dans une section ultérieure.
+
+[include:applet_qpsk]
+</margin>
+
+Les quatre décalages de phase sont chacun décalés de $\qty{90}{\degree}$ les uns par rapport aux autres. Le récepteur peut déterminer le symbole, et donc la combinaison de bits transmise, en fonction de la phase détectée.
+
+L'attribution des combinaisons de bits aux différents décalages de phase n'est pas définie de manière unique. L'essentiel est d'abord que chaque symbole soit associé à une combinaison de bits unique.
+
+En pratique, l'attribution est souvent choisie de manière à ce que les combinaisons de bits de symboles voisins ne diffèrent que par un seul bit. Une telle attribution est appelée *code de Gray*. Si un point de signal voisin est détecté par erreur en raison du bruit, cela ne conduit souvent qu'à une seule erreur de bit.
+
+Le diagramme de constellation met ainsi en évidence une différence essentielle entre l'ASK et la PSK : dans l'ASK, les symboles diffèrent par leur distance par rapport à l'origine et se trouvent généralement uniquement sur l'axe I positif, tandis que dans la PSK, ils diffèrent par leur angle. Avec la PSK, les points du signal se trouvent donc sur un cercle si l'amplitude est identique.

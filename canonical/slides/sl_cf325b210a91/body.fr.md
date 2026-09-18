@@ -1,9 +1,9 @@
-## Transformation d'impédance dans le câble d'alimentation
+## Transformation d’impédance dans la ligne d’alimentation
 
-* L'impédance de la ligne différente de la Résistance de charge entraîne, outre les ondes stationnaires, une transformation d'impédance
-* La source de signal "voit" des résistances différentes aux extrémités du câble
-* Les lignes $\lambda/4$ transforment les petites en grandes et les grandes en petites résistances actives
-* Les lignes $\lambda/2$ n'effectuent aucune transformation d'impédance
+* Une impédance caractéristique différente de la résistance de charge entraîne, en plus des ondes stationnaires, une transformation d’impédance
+* La source de signal « voit » des résistances différentes aux extrémités du câble
+* Les lignes de $\lambda/4$ transforment les petites résistances en grandes et les grandes en petites
+* Les lignes de $\lambda/2$ ne provoquent aucune transformation d’impédance
 
 ---
 [question:AG412]
@@ -15,11 +15,11 @@
 ### Alimentation des dipôles demi-onde et onde entière
 
 <left>
-[picture:312:a_impedanztransformation_speiseleitung:Dipôle demi-onde avec transformation d'impédance via le câble d'alimentation]
+[picture:312:a_impedanztransformation_speiseleitung:Dipôle demi-onde avec transformation d’impédance via la ligne d’alimentation]
 </left>
 <right>
-* Dipôle demi-onde : alimenté par le courant (faible impédance)
-* Dipôle onde entière : alimenté par la tension (haute impédance)
+* Dipôle demi-onde : alimentation par courant (faible impédance)
+* Dipôle onde entière : alimentation par tension (impédance élevée)
 </right>
 
 ---
@@ -32,14 +32,14 @@
 [question:AG415]
 ---
 
-### Calcul de l'impédance de la ligne
-* Pour une transformation d'impédance ciblée, on a : $Z = \sqrt{Z_\mathrm{E} \cdot Z_\mathrm{A}}$
-* L'impédance de la ligne résulte de la moyenne géométrique de la résistance d'alimentation et de charge
+### Calcul de l’impédance caractéristique
+* Pour une transformation d’impédance ciblée, on a : $Z = \sqrt{Z_\mathrm{E} \cdot Z_\mathrm{A}}$
+* L’impédance caractéristique est la moyenne géométrique entre l’impédance de la ligne et la résistance de charge
 
 ---
 [question:AG417]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $Z_A = \qty{60}{\ohm}$
 * donné : $Z_E = \qty{240}{\ohm}$
 * recherché : $Z$
@@ -50,7 +50,7 @@ $\begin{split}Z &= \sqrt{Z_E \cdot Z_A}\\ &= \sqrt{\qty{240}{\ohm} \cdot \qty{60
 ---
 [question:AG418]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $Z_A = \qty{240}{\ohm}$
 * donné : $Z_E = \qty{600}{\ohm}$
 * recherché : $Z$
@@ -60,19 +60,19 @@ $\begin{split}Z &= \sqrt{Z_E \cdot Z_A}\\ &= \sqrt{\qty{600}{\ohm} \cdot \qty{24
 </fragment>
 ---
 
-### Adaptation d'impédance avec des filtres Pi
+### Adaptation d’impédance avec des filtres en π
 
 <left>
-[picture:425:a_impedanztransformation_pi_filter:Filtre Pi pour la transformation d'impédance]
+[picture:425:a_impedanztransformation_pi_filter:Filtre en π pour la transformation d’impédance]
 </left>
 <right>
-* Les bobines et les condensateurs sont utilisés pour l'adaptation d'impédance
-* Les filtres Pi agissent comme des passe-bas et transforment l'impédance
-* Ils peuvent être utilisés comme accordeur d’antenne
+* Des bobines et des condensateurs sont utilisés pour l’adaptation d’impédance
+* Les filtres en π agissent comme des passe-bas et transforment l’impédance
+* Ils peuvent être utilisés comme accordeurs d’antenne
 </right>
 
 <note>
-Le nom "filtre Pi" provient de la disposition des composants, qui rappellent la lettre grecque $\pi$ et n'ont rien à voir avec le Nombre Pi.
+Le nom « filtre en π » provient de l’agencement des composants, qui rappelle la lettre grecque $\pi$ et n’a rien à voir avec le nombre Pi.
 </note>
 
 ---

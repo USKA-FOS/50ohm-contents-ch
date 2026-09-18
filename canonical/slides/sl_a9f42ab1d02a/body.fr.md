@@ -1,7 +1,7 @@
 ## Raisons des perturbations
 
-* Composantes de fréquence indésirables qui ne sont pas suffisamment supprimées
-* Appareils insuffisamment blindés ou insuffisamment mis à la terre 
+* Composantes de fréquence indésirables insuffisamment supprimées
+* Appareils mal blindés ou mal mis à la terre
 * Les émissions souhaitées elles-mêmes
 
 ---
@@ -9,11 +9,11 @@
 ### Perturbation
 
 <left>
-[picture:745:stoerungen_vermeiden_oberschwingung:Perturbation de la réception DVB-T2 d'un téléviseur par l'harmonique supérieure d'une émission radioamateur]
+[picture:745:stoerungen_vermeiden_oberschwingung:Perturbation de la réception DVB-T2 d'un téléviseur par une harmonique d'une émission de radioamateur]
 </left>
 <right>
-* Dépassement des limites par l'installation radioamateur
-* Par exemple, une harmonique supérieure
+* Limites dépassées par l'installation de radioamateur
+* Par exemple, une harmonique
 </right>
 
 ---
@@ -21,13 +21,13 @@
 ### Influence perturbatrice
 
 <left>
-[picture:744:stoerungen_vermeiden_einstrahlung:Irradiation via l'antenne de réception]
-[picture:746:stoerungen_vermeiden_direkteinstrahlung:Irradiation directe dans un appareil]
+[picture:744:stoerungen_vermeiden_einstrahlung:Rayonnement via l'antenne de réception]
+[picture:746:stoerungen_vermeiden_direkteinstrahlung:Rayonnement direct dans un appareil]
 </left>
 <right>
-[picture:747:stoerungen_vermeiden_einstroemung:Entrée via les lignes de connexion]
+[picture:747:stoerungen_vermeiden_einstroemung:Afflux via les câbles de connexion]
 * Les limites sont respectées
-* Les voies peuvent survenir individuellement ou ensemble
+* Les voies peuvent survenir individuellement ou conjointement
 </right>
 
 ---
@@ -35,7 +35,7 @@
 ## Gestion des perturbations
 
 * Éviter les conflits de voisinage
-* Offrir poliment de l'aide pour éliminer les perturbations
+* Proposer poliment une aide pour la suppression des perturbations
 
 ---
 
@@ -45,11 +45,11 @@
 
 ## Recherche des causes
 
-* Vérifier la possibilité de remédier avec ses propres moyens
-* Si la cause n'est pas déterminée ou si la perturbation ne peut pas être éliminée $\rightarrow$ indiquer aux voisins le *service de réception des perturbations radio de la BNetzA* (24/7 Tel. 0228 14 15 16)
+* Vérifier si la perturbation peut être résolue avec ses propres moyens
+* Si la cause ne peut être déterminée ou si la perturbation ne peut être éliminée → orienter les voisins vers la *réception des perturbations radioélectriques de l'Agence fédérale des réseaux (BNetzA)*
 
 <note>
-* En cas de recherche personnelle, en tant que membre du DARC, demander de l'aide au département de compatibilité électromagnétique
+* En cas de recherche personnelle en tant que membre DARC, demander de l'aide au service pour la compatibilité électromagnétique
 * Ici, faire de la publicité pour l'adhésion au DARC
 </note>
 ---
@@ -60,7 +60,7 @@
 ## Détermination
 
 * Peut prendre un certain temps
-* Pour préserver la paix de voisinage, réduire la puissance d'émission
+* Pour préserver la paix entre voisins, réduire la puissance d'émission
 
 ---
 
@@ -70,29 +70,30 @@
 
 ## Vérification
 
-Si les émissions radioamateurs sont la cause des problèmes, trois cas sont distingués
+Si les émissions de radioamateur sont à l'origine des problèmes, trois cas sont distingués
 
 ---
 
-### 1. Cas
+### 1er cas
 
-* L'installation radioamateur n'est pas exploitée *conformément aux prescriptions*
-* Possibilité d'une limitation de la puissance d'émission payante par la BNetzA
-* Une limitation de la puissance d'émission est possible
+* L'installation de radioamateur n'est pas exploitée *conformément aux prescriptions*
+* Par exemple, en raison d'émissions indésirables trop fortes
+* Possibilité d'une restriction d'exploitation payante ordonnée par la BNetzA
+* Une limitation de la puissance d'émission est envisageable
 
 <note>
-* Par exemple, par des émissions indésirables trop fortes
+* Par exemple, en raison d'émissions indésirables trop fortes
 </note>
 
 ---
 
-### 2. Cas
+### 2e cas
 
-* L'installation radioamateur est exploitée *conformément aux prescriptions*
-* L'intensité de champ sur l'appareil concerné est inférieure à la compatibilité par la résistance aux perturbations
-* L'appareil concerné *ne respecte pas la résistance aux perturbations*
-* La responsabilité de l'élimination incombe à l'exploitant de l'appareil concerné
-* Le radioamateur peut poursuivre le fonctionnement d'émission sans modification
+* L'installation de radioamateur est exploitée *conformément aux prescriptions*
+* L'intensité de champ E au niveau de l'appareil concerné est inférieure à la compatibilité définie par l'immunité aux perturbations
+* L'appareil concerné *ne respecte pas l'immunité aux perturbations*
+* La responsabilité de la résolution incombe à l'exploitant de l'appareil concerné
+* Le radioamateur peut poursuivre son fonctionnement en émission sans modification
 
 ---
 [question:VE305]
@@ -102,11 +103,12 @@ Si les émissions radioamateurs sont la cause des problèmes, trois cas sont dis
 
 ---
 
-### 3. Cas
+### 3e cas
 
-* L'installation radioamateur est exploitée *conformément aux prescriptions*
-* L'appareil concerné *respecte la résistance aux perturbations*
-* Cas de conflit : la BNetzA est habilitée à établir une solution *en collaboration avec toutes les parties concernées*
+* L'installation de radioamateur est exploitée *conformément aux prescriptions*
+* L'appareil concerné *respecte l'immunité aux perturbations*
+* Conflit : la BNetzA est habilitée à trouver une solution *en collaboration avec toutes les parties concernées*
+
 
 ---
 
@@ -115,15 +117,15 @@ Si les émissions radioamateurs sont la cause des problèmes, trois cas sont dis
 ---
 [question:VE304]
 
---- 
+---
 
-## Dispositions de la BNetzA sans collaboration
+## Décisions de la BNetzA sans collaboration
 
-* Pour la protection des appareils de réception et d'émission servant à des fins de sécurité
-* Pour la protection des réseaux publics de télécommunications, par exemple le réseau téléphonique
-* Pour la protection de la vie et de l'intégrité physique d'une personne ou de biens d'une valeur significative
+* Pour protéger les appareils de réception et d'émission servant à des fins de sécurité
+* Pour protéger les réseaux de télécommunications publics, par exemple le réseau téléphonique
+* Pour protéger la vie ou l'intégrité physique des personnes ou les biens de valeur significative
 
 <note>
-* Exemple : Station radioamateur à côté d'un hôpital
-* Limitations de puissance dans une direction particulière
+* Exemple : station de radioamateur à proximité d'un hôpital
+* Restrictions de puissance dans une direction donnée
 </note>

@@ -1,17 +1,17 @@
-Dans la classe N, nous avons déjà appris à connaître les appareils de mesure de courant et de tension et leurs symboles de circuit. Une mesure de courant ou de tension doit influencer le circuit le moins possible, car le fonctionnement normal se fait généralement sans les appareils de mesure correspondants. À cette fin, les appareils de mesure de courant et de tension possèdent des *résistances internes* de différentes hauteurs. La résistance interne indique à quel point le flux de courant est limité par l'appareil de mesure et correspond en principe à une résistance normale. La résistance interne est également indiquée en ohms.
+Nous avons déjà appris à connaître les ampèremètres et les voltmètres ainsi que leurs symboles de circuit. Une mesure de courant ou de tension doit perturber le moins possible le circuit, car le fonctionnement normal s’effectue généralement sans les appareils de mesure correspondants. Pour cela, les ampèremètres et les voltmètres possèdent des *résistances internes* de valeurs différentes. La résistance interne indique dans quelle mesure le flux de courant est limité par l’appareil de mesure et correspond en principe à une résistance normale. La résistance interne s’exprime également en ohms.
 
 <margin>
-[picture:238:e_strom_spannung_messung:Mesure simultanée du courant et de la tension]
+[picture:238:e_strom_spannung_messung:Mesure simultanée de courant et de tension]
 </margin>
 
 ---
 
-Un appareil de mesure de courant est connecté en série / en série avec le composant à mesurer, par exemple une résistance. Le même courant circule donc à travers le composant que dans l'appareil de mesure. Afin que le flux de courant soit le moins possible influencé par l'appareil de mesure, l'appareil de mesure de courant possède une *faible* résistance interne.
+Un ampèremètre est branché en série avec le composant à mesurer, par exemple une résistance. Le même courant traverse donc le composant et l’appareil de mesure. Pour que le flux de courant soit le moins possible influencé par l’appareil de mesure, l’ampèremètre possède une *faible* résistance interne.
 
-Contrairement à cela, les voltmètres ont une *haute* résistance interne. L'appareil de mesure est installé en parallèle dans le circuit. Il relie ainsi deux points différents dans le circuit. La tension indiquée est désormais une mesure de la force de la séparation des charges entre ces deux points. Un flux de courant à travers cette branche parallèle réduirait à nouveau la séparation des charges et cela est empêché par la haute résistance interne.
+À l’inverse, un voltmètre possède une *élevée* résistance interne. L’appareil est branché en parallèle dans le circuit. Il relie ainsi deux points différents du circuit. La tension affichée est alors une mesure de l’intensité de la séparation des charges entre ces deux points. Un flux de courant dans cette branche parallèle réduirait justement cette séparation des charges, ce qui est évité grâce à la haute résistance interne.
 
 <indepth>
-Idéalement, un appareil de mesure de courant aurait une résistance de $\qty{0}{\ohm}$ et un appareil de mesure de tension une résistance de $\qty{\infty}{\ohm}$. En pratique, cela n'est cependant pas réalisable. C'est précisément ce dont nous nous occupons encore un peu plus précisément dans la classe A.
+Idéalement, un ampèremètre aurait une résistance de $\qty{0}{\ohm}$ et un voltmètre une résistance de $\qty{\infty}{\ohm}$. En pratique, cela n’est pas réalisable. C’est précisément ce que nous aborderons plus en détail dans le chapitre [sec:strom_spannung_messung_3].
 </indepth>
 
 [question:EI101]

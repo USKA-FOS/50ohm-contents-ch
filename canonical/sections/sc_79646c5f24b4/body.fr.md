@@ -1,13 +1,38 @@
-Selon l'intensité de la modulation appliquée à une porteuse AM, son amplitude maximale est plus ou moins influencée. Sans modulation, seul le signal HF de la porteuse est transmis avec une amplitude constante. Dès le début de la modulation, la porteuse HF est de plus en plus influencée positivement et négativement. Le rapport entre la NF modulée (courbe d'enveloppe NF) et la porteuse HF détermine ici le *taux de modulation*.
-Le taux de modulation maximal possible ($m=1$ ou $\qty{100}{\percent}$) est atteint lorsque la porteuse HF est pilotée de manière linéaire (sans distorsion) entre sa valeur maximale possible et zéro (complètement supprimée) par la NF modulée. Dès que le taux de modulation devient supérieur à $m=1$ ou $\qty{100}{\percent}$, des distorsions peuvent apparaître, qui peuvent être causées par la suppression temporaire complète de l'amplitude de la porteuse. Pour éviter les distorsions et donc le splatter des bandes latérales dans la modulation AM, le taux de modulation du signal AM ne doit pas dépasser $\qty{100}{\percent}$.
+Plus le signal porteur en AM est modulé, plus son amplitude varie au cours du temps. Sans modulation, seule la porteuse HF est émise avec une amplitude constante (cf. figure [ref:modulationsgrad_0]). À mesure que la modulation augmente, l'amplitude de la porteuse HF suit de plus en plus le signal BF modulant, ce qui donne lieu à l'enveloppe caractéristique (cf. figure [ref:modulationsgrad_10]).
 
-Le taux de modulation se calcule selon la formule suivante (à trouver dans le recueil de formules):
-
-$m = \frac{\hat{U}_{mod}}{\hat{U}_{T}}$
-
-%TODO: Insérer une image sur le taux de modulation et la mesure des grandeurs de calcul correspondantes
+Le *taux de modulation* $m$ est déterminé par le rapport entre l'amplitude du signal BF modulant et l'amplitude de la porteuse non modulée. Pour un taux de modulation de $m=1$ ou $\qty{100}{\percent}$, la porteuse est entièrement exploitée. L'enveloppe oscille alors entre zéro et le double de l'amplitude de la porteuse non modulée (cf. figure [ref:modulationsgrad_100]).
 
 [question:AE201]
-[question:AE202]
-[question:AE203]
+
+<margin>
+[picture:27:modulationsgrad_0:Taux de modulation de $\qty{0}{\percent}$ d'un signal AM]
+[picture:26:modulationsgrad_10:Taux de modulation de $\qty{10}{\percent}$ d'un signal AM]
+[picture:24:modulationsgrad_100:Taux de modulation de $\qty{100}{\percent}$ d'un signal AM]
+</margin>
+
+---
+
+Dès que le taux de modulation dépasse $m=1$ ou $\qty{100}{\percent}$ (cf. figure [ref:modulationsgrad_1000]), on parle de *surmodulation*. L'enveloppe atteint alors non seulement la valeur zéro, mais changerait mathématiquement de polarité. Cela empêche le signal d'être restitué sans distorsion par un démodulateur d'enveloppe classique.
+
+Dans les émetteurs réels, la surmodulation peut également entraîner une limitation et donc des composantes spectrales indésirables supplémentaires, appelées *splatter de bande latérale*. Pour éviter cela, le taux de modulation en AM classique ne doit pas dépasser $\qty{100}{\percent}$.
+
+<margin>
+[picture:28:modulationsgrad_1000:Taux de modulation de $> \qty{100}{\percent}$ (surmodulation) d'un signal AM]
+</margin>
+
 [question:AE204]
+[question:AE203]
+
+---
+
+Le taux de modulation se calcule à l'aide de la formule suivante (incluse dans la figure [ref:modulationsgrad] du *recueil de formules*):
+
+$m = \frac{\hat{U}_\mathrm{mod}}{\hat{U}_\mathrm{T}}$
+
+<margin>
+[picture:328:modulationsgrad:Taux de modulation d'un signal AM]
+</margin>
+
+Essayez maintenant, dans la question suivante, de lire les valeurs et de calculer le taux de modulation $m$:
+
+[question:AE202]

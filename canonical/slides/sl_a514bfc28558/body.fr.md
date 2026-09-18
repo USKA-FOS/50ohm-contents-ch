@@ -1,18 +1,91 @@
 <left>
-* À l'aide du préfixe, on peut savoir d'où vient un partenaire radio
-* Les pays marqués en bleu apparaissent dans le catalogue des questions
+* Grâce au préfixe, on peut identifier le pays d’origine d’un partenaire radio
+* Les pays en bleu apparaissent dans le catalogue de questions
 </left>
 <right>
-[picture:656:n_internationale_landeskenner_eu:Indicatifs d'appel en Europe]
+[picture:656:n_internationale_landeskenner_eu:Préfixes nationaux en Europe]
 </right>
-<note>
-Sources pour les indicatifs d'appel
-* Listes d'indicatifs d'appel de l'UIT
+
+---
+
+## Sources pour les préfixes nationaux
+
+* Listes de préfixes nationaux de l’UIT
 * Manuels de radioamateur
 * Internet
-* diverses listes d'indicatifs d'appel
-Il existe des astuces pour apprendre - il est préférable de se référer à la table dans le cours en ligne
+* Diverses listes d’indicatifs
+
+<note>
+Certains préfixes disposent d’astuces mnémotechniques pour faciliter leur mémorisation.
 </note>
+
+--- style="font-size: 0.7em;"
+
+| l: Préfixe | l: Astuce mnémotechnique | X: Pays |
+| *CT* | CosTa (côte) | Portugal |
+| *DA-DR* | | Allemagne |
+| *EA* | EspaniA | Espagne |
+| EI | | Irlande |
+| *EM* | | Ukraine |
+| ES | | Estonie |
+| EU | | Biélorussie |
+| F | | France |
+| G | | Royaume-Uni |
+[table:n_europaeische_landeskenner_eselsbruecken_1:Préfixes nationaux européens et astuces mnémotechniques]
+
+--- style="font-size: 0.7em;"
+
+| l: Préfixe | l: Astuce mnémotechnique | X: Pays |
+| HBØ | Hautes montagnes (petit) | Liechtenstein |
+| HB9 | Hautes montagnes (grand) | Suisse |
+| HV | Haut et Vénérable | Vatican |
+| I | | Italie |
+| LA | LAbre (à gauche) | Norvège |
+| LX | | Luxembourg |
+| LZ | | Bulgarie |
+| OE | OEsterreich | Autriche |
+| OH | Haut et Haut | Finlande |
+[table:n_europaeische_landeskenner_eselsbruecken_2:Préfixes nationaux européens et astuces mnémotechniques]
+
+--- style="font-size: 0.7em;"
+
+| l: Préfixe | l: Astuce mnémotechnique | X: Pays |
+| OK | | République tchèque |
+| OM | | Slovaquie |
+| ON | | Belgique |
+| *OZ* | Pointe supérieure | Danemark |
+| PA | | Pays-Bas |
+| S5 | | Slovénie |
+| *SM* | Meubles suédois | Suède |
+| *SP* | Super Pologne | Pologne |
+| SV | | Grèce |
+[table:n_europaeische_landeskenner_eselsbruecken_3:Préfixes nationaux européens et astuces mnémotechniques]
+
+--- style="font-size: 0.7em;"
+
+| l: Préfixe | l: Astuce mnémotechnique | X: Pays |
+| *BY* | payé en Yuan | Chine |
+| CE | | Chili |
+| DS-DT | | Corée du Sud |
+| DU-DZ | | Philippines |
+| EK | | Arménie |
+| *JA* | JApon | Japon |
+| *K*, *W*, N, AA-AL | Personne ne veut aller en Amérique | États-Unis |
+| LU | Bas et à gauche | Argentine |
+[table:n_internationale_landeskenner_eselsbruecken_1:Autres préfixes nationaux et astuces mnémotechniques]
+
+--- style="font-size: 0.7em;"
+
+| l: Préfixe | l: Astuce mnémotechnique | X: Pays |
+| *PY* | "Pyranhas" | Brésil |
+| *VE* | Beaucoup d’élans | Canada |
+| VK | Beaucoup de kangourous | Australie |
+| *VU* | | Inde |
+| *XE* | mEXique | Mexique |
+| *ZL* | Terre de Zea | Nouvelle-Zélande |
+| ZS | | Afrique du Sud |
+| 4X | | Israël |
+[table:n_internationale_landeskenner_eselsbruecken_2:Autres préfixes nationaux et astuces mnémotechniques]
 
 ---
 [question:BD301]

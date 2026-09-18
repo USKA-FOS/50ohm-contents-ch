@@ -1,19 +1,19 @@
-* Utilisé fréquemment pour les liaisons DX et dans les contests
+* Utilisation fréquente lors des contacts DX et en concours
 * Produit un signal fort et perçant
-* Le signal audio est amplifié et atténué dans un égaliseur dynamique
-* Faire attention à la surmodulation
-* Une augmentation trop forte entraîne des splatters et une moins bonne intelligibilité
+* Pour cela, le signal BF est amplifié et atténué dans un égaliseur dynamique
+* Veiller à éviter la surmodulation
+* Une augmentation trop forte entraîne du splatter et une compréhension réduite
 
 ---
 [question:AE211]
 ---
 [question:AE212]
 ---
-### Compresseur de dynamique audio
+### Compresseur de dynamique BF
 
-* Différences entre le niveau minimal et maximal d'un signal vocal $\rightarrow$ plage dynamique
-* Le compresseur de dynamique audio réduit la plage dynamique
-* Le niveau sonore moyen est augmenté $\rightarrow$ le niveau moyen du signal de sortie du signal d'émission est augmenté
+* Les différences entre le volume minimal et maximal d'un signal vocal BF → plage dynamique
+* Le compresseur de dynamique BF réduit la plage dynamique
+* Le volume moyen est relevé → le niveau de signal moyen du signal de sortie de l'émission est augmenté
 
 ---
 [question:AE210]

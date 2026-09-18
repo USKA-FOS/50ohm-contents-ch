@@ -1,12 +1,12 @@
 ## Langage ouvert
 
-En radioamateur, seul le langage ouvert peut être utilisé.
+En radioamateurisme, seul un langage ouvert est autorisé.
 
-* Pas de procédés de dissimulation comme les codes secrets
+* Aucune méthode de dissimulation comme des codes secrets
 * Les codages numériques, les signaux Morse et les abréviations sont autorisés
 
 <note>
-* De l'époque entre les deux guerres mondiales, pour ne pas utiliser le radioamateur pour la transmission d'informations à des fins guerrières
+* Issue de la période entre les deux guerres mondiales, afin d'éviter que le radioamateurisme ne soit utilisé pour la transmission d'informations à des fins guerrières
 </note>
 
 ---

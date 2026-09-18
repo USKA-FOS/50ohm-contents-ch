@@ -1,16 +1,16 @@
-Le contrôle automatique de gain *(Automatic-Gain-Control, abrégé en AGC)* garantit dans les récepteurs que le signal de sortie AF (volume de réception) reste presque constant même en cas de signal HF d'entrée variable sur le récepteur (par exemple en raison de l'évanouissement) et que les variations de volume sont réduites. À cet effet, le niveau de réception à la sortie de la branche du récepteur est détecté et l'amplification HF est régulée en conséquence, de sorte que le volume de réception peut être influencé après la démodulation. À cet égard, l'AGC ne doit pas être confondue avec l'ALC (Automatic-Level-Control), qui se trouve dans la branche d'émission.
+La régulation automatique du gain *(Automatic Gain Control, AGC)* permet, dans les récepteurs, de maintenir le signal audio de sortie (volume de réception) presque constant malgré les variations du signal HF d'entrée (par exemple dues au fading). Elle réduit ainsi les fluctuations de volume. Pour cela, le niveau de réception est mesuré à la sortie de la branche réceptrice et le gain HF est ajusté en conséquence, influençant ainsi le volume après démodulation. Il ne faut pas confondre l'AGC avec l'ALC *(Automatic Level Control)*, qui se trouve dans la branche d'émission.
 
 <margin>
-[picture:1055:e_agc:AGC dans le récepteur superhétérodyne]
+[picture:1055:e_agc:AGC dans un récepteur superhétérodyne]
 </margin>
 
 ---
 
-L'AGC peut, selon l'équipement du récepteur, être adaptée en ce qui concerne son comportement de réponse (temps de réponse, temps de décroissance). Les désignations habituelles à cet effet sont AGC Slow, AGC Normal, AGC Fast, qui esquissent le comportement de réponse dans le temps. Le réglage AGC-Slow ou Normal est généralement utile pour le mode SSB. En mode télégraphie (CW), le réglage AGC-Fast ou Normal est généralement utile afin que les signaux forts ne puissent pas couvrir les signaux faibles et que la régulation suive rapidement. Pour les procédés de transmission numériques, il peut être utile de désactiver l'AGC.
+Selon l'équipement du récepteur, l'AGC peut être ajustée en termes de comportement de réponse (temps de montée, temps de descente). Les réglages courants sont AGC Slow, AGC Normal et AGC Fast, qui décrivent le comportement temporel. Le réglage AGC Slow ou Normal est généralement adapté pour le trafic en BLU. Pour la télégraphie (CW), le réglage AGC Fast ou Normal est généralement recommandé afin que les signaux forts n'écrasent pas les signaux faibles et que la régulation suive rapidement. Pour les modes de transmission numériques, il peut être judicieux de désactiver l'AGC.
 
 [question:EF211]
 [question:EF212]
 
 <tip>
-L'AGC peut être complètement désactivée sur certains récepteurs. Il est alors possible de contrôler l'amplification HF, par exemple manuellement en modifiant le régulateur de gain RF. Cela n'est cependant utile que pour des applications particulières (par exemple, surcharge de la partie d'entrée HF en raison de signaux forts), ainsi que éventuellement pour les procédés de transmission numériques.
+Sur certains récepteurs, l'AGC peut être entièrement désactivée. Il est alors possible de régler manuellement le gain HF via le contrôle RF-Gain. Cette option n'est utile que pour des applications particulières (par exemple, éviter la surmodulation de l'étage d'entrée HF due à des signaux puissants) ou éventuellement pour les modes de transmission numériques.
 </tip>

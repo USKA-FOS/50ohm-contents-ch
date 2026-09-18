@@ -1,55 +1,58 @@
 <left>
-[photo:58:n_klubstationen_klubstation:Une station de club]
+[photo:58:n_klubstationen_klubstation:La station club DL0AO de la section DARC d'Amberg]
 </left>
 <right>
 * Exploitation commune d'une station
 * Groupe d'au moins 3 radioamateurs
-* Reçoivent un indicatif d'appel spécial
+* Peut demander un indicatif spécial
 </right>
 
 ---
 [question:VD117]
+
 --- style="font-size: 0.7em;"
-## Plan d'indicatifs d'appel
+
+## Plan des indicatifs d’appel
 
 <left>
-| l: Indicatif d'appel | l: | l: | l: Classe |
+| l: Indicatif d’appel | l: | l: | X: Classe |
 | DAØAA | - | DAØZZZ | A |
 | DAØA | - | DA3Z | A |
-| DA6A | - | DA9Z | E |
 | DBØA | - | DD9Z | A |
 | DFØA | - | DH9Z | A |
 | DJØA | - | DM9Z | A |
 | DFØAA | - | DFØZZZ | A |
-[table:n_klubstation_rufzeichen_1:Indicatifs d'appel pour les stations de club]
+| DKØAA | - | DKØZZZ | A |
+[table:n_klubstation_rufzeichen_1:Indicatifs pour stations club]
 </left>
 <right>
-| l: Indicatif d'appel | l: | l: | l: Classe |
-| DKØAA | - | DKØZZZ | A |
+| l: Indicatif d’appel | l: | l: | l: Classe |
 | DLØAA | - | DLØZZZ | A |
 | DNØA | - | DNØZ | E |
 | DNØAA | - | DNØZZZ | E |
 | DOØA | - | DO9Z | E |
 | DP3A | - | DP9Z | A |
 | DQØA | - | DR9Z | A |
-[table:n_klubstation_rufzeichen_2:Indicatifs d'appel pour les stations de club]
+[table:n_klubstation_rufzeichen_2:Indicatifs pour stations club]
 </right>
 <note>
-Extrait du [plan d'indicatifs d'appel](https://50ohm.de/rzp)
+Extrait du [plan des indicatifs d’appel](https://50ohm.de/rzp)
 </note>
+
 ---
 [question:BD101]
 ---
 [question:BD103]
 ---
-## Responsable de la station
 
-* Pour la demande, un responsable de la station doit être désigné
-* Doit être lui-même radioamateur avec une licence
-* La classe de licence doit être la même que celle de la station de club
-* Devient titulaire d'un indicatif d'appel attribué pour 5 ans
+## Responsable de station
+
+* Pour la demande, un responsable de station doit être désigné
+* Doit être lui-même radioamateur titulaire d’une licence
+* La classe de l’indicatif doit être identique à celle de la station club
+* Devient titulaire d’un indicatif attribué pour 5 ans
 * Le renouvellement doit être demandé à temps
-* Utilisation possible uniquement après attribution
+* Ne peut être utilisé qu’après attribution
 
 ---
 [question:VD401]
@@ -58,9 +61,10 @@ Extrait du [plan d'indicatifs d'appel](https://50ohm.de/rzp)
 ---
 [question:VD403]
 ---
+
 ## Utilisation
 
-* Par tout radioamateur ayant une licence
+* Par tout radioamateur titulaire d’une licence
 * Non limité aux membres du groupe
 
 ---
@@ -68,39 +72,45 @@ Extrait du [plan d'indicatifs d'appel](https://50ohm.de/rzp)
 ---
 [question:VD405]
 ---
-## Opération radio
 
-* Classe N ou E peut opérer sur une station de club de classe A
-* $\rightarrow$ Cependant uniquement dans le cadre de ses bandes et de sa puissance
-* Classe A peut opérer sur une station de club de classe E ou N
-* $\rightarrow$ Cependant uniquement dans le cadre des bandes et de la puissance de la station de club
+## Exploitation radio
+
+* Un radioamateur de classe N ou E peut exploiter une station club de classe A
+  * Mais uniquement dans le cadre des bandes et de la puissance autorisées
+* Un radioamateur de classe A peut exploiter une station club de classe E ou N
+  * Mais uniquement dans le cadre des bandes et de la puissance de la station club
 
 <fragment>
-La classe la plus basse détermine l'autorisation maximale.
+La classe la plus basse détermine les droits maximaux.
 </fragment>
 
 --- style="font-size: 0.8em;"
-| l: | c: Station N | c: Station E | c: Station A |
+| X: | c: Station N | c: Station E | c: Station A |
 | Radioamateur N | N | N | N |
 | Radioamateur E | N | E | E |
 | Radioamateur A | N | E | A |
-[table:n_klubstation_unterschiedliche_klassen:Représentation du cadre dans lequel l'exploitation radio peut être effectuée lorsque la classe du radioamateur et la classe de la station de club diffèrent]
+[table:n_klubstation_unterschiedliche_klassen:Représentation des classes dans lesquelles l’exploitation radio est autorisée lorsque la classe du radioamateur diffère de celle de la station club]
 
-<note>
-Deux exemples basés sur la bande des $\qty{40}{\meter}$, qui ne peut être utilisée que par les titulaires d'une licence de radioamateur de classe A:
-* Le radioamateur de classe E peut utiliser la station de club de classe A, mais pas la bande des $\qty{40}{\meter}$, car celle-ci n'est pas autorisée pour la classe E.
-* Le radioamateur de classe A peut utiliser la station de club de classe E, mais pas la bande des $\qty{40}{\meter}$, car celle-ci, comme mentionné précédemment, n'est pas autorisée pour la classe E.
-</note>
+
+---
+
+Deux exemples sur la bande des $\qty{40}{\meter}$, réservée uniquement aux titulaires d’une licence de classe A :
+
+
+* Le radioamateur de classe E peut utiliser la station club de classe A, mais pas la bande des $\qty{40}{\meter}$, car celle-ci n’est pas autorisée pour la classe E.
+* Le radioamateur de classe A peut utiliser la station club de classe E, mais pas la bande des $\qty{40}{\meter}$, car celle-ci n’est pas autorisée pour la classe E.
+
 ---
 [question:VD406]
 ---
 [question:VD407]
 ---
-## Emplacement
 
-* Une station de club peut être exploitée *temporairement* à d'autres emplacements
-* Une notification à la BNetzA n'est pas nécessaire
-* Utile lors d'événements ou similaires
+## Lieu d’exploitation
+
+* Une station club peut être exploitée *temporairement* à d’autres emplacements
+* Aucune notification à l’Agence fédérale des réseaux (BNetzA) n’est requise
+* Utile lors d’événements ou similaires
 
 ---
 [question:VD408]

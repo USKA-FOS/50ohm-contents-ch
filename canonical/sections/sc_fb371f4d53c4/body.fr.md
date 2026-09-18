@@ -1,14 +1,15 @@
-Si vous avez maintenant terminé ce cours et réussi l'examen pour devenir radioamateur, vous recevrez un *certificat d'examen* ainsi qu'un *certificat d'examen de radioamateur* et vous pourrez vous appeler radioamateur. Avez-vous alors le droit d'exploiter une station de radioamateur ? Absolument pas ! Vous avez besoin en plus d'une *autorisation de participation au service de radioamateur*. Ce n'est qu'avec le certificat d'autorisation que l'indicatif personnel est attribué. 
+% Ici, toutes les informations sur le certificat de compétence, l’indicatif d’appel, l’autorisation et la désignation sont insérées, y compris les liens vers eGov.
+
+Une fois ce cours terminé et l’examen de radioamateur réussi, on reçoit un *avis d’examen* ainsi qu’un *certificat d’examen pour le service d’amateur* et on peut se nommer radioamateur. Peut-on alors exploiter une station radioamateur ? Non, absolument pas ! Il faut en plus une *autorisation de participation au service d’amateur*. Ce n’est qu’avec l’avis d’autorisation que l’indicatif d’appel personnel est attribué.
 
 <margin>
-[photo:91:n_zulassung_urkunde:Le certificat d'autorisation de participation au service de radioamateur]
+[photo:91:n_zulassung_urkunde:Avis d’autorisation de participation au service d’amateur]
 </margin>
 
 [question:VC106]
 
-Si vous avez eu l'occasion de lire des magazines de radioamateurs, vous avez peut-être déjà remarqué des annonces comme "Simon (14) et Sophie (11) ont réussi leur examen auprès de l'Agence fédérale des réseaux à Dortmund le 8 février". Notre loi sur la radioamateur ne connaît en effet pas d'âge minimum pour les radioamateurs. Dans l'article 4 de la loi AFuG, il est dit à ce sujet : "Toute personne physique résidant en Allemagne peut être admise sur demande à l'examen technique pour les radioamateurs."
+Si l’on a eu l’occasion de lire des magazines de radioamateurisme, on a peut-être remarqué des annonces comme « Simon (14 ans) et Sophie (11 ans) ont réussi leur examen à l’Agence fédérale des réseaux de Dortmund le 8 février ». En effet, notre loi sur le radioamateurisme ne prévoit pas d’âge minimum pour les radioamateurs. Le § 4 de l’AFuG précise à ce sujet : « Toute personne physique ayant son domicile en Allemagne peut, sur demande, être autorisée à passer l’examen technique pour les radioamateurs. »
 
 [question:VC108]
-
 
 [question:VN011]

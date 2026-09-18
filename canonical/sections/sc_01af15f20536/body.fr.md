@@ -1,5 +1,5 @@
-Tous les objets électriquement conducteurs dans notre station peuvent présenter des potentiels indésirables provenant de sources propres ou étrangères. Cela peut avoir de nombreuses causes, par exemple par charge électrostatique, par un éclair ou par une erreur d'une installation électrique quelconque qui affecte notre environnement. 
+Tous les objets conducteurs d'électricité présents dans notre station peuvent présenter des potentiels indésirables provenant de sources propres ou externes. Cela peut avoir de nombreuses causes, par exemple une charge électrostatique, un éclair ou une défaillance de n'importe quelle installation électrique ayant un impact sur notre environnement.
 
-En reliant toutes les parties électriquement conductrices ensemble, les différences de potentiel possibles sont compensées. Pour les lignes coaxiales, la protection est assez simple à réaliser. On relie les blindages de tous les câbles coaxiaux ensemble et on les connecte en plus à la barre de mise à la terre principale.
+En reliant entre eux tous les éléments conducteurs d'électricité, les différences de potentiel possibles sont équilibrées. Pour les câbles coaxiaux, la protection est facile à mettre en œuvre : il suffit de relier entre eux les blindages de tous les câbles coaxiaux et de les connecter en plus à la barre omnibus de mise à la terre principale.
 
 [question:EK208]

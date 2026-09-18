@@ -1,7 +1,7 @@
-Le débit de symboles est indiqué en $\unit{\baud}$ (Baud).   
+Le débit de symboles est exprimé en $\unit{\baud}$ (baud).  
 
-$\qty{1}{\baud} = \qty{1}{\text{Symbol}\per\second}$  
+$\qty{1}{\baud} = \qty{1}{\text{symbole}\per\seconde}$  
 
-Un symbole peut être constitué d'un ou plusieurs bits.
+Un symbole peut être composé d'un ou de plusieurs bits.  
 
-Méthode d'exclusion : un bit est une unité d'information, Hertz est une fréquence et le décibel est une unité auxiliaire logarithmique pour représenter les niveaux ou les rapports.
+Méthode d'élimination : un bit est une unité d'information, le hertz est une fréquence et le décibel est une unité logarithmique auxiliaire pour représenter des niveaux ou des rapports.

@@ -1,5 +1,9 @@
-Comme un miroir parabolique concentre l'onde avant le miroir, une antenne d'excitation doit se trouver en conséquence devant le miroir et donc dans le faisceau. L'antenne d'excitation fait donc de l'ombre à une partie de l'onde rayonnée.
+Comme un réflecteur parabolique concentre l'onde devant le miroir, une antenne d’excitation doit se trouver devant le miroir et donc dans le trajet du faisceau. L'antenne d’excitation masque donc une partie de l'onde rayonnée.
 
-Une amélioration est représentée par le *miroir décalé* (également appelé antenne décalée), dans lequel l'antenne d'excitation est placée en dehors du trajet du faisceau (généralement en dessous) et la forme du miroir est adaptée en conséquence (choix d'une coupe appropriée du paraboloïde).
+Une amélioration est apportée par le *réflecteur offset* (également appelé antenne offset), dans lequel l'antenne d’excitation est placée en dehors du trajet du faisceau (généralement en dessous) et la forme du réflecteur est adaptée en conséquence (choix d'une section appropriée du paraboloïde).
+
+<margin>
+[picture:1104:a_offset:Réflecteur offset avec antenne d’excitation]
+</margin>
 
 [question:AG127]

@@ -1,13 +1,13 @@
-Lors du choix de l'emplacement d'une antenne, il faut tenir compte du fait que l'on doit éviter les interactions avec d'autres installations et appareils électriques dans son propre logement et chez les voisins. De telles interactions peuvent à la fois perturber sa propre réception radio et, en mode émission, le fonctionnement d'autres appareils.
+Lors du choix de l’emplacement d’une antenne, il faut veiller à éviter les interactions avec d’autres installations et appareils électriques dans son propre logement ainsi que chez les voisins. De telles interactions peuvent perturber non seulement la réception radioélectrique, mais aussi, en fonctionnement en émission, le bon fonctionnement d’autres appareils.
 
-Une première règle est qu'une antenne doit être installée de préférence à l'extérieur afin de pouvoir éviter au maximum un couplage entre l'antenne et les lignes électriques dans la maison. 
+Une première règle consiste à installer l’antenne de préférence en extérieur, afin de réduire autant que possible le couplage entre l’antenne et les lignes électriques du bâtiment.
 
-%TODO: Distracteur "soumis dans une moindre mesure à des émissions" ne semble pas tout à fait faux.
+%TODO: Distraktor "in geringerem Maß Ausstrahlungen unterworfen" scheint nicht ganz falsch zu sein.
 [question:EG223]
 
-Dans la plage des ondes courtes, il est judicieux de diriger l'antenne aussi perpendiculairement que possible loin de la maison. Cela évite que l'antenne ne soit parallèle aux lignes électriques.
+En ondes courtes, il est conseillé de guider l’antenne à angle droit par rapport au bâtiment. Cela permet d’éviter que l’antenne ne soit parallèle aux lignes électriques.
 [question:EJ110]
 
-Les antennes directionnelles doivent être positionnées aussi haut et aussi loin que possible, car l'intensité de champ (même dans la direction principale du faisceau) diminue avec la distance.
+Les antennes directives doivent en principe être placées aussi haut et aussi loin que possible, car l’intensité de champ (même dans la direction principale de rayonnement) diminue avec la distance.
 
 [question:EG112]

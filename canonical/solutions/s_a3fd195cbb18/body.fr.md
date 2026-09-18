@@ -1,3 +1,3 @@
-À la couche limite d'une jonction PN, des électrons libres diffusent de la région à conduction n vers la région à conduction p. Là, ils se recombinent avec les trous d'électrons existants.
+À la jonction d’une transition PN, les électrons libres diffusent de la zone de conduction n vers la zone de conduction p. Ils y recombinant avec les trous électroniques présents.
 
-Cela compense partiellement l'excès d'électrons du côté n ainsi que le manque d'électrons du côté p. Dans la couche limite, des charges liées de manière fixe restent, ce qui forme une couche de blocage pauvre en porteurs de charge. Celle-ci agit de manière isolante et empêche initialement un transport de charge supplémentaire.
+Cela réduit partiellement l’excédent d’électrons du côté n ainsi que le déficit d’électrons du côté p. Dans la jonction subsistent des charges fixes, formant une couche de blocage pauvre en porteurs de charge. Cette couche agit comme un isolant et empêche d’abord tout transport de charge supplémentaire.

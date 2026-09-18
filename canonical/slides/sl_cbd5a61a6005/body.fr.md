@@ -1,9 +1,9 @@
-[picture:828:begrenzverstärker:Fonctionnement d'un amplificateur limiteur]
+[picture:828:begrenzverstärker:Fonctionnement d'un limiteur d'amplificateur]
 
-* Application dans la FI en FM
+* Utilisation dans la FI en FM
 * Le signal d'entrée est amplifié
 * Ensuite, les amplitudes sont limitées
-* L'information est toujours présente dans la variation de fréquence
+* L'information reste présente dans la variation de fréquence
 * Les fluctuations d'amplitude sont supprimées
 
 ---

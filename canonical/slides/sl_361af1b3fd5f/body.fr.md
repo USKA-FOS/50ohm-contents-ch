@@ -1,11 +1,12 @@
-Utilisation : Pour les appareils radio de faible puissance jusqu'à la bande des $\qty{70}{\centi\meter}$ et en métrologie
+* Utilisation : émetteurs-récepteurs de faible puissance jusqu'à la bande des $\qty{70}{\centi\meter}$ et en technique de mesure
+* Particularité : *verrouillage à baïonnette*
 
-[photo:71:n_koaxsteckverbinder_bnc:Adaptateur BNC à angle avec connecteur à gauche et coupleur à droite]
+[photo:71:n_koaxsteckverbinder_bnc:Adaptateur coudé BNC avec fiche à gauche et embase à droite]
 
-<note>
-La fermeture à baïonnette est plus rapide à fixer et à détacher que pour PL ou N
-</note>
+---
 
+* Plus rapide à débrancher que les connexions à vis de type PL ou N : rotation d'environ 90°
+* Mécanisme à ressort protège contre un débranchement accidentel
 
 ---
 [question:NG203]

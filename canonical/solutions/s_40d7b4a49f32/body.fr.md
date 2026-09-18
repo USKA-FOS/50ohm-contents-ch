@@ -1,14 +1,14 @@
-Dans le cas d'un circuit en série de bobines, les inductances sont directement additionnées:
+Dans un circuit en série de bobines, les inductances s'additionnent directement :
 
 $ L_\mathrm{ges} = L_1 + L_2 + L_3 $
 
-Tout d'abord, nous mettons toutes les valeurs dans la même unité:
+D'abord, nous ramenons toutes les valeurs à la même unité :
 
 $ \qty{2200}{\nano\henry} = \qty{2,2}{\micro\henry} $
 
 $ \qty{0,033}{\milli\henry} = \qty{33}{\micro\henry} $
 
-Maintenant, les valeurs peuvent être additionnées:
+Nous pouvons maintenant additionner les valeurs :
 
 $ L_\mathrm{ges} = \qty{2,2}{\micro\henry} + \qty{33}{\micro\henry} + \qty{150}{\micro\henry} $
 

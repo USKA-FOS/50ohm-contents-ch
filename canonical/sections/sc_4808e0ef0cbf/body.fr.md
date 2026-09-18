@@ -1,11 +1,17 @@
-Les réflecteurs et les directeurs n'ont pas seulement un effet sur la directivité, mais aussi sur la résistance d'alimentation d'une antenne Yagi-Uda. Cela est dû au fait qu'une partie de l'onde émise par le radiateur est réfléchie à nouveau dans le radiateur. Selon les différentes distances des éléments, des modifications de la résistance d'alimentation se produisent.
+Le réflecteur et les directeurs n’influencent pas seulement la directivité d’une antenne Yagi-Uda, mais aussi son impédance d’alimentation. Le radiateur excite des courants dans les éléments parasites. Leurs champs électromagnétiques agissent à leur tour sur le radiateur. Ce couplage mutuel dépend notamment des distances et des longueurs des différents éléments, et modifie ainsi l’impédance d’alimentation de l’antenne.
 
 [question:AG212]
 
-Plus une antenne Yagi-Uda est longue, plus son gain est élevé. Cependant, avec l'augmentation du gain, l'angle d'ouverture doit diminuer, car l'antenne ne peut pas générer d'énergie "à partir de rien" (principe de conservation de l'énergie).
+Avec l’augmentation du nombre de directeurs et de la longueur du boom, le gain d’une antenne Yagi-Uda peut être accru. La puissance rayonnée est alors de plus en plus concentrée dans la direction principale de rayonnement. Comme l’antenne ne génère pas d’énergie supplémentaire, un gain plus élevé dans la direction principale s’accompagne d’un angle d’ouverture plus petit.
 
 [question:AG222]
 
-Une forme de construction particulière de l'antenne Yagi-Uda est la Yagi en croix, dans laquelle deux antennes sont tournées de $\qty{90}{\degree}$ l'une par rapport à l'autre autour de l'axe de rayonnement. L'une des antennes est alors par exemple polarisée horizontalement et l'autre verticalement. Sans autre mesure, dans l'exemple donné, le raccordement direct des antennes produirait une polarisation diagonale (pour laquelle on pourrait aussi prendre une seule antenne). Si, en revanche, on alimente l'une des antennes Yagi-Uda avec un signal déphasé de $\qty{90}{\degree}$ ou, en variante, si l'on déplace l'une des antennes Yagi-Uda d'un quart de longueur d'onde vers l'avant ou vers l'arrière, on peut alors produire une polarisation circulaire de cette manière.
+---
+
+Une forme particulière de l’antenne Yagi-Uda est l’*antenne Yagi croisée* (*Kreuzyagi*). Dans ce cas, deux antennes Yagi-Uda sont tournées de 90° l’une par rapport à l’autre autour de l’axe de rayonnement. Par exemple, l’une des deux antennes peut être polarisée horizontalement et l’autre verticalement. Si les deux antennes sont alimentées avec des signaux de même amplitude et en phase, les deux composantes de champ se superposent pour former une onde à polarisation linéaire, dont le plan de polarisation se situe entre les deux antennes. En revanche, si les deux antennes Yagi-Uda sont alimentées avec des signaux de même amplitude mais déphasés de 90°, une onde à polarisation *circulaire* est générée. Un tel déphasage peut être produit, par exemple, par une ligne d’alimentation conçue à cet effet. Une autre solution consiste à décaler les deux antennes d’un quart de longueur d’onde le long de l’axe de rayonnement. La différence de trajet des ondes rayonnées crée également un déphasage de 90°.
+
+<margin>
+[picture:1103:a_kreuzyagi:Antenne Yagi croisée avec polarisation circulaire]
+</margin>
 
 [question:AG126]

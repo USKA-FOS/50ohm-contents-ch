@@ -2,16 +2,16 @@
 
 <left>
 * La valeur de crête d'une oscillation sinusoïdale correspond à l'amplitude
-* De la ligne de base à la valeur la plus élevée
-* Valeur de crête à crête de la valeur la plus basse à la plus élevée
+* De la ligne zéro jusqu'à la valeur maximale
+* Valeur crête à crête de la valeur minimale à la valeur maximale
 </left>
 <right>
-[picture:834:e_spitze_effektiv_wert_bezeichnungen_sinus:Perioendauer, Spitzenspannung, Effektivspannung und Spitzen-Spitzen-Spannung]
+[picture:834:e_spitze_effektiv_wert_bezeichnungen_sinus:Période, tension de crête, tension efficace et tension crête à crête]
 </right>
 
 ---
 
-Valeur de crête à crête pour les tensions sinusoïdales
+Valeur crête à crête pour des tensions sinusoïdales
 
 $U_{SS} = 2\cdot \hat{U}$
 
@@ -23,12 +23,12 @@ $U_{SS} = 2\cdot \hat{U}$
 ---
 ## Valeur efficace
 
-Pour une tension alternative, la valeur qui, dans une résistance, est convertie en puissance comparable à une tension continue
+Pour une tension alternative, la valeur qui, dans une résistance, produit une puissance équivalente à celle d'une tension continue
 
-[picture:725:e_effektivwert_230v:Effektivwert und Spitzenwert der Spannung im Haushalt]
+[picture:725:e_effektivwert_230v:Valeur efficace et valeur de crête de la tension dans le réseau domestique]
 
 ---
-Pour les tensions sinusoïdales (sans dérivation)
+Pour des tensions sinusoïdales (sans démonstration)
 
 $\hat{U} = U_{eff}\cdot \sqrt{2}$
 
@@ -36,10 +36,10 @@ $\hat{U} = U_{eff}\cdot \sqrt{2}$
 [question:EB405]
 
 <note>
-* Solution sur la page suivante
+* Chemin de résolution à la page suivante
 </note>
 ---
-### Solution
+### Chemin de résolution
 
 $\hat{U} = U_{eff}\cdot \sqrt{2}$
 $U_{eff} = \dfrac{\hat{U}}{\sqrt{2}}$
@@ -49,10 +49,10 @@ $U_{eff} = \dfrac{\qty{1}{\volt}}{1,41} \approx \qty{0,7}{\volt}$
 [question:EB404]
 
 <note>
-* Solution sur la page suivante
+* Chemin de résolution à la page suivante
 </note>
 ---
-### Solution
+### Chemin de résolution
 
 $\hat{U} = U_{eff}\cdot \sqrt{2}$
 $U_{eff} = \dfrac{\hat{U}}{\sqrt{2}}$
@@ -61,7 +61,7 @@ $U_{eff} = \dfrac{\qty{12}{\volt}}{1,41} \approx \qty{8,5}{\volt}$
 ---
 [question:EB403]
 ---
-### Solution
+### Chemin de résolution
 
 $\hat{U} = U_{eff}\cdot \sqrt{2}$
 $\hat{U} = \qty{12}{\volt}\cdot 1,41 \approx \qty{17}{\volt}$
@@ -73,10 +73,10 @@ $U_{SS} = 2\cdot \qty{17}{\volt} = \qty{34}{\volt}$
 [question:EB401]
 
 <note>
-* Solution sur la page suivante
+* Chemin de résolution à la page suivante
 </note>
 ---
-### Solution
+### Chemin de résolution
 
 $\hat{U} = U_{eff}\cdot \sqrt{2}$
 $\hat{U} = \qty{230}{\volt}\cdot 1,41 \approx \qty{325}{\volt}$
@@ -85,5 +85,5 @@ $\hat{U} = \qty{230}{\volt}\cdot 1,41 \approx \qty{325}{\volt}$
 [question:EB402]
 
 <note>
-* Résultat de la page précédente &times;2
+* Résultat précédent &times;2
 </note>

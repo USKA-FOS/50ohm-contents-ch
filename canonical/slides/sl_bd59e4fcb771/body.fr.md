@@ -1,9 +1,9 @@
-*On ne touche pas à une antenne d'émission en fonctionnement !*
+*Ne touchez jamais une antenne d'émission en service !*
 
 * Tensions alternatives élevées
 * Provoquent des troubles du rythme cardiaque, des brûlures et d'autres blessures
 * Peut entraîner la mort
-* Peut également provoquer des accidents secondaires tels que des chutes de l'échelle par peur et crispation
+* Risque d'accidents secondaires comme une chute de l'échelle par surprise ou une contraction musculaire
 
 ---
 [question:EK202]

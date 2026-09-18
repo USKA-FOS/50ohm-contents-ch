@@ -2,11 +2,10 @@
 [picture:907:a_phasenmodulation:Modulation de phase avec inversion de phase]
 </left>
 <right>
-* Le signal de modulation change la phase d'une onde porteuse
-* Le changement de phase apparaît dans le signal comme un "décalage" de l'onde
-* L'amplitude du signal reste la même
-* Grande amplitude dans le BF $\rightarrow$ grand changement de phase
-* Amplitude
+* Le signal BF modifie la phase d'une onde porteuse
+* La variation de phase apparaît dans le signal comme un "décalage" de l'onde
+* L'amplitude du signal reste inchangée
+* Une grande amplitude en BF $\rightarrow$ une grande variation de phase
 </right>
 <note>
 </note>

@@ -1,9 +1,9 @@
 ## Oscillations parasites dans les amplificateurs de puissance HF
 
-* Apparaissent en raison de rétroactions indésirables
-* Causes : Couplages capacitifs ou inductifs entre les éléments
-* Aucune liaison directe avec la fréquence opératoire de l'émetteur
-* Se manifestent par des fluctuations de puissance lors de l'accord de l'émetteur (indication TX)
+* Résultent de rétroactions indésirables
+* Causes : couplages capacitifs ou inductifs entre les éléments
+* Aucune relation directe avec la [fréquence de fonctionnement](#) de l’émetteur
+* Se manifestent par des variations de puissance lors de l’accord de l’émetteur ([affichage](#) en mode TX)
 
 ---
 [question:AJ212]
@@ -11,16 +11,17 @@
 ---
 [question:AJ213]
 
---- style="font-size: 0.7em;"
-### Mesures pour la suppression des oscillations parasites
+---
+style="font-size: 0.7em;"
+### Mesures pour supprimer les oscillations parasites
 
 <left>
-[picture:767:a_parasitaere_schwingungen_parallelwiderstand:Résistance parallèle sur le transformateur pour éviter les oscillations parasites]
+[picture:767:a_parasitaere_schwingungen_parallelwiderstand:Résistance en parallèle sur le transformateur pour éviter les oscillations parasites]
 </left>
 <right>
-* Dans les émetteurs VHF : Perles de ferrite sur l'émetteur du transistor de puissance (près du transistor)
-* Dans les étages finaux à large bande des ondes courtes : Résistance parallèle sur le transformateur pour l'atténuation
-* Objectif : Réduction de la tendance à l'oscillation de l'amplificateur
+* Dans les émetteurs VHF : perles de ferrite sur l’[émetteur](#) du transistor de puissance (à proximité du transistor)
+* Dans les étages finals HF à large bande : résistance en parallèle sur le transformateur pour l’amortissement
+* Objectif : [réduction](#) de la tendance à osciller de l’amplificateur
 </right>
 
 ---

@@ -1,10 +1,10 @@
-Nous avons besoin pour cela du recueil de formules :
+Pour cela, nous avons besoin des formules suivantes du recueil de formules :
 
 $R=\frac{\rho\cdot l}{A_{Dr}}$
 
 $A_{Dr}=\frac{d^2\cdot \pi}{4}$
 
-$\rho=0,018\frac{mm^2}{m}$
+$\rho=\qty{0,018}{\ohm\milli\meter\squared\per\meter}$
 
 Données : $l=\qty{1,8}{\meter}$ et $d=\qty{0,2}{\milli\meter}$. On cherche $R$.
 

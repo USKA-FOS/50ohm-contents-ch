@@ -1,25 +1,25 @@
 ## Charge électrique
 
-Courant sur temps
+Courant sur le temps
 
 $Q = I\cdot t$
-dans ampères-seconde (As)
+en ampère-seconde (As)
 ---
 [question:AA102]
 ---
 ## Énergie électrique
 
-Puissance sur temps
+Puissance sur le temps
 
 $W = P\cdot t$
-dans joules ($\unit{\joule}$) par seconde ou wattheures ($\unit{\watt\hour}$)
+en joule ($\unit{\joule}$) par seconde ou en watt-heure ($\unit{\watt\hour}$)
 
 ---
 [question:AA103]
 ---
 [question:AB502]
 ---
-### Solution
+### Méthode de résolution
 * donné : $U = \qty{230}{\volt}$
 * donné : $I = \qty{0,63}{\ampere}$
 * donné : $t = \qty{7}{\hour}$
@@ -32,7 +32,7 @@ $$W = P\cdot t = U\cdot I\cdot t = \qty{230}{\volt} \cdot \qty{0,63}{\ampere} \c
 ---
 [question:AB503]
 ---
-### Solution
+### Méthode de résolution
 * donné : $U = \qty{10}{\volt}$
 * donné : $R = \qty{100}{\ohm}$
 * donné : $t = \qty{1}{\hour}$

@@ -2,7 +2,7 @@
 <left>
 * Amplitude constante
 * Fréquence variable
-* Relativement insensible aux perturbations d'amplitude (par exemple, véhicules automobiles, éclairs)
+* Peu sensible aux perturbations d'amplitude (ex. : véhicules, éclairs)
 </left>
 <right>
 [picture:301:e_fm:Modulation de fréquence]
@@ -18,11 +18,11 @@
 
 ## Excursion de fréquence porteuse
 <left>
-* L'information de volume est transmise par FM via la *déviation de fréquence porteuse* (excursion de fréquence)
-* Signal audio fort $\rightarrow$ plus grande déviation $\rightarrow$ bande passante plus élevée
+* L'information audio est transmise par une *déviation de la fréquence porteuse* (excursion de fréquence)
+* Signal BF fort → excursion plus grande → bande passante plus large
 </left>
 <right>
-[picture:827:e_frequenzmodulation_frequenzhub:Déviation de la porteuse lors de la modulation de fréquence]
+[picture:827:e_frequenzmodulation_frequenzhub:Déviation de la porteuse en modulation de fréquence]
 </right>
 
 ---
@@ -33,8 +33,8 @@
 
 ## Modulation
 * Pour limiter la bande passante, le signal du microphone est limité en amplitude
-* Ce signal est modulé sur la porteuse au moyen de la FM
-* La déviation de fréquence peut être fixe ou ajustable au moyen d'un régulateur de déviation
+* Ce signal est ensuite modulé sur la porteuse via la FM
+* L'excursion de fréquence peut être fixe ou réglable à l'aide d'un régulateur d'excursion
 
 ---
 [question:EE305]

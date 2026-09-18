@@ -1,30 +1,29 @@
-Une autre forme de compétition est le *Amateur Radio Direction Finding (ARDF)*. Il s'agit de compétitions de radiogoniométrie, qui sont généralement désignées sous le nom de *Fuchsjagd* dans les pays germanophones. Les "Füchse" sont de petits émetteurs cachés qui doivent être trouvés et atteints à pied par les participants à l'aide de récepteurs de radiogoniométrie. Le gagnant est le premier à atteindre le point de destination après avoir trouvé tous les Füchse.
+Un autre type de compétition radioamateur est le *Amateur Radio Direction Finding (ARDF)*. Il s’agit de courses d’orientation par radiogoniométrie, souvent appelées *chasse au renard* dans l’espace germanophone. Les « renards » sont de petits émetteurs cachés que les participants doivent localiser à l’aide de récepteurs de radiogoniométrie et rejoindre à pied. Le gagnant est le premier à atteindre le point d’arrivée après avoir trouvé tous les renards.
 
-Les Füchse émettent en alternance dans le temps - par exemple pendant une minute - un indicatif d'appel différent, spécial, en télégraphie Morse CW. Le tableau [ref:ardf_morse_code] répertorie les six indicatifs d'appel qui sont attribués par la Bundesnetzagentur spécifiquement pour les émetteurs de Fuchsjagd.
+Les renards émettent à tour de rôle – par exemple pendant une minute – un indicatif d’appel spécial différent en télégraphie Morse CW. Le tableau [ref:ardf_morse_code] présente les six indicatifs d’appel attribués par la Bundesnetzagentur spécifiquement aux émetteurs de chasse au renard.
 
 <margin>
-[photo:190:n_ardf_fuchs:ARDF-Fuchs dans la forêt avec un drapeau et un chronométreur]
+[photo:190:n_ardf_fuchs:Renard ARDF en forêt avec fanion et chronométreur]
 </margin>
 
 <margin>
-| l: Indicatif d'appel | l: Code Morse |
+| l: Indicatif d’appel | l: Code Morse |
 | MO | [morse:mo] |
 | MOE | [morse:moe] |
 | MOI | [morse:moi] |
 | MOS | [morse:mos] |
 | MOH | [morse:moh] |
 | MO5 | [morse:mo5] |
-[table:ardf_morse_code:Indicatifs d'appel des émetteurs de Fuchsjagd]
+[table:ardf_morse_code:Indicatifs d’appel des émetteurs de chasse au renard]
 </margin>
 
 <tip>
-Pour pouvoir enregistrer les indicatifs d'appel des émetteurs de Fuchsjagd, il n'est pas nécessaire de maîtriser la télégraphie Morse. Seuls des signes composés uniquement de sons longs (M, O) ou uniquement de sons courts (E, I, S, H, 5) sont utilisés. Ceux-ci sont envoyés si lentement que l'on peut les compter.
+Pour capter les indicatifs d’appel des émetteurs de chasse au renard, il n’est pas nécessaire de maîtriser la télégraphie Morse. Seuls des caractères composés de tons longs (M, O) ou de tons courts (E, I, S, H, 5) sont utilisés. Ils sont transmis suffisamment lentement pour pouvoir être comptés.
 </tip>
 
 [question:BE313]
 [question:BD109]
-  
-<indepth>
-Une variante particulière de la Fuchsjagd est la *Mobilfuchsjagd*, où les Füchse sont recherchés depuis des véhicules automobiles.
-</indepth>
 
+<indepth>
+Une variante particulière de la chasse au renard est la *chasse au renard mobile*, où les renards sont recherchés depuis des véhicules automobiles.
+</indepth>

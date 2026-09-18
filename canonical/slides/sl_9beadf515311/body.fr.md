@@ -1,7 +1,7 @@
-## Résistances de fil
-* Fil d'un conducteur avec une bonne résistance constante malgré les variations de température
+## Résistances bobinées
+* Fil conducteur présentant une bonne résistance constante malgré les variations de température
 * Permet une charge élevée
-* Souvent enroulé pour une plus grande longueur
+* Souvent bobiné pour augmenter la longueur
 * Adapté uniquement aux basses fréquences
 
 ---
@@ -18,7 +18,7 @@
 ---
 ## Résistance à couche d'oxyde métallique
 * Similaire à la résistance à couche métallique
-* Faible induction
+* Peu d'inductance parasite
 * Adapté aux hautes fréquences
 
 ---
@@ -27,5 +27,5 @@
 [question:EC104]
 
 <note>
-* À retenir pour l'instant, car le sens se comprendra après la présentation des condensateurs et des bobines
+* Pour l'instant, retenez simplement ces informations, leur utilité apparaîtra après la présentation des condensateurs et des bobines.
 </note>

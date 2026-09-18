@@ -1,19 +1,19 @@
-## Amplificateurs de puissance HF
+## Amplificateur de puissance HF
 
-* Amplifient le signal HF des étapes précédentes
+* Amplifient le signal HF issu des étages précédents
 * Objectif : atteindre la puissance de sortie souhaitée
-* Deux types : Amplificateurs HF à large bande et sélectifs
+* Deux types : amplificateurs HF large bande et sélectifs
 
 ---
-### Amplificateurs HF à large bande
+### Amplificateurs HF large bande
 
 <left>
-[picture:491:a_verstaerker_breitband_gegentaktverstaerker:Amplificateur push-pull à large bande]
+[picture:491:a_verstaerker_breitband_gegentaktverstaerker:Amplificateur push-pull large bande]
 </left>
 <right>
-* Amplification uniforme sur une large bande de fréquences (par exemple, $\qtyrange{1}{30}{\mega\hertz}$)
-* Reconnaissable aux transformateurs de couplage à large bande
-* Pas de capacités parallèles ou série en tant que circuit oscillant
+* Amplification uniforme sur une large bande de fréquences (par ex. $\qtyrange{1}{30}{\mega\hertz}$)
+* Reconnaissables aux transformateurs de couplage large bande
+* Pas de condensateurs en parallèle ou en série formant un circuit oscillant
 </right>
 
 ---
@@ -22,14 +22,13 @@
 ---
 ### Amplificateurs HF sélectifs
 
-
 <left>
 [picture:778:a_verstaerker_selektiver_hf_verstaerker:Amplificateur HF sélectif]
 </left>
 <right>
-* Amplification maximale uniquement dans une bande étroite (par exemple, une bande amateur)
-* Conception sélective en fréquence
-* Utilisation de circuits oscillants série ou parallèle dans le chemin du signal HF
+* Gain maximal uniquement dans une bande étroite (par ex. une bande amateur)
+* Conception à sélectivité fréquentielle
+* Utilisation de circuits oscillants en série ou en parallèle dans le trajet du signal HF
 </right>
 
 ---
@@ -38,86 +37,84 @@
 ---
 # Amplificateurs multi-étages
 
-
 <left>
-[picture:764:a_verstaerker_zweistufiger_breitband_hf_verstaerker:Amplificateur HF à large bande à deux étages]
+[picture:764:a_verstaerker_zweistufiger_breitband_hf_verstaerker:Amplificateur HF large bande à deux étages]
 </left>
 <right>
-* Les amplificateurs peuvent être réalisés en plusieurs étapes en enchaînant des étapes individuelles
+* Les amplificateurs peuvent être conçus en plusieurs étages par enchaînement d'étages individuels
 </right>
 
 ---
 [question:AF413]
 
 ---
-## Adaptation d'impédance entre les étages d'amplificateur
+## Adaptation d'impédance entre les étages d'amplification
 
-* Nécessaire pour une amplification maximale, une distorsion minimale et un rendement optimal
+* Nécessaire pour un gain maximal, une distorsion minimale et un rendement optimal
 * Empêche les réflexions et les non-linéarités
 
 ---
 ### Méthodes d'adaptation d'impédance
 
-* Adaptation à large bande par transformateur avec un rapport de transformation approprié
-* Adaptation sélective en fréquence par circuit oscillant dérivé
+* Adaptation large bande par transformateur avec un rapport de transformation adapté
+* Adaptation sélective en fréquence par circuit oscillant à prise intermédiaire
 
 ---
 
-[picture:765:a_anpassung_breitbandige_anpassung:Adaptation à large bande entre deux étages au moyen d'un transformateur avec un rapport de transformation approprié]
+[picture:765:a_anpassung_breitbandige_anpassung:Adaptation large bande entre deux étages au moyen d'un transformateur avec rapport de transformation adapté]
 
 ---
 [question:AF414]
 
 ---
 
-[picture:786:a_anpassung_mosfet:Adaptation d'entrée et de sortie à large bande sur des MOSFET à faible impédance au moyen de transformateurs]
+[picture:786:a_anpassung_mosfet:Adaptation large bande en entrée et en sortie sur des MOSFET basse impédance au moyen de transformateurs]
 
 ---
 [question:AF417]
 
 ---
 
-[picture:779:a_anpassung_induktiver_spannungsteiler:Adaptation sélective en fréquence avec une bobine en tant que diviseur de tension inductif]
+[picture:779:a_anpassung_induktiver_spannungsteiler:Adaptation sélective en fréquence avec une bobine comme diviseur de tension inductif]
 
 ---
 [question:AF409]
 
 ---
 
-[picture:780:a_anpassung_kapazitiver_spannungsteiler:Adaptation sélective en fréquence avec un condensateur en tant que diviseur de tension capacitif]
-
+[picture:780:a_anpassung_kapazitiver_spannungsteiler:Adaptation sélective en fréquence avec un condensateur comme diviseur de tension capacitif]
 
 ---
 [question:AF410]
 
 ---
 
-[picture:768:a_anpassung_eingang_schwingkreis:Circuit oscillant avec des condensateurs variables pour l'adaptation de l'impédance d'entrée]
+[picture:768:a_anpassung_eingang_schwingkreis:Circuit oscillant avec condensateurs variables pour l'adaptation de l'impédance d'entrée]
 
 ---
 [question:AF407]
 
 ---
 
-[picture:769:a_anpassung_ausgang_schwingkreis:Circuit oscillant avec des condensateurs variables pour l'adaptation de l'impédance de sortie]
+[picture:769:a_anpassung_ausgang_schwingkreis:Circuit oscillant avec condensateurs variables pour l'adaptation de l'impédance de sortie]
 
 ---
 [question:AF406]
 
 ---
-### Filtre Pi pour l'adaptation d'impédance
+### Filtre en π pour l'adaptation d'impédance
 
 * Adapte les impédances d'entrée et de sortie par le rapport des capacités
-* La bobine définit avec les capacités la fréquence de conception
-* Caractéristique passe-bas supprime les harmoniques supérieures
+* La bobine définit, avec les condensateurs, la fréquence de conception
+* Caractère passe-bas : suppression des harmoniques
 
 ---
 [question:AF405]
 
 ---
-### Circuit LC derrière les amplificateurs de puissance HF
+### Circuit LC en aval d'un amplificateur de puissance HF
 
-* Servent à l'adaptation d'impédance et à la suppression simultanée des harmoniques supérieures
+* Permet l'adaptation d'impédance et la suppression simultanée des harmoniques
 
 ---
 [question:AF404]
@@ -125,7 +122,7 @@
 ---
 ## Rendement d'un amplificateur de puissance HF
 
-* Rapport entre la puissance de sortie HF délivrée et la puissance d'alimentation en courant continu fournie
+* Rapport entre la puissance HF de sortie délivrée et la puissance d'alimentation en courant continu fournie
 
 ---
 [question:AF401]
@@ -134,12 +131,12 @@
 ## Tension de polarisation dans les amplificateurs de puissance
 
 <left>
-[picture:786:a_verstaerker_bias_arbeitspunkt:Ajustement du point de fonctionnement dans un amplificateur par un potentiomètre]
+[picture:786:a_verstaerker_bias_arbeitspunkt:Réglage du point de fonctionnement dans un amplificateur au moyen d'un potentiomètre]
 </left>
 <right>
 * Réglage de la tension de service par diviseur de tension
-* Réglage fin par potentiomètre de réglage
-* Considération de la tension continue : ignorer les condensateurs, considérer les bobines comme un court-circuit
+* Réglage fin au moyen d'un potentiomètre ajustable
+* Considération en courant continu : les condensateurs sont ignorés, les bobines sont considérées comme des courts-circuits
 </right>
 
 ---
@@ -155,14 +152,14 @@
 ### Calcul de la tension de polarisation
 
 * Application de la loi d'Ohm
-* Prise en compte des circuits parallèles et série de résistances
-* Les bornes de grille des transistors sont capacitives et négligeables dans la considération de la tension continue
+* Prise en compte des montages en parallèle et en série de résistances
+* Les connexions de grille des transistors sont capacitives et négligeables en considération en courant continu
 
 ---
 [question:AF421]
 
 --- style="font-size: smaller;"
-#### Solution
+#### Méthode de résolution
 <left>
 * donné : $U_Z = \qty{6,2}{\volt}$
 * donné : $R_2 = \qty{270}{\ohm}$
@@ -188,13 +185,13 @@ $\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{\q
 ---
 ## Découplage HF de la tension de service
 
-* Empêche les rétroactions entre les étages d'amplificateur (par exemple, tendance à osciller)
-* Mise en œuvre par des inductances et des condensateurs de blocage en série
-* Caractéristique passe-bas : la tension continue reste conservée, la HF est bloquée
+* Empêche les rétroactions entre les étages d'amplification (par ex. tendance à l'oscillation)
+* Réalisation par des inductances en série et des condensateurs de découplage
+* Caractère passe-bas : la tension continue est maintenue, la HF est bloquée
 
 ---
 
-[picture:781:a_entkopplung_drossel:Bobine d'arrêt pour le découplage de la HF de la tension de service]
+[picture:781:a_entkopplung_drossel:Bobine d’arrêt pour le découplage de la HF de la tension de service]
 
 ---
 [question:AF411]
@@ -204,7 +201,7 @@ $\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{\q
 
 ---
 
-[picture:786:a_entkopplung_abblock_kondensatoren:Condensateurs de blocage pour le découplage de la HF de la tension de service avec une caractéristique passe-bas]
+[picture:786:a_entkopplung_abblock_kondensatoren:Condensateurs de découplage pour le découplage de la HF de la tension de service avec caractère passe-bas]
 
 ---
 [question:AF419]
@@ -215,7 +212,7 @@ $\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{\q
 ---
 ## Propriétés HF des condensateurs
 
-* Grandes capacités (par exemple, condensateurs électrolytiques) ne peuvent être utilisées qu'à basses fréquences
+* Les grandes capacités (par ex. condensateurs électrolytiques) ne sont utilisables qu'à basse fréquence
 * Pour les applications HF, combinaison de différentes valeurs de capacité pour couvrir une large bande de fréquences
 
 ---
@@ -229,13 +226,13 @@ $\begin{split}\frac{U_Z}{U_{GS}} &= \frac{R_2 + R_E}{R_E}\\ \Rightarrow \frac{\q
 </left>
 <right>
 * Déterminé par la différence entre la puissance de sortie et la puissance d'entrée
-* Calcul par soustraction des valeurs dBm avec signe
+* Calcul par soustraction algébrique des valeurs en dBm
 </right>
 
 ---
 [question:AF428]
 ---
-#### Solution
+#### Méthode de résolution
 
 * donné : $P_1 = \qty{0,3}{\milli\watt}$ ou $\qty{-5}{\dBm}$
 * donné : $P_2 = \qty{20}{\watt}$ ou $\qty{43}{\dBm}$

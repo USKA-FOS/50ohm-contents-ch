@@ -1,3 +1,3 @@
-Pour la construction de bobines à haute fréquence, on utilise généralement des noyaux en ferrite. La ferrite possède une haute perméabilité magnétique et, en même temps, de faibles pertes par courants de Foucault à haute fréquence. Cela permet d'augmenter l'inductance sans provoquer de grandes pertes.
+Pour la construction de selfs haute fréquence, on utilise généralement des noyaux en ferrite. La ferrite possède une perméabilité magnétique élevée et, en même temps, de faibles pertes par courants de Foucault aux fréquences élevées. Ainsi, l'inductance peut être augmentée sans entraîner de pertes importantes.
 
-L'acier serait inapproprié pour les applications à haute fréquence en raison de pertes élevées par courants de Foucault. Le plastique ou les matériaux diamagnétiques n'influencent en revanche que peu le champ magnétique.
+L'acier serait inadapté pour les applications haute fréquence en raison de ses pertes élevées par courants de Foucault. Les matières plastiques ou les matériaux diamagnétiques, en revanche, influencent à peine le champ magnétique.

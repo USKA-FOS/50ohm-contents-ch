@@ -1,15 +1,15 @@
-### BFO pour SSB
+### BFO pour BLU
 
-* Oscillateur à fréquence battante (BFO) oscille exactement à la fréquence de la porteuse supprimée
-* Mélange la porteuse à nouveau
-* Stabilité de fréquence aussi élevée que possible $\rightarrow$ Oscillateur commandé par quartz
+* L’oscillateur à battement (BFO) oscille exactement à la fréquence de la porteuse supprimée
+* Réinjecte la porteuse
+* Stabilité en fréquence élevée $\rightarrow$ oscillateur piloté par quartz
 
 ---
 ### BFO pour CW
 
-* Le BFO doit avoir une distance par rapport au signal CW
-* Autant que le signal CW audible doit être
-* Son agréable à $\qtyrange{600}{900}{\hertz}$
+* Le BFO doit être décalé par rapport au signal CW
+* Autant que la tonalité audible du signal CW doit l’être
+* Ton agréable à $\qtyrange{600}{900}{\hertz}$
 * Généralement à $\qty{800}{\hertz}$
 
 ---

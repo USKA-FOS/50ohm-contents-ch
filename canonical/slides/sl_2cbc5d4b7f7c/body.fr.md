@@ -1,35 +1,35 @@
 ## Semi-conducteurs
 
 <left>
-* Constitués d'une structure cristalline
+* Structure en réseau cristallin
 * 4 électrons partagés sur la couche externe
-* Sont en fait des isolants
-* Peuvent devenir conducteurs par augmentation de la température, la lumière ou le dopage
+* Sont normalement des isolants
+* Peuvent devenir conducteurs sous l'effet de la température, de la lumière ou du dopage
 </left>
 <right>
-[picture:854:a_silizium_halbleiter:Cristal semi-conducteur au silicium]
+[picture:854:a_silizium_halbleiter:Cristal semi-conducteur de silicium]
 </right>
 <note>
-Substances semi-conductrices courantes : Silicium (Si), Germanium (Ge), Arsenure de gallium (GaAs), Phosphure d'indium (InP), Oxyde de zinc (ZnO)
+Matériaux semi-conducteurs courants : silicium (Si), germanium (Ge), arséniure de gallium (GaAs), phosphure d'indium (InP), oxyde de zinc (ZnO)
 </note>
 ---
 [question:AB104]
 ---
 ## Dopage
 
-* "Impureté" des semi-conducteurs
-* Substances avec 5 électrons sur la couche externe $\rightarrow$ Excès d'électrons $\rightarrow$ *Dopage n*
-* Substances avec 3 électrons sur la couche externe $\rightarrow$ Manque d'électrons ("trou") $\rightarrow$ *Dopage p*
+* "Pollution" des semi-conducteurs
+* Substances avec 5 électrons sur la couche externe $\rightarrow$ excès d'électrons $\rightarrow$ *dopage de type N*
+* Substances avec 3 électrons sur la couche externe $\rightarrow$ manque d'électrons ("trou") $\rightarrow$ *dopage de type P*
 
 ---
 <left>
-[picture:855:a_n_dotierung:Dopage n avec phosphore]
+[picture:855:a_n_dotierung:Dopage de type N avec du phosphore]
 </left>
 <right>
-[picture:856:a_p_dotierung:Dopage p avec bore]
+[picture:856:a_p_dotierung:Dopage de type P avec du bore]
 </right>
 <note>
-Les trous ne sont pas vraiment mobiles, mais le flux d'électrons donne l'impression qu'ils se déplacent
+Les trous ne sont pas mobiles en réalité, mais grâce au flux d'électrons, il semble qu'ils se déplacent
 </note>
 ---
 [question:AB105]
@@ -42,40 +42,40 @@ Les trous ne sont pas vraiment mobiles, mais le flux d'électrons donne l'impres
 
 <left>
 [picture:857:a_pn_uebergang:Jonction PN]
-* Semi-conducteur dopé n sur semi-conducteur dopé p
-* Les électrons de la région dopée n migrent vers la région dopée p $\rightarrow$ *Diffusion*
+* Semi-conducteur de type N adjacent à un semi-conducteur de type P
+* Les électrons du matériau de type N migrent vers le matériau de type P $\rightarrow$ *diffusion*
 </left>
 <right>
-* Une *zone de déplétion* ou *couche de blocage* est créée
-* Un champ électrique existe au-dessus de la *couche de blocage*
-* L'échange s'arrête dès que le champ électrique est trop fort pour les électrons
+* Une *zone d'appauvrissement* ou *couche de blocage* se forme
+* Un *champ électrique* apparaît au-dessus de la *couche de blocage*
+* L'échange s'arrête dès que le champ électrique devient trop fort pour les électrons
 </right>
 
 --- style="font-size: smaller;"
 [question:AB108]
 --- style="font-size: 0.7em;"
-## Diode pn en sens passant
+## Diode PN en polarisation directe
 
 <left>
 [picture:956:a_pn_uebergang_mit_spannung:Jonction PN avec tension externe]
-* Application d'une tension à la région p (*Anode*)
-* La tension doit être plus positive qu'à la région n (*Cathode*)
+* Application d'une tension sur la zone P (*anode*)
+* La tension doit être plus positive que sur la zone N (*cathode*)
 </left>
 <right>
 * La tension attire les électrons à travers la couche de blocage
-* La couche de blocage est réduite et un courant circule dans le *sens passant*
+* La couche de blocage est réduite et un courant circule en *polarisation directe*
 </right>
 ---
 [question:AC402]
 ---
-### Diode pn en mode bloqué
+### Diode PN en polarisation inverse
 <left>
 [picture:957:a_pn_uebergang_mit_spannung:Jonction PN avec tension externe]
-* Tension positive à la cathode
+* Tension positive sur la cathode
 </left>
 <right>
-* La couche de blocage s'agrandit
-* Le flux de courant s'arrête et la diode bloque
+* La couche de blocage s'élargit
+* Le courant s'arrête et la diode bloque
 </right>
 ---
 [question:AB109]

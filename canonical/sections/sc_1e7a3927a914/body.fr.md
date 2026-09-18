@@ -1,31 +1,31 @@
-De nombreux appareils radio disposent d'un interrupteur pour sélectionner le type de modulation à utiliser. Celui-ci est généralement étiqueté "Mode" et permet par exemple de choisir entre CW, AM, FM et SSB. Les appareils radio qui ne prennent en charge qu'un seul type de modulation n'ont bien sûr pas un tel interrupteur.
+Sur de nombreux postes radio, il existe un interrupteur permettant de sélectionner le type de modulation à utiliser. Celui-ci est généralement étiqueté « Mode » et permet de choisir, par exemple, entre CW, AM, FM et BL. Les postes radio ne supportant qu’un seul type de modulation n’ont bien sûr pas un tel interrupteur.
 
 <webmargin>
-| l: Abkürzung | X: Mode |
+| l: Abréviation | X: Mode |
 | CW | Télégraphie |
-| AM | Modulation d'amplitude |
-| FM | Modulation de fréquence |
-| LSB | SSB bande latérale inférieure ("lower sideband")|
-| USB | SSB bande latérale supérieure ("upper sideband") |
-[table:n_sendearten:Modulations couramment utilisées]
+| AM | modulation d'amplitude |
+| FM | modulation de fréquence |
+| LSB | BL bande latérale inférieure (« lower sideband ») |
+| USB | BL bande latérale supérieure (« upper sideband ») |
+[table:n_sendearten:Types de modulation couramment utilisés]
 </webmargin>
 
-Avec la connaissance que SSB, FM et AM sont des types de modulation, la question suivante peut être facilement répondue. La plupart des autres termes mentionnés dans la question ne sont d'ailleurs pas des types de modulation, mais des procédés de transmission numériques, que nous aborderons en partie plus tard.
+Avec la connaissance que BL, FM et AM sont des types de modulation, la question suivante peut être facilement résolue. La plupart des autres termes mentionnés dans la question ne sont d’ailleurs pas des types de modulation, mais des procédés de transmission numériques, que nous aborderons en partie plus tard.
 
 [question:NE102]
 
 ---
 
-Avec le SSB, il est important de sélectionner la bonne bande latérale (LSB ou USB). Dans le radioamateur, à quelques exceptions près, la bande latérale inférieure est utilisée en dessous de $\qty{10}{\mega\hertz}$ et la bande latérale supérieure au-dessus de $\qty{10}{\mega\hertz}$. C'est également recommandé dans le plan de bandes de l'IARU.
+En BL, il faut veiller à sélectionner la bonne bande latérale (LSB ou USB). En radioamateurisme, à quelques exceptions près, on utilise la bande latérale inférieure en dessous de $\qty{10}{\mega\hertz}$ et la bande latérale supérieure à partir de $\qty{10}{\mega\hertz}$. C’est également ce qui est recommandé dans le plan de bandes de l’IARU.
 
 <attention>
-Pour les procédés de transmission numériques, la bande latérale supérieure est toujours utilisée en dessous de $\qty{10}{\mega\hertz}$!
+Pour les procédés de transmission numériques, on utilise toujours la bande latérale supérieure en dessous de $\qty{10}{\mega\hertz}$ !
 </attention>
 
 %[class:N]
 %<tip>
-% Tip pour HB3 non applicable et commenté.
-%Au vu des bandes autorisées, la classe N peut toujours utiliser l'USB.
+% Conseil non applicable pour HB3 et commenté.
+%En raison des bandes autorisées, la classe N peut toujours utiliser USB.
 %</tip>
 %[/class]
 
@@ -37,12 +37,12 @@ Pour les procédés de transmission numériques, la bande latérale supérieure 
 
 ---
 
-Si la mauvaise bande latérale est choisie en SSB, la parole devient totalement incompréhensible. Il est également important en SSB d'ajuster très finement la fréquence de réception avec le bouton de réglage du VFO. De petites déviations par rapport à la bonne fréquence font que la parole devient incompréhensible.
+En BL, si la mauvaise bande latérale est choisie, la voix devient totalement incompréhensible. Il est également important, en BL, de régler très précisément la fréquence de réception avec le bouton de réglage du VFO. Même de légères écarts par rapport à la bonne fréquence rendent la voix incompréhensible.
 
 <indepth>
-Le fait que le *choix incorrect de la bande latérale* en SSB conduise à une parole incompréhensible est dû au fait que les deux bandes latérales sont symétriques. Alors que dans la bande latérale supérieure, les fréquences vocales basses sont plus basses et les fréquences vocales élevées sont plus élevées, c'est l'inverse dans la bande latérale inférieure. Si la mauvaise bande latérale est donc reçue, les tons réellement bas sont reproduits comme des tons élevés et les tons réellement élevés comme des tons bas.
+Le fait que *le mauvais choix de la bande latérale* en BL entraîne une voix incompréhensible s’explique par le fait que les deux bandes latérales sont inversées. Alors qu’en bande latérale supérieure, les fréquences vocales basses sont plus basses et les fréquences vocales hautes sont plus hautes, c’est exactement l’inverse en bande latérale inférieure. Si donc on reçoit avec la mauvaise bande latérale, les tons normalement bas sont restitués comme des tons aigus et les tons normalement aigus comme des tons bas.
 
-En revanche, pour AM ou FM, de légères déviations de fréquence ne sont pratiquement pas perceptibles, car le récepteur peut utiliser la porteuse pour la démodulation, c'est-à-dire la restauration du signal vocal. En SSB, il n'y a pas de porteuse. C'est pourquoi, en SSB, la fréquence doit être ajustée aussi précisément que possible pour que la voix sonne correctement.
+En AM ou FM, de légères déviations de fréquence passent pratiquement inaperçues, car le récepteur utilise la porteuse pour la démodulation, c’est-à-dire pour la restitution du signal vocal. En BL, il n’y a pas de porteuse. C’est pourquoi, en BL, il faut régler la fréquence aussi précisément que possible pour que la voix sonne correctement.
 </indepth>
 
 [question:NE212]

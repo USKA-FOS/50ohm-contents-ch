@@ -1,10 +1,10 @@
-## Impédance d'alimentation
+## Résistance d'alimentation
 
-* Une antenne est alimentée par une tension et un courant
-* Le rapport entre les deux donne l'impédance d'alimentation
-* Pour la puissance, il faut toujours avoir une tension <u>et</u> un courant
-* Si l'un des deux est 0, il n'y a pas de transfert de puissance
-* L'impédance d'alimentation dépend du point d'alimentation
+* Une antenne est alimentée en tension et en courant
+* Leur rapport donne la résistance d'alimentation
+* Pour la puissance, il faut toujours que la tension <u>et</u> le courant soient présents
+* Si l'un des deux est égal à 0, il n'y a pas de dissipation de puissance
+* La résistance d'alimentation dépend de la position du point d'alimentation
 
 <note>
 * Loi d'Ohm
@@ -15,42 +15,42 @@
 ## Antennes alimentées en courant
 
 * Courant élevé avec une tension relativement faible au point d'alimentation
-* Faible impédance d'alimentation
-* environ $\qtyrange{36}{100}{\ohm}$
-* Comportement basse impédance
+* Faible résistance d'alimentation
+* env. $\qtyrange{36}{100}{\ohm}$
+* Comportement à basse impédance
 
 ---
 
 ## Antenne alimentée en tension
 * Tension élevée avec un courant relativement faible au point d'alimentation
-* Impédance d'alimentation élevée
-* environ $\qtyrange{1500}{4000}{\ohm}$
-* Comportement haute impédance
+* Résistance d'alimentation élevée
+* env. $\qtyrange{1500}{4000}{\ohm}$
+* Comportement à haute impédance
 
 ---
 
 ## Alimentation d'un dipôle demi-onde
 
 * Les porteurs de charge oscillent d'avant en arrière
-* Au milieu, beaucoup de porteurs de charge sont déplacés $\rightarrow$ ventre de courant
-* Aux extrémités, des tensions particulièrement élevées sont créées $\rightarrow$ ventre de tension
+* Au centre, un grand nombre de porteurs de charge se déplacent $\rightarrow$ ventre de courant
+* Aux extrémités, il se produit des tensions particulièrement élevées $\rightarrow$ ventre de tension
 * Peu de porteurs de charge $\rightarrow$ nœud de courant
 * Aucune tension $\rightarrow$ nœud de tension
 
 <note>
-* Le graphique de la page suivante l'illustre
+* Un graphique sur la page suivante le clarifie
 </note>
 
 ---
 
 <left>
-* Ventre de courant au milieu
+* Ventre de courant au centre
 * Ventre de tension aux extrémités
 * Nœud de courant aux extrémités
-* Nœud de tension au milieu
+* Nœud de tension au centre
 </left>
 <right>
-[picture:787:e_strom_spannung_speisung_dipol:Dipôle demi-onde avec distribution de tension et de courant]
+[picture:787:e_strom_spannung_speisung_dipol:Dipôle demi-onde avec répartition de la tension et du courant]
 </right>
 
 ---
@@ -63,17 +63,16 @@
 
 ---
 
-## Dipôle demi-onde alimenté en bout
+## Dipôle demi-onde alimenté à l'extrémité
 
 
 <left>
 * Antenne alimentée en tension
-* Impédance d'alimentation élevée
+* Résistance d'alimentation élevée
 </left>
 <right>
-[picture:851:e_strom_spannung_speisung_dipol_ende:Dipôle demi-onde alimenté en bout]
+[picture:851:e_strom_spannung_speisung_dipol_ende:Dipôle demi-onde alimenté à l'extrémité]
 </right>
 
 ---
 [question:EG205]
-

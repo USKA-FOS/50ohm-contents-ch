@@ -1,33 +1,33 @@
-%YPA: Quels indicateurs d'appel voulons-nous utiliser pour l'exemple de QSO ?
-%YPA: Est-ce un appel ? Pas un appel ?
+%YPA : Quels indicatifs d’appel devons-nous utiliser pour l’exemple de QSO ?
+%YPA : Faut-il dire "appel" ou "invitation à répondre" ?
 
-Les liaisons radio [index:liaison radio] se font généralement à tour de rôle sur une fréquence. C'est-à-dire qu'une station émet, tandis que l'autre station écoute. Si les deux émettent en même temps, aucune des deux n'entend. Il est donc important qu'un certain ordre règne lors du déroulement d'une liaison radio, appelée procédure d'exploitation [index:procédure d'exploitation].
+Les liaisons radio [index:Funkverbindung] se déroulent généralement en alternance sur une même fréquence. Autrement dit, une station émet tandis que l’autre écoute. Si les deux stations émettent simultanément, aucune des deux n’entend l’autre. Il est donc essentiel d’établir un certain ordre dans le déroulement d’une liaison radio, appelé gestion de trafic [index:Betriebsabwicklung].
 
-Dans de nombreux services radio, la procédure d'exploitation est très précisément prescrite, par exemple dans la radiotéléphonie aéronautique, la police, les pompiers ou les services de secours. Dans le radioamateur, il n'y a pas de prescriptions obligatoires pour la procédure d'exploitation. Il faut seulement mentionner l'indicatif d'appel correctement. Mais même dans le radioamateur, il est logique de s'orienter sur la procédure d'exploitation habituelle et de connaître les abréviations courantes. C'est pourquoi il existe également une partie d'examen distincte "Connaissances opérationnelles".
+Pour de nombreux services radio, la gestion de trafic est strictement réglementée, par exemple dans l’aviation, la police, les pompiers ou les services de secours. En radioamateurisme, il n’existe pas d’obligations légales en matière de gestion de trafic. Il suffit de mentionner correctement son indicatif d’appel. Cependant, il est judicieux de suivre les pratiques courantes et de connaître les abréviations usuelles. C’est pourquoi il existe une partie spécifique de l’examen intitulée "Connaissances opérationnelles".
 
-Tous les radioamateurs utilisent les fréquences disponibles en commun. Le principe qui s'applique ici est : premier arrivé, premier servi. C'est pourquoi, avant de commencer une liaison radio, il faut d'abord écouter un certain temps si la fréquence n'est pas déjà utilisée par une autre station. Pour être tout à fait sûr, il faut encore demander deux ou trois fois brièvement si la fréquence est libre.
+Tous les radioamateurs partagent les fréquences disponibles. Le principe est le suivant : premier arrivé, premier servi. Avant d’initier une liaison radio, il est donc conseillé d’écouter pendant un certain temps pour vérifier que la fréquence n’est pas déjà utilisée par une autre station. Pour être tout à fait certain, il est recommandé de demander deux ou trois fois si la fréquence est libre.
 
 <qso>
-Cette fréquence est-elle libre ? DL1PZ
+Cette fréquence est-elle libre ? Ici HB9RW.
 > *(pas de réponse)*
-Cette fréquence est-elle libre ? DL1PZ
+Cette fréquence est-elle libre ? Ici HB9RW.
 > *(pas de réponse)*
-CQ CQ ici DL1PZ avec un appel général, ici DL1PZ et écoute.
-> DL1PZ ici DL9MJ s'il vous plaît répondre
+CQ CQ, ici HB9RW avec un appel général, ici HB9RW à l’écoute.
+> Ici HB9RW, ici HB9CN à vous.
 </qso>
 
-Si aucune réponse ne suit, on peut supposer que la fréquence n'est pas occupée. Maintenant, on peut commencer soi-même une liaison radio. Comme au téléphone, cela s'appelle l'appel [index:appel]. En principe, il existe deux possibilités, l'appel général et l'appel ciblé :
+Si aucune réponse n’est reçue, on peut considérer que la fréquence est libre. Il est alors possible de lancer une liaison radio. Comme au téléphone, cela s’appelle un appel [index:Anruf]. Il existe deux types d’appels : l’appel général et l’appel ciblé.
 
-* Avec un appel *général* [index:appel:général], on demande à *toutes* les stations qui peuvent vous entendre de répondre. L'abréviation opérationnelle internationale pour l'appel général est CQ. Si CQ est prononcé en anglais (environ "si-kju"), cela sonne comme "seek you" (environ "sik-ju"), donc "cherche-toi". Dans le trafic radio en langue allemande, au lieu de CQ, on utilise aussi la formule "Appel général".
-* Dans le cas d'un appel *ciblé* [index:appel:ciblé], en revanche, on souhaite la réponse d'une station *déterminée*.
+* Avec un **appel général** [index:Anruf:Allgemein], on invite **toutes** les stations pouvant nous entendre à répondre. L’abréviation internationale pour l’appel général est CQ. Prononcée en anglais (environ "si-kju"), cela ressemble à "seek you" (environ "sik-ju"), soit "je vous cherche". Dans le trafic radio germanophone, on utilise aussi l’expression "appel général".
+* Avec un **appel ciblé** [index:Anruf:Gezielt], on souhaite obtenir la réponse **d’une station en particulier**.
 
 ---
 
-La réponse se fait de la même manière pour les appels généraux et ciblés. On nomme d'abord l'indicatif d'appel de la station appelante, puis le sien.
+La réponse à un appel, qu’il soit général ou ciblé, se fait de la même manière : on commence par mentionner l’indicatif d’appel de la station appelante, puis son propre indicatif.
 
 <qso>
-DL9MJ de DL1PZ s'il vous plaît répondre
-> DL1PZ ici DL9MJ
+HB9RW de HB9CN, à vous.
+> Ici HB9CN.
 </qso>
 
 [question:BB102]
@@ -37,25 +37,25 @@ DL9MJ de DL1PZ s'il vous plaît répondre
 
 ---
 
-Il peut arriver qu'on ne capte pas tout un appel, mais qu'on entende des parties de son propre indicatif d'appel et qu'on ne soit pas sûr d'être concerné. Dans un tel cas, il suffit de demander si on était concerné.
+Il peut arriver qu’on ne capte pas entièrement un appel, mais qu’on entende des parties de son propre indicatif et qu’on ne soit pas certain d’être concerné. Dans ce cas, il est préférable de demander confirmation.
 
 <qso>
-D*(krschkrsch)*MJ de DK5WP, s'il vous plaît répondre
-> Ici DL9MJ, ai-je été appelé ?
+H*(krschkrsch)*RW de HB9CN, à vous.
+> Ici HB9RW, est-ce que j’étais appelé ?
 </qso>
 
 [question:BE103]
 
 ---
 
-Après une liaison radio (souvent désignée par QSO) la fréquence est toujours laissée à la station qui a lancé l'appel. La fréquence *appartient* en quelque sorte à l'appelant. Indépendamment du fait qu'il ait fait un appel général ou ciblé.
+Après une liaison radio (souvent appelée QSO), la fréquence revient toujours à la station qui a initié l’appel. La fréquence *appartient* en quelque sorte à l’appelant, qu’il ait effectué un appel général ou ciblé.
 
 <indepth>
-*QSO* est une abréviation qui provient à l'origine de la télégraphie Morse et signifie "j'ai un contact direct avec la station X". En s'appuyant sur cela, les radioamateurs parlent souvent d'un QSO lorsqu'ils veulent dire une liaison radio réussie.
+*QSO* est une abréviation issue de la télégraphie Morse et signifiant "j’ai un contact direct avec la station X". Par extension, les radioamateurs utilisent souvent le terme QSO pour désigner une liaison radio réussie.
 </indepth>
 
 ---
 [question:BE108]
 <indepth>
-Il se peut qu'une autre station ait appelé pendant le QSO, qui veut parler avec vous. Dans ce cas, la fréquence doit être libérée pour la station appelante à l'origine. Avant cela, on peut encore s'entendre brièvement avec l'appelant sur une autre fréquence.
+Il est possible qu’une autre station intervienne pendant le QSO pour parler à l’une des parties. Même dans ce cas, la fréquence doit être libérée pour la station qui a initié l’appel. Cependant, avant cela, on peut convenir avec l’intervenant d’un changement de fréquence.
 </indepth>

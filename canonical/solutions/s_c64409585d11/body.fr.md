@@ -1,1 +1,1 @@
-L'unité de l'impédance est l'ohm ($\unit{\ohm}$), il s'agit d'une résistance électrique en technique du courant alternatif, également appelée résistance complexe ou résistance en courant alternatif.
+L’unité de l’impédance est l’ohm ($\unit{\ohm}$), il s’agit d’une résistance électrique en courant alternatif, aussi appelée résistance complexe ou impédance.

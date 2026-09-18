@@ -1,22 +1,37 @@
+<left>
+[photo:92:n_computersteuerung_funkfernschreiber:Funkfernschreiber]
+* Évolution de la télégraphie Morse : téléimprimeur connecté à l’appareil radio via un modem
+</left>
+<right>
+* Cela a donné naissance au *téléimprimeur radio* pour envoyer et recevoir des textes de manière automatisée
+* L’abréviation *RTTY* (radio teletype) est toujours utilisée aujourd’hui
+* Aujourd’hui, c’est généralement l’ordinateur qui prend en charge cette tâche → de nombreux autres *modes numériques* sont possibles
+</right>
+<note>
+Téléimprimeur : appareil permettant de transmettre des messages sous forme de texte à l’aide de signaux électriques
+</note>
+
+---
+
 ## Signaux de commande
 
 <left>
-* Transmission de signaux audio ainsi que de signaux de commande (CAT) entre ordinateur et émetteur-récepteur
-* Par exemple, mettre l'émetteur-récepteur en émission et transmettre le signal de l'ordinateur
+* Transmission de signaux audio et de signaux de commande (CAT) entre l’ordinateur et l’émetteur-récepteur
+* Par exemple, activer l’émission sur l’émetteur-récepteur et transmettre le signal depuis l’ordinateur
 </left>
 <right>
-[picture:630:n_computersteuerung_verbindungen:Exemples de connexions entre ordinateur et appareil radio]
+[picture:630:n_computersteuerung_verbindungen:Beispiele für Verbindungen zwischen Computer und Funkgerät]
 </right>
 
 ---
 ## Connexion de données
 
-* Derrière la prise du microphone dans l'appareil radio peuvent se trouver des étages d'amplificateur et de filtre pour la transmission vocale $\rightarrow$ inapproprié pour la transmission de données
-* Connexion de données propre sur l'émetteur-récepteur
-* Laisse passer les signaux de l'ordinateur sans les altérer
+* Derrière la prise du microphone dans l’appareil radio, il peut y avoir des étages d’amplification et de filtrage pour la transmission vocale → inadapté à la transmission de données
+* Prise de données dédiée sur l’émetteur-récepteur
+* Permet au signal provenant de l’ordinateur de passer sans altération
 
 <note>
-Souvent désigné par DATA ou 9600
+Souvent désignée par DATA ou 9600
 </note>
 
 ---
@@ -28,8 +43,8 @@ Souvent désigné par DATA ou 9600
 ---
 [question:NF117]
 <note>
-* Il est important de veiller à ce que l'appareil radio ne passe pas en émission de manière inattendue.
-* Anecdotique : son de démarrage de Windows via radio
+* Il faut veiller à ce que l’appareil radio ne passe pas accidentellement en émission.
+* Anecdote : le son de démarrage de Windows diffusé par radio
 </note>
 
 ---

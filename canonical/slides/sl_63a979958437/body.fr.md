@@ -1,23 +1,23 @@
-[photo:217:e_aurora:Aurora lors du week-end de formation en radio d'urgence en mai 2024]
+[photo:217:e_aurora:Aurore boréale lors d'un week-end de formation radioamateur en mai 2024]
 
 ---
-* Aurora ou aurore boréale à environ $\qtyrange{90}{200}{\kilo\meter}$ d'altitude
+* Phénomène d'aurore boréale ou polaire à environ $\qtyrange{90}{200}{\kilo\meter}$ de hauteur
 * Principalement au-dessus des pôles magnétiques nord et sud
 * Les atomes d'oxygène et d'azote sont excités ou ionisés par le vent solaire
 * Vent solaire : particules chargées électriquement
-* Particulièrement fort lors des éruptions solaires
+* Particulièrement intense lors des éruptions solaires
 
 ---
-## Aurora et radioamateur
-* Les ondes radio peuvent se briser sur les atomes d'oxygène et d'azote ionisés
-* Particulièrement utilisable pour les liaisons VHF-DX
-* La parole n'est que difficilement utilisable (grande bande passante)
-* Adapté pour CW et Digimodes
-* Rapport : pour T, "A" est attribué, car le ton est rude et fluctuant
+## Aurore et radioamateurisme
+* Les ondes radio peuvent se réfléchir sur les atomes d'oxygène et d'azote ionisés
+* Particulièrement exploitable pour les liaisons VHF-DX
+* La voix est difficilement utilisable (bande passante importante)
+* Adapté pour le CW et les modes numériques
+* Rapport : pour T, la note "A" est attribuée car le ton est rugueux et fluctuant
 
 ---
 
-La fin d'un QSO CW Aurora entre GM4YXI et OK/DF7TR/P:
+Fin d'un QSO en CW entre GM4YXI et OK/DF7TR/P lors d'une aurore :
 
 [include:applet_aurora]
 

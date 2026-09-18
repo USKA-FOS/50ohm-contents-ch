@@ -1,41 +1,53 @@
-### Qu'est-ce qu'un concours?
+### Concours
 
-* Dans le domaine du radioamateur, des compétitions ont également lieu, appelées concours.
-* Les concours servent à la compétition sportive, mais aussi à améliorer sa propre station radioamateur et son fonctionnement.
+* En radioamateurisme, des compétitions appelées *concours* sont également organisées.
+* Objectif : établir le plus grand nombre de liaisons radio en un temps limité.
+* Les concours servent à la fois de compétition sportive et à améliorer sa station radioamateur et sa gestion des opérations.
+* Les règles sont définies par l’organisateur dans un *appel à participation*.
 
 ---
 [question:BE301]
 
 ---
-### Quelles sont les caractéristiques des liaisons en concours?
+### Caractéristiques des stations en concours
 
-* Les liaisons sont particulièrement courtes, car on souhaite établir autant de liaisons que possible dans le temps imparti.
-
----
-[question:BE302]
-
----
-### Comment reconnaît-on les stations de concours?
-
-* On reconnaît souvent les stations de concours au fait que le nom de la compétition ou simplement "CONTEST" est intégré dans l'appel CQ.
-* Par exemple: "CQ FD" ou "CQ Ruhrgebietscontest" ou "CQ Contest".
-* En télégraphie, alors CQ TEST.
+* On reconnaît souvent les stations en concours au fait que le nom du concours ou simplement le mot « CONTEST » est intégré dans l’appel CQ.
+* Par exemple : « CQ FD » ou « CQ Ruhrgebietscontest » ou « CQ Contest ».
+* En télégraphie, on utilise CQ TEST.
+* Exemple : DD4UQ participe en portable au Fieldday-Contest en télégraphie → « CQ FD DD4UQ/P TEST »
 
 <note>
-Lors de CQ Test, il ne s'agit pas de la réalisation d'une expérience, par exemple pour tester l'antenne
+L’appel CQ TEST ne signifie pas qu’un essai est en cours, par exemple pour tester une antenne.
 </note>
 
 ---
 [question:BE116]
 
 ---
-### Opération spéciale en concours
+### Appel à participation
 
-* On peut trouver les données échangées dans l'annonce.
-* Il existe des compétitions où, après chaque liaison, la station appelant CQ doit céder la fréquence à la station opposée. Celles-ci sont souvent désignées comme des "Sprint Contest", un coup d'œil dans l'annonce est recommandé.
+* Définit la période et les bandes de fréquences à utiliser.
+* Précise les informations à échanger lors de chaque liaison, par exemple : indicatif d’appel, rapport et locator Maidenhead.
+* Établit les règles d’évaluation.
+* Si les règles ne sont pas respectées → la liaison n’est pas comptabilisée ou des points sont retirés.
 
 ---
 [question:BE303]
+
+---
+### Liaisons en concours
+
+* Les liaisons sont particulièrement courtes, car l’objectif est d’établir le plus grand nombre de contacts dans le temps imparti.
+
+---
+[question:BE302]
+
+---
+### Concours en sprint
+
+* Après chaque liaison, la station appelant CQ doit libérer la fréquence de la station correspondante.
+* On cherche ensuite une nouvelle fréquence libre pour rappeler CQ ou répondre à d’autres stations.
+* Il est conseillé de consulter l’appel à participation.
 
 ---
 [question:BE304]

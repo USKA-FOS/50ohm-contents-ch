@@ -1,16 +1,16 @@
-## Recherche dans le ménage
+## Recherche dans son propre foyer
 
 Causes fréquentes
-* Onduleurs de systèmes solaires
+* Onduleurs d'installations solaires
 * Alimentations à découpage
-* Lampes LED
-* Communication par ligne électrique
+* Éclairages LED
+* Communication par courant porteur (Powerline)
 
 <note>
-* Limiter les sources de perturbation
+* Identifier la source du problème
 * Éteindre les appareils
 * Couper les fusibles
-* Powerline a souvent des filtres pour les bandes Afu, mais il n'est pas clair si elles reçoivent également les mises à jour
+* La communication par courant porteur dispose souvent de filtres pour les bandes radioamateur, mais il n'est pas certain qu'ils reçoivent les mises à jour
 </note>
 
 ---
@@ -20,14 +20,14 @@ Causes fréquentes
 
 ## Perturbations acceptables
 
-* Essayer de déterminer les valeurs limites des appareils chez les voisins
-* Si les valeurs limites (EMVG et FuAG) sont respectées, la perturbation doit être acceptée
-* Peut-être que le voisin est prêt à coopérer pour remédier à la situation
+* Essayer de déterminer les valeurs limites des appareils dans le voisinage
+* Si les valeurs limites (EMVG et FuAG) sont respectées, la perturbation doit être tolérée
+* Le voisin pourrait éventuellement être coopératif pour résoudre le problème
 
 <note>
-* EMVG: Loi sur la compatibilité électromagnétique des équipements (EMVG)
-* FuAG: Loi sur les installations radioélectriques
-* Le département DARC pour la compatibilité électromagnétique dispose d'appareils de mesure
+* EMVG : Loi sur la compatibilité électromagnétique des équipements (EMVG)
+* FuAG : Loi sur les installations radio
+* Le service DARC pour la compatibilité électromagnétique dispose d'appareils de mesure
 * Faire ici de la publicité pour le DARC
 </note>
 
@@ -36,11 +36,11 @@ Causes fréquentes
 
 ---
 
-### Impliquer la BNetzA
+### Impliquer l'Agence fédérale des réseaux (BNetzA)
 
-* Via la réception des perturbations radio de la Bundesnetzagentur
-* Créer un protocole sur les perturbations
-* Moment, type et source présumée
+* Via l'acceptation des perturbations radio par l'Agence fédérale des réseaux
+* Établir un procès-verbal des perturbations
+* Date, type et source présumée
 
 ---
 [question:VE309]

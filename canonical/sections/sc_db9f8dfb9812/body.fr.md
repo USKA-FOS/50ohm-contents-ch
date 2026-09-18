@@ -1,8 +1,12 @@
-La sélectivité d'un récepteur est déterminée par la bande passante des filtres dans sa partie ZF. Leur bande passante doit toujours être adaptée au type de modulation à recevoir. Par exemple, pour la réception de signaux vocaux SSB, une bande passante de filtre d'environ $\qty{2,7}{\kilo\hertz}$ est utilisée. Les signaux CW ainsi que RTTY peuvent être reçus avec des largeurs de bande de filtre de $\qty{500}{\hertz}$, afin que ceux-ci soient bien distinguables des autres signaux adjacents. Les signaux FM nécessitent une bande passante nettement plus grande d'environ $\qty{12}{\kilo\hertz}$.
+La sélectivité d’un récepteur est déterminée par la bande passante des filtres présents dans son amplificateur FI.
 
-Les filtres et leurs largeurs de bande ainsi que leur pente peuvent être réalisés techniquement par différents concepts. Les filtres les plus à pente raide et à bande étroite sont les filtres à quartz, suivis des filtres en céramique. Les filtres LC ont des largeurs de bande plus grandes et ne sont pas aussi à pente raide, les filtres RC ne sont normalement pas utilisés dans la plage des HF des récepteurs.
+[question:AF205]
+
+Leur bande passante doit toujours s’adapter au type de modulation à recevoir. Par exemple, pour la réception de signaux vocaux en BLU, on utilise une bande passante d’environ $\qty{2,7}{\kilo\hertz}$. Les signaux CW ainsi que RTTY peuvent être reçus avec des bandes passantes de $\qty{500}{\hertz}$, afin d’être bien distingués des autres signaux adjacents. Les signaux FM nécessitent une bande passante nettement plus large, d’environ $\qty{12}{\kilo\hertz}$.
+
+[question:AF206]
+[question:AF207]
+
+Les filtres et leurs bandes passantes ainsi que la pente du front peuvent être réalisés techniquement par différents concepts. Les filtres les plus pentus et les plus étroits sont les filtres à quartz, suivis des filtres céramiques. Les filtres LC ont des bandes passantes plus larges et des pentes moins raides ; les filtres RC ne sont normalement pas utilisés dans la gamme HF des récepteurs.
 
 [question:AF208]
-[question:AF206]
-[question:AF205]
-[question:AF207]

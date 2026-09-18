@@ -1,22 +1,23 @@
-L'alimentation d'une antenne se fait toujours avec une tension et un courant qui sont dans un certain rapport l'un à l'autre. Ce rapport est appelé impédance d'alimentation.
+L'alimentation d'une antenne se fait toujours avec une tension et un courant qui sont dans un rapport déterminé. Ce rapport est appelé résistance d'alimentation.
 
-Pour qu'une puissance puisse être délivrée, il faut toujours qu'il y ait une tension *et* un courant, car la puissance résulte de la multiplication de la tension et du courant. Si la tension ou le courant est nul, il n'y a pas de puissance délivrée ou reçue.
+Pour qu'une puissance puisse être émise, il faut toujours qu'il y ait à la fois tension *et* courant, car la puissance résulte de la multiplication de la tension par le courant. Si la tension ou le courant était nul, il n'y aurait ni émission ni réception de puissance.
 
-Cependant, nous parlons de certaines antennes comme étant des antennes *alimentées par le courant* et d'autres comme étant des antennes *alimentées par la tension*. Cela signifie que pour certaines antennes, un courant élevé est présent à la pointe d'alimentation avec une tension relativement faible, ou une tension élevée avec un courant relativement faible.
+Pourtant, on parle de certaines antennes comme d'*antennes alimentées en courant* et d'autres comme d'*antennes alimentées en tension*. Cela signifie que, pour certaines antennes, il y a un courant élevé avec une tension relativement faible au point d'alimentation, ou une tension élevée avec un courant relativement faible.
+
 
 ---
 
-Pour un dipôle demi-onde, l'impédance d'alimentation dépend de l'endroit où l'alimentation est effectuée. Cela est dû au fait que dans le dipôle, les porteurs de charge oscillent et qu'au milieu, il y a particulièrement beaucoup de porteurs de charge en mouvement, que nous appelons ventre de courant, et aux extrémités, des tensions particulièrement élevées se produisent, que nous appelons ventre de tension. Là où aucune charge n'est déplacée, nous parlons d'un nœud de courant, et là où la tension est nulle, nous parlons d'un nœud de tension. La figure [ref:e_strom_spannung_speisung_dipol] montre la distribution du courant et de la tension sur le dipôle.
+Pour un dipôle demi-onde, la résistance d'alimentation dépend du point où l'alimentation est appliquée. Cela s'explique par le fait que, dans un dipôle, les porteurs de charge oscillent d'avant en arrière, ce qui entraîne un mouvement particulièrement important de charges au centre (que l'on appelle *ventre de courant*), et des tensions particulièrement élevées aux extrémités (que l'on appelle *ventre de tension*). Là où il n'y a pas de mouvement de charges, on parle de *nœud de courant*, et là où la tension est nulle, on parle de *nœud de tension*. L'illustration [ref:e_strom_spannung_speisung_dipol] montre la répartition du courant et de la tension sur le dipôle.
 
 [question:EG203]
 
 <margin>
-[picture:787:e_strom_spannung_speisung_dipol:Dipôle demi-onde avec distribution de tension et de courant]
+[picture:787:e_strom_spannung_speisung_dipol:Dipôle demi-onde avec répartition du courant et de la tension]
 </margin>
 
 ---
 
-Si nous alimentons donc un dipôle demi-onde au milieu, de nombreuses charges doivent être déplacées et nous parlons d'une antenne alimentée par le courant (basse impédance d'alimentation). Un dipôle demi-onde alimenté à l'extrémité, en revanche, est une antenne alimentée par la tension (haute impédance d'alimentation). Pour l'alimentation à l'extrémité, comme le montre la figure [ref:e_strom_spannung_speisung_dipol_ende], un élément d'adaptation est nécessaire. Nous en discuterons plus en détail dans la partie HB9.
+Si l'on alimente un dipôle demi-onde au centre, il faut déplacer de nombreuses charges, et on parle alors d'*antenne alimentée en courant* (faible résistance d'alimentation). Un dipôle demi-onde alimenté à l'extrémité est en revanche une *antenne alimentée en tension* (résistance d'alimentation élevée). Pour l'alimentation à l'extrémité, comme illustré dans l'image [ref:e_strom_spannung_speisung_dipol_ende], un élément d'adaptation est nécessaire. Nous aborderons ce point plus en détail dans la partie HB9.
 
 <margin>
 [picture:851:e_strom_spannung_speisung_dipol_ende:Dipôle demi-onde alimenté à l'extrémité]
@@ -24,26 +25,26 @@ Si nous alimentons donc un dipôle demi-onde au milieu, de nombreuses charges do
 
 ---
 
-Les antennes alimentées par le courant présentent donc une résistance faible et les antennes alimentées par la tension une résistance élevée.
+Les antennes alimentées en courant présentent donc une faible résistance, tandis que les antennes alimentées en tension présentent une résistance élevée.
 
-Cela peut être bien illustré à l'aide de la loi d'Ohm:
+Cela peut être illustré à l'aide de la loi d'Ohm :
 
 $ R = \frac{U}{I} $
 
-Si l'on alimente un dipôle au milieu, une tension relativement faible est présente avec un courant simultanément élevé. Le quotient de la tension et du courant est donc petit, la résistance résultante étant faible. Si l'alimentation est effectuée à l'extrémité du dipôle, une tension élevée est présente, tandis que le courant tend vers zéro. Ainsi, le quotient devient très grand, et la résistance résultante prend des valeurs très élevées.
+Si l'on alimente un dipôle au centre, on y trouve une tension relativement faible avec un courant élevé. Le quotient de la tension par le courant est donc faible, et la résistance résultante est faible. Si l'alimentation est appliquée à l'extrémité du dipôle, on y trouve une tension élevée tandis que le courant tend vers zéro. Le quotient devient alors très grand, et la résistance résultante prend des valeurs élevées.
 
-Pour les résistances faibles, nous parlons également d'un comportement *faible impédance* ($\downarrow\unit{\ohm}$) et pour les résistances élevées, d'un comportement *haute impédance* ($\uparrow\unit{\ohm}$).
+Pour les faibles résistances, on parle aussi de comportement *à basse impédance* ($\downarrow\unit{\ohm}$) et pour les résistances élevées, de comportement *à haute impédance* ($\uparrow\unit{\ohm}$).
 
 <indepth>
-Un ordre de grandeur habituel pour l'*impédance d'alimentation* d'une antenne alimentée par le courant est par exemple $\qty{36}{\ohm}$ à $\qty{100}{\ohm}$ et pour les antennes alimentées par la tension $\qty{1500}{\ohm}$ à $\qty{4000}{\ohm}$.
+Un ordre de grandeur courant pour la *résistance d'alimentation* d'une antenne alimentée en courant est par exemple de $\qty{36}{\ohm}$ à $\qty{100}{\ohm}$, et pour les antennes alimentées en tension de $\qty{1500}{\ohm}$ à $\qty{4000}{\ohm}$.
 </indepth>
 
 ---
 
 <indepth>
-La distribution du courant sur un dipôle dépend de la fréquence à laquelle l'antenne est utilisée. La figure [ref:e_stromverteilungen] montre la distribution du courant pour des multiples entiers de la fréquence fondamentale $f$ dans un dipôle alimenté au milieu. On peut voir que pour les multiples pairs de la fréquence fondamentale, un nœud de courant se produit au point d'alimentation. Dans ce cas, le courant y est très faible, la tension est élevée, et l'antenne apparaît haute impédance au point d'alimentation. C'est pourquoi un dipôle alimenté au milieu n'est résonant que pour les multiples entiers impairs de la fréquence fondamentale. Une utilisation de plusieurs bandes peut être réalisée en déplaçant le point d'alimentation, par exemple vers l'un des ventres de courant comme dans la figure [ref:e_stromverteilungen]b (par exemple pour l'antenne Windom) ou vers l'extrémité de l'antenne (par exemple pour l'antenne EFHW ou Fuchs). Dans ces cas, cependant, des dispositifs d'adaptation sont nécessaires, que nous aborderons plus en détail dans la partie HB9.
+La répartition du courant sur un dipôle dépend de la fréquence à laquelle l'antenne est utilisée. L'illustration [ref:e_stromverteilungen] montre la répartition du courant pour des multiples entiers de la fréquence fondamentale $f$ sur un dipôle alimenté au centre. On peut y observer que, pour les multiples pairs de la fréquence fondamentale, un nœud de courant se forme au point d'alimentation. Dans ce cas, le courant y est très faible, tandis que la tension est élevée, et l'antenne apparaît comme à haute impédance au point d'alimentation. C'est pourquoi un dipôle alimenté au centre n'est résonant que pour des multiples impairs de la fréquence fondamentale. L'utilisation de plusieurs bandes peut être obtenue en déplaçant le point d'alimentation, par exemple vers l'un des ventres de courant comme dans l'illustration [ref:e_stromverteilungen]b (par exemple pour l'antenne Windom) ou vers l'extrémité de l'antenne (par exemple pour l'antenne EFHW ou l'antenne Fuchs). Dans ces cas, des dispositifs d'adaptation sont nécessaires, que nous aborderons plus en détail dans la partie HB9.
 
-[picture:1050:e_stromverteilungen:Distributions de courant à différentes fréquences fondamentales]
+[picture:1050:e_stromverteilungen:Répartition du courant pour différentes fréquences fondamentales]
 </indepth>
 
 [question:EG204]

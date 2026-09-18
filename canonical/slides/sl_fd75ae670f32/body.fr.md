@@ -1,10 +1,10 @@
 <left>
-[picture:946:Vollwegleichrichter D1 D2:Redressement double alternance avec deux diodes]
+[picture:946:Redresseur double alternance D1 D2:Redressement double alternance avec deux diodes]
 Transformateur avec prise médiane et deux diodes
 </left>
 <right>
-* Demi-onde positive sur l'enroulement supérieur par rapport à la prise médiane $\rightarrow D_1$ conduit
-* À $D_2$, une demi-onde négative est appliquée à ce moment-là $\rightarrow$ bloque
+* Demi-onde positive sur l'enroulement supérieur par rapport à la prise médiane $\rightarrow$ $D_1$ conduit
+* Une demi-onde négative est appliquée à $D_2$ à ce moment-là $\rightarrow$ bloque
 </right>
 --- style="font-size: smaller;"
 [include:applet_gleichrichter_1]
@@ -16,14 +16,14 @@ Transformateur avec prise médiane et deux diodes
 
 * Les anodes sont connectées à la sortie
 * La tension continue est négative par rapport à la prise médiane
-* Les demi-ondes se trouvent en dessous de la ligne de zéro
+* Les demi-ondes se situent en dessous de la ligne de zéro
 
 ---
 [question:AD308]
 ---
 ### Fréquence fondamentale
 
-Après le redressement, il existe une tension continue pulsée avec une fréquence double par rapport à la tension d'entrée.
+Après redressement, une tension continue pulsée avec une fréquence double par rapport à la tension d'entrée apparaît.
 
 ---
 [question:AD310]

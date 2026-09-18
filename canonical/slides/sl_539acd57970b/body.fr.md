@@ -1,9 +1,9 @@
-* Division de la bande en différents segments de fréquence
-* Procédés de transmission et utilisation préférentiels
+* Répartition de la bande en différents segments de fréquences
+* Procédures de transmission préférées et utilisation
 
 ---
 
-[photo:102:n_iaru_bandplan_2m:IARU-Bandplan $\qty{2}{\meter}$]
+[photo:102:n_iaru_bandplan_2m:Plan de bande IARU $\qty{2}{\meter}$]
 
 ---
 
@@ -16,8 +16,8 @@ Pour trouver rapidement des partenaires radio
 
 <note>
 * La radiotéléphonie FM est analogique
-* Les procédés de transmission numérique peuvent être tout ce qui est numérique
-* Plus de détails plus tard dans le cours
+* Les procédés de transmission numériques peuvent être de tout type numérique
+* Plus d'informations à ce sujet plus tard dans le cours
 </note>
 
 ---
@@ -28,36 +28,38 @@ Pour trouver rapidement des partenaires radio
 
 ## Changement de fréquence
 
-* Garder les fréquences d'appel libres pour les appels
-* Après l'établissement de la liaison, informer sur une autre fréquence
-* Prendre une fréquence utile dans le plan de bande
+* Conserver les fréquences d'appel pour les appels
+* Après l'**établissement de la liaison**, se mettre d'accord sur une autre fréquence
+* Utiliser une fréquence utile issue du plan de bande
 * Changer de fréquence
 
 ---
 [question:BC209]
 ---
-## Téléphonie analogique SSB
 
-* Il n'y a pas de fréquence d'appel
-* Au lieu de cela, un *centre d'activité* ou *center of activity*
+## Téléphonie BLU analogique
+
+* Il n'existe pas de fréquence d'appel
+* À la place, un *centre d'activité* ou *center of activity*
 * Les appels doivent avoir lieu dans l'environnement de cette fréquence
-* Mais toute la zone "SSB" peut être utilisée
+* Cependant, toute la bande BLU peut être utilisée
 
 ---
 [question:BC211]
 ---
 [question:BC210]
 ---
+
 ## Bandes de fréquences réservées
 
-* Satellites, liaison montante et descendante ("satellite uplink", "satellite downlink")
+* Liaisons montantes et descendantes des satellites ("satellite uplink", "satellite downlink")
 * Balises ("beacons")
-* Relais, entrée et sortie ("repeater input", "repeater output")
-* Communication spatiale ("space communication")
+* Stations relais, entrée et sortie ("repeater input", "repeater output")
+* Communications spatiales ("space communication")
 * Télégraphie Morse ("CW")
 
 <note>
-* D'autres types de liaisons doivent être évités
+* Les connexions de nature différente doivent être évitées
 </note>
 ---
 [question:BC214]

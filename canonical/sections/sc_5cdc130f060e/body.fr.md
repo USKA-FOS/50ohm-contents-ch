@@ -1,16 +1,19 @@
-Nous avons déjà appris différentes possibilités de propagation :
-- onde directe : propagation en ligne droite de l'émetteur au récepteur (par exemple en visibilité directe)
-- onde spatiale : propagation par réfraction dans les zones avec électrons libres dans l'ionosphère
+Nous avons déjà appris à connaître différentes possibilités de propagation :
+- onde directe : propagation rectiligne de l’émetteur au récepteur (par exemple en cas de liaison visuelle)
+- onde spatiale : propagation par réfraction dans des zones d’électrons libres de l’ionosphère
 - onde de sol : propagation le long de la surface de la terre
 
-L'onde de sol interagit avec le sol et est donc capable de suivre la courbure de la terre. Cela fonctionne d'autant mieux que la fréquence est basse et que le sol est conducteur ; de plus, l'onde doit être polarisée verticalement. Cela signifie que l'onde de sol suit la courbure de la terre et dépasse l'horizon géographique. Elle est plus fortement atténuée dans les bandes de fréquences plus élevées que dans les bandes de fréquences plus basses.
+L’onde de sol interagit avec le sol et peut ainsi se propager parallèlement à la surface terrestre, c’est-à-dire suivre la courbure de la Terre. Cela fonctionne d’autant mieux que la fréquence est basse et que le sol est conducteur ; de plus, l’onde doit être polarisée verticalement. Ainsi, l’onde de sol suit la courbure de la Terre et dépasse l’horizon géographique. Elle est davantage atténuée dans les bandes de fréquences élevées que dans les bandes de fréquences basses.
 
 [question:EH212]
 
-C'est pourquoi cette forme de propagation est surtout pertinente sur les ondes longues et moyennes, où la portée de l'onde de sol est de plusieurs centaines de kilomètres - chaque émetteur que l'on entend là-bas le jour est reçu via l'onde de sol. Vers les fréquences plus élevées, elle dépasse encore l'horizon géographique, mais sa portée diminue rapidement, de sorte qu'elle n'a encore une certaine importance sur les ondes courtes que sur les bandes inférieures, par exemple sur $\qty{160}{\meter}$.
+C’est pourquoi cette forme de propagation est surtout pertinente sur les bandes des ondes longues et moyennes, où la portée de l’onde de sol atteint plusieurs centaines de kilomètres – tous les émetteurs que l’on peut entendre de jour dans ces bandes sont reçus par l’onde de sol. À des fréquences plus élevées, elle dépasse certes toujours l’horizon géographique, mais sa portée diminue rapidement, raison pour laquelle elle n’a qu’une certaine importance sur ondes courtes, par exemple sur la bande des $\qty{160}{\metre}$, dans les bandes inférieures.
 
 <margin>
-[picture:866:e_reichweite_bodenwelle:Portée de l'onde de sol selon la bande]
+[picture:866:e_reichweite_bodenwelle:Portée de l’onde de sol selon la bande]
 </margin>
 
 [question:EH211]
+
+
+<!-- Review abgeschlossen, passt so für mich. Vy 73 de Marc -->

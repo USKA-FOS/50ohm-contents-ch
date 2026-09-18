@@ -1,42 +1,49 @@
-Il est rare de trouver des appareils radio permettant de mesurer directement la fréquence de réception. Les circuits récepteurs habituels ne présentent aucun point où cette fréquence est disponible. Pour vérifier l'affichage de la fréquence, on connecte un oscillateur ou un générateur de fréquence aussi précis que possible à la prise d'antenne. Sa fréquence est ensuite comparée à l'affichage du récepteur.
+On peut également vérifier l’affichage de la fréquence d’un récepteur. Contrairement à un émetteur, la fréquence de réception réglée ne peut généralement pas être mesurée simplement à une sortie de l’appareil radio à l’aide d’un fréquencemètre. Le signal HF reçu est déjà traité tôt dans le récepteur, par exemple converti en une fréquence intermédiaire.
+
+Pour vérifier l’affichage de la fréquence, on utilise donc un signal de référence aussi précis que possible. Pour cela, un générateur de fréquence ou un oscillateur de référence précis, dont la fréquence est connue, est connecté à l’entrée antenne du récepteur. Ensuite, le récepteur est accordé sur ce signal et son affichage de fréquence est comparé à la fréquence connue du signal de référence.
+
+Plus la référence utilisée est précise, plus l’affichage de la fréquence du récepteur peut être vérifié ou calibré avec précision. Les oscillateurs synchronisés par GPS ou les oscillateurs à quartz stabilisés en température (OCXO) de haute qualité sont particulièrement adaptés.
 
 <attention>
-Un générateur de fréquence directement connecté peut facilement endommager une entrée de récepteur. En cas de doute, la mesure doit être effectuée avec la tension la plus faible du générateur et un atténuateur.
+Un générateur de fréquence directement connecté peut facilement endommager l’entrée du récepteur. En cas de doute, la mesure doit commencer avec la tension la plus faible du générateur et un atténuateur.
 </attention>
-
-Bien entendu, les oscillateurs disciplinés par GPS et les OCXO sont en règle générale plus précis que les circuits plus simples.
 
 [question:AI511]
 [question:AI504]
 
 ---
 
-La mesure de fréquence est plus simple pour les émetteurs. Un compteur de fréquence est connecté à la prise d'antenne via un atténuateur. Cette mesure n'est naturellement utile que pour une porteuse non modulée.
+Pour les émetteurs, la mesure de fréquence est plus simple. Un fréquencemètre est connecté à la prise antenne via un atténuateur. Cette mesure n’a bien sûr de sens que pour une porteuse non modulée, c’est-à-dire un sinus aussi pur que possible.
 
 <indepth>
-Les émetteurs SSB ne génèrent aucun signal sans modulation. Pour mesurer leur fréquence d'émission, on peut injecter un signal audio de fréquence connue dans la prise de microphone. La fréquence de la porteuse non émise est obtenue en soustrayant la fréquence audio de la valeur mesurée par le compteur de fréquence à la sortie de l'émetteur pour USB. Pour LSB, elle est ajoutée.
+Les émetteurs BLU ne produisent pas de signal sans modulation. Pour mesurer leur fréquence d’émission, on peut injecter un signal audio de fréquence connue dans la prise micro. Pour un USB, la fréquence audio est soustraite de la valeur mesurée par le fréquencemètre à la sortie de l’émetteur afin d’obtenir la fréquence de la porteuse non émise. Pour un LSB, elle est ajoutée.
 </indepth>
 
-% AI502
 [question:AI502]
-
-
 [question:AI501]
 
+Une fréquence peut également être déterminée à l’aide d’un oscilloscope. Pour des mesures de fréquence précises, un oscilloscope est généralement moins adapté qu’un fréquencemètre dédié, car sa base de temps et ses méthodes de mesure sont spécialement conçues pour une haute précision et une résolution élevée de la fréquence.
 
-% TODO Le texte sera complété. - DB7YI 2024-04-22
-
-La mesure de fréquence à l'aide d'un oscilloscope n'est qu'une solution de secours, car ces appareils ont rarement une base de temps aussi précise que les compteurs de fréquence.
-% AI503
 [question:AI503]
 
-Les compteurs de fréquence simples fonctionnent presque toujours avec une soi-disant *temps de porte*. L'appareil active l'entrée pendant une certaine durée, compte les périodes du signal d'entrée et calcule à partir de celles-ci sa fréquence. C'est particulièrement simple avec un temps de porte d'une seconde, car cela donne directement le nombre d'oscillations par seconde et donc la fréquence en hertz.
+---
 
-Le temps de porte peut être réglé sur la plupart des compteurs de fréquence. Un temps de porte court permet de mettre à jour l'affichage à intervalles courts. Un temps de porte long, en revanche, rend la mesure plus précise.
+Les fréquencemètres simples fonctionnent souvent avec un *temps de porte* appelé. Pendant cette durée, l’appareil compte les périodes, les flancs ou les passages par zéro du signal d’entrée. La fréquence est ensuite calculée à partir du nombre d’oscillations comptées et du temps de porte connu. Exemple : avec un temps de porte d’une seconde, la détermination de la fréquence est particulièrement simple : si l’on compte par exemple 1000 périodes, la fréquence mesurée est de 1000 Hz.
 
-% TODO Image illustrant l'imprécision avec un temps de porte court
+<margin>
+[picture:1126:a_frequenzmessung_torzeit:Comptage d’un signal de fréquence 1,1 kHz avec des temps de porte très courts]
+</margin>
 
-%AI505
+La *résolution en fréquence* Δf indique la plus petite différence de fréquence entre deux valeurs mesurées que le fréquencemètre peut encore distinguer ou afficher. Pour un fréquencemètre simple à comptage direct, la résolution en fréquence est déterminée par le temps de porte TG :
+
+Δf = 1/TG
+
+L’impact du temps de porte, et donc de la résolution en fréquence, sur le résultat de la mesure est illustré dans l’illustration [ref:a_frequenzmessung_torzeit]. Dans les deux cas, le même signal de fréquence réelle 1,1 kHz est mesuré.
+
+Avec un temps de porte de seulement 1 ms, une seule période est comptée. Le fréquencemètre en déduit une valeur mesurée de 1 kHz. Le court temps de porte ne permet ici qu’une résolution en fréquence de 1 kHz.
+
+Si le temps de porte est porté à 10 ms, 11 périodes peuvent déjà être comptées. Cela donne une valeur mesurée de 1,1 kHz. La résolution en fréquence est désormais de 100 Hz, ce qui permet d’afficher le chiffre supplémentaire de la fréquence.
+
+Plus le temps de porte est long, plus le nombre de périodes comptées est élevé et plus la résolution en fréquence est fine. Un temps de porte court présente en revanche l’avantage de permettre une mise à jour plus fréquente de l’affichage. Le choix du temps de porte implique donc un compromis entre une mise à jour rapide et une haute résolution en fréquence. La précision de la mesure de fréquence ne doit pas être confondue avec la résolution. Elle dépend en particulier de la précision de la base de temps du fréquencemètre.
+
 [question:AI505]
-
-% Cinq questions sur la précision et la tolérance, qui se trouvaient à l'origine ici, ont été déplacées dans la section "Précision de la fréquence". - DB7YI 2024-04-28

@@ -1,22 +1,22 @@
-* Les condensateurs et les bobines ont des résistances dépendantes de la fréquence
-* Cela permet des circuits de filtrage passifs, pour ne laisser passer que certaines fréquences
+* Les condensateurs et les bobines présentent des impédances dépendantes de la fréquence
+* Ainsi, des circuits de filtrage passifs permettent de laisser passer uniquement certaines fréquences
 
 <fragment>
-* Pour rappel
-* Le condensateur bloque les basses fréquences et laisse passer les hautes fréquences
-* La bobine bloque les hautes fréquences et laisse passer les basses fréquences
+*Pour rappel*
+* Un condensateur bloque les basses fréquences et laisse passer les hautes fréquences
+* Une bobine bloque les hautes fréquences et laisse passer les basses fréquences
 </fragment>
 
 ---
 ## Passe-haut
 <left>
-* À basses fréquences, le condensateur a une résistance très élevée
-* Le circuit agit comme un diviseur de tension dépendant de la fréquence
+* Aux basses fréquences, le condensateur présente une impédance très élevée
+* Le circuit se comporte comme un diviseur de tension dépendant de la fréquence
 * $U_\text{A}$ est donc très faible
 </left>
 <right>
 [picture:592:e_hochpass:Caractéristique de filtrage d'un passe-haut]
-[picture:195:e_hochpass_rc:Passe-haut à condensateur et résistance]
+[picture:195:e_hochpass_rc:Passe-haut composé d'un condensateur et d'une résistance]
 </right>
 
 ---
@@ -26,25 +26,24 @@
 ---
 [question:ED212]
 <note>
-* Possible aussi avec condensateur et bobine
+* Possible également avec un condensateur et une bobine
 </note>
 ---
 [question:ED213]
 <note>
-* À basses fréquences, la première bobine crée presque un court-circuit
+* Aux basses fréquences, la première bobine crée presque un court-circuit
 </note>
-
 
 ---
 ## Passe-bas
 <left>
-* À basses fréquences, le condensateur a une résistance très élevée
-* Le circuit agit comme un diviseur de tension dépendant de la fréquence
-* $U_\text{A}$ est donc très élevé
+* Aux basses fréquences, le condensateur présente une impédance très élevée
+* Le circuit se comporte comme un diviseur de tension dépendant de la fréquence
+* $U_\text{A}$ est donc très élevée
 </left>
 <right>
 [picture:591:e_hochpass:Caractéristique de filtrage d'un passe-bas]
-[picture:175:e_tiefpass_rc:Passe-bas à condensateur et résistance]
+[picture:175:e_tiefpass_rc:Passe-bas composé d'un condensateur et d'une résistance]
 </right>
 
 ---
@@ -54,29 +53,29 @@
 ---
 [question:ED209]
 <note>
-* Possible aussi avec bobine et condensateur
+* Possible également avec une bobine et un condensateur
 </note>
 ---
 [question:ED210]
 <note>
-* À hautes fréquences, le premier condensateur crée presque un court-circuit
+* Aux hautes fréquences, le premier condensateur crée presque un court-circuit
 </note>
 
 ---
-## Circuit oscillant en série
+## Circuit oscillant série
 <left>
-* Il existe une fréquence de résonance à laquelle l'impédance de courant alternatif est très faible
-* Passe-bande, circuit bouchon (une fréquence est extraite)
+* Il existe une fréquence de résonance à laquelle l'impédance est très faible
+* Passe-bande, circuit bouchon (une fréquence est éliminée)
 </left>
 <right>
-%[picture:593:e_serienschwingkreis:Caractéristique de filtrage d'un circuit oscillant en série]
-[picture:189:e_serienschwingkreis_z:Variation d'impédance d'un circuit oscillant en série]
-[picture:757:e_serienschwingkreis_cl:Circuit oscillant en série à condensateur et bobine]
+%[picture:593:e_serienschwingkreis:Caractéristique de filtrage d'un circuit oscillant série]
+[picture:189:e_serienschwingkreis_z:Évolution de l'impédance d'un circuit oscillant série]
+[picture:757:e_serienschwingkreis_cl:Circuit oscillant série composé d'un condensateur et d'une bobine]
 </right>
 <note>
-* La variation d'impédance est montrée
-* La caractéristique de filtrage est dans l'une des questions suivantes
- </note>
+* L'évolution de l'impédance est représentée
+* La caractéristique de filtrage sera abordée dans une des questions suivantes
+</note>
 
 ---
 [question:ED203]
@@ -85,23 +84,22 @@
 ---
 [question:ED215]
 
-
 ---
-## Circuit oscillant en parallèle
+## Circuit oscillant parallèle
 <left>
-* Il existe une fréquence de résonance à laquelle l'impédance de courant alternatif est très élevée
+* Il existe une fréquence de résonance à laquelle l'impédance est très élevée
 * Filtre coupe-bande, circuit bouchon
 </left>
 <right>
-%[picture:594:e_parallelschwingkreis:Caractéristique de filtrage d'un circuit oscillant en parallèle]
-[picture:190:e_parallelschwingkreis_z:Variation d'impédance d'un circuit oscillant en parallèle]
-[picture:755:e_parallelschwingkreis_cl:Circuit oscillant en parallèle à condensateur et bobine]
+%[picture:594:e_parallelschwingkreis:Caractéristique de filtrage d'un circuit oscillant parallèle]
+[picture:190:e_parallelschwingkreis_z:Évolution de l'impédance d'un circuit oscillant parallèle]
+[picture:755:e_parallelschwingkreis_cl:Circuit oscillant parallèle composé d'un condensateur et d'une bobine]
 </right>
 <note>
-* La variation d'impédance est montrée
-* La caractéristique de filtrage est dans l'une des questions suivantes
- </note>
- 
+* L'évolution de l'impédance est représentée
+* La caractéristique de filtrage sera abordée dans une des questions suivantes
+</note>
+
 ---
 [question:ED204]
 ---
@@ -111,11 +109,10 @@
 ---
 [question:ED214]
 
-
 ---
 ## Type de condensateur
-* pas d'électrolyte, car ceux-ci ne fonctionnent qu'en courant continu
-* Les condensateurs en céramique ou à air peuvent être utilisés pour les hautes fréquences
+* Pas de condensateur électrolytique, car ceux-ci ne fonctionnent qu'en tension continue
+* Les condensateurs céramiques ou à air peuvent être utilisés pour les hautes fréquences
 
 ---
 [question:ED216]

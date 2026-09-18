@@ -1,36 +1,32 @@
 <left>
-* La classe N est limitée en puissance de rayonnement (ERP ou EIRP) à l'antenne
+* La classe N est limitée en puissance rayonnée (ERP ou EIRP) à l’antenne
 </left>
 <right>
-* Les classes E et A sont généralement limitées à la *puissance de sortie de l'émetteur* (peak envelope power, PEP)
+* Les classes E et A sont généralement limitées par leur *puissance de sortie* (puissance crête de l’enveloppe, PEP)
 </right>
 <fragment>
-* De nombreux appareils radio affichent la puissance de sortie actuelle de l'émetteur sur le Power-Meter.
+* De nombreux émetteurs affichent la *puissance de sortie* actuelle sur leur indicateur de puissance.
 </fragment>
+<note>
+Terme allemand pour PEP : puissance de crête de l’enveloppe – la valeur maximale mesurée de la puissance moyenne de chaque période de l’onde haute fréquence
+</note>
 
 ---
 [question:NF102]
 
 ---
-## Puissance de sortie de l'émetteur autorisée
+## Puissance de sortie autorisée de l’émetteur
 
-* Dans l'annexe 1 de l'AFuV
-* Diffère selon la classe et la bande de fréquences
+* Dans [l’annexe 1 de l’ARCE](https://50ohm.de/a1)
+* Varie selon la classe et la bande de fréquences
+* Aucune entrée dans une colonne → cette classe ne peut pas utiliser cette bande de fréquences
 
 <note>
-* Nous recommandons de répondre aux 10 questions suivantes à l'aide de l'annexe 1 pour s'entraîner à lire les bonnes valeurs.
+* Nous vous recommandons de répondre aux 10 questions suivantes en vous aidant de l’annexe 1 pour vous entraîner à lire les bonnes valeurs.
 </note>
 
 ---
-
-[photo:145:ausgangsleistung:Extrait de l'annexe 1 de l'ordonnance sur les radioamateurs]
-
---- 
-Actuellement, l'[annexe 1 de l'AFuV](https://50ohm.de/a1) est disponible ici.
-
-<note>
-* L'AFuV à partir de juin 2024 n'est pas encore publiée dans un format ordonné
-</note>
+[photo:145:ausgangsleistung:Extrait de l’annexe 1 de l’ordonnance sur la radio amateur]
 
 ---
 [question:VD727]
@@ -64,11 +60,11 @@ Actuellement, l'[annexe 1 de l'AFuV](https://50ohm.de/a1) est disponible ici.
 
 ---
 
-* Pour la bande de fréquences de $\qtyrange{1240}{1300}{\mega\hertz}$, des réglementations supplémentaires s'appliquent
-* ne sont pas directement dans le tableau
-* Dans la colonne de droite "Conditions d'utilisation supplémentaires selon B" les chiffres indiquent des indications supplémentaires
-* Se trouvent sous le tableau
-* Pour la question suivante, le point 11 doit être pris en compte
+* Pour la bande de fréquences $\qtyrange{1240}{1300}{\mega\hertz}$, des règles supplémentaires s’appliquent
+* Elles ne figurent pas directement dans le tableau
+* Dans la colonne de droite « Conditions d’utilisation supplémentaires selon B », des chiffres indiquent des précisions complémentaires
+* Elles sont listées sous le tableau
+* Pour la question suivante, il faut tenir compte du point 11
 
 ---
 [question:VD735]

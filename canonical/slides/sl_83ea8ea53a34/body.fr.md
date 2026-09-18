@@ -1,16 +1,16 @@
-## Grandes et petites valeurs
+## Valeurs grandes et petites
 
-* En radioamateur, nous avons de grandes et de petites valeurs
-* Pour éviter de nombreuses zéros, des préfixes d'unités ont déjà été utilisés pour abrégé, par exemple avec milli ($\unit{\milli}$) ou kilo ($\unit{\kilo}$)
+* En radioamateurisme, nous avons des valeurs grandes et petites
+* Pour éviter d'écrire de nombreux zéros, on utilise déjà des préfixes d'unités, par exemple milli ($\unit{\milli}$) ou kilo ($\unit{\kilo}$)
 
 ---
 
 ## Puissances de dix
 
-* Les préfixes d'unités ne peuvent pas être entrés directement dans la plupart des calculatrices de poche
-* Au lieu de cela, la puissance de dix est utilisée
+* Les préfixes d'unités ne peuvent généralement pas être saisis directement sur les calculatrices
+* On utilise donc la puissance de dix
 * Kilo correspond à $1000$ ou $10 \cdot 10 \cdot 10$
-* Abréviation $10^3$
+* Abréviation : $10^3$
 
 <fragment>
 $\qty{1500}{\hertz} \rArr \qty{1,5}{\kilo\hertz} \rArr \qty{1,5e3}{\hertz}$
@@ -24,7 +24,7 @@ $\qty{1500000}{\hertz} \rArr \qty{1,5}{\mega\hertz} \rArr \qty{1,5e6}{\hertz}$
 ---
 
 * Milli correspond à $\frac{1}{1000}$ ou $\frac{1}{10 \cdot 10 \cdot 10}$
-* Abréviation $10^{-3}$
+* Abréviation : $10^{-3}$
 
 <fragment>
 $\qty{0,0035}{\volt} \rArr \qty{3,5}{\milli\volt} \rArr \qty{3,5e-3}{\volt}$
@@ -46,16 +46,16 @@ $\qty{0,0035}{\volt} \rArr \qty{3,5}{\milli\volt} \rArr \qty{3,5e-3}{\volt}$
 
 ---
 
-## Calculatrice de poche
+## Calculatrice
 
 <left>
 * Touche *EXP* ou *$\times 10^x$*
 * Saisie : $145,3 \rightarrow$ Exp $\rightarrow 6$
 * La touche *ENG* décale l'exposant de 3
-* La touche *S/D* bascule souvent entre différentes représentations
+* Souvent, la touche *S/D* permet de basculer entre différentes représentations
 </left>
 <right>
-[photo:172:e_taschenrechner:Différentes représentations du nombre $\num{0,007} dans une application de calculatrice]
+[photo:172:e_taschenrechner:Différentes représentations du nombre $\num{0,007}$ dans une application de calculatrice]
 </right>
 
 ---

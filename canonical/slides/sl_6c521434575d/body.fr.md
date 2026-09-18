@@ -1,22 +1,22 @@
 <left>
-* *Charge fictive* est utilisée pour l'adaptation et les mesures sur les émetteurs
-* C'est une résistance de charge
-* La puissance d'émission est presque entièrement convertie en chaleur
-* aussi : *Résistance de terminaison* ou *antenne artificielle*
+* Une *charge fictive* est utilisée pour les travaux d’ajustement et les mesures sur les émetteurs
+* C’est une résistance de charge
+* La puissance d’émission est presque entièrement convertie en chaleur
+* Autres termes : *résistance de terminaison* ou *antenne artificielle*
 </left>
 <right>
-[photo:68:n_antennenanpassung_dummy_load:Charge fictive]
+[photo:68:n_adaptation_antenne_charge_fictive:Charge fictive]
 </right>
 
 <note>
-* La charge fictive ne peut pas être distinguée d'une antenne bien adaptée sur l'appareil radio
+* La charge fictive ne peut pas être distinguée d’une antenne bien adaptée sur l’appareil radio
 </note>
 
 ---
-## Travaux d'adaptation et mesures
+## Travaux d’ajustement et mesures
 
-* Toujours sur une antenne aussi bien adaptée que possible ou une charge fictive
-* Sinon, la réflexion de la puissance peut détruire l'étage final
+* Toujours sur une antenne bien adaptée ou une charge fictive
+* Sinon, la réflexion de puissance peut détruire l’étage final
 
 ---
 [question:VD111]
@@ -29,11 +29,11 @@
 
 ---
 
-## Accorder
+## Accord
 
-* Les émissions pour l'accord ne peuvent pas être évitées
-* Par exemple, avec des appareils d'adaptation automatiques
-* Aussi court que possible
+* Les émissions d’accord ne peuvent pas être évitées
+* Par exemple avec des adaptateurs automatiques
+* Le plus court possible
 * Sur une fréquence libre
 
 ---

@@ -1,5 +1,5 @@
-* Compare le signal reçu à une valeur de seuil réglée
-* Le signal d'entrée pour le Squelch est prélevé sur la FI ou la BF
+* Compare le signal reçu à un seuil réglé
+* Le signal d'entrée pour le squelch est prélevé sur la FI ou la BF
 
 ---
 [question:AF225]

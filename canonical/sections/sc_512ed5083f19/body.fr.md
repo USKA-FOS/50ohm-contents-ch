@@ -1,14 +1,14 @@
 
-À chaque commutation entre deux symboles, l'amplitude, la fréquence ou la phase d'une porteuse est modifiée. Des bandes latérales sont alors générées. Nous connaissons déjà ce phénomène dans la modulation analogique. Plus l'amplitude, la fréquence ou la phase sont modifiées rapidement, plus le signal généré a une large bande passante.
+À chaque commutation entre deux symboles, l'amplitude, la fréquence ou la phase d'une porteuse est modifiée. Cela génère des bandes latérales. Cet effet est déjà connu en modulation analogique. Plus l'amplitude, la fréquence ou la phase est modifiée rapidement, plus le signal généré est large en bande passante.
 
-C'est pourquoi on évite une commutation brutale, car de telles flancs raides occupent une bande passante indésirable.
+Pour cette raison, on évite une commutation brutale, car de telles transitions abruptes occupent une bande passante indésirable.
 
 [question:AE415]
 
-Ce phénomène est également connu de la télégraphie Morse : des clics de commutation apparaissent lorsque la touche Morse est enfoncée ou relâchée, ce qui active ou désactive brutalement la porteuse haute fréquence. Ces clics de commutation constituent des perturbations à large bande qui peuvent perturber d'autres liaisons radio. Pour éviter les clics de commutation, on évite une commutation brutale.
+Ce phénomène est également connu en télégraphie Morse : des *clics de manipulation* apparaissent lorsque la porteuse haute fréquence est allumée ou éteinte brusquement en appuyant ou relâchant la clé Morse. Ces clics de manipulation représentent des perturbations à large bande qui peuvent affecter d'autres communications radio. Pour éviter l'apparition de clics de manipulation, on évite les commutations brutales.
 
 [question:AJ221]
 [question:AJ220]
 [question:AE214]
 
-En outre, le débit de symboles joue également un rôle dans la bande passante : plus la commutation entre différents symboles est fréquente, plus la bande passante est grande.
+Par ailleurs, le débit de symboles joue également un rôle dans la bande passante : plus la commutation entre différents symboles est fréquente, plus la bande passante est grande.

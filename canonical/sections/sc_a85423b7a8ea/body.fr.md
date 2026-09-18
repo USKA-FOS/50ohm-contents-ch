@@ -1,54 +1,52 @@
-%YPA: quels indicateurs d'appel devons-nous utiliser pour les exemples? M/N, B/P, A/H sont de bons exemples que l'on peut appliquer
+Si l’on écoute les indicatifs d’appel HB3CGF et HB3EGF prononcés à l’oral, il est difficile de distinguer acoustiquement les lettres C et E. En cas de réception faible ou parasitée, cela peut rapidement entraîner des malentendus. C’est pourquoi, en radioamateurisme, on utilise une table d’épellation [index:Buchstabiertafel] dans laquelle chaque lettre est associée à un mot en anglais. Au lieu de prononcer les lettres, on utilise le mot correspondant. Ainsi, HB3CGF devient *Hotel Bravo Trois Charlie Golf Foxtrot* et HB3EGF devient *Hotel Bravo Trois Echo Golf Foxtrot*. Les deux indicatifs sont alors bien distincts.
 
-Si l'on écoute les indicateurs d'appel DM4EAX et DN4EAX prononcés, il est difficile de distinguer les lettres M et N acoustiquement. Même avec une réception faible ou bruyante, il peut y avoir rapidement des malentendus. Pour cette raison, en radioamateur, on utilise un alphabet phonétique [index:alphabet phonétique] dans lequel chaque lettre est associée à un mot précis en anglais. Au lieu des lettres, on prononce le mot correspondant. DM4EAX devient *Delta Mike Quatre Echo Alfa X-Ray* et DN4EAX devient *Delta November Quatre Echo Alfa X-Ray*. Maintenant, les deux indicateurs d'appel sont bien distincts.
-
-Il existe différentes tables d'alphabet phonétique, par exemple l'alphabet phonétique allemand, autrichien ou suisse, qui utilisent des mots différents. Les radioamateurs utilisent l'alphabet phonétique international de l'ITU pour la mention de l'indicateur d'appel. L'Union internationale des télécommunications (International Telecommunication Union, en abrégé ITU) a introduit pour la première fois en 1927 un alphabet phonétique international [index:alphabet phonétique:International] et l'a adapté à plusieurs reprises au fil du temps. L'alphabet phonétique international actuellement en vigueur est défini dans l'annexe 14 des Règlements radioélectriques (RR), publiés par l'ITU. Il est reproduit dans le tableau [ref:n_buchstabiertafel]. Celui-ci est utilisé non seulement en radioamateur, mais entre autres aussi dans l'aviation et par l'OTAN.
+Il existe différentes tables d’épellation, par exemple la table allemande, autrichienne ou suisse, qui utilisent des mots différents. Les radioamateurs utilisent pour l’annonce de l’indicatif la table internationale de l’UIT. L’Union internationale des télécommunications (International Telecommunication Union, ITU) a introduit pour la première fois en 1927 une table d’épellation internationale [index:Buchstabiertafel:Internationale], qu’elle a adaptée à plusieurs reprises au fil du temps. La table d’épellation internationale actuellement en vigueur est définie à l’annexe 14 du règlement des radiocommunications (RR), publié par l’UIT. Elle est présentée dans le tableau [ref:n_buchstabiertafel]. Cette table est utilisée non seulement en radioamateurisme, mais aussi, entre autres, dans l’aviation et par l’OTAN.
 
 <margin>
-| c: Lettre | l: Mot | X: Prononciation |
+| c : lettre | l : mot | X : prononciation |
 | A | Alfa | AL-FA |
-| B | Bravo | BRA-WO |
-| C | Charlie | TSCHA-LI |
-| D | Delta | DELL-TA |
-| E | Echo | ECK-KO |
-| F | Foxtrot | FOX-TROTT |
+| B | Bravo | BRA-VO |
+| C | Charlie | TCHA-RLI |
+| D | Delta | DEL-TA |
+| E | Echo | É-KO |
+| F | Foxtrot | FOKS-TROT |
 | G | Golf | GOLF |
-| H | Hotel | HO-TELL |
-| I | India | IN-DI-AH |
+| H | Hotel | O-TEL |
+| I | India | IN-DIA |
 | J | Juliett | DJU-LI-ETT |
 | K | Kilo | KI-LO |
 | L | Lima | LI-MA |
-| M | Mike | MAIK |
-| N | November | NO-WEM-BER |
-| O | Oscar | OSS-KAR |
+| M | Mike | MAÏK |
+| N | November | NO-VEM-BER |
+| O | Oscar | OS-KAR |
 | P | Papa | PA-PA |
-| Q | Quebec | KWE-BECK |
-| R | Romeo | RO-MI-O |
-| S | Sierra | SIER-RA |
-| T | Tango | TÄNG-GO |
-| U | Uniform | JU-NI-FORM |
-| V | Victor | WICK-TOR |
-| W | Whiskey | WISS-KI |
-| X | X-ray | ÄX-RÄI |
-| Y | Yankee | JENG-KI |
-| Z | Zulu | SUH-LUH |
-[table:n_buchstabiertafel:L'alphabet phonétique de l'ITU]
+| Q | Quebec | KÉ-BECK |
+| R | Romeo | RO-MÉ-O |
+| S | Sierra | SI-ER-RA |
+| T | Tango | TAN-GO |
+| U | Uniform | U-NI-FORM |
+| V | Victor | VIK-TOR |
+| W | Whiskey | WIS-KI |
+| X | X-ray | ÈKS-RÉÏ |
+| Y | Yankee | YAN-KI |
+| Z | Zulu | ZOU-LOU |
+[table:n_buchstabiertafel:La table d’épellation de l’UIT]
 </margin>
 
-%YPA Attention lors de la traduction: adapter la ligne suivante 38 de la langue (F&I)!
-L'alphabet phonétique ne contient cependant pas de chiffres [index:alphabet phonétique:chiffres]. Dans les communications radio nationales, les chiffres sont prononcés en allemand, par exemple Delta Mike *Vier* Echo Alpha X-ray. Dans les communications radio internationales, on utilise la langue anglaise, par exemple Delta Mike *Four* Echo Alfa X-ray.
+%YPA Attention lors de la traduction : adapter la ligne 37 de la langue (F&I) !
+La table d’épellation ne contient cependant pas de chiffres [index:Buchstabiertafel:Ziffern]. Dans le trafic radio national, les chiffres sont prononcés en allemand, par exemple Hotel Bravo *Trois* Charlie Golf Foxtrot. Dans le trafic radio international, on utilise l’anglais, par exemple Hotel Bravo *Three* Charlie Golf Foxtrot.
 
-L'alphabet phonétique peut bien sûr aussi être utilisé pour épeler d'autres mots, par exemple un nom ou une indication de lieu. L'alphabet phonétique international ne contient cependant pas de voyelles allemandes [index:alphabet phonétique:voyelles]. C'est pourquoi le Ä est épelé comme "Alfa Echo", le Ö comme "Oscar Echo", et le Ü comme "Uniform Echo".
+La table d’épellation peut bien sûr aussi être utilisée pour épeler d’autres mots, par exemple un nom ou une indication de lieu. La table d’épellation internationale ne contient cependant pas de voyelles allemandes [index:Buchstabiertafel:Umlaute]. Ainsi, le Ä est épelé *Alfa Echo*, le Ö *Oscar Echo* et le Ü *Uniform Echo*.
 
-L'alphabet phonétique international doit être appris par cœur. Au début, cela peut être un peu difficile, mais plus on utilise l'alphabet phonétique, plus cela devient fluide.
+La table d’épellation internationale doit être apprise par cœur. Au début, cela peut sembler difficile, mais plus on l’utilise, plus cela devient fluide.
 
 <tip>
-En pratique, lors de la mention de l'indicateur d'appel, on varie aussi avec d'autres possibilités, par exemple Nancy, Sugar, Ocean et Queen. Cela est autorisé et est fait surtout pour améliorer la compréhensibilité. Par exemple, si l'on demande plusieurs fois de répéter et que l'on comprend manifestement pas correctement.
+En pratique, pour l’annonce de l’indicatif, on varie aussi avec d’autres possibilités, par exemple Nancy, Sugar, Ocean et Queen. Cela est autorisé et sert surtout à améliorer la compréhensibilité, par exemple lorsqu’on doit répéter plusieurs fois parce qu’on n’a pas été compris.
 </tip>
 
 
 
-%TODO expliquer le trait
+%TODO expliquer stroke
 
 [question:BA103]
 [question:BA104]
@@ -60,7 +58,3 @@ En pratique, lors de la mention de l'indicateur d'appel, on varie aussi avec d'a
 [question:BA102]
 [question:BA107]
 [question:BA108]
-
-
----
-[question:VD206]

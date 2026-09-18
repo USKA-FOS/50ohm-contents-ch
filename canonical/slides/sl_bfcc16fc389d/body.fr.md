@@ -1,7 +1,7 @@
 <left>
-* SMD: Surface Mounted Device
+* SMD : composant monté en surface
 * Résistance de très petite taille
-* Le dernier chiffre de la valeur de la résistance imprimée indique la puissance de dix
+* Le dernier chiffre imprimé sur la résistance indique la puissance de dix
 </left>
 <right>
 [picture:529:e_smd_widerstand:Résistance SMD]

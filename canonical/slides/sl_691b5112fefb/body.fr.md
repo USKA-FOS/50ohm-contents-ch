@@ -1,17 +1,17 @@
 ## Directivité
 
-* *Émetteur isotrope*: Antenne hypothétique qui émet de manière égale dans toutes les directions
+* *Radiateur isotrope* : Antenne hypothétique qui rayonne avec la même intensité dans toutes les directions
 * Une antenne réelle présente une directivité
-* Plus forte dans certaines directions que l'émetteur isotrope
-* Plus faible dans certaines directions que l'émetteur isotrope
-* La *direction principale du faisceau* est la direction avec le gain d'antenne maximal
+* Dans certaines directions, elle rayonne plus fortement que le radiateur isotrope
+* Dans d'autres directions, elle rayonne moins fortement que le radiateur isotrope
+* La *direction principale de rayonnement* est la direction où le gain d'antenne est maximal
 
 ---
 ## Gain en dBi
 
-* Gain dans une direction par rapport à l'émetteur isotrope
-* Peut être indiqué en $\unit{\dB}$
-* En référence à l'émetteur isotrope, on utilise *$\unit{\dBi}$*
+* Gain dans une direction par rapport au radiateur isotrope
+* Peut être exprimé en $\unit{\dB}$
+* Lorsqu'il est rapporté au radiateur isotrope, on utilise *$\unit{\dBi}$*
 
 ---
 
@@ -20,15 +20,15 @@
 ---
 ## Gain d'un dipôle demi-onde
 
-* Un dipôle demi-onde émet perpendiculairement au conducteur avec un gain de $\qty{2,15}{\dB}$ plus fort qu'un émetteur isotrope
+* Un dipôle demi-onde rayonne perpendiculairement au conducteur avec un gain de $\qty{2,15}{\dB}$ supérieur à celui d'un radiateur isotrope
 * Le gain est de $\qty{2,15}{\dBi}$
 
 ---
 ## Gain en dBd
 
 * Pour d'autres antennes, le gain par rapport à un dipôle demi-onde est intéressant
-* En référence au dipôle demi-onde, on utilise *$\unit{\dBd}$*
-* Un dipôle demi-onde a un gain de $\qty{0}{\dBd}$ et $\qty{2,15}{\dBi}$ dans la direction principale du faisceau
+* Lorsqu'il est rapporté au dipôle demi-onde, on utilise *$\unit{\dBd}$*
+* Un dipôle demi-onde a un gain de $\qty{0}{\dBd}$ et $\qty{2,15}{\dBi}$ dans la direction principale de rayonnement
 
 ---
 [question:EG221]

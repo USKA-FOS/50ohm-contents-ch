@@ -1,8 +1,8 @@
 ## Démodulation des signaux
 
-* La démodulation transforme un signal HF modulé en un signal AF audible
-* Selon la modulation utilisée, un procédé de démodulation approprié est choisi
-* Objectif : Restaurer l'AF d'origine
+* La démodulation convertit un signal HF modulé en un signal BF audible
+* Selon le type de modulation utilisé, une méthode de démodulation adaptée est choisie
+* Objectif : restaurer le signal BF d'origine
 
 ---
 ### Démodulation AM
@@ -11,9 +11,9 @@
 [picture:141:demodulator_huellkurvendemodulator_am:Démodulateur à enveloppe pour la démodulation des signaux AM]
 </left>
 <right>
-* Les signaux AM sont traités avec un démodulateur à enveloppe
+* Les signaux AM sont traités par un démodulateur à enveloppe
 * Le signal HF est sélectionné via un circuit oscillant et redressé
-* Le condensateur se charge $\rightarrow$ La résistance se décharge avec une constante de temps définie
+* Le condensateur se charge $\rightarrow$ la résistance se décharge avec une constante de temps définie
 </right>
 
 ---
@@ -23,15 +23,15 @@
 ---
 
 <left>
-[picture:607:demodulator_huellkurvendemodulator_am_2:Démodulateur à enveloppe avec signal d'entrée ZF]
+[picture:607:demodulator_huellkurvendemodulator_am_2:Démodulateur à enveloppe avec signal d'entrée FI]
 
 [picture:146:demodulator_huellkurvendemodulator_am_abbx:Signal démodulé au point X]
 </left>
 <right>
-* Connexion X : Affichage de la tension de crête redressée
-* Légère diminution de la tension due à la décharge parallèle
-* L'enveloppe correspond à l'AF modulée, superposée à un signal en dents de scie
-* Le filtrage ultérieur élimine la composante porteuse
+* Point X : affichage de la tension de crête redressée
+* Légère baisse de la tension due à la décharge parallèle
+* L'enveloppe correspond à la BF modulée, superposée à un signal en dents de scie
+* Un filtrage ultérieur élimine la composante porteuse
 </right>
 
 ---
@@ -42,16 +42,16 @@
 ### Démodulation FM
 
 <left>
-[picture:841:demodulator_flankendiskriminator:Circuit oscillant comme discriminateur de flancs]
+[picture:841:demodulator_flankendiskriminator:Circuit oscillant utilisé comme discriminateur de flanc]
 
-[picture:149:demodulator_flankendiskriminator_schaltung:Discriminateur de flancs FM]
+[picture:149:demodulator_flankendiskriminator_schaltung:Discriminateur de flanc FM]
 </left>
 <right>
-* Démodulation FM au moyen d'un discriminateur de flancs
-* Le signal de la fréquence intermédiaire passe dans un circuit oscillant
-* Circuit oscillant : Fréquence de résonance $f_\text{res}$ légèrement décalée par rapport à $f_\text{ZF}$
-* Les variations de fréquence sont transformées en variations d'amplitude
-* Un démodulateur AM en aval fournit l'AF
+* Démodulation FM à l'aide d'un discriminateur de flanc
+* Le signal issu de la fréquence intermédiaire (FI) est appliqué à un circuit oscillant
+* Circuit oscillant : fréquence de résonance $f_\text{res}$ légèrement décalée par rapport à $f_\text{FI}$
+* Les variations de fréquence sont converties en variations d'amplitude
+* Un démodulateur AM en aval fournit le signal BF
 </right>
 
 ---
@@ -60,15 +60,15 @@
 
 ---
 
-####  Démodulation FM au moyen d'une PLL
+#### Démodulation FM à l'aide d'une PLL
 
 <left>
-[picture:77:a_fm_demodulation_pll:Schéma bloc d'une démodulation FM au moyen d'une PLL]
+[picture:77:a_fm_demodulation_pll:Schéma bloc d'une démodulation FM par PLL]
 </left>
 <right>
-* La PLL utilise un oscillateur commandé en tension (VCO) qui suit le signal d'entrée
-* La tension de régulation correspond à la modulation FM (AF modulée)
-* Prise de signal pour le traitement ultérieur de l'AF
+* Une PLL utilise un oscillateur commandé en tension (VCO) qui suit le signal d'entrée
+* La tension de régulation correspond à la modulation FM (BF modulée)
+* Prélèvement du signal pour un traitement BF ultérieur
 </right>
 
 ---
@@ -76,14 +76,13 @@
 [question:AD505]
 
 ---
-### Démodulation SSB
+### Démodulation BLU
 
-* Démodulation SSB au moyen d'un détecteur de produit
-* Le mélangeur en anneau mélange la fréquence intermédiaire (ZF) avec un oscillateur à fréquence de battement (BFO)
-* Le produit de mélange obtenu est le signal AF SSB souhaité
-* Le BFO doit être exactement accordé sur la porteuse supprimée
+* Démodulation BLU à l'aide d'un détecteur de produit
+* Un mélangeur en anneau mélange la fréquence intermédiaire (FI) avec un oscillateur à fréquence de battement (BFO)
+* Le produit de mélange obtenu est le signal BF BLU souhaité
+* Le BFO doit être précisément accordé sur la porteuse supprimée
 
 ---
 
 [question:AD506]
-

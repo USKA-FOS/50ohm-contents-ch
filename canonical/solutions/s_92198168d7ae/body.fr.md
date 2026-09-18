@@ -1,3 +1,3 @@
-Lorsqu'une jonction PN est polarisée en direct, la couche de déplétion est fortement réduite. Ainsi, les porteurs de charge libres peuvent franchir la jonction.
+Lorsqu’une jonction PN est polarisée en polarisation directe, la couche de blocage est fortement réduite. Les porteurs de charge libres peuvent alors franchir la jonction.
 
-Les électrons se déplacent alors de la région à conduction n (excès d'électrons) vers la région à conduction p (direction physique du courant de - à +). Simultanément, les trous d'électrons se déplacent dans la direction opposée.
+Les électrons se déplacent ainsi de la zone dopée n (excédent d’électrons) vers la zone dopée p (sens physique du courant de – vers +). Simultanément, les trous d’électrons se déplacent dans la direction opposée.

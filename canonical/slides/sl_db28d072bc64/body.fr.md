@@ -1,9 +1,13 @@
-La procédure de preuve ne doit être effectuée pour les stations de radioamateur fixes que si l'installation d'émission atteint une puissance rayonnée isotropique équivalente (EIRP) de $\qty{10}{\watt}$ ou plus.
+Pour les stations radioamateurs fixes, la procédure de notification ne doit être effectuée que si l'[installation d'émission](Sendeanlage) atteint une [puissance rayonnée](Strahlungsleistung) de *$\qty{10}{\watt}$ EIRP* ou plus.
 
-<note>
-* Classe N : bande de $\qty{10}{\meter}$ avec $\qty{10}{\watt}$ ERP
-* $\qty{10}{\watt}\text{ ERP} \cdot 1,64 = \qty{16,4}{\watt}$ EIRP
-</note>
+---
+
+* Autorisé en classe N :
+  * Bande des $\qty{70}{\centi\meter}$ : *$\qty{10}{\watt}$ EIRP*
+  * Bande des $\qty{2}{\meter}$ : *$\qty{10}{\watt}$ EIRP*
+  * Bande des $\qty{10}{\meter}$ : $\qty{10}{\watt}$ ERP
+  * $\qty{10}{\watt}$ ERP $\cdot 1,64 =$ *$\qty{16,4}{\watt}$ EIRP*
+* Même en classe N, il peut être nécessaire d'effectuer la procédure de notification
 
 ---
 [question:VE508]
@@ -12,31 +16,42 @@ La procédure de preuve ne doit être effectuée pour les stations de radioamate
 [question:VE507]
 
 ---
-## Déclaration auprès de la BNetzA
+## Affichage à la BNetzA
 
-* avant la mise en service de l'installation fixe de radioamateur
-* auprès du bureau compétent de la BNetzA
+
+<left>
+[photo:79:n_Deckblatt_Anleitung:Page de garde de la notice]
+</left>
+<right>
+* Avant la mise en service de l'[installation de radioamateur](Amateurfunkanlage) fixe
+* auprès du bureau régional compétent de la BNetzA
+* Le bureau régional compétent peut être déterminé sur le site web de l'Agence fédérale des réseaux
+</right>
 
 ---
 [question:VE509]
 
 ---
-### Contenu de la déclaration
+### Contenu de la notification
 
 
-Représentation graphique vérifiable avec
+Représentation graphique compréhensible avec
 * Distance de sécurité liée au site
 * Zone contrôlable par l'exploitant
 
 ---
-### En plus de la déclaration
+### En plus de la notification
 
-À la station radio, présent et à fournir sur demande de la BNetzA :
+Doivent être disponibles à la station radio et, sur demande de la BNetzA, présentés :
 * Respect des exigences
-* Si nécessaire, diagrammes d'antenne
+* le cas échéant, des diagrammes d'antenne
 * Plan de situation
-* Plan de construction ou croquis avec dimensions
+* Plan de construction ou croquis coté
 * Configuration de l'installation radio
+
+<note>
+Mot-clé pour la bonne réponse à cette question et à la suivante : "compréhensible"
+</note>
 
 ---
 [question:VE512]
@@ -50,8 +65,12 @@ Représentation graphique vérifiable avec
 ---
 ### Modifications
 
-* Vérifier en continu si l'installation est identique à celle de la déclaration
-* En cas de modifications substantielles, effectuer une nouvelle déclaration
+* Vérifier en continu que l'installation correspond à celle déclarée
+* En cas de modifications importantes, effectuer une nouvelle notification
+
+<note>
+par exemple : mât d'antenne supplémentaire, changement d'antenne ou augmentation de la [puissance d'émission](Sendeleistung) avec une distance plus grande
+</note>
 
 ---
 [question:VE514]
@@ -60,21 +79,26 @@ Représentation graphique vérifiable avec
 [question:VE510]
 
 ---
-### Procédure de preuve
+### Procédure de justification
+
 
 <left>
-* Calcul de la distance de sécurité des personnes
-* Pendant le fonctionnement en émission, aucune personne non autorisée ne doit se trouver dans cette zone
-* Est rempli si cela se produit dans la zone contrôlable, par exemple sur son propre terrain
+* Calcul de la distance de sécurité pour les personnes
+* Pendant l'émission, aucune personne non autorisée ne doit se trouver dans cette zone
+* Est respecté si cela se fait dans la zone contrôlable, par exemple sur sa propre propriété
 </left>
 <right>
-Outils:
+Outils d'aide :
 * Logiciel "[Watt Wächter](https://50ohm.de/ww)"
-* procédure d'évaluation simplifiée
-* Mesure de l'intensité de champ
+* Procédure d'évaluation simplifiée
+* Mesure de l'intensité du champ
 * Calcul du champ lointain
 * Calcul du champ proche
 </right>
+
+---
+
+[photo:80:n_Bewertungsverfahren:Ce document décrit les procédures d'évaluation.]
 
 ---
 [question:VE506]
@@ -85,12 +109,13 @@ Outils:
 ---
 ## Plusieurs émissions simultanées
 
-* Plusieurs radioamateurs peuvent émettre simultanément sur une installation sur différentes fréquences
-* En règle générale, via différentes antennes
-* Toutes les antennes ensemble doivent être prises en compte pour la distance de sécurité des personnes
+
+* Plusieurs émissions peuvent être émises simultanément depuis une installation sur différentes [fréquences](Frequenz)
+* Généralement via différentes antennes
+* Toutes les antennes doivent être prises en compte pour la distance de sécurité des personnes
 
 <note>
-par exemple station de club
+par exemple : station de club
 </note>
 
 ---

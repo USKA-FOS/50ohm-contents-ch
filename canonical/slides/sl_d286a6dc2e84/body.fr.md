@@ -10,7 +10,7 @@
 
 ---
 
-* La période est inversement proportionnelle à la fréquence
+* La période est en relation inverse avec la fréquence
 * Symbole T, unité seconde (s)
 
 <fragment>
@@ -26,65 +26,65 @@ $T = \dfrac{1}{f} \Rightarrow f = \dfrac{1}{T}$
 
 ---
 
-## Lire la durée d'une période
+## Lecture de la durée d’une période
 
 <left>
-* Compter les cases d'une période complète au passage par zéro
-* Multiplier par l'unité de temps
+* Compter le nombre de cases correspondant à une période complète au passage par zéro
+* Multiplier par l’unité de temps
 * Pour 8 cases et $\qty{2}{\milli\second}$ par case $\rightarrow 8 \cdot \qty{2}{\milli\second} = \qty{16}{\milli\second}$
 </left>
 <right>
-[picture:36:e_sinuswelle_oszilloskop:Une onde sinusoïdale sur l'écran d'un oscilloscope]
+[picture:36:e_sinuswelle_oszilloskop:Une onde sinusoïdale affichée à l’écran d’un oscilloscope]
 </right>
 
 ---
 [question:EI301]
 ---
 
-## Déterminer la fréquence
+## Détermination de la fréquence
 
 $f = \dfrac{1}{T}$
 
-D'abord déterminer la durée de la période, puis calculer la fréquence
+D’abord déterminer la durée de la période, puis calculer la fréquence
 
 ---
 [question:EB410]
 <note>
-* Solution sur la diapositive suivante
+* Méthode de résolution à la diapositive suivante
 </note>
 ---
-### Solution
+### Méthode de résolution
 
-Une période est longue de 4 cases
+Une période dure 4 cases
 $T = 4 \cdot \qty{5}{\milli\second} = \qty{20}{\milli\second}$
 $f = \dfrac{1}{T} = \dfrac{1}{\qty{20e-3}{\second}} = $
 $0,05 \cdot \frac{1}{\qty{10^{-3}}{\second}} = 0,05 \cdot \qty{10^3}{\hertz} = \qty{0,05}{\kilo\hertz} = \qty{50}{\hertz}$
 ---
 [question:EI302]
---- 
+---
 [question:EB409]
 <note>
-* Solution sur la diapositive suivante
+* Méthode de résolution à la diapositive suivante
 </note>
 ---
-### Solution
+### Méthode de résolution
 
-Une période est longue de 4 cases
+Une période dure 4 cases
 $T = 4 \cdot \qty{3}{\micro\second} = \qty{12}{\micro\second}$
 $f = \dfrac{1}{T} = \dfrac{1}{\qty{12e-6}{\second}} = $
 $0,0833 \cdot \frac{1}{\qty{10^{-6}}{\second}} = 0,0833 \cdot \qty{10^6}{\hertz} = \qty{0,0833}{\mega\hertz} = \qty{83,3}{\kilo\hertz}$
 ---
 [question:EB411]
 ---
-## Distorsions NF
+## Distorsions BF
 <left>
-* Parfois, les signaux sont déformés de manière non intentionnelle.
-* Cela se produit, par exemple, lorsqu'une tension d'entrée trop élevée est injectée dans un amplificateur.
-* On dit alors que l'amplificateur est surmodulé et que son signal de sortie est distordu.
-* Cela peut être rendu visible avec un oscilloscope.
+* Parfois, les signaux sont déformés de manière involontaire.
+* Cela se produit par exemple lorsqu’une tension d’entrée trop élevée est appliquée à un amplificateur.
+* On dit alors que l’amplificateur est surmodulé et que son signal de sortie est distordu.
+* Cela peut être visualisé à l’aide d’un oscilloscope.
 </left>
 <right>
-[photo:215:e_oszilloskop_verzerrt:signal d'entrée sinusoïdal (en haut) et signal de sortie distordu d'un amplificateur surmodulé]
+[photo:215:e_oszilloskop_verzerrt:Signal d’entrée sinusoïdal (en haut) et signal de sortie distordu d’un amplificateur surmodulé]
 </right>
 ---
 [question:EI304]

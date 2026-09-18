@@ -1,8 +1,8 @@
-### Circuit oscillant parallèle
+### Circuit résonant parallèle
 
 * Les bobines et les condensateurs sont combinés
-* Il faut également tenir compte de la *capacité d’enroulement*
-* Cela apporte des capacités "invisibles" dans le circuit
+* Il faut également tenir compte de la *capacité parasite* de l’enroulement
+* Cela introduit des capacités « invisibles » dans le circuit
 
 <note>
 Capacité propre d’une bobine
@@ -10,7 +10,7 @@ Capacité propre d’une bobine
 ---
 [question:AD101]
 ---
-#### Solution
+#### Méthode de résolution
 
 * donné : $C_1 = \qty{0,10}{\nano\farad}$
 * donné : $C_2 = \qty{47}{\pico\farad}$
@@ -23,7 +23,7 @@ $\begin{split} \tfrac{1}{C_{\mathrm{ges}}} &= \tfrac{1}{C_1} + \tfrac{1}{C_2} + 
 ---
 [question:AD103]
 ---
-#### Solution
+#### Méthode de résolution
 
 * donné : $C_1 = \qty{0,1}{\nano\farad}$
 * donné : $C_2 = \qty{1,5}{\nano\farad}$
@@ -35,13 +35,13 @@ $\begin{split} \tfrac{1}{C_{\mathrm{ges}}} &= \tfrac{1}{C_1} + \tfrac{1}{C_2} + 
 $\begin{split} C_{\mathrm{ges}} &= C_1 + C_2 + C_3 + C_L\\ &= \qty{0,1}{\nano\farad} + \qty{1,5}{\nano\farad} + \qty{220}{\pico\farad} + \qty{1}{\pico\farad}\\ &= \qty{1821}{\pico\farad} \end{split}$
 </fragment>
 <note>
-Préfixes d’unités à prendre en compte et calculer avec les inverses
+Faire attention aux préfixes d’unités et calculer avec les inverses
 </note>
 
 ---
 [question:AD105]
 ---
-#### Solution
+#### Méthode de résolution
 
 * donné : $R = \qty{100}{\ohm}$
 * donné : $L = \qty{100}{\micro\henry}$
@@ -58,7 +58,7 @@ $Z = \sqrt{R^2 + X^2} = \sqrt{(\qty{100}{\ohm})^2 + (\qty{628}{\ohm})^2} \approx
 ---
 [question:AD104]
 ---
-#### Solution
+#### Méthode de résolution
 
 * donné : $R = \qty{100}{\ohm}$
 * donné : $C = \qty{100}{\nano\farad}$

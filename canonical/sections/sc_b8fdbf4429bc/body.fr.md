@@ -1,8 +1,20 @@
-Même en radioamateur, de nombreux procédés de transmission numériques sont utilisés. Nous en avons déjà discuté un très simple. Dans la télégraphie Morse avec onde continue (CW), une porteuse est allumée et éteinte à un rythme déterminé. Il n'y a donc que deux niveaux, $\qty{0}{\percent}$ et $\qty{100}{\percent}$ de l'amplitude maximale. La transmission est donc numérique.
+Dans le radioamateurisme, de nombreuses méthodes de transmission digitales sont utilisées. Nous en avons déjà abordé une très simple. En télégraphie Morse avec une onde entretenue (CW), une porteuse est allumée et éteinte selon un rythme précis. Il n’y a donc que deux niveaux, $\qty{0}{\percent}$ et $\qty{100}{\percent}$ de l’amplitude maximale. La transmission est donc numérique.
 
-La télégraphie Morse est le plus ancien procédé de transmission utilisé en radio. Les premiers émetteurs radio ne connaissaient aucun autre procédé. La seule possibilité de transmission d'informations était d'allumer et d'éteindre l'émetteur à l'aide d'une touche. À la réception, cela se traduit par un son qui s'allume et s'éteint au rythme donné.
+La télégraphie Morse est la plus ancienne méthode de transmission utilisée en radio. Les premiers émetteurs radio ne connaissaient pas d’autre procédé. La seule façon de transmettre des informations consistait à allumer et éteindre brièvement l’émetteur à l’aide d’une touche. À la réception, cela se traduit par un son qui s’allume et s’éteint selon le rythme donné.
 
-Pour transmettre différents caractères, c'est-à-dire des lettres, des chiffres et des signes de ponctuation, on utilise le code Morse. Pour chaque caractère, une séquence déterminée de sons courts et longs est définie. Dans les tableaux [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] et [ref:n_morsetelegrafie_morsecode_spezial], on trouve une partie du code Morse. Un point ([morse:e]) représente un son court et un trait ([morse:t]) un son long. Le décodage, c'est-à-dire la traduction des sons en caractères à la réception, se fait avec les oreilles et le cerveau - ou de nos jours aussi avec l'ordinateur.
+Pour transmettre différents caractères, c’est-à-dire des lettres, des chiffres et des signes de ponctuation, on utilise le code Morse. Chaque caractère est défini par une séquence précise de sons courts et longs. Les tableaux [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] et [ref:n_morsetelegrafie_morsecode_spezial] présentent une partie du code Morse. Un point ([morse:e]) (prononcé « dit ») représente un son court et un trait ([morse:t]) (prononcé « dah ») un son long. Le décodage, c’est-à-dire la traduction des sons en caractères à la réception, se fait à l’oreille et avec le cerveau – ou, de nos jours, également avec un ordinateur.
+
+**Le Morse est une manipulation temporellement définie d’une porteuse. L’information ne provient pas seulement des points et des traits, mais aussi des pauses strictement définies.**
+
+Les rapports de temps entre point, trait et pauses sont définis comme suit :
+
+* Point = 1 unité de temps
+* Trait = 3 unités de temps
+* Pause entre les éléments d’un même caractère = 1 unité de temps
+* Pause entre deux caractères = 3 unités de temps
+* Pause entre deux mots = 7 unités de temps
+
+La « vitesse » est exprimée en mots par minute [WPM] (Words Per Minute), le mot de référence international étant PARIS.
 
 <webmargin>
 | c: | l: | c: | l: | c: | l: |
@@ -21,7 +33,7 @@ Pour transmettre différents caractères, c'est-à-dire des lettres, des chiffre
 </webmargin>
 
 <webmargin>
-| c: | l: | c: | l: | c: | l: |
+| c: | l: | c: | l: | c: | l: | 
 |  |  |  |  |  |  | 
 | 0 | [morse:0] | 5 | [morse:5] | / | [morse:/] |
 | 1 | [morse:1] | 6 | [morse:6] | . | [morse:.] |
@@ -32,22 +44,28 @@ Pour transmettre différents caractères, c'est-à-dire des lettres, des chiffre
 [table:n_morsetelegrafie_morsecode_ziffern_satzzeichen:Code Morse (chiffres et signes de ponctuation)]
 </webmargin>
 
+% TODO ARK: Les prosignaux bk, sk et irrung ne fonctionnent pas encore sans l’espace gênant. Le programme morse.py dans le générateur doit être remplacé par le programme morse.py indiqué dans l’issue xxx.
+
 <webmargin>
 | l: | l: |
 |  |  |
 | Interruption (BK) | [morse:bk] |
-| Séparation au sein d'un passage (BT, =) | [morse:=] |
-| Fin du passage (AR)  | [morse:ar] |
-| Fin de l'émission (SK) | [morse:sk] |
-| Erreur, confusion | [morse:h] [morse:h]|
+| Séparation dans un même passage (BT,=) | [morse:=] |
+| Fin du passage (AR) | [morse:ar] |
+| Fin de l’émission (SK) | [morse:sk] |
+| Erreur, rectification | [morse:correction] |
 [table:n_morsetelegrafie_morsecode_spezial:Code Morse (signes particuliers, sélection)]
 </webmargin>
 
-Bien que des procédés de transmission pour la parole, les images et même la vidéo aient été inventés, la télégraphie Morse est encore pratiquée aujourd'hui en radioamateur. Pendant longtemps, il était obligatoire dans le monde entier que chaque radioamateur passe un examen de Morse avant de pouvoir émettre sur les ondes courtes. Ce n'est qu'à la fin des années 1990 que cette règle a été abrogée. Depuis, chaque pays peut décider lui-même s'il exige un examen de Morse. En Allemagne, il est volontaire depuis 2003.
+Pendant longtemps, il était obligatoire dans le monde entier que chaque radioamateur réussisse l’examen de Morse avant de pouvoir émettre sur ondes courtes. Depuis les années 1990, chaque pays peut décider s’il exige un examen de Morse. Dans la plupart des pays, dont la Suisse, aucun examen de Morse n’est requis. Bien que des méthodes de transmission pour la voix, les images et même la vidéo aient été inventées, la télégraphie Morse est toujours pratiquée dans le radioamateurisme. Elle conserve un charme particulier : communiquer à l’échelle mondiale avec des moyens des plus simples.
 
 [question:VA304]
 
-Il y a une particularité à prendre en compte lors de la gestion des opérations en télégraphie Morse : le choix d'une vitesse appropriée. Les signes Morse peuvent être donnés à des vitesses différentes. Cependant, il faut beaucoup de pratique pour pouvoir recevoir des signes Morse donnés rapidement. Il est donc important de veiller à ne pas surcharger la station correspondante avec la vitesse. Il est bon de ne pas donner plus vite que l'autre station et aussi de ne pas donner plus vite que ce que l'on peut soi-même recevoir. Ainsi, tout le monde suit.
+Il existe une particularité à prendre en compte lors des échanges en télégraphie Morse : le choix d’une vitesse adaptée. Les signaux Morse peuvent être envoyés à différentes vitesses. Cependant, il faut beaucoup d’entraînement pour pouvoir capter des signaux Morse envoyés rapidement. Il est donc important de veiller à ne pas surcharger la station correspondante avec une vitesse trop élevée. Une bonne règle empirique consiste à ne pas envoyer plus vite que l’autre station et à ne pas dépasser la vitesse à laquelle on est capable de recevoir soi-même. Ainsi, tout le monde suit sans difficulté.
+
+<indepth>
+Ce n’est pas un hasard si les lettres fréquentes (n, t, i, etc.) sont associées à des signaux Morse courts et les lettres rares (x, y, etc.) à des signaux longs. Cela permet d’économiser du temps lors de la transmission d’un message. On parle aussi de compression de données à la source.
+</indepth>
 
 [question:BE117]
 [question:BE118]

@@ -1,6 +1,6 @@
-## Onde fondamentale et harmoniques
+## Fondamentale et harmoniques
 
-* Un signal sinusoïdal idéal ne contient que son onde fondamentale (1ère harmonique)
+* Un signal sinusoïdal idéal ne contient que sa fondamentale (1re harmonique)
 * Les écarts par rapport à la forme sinusoïdale génèrent des multiples entiers de la fréquence fondamentale
 * Ces multiples sont appelés harmoniques
 
@@ -8,31 +8,31 @@
 ### Représentation dans le spectre de fréquences
 
 <left>
-[picture:869:zusammenhang_oberwellen_harmonische:Relation entre les harmoniques supérieures et les harmoniques]
+[picture:869:zusammenhang_oberwellen_harmonische:Relation entre harmoniques supérieures et harmoniques]
 </left>
 <right>
-* 1ère harmonique = fréquence fondamentale
-* 2ème harmonique = double de la fréquence fondamentale
-* 3ème harmonique = triple de la fréquence fondamentale
-* Toutes les harmoniques sont numérotées avec un nombre ordinal (n)
+* 1re harmonique = fréquence fondamentale
+* 2e harmonique = fréquence double de la fondamentale
+* 3e harmonique = fréquence triple de la fondamentale
+* Toutes les harmoniques sont numérotées avec un ordre (n)
 </right>
 <note>
-Selon la distorsion du signal, plus d'harmoniques paires ou impaires sont générées.
-Les signaux rectangulaires (par exemple, par surcharge de l'amplificateur) contiennent principalement des harmoniques impaires.
+Selon la distorsion du signal, il se forme davantage d'harmoniques paires ou impaires.
+Les signaux rectangulaires (par exemple, dus à la saturation d'un amplificateur) contiennent principalement des harmoniques impaires.
 Les signaux en dents de scie contiennent principalement des harmoniques paires.
 </note>
 
 --- style="font-size: smaller;"
-### Harmoniques supérieures – Multiples de la fréquence fondamentale
+### Harmoniques supérieures – multiples de la fréquence fondamentale
 
 <left>
-[picture:595:a_oberwellen:Signal composé d'onde fondamentale et d'harmoniques supérieures]
+[picture:595:a_oberwellen:Signal composé de la fondamentale et d'harmoniques supérieures]
 </left>
 <right>
-* Un signal non idéalement sinusoïdal contient en outre des harmoniques supérieures
+* Un signal non parfaitement sinusoïdal contient en plus des harmoniques supérieures
 * Les harmoniques supérieures sont des multiples entiers de la fréquence fondamentale
-* 1ère harmonique supérieure = 2ème harmonique = double de la fréquence fondamentale
-* 2ème harmonique supérieure = 3ème harmonique = triple de la fréquence fondamentale
+* 1re harmonique supérieure = 2e harmonique = fréquence double de la fondamentale
+* 2e harmonique supérieure = 3e harmonique = fréquence triple de la fondamentale
 </right>
 
 ---
@@ -45,11 +45,11 @@ Les signaux en dents de scie contiennent principalement des harmoniques paires.
 [question:AB402]
 
 ---
-## Analyse des harmoniques supérieures avec l'analyseur de spectre
+## Analyse des harmoniques supérieures avec un analyseur de spectre
 
-* Même un signal apparemment sinusoïdal peut contenir des harmoniques supérieures significatives
+* Même un signal apparemment sinusoïdal peut contenir des harmoniques supérieures notables
 * Les composantes des harmoniques supérieures sont mesurées avec un analyseur de spectre
-* Représentation dans le domaine des fréquences (Frequency-Domain)
+* Représentation dans le domaine fréquentiel (domaine des fréquences)
 * Les amplitudes des harmoniques supérieures sont affichées de manière logarithmique
 
 ---
@@ -61,16 +61,16 @@ Les signaux en dents de scie contiennent principalement des harmoniques paires.
 ---
 ## Calcul des harmoniques et des harmoniques supérieures
 
-* Fréquences harmoniques = fréquence fondamentale × nombre ordinal (n)
+* Fréquences des harmoniques = fréquence fondamentale × ordre (n)
 * Fréquences des harmoniques supérieures = fréquence fondamentale × (n + 1)
 
 ---
 [question:AJ201]
 
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $f = \qty{3,730}{\mega\hertz}$
-* recherché : $f$ de la 2ème harmonique
+* recherché : $f$ de la 2e harmonique
 
 <fragment>
 $2 \cdot f = 2 \cdot \qty{3,730}{\mega\hertz} = \qty{7,460}{\mega\hertz}$
@@ -80,22 +80,22 @@ $2 \cdot f = 2 \cdot \qty{3,730}{\mega\hertz} = \qty{7,460}{\mega\hertz}$
 [question:AJ205]
 
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $f = \qty{144,690}{\mega\hertz}$
-* recherché : $f$ en tant que 2ème harmonique impaire
+* recherché : $f$ en tant que 2e harmonique impaire
 
 <fragment>
-2ème harmonique impaire = 3ème harmonique
-  
+2e harmonique impaire = 3e harmonique
+
 $3 \cdot f = 3 \cdot \qty{144,690}{\mega\hertz} = \qty{434,070}{\mega\hertz}$
 </fragment>
 ---
 [question:AJ202]
 
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $f = \qty{7,050}{\mega\hertz}$
-* recherché : $f$ en tant que 3ème harmonique
+* recherché : $f$ en tant que 3e harmonique
 
 <fragment>
 $3 \cdot f = 3 \cdot \qty{7,050}{\mega\hertz} = \qty{21,150}{\mega\hertz}$
@@ -105,7 +105,7 @@ $3 \cdot f = 3 \cdot \qty{7,050}{\mega\hertz} = \qty{21,150}{\mega\hertz}$
 [question:AJ206]
 
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $f = \qty{144,300}{\mega\hertz}$
 * recherché : plusieurs harmoniques
 

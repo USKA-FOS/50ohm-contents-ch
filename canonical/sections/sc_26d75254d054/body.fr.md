@@ -1,13 +1,13 @@
-Nous classons les matériaux en trois groupes : *conducteurs*, *non-conducteurs* et *semi-conducteurs*. Les conducteurs sont des matériaux capables de conduire le courant électrique. Les non-conducteurs sont des matériaux qui ne conduisent pas le courant électrique, mais agissent comme des *isolateurs*. Les semi-conducteurs sont des matériaux qui ne conduisent le courant électrique que dans certaines conditions.
+Nous classons les matériaux en trois groupes : les *conducteurs*, les *isolants* et les *semi-conducteurs*. Les conducteurs sont des matériaux capables de transmettre le courant électrique. Les isolants, en revanche, ne laissent pas passer le courant électrique et agissent comme des *isolateurs*. Les semi-conducteurs, quant à eux, ne conduisent le courant électrique que dans certaines conditions.
 
-Examinons d'abord les conducteurs de plus près. De nombreux conducteurs sont des métaux. Par exemple, les parafoudres sont en acier et les lignes à haute tension en acier ou en aluminium. L'eau salée peut également conduire le courant. Certains conducteurs conduisent mieux le courant que d'autres. Dans le tableau [ref:leiter], tous les matériaux conducteurs mentionnés dans les questions d'examen sont répertoriés, triés par ordre décroissant de leur conductivité.
+Examinons d'abord les conducteurs de plus près. De nombreux conducteurs sont des métaux. Par exemple, les paratonnerres sont en acier et les lignes à haute tension en acier ou en aluminium. Mais même l'eau salée peut conduire le courant. Certains conducteurs peuvent conduire le courant mieux que d'autres. Le tableau [ref:leiter] présente tous les matériaux conducteurs mentionnés dans les questions d'examen, classés par ordre décroissant de leur conductivité.
 
 <indepth>
-La *conductivité* est une propriété du matériau qui dépend de la structure atomique interne et est également déterminée par la quantité d'électrons libres mobiles.
+La *conductivité* est une propriété des matériaux qui dépend de la structure atomique interne et est déterminée par la quantité d'électrons libres.
 </indepth>
 
 <indepth>
-La *résistance* est l'opposé de la conductivité. Un matériau qui conduit bien a une résistance plus faible qu'un matériau qui conduit mal - et inversement : un matériau qui conduit mal a une résistance plus élevée qu'un matériau qui conduit bien.
+La *résistance* est l'inverse de la conductivité. Un matériau qui conduit bien a une résistance plus faible qu'un matériau qui conduit mal, et inversement : un matériau peu conducteur a une résistance plus élevée qu'un matériau très conducteur.
 </indepth>
 
 <margin>
@@ -19,12 +19,12 @@ La *résistance* est l'opposé de la conductivité. Un matériau qui conduit bie
 | 5 | Tungstène |
 | 6 | Zinc |
 | 7 | *Étain* |
-[table:leiter:Quelques matériaux conducteurs, triés des matériaux particulièrement conducteurs aux matériaux moins conducteurs]
+[table:leiter:Quelques matériaux conducteurs, classés des meilleurs aux moins bons conducteurs]
 </margin>
 
-Par exemple, l'argent conduit mieux le courant électrique que le cuivre. L'étain est, comparé à tous les autres matériaux mentionnés, un mauvais conducteur. Néanmoins, l'étain est généralement utilisé pour le soudage, car il a, comparé aux autres métaux, un point de fusion très bas, ce qui facilite la mise en œuvre.
+Par exemple, l'argent conduit mieux le courant électrique que le cuivre. L'étain est, comparé aux autres matériaux mentionnés, un mauvais conducteur. Pourtant, l'étain est généralement utilisé pour le soudage car, comparé aux autres métaux, il a un point de fusion très bas, ce qui facilite le traitement.
 
-Dans la liste, nous avons mis en évidence les matériaux que l'on doit retenir pour l'examen. Si l'on retient l'ordre *Argent - Cuivre - Étain*, alors on peut résoudre toutes les questions d'examen sur les conducteurs.
+Dans la liste, nous avons mis en évidence les matériaux à retenir pour l'examen. Si l'on retient l'ordre *Argent - Cuivre - Étain*, on peut résoudre toutes les questions d'examen sur les conducteurs.
 
 [question:NB101]
 [question:NB102]
@@ -32,22 +32,21 @@ Dans la liste, nous avons mis en évidence les matériaux que l'on doit retenir 
 
 ---
 
-Passons maintenant aux isolateurs, c'est-à-dire aux non-conducteurs. Dans le tableau [ref:nichtleiter], tous les isolateurs qui apparaissent dans les questions d'examen sont répertoriés. Nous avons à nouveau mis en évidence les entrées que l'on doit retenir pour l'examen.
+Passons maintenant aux isolants, c'est-à-dire aux non-conducteurs. Le tableau [ref:nichtleiter] présente tous les isolants mentionnés dans les questions d'examen. Nous avons à nouveau mis en évidence les entrées à retenir pour l'examen.
 
 <margin>
-| l: Désignation | l: Abréviation |
+| l:Désignation | l:Abréviation |
 | *Porcelaine* | |
 | *Polyéthylène* | *PE* |
 | *Polystyrène* | *PS* |
 | Liège | |
-| Polychlorure de vinyle | PVC |
+| Chlorure de polyvinyle | PVC |
 | Polytétrafluoroéthylène | PTFE |
 [table:nichtleiter:Quelques matériaux non conducteurs]
 </margin>
 
 <indepth>
-*La porcelaine* est connue surtout pour la vaisselle. Mais elle est aussi souvent utilisée comme isolateur, par exemple pour les lignes à haute tension.
+On connaît la *porcelaine* surtout pour la vaisselle. Pourtant, elle est aussi souvent utilisée comme isolant, par exemple pour les lignes à haute tension.
 </indepth>
 
 [question:NB104]
-  

@@ -1,13 +1,16 @@
-Avec une licence de radioamateur, il est possible, sous certaines conditions, d'effectuer des opérations radio à l'étranger. De nombreux États ont conclu un accord régissant les opérations radio en cas de séjour temporaire à l'étranger et la reconnaissance mutuelle des certificats de radioamateur.
-L'accord a été élaboré par les États membres de la *Conférence européenne des administrations des postes et des télécommunications* (Conférence Européenne des Administrations des Postes et des Télécommunications, CEPT).
+Avec une licence de radioamateur, il est possible, sous certaines conditions, d’effectuer des communications radio à l’étranger. À cette fin, de nombreux États ont conclu un accord régissant les communications radio lors d’un séjour temporaire à l’étranger ainsi que la reconnaissance mutuelle des certificats de radioamateur.
 
-L'accord de la CEPT se compose des recommandations mentionnées dans le tableau [ref:n_funken_im_ausland_cept_empfehlungen]. Pas de panique, il n'est pas nécessaire d'apprendre par cœur les recommandations individuelles. Pour l'examen, il suffit de connaître les principales réglementations.
+Cet accord a été élaboré par les États membres de la *Conférence européenne des administrations des postes et des télécommunications* (CEPT).
+
+
+L’accord de la CEPT se compose des recommandations mentionnées dans le tableau [ref:n_funken_im_ausland_cept_empfehlungen]. Pas d’inquiétude, il n’est pas nécessaire d’apprendre ces recommandations par cœur. À l’examen, il suffit de connaître les règles principales.
+
 
 <margin>
 | l: Recommandation CEPT | X: Explication |
 | ECC Report 89 | Classe N |
 | ERC-Report 32 | Base pour ECC Report (05) 06 |
-| ECC-Recommandation (05) 06 | Classe E |
+| Recommandation ECC (05) 06 | Classe E |
 | T/R 61-01 | Classe A |
 | T/R 61-02 | HAREC |
 [table:n_funken_im_ausland_cept_empfehlungen:Recommandations CEPT]
@@ -17,59 +20,62 @@ L'accord de la CEPT se compose des recommandations mentionnées dans le tableau 
 
 ---
 
-Tous les États membres de la CEPT ne mettent pas en œuvre les réglementations relatives à la radioamateur. Les opérations radioamateur ne peuvent donc être effectuées que dans les États qui appliquent également les réglementations de la CEPT. On ne doit pas y avoir de résidence permanente et on ne peut y séjourner que temporairement pendant jusqu'à 3 mois.
+Tous les États membres de la CEPT n’appliquent pas les règles relatives au radioamateurisme. Les communications radio ne sont donc autorisées que dans les pays qui appliquent les règles de la CEPT. Il est interdit d’y établir sa résidence permanente et l’on ne peut y séjourner temporairement que jusqu’à 3 mois.
 
 <tip>
-Dans la [liste des pays CEPT](https://50ohm.de/cll) du bureau des affaires étrangères du DARC, on peut consulter pour chaque pays quelles réglementations y sont en vigueur et ce qu'il faut observer.
+Dans la [liste des pays CEPT](https://50ohm.de/cll) du service des relations internationales du DARC, vous pouvez consulter pour chaque pays les règles qui s’y appliquent et les points à respecter.
 
-[Devenez membre du DARC maintenant !](https://50ohm.de/mw)
+[Devenir membre du DARC !](https://50ohm.de/mw)
 </tip>
 
 [question:VB106]
 [question:VB107]
 [question:VB109]
 
-Il faut savoir qu'il existe des États qui ne sont pas membres de cette conférence, mais qui appliquent néanmoins partiellement ou entièrement les réglementations de la CEPT, par exemple les États-Unis et l'Australie. 
+
+Il existe des États qui ne font pas partie de cette conférence, mais qui appliquent tout ou partie des règles de la CEPT, par exemple les États-Unis et l’Australie.
 
 [question:VB108]
 
 ---
 
-Si l'on émet à l'étranger, cela doit être indiqué par un préfixe supplémentaire de l'indicatif d'appel. Prenons par exemple le cas où les radioamateurs portant les indicatifs d'appel DO7PR et DL9MJ voyagent en Suisse et veulent y émettre. Selon la classe, un autre préfixe doit être utilisé en Suisse, *HB3* pour la classe E et *HB9* pour la classe A. En Suisse, les deux radioamateurs doivent donc utiliser les indicatifs d'appel *HB3/DO7PR* ou *HB9/DL9MJ*. Dans d'autres pays, il existe des réglementations similaires. Le préfixe à utiliser dépend du pays.
+Lors de communications à l’étranger, il faut utiliser un préfixe supplémentaire pour l’indicatif d’appel. Prenons par exemple les radioamateurs DO7PR et DL9MJ qui se rendent en Suisse et souhaitent y émettre. Selon la classe, un préfixe différent doit être utilisé en Suisse : *HB3* pour la classe E et *HB9* pour la classe A. En Suisse, ces deux radioamateurs doivent donc utiliser les indicatifs *HB3/DO7PR* et *HB9/DL9MJ* respectivement. Dans d’autres pays, des règles similaires s’appliquent. Le préfixe à utiliser varie d’un pays à l’autre.
 
 <margin>
-La séparation entre le préfixe étranger et l'indicatif d'appel personnel doit être effectuée par le mot „stroke“ !
+La séparation entre le préfixe étranger et l’indicatif d’appel personnel doit être indiquée par le mot « stroke » !
 </margin>
 
 [question:BD213]
 [question:BD214]
 
-Actuellement, il n'est pas permis d'émettre à l'étranger avec la classe N, car l'Allemagne n'a pas encore notifié la classe N à la CEPT en tant que licence de niveau d'entrée. La classe de licence N n'est donc valable qu'en Allemagne.
+Actuellement, il n’est pas possible d’émettre à l’étranger avec la classe N, car l’Allemagne n’a pas encore notifié la classe N comme licence d’entrée de gamme (Entry Level License) à la CEPT. La licence de classe N n’est donc valable qu’en Allemagne.
 
 [question:VB105]
 
-Les radioamateurs étrangers peuvent effectuer des opérations radio en Allemagne sur la base des réglementations de la CEPT. Selon la classe à laquelle la licence de radioamateur du pays d'origine est attribuée en Allemagne, il doit ajouter le préfixe *DL/* ou *DO/* à son indicatif d'appel personnel.
+
+Les radioamateurs étrangers peuvent, sur la base des règles de la CEPT, effectuer des communications radio en Allemagne. Selon la classe de leur licence de radioamateur dans leur pays d’origine, ils doivent ajouter le préfixe *DL/* ou *DO/* devant leur indicatif d’appel personnel.
 
 [question:VB110]
 [question:BD212]
 [question:VB116]
 ---
 
-Les recommandations de la CEPT ne s'appliquent qu'aux indicatifs d'appel personnels. L'exploitation d'une station de club nécessite toujours la demande d'une autorisation d'invité. Une licence d'invité est également nécessaire pour l'exploitation d'une station de radioamateur si le pays n'applique pas la recommandation de la CEPT.
+Les recommandations de la CEPT ne s’appliquent qu’aux indicatifs d’appel personnels. L’exploitation d’une station de club nécessite toujours une autorisation temporaire. Une autorisation temporaire est également requise pour l’exploitation d’une station de radioamateur si le pays concerné n’applique pas les recommandations de la CEPT.
 
 [question:VB114]
 [question:VB113]
 
-Comme en Allemagne, il existe dans les différents pays de la CEPT des réglementations nationales différentes pour la radioamateur. Le fait que, par exemple, la bande des $\qty{6}{\meter}$ soit libérée pour la classe A en Allemagne ne signifie pas automatiquement que l'on peut également utiliser la bande des $\qty{6}{\meter}$ à l'étranger. Il faut se conformer aux dispositions et aux conditions du pays d'accueil.
+Comme en Allemagne, chaque pays de la CEPT dispose de règles nationales différentes pour le radioamateurisme. Même si, par exemple, la bande des $\qty{6}{\meter}$ est autorisée pour la classe A en Allemagne, cela ne signifie pas automatiquement que l’on peut utiliser cette bande à l’étranger. Il faut respecter les réglementations et les exigences du pays hôte.
 
 [question:VB111]
 [question:VB112]
 
 <tip>
-Si l'on traverse un pays lors d'un voyage où la licence de radioamateur n'est pas reconnue, il faut se renseigner au préalable pour savoir si les appareils radio peuvent être transportés et, le cas échéant, obtenir l'autorisation correspondante. Le [bureau des affaires étrangères du DARC](https://50ohm.de/ra) peut aider les membres à clarifier ces questions.
+Si vous traversez un pays lors d’un voyage où la licence de radioamateur n’est pas reconnue, il est conseillé de se renseigner au préalable sur l’autorisation de transporter des équipements radio et, le cas échéant, d’obtenir une autorisation correspondante. Le [service des relations internationales du DARC](https://50ohm.de/ra) peut aider ses membres à clarifier ces questions.
 </tip>
 
-Si l'on transfère son domicile à l'étranger pour une durée supérieure à 3 mois ou de manière permanente, on peut y demander une licence de radioamateur de manière simplifiée sur la base de l'attestation de réussite de l'examen de radioamateur novice de la CEPT ou du certificat d'examen harmonisé de radioamateur (HAREC), sans avoir à repasser un examen. Le certificat allemand de radioamateur de classe E est en même temps une attestation de réussite de l'examen de radioamateur novice de la CEPT et le certificat de classe A est en même temps une attestation HAREC. 
+
+Si vous transférez votre résidence pour une durée supérieure à 3 mois ou de manière permanente à l’étranger, vous pouvez, sur la base du certificat d’examen de radioamateur débutant (CEPT Novice) ou du certificat d’examen harmonisé (HAREC), demander plus facilement une licence de radioamateur dans ce pays sans avoir à repasser un examen. Le certificat de radioamateur allemand de classe E équivaut à un certificat d’examen de radioamateur débutant (CEPT Novice) et le certificat de classe A équivaut simultanément à un certificat HAREC.
 
 [question:VB102]
 [question:VB103]
@@ -91,5 +97,3 @@ NOUVEAU HB : Section sur HB0
 [question:VO027]
 [question:VO028]
 [question:VB115]
-
-

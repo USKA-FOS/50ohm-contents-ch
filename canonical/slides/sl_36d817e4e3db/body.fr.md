@@ -1,17 +1,17 @@
-## Courbes caractéristiques de commande
+## Courbes de commande
 
 <left>
 [picture:804:mischer_linear_vs_nichtlinear:Résistance linéaire et diode non linéaire]
-Les courbes caractéristiques de commande peuvent être linéaires ou non linéaires
+Les courbes de commande peuvent être linéaires ou non linéaires
 </left>
 <right>
-* Dans la zone linéaire, aucune distorsion ne se produit
-* Comportement mathématique comme lors d'une addition
+* Dans la zone linéaire, il n'y a pas de distorsions
+* Comportement mathématique similaire à une addition
 </right>
 
 ---
-* Dans la zone non linéaire, la courbe caractéristique de commande provoque une distorsion d'un signal d'entrée à différentes modifications du signal de sortie
-* Comportement mathématique comme lors d'une multiplication
+* Dans la zone non linéaire, la courbe de commande provoque la distorsion d'un signal d'entrée en différentes modifications sur le signal de sortie
+* Comportement mathématique similaire à une multiplication
 * C'est pourquoi un processus de mélange a toujours lieu dans la zone non linéaire
 * Les produits de mélange génèrent toujours des fréquences supplémentaires dans le signal de sortie
 
@@ -21,18 +21,21 @@ Les courbes caractéristiques de commande peuvent être linéaires ou non linéa
 ## Mélangeur en anneau
 
 <left>
-[picture:805:mischer_ringmischer:Mélangeur équilibré, mélangeur en anneau ou également modulateur en anneau]
+[picture:805:mischer_ringmischer:Mélangeur équilibré, mélangeur en anneau ou modulateur en anneau]
 </left>
 <right>
-* Au niveau de la sortie d'un mélangeur, seul le produit de mélange doit apparaître
-* Les produits de mélange indésirables et les signaux d'entrée doivent être supprimés au maximum
-* 4 diodes en circuit en anneau
-* L'oscillateur à $U_2$ rend toujours deux diodes actives
+* À la sortie d'un mélangeur, seul le produit de mélange doit apparaître
+* Les produits de mélange indésirables et les signaux d'entrée doivent être maximément supprimés
+* 4 diodes en montage en anneau
+* L'oscillateur sur $U_2$ active toujours deux diodes
 * Pendant ce temps, une onde uniforme de $U_1$ peut atteindre la sortie
 </right>
 <note>
-Ne pas confondre avec le circuit en pont ! 
+Ne pas confondre avec le montage en pont !
 </note>
+
+--- style="font-size: smaller;"
+[include:applet_ringmodulator]
 
 ---
 [question:AF213]

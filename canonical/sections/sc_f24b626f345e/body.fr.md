@@ -1,15 +1,16 @@
-Réparer ses propres appareils est une question d'honneur pour de nombreux radioamateurs. Mais dans l'ardeur de l'action, on ne doit pas oublier sa propre sécurité et ne pas aggraver les dommages existants. 
+Réparer soi-même ses appareils est une question d'honneur pour de nombreux radioamateurs. Cependant, dans l'enthousiasme de l'action, il ne faut pas oublier sa propre sécurité ni aggraver les dommages existants.
 
-Toute réparation commence par la recherche de la panne. Bien sûr, l'appareil est d'abord déconnecté du réseau. Ensuite, il peut être ouvert. Mais on n'est pas encore à l'abri d'une décharge électrique. Les condensateurs dans l'alimentation restent chargés même sans alimentation secteur. 
+Toute réparation commence par la recherche de la panne. Bien sûr, l'appareil est d'abord débranché du secteur. On peut ensuite l'ouvrir. Mais on n'est pas encore à l'abri d'un choc électrique [index:choc électrique]. Les condensateurs de l'alimentation restent chargés même sans alimentation secteur.
 
-C'est particulièrement vrai pour les alimentations à découpage pour les étages finaux à transistors, qui sont couramment utilisées aujourd'hui. La tension présente à certaines bornes de condensateurs est supérieure à la tension nominale du réseau. Dans le cas des étages finaux à tubes, la tension est encore nettement plus élevée ! C'est dangereux pour la vie ! 
+C'est particulièrement vrai pour les alimentations à découpage modernes utilisées dans les étages de puissance à transistors, où la tension présente sur certains raccordements de condensateurs est supérieure à la tension nominale du secteur. Dans les étages de puissance à tubes, la tension est encore bien plus élevée ! Cela est extrêmement dangereux !
 
-Sans autre intervention, la charge ne se déchargera que progressivement. Pour plus de sécurité, nous pouvons décharger les condensateurs. Les court-circuiter n'est pas une bonne idée. Avec cette procédure, une décharge électrique mortelle est tout à fait possible. Dans le cas le plus inoffensif, les courants de court-circuit élevés peuvent détruire les condensateurs et d'autres composants et provoquer un incendie. 
+Sans intervention supplémentaire, la charge ne se dissiperait que progressivement. Pour plus de sécurité, nous pouvons décharger les condensateurs. Les court-circuiter directement n'est pas une bonne idée. Cette méthode peut entraîner un choc électrique mortel. Dans le meilleur des cas, les courants de court-circuit élevés peuvent détruire les condensateurs et d'autres composants, voire provoquer un incendie.
 
-Avec une résistance isolée et de haute impédance, la décharge se fait lentement et en toute sécurité. La capacité de charge de la résistance doit être adaptée à la capacité du condensateur. 
+Une décharge lente et sûre s'effectue à l'aide d'une résistance isolante de valeur ohmique élevée. La capacité de charge [index:capacité de charge] de la résistance doit être adaptée à la capacité du condensateur.
 
 [question:AK201]
 
+
 <tipp>
-Pour être vraiment du bon côté, on peut porter des gants isolants dans une classe de protection suffisante. Bien sûr, on ne doit utiliser que des outils isolés.
+Pour être vraiment en sécurité, il est recommandé de porter des gants isolants d'une classe de protection suffisante. Bien entendu, seul un outillage isolé doit être utilisé.
 </tipp>

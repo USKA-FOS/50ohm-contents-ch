@@ -1,34 +1,34 @@
 * Obligation pour les radioamateurs de respecter les limites de puissance de leur installation radio
-* Sur de nombreuses bandes de radioamateurs, une *puissance de sortie maximale de l'émetteur* (*PEP*, Peak-Envelope-Power) est définie comme valeur limite
-* Les émissions indésirables sont également importantes
+* Sur de nombreuses bandes radioamateurs, une *puissance de sortie maximale de l’émetteur* (PEP, *Peak-Envelope-Power*) est fixée comme limite
+* Les émissions non désirées sont également importantes
 
 ---
-### Mesure des émissions indésirables
+### Mesure des émissions non désirées
 
-* À la sortie de l'émetteur
-* En tenant compte de l'adaptateur d'impédance, des filtres passe-bas, etc.
-* Mesure des émissions indésirables pouvant atteindre l'antenne
+* Au niveau de la sortie de l’émetteur
+* En incluant le ROS-mètre, les adaptateurs, les filtres passe-bas, etc.
+* Mesure des émissions non désirées pouvant atteindre l’antenne
 
 ---
 [question:EJ209]
 ---
-### Mesure de la puissance de sortie de l'émetteur
+### Mesure de la puissance de sortie de l’émetteur
 
-* Directement à la sortie de l'émetteur
+* Directement à la sortie de l’émetteur
 * Sans appareils supplémentaires, filtres ou câbles
-* Pour SSB $\rightarrow$ avec modulation
-* Excitation à une ou deux tonalités, mais pas de parole
-* Mesure de la *puissance d'enveloppe maximale* (PEP)
-* Puissance de crête de l'émetteur à modulation maximale
-* Puissance lors de la crête la plus élevée d'une oscillation haute fréquence
+* En BLU → avec modulation
+* Excitation à un ou deux tons, mais pas avec de la voix
+* Mesure de la *puissance d’enveloppe* maximale (PEP)
+* Puissance de crête de l’émetteur à excitation maximale
+* Puissance au sommet le plus élevé d’une oscillation haute fréquence
 
 <note>
-* La parole varie
-* Intéressant pour les classes E et A, car leur puissance maximale admissible dans l'annexe 1 de l'AFuV est indiquée en PEP
+* La voix varie
+* Intéressant pour les classes E et A, car leur puissance maximale autorisée dans l’annexe 1 de l’AFuV est indiquée en PEP
 </note>
 
 ---
-[picture:875:e_senderausgangsleisung_2:Crête la plus élevée de l'enveloppe de modulation]
+[picture:875:e_senderausgangsleisung_2:Sommet le plus élevé de l’enveloppe de modulation]
 ---
 [question:EF401]
 ---
@@ -38,7 +38,7 @@
 ---
 ## Puissance moyenne
 
-* Puissance moyenne d'un émetteur
+* Puissance moyenne d’un émetteur
 
 ---
 [question:EB502]

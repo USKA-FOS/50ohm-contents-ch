@@ -2,45 +2,55 @@
 [picture:804:mischer_linear_vs_nichtlinear:Résistance linéaire et diode non linéaire]
 </margin>
 
-Les courbes caractéristiques de composants ou d'éléments peuvent avoir un caractère linéaire, non linéaire ou partiellement mixte. Par exemple, une résistance a une courbe caractéristique linéaire, tandis que la courbe caractéristique d'une diode est non linéaire [ref:mischer_linear_vs_nichtlinear].
 
-Dans la plage linéaire des courbes caractéristiques, il n'y a pas de distorsion des signaux d'entrée car chaque modification d'un signal d'entrée entraîne une modification proportionnellement égale du signal de sortie. Mathématiquement, cela correspond à un comportement linéaire (addition). Un exemple de courbe caractéristique de commande linéaire est une résistance. Sur les courbes caractéristiques de commande linéaires ou dans la plage linéaire des courbes caractéristiques de commande, **aucun** processus de mélange n'a lieu.
+Les composants et modules peuvent se comporter de manière *linéaire* ou *non linéaire*. Dans un composant linéaire, la grandeur de sortie suit la grandeur d’entrée selon une relation fixe. Une résistance idéale possède par exemple une caractéristique linéaire. En revanche, la caractéristique d’une diode est non linéaire (cf. [ref:mischer_linear_vs_nichtlinear]).
 
-Dans la plage non linéaire des courbes caractéristiques, il y a distorsion des signaux d'entrée car une modification d'un signal d'entrée n'entraîne pas une modification proportionnellement égale d'un signal de sortie. Mathématiquement, cela correspond à un comportement non linéaire dans lequel une multiplication des grandeurs d'entrée a lieu et donc des produits de mélange supplémentaires (dépendant de la forme de la courbe caractéristique) sont générés. Par conséquent, un processus de mélange a toujours lieu dans la plage non linéaire des courbes caractéristiques. Les produits de mélange génèrent toujours des fréquences supplémentaires dans le signal de sortie qui se présentent principalement sous forme de sommes et de différences des fréquences d'entrée dans le signal de sortie.
 
-En pratique, de nombreux produits de mélange indésirables d'ordre supérieur se forment, qui doivent être supprimés de manière ciblée par des mesures techniques telles que le filtrage.
+Pour un processus de mélange, un comportement purement linéaire ne suffit pas. Si plusieurs signaux sont transmis par un circuit linéaire, ils peuvent être amplifiés, atténués ou additionnés, mais ils ne s’influencent pas mutuellement. Aucune nouvelle composante de fréquence n’est ainsi générée.
 
-%TODO ÉVENTUELLEMENT RÉFÉRENCE À D'AUTRES LITTÉRATURES OU ARRIÈRE-PLAN MATHÉMATIQUE
+
+Pour qu’un mélange ait lieu, les signaux d’entrée doivent être combinés. Cela peut par exemple se produire grâce à la caractéristique non linéaire d’une diode ou d’un transistor. Une autre méthode couramment utilisée consiste à allumer et éteindre rapidement le signal d’entrée, ou à le commuter, à l’aide du signal de l’oscillateur. Une telle opération de commutation n’est pas non plus un processus linéaire et provoque la combinaison des deux signaux.
+
+
+C’est précisément cette propriété qui est exploitée de manière ciblée dans un mélangeur. C’est pourquoi les étages de mélange fonctionnent avec des composants non linéaires ou avec des circuits dans lesquels des transistors ou des diodes sont commutés par le signal de l’oscillateur.
+
+En pratique, de nombreux produits de mélange indésirables d’ordre supérieur se forment également. Ceux-ci doivent être supprimés de manière ciblée par des mesures techniques telles que le filtrage.
+
 
 [question:AF212]
 
----
-<margin>
-[picture:805:mischer_ringmischer:Mélangeur équilibré, mélangeur en anneau ou également modulateur en anneau]
-</margin>
 
-L'objectif d'un mélangeur est que seuls les produits de mélange souhaités apparaissent à sa sortie et que les produits de mélange indésirables ainsi que les signaux d'entrée soient supprimés au maximum.
+L’objectif d’un mélangeur est qu’à sa sortie n’apparaissent idéalement que les produits de mélange souhaités, tandis que les produits de mélange indésirables ainsi que les signaux d’entrée sont au maximum supprimés.
 
-On atteint cet objectif au mieux à l'aide d'un mélangeur équilibré. Celui-ci est construit avec 4 diodes ou transistors en circuit en anneau [ref:mischer_ringmischer]. Grâce à sa structure symétrique, les signaux d'entrée sont supprimés au maximum à la sortie. D'autres formes de mélangeurs, comme par exemple les mélangeurs à double diode, les mélangeurs à double transistor ainsi que les mélangeurs à diodes additives, conduisent toujours l'un des signaux d'entrée à la sortie en raison de leur structure non symétrique.
+
+On atteint au mieux cet objectif à l’aide d’un所谓 mélangeur équilibré. Celui-ci est constitué de 4 diodes ou transistors montés en anneau [ref:mischer_ringmischer]. Grâce à sa structure symétrique, les signaux d’entrée sont supprimés au maximum à la sortie. D’autres types de mélangeurs, comme par exemple les mélangeurs à double diode, les mélangeurs à double transistor ou les mélangeurs à diodes additifs, transmettent toujours l’un des signaux d’entrée à la sortie en raison de leur structure asymétrique.
+
 
 <indepth>
-Fonctionnement d'un mélangeur en anneau:
+Fonctionnement d’un mélangeur en anneau :
 
-L'oscillateur local ($U_2$ dans le schéma) rend toujours deux diodes opposées conductrices pendant une demi-onde, tandis que les deux autres diodes sont bloquées. Dans la demi-onde suivante de l'oscillateur local, les rapports s'inversent exactement. Pour cela, l'amplitude de l'oscillateur local ($U_2$) doit être suffisamment élevée pour que les diodes puissent être suffisamment commandées pendant les demi-ondes positives et négatives.
 
-C'est ainsi que l'anneau de diodes fonctionne comme un inverseur de polarité pour le signal appliqué à l'entrée ($U_1$).
-Pour obtenir un bon résultat de mélange en ce qui concerne les produits de mélange indésirables et la suppression du signal d'entrée, son amplitude doit être nettement inférieure à l'amplitude de l'oscillateur local.
-Des valeurs optimales sont obtenues par des mélangeurs en anneau à haut niveau, dont le niveau d'entrée de l'oscillateur local peut se situer dans la plage allant jusqu'à $\qty{10}{\milli\watt}$.
+L’oscillateur local ($U_2$ sur le schéma) commute toujours deux diodes opposées à l’état passant pendant une demi-onde, tandis que les deux autres diodes sont bloquées. Lors de la demi-onde suivante de l’oscillateur local, les conditions s’inversent exactement. Pour cela, l’amplitude de l’oscillateur local ($U_2$) doit être suffisamment élevée pour que les diodes puissent être suffisamment polarisées pendant les demi-ondes positives et négatives.
+
+
+Ainsi, le montage en anneau de diodes fonctionne comme un inverseur de polarité pour le signal présent à l’entrée ($U_1$).
+Pour obtenir un bon résultat de mélange en termes de produits de mélange indésirables et de suppression du signal d’entrée, son amplitude doit être nettement inférieure à celle de l’oscillateur local.
+Les valeurs optimales sont atteintes avec les所谓 mélangeurs en anneau à haut niveau, dont le niveau d’entrée de l’oscillateur local peut atteindre jusqu’à $\qty{10}{\milli\watt}$.
+
+<webonly>
+[include:applet_ringmodulator]
+</webonly>
+<latexonly>
+[picture:805:mischer_ringmischer:Mélangeur équilibré, mélangeur en anneau ou modulateur en anneau]
+</latexonly>
 </indepth>
 
 <tip>
-Il est important de pouvoir distinguer le mélangeur en anneau du circuit d'un redresseur à diodes, qui a une apparence très similaire, par le fait que les diodes du mélangeur en anneau sont connectées en série en anneau (cathode respectivement connectée à l'anode suivante de la diode suivante). Dans le cas du redresseur, en revanche, 2 cathodes et 2 anodes sont toujours connectées.
+Il est important de pouvoir distinguer un mélangeur en anneau d’un circuit redresseur à diodes, qui lui ressemble beaucoup, par le fait que dans un mélangeur en anneau, les diodes sont montées en série en anneau (la cathode de chaque diode étant reliée à l’anode de la diode suivante). Dans un redresseur, en revanche, ce sont toujours deux cathodes et deux anodes qui sont reliées entre elles.
 </tip>
-  
-Le mélangeur équilibré, également appelé mélangeur en anneau ou modulateur en anneau, est le mieux adapté pour supprimer les signaux de sortie indésirables.
 
-% FEEDBACK: Comment cela fonctionne-t-il? Cela n'est pas clair! De plus: indication de la confusion avec le redresseur en pont!
-% RÉPONSE AU FEEDBACK: Nous avons complété l'article par un conseil et une approfondissement concernant les points abordés.
+Le mélangeur équilibré, également appelé mélangeur en anneau ou modulateur en anneau, est le plus adapté pour supprimer les signaux de sortie indésirables.
+
 
 [question:AF213]
 [question:AF214]

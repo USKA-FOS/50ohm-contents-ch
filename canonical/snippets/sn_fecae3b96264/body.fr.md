@@ -1,1 +1,1 @@
-Vers la carte de parrainage
+Vers la carte de patente

@@ -1,45 +1,50 @@
 <left>
-* Composés d'un conducteur intérieur et extérieur
-* Boîtier extérieur connecté au conducteur extérieur
-* Conducteur intérieur connecté à une broche de contact ou à une ouverture de contact
-* Liaison par soudure ou sertissage
+* Composés d’un conducteur intérieur et d’un conducteur extérieur
+* Le boîtier extérieur est relié au conducteur extérieur
+* Le conducteur intérieur est relié à une broche de contact ou à une ouverture de contact
+* Connexion par soudure ou sertissage
 </left>
 <right>
-* *Connecteur*: Broche de contact vers l'extérieur
-* *Coupleur*: Ouverture de contact vers l'intérieur
-* Forme spéciale *prise*: Coupleur intégré dans l'appareil
+* *Fiche* : broche de contact vers l’extérieur
+* *Connecteur femelle* : ouverture de contact vers l’intérieur
+* Forme spéciale *douille* : connecteur femelle intégré à l’appareil
+* Forme spéciale *fiche encastrable* : fiche intégrée à l’appareil
 </right>
 
 ---
 
-Connecteurs coaxiaux courants en radioamateur
+### Connecteurs coaxiaux courants en radioamateurisme
 
 <left>
 * PL
 * N
-</left>
-<right>
 * BNC
 * SMA
+</left>
+<right>
+Selon l’usage prévu
+* Bande de fréquences
+* Puissance d’émission
+* Type de câble
 </right>
 
 <note>
-* seront expliqués plus en détail dans les sections suivantes
-* Ces 4 connecteurs coaxiaux suffisent pour l'examen – en pratique, il y en a encore plus en usage
+* Explication détaillée dans les sections suivantes
+* Ces 4 connecteurs coaxiaux suffisent pour l’examen – en pratique, d’autres sont utilisés
 </note>
 
 ---
 
-## Conseils d'utilisation
+## Conseils d’utilisation
 
 <left>
-* Manipulation soigneuse
-* Visser fermement
-* Le conducteur intérieur peut se casser
+* Manipulation prudente
+* Serrage ferme
+* La broche intérieure peut se casser
 * Le blindage peut se déplacer
-* Vérifier éventuellement le court-circuit
+* Vérifier éventuellement l’absence de court-circuit
 </left>
 <right>
-* Utiliser un connecteur adapté à l'épaisseur du câble
-* Utiliser un connecteur adapté au diamètre du câble
+* Utiliser une fiche adaptée au diamètre/épaisseur du câble
+* Impédance caractéristique identique à celle du câble coaxial $\rightarrow$ évite les réflexions indésirables
 </right>

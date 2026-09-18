@@ -1,6 +1,7 @@
-Ici, nous utilisons la formule de l'oscillateur de Thomson :
+Ici, nous utilisons la formule du circuit oscillant de Thomson :
 
 $f = \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}$
+
 
 Avec les valeurs insérées : 
 

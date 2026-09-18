@@ -11,11 +11,12 @@ $f = \dfrac{c_0}{\lambda}$
 ---
 ## Approche mathématique
 
-$\lambda = \dfrac{c_0}{f}$ doit être réarrangé pour $f$.
+On souhaite isoler $f$ dans l’équation
+$\lambda = \dfrac{c_0}{f}$.
 
 ---
-#### 1. Étape
-Multiplication des deux côtés par $f$, pour l'obtenir à gauche.
+#### 1<sup>re</sup> étape
+Multiplier les deux côtés par $f$ pour faire passer ce terme à gauche.
 
 <fragment>
 $\lambda = \dfrac{c_0}{f} \quad\quad\quad | \cdot f$
@@ -29,13 +30,13 @@ $\lambda \cdot f = c_0$
 </fragment>
 
 <note>
-* $|~\cdot f$ signifie que l'opération est effectuée des deux côtés
-* $f$ divisé par $f$ donne 1, donc on peut simplifier
+* $|~\cdot f$ signifie que l’opération est appliquée des deux côtés
+* $f$ divisé par $f$ donne 1, ce qui permet la simplification
 </note>
 
 ---
-#### 2. Étape
-Division des deux côtés par $\lambda$, pour l'obtenir à droite.
+#### 2<sup>e</sup> étape
+Diviser les deux côtés par $\lambda$ pour isoler $f$ à droite.
 
 <fragment>
 $\lambda \cdot f = c_0 \quad\quad\quad |: \lambda$

@@ -1,5 +1,5 @@
-## Préface
+## Avant-propos
 
-* Ce jeu de diapositives est basé sur le cours en ligne sur [50Ohm.de](https://50ohm.de)
-* Chaque chapitre est un jeu de diapositives avec plusieurs sections
-* Les sections sont disposées comme des diapositives verticales
+* Cet ensemble de diapositives est basé sur le cours en ligne disponible sur [50Ohm.de](https://50ohm.de)
+* Chaque chapitre est présenté sous forme d’un ensemble de diapositives avec plusieurs sections
+* Les sections sont organisées sous forme de diapositives verticales

@@ -1,12 +1,12 @@
 Les matériaux peuvent être classés en trois groupes :
 
 1. Conducteurs
-2. Non-conducteurs
+2. Isolants
 3. Semi-conducteurs
 
 <note>
-* Les conducteurs et les non-conducteurs sont abordés dans les diapositives suivantes
-* Les semi-conducteurs sont abordés plus tard dans la section après les résistances
+* Les conducteurs et les isolants seront abordés dans les prochaines diapositives
+* Les semi-conducteurs seront traités plus tard dans la section consacrée aux résistances
 </note>
 
 ---
@@ -18,7 +18,9 @@ Les matériaux peuvent être classés en trois groupes :
 * Certains conduisent mieux le courant que d'autres
 
 <note>
-* L'eau salée peut également conduire le courant
+* Même l'eau salée peut conduire le courant
+* La conductivité dépend de la structure atomique et du nombre d'électrons libres
+* La *résistance* est l'inverse de la conductivité : les matériaux très conducteurs ont une faible résistance, les mauvais conducteurs une résistance élevée
 </note>
 
 --- style="font-size: 0.7em;"
@@ -33,11 +35,11 @@ Les matériaux peuvent être classés en trois groupes :
 | 5 | Tungstène |
 | 6 | Zinc |
 | 7 | *Étain* |
-[table:conducteurs:Quelques matériaux conducteurs]
+[table:leiter:Quelques matériaux conducteurs]
 
 <note>
-* L'étain est utilisé pour le soudage en raison de son point de fusion bas
-* Retenir l'ordre Argent, Cuivre, Étain pour les questions d'examen
+* L'étain est utilisé pour le soudage car il a un point de fusion bas
+* Pour les questions d'examen, retenez l'ordre : argent, cuivre, étain
 </note>
 
 ---
@@ -50,26 +52,26 @@ Les matériaux peuvent être classés en trois groupes :
 
 ---
 
-## Non-conducteurs
+## Isolants
 
 * Ne conduisent pas le courant électrique
-* Également appelés *isolants*
+* Appelés aussi *isolateurs*
 
 --- style="font-size: 0.7em;"
 
-### Isolants
+### Isolateurs
 
-| l: Désignation | l: Abréviation |
+| l:Désignation | l:Abbréviation |
 | *Porcelaine* | |
 | *Polyéthylène* | *PE* |
 | *Polystyrène* | *PS* |
 | Liège | |
 | Polychlorure de vinyle | PVC |
 | Polytétrafluoroéthylène | PTFE |
-[table:non-conducteurs:Quelques matériaux non conducteurs]
+[table:nichtleiter:Quelques matériaux isolants]
 
 <note>
-* La porcelaine est utilisée comme isolant sur les lignes à haute tension
+* La porcelaine est utilisée comme isolateur sur les lignes à haute tension
 </note>
 
 ---

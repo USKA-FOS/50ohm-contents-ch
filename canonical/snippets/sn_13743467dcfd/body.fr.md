@@ -1,1 +1,1 @@
-Nos parrains de formation sont des radioamateurs expérimentés qui vous soutiendront volontiers. Ils peuvent également pratiquer avec vous l'exploitation pratique des radioamateurs.
+Nos parrains de formation sont des radioamateurs expérimentés qui se feront un plaisir de t'accompagner et de t'aider à pratiquer la radio.

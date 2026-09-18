@@ -1,11 +1,18 @@
-* Si la station correspondante semble trop haute ou trop basse en SSB $\rightarrow$ corriger la *fréquence de réception*
-* Pour cela, utiliser le régulateur *RIT* (Receiver Incremental Tuning)
-* Si la *fréquence d'émission* est modifiée, je ne suis pas bien compris par la station correspondante
-* Si les deux stations changent chaque fois la fréquence d'émission, cela entraîne un "déplacement sur la bande"
+* Si, en BLU, la station correspondante semble trop aiguë ou trop grave, corriger la *fréquence de réception*
+* Utiliser pour cela le régulateur *RIT* (Receiver Incremental Tuning)
+  * Sur certains appareils radio, appelé "Clarifier" ou "CLAR RX"
+* Si la *fréquence d’émission* est mal réglée, la station correspondante m’entend mal
+* Cela est dû à des oscillateurs peu précis dans les appareils radio ou à des erreurs d’affichage de fréquence
+* Si les deux stations modifient constamment la fréquence d’émission, cela donne l’impression de "se déplacer sur la bande"
 
-<note>
-* La cause est des circuits oscillants pas tout à fait précis dans les appareils radio ou des erreurs d'affichage de fréquence
-</note>
+---
+
+## Sens de réglage
+
+* En USB
+  * Voix trop aiguë → augmenter la fréquence de réception
+  * Voix trop grave → la diminuer
+* En LSB, c’est l’inverse, car les fréquences vocales sont inversées
 
 ---
 [question:NF111]
@@ -14,7 +21,7 @@
 ## RIT en AM et FM
 
 * Non nécessaire
-* Disposent d'une porteuse utilisée pour la démodulation
+* Ces modes disposent d’une porteuse utilisée pour la démodulation
 
 ---
 [question:NF112]

@@ -1,6 +1,6 @@
 ## Fréquence de coupure
 
-Pour les passe-haut et passe-bas, la fréquence de coupure est donnée par
+Pour les filtres passe-haut et passe-bas, la fréquence de coupure est définie par :
 
 <left>
 Pour les circuits RL
@@ -17,7 +17,7 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C}$
 ---
 [question:AD201]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $R = \qty{4,7}{\kilo\ohm}$
 * donné : $C = \qty{2,2}{\nano\farad}$
 * recherché : $f_\text{g}$
@@ -28,7 +28,7 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C} = \frac{1}{2 \pi \cdot \qty{4,7}{\
 ---
 [question:AD202]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $R = \qty{10}{\kilo\ohm}$
 * donné : $C = \qty{47}{\nano\farad}$
 * recherché : $f_\text{g}$
@@ -39,13 +39,13 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C} = \frac{1}{2 \pi \cdot \qty{10}{\k
 ---
 [question:AD203]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $R_1 = \qty{4,7}{\kilo\ohm}$
 * donné : $C_1 = \qty{6,8}{\nano\farad}$
 * recherché : $f_\text{g}$
 
 <fragment>
-$C_2$ et toutes les autres indications sont sans intérêt pour le filtre passe-bas.
+$C_2$ et toutes les autres données sont sans importance pour le filtre passe-bas.
 </fragment>
 
 <fragment>
@@ -54,32 +54,32 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R_1 \cdot C_1} = \frac{1}{2 \pi \cdot \qty{4,
 ---
 ## Fréquence de résonance
 
-* Circuit série ou parallèle d'une bobine et d'un condensateur $\rightarrow$ circuit oscillant
-* Hautes fréquences $\rightarrow$ haute résistance sur la bobine
-* Basses fréquences $\rightarrow$ haute résistance sur le condensateur
-* Il existe une fréquence à laquelle la bobine et le condensateur ont la même résistance $\rightarrow$ *fréquence de résonance*
+* Montage en parallèle ou en série d’une bobine et d’un condensateur → circuit oscillant
+* Hautes fréquences → impédance élevée de la bobine
+* Basses fréquences → impédance élevée du condensateur
+* Il existe une fréquence pour laquelle la bobine et le condensateur présentent la même impédance → *fréquence de résonance*
 
 ---
 [question:AD206]
 --- style="font-size: smaller;"
 ## Circuit oscillant parallèle
 
-[picture:233:a_schwingkreis_parallelschwingkreis:Circuit oscillant parallèle et représentation de l'impédance en fonction de la fréquence]
+[picture:233:a_schwingkreis_parallelschwingkreis:Circuit oscillant parallèle et représentation de l’impédance en fonction de la fréquence]
 
-* Les composants idéaux se chargent constamment
-* Théoriquement, l'impédance à la fréquence de résonance est infiniment élevée
-* Pratiquement, le composant avec la plus faible résistance détermine l'impédance totale
-* À des fréquences supérieures et inférieures à la fréquence de résonance, le circuit oscillant parallèle a une impédance plus faible
+* Les composants idéaux se chargent et se déchargent en permanence
+* En théorie, l’impédance à la fréquence de résonance est infiniment élevée
+* En pratique, c’est le composant présentant la plus faible résistance qui détermine l’impédance totale
+* Aux fréquences supérieures ou inférieures à la fréquence de résonance, l’impédance du circuit oscillant parallèle est plus faible
 
 --- style="font-size: smaller;"
 ## Circuit oscillant série
 
-[picture:230:a_schwingkreis_reihenschwingkreis:Circuit oscillant série et représentation de l'impédance en fonction de la fréquence]
+[picture:230:a_schwingkreis_reihenschwingkreis:Circuit oscillant série et représentation de l’impédance en fonction de la fréquence]
 
-* Ou circuit oscillant série
-* Théoriquement, l'impédance à la fréquence de résonance est $\qty{0}{\ohm}$
-* Pratiquement, l'impédance est déterminée par la résistance ohmique
-* À des fréquences supérieures et inférieures à la fréquence de résonance, le circuit oscillant série a une impédance plus élevée
+* Ou circuit oscillant en série
+* En théorie, l’impédance à la fréquence de résonance est de $\qty{0}{\ohm}$
+* En pratique, l’impédance est déterminée par la résistance ohmique
+* Aux fréquences supérieures ou inférieures à la fréquence de résonance, l’impédance du circuit oscillant série est plus élevée
 
 ---
 [question:AD207]
@@ -92,10 +92,10 @@ Pour les circuits oscillants parallèle et série :
 
 $X_\text{C} = X_\text{L}$
 
-Les impédances sont égales.
+Les impédances sont de même valeur.
 
 <fragment>
-Fréquence de résonance avec la formule de Thomson pour le circuit oscillant :
+Fréquence de résonance selon la formule du circuit oscillant de Thomson :
 
 $f_0 = \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}$
 </fragment>
@@ -108,7 +108,7 @@ William Thomson, plus tard Lord Kelvin, en 1853
 
 [question:AD208]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $L = \qty{1,2}{\micro\henry}$
 * donné : $C = \qty{6,8}{\pico\farad}$
 * donné : $R = \qty{10}{\ohm}$
@@ -118,12 +118,12 @@ William Thomson, plus tard Lord Kelvin, en 1853
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{1,2}{\micro\henry} \cdot \qty{6,8}{\pico\farad}}} \approx \qty{55,7}{\mega\hertz} \end{split}$
 </fragment>
 <fragment>
-La résistance $R$ n'est pas nécessaire pour le calcul.
+La résistance $R$ n’est pas nécessaire pour le calcul.
 </fragment>
 ---
 [question:AD209]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $L = \qty{10}{\micro\henry}$
 * donné : $C = \qty{1}{\nano\farad}$
 * recherché : $f_0$
@@ -134,7 +134,7 @@ $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi
 ---
 [question:AD210]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $L = \qty{100}{\micro\henry}$
 * donné : $C = \qty{0,01}{\micro\farad}$
 * recherché : $f_0$
@@ -145,7 +145,7 @@ $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi
 ---
 [question:AD211]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $L = \qty{2,2}{\micro\henry}$
 * donné : $C = \qty{56}{\pico\farad}$
 * recherché : $f_0$
@@ -156,7 +156,7 @@ $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi
 ---
 [question:AD212]
 --- style="font-size: 0.7em;"
-#### Solution
+#### Méthode de résolution
 * donné : $C_1 = \qty{0,1}{\nano\farad}$
 * donné : $C_2 = \qty{1,5}{\nano\farad}$
 * donné : $C_3 = \qty{220}{\pico\farad}$
@@ -170,16 +170,16 @@ $C = C_1 + C_2 + C_3 = \qty{0,1}{\nano\farad} + \qty{1,5}{\nano\farad} + \qty{22
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{1,2}{\milli\henry} \cdot \qty{1,82}{\nano\farad}}} \approx \qty{107,7}{\kilo\hertz} \end{split}$
 </fragment>
 ---
-### Changer la fréquence de résonance
+### Modification de la fréquence de résonance
 
-* Plus grande bobine ou condensateur $\rightarrow$ plus petite fréquence de résonance
-* Plus petite bobine ou condensateur $\rightarrow$ plus grande fréquence de résonance
+* Bobine ou condensateur plus grand → fréquence de résonance plus basse
+* Bobine ou condensateur plus petit → fréquence de résonance plus élevée
 
 <fragment>
-Augmenter l'inductance
+Augmenter l’inductance
 * Augmenter le nombre de spires
-* Pousser ensemble
-* Introduire un noyau de ferrite
+* Resserrer les spires
+* Introduire un noyau en ferrite
 
 </fragment>
 
@@ -194,13 +194,13 @@ Augmenter l'inductance
 ---
 [question:AD217]
 ---
-### Circuit oscillant commandé en tension
+### Circuit oscillant commandé par tension
 
-[picture:752:a_schwingkreis_potentiometer:Changement de la capacité par un varicap]
+[picture:752:a_schwingkreis_potentiometer:Modification de la capacité par une varicap]
 
-* Le varicap est modifié par une tension de commande sur le diviseur de tension
-* Plus petite tension sur le varicap $\rightarrow$ plus petite couche de jonction dans le varicap $\rightarrow$ plus grande capacité
-* Condensateurs en série $\rightarrow$ la capacité diminue $\rightarrow$ la fréquence de résonance augmente
+* La varicap est modifiée par une tension de commande appliquée au diviseur de tension résistif
+* Tension plus faible aux bornes de la varicap → jonction plus fine dans la varicap → capacité plus grande
+* Condensateurs montés en série → capacité plus faible → fréquence de résonance plus élevée
 
 ---
 [question:AD218]
@@ -210,57 +210,57 @@ Augmenter l'inductance
 [picture:785:a_schwingkreis_bandpass:Filtre passe-bande composé de plusieurs circuits oscillants]
 
 * Combinaison de circuits oscillants parallèle et série
-* Laisse passer une certaine bande de fréquences
-* Circuits oscillants parallèles comme des résistances haute impédance
-* Circuit oscillant série comme une résistance basse impédance
+* Laisse passer une bande de fréquences spécifique
+* Les circuits oscillants parallèles se comportent comme des résistances de forte valeur
+* Le circuit oscillant série se comporte comme une résistance de faible valeur
 
 ---
 [question:AD205]
 ---
 ## Bande passante
 
-* Grande dépendance de la résistance ohmique
-* Indiquée en dB par rapport à une valeur de référence du filtre
-* Par exemple, *bande passante* à la valeur de *$\qty{-3}{\dB}$*
-* La moitié de la puissance d'un signal peut encore passer le filtre
-* Ou la tension de signal $\num{0,7}$-fois plus faible
+* Forte dépendance à la résistance ohmique
+* Exprimée en dB par rapport à une valeur de référence du filtre
+* Ex. : *bande passante* à la valeur de $\qty{-3}{\dB}$
+* Une puissance de signal réduite de moitié peut encore traverser le filtre
+* Ou une tension de signal égale à 0,7 fois la tension initiale
 
 ---
 [question:AD219]
 ---
 [question:AD220]
 ---
-### Bandes passantes habituelles
+### Bandes passantes courantes
 
-* Bande étroite avec $\qty{500}{\hertz}$ pour la télégraphie (CW)
-* Bande large avec $\qty{2,7}{\kilo\hertz}$ pour la modulation vocale (SSB)
+* Bande étroite de $\qty{500}{\hertz}$ pour la télégraphie (CW)
+* Bande large de $\qty{2,7}{\kilo\hertz}$ pour la modulation vocale (SSB)
 
 ---
 [question:AD221]
 ---
 [question:AD222]
 ---
-## Qualité d'un circuit oscillant
+## Facteur de qualité d’un circuit oscillant
 
-* Aussi facteur Q
-* Caractéristique de la perte d'énergie
-* Rapport des résistances réactives à la résistance ohmique en cas de résonance ($X_\text{L} = X_\text{C}$)
+* Ou facteur Q
+* Caractérise les pertes d’énergie
+* Rapport des réactances à la résistance ohmique en cas de résonance ($X_\text{L} = X_\text{C}$)
 
 <fragment>
 <left>
 Circuit oscillant série
-$Q = \frac{f_0}{B} = \frac{X_\text{L}}{R_\text{S}}$
+$Q = \frac{f_0}{BP} = \frac{X_\text{L}}{R_\text{S}}$
 </left>
 <right>
 Circuit oscillant parallèle
-$Q = \frac{f_0}{B} = \frac{R_\text{P}}{X_\text{L}}$
+$Q = \frac{f_0}{BP} = \frac{R_\text{P}}{X_\text{L}}$
 </right>
 </fragment>
   
 ---
 [question:AD225]
 --- style="font-size: 0.7em;"
-#### Solution
+#### Méthode de résolution
 <left>
 * donné : $L = \qty{100}{\micro\henry}$
 * donné : $C = \qty{0,01}{\micro\farad}$
@@ -271,10 +271,11 @@ $Q = \frac{f_0}{B} = \frac{R_\text{P}}{X_\text{L}}$
 </right>
 
 <fragment>
+Calculer d’abord $f_0$
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{100}{\micro\henry} \cdot \qty{0,01}{\micro\farad}}} \approx \qty{159,2}{\kilo\hertz} \end{split}$
 </fragment>
 <fragment>
-Calculer $B$ ou $X_\text{L}$
+Calculer ensuite $BP$ ou $X_\text{L}$
 $\begin{split} X_\text{L} &= \omega \cdot L = 2 \pi \cdot f_0 \cdot L\\ &= 2 \pi \cdot \qty{159,2}{\kilo\hertz} \cdot \qty{100}{\micro\henry} \approx \qty{100,03}{\ohm} \end{split}$
 </fragment>
 <fragment>
@@ -283,7 +284,7 @@ $Q = \frac{X_\text{L}}{R_\text{S}} = \frac{\qty{100,03}{\ohm}}{\qty{10}{\ohm}} \
 ---
 [question:AD226]
 --- style="font-size: 0.7em;"
-#### Solution
+#### Méthode de résolution
 <left>
 * donné : $L = \qty{2,2}{\micro\henry}$
 * donné : $C = \qty{56}{\pico\farad}$
@@ -292,88 +293,89 @@ $Q = \frac{X_\text{L}}{R_\text{S}} = \frac{\qty{100,03}{\ohm}}{\qty{10}{\ohm}} \
 * donné : $R_\text{P} = \qty{1}{\kilo\ohm}$
 * recherché : $Q$
 </right>
-  
+
 <fragment>
+Calculer d’abord $f_0$
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{2,2}{\micro\henry} \cdot \qty{56}{\pico\farad}}} \approx \qty{14,34}{\mega\hertz} \end{split}$
 </fragment>
 <fragment>
-Calculer $B$ ou $X_\text{L}$
+Calculer ensuite $BP$ ou $X_\text{L}$
 $\begin{split} X_\text{L} &= \omega \cdot L = 2 \pi \cdot f_0 \cdot L\\ &= 2 \pi \cdot \qty{14,34}{\mega\hertz} \cdot \qty{2,2}{\micro\henry} \approx \qty{198,2}{\ohm} \end{split}$
 </fragment>
 <fragment>
 $Q = \frac{R_\text{P}}{X_\text{L}} = \frac{\qty{1}{\kilo\ohm}}{\qty{198,2}{\ohm}} \approx 5$
 </fragment>
 ---
-### Calculer la bande passante
+### Calcul de la bande passante
 
-Par la fréquence de résonance et la qualité
+À partir de la fréquence de résonance et du facteur de qualité
 
-$Q = \frac{f_0}{B} \Rightarrow B = \frac{f_0}{Q}$
+$Q = \frac{f_0}{BP} \Rightarrow BP = \frac{f_0}{Q}$
 
 <fragment>
-Ou en utilisant la formule de Thomson pour le circuit oscillant
+Ou en utilisant la formule du circuit oscillant de Thomson
 
 <left>
 Circuit oscillant série
-$B = \frac{R_\text{S}}{2 \pi \cdot L}$
+$BP = \frac{R_\text{S}}{2 \pi \cdot L}$
 </left>
 <right>
 Circuit oscillant parallèle
-$B = \frac{1}{2 \pi \cdot R_\text{P} \cdot C}$
+$BP = \frac{1}{2 \pi \cdot R_\text{P} \cdot C}$
 </right>
 </fragment>
 <note>
-La dérivation n'est pas montrée
+Démonstration non présentée
 </note>
 
 ---
 [question:AD224]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $L = \qty{2,2}{\micro\henry}$
 * donné : $C = \qty{56}{\pico\farad}$
 * donné : $R_\text{P} = \qty{1}{\kilo\ohm}$
-* recherché : $B$
+* recherché : $BP$
 
 <fragment>
-$\begin{split} B &= \frac{1}{2 \pi \cdot R_\text{P} \cdot C}\\ &= \frac{1}{2 \pi \cdot \qty{1}{\kilo\ohm} \cdot \qty{56}{\pico\farad}} \approx \qty{2,84}{\mega\hertz} \end{split}$
+$\begin{split} BP &= \frac{1}{2 \pi \cdot R_\text{P} \cdot C}\\ &= \frac{1}{2 \pi \cdot \qty{1}{\kilo\ohm} \cdot \qty{56}{\pico\farad}} \approx \qty{2,84}{\mega\hertz} \end{split}$
 </fragment>
 
 ---
 [question:AD223]
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $L = \qty{100}{\micro\henry}$
 * donné : $C = \qty{0,01}{\micro\farad}$
 * donné : $R_\text{S} = \qty{10}{\ohm}$
-* recherché : $B$
+* recherché : $BP$
 
 <fragment>
-$B = \frac{R_\text{S}}{2 \pi \cdot L} = \frac{\qty{10}{\ohm}}{2 \pi \cdot \qty{100}{\micro\henry}} \approx \qty{15,9}{\kilo\hertz}$
+$BP = \frac{R_\text{S}}{2 \pi \cdot L} = \frac{\qty{10}{\ohm}}{2 \pi \cdot \qty{100}{\micro\henry}} \approx \qty{15,9}{\kilo\hertz}$
 </fragment>
 --- style="font-size: 0.7em;" data-transition="none"
 ## Couplage
 
-[picture:184:a_schwingkreis_kopplung:Couplage inductif de deux circuits oscillants et le diagramme de tension en fonction de la fréquence]
+[picture:184:a_schwingkreis_kopplung:Couplage inductif de deux circuits oscillants et diagramme de tension en fonction de la fréquence]
 
-* Entre les étages de circuit ou les filtres, on utilise souvent des circuits oscillants couplés
-* Deux circuits oscillants couplés inductivement ou capacitivement
-* Le degré de couplage détermine l'influence mutuelle, la bande passante et la courbe de passage
-
---- style="font-size: 0.7em;" data-transition="none"
-[picture:184:a_schwingkreis_kopplung:Couplage inductif de deux circuits oscillants et le diagramme de tension en fonction de la fréquence]
-
-* d: *couplage lâche* $\rightarrow$ influence mutuelle négligeable, atténuation de passage très élevée et bande passante très faible
-* c: *couplage sous-critique* $\rightarrow$ influence mutuelle négligeable, atténuation de passage élevée et bande passante faible
+* Les circuits oscillants couplés sont souvent utilisés entre les étages de circuits ou dans les filtres
+* Deux circuits oscillants couplés par induction ou par capacité
+* Le degré de couplage détermine l’influence mutuelle, la bande passante et la courbe d’atténuation
 
 --- style="font-size: 0.7em;" data-transition="none"
-[picture:184:a_schwingkreis_kopplung:Couplage inductif de deux circuits oscillants et le diagramme de tension en fonction de la fréquence]
+[picture:184:a_schwingkreis_kopplung:Couplage inductif de deux circuits oscillants et diagramme de tension en fonction de la fréquence]
 
-* b: *couplage critique* $\rightarrow$ influence mutuelle quelque peu, courbe de passage plate avec faible atténuation et plateau dans la zone de passage ainsi qu'une bonne bande passante
+* d : *couplage lâche* → influence mutuelle quasi nulle, forte atténuation d’insertion et bande passante très étroite
+* c : *couplage sous-critique* → influence mutuelle quasi nulle, atténuation d’insertion élevée et bande passante étroite
 
 --- style="font-size: 0.7em;" data-transition="none"
-[picture:184:a_schwingkreis_kopplung:Couplage inductif de deux circuits oscillants et le diagramme de tension en fonction de la fréquence]
-* a: *couplage surcritique* $\rightarrow$ forte influence mutuelle, modification des fréquences de résonance, grande bande passante et distorsion de la courbe de passage dans la zone de passage avec "creux"
+[picture:184:a_schwingkreis_kopplung:Couplage inductif de deux circuits oscillants et diagramme de tension en fonction de la fréquence]
+
+* b : *couplage critique* → influence mutuelle modérée, courbe d’atténuation plate avec faible atténuation et plateau dans la bande passante ainsi qu’une bonne bande passante
+
+--- style="font-size: 0.7em;" data-transition="none"
+[picture:184:a_schwingkreis_kopplung:Couplage inductif de deux circuits oscillants et diagramme de tension en fonction de la fréquence]
+* a : *couplage surcritique* → influence mutuelle forte, modification des fréquences de résonance, grande bande passante et distorsion de la courbe d’atténuation dans la bande passante avec des "creux"
 
 ---
 [question:AD227]

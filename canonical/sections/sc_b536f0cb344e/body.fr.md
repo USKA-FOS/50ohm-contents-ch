@@ -1,55 +1,51 @@
-Pour la communication par radiotélétype entre stations de radioamateurs, il existe diverses procédures. Pour qu'une liaison soit établie, les deux partenaires de communication doivent utiliser la même procédure de transmission et les mêmes paramètres. Cela est d'autant plus vrai que les procédures ne sont pas toutes associées à des bandes de fréquences univoques.
+Pour la communication par radiotélétype entre stations de radioamateurisme, il existe divers procédés. Pour qu'une liaison s'établisse, les deux partenaires de communication doivent utiliser la même méthode de transmission et les mêmes paramètres. Cela est d'autant plus important que tous les procédés n'ont pas de bandes de fréquences clairement attribuées.
 
-%[photo:0:n_funkfernschreiben_telegraphie_20m:Morsetelegrafie, FT8 und FT4 im $\qty{20}{\meter}$-Band]
-%[photo:0:n_funkfernschreiben_digimodes:Häufig verwendete Digimodes von K1JT vergrößert im Wasserfalldiagramm]
-%[photo:0:n_funkfernschreiben_olivia:Ausschnitt aus einer Olivia-Aussendung im Wasserfalldiagramm]
-%[photo:0:n_funkfernschreiben_fm:Musterbild FM]
-%[photo:0:n_funkfernschreiben_am:Musterbild AM]
-%[photo:0:n_funkfernschreiben_ft8:Ein FT8-Signal bei $\qty{1500}{\hertz}$ oberhalb der eingestellten Frequenz]
-%[photo:0:n_funkfernschreiben_ft8_20m:Mehrere FT8-Signale in einem SSB-Kanal im $\qty{20}{\meter}$-Band]
+%[photo:0:n_funkfernschreiben_telegraphie_20m:Morsetélégraphie, FT8 et FT4 dans la bande des $\qty{20}{\meter}$]
+%[photo:0:n_funkfernschreiben_digimodes:Procédés numériques fréquemment utilisés de K1JT agrandis dans le diagramme en cascade]
+%[photo:0:n_funkfernschreiben_olivia:Extrait d'une émission Olivia dans le diagramme en cascade]
+%[photo:0:n_funkfernschreiben_fm:Image type FM]
+%[photo:0:n_funkfernschreiben_am:Image type AM]
+%[photo:0:n_funkfernschreiben_ft8:Un signal FT8 à $\qty{1500}{\hertz}$ au-dessus de la fréquence réglée]
+%[photo:0:n_funkfernschreiben_ft8_20m:Plusieurs signaux FT8 dans un canal BLU dans la bande des $\qty{20}{\meter}$]
 
 [question:NE401]
 
-L'exécution d'une liaison télégraphique se déroule de manière similaire dans le cas de la télégraphie Morse et avec l'ordinateur, comme dans le cas de la radiotéléphonie, mais avec certaines abréviations. Ces abréviations simplifient l'exécution et réduisent la durée de transmission. Il existe également les soi-disant groupes Q. Il s'agit d'abréviations uniformes dans le monde entier, composées de trois lettres, qui commencent toujours par la lettre Q. Nous y reviendrons dans le chapitre Q-Gruppen und Locator.
+La réalisation d'une liaison en télégraphie s'effectue aussi bien en morse qu'avec l'ordinateur de manière similaire à la radiotéléphonie, mais avec certaines abréviations. Ces abréviations simplifient la réalisation et raccourcissent la durée de transmission. Il existe également les groupes Q. Il s'agit d'abréviations standardisées à trois lettres commençant toujours par la lettre Q. Nous abordons ce sujet dans le chapitre Groupes Q et Locator.
 
 [question:BB101]
 
 ---
 
-Sur le côté est représenté un déroulement habituel d'une courte liaison télégraphique. La signification qui se cache derrière peut être déchiffrée avec le tableau [ref:n_funkfernschreiben_abkuerzungen].
+Sur le côté est représenté un déroulement typique d'une brève liaison en télégraphie. Le tableau [ref:n_funkfernschreiben_abkuerzungen] permet de déchiffrer la signification des abréviations.
 
 <qso>
-CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
-> DL2AB DE DL1PZ K
-DL1PZ DE DL2AB = UR RST 599 599 = DL1PZ DE DL2AB K
-> DL2AB DE DL1PZ = TNX RPRT, UR 479 479 BK
-BK QSL = VY 73 DE DL2AB SK
-> R 73 DE DL1PZ SK
+CQ CQ CQ DE HB3AB HB3AB HB3AB PSE K
+> HB3AB DE HB9PZ K
+HB9PZ DE HB3AB = UR RST 599 599 = HB9PZ DE HB3AB K
+> HB3AB DE HB9PZ = TNX RPRT, UR 479 479 BK
+BK QSL = VY 73 DE HB3AB SK
+> R 73 DE HB9PZ SK
 </qso>
 
 <webmargin>
 | l: | X: |
-| Abkz. | Bedeutung |
-| BK | Unterbrechung der Sendung; Formlose Übergabe |
-| CQ | Allgemeiner Anruf |
-| DE | von |
-| K | Aufforderung zum Senden |
-| PSE | Bitte (vom Englischen "Please") |
-| QSL | Ich bestätige den Empfang |
-| R | Received (Empfangsbestätigung) |
-| RPRT | Rapport (vom Englischen "Report") |
-| RST | RST-Rapport |
-| SK | Ende der Verbindung (vom Englischen "Silent Key") |
-| TNX | Danke (vom Englischen "Thanks") |
-| UR | du bist (im Sinne von "dein Signal ist", vom Englischen "you are") |
-| VY | sehr (vom Englischen "very") |
-| 73 | viele Grüße |
-| = | Trennzeichen |
-[table:n_funkfernschreiben_abkuerzungen:Betriebliche Abkürzungen in der Telegrafie]
+| Abrév. | Signification |
+| BK | Interruption de l'émission ; transmission informelle |
+| CQ | Appel général |
+| DE | de (provenant de) |
+| K | Invitation à transmettre |
+| PSE | S'il vous plaît (de l'anglais "Please") |
+| QSL | J'accuse réception |
+| R | Reçu (accusé de réception) |
+| RPRT | Rapport (de l'anglais "Report") |
+| RST | Rapport RST |
+| SK | Fin de la liaison (de l'anglais "Silent Key") |
+| TNX | Merci (de l'anglais "Thanks") |
+| UR | tu es (au sens de "ton signal est", de l'anglais "you are") |
+| VY | très (de l'anglais "very") |
+| 73 | meilleures salutations |
+| = | Séparateur |
+[table:n_funkfernschreiben_abkuerzungen:Abréviations opérationnelles en télégraphie]
 </webmargin>
-  
-Il existe également des procédures de transmission numériques pour lesquelles le déroulement est différent. FT8 ou FT4 fonctionnent par exemple même dans des conditions de radiotéléphonie défavorables, c'est-à-dire lorsque la puissance du signal reçue par rapport au bruit de fond n'est que faible. En revanche, avec les procédures mentionnées, seuls quelques caractères peuvent être transmis par émission. En conséquence, le déroulement est encore plus compact. D'autres procédures numériques ne transmettent pas de textes, mais par exemple des images ou des vidéos, avec un déroulement adapté à ces circonstances. Cela ne sera pas abordé lors de l'examen.
 
-[question:BE112]
-[question:BB110]
-[question:BB108]
+Il existe également des procédés de transmission numériques dont la réalisation diffère. Par exemple, FT8 ou FT4 fonctionnent même dans des conditions radio défavorables, c'est-à-dire lorsque le récepteur ne reçoit qu'une intensité de signal faible par rapport au bruit de fond. Cependant, avec ces procédés, seuls quelques caractères peuvent être transmis par émission. La réalisation est donc encore plus compacte. D'autres procédés numériques ne transmettent même pas de texte, mais par exemple des images ou des vidéos, avec une exploitation adaptée aux circonstances. Cela n'est cependant pas abordé dans l'examen.

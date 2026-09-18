@@ -1,17 +1,17 @@
 <margin>
-[photo:84:n_sstv:Une image transmise par SSTV]
+[photo:84:n_sstv:Image transmise en SSTV]
 </margin>
 
-En plus de la transmission de la parole, des sons et des textes, la transmission d'images fixes ou animées est également très populaire dans le radioamateur. Dans le cas de la *Slow-Scan-Television* (SSTV), des images fixes de faible résolution sont transmises. Un exemple est visible dans la figure [ref:n_sstv]. Les indicateurs d'appel et les rapports sont simplement écrits comme du texte dans les images lors de la SSTV.
+En plus de la transmission de la parole, des sons et des textes, la transmission d'images fixes ou animées est très populaire dans le radioamateurisme. En *Slow-Scan-Television* (SSTV), des images fixes à faible résolution sont transmises. Un exemple est visible dans la figure [ref:n_sstv]. Les indicatifs d’appel et les rapports sont simplement inscrits sous forme de texte dans les images.
 
-La SSTV a été pratiquée pour la première fois en 1958 par des radioamateurs américains en tant que développement indépendant du radioamateur. Pour les images, on utilise généralement des photos du Shack, de l'installation d'antennes ou du paysage de son propre environnement.
+Le SSTV a été développé pour la première fois en 1958 par des radioamateurs américains. Les images utilisées sont généralement des photos du shack, de l'installation d'antenne ou du paysage environnant.
 
 <margin>
-Lors des transmissions d'images et de vidéos, on utilise le système de rapports spécial *RSV*. R et S signifient, comme pour la téléphonie et la télégraphie, la lisibilité et l'intensité du signal. Le V signifie la qualité vidéo ou d'image et est indiqué par une valeur de 1 à 5:
+Pour les transmissions d'images et de vidéos, le système de *rapports RSV* est utilisé. Les lettres R et S ont la même signification que pour la téléphonie et la télégraphie : lisibilité et intensité du signal. La lettre V correspond à la qualité vidéo ou image, notée de 1 à 5 :
 * 1 = Seule la synchronisation est visible
-* 2 = Grand indicateur d'appel lisible
-* 3 = Grands détails reconnaissables
-* 4 = Petits détails reconnaissables
+* 2 = L'indicatif d’appel est lisible
+* 3 = Les grands détails sont reconnaissables
+* 4 = Les petits détails sont reconnaissables
 * 5 = Image sans bruit
 </margin>
 

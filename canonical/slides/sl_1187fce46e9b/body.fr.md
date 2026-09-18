@@ -1,15 +1,15 @@
-## Antenne : effet capacitif et inductif
+## Antenne : effet capacitif et effet inductif
 
-* Un dipôle demi-onde ou une antenne excitée par rapport à la terre de λ/4 agit de manière capacitive si elle est trop courte, et de manière inductive si elle est trop longue.
-* L'impédance d'alimentation divergente entraîne une mauvaise adaptation et un SWR moins bon.
-* En insérant un condensateur (réduction électrique) ou une bobine de prolongement (extension électrique), l'impédance peut être réadaptée.
+* Un dipôle demi-onde ou une antenne λ/4 excitée par rapport à la terre présente un effet capacitif lorsqu’elle est trop courte et un effet inductif lorsqu’elle est trop longue.
+* L’impédance d’alimentation déviée entraîne un mauvais accord et un ROS (rapport d’onde stationnaire) élevé.
+* En insérant un condensateur (raccourcissement électrique) ou une bobine d’allongement (allongement électrique), on peut réadapter l’impédance.
 
 ---
 <left>
 [picture:650:a_antenne_verlaengerung:Antenne avec bobine]
 </left>
 <right>
-* L'antenne est électriquement prolongée par l'insertion d'une bobine.
+* L’antenne est électriquement allongée par l’insertion d’une bobine.
 </right>
 
 ---
@@ -19,7 +19,7 @@
 [picture:563:a_antenne_verkuerzung:Antenne avec condensateur]
 </left>
 <right>
-* L'antenne est électriquement raccourcie par l'insertion d'un condensateur.
+* L’antenne est électriquement raccourcie par l’insertion d’un condensateur.
 </right>
 
 ---
@@ -27,8 +27,8 @@
 ---
 ## Détermination de la longueur mécanique
 
-* Tout d'abord, on détermine si l'antenne est mécaniquement trop courte ou trop longue.
-* Si l'antenne est trop courte, une bobine de prolongement est nécessaire.
+* On détermine d’abord si l’antenne est mécaniquement trop courte ou trop longue.
+* Si l’antenne est trop courte, il faut une bobine d’allongement.
 * Sinon, un condensateur de raccourcissement est nécessaire pour la compensation.
 
 ---

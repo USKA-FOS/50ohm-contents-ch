@@ -1,11 +1,11 @@
 ## Utilisation commerciale
 
-* Le radioamateur ne doit pas être utilisé à des fins économiques.
-* Il est illégal d'offrir l'utilisation du radioamateur contre de l'argent.
-* Le radioamateur ne doit pas être utilisé pour des arrangements dans une entreprise.
+* Le radioamateurisme ne doit pas être utilisé à des fins économiques.
+* Il est interdit de proposer l'utilisation du radioamateurisme contre rémunération.
+* Le radioamateurisme ne doit pas être utilisé pour des accords au sein d'une entreprise.
 
 <note>
-* Exemple : Radio taxi
+* Exemple : radio taxi
 </note>
 
 ---

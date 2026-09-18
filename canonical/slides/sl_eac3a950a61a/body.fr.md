@@ -1,14 +1,14 @@
 --- style="font-size: 0.7em;"
 
-## Caractéristique d'antenne et directivité
+## Caractéristiques d'antenne et directivité
 
 <left>
 [picture:264:a_strahlungscharakteristik_dipol_richt:Caractéristique de rayonnement d'une antenne directionnelle par rapport à un dipôle]
-* Le *rapport avant/arrière* décrit à quel point l'émission et la réception sont meilleures dans la direction principale du faisceau.
+* Le *rapport avant/arrière* décrit dans quelle mesure l'émission et la réception sont meilleures dans la direction principale.
 </left>
 <right>
-* Les antennes directionnelles émettent et reçoivent également dans la direction arrière – un effet indésirable.  
-* Le gain d'antenne ne se réfère qu'à la direction principale du faisceau (par rapport à un dipôle ou à un radiateur isotrope).  
+* Les antennes directionnelles émettent et reçoivent également dans la direction inverse – un effet indésirable.
+* Le gain d'antenne ne se réfère qu'à la direction principale (par rapport à un dipôle ou un radiateur isotrope).
 </right>
 
 ---
@@ -35,13 +35,13 @@
 [question:AG217]
 
 ---
-#### Solution
+#### Méthode de résolution
 * donné : $P_R = \qty{0,6}{\watt}$
 * donné : $P_V = \qty{15}{\watt}$
-* recherché : $\frac{avant}{arrière}$
+* recherché : $\frac{Avant}{Arrière}$
 
 <fragment>
-$\begin{split}\frac{avant}{arrière} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} \unit{\dB}\\ &= 10 \cdot \log_{10}{\left(\frac{\qty{15}{\watt}}{\qty{0,6}{\watt}}\right)} \unit{\dB}\\ &= \qty{14}{\dB}\end{split}$
+$\begin{split}\frac{Avant}{Arrière} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} \unit{\dB}\\ &= 10 \cdot \log_{10}{\left(\frac{\qty{15}{\watt}}{\qty{0,6}{\watt}}\right)} \unit{\dB}\\ &= \qty{14}{\dB}\end{split}$
 </fragment>
 
 ---
@@ -49,10 +49,10 @@ $\begin{split}\frac{avant}{arrière} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}
 [question:AG215]
 
 --- style="font-size: smaller;"
-#### Solution
+#### Méthode de résolution
 <left>
 * donné : $g_D= \qty{10}{\dB}$
-* donné : $\frac{avant}{arrière} = \qty{20}{\dB}$
+* donné : $\frac{Avant}{Arrière} = \qty{20}{\dB}$
 </left>
 <right>
 * donné : $P_S = \qty{100}{\watt}$
@@ -74,10 +74,10 @@ $\begin{split}\qty{20}{\dB} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} 
 [question:AG216]
 
 --- style="font-size: smaller;"
-#### Solution
+#### Méthode de résolution
 <left>
 * donné : $g_D= \qty{15}{\dB}$
-* donné : $\frac{avant}{arrière} = \qty{25}{\dB}$
+* donné : $\frac{Avant}{Arrière} = \qty{25}{\dB}$
 </left>
 <right>
 * donné : $P_S = \qty{6}{\watt}$
@@ -100,14 +100,14 @@ $\begin{split}\qty{25}{\dB} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} 
 [question:AG218]
 
 --- style="font-size: smaller;"
-#### Solution
+#### Méthode de résolution
 <left>
 * donné : $U_V = \qty{300}{\micro\volt\per\meter}$
 * donné : $U_R = \qty{20}{\micro\volt\per\meter}$
 </left>
 <right>
 * donné : $U_D = \qty{128}{\micro\volt\per\meter}$
-* recherché : $g_D$, $\frac{avant}{arrière}$
+* recherché : $g_D$, $\frac{Avant}{Arrière}$
 </right>
 
 <left>
@@ -117,6 +117,6 @@ $\begin{split}g_D &= 20 \cdot \log_{10}{\left(\frac{U_V}{U_D}\right)} \unit{\dB}
 </left>
 <right>
 <fragment>
-$\begin{split}\frac{avant}{arrière} &= 20 \cdot \log_{10}{\left(\frac{U_V}{U_R}\right)} \unit{\dB}\\ &= 20 \cdot \log_{10}{\left(\frac{\qty{300}{\micro\volt\per\meter}}{\qty{20}{\micro\volt\per\meter}}\right)}\\ &= \qty{23,5}{\dB}\end{split}$
+$\begin{split}\frac{Avant}{Arrière} &= 20 \cdot \log_{10}{\left(\frac{U_V}{U_R}\right)} \unit{\dB}\\ &= 20 \cdot \log_{10}{\left(\frac{\qty{300}{\micro\volt\per\meter}}{\qty{20}{\micro\volt\per\meter}}\right)}\\ &= \qty{23,5}{\dB}\end{split}$
 </fragment>
 </right>

@@ -1,20 +1,20 @@
 ## Termes
 
-Dans le chapitre suivant, plusieurs termes sont utilisés qui sont expliqués au préalable
+Dans le chapitre suivant, plusieurs termes sont utilisés et doivent être expliqués au préalable :
 
-* *Diffraction* : Les ondes sont déviées par un obstacle
-* *Diffusion* : Déviation des ondes par interaction avec des particules
-* *Réflexion* : Diffusion orientée dans la même direction
-* *Réfracion* ou *réfraction* : Déviation des ondes par changement de la vitesse de propagation à travers un autre milieu de densité différente
+* *Diffraction* : les ondes sont déviées par un obstacle
+* *Dispersion* : déviation des ondes par interaction avec des particules
+* *Réflexion* : dispersion dirigée
+* *Réfraction* ou *réfraction atmosphérique* : déviation des ondes due à une modification de la vitesse de propagation dans un milieu de densité différente
 
 ---
 
 <left>
-* Déjà connu : Les couches de l'atmosphère pertinentes pour le radioamateur
-* Dans la troposphère, des phénomènes météorologiques se produisent
+* Déjà connu : les couches de l'atmosphère pertinentes pour le radioamateurisme
+* Dans la troposphère se produisent les phénomènes météorologiques
 </left>
 <right>
-[picture:731:e_atmosphaeren_schichten:Couches de l'atmosphère pertinentes pour le radioamateur]
+[picture:731:e_atmosphaeren_schichten:Couches de l'atmosphère pertinentes pour le radioamateurisme]
 </right>
 <note>
 * Couche la plus basse
@@ -24,22 +24,22 @@ Dans le chapitre suivant, plusieurs termes sont utilisés qui sont expliqués au
 ---
 ## DX en VHF/UHF
 <left>
-* Les liaisons au-delà de l'horizon en VHF/UHF sont créées par diffraction, réflexion et diffusion dans la troposphère
-* Zones avec des températures et densités différentes
+* Les liaisons au-delà de l'horizon en VHF/UHF sont possibles grâce à la diffraction, la réflexion et la dispersion dans la troposphère
+* Zones présentant des différences de température et de densité
 </left>
 <right>
-[picture:734:e_tropo:Propagation troposphérique à différentes couches d'air]
+[picture:734:e_tropo:Propagation troposphérique à travers différentes couches d'air]
 </right>
 <note>
-* Agissent comme un miroir
+* Fonctionnent comme un miroir
 </note>
 
 ---
 ### Formation d'inversion troposphérique
 
 * Des couches de températures différentes se superposent
-* Aux limites des couches, les ondes radio dans la gamme VHF sont réfléchies
-* Permettent des liaisons radio avec des stations à une distance d'environ $\num{800}$ à $\qty{1000}{\kilo\meter}$
+* À la frontière entre ces couches, les ondes radio en bande VHF sont réfléchies
+* Permettent des liaisons radio avec des stations situées à environ $\num{800}$ à $\qty{1000}{\kilo\meter}$ de distance
 * La formation d'inversion troposphérique se produit principalement au printemps et en automne
 
 ---

@@ -1,11 +1,11 @@
 <left>
-[picture:733:n_sporadic_e:Réflexion (réfraction) des ondes radio sur des zones fortement ionisées de la couche E]
+[picture:733:n_sporadic_e:Réfraction (réfraction) des ondes radio dans des zones fortement ionisées de la couche E]
 </left>
 <right>
-* En été avec des portées plus grandes ($\qtyrange{1000}{2000}{\kilo\meter}$)
-* Réflexions (réfractions) sur des zones ionisées
-* Se produisent à $\qtyrange{100}{110}{\kilo\meter}$ dans la couche E
-* Se produisent de manière aléatoire et difficile à prévoir
+* En été avec des portées plus grandes (1000 à 2000 km)
+* Réfractions dans des zones ionisées
+* Se produisent entre 100 et 110 km dans la couche E
+* Phénomène aléatoire et difficile à prévoir
 * Zones très petites
 </right>
 

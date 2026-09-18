@@ -1,25 +1,25 @@
 * Éviter les interactions avec d'autres installations et appareils électriques
-* En particulier dans son propre appartement et celui des voisins
-* Les interactions peuvent également perturber la propre réception radio
-* Et en mode émission, perturber le fonctionnement de l'appareil
-* $\rightarrow$ Placer l'antenne de préférence à l'extérieur
+* En particulier dans son propre logement et celui des voisins
+* Les interactions peuvent également perturber la réception radio
+* Et en fonctionnement en émission, perturber le bon fonctionnement de l'appareil
+* $\rightarrow$ Installer l'antenne de préférence en extérieur
 
 ---
 [question:EG223]
 ---
-## Installation antenne ondes courtes
+## Installation d'une antenne ondes courtes
 
-* Idéalement, éloigner à angle droit de la maison
-* La direction du faisceau principal ne pointe pas sur le bâtiment et celui des voisins
-* Moins de perturbations dues au couplage dans les lignes de la maison
+* Mieux vaut l'éloigner du bâtiment en formant un angle droit
+* La direction principale de rayonnement ne doit pas pointer vers le bâtiment ni celui des voisins
+* Moins de perturbations par couplage dans les câbles du bâtiment
 
 ---
 [question:EJ110]
 ---
-## Installation antenne directionnelle
+## Installation d'une antenne directionnelle
 
-* Idéalement, aussi haut et aussi loin que possible
-* L'intensité de champ dans la direction du faisceau principal diminue avec la distance
+* De préférence aussi haute et aussi éloignée que possible
+* L'intensité de champ dans la direction principale de rayonnement diminue avec la distance
 
 ---
 [question:EG112]

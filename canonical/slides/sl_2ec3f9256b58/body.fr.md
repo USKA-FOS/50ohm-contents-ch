@@ -1,14 +1,15 @@
-* Le plus souvent attribué
-* En Allemagne, il existe trois classes d'admission
+* Les plus fréquemment attribués
+* En Allemagne, il existe trois classes d’autorisation
 
-1. Classe N (Entry Level License)
-2. Classe E (Novice)
-3. Classe A (Advanced)
+1. Classe N (licence d’entrée)
+2. Classe E (licence pour débutants)
+3. Classe A (licence complète)
 
-* La classe est identifiable par le préfixe et le chiffre
+* La classe est identifiable au préfixe et au chiffre
+* Voir le [plan des indicatifs d’appel](https://50ohm.de/rzp)
 
 <note>
-* Dans d'autres pays - mais pas tous - il existe des systèmes similaires
+* Dans d’autres pays – mais pas tous – des systèmes similaires existent.
 </note>
 ---
 
@@ -16,17 +17,18 @@
 | l: Classe | X: Préfixe et chiffre |
 | Classe N | DN9 |
 | Classe E | DO1 - DO9 |
+| | DA6 |
 | Classe A | DB1 - DD9 |
 | | DF1 - DH9 |
 | | DJ1 - DM9 |
-[table:n_persoenliche_rufzeichen_praefixe:Préfixes et chiffres pour les indicatifs personnels]
+[table:n_persoenliche_rufzeichen_praefixe:Préfixes et chiffres pour les indicatifs d’appel personnels]
 </left>
 <right>
-| l: Classe | X: Indicatif |
+| l: Classe | X: Indicatifs d’appel |
 | Classe N | DN9AAA, DN9BB |
 | Classe E | DO2AAA, DO2BB |
 | Classe A | DL3AAA, DL3BB |
-[table:n_persoenliche_rufzeichen_beispiele:Exemples d'indicatifs personnels]
+[table:n_persoenliche_rufzeichen_beispiele:Exemples d’indicatifs d’appel personnels]
 </right>
 
 ---
@@ -36,54 +38,58 @@
 ---
 [question:BD104]
 ---
-## Admission
 
-* Après avoir réussi l'examen, faire une demande à la BNetzA pour *l'admission à la participation au service de radioamateur*
-* Cela donne le certificat d'admission avec l'indicatif personnel
-* Ce n'est qu'ensuite que l'exploitation radio peut commencer
-* L'admission n'est pas transférable
+## Autorisation
+
+* Après réussite à l’examen, déposer une demande auprès de la BNetzA pour obtenir *l’autorisation de participer au service d’amateur*.
+* Vous recevrez ensuite un certificat d’autorisation avec votre indicatif d’appel personnel.
+* Vous ne pouvez commencer à émettre qu’à partir de ce moment.
+* L’autorisation n’est pas transférable.
 
 <note>
-* Dans certains centres d'examen, le certificat d'admission peut être remis directement après l'examen
-* Actuellement : Dortmund et lors du salon HAM RADIO à Friedrichshafen
-* La décision est prise en fonction de l'inscription dans la liste des indicatifs
+* Le certificat d’autorisation est désormais un PDF et est envoyé par e-mail si nécessaire.
+* L’inscription dans la liste/base de données des indicatifs d’appel fait foi.
 </note>
 ---
+
 [question:VC107]
 ---
-## Indicatif souhaité
 
-* Sur la demande, des indicatifs souhaités peuvent être indiqués
-* Dans la [liste des indicatifs de la BNetzA](https://50ohm.de/rzl) ou dans la [requête web de la BNetzA](https://50ohm.de/rza) pour rechercher des indicatifs libres
-* Il n'y a pas de droit à l'attribution d'un indicatif particulier
-* Sans indicatif souhaité, la BNetzA choisit un indicatif
+## Indicatif d’appel souhaité
+
+* Vous pouvez indiquer des indicatifs d’appel souhaités dans votre demande.
+* Consultez la [liste des indicatifs d’appel de la BNetzA](https://50ohm.de/rzl) ou l’[outil de recherche en ligne de la BNetzA](https://50ohm.de/rza) pour vérifier la disponibilité des indicatifs.
+* Il n’y a aucun droit à un indicatif d’appel spécifique.
+* Sans indication d’un indicatif souhaité, la BNetzA en attribue un.
 
 <note>
-* Eventuellement, indiquer plusieurs indicatifs
-* Les indicatifs peuvent avoir été attribués entre-temps
+* Vous pouvez éventuellement indiquer plusieurs indicatifs d’appel.
+* Les indicatifs d’appel peuvent avoir été attribués entre-temps.
 </note>
 
---- indepth
-### Sélection d'indicatifs
+---
+### Choix d’un indicatif d’appel
 
-* Abréviation du nom
+* Abréviation courte du nom
 * Initiales
-* Bonne compréhension à l'oral
-* Télégraphie Morse simple
+* Bonne intelligibilité à l’oral
+* Facilité pour la télégraphie Morse
 * Jeu de mots
 
 ---
 [question:VD208]
 ---
-## Changement d'indicatif
 
-* En règle générale, la BNetzA ne change pas un indicatif
-* Des changements de réglementation ou de classes d'admission peuvent rendre cela nécessaire
-* En cas de nouvelle demande d'admission au service de radioamateur, un nouvel indicatif est attribué
+## Modification ou retrait d’un indicatif d’appel
+
+* En règle générale, la BNetzA ne modifie pas un indicatif d’appel.
+* En cas de modifications réglementaires ou de classes d’autorisation, une nouvelle attribution peut s’avérer nécessaire.
+* Lors d’une nouvelle demande d’autorisation pour le radioamateurisme, un nouvel indicatif d’appel est attribué.
 
 <note>
-* Exemple : changement d'indicatif de la RDA
-* Les indicatifs d'entraînement DN1-8 seront retirés à l'avenir
+* Exemple : changement des indicatifs d’appel en RDA.
+* Les indicatifs de formation DN1-8 seront retirés à l’avenir.
 </note>
+
 ---
 [question:VC117]

@@ -1,22 +1,22 @@
 * La fréquence de l'oscillateur est variable
-* Par exemple par une diode de capacité dans le circuit oscillant $\rightarrow$ la capacité est influencée par la tension continue
-* L'oscillateur est accordable par une tension de commande
+* Par exemple, au moyen d'une diode à capacité variable dans le circuit oscillant $\rightarrow$ la capacité est influencée par une tension continue
+* L'oscillateur devient accordable grâce à une tension de commande
 
 ---
 [question:AD601]
 ---
-### Réaction
+### Réaction parasite
 <left>
-* Les réactions indésirables, par exemple du signal HF, entraînent une instabilité de fréquence
+* Les réactions parasites indésirables, par exemple du signal HF, entraînent une instabilité de fréquence
 * Cela s'applique à tous les oscillateurs
 </left>
 <right>
 <fragment>
-Causes:
-* Déphasage
-* Changements d'amplification
+Causes possibles :
+* Décalage de phase
+* Variations de gain
 * Produits de mélange
-* Changements de température
+* Variations de température
 </fragment>
 </right>
 <note>

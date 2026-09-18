@@ -1,16 +1,13 @@
-Sans contributions financières, cela ne fonctionne malheureusement pas dans le radioamateur. Selon la TKG et l'EMVG, les radioamateurs doivent payer des contributions annuelles, qui sont fixées en détail dans l'ordonnance sur les contributions de protection des fréquences (FSBeitrV). La FSBeitrV limite le paiement aux radioamateurs ayant une autorisation. La demande de paiement est reçue par avis de taxes de l'Agence fédérale des réseaux.
+Le **radioamateurisme** ne fonctionne malheureusement pas sans contributions financières. Selon la loi sur les télécommunications (TKG) et la loi sur la compatibilité électromagnétique (EMVG), les radioamateurs doivent payer des cotisations annuelles, détaillées dans l'ordonnance sur les contributions de protection des fréquences (FSBeitrV). La FSBeitrV limite le paiement aux radioamateurs titulaires d'une licence. L'invitation à payer est envoyée sous forme de décision de frais par l'Agence fédérale des réseaux (Bundesnetzagentur).
 
 [question:VE701]
 
 [question:VE702]
 
-En plus des frais courants, d'autres frais sont facturés, qui sont réglementés dans l'ordonnance spéciale sur les taxes de la BNetzA (BNetzABGebV). Cela inclut, par exemple, les taxes pour les examens de radioamateur et bien sûr aussi la taxe pour l'octroi de l'autorisation.
+En plus des frais récurrents, d'autres frais s'appliquent, régis par le "Règlement particulier des frais de l'Agence fédérale des réseaux (BNetzABGebV)". Cela inclut, par exemple, les frais d'examen pour le **radioamateurisme** ainsi que les frais d'obtention de la licence.
 
-Si une taxe n'est pas payée, l'État la recouvre selon la loi sur l'exécution administrative (VwVG). Selon la loi, la BNetzA a différentes possibilités d'exécution.
+Si une redevance n'est pas payée, l'État la recouvre conformément à la loi sur l'exécution administrative (VwVG). Selon cette loi, la Bundesnetzagentur dispose de différentes méthodes de recouvrement.
 
 [question:VE703]
 
 [question:VE704]
-
-
-

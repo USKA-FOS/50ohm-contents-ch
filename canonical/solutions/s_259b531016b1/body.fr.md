@@ -1,7 +1,7 @@
-Dans le cas de l'adaptation de puissance, la résistance de charge doit être aussi grande que la résistance interne de la source.
+Pour un transfert optimal de puissance, la résistance de charge doit être égale à la résistance interne de la source.
 
-Il en résulte :
+On a :
 
 $R_L = R_i$
 
-Seulement dans ce cas, la puissance maximale est transmise à la résistance de charge.
+Seul ce cas permet de transmettre la puissance maximale à la résistance de charge.

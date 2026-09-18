@@ -1,19 +1,21 @@
 ### Radioamateur
 
-* Les radioamateurs sont des personnes dûment autorisées qui s'intéressent exclusivement à la technique radio à des fins personnelles et sans intérêts financiers.
-
-* Au sens de la loi sur le radioamateur (AFuG), on est radioamateur si l'on possède un certificat de radioamateur ou un certificat d'examen harmonisé de radioamateur.
+Les radioamateurs sont des personnes dûment autorisées qui s’intéressent à la technique radio uniquement dans un but personnel et sans intérêt financier.
 
 ---
 
-Les intérêts financiers ne sont pas compatibles avec le radioamateur.
-Exemple : Les radioamateurs qui travaillent ensemble dans une entreprise artisanale ne doivent pas coordonner leur travail via le relais radioamateur local.
+* Les intérêts financiers et commerciaux sont incompatibles avec le radioamateurisme
+* Exemple : des radioamateurs travaillant ensemble dans une entreprise artisanale ne peuvent pas coordonner leur travail via le relais local
 
 ---
 [question:VA104]
 
 ---
-[question:VC105]
+[question:VC113]
 
 ---
-[question:VC113]
+
+Au sens de la loi sur le radioamateurisme (LRAm), on est radioamateur si l’on possède un certificat d’opérateur radioamateur ou une attestation d’examen harmonisée.
+
+---
+[question:VC105]

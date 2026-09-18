@@ -1,31 +1,32 @@
-* Avec un journal de bord, il est possible de documenter ses activités radio
-* La tenue d'un journal de bord est facultative
+* Un journal de trafic (également appelé *carnet de station*) permet de documenter ses activités radio
+* Peut être tenu sous forme électronique ou manuscrite
+* La tenue d’un journal de trafic est facultative
 
 <note>
-* Pour les concours, des journaux de bord doivent souvent être soumis
+* Pour les concours, les journaux de trafic doivent souvent être soumis
 </note>
 
 ---
 
-Les données suivantes sont généralement enregistrées dans un journal de bord pour chaque liaison radio :
-* Indicatif d'appel de la station correspondante
+Les données suivantes sont généralement enregistrées dans un journal de trafic pour chaque liaison radio :
+* Indicatif de la station correspondante
 * Fréquence ou bande
 * Date et heure
-* Procédure de transmission (par exemple, SSB, FT8, RTTY, ...)
+* Mode de transmission (par exemple, BLU, FT8, RTTY, etc.)
 * Rapport attribué et reçu
-* Puissance d'émission utilisée
-* Remarques (par exemple, nom du partenaire QSO ou station utilisée)
+* Puissance d’émission utilisée
+* Remarques (par exemple, nom du partenaire de QSO ou station utilisée)
 
 ---
 [question:BG101]
 
 ---
-## Tenue obligatoire du journal de bord
+## Tenue obligatoire du journal de trafic
 
-Il peut également arriver que l'on reçoive une demande de l'Agence fédérale des réseaux qui nous oblige à tenir un journal de bord.
+Il peut arriver que l’Agence fédérale des réseaux demande à un radioamateur de tenir un journal de trafic, par exemple :
 
-* Pour l'examen des causes des perturbations
-* Pour clarifier les questions techniques de fréquence
+* Pour enquêter sur les causes de perturbations
+* Pour clarifier des questions techniques liées aux fréquences
 
 ---
 [question:VD109]
@@ -34,12 +35,20 @@ Il peut également arriver que l'on reçoive une demande de l'Agence fédérale 
 [question:VD108]
 
 ---
-## Conservation du journal de bord
 
-* En cas de journal de bord ordonné
-* Visible pendant une certaine période
-* En cas de journal de bord électronique, transfert possible au format de fichier ADIF
-* En cas de transfert de papier à électronique, le format papier doit être conservé
+Chaque membre du DARC peut utiliser un journal de trafic électronique basé sur le web sur [log.darc.de](https://50ohm.de/log) (basé sur Wavelog), incluant la synchronisation avec eQSL, LoTW, QRZ et DCL
+
+<note>
+Ici, promouvoir l’adhésion au DARC
+</note>
+
+---
+## Conservation du journal de trafic
+
+* En cas d’obligation de tenue du journal, celui-ci doit rester consultable pendant une certaine période, quel que soit le support utilisé
+* Passage papier → électronique : conserver l’ancien carnet papier
+* Passage électronique → papier : conserver l’ancien ordinateur avec le logiciel ou imprimer le journal
+* Changement de logiciel de journal : conserver l’ancien logiciel ou transférer les données, par exemple au format ADIF
 
 ---
 
@@ -51,9 +60,8 @@ Il peut également arriver que l'on reçoive une demande de l'Agence fédérale 
 ---
 ## Temps universel coordonné
 
-* Heures en UTC (Temps universel coordonné)
-* Les heures dans différentes zones horaires ne doivent pas être converties
-* Pas de problèmes avec l'heure d'été/hiver
-* Berlin à l'heure d'Europe centrale (CET) : UTC+1
-* Berlin à l'heure d'été d'Europe centrale (CEST) : UTC+2
-
+* Enregistrer les heures en UTC (Temps universel coordonné)
+* Pas besoin de convertir les heures en fonction des fuseaux horaires
+* Pas de problème avec l’heure d’été/hiver
+* Berlin à l’heure normale d’Europe centrale (CET) : UTC+1
+* Berlin à l’heure d’été d’Europe centrale (CEST) : UTC+2

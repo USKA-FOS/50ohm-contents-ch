@@ -1,16 +1,16 @@
-On cherche la résistance $R_2$ pour une tension Gate-Source de :
+On cherche la valeur de la résistance $R_2$ pour une tension grille-source de :
 
 $ U_\mathrm{GS} = \qty{2,8}{\volt} $
 
-Comme la Source est directement connectée à la masse, on a :
+Comme la source est directement reliée à la masse, on a :
 
 $ U_\mathrm{G} = U_\mathrm{GS} $
 
-Le diviseur de tension composé de $R_1$ et $R_2$ donne :
+Le diviseur de tension constitué de $R_1$ et $R_2$ fournit :
 
 $ U_\mathrm{GS} = U_\mathrm{B} \cdot \frac{R_2}{R_1 + R_2} $
 
-Insérer les valeurs :
+Remplacer par les valeurs :
 
 $ \qty{2,8}{\volt} = \qty{44}{\volt} \cdot \frac{R_2}{\qty{10\,000}{\ohm} + R_2} $
 

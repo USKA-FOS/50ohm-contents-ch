@@ -1,83 +1,178 @@
-Jusqu'à présent, nous ne connaissons les diodes à semi-conducteurs que dans leur fonction de redresseur d'une tension alternative. Dans les modulateurs pour la génération de signaux AM et SSB, les diodes jouent un nouveau rôle : une tension NF appliquée modifie leur résistance au rythme de la fréquence NF ; plus la tension NF est grande, plus le courant de la diode est important et plus la résistance résultante est faible. Dans un modulateur d'amplitude, cette résistance est utilisée pour influencer l'amplitude d'un signal HF (provenant d'un oscillateur local) ; le courant HF à travers la diode est grand lorsque la résistance de la diode est faible et inversement. Le signal HF est modulé en amplitude au rythme du signal NF ! Dans le cas le plus simple, si l'on n'utilise qu'une seule diode, le spectre du signal contient une porteuse (à la fréquence HF d'origine) et deux bandes latérales de modulation à la distance de la fréquence NF au-dessus et en dessous de la fréquence porteuse - un signal avec modulation d'amplitude (AM). 
+Nous avons déjà rencontré les diodes dans divers circuits. Examinons maintenant comment leur caractéristique non linéaire peut être utilisée pour moduler un signal porteur haute fréquence avec un signal utile basse fréquence.
 
-Ce principe est clairement illustré dans la question suivante : une diode est soumise à la fois à un signal NF et à un signal HF, et le signal de sortie est filtré avec un circuit oscillant LC.
+Si un signal HF et un signal BF sont appliqués ensemble à une diode, comme illustré dans la figure [ref:a_am_modulator], la tension BF influence la conductivité de la diode. Ainsi, le signal HF est transmis avec une amplitude variable selon la valeur instantanée du signal BF. Son amplitude varie donc au rythme du signal BF.
+
+À la sortie, on obtient, en plus de la porteuse HF initiale, deux bandes latérales au-dessus et en dessous de la fréquence porteuse. Un circuit oscillant accordé sur la fréquence porteuse supprime les autres composantes de fréquence indésirables. On obtient ainsi à la sortie un signal modulé en amplitude (AM).
+
+<margin>
+[picture:772:a_am_modulator:Modulateur AM simple avec diode et circuit oscillant]
+</margin>
+
+<webonly>
+La simulation suivante montre le fonctionnement du modulateur AM. Les valeurs ont été choisies pour que les signaux HF et BF soient bien visibles. Le signal BF est à $\qty{500}{\hertz}$, le signal HF à $\qty{10}{\kilo\hertz}$. L’amplitude du signal HF varie au rythme du signal BF. Le circuit oscillant est accordé sur la fréquence porteuse et supprime les composantes de fréquence indésirables. Si l’on retire le circuit oscillant, on observe une multitude de produits de mélange. On peut aussi modifier la fréquence BF à $\qty{1}{\kilo\hertz}$ pour voir comment les bandes latérales se déplacent.
+
+[include:applet_am_modulator]
+</webonly>
+
+<indepth>
+Un signal AM peut également être décrit mathématiquement. Pour cela, considérons d’abord un signal BF sinusoïdal normalisé
+
+$m(t)=\cos(\omega t)$
+
+avec la pulsation $\omega=2\pi f_\mathrm{m}$. Avec son amplitude $\hat U_\mathrm{m}$ et une composante continue supplémentaire $U_\mathrm{G}$, on obtient
+
+$U_\mathrm{m}(t)=U_\mathrm{G}+\hat U_\mathrm{m}\cdot\cos(\omega t)$
+
+Ce signal est ensuite multiplié par le signal porteur haute fréquence
+
+$U_\mathrm{T}(t)=\cos(\Omega t)$
+
+avec $\Omega=2\pi f_\mathrm{T}$. Pour le signal AM, on obtient ainsi :
+
+$U_\mathrm{AM}(t)=\left(U_\mathrm{G}+\hat U_\mathrm{m}\cdot\cos(\omega t)\right)\cdot\cos(\Omega t)$
+
+En développant, on obtient :
+
+$U_\mathrm{AM}(t)=U_\mathrm{G}\cdot\cos(\Omega t)+\hat U_\mathrm{m}\cdot\cos(\omega t)\cdot\cos(\Omega t)$
+
+En utilisant la relation
+
+$\cos(a)\cdot\cos(b)=\frac{1}{2}\left(\cos(a+b)+\cos(a-b)\right)$
+
+le deuxième terme peut être décomposé comme suit :
+
+$U_\mathrm{AM}(t)=U_\mathrm{G}\cdot\cos(\Omega t)+\frac{\hat U_\mathrm{m}}{2}\left(\cos((\Omega+\omega)t)+\cos((\Omega-\omega)t)\right)$
+
+On reconnaît ainsi directement les trois composantes d’un signal AM : le premier terme décrit la *porteuse* à la fréquence $\Omega$. Les deux autres termes forment les *bandes latérales supérieure et inférieure* aux fréquences $\Omega+\omega$ et $\Omega-\omega$.
+
+La composante continue $U_\mathrm{G}$ est responsable du maintien de la porteuse. Même si le signal utile est momentanément nul, un signal porteur est toujours généré.
+
+[picture:1127:a_am_modulation:Spectre d’un signal AM avec porteuse et deux bandes latérales]
+
+</indepth>
+
+Ce principe est illustré dans la question suivante : une diode est soumise simultanément à un signal BF et à un signal HF, et le signal de sortie est filtré à l’aide d’un circuit LC oscillant.
 
 [question:AD507]
 
-Avec un circuit de quatre diodes en arrangement annulaire, la porteuse peut également être supprimée, et seules les deux bandes latérales restent ; pour cela, l'anneau de diodes doit être intégré dans un circuit push-pull qui est si bien équilibré (ou symétrisé) que les courants du signal porteur s'annulent à la sortie. Dans le chapitre "Mixer II", un tel circuit a déjà été présenté comme un "mélangeur équilibré" (en anglais "balanced mixer"), bien que dans ce cas pour convertir un signal d'entrée HF en une position de fréquence intermédiaire. 
-
-Le modulateur équilibré est le premier étage d'un modulateur à bande latérale unique - il génère à partir d'un signal d'oscillateur local et d'un signal NF (modulation) un signal à double bande latérale (DSB). Un filtre passe-bande suit, qui ne laisse passer qu'une des deux bandes latérales, et produit ainsi un signal SSB à la sortie.  
-
-Pensez aux deux étapes nécessaires du modulateur SSB.
-
-[question:AE206]
-
-[question:AF302]
-
 ---
 
-On reconnaît un mélangeur équilibré ou un modulateur équilibré à l'anneau de diodes. Dans ce circuit, il n'y a pas d'excitation push-pull complète, car seul un transformateur est utilisé, mais il existe un équivalent à une prise centrale d'un transformateur dans l'alimentation du signal d'oscillateur au point central d'un diviseur de tension (poti).
+Avec quatre diodes disposées en anneau, on peut concevoir un modulateur de telle sorte que la porteuse soit supprimée à la sortie. Un tel circuit a déjà été présenté dans le chapitre « Mélangeurs II » sous le nom de *mélangeur équilibré*. Il y était utilisé pour convertir un signal HF en une fréquence intermédiaire. Dans l’émetteur, nous utilisons le même principe de base pour générer un signal modulé.
 
+<margin>
+[picture:759:a_balancemodulator:Modulateur équilibré avec anneau de diodes]
+</margin>
+
+On reconnaît généralement un mélangeur équilibré ou un modulateur équilibré à l’anneau de diodes, comme illustré dans la figure [ref:a_balancemodulator]. L’anneau de diodes est commandé par le signal de l’oscillateur à la fréquence $f_\mathrm{OSZ}$. Selon la polarité du signal de l’oscillateur, une des deux paires de diodes opposées conduit.
+
+Ainsi, le signal BF est transmis à la sortie alternativement avec la même polarité ou une polarité inversée. Simplifié, on peut dire que le signal BF est multiplié par le signal de l’oscillateur.
+
+L’avantage décisif de ce circuit symétrique est la *suppression de la porteuse* : les composantes du signal de l’oscillateur s’annulent idéalement à la sortie. Sans signal BF, aucun signal de sortie n’est donc généré. En revanche, si un signal BF est appliqué, les bandes latérales supérieure et inférieure sont générées, tandis que la porteuse est supprimée.
+
+Le signal de sortie est appelé *signal à double bande latérale avec porteuse supprimée* (DSB).
+
+[question:AE206]
+[question:AF302]
 [question:AF308]
+[question:AD510]
 
 <indepth>
-Dans l'émetteur, le mélangeur équilibré devient un modulateur équilibré en échangeant les entrées : la modulation basse fréquence est couplée dans la branche du pont du circuit push-pull entre la prise centrale de T2 et la masse. Le signal de l'oscillateur local est injecté dans l'anneau de diodes via T1 et le signal à double bande latérale est extrait via T2. Sans tension de modulation, les paires de diodes D1, D2 et D3, D4 sont commutées en alternance et forment ainsi des diviseurs de tension 1:1, de sorte que leurs points centraux sont au potentiel de masse. Ainsi, les extrémités supérieure et inférieure de l'enroulement de T2 sont alternativement au potentiel de masse tandis que l'autre extrémité de l'enroulement reste sans connexion par les diodes bloquées. Ainsi, aucun courant ne circule dans l'enroulement et aucune tension n'est créée du côté de la sortie - c'est ce qui fait la "suppression de la porteuse" ! 
+La suppression de la porteuse d’un modulateur équilibré peut être décrite de manière simplifiée avec deux branches symétriques :
 
-Lorsqu'une tension de modulation est appliquée, un courant supplémentaire circule à travers les diodes, de sorte que le potentiel central des diviseurs de tension est déplacé - ainsi, un courant peut circuler dans le transformateur T2 et un signal de sortie est généré. Dans l'image, les courbes de tension sont montrées, qui résultent lorsque le signal de l'oscillateur est simplifié en une fonction rectangulaire.
+$u_1(t)=\left(U_G+\hat U_\mathrm{m}\cos(\omega t)\right)\cos(\Omega t)$
+
+$u_2(t)=\left(U_G-\hat U_\mathrm{m}\cos(\omega t)\right)\cos(\Omega t)$
+
+Les deux signaux sont soustraits à la sortie :
+
+$u_\mathrm{out}(t)=u_1(t)-u_2(t)$
+
+On obtient ainsi :
+
+$u_\mathrm{out}(t)=U_G\cos(\Omega t)+\hat U_\mathrm{m}\cos(\omega t)\cos(\Omega t)-U_G\cos(\Omega t)+\hat U_\mathrm{m}\cos(\omega t)\cos(\Omega t)$
+
+Les deux composantes porteuses $U_G\cos(\Omega t)$ s’annulent. Il reste :
+
+$u_\mathrm{out}(t)=2\hat U_\mathrm{m}\cos(\omega t)\cos(\Omega t)$
+
+Avec $\cos(a)\cos(b)=\frac{1}{2}\left(\cos(a+b)+\cos(a-b)\right)$, on obtient :
+
+$u_\mathrm{out}(t)=\hat U_\mathrm{m}\left(\cos((\Omega+\omega)t)+\cos((\Omega-\omega)t)\right)$
+
+Le signal de sortie ne contient donc plus que les bandes latérales supérieure et inférieure. La porteuse à $\Omega$ est supprimée.
 </indepth>
 
 ---
 
-La suppression de la porteuse a à voir avec l'annulation d'un signal indésirable - pour cela, un circuit modulateur doit être "équilibré".
+Pour que le signal de l’oscillateur s’annule le plus possible à la sortie, le circuit doit être symétrique, c’est-à-dire *équilibré*. De petites différences d’amplitude ou de phase entre les deux voies de signal entraînent qu’une partie de la porteuse subsiste à la sortie. L’équilibrage de l’amplitude peut par exemple être réalisé avec un potentiomètre. Pour l’ajustement de phase, certains circuits utilisent en plus un condensateur ajustable. L’objectif de cet ajustement est d’obtenir une suppression de la porteuse aussi élevée que possible, tout en conservant les deux bandes latérales de modulation.
 
-[question:AD510]
+<webonly>
+L’applet suivant montre l’ajustement de la porteuse. Si le curseur est déplacé vers la droite, la porteuse apparaît soudainement dans le spectre.
 
-Précisément pour cet équilibrage, un ajustement des amplitudes (poti) et des phases (trimmer C) est nécessaire
+[include:applet_dsp]
+</webonly>
 
 [question:AF309]
 
-"Symétrisé" ou "équilibré" un modulateur, pour supprimer la porteuse - les bandes latérales de modulation ne sont pas supprimées.
+---
 
-[question:AF304]
+Le modulateur équilibré constitue le premier étage d’un modulateur BLU et génère un signal DSB. En aval du modulateur équilibré, un filtre passe-bande étroit, comme illustré dans la figure [ref:a_ssb_modulation], suit comme deuxième étage. Il ne laisse passer qu’une seule des deux bandes latérales et supprime l’autre. On obtient ainsi à la sortie un signal BLU (bande latérale unique).
 
-[question:AF303]
-
-Derrière le modulateur équilibré suit le deuxième étage d'un modulateur SSB.
-
-[question:AF305]
+<margin>
+[picture:500:a_ssb_modulation:Schéma bloc pour la modulation BLU avec la méthode de filtrage]
+</margin>
 
 [question:AF306]
+[question:AF304]
+[question:AF303]
+[question:AF305]
 
-Les quartz déterminent la fréquence de la porteuse supprimée par le modulateur équilibré. On reconnaît à la fréquence du quartz pour la bande latérale inférieure (LSB) : la porteuse se situe $\qty{1,5}{\kilo\hertz}$ au-dessus de la fréquence centrale du filtre passe-bande de $\qty{9}{\mega\hertz}$. Avec la fréquence NF maximale de $\qty{3}{\kilo\hertz}$, la bande latérale inférieure se situe alors $\qty{1,5}{\kilo\hertz}$ en dessous de la fréquence centrale et la fréquence NF de $\qty{200}{\hertz}$ place la bande latérale à $\qty{1,3}{\kilo\hertz}$ au-dessus de la fréquence centrale du filtre. Pour la bande latérale supérieure (USB), c'est l'inverse.
+---
+
+Une bonne implémentation pour un appareil radio capable de générer à la fois USB et LSB consiste à concevoir le filtre passe-bande pour une plage de fréquences fixe. Le choix entre la bande latérale supérieure ou inférieure à filtrer n’est pas déterminé par une modification du filtre, mais par la fréquence de l’oscillateur dans le modulateur équilibré. Pour cela, deux oscillateurs à quartz différents sont disponibles.
+
+Par exemple, pour l’USB, on choisit la fréquence de l’oscillateur à $\qty{8998,5}{\kilo\hertz}$. La modulation génère alors deux bandes latérales. La bande latérale supérieure est déplacée exactement dans la bande passante constante du filtre, tandis que la bande latérale inférieure se situe en dehors de la bande passante et est supprimée.
+
+Pour le LSB, on commute sur l’autre fréquence de quartz de $\qty{9001,5}{\kilo\hertz}$. Le spectre DSB entier est ainsi décalé de sorte que la bande latérale inférieure tombe dans la bande passante du même filtre et que la bande latérale supérieure soit supprimée.
+
+L’astuce consiste donc à laisser le filtre inchangé et à décaler la position du signal DSB en utilisant différentes fréquences d’oscillateur. Comme pour la fréquence intermédiaire d’un récepteur, un filtre fixe de haute qualité peut ainsi être utilisé pour différentes positions de fréquence.
 
 [question:AF307]
 
-Le symbole de croix ou de X dans le bloc fonctionnel derrière l'amplificateur NF représente la multiplication mathématique - les modulateurs, les démodulateurs et les circuits mélangeurs sont ainsi désignés, car leur fonction peut être décrite mathématiquement comme la multiplication de fonctions de signal.
+<margin>
+<latexonly>
+[picture:831:a_ssb_modulation_lsb:Fréquences avec la méthode de filtrage en LSB]
+[picture:940:a_ssb_modulation_lsb:Spectre avec la méthode de filtrage en LSB]
+[picture:832:a_ssb_modulation_usb:Fréquences avec la méthode de filtrage en USB]
+[picture:941:a_ssb_modulation_usb:Spectre avec la méthode de filtrage en USB]
+</latexonly>
+<webonly>
+[include:applet_dsp_filter]
+</webonly>
+</margin>
 
-Un modulateur pour la modulation de fréquence (FM) utilise un autre type de diode, la diode à capacité (reconnaissable dans les circuits au petit symbole de condensateur à côté du symbole de diode). La diode fait toujours partie d'un circuit oscillateur dont la fréquence d'oscillation est déterminée par un circuit résonant qui contient la diode à capacité. La diode est soumise à une tension continue en inverse, de sorte qu'une capacité de diode fixe s'établit et donc également une fréquence d'oscillation. Le circuit devient un modulateur de fréquence lorsque la tension continue est superposée à un signal NF – alors l'oscillateur change sa fréquence au rythme du signal NF.
+---
 
+Pour générer un signal modulé en fréquence (FM), on peut utiliser une *diode à capacité variable*. Dans les schémas, elle est reconnaissable au petit symbole de condensateur à côté de la diode, comme illustré dans la figure [ref:a_fm_modulator].
 
-Ici apparaît la diode à capacité - et le circuit à transistor à côté est un oscillateur avec un circuit oscillant LC.
+Une diode à capacité variable fonctionne en polarisation inverse. Sa capacité dépend de la tension inverse appliquée. Si elle est utilisée comme partie du circuit oscillant déterminant la fréquence d’un oscillateur, une variation de cette tension modifie la fréquence de résonance du circuit oscillant et donc la fréquence de l’oscillateur.
+
+Pour la modulation de fréquence, le signal BF est superposé à la tension continue aux bornes de la diode à capacité variable. Ainsi, sa capacité varie au rythme du signal BF et la fréquence de l’oscillateur est décalée vers le haut et vers le bas en conséquence. Un signal modulé en fréquence est ainsi généré.
+
+<margin>
+[picture:155:a_fm_modulator:Modulateur FM avec diode à capacité variable]
+</margin>
 
 [question:AD508]
-
-Une diode à capacité fonctionnant en tension inverse, qui est soumise à une NF d'un côté et qui est montée en parallèle avec le circuit oscillant d'un circuit oscillateur de l'autre côté, influence la fréquence de l'oscillateur.
-
 [question:AF310]
 
-Avec de grandes tensions NF, on peut facilement provoquer des changements de fréquence de l'oscillateur (déviation de fréquence FM) beaucoup plus importants que ceux autorisés. Par conséquent, une limitation de la déviation par un réglage et une limitation de l'amplitude NF est nécessaire. Des diodes montées en antiparallèle limitent la tension à environ la tension de seuil des diodes.
+---
+
+Avec des tensions BF élevées, il est facile d’obtenir des variations de fréquence de l’oscillateur (excursion FM) plus importantes que ce qui est autorisé. C’est pourquoi une *limitation de l’excursion* est nécessaire, en ajustant et limitant l’amplitude du signal BF. Des diodes montées en antiparallèle limitent la tension à environ la tension de seuil de la diode. Un exemple est montré dans les figures [ref:a_fm_modulator_hub1] et [ref:a_fm_modulator_hub2].
+
+<margin>
+[picture:44:a_fm_modulator_hub1:Circuit de limitation de l’excursion]
+[picture:828:a_fm_modulator_hub2:Limitation du signal]
+</margin>
 
 [question:AD509]
-
-Il s'agit apparemment d'un modulateur - il n'y a qu'un seul signal ! Un condensateur électrolytique à la sortie de la diode indique une tension continue !
-
-[question:AD503]
-
-% TODO copié ici à partir de E ... doit être inséré.
-<margin>
-[picture:500:e_ssb_modulation:Schéma bloc pour la modulation de SSB avec la méthode de filtrage]
-[picture:831:e_ssb_modulation_lsb:Fréquences avec la méthode de filtrage pour LSB]
-[picture:940:e_ssb_modulation_lsb:Spectre avec la méthode de filtrage pour LSB]
-[picture:832:e_ssb_modulation_usb:Fréquences avec la méthode de filtrage pour USB]
-[picture:941:e_ssb_modulation_usb:Spectre avec la méthode de filtrage pour USB]
-</margin>

@@ -1,10 +1,10 @@
 <left>
-* Mesure l'adaptation de la ligne
-* À quel point l'impédance de la ligne correspond-elle à l'impédance de l'antenne ou à l'impédance de l'émetteur-récepteur ?
-* Appelé aussi pont de mesure SWR
+* Mesure l’adaptation de ligne
+* À quel point l’impédance caractéristique correspond-elle à l’impédance d’alimentation de l’antenne ou à celle de l’émetteur ?
+* Appelé aussi pont de mesure du ROS
 </left>
 <right>
-[photo:144:e_swr_meter_geraet:Un SWR-Meter pour la mesure jusqu'à un maximum de $\qty{100}{\watt}$]
+[photo:144:e_swr_meter_geraet:Un ROS-mètre pour des mesures jusqu’à $\qty{100}{\watt}$ maximum]
 </right>
 
 ---
@@ -16,11 +16,11 @@
 ---
 
 <left>
-* Mesure de l'adaptation de l'antenne : aussi près que possible de l'antenne, pour exclure les variations de la ligne d'alimentation
-* Mesure de l'ensemble de l'installation : aussi près que possible derrière l'émetteur
+* Mesure de l’adaptation d’antenne : aussi près que possible de l’antenne pour éviter les variations de la ligne d’alimentation
+* Mesure de l’ensemble de l’installation : aussi près que possible derrière l’émetteur
 </left>
 <right>
-[picture:670:e_swr_meter_messung:Principe de mesure d'un SWR-Meter]
+[picture:670:e_swr_meter_messung:Principe de mesure d’un ROS-mètre]
 </right>
 
 ---

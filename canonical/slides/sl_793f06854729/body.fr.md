@@ -1,17 +1,17 @@
 ## Le système RST
 
-La qualité de la liaison radio dépend de
-* Puissance d'émission
-* Antenne utilisée
-* Distance
-* Conditions de propagation actuelles
+La qualité d'une liaison radio dépend de
+* la puissance d'émission
+* l'antenne utilisée
+* la distance
+* les conditions de propagation actuelles
 
 <fragment>
 Dans le rapport, la station réceptrice décrit la qualité de la liaison
 </fragment>
 
 <note>
-* Le rapport est un rapport de réception
+* Le rapport est un compte-rendu de réception
 </note>
 
 ---
@@ -21,17 +21,17 @@ Dans le rapport, la station réceptrice décrit la qualité de la liaison
 
 ### Système RST
 
-| l: Valeur | l: Domaine | l: Signification | l: Anglais |
+| l: Valeur | l: Plage | l: Signification | l: Anglais |
 | R | 1 - 5 | Lisibilité | Readability |
 | S | 1 - 9 | Intensité du signal | Signal Strength |
-| T | 1 - 9 | Qualité du son | Tone |
-[table:n_rst:Les composants du rapport RST]
+| T | 1 - 9 | Qualité du ton | Tone |
+[table:n_rst:Les composantes du rapport RST]
 
 <note>
-* Tout est expliqué plus en détail dans les diapositives suivantes
-* R: Subjectif
-* S: Lecture sur le S-mètre
-* T: Uniquement pour la télégraphie Morse et les transmissions numériques
+* Tout sera expliqué en détail dans les prochaines diapositives
+* R : Subjectif
+* S : Lecture sur le S-mètre
+* T : Uniquement pour la télégraphie Morse et les transmissions numériques
 </note>
 
 --- style="font-size: 0.8em;"
@@ -43,45 +43,45 @@ Dans le rapport, la station réceptrice décrit la qualité de la liaison
 | l: R | l: Évaluation |
 | 1 | illisible |
 | 2 | lisible par intermittence |
-| 3| lisible avec difficulté |
+| 3 | lisible avec difficulté |
 | 4 | lisible sans difficulté |
-| 5 | lisible sans faute |
-[table:n_rst_r:Points de repère pour l'évaluation subjective de la lisibilité (compréhensibilité)]
+| 5 | parfaitement lisible |
+[table:n_rst_r:Repères pour l'évaluation subjective de la lisibilité (compréhensibilité)]
 
 ---
 
 #### Intensité du signal
 
-Lire sur l'appareil radio
+À lire sur l'appareil radio
 
-[photo:123:n_rst_s-meter:Affichage d'un émetteur-récepteur IC9700, le S-mètre, qui indique le niveau de réception actuel, est mis en évidence]
+[photo:123:n_rst_s-meter:Écran d'un transceiver IC-9700, le S-mètre est mis en évidence, indiquant le niveau de réception actuel]
 
 <note>
 * S de 1 à 9
 * plus de +x dB
-* par exemple 9+20dB
+* par exemple 9+20 dB
 </note>
 
 ---
 
-#### Ton
+#### Qualité du ton
 
-* Utilisé uniquement dans la télégraphie Morse et les procédés de transmission numériques
-* Évaluation subjective du son
-* Omis dans la radiotéléphonie
+* Utilisé uniquement en télégraphie Morse et pour les procédés de transmission numériques
+* Évaluation subjective de la qualité du ton
+* Non utilisé en radiotéléphonie
 
 --- style="font-size: 0.8em;"
 
 ### Exemples de rapports RST
 
-en radiotéléphonie
+En radiotéléphonie
 
 | l: Compréhensibilité | l: S-mètre | c: $\rightarrow$ | l: Rapport RST |
-| sans faute (=5) | +20 dB | $\rightarrow$| 59+20dB |
-| sans faute (=5) | 9 | $\rightarrow$ | 59 |
-| sans difficulté (=4) | 5 | $\rightarrow$ | 45 |
-| avec difficulté (=3) | 3 | $\rightarrow$ | 33 |
-| incompréhensible (=1) | 3 | $\rightarrow$ | 13 |
+| parfaitement (5) | +20 dB | $\rightarrow$ | 59+20 dB |
+| parfaitement (5) | 9 | $\rightarrow$ | 59 |
+| sans difficulté (4) | 5 | $\rightarrow$ | 45 |
+| avec difficulté (3) | 3 | $\rightarrow$ | 33 |
+| incompréhensible (1) | 3 | $\rightarrow$ | 13 |
 [table:n_rst_beispiele:Exemples de rapports RST en radiotéléphonie]
 
 ---
@@ -94,7 +94,7 @@ en radiotéléphonie
 [question:NF301]
 ---
 
-Dans les questions d'examen suivantes, il s'agit de lire correctement le S-mètre. Dans toutes les questions d'examen, on part d'un signal impeccable en téléphonie (radiotéléphonie). La valeur R est donc toujours 5 et la valeur T est omise.
+Pour les questions d'examen suivantes, il est important de savoir lire correctement le S-mètre. Dans toutes les questions d'examen, on part d'un signal parfait en téléphonie (radiotéléphonie). La valeur R est donc toujours 5 et la valeur T est omise.
 
 ---
 [question:BE204]

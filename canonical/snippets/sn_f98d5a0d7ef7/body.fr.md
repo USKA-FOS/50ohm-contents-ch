@@ -1,1 +1,1 @@
-Cours de perfectionnement N après E
+Cours de mise à niveau N selon E

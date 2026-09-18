@@ -1,8 +1,8 @@
-## Mesure du courant et de la tension
+## Mesure de courant et de tension
 
 <left>
-* La tension est mesurée en parallèle avec le composant
-* Le courant est mesuré en série avec le composant
+* La tension se mesure en parallèle avec le composant
+* Le courant se mesure en série avec le composant
 </left>
 <right>
 [picture:1003:a_strom_spannung_messung:Mesure de la puissance d'un amplificateur (PA)]
@@ -13,55 +13,54 @@
 ---
 [question:AI102]
 ---
-## Précision de la mesure
+## Précision de mesure
 
-La valeur mesurée affichée diffère généralement de la valeur réelle
+La valeur mesurée affichée diffère généralement de la valeur réelle en raison de plusieurs facteurs :
 * Résistance interne de l'appareil de mesure
-* Pouvoir de résolution $\rightarrow$ *résolution la plus petite*
-* L'affichage ne change qu'après une modification de la plus petite résolution
+* Résolution $\rightarrow$ *résolution minimale*
+* L'affichage ne change qu'après une modification supérieure à la résolution minimale
 * Le fabricant détermine l'écart
 * L'écart est indiqué dans la fiche technique
 
 ---
 
 <left>
-[picture:1004:a_reale_spannungsmessung:Circuit équivalent appareil de mesure de tension réel]
+[picture:1004:a_reale_spannungsmessung:Schéma équivalent d'un voltmètre réel]
 </left>
 
 <right>
-[picture:1007:a_reale_strommessung:Circuit équivalent appareil de mesure de courant réel]
+[picture:1007:a_reale_strommessung:Schéma équivalent d'un ampèremètre réel]
 </right>
 
 ---
 [question:AI103]
 --- style="font-size: smaller;"
-### Solution
+### Méthode de résolution
 
 * Calcul en pourcentage – les valeurs absolues ne sont pas pertinentes
-* donné: $U_{\mathrm{Abw}}$ avec $\qty{95}{\percent}$ de la valeur réelle
-* donné: $I_{\mathrm{Abw}}$ avec $\qty{95}{\percent}$ de la valeur réelle
-* recherché: écart de la puissance $P = U \cdot I$
+* donné : $U_{\mathrm{écart}}$ à $\qty{95}{\percent}$ de la valeur réelle
+* donné : $I_{\mathrm{écart}}$ à $\qty{95}{\percent}$ de la valeur réelle
+* recherché : écart de la puissance $P = U \cdot I$
 
 <fragment>
-$\begin{split} P_{\textrm{Abw}} &= 100\% - (U_{\mathrm{Abw}} \cdot I_{\mathrm{Abw}})\\ &= 100\% - (95\% \cdot 95\%)\\ &= 100\% - 90,25\%\\ &= 9,75\% \end{split}$
+$\begin{split} P_{\textrm{écart}} &= 100\% - (U_{\mathrm{écart}} \cdot I_{\mathrm{écart}})\\ &= 100\% - (95\% \cdot 95\%)\\ &= 100\% - 90,25\%\\ &= 9,75\% \end{split}$
 </fragment>
 
 ---
-## Courant à travers un multimètre
+## Courant traversant un multimètre
 
-* Même lors d'une mesure de tension, un courant traverse un appareil de mesure
-* Il se produit une division de courant
-* Grâce à la haute résistance interne, le courant qui s'écoule est relativement faible
+* Même lors d'une mesure de tension, un courant circule à travers l'appareil de mesure
+* Il se produit une répartition du courant
+* Grâce à la résistance interne élevée, le courant qui s'écoule est relativement faible
 
 ---
 [question:AI104]
 ---
-### Solution
-* donné: $U = \qty{0,5}{\volt}$
-* donné: $R = \qty{10}{\mega\ohm}$
-* recherché: $I$
+### Méthode de résolution
+* donné : $U = \qty{0,5}{\volt}$
+* donné : $R = \qty{10}{\mega\ohm}$
+* recherché : $I$
 
 <fragment>
-$$I = \frac{U}{R} = \frac{\qty{0,5}{\volt}}{\qty{10}{\mega\ohm}} = \qty{50}{\nano\ampere}$$
+$$I = \frac{U}{R} = \frac{\qty{0,5}{\volt}}{\qty{10}{\mega\ohm}} = \qty{50}{\nano\ampère}$$
 </fragment>
-

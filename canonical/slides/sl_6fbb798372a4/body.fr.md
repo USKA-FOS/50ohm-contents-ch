@@ -1,24 +1,24 @@
 ### Tension alternative sinusoïdale
 <left>
-[picture:878:a_phasenwinkel_zeit:Angle de phase en degrés et en radians ou indication de la durée d'une période]
+[picture:878:a_phasenwinkel_zeit:Angle de phase en degrés et en radians ou indication de la période]
 </left>
 <right>
-* Génération par une bobine tournante dans un champ magnétique
-* Un certain temps est nécessaire pour une rotation
-* À chaque instant, la bobine est à un certain angle $\rightarrow$ *angle de phase*
+* Génération par une bobine en rotation dans un champ magnétique
+* Une rotation complète nécessite un temps déterminé
+* À chaque instant, la bobine se trouve à un angle précis → *angle de phase*
 </right>
 ---
 [question:AB302]
 ---
-### Déphasage
+### Décalage de phase
 
 <left>
-[picture:208:a_phasenverschiebung:Déphasage entre deux signaux sinusoïdaux]
+[picture:208:a_phasenverschiebung:Décalage de phase entre deux signaux sinusoïdaux]
 </left>
 <right>
-* Le déphasage décrit le décalage temporel entre deux signaux périodiques de même fréquence
+* Le décalage de phase décrit le décalage temporel entre deux signaux périodiques de même fréquence
 * Il est généralement exprimé en degrés (°) ou en radians
-* Un déphasage entre le courant et la tension peut être causé par des composants tels que des condensateurs ou des bobines
+* Un décalage de phase entre courant et tension peut par exemple être causé par des composants comme des condensateurs ou des bobines
 </right>
 
 ---

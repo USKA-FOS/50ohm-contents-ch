@@ -1,24 +1,35 @@
+Les signaux peuvent être représentés de différentes manières. Jusqu’à présent, nous avons souvent considéré le *domaine temporel*. Dans ce cas, on représente par exemple comment la tension d’un signal évolue dans le temps. Le même signal peut cependant aussi être analysé dans le *domaine fréquentiel*. Ici, ce n’est plus l’évolution temporelle qui est représentée, mais les composantes fréquentielles qui constituent le signal et leur amplitude respective. Cette représentation est aussi appelée *spectre de fréquences*. Elle repose sur le fait que les signaux périodiques peuvent être décrits comme une superposition de sinusoïdes de fréquences, amplitudes et phases différentes.
 
-% tu connais la représentation temporelle
-% tu connais la représentation de fréquence
-% fourier s'est occupé de la manière dont on passe de l'un à l'autre
-% le signal temporel est analysé pour déterminer l'intensité de chaque fréquence sinusoïdale
-% résumé : chaque signal peut être décomposé en une série d'oscillations sinusoïdales
-% ne pas oublier la phase
-
-Venons-en maintenant à un sujet passionnant qui semble plus compliqué qu'il ne l'est en réalité. On peut représenter les signaux de différentes manières. La représentation d'un signal dans le domaine temporel devrait être connue. Dans ce cas, l'axe des X représente le temps et l'axe des Y une valeur de tension ou de puissance.
-
-Savais-tu que chaque signal peut être composé de sinusoïdes individuelles ? Cela semble fou, mais c'est ainsi. Chaque signal peut être décrit par une superposition de sinusoïdes pures ayant une amplitude et une phase déterminées.
-
-La transformée de Fourier est une fonction mathématique complexe (que nous ne voulons pas expliquer plus en détail ici) qui analyse un signal présent dans le domaine temporel et représente ensuite les sinusoïdes individuelles dont le signal est composé. Cette information peut ensuite être représentée dans un diagramme dans le domaine des fréquences ou également dans le spectre de fréquences. Dans ce cas, l'axe des X décrit maintenant la fréquence et l'axe des Y la valeur de tension ou également la valeur de puissance de la fréquence contenue dans le signal de sortie. Un signal sinusoïdal pur d'une fréquence fixe représente ainsi, dans le spectre de fréquences, une ligne à sa fréquence.
-
-La transformée de Fourier (également appelée transformée de Fourier discrète ou DFT) est, dans sa forme originale, une fonction mathématique complexe et coûteuse. Celle-ci ne peut être représentée que de manière très inefficace dans un logiciel. Au fil du temps, on a trouvé une méthode beaucoup plus efficace pour représenter cette fonction mathématique complexe de manière plus simple - la transformée de Fourier rapide ou également appelée FFT. Celle-ci simplifie considérablement le calcul, en particulier dans les logiciels et le matériel.
+Un signal sinusoïdal pur ne contient par exemple qu’une seule fréquence et apparaît donc dans le spectre de fréquences uniquement à cette fréquence.
 
 
+La *transformée de Fourier* permet de passer du domaine temporel au domaine fréquentiel. Elle décompose mathématiquement un signal en ses différentes composantes fréquentielles. Pour les signaux discrets dans le temps et numérisés, on utilise la *transformée de Fourier discrète* (TFD). Le calcul direct d’une TFD peut devenir très complexe avec un grand nombre d’échantillons. La *transformée de Fourier rapide* (TFR) est un algorithme bien plus efficace pour calculer la TFD. C’est pourquoi la TFR est souvent utilisée dans les logiciels et les matériels numériques, par exemple pour déterminer le spectre de fréquences d’un signal.
+
+
+<indepth>
+Les formes d’onde non sinusoïdales sont composées de plusieurs composantes fréquentielles. En particulier, les variations brutales et les fronts raides dans l’évolution temporelle du signal nécessitent des composantes haute fréquence supplémentaires. Avec l’applet suivant, on peut étudier comment différentes sinusoïdes se superposent pour former diverses formes d’onde.
+
+
+[include:fourier]
+</indepth>
 
 [question:AF630]
 
-Nous nous souvenons que les signaux très anguleux et pointus contiennent des composantes de fréquence plus élevées (appelées harmoniques). Si l'on regarde un tel signal, par exemple un signal rectangulaire, dans le domaine des fréquences, on remarque qu'il est constitué d'un signal sinusoïdal fort à sa fréquence fondamentale ainsi que de plusieurs signaux sinusoïdaux de plus en plus faibles à des multiples impairs de la fréquence fondamentale. C'est d'ailleurs la raison pour laquelle on ne doit en aucun cas appliquer des signaux rectangulaires à une antenne avant qu'ils n'aient traversé un filtre passe-bas. Le filtre passe-bas sert dans ce cas à supprimer les composantes de signal plus élevées et à ne laisser sortir à sa sortie que la fondamentale sous forme de signal sinusoïdal. Si l'on appliquait directement le signal rectangulaire à l'antenne, une émission serait à recevoir sur tous les multiples impairs de la fréquence fondamentale et perturberait certainement de manière massive d'autres services radio.
+---
+
+Le lien entre domaine temporel et domaine fréquentiel est particulièrement visible avec les signaux présentant des fronts raides. Un signal rectangulaire idéal peut par exemple être reconstitué à partir d’une fondamentale et de plusieurs harmoniques. Outre la fréquence fondamentale, apparaissent les multiples impairs de cette fréquence fondamentale. Leurs amplitudes diminuent à mesure que la fréquence augmente.
+
+Ces harmoniques jouent aussi un rôle important pour les émetteurs. Si l’on appliquait directement un signal rectangulaire idéal à une antenne, non seulement la fréquence fondamentale souhaitée serait rayonnée, mais aussi ses harmoniques. Un *filtre passe-bas* permet de supprimer les composantes fréquentielles indésirables de plus haute fréquence, de sorte que seule la fondamentale souhaitée parvienne à l’antenne.
+
+Pour certaines formes d’onde périodiques typiques, le spectre de fréquences peut être décrit de manière particulièrement simple. Nous considérons ici des formes d’onde idéalisées sans composante continue :
+
+
+* Un *signal sinusoïdal* ne contient qu’une seule fréquence. Dans le spectre de fréquences, seule la fréquence fondamentale $f$ apparaît donc.
+* Un *signal rectangulaire* est composé de la fréquence fondamentale et des *multiples impairs* de cette fréquence fondamentale. Il contient donc les fréquences $f$, $3\cdot f$, $5\cdot f$, $7\cdot f$ etc. Les amplitudes des harmoniques diminuent à mesure que la fréquence augmente.
+* Un *signal en dents de scie* contient aussi bien les multiples pairs qu’impairs de la fréquence fondamentale. Il contient donc $f$, $2\cdot f$, $3\cdot f$, $4\cdot f$, $5\cdot f$ etc. Ici aussi, les amplitudes diminuent à mesure que la fréquence augmente.
+* Un *signal triangulaire* ne contient, comme le signal rectangulaire, que les multiples impairs de la fréquence fondamentale, donc $f$, $3\cdot f$, $5\cdot f$, $7\cdot f$ etc. Cependant, les amplitudes des composantes fréquentielles plus élevées diminuent bien plus rapidement que pour le signal rectangulaire.
+
+Ainsi, les formes d’onde peuvent aussi être distinguées par leur spectre de fréquences. Une seule composante spectrale indique un signal sinusoïdal. Si des multiples impairs apparaissent, il s’agit dans les questions d’examen toujours d’un signal rectangulaire.
 
 [question:AB404]
 [question:AB405]

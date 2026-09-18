@@ -1,22 +1,28 @@
-* Les champs électromagnétiques peuvent avoir un effet sur les personnes qui s'y trouvent
-* Il ne doit pas y avoir de danger pour les personnes causé par les installations de radioamateur
-* *Chaque radioamateur* doit connaître la *protection des personnes dans les champs électromagnétiques*
+## Champs électromagnétiques
 
-<note>
-Protection en particulier pour les porteurs d'aides corporelles actives comme les stimulateurs cardiaques ou les pompes à insuline
-</note>
+* Les ondes radio sont composées de champs électriques et magnétiques qui se propagent
+* Désignées globalement comme *champs électromagnétiques*
+* Risque de champs de forte intensité à proximité des antennes !
+* Peuvent avoir des effets nocifs sur les personnes présentes dans ces champs
+
+---
+
+* En particulier, les champs générés à des puissances d'émission plus élevées peuvent endommager le corps humain
+* Peuvent également perturber des dispositifs médicaux actifs, par exemple un stimulateur cardiaque ou une pompe à insuline
+* Aucune menace pour les personnes ne doit provenir des installations de radioamateur
+* *Tout radioamateur* doit connaître les règles de *protection des personnes dans les champs électromagnétiques*
 
 ---
 [question:NK201]
 
 ---
-## CEMU
+## CEM environnementale
 
-L'exploitant de la station de radioamateur fixe est responsable de l'assurance de la "compatibilité électromagnétique dans l'environnement" (CEMU).
+L'exploitant de l'installation radioamateur fixe est responsable de la garantie de la "compatibilité électromagnétique dans l'environnement" (CEM environnementale).
 
 <note>
 * Les valeurs limites doivent être respectées
-* Où se trouvent les valeurs limites, cela vient juste après
+* Les valeurs limites seront présentées juste après
 </note>
 
 ---
@@ -27,18 +33,26 @@ L'exploitant de la station de radioamateur fixe est responsable de l'assurance d
 [question:VE502]
 
 ---
-## BIm-SchV et BEMFV
+## BImSchV et BEMFV
 
-* Les valeurs limites se trouvent dans l'"Ordonnance n° 26 sur l'exécution de la loi fédérale sur la protection contre les immissions" (26. BIm-SchV) et dans l'"Ordonnance sur la procédure de preuve pour la limitation des champs électromagnétiques" (BEMFV)
-* Dans l'ordonnance sur la "procédure de preuve pour la limitation des champs électromagnétiques" (BEMFV), la procédure de déclaration est décrite
-* *Le radioamateur assure avant la mise en service de manière autonome et documente qu'il n'y a pas de danger pour les personnes*
+Les valeurs limites se trouvent dans
 
-<note>
-* Les radioamateurs bénéficient, en tant que seul groupe, du privilège de pouvoir effectuer cette procédure de manière autonome. Tous les autres exploitants de stations radio doivent faire appel à la BNetzA de manière payante.
-* Comment cela fonctionne sera expliqué dans les sections suivantes
-</note>
+* le "26e règlement d'application de la loi fédérale sur la protection contre les immissions" (26. BImSchV)
+
+et dans
+
+* le "règlement sur la procédure de vérification pour la limitation des champs électromagnétiques" (BEMFV)
+
 ---
 [question:VE505]
+
+--- style="font-size: smaller;"
+## Procédure de vérification selon la BEMFV
+
+* La BEMFV décrit la procédure de vérification pour la limitation des champs électromagnétiques
+* *Le radioamateur doit, avant la mise en service, garantir et documenter de manière autonome qu'aucune menace pour les personnes n'existe*
+* Les radioamateurs bénéficient, en tant que seul groupe, du privilège d'effectuer cette procédure de manière autonome
+* Tous les autres exploitants d'installations radio doivent faire appel à la BNetzA, moyennant des frais.
 
 ---
 [question:VE503]
@@ -48,3 +62,10 @@ L'exploitant de la station de radioamateur fixe est responsable de l'assurance d
 
 ---
 [question:VE511]
+
+---
+
+* Il s'agit de la protection des personnes !
+* Par conséquent : la procédure de vérification est une partie importante de l'examen pour le certificat d'opérateur radioamateur
+* La procédure de vérification sera traitée plus en détail dans les sections suivantes
+* Elle n'est nécessaire qu'en cas de dépassement d'une certaine valeur de la puissance rayonnée de l'antenne

@@ -1,8 +1,29 @@
-La précision des fréquences et des plages de mesure dans les émetteurs, récepteurs, oscillateurs, compteurs de fréquence, etc. est indiquée soit en $\unit{\percent}$ ($1 \cdot \num{10^{-2}}$) soit en parts par million ($\unit{\ppm} = 1 \cdot \num{10^{-6}}$). Parfois, l'indication est également donnée directement en notation exponentielle comme par exemple une précision de $1 \cdot \num{10^{-7}}$.
-Avec cette précision, il faut multiplier la fréquence pour calculer l'écart possible des valeurs de mesure ou des affichages.
+La *précision de fréquence* indique dans quelle mesure une fréquence générée, réglée ou mesurée peut s’écarter de sa valeur réelle. Elle est souvent exprimée en pourcentage ($\unit{\percent}$), en *parts per million* ($\unit{\ppm}$) ou directement comme écart relatif.
+
+Dans ce cas, on a :
+
+$\qty{1}{\percent} = 1 \cdot 10^{-2}$
+
+et
+
+$\qty{1}{\ppm} = 1 \cdot 10^{-6}$
+
+
+Pour un fréquencemètre, la précision atteignable dépend principalement de sa *base de temps*. Le fréquencemètre détermine la fréquence du signal d’entrée à l’aide d’une fréquence de référence interne. Si cette référence s’écarte de sa valeur nominale, cet écart se répercute directement sur le résultat de la mesure.
+
+Pour cette raison, on utilise des oscillateurs aussi stables que possible comme base de temps. Les fréquencemètres de haute qualité emploient par exemple un TCXO ou un OCXO. Pour des mesures particulièrement précises, il est souvent possible de connecter une référence de fréquence externe, par exemple un oscillateur synchronisé par GPS (GPSDO).
+
+
+Si la précision relative de la fréquence est connue, on peut calculer l’écart maximal de fréquence attendu :
+
+$\Delta f = f \cdot a$
+
+
+Ici, $f$ représente la fréquence considérée et $a$ la précision relative de la fréquence.
+
 
 <indepth>
-  Remarque concernant la conversion/la représentation des puissances de 10:
+  Remarque concernant la conversion/la représentation des puissances de 10 :
   
   $1 \cdot {\num{10^{-2}}} = \frac{1}{\num{10^2}}$
   $1 \cdot {\num{10^{-6}}} = \frac{1}{\num{10^6}}$
@@ -19,8 +40,6 @@ Avec cette précision, il faut multiplier la fréquence pour calculer l'écart p
 [question:AI509]
 
 [question:AI510]
-
-%TODO - Peut-être qu'une image devrait être intégrée ici pour illustrer la tâche 1823
 
 [question:AI506]
 

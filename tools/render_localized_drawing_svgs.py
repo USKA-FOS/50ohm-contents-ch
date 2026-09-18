@@ -96,8 +96,25 @@ def build_photo_asset_map(language: str) -> dict[str, Path]:
             keys.add(source_key)
         keys.add(asset_path.stem.split(".")[0])
 
-        for key in keys:
-            mapping[key] = asset_path
+        # A source drawing can intentionally refer to a historical photo under
+        # another filename. Keep the primary source key mapped to the current
+        # asset, while allowing additional localized PNGs in the same object
+        # directory to act as explicit filename aliases.
+        asset_paths = [asset_path]
+        alias_languages = [language]
+        if language != "de":
+            alias_languages.append("de")
+        for alias_language in alias_languages:
+            asset_paths.extend(
+                candidate
+                for candidate in sorted(object_dir.glob(f"*.{alias_language}.png"))
+                if candidate not in asset_paths
+            )
+        for candidate in asset_paths:
+            candidate_keys = set(keys) if candidate == asset_path else set()
+            candidate_keys.add(candidate.stem.split(".")[0])
+            for key in candidate_keys:
+                mapping[key] = candidate
     return mapping
 
 

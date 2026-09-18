@@ -345,8 +345,8 @@ Current renderer behavior:
 - `--metadata-only` repairs localized asset metadata without requiring the
   rendering dependencies or modifying SVG files;
 - it rerenders when the localized `.tex` is newer than the `.svg`;
-- with `--skip-existing`, it also rerenders a localized SVG whose width differs
-  from the German reference SVG;
+- a difference in SVG width does not trigger rendering; width differences are
+  a visual-review issue, not evidence that the TeX input changed;
 - an included canonical photo newer than the target SVG also makes that SVG
   stale, even when the TeX itself is unchanged;
 - it skips only up-to-date SVG files when `--skip-existing` is used;

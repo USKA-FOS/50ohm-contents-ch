@@ -1,8 +1,8 @@
 ## Harmoniques
 
 * Multiples entiers de la fréquence fondamentale
-* Apparaissent à cause de formes de signaux qui ne sont pas sinusoïdales, en particulier en cas de surcharge
-* Perturbation d'autres services radio
+* Se produisent lorsque les formes d’onde ne sont pas sinusoïdales, notamment en cas de surmodulation
+* Perturbent d’autres services de radiocommunication
 * Peuvent être réduites
 
 ---
@@ -13,11 +13,11 @@
 ## Filtre passe-bas
 
 <left>
-* Seules les fréquences inférieures à une certaine fréquence de coupure sont transmises
+* Ne laisse passer que les fréquences inférieures à une fréquence de coupure donnée
 * Les harmoniques ne peuvent pas passer ou sont fortement atténuées
 </left>
 <right>
-  [picture:591:tiefpass:Réponse en fréquence d'un filtre passe-bas]
+  [picture:591:tiefpass:Réponse en fréquence d’un filtre passe-bas]
 </right>
 
 ---
@@ -36,66 +36,66 @@
 ## Filtre passe-haut
 
 <left>
-* Seules les fréquences supérieures à une certaine fréquence de coupure sont transmises
-* Utilisées à l'entrée du récepteur pour que les fréquences basses ne perturbent pas
+* Ne laisse passer que les fréquences supérieures à une fréquence de coupure donnée
+* Utilisés à l’entrée du récepteur pour éviter que les basses fréquences ne perturbent
 </left>
 <right>
-   [picture:592:hochpass:Réponse en fréquence d'un filtre passe-haut]
+   [picture:592:hochpass:Réponse en fréquence d’un filtre passe-haut]
 </right>
 <note>
-* Dans la télévision, pour que les émetteurs radio puissants UKW juste en dessous du signal de télévision ne perturbent pas
+* Dans un téléviseur, pour éviter que les puissants émetteurs FM juste en dessous du signal TV ne perturbent
 </note>
 
 ---
 ## Filtre passe-bande
 
 <left>
-* Dans les émetteurs à bande unique
-* Émetteurs dans les domaines VHF/UHF/SHF
-* Supprimer les signaux du traitement du signal en dessous de la fréquence d'émission
+* Pour les émetteurs à bande unique
+* Émetteurs dans les bandes VHF/UHF/SHF
+* Suppression des signaux issus du traitement du signal en dessous de la fréquence d’émission
 </left>
 <right>
-   [picture:593:bandpass:Réponse en fréquence d'un filtre passe-bande]
+   [picture:593:bandpass:Réponse en fréquence d’un filtre passe-bande]
 </right>
 
 ---
 ## Point de fonctionnement
-* Les étages d'émetteur et les étages finaux de puissance doivent fonctionner sans distorsion
+* Les étages émetteurs et les étages de puissance finaux doivent fonctionner sans distorsion
 * Après modification du point de fonctionnement, vérifier la linéarité (amplification sinusoïdale propre)
-* Vérifier l'émission sur les harmoniques
+* Contrôler l’émission d’harmoniques
 
 ---
 [question:EF404]
 
-%J'ai copié les questions des influences perturbatrices ici (DL9MJ)
+%Die Fragen habe ich von Störenden Beeinflussungen hier her kopiert (DL9MJ)
 
 ---
-## Surcharge
+## Surmodulation
 
-* En cas de surcharge des émetteurs et des étages finaux, des émissions parasites apparaissent
+* En cas de surmodulation des émetteurs et des étages de puissance, des émissions parasites apparaissent
 * Celles-ci perturbent les stations voisines
-* Éviter la surcharge
+* Éviter la surmodulation
 
 ---
 [question:EJ213]
 ---
 [question:EJ214]
 ---
-## Stabilité de fréquence
+## Stabilité en fréquence
 
-* Les oscillateurs non stables peuvent entraîner des émissions en dehors des limites de bande
+* Des oscillateurs instables peuvent entraîner des émissions en dehors des limites de bande
 * Cela peut perturber les stations voisines
-* Cause par exemple appareil auto-construit avec oscillateur non stabilisé par quartz
+* Cause possible : appareil de construction amateur avec oscillateur non stabilisé par quartz
 
 ---
 [question:EJ216]
 ---
 ## Bande passante
 
-* Le dépassement de la bande passante admissible peut se produire en particulier avec les émetteurs FM modulés AFSK
-* Remède en limitant la déviation de fréquence
-* Ou en réduisant l'excursion de la NF
-* À prendre en compte dans le cas du Packet-Radio ou des Digimodes
+* Le dépassement de la bande passante autorisée peut se produire notamment avec les émetteurs FM modulés AFSK
+* Solution : limiter l’excursion
+* Ou réduire l’amplitude du signal BF
+* À prendre en compte pour le Packet-Radio ou les modes numériques
 
 ---
 [question:EJ212]

@@ -1,13 +1,13 @@
-Les radioamateurs peuvent ouvrir et modifier des appareils. Pour leur propre sécurité, il y a quelques points à prendre en compte. Cela commence par le fait que l'appareil est déconnecté du réseau. Mais le danger d'un choc électrique n'est pas encore écarté !
+Les radioamateurs ont le droit d’ouvrir et de modifier des appareils. Pour leur propre sécurité, il y a plusieurs points à respecter. Cela commence par le fait de déconnecter l’appareil du réseau. Cependant, cela ne suffit pas à écarter tout danger de choc électrique !
 
 <danger>
-Les travaux sur le côté réseau $\qty{230}{\volt}$ d'un appareil ne peuvent être effectués que par un électricien qualifié !
+Les travaux sur la partie secteur à $\qty{230}{\volt}$ d’un appareil ne doivent être effectués que par un professionnel de l’électricité !
 </danger>
- 
-Nous devons faire particulièrement attention aux condensateurs dans l'alimentation. Ils stockent de l'énergie, sous forme de charges électriques, même lorsqu'ils sont séparés de la tension d'alimentation. La durée dépend de la qualité des composants utilisés et du câblage extérieur.
+
+Nous devons particulièrement faire attention aux condensateurs dans l’alimentation. Ils stockent de l’énergie sous forme de charges électriques, même après avoir été déconnectés de la tension d’alimentation. La durée dépend de la qualité des composants utilisés et du câblage externe.
 
 <danger>
-Dans tous les alimentations à découpage, une tension très élevée est présente sur une partie des condensateurs et donc aussi sur d'autres composants du circuit. *En cas de contact, il y a danger de mort*. Cela s'applique également pendant un certain temps après la séparation du réseau électrique.
+Dans les alimentations à découpage, une très haute tension est présente sur une partie des condensateurs, et donc aussi sur d’autres composants du circuit. *Un contact présente un danger de mort*. Cela reste vrai même après un certain temps après la déconnexion du réseau.
 </danger>
 
 [question:EK203]

@@ -1,50 +1,50 @@
-Les groupes Q sont quelque chose de particulier dans le monde de la radio. Ils ont été établis très tôt et sont profondément enracinés dans de nombreux services de radiocommunication, pas seulement dans le radioamateur. Ils ont été créés principalement pour permettre de transmettre rapidement et facilement des termes récurrents.
+Les codes Q sont quelque chose de particulier dans le monde de la radio. Ils ont été établis très tôt et sont donc profondément ancrés dans de nombreux services radio, pas seulement dans le radioamateurisme. Ils ont surtout été créés pour permettre de transmettre rapidement et simplement des termes récurrents.
 
-Le principal règlement international pour la radio est les Radio Regulations (RR). Les groupes Q y ont été établis, mais le radioamateur les a partiellement adaptés à ses besoins.
+Le règlement international le plus important pour la radio est le règlement des radiocommunications (RR). Les codes Q y ont été définis, mais le radioamateurisme les a partiellement adaptés à ses besoins.
 
-Tous les groupes Q sont composés de 3 caractères et commencent toujours par la lettre Q. Ils peuvent être utilisés comme question, comme réponse ou comme ordre.
+Tous les codes Q comportent 3 caractères et commencent toujours par la lettre Q. Ils peuvent être utilisés comme question, comme réponse ou comme instruction.
 
-Souvent, il est possible d'ajouter un point d'interrogation et de transformer ainsi une affirmation en question. Par exemple, alors que "QRV" signifie que l'on est prêt à recevoir, "QRV?" pose à la station opposée la question de savoir si elle est prête à recevoir.
+Il est souvent possible d’ajouter un point d’interrogation pour transformer une affirmation en question. Par exemple, alors que « QRV » signifie que l’on est prêt à recevoir, « QRV ? » pose à la station correspondante la question de savoir si elle est prête à recevoir.
 
-Pour certains groupes Q, une indication concrète doit suivre. Par exemple, après "QTH", qui signifie "Mon emplacement est...", l'indication de l'endroit doit être envoyée. Une utilisation correcte serait donc par exemple "QTH Berlin".
+Pour certains codes Q, il est nécessaire de fournir une indication concrète. Par exemple, après « QTH », qui signifie « Ma position est… », il faut indiquer sa propre localisation. Une utilisation correcte serait donc par exemple « QTH Berlin ».
 
 [question:VA407]
 
-Dans ce qui suit, nous discutons de tous les groupes Q qui apparaissent dans l'examen, donnons des astuces et expliquons également l'utilisation habituelle dans le radioamateur, si celle-ci diffère de la signification originale. Dans le tableau [ref:n_q_gruppen], ces informations sont également résumées de manière compacte.
+Nous allons examiner ci-dessous tous les codes Q qui apparaissent à l’examen, donner des moyens mnémotechniques et expliquer leur utilisation habituelle dans le radioamateurisme, lorsqu’elle diffère de la signification originale. Ces informations sont également résumées de manière concise dans le tableau [ref:n_q_gruppen].
 
-* QRV: Je suis prêt (je suis *p*réparé)
-* QRM: Perturbation, ou en tant que question: Êtes-vous perturbé? Êtes-vous perturbé par des perturbations "*M*ade by Man"? Cela signifie des perturbations causées par des humains ou par des appareils exploités par des humains, par exemple une installation photovoltaïque ou une émission par un radioamateur sur une fréquence voisine.
-* QTH: Mon emplacement ("*H*ome") est ..., par exemple "QTH Berlin" signifie "Mon emplacement est Berlin".
+* QRV : Je suis prêt (je suis *v*raiment prêt)
+* QRM : Perturbation, ou en question : Êtes-vous perturbé ? Êtes-vous perturbé par des perturbations *m*an-made ? Cela désigne les perturbations causées par l’homme ou par des appareils exploités par l’homme, par exemple une installation photovoltaïque ou une émission d’un radioamateur sur une fréquence voisine.
+* QTH : Ma position ("*H*ome") est…, par exemple « QTH Berlin » signifie « Ma position est Berlin ».
 
 [question:BB204]
 
-* QRT: Arrêtez la transmission (*t*erminate = terminer)! Dans la vie quotidienne du radioamateur, de nombreux radioamateurs terminent leur émission avec la remarque "je fais QRT".
-* QRZ?: Cela permet de demander qui vous a appelé (ordre à la station opposée: veuillez indiquer l'indicatif d'appel une *d*euxième fois)
-* QSL: signifie confirmation de réception ou, en tant que question: demande de confirmation de réception (tout est *l*oggé?)
- 
+* QRT : Arrêtez la transmission (*t*erminate = mettre fin) ! Dans la pratique du radioamateurisme, de nombreux radioamateurs terminent leur émission en indiquant « je fais QRT ».
+* QRZ ? : Cela permet de demander qui a appelé (instruction à la station correspondante : veuillez indiquer l’indicatif d’appel une *z*ième fois)
+* QSL : signifie accusé de réception ou, en question : demande d’accusé de réception (tout est-il *l*oggé ?)
+
 [question:BB203]
 
-"QRZ?" signifie en réalité la question "Qui m'appelle?". Sur les bandes de radioamateur, on l'entend cependant plus fréquemment au lieu de "CQ". Cela se produit généralement lors d'un "Pile Up", lorsque de nombreuses stations essaient d'atteindre une station convoitée. Après qu'une station convoitée ait "traité" un appelant, elle envoie brièvement "QRZ?" pour appeler d'autres stations.
+« QRZ ? » signifie en principe la question « Qui m’appelle ? ». Sur les bandes radioamateur, on l’entend cependant plus souvent à la place de « CQ ». Cela se produit généralement lors d’un所谓 « pile-up », lorsque de nombreuses stations tentent d’atteindre une station très demandée. Après avoir traité un appelant, la station très demandée envoie brièvement « QRZ ? » pour inviter d’autres stations à appeler.
 
 [question:BE115]
 
-* QRO: signifie grande *p*uissance. Ou, en tant que question: Dois-je augmenter la puissance d'émission? Peut-être est-il plus facile de s'en souvenir ainsi: "Dois-je ajouter quelques watts *o*ndessus?"
-* QSO: Dans la vie quotidienne, l'abréviation est utilisée pour une liaison radio. C'est une interprétation libre, mais courante. Correctement, "QSO?": "Pouvez-vous établir une communication radio directe avec ...?"
-* QRX: Je vous rappellerai. En tant que question (QRX?): Quand allez-vous me rappeler? Allez-vous me rappeler au moment *X*?
+* QRO : signifie *g*rande puissance. Ou, en question : Dois-je augmenter la puissance d’émission ? On peut peut-être mieux retenir : « Dois-je ajouter encore quelques watts *o*ver ? »
+* QSO : Dans la pratique, l’abréviation est utilisée pour désigner une liaison radio. C’est une interprétation libre, mais courante. Correctement, « QSO ? » signifie : « Pouvez-vous établir une communication radio directe avec… ? »
+* QRX : Je vous rappellerai. En question (QRX ?) : Quand me rappellerez-vous ? Me rappellerez-vous au moment *X* ?
 
 [question:BB202]
 
 <margin>
-Certains radioamateurs essaient, avec une puissance d'émission particulièrement faible - en règle générale moins de $\qty{5}{\watt}$ - de couvrir des distances aussi grandes que possible. Dans ce cas, on parle, selon le groupe Q homonyme, de *QRP-Betrieb*. La télégraphie au moyen de CW ou de procédés de transmission numériques est particulièrement adaptée au QRP-Betrieb.
+Certains radioamateurs tentent de couvrir de longues distances avec une puissance d’émission particulièrement faible – généralement moins de 5 W. On parle alors, selon le code Q correspondant, de *fonctionnement QRP*. La télégraphie en CW ou les procédés de transmission numériques sont particulièrement adaptés au fonctionnement QRP.
 </margin>
 
-* QRP: Même si vous ne vous intéressez au radioamateur que depuis peu, vous avez peut-être déjà entendu le terme "QRP". Lorsque nous parlons d'appareils QRP ou de liaisons QRP, nous faisons référence à des appareils ou à des liaisons radio avec une faible puissance d'émission. Le sens original est évident. "QRP" est l'ordre de réduire la puissance d'émission.
+* QRP : Même si l’on s’intéresse depuis peu au radioamateurisme, on a peut-être déjà entendu parler du terme « QRP ». Lorsque nous parlons d’appareils QRP ou de liaisons QRP, nous entendons des appareils ou des liaisons radio avec une faible puissance d’émission. Le sens original est évident. « QRP » est l’instruction de réduire la puissance d’émission.
 
 [question:BB205]
 
-* QRN: Perturbations atmosphériques. *N*atürliche Störungen est un bon aide-mémoire et une bonne distinction par rapport à QRM, les perturbations d'origine humaine.
-* QSB: signifie fading ou caractères fluctuants. Pensez à "*b*ergauf et *b*ergab".
-* QSY: Changement de fréquence, "Change Frequenc*y*"
+* QRN : Perturbations atmosphériques. *N*aturelles est un bon moyen mnémotechnique et une bonne distinction avec QRM, les perturbations d’origine humaine.
+* QSB : signifie fading ou variations d’intensité. Pensez à « *b*as en haut et *b*as en bas ».
+* QSY : Changement de fréquence, « Change Frequenc*y* »
 
 [question:BB201]
 [question:BB207]
@@ -53,19 +53,19 @@ Certains radioamateurs essaient, avec une puissance d'émission particulièremen
 [question:BE107]
 
 <webmargin>
-| l: | l: Bedeutung | X: Merkhilfe |
-| QRN | Atmosphärische Störungen | *N*atürliche Störung |
-| QRM | Ich werde gestört | *M*enschengemachte Störung |
-| QRO | Erhöhen Sie die Sendeleistung! | Ein paar Watt *o*bendrauf legen |
-| QRP | Senken Sie die Sendeleistung! | *P*iano (sanft, leise), *P*ssst!|
-| QRT | Stellen Sie die Übermittlung ein! | *T*erminate (Beenden) |
-| QRV | Ich bin bereit | *v*orbereitet |
-| QRX? | Wann rufen Sie mich wieder? | Zeitpunkt *X* |
-| QRZ? | Wer hat mich gerufen? | Bitte nenne das Rufzeichen ein *z*weites Mal! |
-| QSB | Fading, Schwankungen | *B*ergauf, *B*ergab |
-| QSL | Ich bestätige den Empfang | Ich habe ge*l*oggt |
-| QSO? | Erreichen Sie Station ... ? |  |
-| QSY | Frequenzwechsel | Change Frequenc*y* |
-| QTH | Mein Standort | *H*ome, *H*eimat |
-[table:n_q_gruppen:Alle prüfungsrelevanten Q-Gruppen in der Übersicht mit Merkhilfen]
+| l : | l : Signification | X : Moyen mnémotechnique |
+| QRN | Perturbations atmosphériques | Perturbation *n*aturelle |
+| QRM | Je suis perturbé | Perturbation *m*an-made |
+| QRO | Augmentez la puissance d’émission ! | Ajouter encore quelques watts *o*ver |
+| QRP | Réduisez la puissance d’émission ! | *P*iano (doucement, silencieux), *P*ssst ! |
+| QRT | Arrêtez la transmission ! | *T*erminate (mettre fin) |
+| QRV | Je suis prêt | *v*raiment prêt |
+| QRX ? | Quand me rappellerez-vous ? | Moment *X* |
+| QRZ ? | Qui m’a appelé ? | Veuillez indiquer l’indicatif d’appel une *z*ième fois ! |
+| QSB | Fading, variations | *B*as en haut, *b*as en bas |
+| QSL | J’accuse réception | J’ai *l*oggé |
+| QSO ? | Pouvez-vous contacter la station… ? |  |
+| QSY | Changement de fréquence | Change Frequenc*y* |
+| QTH | Ma position | *H*ome, *p*atrie |
+[table:n_q_gruppen:Tous les codes Q pertinents pour l’examen, avec moyens mnémotechniques]
 </webmargin>

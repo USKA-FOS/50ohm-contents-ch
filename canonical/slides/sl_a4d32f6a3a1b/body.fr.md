@@ -1,37 +1,38 @@
 Rappel rapide sur les antennes :
-<left>
-L'antenne Groundplane émet de manière presque uniforme dans toutes les directions du ciel, mais pas vers le haut ou le bas
-</left>
-<right>
-L'antenne Yagi-Uda concentre les faisceaux radio vers l'avant et réduit dans toutes les autres directions
-</right>
-<fragment>
-Lors du calcul des limites pour la distance de protection, la *direction du faisceau principal* est utilisée
-</fragment>
+
+* Une antenne groundplane émet de manière presque uniforme dans toutes les directions horizontales, mais pas vers le haut ou vers le bas.
+* Une antenne Yagi-Uda concentre les ondes radio vers l’avant et réduit l’émission dans les autres directions.
+
+---
+
+* Les limites de sécurité pour la protection des personnes doivent être respectées dans toutes les directions.
+* Si elles sont respectées dans la direction de rayonnement maximal, cela s’applique également, à la même distance, dans toutes les autres directions.
+* La direction de rayonnement maximal est appelée *direction principale de rayonnement*.
 
 ---
 ## Facteur de gain
 
-* Combien une antenne émet mieux dans la direction principale par rapport à un dipôle demi-onde
-* Facteur de gain $\num{2}$ : l'antenne émet dans la direction principale deux fois plus fort qu'un dipôle demi-onde dans sa direction principale
+* Indique dans quelle mesure une antenne rayonne plus fortement dans sa direction principale de rayonnement qu’un dipôle demi-onde.
+* Facteur de gain de $\num{2}$ : l’antenne rayonne dans sa direction principale de rayonnement deux fois plus fortement qu’un dipôle demi-onde dans sa direction principale de rayonnement.
 
 <note>
-* Au lieu du facteur de gain, on indique souvent le "gain en décibels ($\unit{dB}$)"
-* C'est le sujet de la classe E
+* Au lieu du facteur de gain, on indique souvent le « gain en décibels ($\unit{dB}$) ».
+* Ce sujet est abordé dans le cadre de la classe E.
 </note>
 
 ---
-## Puissance efficace rayonnée (ERP)
+## Puissance rayonnée effective (ERP)
 
-Puissance d'émission vers l'antenne multipliée par le facteur de gain
+*Effective radiated power*
 
-<fragment>
-Exemple : $\qty{5}{\watt}$ sur une antenne avec un facteur de gain $\num{2}$ donne la puissance efficace rayonnée de $\qty{10}{\watt}$
-</fragment>
+* Puissance d’émission fournie à l’antenne multipliée par le facteur de gain par rapport au dipôle demi-onde.
+* Correspond à la puissance qu’il faudrait injecter dans un dipôle demi-onde pour obtenir le même rayonnement que l’antenne considérée.
+
+---
+Exemple : $\qty{5}{\watt}$ sur une antenne avec un facteur de gain de $\num{2}$ donne une puissance rayonnée effective de $\qty{10}{\watt}$.
 
 <note>
-* ERP : (anglais) effective radiated power
-* Une Yagi-Uda à 9 éléments peut avoir un facteur de gain de 10, donc $\qty{100}{\watt}$ de puissance d'entrée sont $\qty{1000}{\watt}$ ERP
+Une antenne Yagi-Uda à 9 éléments peut avoir un facteur de gain de 10, donc $\qty{100}{\watt}$ de puissance d’entrée correspondent à $\qty{1000}{\watt}$ d’ERP.
 </note>
 
 ---

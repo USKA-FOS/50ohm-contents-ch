@@ -5,16 +5,16 @@ Nous connaissons déjà
 $P = U\cdot I = \dfrac{U^2}{R} = I^2\cdot R$
 
 <left>
-Réarrangé pour U:
+Résolu pour U :
 $U = \dfrac{P}{I} = \sqrt{P \cdot R}$
 </left>
 <right>
-Réarrangé pour I:
+Résolu pour I :
 $I = \dfrac{P}{U} = \sqrt{\dfrac{P}{R}}$
 </right>
 
 <note>
-* Toutes les formules se trouvent dans le recueil de formules
+* Toutes les formules sont disponibles dans le recueil de formules
 </note>
 
 ---
@@ -38,25 +38,13 @@ $I = \dfrac{P}{U} = \sqrt{\dfrac{P}{R}}$
 ---
 ## Puissance en tension alternative
 
-* En cas de tension alternative, il faut calculer avec la valeur efficace
+* Pour les tensions alternatives, il faut utiliser la valeur efficace
 
 ---
 [question:EB503]
 ---
 [question:EB513]
 <note>
-* Pas de calcul de puissance, mais seulement la Loi d'Ohm
-* La question ne convenait pas ailleurs dans la classe E
+* Pas de calcul de puissance, mais seulement la loi d'Ohm
+* La question ne trouvait cependant sa place nulle part ailleurs dans la classe E
 </note>
-
-
-
-
-
-
-
-
-
-
-
-

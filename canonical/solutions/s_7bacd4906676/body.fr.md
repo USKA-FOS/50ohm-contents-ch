@@ -1,28 +1,28 @@
-La liaison au milieu garantit que les deux points centraux sont électriquement identiques.
+La connexion au centre garantit que les deux points centraux sont électriquement identiques.
 
-Par conséquent, nous avons :
+Cela signifie que :
 
-* $R_1$ et $R_3$ en parallèle entre a et le point central
-* $R_2$ et $R_4$ en parallèle entre le point central et b
+* $R_1$ et $R_3$ sont en parallèle entre a et le point central
+* $R_2$ et $R_4$ sont en parallèle entre le point central et b
 
-Le circuit se compose donc de deux circuits en parallèle, qui sont ensuite en série.
+Le circuit se compose donc de deux montages en parallèle qui sont ensuite en série.
 
-Tout d'abord, $R_1$ et $R_3$ sont combinés :
+On commence par regrouper $R_1$ et $R_3$ :
 
 $ R_{13} = \frac{R_1 \cdot R_3}{R_1 + R_3} $
 
-Puisque les deux résistances sont de même taille :
+Comme les deux résistances sont de même valeur :
 
 $ R_{13} = \frac{\qty{2,2}{\kilo\ohm}}{2} = \qty{1,1}{\kilo\ohm} $
 
-Ensuite, $R_2$ et $R_4$ sont combinés :
+On regroupe ensuite $R_2$ et $R_4$ :
 
 $ R_{24} = \frac{R_2 \cdot R_4}{R_2 + R_4} $
 
-Ces résistances sont également de même taille :
+Ces résistances sont également de même valeur :
 
 $ R_{24} = \frac{\qty{220}{\ohm}}{2} = \qty{110}{\ohm} $
 
-Les deux résistances de remplacement sont en série :
+Les deux résistances équivalentes sont en série :
 
 $ R_\mathrm{ges} = R_{13} + R_{24} = \qty{1100}{\ohm} + \qty{110}{\ohm} = \qty{1210}{\ohm} $

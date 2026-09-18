@@ -1,1 +1,1 @@
-Nous vous préparons à l'examen pour devenir radioamateur. Nos instructeurs expérimentés vous soutiennent tout au long du parcours !
+Nous te préparons à l'examen pour devenir radioamateur. Nos formateurs expérimentés t'accompagnent tout au long du parcours !

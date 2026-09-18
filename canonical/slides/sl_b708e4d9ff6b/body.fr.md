@@ -2,9 +2,9 @@
 [picture:399:a_Bias T:BIAS - T]
 </left>
 <right>
-* Anglais : BIAS-T
+* En anglais : BIAS-T
 * Transmission de tension continue sur un câble coaxial simultanément au signal HF
-* Alimentation électrique de composants à l'antenne (par exemple, LNA)
+* Alimentation électrique de modules à l'antenne (par ex. amplificateur faible bruit)
 * Composé de seulement trois composants
 </right>
 ---
@@ -16,10 +16,10 @@
 [picture:399:a_Bias T:BIAS - T]
 </left>
 <right>
-* $C_1$ maintient le signal de tension continue à l'écart du RX
-* Si $C_1$ est absent, la tension continue est court-circuitée à la masse
-* La tension continue est dirigée vers le conducteur intérieur via l'inductance et découple la HF
-* L'inductance doit être choisie de manière appropriée pour le courant
+* $C_1$ empêche le signal de tension continue de parvenir au récepteur
+* Sans $C_1$, la tension continue est court-circuitée à la masse
+* La tension continue est transmise par l'inductance sur le conducteur intérieur et le signal HF est couplé
+* L'inductance doit être choisie en fonction du courant
 </right>
 ---
 [question:AD324]

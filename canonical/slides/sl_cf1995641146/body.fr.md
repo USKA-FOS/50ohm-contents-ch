@@ -1,21 +1,21 @@
-## Distance de sécurité: calcul du champ lointain (sans atténuation du câble)
+## Distance de sécurité : calcul du champ lointain (sans atténuation des câbles)
 
-* Pour les installations fixes de radioamateur, la distance de sécurité est déterminée au moyen de la formule du champ lointain
+* Pour les installations de radioamateur fixes, la distance de sécurité est déterminée à l'aide de la formule du champ lointain
 
 <fragment>
 $d=\dfrac{\sqrt{30\,\Omega\cdot P_A\cdot G_i}}{E}$
 </fragment>
 
 --- style="font-size: 0.7em;"
-#### Informations supplémentaires sur les procédés de modulation dans le calcul de la distance de sécurité
+#### Informations complémentaires sur les procédés de modulation dans le calcul de la distance de sécurité
 
-* Pour l'affichage d'une installation fixe de radioamateur (selon § 9, BEMFV), le facteur de conversion $\textrm{Faktor}_\textrm{FmodPers}$ doit être indiqué
+* Lors de l'affichage d'une installation de radioamateur fixe (selon § 9, BEMFV), le facteur de conversion $\textrm{Facteur}_\textrm{FmodPers}$ doit être indiqué
 * Ce facteur convertit la puissance de crête indiquée (PEP) en puissance moyenne, qui est utilisée dans la formule du champ lointain pour calculer la distance de sécurité
-* La plupart des procédés de modulation ont ici le facteur $\num{1}$
-* ATV: facteur $\num{0,38}$
+* La plupart des procédés de modulation ont ici un facteur de $\num{1}$
+* ATV : facteur $\num{0,38}$
 
 <note>
-DIN EN 50413, pour le radioamateur seulement ATV avec $\num{0,38}$ et SATV avec $\num{0,54}$
+DIN EN 50413, pertinent pour le radioamateurisme uniquement ATV avec $\num{0,38}$ et SATV avec $\num{0,54}$
 </note>
 
 ---
@@ -23,14 +23,14 @@ DIN EN 50413, pour le radioamateur seulement ATV avec $\num{0,38}$ et SATV avec 
 [question:AK106]
 
 --- style="font-size: smaller;"
-#### Solution
+#### Méthode de résolution
 <left>
-* donné: $E = \qty{28}{\volt\per\meter}$
-* donné: $P_S = P_A = \qty{100}{\watt}$
+* donné : $E = \qty{28}{\volt\per\meter}$
+* donné : $P_S = P_A = \qty{100}{\watt}$
 </left>
 <right>
-* donné: $G_i = 1,64$
-* recherché: $d$
+* donné : $G_i = 1,64$
+* recherché : $d$
 </right>
 
 <fragment>
@@ -38,8 +38,8 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ \Righta
 </fragment>
 
 ---
-## Distance de sécurité: prise en compte de l'atténuation du câble
-* Tout d'abord, la puissance isotrope rayonnée efficace (EIRP) est calculée  
+## Distance de sécurité : prise en compte de l'atténuation des câbles
+* La puissance isotrope rayonnée équivalente (EIRP) est d'abord calculée
 
 <fragment>
 $P_\text{EIRP} = P_S\cdot10^{\frac{g_d - a + \qty{2,15}{\dB}}{\qty{10}{\dB}}}$
@@ -50,15 +50,15 @@ $P_\text{EIRP} = P_S\cdot10^{\frac{g_d - a + \qty{2,15}{\dB}}{\qty{10}{\dB}}}$
 [question:AK108]
 
 --- style="font-size: smaller;"
-#### Solution
+#### Méthode de résolution
 <left>
-* donné: $E = \qty{28}{\volt\per\meter}$
-* donné: $P_S = \qty{300}{\watt}$
-* donné: $a = \qty{0,5}{\dB}$
+* donné : $E = \qty{28}{\volt\per\meter}$
+* donné : $P_S = \qty{300}{\watt}$
+* donné : $a = \qty{0,5}{\dB}$
 </left>
 <right>
-* donné: $g_d = \qty{0}{\dBd}$
-* recherché: $d$
+* donné : $g_d = \qty{0}{\dBd}$
+* recherché : $d$
 </right>
 
 <fragment>
@@ -77,15 +77,15 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow 
 [question:AK109]
 
 --- style="font-size: smaller;"
-#### Solution
+#### Méthode de résolution
 <left>
-* donné: $E = \qty{28}{\volt\per\meter}$
-* donné: $P_S = \qty{700}{\watt}$
-* donné: $a = \qty{0,5}{\dB}$
+* donné : $E = \qty{28}{\volt\per\meter}$
+* donné : $P_S = \qty{700}{\watt}$
+* donné : $a = \qty{0,5}{\dB}$
 </left>
 <right>
-* donné: $g_d = \qty{0}{\dBd}$
-* recherché: $d$
+* donné : $g_d = \qty{0}{\dBd}$
+* recherché : $d$
 </right>
 
 <fragment>
@@ -104,15 +104,15 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow 
 [question:AK110]
 
 --- style="font-size: smaller;"
-#### Solution
+#### Méthode de résolution
 <left>
-* donné: $E = \qty{28}{\volt\per\meter}$
-* donné: $P_S = \qty{75}{\watt}$
-* donné: $a = \qty{1,5}{\dB}$
+* donné : $E = \qty{28}{\volt\per\meter}$
+* donné : $P_S = \qty{75}{\watt}$
+* donné : $a = \qty{1,5}{\dB}$
 </left>
 <right>
-* donné: $g_d = \qty{11,5}{\dBd}$
-* recherché: $d$
+* donné : $g_d = \qty{11,5}{\dBd}$
+* recherché : $d$
 </right>
 
 <fragment>
@@ -131,15 +131,15 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow 
 [question:AK111]
 
 --- style="font-size: smaller;"
-#### Solution
+#### Méthode de résolution
 <left>
-* donné: $E = \qty{28}{\volt\per\meter}$
-* donné: $P_S = \qty{100}{\watt}$
-* donné: $a = \qty{1,5}{\dB}$
+* donné : $E = \qty{28}{\volt\per\meter}$
+* donné : $P_S = \qty{100}{\watt}$
+* donné : $a = \qty{1,5}{\dB}$
 </left>
 <right>
-* donné: $g_d = \qty{10,5}{\dBd}$
-* recherché: $d$
+* donné : $g_d = \qty{10,5}{\dBd}$
+* recherché : $d$
 </right>
 
 <fragment>
@@ -158,15 +158,15 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow 
 [question:AK112]
 
 --- style="font-size: smaller;"
-#### Solution
+#### Méthode de résolution
 <left>
-* donné: $E = \qty{61}{\volt\per\meter}$
-* donné: $P_S = \qty{40}{\watt}$
-* donné: $a = \qty{2}{\dB}$
+* donné : $E = \qty{61}{\volt\per\meter}$
+* donné : $P_S = \qty{40}{\watt}$
+* donné : $a = \qty{2}{\dB}$
 </left>
 <right>
-* donné: $g_d = \qty{18}{\dBd}$
-* recherché: $d$
+* donné : $g_d = \qty{18}{\dBd}$
+* recherché : $d$
 </right>
 
 <fragment>

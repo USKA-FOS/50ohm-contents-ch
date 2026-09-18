@@ -1,7 +1,7 @@
-Non seulement un diélectrique éventuellement présent, mais aussi les pertes ohmiques dans le métal du conducteur contribuent aux pertes sur les lignes d'alimentation. Ces pertes ohmiques augmentent également avec la fréquence, car à mesure que la fréquence augmente, le courant circule de plus en plus uniquement à la surface du conducteur. Nous appelons cet effet "effet de peau" du mot anglais "skin" pour "peau".
+Ce ne sont pas seulement les *matériaux diélectriques* éventuellement présents, mais aussi les pertes ohmiques dans le *métal* du conducteur qui contribuent aux pertes sur les lignes d’alimentation. Ces pertes ohmiques augmentent également avec la fréquence, car à fréquence élevée, le *courant* ne circule plus que sur la surface du conducteur. Cet effet est appelé « effet de peau » (du mot anglais *skin*, qui signifie « peau »).
 
 <indepth>
-La *cause de l'effet de peau* est que les champs électromagnétiques de haute fréquence ne peuvent pas pénétrer profondément dans un conducteur métallique, car ils induisent dans le conducteur des courants qui s'opposent au champ. Dans le cas de conducteurs idéaux, ceux-ci seraient toujours complètement exempts de champ à l'intérieur, et le courant ne circulerait qu'à la surface.
+La *cause de l’effet de peau* réside dans le fait que les champs électromagnétiques à haute fréquence ne peuvent pas pénétrer profondément dans un conducteur métallique, car ils induisent des courants s’opposant au champ à l’intérieur du conducteur. Dans le cas de conducteurs idéaux, ces courants seraient toujours nuls à l’intérieur, et le courant ne circulerait que sur la surface.
 </indepth>
 
 [question:AG318]

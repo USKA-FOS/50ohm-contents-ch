@@ -1,13 +1,13 @@
 ## Atténuateur
 
 <left>
-* Les récepteurs à ondes courtes peuvent être surchargés par des signaux forts
-* En particulier dans la plage de réception et le 1er mélangeur
-* Reproduction déformée et incompréhensible des signaux
+* Les récepteurs HF peuvent être saturés par des signaux puissants
+* En particulier dans la bande de réception et le premier mélangeur
+* Distorsion et reproduction incompréhensible des signaux
 </left>
 <right>
-* Branchement d'un atténuateur (*Attenuator*) dans le TRX
-* Atténuation des signaux d'entrée d'une valeur prédéterminée
+* Activation d'un atténuateur dans l'émetteur-récepteur
+* Réduction des signaux d'entrée d'une valeur prédéfinie
 </right>
 
 ---
@@ -16,13 +16,13 @@
 ## Préamplificateur
 
 <left>
-* Les signaux élevés (UHF et plus) sont atténués par le câble d'antenne
-* *Préamplificateur* directement monté sur l'antenne de réception
+* Les signaux élevés (UHF et plus) sont atténués par la ligne d'antenne
+* Monter un *préamplificateur* directement sur l'antenne de réception
 </left>
 <right>
-* Les pertes de câble sont compensées
-* Désactivable en mode émission
-* Désactivable en cas de signaux locaux forts
+* Compensation des pertes de câble
+* Désactivable en émission
+* Déconnectable en cas de signaux locaux puissants
 </right>
 
 ---

@@ -1,28 +1,28 @@
-Si l'on souhaite vérifier la puissance d'émission d'un émetteur, on connecte une *charge fictive* à la place de l'antenne (voir figure [ref:n_antennenanpassung_dummy_load]). Une charge fictive est également appelée *résistance de terminaison* ou antenne artificielle. Elle se compose d'une résistance de charge (voir chapitre Composants et circuits) et d'un dissipateur thermique.
+Pour vérifier la puissance d’émission d’un émetteur, on branche à la place de l’antenne une *charge fictive* (figure [ref:n_antennenanpassung_dummy_load]). Une charge fictive est aussi appelée *résistance de terminaison* ou antenne artificielle. Elle est composée d’une résistance de charge (cf. chapitre Composants et circuits) et d’un radiateur.
 
 <margin>
 [photo:68:n_antennenanpassung_dummy_load:Charge fictive]
 </margin>
 
-Une charge fictive est utilisée pour l'accord et les mesures sur les émetteurs. La puissance d'émission est, contrairement à une antenne réelle, presque entièrement convertie en chaleur. Ainsi, on évite que des signaux soient émis. Les émissions inutiles et les éventuelles perturbations sur d'autres liaisons radio sont ainsi évitées.
+Une charge fictive est utilisée lors des réglages et des mesures sur les émetteurs. Contrairement à une antenne réelle, la puissance d’émission est presque entièrement convertie en chaleur. Ainsi, on évite l’émission de signaux. Cela permet de prévenir les émissions inutiles et d’éventuelles perturbations sur d’autres liaisons radio.
 
-Il est important que, dans tous les cas, une antenne aussi bien adaptée que possible ou une charge fictive soit connectée à l'émetteur-récepteur lorsque l'on émet avec celui-ci. Sinon, toute la puissance d'émission est réfléchie au niveau de la connexion de l'antenne et peut endommager, par exemple, l'amplificateur haute fréquence (étage final).
+Il est important de toujours brancher soit une antenne bien adaptée, soit une charge fictive sur l’émetteur-récepteur lors de l’émission. Sinon, la puissance d’émission entière est réfléchie au niveau du connecteur d’antenne et peut, par exemple, endommager l’amplificateur haute fréquence (étage final).
 
 <indepth>
-Du point de vue de l'émetteur, une charge fictive ne se distingue pas d'une antenne bien adaptée, car la puissance d'émission n'est pas réfléchie.
+D’un point de vue de l’émetteur, une charge fictive ne peut pas être distinguée d’une antenne bien adaptée, car la puissance d’émission n’est pas réfléchie.
 </indepth>
 
-% [question:VD111] 
+% [question:VD111]
 [question:VU004]
 [question:NJ202]
 [question:NF107]
 
 ---
 
-On ne peut pas éviter complètement les émissions pour l'accord, par exemple lors de l'utilisation d'appareils d'adaptation automatique d'antenne. Si ces émissions sont aussi courtes que possible, elles sont autorisées, même si seule une porteuse sans modulation est émise.
+Il est impossible d’éviter totalement les émissions lors des réglages, par exemple lors de l’utilisation d’un appareil d’adaptation automatique d’antenne. Cependant, si ces émissions sont aussi brèves que possible, elles sont autorisées, même si seul un signal porteur non modulé est émis.
 
 <attention>
-Lors de l'accord de l'appareil d'adaptation d'antenne, cela ne doit se faire que sur des fréquences libres. Sinon, on peut perturber d'autres liaisons.
+Lors du réglage de son appareil d’adaptation d’antenne, cela ne doit être fait que sur des fréquences libres. Sinon, on risque de perturber d’autres liaisons.
 </attention>
 
 % [question:VD112]

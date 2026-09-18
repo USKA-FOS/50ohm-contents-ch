@@ -1,47 +1,92 @@
-Les mesures importantes pour le radioamateur sur les émetteurs sont les mesures de la puissance de sortie des émetteurs ou la mesure des tensions HF dans les composants des circuits HF.
+Les mesures importantes pour le radioamateur sur les émetteurs concernent les mesures de puissances de sortie des émetteurs ou la mesure des tensions HF dans les circuits HF. Lors de la mesure des puissances de sortie des émetteurs, l'émetteur doit être terminé par une impédance définie, adaptée à l'impédance de sortie de l'émetteur. En radioamateurisme, l'impédance habituelle (terminaison de l'émetteur) est de $\qty{50}{\ohm}$. La terminaison peut également être intégrée directement dans le circuit de mesure, mais cela n'est pertinent que pour de faibles puissances.
 
-Lors de la mesure de la puissance de sortie des émetteurs, l'émetteur doit être terminé par une impédance définie, qui correspond à l'impédance de sortie de l'émetteur. Dans le domaine du radioamateur, l'impédance habituelle (terminaison de l'émetteur) est de $\qty{50}{\ohm}$. La terminaison peut également être effectuée directement dans le circuit de mesure, mais cela n'est utile que pour les petites puissances.
+La mesure des tensions HF s'effectue à l'aide d'une sonde HF par redressement à diode et lissage consécutif de la tension continue ainsi obtenue au moyen d'un condensateur placé en aval. La figure [ref:hf_messkopf_0] montre le principe d'une sonde HF avec redressement simple et lissage de la tension continue. La tension HF est terminée à l'entrée avec une impédance adaptée, soit par une résistance (ou une combinaison de résistances). Le redressement s'effectue ensuite au moyen d'une diode, dont la tension de sortie se calcule comme la valeur de crête moins la tension directe de la diode et est tamponnée dans le condensateur placé en aval. La figure [ref:hf_messkopf_1] montre une sonde HF artisanale, la figure [ref:hf_messkopf_2] son schéma électrique.
 
-La mesure des tensions HF est effectuée au moyen d'une sonde HF par redressement de diode et lissage ultérieur de la tension continue ainsi produite avec un condensateur monté en aval.
-
-Avec les sondes HF à une seule diode, la tension de crête de la tension HF appliquée, moins la tension directe de la diode utilisée et d'un diviseur de tension éventuellement monté en amont, peut être mesurée à la sortie de mesure.
+<margin>
+[picture:576:hf_messkopf_0:Principe d'une sonde HF avec redressement simple et lissage de la tension continue]
+[photo:338:hf_messkopf_1:Sonde HF artisanale de DL3JOP]
+[photo:339:hf_messkopf_2:Schéma électrique de la sonde HF de DL3JOP]
+</margin>
 
 [question:AI608]
 
-Pour augmenter la précision de la mesure, en particulier pour les petites puissances dans la gamme VHF/UHF, on utilise souvent un redressement double via 2 diodes, de sorte que les deux demi-ondes HF sont redressées (tension de crête double) et, moins deux fois la tension directe des diodes utilisées, sont disponibles comme tension de mesure additionnée à la sortie de mesure.
+Pour des puissances HF plus élevées, il est nécessaire de placer en amont un atténuateur capable de supporter la charge, qui absorbe une grande partie de la puissance de sortie de l'émetteur à mesurer. L'atténuateur doit être pris en compte dans le calcul de la puissance.
+
+[question:AI609]
+
+---
+
+Pour une mesure aussi précise que possible des tensions et puissances HF, le circuit de mesure utilisé doit d'abord être étalonné. Pour cela, des signaux de référence connus sont injectés et les écarts entre la valeur réelle et la valeur mesurée sont déterminés. À partir de ces écarts, des valeurs de correction dépendant de la fréquence et du niveau peuvent être déterminées et, par exemple, enregistrées dans un tableau comme celui de la [ref:a_frequenzgang_messwerte].
+
+Lors d'une mesure ultérieure, la valeur mesurée affichée est corrigée à l'aide de la valeur de correction correspondante. Si les valeurs mesurées sont indiquées en $\unit{\dBm}$, l'écart déterminé lors de l'étalonnage pour la fréquence correspondante peut, par exemple, être ajouté à la valeur mesurée en $\unit{\dB}$ comme valeur de correction.
+
+<margin>
+| c: Fréquence en MHz | c: Puissance d'émission $\qty{-40}{\dBm}$ | c: Puissance d'émission $\qty{-20}{\dBm}$ |
+| 10   | $\qty{-40,24}{\dBm}$ | $\qty{-20}{\dBm}$    |
+| 50   | $\qty{-40,24}{\dBm}$ | $\qty{-20}{\dBm}$    |
+| 100  | $\qty{-40,26}{\dBm}$ | $\qty{-20,12}{\dBm}$ |
+| 200  | $\qty{-40,26}{\dBm}$ | $\qty{-20,2}{\dBm}$  |
+| 300  | $\qty{-40,51}{\dBm}$ | $\qty{-20,32}{\dBm}$ |
+| 400  | $\qty{-40,46}{\dBm}$ | $\qty{-20,28}{\dBm}$ |
+| 500  | $\qty{-40,84}{\dBm}$ | $\qty{-20,64}{\dBm}$ |
+| 600  | $\qty{-40,7}{\dBm}$  | $\qty{-20,41}{\dBm}$ |
+| 700  | $\qty{-40,7}{\dBm}$  | $\qty{-20,53}{\dBm}$ |
+| 800  | $\qty{-40,8}{\dBm}$  | $\qty{-20,55}{\dBm}$ |
+| 900  | $\qty{-40,37}{\dBm}$ | $\qty{-20,2}{\dBm}$  |
+| 1000 | $\qty{-40,33}{\dBm}$ | $\qty{-20,09}{\dBm}$ |
+| 1100 | $\qty{-40,12}{\dBm}$ | $\qty{-19,85}{\dBm}$ |
+| 1200 | $\qty{-39,94}{\dBm}$ | $\qty{-19,62}{\dBm}$ |
+| 1300 | $\qty{-39,69}{\dBm}$ | $\qty{-19,49}{\dBm}$ |
+| 1400 | $\qty{-40,18}{\dBm}$ | $\qty{-19,79}{\dBm}$ |
+| 1500 | $\qty{-40,13}{\dBm}$ | $\qty{-19,97}{\dBm}$ |
+| 1600 | $\qty{-40,95}{\dBm}$ | $\qty{-20,62}{\dBm}$ |
+| 1700 | $\qty{-41,55}{\dBm}$ | $\qty{-21,64}{\dBm}$ |
+| 1800 | $\qty{-41,47}{\dBm}$ | $\qty{-20,92}{\dBm}$ |
+| 1900 | $\qty{-43,1}{\dBm}$  | $\qty{-23,27}{\dBm}$ |
+| 2000 | $\qty{-42,34}{\dBm}$ | $\qty{-21,89}{\dBm}$ |
+[table:a_frequenzgang_messwerte:Niveaux mesurés en fonction de la fréquence pour la sonde HF de DL3JOP]
+</margin>
+
+[question:AI612]
+
+Examinons maintenant en détail le calcul des circuits. Dans le cas des sondes HF à une seule diode, la tension de crête du signal HF appliqué, moins la tension directe de la diode utilisée et éventuellement d'un diviseur de tension placé en amont, est mesurable à la sortie de la mesure. Une sonde HF avec redressement simple et lissage consécutif se calcule comme suit :
+
+Le signal d'entrée HF est terminé à l'entrée avec une impédance adaptée, soit par une résistance (ou une combinaison de résistances). Dans le circuit représenté (cf. figure [ref:hf_messkopf_0]), la tension HF est divisée par deux par le diviseur de tension placé en aval (qui agit également sur l'impédance). Le redressement de la valeur de crête s'effectue ensuite au moyen d'une diode, dont la tension de sortie se calcule comme la valeur de crête moins la tension directe de la diode et est tamponnée dans le condensateur placé en aval.
+
+---
+
+[question:AI610]
+
+<tip>
+Pour tous les circuits utilisant des sondes HF, on peut partir du principe que la résistance d'entrée est de $\qty{50}{\ohm}$. Il n'est pas nécessaire de la recalculer, cette étape peut être ignorée pour les questions d'examen.
+</tip>
+
+Inversement, la puissance appliquée au circuit peut être calculée à partir de la tension continue mesurée. Essayez de trouver la solution par vous-même !
+
+[question:AI611]
+
+Outre les sondes HF à une seule diode, il existe des circuits à deux diodes. Leur avantage réside dans le fait que les valeurs de crête positive et négative du signal HF sont détectées. Il en résulte une tension de mesure environ double par rapport à un redressement simple de la valeur de crête. Cela est particulièrement utile pour mesurer de faibles tensions HF avec un ampèremètre placé en aval.
 
 [question:AI605]
 [question:AI604]
 
-Pour les puissances HF plus élevées, un atténuateur approprié doit être monté en amont, qui absorbe une grande partie de la puissance de sortie de l'émetteur qui doit être mesurée. L'atténuateur doit être pris en compte dans le calcul de la puissance.
+Les valeurs de crête positive et négative du signal HF sont détectées séparément et stockées dans des condensateurs. Les deux tensions s'additionnent à la sortie. Idéalement, la tension de sortie correspond ainsi à la tension crête-à-crête du signal HF :
 
-[question:AI609]
+$U_\mathrm{A} \approx U_\mathrm{SS} = 2\hat U$
 
-Pour pouvoir mesurer les puissances et les tensions HF avec les circuits mentionnés ci-dessus de manière exacte, ceux-ci doivent être calibrés afin de créer des valeurs de correction correspondantes pour les mesures.
+Dans un circuit réel, il faut également tenir compte des tensions de passage des deux diodes. On obtient donc approximativement :
 
-[question:AI612]
+$U_\mathrm{A} \approx 2\hat U - 2U_\mathrm{F}$
 
-Examinons maintenant le calcul des circuits en détail.
-Un palpeur HF avec redressement simple et lissage ultérieur est calculé comme suit:
+Si l'on souhaite déduire la tension HF à partir de la tension de sortie mesurée, on obtient :
 
-Le signal d'entrée HF est terminé de manière impédante par la résistance existante (ou combinaison de résistances individuelles) à l'entrée. Dans le circuit représenté, la tension HF est divisée par deux par le diviseur de tension suivant (celui-ci étant également efficace en ce qui concerne l'impédance). Ensuite, le redressement de valeur de crête est effectué au moyen d'une diode, dont la tension de sortie se calcule comme la valeur de crête moins la tension directe de la diode et est tamponnée dans le condensateur monté en aval.
+$\hat{U} \approx \frac{U_\mathrm{A}+2U_\mathrm{F}}{2}$
 
-Pour une puissance d'entrée de $\qty{1}{\watt}$ dans un système de $\qty{50}{\ohm}$, on obtient une tension d'entrée de $\qty{7,07}{\volt}$ de tension efficace et $\qty{10}{\volt}$ de tension de crête.
-Le diviseur de tension monté en aval divise cette tension en une tension de crête de $\qty{5}{\volt}$, qui, après redressement par la diode, moins sa tension directe de $\qty{0,23}{\volt}$, est encore de $\qty{4,77}{\volt}$. On mesure alors environ $\qty{4,8}{\volt}$ à la sortie du circuit.
-
-[question:AI610]
-
-Inversement, la puissance fournie au circuit peut être calculée à partir de la tension continue mesurée.
-
-À la sortie du circuit, on mesure une tension de crête de $\qty{14,9}{\volt}$. En raison de la tension directe de la diode, la valeur de crête HF avant la diode est de $\qty{15,6}{\volt}$. En tenant compte du diviseur de tension monté en amont, cela donne une tension de crête HF de $\qty{31,2}{\volt}$. Cela correspond à une puissance d'entrée dans un système de $\qty{50}{\ohm}$ de $\qty{9,73}{\watt}$ et donc environ $\qty{9,7}{\watt}$.
-
-[question:AI611]
-
-Dans le cas des sondes HF et des wattmètres avec redressement double de la valeur de crête (2 diodes), le calcul est effectué comme dans le cas du redressement simple, mais il faut tenir compte de la double tension de crête à la sortie et de la double chute de tension à travers 2 diodes.
+À partir de la valeur de crête, on peut ensuite calculer la valeur efficace et, connaissant la résistance, la puissance HF.
 
 [question:AI607]
 [question:AI606]
 
-Pour indiquer qu'un émetteur rayonne de la puissance via son antenne, on peut utiliser un indicateur d'intensité de champ. Dans ce cas, le HF reçu est fourni à une diode via une antenne de mesure et redressé par la diode. Ensuite, la tension redressée est fournie à un condensateur via des bobines de choc HF, qui tamponne la tension redressée. L'affichage est effectué par un appareil de mesure de courant sensible. Plus la déviation de l'aiguille de l'instrument de mesure est grande, plus l'intensité de champ HF mesurée à l'antenne est élevée. Pour effectuer des mesures exactes, l'antenne de mesure ainsi que le champ de mesure doivent être calibrés.
+Pour indiquer qu'un émetteur rayonne de la puissance via son antenne, on peut utiliser un indicateur d'intensité de champ. Dans ce cas, la HF reçue est appliquée à une diode via une antenne de mesure et redressée. La tension redressée est ensuite transmise à un condensateur via des selfs HF, qui tamponne la tension redressée. L'affichage se fait au moyen d'un ampèremètre sensible. Plus l'aiguille de l'instrument de mesure dévie, plus l'intensité de champ HF mesurée à l'antenne est élevée. Pour effectuer des mesures précises, il est nécessaire d'étalonner à la fois l'antenne de mesure et l'indicateur d'intensité de champ.
 
 [question:AI613]

@@ -1,22 +1,22 @@
-## Opérations radioamateur éducatives
+## Trafic radio de formation
 
-Il existe une exception à des fins de formation, permettant même aux non-radioamateurs d'émettre sur les fréquences radioamateurs.
+Il existe une exception permettant à des non-radioamateurs d’émettre sur les fréquences du radioamateurisme à des fins de formation.
 
-Sous la direction et la supervision immédiates d'un radioamateur agréé de classe E ou A.
+Sous la direction immédiate et la supervision d’un radioamateur titulaire d’une licence de classe E ou A.
 
 ---
 [question:VD303]
 
 ---
 
-### Procédure des opérations radioamateur éducatives
+### Déroulement du trafic radio de formation
 
-* Le stagiaire utilise l'indicatif de l'instructeur et ajoute le suffixe "/T" : DG2RON/T
-* Le T est prononcé "Trainee"
-* Complètement : "DG2RON Trainee"
+* L’apprenant utilise l’*indicatif d’appel* de l’instructeur et ajoute le suffixe « /T » : DG2RON/T
+* Le « T » se prononce « Trainee »
+* En entier : « DG2RON Trainee »
 
 <note>
-* Prononcé : DG2RON Trainee
+* Prononciation : DG2RON Trainee
 </note>
 
 ---

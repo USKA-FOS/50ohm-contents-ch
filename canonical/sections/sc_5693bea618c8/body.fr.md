@@ -1,60 +1,60 @@
-Les circuits électriques constituent la base de toute l'électrotechnique et jouent donc un rôle important dans la radioamateur. En principe, nous avons déjà connu le circuit électrique. Si l'on connecte une source de tension, comme une batterie, à un consommateur, par exemple une lampe, alors nous avons le circuit électrique fermé et le courant circule.
+Les circuits électriques constituent la base de toute l'électrotechnique et jouent donc également un rôle important dans le radioamateurisme. Nous avons déjà abordé le principe du circuit électrique. Si l'on connecte un consommateur à une source de courant, par exemple une batterie, comme une lampe, le circuit est fermé et le courant circule.
 
 <margin>
-[picture:667:n_stromkreis_wasserkreislauf:Circuit d'eau]
+[picture:667:n_stromkreis_wasserkreislauf:Cycle de l'eau]
 </margin>
 
-Pour illustrer cela, examinons d'abord un cas similaire. La figure [ref:n_stromkreis_wasserkreislauf] montre un circuit d'eau dans lequel ce qui suit se produit:
-1. Une pompe crée une pression et pompe ainsi l'eau vers le haut
+Pour mieux comprendre, examinons d'abord une situation similaire. L'illustration [ref:n_stromkreis_wasserkreislauf] montre un cycle de l'eau dans lequel se produisent les étapes suivantes :
+1. Une pompe génère une pression et pompe l'eau vers le haut
 2. L'eau s'écoule à travers une vanne ouverte
-3. Une roue hydraulique est entraînée par l'eau qui s'écoule
+3. Une roue hydraulique est entraînée par l'eau en mouvement
 
-Enfin, la pression est dissipée et l'eau peut être pompée à nouveau par la pompe. Si l'on ferme la vanne, le circuit d'eau est interrompu et la roue hydraulique ne tourne plus.
+Enfin, la pression est réduite et l'eau peut être à nouveau pompée vers le haut. Si l'on ferme la vanne, le cycle de l'eau est interrompu et la roue hydraulique s'arrête.
 
 ---
 
-Un circuit électrique comme dans la figure [ref:n_stromkreis_geschlossen] fonctionne de manière similaire au circuit d'eau. Même si l'analogie du circuit d'eau n'est qu'un modèle et ne peut pas être utilisée pour tous les cas en électrotechnique, elle peut aider à comprendre le circuit électrique.
+Un circuit électrique, comme illustré dans l'image [ref:n_stromkreis_geschlossen], fonctionne de manière similaire au cycle de l'eau. Même si l'analogie avec le cycle de l'eau n'est qu'un modèle et ne peut pas s'appliquer à tous les aspects de l'électrotechnique, elle peut aider à comprendre le fonctionnement d'un circuit électrique.
 
 <margin>
 [picture:662:n_stromkreis_geschlossen:Circuit électrique fermé]
 </margin>
 
-Au lieu d'une pompe, nous utilisons une source de tension, par exemple une batterie, qui crée une tension ($U$) au lieu d'une pression. Cette tension fait circuler le courant ($I$), tout comme la pression fait circuler l'eau.
+Au lieu d'une pompe, nous utilisons une source de tension, par exemple une batterie, qui génère une tension ($U$) au lieu d'une pression. Cette tension fait circuler le courant ($I$), tout comme la pression fait circuler l'eau.
 
 ---
 
-La fonction de la vanne est assurée par un *interrupteur*. Avec celui-ci, on peut interrompre ou fermer le circuit électrique. Le courant ne peut circuler que lorsque le circuit électrique est fermé. Si l'on ouvre l'interrupteur, comme le montre la figure [ref:n_stromkreis_offen], le flux de courant est interrompu. Le symbole de l'interrupteur ainsi que les réalisations pratiques sous forme d'interrupteurs à bascule et à glissière sont représentés dans la figure [ref:n_stromkreis_schalter].
+Le rôle de la vanne est joué par un *interrupteur*. Celui-ci permet d'ouvrir ou de fermer le circuit électrique. Le courant ne peut circuler que si le circuit est fermé. Si l'on ouvre l'interrupteur, comme montré dans l'image [ref:n_stromkreis_offen], le flux de courant est interrompu. Le symbole de l'interrupteur ainsi que des exemples pratiques de commutateurs à bascule et à glissière sont présentés dans l'image [ref:n_stromkreis_schalter].
 
 <margin>
 [picture:663:n_stromkreis_offen:Circuit électrique ouvert]
 </margin>
 
 <margin>
-[photo:202:n_stromkreis_schalter:Symboles de circuit et formes de construction des interrupteurs]
+[photo:202:n_stromkreis_schalter:Symboles de circuit et formes constructives d'interrupteurs]
 </margin>
 
 [question:NB701]
 
 ---
 
-Dans notre exemple d'eau, la roue hydraulique freine le flux d'eau. De manière analogue, dans l'exemple électrique, le flux de courant est freiné par une *résistance* ($R$). Une résistance est un consommateur artificiel qui convertit le courant en chaleur. Elle n'a pour but que de limiter le flux de courant. Différents types de résistances sont représentés dans la figure [ref:n_stromkreis_widerstand].
+Dans notre exemple avec l'eau, la roue hydraulique freine le flux d'eau. De manière analogue, dans le circuit électrique, le flux de courant est ralenti par une *résistance* ($R$). Une résistance est un consommateur artificiel qui convertit le courant en chaleur. Son seul but est de limiter le flux de courant. Différents types de résistances sont illustrés dans l'image [ref:n_stromkreis_widerstand].
 
 [question:NC101]
 
-Dans le circuit électrique fermé, le courant circule toujours du pôle positif de la batterie au pôle négatif de la batterie. Cette direction de flux est désignée dans la terminologie professionnelle par *direction technique du courant* et est indiquée dans la figure [ref:n_stromkreis_geschlossen] par des flèches.
+Dans un circuit électrique fermé, le courant circule toujours du pôle positif de la batterie vers le pôle négatif de la batterie. Cette direction de flux est appelée en termes techniques *sens conventionnel du courant* et est indiquée par des flèches dans l'image [ref:n_stromkreis_geschlossen].
 
 ---
 
 <danger>
-Pour éviter un court-circuit, un circuit électrique ne doit pas se composer uniquement de fil et d'interrupteurs fermés, mais le courant doit toujours circuler à travers une résistance, par exemple un consommateur. Un court-circuit peut être très dangereux, car il laisse passer une grande quantité de courant incontrôlée à travers les lignes, ce qui peut entraîner des dommages à la source de tension, aux appareils, de graves blessures, une surchauffe ou éventuellement même un incendie.
+Pour éviter un court-circuit, un circuit électrique ne doit pas être composé uniquement de fils et d'interrupteurs fermés. Le courant doit toujours circuler à travers une résistance, par exemple un consommateur. Un court-circuit peut être très dangereux, car il permet à une quantité de courant importante et incontrôlée de circuler dans les conducteurs, ce qui peut endommager la source de tension, les appareils, provoquer des blessures graves, une surchauffe ou même un incendie.
 </danger>
 
 [question:NB702]
 
-La question suivante est un peu délicate. On pourrait penser que le courant peut circuler, car un pôle positif est connecté à un pôle négatif. Cela ne suffit cependant pas, car les charges séparées à l'intérieur d'une source de tension veulent s'équilibrer. Pour que cela soit possible, le circuit électrique doit conduire du pôle positif d'une source de tension au pôle négatif *de la même* source de tension. Retenir : Le courant ne peut circuler que dans un circuit électrique fermé !
+La question suivante est un peu délicate. On pourrait penser que le courant peut circuler car un pôle positif est relié à un pôle négatif. Cependant, cela ne suffit pas, car les charges séparées à l'intérieur d'une source de tension veulent s'équilibrer. Pour que cela soit possible, le circuit électrique doit relier le pôle positif d'une source de tension au pôle négatif *de la même source de tension*. À retenir : le courant ne peut circuler que dans un circuit électrique fermé !
 
 <margin>
-[photo:203:n_stromkreis_widerstand:Symboles de circuit et formes de construction des résistances]
+[photo:203:n_stromkreis_widerstand:Symboles de circuit et formes constructives de résistances]
 </margin>
 
 [question:NB207]

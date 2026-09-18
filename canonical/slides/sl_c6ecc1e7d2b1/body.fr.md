@@ -1,6 +1,6 @@
-## SNR (Signal-to-Noise Ratio)
+## SNR (rapport signal/bruit)
 
-* Rapport entre le signal utile et le bruit (Noise)
+* Rapport entre le signal utile et le signal de bruit
 * Plus le SNR est élevé, plus le signal se distingue du bruit
 
 ---
@@ -9,10 +9,10 @@
 ## Facteur de bruit
 
 * Souvent indiqué pour les préamplificateurs HF
-* Détérioration du SNR lors du passage du signal à travers l'amplificateur
-* Rapport entre le SNR entrant et le SNR sortant
-* Niveau de bruit : Indication du facteur de bruit en $\unit{\dB}$
-* Facteur de bruit $\num{2}\rightarrow$ Niveau de bruit $\qty{3}{\dB}$
+* Dégradation du SNR lors du passage du signal dans l'amplificateur
+* Rapport entre le SNR à l'entrée et le SNR à la sortie
+* Mesure du bruit : indication du facteur de bruit en $\unit{\dB}$
+* Facteur de bruit $\num{2}\rightarrow$ mesure du bruit $\qty{3}{\dB}$
 
 ---
 [question:AF228]

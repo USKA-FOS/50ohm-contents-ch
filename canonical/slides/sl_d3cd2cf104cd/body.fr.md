@@ -1,23 +1,23 @@
 <left>
-[picture:489:a_frequenzvervielfacher_schaltung:Exemple d'un circuit d'un multiplicateur de fréquence avec un amplificateur de classe C sans tension de polarisation de base]
+[picture:489:a_frequenzvervielfacher_schaltung:Exemple de circuit d'un multiplicateur de fréquence avec amplificateur de classe C sans polarisation de base]
 </left>
 <right>
-* Le signal d'entrée est fourni à un étage de distorsion non linéaire
-* Par exemple, un amplificateur de classe C, fonctionnant sans tension de polarisation de base
+* Le signal d'entrée est appliqué à un étage de distorsion non linéaire
+* Par exemple, un amplificateur de classe C, grâce à un fonctionnement sans polarisation de base
 * Le signal est fortement distordu
-* Un filtre est utilisé pour sélectionner l'harmonique souhaitée
+* Un filtre permet de sélectionner l'harmonique souhaitée
 </right>
 <note>
 Les circuits amplificateurs seront abordés plus tard dans le chapitre.
 </note>
 ---
 <left>
-[picture:489:a_frequenzvervielfacher_schaltung:Exemple d'un circuit d'un multiplicateur de fréquence avec un amplificateur de classe C sans tension de polarisation de base]
+[picture:489:a_frequenzvervielfacher_schaltung:Exemple de circuit d'un multiplicateur de fréquence avec amplificateur de classe C sans polarisation de base]
 </left>
 <right>
 * Seuls les multiples entiers sont possibles
-* En règle générale, la 2ème ou la 3ème harmonique est utilisée
-* Multiplication de fréquence plus élevée avec des étages connectés en série
+* En règle générale, on utilise la 2ᵉ ou la 3ᵉ harmonique
+* Une multiplication de fréquence plus élevée s'effectue avec des étages montés en série
 </right>
 <note>
 </note>
@@ -29,33 +29,33 @@ Les circuits amplificateurs seront abordés plus tard dans le chapitre.
 ### Blindage
 
 * Des fréquences intermédiaires sont générées
-* Celles-ci entraînent souvent des perturbations
+* Elles provoquent souvent des perturbations
 * Tous les étages doivent être bien blindés
 
 ---
 [question:AF313]
 ---
-### Plusieurs étages de multiplication
+### Plusieurs étages de multiplicateur
 
-* Les fréquences individuelles entre les étages de multiplication peuvent entraîner des perturbations
-* Suivre les fréquences individuelles à travers les étages et calculer les fréquences individuelles
+* Les différentes fréquences entre les étages de multiplicateur peuvent causer des perturbations
+* Suivre le chemin à travers les différents étages et calculer les fréquences individuelles
 * L'ordre des étages est important pour déterminer les fréquences de perturbation
 
 ---
 [question:AF314]
 ---
-#### Méthode de solution
-* donné : $f_\text{émetteur} = \qty{432}{\mega\hertz}$
-* donné : $f_\text{base} = \qty{12}{\mega\hertz}$
+#### Méthode de résolution
+* donné : $f_\text{Émetteur} = \qty{432}{\mega\hertz}$
+* donné : $f_\text{Base} = \qty{12}{\mega\hertz}$
 * donné : $f_\text{QRM} = \qty{144}{\mega\hertz}$
-* recherché : combinaison de multiplication
+* recherché : Combinaison de multiplication
 
 <fragment>
-$n = \frac{f_\text{émetteur}}{f_\text{QRM}} = \frac{\qty{432}{\mega\hertz}}{\qty{144}{\mega\hertz}} = 3$
+$n = \frac{f_\text{Émetteur}}{f_\text{QRM}} = \frac{\qty{432}{\mega\hertz}}{\qty{144}{\mega\hertz}} = 3$
 </fragment>
 <fragment>
-Seule la combinaison de $\textrm{Fréquence de base}\,\cdot 2\cdot 2\cdot 3\cdot 3$ est possible, car elle effectue une triple multiplication de la fréquence en dernier.
+Seule la combinaison $\textrm{Fréquence de base}\cdot 2\cdot 2\cdot 3\cdot 3$ est possible, car elle effectue en dernier une triplication de la fréquence.
 </fragment>
 ---
-Vérification:
-$\begin{split}f_\text{émetteur} &= f_\text{base}\cdot 2\cdot 2\cdot 3\cdot 3\\ &= \qty{12}{\mega\hertz}\cdot 2\cdot 2\cdot 3\cdot 3\\ &= \qty{24}{\mega\hertz}\cdot 2\cdot 3\cdot 3\\ &= \qty{48}{\mega\hertz}\cdot 3\cdot 3\\ &= \bold{\qty{144}{\mega\hertz}}\cdot 3\\ &= \qty{432}{\mega\hertz}\end{split}$
+Vérification :
+$\begin{split}f_\text{Émetteur} &= f_\text{Base}\cdot 2\cdot 2\cdot 3\cdot 3\\ &= \qty{12}{\mega\hertz}\cdot 2\cdot 2\cdot 3\cdot 3\\ &= \qty{24}{\mega\hertz}\cdot 2\cdot 3\cdot 3\\ &= \qty{48}{\mega\hertz}\cdot 3\cdot 3\\ &= \bold{\qty{144}{\mega\hertz}}\cdot 3\\ &= \qty{432}{\mega\hertz}\end{split}$

@@ -1,14 +1,20 @@
-Le compresseur dynamique est souvent utilisé lors de liaisons DX et dans les concours où il est important d'avoir un signal fort et perçant. Lors de l'utilisation d'un compresseur vocal, il faut veiller à éviter les distorsions dues à une surmodulation de l'émetteur. Celles-ci entraîneraient une augmentation de la bande passante (splatter) et, par conséquent, une intelligibilité décroissante pour le récepteur. Il faut donc éviter un réglage trop élevé de la compression dynamique.
+Dans la classe E, nous avons déjà rencontré le *compresseur dynamique*. Un signal vocal BF présente, en raison des différentes intensités sonores lors de la parole, de fortes variations entre les petites et grandes amplitudes du signal. Cette plage est appelée *dynamique*. Un *compresseur BF ou processeur vocal BF* fonctionne comme un processeur vocal pour réduire la dynamique de la modulation : les composantes sonores fortes sont moins amplifiées par rapport aux composantes plus faibles, de sorte que les différences entre elles diminuent. Le niveau global peut ensuite être augmenté (voir figure [ref:a_kompressor]).
 
-[question:AE211]
-[question:AE212]
-
-Un signal vocal NF, en raison de ses fluctuations de volume, présente de grandes différences entre le volume maximal et le volume minimal. Ces différences de volume sont également appelées *plage dynamique*. Grâce à un *compresseur dynamique NF ou processeur vocal NF* dans un émetteur, la plage dynamique d'un signal vocal est réduite, ce qui augmente son volume moyen. Cela réduit également la plage dynamique de la modulation du signal émis, ce qui augmente le niveau d'émission moyen du signal.
+Ainsi, le niveau moyen du signal vocal et, par conséquent, le niveau d'émission moyen augmentent sans que la puissance de crête doive être augmentée en conséquence. De cette manière, la puissance d'émission moyenne peut être augmentée sans distorsion. C'est pourquoi un compresseur dynamique est souvent utilisé lors de liaisons DX et dans les concours, où un signal fort et bien compréhensible est particulièrement important.
 
 [question:AE210]
+[question:AE211]
+
+<margin>
+[picture:1043:a_kompressor:Fonctionnement d'un compresseur]
+</margin>
+
+Lors de l'utilisation d'un compresseur vocal, il faut veiller à éviter une compression trop élevée. Une compression excessive peut rendre le signal vocal artificiel et moins intelligible. Si le processeur vocal ou les étages suivants sont surmodulés, des distorsions et un élargissement du signal émis (*splatter*) peuvent en outre apparaître. C'est pourquoi la compression ne doit être augmentée que dans la mesure où le signal reste propre et bien intelligible.
+
+[question:AE212]
 
 <tip>
-Pour un réglage optimal du compresseur dynamique, il convient de procéder comme suit :
-  1. Réglage de l'amplification du microphone sans activation du compresseur dynamique, de sorte que le compteur ALC de l'émetteur-récepteur réagisse juste ou se situe dans sa plage de réglage.
-  2. Activation progressive du compresseur dynamique et vérification de l'intelligibilité et de la clarté du signal, par exemple par un QSO avec une station correspondante et rapport de l'intelligibilité et de la qualité du signal. En alternative, certains appareils disposent d'une fonction de surveillance, de sorte que le signal émis peut également être écouté via cette fonction. Il est également possible d'écouter le signal émis avec un 2e récepteur et de terminer l'émetteur au moyen d'une charge fictive. Cela évite également les perturbations d'autres stations par des émissions de test.
+Pour un réglage optimal du compresseur dynamique, procédez comme suit :
+  1. Réglez le gain du microphone sans activer le compresseur dynamique, de sorte que le compteur ALC de l'émetteur-récepteur réagisse ou se situe dans sa plage de régulation.
+  2. Activez progressivement le compresseur dynamique et vérifiez la clarté et la qualité du signal, par exemple en établissant un QSO avec une station correspondante et en évaluant le rapport de qualité du signal. Certains appareils disposent d'une fonction de monitoring permettant d'écouter le signal émis. Il est également possible d'utiliser un second récepteur et de terminer l'émetteur par une charge fictive pour écouter le signal émis. Cela permet également d'éviter les perturbations d'autres stations par des émissions de test.
 </tip>

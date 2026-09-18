@@ -1,15 +1,15 @@
-Alors que dans les villes, l'alimentation en énergie électrique dans les immeubles d'habitation et les maisons est invisible, enterrée dans le sol, on trouve parfois encore dans les zones rurales des lignes aériennes ouvertes, appelées lignes aériennes. Celles-ci se terminent au pignon de la maison ou sur un support de toit (figure [ref:n_Dachstaender]) sur le toit de la maison et amènent ainsi l'énergie électrique du réseau électrique. Parfois, il y a aussi des lignes aériennes à proximité des maisons, qui peuvent transporter des tensions encore beaucoup plus élevées, comme par exemple les lignes à haute tension.
+Alors que dans les villes, l'alimentation électrique des bâtiments et des maisons est invisible et enterrée, on trouve encore parfois en milieu rural des lignes aériennes ouvertes, appelées lignes aériennes. Ces lignes se terminent au pignon de la maison ou sur un support de toit (illustration [ref:n_Dachstaender]) sur le toit de la maison et acheminent ainsi l'énergie électrique du réseau vers le bâtiment. Il existe parfois également des lignes aériennes à proximité des habitations qui peuvent transporter des tensions encore bien plus élevées, comme par exemple des lignes à haute tension.
 
 ---
-Les antennes doivent toujours avoir suffisamment d'écart par rapport aux lignes électriques aériennes. Elles ne doivent en aucun cas toucher ces lignes électriques. 
+Les antennes doivent toujours être suffisamment éloignées des lignes aériennes électriques. Elles ne doivent en aucun cas entrer en contact avec ces lignes électriques.
 
 <danger>
-Si une antenne touche une ligne d'alimentation électrique, 
-* il y a un danger immédiat de chocs électriques mortels!
+Si une antenne entre en contact avec une ligne d'alimentation électrique,
+* il y a un risque immédiat de chocs électriques mortels !
 * des tensions dangereusement élevées peuvent pénétrer dans l'installation radio.
 </danger>
 
-Ce n'est pas seulement lors de l'installation des antennes qu'il faut respecter une distance suffisante par rapport aux lignes aériennes. Il faut également éviter absolument que des fils ou des parties de l'antenne ne se détachent, par exemple lors d'une tempête, et ne viennent alors en contact avec de telles lignes ou ne tombent sur des personnes.
+Il ne faut pas seulement respecter une distance suffisante par rapport aux lignes aériennes lors de l'installation des antennes. Il faut également veiller à ce que les fils ou les parties de l'antenne ne se détachent pas, par exemple lors d'une tempête, et n'entrent pas en contact avec de telles lignes ou ne tombent pas sur des personnes.
 
 [question:NK311]
 

@@ -1,28 +1,52 @@
-% TODO reformuler
-% Idée DL9MJ : exemple avec une image, chaque bit dans I et Q et comment le signal pour 00, 01, 10, 11 apparaît
+Dans la section précédente, nous avons vu que l'information dans un symbole peut être représentée, par exemple, par différentes amplitudes ou fréquences. Une autre possibilité consiste à modifier la phase d'un signal. Pour représenter clairement les états de signal avec différentes amplitudes et phases, on utilise souvent la *représentation I/Q*.
 
-La QAM peut être générée particulièrement simplement à l'aide de deux porteuses de même fréquence. L'une des deux porteuses doit être déphasée de $\qty{90}{\degree}$. Les deux porteuses sont ensuite modulées en amplitude chacune avec un signal propre. L'un des signaux est appelé I (pour In-Phase Component) et l'autre signal est appelé Q (pour Quadrature Phase Component). La porteuse déphasée est modulée avec le signal Q. Ensuite, les deux porteuses modulées sont superposées, ce qui donne une porteuse qui change à la fois en amplitude et en phase.
 
-<indepth>
-[include:applet_iq]
-</indepth>
-  
-%TODO IMAGE QAM4 QAM8 ou plus ?
+Considérons d'abord un état de signal à l'instant $t=0$. Pour le symbole, on définit une amplitude $A$ et une phase $\varphi$. Dans une représentation vectorielle, l'amplitude détermine la longueur du vecteur et la phase son angle par rapport à l'axe horizontal.
 
-[question:AE404]
-[question:AF632]
 
-L'idée de base de traiter un signal en deux parties séparément trouve également une large application dans le traitement numérique des signaux. Elle est désignée comme procédé I/Q après les deux signaux partiels. Le procédé I/Q permet de générer n'importe quel signal. À cet effet, le flux de données à moduler se compose d'une partie I et d'une partie Q. Deux convertisseurs N/A convertissent chacun une des deux parties en un signal I ou Q analogique. Avec le signal I et le signal Q, les deux porteuses déphasées sont à nouveau modulées. Dans la dernière étape, celles-ci sont superposées pour former une porteuse qui est émise.
+Le vecteur peut être décomposé en une composante horizontale et une composante verticale. La composante horizontale est appelée $I$ pour *In-Phase Component*, la composante verticale $Q$ pour *Quadrature Component*. Pour l'état de signal représenté, on a :
 
-De même, la procédure est suivie du côté du récepteur. Le signal d'entrée est mélangé avec une porteuse pour obtenir le signal I, qui est ensuite converti en partie I d'un flux de données au moyen d'un convertisseur A/N. Simultanément, le signal d'entrée est également mélangé avec une porteuse déphasée de $\qty{90}{\degree}$ pour obtenir le signal Q, qui est à son tour converti en partie Q du flux de données au moyen d'un convertisseur A/N.
+
+$I=A\cdot\cos(\varphi)$
+
+
+$Q=A\cdot\cos(\varphi-\qty{90}{\degree})=A\cdot\sin(\varphi)$
+
+
+Si le temps continue de s'écouler, le vecteur associé à l'oscillation tourne. Ses projections sur les deux axes évoluent de manière sinusoïdale et sont déphasées de $\qty{90}{\degree}$ l'une par rapport à l'autre. L'applet montre cette relation entre l'oscillation et sa représentation I/Q.
+
+
+[include:applet_iq_zeiger]
 
 [question:AF633]
 
-Un tel flux de données numériques peut toujours représenter une certaine bande de fréquences du signal d'entrée, qui se situe autour d'une fréquence centrale. Si le signal d'entrée est par exemple mélangé avec une porteuse de $\qty{435}{\mega\hertz}$ et une porteuse de $\qty{435}{\mega\hertz}$ déphasée de $\qty{90}{\degree}$ et que les deux signaux résultants sont numérisés par des convertisseurs A/N, alors le flux de données I/Q résultant représente la bande de fréquences autour de $\qty{435}{\mega\hertz}$.
 
-% TODO Référence au théorème d'échantillonnage ?
-La bande passante couverte dépend de la fréquence d'échantillonnage de la conversion A/N. La bande passante en Hz correspond à la fréquence d'échantillonnage en échantillons par seconde. Si, dans notre exemple, à la fois la partie I et la partie Q sont échantillonnées à 10 millions d'échantillons par seconde, alors le flux de données I/Q résultant peut couvrir une bande de fréquences de $\qty{10}{\mega\hertz}$, c'est-à-dire de $\qty{-5}{\mega\hertz}$ à $\qty{+5}{\mega\hertz}$ par rapport à la fréquence centrale. Le flux de données couvre alors les fréquences de $\qty{430}{\mega\hertz}$ à $\qty{440}{\mega\hertz}$.
+On peut se représenter intuitivement que, au début de chaque intervalle de symbole, la valeur du symbole à transmettre détermine un point dans le plan I/Q et donc l'amplitude et la phase initiale de l'oscillation pour ce symbole. Pour le symbole suivant, on passe à l'état de signal correspondant au point suivant.
 
-[question:AF634]
-[question:AF635]
-[question:AF636]
+
+Pour la représentation des symboles, ce qui nous intéresse n'est donc pas la rotation continue du vecteur, mais l'état initial défini pour chaque symbole. Si l'on représente les états initiaux possibles sous forme de points dans le plan I/Q (cf. [ref:a_iq_ebene]), on parle de *diagramme de constellation* (cf. figure [ref:a_konstellationsdiagramm]). Chaque point correspond à un symbole possible. La distance d'un point par rapport à l'origine décrit l'amplitude du signal. Son angle par rapport à l'axe I décrit la phase.
+
+
+<margin>
+[picture:1060:a_iq_ebene:Plan I/Q avec un point de signal]
+[picture:1059:a_konstellationsdiagramm:Diagramme de constellation avec 4 points de constellation]
+</margin>
+
+<indepth>
+Pour les personnes intéressées par les mathématiques : une oscillation sinusoïdale peut également être décrite mathématiquement comme un *vecteur complexe* tournant avec la pulsation $\omega_\mathrm{c}$ :
+
+
+$s(t) = \Re\left\{A \cdot e^{j(\omega_\mathrm{c}t+\varphi)}\right\} = A\cos(\omega_\mathrm{c}t+\varphi)$
+
+
+Ici, $A$ décrit l'amplitude et $\varphi$ la phase initiale du signal. L'expression complexe peut être décomposée en deux parties :
+
+
+$A \cdot e^{j(\omega_\mathrm{c}t+\varphi)} = \underbrace{A \cdot e^{j\varphi}}_{\text{Amplitude et phase}} \cdot \underbrace{e^{j\omega_\mathrm{c}t}}_{\text{Porteuse}}$
+
+
+Dans un diagramme de constellation, c'est la première partie $A \cdot e^{j\varphi}$ qui nous intéresse. Elle décrit l'amplitude et la phase de l'état de signal. La rotation continue de la porteuse elle-même n'est pas représentée ici.
+</indepth>
+
+
+Cette représentation sera utilisée à plusieurs reprises dans les sections suivantes : elle permet de représenter clairement les symboles possibles des procédés de modulation numériques et, plus tard, de décrire l'attribution des combinaisons de bits à ces symboles.

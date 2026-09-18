@@ -1,25 +1,25 @@
-* Objectif lors de la construction d'une installation radio : seule l'antenne doit émettre ou recevoir des signaux
-* Pour cela, des lignes blindées, par exemple des lignes coaxiales usuelles, sont adaptées
-* Dans l'idéal, elles n'émettent pas elles-mêmes ou ne captent pas de rayonnement
+* L’objectif lors de la construction d’une installation radio est que seule l’antenne émette ou reçoive des signaux
+* Pour cela, on utilise des lignes blindées, par exemple un câble coaxial
+* Dans l’idéal, elles n’émettent pas elles-mêmes ou ne captent pas de rayonnement
 
 ---
 <left>
-* Un câble coaxial non symétrique est connecté à un dipôle symétrique
-* Des courants haute fréquence peuvent circuler sur la face extérieure du câble coaxial
-* Cela fait que le câble lui-même rayonne $\rightarrow$ *ondes de gaine*
-* Les courants de gaine sont absents, ce qui entraîne une déformation de la caractéristique directionnelle
+* Un câble coaxial asymétrique est connecté à un dipôle symétrique
+* Des courants haute fréquence peuvent circuler sur la face externe du câble coaxial
+* Le câble lui-même émet alors → *courants de gaine*
+* Les courants de gaine manquent, ce qui déforme le diagramme de rayonnement
 </left>
 <right>
-[picture:633:e_mantelwelle_effekt:Courant de gaine à $I_3$]
+[picture:633:e_mantelwelle_effekt:Courant de gaine pour $I_3$]
 </right>
 <note>
 On peut imaginer un câble coaxial comme trois conducteurs :
   
-1. Extérieur du conducteur intérieur
-2. Intérieur du conducteur extérieur
-3. Extérieur du conducteur extérieur
+1. Face externe du conducteur intérieur
+2. Face interne du conducteur extérieur
+3. Face externe du conducteur extérieur
 
-Les courants de gaine sont liés à l'effet de peau, qui est traité en classe A
+Les courants de gaine sont liés à l’effet de peau, abordé dans la classe A
 </note>
 ---
 [question:EG405]
@@ -28,10 +28,10 @@ Les courants de gaine sont liés à l'effet de peau, qui est traité en classe A
 ---
 [question:EG404]
 ---
-## Empêcher les ondes de gaine
+## Éviter les courants de gaine
 
-* Par un *symétriseur*, un balun (balanced-unbalanced)
-* Ou pour l'atténuation, enrouler le câble coaxial sur un noyau de ferrite
+* Grâce à un *symétriseur*, un balun (balanced-unbalanced)
+* Ou, pour atténuer les courants de gaine, enrouler le câble coaxial sur un noyau de ferrite
 
 ---
 [question:EG407]

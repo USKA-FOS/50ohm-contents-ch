@@ -1,10 +1,10 @@
 <left>
 * Réception du signal souhaité
-* Avec suppression simultanée des signaux indésirables proches
+* Tout en assurant la suppression des signaux indésirables proches
 </left>
 <right>
-* Sélectivité élevée $\rightarrow$ bande passante réduite nécessaire
-* Idéalement, seulement aussi large que le signal à recevoir
+* Une haute sélectivité $\rightarrow$ nécessite une bande passante réduite
+* Idéalement, aussi étroite que le signal à recevoir
 </right>
 
 ---

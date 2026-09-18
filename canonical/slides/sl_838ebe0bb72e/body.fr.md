@@ -1,24 +1,13 @@
 ### Infractions et conséquences
 
-La Bundesnetzagentur peut, en cas d'infractions à la loi sur les radiocommunications pour amateurs (AFuG) ou au règlement sur les radiocommunications pour amateurs (AFuV), ordonner une restriction de l'exploitation ou la mise hors service de la station de radioamateur. Si des infractions continues à la loi sur les radiocommunications pour amateurs (AFuG) ou au règlement sur les radiocommunications pour amateurs (AFuV) sont commises, l'autorisation de radiocommunication pour amateurs peut être révoquée.
+* Les infractions à la loi sur le radioamateurisme (AFuG) ou à l’ordonnance sur le radioamateurisme (AFuV) ne sont pas toujours sanctionnées par des amendes
+* Les radioamateurs sont plus sévèrement touchés lorsque des restrictions d’exploitation, voire une interdiction d’exploitation, leur sont imposées
 
 ---
 
-Les infractions selon la loi sur les radiocommunications pour amateurs (AFuG) sont :
-
-* Exploitation sans autorisation et donc sans indicatif d'appel
-* Fourniture de services de télécommunication à titre commercial
-* Transmission de messages pour et à des tiers
-
-<fragment>
-La Bundesnetzagentur peut sanctionner une infraction par une amende.
-</fragment>
-
----
-
-Une infraction selon la loi sur les télécommunications (TKG) est l'utilisation de fréquences sans attribution de fréquence. Pour le radioamateur, cela signifie :
-
-S'il émet avec son installation de radioamateur en dehors des bandes de fréquences attribuées aux radioamateurs, il commet une infraction.
+* En cas de récidive d’infractions à l’AFuG et à l’AFuV, l’autorisation peut même être révoquée – la mesure la plus radicale de l’OFCOM
+* Même après la révocation de l’autorisation, on peut continuer à se désigner comme radioamateur, mais on est exclu de toute activité radioamateur
+* La suppression du certificat de radioamateur n’est pas prévue – quiconque a réussi l’examen reste radioamateur
 
 ---
 [question:VC122]
@@ -27,10 +16,27 @@ S'il émet avec son installation de radioamateur en dehors des bandes de fréque
 [question:VC123]
 
 ---
+
+Les infractions administratives au sens de la loi sur le radioamateurisme (AFuG), § 9, sont :
+
+* Exploitation sans autorisation et donc sans indicatif d’appel
+* Prestation de services de télécommunications à titre professionnel
+* Transmission de messages pour des tiers ou en provenance de tiers
+
+<fragment>
+L’Office fédéral de la communication peut sanctionner une infraction par une amende.
+</fragment>
+
+---
 [question:VC124]
 
 ---
 [question:VC125]
+
+---
+
+* Une infraction administrative au sens de la loi sur les télécommunications (TKG) consiste à utiliser des fréquences sans attribution de fréquence
+* Si un radioamateur émet avec son installation de radioamateur en dehors des bandes de radioamateur qui lui sont attribuées, il utilise la fréquence sans attribution et commet une infraction administrative
 
 ---
 [question:VE103]

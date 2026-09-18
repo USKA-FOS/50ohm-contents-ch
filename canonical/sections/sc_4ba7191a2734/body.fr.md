@@ -1,7 +1,11 @@
-La polarisation circulaire est généralement utilisée à des fréquences dans la gamme VHF ou à des fréquences encore plus élevées, car la structure des antennes à ondes courtes à polarisation circulaire est plutôt impractique.
+La polarisation circulaire (cf. figure [ref:a_zirkular]) est généralement utilisée à partir des fréquences de la bande VHF ou à des fréquences encore plus élevées, car la structure d'une antenne à ondes courtes à polarisation circulaire est peu pratique. C'est pourquoi, en ondes courtes, on utilise généralement une polarisation horizontale ou verticale.
+
+<margin>
+[picture:935:a_zirkular:Polarisation circulaire]
+</margin>
 
 <indepth>
-La polarisation circulaire est principalement utilisée dans le domaine de la *communication par satellite ou spatiale*, car dans ce cas, une rotation mécanique de l'antenne autour de l'axe dans la direction de propagation ne joue aucun rôle. Ainsi, un satellite peut fonctionner indépendamment de la rotation actuelle dans l'espace sans pertes de polarisation.
+La polarisation circulaire est principalement employée dans le domaine des *communications par satellite ou spatiales*, car elle permet au satellite de fonctionner sans perte de polarisation, quelle que soit sa rotation dans l'espace.
 </indepth>
 
 [question:AG201]

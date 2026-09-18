@@ -1,13 +1,17 @@
-À partir du recueil de formules, nous savons que :
+D’après le recueil de formules :
 
-$ü = \frac{I_S}{I_P} = \frac{U_P}{U_S}$
+$r = \frac{I_S}{I_P} = \frac{U_P}{U_S}$
 
-Nous cherchons le courant primaire $I_P$, donc la formule est réarrangée :
+
+Le courant primaire $I_P$ est recherché, donc la formule est réarrangée :
+
 
 $I_P = \frac{U_S \cdot I_S}{U_P}$
 
-En insérant les valeurs données :
+
+Insertion des valeurs données :
 
 $I_P = \frac{\qty{6}{\volt} \cdot \qty{1,15}{\ampere}}{\qty{230}{\volt}}$
+
 
 $I_P \approx \qty{0,03}{\ampere} = \qty{30}{\milli\ampere}$

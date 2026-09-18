@@ -1,17 +1,17 @@
+%TODO Modifier l’image. Si une meilleure image est disponible.
 <margin>
-[photo:58:n_klubstationen_klubstation:La station de club DL0AO de l'association locale DARC d'Amberg]
+[photo:58:n_klubstationen_klubstation:La station club DL0AO de l’association locale DARC Amberg]
 </margin>
 
 ---
 
-En règle générale, une station de radioamateur est exploitée par une seule personne. Certains radioamateurs exploitent cependant également ensemble une station, qui est alors désignée comme station de club. En plus de l'indicatif d'appel lié à la personne, il existe pour de tels groupes d'au moins trois radioamateurs des indicatifs d'appel spéciaux pour une utilisation commune à une station de club (voir tableau [ref:n_klubstation_rufzeichen]).
+En règle générale, une station de radioamateurisme est exploitée par une seule personne. Cependant, il existe aussi des associations de radioamateurisme qui gèrent une station, appelée alors *station club*. En plus des indicatifs d’appel attribués à des personnes, il existe des indicatifs spéciaux pour ces groupes, utilisés à la station club. On les appelle des *indicatifs d’association*.
 
-[question:VD117]
 
 ---
-
+% Réutiliser le tableau pour un exemple des différents indicatifs (associations, concours, armée)
 <margin>
-| l: Indicatif d'appel | l: | l: | X: Classe |
+| l: Indicatif d’appel | l: | l: | X: Classe |
 | DAØAA | - | DAØZZZ | A |
 | DAØA | - | DA3Z | A |
 | DBØA | - | DD9Z | A |
@@ -25,53 +25,57 @@ En règle générale, une station de radioamateur est exploitée par une seule p
 | DOØA | - | DO9Z | E |
 | DP3A | - | DP9Z | A |
 | DQØA | - | DR9Z | A |
-[table:n_klubstation_rufzeichen:Indicatifs d'appel pour les stations de club]
+[table:n_klubstation_rufzeichen:Indicatifs pour stations club]
 </margin>
 
-Les questions suivantes peuvent à nouveau être répondues à l'aide du [plan d'indicatifs d'appel](https://50ohm.de/rzp) :
 
-[question:BD101]
-[question:BD103]
-
-Pour demander un indicatif d'appel pour une station de club, le groupe doit désigner une personne comme responsable de la station, qui est elle-même radioamateur avec une autorisation de participer au service de radioamateur. Le responsable de la station devient le titulaire de l'indicatif d'appel, qui est attribué pour une durée de cinq ans. Une prolongation doit être demandée à temps. L'indicatif d'appel pour la station de club ne peut être utilisé qu'une fois l'attribution effectuée.
-
-[question:VD401]
-[question:VD402]
-[question:VD403]
-
-Une station de club peut être utilisée par tout radioamateur disposant d'une autorisation de participer au service de radioamateur. L'utilisation n'est pas non plus limitée aux membres du groupe.
-
-[question:VD404]
-[question:VD405]
 
 ---
+<law>
+Lien direct vers le site [eGov](https://www.egov.swiss/fr/amateurfunk/rufzeichen-vereine-beschreibung) pour la demande d’un indicatif d’association ainsi que d’indicatifs de concours et d’indicatifs spéciaux pour les associations de radioamateurisme.
 
-Un radioamateur avec la classe de certificat N ou E peut également effectuer des opérations radio à une station de club de classe A, mais uniquement dans le cadre de son autorisation. Inversement, un radioamateur avec la classe de certificat A ne peut utiliser à une station de club de classe E ou N que les performances et les bandes autorisées pour la classe E ou N respectivement. Il en va de même pour toutes les autres combinaisons, comme le montre le tableau [ref:n_klubstation_unterschiedliche_klassen].
+[Lien direct vers eGov](https://www.egov.swiss/fr/amateurfunk/rufzeichen-vereine-beschreibung) pour la demande d’un indicatif d’association ainsi que d’indicatifs de concours et d’indicatifs spéciaux pour les associations de radioamateurisme.
 
-<webmargin>
-| X: | c: Station N | c: Station E | c: Station A |
-| Radioamateur N | N | N | N |
-| Radioamateur E | N | E | E |
-| Radioamateur A | N | E | A |
-[table:n_klubstation_unterschiedliche_klassen:Représentation, dans le cadre de quelle classe les opérations radio peuvent être effectuées lorsque la classe du radioamateur et la classe de la station de club diffèrent]
-</webmargin>
+Lien direct vers eGov pour [la demande d’un indicatif d’association](https://www.egov.swiss/fr/amateurfunk/rufzeichen-vereine-beschreibung) ainsi que d’indicatifs de concours et d’indicatifs spéciaux pour les associations de radioamateurisme.
 
-Voici deux exemples basés sur la bande des $\qty{40}{\meter}$, qui ne peut être utilisée que par les titulaires d'une autorisation de radioamateur de classe A :
-* Le radioamateur de classe E peut utiliser la station de club de classe A, mais pas la bande des $\qty{40}{\meter}$, car celle-ci n'est pas libérée pour la classe E.
-* Le radioamateur de classe A peut utiliser la station de club de classe E, mais pas la bande des $\qty{40}{\meter}$, car celle-ci, comme mentionné précédemment, n'est pas autorisée pour la classe E.
+</law>
 
-En résumé : la classe la plus basse détermine l'autorisation maximale.
+%tbd quelle formulation est la meilleure. Ou une autre.
+%Todo. Adapter tous les éléments <law> avec lien vers eGov selon le modèle.
 
-[question:VD406]
-[question:VD407]
 
-Lors d'événements ou de situations similaires, une station de club peut également être exploitée temporairement à d'autres endroits. Une notification à la BNetzA n'est pas nécessaire en cas de changement *temporaire* de lieu.
+Les indicatifs d’association sont des indicatifs dont le suffixe est composé de deux lettres et sont attribués uniquement aux associations de radioamateurisme. Les souhaits d’indicatifs peuvent être pris en compte, à condition que l’indicatif souhaité soit libre depuis au moins 5 ans.
 
-[question:VD408]
+Pour commander un indicatif d’association, les documents suivants doivent être soumis à l’OFCOM :
+* Copie des statuts de l’association ;
+* Composition actuelle du comité de l’association ;
+* Le nom et l’indicatif d’appel du responsable technique. Celui-ci doit être titulaire d’un certificat de compétence CEPT (HB9) avec accès à toutes les bandes et tous les modes du service d’amateur ;
+* La demande s’effectue via le service correspondant sur le portail eGov.
 
-[question:VU008]
-[question:VU009]
+
+
+
+[question:BD103]
+
+Une station club peut être utilisée par tout radioamateur disposant d’une autorisation pour participer au service d’amateur.
 [question:VN028]
-[question:BD110]
+Son utilisation n’est *pas* limitée aux membres du groupe.
+[question:VU008]
+
+Un radioamateur titulaire d’un certificat de compétence NOVICE (HB3) peut également utiliser une station club pour des émissions radio, mais uniquement dans le cadre de ses autorisations (bandes et puissance).
+%TODO: Adapter le certificat de compétence à la version finale de la question
+[question:VU009]
+% Sous la supervision d’un HB9, une utilisation complète est également possible. Une autorisation de parole est-elle nécessaire ? À clarifier avec EXR.
+
+
+---
+<law>
+Lien direct vers la [fiche d’information Radioamateur](https://www.bakom.admin.ch/fr/amateurfunk#Merkblatt-Amateurfunk) 1.1.2 + 1.1.3
+</law>
+
+Les associations peuvent, en plus de leur indicatif d’association normal, demander des indicatifs de concours spéciaux.
+Les indicatifs de concours peuvent être structurés comme suit : HB1... / HB2... / HB5... / HB6... / HB7... / HB8... 
 [question:BD111]
+Les indicatifs commençant par HB4… sont réservés exclusivement aux associations et stations ayant un lien avec l’armée.
+[question:BD110]
 [question:BD116]

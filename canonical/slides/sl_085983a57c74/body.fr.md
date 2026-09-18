@@ -1,14 +1,14 @@
-* La sélectivité d'un récepteur est déterminée par la bande passante des filtres dans la plage de fréquence intermédiaire
+* La sélectivité d'un récepteur est déterminée par la bande passante des filtres dans la branche FI
 * La bande passante varie selon le type de modulation
-* SSB $\rightarrow\qty{2,7}{\kilo\hertz}$
-* CW et RTTY $\rightarrow\qty{500}{\hertz}$ pour séparer les signaux adjacents
-* FM $\rightarrow\qty{12}{\kilo\hertz}$
+* SSB → $\qty{2,7}{\kilo\hertz}$
+* CW et RTTY → $\qty{500}{\hertz}$ pour séparer les signaux adjacents
+* FM → $\qty{12}{\kilo\hertz}$
 
 ---
-* Bandes passantes et pentes de flancs déterminées par des concepts techniquement différents
-* Filtre à quartz $\rightarrow$ à flancs très raides et très étroit
-* Filtre en céramique $\rightarrow$ à flancs raides et étroit
-* Filtre LC $\rightarrow$ pas aussi raide et plus large
+* Bandes passantes et pente du front dépendent de concepts techniques différents
+* Filtre à quartz → très raide en flanc et très étroit en bande
+* Filtre céramique → raide en flanc et étroit en bande
+* Filtre LC → moins raide en flanc et bande passante plus large
 * Les filtres RC ne sont généralement pas utilisés en HF
 
 ---

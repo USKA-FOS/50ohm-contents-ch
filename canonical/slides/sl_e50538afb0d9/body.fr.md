@@ -1,19 +1,20 @@
-* Indiquez les propriétés des conducteurs ainsi que des non-conducteurs
-* Composants semi-conducteurs courants : silicium ou germanium
+* Matériaux qui ne conduisent que dans certaines conditions
+* Présentent des propriétés de conducteurs et de non-conducteurs
+* Éléments semi-conducteurs fréquents : silicium ou germanium
 
 <note>
-Beaucoup plus à ce sujet dans les classes E et A
+Beaucoup plus d'informations dans les classes E et A
 </note>
 
 ---
 ## Diode
 
 <left>
-* Composant semi-conducteur le plus simple : diode
-* Le courant ne peut circuler que dans un sens à travers elle
+* Composant semi-conducteur le plus simple : la diode
+* Le courant ne peut circuler que dans un sens à travers celle-ci
 </left>
 <right>
-[photo:204:n_halbleiter_dioden:Symbole de circuit et formes de construction des diodes]
+[photo:204:n_halbleiter_dioden:Symboles de circuit et formes de construction des diodes]
 </right>
 
 ---
@@ -21,7 +22,7 @@ Beaucoup plus à ce sujet dans les classes E et A
 [question:NC401]
 
 ---
-## Connexions d'une diode
+## Bornes d'une diode
 
 <left>
 * Anode et cathode
@@ -42,16 +43,16 @@ Beaucoup plus à ce sujet dans les classes E et A
 
 ---
 
-## LED
+## DEL
 
 <left>
 * Diode électroluminescente, "light-emitting diode"
-* S'allume dès que le courant la traverse
+* S'illumine dès qu'un courant la traverse
 * Schéma : diode avec deux flèches supplémentaires vers l'extérieur
-* Se comporte comme une diode, mais s'allume
+* Se comporte comme une diode, mais émet de la lumière
 </left>
 <right>
-[photo:205:n_halbleiter_led:Symbole de circuit et formes de construction des LEDs]
+[photo:205:n_halbleiter_led:Symboles de circuit et formes de construction des DEL]
 </right>
 
 ---

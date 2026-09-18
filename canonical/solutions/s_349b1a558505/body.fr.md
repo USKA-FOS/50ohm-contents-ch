@@ -1,3 +1,3 @@
-L'induction inverse se produit lorsque le champ magnétique d'une bobine change dans le temps. Cela se produit, par exemple, lorsqu'un courant variable circule dans une bobine magnétiquement couplée voisine. Le champ magnétique changeant induit alors une tension dans la bobine considérée.
+L'induction mutuelle se produit lorsque le champ magnétique d'une bobine varie dans le temps. Cela se produit par exemple lorsqu'un courant variable circule dans une bobine voisine couplée magnétiquement. Le champ magnétique variable induit alors une tension dans la bobine considérée.
 
-Un courant continu constant, en revanche, ne produit pas de champ magnétique variable et donc pas de tension d'induction.
+Un courant continu constant ne produit en revanche pas de champ magnétique variable et donc pas de tension d'induction.

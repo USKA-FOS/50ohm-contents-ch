@@ -1,21 +1,21 @@
 ---
 
-Avec un *journal de bord*, il est possible de documenter ses activités radio. Un journal de bord peut être tenu soit électroniquement, soit à la main. De manière similaire à un journal de bord sur un navire ou dans un avion, on peut ainsi consigner toutes les informations importantes concernant les liaisons radio que l'on a établies. Plus rarement, le journal de bord est également appelé journal de bord de station.
+Un *journal de trafic* permet de documenter ses activités radio. On peut tenir ce journal soit électroniquement, soit à la main. Comme un journal de bord à bord d'un navire ou d'un avion, il permet de conserver toutes les informations importantes concernant les liaisons radio effectuées. Plus rarement, on parle aussi de *journal de station*.
 
 <indepth>
-Les données suivantes sont généralement consignées dans un journal de bord pour chaque liaison radio:
-* Indicatif de l'autre station
+Les données suivantes sont généralement enregistrées dans un journal de trafic pour chaque liaison radio :
+* Indicatif d’appel de la station correspondante
 * Fréquence ou bande
 * Date et heure
-* Procédure de transmission (par exemple SSB, FT8, RTTY, ...)
+* Mode de transmission (par exemple SSB, FT8, RTTY, ...)
 * Rapport attribué et reçu
 * Puissance d'émission utilisée
-* Remarques (par exemple, nom du partenaire QSO ou station utilisée)
+* Remarques (par exemple nom du partenaire de QSO ou station utilisée)
 </indepth>
 
 ---
 
-De nombreux radioamateurs tiennent volontairement un journal de bord. Il peut également arriver que l'on reçoive une demande de la part de l'Agence fédérale des réseaux, qui nous oblige à tenir un journal de bord, par exemple pour déterminer les causes des perturbations ou pour clarifier les questions techniques des fréquences.
+De nombreux radioamateurs tiennent volontairement un journal de trafic. Il peut cependant arriver que l'on reçoive une demande de l'Agence fédérale des réseaux (Bundesnetzagentur) obligeant à tenir un journal de trafic, par exemple pour déterminer les causes de perturbations ou clarifier des questions techniques de fréquence.
 
 [question:BG101]
 [question:VD109]
@@ -23,20 +23,20 @@ De nombreux radioamateurs tiennent volontairement un journal de bord. Il peut é
 [question:VN022]
 [question:VN023]
 
-Si la tenue du journal de bord a été ordonnée, il convient de tenir le journal de bord de manière à ce qu'il soit également consultable plus tard, et ce, indépendamment de la manière dont le journal de bord est tenu. Il convient de tenir particulièrement compte de ce point lorsque l'on change la manière de tenir le journal de bord.
+Si la tenue du journal de trafic est ordonnée, il faut veiller à le tenir de manière à ce qu'il puisse être consulté ultérieurement, quelle que soit la méthode utilisée. Cela est particulièrement important lorsque l'on change de méthode de tenue du journal.
 
 <tip>
-Chaque membre du DARC peut utiliser les avantages d'un journal de bord électronique, basé sur [Wavelog](https://50ohm.de/wl) – de n'importe où sous [log.darc.de](https://50ohm.de/log). L'offre comprend la possibilité d'y enregistrer ses QSOs, de les analyser et également de les synchroniser avec des tiers comme eQSL, LoTW, QRZ et le DCL. Vous trouverez un guide dans cette [vidéo](https://50ohm.de/wlv).
+Chaque membre du DARC peut profiter des avantages d'un journal de trafic électronique et basé sur le web – basé sur [Wavelog](https://50ohm.de/wl) – accessible de partout via [log.darc.de](https://50ohm.de/log). Cette offre permet de logger ses QSO, de les analyser et de les synchroniser avec des tiers comme eQSL, LoTW, QRZ et le DCL. Un guide est disponible dans cette [vidéo](https://50ohm.de/wlv).
 
-[Devenez membre du DARC !](https://50ohm.de/mw)
+[Devenez membre du DARC dès maintenant !](https://50ohm.de/mw)
 </tip>
 
 ---
 
-Par exemple, si l'on passe d'un journal de bord tenu à la main sur papier à un journal de bord tenu électroniquement par ordinateur, il faut conserver le vieux journal de bord papier. De même, si l'on passe de l'ordinateur au papier, l'ordinateur avec le logiciel correspondant doit continuer à être utilisé ou le journal de bord doit être imprimé. Il en va de même lors du changement de logiciel de journal de bord. Le vieux logiciel doit continuer à être disponible ou le journal de bord existant doit être transféré dans le nouveau logiciel.
+Si l'on passe, par exemple, d'un journal de trafic manuscrit sur papier à un journal électronique tenu sur ordinateur, il faut conserver l'ancien journal papier. Inversement, si l'on passe de l'ordinateur au papier, il faut conserver l'ordinateur avec le logiciel correspondant ou imprimer le journal. Il en va de même lors du changement de logiciel de journal de trafic : l'ancien logiciel doit rester disponible ou le journal existant doit être transféré dans le nouveau logiciel.
 
 <tip>
-*Astuce pratique :* Le format de fichier ADIF permet de transférer facilement un fichier de journal d'une application de journal de bord à une autre. De même, on peut ainsi transférer un journal de bord d'un ordinateur à un autre.
+*Conseil pratique :* Le format de fichier ADIF permet de transférer facilement un fichier de journal d'un logiciel de journal de trafic à un autre. Il est également possible de transférer un journal d'un ordinateur à un autre.
 </tip>
 
 [question:BG102]
@@ -44,15 +44,15 @@ Par exemple, si l'on passe d'un journal de bord tenu à la main sur papier à un
 
 ---
 
-Les heures doivent toujours être enregistrées dans le journal de bord en temps universel coordonné, généralement désigné par *UTC* (Universal Time Coordinated). Cela permet d'éviter d'avoir à convertir l'heure lors des liaisons radio à travers différentes zones horaires. Si, par exemple, il est 8:00 heure locale à Berlin, il est seulement 2:00 heure locale à New York. Mais pour les deux, il est 07:00 UTC. Avec l'UTC, il est toujours la même heure partout dans le monde.
+Les heures doivent toujours être indiquées dans le journal de trafic en temps universel coordonné, souvent désigné par *UTC* (de *Universal Time Coordinated*). Cela permet de ne pas avoir à convertir l'heure lors de liaisons radio traversant différentes zones horaires. Par exemple, s'il est 8h00 à Berlin, il n'est que 2h00 à New York. Pour les deux, il est cependant 7h00 UTC. L'UTC est la même heure partout dans le monde.
 
 <indepth>
-En 1972, l'UTC a été introduite comme heure universelle et uniforme dans le monde entier.
+L'UTC a été introduite en 1972 comme heure universelle et uniformément utilisée dans le monde entier.
 </indepth>
 
-La manière dont notre heure locale est convertie en UTC dépend du fait que l'heure d'été est en vigueur. Pendant l'heure d'hiver, l'heure *centrale européenne (CET)* est en vigueur chez nous. Pour la convertir en UTC, il faut soustraire une heure. Cependant, si l'heure *centrale européenne d'été (CEST)* est utilisée en été, il faut soustraire deux heures.
+La conversion de notre heure locale en UTC dépend de l'heure d'été. Pendant l'heure d'hiver, nous utilisons l'*heure normale d'Europe centrale (CET)*. Pour la convertir en UTC, il faut soustraire une heure. Si l'*heure d'été d'Europe centrale (CEST)* est en vigueur en été, il faut soustraire deux heures.
 
-Un exemple : Il est 9:00 CET à Berlin. Pour le convertir en UTC, il faut soustraire une heure. Il est donc 08:00 UTC. Mais si il est 9:00 CEST à Berlin, alors il faut soustraire deux heures. Il est alors 7:00 UTC. Pour convertir l'UTC en heure locale, il faut ajouter une heure (CET) ou deux heures (CEST).
+Exemple : À Berlin, il est 9h00 CET. Pour convertir en UTC, il faut soustraire une heure. Il est donc 8h00 UTC. Si, en revanche, il est 9h00 CEST à Berlin, il faut soustraire deux heures. Il est alors 7h00 UTC. Pour convertir l'UTC en heure locale, il faut ajouter une heure (CET) ou deux heures (CEST).
 
 
 [question:BG106]

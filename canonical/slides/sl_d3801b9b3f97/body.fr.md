@@ -1,37 +1,38 @@
-## À l'émission
+---
+style="font-size: smaller;"
+## Lors de l’émission
 
-<fragment>
 <left>
-Ondes radio de
-* des antennes
-* des émetteurs-récepteurs
-* des lignes d'alimentation
+Ondes radio émises par
+* antennes
+* émetteurs-récepteurs
+* câbles d’alimentation
 </left>
-</fragment>
-<fragment>
 <right>
-Les oscillations électriques pénètrent dans d'autres lignes
-* Destruction d'autres appareils électroniques
-* Bruits dans les haut-parleurs
-* Panne Internet
-* Erreurs dans la commande de chauffage
+Oscillations électriques transmises à d’autres lignes
+* bruits dans les haut-parleurs
+* coupures Internet (par ex. Wi-Fi)
+* perturbations de la réception radio ou télévision
+* dysfonctionnements dans la régulation du chauffage
 </right>
-</fragment>
 
 ---
 
-## À l'émission
+## Lors de l’émission
 
-Respecter les exigences de protection pour garantir la compatibilité électromagnétique au sens de la loi sur la compatibilité électromagnétique des équipements (EMVG)
+* Respect des *exigences de protection pour garantir la compatibilité électromagnétique* au sens de la *loi sur la compatibilité électromagnétique des équipements (LCEM)*
+* Aucun appareil ne doit générer d’interférences telles que d’autres appareils ne puissent plus fonctionner
 
 ---
 [question:VC118]
 
 ---
 
-## À la réception
+## Lors de la réception
 
-Le radioamateur peut déterminer lui-même la résistance aux perturbations de ses propres appareils. L'écart par rapport à l'EMVG est un privilège.
+* Les appareils et installations doivent présenter une certaine immunité aux perturbations
+* Le radioamateur peut déterminer lui-même l’immunité de ses propres appareils et installations
+* L’écart par rapport à la LCEM est une prérogative
 
 ---
 [question:VC120]
@@ -42,13 +43,15 @@ Le radioamateur peut déterminer lui-même la résistance aux perturbations de s
 ---
 ## Mesures
 
-Pour respecter la compatibilité électromagnétique (CEM) prescrite
+Pour respecter la compatibilité électromagnétique (CEM) prescrite :
 
 * Blindage
 * Mise à la terre
 
+de tous les appareils et composants parcourus par des oscillations haute fréquence.
+
 <fragment>
-Protection contre les perturbations dans les deux directions
+Protection contre les perturbations dans les deux sens
 </fragment>
 
 ---

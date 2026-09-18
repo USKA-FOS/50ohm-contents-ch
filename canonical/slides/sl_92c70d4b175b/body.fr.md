@@ -1,21 +1,21 @@
-* Sur de nombreux appareils radio, il y a un interrupteur pour sélectionner le type de modulation
-* Celui-ci est généralement étiqueté « Mode » et permet par exemple de choisir entre CW, AM, FM et SSB
+* Sur de nombreux postes radio, il existe un interrupteur pour sélectionner le type de modulation.
+* Il est généralement étiqueté « Mode » et permet de choisir entre CW, AM, FM et BL.
 
 ---
 [question:NE102]
 <note>
-* PSK31, FT8, RTTY et Olivia ne sont pas des types de modulation, mais des procédés de transmission numériques et viendront plus tard dans le cours.
+* PSK31, FT8, RTTY et Olivia ne sont pas des types de modulation, mais des procédés de transmission numériques qui seront abordés plus tard dans le cours.
 </note>
 
 ---
-* Pour SSB, il est important de sélectionner la bonne bande latérale (LSB ou USB)
-* Dans le radioamateur, à quelques exceptions près, la bande latérale inférieure est utilisée en dessous de $\qty{10}{\mega\hertz}$ et la bande latérale supérieure au-dessus de $\qty{10}{\mega\hertz}$
+* En BL, il faut veiller à sélectionner la bonne bande latérale (LSB ou USB).
+* En radioamateurisme, sauf exceptions rares, la bande latérale inférieure est utilisée en dessous de $\qty{10}{\mega\hertz}$ et la bande latérale supérieure à partir de $\qty{10}{\mega\hertz}$.
 
 <note>
-* Recommandation dans le plan de bandes IARU.
-* Une exception sont les procédés de transmission numériques, où USB est également utilisé en dessous de 10 MHz.
-* La classe N peut toujours utiliser USB en raison des bandes autorisées.
-* Connaissance supplémentaire : La radio maritime utilise toujours USB.
+* Recommandation selon le plan de bandes de l’IARU.
+* Une exception concerne les procédés de transmission numériques, pour lesquels l’USB est également utilisé en dessous de 10 MHz.
+* La classe N peut utiliser l’USB sur toutes les bandes autorisées.
+* Savoir complémentaire : le radiotéléphone maritime utilise toujours l’USB.
 </note>
 
 ---
@@ -34,15 +34,16 @@
 [question:NE210]
 
 ---
-## Bande latérale incorrecte
+## Mauvaise bande latérale sélectionnée
 
-* Si la mauvaise bande latérale est choisie pour SSB, alors la parole est totalement incompréhensible
-* Il est également important pour SSB d'ajuster très finement la fréquence de réception avec le bouton de réglage VFO
-* De petites déviations par rapport à la bonne fréquence font que la parole devient incompréhensible
+* En BL, si la mauvaise bande latérale est choisie, la voix devient totalement incompréhensible.
+* Il est également important, en BL, de régler très précisément la fréquence de réception à l’aide du bouton de réglage du VFO.
+* Même de petites déviations par rapport à la bonne fréquence rendent la voix incompréhensible.
 
 <note>
-* La cause réside dans la réflexion des bandes latérales - Les tons graves deviennent aigus et vice versa.
-* Pour FM et AM, la porteuse peut être utilisée pour la démodulation.
+* La cause réside dans la symétrie des bandes latérales : les sons graves deviennent aigus et inversement.
+* En FM et AM, la porteuse peut être utilisée pour la démodulation.
 </note>
+
 ---
 [question:NE212]

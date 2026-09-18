@@ -1,16 +1,16 @@
-Comme nous l'avons expliqué dans le chapitre sur les stations de radioamateur, on peut reconnaître, lors des opérations radio, d'où vient un partenaire radio grâce au préfixe. Une liste détaillée de tous les indicateurs de pays se trouve dans la liste des indicateurs de pays de l'[ITU](https://50ohm.de/itu), dans les manuels de radioamateur, sur Internet et dans diverses listes d'indicateurs d'appel. Dans la figure [ref:n_internationale_landeskenner_eu], les indicateurs de pays les plus importants en Europe sont rassemblés. Les pays marqués en bleu apparaissent dans le catalogue de questions. Les autres pays servent de connaissances de base.
+Comme nous l'avons expliqué dans le chapitre sur les stations de radioamateur, on peut identifier le pays d'origine d'un partenaire radio grâce au préfixe de son indicatif. Une liste détaillée de tous les préfixes nationaux se trouve dans la [liste des préfixes de l'UIT](https://50ohm.de/itu), dans les manuels de radioamateur, sur Internet et dans diverses listes d'indicatifs. La figure [ref:n_internationale_landeskenner_eu] présente les principaux préfixes en Europe. Les pays en bleu apparaissent dans le catalogue de questions. Les autres servent de connaissances générales.
 
 <webmargin>
-[picture:656:n_internationale_landeskenner_eu:Indicateurs de pays en Europe]
+[picture:656:n_internationale_landeskenner_eu:Préfixes en Europe]
 </webmargin>
 
 ---
 
-Les indicateurs de pays sont nécessaires à plusieurs reprises dans la vie d'un radioamateur. Certains radioamateurs se sont construit des astuces pour se souvenir des préfixes individuels afin de mieux retenir les indicateurs de pays. Dans le tableau [ref:n_europaeische_landeskenner_eselsbruecken], on trouve les indicateurs de pays européens avec les pays correspondants. Le tableau [ref:n_internationale_landeskenner_eselsbruecken] montre d'autres indicateurs de pays non européens. Pour certains, il existe également des astuces souvent utilisées. Si l'on se souvient bien des indicateurs de pays mis en évidence, on peut répondre à toutes les questions du catalogue de questions sur les indicateurs de pays en utilisant la méthode d'exclusion.
+Les préfixes sont nécessaires à plusieurs reprises au cours de la vie d'un radioamateur. Certains ont créé des moyens mnémotechniques pour retenir les préfixes des différents pays. Le tableau [ref:n_europaeische_landeskenner_eselsbruecken] présente les préfixes européens avec les pays correspondants. Le tableau [ref:n_internationale_landeskenner_eselsbruecken] montre d'autres préfixes hors d'Europe. Pour certains, il existe également des moyens mnémotechniques couramment utilisés. Si l'on retient bien les préfixes mis en évidence, on peut répondre à toutes les questions du catalogue concernant les préfixes par la méthode d'élimination.
 
 <webmargin>
-| l: Indicateur de pays | l: Astuce | X: Pays |
-| *CT* | CosTa (côte) | Portugal |
+| l: Préfixe | l: Moyen mnémotechnique | X: Pays |
+| *CT* | CosTa (Côte) | Portugal |
 | *DA-DR* | | Allemagne |
 | *EA* | EspaniA | Espagne |
 | EI | | Irlande |
@@ -19,46 +19,46 @@ Les indicateurs de pays sont nécessaires à plusieurs reprises dans la vie d'un
 | EU | | Biélorussie |
 | F | France | France |
 | G | Grande-Bretagne | Royaume-Uni |       
-| HBØ | Hautes montagnes (petites) | Liechtenstein |
-| HB9 | Hautes montagnes (grandes) | Suisse |
-| HV | Saint Père | Vatican |
+| HBØ | Hautes montagnes (petit) | Liechtenstein |
+| HB9 | Hautes montagnes (grand) | Suisse |
+| HV | Haut Vatican | Vatican |
 | I | | Italie |
-| LA | LAchse (Gauche Extérieur) | Norvège| 
+| LA | Lachs (À gauche) | Norvège |
 | LX | | Luxembourg |
 | LZ | | Bulgarie |
 | OE | OEsterreich | Autriche |
-| OH | En haut derrière | Finlande |
+| OH | Haut et Arrière | Finlande |
 | OK | | République tchèque |
 | OM | | Slovaquie |
 | ON | | Belgique |
-| *OZ* | Bout supérieur | Danemark |
+| *OZ* | Pointe supérieure | Danemark |
 | PA | | Pays-Bas |
 | S5 | | Slovénie |
 | *SM* | Meubles suédois | Suède |
-| *SP* | Beau Pologne | Pologne |
+| *SP* | Belle Pologne | Pologne |
 | SV | | Grèce |
-[table:n_europaeische_landeskenner_eselsbruecken:Indicateurs de pays européens et astuces]
+[table:n_europaeische_landeskenner_eselsbruecken:Préfixes européens et moyens mnémotechniques]
 </webmargin>
 
 <webmargin>
-| l: Indicateur de pays | l: Astuce | X: Pays |
+| l: Préfixe | l: Moyen mnémotechnique | X: Pays |
 | *BY* | payer en yuan | Chine |
 | CE | | Chili |
 | DS-DT | | Corée du Sud |
 | DU-DZ | | Philippines |
 | EK | | Arménie |
-| *JA* | JApan | Japon |
-| *K*, *W*, N, AA-AL | Personne ne veut aller en Amérique | USA |
-| LU | Gauche en bas | Argentine |
+| *JA* | JApon | Japon |
+| *K*, *W*, N, AA-AL | Personne ne veut aller en Amérique | États-Unis |
+| LU | Bas à gauche | Argentine |
 | *PY* | "Piranhas" | Brésil |
 | *VE* | Beaucoup d'élans | Canada |
 | VK | Beaucoup de kangourous | Australie |
 | *VU* | | Inde |
-| *XE* | mEXiko | Mexique |
+| *XE* | mEXique | Mexique |
 | *ZL* | Zea-Land | Nouvelle-Zélande |
 | ZS | | Afrique du Sud |
 | 4X | | Israël |
-[table:n_internationale_landeskenner_eselsbruecken:Autres indicateurs de pays et astuces]
+[table:n_internationale_landeskenner_eselsbruecken:Autres préfixes et moyens mnémotechniques]
 </webmargin>
 
 [question:BD301]
@@ -69,25 +69,5 @@ Les indicateurs de pays sont nécessaires à plusieurs reprises dans la vie d'un
 [question:BD322]
 [question:BD112]
 [question:BD113]
-
 [question:BD307]
-
-
-Tout supprimer à partir d'ici
 [question:BD314]
-[question:BD311]
-[question:BD304]
-[question:BD303]
-[question:BD305]
-[question:BD306]
-[question:BD308]
-[question:BD310]
-[question:BD312]
-[question:BD313]
-[question:BD316]
-[question:BD318]
-[question:BD317]
-[question:BD309]
-[question:BD315]
-
-

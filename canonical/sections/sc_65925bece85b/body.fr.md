@@ -1,38 +1,26 @@
-Dans le radioamateur, il existe différents types d'indicatifs d'appel. Nous avons déjà rencontré un type au début du cours : les indicatifs d'appel personnels. Dans le langage officiel, ceux-ci sont appelés "indicatifs d'appel liés à une personne". En Allemagne, un tel indicatif est attribué à chaque radioamateur lors de l'obtention de l'autorisation pour le service de radioamateur par la BNetzA. Il est unique au monde et ne peut être utilisé que personnellement par le radioamateur auquel il a été attribué.
-
-[question:VC116]
+En radioamateurisme, il existe différents types d'indicatifs d'appel. En Suisse, l'OFCOM attribue un indicatif à chaque radioamateur autorisé à exercer le service d'amateur. Cet indicatif est unique au monde et ne peut être utilisé que par le radioamateur auquel il est attribué.
 
 ---
 
-Un indicatif d'appel se compose de trois parties : le préfixe, le chiffre et le suffixe. Le préfixe se compose généralement des deux premiers caractères, par exemple DL ou 4U. Parfois, il n'est cependant que d'un seul caractère de long. Il est suivi d'un chiffre de 0 à 9. La fin est formée par le suffixe avec au moins un autre caractère. La figure [ref:n_amateurfunkstrationen_aufbau_rufzeichen] donne un aperçu graphique de la structure de l'indicatif d'appel.
+Un indicatif d'appel se compose de trois parties : le préfixe, le chiffre et le suffixe. Le préfixe comprend généralement les deux premiers caractères, par exemple DL ou 4U. Parfois, il ne comporte qu'un seul caractère. Vient ensuite un chiffre de 0 à 9. Le suffixe se termine par au moins un autre caractère. L'illustration [ref:n_amateurfunkstrationen_aufbau_rufzeichen] donne un aperçu graphique de la structure d'un indicatif d'appel.
+%DL a été laissé tel quel car HB a un "statut spécial". De plus, cela correspond aussi à l'image.
 
 <margin>
-[picture:654:n_amateurfunkstrationen_aufbau_rufzeichen:Structure de l'indicatif d'appel - K4EAX, WZ6Y, DL1FLO]
+[picture:654:n_amateurfunkstrationen_aufbau_rufzeichen:Structure d'un indicatif d'appel - K4EAX, WZ6Y, DL1FLO]
 </margin>
 
-Le préfixe est attribué de manière spécifique au pays et peut servir à localiser la station de radioamateur. Les préfixes sont fixés par l'Union internationale des télécommunications (International Telecommunication Union, ITU) dans les Règlements radioélectriques (RR). Tous les États membres de l'ITU sont tenus de les transposer dans le droit national.
+Le préfixe est spécifique à un pays et peut servir à localiser la station radioamateur. Les préfixes sont définis par l'Union internationale des télécommunications (UIT) dans le règlement des radiocommunications (RR). Tous les États membres de l'UIT sont tenus de les intégrer dans leur droit national.
 
-Pour l'Allemagne, les préfixes DA à DR et Y2 à Y9 sont prévus dans les Règlements radioélectriques. Les préfixes Y2 à Y9 ne sont cependant pratiquement pas utilisés.
+Pour la Suisse, les préfixes HB et HE sont prévus dans le règlement des radiocommunications. HE est utilisé pour les radioamateurs écouteurs.
+% TODO Décrire l'unicité de la Suisse concernant les chiffres 1-9 pour CH et 0 pour FL.
 
 [question:VA406]
-
----
-
-Les indicatifs d'appel allemands liés à des personnes se composent toujours d'un préfixe de 2 lettres, d'un chiffre et d'un suffixe de 2 ou 3 lettres. Par exemple, DL1PZ, DO7PR ou DN2JMU.
-[question:VD203]
-
-En plus des indicatifs d'appel personnels, d'autres indicatifs d'appel peuvent être attribués pour les stations de radioamateur à commande à distance et automatiques ou pour les stations de club. Nous y reviendrons plus loin dans le chapitre.
-
-[question:VD202]
-
-La BNetzA attribue les préfixes en Allemagne selon le [plan d'indicatifs d'appel](https://50ohm.de/rzp), de sorte que l'on peut reconnaître l'usage de l'indicatif d'appel. Dans le plan d'indicatifs d'appel, il est précisément déterminé, pour les indicatifs d'appel liés à des personnes ainsi que pour les indicatifs d'appel pour les stations de radioamateur à commande à distance et automatiques et les stations de club, quels préfixes, chiffres et suffixes sont utilisés respectivement.
-
-Le plan d'indicatifs d'appel est disponible comme aide lors de l'examen de radioamateur. Ce plan est très utile pour répondre à une série de questions qui suivent dans les sections suivantes. Nous recommandons donc de se familiariser avec le document afin de pouvoir l'utiliser efficacement lors de l'examen. Après l'examen, il est conseillé de se tenir régulièrement informé afin de rester à jour en cas de modifications.
-
-[question:VD201]
-
 [question:VA408]
 [question:VA409]
+
+---
+% TODO Explication de la formation des indicatifs d'appel
+
 [question:VA410]
 [question:VA411]
 [question:VA412]

@@ -1,10 +1,17 @@
-Les oscillations parasites se produisent principalement dans les étages d'amplification de puissance HF en raison de rétroactions indésirables (capacités ou couplages inductifs entre les éléments) et n'ont généralement aucun rapport avec la fréquence opératoire de l'émetteur. Elles se manifestent, entre autres, par des fluctuations de la puissance de sortie de l'émetteur lorsque celui-ci est accordé (fluctuations de l'indicateur TX).
+Les oscillations parasites apparaissent principalement dans les étages d’amplification de puissance HF en raison de rétroactions indésirables (capacités ou couplages inductifs entre éléments) et n’ont généralement aucun rapport avec la fréquence de fonctionnement de l’émetteur. Elles se manifestent notamment par des fluctuations de la puissance de sortie de l’émetteur lorsque celui-ci est accordé (variations de l’affichage TX).
+
 
 [question:AJ212]
 [question:AJ213]
 
-Pour supprimer les oscillations parasites, des perles de ferrite peuvent être utilisées, par exemple, dans les émetteurs VHF, qui sont placées à l'émetteur du transistor de puissance (le plus près possible du transistor).
-Dans les étages finaux à large bande des ondes courtes, une résistance parallèle au transformateur peut être utilisée pour l'atténuation de celui-ci et donc pour la réduction de la tendance à l'oscillation de l'amplificateur.
+
+<margin>
+[photo:351:a_parasitics:Perles de ferrite sur un circuit intégré]
+</margin>
+
+
+Pour supprimer les oscillations parasites, on peut par exemple utiliser des perles de ferrite (cf. illustration [ref:a_parasitics]) montées sur l’émetteur du transistor de puissance (le plus près possible du transistor). Dans le cas d’étages finals à ondes courtes à large bande, une résistance en parallèle sur le transformateur permet d’amortir celui-ci et ainsi de réduire la tendance à l’oscillation de l’amplificateur.
+
 
 [question:AJ217]
 [question:AF416]

@@ -1,8 +1,8 @@
-Dans un circuit en série de condensateurs, les capacités ne peuvent pas être additionnées directement. Au lieu de cela, on a :
+Dans un montage en série de condensateurs, les capacités ne peuvent pas être additionnées directement. À la place, la formule suivante s'applique :
 
 $ \frac{1}{C_\mathrm{ges}} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_3} $
 
-Tout d'abord, nous mettons toutes les valeurs dans la même unité :
+Tout d'abord, nous ramenons toutes les valeurs à la même unité :
 
 $ C_1 = \qty{0,10}{\nano\farad} = \qty{100}{\pico\farad} $
 
@@ -14,6 +14,6 @@ Calcul :
 
 $ \frac{1}{C_\mathrm{ges}} \approx (0{,}01 + 0{,}0213 + 0{,}0455) \frac{1}{\unit{\pico\farad}} \approx 0{,}0768 \frac{1}{\unit{\pico\farad}} $
 
-Inversement :
+Inversion :
 
 $ C_\mathrm{ges} \approx \qty{13,0}{\pico\farad} $
