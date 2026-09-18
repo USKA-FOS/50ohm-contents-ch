@@ -1,15 +1,15 @@
-* Ogni utilizzo di frequenza richiede un *assegnamento di frequenza* preventivo
-* Ancorato nella legge sulle telecomunicazioni (TKG)
+* Ogni utilizzo di frequenza richiede una previa *assegnazione della frequenza*
+* Regolamentato dalla legge tedesca sulle telecomunicazioni (TKG)
 * Assegnazione individuale
-  * A un'azienda, ad es. radio aziendale
+  * A un’azienda, ad esempio per il radio servizio aziendale
 * Assegnazione generale
-  * Al pubblico in generale, ad es. radioamatore
+  * Per il pubblico, ad esempio per il servizio di radioamatore
 
 ---
 
-* Il radioamatore può operare solo sulle frequenze assegnate
+* Il servizio di radioamatore può essere esercitato solo sulle frequenze assegnate
 * Le bande di frequenza sono concordate a livello internazionale
-* *Ma* le normative nazionali sono determinanti
+* *Tuttavia*, le normative nazionali sono vincolanti
 
 ---
 [question:VE102]
@@ -20,19 +20,20 @@
 ---
 ## Bande di frequenza per il servizio di radioamatore
 
-* Sono regolate in Germania nell'Allegato 1 del *Regolamento sul servizio radioamatoriale (AFuV)*
-* Trasmettere solo sulle frequenze assegnate alla classe di licenza
-* Ulteriori disposizioni d'uso da rispettare
-* Esistono disposizioni e comunicazioni vincolanti supplementari
-* Vengono pubblicate nel bollettino ufficiale e sul sito web dell'Agenzia federale delle reti (BNetzA)
+* In Germania sono regolamentate nell’allegato 1 del *regolamento sul servizio di radioamatore (AFuV)*
+* Trasmissioni solo sulle frequenze assegnate alla classe di certificato posseduta
+* Ulteriori condizioni d’uso vincolanti
+* Esistono disposizioni e comunicazioni integrative vincolanti
+* Vengono pubblicate nel bollettino ufficiale e sul sito web dell’Agenzia federale delle reti (BNetzA)
 
 ---
-[photo:99:n_frequenzbereiche_afuv_anlage_1:Tabellarische Übersicht, Anlage 1, AFuV (Korrektur in den Leistungen für Klasse N notwendig)]
+[photo:99:n_frequenzbereiche_afuv_anlage_1:Panoramica tabellare, Allegato 1, AFuV (correzione necessaria nelle potenze per la classe N)]
 
 <note>
-Per la classe N, nella tabella ufficiale sono ora indicati "6,1W ERP" su 2m e 70cm. È tecnicamente lo stesso, ma una base di misurazione diversa. Il grafico qui deve ancora essere aggiornato.
+Nella classe N, nella tabella ufficiale sono indicate "6,1 W ERP" per le bande dei 2 m e 70 cm. Tecnicamente equivalente, ma con una base di calcolo diversa. La grafica qui deve essere aggiornata.
 </note>
 ---
 [question:VD101]
 ---
 [question:VD702]
+--

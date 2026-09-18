@@ -2,7 +2,7 @@
 
 <left>
 * In un condensatore viene immagazzinata energia elettrica
-* La forma più semplice di condensatore è il *condensatore a piastre*
+* Il tipo più semplice di condensatore è il *condensatore a piastre*
 </left>
 <right>
 [picture:881:e_kondensator_homogenes_feld:Campo omogeneo in un condensatore a piastre]
@@ -10,17 +10,17 @@
 
 ---
 <left>
-* Ai due piatti conduttori viene collegato rispettivamente il polo positivo e negativo
-* Tra i piatti si sviluppa un campo elettrico omogeneo (*campo E*)
-* Intensità del campo elettrico: $E = \dfrac{U}{d}$ in $\unit{\volt\per\meter}$
-* Con $d$ come distanza tra i piatti
+* Alle due piastre elettricamente conduttrici viene collegato rispettivamente il polo positivo e negativo
+* Tra le piastre si forma un campo elettrico omogeneo (*campo E*)
+* Intensità del campo elettrico: $E = \dfrac{U}{d}$ in $\unit{\volt\per\metro}$
+* Con $d$ come distanza tra le piastre
 </left>
 <right>
 [picture:881:e_kondensator_homogenes_feld:Campo omogeneo in un condensatore a piastre]
 </right>
 <note>
-* Campo omogeneo: campo diretto uniformemente, poiché tutte le linee di campo corrono nella stessa direzione
-* La capacità verrà calcolata solo nella classe A
+* Campo omogeneo: campo uniformemente diretto, poiché tutte le linee di campo sono parallele
+* La capacità viene calcolata solo nel corso A
 </note>
 
 ---
@@ -33,8 +33,8 @@
 ## Condensatore avvolto
 
 <left>
-* In un condensatore avvolto, un isolante come *materiale dielettrico/isolante* viene inserito tra le due piastre come rivestimenti metallici
-* Vantaggi: poco ingombrante e possibile superficie delle piastre più ampia
+* In un condensatore avvolto tra le due piastre come rivestimenti metallici viene inserito un *materiale dielettrico/isolante*
+* Vantaggi: risparmio di spazio e possibilità di avere una superficie di piastre maggiore
 </left>
 <right>
 [picture:49:e_wickelkondensator:Rappresentazione schematica di un condensatore avvolto]
@@ -43,31 +43,31 @@
 [question:EB103]
 ---
 [question:EB104]
----
-### Percorso di soluzione
+--- style="font-size: 0.7em;"
+### Procedimento di soluzione
 
-Il trucco qui è che la rigidità dielettrica è l'intensità del campo elettrico $E$.
+Il trucco qui è che la rigidità dielettrica corrisponde all'intensità del campo elettrico $E$.
 
-* Dato: $d = \qty{0,15}{\milli\meter}$ e $E = \qty{400}{\kilo\volt\per\centi\meter}$
-* Ricerca: $U$
+* Dati: $d = \qty{0,15}{\milli\metro}$ e $E = \qty{400}{\kilo\volt\per\centi\metro}$
+* Ricercato: $U$
 * Soluzione:
 
 $E = \frac{U}{d} \Rightarrow U = E\cdot d$
-$U = 400 \cdot \frac{\qty{10^3}{\volt}}{\qty{10^{-2}}{\meter}}\cdot \qty{0,15e-3}{\meter}$
+$U = 400 \cdot \frac{\qty{10^3}{\volt}}{\qty{10^{-2}}{\metro}}\cdot \qty{0,15e-3}{\metro}$
 $U = \qty{6e3}{\volt} = \qty{6}{\kilo\volt}$
 
 ---
 ## Antenna verticale
 
 <left>
-* Anche su un'antenna si creano linee di campo elettrico
-* Le linee di campo di un'antenna verticale vanno dall'"estremità positiva" verso terra
+* Anche in un'antenna si formano linee di campo elettriche
+* Le linee di campo di un'antenna verticale vanno dall'estremità "positiva" alla terra
 </left>
 <right>
-[picture:884:e_feldlinien_vertikalantenne:Linee di campo su un'antenna verticale]
+[picture:884:e_feldlinien_vertikalantenne:Linee di campo in un'antenna verticale]
 </right>
 <note>
-* Per la classe E è sufficiente il riconoscimento
+* Per il corso E è sufficiente la semplice conoscenza
 </note>
 ---
 [question:EB105]

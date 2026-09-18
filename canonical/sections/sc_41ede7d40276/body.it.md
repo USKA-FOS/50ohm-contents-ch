@@ -1,4 +1,4 @@
-La distanza massima dalla linea dello zero al punto più alto o più basso della tensione alternata, come mostrato nella figura [ref:amplitude_periode_amplitudee], è chiamata *ampiezza* [index:Schwingung:Amplitude].
+La distanza massima dalla linea zero al punto più alto o più basso della tensione alternata viene chiamata *ampiezza* [index:Schwingung:Amplitude], come illustrato nella figura [ref:amplitude_periode_amplitudee].
 
 <margin>
 [picture:726:amplitude_periode_amplitudee: Ampiezza di un'oscillazione sinusoidale]
@@ -7,12 +7,12 @@ La distanza massima dalla linea dello zero al punto più alto o più basso della
 [question:NB404]
 
 <tip>
-I corsi temporali delle oscillazioni possono essere ben rappresentati con un *oscilloscopio* [index:Oszilloskop]. Sullo schermo vengono visualizzati orizzontalmente il tempo e verticalmente la tensione delle oscillazioni. Questa rappresentazione visiva è chiamata *oscillogramma* [index:Oszillogramm].
+Gli andamenti temporali delle oscillazioni possono essere rappresentati molto bene con un *oscilloscopio* [index:Oszilloskop]. Sullo schermo vengono visualizzati orizzontalmente il tempo e verticalmente la tensione delle oscillazioni. Questa rappresentazione grafica viene chiamata *oscillogramma* [index:Oszillogramm].
 </tip>
 
 ---
 
-Un'oscillazione sinusoidale è composta da una semionda positiva e una negativa [index:Schwingung:Halbwelle] (figura [ref:amplitude_periode_halbwellen]). Per questo, l'oscillazione sinusoidale richiede un certo tempo ($t$). L'intervallo di tempo dall'inizio di una semionda positiva alla fine della semionda negativa successiva è chiamato *periodo* [index:Schwingung:Periode] o anche durata del periodo (figura [ref:amplitude_periode_perioden]). Dopo che un periodo è trascorso, il processo ricomincia.
+Un'oscillazione sinusoidale è composta da una semionda positiva e una negativa [index:Schwingung:Halbwelle] (figura [ref:amplitude_periode_halbwellen]). Per questo l'oscillazione sinusoidale richiede un certo tempo ($t$). L'intervallo di tempo dall'inizio di una semionda positiva alla fine della semionda negativa successiva viene chiamato *periodo* [index:Schwingung:Periode] o anche durata del periodo (figura [ref:amplitude_periode_perioden]). Dopo la scadenza di un periodo, il processo ricomincia da capo.
 
 <margin>
 [picture:727:amplitude_periode_halbwellen: Semionde positive e negative di un'oscillazione sinusoidale]

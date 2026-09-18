@@ -1,15 +1,15 @@
-Quando si ascolta una Frequenza su cui nessuna stazione sta trasmettendo, si sente rumore. In FM, il rumore è particolarmente forte e può quindi essere molto fastidioso. Quasi tutti i ricevitori FM dispongono quindi di uno *Squelch*, che può essere utilizzato per escludere questo rumore. Per questa Funzione viene solitamente utilizzato il termine inglese *Squelch* (abbreviazione: SQL).
+Se si ascolta una frequenza su cui non sta trasmettendo nessuna stazione, si sente rumore. Con la modulazione FM il rumore è particolarmente fastidioso e può risultare molto disturbante. Quasi tutti i ricevitori FM dispongono quindi di un *squelch*, che consente di eliminare questo rumore. Spesso per questa funzione viene utilizzato il termine inglese *squelch* (abbreviato in SQL).
 
 <webmargin>
-[picture:737:squelch:Andamento temporale dell'ampiezza su una frequenza, si vede una trasmissione forte e una debole, rumore intorno, lo Squelch esclude sia il rumore che i segnali deboli se l'ampiezza è inferiore al valore impostato.]
+[picture:737:squelch:Andamento temporale dell'ampiezza su una frequenza, visibile una trasmissione forte e una debole, intorno nessuna trasmissione (rumore); lo squelch elimina sia il rumore che i segnali deboli quando l'ampiezza scende sotto il valore impostato.]
 </webmargin>
 
-Affinché lo Squelch funzioni correttamente, deve essere impostato tramite le apposite manopole o pulsanti in modo che non ci sia più rumore durante le pause di trasmissione. Se è impostato troppo debolmente, si sentirà rumore. Tuttavia, se lo Squelch è impostato troppo forte, anche i segnali deboli verranno esclusi.
+Affinché lo squelch funzioni correttamente, deve essere regolato tramite i comandi o i pulsanti previsti in modo che durante le pause di trasmissione non si senta più rumore. Se è troppo debole, il rumore si sente. Se invece è troppo forte, vengono eliminati anche i segnali deboli.
 
 <indepth>
-Lo Squelch sfrutta il fatto che il rumore ha sempre un'ampiezza inferiore rispetto ai portanti ad alta frequenza che possono essere ricevuti in modo utile. Se l'ampiezza del portante ad alta frequenza fosse più debole del rumore, non sarebbe più possibile demodulare. Pertanto, lo Squelch funziona in modo tale che solo quando viene superata una determinata ampiezza, il segnale demodulato viene inoltrato all'altoparlante. Altrimenti, rimane silenzioso.
+Lo squelch sfrutta il fatto che il rumore ha sempre un'ampiezza inferiore a quella della portante ad alta frequenza che si può ricevere in modo significativo. Se l'ampiezza della portante ad alta frequenza fosse infatti più debole del rumore, non sarebbe più possibile demodulare. Lo squelch funziona quindi in modo che solo quando viene superata una certa ampiezza, il segnale demodulato viene inviato all'altoparlante. Altrimenti, rimane muto.
 
-Esistono anche Squelch per segnali modulati AM e SSB. Tuttavia, tecnicamente funzionano in modo diverso rispetto ai segnali modulati in frequenza. Alla fine, producono lo stesso risultato. 
+Esistono squelch anche per i segnali modulati in AM e SSB. Tuttavia, tecnicamente funzionano in modo diverso rispetto ai segnali a modulazione di frequenza. Alla fine, però, producono lo stesso risultato.
 </indepth>
 
 [question:NF302]

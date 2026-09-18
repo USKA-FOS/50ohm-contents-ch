@@ -1,13 +1,13 @@
 <left>
-[picture:675:quellencodierer:Codificatore sorgente]
+[picture:675:quellencodierer:Codificatore di sorgente]
 </left>
 <right>
 * Utilizzo il più efficiente possibile dello spettro di frequenza.
-* $\rightarrow$ Compressione dei dati utili, la cosiddetta codifica sorgente.
-* Rimozione di ridondanze (ad es. ripetizioni) o irrilevanze (parti di informazione meno importanti) dal flusso di dati.
+* $\rightarrow$ Compressione dei dati utili, la cosiddetta codifica di sorgente.
+* Rimozione di ridondanze (ad esempio ripetizioni) o irrilevanze (parti di informazioni meno importanti) dal flusso di dati.
 </right>
 <note>
-Metodi noti: MP3, JPEG o MPEG-4. In radioamatore: FreeDV o M17.
+Procedure note: MP3, JPEG o MPEG-4. Nel radioamatoriale: FreeDV o M17.
 </note>
 
 ---

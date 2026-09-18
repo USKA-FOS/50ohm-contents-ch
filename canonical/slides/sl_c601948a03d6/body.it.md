@@ -1,35 +1,34 @@
-## Deviazione per la soppressione delle correnti di mantello
-* Deviazione di $\lambda/2$ come ulteriore possibilità per la soppressione delle correnti di mantello
+## Linea di deviazione per la soppressione delle correnti sulla calza
+* Linea di deviazione λ/2 come ulteriore metodo per sopprimere le correnti sulla calza
 
 ---
 [question:AG420]
 
----
-style="font-size: smaller;"
-### Funzionamento della deviazione di $\lambda/2$
-* Antenna simmetrica: entrambi i punti di connessione richiedono tensione HF (uguale in valore assoluto, sfasata di $\qty{180}{\degree}$)
-* Con la deviazione di $\lambda/2$, uno dei punti di connessione (ad es. nel dipolo a doppio filo) viene collegato al conduttore interno tramite uno sfasamento di $\qty{180}{\degree}$
-* La schermatura del cavo coassiale si trova al potenziale di terra – in questo modo non si creano correnti di mantello
-* Attenzione all'impedenza: l'antenna deve avere quattro volte l'impedenza del cavo coassiale, poiché ogni punto di connessione mostra solo la metà della resistenza
+--- style="font-size: smaller;"
+### Funzionamento della linea di deviazione λ/2
+* Antenna simmetrica: entrambi i punti di connessione necessitano di tensione RF (uguale in modulo, sfasata di 180°)
+* Con la linea di deviazione λ/2 uno dei punti di connessione (ad esempio nel dipolo ripiegato) viene collegato al conduttore interno tramite uno sfasamento di 180°
+* La calza del cavo coassiale è a potenziale di terra, evitando così la formazione di correnti sulla calza
+* Attenzione all'impedenza: l'antenna deve presentare un'impedenza pari al quadruplo di quella del cavo coassiale, poiché ogni punto di connessione mostra solo metà della resistenza
 
 ---
 <left>
-[picture:562:a_umwegeleitung:Umwegeleitung]
+[picture:562:a_umwegeleitung:Linea di deviazione]
 </left>
 <right>
-Per le due domande successive sulla deviazione, è sufficiente *ricordare* che l'antenna rappresentata è un dipolo a doppio filo e che una deviazione di $\lambda/2$ genera uno sfasamento di $\qty{180}{\degree}$.
+Per rispondere alle due domande successive sulla linea di deviazione, è sufficiente ricordare che l'antenna rappresentata è un dipolo ripiegato e che una linea di deviazione λ/2 genera uno sfasamento di 180°.
 </right>
 
 ---
 [question:AG423]
 
 <note>
-Il *collegamento della schermatura coassiale* al punto centrale del dipolo a doppio filo è opzionale e spesso ha ragioni meccaniche (ad es. in questo modo il dipolo a doppio filo può essere collegato conduttivamente a un supporto metallico messo a terra).
+Il *collegamento della calza del coassiale* al punto centrale del dipolo ripiegato è opzionale e spesso ha motivazioni meccaniche (ad esempio, in questo modo il dipolo ripiegato può essere collegato in modo conduttivo a un supporto metallico messo a terra).
 </note>
 
 ---
 [question:AG424]
 
 <note>
-Sebbene la connessione comporti una trasformazione di impedenza 1:4, nella deviazione stessa non viene effettuata alcuna trasformazione di impedenza.
+Sebbene la configurazione complessiva realizzi una trasformazione di impedenza 1:4, nella linea di deviazione stessa non viene effettuata alcuna trasformazione di impedenza.
 </note>

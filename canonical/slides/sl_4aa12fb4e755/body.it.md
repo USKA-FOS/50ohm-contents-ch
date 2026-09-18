@@ -2,20 +2,24 @@ Avevamo già
 
 $\lambda = \dfrac{c_0}{f}$
 
-Ma come si ottiene
+Ma come si arriva a
 $c_0 = f \cdot \lambda$
-E
+
+e
 $f = \dfrac{c_0}{\lambda}$
 ?
 
 ---
 ## Approccio matematico
 
-Si deve riorganizzare $\lambda = \dfrac{c_0}{f}$ per $f$.
+Si vuole risolvere l'equazione
+$\lambda = \dfrac{c_0}{f}$
+
+per $f$.
 
 ---
 #### 1. Passo
-Moltiplicare entrambi i lati per $f$ per spostarlo a sinistra.
+Moltiplicare entrambi i lati per $f$ per isolare il termine a sinistra.
 
 <fragment>
 $\lambda = \dfrac{c_0}{f} \quad\quad\quad | \cdot f$
@@ -30,12 +34,12 @@ $\lambda \cdot f = c_0$
 
 <note>
 * $|~\cdot f$ significa che l'operazione viene eseguita su entrambi i lati
-* $f$ diviso per $f$ dà 1, motivo per cui si può semplificare
+* $f$ diviso $f$ dà 1, quindi si può semplificare
 </note>
 
 ---
 #### 2. Passo
-Dividere entrambi i lati per $\lambda$ per spostarlo a destra.
+Dividere entrambi i lati per $\lambda$ per isolare il termine a destra.
 
 <fragment>
 $\lambda \cdot f = c_0 \quad\quad\quad |: \lambda$

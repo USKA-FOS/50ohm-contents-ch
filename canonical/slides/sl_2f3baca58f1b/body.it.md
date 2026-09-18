@@ -1,24 +1,23 @@
 <left>
-[picture:674:kanal:Canale]
+[immagine:674:canale:Canale]
 </left>
 <right>
-* La figura mostra un trasmettitore e un ricevitore collegati tra loro tramite un canale.
-* A causa di influenze atmosferiche o trasmissioni di altre stazioni, possono verificarsi disturbi sul canale, che portano a errori nella trasmissione.
+* L’illustrazione mostra un trasmettitore e un ricevitore collegati tra loro tramite un canale.
+* A causa di influenze atmosferiche o trasmissioni di altre stazioni, possono verificarsi disturbi sul canale che portano a errori nella trasmissione.
 </right>
 <note>
 </note>
 
 ---
 
-La codifica di canale aggiunge ridondanza mirata all'informazione da trasmettere, ad esempio ripetizioni o checksum.
+La codifica del canale aggiunge alla trasmissione delle informazioni una ridondanza mirata, ad esempio ripetizioni o checksum.
 
 ---
 [question:AE409]
 
 ---
-[picture:676:kanalcodierer:Codificatore di canale]
+[immagine:676:codificatore_canale:Codificatore di canale]
 
-Distinguamo due tipi di codifica di canale:
-* *Rilevamento errori*: Si può rilevare che si è verificato un errore durante la trasmissione e quindi richiedere, ad esempio, una ritrasmissione.
-* *Correzione errori in avanti*: Gli errori che si verificano durante la trasmissione vengono corretti dal ricevitore con l'aiuto della ridondanza.
-
+Distinguiamo due tipi di codifica del canale:
+* *Rilevamento degli errori*: si può riconoscere che durante la trasmissione è avvenuto un errore e, ad esempio, richiedere una nuova trasmissione.
+* *Correzione degli errori in avanti*: gli errori che si verificano durante la trasmissione vengono corretti al ricevitore grazie alla ridondanza.

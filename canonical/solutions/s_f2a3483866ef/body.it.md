@@ -1,15 +1,15 @@
 # Dati
-Potenza d’uscita del trasmettitore: $p_\text{Sender, Ausgang} = \qty{1}{\watt}$  
-Amplificazione: $g_\text{Endstufe} = \qty{10}{\dezibel}$  
+Potenza d’uscita del trasmettitore: $p_\text{trasmettitore, uscita} = \qty{1}{\watt}$  
+Guadagno: $g_\text{stadio finale} = \qty{10}{\dezibel}$  
 
-# Svolgimento
-Utilizziamo la formula in $\unit{\dBm}$ dalla raccolta di formule (Livello, Livello di potenza e di tensione):
+# Procedimento
+Utilizziamo la formula in $\unit{\dBm}$ dalla raccolta di formule (livelli, livelli di potenza e tensione):  
 $ p = 10 \cdot \log_{10}\left(\frac{P}{\qty{1}{\milli\watt}}\right)\unit{\dBm}$ 
-e calcoliamo il livello di ingresso nello stadio finale:
-$ p_\text{Endstufe, Eingang} = 10 \cdot \log_{10}\left(\frac{p_\text{Sender, Ausgang}}{\qty{1}{\milli\watt}}\right)\unit{\dBm}= 10 \cdot \log_{10}\left(\frac{\qty{1}{\watt}}{\qty{10^{-3}}{\watt}}\right)\unit{\dBm} \\ = 10 \cdot \log_{10}\left(10^{3}\right)\unit{\dBm}= 10 \cdot \qty{3}{\dBm}\\ = \qty{30}{\dBm}$ 
-Il livello di uscita si ottiene quindi per semplice addizione:
-$ p_\text{Ausgang} = p_\text{Eingang} + g_\text{Verstärkung} = \qty{30}{\dBm} + \qty{10}{\dB} = \qty{40}{\dBm}$
+e calcoliamo così il livello d’ingresso nello stadio finale:
+$ p_\text{stadio finale, ingresso} = 10 \cdot \log_{10}\left(\frac{p_\text{trasmettitore, uscita}}{\qty{1}{\milli\watt}}\right)\unit{\dBm}= 10 \cdot \log_{10}\left(\frac{\qty{1}{\watt}}{\qty{10^{-3}}{\watt}}\right)\unit{\dBm} \\ = 10 \cdot \log_{10}\left(10^{3}\right)\unit{\dBm}= 10 \cdot \qty{3}{\dBm}\\ = \qty{30}{\dBm}$ 
+Il livello d’uscita si ottiene quindi semplicemente sommando:
+$ p_\text{uscita} = p_\text{ingresso} + g_\text{guadagno} = \qty{30}{\dBm} + \qty{10}{\dB} = \qty{40}{\dBm}$
 
 # Abbreviazione
-Chi ha lavorato un po' con i logaritmi e la tabella degli ausili può calcolare la soluzione mentalmente.  
-$\qty{1}{\watt}$ corrispondono a $\qty{1000}{\milli\watt}$ corrispondono a $\qty{30}{\dBm}$, più l'amplificazione di $\qty{10}{\dezibel}$ danno $\qty{40}{\dBm}$.
+Chi ha familiarità con i logaritmi e la tabella degli strumenti può risolvere il problema a mente.  
+$\qty{1}{\watt}$ corrisponde a $\qty{1000}{\milli\watt}$, che corrisponde a $\qty{30}{\dBm}$; aggiungendo il guadagno di $\qty{10}{\dezibel}$ si ottiene $\qty{40}{\dBm}$. 

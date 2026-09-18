@@ -1,42 +1,42 @@
-
 <left>
-* Possibile operare con apparecchi radio all'estero a determinate condizioni
-* Accordi tra molti stati
+* Attività radioamatoriale all’estero possibile in determinate condizioni
+* Accordi tra molti Stati
 </left>
 <right>
-* Durante soggiorni temporanei
+* In caso di soggiorno temporaneo
 * Riconoscimento reciproco dei certificati di radioamatore
 </right>
 
 --- style="font-size: 0.7em;"
 <left>
-* Stati membri della *Conferenza Europea delle Amministrazioni delle Poste e delle Telecomunicazioni* (CEPT)
+* Stati membri della *Conferenza Europea delle Amministrazioni delle Poste e delle Telecomunicazioni* (Conférence Européenne des Administrations des Postes et des Télécommunications, CEPT)
 * Diverse raccomandazioni nella tabella a destra
 </left>
 <right>
 | l: Raccomandazione CEPT | l: Spiegazione |
 | ECC Report 89 | Classe N |
-| ERC-Report 32 | Base per ECC Report (05) 06 |
-| ECC Report (05) 06 | Classe E |
+| ERC-Report 32 | Base per la raccomandazione ECC (05) 06 |
+| Raccomandazione ECC (05) 06 | Classe E |
 | T/R 61-01 | Classe A |
 | T/R 61-02 | HAREC |
-[table:n_funken_im_ausland_cept_empfehlungen:Raccomandazioni CEPT]
+[table:n_funken_im_ausland_cept_empfehlungen:CEPT-Empfehlungen]
 </right>
 <note>
-Non è necessario imparare a memoria le raccomandazioni, ma è bene conoscere le disposizioni più importanti
+Le raccomandazioni non devono essere imparate a memoria, ma è bene conoscere le normative più importanti
 </note>
 
 ---
 [question:VB104]
 ---
-## Operazioni radioamatoriali temporanee all'estero
-* Possono essere effettuate solo in stati che applicano le disposizioni CEPT
+
+## Attività radioamatoriale temporanea all’estero
+* Consentita solo negli Stati che applicano le normative CEPT
 * Nessuna residenza fissa
-* Temporaneo fino a 3 mesi
+* Temporaneamente fino a 3 mesi
 
 <note>
-* Riferimento: [Lista paesi CEPT](https://50ohm.de/cll) del DARC-Auslandsreferat
-* Fare pubblicità al DARC
+* Manuale di consultazione: [Elenco paesi CEPT](https://50ohm.de/cll) del DARC Referato Estero
+* Promuovere il DARC
 </note>
 ---
 [question:VB106]
@@ -45,46 +45,53 @@ Non è necessario imparare a memoria le raccomandazioni, ma è bene conoscere le
 ---
 [question:VB109]
 ---
+
 ## Ulteriore riconoscimento CEPT
-* Ci sono stati che non appartengono alla CEPT, ma che applicano in parte o totalmente le disposizioni
-* Esempi: USA e Australia
+* Esistono Stati che non appartengono alla CEPT ma applicano in tutto o in parte le sue normative
+* Esempi: Stati Uniti e Australia
 
 ---
 [question:VB108]
 ---
+
 ## Nominativi
-* Identificazione tramite prefisso aggiuntivo prima del proprio nominativo
+* Identificazione tramite prefisso aggiuntivo anteposto al proprio nominativo
 * Eventualmente a seconda della classe di radioamatore
-* Deve essere consultato nel rispettivo paese prima dell'uso
+* Deve essere verificato prima dell’uso nel rispettivo Paese
 
 <note>
-La separazione con la barra si pronuncia "stroke"
+La separazione con la barra obliqua viene pronunciata come "stroke"
 </note>
+
 ---
 [question:BD213]
 <note>
-* Nominativo tedesco di Classe E riceve prefisso svizzero Entry Level
-* Entry Level verrà spiegato qualche diapositiva più tardi
+* Un nominativo tedesco di classe E riceve il prefisso svizzero Entry Level
+* L’Entry Level verrà spiegato nelle prossime slide
 </note>
 ---
 [question:BD214]
 <note>
-* Nominativo tedesco di Classe A riceve prefisso svizzero HAREC
-* HAREC verrà spiegato qualche diapositiva più tardi
+* Un nominativo tedesco di classe A riceve il prefisso svizzero HAREC
+* HAREC verrà spiegato nelle prossime slide
 </note>
+
 ---
-## Operazioni all'estero con Classe N
-Non consentito
+
+## Attività all’estero con classe N
+Non consentita
 
 <note>
-La Germania non ha ancora segnalato la Classe N alla CEPT come Entry Level License
+La Germania non ha ancora segnalato la classe N come licenza di livello base (Entry Level License) alla CEPT
 </note>
+
 ---
 [question:VB105]
 ---
+
 ## Radioamatori stranieri in Germania
-* Reciproche disposizioni CEPT
-* Operazioni radioamatoriali temporanee fino a 3 mesi
+* Normative CEPT reciproche
+* Attività radio temporanea fino a 3 mesi
 * Senza residenza fissa
 * A seconda della classe, prefisso *DL/* o *DO/*
 
@@ -93,49 +100,54 @@ La Germania non ha ancora segnalato la Classe N alla CEPT come Entry Level Licen
 ---
 [question:BD212]
 ---
+
 ## Stazioni di club
-* Le disposizioni CEPT valgono solo per i nominativi personali
-* Le stazioni di club richiedono un'autorizzazione ospite
+* Le normative CEPT si applicano solo ai nominativi personali
+* Le stazioni di club necessitano di un’autorizzazione ospite
 
 ---
+
 ## Autorizzazione ospite
-* In paesi in cui la raccomandazione CEPT non viene applicata
-* Richiedere all'autorità del paese ospitante
-* Eventualmente, anche per gli apparecchi radio potrebbe essere necessario ottenere un'autorizzazione corrispondente
+* Nei Paesi in cui non si applica la raccomandazione CEPT
+* Da richiedere all’autorità del Paese ospitante
+* Eventualmente può essere necessario richiedere anche un’autorizzazione per le apparecchiature radio
 
 <note>
-Qui il DARC-Auslandsreferat aiuta i suoi membri
+In questo caso il Referato Estero del DARC aiuta i suoi membri
 </note>
+
 ---
 [question:VB114]
 ---
 [question:VB113]
 ---
+
 ## Normative nazionali
-* Nei paesi CEPT esistono diverse normative nazionali
-* Ad esempio, la banda dei $\qty{6}{\meter}$ liberata in Germania è limitata all'estero
-* Rispettare le disposizioni e gli obblighi del paese ospitante
+* Nei Paesi CEPT esistono normative nazionali diverse
+* ad es. la banda dei $\qty{6}{\meter}$ consentita in Germania è limitata all’estero
+* Rispettare le disposizioni e le prescrizioni del Paese ospitante
 
 <note>
-Popolari:
-* $\qty{20}{\meter}$ con Classe E nei Paesi Bassi o
-* Tutte le bande HF con Classe E in Danimarca
-* $\qty{1000}{\watt}$ PEP onde corte con Classe A in Danimarca
+Molto apprezzati:
+* $\qty{20}{\meter}$ con classe E nei Paesi Bassi o
+* Tutte le bande OC con classe E in Danimarca
+* $\qty{1000}{\watt}$ PEP in onde corte con classe A in Danimarca
 </note>
 ---
 [question:VB111]
 ---
 [question:VB112]
 ---
-## Trasferimento all'estero
-* Residenza all'estero per più di 3 mesi o permanente
-* Richiesta semplificata dell'autorizzazione di radioamatore
-* Solitamente nessun esame aggiuntivo
-* Certificato di radioamatore Classe E $\rightarrow$ Certificato di esame per radioamatore principiante CEPT
-* Certificato di radioamatore Classe A $\rightarrow$ Harmonized Amateur Radio Examination Certificate (HAREC)
+
+## Trasferimento all’estero
+* Residenza superiore a 3 mesi o permanente all’estero
+* Semplificazione nella richiesta dell’autorizzazione per il servizio di radioamatore
+* Di solito non è richiesto un nuovo esame
+* Certificato di radioamatore di classe E $\rightarrow$ Certificato di esame armonizzato per radioamatori (HAREC)
+* Certificato di radioamatore di classe A $\rightarrow$ *Harmonized Amateur Radio Examination Certificate* (HAREC)
 
 <note>
-Esempio: Nella domanda per l'autorizzazione al servizio radioamatoriale c'è un campo da spuntare se si possiede già un esame secondo HAREC - in tal caso, questo viene riconosciuto direttamente.
+Esempio: Nella domanda di autorizzazione al servizio di radioamatore è presente un campo da spuntare in cui si dichiara se si possiede già un esame HAREC – in tal caso viene direttamente riconosciuto.
 </note>
 ---
 [question:VB102]

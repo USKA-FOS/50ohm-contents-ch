@@ -1,7 +1,7 @@
-* Come radioamatori, possiamo aprire e modificare apparecchi
-* Per la nostra sicurezza, *scollegare l'apparecchio dalla rete!*
-* I condensatori possono immagazzinare energia per lungo tempo, il che può essere pericoloso
-* Anche senza collegamento alla rete, *il pericolo di morte persiste toccando i condensatori!*
+* Come radioamatori possiamo aprire e modificare gli apparecchi
+* Per la nostra sicurezza, *scollegare l'apparecchio dalla rete elettrica!*
+* I condensatori possono immagazzinare energia per un lungo *tempo*, che può diventare pericolosa
+* Anche senza collegamento alla rete, permane il *pericolo di morte* al contatto con i condensatori!
 
 ---
 [question:EK203]

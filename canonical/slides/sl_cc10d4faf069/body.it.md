@@ -1,10 +1,10 @@
 ## Resistenza di alimentazione
 
-* Un'antenna viene alimentata con tensione e corrente
-* Il loro rapporto reciproco determina la resistenza di alimentazione
-* Per la potenza sono sempre necessarie tensione <u>e</u> corrente
-* Se una delle due fosse 0, non ci sarebbe erogazione di potenza
-* La resistenza di alimentazione dipende dal punto di immissione
+* Un’antenna viene alimentata con tensione e corrente.
+* Il loro *rapporto* determina la resistenza di alimentazione.
+* Per la *potenza* devono essere sempre presenti sia la tensione che la corrente.
+* Se uno dei due valori fosse 0, non ci sarebbe erogazione di potenza.
+* La resistenza di alimentazione dipende dal punto di alimentazione.
 
 <note>
 * Legge di Ohm
@@ -14,31 +14,31 @@
 
 ## Antenne alimentate in corrente
 
-* Alta corrente con tensione relativamente bassa al punto di alimentazione
-* Bassa resistenza di alimentazione
-* ca. $\qtyrange{36}{100}{\ohm}$
-* Comportamento a bassa impedenza
+* Alta corrente con tensione relativamente bassa nel punto di alimentazione.
+* Bassa resistenza di alimentazione.
+* Circa $\qtyrange{36}{100}{\ohm}$.
+* Comportamento a bassa impedenza.
 
 ---
 
-## Antenna alimentata in tensione
-* Alta tensione con corrente relativamente bassa al punto di alimentazione
-* Alta resistenza di alimentazione
-* ca. $\qtyrange{1500}{4000}{\ohm}$
-* Comportamento ad alta impedenza
+## Antenne alimentate in tensione
+* Alta tensione con corrente relativamente bassa nel punto di alimentazione.
+* Alta resistenza di alimentazione.
+* Circa $\qtyrange{1500}{4000}{\ohm}$.
+* Comportamento ad alta impedenza.
 
 ---
 
-## Immissione in un dipolo a semionda
+## Alimentazione del dipolo a semionda
 
-* I portatori di carica oscillano avanti e indietro
-* Al centro si muovono particolarmente molti portatori di carica $\rightarrow$ ventre di corrente
-* Alle estremità si creano tensioni particolarmente elevate $\rightarrow$ ventre di tensione
-* Pochi portatori di carica $\rightarrow$ nodo di corrente
-* Nessuna tensione $\rightarrow$ nodo di tensione
+* Le cariche elettriche oscillano avanti e indietro.
+* Al centro si muovono molte cariche $\rightarrow$ ventre di corrente.
+* Alle estremità si creano alte tensioni $\rightarrow$ ventre di tensione.
+* Poche cariche $\rightarrow$ nodo di corrente.
+* Assenza di tensione $\rightarrow$ nodo di tensione.
 
 <note>
-* La grafica nella pagina successiva lo illustra
+* La grafica nella pagina successiva lo illustra.
 </note>
 
 ---
@@ -63,17 +63,15 @@
 
 ---
 
-## Dipolo a semionda alimentato all'estremità
-
+## Dipolo a semionda alimentato all’estremità
 
 <left>
 * Antenna alimentata in tensione
 * Alta resistenza di alimentazione
 </left>
 <right>
-[picture:851:e_strom_spannung_speisung_dipol_ende:Dipolo a semionda alimentato all'estremità]
+[picture:851:e_strom_spannung_speisung_dipol_ende:Dipolo a semionda alimentato all’estremità]
 </right>
 
 ---
 [question:EG205]
-

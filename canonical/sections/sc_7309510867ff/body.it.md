@@ -1,15 +1,14 @@
+%TODO Cambiare immagine. Se disponibile un'immagine migliore.
 <margin>
-[photo:58:n_klubstationen_klubstation:La stazione del club DL0AO dell'associazione locale DARC di Amberg]
+[photo:58:n_klubstationen_klubstation:La stazione club DL0AO della sezione DARC di Amberg]
 </margin>
 
 ---
 
-Di norma, una stazione radioamatoriale è gestita da una sola persona. Tuttavia, alcuni radioamatori gestiscono insieme una stazione, che viene quindi definita stazione del club. Oltre ai nominativi personali, esistono nominativi speciali per tali gruppi di almeno tre radioamatori per l'uso comune in una stazione del club (vedi tabella [ref:n_klubstation_rufzeichen]).
-
-[question:VD117]
+In genere, una stazione radioamatoriale viene utilizzata da una sola persona. Tuttavia, esistono anche associazioni di radioamatori che gestiscono una stazione, denominata *stazione club*. Oltre ai nominativi personali, per questi gruppi vengono assegnati nominativi speciali per l'uso presso la stazione club. Questi sono chiamati *nominativi di associazione*.
 
 ---
-
+% Rielaborare la tabella per includere esempi di nominativi (associazioni, contest, forze armate)
 <margin>
 | l: Nominativo | l: | l: | X: Classe |
 | DAØAA | - | DAØZZZ | A |
@@ -25,53 +24,51 @@ Di norma, una stazione radioamatoriale è gestita da una sola persona. Tuttavia,
 | DOØA | - | DO9Z | E |
 | DP3A | - | DP9Z | A |
 | DQØA | - | DR9Z | A |
-[table:n_klubstation_rufzeichen:Nominativi per stazioni del club]
+[table:n_klubstation_rufzeichen:Nominativi per stazioni club]
 </margin>
 
-Le seguenti domande possono essere nuovamente risposte con l'aiuto del [piano dei nominativi](https://50ohm.de/rzp):
+---
+<law>
+Link diretto al portale [eGov](https://www.egov.swiss/it/amateurfunk/rufzeichen-vereine-beschreibung) per la richiesta di un nominativo di associazione, di contest e di nominativi speciali per associazioni di radioamatori
 
-[question:BD101]
+[Link diretto al portale eGov](https://www.egov.swiss/it/amateurfunk/rufzeichen-vereine-beschreibung) per la richiesta di un nominativo di associazione, di contest e di nominativi speciali per associazioni di radioamatori
+
+Link diretto al portale eGov per la [richiesta di un nominativo di associazione](https://www.egov.swiss/it/amateurfunk/rufzeichen-vereine-beschreibung) nonché di nominativi per contest e nominativi speciali per associazioni di radioamatori
+
+</law>
+
+%tbd quale formulazione sia migliore. O un'altra ancora.
+%Todo. Adattare tutti i riferimenti legali con link al portale eGov.
+
+I nominativi di associazione sono nominativi con suffisso a due cifre e vengono assegnati esclusivamente ad associazioni di radioamatori. È possibile prendere in considerazione richieste specifiche per il nominativo, purché il nominativo desiderato sia libero da almeno 5 anni.
+
+Per richiedere un nominativo di associazione, occorre inviare all'UFCOM i seguenti documenti:
+* Copia dello statuto dell'associazione;
+* Composizione aggiornata della direzione dell'associazione;
+* Nome e nominativo del responsabile tecnico. Quest'ultimo deve essere titolare di un certificato di abilitazione CEPT (HB9) con accesso a tutte le bande e modalità del servizio di radioamatore;
+* La richiesta viene effettuata tramite il servizio corrispondente sul portale eGov.
+
+
 [question:BD103]
 
-Per richiedere un nominativo per una stazione del club, il gruppo deve designare una persona come responsabile della stazione, che sia essa stessa un radioamatore con licenza per partecipare al servizio radioamatoriale. Il responsabile della stazione diventa il titolare del nominativo, che viene assegnato per cinque anni. Un rinnovo deve essere richiesto tempestivamente. Il nominativo per la stazione del club può essere utilizzato solo dopo che l'assegnazione è avvenuta.
+Una stazione club può essere utilizzata da qualsiasi radioamatore in possesso di un'autorizzazione per la partecipazione al servizio di radioamatore.
+[question:VN028]
+Il suo utilizzo *non* è limitato ai soli membri del gruppo.
+[question:VU008]
 
-[question:VD401]
-[question:VD402]
-[question:VD403]
-
-Una stazione del club può essere utilizzata da qualsiasi radioamatore in possesso di una licenza per partecipare al servizio radioamatoriale. L'utilizzo non è limitato ai membri del gruppo.
-
-[question:VD404]
-[question:VD405]
+Anche un radioamatore in possesso del certificato di abilitazione NOVICE (HB3) può effettuare trasmissioni presso una stazione club, ma solo entro i limiti della sua autorizzazione (bande e potenza).
+%TODO: Adattare il riferimento al certificato di abilitazione alla versione definitiva della domanda
+[question:VU009]
+% Sotto la supervisione di un HB9 è consentito l'uso completo. È necessaria l'autorizzazione a trasmettere? Da verificare con EXR.
 
 ---
+<law>
+Link diretto al [Bollettino del radioamatore](https://www.bakom.admin.ch/it/amateurfunk#Merkblatt-Amateurfunk) 1.1.2 + 1.1.3
+</law>
 
-Un radioamatore con classe di licenza N o E può operare anche in una stazione del club di classe A, ma solo nei limiti della sua autorizzazione. Viceversa, un radioamatore con licenza di classe A può utilizzare in una stazione del club di classe E o N solo le potenze e le bande consentite rispettivamente per la classe E o N. Lo stesso vale di conseguenza per tutte le altre combinazioni, come mostrato nella tabella [ref:n_klubstation_unterschiedliche_klassen].
-
-<webmargin>
-| X: | c: Stazione N | c: Stazione E | c: Stazione A |
-| Radioamatore N | N | N | N |
-| Radioamatore E | N | E | E |
-| Radioamatore A | N | E | A |
-[table:n_klubstation_unterschiedliche_klassen:Rappresentazione, entro quale classe è consentito operare quando la classe del radioamatore e la classe della stazione del club differiscono]
-</webmargin>
-
-Qui due esempi basati sulla banda dei $\qty{40}{\meter}$, che solo i titolari di una licenza radioamatoriale di classe A possono utilizzare:
-* Il radioamatore di classe E può utilizzare la stazione del club di classe A, ma non la banda dei $\qty{40}{\meter}$, poiché questa non è autorizzata per la classe E.
-* Il radioamatore di classe A può utilizzare la stazione del club di classe E, ma non la banda dei $\qty{40}{\meter}$ lì, poiché, come già detto, questa non è autorizzata per la classe E.
-
-In sintesi: la classe più bassa determina la massima autorizzazione.
-
-[question:VD406]
-[question:VD407]
-
-In occasione di eventi o simili, una stazione del club può essere gestita anche temporaneamente in altre località. Non è necessaria alcuna comunicazione all'BNetzA per una modifica *temporanea* della località.
-
-[question:VD408]
-
-[question:VU008]
-[question:VU009]
-[question:VN028]
-[question:BD110]
+Le associazioni possono richiedere, oltre al normale nominativo di associazione, anche nominativi speciali per contest.
+I nominativi per contest possono essere strutturati come segue: HB1... / HB2... / HB5... / HB6... / HB7... / HB8... 
 [question:BD111]
+I nominativi con HB4… sono riservati esclusivamente ad associazioni e stazioni con riferimento militare.
+[question:BD110]
 [question:BD116]

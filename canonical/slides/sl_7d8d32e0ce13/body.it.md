@@ -1,7 +1,7 @@
-## Cavi a bassa attenuazione
+## Cavi con bassa attenuazione
 
 * L'attenuazione è spesso indesiderata
-* Obiettivo: Trovare un cavo la cui attenuazione sia inferiore al valore specificato
+* Obiettivo: trovare un cavo la cui attenuazione sia inferiore al valore prefissato
 * Diagramma di attenuazione dei cavi dalla raccolta di formule
 
 ---
@@ -14,17 +14,16 @@
 ### Attenuazione del cavo e frequenza
 
 * L'attenuazione del cavo aumenta all'aumentare della frequenza
-* La frequenza più alta (lunghezza d'onda più piccola) corrisponde all'attenuazione più forte
+* La frequenza massima (lunghezza d’onda minima) corrisponde all'attenuazione più elevata
 
 ---
 [question:AG308]
 ---
 
-### Influenza dei dielettrici sull'attenuazione
+### Influenza dei materiali dielettrici sull'attenuazione
 
-* I materiali dielettrici o i rivestimenti in plastica aumentano l'attenuazione dei segnali ad alta frequenza
-* Le linee bifilari con il minor quantitativo possibile di materiale dielettrico tra i conduttori hanno un'attenuazione particolarmente bassa
+* I materiali dielettrici o le guaine in plastica aumentano l'attenuazione nei segnali ad alta frequenza
+* Le linee bifilari con il minor materiale dielettrico possibile tra i conduttori sono particolarmente a bassa attenuazione
 
 ---
 [question:AG311]
-

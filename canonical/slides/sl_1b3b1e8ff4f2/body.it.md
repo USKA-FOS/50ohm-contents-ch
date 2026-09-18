@@ -1,15 +1,15 @@
 <left>
-[picture:343:a_Brückenschaltung:Tipico circuito a ponte con 4 resistenze]
+[picture:343:a_Brückenschaltung:Circuito a ponte tipico con 4 resistenze]
   
 $\frac{R_1}{R_2} = \frac{R_3}{R_4}$
 </left>
 <right>
-* Circuito composto da 4 resistenze per la misurazione della resistenza
+* Circuito composto da 4 resistenze per la misurazione di resistenze
 * Due partitori di tensione collegati in parallelo
 * Se i rapporti dei partitori di tensione sono uguali, non scorre corrente attraverso il ponte
 </right>
 <note>
-Ponte di misura di Wheatstone
+Ponte di Wheatstone
 </note>
 
 ---
@@ -19,11 +19,11 @@ Ponte di misura di Wheatstone
 ---
 [question:AD113]
 --- style="font-size: 0.7em;"
-#### Percorso di soluzione
-* dato: $R_1 = R_4 = \qty{1}{\kilo\ohm}$
-* dato: $R_2 = R_3 = \qty{10}{\kilo\ohm}$
-* dato: $U = \qty{11}{\volt}$
-* cercato: $U_{AB}$
+#### Procedimento di soluzione
+* dati: $R_1 = R_4 = \qty{1}{\kilo\ohm}$
+* dati: $R_2 = R_3 = \qty{10}{\kilo\ohm}$
+* dati: $U = \qty{11}{\volt}$
+* incognita: $U_{AB}$
 
 <fragment>
 $\frac{U_A}{U} = \frac{R_1}{R_1 + R_2} \Rightarrow U_A = \frac{R_1}{R_1 + R_2} \cdot U = \frac{\qty{1}{\kilo\ohm}}{\qty{1}{\kilo\ohm} + \qty{10}{\kilo\ohm}} \cdot \qty{11}{\volt} = \qty{1}{\volt}$
@@ -32,5 +32,5 @@ $\frac{U_A}{U} = \frac{R_1}{R_1 + R_2} \Rightarrow U_A = \frac{R_1}{R_1 + R_2} \
 $\frac{U_B}{U} = \frac{R_3}{R_3 + R_4} \Rightarrow U_B = \frac{R_3}{R_3 + R_4} \cdot U = \frac{\qty{10}{\kilo\ohm}}{\qty{10}{\kilo\ohm} + \qty{1}{\kilo\ohm}} \cdot \qty{11}{\volt} = \qty{10}{\volt}$
 </fragment>
 <fragment>
-$U_{AB} = |U_A - U_B| = |\qty{1}{\volt} - \qty{10}{\volt}| = \qty{9}{\volt}$
+$U_{AB} = U_B - U_A = \qty{10}{\volt} - \qty{1}{\volt} = \qty{9}{\volt}$
 </fragment>

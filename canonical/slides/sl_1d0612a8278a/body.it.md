@@ -1,60 +1,64 @@
 <left>
-[picture:648:n_relaisfunkstellen_aufbau:Rappresentazione schematica di una stazione radio ripetitrice con utenti]
+[picture:648:n_relaisfunkstellen_aufbau:Rappresentazione schematica di una stazione ripetitrice con utenti]
 </left>
 <right>
-* Consente una maggiore portata rispetto alla connessione diretta
-* Solitamente in posizioni esposte, ad es. cime delle montagne, grattacieli, (chiese-)campanili
-* O nei satelliti
+* Consente una portata maggiore rispetto a una connessione diretta
+* Generalmente situata in posizioni esposte, ad esempio cime montuose, grattacieli, torri (di chiese)
+* Oppure su satelliti
 </right>
 
 <note>
-* Non è possibile comunicare attraverso la montagna
-* Con il ripetitore, entrambi i radioamatori possono stabilire un collegamento
-* Maggiori informazioni sui satelliti più tardi
+* La montagna non permette il passaggio del segnale
+* Con il relè entrambi i radioamatori possono stabilire una connessione
+* Maggiori informazioni sui satelliti in seguito
 </note>
+
 ---
-## Definizione di stazione radio ripetitrice
-una stazione radioamatoriale controllata a distanza (anche nei satelliti), che ritrasmette segnali radioamatoriali ricevuti, parti di essi o altri segnali immessi o memorizzati, attivata a distanza e che serve ad aumentare la raggiungibilità delle stazioni radioamatoriali
+
+## Definizione di stazione ripetitrice
+una stazione radioamatoriale telecomandata (anche su satelliti), che emette in modo telecomandato le emissioni radioamatoriali ricevute, parti di esse o altri segnali immessi o memorizzati, al fine di aumentare la raggiungibilità delle stazioni radioamatoriali
+
 ---
 <left>
-* Chiamata anche brevemente: Relais o Repeater
-* Trasmettono regolarmente il loro nominativo
-* Il nominativo inizia solitamente con DB0, DM0 o DO0
+* Detto anche brevemente: relè o ripetitore
+* Trasmette regolarmente il proprio nominativo
+* Il nominativo inizia generalmente con DB0, DM0 o DO0
 </left>
 <fragment>
 <right>
-* Le stazioni radio ripetitrici non sono gestite con nominativi personali.
-* Le stazioni radio ripetitrici di solito non sono presidiate permanentemente.
-* Le stazioni radio ripetitrici non devono necessariamente essere gestite in posizioni geograficamente esposte.
+* Le stazioni ripetitrici non operano con nominativi personali.
+* Le stazioni ripetitrici non sono generalmente presidiate.
+* Le stazioni ripetitrici non devono necessariamente essere collocate in posizioni geografiche esposte.
 </right>
 </fragment>
 
 ---
-[question:NF118]
+[question:VD118]
 ---
+
 ## Funzionamento
 <left>
-* Riceve il segnale di una stazione radioamatoriale sulla frequenza di ingresso
-* Lo ritrasmette contemporaneamente sulla frequenza di uscita
-* Affinché il trasmettitore non disturbi, le frequenze sono solitamente diverse
+* Riceve sulla frequenza di ingresso il segnale di una stazione radioamatoriale
+* Lo trasmette contemporaneamente sulla frequenza di uscita
+* Per evitare interferenze del trasmettitore, le frequenze sono generalmente diverse
 </left>
 <right>
 <fragment>
-La differenza è chiamata *scarto di frequenza* o brevemente *scarto*
+La distanza tra le frequenze viene chiamata *scostamento di frequenza* o semplicemente *scostamento*
 
-| r: Banda | r: Scarto |
+| r: Banda | r: Scostamento |
 | $\qty{10}{\meter}$ | $\qty{100}{\kilo\hertz}$ |
 | $\qty{2}{\meter}$ | $\qty{600}{\kilo\hertz}$ |
 | $\qty{70}{\centi\meter}$ | $\qty{7,6}{\mega\hertz}$ |
 | $\qty{23}{\centi\meter}$ | $\qty{28}{\mega\hertz}$ |
-[table:n_relaisfunkstellen_ablage:Scarto di frequenza]
+[table:n_relaisfunkstellen_ablage:Scostamento di frequenza]
 </fragment>
 </right>
 
 ---
-Esempio di un ripetitore per $\qty{70}{\centi\meter}$:
+Esempio di un relè a $\qty{70}{\centi\meter}$:
 * Frequenza di ingresso: $\qty{431,275}{\mega\hertz}$
-* Scarto: $\qty{+7,600}{\mega\hertz}$
+* Scostamento: $\qty{+7,600}{\mega\hertz}$
 * Frequenza di uscita: $\qty{438,875}{\mega\hertz}$
 
 ---
@@ -64,31 +68,37 @@ Esempio di un ripetitore per $\qty{70}{\centi\meter}$:
 ---
 [question:BE403]
 
---- indepth
-## Funzionamento Crossband
-* Trasmette e riceve contemporaneamente su due bande diverse, ad es. $\qty{2}{\meter}$ e $\qty{70}{\centi\meter}$
-* Possibile anche la conversione del modo di trasmissione, ad es. SSB su FM
+---
+
+## Funzionamento crossband
+* Trasmette e riceve contemporaneamente su due bande diverse, ad esempio $\qty{2}{\meter}$ e $\qty{70}{\centi\meter}$
+* È possibile anche la conversione del modo di emissione, ad esempio SSB in FM
 
 ---
+
 ## Digipeater
-* Instrada dati invece di voce
+* Inoltra dati invece di voce
 * Riceve e trasmette pacchetti di dati
-* La trasmissione può avvenire solo in parte o con ritardo
+* L’emissione può avvenire solo in parte o con ritardo
 * I pacchetti di dati possono essere ripetuti
-* Singoli campi di dati possono essere modificati
+* È possibile modificare singoli campi dei dati
 
 <note>
-* Per il Packet Radio, che era popolare negli anni '90 prima di Internet
-* Più avanti verrà trattato più in dettaglio
+* Utilizzato per Packet Radio, popolare negli anni '90 prima di Internet
+* Verrà trattato in modo più approfondito in seguito
 </note>
+
 ---
-## Impostazioni speciali
-* Potrebbero essere necessarie ulteriori impostazioni per il collegamento al ripetitore
-* Queste informazioni sono disponibili negli elenchi dei ripetitori, sui siti web o presso il responsabile del ripetitore
-* Oltre ai ripetitori FM, ce ne sono per la voce digitale come DMR o D-Star
+[question:NF118]
+---
+
+## Impostazioni particolari
+* Potrebbero essere necessarie ulteriori impostazioni per la connessione al relè
+* Queste informazioni sono disponibili nei registri dei ripetitori, sui siti web o presso il responsabile del relè
+* Oltre ai ripetitori FM, esistono anche quelli per la voce digitale come DMR o D-Star
 
 <note>
-Un esempio di ulteriori impostazioni è un subtono con CTCSS
+Un esempio di impostazione aggiuntiva è un subtono con CTCSS
 </note>
 
 ---
@@ -96,54 +106,60 @@ Un esempio di ulteriori impostazioni è un subtono con CTCSS
 ---
 [question:NE308]
 ---
+
 ## Larghezza di banda del canale
 * Lo spazio necessario nello spettro di frequenza
 * FM larga: $\qty{25}{\kilo\hertz}$
 * FM stretta: $\qty{12,5}{\kilo\hertz}$
-* I ripetitori preferiscono la FM stretta, altrimenti i segnali vengono distorti e le frequenze adiacenti vengono disturbate
+* I ripetitori preferiscono la FM stretta, poiché altrimenti i segnali vengono distorti e si disturbano le frequenze adiacenti
 
 ---
 [question:BE407]
 ---
-## Funzionamento senza disturbi
-* In linea di principio, tutti i radioamatori con il loro nominativo assegnato possono utilizzare le stazioni radioamatoriali controllate a distanza
-* Il gestore può escludere i radioamatori per garantire un funzionamento senza disturbi
+
+## Operatività senza interferenze
+* In linea di principio, tutti i radioamatori possono utilizzare stazioni radioamatoriali telecomandate con il proprio nominativo assegnato
+* Il gestore può escludere radioamatori per garantire un funzionamento senza interferenze
 * La BNetzA deve essere informata di ciò
 
 ---
 [question:VD504]
 ---
-## Funzionamento sui ripetitori
-* Brevi trasmissioni
-* Le stazioni mobili e portatili sono spesso solo per breve tempo nel raggio di ricezione
-* Pausa tra le trasmissioni per consentire ad altre stazioni di inserirsi
+
+## Attività radio sui ripetitori
+* Trasmissioni brevi
+* Le stazioni mobili e portatili sono spesso raggiungibili solo per brevi periodi
+* Pausa tra le trasmissioni per consentire ad altre stazioni di intervenire
 
 ---
 [question:BE406]
 ---
 [question:BE404]
 ---
-## Duplicazione
-* In caso di immissione vocale simultanea, la trasmissione viene disturbata fino a diventare illeggibile
-* Evitare la "duplicazione" con un passaggio di consegne corretto
-* Iniziare la trasmissione solo dopo che la stazione precedente ha terminato
+
+## Sovrapposizione
+* Se due stazioni trasmettono contemporaneamente, l’emissione risulta disturbata fino a diventare illeggibile
+* Evitare la "sovrapposizione" con una corretta gestione dei turni
+* Iniziare la trasmissione solo quando la stazione precedente ha terminato
 
 ---
 [question:NE310]
 ---
 [question:BE405]
 ---
+
 ## Potenza di trasmissione
-* Secondo l'Allegato 1 dell'AFuV
-* Per stazioni automatiche sopra i $\qty{30}{\mega\hertz}$ con $\qty{50}{\watt}$ ERP
+* Secondo l’allegato 1 dell’AFuV
+* Per stazioni automatiche al di sopra di $\qty{30}{\mega\hertz}$ con $\qty{50}{\watt}$ ERP
 
 ---
 [question:VD503]
 ---
+
 ## Rapporto
-* La potenza del segnale ricevuto (S) è quella del ripetitore
-* Si rinuncia a questo
-* Solo la leggibilità (R) viene valutata nel rapporto
+* L’intensità del segnale ricevuto (S) è quella del relè
+* Viene omessa
+* Nel rapporto si valuta solo la leggibilità (R)
 
 ---
 [question:BE408]

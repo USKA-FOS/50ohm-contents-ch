@@ -1,18 +1,18 @@
-## SNR (Rapporto Segnale-Rumore)
+## SNR (rapporto segnale/rumore)
 
-* Rapporto tra segnale utile e segnale di rumore
-* Più alto è l'SNR, più il segnale si distingue dal rumore
+* Rapporto tra segnale utile e rumore
+* Più alto è il SNR, più il segnale si distingue dal rumore
 
 ---
 [question:AF227]
 ---
 ## Fattore di rumore
 
-* Spesso indicato per i preamplificatori HF
-* Peggioramento dell'SNR al passaggio del segnale attraverso l'amplificatore
+* Spesso indicato per preamplificatori HF
+* Peggioramento del SNR durante il passaggio del segnale attraverso l'amplificatore
 * Rapporto tra SNR in ingresso e SNR in uscita
-* Fattore di rumore: Indicazione del fattore di rumore in $\unit{\dB}$
-* Fattore di rumore $\num{2}\rightarrow$ Fattore di rumore $\qty{3}{\dB}$
+* Misura del rumore: indicazione del fattore di rumore in $\unit{\dB}$
+* Fattore di rumore $\num{2}\rightarrow$ misura del rumore $\qty{3}{\dB}$
 
 ---
 [question:AF228]

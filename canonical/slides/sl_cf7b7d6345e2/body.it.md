@@ -1,6 +1,6 @@
-* Alcune lettere sono difficili da distinguere l'una dall'altra
-* Ancora più difficile con ricezione debole o scarsa
-* Possono verificarsi malintesi durante la scandizione
+* Alcune lettere sono difficili da distinguere tra loro
+* Ancora più difficile in caso di ricezione debole o disturbata
+* Durante l’alfabetizzazione possono verificarsi fraintendimenti
 
 <note>
 * Esempio: DM4EAX e DN4EAX
@@ -10,21 +10,21 @@
 
 ### Soluzione
 
-* A ogni lettera viene assegnata una parola
-* Al posto della lettera viene pronunciata la parola
+* Ogni lettera viene associata a una parola
+* Al posto della lettera si pronuncia la parola corrispondente
 
 ---
 
-### Tavole di scandizione
+### Alfabeti fonetici
 
-* In Germania è nota la tavola di scandizione tedesca
-* Nel radioamatore, secondo la disposizione 13/2005 dell'Agenzia federale delle reti, viene utilizzata la tavola di scandizione internazionale
-* Prima introduzione nel 1927 da parte dell'Unione Internazionale delle Telecomunicazioni (ITU)
-* Allegato 14 del Regolamento delle radiocomunicazioni (RR)
-* Viene utilizzata anche nell'aviazione, nella radiotelefonia marittima e dalla NATO
+* In Germania è noto l’alfabeto fonetico tedesco
+* Nel radioamatore si utilizza l’alfabeto fonetico internazionale secondo la disposizione 13/2005 dell’Agenzia federale delle reti (BNetzA)
+* Introdotto per la prima volta nel 1927 dall’Unione internazionale delle telecomunicazioni (ITU)
+* Allegato 14 del regolamento delle radiocomunicazioni (RR)
+* Viene utilizzato anche nell’aviazione, nella radiocomunicazione marittima e dalla NATO
 
 <note>
-* ITU e Regolamento delle radiocomunicazioni verranno approfonditi in seguito
+* ITU e regolamento delle radiocomunicazioni verranno approfonditi in seguito
 </note>
 
 --- style="font-size: 0.7em;"
@@ -32,56 +32,56 @@
 <left>
 | c: Lettera | l: Parola | l: Pronuncia |
 | A | Alfa | AL-FA |
-| B | Bravo | BRA-WO |
-| C | Charlie | TSCHA-LI |
-| D | Delta | DELL-TA |
-| E | Echo | ECK-KO |
-| F | Foxtrot | FOX-TROTT |
+| B | Bravo | BRA-VO |
+| C | Charlie | CIA-RLI |
+| D | Delta | DEL-TA |
+| E | Echo | E-CO |
+| F | Foxtrot | FOKS-TROT |
 | G | Golf | GOLF |
-| H | Hotel | HO-TELL |
-| I | India | IN-DI-AH |
-| J | Juliett | DJU-LI-ETT |
+| H | Hotel | HO-TEL |
+| I | India | IN-DIA |
+| J | Juliett | GIU-LI-ETT |
 | K | Kilo | KI-LO |
 | L | Lima | LI-MA |
 | M | Mike | MAIK |
-[table:n_buchstabiertafel_1:Tavola di scandizione ITU]
+[table:n_buchstabiertafel_1:L'alfabeto fonetico ITU]
 </left>
 <right>
 | c: Lettera | l: Parola | l: Pronuncia |
-| N | November | NO-WEM-BER |
-| O | Oscar | OSS-KAR |
+| N | November | NO-VEM-BER |
+| O | Oscar | OS-KAR |
 | P | Papa | PA-PA |
-| Q | Quebec | KWE-BECK |
-| R | Romeo | RO-MI-O |
-| S | Sierra | SIER-RA |
-| T | Tango | TÄNG-GO |
-| U | Uniform | JU-NI-FORM |
-| V | Victor | WICK-TOR |
-| W | Whiskey | WISS-KI |
-| X | X-ray | ÄX-RÄI |
-| Y | Yankee | JENG-KI |
-| Z | Zulu | SUH-LUH |
-[table:n_buchstabiertafel_2:Tavola di scandizione ITU]
+| Q | Quebec | QUE-BEC |
+| R | Romeo | RO-MIO |
+| S | Sierra | SI-ER-RA |
+| T | Tango | TAN-GO |
+| U | Uniform | IU-NI-FORM |
+| V | Victor | WIK-TOR |
+| W | Whiskey | UIS-KI |
+| X | X-ray | EKS-RAY |
+| Y | Yankee | GIAN-KI |
+| Z | Zulu | SU-LU |
+[table:n_buchstabiertafel_2:L'alfabeto fonetico ITU]
 </right>
 
 <note>
-* Trasmettere la pronuncia corretta
+* Assicurarsi di trasmettere la pronuncia corretta
 </note>
 
 ---
 
 ### Cifre / Numeri
 
-* Cifre nel traffico radio nazionale in tedesco
-* Nel traffico radio internazionale in inglese
+* Le cifre nel traffico radio nazionale si trasmettono in tedesco
+* Nel traffico radio internazionale si utilizzano le parole inglesi
 
 ---
 
-### Ulteriore utilizzo
+### Ulteriori utilizzi
 
-* Può essere utilizzato anche per scandire nomi o luoghi
-* Esistono variazioni (Nancy, Sugar, Ocean, Queen,...) che possono essere utilizzate in aggiunta
-* Scandire le vocali con AE, OE, UE e SS
+* Può essere usato anche per l’alfabetizzazione di nomi o luoghi
+* Esistono varianti (Nancy, Sugar, Ocean, Queen, ecc.) che possono essere utilizzate in aggiunta
+* Le vocali con dieresi si trasmettono come AE, OE, UE e la doppia S come SS
 
 ---
 [question:VD206]

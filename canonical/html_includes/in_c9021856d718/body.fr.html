@@ -1,0 +1,70 @@
+Avec l'applet suivante, on peut observer séparément les deux états de commutation du modulateur en anneau. Les tensions de seuil des <i>diodes</i> sont négligées et on suppose que les transformateurs transmettent un rapport 1:1. De plus, on considère que la <i>tension</i> $U_2$ est rectangulaire. Cela conduit à une commutation brutale. Un filtre de sortie devra ensuite filtrer les hautes fréquences ainsi générées.<br><br>
+
+<html>
+    <button id="button0">Aucune action</button>
+    <button id="button1">Cas 1 : U₂ > 0, U₃ = U₁</button>
+    <button id="button2">Cas 2 : U₂ < 0, U₃ = −U₁</button>
+
+    <img id="ringmodulator" width="100%" style="display: block; margin-top: 1rem;" alt="Schaltzustände des Ringmodulators"/>
+
+    <div id="ringmodulator-formula1" class="ringmodulator-formula" style="display: none; margin-top: 1rem;">
+        On obtient donc la <i>tension de sortie</i> suivante :
+        
+        <br>
+        <br>
+
+        $ U_3 = \left(+1\,\mathrm{V}+\frac{U_1}{2}\right) - \left(+1\,\mathrm{V}-\frac{U_1}{2}\right) = U_1 $
+
+        <br>
+        <br>
+
+        La multiplication de $U_1$ et $U_2$ fonctionne !
+    </div>
+
+    <div id="ringmodulator-formula2" class="ringmodulator-formula" style="display: none; margin-top: 1rem;">
+        La tension de sortie s'exprime donc par :
+
+        <br>
+        <br>
+            
+        $ U_3 = \left(-1\,\mathrm{V}-\frac{U_1}{2}\right) - \left(-1\,\mathrm{V}+\frac{U_1}{2}\right) = -U_1 $        \]
+
+        <br>
+        <br>
+
+        La multiplication de $U_1$ et $U_2$ fonctionne !
+    </div>
+
+    <script>
+        const images = [
+            "/pictures/1122.svg",
+            "/pictures/1123.svg",
+            "/pictures/1124.svg",
+        ];
+
+        document.getElementById("button0").addEventListener("click", function() {
+            showState(0);
+        });
+
+        document.getElementById("button1").addEventListener("click", function() {
+            showState(1);
+        });
+
+        document.getElementById("button2").addEventListener("click", function() {
+            showState(2);
+        });
+
+        function showState(index = 0) {
+            document.querySelector("#ringmodulator").src = images[index];
+            document.querySelectorAll(".ringmodulator-formula").forEach(function(formula) {
+                formula.style.display = "none";
+            });
+
+            if (index > 0) {
+                document.querySelector("#ringmodulator-formula" + index).style.display = "block";
+            }
+        }
+
+        showState(0);
+    </script>
+</html>

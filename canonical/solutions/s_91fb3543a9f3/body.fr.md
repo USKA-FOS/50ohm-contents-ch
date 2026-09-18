@@ -1,0 +1,3 @@
+Le montage à émetteur commun possède un gain en tension alternative élevé, typiquement dans la plage de $\num{100}\dots\num{300}$. Le condensateur d’émetteur shunte la résistance d’émetteur pour les tensions alternatives et réduit ainsi la contre-réaction, ce qui permet d’atteindre un gain élevé.
+
+Lorsqu’on augmente la tension d’entrée à la base, le courant de collecteur s’accroît. La chute de tension aux bornes de la résistance de collecteur augmente alors, et la tension de sortie au collecteur diminue. Le signal d’entrée et le signal de sortie sont donc en opposition de phase ; le déphasage est de $\qty{180}{\degree}$.

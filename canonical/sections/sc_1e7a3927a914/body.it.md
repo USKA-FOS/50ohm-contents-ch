@@ -1,31 +1,31 @@
-Su molti apparecchi radio c'è un interruttore per selezionare il tipo di modulazione da utilizzare. Di solito è etichettato come "Mode" e permette, ad esempio, di scegliere tra CW, AM, FM e SSB. Gli apparecchi radio che supportano solo un tipo di modulazione, naturalmente, non hanno un interruttore del genere.
+Sulla maggior parte dei ricetrasmettitori è presente un <b>interruttore</b> per selezionare il <b>tipo di modulazione</b> da utilizzare. Solitamente è etichettato con "Mode" e consente di scegliere tra CW, AM, FM e SSB. I ricetrasmettitori che supportano un solo tipo di modulazione, ovviamente, non hanno un simile <b>interruttore</b>.
 
 <webmargin>
 | l: Abbreviazione | X: Mode |
 | CW | Telegrafia |
 | AM | Modulazione di ampiezza |
 | FM | Modulazione di frequenza |
-| LSB | Banda laterale inferiore SSB ("lower sideband")|
-| USB | Banda laterale superiore SSB ("upper sideband") |
-[table:n_sendearten:Tipi di modulazione comunemente usati]
+| LSB | SSB banda laterale inferiore ("lower sideband") |
+| USB | SSB banda laterale superiore ("upper sideband") |
+[table:n_sendearten:Tipi di modulazione comunemente utilizzati]
 </webmargin>
 
-Sapendo che SSB, FM e AM sono tipi di modulazione, la seguente domanda può essere facilmente risposta. La maggior parte degli altri termini menzionati nella domanda, tra l'altro, non sono tipi di modulazione, ma metodi di trasmissione digitale, che tratteremo in parte solo più tardi.
+Conoscendo il fatto che SSB, FM e AM sono <b>tipi di modulazione</b>, la seguente domanda può essere risposta facilmente. La maggior parte degli altri termini menzionati nella domanda, tra l'altro, non sono <b>tipi di modulazione</b>, ma metodi di trasmissione digitale, che affronteremo solo in seguito.
 
 [question:NE102]
 
 ---
 
-Con SSB è importante selezionare la banda laterale corretta (LSB o USB). Nel radioamatore, con poche eccezioni, al di sotto dei $\qty{10}{\mega\hertz}$ si utilizza la banda laterale inferiore e a partire dai $\qty{10}{\mega\hertz}$ la banda laterale superiore. Questo è anche raccomandato nel piano di banda IARU.
+Nel caso di SSB, occorre selezionare la corretta <b>banda laterale</b> (LSB o USB). Nel radioamatoriale, con poche eccezioni, al di sotto di $\qty{10}{\mega\hertz}$ viene utilizzata la banda laterale inferiore e a partire da $\qty{10}{\mega\hertz}$ la banda laterale superiore. Questo è anche quanto raccomandato nel piano delle bande IARU.
 
 <attention>
-Con i metodi di trasmissione digitale, la banda laterale superiore viene sempre utilizzata anche al di sotto dei $\qty{10}{\mega\hertz}$!
+Nei metodi di trasmissione digitale viene sempre utilizzata la banda laterale superiore anche al di sotto di $\qty{10}{\mega\hertz}$!
 </attention>
 
 %[class:N]
 %<tip>
-% Suggerimento per HB3 non applicabile e commentato.
-% A causa delle bande consentite, la classe N può sempre utilizzare USB.
+% Suggerimento non applicabile a HB3 e commentato.
+%Grazie alle bande consentite, nella classe N è sempre possibile utilizzare USB.
 %</tip>
 %[/class]
 
@@ -37,12 +37,12 @@ Con i metodi di trasmissione digitale, la banda laterale superiore viene sempre 
 
 ---
 
-Se con SSB viene scelta la banda laterale sbagliata, la voce è completamente incomprensibile. Inoltre, con SSB è importante impostare la frequenza di ricezione con molta sensibilità usando la manopola VFO. Anche piccole deviazioni dalla frequenza corretta rendono la voce incomprensibile.
+Quando si utilizza SSB e viene scelta la <b>banda laterale</b> errata, la voce risulta completamente incomprensibile. Inoltre, con SSB è importante regolare con precisione la <b>frequenza di ricezione</b> utilizzando la manopola VFO. Anche piccole deviazioni dalla frequenza corretta rendono la voce incomprensibile.
 
 <indepth>
-Il fatto che la *scelta errata della banda laterale* in SSB porti a una voce incomprensibile è dovuto al fatto che le due bande laterali sono speculari. Mentre nella banda laterale superiore le frequenze vocali basse sono più in basso e quelle alte più in alto, nella banda laterale inferiore è esattamente il contrario. Quindi, se si riceve con la banda laterale sbagliata, i toni originariamente bassi vengono riprodotti come toni alti e i toni originariamente alti come toni bassi.
+La *scelta errata della banda laterale* in SSB porta a una voce incomprensibile perché le due bande laterali sono speculari. Mentre nella banda laterale superiore le frequenze vocali basse sono più basse e quelle alte più alte, nella banda laterale inferiore avviene esattamente il contrario. Se quindi si riceve con la banda laterale sbagliata, i toni bassi originali vengono riprodotti come toni alti e quelli alti come toni bassi.
 
-Con AM o FM, invece, frequenze leggermente deviate praticamente non si notano, poiché il portante può essere utilizzato nel ricevitore per la demodulazione, cioè il ripristino del segnale vocale. In SSB, tuttavia, non c'è un portante. Pertanto, con SSB la frequenza deve essere impostata il più precisamente possibile affinché la voce suoni correttamente.
+Con AM o FM, invece, lievi deviazioni di frequenza non vengono quasi percepite, poiché nel <b>ricevitore</b> si utilizza la <b>portante</b> per la demodulazione, cioè per la ricostruzione del segnale vocale. Con SSB, invece, non esiste alcuna <b>portante</b>. Pertanto, con SSB è necessario centrare il più possibile la frequenza affinché la voce risulti corretta.
 </indepth>
 
 [question:NE212]

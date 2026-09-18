@@ -1,4 +1,4 @@
-Come abbiamo visto con l'antenna $5/8 \lambda$, le lunghezze dei fili non vengono sempre scelte in modo che siano risonanti di per sé. In linea di principio, le antenne possono avere lunghezze arbitrarie, purché siano adattate di conseguenza alla linea di alimentazione. Ciò può avvenire, ad esempio, tramite un adattatore o un tuner.
+Come abbiamo visto per l’antenna a 5/8 λ, le lunghezze dei fili non sono sempre scelte in modo che siano naturalmente risonanti. In linea di principio, le antenne possono avere lunghezze arbitrarie, purché vengano adattate alla linea di alimentazione. Questo può essere fatto, ad esempio, con un adattatore o un *tuner*.
 
 [question:EG102]
 
@@ -8,11 +8,11 @@ Come abbiamo visto con l'antenna $5/8 \lambda$, le lunghezze dei fili non vengon
 [picture:562:e_antenne_laenge_resonanz:Un dipolo ripiegato]
 </margin>
 
-Il dipolo ripiegato è in linea di principio un loop a onda intera appiattito. La lunghezza totale del filo è quindi esattamente una lunghezza d'onda.
+Il dipolo ripiegato rappresenta in pratica un loop a onda intera "schiacciato". La lunghezza totale del filo è quindi esattamente una lunghezza d’onda.
 
 [question:EG110]
 
-La seguente domanda può essere facilmente risposta con la raccolta di formule, convertendo la frequenza in lunghezza d'onda e moltiplicando per il fattore $\frac{5}{8}$.
+La domanda seguente può essere facilmente risposta con la *raccolta di formule*, convertendo la frequenza in lunghezza d’onda e moltiplicandola per il fattore $\frac{5}{8}$.
 
 [question:EG109]
 

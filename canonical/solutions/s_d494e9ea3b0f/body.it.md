@@ -1,13 +1,13 @@
-Il rapporto di trasformazione è di $5:1$. Ciò si traduce in una tensione secondaria dalla tensione di rete di $\qty{230}{\volt}$ di
+Il rapporto di trasformazione è di $5:1$. Di conseguenza, dalla tensione di rete di $\qty{230}{\volt}$ si ottiene una tensione secondaria di
 
 $ U_{\mathrm{eff}} = \frac{\qty{230}{\volt}}{5} = \qty{46}{\volt} $
 
-Per la rigidità dielettrica del diodo, è rilevante il doppio della tensione di picco massima. Questo si calcola da:
+Per la tenuta in tensione del diodo è determinante il doppio della tensione di picco massima. Tale valore si calcola come segue:
 
 $ U_{\mathrm{Sperr}} = 2 \cdot \hat{U} = 2\cdot U_{\mathrm{eff}} \cdot \sqrt{2} = 2 \cdot \qty{46}{\volt} \cdot \sqrt{2} \approx \qty{130}{\volt} $
 
-Inoltre, dovrebbe essere considerato un margine di sicurezza del $\qty{20}{\percent}$:
+Inoltre, si deve considerare un margine di sicurezza del $\qty{20}{\percent}$:
 
 $ U_{\mathrm{D}} = \qty{130}{\volt} \cdot 1{,}2 \approx \qty{156}{\volt} $
 
-La rigidità dielettrica del diodo dovrebbe quindi essere di almeno $\qty{156}{\volt}$.
+La tenuta in tensione del diodo dovrebbe quindi essere almeno di $\qty{156}{\volt}$. 

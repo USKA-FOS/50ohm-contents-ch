@@ -1,45 +1,53 @@
-* Con un registro di stazione si ha la possibilità di documentare le proprie attività radio
-* La tenuta di un registro di stazione è facoltativa
+* Con un registro di stazione (anche chiamato *libro di stazione*) è possibile documentare le proprie attività radio
+* Può essere tenuto in formato elettronico o cartaceo
+* La tenuta del registro è facoltativa
 
 <note>
-* Per i contest spesso è necessario presentare registri di stazione
+* Per i contest è spesso necessario inviare i registri
 </note>
 
 ---
 
-I seguenti dati vengono solitamente registrati in un registro di stazione per ogni collegamento radio:
-* Nominativo della stazione di collegamento
+I seguenti dati vengono generalmente registrati per ogni collegamento radio:
+* Nominativo della stazione corrispondente
 * Frequenza o banda
 * Data e ora
-* Metodo di trasmissione (es. SSB, FT8, RTTY, ...)
+* Modalità di trasmissione (ad esempio SSB, FT8, RTTY, ...)
 * Rapporto assegnato e ricevuto
 * Potenza di trasmissione utilizzata
-* Osservazioni (es. nome del partner QSO o stazione propria utilizzata)
+* Note (ad esempio nome del partner del QSO o stazione utilizzata)
 
 ---
 [question:BG101]
 
 ---
-## Tenuta obbligatoria del registro di stazione
+## Tenuta del registro obbligatoria
 
-Può anche succedere di ricevere un'ingiunzione dall'Agenzia Federale delle Reti (Bundesnetzagentur) che obbliga a tenere un registro di stazione.
+Tuttavia, può capitare di ricevere una richiesta da parte dell’Agenzia federale delle reti che impone la tenuta di un registro.
 
-* Per l'indagine sulle cause di disturbo
-* Per chiarire questioni relative alle frequenze
+* Per indagare sulle cause di interferenze
+* Per chiarire questioni tecniche relative alle frequenze
 
 ---
 [question:VD109]
-
 ---
 [question:VD108]
 
 ---
-## Conservazione del registro di stazione
 
-* In caso di tenuta del registro di stazione ordinata
-* Consultabile per un certo periodo di tempo
-* In caso di registro di stazione elettronico è possibile il trasferimento con formato file ADIF
-* In caso di trasferimento da cartaceo a elettronico, il formato cartaceo deve essere conservato ulteriormente
+Ogni membro del DARC può utilizzare un registro elettronico basato sul web su [log.darc.de](https://50ohm.de/log) (basato su Wavelog), inclusa la sincronizzazione con eQSL, LoTW, QRZ e DCL
+
+<note>
+Promuovere l’adesione al DARC
+</note>
+
+---
+## Conservazione del registro
+
+* In caso di tenuta obbligatoria del registro, questo deve rimanere accessibile per un certo periodo, indipendentemente dalla modalità di conservazione
+* Passaggio da cartaceo a elettronico: conservare il vecchio registro cartaceo
+* Passaggio da elettronico a cartaceo: conservare il vecchio computer con il software o stampare il registro
+* Cambio del software di gestione del registro: conservare il vecchio software o trasferire i dati, ad esempio con il formato ADIF
 
 ---
 
@@ -49,11 +57,10 @@ Può anche succedere di ricevere un'ingiunzione dall'Agenzia Federale delle Reti
 [question:BG103]
 
 ---
-## Tempo Coordinato Universale
+## Tempo coordinato universale
 
-* Registrare gli orari in UTC (Universal Time Coordinated)
-* Gli orari attraverso diversi fusi orari non devono essere riconvertiti
-* Nessun problema con l'ora legale/solare
-* Berlino con l'ora dell'Europa centrale (CET): UTC+1
-* Berlino con l'ora estiva dell'Europa centrale (CEST): UTC+2
-
+* Registrare gli orari in UTC (Tempo Coordinato Universale)
+* Non è necessario convertire gli orari tra fusi orari diversi
+* Nessun problema con l’ora legale/solare
+* Berlino in ora dell’Europa centrale (CET): UTC+1
+* Berlino in ora legale dell’Europa centrale (CEST): UTC+2

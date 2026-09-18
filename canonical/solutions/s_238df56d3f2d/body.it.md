@@ -1,3 +1,3 @@
-Per drogaggio si intende l’introduzione mirata di piccole quantità di atomi estranei appropriati in un materiale semiconduttore di base. Ciò crea portatori di carica liberi aggiuntivi, influenzando così in modo mirato la conduttività elettrica.
+Con il termine drogaggio si intende l’introduzione mirata di piccole quantità di atomi estranei adatti in un materiale semiconduttore di base. Questo processo genera portatori di carica liberi aggiuntivi, consentendo di influenzare in modo mirato la conduttività elettrica.
 
-A seconda del tipo di atomi estranei, si crea un eccesso di elettroni (drogaggio n) o una carenza di elettroni o "lacune" (drogaggio p).
+A seconda del tipo di atomi estranei, si ottengono un eccesso di elettroni (drogaggio di tipo n) o una carenza di elettroni, cioè "lacune" (drogaggio di tipo p).

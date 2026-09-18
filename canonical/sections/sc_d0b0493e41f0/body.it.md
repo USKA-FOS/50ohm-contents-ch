@@ -1,22 +1,9 @@
-Analogamente al piano di banda dei $\qty{2}{\meter}$, funziona anche il piano di banda dei $\qty{70}{\centi\meter}$.
+% TODO Cambiare titolo - Definire nuovo titolo dopo aver stabilito il contenuto. Aprire issue per la modifica del titolo.
+% TODO Inserire testi esplicativi per le domande seguenti
+% Nota: Forse sono disponibili informazioni utili qui: https://uska.ch/wp-content/uploads/2025/08/darc_Erlaeuterungen_zum_IARU_Region_1_Bandplan_17Juni2016.pdf
 
-Le frequenze di chiamata per la radiotelefonica FM classica nella banda dei $\qty{70}{\centi\meter}$ si trovano a 433.500 MHz.
-%YPA: TODO formattare correttamente MHz
-
-%YPA: Altro piano di banda come immagine? Senza numerazione nel titolo. Più chiaro (rappresentazione più coerente)?
-<margin>
-[photo:103:n_iaru_bandplan_70cm:Piano di banda IARU $\qty{70}{\centi\meter}$]
-</margin>
-
-<tip>
-Dopo che un'altra stazione ha risposto a una chiamata CQ, si dovrebbe cambiare frequenza e liberare la "frequenza di chiamata".
-</tip>
-
-
-[question:BC206]
-[question:BC208]
-[question:BC212]
-[question:BC221]
-[question:BC222]
-[question:BC219]
-[question:BC220]
+Nell'esame per la patente di radioamatore viene verificata solo la comprensione generale dei piani di banda IARU come descritto in questa pagina.
+Per comprendere i piani di banda, qui vengono spiegati alcuni "esempi di lettura".
+[question:BC223]
+[question:BC224]
+[question:BC226]

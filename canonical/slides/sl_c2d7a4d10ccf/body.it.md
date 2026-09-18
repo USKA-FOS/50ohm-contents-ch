@@ -1,16 +1,19 @@
-### I radioamatori possono aiutare?
+### Assistenza da parte dei radioamatori
 
-* Sì! I radioamatori possono supportare la gestione di una situazione di emergenza trasmettendo messaggi per e a terzi in caso di emergenza e catastrofe.
-
----
-
-[question:BF103]
+* I radioamatori possono supportare la gestione di una situazione di emergenza trasmettendo messaggi per conto terzi in caso di emergenze e disastri
+* Esiste addirittura un *obbligo di prestare soccorso*: l’omissione di soccorso è punibile ai sensi dell’art. 323c del Codice penale tedesco (StGB)
 
 ---
 
-### Cosa fare quando si riceve un messaggio di emergenza?
+### Comportamento in caso di segnalazione di emergenza
 
-* In caso di messaggio di emergenza, si dovrebbe prima ascoltare attentamente e annotare tutte le informazioni importanti.
+* In caso di segnalazione di emergenza, è opportuno ascoltare attentamente e annotare tutte le informazioni importanti
+* A tal fine, sono utili le *5 domande W*:
+  * *Dove* si è verificato l’evento?
+  * *Chi* segnala?
+  * *Cosa* è successo?
+  * *Quante* persone sono coinvolte?
+  * *Aspettare* eventuali richieste di chiarimento!
 
 ---
 
@@ -18,9 +21,10 @@
 
 ---
 
-### Cosa fare se un'organizzazione di soccorso si occupa della questione?
+### Presa in carico da parte di un’organizzazione di soccorso
 
-* Se il messaggio di emergenza viene risposto da un'organizzazione di soccorso, ci si tiene indietro per non disturbare le operazioni radio.
+* Se la segnalazione di emergenza viene risposta da un’organizzazione di soccorso, ci si astiene dall’intervenire per non disturbare il traffico radio
+* Seguire le istruzioni della stazione che ha effettuato la chiamata o di una stazione di coordinamento
 
 ---
 
@@ -28,9 +32,10 @@
 
 ---
 
-### Cosa fare se inizialmente nessuno risponde?
+### Se inizialmente non risponde nessuno
 
-* Se nessun'altra stazione radio risponde, si risponde alla chiamata e si informa la polizia o la centrale di soccorso.
+* Se nessuna stazione risponde, si risponde alla chiamata e si informa la polizia o la **centrale operativa di soccorso**
+* Trasmettendo la segnalazione in modo completo e letterale
 
 ---
 
@@ -38,18 +43,25 @@
 
 ---
 
-### Cosa fare dopo aver informato le autorità competenti?
+### Dopo la segnalazione alle autorità competenti
 
-* Idealmente, si rimane raggiungibili e si trasmettono informazioni fino all'arrivo dei soccorsi.
+* Idealmente, si rimane raggiungibili e si forniscono informazioni fino all’arrivo dei soccorsi
 
 ---
+
 [question:BF107]
 
 ---
 
-### Cosa si deve osservare in caso di coinvolgimento internazionale?
+### Partecipazione internazionale
 
-* In caso di coinvolgimento internazionale, si utilizza l'UTC invece dell'ora locale.
+* In caso di partecipazione internazionale, si utilizza l’UTC invece dell’ora locale
+  * Ora solare: UTC = CET $-$ 1 ora, quindi CET = UTC + 1 ora
+  * Ora legale: UTC = CEST $-$ 2 ore, quindi CEST = UTC + 2 ore
+
+<note>
+Il Referato per la radioemergenza del DARC fornisce raccomandazioni per l’organizzazione delle comunicazioni di emergenza.
+</note>
 
 ---
 
@@ -59,16 +71,11 @@
 
 ### Segnali di emergenza
 
-* I segnali di emergenza al di fuori del radioamatore sono SOS e Mayday, questi non devono essere utilizzati nel radioamatore.
-
-<note>
-* È possibile inviare chiamate di soccorso.
-* Ma i segnali di emergenza SOS e MAYDAY sono riservati alle comunicazioni marittime e aeree.
-</note>
-
----
-
-[question:VD105]
+* I segnali di emergenza al di fuori del **servizio di radioamatore** sono SOS e MAYDAY
+  * In **radiotelefonia** si usa "Mayday", in telegrafia "SOS"
+* Segnali di urgenza e sicurezza: PAN PAN e SÉCURITÉ
+* Questi segnali sono riservati al traffico marittimo e aereo e non possono essere utilizzati nel **servizio di radioamatore**
+* È comunque possibile trasmettere chiamate di emergenza, ad esempio utilizzando i termini "Notfall" o "Emergency"
 
 ---
 
@@ -80,20 +87,29 @@
 
 ---
 
-### Frequenze di emergenza
+[question:VD105]
 
-La IARU ha stabilito per la Regione ITU 1 le seguenti frequenze di emergenza nei piani di banda, che devono essere tenute libere per le operazioni di emergenza:
-% TODO: In realtà, le indicazioni di banda non sono necessarie. Ma se c'è solo la frequenza, gli spazi tra le righe diventano enormi
-* $\qty{3760}{\kilo\hertz}$ nella banda degli $\qty{80}{\meter}$
-* $\qty{7110}{\kilo\hertz}$ nella banda dei $\qty{40}{\meter}$
-* $\qty{14300}{\kilo\hertz}$ nella banda dei $\qty{20}{\meter}$
-* $\qty{18160}{\kilo\hertz}$ nella banda dei $\qty{17}{\meter}$
-* $\qty{21360}{\kilo\hertz}$ nella banda dei $\qty{15}{\meter}$
+---
+
+[question:BF103]
+
+---
+
+### Frequenze di emergenza radioamatoriale
+
+L’IARU ha definito le seguenti frequenze di emergenza radioamatoriale nei piani di banda per la regione ITU 1, che devono essere tenute libere per l’uso in caso di emergenza:
+% TODO: Eigentlich sind die Bandangaben unnötig. Aber wenn nur die Frequenz da steht, werden die Abstände zwischen den Zeilen riesig
+* $\qty{3760}{\kilo\hertz}$ nella **banda** dei $\qty{80}{\meter}$
+* $\qty{7110}{\kilo\hertz}$ nella **banda** dei $\qty{40}{\meter}$
+* $\qty{14300}{\kilo\hertz}$ nella **banda** dei $\qty{20}{\meter}$
+* $\qty{18160}{\kilo\hertz}$ nella **banda** dei $\qty{17}{\meter}$
+* $\qty{21360}{\kilo\hertz}$ nella **banda** dei $\qty{15}{\meter}$
+
 
 <note>
-Inoltre, ad esempio in caso di terremoti, le organizzazioni locali comunicano ulteriori frequenze nei "media radioamatoriali".
-  </note>
-  
+Inoltre, in caso di terremoti, organizzazioni locali comunicano ulteriori frequenze nei "mezzi di comunicazione radioamatoriali".
+</note>
+
 ---
 
 [question:BF109]

@@ -1,8 +1,8 @@
-## Armoniche superiori
+## Armoniche
 
 * Multipli interi della frequenza fondamentale
-* Si creano da forme d'onda non sinusoidali, in particolare in caso di sovraeccitazione
-* Interferenza con altri servizi radio
+* Si generano a causa di forme d'onda non sinusoidali, in particolare in caso di sovraeccitazione
+* Provocano disturbi ad altri servizi di radiocomunicazione
 * Possono essere ridotte
 
 ---
@@ -13,11 +13,11 @@
 ## Filtro passa-basso
 
 <left>
-* Solo le frequenze al di sotto di una determinata frequenza di taglio vengono lasciate passare
-* Le armoniche superiori non possono passare o vengono fortemente attenuate
+* Fanno passare solo le frequenze inferiori a una determinata frequenza di taglio
+* Le armoniche non possono attraversare il filtro o vengono fortemente attenuate
 </left>
 <right>
-  [picture:591:tiefpass:Frequenzgang eines Tiefpassfilters]
+  [picture:591:tiefpass:Risposta in frequenza di un filtro passa-basso]
 </right>
 
 ---
@@ -36,44 +36,44 @@
 ## Filtro passa-alto
 
 <left>
-* Solo le frequenze al di sopra di una determinata frequenza di taglio vengono lasciate passare
-* Vengono utilizzate all'ingresso del ricevitore, in modo che le frequenze basse non disturbino
+* Fanno passare solo le frequenze superiori a una determinata frequenza di taglio
+* Vengono utilizzati all'ingresso del ricevitore per evitare che le frequenze basse disturbino
 </left>
 <right>
-   [picture:592:hochpass:Frequenzgang eines Hochpassfilters]
+   [picture:592:hochpass:Risposta in frequenza di un filtro passa-alto]
 </right>
 <note>
-* Nel televisore, in modo che forti segnali radio FM al di sotto della frequenza televisiva non disturbino
+* Nei televisori, per evitare che potenti trasmettitori FM poco al di sotto del segnale televisivo causino interferenze
 </note>
 
 ---
 ## Filtro passa-banda
 
 <left>
-* Per trasmettitori a banda singola
-* Trasmettitori nella gamma VHF/UHF/SHF
-* Sopprimere i segnali dal condizionamento del segnale al di sotto della frequenza di trasmissione
+* Utilizzati nei trasmettitori a singola banda
+* Trasmissione nelle bande VHF/UHF/SHF
+* Sopprimono i segnali provenienti dalla preparazione del segnale al di sotto della frequenza di trasmissione
 </left>
 <right>
-   [picture:593:bandpass:Frequenzgang eines Bandpassfilters]
+   [picture:593:bandpass:Risposta in frequenza di un filtro passa-banda]
 </right>
 
 ---
 ## Punto di funzionamento
-* Gli stadi del trasmettitore e gli stadi finali di potenza devono funzionare senza distorsioni
+* Gli stadi di trasmissione e gli stadi finali di potenza devono funzionare senza distorsioni
 * Dopo aver modificato il punto di funzionamento, verificare la linearità (amplificazione sinusoidale pulita)
-* Verificare la trasmissione per le armoniche superiori
+* Controllare l'emissione di armoniche
 
 ---
 [question:EF404]
 
-%Le domande le ho copiate da Interferenze disturbanti qui (DL9MJ)
+%Le domande le ho copiate da "Störende Beeinflussungen" qui (DL9MJ)
 
 ---
 ## Sovraeccitazione
 
-* La sovraeccitazione di trasmettitori e stadi finali genera emissioni spurie
-* Queste disturbano le stazioni adiacenti
+* La sovraeccitazione di trasmettitori e stadi finali genera emissioni parassite
+* Queste disturbano le stazioni vicine
 * Evitare la sovraeccitazione
 
 ---
@@ -81,21 +81,21 @@
 ---
 [question:EJ214]
 ---
-## Stabilità di frequenza
+## Stabilità in frequenza
 
-* Oscillatori instabili possono portare a emissioni al di fuori dei limiti di banda
-* Ciò può disturbare le stazioni adiacenti
-* Causa, ad esempio, un apparecchio autocostruito con un oscillatore non stabilizzato al quarzo
+* Oscillatori instabili possono causare emissioni al di fuori dei limiti di banda
+* Questo può disturbare le stazioni vicine
+* Causa ad esempio: apparecchi autocostruiti con oscillatore non stabilizzato al quarzo
 
 ---
 [question:EJ216]
 ---
 ## Larghezza di banda
 
-* Il superamento della larghezza di banda consentita può verificarsi in particolare con trasmettitori FM modulati AFSK
-* Rimedio limitando la deviazione
-* Oppure riducendo l'uscita dell'audio
-* Da considerare per Packet Radio o modi digitali
+* Il superamento della larghezza di banda consentita può verificarsi in particolare nei trasmettitori FM modulati AFSK
+* Soluzione: limitare la deviazione
+* Oppure ridurre l'escursione della BF
+* Da considerare per Packet-Radio o modalità digitali
 
 ---
 [question:EJ212]

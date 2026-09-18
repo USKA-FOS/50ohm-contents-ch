@@ -1,113 +1,35 @@
-%Per calcolare l'intensità di campo di un'antenna nel campo lontano ($d>\frac \lambda {2 \pi}$) esiste la seguente formula approssimata:
+Nella classe E abbiamo già incontrato una formula approssimata per calcolare la distanza di sicurezza da un'antenna:
 
-%$E=\frac{\sqrt{\qty{30}{\ohm} \cdot P_\text{A} \cdot G_\text{i}}} {d}=\frac {\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}} d$
+$d = \frac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$
 
-%con la potenza all'antenna $P_\text{A}$, il fattore di guadagno rispetto all'emettitore isotropo %$G_\text{i}$, e la distanza $d$
+Questa formula può essere applicata a molte forme di antenna, a condizione che sia soddisfatta la condizione
 
-%Per il fattore di guadagno delle antenne è dato:
+$d > \frac{\lambda}{2\pi}$
 
-%$G_\text{i}=G_\text{d} \cdot 1,64$ 
+ovvero che ci si trovi al di fuori del campo vicino reattivo. Di seguito esaminiamo da dove derivi questa limitazione e il valore di $\qty{30}{\ohm}$ che compare nella formula.
 
-%o
+In forma generale, la formula approssimata è:
 
-%$g_\text{i} = g_\text{d}+2,15\text{ dB}$
+$d = \frac{\sqrt{\frac{Z_0}{4\pi}\cdot P_{\textrm{EIRP}}}}{E}$
 
-%Nella prova è indicato il valore limite per la distanza di protezione delle persone. Per calcolare la distanza di protezione delle persone, la formula deve essere riorganizzata in
+Qui, $Z_0$ indica l'impedenza d’onda dello spazio libero. Come abbiamo visto nel capitolo precedente, questa grandezza si avvicina al valore del campo lontano
 
-%$d=\frac{\sqrt{\qty{30}{\ohm} \cdot P_\text{A} \cdot G_\text{i}}} {E}$
+$Z_0 \approx \qty{120\pi}{\ohm} \approx \qty{377}{\ohm}$
 
-%Tuttavia, di solito non è indicata la potenza all'antenna, né il guadagno rispetto a un emettitore isotropo. Di conseguenza, ciò deve essere preso in considerazione. Questo porta a:
+con l’aumentare della distanza dall’antenna (cfr. figura [ref:a_feldwellenwiderstand]). Sostituendo questo valore nell’espressione $\frac{Z_0}{4\pi}$, otteniamo:
 
-%$d=\dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{Transceiver} \cdot G_\text{Kabel} \cdot G_\text{d} \cdot 1,64}} {E}$
+$\frac{Z_0}{4\pi} \approx \frac{\qty{120\pi}{\ohm}}{4\pi} = \qty{30}{\ohm}$
 
-%Con la potenza al trasmettitore-ricevitore $P_\text{Transceiver}$, il "guadagno" del cavo $G_\text{Kabel}$ (qui da inserire con segno negativo) e il guadagno rispetto al dipolo $G_\text{d}$.
+Da cui deriva la formula approssimata nota dalla classe E. Allo stesso tempo, risulta chiaro perché non possa essere utilizzata nel campo vicino reattivo: in questa regione l'impedenza d’onda non è costante, ma dipende fortemente dalla distanza, dalla forma dell’antenna e dalla direzione considerata. Per calcoli nel campo vicino reattivo, quindi per distanze $d \le \frac{\lambda}{2\pi}$, sono generalmente necessari calcoli più approfonditi, simulazioni numeriche o misurazioni.
 
-%Il "guadagno" del cavo può essere calcolato, ad esempio, per un cavo con un'attenuazione di $2 \text{ dB}$:
-%$G_\text{Kabel} = 10^{\frac {-2 \text{ dB}} {10 \text{ dB}}} = 10^{-0,2}= 0,631$
+<margin>
+[immagine:1116:a_feldwellenwiderstand:Andamento dell'impedenza d’onda nei campi vicino e lontano (scala logaritmica).]
+</margin>
 
-% DD4UQ
-Nella visualizzazione di un impianto radioamatoriale fisso, le distanze di sicurezza possono essere determinate con diverse procedure. Una di queste è il calcolo del campo lontano. 
-Per il calcolo sono necessari la potenza di trasmissione ($P_\text{S}$), il fattore di guadagno dell'antenna rispetto all'emettitore isotropo ($G_i = 1,64$) e il valore limite per l'intensità di campo $(E = \qty{28}{\volt\per\meter})$ nel campo lontano di un'antenna. La lunghezza d'onda ($\qty{10}{\meter}$) è indicata solo per determinare l'inizio del campo lontano.
+Se la formula approssimata del campo lontano viene applicata a un’antenna a dipolo già nel campo vicino radiante, in genere si ottiene una distanza di sicurezza maggiore di quella effettivamente necessaria. In questa regione, l'impedenza d’onda è inferiore a $\qty{377}{\ohm}$, mentre la formula approssimata utilizza il valore più elevato del campo lontano. Il risultato è quindi conservativo e si colloca sul lato della sicurezza. Questo approccio è accettato dalla Bundesnetzagentur.
 
-$\begin{split} d &=\dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{A} \cdot G_\text{i}}}{E}\\ d &=\dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{100}{\watt} \cdot 1,64}}{\qty{28}{\volt\per\meter}}\\ d &\approx \qty{2,50}{\meter}\end{split}$
+Tuttavia, ciò non vale per le antenne magnetiche e per quelle elettricamente molto corte. La figura [ref:a_feldwellenwiderstand] mostra, ad esempio, che l'impedenza d’onda di un’antenna a loop magnetica nel campo vicino radiante può essere notevolmente superiore a $\qty{377}{\ohm}$. In questo caso, la formula approssimata del campo lontano fornirebbe una distanza di sicurezza troppo ridotta. Per tali antenne, è quindi necessario utilizzare altri metodi, ad esempio programmi specifici per il calcolo del campo vicino (simulazioni) o misurazioni.
 
-La distanza è nel campo lontano (campo vicino radiante)?
+[domanda:AK103]
 
- $\begin{split}d &= \dfrac{\lambda}{2 \cdot \pi}\\ d &= \dfrac{\qty{10}{\meter}}{2 \cdot \pi}\\ d &\approx \qty{1,59}{\meter}\end{split}$
- 
- La distanza di sicurezza di $\qty{2,50}{\meter}$ si trova chiaramente nel campo lontano (campo vicino radiante) ed è quindi valida.
-
-[question:AK106]
-
-La domanda AK108 è simile alla domanda precedente. Qui è necessario considerare anche l'attenuazione del cavo. 
-
-Qui è opportuno calcolare prima la ERIP.
-
-$P_\text{EIRP} = P_S \cdot {10^\dfrac{g_d  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}$
-Con un'antenna direttiva, è necessario indicare il valore per $g_d$. Un semplice dipolo ha solo un guadagno rispetto a un emettitore isotropo. Qui $g_d = \qty{0}{\dBd}$.
-$\begin{split}P_\text{EIRP} &= \qty{300}{\watt}\cdot {10^\dfrac{\qty{0}{\dBd} −  \qty{0,5}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{300}{\watt}\cdot {10^\dfrac{\qty{1,65}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{300}{\watt}\cdot {10^{0,165}}\\ P_\text{EIRP} &\approx \qty{438,65}{\watt}\end{split}$
-
-Ora è possibile calcolare la distanza di sicurezza.
-
-$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{438,65}{\watt}}} {\qty{28}{\volt\per\meter}}\\ d &\approx \qty{4,10}{\meter}\end{split}$
-
-La distanza è nel campo lontano (campo vicino radiante)?
-
- $\begin{split} d &= \dfrac{\lambda}{2 \cdot \pi}\\ d &= \dfrac{\qty{20}{\meter}}{2 \cdot \pi}\\ d &\approx \qty{3,18}{\meter}\end{split}$
- 
- La distanza di sicurezza di $\qty{4,10}{\meter}$ si trova anche qui nel campo lontano (campo vicino radiante) ed è quindi valida.
-
-[question:AK108]
-
-Qui si può procedere allo stesso modo della domanda precedente.
-$\begin{split} P_\text{EIRP} &= P_S \cdot {10^\dfrac{g_d  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{700}{\watt}\cdot {10^\dfrac{\qty{0}{\dBd} −  \qty{0,5}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{700}{\watt}\cdot {10^\dfrac{\qty{1,65}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{700}{\watt}\cdot {10^{0,165}}\\ P_\text{EIRP} &\approx \qty{1023,52}{\watt}\end{split}$
-
-$\begin{split} d & =\dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{1023,52}{\watt}}} {\qty{28}{\volt\per\meter}}\\ d &\approx \qty{6,26}{\meter}\end{split}$
-
-[question:AK109]
-
-Nella prossima domanda è necessario calcolare la distanza di sicurezza per un'antenna direttiva. Il guadagno $g_d = \qty{11,5}{\dBd}$.
-
-$\begin{split} P_\text{EIRP} &= P_S \cdot {10^\dfrac{g_d  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{75}{\watt}\cdot {10^\dfrac{\qty{11,5}{\dB} −  \qty{1,5}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{75}{\watt}\cdot {10^\dfrac{\qty{12,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{75}{\watt}\cdot {10^{1,215}}\\ P_\text{EIRP} &\approx \qty{1230,44}{\watt}\end{split}$
-
-$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{1230,44}{\watt}}} {\qty{28}{\volt\per\meter}}\\ d &\approx \qty{6,86}{\meter}\end{split}$
-
-La distanza è nel campo lontano (campo vicino radiante)?
-
- $\begin{split} d &= \dfrac{\lambda}{2 \cdot \pi}\\ d &= \dfrac{\qty{2}{\meter}}{2 \cdot \pi}\\ d &\approx \qty{0,32}{\meter}\end{split}$
- 
- La distanza di sicurezza di $\qty{6,86}{\meter}$ si trova anche qui nel campo lontano (campo vicino radiante) ed è quindi valida.
-
-[question:AK110]
-
-La procedura è analoga a quella della domanda precedente.
-
-$\begin{split} P_\text{EIRP} &= P_S \cdot {10^\dfrac{g_d  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{100}{\watt}\cdot {10^\dfrac{\qty{10,5}{\dBd} −  \qty{1,5}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{100}{\watt}\cdot {10^\dfrac{\qty{11,15}{\dBd}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{100}{\watt}\cdot {10^{1,115}}\\ P_\text{EIRP} &\approx \qty{1303,17}{\watt}\end{split}$
-
-$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{1303,17}{\watt}}} {\qty{28}{\volt\per\meter}}\\ d &\approx \qty{7,1}{\meter}\end{split}$
-
-La distanza di sicurezza di $\qty{7,1}{\meter}$ si trova anche qui nel campo lontano (campo vicino radiante).
-
-[question:AK111]
-
-La banda dei $\qty{13}{\centi\meter}$ va da $\qtyrange{2320}{2450}{\mega\hertz}$. Per la banda di frequenza $\qtyrange{2000}{300000}{\mega\hertz}$, il valore limite per l'intensità del campo elettrico è $\qty{61}{\volt\per\meter}$.
-
-$\begin{split} P_\text{EIRP} &= P_S \cdot {10^\dfrac{g_d  −  a  +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{40}{\watt}\cdot {10^\dfrac{\qty{18}{\dBd} −  \qty{2}{\dB} +  \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{40}{\watt}\cdot {10^\dfrac{\qty{18,15}{\dB}}{\qty{10}{\dB}}}\\ P_\text{EIRP} &= \qty{40}{\watt}\cdot {10^{1,815}}\\ P_\text{EIRP} &\approx \qty{2612,52}{\watt}\end{split}$
-
-$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E}\\ d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{2612,52}{\watt}}} {\qty{61}{\volt\per\meter}}\\ d &\approx \qty{4,6}{\meter}\end{split}$
-
-La distanza è nel campo lontano (campo vicino radiante)?
-
-$\begin{split} d &= \dfrac{\lambda}{2 \cdot \pi}\\ d &= \dfrac{\qty{0,13}{\meter}}{2 \cdot \pi}\\ d &\approx \qty{0,02}{\meter}\end{split}$
-
-La distanza di sicurezza di $\qty{4,6}{\meter}$ si trova chiaramente nel campo lontano (campo vicino radiante).
-
-[question:AK112]
-
-<indepth>
-Perché nelle domande di questa sezione si fa riferimento ai metodi di modulazione RTTY e FM?
-Nella visualizzazione di un impianto radioamatoriale fisso (ai sensi del § 9, BEMFV) è necessario inserire il fattore di conversione $\textrm{Faktor}_\textrm{FmodPers}$ nella configurazione.
-Con il fattore, la potenza di picco indicata (PEP) viene convertita nella potenza media P. La potenza così corretta può essere utilizzata nella formula del campo lontano per calcolare la distanza di sicurezza per la protezione delle persone. 
-
-RTTY e FM hanno il fattore $\num{1}$, come la maggior parte dei metodi di modulazione.
-</indepth>
+Per il calcolo delle distanze di protezione delle persone, nel campo lontano può essere utilizzata la nota formula approssimata. In questo modo, spesso si possono evitare misurazioni o simulazioni complesse. In particolare nel funzionamento portatile, consente una rapida stima approssimativa della distanza di sicurezza necessaria.

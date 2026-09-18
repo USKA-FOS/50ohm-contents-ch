@@ -1,12 +1,12 @@
 <left>
 Problema:
 * Oggetti conduttivi possono presentare potenziali (tensioni) indesiderati
-* Ad es. carica elettrica, fulmine o guasto nell'apparecchio
+* Ad esempio, carica elettrica, fulmini o guasti nell'apparecchio
 </left>
 <right>
 Misure:
 * Collegare tra loro le parti elettricamente conduttive
-* Nel caso di cavi coassiali, collegare tra loro gli schermi e collegarli alla barra principale di terra
+* Nei cavi coassiali, collegare tra loro le schermature e connetterle alla barra di terra principale
 </right>
 
 ---

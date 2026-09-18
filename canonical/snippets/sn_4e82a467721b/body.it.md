@@ -1,1 +1,1 @@
-Diventa un radioamatore!
+Diventa radioamatore!

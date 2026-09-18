@@ -1,6 +1,6 @@
-I condensatori vengono utilizzati in molte applicazioni in serie, in parallelo o anche in una tecnica di circuito mista. Il collegamento in parallelo è più facile da capire, quindi lo esamineremo prima.
+I condensatori vengono utilizzati in molte applicazioni in collegamento in serie, in parallelo o anche con una tecnica di circuito misto. Il collegamento in parallelo è più semplice da comprendere, per questo motivo lo analizziamo per primo.
 
-Grazie al collegamento in parallelo, ci sono più piastre una di fronte all'altra e quindi la superficie delle piastre aumenta proporzionalmente. Di conseguenza, anche la capacità nel circuito totale aumenta.
+Con il collegamento in parallelo, le piastre opposte sono più numerose e, di conseguenza, la superficie delle piastre aumenta proporzionalmente. Allo stesso modo, aumenta anche la capacità nel circuito complessivo.
 
 <margin>
 [picture:822:e_3C-parallel: Collegamento in parallelo di 3 condensatori]
@@ -8,76 +8,76 @@ Grazie al collegamento in parallelo, ci sono più piastre una di fronte all'altr
 
 ---
 
-Nel collegamento in parallelo di condensatori di uguali dimensioni, la capacità raddoppia, la resistenza alla tensione rimane la stessa. Naturalmente, è possibile calcolare la capacità totale. La formula si trova nella raccolta di formule:
+In un collegamento in parallelo di condensatori di uguale dimensione, la capacità raddoppia, mentre la tenuta in tensione rimane invariata. Naturalmente è possibile calcolare la capacità totale. La formula si trova nella raccolta di formule:
 
-$C_{\mathrm{totale}} = C_{1} + C_{2} + C_{3} + \dots$
+$C_{\mathrm{ges}} = C_{1} + C_{2} + C_{3} + \dots$
 
 <tip>
-La capacità totale nel collegamento in parallelo è sempre maggiore della più piccola capacità singola.
+La capacità totale in un collegamento in parallelo è sempre maggiore della capacità minima di un singolo condensatore.
 </tip>
 
-Nel seguente esercizio, c'è una difficoltà aggiuntiva poiché i prefissi dei valori di capacità sono diversi. È necessario prima convertire tutti i valori in un prefisso comune. I numeri non devono essere né troppo grandi né troppo piccoli, quindi si consiglia di scegliere il prefisso nano ($\unit{\nano}$). 
+Nel seguente esercizio si aggiunge una difficoltà aggiuntiva, poiché i prefissi dei valori di capacità sono diversi. Prima di tutto è necessario convertire tutti i valori in un prefisso comune. I numeri non devono essere né troppo grandi né troppo piccoli, per questo motivo si consiglia di scegliere il prefisso nano ($\unit{\nano}$). 
 
 $\begin{split} \qty{0,1}{\micro\farad} &= \qty{100}{\nano\farad} \\ \qty{50000}{\pico\farad} &= \qty{50}{\nano\farad}\end{split}$
 
-Ora devi solo sommare tutti i valori in $\unit{\nano\farad}$.
+Ora non resta che sommare tutti i valori in $\unit{\nano\farad}$.
 
 [question:ED117]
 
 <margin>
-[photo:262:a_Netzteil BEKO PA $7 \times \qty{10000}{\micro\farad}$ parallel: Collegamento in parallelo di $7 \times \qty{10000}{\micro\farad}$ in un alimentatore dello stadio finale]
+[photo:262:a_Netzteil BEKO PA $7 \times \qty{10000}{\micro\farad}$ parallel: Collegamento in parallelo di $7 \times \qty{10000}{\micro\farad}$ in un alimentatore di stadio finale]
 </margin>
 
-Il seguente esercizio può essere utilizzato come test di comprensione.
+Come test di comprensione si può utilizzare il prossimo esercizio.
 
 [question:ED118]
 
 
 ---
 
-Nel collegamento in serie di condensatori, come mostrato nella figura [ref:e_3C-parallel], la resistenza alla tensione aumenta, ma la capacità diminuisce. Naturalmente, è di nuovo possibile calcolare la capacità totale. Questo è molto simile al collegamento in parallelo di resistenze:
+In un collegamento in serie di condensatori, come mostrato nell'illustrazione [ref:e_3C-parallel], aumenta la tenuta in tensione, ma diminuisce la capacità. Naturalmente è possibile calcolare anche la capacità totale. Questa è molto simile al collegamento in parallelo di resistenze:
 
-$\frac{1}{C_{\mathrm{totale}}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
+$\frac{1}{C_{\mathrm{ges}}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
 
 <margin>
-[picture:823:e_3C-parallel:Collegamento in serie di 3 condensatori] 
+[picture:823:e_3C-parallel: Collegamento in serie di 3 condensatori] 
 </margin>
 
 <tip>
-La capacità totale nel collegamento in serie è sempre inferiore alla più piccola capacità singola.
+La capacità totale in un collegamento in serie è sempre minore della capacità minima di un singolo condensatore.
 </tip>
 
 <tip>
-Per risolvere gli esercizi, si consiglia la seguente procedura:
+Per la soluzione degli esercizi si consiglia la seguente procedura:
   
-1. Disegna il circuito
-2. Scrivi i valori di capacità per i componenti.
-3. Converti in prefissi uguali.
-4. Semplifica il circuito combinando gruppi di circuiti dello stesso tipo
-5. Calcola passo dopo passo la capacità totale
+1. Disegnare lo schema del circuito
+2. Annotare i valori di capacità dei componenti.
+3. Convertire in prefissi uguali.
+4. Semplificare il circuito unificando gruppi di circuiti simili
+5. Calcolare passo dopo passo la capacità totale
 </tip>
 
-Se tutti i condensatori hanno valori di capacità uguali, la capacità totale può essere facilmente calcolata dividendo una capacità singola per 3. Nel seguente esercizio, si calcola $\qty{0,33}{\micro\farad} / 3 = \qty{0,11}{\micro\farad}$.
+Se tutti i condensatori hanno lo stesso valore di capacità, la capacità totale può essere calcolata facilmente dividendo una singola capacità per 3. Nel seguente esercizio si calcola $\qty{0,33}{\micro\farad} / 3 = \qty{0,11}{\micro\farad}$.
 
 [question:ED119]
 
-Nel collegamento in serie di condensatori nel seguente esercizio, si trovano i prefissi $\unit{\micro\farad}$ e $\unit{\nano\farad}$. È molto utile convertire prima $\qty{200000}{\nano\farad}$ in $\qty{200}{\micro\farad}$. In un collegamento in serie, è ora possibile applicare la formula dalla raccolta di formule.
+Nel collegamento in serie di condensatori del seguente esercizio si trovano $\unit{\micro\farad}$ e $\unit{\nano\farad}$ come prefissi. È molto utile convertire prima $\qty{200000}{\nano\farad}$ in $\qty{200}{\micro\farad}$. In un collegamento in serie si può ora applicare la formula presente nella raccolta di formule.
 
 
-$C_{\mathrm{totale}} =\frac{1}{\frac{1}{\qty{100}{\micro\farad}} + \frac{1}{\qty{50}{\micro\farad}} + \frac{1}{\qty{100}{\micro\farad}}}$
+$C_{\mathrm{ges}} =\frac{1}{\frac{1}{\qty{100}{\micro\farad}} + \frac{1}{\qty{200}{\micro\farad}} + \frac{1}{\qty{200}{\micro\farad}}}$
 
 [question:ED120]
 
 ---
   
-Nella domanda successiva, 3 condensatori vengono combinati in serie e in parallelo.
+Nella domanda successiva vengono combinati 3 condensatori in collegamento in serie e in parallelo.
 
 [question:ED121]
 
-Quale parte del circuito può essere semplificata per prima? Corretto: il collegamento in serie.
-Questo sottogruppo ha una capacità totale pari alla metà di $\qty{10}{\nano\farad}$, quindi $\qty{5}{\nano\farad}$. Ora è più facile continuare a calcolare, poiché nel collegamento in parallelo i valori di capacità vengono sommati. Congratulazioni per il risultato di $\qty{10}{\nano\farad}$.
+Quale parte del circuito può essere semplificata per prima? Esatto: il collegamento in serie.
+Questo gruppo parziale ha come capacità totale la metà di $\qty{10}{\nano\farad}$, quindi $\qty{5}{\nano\farad}$. Ora è più semplice continuare il calcolo, poiché in un collegamento in parallelo i valori di capacità si sommano. Congratulazioni per il risultato di $\qty{10}{\nano\farad}$.
 
-I compiti successivi sono simili e facili da risolvere.
+Gli esercizi successivi sono simili e facilmente risolvibili.
 
 [question:ED122]
 [question:ED123]
@@ -85,15 +85,15 @@ I compiti successivi sono simili e facili da risolvere.
 
 %<margin>
 %
-%Aiuti alla soluzione:
+%Suggerimenti per le soluzioni:
 %
 %*ED 118:* Collegamento in serie di $\qty{22}{\nano\farad}$, $\qty{0,033}{\micro\farad} = \qty{33}{\nano\farad}$ e $\qty{15000}{\pico\farad} = \qty{15}{\nano\farad}$.
-%$\frac{1}{C_{\mathrm{totale}}} = \frac{1}{\qty{22}{\nano\farad}} + \frac{1}{\qty{33}{\nano\farad}} + \frac{1}{\qty{15}{\nano\farad}}$
-%In realtà non è necessario calcolare, perché c'è solo un risultato inferiore a $\qty{15}{\nano\farad}$.
+%$\frac{1}{C_{\mathrm{ges}}} = \frac{1}{\qty{22}{\nano\farad}} + \frac{1}{\qty{33}{\nano\farad}} + \frac{1}{\qty{15}{\nano\farad}}$
+%In realtà non è necessario calcolare, perché esiste un solo risultato minore di $\qty{15}{\nano\farad}$.
 %*ED 120:* $\qty{50}{\micro\farad}$ 
-%*ED 122:* $C_2 = \qty{1}{\micro\farad}$ e $C_3 = \qty{1}{\micro\farad}$ in parallelo danno insieme $\qty{2}{\micro\farad}$. A questo si aggiunge $C_1 = \qty{2}{\micro\farad}$ in serie %dà la metà, cioè $\qty{1}{\micro\farad}$.
+%*ED 122:* $C_2 = \qty{1}{\micro\farad}$ e $C_3 = \qty{1}{\micro\farad}$ in collegamento in parallelo danno insieme $\qty{2}{\micro\farad}$. Aggiungendo $C_1 = \qty{2}{\micro\farad}$ in serie si ottiene la metà, quindi $\qty{1}{\micro\farad}$.
 % 
-%*ED 123:* $C_2 = \qty{4}{\nano\farad}$ e $C_3 = \qty{4}{\nano\farad}$ in parallelo danno insieme $\qty{8}{\nano\farad}$. A questo si aggiunge $C_1 = \qty{8}{\nano\farad}$ in serie %dà la metà, cioè $\qty{4}{\nano\farad}$.
+%*ED 123:* $C_2 = \qty{4}{\nano\farad}$ e $C_3 = \qty{4}{\nano\farad}$ in collegamento in parallelo danno insieme $\qty{8}{\nano\farad}$. Aggiungendo $C_1 = \qty{8}{\nano\farad}$ in serie si ottiene la metà, quindi $\qty{4}{\nano\farad}$.
 %  
-%*ED 124:* $C_2 = \qty{100}{\nano\farad}$ e $C_3 = \qty{100000}{\pico\farad} = \qty{100}{\nano\farad}$ in parallelo danno insieme $\qty{200}{\nano\farad}$. A questo %si aggiunge $C_1 = \qty{200}{\nano\farad}$ in serie, che dà la metà, cioè $\qty{100}{\nano\farad}$.
+%*ED 124:* $C_2 = \qty{100}{\nano\farad}$ e $C_3 = \qty{100000}{\pico\farad} = \qty{100}{\nano\farad}$ in collegamento in parallelo danno insieme $\qty{200}{\nano\farad}$. Aggiungendo %$C_1 = \qty{200}{\nano\farad}$ in serie si ottiene la metà, quindi $\qty{100}{\nano\farad}$.
 %</margin>

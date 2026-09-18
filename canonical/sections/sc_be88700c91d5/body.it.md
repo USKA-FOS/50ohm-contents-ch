@@ -1,21 +1,21 @@
-È naturalmente regolamentato anche cosa si intende esattamente per stazione radioamatoriale. Per questo, diamo prima un'occhiata a come viene definita a livello internazionale una stazione radio. Il Radio Regulations (RR) stabilisce che una stazione radio non consiste solo nel ricevitore e nel trasmettitore in un luogo, ma include anche qualsiasi apparecchiatura ausiliaria necessaria per il suo funzionamento.
+Naturalmente, è anche regolamentato cosa si intende esattamente per stazione di radioamatore. Per questo, prima di tutto, diamo un'occhiata a come il termine "stazione radio" viene definito a livello internazionale. Le Radio Regulations (RR) stabiliscono che una stazione radio non consiste solo del ricevitore e del trasmettitore in una posizione, ma include anche tutte le apparecchiature aggiuntive necessarie per il suo funzionamento.
 
 [question:VA201]
 
-La definizione generale di stazione radio del Radio Regulations (RR) si applica anche alle stazioni radioamatoriali. Il Radio Regulations definisce quindi la stazione radioamatoriale molto semplicemente come "una stazione radio del servizio radioamatoriale".
+La definizione generale di stazione radio delle Radio Regulations (RR) si applica anche alle stazioni di radioamatore. Le Radio Regulations definiscono quindi la stazione di radioamatore semplicemente come "una stazione radio del servizio di radioamatore".
 
 [question:VA202]
 
-Per la definizione nazionale di stazione radioamatoriale, confrontiamo nuovamente la legge sulla radioamatorialità (AFuG), in particolare il § 2 comma 3:
+Per la definizione nazionale di stazione di radioamatore, confrontiamo nuovamente la legge sul radioamatore (AFuG), in particolare il § 2 comma 3:
 
-"Ai fini della presente legge, ... una stazione radioamatoriale è una stazione radio costituita da uno o più impianti di trasmissione e ricezione radio, compresi gli impianti d'antenna e le apparecchiature ausiliarie necessarie al loro funzionamento, e che può essere utilizzata su almeno una delle frequenze designate per il servizio radioamatoriale nel piano di utilizzo delle frequenze."
+"Ai sensi della presente legge, ... una stazione di radioamatore è una stazione radio composta da una o più apparecchiature trasmittenti e riceventi, incluse le antenne e le apparecchiature aggiuntive necessarie per il loro funzionamento, che può essere utilizzata su almeno una delle frequenze designate nel piano di utilizzo delle frequenze per il servizio di radioamatore."
 
-La definizione di stazione radioamatoriale ci è già nota dal Radio Regulations (RR). Anche qui non ci sono differenze fondamentali rispetto alla nostra legge sulla radioamatorialità (AFuG). Una stazione radioamatoriale consiste in uno o più impianti di trasmissione e ricezione radio, compresi gli impianti d'antenna e le apparecchiature ausiliarie necessarie al loro funzionamento. La stazione radio deve poter operare su almeno una frequenza radioamatoriale.
+La definizione di stazione di radioamatore ci è già nota dalle Radio Regulations (RR). Anche qui non ci sono differenze fondamentali rispetto alla nostra legge sul radioamatore (AFuG). Una stazione di radioamatore consiste in una o più apparecchiature trasmittenti e riceventi, incluse le antenne e le apparecchiature aggiuntive necessarie per il loro funzionamento. La stazione deve poter essere utilizzata su almeno una frequenza di radioamatore.
 
 [question:VC103]
 
-È interessante notare che in nessun punto della legislazione tedesca sulla radioamatorialità si fa riferimento al contenuto delle trasmissioni. Qui il legislatore presuppone un uso responsabile da parte dei radioamatori tra loro. A livello internazionale, tuttavia, le cose sono diverse: secondo il Radio Regulations (RR), il contenuto delle comunicazioni internazionali in ambito radioamatoriale dovrebbe essere limitato a temi radioamatoriali e a osservazioni di natura personale. Questa direttiva non è stata recepita nel diritto tedesco. Per i nostri partner radio in altri stati, tuttavia, potrebbero esserci specifiche normative nazionali. Dobbiamo tenerne conto.
+È degno di nota che nel diritto tedesco del radioamatore non si faccia mai riferimento al contenuto delle trasmissioni. In questo caso, il legislatore presuppone un comportamento responsabile tra i radioamatori. A livello internazionale, tuttavia, la situazione è diversa: secondo le Radio Regulations (RR), il contenuto dei collegamenti internazionali dovrebbe essere limitato a temi di radioamatore e a osservazioni di carattere personale. Questa indicazione non è stata recepita nella normativa tedesca. Tuttavia, per i nostri partner radio in altri Stati potrebbero esserci regolamentazioni nazionali corrispondenti che dobbiamo rispettare.
 
-Deve essere sempre chiaro che il contenuto di una comunicazione radio può essere ascoltato da chiunque e ne è permesso l'ascolto. Tutte le dichiarazioni sono parole pronunciate pubblicamente. Pertanto, si dovrebbe esprimere in modo consapevole e rimanere sempre corretti e cortesi. Al contrario, la parola non pronunciata pubblicamente è particolarmente protetta, cosa che affronteremo più avanti.
+È inoltre fondamentale che sia chiaro che il contenuto di un collegamento radio può essere ascoltato e deve essere ascoltato da chiunque. Tutte le affermazioni sono parole pronunciate pubblicamente. Pertanto, è importante esprimersi in modo consapevole e rimanere sempre corretti e cortesi. Al contrario, le parole pronunciate in modo non pubblico sono particolarmente protette, come approfondiremo in seguito.
 
 [question:VA302]

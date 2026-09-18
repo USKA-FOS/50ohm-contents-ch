@@ -1,18 +1,18 @@
-Un'antenna può essere polarizzata verticalmente ([ref:n_vpol_antenne]) o orizzontalmente ([ref:n_hpol_antenne]). Nella maggior parte delle forme di costruzione dell'antenna, ciò si riconosce dal fatto che gli elementi dell'antenna sono orientati verticalmente o orizzontalmente.
+Un’antenna può essere polarizzata verticalmente ([ref:n_vpol_antenne]) o orizzontalmente ([ref:n_hpol_antenne]). Nella maggior parte delle tipologie costruttive di antenna, questo si riconosce dal fatto che gli elementi dell’antenna sono orientati verticalmente (polarizzazione verticale) o orizzontalmente (polarizzazione orizzontale).
 
-% TODO Big Picture: Inserire freccia orizzontale e verticale con etichetta nell'immagine n_vpol_antenne
+% TODO Big Picture: Inserire nell’immagine n_vpol_antenne una freccia orizzontale e verticale con didascalia
 <margin>
-[picture:51:n_vpol_antenne:antenna polarizzata verticalmente]
+[immagine:51:n_vpol_antenne:antenna a polarizzazione verticale]
 </margin>
 
-% TODO Big Picture: Inserire freccia orizzontale e verticale con etichetta nell'immagine n_hpol_antenne
+% TODO Big Picture: Inserire nell’immagine n_hpol_antenne una freccia orizzontale e verticale con didascalia
 <margin>
-[picture:326:n_hpol_antenne:antenna polarizzata orizzontalmente]
+[immagine:326:n_hpol_antenne:antenna a polarizzazione orizzontale]
 </margin>
 
-Durante le operazioni radio VHF, UHF e frequenze più elevate, due stazioni radio dovrebbero sempre utilizzare le loro antenne con la stessa polarizzazione. Se si utilizzano polarizzazioni diverse, ad esempio una stazione orizzontale e l'altra verticale, il collegamento risulterà significativamente peggiore.
+Nelle comunicazioni radio in VHF, UHF e frequenze più elevate, due stazioni radio dovrebbero sempre utilizzare antenne con la stessa polarizzazione. Se si utilizzano polarizzazioni diverse, ad esempio una stazione con polarizzazione orizzontale e l’altra con polarizzazione verticale, il collegamento risulta notevolmente peggiore.
 
-Attraverso particolari forme di costruzione dell'antenna è possibile generare onde radio rotanti. Queste sono chiamate "polarizzate circolarmente". A seconda della direzione di rotazione, si distingue tra onde radio "polarizzate circolarmente a sinistra" e "polarizzate circolarmente a destra". Va notato che uno specchio parabolico inverte la polarizzazione circolare. Maggiori dettagli su questo verranno trattati nel corso per la classe HB9.
+Con particolari tipologie costruttive di antenna è possibile generare onde radio rotanti. Queste vengono definite "polarizzate circolarmente". A seconda del senso di rotazione si distinguono onde radio polarizzate circolarmente "a sinistra" e "a destra". Da notare che uno specchio parabolico inverte la polarizzazione circolare. Maggiori dettagli su questo argomento sono trattati nel capitolo [sec:polarisation_3].
 
 [question:NB304]
 

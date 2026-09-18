@@ -1,9 +1,9 @@
-## Frequenza Massima Utilizzabile (MUF)
+## Frequenza massima utilizzabile (MUF)
 
 <left>
-* Frequenza più alta utilizzabile tra due località
-* Dipende dall'angolo di emissione dell'antenna
-* E dalla frequenza critica dell'ionosfera
+* Frequenza massima utilizzabile tra due punti
+* Dipende dall'<em>angolo di irradiazione</em> dell'<em>antenna</em>
+* E dalla frequenza critica della <em>ionosfera</em>
 </left>
 <right>
 [picture:870:e_muf_winkel:Gli angoli per il calcolo della MUF]
@@ -13,12 +13,12 @@
 
 $\mathrm{MUF} \approx \dfrac{f_c}{\sin(\alpha)}$
 
-$\alpha$ è l'angolo di emissione dell'antenna verso il suolo
-$f_c$ è la frequenza critica alla quale i raggi radio che incidono perpendicolarmente sull'ionosfera vengono riflessi dalle regioni $\rightarrow$ con una maggiore ionizzazione di una regione, la frequenza critica aumenta
+$\alpha$ è l'<em>angolo di irradiazione</em> dell'<em>antenna</em> rispetto al suolo
+$f_c$ è la frequenza critica alla quale i <em>segnali radio</em> che incidono perpendicolarmente sulla <em>ionosfera</em> vengono rifratti $\rightarrow$ con una maggiore ionizzazione di una regione, la frequenza critica aumenta
 
 <note>
 * sin(α) = 1 → MUF = f_c
-* In classe E nessun calcolo, solo domande di comprensione
+* Nella classe E non è richiesto il calcolo, solo domande di comprensione
 </note>
 
 ---
@@ -28,14 +28,14 @@ $f_c$ è la frequenza critica alla quale i raggi radio che incidono perpendicola
 ---
 [question:EH206]
 ---
-## Frequenza Minima Utilizzabile (LUF)
+## Frequenza minima utilizzabile (LUF)
 
 <left>
-* Dipende dalla ionizzazione nello strato D
-* Minore è l'attenuazione nello strato D, maggiori sono le onde radio a bassa frequenza che possono penetrare questo strato e riflettersi sugli strati superiori
+* Dipende dalla ionizzazione nello <em>strato D</em>
+* Minore è l'<em>attenuazione</em> nello <em>strato D</em>, più <em>onde radio</em> a bassa frequenza possono attraversarlo e riflettersi negli strati superiori
 </left>
 <right>
-[picture:731:e_atmosphaeren_schichten:Strati dell'atmosfera rilevanti per il radioamatore]
+[picture:731:e_atmosphaeren_schichten:Strati dell'atmosfera rilevanti per il <em>radioamatoriale</em>]
 </right>
 ---
 [question:EH209]

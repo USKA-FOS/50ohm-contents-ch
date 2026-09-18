@@ -1,19 +1,7 @@
-## Telescrivente
-<left>
-[photo:92:n_computersteuerung_funkfernschreiber:Telescrivente]
-</left>
-<right>
-L'abbreviazione RTTY deriva da *radio teletype*
-</right>
-<note>
-RTTY è una procedura di trasmissione digitale che continua a godere di popolarità nel radioamatore.
-</note>
-
----
-## Operatività
+## Esecuzione
 
 <left>
-* Entrambi i partner radio utilizzano la stessa procedura di trasmissione (ad es. JS8, PSK, RTTY)
+* Entrambi i corrispondenti utilizzano lo stesso metodo di trasmissione (ad es. JS8, PSK, RTTY)
 * Devono essere impostati gli stessi parametri
 </left>
 <right>
@@ -21,12 +9,15 @@ RTTY è una procedura di trasmissione digitale che continua a godere di popolari
 * Maggiore contenuto informativo per unità di tempo
 </right>
 <note>
-* Le abbreviazioni seguiranno
-* I gruppi Q nel prossimo capitolo
+* Le abbreviazioni sono uguali
+* Gruppi Q nel capitolo successivo
 </note>
 
 ---
-In una conversazione, questo appare così:
+[question:NE401]
+
+---
+Un esempio di QSO è il seguente:
 
 <qso>
 CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
@@ -37,37 +28,37 @@ BK QSL = VY 73 DE DL2AB SK
 > R 73 DE DL1PZ SK
 </qso>
 <note>
-Il QSO verrà spiegato passo dopo passo dopo le spiegazioni delle abbreviazioni
+Il QSO viene spiegato passo dopo passo con le abbreviazioni dopo le spiegazioni
 </note>
 
----
+--- style="font-size: smaller;"
 
-| l: Abkz. | l: Significato |
-| BK | Interruzione della trasmissione; Passaggio informale |
+| l: Abbr. | l: Significato |
+| BK | Interruzione della trasmissione; passaggio informale |
 | CQ | Chiamata generale (dall'inglese "Seek You") |
 | DE | da |
 | K | Invito a trasmettere |
 | PSE | Per favore (dall'inglese "Please") |
 | QSL | Confermo la ricezione |
-| R | Received (Conferma di ricezione) |
+| R | Ricevuto (conferma di ricezione) |
 | RPRT | Rapporto (dall'inglese "Report") |
 [table:n_funkfernschreiben_abkuerzungen_1:Abbreviazioni operative nella telegrafia]
 
---- 
+--- style="font-size: smaller;"
 
-| l: Abkz. | l: Significato |
+| l: Abbr. | l: Significato |
 | RST | Rapporto RST |
 | SK | Fine del collegamento (dall'inglese "Silent Key") |
 | TNX | Grazie (dall'inglese "Thanks") |
 | UR | tu sei (nel senso di "il tuo segnale è", dall'inglese "you are") |
 | VY | molto (dall'inglese "very") |
-| 73 | molti saluti |
+| 73 | tanti saluti |
 | = | Separatore |
 [table:n_funkfernschreiben_abkuerzungen_2:Abbreviazioni operative nella telegrafia]
 
 ---
 
-Parte 1 della nostra conversazione di esempio:
+Prima parte del nostro esempio di QSO:
 
 <qso>
 CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
@@ -75,15 +66,15 @@ CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
 </qso>
 
 <fragment>
-Chiamata generale da DL2AB - Prego venire!
+Chiamata generale di DL2AB – per favore, rispondete!
 </fragment>
 
 <fragment>
-DL2AB da DL1PZ - Venire!
+DL2AB da DL1PZ – ricevo!
 </fragment>
 
 ---
-Parte 2 della nostra conversazione di esempio:
+Seconda parte del nostro esempio di QSO:
 
 <qso>
 DL1PZ DE DL2AB = UR RST 599 599 = DL1PZ DE DL2AB K
@@ -91,15 +82,15 @@ DL1PZ DE DL2AB = UR RST 599 599 = DL1PZ DE DL2AB K
 </qso>
 
 <fragment>
-DL1PZ da DL2AB. Il tuo segnale è con il valore RST 599, ripeto, 599. DL1PZ da DL2AB - Venire!
+DL1PZ da DL2AB. Il tuo segnale è con valore RST 599, ripeto, 599. DL1PZ da DL2AB – ricevo!
 </fragment>
 
 <fragment>
-DL2AB da DL1PZ. Grazie per il rapporto RST, il tuo segnale è 479, ripeto, 479. Torno a te!
+DL2AB da DL1PZ. Grazie per il rapporto RST, il tuo segnale è 479, ripeto, 479. Passo a te!
 </fragment>
 
 ---
-Parte 3 della nostra conversazione di esempio:
+Terza parte del nostro esempio di QSO:
 
 <qso>
 BK QSL = VY 73 DE DL2AB SK
@@ -107,17 +98,23 @@ BK QSL = VY 73 DE DL2AB SK
 </qso>
 
 <fragment>
-Sono di nuovo qui. Confermo la ricezione. Molti saluti da DL2AB. Fine del collegamento.
+Ecco di nuovo io. Confermo la ricezione. Tanti saluti da DL2AB. Fine del collegamento.
 </fragment>
-
 
 <fragment>
-Capito. Molti saluti da DL1PZ. Fine del collegamento.
+Ricevuto. Tanti saluti da DL1PZ. Fine del collegamento.
 </fragment>
 
-
 ---
-[question:NE401]
+
+## Metodi digitali come FT8 o FT4
+* Funzionano anche in condizioni radio sfavorevoli (bassa intensità del segnale rispetto al rumore di fondo)
+* Tuttavia, possono essere trasmessi solo pochissimi caratteri per trasmissione
+* Esecuzione ancora più compatta
+
+<note>
+Altri metodi digitali trasmettono anche immagini o video, con una gestione operativa adattata – ma questo non è rilevante per l'esame
+</note>
 
 ---
 [question:BB101]
@@ -133,20 +130,3 @@ Capito. Molti saluti da DL1PZ. Fine del collegamento.
 
 ---
 [question:BE112]
-
----
-## Telegrafia in codice Morse
-* Prestare attenzione alla velocità corretta
-* I segni Morse dati rapidamente richiedono molta pratica per essere compresi
-* Non sovraccaricare la controparte con la velocità
-* Regola generale: *Non trasmettere più velocemente di quanto si possa ricevere*
-
-<note>
-È effettivamente possibile, e un errore comune dei principianti, trasmettere in codice Morse più velocemente di quanto si possa comprendere.
-</note>
-
----
-[question:BE117]
-
----
-[question:BE118]

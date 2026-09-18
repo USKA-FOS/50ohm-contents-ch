@@ -1,36 +1,33 @@
 <left>
-* La classe N è limitata alla potenza irradiata (ERP o EIRP) all’antenna
+* La classe N è limitata in termini di *potenza irradiata* (ERP o EIRP) all’antenna
 </left>
 <right>
-* Le classi E e A sono per lo più limitate alla *potenza d’uscita* del trasmettitore (peak envelope power, PEP)
+* Le classi E e A sono solitamente limitate in termini di *potenza di uscita del trasmettitore* (potenza di inviluppo di picco, PEP)
 </right>
 <fragment>
-* Molti apparecchi radio mostrano la potenza d’uscita attuale sul misuratore di potenza.
+* Molti apparati radio mostrano la *potenza di uscita del trasmettitore* attuale nel misuratore di potenza.
 </fragment>
+<note>
+Termine tedesco per PEP: Hüllkurvenspitzenleistung - il valore più alto misurato della potenza media di ogni periodo dell’oscillazione ad alta frequenza
+</note>
 
 ---
 [question:NF102]
 
 ---
-## Potenza d’uscita del trasmettitore consentita
+## Potenza di uscita del trasmettitore consentita
 
-* Nell’allegato 1 del regolamento radioamatoriale (AFuV)
-* Varia a seconda della classe e della banda di frequenza
+* In [Allegato 1 dell’AFuV](https://50ohm.de/a1)
+* Varia a seconda della classe e della *banda di frequenza*
+* Nessuna voce in una colonna $\rightarrow$ questa classe non può utilizzare la banda di frequenza
 
 <note>
-* Si consiglia di rispondere alle seguenti 10 domande utilizzando l’allegato 1, per fare pratica nella lettura dei valori corretti.
+* Consigliamo di rispondere alle seguenti 10 domande utilizzando l’Allegato 1 per esercitarsi nella lettura dei valori corretti.
 </note>
 
 ---
 
-[photo:145:ausgangsleistung:Estratto dall’allegato 1 del regolamento radioamatoriale]
-
----
-Attualmente, l’[Allegato 1 dell’AFuV](https://50ohm.de/a1) si trova qui.
-
-<note>
-* L’AFuV da giugno 2024 non è ancora stato pubblicato in un formato ordinato
-</note>
+[photo:145:ausgangsleistung:Astratto dall’Allegato 1 del regolamento per la radioamatoriale]
 
 ---
 [question:VD727]
@@ -64,11 +61,11 @@ Attualmente, l’[Allegato 1 dell’AFuV](https://50ohm.de/a1) si trova qui.
 
 ---
 
-* Per la banda di frequenza da $\qtyrange{1240}{1300}{\mega\hertz}$ valgono disposizioni aggiuntive
-* non sono direttamente nella tabella
-* Nella colonna destra "Disposizioni d’uso aggiuntive secondo B" i numeri indicano informazioni integrative
+* Per la *banda di frequenza* da $\qtyrange{1240}{1300}{\mega\hertz}$ si applicano regolamentazioni aggiuntive
+* Non sono indicate direttamente nella tabella
+* Nella colonna a destra "Ulteriori condizioni d’uso secondo B" sono contrassegnati i numeri con informazioni supplementari
 * Si trovano sotto la tabella
-* Per la seguente domanda, si prega di notare il punto 11
+* Per la domanda successiva è necessario considerare il punto 11
 
 ---
 [question:VD735]

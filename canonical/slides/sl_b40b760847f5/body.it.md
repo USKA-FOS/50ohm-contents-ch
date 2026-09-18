@@ -1,10 +1,10 @@
 <left>
 * Ricezione del segnale desiderato
-* Soppressione simultanea di segnali indesiderati vicini
+* Con soppressione simultanea di segnali indesiderati vicini
 </left>
 <right>
-* Alta selettività $\rightarrow$ bassa Larghezza di banda necessaria
-* Idealmente solo larga quanto il segnale da ricevere
+* Alta selettività $\rightarrow$ necessaria una larghezza di banda ridotta
+* Idealmente solo quanto basta per il segnale da ricevere
 </right>
 
 ---

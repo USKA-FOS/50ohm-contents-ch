@@ -1,12 +1,12 @@
 <left>
-* Un certificato di ubicazione può essere rilasciato *a pagamento* dall'UFCOM su richiesta
+* Una certificazione di ubicazione sostituisce la visualizzazione e può essere rilasciata *a pagamento su richiesta* dalla BNetzA
 * Il radioamatore deve fornire tutta la documentazione e le informazioni necessarie per il calcolo
 </left>
 <right>
 <fragment>
 * Planimetria
-* Disegno costruttivo con luogo di montaggio delle antenne
-* Informazioni sul diagramma di radiazione di tutte le antenne
+* Disegno costruttivo con indicazione del punto di montaggio delle antenne
+* Informazioni sul comportamento di irradiazione di tutte le antenne
 </fragment>
 </right>
 
@@ -15,13 +15,10 @@
 
 ---
 
-## Certificato di ubicazione obbligatorio
- 
-È obbligatorio un certificato di ubicazione se presso la sede della stazione radioamatoriale fissa prevista sono già presenti impianti radio fissi che richiedono essi stessi un certificato di ubicazione.
+## Certificazione di ubicazione obbligatoria
 
-<note>
-Impianti commerciali, ad es. telefonia mobile
-</note>
+* Nel caso in cui nel luogo della stazione radioamatoriale siano già presenti impianti fissi che necessitano di certificazione di ubicazione
+* Ad esempio, impianti commerciali come quelli della telefonia mobile
 
 ---
 [question:VE519]

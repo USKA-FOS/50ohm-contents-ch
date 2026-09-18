@@ -1,0 +1,1 @@
+Il circuito rappresentato è un *amplificatore in configurazione a emettitore comune*. L’ingresso è collegato alla base, l’uscita al collettore. Per questo motivo la configurazione viene chiamata emettitore comune.

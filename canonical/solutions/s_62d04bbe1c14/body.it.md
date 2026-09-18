@@ -1,3 +1,3 @@
-Se il partitore di tensione viene caricato con la resistenza di carico $R_L$, $R_L$ si trova in parallelo a $R_2$. Ciò riduce la resistenza parziale inferiore del partitore di tensione.
+Se il partitore di tensione viene caricato con la resistenza di carico $R_L$, $R_L$ si trova in parallelo a $R_2$. Di conseguenza, la resistenza parziale inferiore del partitore di tensione diminuisce.
 
-La resistenza totale del circuito diminuisce, pertanto la corrente totale $I_1$ aumenta. Poiché questa corrente scorre attraverso $R_1$, una maggiore potenza viene convertita in calore in $R_1$.
+La resistenza totale del circuito si riduce, motivo per cui la corrente totale $I_1$ aumenta. Poiché questa corrente scorre attraverso $R_1$, in $R_1$ viene dissipata più potenza sotto forma di calore.

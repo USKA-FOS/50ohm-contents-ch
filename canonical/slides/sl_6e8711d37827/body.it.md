@@ -1,34 +1,34 @@
-* Obbligo per i radioamatori di rispettare i limiti di potenza del loro impianto di trasmissione
-* Su molte bande radioamatoriali, una *potenza massima d’uscita del trasmettitore* (*PEP*, Peak-Envelope-Power) è considerata un limite
-* Anche le trasmissioni indesiderate sono importanti.
+* Obbligo per i radioamatori di rispettare i valori limite di potenza del proprio impianto radio
+* Su molte bande radioamatoriali vige un limite di *potenza massima di uscita del trasmettitore* (*PEP*, Peak-Envelope-Power)
+* Anche le emissioni indesiderate sono rilevanti
 
 ---
-### Misurazione delle trasmissioni indesiderate
+### Misurazione delle emissioni indesiderate
 
 * All’uscita del trasmettitore
-* Inclusi misuratore di onde stazionarie, adattatore(i), filtro passa-basso, ecc.
-* Misurazione delle trasmissioni indesiderate che possono raggiungere l’antenna
+* Inclusi misuratore di ROS, adattatori, filtro passa-basso, ecc.
+* Misurazione delle emissioni indesiderate che possono raggiungere l’antenna
 
 ---
 [question:EJ209]
 ---
-### Misurazione della potenza d’uscita del trasmettitore
+### Misurazione della potenza di uscita del trasmettitore
 
 * Direttamente all’uscita del trasmettitore
 * Senza dispositivi aggiuntivi, filtri o cavi
-* Con SSB $\rightarrow$ con modulazione
-* Modulazione a tono singolo o doppio, ma non voce
-* Misurazione della *potenza di picco dell’inviluppo* (PEP)
-* Potenza di picco del trasmettitore alla massima modulazione
+* Per SSB $\rightarrow$ con modulazione
+* Eccitazione con uno o due toni, ma senza voce
+* Misurazione della massima *potenza d’inviluppo* (PEP)
+* Potenza di picco del trasmettitore a massima eccitazione
 * Potenza al picco più alto di un’oscillazione ad alta frequenza
 
 <note>
 * La voce varia
-* Interessante per le classi E e A, poiché la loro potenza massima consentita è indicata in PEP nella Appendice 1 dell’AFuV
+* Rilevante per le classi E e A, poiché la loro potenza massima consentita nell’allegato 1 dell’AFuV è indicata in PEP
 </note>
 
 ---
-[picture:875:e_senderausgangsleisung_2:Höchste Spitze der Modulationshüllkurve]
+[picture:875:e_senderausgangsleisung_2:Picco più alto dell’inviluppo della modulazione]
 ---
 [question:EF401]
 ---

@@ -1,21 +1,21 @@
-Un vecchio detto dei radioamatori dice che il miglior amplificatore ad alta frequenza è l'antenna. Nei primi anni della tecnologia radio, questa era l'unica "amplificazione", non esisteva un'elettronica di amplificazione. Nel 1907 arrivò la valvola termoionica, un componente di grande successo, ma piuttosto grande e poco efficiente. Già dagli anni Venti, la scienza sognava componenti con una funzione simile, ma in cui tutto avvenisse all'interno di un corpo solido (semiconduttore), non nel vuoto. Il primo componente in cui ciò riuscì praticamente fu, nel 1947/1948, il *Transistor* bipolare, che è anche l'oggetto predominante delle domande d'esame per la patente di classe E.
+Un antico detto tra radioamatori recita che il miglior *amplificatore ad alta frequenza* è l'*antenna*. Nei primi anni della tecnologia radio, essa era l’unico "amplificatore" disponibile, poiché non esistevano ancora componenti elettronici amplificatori. Nel 1907 arrivò la valvola termoionica: un componente molto efficace, ma piuttosto ingombrante e poco efficiente. Già dagli anni Venti, la scienza sognava componenti con funzioni simili, ma con tutto il processo che avveniva all’interno di un solido (semiconduttore) e non nel vuoto. Il primo componente in cui ciò riuscì fu, nel 1947/1948, il *transistor bipolare*, che è anche oggetto di domande d’esame.
 
 [question:EC602]
 
 <indepth>
-Il *Transistor* bipolare è chiamato in inglese anche BJT: Bipolar Junction Transistor, in tedesco: bipolarer Sperrschicht-Transistor.
+Il *transistor bipolare* in inglese è chiamato anche BJT (*Bipolar Junction Transistor*), in tedesco *bipolarer Sperrschicht-Transistor*.
 </indepth>
 
-La funzione ideale di tutti i tipi di Transistor, e anche della valvola termoionica, è quella di una *sorgente di corrente controllata in tensione*: con una variazione di tensione il più piccola possibile all'ingresso, si deve ottenere una variazione di corrente il più grande possibile all'uscita.
+La funzione ideale di tutti i tipi di transistor, inclusa la valvola termoionica, è quella di una *sorgente di corrente controllata in tensione*: con una piccola variazione di tensione all’ingresso si deve ottenere una grande variazione di corrente all’uscita.
 
-Il Transistor bipolare ha tre terminali, chiamati Emettitore, Base e Collettore. L'Emettitore invia portatori di carica alla Base - nel Transistor bipolare npn si tratta di *elettroni*, nel Transistor bipolare pnp di difetti elettronici, chiamati anche *lacune*. La fisica alla base di questi termini la discuteremo solo nella formazione per la classe A. Questi portatori di carica attraversano la Base e vengono raccolti dal Collettore.
+Il transistor bipolare ha tre terminali, chiamati emettitore, base e collettore. L’emettitore emette portatori di carica nella base: nel transistor NPN si tratta di *elettroni*, nel transistor PNP di lacune (**Löcher** in tedesco). La fisica alla base di questi concetti verrà discussa solo durante il corso per la classe A. Questi portatori attraversano la base e vengono raccolti dal collettore.
 
 ---
 
-La figura [ref:e_npn_pnp_symbol] mostra i simboli di circuito dei Transistor NPN e PNP. Riconosciamo l'elettrodo dell'Emettitore da una freccia che, nel Transistor pnp, punta verso la Base e, nel Transistor npn, si allontana dalla Base.
+La figura [ref:e_npn_pnp_symbol] mostra i simboli di circuito dei transistor NPN e PNP. L’elettrodo di emettitore è riconoscibile grazie a una freccia: nel transistor PNP è diretta verso la base, mentre nel transistor NPN è diretta lontano dalla base.
 
 <margin>
-[picture:864:e_npn_pnp_symbol:Simboli Transistor NPN e PNP]
+[picture:864:e_npn_pnp_symbol:Simboli di circuito NPN e PNP]
 </margin>
 
 [question:EC605]
@@ -26,14 +26,14 @@ La figura [ref:e_npn_pnp_symbol] mostra i simboli di circuito dei Transistor NPN
 
 ---
 
-I Transistor bipolari sono composti da due Diodi: la Diode Emettitore-Base e la Diode Base-Collettore.
-In funzionamento attivo, la Diode Emettitore-Base è sempre polarizzata in direzione diretta. Nel Transistor NPN, il potenziale sulla Base deve essere più positivo di quello dell'Emettitore, nel Transistor PNP più negativo. La Diode Base-Collettore è polarizzata in direzione inversa. Per questo, nel Transistor NPN, il potenziale del Collettore deve essere scelto più positivo di quello della Base, nel Transistor PNP più negativo.
+I transistor bipolari sono composti da due diodi: il diodo emettitore-base e il diodo base-collettore. 
+Durante il funzionamento attivo, il diodo emettitore-base è sempre polarizzato in direzione di conduzione. Nel transistor NPN il potenziale della base deve essere positivo rispetto a quello dell’emettitore, mentre nel transistor PNP deve essere negativo. Il diodo base-collettore è invece polarizzato in *polarizzazione inversa*. Per questo, nel transistor NPN il potenziale del collettore deve essere positivo rispetto alla base, mentre nel transistor PNP deve essere negativo.
 
 <tip>
-La funzione del Transistor si verifica però solo se la zona della Base tra Emettitore e Collettore è larga al massimo pochi micrometri. Quindi non possiamo creare un Transistor saldando due Diodi separati.
+La funzione del transistor si attiva solo se la zona di base tra emettitore e collettore è larga al massimo pochi micrometri. Quindi non è possibile costruire un transistor semplicemente saldando due diodi separati.
 </tip>
 
-La tensione minima sulla giunzione Emettitore-Base dipende dal semiconduttore utilizzato. In un Transistor NPN al silicio, la Base deve essere circa $\qty{0,6}{\volt}$ più positiva dell'Emettitore, in un Transistor PNP al silicio circa $\qty{0,6}{\volt}$ più negativa.
+La tensione minima al giunto emettitore-base dipende dal semiconduttore utilizzato. In un transistor NPN al silicio, la base deve essere circa $\qty{0,6}{\volt}$ più positiva dell’emettitore, mentre nel transistor PNP al silicio deve essere circa $\qty{0,6}{\volt}$ più negativa. Questa tensione è chiamata tensione base-emettitore $U_\mathrm{BE}$.
 
 [question:EC610]
 [question:EC612]
@@ -44,63 +44,80 @@ La tensione minima sulla giunzione Emettitore-Base dipende dal semiconduttore ut
 ---
 
 <margin>
-[picture:863:e_npn_i_u:Correnti e tensioni su un Transistor npn]
+[picture:863:e_npn_i_u:Correnti e tensioni in un transistor NPN]
 </margin>
 
 ---
 
-Le correnti e le tensioni su un Transistor npn sono rappresentate nella figura [ref:e_npn_i_u]. La tensione Base-Emettitore $U_{BE}$ la conosciamo già, così come la tensione Collettore-Base $U_{CB}$. La corrente di Collettore $I_C$ dipende esponenzialmente dalla tensione Base-Emettitore:
+Le correnti e le tensioni in un transistor NPN sono illustrate nella figura [ref:e_npn_i_u]. Abbiamo già incontrato la tensione base-emettitore $U_\mathrm{BE}$. Esistono anche la tensione collettore-base $U_\mathrm{CB}$ e la tensione collettore-emettitore $U_\mathrm{CE}$. La corrente di collettore $I_\mathrm{C}$ dipende esponenzialmente dalla tensione base-emettitore:
 
-$I_C = I_\text{S}\ e^{\frac{U_{BE}}{U_T}}$
 
-$U_T$ è a temperatura ambiente circa $\qty{26}{\milli\volt}$.
+$I_\mathrm{C} = I_\mathrm{S}\ e^{\frac{U_\mathrm{BE}}{U_\mathrm{T}}}$
+
+
+A *temperatura ambiente*, $U_\mathrm{T}$ è circa $\qty{26}{\milli\volt}$.
+
 
 <indepth>
-$I_\text{S}$ indica la cosiddetta corrente di saturazione inversa di un Transistor bipolare. È un parametro caratteristico del componente ed è strettamente correlato alla Diode Emettitore-Base. Si tratta di una corrente di perdita molto piccola che attraversa il Transistor anche quando la linea Base-Emettitore non è conduttiva.
+$I_\mathrm{S}$ indica la cosiddetta corrente di saturazione inversa di un transistor bipolare. È un parametro caratteristico del componente e dipende strettamente dal diodo emettitore-base. Si tratta di una corrente di perdita molto piccola che fluisce attraverso il transistor anche quando il giunto base-emettitore non è in conduzione.
 </indepth>
 
-La corrente di Base $I_B$ ha, in ampi intervalli operativi, la stessa dipendenza dalla tensione della corrente di Collettore, in modo che il rapporto tra corrente di Collettore e corrente di Base sia costante:
+La corrente di base $I_\mathrm{B}$ ha, in ampi intervalli di funzionamento, la stessa dipendenza dalla tensione della corrente di collettore, per cui il rapporto tra corrente di collettore e corrente di base è costante:
 
-$\frac{I_C}{I_B} = B$
 
-*B* è l'amplificazione di corrente (più precisamente, l'amplificazione di corrente in configurazione Emettitore comune). È spesso più pratico considerare il Transistor come un componente controllato in corrente, anche se fisicamente non lo è. L'amplificazione di corrente nei Transistor pratici varia da $50$ a $350$.
+$\frac{I_\mathrm{C}}{I_\mathrm{B}} = B$
+
+
+*$B$* è il *rapporto* di corrente (più precisamente, il rapporto di corrente nella *configurazione a emettitore comune*). Spesso è più pratico considerare il transistor come un componente controllato in corrente, anche se fisicamente non è così. Il rapporto di corrente nei transistor pratici è compreso tra $50$ e $350$.
 
 <tip>
-Per il controllo della corrente del Transistor bipolare esiste un'antica analogia, in cui giocano un ruolo un canale d'acqua grande e uno piccolo, una diga nel canale grande e una valvola di controllo. I più anziani tra noi forse la ricordano ancora dal "Kleiner Radiomann" della Kosmos-Verlag...
-  
-[picture:835:e_transistor_wehr_geschlossen:Canale di controllo chiude completamente la diga]
-  
-Inizialmente, nessun flusso d'acqua nel canale piccolo. La diga nel canale grande è chiusa, quindi nemmeno lì scorre acqua.
-  
-[picture:837:e_transistor_wehr_halb_offen:Canale di controllo apre parzialmente la diga]
+Per il controllo in corrente del transistor bipolare esiste un’analogia molto antica, che paragona un grande e un piccolo canale d’acqua, una diga nel canale grande e una valvola di controllo. Forse i più anziani tra noi la ricordano ancora dal "Piccolo radiomane" della casa editrice Kosmos...
 
-Poi inizia a scorrere acqua nel canale piccolo, il canale di controllo. L'acqua solleva la valvola, che a sua volta aziona la diga - anche nel canale principale inizia a scorrere acqua.
-  
-[picture:836:e_transistor_wehr_geoeffnet:Canale di controllo apre completamente la diga]
+[picture:835:e_transistor_wehr_geschlossen:Il canale di controllo chiude completamente la diga]
 
-Ora scorre più acqua nel canale di controllo, la valvola viene sollevata ulteriormente, la diga nel canale principale si apre completamente.
+
+Inizialmente non scorre acqua nel piccolo canale. La diga nel canale grande è chiusa, quindi non scorre acqua nemmeno lì.
+
+
+[picture:837:e_transistor_wehr_halb_offen:Il canale di controllo apre la diga a metà]
+
+
+Poi inizia a scorrere acqua nel piccolo canale, il canale di controllo. L’acqua solleva la valvola, che a sua volta aziona la diga: anche nel canale principale inizia a scorrere acqua.
+
+
+[picture:836:e_transistor_wehr_geoeffnet:Il canale di controllo apre completamente la diga]
+
+
+Ora scorre più acqua nel canale di controllo, la valvola si solleva ulteriormente e la diga nel canale principale si apre completamente.
 </tip>
 
 [question:EC603]
 
-La corrente di Emettitore $I_E$ è la somma della corrente di Collettore e della corrente di Base:
 
-$I_E = I_C + I_B$
+La corrente di emettitore $I_\mathrm{E}$ è la somma della corrente di collettore e della corrente di base:
+
+
+$I_\mathrm{E} = I_\mathrm{C} + I_\mathrm{B}$
+
 
 [question:EC611]
 
-Il punto di funzionamento in tensione dei Transistor è solitamente indicato tramite la tensione Collettore-Emettitore:
 
-$U_{CE} = U_{CB} + U_{BE}$
+Il punto di lavoro in tensione dei transistor viene solitamente indicato tramite la tensione collettore-emettitore:
 
-Oltre ai Transistor bipolari qui trattati prevalentemente, esistono soprattutto anche i *Transistor a effetto di campo*, che funzionano fisicamente in modo diverso, ma esternamente hanno la stessa funzione di base (sorgente di corrente controllata in tensione). Sotto forma di MOSFET, dominano la nostra elettronica, poiché sono presenti milioni o miliardi di volte nei circuiti integrati dell'elettronica digitale.
+
+$U_\mathrm{CE} = U_\mathrm{CB} + U_\mathrm{BE}$
+
+
+Oltre ai transistor bipolari, trattati prevalentemente qui, esistono soprattutto i *transistor a effetto di campo*, che funzionano fisicamente in modo diverso ma che, all’esterno, hanno la stessa funzione di base (sorgente di corrente controllata in tensione). Sotto forma di MOSFET, dominano la nostra elettronica, poiché sono presenti in milioni o miliardi nei circuiti integrati dell’elettronica digitale.
 
 <indepth>
-MOSFET sta per *metal-oxide-semiconductor field effect transistor*, in tedesco: Metall-Oxid-Halbleiter-Feldeffekttransistor.
+MOSFET sta per *metal-oxide-semiconductor field effect transistor*, in tedesco *Metall-Oxid-Halbleiter-Feldeffekttransistor*.
 </indepth>
 
 [question:EC604]
 
-I Transistor possono essere utilizzati non solo come amplificatori, ma anche come interruttori (corrente on/off) o anche, con piccole tensioni in uscita, come resistenze controllabili. Quest'ultima funzione viene realizzata principalmente con Transistor a effetto di campo.
+
+I transistor possono essere utilizzati non solo come *amplificatori*, ma anche come *interruttori* (corrente acceso/spento) o, con piccole tensioni in uscita, come *resistenza* controllabile. Quest’ultima funzione è implementata soprattutto con i transistor a effetto di campo.
 
 [question:EC601]

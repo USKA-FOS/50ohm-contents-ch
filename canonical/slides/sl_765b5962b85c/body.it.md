@@ -1,7 +1,7 @@
-Breve riepilogo:
-* Le cariche elettriche vengono separate nelle fonti di tensione, creando così la tensione elettrica. Lettera $U$, unità Volt ($\unit{\volt}$). 
-* La tensione elettrica provoca il flusso di corrente elettrica in un circuito chiuso. Lettera $I$, unità Ampere ($\unit{\ampere}$). 
-* I carichi esercitano una resistenza in un circuito e rallentano il flusso di corrente. Lettera $R$, unità Ohm ($\unit{\ohm}$). 
+Breve ripasso:
+* Le cariche elettriche vengono separate nelle sorgenti di tensione, generando tensione elettrica. Lettera $U$, unità volt ($\unit{\volt}$).
+* La tensione elettrica provoca il flusso di corrente elettrica in un circuito chiuso. Lettera $I$, unità ampere ($\unit{\ampere}$).
+* I carichi esercitano una resistenza in un circuito e frenano il flusso di corrente. Lettera $R$, unità ohm ($\unit{\ohm}$).
 
 ---
 
@@ -28,19 +28,19 @@ Breve riepilogo:
 $\dfrac{U}{I} = \dfrac{\qty{10}{\volt}}{\qty{0,001}{\ampere}} = \dfrac{\qty{20}{\volt}}{\qty{0,002}{\ampere}} = \dfrac{\qty{5}{\volt}}{\qty{0,0005}{\ampere}} = \qty{10000}{\volt\per\ampere}$
 </fragment>
 <fragment>
-Proporzionalità: $I$ è proporzionale a $U$ con un *fattore di proporzionalità* di 10000
+Proporzionalità: $I$ è proporzionale a $U$ con *fattore di proporzionalità* $\num{10000}$
 </fragment>
 <note>
-Il *fattore di proporzionalità* è il rapporto numerico tra due grandezze proporzionali tra loro.
+Il *fattore di proporzionalità* è il rapporto numerico tra due grandezze che sono proporzionali tra loro.
 </note>
 
 ---
 
 ## Resistenza
 
-* Il fattore di proporzionalità di 10000 dall'esempio è la resistenza $R$
+* Il fattore di proporzionalità di $\num{10000}$ dell'esempio è la resistenza $R$
 * Unità: $\qty{1}{\ohm} = \qty{1}{\volt\per\ampere}$
-* La resistenza nell'esempio è $\qty{10000}{\ohm}$ o $\qty{10}{\kilo\ohm}$
+* La resistenza dell'esempio è $\qty{10000}{\ohm}$ o $\qty{10}{\kilo\ohm}$
 
 ---
 
@@ -51,7 +51,7 @@ La resistenza è il *rapporto tra tensione e corrente*
 $ R = \dfrac{U}{I} $
 
 <note>
-Il fisico tedesco *Georg Simon Ohm* scoprì nel 1826 la relazione tra tensione elettrica, corrente elettrica e resistenza. In suo onore, la formula $ R = \frac{U}{I} $ è chiamata Legge di Ohm.
+Il fisico tedesco *Georg Simon Ohm* ha scoperto nel 1826 la relazione tra tensione elettrica, corrente elettrica e resistenza. In suo onore, la formula $ R = \frac{U}{I} $ è chiamata legge di Ohm.
 </note>
 
 ---
@@ -75,7 +75,7 @@ $ I = \dfrac{U}{R} $
 $ U = R\cdot I $
 </right>
 <note>
-* Le formule si trovano nella raccolta di formule
+* Le formule sono disponibili nella raccolta di formule
 </note>
 
 ---

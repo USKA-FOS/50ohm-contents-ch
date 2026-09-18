@@ -1,8 +1,8 @@
 ## Funzionamento remoto di stazioni radio
 
-* Costituito da diversi blocchi funzionali
-* Apparecchi moderni integrano parzialmente più blocchi
-* Separazione tra operatore e postazione remota
+* Composto da diversi blocchi funzionali
+* Gli apparecchi moderni integrano talvolta più blocchi
+* Separazione tra operatore e stazione remota
 
 ---
 
@@ -14,18 +14,18 @@
 <right>
 * Rappresentazione logica dei blocchi funzionali
 * Controllo, connessione di rete, interfaccia remota
-* Trasmettitore-ricevitore e apparecchi collegati
+* Trasmettitore-ricevitore e apparecchiature collegate
 </right>
 
 ---
 
-#### Computer e unità di controllo dell'operatore (Blocco 1)
+#### Computer e pannello di controllo dell’operatore (Blocco 1)
 
 <left>
 [picture:501:a_remotebetrieb:Schema a blocchi funzionamento remoto]
 </left>
 <right>
-* Converte segnali audio e di controllo in pacchetti di rete
+* Converte i segnali audio e di comando in pacchetti di rete
 * I segnali ricevuti vengono resi udibili e visibili
 </right>
 
@@ -37,32 +37,32 @@
 [picture:501:a_remotebetrieb:Schema a blocchi funzionamento remoto]
 </left>
 <right>
-* Collega l'operatore alla postazione remota
-* Possibilità di utilizzare Internet
+* Collega l’operatore alla stazione remota
+* Possibile utilizzo di Internet
 </right>
 
 ---
 
-#### Interfaccia remota presso la postazione remota (Blocco 2)
+#### Interfaccia remota presso la stazione remota (Blocco 2)
 
 <left>
 [picture:501:a_remotebetrieb:Schema a blocchi funzionamento remoto]
 </left>
 <right>
-* Converte i pacchetti di rete in segnali di controllo e audio
-* Trasmette i segnali audio ricevuti nuovamente all'operatore
+* Converte i pacchetti di rete in segnali di comando e audio
+* Trasmette i segnali audio ricevuti all’operatore
 </right>
 
 ---
 
-#### Trasmettitore-ricevitore/Amplificatore/Sintonizzatore/Rotore antenna (Blocco 3)
+#### Trasmettitore-ricevitore/amplificatore/tuner/rotore d’antenna (Blocco 3)
 
 <left>
 [picture:501:a_remotebetrieb:Schema a blocchi funzionamento remoto]
 </left>
 <right>
-* Vengono controllati tramite l'interfaccia remota
-* Il feedback dei comandi di controllo avviene tramite la rete
+* Vengono controllati tramite l’interfaccia remota
+* La conferma dei comandi di controllo avviene tramite la rete
 </right>
 
 ---
@@ -89,9 +89,9 @@
 
 ### Ritardi nel funzionamento remoto
 
-* I tempi di rete ed elaborazione causano latenze
-* La codifica e decodifica dei segnali audio causano ritardi
-* Deve essere considerato durante il funzionamento radio
+* I tempi di rete e di elaborazione causano latenze
+* La codifica e decodifica dei segnali audio introduce ritardi
+* Deve essere tenuto in considerazione durante il funzionamento radio
 
 ---
 
@@ -105,9 +105,9 @@
 
 ### Watchdog per il monitoraggio della stazione remota
 
-* Impedisce uno stato incontrollato in caso di interruzione della connessione
-* Scambio regolare di pacchetti di dati tra stazione e operatore
-* In assenza di risposta, il trasmettitore-ricevitore passa a uno stato sicuro
+* Evita stati incontrollati in caso di interruzione della connessione
+* Scambio regolare di pacchetti dati tra stazione e operatore
+* In caso di mancata risposta, il trasmettitore-ricevitore passa in uno stato sicuro
 
 ---
 
@@ -115,11 +115,11 @@
 
 ---
 
-### Spegnimento remoto dell'alimentazione
+### Spegnimento remoto dell’alimentazione elettrica
 
 * Il trasmettitore-ricevitore può entrare in uno stato indefinito
-* La tensione di alimentazione dovrebbe essere disattivabile da remoto
-* Soluzione: Presa IP per il controllo tramite rete
+* La tensione di alimentazione dovrebbe poter essere spenta da remoto
+* Soluzione: presa di rete intelligente per il controllo tramite rete
 
 ---
 
@@ -130,7 +130,7 @@
 ### Disturbi causati dal trasmettitore-ricevitore
 
 * La stazione remota può essere disturbata dai propri segnali
-* Sono necessarie misure appropriate per la soppressione dei disturbi
+* Sono necessarie misure adeguate per la soppressione dei disturbi
 
 ---
 

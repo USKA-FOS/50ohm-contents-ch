@@ -1,7 +1,7 @@
-* La Frequenza di un VFO dipende dalla tensione di servizio
-* Modifica il punto di funzionamento dei Transistor
+* La frequenza di un VFO dipende dalla tensione di servizio
+* Modifica il punto di funzionamento dei transistor
 * $\rightarrow$ Stabilizzazione della tensione di servizio
-* $\rightarrow$ Tensione di servizio indipendente da altri stadi
+* $\rightarrow$ Tensione di servizio indipendente da altre sezioni
 * $\rightarrow$ Tensione di servizio ben filtrata e disaccoppiata
 
 ---
@@ -13,9 +13,9 @@
 ---
 ### Chirp
 
-* Scarsa stabilizzazione della tensione $\rightarrow$ Salti di Frequenza impulsivi
-* Soprattutto durante la tastatura di un trasmettitore
-* Nei segnali CW, suona come un cinguettio all'inizio dei caratteri $\rightarrow$ *Chirp*
+* Cattiva stabilizzazione della tensione $\rightarrow$ Salti impulsivi di frequenza
+* In particolare durante la manipolazione di un trasmettitore
+* Nei segnali CW, questo si sente come un suono cinguettante all'inizio dei caratteri $\rightarrow$ *Chirp*
 
 ---
 [question:AD609]

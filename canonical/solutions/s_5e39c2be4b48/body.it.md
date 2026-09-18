@@ -1,1 +1,1 @@
-La lettera i in $\unit{\dBi}$ lo indica: Radiatore isotropico.
+La lettera i in $\unit{\dBi}$ lo rivela: radiatore isotropico.

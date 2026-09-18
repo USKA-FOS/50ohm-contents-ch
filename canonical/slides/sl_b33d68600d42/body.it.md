@@ -1,10 +1,7 @@
-* I trasmettitori e gli impianti di trasmissione richiedono normalmente un'autorizzazione ufficiale
-* I radioamatori ne sono esentati
-* Sono autorizzati a utilizzare *impianti di trasmissione disponibili in commercio, autocostruiti o modificati per le frequenze radioamatoriali*
-
-<note>
-Questo privilegio viene concesso ai radioamatori attraverso l'esame tecnicamente impegnativo
-</note>
+* I trasmettitori e gli impianti trasmittenti necessitano generalmente di una concessione ufficiale
+* I radioamatori ne sono esenti
+* Essi sono autorizzati a utilizzare *impianti trasmittenti acquistabili in commercio, autoprodotti o modificati per le frequenze radioamatoriali*
+* Questo privilegio viene concesso ai radioamatori grazie all'esame tecnicamente impegnativo
 
 ---
 
@@ -16,23 +13,23 @@ Questo privilegio viene concesso ai radioamatori attraverso l'esame tecnicamente
 
 * Per l'autocostruzione sono necessari vari componenti elettronici
 * Questi presentano proprietà diverse
-* Nella classe N ci sono solo pochi circuiti semplici $\rightarrow$ più nella classe E e A
-* Sono sufficienti le conoscenze dei simboli e delle denominazioni
+* Nella classe N ci sono solo pochi circuiti semplici $\rightarrow$ approfondimento nelle classi E e A
+* È sufficiente conoscere i simboli e le denominazioni
 
 <note>
-Maggiori informazioni nelle sezioni successive
+Maggiori dettagli nei prossimi paragrafi
 </note>
 
 ---
 
-## Requisiti per gli apparecchi radio
+## Requisiti per i ricetrasmettitori
 
-* Tutti gli *apparecchi radio di serie disponibili in commercio* devono rispettare i *requisiti e le disposizioni fondamentali della Legge sugli impianti radio (FuAG)*
-* Dichiarazione di conformità UE (*marcatura CE*) da redigere prima della messa in commercio
-* Solo allora gli apparecchi messi a disposizione sul mercato possono essere messi in funzione
+* Tutti gli *impianti radio acquistabili in commercio e prodotti in serie* devono rispettare i *requisiti e le normative fondamentali della legge sulle apparecchiature radio (FuAG)*
+* Dichiarazione di conformità UE (*marchio CE*) deve essere redatta prima dell'immissione sul mercato
+* Solo allora gli impianti forniti dal mercato possono essere messi in funzione
 
 <note>
-* Apparecchi radioamatoriali prodotti commercialmente
+* Ricetrasmettitori radioamatoriali prodotti commercialmente
 </note>
 
 ---
@@ -47,9 +44,9 @@ Maggiori informazioni nelle sezioni successive
 
 ## Autocostruzione
 
-* Eccezione: impianti radio *autocostruiti e modificati* dai radioamatori
-* Non devono soddisfare i requisiti della Legge sugli impianti radio
-* Non devono recare la marcatura CE
+* Eccezione: impianti radio *autocostruiti o modificati* dai radioamatori
+* Non devono rispettare i requisiti della legge sulle apparecchiature radio
+* Non devono riportare il marchio CE
 
 ---
 

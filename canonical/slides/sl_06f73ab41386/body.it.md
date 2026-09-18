@@ -1,31 +1,31 @@
 <left>
-[picture:1058:a_vsource_schematic:Schema equivalente di una fonte di corrente con $R_i$ ad alta impedenza]
+[picture:1058:a_isource_schematic:Circuito equivalente sorgente di corrente $R_i$ ad alta resistenza]
 </left>
 <right>
 * Fornisce corrente costante
-* Indipendente dal carico collegato
-* Teoria: Resistenza interna infinita
-* Pratica: Resistenza interna molto alta
+* Indipendentemente dal carico collegato
+* Teoria: resistenza interna infinita
+* Pratica: resistenza interna molto elevata
 </right>
 
 ---
 
-### Applicazione di una fonte di corrente
+### Applicazione di una sorgente di corrente
 
 * Alimentatori da laboratorio
-* Tecnologia di ricarica delle batterie
+* Tecniche di carica degli accumulatori
 
 <note>
-Gli alimentatori da laboratorio saranno trattati ulteriormente nella prossima sezione
+Gli alimentatori da laboratorio verranno trattati nel prossimo paragrafo
 </note>
 
-### Fonte di tensione
+### Sorgente di tensione
 <left>
-[picture:1018:a_vsource_schematic:Schema equivalente di una fonte di tensione]
+[picture:1018:a_vsource_schematic:Circuito equivalente sorgente di tensione]
 </left>
 <right>
-* La fonte di tensione reale viene caricata con $R_L$ $\rightarrow$ la tensione ai morsetti $U_k$ diminuisce
-* La causa è la resistenza interna
+* Una sorgente di tensione reale viene caricata con $R_L$ $\rightarrow$ la tensione ai morsetti $U_k$ diminuisce
+* Il motivo è la resistenza interna
 * Senza carico / a vuoto: $U_q = U_L$
 </right>
 <note>
@@ -36,7 +36,7 @@ Gli alimentatori da laboratorio saranno trattati ulteriormente nella prossima se
 
 <left>
 * Non misurabile con un multimetro
-* Determinazione tramite calcolo: <br/>$R_i = \frac{\Delta U}{\Delta I}$
+* Calcolo: <br/>$R_i = \frac{\Delta U}{\Delta I}$
 </left>
 <right>
 * A vuoto: $I = \qty{0}{\ampere}$
@@ -44,35 +44,35 @@ Gli alimentatori da laboratorio saranno trattati ulteriormente nella prossima se
 </right>
 
 ---
-### Resistenza interna di una fonte di tensione
+### Resistenza interna sorgente di tensione
 
 $(\Delta U = \qty{0}{\volt})$;  $R_i = \frac{\Delta U}{\Delta I} = \frac{0}{x} = \qty{0}{\ohm}$
 
 <fragment>
-Le fonti di tensione ideali dovrebbero avere una resistenza interna molto bassa $R_i \ll R_L$
+Le sorgenti di tensione ideali devono avere una resistenza interna molto bassa $R_i \ll R_L$
 
-Caso ideale: $\qty{0}{\ohm}$, quindi la tensione d’uscita rimane invariata sotto carico.
+Caso ideale: $\qty{0}{\ohm}$, in questo modo la tensione d’uscita rimane invariata anche sotto carico.
 </fragment>
 
 ---
 
-### Limitazione di corrente
+### Limitazione della corrente
 
 * Integrata negli alimentatori da laboratorio
 * La corrente di carico supera una corrente massima
-* $\rightarrow$ La tensione ai morsetti viene abbassata
+* $\rightarrow$ La tensione ai morsetti viene ridotta
 * $\rightarrow$ La corrente di carico rimane costante
-* Funzione della fonte di corrente costante
+* Funzione della sorgente di corrente costante
 
 ---
-### Resistenza interna di una fonte di corrente
+### Resistenza interna sorgente di corrente
 
 $R_i = \frac{\Delta U}{\Delta I}$; $(\Delta I \to \qty{0}{\ampere})$;  $R_i = \frac{\Delta U}{\Delta I} \to \qty{\infty}{\ohm}$
 
 <fragment>
-Le fonti di corrente ideali dovrebbero avere una resistenza interna molto alta $R_i \gg R_L$.
+Le sorgenti di corrente ideali devono avere una resistenza interna molto elevata $R_i \gg R_L$
 
-Caso ideale: $\qty{\infty}{\ohm}$, quindi la corrente di carico rimane costante al variare della resistenza di carico, motivo per cui si parla anche di adattamento di corrente.
+Caso ideale: $\qty{\infty}{\ohm}$, in questo modo la corrente di carico rimane costante al variare della resistenza di carico, motivo per cui si parla anche di adattamento in corrente.
 </fragment>
 
 ---
@@ -80,16 +80,16 @@ Caso ideale: $\qty{\infty}{\ohm}$, quindi la corrente di carico rimane costante 
 ---
 ### Adattamento di potenza
 
-* Massima erogazione di potenza dal trasmettitore all'antenna
+* Ottimale trasferimento di potenza dal trasmettitore all’antenna
 * $R_i = R_L$
 
 --- style="font-size: 0.7em;"
 
-|c: Riepilogo Resistenza interna | c: Resistenza interna |
-| Adattamento di tensione in una fonte di tensione costante| $R_i$ a bassa impedenza; teoricamente $\qty{0}{\ohm}$; $R_i \ll R_L$ identico a $R_L \gg R_i$|
-| Adattamento di corrente in una fonte di corrente costante|$R_i$ ad alta impedenza; $R_i \gg R_L$ identico a $R_L \ll R_i$ |
-| Adattamento di potenza in amplificatori| $R_L = R_i$|
-[table:a_Innenwiderstand Zusammenfassung:Riepilogo sulla resistenza interna]
+|c: Riepilogo resistenza interna | c: Resistenza interna |
+| Adattamento in tensione con una sorgente di tensione costante| $R_i$ è molto bassa; teoricamente $\qty{0}{\ohm}$; $R_i \ll R_L$ identico a $R_L \gg R_i$|
+|Adattamento in corrente con una sorgente di corrente costante|$R_i$ è molto elevata; $R_i \gg R_L$ identico a $R_L \ll R_i$ |
+| Adattamento di potenza negli amplificatori| $R_L = R_i$|
+[table:a_Innenwiderstand Zusammenfassung:Riepilogo resistenza interna]
 
 ---
 [question:AG401]
@@ -102,7 +102,7 @@ Caso ideale: $\qty{\infty}{\ohm}$, quindi la corrente di carico rimane costante 
 ---
 [question:AB207]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 * dato: $U_0 = \qty{13,5}{\volt}$
 * dato: $U_{Kl} = \qty{13}{\volt}$
 * dato: $I = \qty{2}{\ampere}$
@@ -114,7 +114,7 @@ $R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,5}{\volt} - \qty{13}
 ---
 [question:AB208]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 * dato: $U_0 = \qty{13,8}{\volt}$
 * dato: $U_{Kl} = \qty{13,6}{\volt}$
 * dato: $I = \qty{20}{\ampere}$
@@ -126,7 +126,7 @@ $R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,8}{\volt} - \qty{13,
 ---
 [question:AB206]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 * dato: $U_0 = \qty{13,5}{\volt}$
 * dato: $U_{Kl} = \qty{12,4}{\volt}$
 * dato: $I = \qty{0,9}{\ampere}$
@@ -138,7 +138,7 @@ $R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,5}{\volt} - \qty{12,
 ---
 [question:AB205]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 * dato: $U_0 = \qty{5,0}{\volt}$
 * dato: $U_{Kl} = \qty{4,8}{\volt}$
 * dato: $R_L = \qty{1,2}{\ohm}$
@@ -150,4 +150,3 @@ $I = \frac{U_{Kl}}{R_L} = \frac{\qty{4,8}{\volt}}{\qty{1,2}{\ohm}} = \qty{4}{\am
 <fragment>
 $R_i = \frac{U_i}{I} = \frac{U_0 - U_{Kl}}{I} = \frac{\qty{5,0}{\volt} - \qty{4,8}{\volt}}{\qty{4}{\ampere}} = \qty{0,05}{\ohm}$
 </fragment>
-

@@ -1,55 +1,53 @@
 ## Induttanza
 
 <left>
-* Ogni conduttore percorso da corrente ha un'induttanza
-* Attorno a un conduttore percorso da corrente si forma un campo magnetico
-* In un conduttore si forma una corrente quando questo viene mosso da un campo magnetico
+* Ogni conduttore percorso da corrente possiede un'induttanza
+* Intorno a un conduttore percorso da corrente si genera un campo magnetico
+* In un conduttore si genera una corrente quando questo viene mosso all'interno di un campo magnetico
 </left>
 <right>
-[picture:833:e_spule_magnetfeld_um_leiter:Campo magnetico attorno a un conduttore percorso da corrente]
+[picture:833:e_spule_magnetfeld_um_leiter:Campo magnetico intorno a un conduttore percorso da corrente]
 </right>
 
 ---
 [question:EC304]
 
----
-style="font-size: smaller;"
+--- style="font-size: smaller;"
 ## Bobina e induttanza
 
 * Una bobina ottimizza l'induttanza di un conduttore
-* Proprietà più importante della bobina: immagazzinare energia
+* Caratteristica principale della bobina: immagazzinare energia
 
 $L = \dfrac{N\cdot \Phi}{I}$
 
 * con $N$ numero di spire e $\Phi$ come flusso magnetico
-* Unità: $\unit{\volt\second\per\ampere}$ o Henry $\unit{\henry}$
+* Unità: $\unit{\volt\second\per\ampere}$ ovvero henry $\unit{\henry}$
 * L'induttanza è il flusso magnetico per ampere
 
 <note>
 * Henry da Joseph Henry (1797 - 1878)
 </note>
 
----
-style="font-size: smaller;"
-## Induttanza tramite costruzione
+--- style="font-size: smaller;"
+## Induttanza in base alla struttura
 
 <left>
-* L'induttanza di una bobina toroidale può essere ottenuta tramite la costruzione
+* L'induttanza di una bobina toroidale può essere determinata dalla sua struttura
 
 $L = \dfrac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 
-* $\rightarrow$ L'induttanza è maggiore con una sezione trasversale maggiore, un nucleo diverso o una lunghezza minore
+* $\rightarrow$ L'induttanza è maggiore con una sezione trasversale più grande, un nucleo diverso o una lunghezza minore
 * $\rightarrow$ L'induttanza è molto maggiore con un numero di spire più elevato
 </left>
 <right>
-* $\mu_0 = \qty{1,2566e-6}{\henry\per\meter}$: costante del campo magnetico
+* $\mu_0 = \qty{1,2566e-6}{\henry\per\meter}$: permeabilità del vuoto
 * $\mu_r$: permeabilità relativa, dipendente dal nucleo della bobina (aria $\approx 1$)
 * $N$: numero di spire
 * $A_S$: area della sezione trasversale della bobina
-* $l$: lunghezza della bobina o lunghezza media delle linee di campo
+* $l$: lunghezza della bobina ovvero lunghezza media delle linee di campo
 </right>
 <note>
-* È importante solo la comprensione, il calcolo è materia di classe A
+* È importante solo la comprensione, il calcolo è materia del corso di classe A
 </note>
 
 ---
@@ -69,15 +67,15 @@ $L = \dfrac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 ### Flusso di corrente attraverso una bobina
 
 <left>
-* La corrente impiega più tempo per attraversare la bobina
+* La corrente impiega più tempo a passare attraverso la bobina
 * Prima si accende la lampada$_1$
-* Successivamente si accende la lampada$_2$
+* Poi si accende la lampada$_2$
 </left>
 <right>
-[picture:541:e_stromkreis_mit_spule:Circuito con bobina]
+[picture:541:e_stromkreis_mit_spule:Circuito elettrico con bobina]
 </right>
 <note>
-* Nelle induttanze, le correnti subiscono un ritardo
+* Con le induttanze, le correnti subiscono un ritardo
 </note>
 ---
 
@@ -89,22 +87,22 @@ $L = \dfrac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 
 <left>
 * Una bobina viene collegata a una tensione continua
-* La tensione diminuisce rapidamente e si annulla nel tempo
+* La tensione diminuisce rapidamente e si avvicina a 0 nel tempo
 </left>
 <right>
-[picture:186:e_einschaltkurve_spule:Andamento temporale di una tensione continua attraverso una bobina]
+[picture:186:e_einschaltkurve_spule:Andamento temporale di una tensione continua ai capi di una bobina]
 </right>
 
 ---
 [question:EC301]
----
+--- 
 
 ## Bobina in corrente alternata
 
-* Nel circuito di corrente continua, una bobina agisce inizialmente come una resistenza infinitamente grande, ma poi, dopo il processo di accensione, diventa grande quanto la resistenza del conduttore.
-* Nella corrente alternata, il campo magnetico nella bobina viene costantemente invertito.
-* Ciò crea una tensione di autoinduzione che è opposta e disturba.
-* Maggiore è la frequenza, maggiore è la resistenza della bobina alla corrente alternata.
+* In un circuito in corrente continua, una bobina si comporta inizialmente come una resistenza di valore infinito, per poi diventare, dopo la fase di accensione, pari alla resistenza del conduttore
+* In corrente alternata, il campo magnetico nella bobina viene continuamente invertito
+* Di conseguenza, si genera una tensione di autoinduzione opposta che ostacola il flusso
+* Maggiore è la frequenza, maggiore è l'impedenza della bobina
 
 ---
 [question:EC303]

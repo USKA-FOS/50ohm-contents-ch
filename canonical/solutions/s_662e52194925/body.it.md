@@ -1,0 +1,1 @@
+I condensatori $C_1$ e $C_2$ all’ingresso e all’uscita bloccano la tensione continua e lasciano passare solo la tensione alternata, in modo che sia il partitore di tensione a determinare la polarizzazione di base e quindi il punto di funzionamento.

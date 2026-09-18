@@ -1,45 +1,26 @@
-%Nel calcolo della potenza irradiata effettiva (ERP) va considerata solo l'energia che viene effettivamente immessa nell'antenna, cioè eventuali perdite del cavo possono essere sottratte prima di moltiplicare per il fattore di guadagno.
+Nella classe N abbiamo già imparato a conoscere la *potenza irradiata effettiva* (ERP). A differenza dell'EIRP, questa non si riferisce a un radiatore isotropico, ma a un dipolo a semionda. Per il calcolo è rilevante solo la potenza che effettivamente arriva al punto di alimentazione dell'antenna. Le perdite nella linea di alimentazione, ad esempio dovute all'attenuazione del cavo, devono quindi essere sottratte dalla potenza di uscita del trasmettitore.
 
-La potenza irradiata effettiva (ERP) di un'antenna si riferisce al dipolo a semionda. Per la potenza irradiata è rilevante solo l'energia che effettivamente arriva all'antenna. A causa dell'attenuazione del cavo, ecc., la potenza del trasmettitore non può essere completamente immessa nell'antenna nel mondo reale. Questa potenza persa non deve essere inclusa nel calcolo della potenza irradiata. Il guadagno d'antenna nella direzione preferita è naturalmente parte del calcolo. L'ERP è il prodotto della potenza immessa e del guadagno d'antenna.
+La potenza irradiata effettiva si ottiene dalla potenza fornita all'antenna e dal guadagno d'antenna nella direzione considerata:
+
+$P_\mathrm{ERP}=P_\mathrm{Ant}\cdot G_\mathrm{d}$
+
+In questo caso, $G_\mathrm{d}$ è il guadagno d'antenna riferito a un dipolo a semionda, espresso come fattore lineare.
 
 [question:AG501]
 
-Nella prossima domanda è assolutamente necessario prestare attenzione ai segni di calcolo. Le perdite vengono sottratte dalla potenza di trasmissione e poi moltiplicate per il fattore di guadagno ($G_{Antenna}$).
-Dato che si deve calcolare l'ERP, è necessario fare riferimento a un dipolo a semionda.
+La potenza al punto di alimentazione dell'antenna può essere determinata a partire dalla potenza di uscita del trasmettitore e dall'attenuazione della linea di alimentazione. Per fare ciò, l'attenuazione viene convertita in un fattore di attenuazione lineare $D$. Con un'attenuazione di, ad esempio, $\qty{10}{\dB}$, questo fattore è $\num{0,1}$, per cui solo un decimo della potenza del trasmettitore arriva all'antenna:
+
+$P_\mathrm{Ant}=D\cdot P_\mathrm{Trasmittitore}$
+
+Solo questa potenza effettivamente fornita viene poi moltiplicata per il guadagno d'antenna per calcolare l'ERP.
+
+[question:AK104]
+
+Nella domanda successiva occorre prestare particolare attenzione ai segni delle operazioni. Le perdite vengono sottratte dalla potenza di trasmissione e poi moltiplicate per il fattore di guadagno ($G_\mathrm{Antenna}$).
+Poiché si deve calcolare l'ERP, il riferimento deve essere fatto a un dipolo a semionda.
 
 [question:AG502]
 
----
-
-Già il piano di frequenza per il servizio radioamatoriale fornisce un indizio per la soluzione corretta. Lì è specificata una potenza massima di $\qty{1}{\watt}$ ERP per la banda dei $\qty{630}{\meter}$.
-
-Un dipolo a semionda avrebbe una lunghezza di $\qty{315}{\meter}$. Questo non è realizzabile per la maggior parte dei radioamatori. Inevitabilmente vengono utilizzate antenne fortemente accorciate. Purtroppo, le antenne accorciate hanno un rendimento inferiore rispetto a un dipolo a semionda di piena lunghezza. Un "guadagno d'antenna" di $\qty{-20}{\dBd}$ non è quindi sorprendente. Poiché il cavo coassiale è corto, la sua attenuazione in questa gamma di frequenza può essere trascurata.
-
-Per risolvere la domanda AG503, si può fare riferimento alla tabella dei rapporti di potenza nella raccolta di formule. Lì, per $\qty{-20}{\dB}$ è indicato il fattore $\num{0,01}$.
-
-$\qty{50}{\watt}\cdot 0,01 = \qty{0,5}{\watt}$
-
-La soluzione corretta è $\qty{0,5}{\watt}$.
-
-%Un trasmettitore per la banda dei $\qty{630}{\meter}$ con una potenza d'uscita di $\qty{50}{\watt}$ è collegato tramite un breve cavo coassiale a un'antenna con una perdita di $\qty{20}{\dBd}$. Quale ERP viene irradiata dall'antenna?
+Un suggerimento per la soluzione della domanda successiva è già fornito dalla [Allegato 1 dell'AFUV](https://50ohm.de/a1). Qui, per la banda dei $\qty{630}{\meter}$, è indicata una potenza massima di $\qty{1}{\watt}$ di ERP. Un dipolo a semionda per questa frequenza avrebbe una lunghezza di circa $\qty{315}{\meter}$ ed è quindi difficilmente realizzabile per la maggior parte dei radioamatori. In pratica, si utilizzano quindi antenne notevolmente accorciate, il cui rendimento è significativamente inferiore a quello di un dipolo a semionda non accorciato. Un guadagno d'antenna di $\qty{-20}{\dBd}$ è quindi del tutto plausibile. Poiché il cavo coassiale utilizzato ha una lunghezza ridotta, la sua attenuazione può essere trascurata in questa banda di frequenza. Prova ora a risolvere la domanda seguente.
 
 [question:AG503]
-
-<tip>
- Questa tabella è inclusa nella raccolta di formule ed è disponibile durante l'esame.
-  
-| r:   | r: Rapporto di potenza | r: Rapporto di tensione |
-| $\qty{-20}{\dB}$ | $\num{0,01}$ | $\num{0,1}$ |
-| $\qty{-10}{\dB}$ | $\num{0,1}$ | $\num{0,32}$ |
-| $\qty{-6}{\dB}$ | $\num{0,25}$ | $\num{0,5}$ |
-| $\qty{-3}{\dB}$ | $\num{0,5}$ | $\num{0,71}$ |
-| $\qty{-1}{\dB}$ | $\num{0,79}$ | $\num{0,89}$ |
-| $\qty{0}{\dB}$ | $\num{1}$ | $\num{1}$ |
-| $\qty{1}{\dB}$ | $\num{1,26}$ | $\num{1,12}$ |
-| $\qty{3}{\dB}$ | $\num{2}$ | $\num{1,41}$ |
-| $\qty{6}{\dB}$ | $\num{4}$ | $\num{2}$ |
-| $\qty{10}{\dB}$ | $\num{10}$  | $\num{3,16}$ |
-| $\qty{20}{\dB}$ | $\num{100}$ | $\num{10}$ |
-[table:Pegel_Verhältnis:Leistungs- und Spannungsverhältnisse für wichtige Dämpfungs- und Verstärkungswerte]
-
-</tip>

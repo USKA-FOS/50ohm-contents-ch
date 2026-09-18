@@ -1,6 +1,6 @@
-Gli impianti di antenna di solito non aumentano la probabilità che un fulmine colpisca, ma se colpisce, è probabile che un'antenna esposta esistente diventi il bersaglio. Pertanto, gli impianti di antenna su o su edifici devono essere messi a terra o integrati in un sistema di protezione antifulmine esistente.
+Gli impianti di antenna di solito non aumentano la probabilità che un fulmine colpisca l'edificio, ma se un fulmine cade, è probabile che un'antenna esposta diventi il bersaglio. Per questo motivo, gli impianti di antenna su o vicino agli edifici devono essere messi a terra o integrati in un impianto di protezione contro i fulmini esistente.
 
-Un sistema di protezione antifulmine serve a proteggere l'edificio in caso di fulmini. Affinché la protezione sia mantenuta, è necessario sapere cosa si sta facendo. Le modifiche devono quindi essere apportate da specialisti. Se si deve stabilire un collegamento con un sistema di protezione antifulmine esistente, questo deve essere discusso con un *esperto di protezione antifulmine* e installato secondo le sue specifiche.
+Un impianto di protezione contro i fulmini protegge l'edificio dai fulmini. Affinché la protezione sia efficace, è necessario sapere cosa si sta facendo. Eventuali modifiche devono quindi essere effettuate da professionisti. Se si desidera collegare un impianto di antenna a un impianto di protezione contro i fulmini esistente, è necessario discuterne con un *esperto di protezione contro i fulmini* e installarlo secondo le sue indicazioni.
 
 [question:EK211]
 [question:EK209]
@@ -9,23 +9,23 @@ Un sistema di protezione antifulmine serve a proteggere l'edificio in caso di fu
 
 
 <danger>
-I lavori su un sistema di protezione antifulmine e il collegamento dell'equipotenzialità e della messa a terra devono essere eseguiti solo se si sa esattamente cosa si sta facendo. Pertanto, possono essere eseguiti esclusivamente da elettricisti qualificati che dispongono di una formazione adeguata!
+I lavori su un impianto di protezione contro i fulmini e il collegamento di compensazione del potenziale e messa a terra devono essere eseguiti solo se si sa esattamente cosa si sta facendo. Pertanto, possono essere effettuati esclusivamente da persone qualificate con una formazione appropriata!
 </danger>
 
-% TODO: Deve essere sostituito. Si sta cercando qualcosa di comparabile da electrosuisse. 
+% TODO: Deve essere sostituito. Si sta cercando un contenuto comparabile di electrosuisse.
 <indepth>
-Il VDE ha pubblicato una [guida alla protezione degli impianti radio su edifici contro i fulmini](https://50ohm.de/vde-blitz).
+Il VDE ha pubblicato una [guida per la protezione degli impianti radio su edifici in caso di fulmini](https://50ohm.de/vde-blitz).
 </indepth>
 
 ---
 
-Spesso un fulmine cade solo nelle vicinanze della nostra stazione. Questo è meno grave di un impatto diretto, ma anche questo è sufficiente per causare danni ingenti (cfr. figura [ref:e_ueberspannung_blitz]). Pertanto, la protezione antifulmine è un argomento importante per noi radioamatori.
+Spesso un fulmine cade nelle vicinanze della nostra stazione. Questo è meno grave di un impatto diretto, ma può comunque causare danni considerevoli (cfr. figura [ref:e_ueberspannung_blitz]). Per questo motivo, la protezione contro i fulmini è un tema importante per noi radioamatori.
 
 <margin>
-[photo:191:e_ueberspannung_blitz:Condensatore in un alimentatore completamente distrutto da sovratensione. La causa è stata un fulmine nelle vicinanze della stazione. Qui la sovratensione è arrivata attraverso la rete elettrica.]
+[photo:191:e_ueberspannung_blitz:Condensatore completamente distrutto da una sovratensione in un alimentatore. La causa è stata la caduta di un fulmine nelle vicinanze della stazione. In questo caso, la sovratensione è arrivata attraverso la rete elettrica.]
 </margin>
 
-Come possiamo proteggere le nostre apparecchiature dalle sovratensioni causate dai fulmini? Esistono prese multiple antifulmine per cavi coassiali che scaricano le sovratensioni tramite un tubo a scarica di gas, oppure è possibile mettere a terra direttamente l'alimentazione dell'antenna dopo l'uso radio. In entrambi i casi, è necessario un cavo di messa a terra (filo massiccio, non trefolo) la cui sezione trasversale soddisfi le specifiche Electrosuisse. È possibile utilizzare qualsiasi messa a terra dell'edificio esistente.
+Come possiamo proteggere i nostri apparecchi dalle sovratensioni causate dai fulmini? Esistono prese intermedie di protezione contro i fulmini per cavi coassiali, che scaricano le sovratensioni tramite un tubo a scarica a gas, oppure si può mettere a terra il cavo di antenna dopo l'uso. In entrambi i casi è necessario un *conduttore di messa a terra* (filo massiccio, non a trefoli) la cui sezione trasversale corrisponda alle specifiche di Electrosuisse. Si può utilizzare qualsiasi messa a terra dell'edificio esistente.
 
 
 [question:EK216]
@@ -33,4 +33,4 @@ Come possiamo proteggere le nostre apparecchiature dalle sovratensioni causate d
 [question:EK210]
 
 
-% Sezioni trasversali rimosse dalla riga 22: a causa della complessa formattazione ma non eliminate (nel caso servissero comunque). (Rame $\qty{16}{\milli\meter\squared}$, Alluminio $\qty{25}{\milli\meter\squared}$, Acciaio $\qty{50}{\milli\meter\squared}$)
+% Sezioni trasversali dalla riga 22 rimosse: a causa della formattazione complessa ma non eliminate (in caso di bisogno futuro). (rame $\qty{16}{\milli\meter\squared}$, alluminio $\qty{25}{\milli\meter\squared}$, acciaio $\qty{50}{\milli\meter\squared}$)

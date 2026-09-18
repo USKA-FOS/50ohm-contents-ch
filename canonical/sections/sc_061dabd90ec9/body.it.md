@@ -1,83 +1,91 @@
-Durante il funzionamento di trasmettitori – in particolare di trasmettitori ad alta potenza – possono verificarsi varie interferenze con apparecchiature e impianti elettronici. Tali *interferenze disturbanti* e alcune indicazioni di base su come agire sono già state apprese nella classe N. L'obiettivo è evitare il più possibile queste interferenze o eliminare le loro cause mediante contromisure appropriate. In questa lezione esamineremo più da vicino le cause e le contromisure. Fondamentalmente, le apparecchiature elettroniche possono essere influenzate in due modi:
+Durante il funzionamento di trasmettitori – in particolare di trasmettitori ad alta potenza – possono verificarsi varie forme di disturbi su apparecchi e impianti elettronici. Questi *disturbi indesiderati* e alcune indicazioni di base su come evitarli sono già stati trattati nel capitolo [sec:stoerungen_vermeiden]. L'obiettivo è evitare tali disturbi o eliminarne le cause mediante misure appropriate. In questa lezione esamineremo più in dettaglio le cause e le contromisure. In linea generale, i dispositivi elettronici possono essere influenzati in due modi:
 
-- Si parla di *irraggiamento* quando l'alta frequenza raggiunge direttamente l'elettronica di un apparecchio attraverso l'antenna di ricezione (figura [ref:e_antenne_einstrahlung]) o a causa di un involucro insufficientemente schermato (figura [ref:e_direkteinstrahlung]) e lì causa interferenze.
-- Si parla di *infiltrazione* quando l'alta frequenza penetra in un apparecchio attraverso conduttori o cavi, ad esempio attraverso l'alimentazione di rete, il cavo dell'antenna, il cavo degli altoparlanti, ecc. (figura [ref:e_einstroemung])
+- Si parla di *irradiazione* quando l'alta frequenza penetra nell'elettronica di un apparecchio tramite l'antenna di ricezione (Figura [ref:e_antenne_einstrahlung]) o direttamente attraverso un involucro non sufficientemente schermato (Figura [ref:e_direkteinstrahlung]) causando disturbi.
+- Si parla di *correnti entranti* quando l'alta frequenza penetra in un apparecchio tramite cavi o conduttori, ad esempio tramite la linea di alimentazione di rete, la linea di antenna, i cavi degli altoparlanti ecc. (Figura [ref:e_einstroemung])
 
 <margin>
-[picture:744:e_antenne_einstrahlung:Irraggiamento attraverso l'antenna di ricezione]
-[picture:746:e_direkteinstrahlung:Irraggiamento diretto in un apparecchio]
-[picture:747:e_einstroemung:Infiltrazione attraverso cavi di collegamento]
+[picture:744:e_antenne_einstrahlung:Irradiazione tramite antenna di ricezione]
+[picture:746:e_diretteinstrahlung:Irradiazione diretta in un apparecchio]
+[picture:747:e_einstroemung:Correnti entranti tramite cavi di collegamento]
 </margin>
+
+<indepth>
+Si distinguono:
+  
+1 Disturbi condotti – trasmessi tramite linee elettriche (ad esempio linee di rete, segnale o dati).
+  
+2 Disturbi radiati (o a campo) – si propagano come onde elettromagnetiche nello spazio libero.
+  
+</indepth>
 
 [question:EJ102]
 [question:EJ101]
 
-Anche durante il funzionamento legale di un trasmettitore, possono verificarsi interferenze con ricevitori nelle immediate vicinanze durante la ricezione di altre frequenze. A causa delle elevate potenze di trasmissione delle stazioni radioamatoriali e dell'uso di antenne ad alto guadagno, possono verificarsi intensità di campo molto elevate localmente e nell'area di irraggiamento delle antenne. Queste possono sovraccaricare i ricevitori e i loro stadi di ricezione, il che può portare a una riduzione della Sensibilità del ricevitore fino al blocco completo della ricezione. Ciò può causare, ad esempio, che i telecomandi per porte di garage non funzionino più come al solito. Spesso anche le luci a LED, controllate da sensori capacitivi, vengono influenzate dalle trasmissioni. In questo caso si parla di *sovraeccitazione* o *interferenza disturbante* di apparecchi.
+Anche durante il funzionamento conforme alla legge di un trasmettitore, possono verificarsi disturbi su ricevitori nelle immediate vicinanze durante la ricezione di altre frequenze. Grazie all'elevata potenza di trasmissione delle stazioni radioamatoriali e all'uso di antenne ad alto guadagno, possono verificarsi localmente e nell'area di irradiazione dell'antenna livelli di intensità di campo molto elevati. Questi possono sovraeccitare i ricevitori e i loro stadi di ricezione, riducendo la sensibilità del ricevitore fino a bloccarne completamente la ricezione. Questo può ad esempio impedire il corretto funzionamento dei telecomandi per porte da garage. Spesso anche le lampade a LED, che vengono comandate tramite sensori capacitivi, vengono influenzate dalle trasmissioni. In questi casi si parla di *sovraeccitazione* o *disturbo indesiderato* degli apparecchi.
 
 [question:EJ106]
 [question:EJ107]
 [question:EJ103]
 [question:EJ112]
 
-Spesso le interferenze disturbanti nel vicinato vengono associate al funzionamento di una stazione radioamatoriale. Per dimostrare un eventuale collegamento dovuto alle trasmissioni della stazione radioamatoriale, la valutazione e, se necessario, la tenuta di un registro delle trasmissioni e dei collegamenti effettuati è molto utile. In questo modo è anche possibile escludere che le presunte interferenze nel vicinato siano riconducibili alla stazione radioamatoriale.
+Spesso i disturbi nelle vicinanze vengono associati al funzionamento di una stazione radioamatoriale. Per dimostrare un eventuale nesso causale con le trasmissioni della stazione radioamatoriale, è molto utile valutare e, se necessario, tenere un registro delle trasmissioni e dei collegamenti effettuati. In questo modo è anche possibile escludere che i presunti disturbi nelle vicinanze siano da attribuire alla stazione radioamatoriale.
 
 [question:EJ122]
 
-Il radioamatore dovrebbe supportare il vicinato in modo cooperativo e orientato alla soluzione, o anche proporre suggerimenti per un rimedio. Spesso i problemi si risolvono più facilmente in una conversazione diretta che con l'intervento delle autorità. Solo quando tutti gli sforzi sono falliti, si può chiedere all'ufficio competente della Bundesnetzagentur (Agenzia federale delle reti) di verificare la situazione. Questo dovrebbe tuttavia essere davvero l'ultima risorsa per la risoluzione dei problemi.
+Il radioamatore dovrebbe collaborare in modo costruttivo e orientato alle soluzioni con i vicini e proporre anche possibili soluzioni. Spesso i problemi possono essere risolti più facilmente parlando direttamente piuttosto che coinvolgendo le autorità. Solo se tutti i tentativi falliscono, è possibile rivolgersi alla sede competente dell'Agenzia federale delle reti per una verifica della situazione. Tuttavia, questo dovrebbe essere davvero l'ultimo mezzo per risolvere il problema.
 
 [question:EJ124]
 [question:VN004]
 
-Questi sforzi includono varie misure, come ad esempio:
+A tali sforzi appartengono varie misure, come ad esempio:
 
-%- Riduzione della Potenza di trasmissione dell'impianto radioamatoriale % Questa dovrebbe essere l'ultima risorsa!
-- Schermatura di apparecchiature o cavi sensibili
-- Installazione di filtri e trappole per correnti di modo comune sul lato di ricezione del vicino
-- Installazione di una messa a terra RF efficace
+%- Riduzione della potenza di trasmissione dell'impianto radioamatoriale % Questo dovrebbe essere l'ultima risorsa!
+- Schermatura di apparecchi o cavi sensibili
+- Installazione di filtri e induttanze di modo comune sul lato ricevente del vicino
+- Realizzazione di un efficace collegamento a terra HF
 - Utilizzo di antenne esterne per la ricezione
 
-Esamineremo più da vicino queste misure in seguito.
+Queste misure verranno esaminate più in dettaglio nel seguito.
 
-Per evitare interferenze disturbanti con le apparecchiature, un radioamatore dovrebbe utilizzare sempre solo la Potenza di trasmissione necessaria per una *comunicazione soddisfacente* per le proprie trasmissioni.
+Per evitare disturbi indesiderati sugli apparecchi, un radioamatore dovrebbe utilizzare solo la potenza di trasmissione necessaria per una *comunicazione soddisfacente*.
 
 [question:EJ104]
 [question:EJ105]
 
-Se in un impianto di ricezione si presentano contemporaneamente più segnali di ricezione forti (ad esempio, dalla ricezione di un emittente TV locale e di una potente stazione radioamatoriale nel vicinato), nel ricevitore possono generarsi armoniche indesiderate e i loro prodotti di miscelazione a causa della sovraeccitazione degli stadi di ricezione del ricevitore. Questo si chiama *Intermodulazione*. L'Intermodulazione genera *segnali fantasma* che si verificano solo in presenza dei segnali coinvolti.
+Se in un impianto di ricezione sono presenti contemporaneamente più segnali di ricezione forti (ad esempio a causa della ricezione di una stazione televisiva locale e di una stazione radioamatoriale potente nelle vicinanze), nello stadio ricevente del ricevitore possono formarsi armoniche indesiderate e i loro prodotti di miscelazione a causa della sovraeccitazione degli stadi di ricezione. Questo fenomeno è chiamato *intermodulazione*. L'intermodulazione genera *segnali fantasma* che si formano solo in presenza dei segnali coinvolti.
 
 [question:EJ120]
 
-Anche in un impianto stereo spento, forti segnali RF possono causare rumori udibili negli altoparlanti attraverso la rettificazione nello stadio finale BF su componenti non lineari come i transistor. Anche i contatti corrosi tra metalli (ossidi metallici) hanno la proprietà di poter formare effetti di rettificazione dovuti a non linearità. Ciò può portare alla generazione di prodotti di miscelazione indesiderati durante le trasmissioni della stazione radioamatoriale, sia sul lato di trasmissione che su quello di ricezione, che possono causare interferenze disturbanti con la ricezione televisiva e radiofonica.
+Anche in un impianto stereo spento, forti segnali HF possono causare rumori udibili negli altoparlanti a causa del raddrizzamento nello stadio finale BF su componenti non lineari come i transistor. Anche i contatti corrosi tra metalli (ossidi metallici) hanno la proprietà di formare effetti di raddrizzamento a causa di non linearità. Ciò può generare prodotti di miscelazione indesiderati sul lato di trasmissione o di ricezione che portano a disturbi indesiderati nella ricezione televisiva e radiofonica durante le trasmissioni della stazione radioamatoriale.
 
 [question:EJ113]
 [question:EJ121]
 
+Non tutti i disturbi possono essere risolti con misure sul lato trasmittente. Spesso l'apparecchio disturbato non è adatto al luogo di utilizzo, non soddisfa i requisiti legali vigenti o i cavi di alimentazione e le schermature non sono sufficientemente dimensionati per resistere alle irradiazioni o alle correnti entranti ad alta frequenza. In questi casi è opportuno suggerire ai soggetti interessati delle misure per risolvere il problema.
 
-Non tutte le interferenze disturbanti possono essere risolte con misure sul lato di trasmissione. Spesso l'apparecchio influenzato stesso non è adatto al rispettivo luogo di utilizzo, non soddisfa le normative legali vigenti o i cavi di alimentazione e le schermature non sono dimensionati a sufficienza contro l'irraggiamento o l'infiltrazione ad alta frequenza. In questi casi, è opportuno proporre misure ai soggetti interessati in modo che i problemi possano essere risolti.
-
-Una possibile misura consiste nel schermare i gruppi RF, per quanto possibile, con un involucro metallico chiuso.
+Una possibile misura consiste nel schermare i moduli HF con un involucro metallico chiuso.
 
 [question:EJ108]
 
-Se un'antenna di trasmissione per onde corte si trova vicino e parallela a una linea di Corrente alternata da $\qty{230}{\volt}$, le correnti ad alta frequenza possono essere accoppiate nella rete elettrica. Per mantenere al minimo le interferenze nella propria abitazione, si consiglia di utilizzare un cavo di terra RF separato per le antenne di trasmissione.
+Se un'antenna trasmittente in onde corte si trova vicino e parallela a una linea di alimentazione a corrente alternata da $\qty{230}{\volt}$, le correnti ad alta frequenza possono essere accoppiate nella rete elettrica. Per ridurre al minimo i disturbi all'interno della propria abitazione, si consiglia di utilizzare un collegamento di terra HF separato per le antenne trasmittenti.
 
 [question:EJ109]
 [question:EJ111]
 
-Un'altra possibilità è l'*installazione di filtri nei cavi di alimentazione degli apparecchi* e di *trappole per correnti di modo comune (strozzatori)* sui cavi di alimentazione.
+Un'altra possibilità è l'*installazione di filtri nei cavi di alimentazione degli apparecchi* e l'uso di *induttanze di modo comune (choke)* sui cavi di alimentazione.
 
-In particolare, i filtri possono essere installati sul lato dell'apparecchio influenzato (TV, ricevitore DVB-T2, ricevitore DAB, ecc.) nel percorso di ricezione. Ad esempio, l'intensità di campo di un trasmettitore radioamatoriale per onde corte (ad es. nell'intervallo da $\qtyrange{3}{30}{\mega\hertz}$) può influenzare la ricezione TV (ad es. da $\qtyrange{470}{690}{\mega\hertz}$). Installando un filtro passa-alto, l'influenza del segnale di trasmissione radioamatoriale può essere notevolmente ridotta: le componenti di frequenza al di fuori dell'intervallo di ricezione TV – in questo esempio, quindi, le onde corte – vengono soppresse, in modo che gli stadi di ricezione dell'apparecchio non possano più essere sovraccaricati.
+In particolare, i filtri possono essere installati sul lato dell'apparecchio disturbato (TV, ricevitore DVB-T2, ricevitore DAB ecc.) nel percorso di ricezione. Ad esempio, l'intensità di campo di un trasmettitore radioamatoriale in onde corte (ad esempio nell'intervallo $\qtyrange{3}{30}{\mega\hertz}$) può influenzare la ricezione televisiva (ad esempio $\qtyrange{470}{690}{\mega\hertz}$). Installando un filtro passa-alto, l'influenza del segnale trasmittente radioamatoriale può essere notevolmente ridotta: le componenti di frequenza al di fuori dell'intervallo di ricezione TV – in questo esempio le onde corte – vengono attenuate, in modo che gli stadi di ricezione dell'apparecchio non vengano più sovraeccitati.
 
 [question:EJ116]
 [question:EJ117]
 
-Spesso il segnale di trasmissione di una stazione radioamatoriale viene accoppiato nelle vicinanze di altri apparecchi attraverso la schermatura di cavi coassiali o cavi di alimentazione in ricevitori o apparecchi disturbati. Se ciò causa interferenze, dovrebbe essere installata una cosiddetta *trappola per correnti di modo comune* sui cavi di alimentazione dell'apparecchio disturbato. Una trappola per correnti di modo comune blocca le *correnti di modo comune* sul mantello e sul conduttore interno dell'apparecchio disturbato. Come trappole per correnti di modo comune vengono tipicamente utilizzati nuclei toroidali o nuclei toroidali aperti in ferrite. Un'altra possibilità per evitare interferenze nei cavi di controllo di impianti e apparecchi elettrici è l'uso di cavi di controllo schermati (ad es. per citofoni, linee telefoniche, ecc.)
+Spesso il segnale trasmittente di una stazione radioamatoriale nelle vicinanze viene accoppiato nei ricevitori o apparecchi disturbati tramite la calza dei cavi coassiali o dei cavi di alimentazione. Se si verificano disturbi, su questi cavi di alimentazione dell'apparecchio disturbato dovrebbe essere installata una cosiddetta *induttanza di modo comune*. Un'induttanza di modo comune blocca le *correnti in modo comune* sulla calza e sul conduttore interno dell'apparecchio disturbato. Come induttanze di modo comune vengono generalmente utilizzati nuclei toroidali o nuclei a pinza in ferrite. Un'altra possibilità per evitare disturbi nelle linee di comando di impianti e apparecchi elettrici è l'uso di cavi schermati (ad esempio per impianti citofonici, linee telefoniche ecc.).
 
 [question:EJ118]
 [question:EJ119]
 [question:EJ115]
 [question:EJ114]
 
-%Anche scarse condizioni di ricezione dal lato dell'apparecchio influenzato (ad es. antenna TV interna per la ricezione) possono portare più facilmente a interferenze nella %ricezione. Una possibile contromisura sarebbe l'uso di un'antenna esterna, eventualmente con filtri preliminari appropriati.
+%Anche le scarse condizioni di ricezione sul lato dell'apparecchio disturbato (ad esempio antenna TV interna per la ricezione) possono portare più facilmente a disturbi nella ricezione. Una possibile contromisura potrebbe essere l'uso di un'antenna esterna, eventualmente con filtri previ.
 
 %[question:EJ123]

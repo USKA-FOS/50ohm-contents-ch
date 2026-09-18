@@ -1,47 +1,29 @@
 <left>
-[photo:75:n_mobilfunkgeraet:Installazione dell'unità di controllo di un apparrecchio radio VHF/UHF nella console centrale di un'auto]
+[photo:75:n_mobilfunkgeraet:Installazione del pannello di controllo di un apparecchio radio VHF/UHF nella consolle centrale di un’automobile]
 </left>
 <right>
-* Conversare con altri radioamatori durante la guida
+* Durante la guida conversare con altri radioamatori
 * Ricevere consigli o informazioni sul traffico
 * Utilizzo solo con vivavoce
 </right>
 <note>
-Le informazioni sul traffico provengono naturalmente da altri radioamatori che potrebbero essere anch'essi in viaggio in auto e bloccati nello stesso ingorgo.
+Le informazioni sul traffico provengono naturalmente da altri radioamatori che, ad esempio, sono anch’essi in viaggio e bloccati nel traffico
 </note>
 ---
 ## Installazione
 <left>
-[photo:64:n_magnetfussantenne:Antenna a base magnetica sul tetto del veicolo]
-* Antenna Groundplane con il tetto del veicolo come elemento di contro-terra
+[photo:64:n_magnetfussantenne:Antennna a magnete sul tetto dell’auto]
+* Antenna groundplane con il tetto metallico dell’auto come elemento opposto
 </left>
 <right>
-* Il più possibile al centro del tetto metallico del veicolo
-* Rispettare le specifiche del produttore del veicolo
-* Cavi il più corti possibile e lontani da altri cavi del veicolo
+* Posizionare possibilmente al centro del tetto metallico dell’auto
+* Rispettare le indicazioni del produttore del veicolo
+* Cavi il più corti possibile e lontano da altri cavi dell’auto
 </right>
 <note>
-* Alcuni produttori di veicoli dispongono di documenti che indicano dove dovrebbe essere installata un'antenna (in particolare veicoli utilizzati per la polizia e i servizi di emergenza)
-* La base magnetica potrebbe non reggere ad alte velocità
-* L'elettronica di bordo potrebbe essere disturbata
-</note>
-
-
---- 
-## Attenzione
-
-<left>
-[photo:76:n_Kabelsicherung:Cavo di alimentazione con portafusibile]
-</left>
-<right>
-* La tensione di bordo di $\qty{12}{\volt}$ o $\qty{24}{\volt}$ sembra innocua
-* Sono possibili correnti elevate
-* In caso di cortocircuito sono possibili archi elettrici, incendi di cavi o incendi del veicolo
-* Installare un fusibile del valore corretto per l'apparrecchio radio
-</right>
-<note>
-* Maggiori dettagli in un capitolo successivo
-* Meglio installare il fusibile sia sulla linea positiva che su quella negativa
+* Alcuni produttori di veicoli hanno documenti che indicano dove installare un’antenna (in particolare per veicoli utilizzati per polizia e soccorso)
+* Il magnete potrebbe non reggere a velocità elevate
+* L’elettronica di bordo potrebbe essere disturbata
 </note>
 
 ---
@@ -52,6 +34,23 @@ Le informazioni sul traffico provengono naturalmente da altri radioamatori che p
 
 ---
 [question:NK309]
+
+---
+## Attenzione
+
+<left>
+[photo:76:n_Kabelsicherung:Filo di alimentazione con portafusibile]
+</left>
+<right>
+* La tensione di rete di bordo di $\qty{12}{\volt}$ o $\qty{24}{\volt}$ sembra innocua
+* Sono possibili correnti elevate
+* In caso di cortocircuito sono possibili archi elettrici, incendio dei cavi o incendio del veicolo
+* Installare la protezione con il valore corretto per l’apparecchio radio
+</right>
+<note>
+* In un capitolo successivo verranno fornite ulteriori informazioni
+* La protezione è meglio installarla sia sul cavo positivo che su quello negativo
+</note>
 
 ---
 [question:NK307]

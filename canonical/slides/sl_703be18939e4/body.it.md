@@ -1,60 +1,65 @@
 ## Il primo passo
 
 <left>
-[photo:117:n_erste_schritte_transceiver:Un trasmettitore-ricevitore (apparecchio radio) per il radioamatore]
+[photo:117:n_erste_schritte_transceiver:Un trasmettitore-ricevitore per il radioamatore]
 </left>
 <right>
 * Chiunque può acquistare e possedere apparecchi radio
 * e ricevere trasmissioni radioamatoriali
 </right>
 <note>
-Introdurre la parola _trasmettitore-ricevitore_: parola macedonia formata da trasmettitore e ricevitore
+Introduzione del termine _trasmettitore-ricevitore_: parola composta da Transmitter (trasmettitore) e Receiver (ricevitore)
 </note>
 
 ---
 
 [question:VD102]
 
+
 ---
 
 ### Un radioamatore può trasmettere
 
 <left>
-[photo:118:n_erste_schritte_ptt:Microfono portatile con tasto PTT (in alto a sinistra)]
+[photo:118:n_erste_schritte_ptt:Microfono con tasto PTT (in alto a sinistra)]
 </left>
 
 <right>
-Andare in trasmissione (premere il tasto PTT)
+Passare in trasmissione (premere il tasto PTT)
 
 * Tasto sull'apparecchio radio o sul microfono
-* Commuta il trasmettitore-ricevitore da modalità di ricezione a modalità di trasmissione
+* Commuta il trasmettitore-ricevitore dalla modalità ricezione a quella di funzionamento in trasmissione
 </right>
 
 <note>
 * PTT: push to talk
-* un altro punto elenco
+* altro punto elenco
 </note>
 
 ---
 
 [question:NF108]
 
+
 ---
 
 ### Conoscenze matematiche di base
 
-* Nel radioamatore sono necessarie conoscenze di base di matematica
-* In particolare, le quattro operazioni aritmetiche e la regola del tre
-* A seconda della classe, sono necessarie maggiori conoscenze
-* Il corso supporta, ma non può fornire tutte le conoscenze necessarie
+* Nel radioamatore sono necessarie conoscenze matematiche di base
+* In particolare le quattro operazioni fondamentali e le proporzioni
+* A seconda della classe sono richieste conoscenze più approfondite
+* Il corso di formazione supporta, ma non può trasmettere tutte le conoscenze necessarie
+
 
 ---
 
 [question:NA101]
 
+
 ---
 
 [question:NA103]
+
 
 ---
 

@@ -1,27 +1,27 @@
-## Antenne eccitatrice in un riflettore parabolico
+## Antenne di eccitazione in un riflettore parabolico
 <left>
 [picture:850:a_parabolspiegel_schnitt:Sezione di un riflettore parabolico con antenna]
 </left>
 <right>
-* Le antenne eccitatrici sono posizionate in un punto davanti al riflettore parabolico
-* Le antenne a elica, che generano una polarizzazione circolare, sono particolarmente adatte per la gamma delle microonde
+* Le antenne di eccitazione vengono posizionate nel punto focale davanti al riflettore parabolico
+* Le antenne elicoidali, che generano una polarizzazione circolare, sono particolarmente adatte per la gamma delle microonde
 </right>
 
 ---
-## Tromba di emissione e guida d'onda
+## Antenna a tromba e guide d'onda
 <left>
-Seguirà un'immagine di una tromba di emissione
+Immagine di un'antenna a tromba in seguito
 </left>
 <right>
-* Le trombe di emissione possono essere alimentate da una guida d'onda
-* Nelle guide d'onda, ovvero tubi metallici, l'energia delle microonde viene condotta per riflessione sulle pareti esterne
+* Le antenne a tromba possono essere alimentate tramite una guida d'onda
+* Nelle guide d'onda, cioè tubi metallici, l'energia a microonde viene guidata tramite riflessione sulle pareti esterne
 </right>
 
 ---
-## Guida d'onda in dettaglio
+## Guide d'onda in dettaglio
 
-* Le guide d'onda conducono le microonde riflettendole sulle loro pareti metalliche esterne
-* In questo modo l'onda raggiunge una tromba, da cui viene irradiata o immessa nella guida d'onda
+* Le guide d'onda guidano le microonde riflettendole sulle loro pareti metalliche esterne
+* In questo modo l'onda viene indirizzata verso un'antenna a tromba, da cui viene irradiata o immessa nella guida d'onda
 
 ---
 [question:AG225]
@@ -30,83 +30,84 @@ Seguirà un'immagine di una tromba di emissione
 
 $g_i = 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}$
 
-* Calcolo con la formula nella raccolta di formule
-* Dipende dal diametro
+* Calcolo con la formula nella [raccolta di formule](#)
+* Dipendente dal diametro
 * Solitamente guadagno molto elevato
 
 ---
 [question:AG226]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 <left>
-* dato: $d = \qty{30}{\centi\meter}$
-* dato: $\eta_{eff} = 1$
+* dati: $d = \qty{30}{\centi\meter}$
+* dati: $\eta_{eff} = 1$
 </left>
 <right>
-* dato: $f = \qty{5,7}{\giga\hertz}$
-* cercato: $g_i$
+* dati: $f = \qty{5,7}{\giga\hertz}$
+* richiesto: $g_i$
 </right>
 
 <fragment>
 $\lambda = \frac{c}{f} = \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{5,7}{\giga\hertz}} = \qty{0,053}{\meter}$
 </fragment>
 <fragment>
-$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{0,3}{\meter}}{\qty{0,053}{\meter}}\right)^2 \cdot 1\right)} \unit{\dBi}\\ &= \qty{25,1}{\dBi}\end{split}$
+$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{0,3}{\meter}}{\qty{0,053}{\meter}}\right)^2 \cdot 1\right)} \unit{\dBi}\\n&= \qty{25,1}{\dBi}\end{split}$
 </fragment>
 ---
 [question:AG227]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 <left>
-* dato: $d = \qty{80}{\centi\meter}$
-* dato: $\eta_{eff} = 1$
+* dati: $d = \qty{80}{\centi\meter}$
+* dati: $\eta_{eff} = 1$
 </left>
 <right>
-* dato: $f = \qty{5,7}{\giga\hertz}$
-* cercato: $g_i$
+* dati: $f = \qty{5,7}{\giga\hertz}$
+* richiesto: $g_i$
 </right>
 
 <fragment>
 $\lambda = \frac{c}{f} = \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{5,7}{\giga\hertz}} = \qty{0,053}{\meter}$
 </fragment>
 <fragment>
-$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{0,8}{\meter}}{\qty{0,053}{\meter}}\right)^2 \cdot 1\right)}\unit{\dBi}\\ &= \qty{33,6}{\dBi}\end{split}$
+$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{0,8}{\meter}}{\qty{0,053}{\meter}}\right)^2 \cdot 1\right)} \unit{\dBi}\\n&= \qty{33,6}{\dBi}\end{split}$
 </fragment>
 ---
 [question:AG228]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 <left>
-* dato: $d = \qty{80}{\centi\meter}$
-* dato: $\eta_{eff} = 1$
+* dati: $d = \qty{80}{\centi\meter}$
+* dati: $\eta_{eff} = 1$
 </left>
 <right>
-* dato: $f = \qty{10,4}{\giga\hertz}$
-* cercato: $g_i$
+* dati: $f = \qty{10,4}{\giga\hertz}$
+* richiesto: $g_i$
 </right>
 
 <fragment>
 $\lambda = \frac{c}{f} = \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{10,4}{\giga\hertz}} = \qty{0,029}{\meter}$
 </fragment>
 <fragment>
-$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{0,8}{\meter}}{\qty{0,029}{\meter}}\right)^2 \cdot 1\right)}\unit{\dBi}\\ &= \qty{38,8}{\dBi}\end{split}$
+$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{0,8}{\meter}}{\qty{0,029}{\meter}}\right)^2 \cdot 1\right)} \unit{\dBi}\\
+&= \qty{38,8}{\dBi}\end{split}$
 </fragment>
 ---
 [question:AG229]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 <left>
-* dato: $d = \qty{120}{\centi\meter}$
-* dato: $\eta_{eff} = 1$
+* dati: $d = \qty{120}{\centi\meter}$
+* dati: $\eta_{eff} = 1$
 </left>
 <right>
-* dato: $f = \qty{10,4}{\giga\hertz}$
-* cercato: $g_i$
+* dati: $f = \qty{10,4}{\giga\hertz}$
+* richiesto: $g_i$
 </right>
 
 <fragment>
 $\lambda = \frac{c}{f} = \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{10,4}{\giga\hertz}} = \qty{0,029}{\meter}$
 </fragment>
 <fragment>
-$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{1,2}{\meter}}{\qty{0,029}{\meter}}\right)^2 \cdot 1\right)}\unit{\dBi}\\ &= \qty{42,3}{\dBi}\end{split}$
-</fragment>
+$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{1,2}{\meter}}{\qty{0,029}{\meter}}\right)^2 \cdot 1\right)} \unit{\dBi}\\
+&= \qty{42,3}{\dBi}\end{split}$

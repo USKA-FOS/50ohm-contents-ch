@@ -1,7 +1,7 @@
 ### Alimentatore
 
-* La fonte di tensione più importante per noi radioamatori è, oltre alle batterie, l'alimentatore. Viene alimentato dalla rete elettrica con una tensione alternata di $\qty{230}{\volt}$ e genera una tensione continua di $\qty{13,8}{\volt}$. Questo permette di alimentare apparecchi radio e accessori.
-* È importante che la tensione d’uscita rimanga costante sotto carico.
+* La sorgente di tensione più importante per noi radioamatori, oltre alle batterie, è l’alimentatore. Viene alimentato dalla rete elettrica a $\qty{230}{\volt}$ di tensione alternata e genera una tensione continua di $\qty{13,8}{\volt}$. In questo modo è possibile alimentare apparati radio e accessori.
+* È importante che la tensione d’uscita rimanga costante anche sotto carico.
 
 ---
 
@@ -11,7 +11,7 @@
 
 ### Sicurezza elettrica
 
-Con gli alimentatori, specialmente quelli con un involucro metallico, è importante un collegamento conforme alle norme alla rete elettrica. Il conduttore di protezione (verde/giallo) ha il compito, in caso di guasto, di scaricare la tensione verso "terra" e quindi di far scattare il fusibile domestico, in modo che nessuna tensione pericolosa sia presente sull'involucro metallico. In un cavo a 3 conduttori, i colori dei conduttori sono definiti come segue:
+Negli alimentatori, in particolare con un involucro metallico, è fondamentale un collegamento a norma alla rete elettrica. Il conduttore di protezione (verde/giallo) ha il compito di scaricare la tensione verso la *terra* in caso di guasto, in modo da far scattare l’interruttore di sicurezza di casa e impedire che una tensione pericolosa si presenti sull’involucro metallico. In un cavo a 3 conduttori i colori di identificazione dei conduttori sono definiti come segue:
 
 ---
 ### Colori dei conduttori
@@ -22,10 +22,10 @@ Con gli alimentatori, specialmente quelli con un involucro metallico, è importa
 * Conduttore di protezione (PE) $\rightarrow$ verde/giallo
 </left>
 <right>
-[picture:791:e_NYM_Aderfarben:Colori dei conduttori di un cavo a 3 conduttori]
+[picture:791:e_NYM_Aderfarben:Colori di identificazione dei conduttori di un cavo a 3 conduttori]
 </right>
 <note>
-Non fare affidamento su questo, ma misurare!
+Non fidarsi, ma misurare!
 </note>
 
 ---

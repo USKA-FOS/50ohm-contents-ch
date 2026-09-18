@@ -1,11 +1,11 @@
 ### TDMA
 <left>
-* Time Division Multiple Access – Accesso multiplo a divisione di tempo
-* I dati utente digitali vengono separati e trasmessi in sequenza sulla stessa Frequenza
-* Il flusso di dati viene ricomposto sul ricevitore
+* Time Division Multiple Access – *multiplazione a divisione di tempo*
+* I dati digitali utili vengono separati e inviati uno dopo l’altro sulla stessa frequenza
+* Al ricevitore il flusso di dati viene ricomposto
 </left>
 <right>
-[picture:844:e_vielfachzugriff_tdma:Accesso multiplo a divisione di tempo con tre segnali]
+[picture:844:e_vielfachzugriff_tdma:Multiplazione a divisione di tempo con tre segnali]
 </right>
 
 ---
@@ -13,30 +13,28 @@
 ---
 ### CDMA
 <left>
-* Code Division Multiple Access – Accesso multiplo a divisione di codice
-* I dati utente digitali vengono codificati (mescolati) con un codice digitale
-* Sul ricevitore viene utilizzato lo stesso codice digitale per decodificare
+* Code Division Multiple Access – *tecnica di multiplazione a codice*
+* I dati digitali utili vengono codificati (mischiati) con un codice digitale
+* Al ricevitore viene utilizzato lo stesso codice digitale per la decodifica
 </left>
 <right>
-[picture:846:e_vielfachzugriff_cdma:Accesso multiplo a divisione di codice con tre segnali]
+[picture:846:e_vielfachzugriff_cdma:Tecnica di multiplazione a codice con tre segnali]
 </right>
 <note>
-* È possibile trasmettere più segnali sulla stessa Frequenza 
+* Più segnali possono essere trasmessi sulla stessa frequenza
 </note>
 ---
 [question:EE411]
 ---
 ### FDMA
 <left>
-* Frequency Division Multiple Access – Accesso multiplo a divisione di frequenza
-* Il segnale digitale viene suddiviso in più Frequenze
-* Ciò consente di utilizzare una maggiore Larghezza di banda
+* Frequency Division Multiple Access – *tecnica di multiplazione di frequenza*
+* Il segnale digitale viene suddiviso su più frequenze
+* In questo modo è possibile utilizzare una larghezza di banda maggiore
 </left>
 <right>
-[picture:845:e_vielfachzugriff_cdma:Accesso multiplo a divisione di frequenza con tre segnali]
+[picture:845:e_vielfachzugriff_cdma:Tecnica di multiplazione di frequenza con tre segnali]
 </right>
 
 ---
 [question:EE410]
-
-

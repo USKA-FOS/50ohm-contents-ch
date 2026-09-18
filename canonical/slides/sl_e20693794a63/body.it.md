@@ -1,13 +1,14 @@
-* L'alimentatore presentato nel capitolo precedente ha lo svantaggio di un peso elevato dovuto al trasformatore e di un basso rendimento a causa delle perdite nel mantenimento costante della tensione d’uscita.
-* Gli alimentatori switching aumentano la tensione d’ingresso a una frequenza più elevata, consentendo l'uso di trasformatori più piccoli e offrono modi più efficienti per mantenere costante la tensione d’uscita.
+* L’alimentatore presentato nel capitolo precedente presenta lo svantaggio di un peso elevato a causa del trasformatore e di un rendimento scarso a causa delle perdite nel mantenimento costante della tensione d’uscita.
+* Gli alimentatori a commutazione portano la tensione d’ingresso a una frequenza più elevata, consentendo l’uso di trasformatori più piccoli e offrendo metodi più efficienti per mantenere costante la tensione d’uscita.
 
 ---
 
-Maggiori dettagli anche qui nel corso di Classe A, ci concentriamo sulle proprietà positive:
+Dettagli disponibili anche nel corso di classe A, ma ci concentriamo sulle proprietà positive:
 
-* *Alto rendimento*
-* *Basso peso*
-* *Basso volume*
+* *Rendimento elevato*
+* *Peso ridotto*
+* *Volume ridotto*
+
 
 ---
 
@@ -15,10 +16,11 @@ Maggiori dettagli anche qui nel corso di Classe A, ci concentriamo sulle proprie
 
 ---
 
-Ma: Dove c'è luce, c'è anche ombra.
+Ma: dove c’è luce, c’è anche ombra.
 
-* A causa delle alte frequenze, possono verificarsi *disturbi ad alta frequenza*, che disturbano in particolare nella gamma delle onde corte.
-* Per gli alimentatori progettati per il radioamatore, questo non è più un problema, mentre lo è per gli alimentatori nell'elettronica di consumo.
+
+* Con le alte frequenze possono verificarsi *disturbi ad alta frequenza*, che disturbano soprattutto nella gamma delle onde corte.
+* Nei dispositivi di alimentazione progettati per il radioamatoriale questo non è più un problema, mentre lo può essere in quelli dell’elettronica di consumo.
 
 ---
 

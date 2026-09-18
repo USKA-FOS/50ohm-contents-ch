@@ -1,14 +1,38 @@
-A seconda di quanto forte viene impressa una modulazione a una portante AM, la sua ampiezza massima viene influenzata in modo corrispondentemente più forte o più debole. Senza modulazione, viene trasmesso solo il segnale RF della portante con ampiezza costante. Con l'inizio della modulazione, la portante RF viene influenzata sempre più fortemente in positivo e in negativo. Il rapporto tra la modulante BF (inviluppo BF) e la portante RF determina qui il *grado di modulazione*.
-Il grado di modulazione massimo possibile ($m=1$ o $\qty{100}{\percent}$) viene raggiunto quando la portante RF viene pilotata in modo non distorto (lineare) dalla BF modulante tra il suo valore massimo possibile e zero (completamente soppressa). Non appena il grado di modulazione diventa maggiore di $m=1$ o $\qty{100}{\percent}$, si verificano distorsioni, che possono essere causate dalla soppressione temporaneamente completa dell'ampiezza della portante.
-Per evitare distorsioni e quindi splatter di banda laterale nella modulazione AM, il grado di modulazione del segnale AM non deve superare il $\qty{100}{\percent}$.
+Più forte è la modulazione di una portante AM, più la sua ampiezza varia nel tempo. Senza modulazione, viene trasmessa solo la portante HF con ampiezza costante (cfr. figura [ref:modulationsgrad_0]). Con una modulazione crescente, l'ampiezza della portante HF segue sempre più il segnale BF modulante, dando origine all'inviluppo tipico (cfr. figura [ref:modulationsgrad_10]).
 
-Il grado di modulazione si calcola secondo la seguente formula (trovata nella raccolta di formule):
-
-$m = \frac{\hat{U}_{mod}}{\hat{U}_{T}}$
-
-%TODO: Inserire immagine relativa al grado di modulazione e alla misurazione delle corrispondenti grandezze di calcolo
+Il rapporto tra l'ampiezza del segnale BF modulante e l'ampiezza della portante non modulata determina il *grado di modulazione* $m$. Con un grado di modulazione di $m=1$ o $\qty{100}{\percent}$, la portante viene completamente pilotata. L'inviluppo oscilla allora tra zero e il doppio del valore dell'ampiezza della portante non modulata (cfr. figura [ref:modulationsgrad_100]).
 
 [question:AE201]
-[question:AE202]
-[question:AE203]
+
+<margin>
+[picture:27:modulationsgrad_0:Grado di modulazione di $\qty{0}{\percent}$ di un segnale AM]
+[picture:26:modulationsgrad_10:Grado di modulazione di $\qty{10}{\percent}$ di un segnale AM]
+[picture:24:modulationsgrad_100:Grado di modulazione di $\qty{100}{\percent}$ di un segnale AM]
+</margin>
+
+---
+
+Non appena il grado di modulazione supera $m=1$ o $\qty{100}{\percent}$ (cfr. figura [ref:modulationsgrad_1000]), si parla di *sovramodulazione*. L'inviluppo non raggiunge solo il valore zero, ma matematicamente cambierebbe anche la sua polarità. Di conseguenza, il segnale non può più essere riprodotto senza distorsioni con un demodulatore ad inviluppo convenzionale.
+
+Nei trasmettitori reali, la sovramodulazione può inoltre portare a una limitazione e quindi a componenti spettrali indesiderate aggiuntive, chiamate *splatter della banda laterale*. Per evitarlo, il grado di modulazione nell'AM convenzionale non deve superare $\qty{100}{\percent}$.
+
+<margin>
+[picture:28:modulationsgrad_1000:Grado di modulazione di $> \qty{100}{\percent}$ (sovramodulazione) di un segnale AM]
+</margin>
+
 [question:AE204]
+[question:AE203]
+
+---
+
+Il grado di modulazione si calcola con la seguente formula (incl. figura [ref:modulationsgrad] nella raccolta di formule):
+
+$m = \frac{\hat{U}_\mathrm{mod}}{\hat{U}_\mathrm{T}}$
+
+<margin>
+[picture:328:modulationsgrad:Grado di modulazione di un segnale AM]
+</margin>
+
+Prova ora a leggere i valori nel seguente esercizio e a calcolare il grado di modulazione $m$:
+
+[question:AE202]

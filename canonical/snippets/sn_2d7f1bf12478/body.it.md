@@ -1,1 +1,1 @@
-Estratto Tecnica digitale (Ingresso e Uscita)
+Estratto di elettronica digitale (E e U)

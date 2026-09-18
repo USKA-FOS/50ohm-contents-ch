@@ -1,30 +1,31 @@
 <left>
-[picture:482:n_seitenband:Modulazione di ampiezza, portante con banda laterale inferiore (a) e superiore (b)]
+[picture:482:n_seitenband_2:Modulazione di ampiezza, portante con banda laterale inferiore (a) e superiore (b)]
 </left>
 <right>
-* Nella modulazione di ampiezza, oltre alla portante, ci sono due bande laterali $\rightarrow$ banda laterale inferiore o superiore
+* Nella **modulazione di ampiezza** oltre alla portante vengono trasmessi due **bande laterali** → banda laterale inferiore e banda laterale superiore
 * "lower sideband" (*LSB*) e "upper sideband" (*USB*)
 * La portante stessa non contiene alcuna informazione
 </right>
 <note>
-* La portante stessa non contiene alcuna informazione e l'informazione del segnale di modulazione viene trasmessa in entrambe le bande laterali.
+* La portante stessa non contiene alcuna informazione e l’informazione del segnale di modulazione viene trasmessa nelle bande laterali.
 </note>
+
 ---
 
 <left>
-* Pertanto, è sufficiente trasmettere solo una banda laterale e rinunciare alla portante e all'altra banda laterale
-* La potenza di trasmissione totale viene utilizzata per la trasmissione dell'informazione
+* È quindi sufficiente trasmettere solo una banda laterale e rinunciare alla portante e all’altra banda laterale
+* L’intera potenza di trasmissione viene utilizzata per la trasmissione dell’informazione
 * La larghezza di banda occupata corrisponde alla larghezza di banda del segnale modulato
 </left>
 <right>
-[picture:743:n_seitenband:Bande laterali in AM, LSB e USB a confronto]
-*Modulazione a banda laterale unica* ovvero *single-sideband (SSB)*
+[picture:743:n_seitenband_3:Bande laterali in AM, confronto tra LSB e USB]
+*Modulazione a banda laterale unica* o *single-sideband (SSB)*
 </right>
 
---- 
+---
 USB sta per *Upper Sideband*
 
-(in tedesco viene spesso confuso con banda laterale inferiore)
+(in tedesco viene spesso confuso con "banda laterale inferiore")
 
 ---
 [question:NE203]

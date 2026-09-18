@@ -1,24 +1,28 @@
-### Tariffe e contributi
+### Tasse e contributi
 
-* Al momento del rilascio dell'autorizzazione alla partecipazione al servizio radioamatoriale e dell'assegnazione di un nominativo personale, devono essere pagate tariffe secondo il "Regolamento speciale sulle tariffe BNetzA (BNetzABGebV)".
-
-* I radioamatori autorizzati devono pagare contributi annuali per la protezione delle frequenze secondo il TKG e l'EMVG.
-
----
-
-* Se non paga le tariffe e i contributi dovuti, dovrà fare i conti con misure secondo le disposizioni della legge sull'esecuzione amministrativa (VwVG).
+* Secondo il TKG e l’EMVG, i radioamatori devono pagare contributi annuali
+* I dettagli sono stabiliti dal regolamento sui contributi per la protezione delle frequenze (FSBeitrV)
+* La FSBeitrV limita il pagamento ai radioamatori con autorizzazione
+* La richiesta di pagamento viene ricevuta tramite avviso di tassa dalla Bundesnetzagentur
 
 ---
 [question:VE701]
 
 ---
-
 [question:VE702]
 
 ---
 
-[question:VE703]
+* Oltre ai contributi correnti, sono previste altre tasse, regolamentate dalla "Disposizione speciale sulle tasse della Bundesnetzagentur (BNetzABGebV)"
+* Tra queste, ad esempio, le tasse per l’esame di radioamatore e per il rilascio dell’autorizzazione
 
 ---
 
+* Se una tassa non viene pagata, lo Stato la riscuote secondo la legge di esecuzione amministrativa (VwVG)
+* La Bundesnetzagentur dispone di diverse possibilità di esecuzione
+
+---
+[question:VE703]
+
+---
 [question:VE704]

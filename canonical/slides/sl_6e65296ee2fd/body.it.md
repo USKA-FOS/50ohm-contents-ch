@@ -1,25 +1,25 @@
 <left>
-[picture:905:a_amplitudenmodulation:Amplitudenmoduliertes Signal mit zwei Tönen]
+[picture:905:a_amplitudenmodulation:Segnale AM con due toni]
 </left>
 <right>
 * Senza modulazione, in AM viene trasmesso solo il segnale portante con ampiezza costante
-* La modulazione influenza il segnale
-* Si creano oscillazioni più forti nelle aree positive e negative
+* La modulazione modifica il segnale
+* Si generano escursioni più ampie sia nel campo positivo che in quello negativo
 </right>
 
 ---
 ### Grado di modulazione
 
 <left>
-[picture:24:a_amplitudenmodulation_modulationsgrad1:Amplitudensignal bei einem Modulationsgrad von $\qty{100}{\percent}$]
+[picture:24:a_amplitudenmodulation_modulationsgrad1:Segnale di ampiezza con un grado di modulazione di $\qty{100}{\percent}$]
 <fragment>
-$m = \frac{\hat{U}_{mod}}{\hat{U}_{T}}$
+$m = \frac{\hat{U}_{BF}}{\hat{U}_{portante}}$
 </fragment>
 </left>
 <right>
-* Rapporto tra la busta NF modulata e la portante HF
-* Il massimo possibile è $m=1$ o $\qty{100}{\percent}$
-* Il segnale oscilla tra la portante e il valore massimo possibile
+* Rapporto tra l’inviluppo BF modulato e il portante HF
+* Il valore massimo possibile è $m=1$ o $\qty{100}{\percent}$
+* Il segnale oscilla tra il valore del portante e il valore massimo possibile
 </right>
 
 ---
@@ -27,27 +27,27 @@ $m = \frac{\hat{U}_{mod}}{\hat{U}_{T}}$
 ---
 [question:AE202]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 
-Da leggere dal grafico:
-* dato: $\hat{U}_{mod} = \qty{1}{\oszidiv} = \qty{3}{\volt}$
-* dato: ${\hat{U}_{T}} = \qty{2}{\oszidiv} = \qty{6}{\volt}$
+Dalla lettura del grafico:
+* dato: $\hat{U}_{BF} = \qty{1}{\div} = \qty{3}{\volt}$
+* dato: ${\hat{U}_{portante}} = \qty{2}{\div} = \qty{6}{\volt}$
 * cercato: $m$
 
 <fragment>
-$m = \frac{\hat{U}_{mod}}{\hat{U}_{T}} = \frac{\qty{3}{\volt}}{\qty{6}{\volt}} = 0,5 = \qty{50}{\percent}$
+$m = \frac{\hat{U}_{BF}}{\hat{U}_{portante}} = \frac{\qty{3}{\volt}}{\qty{6}{\volt}} = 0,5 = \qty{50}{\percent}$
 </fragment>
 
 ---
 ### Sovramodulazione
 
 <left>
-[picture:28:a_amplitudenmodulation_modulationsgrad2:Amplitudensignal bei einem Modulationsgrad von mehr als $\qty{100}{\percent}$]
+[picture:28:a_amplitudenmodulation_modulationsgrad2:Segnale di ampiezza con un grado di modulazione superiore a $\qty{100}{\percent}$]
 </left>
 <right>
-* Con $m > 1$
+* Quando $m > 1$
 * Provoca la soppressione temporanea o completa del segnale portante
-* Porta a distorsioni e splatter di banda laterale
+* Causa distorsioni e splatter della banda laterale
 </right>
 
 ---

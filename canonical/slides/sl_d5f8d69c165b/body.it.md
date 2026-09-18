@@ -1,10 +1,10 @@
-## Antenna di eccitazione e specchio offset
+## Antenna di eccitazione e riflettore offset
 
-* Lo specchio parabolico focalizza l'onda davanti allo specchio
+* Il riflettore parabolico concentra l'onda davanti allo specchio
 * L'antenna di eccitazione è posizionata nel percorso del fascio
-* Parziale ombreggiatura dell'onda
-* *Specchio offset*: antenna di eccitazione al di fuori del percorso del fascio
-* Di solito sotto, il paraboloide viene adattato
+* Parziale ostruzione dell'onda
+* *Riflettore offset*: antenna di eccitazione al di fuori del percorso del fascio
+* Generalmente posizionata sotto, il paraboloide viene adattato
 
 ---
 [question:AG127]

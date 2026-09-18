@@ -1,27 +1,31 @@
-Un altro modo per sopprimere le onde di modo comune è utilizzare una linea di ritardo di $\lambda / 2$.
+Un ulteriore metodo per la [soppressione](#) delle [correnti sulla calza](#) consiste nell’utilizzare una [linea di deviazione](#) da $\lambda / 2$.
 
 [question:AG420]
 
-Come funziona una tale linea di ritardo, sarà spiegato di seguito.
+<margin>
+[picture:562:e_umwegleitung:Linea di deviazione]
+</margin>
 
-Un'antenna simmetrica richiede una tensione RF rispetto a terra su entrambi i punti di connessione. Le tensioni devono essere uguali in magnitudine, ma con segno opposto, cioè sfasate di $\qty{180}{\degree}$.
+Di seguito viene spiegato il funzionamento di una simile linea di deviazione.
 
-Una tale sfasatura può essere ottenuta tramite una linea di ritardo di $\lambda / 2$. Ad esempio, si possono collegare *entrambi* i punti di connessione di un dipolo ripiegato al conduttore interno, dove un punto di connessione viene collegato dopo una linea di ritardo che produce uno sfasamento di $\qty{180}{\degree}$.
+Un’[antenna](#) simmetrica necessita, in entrambi i punti di connessione, di una tensione RF rispetto alla [terra](#). Le tensioni devono avere lo stesso valore assoluto, ma con segno opposto, quindi sfasate di $\qty{180}{\degree}$.
 
-Lo schermo del cavo coassiale avrà quindi un potenziale di terra e non si formeranno onde di modo comune.
+Un simile sfasamento può essere ottenuto tramite una linea di deviazione da $\lambda / 2$. Ad esempio, è possibile collegare *entrambi* i punti di connessione di un dipolo ripiegato al conduttore interno, collegando uno dei due punti tramite una linea di deviazione che introduce uno sfasamento di $\qty{180}{\degree}$.
 
-Tuttavia, bisogna prestare attenzione alle impedenze. Sebbene la linea di ritardo non trasformi direttamente l'impedenza, il collegamento di un'antenna in questo modo provoca comunque una trasformazione dell'impedenza. L'antenna deve avere un'impedenza quattro volte superiore a quella del cavo coassiale affinché vi sia adattamento. La causa è che ogni punto di connessione dell'antenna rispetto a terra ha solo la metà della resistenza, ma entrambi i punti di connessione sono collegati in parallelo, cioè entrambi al conduttore interno.
+La calza del [cavo coassiale](#) si trova quindi al potenziale di terra e non si generano [correnti sulla calza](#).
+
+Tuttavia, occorre prestare attenzione alle [impedenze](#). Sebbene la linea di deviazione non trasformi direttamente l’impedenza, il collegamento di un’antenna in questo modo comporta comunque una trasformazione dell’impedenza. L’antenna deve presentare un’impedenza quattro volte superiore rispetto al cavo coassiale per garantire l’[adattamento](#). La causa di ciò risiede nel fatto che ogni punto di connessione dell’antenna rispetto alla terra presenta solo metà della [resistenza](#), ma entrambi i punti di connessione sono collegati in parallelo, cioè entrambi al conduttore interno.
 
 ---
 
 <tip>
-Per le due domande successive sulla linea di ritardo, è sufficiente *ricordare* che l'antenna rappresentata è un dipolo ripiegato e che una linea di ritardo di $\lambda/2$ produce uno sfasamento di $\qty{180}{\degree}$.
+Per le due domande successive sulla linea di deviazione, è sufficiente ricordare che l’antenna rappresentata è un dipolo ripiegato e che una linea di deviazione da $\lambda/2$ introduce uno sfasamento di $\qty{180}{\degree}$.
 </tip>
 
 [question:AG423]
 
 <indepth>
-Il *collegamento dello schermo del cavo coassiale* al centro del dipolo ripiegato è opzionale e spesso ha ragioni meccaniche (ad esempio, in questo modo il dipolo ripiegato può essere collegato conduttivamente a un supporto metallico messo a terra).
+Il *collegamento della calza del coassiale* al punto centrale del dipolo ripiegato è opzionale e spesso ha motivazioni meccaniche (ad esempio, in questo modo il dipolo ripiegato può essere collegato elettricamente a un supporto metallico messo a terra).
 </indepth>
 
 ---
@@ -29,5 +33,5 @@ Il *collegamento dello schermo del cavo coassiale* al centro del dipolo ripiegat
 [question:AG424]
 
 <attention>
-Sebbene la combinazione risulti in una trasformazione di impedenza 1:4, non viene effettuata alcuna trasformazione di impedenza nella linea di ritardo stessa.
+Sebbene il circuito complessivo realizzi una trasformazione di impedenza 1:4, la linea di deviazione stessa non effettua alcuna trasformazione dell’impedenza.
 </attention>

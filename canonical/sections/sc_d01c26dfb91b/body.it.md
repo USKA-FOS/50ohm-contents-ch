@@ -1,36 +1,37 @@
+Immaginiamo di essere un neofita radioamatore e di voler stabilire un collegamento DX con una stazione radioamatoriale situata su un altro continente. Questo collegamento sarà possibile solo se le stazioni nelle diverse regioni del mondo utilizzano le stesse bande di frequenza. Fortunatamente, esistono accordi internazionali a questo scopo.
 
-Immaginate di essere un nuovo radioamatore e di cercare un collegamento DX con una stazione radioamatoriale in un altro continente. Allora questo collegamento può avvenire solo se le stazioni nelle diverse regioni del mondo possono utilizzare le stesse frequenze. Fortunatamente, esistono accordi internazionali per questo.
+Tra le più importanti convenzioni che regolano a livello internazionale il servizio di radioamatore, ma anche altri servizi di radiocomunicazione, vi sono il trattato internazionale delle telecomunicazioni, il cosiddetto regolamento delle radiocomunicazioni (RR), approvato nell'ambito dell'Unione Internazionale delle Telecomunicazioni (ITU), nonché le raccomandazioni della Conferenza Europea delle Amministrazioni delle Poste e delle Telecomunicazioni (CEPT).
 
-Tra gli accordi più importanti che regolano a livello internazionale il radioamatore, ma anche altri servizi radio, figurano il trattato internazionale delle telecomunicazioni, i cosiddetti Radio Regulations (RR), che vengono decisi nell'ambito dell'Unione Internazionale delle Telecomunicazioni (ITU), nonché le raccomandazioni della Conferenza Europea delle Amministrazioni delle Poste e delle Telecomunicazioni (CEPT).
+Queste convenzioni internazionali si applicano agli Stati membri di queste organizzazioni. Vengono recepite nelle leggi e nei regolamenti nazionali. Pertanto, queste convenzioni non si applicano direttamente ai radioamatori, ma solo attraverso la loro attuazione nelle leggi e nei regolamenti nazionali del paese in cui ci si trova.
 
-Questi accordi internazionali si applicano agli stati membri di queste organizzazioni. Vengono trasferiti in leggi e ordinanze nazionali. Pertanto, questi accordi non si applicano direttamente ai radioamatori, ma solo alla loro attuazione nelle leggi e ordinanze nazionali del paese in cui ci si trova.
-
-<margin>
-[photo:3:n_gesetze_vorschriften_backstein:Mattone dell'azione "Backstein" del 1949]
-</margin>
-  
----
-
-La base giuridica tedesca per il radioamatore è la legge sul radioamatore (Amateurfunkgesetz - AFuG). I dettagli si trovano nell'ordinanza sul radioamatore (Amateurfunkverordnung - AFuV) nonché nelle disposizioni o comunicazioni dell'Agenzia federale delle reti (Bundesnetzagentur). Oltre al diritto specifico del radioamatore, esistono altre normative che riguardano il radioamatore, tra gli altri settori. Esempi sono la marcatura CE o il segreto delle telecomunicazioni.
-
-<indepth>
-Il 15 marzo 1949, la prima legge sul radioamatore entrò in vigore prima ancora della Legge fondamentale della Repubblica Federale di Germania. Fu preceduta dalla leggendaria *"Azione Mattone"* (Backsteinaktion): quando l'approvazione della legge minacciava di ritardarsi, i radioamatori inviarono nel gennaio 1949 pacchi con mattoni a Dr. Plünder, presidente del Consiglio economico. Ogni pacco conteneva una lettera di protesta che formulava "che ci si lamentava della lenta trattazione della questione".
-</indepth>
-
-I radioamatori possono essere orgogliosi del fatto che il radioamatore sia parte integrante del più importante trattato internazionale delle telecomunicazioni, i Radio Regulations (RR). Le sue regole generali si applicano a tutti i servizi radio, quindi anche al radioamatore. 
-
+I radioamatori possono essere orgogliosi del fatto che il radioamatoriale sia parte integrante del più importante trattato internazionale delle telecomunicazioni, il regolamento delle radiocomunicazioni (RR). Le sue regole generali si applicano a tutti i servizi di radiocomunicazione, quindi anche al servizio di radioamatore.
 [question:VA301]
 
-Mentre l'ITU tratta le questioni fondamentali relative al radioamatore a livello mondiale con i RR, la CEPT coordina gli standard in Europa. Ha elaborato raccomandazioni sul contenuto dell'esame di radioamatore e sul riconoscimento reciproco dei certificati di radioamatore. Inoltre, esistono regole per i diritti di esercizio del radioamatore durante un soggiorno di breve durata in altri paesi membri. Abbiamo già trattato questo argomento in dettaglio in relazione al traffico radio internazionale.
+Mentre l'ITU con il RR affronta a livello mondiale le questioni fondamentali relative al radioamatoriale, la CEPT coordina gli standard in Europa. Essa ha elaborato raccomandazioni relative al contenuto dell'esame per radioamatori e al riconoscimento reciproco dei certificati di radioamatore. Inoltre, esistono regole per i diritti operativi durante una breve permanenza in altri paesi membri. Questo argomento è già stato trattato dettagliatamente nel contesto del traffico radio internazionale (capitolo 5).
 
-Abbiamo già appreso che le regole nei RR o le raccomandazioni della CEPT non sono diritto immediatamente applicabile nella Repubblica Federale di Germania. Tuttavia, le normative di questi accordi internazionali sono state prese in considerazione nella legge sul radioamatore. La legge sul radioamatore, che in realtà si chiama *legge sul servizio radioamatoriale*, costituisce la base giuridica per il radioamatore in Germania. 
-[question:VC101]
+Abbiamo già appreso che le regole del RR o le raccomandazioni della CEPT non costituiscono un diritto direttamente applicabile in Svizzera. Tuttavia, le disposizioni di queste convenzioni internazionali sono state prese in considerazione nelle leggi interessate.
+
+Il radioamatoriale in Svizzera non è regolamentato da una singola legge. La base giuridica che disciplina i requisiti e le condizioni per la partecipazione al servizio di radioamatore in Svizzera è costituita da diverse leggi e ordinanze. La base principale è rappresentata dalla *legge sulle telecomunicazioni (LTC)*, dalla *ordinanza sulla utilizzazione dello spettro delle radiofrequenze (OUSR)* e dalla *ordinanza dell'UFCOM sulla utilizzazione dello spettro delle radiofrequenze (OUUSR)*.
+
+---
+<law>
+[legge sulle telecomunicazioni LTC](https://www.fedlex.admin.ch/eli/cc/1997/2187_2187_2187/it)
+
+[ordinanza sulla utilizzazione dello spettro delle radiofrequenze OUSR](https://www.fedlex.admin.ch/eli/cc/2020/1024/it)
+
+[ordinanza dell'UFCOM sulla utilizzazione dello spettro delle radiofrequenze OUUSR](https://www.fedlex.admin.ch/eli/cc/2020/914/it)
+</law>
 [question:VU001]
+[question:VC101]
+Ulteriori dettagli e spiegazioni sono disponibili nelle comunicazioni e nelle schede informative, nonché sul sito web dell'UFCOM.
+Esistono inoltre altre norme in altre leggi che riguardano anche il radioamatoriale. È il caso, ad esempio, dell'*ordinanza sulla protezione dalle radiazioni non ionizzanti (ORNI)*.
 
-Nel 1997, il Bundestag tedesco ha approvato l'attuale legge sul radioamatore (AFuG). L'attuale ordinanza sul radioamatore (AFuV) è stata promulgata dal Ministro federale per il digitale e i trasporti. I compiti e le competenze derivanti dall'AFuG e dall'AFuV sono svolti dall'Agenzia federale delle reti (BNetzA). 
+
+
+
+%YPA an EXR: Perché non abbiamo adattato VC104?
 
 [question:VC104]
-
-La legge sul radioamatore regola fondamentalmente il servizio radioamatoriale. Tuttavia, altre leggi contengono ulteriori regole, alcune delle quali riguardano anche il radioamatore. Questo è il caso, ad esempio, della *legge sulle telecomunicazioni (TKG)*. 
-
-[question:VE101]
+Le competenze e i poteri derivanti dalla legge sul radioamatoriale (LRa) e dal regolamento sul radioamatoriale (RRa) sono esercitati dall'Agenzia federale delle reti (BNetzA).
+L'Ufficio federale delle comunicazioni (UFCOM) si occupa delle questioni relative al radioamatoriale.
+% mantenere il testo originale come confronto. La frase non mi convince ancora. Ho evitato di scrivere "tutte le questioni" perché l'ORNI non è di competenza dell'UFCOM.

@@ -1,7 +1,7 @@
-Un resistore ideale (reattanza capacitiva o reattanza induttiva) non ha perdite di calore.
+Una <i>reattanza</i> ideale (capacitiva o induttiva) non presenta perdite per effetto Joule.
 
-Motivazione: In un resistore puramente reattivo, corrente e tensione sono sfasate di $\qty{90}{\degree}$. Ciò significa che la potenza istantanea è alternativamente positiva e negativa, e il valore medio su un periodo è zero. Pertanto, non viene convertita potenza attiva e di conseguenza non viene generato calore.
+Spiegazione: In una pura <i>reattanza</i>, corrente e tensione sono sfasate di <i>90°</i>. Di conseguenza, la potenza istantanea è alternativamente positiva e negativa e il valore medio su un periodo è zero. Non viene quindi dissipata potenza attiva e di conseguenza non viene generato calore.
 
-[picture:943:a_blindleistung_kondensator:Sfasamento nel condensatore tra tensione e corrente]
+[picture:943:a_blindleistung_kondensator: Sfasamento tra tensione e corrente in un condensatore]
 
-La risposta corretta è quindi: *Il resistore*.
+La risposta corretta è quindi: *La reattanza*

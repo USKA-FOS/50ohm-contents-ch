@@ -1,22 +1,22 @@
-## Operazioni radioamatoriali per la formazione
+## Attività radio di addestramento
 
-Per scopi formativi, esiste l'eccezione che anche i non radioamatori possono trasmettere sulle frequenze radioamatoriali.
+Esiste un’eccezione che consente anche ai non radioamatori di trasmettere sulle frequenze radioamatoriali, a scopo di formazione.
 
-Sotto la guida e la supervisione immediata di un radioamatore autorizzato di classe E o A.
+Tuttavia, ciò avviene sotto la diretta guida e supervisione di un radioamatore autorizzato di classe E o A.
 
 ---
 [question:VD303]
 
 ---
 
-### Gestione delle operazioni radioamatoriali per la formazione
+### Svolgimento dell’attività radio di addestramento
 
-* L'apprendista utilizza il nominativo dell'istruttore e aggiunge il suffisso "/T": DG2RON/T
+* L’allievo utilizza il nominativo del formatore aggiungendo il suffisso "/T": DG2RON/T
 * La T viene pronunciata come "Trainee"
-* Completo: "DG2RON Trainee"
+* Completamente: "DG2RON Trainee"
 
 <note>
-* Pronunciato: DG2RON Trainee
+* Pronuncia: DG2RON Trainee
 </note>
 
 ---

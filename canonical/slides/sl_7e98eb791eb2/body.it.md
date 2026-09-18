@@ -1,7 +1,7 @@
 <left>
-* L'onda spaziale raggiunge nuovamente il ricevitore nell'area dell'onda di terra.
-* A causa della sovrapposizione delle onde, l'onda spaziale e l'onda di terra possono attenuarsi a vicenda.
-* Il segnale perde forza $\rightarrow$ *Fading*.
+* L'<i>Raumwelle</i> raggiunge il ricevitore ancora nell'area dell'<i>Bodenwelle</i>
+* A causa della sovrapposizione delle onde, la <i>Raumwelle</i> e la <i>Bodenwelle</i> possono attenuarsi reciprocamente
+* Il segnale perde intensità → *Fading*
 </left>
 <right>
 [include:fading_applet]

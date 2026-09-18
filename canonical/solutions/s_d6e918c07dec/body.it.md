@@ -1,4 +1,4 @@
-Poiché tutte le resistenze sono uguali, vale:
+Poiché tutte le resistenze sono di uguale valore, vale:
 
 $ R_1 = R_2 = R_3 = \qty{10}{\kilo\ohm} $
 
@@ -6,7 +6,7 @@ Attraverso $R_3$ scorre una corrente di:
 
 $ I_{R_3} = \qty{1}{\milli\ampere} $
 
-Poiché $R_2$ e $R_3$ sono collegate in parallelo e hanno la stessa resistenza, attraverso $R_2$ scorre anch'essa:
+Poiché $R_2$ e $R_3$ sono collegate in parallelo e hanno la stessa resistenza, anche attraverso $R_2$ scorre:
 
 $ I_{R_2} = \qty{1}{\milli\ampere} $
 
@@ -14,10 +14,9 @@ La corrente attraverso $R_1$ è la somma delle due correnti parziali:
 
 $ I_{R_1} = I_{R_2} + I_{R_3} = \qty{1}{\milli\ampere} + \qty{1}{\milli\ampere} = \qty{2}{\milli\ampere} $
 
-Ora viene calcolata prima la resistenza equivalente del collegamento in parallelo di $R_2$ e $R_3$:
+Ora si calcola prima la resistenza equivalente del collegamento in parallelo tra $R_2$ e $R_3$:
 
-$ R_{23} = \frac{R_2 \cdot R_3}{R_2 + R_3} = \frac{\qty{10}{\kilo\ohm} \cdot \qty{10}{\kilo\ohm}}
-{\qty{10}{\kilo\ohm} + \qty{10}{\kilo\ohm}} = \qty{5}{\kilo\ohm} $
+$ R_{23} = \frac{R_2 \cdot R_3}{R_2 + R_3} = \frac{\qty{10}{\kilo\ohm} \cdot \qty{10}{\kilo\ohm}}{\qty{10}{\kilo\ohm} + \qty{10}{\kilo\ohm}} = \qty{5}{\kilo\ohm} $
 
 La resistenza totale del circuito è quindi:
 

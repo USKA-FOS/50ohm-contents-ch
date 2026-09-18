@@ -1,6 +1,6 @@
-La tensione di gate è determinata dal partitore di tensione composto da $R_1$ e $R_2$.
+La [tensione](#Spannung) di gate è determinata dal [partitore di tensione](#Spannungsteiler) costituito da $R_1$ e $R_2$.
 
-Dato che il gate di un FET non assorbe corrente, vale:
+Poiché il gate di un FET non assorbe [corrente](#Strom), vale:
 
 $ U_\mathrm{GS} = U_B \cdot \frac{R_2}{R_1 + R_2} $
 

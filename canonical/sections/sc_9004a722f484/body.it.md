@@ -1,82 +1,178 @@
-Finora conosciamo i diodi a semiconduttore solo nella loro funzione di raddrizzatori di una tensione alternata. Nei modulatori per la generazione di segnali AM e SSB, i diodi svolgono un nuovo ruolo: una tensione audio applicata ne aumenta o diminuisce la resistenza al ritmo della frequenza audio; maggiore è la tensione audio, maggiore è la corrente del diodo e minore è la resistenza risultante. In un modulatore di ampiezza, questa resistenza viene utilizzata per influenzare l'ampiezza di un segnale HF (proveniente da un oscillatore locale); la corrente HF attraverso il diodo è grande quando la resistenza del diodo è piccola e viceversa. Il segnale HF viene "modulato" nella sua ampiezza al ritmo del segnale audio! Nel caso più semplice, se si utilizza un solo diodo, lo spettro del segnale contiene una portante (alla frequenza HF originale) e due bande laterali di modulazione alla distanza della frequenza audio sopra e sotto la frequenza portante – un segnale con modulazione di ampiezza (AM).
+Abbiamo già incontrato i diodi in diversi circuiti. Ora esaminiamo come la loro caratteristica non lineare possa essere utilizzata per modulare un segnale portante ad alta frequenza con un segnale utile a bassa frequenza.
 
-Questo principio diventa chiaro nella seguente domanda: un diodo viene sollecitato contemporaneamente da un segnale audio e da un segnale HF e il segnale di uscita viene filtrato con un circuito oscillante LC.
+Se un segnale HF e un segnale BF vengono applicati insieme a un diodo, come mostrato nella figura [ref:a_am_modulator], la tensione BF influisce sulla conduttività del diodo. Di conseguenza, il segnale HF viene trasmesso con intensità variabile a seconda del valore istantaneo della BF. La sua ampiezza, quindi, varia in sintonia con il segnale BF.
+
+All’uscita si generano, oltre alla portante HF originale, due bande laterali sopra e sotto la frequenza portante. Un circuito oscillante sintonizzato sulla frequenza portante sopprime ulteriori componenti indesiderate. All’uscita si ottiene così un segnale modulato in ampiezza (AM).
+
+<margin>
+[picture:772:a_am_modulator:Modulatore AM semplice con diodo e circuito oscillante]
+</margin>
+
+<webonly>
+La seguente simulazione mostra il funzionamento del modulatore AM; i valori sono stati scelti in modo che HF e BF siano ben distinguibili. La BF è a $\qty{500}{\hertz}$, l’HF a $\qty{10}{\kilo\hertz}$. L’ampiezza del segnale HF viene modificata in base alla BF. Il circuito oscillante è sintonizzato sulla frequenza portante e sopprime le componenti indesiderate. Se si rimuove il circuito oscillante, si osservano numerosi prodotti di mescolamento. È possibile anche modificare la frequenza BF a $\qty{1}{\kilo\hertz}$ per vedere come si spostano le bande laterali.
+
+[include:applet_am_modulator]
+</webonly>
+
+<indepth>
+Un segnale AM può essere descritto anche matematicamente. A tal fine, consideriamo inizialmente un segnale BF sinusoidale normalizzato
+
+$m(t)=\cos(\omega t)$
+
+con la pulsazione $\omega=2\pi f_\mathrm{m}$. Con la sua ampiezza $\hat U_\mathrm{m}$ e un componente continuo aggiuntivo $U_\mathrm{G}$, si ottiene
+
+$U_\mathrm{m}(t)=U_\mathrm{G}+\hat U_\mathrm{m}\cdot\cos(\omega t)$
+
+Questo segnale viene ora moltiplicato per il segnale portante ad alta frequenza
+
+$U_\mathrm{T}(t)=\cos(\Omega t)$
+
+con $\Omega=2\pi f_\mathrm{T}$. Per il segnale AM si ottiene quindi:
+
+$U_\mathrm{AM}(t)=\left(U_\mathrm{G}+\hat U_\mathrm{m}\cdot\cos(\omega t)\right)\cdot\cos(\Omega t)$
+
+Sviluppando l’espressione si ottiene:
+
+$U_\mathrm{AM}(t)=U_\mathrm{G}\cdot\cos(\Omega t)+\hat U_\mathrm{m}\cdot\cos(\omega t)\cdot\cos(\Omega t)$
+
+Utilizzando la relazione
+
+$\cos(a)\cdot\cos(b)=\frac{1}{2}\left(\cos(a+b)+\cos(a-b)\right)$
+
+il secondo termine può essere ulteriormente scomposto:
+
+$U_\mathrm{AM}(t)=U_\mathrm{G}\cdot\cos(\Omega t)+\frac{\hat U_\mathrm{m}}{2}\left(\cos((\Omega+\omega)t)+\cos((\Omega-\omega)t)\right)$
+
+Si possono così identificare immediatamente i tre componenti di un segnale AM: il primo termine descrive la *portante* alla frequenza $\Omega$. Gli altri due termini formano le *bande laterali superiore e inferiore* alle frequenze $\Omega+\omega$ e $\Omega-\omega$.
+
+Il componente continuo $U_\mathrm{G}$ è responsabile del mantenimento della portante. Anche quando il segnale utile è momentaneamente nullo, viene comunque generato un segnale portante.
+
+[picture:1127:a_am_modulation:Spettro di un segnale AM con portante e due bande laterali]
+
+</indepth>
+
+Questo principio è chiarito nella domanda seguente: un diodo viene alimentato contemporaneamente con un segnale BF e un segnale HF, e il segnale di uscita viene filtrato con un circuito LC oscillante.
 
 [question:AD507]
 
-Con un circuito di quattro diodi disposti ad anello, la portante può anche essere soppressa e rimangono solo le due bande laterali; per fare ciò, l'anello di diodi deve essere integrato in un circuito push-pull che sia bilanciato (o simmetrizzato) in modo tale che le correnti del segnale portante si annullino all'uscita. Nel capitolo "Mixer II" è già stato mostrato un circuito del genere come "miscelatore bilanciato" (inglese "balanced mixer"), anche se lì per convertire un segnale di ingresso HF in una posizione di frequenza intermedia.
-
-Il modulatore bilanciato è il primo stadio di un modulatore a banda laterale singola - genera da un segnale dell'oscillatore locale e da un segnale audio (modulazione) un segnale a doppia banda laterale (DSB). Dietro segue un filtro passa-banda che lascia passare solo una delle due bande laterali, generando così un segnale SSB all'uscita.
-
-Si pensi ai due stadi necessari del modulatore SSB.
-
-[question:AE206]
-
-[question:AF302]
-
 ---
 
-Si riconosce un miscelatore bilanciato o modulatore bilanciato dall'anello di diodi. In questo circuito non c'è un'eccitazione push-pull completa, poiché viene utilizzato un solo trasformatore, tuttavia esiste l'equivalente di un presa centrale di un trasformatore nell'alimentazione del segnale dell'oscillatore al centro di un partitore di tensione (potenziometro).
+Con quattro diodi disposti ad anello è possibile realizzare un modulatore in modo che la portante sia soppressa all’uscita. Un circuito di questo tipo è già stato presentato nel capitolo "Mixer II" come *miscelatore bilanciato*. In quel contesto veniva utilizzato per convertire un segnale HF in una frequenza intermedia. Nel trasmettitore utilizziamo lo stesso principio di base per generare un segnale modulato.
 
+<margin>
+[picture:759:a_balancemodulator:Modulatore bilanciato con anello di diodi]
+</margin>
+
+Un miscelatore bilanciato o modulatore bilanciato si riconosce tipicamente dall’anello di diodi, come mostrato nella figura [ref:a_balancemodulator]. L’anello di diodi viene pilotato dal segnale dell’oscillatore a frequenza $f_\mathrm{OSZ}$. A seconda della polarità del segnale dell’oscillatore, conducono alternativamente una delle due coppie di diodi opposte.
+
+In questo modo, il segnale BF viene trasmesso all’uscita alternativamente con polarità uguale o invertita. In termini semplificati, il segnale BF viene quindi moltiplicato per il segnale dell’oscillatore.
+
+Il vantaggio decisivo del circuito simmetrico è la *soppressione della portante*: le componenti del segnale dell’oscillatore si annullano idealmente tra loro all’uscita. Senza segnale BF, quindi, non si genera alcun segnale di uscita. Se invece viene applicato un segnale BF, si generano le bande laterali superiore e inferiore, mentre la portante rimane soppressa.
+
+Il segnale di uscita viene definito come *segnale a doppia banda laterale con portante soppressa* (DSB).
+
+[question:AE206]
+[question:AF302]
 [question:AF308]
+[question:AD510]
 
 <indepth>
-Nel trasmettitore, il miscelatore bilanciato diventa un modulatore bilanciato scambiando gli ingressi: la modulazione a bassa frequenza viene accoppiata nel ramo a ponte del circuito push-pull tra la presa centrale di T2 e la massa. Il segnale dell'oscillatore locale viene immesso nell'anello di diodi tramite T1 e il segnale a doppia banda laterale viene estratto tramite T2. Senza una tensione di modulazione, le coppie di diodi D1, D2 e D3, D4 vengono commutate alternativamente formando partitori di tensione 1:1, in modo che i loro punti medi si trovino a potenziale di massa. In questo modo, le estremità superiore e inferiore dell'avvolgimento di T2 si trovano alternativamente a potenziale di massa, mentre l'altra estremità dell'avvolgimento rimane scollegata a causa dei diodi bloccati. Pertanto, non scorre corrente nell'avvolgimento e non si genera alcuna tensione sul lato di uscita – questo è ciò che costituisce la "soppressione della portante"!
+La soppressione della portante di un modulatore bilanciato può essere descritta in modo semplificato con due rami simmetrici:
 
-Quando viene applicata una tensione di modulazione, scorre corrente aggiuntiva attraverso i diodi, in modo che il potenziale del punto medio dei partitori di tensione venga spostato – in questo modo la corrente può fluire nel trasformatore T2 e si genera un segnale di uscita. L'immagine mostra i profili di tensione che si verificano quando il segnale dell'oscillatore viene semplificato come funzione a onda quadra.
+$u_1(t)=\left(U_G+\hat U_\mathrm{m}\cos(\omega t)\right)\cos(\Omega t)$
+
+$u_2(t)=\left(U_G-\hat U_\mathrm{m}\cos(\omega t)\right)\cos(\Omega t)$
+
+All’uscita i due segnali vengono sottratti:
+
+$u_\mathrm{out}(t)=u_1(t)-u_2(t)$
+
+Si ottiene quindi:
+
+$u_\mathrm{out}(t)=U_G\cos(\Omega t)+\hat U_\mathrm{m}\cos(\omega t)\cos(\Omega t)-U_G\cos(\Omega t)+\hat U_\mathrm{m}\cos(\omega t)\cos(\Omega t)$
+
+Le due componenti della portante $U_G\cos(\Omega t)$ si annullano a vicenda. Rimane:
+
+$u_\mathrm{out}(t)=2\hat U_\mathrm{m}\cos(\omega t)\cos(\Omega t)$
+
+Con $\cos(a)\cos(b)=\frac{1}{2}\left(\cos(a+b)+\cos(a-b)\right)$ si ottiene:
+
+$u_\mathrm{out}(t)=\hat U_\mathrm{m}\left(\cos((\Omega+\omega)t)+\cos((\Omega-\omega)t)\right)$
+
+Il segnale di uscita contiene quindi solo la banda laterale superiore e quella inferiore. La portante alla frequenza $\Omega$ è soppressa.
 </indepth>
 
 ---
 
-La soppressione della portante ha a che fare con l'annullamento di un segnale indesiderato – per questo un circuito modulatore deve essere "bilanciato".
+Affinché il segnale dell’oscillatore si annulli il più possibile all’uscita, il circuito deve essere simmetrico, cioè *bilanciato*. Anche piccole differenze di ampiezza o fase tra i due percorsi del segnale fanno sì che una parte della portante rimanga all’uscita. La simmetria dell’ampiezza può essere regolata, ad esempio, con un potenziometro. Per la regolazione della fase, in alcuni circuiti viene utilizzato un condensatore di taratura. L’obiettivo della regolazione è ottenere una soppressione della portante il più possibile elevata, mantenendo intatte le due bande laterali di modulazione.
 
-[question:AD510]
+<webonly>
+Il seguente applet mostra la regolazione della portante. Se lo slider sulla destra viene spostato, la portante appare improvvisamente nello spettro.
 
-Proprio a questo bilanciamento appartiene una regolazione delle ampiezze (potenziometro) e delle fasi (trimmer C).
+[include:applet_dsp]
+</webonly>
 
 [question:AF309]
 
-Un modulatore viene "simmetrizzato" o "bilanciato" per sopprimere la portante – le bande laterali di modulazione non vengono soppresse.
+---
 
-[question:AF304]
+Il modulatore bilanciato costituisce il primo stadio di un modulatore SSB e genera un segnale DSB. Dietro il modulatore bilanciato, come secondo stadio, segue un filtro passa-banda a banda stretta, come mostrato nella figura [ref:a_ssb_modulation]. Esso lascia passare solo una delle due bande laterali e sopprime l’altra. All’uscita si ottiene così un segnale a banda laterale singola (SSB).
 
-[question:AF303]
-
-Dopo il modulatore bilanciato segue il secondo stadio di un modulatore SSB.
-
-[question:AF305]
+<margin>
+[picture:500:a_ssb_modulation:Schema a blocchi per la modulazione SSB con il metodo del filtro]
+</margin>
 
 [question:AF306]
+[question:AF304]
+[question:AF303]
+[question:AF305]
 
-I quarzi determinano la frequenza della portante soppressa dal modulatore bilanciato. Si riconosce dalla frequenza del quarzo per la banda laterale inferiore (LSB): la portante si trova $\qty{1,5}{\kilo\hertz}$ sopra la frequenza centrale del filtro passa-banda da $\qty{9}{\mega\hertz}$. Con la frequenza audio massima di $\qty{3}{\kilo\hertz}$, la banda laterale inferiore si troverà quindi $\qty{1,5}{\kilo\hertz}$ sotto la frequenza centrale e la frequenza audio di $\qty{200}{\hertz}$ posizionerà la banda laterale a $\qty{1,3}{\kilo\hertz}$ sopra la frequenza centrale del filtro. Per la banda laterale superiore (USB) vale il contrario.
+---
+
+Una buona implementazione per un apparecchio radio in grado di generare sia USB che LSB consiste nel progettare il filtro passa-banda per una gamma di frequenze fissa. La scelta di quale banda laterale venga filtrata non dipende da una modifica del filtro, ma dalla frequenza dell’oscillatore nel modulatore bilanciato. A tal fine sono disponibili due oscillatori al quarzo diversi.
+
+Ad esempio, per l’USB si seleziona la frequenza dell’oscillatore $\qty{8998,5}{\kilo\hertz}$. Attraverso la modulazione si generano due bande laterali. La banda laterale superiore viene spostata esattamente nella banda passante del filtro, mentre la banda laterale inferiore si trova al di fuori della banda passante e viene soppressa.
+
+Per l’LSB si passa all’altra frequenza di quarzo di $\qty{9001,5}{\kilo\hertz}$. In questo modo l’intero spettro DSB viene spostato in modo che la banda laterale inferiore cada nella banda passante dello stesso filtro, mentre la banda laterale superiore viene soppressa.
+
+Il trucco decisivo consiste quindi nel mantenere invariato il filtro e, invece, spostare la posizione del segnale DSB utilizzando frequenze dell’oscillatore diverse. Analogamente alla frequenza intermedia di un ricevitore, è possibile utilizzare un filtro fisso di alta qualità per diverse posizioni di frequenza.
 
 [question:AF307]
 
-Il simbolo a croce o X nel blocco funzionale dietro l'amplificatore audio sta per la moltiplicazione matematica – modulatori, demodulatori e circuiti mixer vengono contrassegnati in questo modo perché la loro funzione può essere descritta matematicamente come la moltiplicazione di funzioni segnale.
+<margin>
+<latexonly>
+[picture:831:a_ssb_modulation_lsb:Frequenze con il metodo del filtro per LSB]
+[picture:940:a_ssb_modulation_lsb:Spettro con il metodo del filtro per LSB]
+[picture:832:a_ssb_modulation_usb:Frequenze con il metodo del filtro per USB]
+[picture:941:a_ssb_modulation_usb:Spettro con il metodo del filtro per USB]
+</latexonly>
+<webonly>
+[include:applet_dsp_filter]
+</webonly>
+</margin>
 
-Un modulatore per la modulazione di frequenza (FM) utilizza invece un altro tipo di diodo, il diodo capacità (riconoscibile nei circuiti dal piccolo simbolo di condensatore accanto al simbolo del diodo). Il diodo fa sempre parte di un circuito oscillante la cui frequenza di oscillazione è determinata da un circuito risonante che contiene il diodo capacità. Il diodo viene sollecitato con una tensione continua in direzione di blocco, in modo che si stabilisca una capacità fissa del diodo e quindi anche una frequenza dell'oscillatore. Il circuito diventa un modulatore di frequenza quando alla tensione continua viene sovrapposto un segnale audio – quindi l'oscillatore cambia la sua frequenza al ritmo del segnale audio.
+---
 
-Qui compare il diodo capacità – e il circuito a transistor accanto è un oscillatore con circuito oscillante LC.
+Per generare un segnale modulato in frequenza (FM) può essere utilizzato un *diodo a capacità variabile*. Nei diagrammi di circuito è riconoscibile dal piccolo simbolo del condensatore accanto al diodo, come mostrato nella figura [ref:a_fm_modulator].
+
+Un diodo a capacità variabile viene utilizzato in polarizzazione inversa. La sua capacità dipende dalla tensione inversa applicata. Se viene impiegato come parte del circuito oscillante che determina la frequenza di un oscillatore, una variazione di questa tensione modifica la frequenza di risonanza del circuito oscillante e, di conseguenza, la frequenza dell’oscillatore.
+
+Per la modulazione di frequenza, al segnale BF alla tensione continua del diodo a capacità variabile viene sovrapposto il segnale BF. In questo modo la sua capacità varia in sintonia con il segnale BF e la frequenza dell’oscillatore viene spostata verso l’alto e verso il basso di conseguenza. In questo modo si ottiene un segnale modulato in frequenza.
+
+<margin>
+[picture:155:a_fm_modulator:Modulatore FM con diodo a capacità variabile]
+</margin>
 
 [question:AD508]
-
-Un diodo capacità funzionante in tensione inversa, che viene sollecitato da un lato con audio e dall'altro lato è parallelo al circuito oscillante di un circuito oscillatore, influenza la frequenza dell'oscillatore.
-
 [question:AF310]
 
-Con tensioni audio elevate si possono facilmente ottenere variazioni di frequenza dell'oscillatore molto maggiori (deviazione FM) di quelle ammesse. Pertanto, è necessaria una limitazione della "deviazione" tramite una regolazione e limitazione dell'ampiezza audio. Diodi collegati in antiparallelo limitano la tensione a circa la tensione di ginocchio del diodo.
+---
+
+Con grandi tensioni BF è possibile ottenere facilmente deviazioni della frequenza dell’oscillatore ("deviazione" FM) molto più ampie di quelle consentite. Pertanto, è necessaria una *limitazione della deviazione* mediante la regolazione e la limitazione dell’ampiezza del segnale BF. Diodi collegati antiparallelamente limitano la tensione a circa la tensione di soglia del diodo. Un esempio è mostrato nelle figure [ref:a_fm_modulator_hub1] e [ref:a_fm_modulator_hub2].
+
+<margin>
+[picture:44:a_fm_modulator_hub1:Circuito per la limitazione della deviazione]
+[picture:828:a_fm_modulator_hub2:Limitazione del segnale]
+</margin>
 
 [question:AD509]
-
-Questo apparentemente non è un modulatore – c'è un solo segnale! Un condensatore elettrolitico all'uscita del diodo indica una tensione continua!
-
-[question:AD503]
-
-% TODO copiato da E qui... deve essere inserito.
-<margin>
-[picture:500:e_ssb_modulation:Schema a blocchi per la modulazione SSB con il metodo a filtro]
-[picture:831:e_ssb_modulation_lsb:Frequenze con il metodo a filtro per LSB]
-[picture:940:e_ssb_modulation_lsb:Spettro con il metodo a filtro per LSB]
-[picture:832:e_ssb_modulation_usb:Frequenze con il metodo a filtro per USB]
-[picture:941:e_ssb_modulation_usb:Spettro con il metodo a filtro per USB]
-</margin>

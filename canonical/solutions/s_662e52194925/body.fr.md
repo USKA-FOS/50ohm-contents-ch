@@ -1,0 +1,1 @@
+Les condensateurs $C_1$ et $C_2$ à l'entrée et à la sortie bloquent la tension continue et ne laissent passer que la tension alternative, de sorte que seul le diviseur de tension détermine la polarisation de la base et donc le point de fonctionnement.

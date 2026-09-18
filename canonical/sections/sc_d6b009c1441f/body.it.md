@@ -1,21 +1,28 @@
+% Unire 1.6 + 4.4 (eliminare uno o separare meglio). Separazione chiara discussa con EXR e YPA.
+
 %<margin>
-%[photo:57:n_ausbildungsrufzeichen_ausbildungsfunkbetrieb:Il servizio radio di formazione spesso unisce le generazioni]
+%[photo:57:n_ausbildungsrufzeichen_ausbildungsfunkbetrieb:L’attività radio di addestramento unisce spesso le generazioni]
 %</margin>
-% Purtroppo non abbiamo il consenso sicuro delle persone... TODO nuova immagine.
+% Purtroppo non abbiamo il consenso scritto delle persone... TODO nuova immagine.
+% L’immagine 57 è del DARC. YPA potrebbe fornire una foto adatta, se richiesto, con 3 generazioni.
 
-Come abbiamo appreso all'inizio del corso, ogni radioamatore autorizzato in Germania delle classi E e A è automaticamente anche un formatore. Utilizzando il suffisso del prefisso "/T" o "/Trainee", ogni prefisso personale diventa un prefisso di formazione. Lo stesso vale per i prefissi delle stazioni club. L'apprendista può così effettuare comunicazioni radio sotto la supervisione e nell'ambito di competenza del formatore.
+Come abbiamo già imparato all’inizio del corso in [sec:ausbildungsfunk], il nominativo delle stazioni di club può essere utilizzato per attività di addestramento, a condizione che sia presente un’*autorizzazione all’emissione*. L’allievo può effettuare comunicazioni radio sotto la supervisione costante di un radioamatore CEPT (HB9).
+% Attualmente non è corretto: effettuare sotto la supervisione e nell’ambito delle autorizzazioni dell’istruttore.
 
-[question:VD302]
+---
+<law>
+[Brochure UFCOM 1.2 Autorizzazione all’emissione per persone senza certificato di competenza](https://www.bakom.admin.ch/it/amateurfunk#Merkblatt-Amateurfunk)
+
+[Richiedere l’autorizzazione all’emissione presso l’UFCOM](https://www.bakom.admin.ch/it/amateurfunk#Gesuch-Sprecherlaubnis-f%C3%BCr-Funkamateurclubs)
+</law>
+
+L’associazione deve richiedere per iscritto all’UFCOM, almeno due settimane prima, un’autorizzazione (autorizzazione all’emissione o anche *Sprechfreigabe*). I responsabili della stazione devono essere chiaramente indicati nella domanda.
+
+L’allievo utilizza quindi il nominativo dell’associazione e aggiunge il suffisso "operator" seguito dal proprio nome. Ad esempio, un allievo dell’associazione HB9FZ dirà come nominativo "HB9FZ operator Hans". In questo modo è chiaro per gli altri che si tratta di un allievo che sta trasmettendo.
+
+Se l’associazione partecipa a una competizione con il proprio nominativo, non è necessario trasmettere il nome dell’operatore.
+[question:BD210]
+[question:BD209]
 [question:BD211]
-[question:VD304]
-[question:BD210] 
 
-Il servizio radio di formazione è destinato a persone che non sono in possesso di un certificato di radioamatore appropriato. Il prefisso di formazione non può essere utilizzato dal formatore stesso per le proprie trasmissioni. Il servizio radio di formazione serve alla preparazione pratica per il superamento dell'esame tecnico per l'ottenimento di un certificato di radioamatore.
-
-[question:VD301]
-
-Il formatore deve trovarsi sempre nelle immediate vicinanze dell'apprendista e guidarlo nell'uso dell'apparecchio radio e nella gestione delle operazioni. Solo la vicinanza immediata consente al formatore di intervenire in modo regolatore nel servizio radio di formazione. Nei casi estremi, ciò può significare anche lo spegnimento del trasmettitore. La supervisione di un apprendista a distanza maggiore o via radio, da un'altra postazione, non è consentita. In questo caso, la guida e la supervisione immediate non sono garantite.
-
-Se la BNetzA lo richiede, il formatore deve fornire informazioni all'autorità riguardo "la natura e l'estensione" del servizio di formazione.
-
-[question:VD305] 
+% Testo esplicativo per BD211?

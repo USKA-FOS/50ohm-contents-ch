@@ -1,59 +1,59 @@
-Nelle lezioni delle classi N ed E abbiamo già appreso le interferenze tipiche dei dispositivi e degli impianti elettronici – ad esempio dovute a irraggiamento diretto nell'involucro o a accoppiamento nelle linee di alimentazione – nonché le contromisure e i comportamenti appropriati. Nella classe A, questi aspetti vengono approfonditi ulteriormente. 
+Nelle lezioni delle classi N ed E abbiamo già affrontato le tipiche interferenze su dispositivi e impianti elettronici – ad esempio dovute a irradiazioni dirette all’interno dell’involucro o a accoppiamenti nelle linee di alimentazione – nonché le contromisure e i comportamenti appropriati. Nella classe A questi aspetti vengono approfonditi ulteriormente.
 
 [question:AJ105]
 
-Se si verificano disturbi di ricezione nei ricevitori autocostruiti digitali, una possibile causa può essere una scarsa schermatura del ricevitore. In questo caso, è opportuno installare il circuito stampato del ricevitore in un involucro metallico messo a terra. Soprattutto per i ricevitori SDR o le soluzioni autocostruite basate sulla tecnologia SDR, una buona schermatura è assolutamente necessaria per evitare irraggiamenti. Viceversa, in questo modo si riducono anche le emissioni indesiderate da parte di questi dispositivi.
+Se in un ricevitore digitale autocostruito si verificano disturbi di ricezione, una possibile causa potrebbe essere una schermatura insufficiente del ricevitore. In questi casi è consigliabile montare la scheda del ricevitore all’interno di un involucro metallico collegato a massa. In particolare, per i ricevitori SDR o le soluzioni autocostruite basate su tecnologia SDR, una buona schermatura è fondamentale per evitare irradiazioni indesiderate. Viceversa, questo metodo riduce anche le emissioni indesiderate di questi dispositivi.
 
 [question:AJ103]
 
 ---
 
-Nella classe E abbiamo già trattato gli accoppiamenti nelle linee di alimentazione. Esiste tuttavia un'altra contromisura che vogliamo esaminare più da vicino di seguito. Se i disturbi si propagano attraverso la linea di alimentazione, l'installazione di un filtro di rete sotto forma di filtro passa-basso (cfr. figura [ref:a_netzfilter] e figura [ref:a_netzfilter_draw]) è una soluzione. Questi filtri sono disponibili come dispositivi pronti all'uso, nel rispetto delle normative VDE. 
+Nella classe E abbiamo già trattato gli accoppiamenti nelle linee di rete. Tuttavia, esiste un’altra contromisura che esamineremo più in dettaglio di seguito. Se i disturbi penetrano attraverso la linea di alimentazione, è opportuno installare un filtro di rete sotto forma di filtro passa-basso (cfr. figura [ref:a_netzfilter] e figura [ref:a_netzfilter_draw]). Questi filtri sono disponibili come dispositivi pronti all’uso, nel rispetto delle norme VDE.
 
 [question:AJ116]
 [question:AJ117]
 [question:AJ118]
 
 <margin>
-[photo:244:a_netzfilter:Netzfilter]
-[picture:367:a_netzfilter_draw:Schaltung eines Netzfilters]
+[photo:244:a_netzfilter:Filtro di rete]
+[picture:367:a_netzfilter_draw:Circuito di un filtro di rete]
 </margin>
 
-Diversi metodi di trasmissione hanno effetti diversi per quanto riguarda le interferenze con dispositivi e linee, a causa delle loro caratteristiche di modulazione. In particolare, i tipi di modulazione CW e SSB (in cui l'ampiezza cambia rapidamente) causano spesso interferenze nelle linee di alimentazione degli altoparlanti e un conseguente raddrizzamento dell'HF sulle giunzioni base-emettitore nella sezione BF degli amplificatori. La giunzione base-emettitore si comporta qui come un diodo e raddrizza l'HF. In questo modo, la BF demodulata diventa udibile negli altoparlanti.
+I diversi metodi di trasmissione, a causa delle loro caratteristiche di modulazione, hanno effetti diversi in termini di interferenze su dispositivi e linee. In particolare, le modalità di modulazione CW e SSB (nelle quali l’ampiezza varia rapidamente) spesso causano interferenze nelle linee degli altoparlanti e una successiva rettificazione dell’alta frequenza (HF) nei tratti di base-emettitore della sezione audio degli amplificatori. La giunzione base-emettitore si comporta come un diodo e rettifica l’HF. Di conseguenza, l’audio demodulato diventa udibile negli altoparlanti.
 
 [question:AJ107]
 [question:AJ106]
 
-Per proteggere i ricevitori DVB-T da segnali forti di un trasmettitore radioamatore VHF/UHF nelle immediate vicinanze, è necessario installare un filtro passa-alto nella linea di alimentazione dell'antenna del ricevitore DVB-T. Questo è tuttavia efficace solo con antenne di ricezione passive. In particolare, i preamplificatori di antenna TV non selettivi vengono rapidamente sovraeccitati da segnali di trasmissione adiacenti, poiché amplificano un ampio campo di frequenza.
-Con antenne di ricezione attive, un filtro passa-alto deve essere installato prima del preamplificatore dell'antenna.
-Quando si installano filtri, è necessario considerare anche l'attenuazione di inserzione dei filtri nella banda passante. Questa dovrebbe essere il più bassa possibile e non superare i $\qtyrange{2}{3}{\dB}$ per consentire al segnale ricevuto desiderato di passare il più liberamente possibile.
+Per proteggere i ricevitori DVB-T da segnali forti di un trasmettitore radioamatoriale VHF/UHF nelle immediate vicinanze, è necessario installare un filtro passa-alto nella linea di antenna del ricevitore DVB-T. Tuttavia, questo metodo è efficace solo con antenne riceventi passive. In particolare, gli amplificatori di antenna TV non selettivi vengono sovraeccitati rapidamente da segnali trasmittenti vicini, poiché amplificano un’ampia banda di frequenza. 
+Nei casi di antenne riceventi attive, un filtro passa-alto deve essere installato prima dell’amplificatore di antenna.
+Durante l’installazione dei filtri, è necessario considerare anche l’attenuazione di inserzione dei filtri nella banda passante. Questa deve essere il più bassa possibile e non superare $\qtyrange{2}{3}{\dB}$, per consentire al segnale ricevuto di passare il più possibile senza ostacoli.
 
 [question:AJ113]
 [question:AJ114]
 [question:AJ108]
 
-Fondamentalmente, ha senso installare un filtro passa-basso con una frequenza di taglio di $\qtyrange{30}{40}{\mega\hertz}$ dietro un potente trasmettitore a onde corte. Anche utilizzando un accordatore d'antenna in configurazione passa-basso (filtro Pi o LC) si può ottenere un effetto passa-basso che sopprime efficacemente le emissioni di armoniche superiori.
+In generale, è opportuno installare un filtro passa-basso con una frequenza di taglio di $\qtyrange{30}{40}{\mega\hertz}$ dopo un trasmettitore ad onde corte potente. Anche l’utilizzo di un accordatore d’antenna in configurazione passa-basso (filtro Pi o LC) può garantire un effetto passa-basso che sopprime efficacemente le emissioni di armoniche.
 
 [question:AJ112]
 [question:AJ104]
 
-Forti segnali di trasmissione da una stazione radioamatoriale possono causare disturbi di ricezione, rumori o interruzioni/artefatti/silenzio (in particolare nei ricevitori digitali come DAB/DVB-T) nei ricevitori DAB, TV e FM. Questi disturbi sono spesso causati dalla sovraeccitazione dell'ingresso del ricevitore a causa di elevate intensità di segnale nel luogo di ricezione e portano a una riduzione della sensibilità del ricevitore o alla sovraeccitazione dello stadio di ingresso del ricevitore.
+Segnali trasmittenti forti di una stazione radioamatoriale possono causare disturbi di ricezione, rumori parassiti o interruzioni/artefatti/silenzi (in particolare nei ricevitori digitali come DAB/DVB-T) nei ricevitori DAB, TV e FM. Questi disturbi sono spesso provocati dalla sovraeccitazione dell’ingresso del ricevitore a causa di livelli di segnale elevati nel luogo di ricezione e portano a una riduzione della sensibilità del ricevitore o alla sovraeccitazione dello stadio di ingresso.
 
 [question:AJ110]
 [question:AJ111]
 [question:AJ109]
 
-Per evitare i problemi sopra menzionati, il radioamatore dovrebbe quindi lavorare sempre solo con la potenza di trasmissione minima necessaria per una comunicazione soddisfacente.
+Per evitare i problemi sopra menzionati, il radioamatore dovrebbe quindi utilizzare sempre solo la potenza di trasmissione minima necessaria per una comunicazione soddisfacente.
 
 [question:AJ101]
 
-Per bloccare i disturbi HF nei circuiti e nei dispositivi vengono spesso utilizzati condensatori di blocco. Questi devono avere la proprietà di scaricare l'HF verso massa nel modo più efficiente possibile. I condensatori ceramici sono particolarmente adatti a questo scopo. I condensatori elettrolitici e a film plastico sono inadatti, poiché la loro costruzione avvolta presenta un'elevata autoinduttanza. Nel caso dei condensatori al tantalio, spesso viene collegato in parallelo un condensatore ceramico per migliorare le proprietà di scarico HF, poiché questi ultimi sono adatti solo per frequenze HF medie fino a circa $\qty{30}{\mega\hertz}$, mentre i condensatori ceramici possono bloccare frequenze molto più elevate.
-Per scaricare efficacemente i disturbi HF è necessaria una messa a terra efficace con bassa impedenza.
+Per disaccoppiare i disturbi di HF nei circuiti e nei dispositivi, vengono spesso utilizzati condensatori di disaccoppiamento. Questi devono essere in grado di deviare la HF verso massa in modo efficiente. A questo scopo, i condensatori ceramici sono particolarmente adatti. Sono invece inadeguati i condensatori elettrolitici e quelli a film plastico, poiché il loro avvolgimento interno conferisce loro un’elevata induttanza parassita. Nei condensatori al tantalio, per migliorare le proprietà di smaltimento della HF, viene spesso collegato in parallelo un condensatore ceramico, poiché questi ultimi da soli sono adatti solo per frequenze HF medie fino a circa $\qty{30}{\mega\hertz}$, mentre i condensatori ceramici possono smaltire frequenze molto più elevate.
+Per smaltire efficacemente i disturbi di HF, è necessaria una messa a terra efficace con bassa impedenza.
 
 [question:AJ119]
 [question:AJ102]
 
-Nelle linee di alimentazione degli stadi HF vengono spesso utilizzate induttanze di alta frequenza. Queste rappresentano un'impedenza in serie per l'alta frequenza e bloccano efficacemente le correnti di ingresso ad alta frequenza negli stadi, nonché le correnti di ritorno HF nell'alimentazione degli stadi.
-A causa della loro costruzione avvolta, queste induttanze hanno anche capacità parassite, in modo che, in combinazione con la loro induttanza, formino risonanze indesiderate (circuiti oscillanti). Ciò può portare a *risonanze secondarie* indesiderate negli stadi HF, causate dalle *auto-risonanze* delle induttanze HF. Le risonanze secondarie possono influenzare negativamente le caratteristiche degli stadi HF. Ciò può portare a effetti di retroazione indesiderati, in particolare negli amplificatori, nonché a cali nelle caratteristiche di potenza degli stadi HF.
+Nelle linee di alimentazione dei stadi HF vengono spesso utilizzate le induttanze ad alta frequenza. Queste rappresentano un’impedenza longitudinale per l’alta frequenza e bloccano efficacemente le correnti entranti di HF negli stadi, nonché i flussi di ritorno di HF nell’alimentazione degli stadi.
+A causa del loro avvolgimento, queste induttanze presentano anche capacità parassite, cosicché, in combinazione con la loro induttanza, formano punti di risonanza indesiderati (circuiti oscillanti). Ciò può portare a *risonanze parassite* negli stadi HF, che sono causate dalle *risonanze proprie* delle induttanze HF. Le risonanze parassite possono influenzare negativamente le caratteristiche degli stadi HF. Questo può portare a effetti di reazione indesiderati, in particolare negli amplificatori, nonché a cali nelle caratteristiche di potenza degli stadi HF.
 
 [question:AJ214]

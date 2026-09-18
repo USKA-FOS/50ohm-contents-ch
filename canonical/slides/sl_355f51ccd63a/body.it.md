@@ -1,45 +1,50 @@
 <left>
-* Costituiti da conduttore interno ed esterno
-* Custodia esterna collegata al conduttore esterno
-* Conduttore interno collegato a perno o foro di contatto
+* Composti da conduttore interno ed esterno
+* Involucro esterno collegato al conduttore esterno
+* Conduttore interno collegato a un perno di contatto o a un’apertura di contatto
 * Collegamento tramite saldatura o crimpatura
 </left>
 <right>
-* *Spina*: perno di contatto verso l'esterno
-* *Accoppiamento*: foro di contatto verso l'interno
-* Forma speciale *Presa*: accoppiamento integrato nell'apparecchio
+* *Spina*: perno di contatto verso l’esterno
+* *Accoppiatore*: apertura di contatto verso l’interno
+* Forma speciale *presa*: accoppiatore integrato nell’apparecchio
+* Forma speciale *spina integrata*: spina integrata nell’apparecchio
 </right>
 
 ---
 
-Connettori coassiali comuni nel radioamatore
+### Connettori coassiali più comuni nel radioamatoriale
 
 <left>
 * PL
 * N
-</left>
-<right>
 * BNC
 * SMA
+</left>
+<right>
+A seconda dell’impiego:
+* banda di frequenza
+* potenza di trasmissione
+* tipo di cavo
 </right>
 
 <note>
-* spiegati più in dettaglio nelle sezioni seguenti
-* Questi 4 connettori coassiali sono sufficienti per l'esame – in pratica ne esistono altri
+* vengono spiegati in modo approfondito nei paragrafi successivi
+* Questi 4 connettori coassiali sono sufficienti per l’esame – in pratica ne esistono molti altri
 </note>
 
 ---
 
-## Indicazioni per l'uso
+## Consigli per l’uso
 
 <left>
 * Maneggiare con cura
 * Avvitare saldamente
 * Il conduttore interno può rompersi
-* La schermatura può scivolare
-* Se necessario, verificare la presenza di cortocircuiti
+* Lo schermo può spostarsi
+* Verificare eventuali cortocircuiti
 </left>
 <right>
-* Usare spine adatte allo spessore del cavo
-* Usare spine adatte al diametro del cavo
+* Utilizzare spine adatte al diametro/spessore del cavo
+* Mantenere la stessa impedenza caratteristica del cavo coassiale $\rightarrow$ evita riflessioni indesiderate
 </right>

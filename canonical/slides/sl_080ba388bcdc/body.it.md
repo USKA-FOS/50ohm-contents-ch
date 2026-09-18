@@ -1,36 +1,36 @@
 <left>
-* Klasse E: Sprungdistanz durch Abstrahlwinkel verändern
+* Classe E: modificare la distanza di salto tramite l'angolo di irradiazione
 </left>
 <right>
-[picture:994:a_sprungdistanz_1:Simulation der Sprungdistanz in Abhängigkeit vom Abstrahlwinkel im $\qty{40}{\meter}$-Band, im Januar 2025]
+[picture:994:a_sprungdistanz_1:Simulazione della distanza di salto in funzione dell'angolo di irradiazione nella banda dei $\qty{40}{\meter}$, gennaio 2025]
 </right>
 
 ---
 <left>
-* Auch zu beachten:
-* *Höhe der ionisierten Region*
-* *die Tageszeit* wegen der unterschiedlichen Schichten
-* *genutzte Frequenz* wegen unterschiedlicher Refraktionseigenschaften an den Schichten
+* Da considerare anche:
+* *altezza della regione ionizzata*
+* *l'ora del giorno* a causa dei diversi strati
+* *frequenza utilizzata* a causa delle diverse proprietà di rifrazione degli strati
 </left>
 <right>
-[picture:865:e_wellenausbreitung_refraktion:Refraktion an Schichten der Ionosphäre]
+[picture:865:e_wellenausbreitung_refraktion:Rifrazione negli strati dell'ionosfera]
 </right>
 
 <note>
-An den Schichten erklären, wie dadurch die Sprungdistanz verändert wird
+Spiegare come gli strati influenzino la distanza di salto
 </note>
 
 ---
 
-## Abhängigkeit Jahres- und Tageszeit
+## Dipendenza da stagione e ora del giorno
 
-[picture:996:a_sprungdistanz_2:Simulation der Sprungdistanz in Abhängigkeit von Jahreszeit sowie Tag und Nacht im $\qty{80}{\meter}$-Band bei $\qty{45}{\degree}$ Abstrahlwinkel; zusätzlich wirkt die Dämpfung der D-Schicht am Tag]
+[picture:996:a_sprungdistanz_2:Simulazione della distanza di salto in funzione di stagione, giorno e notte nella banda degli $\qty{80}{\meter}$ con angolo di irradiazione di $\qty{45}{\degree}$; inoltre, si considera l'attenuazione dello strato D di giorno]
 
 ---
 
-## Frequenzabhängigkeit
+## Dipendenza dalla frequenza
 
-[picture:995:a_sprungdistanz_3:Simulation der Sprungdistanz in Abhängigkeit der Frequenz bei $\qty{45}{\degree}$ Abstrahlwinkel, im Januar 2025]
+[picture:995:a_sprungdistanz_3:Simulazione della distanza di salto in funzione della frequenza con angolo di irradiazione di $\qty{45}{\degree}$, gennaio 2025]
 
 ---
 

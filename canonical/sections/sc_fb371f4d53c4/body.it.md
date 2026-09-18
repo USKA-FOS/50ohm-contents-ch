@@ -1,14 +1,15 @@
-Una volta completato questo corso e superato l'esame per diventare radioamatore, si riceve un *certificato d'esame* e un *attestato d'esame di radioamatore* e si può essere definiti radioamatori. Si può quindi già gestire una stazione radioamatoriale? Decisamente no! È necessaria anche un'*autorizzazione alla partecipazione al servizio radioamatoriale*. Solo con il permesso di ammissione viene assegnato il proprio nominativo.
+% Qui verrà inserita l’intera spiegazione del certificato di idoneità, del nominativo, della designazione dell’autorizzazione – inclusi i link al portale eGov.
+
+Una volta completato questo corso e superato l’esame per radioamatore, si riceve un *avviso di superamento esame* nonché un *certificato di idoneità radioamatoriale* e si può essere definiti radioamatore. Si può quindi operare una stazione radioamatoriale? La risposta è inequivocabilmente no! È necessario ottenere anche l’*autorizzazione alla partecipazione al servizio di radioamatore*. Solo con il provvedimento di autorizzazione viene assegnato il nominativo personale.
 
 <margin>
-[photo:91:n_zulassung_urkunde:Il permesso di partecipazione al servizio radioamatoriale]
+[foto:91:n_zulassung_urkunde:Il provvedimento di autorizzazione alla partecipazione al servizio di radioamatore]
 </margin>
 
 [question:VC106]
 
-Se si ha avuto l'opportunità di leggere riviste di radioamatore, si potrebbero aver notato annunci come "Simon (14) e Sophie (11) hanno superato con successo il loro esame l'8 febbraio presso la Bundesnetzagentur di Dortmund". La nostra legge sui radioamatori non prevede un'età minima per i radioamatori. Il § 4 dell'AFuG afferma a questo proposito: "Ogni persona fisica residente in Germania è ammessa su richiesta all'esame tecnico per radioamatori."
+Se si ha avuto l’opportunità di leggere riviste di radioamatoriale, ci si sarà forse imbattuti in annunci come "Simon (14) e Sophie (11) hanno superato con successo l’esame presso l’Agenzia federale delle reti di Dortmund l’8 febbraio". La nostra legge sulla radioamatoriale tedesca, infatti, non prevede un’età minima per i radioamatori. Nel § 4 dell’AFuG si legge a questo proposito: "Ogni persona fisica con residenza in Germania può essere ammessa, su richiesta, all’esame tecnico per radioamatori."
 
 [question:VC108]
-
 
 [question:VN011]

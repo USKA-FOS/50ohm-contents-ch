@@ -1,22 +1,37 @@
-## Segnali di controllo
-
 <left>
-* Trasmissione di segnali audio e di controllo (CAT) tra computer e trasmettitore-ricevitore
-* Ad esempio, mettere il trasmettitore-ricevitore in trasmissione e trasmettere il segnale dal computer
+[photo:92:n_computersteuerung_funkfernschreiber:Telegrafo a distanza]
+* Sviluppo della telegrafia Morse: telescrivente collegata tramite modem all’apparecchio radio
 </left>
 <right>
-[picture:630:n_computersteuerung_verbindungen:Esempi di connessioni tra computer e apparecchio radio]
+* In questo modo è nato il *telegrafo a distanza* per inviare e ricevere testi in modo automatizzato via radio
+* L’abbreviazione *RTTY* (radio teletype) è ancora in uso oggi
+* Oggi il computer svolge solitamente questo compito $\rightarrow$ possibilità di utilizzare molti altri *modi digitali*
+</right>
+<note>
+Telescrivente: dispositivo per trasmettere messaggi in forma testuale tramite segnali elettrici
+</note>
+
+---
+
+## Segnali di comando
+
+<left>
+* Trasmissione di segnali audio e di comando (CAT) tra computer e trasmettitore-ricevitore
+* Ad esempio, attivare la trasmissione dell’apparecchio radio e inviare il segnale dal computer
+</left>
+<right>
+[picture:630:n_computersteuerung_verbindungen:Esempi di collegamenti tra computer e apparecchio radio]
 </right>
 
 ---
 ## Connessione dati
 
-* Dietro l'attacco del microfono nell'apparecchio radio possono esserci stadi di amplificazione e filtraggio per la trasmissione vocale $\rightarrow$ inadatto per la trasmissione dati
-* Connessione dati separata sul trasmettitore-ricevitore
-* Lascia passare i segnali dal computer senza alterazioni
+* Dietro il connettore del microfono nell’apparecchio radio possono esserci stadi di amplificazione e filtraggio per la trasmissione vocale $\rightarrow$ non adatto per la trasmissione dati
+* Connettore dati dedicato nel trasmettitore-ricevitore
+* Fa passare i segnali dal computer senza alterarli
 
 <note>
-Spesso indicato come DATA o 9600
+Spesso indicato con DATA o 9600
 </note>
 
 ---
@@ -28,8 +43,8 @@ Spesso indicato come DATA o 9600
 ---
 [question:NF117]
 <note>
-* Bisogna fare attenzione che l'apparecchio radio non vada in trasmissione inaspettatamente.
-* Aneddotico: suono di avvio di Windows via radio
+* È importante assicurarsi che l’apparecchio radio non vada in trasmissione in modo inaspettato.
+* Aneddoto: il suono di avvio di Windows trasmesso via radio
 </note>
 
 ---

@@ -1,9 +1,9 @@
-Le alte tensioni alternate sono pericolose, questo vale ovviamente anche per le alte tensioni alternate ad alta frequenza. Possono causare aritmie cardiache, *ustioni e altre lesioni*. Anche nei casi innocui, al contatto ci si spaventa o ci si irrigidisce. La conseguenza può essere, ad esempio, una caduta dalla scala. Questo sarebbe un incidente secondario. In linea di principio, tutto ciò può portare alla morte.
+Le alte tensioni alternate sono pericolose, e questo vale ovviamente anche per le alte tensioni alternate ad alta frequenza. Possono causare aritmie cardiache, *ustioni e altre lesioni*. Anche in casi apparentemente innocui, il contatto può provocare spavento o contrazioni muscolari involontarie. La conseguenza potrebbe essere, ad esempio, una caduta dalla scala. Si tratterebbe di un incidente secondario. In linea teorica, tutto ciò potrebbe portare alla morte.
 
-Pertanto, vale sempre: non toccare un'antenna trasmittente in funzione!
+Pertanto, vale sempre la regola: non si tocca un'antenna in funzione!
 
 <danger>
-I *"Pericoli della corrente elettrica"* sono già stati trattati nella sezione 6.4.
+I *"pericoli derivanti dalla corrente elettrica"* sono già stati trattati nella sezione 6.4.
 </danger>
 
 [question:EK202]

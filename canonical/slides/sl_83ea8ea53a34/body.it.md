@@ -1,15 +1,15 @@
 ## Valori grandi e piccoli
 
-* Nel radioamatore abbiamo valori grandi e piccoli
-* Per evitare di scrivere molti 0, sono già stati utilizzati prefissi di unità abbreviati, ad es. con Milli ($\unit{\milli}$) o Kilo ($\unit{\kilo}$)
+* Nel radioamatoriale abbiamo valori grandi e piccoli
+* Per evitare di scrivere molti zeri, si usano già i prefissi delle unità di misura, ad esempio milli ($\unit{\milli}$) o chilo ($\unit{\kilo}$)
 
 ---
 
 ## Potenze di dieci
 
-* I prefissi di unità nella maggior parte delle calcolatrici non possono essere inseriti direttamente
-* Al loro posto viene utilizzata la potenza di dieci
-* Kilo corrisponde a $1000$ o $10 \cdot 10 \cdot 10$
+* I prefissi delle unità di misura non possono essere inseriti direttamente nella maggior parte delle calcolatrici tascabili
+* Al loro posto si usano le potenze di dieci
+* Chilo corrisponde a $1000$ o $10 \cdot 10 \cdot 10$
 * Abbreviato $10^3$
 
 <fragment>
@@ -18,7 +18,7 @@ $\qty{1500000}{\hertz} \rArr \qty{1,5}{\mega\hertz} \rArr \qty{1,5e6}{\hertz}$
 </fragment>
   
 <note>
-* Si legge: "10 alla terza" o "terza potenza di 10"
+* Si legge: "10 alla 3" o "3ª potenza di 10"
 </note>
 
 ---
@@ -31,7 +31,7 @@ $\qty{0,0035}{\volt} \rArr \qty{3,5}{\milli\volt} \rArr \qty{3,5e-3}{\volt}$
 </fragment>
 
 --- style="font-size: 0.5em;"
-### Prefissi di unità e potenze di dieci
+### Prefissi delle unità di misura e potenze di dieci
 
 | c: Denominazione | c: Abbreviazione | l: Valore |
 | Pico | $\unit{\pico}$ | $10^{-12} = \num{0,000000000001}$ |
@@ -42,15 +42,15 @@ $\qty{0,0035}{\volt} \rArr \qty{3,5}{\milli\volt} \rArr \qty{3,5e-3}{\volt}$
 | Kilo | $\unit{\kilo}$ | $10^{3} = \num{1000}$ |
 | Mega | $\unit{\mega}$ | $10^{6} = \num{1000000}$ |
 | Giga | $\unit{\giga}$ | $10^{9} = \num{1000000000}$ |
-[table:e_einheitenvorzeichen:Prefissi di unità per potenze di dieci]
+[table:e_einheitenvorzeichen:Prefissi delle unità di misura per potenze di dieci]
 
 ---
 
-## Calcolatrice
+## Calcolatrice tascabile
 
 <left>
 * Tasto *EXP* o *$\times 10^x$*
-* Inserire: $145,3 \rightarrow$ Exp $\rightarrow 6$
+* Digitare: $145,3 \rightarrow$ Exp $\rightarrow 6$
 * Il tasto *ENG* sposta l'esponente di 3
 * Spesso il tasto *S/D* commuta tra diverse rappresentazioni
 </left>

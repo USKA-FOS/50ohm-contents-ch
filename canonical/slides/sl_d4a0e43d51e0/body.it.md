@@ -1,18 +1,18 @@
 <left>
-* *Filtro Notch* o filtro a pettine
+* *Filtro a tacca* o filtro notch
 * Filtro a banda stretta
-* Sopprime una specifica frequenza audio
-* Realizzabile nel campo audio o nel campo IF
+* Elimina una specifica frequenza BF
+* Realizzabile nel campo BF o nel campo IF
 </left>
 <right>
-[picture:242:frequenzverlauf_notchfilter:Caratteristica di un filtro Notch]
+[picture:242:frequenzverlauf_notchfilter:Caratteristica di un filtro a tacca]
 </right>
 <note>
-* Segnale disturbante, ad es. soppressione della portante
-* Nel campo IF, segnali disturbanti più forti possono essere soppressi in modo più efficace
-* Ha quindi meno influenza sull'AGC
-* I filtri Notch sono spesso regolabili nell'apparecchio radio (frequenza, larghezza di banda, caratteristica del filtro)
-* Possibile anche come filtro Auto-Notch
+* Elimina segnali disturbanti, ad esempio una portante
+* Nel campo IF i segnali disturbanti più forti possono essere soppressi in modo più efficace
+* Ha quindi un minore impatto sull’AGC
+* I filtri a tacca negli apparecchi radio sono spesso regolabili (frequenza, larghezza di banda BW, caratteristica del filtro)
+* Possibile anche come filtro notch automatico
 </note>
 
 ---

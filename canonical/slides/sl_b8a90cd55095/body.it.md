@@ -1,17 +1,17 @@
 <left>
 *Senza compressore*
-* Il parlato è soggetto a forti fluttuazioni di ampiezza
-* Ciò porta a una modulazione diversa del segnale
-* A volte il segnale può essere compreso male dal ricevitore
+* Il segnale vocale presenta forti variazioni di ampiezza
+* Ciò porta a una modulazione variabile del segnale
+* In parte, il segnale può risultare poco comprensibile al ricevitore
 </left>
 <right>
 *Con compressore*
-* Un *compressore dinamico* aumenta i segnali deboli rispetto a quelli forti
-* Il segnale viene compresso per quanto riguarda le sue fluttuazioni di ampiezza
-* Porta a una migliore comprensione da parte del ricevitore
+* Un *compressore di dinamica* solleva i segnali deboli rispetto a quelli forti
+* Il segnale viene compresso in termini di variazioni di ampiezza
+* Porta a una migliore comprensione al ricevitore
 </right>
 <note>
-* Molti apparecchi radio oggi hanno un compressore integrato
+* Molti apparati radio oggi includono un compressore integrato
 </note>
 
 ---

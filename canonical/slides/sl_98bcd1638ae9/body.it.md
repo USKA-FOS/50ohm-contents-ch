@@ -1,10 +1,16 @@
-* I campi elettromagnetici possono avere un impatto sulle persone che vi si trovano
-* Gli impianti radioamatoriali non devono mettere in pericolo le persone
-* *Ogni radioamatore* deve conoscere la *protezione personale nei campi elettromagnetici*
+## Campi elettromagnetici
 
-<note>
-Protezione in particolare per chi porta ausili corporei attivi come pacemaker o pompe per insulina
-</note>
+* Le onde radio consistono di campi elettrici e magnetici che si propagano
+* Complessivamente definiti come *campi elettromagnetici*
+* Possibili valori elevati di intensità di campo in prossimità delle antenne!
+* Possono avere effetti dannosi sulle persone che vi si trovano
+
+---
+
+* In particolare, i campi generati a potenze di trasmissione più elevate possono danneggiare il corpo umano
+* Possono anche interferire con dispositivi medici attivi, ad esempio pacemaker o pompe per insulina
+* Non deve esserci alcun pericolo per le persone a causa degli impianti di radioamatore
+* *Ogni radioamatore* deve conoscere le norme di *protezione delle persone nei campi elettromagnetici*
 
 ---
 [question:NK201]
@@ -12,11 +18,11 @@ Protezione in particolare per chi porta ausili corporei attivi come pacemaker o 
 ---
 ## Compatibilità elettromagnetica ambientale (EMVU)
 
-L'operatore della stazione radioamatoriale fissa è responsabile di garantire la "compatibilità elettromagnetica nell'ambiente" (EMVU).
+Il gestore della stazione radioamatoriale fissa è responsabile del rispetto della "compatibilità elettromagnetica ambientale" (EMVU).
 
 <note>
-* I limiti devono essere rispettati
-* Dove si trovano i limiti, lo si vedrà tra poco
+* I valori limite devono essere rispettati
+* Dove si trovano i valori limite verrà spiegato a breve
 </note>
 
 ---
@@ -27,18 +33,26 @@ L'operatore della stazione radioamatoriale fissa è responsabile di garantire la
 [question:VE502]
 
 ---
-## BIm-SchV e BEMFV
+## BImSchV e BEMFV
 
-* I limiti si trovano nella "26ª Ordinanza per l'attuazione della Legge federale sul controllo delle emissioni" (26. BIm-SchV) e nell'"Ordinanza sulla procedura di verifica per la limitazione dei campi elettromagnetici" (BEMFV)
-* Nell'ordinanza sulla "procedura di verifica per la limitazione dei campi elettromagnetici" (BEMFV) è descritta la procedura di notifica
-* *Il radioamatore si assicura autonomamente prima della messa in servizio e documenta che non vi sia alcun pericolo per le persone*
+I valori limite si trovano nella
 
-<note>
-* I radioamatori sono l'unica categoria che gode del privilegio di eseguire questa procedura autonomamente. Tutti gli altri operatori di stazioni radio devono rivolgersi a pagamento alla BNetzA.
-* Come fare, verrà spiegato nelle sezioni successive
-</note>
+* "26ª ordinanza di attuazione della legge federale sulla protezione contro le immissioni" (26. BImSchV)
+
+e nella
+
+* "Ordinanza sul procedimento di verifica per la limitazione dei campi elettromagnetici" (BEMFV)
+
 ---
 [question:VE505]
+
+--- style="font-size: smaller;"
+## Procedimento di verifica secondo la BEMFV
+
+* Nella "Ordinanza sul procedimento di verifica per la limitazione dei campi elettromagnetici" (BEMFV) è descritto il procedimento di verifica
+* *Il radioamatore deve assicurare e documentare autonomamente, prima della messa in funzione, che non vi sia pericolo per le persone*
+* I radioamatori sono l'unica categoria a cui è concesso di eseguire autonomamente questo procedimento
+* Tutti gli altri gestori di stazioni radio devono avvalersi a pagamento della Bundesnetzagentur (BNetzA).
 
 ---
 [question:VE503]
@@ -48,3 +62,10 @@ L'operatore della stazione radioamatoriale fissa è responsabile di garantire la
 
 ---
 [question:VE511]
+
+---
+
+* Si tratta della protezione delle persone!
+* Pertanto: il procedimento di verifica è una parte importante dell'esame per il radioamatore
+* Il procedimento di verifica viene trattato in modo più approfondito nei prossimi paragrafi
+* Tuttavia, è necessario solo quando la potenza irradiata dell'antenna supera un determinato valore

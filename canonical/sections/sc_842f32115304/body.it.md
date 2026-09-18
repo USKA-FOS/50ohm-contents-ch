@@ -1,80 +1,76 @@
-Il fenomeno fisico che rende possibili i segnali radio è il campo elettromagnetico. Il fatto che questo campo possa propagarsi nello spazio vuoto, senza un mezzo portante, è stata una delle scoperte più importanti del XIX secolo.
+Il fenomeno fisico che rende possibile i segnali radio è il campo elettromagnetico. La scoperta che questo campo possa propagarsi nel vuoto, senza un mezzo di supporto, fu una delle più significative del XIX secolo.
 
 <margin>
-Per molto tempo la fisica ha creduto nell'esistenza di un "etere", che esiste ovunque e in cui le onde elettromagnetiche si propagano come il suono nell'aria. Questa idea era sbagliata, ma il termine è rimasto nel linguaggio comune, ad esempio, ci sediamo al ricevitore e *ascoltiamo nell'etere*.
+Per lungo tempo la fisica ha creduto nell’esistenza di un "etere", presente ovunque e nel quale le onde elettromagnetiche si propagano come il suono nell’aria. Questa concezione era errata, ma il termine è rimasto nell’uso comune, ad esempio diciamo che siamo seduti al ricevitore e *ascoltiamo nell’etere*.
 </margin>
 
 ---
 
-Come suggerisce il nome, il campo elettromagnetico è composto da due componenti, il campo elettrico e il campo magnetico. Quando il campo elettrico e il campo magnetico cambiano nel tempo, entrambe le componenti del campo si presentano sempre insieme.
+Come suggerisce il nome stesso, il campo elettromagnetico è composto da due componenti: il campo elettrico e il campo magnetico. Se il campo elettrico e quello magnetico variano nel tempo, le due componenti del campo si presentano sempre insieme.
 
-Iniziamo tuttavia con il campo elettrico invariabile nel tempo, chiamato anche campo statico. Il campo elettrico è generalmente indicato con la lettera $E$.
+Iniziamo però con il campo elettrico statico, cioè non variabile nel tempo. Il campo elettrico viene generalmente indicato con la lettera $E$.
 
 <margin>
-[picture:881:e_plattenkondensator: Un condensatore a piastre con tensione applicata e campo elettrico omogeneo]
+[immagine:881:e_plattenkondensator: Un condensatore a piastre con tensione applicata e campo elettrico omogeneo]
 </margin>
-  
+
 ---
 
-La figura [ref:e_plattenkondensator] mostra schematicamente un *condensatore a piastre*, a cui è applicata una tensione $U$. Le piastre sono isolate l'una dall'altra, non scorre corrente. La tensione fa sì che si accumulino cariche positive sulla piastra sinistra e cariche negative sulla piastra destra. Tra le due piastre si forma un campo elettrico statico $E$. Supponiamo che l'estensione delle piastre in lunghezza e larghezza sia molto maggiore della distanza, allora l'intensità del campo è indipendente dalla posizione – parliamo di un campo *omogeneo*. L'intensità del campo elettrico può quindi essere calcolata molto semplicemente:
+La figura [rif:e_plattenkondensator] mostra schematicamente un *condensatore a piastre* al quale è applicata una tensione $U$. Le piastre sono isolate tra loro e non circola corrente. La tensione provoca l’accumulo di cariche positive sulla piastra sinistra e negative su quella destra. Tra le due piastre si forma un campo elettrico statico $E$. Se supponiamo che l’estensione delle piastre in lunghezza e larghezza sia molto maggiore della distanza tra loro, l’intensità del campo è indipendente dalla posizione: parliamo quindi di un campo *omogeneo*. L’intensità del campo elettrico può essere calcolata semplicemente con la formula:
 
 $E = \frac{U}{d}$
 
-con $d$ che è la distanza tra le piastre.
+dove $d$ è la distanza tra le piastre.
 
 <unit>
-Dall'equazione $E = \frac{U}{d}$ deriva anche l'unità di misura dell'intensità del campo elettrico: $\unit{\volt\per\meter}$
+Dall’equazione $E = \frac{U}{d}$ deriva anche l’unità di misura dell’intensità del campo elettrico: $\unit{\volt\per\metro}$
 </unit>
 
-[question:EB101]
-[question:EA103]
+[domanda:EB101]
+[domanda:EA103]
 
 ---
 
-Per calcolare l'intensità del campo elettrico in un condensatore a piastre, dobbiamo conoscere la tensione applicata e la distanza tra le piastre. I condensatori a piastre si trovano frequentemente negli accordatori di antenna.
+Per calcolare l’intensità del campo elettrico in un condensatore a piastre, dobbiamo conoscere la tensione applicata e la distanza tra le piastre. I condensatori a piastre sono spesso utilizzati nei dispositivi di adattamento delle antenne.
 
 <danger>
-In queste domande è assolutamente necessario prestare attenzione all'unità di misura corretta!
+In questi esercizi è fondamentale prestare attenzione all’unità di misura corretta!
 </danger>
 
-[question:EB102]
+[domanda:EB102]
 
-Qui possiamo nuovamente calcolare semplicemente con la formula di cui sopra:
+Qui possiamo semplicemente applicare la formula vista in precedenza:
 
-$E = \frac{\qty{9}{\volt}}{\qty{0,6}{\centi\meter}} = \frac{\qty{9}{\volt}}{\qty{0,006}{\meter}} = \qty{1500}{\volt\per\meter}$
+$E = \frac{\qty{9}{\volt}}{\qty{0,6}{\centi\metro}} = \frac{\qty{9}{\volt}}{\qty{0,006}{\metro}} = \qty{1500}{\volt\per\metro}$
 
-Possiamo immaginare un *condensatore avvolto* come un condensatore a piastre con piastre molto larghe che sono state avvolte. Tra le piastre si trova però uno strato isolante, il *materiale dielettrico/isolante*. Aumenta la *Capacità* del condensatore – la capacità di immagazzinare cariche. Tuttavia, non influisce sul calcolo dell'intensità del campo all'interno.
+Un *condensatore avvolto* può essere immaginato come un condensatore a piastre con piastre molto larghe, arrotolate tra loro. Tra le piastre si trova però uno strato isolante, il *materiale dielettrico*. Esso aumenta la *capacità* del condensatore, cioè la sua capacità di immagazzinare cariche. Tuttavia, il materiale dielettrico non influisce sul calcolo dell’intensità del campo al suo interno.
 
-[question:EB103]
+[domanda:EB103]
 
-Anche per questa domanda utilizziamo nuovamente la nostra formula:
+Anche per questo esercizio utilizziamo la nostra formula:
 
-$E = \frac{\qty{300}{\volt}}{\qty{0,15}{\milli\meter}} = \frac{\qty{300}{\volt}}{\qty{0,00015}{\meter}} = \qty{2000000}{\volt\per\meter} = \qty{2000}{\kilo\volt\per\meter}$
+$E = \frac{\qty{300}{\volt}}{\qty{0,15}{\milli\metro}} = \frac{\qty{300}{\volt}}{\qty{0,00015}{\metro}} = \qty{2000000}{\volt\per\metro} = \qty{2000}{\kilo\volt\per\metro}$
 
-I dielettrici possono sopportare solo un'intensità di campo elettrico limitata prima di perdere la loro capacità isolante. L'intensità di campo limite, a cui ciò accade, è chiamata anche *resistenza dielettrica*. Se conosciamo la resistenza dielettrica e lo spessore del dielettrico, possiamo calcolare la tensione che il condensatore può sopportare al massimo.
+I materiali dielettrici possono sopportare solo un’intensità di campo elettrico limitata prima di perdere la loro capacità isolante. Il valore limite di intensità di campo al quale ciò avviene è detto *intensità di rottura*. Se conosciamo l’intensità di rottura e lo spessore del materiale dielettrico, possiamo calcolare la tensione massima che il condensatore può sopportare.
 
-Se la resistenza dielettrica è $E_d$ e lo spessore del dielettrico è *d*, allora la tensione di breakdown è:
+Se l’intensità di rottura è $E_d$ e lo spessore del materiale dielettrico è *d*, allora la tensione di rottura è:
 
 $U_d =E_d \cdot d$
 
-[question:EB104]
+[domanda:EB104]
 
-Qui calcoliamo con la formula di cui sopra (attenzione alle unità di misura!):
+Qui calcoliamo con la formula vista in precedenza (attenzione alle unità di misura!):
 
-$\begin{split} U_d &= \qty{400}{\kilo\volt\per\centi\meter} \cdot \qty{0,15}{\milli\meter} \\ &= \qty{40000000}{\volt\per\meter} \cdot \qty{0,00015}{m} \\ &= \qty{6000}{\volt} \\ &= \qty{6}{\kilo\volt} \end{split}$
+$\begin{split} U_d &= \qty{400}{\kilo\volt\per\centi\metro} \cdot \qty{0,15}{\milli\metro} \\ &= \qty{40000000}{\volt\per\metro} \cdot \qty{0,00015}{\metro} \\ &= \qty{6000}{\volt} \\ &= \qty{6}{\kilo\volt} \end{split}$
 
 ---
 
-Un'altra capacità importante è quella di distinguere negli schemi le linee del campo elettrico dalle linee del campo magnetico che verranno trattate in seguito.
+Un’altra abilità importante è saper distinguere nelle schematizzazioni le linee del campo elettrico da quelle del campo magnetico, che verranno trattate in seguito.
 
-Con una semplice regola pratica è abbastanza facile: le linee del campo elettrico hanno un inizio e una fine, le linee del campo magnetico no! La direzione del campo elettrico va sempre dal potenziale più positivo a quello più negativo.
+Con una semplice regola pratica è piuttosto semplice: le linee del campo elettrico hanno un inizio e una fine, quelle del campo magnetico no! La direzione del campo elettrico va sempre dal potenziale più positivo a quello più negativo.
 
-[question:EB105]
+[domanda:EB105]
 
 <margin>
-[picture:884:e_feldlinien_vertikalantenne:Linee di campo su un'antenna verticale]
+[immagine:884:e_feldlinien_vertikalantenne: Linee di campo su un’antenna verticale]
 </margin>
-
-
-
-

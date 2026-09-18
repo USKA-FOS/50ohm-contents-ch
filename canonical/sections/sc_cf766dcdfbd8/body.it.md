@@ -1,23 +1,23 @@
-I radioamatori possono supportare la gestione di emergenze in caso di calamità e disastri trasmettendo messaggi per e a terzi.
+I radioamatori possono supportare la popolazione in caso di emergenze e calamità trasmettendo messaggi per conto di terzi.
 
-Quando si riceve una chiamata di emergenza, è necessario concentrarsi e annotare tutte le informazioni ricevute. Le seguenti regole di base dovrebbero essere sempre osservate nella gestione delle chiamate di emergenza:
-* Chi sente una chiamata di emergenza, rimane in ascolto e scrive tutto!
-* Trasmettere solo se si può aiutare e non si disturba il traffico radio!
-* Lasciare la frequenza solo quando si è sicuri che si sta aiutando o che la situazione di emergenza è terminata!
-* Seguire le istruzioni della stazione che chiama o della stazione di comando (se presente)!
-* Riconsegnare i messaggi completi e testuali al servizio di soccorso, ai vigili del fuoco o alla polizia!
+Quando si riceve una chiamata di emergenza, è importante concentrarsi e annotare tutte le informazioni ricevute. Le seguenti regole di base devono sempre essere rispettate durante la gestione delle chiamate di emergenza:
+* Chi riceve una chiamata di emergenza rimane in ascolto e annota tutto!
+* Trasmettere solo se si è in grado di fornire assistenza senza disturbare il traffico radio!
+* Abbandonare la frequenza solo quando si è certi che l’assistenza sia in corso o che la situazione di emergenza sia terminata!
+* Seguire le istruzioni della stazione che ha trasmesso la chiamata di emergenza o della stazione di coordinamento (se presente)!
+* Inoltrare le comunicazioni complete e letterali ai servizi di soccorso, ai vigili del fuoco o alla polizia!
 
 <attention>
-Esiste un *obbligo di prestare soccorso*. Il § 323c del Codice Penale sanziona l'omissione di soccorso: "Chiunque, in caso di incidenti o di pericolo o necessità comune, non presta soccorso, sebbene ciò sia necessario e possibile secondo le circostanze, in particolare senza un rischio personale significativo e senza violare altri doveri importanti, sarà punito con la reclusione fino a un anno o con una multa."
+Vige l’*obbligo di soccorso*. L’art. 323c del Codice penale prevede la sanzione per omissione di soccorso: «Chi non presta soccorso in caso di infortunio, pericolo comune o bisogno, quando sia necessario e possibile farlo senza pericolo per sé o per altri o senza trascurare altri doveri importanti, è punito con la reclusione fino a un anno o con la multa».
 </attention>
 
 <tip>
-Le *5 domande W* possono aiutare a trasmettere tutte le informazioni importanti su un'emergenza:
-* *Dove* si è verificato l'evento?
-* *Chi* lo segnala?
+Le *5 domande chiave* possono aiutare a trasmettere tutte le informazioni essenziali su un’emergenza:
+* *Dove* si è verificato l’evento?
+* *Chi* sta segnalando l’emergenza?
 * *Cosa* è successo?
-* *Quante* persone coinvolte?
-* *Attendere* ulteriori domande!
+* *Quante* persone sono coinvolte?
+* *Aspettare* eventuali richieste di chiarimento!
 </tip>
 
 [question:BF104]
@@ -26,34 +26,35 @@ Le *5 domande W* possono aiutare a trasmettere tutte le informazioni importanti 
 [question:BF107]
 
 <tip>
-Il [Dipartimento Radio di Emergenza del DARC](https://50ohm.de/rnf) fornisce raccomandazioni per l'organizzazione della comunicazione di emergenza e le mantiene aggiornate.
+Il [Referato Notfunk del DARC](https://50ohm.de/rnf) fornisce raccomandazioni per l’organizzazione delle comunicazioni di emergenza e le mantiene aggiornate.
 
-[Diventa subito membro del DARC!](https://50ohm.de/mw)
+[Iscriviti ora come membro del DARC!](https://50ohm.de/mw)
 </tip>
 
-Per la seguente domanda, ricordiamo ancora una volta la conversione dall'ora legale dell'Europa centrale all'UTC. Vale: UTC = MESZ meno 2 ore. Di conseguenza, al contrario, MESZ = UTC + 2 ore.
+Per la domanda successiva ricordiamo la conversione tra ora legale dell’Europa centrale (MESZ) e UTC: UTC = MESZ – 2 ore. Viceversa, MESZ = UTC + 2 ore.
 
 [question:BF108]
 
 ---
 
-Per il traffico radio di una stazione del servizio di radiocomunicazione aeronautica o marittima esistono i *segnali di soccorso* internazionali stabiliti "Mayday" e "SOS". Esistono inoltre i cosiddetti *segnali di urgenza e sicurezza*. Tra questi figurano, tra gli altri, "PAN PAN" e "SÉCURITÉ".
+Per il traffico radio di una stazione del servizio mobile marittimo o aeronautico sono previsti i *segnali di emergenza internazionali* «Mayday» e «SOS». Esistono inoltre i *segnali di urgenza e sicurezza*, tra cui «PAN PAN» e «SÉCURITÉ».
+
 
 <indepth>
-Con un *segnale di soccorso*, una stazione del servizio di radiocomunicazione marittima o aeronautica a bordo di una nave o di un aereo comunica di trovarsi in pericolo. Nella radiotelefonia si usa "Mayday"; in telegrafia è "SOS". I *segnali di urgenza e sicurezza*, invece, vengono utilizzati in situazioni meno pericolose.
+Un *segnale di emergenza* viene utilizzato da una stazione del servizio mobile marittimo o aeronautico a bordo di una nave o di un aeromobile per indicare che si trova in pericolo. In radiotelefonia si usa «Mayday»; in telegrafia si usa «SOS». I *segnali di urgenza e sicurezza* vengono invece utilizzati in situazioni meno critiche.
 
-Poiché tutti questi segnali non possono essere utilizzati nel radioamatore, in caso di emergenza è opportuno utilizzare altri termini pertinenti, come "Notfall" o "Emergency", per attirare l'attenzione.
+Poiché l’uso di questi segnali è vietato nel radioamatore, in caso di emergenza è consigliabile utilizzare altri termini appropriati, come «Notfall» o «Emergency», per attirare l’attenzione.
 </indepth>
- 
-L'uso di questi segnali di soccorso, urgenza o sicurezza è vietato nel radioamatore dalla normativa sui radioamatori. Ciò non significa tuttavia che non si possano effettuare chiamate di emergenza. È sufficiente prestare attenzione a non utilizzare, ad esempio, MAYDAY.
+
+L’uso di questi segnali di emergenza, urgenza o sicurezza è vietato nel radioamatoriale secondo il regolamento. Tuttavia, questo non significa che non si possano trasmettere chiamate di emergenza. È solo necessario evitare di utilizzare termini come MAYDAY.
 
 [question:BF101]
 [question:BF102]
 [question:VD105]
 [question:BF103]
 
-La IARU ha stabilito per la Regione 1 dell'ITU le seguenti frequenze di emergenza nei piani di banda, che devono essere tenute libere per il traffico radio in caso di calamità:
-% TODO: In realtà, le indicazioni di banda non sono necessarie. Ma se viene indicata solo la frequenza, gli spazi tra le righe diventano enormi
+L’IARU ha definito per la regione ITU 1 le seguenti frequenze di emergenza nei piani di banda, che devono essere riservate al traffico radio in caso di calamità:
+% TODO: In realtà le indicazioni di banda sono superflue. Ma se viene indicata solo la frequenza, gli spazi tra le righe diventano troppo ampi.
 * $\qty{3760}{\kilo\hertz}$ nella banda degli $\qty{80}{\meter}$
 * $\qty{7110}{\kilo\hertz}$ nella banda dei $\qty{40}{\meter}$
 * $\qty{14300}{\kilo\hertz}$ nella banda dei $\qty{20}{\meter}$

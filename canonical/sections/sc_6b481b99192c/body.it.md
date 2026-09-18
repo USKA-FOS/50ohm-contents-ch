@@ -1,25 +1,26 @@
-Per spiegare la frequenza e le onde radio, dobbiamo fare un piccolo passo indietro e occuparci brevemente della tensione elettrica. Tutte le sostanze che conosciamo sono composte da particelle minuscole: legno, acqua, metalli e tutto il resto, persino l'aria. Alcune di queste particelle hanno la proprietà di attrarsi o respingersi a vicenda. Si chiamano "cariche elettricamente" e si dividono nei gruppi "positivo" (più) e "negativo" (meno) (Immagine [ref:n_frequenz_elektrische_ladungen]) [index:Ladung].
+Per spiegare frequenza e onde radio, dobbiamo fare un piccolo passo indietro e occuparci brevemente della tensione elettrica. Tutte le sostanze che conosciamo sono composte da particelle minuscole: legno, acqua, metalli e tutto il resto, persino l'aria. Alcune di queste particelle hanno la proprietà di attrarsi o respingersi a vicenda. Vengono definite "cariche elettriche" e suddivise nei gruppi "positive" (più) e "negative" (meno) (immagine [ref:n_frequenz_elektrische_ladungen]) [index:Ladung].
+
 
 <margin>
-[picture:713:n_frequenz_elektrische_ladungen:Particelle cariche positivamente e negativamente distribuite uniformemente in un oggetto.]
+[picture:713:n_frequenz_elektrische_ladungen:Particelle cariche positivamente e negativamente uniformemente distribuite in un oggetto.]
 </margin>
 
 ---
 
-Particelle con la stessa carica si respingono: il più respinge il più e il meno respinge il meno. Cariche diverse, invece, si attraggono: il più e il meno si attraggono a vicenda (Figura [ref:n_ladungen]). Poiché più e meno si attraggono, la maggior parte degli oggetti è elettricamente neutra, cioè contiene lo stesso numero di cariche positive e negative. La somma è zero.
+Le particelle con carica dello stesso segno si respingono: il più respinge il più e il meno respinge il meno. Le cariche di segno opposto, invece, si attraggono: il più attrae il meno (figura [ref:n_ladungen]). Poiché il più e il meno si attraggono, la maggior parte degli oggetti è elettricamente neutra, cioè contiene un numero uguale di cariche positive e negative. La somma è zero.
 
 <margin>
-[picture:710:n_ladungen:Attrazione e repulsione delle cariche]
+[picture:710:n_ladungen:Attrazione e repulsione tra cariche]
 </margin>
 
 ---
 
-È tuttavia possibile separare le cariche in modo mirato, ad esempio in una batteria, in una cella solare o in un impianto eolico. Le cariche cercano quindi di ricongiungersi. Esiste una *tensione* [index:Spannung:Spannung] elettrica. I dispositivi che separano le cariche e forniscono quindi tensione elettrica sono chiamati *fonti di tensione* [index:Spannung:Spannungsquelle]. Il terminale caricato positivamente è chiamato polo positivo e l'altro polo negativo. Le fonti di tensione possono avere una tensione di diversa entità. La tensione elettrica viene misurata nell'unità Volt [index:Einheit:Volt] con l'abbreviazione $\unit{V}$.
+Tuttavia, è possibile separare le cariche in modo mirato, ad esempio in una batteria, una cella solare o una centrale eolica. Le cariche cercano quindi di ricongiungersi. Si genera una *tensione elettrica* [index:Spannung]. I dispositivi che separano le cariche e forniscono tensione elettrica sono chiamati *sorgenti di tensione* [index:Spannung:Spannungsquelle]. Il terminale carico positivamente è detto polo positivo, quello carico negativamente polo negativo. Le sorgenti di tensione possono fornire tensioni di valore diverso. La tensione elettrica si misura nell'unità volt [index:Einheit:Volt] con l'abbreviazione $\unit{V}$.
 
-Non appena si collega un utilizzatore elettrico [index:Verbraucher] come una lampada o un computer ai due poli e lo si accende, le cariche possono muoversi. Fluisce una corrente elettrica [index:Strom] (Immagine [ref:n_frequenz_strom_fliesst]).
+Non appena si collega e si accende un utilizzatore elettrico [index:Verbraucher], come una lampada o un computer, alle due polarità, le cariche possono muoversi. Si genera una *corrente elettrica* (immagine [ref:n_frequenz_strom_fliesst]).
 
 <margin>
-[picture:714:n_frequenz_strom_fliesst:I poli di una batteria, al polo negativo c'è un eccesso di cariche negative e al polo positivo un eccesso di cariche positive, i poli della batteria sono collegati, quindi la corrente può fluire attraverso l'utilizzatore.]
+[picture:714:n_frequenz_strom_fliesst:I poli di una batteria: al polo negativo c'è un eccesso di cariche negative, al polo positivo un eccesso di cariche positive; i poli della batteria sono collegati, quindi la corrente può fluire attraverso l'utilizzatore.]
 </margin>
 
-Esistono anche fonti di tensione in cui i poli oscillano continuamente tra tensione positiva e negativa, ad esempio le centrali elettriche nella rete elettrica pubblica. Dalla presa domestica proviene quindi una tensione alternata [index:Spannung:Wechselspannung], a differenza della tensione continua [index:Spannung:Gleichspannung] con polo positivo e negativo.
+Esistono anche sorgenti di tensione in cui i poli oscillano costantemente tra tensione positiva e negativa, ad esempio le centrali elettriche della rete pubblica. Dalla presa di corrente domestica, quindi, esce una *tensione alternata* [index:Spannung:Wechselspannung] – al contrario della *tensione continua* [index:Spannung:Gleichspannung] con polo positivo e negativo.

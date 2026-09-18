@@ -1,14 +1,14 @@
 ## Frequenza di taglio
 
-Per filtri passa-alto e passa-basso, la frequenza di taglio è data da
+Nei filtri passa-alto e passa-basso vale per la frequenza di taglio:
 
 <left>
-Per elementi RL
+Nei circuiti RL
 $R = X_\text{L}$
 $f_\text{g} = \frac{R}{2 \pi \cdot L}$
 </left>
 <right>
-Per elementi RC
+Nei circuiti RC
 $R = X_\text{C}$
 $f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C}$
 </right>
@@ -17,10 +17,10 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C}$
 ---
 [question:AD201]
 ---
-#### Percorso di soluzione
-* dato: $R = \qty{4,7}{\kilo\ohm}$
-* dato: $C = \qty{2,2}{\nano\farad}$
-* cercato: $f_\text{g}$
+#### Procedimento di soluzione
+* dati: $R = \qty{4,7}{\kilo\ohm}$
+* dati: $C = \qty{2,2}{\nano\farad}$
+* richiesto: $f_\text{g}$
 
 <fragment>
 $f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C} = \frac{1}{2 \pi \cdot \qty{4,7}{\kilo\ohm} \cdot \qty{2,2}{\nano\farad}} \approx \qty{15,4}{\kilo\hertz}$
@@ -28,10 +28,10 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C} = \frac{1}{2 \pi \cdot \qty{4,7}{\
 ---
 [question:AD202]
 ---
-#### Percorso di soluzione
-* dato: $R = \qty{10}{\kilo\ohm}$
-* dato: $C = \qty{47}{\nano\farad}$
-* cercato: $f_\text{g}$
+#### Procedimento di soluzione
+* dati: $R = \qty{10}{\kilo\ohm}$
+* dati: $C = \qty{47}{\nano\farad}$
+* richiesto: $f_\text{g}$
 
 <fragment>
 $f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C} = \frac{1}{2 \pi \cdot \qty{10}{\kilo\ohm} \cdot \qty{47}{\nano\farad}} \approx \qty{339}{\hertz}$
@@ -39,13 +39,13 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R \cdot C} = \frac{1}{2 \pi \cdot \qty{10}{\k
 ---
 [question:AD203]
 ---
-#### Percorso di soluzione
-* dato: $R_1 = \qty{4,7}{\kilo\ohm}$
-* dato: $C_1 = \qty{6,8}{\nano\farad}$
-* cercato: $f_\text{g}$
+#### Procedimento di soluzione
+* dati: $R_1 = \qty{4,7}{\kilo\ohm}$
+* dati: $C_1 = \qty{6,8}{\nano\farad}$
+* richiesto: $f_\text{g}$
 
 <fragment>
-$C_2$ e tutte le altre informazioni non sono rilevanti per il filtro passa-basso.
+$C_2$ e tutti gli altri dati sono irrilevanti per il filtro passa-basso.
 </fragment>
 
 <fragment>
@@ -55,9 +55,9 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R_1 \cdot C_1} = \frac{1}{2 \pi \cdot \qty{4,
 ## Frequenza di risonanza
 
 * Collegamento in parallelo o in serie di bobina e condensatore $\rightarrow$ circuito oscillante
-* Alte frequenze $\rightarrow$ alta resistenza sulla bobina
-* Basse frequenze $\rightarrow$ alta resistenza sul condensatore
-* Esiste una frequenza alla quale la bobina e il condensatore hanno la stessa resistenza $\rightarrow$ *frequenza di risonanza*
+* Alte frequenze $\rightarrow$ alta impedenza alla bobina
+* Basse frequenze $\rightarrow$ alta impedenza al condensatore
+* Esiste una frequenza in cui bobina e condensatore hanno la stessa impedenza $\rightarrow$ *frequenza di risonanza*
 
 ---
 [question:AD206]
@@ -67,19 +67,19 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R_1 \cdot C_1} = \frac{1}{2 \pi \cdot \qty{4,
 [picture:233:a_schwingkreis_parallelschwingkreis:Circuito oscillante parallelo e rappresentazione dell'impedenza in funzione della frequenza]
 
 * I componenti ideali si caricano e scaricano continuamente
-* Teoricamente, l'impedenza alla frequenza di risonanza è infinitamente alta
+* In teoria, l'impedenza alla frequenza di risonanza è infinita
 * In pratica, il componente con la resistenza più bassa determina l'impedenza totale
-* Alle frequenze superiori e inferiori alla frequenza di risonanza, il circuito oscillante parallelo ha un'impedenza inferiore
+* A frequenze superiori e inferiori alla frequenza di risonanza, il circuito oscillante parallelo ha un'impedenza minore
 
 --- style="font-size: smaller;"
-## Circuito oscillante in serie
+## Circuito oscillante serie
 
-[picture:230:a_schwingkreis_reihenschwingkreis:Circuito oscillante in serie e rappresentazione dell'impedenza in funzione della frequenza]
+[picture:230:a_schwingkreis_reihenschwingkreis:Circuito oscillante serie e rappresentazione dell'impedenza in funzione della frequenza]
 
 * O circuito oscillante in serie
-* Teoricamente, l'impedenza alla frequenza di risonanza è $\qty{0}{\ohm}$
+* In teoria, l'impedenza alla frequenza di risonanza è $\qty{0}{\ohm}$
 * In pratica, l'impedenza è determinata dalla resistenza ohmica
-* Alle frequenze superiori e inferiori alla frequenza di risonanza, il circuito oscillante in serie ha un'impedenza maggiore
+* A frequenze superiori e inferiori alla frequenza di risonanza, il circuito oscillante serie ha un'impedenza maggiore
 
 ---
 [question:AD207]
@@ -88,11 +88,11 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R_1 \cdot C_1} = \frac{1}{2 \pi \cdot \qty{4,
 ---
 ## Caso di risonanza
 
-Per circuiti oscillanti paralleli e in serie:
+Per circuiti oscillanti paralleli e serie:
 
 $X_\text{C} = X_\text{L}$
 
-Le impedenze hanno la stessa grandezza.
+Le impedenze sono di uguale entità.
 
 <fragment>
 Frequenza di risonanza con la formula del circuito oscillante di Thomson:
@@ -108,11 +108,11 @@ William Thomson, poi Lord Kelvin, nel 1853
 
 [question:AD208]
 ---
-#### Percorso di soluzione
-* dato: $L = \qty{1,2}{\micro\henry}$
-* dato: $C = \qty{6,8}{\pico\farad}$
-* dato: $R = \qty{10}{\ohm}$
-* cercato: $f_0$
+#### Procedimento di soluzione
+* dati: $L = \qty{1,2}{\micro\henry}$
+* dati: $C = \qty{6,8}{\pico\farad}$
+* dati: $R = \qty{10}{\ohm}$
+* richiesto: $f_0$
 
 <fragment>
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{1,2}{\micro\henry} \cdot \qty{6,8}{\pico\farad}}} \approx \qty{55,7}{\mega\hertz} \end{split}$
@@ -123,10 +123,10 @@ La resistenza $R$ non è necessaria per il calcolo.
 ---
 [question:AD209]
 ---
-#### Percorso di soluzione
-* dato: $L = \qty{10}{\micro\henry}$
-* dato: $C = \qty{1}{\nano\farad}$
-* cercato: $f_0$
+#### Procedimento di soluzione
+* dati: $L = \qty{10}{\micro\henry}$
+* dati: $C = \qty{1}{\nano\farad}$
+* richiesto: $f_0$
 
 <fragment>
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{10}{\micro\henry} \cdot \qty{1}{\nano\farad}}} \approx \qty{1,592}{\mega\hertz} \end{split}$
@@ -134,10 +134,10 @@ $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi
 ---
 [question:AD210]
 ---
-#### Percorso di soluzione
-* dato: $L = \qty{100}{\micro\henry}$
-* dato: $C = \qty{0,01}{\micro\farad}$
-* cercato: $f_0$
+#### Procedimento di soluzione
+* dati: $L = \qty{100}{\micro\henry}$
+* dati: $C = \qty{0,01}{\micro\farad}$
+* richiesto: $f_0$
 
 <fragment>
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{100}{\micro\henry} \cdot \qty{0,01}{\micro\farad}}} \approx \qty{159}{\kilo\hertz} \end{split}$
@@ -145,10 +145,10 @@ $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi
 ---
 [question:AD211]
 ---
-#### Percorso di soluzione
-* dato: $L = \qty{2,2}{\micro\henry}$
-* dato: $C = \qty{56}{\pico\farad}$
-* cercato: $f_0$
+#### Procedimento di soluzione
+* dati: $L = \qty{2,2}{\micro\henry}$
+* dati: $C = \qty{56}{\pico\farad}$
+* richiesto: $f_0$
 
 <fragment>
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{2,2}{\micro\henry} \cdot \qty{56}{\pico\farad}}} \approx \qty{14,34}{\mega\hertz} \end{split}$
@@ -156,12 +156,12 @@ $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi
 ---
 [question:AD212]
 --- style="font-size: 0.7em;"
-#### Percorso di soluzione
-* dato: $C_1 = \qty{0,1}{\nano\farad}$
-* dato: $C_2 = \qty{1,5}{\nano\farad}$
-* dato: $C_3 = \qty{220}{\pico\farad}$
-* dato: $L = \qty{1,2}{\milli\henry}$
-* cercato: $f_0$
+#### Procedimento di soluzione
+* dati: $C_1 = \qty{0,1}{\nano\farad}$
+* dati: $C_2 = \qty{1,5}{\nano\farad}$
+* dati: $C_3 = \qty{220}{\pico\farad}$
+* dati: $L = \qty{1,2}{\milli\henry}$
+* richiesto: $f_0$
 
 <fragment>
 $C = C_1 + C_2 + C_3 = \qty{0,1}{\nano\farad} + \qty{1,5}{\nano\farad} + \qty{220}{\pico\farad} = \qty{1,82}{\nano\farad}$
@@ -170,16 +170,16 @@ $C = C_1 + C_2 + C_3 = \qty{0,1}{\nano\farad} + \qty{1,5}{\nano\farad} + \qty{22
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{1,2}{\milli\henry} \cdot \qty{1,82}{\nano\farad}}} \approx \qty{107,7}{\kilo\hertz} \end{split}$
 </fragment>
 ---
-### Modifica della frequenza di risonanza
+### Variazione della frequenza di risonanza
 
-* Bobina o condensatore più grandi $\rightarrow$ frequenza di risonanza più bassa
-* Bobina o condensatore più piccoli $\rightarrow$ frequenza di risonanza più alta
+* Bobina o condensatore più grandi $\rightarrow$ frequenza di risonanza minore
+* Bobina o condensatore più piccoli $\rightarrow$ frequenza di risonanza maggiore
 
 <fragment>
 Aumentare l'induttanza
 * Aumentare il numero di spire
 * Avvicinare le spire
-* Introdurre un nucleo di ferrite
+* Inserire un nucleo in ferrite
 
 </fragment>
 
@@ -196,11 +196,11 @@ Aumentare l'induttanza
 ---
 ### Circuito oscillante controllato in tensione
 
-[picture:752:a_schwingkreis_potentiometer:Variazione della capacità tramite un Varicap]
+[picture:752:a_schwingkreis_potentiometer:Variazione della capacità tramite un varicap]
 
-* Il Varicap viene modificato da una tensione di controllo sul partitore di tensione resistivo
-* Tensione più bassa sul Varicap $\rightarrow$ strato di svuotamento più piccolo nel Varicap $\rightarrow$ capacità maggiore
-* Condensatori collegati in serie $\rightarrow$ la capacità diminuisce $\rightarrow$ la frequenza di risonanza aumenta
+* Il varicap viene modificato da una tensione di controllo al partitore di tensione resistivo
+* Tensione minore al varicap $\rightarrow$ giunzione più piccola nel varicap $\rightarrow$ capacità maggiore
+* Condensatori collegati in serie $\rightarrow$ capacità minore $\rightarrow$ frequenza di risonanza maggiore
 
 ---
 [question:AD218]
@@ -209,10 +209,10 @@ Aumentare l'induttanza
 
 [picture:785:a_schwingkreis_bandpass:Filtro passa-banda composto da più circuiti oscillanti]
 
-* Combinazione di circuiti oscillanti paralleli e in serie
-* Lascia passare una determinata banda di frequenza
+* Combinazione di circuiti oscillanti paralleli e serie
+* Lascia passare una specifica banda di frequenza
 * I circuiti oscillanti paralleli agiscono come resistenze ad alta impedenza
-* Il circuito oscillante in serie agisce come resistenza a bassa impedenza
+* Il circuito oscillante serie agisce come resistenza a bassa impedenza
 
 ---
 [question:AD205]
@@ -221,19 +221,19 @@ Aumentare l'induttanza
 
 * Grande dipendenza dalla resistenza ohmica
 * Indicata in dB rispetto a un valore di riferimento del filtro
-* Ad esempio, *larghezza di banda* al *valore di $\qty{-3}{\dB}$*
-* Metà della potenza di un segnale può ancora attraversare il filtro
-* O lo 0,7 volte della tensione del segnale
+* Ad esempio, *larghezza di banda* al valore di *$\qty{-3}{\dB}$*
+* Può ancora passare metà della potenza di un segnale
+* Oppure la tensione del segnale pari a 0,7 volte
 
 ---
 [question:AD219]
 ---
 [question:AD220]
 ---
-### Larghezze di banda comuni
+### Larghezze di banda tipiche
 
-* Stretta con $\qty{500}{\hertz}$ per la telegrafia (CW)
-* Ampia con $\qty{2,7}{\kilo\hertz}$ per la modulazione vocale (SSB)
+* Banda stretta con $\qty{500}{\hertz}$ per telegrafia (CW)
+* Banda larga con $\qty{2,7}{\kilo\hertz}$ per modulazione vocale (SSB)
 
 ---
 [question:AD221]
@@ -243,12 +243,12 @@ Aumentare l'induttanza
 ## Fattore di qualità di un circuito oscillante
 
 * Anche fattore Q
-* Indicatore di perdita di energia
+* Caratteristica della perdita di energia
 * Rapporto tra le reattanze e la resistenza ohmica nel caso di risonanza ($X_\text{L} = X_\text{C}$)
 
 <fragment>
 <left>
-Circuito oscillante in serie
+Circuito oscillante serie
 $Q = \frac{f_0}{B} = \frac{X_\text{L}}{R_\text{S}}$
 </left>
 <right>
@@ -260,21 +260,22 @@ $Q = \frac{f_0}{B} = \frac{R_\text{P}}{X_\text{L}}$
 ---
 [question:AD225]
 --- style="font-size: 0.7em;"
-#### Percorso di soluzione
+#### Procedimento di soluzione
 <left>
-* dato: $L = \qty{100}{\micro\henry}$
-* dato: $C = \qty{0,01}{\micro\farad}$
+* dati: $L = \qty{100}{\micro\henry}$
+* dati: $C = \qty{0,01}{\micro\farad}$
 </left>
 <right>
-* dato: $R_\text{S} = \qty{10}{\ohm}$
-* cercato: $Q$
+* dati: $R_\text{S} = \qty{10}{\ohm}$
+* richiesto: $Q$
 </right>
 
 <fragment>
+Prima calcolare $f_0$
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{100}{\micro\henry} \cdot \qty{0,01}{\micro\farad}}} \approx \qty{159,2}{\kilo\hertz} \end{split}$
 </fragment>
 <fragment>
-Calcolare $B$ o $X_\text{L}$
+Poi calcolare $B$ o $X_\text{L}$
 $\begin{split} X_\text{L} &= \omega \cdot L = 2 \pi \cdot f_0 \cdot L\\ &= 2 \pi \cdot \qty{159,2}{\kilo\hertz} \cdot \qty{100}{\micro\henry} \approx \qty{100,03}{\ohm} \end{split}$
 </fragment>
 <fragment>
@@ -283,21 +284,22 @@ $Q = \frac{X_\text{L}}{R_\text{S}} = \frac{\qty{100,03}{\ohm}}{\qty{10}{\ohm}} \
 ---
 [question:AD226]
 --- style="font-size: 0.7em;"
-#### Percorso di soluzione
+#### Procedimento di soluzione
 <left>
-* dato: $L = \qty{2,2}{\micro\henry}$
-* dato: $C = \qty{56}{\pico\farad}$
+* dati: $L = \qty{2,2}{\micro\henry}$
+* dati: $C = \qty{56}{\pico\farad}$
 </left>
 <right>
-* dato: $R_\text{P} = \qty{1}{\kilo\ohm}$
-* cercato: $Q$
+* dati: $R_\text{P} = \qty{1}{\kilo\ohm}$
+* richiesto: $Q$
 </right>
-  
+
 <fragment>
+Prima calcolare $f_0$
 $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi \cdot \sqrt{\qty{2,2}{\micro\henry} \cdot \qty{56}{\pico\farad}}} \approx \qty{14,34}{\mega\hertz} \end{split}$
 </fragment>
 <fragment>
-Calcolare $B$ o $X_\text{L}$
+Poi calcolare $B$ o $X_\text{L}$
 $\begin{split} X_\text{L} &= \omega \cdot L = 2 \pi \cdot f_0 \cdot L\\ &= 2 \pi \cdot \qty{14,34}{\mega\hertz} \cdot \qty{2,2}{\micro\henry} \approx \qty{198,2}{\ohm} \end{split}$
 </fragment>
 <fragment>
@@ -311,10 +313,10 @@ Tramite frequenza di risonanza e fattore di qualità
 $Q = \frac{f_0}{B} \Rightarrow B = \frac{f_0}{Q}$
 
 <fragment>
-O inserito con la formula del circuito oscillante di Thomson
+Oppure inserendo la formula del circuito oscillante di Thomson
 
 <left>
-Circuito oscillante in serie
+Circuito oscillante serie
 $B = \frac{R_\text{S}}{2 \pi \cdot L}$
 </left>
 <right>
@@ -323,17 +325,17 @@ $B = \frac{1}{2 \pi \cdot R_\text{P} \cdot C}$
 </right>
 </fragment>
 <note>
-Derivazione non mostrata
+Dimostrazione non mostrata
 </note>
 
 ---
 [question:AD224]
 ---
-#### Percorso di soluzione
-* dato: $L = \qty{2,2}{\micro\henry}$
-* dato: $C = \qty{56}{\pico\farad}$
-* dato: $R_\text{P} = \qty{1}{\kilo\ohm}$
-* cercato: $B$
+#### Procedimento di soluzione
+* dati: $L = \qty{2,2}{\micro\henry}$
+* dati: $C = \qty{56}{\pico\farad}$
+* dati: $R_\text{P} = \qty{1}{\kilo\ohm}$
+* richiesto: $B$
 
 <fragment>
 $\begin{split} B &= \frac{1}{2 \pi \cdot R_\text{P} \cdot C}\\ &= \frac{1}{2 \pi \cdot \qty{1}{\kilo\ohm} \cdot \qty{56}{\pico\farad}} \approx \qty{2,84}{\mega\hertz} \end{split}$
@@ -342,11 +344,11 @@ $\begin{split} B &= \frac{1}{2 \pi \cdot R_\text{P} \cdot C}\\ &= \frac{1}{2 \pi
 ---
 [question:AD223]
 ---
-#### Percorso di soluzione
-* dato: $L = \qty{100}{\micro\henry}$
-* dato: $C = \qty{0,01}{\micro\farad}$
-* dato: $R_\text{S} = \qty{10}{\ohm}$
-* cercato: $B$
+#### Procedimento di soluzione
+* dati: $L = \qty{100}{\micro\henry}$
+* dati: $C = \qty{0,01}{\micro\farad}$
+* dati: $R_\text{S} = \qty{10}{\ohm}$
+* richiesto: $B$
 
 <fragment>
 $B = \frac{R_\text{S}}{2 \pi \cdot L} = \frac{\qty{10}{\ohm}}{2 \pi \cdot \qty{100}{\micro\henry}} \approx \qty{15,9}{\kilo\hertz}$
@@ -354,26 +356,26 @@ $B = \frac{R_\text{S}}{2 \pi \cdot L} = \frac{\qty{10}{\ohm}}{2 \pi \cdot \qty{1
 --- style="font-size: 0.7em;" data-transition="none"
 ## Accoppiamento
 
-[picture:184:a_schwingkreis_kopplung:Accoppiamento induttivo di due circuiti oscillanti e il diagramma di tensione in funzione della frequenza]
+[picture:184:a_schwingkreis_kopplung:Accoppiamento induttivo di due circuiti oscillanti e diagramma della tensione in funzione della frequenza]
 
 * Tra stadi di circuito o filtri vengono spesso utilizzati circuiti oscillanti accoppiati
 * Due circuiti oscillanti accoppiati induttivamente o capacitivamente
-* Il grado di accoppiamento determina l'influenza reciproca, la larghezza di banda e la curva di trasmissione
+* Il grado di accoppiamento determina l'influenza reciproca, la larghezza di banda e la curva di attenuazione
 
 --- style="font-size: 0.7em;" data-transition="none"
-[picture:184:a_schwingkreis_kopplung:Accoppiamento induttivo di due circuiti oscillanti e il diagramma di tensione in funzione della frequenza]
+[picture:184:a_schwingkreis_kopplung:Accoppiamento induttivo di due circuiti oscillanti e diagramma della tensione in funzione della frequenza]
 
-* d: *accoppiamento debole* $\rightarrow$ quasi nessuna influenza reciproca, attenuazione di trasmissione molto alta e larghezza di banda molto ridotta
-* c: *accoppiamento sottocritico* $\rightarrow$ quasi nessuna influenza reciproca, attenuazione di trasmissione alta e larghezza di banda ridotta
-
---- style="font-size: 0.7em;" data-transition="none"
-[picture:184:a_schwingkreis_kopplung:Accoppiamento induttivo di due circuiti oscillanti e il diagramma di tensione in funzione della frequenza]
-
-* b: *accoppiamento critico* $\rightarrow$ leggera influenza reciproca, curva di trasmissione piatta con bassa attenuazione e plateau nella banda passante, nonché buona larghezza di banda
+* d: *accoppiamento lasco* $\rightarrow$ scarsa influenza reciproca, attenuazione d’inserzione molto elevata e larghezza di banda molto ridotta
+* c: *accoppiamento sottocritico* $\rightarrow$ scarsa influenza reciproca, attenuazione d’inserzione elevata e larghezza di banda ridotta
 
 --- style="font-size: 0.7em;" data-transition="none"
-[picture:184:a_schwingkreis_kopplung:Accoppiamento induttivo di due circuiti oscillanti e il diagramma di tensione in funzione della frequenza]
-* a: *accoppiamento supercritico* $\rightarrow$ forte influenza reciproca, modifica delle frequenze di risonanza, ampia larghezza di banda e distorsione della curva di trasmissione nella banda passante con "incavi"
+[picture:184:a_schwingkreis_kopplung:Accoppiamento induttivo di due circuiti oscillanti e diagramma della tensione in funzione della frequenza]
+
+* b: *accoppiamento critico* $\rightarrow$ qualche influenza reciproca, curva di attenuazione piatta con attenuazione ridotta e plateau nella banda passante nonché buona larghezza di banda
+
+--- style="font-size: 0.7em;" data-transition="none"
+[picture:184:a_schwingkreis_kopplung:Accoppiamento induttivo di due circuiti oscillanti e diagramma della tensione in funzione della frequenza]
+* a: *accoppiamento sovracritico* $\rightarrow$ forte influenza reciproca, variazione delle frequenze di risonanza, grande larghezza di banda e distorsione della curva di attenuazione nella banda passante con "avvallamenti"
 
 ---
 [question:AD227]

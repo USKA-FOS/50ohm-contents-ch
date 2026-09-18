@@ -1,40 +1,47 @@
-## Trasformata di Fourier e scomposizione del segnale
+## Trasformata di Fourier e scomposizione dei segnali
 
-* I segnali possono essere rappresentati sia nel dominio del tempo che nel dominio della frequenza  
-* Nel dominio del tempo: asse X $\rightarrow$ tempo, asse Y $\rightarrow$ tensione o potenza  
-* Nel dominio della frequenza: asse X $\rightarrow$ frequenza, asse Y $\rightarrow$ ampiezza o potenza
+* I segnali possono essere rappresentati sia nel dominio del tempo che in quello della frequenza
+  * Nel dominio del tempo: asse X → tempo, asse Y → tensione o potenza
+  * Nel dominio della frequenza: asse X → frequenza, asse Y → ampiezza o potenza
 
 ---
 
 ### Scomposizione dei segnali
 
-* Ogni segnale può essere rappresentato come una sovrapposizione di oscillazioni sinusoidali  
-* Ogni oscillazione sinusoidale ha una certa ampiezza e fase  
-* Questo principio consente di scomporre segnali complessi nei loro componenti
+* Ogni segnale può essere rappresentato come una sovrapposizione di oscillazioni sinusoidali
+* Ogni oscillazione sinusoidale ha una determinata ampiezza e fase
+* Questo principio consente di scomporre segnali complessi nei loro componenti fondamentali
 
 ---
 
 ### Trasformata di Fourier
 
-* Procedura matematicamente complessa che analizza un segnale temporale  
-* Indica quali oscillazioni sinusoidali (frequenze) sono contenute nel segnale  
-* Il risultato viene rappresentato come spettro di frequenza (asse X: frequenza, asse Y: ampiezza/potenza)
+* Procedimento matematico complesso che analizza un segnale nel tempo
+* Mostra quali oscillazioni sinusoidali (frequenze) sono contenute nel segnale
+* Il risultato viene rappresentato come uno spettro di frequenza (asse X: frequenza, asse Y: ampiezza/potenza)
 
 ---
 
-### Fast Fourier Transformation (FFT)
+### Fast Fourier Transform (FFT)
 
-* Calcolo efficiente della trasformata discreta di Fourier (DFT)  
-* Riduce notevolmente l'onere computazionale  
-* Ampiamente utilizzata in software e hardware per l'elaborazione dei segnali
+* Calcolo efficiente della trasformata discreta di Fourier (DFT)
+* Riduce notevolmente il carico computazionale
+* Ampiamente diffuso in software e hardware per l'elaborazione dei segnali
 
----
+--- style="font-size: smaller;"
 
-### Esempio: segnale a onda quadra e armoniche
+## Spettri di forme d'onda tipiche
 
-* I segnali a onda quadra contengono numerose armoniche oltre all'oscillazione fondamentale  
-* Queste armoniche (multipli dispari della frequenza fondamentale) diminuiscono, ma sono chiaramente visibili  
-* Senza un filtro passa-basso, queste componenti ad alta frequenza causerebbero interferenze
+* *Seno*: solo una frequenza: $f$
+* *Onda quadra*: solo multipli dispari: $f$, $3f$, $5f$, $7f$, ...
+* *Dente di sega*: tutti i multipli interi: $f$, $2f$, $3f$, $4f$, ...
+* *Triangolare*: solo multipli dispari: $f$, $3f$, $5f$, $7f$, ... (le armoniche superiori diminuiscono più rapidamente che nell'onda quadra)
+
+All'esame è necessario saper distinguere solo tra seno e onda quadra.
+
+<note>
+Sia il segnale ad onda quadra che quello triangolare contengono solo armoniche dispari. La differenza risiede nella diminuzione delle ampiezze: nel segnale triangolare le armoniche superiori si attenuano molto più rapidamente che nell'onda quadra.
+</note>
 
 ---
 

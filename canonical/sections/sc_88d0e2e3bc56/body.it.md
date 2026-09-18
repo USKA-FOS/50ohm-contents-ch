@@ -1,12 +1,12 @@
-Poiché l'attenuazione è spesso indesiderata, il compito delle seguenti domande è quello di selezionare un cavo che non superi un'attenuazione data, ma che presenti un'attenuazione inferiore.
+Nella classe E è già stata trattata l’attenuazione dei cavi. Poiché l’attenuazione è spesso indesiderata, il compito delle domande seguenti è quello di selezionare, dal *diagramma di attenuazione dei cavi* della *raccolta di formule*, un cavo che non superi un’attenuazione data, ma ne presenti una inferiore.
 
 [question:AG309]
 [question:AG310]
 
-Nella seguente domanda è utile sapere che l'attenuazione del cavo aumenta all'aumentare della frequenza. Il caso con la maggiore attenuazione è quindi il caso d'uso con la frequenza più alta (corrispondente alla lunghezza d'onda più piccola).
+Nella domanda successiva è utile sapere che l’attenuazione dei cavi aumenta con l’aumentare della frequenza. Il caso con l’attenuazione maggiore è quindi quello con la frequenza più alta (corrispondente alla lunghezza d’onda più corta).
 
 [question:AG308]
 
-In particolare, i dielettrici o i rivestimenti in plastica contribuiscono all'attenuazione nei segnali ad alta frequenza. Pertanto, le linee a doppio filo con la minor quantità possibile di materiale dielettrico/isolante tra i conduttori hanno un'attenuazione particolarmente bassa.
+In particolare, i materiali dielettrici o le guaine in plastica contribuiscono all’attenuazione dei segnali ad alta frequenza. Pertanto, le linee bifilari con il minor materiale dielettrico possibile tra i conduttori sono particolarmente a bassa attenuazione.
 
 [question:AG311]

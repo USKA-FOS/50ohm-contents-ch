@@ -1,16 +1,16 @@
 <left>
 * Tensioni indesiderate sulle antenne dovute a cariche statiche
-* Con antenne a filo non messe a terra
-* Ad es. a causa di pioggia e grandine
-* Porta a disturbi di crepitio durante la ricezione
+* Nel caso di antenne filari non messe a terra
+* Ad esempio a causa di pioggia e grandine
+* Provoca disturbi di crepitio durante la ricezione
 </left>
 <right>
-* Rimedio: Introduzione di resistenze di scarico tra i conduttori dell'alimentazione dell'antenna e la messa a terra della stazione radioamatoriale
-* Alta resistenza, ad es. $\qty{100}{\kilo\ohm}$
-* In questo modo la funzione dell'impianto radio non viene compromessa
+* Soluzione: inserire resistenze di scarica tra i conduttori dell’alimentazione dell’antenna e la messa a terra della stazione radioamatoriale
+* Ad alta impedenza, ad esempio $\qty{100}{\kilo\ohm}$
+* In questo modo non viene compromessa la funzione dell’impianto radio
 </right>
 <note>
-* I $\qty{100}{\kilo\ohm}$ provengono dal Rothammel
+* I $\qty{100}{\kilo\ohm}$ derivano dal Rothammel
 </note>
 ---
 [question:EK206]

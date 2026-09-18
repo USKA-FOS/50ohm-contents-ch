@@ -1,22 +1,22 @@
-Fin dai tempi antichi, gli esseri umani hanno cercato di trasmettere messaggi su lunghe distanze. Un metodo di trasmissione molto antico sono i segnali di fumo. Per ottenere segnali di fumo ben visibili, si aggiunge erba bagnata a un fuoco aperto, ad esempio. Questo fa fumare molto il fuoco.
+Fin dai tempi antichi, gli esseri umani hanno cercato di trasmettere messaggi su lunghe distanze. Un metodo di trasmissione molto antico è rappresentato dai segnali di fumo. Per ottenere segnali di fumo visibili a grande distanza, a un fuoco aperto viene aggiunto, ad esempio, dell’erba bagnata. In questo modo, il fuoco emette molto fumo.
 
 <margin>
 [photo:104:n_modulation_love:Trasmissione di messaggi con segnali di fumo]
 </margin>
 
-Il focolare viene quindi coperto con una coperta e il fumo si accumula sotto di essa. A intervalli regolari, la coperta viene sollevata brevemente, in modo che il fumo si liberi. Se ci si accorda in anticipo su cosa significano diverse sequenze di intervalli di tempo, si possono trasmettere messaggi in questo modo. Due nuvole di fumo a un minuto di distanza potrebbero significare, ad esempio, che ci si vuole incontrare rapidamente, e tre nuvole di fumo a 30 secondi di distanza l'una dall'altra potrebbero significare "CQ".
+Il focolare viene poi coperto con una coperta e il fumo si accumula al di sotto. A intervalli regolari, la coperta viene sollevata brevemente per far uscire il fumo. Se prima si è concordato cosa significano diverse sequenze di intervalli di tempo, è possibile trasmettere messaggi in questo modo. Ad esempio, due nuvole di fumo distanziate di un minuto potrebbero significare che si vuole incontrarsi velocemente, mentre tre nuvole di fumo distanziate ciascuna di 30 secondi potrebbero significare "CQ".
 
 ---
 
-In radio si fa qualcosa di simile. Invece dei segnali di fumo, ci sono i segnali in codice Morse. In un apparecchio radio, un oscillatore genera un'oscillazione elettrica, ad esempio a $\qty{144,1}{\mega\hertz}$. Con un tasto, come nella figura [ref:n_cwtast], si può quindi far sì che questa oscillazione elettrica venga condotta ripetutamente per brevi periodi al connettore dell'antenna dell'apparecchio radio e irradiata dall'antenna come onda radio. Si parla di *inviare* segnali in codice Morse. Al ricevitore, questa onda radio viene resa udibile: si sente un tono nel ritmo in cui il tasto viene premuto. Questo metodo di trasmissione è chiamato anche Continuous Wave (CW).
-  
+Nel campo della radio si fa qualcosa di simile. Al posto dei segnali di fumo, si utilizzano i segnali Morse. In un apparecchio radio, un oscillatore genera una oscillazione elettrica, ad esempio a $\qty{144,1}{\mega\hertz}$. Con un tasto come quello mostrato in figura [ref:n_cwtast], si può fare in modo che questa oscillazione elettrica venga inviata ripetutamente e per brevi istanti al connettore dell’antenna dell’apparecchio radio e irradiata come onda radio dall’antenna. Si parla in questo caso di *trasmissione* di segnali Morse. Nel ricevitore, questa onda radio viene resa udibile: si sente un tono che segue il ritmo con cui viene premuto il tasto. Questo metodo di trasmissione è anche noto come Continuous Wave (CW).
+
 <margin>
 [photo:109:n_cwtast:Tasti Morse]
 </margin>
 
-Se ci si accorda in anticipo, come per i segnali di fumo, su cosa significano determinate sequenze di intervalli di tempo diversi, si possono trasmettere messaggi. A metà del XIX secolo, ci si è accordati sul codice Morse tuttora in uso.
+Se, come nel caso dei segnali di fumo, si è concordato in precedenza cosa significano determinate sequenze di intervalli di tempo diversi, è possibile trasmettere messaggi. A metà del XIX secolo, si è giunti a un accordo sul codice Morse, ancora oggi in uso.
 
-Ad esempio, la sequenza *lungo, corto, lungo, corto* sta per "C" e *lungo, lungo, corto, lungo* significa "Q". Nella figura [ref:n_cqcq_horiz] è rappresentata la trasmissione della sequenza di caratteri "CQ" in telegrafia Morse. Impareremo il codice Morse completo in un capitolo successivo.
+Ad esempio, la sequenza *lungo, breve, lungo, breve* corrisponde alla lettera "C", mentre *lungo, lungo, breve, lungo* significa "Q". In figura [ref:n_cqcq_horiz] è rappresentata l’emissione di una sequenza di caratteri "CQ" in telegrafia Morse. Il codice Morse completo verrà appreso in un capitolo successivo.
 
 <margin>
 [photo:216:n_cqcq_horiz:"CQ CQ" in telegrafia Morse]
@@ -24,15 +24,15 @@ Ad esempio, la sequenza *lungo, corto, lungo, corto* sta per "C" e *lungo, lungo
 
 ---
 
-Questi metodi di trasmissione sono chiamati *telegrafia*. Metodi di questo tipo hanno qualcosa in comune: bisogna creare un *ausilio*, ad esempio il fumo o un'oscillazione elettrica, e poi *influenzarlo* in modo mirato per trasmettere un messaggio.
+Questi metodi di trasmissione vengono chiamati *telegrafia*. I procedimenti di questo tipo hanno qualcosa in comune: è necessario creare un *mezzo ausiliario*, ad esempio il fumo o un’oscillazione elettrica, e poi *modularlo* in modo mirato per trasmettere un messaggio.
 
-Nel linguaggio tecnico, l'ausilio, cioè il fumo o l'oscillazione elettrica, è chiamato *portante*, poiché trasporta l'informazione dal trasmettitore al ricevitore. Per le portanti in radio, che utilizzano frequenze piuttosto elevate, si parla anche di portante ad alta frequenza, o HF-portante in breve. Il metodo per modificare la portante, cioè agitare la coperta o accendere e spegnere ritmicamente l'oscillazione elettrica, si chiama *modulazione*.
+Nel linguaggio tecnico, il mezzo ausiliario, cioè il fumo o l’oscillazione elettrica, viene chiamato *portante*, poiché trasporta l’informazione dal trasmettitore al ricevitore. Nei sistemi radio, che utilizzano frequenze piuttosto elevate, si parla anche di portante ad alta frequenza o, in breve, portante HF. Il procedimento per modificare la portante, cioè il movimento della coperta o l’accensione e spegnimento ritmico dell’oscillazione elettrica, viene chiamato *modulazione*.
 
 <wordorigin>
-Il termine *telegrafia* contiene due parole greche antiche: τηλε (tele) significa "lontano" e γράφειν (graphein) significa "scrivere" o "disegnare". *Modulazione* deriva dal latino: Modulatio significa lì misura del tempo o ritmo.
+Nel termine *telegrafia* sono contenute due parole greche antiche: τηλε (tele) significa "lontano" e γράφειν (graphein) significa "scrivere" o "disegnare". *Modulazione* deriva dal latino: *Modulatio* significa lì "misura del ritmo" o "ritmo".
 </wordorigin>
 
 [question:NE201]
 [question:NE101]
 
-Ci sono anche altri modi per modulare un'oscillazione elettrica. Ad esempio, si può modificare l'ampiezza (cioè la forza) o anche il periodo di un'oscillazione e quindi la sua frequenza. Ci occuperemo di questo nelle prossime sezioni.
+Esistono anche altri modi per modulare un’oscillazione elettrica. Ad esempio, si può modificare l’ampiezza (cioè l’intensità) o il periodo di un’oscillazione e, di conseguenza, la sua frequenza. Di questo ci occuperemo nei prossimi paragrafi.

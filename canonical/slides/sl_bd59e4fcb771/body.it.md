@@ -1,9 +1,9 @@
-*Non toccare un'antenna di trasmissione in funzione!*
+*Non toccare mai un’antenna trasmittente in funzione!*
 
 * Alte tensioni alternate
-* Causano aritmie cardiache, ustioni e altre lesioni
-* Possono portare alla morte
-* Anche a incidenti secondari come cadute da una scala a causa di spavento e crampi
+* Possono causare aritmie cardiache, ustioni e altre lesioni
+* Possono portare al decesso
+* Possono provocare incidenti secondari come cadute dalla scala per lo spavento e la contrazione muscolare
 
 ---
 [question:EK202]

@@ -1,11 +1,11 @@
-Per apparecchi radio di piccola potenza fino alla banda dei $\qty{70}{\centi\meter}$ o anche per apparecchi di misurazione, vengono utilizzati connettori BNC. Nell'illustrazione della domanda NG203 si vede a sinistra il connettore e a destra la presa. La particolarità del connettore BNC è la chiusura a baionetta.
+Per apparecchi radio di piccola potenza fino alla banda dei $\qty{70}{\centi\meter}$ o anche per strumenti di misura, vengono utilizzati connettori BNC. Nell'immagine della domanda NG203 si vedono a sinistra il connettore maschio e a destra la presa femmina. La particolarità del connettore BNC è la chiusura a baionetta.
 
 <margin>
-[photo:71:n_koaxsteckverbinder_bnc:Adattatore BNC ad angolo con connettore a sinistra e presa a destra]
+[photo:71:n_koaxsteckverbinder_bnc:Adattatore angolare BNC con connettore maschio a sinistra e presa femmina a destra]
 </margin>
 
 <tip>
-La *chiusura a baionetta* è più veloce da sganciare rispetto, ad esempio, alle connessioni a vite dei connettori PL o N. Per aprirla, la chiusura viene semplicemente ruotata di circa $\qty{90}{\degree}$. Un meccanismo a molla dovrebbe proteggere da sganci accidentali.
+La *chiusura a baionetta* è più rapida da sganciare rispetto, ad esempio, alle connessioni a vite dei connettori PL o N. Per sganciare, è sufficiente ruotare la chiusura di circa $\qty{90}{\degree}$. Un meccanismo a molla protegge da uno sgancio accidentale.
 </tip>
 
 [question:NG203]

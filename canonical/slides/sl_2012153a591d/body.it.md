@@ -1,16 +1,16 @@
-## Ricerca nella propria abitazione
+## Ricerca nell’ambiente domestico
 
-Cause comuni
-* Inverter di impianti solari
+Cause frequenti:
+* Inverter di impianti fotovoltaici
 * Alimentatori switching
 * Lampade a LED
 * Powerline Communication
 
 <note>
-* Circoscrivere il disturbatore
-* Spegnere gli apparecchi
-* Spegnere i fusibili
-* Powerline ha spesso filtri per le bande radioamatoriali, ma non è chiaro se ricevano anche gli aggiornamenti
+* Individuare la fonte del disturbo
+* Spegnere i dispositivi
+* Disattivare i fusibili
+* I dispositivi Powerline spesso includono filtri per le bande radioamatoriali, ma non è chiaro se ricevano anche gli aggiornamenti
 </note>
 
 ---
@@ -18,17 +18,17 @@ Cause comuni
 
 ---
 
-## Disturbi tollerabili
+## Disturbi accettabili
 
-* Tentare di determinare i limiti dei dispositivi nel vicinato
-* Se i limiti (EMVG e FuAG) sono rispettati, il disturbo deve essere tollerato
-* Eventualmente il vicino è disposto a collaborare per la risoluzione
+* Cercare di determinare i limiti dei dispositivi presenti nei dintorni
+* Se i limiti (EMVG e FuAG) vengono rispettati, il disturbo deve essere accettato
+* Eventualmente, il vicino potrebbe essere disponibile a collaborare per risolverlo
 
 <note>
-* EMVG: Legge sulla compatibilità elettromagnetica dei dispositivi (EMVG)
+* EMVG: Legge sulla compatibilità elettromagnetica delle apparecchiature (EMVG)
 * FuAG: Legge sugli impianti radio
-* Il dipartimento DARC per la compatibilità elettromagnetica dispone di apparecchi di misurazione
-* Fare pubblicità al DARC qui
+* Il referato DARC per la compatibilità elettromagnetica dispone di strumenti di misura
+* Qui spazio per la pubblicità DARC
 </note>
 
 ---
@@ -36,11 +36,11 @@ Cause comuni
 
 ---
 
-### Coinvolgere la BNetzA
+### Coinvolgere la Bundesnetzagentur
 
-* Tramite la segnalazione di disturbi radio della Bundesnetzagentur
-* Creare un protocollo sui disturbi
-* Momento, tipo e fonte presunta
+* Segnalazione di disturbo radio alla Bundesnetzagentur
+* Redigere un protocollo delle interferenze
+* Data, tipo e fonte presunta del disturbo
 
 ---
 [question:VE309]

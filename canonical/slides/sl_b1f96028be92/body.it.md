@@ -2,12 +2,12 @@
 [picture:342:daempfungsglied_pi:Attenuatore in configurazione PI con sorgente e resistenza di carico]
 </left>
 <right>
-* Indebolisce il livello del segnale in modo definito
-* Evita la sovraeccitazione o il danneggiamento degli strumenti di misura
-* Riduce il livello di ingresso per amplificatori e ricevitori a un livello definito
+* Riduzione del livello del segnale a un valore definito
+* Evita sovraeccitazione o danni agli strumenti di misura
+* Riduce la potenza d’ingresso per amplificatori e ricevitori a un livello definito
 </right>
 <note>
-Il nome configurazione PI deriva dalla struttura delle resistenze a forma di &Pi;
+Il nome "configurazione PI" deriva dalla struttura delle resistenze a forma di &Pi;
 </note>
 
 ---
@@ -16,8 +16,8 @@ Il nome configurazione PI deriva dalla struttura delle resistenze a forma di &Pi
 </left>
 <right>
 * Attenuazione tramite resistenze e conversione in calore
-* Negli attenuatori simmetrici, le impedenze di ingresso e uscita sono uguali
-* Solitamente $\qty{50}{\ohm}$
+* Negli attenuatori simmetrici, le impedenze d’ingresso e d’uscita sono uguali
+* Generalmente $\qty{50}{\ohm}$
 </right>
 
 ---
@@ -25,21 +25,20 @@ Il nome configurazione PI deriva dalla struttura delle resistenze a forma di &Pi
 [picture:341:daempfungsglied_t:Attenuatore in configurazione T con sorgente e resistenza di carico]
 </left>
 <right>
-* L'attenuazione è indicata in $\unit{\dB}$
+* L’attenuazione è espressa in $\unit{\dB}$
 * ad es. $\qty{20}{\dB}$ = fattore $\num{100}$
 * $\qty{100}{\watt}$ di potenza d’ingresso $\rightarrow\qty{1}{\watt}$ di potenza d’uscita
 </right>
 <note>
-Il nome configurazione T deriva dalla struttura delle resistenze a forma di T
+Il nome "configurazione T" deriva dalla struttura delle resistenze a forma di T
 </note>
 
 ---
 [question:AD806]
----
-<style>="font-size: smaller;"
-#### Percorso di soluzione
-* dato: $P_1 = \qty{100}{\watt}$
-* dato: $a = \qty{20}{\dB}$
+--- style="font-size: smaller;"
+#### Procedimento di soluzione
+* dati: $P_1 = \qty{100}{\watt}$
+* dati: $a = \qty{20}{\dB}$
 * cercato: $\Delta P = P_2 - P_1$
 
 <fragment>
@@ -55,24 +54,23 @@ $\Delta P = P_2 - P_1 = \qty{100}{\watt} - \qty{1}{\watt} = \qty{99}{\watt}$
 ---
 [question:AD803]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 
-* $\qty{20}{\dB}$ corrispondono a un'attenuazione di potenza con un fattore di $\num{100}$
+* $\qty{20}{\dB}$ corrispondono a un’attenuazione di potenza con fattore $\num{100}$
 
 ---
 [question:AD804]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 
-* $\qty{6}{\dB}$ corrispondono a un'attenuazione di potenza con un fattore di $\num{4}$
+* $\qty{6}{\dB}$ corrispondono a un’attenuazione di potenza con fattore $\num{4}$
 
 ---
 [question:AD805]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 
-* L'impedenza per il circuito totale non cambia, quindi $\qty{50}{\ohm}$
-
+* L’impedenza del circuito complessivo non cambia – quindi $\qty{50}{\ohm}$
 
 ---
 [question:AD801]

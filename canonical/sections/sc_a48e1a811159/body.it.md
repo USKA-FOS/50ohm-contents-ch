@@ -1,49 +1,53 @@
-I callsign personali sono i più comuni. In Germania esistono tre classi di licenza, ciascuna con le proprie aree nel piano dei callsign. Le singole classi sono, in ordine crescente, Classe N (Entry Level License), Classe E (Novice) e Classe A (Advanced). Dalla tabella [ref:n_persoenliche_rufzeichen_praefixe] si può vedere quali prefissi e cifre sono assegnati alle classi di radioamatore. Nella tabella [ref:n_persoenliche_rufzeichen_beispiele] si trovano alcuni esempi di callsign personali per le 3 classi. La maggior parte dei radioamatori in Germania possiede la licenza di radioamatore di Classe A, motivo per cui questo blocco è il più grande.
+I nominativi personali sono i nominativi radioamatoriali più comunemente assegnati. In Svizzera esistono due classi di autorizzazione distinte, ciascuna con aree specifiche nel piano dei nominativi. Le classi sono: CEPT e NOVICE. Dalla tabella [ref:n_persoenliche_rufzeichen_praefixe] si può dedurre quali prefissi e cifre sono assegnati alle classi radioamatoriali. Nella tabella [ref:n_persoenliche_rufzeichen_beispiele] sono riportati alcuni esempi di nominativi personali delle due classi.
+
+*La maggior parte dei radioamatori in Svizzera possiede l’autorizzazione radioamatoriale CEPT, motivo per cui viene utilizzato l’intero blocco di lettere del primo suffisso.*
+
+
+
 
 <margin>
 | l: Classe | X: Prefisso e cifra |
-| Classe N | DN9 |
-| Classe E | DO1 - DO9 |
-| Classe A | DB1 - DD9 |
-| | DF1 - DH9 |
-| | DJ1 - DM9 |
-[table:n_persoenliche_rufzeichen_praefixe:Prefissi e cifre per callsign personali]
+| NOVICE | HB3 |
+| CEPT | HB9 |
+| FL-NOVICE | HB0Y |
+| FL-CEPT | HB0 |
+| SWL | HE9 |
+[table:n_persoenliche_rufzeichen_praefixe:Prefissi e cifre per nominativi personali]
 </margin>
+
+
+
 
 <margin>
-| l: Classe | X: Callsign |
-| Classe N | DN9AAA, DN9ZZZ |
-| Classe E | DO2AAA, DO2ZZZ |
-| Classe A | DL3AAA, DL3ZZZ |
-[table:n_persoenliche_rufzeichen_beispiele:Esempi di callsign personali]
+| l: Classe | X: Nominativo |
+| CEPT | HB9AAA - HB9ZZZ |
+| NOVICE | HB3XAA - HB3YZZ |
+| FL-CEPT | HB0AA - HB0ZZ |
+| FL-NOVICE| HB0YAA - HB9YZZ |
+[table:n_persoenliche_rufzeichen_beispiele:Esempi di nominativi personali]
 </margin>
 
-Il [piano dei callsign](https://50ohm.de/rzp) della BNetzA aiuta a rispondere alle seguenti domande d'esame.
+
+
 
 [question:BD105]
 [question:BD106]
-[question:BD104]
 
-Dopo aver superato l'esame, è possibile presentare domanda per "l'autorizzazione alla partecipazione al servizio radioamatoriale" alla BNetzA. Dopo l'elaborazione, si riceve il certificato di autorizzazione con il callsign personale. Solo con questa autorizzazione è consentito iniziare l'attività radio. L'autorizzazione è valida solo personalmente per il radioamatore indicato nel certificato. Non è trasferibile.
 
-[question:VC107]
+
+Dopo aver superato l’esame, è possibile richiedere un nominativo radioamatoriale personale presso l’UFCOM. *Al termine dell’iter amministrativo, si riceve il certificato di autorizzazione con il nominativo personale. Solo con questa autorizzazione è possibile iniziare l’attività radio.* L’autorizzazione è strettamente personale e viene intestata al radioamatore indicato nel certificato. Non è trasferibile.
+
+[question:VU002]
+
+
+<law>
+Link diretto al portale eGov per la [richiesta di nominativo](https://www.egov.swiss/de/amateurfunk/rufzeichen-privatpersonen-beschreibung).
+</law>
 
 ---
 
-Nel modulo di domanda della BNetzA è possibile indicare un callsign desiderato. In precedenza, è necessario consultare la [lista dei callsign della BNetzA](https://50ohm.de/rzl) o la [ricerca web della BNetzA](https://50ohm.de/rza) per verificare se il callsign non è già stato assegnato! Anche se il desiderio viene solitamente soddisfatto, non vi è alcun diritto all'assegnazione di un callsign specifico. Può essere utile indicare più di un desiderio, poiché un callsign potrebbe essere stato assegnato nel frattempo o non poter essere assegnato per altri motivi.
 
-%TODO spiegare un buon suffisso per la telegrafia in codice Morse
-
-<indepth>
-Ci sono preferenze molto diverse nella *scelta dei callsign*. Alcuni radioamatori scelgono la forma abbreviata del loro nome, come ad esempio DL1FLO (*FLO*rian) o le iniziali del nome DL4HR (*H*arry *R*ode). Altri prestano maggiore attenzione alla buona comprensibilità nella radiotelefonica o danno importanza a un suffisso adatto alla telegrafia in codice Morse. Spesso i callsign con 2 lettere nel suffisso sono già assegnati. Spesso, la prima lettera della località di residenza può essere utilizzata come terza lettera del suffisso, ad esempio DL1ASN (*A*lexander *S*chumacher da *N*eheim). Se non vengono indicati desideri o i callsign desiderati sono già assegnati, la BNetzA ne sceglierà uno per te.
-</indepth>
-
-[question:VD208]
-
-La BNetzA di norma non modifica i callsign di propria iniziativa. Tuttavia, se le normative o le classi di licenza cambiano, potrebbe essere necessario che i callsign vengano ritirati o modificati dalla BNetzA. Tuttavia, ogni radioamatore può presentare autonomamente una nuova domanda di autorizzazione al servizio radioamatoriale. In questo modo è possibile cambiare il proprio callsign.
-
-[question:VC117]
-
-[question:VU002]
+L’UFCOM assegna i nominativi ai titolari di un attestato di idoneità in modo progressivo dalla serie attuale. Non è possibile richiedere nominativi specifici. Una volta assegnati, i nominativi non possono essere modificati.
+I titolari di un nominativo NOVICE (HB3) devono prima rinunciarvi prima di poter richiedere un nuovo nominativo CEPT (HB9).
 [question:VU006]
 [question:VP001]

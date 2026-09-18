@@ -1,25 +1,25 @@
 <left>
-* L'onda di terra si estende oltre l'orizzonte visibile
+* L’onda di terra si estende oltre l’orizzonte visibile
 * Segue la curvatura terrestre
-* Ideale per frequenze inferiori a $\qty{3}{\mega\hertz}$
+* Ottimale per frequenze inferiori a $\qty{3}{\mega\hertz}$
 </left>
 <right>
-[picture:866:e_reichweite_bodenwelle:Portata dell'onda di terra a seconda della banda]
+[picture:866:e_reichweite_bodenwelle:Portata dell’onda di terra in base alla banda]
 </right>
 
 ---
 ## Portata
 
-* La portata dipende dalla frequenza e dalla natura del terreno
-* Onde lunghe ($\qty{30}{300}{\kilo\hertz}$) fino a $\qty{1000}{\kilo\meter}$, onde medie ($\qty{300}{\kilo\hertz}--\qty{3}{\mega\hertz}$) fino a $\qty{250}{\kilo\meter}$
-* Ben utilizzabile nella banda dei $\qty{160}{\meter}$
+* La portata dipende da frequenza e caratteristiche del terreno
+* Onda lunga ($\qtyrange{30}{300}{\kilo\hertz}$) fino a $\qty{1000}{\kilo\meter}$, onda media ($\qty{300}{\kilo\hertz}--\qty{3}{\mega\hertz}$) fino a $\qty{250}{\kilo\meter}$
+* Ben sfruttabile nella banda dei $\qty{160}{\meter}$
 * Nella banda dei $\qty{10}{\meter}$ utilizzabile per comunicazioni in ambito urbano
-* VHF e frequenze superiori trascurabili
+* Le VHF e frequenze superiori sono trascurabili
 
 <note>
-* La radio in passato utilizzava molto l'onda di terra
-* Il radioamatore ricevette le alte frequenze "poco utilizzabili"
-* Fino alla scoperta della propagazione tramite onda spaziale
+* In passato la radio sfruttava ampiamente l’onda di terra
+* Il radioamatoriale ha ottenuto le alte frequenze "poco sfruttabili"
+* Fino a quando non è stata scoperta la propagazione tramite onda spaziale
 </note>
 
 ---
@@ -28,5 +28,5 @@
 [question:EH212]
 
 <note>
-* L'attenuazione della regione D è stata già trattata all'inizio
+* L’attenuazione dello strato D l’abbiamo già vista all’inizio
 </note>

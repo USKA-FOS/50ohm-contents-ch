@@ -1,0 +1,1 @@
+Il circuito rappresentato è un *amplificatore in circuito a collettore comune*. Per un oscillatore mancano una rete determinante della frequenza e la necessaria reazione positiva (circuito a tre punti). Il circuito a collettore comune si riconosce dal fatto che il collettore non funge né da ingresso né da uscita, ma costituisce il punto di riferimento comune per entrambi.

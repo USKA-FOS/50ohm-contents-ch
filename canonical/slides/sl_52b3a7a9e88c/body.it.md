@@ -1,78 +1,89 @@
 <left>
-* Prova che un collegamento radio è effettivamente avvenuto
-* Servono come prova quando si richiedono diplomi di radioamatore
+* Prova che un collegamento radio sia effettivamente avvenuto
+* Serve come documento per la richiesta di diplomi radioamatoriali
 * Gruppo Q QSL con "confermo la ricezione"
 </left>
 <right>
 [photo:12:n_qsl_karten_vorderseite:Cartolina QSL comune di DL4EAX e DM4EAX (fronte)]
+
+[photo:61:n_qsl_karten_rueckseite:Cartolina QSL comune di DL4EAX e DM4EAX (retro)]
 </right>
 <note>
-* Diploma come certificato di una certa abilità radio
-* Ci sono moltissimi diplomi, spesso da associazioni di radioamatore
+* Diploma come certificato di una certa abilità radioamatoriale
+* Esistono molti diplomi, spesso emessi da associazioni radioamatoriali
 </note>
+
+---
+
+<left>
+[photo:60:n_dx_urkunde_dxcc_dm4eax:Diploma del DX Century Club]
+</left>
+<right>
+* Diploma noto: *DX Century Club* dell'ARRL americana
+* Attesta collegamenti con 100 paesi diversi
+</right>
 
 ---
 [question:BG104]
 
 ---
 
-## Informazioni
+## Dati necessari
 
-[photo:62:n_qsl_karten_rueckseite_2:Esempio di cartolina QSL, emessa da DL4EAX per confermare un collegamento con la stazione JA1EBV]
+[photo:62:n_qsl_karten_rueckseite_2:Esempio di cartolina QSL emessa da DL4EAX per confermare un collegamento con la stazione JA1EBV]
 
 ---
 
-Una cartolina QSL dovrebbe contenere almeno le seguenti informazioni: 
+Una cartolina QSL dovrebbe contenere almeno i seguenti dati:
 * Data
 * Ora in UTC
-* Il proprio nominativo
-* Il nominativo della stazione opposta
-* Frequenza o banda di frequenza utilizzata
-* Metodo di trasmissione utilizzato
-* Rapporto dato
-
-<note>
-* Inserire l'ora con precisione
-* Alcuni diplomi richiedono la conferma nell'intervallo di un minuto
-</note>
+* Proprio nominativo
+* Nominativo della stazione corrispondente
+* Frequenza o banda utilizzata
+* Metodo di modulazione impiegato
+* Rapporto fornito
+* La firma non è più necessaria da alcuni anni
 
 ---
 
 [question:BG105]
 
 ---
-[question:BG106]
+## Inoltro delle cartoline QSL
 
----
-[question:BG107]
-
----
-[question:BG108]
-
----
-## Smistamento delle cartoline QSL
-
-* Tramite associazioni di radioamatore partecipanti nei paesi
-* tramite ufficio di smistamento - internazionalmente "Bureau"
+* Tramite le associazioni radioamatoriali partecipanti nei vari paesi
+* tramite ufficio di smistamento internazionale detto "Bureau"
 * Rete postale alternativa mondiale
-* In Germania, il DARC e. V. lo offre gratuitamente ai membri
+* In Germania il servizio è offerto gratuitamente dal DARC e.V. per i membri
 
 <note>
-* Lo scambio di cartoline QSL tra i manager avviene spesso durante eventi
-* Ci sono modi avventurosi in cui le cartoline vengono consegnate
+* Lo scambio di cartoline QSL tra i gestori avviene spesso durante eventi
+* Esistono modi avventurosi per recapitare le cartoline
 </note>
 
 ---
 
-## Callbook
+* Servizio QSL del DARC: stampa e spedizione automatica dal diario di log elettronico caricato
+* Motivo dell'immagine liberamente selezionabile e modificabile in qualsiasi momento
+* Per i membri del DARC notevolmente scontato
 
-* Indirizzi negli elenchi internazionali dei nominativi di radioamatore (Callbook)
-* O su Internet
-* Ci sono "QSL manager" che si occupano dell'invio per altre stazioni
+---
 
-<note>
-* I QSL manager vengono spesso utilizzati per spedizioni DX
-</note>
+## Short Wave Listener (SWL)
+
+* Nominativo con prefisso DE
+* Non rilasciato dall'Agenzia federale delle reti, ma dal DARC
+* cosiddetto *contrassegno di ascolto* (short wave listener)
+
+---
+
+## Elenchi dei nominativi
+
+* Indirizzi negli elenchi internazionali dei nominativi radioamatoriali (Callbook)
+* Oppure su Internet
+* Esistono "gestori QSL" che si occupano dell'inoltro per altre stazioni
+  * I gestori QSL vengono spesso impiegati durante spedizioni DX
+  * Inserire nel campo "via" della cartolina QSL e inviare la propria cartolina tramite questo gestore
 
 ---
 [question:BG110]
@@ -82,9 +93,33 @@ Una cartolina QSL dovrebbe contenere almeno le seguenti informazioni:
 
 ---
 ## Cartoline QSL elettroniche
+
 * Alternative senza carta
-* I log elettronici possono essere caricati
+  * Conosciute: eQSL, LoTW
+* I diari di log elettronici possono essere caricati
 * Solo poche piattaforme sono riconosciute per i diplomi
 
 ---
 [question:BG111]
+
+---
+## Ora sulle cartoline QSL
+
+* Indicare sempre in UTC, come nel diario di log
+* Aiuta il ricevente a ritrovare più facilmente il collegamento nel proprio diario
+* Ora invernale: UTC = CET $-$ 1 ora
+* Ora estiva: UTC = CEST $-$ 2 ore
+
+<note>
+* Indicare l'ora il più precisamente possibile
+* Alcuni diplomi non riconoscono la cartolina QSL se l'ora differisce di diversi minuti rispetto al diario di log del richiedente
+</note>
+
+---
+[question:BG106]
+
+---
+[question:BG107]
+
+---
+[question:BG108]

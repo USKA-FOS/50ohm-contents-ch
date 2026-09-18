@@ -1,0 +1,3 @@
+Le courant de base $I_B$ dépend de la tension d’entrée $U_E$. Si $U_E$ augmente, le courant de base $I_B$ et le courant de collecteur $I_C$ augmentent également. En raison de l’augmentation du courant de collecteur, la chute de tension aux bornes de la résistance de collecteur s’accroît, ce qui fait baisser la tension collecteur-émetteur $U_{CE}$. Ainsi, $U_{CE}$ est déphasée de $\qty{180}{\degree}$ par rapport à $U_E$ et $I_C$.
+
+Le condensateur de couplage en sortie élimine uniquement la composante continue. La tension de sortie $U_A$ conserve donc la même phase que la composante alternative de $U_{CE}$, mais est centrée sur la ligne de zéro. Ainsi, $I_C$ et $U_E$ sont en phase, tandis que $U_{CE}$ et $U_A$ sont en opposition de phase.

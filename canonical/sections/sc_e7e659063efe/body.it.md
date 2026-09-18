@@ -1,37 +1,37 @@
-Abbiamo già conosciuto la Tensione elettrica. Riassumiamo ancora: se si separano deliberatamente cariche positive da quelle negative, ad esempio in una batteria, queste cariche cercano di ricongiungersi. Esiste una Tensione elettrica, ad esempio tra i poli della batteria. La Tensione elettrica si misura nell'unità Volt, abbreviata con $\unit{V}$.
+Abbiamo già imparato a conoscere la tensione elettrica. Riassumiamo brevemente: se si separano intenzionalmente cariche positive da quelle negative, ad esempio in una batteria, queste cariche cercano di ricombinarsi. Si genera una tensione elettrica, ad esempio tra i poli della batteria. La tensione elettrica si misura nell’unità volt, abbreviata con $\unit{V}$.
 
 <person>
-L'unità Volt prende il nome dal fisico italiano *Alessandro Volta*.
+L’unità di misura volt è stata chiamata così in onore del fisico italiano *Alessandro Volta*.
 </person>
 
 [question:NA201]
 
 ---
 
-In tecnica radioamatoriale si incontrano tensioni sia molto grandi che molto piccole. Come per la Frequenza, i prefissi delle unità ci aiutano a indicare valori grandi. $\qty{1}{\kilo\hertz}$ sta per $\qty{1000}{\hertz}$. Lo stesso vale per le tensioni: $\qty{1}{\kilo\volt}$ significa $\qty{1000}{\volt}$. I prefissi delle unità più importanti sono presentati nella tabella [ref:n_spannung_einheitenvorzeichen] utilizzando l'unità Volt.
+Nella tecnica radio si incontrano sia tensioni molto elevate che molto ridotte. Come accade per la frequenza, ci aiutano i prefissi delle unità di misura per indicare valori grandi. $\qty{1}{\kilo\hertz}$ corrisponde a $\qty{1000}{\hertz}$. Allo stesso modo accade per le tensioni: $\qty{1}{\kilo\volt}$ significa $\qty{1000}{\volt}$. I prefissi delle unità di misura più importanti vengono presentati nella tabella [ref:n_spannung_einheitenvorzeichen] riferendosi all’unità volt.
 
 <margin>
-| l: Denominazione | r: Sigla | X: Valore |
-| 1 Kilovolt | $\qty{1}{\kilo\volt}$ | $\qty{1000}{\volt}$ |
-| 1 Megavolt | $\qty{1}{\mega\volt}$ | $\qty{1000000}{\volt}$ |
-| 1 Gigavolt | $\qty{1}{\giga\volt}$ | $\qty{1000000000}{\volt}$ |
-[table:n_spannung_einheitenvorzeichen:Notazione abbreviata per grandi tensioni]
+| l: Denominazione | r: Abbr. | X: Valore |
+| 1 kilovolt | $\qty{1}{\kilo\volt}$ | $\qty{1000}{\volt}$ |
+| 1 megavolt | $\qty{1}{\mega\volt}$ | $\qty{1000000}{\volt}$ |
+| 1 gigavolt | $\qty{1}{\giga\volt}$ | $\qty{1000000000}{\volt}$ |
+[table:n_spannung_einheitenvorzeichen:Scrittura abbreviata per tensioni elevate]
 </margin>
 
 <margin>
-| l: Denominazione | r: Sigla | X: Valore |
+| l: Denominazione | r: Abbr. | X: Valore |
 | 1 microvolt | $\qty{1}{\micro\volt}$ | $\qty{0,000001}{\volt}$ |
 | 1 millivolt | $\qty{1}{\milli\volt}$ | $\qty{0,001}{\volt}$ |
-| 1 Volt | $\qty{1}{\volt}$ | $\qty{1}{\volt}$ |
-[table:n_spannung_einheitenvorzeichen_2:Notazioni abbreviate per piccole tensioni]
+| 1 volt | $\qty{1}{\volt}$ | $\qty{1}{\volt}$ |
+[table:n_spannung_einheitenvorzeichen_2:Scritture abbreviate per tensioni ridotte]
 </margin>
 
 ---
 
-Esistono però anche prefissi delle unità per valori molto piccoli. Lo conosciamo ad esempio dal millilitro ($\unit{\milli\liter}$): 1 litro sono $\qty{1000}{\milli\liter}$. I prefissi delle unità più importanti sono presentati nella tabella [ref:n_spannung_einheitenvorzeichen_2] utilizzando l'unità Volt. $\qty{1}{\milli\volt}$ è ad esempio uguale a $\qty{0,001}{\volt}$. Viceversa, $\qty{1000}{\milli\volt}$ corrispondono esattamente a $\qty{1}{\volt}$.
+Esistono anche prefissi delle unità di misura per valori molto piccoli. Lo conosciamo, ad esempio, dal millilitro ($\unit{\milli\liter}$): 1 litro corrisponde a $\qty{1000}{\milli\liter}$. I prefissi delle unità di misura più importanti vengono presentati nella tabella [ref:n_spannung_einheitenvorzeichen_2] riferendosi all’unità volt. $\qty{1}{\milli\volt}$ corrisponde, ad esempio, a $\qty{0,001}{\volt}$. Viceversa, $\qty{1000}{\milli\volt}$ equivalgono esattamente a $\qty{1}{\volt}$.
 
 <webmargin>
-| l: Fonte di tensione | r: | c: | l: |
+| l: Sorgente di tensione | r: | c: | l: |
 | Ingresso del ricevitore | $\qty{10}{\micro\volt}$ | = | $\qty{0,00001}{\volt}$ |
 | Microfono | $\qty{200}{\milli\volt}$ | = | $\qty{0,2}{\volt}$ |
 | Batteria | $\qty{1,5}{\volt}$ | = | $\qty{1,5}{\volt}$ |
@@ -41,11 +41,10 @@ Esistono però anche prefissi delle unità per valori molto piccoli. Lo conoscia
 [table:spannung_beispiele:Esempi di tensioni]
 </webmargin>
 
-Consideriamo alcuni esempi di tensioni grandi e piccole. Una tensione particolarmente piccola si presenta all'antenna durante la ricezione. Le onde radio captate sono così deboli che le oscillazioni elettriche presentano solo una tensione di circa $\qty{10}{\micro\volt}$. Quando parliamo in un microfono, si generano tensioni già un po' più alte, di circa $\qty{200}{\milli\volt}$.
+Consideriamo alcuni esempi di tensioni elevate e ridotte. Una tensione particolarmente ridotta si trova all’ingresso del ricevitore durante la ricezione. Le onde radio captate sono così deboli che le oscillazioni elettriche presentano una tensione di circa $\qty{10}{\micro\volt}$. Quando parliamo in un microfono, si generano tensioni leggermente più elevate, di circa $\qty{200}{\milli\volt}$.
 
-Un po' più alta è la tensione che solitamente si presenta in una batteria, ad esempio $\qty{1,5}{\volt}$ o $\qty{9}{\volt}$. Ancora un po' più alta è la tensione nelle prese di corrente domestiche. Questa è già di $\qty{230}{\volt}$. Durante temporali o pioggia, un'antenna può caricarsi elettricamente. Allora può presentarsi su di essa una tensione di, ad esempio, $\qty{1,5}{\kilo\volt}$. Tensioni particolarmente alte si trovano sulle linee ad alta tensione nella rete elettrica. Qui si possono incontrare fino a $\qty{380}{\kilo\volt}$.
+Un po’ più elevate sono le tensioni che si trovano comunemente in una batteria, ad esempio $\qty{1,5}{\volt}$ o $\qty{9}{\volt}$. Ancora più elevate sono le tensioni presenti nelle prese di corrente domestiche, che ammontano già a $\qty{230}{\volt}$. Durante un temporale o la pioggia, un’antenna può caricarsi elettricamente. In tal caso, può presentare una tensione di, ad esempio, $\qty{1,5}{\kilo\volt}$. Tensioni particolarmente elevate si trovano nelle linee ad alta tensione della rete elettrica, dove si possono raggiungere fino a $\qty{380}{\kilo\volt}$.
 
-Per il prossimo compito, dobbiamo ricordare che $\qty{1}{\volt}$ è la stessa cosa di $\qty{1000}{\milli\volt}$. Allora il compito dovrebbe essere facilmente risolvibile.
+Per il prossimo esercizio dobbiamo ricordare che $\qty{1}{\volt}$ è equivalente a $\qty{1000}{\milli\volt}$. In questo modo, l’esercizio dovrebbe risultare semplice da risolvere.
 
 [question:NA208]
-

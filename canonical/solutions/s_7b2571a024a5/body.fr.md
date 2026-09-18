@@ -1,0 +1,3 @@
+Dans cette question, il est facile de se tromper. Le transformateur sert à l'adaptation de la résistance de sortie du premier circuit à l'entrée du circuit suivant. Cette partie est commune à toutes les réponses. Le "piège" consiste à classer les circuits.
+
+Les deux transistors ne sont pas connectés à leur émetteur, ce sont donc des montages à émetteur commun. Par conséquent, seule la réponse suivante est correcte : « Il sert à l'adaptation de la résistance de sortie du circuit à émetteur commun à l'entrée du circuit à émetteur commun suivant. »

@@ -4,11 +4,11 @@
 
 [picture:935:a_polarisation_rechts_zirkular:Polarizzazione circolare destrorsa]
 
-* Viene utilizzata principalmente nella gamma VHF e a frequenze più elevate  
-* Le antenne a onde corte con polarizzazione circolare sono poco pratiche a basse frequenze
-* Nella comunicazione satellitare e spaziale:
-* La rotazione meccanica dell'antenna non ha importanza
-* Trasmissione senza perdite nonostante l'orientamento mutevole
+* Viene utilizzata principalmente nella banda VHF e a frequenze più elevate  
+* Le antenne in HF a polarizzazione circolare sono poco pratiche a frequenze basse
+* Nelle comunicazioni satellitari e spaziali:
+* La rotazione meccanica dell'antenna non influisce
+* Trasmissione senza perdite nonostante l'orientamento variabile
 
 ---
 

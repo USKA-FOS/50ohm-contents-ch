@@ -1,3 +1,3 @@
-Nel raddrizzatore a ponte, i quattro diodi devono essere disposti in modo tale che, indipendentemente dalla semionda della Tensione alternata applicata in quel momento, si ottenga sempre la stessa polarità in uscita.
+Nel raddrizzatore a ponte, i quattro diodi devono essere disposti in modo che, indipendentemente dalla semionda di tensione alternata presente in un dato momento, al terminale d’uscita si ottenga sempre la stessa polarità.
 
-Il polo positivo si trova dove vengono uniti i due catodi dei diodi. Il polo negativo si trova dove vengono uniti le due anodi dei diodi. I due collegamenti della Tensione alternata si trovano a sinistra e a destra, in alto si genera il polo positivo e in basso il polo negativo.
+Il polo positivo si trova dove vengono collegati i due catodi dei diodi. Il polo negativo si trova dove vengono collegati i due anodi dei diodi. I due terminali della tensione alternata si trovano a sinistra e a destra; in alto si trova il polo positivo e in basso quello negativo.

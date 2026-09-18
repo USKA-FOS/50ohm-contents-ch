@@ -19,9 +19,9 @@ $P = U_{\mathrm{eff}} \cdot I_{\mathrm{eff}}$
 ---
 [question:AB301]
 ---
-### Percorso di soluzione
-* dato: $I_{\mathrm{max}} = \hat{I} = \qty{0,5}{\ampere}$
-* dato: $R = \qty{20}{\ohm}$
+### Procedimento di soluzione
+* dati: $I_{\mathrm{max}} = \hat{I} = \qty{0,5}{\ampere}$
+* dati: $R = \qty{20}{\ohm}$
 * cercato: $P$
 
 <fragment>
@@ -29,12 +29,12 @@ $\begin{split} P &=  I^2 \cdot R = \left(\frac{I_{\mathrm{max}}}{\sqrt{2}}\right
 </fragment>
 
 ---
-## Termo-convertitore
+## Convertitore termico
 
-* Strumento di misura in cui viene misurato il calore irradiato su una resistenza
-* Dal calore irradiato viene generata una tensione continua con una termocoppia, che può essere misurata
-* Viene quindi utilizzato quando una misurazione elettrica non è possibile, ad esempio per segnali non periodici
-* Viene misurato il valore *efficace* dell'intensità di corrente
+* Strumento di misura in cui il calore irradiato su una resistenza viene misurato
+* Dal calore irradiato, con un termoelemento, viene generata una tensione continua che può essere misurata
+* Viene impiegato quando una misurazione elettrica non è possibile, ad esempio con segnali non periodici
+* Viene misurato il *valore efficace* dell'intensità di corrente
 
 ---
 [question:AI105]

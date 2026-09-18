@@ -1,20 +1,21 @@
-In ogni casa, in ogni stazione radioamatoriale, c'è una moltitudine di oggetti conduttori di elettricità. Possono essere cavi di terra, tubature dell'acqua, tubi del riscaldamento, cavi coassiali comuni, involucri metallici, ecc. A causa di difetti negli impianti elettrici, errori nei lavori di installazione elettrica, cariche elettrostatiche, fulmini, ecc., i conduttori possono sorprendentemente condurre potenziali. Tra i diversi conduttori, ciò porta a differenze di potenziale. Al contatto, si potrebbe essere esposti a tensioni pericolose.
-La soluzione è possibile collegando tutte le parti conduttrici in una stanza o in un'area tra loro. In questo modo si crea un'equipotenzialità e si **proteggono le persone** da scosse elettriche. I collegamenti devono essere **a bassa impedenza** per evitare in modo sicuro le differenze di potenziale.
+In ogni abitazione e in ogni stazione radioamatoriale ci sono numerosi oggetti elettricamente conduttivi. Si tratta di conduttori di messa a terra, tubature dell’acqua, tubi del riscaldamento, cavi coassiali, custodie metalliche e così via. A causa di guasti negli impianti elettrici, errori durante lavori di installazione elettrica, cariche elettrostatiche o fulmini, questi conduttori possono improvvisamente assumere potenziali elettrici. Tra i diversi conduttori si creano differenze di potenziale. In caso di contatto, si può essere esposti a tensioni pericolose.
+
+Per risolvere il problema, è possibile collegare tra loro tutti i componenti conduttivi presenti in una stanza o in un’area. In questo modo si realizza un collegamento equipotenziale e si **proteggono le persone** da scosse elettriche. I collegamenti devono essere **a bassa impedenza** per evitare in modo sicuro le differenze di potenziale.
 
 [question:AK202]
 
-Metteremo a terra gli apparecchi della nostra stazione per scaricare in modo sicuro potenziali estranei. Ciononostante, sono possibili spiacevoli sorprese. Le alte frequenze cercano sempre nuove vie, se ne hanno la possibilità.
+Colleghiamo a terra i dispositivi della nostra stazione per dissipare in sicurezza potenziali estranei. Tuttavia, possono verificarsi spiacevoli sorprese. L’alta frequenza trova sempre nuovi percorsi se ne ha la possibilità.
 
-Se l'involucro del trasmettitore viene collegato con un cavo separato alla barra di equipotenzialità in cantina, la lunghezza del cavo può essere λ/4 della lunghezza d'onda trasmessa per alcune bande radioamatoriali o un multiplo dispari di essa. Il cavo di terra è quindi in risonanza con la frequenza di trasmissione.
+Se il telaio del trasmettitore viene collegato con una linea separata alla barra di collegamento equipotenziale nel seminterrato, la lunghezza della linea può corrispondere a λ/4 della lunghezza d’onda della frequenza di trasmissione o a un multiplo dispari di essa per alcune bande radioamatoriali. Il conduttore di messa a terra entra così in risonanza con la frequenza di trasmissione.
 
-Dato che l'estremità del cavo è collegata a terra, lì non si può formare un ventre di tensione. Si forma quindi all'inizio, cioè dove il cavo di terra è collegato al trasmettitore. Per questo motivo, sull'involucro si trova una tensione elevata, a seconda della potenza di trasmissione. Al contatto, si subisce una scossa elettrica o ustioni.
+Poiché la fine della linea è collegata a terra, non può formarsi un ventre di tensione. Pertanto, esso si forma all’inizio, cioè dove il conduttore di messa a terra è collegato al trasmettitore. Di conseguenza, sul telaio si genera una tensione elevata, a seconda della potenza di trasmissione. In caso di contatto, si subisce una scossa elettrica o ustioni.
 
-I radioamatori dicono che l'involucro è "caldo". Ci si ritrae, proprio come ci si ritrae quando si tocca una piastra elettrica calda.
+I radioamatori dicono che il telaio è "caldo". Si fa un passo indietro, proprio come quando si tocca una piastra riscaldante rovente.
 
 ---
 
 [question:AK203]
 
 <tip>
-Cosa fare se un cavo di terra separato è in risonanza con la frequenza di trasmissione? Si può modificare la lunghezza del cavo in modo che non entri in risonanza con nessuna delle bande radioamatoriali. Se necessario, un cavo di terra esistente deve essere allungato.
+Cosa fare se un conduttore di messa a terra separato entra in risonanza con la frequenza di trasmissione? Si può modificare la lunghezza della linea in modo che non entri in risonanza con nessuna delle bande radioamatoriali. Se necessario, occorre allungare il conduttore di messa a terra esistente.
 </tip>

@@ -2,27 +2,27 @@ Si cerca la resistenza $R_2$ per una tensione gate-source di:
 
 $ U_\mathrm{GS} = \qty{2,8}{\volt} $
 
-Dato che il source è collegato direttamente a massa, vale:
+Poiché la Source è direttamente collegata a massa, vale:
 
 $ U_\mathrm{G} = U_\mathrm{GS} $
 
-Il partitore di tensione composto da $R_1$ e $R_2$ fornisce:
+Il partitore di tensione formato da $R_1$ e $R_2$ fornisce:
 
 $ U_\mathrm{GS} = U_\mathrm{B} \cdot \frac{R_2}{R_1 + R_2} $
 
-Inserire i valori:
+Inserendo i valori:
 
 $ \qty{2,8}{\volt} = \qty{44}{\volt} \cdot \frac{R_2}{\qty{10\,000}{\ohm} + R_2} $
 
-Moltiplicare entrambi i lati per $\qty{10\,000}{\ohm} + R_2$:
+Moltiplicare entrambi i membri per $\qty{10\,000}{\ohm} + R_2$:
 
 $ \qty{2,8}{\volt} \cdot \left( \qty{10\,000}{\ohm} + R_2 \right) = \qty{44}{\volt} \cdot R_2 $
 
-Svolgere la moltiplicazione:
+Sviluppare il prodotto:
 
 $ \qty{28\,000}{} + 2,8 \cdot R_2 = 44 \cdot R_2 $
 
-Riordinare per $R_2$:
+Risolvere rispetto a $R_2$:
 
 $ \qty{28\,000}{} = 41,2 \cdot R_2 $
 

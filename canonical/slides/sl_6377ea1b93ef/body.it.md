@@ -1,40 +1,43 @@
-Quando si trasmette da una località diversa da quella indicata nel certificato di licenza, è possibile utilizzare un suffisso di nominativo.
+Quando si trasmette da una postazione diversa da quella indicata nel certificato di autorizzazione come postazione principale, può essere utilizzato un suffisso del nominativo.
 <note>
-L'indicazione è facoltativa. Può però essere interessante per la stazione di collegamento, nel caso in cui la comunicazione si interrompa.
+L’indicazione è facoltativa, ma può essere utile per la stazione corrispondente in caso di interruzione del collegamento.
 </note>
+
 --- style="font-size: 0.7em;"
-| l: Suffisso | l: Pronunciato | l: Significato |
+| l: Suffisso | l: Pronuncia | l: Significato |
 | am | aeronautico mobile | A bordo di un aeromobile in volo |
 | mm | marittimo mobile | A bordo di una nave in mare |
-| m | mobile | Da un veicolo terrestre o da una nave su acque interne |
-| p | portatile | In movimento a piedi o stazionario temporaneamente |
-| R | Remoto | Funzionamento remoto |
-| T | Trainee | Trasmissione formativa |
-[table:n_rufzeichenzusaetze:Possibili suffissi di nominativo]
+| m | mobile | Da un veicolo terrestre o da una nave in acque interne |
+| p | portatile | In movimento a piedi o temporaneamente fisso |
+| R | Remote | Funzionamento remoto |
+| T | Trainee | Attività radio di addestramento |
+[table:n_rufzeichenzusaetze:Possibili suffissi del nominativo]
 
 <note>
 Possono essere utilizzati solo questi suffissi. Nessun altro.
 </note>
 
 --- style="font-size: 0.7em;"
-* Scritto con "/"
-* Pronunciato subito dopo il nominativo o con "Stroke"
+* Scritti con "/"
+* Pronunciati direttamente dopo il nominativo o con "Stroke"
 
 <fragment>
 | l: Scrittura | X: Pronuncia |
-| DL1FLO/m | Delta Lima Uno Foxtrott Lima Oscar (Stroke) Mobile |
-| DM4EAX/p | Delta Mike Quattro Echo Alpha X-Ray (Stroke) Portatile |
-| DL1ASN/mm | Delta Lima Uno Alpha Sierra November (Stroke) Marittimo Mobile |
+| DL1FLO/m | Delta Lima Uno Foxtrot Lima Oscar (Stroke) Mobile |
+| DM4EAX/p | Delta Mike Quattro Echo Alfa X-Ray (Stroke) Portatile |
+| DL1ASN/mm | Delta Lima Uno Alfa Sierra November (Stroke) Marittimo Mobile |
 | DG2RON/am | Delta Golf Due Romeo Oscar November (Stroke) Aeronautico Mobile |
-[table:n_rufzeichenzusaetze_sprechweise:Pronuncia dei suffissi di nominativo, "Stroke" è opzionale e può essere omesso]
+[table:n_rufzeichenzusaetze_sprechweise:Pronuncia dei suffissi del nominativo, "Stroke" è facoltativo e può essere omesso]
 
 </fragment>
+
 ---
+
 ## Aeronautico Mobile
 * A bordo di un aeromobile (aereo, mongolfiera, dirigibile, ecc.)
-* Deve trovarsi completamente in aria
-* Nessun collegamento con il suolo
-* Il funzionamento deve essere autorizzato dal pilota dell'aeromobile, ma non richiede l'approvazione della BNetzA
+* Deve trovarsi completamente in volo
+* Nessun contatto con il suolo
+* L’operazione deve essere autorizzata dal pilota, ma non dalla BNetzA
 
 ---
 [question:BD201]
@@ -43,11 +46,12 @@ Possono essere utilizzati solo questi suffissi. Nessun altro.
 ---
 [question:VE705]
 ---
+
 ## Marittimo Mobile
-* A bordo di un'imbarcazione (motoscafo, yacht a vela, ecc.)
-* Al di fuori della zona delle 12 miglia
-* Su fiumi, laghi o simili acque interne è possibile utilizzare "/m" (mobile)
-* Il funzionamento deve essere autorizzato dal comandante della nave, ma non richiede l'approvazione della BNetzA
+* A bordo di un’imbarcazione (motore, vela, ecc.)
+* Al di fuori della zona delle 12 miglia nautiche
+* Su fiumi, laghi o simili acque interne può essere utilizzato "/m" (mobile)
+* L’operazione deve essere autorizzata dal comandante della nave, ma non dalla BNetzA
 
 ---
 [question:BD205]
@@ -56,34 +60,38 @@ Possono essere utilizzati solo questi suffissi. Nessun altro.
 ---
 [question:VD115]
 ---
+
 ## Mobile
-* In un veicolo terrestre come un'auto o un treno
-* O a bordo di una nave su acque interne
+* In un veicolo terrestre come auto o treno
+* Oppure a bordo di una nave in acque interne
 
 ---
 [question:BD203]
 ---
 [question:BD204]
 ---
+
 ## Portatile
-* Stazione temporaneamente in una località non registrata nel certificato di licenza
-* Ad esempio, nella natura
-* Anche in movimento (a piedi) con un apparecchio radio portatile
+* Stazione temporaneamente in una postazione non registrata nel certificato di autorizzazione
+* Ad esempio in natura
+* Anche in movimento (a piedi) con apparecchio radio portatile
 
 ---
 [question:BD206]
 ---
 [question:BD207]
 ---
-## Remoto
-* Funzionamento da una stazione remota
+
+## Remote
+* Operazione da una stazione remota
 * Opzionalmente "/R" o "/Remote"
 
 ---
 [question:BD208]
 ---
+
 ## Trainee
-* Per il funzionamento radio formativo, "/T" o "/Trainee" è obbligatorio
+* Nell’attività radio di addestramento, "/T" o "/Trainee" è obbligatorio
 * Tutti gli altri suffissi sono facoltativi e possono essere omessi
 
 ---
@@ -92,4 +100,3 @@ Possono essere utilizzati solo questi suffissi. Nessun altro.
 [question:VD306]
 ---
 [question:BD210]
-

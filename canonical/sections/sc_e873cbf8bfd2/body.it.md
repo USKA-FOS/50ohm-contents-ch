@@ -1,22 +1,19 @@
-Spesso la potenza irradiata non viene riferita al dipolo a semionda, ma a un cosiddetto "emettitore sferico", chiamato anche nel linguaggio tecnico "emettitore isotropo".
+Spesso la potenza irradiata non viene riferita al dipolo a semionda, ma a un cosiddetto *radiatore sferico*, che in termini tecnici viene anche chiamato *radiatore isotropo*.
 
-L'emettitore isotropo è un'antenna che esiste solo in teoria. È infinitamente piccola, più piccola della capocchia di uno spillo. Le onde radio vengono irradiate da questo teorico emettitore in tutte le direzioni con la stessa intensità. L'emettitore isotropo non ha quindi una direzione di irraggiamento principale.
+Il radiatore isotropo è un’antenna che esiste solo in teoria. È infinitamente piccolo, più piccolo di una capocchia di spillo. Le onde radio vengono irradiate da questo modello teorico in tutte le direzioni con la stessa intensità. Il radiatore isotropo, quindi, non ha una direzione principale di irradiazione.
 
 <margin>
-[picture:751:n_Kugelstrahler:Emettitore isotropo al centro di una sfera, che genera la stessa potenza irradiata in tutti i punti della superficie sferica]
+[immagine:751:n_Kugelstrahler:Radiatore isotropo al centro di una sfera, che genera la stessa potenza irradiata in tutti i punti della superficie sferica]
 </margin>
 
-Se la potenza irradiata viene indicata in riferimento all'emettitore isotropo, si parla di "potenza irradiata isotropa equivalente". Questo è abbreviato con EIRP, dall'inglese "equivalent isotropic radiated power".
+Se la potenza irradiata viene indicata in riferimento al radiatore isotropo, si parla di "potenza irradiata isotropa equivalente". In inglese, questo concetto è abbreviato con EIRP (*equivalent isotropic radiated power*).
 
 ---
 
-Il calcolo per l'EIRP avviene in linea di principio allo stesso modo dell'ERP: se un'antenna ha un Fattore di guadagno di $\num{3}$ rispetto all'emettitore isotropo, allora questa antenna irradia nella direzione principale tre volte più intensamente di un emettitore isotropo in qualsiasi direzione. Se si immette una potenza di trasmissione di $\qty{5}{\watt}$ in un'antenna con un Fattore di guadagno di $\num{3}$ rispetto all'emettitore isotropo, questa avrà una potenza irradiata di $\qty{15}{\watt}$ EIRP.
+Il calcolo dell’EIRP avviene in linea di principio allo stesso modo dell’ERP: se un’antenna ha un fattore di guadagno di $\num{3}$ rispetto al radiatore isotropo, allora questa antenna irradia nella direzione principale di irradiazione tre volte più intensamente di un radiatore isotropo in qualsiasi direzione. Se si applica una potenza di trasmissione di $\qty{5}{\watt}$ a un’antenna con un fattore di guadagno di $\num{3}$ rispetto al radiatore isotropo, questa avrà una potenza irradiata di $\qty{15}{\watt}$ EIRP.
 
 <indepth>
-Un dipolo a semionda ha, tra l'altro, un Fattore di guadagno di $\num{1,64}$ rispetto all'emettitore isotropo. Con questo valore è possibile anche convertire tra il Fattore di guadagno riferito al dipolo a semionda e il Fattore di guadagno riferito all'emettitore isotropo. Se un'antenna ha un Fattore di guadagno di $\num{2}$ rispetto al dipolo a semionda, ha un Fattore di guadagno di $2 \cdot 1,64 = 3,28$ rispetto all'emettitore sferico.
+Un dipolo a semionda ha, tra l’altro, un fattore di guadagno di $\num{1,64}$ rispetto al radiatore isotropo. Con questo valore è possibile convertire tra il fattore di guadagno riferito al dipolo a semionda e quello riferito al radiatore isotropo. Se un’antenna ha un fattore di guadagno di $\num{2}$ rispetto al dipolo a semionda, allora ha un fattore di guadagno di $2 \cdot 1,64 = 3,28$ rispetto al radiatore sferico.
 </indepth>
 
-[question:NG402]
-
-
-
+[domanda:NG402]

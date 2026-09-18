@@ -1,20 +1,20 @@
 ## Termini
 
-Nel capitolo seguente vengono utilizzati diversi termini che vengono spiegati in anticipo
+Nel capitolo seguente vengono utilizzati diversi termini che vengono spiegati in anticipo:
 
-* *Diffrazione*: Le onde vengono deviate da un ostacolo
-* *Diffusione*: Deviazione delle onde attraverso l'interazione di particelle
-* *Riflessione*: Diffusione direzionale
-* *Deviazione* o *Rifrazione*: Deviazione delle onde dovuta alla variazione della velocità di propagazione attraverso un mezzo diverso con diversa densità
+* *Diffrazione*: le onde vengono deviate da un ostacolo
+* *Diffusione*: deviazione delle onde dovuta all'interazione con particelle
+* *Riflesso*: diffusione in una direzione specifica
+* *Rifrazione* o *rifrazione*: deviazione delle onde dovuta alla variazione della velocità di propagazione in un mezzo con densità diversa
 
 ---
 
 <left>
-* Già noto: Gli strati dell'atmosfera rilevanti per il radioamatore
+* Già noto: gli strati dell'atmosfera rilevanti per il radioamatoriale
 * Nella troposfera avvengono i fenomeni meteorologici
 </left>
 <right>
-[picture:731:e_atmosphaeren_schichten:Strati dell'atmosfera rilevanti per il radioamatore]
+[picture:731:e_atmosphaeren_schichten:Strati dell'atmosfera rilevanti per il radioamatoriale]
 </right>
 <note>
 * Strato più basso
@@ -24,8 +24,8 @@ Nel capitolo seguente vengono utilizzati diversi termini che vengono spiegati in
 ---
 ## DX in VHF/UHF
 <left>
-* I collegamenti oltre l'orizzonte in VHF/UHF si creano per diffrazione, riflessione e diffusione nella troposfera
-* Aree con diversa temperatura e densità
+* Le comunicazioni oltre l'orizzonte in VHF/UHF avvengono grazie a diffrazione, riflesso e diffusione nella troposfera
+* Zone con temperatura e densità diverse
 </left>
 <right>
 [picture:734:e_tropo:Propagazione troposferica in diversi strati d'aria]
@@ -35,12 +35,12 @@ Nel capitolo seguente vengono utilizzati diversi termini che vengono spiegati in
 </note>
 
 ---
-### Formazione di inversioni troposferiche
+### Formazione di inversione troposferica
 
-* Strati di diversa temperatura si sovrappongono
-* Al confine degli strati, le onde radio nella gamma VHF vengono riflesse
-* Consentono collegamenti radio con stazioni a circa $\num{800}$ fino a $\qty{1000}{\kilo\meter}$ di distanza
-* La formazione di inversioni troposferiche si verifica principalmente in primavera e in autunno
+* Strati con temperature diverse si sovrappongono
+* Al confine tra gli strati, le onde radio nella banda VHF vengono riflesse
+* Consentono comunicazioni radio con stazioni a una distanza di circa $\num{800}$ fino a $\qty{1000}{\kilo\meter}$
+* La formazione di inversione troposferica si verifica principalmente in primavera e autunno
 
 ---
 

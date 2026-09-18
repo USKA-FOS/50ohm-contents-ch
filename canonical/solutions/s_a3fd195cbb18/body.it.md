@@ -1,3 +1,3 @@
-Al confine di una giunzione PN, gli elettroni liberi si diffondono dalla regione conduttrice n alla regione conduttrice p. Lì ricombinano con le lacune elettroniche presenti.
+Alla giunzione di un transistore PN, gli elettroni liberi diffondono dalla zona a conduzione di tipo n verso quella a conduzione di tipo p. Qui si ricombinano con le lacune elettroniche presenti.
 
-Ciò compensa parzialmente l'eccesso di elettroni sul lato n e la carenza di elettroni sul lato p. Nella regione di confine rimangono cariche legate in modo fisso, formando uno strato di svuotamento povero di portatori di carica. Questo agisce come isolante e inizialmente impedisce ulteriore trasporto di carica.
+Questo processo riduce parzialmente l'eccesso di elettroni nel lato n e la carenza di elettroni nel lato p. Nella giunzione rimangono cariche fisse legate, che formano uno strato di sbarramento povero di portatori di carica. Questo strato agisce da isolante e inizialmente impedisce un ulteriore trasporto di carica.

@@ -1,8 +1,8 @@
-Il compito può essere risolto con la conoscenza del partitore di tensione non caricato.
+Il problema può essere risolto con le conoscenze sul partitore di tensione non caricato.
 
-Sul lato sinistro troviamo il rapporto $\qty{1}{\kilo\ohm}$ a $\qty{10}{\kilo\ohm} = 1/10$.
-Supponendo che lo strumento di misura abbia un'alta resistenza o sia scollegato, con una tensione di servizio di $\qty{11}{\volt}$ misuriamo sul lato sinistro, sulla resistenza superiore ($R_1$), esattamente $\qty{1}{\volt}$ e sulla resistenza inferiore ($R_2$) $\qty{10}{\volt}$. Il potenziale nel punto di misura A è quindi di $\qty{10}{\volt}$ misurato rispetto a massa.
+Sul lato sinistro troviamo il rapporto $\qty{1}{\kilo\ohm}$ su $\qty{10}{\kilo\ohm} = 1/10$.
+Supponendo che il sistema di misura sia molto altoimpedente o scollegato, misuriamo con una tensione di servizio di $\qty{11}{\volt}$ sul lato sinistro, precisamente $\qty{1}{\volt}$ sulla resistenza superiore ($R_1$) e $\qty{10}{\volt}$ su quella inferiore ($R_2$). Il potenziale nel punto di misura A è quindi $\qty{10}{\volt}$ rispetto alla massa.
 
-Sul lato destro troviamo il rapporto $\qty{10}{\kilo\ohm}$ a $\qty{1}{\kilo\ohm} = 10/1$ e quindi misuriamo $\qty{10}{\volt}$ sulla resistenza superiore ($R_3$) e $\qty{1}{\volt}$ sulla resistenza inferiore ($R_4$). Il potenziale nel punto di misura B è quindi di $\qty{1}{\volt}$ misurato rispetto a massa.
+Sul lato destro troviamo il rapporto $\qty{10}{\kilo\ohm}$ su $\qty{1}{\kilo\ohm} = 10/1$ e misuriamo quindi $\qty{10}{\volt}$ sulla resistenza superiore ($R_3$) e $\qty{1}{\volt}$ su quella inferiore ($R_4$). Il potenziale nel punto di misura B è quindi $\qty{1}{\volt}$ rispetto alla massa.
 
-La differenza di potenziale tra A e B è quindi di $\qty{9}{\volt}$, con il punto di misura A che è $\qty{9}{\volt}$ più positivo del punto di misura B.
+La differenza di potenziale tra A e B è quindi $\qty{9}{\volt}$, con il punto di misura A positivo di $\qty{9}{\volt}$ rispetto al punto di misura B.

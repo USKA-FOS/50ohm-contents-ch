@@ -1,12 +1,12 @@
-La batteria ha una Capacità di $\qty{60}{\ampere\hour}$.
+La batteria ha una capacità di $\qty{60}{\ampere\hour}$.
 
-Il ricevitore deve essere utilizzato fino a quando la batteria non è scarica al $\qty{10}{\percent}$ della sua capacità residua. Pertanto, solo il $\qty{90}{\percent}$ della capacità può essere utilizzato:
+Il ricevitore deve essere utilizzato finché la batteria non si scarica fino al $\qty{10}{\percent}$ della capacità residua. Pertanto, possono essere utilizzati solo il $\qty{90}{\percent}$ della capacità:
 
 $Q = 0{,}9 \cdot \qty{60}{\ampere\hour} = \qty{54}{\ampere\hour}$
 
-Il ricevitore richiede una Corrente di $\qty{0,8}{\ampere}$.
+Il ricevitore richiede una corrente di $\qty{0,8}{\ampere}$.
 
-La durata di funzionamento risulta da:
+La durata di funzionamento si calcola come:
 
 $t = \frac{Q}{I} = \frac{\qty{54}{\ampere\hour}}{\qty{0,8}{\ampere}} = \qty{67,5}{\hour}$
 

@@ -5,33 +5,33 @@
 
 ## Oscillatore LC
 <left>
-* Generazione di oscillazioni con bobina e condensatore come circuito oscillante
+* Generazione di oscillazioni tramite circuito oscillante composto da bobina e condensatore
 * Un condensatore carico si scarica sulla bobina
 * Una bobina carica si scarica sul condensatore
-* A seconda del valore dei componenti, in una frequenza specifica
+* A seconda dei valori dei componenti, a una determinata frequenza
 </left>
 <right>
 [picture:755:e_parallelschwingkreis_cl:Circuito oscillante parallelo composto da condensatore e bobina]
 </right>
 <note>
 * Il circuito oscillante è un argomento molto importante!
-* La frequenza di risonanza f<sub>0</sub> dalla raccolta di formule è materia di classe A
+* La frequenza di risonanza $f_0$ dalla raccolta di formule è materia per la classe A
 </note>
 
 ---
 [question:ED501]
 ---
 
-### Stabilità di temperatura
+### Stabilità in temperatura
 <left>
-* I componenti passivi hanno valori diversi a temperature variabili
+* I componenti passivi variano i loro valori al variare della temperatura
 </left>
 <right>
-* Frequenza più alta con capacità o induttanza *minore*
-* Frequenza più bassa con capacità o induttanza *maggiore*
+* Frequenza più alta con *capacità* o *induttanza* più *bassa*
+* Frequenza più bassa con *capacità* o *induttanza* più *alta*
 </right>
 <note>
-* Questo potrebbe essere spiegato meravigliosamente con la formula per f<sub>0</sub>, cosa che però non è ancora nota
+* Questo potrebbe essere spiegato molto bene con la formula di $f_0$, ma non è ancora noto
 </note>
 
 ---
@@ -49,11 +49,11 @@
 ## Oscillatore al quarzo
 * Generazione di oscillazioni con quarzo (biossido di silicio $SiO_2$)
 * Effetto piezoelettrico inverso su un cristallo di quarzo
-* Il quarzo viene eccitato a oscillare stabilmente con un (cattivo) oscillatore LC
+* Il quarzo viene eccitato a oscillare in modo stabile con un (scadente) oscillatore LC
 * Migliore stabilità di frequenza
 
 <note>
-In inglese con t: Quartz
+In inglese si scrive con la t: Quartz
 </note>
 
 ---
@@ -62,9 +62,9 @@ In inglese con t: Quartz
 [question:ED507]
 
 ---
-## Irraggiamento
-* Evitare
-* Schermatura con involucro metallico
+## Irradiazione
+* Da evitare
+* Schermatura tramite custodia metallica
 
 ---
 [question:EF207]

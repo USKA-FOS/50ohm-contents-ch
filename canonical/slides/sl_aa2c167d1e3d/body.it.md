@@ -1,25 +1,25 @@
-## Prefisso
+## Nominativi
 
 <left>
-[photo:167:rufzeichen_flugzeug:Aereo con il prefisso DEBPF]
+[photo:167:rufzeichen_flugzeug:Velivolo con nominativo DEBPF]
 </left>
 <right>
-* Le stazioni radio utilizzano prefissi per identificarsi
+* Le stazioni radio utilizzano nominativi per identificarsi
 * Sequenza di lettere e numeri
-* Ogni aereo e nave equipaggiato con radio ha un prefisso
+* Ogni aeromobile e nave dotata di apparecchiature radio possiede un nominativo
 </right>
 <note>
-Mostra il prefisso DEBPF nell'immagine
+Mostrare il nominativo DEBPF nell'immagine
 </note>
 
 ---
 
-### Prefissi radioamatoriali
+### Nominativi radioamatoriali
 
-* Viene assegnato un prefisso personale
+* Il nominativo personale viene assegnato
 * Univoco a livello mondiale
-* Deve essere pronunciato all'inizio e alla fine di ogni collegamento
-* E ogni 10 minuti durante collegamenti più lunghi
+* Deve essere citato all'inizio e alla fine di ogni collegamento
+* E ogni 10 minuti nei collegamenti più lunghi
 
 ---
 
@@ -28,4 +28,3 @@ Mostra il prefisso DEBPF nell'immagine
 ---
 
 [question:VD205]
-

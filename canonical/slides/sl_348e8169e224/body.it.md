@@ -1,29 +1,29 @@
 <left>
-[picture:35:e_schaltnetzteil:Schema a blocchi di un alimentatore switching]
+[immagine:35:e_schaltnetzteil:Schema di principio dell’alimentatore switching]
 </left>
 <right>
-* L'interruttore elettronico E regola una tensione d'uscita costante.
-* Il tempo di commutazione viene variato.
-* L'interruttore è chiuso più a lungo $\rightarrow$ più energia verso il lato carico $\rightarrow$ la tensione d'uscita aumenta.
-* Questo è il *modulatore di larghezza d'impulso*.
+* L’interruttore elettronico E regola una tensione d’uscita costante
+* Il tempo di commutazione viene variato
+* L’interruttore rimane chiuso più a lungo → più energia verso il lato di carico → la tensione d’uscita aumenta
+* Questo è il *modulatore a larghezza d’impulso*
 </right>
 <note>
-Nello schema semplificato manca il feedback della tensione d'uscita al blocco di controllo E, in modo che l'anello di regolazione sia completo.
+Nel diagramma semplificato manca il feedback della tensione d’uscita verso il blocco di controllo E, per completare il circuito di regolazione.
 </note>
 ---
 [question:AD311]
 ---
-### Isolamento galvanico
+### Separazione galvanica
 
 <left>
-* Separazione tra lato di ingresso e lato di uscita.
-* Tiene i disturbi del circuito lontani dal lato della tensione di rete.
-* Altrimenti la rete elettrica agisce come un'antenna.
+* Separazione tra il lato d’ingresso e quello d’uscita
+* Tiene lontani dalla rete di alimentazione i segnali di disturbo del circuito
+* Altrimenti la rete elettrica agirebbe come un’antenna
 </left>
 <right>
-<fragment>
-[photo:277:a_störspektrum:Spettro di disturbi di un alimentatore switching]
-</fragment>
+<frammento>
+[immagine:277:a_störspektrum:Spettro di disturbo di un alimentatore switching]
+</frammento>
 </right>
 
 ---
@@ -32,15 +32,14 @@ Nello schema semplificato manca il feedback della tensione d'uscita al blocco di
 [question:AD313]
 ---
 <left>
-[picture:367:a-schaltnetzteilfilter:Filtro all'ingresso 230V di un alimentatore switching]
-Filtro passa-basso sul lato di ingresso.
+[immagine:367:a-schaltnetzteilfilter:Filtro passa-basso sul lato d’ingresso di un alimentatore switching]
 </left>
 <right>
-[photo:243:a_EMV Filter2: Filtro direttamente all'ingresso di tensione AC 230 V]
+[immagine:243:a_EMV Filter2: Filtro direttamente all’ingresso della tensione AC a 230 V]
 </right>
 <note>
-- PE non deve essere collegato a L1 o N.
-- L'induttanza T non deve avere funzione di trasformatore.
+- Il PE non deve essere collegato a L1 o N.
+- La bobina d’arresto T non deve avere funzione di trasformatore.
 </note>
 ---
 [question:AD314]

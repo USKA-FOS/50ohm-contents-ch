@@ -1,21 +1,30 @@
-Se l'impedenza caratteristica di un cavo di alimentazione non è identica alla resistenza del carico, oltre all'onda stazionaria che si verifica, è possibile ottenere una trasformazione di impedenza. Ciò significa che una sorgente di segnale a un'estremità del cavo "vede" una resistenza diversa da quella collegata all'altra estremità del cavo.
+Non tutte le antenne hanno esattamente l’impedenza necessaria al punto di alimentazione per essere collegate a una specifica linea di alimentazione o a un trasmettitore. Se l’impedenza, ad esempio, si discosta dai consueti $\qty{50}{\ohm}$, deve essere adattata di conseguenza affinché la potenza RF possa essere trasmessa con la minor perdita possibile. A questo scopo, l’impedenza esistente viene *trasformata* in un’altra impedenza desiderata. Questo processo è noto come *trasformazione dell’impedenza* o *adattamento dell’impedenza*.
 
-Sono di particolare importanza due casi: la linea $\lambda/4$ per una trasformazione di impedenza mirata e le linee $\lambda/2$ e i loro multipli, che non effettuano alcuna trasformazione di impedenza indipendentemente dall'impedenza caratteristica.
+Per l’adattamento o la trasformazione dell’impedenza esistono diverse possibilità. Tra le più utilizzate troviamo ad esempio:
 
-In una linea la cui lunghezza elettrica è $\lambda/4$, le resistenze attive inferiori all'impedenza caratteristica della linea diventano resistenze superiori all'impedenza caratteristica della linea. Viceversa, le resistenze attive superiori all'impedenza caratteristica della linea diventano resistenze inferiori all'impedenza caratteristica della linea. Questo fatto viene sfruttato, ad esempio, per adattare antenne ad alta impedenza a un sistema a bassa impedenza ($\qty{50}{\ohm}$).
+* Trasformatori,
+* linee $\frac{\lambda}{4}$ o
+* reti di adattamento composte da induttori e condensatori.
 
-Con una lunghezza della linea di $\lambda/2$, tuttavia, l'effetto si annulla nuovamente, in modo che non si verifichi alcuna trasformazione di impedenza.
+Abbiamo già incontrato i trasformatori con l’antenna alimentata all’estremità e un Unun 1:49. Nei paragrafi seguenti, quindi, esamineremo più da vicino altre due possibilità: la trasformazione dell’impedenza con linee $\frac{\lambda}{4}$ (trattate nel paragrafo precedente) e l’adattamento con reti LC. Prima di tutto, riprendiamo in considerazione le linee di trasformazione. A questo proposito, non importa se utilizziamo una linea di alimentazione simmetrica o una linea coassiale asimmetrica: la trasformazione funziona in entrambi i casi.
+
+In una linea la cui lunghezza elettrica è $\lambda/4$, le resistenze ohmiche inferiori all’impedenza caratteristica della linea vengono trasformate in resistenze superiori all’impedenza caratteristica della linea. Viceversa, le resistenze ohmiche superiori all’impedenza caratteristica della linea vengono trasformate in resistenze inferiori all’impedenza caratteristica. Questo principio viene sfruttato, ad esempio, per adattare antenne ad alta impedenza a un sistema a bassa impedenza ($\qty{50}{\ohm}$).
+
+[question:AG410]
+[question:AG409]
+
+Con una lunghezza della linea pari a $\lambda/2$, l’effetto si annulla e non si verifica alcuna trasformazione dell’impedenza.
 
 [question:AG412]
 [question:AG416]
 
-Per le seguenti domande, ricordiamo che un dipolo a semionda è alimentato in corrente (bassa impedenza) e un dipolo a onda intera è alimentato in tensione (alta impedenza).
+Per le domande seguenti, ricordiamo che un dipolo a semionda è alimentato in corrente (bassa impedenza) e un dipolo a onda intera è alimentato in tensione (alta impedenza).
 
 [question:AG413]
 [question:AG414]
 [question:AG415]
 
-Se si desidera trasformare un valore di resistenza specifico, l'impedenza caratteristica necessaria si ottiene dalla media geometrica tra la resistenza di carico $Z_\mathrm{A}$ e la resistenza di alimentazione desiderata $Z_\mathrm{E}$ all'altra estremità del cavo:
+Se si desidera trasformare un valore di resistenza in un altro, l’impedenza caratteristica necessaria si ricava dalla media geometrica tra la resistenza di carico $Z_\mathrm{A}$ e la resistenza di alimentazione desiderata $Z_\mathrm{E}$ all’altra estremità del cavo:
 
 $Z = \sqrt{Z_\mathrm{E} \cdot Z_\mathrm{A}}$
 
@@ -24,10 +33,10 @@ $Z = \sqrt{Z_\mathrm{E} \cdot Z_\mathrm{A}}$
 
 ---
 
-Spesso, tuttavia, vengono utilizzate anche bobine e condensatori per l'adattamento di impedenza. Spesso si trova il cosiddetto filtro a Pi, che oltre alla sua funzione di filtro passa-basso ha come conseguenza una trasformazione di impedenza. Di conseguenza, un tale filtro a Pi può essere utilizzato anche come accordatore d’antenna.
+Spesso, per l’adattamento dell’impedenza, vengono utilizzati anche induttori e condensatori. Un esempio molto diffuso è il cosiddetto *filtro Pi*, che, oltre alla sua funzione di filtro passa-basso, consente anche una trasformazione dell’impedenza. Pertanto, un tale filtro Pi può essere impiegato anche come accordatore d’antenna.
 
 <indepth>
-*Il nome "filtro a Pi"* deriva dalla disposizione dei componenti nello schema elettrico, che ricorda la lettera greca $\pi$, e non ha nulla a che fare con la costante Pi.
+*Il nome "filtro Pi"* deriva dalla disposizione dei componenti nel diagramma circuitale, che ricorda la lettera greca $\pi$, e non ha nulla a che fare con la costante Pi.
 </indepth>
 
 [question:AG406]

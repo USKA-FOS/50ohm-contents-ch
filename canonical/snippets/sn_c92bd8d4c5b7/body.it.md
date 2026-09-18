@@ -1,1 +1,1 @@
-Autoapprendimento
+Studio autonomo

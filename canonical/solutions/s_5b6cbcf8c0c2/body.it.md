@@ -1,0 +1,1 @@
+Il condensatore $C_1$ serve per *massimizzare il guadagno in tensione alternata*. Per le tensioni alternate, esso bypassa la resistenza di emettitore e riduce così la controreazione. Il punto di funzionamento in corrente continua del transistor rimane invariato.

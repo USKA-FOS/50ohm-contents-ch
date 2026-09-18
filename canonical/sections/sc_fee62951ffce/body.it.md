@@ -1,23 +1,49 @@
-Per calcolare le frequenze dell'oscillatore necessarie nei transverter, è necessario conoscere le frequenze di ingresso e uscita desiderate. È inoltre necessaria l'informazione se l'oscillatore debba trovarsi al di sotto o al di sopra del segnale utile.
+Nella classe E abbiamo già incontrato i convertitori e i transverter, utilizzati nel radioamatoriale per estendere con bande di frequenza aggiuntive i limiti dei dispositivi esistenti. Come mostrato nella figura [ref:a_konverter_2], per questo scopo sono necessari un oscillatore, un mixer e un filtro di banda.
 
-<indepth>
-Se la frequenza dell'oscillatore si trova al di sotto del segnale utile, la posizione della banda laterale di un segnale SSB (USB/LSB) viene mantenuta.
-Se la frequenza dell'oscillatore si trova al di sopra del segnale utile, la posizione della banda laterale di un segnale SSB viene invertita (da USB diventa LSB e viceversa).
-</indepth>
+[question:AF301]
 
-Esempio di calcolo:
+Un problema che affronteremo ora in modo approfondito riguarda il fatto che le bande radioamatoriali hanno larghezze diverse. Ad esempio, la banda dei $\qty{70}{\centi\meter}$, da $\qtyrange{430}{440}{\mega\hertz}$ con una larghezza di $\qty{10}{\mega\hertz}$, è molto più ampia rispetto alla banda dei $\qty{10}{\meter}$, da $\qtyrange{28}{29,7}{\mega\hertz}$ con una larghezza di $\qty{1,7}{\mega\hertz}$. Di conseguenza, un convertitore che trasla la banda $\qtyrange{430}{440}{\mega\hertz}$ nella banda $\qtyrange{28}{30}{\mega\hertz}$ non può coprire l’intera larghezza di banda della banda dei $\qty{70}{\centi\meter}$.
 
-Se la frequenza dell'oscillatore si trova al di sotto del segnale utile, la frequenza più alta del segnale utile corrisponde anche alla frequenza più alta del segnale di uscita del convertitore/transverter.
 
-Ad esempio, se si desidera convertire una banda di frequenza da $\qtyrange{438}{440}{\mega\hertz}$ in una banda di frequenza da $\qtyrange{28}{30}{\mega\hertz}$ (supponendo che la frequenza dell'oscillatore si trovi al di sotto del segnale utile), è necessaria una frequenza dell'oscillatore di $\qty{440}{\mega\hertz} - \qty{30}{\mega\hertz}$ o $\qty{438}{\mega\hertz} - \qty{28}{\mega\hertz}$, che in entrambi i casi risulta $\qty{410}{\mega\hertz}$. Se questa frequenza dell'oscillatore viene generata tramite moltiplicazione di frequenza, è necessario tenerne conto dividendo per il fattore di moltiplicazione per risalire alla frequenza richiesta dell'oscillatore a quarzo.
+<margin>
+[picture:651:a_konverter_2:Up-Convertitore per QO-100]
+</margin>
 
-Lo stesso vale per la banda di frequenza da $\qtyrange{436}{438}{\mega\hertz}$, se questa deve essere convertita nuovamente in una banda di frequenza da $\qtyrange{28}{30}{\mega\hertz}$ (sempre supponendo che la frequenza dell'oscillatore si trovi al di sotto del segnale utile).
-In questo caso, il calcolo $\qty{438}{\mega\hertz}$ - $\qty{30}{\mega\hertz}$ o $\qty{436}{\mega\hertz}$ - $\qty{28}{\mega\hertz}$ dà come risultato una frequenza dell'oscillatore di $\qty{408}{\mega\hertz}$.
+---
 
-Se i valori di $\qty{408}{\mega\hertz}$ o $\qty{410}{\mega\hertz}$ calcolati sopra vengono ottenuti moltiplicando per nove la frequenza dell'oscillatore al quarzo, le due frequenze dell'oscillatore al quarzo risultano $\frac{\qty{408}{\mega\hertz}}{9} = \qty{45,333}{\mega\hertz}$ e $\frac{\qty{410}{\mega\hertz}}{9} = \qty{45,556}{\mega\hertz}$ (arrotondati rispettivamente).
+Per questo motivo, un convertitore potrebbe dover essere commutabile, come mostrato nella figura [ref:a_konverter], per poter coprire bande di frequenza più ampie. Se, ad esempio, si vuole traslare una banda da $\qtyrange{436}{440}{\mega\hertz}$, cioè con una larghezza di $\qty{4}{\mega\hertz}$, in una banda da $\qtyrange{28}{30}{\mega\hertz}$ con $\qty{2}{\mega\hertz}$ (ammettendo che la frequenza dell’oscillatore sia inferiore al segnale utile), sono necessarie due bande commutabili: la prima da $\qtyrange{436}{438}{\mega\hertz}$ e la seconda da $\qtyrange{438}{440}{\mega\hertz}$.
+
+
+<margin>
+[picture:85:a_konverter:Convertitore con commutazione della frequenza dell’oscillatore]
+</margin>
+
+Per la prima sottobanda da $\qtyrange{436}{438}{\mega\hertz}$, la frequenza dell’oscillatore può essere calcolata come:
+
+
+$f_\mathrm{OSC} = \qty{436}{\mega\hertz} - \qty{28}{\mega\hertz} = \qty{408}{\mega\hertz}$
+
+
+$f_\mathrm{OSC} = \qty{438}{\mega\hertz} - \qty{30}{\mega\hertz} = \qty{408}{\mega\hertz}$
+
+
+Per entrambi i limiti di banda si ottiene ovviamente una frequenza dell’oscillatore di $\qty{408}{\mega\hertz}$.
+
+
+Per la seconda sottobanda da $\qtyrange{438}{440}{\mega\hertz}$, la frequenza dell’oscillatore risulta:
+
+
+$f_\mathrm{OSC} = \qty{440}{\mega\hertz} - \qty{30}{\meta\hertz} = \qty{438}{\mega\hertz} - \qty{28}{\mega\hertz} = \qty{410}{\mega\hertz}$.
+
+
+Se questa frequenza dell’oscillatore viene generata tramite moltiplicazione di frequenza, occorre tenerne conto nella retrocalcolazione della frequenza necessaria per l’oscillatore al quarzo, dividendo per il fattore di moltiplicazione.
+
+
+Se le frequenze dell’oscillatore di $\qty{408}{\mega\hertz}$ e $\qty{410}{\mega\hertz}$ vengono ottenute moltiplicando per nove la frequenza dell’oscillatore al quarzo, le due frequenze dell’oscillatore al quarzo risultano essere $f_\mathrm{Quarzo,1}=\frac{\qty{408}{\mega\hertz}}{9} = \qty{45,333}{\mega\hertz}$ e $f_\mathrm{Quarzo,2}=\frac{\qty{410}{\mega\hertz}}{9} = \qty{45,556}{\mega\hertz}$ (arrotondate).
+
+
+Con queste informazioni possiamo ora affrontare i seguenti esercizi.
+
 
 [question:AF501]
 [question:AF502]
-
-%TODO: La domanda 1472 secondo noi non appartiene qui, poiché si tratta di un trasmettitore e questa domanda non ha nulla a che fare con convertitori o transverter. Potrebbe essere necessario spostarla nel capitolo Trasmettitori e stadi di trasmissione.
-[question:AF301]

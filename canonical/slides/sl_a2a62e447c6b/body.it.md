@@ -1,28 +1,28 @@
-* Forti trasmettitori causano vari disturbi e interferenze con dispositivi ed impianti elettronici
-* Obiettivo: evitare i disturbi o eliminare le cause con contromisure
+* Trasmettitori potenti causano diversi tipi di disturbi e interferenze su apparecchi e impianti elettronici
+* Obiettivo: evitare disturbi o eliminarne le cause con contromisure
 
 ---
-## Einströmung
+## Afflusso di segnale
 
-* Le alte frequenze entrano in un dispositivo attraverso conduttori o cavi
-* Ad esempio tramite la linea di alimentazione, la linea dell'antenna, i cavi degli altoparlanti
+* L’alta frequenza penetra in un apparecchio tramite linee o cavi
+* Ad esempio attraverso la linea di alimentazione, la linea dell’antenna, i cavi degli altoparlanti
 
 ---
 [question:EJ101]
 ---
-## Einstrahlung
+## Irradiazione
 
-* Le alte frequenze entrano nell'elettronica a causa di un involucro insufficientemente schermato
-* Ciò causa disturbi
+* L’alta frequenza penetra nell’elettronica a causa di un involucro non sufficientemente schermato
+* Può causare disturbi
 
 ---
 [question:EJ102]
 ---
-## Störende Beeinflussung
+## Interferenza disturbante
 
-* Può verificarsi vicino al ricevitore nonostante il funzionamento conforme alla legge di un trasmettitore
-* I telecomandi dei garage o le chiavi radiofoniche dell'auto non funzionano più come al solito
-* Disturbi delle luci a LED
+* Può verificarsi anche con un funzionamento conforme alla legge di un trasmettitore, in prossimità di un ricevitore
+* Ad esempio, telecomandi per porte di garage o chiavi auto via radio non funzionano più come previsto
+* Interferenze su lampade a LED
 
 ---
 [question:EJ103]
@@ -34,36 +34,36 @@
 ## Intermodulazione
 
 * In presenza di più segnali di ricezione forti
-* Ad esempio, trasmettitori TV e potenti stazioni radioamatoriali nel vicinato
-* Porta a armoniche indesiderate e ai loro prodotti di miscelazione
-* L'intermodulazione genera segnali fantasma
+* Ad esempio, trasmettitori TV e una stazione radioamatoriale potente nelle vicinanze
+* Porta alla formazione di armoniche indesiderate e dei loro prodotti di miscelazione
+* L’intermodulazione genera segnali fantasma
 
 ---
 [question:EJ120]
 ---
-## Oxidation
+## Ossidazione
 
-* I contatti corrosi (ossidi metallici) tra metalli formano non linearità attraverso effetti di rettifica
-* Prodotti di miscelazione indesiderati sul lato di trasmissione e ricezione
-* Può portare a disturbi nella ricezione televisiva e radiofonica
+* Contatti corrosi (ossidi metallici) tra metalli formano non linearità a causa di effetti di rettificazione
+* Prodotti di miscelazione indesiderati sul lato trasmissione e ricezione
+* Può causare disturbi nella ricezione televisiva e radiofonica
 
 ---
 [question:EJ121]
 ---
-## Erforderliche Sendeleistung
+## Potenza di trasmissione necessaria
 
 * Utilizzare sempre solo la potenza di trasmissione necessaria per una comunicazione soddisfacente
-* Per evitare disturbi ai dispositivi
+* Per evitare disturbi su altri apparecchi
 
 ---
 [question:EJ104]
 ---
 [question:EJ105]
 ---
-## Übersteuerung
+## Sovraeccitazione
 
-* Elevate intensità di campo dovute a elevate potenze di trasmissione o nell'area di irradiazione di un'antenna
-* I ricevitori e gli stadi di ricezione possono essere sovraeccitati
+* Livelli di campo elevati dovuti a elevate potenze di trasmissione o all’interno della zona di irradiazione di un’antenna
+* Ricevitori e stadi di ricezione possono essere sovraeccitati
 * Riduce la sensibilità del ricevitore fino al blocco
 
 ---
@@ -71,10 +71,10 @@
 ---
 [question:EJ107]
 ---
-## Weitere Maßnahmen
+## Ulteriori misure
 
-* La riduzione della potenza di trasmissione non porta sempre al successo
-* Il dispositivo disturbato o la linea di alimentazione potrebbero non essere sufficientemente schermati
+* La riduzione della potenza di trasmissione non sempre risolve il problema
+* L’apparecchio disturbato o il suo cavo di alimentazione potrebbero non essere sufficientemente schermati
 
 ---
 [question:EJ108]
@@ -83,19 +83,19 @@
 ---
 [question:EJ111]
 ---
-## Nachbarschaftshilfe
+## Aiuto ai vicini
 
 * Offrire aiuto al vicino
-* Coinvolgere l'autorità solo come ultima risorsa
+* Coinvolgere le autorità solo come ultima risorsa
 
 ---
 [question:EJ124]
 ---
-## Filter
+## Filtri
 
-* Installare sia sul lato del dispositivo disturbante che sul lato del dispositivo disturbato
-* Sopprimere le emissioni armoniche
-* Filtro passa-alto o filtro passa-banda sul lato ricevitore
+* Installare filtri sia sul dispositivo disturbante che su quello disturbato
+* Sopprimere le emissioni di armoniche
+* Filtro passa-alto o passa-banda sul lato ricevitore
 * La sovraeccitazione viene minimizzata
 
 ---
@@ -104,13 +104,13 @@
 [question:EJ117]
 ---
 
-## Mantelwellensperren
+## Filtri per onde di mantello
 
-* Il segnale di trasmissione della stazione radioamatoriale viene accoppiato attraverso lo schermo dei cavi coassiali o delle linee di alimentazione nei ricevitori o nei dispositivi nelle vicinanze
-* Installare *filtri di modo comune* nelle linee di alimentazione dei dispositivi
-* Chiamati anche *drossel*
-* Nuclei toroidali o ferrite a chiusura rapida
-* Ulteriore possibilità: utilizzo di cavi di controllo schermati
+* Il segnale di trasmissione della stazione radioamatoriale viene accoppiato tramite lo schermo dei cavi coassiali o delle linee di alimentazione in ricevitori o apparecchi nelle vicinanze
+* Installare *filtri per onde di mantello* nelle linee di alimentazione degli apparecchi
+* Detto anche *bobina d’arresto*
+* Nuclei toroidali o ferriti a pinza
+* Un’altra possibilità: utilizzare cavi di controllo schermati
 
 ---
 [question:EJ118]
@@ -121,19 +121,19 @@
 ---
 [question:EJ114]
 ---
-## Logbuch
+## Registro di stazione
 
-* Se l'impianto radio è sospettato di essere fonte di disturbo
-* Tenere una prova volontaria
-* Esclusione dell'impianto radioamatoriale come fonte di disturbo
+* Se si sospetta che l’impianto radioamatoriale sia fonte di disturbo
+* Tenere volontariamente una documentazione
+* Escludere l’impianto radioamatoriale come fonte del disturbo
 
 ---
 [question:EJ122]
 ---
-## Schlechte Empfangsverhältnisse
+## Cattive condizioni di ricezione
 
-* Ad esempio, antenna TV da interno per la ricezione
-* Utilizzo di un'antenna esterna con filtri preliminari appropriati
+* Ad esempio, antenna TV interna per la ricezione
+* Utilizzare un’antenna esterna con pre-filtri appropriati
 
 ---
 [question:EJ123]

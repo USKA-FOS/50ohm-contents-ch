@@ -1,75 +1,74 @@
 <left>
-[photo:123:a_s_meter_balken:S-metro come indicatori a barre nel display di un apparecchio radio]
-[picture:420:a_s_meter_nadel:S-metro come strumento di misura analogico]
+[photo:123:a_s_meter_balken:S-metro come visualizzazione a barre sul display di una radio]
+[picture:420:a_s_meter_nadel:S-metro come strumento analogico]
 </left>
 <right>
-* Indicazione della forza di ricezione del segnale HF presente
-* 9 livelli S e un'area successiva con $\qty{+}{\dB}$
-* Fino a S9: un livello S corrisponde a $\qty{6}{\dB}$
-* $\qty{6}{\dB}$: $2\cdot U$ o $4\cdot P$
+* Visualizzazione della forza del segnale HF ricevuto
+* 9 livelli S e successiva area con valori in dB
+* Fino a S9: un livello S corrisponde a 6 dB
+* 6 dB: 2·U o 4·P
 </right>
 
 ---
 [question:AA113]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 
-* da S4 a S7 ci sono 3 livelli
-* $3\cdot \qty{6}{\dB} = \qty{18}{\dB}$
+* Da S4 a S7 ci sono 3 livelli
+* 3·6 dB = 18 dB
 
 ---
 [question:AF104]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 
-* da S7 a S9$\qty{+8}{\dB}$ sono $\qty{6}{\dB} + \qty{6}{\dB} + \qty{8}{\dB} = \qty{20}{\dB}$
-* $\qty{20}{\dB}$ corrispondono alla potenza $\num{100}$ volte maggiore
+* Da S7 a S9+8 dB ci sono 6 dB + 6 dB + 8 dB = 20 dB
+* 20 dB corrispondono a una potenza 100 volte maggiore
 
 ---
 [question:AF101]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 
-* da $\qty{25}{\watt}$ a $\qty{100}{\watt}$ sono $\frac{\qty{100}{\watt}}{\qty{25}{\watt}} = 4$ volte la potenza
-* $4$ volte la potenza corrisponde a un livello S
+* Da 25 W a 100 W la potenza è moltiplicata per 4
+* Una potenza 4 volte maggiore corrisponde a un livello S
 
 ---
 [question:AF102]
 ---
-### Percorso di soluzione
+### Procedimento di soluzione
 
-* da $\qty{100}{\watt}$ a $\qty{400}{\watt}$ sono $\frac{\qty{400}{\watt}}{\qty{100}{\watt}} = 4$ volte la potenza
-* $4$ volte la potenza corrisponde a un livello S
+* Da 100 W a 400 W la potenza è moltiplicata per 4
+* Una potenza 4 volte maggiore corrisponde a un livello S
 
 ---
 [question:AF103]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 
-* da $\qty{10}{\watt}$ a $\qty{100}{\watt}$ sono $\frac{\qty{100}{\watt}}{\qty{10}{\watt}} = 10$ volte la potenza
-* $10$ volte la potenza corrisponde a $\qty{10}{\dB}$
-* da S8 a S9 sono $\qty{6}{\dB}$
-* i restanti $\qty{4}{\dB}$ si aggiungono in cima come $\qty{+4}{\dB}$
+* Da 10 W a 100 W la potenza è moltiplicata per 10
+* Una potenza 10 volte maggiore corrisponde a 10 dB
+* Da S8 a S9 ci sono 6 dB
+* I restanti 4 dB vengono aggiunti come +4 dB
 
 ---
 [question:AA114]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 
-* da S9$\qty{+20}{\dB}$ a S8 sono $\qty{26}{\dB}$
+* Da S9+20 dB a S8 ci sono 26 dB
 
 ---
 ### Tensione all'ingresso
 
-* Onde corte fino a $\qty{30}{\mega\hertz}$: S9 $\rightarrow\qty{50}{\micro\volt}$ a $\qty{50}{\ohm}$
-* VHF a $\qty{144}{\mega\hertz}$: S9 $\rightarrow\qty{5}{\micro\volt}$ a $\qty{50}{\ohm}$
+* Onde corte fino a 30 MHz: S9 → 50 µV su 50 ohm
+* VHF a 144 MHz: S9 → 5 µV su 50 ohm
 
 ---
 [question:AF105]
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 
-* da S9 a S8 sono $\qty{6}{\dB}$
-* Questa è la metà della tensione
-* $\frac{\qty{50}{\micro\volt}}{2} = \qty{25}{\micro\volt}$
-
+* Da S9 a S8 ci sono 6 dB
+* Questo corrisponde a metà della tensione
+* 50 µV / 2 = 25 µV

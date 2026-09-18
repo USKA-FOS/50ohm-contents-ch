@@ -1,44 +1,54 @@
-* Da sempre gli esseri umani cercano di trasmettere messaggi a grandi distanze
-* Ad esempio con segnali di fumo
-* Necessaria un'intesa su quale significato abbiano un certo numero di segnali di fumo in un dato intervallo di tempo
+<left>
+[photo:104:n_modulation_love:Comunicazione di messaggi con segnali di fumo]
+</left>
+<right>
+* Fin dall’antichità, le persone cercano di trasmettere messaggi su lunghe distanze
+* Ad esempio, con segnali di fumo
+* È necessario accordarsi su quale significato abbiano un certo numero di segnali di fumo in un determinato intervallo di tempo
+</right>
 
 <note>
-Esempio: 3 nuvole di fumo, ciascuna con 30 secondi di intervallo, significano "CQ"
+Esempio: 3 nuvole di fumo con un intervallo di 30 secondi ciascuna significano "CQ"
 </note>
----
-## Segnali in codice Morse
+
+--- style="font-size: smaller;"
+
+## Segnali Morse
 <left>
 * Sono simili ai segnali di fumo
-* L'apparecchio radio genera un'oscillazione con un oscillatore
-* Premendo il tasto Morse, questa oscillazione viene inviata all'antenna
-* Il ricevitore rende udibile questa trasmissione
+* L’apparecchio radio genera un’oscillazione tramite un oscillatore
+* Premendo il tasto Morse, questa oscillazione viene inviata all’antenna
+* Il ricevitore rende udibile questa emissione
 * È possibile distinguere tra pressione breve o lunga e pause
 </left>
 <right>
-[photo:109:n_cwtast:Tasto Morse]
+[photo:109:n_cwtast:Tasti Morse]
 </right>
 <note>
-* I segnali in codice Morse vengono "dati"
-* Il tutto è chiamato Continuous Wave (CW)
+* I segnali Morse vengono "dati"
+* Tutto questo viene definito come Continuous Wave (CW)
 </note>
+
 ---
 [photo:216:n_cqcq_horiz:"CQ CQ" in telegrafia Morse]
 
-* Intesa su cosa significano determinate sequenze di diversi intervalli di tempo
-* A metà del XIX secolo, intesa sul codice Morse ancora oggi in uso
+* Accordo su cosa significano determinate sequenze di intervalli di tempo diversi
+* A metà del XIX secolo, si è giunti all’adozione del codice Morse ancora in uso oggi
 
 <note>
 Esempio:
-* *lungo, corto, lungo, corto*: C
-* *lungo, lungo, corto, lungo*: Q
+* *lungo, breve, lungo, breve*: C
+* *lungo, lungo, breve, lungo*: Q
 </note>
+
 ---
+
 ## Telegrafia
-* Procedimento di trasmissione con un ausilio
-* Il fumo o l'oscillazione elettrica vengono influenzati in modo da trasmettere un messaggio
-* L'ausilio è la *portante*
-* In radio, a causa delle alte frequenze, anche *portante ad alta frequenza* o *portante HF*
-* Il procedimento per modificare la portante è la *modulazione*
+* Procedimento di trasmissione con l’ausilio di un mezzo
+* Il fumo o l’oscillazione elettrica vengono modificati per trasmettere un messaggio
+* Il mezzo è il *portante*
+* Nel campo radio, a causa delle alte frequenze, si parla anche di *portante ad alta frequenza* o *portante HF*
+* Il procedimento per modificare il portante è la *modulazione*
 
 <note>
 Telegrafia dal greco antico:
@@ -46,17 +56,17 @@ Telegrafia dal greco antico:
 * γράφειν (graphein) &rarr; scrivere o disegnare
 
 Modulazione dal latino:
-* Modulatio &rarr; misura del ritmo o ritmo
+* Modulatio &rarr; ritmo o cadenza
 </note>
+
 ---
 [question:NE201]
 ---
 [question:NE101]
 ---
 
-## Altre forme di modulazione
+## Altri tipi di modulazione
 
-L'oscillazione elettrica può essere modulata in altri modi
+L’oscillazione elettrica può essere modulata in altri modi
 * Intensità (ampiezza)
-* Durata del periodo (Frequenza)
-
+* Periodo (frequenza)

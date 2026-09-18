@@ -1,3 +1,3 @@
-Il circuito contiene due diodi al germanio collegati in antiparallelo. Questi limitano la tensione d’uscita in modo simile ai diodi al silicio, tuttavia già a una tensione di conduzione inferiore di circa $\qty{0,3}{\volt}$.
+Il circuito contiene due diodi al germanio collegati antiparallelamente. Questi limitano la tensione d’uscita in modo simile ai diodi al silicio, ma già a una tensione diretta di circa 0,3 V.
 
-Ciò fa sì che sia le semionde positive che quelle negative vengano tagliate prima. Il segnale di uscita viene quindi limitato maggiormente rispetto ai diodi al silicio.
+In questo modo vengono tagliate prima sia le semionde positive che quelle negative. Il segnale di uscita risulta quindi più limitato rispetto ai diodi al silicio.

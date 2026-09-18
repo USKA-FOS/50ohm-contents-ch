@@ -1,15 +1,15 @@
-Grazie al basso sforzo, il ponte raddrizzatore è un circuito raddrizzatore comunemente utilizzato. Per questo sono necessari un trasformatore e 4 diodi.
+Grazie al basso sforzo costruttivo, il raddrizzatore a ponte è uno dei circuiti raddrizzatori più utilizzati. Per realizzarlo, sono necessari un trasformatore e 4 diodi.
 
 <latexonly>
-Nella figura [ref:a_brueckenlgeichrichter] è rappresentato un tale ponte raddrizzatore.
+Nella figura [ref:a_brueckenlgeichrichter] è rappresentato un tale raddrizzatore a ponte.
 
 <margin>
-[picture:965:a_brueckenlgeichrichter:Ponte raddrizzatore]
+[picture:965:a_brueckenlgeichrichter:Raddrizzatore a ponte]
 </margin>
 </latexonly>
 
 <webonly>
-Nell'applet accanto è rappresentato un tale ponte raddrizzatore. Con la polarità della tensione del trasformatore $U_a$ o $U_s$ mostrata, si può seguire la corrente di carico nel suo andamento e osservare che questa scorre sempre nella stessa direzione attraverso la resistenza di carico $R$.
+Nel riquadro interattivo accanto è rappresentato un tale raddrizzatore a ponte. È possibile osservare la polarità della tensione del trasformatore $U_a$ o $U_s$ e seguire l'andamento della corrente di carico attraverso la resistenza di carico $R$, riconoscendo che questa scorre sempre nella stessa direzione attraverso la resistenza di carico.
 
 <margin>
 [include:applet_gleichrichter_2]
@@ -17,37 +17,36 @@ Nell'applet accanto è rappresentato un tale ponte raddrizzatore. Con la polarit
 </webonly>
 
 <tip>
-[picture:67:a_brueckenlgeichrichter_2:Disposizione dei diodi nel ponte raddrizzatore]
-Nel ponte raddrizzatore, i diodi puntano con i loro catodi verso il polo positivo e gli anodi verso il polo negativo. Si può quindi ricordare: le "linee" dei diodi si incontrano all'uscita positiva. Questa disposizione non deve essere confusa con un mixer ad anello, che impareremo più avanti.
+[picture:67:a_brueckenlgeichrichter_2:Disposizione dei diodi nel raddrizzatore a ponte]
+Nel raddrizzatore a ponte, i diodi sono orientati con i catodi verso il polo positivo e gli anodi verso il polo negativo. Quindi si può ricordare: i "tratti" dei diodi si incontrano all'uscita positiva. Questa disposizione non deve essere confusa con un miscelatore ad anello di diodi, che impareremo a conoscere in seguito.
 </tip>
 
 [question:AD305]
 
 ---
 
-Se dopo il ponte raddrizzatore si installa un condensatore di carica $C_L$ e un filtro LC (cfr. figura [ref:a_netzteil_Ucs]), si ottiene un'ampiezza minore nella tensione continua pulsante in uscita. In questo modo abbiamo un alimentatore convenzionale.
+Se dopo il raddrizzatore a ponte viene installato un condensatore di carica $C_L$ e un filtro LC (cfr. figura [ref:a_netzteil_Ucs]), si ottiene un'ampiezza minore nella tensione continua di uscita pulsante. In questo modo si ottiene un alimentatore convenzionale.
 
 <margin>
-[picture:66:a_netzteil_Ucs:Circuito raddrizzatore con filtraggio]
+[picture:66:a_netzteil_Ucs:Circuito raddrizzatore con filtro]
 </margin>
 
-Anche nel ponte raddrizzatore, il condensatore si carica fino alla tensione di picco $\hat{U}$ della tensione secondaria $U_{\mathrm{sek}}$ del trasformatore.
+Anche nel raddrizzatore a ponte, il condensatore si carica alla tensione di picco $\hat{U}$ della tensione secondaria $U_{\mathrm{sek}}$ del trasformatore.
 
 $\hat{U}=U_{\mathrm{eff}}\cdot\sqrt{2}$
 
-Inoltre, dobbiamo considerare se il trasformatore ha un rapporto di trasformazione $ü$. Con queste informazioni, possiamo risolvere il seguente problema.
+Inoltre, occorre considerare se il trasformatore presenta un rapporto di trasformazione $ü$. Con questa informazione, possiamo risolvere il seguente esercizio.
 
 [question:AD306]
 
 <indepth>
-[photo:296: Tipi di ponti raddrizzatori: Tipi di ponti raddrizzatori]
-Prestare attenzione alla marcatura dei collegamenti.
+[photo:296: Forme costruttive del raddrizzatore a ponte: Forme costruttive di raddrizzatori a ponte]
+Attenzione alla marcatura dei collegamenti.
 
-1. Ponte raddrizzatore ad alta corrente 26 MB 20 A ($\qty{200}{\volt}$, $\qty{25}{\ampere}$) in custodia metallica per il montaggio diretto su un dissipatore di calore
-2. B80 C 5000/3300 significa: tensione di servizio massima $\qty{80}{\volt}$, C carico capacitivo max. $\qty{2500}{\micro\farad}$ con resistenza di protezione $R = \qty{1}{\ohm}$, corrente di carico continua massima: $\qty{5000}{\milli\ampere}$ con dissipatore di calore, $\qty{3300}{\milli\ampere}$ senza dissipatore di calore
-3. BY 225 Ponte raddrizzatore - custodia speciale
-4. Forma costruttiva rotonda di un ponte raddrizzatore B 80 C 1000
-5. B40 C 1500 - prestare attenzione alla sequenza di collegamento modificata
+1. Raddrizzatore a ponte ad alta corrente 26 MB 20 A ($\qty{200}{\volt}$, $\qty{25}{\ampere}$) in contenitore metallico per montaggio diretto su un dissipatore
+2. B80 C 5000/3300 significa: tensione di servizio massima $\qty{80}{\volt}$, carico capacitivo massimo $\qty{2500}{\micro\farad}$ con resistenza di protezione $R = \qty{1}{\ohm}$, corrente di carico continua massima: $\qty{5000}{\milli\ampere}$ con dissipatore, $\qty{3300}{\milli\ampere}$ senza dissipatore
+3. BY 225 Raddrizzatore a ponte - contenitore speciale
+4. Forma costruttiva rotonda di un raddrizzatore a ponte B 80 C 1000
+5. B40 C 1500 - attenzione alla sequenza modificata dei collegamenti
 6. FPU 4M ($\qty{1000}{\volt}$, $\qty{4}{\ampere}$)
-7. Sequenza di collegamento impressa nella plastica
-</indepth>
+7. Sequenza dei collegamenti impressa nella plastica

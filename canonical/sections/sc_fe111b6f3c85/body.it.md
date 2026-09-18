@@ -1,4 +1,5 @@
-La forma più semplice di un segnale HF è una portante costante (non modulata), che ha un'ampiezza, una frequenza e una fase costanti. Poiché nessuna modulazione viene impressa alla portante e occupa quindi esattamente una frequenza, la sua forma d'onda è un segnale sinusoidale costante. Senza ulteriore modulazione, ad esempio tramite accensione o spegnimento, non è possibile trasmettere informazioni con una portante non modulata.
+La forma più semplice di un **segnale di alta frequenza** è una **portante** costante (non modulata), che ha ampiezza, frequenza e fase costanti. Poiché a questa portante non viene impressa alcuna modulazione e occupa quindi esattamente una frequenza, la sua forma d'onda è un segnale sinusoidale costante. Con una portante non modulata non è possibile trasmettere informazioni, ad esempio accendendo o spegnendo la trasmissione, senza ulteriori tecniche di modulazione.
+
 
 [question:EE101]
 

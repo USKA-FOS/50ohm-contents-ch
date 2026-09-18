@@ -1,15 +1,15 @@
 ## Applicazione
 
 <left>
-* Un diodo lascia passare la corrente solo in una direzione
-* Nell'altra direzione agisce come un'alta resistenza
-* I diodi vengono utilizzati, tra l'altro, per la rettifica della tensione alternata
+* Un diodo permette il flusso di corrente solo in una direzione
+* Nella direzione opposta agisce come una resistenza molto elevata
+* I diodi vengono utilizzati, tra l'altro, per la rettificazione di tensione alternata
 </left>
 <right>
-[picture:689:e_led:Diversi LED in varie forme e colori]
+[picture:689:e_led:Diversi LED in varie forme costruttive e colori]
 </right>
 <note>
-* Abbiamo già conosciuto una forma speciale come LED
+* Una particolare variante l'abbiamo già conosciuta come LED
 </note>
 
 ---
@@ -21,15 +21,15 @@
 ## Tensione di soglia
 
 <left>
-* Affinché un diodo conduca nella direzione di passaggio, è necessario superare una certa tensione, la tensione di soglia o tensione di passaggio
-* A seconda della base dell'elemento chimico, la tensione di soglia è più o meno alta
+* Affinché un diodo conduca in polarizzazione diretta, deve essere superata una determinata tensione – la tensione di soglia o tensione diretta
+* A seconda del materiale di base, la tensione di soglia è diversa
 </left>
 <right>
 * Germanio: $\qtyrange{0,2}{0,4}{\volt}$
 * Silicio: $\qtyrange{0,6}{0,8}{\volt}$
-* LED (Rosso): $\qtyrange{1,6}{2,2}{\volt}$
-* LED (Giallo, Verde): $\qtyrange{1,9}{2,5}{\volt}$
-* LED (Blu, Bianco): $\qtyrange{2,7}{3,5}{\volt}$
+* LED (rosso): $\qtyrange{1,6}{2,2}{\volt}$
+* LED (giallo, verde): $\qtyrange{1,9}{2,5}{\volt}$
+* LED (blu, bianco): $\qtyrange{2,7}{3,5}{\volt}$
 </right>
 
 ---
@@ -39,7 +39,7 @@
 ## Diodo Schottky
 
 * Consente un'elevata frequenza di commutazione
-* È necessaria solo una tensione di soglia molto bassa da $\qty{0,4}{\volt}$ a meno di $\qty{0,1}{\volt}$
+* È necessaria solo una tensione di soglia molto bassa, da $\qty{0,4}{\volt}$ a meno di $\qty{0,1}{\volt}$
 
 ---
 [question:EC504]
@@ -57,15 +57,15 @@
 [question:EC505]
 ---
 
-## Diodo conduttore
+## Diodo in conduzione
 
 <left>
-* Un diodo conduce ogni volta che la tensione sull'anodo è superiore di una tensione di soglia rispetto al catodo
-* Vale anche per le tensioni negative
-* Nell'esame compaiono solo diodi al silicio con una tensione di soglia di $\qty{0,7}{\volt}$
+* Un diodo conduce sempre quando la tensione sull'anodo è più positiva di quella sul catodo di una quantità pari alla tensione di soglia
+* Vale anche per tensioni negative
+* Negli esami vengono considerati solo diodi al silicio con tensione di soglia di $\qty{0,7}{\volt}$
 </left>
 <right>
-[picture:113:e_leitende_siliziumdiode:Tensioni su un diodo al silicio conduttore]
+[picture:113:e_leitende_siliziumdiode:Tensioni su un diodo al silicio in conduzione]
 </right>
 
 ---
@@ -80,10 +80,10 @@
 [question:EC512]
 ---
 
-## Applicazione LED 
+## Applicazione LED
 
 <left>
-* Un LED serve come indicatore luminoso
+* Un LED funge da indicatore luminoso
 </left>
 <right>
 [picture:324:e_led_schaltung:LED con resistenza in serie]
@@ -95,8 +95,8 @@
 ### Resistenza in serie
 
 <left>
-* Poiché il LED stesso ha poca resistenza, agirebbe come un cortocircuito se collegato direttamente a una fonte di tensione
-* Con una resistenza in serie, la corrente di passaggio viene limitata
+* Poiché il LED stesso ha una resistenza quasi nulla, se collegato direttamente a una sorgente di tensione si comporterebbe come un cortocircuito
+* Con una resistenza in serie si limita la corrente di conduzione
 </left>
 <right>
 [picture:324:e_led_schaltung:LED con resistenza in serie]
@@ -104,9 +104,9 @@
 
 ---
 * Calcolo: $R = \dfrac{U_q - U_{\mathrm{LED}}}{I_D}$
-* $U_q$: fonte di tensione
-* $U_{\mathrm{LED}}$: tensione di soglia LED
-* $I_D$: corrente di passaggio
+* $U_q$: sorgente di tensione
+* $U_{\mathrm{LED}}$: tensione di soglia del LED
+* $I_D$: corrente di conduzione
 
 ---
 [question:EC515]
@@ -114,29 +114,29 @@
 [question:EC516]
 ---
 
-## Diodo Z
+## Diodo Zener
 
 <left>
-* Normalmente, la massima tensione inversa di un diodo è di circa $\qty{1000}{\volt}$
-* Nei diodi Z, si verifica una rottura di tensione a seconda del tipo tra $\qty{3}{\volt}$ e $\qty{100}{\volt}$
-* Servono per la stabilizzazione della tensione
+* Normalmente la tensione inversa massima di un diodo si aggira intorno a $\qty{1000}{\volt}$
+* Nei diodi Zener si verifica una rottura della tensione, a seconda del modello, tra $\qty{3}{\volt}$ e $\qty{100}{\volt}$
+* Vengono utilizzati per la stabilizzazione della tensione
 </left>
 <right>
-[picture:560:_e_z_diode:Simbolo di circuito diodo Z]
+[picture:560:_e_z_diode:Simbolo di circuito del diodo Zener]
 </right>
 <note>
-* In passato chiamato Clarence Melvin Zener
-* Oggi altri effetti sono determinanti, ma Z-Diode è rimasto come nome
+* In passato prendevano il nome da Clarence Melvin Zener
+* Oggi sono altri gli effetti determinanti, ma il nome diodo Zener è rimasto
 </note>
 
 ---
-### Polarità
+### Polarizzazione
 
 <left>
-* I diodi Z vengono utilizzati con una resistenza in serie in direzione inversa
+* I diodi Zener vengono utilizzati con una resistenza in serie in polarizzazione inversa
 </left>
 <right>
-[picture:549:e_z_diode_polung:Diodo Z correttamente inserito in direzione inversa]
+[picture:549:e_z_diode_polung:Diodo Zener correttamente inserito in polarizzazione inversa]
 </right>
 
 ---
@@ -152,10 +152,10 @@
 ### Resistenza in serie
 
 <left>
-[picture:753:e_z_diode_spannungsstabilisierung:Diodo Z per la stabilizzazione della tensione]
+[picture:753:e_z_diode_spannungsstabilisierung:Diodo Zener per stabilizzazione della tensione]
 </left>
 <right>
-* $U_Z$ è la tensione alla quale il diodo Z si stabilizza
+* $U_Z$ è la tensione alla quale il diodo Zener stabilizza
 * $U_V = U_1 - U_Z = \qty{13,8}{\volt} - \qty{5}{\volt} = \qty{8,8}{\volt}$
 * $R_V = \frac{U_V}{I} = \frac{\qty{8,8}{\volt}}{\qty{30}{\milli\ampere}} \approx \qty{293}{\ohm}$
 </right>
@@ -165,6 +165,6 @@
 [question:EC522]
 
 <note>
-* Le correnti sul resistore in serie si sommano
+* Le correnti sulla resistenza in serie si sommano
 * Le regole di Kirchhoff non sono ancora state trattate
 </note>

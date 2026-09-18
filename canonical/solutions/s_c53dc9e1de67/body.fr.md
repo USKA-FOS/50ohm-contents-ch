@@ -1,0 +1,7 @@
+L'aliasing décrit l'apparition d'ambiguïtés lors de l'échantillonnage d'un signal analogique avec un convertisseur A/N. La bonne réponse concerne donc le convertisseur A/N. Le convertisseur N/A génère un signal analogique par paliers et nécessite un *filtre de reconstruction* pour extraire la bande de fréquences souhaitée après la conversion N/A.
+
+Pour décider si un filtre passe-haut ou passe-bas peut être utilisé, nous considérons le *théorème d'échantillonnage*, également disponible dans les outils d'aide :
+
+$f_\text{échantillonnage} > 2 \cdot f_{\mathrm{max}}$
+
+Il stipule que la fréquence maximale du signal doit toujours être inférieure à la fréquence d'échantillonnage. Cela ne peut pas être respecté avec un filtre passe-haut, car celui-ci laisse passer toutes les fréquences de sa *fréquence de coupure* $f_\mathrm{g}$ jusqu'à (au moins théoriquement) l'infini. Un filtre passe-bas, en revanche, laisse passer toutes les fréquences de $\qty{0}{\hertz}$ jusqu'à sa *fréquence de coupure* $f_\mathrm{g}$. Par conséquent, un filtre passe-bas correctement dimensionné permet de respecter le théorème d'échantillonnage. La fréquence de coupure doit alors être nettement inférieure à la moitié de la fréquence d'échantillonnage.

@@ -1,57 +1,77 @@
-Nel capitolo precedente abbiamo già appreso che per i radioamatori di classe N la potenza irradiata che un'antenna trasmittente può emettere è limitata. Per le classi E e A, invece, nella maggior parte delle bande non è limitata la potenza irradiata, ma la *potenza d'uscita del trasmettitore*. Solo per pochissime bande di frequenza vale anche per la classe A una limitazione della potenza irradiata.
+Il tema delle normative relative alla potenza d’uscita è già stato trattato in dettaglio nel capitolo [sec:frequenzzuteilung].
+Qui, per memoria, viene fornita solo una breve sintesi. Successivamente, verranno esaminati gli aspetti tecnici della potenza d’uscita.
 
-La potenza d'uscita del trasmettitore è la potenza che un apparecchio radio emette all'uscita dell'antenna, prima che vengano attraversati dispositivi aggiuntivi, come ad esempio un misuratore SWR esterno o dispositivi di adattamento. Viene indicata come cosiddetta *peak envelope power (PEP)*. Per la classe N, invece, non è la potenza d'uscita del trasmettitore a essere determinante, ma la potenza irradiata effettivamente emessa dall'antenna. Torneremo su questo in un capitolo successivo, quando discuteremo della potenza irradiata delle antenne in relazione alla protezione delle persone. Molti apparecchi radio dispongono di un *Power-Meter*, che indica la potenza d'uscita del trasmettitore corrente. È etichettato, ad esempio, con "P" o "PO" o "PWR".
+---
+
+La potenza di uscita massima consentita del trasmettitore varia a seconda della classe di concessione e della banda di frequenza.
+La potenza massima di uscita del trasmettitore (PEP) è limitata come segue:
+
+* Concessione di trasmissione HB3: 100 watt
+
+* Concessione di trasmissione HB9: 1000 watt
+
+Su alcune bande di frequenza, entrambe le classi di concessione sono soggette a ulteriori restrizioni da rispettare.
+
+Le bande di frequenza dettagliate e i limiti di potenza sono riportati sul sito web dell’[UFCOM](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf). Questo foglio di supporto può essere utilizzato durante l’esame.
 
 <indepth>
-Per determinare la peak envelope power (PEP), si misura - in parole povere - la potenza media di ogni singola oscillazione ad alta frequenza all'uscita del trasmettitore e si utilizza quindi il valore più alto misurato. Nel gergo tecnico, questo viene chiamato "potenza effettiva all'uscita di uno stadio finale di trasmissione durante un periodo di oscillazione ad alta frequenza al picco più alto della curva di inviluppo della modulazione". Il termine tedesco raramente usato per PEP è Hüllkurvenspitzenleistung.
+Terminologia:
+
+* La *potenza irradiata* è la potenza che un’antenna può emettere. In questo caso, viene considerato il guadagno dell’antenna.
+
+* La *potenza di uscita del trasmettitore* è la potenza misurata all’uscita dell’apparecchio radio, prima che il segnale passi attraverso dispositivi aggiuntivi come un rosmetro esterno o adattatori. Viene indicata come *peak envelope power* (PEP). Ne parleremo in modo più approfondito in un capitolo successivo, quando tratteremo la potenza irradiata delle antenne in relazione al [sec:personenschutzabstand]. Molti apparecchi radio dispongono di un *power meter* che visualizza la potenza di uscita del trasmettitore corrente. È contrassegnato, ad esempio, con "P", "PO" o "PWR".
+</indepth>
+
+<indepth>
+Per determinare la *peak envelope power* (PEP), in modo semplificato si misura all’uscita del trasmettitore la potenza media di ogni singolo periodo dell’oscillazione ad alta frequenza e si utilizza il valore più alto rilevato. In termini tecnici, si parla di "potenza efficace all’uscita di un stadio finale di trasmissione durante un periodo dell’oscillazione ad alta frequenza al picco più alto dell’inviluppo della modulazione". Il termine tedesco poco utilizzato per PEP è *Hüllkurvenspitzenleistung* (potenza di picco dell’inviluppo).
 </indepth>
 
 [question:NF102]
 
----
-
-La potenza di trasmissione consentita varia a seconda della classe e della banda di frequenza. È definita nell'[Allegato 1 del Regolamento Radioamatoriale](https://50ohm.de/a1), che è disponibile come ausilio durante l'esame.
-
 <margin>
-[photo:145:ausgangsleistung:Estratto dall'Allegato 1 del Regolamento Radioamatoriale]
+Nel capitolo [sec:frequenzzuteilung] sono state trattate in dettaglio le frequenze delle bande di radioamatore, le potenze massime di uscita del trasmettitore e altri punti.
 </margin>
 
-Per determinare la potenza di trasmissione consentita dall'Allegato 1, si cerca innanzitutto la riga corretta utilizzando la colonna "Bande di frequenza". Quindi si può leggere il valore per le tre classi nella colonna "Potenza massima". Se non c'è alcuna voce per una classe, quella classe non può utilizzare la banda di frequenza.
+% @YPA: Forse vorresti spostare anche le due tabelle seguenti nel capitolo Assegnazione delle frequenze? da ARK
 
-Consigliamo di rispondere alle seguenti domande utilizzando l'Allegato 1 per fare pratica nella lettura dei valori corretti.
+<law>
 
-[question:VD727]
-[question:VD729]
-[question:VD728]
-[question:VD730]
-[question:VD731]
-[question:VD732]
-[question:VD733]
-[question:VD734]
+Per memoria: bande consentite e potenza massima di trasmissione per **HB3**
 
-Per la banda di frequenza da $\qtyrange{1240}{1300}{\mega\hertz}$ valgono disposizioni aggiuntive che non sono direttamente indicate nella tabella. Nella colonna destra "Disposizioni d'uso aggiuntive secondo B" i numeri indicano informazioni integrative che si trovano sotto la tabella. Per la seguente domanda, si prega di notare il punto 11.
+| Banda di frequenza | Potenza max |
+|-------------------|------------|
+| 1810–1850 kHz | 100 W |
+| 1850–2000 kHz | 100 W |
+| 3500–3800 kHz | 100 W |
+| 21000–21450 kHz | 100 W |
+| 28000–29700 kHz | 100 W |
+| 144–146 MHz | 50 W |
+| 430–440 MHz | 50 W |
+</law>
 
-[question:VD735]
-[question:VD736]
-[question:VD737]
+<law>
 
+Per memoria: bande consentite e potenza massima di trasmissione per **HB9**
 
----
-Da qui nuova sezione per l'elvetizzazione
-Non ordinato in ordine. Ordinamento per classi o diritti da definire.
-[question:VO004]
-[question:VO005]
-[question:VO006]
-[question:VO007]
-[question:VO008]
-[question:VO009]
-[question:VO010]
-[question:VO011]
-[question:VO012]
-[question:VO013]
-[question:VO014]
-[question:VO015]
-[question:VO016]
-[question:VO017]
-[question:VO018]
-[question:VO019]
+| Banda di frequenza | Potenza max |
+|-------------------|------------|
+| 1810–2000 kHz | 1000 W |
+| 3500–3800 kHz | 1000 W |
+| 5351.5–5366.5 kHz | 15 W EIRP |
+| 7000–7200 kHz | 1000 W |
+| 10100–10150 kHz | 1000 W |
+| 14000–14350 kHz | 1000 W |
+| 18068–18168 kHz | 1000 W |
+| 21000–21450 kHz | 1000 W |
+| 24890–24990 kHz | 1000 W |
+| 28000–29700 kHz | 1000 W |
+| 50–52 MHz | 100 W |
+| 70–70.0375 MHz | 25 W ERP |
+| 70.1125–70.500 MHz | 25 W ERP |
+| 144–146 MHz | 1000 W |
+| 430–440 MHz | 1000 W |
+| 1240–1300 MHz | 1000 W |
+| 2300–2450 MHz | 100 W |
+| 5650–5850 MHz | 100 W |
+| 10000–10450 MHz | 100 W |
+</law>

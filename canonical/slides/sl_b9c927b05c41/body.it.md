@@ -1,61 +1,61 @@
 <left>
-* Uno dei primi e più semplici ricevitori per AM
+* Uno dei primi e più semplici ricevitore per AM
 * L'energia viene prelevata direttamente dal segnale ricevuto
-* Utilizzabile solo nella zona locale di potenti trasmettitori radiofonici
+* Utilizzabile solo in ambito locale vicino a trasmettitori radiofonici potenti
 </left>
 <right>
-[photo:193:am_detektor:Ricevitore a diodo]
+[photo:193:am_detektor:Ricevitore a detector]
 </right>
 
 ---
 
 <left>
-[picture:799:am_detektor:Schema di un semplice ricevitore a diodo]
+[picture:799:am_detektor:Schema di un semplice ricevitore a detector]
 * Circuito oscillante parallelo composto da bobina e condensatore variabile
 </left>
 <right>
 [picture:800:am_detektor_antenne:Segnale all'antenna]
-[picture:801:am_detektor_diode:Segnale raddrizzato al diodo]
-[picture:802:am_detektor_kopfhoerer:Segnale AF udibile]
+[picture:801:am_detektor_diode:Segnale rettificato al diodo]
+[picture:802:am_detektor_kopfhoerer:Segnale BF udibile]
 </right>
 
 --- data-transition="none"
 
 <left>
-[picture:799:am_detektor:Schema di un semplice ricevitore a diodo]
-* Il segnale dall'antenna (rosso) eccita il circuito oscillante quando questo è sintonizzato sulla Frequenza
+[picture:799:am_detektor:Schema di un semplice ricevitore a detector]
+* Il segnale dall'antenna (rosso) eccita il circuito oscillante se questo è sintonizzato sulla frequenza
 </left>
 <right>
 [picture:800:am_detektor_antenne:Segnale all'antenna]
-[picture:801:am_detektor_diode:Segnale raddrizzato al diodo]
-[picture:802:am_detektor_kopfhoerer:Segnale AF udibile]
+[picture:801:am_detektor_diode:Segnale rettificato al diodo]
+[picture:802:am_detektor_kopfhoerer:Segnale BF udibile]
 </right>
 
 --- data-transition="none"
 
 <left>
-[picture:799:am_detektor:Schema di un semplice ricevitore a diodo]
-* Il diodo (blu) raddrizza la modulazione AM
+[picture:799:am_detektor:Schema di un semplice ricevitore a detector]
+* Il diodo (blu) rettifica la modulazione AM
 </left>
 <right>
 [picture:800:am_detektor_antenne:Segnale all'antenna]
-[picture:801:am_detektor_diode:Segnale raddrizzato al diodo]
-[picture:802:am_detektor_kopfhoerer:Segnale AF udibile]
+[picture:801:am_detektor_diode:Segnale rettificato al diodo]
+[picture:802:am_detektor_kopfhoerer:Segnale BF udibile]
 </right>
 
 --- data-transition="none"
 
 <left>
-[picture:799:am_detektor:Schema di un semplice ricevitore a diodo]
-* Un auricolare ad alta impedenza (verde) rende udibile il segnale, poiché l'auricolare è lento e non può seguire i singoli impulsi di corrente
+[picture:799:am_detektor:Schema di un semplice ricevitore a detector]
+* Cuffie ad alta impedenza (verde) rendono udibile il segnale poiché sono troppo lente per seguire i singoli impulsi di corrente
 </left>
 <right>
 [picture:800:am_detektor_antenne:Segnale all'antenna]
-[picture:801:am_detektor_diode:Segnale raddrizzato al diodo]
-[picture:802:am_detektor_kopfhoerer:Segnale AF udibile]
+[picture:801:am_detektor_diode:Segnale rettificato al diodo]
+[picture:802:am_detektor_kopfhoerer:Segnale BF udibile]
 </right>
 <note>
-* L'auricolare agisce come un filtro passa-basso e ripristina la curva di inviluppo
+* Le cuffie agiscono come un filtro passa-basso e ricostruiscono l'inviluppo del segnale
 </note>
 
 ---

@@ -1,37 +1,38 @@
 Breve ripasso sulle antenne:
-<left>
-L'antenna Groundplane irradia quasi uniformemente in tutte le direzioni, ma non verso l'alto o il basso
-</left>
-<right>
-L'antenna Yagi-Uda concentra i raggi radio in avanti e li riduce in tutte le altre direzioni
-</right>
-<fragment>
-Nel calcolo dei limiti per la distanza di sicurezza viene utilizzata la *direzione di massima radiazione*
-</fragment>
+
+* L’antenna *groundplane* irradia in tutte le direzioni orizzontali in modo quasi uniforme, ma non verso l’alto o il basso
+* L’antenna *Yagi-Uda* concentra i raggi radio verso la direzione frontale e riduce l’irradiazione nelle altre direzioni
+
+---
+
+* I limiti di protezione per le persone devono essere rispettati in ogni direzione
+* Se vengono rispettati nella direzione di massima irradiazione, ciò vale anche per tutte le altre direzioni alla stessa distanza
+* La direzione di massima irradiazione viene chiamata *direzione principale di irradiazione*
 
 ---
 ## Fattore di guadagno
 
-* Quanto meglio un'antenna irradia nella direzione di massima radiazione rispetto a un dipolo a semionda
-* Fattore di guadagno $\num{2}$: l'antenna irradia nella direzione di massima radiazione due volte più forte di un dipolo a semionda nella sua direzione di massima radiazione
+* Quanto un’antenna irradia meglio nella direzione principale rispetto a un dipolo a semionda
+* Fattore di guadagno $\num{2}$: l’antenna irradia nella direzione principale con una potenza doppia rispetto a un dipolo a semionda nella sua direzione principale
 
 <note>
-* Al posto del fattore di guadagno viene spesso indicato "guadagno in decibel ($\unit{dB}$)"
-* Questo è materiale per la classe E
+* Al posto di "fattore di guadagno" spesso si indica il "guadagno in decibel ($\unit{dB}$)"
+* Questo argomento è trattato nel corso per la classe E
 </note>
 
 ---
-## Potenza irradiata efficace (ERP)
+## Potenza irradiata effettiva (ERP)
 
-Potenza di trasmissione all'antenna moltiplicata per il fattore di guadagno
+*Effective Radiated Power*
 
-<fragment>
-Esempio: $\qty{5}{\watt}$ su un'antenna con fattore di guadagno $\num{2}$ danno una potenza irradiata efficace di $\qty{10}{\watt}$
-</fragment>
+* Potenza di trasmissione inviata all’antenna moltiplicata per il fattore di guadagno riferito al dipolo a semionda
+* Corrisponde alla potenza che bisognerebbe iniettare in un dipolo a semionda per ottenere la stessa irradiazione dell’antenna considerata
+
+---
+Esempio: $\qty{5}{\watt}$ su un’antenna con fattore di guadagno $\num{2}$ danno una potenza irradiata effettiva di $\qty{10}{\watt}$
 
 <note>
-* ERP: (inglese) effective radiated power
-* Una Yagi-Uda a 9 elementi può avere un fattore di guadagno di 10, quindi $\qty{100}{\watt}$ di potenza d'ingresso sono $\qty{1000}{\watt}$ ERP
+Un’antenna Yagi-Uda a 9 elementi può avere un fattore di guadagno di 10, quindi $\qty{100}{\watt}$ di potenza d’ingresso corrispondono a $\qty{1000}{\watt}$ di ERP
 </note>
 
 ---

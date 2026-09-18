@@ -1,3 +1,3 @@
-Un regolatore di tensione fissa da 12 V mantiene la sua tensione d’uscita in gran parte costante, purché la tensione d’ingresso sia sufficientemente superiore alla tensione d’uscita. Sebbene la tensione d’ingresso fluttui tra $\qty{15}{\volt}$ e $\qty{18}{\volt}$, la tensione d’uscita rimane quindi quasi invariata a $\qty{12}{\volt}$.
+Un regolatore di tensione a 12 V mantiene costante la sua tensione d’uscita finché la tensione d’ingresso rimane sufficientemente superiore a quella d’uscita. Nonostante la tensione d’ingresso oscilli tra $\qty{15}{\volt}$ e $\qty{18}{\volt}$, la tensione d’uscita rimane pressoché invariata a $\qty{12}{\volt}$.
 
-La fluttuazione di tensione in uscita è quindi quasi pari a zero volt.
+La variazione di tensione all’uscita è quindi pressoché nulla.

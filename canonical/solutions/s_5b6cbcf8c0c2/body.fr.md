@@ -1,0 +1,1 @@
+Le condensateur $C_1$ sert à *maximiser le gain en tension alternative*. Pour les tensions alternatives, il shunte la résistance d'émetteur et réduit ainsi la contre-réaction. Le point de fonctionnement en courant continu du transistor reste inchangé.

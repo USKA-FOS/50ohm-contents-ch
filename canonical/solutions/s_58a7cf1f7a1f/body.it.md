@@ -1,5 +1,5 @@
-Se $R_2$ non ha più contatto a causa di un difetto di saldatura, manca la parte inferiore del partitore di tensione di base. La base viene quindi tirata quasi alla tensione di servizio positiva tramite $R_1$.
+Se <i>R<sub>2</sub></i> non ha più contatto a causa di una saldatura difettosa, manca la parte inferiore del partitore di tensione della base. La base viene quindi portata quasi alla tensione di servizio positiva tramite <i>R<sub>1</sub></i>.
 
-Ciò aumenta notevolmente la tensione base-emettitore e il transistor viene completamente condotto. La corrente di collettore è quindi limitata essenzialmente solo dalla resistenza di collettore $R_C$.
+Di conseguenza, la tensione base-emettitore aumenta notevolmente e il transistor viene completamente portato in conduzione. La corrente di collettore è allora limitata essenzialmente solo dalla resistenza di collettore <i>R<sub>C</sub></i>.
 
-Nello stato condotto, la tensione di collettore scende a un valore molto basso, tipicamente circa $\qty{0,1}{\volt}$.
+In stato di conduzione completa, la tensione di collettore scende a un valore molto piccolo, tipicamente circa <i>0,1 V</i>.

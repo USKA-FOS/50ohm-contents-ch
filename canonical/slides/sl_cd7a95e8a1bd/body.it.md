@@ -1,9 +1,9 @@
 ## Formula approssimata per l'intensità di campo
 <left>
 * Calcolo dell'intensità di campo elettrico
-* A distanza da un irradiatore
-* Dato la potenza e il guadagno
-* Valido solo nello spazio libero <br/> ($d > \frac{\lambda}{2\pi}$)
+* A una distanza da un radiatore
+* Con potenza e guadagno dati
+* Valida solo nello spazio libero <br/> ($d > \frac{\lambda}{2\pi}$)
 </left>
 <right>
 $\begin{split} E &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{d} \end{split}$
@@ -12,8 +12,8 @@ $\begin{split} E &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ &= \d
 ---
 ## Formula approssimata per la distanza
 <left>
-* Data l'intensità di campo
-* Riorganizzare per $d$
+* Con intensità di campo data
+* Risoluzione rispetto a $d$
 </left>
 <right>
 $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{E}\\ &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E} \end{split}$
@@ -22,14 +22,14 @@ $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{E}\\ &= \d
 ---
 [question:EK108]
 ---
-### Percorso di soluzione
+### Procedimento di soluzione
 <left>
-* dato: $E = \qty{28}{\volt\per\meter}$
-* dato: $g_d = \qty{7,5}{\dBd}$
-* dato: $P_S = \qty{100}{\watt}$
+* dati: $E = \qty{28}{\volt\per\metro}$
+* dati: $g_d = \qty{7,5}{\dBd}$
+* dati: $P_S = \qty{100}{\watt}$
 </left>
 <right>
-* dato: $a_{\textrm{cavo}} = \qty{1,5}{\dB}$
+* dati: $a_{\textrm{cavo}} = \qty{1,5}{\dB}$
 * cercato: $P_{\textrm{EIRP}}$
 * cercato: $d$
 </right>
@@ -41,17 +41,17 @@ $\begin{split} P_{\textrm{EIRP}} &= P_S \cdot 10^{\frac{g_d - a + \qty{2,15}{\dB
 </left>
 <right>
 <fragment>
-$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E}\\ &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{650}{\watt}}}{\qty{28}{\volt\per\meter}}\\ &\approx \qty{5}{\meter} \end{split}$
+$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E}\\ &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{650}{\watt}}}{\qty{28}{\volt\per\metro}}\\ &\approx \qty{5}{\metro} \end{split}$
 </fragment>
 </right>
 
 ---
 ### Domanda bonus
 
-La distanza calcolata di $\qty{5}{\meter}$ non rientra nel campo vicino per la banda dei $\qty{10}{\meter}$ della domanda?
+I $\qty{5}{\metro}$ calcolati non si trovano nel campo vicino per la banda dei $\qty{10}{\metro}$ dalla domanda?
 
 <fragment>
-$\begin{split} d &> \frac{\lambda}{2\pi}\\ \qty{5}{\meter} &> \frac{\qty{10}{\meter}}{2\pi}\\ \qty{5}{\meter} &\gtrapprox \qty{1,6}{\meter} \end{split}$
+$\begin{split} d &> \frac{\lambda}{2\pi}\\ \qty{5}{\metro} &> \frac{\qty{10}{\metro}}{2\pi}\\ \qty{5}{\metro} &\gtrapprox \qty{1,6}{\metro} \end{split}$
 </fragment>
 
 ---
@@ -59,10 +59,10 @@ $\begin{split} d &> \frac{\lambda}{2\pi}\\ \qty{5}{\meter} &> \frac{\qty{10}{\me
 ---
 ### Soluzione
 
-* La distanza di sicurezza per la protezione delle persone è valida solo nello spazio libero
+* La distanza di sicurezza per la protezione delle persone vale solo nello spazio libero
 * $d > \frac{\lambda}{2\pi}$
-* Banda dei $\qty{160}{\meter}$: $\qty{25,5}{\meter}$
-* Banda degli $\qty{80}{\meter}$: $\qty{12,7}{\meter}$
+* Banda dei $\qty{160}{\metro}$: $\qty{25,5}{\metro}$
+* Banda degli $\qty{80}{\metro}$: $\qty{12,7}{\metro}$
 
 ---
 [question:EK105]
@@ -70,4 +70,3 @@ $\begin{split} d &> \frac{\lambda}{2\pi}\\ \qty{5}{\meter} &> \frac{\qty{10}{\me
 <note>
 Si trova nel campo vicino, come abbiamo calcolato in precedenza
 </note>
-

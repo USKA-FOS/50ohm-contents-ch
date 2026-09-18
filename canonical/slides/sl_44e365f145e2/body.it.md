@@ -1,35 +1,35 @@
 ## Impedenza caratteristica
 
 * Indipendente dalla lunghezza della linea
-* Indipendente dagli apparecchi collegati alla linea
-* Dipendente dalla struttura della sezione trasversale (conduttore, eventuale materiale dielettrico/isolante)
-* Nella gamma delle alte frequenze, l'impedenza caratteristica è in gran parte costante
+* Indipendente dai dispositivi collegati alla linea
+* Dipendente dalla struttura della sezione trasversale (conduttore, eventualmente materiale dielettrico)
+* Nell’ambito dell’alta frequenza, l’impedenza caratteristica è in gran parte costante
 
 ---
 [question:EG301]
 ---
-## Linee di trasmissione
+## Linee di alimentazione
 
 <left>
-* Linea di alimentazione a conduttori paralleli
-* Cavi coassiali comuni
+* Linea di alimentazione bifilare
+* Cavo coassiale
 </left>
 <right>
 * Il cavo coassiale evita irradiazioni indesiderate
-* Irradiazioni indesiderate possono verificarsi a causa di *onde di mantel* (onde di modo comune)
-* Le onde di mantel possono essere soppresse mediante trappole per onde di mantel
+* Irradiazioni indesiderate possono verificarsi a causa delle *correnti sulla calza*
+* Le correnti sulla calza possono essere soppresse mediante filtri per correnti sulla calza
 </right>
 <note>
-* Maggiori informazioni sulle onde di mantel più avanti
+* Maggiori informazioni sulle correnti sulla calza in seguito
 </note>
 ---
 [question:EG302]
 ---
-## Accoppiamenti
+## Accoppiamenti indesiderati
 
-* I cavi posati direttamente accanto ai cavi coassiali possono subire accoppiamenti
-* In questo modo, le alte frequenze raggiungono ad esempio la rete elettrica
-* E la potenza destinata all'antenna viene persa
+* Cavi posizionati direttamente accanto a cavi coassiali possono subire accoppiamenti indesiderati
+* Di conseguenza, l’alta frequenza può penetrare, ad esempio, nella rete elettrica
+* E si perdono potenza verso l’antenna
 
 ---
 [question:EG306]
@@ -37,21 +37,21 @@
 ### Linea di alimentazione asimmetrica
 
 <left>
-[photo:65:e_uebertragungsleitungen_koaxialkabel:Cavo coassiale aperto composto da calza, schermatura, dielettrico e conduttore interno]
+[photo:65:e_uebertragungsleitungen_koaxialkabel:Sezione di un cavo coassiale aperto che mostra calza, schermatura, materiale dielettrico e conduttore interno]
 </left>
 <right>
-* Come per le antenne, una linea di alimentazione è asimmetrica se sono presenti tensioni diverse
-* Nel cavo coassiale, i due conduttori hanno forme diverse
-* La schermatura non presenta tensione rispetto alla terra
+* Come nelle antenne, una linea di alimentazione è asimmetrica quando sono presenti tensioni diverse
+* Nel cavo coassiale i due conduttori hanno forme diverse
+* La calza non presenta tensione rispetto a terra
 </right>
 
 ---
 [question:EG304]
 ---
-## Rigidità dielettrica
+## Tenuta in tensione
 
-* Nel cavo coassiale si verificano perdite nel materiale dielettrico/isolante
-* A tensioni elevate può verificarsi una scarica
+* Nel cavo coassiale si verificano perdite nel materiale dielettrico
+* A tensioni elevate può verificarsi una *scarica disruptiva*
 
 ---
 [question:EG305]
@@ -59,13 +59,13 @@
 ## Connettori coassiali
 
 <left>
-[photo:73:e_uebertragungsleitungen_n_stecker_buchse:Presa N e spina N]
+[photo:73:e_uebertragungsleitungen_n_stecker_buchse:Connettore e presa tipo N]
 </left>
 <right>
-* *Spina N*: per basse e alte frequenze e alta potenza
-* *Spina BNC*: per basse e alte frequenze e bassa potenza
-* *Spina SMA*: per alte frequenze e bassa potenza
-* *Spina UHF/PL*: per basse frequenze e alta potenza
+* *Connettore N*: per bassa e alta frequenza e alta potenza
+* *Connettore BNC*: per bassa e alta frequenza e bassa potenza
+* *Connettore SMA*: per alta frequenza e bassa potenza
+* *Connettore UHF/PL*: per bassa frequenza e alta potenza
 </right>
 
 ---

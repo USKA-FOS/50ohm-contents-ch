@@ -1,14 +1,14 @@
 <left>
-* La corrente viene misurata in serie nel circuito
-* La tensione viene misurata attraverso la resistenza
-* La resistenza nel voltmetro deve essere elevata $\rightarrow$ la corrente prende il percorso di minor resistenza
+* La corrente viene misurata inserendo l'amperometro nel circuito
+* La tensione viene misurata ai capi della resistenza
+* La resistenza interna del voltmetro deve essere elevata $\rightarrow$ la corrente segue il percorso di minor resistenza
 </left>
 <right>
-[picture:238:e_strom_und_spannungsmessung:Corretta disposizione per la misurazione di corrente e tensione su una resistenza]
+[picture:238:e_strom_und_spannungsmessung:Disposizione corretta per la misura di corrente e tensione su una resistenza]
 </right>
 
 <note>
-* Se la resistenza nel voltmetro è bassa, una maggiore corrente fluirà attraverso di essa e falserà la misurazione sull'amperometro
+* Se la resistenza interna del voltmetro è bassa, vi scorrerà una corrente maggiore che falserebbe la misura dell'amperometro
 </note>
 ---
 [question:EI101]

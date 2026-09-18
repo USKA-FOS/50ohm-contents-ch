@@ -1,1 +1,1 @@
-Alla scheda del padrino
+Torna alla carta patente

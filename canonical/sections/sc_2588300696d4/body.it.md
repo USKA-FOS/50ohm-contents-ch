@@ -1,22 +1,23 @@
-Torniamo ora ai semiconduttori. Come abbiamo già imparato, sono materiali che conducono solo in determinate circostanze. I semiconduttori come il silicio o il germanio presentano proprietà sia di conduttori che di non conduttori. Il funzionamento esatto viene discusso nel materiale didattico per le classi E e A.
+Torniamo ora ai semiconduttori. Come abbiamo già appreso nella sezione [sec:leiter_nichtleiter], questi sono materiali che conducono solo in determinate condizioni. I semiconduttori come il silicio o il germanio presentano sia proprietà dei conduttori che degli isolanti. Il funzionamento dettagliato viene trattato nei materiali formativi per HB9.
 
-Il componente più semplice costituito da semiconduttori è la *diode*, mostrata nella figura [ref:n_halbleiter_dioden]. La diodo ha la proprietà interessante che la corrente può fluire attraverso di essa solo *in una direzione*.
+Il componente più semplice realizzato con semiconduttori è il *diodo*, mostrato nella figura [ref:n_halbleiter_dioden]. Il diodo ha la caratteristica interessante di permettere il passaggio della *corrente solo in una direzione*.
+
 
 <margin>
-[photo:204:n_halbleiter_dioden:Simbolo di circuito e forme costruttive delle diodi]
+[photo:204:n_halbleiter_dioden:Simboli di circuito e forme costruttive dei diodi]
 </margin>
 
 [question:NC401]
 
 ---
 
-I terminali di una diodo sono chiamati *anodo* e *catodo*. Se si sostituisce un filo in un circuito con una diodo, la corrente può fluire dalla anodo alla catodo, ma non viceversa. Una diodo si comporta come un interruttore automatico: se si collega il polo positivo alla anodo e il polo negativo alla catodo, l'interruttore è chiuso e la diodo conduce. Se invece si collega il polo positivo alla catodo e il polo negativo alla anodo, la diodo si comporta come un interruttore aperto e non conduce.
+I terminali di un diodo sono chiamati *anodo* e *catodo*. Se si sostituisce un filo con un diodo in un circuito, la corrente può fluire dal anodo verso il catodo, ma non viceversa. Un diodo si comporta come un interruttore automatico: collegando il polo positivo all’anodo e il polo negativo al catodo, l’interruttore è chiuso e il diodo conduce. Se invece si collegano il polo positivo al catodo e il polo negativo all’anodo, il diodo si comporta come un interruttore aperto e non conduce.
 
 <margin>
-[picture:666:n_halbleiter_diode_merkhilfe:Aiuto mnemonico per la diodo]
+[picture:666:n_halbleiter_diode_merkhilfe:Aiuto mnemonico per il diodo]
 </margin>
 
-Il tutto può essere ricordato bene con l'aiuto della figura [ref:n_halbleiter_diode_merkhilfe]: il simbolo della diodo mostra, come una freccia, la direzione tecnica della corrente. I nomi dei terminali anodo e catodo possono essere ricordati bene aggiungendo le lettere iniziali A e K al simbolo della diodo.
+Tutto ciò può essere ricordato facilmente con l’aiuto della figura [ref:n_halbleiter_diode_merkhilfe]: il simbolo del diodo mostra una freccia che indica il verso convenzionale della corrente. I nomi dei terminali anodo e catodo possono essere ricordati aggiungendo al simbolo le lettere iniziali A e K.
 
 [question:NC403]
 [question:NC404]
@@ -24,10 +25,10 @@ Il tutto può essere ricordato bene con l'aiuto della figura [ref:n_halbleiter_d
 
 ---
 
-Una diodo speciale è la diodo a emissione luminosa, o LED in breve (dall'inglese "light-emitting diode"). Questa è una diodo che si illumina non appena la corrente la attraversa. Il simbolo di circuito di un LED corrisponde alla diodo con due frecce aggiuntive che indicano l'emissione luminosa (figura [ref:n_halbleiter_led]). A parte il fatto che il LED si illumina, si comporta esattamente come qualsiasi altra diodo: lascia fluire la corrente solo in una direzione.
+Un tipo speciale di diodo è il diodo luminoso, o LED (dall’inglese *light-emitting diode*). Si tratta di un diodo che emette luce quando viene attraversato da corrente. Il simbolo di circuito di un LED corrisponde a quello del diodo con l’aggiunta di due frecce che indicano l’emissione luminosa (figura [ref:n_halbleiter_led]). A parte l’emissione di luce, il LED si comporta esattamente come qualsiasi altro diodo: lascia passare la corrente solo in una direzione.
 
 <margin>
-[photo:205:n_halbleiter_led:Simbolo di circuito e forme costruttive dei LED]
+[photo:205:n_halbleiter_led:Simboli di circuito e forme costruttive dei LED]
 </margin>
 
 [question:NC402]

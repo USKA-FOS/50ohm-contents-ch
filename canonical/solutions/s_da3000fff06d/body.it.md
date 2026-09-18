@@ -1,7 +1,7 @@
-Qui utilizziamo la formula del circuito oscillante di Thomson. Nota: le capacità collegate in parallelo si sommano.
+Qui applichiamo la formula del circuito risonante di Thomson. Nota: le capacità collegate in parallelo si sommano.
 
 $f = \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}$
 
-Con valori inseriti:
+Con i valori inseriti:
 
-$\begin{split} C_\text{tot} &= C_1 + C_2 + C_3\\ 1,82 \cdot \qty{10^{-9}}{\farad} &= 0,1 \cdot \qty{10^{-9}}{\farad} + 1,5 \cdot \qty{10^{-9}}{\farad} + 220 \cdot \qty{10^{-12}}{\farad}\\ f &= \frac{1}{2 \pi \cdot \sqrt{1,2 \cdot 10^{-3}\text{ H} \cdot 1,82 \cdot \qty{10^{-9}}{\farad}}}\\ &\approx \qty{107694,57}{\hertz} \approx 107,7 \cdot \qty{10^3}{\hertz} = \qty{107,7}{\kilo\hertz}\end{split}$
+$\begin{split} C_\text{Tot} &= C_1 + C_2 + C_3\\ 1,82 \cdot \qty{10^{-9}}{\farad} &= 0,1 \cdot \qty{10^{-9}}{\farad} + 1,5 \cdot \qty{10^{-9}}{\farad} + 220 \cdot \qty{10^{-12}}{\farad}\\ f &= \frac{1}{2 \pi \cdot \sqrt{1,2 \cdot 10^{-3}\text{ H} \cdot 1,82 \cdot \qty{10^{-9}}{\farad}}}\\ &\approx \qty{107694,57}{\hertz} \approx 107,7 \cdot \qty{10^3}{\hertz} = \qty{107,7}{\kilo\hertz}\end{split}$

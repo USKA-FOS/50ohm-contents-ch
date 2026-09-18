@@ -1,58 +1,58 @@
 ## Simmetria
 
-* Le antenne dipolo alimentate al centro sono *antenne simmetriche*
-* Presentano ad entrambi i poli (ad es. i punti di alimentazione) la stessa Tensione rispetto alla terra, a parte il segno
+* I dipoli alimentati al centro sono *antenne simmetriche*
+* Presentano agli estremi (ad esempio i punti di alimentazione) la stessa tensione rispetto a terra, a meno del segno
 * È il caso dei dipoli e delle antenne Yagi-Uda basate su di essi
-* L'antenna Groundplane è *asimmetrica*, poiché ha potenziale di terra nel punto di connessione dei radiali
+* L’antenna *groundplane* è *asimmetrica*, poiché al punto di connessione dei radiali ha potenziale di terra
 
 <note>
-* Potenziale di terra: Tensione pari a zero rispetto alla terra
-* I cavi simmetrici e asimmetrici verranno trattati più avanti con i cavi
+* Potenziale di terra: tensione pari a zero rispetto alla terra
+* Cavi simmetrici e asimmetrici verranno trattati in seguito
 </note>
 ---
 [question:EG213]
 ---
-## Antenne ad anello
+## Antenne a loop
 
-* Filo di lunghezza totale pari a circa una lunghezza d’onda
-* A forma di cerchio, quadrato, triangolo, ecc.
-* Popolare: antenna Delta-loop a forma di delta (Δ), poiché richiede un solo palo
+* Filo con lunghezza totale pari a circa una lunghezza d’onda
+* Può assumere la forma di un cerchio, quadrato, triangolo, ecc.
+* Molto diffusa: l’antenna Delta-Loop a forma di delta (Δ), poiché richiede un solo palo
 
 ---
 [question:EG101]
 ---
 ## Magnetic-Loop
 
-* Antenna ad anello magnetica, poiché l'irraggiamento nel campo vicino avviene tramite il campo magnetico
-* Circa $\frac{\lambda}{10}$ di circonferenza
-* Rendimento tra $\qtyrange{1}{10}{\percent}$ in trasmissione
-* Meno disturbi in presenza di oggetti conduttivi o attenuanti nel campo vicino
+* Antenna a loop magnetica, poiché l’irradiazione nel campo vicino avviene tramite il campo magnetico
+* Circonferenza di circa $\frac{\lambda}{10}$
+* Rendimento in funzionamento in trasmissione compreso tra $\qtyrange{1}{10}{\percent}$
+* Minori interferenze in presenza di oggetti conduttivi o attenuanti nel campo vicino
 
 <note>
-* Possibile utilizzo in interni
-* Ciononostante, non si dovrebbe sedere troppo vicino al forte campo magnetico
+* Possibile l’impiego in ambienti interni
+* Tuttavia, non è consigliabile sedersi direttamente accanto a essa a causa del forte campo magnetico
 </note>
 ---
 [question:EG105]
 ---
-## Antenne alimentate all'estremità
+## Antenne alimentate all’estremità
 
-* Alimentazione dall'estremità
-* Lunghezza spesso $\frac{\lambda}{2}$
-* Richiede una Tensione più alta
+* Alimentazione dalla parte terminale
+* Lunghezza spesso pari a $\frac{\lambda}{2}$
+* Richiede una tensione più elevata
 
 ---
 ### Antenna Fuchs
 <left>
-* Utilizzo di un elemento di adattamento (Trasformatore)
-* Spesso utilizzato: circuito Fuchs
+* Utilizzo di un elemento di adattamento (trasformatore)
+* Spesso impiegato: circuito Fuchs
 </left>
 <right>
-[picture:310:e_antennenformen_fuchskreis:Rappresentazione schematica di un'antenna Fuchs con circuito Fuchs]
+[picture:310:e_antennenformen_fuchskreis:Rappresentazione schematica di un’antenna Fuchs con circuito Fuchs]
 </right>
 
 <note>
-* Dal Dr. Josef Fuchs (OE1JF, UO1JF e EAAA) del 1927
+* Dal nome del Dr. Josef Fuchs (OE1JF, UO1JF e EAAA), anno 1927
 </note>
 ---
 [question:EG104]
@@ -61,18 +61,18 @@
 ---
 ## Direttività
 
-* Rappresentazione come *diagramma di radiazione*
-* Per un piano, il guadagno o l'intensità di campo o la Potenza di radiazione vengono riportati in ogni direzione
-* Più il grafico si allontana dal centro, maggiore è il guadagno o più alta è l'intensità di campo e la Potenza di radiazione nel campo lontano
-* Spesso viene rappresentata anche l'antenna al suo interno
+* Rappresentazione tramite *diagramma di radiazione*
+* Per un piano, si traccia in ogni direzione il guadagno o l’intensità di campo o la potenza irradiata
+* Più il grafico si allontana dal centro, maggiore è il guadagno o l’intensità di campo e la potenza irradiata nel campo lontano
+* Spesso l’antenna viene rappresentata all’interno del diagramma
 
 ---
 ### Direttività di un dipolo
 
 <left>
-* Irradia perpendicolarmente al Filo
-* Visti in un piano, si formano lobi accanto al dipolo
-* Un dipolo verticale irradia tutt'intorno
+* Irradia perpendicolarmente rispetto al filo
+* In un piano, si ottengono lobi laterali accanto al dipolo
+* Un dipolo verticale irradia in tutte le direzioni
 </left>
 <right>
 [picture:261:e_antennenformen_strahlungsdiagramm_dipol:Diagramma di radiazione di un dipolo]
@@ -84,33 +84,33 @@
 ---
 ### Dipolo a semionda verticale
 
-* Un dipolo a semionda montato verticalmente ha un'irradiazione piatta
-* Popolare per il traffico DX o per contatti via onda diretta o onda di terra
+* Un dipolo a semionda montato verticalmente presenta un’irradiazione piatta
+* Molto diffuso nel traffico DX o nei contatti tramite onda diretta o onda di terra
 
 ---
 [question:EG219]
 ---
 ### Antenna 5/8$\lambda$
 
-* Antenna 5/8$\lambda$ eccitata rispetto alla terra o alla carrozzeria del veicolo
-* Caso speciale di un'antenna verticale
-* La lunghezza è scelta in modo da ottenere un guadagno ottimale
+* Antenna verticale 5/8$\lambda$ eccitata rispetto a terra o alla carrozzeria di un veicolo
+* Caso speciale di antenna verticale
+* La lunghezza è scelta per ottenere un guadagno ottimale
 
 ---
 [question:EG108]
 ---
-### Antenna Groundplane
+### Antenna groundplane
 
 <left>
-* Irradia perpendicolarmente al radiatore
-* Il diagramma di radiazione è visto dall'alto
-* Quasi un'antenna omnidirezionale, ad eccezione della zona dei radiali
+* Irradia perpendicolarmente rispetto al radiatore
+* Il diagramma di radiazione viene osservato dall’alto
+* Quasi un’antenna omnidirezionale, tranne che nella zona dei radiali
 </left>
 <right>
-[picture:268:e_antennenformen_strahlungsdiagramm_groundplane:Diagramma di radiazione di un'antenna Groundplane vista dall'alto]
+[picture:268:e_antennenformen_strahlungsdiagramm_groundplane:Diagramma di radiazione di un’antenna groundplane visto dall’alto]
 </right>
 <note>
-* Le protuberanze della Groundplane in pratica non sono così pronunciate come mostrato nel grafico
+* In pratica, i lobi della groundplane non sono così marcati come nella grafica
 </note>
 ---
 [question:EG216]
@@ -118,10 +118,10 @@
 ### Antenna direzionale
 
 <left>
-* Il guadagno è significativamente più alto in una direzione rispetto alle altre
+* Il guadagno è notevolmente più elevato in una direzione rispetto alle altre
 </left>
 <right>
-[picture:262:e_antennenformen_strahlungsdiagramm_richtantenne:Diagramma di radiazione di un'antenna direzionale]
+[picture:262:e_antennenformen_strahlungsdiagramm_richtantenne:Diagramma di radiazione di un’antenna direzionale]
 </right>
 ---
 [question:EG217]
@@ -129,24 +129,24 @@
 ## Antenne per UHF/VHF/SHF
 
 <left>
-* Adatte solo per alte Frequenze
-* Insolite nel campo delle onde corte, poiché raggiungerebbero dimensioni ingombranti
+* Adatte solo a frequenze elevate
+* Nel campo delle onde corte sono poco usate, poiché raggiungerebbero dimensioni poco maneggevoli
 </left>
 <right>
-* Tromba radiante
+* Antenna a tromba
 * Antenne paraboliche
-* Antenne patch su circuiti stampati
-* Antenna a trappola
+* Patch antenna su circuiti stampati
+* Antenna a manicotto
 </right>
 <note>
-* Le antenne vengono menzionate solo perché sono adatte per l'esclusione nella prossima domanda d'esame
+* Le antenne vengono menzionate solo perché sono adatte per la domanda successiva dell’esame per l’esclusione
 </note>
 
 ---
 ## Altre antenne per onde corte
 
-* L'*antenna Windom* è un'antenna multibanda che, grazie ai suoi due bracci di lunghezza diversa, consente l'adattamento per più Frequenze
-* L'*antenna W3DZZ* è un dipolo per $\qty{40}{\meter}$ e $\qty{80}{\meter}$, le cui estremità vengono accorciate per $\qty{40}{\meter}$ tramite circuiti trappola
+* L’antenna *Windom* è un’antenna multibanda che, grazie a due bracci di lunghezza diversa, consente l’adattamento a più frequenze
+* L’antenna *W3DZZ* è un dipolo per $\qty{40}{\meter}$ e $\qty{80}{\meter}$, i cui estremi si accorciano tramite circuiti accordati a $\qty{40}{\meter}$
 
 ---
 [question:EG106]

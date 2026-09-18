@@ -1,15 +1,15 @@
-% TODO: Mostrare esempi audio.
+% TODO: Idea: mostrare esempi audio.
 
-Il segnale ricevuto di un trasmettitore-ricevitore è influenzato, ad esempio, da rumore o disturbi impulsivi. Questi possono avere le cause più svariate. Un segnale ricevuto debole può essere sovrapposto da componenti di rumore, oppure sono presenti nel segnale, ad esempio, disturbi dovuti a scintille di accensione dei veicoli, trasmissioni di alimentatori switching o macchine di ogni tipo.
+Il segnale ricevuto da un ricetrasmettitore può essere compromesso da rumore o disturbi impulsivi. Questi possono avere le cause più disparate. Un segnale ricevuto debole può essere sovrapposto da componenti di rumore oppure può essere disturbato, ad esempio, da scintille di accensione di veicoli, emissioni di alimentatori a commutazione o macchinari di vario tipo.
 
-I ricevitori moderni dispongono di sistemi appropriati che possono riconoscere e sopprimere le componenti di rumore nel segnale ricevuto. Questa funzione è chiamata *Noise Reduction (NR)*. Se sono implementati digitalmente, vengono anche chiamati Digital Noise Reduction (DNR). La soppressione digitale del rumore ha il vantaggio di poter distinguere attivamente tra segnale utile e rumore, a condizione che il segnale utile non scompaia troppo nel rumore. Ciò consente un'efficace soppressione del rumore.
+I ricevitori moderni dispongono di sistemi corrispondenti che rilevano e sopprimono le componenti di rumore nel segnale ricevuto. Questa funzione è chiamata *Noise Reduction (NR)*. Se implementata in modo digitale, viene anche denominata Digital Noise Reduction (DNR). La riduzione digitale del rumore ha il vantaggio di poter differenziare attivamente tra segnale utile e rumore, a patto che il segnale utile non sia completamente sommerso dal rumore. Ciò consente una soppressione efficace del rumore.
 
 <margin>
-[photo:326:e_dnr:Tasto DNR sull'apparecchio radio a onde corte FT-710]
+[photo:326:e_dnr:Tasto DNR sul ricetrasmettitore per onde corte FT-710]
 </margin>
 
 [question:EF213]
 
-I disturbi impulsivi, d'altra parte, possono essere esclusi dal segnale ricevuto mediante un soppressore di disturbi o *Noise Blanker (NB)*.
+I disturbi impulsivi, invece, possono essere eliminati dal segnale ricevuto mediante un eliminatore di disturbi, o *Noise Blanker (NB)*.
 
 [question:EF214]

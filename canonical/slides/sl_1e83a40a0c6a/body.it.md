@@ -1,29 +1,29 @@
-* I collegamenti radio avvengono sulla stessa Frequenza
-* Solo una parte può parlare – l'altra può solo ascoltare
-* Se si trasmette contemporaneamente, nessuno sente
-* Conoscenze necessarie per un corretto svolgimento operativo
+* Le comunicazioni radio avvengono sulla stessa frequenza
+* Solo una stazione può trasmettere – l’altra può solo ascoltare
+* In caso di trasmissione simultanea, nessuno sente nulla
+* È necessario conoscere le procedure operative corrette
 
 ---
 
-### Svolgimento nell'ambito del radioamatore
+### Procedura operativa nel servizio di radioamatore
 
-* Non ci sono prescrizioni obbligatorie tranne la menzione del nominativo
-* Tuttavia, ha senso orientarsi secondo le procedure operative
+* Non ci sono prescrizioni vincolanti, tranne la menzione del nominativo
+* Tuttavia, è utile seguire le procedure operative standard
 
 <note>
-* In altri servizi radio, le procedure operative sono prescritte esattamente, ad es. comunicazioni aeree, polizia, vigili del fuoco, servizi di soccorso
+* In altri servizi radio le procedure sono strettamente regolamentate, ad esempio nel radiofonia aeronautica, nella polizia, nei vigili del fuoco e nei servizi di soccorso
 </note>
 
 ---
 
-### Trovare una Frequenza libera
+### Trovare una frequenza libera
 
-* Le Frequenze sono condivise
-* Prima ascoltare se la Frequenza è libera
-* Chiedere due o tre volte brevemente se la Frequenza è libera
+* Le frequenze sono condivise tra più utenti
+* Ascoltare prima se la frequenza è libera
+* Chiedere brevemente due o tre volte se la frequenza è libera
 
 <note>
-* A volte si sente solo una parte, quindi dare un po' di tempo di attesa
+* A volte si sente solo una stazione, quindi è opportuno attendere un po’
 </note>
 
 ---
@@ -32,23 +32,23 @@
 
 <fragment>
 #### Chiamata generale
-* Si rivolge a *tutte* le stazioni
-* Inizia con la sigla internazionale *CQ*
+* Rivolta a *tutte* le stazioni
+* Inizia con l’abbreviazione internazionale *CQ*
 </fragment>
 
 <fragment>
 #### Chiamata mirata
-* Si attende una risposta da una stazione specifica
+* Si attende risposta da una stazione specifica
 </fragment>
 
 <fragment>
-Nella risposta viene prima menzionato il nominativo della stazione chiamante, poi il proprio
+Nella risposta si menziona prima il nominativo della stazione chiamante, poi il proprio
 </fragment>
 
 <note>
-* Si chiama come al telefono "chiamata"
-* CQ significa all'incirca "seek you" (ti cerco)
-* In tedesco si dice anche "Allgemeiner Anruf" (chiamata generale)
+* Come al telefono si dice "chiamata"
+* CQ si pronuncia come "seek you"
+* In tedesco si dice anche "chiamata generale"
 </note>
 
 ---
@@ -56,12 +56,12 @@ Nella risposta viene prima menzionato il nominativo della stazione chiamante, po
 #### Chiamata generale
 
 <qso>
-È questa Frequenza libera? DL1PZ
+Questa frequenza è libera? DL1PZ
 > *(nessuna risposta)*
-È questa Frequenza libera? DL1PZ
+Questa frequenza è libera? DL1PZ
 > *(nessuna risposta)*
-CQ CQ qui DL1PZ con una chiamata generale, qui DL1PZ e ascolto.
-> DL1PZ qui DL9MJ prego venire
+CQ CQ qui è DL1PZ con una chiamata generale, qui è DL1PZ e ascolto.
+> DL1PZ qui è DL9MJ prego rispondere
 </qso>
 
 ---
@@ -69,8 +69,8 @@ CQ CQ qui DL1PZ con una chiamata generale, qui DL1PZ e ascolto.
 #### Chiamata mirata
 
 <qso>
-DL9MJ per DL1PZ prego venire
-> DL1PZ qui DL9MJ
+DL9MJ per DL1PZ prego rispondere
+> DL1PZ qui è DL9MJ
 </qso>
 
 ---
@@ -83,25 +83,25 @@ DL9MJ per DL1PZ prego venire
 [question:BE102]
 ---
 
-#### Comprensione incerta
+#### Comunicazione poco chiara
 
 <qso>
-D*(krschkrsch)*MJ per DK5WP, prego venire
-> Qui DL9MJ, sono stato chiamato?
+D*(krschkrsch)*MJ per DK5WP, prego rispondere
+> Qui è DL9MJ, sono stato chiamato?
 </qso>
 
 <fragment>
-Chiedere se si era intesi
+Chiedere conferma di essere stati chiamati
 </fragment>
 
 ---
 [question:BE103]
 ---
 
-### Terminare una chiamata
+### Concludere una chiamata
 
-* La Frequenza viene lasciata alla stazione chiamante
-* Se la stazione rispondente è stata chiamata nel frattempo da un'altra stazione, dovrebbe accordarsi con quest'ultima su un'altra Frequenza per restituire la Frequenza alla stazione precedente
+* La frequenza viene lasciata alla stazione che ha effettuato la chiamata
+* Se la stazione che risponde viene chiamata da un’altra stazione durante la comunicazione, dovrebbe accordarsi con quest’ultima per spostarsi su un’altra frequenza, in modo da restituire la frequenza alla stazione precedente
 
 ---
 [question:BE108]

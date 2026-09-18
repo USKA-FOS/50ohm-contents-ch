@@ -2,17 +2,17 @@
 [picture:668:n_remotestation:Stazione remota]
 </right>
 <left>
-* Le stazioni remote consentono un funzionamento da una posizione diversa
-* ad es. quando una propria stazione non può essere realizzata nel luogo di residenza
-* Tutta la gestione avviene da remoto
-* Funzionamento da parte di radioamatori di classe A
-* Possibile co-utilizzo
+* Le stazioni remote consentono di operare da un'altra posizione
+* Ad esempio, quando non è possibile realizzare una stazione propria presso la propria abitazione
+* L'intera gestione avviene in remoto
+* Operatività consentita ai radioamatori di classe A
+* Possibilità di uso condiviso
 </left>
 
 <note>
-* gestione completa: accensione e spegnimento del trasmettitore, impostazione della frequenza, trasmissione dei segnali di trasmissione e ricezione
-* ad es. tramite Internet
-* il co-utilizzo verrà spiegato in alcune diapositive
+* Gestione completa: accensione/spegnimento del trasmettitore, regolazione della frequenza, trasmissione dei segnali di trasmissione e ricezione
+* Ad esempio tramite Internet
+* L'uso condiviso verrà spiegato in alcune slide
 </note>
 
 ---
@@ -22,14 +22,16 @@
 ---
 [question:VD607]
 ---
-## Messaggio operativo
-* Il funzionamento remoto deve essere indicato dall'operatore
-* Con messaggio operativo e dati di contatto alla BNetzA
-* Disponibilità durante il funzionamento ai dati di contatto forniti
+
+## Comunicazione operativa
+* L'operatività remota deve essere segnalata dal gestore
+* Comunicazione alla BNetzA con comunicato operativo e dati di contatto
+* Disponibilità durante l'operatività secondo i dati di contatto forniti
 
 <note>
-* La BNetzA non vuole avere disturbi e quindi poter sempre raggiungere un operatore
+* La BNetzA desidera poter sempre contattare un gestore per evitare interferenze
 </note>
+
 ---
 [question:VD602]
 ---
@@ -37,38 +39,42 @@
 ---
 
 ## Sicurezza operativa
-* Controllo ininterrotto, indiretto e completo della stazione
-* Può avvenire tramite ausili o aiutanti
-* In caso di guasti, le stazioni devono essere messe in uno stato sicuro
+* Controllo continuo, indiretto e completo della stazione
+* Può avvenire tramite ausili o collaboratori
+* In caso di guasti, la stazione deve essere portata in uno stato sicuro
 
 <note>
-* ad es. in caso di perdita di connessione a causa dello spegnimento della rete
+* Ad esempio, in caso di perdita di connessione tramite spegnimento della rete
 </note>
+
 ---
 [question:VD605]
 ---
+
 ## Radioamatori autorizzati
-* Necessaria l'autorizzazione dell'operatore per l'utilizzo
-* L'operatore può consentire l'uso della stazione remota solo a radioamatori autorizzati
+* Necessaria l'autorizzazione del gestore per l'utilizzo
+* Il gestore può consentire l'uso della stazione remota solo a radioamatori autorizzati
 
 ---
 [question:VD606]
 ---
+
 ## Stazioni di club
-* Le stazioni di club di classe A possono essere gestite come stazioni remote
-* Deve essere limitato ai membri del gruppo di radioamatori
+* Le stazioni di club di classe A possono essere utilizzate come stazioni remote
+* L'uso deve essere limitato ai membri del gruppo di radioamatori
 
 ---
 [question:VD604]
 ---
 [question:VD609]
 ---
-## Funzionamento formativo
-* È possibile presso una stazione remota
-* Si applicano le stesse regole del funzionamento formativo
-* Possibile anche presso stazioni di club remote
+
+## Attività radio di addestramento
+* È possibile effettuare attività radio di addestramento presso una stazione remota
+* Si applicano le stesse regole dell'attività di addestramento tradizionale
+* Possibile anche presso stazioni remote di club
 
 <note>
-* Supervisione immediata
+* Sorveglianza diretta
 * Aggiungere /T o /Trainee
 </note>

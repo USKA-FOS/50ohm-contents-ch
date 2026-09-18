@@ -10,7 +10,8 @@
     }
   ],
   "languages": [
-    "de"
+    "de",
+    "it"
   ],
   "metadata": {
     "lifecycle": {
@@ -45,7 +46,7 @@
     },
     {
       "language": "it",
-      "state": "to_be_translated"
+      "state": "to_be_reviewed"
     }
   ],
   "source": {
@@ -60,7 +61,8 @@
       "sort_order": 0,
       "storage": {
         "files": {
-          "de": "body.de.md"
+          "de": "body.de.md",
+          "it": "body.it.md"
         },
         "kind": "text_file"
       },

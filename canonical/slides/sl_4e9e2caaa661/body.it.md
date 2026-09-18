@@ -1,8 +1,8 @@
 ## Sincronizzazione nella trasmissione digitale
 
-* Serve a far riconoscere al ricevitore l'inizio della trasmissione  
+* Serve affinché il ricevitore identifichi l'inizio della trasmissione  
 * Trasmettitore e ricevitore si sincronizzano temporalmente  
-* Base per la decodifica corretta del segnale
+* Fondamentale per la corretta decodifica del segnale
 
 ---
 

@@ -1,8 +1,8 @@
 <left>
-* Due bobine accoppiate magneticamente su un nucleo comune
-* L'energia viene trasferita attraverso di esse
-* È possibile modificare tensioni e correnti
-* *Trasformatore* o *trasformatore* in breve Trafo
+* Due bobine su un nucleo comune accoppiate magneticamente
+* L'energia viene trasmessa attraverso di esse
+* È possibile modificare le tensioni e le correnti
+* *Trasformatore* o *trasformatore* abbreviato in trafo
 </left>
 <right>
 [picture:197:e_uebertrager:Schema di un trasformatore]
@@ -12,9 +12,9 @@
 ## Rapporto di trasformazione
 
 <left>
-* Le tensioni ai terminali del trasformatore sono proporzionali al numero di spire
+* Le tensioni ai morsetti del trasformatore sono proporzionali al numero di spire
 
-$ü = \dfrac{N_P}{N_S} = \dfrac{U_P}{U_S}$
+$r = \dfrac{N_P}{N_S} = \dfrac{U_P}{U_S}$
 </left>
 <right>
 * $N_P$: spire sul lato primario

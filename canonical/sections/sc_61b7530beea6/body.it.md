@@ -1,28 +1,28 @@
-Abbiamo già imparato che un'antenna può essere polarizzata verticalmente o orizzontalmente. Questo si riconosce nella maggior parte delle forme di costruzione dell'antenna dal fatto che gli elementi dell'antenna sono orientati verticalmente o orizzontalmente. Nella classe E vengono ora richieste forme di antenna specifiche. 
+Abbiamo già imparato che un'antenna può essere polarizzata verticalmente o orizzontalmente. Nella maggior parte delle tipologie di costruzione delle antenne, questo si riconosce dal fatto che gli elementi dell'antenna sono orientati perpendicolarmente (verticalmente) o parallelamente (orizzontalmente) al suolo. Nelle prove d'esame vengono richieste forme concrete di antenne.
 
 [question:EB309]
 
-Gli elementi dell'antenna di questa antenna sono paralleli al suolo. Corrispondono alla componente del campo elettrico. Si tratta quindi di un'antenna a polarizzazione orizzontale.
+Gli elementi dell'antenna di questa antenna sono paralleli alla superficie terrestre. Essi corrispondono alla componente del campo elettrico. Quindi si tratta di un'antenna a polarizzazione orizzontale.
 
 [question:EB310]
 
-Gli elementi dell'antenna di questa antenna sono perpendicolari al suolo. Corrispondono alla componente del campo elettrico. Si tratta quindi di un'antenna a polarizzazione verticale.
+Gli elementi dell'antenna di questa antenna sono perpendicolari alla superficie terrestre. Essi corrispondono alla componente del campo elettrico. Quindi si tratta di un'antenna a polarizzazione verticale.
 
 ---
 
-Il fatto che la direzione di polarizzazione spesso coincida con la disposizione geometrica degli elementi dell'antenna è dovuto al fatto che vengono solitamente utilizzate antenne in cui la disposizione dei conduttori geometricamente corrisponde alla direzione del campo elettrico. L'indicazione "orizzontale" o "verticale" si riferisce per convenzione all'orientamento del campo elettrico e non all'orientamento della componente del campo magnetico.
+Il fatto che la direzione di polarizzazione spesso coincida con la disposizione geometrica degli elementi dell'antenna dipende dal fatto che generalmente vengono utilizzate antenne in cui la disposizione dei conduttori corrisponde geometricamente alla direzione del campo elettrico. La designazione "orizzontale" o "verticale" si riferisce, per convenzione, all'orientamento del campo elettrico e non a quello della componente del campo magnetico.
 
 <indepth>
-La semplice regola mnemonica che le antenne disposte geometricamente in verticale polarizzano verticalmente e le antenne disposte orizzontalmente polarizzano orizzontalmente *non è generalmente valida*. Ad esempio, un'antenna Magnetic Loop disposta orizzontalmente presenta una polarizzazione verticale e un'antenna Magnetic Loop disposta verticalmente presenta una polarizzazione orizzontale. Per un'antenna a loop a onda intera (ad es. Delta-Loop), invece, la direzione di polarizzazione dipende dalla posizione dell'alimentazione. Per le antenne Dipolo e Yagi-Uda, tuttavia, la polarizzazione può essere riconosciuta dall'orientamento meccanico dei fili, poiché il campo elettrico si forma anche in questa direzione.
+La semplice regola pratica secondo cui le antenne disposte geometricamente in verticale polarizzano verticalmente e quelle disposte orizzontalmente polarizzano orizzontalmente *non è valida in generale*. Ad esempio, un'antenna a loop magnetico posizionata orizzontalmente presenta una polarizzazione verticale, mentre una loop magnetico posizionata verticalmente presenta una polarizzazione orizzontale. Per un'antenna a loop a onda intera (ad esempio una Delta-Loop), invece, la direzione di polarizzazione dipende dalla posizione del punto di alimentazione. Per le antenne a dipolo e Yagi-Uda, invece, si può riconoscere la polarizzazione in base all'orientamento meccanico dei fili, poiché in questa direzione si forma anche il campo elettrico.
 </indepth>
 
 [question:EG222]
 
-Il piano di riferimento della polarizzazione per le stazioni radio terrestri è sempre la superficie terrestre. L'orientamento del campo elettrico è determinante per l'indicazione della polarizzazione.
+Il piano di riferimento della polarizzazione per stazioni radio terrestri è sempre la superficie terrestre. Per la designazione della polarizzazione è determinante l'orientamento della componente del campo elettrico.
 
 [question:EB305]
 
-Il vettore di Poynting che si incontra qui è un vettore perpendicolare sia alla componente elettrica che a quella magnetica, quindi punta nella direzione di propagazione. Per determinare la polarizzazione, tuttavia, è determinante l'orientamento della *componente del campo elettrico*.
+Il vettore di Poynting presente qui è un vettore perpendicolare sia alla componente del campo elettrico che a quella magnetica, quindi punta nella direzione di propagazione. Tuttavia, per determinare la polarizzazione è determinante l'orientamento della *componente del campo elettrico*.
 
 ---
 
@@ -32,13 +32,13 @@ Il vettore di Poynting che si incontra qui è un vettore perpendicolare sia alla
 [picture:886:e_funkhorizont:Polarizzazione orizzontale]
 </margin>
 
-La componente del campo elettrico è parallela al suolo, quindi si tratta di una polarizzazione orizzontale. Tra l'altro: la freccia direzionale "S" indica la direzione di propagazione, si tratta del vettore di Poynting.
+La componente del campo elettrico è parallela alla superficie terrestre, quindi si tratta di una polarizzazione orizzontale. A margine: la freccia direzionale "S" indica la direzione di propagazione, si tratta del vettore di Poynting.
 
 ---
 
 [question:EB307]
 
-Qui la componente del campo magnetico è parallela alla superficie terrestre. La componente del campo elettrico è perpendicolare ad essa, quindi si tratta di una polarizzazione verticale. 
+Qui la componente del campo magnetico è parallela alla superficie terrestre. La componente del campo elettrico è perpendicolare ad essa, quindi si tratta di una polarizzazione verticale.
 
 <margin>
 [picture:936:e_funkhorizont:Polarizzazione verticale]
@@ -46,9 +46,9 @@ Qui la componente del campo magnetico è parallela alla superficie terrestre. La
 
 ---
 
-Negli esempi precedenti, le componenti del campo elettrico e magnetico erano in fase *nel tempo* (le loro oscillazioni sinusoidali hanno gli stessi passaggi per lo zero). Tuttavia, sono perpendicolari tra loro *nello spazio*. 
+Negli esempi precedenti, le componenti del campo elettrico e magnetico erano *in fase* temporalmente (le loro oscillazioni sinusoidali hanno i passaggi per lo zero nello stesso momento). Tuttavia, sono perpendicolari tra loro nello spazio.
 
-Possiamo però generare la componente del campo elettrico in modo che il suo orientamento nello spazio cambi nel tempo, ad esempio utilizzando due dipoli perpendicolari tra loro. Se questi dipoli sono distanti un quarto d'onda l'uno dall'altro nella direzione di propagazione e vengono alimentati in fase, la componente del campo elettrico irradiata ruota circolarmente nello spazio nel tempo. Possiamo anche utilizzare due dipoli perpendicolari tra loro, che si trovano nello stesso piano. Se alimentiamo questi dipoli con due segnali sinusoidali sfasati nel tempo di 90°, si ottiene la stessa immagine. La componente del campo magnetico è sempre e in ogni momento perpendicolare a quella elettrica, quindi ruota anch'essa nello spazio. Queste onde sono chiamate *polarizzate circolarmente*.
+Possiamo però generare la componente del campo elettrico in modo che la sua direzione nello spazio cambi nel tempo, ad esempio utilizzando due dipoli perpendicolari tra loro. Se questi dipoli sono distanziati di un quarto di lunghezza d'onda nella direzione di propagazione e alimentati in fase, la componente elettrica irradiata ruota circolarmente nel tempo nello spazio. Possiamo anche utilizzare due dipoli perpendicolari tra loro che si trovano sullo stesso piano. Se alimentiamo questi dipoli con due segnali sinusoidali sfasati temporalmente di 90°, otteniamo la stessa immagine. La componente del campo magnetico rimane sempre perpendicolare a quella elettrica e si muove anch'essa nello spazio. Queste onde vengono chiamate *polarizzate circolarmente*.
 
 <margin>
 [picture:935:e_funkhorizont:Polarizzazione circolare]

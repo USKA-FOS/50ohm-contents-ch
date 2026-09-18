@@ -1,6 +1,6 @@
 * Evitare scosse elettriche!
-* Attenersi alle regole tecniche riconosciute
-* Dall'Associazione Elettrotecnica, Elettronica e dell'Informatica (VDE)
+* Rispettare le norme tecniche riconosciute
+* Secondo l’Associazione tedesca di ingegneria elettrica, elettronica e tecnologie dell’informazione (VDE)
 * Protezione di persone, animali e cose
 
 ---
@@ -13,12 +13,12 @@
 
 * Tensione alternata (AC) superiore a $\qty{50}{\volt}$
 * Tensione continua (DC) superiore a $\qty{120}{\volt}$
-* Al di sotto di questi valori non si verificano compromissioni potenzialmente letali del corpo umano
+* Al di sotto di questi valori non si verificano danni gravi per l’organismo umano
 
 <note>
-* Il motivo dei diversi valori dipende dai diversi effetti sul corpo
+* La ragione dei valori diversi è dovuta agli effetti differenti sul corpo umano
 * La tensione alternata può influenzare il ritmo cardiaco
- * La tensione continua tende a causare ustioni
+* La tensione continua provoca più facilmente ustioni
 </note>
 
 ---
@@ -27,34 +27,44 @@
 
 ---
 
-## Incidenti da corrente
+## Incidenti da corrente elettrica
 
 <left>
-* Dipende dall'intensità di corrente e dalla durata del flusso di corrente
+* Dipendono dall’intensità di corrente e dalla durata del flusso di corrente
 * Percorso attraverso il corpo
-* Da $\qty{30}{\milli\ampere}$ danni potenzialmente letali
+* Da $\qty{30}{\milli\ampere}$ in su, danni potenzialmente letali
 </left>
 <right>
-[picture:681:n_fehlerstrom:Scossa elettrica / Attraversamento del corpo]
+[picture:681:n_fehlerstrom:Scossa elettrica / passaggio di corrente attraverso il corpo]
 </right>
 
 ---
 
-### Effetti sul corpo
+### Effetti sul corpo umano
 
-* *Disturbi del ritmo cardiaco*, fibrillazione ventricolare o arresto cardiaco, in particolare con un percorso della corrente nella zona del torace
+* *Aritmie cardiache*, fibrillazione ventricolare o arresto cardiaco, in particolare se il percorso della corrente attraversa il torace
 * *Ustioni*, solitamente nei punti di ingresso e uscita della corrente elettrica
-* *Contrazioni muscolari*
-* *Incidenti secondari* come cadute, causate dallo spavento o da una contrazione muscolare
-* Inoltre, è possibile un arco elettrico *(disturbo)* con una luce intensa attraverso l'aria
+* *Contrattura dei muscoli*
+* *Incidenti secondari* come una caduta, causata dallo spavento o dalla contrattura muscolare
+* Inoltre possibile *arco elettrico (di disturbo)* con intensa emissione luminosa attraverso l’aria
+
+--- style="font-size: smaller;"
+
+### 5 regole di sicurezza nell’elettrotecnica
+
+1. *Messa fuori tensione*, ad es. spegnere l’apparecchio
+2. *Proteggere contro il reinserimento*, ad es. staccare la spina
+3. *Verificare l’assenza di tensione*, ad es. misurare con un multimetro
+4. *Messa a terra e cortocircuito*, ad es. mettere a terra l’involucro e i cavi di alimentazione
+5. *Coprire o schermare le parti adiacenti sotto tensione* (di solito non applicabile ai singoli apparecchi)
 
 ---
 
-### Pericolo nell'apertura di apparecchi
+### Pericolo nell’apertura di apparecchi
 
-* I condensatori possono immagazzinare alte tensioni
+* I condensatori possono accumulare alte tensioni
 * Negli apparecchi spenti possono ancora essere presenti tensioni pericolose
-* Nell'aprire apparecchi, chiedere aiuto a un radioamatore esperto o a un elettricista qualificato
+* Quando si aprono apparecchi, rivolgersi a un radioamatore esperto o a un elettricista specializzato
 
 ---
 
@@ -68,25 +78,14 @@
 
 ### Primo soccorso
 
-* Decisivo per la gravità delle conseguenze dell'incidente nei primi minuti
+* I primi minuti sono decisivi per la gravità delle conseguenze dell’incidente
 * Consultare assolutamente un medico
-* Disturbi del ritmo cardiaco e fibrillazione ventricolare possono verificarsi ore dopo l'incidente
+* Aritmie cardiache e fibrillazione ventricolare possono manifestarsi anche ore dopo l’incidente
 
 <note>
-Il medico può controllare il battito cardiaco con un elettrocardiogramma (EKG)
+Il medico può verificare il battito cardiaco con un elettrocardiogramma (ECG)
 </note>
 
 ---
 
 [question:NK304]
-
---- style="font-size: smaller;"
-
-### 5 regole di sicurezza in elettrotecnica
-
-1. *Disconnettere*, ad es. spegnere l'apparecchio
-2. *Proteggere contro il riavvio*, ad es. staccare la spina
-3. *Verificare l'assenza di tensione*, ad es. misurare con un multimetro
-4. *Mettere a terra e cortocircuitare*, ad es. mettere a terra l'involucro e i cavi di alimentazione
-5. *Coprire o delimitare parti adiacenti sotto tensione* (solitamente non applicabile a singoli apparecchi)
-

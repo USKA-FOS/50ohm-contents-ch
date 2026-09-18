@@ -1,7 +1,7 @@
 ## Problema
 
-* Comunicare la posizione, ad es. per misurazioni di distanza
-* Non c'è sempre una città nelle vicinanze
+* Comunicare la posizione, ad esempio per misurazioni di distanza
+* Non sempre c'è una città nelle vicinanze
 * Le coordinate GPS sono troppo lunghe
 * Spesso è sufficiente una posizione approssimativa
 
@@ -9,38 +9,43 @@
 
 ## Locator Maidenhead
 
-* La Superficie terrestre è suddivisa in $\num{18662400}$ caselle
-* Una casella corrisponde in Germania approssimativamente a una precisione di $\qty{5}{\kilo\meter}\times\qty{5}{\kilo\meter}$
-* Queste caselle sono chiamate Subsquares
-* Sopra di esse ci sono Squares e Fields
+<left>
+* La superficie terrestre viene suddivisa in $\num{18662400}$ quadrati
+* In Germania, un quadrato corrisponde approssimativamente a una precisione di $\qty{5}{\kilo\meter}\times\qty{5}{\kilo\meter}$
+* Questi quadrati vengono chiamati *Subsquares*
+* A un livello superiore ci sono *Squares* e *Fields*
+</left>
+<right>
+[photo:4:n_locator_welt:Locator Maidenhead a livello mondiale. Dati cartografici © OpenStreetMap contributors, SRTM. Rappresentazione cartografica © OpenTopoMap (CC-BY-SA)]
+</right>
 
 <note>
-* prende il nome dalla *città di Maidenhead*, situata a ovest di Londra nel Regno Unito.
-* Lì si tenne nel 1980 una conferenza specialistica della IARU che riformò il precedente sistema di localizzazione QRA.
+* Prende il nome dalla città di *Maidenhead*, situata a ovest di Londra nel Regno Unito.
+* Nel 1980, in questa città si tenne una conferenza specialistica dell'IARU che riformò il precedente sistema di localizzazione QRA-Locator.
 </note>
 
 ---
-[photo:2:n_locator_jo:Il campo JO del sistema di locator Maidenhead, dati cartografici © Contributori OpenStreetMap, SRTM. Rappresentazione cartografica © OpenTopoMap (CC-BY-SA)]
+[photo:2:n_locator_jo:Il campo JO del sistema Maidenhead-Locator. Dati cartografici © OpenStreetMap contributors, SRTM. Rappresentazione cartografica © OpenTopoMap (CC-BY-SA)]
 
 <note>
-Sono mostrati i Fields dello Square JO
+Vengono mostrati i *Squares* del campo JO
 </note>
 
 --- style="font-size: 0.7em;"
-## Livelli del Locator Maidenhead
+## Livelli del Maidenhead Locator
 
-| X: Denominazione | l: Traduzione | l: Denominazione alternativa | c: | c: Es. |
-| Field | Campo | Campo grande | AA-RR | JO |
+| X: Denominazione | l: Traduzione | l: Denominazione alternativa | c: | c: Esempio |
+| Field | Campo | Campo principale | AA-RR | JO |
 | Square | Quadrato | Campo grande | 00-99 | 41 |
-| Subsquare | Sottocuadrato | Campo piccolo | AA-XX | RG |
-[table:n_locator_stufen:I singoli livelli del locator Maidenhead]
+| Subsquare | Sotto-quadrato | Campo piccolo | AA-XX | RG |
+[table:n_locator_stufen:I singoli livelli del Maidenhead-Locator]
 
 <fragment>
-Ciò porta, ad esempio, a *JO41RG* per la sede centrale del DARC a Baunatal vicino a Kassel
+Da questo si ottiene, ad esempio, *JO41RG* per la sede del DARC a Baunatal, vicino a Kassel
 </fragment>
 <note>
-* Sono possibili campi ancora più piccoli
-* [Mappa interattiva](https://f5len.org/tools/locator/)
+* Sono possibili quadrati ancora più piccoli
+* [Carta interattiva](https://f5len.org/tools/locator/)
 </note>
 
 ---

@@ -1,8 +1,12 @@
-La selettività di un ricevitore è determinata dalla larghezza di banda dei filtri nella sua sezione IF. La loro larghezza di banda deve sempre essere adattata al tipo di modulazione da ricevere. Per la ricezione di segnali vocali SSB, ad esempio, viene utilizzata una larghezza di banda del filtro di circa $\qty{2,7}{\kilo\hertz}$. I segnali CW e RTTY possono essere ricevuti con larghezze di banda del filtro di $\qty{500}{\hertz}$, in modo che siano ben distinguibili da altri segnali adiacenti. I segnali FM richiedono una larghezza di banda significativamente maggiore di circa $\qty{12}{\kilo\hertz}$.
+La selettività di un ricevitore è determinata dalla larghezza di banda dei filtri presenti nell’amplificatore di frequenza intermedia (IF).
 
-I filtri e le loro larghezze di banda, così come la pendenza dei fianchi, possono essere realizzati tecnicamente con diversi concetti. I filtri con i fianchi più ripidi e la banda più stretta sono i filtri a quarzo, seguiti dai filtri ceramici. I filtri LC hanno larghezze di banda maggiori e non sono così ripidi, i filtri RC normalmente non vengono utilizzati nella gamma HF dei ricevitori.
+[question:AF205]
+
+La loro larghezza di banda deve sempre essere commisurata al tipo di modulazione da ricevere. Ad esempio, per la ricezione di segnali vocali in SSB si utilizza una larghezza di banda del filtro di circa $\qty{2,7}{\kilo\hertz}$. I segnali CW e RTTY possono essere ricevuti con larghezze di banda di $\qty{500}{\hertz}$, in modo da distinguerli chiaramente dai segnali adiacenti. I segnali FM richiedono invece una larghezza di banda decisamente maggiore, pari a circa $\qty{12}{\kilo\hertz}$.
+
+[question:AF206]
+[question:AF207]
+
+I filtri e le loro larghezze di banda, nonché la pendenza del fronte, possono essere realizzati tecnicamente con diversi approcci. I filtri più selettivi e con i fronti più ripidi sono i filtri a quarzo, seguiti dai filtri ceramici. I filtri LC hanno larghezze di banda maggiori e fronti meno ripidi, mentre i filtri RC non vengono generalmente utilizzati nella gamma HF dei ricevitori.
 
 [question:AF208]
-[question:AF206]
-[question:AF205]
-[question:AF207]

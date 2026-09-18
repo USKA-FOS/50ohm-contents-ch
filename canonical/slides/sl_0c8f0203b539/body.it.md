@@ -1,15 +1,15 @@
-* Fondamenti sulla ionosfera, l'attività delle macchie solari e la "zona morta" sono nella classe N
-* Approfondimento nel campo della propagazione delle onde
-* La radiazione solare espelle elettroni dagli atomi e dalle molecole di ossigeno e azoto nell'alta atmosfera $\rightarrow$ ionizzazione
-* Gli elettroni liberi vengono eccitati a oscillare dalle onde radio $\rightarrow$ rifrazione delle onde radio
+* Nozioni di base sulla ionosfera, l'attività delle macchie solari e la "zona morta" sono trattate nel corso N
+* Approfondimento nell'area della propagazione delle onde
+* La radiazione del sole strappa elettroni da atomi e molecole di ossigeno e azoto nell'alta atmosfera → ionizzazione
+* Gli elettroni liberi vengono eccitati dalle onde radio a vibrare → rifrazione delle onde radio
 
 ---
 <left>
-* Ad un'altitudine di circa $\num{50}$ fino a $\qty{450}{\kilo\meter}$
-* Rifrazione delle onde corte, che consente la comunicazione a livello mondiale
+* A un'altezza compresa tra circa $\num{50}$ e $\qty{450}{\kilo\meter}$
+* Rifrazione delle onde corte, che consente comunicazioni a livello mondiale
 </left>
 <right>
-[picture:731:e_atmosphaeren_schichten:Strati dell'atmosfera rilevanti per il radioamatore]
+[picture:731:e_atmosphaeren_schichten:Für den Amateurfunk relevante Schichten in der Atmosphäre]
 </right>
 
 ---
@@ -17,58 +17,58 @@
 ---
 ## Propagazione delle onde radio
 <left>
-* La ionizzazione conferisce alle onde corte capacità uniche
+* L'ionizzazione conferisce alle onde corte capacità uniche
 * La densità degli elettroni liberi determina la frequenza di rifrazione
-* Maggiore densità $\rightarrow$ frequenza più alta
+* Maggiore densità → frequenza più alta
 </left>
 <right>
-[picture:865:e_wellenausbreitung_refraktion:Rifrazione negli strati della ionosfera]
+[picture:865:e_wellenausbreitung_refraktion:Refraktion an Schichten der Ionosphäre]
 </right>
 
 ---
 
-* Più radiazione solare $\rightarrow$ è possibile la propagazione a frequenze più alte
-* Particolarmente molta radiazione durante il giorno al massimo delle macchie solari
-* La banda dei $\qty{10}{\meter}$ può essere utilizzata anche con bassa potenza di trasmissione durante il giorno
+* Maggiore radiazione solare → propagazione possibile a frequenze più elevate
+* In particolare, molta radiazione di giorno durante il massimo delle macchie solari
+* Banda dei $\qty{10}{\meter}$ utilizzabile anche di giorno con bassa potenza di trasmissione
 
 ---
 [question:EH219]
 ---
 ## Ricombinazione
 
-* Gli elettroni liberi si ricombinano con i nuclei atomici
-* A determinate altitudini si stabilisce un equilibrio tra ionizzazione e ricombinazione.
-* Queste aree con equilibrio sono chiamate regioni o strati.
+* Gli elettroni liberi si ricombinano nuovamente con i nuclei atomici
+* A determinate altezze si stabilisce un equilibrio tra ionizzazione e ricombinazione.
+* Queste aree di equilibrio vengono chiamate regioni o strati.
 
 
 ---
 ## Strati della ionosfera
-* A diverse altitudini esistono diversi "strati" o regioni con diversa intensità di ionizzazione
+* A diverse altezze esistono diversi "strati" o regioni con ionizzazione di intensità variabile
 * Questi portano i nomi
 
-1. Strato D
-2. Strato E
-3. Strato $F_1$
-4. Strato $F_2$
+1. strato D
+2. strato E
+3. strato $F_1$
+4. strato $F_2$
 
 ---
-* Per le domande d'esame della classe E è necessaria una comprensione qualitativa di base delle regioni
-* Le regioni F della ionosfera, importanti per la propagazione a lunga distanza delle onde corte (DX), si trovano ad un'altitudine di circa $\num{130}$ fino a $\qty{450}{\kilo\meter}$
-* Nella classe A è necessario saper nominare le esatte altitudini delle singole regioni per il giorno e la notte
+* Per le domande d'esame del corso E è richiesta una comprensione di base e qualitativa degli strati
+* Le regioni della ionosfera importanti per la propagazione delle onde corte (DX), gli strati F, si trovano a un'altezza di circa $\num{130}$ a $\qty{450}{\kilo\meter}$
+* Nel corso A è necessario saper indicare le esatte altezze degli strati per giorno e notte
 
 ---
 [question:EH102]
 ---
 ### Regione D
-* Ad un'altitudine di circa $\qtyrange{50}{90}{\kilo\meter}$
+* A un'altezza di circa $\qtyrange{50}{90}{\kilo\meter}$
 * Esiste *solo di giorno*
 * Scompare molto rapidamente dopo il tramonto
-* Perdita di energia dovuta alla collisione degli elettroni con altre particelle
-* Forte *attenuazione* delle onde radio al di sotto dei $\qty{10}{\mega\hertz}$
-* Nessuna onda spaziale per le bande di radioamatore come $\qty{160}{\meter}$ o $\qty{80}{\meter}$
+* Perdita di energia dovuta alle collisioni degli elettroni con altre particelle
+* Forte *attenuazione* delle onde radio sotto $\qty{10}{\mega\hertz}$
+* Nessuna onda spaziale per bande radioamatoriali come $\qty{160}{\meter}$ o $\qty{80}{\meter}$
 
 <note>
-* Gli strati scompaiono a causa della ricombinazione di ioni ed elettroni quando non sono più eccitati dalla radiazione solare
+* Gli strati scompaiono a causa della ricombinazione degli ioni e degli elettroni quando non sono più eccitati dalla radiazione solare
 </note>
 ---
 [question:EH210]
@@ -77,29 +77,29 @@
 
 ---
 ### Regione E
-* Ad un'altitudine di circa $\qtyrange{90}{130}{\kilo\meter}$
+* A un'altezza di circa $\qtyrange{90}{130}{\kilo\meter}$
 * Si forma *durante il giorno* con un massimo a mezzogiorno
-* Scompare circa 1 ora dopo il tramonto
-* Distanza di salto circa $\qty{2000}{\kilo\meter}$ fino a $\qty{10}{\mega\hertz}$
-* Forte ionizzazione $\rightarrow$ E sporadico
-* Nome: *Strato E* (elettrico)
+* Scompare circa un'ora dopo il tramonto
+* Distanza di salto di circa $\qty{2000}{\kilo\meter}$ fino a $\qty{10}{\mega\hertz}$
+* Forte ionizzazione → E sporadico
+* Nome: strato *E*(lettrico)
 
 <note>
-* Gli strati sopra e sotto sono stati nominati con lettere prima e dopo
+* Gli strati sopra e sotto sono stati denominati con lettere prima e dopo
 </note>
 ---
 [question:EH106]
 
 ---
 ### Regioni F
-* Ad un'altitudine di circa $\qtyrange{200}{400}{\kilo\meter}$
-* Lo strato più ionizzato
+* A un'altezza di circa $\qtyrange{200}{400}{\kilo\meter}$
+* Strato più fortemente ionizzato
 * Lo strato $F_1$ esiste *solo di giorno*
-* Lo strato $F_2$ persiste *di notte*
-* Distanza di salto circa $\qty{4000}{\kilo\meter}$
+* Lo strato $F_2$ rimane *di notte*
+* Distanza di salto di circa $\qty{4000}{\kilo\meter}$
 
 <note>
-Poca atmosfera residua, motivo per cui gli elettroni impiegano molto tempo a trovare uno ione per la ricombinazione
+Poca atmosfera residua, motivo per cui gli elettroni impiegano molto tempo a trovare un ion per la ricombinazione
 </note>
 
 ---
@@ -110,20 +110,17 @@ Poca atmosfera residua, motivo per cui gli elettroni impiegano molto tempo a tro
 ---
 ## Ciclo solare
 <left>
-* In media ogni 11 anni tramite inversione del campo magnetico
-* Raggi ultravioletti e a raggi X più intensi
+* In media ogni 11 anni a causa dell'inversione del campo magnetico
+* Maggiore emissione di raggi ultravioletti e X
 * Porta a una forte ionizzazione della regione $F_2$
 </left>
 <right>
-[picture:729:e_sonnenzyklus:Conteggio delle macchie solari mensili dal 1749]
+[picture:729:e_sonnenzyklus:Zählung der monatlichen Sonnenflecken seit 1749]
 </right>
 
 ---
 [question:EH107]
 
 ---
-* Durante questo periodo, tutte le bande delle onde corte superiori e parzialmente anche la banda dei $\qty{6}{\meter}$ possono essere utilizzate per collegamenti DX
-* Al minimo di attività, le bande di frequenza al di sopra della banda dei $\qty{20}{\meter}$ (ad es. $\qty{10}{\meter}$) di solito non sono utilizzabili
-
----
-[question:EH205]
+* Durante questo periodo tutte le bande radioamatoriali corte superiori e in parte anche la banda dei $\qty{6}{\meter}$ possono essere utilizzate per collegamenti DX
+* Al minimo di attività, le bande di frequenza sopra i $\qty{20}{\meter}$ (ad esempio $\qty{10}{\meter}$) di solito non sono utilizzabili

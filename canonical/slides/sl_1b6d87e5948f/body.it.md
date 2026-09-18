@@ -1,7 +1,7 @@
-Alcune bande di frequenza ci sono assegnate primariamente e altre secondariamente
-* *Primario* significa che abbiamo la precedenza su altri servizi radio e non dobbiamo accettare interferenze da parte loro
-* *Secondario* significa che noi, come radioamatori, non dobbiamo disturbare altri servizi radio e dobbiamo accettare interferenze da parte loro
-* Lo stato è contrassegnato con P e S nella colonna 3 dell'Allegato 1 dell'AFuV
+Alcune bande di frequenza sono assegnate a noi radioamatori in modo primario, altre in modo secondario
+* *Primario* significa che abbiamo la priorità rispetto ad altri servizi di radiocomunicazione e non dobbiamo subire interferenze da parte loro
+* *Secondario* significa che, in qualità di radioamatori, non dobbiamo disturbare altri servizi di radiocomunicazione e dobbiamo accettare eventuali interferenze da parte loro
+* Lo stato è indicato nella colonna 3 dell'allegato 1 dell'AFuV con le lettere P e S
 
 ---
 [question:VD704]
@@ -13,21 +13,21 @@ Alcune bande di frequenza ci sono assegnate primariamente e altre secondariament
 
 ## Assegnazioni in altri paesi
 
-* Le assegnazioni primarie e secondarie possono variare in altri paesi
-* Informarsi sulle disposizioni nel paese ospitante prima di iniziare le operazioni!
+* Le assegnazioni primarie e secondarie possono variare da paese a paese
+* Prima di iniziare le trasmissioni, informarsi sulle normative vigenti nel paese ospitante!
 
 ---
 
-## Servizio marittimo
+## Servizio mobile marittimo
 
-* La banda degli $\qty{80}{\meter}$ è assegnata primariamente al radioamatore
-* Le stazioni radio costiere del servizio marittimo hanno comunque la precedenza
-* Motivo: Frequenza fissa assegnata
+* La banda dei 80 metri è assegnata in modo primario al radioamatoriale
+* Tuttavia, le stazioni costiere del servizio mobile marittimo hanno comunque la priorità
+* Motivo: assegnazione di frequenza fissa
 
 <note>
-* In pratica, grazie alla radio satellitare, la radio costiera viene utilizzata raramente sugli 80m
-* Il servizio radio costiero civile è stato interrotto in Germania il 31.12.1998
-* Esistono ancora stazioni radio costiere militari
+* In pratica, grazie al radioamatoriale via satellite, le stazioni costiere operano raramente in 80 metri
+* Il servizio mobile marittimo civile è stato dismesso in Germania il 31.12.1998
+* Esistono ancora stazioni costiere militari
 </note>
 ---
 [question:VD707]
@@ -37,17 +37,17 @@ Alcune bande di frequenza ci sono assegnate primariamente e altre secondariament
 
 <left>
 * "*I*ndustrial, *S*cientific and *M*edical Band"
-* Sottobanda della banda radioamatoriale dei $\qty{70}{\centi\meter}$
-* Molti elettrodomestici la utilizzano
-* Le interferenze nel radioamatore devono essere accettate nonostante l'assegnazione primaria
+* Parte della banda radioamatoriale dei 70 centimetri
+* Molti dispositivi domestici la utilizzano
+* Nonostante l'assegnazione primaria, le interferenze nel radioamatoriale devono essere accettate
 </left>
 
 <right>
-  * Apriporta del garage
-  * Stazioni meteorologiche radio
+  * Apriporta per garage
+  * Stazioni meteorologiche
   * Chiavi dell'auto
   * Immobilizzatori
-  * Sensori di pressione degli pneumatici
+  * Sensori di pressione dei pneumatici
   * …
 </right>
 

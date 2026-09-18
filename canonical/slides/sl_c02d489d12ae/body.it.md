@@ -1,5 +1,5 @@
 <left>
-* Una serie di resistenze è chiamata anche partitore di tensione, perché le tensioni si dividono sulle resistenze.
+* Una <i>in serie</i> di resistenze viene anche chiamata <i>partitore di tensione</i>, poiché le tensioni si suddividono tra le resistenze.
 * Maggiore è la resistenza, maggiore è la tensione che cade su di essa.
 </left>
 <right>
@@ -9,7 +9,7 @@
 ---
 
 <left>
-* Ciò può essere espresso matematicamente nella seguente formula (raccolta di formule):
+* Questo può essere espresso matematicamente con la seguente formula (raccolta di formule):
 
 $\dfrac{U_{1}}{U_{2}} = \dfrac{R_{1}}{R_{2}}$
 </left>
@@ -19,13 +19,13 @@ $\dfrac{U_{1}}{U_{2}} = \dfrac{R_{1}}{R_{2}}$
 
 ---
 
-Come affrontare i compiti?
+Come affrontare gli esercizi?
 
 * Esempi:
 * Se $R_{1}$ è tre volte più grande di $R_{2}$, allora $U_{1}$ è tre volte più grande di $U_{2}$.
-* Se $R_{1}$ è $\frac{1}{3}$ della grandezza di $R_{2}$, allora $U_{1}$ è $\frac{1}{3}$ della grandezza di $U_{2}$.
+* Se $R_{1}$ è $\frac{1}{3}$ di $R_{2}$, allora $U_{1}$ è $\frac{1}{3}$ di $U_{2}$.
 
-Vediamo due esercizi a riguardo.
+Analizziamo due esercizi a riguardo.
 
 ---
 
@@ -37,8 +37,8 @@ Vediamo due esercizi a riguardo.
 
 ---
 <left>
-* La somma delle cadute di tensione è uguale alla tensione che proviene dalla fonte di tensione.
-* Ciò può essere espresso matematicamente nella seguente formula (raccolta di formule):
+* La somma delle cadute di tensione è uguale alla tensione che proviene dalla sorgente di tensione.
+* Questo può essere espresso matematicamente con la seguente formula (raccolta di formule):
 
 $U_g = U_{1} + U_{2}$
 </left>
@@ -50,7 +50,7 @@ $U_g = U_{1} + U_{2}$
 ---
 
 <left>
-* Se si ha una tensione totale e si deve calcolare $U_{2}$, si può anche fare riferimento a una formula della raccolta di formule:
+* Se si dispone di una tensione totale e si deve calcolare $U_{2}$, possiamo ricorrere a una formula dalla raccolta di formule:
 
 $\dfrac{U_{2}}{U_g} = \dfrac{R_{2}}{R_{1} + R_{2}}$
 </left>
@@ -61,11 +61,11 @@ $\dfrac{U_{2}}{U_g} = \dfrac{R_{2}}{R_{1} + R_{2}}$
 ---
 
 <left>
-* Questa deve essere riorganizzata per $U_{2}$ moltiplicando entrambi i lati per $U_g$, ottenendo:
+* Bisogna ancora risolvere questa formula per $U_{2}$, moltiplicando entrambi i lati per $U_g$; si ottiene quindi:
   
 $U_{2} = \dfrac{R_{2}}{R_{1} + R_{2}} \cdot U_g$
   
-* Con questo si può affrontare anche il prossimo esercizio.
+* Con questa formula si può affrontare anche il prossimo esercizio.
 </left>
 <right>
 [picture:819:E 63. Spannungsteiler:Spannungsteiler]

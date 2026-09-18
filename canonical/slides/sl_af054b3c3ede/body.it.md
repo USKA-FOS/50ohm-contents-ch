@@ -1,79 +1,63 @@
-## Modulazione QAM e metodo I/Q
+### Perché I/Q?
 
-* Tecnica di modulazione digitale che utilizza due portanti della stessa frequenza.
-* Una delle portanti è sfasata di $\qty{90}{\degree}$.
-* Genera un segnale che varia in ampiezza e fase.
+* I simboli possono differire per ampiezza, frequenza o fase.
+* Per rappresentare ampiezza e fase in modo chiaro, si utilizza una rappresentazione specifica.
+* Questa rappresentazione è chiamata *rappresentazione I/Q*.
+* Essa mostra lo stato del segnale di un simbolo come un punto in un piano.
 
----
-
-### Generazione della QAM
+--- style="font-size: 0.7em;"
 
 <left>
-* Due portanti:
-* Una viene modulata con il segnale I (In-Phase).
-* L'altra, sfasata di $\qty{90}{\degree}$, con il segnale Q (Quadrature).
+[include:applet_iq_zeiger]
 </left>
 <right>
-* Entrambe le portanti modulate vengono sovrapposte.
-* Il segnale risultante varia in ampiezza e fase.
+### Simbolo come vettore
+
+* Lunghezza del vettore: ampiezza $A$
+* Angolo del vettore: fase $\varphi$
+
+* Il vettore può essere scomposto in due componenti:
+
+$I=A\cdot\cos(\varphi)$
+
+
+$Q=A\cdot\cos(\varphi-\qty{90}{\degree})=A\cdot\sin(\varphi)$
+
+
+* Il diagramma di costellazione mostra lo stato iniziale del vettore per ogni simbolo.
 </right>
 
----
-
-[include:applet_iq]
 
 ---
 
-[question:AE404]
-
----
-
-[question:AF632]
-
----
-
-### Metodo I/Q – Lato trasmettitore
-
-* Il flusso di dati digitale viene suddiviso in due parti: I e Q.
-* Due convertitori D/A convertono i valori digitali I e Q in segnali analogici.
-* Questi modulano le due portanti sfasate, che vengono poi combinate.
-
----
-
-### Metodo I/Q – Lato ricevitore
-
-* Il segnale ricevuto viene miscelato con una portante a $\qty{0}{\degree}$ per estrarre il segnale I.
-* Contemporaneamente, avviene una miscelazione con una portante sfasata di $\qty{90}{\degree}$ per ottenere il segnale Q.
-* Entrambi i segnali vengono convertiti A/D e formano così il flusso di dati digitale I/Q.
-
----
 
 [question:AF633]
 
----
-
-### Rappresentazione della banda di frequenza
-
-* Il flusso di dati I/Q rappresenta la banda di frequenza attorno a una frequenza centrale.
-* Esempio:
-* Portante a $\qty{435}{\mega\hertz}$
-* Frequenza di campionamento di $\num{10}$ milioni di campioni/s $\rightarrow$ Larghezza di banda = $\qty{10}{\mega\hertz}$ ($\pm\qty{5}{\mega\hertz}$ attorno alla frequenza centrale).
-* Intervallo coperto: circa $\qty{430}{\mega\hertz}$ fino a $\qty{440}{\mega\hertz}$.
 
 ---
 
-[question:AF634]
+
+### Diagramma di costellazione
+
+[picture:1060:a_konstellationsdiagramm:Diagramma di costellazione]
+
 
 ---
 
-### Dipendenza della larghezza di banda dalla frequenza di campionamento
 
-* La larghezza di banda coperta in $\unit{\hertz}$ corrisponde alla frequenza di campionamento in campioni al secondo.
+### Diagramma di costellazione
+
+* Per rappresentare i simboli, non consideriamo la rotazione continua della portante.
+* Invece, osserviamo lo stato del segnale associato a un simbolo.
+* Ogni possibile stato del simbolo viene rappresentato come un punto nel piano I/Q.
+* La distanza dall'origine: ampiezza
+* L'angolo rispetto all'asse I: posizione di fase
 
 ---
 
-[question:AF635]
 
----
+### Perché ne abbiamo bisogno?
 
-[question:AF636]
+* I diagrammi di costellazione mostrano immediatamente i possibili simboli di un metodo di trasmissione digitale.
+* Si può riconoscere se i simboli differiscono per ampiezza, fase o entrambi.
+* Nei prossimi paragrafi utilizzeremo questa rappresentazione per il mapping, PSK e QAM.

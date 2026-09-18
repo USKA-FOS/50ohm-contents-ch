@@ -1,7 +1,7 @@
-* La polarizzazione di un'antenna si riferisce all'orientamento del campo elettrico
+* La *polarizzazione* di un'antenna si riferisce all'orientamento del campo elettrico
 * Nella direzione del fascio principale
 * Rispetto alla superficie terrestre
-* La direzione di polarizzazione non può sempre essere riconosciuta dalla forma dell'antenna
+* La direzione di polarizzazione non può sempre essere dedotta dalla forma costruttiva dell'antenna
 
 <note>
 * Ad esempio Magloop o Delta-Loop
@@ -16,7 +16,7 @@
 <left>
 * La posizione del campo E indica la polarizzazione
 * Se il campo E si propaga orizzontalmente, si parla di polarizzazione orizzontale
-* Dipende dalla forma dell'antenna
+* Dipende dalla forma costruttiva dell'antenna
 </left>
 <right>
 [picture:194:e_horizontale_polarisation:Polarizzazione orizzontale in un campo]
@@ -34,7 +34,7 @@
 <left>
 * La posizione del campo E indica la polarizzazione
 * Se il campo E si propaga verticalmente, si parla di polarizzazione verticale
-* Dipende dalla forma dell'antenna
+* Dipende dalla forma costruttiva dell'antenna
 </left>
 <right>
 [picture:203:e_vertikale_polarisation:Polarizzazione verticale in un campo]
@@ -49,12 +49,11 @@
 <left>
 * La posizione del campo E indica la polarizzazione
 * Se il campo E si propaga circolarmente, si parla di polarizzazione circolare
-* È possibile una rotazione destra e sinistra
-* Dipende dalla forma dell'antenna
+* Può essere destrorsa o sinistrorsa
+* Dipende dalla forma costruttiva dell'antenna
 </left>
 <right>
 [picture:204:e_zirkulare_polarisation:Polarizzazione circolare in un campo]
 </right>
 ---
 [question:EB308]
-

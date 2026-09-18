@@ -1,11 +1,11 @@
-## Misurazione di corrente e tensione
+## Misura di corrente e tensione
 
 <left>
-* La tensione viene misurata in parallelo al componente
-* La corrente viene misurata in serie con il componente
+* La tensione si misura in parallelo al componente
+* La corrente si misura in serie al componente
 </left>
 <right>
-[picture:1003:a_strom_spannung_messung:Misurazione della potenza di un amplificatore (PA)]
+[picture:1003:a_strom_spannung_messung:Misurare la potenza di un amplificatore (PA)]
 </right>
 
 ---
@@ -13,55 +13,56 @@
 ---
 [question:AI102]
 ---
-## Precisione di misurazione
+## Precisione di misura
 
-Il valore misurato visualizzato differisce solitamente dal valore effettivo
+Il valore visualizzato di solito differisce dal valore reale a causa di:
 * Resistenza interna dello strumento di misura
-* Capacità di risoluzione $\rightarrow$ *risoluzione più piccola*
-* L'indicazione cambia solo dopo una variazione pari alla risoluzione più piccola
+* Risoluzione → *risoluzione minima*
+* La visualizzazione cambia solo dopo una variazione pari alla risoluzione minima
 * Il produttore determina la deviazione
 * La deviazione è indicata nella scheda tecnica
 
 ---
 
 <left>
-[picture:1004:a_reale_spannungsmessung:Schema di equivalenza strumento di misura della tensione reale]
+[picture:1004:a_reale_spannungsmessung:Schema equivalente di un voltmetro reale]
 </left>
 
 <right>
-[picture:1007:a_reale_strommessung:Schema di equivalenza strumento di misura della corrente reale]
+[picture:1007:a_reale_strommessung:Schema equivalente di un amperometro reale]
 </right>
 
 ---
 [question:AI103]
 --- style="font-size: smaller;"
-### Percorso di soluzione
+### Procedimento di soluzione
 
 * Calcolo percentuale – i valori assoluti non sono rilevanti
-* dato: $U_{\mathrm{Abw}}$ con $\qty{95}{\percent}$ del valore reale
-* dato: $I_{\mathrm{Abw}}$ con $\qty{95}{\percent}$ del valore reale
-* cercato: deviazione della potenza $P = U \cdot I$
+* Dati: $U_{\mathrm{dev}}$ con $\qty{95}{\percent}$ del valore reale
+* Dati: $I_{\mathrm{dev}}$ con $\qty{95}{\percent}$ del valore reale
+* Ricercato: Deviazione della potenza $P = U \cdot I$
+
 
 <fragment>
-$\begin{split} P_{\textrm{Abw}} &= 100\% - (U_{\mathrm{Abw}} \cdot I_{\mathrm{Abw}})\\ &= 100\% - (95\% \cdot 95\%)\\ &= 100\% - 90,25\%\\ &= 9,75\% \end{split}$
+$\begin{split} P_{\textrm{dev}} &= 100\% - (U_{\mathrm{dev}} \cdot I_{\mathrm{dev}})\\ &= 100\% - (95\% \cdot 95\%)\\ &= 100\% - 90,25\%\\ &= 9,75\% \end{split}$
 </fragment>
 
 ---
 ## Corrente attraverso il multimetro
 
-* Anche durante una misurazione di tensione, una corrente scorre attraverso uno strumento di misura
-* Avviene una divisione della corrente
-* A causa dell'elevata Resistenza interna, la corrente che scorre via è relativamente piccola
+* Anche durante una misura di tensione scorre corrente attraverso lo strumento di misura
+* Si verifica una divisione della corrente
+* Grazie all’elevata resistenza interna, la corrente che fluisce è relativamente piccola
 
 ---
 [question:AI104]
 ---
-### Percorso di soluzione
-* dato: $U = \qty{0,5}{\volt}$
-* dato: $R = \qty{10}{\mega\ohm}$
-* cercato: $I$
+### Procedimento di soluzione
+* Dati: $U = \qty{0,5}{\volt}$
+* Dati: $R = \qty{10}{\mega\ohm}$
+* Ricercato: $I$
+
 
 <fragment>
 $$I = \frac{U}{R} = \frac{\qty{0,5}{\volt}}{\qty{10}{\mega\ohm}} = \qty{50}{\nano\ampere}$$
 </fragment>
-

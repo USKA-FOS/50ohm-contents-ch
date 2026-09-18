@@ -1,4 +1,4 @@
-I fili di materiali diversi conducono la corrente elettrica in modo diverso. Come parametro di riferimento, consideriamo la resistenza elettrica del filo. Abbiamo già appreso nelle classi N ed E che la resistenza è la grandezza che limita il flusso di corrente attraverso un conduttore. Un filo con bassa resistenza conduce la corrente meglio di un filo con alta resistenza.
+I fili realizzati con materiali diversi conducono la corrente elettrica in modo diverso. Come parametro di riferimento consideriamo la <i>resistenza</i> elettrica del filo. La resistenza l'abbiamo già incontrata nei corsi N ed E come la grandezza che limita il flusso di corrente attraverso un conduttore. Un filo con una resistenza bassa conduce meglio la corrente rispetto a un filo con una resistenza alta.
 
 <margin>
 [picture:713:a_leitermodell:Atomi (+) ed elettroni mobili (-) in un conduttore metallico]
@@ -6,34 +6,34 @@ I fili di materiali diversi conducono la corrente elettrica in modo diverso. Com
 
 La resistenza elettrica di un filo può essere descritta con la formula
 
-$R=\frac{\rho\cdot l}{A_\text{Dr}}$ 
+$R=\frac{\rho\cdot l}{A_\text{filo}}$
 
-La formula mostra da quali proprietà di un conduttore dipende la resistenza:
+dove la formula mostra da quali proprietà di un conduttore dipende la resistenza:
 
 ---
 
-* Il simbolo $l$ sta per la lunghezza del conduttore. Un conduttore è costituito da atomi fissi e da elettroni liberi che trasportano la corrente (cfr. figura [ref:a_leitermodell]). Durante il flusso di corrente, gli elettroni si scontrano ripetutamente con gli atomi e vengono così frenati. Più lungo è il conduttore, più frequenti sono questi scontri, quindi la resistenza aumenta. Pertanto, la resistenza è direttamente proporzionale alla lunghezza del conduttore: se la lunghezza raddoppia, anche la resistenza raddoppia.
-* Il simbolo $A_\text{Dr}$ indica l'area della sezione trasversale del filo. Una sezione trasversale maggiore offre agli elettroni più spazio per fluire, in modo che si ostacolino meno frequentemente. La resistenza diminuisce di conseguenza. Nella formula si divide per l'area della sezione trasversale, il che esprime esattamente questa relazione: maggiore è la sezione trasversale, minore è la resistenza.
-* Il simbolo $\rho$ sta per la resistività del materiale. Descrive le proprietà del conduttore dipendenti dal materiale e indica quale resistenza ha un conduttore di questo materiale con una lunghezza di $\qty{1}{\meter}$ e una sezione trasversale di $\qty{1}{\milli\meter\squared}$ a $\qty{20}{\degree}$. Ciò significa che anche il materiale influisce sulla frequenza con cui gli elettroni vengono frenati dagli scontri con gli atomi. Materiali come il rame o il ferro hanno valori diversi per $\rho$ e quindi conducono la corrente elettrica in modo diverso. Nella raccolta di formule troviamo i valori della tabella [ref:a_spezifischer_widerstand].
+* Il simbolo $l$ rappresenta la <i>lunghezza</i> del conduttore. Un conduttore è composto da atomi fissi e da elettroni liberi che trasportano la corrente (cfr. figura [ref:a_leitermodell]). Durante il flusso di corrente, gli elettroni collidono ripetutamente con gli atomi e vengono quindi rallentati. Più lungo è il conduttore, più frequenti sono queste collisioni: la resistenza aumenta. Pertanto, la resistenza è direttamente proporzionale alla lunghezza del conduttore: se la lunghezza raddoppia, anche la resistenza raddoppia.
+* Il simbolo $A_\text{filo}$ indica l'area della sezione trasversale del filo. Una sezione maggiore offre agli elettroni più spazio per fluire, riducendo le collisioni reciproche. La resistenza diminuisce. Nella formula, la resistenza è divisa per l'area della sezione trasversale, esprimendo esattamente questa relazione: maggiore è la sezione, minore è la resistenza.
+* Il simbolo $\rho$ rappresenta la <i>resistività</i> del materiale. Essa descrive le proprietà del conduttore dipendenti dal materiale e indica quale resistenza possiede un conduttore di questo materiale con una lunghezza di $\qty{1}{\meter}$ e una sezione di $\qty{1}{\milli\meter\squared}$ a $\qty{20}{\degreeCelsius}$. Ciò significa che anche il materiale influisce sulla frequenza con cui gli elettroni vengono rallentati dalle collisioni con gli atomi. Materiali come il rame o il ferro hanno valori diversi di $\rho$ e quindi conducono la corrente elettrica in modo diverso. Nella <i>raccolta di formule</i> troviamo i valori dalla tabella [ref:a_spezifischer_widerstand].
 
 <margin>
-| l: Materiale | X: $\rho$ $\left[\unit{\ohm\milli\meter\squared\per\meter}\right]$ |
+| Materiale | $\rho$ $\left[\unit{\ohm\milli\meter\squared\per\meter}\right]$ |
 | Rame      | $\num{0,018}$ |
-| Alluminio   | $\num{0,028}$ |
-| Oro        | $0,022$       |
-| Argento      | $0,016$       |
-| Stagno        | $0,11$        |
-| Ferro       | $0,1$         |
-| Ottone     | $0,07$        |
-[table:a_spezifischer_widerstand:Resistività specifiche dalla raccolta di formule]
+| Alluminio | $\num{0,028}$ |
+| Oro       | $0,022$       |
+| Argento   | $0,016$       |
+| Stagno    | $0,11$        |
+| Ferro     | $0,1$         |
+| Ottone    | $0,07$        |
+[table:a_spezifischer_widerstand:Resistività dalla raccolta di formule]
 </margin>
 
-Con questa formula è possibile risolvere le seguenti domande d'esame: 
+Con questa formula si possono risolvere le seguenti domande d'esame:
 
 [question:AB101]
 
 [question:AB102]
 
-La Temperatura è un altro fattore che influenza la resistenza e quindi la conduttività di un conduttore. Un flusso di corrente attraverso un conduttore di solito ne provoca il riscaldamento. Ciò è dovuto agli scontri degli elettroni con gli atomi. Nella classe E abbiamo già appreso il concetto di conduttori a freddo e a caldo. I conduttori a freddo hanno una bassa resistenza a temperature *basse* e quindi conducono meglio la corrente. A temperature elevate, la loro conduttività diminuisce progressivamente, la loro resistenza aumenta, cioè il coefficiente di temperatura è positivo. La maggior parte dei *metalli* sono conduttori a freddo. I conduttori a caldo si comportano esattamente al contrario. Conducono meglio la corrente a temperature *elevate*. Molti *semiconduttori* sono conduttori a caldo.
+La <i>temperatura</i> è un ulteriore fattore che influisce sulla resistenza e quindi sulla conduttività di un conduttore. Un flusso di corrente attraverso un conduttore porta generalmente al suo riscaldamento. Questo è dovuto agli urti degli elettroni con gli atomi. Nel corso E abbiamo già imparato il concetto di conduttori a freddo e a caldo. I conduttori a freddo hanno una resistenza bassa a <i>temperature basse</i> e quindi conducono meglio la corrente. A temperature elevate, la loro conduttività diminuisce progressivamente, la resistenza aumenta, cioè il coefficiente di temperatura è positivo. La maggior parte dei <i>metalli</i> sono conduttori a freddo. I <i>conduttori a caldo</i> si comportano esattamente al contrario. Conducono meglio la corrente a <i>temperature elevate</i>. Molti <i>semiconduttori</i> sono conduttori a caldo.
 
 [question:AB103]

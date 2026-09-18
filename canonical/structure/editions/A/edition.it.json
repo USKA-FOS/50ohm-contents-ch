@@ -1,8 +1,8 @@
 {
-  "abstract": "Sei un radioamatore di classe E e desideri operare in remoto, sulle bande dei 20 e 40 metri e con più potenza? Allora segui il nostro corso di classe A e ti porteremo sicuramente alla classe più alta.",
+  "abstract": "Sei un radioamatore della classe E e vuoi operare in remoto, usare le bande dei 20 e 40 metri e aumentare la potenza? Allora frequenta il nostro corso per la classe A e ti porteremo sicuramente alla classe più alta.",
   "chapters": [
     {
-      "abstract": "Questo capitolo descrive come le onde radio si propagano in condizioni atmosferiche e ionosferiche reali. Tratta i diversi meccanismi di propagazione come l'onda di terra, l'onda spaziale e la rifrazione, nonché la loro dipendenza dall'ora del giorno, dalla stagione e dall'attività solare. Inoltre, vengono spiegati effetti tipici come il fading, le zone morte, la distanza di salto, nonché MUF e LUF, che sono cruciali per la comunicazione radio pratica.",
+      "abstract": "Questo capitolo descrive come le onde radio si propagano in condizioni atmosferiche e ionosferiche reali. Tratta i diversi meccanismi di propagazione come l'onda di terra, l'onda spaziale e la rifrazione, nonché la loro dipendenza da ora del giorno, stagione e attività solare. Inoltre, vengono spiegati effetti tipici come il fading, le zone morte, la distanza di salto, la MUF e la LUF, che sono fondamentali per il collegamento radio pratico.",
       "id": "ch_46f406a88a39",
       "identifiers": [
         {
@@ -81,7 +81,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Propagazione multipercorso"
+          "title": "Propagazione per cammini multipli"
         },
         {
           "abstract": null,
@@ -213,7 +213,7 @@
             }
           ],
           "sort_order": 6,
-          "title": "Zona morta II"
+          "title": "Zona d'ombra II"
         },
         {
           "abstract": null,
@@ -352,7 +352,7 @@
       "title": "Propagazione delle onde"
     },
     {
-      "abstract": "Questo capitolo trasmette le grandezze elettriche fondamentali di corrente, tensione, resistenza, potenza ed energia e mostra come sono fisicamente correlate. Tratta la manipolazione sicura dei circuiti elettrici, la misurazione delle grandezze elettriche, la legge di Ohm, nonché i componenti e le loro proprietà. Inoltre, vengono introdotti concetti pratici come la corrente alternata, i decibel e i simboli di circuito, essenziali per la comprensione dei moderni circuiti radio ed elettronici.",
+      "abstract": "Questo capitolo illustra le grandezze elettriche fondamentali: corrente, tensione, resistenza, potenza ed energia, e ne spiega le relazioni fisiche. Viene trattato l'uso sicuro dei circuiti elettrici, la misurazione delle grandezze elettriche, la legge di Ohm e i componenti con le loro caratteristiche. Inoltre, vengono introdotti concetti pratici come la corrente alternata, il decibel e i simboli di circuito, fondamentali per comprendere i moderni circuiti radio e elettronici.",
       "id": "ch_b899e376eac1",
       "identifiers": [
         {
@@ -398,7 +398,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Direzione fisica della corrente"
+          "title": "Direzione della corrente fisica"
         },
         {
           "abstract": null,
@@ -600,10 +600,10 @@
         }
       ],
       "sort_order": 2,
-      "title": "Corrente, Tensione, Resistenza, Potenza, Energia"
+      "title": "Corrente, tensione, resistenza, potenza, energia"
     },
     {
-      "abstract": "Questo capitolo trasmette le proprietà fondamentali e l'interazione di importanti componenti elettronici come condensatori, bobine, diodi, transistor e circuiti integrati. Costituisce la base per la comprensione dei circuiti elettronici e della loro funzione in trasmettitori, ricevitori e altri apparecchi radio.",
+      "abstract": "Questo capitolo illustra le proprietà fondamentali e il funzionamento di importanti componenti elettronici come i condensatori, le induttanze, i diodi, i transistor e i circuiti integrati. Costituisce la base per comprendere i circuiti elettronici e la loro funzione nei trasmettitori, nei ricevitori e in altre apparecchiature radio.",
       "id": "ch_9f8458272612",
       "identifiers": [
         {
@@ -748,7 +748,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Trasformatori II"
+          "title": "Trasformatore II"
         },
         {
           "abstract": null,
@@ -884,10 +884,10 @@
         }
       ],
       "sort_order": 3,
-      "title": "Componenti elettronici"
+      "title": "Componenti"
     },
     {
-      "abstract": "Questo capitolo tratta delle regole fondamentali per i collegamenti in serie e in parallelo di componenti. L'obiettivo è comprendere il comportamento di reti semplici e miste e calcolare sistematicamente, ad esempio, resistenze totali, tensioni e correnti.",
+      "abstract": "In questo capitolo vengono trattate le regole fondamentali per i collegamenti in serie e in parallelo di componenti. L’obiettivo è comprendere il comportamento di reti semplici e miste e calcolare in modo sistematico, ad esempio, le resistenze totali, le tensioni e le correnti.",
       "id": "ch_fcaca64dc591",
       "identifiers": [
         {
@@ -933,7 +933,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Reti di resistori II"
+          "title": "Reti resistive II"
         },
         {
           "abstract": null,
@@ -1032,7 +1032,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Bobina in collegamento serie"
+          "title": "Bobina in serie"
         },
         {
           "abstract": null,
@@ -1065,14 +1065,14 @@
             }
           ],
           "sort_order": 5,
-          "title": "Collegamento in serie e parallelo di componenti misti"
+          "title": "Collegamento in serie e in parallelo di componenti misti"
         }
       ],
       "sort_order": 4,
       "title": "Collegamento in serie e in parallelo di componenti"
     },
     {
-      "abstract": "Le apparecchiature radio devono essere alimentate con tensione e corrente elettrica per funzionare. In questo capitolo apprendiamo i fondamenti dell'alimentazione di tensione e corrente con alimentatori, batterie e accumulatori. Vengono trattati anche i pericoli della corrente elettrica.",
+      "abstract": "Gli apparecchi radio devono essere alimentati con tensione e corrente elettrica per funzionare. In questo capitolo vengono trattate le basi dell’alimentazione elettrica tramite alimentatori di rete, batterie e accumulatori. Vengono inoltre affrontati i pericoli legati alla corrente elettrica.",
       "id": "ch_caa3f6e1afc9",
       "identifiers": [
         {
@@ -1151,7 +1151,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Batterie"
+          "title": "Accumulatori"
         },
         {
           "abstract": null,
@@ -1217,7 +1217,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Convertitori di tensione"
+          "title": "Convertitore di tensione"
         },
         {
           "abstract": null,
@@ -1316,7 +1316,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Raddrizzatore a ponte"
+          "title": "Raddrizzatore a doppia semionda"
         },
         {
           "abstract": null,
@@ -1448,14 +1448,14 @@
             }
           ],
           "sort_order": 11,
-          "title": "Filtro di alimentazione"
+          "title": "Accoppiatore per alimentazione remota"
         }
       ],
       "sort_order": 5,
-      "title": "Alimentazione elettrica e di tensione"
+      "title": "Alimentazione di corrente e tensione"
     },
     {
-      "abstract": "In questo capitolo verranno presentati blocchi di circuiti fondamentali della tecnica radiofonica, necessari per la generazione, l'elaborazione e la conversione di segnali ad alta frequenza. Questi includono filtri e circuiti oscillanti, oscillatori, mixer, moltiplicatori di frequenza, nonché amplificatori e convertitori di frequenza. Questi moduli costituiscono la base dei moderni circuiti trasmittenti e riceventi.",
+      "abstract": "In questo capitolo vengono presentati i principali moduli circuitali della tecnica radio necessari per la generazione, l'elaborazione e la conversione di segnali ad alta frequenza. Tra questi figurano filtri e circuiti oscillanti, oscillatori, mixer, moltiplicatori di frequenza, amplificatori e convertitori di frequenza. Questi moduli costituiscono la base dei moderni circuiti di trasmettitori e ricevitori.",
       "id": "ch_b1986239ab2b",
       "identifiers": [
         {
@@ -1567,7 +1567,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Compensazione della temperatura degli oscillatori"
+          "title": "Compensazione termica degli oscillatori"
         },
         {
           "abstract": null,
@@ -1633,7 +1633,7 @@
             }
           ],
           "sort_order": 5,
-          "title": "Stabilità di tensione degli oscillatori"
+          "title": "Stabilità della tensione negli oscillatori"
         },
         {
           "abstract": null,
@@ -1666,7 +1666,7 @@
             }
           ],
           "sort_order": 6,
-          "title": "Circuiti oscillanti"
+          "title": "Circuiti oscillatori"
         },
         {
           "abstract": null,
@@ -1732,7 +1732,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Phase-Locked Loop (PLL)"
+          "title": "Anello ad aggancio di fase (PLL)"
         },
         {
           "abstract": null,
@@ -1831,7 +1831,7 @@
             }
           ],
           "sort_order": 11,
-          "title": "Circuito del collettore"
+          "title": "Circuito a collettore comune"
         },
         {
           "abstract": null,
@@ -1864,7 +1864,7 @@
             }
           ],
           "sort_order": 12,
-          "title": "Emitterschaltung"
+          "title": "Configurazione a emettitore comune"
         },
         {
           "abstract": null,
@@ -1963,7 +1963,7 @@
             }
           ],
           "sort_order": 15,
-          "title": "Amplificatori lineari"
+          "title": "Amplificatore lineare"
         },
         {
           "abstract": null,
@@ -1996,7 +1996,7 @@
             }
           ],
           "sort_order": 16,
-          "title": "Auto-oscillazione"
+          "title": "Oscillazione propria"
         },
         {
           "abstract": null,
@@ -2033,10 +2033,10 @@
         }
       ],
       "sort_order": 6,
-      "title": "Circuiti fondamentali"
+      "title": "Circuiti di base"
     },
     {
-      "abstract": "In questo capitolo ci occupiamo del fatto che, attraverso la cosiddetta modulazione, è possibile imprimere informazioni come la voce umana su un'onda radio. Vengono presentati i tipi di modulazione di base AM, FM e SSB.",
+      "abstract": "In questo capitolo spieghiamo come, grazie alla cosiddetta modulazione, sia possibile trasmettere informazioni come la voce umana su un'<i>onda radio</i>. Verranno presentate le principali tecniche di modulazione: AM, FM e SSB.",
       "id": "ch_419825cd56ca",
       "identifiers": [
         {
@@ -2115,7 +2115,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Modulazione a banda laterale singola (SSB) III"
+          "title": "Modulazione a banda laterale unica (SSB) III"
         },
         {
           "abstract": null,
@@ -2247,14 +2247,14 @@
             }
           ],
           "sort_order": 6,
-          "title": "Compressore dinamico II"
+          "title": "Compressore di dinamica II"
         }
       ],
       "sort_order": 7,
-      "title": "Modulazione"
+      "title": "Stazioni radioamatoriali"
     },
     {
-      "abstract": "Questo capitolo tratta della struttura di base dei ricevitori radio e delle loro unità e funzioni più importanti. Vengono presentati diversi concetti di ricevitore e spiegate proprietà centrali come la selettività, il controllo del guadagno, il comportamento al rumore e l'elaborazione della frequenza. L'obiettivo è comprendere l'interazione dei singoli stadi di un ricevitore e il loro impatto sulla ricezione.",
+      "abstract": "In questo capitolo viene trattata la struttura di base dei ricevitore radio e i loro principali moduli e funzioni. Vengono presentati diversi concetti di ricevitore e spiegate proprietà centrali come la selettività, il controllo del guadagno, il comportamento del rumore e la generazione delle frequenze. L’obiettivo è comprendere l’interazione tra le singole fasi di un ricevitore e il loro impatto sulla ricezione.",
       "id": "ch_ed2985078a57",
       "identifiers": [
         {
@@ -2300,7 +2300,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Supereterodina semplice II"
+          "title": "Ricevitore supereterodina (supereterodina semplice) II"
         },
         {
           "abstract": null,
@@ -2399,7 +2399,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Ricevitore supereterodina a doppia conversione"
+          "title": "Supereterodina a doppia conversione (Doppelsuper)"
         },
         {
           "abstract": null,
@@ -2498,7 +2498,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Modulazione inter- e incrociata"
+          "title": "Modulazione intermodulazione e modulazione incrociata"
         },
         {
           "abstract": null,
@@ -2564,7 +2564,7 @@
             }
           ],
           "sort_order": 9,
-          "title": "Low Noise Block (LNB)"
+          "title": "Blocco a basso rumore (LNB)"
         },
         {
           "abstract": null,
@@ -2663,7 +2663,7 @@
             }
           ],
           "sort_order": 12,
-          "title": "Regolazione automatica del guadagno (AGC) II"
+          "title": "Controllo automatico del guadagno (AGC) II"
         },
         {
           "abstract": null,
@@ -2795,7 +2795,7 @@
             }
           ],
           "sort_order": 16,
-          "title": "Demodulatore"
+          "title": "demodulatore"
         },
         {
           "abstract": null,
@@ -2828,7 +2828,7 @@
             }
           ],
           "sort_order": 17,
-          "title": "Misurazione della frequenza II"
+          "title": "Misura di frequenza II"
         },
         {
           "abstract": null,
@@ -2861,14 +2861,14 @@
             }
           ],
           "sort_order": 18,
-          "title": "Precisione della frequenza"
+          "title": "Precisione di frequenza"
         }
       ],
       "sort_order": 8,
       "title": "Ricevitore"
     },
     {
-      "abstract": "In questo capitolo viene trattata la struttura fondamentale di un trasmettitore radio e l'interazione dei suoi singoli moduli. Vengono discussi, tra l'altro, la potenza d'uscita, la limitazione di potenza, gli strumenti di misura e i carichi, nonché la formazione e la prevenzione di emissioni indesiderate. Un'ulteriore enfasi è posta sulla compatibilità elettromagnetica e sulla gestione responsabile delle interferenze nelle operazioni di trasmissione.",
+      "abstract": "In questo capitolo viene descritto l’assetto di base di un trasmettitore radio e il funzionamento dei suoi moduli. Tra gli argomenti trattati vi sono la potenza d’uscita, la limitazione della potenza, gli strumenti di misura e i carichi, nonché la formazione e l’evitamento di emissioni indesiderate. Un ulteriore focus riguarda la compatibilità elettromagnetica e la gestione responsabile delle interferenze nel funzionamento in trasmissione.",
       "id": "ch_a115b4dc9639",
       "identifiers": [
         {
@@ -2980,7 +2980,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Amplificatori di potenza"
+          "title": "Amplificatore di potenza"
         },
         {
           "abstract": null,
@@ -3046,7 +3046,7 @@
             }
           ],
           "sort_order": 5,
-          "title": "Misure sul trasmettitore"
+          "title": "Misurazioni sul trasmettitore"
         },
         {
           "abstract": null,
@@ -3079,7 +3079,7 @@
             }
           ],
           "sort_order": 6,
-          "title": "Dummy-Load II"
+          "title": "Carico fittizio II"
         },
         {
           "abstract": null,
@@ -3112,7 +3112,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Emissioni indesiderate III"
+          "title": "Ricezioni indesiderate III"
         },
         {
           "abstract": null,
@@ -3145,7 +3145,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Disturbo di apparecchiature elettroniche II"
+          "title": "Interferenze indesiderate su dispositivi elettronici II"
         },
         {
           "abstract": null,
@@ -3178,14 +3178,14 @@
             }
           ],
           "sort_order": 9,
-          "title": "Remote-Station"
+          "title": "Stazione remota"
         }
       ],
       "sort_order": 9,
-      "title": "Trasmettitori"
+      "title": "Trasmettitore"
     },
     {
-      "abstract": "Dieses Kapitel beleuchtet die Grundlagen und Anwendungen der digitalen Übertragungsverfahren, die essenziell für die moderne Kommunikation im Amateurfunk sind.",
+      "abstract": "Questo capitolo illustra i principi fondamentali e le applicazioni dei metodi di trasmissione digitale, essenziali per le moderne comunicazioni nel campo radioamatoriale.",
       "id": "ch_95803478f848",
       "identifiers": [
         {
@@ -3231,7 +3231,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Symbole und Symbolrate"
+          "title": "Simboli e velocità di simbolo"
         },
         {
           "abstract": null,
@@ -3264,7 +3264,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "I/Q-Darstellung und Konstellationsdiagramm"
+          "title": "Rappresentazione I/Q e diagramma di costellazione"
         },
         {
           "abstract": null,
@@ -3297,7 +3297,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Mapping"
+          "title": "Mappatura"
         },
         {
           "abstract": null,
@@ -3330,7 +3330,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Phasenumtastung: PSK und QPSK"
+          "title": "Modulazione a spostamento di fase: PSK e QPSK"
         },
         {
           "abstract": null,
@@ -3363,7 +3363,7 @@
             }
           ],
           "sort_order": 5,
-          "title": "Quadraturamplitudenmodulation (QAM)"
+          "title": "Modulazione di ampiezza in quadratura (QAM)"
         },
         {
           "abstract": null,
@@ -3396,7 +3396,7 @@
             }
           ],
           "sort_order": 6,
-          "title": "Velocità di trasmissione dati"
+          "title": "Commutazione dei simboli e larghezza di banda"
         },
         {
           "abstract": null,
@@ -3462,7 +3462,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Codifica sorgente"
+          "title": "Codifica della sorgente"
         },
         {
           "abstract": null,
@@ -3495,7 +3495,7 @@
             }
           ],
           "sort_order": 9,
-          "title": "Codifica del canale"
+          "title": "Codifica di canale"
         },
         {
           "abstract": null,
@@ -3627,7 +3627,7 @@
             }
           ],
           "sort_order": 13,
-          "title": "Orthogonal Frequency Division Multiplex (OFDM)"
+          "title": "Tecnica di multiplazione di frequenza ortogonale (OFDM)"
         },
         {
           "abstract": null,
@@ -3693,14 +3693,14 @@
             }
           ],
           "sort_order": 15,
-          "title": "Polarmodulation"
+          "title": "Modulazione polare"
         }
       ],
       "sort_order": 10,
       "title": "Metodi di trasmissione digitale"
     },
     {
-      "abstract": "Questo capitolo illustra i fondamenti e le applicazioni dell'elaborazione digitale del segnale, essenziale per l'elaborazione moderna delle informazioni.",
+      "abstract": "Questo capitolo illustra i fondamenti e le applicazioni dell’elaborazione digitale del segnale, essenziale per la moderna elaborazione delle informazioni.",
       "id": "ch_a97da26f870a",
       "identifiers": [
         {
@@ -3812,7 +3812,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "A/D- und D/A-Umsetzung"
+          "title": "Conversione A/D e D/A"
         },
         {
           "abstract": null,
@@ -3845,7 +3845,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Anti-Alias- und Rekonstruktionsfilter"
+          "title": "Filtri anti-aliasing e di ricostruzione"
         },
         {
           "abstract": null,
@@ -3944,7 +3944,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Digitale I/Q-Signalverarbeitung"
+          "title": "Elaborazione digitale dei segnali I/Q"
         },
         {
           "abstract": null,
@@ -3984,7 +3984,7 @@
       "title": "Elaborazione digitale del segnale"
     },
     {
-      "abstract": "Questo capitolo si occupa di tutto ciò che riguarda le antenne e i cavi d'antenna. Oltre alle forme di costruzione delle antenne più importanti, tratteremo anche argomenti come l'installazione di impianti d'antenna nei veicoli a motore, la protezione delle persone dalle radiazioni elettromagnetiche e la sicurezza durante la costruzione e il funzionamento di un impianto d'antenna.",
+      "abstract": "Questo capitolo tratta tutto ciò che riguarda le antenne e i cavi d'antenna. Oltre alle principali tipologie di antenne, vengono affrontati argomenti come l'installazione di impianti d'antenna su autoveicoli, la protezione delle persone dalle radiazioni elettromagnetiche e la sicurezza nella costruzione e nell'esercizio di un impianto d'antenna.",
       "id": "ch_9781c7170319",
       "identifiers": [
         {
@@ -4063,7 +4063,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Forme d'antenna III"
+          "title": "Forme di antenna III"
         },
         {
           "abstract": null,
@@ -4096,7 +4096,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Fattore di riduzione II"
+          "title": "Fattore di velocità II"
         },
         {
           "abstract": null,
@@ -4129,7 +4129,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Impedenza al piede II"
+          "title": "Impedenza al punto di terra II"
         },
         {
           "abstract": null,
@@ -4162,7 +4162,7 @@
             }
           ],
           "sort_order": 5,
-          "title": "Estensione e accorciamento elettrico"
+          "title": "Allungamento e accorciamento elettrico"
         },
         {
           "abstract": null,
@@ -4261,7 +4261,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Paraboloide II"
+          "title": "Antenne paraboliche II"
         },
         {
           "abstract": null,
@@ -4294,7 +4294,7 @@
             }
           ],
           "sort_order": 9,
-          "title": "Specchio offset"
+          "title": "Riflettore con offset"
         },
         {
           "abstract": null,
@@ -4327,7 +4327,7 @@
             }
           ],
           "sort_order": 10,
-          "title": "Rapporto avanti/indietro"
+          "title": "Rapport avanti/indietro"
         },
         {
           "abstract": null,
@@ -4360,7 +4360,7 @@
             }
           ],
           "sort_order": 11,
-          "title": "Mezza larghezza di banda"
+          "title": "Larghezza a metà potenza"
         },
         {
           "abstract": null,
@@ -4393,7 +4393,7 @@
             }
           ],
           "sort_order": 12,
-          "title": "Alimentazione di corrente e tensione II"
+          "title": "Alimentazione in corrente e tensione II"
         },
         {
           "abstract": null,
@@ -4525,7 +4525,7 @@
             }
           ],
           "sort_order": 16,
-          "title": "Attenuazione del cavo II"
+          "title": "Attenuazione dei cavi II"
         },
         {
           "abstract": null,
@@ -4624,7 +4624,7 @@
             }
           ],
           "sort_order": 19,
-          "title": "Rapporto d’onda stazionaria (ROS) II"
+          "title": "Misuratore di ROS (rosmetro) II"
         },
         {
           "abstract": null,
@@ -4789,7 +4789,7 @@
             }
           ],
           "sort_order": 24,
-          "title": "Mantelli II"
+          "title": "Correnti sulla calza II"
         },
         {
           "abstract": null,
@@ -4822,14 +4822,14 @@
             }
           ],
           "sort_order": 25,
-          "title": "Linea di propagazione"
+          "title": "Linea di deviazione"
         }
       ],
       "sort_order": 12,
-      "title": "Antenne e linee di trasmissione"
+      "title": "Antenna e linee di trasmissione"
     },
     {
-      "abstract": "Questo capitolo tratta della protezione delle persone dai campi elettromagnetici nel radioamatore. Introduce i concetti di ERP ed EIRP, spiega i limiti legali e gli obblighi di dichiarazione e autorizzazione, e mostra come calcolare e valutare le distanze di sicurezza e di protezione personale. L'obiettivo è un'operatività radio sicura e conforme alle normative, in particolare per gli impianti radioamatoriali fissi.",
+      "abstract": "Questo capitolo tratta la protezione delle persone dai campi elettromagnetici nel radioamatoriale. Vengono introdotti i concetti di ERP e EIRP, spiegati i valori limite di legge nonché gli obblighi di segnalazione e autorizzazione, e illustrato come calcolare e valutare le distanze di sicurezza e di protezione delle persone. L'obiettivo è garantire un esercizio radio sicuro e conforme alle norme, in particolare per impianti radioamatoriali fissi.",
       "id": "ch_8eda960b74ef",
       "identifiers": [
         {
@@ -4875,7 +4875,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Potenza irradiata effettiva (ERP) II"
+          "title": "Potenza irradiata efficace (ERP) II"
         },
         {
           "abstract": null,
@@ -4908,7 +4908,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Nah- und Fernfeld"
+          "title": "Campo vicino e campo lontano"
         },
         {
           "abstract": null,
@@ -4941,7 +4941,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Formula di approssimazione II"
+          "title": "Formula approssimata II"
         },
         {
           "abstract": null,
@@ -4974,7 +4974,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Distanza di protezione personale III"
+          "title": "Distanza di protezione per le persone III"
         },
         {
           "abstract": null,
@@ -5007,14 +5007,14 @@
             }
           ],
           "sort_order": 5,
-          "title": "Sicurezza personale con antenne direttive"
+          "title": "Protezione delle persone con antenne direttive"
         }
       ],
       "sort_order": 13,
-      "title": "Distanza di protezione personale"
+      "title": "Distanza di protezione delle persone"
     },
     {
-      "abstract": "Questo capitolo tratta aspetti centrali della sicurezza nelle operazioni radioamatoriali, dalle questioni edilizie e di responsabilità a quelle di sicurezza elettrica e protezione contro i fulmini. Illustra misure come la messa a terra, l'equipotenzializzazione e la gestione sicura di antenne e apparecchiature elettriche. L'obiettivo è minimizzare i rischi per persone, edifici e apparecchiature e garantire un'operatività radio sicura.",
+      "abstract": "Questo capitolo affronta gli aspetti centrali della sicurezza nel traffico radioamatoriale, dalle questioni legali in materia edilizia e di responsabilità civile fino alla sicurezza elettrica e alla protezione contro i fulmini. Vengono illustrate misure come la messa a terra, l’equipotenzialità e l’uso sicuro di antenne e apparecchiature elettriche. L’obiettivo è minimizzare i rischi per persone, edifici e dispositivi, garantendo un traffico radio sicuro.",
       "id": "ch_8440a9b32b5b",
       "identifiers": [
         {
@@ -5060,7 +5060,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Apertura di apparecchiature elettriche II"
+          "title": "Aprire apparecchi elettrici II"
         },
         {
           "abstract": null,
@@ -5093,7 +5093,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Messa a terra e compensazione di potenziale II"
+          "title": "Messa a terra di protezione e equipotenzializzazione II"
         },
         {
           "abstract": null,
@@ -5180,5 +5180,5 @@
   "node_type": "curriculum_root",
   "placements": [],
   "sort_order": 0,
-  "title": "Corso avanzato E -> A"
+  "title": "Corso di approfondimento E -> A"
 }

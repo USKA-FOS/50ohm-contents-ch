@@ -1,48 +1,57 @@
-## Mapping nell'elaborazione digitale dei segnali
+## Mappatura
 
-* Converte i dati digitali in punti segnale specifici (simboli)  
-* Cruciale per tecniche di modulazione come QAM e QPSK  
-* Permette la trasmissione dei dati attraverso il sistema di comunicazione
+* I bit devono essere associati ai simboli possibili.
+* Questa associazione viene chiamata *mappatura*.
+* Il componente che la gestisce è detto *mapper*.
+* Trasforma le combinazioni di bit in simboli.
 
----
-
-## Fase 1: Conversione dei dati binari in simboli
-
-* In QPSK, due bit vengono raggruppati in un simbolo  
-* Ci sono 4 combinazioni possibili: $\num{00}$, $\num{01}$, $\num{10}$, $\num{11}$
-* Ogni combinazione viene assegnata a un punto segnale specifico
+[picture:1102:a_mapper:Schema a blocchi di un mapper]
 
 ---
 
-## Fase 2: Assegnazione della fase
+## Esempio: ASK
 
-* A ogni simbolo viene assegnata una fase propria  
-* Fasi tipiche a passi di $\qty{90}{\degree}$:
-* $\num{00}$ corrisponde a $\qty{0}{\degree}$
-* $\num{01}$ corrisponde a $\qty{90}{\degree}$
-* $\num{10}$ corrisponde a $\qty{180}{\degree}$
-* $\num{11}$ corrisponde a $\qty{270}{\degree}$
+* Nell’ASK i simboli si differenziano per la loro ampiezza.
+* L’ASK binario utilizza due ampiezze.
+* Esempio:
+  * ampiezza piccola → $0$
+  * ampiezza grande → $1$
 
---- style="font-size: smaller;"
-## Fase 3: Mapping sul diagramma di costellazione
+[picture:700:a_ask:ASK (Amplitude-Shift Keying) nel dominio del tempo]
+
+---
+
+## ASK nel diagramma di costellazione
 
 <left>
-[picture:697:a_8qam:Diagramma I-Q per un mapping 8QAM]
-La rappresentazione è per un mapping 8QAM. QPSK nell'esempio corrisponde al cerchio esterno.
+* Entrambi i simboli si trovano sull’asse I.
+* La fase rimane invariata.
+* La distanza dall’origine descrive l’ampiezza.
+* La mappatura assegna a ogni punto un valore di bit.
 </left>
 <right>
-* Il diagramma di costellazione rappresenta i punti segnale in un diagramma quadrato  
-* L'asse X (*I*n-phase) e l'asse Y (*Q*uadrature) mostrano le ampiezze dei componenti del segnale  
-* Per QPSK, i quattro punti segnale si trovano alle estremità di un quadrato
+[picture:1128:a_ask_mapping:ASK (Amplitude-Shift Keying) nel diagramma di costellazione]
 </right>
 
 ---
 
-## Rappresentazione dei simboli QPSK
+## 4ASK
 
-* $\num{00}$ a $\qty{0}{\degree}$: punto sull'asse X positivo  
-* $\num{01}$ a $\qty{90}{\degree}$: punto sull'asse Y positivo  
-* $\num{10}$ a $\qty{180}{\degree}$: punto sull'asse X negativo  
-* $\num{11}$ a $\qty{270}{\degree}$: punto sull'asse Y negativo
+* L’ASK non si limita a due ampiezze.
+* Quattro ampiezze generano quattro simboli.
+* Quattro simboli possono trasmettere due bit per simbolo: $00$, $01$, $10$, $11$
 
-* La chiara separazione delle fasi facilita la distinzione dei simboli, anche in presenza di rumore
+[picture:701:a_4_ask:Modulazione di ampiezza a quattro livelli]
+
+---
+
+## 4ASK nel diagramma di costellazione
+
+<left>
+* Anche nel 4ASK tutti i punti si trovano sull’asse I.
+* I punti si differenziano solo per la distanza dall’origine.
+* A ogni punto è associata una combinazione di bit.
+</left>
+<right>
+[picture:1129:a_4_ask_mapping:4ASK nel diagramma di costellazione]
+</right>

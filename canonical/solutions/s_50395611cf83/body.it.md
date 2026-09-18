@@ -1,5 +1,5 @@
-Lo sfasamento tra tensione e corrente è di $\qty{90}{\degree}$, dove la corrente (rossa) precede la tensione (blu),
+Lo sfasamento tra tensione e corrente è di $\qty{90}{\degree}$, con la corrente (rosso) che precede la tensione (blu),
 
-[picture:943:a_blindleistung_kondensator:Sfasamento sul condensatore tra tensione e corrente]
+[picture:943:a_blindleistung_kondensator:Sfasamento tra tensione e corrente nel condensatore]
 
-Aiuto mnemonico: Con il condensat*ooo*re la corrente prec*ooo*de!
+Aiuto mnemonico: Nel condensat*ore* la corrente precede v*ore*!

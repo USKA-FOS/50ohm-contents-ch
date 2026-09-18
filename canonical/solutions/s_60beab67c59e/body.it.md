@@ -1,8 +1,8 @@
-L'indicazione $\qty{2200}{\milli\ampere\hour}$ descrive la quantità di carica elettrica immagazzinata o la capacità della batteria.
+La specifica $\qty{2200}{\milli\ampere\hour}$ descrive la quantità di carica elettrica immagazzinata o la capacità dell'accumulatore.
 
-Indica quanta corrente la batteria può fornire teoricamente per un certo periodo di tempo, ad esempio:
+Indica quanta corrente l'accumulatore può fornire teoricamente in un determinato tempo, ad esempio:
 
 $\qty{2200}{\milli\ampere}$ per un'ora o
 $\qty{1100}{\milli\ampere}$ per due ore.
 
-L'indicazione denota quindi la capacità nominale della batteria.
+Questa indicazione rappresenta quindi la capacità nominale dell'accumulatore.

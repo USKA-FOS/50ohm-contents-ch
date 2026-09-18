@@ -1,6 +1,6 @@
 <left>
-* L'alimentatore converte la tensione alternata di $\qty{230}{\volt}$ dalla presa in una tensione continua più bassa
-* Nel radioamatore, $\qty{13,8}{\volt}$ sono spesso utilizzati per i trasmettitore-ricevitore
+* L’alimentatore converte la tensione alternata di $\qty{230}{\volt}$ dalla presa di corrente in una tensione continua più bassa
+* Nel radioamatoriale si utilizza spesso $\qty{13,8}{\volt}$ per i trasmettitori-ricevitori
 </left>
 <right>
 [picture:740:n_netzgeraet:Alimentatore]
@@ -20,19 +20,19 @@
 
 <left>
 * La *spina con contatto di protezione* ha tre poli
-* Conduttori L e N tramite perni
-* Qui è presente la tensione di $\qty{230}{\volt}$
+* I conduttori L e N sono collegati tramite spinotti
+* Su di essi è presente la tensione di $\qty{230}{\volt}$
 * Il *contatto di protezione* è il terzo polo
-* Conduttore PE tramite contatti a slitta esterni
+* Il conduttore PE è collegato tramite contatti scorrevoli esterni
 </left>
 <right>
-[photo:86:n_schutzkontakt:Contatto di protezione su una presa e spina Schuko]
+[photo:86:n_schutzkontakt:Contatto di protezione su una presa di corrente e spina Schuko]
 </right>
 <note>
-* Le spine Schuko non hanno protezione contro l'inversione di polarità per i conduttori L e N
+* Le spine Schuko non hanno protezione contro l’inversione dei poli L e N
 * "protective earth" — messa a terra di protezione
-* L'involucro metallico viene messo a terra
-* La messa a terra esclude una tensione pericolosa sull'involucro
+* L’involucro metallico viene messo a terra
+* La messa a terra impedisce che sull’involucro si generi una tensione pericolosa
 </note>
 
 ---
@@ -41,25 +41,25 @@
 
 ---
 
-## Uscita di tensione continua
+## Uscita in tensione continua
 
-[picture:680:n_Netzgeraet_TRX:Collegamento dell'alimentatore e del trasmettitore-ricevitore]
+[picture:680:n_Netzgeraet_TRX:Collegamento tra alimentatore e trasmettitore-ricevitore]
 
 <left>
-* È bipolare verso il trasmettitore-ricevitore
+* È bipolare per il trasmettitore-ricevitore
 * I morsetti sono generalmente colorati
 </left>
 <right>
 <fragment>
-* Rosso per il positivo
-* Nero per il negativo
-* Rispettare la polarità!
+* Rosso per il polo positivo
+* Nero per il polo negativo
+* Attenzione alla polarità!
 </fragment>
 </right>
 
 <note>
-* Possibile cortocircuito o distruzione del trasmettitore-ricevitore
-* Controllare i cavi, poi accendere
+* Possibile corto circuito o danneggiamento del trasmettitore-ricevitore
+* Controllare i cavi, quindi accendere solo dopo
 </note>
 
 ---
@@ -84,41 +84,48 @@
 
 ---
 
-## Fusibili
+## Fusibili miniatura
 
 <left>
-[photo:88:n_feinsicherungen:Fusibili]
+[photo:88:n_feinsicherungen:Fusibili miniatura]
 </left>
 <right>
 * Interrompono il flusso di corrente in caso di guasto (cortocircuito o sovraccarico)
-* Fusibili a fusione in cui si fonde un filo sottile
-* *Fusibile bruciato* o *spegnimento termico*
+* Fusibili a fusione in cui un sottile filo si scioglie
+* *Fusibile bruciato* o *scollegamento termico*
 </right>
 
 ---
 
-### Sostituzione dei fusibili
+### Sostituire i fusibili miniatura
 
-* Prima risolvere la causa
-* Sostituire con uno identico
+* Prima di tutto risolvere la causa del guasto
+* Sostituire con fusibili dello stesso tipo
 * Intensità di corrente e caratteristica di intervento
+
+<note>
+ATTENZIONE: È inaccettabile e molto pericoloso bypassare un fusibile difettoso, ad esempio con un foglio di alluminio, poiché esiste il rischio di incendio!
+</note>
 
 ---
 
-### Grandezze caratteristiche dei fusibili
+### Caratteristiche dei fusibili miniatura
 
-| c: Caratteristica di intervento | c: Simbolo | c: Tempo di spegnimento con dieci volte la corrente nominale |
+| c: Caratteristica di intervento | c: Simbolo | c: Tempo di intervento a corrente nominale decuplicata |
 | rapido | F | max. $\qty{30}{\milli\second}$ |
 | medio | MT | max. $\qty{90}{\milli\second}$ |
 | lento | T | max. $\qty{300}{\milli\second}$ |
-[table:n_feinsicherung:Grandezze caratteristiche dei fusibili]
+[table:n_feinsicherung:Caratteristiche dei fusibili miniatura]
 
 ---
 
 ### Limitazione elettronica
 
-* Negli alimentatori di alta qualità
-* In caso di cortocircuito, l'intensità di corrente viene limitata
+* Nei alimentatori di alta qualità
+* In caso di cortocircuito viene limitata l’intensità di corrente
 * *Limitazione della corrente di cortocircuito*
 * Non è necessario sostituire i fusibili
 
+---
+[question:ND108]
+[question:NK305]

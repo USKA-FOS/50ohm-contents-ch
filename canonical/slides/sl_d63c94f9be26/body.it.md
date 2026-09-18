@@ -1,8 +1,8 @@
 ## Principio di funzionamento
 
 <left>
-* Inserzione su *radiatore* eseguito come dipolo o dipolo ripiegato
-* L'onda colpisce un *riflettore* più lungo e un *direttore* più corto
+* Alimentazione eseguita sul *radiatore* sotto forma di dipolo o dipolo ripiegato
+* L’*onda* incontra il *riflettore* più lungo e il *direttore* più corto
 * Possono esserci anche più direttori
 </left>
 <right>
@@ -14,9 +14,9 @@
 ---
 ### Elementi parassiti
 
-* Il riflettore e il direttore oscillano senza essere collegati elettricamente al radiatore
-* Non hanno nemmeno un'alimentazione dell'antenna
-* Tuttavia, assorbono energia e la riemettono
+* Il riflettore e il direttore oscillano senza avere un collegamento elettrico con il radiatore
+* Non hanno neppure un’alimentazione dell’antenna
+* Assorbono comunque energia e la reirradiano
 
 ---
 [question:EG212]
@@ -24,10 +24,10 @@
 ## Direttività
 
 <left>
-* Tra il radiatore e gli elementi c'è uno sfasamento spaziale e temporale
-* La sovrapposizione dell'irraggiamento crea una direttività
-* *Interferenza distruttiva*: le onde si annullano a vicenda
-* *Interferenza costruttiva*: le onde si rafforzano a vicenda
+* Tra radiatore ed elementi esiste uno sfasamento spaziale e temporale
+* Attraverso la sovrapposizione delle radiazioni si ottiene una *direttività*
+* *Interferenza distruttiva*: le onde si annullano
+* *Interferenza costruttiva*: le onde si rafforzano
 </left>
 <right>
 [include:applet_interferenz]
@@ -37,7 +37,7 @@
 ### Diagramma di radiazione
 
 <left>
-* Grande lobo principale in direzione dei direttori
+* Grande lobo principale nella direzione dei direttori
 * Piccoli lobi secondari e in particolare lobo posteriore
 </left>
 <right>

@@ -1,22 +1,22 @@
 <left>
-[picture:733:e_sporadic_e:Rifrazione in E sporadico]
-* E sporadico: aree fortemente ionizzate nella regione E
-* Riflessione di bande di onde corte alte e VHF
+[immagine:733:e_sporadic_e:Rifrazione in caso di E sporadico]
+* E sporadico: aree fortemente ionizzate nello strato E
+* Riflessione delle bande ad alta frequenza corte e VHF
 </left>
 <right>
-* Con l'aumentare della frequenza, l'E sporadico si verifica meno frequentemente
-* Con elevata attività solare: possibile propagazione nella regione F (ad es. banda dei $\qty{10}{\meter}$)
-* L'E sporadico può essere di disturbo: le onde radio non raggiungono la regione F
-* Distanze di salto limitate a circa $\qty{2200}{\kilo\meter}$
-* La zona morta può scomparire
+* Con l’aumentare della frequenza, l’E sporadico si verifica meno frequentemente
+* In caso di alta attività solare: possibile propagazione nello strato F (ad es. banda dei $\qty{10}{\metro}$)
+* L’E sporadico può essere disturbante: le onde radio non raggiungono lo strato F
+* Le distanze di salto sono limitate a circa $\qty{2200}{\chilo\metro}$
+* La zona d’ombra può scomparire
 </right>
 
 ---
-[question:AH301]
+[domanda:AH301]
 ---
-[question:AH214]
-<note>
-Qui viene chiesta l'onda corta!
-</note>
+[domanda:AH214]
+<nota>
+Qui si fa riferimento alle onde corte!
+</nota>
 ---
-[question:AH220]
+[domanda:AH220]

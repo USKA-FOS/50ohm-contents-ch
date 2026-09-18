@@ -1,7 +1,7 @@
-Un misuratore di onde stazionarie (cfr. figura [ref:swr_meter_kreuzzeiger]) viene utilizzato nei trasmettitori per verificare l'adattamento dell'antenna o della linea di alimentazione all'antenna. Spesso un misuratore SWR, a seconda della sua struttura, viene chiamato ponte di misura SWR. Con esso si possono facilmente rispondere alle seguenti domande:
+Un rosmetro (cfr. figura [ref:swr_meter_kreuzzeiger]) viene utilizzato nei trasmettitori per verificare l’adattamento dell’antenna o della linea di alimentazione all’antenna stessa. Spesso, un rosmetro, in base alla sua struttura, viene chiamato anche *ponte di misura del ROS*. Con esso si possono rispondere facilmente alle seguenti domande:
 
 <margin>
-[photo:143:swr_meter_kreuzzeiger:Misuratore SWR con indicatore a croce, indicatore sinistro per la potenza in avanti e indicatore destro per la potenza riflessa; per leggere il ROS, si segue la linea verde nel punto di intersezione di entrambi gli indicatori verso il basso]
+[photo:143:swr_meter_kreuzzeiger:Rosmetro con indice a croce; l’indice di sinistra indica la potenza incidente, quello di destra la potenza riflessa. Per leggere il ROS, si segue la linea verde fino al punto di intersezione dei due indici verso il basso]
 </margin>
 
 [question:EI401]
@@ -10,24 +10,24 @@ Un misuratore di onde stazionarie (cfr. figura [ref:swr_meter_kreuzzeiger]) vien
 
 ---
 
-Poiché una linea di alimentazione presenta perdite e quindi modifica anche il rapporto d’onda stazionaria, è importante *dove* inseriamo un misuratore di onde stazionarie.
+Poiché una linea di alimentazione presenta perdite e quindi altera il rapporto d’onda stazionaria, è importante sapere *dove* inserire il rosmetro.
 
 ---
 
-Se vogliamo misurare quanto bene è adattata un'antenna, dovremmo collegare il misuratore di onde stazionarie immediatamente prima dell'antenna (cfr. figura [ref:swr_meter_antenne]).
+Se vogliamo misurare quanto bene un’antenna è adattata, dovremmo collegare il rosmetro immediatamente prima dell’antenna (cfr. figura [ref:swr_meter_antenne]).
 
 <margin>
-[picture:1051:swr_meter_antenne:Posizione per il misuratore SWR per determinare l'adattamento dell'antenna]
+[picture:1051:swr_meter_antenne:Posizione del rosmetro per determinare l’adattamento dell’antenna]
 </margin>
 
 [question:EI404]
 
 ---
 
-Se invece ci interessa quanto bene un trasmettitore è adattato all'intero impianto d'antenna (inclusi eventuali filtri e/o accordatori d’antenna), dovremmo collegare il misuratore di onde stazionarie immediatamente dopo il trasmettitore (cfr. figura [ref:swr_meter_anlage]).
+Se invece ci interessa sapere quanto bene un trasmettitore è adattato all’intero impianto d’antenna (inclusi eventuali filtri e/o accordatori d’antenna), dovremmo collegare il rosmetro immediatamente dopo il trasmettitore (cfr. figura [ref:swr_meter_anlage]).
 
 <margin>
-[picture:1052:swr_meter_anlage:Posizione per il misuratore SWR per determinare l'adattamento dell'intero impianto d'antenna]
+[picture:1052:swr_meter_anlage:Posizione del rosmetro per determinare l’adattamento dell’intero impianto d’antenna]
 </margin>
 
 [question:EI405]

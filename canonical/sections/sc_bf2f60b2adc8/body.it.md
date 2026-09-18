@@ -1,17 +1,17 @@
-Se si applica un'oscillazione elettrica a un'antenna, questa irradia un'onda radio. Le onde radio, proprio come la luce, appartengono alle onde elettromagnetiche [index:Onde elettromagnetiche] e si propagano quindi alla velocità della luce [index:Velocità della luce]. Nello spazio libero, dove non ci sono ostacoli, questa è di circa $\num{300000}$ chilometri al secondo.
+Se si applica un'oscillazione elettrica a un'antenna, questa irradia un'onda radio. Le onde radio, come la luce, appartengono alle onde elettromagnetiche [index:Onda elettromagnetica] e si propagano quindi alla velocità della luce [index:velocità della luce], che ammonta a circa $\num{300000}$ chilometri al secondo nello spazio libero, dove non ci sono ostacoli.
 
 [question:NB301]
 
 ---
 
-Le onde radio sono composte da creste e valli d'onda. Più alte sono le creste e più profonde sono le valli, più forte è il segnale radio. In questo contesto si parla di Intensità di campo [index:Intensità di campo]. L'altezza di una cresta d'onda o la profondità di una valle d'onda sono chiamate, come per l'oscillazione elettrica, ampiezza.
+Le onde radio sono composte da creste e avvallamenti. Più alte sono le creste e più profondi gli avvallamenti, più forte è il segnale radio. In questo contesto si parla di intensità di campo [index:intensità di campo]. L'altezza di una cresta o la profondità di un avvallamento viene chiamata, come per l'oscillazione elettrica, ampiezza.
 
 <attention>
-Le onde elettromagnetiche vengono spesso rappresentate come un'*istantanea*. Le istantanee appaiono inizialmente uguali agli oscillogrammi di cui abbiamo già discusso. Tuttavia, rappresentano qualcosa di diverso! Mentre in un oscillogramma si vede la variazione della tensione nel tempo, le istantanee mostrano solo un singolo istante, appunto un momento. Si può leggere la variazione dell'intensità di campo in funzione della distanza. È fondamentale prestare attenzione all'etichetta dell'asse X orizzontale. Nell'oscillogramma c'è $t$ per il tempo (dal latino tempus), mentre nell'istantanea c'è "Luogo".
+Le onde elettromagnetiche vengono spesso rappresentate come *istantanee*. Le istantanee sembrano inizialmente identiche agli oscillogrammi che abbiamo già trattato. Tuttavia, rappresentano concetti diversi! Mentre in un oscillogramma si osserva la variazione della tensione nel tempo, le istantanee mostrano un singolo istante, appunto un momento. Si può leggere la variazione dell'intensità di campo in funzione della distanza. È fondamentale prestare attenzione all'etichettatura dell'asse orizzontale X. Nell'oscillogramma, la X indica il tempo (in latino *tempus*), mentre nell'istantanea indica la *posizione*.
 </attention>
 
 <attention>
-Non lasciarti ingannare dalla rappresentazione dell'*istantanea* a credere che l'onda elettromagnetica danzi su e giù nello spazio. Sull'asse Y verticale non è rappresentata un'escursione spaziale verso l'alto o verso il basso, ma l'intensità di campo. Se la curva è più lontana dalla linea dello zero, l'intensità di campo è maggiore.
+Non bisogna lasciarsi ingannare dalla rappresentazione dell'*istantanea* e pensare che l'onda elettromagnetica si muova su e giù nello spazio. Sull'asse verticale Y non è rappresentata una deflessione spaziale verso l'alto o il basso, ma l'intensità di campo. Più la curva si allontana dalla linea zero, maggiore è l'intensità di campo.
 </attention>
 
 [question:NB402]

@@ -1,0 +1,4 @@
+La corrente di base $I_B$ dipende dalla tensione d’ingresso $U_E$. Se $U_E$ aumenta, aumentano anche la corrente di base $I_B$ e la corrente di collettore $I_C$. Con l’aumento della corrente di collettore, la caduta di tensione sulla resistenza di collettore cresce, causando una diminuzione della tensione collettore-emettitore $U_{CE}$. Pertanto, $U_{CE}$ risulta sfasata di $\qty{180}{\degree}$ rispetto a $U_E$ e a $I_C$.
+
+
+Il condensatore di accoppiamento all’uscita rimuove solo la componente in continua. La tensione d’uscita $U_A$ ha quindi la stessa fase della componente in alternata di $U_{CE}$, ma centrata intorno alla linea dello zero. Di conseguenza, $I_C$ e $U_E$ sono in fase, mentre $U_{CE}$ e $U_A$ sono in opposizione di fase.

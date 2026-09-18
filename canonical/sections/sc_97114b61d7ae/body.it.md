@@ -1,11 +1,10 @@
-Normalmente un radioamatore deve operare la propria stazione radio presidiata. "Presidiata" significa che le trasmissioni devono avvenire solo sotto supervisione. La supervisione avviene o direttamente presso l'impianto di trasmissione o, nel caso di una stazione remota, anche indirettamente, ad esempio tramite Internet.
+Normalmente un radioamatore deve operare la propria stazione radio in modo presidiato. "Presidiato" significa che le trasmissioni possono avvenire solo sotto sorveglianza. La sorveglianza avviene direttamente presso l'impianto trasmittente o, nel caso di una stazione remota, anche indirettamente, ad esempio tramite Internet.
 
-Esiste tuttavia anche la possibilità di gestire una stazione non presidiata, come stazione detta telecomandata o automatica. Si intende una stazione che funziona senza supervisione. Di solito si tratta di stazioni ripetitrici o di beacon:
-* Una *stazione ripetitrice* consente collegamenti radio tra radioamatori che non possono raggiungersi direttamente. A tale scopo, la stazione ripetitrice ritrasmette tutto ciò che riceve su una Frequenza su un'altra.
-* Un *beacon*, invece, trasmette solo e sempre la stessa cosa a intervalli regolari, spesso solo un nominativo. Lo scopo è l'indagine sulle condizioni di propagazione.
+Esiste tuttavia la possibilità di far funzionare una stazione senza presidio, come cosiddetta stazione automatica o fernbediente. Con questo si intende una stazione che opera senza sorveglianza. Si tratta solitamente di stazioni ripetitore o di beacon:
+* Una *stazione ripetitore* consente collegamenti radio tra radioamatori che non possono raggiungersi direttamente. La stazione ripetitore trasmette su una frequenza ciò che riceve su un'altra.
+* Un *beacon* trasmette invece solo e sempre lo stesso messaggio a intervalli regolari, spesso semplicemente un nominativo. Lo scopo è studiare le condizioni di propagazione.
 
-Nei prossimi due paragrafi approfondiremo le stazioni ripetitrici e i beacon. Per entrambi vale che si possono mettere in funzione solo con un'assegnazione di nominativo per una stazione che opera in modo automatico o telecomandato. La posizione è fissata nel certificato di assegnazione e la stazione radioamatoriale è legata a quella posizione.
+Nei prossimi due paragrafi approfondiremo le stazioni ripetitore e i beacon. Per entrambi vale che possono essere messi in funzione solo con un'assegnazione di nominativo per una stazione che opera automaticamente o in remoto. La posizione viene indicata nel certificato di assegnazione e la stazione radioamatoriale è vincolata a tale posizione.
 
 [question:VD501]
 [question:VD502]
-

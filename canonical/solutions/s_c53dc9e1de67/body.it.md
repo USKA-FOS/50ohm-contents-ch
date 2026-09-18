@@ -1,0 +1,7 @@
+L'aliasing descrive l'insorgere di ambiguità durante il campionamento di un segnale analogico con un convertitore A/D. La risposta corretta riguarda quindi il convertitore A/D. Il convertitore D/A genera un segnale analogico a gradini e necessita di un *filtro di ricostruzione* per filtrare la banda di frequenza desiderata dopo la conversione D/A.
+
+Per decidere se utilizzare un filtro passa-alto o passa-basso, consideriamo il teorema di campionamento, disponibile anche negli strumenti ausiliari:
+
+$f_\text{campionamento} > 2 \cdot f_{\mathrm{max}}$
+
+Esso afferma che la frequenza massima del segnale deve sempre essere inferiore alla frequenza di campionamento. Questo non può essere soddisfatto con un filtro passa-alto, poiché quest'ultimo lascia passare tutte le frequenze dalla sua frequenza di taglio $f_\mathrm{g}$ fino (almeno teoricamente) all'infinito. Un filtro passa-basso, invece, lascia passare tutte le frequenze da $\qty{0}{\hertz}$ fino alla sua frequenza di taglio $f_\mathrm{g}$. Pertanto, con un filtro passa-basso dimensionato correttamente, è possibile rispettare il teorema di campionamento. La frequenza di taglio deve essere notevolmente inferiore alla metà della frequenza di campionamento.

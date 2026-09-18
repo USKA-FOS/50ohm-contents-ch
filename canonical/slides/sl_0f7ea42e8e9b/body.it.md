@@ -1,20 +1,20 @@
-## Calcolo della Potenza
+## Calcolo della potenza
 
 Conosciamo già
 
 $P = U\cdot I = \dfrac{U^2}{R} = I^2\cdot R$
 
 <left>
-In funzione di U:
+Risolto per U:
 $U = \dfrac{P}{I} = \sqrt{P \cdot R}$
 </left>
 <right>
-In funzione di I:
+Risolto per I:
 $I = \dfrac{P}{U} = \sqrt{\dfrac{P}{R}}$
 </right>
 
 <note>
-* Tutte le formule si trovano nella *raccolta di formule*
+* Tutte le formule sono nella raccolta di formule
 </note>
 
 ---
@@ -36,27 +36,15 @@ $I = \dfrac{P}{U} = \sqrt{\dfrac{P}{R}}$
 ---
 [question:EB512]
 ---
-## Potenza con Tensione alternata
+## Potenza in tensione alternata
 
-* Con le tensioni alternate, è necessario calcolare con il valore *Efficace*
+* Con la tensione alternata si deve calcolare con il valore efficace
 
 ---
 [question:EB503]
 ---
 [question:EB513]
 <note>
-* Nessun calcolo di potenza, solo *Legge di Ohm*
-* La domanda però non rientrava in nessun altro posto nella classe E
+* Nessun calcolo della potenza, ma solo la legge di Ohm
+* Tuttavia, la domanda non trovava posto altrove nella classe E
 </note>
-
-
-
-
-
-
-
-
-
-
-
-

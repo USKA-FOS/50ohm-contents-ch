@@ -1,3 +1,3 @@
-In una bobina ideale, la tensione precede la corrente di $\qty{90}{\degree}$. In altre parole: la corrente segue la tensione di $\qty{90}{\degree}$.
+In una bobina ideale, la tensione è in anticipo di $\qty{90}{\degree}$ rispetto alla corrente. In altre parole: la corrente è in ritardo di $\qty{90}{\degree}$ rispetto alla tensione.
 
-Questo comportamento è dovuto all'autoinduzione della bobina. Le variazioni di corrente creano un campo magnetico che si oppone alla variazione di corrente.
+Questo comportamento è dovuto alla autoinduzione della bobina. Le variazioni della corrente generano un campo magnetico che si oppone alla variazione della corrente stessa.

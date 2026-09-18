@@ -1,26 +1,46 @@
-All'inizio di questo capitolo abbiamo trattato il dipolo come forma base di tutte le antenne. Il dipolo a semionda irradia onde radio perpendicolarmente alla direzione del filo. Altre forme di antenna possono irradiare le loro onde radio preferenzialmente in una o più direzioni a seconda della loro costruzione e meno in altre direzioni:
-* Un'antenna Groundplane irradia quasi uniformemente in tutte le direzioni del cielo, ma non verso l'alto o verso il basso.
-* Con un'antenna Yagi-Uda, le onde radio vengono concentrate in un fascio in avanti, come con una torcia, e ridotte in tutte le altre direzioni.
-
-I limiti imposti dal metodo di verifica per la protezione delle persone nei campi elettromagnetici devono essere rispettati da un impianto di trasmissione in ogni direzione. Se a una certa distanza dall'antenna i limiti vengono rispettati nella direzione in cui irradia più fortemente, allora i limiti saranno rispettati anche in tutte le altre direzioni alla stessa distanza. Pertanto, siamo particolarmente interessati alla direzione di irradiazione più forte. Questa è chiamata *direzione di irradiazione principale*.
+All’inizio di questo capitolo abbiamo trattato il dipolo come forma base di tutte le antenne. Il dipolo a semionda irradia onde radio perpendicolarmente alla direzione del filo. Altre tipologie di antenna possono irradiare le onde radio, a seconda della loro struttura, preferibilmente in una o più direzioni e meno in altre:
+* Un’antenna Groundplane irradia in modo quasi uniforme in tutte le direzioni orizzontali, ma non verso l’alto o verso il basso.
+* In un’antenna Yagi-Uda, le onde radio vengono concentrate come in una torcia elettrica in un fascio diretto in avanti e ridotte in tutte le altre direzioni.
 
 ---
 
-Quanto fortemente un'antenna irradia nella sua direzione di irradiazione principale è espresso dal *fattore di guadagno* rispetto al dipolo a semionda. Questo indica quanto meglio un'antenna irradia rispetto a un dipolo a semionda nella rispettiva direzione di irradiazione principale. Un fattore di guadagno di $\num{2}$ rispetto al dipolo a semionda significa, ad esempio, che un'antenna irradia due volte più forte nella direzione di irradiazione principale rispetto a un dipolo a semionda nella sua direzione di irradiazione principale.
+<law>
+I valori limite che un impianto trasmittente deve rispettare sono definiti dall’Ordinanza sulla protezione dalle radiazioni non ionizzanti [ORNI](https://www.fedlex.admin.ch/eli/cc/2000/38/it). L’*ORNI* è piuttosto estesa e riguarda anche i servizi di radiocomunicazione commerciali. Pertanto, qui di seguito è riportato un riassunto dei requisiti rilevanti per gli impianti radioamatoriali:
+
+*Valori limite per impianti radioamatoriali*
+
+Gli impianti radioamatoriali devono rispettare i *valori limite di immissione* dell’ORNI. A seconda della frequenza, questi valori variano tra 28 e 87 [V/m].
+Per calcolare le distanze da rispettare, nell’area riservata ai membri della USKA sono disponibili programmi o fogli Excel appositi:
+
+[Strumenti per il calcolo ORNI](https://uska.ch/emissions-berechnung/)
+
+Inoltre, *non è necessario rispettare alcun valore limite dell’impianto* a condizione che la durata di esercizio sia *inferiore a 800 ore all’anno*. Questo è praticamente sempre il caso delle applicazioni radioamatoriali. Se un impianto trasmette eccezionalmente di più, deve rispettare un valore limite dell’impianto in luoghi con utilizzo sensibile (OMEN). Tale valore è pari a 8,5 V/m per trasmettitori in onde lunghe e onde medie e a 3,0 V/m per tutte le altre bande di frequenza.
+[Fonte](https://www.bafu.admin.ch/it/amateurfunk-als-elektrosmog-quelle)
+
+Con il termine "luoghi con utilizzo sensibile" (OMEN) si intendono luoghi in cui le persone soggiornano regolarmente per periodi prolungati.
+</law>
+
+---
+
+I valori limite prescritti dalla procedura di valutazione per la protezione delle persone dai campi elettromagnetici devono essere rispettati da un impianto trasmittente in ogni direzione. Se a una certa distanza dall’antenna i valori limite vengono rispettati nella direzione di massima irradiazione, allora verranno rispettati anche alla stessa distanza in tutte le altre direzioni. Pertanto, ci interessa in particolare la direzione di massima irradiazione. Questa viene definita come *direzione principale di irradiazione*.
+
+---
+
+La potenza con cui un’antenna irradia nella sua direzione principale di irradiazione è espressa dal *fattore di guadagno* riferito al dipolo a semionda. Questo indica quanto un’antenna irradia meglio rispetto a un dipolo a semionda nella rispettiva direzione principale di irradiazione. Un fattore di guadagno di <span class="math inline">\num{2}</span> rispetto al dipolo a semionda significa, ad esempio, che un’antenna irradia il doppio rispetto a un dipolo a semionda nella sua direzione principale di irradiazione.
 
 <indepth>
-% TODO: Rendere specifico per l'edizione
-Al posto del fattore di guadagno delle antenne, viene spesso indicato il "guadagno in decibel ($\unit{\dB}$)". Il corso per la classe E tratta l'unità decibel.
+% TODO: Specifico per edizione
+Al posto del fattore di guadagno delle antenne, spesso viene indicato il "guadagno in decibel (<span class="math inline">\unit{\dB}</span>")". Il corso tratta l’unità di misura decibel nel capitolo [sec:dezibel_1].
 </indepth>
 
 ---
 
-Per indicare ora quanto irradia un'antenna specifica nella direzione di irradiazione principale quando si immette una determinata potenza di trasmissione, si moltiplica la potenza di trasmissione per il fattore di guadagno relativo al dipolo a semionda. Si ottiene così la *potenza irradiata efficace*, che viene solitamente abbreviata come ERP (dall'inglese "effective radiated power"). Ad esempio, se immettiamo una potenza di trasmissione di $\qty{5}{\watt}$ in un'antenna con un fattore di guadagno di $\num{2}$ rispetto al dipolo a semionda, si ottiene una potenza di irradiazione di $\qty{10}{\watt}$ ERP.
+Per indicare quanta potenza irradia un’antenna concreta nella sua direzione principale di irradiazione quando si imposta una certa potenza di trasmissione, si moltiplica la potenza di trasmissione per il fattore di guadagno riferito al dipolo a semionda. Si ottiene così la *potenza irradiata effettiva*, che viene solitamente abbreviata come ERP (dall’inglese *effective radiated power*). Ad esempio, se si inserisce una potenza di trasmissione di <span class="math inline">\qty{5}{\watt}</span> in un’antenna con un fattore di guadagno di <span class="math inline">\num{2}</span> rispetto al dipolo a semionda, si ottiene una potenza irradiata di <span class="math inline">\qty{10}{\watt}</span> ERP.
 
 <margin>
-Si può anche pensare alla potenza irradiata efficace (ERP) in questo modo: è la potenza che dovrebbe essere immessa in un dipolo a semionda affinché questo irradi con la stessa intensità nella sua direzione di irradiazione principale come l'antenna considerata.
+La potenza irradiata effettiva (ERP) può essere immaginata anche come segue: è la potenza che bisognerebbe inserire in un dipolo a semionda affinché questo irradia nella sua direzione principale di irradiazione con la stessa intensità dell’antenna considerata.
 </margin>
 
-Le antenne direzionali possono avere fattori di guadagno molto maggiori. Un'antenna Yagi-Uda a 9 elementi può facilmente raggiungere un fattore di guadagno di $\num{10}$ o più rispetto al dipolo a semionda. Se si immettono, ad esempio, $\qty{100}{\watt}$ in un'antenna del genere, la potenza di irradiazione è già di $\qty{1000}{\watt}$ ERP o più!
+Le antenne direttive possono avere fattori di guadagno molto più elevati. Un’antenna Yagi-Uda a 9 elementi, ad esempio, può facilmente raggiungere un fattore di guadagno di <span class="math inline">\num{10}</span> o più rispetto al dipolo a semionda. Se si inserisce, ad esempio, <span class="math inline">\qty{100}{\watt}</span> in una tale antenna, la potenza irradiata raggiunge già <span class="math inline">\qty{1000}{\watt}</span> ERP o più!
 
 [question:NG401]

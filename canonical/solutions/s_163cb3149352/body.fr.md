@@ -1,0 +1,1 @@
+Le circuit représenté est un *amplificateur en montage à émetteur commun*. L’entrée est connectée à la base et la sortie au collecteur. C’est pourquoi ce circuit est appelé montage à émetteur commun.

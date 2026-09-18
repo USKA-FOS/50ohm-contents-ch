@@ -1,21 +1,21 @@
-* Su molti apparecchi radio è presente un interruttore per selezionare il tipo di modulazione
-* Di solito è etichettato come "Mode" e permette, ad esempio, di scegliere tra CW, AM, FM e SSB
+* Molti ricetrasmettitori hanno un interruttore per selezionare il tipo di modulazione
+* Spesso è etichettato con "Mode" e permette di scegliere tra CW, AM, FM e BL
 
 ---
 [question:NE102]
 <note>
-* PSK31, FT8, RTTY e Olivia non sono tipi di modulazione, ma metodi di trasmissione digitale e verranno trattati più avanti nel corso.
+* PSK31, FT8, RTTY e Olivia non sono tipi di modulazione, ma procedure di trasmissione digitale che verranno trattate più avanti nel corso.
 </note>
 
 ---
-* Con SSB è importante notare di selezionare la banda laterale corretta (LSB o USB)
-* Nel radioamatore, con poche eccezioni, al di sotto dei $\qty{10}{\mega\hertz}$ si utilizza la banda laterale inferiore e a partire dai $\qty{10}{\mega\hertz}$ la banda laterale superiore
+* Con la BL occorre assicurarsi di selezionare la banda laterale corretta (LSB o USB)
+* Nel servizio di radioamatore, con poche eccezioni, al di sotto di $\qty{10}{\mega\hertz}$ si utilizza la banda laterale inferiore e al di sopra di $\qty{10}{\mega\hertz}$ la banda laterale superiore
 
 <note>
-* Raccomandazione nel piano di banda IARU.
-* Un'eccezione sono i metodi di trasmissione digitale, dove si usa USB anche al di sotto dei 10 MHz.
-* La classe N può sempre usare USB a causa delle bande consentite.
-* Conoscenza aggiuntiva: la radio marittima usa sempre USB.
+* Raccomandazione secondo il piano di banda IARU.
+* Un'eccezione sono le procedure di trasmissione digitale, dove al di sotto di 10 MHz si utilizza anche USB.
+* La classe N può utilizzare sempre USB grazie alle bande consentite.
+* Approfondimento: la radiocomunicazione marittima utilizza sempre USB.
 </note>
 
 ---
@@ -36,13 +36,14 @@
 ---
 ## Banda laterale errata
 
-* Se con SSB viene selezionata la banda laterale sbagliata, la voce è completamente incomprensibile
-* Inoltre, con SSB è importante impostare la frequenza di ricezione in modo molto preciso con la manopola VFO
+* Se con la BL viene scelta la banda laterale errata, la voce risulta completamente incomprensibile
+* Inoltre, con la BL è importante regolare con precisione la frequenza di ricezione tramite la manopola del VFO
 * Anche piccole deviazioni dalla frequenza corretta rendono la voce incomprensibile
 
 <note>
 * La causa risiede nella riflessione delle bande laterali: i toni bassi diventano alti e viceversa.
-* Con FM e AM, il portante può essere utilizzato per la demodulazione.
+* Con FM e AM si può utilizzare la portante per la demodulazione.
 </note>
+
 ---
 [question:NE212]

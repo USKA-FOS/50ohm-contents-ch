@@ -1,12 +1,12 @@
-Dalla raccolta di formule sappiamo:
+Dalla raccolta di formule sappiamo che:
 
-$ü = \frac{I_S}{I_P} = \frac{U_P}{U_S}$
+$r = \frac{I_S}{I_P} = \frac{U_P}{U_S}$
 
-Si cerca la corrente primaria $I_P$, quindi la formula viene riorganizzata:
+Poiché si cerca la corrente primaria $I_P$, la formula viene modificata:
 
 $I_P = \frac{U_S \cdot I_S}{U_P}$
 
-Inserimento dei valori dati:
+Inserendo i valori dati:
 
 $I_P = \frac{\qty{6}{\volt} \cdot \qty{1,15}{\ampere}}{\qty{230}{\volt}}$
 

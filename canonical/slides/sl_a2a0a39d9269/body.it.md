@@ -1,9 +1,9 @@
 ## Zona morta
 
 <left>
-* Più alta è la frequenza, maggiore è il raggio della zona morta
-* Soprattutto sulle bande più alte, si può avere l'errata supposizione di una frequenza libera
-* Più piatta è la radiazione, maggiore è il raggio della zona morta
+* Più alta è la *frequenza*, maggiore è il *raggio* della zona morta
+* In particolare nelle bande più alte si può erroneamente pensare che la frequenza sia libera
+* Più *piatto* è l'angolo di irradiazione, maggiore è il *raggio* della zona morta
 </left>
 <right>
 [picture:741:a_tote_zone:Zona morta]
@@ -13,13 +13,13 @@
 
 ## Influenza della frequenza
 
-[picture:995:a_tote_zone_1:Simulazione dell'estensione della zona morta con un angolo di radiazione di $\qty{45}{\degree}$ in funzione della frequenza, gennaio 2025]
+[picture:995:a_tote_zone_1:Simulazione dell'estensione della zona morta con un angolo di irradiazione di $\qty{45}{\degree}$ in funzione della *frequenza*, nel gennaio 2025]
 
 ---
 
-## Influenza dell'angolo di radiazione
+## Influenza dell'angolo di irradiazione
 
-[picture:994:a_tote_zone_2:Simulazione dell'estensione della zona morta in funzione dell'angolo di radiazione nella banda dei $\qty{40}{\meter}$, gennaio 2025]
+[picture:994:a_tote_zone_2:Simulazione dell'estensione della zona morta in funzione dell'angolo di irradiazione nella *banda* dei $\qty{40}{\meter}$, nel gennaio 2025]
 
 ---
 

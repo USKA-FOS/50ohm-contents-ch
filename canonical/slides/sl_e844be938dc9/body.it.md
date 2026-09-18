@@ -1,12 +1,12 @@
 I materiali possono essere suddivisi in tre gruppi:
 
 1. Conduttori
-2. Non conduttori
+2. Isolanti
 3. Semiconduttori
 
 <note>
-* Conduttori e non conduttori verranno trattati nelle diapositive successive
-* I semiconduttori verranno trattati più avanti nella sezione dopo le resistenze
+* Conduttori e isolanti verranno trattati nelle prossime slide
+* I semiconduttori saranno affrontati più avanti nella sezione dedicata alle resistenze
 </note>
 
 ---
@@ -14,16 +14,18 @@ I materiali possono essere suddivisi in tre gruppi:
 ## Conduttori
 
 * Conducono corrente elettrica
-* Sono per lo più fatti di metallo
-* Alcuni possono condurre corrente meglio di altri
+* Sono generalmente composti da metalli
+* Alcuni conducono meglio di altri
 
 <note>
 * Anche l'acqua salata può condurre corrente
+* La conduttività dipende dalla struttura atomica e dalla quantità di elettroni liberi
+* La *resistenza* è l'inverso della conduttività: materiali con buona conduttività hanno una bassa resistenza, quelli con scarsa conduttività hanno un'alta resistenza
 </note>
 
 --- style="font-size: 0.7em;"
 
-### Conduttori, ordinati dal migliore al meno buono conduttore
+### Conduttori, ordinati dal migliore al peggiore
 
 | c:Ordine | X:Materiale |
 | 1 | *Argento* |
@@ -36,8 +38,8 @@ I materiali possono essere suddivisi in tre gruppi:
 [table:leiter:Alcuni materiali conduttori]
 
 <note>
-* Lo stagno viene utilizzato per la saldatura perché ha un basso punto di fusione
-* Ricordare l'ordine Argento, Rame, Stagno per le domande d'esame
+* Lo stagno viene utilizzato per la saldatura grazie al suo basso punto di fusione
+* Per le domande d'esame, ricordare l'ordine: argento, rame, stagno
 </note>
 
 ---
@@ -50,14 +52,14 @@ I materiali possono essere suddivisi in tre gruppi:
 
 ---
 
-## Non conduttori
+## Isolanti
 
 * Non conducono corrente elettrica
-* Chiamati anche *isolanti*
+* Detto anche *isolatori*
 
 --- style="font-size: 0.7em;"
 
-### Isolanti
+### Isolatori
 
 | l: Denominazione | l: Abbreviazione |
 | *Porcellana* | |

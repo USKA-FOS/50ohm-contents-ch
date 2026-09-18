@@ -1,48 +1,48 @@
 ## Ricezione
 
 * La frequenza viene impostata sull'apparecchio radio tramite manopola o tasti
-* È possibile ascoltare solo stazioni sulla frequenza impostata
-* "Scorrere" lentamente la banda per ascoltare altre stazioni
+* È possibile ascoltare solo le stazioni sulla frequenza impostata
+* Ruotare lentamente "sul canale" per ascoltare altre stazioni
 
 ---
-## Spettro di ampiezza e diagramma waterfall
+## Spettro di ampiezza e diagramma a cascata
 
 <left>
-[photo:95:n_wasserfall_starke_station:Display di un ICOM IC-9700 con indicazione della frequenza, spettro di ampiezza e diagramma waterfall. Viene ricevuto un segnale forte.]
+[photo:95:n_wasserfall_starke_station:Display di un ICOM IC-9700 con visualizzazione della frequenza, spettro di ampiezza e diagramma a cascata. Viene ricevuto un segnale forte.]
 </left>
 <right>
 * Apparecchi radio moderni
 * Visualizzazione di altre stazioni trasmittenti sopra e sotto la frequenza impostata
 </right>
 <note>
-Spiegazione del display
+Spiegazione della visualizzazione
 * Frequenza in alto
 * Banda dei $\qty{2}{\meter}$
-* segnale ricevuto forte
+* Segnale ricevuto forte
 </note>
 
 ---
 ### Spettro di ampiezza
 
 <left>
-[photo:135:n_wasserfall_amplitudenspektrum:Display di un ICOM IC-9700. Viene evidenziato lo spettro di ampiezza]
+[photo:135:n_wasserfall_amplitudenspektrum:Display di un ICOM IC-9700. Evidenziato lo spettro di ampiezza]
 </left>
 <right>
-* L'ampiezza è tanto maggiore quanto più forte è il segnale
+* Maggiore è l'ampiezza, più forte è il segnale
 * Altre stazioni sono visibili nello spettro di ampiezza
 </right>
  
 ---
-### Diagramma waterfall
+### Diagramma a cascata
  
 <left>
-[photo:136:n_wasserfall_wasserfall:Display di un ICOM IC-9700. Viene evidenziato il waterfall]
+[photo:136:n_wasserfall_wasserfall:Display di un ICOM IC-9700. Evidenziato il diagramma a cascata]
 </left>
 <right>
 * Andamento temporale sull'asse verticale
-* La tonalità di colore o la luminosità indicano la forza del segnale
+* Tonalità o luminosità indica la forza del segnale
 * Scorre dall'alto verso il basso
-* Inizio e fine di una trasmissione riconoscibili
+* Riconoscibile l'inizio e la fine di un'emissione
 </right>
 
 ---
@@ -54,8 +54,8 @@ Spiegazione del display
 ---
 ## Differenza tra oscillogramma e spettro di ampiezza
 
-* Lo spettro di ampiezza mostra le ampiezze per diverse frequenze sull'asse orizzontale
-* L'oscillogramma mostra le ampiezze in diversi momenti sull'asse orizzontale
+* Lo spettro di ampiezza mostra orizzontalmente le ampiezze per diverse frequenze
+* L'oscillogramma mostra orizzontalmente le ampiezze in diversi istanti di tempo
 
 ---
 [question:NI401]

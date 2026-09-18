@@ -1,65 +1,65 @@
-## Indagine sui disturbi delle apparecchiature
+## Individuazione di disturbi nei dispositivi
 
-* Scollegare sistematicamente i collegamenti
-* Verificare se il disturbo è ancora presente
-* Causa: Ingressi o irraggiamento diretto
+* Verifica sistematica dei collegamenti
+* Controllo della persistenza del disturbo
+* Cause: correnti entranti o irradiazione diretta
 
 ---
 
-### Filtri di rete contro gli ingressi
+### Filtro di rete contro le correnti entranti
 
 <left>
-[picture:164:a_stoerungen_elektronischer_geraete_tiefpassfilter:filtro passa-basso]
+[immagine:164:a_stoerungen_elektronischer_geraete_tiefpassfilter:Filtro passa-basso]
 </left>
 <right>
-* Filtri di rete come filtri passa-basso
-* Riducono i disturbi sulla linea di alimentazione
-* Disponibili secondo le normative VDE
+* Filtro di rete come filtro passa-basso
+* Riduce i disturbi sulla linea di alimentazione
+* Disponibile secondo le norme VDE
 </right>
 
 ---
 
-[question:AJ116]
+[domanda:AJ116]
 
 ---
 
-[question:AJ117]
+[domanda:AJ117]
 
 ---
 
-[question:AJ118]
+[domanda:AJ118]
 
 ---
 
 ### Schermatura di ricevitori autocostruiti
 
-* Disturbi di ricezione dovuti a scarsa schermatura
-* Installare il ricevitore in un involucro metallico messo a terra
+* Disturbi di ricezione dovuti a schermatura insufficiente
+* Installare il ricevitore in un contenitore metallico collegato a massa
 * Particolarmente importante per la tecnologia SDR
 
 ---
 
-[question:AJ105]
+[domanda:AJ105]
 
 ---
 
-[question:AJ103]
+[domanda:AJ103]
 
 ---
 
-### Potenziale di disturbo di diverse modalità operative
+### Potenziale di disturbo delle diverse modalità operative
 
-* CW e SSB generano disturbi a causa di rapidi cambiamenti di ampiezza
-* L'alta frequenza viene raddrizzata sulle giunzioni base-emettitore
-* La bassa frequenza demodulata è udibile negli altoparlanti
-
----
-
-[question:AJ107]
+* CW e SSB generano disturbi a causa di rapide variazioni di ampiezza
+* L’alta frequenza viene raddrizzata ai giunti base-emettitore
+* La BF demodulata è udibile negli altoparlanti
 
 ---
 
-[question:AJ106]
+[domanda:AJ107]
+
+---
+
+[domanda:AJ106]
 
 ---
 
@@ -67,102 +67,102 @@
 
 * Il filtro passa-alto protegge da segnali forti
 * Efficace solo con antenne passive
-* I preamplificatori non selettivi sono particolarmente suscettibili ai disturbi
-* Filtro necessario prima dell'amplificatore per antenne attive
-* L'attenuazione di inserzione dovrebbe essere $\le\qtyrange{2}{3}{\dB}$
+* I preamplificatori non selettivi sono particolarmente soggetti a disturbi
+* Necessario un filtro prima dell’amplificatore in caso di antenne attive
+* L’attenuazione di inserzione dovrebbe essere $\le\qtyrange{2}{3}{\dB}$
 
 ---
 
-[question:AJ113]
+[domanda:AJ113]
 
 ---
 
-[question:AJ114]
+[domanda:AJ114]
 
 ---
 
-[question:AJ108]
+[domanda:AJ108]
 
 ---
 
-### Filtro passa-basso per trasmettitori a onde corte
+### Filtro passa-basso per trasmettitori in onde corte
 
 <left>
-[photo:201:a_stoerungen_elektrischer_geraete_tiefpassfilter:filtro passa-basso per onde corte con risposta in frequenza]
+[foto:201:a_stoerungen_elektrischer_geraete_tiefpassfilter:Filtro passa-basso per onde corte con risposta in frequenza]
 </left>
 <right>
 * Frequenza di taglio $\qtyrange{30}{40}{\mega\hertz}$
-* Accordatore d'antenna in configurazione passa-basso come alternativa
-* Riduzione delle emissioni armoniche superiori
+* Il tuner dell’antenna in configurazione passa-basso come alternativa
+* Riduzione delle emissioni di armoniche
 </right>
 
 ---
 
-[question:AJ112]
+[domanda:AJ112]
 
 ---
 
-[question:AJ104]
+[domanda:AJ104]
 
 ---
 
-### Disturbi da forti segnali di radioamatore
+### Disturbi causati da forti segnali radioamatoriali
 
-* Disturbi di ricezione su DAB, TV e VHF
-* Causa: sovraeccitazione dell'ingresso del ricevitore
-* Riduzione della sensibilità o guasti completi
-
----
-
-[question:AJ110]
+* Disturbi di ricezione su DAB, TV e FM
+* Causa: sovraeccitazione dell’ingresso del ricevitore
+* Riduzione della sensibilità o interruzioni complete
 
 ---
 
-[question:AJ111]
+[domanda:AJ110]
 
 ---
 
-[question:AJ109]
+[domanda:AJ111]
 
 ---
 
-### Minimizzazione dei disturbi da potenza di trasmissione
-
-* Funzionamento con la potenza minima richiesta
-* Evitare disturbi inutili
+[domanda:AJ109]
 
 ---
 
-[question:AJ101]
+### Minimizzazione dei disturbi mediante la potenza di trasmissione
+
+* Utilizzo della potenza minima necessaria
+* Evitare disturbi non necessari
 
 ---
 
-### Condensatori di disaccoppiamento contro disturbi HF
+[domanda:AJ101]
 
-* Scarico dell'alta frequenza verso massa
-* Condensatori ceramici più adatti
-* Condensatori elettrolitici e in plastica inadatti
+---
+
+### Condensatori di blocco contro i disturbi ad alta frequenza
+
+* Smaltimento dell’alta frequenza verso massa
+* I condensatori in ceramica sono i più adatti
+* Condensatori elettrolitici e in plastica non sono idonei
 * Possibile combinazione con condensatori al tantalio
-* Necessaria messa a terra con bassa impedenza
+* Necessaria una messa a terra con bassa impedenza
 
 ---
 
-[question:AJ119]
+[domanda:AJ119]
 
 ---
 
-[question:AJ102]
+[domanda:AJ102]
 
 ---
 
-### Bobine di alta frequenza negli alimentatori
+### Induttanze ad alta frequenza nell’alimentazione elettrica
 
-* Bloccano gli ingressi ad alta frequenza
-* Impediscono i ritorni di alta frequenza nell'alimentatore
+* Bloccano le correnti entranti ad alta frequenza
+* Impediscono il ritorno dell’alta frequenza nell’alimentazione
 * Le capacità parassite possono generare risonanze secondarie
-* Le risonanze secondarie influenzano negativamente gli stadi HF
-* Gli amplificatori possono ricevere retroazioni indesiderate
+* Le risonanze secondarie influenzano negativamente gli stadi ad alta frequenza
+* Gli amplificatori possono subire reazioni indesiderate
 
 ---
 
-[question:AJ214]
+[domanda:AJ214]

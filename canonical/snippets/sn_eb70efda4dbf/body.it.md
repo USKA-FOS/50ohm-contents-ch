@@ -1,1 +1,1 @@
-Corso di aggiornamento E ad A
+Corso di approfondimento E dopo A

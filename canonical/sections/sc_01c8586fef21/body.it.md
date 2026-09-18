@@ -1,4 +1,4 @@
-Nella modulazione di frequenza (FM) un segnale di modulazione viene sovrapposto alla portante modificandone la frequenza. L'ampiezza della portante, invece, non viene modificata e rimane idealmente costante. 
+Nella **modulazione di frequenza (FM)** un segnale di modulazione viene impresso sul portante modificando la sua frequenza. L’ampiezza del portante, invece, non viene modificata e rimane idealmente costante.
 
 <margin>
 [picture:711:n_fm_wasserfall:Segnale di una trasmissione radioamatoriale FM (voce)]
@@ -12,28 +12,27 @@ Nella modulazione di frequenza (FM) un segnale di modulazione viene sovrapposto 
 [question:NE302]
 [question:NE303]
 
-Più forte si parla nel microfono, maggiore è quindi l'ampiezza del segnale di modulazione, maggiore è anche la variazione della frequenza portante verso l'alto e verso il basso. Di conseguenza aumenta anche la larghezza di banda occupata dalla trasmissione.
+Più forte è il volume della voce nel microfono, cioè maggiore è l’ampiezza del segnale di modulazione, maggiore sarà anche la variazione della frequenza portante verso l’alto e verso il basso. Di conseguenza, aumenta anche la larghezza di banda occupata dall’emissione.
 
 ---
 
-Il valore massimo della variazione della frequenza portante è chiamato *deviazione di frequenza portante* o semplicemente *deviazione*. In alcuni apparecchi radio può essere impostato, in altri invece no. Spesso è possibile anche passare da due valori fissi: FM "normale" e FM a banda stretta (in inglese Narrow-FM, abbreviato NFM), che occupa circa la metà della larghezza di banda.
+Il valore massimo della variazione della frequenza portante viene definito *deviazione di frequenza portante* o semplicemente *deviazione*. In alcuni trasmettitori è possibile regolarla, mentre in altri no. Spesso è possibile passare tra due valori predefiniti: FM "normale" e FM a banda stretta (in inglese *Narrow-FM*, abbreviato in **NFM**), che occupa circa la metà della larghezza di banda.
 
 <indepth>
-La *deviazione di frequenza portante* è indicata in Hz, così come la larghezza di banda, ma non deve essere confusa con essa. La deviazione di frequenza portante indica la variazione massima della frequenza portante. La larghezza di banda è approssimativamente il doppio della somma della deviazione e della larghezza di banda del segnale NF. Esempio: un segnale NF con una larghezza di banda di $\qty{3}{\kilo\hertz}$ viene modulato con una deviazione di $\qty{3}{\kilo\hertz}$. Ciò produce una larghezza di banda di:
-$2\cdot(\qty{3}{\kilo\hertz}\nobreak+\nobreak\qty{3}{\kilo\hertz})=\qty{12}{\kilo\hertz}$
+La *deviazione di frequenza portante* viene espressa, come la larghezza di banda, in Hz, ma non va confusa con essa. La deviazione indica la variazione massima della frequenza portante. La larghezza di banda è approssimativamente pari al doppio della somma tra la deviazione e la larghezza di banda del segnale in BF. Esempio: un segnale in BF con una larghezza di banda di $\qty{3}{\kilo\hertz}$ modulato con una deviazione di $\qty{3}{\kilo\hertz}$ genera una larghezza di banda di:
+$2 \cdot (\qty{3}{\kilo\hertz} + \qty{3}{\kilo\hertz}) = \qty{12}{\kilo\hertz}$
 </indepth>
 
-In questo contesto, è necessario considerare anche il piano di banda IARU, poiché fornisce indicazioni sulla larghezza di banda massima raccomandata per una trasmissione in diverse bande di frequenza. Ad esempio, nella banda dei $\qty{2}{\meter}$ per la telefonia FM, la larghezza di banda massima da occupare dovrebbe essere di $\qty{12}{\kilo\hertz}$. Questo corrisponde a NFM. La domanda seguente può essere risolta facilmente con queste conoscenze e il piano di banda IARU, che è disponibile come ausilio durante l'esame.
+A questo proposito, è importante considerare anche il piano delle bande dell’IARU, che fornisce indicazioni sulla larghezza di banda massima consigliata per un’emissione nelle diverse bande di frequenza. Ad esempio, nella banda dei $\qty{2}{\metro}$ per la telefonia FM, la larghezza di banda massima consigliata è di $\qty{12}{\kilo\hertz}$, che corrisponde alla NFM. La domanda seguente può essere risolta utilizzando queste informazioni e il piano delle bande dell’IARU, che è disponibile come strumento durante l’esame.
 
 [question:BC216]
 
-Se la deviazione non può essere impostata o non può essere impostata sufficientemente bassa, ciò può portare nella pratica a che una trasmissione occupi più larghezza di banda di quanto previsto per la banda di frequenza. Molti vecchi apparecchi portatili e trasmettitori-ricevitori mobili, in particolare, hanno una deviazione fissa che porta all'occupazione di una larghezza di banda fino a $\qty{25}{\kilo\hertz}$.
+Se la deviazione non può essere regolata o non lo è in modo sufficiente, in pratica può accadere che un’emissione occupi una larghezza di banda maggiore di quella prevista per la banda di frequenza. Molti ricetrasmettitori portatili e mobili più vecchi, ad esempio, hanno una deviazione fissa che può arrivare a occupare fino a $\qty{25}{\kilo\hertz}$ di larghezza di banda.
 
-In tali situazioni, ci si può aiutare parlando più piano nel microfono. In questo modo, l'ampiezza del segnale di modulazione e quindi anche la variazione della frequenza portante non saranno così grandi e di conseguenza la trasmissione occuperà meno larghezza di banda.
+In questi casi, si può parlare più piano nel microfono. In questo modo, l’ampiezza del segnale in BF e, di conseguenza, la variazione della frequenza portante non saranno così elevate, riducendo la larghezza di banda occupata dall’emissione.
 
 [question:NE306]
 
-Dato che l'ampiezza della portante non viene modificata, anche la potenza di trasmissione non cambia a causa della modulazione. Finché si preme il tasto PTT, la potenza di trasmissione è massima, indipendentemente dal fatto che si parli o meno, piano o forte nel microfono. Questo ha il vantaggio che i disturbi non causano fluttuazioni del volume del segnale vocale.
+Poiché l’ampiezza del portante non viene modificata, anche la potenza di trasmissione non cambia a causa della modulazione. Finché si tiene premuto il tasto PTT, la potenza di trasmissione è al massimo, indipendentemente dal fatto che si parli piano, forte o addirittura non si parli affatto nel microfono. Questo rappresenta un vantaggio, poiché eventuali interferenze non causano fluttuazioni del volume del segnale vocale.
 
 [question:NE304]
-

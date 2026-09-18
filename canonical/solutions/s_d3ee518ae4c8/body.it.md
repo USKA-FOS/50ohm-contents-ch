@@ -1,1 +1,1 @@
-Una cella solare converte l'energia radiante della luce solare direttamente in energia elettrica. Questo processo è chiamato effetto fotovoltaico.
+Una cella solare converte direttamente l’energia radiante della luce solare in energia elettrica. Questo processo è noto come effetto fotovoltaico.

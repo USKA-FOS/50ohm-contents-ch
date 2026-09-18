@@ -1,1 +1,1 @@
-Corso classe E (con N)
+Corso Classe E (con N)

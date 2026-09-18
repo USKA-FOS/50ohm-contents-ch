@@ -1,11 +1,22 @@
-I riflettori e i direttori non influenzano solo la direttività, ma anche l'impedenza di alimentazione di un'antenna Yagi-Uda. Ciò è dovuto al fatto che una parte dell'onda emessa dall'irradiatore viene riflessa nuovamente nell'irradiatore. A seconda delle diverse distanze degli elementi, si verificano cambiamenti nell'impedenza di alimentazione.
+Il riflettore e i direttori non influenzano solo la [direttività](#Richtwirkung) di un'antenna Yagi-Uda, ma anche la sua [impedenza di alimentazione](#Speiseleitung). Il radiatore induce correnti negli elementi parassiti. I loro campi elettromagnetici, a loro volta, agiscono sul radiatore stesso. Questo accoppiamento reciproco dipende, tra l'altro, dalle distanze e dalle lunghezze dei singoli elementi e modifica di conseguenza anche l'impedenza di alimentazione dell'antenna.
 
 [question:AG212]
 
-Quanto più lunga viene realizzata un'antenna Yagi-Uda, tanto maggiore è il suo guadagno. Con un guadagno crescente, tuttavia, l'angolo di apertura deve diminuire, poiché l'antenna non può generare energia "dal nulla" (principio di conservazione dell'energia).
+
+Con l'aumentare del numero di direttori e della lunghezza del boom, il [guadagno](#Gewinn) di un'antenna Yagi-Uda può essere aumentato. La potenza irradiata viene così sempre più concentrata nella direzione principale di irradiazione. Poiché l'antenna non genera energia aggiuntiva, un maggiore guadagno nella direzione principale comporta un angolo di apertura più stretto.
+
 
 [question:AG222]
 
-Una forma costruttiva speciale dell'antenna Yagi-Uda è la Yagi a croce, in cui due antenne vengono ruotate di $\qty{90}{\degree}$ l'una rispetto all'altra attorno all'asse di irradiazione. Un'antenna è quindi, ad esempio, polarizzata orizzontalmente e l'altra verticalmente. Senza ulteriori misure, nella situazione data la connessione diretta delle antenne produrrebbe una polarizzazione diagonale (per la quale si potrebbe anche usare una singola antenna). Tuttavia, se si alimenta un'antenna Yagi-Uda con un segnale sfasato di $\qty{90}{\degree}$ o, in alternativa, si sposta un'antenna Yagi-Uda in avanti o indietro di un quarto di lunghezza d'onda, si può ottenere in questo modo una polarizzazione circolare.
+
+---
+
+
+Una particolare variante costruttiva dell'antenna Yagi-Uda è la *antenna a croce* (Kreuzyagi). In questo caso, due antenne Yagi-Uda vengono ruotate di $\qty{90}{\degree}$ l'una rispetto all'altra intorno all'asse di irradiazione. Ad esempio, una delle due antenne può essere polarizzata orizzontalmente e l'altra verticalmente. Se entrambe le antenne vengono alimentate con segnali di uguale ampiezza e in fase, le due componenti di campo si sovrappongono generando un'[onda](#Welle) polarizzata linearmente, il cui piano di polarizzazione si trova tra le due antenne. Se invece le due antenne Yagi-Uda vengono alimentate con segnali di uguale ampiezza ma sfasati di $\qty{90}{\degree}$, si ottiene un'onda a [polarizzazione](#Polarisation) circolare. Tale sfasamento può essere generato, ad esempio, da una linea di alimentazione opportunamente dimensionata. In alternativa, le due antenne possono essere disposte lungo l'asse di irradiazione con uno sfasamento di un quarto di lunghezza d'onda. La diversa distanza percorsa dalle onde irradiate genera anch'essa uno sfasamento di $\qty{90}{\degree}$.
+
+
+<margin>
+[picture:1103:a_kreuzyagi:Antenna a croce con polarizzazione circolare]
+</margin>
 
 [question:AG126]

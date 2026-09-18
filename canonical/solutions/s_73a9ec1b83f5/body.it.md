@@ -1,0 +1,3 @@
+Le resistenze $R_1$ e $R_2$ formano un partitore di tensione per la *regolazione della tensione di polarizzazione della base*. In questo modo viene generata sulla base una tensione continua fissa, che definisce il punto di funzionamento del transistor.
+
+I condensatori all'ingresso e all'uscita bloccano la tensione continua e lasciano passare solo la tensione alternata, in modo che sia il partitore a determinare la tensione di polarizzazione della base.

@@ -1,44 +1,49 @@
-## Dipoli a Trap
+## Dipolo con trappole
 
 <left>
-[picture:234:a_traps_allgemein:Antenna dipolo bi-banda con trap]
-Trap come circuito oscillante parallelo di condensatore e bobina
+[picture:234:a_traps_allgemein:Zweiband-Dipolantenne mit Traps]
+Trappola come circuito oscillante parallelo costituito da condensatore e bobina
 </left>
 <right>
-* Le antenne multibanda sono costruite in modo da essere risonanti su più bande di frequenza.
-* Un trap viene inserito in un dipolo per aprire una banda di frequenza aggiuntiva.
+* Le antenne multibanda sono progettate per essere in risonanza su più bande di frequenza.
+* Una trappola viene inserita in un dipolo per consentire l’accesso a una banda di frequenza aggiuntiva.
 </right>
 
 ---
 <left>
-[picture:234:a_traps_allgemein:Antenna dipolo bi-banda con trap]
+[picture:234:a_traps_allgemein:Zweiband-Dipolantenne mit Traps]
 </left>
 <right>
-* Alla sua risonanza, il trap agisce come un circuito di blocco che impedisce il flusso di corrente e limita elettricamente il dipolo.
-* Se eccitato con una frequenza più bassa, invece, l'intero dipolo oscilla.
+* Alla sua frequenza di risonanza, la trappola funziona come circuito trappola, bloccando il flusso di corrente e limitando elettricamente il dipolo.
+* Se eccitata con una frequenza inferiore, oscilla invece l’intero dipolo.
 </right>
+
+---
+## Prova il dipolo con trappole
+
+[include:applet_traps]
 
 ---
 [question:AG109]
 ---
 [question:AG110]
 ---
-## Influenza delle alte frequenze
+## Influenza delle frequenze elevate
 
-* Le frequenze al di sopra della risonanza del trap possono passare attraverso il circuito oscillante.
-* Il condensatore, che agisce prevalentemente, accorcia leggermente l'antenna – la bobina gioca qui un ruolo secondario.
+* Le frequenze superiori alla risonanza della trappola possono attraversare il circuito oscillante.
+* Il condensatore, che in questo caso prevale, accorcia leggermente l’antenna: la bobina ha un ruolo secondario.
 
 ---
 [question:AG113]
 ---
-## Effetto di blocco in caso di risonanza
+## Effetto di blocco in condizioni di risonanza
 
 <left>
-[picture:235:a_traps_40m:Antenna dipolo bi-banda con trap per la banda dei 40m]
+[picture:235:a_traps_40m:Zweiband-Dipolantenne mit Trap für das 40m-Band]
 </left>
 <right>
-* Se un dipolo a trap viene utilizzato alla frequenza di risonanza di uno dei trap, questo agisce come un circuito di blocco.
-* Di conseguenza, quasi nessuna corrente scorre e il dipolo si comporta come se terminasse in quel punto.
+* Se un dipolo con trappole viene utilizzato alla frequenza di risonanza di una delle trappole, questa funziona come circuito trappola.
+* Di conseguenza, la corrente non fluisce quasi per nulla e il dipolo si comporta come se terminasse in quel punto.
 </right>
 
 ---
@@ -46,27 +51,27 @@ Trap come circuito oscillante parallelo di condensatore e bobina
 ---
 [question:AG116]
 ---
-## Allungamento elettrico a basse frequenze
+## Allungamento elettrico alle basse frequenze
 
 <left>
-[picture:235:a_traps_40m:Antenna dipolo bi-banda con trap per la banda dei 40m]
+[picture:235:a_traps_40m:Zweiband-Dipolantenne mit Trap für das 40m-Band]
 </left>
 <right>
-* A frequenze inferiori alla risonanza, scorre poca corrente attraverso il condensatore.
-* L'effetto della bobina predomina e porta a un allungamento elettrico dell'antenna.
+* Alle frequenze inferiori alla risonanza, solo una piccola corrente fluisce attraverso il condensatore.
+* L’effetto della bobina prevale e determina un allungamento elettrico dell’antenna.
 </right>
 
 ---
 [question:AG111]
 ---
-## Trap multipli per risonanze estese
+## Più trappole per risonanze estese
 
 <left>
-[picture:237:a_traps_mehrband:Antenna dipolo tri-banda con trap]
+[picture:237:a_traps_mehrband:Dreiband-Dipolantenne mit Traps]
 </left>
 <right>
-* Installando più trap, il circuito oscillante interno viene sintonizzato sulla frequenza più alta e quello più esterno su una frequenza più bassa.
-* In questo modo è possibile realizzare più risonanze nello stesso dipolo.
+* Inserendo più trappole, il circuito oscillante interno viene sintonizzato sulla frequenza più alta e quello successivo su una frequenza più bassa.
+* In questo modo è possibile ottenere più risonanze nello stesso dipolo.
 </right>
 
 ---

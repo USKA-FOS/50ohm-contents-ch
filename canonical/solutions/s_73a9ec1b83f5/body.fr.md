@@ -1,0 +1,3 @@
+Les résistances $R_1$ et $R_2$ forment un diviseur de tension pour *régler la polarisation de la base*. Cela permet de générer une tension continue fixe à la base, qui détermine le point de fonctionnement du transistor.
+
+Les condensateurs à l’entrée et à la sortie bloquent la tension continue et ne laissent passer que la tension alternative, de sorte que seul le diviseur de tension détermine la polarisation de la base.

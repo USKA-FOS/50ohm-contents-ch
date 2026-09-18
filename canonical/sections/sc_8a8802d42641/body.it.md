@@ -1,31 +1,31 @@
-La frequenza sull'apparato radio viene impostata con una manopola o tramite tasti. Dall'apparecchio radio si possono sentire solo le stazioni che trasmettono sulla frequenza impostata. Le stazioni che trasmettono su frequenze più alte o più basse non sono udibili. Se si vuole scoprire se una stazione sta trasmettendo da qualche parte, bisogna "girare lentamente la banda" e ascoltare attentamente.
+La frequenza sull'<i>apparecchio radio</i> viene impostata tramite una manopola o dei tasti. Dal ricevitore si sentono solo le stazioni che trasmettono sulla frequenza impostata. Le stazioni che trasmettono su frequenze più alte o più basse non sono udibili. Se si vuole scoprire se una stazione sta trasmettendo, occorre "scorrere lentamente la <i>banda</i>" e ascoltare con attenzione.
 
-Oltre all'indicazione della frequenza, le radio moderne offrono anche la visualizzazione dello "spettro di ampiezza" [index:Amplitudenspektrum] e del "diagramma a cascata" [index:Wasserfalldiagramm]. Questi permettono di vedere a colpo d'occhio se altre stazioni stanno trasmettendo sopra o sotto la frequenza impostata e quanto sono forti. Entrambe le visualizzazioni rappresentano un intervallo di frequenza sull'asse orizzontale. Nelle figure, questo è un sottointervallo della banda dei $\qty{2}{\meter}$. Al centro di questo asse si trova la frequenza impostata, sulla quale si sta attualmente ricevendo un forte segnale.
+I moderni apparecchi radio, oltre alla visualizzazione della frequenza, offrono anche la rappresentazione dello <i>spettro di ampiezza</i> [index:Amplitudenspektrum] e del <i>waterfall diagram</i> [index:Wasserfalldiagramm]. In questo modo è possibile riconoscere a colpo d'occhio se sopra o sotto la frequenza impostata ci sono altre stazioni che trasmettono e quanto sono forti. Entrambe le visualizzazioni rappresentano su un asse orizzontale una <i>banda di frequenza</i>. Nelle immagini si tratta di una parte della <i>banda</i> dei $\qty{2}{\meter}$. Al centro di questo asse si trova la frequenza impostata, su cui in questo momento è visibile un forte <i>segnale ricevuto</i>.
 
 <margin>
-[photo:95:n_wasserfall_starke_station:Display di un ICOM IC-9700 con indicazione di frequenza, spettro di ampiezza e diagramma a cascata. Si sta ricevendo un segnale forte.]
+[photo:95:n_wasserfall_starke_station:Display di un ICOM IC-9700 con visualizzazione della frequenza, spettro di ampiezza e waterfall diagram. Una stazione forte viene ricevuta.]
 </margin>
 
 ---
 
-Nello *spettro di ampiezza* (figura [ref:n_wasserfall_amplitudenspektrum]), maggiore è l'ampiezza visualizzata sopra l'asse, più forte è il segnale. Se ci sono stazioni attive, si possono riconoscere immediatamente nello spettro di ampiezza.
+Nello <i>spettro di ampiezza</i> (Figura [ref:n_wasserfall_amplitudenspektrum]) l'ampiezza mostrata sopra l'asse è tanto più alta quanto più forte è il segnale. Se ci sono stazioni attive, possono essere immediatamente riconosciute nello spettro di ampiezza.
 
 <margin>
-[photo:135:n_wasserfall_amplitudenspektrum:Display di un ICOM IC-9700. Evidenziato lo spettro di ampiezza.]
+[photo:135:n_wasserfall_amplitudenspektrum:Display di un ICOM IC-9700. Evidenziato lo spettro di ampiezza]
 </margin>
 
 ---
 
-Il *diagramma a cascata* (figura [ref:n_wasserfall_wasserfall]), invece, mostra sull'asse verticale l'andamento temporale delle ampiezze del segnale come tonalità di colore e/o luminosità. Poiché questa rappresentazione scorre lentamente dall'alto verso il basso, come una cascata, si può vedere bene quando una trasmissione inizia e quando finisce. Più intenso e luminoso è il colore della cascata, più forte è il segnale.
+Il <i>waterfall diagram</i> (Figura [ref:n_wasserfall_wasserfall]) mostra invece sull'asse verticale l'andamento temporale delle ampiezze del segnale come tono di colore e/o luminosità. Poiché questa visualizzazione – come una cascata – scorre lentamente dall'alto verso il basso, è possibile riconoscere bene quando una <i>Aussendung</i> inizia e quando termina. Più intenso e luminoso è il waterfall, più forte è il segnale.
 
 <margin>
-[photo:136:n_wasserfall_wasserfall:Display di un ICOM IC-9700. Evidenziato il diagramma a cascata.]
+[photo:136:n_wasserfall_wasserfall:Display di un ICOM IC-9700. Evidenziato il waterfall]
 </margin>
 
 [question:NF104]
 [question:NF105]
 [question:NF106]
 
-Non bisogna confondere lo spettro di ampiezza con l'oscillogramma, che abbiamo già conosciuto. Lo spettro di ampiezza mostra sull'asse orizzontale, cioè da sinistra a destra, le ampiezze per diverse frequenze. Si può quindi vedere quali componenti hanno le diverse frequenze nel segnale totale. Nell'oscillogramma, invece, vengono mostrate le ampiezze in diversi momenti. Da sinistra a destra si vede l'andamento temporale.
+Non si deve confondere lo <i>spettro di ampiezza</i> con l'<i>oscillogramma</i>, che abbiamo già conosciuto. Lo <i>spettro di ampiezza</i> mostra sull'asse orizzontale, quindi da sinistra a destra, le ampiezze per diverse frequenze. In questo modo è possibile riconoscere quali componenti hanno le diverse frequenze nel segnale complessivo. Nell'<i>oscillogramma</i>, invece, le ampiezze vengono mostrate in diversi momenti temporali. Da sinistra a destra è visibile l'andamento temporale.
 
 [question:NI401]

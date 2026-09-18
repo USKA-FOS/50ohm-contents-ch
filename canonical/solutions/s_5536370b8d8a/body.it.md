@@ -1,7 +1,7 @@
-Affinché lo strumento di misura nel ramo del ponte non indichi alcuna tensione, il ponte deve essere bilanciato, cioè la tensione nel punto A deve essere uguale alla tensione nel punto B. 
+Affinché lo strumento di misura nel ramo del ponte non indichi alcuna tensione, il ponte deve essere in equilibrio, cioè la tensione nel punto A deve essere uguale alla tensione nel punto B.
 
-Ciò significa che i rapporti dei partitori di tensione (senza carico) sul lato sinistro e destro devono essere uguali:
+Questo significa che i rapporti di partizione della tensione (a vuoto) sui lati sinistro e destro devono essere uguali:
 
 $ \frac{R_1}{R_2} = \frac{R_3}{R_4} $
 
-Quindi i punti di misura A e B hanno lo stesso potenziale e non c'è alcuna tensione tra di loro.
+In questo caso, i punti di misura A e B hanno lo stesso potenziale e tra loro non vi è alcuna tensione.

@@ -1,21 +1,18 @@
 ## International Amateur Radio Union
 
-* Unione delle associazioni nazionali di radioamatori
-* *Coesistenza ordinata a livello mondiale delle diverse modalità operative nelle bande radioamatoriali*
-* Emette un piano di banda IARU
-* I radioamatori dovrebbero attenersi ad esso
+* Unione delle associazioni nazionali di radioamatore
+* *Coordinamento mondiale delle varie modalità operative all’interno delle bande del servizio di radioamatore*
+* Pubblica un piano delle bande IARU
+* I radioamatori sono tenuti a rispettarlo
 
 <note>
-* Autoregolamentazione del radioamatore
-* Il DARC e. V. è l'unica associazione tedesca nella IARU
-* È possibile diventare membri del DARC e. V.
+* Autoregolamentazione del servizio di radioamatore
+* Il DARC e.V. è l’unica associazione tedesca membro dell’IARU
+* È possibile diventare membro del DARC e.V.
 </note>
 
 ---
 [question:BC201]
 ---
-* I piani di banda trattano anche le bande di frequenza per le diverse modalità di trasmissione
-* Per la telegrafia in codice Morse (CW), l'intervallo consigliato è all'inizio della banda
-
----
-[question:BC204]
+* I piani delle bande trattano anche le bande di frequenza per le diverse modalità di trasmissione
+* Per la telegrafia Morse (CW), la banda consigliata si trova all’inizio della banda

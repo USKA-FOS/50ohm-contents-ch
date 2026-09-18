@@ -1,9 +1,9 @@
-%YPA: Osservare il numero 11 di ARK.
+%YPA: Attenersi all'edizione #11 di ARK.
 
-Come abbiamo imparato, la larghezza di banda occupata dipende dal tipo di modulazione e, in caso di FM, anche dalla deviazione. Per le diverse bande radioamatoriali sono definite larghezze di banda massime consentite. Queste si trovano nell'[Allegato 1](https://50ohm.de/a1) dell'Ordinanza radioamatoriale, da cui abbiamo già ricavato i limiti di banda. Queste larghezze di banda non devono essere superate. Ogni radioamatore è responsabile del rispetto.
+Come abbiamo appreso, la larghezza di banda occupata da un'emissione dipende dal tipo di modulazione e, nel caso della FM, anche dalla deviazione. Per le varie bande radioamatoriali sono definite larghezze di banda massime consentite. Queste si trovano nell'[allegato 1](https://50ohm.de/a1) del regolamento radioamatoriale, dal quale abbiamo già tratto anche i limiti di banda. Queste larghezze di banda non devono essere superate. Ogni radioamatore è responsabile personalmente del rispetto delle norme.
 
 <webmargin>
-| l: Bande di frequenza | l: Stato | X: Condizioni d'uso aggiuntive|
+| l: Intervalli di frequenza | l: Stato | X: Condizioni d'uso aggiuntive |
 | $\qtyrange{135,7}{137,8}{\kilo\hertz}$| S | 1 2 10 |
 | $\qtyrange{472}{479}{\kilo\hertz}$| S | 1 |
 | $\qtyrange{3500}{3800}{\kilo\hertz}$ | P | 3 |
@@ -11,19 +11,19 @@ Come abbiamo imparato, la larghezza di banda occupata dipende dal tipo di modula
 | $\qtyrange{28}{29,7}{\mega\hertz}$ | P | 4 13 |
 | $\qtyrange{144}{146}{\mega\hertz}$ | P | 6 13 |
 | $\qtyrange{430}{440}{\mega\hertz}$ | P | 7 13 |
-[table:n_tab_afuv:Estratto AfuV Allegato 1]
+[tabella:n_tab_afuv:Estratto AfuV allegato 1]
 </webmargin>
 
 <webmargin>
-I numeri nelle condizioni d'uso aggiuntive nella tabella sopra menzionata significano (i numeri non riportati sono irrilevanti per la larghezza di banda):
-* *1* Larghezza di banda occupata massima consentita di una trasmissione radioamatoriale: $\qty{800}{\hertz}$.
-* *3* Larghezza di banda occupata massima consentita di una trasmissione radioamatoriale: $\qty{2,7}{\kilo\hertz}$.
-* *4* Larghezza di banda occupata massima consentita di una trasmissione radioamatoriale al di sotto di $\qty{29}{\mega\hertz}$: $\qty{7}{\kilo\hertz}$, al di sopra di $\qty{29}{\mega\hertz}$: $\qty{40}{\kilo\hertz}$.
-* *6* Larghezza di banda occupata massima consentita di una trasmissione radioamatoriale: $\qty{40}{\kilo\hertz}$.
-* *7* Larghezza di banda occupata massima consentita di una trasmissione radioamatoriale: $\qty{2}{\mega\hertz}$; per trasmissioni televisive modulate in ampiezza: $\qty{7}{\mega\hertz}$.
+I numeri relativi alle condizioni d'uso aggiuntive nella tabella sopra indicata significano (i numeri non riportati sono irrilevanti per la larghezza di banda):
+* *1* Larghezza di banda massima consentita di un'emissione radioamatoriale: $\qty{800}{\hertz}$.
+* *3* Larghezza di banda massima consentita di un'emissione radioamatoriale: $\qty{2,7}{\kilo\hertz}$.
+* *4* Larghezza di banda massima consentita di un'emissione radioamatoriale al di sotto di $\qty{29}{\mega\hertz}$: $\qty{7}{\kilo\hertz}$, al di sopra di $\qty{29}{\mega\hertz}$: $\qty{40}{\kilo\hertz}$.
+* *6* Larghezza di banda massima consentita di un'emissione radioamatoriale: $\qty{40}{\kilo\hertz}$.
+* *7* Larghezza di banda massima consentita di un'emissione radioamatoriale: $\qty{2}{\mega\hertz}$; per trasmissioni televisive a modulazione di ampiezza: $\qty{7}{\mega\hertz}$.
 </webmargin>
 
-Le seguenti domande possono essere risolte tutte con l'aiuto delle note a piè di pagina nell'Allegato 1 dell'Ordinanza radioamatoriale, che - come già detto - è disponibile come ausilio durante l'esame. Consigliamo di familiarizzare con l'allegato prima dell'esame!
+Le seguenti domande possono essere risolte tutte con l'aiuto delle note a piè di pagina nell'allegato 1 del regolamento radioamatoriale, che - come già menzionato - è disponibile come strumento durante l'esame. Consigliamo di familiarizzare con l'allegato prima dell'esame!
 
 [question:VD738]
 [question:VD739]
@@ -33,15 +33,15 @@ Le seguenti domande possono essere risolte tutte con l'aiuto delle note a piè d
 
 ---
 
-Bisogna prestare particolare attenzione alle trasmissioni in prossimità dei limiti delle bande radioamatoriali. Un esempio: Supponiamo che un segnale FM occupi una larghezza di banda di $\qty{15}{\kilo\hertz}$ e impostiamo il trasmettitore sul limite inferiore della banda dei $\qty{70}{\centi\meter}$, cioè su $\qty{430}{\mega\hertz}$. Il segnale di trasmissione si trova attorno alla frequenza portante, quindi rispettivamente $\qty{7,5}{\kilo\hertz}$ al di sotto e al di sopra. Si estenderebbe quindi da $\qty{429,9925}{\mega\hertz}$ a $\qty{430,0075}{\mega\hertz}$. Poiché il segnale sarebbe quindi per metà fuori banda, non possiamo premere PTT! Dobbiamo quindi, in caso di FM, ma anche di AM, mantenere sempre una distanza di almeno la metà della larghezza di banda occupata dal limite di banda.
+Bisogna fare particolare attenzione con le trasmissioni vicino ai limiti delle bande radioamatoriali. Un esempio: supponiamo che un segnale FM occupi una larghezza di banda di $\qty{15}{\kilo\hertz}$ e impostiamo il trasmettitore sul limite inferiore della banda dei $\qty{70}{\centi\metro}$, quindi a $\qty{430}{\mega\hertz}$. Il segnale di trasmissione si estende intorno alla frequenza portante, cioè $\qty{7,5}{\kilo\hertz}$ al di sotto e al di sopra di essa. Quindi si estenderebbe da $\qty{429,9925}{\mega\hertz}$ a $\qty{430,0075}{\mega\hertz}$. Poiché il segnale sarebbe quindi per metà al di fuori della banda, non possiamo premere PTT! Quindi, sia con la FM che con la AM, dobbiamo sempre mantenere una distanza dalla metà della larghezza di banda occupata rispetto al limite della banda.
 
 <indepth>
-[picture:908:n_bandbreite_falsch:Sbagliato -- Trasmettere al di fuori dei limiti di banda]
-[picture:909:n_bandbreite_richtig:Corretto -- Trasmettere all'interno dei limiti di banda]
+[picture:908:n_bandbreite_falsch:Sbagliato -- Trasmissione al di fuori dei limiti di banda]
+[picture:909:n_bandbreite_richtig:Giusto -- Trasmissione entro i limiti di banda]
 </indepth>
 
 <indepth>
-Con SSB, la situazione al limite di banda è leggermente diversa. Qui il segnale si trova solo su un lato della frequenza portante (soppressa). Con LSB il segnale si trova completamente al di sotto della frequenza portante, con USB si trova completamente al di sopra della frequenza portante. Se, ad esempio, si imposta la frequenza di trasmissione sul limite superiore della banda, si potrebbe trasmettere con LSB, poiché l'intero segnale rimane all'interno della banda. Con USB, tuttavia, non si potrebbe trasmettere lì, poiché l'intero segnale sarebbe al di fuori della banda.
+Con la SSB la situazione è leggermente diversa al limite della banda. In questo caso, il segnale si trova solo su un lato della frequenza portante (soppressa). Con LSB il segnale è completamente al di sotto della frequenza portante, mentre con USB è completamente al di sopra. Se, ad esempio, si imposta la frequenza di trasmissione sul limite superiore della banda, si potrebbe trasmettere con LSB senza problemi, poiché l'intero segnale rimane all'interno della banda. Con USB, invece, non si potrebbe trasmettere in quel punto, poiché l'intero segnale sarebbe al di fuori della banda.
 </indepth>
 
 [question:NE305]

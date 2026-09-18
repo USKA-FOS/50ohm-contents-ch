@@ -1,30 +1,29 @@
-Un altro tipo di competizione è il *Direction Finding Radioamatoriale (ARDF)*. Si tratta di competizioni di radiogoniometria, che nella regione di lingua tedesca sono solitamente chiamate *caccia alla volpe*. Le "volpi" sono piccoli trasmettitori nascosti che i partecipanti devono trovare e raggiungere a piedi usando ricevitori direzionali. Vince il primo che raggiunge il punto di arrivo dopo aver trovato tutte le volpi.
+Un’altra tipologia di gara è il *Radio Orienteering (ARDF)*. Si tratta di gare di radiolocalizzazione dette anche *Fuchsjagd* (caccia alla volpe) nei paesi di lingua tedesca. Le "volpi" sono piccoli trasmettitori nascosti che i partecipanti devono trovare e raggiungere a piedi con l’ausilio di ricevitori di direzione. Vince chi per primo raggiunge il punto di arrivo dopo aver trovato tutte le volpi.
 
-Le volpi trasmettono in alternanza temporale - ad esempio per un minuto - ciascuna un diverso segnale distintivo speciale in telegrafia Morse CW. La tabella [ref:ardf_morse_code] elenca tutti e sei i segnali distintivi assegnati dalla Bundesnetzagentur specificamente per i trasmettitori di caccia alla volpe.
+Le volpi trasmettono a turno, ad esempio per un minuto ciascuna, un nominativo specifico in telegrafia Morse CW. Nella tabella [ref:ardf_morse_code] sono elencati tutti e sei i nominativi assegnati dalla Bundesnetzagentur specificamente per i trasmettitori delle volpi.
 
 <margin>
-[photo:190:n_ardf_fuchs:Volpe ARDF nel bosco con stendardo e cronometrista]
+[photo:190:n_ardf_fuchs:ARDF-Fuchs nel bosco con bandierina e cronometrista]
 </margin>
 
 <margin>
-| l: Segnale distintivo | l: Codice Morse |
+| l: Nominativo | l: Codice Morse |
 | MO | [morse:mo] |
 | MOE | [morse:moe] |
 | MOI | [morse:moi] |
 | MOS | [morse:mos] |
 | MOH | [morse:moh] |
 | MO5 | [morse:mo5] |
-[table:ardf_morse_code:Segnali distintivi dei trasmettitori di caccia alla volpe]
+[table:ardf_morse_code:Nominativi dei trasmettitori delle volpi]
 </margin>
 
 <tip>
-Per poter registrare i segnali distintivi dei trasmettitori di caccia alla volpe, non è necessario conoscere la telegrafia Morse. Vengono utilizzati esclusivamente caratteri composti solo da toni lunghi (M, O) o solo da toni brevi (E, I, S, H, 5). Questi vengono trasmessi così lentamente che è possibile contarli.
+Per ricevere i nominativi delle volpi non è necessario conoscere la telegrafia Morse. Vengono utilizzati esclusivamente caratteri composti da toni lunghi (M, O) o solo da toni brevi (E, I, S, H, 5), trasmessi così lentamente da poter essere contati.
 </tip>
 
 [question:BE313]
 [question:BD109]
-  
-<indepth>
-Una variante speciale della caccia alla volpe è la *caccia alla volpe mobile*, in cui le volpi vengono cercate da veicoli a motore.
-</indepth>
 
+<indepth>
+Una variante particolare della caccia alla volpe è la *Mobilfuchsjagd*, in cui le volpi vengono cercate a partire da autoveicoli.
+</indepth>

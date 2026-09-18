@@ -1,7 +1,7 @@
-* La lunghezza d’onda $\lambda$ nello spazio libero è in relazione con la Frequenza $f$ alla Velocità della luce $c_0$
+* La lunghezza d’onda $\lambda$ nello spazio libero è in relazione con la frequenza $f$ tramite la velocità della luce $c_0$
 * Spazio libero significa: vuoto, aria
-* Velocità della luce $c_0 = \qty{299792458}{\metro\per\secondo}$
-* Nel radioamatore si calcola con $c = \qty{3e8}{\metro\per\secondo}$
+* Velocità della luce $c_0 = \qty{299792458}{\meter\per\second}$
+* Nel radioamatoriale si calcola con $c = \qty{3e8}{\meter\per\second}$
 
 $c = f\cdot \lambda \quad f = \dfrac{c}{\lambda} \quad \lambda = \dfrac{c}{f}$
 
@@ -10,49 +10,49 @@ $c = f\cdot \lambda \quad f = \dfrac{c}{\lambda} \quad \lambda = \dfrac{c}{f}$
 
 $f = \dfrac{c}{\lambda} \quad \lambda = \dfrac{c}{f}$
 
-$f[[\unit{\megahertz}]] \approx \dfrac{300}{\lambda[[\unit{\metro}]]} \quad \lambda[[\unit{\metro}]] \approx \dfrac{300}{f[[\unit{\megahertz}]]}$
+$f[[\unit{\mega\hertz}]] \approx \dfrac{300}{\lambda[[\unit{\meter}]]} \quad \lambda[[\unit{\meter}]] \approx \dfrac{300}{f[[\unit{\mega\hertz}]]}$
 
 ---
 [question:EB314]
 ---
-$f[[\unit{\megahertz}]] = \frac{300}{80} = 3,75$
+$f[[\unit{\mega\hertz}]] = \frac{300}{80} = 3,75$
 ---
 <note>
-Banda 80m
+Banda 80 m
 </note>
 ---
 [question:EB315]
 ---
-Conversione nell'unità base $\unit{\metro}$:
-$\qty{30}{\millimetro} = \qty{3}{\centimetro} = \qty{0,03}{\metro}$
+Conversione nell’unità fondamentale $\unit{\meter}$:
+$\qty{30}{\milli\meter} = \qty{3}{\centi\meter} = \qty{0,03}{\meter}$
 
-$f[[\unit{\megahertz}]] = \frac{300}{0,03} = \frac{300 \cdot 100}{3} = \num{10000}$
+$f[[\unit{\mega\hertz}]] = \frac{300}{0,03} = \frac{300 \cdot 100}{3} = \num{10000}$
 
-% $f=\qty{10}{\gigahertz}$, da $\qty{1}{\gigahertz} = \qty{1000}{\megahertz}$
-$f=\qty{10}{\gigahertz}$, da $\qty{1}{\gigahertz} = \qty{1000}{\megahertz}$
+% $f=\qty{10}{\giga\hertz}$, poiché $\qty{1}{\giga\hertz} = \qty{1000}{\mega\hertz}$
+$f=\qty{10}{\giga\hertz}$, poiché $\qty{1}{\giga\hertz} = \qty{1000}{\mega\hertz}$
 
 
 ---
 [question:EB316]
 ---
-$\qty{10}{\centimetro} = \qty{0,1}{\metro}$
+$\qty{10}{\centi\meter} = \qty{0,1}{\meter}$
 
-$f[[\unit{\megahertz}]]=\frac{300}{0,1}=3000$
+$f[[\unit{\mega\hertz}]]=\frac{300}{0,1}=3000$
 
-$\qty{3}{\gigahertz}$, da $\qty{1}{\gigahertz} = \qty{1000}{\megahertz}$
+$\qty{3}{\giga\hertz}$, poiché $\qty{1}{\giga\hertz} = \qty{1000}{\mega\hertz}$
 
 ---
 [question:EB311]
 <note>
-Banda $\qty{160}{\metro}$, se si conoscono le frequenze del radioamatore
+Banda 160 m, se si conoscono le frequenze radioamatoriali
 </note>
 ---
 [question:EB312]
 <note>
-Banda $\qty{15}{\metro}$, anche se la banda $\qty{14}{\metro}$ sarebbe più corretta
+Banda 15 m, anche se banda 14 m sarebbe più corretto
 </note>
 ---
 [question:EB313]
 <note>
-Banda $\qty{10}{\metro}$
+Banda 10 m
 </note>

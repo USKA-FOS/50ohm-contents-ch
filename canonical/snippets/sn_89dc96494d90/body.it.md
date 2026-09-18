@@ -1,1 +1,1 @@
-Alla mappa del corso
+Torna alla mappa del corso

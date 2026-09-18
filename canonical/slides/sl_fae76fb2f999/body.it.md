@@ -1,10 +1,10 @@
 ## Lunghezza d’onda
 
-* La distanza tra due passaggi uguali di un'onda si chiama *lunghezza d’onda*
+* La distanza tra due passaggi identici di un’onda è chiamata *lunghezza d’onda*
 * Maggiore è la frequenza, minore è la lunghezza d’onda
 
 <fragment>
-La lunghezza d’onda è indicata con la lettera greca $\lambda$ (Lambda) ed è misurata in metri ($\unit{\meter}$).
+La lunghezza d’onda è indicata con la lettera greca $\lambda$ (lambda) e misurata in metri ($\unit{\meter}$).
 </fragment>
 
 ---
@@ -13,22 +13,22 @@ La lunghezza d’onda è indicata con la lettera greca $\lambda$ (Lambda) ed è 
 [question:NA205]
 ---
 
-## Relazione frequenza – lunghezza d’onda
+## Relazione tra frequenza e lunghezza d’onda
 
 * Tramite la velocità della luce
-* Un'onda con una frequenza di $\qty{1}{\hertz}$ si propaga per $\qty{300000}{\kilo\meter}$ prima che inizi il passaggio successivo
+* Un’onda con una frequenza di $\qty{1}{\hertz}$ si propaga per $\qty{300000}{\kilo\meter}$ prima che inizi il passaggio successivo
 * A $\qty{1000}{\hertz}$ sono solo $\qty{300}{\kilo\meter}$
 * A $\qty{1}{\mega\hertz}$ sono $\qty{300}{\meter}$
 
 <note>
-La propagazione alla velocità della luce è valida solo nel vuoto
+La propagazione alla velocità della luce vale solo nel vuoto
 </note>
 
 ---
 $f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} \quad\quad\quad \lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]}$
 
 <note>
-Le formule si trovano nella raccolta di formule
+Le formule sono disponibili nella raccolta di formule
 </note>
 ---
 ### Esempi
@@ -50,13 +50,13 @@ $f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} = \dfrac{300}{\qty{
 --- style="font-size: 0.8em;"
 ## Banda
 
-Invece della frequenza, viene spesso indicata la banda arrotondata
+Spesso, invece della frequenza, viene indicata la banda arrotondata
 
 | l: Frequenza | l: Lunghezza d’onda | l: Banda |
-| $\qtyrange{28}{29,7}{\mega\hertz}$ | $\qtyrange{10,7}{10,1}{\meter}$ | Banda $\qty{10}{\meter}$ |
-| $\qtyrange{144}{146}{\mega\hertz}$ | $\qtyrange{2,08}{2,05}{\meter}$ | Banda $\qty{2}{\meter}$ |
-| $\qtyrange{430}{440}{\mega\hertz}$ | $\qtyrange{68}{70}{\centi\meter}$ | Banda $\qty{70}{\centi\meter}$ |
-[table:n_funkwellen_baender:Le tre bande radioamatoriali consentite per tutte le classi]
+| $\qtyrange{28}{29,7}{\mega\hertz}$ | $\qtyrange{10,7}{10,1}{\meter}$ | Banda dei $\qty{10}{\meter}$ |
+| $\qtyrange{144}{146}{\mega\hertz}$ | $\qtyrange{2,08}{2,05}{\meter}$ | Banda dei $\qty{2}{\meter}$ |
+| $\qtyrange{430}{440}{\mega\hertz}$ | $\qtyrange{68}{70}{\centi\meter}$ | Banda dei $\qty{70}{\centi\meter}$ |
+[table:n_funkwellen_baender:Le tre bande di radioamatore aperte a tutte le classi]
 ---
 [question:NB302]
 ---

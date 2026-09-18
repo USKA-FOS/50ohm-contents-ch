@@ -1,17 +1,17 @@
 ## Direttività
 
-* *Radiatore isotropico*: Antenna ipotetica che irradia uniformemente in tutte le direzioni
-* Un'antenna reale presenta una direttività
-* In certe direzioni più forte del radiatore isotropico
-* In certe direzioni più debole del radiatore isotropico
-* La *direzione di massima irradiazione* è la direzione con il massimo guadagno d'antenna
+* *Radiatore isotropico*: antenna ipotetica che irradia con la stessa intensità in tutte le direzioni
+* Una antenna reale presenta una certa direttività
+* In alcune direzioni irradia più del radiatore isotropico
+* In altre direzioni irradia meno del radiatore isotropico
+* La *direzione principale di irradiazione* è quella con il massimo guadagno d’antenna
 
 ---
 ## Guadagno in dBi
 
 * Guadagno in una direzione rispetto al radiatore isotropico
-* Può essere indicato in $\unit{\dB}$
-* Se riferito al radiatore isotropico, si usa *$\unit{\dBi}$*
+* Può essere espresso in $\unit{\dB}$
+* Quando ci si riferisce al radiatore isotropico si utilizza la notazione *$\unit{\dBi}$*
 
 ---
 
@@ -20,15 +20,15 @@
 ---
 ## Guadagno di un dipolo a semionda
 
-* Un dipolo a semionda irradia di $\qty{2,15}{\dB}$ più forte di un radiatore isotropico perpendicolarmente al conduttore
-* Il guadagno è di $\qty{2,15}{\dBi}$
+* Un dipolo a semionda irradia perpendicolarmente al conduttore con un guadagno di $\qty{2,15}{\dB}$ superiore rispetto a un radiatore isotropico
+* Il guadagno è pari a $\qty{2,15}{\dBi}$
 
 ---
 ## Guadagno in dBd
 
-* Per altre antenne, il guadagno rispetto a un dipolo a semionda è interessante
-* Se riferito al dipolo a semionda, si usa *$\unit{\dBd}$*
-* Un dipolo a semionda ha un guadagno di $\qty{0}{\dBd}$ e $\qty{2,15}{\dBi}$ nella direzione di massima irradiazione
+* Per altre antenne è interessante il guadagno rispetto a un dipolo a semionda
+* Quando ci si riferisce al dipolo a semionda si utilizza la notazione *$\unit{\dBd}$*
+* Un dipolo a semionda ha un guadagno di $\qty{0}{\dBd}$ e $\qty{2,15}{\dBi}$ nella direzione principale di irradiazione
 
 ---
 [question:EG221]

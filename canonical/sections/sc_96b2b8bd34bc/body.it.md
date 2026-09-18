@@ -1,28 +1,38 @@
-% TODO riformulare
-% Idea DL9MJ: Esempio con immagine, un bit in I e uno in Q e come appare il segnale per 00, 01, 10, 11
+Nel paragrafo precedente abbiamo visto che l’informazione in un simbolo può essere rappresentata, ad esempio, da ampiezze o frequenze diverse. Un’altra possibilità consiste nel modificare la fase di un segnale. Per rappresentare in modo chiaro gli stati del segnale con ampiezza e fase diverse, si utilizza spesso la cosiddetta *rappresentazione I/Q*.
 
-La QAM può essere generata particolarmente facilmente utilizzando due portanti della stessa frequenza. Una delle due portanti deve essere sfasata di $\qty{90}{\degree}$. Entrambe le portanti vengono quindi modulate in ampiezza con un proprio segnale. Un segnale è chiamato I (per In-Phase Component) e l'altro segnale è chiamato Q (per Quadrature Phase Component). La portante sfasata viene modulata con il segnale Q. Successivamente, le due portanti modulate vengono sovrapposte, creando una portante che cambia sia in ampiezza che in fase.
+Consideriamo inizialmente uno stato del segnale al tempo $t=0$. Per il simbolo vengono fissati un’ampiezza $A$ e una fase $\varphi$. In una rappresentazione vettoriale, l’ampiezza determina la lunghezza del vettore e la fase il suo angolo rispetto all’asse orizzontale.
 
-<indepth>
-[include:applet_iq]
-</indepth>
-  
-%TODO IMMAGINE QAM4 QAM8 o più?
+Il vettore può essere scomposto in una componente orizzontale e una verticale. La componente orizzontale viene indicata come $I$ per *In-Phase Component*, mentre quella verticale come $Q$ per *Quadrature Component*. Per lo stato del segnale rappresentato vale:
 
-[question:AE404]
-[question:AF632]
+$I=A\cdot\cos(\varphi)$
 
-L'idea di base di elaborare un segnale in due parti separate trova ampia applicazione anche nell'elaborazione digitale dei segnali. Viene chiamata metodo I/Q dopo i due segnali parziali. Il metodo I/Q consente di generare qualsiasi segnale. A tale scopo, il flusso di dati da modulare è composto da una componente I e una componente Q. Due convertitori D/A convertono ciascuna delle due componenti in un segnale analogico I o Q. Con i segnali I e Q, le due portanti sfasate vengono nuovamente modulate. Nell'ultimo passaggio, queste vengono sovrapposte a una portante che viene trasmessa.
+$Q=A\cdot\cos(\varphi-\qty{90}{\degree})=A\cdot\sin(\varphi)$
 
-Analogamente, si procede sul lato ricevente. Il segnale di ingresso viene miscelato con una portante per ottenere il segnale I, che viene quindi convertito tramite un convertitore A/D nella componente I di un flusso di dati. Contemporaneamente, il segnale di ingresso viene miscelato anche con una portante sfasata di $\qty{90}{\degree}$ per ottenere il segnale Q, che a sua volta viene convertito tramite un convertitore A/D nella componente Q del flusso di dati.
+Se lasciamo scorrere il tempo, il vettore associato all’oscillazione ruota. Le sue proiezioni su entrambi gli assi seguono un andamento sinusoidale e sono sfasate tra loro di $\qty{90}{\degree}$. L’applet mostra questa relazione tra l’oscillazione e la sua rappresentazione I/Q.
+
+[include:applet_iq_zeiger]
 
 [question:AF633]
 
-Un tale flusso di dati digitale può sempre rappresentare una determinata banda di frequenza del segnale di ingresso, che si trova attorno a una frequenza centrale. Se, ad esempio, il segnale di ingresso viene miscelato con una portante da $\qty{435}{\mega\hertz}$ e una portante da $\qty{435}{\mega\hertz}$ sfasata di $\qty{90}{\degree}$, e i due segnali risultanti vengono digitalizzati tramite convertitori A/D, allora il flusso di dati I/Q risultante rappresenta la banda di frequenza attorno a $\qty{435}{\mega\hertz}$.
+In modo intuitivo si può immaginare che all’inizio di ogni intervallo di simbolo, il valore del simbolo da trasmettere fissi un punto nel piano I/Q e quindi l’ampiezza e la fase iniziale dell’oscillazione per quel simbolo. Al simbolo successivo si passa allo stato del segnale del punto successivo.
 
-% TODO riferimento al teorema di campionamento?
-La larghezza di banda coperta dipende dalla frequenza di campionamento della conversione A/D. La larghezza di banda in Hz corrisponde alla frequenza di campionamento in campioni al secondo. Se nel nostro esempio sia la componente I che la componente Q vengono campionate a 10 milioni di campioni al secondo, allora il flusso di dati I/Q risultante può coprire una banda di frequenza di $\qty{10}{\mega\hertz}$, cioè da $\qty{-5}{\mega\hertz}$ a $\qty{+5}{\mega\hertz}$ rispetto alla frequenza centrale. Il flusso di dati copre quindi le frequenze da $\qty{430}{\mega\hertz}$ a $\qty{440}{\mega\hertz}$.
+Per la rappresentazione dei simboli, quindi, non ci interessa la rotazione continua del vettore, ma lo stato iniziale fissato per ogni simbolo. Se i possibili stati iniziali vengono rappresentati come punti nel piano I/Q (cfr. [ref:a_iq_ebene]), si parla di *diagramma di costellazione* (cfr. figura [ref:a_konstellationsdiagramm]). Ogni punto corrisponde a un possibile simbolo. La distanza di un punto dall’origine descrive l’ampiezza del segnale. Il suo angolo rispetto all’asse I descrive la fase.
 
-[question:AF634]
-[question:AF635]
-[question:AF636]
+<margin>
+[picture:1060:a_iq_ebene:Piano I/Q con un punto di segnale]
+[picture:1059:a_konstellationsdiagramm:Diagramma di costellazione con 4 punti di costellazione]
+</margin>
+
+<indepth>
+Per chi è interessato alla matematica: un’oscillazione sinusoidale può essere descritta anche come un *vettore complesso* che ruota con la pulsazione $\omega_\mathrm{c}$:
+
+$s(t) = \Re\left\{A \cdot e^{j(\omega_\mathrm{c}t+\varphi)}\right\} = A\cos(\omega_\mathrm{c}t+\varphi)$
+
+Qui $A$ descrive l’ampiezza e $\varphi$ la fase iniziale del segnale. L’espressione complessa può essere scomposta in due parti:
+
+$A \cdot e^{j(\omega_\mathrm{c}t+\varphi)} = \underbrace{A \cdot e^{j\varphi}}_{\text{Ampiezza e fase}} \cdot \underbrace{e^{j\omega_\mathrm{c}t}}_{\text{Portante}}$
+
+In un diagramma di costellazione ci interessa la prima parte $A \cdot e^{j\varphi}$. Essa descrive ampiezza e fase dello stato del segnale. La rotazione continua della portante vera e propria non viene rappresentata.
+</indepth>
+
+Questa rappresentazione la utilizzeremo nei paragrafi successivi: con essa è possibile rappresentare in modo chiaro i possibili simboli dei metodi di modulazione digitale e, in seguito, descrivere anche l’assegnazione delle combinazioni di bit a questi simboli.

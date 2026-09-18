@@ -1,20 +1,20 @@
-[picture:438:a_oszillator_dds:Schema a blocchi per la sintesi digitale diretta]
+[picture:438:a_oszillator_dds:schema a blocchi per Sintesi Digitale Diretta]
 
-* Generazione di segnali periodici a banda limitata con alta risoluzione di frequenza
-* Stato dell'arte per la generazione di segnali
-* La frequenza è regolabile con molta precisione
-* FM e PM possono essere generati direttamente
+* Generazione di segnali periodici a banda limitata con elevata risoluzione di frequenza
+* Tecnologia all'avanguardia per la generazione di segnali
+* La frequenza è regolabile con precisione elevata
+* È possibile generare direttamente modulazioni FM e PM
 
 --- style="font-size: smaller;"
-[picture:438:a_oszillator_dds:Schema a blocchi per la sintesi digitale diretta]
+[picture:438:a_oszillator_dds:schema a blocchi per Sintesi Digitale Diretta]
 
-* Un generatore di clock con frequenza fissa fa contare un contatore di indirizzi
-* Al superamento del limite, il contatore di indirizzi ricomincia da capo
-* Da una tabella di ricerca sinusoidale viene emesso un valore sinusoidale digitale predefinito
-* Questo valore viene convertito in un segnale analogico tramite un registro in un convertitore D/A
+* Un generatore di clock con frequenza fissa fa avanzare un contatore di indirizzi
+* Al superamento del valore massimo, il contatore di indirizzi riparte da zero
+* Da una tabella di lookup del seno viene estratto un valore digitale predefinito del seno
+* Questo valore viene convertito in un segnale analogico tramite un registro e un convertitore D/A
 
 <note>
-Il principio di funzionamento non è rilevante per l'esame, è da riconoscere solo lo schema a blocchi
+Il principio di funzionamento non è rilevante per l'esame, è sufficiente riconoscere lo schema a blocchi
 </note>
 
 ---

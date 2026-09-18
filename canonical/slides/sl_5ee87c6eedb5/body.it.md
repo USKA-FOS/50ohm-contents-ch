@@ -1,23 +1,23 @@
-## Lunghezza dell'antenna e fattore di riduzione
+## Lunghezza dell'antenna e fattore di velocità
 
-* La lunghezza dell'antenna dipende dal fattore di riduzione  
-* Dipolo a semionda: Metà della lunghezza d'onda $\times$ Fattore di riduzione  
-* Radiatore a quarto d'onda: Quarto della lunghezza d'onda $\times$ Fattore di riduzione  
-* Valore tipico: $\num{0,95}$  
+* La lunghezza dell'antenna dipende dal fattore di velocità
+* Dipolo a semionda: metà della lunghezza d’onda $\times$ fattore di velocità
+* Radiatore a quarto d’onda: un quarto della lunghezza d’onda $\times$ fattore di velocità
+* Valore tipico: $\num{0,95}$
 
 ---
 
 [question:AG101]
 
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 <left>
-* dato: $f = \qty{14,2}{\mega\hertz}$
-* dato: $k_v = 0,95$
+* dati: $f = \qty{14,2}{\mega\hertz}$
+* dati: $k_v = 0,95$
 </left>
 <right>
-* dato: dipolo $\frac{\lambda}{2}$
-* cercato: $l_G$
+* dati: dipolo a semionda $\frac{\lambda}{2}$
+* richiesto: $l_G$
 </right>
 
 <left>
@@ -36,15 +36,14 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,9
 [question:AG102]
 
 ---
-
-#### Percorso di soluzione
+#### Procedimento di soluzione
 <left>
-* dato: $f = \qty{7,1}{\mega\hertz}$
-* dato: $k_v = 0,95$
+* dati: $f = \qty{7,1}{\mega\hertz}$
+* dati: $k_v = 0,95$
 </left>
 <right>
-* dato: dipolo $\frac{\lambda}{2}$
-* cercato: $l_G$
+* dati: dipolo a semionda $\frac{\lambda}{2}$
+* richiesto: $l_G$
 </right>
 
 <left>
@@ -63,14 +62,14 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,9
 [question:AG103]
 
 ---
-#### Percorso di soluzione
+#### Procedimento di soluzione
 <left>
-* dato: $l_G = \qty{20}{\meter}$
-* dato: $k_v = 0,95$
+* dati: $l_G = \qty{20}{\meter}$
+* dati: $k_v = 0,95$
 </left>
 <right>
-* dato: dipolo
-* cercato: $f$
+* dati: dipolo
+* richiesto: $f$
 </right>
 
 <left>
@@ -89,15 +88,14 @@ $\begin{split}l_E &= \frac{\lambda}{2}\\ &= \frac{1}{2} \cdot \frac{c}{f}\\ \Rig
 [question:AG104]
 
 ---
-
-#### Percorso di soluzione
+#### Procedimento di soluzione
 <left>
-* dato: $f = \qty{7,1}{\mega\hertz}$
-* dato: $k_v = 0,95$
+* dati: $f = \qty{7,1}{\mega\hertz}$
+* dati: $k_v = 0,95$
 </left>
 <right>
-* dato: Groundplane a quarto d’onda
-* cercato: $l_G$
+* dati: antenna groundplane a $\frac{\lambda}{4}$
+* richiesto: $l_G$
 </right>
 
 <left>
@@ -116,15 +114,14 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,9
 [question:AG105]
 
 ---
-
-#### Percorso di soluzione
+#### Procedimento di soluzione
 <left>
-* dato: $f = \qty{14,2}{\mega\hertz}$
-* dato: $k_v = 0,97$
+* dati: $f = \qty{14,2}{\mega\hertz}$
+* dati: $k_v = 0,97$
 </left>
 <right>
-* dato: Antenna verticale 5/8λ
-* cercato: $l_G$
+* dati: antenna verticale $\frac{5}{8}\lambda$
+* richiesto: $l_G$
 </right>
 
 <left>
@@ -140,11 +137,11 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,9
 
 ---
 
-### Causa del fattore di riduzione
+### Causa del fattore di velocità
 
-* I conduttori non sono infinitamente sottili  
-* Capacità aggiuntiva tra il conduttore e l'ambiente  
-* Influenza la lunghezza elettrica effettiva dell'antenna  
+* I conduttori non sono infinitamente sottili
+* Capacità aggiuntiva tra conduttore e ambiente circostante
+* Influenza la lunghezza elettrica effettiva dell'antenna
 
 ---
 
@@ -154,11 +151,11 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 0,9
 
 ### Fattore di allungamento nelle antenne a loop
 
-* Differenza rispetto al fattore di riduzione  
-* Porta a un allungamento apparente dell'antenna  
+* Differenza rispetto al fattore di velocità
+* Porta a un apparente allungamento dell'antenna
 
 <note>
-Un fattore di allungamento <u>non</u> significa che l'onda si propaghi a una velocità *superiore a quella della luce*. Si tratta della velocità di fase, non della velocità di gruppo.
+Un fattore di allungamento <u>non</u> significa che l'onda si propaga a una velocità *superiore a quella della luce*. Si tratta della velocità di fase, non della velocità di gruppo.
 </note>
 
 ---
@@ -167,14 +164,14 @@ Un fattore di allungamento <u>non</u> significa che l'onda si propaghi a una vel
 
 ---
 
-#### Percorso di soluzione
+#### Procedimento di soluzione
 <left>
-* dato: $f = \qty{7,1}{\mega\hertz}$
-* dato: $k_v = 1,02$
+* dati: $f = \qty{7,1}{\mega\hertz}$
+* dati: $k_v = 1,02$
 </left>
 <right>
-* dato: Delta-Loop
-* cercato: $l_G$
+* dati: antenna Delta-Loop
+* richiesto: $l_G$
 </right>
 
 <left>
@@ -190,11 +187,11 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 1,0
 
 ---
 
-### Fattore di riduzione nelle linee bifilari
+### Fattore di velocità nelle linee a due fili paralleli
 
-* L'onda si trova tra i conduttori  
-* L'effetto pelle impedisce una penetrazione profonda nel metallo  
-* Fattore di riduzione approssimativamente $1$ (come la propagazione nello spazio libero)  
+* L'onda si propaga tra i conduttori
+* L'effetto pelle impedisce la penetrazione profonda nel metallo
+* Fattore di velocità prossimo a $1$ (come nella propagazione nello spazio libero)
 
 ---
 
@@ -202,13 +199,13 @@ $\begin{split}k_v &= \frac{l_G}{l_E}\\ \Rightarrow l_G &= k_v \cdot l_E\\ &= 1,0
 
 ---
 
-### Fattore di riduzione nei cavi coassiali comuni
+### Fattore di velocità nei cavi coassiali
 
-* L'onda si trova nel materiale dielettrico tra i conduttori
-* Esempio per polietilene: $\epsilon_\mathrm{r} = 2,29$  
-* L'effetto pelle impedisce una penetrazione profonda nel metallo  
-* La geometria del cavo ha poca influenza  
-* Calcolo del fattore di riduzione:  
+* L'onda si propaga nel materiale dielettrico tra i conduttori
+* Esempio per polietilene: $\epsilon_\mathrm{r} = 2,29$
+* L'effetto pelle impedisce la penetrazione profonda nel metallo
+* La geometria del cavo ha scarsa influenza
+* Calcolo del fattore di velocità:
 
 <fragment>
 $v_\mathrm{k} = \dfrac{1}{\sqrt{\epsilon_\mathrm{r}}}$
@@ -223,10 +220,10 @@ $v_\mathrm{k} = \dfrac{1}{\sqrt{\epsilon_\mathrm{r}}}$
 [question:AG316]
 
 ---
-#### Percorso di soluzione
-* dato: $f = \qty{145}{\mega\hertz}$
-* dato: $k_v = 0,66$
-* cercato: $l_G$
+#### Procedimento di soluzione
+* dati: $f = \qty{145}{\mega\hertz}$
+* dati: $k_v = 0,66$
+* richiesto: $l_G$
 
 <left>
 <fragment>

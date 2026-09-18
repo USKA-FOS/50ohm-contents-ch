@@ -1,18 +1,24 @@
-Gli oscillatori, a causa della dipendenza dalla temperatura dei componenti utilizzati al loro interno, hanno sempre una dipendenza della frequenza generata dalla temperatura ambiente. Transistor e diodi hanno una dipendenza relativamente forte dalle loro caratteristiche e dalla temperatura ambiente (fattore di amplificazione, tensione di soglia, capacità). Allo stesso modo, anche i parametri elettrici dei componenti passivi come condensatori, resistenze e in particolare i cristalli oscillanti dipendono dalla loro temperatura ambiente.
-Per mantenere gli oscillatori il più stabili possibile nella loro frequenza, esistono diverse possibilità tecniche e fisiche:
-1. Tutti gli oscillatori dovrebbero sempre essere il più possibile ben isolati termicamente da altre fonti di calore negli apparecchi.
-2. Al posto di un oscillatore RC, LC o VCO, è preferibile un oscillatore a quarzo, poiché è molto più stabile in frequenza grazie all'alto fattore di qualità (Q) del quarzo. Questo tipo di oscillatore è chiamato *XO* - Crystal oscillator.
-3. Utilizzo di un oscillatore a quarzo e compensazione degli influssi termici mediante l'uso di componenti nel circuito dell'oscillatore, in modo che gli influssi di temperatura nell'intervallo di temperatura operativa usuale si compensino a vicenda. Questo tipo di oscillatore è chiamato *TCXO* - Temperature compensated crystal oscillator.
-4. Stabilizzazione artificiale della temperatura ambiente di un oscillatore a quarzo mediante un controllo della temperatura con un circuito termostatico e l'installazione in un involucro termicamente isolato, nonché isolamento da fonti di calore e freddo esterne. Questo tipo di oscillatore è chiamato *OCXO* - Oven controlled crystal oscillator. L'OCXO ha la più alta stabilità di frequenza rispetto agli altri tipi di oscillatori.
+La frequenza di un oscillatore dipende sempre dalla temperatura ambiente, poiché le proprietà dei componenti utilizzati variano al variare della temperatura. Nei transistor e nei diodi, ciò riguarda ad esempio il fattore di amplificazione, la tensione di soglia e le capacità. Anche i componenti passivi come i condensatori, le resistenze e in particolare i quarzi oscillatori presentano proprietà elettriche dipendenti dalla temperatura.
 
-Fondamentalmente, gli oscillatori a frequenza stabile dovrebbero sempre essere il più possibile ben isolati termicamente da fonti di calore e freddo interne ed esterne all'apparecchio. Ciò può avvenire, ad esempio, mediante una distanza il più possibile grande dalle fonti di calore e freddo interne ed esterne, nonché dai flussi d'aria.
+Per mantenere la frequenza di un oscillatore il più stabile possibile, esso dovrebbe essere ben schermato termicamente da altre fonti di calore e freddo all'interno dell'apparecchio. Questo può essere ottenuto, ad esempio, mantenendo una distanza il più possibile elevata da fonti di calore e freddo interne ed esterne, nonché da correnti d'aria. Inoltre, un oscillatore a quarzo è preferibile rispetto a un oscillatore RC, LC o VCO, poiché, grazie all'elevato fattore di qualità del quarzo, offre una stabilità di frequenza notevolmente superiore.
 
 [question:AF215]
+
+Esistono diversi tipi di oscillatori a quarzo, che differiscono per stabilità di frequenza:
+
+* L'oscillatore a quarzo più semplice (cfr. figura [ref:a_xo]) è denominato *XO*, acronimo di *Crystal Oscillator*.
+* Un *TCXO* (*Temperature Compensated Crystal Oscillator*) compensa gli effetti della temperatura tramite componenti aggiuntivi nel circuito dell'oscillatore, in modo che gli effetti dipendenti dalla temperatura si compensino reciprocamente entro il range di temperatura operativa usuale.
+* Un *OCXO* (*Oven-Controlled Crystal Oscillator*) stabilizza la temperatura dell'oscillatore a quarzo mediante un riscaldamento regolato. A tal fine, l'oscillatore è collocato in un involucro termicamente isolato, che lo protegge in larga misura dagli influssi esterni di calore e freddo. Tra i tipi di oscillatori menzionati, l'OCXO offre la massima stabilità di frequenza.
+
+<margin>
+[photo:333:a_xo:Oscillatore a quarzo XO con $\qty{433,75}{\mega\hertz}$]
+[photo:337:a_ocxo:Oscillatore a quarzo OCXO con $\qty{10}{\mega\hertz}$]
+</margin>
+
 [question:AD602]
 [question:AD603]
 [question:AD605]
 
-In particolare durante il funzionamento ad alte frequenze, la stabilità di frequenza dell'oscillatore di riferimento dei trasmettitore-ricevitore, transverter e convertitori è molto importante quando si utilizzano modi operativi che reagiscono in modo sensibile alle deviazioni di frequenza. Per raggiungere le alte frequenze di uscita o di ricezione, all'interno dell'apparecchio avviene una moltiplicazione di frequenza dell'oscillatore di riferimento. Ciò fa sì che le deviazioni di frequenza dell'oscillatore di riferimento si ripercuotano in modo moltiplicativo sulle frequenze di trasmissione o ricezione, il che può portare a elevate deviazioni di frequenza e instabilità di frequenza (ad esempio, deriva del segnale trasmesso o ricevuto).
-Pertanto, si dovrebbe sempre utilizzare il miglior tipo di oscillatore disponibile (ad esempio, TCXO o OCXO).
+In particolare, durante il funzionamento su frequenze elevate, la stabilità di frequenza dell'oscillatore di riferimento di ricetrasmettitori, trasverter e convertitori è molto importante quando si utilizzano metodi di trasmissione sensibili alle deviazioni di frequenza. Per raggiungere le elevate frequenze di trasmissione o ricezione, all'interno dell'apparecchio avviene una moltiplicazione di frequenza dell'oscillatore di riferimento. Ciò comporta che le deviazioni di frequenza dell'oscillatore di riferimento si ripercuotano in modo moltiplicativo sulle frequenze di trasmissione o ricezione, causando elevate deviazioni di frequenza e instabilità di frequenza (ad esempio, deriva del segnale di trasmissione o ricezione). Pertanto, ad esempio, sulla banda dei $\qty{3}{\centi\metro}$ o dei $\qty{10}{\giga\hertz}$, si dovrebbe utilizzare almeno un TCXO.
 
 [question:AD604]

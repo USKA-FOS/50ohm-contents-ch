@@ -1,8 +1,8 @@
 {
-  "abstract": "L'intero programma: da zero alla classe A.",
+  "abstract": "Un ottimo corso per la classe N, perfetto per i principianti!",
   "chapters": [
     {
-      "abstract": "Nel primo capitolo poniamo le basi per la conoscenza del futuro radioamatore. Ci concentriamo sulle conoscenze necessarie per effettuare un primo collegamento in modalità di addestramento sotto la guida e la supervisione di un radioamatore.",
+      "abstract": "Nel primo capitolo gettiamo le basi delle conoscenze necessarie per il futuro radioamatore. Ci concentriamo sulle competenze richieste per effettuare la prima connessione in attività radio di addestramento sotto la guida e la supervisione di un radioamatore.",
       "id": "ch_59c61e2fa00f",
       "identifiers": [
         {
@@ -147,7 +147,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Tavola internazionale di sillabazione"
+          "title": "Alfabeto fonetico internazionale"
         },
         {
           "abstract": null,
@@ -246,7 +246,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Operazioni di formazione"
+          "title": "Attività radio di addestramento"
         },
         {
           "abstract": null,
@@ -312,7 +312,7 @@
             }
           ],
           "sort_order": 9,
-          "title": "Comunicazioni radio solo tra radioamatori"
+          "title": "Comunicazioni radio solo con radioamatori"
         },
         {
           "abstract": null,
@@ -345,14 +345,14 @@
             }
           ],
           "sort_order": 10,
-          "title": "Uso commerciale"
+          "title": "Utilizzo commerciale"
         }
       ],
       "sort_order": 1,
       "title": "Primi passi"
     },
     {
-      "abstract": "Questo capitolo spiega come viene effettivamente trasmesso qualcosa via radio. Impariamo cosa sono le oscillazioni elettriche, cosa significano i termini ampiezza e periodo, cosa sono la frequenza e la lunghezza d'onda e come le onde radio si propagano sul pianeta. Inoltre, ci occupiamo dell'assegnazione delle frequenze ai servizi radio e della pianificazione delle frequenze dei radioamatori nell'autogestione.",
+      "abstract": "In questo capitolo viene spiegato come avviene la trasmissione via radio. Impariamo cosa sono le oscillazioni elettriche, cosa indicano i termini ampiezza e periodo, cosa sono frequenza e lunghezza d’onda e come le onde radio si propagano sul pianeta. Inoltre, ci occupiamo dell’assegnazione delle frequenze ai servizi di radiocomunicazione e della pianificazione delle frequenze dei radioamatori nell’autogestione.",
       "id": "ch_d8ced02b2045",
       "identifiers": [
         {
@@ -695,7 +695,7 @@
             }
           ],
           "sort_order": 10,
-          "title": "Bande radioamatoriali"
+          "title": "Bande di frequenza per radioamatori"
         },
         {
           "abstract": null,
@@ -827,7 +827,7 @@
             }
           ],
           "sort_order": 14,
-          "title": "Piano di banda IARU per 70 cm"
+          "title": "Piano bande IARU per 70 cm"
         },
         {
           "abstract": null,
@@ -999,7 +999,7 @@
       "title": "Frequenza e propagazione delle onde"
     },
     {
-      "abstract": "In questo capitolo ci occupiamo dei diversi tipi di stazioni radioamatoriali e dei loro callsign. Impariamo cosa sono le stazioni di club, le stazioni remote, le stazioni ripetitrici, i beacon e i collegamenti, e ci occupiamo delle stazioni radioamatoriali in luoghi speciali come satelliti o l'Antartide.",
+      "abstract": "In questo capitolo trattiamo le diverse tipologie di stazioni radioamatoriali e i relativi <i>nominativi</i>. Impareremo cosa sono le stazioni di club, le stazioni remote, i ripetitori, le beacon e i collegamenti diretti. Inoltre, affronteremo le stazioni radioamatoriali in luoghi particolari come i satelliti o l'Antartide.",
       "id": "ch_46ed1f55f09f",
       "identifiers": [
         {
@@ -1078,7 +1078,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Callsign personali"
+          "title": "Nominativi personali"
         },
         {
           "abstract": null,
@@ -1111,7 +1111,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Stazioni club"
+          "title": "Stazioni di club"
         },
         {
           "abstract": null,
@@ -1144,7 +1144,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Identificativi di chiamata per la formazione"
+          "title": "Call di formazione"
         },
         {
           "abstract": null,
@@ -1210,7 +1210,7 @@
             }
           ],
           "sort_order": 6,
-          "title": "Suffissi del nominativo"
+          "title": "Suffissi di chiamata"
         },
         {
           "abstract": null,
@@ -1243,7 +1243,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Occasioni speciali"
+          "title": "Occasioni particolari"
         },
         {
           "abstract": null,
@@ -1276,7 +1276,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Stazioni controllate a distanza e automatiche"
+          "title": "Stazioni telecomandate e automatiche"
         },
         {
           "abstract": null,
@@ -1309,7 +1309,7 @@
             }
           ],
           "sort_order": 9,
-          "title": "Stazioni a relè"
+          "title": "Stazioni radio a ripetizione"
         },
         {
           "abstract": null,
@@ -1342,7 +1342,7 @@
             }
           ],
           "sort_order": 10,
-          "title": "Baken"
+          "title": "Beacon"
         },
         {
           "abstract": null,
@@ -1375,7 +1375,7 @@
             }
           ],
           "sort_order": 11,
-          "title": "Collegamenti"
+          "title": "Collegamenti uplink"
         },
         {
           "abstract": null,
@@ -1481,7 +1481,7 @@
       "title": "Stazioni radioamatoriali"
     },
     {
-      "abstract": "Grazie alle numerose bande di frequenza a nostra disposizione nel radioamatore, i contatti radio non si limitano all'amico del vicino. Il mondo intero è il nostro vicino! Le onde radio non hanno confini, possono raggiungere ogni angolo del globo. Questo capitolo tratta dei collegamenti radio all'estero e delle operazioni radio all'estero, ad esempio durante un viaggio di vacanza.",
+      "abstract": "Grazie alle numerose bande di frequenza disponibili nel radioamatore, i contatti radio non si limitano al vicino di casa. Il mondo intero è il nostro vicino! Per le onde radio non esistono confini: possono raggiungere ogni angolo del pianeta. Questo capitolo tratta dei collegamenti radio verso l'estero e dell'attività radio all'estero, ad esempio durante un viaggio di vacanza.",
       "id": "ch_fc81f2f708ad",
       "identifiers": [
         {
@@ -1527,7 +1527,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Prefissi internazionali"
+          "title": "Prefissi nazionali internazionali"
         },
         {
           "abstract": null,
@@ -1626,14 +1626,14 @@
             }
           ],
           "sort_order": 4,
-          "title": "Stazioni all'estero"
+          "title": "Operare all'estero"
         }
       ],
       "sort_order": 4,
-      "title": "Operazioni internazionali"
+      "title": "Attività radio internazionale"
     },
     {
-      "abstract": "In questo capitolo ci occupiamo del fatto che la cosiddetta modulazione rende possibile imprimere informazioni come la voce umana su un'onda radio. Vengono presentati i tipi di modulazione fondamentali AM, FM e SSB.",
+      "abstract": "In questo capitolo affronteremo il concetto di modulazione, che consente di trasmettere informazioni come la voce umana su un'onda radio. Verranno presentate le principali tecniche di modulazione: AM, FM e SSB.",
       "id": "ch_6c3a0f014e07",
       "identifiers": [
         {
@@ -1679,7 +1679,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Segnali a impulsi e codice Morse"
+          "title": "Segnali di fumo e in codice Morse"
         },
         {
           "abstract": null,
@@ -1811,7 +1811,7 @@
             }
           ],
           "sort_order": 5,
-          "title": "Modulazione a banda laterale singola (SSB)"
+          "title": "Modulazione a banda laterale unica (SSB)"
         },
         {
           "abstract": null,
@@ -1910,14 +1910,14 @@
             }
           ],
           "sort_order": 8,
-          "title": "Impostazioni di modulazione sull'apparato radio"
+          "title": "Impostazioni di modulazione sull’apparecchio radio"
         }
       ],
       "sort_order": 5,
       "title": "Modulazione"
     },
     {
-      "abstract": "Questo capitolo tratta dei metodi di trasmissione digitale. Impareremo cosa distingue il digitale dall'analogico, le basi della telegrafia e del telescrivente e quali metodi digitali vengono utilizzati per la trasmissione vocale e quali sono le loro particolarità.",
+      "abstract": "Questo capitolo tratta delle procedure di trasmissione digitale. Impareremo a distinguere il digitale dall'analogico, le basi della telegrafia e della radiotelescrivente, nonché le procedure digitali utilizzate per le trasmissioni vocali e le loro peculiarità.",
       "id": "ch_136d87ee1221",
       "identifiers": [
         {
@@ -1963,7 +1963,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Analogico vs. Digitale"
+          "title": "Analogico vs. digitale"
         },
         {
           "abstract": null,
@@ -2029,7 +2029,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Controllo del computer"
+          "title": "Controllo tramite computer"
         },
         {
           "abstract": null,
@@ -2062,7 +2062,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Telescrivente"
+          "title": "Radiotelescrivente (RTTY)"
         },
         {
           "abstract": null,
@@ -2095,14 +2095,14 @@
             }
           ],
           "sort_order": 5,
-          "title": "Digital Voice (DV)"
+          "title": "Voce digitale (DV)"
         }
       ],
       "sort_order": 6,
-      "title": "Metodi di trasmissione digitale"
+      "title": "Procedure di trasmissione digitale"
     },
     {
-      "abstract": "Ascoltando i radioamatori esperti, si notano immediatamente le numerose abbreviazioni che vengono utilizzate in modo naturale durante un collegamento radio o in una conversazione personale. Abbiamo già incontrato diverse abbreviazioni nei capitoli precedenti. Altre abbreviazioni importanti vengono presentate in questo capitolo.",
+      "abstract": "Ascoltando radioamatori esperti, si notano subito le numerose abbreviazioni che vengono utilizzate spontaneamente durante un collegamento radio o in una conversazione personale. Alcune abbreviazioni le abbiamo già incontrate nei capitoli precedenti. In questo capitolo verranno presentate ulteriori abbreviazioni importanti.",
       "id": "ch_ed54fd085113",
       "identifiers": [
         {
@@ -2181,7 +2181,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Codici Q"
+          "title": "Codice Q"
         },
         {
           "abstract": null,
@@ -2221,7 +2221,7 @@
       "title": "Abbreviazioni"
     },
     {
-      "abstract": "Questo capitolo si occupa di tutto ciò che riguarda le antenne e i cavi di antenna. Oltre alle forme di costruzione delle antenne più importanti, trattiamo anche argomenti come l'installazione di impianti di antenna nei veicoli a motore, la protezione delle persone dalle radiazioni elettromagnetiche e la sicurezza durante la costruzione e il funzionamento di un impianto di antenna.",
+      "abstract": "Questo capitolo tratta tutto ciò che riguarda le antenne e i cavi di antenna. Oltre alle principali tipologie di antenne, vengono affrontati anche temi come l'installazione di impianti di antenna nei veicoli, la protezione delle persone dalle radiazioni elettromagnetiche e la sicurezza nella costruzione e nell'esercizio di un impianto di antenna.",
       "id": "ch_3672a96d2440",
       "identifiers": [
         {
@@ -2267,7 +2267,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Antenne"
+          "title": "Antenna"
         },
         {
           "abstract": null,
@@ -2300,7 +2300,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Antenna a dipolo"
+          "title": "Antenna dipolo"
         },
         {
           "abstract": null,
@@ -2399,7 +2399,7 @@
             }
           ],
           "sort_order": 5,
-          "title": "Antenne a dipolo a V invertita (End-Fed)"
+          "title": "Antenne alimentate all'estremità (End-Fed)"
         },
         {
           "abstract": null,
@@ -2465,7 +2465,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Installazione in auto"
+          "title": "Installazione in veicoli"
         },
         {
           "abstract": null,
@@ -2564,7 +2564,7 @@
             }
           ],
           "sort_order": 10,
-          "title": "Connettori PL"
+          "title": "Connettore PL"
         },
         {
           "abstract": null,
@@ -2630,7 +2630,7 @@
             }
           ],
           "sort_order": 12,
-          "title": "Connettori BNC"
+          "title": "Connettore BNC"
         },
         {
           "abstract": null,
@@ -2729,7 +2729,7 @@
             }
           ],
           "sort_order": 15,
-          "title": "Protezione personale"
+          "title": "Protezione delle persone"
         },
         {
           "abstract": null,
@@ -2762,7 +2762,7 @@
             }
           ],
           "sort_order": 16,
-          "title": "Potenza irradiata effettiva (ERP)"
+          "title": "Potenza irradiata efficace (ERP)"
         },
         {
           "abstract": null,
@@ -2795,7 +2795,7 @@
             }
           ],
           "sort_order": 17,
-          "title": "Potenza irradiata isotropa equivalente (EIRP)"
+          "title": "Potenza isotropica equivalente irradiata (EIRP)"
         },
         {
           "abstract": null,
@@ -2828,7 +2828,7 @@
             }
           ],
           "sort_order": 18,
-          "title": "Potenza di trasmissione classe N"
+          "title": "Potenza di trasmissione Classe N"
         },
         {
           "abstract": null,
@@ -2861,7 +2861,7 @@
             }
           ],
           "sort_order": 19,
-          "title": "Indicazione delle stazioni radioamatoriali fisse"
+          "title": "Visualizzazione di impianti radioamatoriali fissi"
         },
         {
           "abstract": null,
@@ -2894,7 +2894,7 @@
             }
           ],
           "sort_order": 20,
-          "title": "Certificato di localizzazione"
+          "title": "Certificato di ubicazione"
         },
         {
           "abstract": null,
@@ -3026,14 +3026,14 @@
             }
           ],
           "sort_order": 24,
-          "title": "Equipotenziale"
+          "title": "Collegamento equipotenziale"
         }
       ],
       "sort_order": 8,
       "title": "Antenne e cavi"
     },
     {
-      "abstract": "In questo capitolo conosciamo le basi di un apparecchio radio, chiamato anche trasmettitore-ricevitore. Un trasmettitore-ricevitore contiene sia un trasmettitore che un ricevitore in un unico apparecchio. Trasmettitore-ricevitore, apparecchio radio o trasmettitore-ricevitore (poco usato) sono usati in modo equivalente nel gergo dei radioamatori.",
+      "abstract": "In questo capitolo verranno trattate le basi di un apparecchio radio, chiamato anche trasmettitore-ricevitore. Un trasmettitore-ricevitore contiene in un unico apparecchio sia un trasmettitore che un ricevitore. I termini trasmettitore-ricevitore, apparecchio radio o trasmettitore-ricevitore (poco usato) vengono utilizzati in modo equivalente nel linguaggio radioamatoriale.",
       "id": "ch_56df8e2c8ac7",
       "identifiers": [
         {
@@ -3079,7 +3079,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Costruzione di un ricevitore"
+          "title": "Struttura di un ricevitore"
         },
         {
           "abstract": null,
@@ -3211,7 +3211,7 @@
             }
           ],
           "sort_order": 5,
-          "title": "Costruzione di un trasmettitore"
+          "title": "Struttura di un trasmettitore"
         },
         {
           "abstract": null,
@@ -3277,7 +3277,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Dummy-Load"
+          "title": "Carico fittizio"
         },
         {
           "abstract": null,
@@ -3310,7 +3310,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Emissione indesiderata"
+          "title": "Emissioni indesiderate"
         },
         {
           "abstract": null,
@@ -3376,7 +3376,7 @@
             }
           ],
           "sort_order": 10,
-          "title": "Evitare disturbi"
+          "title": "Evitare interferenze"
         },
         {
           "abstract": null,
@@ -3409,14 +3409,14 @@
             }
           ],
           "sort_order": 11,
-          "title": "Disturbi in ricezione"
+          "title": "Disturbi nella ricezione"
         }
       ],
       "sort_order": 9,
       "title": "Trasmettitore-ricevitore"
     },
     {
-      "abstract": "Molti radioamatori documentano ogni contatto radio in un libro di bordo e inviano ai loro interlocutori radiofoniche le cosiddette cartoline QSO per confermare i collegamenti effettuati. A volte la tenuta del libro di bordo viene anche ordinata dall'autorità di regolamentazione per indagare sui disturbi.",
+      "abstract": "Molti radioamatori registrano ogni collegamento radio in un registro di stazione e inviano ai corrispondenti le cosiddette QSL, carte che confermano i collegamenti avvenuti. Talvolta la tenuta del registro di stazione viene prescritta anche dall’Autorità federale di regolamentazione delle reti per indagare su eventuali interferenze.",
       "id": "ch_cebd81e3afe5",
       "identifiers": [
         {
@@ -3462,7 +3462,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Registro"
+          "title": "Registro delle operazioni"
         },
         {
           "abstract": null,
@@ -3499,10 +3499,10 @@
         }
       ],
       "sort_order": 10,
-      "title": "Libro di bordo e cartoline QSL"
+      "title": "Registro di stazione e QSL"
     },
     {
-      "abstract": "In questo capitolo approfondiamo le nostre conoscenze sulla gestione delle operazioni. Tratteremo concorsi radioamatoriali, il comportamento corretto quando molti radioamatori vogliono raggiungere contemporaneamente una determinata stazione, le trasmissioni di immagini e le operazioni radio in caso di emergenza e catastrofi.",
+      "abstract": "In questo capitolo approfondiamo le nostre conoscenze sulla gestione operativa. Tratteremo i concorsi di radioamatore, il corretto comportamento quando molti radioamatori vogliono contattare contemporaneamente una stessa stazione, la trasmissione di immagini e il funzionamento radio in caso di emergenza e calamità.",
       "id": "ch_ff4d1a0c2d07",
       "identifiers": [
         {
@@ -3713,14 +3713,14 @@
             }
           ],
           "sort_order": 6,
-          "title": "Emergenza"
+          "title": "Radioemergenza"
         }
       ],
       "sort_order": 11,
-      "title": "Gestione delle operazioni"
+      "title": "Gestione operativa"
     },
     {
-      "abstract": "Le apparecchiature radio devono essere alimentate con tensione e corrente elettrica per funzionare. In questo capitolo impariamo le basi dell'alimentazione di tensione e corrente con alimentatori, batterie e accumulatori. Vengono trattati anche i pericoli della corrente elettrica.",
+      "abstract": "Gli apparecchi radio devono essere alimentati con tensione e corrente elettrica per funzionare. In questo capitolo apprendiamo le basi dell'alimentazione elettrica con alimentatori di rete, batterie e accumulatori. Vengono trattati anche i pericoli della corrente elettrica.",
       "id": "ch_494f519f6fe9",
       "identifiers": [
         {
@@ -3832,7 +3832,7 @@
             }
           ],
           "sort_order": 3,
-          "title": "Pericoli della corrente elettrica"
+          "title": "Pericoli dovuti alla corrente elettrica"
         },
         {
           "abstract": null,
@@ -3905,7 +3905,7 @@
       "title": "Alimentazione elettrica"
     },
     {
-      "abstract": "I radioamatori godono del privilegio di poter costruire da soli impianti trasmittenti. I radioamatori possono anche modificare impianti trasmittenti prodotti commercialmente. Pertanto, ogni radioamatore richiede conoscenze elettrotecniche, che introdurremo in questo capitolo.",
+      "abstract": "I radioamatori godono del privilegio di poter costruire personalmente gli impianti trasmittenti. Inoltre, possono modificare impianti trasmittenti prodotti commercialmente. Pertanto, da ogni radioamatore vengono richieste conoscenze di elettrotecnica, che verranno introdotte in questo capitolo.",
       "id": "ch_d39f20a115b2",
       "identifiers": [
         {
@@ -3951,7 +3951,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Diritto all'autocostruzione"
+          "title": "Diritto alla costruzione autonoma"
         },
         {
           "abstract": null,
@@ -4050,7 +4050,7 @@
             }
           ],
           "sort_order": 4,
-          "title": "Misurazione della tensione"
+          "title": "Misura della tensione"
         },
         {
           "abstract": null,
@@ -4149,7 +4149,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Codice colore delle resistenze"
+          "title": "Codice colori delle resistenze"
         },
         {
           "abstract": null,
@@ -4255,7 +4255,7 @@
       "title": "Componenti e circuiti"
     },
     {
-      "abstract": "Il radioamatore è soggetto a leggi nazionali e altri regolamenti, in gran parte basati su accordi internazionali. In questo capitolo impareremo tutte le basi legali importanti per i radioamatori che non sono state trattate in precedenza nel corso.",
+      "abstract": "Il radioamatoriale è soggetto a leggi nazionali e altre normative, per lo più basate su accordi internazionali. In questo capitolo vengono presentate tutte le basi giuridiche rilevanti per i radioamatori che non sono state trattate nei capitoli precedenti del corso.",
       "id": "ch_34e103f2929c",
       "identifiers": [
         {
@@ -4301,7 +4301,7 @@
             }
           ],
           "sort_order": 1,
-          "title": "Accordi internazionali, leggi e regolamenti"
+          "title": "Accordi, leggi e regolamenti internazionali"
         },
         {
           "abstract": null,
@@ -4334,7 +4334,7 @@
             }
           ],
           "sort_order": 2,
-          "title": "Servizio radioamatoriale"
+          "title": "servizio di radioamatore"
         },
         {
           "abstract": null,
@@ -4433,7 +4433,7 @@
             }
           ],
           "sort_order": 5,
-          "title": "Autorizzazione"
+          "title": "Abilitazione"
         },
         {
           "abstract": null,
@@ -4466,7 +4466,7 @@
             }
           ],
           "sort_order": 6,
-          "title": "Indirizzo e modifica"
+          "title": "Indirizzo e modifiche"
         },
         {
           "abstract": null,
@@ -4499,7 +4499,7 @@
             }
           ],
           "sort_order": 7,
-          "title": "Tasse e contributi"
+          "title": "Tariffe e contributi"
         },
         {
           "abstract": null,
@@ -4532,7 +4532,7 @@
             }
           ],
           "sort_order": 8,
-          "title": "Segreto delle comunicazioni e divieto di intercettazione"
+          "title": "Segreto delle telecomunicazioni e divieto di intercettazione"
         },
         {
           "abstract": null,
@@ -4565,7 +4565,7 @@
             }
           ],
           "sort_order": 9,
-          "title": "Conclusione del corso"
+          "title": "Violazioni e conseguenze"
         },
         {
           "abstract": null,
@@ -4602,7 +4602,7 @@
         }
       ],
       "sort_order": 14,
-      "title": "Leggi e regolamenti"
+      "title": "Leggi e normative"
     }
   ],
   "id": "ed_213199bd6ba7",

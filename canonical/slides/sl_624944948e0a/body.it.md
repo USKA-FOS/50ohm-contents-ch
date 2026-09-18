@@ -1,23 +1,23 @@
-## Collegamento equipotenziale e messa a terra
+## Equipotenzializzazione e messa a terra
 
-* Il *collegamento equipotenziale* evita una pericolosa tensione di contatto tra gli apparecchi
-* La *messa a terra* dissipa correnti elettriche indesiderate dall'involucro verso terra
+* Con l'*equipotenzializzazione* si evita una tensione di contatto pericolosa tra i dispositivi
+* Tramite la *messa a terra* si deviano verso la *terra* correnti elettriche indesiderate (ad esempio in caso di guasto) dal telaio
 
 ---
 
 <left>
-* Collegare gli apparecchi con cavi corti
-* Collegare alla barra principale di terra dell'edificio
-* VDE 0855-300 per la messa a terra degli impianti radio
+* Collegare i telai metallici dei dispositivi con conduttori corti
+* Collegare al collettore principale di terra dell'edificio
+* VDE 0855-300 per la messa a terra di impianti radio
 </left>
 <right>
-[photo:81:n_Schraubanschluss_GND:Connessione a vite Ground (GND) sul TRX]
+[photo:81:n_Schraubanschluss_GND:Morsetto a vite di terra (GND) sul ricetrasmettitore]
 </right>
 
---- 
+---
 ## Attenzione
 
-Il collegamento equipotenziale e la messa a terra devono essere eseguiti solo se si sa esattamente cosa si sta facendo. In caso di dubbio, è consigliabile chiedere aiuto a un radioamatore più esperto o a un elettricista qualificato.
+Il collegamento di equipotenzializzazione e messa a terra deve essere effettuato solo se si sa esattamente cosa si sta facendo. In caso di dubbio, è opportuno farsi aiutare da un radioamatore più esperto o da un tecnico elettrico.
 
 ---
 [question:VE604]

@@ -1,8 +1,8 @@
 * Collegamento dell'oscillatore a un segnale di riferimento esterno ad alta precisione
-* Oscillatore primario OCXO stabilizzato a lungo termine tramite un segnale di riferimento GPS ad alta precisione
+* L'oscillatore primario OCXO viene stabilizzato a lungo termine tramite un segnale di riferimento ad alta precisione proveniente dal GPS
 * La stabilità a breve termine proviene dall'OCXO
-* Applicazione nel campo dei GHz
-* *GPSDO*: GPS Disciplined Oscillator
+* Applicazione nella gamma dei GHz
+* *GPSDO*: Oscillatore disciplinato da GPS
 
 ---
 [question:AD606]

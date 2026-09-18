@@ -1,9 +1,9 @@
 ## Correzione degli errori in avanti (FEC)
 
-* Se il ricevitore rileva un errore (ad es. tramite bit di parità), può richiedere una ritrasmissione.
-* Con la correzione degli errori in avanti, viene aggiunta ridondanza aggiuntiva (ad es. ulteriori bit di parità).
-* In questo modo non solo viene rilevato che esiste un errore, ma anche dove si trova $\rightarrow$ il bit errato può essere corretto.
-* In inglese si parla di Forward Error Correction (FEC).
+* Se il ricevitore rileva un errore (ad esempio tramite bit di controllo), può richiedere una nuova trasmissione
+* Con la correzione degli errori in avanti viene aggiunta una ridondanza aggiuntiva (ad esempio ulteriori bit di controllo)
+* In questo modo non solo si rileva la presenza di un errore, ma anche la posizione in cui si trova $\rightarrow$ il bit errato può essere corretto
+* In inglese si parla di *Forward Error Correction* (FEC)
 
 ---
 
@@ -15,10 +15,10 @@
 
 ---
 
-## Codice di Hamming – Correzione degli errori in dettaglio
+## Codice di Hamming – Correzione degli errori nel dettaglio
 
-* Il codice di Hamming utilizza più bit di parità per non solo rilevare gli errori, ma anche per correggerli.
-* Obiettivo: Un singolo errore di bit deve essere localizzato e corretto.
+* Il codice di Hamming utilizza più bit di parità per non solo rilevare, ma anche correggere gli errori
+* Obiettivo: localizzare e correggere un singolo errore di bit
 
 ---
 
@@ -26,8 +26,8 @@
 [picture:683:hamming1:Trasmissione di 11 bit]
 </left>
 <right>
-* Esempio: Trasmissione di una parola dati di 11 bit.
-* Obiettivo: Rilevamento e correzione degli errori in caso di errore di un singolo bit.
+* Esempio: trasmissione di una parola dati di 11 bit
+* Obiettivo: rilevamento e correzione di un errore di bit
 </right>
 
 ---
@@ -36,16 +36,16 @@
 [picture:682:hamming2:Denominazione alfabetica delle posizioni dei bit]
 </left>
 <right>
-* Le posizioni dei bit sono denominate alfabeticamente per identificare le singole aree.
+* Le posizioni dei bit vengono denominate alfabeticamente per identificare le singole aree
 </right>
 
 ---
 
 <left>
-[picture:684:hamming3:Riordino con bit aggiuntivi]
+[picture:684:hamming3:Riorganizzazione con bit aggiuntivi]
 </left>
 <right>
-* Disposizione dei bit di dati con posizioni di bit aggiuntive per i bit di parità.
+* Organizzazione dei bit dati con posizioni aggiuntive per i bit di parità
 </right>
 
 ---
@@ -54,8 +54,8 @@
 [picture:685:hamming4:Quattro bit di parità nel codice di Hamming]
 </left>
 <right>
-* Invece di un singolo bit di parità, vengono utilizzati quattro bit di parità ($p_1$–$p_4$).
-* Questi coprono diverse aree dei bit di dati, simili a un cruciverba.
+* Invece di un singolo bit di controllo, vengono utilizzati quattro bit di parità ($p_1$–$p_4$)
+* Questi coprono aree diverse dei bit dati, simile a un cruciverba
 </right>
 
 ---
@@ -64,26 +64,24 @@
 [picture:686:hamming5:Assegnazione delle aree di parità]
 </left>
 <right>
-* Ogni bit di parità protegge un'area specifica dei dati.
+* Ogni bit di parità protegge una specifica area dei dati
 </right>
 
 ---
 
 <left>
-[picture:687:hamming6:Calcolo dei bit di parità (Parità pari)]
+[picture:687:hamming6:Calcolo dei bit di parità (parità pari)]
 </left>
 <right>
-* Per ogni area, il bit di parità viene calcolato utilizzando la parità pari.
-* Se si verifica un errore, le aree errate possono essere identificate e corrette.
+* Per ogni area, il bit di parità viene calcolato tramite parità pari
+* Se si verifica un errore, è possibile identificare e correggere le aree errate
 </right>
 
 ---
 
 <left>
-[picture:687:hamming6:Calcolo dei bit di parità (Parità pari)]
+[picture:687:hamming6:Calcolo dei bit di parità (parità pari)]
 </left>
 <right>
-* Combinando le aree di parità, è possibile determinare la posizione del bit errato.
-* Esempio: Se un determinato bit (ad es. bit $k$) viene modificato durante la trasmissione, tutti i controlli di parità associati falliscono, quindi l'errore si trova nel bit $k$.
-</right>
-
+* Combinando le aree di parità, è possibile determinare la posizione del bit errato
+* Esempio: se un determinato bit (ad esempio il bit $k$) viene modificato durante la trasmissione, tutti i controlli di parità associati falliscono: l'errore si trova quindi nel bit $k$

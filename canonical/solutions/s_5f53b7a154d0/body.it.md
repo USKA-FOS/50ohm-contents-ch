@@ -1,5 +1,5 @@
-Nella circuito rappresentata, la zona P si trova a $\qty{0}{\volt}$ e la zona N a $\qty{+5}{\volt}$. La Diode viene quindi utilizzata in polarizzazione inversa.
+Nel circuito rappresentato, la regione P si trova a $\qty{0}{\volt}$ e la regione N a $\qty{+5}{\volt}$. Il diodo viene quindi polarizzato in inversa.
 
-Con una Tensione inversa, i portatori di carica liberi vengono allontanati dalla zona di svuotamento. Di conseguenza, la zona di svuotamento o zona di giunzione si allarga.
+In polarizzazione inversa, i portatori di carica liberi vengono allontanati dalla giunzione. Di conseguenza, si allarga la zona di svuotamento, o strato di sbarramento.
 
-[picture:957:a_pn_uebergang:La giunzione PN si allarga]
+[picture:957:a_pn_uebergang:Giunzione PN si allarga]

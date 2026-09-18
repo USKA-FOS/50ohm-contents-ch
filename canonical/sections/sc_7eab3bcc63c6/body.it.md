@@ -1,12 +1,12 @@
-In seguito, ci occuperemo principalmente della modulazione della voce. Per fare ciò, dobbiamo prima capire cosa costituisce la voce. Quando parliamo, vengono prodotti molti suoni diversi, bassi e alti, così come deboli e forti, sotto forma di onde sonore. Chiamiamo questo un *segnale vocale*.
+Nel prosieguo ci concentreremo soprattutto sulla modulazione del segnale vocale. Per farlo, dobbiamo prima capire cosa caratterizza effettivamente la voce. Quando parliamo, si generano molteplici suoni bassi e alti, silenziosi e forti, sotto forma di onde sonore. Questo lo chiamiamo un *segnale vocale*.
 
-Quando parliamo in un microfono, questo converte il segnale vocale. Dai suoni bassi e alti, così come deboli e forti, si ottengono oscillazioni elettriche lente e veloci con ampiezza piccola e grande. Il segnale vocale non è più presente come onda sonora, ma come oscillazione elettrica e può essere elaborato nell'apparecchio radio.
+Se parliamo in un microfono, questo lo converte in un segnale elettrico. Dai suoni bassi e alti, silenziosi e forti, si ottengono oscillazioni elettriche lente e veloci con ampiezza piccola o grande. Il segnale vocale non è più presente come onda sonora, ma come oscillazione elettrica e può essere elaborato nell'apparecchio radio.
 
 <webmargin>
-[picture:742:n_sprachspektrum:Voce umana nello spettro di ampiezza, a sinistra i toni bassi e a destra i toni alti]
+[picture:742:n_sprachspektrum:Voce umana nello spettro di ampiezza, a sinistra i toni bassi e a destra quelli alti]
 </webmargin>
 
-Nella figura [ref:n_sprachspektrum] vediamo un tipico segnale vocale come spettro di ampiezza. Viene mostrata la Banda di frequenza da $\qtyrange{0}{20}{\kilo\hertz}$. La curva rappresenta l'ampiezza per la rispettiva frequenza. Si può ben vedere che la voce non contiene frequenze arbitrariamente alte. Per le trasmissioni radio, viene spesso utilizzato un campo di frequenza ancora più ristretto.
+Nell’illustrazione [ref:n_sprachspektrum] vediamo un tipico segnale vocale rappresentato come spettro di ampiezza. Viene mostrata la banda di frequenza da $\qtyrange{0}{20}{\kilo\hertz}$. La curva rappresenta l’ampiezza per ogni frequenza. Si può notare chiaramente che la voce non contiene frequenze arbitrariamente alte. Per le trasmissioni radio viene spesso utilizzato un intervallo di frequenza ancora più ristretto.
 
 [include:spektrum_sprachsignale]
 
@@ -14,11 +14,11 @@ Nella figura [ref:n_sprachspektrum] vediamo un tipico segnale vocale come spettr
 
 <margin>
 [picture:730:n_sprachspektrum_symbolisch:Rappresentazione simbolica dello spettro audio]
-[picture:475:n_sprachspektrum_beispiel:Esempio di spettro audio]
+[picture:475:n_sprachspektrum_beispiel:Esempio di uno spettro audio]
 </margin>
 
-Nella figura [ref:n_sprachspektrum_symbolisch] vediamo la rappresentazione simbolica di uno spettro vocale. Sull'asse X, da sinistra a destra, sono rappresentate diverse frequenze. I toni bassi con frequenze più piccole si trovano più a sinistra dei toni alti con frequenze più alte, che si trovano più a destra. Sull'asse Y, dal basso verso l'alto, è rappresentato il volume del rispettivo tono, in gergo tecnico lo chiamiamo ampiezza. Più in alto si va, più forte è il tono.
+Nell’illustrazione [ref:n_sprachspektrum_symbolisch] vediamo una rappresentazione simbolica di uno spettro vocale. Sull’asse X, da sinistra a destra, sono rappresentate diverse frequenze. I toni bassi con frequenze minori si trovano più a sinistra rispetto ai toni alti con frequenze maggiori, che si trovano più a destra. Sull’asse Y, dal basso verso l’alto, è rappresentata la sonorità di ogni frequenza, tecnicamente chiamata ampiezza. Più in alto si trova il punto, più forte è il tono.
 
-Nella figura [ref:n_sprachspektrum_beispiel] si trova un esempio concreto. Si può leggere una Banda di frequenza utilizzata da $\qtyrange{300}{2700}{\hertz}$. La "larghezza" del segnale è chiamata Larghezza di banda e indicata in hertz ($\unit{\hertz}$). In questo caso, la Larghezza di banda è $\qty{2700}{\hertz}$ - $\qty{300}{\hertz}$ = $\qty{2400}{\hertz}$.
+Nell’illustrazione [ref:n_sprachspektrum_beispiel] troviamo un esempio concreto. Si può leggere una banda di frequenza utilizzata da $\qtyrange{300}{2700}{\hertz}$. La "larghezza" del segnale viene chiamata larghezza di banda ed è espressa in hertz ($\unit{\hertz}$). In questo caso, la larghezza di banda è $\qty{2700}{\hertz}$ - $\qty{300}{\hertz}$ = $\qty{2400}{\hertz}$.
 
-Utilizzeremo questo segnale vocale di esempio per modulare una portante. Un segnale utilizzato per modulare una portante è chiamato *segnale di modulazione*.
+Questo segnale vocale esemplificativo verrà utilizzato per modulare una portante. Un segnale con cui si modula una portante viene chiamato *segnale di modulazione*.

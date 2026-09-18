@@ -1,0 +1,3 @@
+La configurazione a emettitore comune offre un elevato guadagno in tensione alternata, tipicamente nell’intervallo $\num{100}\dots\num{300}$. Il condensatore di emettitore bypassa la resistenza di emettitore per i segnali alternati e riduce così la controreazione, consentendo di ottenere un’elevata amplificazione.
+
+Se la tensione d’ingresso alla base aumenta, cresce anche la corrente di collettore. Di conseguenza, la caduta di tensione sulla resistenza di collettore aumenta e la tensione d’uscita al collettore diminuisce. Il segnale d’ingresso e quello d’uscita sono quindi in opposizione di fase; lo sfasamento è di $\qty{180}{\degree}$. 

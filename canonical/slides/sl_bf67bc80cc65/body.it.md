@@ -1,21 +1,23 @@
+--- data-transition="none"
 ### 1. Microfono
 
 <left>
 [picture:735:aufbau_sender:Diagramma a blocchi di un semplice trasmettitore]
 </left>
 <right>
-* Converte le onde sonore in segnale a bassa frequenza (NF)
+* Converte le onde sonore in segnale BF
+* Oppure il segnale dall’uscita audio di un computer
 </right>
 
 --- data-transition="none"
 
-### 2. Amplificatore a bassa frequenza (NF)
+### 2. Amplificatore di bassa frequenza
 
 <left>
 [picture:735:aufbau_sender:Diagramma a blocchi di un semplice trasmettitore]
 </left>
 <right>
-* Amplifica il segnale NF dal microfono
+* Amplifica il segnale BF dal microfono o dal computer
 </right>
 
 --- data-transition="none"
@@ -26,10 +28,11 @@
 [picture:735:aufbau_sender:Diagramma a blocchi di un semplice trasmettitore]
 </left>
 <right>
-* Mescola il segnale NF con la portante ad alta frequenza (HF) dall'oscillatore (4)
+* Combina il segnale BF con la portante ad alta frequenza dell’oscillatore (4)
+* La portante ad alta frequenza è modulata in ampiezza
 </right>
 <note>
-Quando un mixer combina due segnali, ciò corrisponde matematicamente a una moltiplicazione dei due segnali. Ecco perché il simbolo della moltiplicazione si trova anche nel simbolo a blocchi del mixer. Come funziona esattamente un mixer è contenuto nel corso per la classe A.
+Quando un mixer unisce due segnali, matematicamente corrisponde a una moltiplicazione dei due segnali. Pertanto, anche il simbolo del blocco del mixer contiene il segno della moltiplicazione. Come funziona esattamente un mixer è oggetto del corso per la classe A.
 </note>
 
 --- data-transition="none"
@@ -40,7 +43,7 @@ Quando un mixer combina due segnali, ciò corrisponde matematicamente a una molt
 [picture:735:aufbau_sender:Diagramma a blocchi di un semplice trasmettitore]
 </left>
 <right>
-* Genera un'oscillazione ad alta frequenza della frequenza di trasmissione
+* Genera un’oscillazione ad alta frequenza alla frequenza di trasmissione
 </right>
 
 --- data-transition="none"
@@ -51,8 +54,8 @@ Quando un mixer combina due segnali, ciò corrisponde matematicamente a una molt
 [picture:735:aufbau_sender:Diagramma a blocchi di un semplice trasmettitore]
 </left>
 <right>
-* Il mixer genera frequenze indesiderate
-* Il filtro passa-banda lascia passare solo le frequenze desiderate
+* Il mixer genera altre frequenze indesiderate
+* Con il filtro passa-banda vengono fatte passare solo le frequenze desiderate
 </right>
 
 --- data-transition="none"
@@ -63,7 +66,7 @@ Quando un mixer combina due segnali, ciò corrisponde matematicamente a una molt
 [picture:735:aufbau_sender:Diagramma a blocchi di un semplice trasmettitore]
 </left>
 <right>
-* Amplifica il segnale HF alla potenza di trasmissione desiderata
+* Amplifica il segnale ad alta frequenza alla potenza di trasmissione desiderata
 </right>
 
 --- data-transition="none"
@@ -74,8 +77,8 @@ Quando un mixer combina due segnali, ciò corrisponde matematicamente a una molt
 [picture:735:aufbau_sender:Diagramma a blocchi di un semplice trasmettitore]
 </left>
 <right>
-* L'amplificatore può generare frequenze indesiderate
-* Solo le frequenze desiderate vengono lasciate passare
+* L’amplificatore può generare frequenze indesiderate
+* Vengono fatte passare solo le frequenze desiderate
 </right>
 
 --- data-transition="none"
@@ -86,8 +89,8 @@ Quando un mixer combina due segnali, ciò corrisponde matematicamente a una molt
 [picture:735:aufbau_sender:Diagramma a blocchi di un semplice trasmettitore]
 </left>
 <right>
-* Il segnale HF viene inviato all'antenna
-* L'antenna lo irradia come onda radio
+* Il segnale ad alta frequenza viene inviato all’antenna
+* L’antenna lo irradia come onda radio
 </right>
 
 ---
@@ -101,7 +104,7 @@ Quando un mixer combina due segnali, ciò corrisponde matematicamente a una molt
 
 ---
 
-Un impianto radioamatoriale deve essere costruito e gestito secondo le regole generalmente riconosciute della tecnica. Questo vale naturalmente in modo particolare per i trasmettitori.
+Un impianto radioamatoriale deve essere costruito e utilizzato secondo le regole tecniche generalmente riconosciute. Questo vale ovviamente anche, e soprattutto, per i trasmettitori.
 
 ---
 [question:VD106]

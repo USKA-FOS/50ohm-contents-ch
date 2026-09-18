@@ -1,28 +1,28 @@
 <left>
-* Impianto automatico di trasmissione per radioamatori
-* Trasmissioni ripetute continuamente
-* Per osservazioni sull'intensità di campo o tentativi di ricezione
-* Può anche essere in satelliti
+* Impianto trasmittente radioamatoriale in funzionamento automatico
+* Trasmissioni ripetitive continue
+* Per osservazioni di intensità di campo o prove di ricezione
+* Può trovarsi anche su satelliti
 </left>
 <right>
-* Frequenza assegnata fissa
+* Frequenza assegnata in modo fisso
 * Posizione fissa
-* Segnale di chiamata a intervalli regolari
-* Per lo più in telegrafia Morse
+* Nominativo trasmesso a intervalli regolari
+* Generalmente in telegrafia Morse
 </right>
 
 ---
 [question:VD119]
 ---
 
-## Utilizzo delle boe
-* Ricevibilità dipendente dalle condizioni di propagazione variabili
+## Utilizzo delle Bake
+* Ricevibilità dipendente dalle condizioni mutevoli di propagazione
 * Indicatore della fattibilità di un collegamento radio
-* Testare la riflessione sulle aurore boreali nella banda VHF tramite "boe aurora"
-* Verificare l'orientamento dell'antenna tramite rilevamento della direzione
+* Testare la riflessione sulle aurore boreali nella banda VHF tramite "bake Aurora"
+* Verificare l’orientamento delle antenne tramite rilevamento direzionale
 
 <note>
-* Se si sente una boa dal Sud America sulla onda corta, è possibile anche un collegamento radio lì
+* Se si sente una bake in onde corte proveniente dall’America del Sud, allora è possibile anche un collegamento radio verso quella direzione
 </note>
 
 ---
@@ -30,10 +30,10 @@
 
 --- style="font-size: 0.7em;"
 
-## Progetto Internazionale Boe (IBP)
+## Progetto Internazionale delle Bake (IBP)
 <left>
-* Numero maggiore di boe distribuite in tutti i continenti
-* Trasmettono una dopo l'altra in una sequenza temporale definita
+* Numero elevato di bake distribuite su tutti i continenti
+* Trasmettono in sequenza temporale prestabilita una dopo l’altra
 * Tutte sulla stessa frequenza
 </left>
 <right>
@@ -43,14 +43,14 @@
 | $\qty{15}{\meter}$ | $\qtyrange{21149}{21151}{\kilo\hertz}$ |
 | $\qty{17}{\meter}$ | $\qtyrange{18109}{18111}{\kilo\hertz}$ |
 | $\qty{20}{\meter}$ | $\qtyrange{14099}{14101}{\kilo\hertz}$ |
-[table:n_baken_frequenzbereiche:Frequenze per le boe secondo il piano di banda IARU]
+[table:n_baken_frequenzbereiche:Bande di frequenza per le bake secondo il piano delle bande IARU]
   
 <fragment>
-Non effettuare traffico radio lì!
+Non effettuare trasmissioni radio in queste bande!
 </fragment>
 </right>
 <note>
-* Utile per avere rapidamente una panoramica delle condizioni di propagazione
+* Utile per ottenere rapidamente una panoramica delle condizioni di propagazione
 </note>
 
 ---

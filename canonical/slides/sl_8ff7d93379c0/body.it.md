@@ -1,9 +1,26 @@
+## Analogia: circuito idraulico
+
 <left>
-* Consiste in una fonte di tensione e un consumatore
-* La tensione fa scorrere la corrente
+[immagine:667:n_stromkreis_wasserkreislauf:Circuito idraulico]
 </left>
 <right>
-[picture:662:n_stromkreis_geschlossen:Circuito chiuso]
+1. La pompa genera pressione e spinge l’acqua verso l’alto
+2. L’acqua scorre attraverso una valvola aperta
+3. La ruota idraulica viene azionata dall’acqua in movimento
+</right>
+<note>
+Se si chiude la valvola, il circuito idraulico si interrompe e la ruota idraulica si ferma. L’analogia è solo un modello e non si applica a tutti i fenomeni dell’elettrotecnica, ma aiuta a comprendere i concetti di base.
+</note>
+
+---
+
+<left>
+* È composto da una sorgente di tensione e un utilizzatore
+* La tensione fa fluire la corrente
+* Come la pompa, che genera una tensione invece di una pressione
+</left>
+<right>
+[immagine:662:n_stromkreis_geschlossen:Circuito chiuso]
 </right>
 
 ---
@@ -12,12 +29,12 @@
 
 <left>
 * Interrompe o chiude il circuito
-* Con l'interruttore aperto, il flusso di corrente è interrotto
+* Con l’interruttore aperto il flusso di corrente è interrotto
 
-[picture:663:n_stromkreis_offen:Circuito aperto]
+[immagine:663:n_stromkreis_offen:Circuito aperto]
 </left>
 <right>
-[photo:202:n_stromkreis_schalter:Simbolo di circuito e forme costruttive degli interruttori]
+[foto:202:n_stromkreis_schalter:Simboli di circuito e forme costruttive degli interruttori]
 </right>
 
 ---
@@ -30,16 +47,14 @@
 
 <left>
 * Limita il flusso di corrente
-* Converte la corrente in calore
+* Trasforma la corrente in calore
+* Il circuito deve sempre includere una resistenza!
+  * Altrimenti si verifica un cortocircuito
+  * Può fluire una corrente elevata e la sorgente di tensione o i cavi possono surriscaldarsi
 </left>
 <right>
-[photo:203:n_stromkreis_widerstand:Simbolo di circuito e forme costruttive delle resistenze]
+[foto:203:n_stromkreis_widerstand:Simboli di circuito e forme costruttive delle resistenze]
 </right>
-<note>
-* Eseguire sempre il circuito con una resistenza!
-* Altrimenti si verifica un cortocircuito
-* Può scorrere una grande corrente e la fonte di tensione o i cavi possono surriscaldarsi
-</note>
 
 ---
 
@@ -49,9 +64,9 @@
 
 ## Direzione della corrente
 
-[picture:662:n_stromkreis_geschlossen:Circuito chiuso]
+[immagine:662:n_stromkreis_geschlossen:Circuito chiuso]
 
-Dal polo positivo al polo negativo: *direzione tecnica della corrente*
+Dal polo positivo al polo negativo: *verso convenzionale della corrente*
 
 <note>
 Nella direzione della freccia
@@ -64,4 +79,3 @@ Nella direzione della freccia
 ---
 
 [question:NB207]
-

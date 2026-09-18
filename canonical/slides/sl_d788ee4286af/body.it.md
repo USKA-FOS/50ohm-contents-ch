@@ -1,78 +1,78 @@
-* Tramite i transistor è possibile amplificare tutti i tipi di segnali (digitali, BF o HF), a seconda del tipo di circuito.
-* La potenza d’uscita è maggiore rispetto alla potenza d’ingresso.
-* È necessaria una fonte di tensione.
-* Abbiamo già visto nel capitolo sui transistor come funziona.
+* Tramite transistor, a seconda del tipo di circuito, è possibile amplificare tutti i tipi di segnale (digitale, BF o RF).
+* In questo caso, la potenza d’uscita è maggiore rispetto alla potenza d’ingresso.
+* È necessaria una sorgente di tensione.
+* Nel capitolo dedicato al transistor abbiamo già visto come funziona.
 
 ---
 
-[question:ED401]
+[domanda:ED401]
 
 ---
 
-[question:ED403]
+[domanda:ED403]
 
 ---
 
-<left>
-* *Linearità* significa: un raddoppio del segnale di ingresso deve portare a un raddoppio del segnale di uscita.
-* Le deviazioni dalla linearità sono indesiderate perché portano a frequenze che non sono presenti nel segnale originale.
-* Nell'ambito BF vengono percepite come *distorsioni* e nell'ambito HF come *armoniche superiori*.
-</left>
-<right>
-[picture:828:e_verstaerker_linearitaet:Il segnale di ingresso viene amplificato. In caso di limitazione dovuta a mancanza di linearità, il segnale di uscita viene deformato.]
-</right>
-<note>
-* Maggiori informazioni sulle armoniche superiori nella sezione "Emissioni indesiderate" nel capitolo "Trasmettitore".
-* Eccezione sono gli amplificatori per FM, poiché in FM l'informazione viene trasmessa tramite una variazione di frequenza e non tramite una variazione di ampiezza.
-</note>
+<sinistra>
+* *Linearità* significa: un raddoppio del segnale d’ingresso deve comportare un raddoppio del segnale d’uscita.
+* Le deviazioni dalla linearità sono indesiderate, poiché generano frequenze non presenti nel segnale originale.
+* Nel campo BF vengono percepite come *distorsioni*, mentre nel campo RF come *armoniche*.
+</sinistra>
+<destra>
+[immagine:828:e_verstaerker_linearitaet:Il segnale d’ingresso viene amplificato. In caso di limitazione dovuta alla mancanza di linearità, il segnale d’uscita viene deformato.]
+</destra>
+<nota>
+* Maggiori informazioni sulle armoniche nella sezione *Irradiazioni indesiderate* nel capitolo *Trasmettitore*.
+* Eccezione sono gli amplificatori per FM, poiché in FM l’informazione viene trasmessa tramite variazione di frequenza e non di ampiezza.
+</nota>
 
 ---
 
-[question:EF403]
+[domanda:EF403]
 
 ---
 
-<left>
-* Gli amplificatori BF trovano applicazione nel radioamatore, ad esempio, per aumentare il segnale per l'uscita nell'altoparlante.
-</left>
-<right>
-[picture:763:e_nf_verstaerker:Schema di un amplificatore BF]
-</right>
+<sinistra>
+* Gli amplificatori BF trovano applicazione nella radioamatoriale, ad esempio, per elevare il segnale in uscita verso un altoparlante.
+</sinistra>
+<destra>
+[immagine:763:e_nf_verstaerker:Circuito di un amplificatore BF]
+</destra>
 
 ---
 
-[question:ED402]
+[domanda:ED402]
 
 ---
 
-<left>
-* Si trovano amplificatori anche nell'amplificazione del segnale del microfono.
-* Amplificazione nell'intervallo di circa $\qtyrange{300}{3000}{\hertz}$
-* La Larghezza di banda è di $\qty{2,7}{\kilo\hertz}$ o inferiore.
-</left>
-<right>
-[picture:246:e_frequenzgang_mikrofonverstaerker:Tipica risposta in frequenza per un amplificatore microfonico per radioamatore]
-</right>
+<sinistra>
+* Anche nell’amplificazione del segnale del microfono si utilizzano amplificatori.
+* Amplificazione nell’intervallo di circa $\qtyrange{300}{3000}{\hertz}$.
+* La larghezza di banda è di $\qty{2,7}{\kilo\hertz}$ o inferiore.
+</sinistra>
+<destra>
+[immagine:246:e_frequenzgang_mikrofonverstaerker:Tipica risposta in frequenza di un amplificatore per microfono radioamatoriale]
+</destra>
 
 ---
 
-[question:EF307]
+[domanda:EF307]
 
 ---
 
-[question:EF308]
-<note>
-* Riconoscibile dal microfono precedente, utilizzato per SSB.
-</note>
+[domanda:EF308]
+<nota>
+* Riconoscibile dal microfono utilizzato in precedenza per SSB.
+</nota>
 
 ---
 
-* L'alimentazione di un trasmettitore dovrebbe avere, oltre alla stabilità, anche una buona protezione contro l'irraggiamento HF.
-* Ciò impedisce l'ingresso di alta frequenza nella rete elettrica.
-<note>
-* Maggiori informazioni nella sezione "Emissioni indesiderate" nel capitolo "Trasmettitore".
-</note>
+* L’alimentazione di un trasmettitore deve garantire, oltre alla stabilità, anche una buona protezione contro l’irradiazione RF incidente.
+* In questo modo si evita che l’alta frequenza entri nella rete elettrica.
+<nota>
+* Maggiori informazioni nella sezione *Irradiazioni indesiderate* nel capitolo *Trasmettitore*.
+</nota>
 
 ---
 
-[question:EF405]
+[domanda:EF405]

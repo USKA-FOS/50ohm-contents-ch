@@ -1,33 +1,33 @@
-%YPA: Quali nominativi vogliamo usare per l'esempio di QSO?
-%YPA: si dice chiamata? Non appello?
+%YPA: Quali nominativi [index:nominativo] vogliamo utilizzare per l'esempio di QSO?
+%YPA: si dice "chiamata"? Non "appello"?
 
-Le comunicazioni radio [index:Funkverbindung] avvengono per lo più reciprocamente su una frequenza. Cioè, una stazione trasmette mentre l'altra ascolta. Se entrambe trasmettono contemporaneamente, nessuna delle due sente. Pertanto, è importante che ci sia un certo ordine nello svolgimento di una comunicazione radio, la cosiddetta gestione operativa [index:Betriebsabwicklung].
+I collegamenti radio [index:collegamento radio] avvengono solitamente in modo bidirezionale su una stessa frequenza. Ovvero, una stazione trasmette mentre l'altra ascolta. Se entrambe trasmettono contemporaneamente, nessuna delle due riceve. Pertanto, è importante che vi sia una certa ordine nello svolgimento di un collegamento radio, detto anche *gestione operativa* [index:gestione operativa].
 
-In molti servizi radio, la gestione operativa è prescritta in modo molto preciso, ad esempio nella radio aeronautica, della polizia, dei vigili del fuoco o dei servizi di soccorso. Nell'radioamatore non ci sono requisiti obbligatori per la gestione operativa. È necessario solo che il nominativo venga pronunciato correttamente. Ma anche nell'radioamatore ha senso orientarsi alla gestione operativa usuale e conoscere le abbreviazioni comuni. Pertanto, esiste anche una sezione separata dell'esame "Conoscenze operative".
+Nei molti servizi radio la gestione operativa è strettamente regolamentata, ad esempio nel radiofonia aeronautica, nella polizia, nei vigili del fuoco o nei servizi di soccorso. Nel radioamatoriale [index:radioamatoriale] non esistono prescrizioni vincolanti per la gestione operativa. È sufficiente menzionare correttamente il nominativo. Tuttavia, anche nel radioamatoriale è utile seguire le consuetudini di gestione operativa e conoscere le abbreviazioni più diffuse. Per questo esiste anche una specifica parte d'esame denominata "conoscenze operative".
 
-Tutti i radioamatori utilizzano in comune le frequenze disponibili. Qui vale il principio: chi prima arriva, meglio alloggia. Pertanto, prima di iniziare una comunicazione radio, si dovrebbe ascoltare per un po' per vedere se la frequenza non è già utilizzata da un'altra stazione. Per essere assolutamente sicuri, si dovrebbe chiedere ancora due o tre volte brevemente se la frequenza è libera.
+Tutti i radioamatori utilizzano le frequenze disponibili in comune. Vale il principio: "chi arriva prima, macina prima". Pertanto, prima di iniziare un collegamento radio, si dovrebbe ascoltare per un po' di tempo se la frequenza non sia già utilizzata da un'altra stazione. Per essere sicuri, si dovrebbe poi chiedere brevemente per due o tre volte se la frequenza è libera.
 
 <qso>
-È questa frequenza libera? DL1PZ
+È libera questa frequenza? HB9RW
 > *(nessuna risposta)*
-È questa frequenza libera? DL1PZ
+È libera questa frequenza? HB9RW
 > *(nessuna risposta)*
-CQ CQ qui DL1PZ con una chiamata generale, qui DL1PZ e ascolto.
-> DL1PZ qui DL9MJ prego venire
+CQ CQ qui è HB9RW con una chiamata generale, qui HB9RW e ascolto.
+> HB9RW qui è HB9CN, prego rispondere
 </qso>
 
-Se non segue alcuna risposta, si può presumere che la frequenza non sia occupata. Ora si può iniziare una comunicazione radio. Come al telefono, questo si chiama chiamata [index:Anruf]. Fondamentalmente ci sono due possibilità, la chiamata generale e la chiamata mirata:
+Se non si riceve risposta, si può presumere che la frequenza non sia occupata. Ora si può iniziare un collegamento radio. Come al telefono, questa azione si chiama *chiamata* [index:chiamata]. In linea di principio, esistono due modalità di chiamata: la chiamata generale e la chiamata mirata.
 
-* Con una chiamata *generale* [index:Anruf:Allgemein] si chiede a *tutte* le stazioni che possono sentirci di rispondere. L'abbreviazione operativa internazionale per la chiamata generale è CQ. Se CQ viene pronunciato in inglese (circa "si-kju"), suona proprio come "seek you" (circa "sik-ju"), cioè "ti cerco". Nel traffico radiofonico di lingua tedesca, al posto di CQ si usa anche la frase "Chiamata generale".
-* Con una chiamata *mirata* [index:Anruf:Gezielt], invece, si desidera la risposta di *una stazione specifica*.
+* Con una *chiamata generale* [index:chiamata:Generale] si invita *tutte* le stazioni che possono ricevere a rispondere. L'abbreviazione internazionale per la chiamata generale è CQ. Se CQ viene pronunciato in inglese (ad esempio "si-kju"), suona come "seek you" (circa "sik-ju"), cioè "ti cerco". Nel traffico radiofonico in lingua tedesca, invece di CQ si usa anche la locuzione "chiamata generale".
+* Con una *chiamata mirata* [index:chiamata:Mirata] invece si desidera la risposta *di una stazione specifica*.
 
 ---
 
-La risposta avviene sia per le chiamate generali che per quelle mirate allo stesso modo. Si pronuncia prima il nominativo della stazione chiamante e poi il proprio nominativo.
+La risposta, sia per chiamate generali che mirate, avviene nello stesso modo. Si menziona prima il nominativo della stazione che ha effettuato la chiamata e poi il proprio nominativo.
 
 <qso>
-DL9MJ da DL1PZ prego venire
-> DL1PZ qui DL9MJ
+HB9CN da HB9RW, prego rispondere
+> HB9RW qui è HB9CN
 </qso>
 
 [question:BB102]
@@ -37,25 +37,25 @@ DL9MJ da DL1PZ prego venire
 
 ---
 
-Può succedere che non si senta completamente una chiamata, ma si sentano parti del proprio nominativo e non si sia sicuri se si è stati chiamati. In tal caso, si dovrebbe semplicemente chiedere se si è stati chiamati.
+Può capitare di non afferrare completamente una chiamata, ma di udire solo alcune parti del proprio nominativo e non essere sicuri di essere stati chiamati. In tal caso, è opportuno chiedere semplicemente se si era stati chiamati.
 
 <qso>
-D*(krschkrsch)*MJ da DK5WP, prego venire
-> Qui DL9MJ, sono stato chiamato?
+H*(krschkrsch)*RW da HB9CN, prego rispondere
+> Qui è HB9RW, sono stato chiamato?
 </qso>
 
 [question:BE103]
 
 ---
 
-Dopo una comunicazione radio (spesso chiamata QSO), la frequenza viene sempre lasciata alla stazione che ha iniziato la chiamata. La frequenza *appartiene* quasi al chiamante. Indipendentemente dal fatto che abbia fatto una chiamata generale o mirata.
+Dopo un collegamento radio (spesso indicato come QSO), la frequenza viene sempre lasciata alla stazione che ha iniziato la chiamata. La frequenza *appartiene* per così dire al chiamante. Indipendentemente dal fatto che abbia effettuato una chiamata generale o mirata.
 
 <indepth>
-*QSO* è un'abbreviazione che originariamente proviene dalla telegrafia Morse e significa "ho contatto diretto con la stazione X". Basandosi su questo, i radioamatori parlano spesso di un QSO quando intendono una comunicazione radio riuscita.
+*QSO* è un'abbreviazione originariamente derivata dal telegrafo Morse e significa "ho un contatto diretto con la stazione X". In analogia a ciò, i radioamatori spesso parlano di QSO quando intendono un collegamento radio andato a buon fine.
 </indepth>
 
 ---
 [question:BE108]
 <indepth>
-Forse durante il QSO un'altra stazione ha interrotto la chiamata, volendo parlare con te. Anche in questo caso, la frequenza deve essere lasciata libera per la stazione che ha chiamato originariamente. Prima, però, ci si può accordare brevemente con l'"interruttore" su un'altra frequenza.
+Durante un QSO potrebbe essere intervenuta un'altra stazione che vuole parlare con voi. Anche in questo caso, la frequenza deve essere lasciata libera alla stazione che ha iniziato originariamente la chiamata. Prima di ciò, tuttavia, si può accordarsi brevemente con la stazione intervenuta su un'altra frequenza.
 </indepth>

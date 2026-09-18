@@ -1,36 +1,36 @@
 * Transizione tra giorno e notte
-* Interessante per le comunicazioni a onde corte
+* Interessante per la radio in onde corte
 
 ---
 [include:greyline]
 
 <note>
-Mappa del mondo con la Greyline attuale
+Mappa mondiale con la Greyline attuale
 </note>
 
 ---
 
 <left>
 Giorno verso notte
-* La regione D viene smantellata
-* La regione E può essere ancora presente
-* La regione $F_1$ si smantella lentamente
-* La regione $F_2$ rimane indebolita
+* Lo strato D viene smantellato
+* Lo strato E può ancora essere presente
+* Lo strato $F_1$ si smonta lentamente
+* Lo strato $F_2$ rimane indebolito
 </left>
 <right>
 Notte verso giorno
-* La regione D si forma solo quando il sole raggiunge le regioni inferiori
-* La regione E si forma lentamente
-* La regione $F_1$ si forma prima della regione E e D
-* La regione $F_2$ diventa di nuovo più forte
+* Lo strato D si forma solo quando il sole raggiunge le regioni inferiori
+* Lo strato E si forma lentamente
+* Lo strato $F_1$ si forma prima dello strato E e D
+* Lo strato $F_2$ diventa nuovamente più forte
 </right>
 
 ---
 ## Greyline-DX
 
-* Le onde corte vengono riflesse in modo piatto dalla debole regione D e attenuate meno
-* Le onde corte riflesse vengono riflesse in modo piatto nella regione F
-* Elevata distanza di skip
+* Le onde corte vengono rifratte in modo piatto dallo strato D debole e subiscono meno attenuazione
+* Le onde corte riflesse vengono riflesse in modo piatto dallo strato F
+* Alta distanza di salto
 * *Greyline-DX* o *Twilight-DX*
 
 ---

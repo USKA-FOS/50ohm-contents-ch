@@ -1,15 +1,15 @@
-Come abbiamo spiegato nel capitolo Stazioni radioamatoriali, nel traffico radio si può riconoscere da quale paese proviene un partner radio tramite il prefisso. Un elenco dettagliato con tutti i prefissi internazionali si trova nell'elenco dei prefissi internazionali dell'[ITU](https://50ohm.de/itu), negli almanacchi radioamatoriali, su Internet e in vari elenchi di nominativi. Nella figura [ref:n_internationale_landeskenner_eu] sono raccolti i prefissi internazionali più importanti in Europa. I paesi contrassegnati in blu compaiono nel catalogo delle domande. Gli altri paesi servono come conoscenza di base.
+Come spiegato nel capitolo sulle stazioni di radioamatore, durante le comunicazioni radio è possibile riconoscere il paese di provenienza di un corrispondente grazie al prefisso del nominativo. Un elenco dettagliato di tutti i prefissi nazionali si trova negli [elenchi dei nominativi dell'ITU](https://50ohm.de/itu), nei manuali per radioamatori, su internet e in vari elenchi dei nominativi. Nell’immagine [ref:n_internationale_landeskenner_eu] sono riportati i principali prefissi nazionali in Europa. I paesi evidenziati in blu sono quelli che compaiono nel catalogo delle domande. Gli altri paesi servono come conoscenza di base.
 
 <webmargin>
-[picture:656:n_internationale_landeskenner_eu:Prefissi internazionali in Europa]
+[picture:656:n_internationale_landeskenner_eu:Prefissi nazionali in Europa]
 </webmargin>
 
 ---
 
-I prefissi internazionali sono necessari ripetutamente nel corso della vita di un radioamatore. Molti radioamatori hanno creato dei mnemotecnici per i singoli prefissi, per potersi ricordare meglio i prefissi internazionali. Nella tabella [ref:n_europaeische_landeskenner_eselsbruecken] si trovano i prefissi internazionali europei con i relativi paesi. La tabella [ref:n_internationale_landeskenner_eselsbruecken] mostra altri prefissi internazionali extraeuropei. Per alcuni esistono anche mnemotecnici di uso frequente. Se ci si ricorda bene i prefissi internazionali evidenziati, si possono rispondere a tutte le domande del catalogo relative ai prefissi internazionali per esclusione.
+I prefissi nazionali sono necessari più volte nel corso della vita di un radioamatore. Molti radioamatori hanno creato dei trucchi mnemonici per ricordare meglio i prefissi. Nella tabella [ref:n_europaeische_landeskenner_eselsbruecken] sono riportati i prefissi europei con i paesi corrispondenti. La tabella [ref:n_internationale_landeskenner_eselsbruecken] mostra ulteriori prefissi nazionali extraeuropei. Per alcuni di essi esistono anche trucchi mnemonici comunemente utilizzati. Se si ricordano bene i prefissi evidenziati, è possibile rispondere a tutte le domande del catalogo sulle questioni relative ai prefissi nazionali utilizzando il metodo di esclusione.
 
 <webmargin>
-| l: Landeskenner | l: Eselsbrücke | X: Land |
+| l: Prefisso | l: Trucco mnemonico | X: Paese |
 | *CT* | CosTa (costa) | Portogallo |
 | *DA-DR* | | Germania |
 | *EA* | EspaniA | Spagna |
@@ -17,48 +17,48 @@ I prefissi internazionali sono necessari ripetutamente nel corso della vita di u
 | *EM* | | Ucraina |
 | ES | | Estonia |
 | EU | | Bielorussia |
-| F | Frankreich | Francia |
-| G | Großbritannien | Regno Unito |       
-| HBØ | Montagne alte (piccole) | Liechtenstein |
-| HB9 | Montagne alte (grandi) | Svizzera |
+| F | Francia | Francia |
+| G | Gran Bretagna | Regno Unito |
+| HBØ | Alte montagne (piccolo) | Liechtenstein |
+| HB9 | Alte montagne (grande) | Svizzera |
 | HV | Santo Padre | Vaticano |
 | I | | Italia |
-| LA | LAche (sinistra esterna) | Norvegia| 
+| LA | Salmone (Lato Sinistro) | Norvegia |
 | LX | | Lussemburgo |
 | LZ | | Bulgaria |
 | OE | OEsterreich | Austria |
-| OH | Oben Hinten (sopra dietro) | Finlandia |
+| OH | Alto Dietro | Finlandia |
 | OK | | Repubblica Ceca |
 | OM | | Slovacchia |
 | ON | | Belgio |
-| *OZ* | Zipfel superiore | Danimarca |
+| *OZ* | Punta superiore | Danimarca |
 | PA | | Paesi Bassi |
 | S5 | | Slovenia |
 | *SM* | Mobili Svedesi | Svezia |
 | *SP* | Bella Polonia | Polonia |
 | SV | | Grecia |
-[table:n_europaeische_landeskenner_eselsbruecken:Prefissi internazionali europei e mnemotecnici]
+[table:n_europaeische_landeskenner_eselsbruecken:Prefissi nazionali europei e trucchi mnemonici]
 </webmargin>
 
 <webmargin>
-| l: Landeskenner | l: Eselsbrücke | X: Land |
+| l: Prefisso | l: Trucco mnemonico | X: Paese |
 | *BY* | paga in Yuan | Cina |
 | CE | | Cile |
 | DS-DT | | Corea del Sud |
 | DU-DZ | | Filippine |
 | EK | | Armenia |
 | *JA* | JApan | Giappone |
-| *K*, *W*, N, AA-AL | Nessuno vuole andare in America | USA |
-| LU | Sinistra in basso | Argentina |
+| *K*, *W*, N, AA-AL | Nessuno Vuole Andare in America | USA |
+| LU | In Basso a Sinistra | Argentina |
 | *PY* | "Piranha" | Brasile |
-| *VE* | Molte alci | Canada |
-| VK | Molti canguri | Australia |
+| *VE* | Molti Alci | Canada |
+| VK | Molti Canguri | Australia |
 | *VU* | | India |
 | *XE* | mEXico | Messico |
 | *ZL* | Zea-Land | Nuova Zelanda |
 | ZS | | Sudafrica |
 | 4X | | Israele |
-[table:n_internationale_landeskenner_eselsbruecken:Altri prefissi internazionali e mnemotecnici]
+[table:n_internationale_landeskenner_eselsbruecken:Ulteriori prefissi nazionali e trucchi mnemonici]
 </webmargin>
 
 [question:BD301]
@@ -69,25 +69,5 @@ I prefissi internazionali sono necessari ripetutamente nel corso della vita di u
 [question:BD322]
 [question:BD112]
 [question:BD113]
-
 [question:BD307]
-
-
-Tutto da qui in poi cancellare
 [question:BD314]
-[question:BD311]
-[question:BD304]
-[question:BD303]
-[question:BD305]
-[question:BD306]
-[question:BD308]
-[question:BD310]
-[question:BD312]
-[question:BD313]
-[question:BD316]
-[question:BD318]
-[question:BD317]
-[question:BD309]
-[question:BD315]
-
-

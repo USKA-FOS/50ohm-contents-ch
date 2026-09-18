@@ -1,8 +1,8 @@
-I ricevitori a onde corte possono essere rapidamente sovraccaricati da segnali forti, in particolare nell'area di ingresso del ricevitore, compreso il primo mixer. Ciò si manifesta con una riproduzione distorta e incomprensibile del segnale desiderato.
+I ricevitori per onde corte possono essere facilmente sovramodulati da segnali forti, in particolare nella sezione di ingresso del ricevitore, inclusa la prima miscelazione. Questo si manifesta con una riproduzione distorta e incomprensibile del segnale desiderato.
 
 ---
 
-Per evitare ciò, nei trasmettitore-ricevitore è possibile attivare dei cosiddetti attenuatori (chiamati anche *Attenuator*). Questi attenuano i segnali di ingresso di un valore predefinito, in modo che l'ingresso del ricevitore non venga più sovraccaricato. L'influenza di segnali forti indesiderati su segnali utili più deboli viene fortemente ridotta dall'attenuatore. La figura [ref:e_daempfungsglied] mostra un attenuatore esterno. La figura [ref:e_att_blockschaltbild] mostra i simboli a blocchi degli attenuatori. Esistono varianti a T e a pi greco. Impareremo il circuito esatto nella classe A.
+Per evitare ciò, nei ricetrasmettitori è possibile attivare i cosiddetti attenuatori (detti anche *attenuator*). Questi attenuano i segnali di ingresso di un valore predefinito, in modo che l'ingresso del ricevitore non venga più sovramodulato. L'influenza di segnali forti indesiderati sui segnali utili più deboli viene notevolmente ridotta dall'attenuatore. La figura [ref:e_daempfungsglied] mostra un attenuatore esterno. La figura [ref:e_att_blockschaltbild] mostra i simboli di blocco degli attenuatori. Qui esistono due varianti, la T e la π. Il circuito esatto lo impareremo nella classe A.
 
 <margin>
 [photo:199:e_daempfungsglied:Un attenuatore]
@@ -13,7 +13,7 @@ Per evitare ciò, nei trasmettitore-ricevitore è possibile attivare dei cosidde
 
 ---
 
-Al contrario, per i segnali nelle bande di frequenza più alte (VHF e superiori), i segnali vengono spesso attenuati già dalla linea di alimentazione dell'antenna verso l'apparecchio e dovrebbero quindi, se necessario, essere amplificati da un *preamplificatore*, che dovrebbe trovarsi il più vicino possibile all'antenna di ricezione/trasmissione. In questo modo, le perdite del cavo vengono compensate dal preamplificatore. Il preamplificatore deve essere disattivabile in caso di trasmissione (controllato da PTT) e, se necessario, disattivabile in caso di ricezione, in modo che segnali locali forti non sovraccarichino il ricevitore.
+Viceversa, per i segnali nelle bande di frequenza più alte (VHF e superiori), i segnali vengono spesso già attenuati dal cavo di antenna verso l'apparecchio e, se necessario, dovrebbero essere amplificati da un *preamplificatore* posizionato il più vicino possibile all'antenna di ricezione/trasmissione. In questo modo le perdite del cavo vengono compensate dal preamplificatore. Il preamplificatore deve essere disattivabile in trasmissione (controllato dal PTT) e, in ricezione, deve essere eventualmente disattivabile per evitare che segnali locali forti sovramodulino il ricevitore.
 
 <margin>
 [picture:839:vorverstaerker_daempfungsglied_amp:Preamplificatore in un ricevitore supereterodina]

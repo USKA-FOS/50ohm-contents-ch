@@ -1,42 +1,42 @@
-## Misure per radioamatori
+## Misurazioni per radioamatori
 
-* Misure importanti: Potenza d’uscita e tensioni RF
-* La misurazione della potenza d’uscita del trasmettitore richiede un carico definito
-* Impedenza comune nel radioamatore: $\qty{50}{\ohm}$
-* La misurazione diretta nel circuito è sensata solo a basse potenze
+* Misurazioni importanti: potenza d’uscita e tensioni RF
+* La misurazione della potenza di uscita del trasmettitore richiede un carico definito
+* Impedenza comune nel radioamatoriale: $\qty{50}{\ohm}$
+* Misurare direttamente nel circuito ha senso solo con potenze ridotte
 
 ---
 ## Misurazione della tensione RF
 
 * La tensione RF viene misurata con una sonda RF
-* Raddrizzamento a diodi e livellamento con condensatore collegato a valle
+* Rettificazione a diodo e livellamento con un condensatore in serie
 
 ---
-### Sonda RF con raddrizzamento semplice
+### Sonda RF con rettificazione semplice
 
 
 
 <left>
-[picture:576:a_messung_hf_tastkopf_leistungsmessung:Sonda per la misurazione della potenza RF tramite un partitore di tensione]
+[picture:576:a_messung_hf_tastkopf_leistungsmessung:Sonda per la misurazione della potenza RF tramite partitore di tensione]
 </left>
 <right>
 * Un diodo all’uscita fornisce la tensione di picco della tensione RF
-* Meno la tensione diretta del diodo e l’eventuale partitore di tensione
+* Sottraendo la tensione di soglia del diodo e, se necessario, il partitore di tensione
 </right>
 
 ---
 [question:AI608]
 
 ---
-### Sonda RF con raddrizzamento doppio
+### Sonda RF con rettificazione a doppia semionda
 
 <left>
-[picture:770:a_messung_hf_tastkopf_doppeldiode:Sonda RF con due diodi per entrambe le mezze onde]
+[picture:770:a_messung_hf_tastkopf_doppeldiode:Sonda RF con due diodi per entrambe le semionde]
 </left>
 <right>
-* Due diodi per aumentare l’accuratezza della misurazione, specialmente a basse potenze
-* Entrambe le mezze onde vengono raddrizzate
-* Risultato: Tensione di picco doppia meno due volte la tensione diretta dei diodi
+* Due diodi per aumentare la precisione di misura, in particolare con potenze ridotte
+* Entrambe le semionde vengono rettificate
+* Risultato: tensione di picco doppia meno due volte la tensione di soglia dei diodi
 </right>
 
 ---
@@ -46,23 +46,23 @@
 [question:AI604]
 
 ---
-### Misurazione di alte potenze RF
+### Misurare alte potenze RF
 
-* Richiede un attenuatore resistente al carico
+* Richiede un attenuatore robusto
 * Assorbe gran parte della potenza
-* L’attenuatore deve essere incluso nel calcolo
+* L’attenuatore deve essere considerato nel calcolo
 
 ---
 [question:AI609]
 
 <note>
-Nessun calcolo necessario, poiché esiste una sola risposta con attenuatore
+Nessun calcolo necessario poiché esiste una sola risposta con attenuatore
 </note>
 
 ---
 ## Calibrazione dei circuiti di misura
 
-* Necessaria per misurazioni di potenza accurate
+* Necessaria per misurazioni di potenza precise
 * Devono essere creati valori di correzione
 
 ---
@@ -72,19 +72,19 @@ Nessun calcolo necessario, poiché esiste una sola risposta con attenuatore
 ### Calcolo di una sonda RF
 
 <left>
-[picture:576:a_messung_messschaltung_beispiel_1:Esempio di un circuito di misurazione RF]
+[picture:576:a_messung_messschaltung_beispiel_1:Esempio di un circuito di misura RF]
 </left>
 <right>
-* Il segnale di ingresso viene terminato in modo corretto per l’impedenza
-* La tensione viene dimezzata da un partitore di tensione
-* Dopo il raddrizzamento tramite diodo, rimane la tensione di picco meno la tensione diretta
+* Il segnale d’ingresso viene chiuso su un’impedenza corretta
+* La tensione viene dimezzata tramite partitore di tensione
+* Dopo la rettificazione a diodo rimane la tensione di picco meno la tensione di soglia
 </right>
 
 ---
 [question:AI610]
 
 --- style="font-size: smaller;"
-#### Percorso di soluzione
+#### Procedimento di soluzione
 
 * dato: $P_E = \qty{1}{\watt}$
 * dato: $U_F = \qty{0,23}{\volt}$
@@ -126,19 +126,19 @@ $\begin{split}U_A &= \frac{U_S}{2}\,-\,U_F\\ &= \frac{\qty{10,07}{\volt}}{2}\,-\
 ### Calcolo della potenza d’ingresso dalla tensione continua misurata
 
 <left>
-[picture:577:a_messung_messschaltung_beispiel_2:Esempio di un circuito di misurazione RF]
+[picture:577:a_messung_messschaltung_beispiel_2:Esempio di un circuito di misura RF]
 </left>
 <right>
 * La tensione sul partitore di tensione corrisponde alla tensione d’uscita più la tensione del diodo
 * Calcolare i valori efficaci
-* Determinazione della potenza d’ingresso tramite la resistenza del circuito
+* Determinare la potenza d’ingresso tramite la resistenza del circuito
 </right>
 
 ---
 [question:AI611]
 
 --- style="font-size: smaller;"
-#### Percorso di soluzione
+#### Procedimento di soluzione
 * dato: $U_A = \qty{14,9}{\volt}\text{ DC}$
 * dato: $U_F = \qty{0,7}{\volt}$
 * dato: $R_1 = \qty{54,1}{\ohm}$, $R_T = \qty{330}{\ohm}$
@@ -172,22 +172,22 @@ $\begin{split}P_E &= \frac{U_{E,eff}^2}{R}\\ &= \frac{(\qty{22,06}{\volt})^2}{\q
 </right>
 
 ---
-### Sonda RF con raddrizzamento doppio del valore di picco
+### Sonda RF con rettificazione a doppia semionda di picco
 
 <left>
-[picture:771:a_messung_hf_tastkopf_doppeldiode_2:Sonda RF con raddrizzamento doppio del valore di picco]
+[picture:771:a_messung_hf_tastkopf_doppeldiode_2:Sonda RF con rettificazione a doppia semionda di picco]
 </left>
 <right>
-* Calcolo come per il raddrizzamento semplice
-* Considerazione aggiuntiva della tensione di picco doppia
-* Tenere conto della tensione diretta doppia dei diodi
+* Calcolo come per la rettificazione semplice
+* Considerare la tensione di picco doppia
+* Tenere conto della doppia tensione di soglia dei diodi
 </right>
 
 ---
 [question:AI607]
 
 --- style="font-size: smaller;"
-#### Percorso di soluzione
+#### Procedimento di soluzione
 
 * dato: $U_A = \qty{15,3}{\volt}\text{ DC}$
 * dato: $U_F = \qty{0,23}{\volt}$
@@ -225,7 +225,7 @@ $\begin{split}P_E &= \frac{U_{E,eff}^2}{R}\\ &= \frac{{\qty{5,57}{\volt}}^2}{\qt
 [question:AI606]
 
 --- style="font-size: smaller;"
-#### Percorso di soluzione
+#### Procedimento di soluzione
 
 * dato: $U_A = \qty{15,3}{\volt}\text{ DC}$
 * dato: $U_F = \qty{0,23}{\volt}$
@@ -242,7 +242,7 @@ $\begin{split}U_S &= \frac{U_A}{2} + U_F\\ &= \frac{\qty{15,3}{\volt}}{2} + \qty
 $\begin{split}U_{E,eff} &= \frac{U_S}{\sqrt{2}}\\ &= \frac{\qty{7,88}{\volt}}{1,414}\\ &= \qty{5,57}{\volt}\end{split}$
 </fragment>
 </right>
-  
+
 --- style="font-size: smaller;"
 * calcolato: $U_{E,eff} = \qty{5,57}{\volt}$
 * dato: $R = \qty{50}{\ohm}$ dal sistema di misura
@@ -253,17 +253,17 @@ $\begin{split}P_E &= \frac{(U_{E,eff} \cdot 10)^2}{R}\\ &= \frac{(\qty{5,57}{\vo
 </fragment>
 
 ---
-## Indicatore di intensità di campo per la misurazione della potenza
+### Indicatore d’intensità di campo per la misurazione della potenza
 
 <left>
-[picture:496:a_messung_feldstaerkeanzeiger:Indicatore di intensità di campo]
+[picture:496:a_messung_feldstaerkeanzeiger:Indicatore d’intensità di campo]
 </left>
 <right>
 * Misurazione della potenza RF tramite un’antenna
-* La RF ricevuta viene raddrizzata e bufferizzata
-* Indicazione tramite strumento di misurazione di corrente sensibile
-* Maggiore è la deviazione dell’ago, maggiore è l’intensità di campo RF
-* Misure esatte richiedono calibrazione
+* La RF ricevuta viene rettificata e livellata
+* Visualizzazione tramite amperometro sensibile
+* Maggiore la deviazione dell’indice, maggiore l’intensità di campo RF
+* Misurazioni precise richiedono calibrazione
 </right>
 
 ---

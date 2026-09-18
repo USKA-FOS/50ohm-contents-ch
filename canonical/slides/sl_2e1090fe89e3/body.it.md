@@ -1,22 +1,22 @@
 ## Resistenza dei fili
 
 <left>
-* Il materiale conduttivo è composto da atomi in una struttura (reticolare)
+* I materiali conduttori sono composti da atomi disposti in una struttura (reticolare)
 * Gli elettroni sono condivisi e quindi liberi di muoversi
 * A seconda del materiale, ci sono più o meno elettroni liberi che urtano contro gli atomi
 </left>
 <right>
-[picture:713:a_leitermodell:Atomi (+) ed elettroni mobili (-) in un conduttore metallico]
+[picture:713:a_leitermodell:Atomi (+) ed elettroni (-) mobili in un conduttore metallico]
 </right>
 
 ---
 ### Resistività $\rho$
 <left>
-$R = \frac{\rho\cdot l}{A_{\textrm{Dr}}}$
+$R = \frac{\rho\cdot l}{A_{\textrm{filo}}}$
 
-* $l$: Lunghezza del filo
-* $A_{\textrm{Dr}}$: Sezione del filo
-* $\rho$: Resistività in $\unit{\ohm\cdot\milli\meter\squared\per\meter}$
+* $l$: lunghezza del filo
+* $A_{\textrm{filo}}$: sezione del filo
+* $\rho$: resistività in $\unit{\ohm\cdot\milli\metro\quadrato\per\metro}$
 </left>
 <right>
 <fragment>
@@ -30,44 +30,42 @@ $R = \frac{\rho\cdot l}{A_{\textrm{Dr}}}$
 </fragment>
 </right>
 <note>
-Ciò consente di calcolare la resistenza ohmica di un filo quando il materiale, la lunghezza e la sezione trasversale sono noti.
+Con questa formula è possibile calcolare la resistenza ohmica di un filo conoscendo il materiale, la lunghezza e la sezione trasversale
 </note>
 
 ---
 [question:AB101]
----
-<div style="font-size: smaller;">
-### Percorso di soluzione
-* Dato: $l = \qty{1,8}{\meter}$
-* Dato: $d = \qty{0,2}{\milli\meter}$
-* Dato: $\rho = \qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}$
-* Cercato: $R$
+--- style="font-size: smaller;"
+### Procedimento di soluzione
+* dati: $l = \qty{1,8}{\metro}$
+* dati: $d = \qty{0,2}{\milli\metro}$
+* dati: $\rho = \qty{0,018}{\ohm\cdot\milli\metro\quadrato\per\metro}$
+* incognita: $R$
 
 <fragment>
-$$A_{\textrm{Dr}} = \frac{d^2\cdot \pi}{4} = \frac{(\qty{0,2}{\milli\meter})^2 \cdot \pi}{4} = \frac{\pi}{100}\unit{\milli\meter\squared} = \qty{0,0314}{\milli\meter\squared}$$
+$$A_{\textrm{filo}} = \frac{d^2\cdot \pi}{4} = \frac{(\qty{0,2}{\milli\metro})^2 \cdot \pi}{4} = \frac{\pi}{100}\unit{\milli\metro\quadrato} = \qty{0,0314}{\milli\metro\quadrato}$$
 </fragment>
 <fragment>
-$$R = \frac{\rho\cdot l}{A_{\textrm{Dr}}} = \frac{\qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter} \cdot \qty{1,8}{\meter}}{\qty{0,0314}{\milli\meter\squared}} \approx \qty{1,02}{\ohm}$$
+$$R = \frac{\rho\cdot l}{A_{\textrm{filo}}} = \frac{\qty{0,018}{\ohm\cdot\milli\metro\quadrato\per\metro} \cdot \qty{1,8}{\metro}}{\qty{0,0314}{\milli\metro\quadrato}} \approx \qty{1,02}{\ohm}$$
 </fragment>
-</div>
 ---
 [question:AB102]
 ---
-### Percorso di soluzione
-* Dato: $A_{\textrm{Dr}} = \qty{0,5}{\milli\meter\squared}$
-* Dato: $R = \qty{1,5}{\ohm}$
-* Dato: $\rho = \qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}$
-* Cercato: $l$
+### Procedimento di soluzione
+* dati: $A_{\textrm{filo}} = \qty{0,5}{\milli\metro\quadrato}$
+* dati: $R = \qty{1,5}{\ohm}$
+* dati: $\rho = \qty{0,018}{\ohm\cdot\milli\metro\quadrato\per\metro}$
+* incognita: $l$
 
 <fragment>
-$\begin{split} R &= \frac{\rho\cdot l}{A_{\textrm{Dr}}}\\ \Rightarrow l &= \frac{R\cdot A_{\textrm{Dr}}}{\rho} = \frac{\qty{1,5}{\ohm} \cdot \qty{0,5}{\milli\meter\squared}}{\qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}} \approx \qty{41,7}{\meter} \end{split}$
+$\begin{split} R &= \frac{\rho\cdot l}{A_{\textrm{filo}}}\\ \Rightarrow l &= \frac{R\cdot A_{\textrm{filo}}}{\rho} = \frac{\qty{1,5}{\ohm} \cdot \qty{0,5}{\milli\metro\quadrato}}{\qty{0,018}{\ohm\cdot\milli\metro\quadrato\per\metro}} \approx \qty{41,7}{\metro} \end{split}$
 </fragment>
 
 ---
 ## Coefficiente di temperatura
 
-* La resistenza dei metalli aumenta all'aumentare della temperatura
-* Gli atomi si muovono di più a temperature più elevate, causando più collisioni con gli elettroni
+* La resistenza dei metalli aumenta con l'aumentare della temperatura
+* A temperature più elevate, gli atomi si muovono di più, causando più collisioni con gli elettroni
 
 ---
 [question:AB103]

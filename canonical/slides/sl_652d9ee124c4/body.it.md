@@ -2,17 +2,20 @@
 [picture:790:n_schwingung:Oscillazione]
 </left>
 <right>
-Caratteristiche di un'oscillazione elettrica:
+Proprietà di un’oscillazione elettrica:
 * Ampiezza
 * Frequenza
 </right>
 <note>
-Esistono altri tipi di modulazione che verranno trattati in seguito. La descrizione più dettagliata di AM e FM seguirà nelle sezioni successive. Le diapositive servono solo per una rapida panoramica.
+Esistono anche altre modalità di modulazione che verranno trattate in seguito. La descrizione dettagliata di AM e FM seguirà nei prossimi paragrafi. Le diapositive servono solo come panoramica.
 </note>
----
-## Modulazione di ampiezza (AM)
-[picture:905:n_modulationsarten_am:Nella modulazione di ampiezza (AM), l'ampiezza di un'oscillazione elettrica viene modificata.]
 
 ---
+
+## Modulazione di ampiezza (AM)
+[picture:905:n_modulationsarten_am:Nella modulazione di ampiezza (AM) viene modificata l’ampiezza di un’oscillazione elettrica.]
+
+---
+
 ## Modulazione di frequenza (FM)
-[picture:906:n_modulationsarten_am:Nella modulazione di frequenza (FM), la durata dell'oscillazione e quindi la frequenza vengono modificate.]
+[picture:906:n_modulationsarten_fm:Nella modulazione di frequenza (FM) viene modificato il periodo di oscillazione e quindi la frequenza.]

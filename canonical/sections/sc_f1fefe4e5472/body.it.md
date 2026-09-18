@@ -1,80 +1,27 @@
-% In elaborazione! Di cosa si tratta???
-% Mi sono inventato tutto questo!
+Per la visualizzazione di un impianto radioamatoriale fisso, le distanze di protezione delle persone necessarie possono essere determinate con diversi metodi. Oltre al calcolo del campo lontano descritto sopra, sono ammessi anche misurazioni e simulazioni. I valori limite usuali per questo scopo li abbiamo già imparati nella classe E.
 
-Nella raccolta di formule, al punto 6.2, simboli di formule, costanti e tabelle, si trova anche la formula per $Z_{F0}$, l'impedenza caratteristica dell'onda nel vuoto.
-$Z_{F0} = \sqrt{\dfrac{\mu_0}{\varepsilon_0}}$
+Poiché misurazioni e simulazioni sono difficilmente verificabili in modo significativo in un esame scritto, le domande d’esame seguenti si limitano a calcoli con la formula approssimativa. In tutti i quesiti è soddisfatta la condizione necessaria $d > \frac{\lambda}{2\pi}$. La verifica di questa condizione è già stata trattata nelle domande della classe E. Prova ora a risolvere i seguenti quesiti utilizzando la formula approssimativa del capitolo precedente.
 
-$\mu_0$ la costante del campo magnetico, $\varepsilon_0$ la costante dielettrica del vuoto
+---
 
-La **intensità di campo magnetico** menzionata nella domanda viene calcolata utilizzando la costante del campo magnetico, la densità del flusso magnetico e la magnetizzazione. Nettamente più complesso è il legame tra la costante dielettrica del vuoto e l'**intensità di campo elettrico**.
+[question:AK106]
+[question:AK108]
+[question:AK109]
+[question:AK110]
+[question:AK111]
+[question:AK112]
 
-In un mezzo (ad esempio, aria) l'impedenza caratteristica $Z_{F}$ dipende da $\mu$, la costante del campo magnetico del mezzo, e $\varepsilon$, la costante dielettrica del mezzo.
+<indepth>
+Perché in questa sezione si fa riferimento ai metodi di modulazione RTTY e FM?
+Nella visualizzazione di un impianto radioamatoriale fisso (ai sensi del § 9 BEMFV), nella configurazione va inserito il fattore di conversione $\textrm{Faktor}_\textrm{FmodPers}$.
 
-$Z_{F} = \sqrt{\dfrac{\mu}{\varepsilon}}$
+Con questo fattore, la potenza di picco (PEP) indicata viene convertita nella potenza media $P$. La potenza così corretta può essere utilizzata nella formula del campo lontano per calcolare la distanza di protezione delle persone.
 
-Esiste una dipendenza tra l'impedenza caratteristica dell'onda, l'intensità di campo elettrico e magnetico. Pertanto, anche l'intensità di campo elettrico e magnetico dipendono dall'impedenza caratteristica del mezzo.
+RTTY e FM hanno il fattore $\num{1}$, come la maggior parte dei metodi di modulazione.
+</indepth>
 
-
-[question:AK102]
-
-% Come si calcola la potenza al punto di immissione dell'antenna (potenza d'ingresso dell'antenna) con la potenza d’uscita del trasmettitore nota?
-
-La potenza al punto di immissione dell'antenna deriva dalla potenza d’uscita del trasmettitore e dall'attenuazione della linea di alimentazione. Ogni attenuazione può essere convertita in un fattore di attenuazione. Ad esempio, con un'attenuazione di $\qty{10}{\dB}$ il fattore è $\num{0,1}$.
-Il calcolo è semplice: $P_{Ant} = D \cdot P_{Sender}$ (D sta per fattore di attenuazione)
-
-[question:AK104]
-% In elaborazione!
-Nel § 8, BEMFV, è stabilito, tra l'altro, che la distanza di sicurezza basata sulla posizione deve trovarsi all'interno dell'area controllabile. Spesso questa distanza è determinata dalle condizioni locali e non può essere modificata. In questi casi, la potenza di trasmissione massima deve essere adattata.
-
-Nella potenza irradiata entrano, oltre alla potenza di trasmissione, il guadagno d'antenna in $\unit{\dBi}$. Sono indicati $\qty{6}{\dBd}$. Rispetto all'irradiatore isotropo, questi sono $\qty{6}{\dBd} + \qty{2,15}{\dB}$. Ciò corrisponde a un fattore di guadagno di $G_i = 4 \cdot 1,64 = 6,56$.
-
-Ora è possibile determinare la potenza di trasmissione massima. A tale scopo, la formula per l'intensità di campo nel campo lontano di un'antenna deve essere riorganizzata:
- $\begin{split}E &= \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_A\cdot G_i}}{d}\\ E \cdot d &= \sqrt{\qty{30}{\ohm}\cdot P_A\cdot G_i}\\ E^2 \cdot d^2 &= \qty{30}{\ohm}\cdot P_A\cdot G_i\\ \dfrac{E^2 \cdot d^2}{\qty{30}{\ohm}\cdot G_i} &= P_A\\ P_A &= \dfrac{E^2 \cdot d^2}{\qty{30}{\ohm}\cdot G_i}\\ P_A &= \qty{\dfrac{28^2 \cdot 5^2}{30 \cdot 6,56}}{\watt}\\ P_A &\approx \qty{99,59}{\watt}\end{split}$
-La potenza di trasmissione deve essere limitata a circa $\qty{100}{\watt}$.
-
-Solo per sicurezza, l'equazione delle unità. Il risultato ha l'unità watt.
- $\begin{split} \unit{\watt} &= \dfrac{\left(\unit{\volt\per\meter}\right)^2 \cdot \unit{m\squared}}{\unit{\volt\per\ampere}}\\ \unit{\watt} &= \dfrac{\unit{\volt} \cdot \unit{\volt} \cdot \unit{m\squared} \cdot A}{\unit{\volt} \cdot \unit{m\squared}}\\ \unit{\watt} &= \unit{\volt} \cdot \unit{\ampere}\\ \unit{\watt} &= \unit{\watt}\end{split}$
-
-La formula per l'intensità di campo è valida solo per il campo lontano. Se questo è soddisfatto per i $\qty{5}{\meter}$ specificati, può essere verificato rapidamente.
-
-$\begin{split}d &> \dfrac{\lambda}{2 \cdot \pi}\\ d &= \dfrac{\qty{2,06}{\meter}}{2 \cdot \pi}\\ d &\approx \qty{0,33}{\meter}\end{split}$
-La distanza di sicurezza di $d=\qty{5}{\meter}$ si trova chiaramente nel campo lontano.
+Nel § 8 BEMFV è stabilito, tra l’altro, che la distanza di sicurezza legata al sito deve trovarsi all’interno dell’area controllabile. Spesso questa distanza è definita dalle condizioni locali e non può essere modificata. In questi casi, la potenza massima di trasmissione deve essere adattata.
 
 [question:AK107]
 
-Per le tre domande successive, la procedura è più o meno la stessa.
-Per il calcolo dell'intensità di campo elettrico sono necessari la potenza al punto di immissione dell'antenna, il fattore di guadagno e la distanza.
-
-$P_A$, potenza al punto di immissione: $\qty{250}{\watt}$ (nessun cavo, immissione diretta)
-
-$G_i$, fattore di guadagno: $\qty{12,15}{\dBi}$ o $\qty{10}{\dBi}$ e $\qty{2,15}{\dBi}$, che corrisponde ai fattori $10 \cdot 1,64 = 16,4$
-
-$d$, distanza: $\qty{30}{\meter}$
-
-La formula è valida solo per il campo lontano. Questo può essere verificato con $d > \dfrac{\lambda}{2 \cdot \pi}$.
-$\begin{split}E &= \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_A\cdot G_i}}{d}\\ E &= \dfrac{\sqrt{\qty{30}{\ohm}\cdot \qty{250}{\watt}\cdot 16,4}}{\qty{30}{\meter}}\\ E &\approx \qty{11,7}{\volt\per\meter}\end{split}$
-
-[question:AK113]
-
-$P_A$, potenza al punto di immissione: $\qty{10}{\watt}$ (nessun cavo, immissione diretta)
-
-$G_i$, fattore di guadagno: $\qty{2,15}{\dBi}$, che corrisponde al fattore $\num{1,64}$ (dipolo come antenna)
-
-$d$, distanza: $\qty{10}{\meter}$
-
-La formula è valida solo per il campo lontano. Questo può essere verificato con $ d > \dfrac{\lambda}{2 \cdot \pi}$.
-$\begin{split}E &= \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_A\cdot G_i}}{d}\\ E &= \dfrac{\sqrt{\qty{30}{\ohm}\cdot \qty{10}{\watt}\cdot 1,64}}{\qty{10}{\meter}}\\ E &\approx \qty{2,2}{\volt\per\meter}\end{split}$
-
-[question:AK114]
-% AK115: Una stazione radioamatoriale trasmette in FM con una potenza irradiata equivalente (ERP) di 100 W. Qual è l'intensità di campo nello spazio libero a una distanza di 100 m?
-
-$P_A$, potenza al punto di immissione: $\qty{100}{\watt}$ (potenza di trasmissione in ERP)
-
-$G_i$, fattore di guadagno: $\qty{2,15}{\dBi}$, che corrisponde al fattore $\num{1,64}$ (potenza di trasmissione in ERP, fattore per EIRP)
-
-$d$, distanza: $\qty{100}{\meter}$
-
-La formula è valida solo per il campo lontano. Questo può essere verificato con $ d > \dfrac{\lambda}{2 \cdot \pi}$.
-$\begin{split}E &= \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_A\cdot G_i}}{d}\\ E &= \dfrac{\sqrt{\qty{30}{\ohm}\cdot \qty{100}{\watt}\cdot 1,64}}{\qty{100}{\meter}}\\ E &\approx \qty{0,7}{\volt\per\meter}\end{split}$
-
-[question:AK115]
+Nelle prossime tre domande, la procedura è più o meno la stessa. Per il calcolo dell’intensità di campo elettrica sono necessari la potenza al punto di alimentazione dell’antenna, il fattore di guadagno e la distanza.

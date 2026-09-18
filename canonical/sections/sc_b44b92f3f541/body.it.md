@@ -1,34 +1,34 @@
-Diamo prima un'occhiata a come è strutturato un ricevitore. Nella figura [ref:aufbau_empfaenger_blockdiagramm], per semplificare, non entriamo nel dettaglio dei singoli componenti, ma consideriamo blocchi che hanno una funzione specifica. Questa rappresentazione è chiamata diagramma a blocchi. In elettrotecnica, serve a rappresentare dispositivi complessi in una visione d'insieme semplificata. Per fare ciò, si omettono i dettagli non necessari per la comprensione dell'intero dispositivo.
+Analizziamo innanzitutto la struttura di un ricevitore. Nell’immagine [ref:aufbau_empfaenger_blockdiagramm] semplifichiamo lo schema non scendendo al livello dei singoli componenti, ma considerando blocchi che svolgono una specifica funzione. Questa rappresentazione è chiamata *diagramma a blocchi*. In elettrotecnica serve a visualizzare in modo semplificato dispositivi complessi. A tal fine, si omettono i dettagli non necessari per comprendere il funzionamento generale dell’apparecchio.
 
 <margin>
-[picture:736:aufbau_empfaenger_blockdiagramm:Diagramma a blocchi di un semplice ricevitore]
+[picture:736:aufbau_empfaenger_blockdiagramm:Diagramma a blocchi di un ricevitore semplice]
 </margin>
 
 <indepth>
-Il ricevitore qui rappresentato è chiamato ricevitore a reazione diretta. Il nome deriva dal fatto che la frequenza del segnale captato dall'antenna non viene modificata fino al demodulatore.
+Il ricevitore qui illustrato è detto *ricevitore a conversione diretta*. Il nome deriva dal fatto che il segnale ricevuto dall’antenna non subisce alcuna variazione di frequenza fino al demodulatore.
 </indepth>
 
 ---
 
-Consideriamo i singoli blocchi del ricevitore in dettaglio, uno dopo l'altro da sinistra a destra:
+Esaminiamo ora in dettaglio i singoli blocchi del ricevitore, procedendo da sinistra a destra:
 
-1. Antenna: L'antenna capta una moltitudine di onde radio e le trasmette come oscillazioni elettriche.
-2. Filtro passa-banda: Per filtrare il segnale desiderato, segue un filtro passa-banda. Questo lascia passare solo la banda di frequenza desiderata e blocca tutte le altre frequenze indesiderate.
-3. Amplificatore HF: Successivamente, un amplificatore amplifica il segnale filtrato. Si tratta di un amplificatore ad alta frequenza (HF), poiché il segnale ha un'alta frequenza, ad esempio $\qty{144,3}{\mega\hertz}$.
-4. Demodulatore: Il segnale amplificato viene ulteriormente elaborato dal demodulatore. La demodulazione è l'opposto della modulazione. Mentre nella modulazione un segnale (ad esempio un segnale vocale) viene modulato su una portante ad alta frequenza, nella demodulazione avviene il contrario: il segnale originale viene recuperato dalla portante ad alta frequenza modulata. Si ottiene quindi, ad esempio, di nuovo il segnale vocale che è stato parlato nel microfono al trasmettitore. Si parla anche di segnale a bassa frequenza, in breve segnale NF, poiché ha frequenze relativamente basse, nel caso di un segnale vocale, ad esempio, frequenze inferiori a $\qty{20}{\kilo\hertz}$.
-5. Amplificatore NF: Il segnale demodulato viene quindi amplificato. Questa volta si tratta di un amplificatore a bassa frequenza (NF) per amplificare il segnale per l'altoparlante. Il simbolo per l'amplificatore NF è lo stesso di quello per l'amplificatore ad alta frequenza.
-6. Altoparlante: Il segnale viene ora convertito dall'altoparlante da un'oscillazione elettrica a un'onda sonora e reso così nuovamente udibile.
+1. Antenna: l’antenna riceve una molteplicità di onde radio e le converte in oscillazioni elettriche.
+2. Filtro passa-banda: per isolare il segnale desiderato, segue un filtro passa-banda. Questo lascia passare solo la banda di frequenza desiderata e blocca tutte le altre frequenze indesiderate.
+3. Amplificatore AF: a seguire c’è un amplificatore che rafforza il segnale filtrato. Si tratta di un *amplificatore ad alta frequenza* (AF), poiché il segnale ha una frequenza elevata, ad esempio $\qty{144,3}{\mega\hertz}$.
+4. Demodulatore: il segnale amplificato viene elaborato dal demodulatore. La demodulazione è l’inverso della modulazione. Mentre nella modulazione un segnale (ad esempio un segnale vocale) viene impresso su una portante ad alta frequenza, nella demodulazione avviene il contrario: dal segnale ad alta frequenza modulato si recupera il segnale originale. Si ottiene così, ad esempio, il segnale vocale che era stato pronunciato al microfono del trasmettitore. Si parla anche di *segnale a bassa frequenza* (segnale BF), poiché presenta frequenze relativamente basse, ad esempio sotto $\qty{20}{\kilo\hertz}$ per un segnale vocale.
+5. Amplificatore BF: il segnale demodulato viene quindi amplificato. In questo caso si tratta di un *amplificatore BF* per rafforzare il segnale destinato all’altoparlante. Il simbolo dell’amplificatore BF è identico a quello dell’amplificatore ad alta frequenza.
+6. Altoparlante: il segnale viene ora convertito da un’oscillazione elettrica in un’onda sonora dall’altoparlante, rendendolo nuovamente udibile.
 
 <indepth>
-Nel *filtro passa-banda*, le due onde barrate simboleggiano che le frequenze sopra e sotto la banda di frequenza desiderata vengono bloccate. L'onda centrale indica che la banda di frequenza desiderata viene lasciata passare.
+Nel *filtro passa-banda*, le due onde barrate indicano che le frequenze al di sopra e al di sotto della banda desiderata vengono bloccate. L’onda centrale rappresenta la banda di frequenza che viene lasciata passare.
 </indepth>
 
 <indepth>
-Il *demodulatore* è rappresentato dal simbolo del circuito della diodo, che è il componente più importante di molti demodulatori. Il funzionamento di una diodo verrà spiegato più avanti nel capitolo "Componenti e circuiti".
+Il *demodulatore* è rappresentato dal simbolo del diodo, che è il componente principale di molti demodulatori. Il funzionamento del diodo verrà spiegato nel capitolo "Componenti e circuiti".
 </indepth>
 
 [question:NF201]
 
-A seconda di come è costruito esattamente un ricevitore, ha proprietà diverse. Una proprietà importante è la sensibilità. Questa indica la capacità del ricevitore di ricevere segnali deboli. Più un ricevitore è sensibile, più deboli segnali può ricevere.
+A seconda di come è strutturato un ricevitore, esso presenta caratteristiche diverse. Una caratteristica importante è la *sensibilità*. Con questo termine si indica la capacità del ricevitore di ricevere segnali deboli. Più un ricevitore è sensibile, più segnali deboli è in grado di ricevere.
 
 [question:NF303]

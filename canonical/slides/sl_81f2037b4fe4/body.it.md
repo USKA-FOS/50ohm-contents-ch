@@ -1,7 +1,7 @@
-## Direzione di passaggio
+## Verso diretto
 
 * Flusso di elettroni da N a P
-* La direzione tecnica della corrente è opposta alla direzione del flusso di elettroni
+* Il verso convenzionale della corrente è opposto alla direzione del flusso di elettroni
 
 ---
 [question:AC401]
@@ -9,39 +9,39 @@
 ## Temperatura
 
 * A temperature più elevate ci sono più elettroni liberi
-* La corrente di saturazione aumenta con l'aumentare della temperatura
-* Ma la mobilità cambia
-* Di conseguenza, la tensione di passaggio diminuisce (di circa $\qty{-2}{\milli\volt\per\kelvin}$)
+* La corrente di saturazione aumenta con l’aumento della temperatura
+* Tuttavia, la mobilità cambia
+* Di conseguenza, la tensione diretta diminuisce (di circa $\qty{-2}{\milli\volt\per\kelvin}$)
 
 ---
 [question:AC403]
 ---
-## Diodo capacità (Varicap)
+## Diodo a capacità variabile (Varicap)
 
 <left>
-* Il diodo capacità sfrutta la capacità sulla zona di svuotamento
-* Non deve fluire corrente continua
+* Il diodo a capacità variabile sfrutta la capacità della zona di carica spaziale
+* Non deve circolare corrente continua
 * Viene utilizzato in polarizzazione inversa
 </left>
 <right>
 <fragment>
-Quanto più negativa è la tensione del diodo, tanto più si espande la zona di svuotamento e tanto minore diventa la capacità del diodo.
+Più la tensione del diodo è negativa, più la zona di carica spaziale si espande e minore diventa la capacità del diodo.
 </fragment>
 </right>
 
 ---
 [question:AC404]
 ---
-## Limitazione di tensione
+## Limitazione della tensione
 
 * Diodi antiparalleli
-* Limitazione dell'ampiezza di una tensione alternata
-* Silicio: circa $\qty{0,6}{\volt}$ tensione di soglia
-* Germanio: circa $\qty{0,3}{\volt}$ tensione di soglia
+* Limitazione dell’ampiezza di una tensione alternata
+* Silicio: tensione di soglia di circa $\qty{0,6}{\volt}$
+* Germanio: tensione di soglia di circa $\qty{0,3}{\volt}$
 * $\rightarrow$ *Clipping*
 
 <note>
-Le tensioni di soglia sono materia di Classe E
+Le tensioni di soglia sono argomento di classe E
 </note>
 
 --- style="font-size: smaller;"
@@ -51,11 +51,11 @@ Le tensioni di soglia sono materia di Classe E
 ---
 ## Fotodiodo
 
-* La luce viene assorbita nella zona di svuotamento
-* Si creano coppie elettrone-lacuna
-* Gli elettroni si muovono verso la regione p, le lacune verso la regione n
-* Se viene collegato un carico (con tensione negativa al terminale p), il fotodiodo agisce come una fonte di corrente
-* La corrente è proporzionale all'intensità luminosa
+* La luce viene assorbita nella zona di carica spaziale
+* Si generano coppie elettrone-lacuna
+* Gli elettroni si muovono verso la zona p, le lacune verso la zona n
+* Se viene collegato un utilizzatore (con tensione negativa al terminale p), il fotodiodo funziona come sorgente di corrente
+* La corrente è proporzionale all’intensità luminosa
 
 <note>
 Misurazione della luce, sensori di immagine nelle fotocamere, celle solari
@@ -66,13 +66,13 @@ Misurazione della luce, sensori di immagine nelle fotocamere, celle solari
 ---
 ## Optoisolatore
 
-* Collegamento di un diodo a emissione luminosa e un fotodiodo in un unico alloggiamento
-* Lato di ingresso: diodo a emissione luminosa
+* Associazione di un diodo luminoso e un fotodiodo in un unico contenitore
+* Lato di ingresso: diodo luminoso
 * Lato di uscita: fotodiodo
-* Entrambi sono galvanicamente separati l'uno dall'altro
+* Sono galvanicamente isolati tra loro
 
 <note>
-Separare galvanicamente le interfacce, ad esempio per evitare anelli di massa
+Isolamento galvanico di interfacce, ad esempio per evitare loop di massa
 </note>
 ---
 [question:AC408]

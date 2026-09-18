@@ -1,4 +1,4 @@
-Un *oscillatore a frequenza di battimento*, chiamato anche *BFO*, è un oscillatore di sovrapposizione utilizzato per demodulare il segnale IF di un ricevitore mediante sovrapposizione con un portatore ausiliario (BFO). Questa tecnica viene utilizzata principalmente per la ricezione di segnali senza portatore ausiliario (SSB e CW). Il BFO deve essere impostato qui per la migliore intelligibilità possibile del segnale ricevuto.
+Un *oscillatore a battimento* (in inglese *Beat-Frequency-Oscillator* o *BFO*) è un oscillatore supereterodina che serve a demodulare il segnale IF di un ricevitore tramite sovrapposizione con un segnale ausiliario (BFO) mediante un mixer. Questa tecnica viene utilizzata principalmente per la ricezione di segnali privi di portante ausiliaria (SSB e CW). Il BFO deve essere regolato per ottenere la migliore comprensibilità possibile del segnale ricevuto.
 
 <margin>
 [picture:838:e_bfo:BFO nel ricevitore supereterodina]

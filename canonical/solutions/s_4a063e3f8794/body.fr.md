@@ -1,0 +1,1 @@
+Le montage à collecteur commun peut être utilisé comme *étage tampon entre un oscillateur et la charge connectée*. Grâce à son impédance d'entrée élevée, il charge peu l'oscillateur, tandis que sa faible impédance de sortie permet de piloter une charge de plus faible impédance. Ainsi, l'oscillateur est découplé des étages suivants, ce qui améliore sa stabilité en fréquence.

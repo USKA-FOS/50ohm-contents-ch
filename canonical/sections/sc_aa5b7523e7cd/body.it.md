@@ -1,24 +1,24 @@
 <margin>
-[picture:666:n_halbleiter_diode_merkhilfe:Merkhilfe Diode]
+[picture:666:n_halbleiter_diode_merkhilfe:guida per la memoria diodo]
 </margin>
 
-Per generare una tensione continua da una tensione alternata, è necessario un raddrizzatore. La forma più semplice di raddrizzamento avviene tramite un diodo. Come abbiamo già imparato nella classe N, un diodo permette alla corrente di fluire solo in una direzione.
+Per convertire una tensione alternata in una tensione continua è necessario un raddrizzatore. La forma più semplice di raddrizzamento avviene tramite un diodo. Come già appreso nel capitolo [sec:diode_1], un diodo permette il flusso di corrente solo in una direzione.
 
 ---
 
-Sfruttiamo questa proprietà del diodo per generare una tensione continua da una tensione alternata (cfr. figura [ref:e_einweggleichrichter_ue]). Se si collega una resistenza di carico a una fonte di tensione alternata tramite un diodo collegato in serie (circuito in figura [ref:e_einweggleichrichter]), il diodo conduce corrente solo quando l'anodo è positivo rispetto al catodo. In questo caso, la semionda positiva della tensione alternata viene lasciata passare.
+Questa proprietà del diodo viene sfruttata per generare una tensione continua da una tensione alternata (cfr. figura [ref:e_einweggleichrichter_ue]). Se si collega una resistenza di carico in serie a un diodo collegato a una sorgente di tensione alternata (circuito in figura [ref:e_einweggleichrichter]), il diodo conduce la corrente solo quando l’anodo è positivo rispetto al catodo. In questo caso, la semionda positiva della tensione alternata viene lasciata passare.
 
-Durante la semionda negativa, il diodo blocca, in modo che la tensione d'uscita rimanga a zero in questo periodo (cfr. figura [ref:e_einweggleichrichter_ul]). Poiché in questo circuito viene utilizzata solo una semionda della tensione alternata sinusoidale, questo viene definito *raddrizzamento a semionda*.
+Durante la semionda negativa il diodo blocca la corrente, quindi la tensione d’uscita in questo intervallo rimane a zero (cfr. figura [ref:e_einweggleichrichter_ul]). Poiché in questo circuito viene utilizzata solo una semionda della tensione alternata sinusoidale, questa configurazione viene chiamata *raddrizzamento a semionda*.
 
 ---
 <margin>
-[picture:797:e_einweggleichrichter:Einweggleichrichter]
-[picture:798:e_einweggleichrichter_ue:Eingangsspannung Einweggleichrichter]
-[picture:796:e_einweggleichrichter_ul:Lastspannung Einweggleichrichter]
+[picture:797:e_einweggleichrichter:raddrizzatore a semionda]
+[picture:798:e_einweggleichrichter_ue:tensione d’ingresso raddrizzatore a semionda]
+[picture:796:e_einweggleichrichter_ul:tensione di carico raddrizzatore a semionda]
 </margin>
 
 [question:ED304]
 
-Se si collega inoltre un condensatore sufficientemente grande in parallelo alla resistenza di carico, questo si carica rapidamente tramite il diodo durante la semionda conduttiva. Nella semionda successiva, in cui il diodo blocca, il condensatore si scarica lentamente attraverso la resistenza. In questo modo, la tensione pulsante viene livellata e si avvicina a una tensione continua.
+Se si collega in parallelo alla resistenza di carico un condensatore di capacità sufficientemente grande, questo si carica rapidamente durante la semionda conduttrice tramite il diodo. Nella semionda successiva, in cui il diodo è in blocco, il condensatore si scarica lentamente attraverso la resistenza. In questo modo la tensione pulsante viene livellata e si avvicina a una tensione continua.
 
-Oltre al raddrizzamento a semionda, esistono altri circuiti raddrizzatori, ad esempio il raddrizzatore a ponte. Tuttavia, affronteremo queste varianti più in dettaglio solo nella classe A.
+Oltre al raddrizzamento a semionda esistono altre configurazioni di raddrizzatori, ad esempio il raddrizzatore a ponte. Tuttavia, queste varianti verranno trattate in modo approfondito solo nel corso per HB9 nei capitoli [sec:gleichrichter_2] e [sec:brueckengleichrichter].

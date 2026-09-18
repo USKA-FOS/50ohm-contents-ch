@@ -1,23 +1,23 @@
-Nello spazio libero (vuoto) e anche approssimativamente nell'aria, possiamo convertire la lunghezza d'onda ($\lambda$) e la frequenza ($f$) l'una nell'altra utilizzando la velocità della luce nel vuoto ($c$), come abbiamo imparato:
+Nello spazio libero (vuoto) e, in modo approssimativo, anche nell’aria, come abbiamo imparato, è possibile convertire tra loro la lunghezza d’onda ($\lambda$) e la frequenza ($f$) utilizzando la velocità della luce nel vuoto ($c$):
 
 $\lambda = \dfrac{c}{f}$
 
-Per le linee, compresi i fili dell'antenna, su cui si formano le onde, non si può usare la velocità della luce nel vuoto, ma è necessario un fattore di correzione, il cosiddetto fattore di riduzione $k_\mathrm{v}$, che è spesso dell'ordine del $\qty{95}{\percent}$, cioè $\num{0,95}$. Questo indica quanto più lentamente avviene la propagazione *lungo una determinata linea* rispetto allo spazio libero, e viene moltiplicato per la velocità della luce nel vuoto:
+Nelle linee di trasmissione, inclusi i fili delle antenne su cui si formano le onde, non si può utilizzare la velocità della luce nel vuoto, ma è necessario un fattore di correzione, il cosiddetto fattore di velocità $k_\mathrm{v}$, che spesso si attesta intorno al $\qty{95}{\percent}$, cioè $\num{0,95}$. Questo indica di quanto la propagazione *lungo una specifica linea* sia più lenta rispetto allo spazio libero e viene moltiplicato per la velocità della luce nel vuoto:
 
-$\lambda_\mathrm{Leitung} = k_\mathrm{v} \cdot \dfrac{c}{f}$
+$\lambda_\mathrm{linea} = k_\mathrm{v} \cdot \dfrac{c}{f}$
 
-Il fattore di riduzione è quindi il rapporto tra la velocità di propagazione lungo una linea e la velocità di propagazione nel vuoto. 
+Il fattore di velocità è quindi il rapporto tra la velocità di propagazione lungo una linea e la velocità di propagazione nel vuoto.
 
 [question:EG201]
 
 ---
 
-Il fattore di correzione dipende, tra le altre cose, dal diametro del filo, dall'isolamento del filo (materiale dielettrico/isolante) e dalle influenze ambientali.
+Il fattore di correzione dipende, tra l’altro, dal diametro del filo, dall’isolamento del filo (materiale dielettrico/isolante) e da fattori ambientali.
 
 <indepth>
-Come vedremo più avanti, per il fattore di riduzione di un *cavi coassiali comuni* conta solo il materiale dielettrico/isolante utilizzato e la restante geometria del cavo (ad es. diametro) può essere trascurata.
+Come vedremo in seguito, per il fattore di velocità di un *cavo coassiale* conta solo il materiale dielettrico utilizzato, mentre la geometria del cavo (ad esempio il diametro) può essere trascurata.
 </indepth>
 
-Dato che il fattore di correzione è spesso di circa $\num{0,95}$ (cioè $\qty{95}{\percent}$), le antenne devono spesso essere accorciate di circa il $\qty{5}{\percent}$ per diventare risonanti.
+Poiché il fattore di correzione è spesso pari a circa $\num{0,95}$ (cioè $\qty{95}{\percent}$), le antenne devono essere accorciate di circa $\qty{5}{\percent}$ per diventare risonanti.
 
 [question:EG202]

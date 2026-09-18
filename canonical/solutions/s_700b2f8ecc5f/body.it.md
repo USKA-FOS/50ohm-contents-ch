@@ -1,1 +1,1 @@
-Se due anodi sono collegati insieme a un polo di uscita, la tensione continua pulsante sarà negativa rispetto al centro del trasformatore. Entrambe le semionde si trovano al di sotto della linea dello zero.
+Se due anodi sono collegati insieme a un polo di uscita, la tensione continua pulsante sarà negativa rispetto al punto centrale del trasformatore. Entrambi i semicicli si trovano al di sotto della linea dello zero.

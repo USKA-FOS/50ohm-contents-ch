@@ -1,9 +1,11 @@
-La *Greyline* è l'area del confine giorno/notte, cioè tutte le aree che si trovano in un determinato momento poco prima o dopo l'alba e il tramonto. Rappresenta un anello che circonda l'intera Terra e in cui prevalgono particolari condizioni di propagazione per le onde corte. Questo perché qui l'effetto di attenuazione della regione D è indebolito o non ancora (all'alba) o non più (al tramonto) presente, mentre l'effetto di rifrazione delle regioni E e F è ancora o già efficace.
+La *Greyline* è la zona di confine tra giorno e notte, cioè tutte le aree che si trovano, in un determinato momento, poco prima o dopo l’alba o il tramonto. Essa forma un anello che circonda l’intero globo terrestre e in cui si verificano condizioni di propagazione particolari per le onde corte. Qui, infatti, l’effetto attenuante dello strato D è ridotto o ancora non presente (all’alba) o non è più presente (al tramonto), mentre l’effetto rifrattivo degli strati E e F è ancora o già attivo.
 
-Ciò significa che, soprattutto nel periodo intorno agli equinozi, i collegamenti DX sono possibili soprattutto sulle bande delle onde corte inferiori e sulla banda dei $\qty{160}{\meter}$, che dall'Europa possono estendersi fino all'Australia, alla Nuova Zelanda e al Pacifico.
+Questo consente, soprattutto durante i periodi vicini agli equinozi, di effettuare collegamenti DX, in particolare sulle bande delle onde corte inferiori e sulla banda dei $\qty{160}{\meter}$, che da Europa possono raggiungere Australia, Nuova Zelanda e il Pacifico.
 
 [question:EH213]
 
 <margin>
 [include:greyline]
 </margin>
+
+<!-- Review abgeschlossen, passt so für mich. Vy 73 de Marc -->

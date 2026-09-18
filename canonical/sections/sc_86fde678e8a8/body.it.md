@@ -1,15 +1,15 @@
-Nella classe E abbiamo già imparato il *fading* (*QSB*). Qui verrà approfondito ulteriormente nella classe A. Quando un segnale radio raggiunge il ricevitore attraverso più di un percorso dal trasmettitore, si parla di *propagazione multipercorso*. Una causa importante è la riflessione del segnale su superfici (ad es. edifici, topografia, aerei) [ref:a_mehrwegeausbreitung_reflexion]. Nelle onde corte, si aggiunge il fatto che il segnale viene spesso rifratto in più punti nella ionosfera [ref:a_mehrwegeausbreitung_ionosphäre]. Quasi ogni collegamento radio è interessato dalla propagazione multipercorso.
+Nella classe E abbiamo già imparato a conoscere il *fading* (*QSB*). Qui, nella classe A, approfondiremo ulteriormente l’argomento. Quando un segnale radio raggiunge il ricevitore percorrendo più di un percorso dal trasmettitore, si parla di *propagazione per cammini multipli*. Una causa importante è la riflessione del segnale su superfici (ad esempio edifici, topografia, aerei) [ref:a_mehrwegeausbreitung_reflexion]. Nelle onde corte, inoltre, il segnale viene spesso rifratto in diversi punti della ionosfera [ref:a_mehrwegeausbreitung_ionosfera]. Quasi ogni collegamento radio è interessato dalla propagazione per cammini multipli.
 
 <margin>
-[picture:1064:a_mehrwegeausbreitung_reflexion:Propagazione multipercorso dovuta a riflessione. A causa dello spostamento di fase durante la riflessione, può verificarsi un'amplificazione o un'attenuazione del segnale ricevuto]
+[picture:1064:a_mehrwegeausbreitung_reflexion:Propagazione per cammini multipli dovuta a riflessione. A causa dello sfasamento durante la riflessione, il segnale ricevuto può essere amplificato o attenuato]
 </margin>
 
 ---
 
-Il ricevitore riceve quindi *più* segnali contemporaneamente, che arrivano con tempi di percorrenza diversi e quindi fasi diverse a causa dei diversi percorsi. Questi segnali vengono sommati nel ricevitore e sono chiamati *interferenza* nel linguaggio tecnico. A seconda della differenza di fase, il segnale risultante può essere amplificato o attenuato – nel caso estremo anche fino all'annullamento completo.
+Il ricevitore riceve quindi *più* segnali contemporaneamente, che arrivano con ritardi diversi a causa dei percorsi differenti e quindi con fasi diverse. Questi segnali vengono sommati nel ricevitore e, in termini tecnici, si parla di *interferenza*. A seconda dello sfasamento, il segnale risultante può essere amplificato o attenuato, fino a scomparire completamente in casi estremi.
 
 <indepth>
-Interferenza (dal latino inter = "tra" e ferire, tramite l'antico francese s’entreferir = "colpirsi a vicenda") indica generalmente la variazione dell'ampiezza che si verifica quando due o più onde si sovrappongono, cioè per addizione.
+L’*interferenza* (dal latino *inter* = "tra" e *ferire* = "colpire reciprocamente") indica in generale la variazione dell’ampiezza che si verifica quando due o più onde, cioè segnali, si sovrappongono, cioè si sommano.
 </indepth>
 
 [question:AH222]
@@ -18,5 +18,4 @@ Interferenza (dal latino inter = "tra" e ferire, tramite l'antico francese s’e
 [include:applet_interferenz]
 </webmargin>
 
-Se uno dei mezzi coinvolti si muove (ad es. trasmissione radio da un'auto in movimento, un aereo come riflettore per segnali radio o fondamentalmente le aree rifrangenti nella ionosfera, soprattutto durante il crepuscolo), il segnale risultante nel ricevitore cambia continuamente. Ciò porta a un QSB costante e, a seconda del tipo di modulazione, a distorsioni più o meno forti e quindi a una minore intelligibilità.
-
+Se uno dei mezzi coinvolti è in movimento (ad esempio, operazioni radio da un’auto in movimento, un aereo come riflettore per i segnali radio o, in generale, le aree di rifrazione nella ionosfera, soprattutto durante il crepuscolo), il segnale somma al ricevitore cambia continuamente. Questo porta a un QSB costante e, a seconda del tipo di modulazione, a distorsioni più o meno marcate e quindi a una peggiore comprensibilità.

@@ -1,3 +1,3 @@
-Un Transistor bipolare necessita di una Corrente di Base affinché una Corrente maggiore possa fluire tra Collettore ed Emettitore. Per questo motivo viene definito un componente a controllo di corrente.
+Un transistor bipolare necessita di una corrente di base affinché possa fluire una corrente maggiore tra collettore ed emettitore. Per questo motivo viene definito come componente controllato in corrente.
 
-I Transistor a effetto di campo (FET), al contrario, sono considerati a controllo di Tensione o di campo.
+I transistor a effetto di campo (FET), invece, sono considerati componenti controllati in tensione o campo.

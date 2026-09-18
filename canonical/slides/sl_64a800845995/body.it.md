@@ -1,7 +1,7 @@
 <left>
-* Segnale audio troppo forte all'ingresso di un trasmettitore $\rightarrow$ armoniche
-* A sinistra il segnale desiderato è in giallo
-* A destra di esso le armoniche indesiderate
+* Un segnale audio troppo forte all'ingresso di un trasmettitore $\rightarrow$ armoniche
+* A sinistra è mostrato in giallo il segnale desiderato
+* A destra le armoniche indesiderate
 </left>
 <right>
 [picture:720:uebersteuerung_ft8:Un segnale FT8 sovraeccitato, a sinistra il segnale desiderato, a destra le armoniche indesiderate]
@@ -9,19 +9,19 @@
 
 ---
 
-* Si possono verificare distorsioni dovute a sovraeccitazione anche nell'amplificatore di trasmissione
-* Per evitarlo, molti apparecchi radio dispongono di una regolazione automatica del livello (in inglese: Automatic Level Control, ALC) $\rightarrow$ riduce automaticamente l'amplificazione
-* Nelle procedure di trasmissione digitale, tuttavia, l'ALC può causare problemi
-* A seconda del volume o della frequenza, il segnale potrebbe attivare l'ALC in misura diversa in momenti diversi $\rightarrow$ l'ampiezza viene modificata indesideratamente
+* Le distorsioni dovute a sovraeccitazione possono verificarsi anche nell'amplificatore di trasmissione
+* Per evitarlo, molti trasmettitori-ricevitori dispongono di una **regolazione automatica del livello** (in inglese: Automatic Level Control, ALC) $\rightarrow$ regola automaticamente il guadagno verso il basso
+* Tuttavia, nei sistemi di trasmissione digitali l'ALC può causare problemi
+* Il segnale, a seconda del volume o della frequenza, potrebbe attivare l'ALC in momenti diversi con intensità variabile $\rightarrow$ l'ampiezza viene modificata in modo indesiderato
 
 <note>
-Ciò significa che il nostro segnale utile effettivo viene ulteriormente modulato in ampiezza. Ciò crea ulteriori componenti di frequenza che vengono irradiate come trasmissioni spurie.
+Ciò significa che il nostro segnale utile viene ulteriormente modulato in ampiezza. Di conseguenza, si generano ulteriori componenti di frequenza che vengono irradiate come emissioni parassite.
 </note>
 
 ---
 
-* I problemi dell'ALC dipendono da vari fattori
-* Procedura di trasmissione
+* I problemi dell'ALC dipendono da diversi fattori
+* Sistema di trasmissione
 * Implementazione dell'ALC nel trasmettitore-ricevitore (tempo di reazione e di mantenimento)
 * Visualizzazione dell'ALC nel trasmettitore-ricevitore
 * $\rightarrow$ se l'ALC non interviene, non crea problemi
@@ -34,4 +34,3 @@ Ciò significa che il nostro segnale utile effettivo viene ulteriormente modulat
 
 ---
 [question:EJ219]
-

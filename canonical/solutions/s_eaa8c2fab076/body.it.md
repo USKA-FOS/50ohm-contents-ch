@@ -1,4 +1,4 @@
-L'energia immagazzinata in una batteria si calcola dalla tensione per la capacità:
+L'energia immagazzinata di un accumulatore si calcola moltiplicando la tensione per la capacità:
 
 $W = U \cdot Q$
 
@@ -10,8 +10,8 @@ e
 
 $Q = \qty{5}{\ampere\hour}$
 
-Ciò porta a:
+Ne consegue:
 
 $W = \qty{12}{\volt} \cdot \qty{5}{\ampere\hour} = \qty{60}{\watt\hour}$
 
-La batteria può quindi immagazzinare un'energia di $\qty{60}{\watt\hour}$.
+L'accumulatore può quindi immagazzinare un'energia di $\qty{60}{\watt\hour}$. 

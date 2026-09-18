@@ -1,21 +1,21 @@
 ---
 
-Con un *logbook* si ha la possibilità di documentare le proprie attività radioamatoriali. Un logbook può essere tenuto elettronicamente o a mano. Similmente a un logbook su una nave o in un aereo, si possono così registrare tutte le informazioni importanti sui collegamenti radio effettuati. Meno frequentemente, il logbook viene anche chiamato diario di stazione.
+Con un *registro di stazione* si ha la possibilità di documentare le proprie attività radioamatoriali. Un registro può essere tenuto sia in formato elettronico che manualmente su carta. Analogamente a un giornale di bordo di una nave o di un aereo, si possono così registrare tutte le informazioni importanti relative ai collegamenti radio effettuati. Più raramente, il registro di stazione viene anche chiamato *diario di stazione*.
 
 <indepth>
-Vengono solitamente registrati i seguenti dati in un logbook per ogni collegamento radio:
-* Nominativo della stazione opposta
+I dati che di solito vengono registrati in un registro di stazione per ogni collegamento radio sono:
+* Nominativo della stazione corrispondente
 * Frequenza o banda
 * Data e ora
-* Metodo di trasmissione (es. SSB, FT8, RTTY, ...)
+* Modalità di trasmissione (ad esempio SSB, FT8, RTTY, ...)
 * Rapporto assegnato e ricevuto
 * Potenza di trasmissione utilizzata
-* Osservazioni (es. nome del partner di QSO o stazione utilizzata da sé)
+* Note (ad esempio nome del partner del QSO o stazione utilizzata)
 </indepth>
 
 ---
 
-Molti radioamatori tengono volontariamente un logbook. Tuttavia, può anche succedere di ricevere una richiesta dall'Agenzia federale delle reti (Bundesnetzagentur) che obbliga a tenere un logbook, ad esempio per determinare le cause di disturbi o chiarire questioni relative alle frequenze.
+Molti radioamatori tengono volontariamente un registro di stazione. Tuttavia, può anche capitare di ricevere una richiesta da parte dell'Agenzia federale delle reti (Bundesnetzagentur) che impone la tenuta di un registro, ad esempio per determinare le cause di interferenze o chiarire questioni tecniche relative alle frequenze.
 
 [question:BG101]
 [question:VD109]
@@ -23,20 +23,20 @@ Molti radioamatori tengono volontariamente un logbook. Tuttavia, può anche succ
 [question:VN022]
 [question:VN023]
 
-Se è stato ordinato di tenere un logbook, è necessario assicurarsi di tenerlo in modo che sia effettivamente consultabile in seguito, indipendentemente da come viene tenuto. Ciò deve essere considerato soprattutto quando si cambia il modo di tenere il logbook.
+Se la tenuta del registro di stazione viene prescritta, è importante assicurarsi che il registro sia compilato in modo tale da essere consultabile anche in seguito, indipendentemente dal metodo utilizzato. Questo aspetto è particolarmente rilevante anche quando si modifica il modo in cui viene tenuto il registro.
 
 <tip>
-Ogni membro del DARC può sfruttare i vantaggi di un logbook elettronico basato sul web – basato su [Wavelog](https://50ohm.de/wl) – da qualsiasi luogo su [log.darc.de](https://50ohm.de/log). L'offerta comprende la possibilità di registrare i propri QSO lì, analizzarli e sincronizzarli anche con fornitori terzi come eQSL, LoTW, QRZ e il DCL. Una guida si trova in questo [video](https://50ohm.de/wlv).
+Ogni membro del DARC può usufruire dei vantaggi di un registro di stazione elettronico basato su web – basato su [Wavelog](https://50ohm.de/wl) – accessibile ovunque tramite [log.darc.de](https://50ohm.de/log). L'offerta include la possibilità di registrare, analizzare e sincronizzare i propri QSO con servizi esterni come eQSL, LoTW, QRZ e il DCL. Una guida è disponibile in questo [video](https://50ohm.de/wlv).
 
-[Diventa subito membro del DARC!](https://50ohm.de/mw)
+[Diventa ora membro del DARC!](https://50ohm.de/mw)
 </tip>
 
 ---
 
-Se si passa, ad esempio, da un logbook tenuto a mano su carta a un logbook tenuto elettronicamente tramite computer, è comunque necessario conservare il vecchio logbook cartaceo. Allo stesso modo, viceversa: se si passa dal computer alla carta, il computer con il software appropriato deve essere mantenuto o il logbook deve essere stampato. Lo stesso vale quando si cambia il software del logbook. Il vecchio software deve rimanere disponibile o il logbook esistente deve essere trasferito nel nuovo software.
+Se si passa, ad esempio, da un registro tenuto manualmente su carta a uno gestito elettronicamente tramite computer, il vecchio registro cartaceo deve comunque essere conservato. Allo stesso modo, se si passa dal computer alla carta, il computer con il software corrispondente deve essere mantenuto o il registro deve essere stampato. Lo stesso vale anche in caso di cambio del software di gestione del registro: il vecchio software deve essere mantenuto disponibile o il registro esistente deve essere trasferito nel nuovo software.
 
 <tip>
-*Suggerimento pratico:* Con il formato file ADIF è facile trasferire un file di log da un software di logbook a un altro. Allo stesso modo, è possibile trasferire un logbook da un computer a un altro.
+*Consiglio pratico:* Con il formato di file ADIF è facile trasferire un file di registro da un software di gestione a un altro. Allo stesso modo, è possibile trasferire un registro da un computer a un altro.
 </tip>
 
 [question:BG102]
@@ -44,15 +44,15 @@ Se si passa, ad esempio, da un logbook tenuto a mano su carta a un logbook tenut
 
 ---
 
-Le ore dovrebbero sempre essere registrate nel logbook in Tempo Coordinato Universale, comunemente indicato come *UTC* (da Universal Time Coordinated). Ciò serve a evitare di dover convertire l'ora per i collegamenti radio che attraversano diversi fusi orari. Ad esempio, se a Berlino sono le 8:00 ora locale, a New York sono solo le 2:00 ora locale. Per entrambi, tuttavia, sono le 07:00 UTC. Con l'UTC, l'ora è sempre la stessa in tutto il mondo.
+Le ore nel registro di stazione devono sempre essere indicate in tempo universale coordinato, solitamente denominato *UTC* (da Universal Time Coordinated). Questo serve a evitare di dover convertire l'ora in caso di collegamenti radio che attraversano diverse fasce orarie. Ad esempio, se a Berlino sono le 8:00 ora locale, a New York sono solo le 2:00 ora locale. Per entrambi, però, è sempre 07:00 UTC. Con l'UTC, in tutto il mondo è sempre la stessa ora.
 
 <indepth>
-Nel 1972, l'UTC è stato introdotto come orario universale e uniforme a livello mondiale.
+Nel 1972 l'UTC è stata introdotta come ora universale e unificata a livello mondiale.
 </indepth>
 
-Come la nostra ora locale viene convertita in UTC dipende dal fatto che sia in vigore l'ora legale. Durante l'ora solare, si applica l'ora dell'Europa centrale (*MEZ*). Per convertirla in UTC, è necessario sottrarre un'ora. Tuttavia, quando in estate viene utilizzata l'ora estiva dell'Europa centrale (*MESZ*), devono essere sottratte 2 ore.
+Come convertire la nostra ora locale in UTC dipende dal fatto che sia in vigore l'ora legale o meno. Durante l'ora solare (inverno) vale per noi il *tempo medio dell'Europa centrale (CET)*. Per convertirlo in UTC, è necessario sottrarre un'ora. Se invece si utilizza il *tempo medio estivo dell'Europa centrale (CEST)*, è necessario sottrarre due ore.
 
-Un esempio: a Berlino sono le 9:00 MEZ. Per convertirlo in UTC, è necessario sottrarre un'ora. Quindi sono le 08:00 UTC. Tuttavia, se a Berlino sono le 9:00 MESZ, devono essere sottratte due ore. Quindi sono le 7:00 UTC. Per convertire viceversa l'UTC in ora locale, è necessario aggiungere un'ora (MEZ) o due ore (MESZ).
+Un esempio: A Berlino sono le 9:00 CET. Per convertirle in UTC, si sottrae un'ora. Quindi sono le 08:00 UTC. Se invece a Berlino sono le 9:00 CEST, si devono sottrarre due ore. Quindi sono le 07:00 UTC. Viceversa, per convertire l'UTC nell'ora locale, è necessario aggiungere un'ora (CET) o due ore (CEST).
 
 
 [question:BG106]

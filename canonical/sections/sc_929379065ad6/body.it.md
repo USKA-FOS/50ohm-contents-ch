@@ -1,28 +1,28 @@
-Nella classe E abbiamo già analizzato reti di resistenze. La maggior parte dei problemi poteva ancora essere risolta facilmente a mente. Nella classe A, questo argomento viene ora approfondito ulteriormente. I seguenti problemi richiedono diversi passaggi di calcolo per arrivare alla soluzione. A tal fine, il problema viene suddiviso in singole aree parziali, che vengono prima calcolate e poi riunite. In questo modo non sono necessarie formule complicate e si ottiene in modo affidabile il risultato corretto.
+Nella classe E abbiamo già analizzato reti resistive. La maggior parte dei problemi poteva essere risolta abbastanza facilmente a mente. Nella classe A questo argomento viene approfondito ulteriormente. I problemi seguenti richiedono diversi passaggi di calcolo per giungere alla soluzione. Per farlo, si suddivide il problema in aree parziali che vengono calcolate inizialmente e poi combinate tra loro. In questo modo non servono formule complesse e si giunge in modo affidabile al risultato corretto.
 
 [question:AD106]
 [question:AD107]
 [question:AD108]
 
-Nel seguente circuito di resistenze è integrata una resistenza variabile (potenziometro).
-Il valore di resistenza può essere modificato da $\qty{0}{\kilo\ohm}$ a un massimo di $\qty{1}{\kilo\ohm}$.
-Per determinare l'intervallo della resistenza d'ingresso, dobbiamo quindi considerare due casi limite: da un lato, quando il cursore del potenziometro si trova su $\qty{0}{\ohm}$, dall'altro, quando si trova su $\qty{1}{\kilo\ohm}$. Quindi, praticamente due problemi in uno.
+Nel seguente circuito resistivo è inserita una resistenza variabile (potenziometro).
+Il valore della resistenza può essere modificato da $\qty{0}{\kilo\ohm}$ fino a un massimo di $\qty{1}{\kilo\ohm}$. 
+Per determinare l’intervallo della resistenza d’ingresso dobbiamo considerare due casi limite: da un lato, quando il cursore del potenziometro è su $\qty{0}{\ohm}$, dall’altro, quando è su $\qty{1}{\kilo\ohm}$. Quindi, in pratica, due problemi in uno.
 
 ---
 
 [question:AD109]
 
 <tip>
-La connessione in parallelo di $\qty{100}{\ohm}$ con $\qty{200}{\ohm}$ (potenziometro su $\qty{0}{\ohm}$) o $\qty{100}{\ohm}$ con $\qty{1,2}{\kilo\ohm}$ (potenziometro su $\qty{1}{\kilo\ohm}$) dà sempre un valore inferiore a $\qty{100}{\ohm}$. Se si aggiungono ancora $\qty{200}{\ohm}$, la resistenza totale non sarà superiore a $\qty{300}{\ohm}$.
-Esiste una sola soluzione in cui ciò è soddisfatto.
+Il collegamento in parallelo di $\qty{100}{\ohm}$ con $\qty{200}{\ohm}$ (potenziometro su $\qty{0}{\ohm}$) o di $\qty{100}{\ohm}$ con $\qty{1,2}{\kilo\ohm}$ (potenziometro su $\qty{1}{\kilo\ohm}$) restituisce sempre un valore inferiore a $\qty{100}{\ohm}$. Se si aggiunge ancora $\qty{200}{\ohm}$, la resistenza totale non supererà $\qty{300}{\ohm}$.
+Esiste un’unica soluzione che soddisfa questa condizione.
 </tip>
 
-Ora esaminiamo un circuito di resistenze con 4 resistenze, che viene spesso utilizzato. Due partitori di tensione in parallelo formano un cosiddetto circuito a ponte. I circuiti a ponte vengono applicati, ad esempio, negli strumenti di misurazione di resistenza secondo il principio di un cosiddetto ponte di misura di Wheatstone.
+Ora analizziamo un circuito resistivo con 4 resistenze, spesso utilizzato. Due partitori di tensione collegati in parallelo formano una cosiddetta configurazione a ponte. Le configurazioni a ponte vengono impiegate, ad esempio, negli strumenti di misura della resistenza secondo il principio del ponte di Wheatstone.
 
 ---
 
 [question:AD110]
 
 <tip>
-Questo problema può essere risolto facilmente anche a mente. Abbiamo due connessioni in parallelo con resistenze uguali, che sono state collegate in serie. Con resistenze di uguale valore, i valori di resistenza nella connessione in parallelo si dimezzano: $R_1 || R_2 = \qty{1100}{\ohm}$ e $R_3 || R_4 = \qty{110}{\ohm}$. Il risultato è quindi solo la somma dei due valori: $R_\mathrm{ges} = \qty{1100}{\ohm} + \qty{110}{\ohm} = \qty{1210}{\ohm}$.
+Questo problema può essere risolto facilmente anche a mente. Abbiamo due collegamenti in parallelo con resistenze uguali, collegate in serie. Con resistenze di valore uguale, i valori delle resistenze si dimezzano nel collegamento in parallelo: $R_1 || R_2 = \qty{1100}{\ohm}$ e $R_3 || R_4 = \qty{110}{\ohm}$. Il risultato è semplicemente la somma dei due valori: $R_\mathrm{ges} = \qty{1100}{\ohm} + \qty{110}{\ohm} = \qty{1210}{\ohm}$.
 </tip>

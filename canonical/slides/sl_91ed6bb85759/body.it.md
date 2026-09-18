@@ -1,12 +1,12 @@
 ## Linguaggio aperto
 
-Nel radioamatore è consentito solo il linguaggio aperto.
+Nel radioamatoriale è consentito utilizzare solo un linguaggio aperto.
 
-* Nessuna procedura di occultamento come codici segreti
-* Sono ammessi codifiche digitali, segnali Morse e abbreviazioni
+* Nessun metodo di occultamento come codici segreti
+* Sono ammessi codifiche digitali, caratteri Morse e abbreviazioni
 
 <note>
-* Dal periodo tra le due guerre mondiali, per evitare che il radioamatore venga utilizzato per la trasmissione di informazioni belliche
+* Dalla periodo tra le due guerre mondiali, per evitare che il radioamatoriale fosse usato per trasmissioni belliche
 </note>
 
 ---

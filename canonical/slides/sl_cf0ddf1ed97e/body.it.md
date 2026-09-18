@@ -2,7 +2,7 @@
 [photo:212:a_oszilloskop:Oscilloscopio digitale]
 </left>
 <right>
-* Mostra l'andamento temporale delle tensioni
+* Mostra l’andamento temporale delle tensioni
 * Misura la forma del segnale
 </right>
 ---
@@ -10,13 +10,13 @@
 ---
 [question:AI304]
 ---
-### Larghezza dell'impulso
+### Larghezza dell’impulso
 
 <left>
-[picture:1005:a_impulsbreite:Determinazione della larghezza dell'impulso di un segnale a onda quadra non ideale]
+[picture:1005:a_impulsbreite:Determinazione della larghezza dell’impulso di un segnale rettangolare non ideale]
 </left>
 <right>
-Definizione: La larghezza dell'impulso si misura al 50% del valore di picco
+Definizione: la larghezza dell’impulso è al 50% del valore di picco
 </right>
 ---
 [question:AI303]
@@ -24,37 +24,37 @@ Definizione: La larghezza dell'impulso si misura al 50% del valore di picco
 ### Trigger
 
 <left>
-[photo:219:a_oszilloskop_x-ablenkung:Senza tensione di ingresso, su uno schermo di oscilloscopio analogico un punto si muove da sinistra a destra, qui a una velocità di una divisione per secondo.]
+[photo:219:a_oszilloskop_x-ablenkung:Senza tensione d’ingresso, su uno schermo di un oscilloscopio analogico si sposta solo un punto da sinistra a destra, qui con una velocità di un divisione per secondo.]
 </left>
 <right>
-* Il trigger analizza il segnale in ingresso
-* Ad esempio, la tensione attraversa da negativo a positivo lo zero
-* In questo modo è possibile visualizzare un'immagine fissa di un'onda
+* Il trigger valuta il segnale in ingresso
+* Ad esempio, la tensione 0 che passa da negativa a positiva
+* In questo modo, per un’onda, è possibile visualizzare un’immagine stabile
 </right>
 ---
 [question:AI302]
 ---
-### Sonde
+### Puntali
 
 <left>
-[photo:223:a_oszilloskop_tastkoepfe:Sonde con diverse punte di prova. Le pinze a coccodrillo sono state rimosse per questa ripresa.]
+[photo:223:a_oscilloskop_tastkoepfe:Puntali con diverse punte di prova. Per questa foto, le pinze a coccodrillo sono state rimosse.]
 </left>
 <right>
-* Per la misurazione della tensione
-* Punta costruita come uncino o ago
-* Massa di riferimento solitamente tramite un morsetto a coccodrillo separato
-* Le sonde 10:1 dividono la tensione per dieci
+* Per misurare la tensione
+* Punta realizzata come gancio o ago
+* Massa di riferimento solitamente tramite una pinza a coccodrillo separata
+* I puntali 10:1 dividono la tensione in un decimo
 </right>
 ---
 ### Misurazione con un oscilloscopio
 
-[photo:224:a_oszilloskop_messung:Misurazione con una sonda. Tra i diodi D1 e D2 si vede la punta di prova e più a sinistra il morsetto a coccodrillo per il collegamento di massa.]
+[photo:224:a_oszilloskop_messung:Misurazione con un puntale. Tra i diodi D1 e D2 si vede la punta di prova e, più a sinistra, la pinza a coccodrillo per il collegamento di massa.]
 ---
 [question:AI305]
 ---
-### Percorso di soluzione
-* dato: $R=50\Omega$
-* dato: (dalla rappresentazione) $\hat{U} = 100V$
+### Procedimento di soluzione
+* dato: $R=\qty{50}{\ohm}$
+* dato: (dalla rappresentazione) $\hat{U} = \qty{100}{\volt}$
 * cercato: $P_{\textrm{PEP}}$
 
 <fragment>
@@ -63,9 +63,9 @@ $\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{\left(\f
 ---
 [question:AI306]
 ---
-### Percorso di soluzione
+### Procedimento di soluzione
 * dato: $R=\qty{50}{\ohm}$
-* dato: (dalla rappresentazione con sonda 10:1) $\hat{U} = \qty{6}{\volt}\cdot 10$
+* dato: (dalla rappresentazione con puntale 10:1) $\hat{U} = \qty{6}{\volt}\cdot 10$
 * cercato: $P_{\textrm{PEP}}$
 
 <fragment>
@@ -76,11 +76,11 @@ $\begin{split} P_{\textrm{PEP}} &= \frac{U_{\textrm{eff}}^2}{R} = \frac{\left(\f
 ## Impulso
 
 <left>
-* Un segnale salta da un valore a uno più alto e in un secondo momento ritorna indietro
-* La durata dell'impulso viene misurata dalla metà del fianco ascendente alla metà del fianco discendente
+* Un segnale passa da un valore a uno più alto e, in un secondo momento, torna al valore iniziale
+* La durata dell’impulso viene misurata dal centro del fronte di salita al centro del fronte di discesa
 </left>
 <right>
-[picture:57:e_impuls:Impulso in un oscilloscopio] 
+[picture:57:e_impuls:Impulso visualizzato su un oscilloscopio]
 </right>
 ---
 [question:EI303]
