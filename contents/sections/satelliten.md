@@ -164,7 +164,7 @@ Für eine funktionierende Satellitenverbindung müssen deshalb Sendeleistung, An
 
 <indepth>
 *Vereinfachtes Downlink-Budget eines LEO-CubeSats bei 145 MHz*
-
+Der Begiff dB (Dezibel) wird im Kapitel [sec:dezibel] behandelt.
 Ein stark vereinfachtes Beispiel für einen Downlink von einem
 LEO-CubeSat zu einer Bodenstation könnte so aussehen:
 
@@ -177,8 +177,12 @@ LEO-CubeSat zu einer Bodenstation könnte so aussehen:
 | Entfernung | 1 000 km |
 | Freiraumdämpfung | −135,7 dB |
 | Empfangsantenne | +15 dBi |
+| Vorverstärker | xx dB |
 | RX-Kabel und Stecker | −2 dB |
 | Empfangsleistung | −120,7 dBW = −90,7 dBm |
+| Empfängerempfindlichkei | yy |
+|  |   | 
+| "Reseve"  |  zz. |
 
 In einem echten Linkbudget kommen weitere Faktoren hinzu, z. B. Modulationsart, Datenrate, Empfängerrauschen und Linkreserve.
 </indepth>
