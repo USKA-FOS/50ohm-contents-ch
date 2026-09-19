@@ -168,6 +168,9 @@ Der Begiff dB (Dezibel) wird im Kapitel [sec:dezibel_1] ausführlich behandelt. 
 Ein stark vereinfachtes Beispiel für einen Downlink von einem
 LEO-CubeSat zu einer Bodenstation könnte so aussehen:
 
+*TODO dB Erklärung genauer formulieren*
+*TODO zahlen bereinigen und W durch m ersetzen*
+
 | Grösse | Beispielwert |
 | Frequenz | 145 MHz |
 | Sendeleistung | 1 W = 0 dBW |
