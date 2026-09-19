@@ -164,7 +164,7 @@ Für eine funktionierende Satellitenverbindung müssen deshalb Sendeleistung, An
 
 <indepth>
 *Vereinfachtes Downlink-Budget eines LEO-CubeSats bei 145 MHz*
-Der Begiff dB (Dezibel) wird im Kapitel [sec:dezibel] behandelt.
+Der Begiff dB (Dezibel) wird im Kapitel [sec:dezibel_1] ausführlich behandelt. Hier genügt zu wissen, dass dB ein Mass für die Stärke eines Signals ist. 
 Ein stark vereinfachtes Beispiel für einen Downlink von einem
 LEO-CubeSat zu einer Bodenstation könnte so aussehen:
 
