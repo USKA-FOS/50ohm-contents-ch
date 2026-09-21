@@ -39,4 +39,10 @@ Bei einem Kurzschluss kann ein *Lichtbogen* entstehen, also eine elektrische Ent
 
 In der Versorgungsleitung des Fahrzeugfunkgerätes muss immer eine Sicherung des richtigen Werts verbaut sein! In Abbildung [ref:n_Kabelsicherung] ist ein üblicher Sicherungshalter mit eingesteckter Sicherung zu sehen. Bei qualitativ hochwertigen Geräten sind in beiden Kabeln Sicherungen verbaut. Eine für den Plus- und eine für den Minuspol. Damit ist ein besserer Schutz als mit nur einer Sicherung in der Zuleitung zum Pluspol gegeben.
 
+<attention>
+*VORSICHT:* Wird ein Funkgerät direkt an die Fahrzeugbatterie angeschlossen, sollen Plus- und Minusleitung jeweils mit einer Sicherung abgesichert werden. Die Sicherungen werden möglichst nahe bei der Batterie eingebaut.
+
+Die Sicherung in der Minusleitung schützt die Leitung im seltenen Fall, dass die normale Masseverbindung der Batterie zum Fahrzeug unterbrochen ist und dadurch ein hoher Fahrzeugstrom über eine andere Masseverbindung des Funkgeräts fliessen könnte.
+</attention>
+
 [question:NK307]
