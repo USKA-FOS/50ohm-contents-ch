@@ -1,0 +1,15 @@
+[project]
+name = "fifty-ohm-contents-tools"
+version = "0.1.0"
+description = "Canonical content maintenance and review tools"
+requires-python = ">=3.14"
+dependencies = ["openpyxl>=3.1", "PyYAML>=6.0", "jinja2>=3.1"]
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = ["pytest>=9.1.1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

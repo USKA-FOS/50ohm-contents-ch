@@ -1,5 +1,20 @@
 # Content Model Tools
 
+## Python environment
+
+Use Python 3.14, selected by the repository's `.python-version`. From the
+repository root, install the locked Excel/YAML/template dependencies and pytest:
+
+```bash
+uv sync --locked
+uv run --locked python -m pytest -q
+```
+
+Activate `.venv/bin/activate` before using bare `python` commands below.
+Tests use temporary fixtures; they do not run a production site build or TeX
+compilation. Preserve transferred `work/` data and human review inputs when
+recreating an environment. The generator has its own Python 3.14 environment.
+
 ## Source Tree and Canonical Authority
 
 `canonical/` is the authoritative model for the content represented by this
