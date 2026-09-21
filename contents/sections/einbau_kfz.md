@@ -1,4 +1,4 @@
-Mit dem Einbau einer Amateurfunkanlage in ein Kraftfahrzeug macht das Autofahren gleich mehr Spaß. Über Relaisfunkstellen ist man gut mit anderen Amateurfunkstellen vernetzt und erhält so oftmals wertvolle Informationen zur Verkehrssituation auf der Fahrtstrecke. Für den Betrieb während der Fahrt ist - wie beim Smartphone - eine Freisprecheinrichtung erforderlich.
+Mit dem Einbau einer Amateurfunkanlage in ein Motorfahrzeug macht das Autofahren gleich mehr Spaß. Über Relaisfunkstellen ist man gut mit anderen Amateurfunkstellen vernetzt und erhält so oftmals wertvolle Informationen zur Verkehrssituation auf der Fahrtstrecke. Für den Betrieb während der Fahrt ist - wie beim Smartphone - eine Freisprecheinrichtung erforderlich.
 
 <margin>
 [photo:75:n_mobilfunkgeraet:Einbau des Bedienteils eines VHF/UHF-Funkgerätes in die Mittelkonsole eines PKW]
@@ -24,8 +24,8 @@ Werden Antennenleitungen einer Mobilfunkanlage parallel und sehr dicht zu andere
 
 ---
 
-Die Bordnetzspannung im Kraftfahrzeug erscheint zunächst ungefährlich, da man beim Berühren der Spannungen von $\qty{12}{\volt}$ oder $\qty{24}{\volt}$ keinen Stromschlag bekommen kann. Es muss aber auch bedacht werden, dass eine Fahrzeugbatterie sehr hohe Ströme liefern kann. Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen, einem Kabelbrand oder sogar zu einem Fahrzeugbrand kommen. Mit dem *Unterschied zwischen Spannung und Strom* haben wir uns im Kapitel 6 schon beschäftigt. 
-% wenn möglich auf Kapitel verweisen. Da es mehr als ein Abschnitt ist, ist verweis auf Abschnitt icht möglich.
+Die Bordnetzspannung im Kraftfahrzeug erscheint zunächst ungefährlich, da man beim Berühren der Spannungen von $\qty{12}{\volt}$ oder $\qty{24}{\volt}$ keinen Stromschlag bekommen kann. Es muss aber auch bedacht werden, dass eine Fahrzeugbatterie sehr hohe Ströme liefern kann. Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen, einem Kabelbrand oder sogar zu einem Fahrzeugbrand kommen. Mit dem *Unterschied zwischen Spannung und Strom* haben wir uns im [sec:chapter_nea_strom_spannung_widerstand_leistung_energie] schon beschäftigt. 
+% wenn möglich auf Kapitel verweisen. Da es mehr als ein Abschnitt ist, ist verweis auf Abschnitt nicht möglich.
 
 <margin>
 [photo:76:n_Kabelsicherung:Stromkabel mit Sicherungshalter]
