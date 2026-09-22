@@ -29,9 +29,9 @@ Das Rufzeichen eines Relais beginnt gemäß [Rufzeichenplan](https://50ohm.de/rz
 
 Die amtliche Definition von Repeatern liest sich etwas trockener: *"Relaisfunkstelle": eine fernbediente Amateurfunkstelle (auch in Satelliten), die empfangene Amateurfunkaussendungen, Teile davon oder sonstige eingespeiste oder eingespeicherte Signale fern ausgelöst aussendet und dabei zur Erhöhung der Erreichbarkeit von Amateurfunkstellen dient*
 Die folgende Frage zu dieser Definition lässt sich aber auch gut im Ausschlussverfahren lösen, wenn man folgendes weiß:
-* Relaisfunkstellen werden nicht mit persönlichen Rufzeichen betrieben.
-* Relaisfunkstellen sind üblicherweise nicht ständig besetzt.
-* Relaisfunkstellen müssen nicht zwingend an geografisch exponierten Standorten betrieben werden.
+* Relais werden nicht mit persönlichen Rufzeichen betrieben.
+* Relais sind üblicherweise nicht ständig besetzt.
+* Relais müssen nicht zwingend an geografisch exponierten Standorten betrieben werden.
 [question:VD118]
 % gibt es dazu eine HB Rechtgrundlage? 
 
@@ -120,5 +120,6 @@ In der bereits besprochenen Anlage 1 der AFuV finden sich auch Vorgaben für die
 [question:VD503]
 % Gibt es eine HB Rechtsgrundlage? 
 
-% Titel von Relaisfunkstelle auf Relais geändert.
-% TODO für Helvetisierung eingefügt. 
+% Den Titel von Relaisfunkstelle auf Relais geändert.
+% Weitere Vorkommen von Relaisfunkstelle auf Relais geändert.
+% TODO für Helvetisierung des Rufzeichenplans eingefügt. 
