@@ -35,7 +35,9 @@ Die Schwellspannung $U_{th}$ wird auch *Flussspannung* genannt, weil erst aber d
 </attention>
 
 <margin>
-Wasserkanal-Analogie einer Diode: Ein federbelastetes Kugel-Rückschlagventil sperrt, solange die Strömungskraft $F_{\text{Strom}}$ kleiner als die Federkraft $F_{\text{Feder}}$ ist (oben); übersteigt sie die Schwellenkraft, hebt die Kugel ab und der Kanal wird leitend (unten) – analog zum Verhalten einer Diode oberhalb ihrer Schwellenspannung $U_S$.
+*Wasserkanal-Analogie einer Diode:*
+
+Ein federbelastetes Kugel-Rückschlagventil sperrt, solange die Strömungskraft $F_{\text{Strom}}$ kleiner als die Federkraft $F_{\text{Feder}}$ ist (oben); übersteigt sie die Schwellenkraft, hebt die Kugel ab und der Kanal wird leitend (unten) – analog zum Verhalten einer Diode oberhalb ihrer Schwellenspannung $U_S$.
 [picture:10102:e_diode_wasserkanal_analogie:Wasserkanal_Analogie]
 </margin>
 
