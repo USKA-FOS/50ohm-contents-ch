@@ -34,6 +34,11 @@ Als Anhaltspunkte für die Schwellspannung von Dioden können wir für Germanium
 Die Schwellspannung $U_{th}$ wird auch *Flussspannung* genannt, weil erst aber dieser Spannung der Strom markant zu fliessen beginnt.
 </attention>
 
+<margin>
+Wasserkanal-Analogie einer Diode: Ein federbelastetes Kugel-Rückschlagventil sperrt, solange die Strömungskraft $F_{\text{Strom}}$ kleiner als die Federkraft $F_{\text{Feder}}$ ist (oben); übersteigt sie die Schwellenkraft, hebt die Kugel ab und der Kanal wird leitend (unten) – analog zum Verhalten einer Diode oberhalb ihrer Schwellenspannung $U_S$.
+[picture:10102:e_diode_wasserkanal_analogie:Wasserkanal_Analogie]
+</margin>
+
 *Leuchtdioden* (LEDs) sind spezielle Dioden, bei denen das Halbleitermaterial so beschaffen ist, dass es bei Polung der Diode in Flussrichtung Licht aussendet. Das geht nur mit bestimmten Materialien - mit Si und Ge nicht. Die Farbe des Lichts ist durch die Energiebandlücke gegeben. Je größer die Energiebandlücke, desto kurzwelliger das Licht, um so geringer der Sperrsättigungsstrom, und daher um so höher die Schwellspannung. Daher haben rote LEDs etwa $\qty{1,7}{\volt}$ Schwellspannung und grüne LEDs $\qty{2,5}{\volt}$. Die verschienden Kennlinien sind in der Abbildung [ref:e_diode_kennlinien] dargestellt.
 
 [question:EC513]
