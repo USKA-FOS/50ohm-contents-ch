@@ -106,8 +106,7 @@ Für Satelliten, die dasselbe Zentralobjekt umkreisen, gilt:
 
 $$T^2 \propto a^3$$
 
-Dabei ist $T$ die Umlaufzeit und $a$ die grosse Halbachse der Bahnellipse. Je grösser die grosse Halbachse und damit die mittlere Bahnentfernung ist, desto länger dauert ein Umlauf.
-
+Dabei ist $T$ die Umlaufzeit und $a$ die grosse Halbachse der Bahnellipse. Je grösser die grosse Halbachse der Bahn ist, desto länger dauert ein Umlauf.
 Für die Satellitenpraxis bedeutet dies: Satelliten in niedrigen Umlaufbahnen umkreisen die Erde wesentlich schneller als Satelliten in höheren Umlaufbahnen.
 
 <margin>
