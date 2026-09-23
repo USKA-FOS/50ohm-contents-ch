@@ -164,28 +164,28 @@ Für eine funktionierende Satellitenverbindung müssen deshalb Sendeleistung, An
 
 <indepth>
 *Vereinfachtes Downlink-Budget eines LEO-CubeSats bei 145 MHz*
-Der Begiff dB (Dezibel) wird im Kapitel [sec:dezibel_1] ausführlich behandelt. Hier genügt zu wissen, dass dB ein Mass für die Stärke eines Signals ist. 
-Ein stark vereinfachtes Beispiel für einen Downlink von einem
-LEO-CubeSat zu einer Bodenstation könnte so aussehen:
+Der Begiff dB (Dezibel) wird im Kapitel [sec:dezibel_1] ausführlich behandelt. Hier genügt zu wissen, dass dB ein Mass für die Stärke eines Signals ist. dB stellt eine Verhältniszahl dar und dBm stellt einen absoluten Leistungspegel dar.
+Ein stark vereinfachtes Beispiel für einen Downlink von einem LEO-CubeSat zu einer Bodenstation könnte so aussehen:
 
 *TODO dB Erklärung genauer formulieren*
 *TODO zahlen bereinigen und W durch m ersetzen*
+*Subskripte setzen!*
 
 | Grösse | Beispielwert |
-| Frequenz | 145 MHz |
-| Sendeleistung | 1 W = 0 dBW |
+| Frequenz | 145.9 MHz |
+| Sendeleistung | 1 W = 30 dBm |
 | TX-Kabel und Stecker | −1 dB |
 | Sendeantenne | +3 dBi |
-| EIRP | +2 dBW |
-| Entfernung | 1 000 km |
-| Freiraumdämpfung | −135,7 dB |
-| Empfangsantenne | +15 dBi |
-| Vorverstärker | xx dB |
+| EIRP | +32 dBm |
+| Entfernung | 2 000 km |
+| Freiraumdämpfung | −141,7 dB |
+| Empfangsantenne | +8 dBi |
+| Vorverstärker | +15 dB |
 | RX-Kabel und Stecker | −2 dB |
-| Empfangsleistung | −120,7 dBW = −90,7 dBm |
-| Empfängerempfindlichkei | yy |
+| Empfangsleistung | −88,7 dBm |
+| Empfängerempfindlichkei | -104 dBm |
 |  |   | 
-| "Reseve"  |  zz. |
+| Linkmargin  |  +15.3 dB |
 
 In einem echten Linkbudget kommen weitere Faktoren hinzu, z. B. Modulationsart, Datenrate, Empfängerrauschen und Linkreserve.
 </indepth>
