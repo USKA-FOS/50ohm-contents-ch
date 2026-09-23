@@ -49,7 +49,7 @@ Satelliten, die in Polumlaufbahnen operieren, fliegen über die Pole der Erde hi
 
 ---
 
-Bei der Nutzung von Satellitenkommunikation ist die Ausrichtung von Antennen von zentraler Bedeutung. Die Begriffe *Azimut* und *Elevation* spielen dabei eine Schlüsselrolle. Sie beschreiben die horizontale Ausrichtung und den vertikalen Winkel, unter denen ein Satellit von der Erdoberfläche aus wahrgenommen wird.:
+Bei der Nutzung von Satellitenkommunikation ist die Ausrichtung von Antennen von zentraler Bedeutung. Die Begriffe *Azimut* und *Elevation* spielen dabei eine Schlüsselrolle. Sie beschreiben die horizontale Ausrichtung und den vertikalen Winkel, unter denen ein Satellit von der Erdoberfläche aus wahrgenommen wird.
 * Das *Azimut* ist die Richtung entlang des Horizonts, in die man schaut, um den Satelliten zu sehen. Er wird meist in Grad gemessen und reicht von $\qty{0}{\degree}$ (Norden) über $\qty{90}{\degree}$ (Osten), $\qty{180}{\degree}$ (Süden) bis $\qty{270}{\degree}$ (Westen).
 * Die *Elevation* ist der vertikale Winkel, unter dem ein Satellit über dem Horizont steht. Sie wird ebenfalls in Grad gemessen und variiert von $\qty{0}{\degree}$ (direkt am Horizont) bis $\qty{90}{\degree}$ (senkrecht über einem).
 
