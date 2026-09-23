@@ -113,8 +113,10 @@ Für die Satellitenpraxis bedeutet dies: Satelliten in niedrigen Umlaufbahnen um
 [picture:10100:a_kepler_ellipse:Kepler Ellipse mit Satellit im Umlauf] 
 </margin>
 
+### Umlaufzeit eines Satelliten
+
 Im Kapitel [sec:satelliten] haben wir verschiedene Satellitenbahnen kennengelernt. Die Umlaufzeit eines Satelliten um die Erde hängt von der Höhe seiner Bahn ab. Dieser Zusammenhang ist im Bild 
-[ref: a_umlaufzeiten] dargestellt. 
+[ref:a_umlaufzeiten] dargestellt. 
 
 <indepth>
 *Umlaufzeit eines Satelliten* 
@@ -219,8 +221,6 @@ Beim Empfang einer Bake kann eine Funkstation beispielsweise feststellen, ob der
 Für den praktischen Satellitenfunk werden die aktuelle Bahn und die Position des Satelliten benötigt. Dazu werden Bahnelemente, beispielsweise sogenannte TLE (Two-Line Elements), verwendet. Tracking-Programme berechnen daraus die voraussichtliche Position des Satelliten und zeigen unter anderem Azimut, Elevation, AOS und LOS sowie den zu erwartenden Dopplereffekt an.
 
 Damit lassen sich Überflüge planen und Funkgeräte sowie Antennen automatisch nachführen.
-
----
 
 <tip>
 Mit Amateurfunk über Satelliten befassen sich weltweit die AMSAT-Organisationen, in der Schweiz ist das [AMSAT-HB](https://amsat-hb.org/) 
