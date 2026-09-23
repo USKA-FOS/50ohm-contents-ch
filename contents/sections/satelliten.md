@@ -173,7 +173,7 @@ Ein stark vereinfachtes Beispiel für einen Downlink von einem LEO-CubeSat zu ei
 
 | Grösse | Beispielwert |
 | Frequenz | 145.9 MHz |
-| Sendeleistung | 1 W = 30 dBfrac{m} |
+| Sendeleistung | 1 W = 30 dB/frac{m} |
 | TX-Kabel und Stecker | −1 dB |
 | Sendeantenne | +3 dBi |
 | EIRP | +32 dBm |
