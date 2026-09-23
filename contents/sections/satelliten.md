@@ -75,7 +75,7 @@ Im Amateurfunkdienst über Satelliten gilt eine Ausnahme von der Pflicht, nur of
 ---
 
 **XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX**
-**DIESER TEIL GEHÖRT IN EIN FORTSETZUNGSKAPITEL FÜR DEN HB9-TEIL**
+*******DIESER TEIL GEHÖRT IN DAS FORTSETZUNGSKAPITEL FÜR DEN HB9-TEIL******
 
 ---
 
@@ -133,7 +133,7 @@ Für kleine Geschwindigkeiten gegenüber der Lichtgeschwindigkeit kann die Frequ
 
 $$\Delta f \approx f_0 \frac{v_r}{c}$$
 
-beschrieben werden. Dabei ist $f_0$ die Sendefrequenz, $v_r$ die Relativgeschwindigkeit in Richtung der Funkstrecke und $c$ die Lichtgeschwindigkeit. Entscheidend ist also die radiale Geschwindigkeit und nicht die gesamte Bahngeschwindigkeit des Satelliten. Dabei sei v <sub>r</sub> > 0, wenn sich Sender und Empfänger einander nähern.
+beschrieben werden. Dabei ist $f_0$ die Sendefrequenz, $v_r$ die Relativgeschwindigkeit in Richtung der Funkstrecke und $c$ die Lichtgeschwindigkeit. Entscheidend ist also die radiale Geschwindigkeit und nicht die gesamte Bahngeschwindigkeit des Satelliten. Dabei sei v<sub>r</sub>>0, wenn sich Sender und Empfänger einander nähern.
 
 Bei LEO-Satelliten kann die Dopplerverschiebung insbesondere bei höheren Frequenzen und bei schmalbandigen Betriebsarten deutlich bemerkbar sein. Deshalb muss die Frequenz während eines Satellitenüberflugs gegebenenfalls laufend nachgeführt werden. Moderne Satellitenstationen können die Dopplerkompensation automatisch durchführen.
 
@@ -164,8 +164,6 @@ Für eine funktionierende Satellitenverbindung müssen deshalb Sendeleistung, An
 *Vereinfachtes Downlink-Budget eines LEO-CubeSats im 2-Meterband*
 Der Begiff dB (Dezibel) wird erst im Kapitel [sec:dezibel_1] ausführlich behandelt. Hier genügt es, zu wissen, dass dB eine Verhältniszahl und dBm einen absoluten Leistungspegel darstellt.
 Ein stark vereinfachtes Beispiel für einen Downlink von einem LEO-CubeSat zu einer Bodenstation könnte so aussehen:
-
-*TODO Zahlen kontrollieren*
 
 | Grösse | Beispielwert |
 | Frequenz | 145.9 MHz |
