@@ -198,7 +198,7 @@ Amateurfunksatelliten können unterschiedliche Arten von Funknutzlasten besitzen
 
 Ein linearer Transponder empfängt einen Frequenzbereich und setzt ihn in einen anderen Frequenzbereich um. Mehrere Signale können gleichzeitig innerhalb der verfügbaren Transponderbandbreite übertragen werden. Typische Betriebsarten sind beispielsweise SSB und CW.
 
-Ein FM-Transponder arbeitet dagegen mit FM-Signalen und ist in der Regel für die gleichzeitige Übertragung eines einzelnen Gesprächs oder weniger entsprechend geplanter Signale ausgelegt.
+Ein FM-Transponder arbeitet dagegen mit FM-Signalen für die gleichzeitige Übertragung eines einzelnen Gesprächs.
 
 Ein Digipeater empfängt digitale Daten und sendet sie nach einem definierten Verfahren wieder aus. Er unterscheidet sich damit grundsätzlich von einem linearen Transponder, der das empfangene Frequenzspektrum umsetzt, ohne die einzelnen Nutzsignale als Datenpakete zu verarbeiten.
 
@@ -215,10 +215,6 @@ Für den praktischen Satellitenfunk werden die aktuelle Bahn und die Position de
 Damit lassen sich Überflüge planen und Funkgeräte sowie Antennen automatisch nachführen.
 
 ---
-
-Amateurfunksatelliten verfügen über eine Bake. Eine Bake sendet automatisch in regelmässigen Abständen oder kontinuierlich definierte Signale aus. Sie kann dazu dienen, die Empfangbarkeit des Satelliten, die Ausbreitungsbedingungen und den Zustand der Funknutzlast zu beobachten.
-
-Beim Empfang einer Bake kann eine Funkstation beispielsweise feststellen, ob der Satellit bereits über dem Horizont steht, wie sich die Empfangsfrequenz durch den Dopplereffekt verändert und wie gut die Funkverbindung funktioniert.
 
 Im Kapitel [sec:satelliten] haben wir verschiedene Satellitenbahnen kennengelernt. Die Umlaufzeit eines Satelliten um die Erde hängt von der Höhe seiner Bahn ab. Dieser Zusammenhang ist im Bild 
 [ref: a_umlaufzeiten] dargestellt. 
