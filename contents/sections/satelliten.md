@@ -33,7 +33,7 @@ Eine geosynchrone Umlaufbahn hat eine Umlaufzeit von ungefähr einem siderischen
 
 Ein geostationärer Satellit bewegt sich auf einer nahezu kreisförmigen Bahn über dem Äquator in derselben Drehrichtung und mit derselben Winkelgeschwindigkeit wie die Erde. Dadurch erscheint er von der Erde aus gesehen nahezu ortsfest am Himmel. Dies ermöglicht es einer Bodenstation, ihre Antenne dauerhaft auf dieselbe Position auszurichten. Geostationäre Satelliten eignen sich daher besonders für Kommunikationsanwendungen und ermöglichen eine konstante Abdeckung eines bestimmten Gebiets.
 
-[QO-100](https://amsat-dl.org/p4-a-nb-transponder-bandplan-und-betriebsrichtlinien/) ist der bisher erste geostationäre Satellit mit einer Amateurfunk Nutzlast.
+[QO-100](https://amsat-dl.org/p4-a-nb-transponder-bandplan-und-betriebsrichtlinien/) ist die Amateurfunknutzlast auf dem geostationären Satelliten Es’hail-2 und ist die erste Amateurfunknutzlast in einer geostationären Umlaufbahn.
 
 *Hochelliptische Umlaufbahnen (Highly Elliptical Orbit - HEO)*
 
