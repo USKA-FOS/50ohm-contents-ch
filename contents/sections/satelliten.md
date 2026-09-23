@@ -14,7 +14,7 @@ Satelliten umrunden die Erde in kreisförmigen oder elliptischen Bahnen und in u
 (Quellenangabe: [History of AMSAT](https://www.amsat.org/amsat-history/))
 [question:BE415]
 
-Die mitgeführten Relaisfunkstellen werden als "Transponder" bezeichnet. Die Eingabefrequenz, also die Funkstrecke von der Erde zum Satelliten, wird im Satellitenfunk als "Uplink" bezeichnet. Die Ausgabefrequenz, also die Funkstrecke vom Satelliten zur Erde, wird hingegen "Downlink" genannt . Für Uplink und Downlink werden oftmals unterschiedliche Frequenzbänder benutzt, weil dies eine einfachere Trennung von Sende- und Empfangssignal ermöglicht und die Baugröße von Filtern auf dem Satelliten reduziert wird.
+Die mitgeführten Relaisfunkstellen werden als "Transponder" bezeichnet. Die Eingabefrequenz, also die Funkstrecke von der Erde zum Satelliten, wird im Satellitenfunk als "Uplink" bezeichnet. Die Ausgabefrequenz, also die Funkstrecke vom Satelliten zur Erde, wird hingegen "Downlink" genannt. Für Uplink und Downlink werden oftmals unterschiedliche Frequenzbänder benutzt, weil dies eine einfachere Trennung von Sende- und Empfangssignal ermöglicht und die Baugröße von Filtern auf dem Satelliten reduziert wird.
 
 <indepth>
 *Charakterisierung von Satellitenbahnen (orbits)*
@@ -22,7 +22,7 @@ Die mitgeführten Relaisfunkstellen werden als "Transponder" bezeichnet. Die Ein
 Satellitenbahnen können nach verschiedenen Eigenschaften beschrieben werden. Die Begriffe LEO, MEO und GEO beziehen sich hauptsächlich auf die Bahnhöhe. Begriffe wie HEO oder Polar Orbit beschreiben dagegen andere Eigenschaften der Bahn, insbesondere deren Form oder Neigung. Diese Einteilungen können sich daher überschneiden. Im Folgenden stellen wir die wichtigsten Flughöhen bzw. Umlaufbahnen vor.
 
 *Niedrige Umlaufbahnen (Low Earth Orbit - LEO)*
-Satelliten in niedrigen Umlaufbahnen befinden sich in Höhen von etwa 400 bis 2'000 Kilometern über über der Erdoberfläche. Das sind Umlaufbahnen, die sich relativ nahe an der Erdoberfläche befinden. In diesem Bereich bewegen sich viele Erdbeobachtungs- und Wettersatelliten sowie zahlreiche Amateurfunksatelliten. Die Nähe zur Erde ermöglicht eine hohe Auflösung bei der Erfassung von Daten und Bildern. Die geringe Entfernung zur Erde ermöglicht relativ kurze Funkstrecken und damit geringe Freiraumdämpfung. Gleichzeitig bewegen sich LEO-Satelliten schnell über den Himmel und sind von einer bestimmten Funkstation nur während eines zeitlich begrenzten Überflugs sichtbar.
+Satelliten in niedrigen Umlaufbahnen befinden sich in Höhen von etwa 400 bis 2'000 Kilometern über der Erdoberfläche. Das sind Umlaufbahnen, die sich relativ nahe an der Erdoberfläche befinden. In diesem Bereich bewegen sich viele Erdbeobachtungs- und Wettersatelliten sowie zahlreiche Amateurfunksatelliten. Die Nähe zur Erde ermöglicht eine hohe Auflösung bei der Erfassung von Daten und Bildern. Die geringe Entfernung zur Erde ermöglicht relativ kurze Funkstrecken und damit geringe Freiraumdämpfung. Gleichzeitig bewegen sich LEO-Satelliten schnell über den Himmel und sind von einer bestimmten Funkstation nur während eines zeitlich begrenzten Überflugs sichtbar.
 
 *Mittlere Umlaufbahnen (Medium Earth Orbit - MEO)*
 Mittlere Umlaufbahnen liegen grob zwischen 2'000 und 35'786 Kilometern Höhe. In diesem Bereich befinden sich beispielsweise viele Navigationssatelliten, wie sie für das weltbekannte GPS-System verwendet werden. Da die Satelliten hier länger brauchen, um die Erde zu umkreisen, bieten sie eine ausgeglichene Balance zwischen Abdeckung und Genauigkeit für Navigation und Positionierung. Mit zunehmender Bahnhöhe verlängert sich die Umlaufzeit. Gleichzeitig vergrössert sich das von einem Satelliten erreichbare Gebiet.
@@ -50,7 +50,7 @@ Satelliten, die in Polumlaufbahnen operieren, fliegen über die Pole der Erde hi
 ---
 
 Bei der Nutzung von Satellitenkommunikation ist die Ausrichtung von Antennen von zentraler Bedeutung. Die Begriffe *Azimut* und *Elevation* spielen dabei eine Schlüsselrolle. Sie beschreiben die horizontale Ausrichtung und den vertikalen Winkel, unter denen ein Satellit von der Erdoberfläche aus wahrgenommen wird.
-* Das *Azimut* ist die Richtung entlang des Horizonts, in die man schaut, um den Satelliten zu sehen. Er wird meist in Grad gemessen und reicht von $\qty{0}{\degree}$ (Norden) über $\qty{90}{\degree}$ (Osten), $\qty{180}{\degree}$ (Süden) bis $\qty{270}{\degree}$ (Westen).
+* Das *Azimut* ist die Richtung entlang des Horizonts, in die man schaut, um den Satelliten zu sehen. Es wird meist in Grad gemessen und reicht von $\qty{0}{\degree}$ (Norden) über $\qty{90}{\degree}$ (Osten), $\qty{180}{\degree}$ (Süden) bis $\qty{270}{\degree}$ (Westen).
 * Die *Elevation* ist der vertikale Winkel, unter dem ein Satellit über dem Horizont steht. Sie wird ebenfalls in Grad gemessen und variiert von $\qty{0}{\degree}$ (direkt am Horizont) bis $\qty{90}{\degree}$ (senkrecht über einem).
 
 <margin>
@@ -64,7 +64,7 @@ Der Begriff *Azimut* stammt von arabisch *as-sumūt*, ("die Wege") ab. *Elevatio
 [question:BE413]
 [question:BE414]
 
-Im Amateurfunkdienst über Satelliten gilt eine Ausnahme von der Pflicht, nur offene Sprache zu verwenden. Es ist erlaubt, Steuersignale zwischen Bodenstationen und Amateurfunksatelliten zum Zwecke der Verschleierung zu verschlüsseln. Das heißt, dass hierfür ausnahmsweise Verschlüsselungsverfahren genutzt werden dürfen, die verhindern, dass der Inhalt der Steuersignale von Dritten mitgelesen werden kann. Dies dient der Sicherheit der Satelliten vor Steuerkommandos von Unbefugten.
+Im Amateurfunkdienst über Satelliten gilt eine Ausnahme von der Pflicht, nur offene Sprache zu verwenden.   Kommandostationen ist es erlaubt, Steuersignale zwischen Bodenstationen und Amateurfunksatelliten zum Zwecke der Verschleierung zu verschlüsseln. Das heißt, dass hierfür ausnahmsweise Verschlüsselungsverfahren genutzt werden dürfen, die verhindern, dass der Inhalt der Steuersignale von Dritten mitgelesen werden kann. Dies dient der Sicherheit der Satelliten vor Steuerkommandos von Unbefugten.
 
 [question:VA303]
 [question:VN026]
@@ -81,7 +81,7 @@ Im Amateurfunkdienst über Satelliten gilt eine Ausnahme von der Pflicht, nur of
 
 <attention>
 *Dieser Stoff ist nicht prüfungsrelevant.*
-Satelliten und Raumfahrt spielen eine immer wichtigere Rolle. Wir Funkamateure können dank des Amateurfunktdiensts über Satelliten auch auf diesem spannenden Feld tätig werden. Deshalb sind wir der Meinung, dass diese Einführung in einen Amateurfunkkurs reingehört, auch wenn das Thema aktuell nicht geprüft wird.
+Satelliten und Raumfahrt spielen eine immer wichtigere Rolle. Wir Funkamateure können dank des Amateurfunkdiensts über Satelliten auch auf diesem spannenden Feld tätig werden. Deshalb sind wir der Meinung, dass diese Einführung in einen Amateurfunkkurs reingehört, auch wenn das Thema aktuell nicht geprüft wird.
 </attention>
 
 ## Umlaufbahnen und Keplersche Gesetze
@@ -172,7 +172,7 @@ Für eine funktionierende Satellitenverbindung müssen deshalb Sendeleistung, An
 
 <indepth>
 *Vereinfachtes Downlink-Budget eines LEO-CubeSats im 2-Meterband*
-Der Begiff dB (Dezibel) wird erst im Kapitel [sec:dezibel_1] ausführlich behandelt. Hier genügt es, zu wissen, dass dB eine Verhältniszahl und dBm einen absoluten Leistungspegel darstellt.
+Der Begriff dB (Dezibel) wird erst im Kapitel [sec:dezibel_1] ausführlich behandelt. Hier genügt es, zu wissen, dass dB eine Verhältniszahl und dBm einen absoluten Leistungspegel darstellt.
 Ein stark vereinfachtes Beispiel für einen Downlink von einem LEO-CubeSat zu einer Bodenstation könnte so aussehen:
 
 | Grösse | Beispielwert |
@@ -181,12 +181,12 @@ Ein stark vereinfachtes Beispiel für einen Downlink von einem LEO-CubeSat zu ei
 | Verluste TX-Kabel und Stecker | −1 dB |
 | Gewinn Sendeantenne | +3 dB<sub>i</sub> |
 | EIRP | +32 dB<sub>m</sub> |
-| Entfernung | 2 000 km |
-| Freiraumdämpfung | −141,7 dB |
+| Entfernung | 2000 km |
+| Freiraumdämpfung | −141.7 dB |
 | Gewinn Empfangsantenne | +8 dB<sub>i</sub> |
 | Vorverstärker | +15 dB |
 | Verluste RX-Kabel und Stecker | −2 dB |
-| Leistung am Rx-Eingang| −88,7 dB<sub>m</sub> |
+| Leistung am Rx-Eingang| −88.7 dB<sub>m</sub> |
 | angenommene Empfängerempfindlichkeit | -104 dB<sub>m</sub>  |
 |  |   | 
 | Linkmargin  |  +15.3 dB |
@@ -225,6 +225,6 @@ Damit lassen sich Überflüge planen und Funkgeräte sowie Antennen automatisch 
 ---
 
 <tip>
-Mit Amateurfunk über Satelliten befassen sich weltweit die AMSAT-Organisationen, in der Schweiz ist das [AMSAT-HB](https://amsat-hb.org/) 
+Mit Amateurfunk über Satelliten befassen sich weltweit die AMSAT-Organisationen, in der Schweiz ist das [AMSAT-HB](https://amsat-hb.org/). 
 </tip>
 
