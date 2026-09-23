@@ -133,7 +133,7 @@ Für kleine Geschwindigkeiten gegenüber der Lichtgeschwindigkeit kann die Frequ
 
 $$\Delta f \approx f_0 \frac{v_r}{c}$$
 
-beschrieben werden. Dabei ist $f_0$ die Sendefrequenz, $v_r$ die Relativgeschwindigkeit in Richtung der Funkstrecke und $c$ die Lichtgeschwindigkeit. Entscheidend ist also die radiale Geschwindigkeit und nicht die gesamte Bahngeschwindigkeit des Satelliten. Dabei sei {v_r} >0, wenn sich Sender und Empfänger einander nähern.
+beschrieben werden. Dabei ist $f_0$ die Sendefrequenz, $v_r$ die Relativgeschwindigkeit in Richtung der Funkstrecke und $c$ die Lichtgeschwindigkeit. Entscheidend ist also die radiale Geschwindigkeit und nicht die gesamte Bahngeschwindigkeit des Satelliten. Dabei sei v <sub>r</sub> > 0, wenn sich Sender und Empfänger einander nähern.
 
 Bei LEO-Satelliten kann die Dopplerverschiebung insbesondere bei höheren Frequenzen und bei schmalbandigen Betriebsarten deutlich bemerkbar sein. Deshalb muss die Frequenz während eines Satellitenüberflugs gegebenenfalls laufend nachgeführt werden. Moderne Satellitenstationen können die Dopplerkompensation automatisch durchführen.
 
@@ -152,7 +152,7 @@ Dieses Applet visualisiert den Dopplereffekt. Mit dem Schieberegler kann die *Re
 
 Das Funksignal eines Satelliten muss eine grosse Entfernung zwischen Bodenstation und Satellit zurücklegen. Dabei entsteht die sogenannte Freiraumdämpfung. Sie nimmt mit zunehmender Entfernung und mit steigender Frequenz zu.
 
-Für eine ideale Freiraumverbindung gilt die Frii'sche Freiraumformel, welche die Basis für jedes Linkbudget bildet:
+Für eine ideale Freiraumverbindung gilt die Friis'sche Freiraumformel, welche die Basis für jedes Linkbudget bildet:
 
 $$L_{FS}=20\log_{10}\left(\frac{4\pi d}{\lambda}\right)$$
 
