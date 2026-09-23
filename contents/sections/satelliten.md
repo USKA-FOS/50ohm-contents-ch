@@ -163,27 +163,25 @@ Dabei ist $d$ die Entfernung zwischen Sender und Empfänger und $\lambda$ die We
 Für eine funktionierende Satellitenverbindung müssen deshalb Sendeleistung, Antennengewinn, Kabelverluste, Freiraumdämpfung und Empfängerempfindlichkeit gemeinsam betrachtet werden. Diese Betrachtung wird als Linkbudget bezeichnet.
 
 <indepth>
-*Vereinfachtes Downlink-Budget eines LEO-CubeSats bei 145 MHz*
-Der Begiff dB (Dezibel) wird im Kapitel [sec:dezibel_1] ausführlich behandelt. Hier genügt zu wissen, dass dB ein Mass für die Stärke eines Signals ist. dB stellt eine Verhältniszahl dar und dBm stellt einen absoluten Leistungspegel dar.
+*Vereinfachtes Downlink-Budget eines LEO-CubeSats im 2-Meterband*
+Der Begiff dB (Dezibel) wird erst im Kapitel [sec:dezibel_1] ausführlich behandelt. Hier genügt es, zu wissen, dass dB eine Verhältniszahl und dBm einen absoluten Leistungspegel darstellt.
 Ein stark vereinfachtes Beispiel für einen Downlink von einem LEO-CubeSat zu einer Bodenstation könnte so aussehen:
 
-*TODO dB Erklärung genauer formulieren*
-*TODO zahlen bereinigen und W durch m ersetzen*
-*Subskripte setzen!*
+*TODO Zahlen kontrollieren*
 
 | Grösse | Beispielwert |
 | Frequenz | 145.9 MHz |
 | Sendeleistung | 1 W = 30 dB<sub>m</sub>  |
 | TX-Kabel und Stecker | −1 dB |
-| Sendeantenne | +3 dBi |
-| EIRP | +32 dBm |
+| Sendeantenne | +3 dB<sub>i</sub> |
+| EIRP | +32 dB<sub>m</sub> |
 | Entfernung | 2 000 km |
 | Freiraumdämpfung | −141,7 dB |
-| Empfangsantenne | +8 dBi |
+| Empfangsantenne | +8 dB<sub>i</sub> |
 | Vorverstärker | +15 dB |
 | RX-Kabel und Stecker | −2 dB |
-| Empfangsleistung | −88,7 dBm |
-| Empfängerempfindlichkei | -104 dBm |
+| Empfangsleistung | −88,7 dB<sub>m</sub> |
+| Empfängerempfindlichkei | -104 dB<sub>m</sub>  |
 |  |   | 
 | Linkmargin  |  +15.3 dB |
 
