@@ -170,16 +170,16 @@ Ein stark vereinfachtes Beispiel für einen Downlink von einem LEO-CubeSat zu ei
 | Grösse | Beispielwert |
 | Frequenz | 145.9 MHz |
 | Sendeleistung | 1 W = 30 dB<sub>m</sub>  |
-| TX-Kabel und Stecker | −1 dB |
-| Sendeantenne | +3 dB<sub>i</sub> |
+| Verluste TX-Kabel und Stecker | −1 dB |
+| Gewinn Sendeantenne | +3 dB<sub>i</sub> |
 | EIRP | +32 dB<sub>m</sub> |
 | Entfernung | 2 000 km |
 | Freiraumdämpfung | −141,7 dB |
-| Empfangsantenne | +8 dB<sub>i</sub> |
+| Gewinn Empfangsantenne | +8 dB<sub>i</sub> |
 | Vorverstärker | +15 dB |
-| RX-Kabel und Stecker | −2 dB |
-| Empfangsleistung | −88,7 dB<sub>m</sub> |
-| Empfängerempfindlichkei | -104 dB<sub>m</sub>  |
+| Verluste RX-Kabel und Stecker | −2 dB |
+| Leistung am Rx-Eingang| −88,7 dB<sub>m</sub> |
+| angenommene Empfängerempfindlichkeit | -104 dB<sub>m</sub>  |
 |  |   | 
 | Linkmargin  |  +15.3 dB |
 
