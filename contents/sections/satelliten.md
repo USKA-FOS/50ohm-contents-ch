@@ -113,6 +113,14 @@ Für die Satellitenpraxis bedeutet dies: Satelliten in niedrigen Umlaufbahnen um
 [picture:10100:a_kepler_ellipse:Kepler Ellipse mit Satellit im Umlauf] 
 </margin>
 
+Im Kapitel [sec:satelliten] haben wir verschiedene Satellitenbahnen kennengelernt. Die Umlaufzeit eines Satelliten um die Erde hängt von der Höhe seiner Bahn ab. Dieser Zusammenhang ist im Bild 
+[ref: a_umlaufzeiten] dargestellt. 
+
+<indepth>
+*Umlaufzeit eines Satelliten* 
+[picture:10101:a_umlaufzeiten:Umlaufzeiten in Funktion der Höhe der Bahn] 
+</indepth>
+
 ## Sichtbarkeit eines Satelliten
 
 Für eine Funkstation auf der Erde ist nicht entscheidend, ob ein Satellit grundsätzlich die Erde umkreist, sondern ob er sich gerade über dem lokalen Horizont befindet. Ein Überflug beginnt mit dem "Acquisition of Signal" (AOS), wenn der Satellit für die Station sichtbar beziehungsweise empfangbar wird. Er endet mit dem "Loss of Signal" (LOS), wenn er wieder unter den Horizont sinkt.
@@ -213,14 +221,6 @@ Für den praktischen Satellitenfunk werden die aktuelle Bahn und die Position de
 Damit lassen sich Überflüge planen und Funkgeräte sowie Antennen automatisch nachführen.
 
 ---
-
-Im Kapitel [sec:satelliten] haben wir verschiedene Satellitenbahnen kennengelernt. Die Umlaufzeit eines Satelliten um die Erde hängt von der Höhe seiner Bahn ab. Dieser Zusammenhang ist im Bild 
-[ref: a_umlaufzeiten] dargestellt. 
-
-<indepth>
-*Umlaufzeit eines Satelliten* 
-[picture:10101:a_umlaufzeiten:Umlaufzeiten in Funktion der Höhe der Bahn] 
-</indepth>
 
 <tip>
 Mit Amateurfunk über Satelliten befassen sich weltweit die AMSAT-Organisationen, in der Schweiz ist das [AMSAT-HB](https://amsat-hb.org/) 
