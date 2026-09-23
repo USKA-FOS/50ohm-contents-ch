@@ -222,6 +222,8 @@ Für den praktischen Satellitenfunk werden die aktuelle Bahn und die Position de
 
 Damit lassen sich Überflüge planen und Funkgeräte sowie Antennen automatisch nachführen.
 
+---
+
 <tip>
 Mit Amateurfunk über Satelliten befassen sich weltweit die AMSAT-Organisationen, in der Schweiz ist das [AMSAT-HB](https://amsat-hb.org/) 
 </tip>
