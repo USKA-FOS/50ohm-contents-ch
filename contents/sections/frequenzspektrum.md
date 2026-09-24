@@ -77,10 +77,12 @@ Versuch für mehrzeilige Überschrift
 | $\qty{300}{\mega\hertz}$ - $\qty{3000}{\mega\hertz}$ | Ultra High Frequency | UHF | Dezimeterwelle | 70cm, 23cm, 13cm |
 | $\qty{3}{\giga\hertz}$ - $\qty{30}{\giga\hertz}$ | Super High Frequency | SHF | Zentimeterwellen | 6cm, 3cm, 1,2cm |
 | $\qty{30}{\giga\hertz}$ - $\qty{300}{\giga\hertz}$ | Extremely High Frequency | EHF | Millimeterwellen | 6mm, 4mm, 2,5mm, 2mm, 1mm |
-| *(ausschliesslich untere Grenze; einschliesslich obere Grenze) |  |  |  |  |
+| *(ausschliesslich untere Grenze; einschliesslich obere Grenze)   |
 [table:n_frequenzspektrum_bereiche_HB:Frequenzbereiche und ihre üblichen Bezeichnungen_HB]
 
+<margin>
 Anders sortierte Liste gemäss neuer HB Liste (Versuch im margin)
+</margin>
 
 <webmargin>
 | X: | l: | c: | X: | X: |
