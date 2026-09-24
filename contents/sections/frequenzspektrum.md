@@ -7,7 +7,7 @@ An der Prüfung können Fragen aus der gesamten Liste vorkommen. Die angezeigten
 Als ShortwaveListener oder kurz SWL werden Kurzwellenhörer bezeichnet. Das sind Personen die nur zuhören, aber selber nicht senden.
 </indepth>
 
-%YPA: Liste anpassen. In der neuen HB Version fehlt die ausgeschriebene Englische Bezeichnung, dadurch auch der Bezug zur Abkürzung und zudem zu den Antworten in den vorhandenen Fragen.
+%YPA: Liste anpassen. In der neuen HB Version fehlt die ausgeschriebene Englische Bezeichnung, dadurch auch der Bezug zur Abkürzung und zudem zu den Antworten in den vorhandenen Fragen. Mit der Zusatzspalte (Bänder) in der HB Version wird die Liste zu breit für Marginale. Vorschlag: saubere Liste machen und als Bild einfügen.
 <webmargin>
 | r: | c: | r: | X: | l: |
 | von | | bis | Bezeichnung | Abk. |
@@ -26,6 +26,29 @@ Als ShortwaveListener oder kurz SWL werden Kurzwellenhörer bezeichnet. Das sind
 | $\qty{30}{\giga\hertz}$ | - | $\qty{300}{\giga\hertz}$ | Extremely High Frequency | EHF |
 [table:n_frequenzspektrum_bereiche:Frequenzbereiche und ihre üblichen Bezeichnungen]
 </webmargin>
+
+Versuch eine besser skalierbaren Liste gemäss neuer HB Liste
+<webmargin>
+| r: | c: | r: | X: | l: |
+
+| Bezeichnung | Abk. | Frequenzbereich (ausschliesslich untere Grenze; einschliesslich obere Grenze) | Metrische Unterteilung | Amateurfunkbänder |
+
+| $\qty{30}{\kilo\hertz}$ | - | $\qty{300}{\kilo\hertz}$ | Low Frequency | LF |
+| | | | (Langwelle) | (LW) |
+| $\qty{300}{\kilo\hertz}$ | - | $\qty{3000}{\kilo\hertz}$ | Medium Frequency | MF |
+| | | | (Mittelwelle) | (MW) |
+| $\qty{3}{\mega\hertz}$ | - | $\qty{30}{\mega\hertz}$ | *High Frequency* | *HF* |
+| | | | Short Wave | SW |
+| | | | (Kurzwelle) | (KW) |
+| $\qty{30}{\mega\hertz}$ | - | $\qty{300}{\mega\hertz}$ | *Very High Frequency* | *VHF* |
+| | | | (Ultrakurzwelle) | (UKW) |
+| $\qty{300}{\mega\hertz}$ | - | $\qty{3000}{\mega\hertz}$ | *Ultra High Frequency* | *UHF* |
+| | | | (Dezimeterwelle) | |
+| $\qty{3}{\giga\hertz}$ | - | $\qty{30}{\giga\hertz}$ | Super High Frequency | SHF |
+| $\qty{30}{\giga\hertz}$ | - | $\qty{300}{\giga\hertz}$ | Extremely High Frequency | EHF |
+[table:n_frequenzspektrum_bereiche:Frequenzbereiche und ihre üblichen Bezeichnungen]
+</webmargin>
+
 
 [question:BC104]
 [question:BC105]
