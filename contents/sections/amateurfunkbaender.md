@@ -7,7 +7,7 @@ Für den Funkbetrieb ist es wichtig zu wissen, welche Frequenzbereiche durch Fun
 Wenn man über Frequenzbereiche spricht wird die gerundete Wellenlänge ($\lambda$ (Lambda)) verwendet. Dehalb werden diese Bänder in Meter (oder dessen Untereinheiten) angeben.
 
 <margin>
-Wie man das umrechnet haben wir in [sec:wellenlaenge] schon gesehen.
+Wie man das umrechnet haben wir in den vorausgegangenen Abschnitten schon gesehen.
 
 $f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} \quad\quad\quad \lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]}$
 </margin>
@@ -30,7 +30,7 @@ In der Tabelle [ref:n_funkwellen_baender] finden sich beispielsweise drei Amateu
 </margin>
 
 %übernommen von 2.11
-An der Prüfung muss man nur die sehr häufig genutzen Bänder, den jeweiligen Bereichen zuordnen können. Das $\qty{10}{\meter}$-Band gehört gerade noch zur Kurzwelle, $\qty{2}{\meter}$ liegt im VHF- und $\qty{70}{\centi\meter}$ liegt im UHF-Bereich.
+An der Prüfung muss man nur die sehr häufig genutzen Bänder, den jeweiligen Frequenzbereichen zuordnen können. Das $\qty{10}{\meter}$-Band gehört gerade noch zur Kurzwelle, $\qty{2}{\meter}$ liegt im VHF- und $\qty{70}{\centi\meter}$ liegt im UHF-Bereich.
 [question:BC101]
 [question:BC102]
 [question:BC103]
