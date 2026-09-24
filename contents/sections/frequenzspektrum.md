@@ -1,6 +1,6 @@
 Der Frequenzbereich elektromagnetischer Wellen ist sehr groß (Abbildung [ref:n_frequenzspektrum]). Für Funkwellen wird nur ein Teil dieses Spektrums [index:Spektrum] genutzt, üblicherweise der Frequenzbereich zwischen $\qty{30}{\kilo\hertz}$ und $\qty{300}{\giga\hertz}$. In der Tabelle [ref:n_frequenzspektrum_bereiche] ist zu sehen, welche Frequenzen welchen Bereichen zugeordnet sind. Den Frequenzbereichen [index:Spektrum:Frequenzbereiche] werden Abkürzungen zugeordnet. 
 
-%YPA: Liste anpassen. In der neuen HB Version fehlt die ausgeschriebene Englische Bezeichnung, dadurch auch der Bezug zur Abkürzung und zudem zu den Antworten in den vorhandenen Fragen. Mit der Zusatzspalte (Bänder) in der HB Version wird die Liste zu breit für Marginale. Vorschlag: saubere Liste machen und als Bild einfügen. Hinweis: Liste wir dauch in 2.13 Amateurfunkbänder verwendet (evtl mit anderem Schwerpunkt).
+%YPA: In der neuen HB Version fehlt die ausgeschriebene Englische Bezeichnung, dadurch auch der Bezug zur Abkürzung und zudem zu den Antworten in den vorhandenen Fragen. Mit der Zusatzspalte (Bänder) in der HB Version wird die Liste zu breit für Marginale. Tabelle in Hauptspalte ist auch nicht schön. Vorschlag: saubere Liste machen und als Bild einfügen. Hinweis: Liste wir dauch in 2.13 Amateurfunkbänder verwendet (evtl mit anderem Schwerpunkt).
 
 <webmargin>
 | r: | c: | r: | X: | l: |
@@ -77,7 +77,7 @@ Versuch für mehrzeilige Überschrift
 | $\qty{300}{\mega\hertz}$ - $\qty{3000}{\mega\hertz}$ | Ultra High Frequency | UHF | Dezimeterwelle | 70cm, 23cm, 13cm |
 | $\qty{3}{\giga\hertz}$ - $\qty{30}{\giga\hertz}$ | Super High Frequency | SHF | Zentimeterwellen | 6cm, 3cm, 1,2cm |
 | $\qty{30}{\giga\hertz}$ - $\qty{300}{\giga\hertz}$ | Extremely High Frequency | EHF | Millimeterwellen | 6mm, 4mm, 2,5mm, 2mm, 1mm |
-| *(ausschliesslich untere Grenze; einschliesslich obere Grenze)   |
+*(ausschliesslich untere Grenze; einschliesslich obere Grenze)
 [table:n_frequenzspektrum_bereiche_HB:Frequenzbereiche und ihre üblichen Bezeichnungen_HB]
 
 <margin>
