@@ -147,16 +147,16 @@ Für kleine Geschwindigkeiten gegenüber der Lichtgeschwindigkeit kann die Frequ
 
 $$\Delta f \approx f_0 \frac{v_r}{c}$$
 
-beschrieben werden. Dabei ist $f_0$ die Sendefrequenz, $v_r$ die Relativgeschwindigkeit in Richtung der Funkstrecke und $c$ die Lichtgeschwindigkeit. Entscheidend ist also die radiale Geschwindigkeit und nicht die gesamte Bahngeschwindigkeit des Satelliten. Dabei sei $$v_r > 0$$ wenn sich Sender und Empfänger einander nähern.
+beschrieben werden. Dabei ist $f_0$ die Sendefrequenz, $v_r$ die Relativgeschwindigkeit in Richtung der Funkstrecke und $c$ die Lichtgeschwindigkeit. Entscheidend ist also die radiale Geschwindigkeit und nicht die gesamte Bahngeschwindigkeit des Satelliten. Dabei sei $$v_r > 0$$, wenn sich Sender und Empfänger einander nähern.
 
 Bei LEO-Satelliten kann die Dopplerverschiebung insbesondere bei höheren Frequenzen und bei schmalbandigen Betriebsarten deutlich bemerkbar sein. Deshalb muss die Frequenz während eines Satellitenüberflugs gegebenenfalls laufend nachgeführt werden. Moderne Satellitenstationen können die Dopplerkompensation automatisch durchführen.
 
 <indepth>
 Dieses Applet visualisiert den Dopplereffekt. Mit dem Schieberegler kann die *Relativgeschwindigkeit zwischen Sender und Empfänger* eingestellt werden.
   
-- Wenn sich die *Quelle auf einen zubewegt*, treffen mehr Wellenfronten pro Zeiteinheit ein, was einer *Erhöhung der empfangenen Frequenz* entspricht. Obwohl der Sender immer mit der gleichen Frequenz sendet. 
+- Wenn sich die *Quelle auf den Empfänger zubewegt*, treffen mehr Wellenfronten pro Zeiteinheit ein, was einer *Erhöhung der empfangenen Frequenz* entspricht. Obwohl der Sender immer mit der gleichen Frequenz sendet. 
   
-- Wenn sich die *Quelle von einem wegbewegt*, treffen weniger Wellenfronten pro Zeiteinheit ein, was einer *Erniedrigung der empfangenen Frequenz* entspricht. Obwohl der Sender immer mit der gleichen Frequenz sendet.
+- Wenn sich die *Quelle vom Empfänger wegbewegt*, treffen weniger Wellenfronten pro Zeiteinheit ein, was einer *Erniedrigung der empfangenen Frequenz* entspricht. Obwohl der Sender immer mit der gleichen Frequenz sendet.
 
 [include:doppler_visualisierung]
 
