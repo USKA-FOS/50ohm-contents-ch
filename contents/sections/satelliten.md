@@ -11,12 +11,12 @@
 ---
 
 Satelliten umrunden die Erde in kreisförmigen oder elliptischen Bahnen und in unterschiedlichen Höhen.
-Seit 1961 gehören dazu auch Amateurfunksatelliten. Diese werden als OSCAR bezeichnet. Das ist die Abkürzung für "Orbiting Satellite Carrying Amateur Radio" ("Umkreisender Satellit, der Amateurfunk mitführt"). Der erste Amateurfunksatellit wurde OSCAR 1 ([ref:n_satellit_oscar1]) genannt. OSCAR 1 war nur der Anfang. In den Folgejahren - bis heute - wurde eine ganze Reihe immer umfangreicher ausgestatteter Amateurfunknutzlasten ins All gebracht. Wer sich für die Geschichte der Amateurfunksatelliten interessiert findet in der [History of AMSAT](https://www.amsat.org/amsat-history/) mehr darüber.
+Seit 1961 gehören dazu auch Amateurfunksatelliten. Diese werden als OSCAR bezeichnet. Das ist die Abkürzung für "Orbiting Satellite Carrying Amateur Radio" ("Umkreisender Satellit, der Amateurfunk mitführt"). Der erste Amateurfunksatellit wurde OSCAR 1 ([ref:n_satellit_oscar1]) genannt. OSCAR 1 war nur der Anfang. In den Folgejahren - bis heute - wurde eine ganze Reihe immer umfangreicher ausgestatteter Amateurfunknutzlasten ins All gebracht. Wer sich für die Geschichte der Amateurfunksatelliten interessiert, findet in der [History of AMSAT](https://www.amsat.org/amsat-history/) mehr darüber.
 [question:BE415]
 
-In diesem Kapitel lernen wir "Was ist ein Amateurfunksatellit?“ und "Wie bewegt er sich?". Im Kapitel [sec:satelliten_2] erfahren wir dann "Wie mache ich tatsächlich eine Satelliten Funkverbindung?"
+In diesem Kapitel lernen wir "Was ist ein Amateurfunksatellit?" und "Wie bewegt er sich?". Im Kapitel [sec:satelliten_2] erfahren wir dann "Wie mache ich tatsächlich eine Satellitenfunkverbindung?"
 
-Die mitgeführten Relaisfunkstellen werden als "Transponder" bezeichnet. Die Eingabefrequenz, also die Funkstrecke von der Erde zum Satelliten, wird im Satellitenfunk als "Uplink" bezeichnet. Die Ausgabefrequenz, also die Funkstrecke vom Satelliten zur Erde, wird hingegen "Downlink" genannt. Für Uplink und Downlink werden oftmals unterschiedliche Frequenzbänder benutzt, weil dies eine einfachere Trennung von Sende- und Empfangssignal ermöglicht und die Baugröße von Filtern auf dem Satelliten reduziert wird.
+Die mitgeführten Relaisfunkstellen werden als "Transponder" bezeichnet. Die Eingabefrequenz, also die Funkstrecke von der Erde zum Satelliten, wird im Satellitenfunk als "Uplink" bezeichnet. Die Ausgabefrequenz, also die Funkstrecke vom Satelliten zur Erde, wird hingegen "Downlink" genannt. Für Uplink und Downlink werden oftmals unterschiedliche Frequenzbänder benutzt, weil dies eine einfachere Entkopplung von Sende- und Empfangssignal ermöglicht.
 
 <indepth>
 *Charakterisierung von Satellitenbahnen (orbits)*
@@ -66,7 +66,7 @@ Der Begriff *Azimut* stammt von arabisch *as-sumūt*, ("die Wege") ab. *Elevatio
 [question:BE413]
 [question:BE414]
 
-Im Amateurfunkdienst über Satelliten gilt eine Ausnahme von der Pflicht, nur offene Sprache zu verwenden. Kommandostationen ist es erlaubt, Steuersignale zwischen Bodenstationen und Amateurfunksatelliten zum Zwecke der Verschleierung zu verschlüsseln. Das heißt, dass hierfür ausnahmsweise Verschlüsselungsverfahren genutzt werden dürfen, die verhindern, dass der Inhalt der Steuersignale von Dritten mitgelesen werden kann. Dies dient der Sicherheit der Satelliten vor Steuerkommandos von Unbefugten.
+Im Amateurfunkdienst über Satelliten gilt eine Ausnahme von der Pflicht, nur offene Sprache zu verwenden. Kommandostationen ist es ausnahmsweise erlaubt, Steuersignale zu Amateurfunksatelliten zum Zwecke der Verschleierung zu verschlüsseln. Das heißt, dass hierfür ausnahmsweise Verschlüsselungsverfahren genutzt werden dürfen, die verhindern, dass der Inhalt der Steuersignale von Dritten mitgelesen werden kann. Dies dient der Sicherheit der Satelliten vor Steuerkommandos von Unbefugten.
 
 [question:VA303]
 [question:VN026]
@@ -147,7 +147,7 @@ Für kleine Geschwindigkeiten gegenüber der Lichtgeschwindigkeit kann die Frequ
 
 $$\Delta f \approx f_0 \frac{v_r}{c}$$
 
-beschrieben werden. Dabei ist $f_0$ die Sendefrequenz, $v_r$ die Relativgeschwindigkeit in Richtung der Funkstrecke und $c$ die Lichtgeschwindigkeit. Entscheidend ist also die radiale Geschwindigkeit und nicht die gesamte Bahngeschwindigkeit des Satelliten. Dabei sei $$v_r > 0$$, wenn sich Sender und Empfänger einander nähern.
+beschrieben werden. Dabei ist $f_0$ die Sendefrequenz, $v_r$ die Relativgeschwindigkeit in Richtung der Funkstrecke und $c$ die Lichtgeschwindigkeit. Entscheidend ist also die radiale Geschwindigkeit und nicht die gesamte Bahngeschwindigkeit des Satelliten. Dabei sei $v_r > 0$, wenn sich Sender und Empfänger einander nähern.
 
 Bei LEO-Satelliten kann die Dopplerverschiebung insbesondere bei höheren Frequenzen und bei schmalbandigen Betriebsarten deutlich bemerkbar sein. Deshalb muss die Frequenz während eines Satellitenüberflugs gegebenenfalls laufend nachgeführt werden. Moderne Satellitenstationen können die Dopplerkompensation automatisch durchführen.
 
@@ -195,7 +195,7 @@ Ein stark vereinfachtes Beispiel für einen Downlink von einem LEO-CubeSat zu ei
 |  |   | 
 | Linkmargin  |  +15.3 dB |
 
-In einem echten Linkbudget kommen weitere Faktoren hinzu, z. B. Modulationsart, Datenrate, Empfängerrauschen und Linkreserve.
+In einem echten Linkbudget kommen weitere Faktoren hinzu, z. B. Modulationsart, Datenrate, Empfängerrauschen und Rauschboden.
 </indepth>
 
 ## Antennen und Polarisation
