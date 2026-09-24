@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import fcntl
+import io
 import json
 import os
 import re
@@ -9,6 +10,8 @@ import shutil
 import sqlite3
 import subprocess
 import sys
+import tarfile
+import tempfile
 from collections import defaultdict
 from contextlib import ExitStack, contextmanager
 from copy import deepcopy
@@ -216,16 +219,21 @@ def source_repository_state(repository: Path, repository_name: str) -> dict[str,
     }
 
 
-def release_source_states() -> dict[str, dict[str, Any]]:
+def release_source_states(question_pool_tag: str | None = None) -> dict[str, dict[str, Any]]:
+    questions = source_repository_state(QUESTION_POOL_REPO, "USKA-FOS/50ohm-question-pool")
+    if question_pool_tag is not None:
+        commit = git_output(QUESTION_POOL_REPO, "rev-parse", f"{question_pool_tag}^{{commit}}")
+        questions.update({"commit": commit, "tags": [question_pool_tag], "dirty": False})
+        questions["worktree_sha256"] = sha256(f"tag:{question_pool_tag}:{commit}".encode("utf-8")).hexdigest()
     return {
         "contents": source_repository_state(CONTENT_REPO, "USKA-FOS/50ohm-contents-ch"),
-        "questions": source_repository_state(QUESTION_POOL_REPO, "USKA-FOS/50ohm-question-pool"),
+        "questions": questions,
         "generator": source_repository_state(GENERATOR_ROOT, "USKA-FOS/50ohm-generator"),
     }
 
 
-def verify_release_source_states(expected: dict[str, dict[str, Any]]) -> None:
-    current = release_source_states()
+def verify_release_source_states(expected: dict[str, dict[str, Any]], question_pool_tag: str | None = None) -> None:
+    current = release_source_states() if question_pool_tag is None else release_source_states(question_pool_tag)
     if current != expected:
         raise RuntimeError("Release source repositories changed during the build.")
 
@@ -944,45 +952,85 @@ def source_rationales() -> tuple[dict[str, Any], dict[str, Any]]:
     return rationales, deepcopy(source.get("pruned", {}))
 
 
-def resolve_question_pool_catalog(language: str) -> Path:
-    candidates: list[Path] = []
-    if language == "de":
-        candidates.extend(
-            sorted(
-                (QUESTION_POOL_REPO / "builds" / "de_full").glob("question_pool_rev*_ch-de.json"),
-                reverse=True,
-            )
-        )
-        candidates.extend(
-            sorted(
-                (QUESTION_POOL_REPO / "builds" / "de").glob("question_pool_rev*_ch-de.json"),
-                reverse=True,
-            )
-        )
-        root_catalog = QUESTION_POOL_REPO / "question_pool_ch-de.json"
-        if root_catalog.exists():
-            candidates.append(root_catalog)
-    else:
-        candidates.extend(
-            sorted(
-                (QUESTION_POOL_REPO / "builds" / language).glob(
-                    f"question_pool_rev*_ch-{language}.json"
-                ),
-                reverse=True,
-            )
-        )
-    for candidate in candidates:
-        if candidate.exists():
-            return candidate
-    raise FileNotFoundError(
-        f"No staged question pool catalog found for language={language} under {QUESTION_POOL_REPO}"
+def run_question_pool_tool(source_root: Path, arguments: list[str]) -> None:
+    tool = source_root / "tools" / arguments[0]
+    completed = subprocess.run(
+        [sys.executable, str(tool), *arguments[1:]],
+        cwd=source_root,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        text=True,
+        check=False,
     )
+    if completed.returncode != 0:
+        raise RuntimeError(
+            f"Question-pool catalog rebuild failed ({tool.name}): {completed.stdout.strip()}"
+        )
 
 
-def stage_questions(target_root: Path, language: str) -> dict[str, Any]:
+@contextmanager
+def question_pool_catalogs(question_pool_tag: str | None):
+    """Materialize fresh catalogs from pool/, optionally from an immutable Git tag."""
+    with tempfile.TemporaryDirectory(prefix="question-pool-build-", dir=CONTENT_REPO / "work") as name:
+        staging = Path(name)
+        if question_pool_tag is None:
+            source_root = QUESTION_POOL_REPO
+        else:
+            git_output(QUESTION_POOL_REPO, "rev-parse", f"{question_pool_tag}^{{commit}}")
+            archive = subprocess.run(
+                ["git", "-C", str(QUESTION_POOL_REPO), "archive", question_pool_tag],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                check=True,
+            ).stdout
+            with tarfile.open(fileobj=io.BytesIO(archive), mode="r:") as tar:
+                tar.extractall(staging)
+            source_root = staging
+
+        generated = staging / "generated-catalogs"
+        catalogs: dict[str, Path] = {}
+        for language in LANGUAGES:
+            output = generated / language / f"question_pool_current_ch-{language}.json"
+            run_question_pool_tool(
+                source_root,
+                [
+                    "rebuild_canonical_question_pool.py",
+                    "--pool-root",
+                    str(source_root / "pool"),
+                    "--language",
+                    language,
+                    "--output",
+                    str(output),
+                ],
+            )
+            catalogs[language] = output
+
+        # German generator input needs the rationale and pruned metadata. The
+        # clean canonical rebuild supplies current text; the source catalog
+        # supplies only the generator-only metadata.
+        source_catalog = source_root / "question_pool_ch-de.json"
+        if source_catalog.exists():
+            full_output = generated / "de_full" / "question_pool_current_ch-de.json"
+            run_question_pool_tool(
+                source_root,
+                [
+                    "export_generator_review_catalog.py",
+                    "--source-review-catalog",
+                    str(source_catalog),
+                    "--input-build-catalog",
+                    str(catalogs["de"]),
+                    "--output",
+                    str(full_output),
+                ],
+            )
+            catalogs["de"] = full_output
+        yield catalogs
+
+
+def stage_questions(target_root: Path, language: str, question_catalogs: dict[str, Path]) -> dict[str, Any]:
     questions_dir = target_root / "contents" / "questions"
     questions_dir.mkdir(parents=True, exist_ok=True)
-    source_build = resolve_question_pool_catalog(language)
+    source_build = question_catalogs[language]
     payload = load_json(source_build)
     for question in iter_questions(payload):
         question["HB.rationale"] = normalize_rationale(question.get("HB.rationale"))
@@ -1038,6 +1086,7 @@ def stage_language(
     language: str,
     *,
     validation_root: Path,
+    question_catalogs: dict[str, Path],
 ) -> dict[str, Any]:
     target_root = INPUT_ROOT / language
     artifact_count = export_artifacts(connection, target_root)
@@ -1049,7 +1098,7 @@ def stage_language(
         if staged_extra_root.exists():
             shutil.rmtree(staged_extra_root)
         shutil.copytree(GENERATOR_EXTRA_CONTENT_ROOT, staged_extra_root)
-    question_info = stage_questions(target_root, language)
+    question_info = stage_questions(target_root, language, question_catalogs)
     usage_entries = text_report["usage"] + asset_report["usage"] + toc_report["usage"] + question_info["usage"]
     retained = retained_support_artifacts(target_root, usage_entries)
     usage_report = {
@@ -1268,6 +1317,7 @@ def run(
     release_output: Path | None = None,
     beta: bool = False,
     feedback_url: str = DEFAULT_FEEDBACK_URL,
+    question_pool_tag: str | None = None,
 ) -> dict[str, Any]:
     validate_release_request(
         release_id=release_id,
@@ -1284,36 +1334,38 @@ def run(
     run_id = make_run_id(languages)
     run_validation_root = validation_run_root(run_id)
     run_validation_root.mkdir(parents=True, exist_ok=True)
-    release_sources = release_source_states() if release_id is not None else None
+    release_sources = release_source_states(question_pool_tag) if release_id is not None else None
     db_info = prepare_canonical_database()
     connection = sqlite3.connect(DB_PATH)
     connection.row_factory = sqlite3.Row
     staged: dict[str, dict[str, Any]] = {}
     builds: dict[str, dict[str, Any]] = {}
-    with language_locks(languages):
-        if not skip_build and tuple(languages) == LANGUAGES:
-            clean_complete_build_root()
-        for language in languages:
-            staged[language] = stage_language(
-                connection,
-                language,
-                validation_root=run_validation_root,
-            )
-            if not skip_build:
-                builds[language] = run_generator(
+    with question_pool_catalogs(question_pool_tag) as question_catalogs:
+        with language_locks(languages):
+            if not skip_build and tuple(languages) == LANGUAGES:
+                clean_complete_build_root()
+            for language in languages:
+                staged[language] = stage_language(
+                    connection,
                     language,
                     validation_root=run_validation_root,
-                    generator_seed=generator_seed,
-                    release_id=release_id,
-                    beta=beta,
-                    feedback_url=feedback_url,
+                    question_catalogs=question_catalogs,
                 )
+                if not skip_build:
+                    builds[language] = run_generator(
+                        language,
+                        validation_root=run_validation_root,
+                        generator_seed=generator_seed,
+                        release_id=release_id,
+                        beta=beta,
+                        feedback_url=feedback_url,
+                    )
     connection.close()
     comparison = compare_outputs(builds, languages) if builds else {}
     release: dict[str, Any] | None = None
     if release_id is not None:
         assert release_sources is not None
-        verify_release_source_states(release_sources)
+        verify_release_source_states(release_sources, question_pool_tag)
         manifest = build_release_manifest(
             release_id=release_id,
             beta=beta,
@@ -1398,6 +1450,14 @@ def main() -> None:
         default=DEFAULT_FEEDBACK_URL,
         help=f"Public feedback form URL. Defaults to {DEFAULT_FEEDBACK_URL}.",
     )
+    parser.add_argument(
+        "--tag",
+        dest="question_pool_tag",
+        help=(
+            "Build from this question-pool Git tag. By default the current "
+            "question-pool working tree is rebuilt directly from pool/."
+        ),
+    )
     args = parser.parse_args()
     if args.release_id is None and args.feedback_url != DEFAULT_FEEDBACK_URL:
         parser.error("--feedback-url requires --release-id")
@@ -1411,6 +1471,7 @@ def main() -> None:
             release_output=args.release_output.expanduser().resolve() if args.release_output else None,
             beta=args.beta,
             feedback_url=args.feedback_url,
+            question_pool_tag=args.question_pool_tag,
         )
     except (RuntimeError, ValueError, OSError, subprocess.CalledProcessError) as exc:
         print(f"Build failed: {exc}", file=sys.stderr)

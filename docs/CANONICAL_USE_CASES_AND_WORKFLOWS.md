@@ -36,11 +36,12 @@ The build boundary is:
 - question input responsibility: `50ohm-question-pool` revision-1 catalogs;
 - site output responsibility: `50ohm-contents-ch/work/build/{de,fr,it}`.
 
-At build time, the content-side builder copies:
+At build time, the content-side builder first rebuilds fresh language catalogs
+from the selected question-pool `pool/` tree, then copies the resulting
+catalogs:
 
-- `50ohm-question-pool/question_pool_rev1_ch-de.json` for German, or
-  `50ohm-question-pool/builds/<lang>/question_pool_rev1_ch-<lang>.json` for
-  French and Italian,
+- the freshly rebuilt `question_pool_ch-<lang>.json` catalog for each
+  language from `50ohm-question-pool/pool/`,
   to `contents/questions/fragenkatalog_4.json`;
 - the same file again
   to `contents/questions/fragenkatalog_4pre.json`.
@@ -48,6 +49,11 @@ At build time, the content-side builder copies:
 This copy must stay semantically identical to the source question-pool file.
 The content-side build must not rewrite, enrich, or otherwise transform the
 question catalog payload during staging.
+
+By default the selected tree is the current local question-pool worktree. Use
+`run_multilingual_canonical_build.py --tag <tag>` to build from an immutable
+question-pool tag. Historical `rev1`/`rev2` filenames are not used to select
+the source state.
 
 The content-side workflows in this document therefore do not manage question
 translation or question review.

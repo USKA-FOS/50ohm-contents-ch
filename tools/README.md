@@ -174,6 +174,15 @@ Current transitional state:
 uv run python tools/run_multilingual_canonical_build.py
 ```
 
+The build reconstructs fresh question catalogs directly from the current
+`50ohm-question-pool/pool/` tree before staging them. It never selects an
+arbitrary historical `revN` file. To reproduce a tagged question-pool state,
+pass the tag explicitly:
+
+```bash
+uv run python tools/run_multilingual_canonical_build.py --tag Revision_2.7
+```
+
 By default this orchestration uses a fixed generator seed (`50`) so repeated
 validation builds remain comparable even when the site generator shuffles
 embedded question answers.
