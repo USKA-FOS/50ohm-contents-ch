@@ -15,6 +15,19 @@ An der Prüfung muss man nur die sehr häufig genutzen Bänder, den jeweiligen B
 [question:BC101]
 [question:BC102]
 [question:BC103]
+
+%übernommen von 2.13
+Die gerundete Wellenlänge wird übrigens häufig verwendet, wenn man über Frequenzbereiche spricht. Man spricht dann von einem Frequenzband [index:Frequenzband] oder kurz Band, z. B. dem $\qty{2}{\meter}$-Band. In der Tabelle [ref:n_funkwellen_baender] finden sich beispielsweise drei Amateurfunkbänder, die von Funkamateuren beider Klassen genutzt werden dürfen. Mehr dazu dann später in [sec:amateurfunkbaender].
+
+<margin>
+| l: Frequenz | l: Wellenlänge | X: Band |
+| $\qtyrange{28}{29,7}{\mega\hertz}$ | $\qtyrange{10,7}{10,1}{\meter}$ | $\qty{10}{\meter}$-Band |
+| $\qtyrange{144}{146}{\mega\hertz}$ | $\qtyrange{2,08}{2,05}{\meter}$ | $\qty{2}{\meter}$-Band |
+| $\qtyrange{430}{440}{\mega\hertz}$ | $\qtyrange{70}{68}{\centi\meter}$ | $\qty{70}{\centi\meter}$-Band |
+[table:n_funkwellen_baender:Die drei Amateurfunkbänder, die für alle Klassen freigegeben sind]
+</margin>
+
+
 .
 .
 .
