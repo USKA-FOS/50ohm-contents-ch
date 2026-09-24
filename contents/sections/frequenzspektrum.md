@@ -1,7 +1,6 @@
 Der Frequenzbereich elektromagnetischer Wellen ist sehr groß (Abbildung [ref:n_frequenzspektrum]). Für Funkwellen wird nur ein Teil dieses Spektrums [index:Spektrum] genutzt, üblicherweise der Frequenzbereich zwischen $\qty{30}{\kilo\hertz}$ und $\qty{300}{\giga\hertz}$. In der Tabelle [ref:n_frequenzspektrum_bereiche] ist zu sehen, welche Frequenzen welchen Bereichen zugeordnet sind. Den Frequenzbereichen [index:Spektrum:Frequenzbereiche] werden Abkürzungen zugeordnet. 
 
-An der Prüfung können Fragen aus der gesamten Liste vorkommen. Die angezeigten Fragen bilden nur eine Auswahl wie solche Fragen gestellt werden könnten. 
-% Es sind alle Fragen in derselben Frageart. Es gibt keine mit den alten Fragestellungen.
+
 
 %YPA: Liste anpassen. In der neuen HB Version fehlt die ausgeschriebene Englische Bezeichnung, dadurch auch der Bezug zur Abkürzung und zudem zu den Antworten in den vorhandenen Fragen. Mit der Zusatzspalte (Bänder) in der HB Version wird die Liste zu breit für Marginale. Vorschlag: saubere Liste machen und als Bild einfügen.
 <webmargin>
@@ -40,6 +39,9 @@ Versuch eine besser skalierbaren Liste gemäss neuer HB Liste
 <indepth>
 High Frequency (HF) wird auch Shortwave (SW) genannt. Daher kommt der Begriff des SWL für Höramateure (Short Wave Listener). Das sind Personen die nur zuhören, aber selber nicht senden.
 </indepth>
+
+An der Prüfung können Fragen aus der gesamten Liste vorkommen. Die angezeigten Fragen bilden nur eine Auswahl wie solche Fragen gestellt werden könnten. 
+% Es sind alle Fragen in derselben Frageart. Es gibt keine mit den alten Fragestellungen.
 
 [question:BC104]
 [question:BC105]
