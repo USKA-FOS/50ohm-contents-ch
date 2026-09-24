@@ -66,6 +66,19 @@ Anders sortierte Liste gemäss neuer HB Liste (Versuch)
 | $\qty{30}{\giga\hertz}$ - $\qty{300}{\giga\hertz}$ | Extremely High Frequency | EHF | Millimeterwellen | 6mm, 4mm, 2,5mm, 2mm, 1mm |
 [table:n_frequenzspektrum_bereiche_HB:Frequenzbereiche und ihre üblichen Bezeichnungen_HB]
 
+Versuch für mehrzeilige Überschrift
+
+| X: | l: | c: | X: | X: |
+| Frequenzbereich* | Bezeichnung (engl.) | Abk. | Metrische Unterteilung | Amateurfunkbänder |
+| $\qty{30}{\kilo\hertz}$ - $\qty{300}{\kilo\hertz}$ | Low Frequency  | LF | Kilometerwellen (Langwellen) | 2200m |
+| $\qty{300}{\kilo\hertz}$ - $\qty{3000}{\kilo\hertz}$ | Medium Frequency | MF | Hektometerwellen (Mittelwellen/MW) | 630m, 160m |
+| $\qty{3}{\mega\hertz}$ - $\qty{30}{\mega\hertz}$ | High Frequency | HF |  Dekameterwellen (Kurzwellen/KW) |80m, 60m, 40m, 30m, 20m, 17m, 15m,  12m, 10m |
+| $\qty{3}{\mega\hertz}$ - $\qty{30}{\mega\hertz}$ | Very High Frequency | VHF | Meterwellen (Ultrakurzwellen/UKW) | 6m, 2m |
+| $\qty{300}{\mega\hertz}$ - $\qty{3000}{\mega\hertz}$ | Ultra High Frequency | UHF | Dezimeterwelle | 70cm, 23cm, 13cm |
+| $\qty{3}{\giga\hertz}$ - $\qty{30}{\giga\hertz}$ | Super High Frequency | SHF | Zentimeterwellen | 6cm, 3cm, 1,2cm |
+| $\qty{30}{\giga\hertz}$ - $\qty{300}{\giga\hertz}$ | Extremely High Frequency | EHF | Millimeterwellen | 6mm, 4mm, 2,5mm, 2mm, 1mm |
+| *(ausschliesslich untere Grenze; einschliesslich obere Grenze) |  |  |  |  |
+[table:n_frequenzspektrum_bereiche_HB:Frequenzbereiche und ihre üblichen Bezeichnungen_HB]
 
 Anders sortierte Liste gemäss neuer HB Liste (Versuch im margin)
 
