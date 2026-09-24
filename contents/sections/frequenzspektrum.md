@@ -22,7 +22,9 @@ Der Frequenzbereich elektromagnetischer Wellen ist sehr groß (Abbildung [ref:n_
 [table:n_frequenzspektrum_bereiche:Frequenzbereiche und ihre üblichen Bezeichnungen]
 </webmargin>
 
-Versuch eine besser skalierbaren Liste gemäss neuer HB Liste. Mit Webmargin wie DARC Original. Falsche Darstellung, nicht in Marginale
+<margin>
+Versuch eine besser skalierbaren Liste gemäss neuer HB Liste. 
+</margin>
 
 <webmargin>
 | l: | c: | l: | X: | X: |
@@ -37,20 +39,6 @@ Versuch eine besser skalierbaren Liste gemäss neuer HB Liste. Mit Webmargin wie
 [table:n_frequenzspektrum_bereiche_HB:Frequenzbereiche und ihre üblichen Bezeichnungen_HB]
 </webmargin>
 
-Versuch eine besser skalierbaren Liste gemäss neuer HB Liste. Mit margin, wie normalerweise Texte in Marginale. Falsche Darstellung, nicht in Marginale
-
-<margin>
-| l: | c: | l: | X: | X: |
-| Bezeichnung | Abk. | Frequenzbereich (ausschliesslich untere Grenze; einschliesslich obere Grenze) | Metrische Unterteilung | Amateurfunkbänder |
-| Low Frequency  | LF | $\qty{30}{\kilo\hertz}$ - $\qty{300}{\kilo\hertz}$ | Kilometerwellen (Langwellen) | 2200m |
-| Medium Frequency | MF | $\qty{300}{\kilo\hertz}$ - $\qty{3000}{\kilo\hertz}$ | Hektometerwellen (Mittelwellen/MW) | 630m, 160m |
-| High Frequency | HF |  $\qty{3}{\mega\hertz}$ - $\qty{30}{\mega\hertz}$  |  Dekameterwellen (Kurzwellen/KW) |80m, 60m, 40m, 30m, 20m, 17m, 15m,  12m, 10m |
-| Very High Frequency | VHF | $\qty{3}{\mega\hertz}$ - $\qty{30}{\mega\hertz}$ | Meterwellen (Ultrakurzwellen/UKW) | 6m, 2m |
-| Ultra High Frequency | UHF | $\qty{300}{\mega\hertz}$ - $\qty{3000}{\mega\hertz}$ | Dezimeterwelle | 70cm, 23cm, 13cm |
-| Super High Frequency | SHF |  $\qty{3}{\giga\hertz}$ - $\qty{30}{\giga\hertz}$ | Zentimeterwellen | 6cm, 3cm, 1,2cm |
-| Extremely High Frequency | EHF | $\qty{30}{\giga\hertz}$ - $\qty{300}{\giga\hertz}$ | Millimeterwellen | 6mm, 4mm, 2,5mm, 2mm, 1mm |
-[table:n_frequenzspektrum_bereiche_HB:Frequenzbereiche und ihre üblichen Bezeichnungen_HB]
-</margin>
 
 Versuch eine besser skalierbaren Liste gemäss neuer HB Liste. Ohne margin. Korrekte Darstellung, logischerweise nicht in Marginale
 
