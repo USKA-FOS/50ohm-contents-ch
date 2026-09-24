@@ -239,11 +239,11 @@
   async function loadSearchIndices() {
     try {
       const [questionResponse, indexResponse] = await Promise.all([
-        fetch("/assets/question_index.json", {
+        fetch("assets/question_index.json", {
           cache: "no-cache",
           headers: { Accept: "application/json" },
         }),
-        fetch("/assets/index.json", {
+        fetch("assets/index.json", {
           cache: "no-cache",
           headers: { Accept: "application/json" },
         }),
