@@ -1,14 +1,12 @@
-%YPA an EXR:  Keine entsprechenden Fragen in HB. Verbindung Frequenz - Band trotzdem wichtig.  Die Listen in der Marginale sind nicht sehr hübsch. Irgend welcher sinnvoller, zweckmässiger, Inhalt muss erschaffen werden.
+%YPA an EXR:  Keine entsprechenden Fragen in HB. Verbindung Frequenz - Band trotzdem wichtig.  Die Listen in der Marginale sind nicht sehr hübsch. Irgend welcher sinnvoller, zweckmässiger, Inhalt muss erschaffen werden. BC101-103 von Frequenzspektrum 2.11 nach hierhin verschoben um Fragen dazu zu haben.
 
 Für den Funkbetrieb ist es wichtig zu wissen, welche Frequenzbereiche durch Funkamateure genutzt werden dürfen. Die Bereiche werden auch als Bänder bezeichnet. Diese Bänder werden in Meter (oder ihrer Einheiten) bezeichnet.
 Hier kommt jetzt wieder die Tabelle aus [sec:frequenzspektrum] ins Spiel.
 In der Tabelle wir der Bezug von der Frequenz zu den Metern bereits aufgeführt.
 
-In ARBEIT
-Man kann das aber auch berechnen. 300/Frequenz = Meter oder 300/Meter = Frequenz
-Mit https://50ohm.uska.ch/50ohm_review_de/NE_wellenlaenge.html abgleichen.
-Sinnvoller Inhalt erschaffen. 
+Wie man das umrechnet haben wir in [sec:wellenlaenge] schon gesehen.
 
+$f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} \quad\quad\quad \lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]}$
 
 %übernommen von 2.11
 Für die folgenden Fragen muss man die sehr häufig genutzen Bänder, den jeweiligen Bereichen zuordnen können. Das $\qty{10}{\meter}$-Band gehört gerade noch zur Kurzwelle, $\qty{2}{\meter}$ liegt im VHF- und $\qty{70}{\centi\meter}$ liegt im UHF-Bereich.
