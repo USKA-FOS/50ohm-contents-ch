@@ -18,6 +18,8 @@ Für die folgenden Fragen muss man die sehr häufig genutzen Bänder, den jeweil
 
 
 
+   
+
 **AB HIER** alles in HB nicht relevant --> Löschen
 Dies lässt sich aus der [Anlage 1 der AFuV](https://50ohm.de/a1) ablesen. Damit sollten die folgenden Fragen leicht zu beantworten sein. Die Anlage 1 der AFuV liegt während der Prüfung als Hilfsmittel bereit.
 
