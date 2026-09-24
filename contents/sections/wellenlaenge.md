@@ -27,14 +27,16 @@ $\lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]} = \dfrac{300}{\qty{
 %YPA was hat es damit auf sich?
 [include:applet_lambda_und_f]
 
-Die beiden folgenden Fragen lassen sich leicht mit den eben vorgestellten Formeln lösen.
-
-[question:NB302]
-[question:NB303]
 
 ---
 <margin>
 Die gerundete Wellenlänge wird übrigens häufig verwendet, wenn man über Frequenzbereiche spricht. Mehr dazu dann in [sec:amateurfunkbaender].
 </margin>
+
+Die beiden folgenden Fragen lassen sich leicht mit den eben vorgestellten Formeln lösen.
+
+[question:NB302]
+[question:NB303]
+
 
 
