@@ -22,7 +22,7 @@ Der Frequenzbereich elektromagnetischer Wellen ist sehr groß (Abbildung [ref:n_
 [table:n_frequenzspektrum_bereiche:Frequenzbereiche und ihre üblichen Bezeichnungen]
 </webmargin>
 
-Versuch eine besser skalierbaren Liste gemäss neuer HB Liste: mit Webmargin wie DARC Original: Falsche Darstellung, nicht in Marginale
+Versuch eine besser skalierbaren Liste gemäss neuer HB Liste. Mit Webmargin wie DARC Original. Falsche Darstellung, nicht in Marginale
 
 <webmargin>
 | l: | c: | l: | X: | X: |
@@ -37,7 +37,7 @@ Versuch eine besser skalierbaren Liste gemäss neuer HB Liste: mit Webmargin wie
 [table:n_frequenzspektrum_bereiche_HB:Frequenzbereiche und ihre üblichen Bezeichnungen_HB]
 </webmargin>
 
-Versuch eine besser skalierbaren Liste gemäss neuer HB Liste: mit margin, wie normaleweise Texte in Marginale: Falsche Darstellung, nicht in Marginale
+Versuch eine besser skalierbaren Liste gemäss neuer HB Liste. Mit margin, wie normalerweise Texte in Marginale. Falsche Darstellung, nicht in Marginale
 
 <margin>
 | l: | c: | l: | X: | X: |
@@ -52,7 +52,7 @@ Versuch eine besser skalierbaren Liste gemäss neuer HB Liste: mit margin, wie n
 [table:n_frequenzspektrum_bereiche_HB:Frequenzbereiche und ihre üblichen Bezeichnungen_HB]
 </margin>
 
-Versuch eine besser skalierbaren Liste gemäss neuer HB Liste: ohne margin: Korrekte Darstellung, logischerweise nicht in Marginale
+Versuch eine besser skalierbaren Liste gemäss neuer HB Liste. Ohne margin. Korrekte Darstellung, logischerweise nicht in Marginale
 
 | l: | c: | l: | X: | X: |
 | Bezeichnung (engl.) | Abk. | Frequenzbereich (ausschliesslich untere Grenze; einschliesslich obere Grenze) | Metrische Unterteilung | Amateurfunkbänder |
@@ -67,7 +67,7 @@ Versuch eine besser skalierbaren Liste gemäss neuer HB Liste: ohne margin: Korr
 
 Anders sortierte Liste gemäss neuer HB Liste (Versuch)
 
-| l: | c: | l: | X: | X: |
+| X: | l: | c: | X: | X: |
 | Frequenzbereich (ausschliesslich untere Grenze; einschliesslich obere Grenze) | Bezeichnung (engl.) | Abk. | Metrische Unterteilung | Amateurfunkbänder |
 | $\qty{30}{\kilo\hertz}$ - $\qty{300}{\kilo\hertz}$ | Low Frequency  | LF | Kilometerwellen (Langwellen) | 2200m |
 | $\qty{300}{\kilo\hertz}$ - $\qty{3000}{\kilo\hertz}$ | Medium Frequency | MF | Hektometerwellen (Mittelwellen/MW) | 630m, 160m |
