@@ -9,7 +9,7 @@ Daraus ergeben sich folgende Formeln, mit denen sich leicht zwischen Frequenz $f
 
 $f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} \quad\quad\quad \lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]}$
 
-Die beiden Formeln finden sich auch in der Formelsammlung, die bei der Prüfung als Hilfsmittel vorliegt.
+% Satz nur stehen lassen, wenn FS angepasst. "Die beiden Formeln finden sich auch in der Formelsammlung, die bei der Prüfung als Hilfsmittel vorliegt."
 
 Teilt man also 300 durch die Wellenlänge in Metern, erhält man die Frequenz in $\unit{\mega\hertz}$. Und genauso andersherum: Teilt man 300 durch die Frequenz in $\unit{\mega\hertz}$, erhält man die Wellenlänge in Metern.
 
