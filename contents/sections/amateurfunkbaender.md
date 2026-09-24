@@ -11,7 +11,7 @@ $f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} \quad\quad\quad \la
 </margin>
 
 %übernommen von 2.11
-Für die folgenden Fragen muss man die sehr häufig genutzen Bänder, den jeweiligen Bereichen zuordnen können. Das $\qty{10}{\meter}$-Band gehört gerade noch zur Kurzwelle, $\qty{2}{\meter}$ liegt im VHF- und $\qty{70}{\centi\meter}$ liegt im UHF-Bereich.
+An der Prüfung muss man nur die sehr häufig genutzen Bänder, den jeweiligen Bereichen zuordnen können. Das $\qty{10}{\meter}$-Band gehört gerade noch zur Kurzwelle, $\qty{2}{\meter}$ liegt im VHF- und $\qty{70}{\centi\meter}$ liegt im UHF-Bereich.
 [question:BC101]
 [question:BC102]
 [question:BC103]
