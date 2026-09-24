@@ -1,24 +1,24 @@
 %YPA an EXR:  Keine entsprechenden Fragen in HB. Verbindung Frequenz - Band trotzdem wichtig.  Die Listen in der Marginale sind nicht sehr hübsch. Irgend welcher sinnvoller, zweckmässiger, Inhalt muss erschaffen werden. BC101-103 von Frequenzspektrum 2.11 nach hierhin verschoben um Fragen dazu zu haben.
+%YPA an EXR: weiteren Text von Wellenlänge 2.7 nach hier verschoben, weil logischer.
 
-Für den Funkbetrieb ist es wichtig zu wissen, welche Frequenzbereiche durch Funkamateure genutzt werden dürfen. Die Bereiche werden auch als Bänder bezeichnet. Diese Bänder werden in Meter (oder ihrer Einheiten) bezeichnet.
-Hier kommt jetzt wieder die Tabelle aus [sec:frequenzspektrum] ins Spiel.
-In der Tabelle wir der Bezug von der Frequenz zu den Metern bereits aufgeführt.
+Für den Funkbetrieb ist es wichtig zu wissen, welche Frequenzbereiche durch Funkamateure genutzt werden dürfen. Die Bereiche werden auch als Bänder bezeichnet. Man spricht dann von einem Frequenzband [index:Frequenzband], Amateurfunkband oder kurz Band, z. B. dem $\qty{2}{\meter}$-Band.
 
+---
+Wenn man über Frequenzbereiche spricht wird die gerundete Wellenlänge ($\lambda$ (Lambda)) verwendet. Dehalb werden diese Bänder in Meter (oder dessen Untereinheiten) angeben.
 <margin>
 Wie man das umrechnet haben wir in [sec:wellenlaenge] schon gesehen.
 
 $f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} \quad\quad\quad \lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]}$
 </margin>
 
-%übernommen von 2.11
-An der Prüfung muss man nur die sehr häufig genutzen Bänder, den jeweiligen Bereichen zuordnen können. Das $\qty{10}{\meter}$-Band gehört gerade noch zur Kurzwelle, $\qty{2}{\meter}$ liegt im VHF- und $\qty{70}{\centi\meter}$ liegt im UHF-Bereich.
-[question:BC101]
-[question:BC102]
-[question:BC103]
 
+
+Hier kommt jetzt nochmal die Tabelle aus [sec:frequenzspektrum] ins Spiel. In der Tabelle wir der Bezug von der Frequenz zu den Metern bereits aufgeführt.
+
+
+---
 %übernommen von 2.13
-Die gerundete Wellenlänge wird übrigens häufig verwendet, wenn man über Frequenzbereiche spricht. Man spricht dann von einem Frequenzband [index:Frequenzband] oder kurz Band, z. B. dem $\qty{2}{\meter}$-Band. In der Tabelle [ref:n_funkwellen_baender] finden sich beispielsweise drei Amateurfunkbänder, die von Funkamateuren beider Klassen genutzt werden dürfen. Mehr dazu dann später in [sec:amateurfunkbaender].
-
+In der Tabelle [ref:n_funkwellen_baender] finden sich beispielsweise drei Amateurfunkbänder, die von Funkamateuren beider Klassen genutzt werden dürfen, mit ihrer genauen «Meterangabe».
 <margin>
 | l: Frequenz | l: Wellenlänge | X: Band |
 | $\qtyrange{28}{29,7}{\mega\hertz}$ | $\qtyrange{10,7}{10,1}{\meter}$ | $\qty{10}{\meter}$-Band |
@@ -26,6 +26,12 @@ Die gerundete Wellenlänge wird übrigens häufig verwendet, wenn man über Freq
 | $\qtyrange{430}{440}{\mega\hertz}$ | $\qtyrange{70}{68}{\centi\meter}$ | $\qty{70}{\centi\meter}$-Band |
 [table:n_funkwellen_baender:Die drei Amateurfunkbänder, die für alle Klassen freigegeben sind]
 </margin>
+
+%übernommen von 2.11
+An der Prüfung muss man nur die sehr häufig genutzen Bänder, den jeweiligen Bereichen zuordnen können. Das $\qty{10}{\meter}$-Band gehört gerade noch zur Kurzwelle, $\qty{2}{\meter}$ liegt im VHF- und $\qty{70}{\centi\meter}$ liegt im UHF-Bereich.
+[question:BC101]
+[question:BC102]
+[question:BC103]
 
 
 .
