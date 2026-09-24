@@ -15,12 +15,10 @@ An der Prüfung muss man nur die sehr häufig genutzen Bänder, den jeweiligen B
 [question:BC101]
 [question:BC102]
 [question:BC103]
-
-
-
-
-
-   
+.
+.
+.
+.
 
 **AB HIER** alles in HB nicht relevant --> Löschen
 Dies lässt sich aus der [Anlage 1 der AFuV](https://50ohm.de/a1) ablesen. Damit sollten die folgenden Fragen leicht zu beantworten sein. Die Anlage 1 der AFuV liegt während der Prüfung als Hilfsmittel bereit.
