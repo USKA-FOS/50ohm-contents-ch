@@ -11,8 +11,7 @@
 ---
 
 Satelliten umrunden die Erde in kreisförmigen oder elliptischen Bahnen und in unterschiedlichen Höhen.
-Seit 1961 gehören dazu auch Amateurfunksatelliten. Diese werden als OSCAR bezeichnet. Das ist die Abkürzung für "Orbiting Satellite Carrying Amateur Radio" ("Umkreisender Satellit, der Amateurfunk mitführt"). Der erste Amateurfunksatellit wurde OSCAR 1 ([ref:n_satellit_oscar1]) genannt. OSCAR 1 war nur der Anfang. In den Folgejahren - bis heute - wurde eine ganze Reihe immer umfangreicher ausgestatteter Amateurfunknutzlasten ins All gebracht. 
-(Quellenangabe: [History of AMSAT](https://www.amsat.org/amsat-history/))
+Seit 1961 gehören dazu auch Amateurfunksatelliten. Diese werden als OSCAR bezeichnet. Das ist die Abkürzung für "Orbiting Satellite Carrying Amateur Radio" ("Umkreisender Satellit, der Amateurfunk mitführt"). Der erste Amateurfunksatellit wurde OSCAR 1 ([ref:n_satellit_oscar1]) genannt. OSCAR 1 war nur der Anfang. In den Folgejahren - bis heute - wurde eine ganze Reihe immer umfangreicher ausgestatteter Amateurfunknutzlasten ins All gebracht. Wer sich für die Geschichte der Amateurfunksatelliten interessiert findet in der [History of AMSAT](https://www.amsat.org/amsat-history/) mehr darüber.
 [question:BE415]
 
 In diesem Kapitel lernen wir "Was ist ein Amateurfunksatellit?“ und "Wie bewegt er sich?". Im Kapitel [sec:satelliten_2] erfahren wir dann "Wie mache ich tatsächlich eine Satelliten Funkverbindung?"
@@ -22,7 +21,7 @@ Die mitgeführten Relaisfunkstellen werden als "Transponder" bezeichnet. Die Ein
 <indepth>
 *Charakterisierung von Satellitenbahnen (orbits)*
 
-Satellitenbahnen können nach verschiedenen Eigenschaften beschrieben werden. Die Begriffe LEO, MEO und GEO beziehen sich hauptsächlich auf die Bahnhöhe. Begriffe wie HEO oder Polar Orbit beschreiben dagegen andere Eigenschaften der Bahn, insbesondere deren Form oder Neigung. Diese Einteilungen können sich daher überschneiden. Im Folgenden stellen wir die wichtigsten Flughöhen bzw. Umlaufbahnen vor.
+Satellitenbahnen können nach verschiedenen Eigenschaften beschrieben werden. Die Begriffe LEO, MEO und GEO beziehen sich hauptsächlich auf die Bahnhöhe. Begriffe wie HEO oder Polar Orbit beschreiben dagegen andere Eigenschaften der Bahn, insbesondere deren Form oder Neigung. Diese Einteilungen können sich daher überschneiden. Im Folgenden stellen wir die wichtigsten Bahnhöhen bzw. Umlaufbahnen vor.
 
 *Niedrige Umlaufbahnen (Low Earth Orbit - LEO)*
 Satelliten in niedrigen Umlaufbahnen befinden sich in Höhen von etwa 400 bis 2'000 Kilometern über der Erdoberfläche. Das sind Umlaufbahnen, die sich relativ nahe an der Erdoberfläche befinden. In diesem Bereich bewegen sich viele Erdbeobachtungs- und Wettersatelliten sowie zahlreiche Amateurfunksatelliten. Die Nähe zur Erde ermöglicht eine hohe Auflösung bei der Erfassung von Daten und Bildern. Die geringe Entfernung zur Erde ermöglicht relativ kurze Funkstrecken und damit geringe Freiraumdämpfung. Gleichzeitig bewegen sich LEO-Satelliten schnell über den Himmel und sind von einer bestimmten Funkstation nur während eines zeitlich begrenzten Überflugs sichtbar.
@@ -31,11 +30,11 @@ Satelliten in niedrigen Umlaufbahnen befinden sich in Höhen von etwa 400 bis 2'
 Mittlere Umlaufbahnen liegen grob zwischen 2'000 und 35'786 Kilometern Höhe. In diesem Bereich befinden sich beispielsweise viele Navigationssatelliten, wie sie für das weltbekannte GPS-System verwendet werden. Da die Satelliten hier länger brauchen, um die Erde zu umkreisen, bieten sie eine ausgeglichene Balance zwischen Abdeckung und Genauigkeit für Navigation und Positionierung. Mit zunehmender Bahnhöhe verlängert sich die Umlaufzeit. Gleichzeitig vergrössert sich das von einem Satelliten erreichbare Gebiet.
 
 *Geostationäre Umlaufbahn (Geostationary Orbit – GEO)*
-Eine geosynchrone Umlaufbahn hat eine Umlaufzeit von ungefähr einem siderischen Tag, also 23 Stunden, 56 Minuten und 4 Sekunden. Eine besondere Form davon ist die geostationäre Umlaufbahn (Geostationary Orbit, GEO) in einer Höhe von etwa 35.786 Kilometern über dem Äquator.
+Eine geosynchrone Umlaufbahn hat eine Umlaufzeit von ungefähr einem siderischen Tag, also 23 Stunden, 56 Minuten und 4 Sekunden. Eine besondere Form davon ist die geostationäre Umlaufbahn (Geostationary Orbit, GEO) in einer Höhe von etwa 35'786 Kilometern über dem Äquator.
 
 Ein geostationärer Satellit bewegt sich auf einer nahezu kreisförmigen Bahn über dem Äquator in derselben Drehrichtung und mit derselben Winkelgeschwindigkeit wie die Erde. Dadurch erscheint er von der Erde aus gesehen nahezu ortsfest am Himmel. Dies ermöglicht es einer Bodenstation, ihre Antenne dauerhaft auf dieselbe Position auszurichten. Geostationäre Satelliten eignen sich daher besonders für Kommunikationsanwendungen und ermöglichen eine konstante Abdeckung eines bestimmten Gebiets.
 
-[QO-100](https://amsat-dl.org/p4-a-nb-transponder-bandplan-und-betriebsrichtlinien/) ist die Amateurfunknutzlast auf dem geostationären Satelliten Es’hail-2 und ist die erste Amateurfunknutzlast in einer geostationären Umlaufbahn.
+[QO-100](https://amsat-dl.org/p4-a-nb-transponder-bandplan-und-betriebsrichtlinien/) ist die Amateurfunknutzlast auf dem geostationären Satelliten Es’hail-2 und war die erste Amateurfunknutzlast in einer geostationären Umlaufbahn.
 
 *Hochelliptische Umlaufbahnen (Highly Elliptical Orbit - HEO)*
 
