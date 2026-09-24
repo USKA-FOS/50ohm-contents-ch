@@ -30,25 +30,20 @@ Als ShortwaveListener oder kurz SWL werden Kurzwellenhörer bezeichnet. Das sind
 Versuch eine besser skalierbaren Liste gemäss neuer HB Liste
 <webmargin>
 | r: | c: | r: | X: | l: |
-
 | Bezeichnung | Abk. | Frequenzbereich (ausschliesslich untere Grenze; einschliesslich obere Grenze) | Metrische Unterteilung | Amateurfunkbänder |
-
-| $\qty{30}{\kilo\hertz}$ | - | $\qty{300}{\kilo\hertz}$ | Low Frequency | LF |
-| | | | (Langwelle) | (LW) |
-| $\qty{300}{\kilo\hertz}$ | - | $\qty{3000}{\kilo\hertz}$ | Medium Frequency | MF |
-| | | | (Mittelwelle) | (MW) |
-| $\qty{3}{\mega\hertz}$ | - | $\qty{30}{\mega\hertz}$ | *High Frequency* | *HF* |
-| | | | Short Wave | SW |
-| | | | (Kurzwelle) | (KW) |
-| $\qty{30}{\mega\hertz}$ | - | $\qty{300}{\mega\hertz}$ | *Very High Frequency* | *VHF* |
-| | | | (Ultrakurzwelle) | (UKW) |
-| $\qty{300}{\mega\hertz}$ | - | $\qty{3000}{\mega\hertz}$ | *Ultra High Frequency* | *UHF* |
-| | | | (Dezimeterwelle) | |
-| $\qty{3}{\giga\hertz}$ | - | $\qty{30}{\giga\hertz}$ | Super High Frequency | SHF |
-| $\qty{30}{\giga\hertz}$ | - | $\qty{300}{\giga\hertz}$ | Extremely High Frequency | EHF |
+| Low Frequency  | LF | $\qty{30}{\kilo\hertz}$ - $\qty{300}{\kilo\hertz}$ | Kilometerwellen (Langwellen) | 2200m |
+| Medium Frequency | MF | $\qty{300}{\kilo\hertz}$ - $\qty{3000}{\kilo\hertz}$ | Hektometerwellen (Mittelwellen/MW) | 630m, 160m |
+| High Frequency | HF |  $\qty{3}{\mega\hertz}$ - $\qty{30}{\mega\hertz}$  |  Dekameterwellen (Kurzwellen/KW) |80m, 60m, 40m, 30m, 20m, 17m, 15m,  12m, 10m |
+| Very High Frequency | VHF | $\qty{3}{\mega\hertz}$ - $\qty{30}{\mega\hertz}$ | Meterwellen (Ultrakurzwellen/UKW) | 6m, 2m |
+| Ultra High Frequency | UHF | $\qty{300}{\mega\hertz}$ - $\qty{3000}{\mega\hertz}$ | Dezimeterwelle | 70cm, 23cm, 13cm |
+| Super High Frequency | SHF. |  $\qty{3}{\giga\hertz}$ - $\qty{30}{\giga\hertz}$ | Zentimeterwellen | 6cm, 3cm, 1,2cm |
+| Extremely High Frequency | EHF | $\qty{30}{\giga\hertz}$ - $\qty{300}{\giga\hertz}$ | Millimeterwellen | 6mm, 4mm, 2,5mm, 2mm, 1mm |
 [table:n_frequenzspektrum_bereiche:Frequenzbereiche und ihre üblichen Bezeichnungen]
 </webmargin>
 
+<margin>
+High Frequency (HF) wird auch Shortwave (SW) genannt. Daher kommt der Begriff des SWL für Höramateure (Short Wave Listener)
+</margin>
 
 [question:BC104]
 [question:BC105]
