@@ -150,4 +150,6 @@ Damit lassen sich Überflüge planen und Funkgeräte sowie Antennen automatisch 
 ---
 
 <tip>
-Mit Amateurfu
+Mit Amateurfunk über Satelliten befassen sich weltweit die AMSAT-Organisationen, in der Schweiz ist das [AMSAT-HB](https://amsat-hb.org/). 
+</tip>
+
