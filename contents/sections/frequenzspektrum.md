@@ -22,7 +22,8 @@ Der Frequenzbereich elektromagnetischer Wellen ist sehr groß (Abbildung [ref:n_
 [table:n_frequenzspektrum_bereiche:Frequenzbereiche und ihre üblichen Bezeichnungen]
 </webmargin>
 
-Versuch eine besser skalierbaren Liste gemäss neuer HB Liste
+Versuch eine besser skalierbaren Liste gemäss neuer HB Liste: mit Webmargin wie DARC Original: Falsche Darstellung, nicht in Marginale
+
 <webmargin>
 | l: | c: | l: | X: | X: |
 | Bezeichnung | Abk. | Frequenzbereich (ausschliesslich untere Grenze; einschliesslich obere Grenze) | Metrische Unterteilung | Amateurfunkbänder |
@@ -36,7 +37,8 @@ Versuch eine besser skalierbaren Liste gemäss neuer HB Liste
 [table:n_frequenzspektrum_bereiche_HB:Frequenzbereiche und ihre üblichen Bezeichnungen_HB]
 </webmargin>
 
-Versuch eine besser skalierbaren Liste gemäss neuer HB Liste
+Versuch eine besser skalierbaren Liste gemäss neuer HB Liste: mit margin, wie normaleweise Texte in Marginale: Falsche Darstellung, nicht in Marginale
+
 <margin>
 | l: | c: | l: | X: | X: |
 | Bezeichnung | Abk. | Frequenzbereich (ausschliesslich untere Grenze; einschliesslich obere Grenze) | Metrische Unterteilung | Amateurfunkbänder |
@@ -50,10 +52,10 @@ Versuch eine besser skalierbaren Liste gemäss neuer HB Liste
 [table:n_frequenzspektrum_bereiche_HB:Frequenzbereiche und ihre üblichen Bezeichnungen_HB]
 </margin>
 
-Versuch eine besser skalierbaren Liste gemäss neuer HB Liste
+Versuch eine besser skalierbaren Liste gemäss neuer HB Liste: ohne margin: Korrekte Darstellung, logischerweise nicht in Marginale
 
 | l: | c: | l: | X: | X: |
-| Bezeichnung | Abk. | Frequenzbereich (ausschliesslich untere Grenze; einschliesslich obere Grenze) | Metrische Unterteilung | Amateurfunkbänder |
+| Bezeichnung (engl.) | Abk. | Frequenzbereich (ausschliesslich untere Grenze; einschliesslich obere Grenze) | Metrische Unterteilung | Amateurfunkbänder |
 | Low Frequency  | LF | $\qty{30}{\kilo\hertz}$ - $\qty{300}{\kilo\hertz}$ | Kilometerwellen (Langwellen) | 2200m |
 | Medium Frequency | MF | $\qty{300}{\kilo\hertz}$ - $\qty{3000}{\kilo\hertz}$ | Hektometerwellen (Mittelwellen/MW) | 630m, 160m |
 | High Frequency | HF |  $\qty{3}{\mega\hertz}$ - $\qty{30}{\mega\hertz}$  |  Dekameterwellen (Kurzwellen/KW) |80m, 60m, 40m, 30m, 20m, 17m, 15m,  12m, 10m |
@@ -61,6 +63,19 @@ Versuch eine besser skalierbaren Liste gemäss neuer HB Liste
 | Ultra High Frequency | UHF | $\qty{300}{\mega\hertz}$ - $\qty{3000}{\mega\hertz}$ | Dezimeterwelle | 70cm, 23cm, 13cm |
 | Super High Frequency | SHF |  $\qty{3}{\giga\hertz}$ - $\qty{30}{\giga\hertz}$ | Zentimeterwellen | 6cm, 3cm, 1,2cm |
 | Extremely High Frequency | EHF | $\qty{30}{\giga\hertz}$ - $\qty{300}{\giga\hertz}$ | Millimeterwellen | 6mm, 4mm, 2,5mm, 2mm, 1mm |
+[table:n_frequenzspektrum_bereiche_HB:Frequenzbereiche und ihre üblichen Bezeichnungen_HB]
+
+Anders sortierte Liste gemäss neuer HB Liste (Versuch)
+
+| l: | c: | l: | X: | X: |
+| Frequenzbereich (ausschliesslich untere Grenze; einschliesslich obere Grenze) | Bezeichnung (engl.) | Abk. | Metrische Unterteilung | Amateurfunkbänder |
+| $\qty{30}{\kilo\hertz}$ - $\qty{300}{\kilo\hertz}$ | Low Frequency  | LF | Kilometerwellen (Langwellen) | 2200m |
+| $\qty{300}{\kilo\hertz}$ - $\qty{3000}{\kilo\hertz}$ | Medium Frequency | MF | Hektometerwellen (Mittelwellen/MW) | 630m, 160m |
+| $\qty{3}{\mega\hertz}$ - $\qty{30}{\mega\hertz}$ | High Frequency | HF |  Dekameterwellen (Kurzwellen/KW) |80m, 60m, 40m, 30m, 20m, 17m, 15m,  12m, 10m |
+| $\qty{3}{\mega\hertz}$ - $\qty{30}{\mega\hertz}$ | Very High Frequency | VHF | Meterwellen (Ultrakurzwellen/UKW) | 6m, 2m |
+| $\qty{300}{\mega\hertz}$ - $\qty{3000}{\mega\hertz}$ | Ultra High Frequency | UHF | Dezimeterwelle | 70cm, 23cm, 13cm |
+| $\qty{3}{\giga\hertz}$ - $\qty{30}{\giga\hertz}$ | Super High Frequency | SHF | Zentimeterwellen | 6cm, 3cm, 1,2cm |
+| $\qty{30}{\giga\hertz}$ - $\qty{300}{\giga\hertz}$ | Extremely High Frequency | EHF | Millimeterwellen | 6mm, 4mm, 2,5mm, 2mm, 1mm |
 [table:n_frequenzspektrum_bereiche_HB:Frequenzbereiche und ihre üblichen Bezeichnungen_HB]
 
 
