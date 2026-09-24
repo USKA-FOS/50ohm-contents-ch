@@ -68,10 +68,10 @@ Anders sortierte Liste gemäss neuer HB Liste (Versuch)
 
 Anders sortierte Liste gemäss neuer HB Liste mit mehrzeiliger Überschrift (Versuch)
 
-| X: | l: | c: | X: | X: |
+| l: | l: | c: | X: | X: |
 | Frequenzbereich | Bezeichnung (engl.) | Abk. | Metrische | Amateurfunkbänder |
-| (ausschliesslich untere Grenze; | Bezeichnung (engl.) | Abk. | Unterteilung | Amateurfunkbänder |
-| einschliesslich obere Grenze) | Bezeichnung (engl.) | Abk. | deutsche Bezeichung | Amateurfunkbänder |
+| (ausschliesslich untere Grenze; | | | Unterteilung | |
+| einschliesslich obere Grenze) | | | deutsche Bezeichung | |
 | $\qty{30}{\kilo\hertz}$ - $\qty{300}{\kilo\hertz}$ | Low Frequency  | LF | Kilometerwellen (Langwellen) | 2200m |
 | $\qty{300}{\kilo\hertz}$ - $\qty{3000}{\kilo\hertz}$ | Medium Frequency | MF | Hektometerwellen (Mittelwellen/MW) | 630m, 160m |
 | $\qty{3}{\mega\hertz}$ - $\qty{30}{\mega\hertz}$ | High Frequency | HF |  Dekameterwellen (Kurzwellen/KW) |80m, 60m, 40m, 30m, 20m, 17m, 15m,  12m, 10m |
