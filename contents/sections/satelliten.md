@@ -66,7 +66,7 @@ Der Begriff *Azimut* stammt von arabisch *as-sumūt*, ("die Wege") ab. *Elevatio
 [question:BE413]
 [question:BE414]
 
-Im Amateurfunkdienst über Satelliten gilt eine Ausnahme von der Pflicht, nur offene Sprache zu verwenden.   Kommandostationen ist es erlaubt, Steuersignale zwischen Bodenstationen und Amateurfunksatelliten zum Zwecke der Verschleierung zu verschlüsseln. Das heißt, dass hierfür ausnahmsweise Verschlüsselungsverfahren genutzt werden dürfen, die verhindern, dass der Inhalt der Steuersignale von Dritten mitgelesen werden kann. Dies dient der Sicherheit der Satelliten vor Steuerkommandos von Unbefugten.
+Im Amateurfunkdienst über Satelliten gilt eine Ausnahme von der Pflicht, nur offene Sprache zu verwenden. Kommandostationen ist es erlaubt, Steuersignale zwischen Bodenstationen und Amateurfunksatelliten zum Zwecke der Verschleierung zu verschlüsseln. Das heißt, dass hierfür ausnahmsweise Verschlüsselungsverfahren genutzt werden dürfen, die verhindern, dass der Inhalt der Steuersignale von Dritten mitgelesen werden kann. Dies dient der Sicherheit der Satelliten vor Steuerkommandos von Unbefugten.
 
 [question:VA303]
 [question:VN026]
@@ -117,7 +117,7 @@ Für die Satellitenpraxis bedeutet dies: Satelliten in niedrigen Umlaufbahnen um
 
 ### Umlaufzeit eines Satelliten
 
-Im Kapitel [sec:satelliten] haben wir verschiedene Satellitenbahnen kennengelernt. Die Umlaufzeit eines Satelliten um die Erde hängt von der Höhe seiner Bahn ab. Dieser Zusammenhang ist im Bild 
+Im Kapitel [sec:satelliten] haben wir verschiedene Satellitenbahnen kennengelernt. Die Umlaufzeit eines Satelliten um die Erde hängt von der grossen Halbachse seiner Bahn ab. Bei Kreisbahnen entspricht diese der Bahnhöhe plus dem Erdradius. Dieser Zusammenhang ist im Bild 
 [ref:a_umlaufzeiten] dargestellt. 
 
 <indepth>
@@ -125,13 +125,15 @@ Im Kapitel [sec:satelliten] haben wir verschiedene Satellitenbahnen kennengelern
 [picture:10101:a_umlaufzeiten:Umlaufzeiten in Funktion der Höhe der Bahn] 
 </indepth>
 
+Für den praktischen Satellitenfunk sind insbesondere Umlaufzeit, Sichtbarkeit und die Geschwindigkeit des Satelliten von Bedeutung.
+
 ## Sichtbarkeit eines Satelliten
 
 Für eine Funkstation auf der Erde ist nicht entscheidend, ob ein Satellit grundsätzlich die Erde umkreist, sondern ob er sich gerade über dem lokalen Horizont befindet. Ein Überflug beginnt mit dem "Acquisition of Signal" (AOS), wenn der Satellit für die Station sichtbar beziehungsweise empfangbar wird. Er endet mit dem "Loss of Signal" (LOS), wenn er wieder unter den Horizont sinkt.
 
 Die Position eines Satelliten am Himmel wird durch das Azimut, also die Richtung entlang des Horizonts, und die Elevation, also den Winkel über dem Horizont, angegeben. Während eines Überflugs ändern sich beide Werte laufend.
 
-Der Bereich auf der Erdoberfläche, von dem aus ein Satellit grundsätzlich über dem Horizont gesehen werden kann, wird als Footprint bezeichnet. Je höher der Satellit fliegt, desto grösser kann dieser Bereich sein.
+Der Bereich auf der Erdoberfläche, in dem ein Satellit bzw. seine Funknutzlast empfangen werden kann, wird als Footprint bezeichnet. Je höher der Satellit fliegt, desto grösser kann dieser Bereich sein.
 
 ---
 
@@ -145,14 +147,14 @@ Für kleine Geschwindigkeiten gegenüber der Lichtgeschwindigkeit kann die Frequ
 
 $$\Delta f \approx f_0 \frac{v_r}{c}$$
 
-beschrieben werden. Dabei ist $f_0$ die Sendefrequenz, $v_r$ die Relativgeschwindigkeit in Richtung der Funkstrecke und $c$ die Lichtgeschwindigkeit. Entscheidend ist also die radiale Geschwindigkeit und nicht die gesamte Bahngeschwindigkeit des Satelliten. Dabei sei v<sub>r</sub>>0, wenn sich Sender und Empfänger einander nähern.
+beschrieben werden. Dabei ist $f_0$ die Sendefrequenz, $v_r$ die Relativgeschwindigkeit in Richtung der Funkstrecke und $c$ die Lichtgeschwindigkeit. Entscheidend ist also die radiale Geschwindigkeit und nicht die gesamte Bahngeschwindigkeit des Satelliten. Dabei sei $$v_r > 0$$, wenn sich Sender und Empfänger einander nähern.
 
 Bei LEO-Satelliten kann die Dopplerverschiebung insbesondere bei höheren Frequenzen und bei schmalbandigen Betriebsarten deutlich bemerkbar sein. Deshalb muss die Frequenz während eines Satellitenüberflugs gegebenenfalls laufend nachgeführt werden. Moderne Satellitenstationen können die Dopplerkompensation automatisch durchführen.
 
 <indepth>
 Dieses Applet visualisiert den Dopplereffekt. Mit dem Schieberegler kann die *Relativgeschwindigkeit zwischen Sender und Empfänger* eingestellt werden.
   
-- Wenn sich die *Quelle auf einem zubewegt*, treffen mehr Wellenfronten pro Zeiteinheit ein, was einer *Erhöhung der empfangenen Frequenz* entspricht. Obwohl der Sender immer mit der gleichen Frequenz sendet. 
+- Wenn sich die *Quelle auf einen zubewegt*, treffen mehr Wellenfronten pro Zeiteinheit ein, was einer *Erhöhung der empfangenen Frequenz* entspricht. Obwohl der Sender immer mit der gleichen Frequenz sendet. 
   
 - Wenn sich die *Quelle von einem wegbewegt*, treffen weniger Wellenfronten pro Zeiteinheit ein, was einer *Erniedrigung der empfangenen Frequenz* entspricht. Obwohl der Sender immer mit der gleichen Frequenz sendet.
 
