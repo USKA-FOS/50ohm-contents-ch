@@ -25,7 +25,7 @@ $f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} = \dfrac{300}{\qty{
 
 ---
 
-Die gerundete Wellenlänge wird übrigens häufig verwendet, wenn man über Frequenzbereiche spricht. Man spricht dann von einem Frequenzband [index:Frequenzband] oder kurz Band, z. B. dem $\qty{2}{\meter}$-Band. In der Tabelle [ref:n_funkwellen_baender] finden sich beispielsweise die drei Amateurfunkbänder, die von Funkamateuren aller Klassen genutzt werden dürfen.
+Die gerundete Wellenlänge wird übrigens häufig verwendet, wenn man über Frequenzbereiche spricht. Man spricht dann von einem Frequenzband [index:Frequenzband] oder kurz Band, z. B. dem $\qty{2}{\meter}$-Band. In der Tabelle [ref:n_funkwellen_baender] finden sich beispielsweise drei Amateurfunkbänder, die von Funkamateuren beider Klassen genutzt werden dürfen. Mehr dazu dann später in [sec:amateurfunkbaender].
 
 <margin>
 | l: Frequenz | l: Wellenlänge | X: Band |
