@@ -3,10 +3,6 @@ Der Frequenzbereich elektromagnetischer Wellen ist sehr groß (Abbildung [ref:n_
 An der Prüfung können Fragen aus der gesamten Liste vorkommen. Die angezeigten Fragen bilden nur eine Auswahl wie solche Fragen gestellt werden könnten. 
 % Es sind alle Fragen in derselben Frageart. Es gibt keine mit den alten Fragestellungen.
 
-<indepth>
-Als ShortwaveListener oder kurz SWL werden Kurzwellenhörer bezeichnet. Das sind Personen die nur zuhören, aber selber nicht senden.
-</indepth>
-
 %YPA: Liste anpassen. In der neuen HB Version fehlt die ausgeschriebene Englische Bezeichnung, dadurch auch der Bezug zur Abkürzung und zudem zu den Antworten in den vorhandenen Fragen. Mit der Zusatzspalte (Bänder) in der HB Version wird die Liste zu breit für Marginale. Vorschlag: saubere Liste machen und als Bild einfügen.
 <webmargin>
 | r: | c: | r: | X: | l: |
@@ -41,9 +37,9 @@ Versuch eine besser skalierbaren Liste gemäss neuer HB Liste
 [table:n_frequenzspektrum_bereiche:Frequenzbereiche und ihre üblichen Bezeichnungen]
 </webmargin>
 
-<margin>
-High Frequency (HF) wird auch Shortwave (SW) genannt. Daher kommt der Begriff des SWL für Höramateure (Short Wave Listener)
-</margin>
+<indepth>
+High Frequency (HF) wird auch Shortwave (SW) genannt. Daher kommt der Begriff des SWL für Höramateure (Short Wave Listener). Das sind Personen die nur zuhören, aber selber nicht senden.
+</indepth>
 
 [question:BC104]
 [question:BC105]
