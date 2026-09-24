@@ -24,7 +24,13 @@ Wollen wir also beispielsweise die Wellenlänge der Frequenz $\qty{145,3}{\mega\
 
 $\lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]} = \dfrac{300}{\qty{145,3}{\mega\hertz}} \approx \qty{2,06}{\meter}$
 
+%YPA was hat es damit auf sich?
 [include:applet_lambda_und_f]
+
+Die beiden folgenden Fragen lassen sich leicht mit den eben vorgestellten Formeln lösen.
+
+[question:NB302]
+[question:NB303]
 
 ---
 
