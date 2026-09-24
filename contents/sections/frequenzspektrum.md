@@ -33,7 +33,7 @@ Versuch eine besser skalierbaren Liste gemäss neuer HB Liste
 | Ultra High Frequency | UHF | $\qty{300}{\mega\hertz}$ - $\qty{3000}{\mega\hertz}$ | Dezimeterwelle | 70cm, 23cm, 13cm |
 | Super High Frequency | SHF. |  $\qty{3}{\giga\hertz}$ - $\qty{30}{\giga\hertz}$ | Zentimeterwellen | 6cm, 3cm, 1,2cm |
 | Extremely High Frequency | EHF | $\qty{30}{\giga\hertz}$ - $\qty{300}{\giga\hertz}$ | Millimeterwellen | 6mm, 4mm, 2,5mm, 2mm, 1mm |
-[table:n_frequenzspektrum_bereicheHB:Frequenzbereiche und ihre üblichen BezeichnungenHB]
+[table:n_frequenzspektrum_bereiche_HB:Frequenzbereiche und ihre üblichen Bezeichnungen_HB]
 </webmargin>
 
 <indepth>
