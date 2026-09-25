@@ -8,7 +8,7 @@ $f[\unit{\mega\hertz}] = \frac{300}{\lambda[\unit{\meter}]}$
 
 wahlweise nach der Frequenz oder der Wellenlänge umstellen können.
 
-In diesem Abschnitt betrachten wir praktische Anwendungen. Versuche zunächst immer, selbstständig die Lösung zu finden.
+In diesem Abschnitt betrachten wir praktische Anwendungen. Versuche zunächst immer, selbstständig die Lösung zu finden. Deshalb ist entgegen der normalen Darstellung hier die Information *nach* der Frage platziert.
 
 [question:EB314]
 
