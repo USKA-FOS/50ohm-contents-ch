@@ -13,7 +13,7 @@ Ursprünglich wurde HAMNET als schrittweiser Ersatz für das seit den 1980er-Jah
 <margin>
 Der [*SWISS-ARTG*](https://www.swiss-artg.ch/index.php?id=9) bietet für ihre Mitglieder einen VPN-Zugang über die sogenannten [HAMCloud](https://www.swiss-artg.ch/index.php?id=37) an. Dies ermöglicht den Zugang zum HAMNET, auch wenn kein direkter Einstieg über Funk möglich ist.   
 
-[Jetzt Mitglied der USKA werden!](https://uska.ch/wieso-uska-mitglied-werden/)
+[Jetzt Mitglied der USKA werden!](https://uska.ch/de/uska-beitreten/)
 </margin>
 
 Nutzen kann man das Hamnet genauso wie das Internet, im einfachsten Fall mit einem Webbrowser. Das ist möglich, weil das sogenannte Internet-Protokoll (IP) und alles, was darauf aufbaut, auch für andere Zwecke als für das Internet verwendet werden kann.
