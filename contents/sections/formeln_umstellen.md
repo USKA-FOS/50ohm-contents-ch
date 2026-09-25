@@ -11,7 +11,7 @@ Gleichungen, bei denen bereits angegeben wird, in welcher Einheit die Werte zu s
 
 In Wirklichkeit ist das aber nur eine Gleichung, die jeweils, im ersten Fall, nach der Frequenz und im zweiten Fall nach der Wellenlänge umgestellt wurde. 
 
-In technischen Rechnungen müssen wir immer wieder Gleichungen so umstellen, dass die gesuchte Größe allein auf einer Seite steht. Dazu wenden wir die nötigen mathematischen Operationen (Multiplizieren, Dividieren, Addieren, Subtrahieren, ...) auf beide der Seiten der Gleichung *gleichzeitig* an. Mit etwas Übung ist das viel einfacher, als sich alle nötigen Formen einer Beziehung separat zu merken. In der Klasse E und auch in der Klasse A ist dies sogar zwingend erforderlich, da die Gleichungen in der Formelsammlung nur noch in ihrer Grundform angegeben werden.
+In technischen Rechnungen müssen wir immer wieder Gleichungen so umstellen, dass die gesuchte Größe allein auf einer Seite steht. Dazu wenden wir die nötigen mathematischen Operationen (Multiplizieren, Dividieren, Addieren, Subtrahieren, ...) auf beide der Seiten der Gleichung *gleichzeitig* an. Mit etwas Übung ist das viel einfacher, als sich alle nötigen Formen einer Beziehung separat zu merken. In der Formelsammlung sind einfache Gleichungen nur in ihrer Grundform angegeben. Das Umstellen von einfachen Formeln ist Prüfungsstoff.
 
 ---
 
