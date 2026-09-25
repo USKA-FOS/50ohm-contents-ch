@@ -1,4 +1,5 @@
-Bereits im Kapitel [sec:wellenlaenge] haben wir den Zusammenhang zwischen der Frequenz ($f$) und der Wellenlänge ($\lambda$) kennengelernt. Damals wurden dazu zwei speziell zugeschnittene Größengleichungen aus der Formelsammlung für die Prüfung angegeben.
+Bereits im Kapitel [sec:wellenlaenge] haben wir den Zusammenhang zwischen der Frequenz ($f$) und der Wellenlänge ($\lambda$) kennengelernt. Dort wurden dazu zwei speziell zugeschnittene Größengleichungen angegeben.
+% Diesen Teilsatz in den vorherigen Satz einfügen, wenn die Formeln in der Sammlung drin sind. "... aus der Formelsammlung für die Prüfung..."
 
 $f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]}$
 
