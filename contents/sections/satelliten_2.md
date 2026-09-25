@@ -1,5 +1,3 @@
-IN ABSCHLUSSREDAKTION DURCH DEN AUTOR
-
 <attention>
 *Dieser Stoff ist nicht prüfungsrelevant.*
 Satelliten und Raumfahrt spielen eine immer wichtigere Rolle. Wir Funkamateure können dank des Amateurfunkdiensts über Satelliten auch auf diesem spannenden Feld tätig werden. Deshalb sind wir der Meinung, dass diese Einführung in einen Amateurfunkkurs reingehört, auch wenn das Thema aktuell nicht geprüft wird.
