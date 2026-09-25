@@ -1,5 +1,5 @@
 <attention>
-„Der Satellitenfunk wird im HB3-Kurs bereits unter den grundlegenden Vorschriften und der Betriebstechnik behandelt. Die weiterführenden technischen Aspekte werden im HB9-Kurs im Kapitel [sec:satelliten_2] vertieft.“
+Der Satellitenfunk wird im HB3-Kurs bereits unter den grundlegenden Vorschriften und der Betriebstechnik behandelt. Die weiterführenden technischen Aspekte werden im HB9-Kurs im Kapitel [sec:satelliten_2] vertieft.
 </attention>
 
 <margin>
