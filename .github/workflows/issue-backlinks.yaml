@@ -32,7 +32,7 @@ jobs:
           ISSUE_NUMBER: ${{ github.event.issue.number }}
         shell: bash
         run: |
-          body=$(printf 'Backlink:\nhttps://50ohm.uska.ch/50ohm_review_de/NE_%s.html' "$IDENT")
+          body=$(printf 'Backlink:\nhttps://50ohm.uska.ch/50ohm_review_de/NEA_%s.html' "$IDENT")
 
           gh issue comment "$ISSUE_NUMBER" \
             --repo "$GH_REPO" \
