@@ -18,6 +18,8 @@ Diese Abhängigkeit von der Tageszeit hat eine große Auswirkung auf die Ausbrei
 
 [question:AH202]
 
+*TODO: an HB anpassen*
+
 Ein Band, das eigentlich fast immer gut und zuverlässig funktioniert, ist das $\qty{40}{\meter}$-Band, das genauso wie das $\qty{20}{\meter}$-Band der Klasse A vorbehalten ist. Gerade für innerdeutsche Weitverbindungen, zum Beispiel von Hamburg nach München, zeigt es eine sehr verlässliche Performance.
 
 [question:AH201]
