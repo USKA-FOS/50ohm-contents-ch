@@ -1,4 +1,4 @@
-In der Klasse E haben wir bereits Aurora kennengelernt: Wenn geladene Teilchen aus dem Sonnenwind in die Hochatmosphäre einkoppeln, entstehen zum einen Polarlichter, zum anderen werden Funkwellen gebrochen, was vor allem im VHF-Bereich ($\qty{6}{\meter}$ und $\qty{2}{\meter}$) für DX-Verbindungen genutzt wird. In der Klasse A gibt es hierzu noch weitere vertiefende Fragen.
+Im Abschnitt [sec:aurora_1] haben wir bereits Aurora kennengelernt: Wenn geladene Teilchen aus dem Sonnenwind in die Hochatmosphäre einkoppeln, entstehen zum einen Polarlichter, zum anderen werden Funkwellen gebrochen, was vor allem im VHF-Bereich ($\qty{6}{\meter}$ und $\qty{2}{\meter}$) für DX-Verbindungen genutzt wird. Für die HB9-Prüfung gibt es hierzu noch weitere vertiefende Fragen.
 
 Dabei solltest du dir folgende Dinge merken: 
 
