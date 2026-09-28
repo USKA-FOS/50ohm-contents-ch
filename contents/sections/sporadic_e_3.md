@@ -2,7 +2,7 @@
 [picture:733:a_sporadic_e:Refraktion bei Sporadic-E]
 </margin>
 
-In den Klassen N und E haben wir ja bereits gelernt, dass Funkverbindungen über Sporadic E (Besonders stark ionisierten Bereichen der E-Region) vor allem vom oberen Kurzwellenbereich bis zum $\qty{2}{\meter}$-Band durchgeführt werden. 
+In den Abschnitten [sec:sporadic_e_1] und [sec:sporadic_e_2] haben wir ja bereits gelernt, dass Funkverbindungen über Sporadic E (Besonders stark ionisierten Bereichen der E-Region) vor allem vom oberen Kurzwellenbereich bis zum $\qty{2}{\meter}$-Band durchgeführt werden. 
 
 [question:AH301]
 
