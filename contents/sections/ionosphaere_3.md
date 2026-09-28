@@ -1,8 +1,8 @@
-Mit den Grundlagen zur Ionosphäre, der Sonnenfleckenaktivität, der sogenannten „Toten Zone“ sowie den wichtigsten ionosphärischen Regionen haben wir uns bereits in den Prüfungsfragen zur Klasse N und E beschäftigt. Das grundlegende Prinzip dabei war, dass die von der Sonne ausgesandte UV-Strahlung Moleküle in der Ionosphäre ionisiert.
+Mit den Grundlagen zur Ionosphäre, der Sonnenfleckenaktivität, der sogenannten „Toten Zone“ sowie den wichtigsten ionosphärischen Regionen haben wir uns bereits in den Fragen zur Prüfung für HB3 beschäftigt. Das grundlegende Prinzip dabei war, dass die von der Sonne ausgesandte UV-Strahlung Moleküle in der Ionosphäre ionisiert.
 
 [question:AH101]
 
-In den Prüfungsfragen der Klasse E wurden die wichtigsten Regionen der Ionosphäre – die D-, E- und F-Region – sowie ihre Eigenschaften bereits vorgestellt. In der Klasse A ist es nun zusätzlich wichtig zu wissen, in welchen Höhenbereichen sich diese Regionen in der Erdatmosphäre befinden. Abbildung [ref:a_schichten_jahreszeiten] zeigt diese wichtigen Höhenangaben die man sich gut einprägen muss. Dabei ist auch die Abhängigkeit von Tageszeit und Jahreszeit zu berücksichtigen.
+In den Prüfungsfragen für HB3 wurden die wichtigsten Regionen der Ionosphäre – die D-, E- und F-Region – sowie ihre Eigenschaften bereits vorgestellt. Für die HB9-Prüfung ist es nun zusätzlich wichtig zu wissen, in welchen Höhenbereichen sich diese Regionen in der Erdatmosphäre befinden. Abbildung [ref:a_schichten_jahreszeiten] zeigt diese wichtigen Höhenangaben die man sich gut einprägen muss. Dabei ist auch die Abhängigkeit von Tageszeit und Jahreszeit zu berücksichtigen.
 
 [question:AH103]
 [question:AH104]
