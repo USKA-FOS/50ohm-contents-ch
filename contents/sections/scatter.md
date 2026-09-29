@@ -16,7 +16,7 @@ Auf der Kurzwelle kann der Bereich in der Ionosphäre, der die Raumwelle zur Erd
 
 ---
 
-%TODO: bzw. Anekdote von COVID Lockdown
+%TODO: bzw. Anekdote von COVID Lockdown, von wem ist dieser Kommentar? Wie lautet die Anekdote.
 
 Schließlich kann man sich auf VHF, UHF und SHF noch von ganz anderer Seite Hilfe holen, um über den Horizont hinaus zu senden, nämlich per *Aircraft-Scatter*: Hier dienen Flugzeuge als kurzzeitige Reflektoren, wenn sie sich auf oder in der Nähe der Verbindungslinie zwischen Sender und Empfänger befinden. Durch die schnelle Bewegung des Flugzeugs sind solche Verbindungsmöglichkeiten recht kurz, so dass eine schnelle QSO-Abwicklung gefragt ist. 
 
