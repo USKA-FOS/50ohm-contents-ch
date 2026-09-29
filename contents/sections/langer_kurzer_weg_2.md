@@ -1,4 +1,4 @@
-In der Klasse E haben wir das Konzept des kurzen und langen Weges bereits kennengelernt. In der Klasse A möchten wir dieses Thema noch etwas vertiefen. Eine geradlinige Verbindung zwischen zwei Orten auf einer Kugel verläuft immer entlang des Großkreises. Die Richtung des kurzen und des langen Weges zum anderen Ort unterscheiden sich in der Richtung daher um genau $\qty{180}{\degree}$. Abbildung [ref:a_langer_kurzer_weg] zeigt den Großkreis auf der Erdkugel – in Blau den kurzen Weg und in Rot den langen Weg, der einmal vollständig um den Globus herumführt.
+im Abschnitt [sec:langer_kurzer_weg_1] haben wir das Konzept des kurzen und langen Weges bereits kennengelernt. Im Kurs für HB9 möchten wir dieses Thema noch etwas vertiefen. Eine geradlinige Verbindung zwischen zwei Orten auf einer Kugel verläuft immer entlang des Großkreises. Die Richtung des kurzen und des langen Weges zum anderen Ort unterscheiden sich in der Richtung daher um genau $\qty{180}{\degree}$. Abbildung [ref:a_langer_kurzer_weg] zeigt den Großkreis auf der Erdkugel – in Blau den kurzen Weg und in Rot den langen Weg, der einmal vollständig um den Globus herumführt.
 
 [question:AH216]
 
