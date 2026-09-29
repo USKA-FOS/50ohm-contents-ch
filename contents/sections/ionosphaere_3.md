@@ -11,7 +11,7 @@ In den Prüfungsfragen für HB3 wurden die wichtigsten Regionen der Ionosphäre 
 [question:AH108]
 
 <margin>
-[picture:874:a_schichten_jahreszeiten:Mögliche höhen der Regionen in Abhängigkeit von der Jahres- und Tageszeit]
+[picture:874:a_schichten_jahreszeiten:Mögliche Höhen der Regionen in Abhängigkeit von der Jahres- und Tageszeit]
 </margin>
 
 Diese Abhängigkeit von der Tageszeit hat eine große Auswirkung auf die Ausbreitung unserer Funkwellen. Im Sonnenfleckenmaximum funktioniert das $\qty{10}{\meter}$-Band auch tagsüber gut. Im Sonnenfleckenminimum dagegen ist das $\qty{10}{\meter}$-Band tagsüber kaum nutzbar. Deshalb wird in dieser Zeit für Weitverbindungen tagsüber häufig auf das $\qty{20}{\meter}$-Band zurückgegriffen.
