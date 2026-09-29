@@ -9,10 +9,11 @@ Wie wir auch schon wissen, ist die Reichweite der Raumwellen vom Abstrahlwinkel 
 [picture:998:e_muf_winkel2:Sprungdistanz bei 7 MHz im Sommer 2024]
 </margin>
 
-<wordorigin>
-Die Abkürzung *FOT* kann man sich leicht so merken: *F*réquence *O*ptimale de *T*rafic oder "Frequency Optimum Traffic".
-Die FOT liegt standardmässig bei 85 % der MUF (Maximum Usable Frequency).
-</wordorigin>
+%<wordorigin>
+%Die Abkürzung *FOT* kann man sich leicht so merken: *F*réquence *O*ptimale de *T*rafic oder "Frequency %Optimum Traffic".
+%Die FOT liegt standardmässig bei 85 % der MUF (Maximum Usable Frequency).
+%</wordorigin>
+% Wieder entfernt, weil redundant.
 
 ---
 
