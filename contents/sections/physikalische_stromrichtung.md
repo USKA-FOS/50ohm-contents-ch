@@ -11,20 +11,12 @@ In den meisten Stromkreisen werden die Ladungen durch negativ geladene Elektrone
 </indepth>
 
 <indepth>
-Die Ladung eines Elektrons beträgt $\qty{-1.602176634e-19}{\coulomb}$. Der Betrag dieser Ladung wird als **Elementarladung** bezeichnet. Sie wird mit $e$ bezeichnet und beträgt:
-
-$e = \qty{1.602176634e-19}{\coulomb}$
-
-Das Elektron besitzt somit die Ladung $-e$.
-
-1 Coulomb ist die elektrische Ladung, die innerhalb einer Sekunde durch den Querschnitt eines Leiters transportiert wird, in dem ein elektrischer Strom der Stärke von einem Ampere fliesst:
-
+Die Ladung $e$ eines Elektrons beträgt $\qty{-1.602176634e-19}{\coulomb}$.
+1 Coulomb ist die elektrische Ladung, die innerhalb einer Sekunde durch den Querschnitt eines Leiters transportiert wird, in dem ein elektrischer Strom der Stärke von einem Ampère fliesst:
 $1\unit{\coulomb} = 1\unit{\ampere}\cdot\unit{\second} = 1\unit{\as}$
-
 Das Coulomb wird daher auch als **Amperesekunde (As)** bezeichnet.
 
 Vergleiche dazu die zur Kennzeichnung der Batteriekapazität übliche **Amperestunde (Ah)**:
-
 $1\unit{\Ah} = 3600\unit{\As} = 3600\unit{\coulomb}$
 </indepth>
 
