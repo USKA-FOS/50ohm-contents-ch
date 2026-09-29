@@ -1,4 +1,4 @@
-Die *MUF* (*maximum usable frequency*), also die höchste Frequenz, die die Ionosphäre für die Distanz zwischen Sender und Empfänger noch zurückbrechen kann, haben wir bereits in der Klasse E kennengelernt. Dort wurde deutlich, dass die MUF von der Dichte der freien Elektronen in der brechenden Region abhängt. In der Klasse A werden wir dieses Thema nun insbesondere mit Blick auf den Abstrahlwinkel noch genauer betrachten.
+Die *MUF* (*maximum usable frequency*), also die höchste Frequenz, die die Ionosphäre für die Distanz zwischen Sender und Empfänger noch zurückbrechen kann, haben wir bereits im HB3-Kurs im Abschnitt [sec:muf_luf_1] kennengelernt. Dort wurde deutlich, dass die MUF von der Dichte der freien Elektronen in der brechenden Region abhängt. Jetzt im HB9-Kurs werden wir dieses Thema insbesondere mit Blick auf den Abstrahlwinkel noch genauer betrachten.
 
 [question:AH206]
 [question:AH207]
