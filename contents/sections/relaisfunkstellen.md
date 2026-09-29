@@ -1,9 +1,12 @@
 Ein Relais ermöglicht eine größere Reichweite als dies bei direkter Verbindung zwischen zwei Amateurfunkstationen oftmals möglich ist. Relais werden meist an exponierten Standorten, z. B. auf Berggipfeln, Hochhäusern, Kirch- und sonstigen Türmen, errichtet. Es gibt auch Relais in Satelliten, die um die Erde kreisen. Aufbau und Funktion eines Relais sind in Bild [ref:n_relaisfunkstellen_aufbau] dargestellt. 
-% Finde Bild nicht gut. Das das oben auf dem Berg ein Relais sein soll, kann man grad noch so erkennen. Das dieses aber etwas empfängt und "weiterleitet" ist nicht ersichtlich. Issue #38 eröffnet
 
 [picture:648:n_relaisfunkstellen_aufbau:Schematische Darstellung einer Relaisfunkstelle mit Nutzern]
 
-Ist zum Beispiel ein Berg zwischen zwei Funkstationen, so ist es unmöglich, durch den Berg hindurchzusenden. Ein Relais auf dem Berggipfel ermöglicht es trotzdem, eine Verbindung aufzubauen, da beide Stationen das Relais direkt erreichen  können.
+Ist zum Beispiel ein Berg zwischen zwei Funkstationen, so ist es unmöglich, durch den Berg hindurchzusenden. Ein Relais auf dem Berggipfel ermöglicht es trotzdem, eine Verbindung aufzubauen, da beide Stationen das Relais direkt erreichen können. Das bild [ref:nea_linkstrecken_antenne_Pilatus] zeigt die Montage einer Antenne für das Relais Pilatus der [UHF-Gruppe:www.hb9uf.ch] der USKA.
+
+<margin>
+[photo:1000:nea_linkstrecken_antenne_Pilatus:Wartungsarbeiten auf dem Pilatus,HB9DWW und HB9ZGF bei der Montage der Uplink-Antenne für das Relais Pilatus]
+</margin>
 
 ---
 <law>
