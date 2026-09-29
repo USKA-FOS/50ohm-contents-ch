@@ -15,7 +15,7 @@ Grund für diese Verformungen sind die unvermeidlichen Kapazitäten und Induktiv
 </indepth>
 
 [question:AI303]
-[question:AI307]
+[question:EI303]
 
 
 Oszilloskope können Signale mit unterschiedlichsten Frequenzen und Verläufen darstellen. Damit diese Signale auf dem Bildschirm stabil erscheinen, besitzen Oszilloskope eine sogenannte Triggereinrichtung (engl. trigger = „auslösen“). Dabei überwacht das Gerät das Eingangssignal kontinuierlich und startet die Aufnahme genau dann, wenn eine zuvor festgelegte Bedingung erfüllt ist – zum Beispiel, wenn das Signal eine bestimmte Spannung, die sogenannte Triggerspannung, überschreitet. Ab diesem Moment beginnt die Abtastung und Speicherung der Messwerte, die anschließend als Kurve auf dem Bildschirm dargestellt werden.
