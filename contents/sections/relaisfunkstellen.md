@@ -4,7 +4,7 @@ Ein Relais ermöglicht eine größere Reichweite als dies bei direkter Verbindun
 
 Ist zum Beispiel ein Berg zwischen zwei Funkstationen, so ist es unmöglich, durch den Berg hindurchzusenden. Ein Relais auf dem Berggipfel ermöglicht es trotzdem, eine Verbindung aufzubauen, da beide Stationen das Relais direkt erreichen können.
 
-Das Bild [ref:nea_linkstrecken_antenne_Pilatus] zeigt die Montage einer Antenne für das Relais Pilatus der [UHF-Gruppe](https:://hb9uf.ch) der USKA.
+Das Bild [ref:nea_linkstrecken_antenne_Pilatus] zeigt die Montage einer Antenne für das Relais Pilatus der [UHF-Gruppe](https://hb9uf.ch) der USKA.
 
 </tip>
 
@@ -27,6 +27,8 @@ In der Schweiz dürfen nur Amateurfunkvereine unbediente Stationen, also auch Re
 
 Amateurfunkvereine, die eine unbediente Station errichten möchten, unterliegen der Meldepflicht an das BAKOM (Registrierung). Diese muss vor der Inbetriebnahme beim BAKOM eingeholt werden.
 Um eine störungsfreie Frequenznutzung der unbedienten Anlage sicherzustellen,empfiehlt es sich vorgängig eine Frequenzkoordination durchzuführen. Hierfür können Sie sich an die USKA [Kontakt:](qrg@uska.ch) wenden, die sie auf freiwilliger Basis
+%TODO: USKA Link korrigieren 
+
 dabei unterstützt. Danach können Sie die Meldung beim BAKOM über das eGov Portal durchführen.
 % Sollte das auf die "einführende Infoseite"?
 [question:VN007]
