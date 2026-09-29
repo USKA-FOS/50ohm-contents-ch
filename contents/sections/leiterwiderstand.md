@@ -1,4 +1,4 @@
-Drähte aus unterschiedlichen Materialien leiten elektrischen Strom unterschiedlich gut. Als Kenngröße betrachten wir dabei den elektrischen Widerstand des Drahtes. Den Widerstand haben wir bereits in den Klassen N und E als die Größe kennengelernt, die den Stromfluss durch einen Leiter begrenzt. Ein Draht mit geringem Widerstand leitet den Strom besser als ein Draht mit hohem Widerstand.
+Drähte aus unterschiedlichen Materialien leiten elektrischen Strom unterschiedlich gut. Als Kenngröße betrachten wir dabei den elektrischen Widerstand des Drahtes. Den Widerstand haben wir bereits im Abschnitt [sec:leiter_nichtleiter] als die Größe kennengelernt, die den Stromfluss durch einen Leiter begrenzt. Ein Draht mit geringem Widerstand leitet den Strom besser als ein Draht mit hohem Widerstand.
 
 <margin>
 [picture:713:a_leitermodell:Atome (+) und bewegliche Elektronen (-) in einem metallischen Leiter]
