@@ -21,7 +21,7 @@ $I_d = I_S \left(e^{\frac{U_d}{U_T}}-1\right)$
 
 $e$ ist die sogenannte Euler'sche Zahl ($e\approx 2,718$), $U_T$ eine Konstante, die bei Raumtemperatur etwa $\qty{26}{\milli\volt}$ beträgt.
 
-$I_S$ ist hier der *Sperrsättigungsstrom*, das ist der sehr kleine Strom, der bei negativen Spannungen durch die Diode fließt. Der Wert von $I_S$ hängt neben ein paar Parametern der Diode, wie der Diodenfläche, vor allem auch vom verwendeten Halbleitermaterial ab. Bei Materialien wie Germanium (Ge) mit einer geringen *Energiebandlücke* (darauf gehen wir in der Ausbildung für HB9 im Kapitel [sec:diode_2] näher ein) ist $I_S$ größer, bei Materialien mit größerer Energiebandlücke ist $I_S$ kleiner. 
+$I_S$ ist hier der *Sperrsättigungsstrom*, das ist der sehr kleine Strom, der bei negativen Spannungen durch die Diode fließt. Der Wert von $I_S$ hängt neben ein paar Parametern der Diode, wie der Diodenfläche, vor allem auch vom verwendeten Halbleitermaterial ab. Bei Materialien wie Germanium (Ge) mit einer geringen *Energiebandlücke* (darauf gehen wir im Abschnitt [sec:diode_2] näher ein) ist $I_S$ größer, bei Materialien mit größerer Energiebandlücke ist $I_S$ kleiner. 
 </indepth>
 
 [question:EC501]
