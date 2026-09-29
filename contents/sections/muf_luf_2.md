@@ -10,7 +10,7 @@ Wie wir auch schon wissen, ist die Reichweite der Raumwellen vom Abstrahlwinkel 
 </margin>
 
 <wordorigin>
-Die Abkürzung FOT kann man sich so merken: *F*réquence *O*ptimale de *T*rafic oder Frequency Optimum Traffic
+Die Abkürzung *FOT* kann man sich leicht so merken: *F*réquence *O*ptimale de *T*rafic oder Frequency Optimum Traffic
 </wordorigin>
 
 ---
