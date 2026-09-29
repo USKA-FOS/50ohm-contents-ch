@@ -18,9 +18,9 @@ Diese Abhängigkeit von der Tageszeit hat eine große Auswirkung auf die Ausbrei
 
 [question:AH202]
 
-*TODO: an HB anpassen*
+Ein Band, das für DX-Verbindungen eigentlich fast immer gut und zuverlässig funktioniert, ist das $\qty{20}{\meter}$-Band, das genauso wie das $\qty{40}{\meter}$-Band den HB9-ern vorbehalten ist. Für DX-Verbindungen sind Antennen, die flach abstrahlen, vorteilhaft.
 
-Ein Band, das eigentlich fast immer gut und zuverlässig funktioniert, ist das $\qty{40}{\meter}$-Band, das genauso wie das $\qty{20}{\meter}$-Band der Klasse A vorbehalten ist. Gerade für innerdeutsche Weitverbindungen, zum Beispiel von Hamburg nach München, zeigt es eine sehr verlässliche Performance.
+Gerade für innerschweizerische Verbindungen, zum Beispiel von St. Gallen nach Genève, zeigt das $\qty{80}{\meter}$-Band in den Nachtstunden und am frühen Vormittag, insbesondere bei geringer ionosphärischer Absorption, eine verlässliche Performance. Antennen, die senkrecht nach oben strahlen, sind dann vorteilhaft. Man arbeitet dabei mit einer Funktechnik, die man **Near Vertical Incidence Skywave (NVIS)** nennt.
 
 [question:AH201]
 
