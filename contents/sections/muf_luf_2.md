@@ -9,6 +9,10 @@ Wie wir auch schon wissen, ist die Reichweite der Raumwellen vom Abstrahlwinkel 
 [picture:998:e_muf_winkel2:Sprungdistanz bei 7 MHz im Sommer 2024]
 </margin>
 
+<wordorigin>
+Die Abkürzung FOT kann man sich so merken: *F*réquence *O*ptimale de *T*rafic oder Frequency Optimum Traffic
+</wordorigin>
+
 ---
 
 Von Ionosphärenmessstationen wird die so genannte kritische Frequenz $f_\text{c}$ (oder oft auch $f_\text{k}$, $f_\text{krit}$ oder $f_\text{oF2}$) gemessen. Das ist die höchste Frequenz, bei der die senkrecht in die Ionosphäre eintretende Raumwelle gerade noch reflektiert wird (Vgl. Abbildung [ref:e_muf_winkel]). Wenn wir senkrecht nach oben strahlen, unser Signal also unter einem Winkel von $\qty{90}{\degree}$ in die Ionosphäre einfällt, ist die MUF am kleinsten, denn unser Signal muss dann ja in der Ionosphäre komplett "umkehren", also eine 180° Wendung vollführen. Das bedeutet, bei $\qty{90}{\degree}$ gilt $f_\text{c} = MUF$. 
