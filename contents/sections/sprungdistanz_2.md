@@ -1,4 +1,4 @@
-Wie wir bereits in der Klasse E gelernt haben, hängt die Sprungdistanz vom gewählten Abstrahlwinkel ab. Der Abstrahlwinkel eines Dipols hängt von der Höhe über Grund ab. Je höher er montiert ist, desto flacher wird der Abstrahlwinkel, je niedriger desto steiler.
+Wie wir bereits im Abschnitt [sec:sprungdistanz_1] gelernt haben, hängt die Sprungdistanz vom gewählten Abstrahlwinkel ab. Der Abstrahlwinkel eines Dipols hängt von der Höhe über Grund ab. Je höher er montiert ist, desto flacher wird der Abstrahlwinkel, je niedriger desto steiler.
 Bei der E-Region kann mit höchstens $\qty{2000}{\kilo\meter}$ gerechnet werden, bei der F2-Region mit bis zu $\qty{4000}{\kilo\meter}$. Die Abbildung [ref:a_sprungdistanz] zeigt die Sprungdistanz durch Brechung in der F2-Region in Abhängigkeit des Winkels.
 
 <margin>
