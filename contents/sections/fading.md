@@ -8,7 +8,7 @@ Wenn sich zwei (oder mehr) Signale gleicher Frequenz überlagern, dann addieren 
 Je nach der Phasenverschiebung zwischen den Signalen spricht man von
 
 - Konstruktiver Interferenz, wenn sich die Signale gegenseitig verstärken oder von
-- Destruktiver Interferenz, wenn sich die Signale gegenseitig abschwächen oder gar auslöschen
+- Destruktiver Interferenz, wenn sich die Signale gegenseitig abschwächen oder gar auslöschen.
 
 </indepth>
 
