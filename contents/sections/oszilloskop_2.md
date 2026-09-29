@@ -1,4 +1,4 @@
-In der Klasse E haben wir gelernt, dass ein Oszilloskop den zeitlichen Verlauf von Spannungen darstellt. Wir können also mit einem Oszilloskop Signalverläufe prüfen. 
+Im Abschnitt [sec:oszilloskop_1] haben wir gelernt, dass ein Oszilloskop den zeitlichen Verlauf von Spannungen darstellt. Wir können also mit einem Oszilloskop Signalverläufe prüfen. 
 
 [question:AI301]
 
