@@ -1,4 +1,4 @@
-Mit den Grundlagen zur Ionosphäre, Sonnenfleckenaktivität und der sogenannten „Toten Zone“ haben wir uns bereits in den Prüfungsfragen im Abschnitt [sec:ionosphaere] und [sec:tote_zone_1] beschäftigt. Hier werden diese Themen nun weiter vertieft und um zusätzliche Aspekte der Wellenausbreitung ergänzt.
+Mit den Grundlagen zur Ionosphäre, Sonnenfleckenaktivität und der sogenannten „Toten Zone“ haben wir uns bereits in den Prüfungsfragen in den Abschnitten [sec:ionosphaere] und [sec:tote_zone_1] beschäftigt. Hier werden diese Themen nun weiter vertieft und um zusätzliche Aspekte der Wellenausbreitung ergänzt.
 
 Die von der Sonne kommende Strahlung schlägt Elektronen aus den Sauerstoff- und Stickstoff-Atomen und -Molekülen der Hochatmosphäre (*Ionisation*). Diese freien Elektronen werden von Funkwellen geeigneter Frequenz zum Schwingen angeregt; das führt letztlich dazu, dass diese Wellen in Richtung Erdoberfläche gebrochen werden. Wie in Abbildung [ref:e_wellenausbreitung_refraktion] zu erkennen ist, erweckt die durch Refraktion – also Brechung – verursachte Richtungsänderung der Funkwellen den Eindruck, sie würden reflektiert.
 
@@ -72,6 +72,6 @@ Zur Ionisation wird Strahlung im extremen Ultraviolett- sowie im Röntgenbereich
 Während des Aktivitätsmaximums erreicht die Sonnenaktivität ein besonders hohes Niveau und führt zu einer ausgeprägten Ionisation der F-Region. Deshalb können dann alle oberen Kurzwellenbänder und teilweise sogar das $\qty{6}{\meter}$-Band für DX-Verbindungen genutzt werden, währenddessen im Aktivitätsminimum die Frequenzbänder oberhalb des $\qty{20}{\meter}$-Bandes (z.B. $\qty{10}{\meter}$) meist nicht nutzbar sind.
 
 [question:EH205]
-Im Kapitel [sec:ionosphaere_3] werden wir noch mehr über die für unsere Kurzwellenausbreitung so wichtige Ionosphäre lernen.
+Im Abschnitt [sec:ionosphaere_3] werden wir noch mehr über die für unsere Kurzwellenausbreitung so wichtige Ionosphäre lernen.
 
 % Review abgeschlossen, passt so für mich. Vy 73 de Marc
