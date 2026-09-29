@@ -74,4 +74,3 @@ Während des Aktivitätsmaximums erreicht die Sonnenaktivität ein besonders hoh
 [question:EH205]
 Im Abschnitt [sec:ionosphaere_3] werden wir noch mehr über die für unsere Kurzwellenausbreitung so wichtige Ionosphäre lernen.
 
-% Review abgeschlossen, passt so für mich. Vy 73 de Marc
