@@ -4,10 +4,10 @@ Ein Relais ermöglicht eine größere Reichweite als dies bei direkter Verbindun
 
 Ist zum Beispiel ein Berg zwischen zwei Funkstationen, so ist es unmöglich, durch den Berg hindurchzusenden. Ein Relais auf dem Berggipfel ermöglicht es trotzdem, eine Verbindung aufzubauen, da beide Stationen das Relais direkt erreichen können.
 
-Das Bild [ref:nea_linkstrecken_antenne_Pilatus] zeigt die Montage einer Antenne für das Relais Pilatus der [UHF-Gruppe](www.hb9uf.ch) der USKA.
+Das Bild [ref:nea_linkstrecken_antenne_Pilatus] zeigt die Montage einer Antenne für das Relais Pilatus der [UHF-Gruppe](https:://www.hb9uf.ch) der USKA.
 
+</tip>
 ---
-
 <margin>
 [photo:1000:nea_linkstrecken_antenne_Pilatus:Wartungsarbeiten auf dem Pilatus,HB9DWW und HB9ZGF bei der Montage der Uplink-Antenne für das Relais Pilatus]
 </margin>
