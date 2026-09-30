@@ -21,6 +21,15 @@ Technisch kann dieser Aufbau, wie in Abbildung [ref:a_bias_t] dargestellt, mit e
 [picture:399:a_bias_t:Fernspeiseweiche (BIAS-T)]
 </margin>
 
+<wordorigin>
+
+  - LNA = *L*ow *N*oise *A*mplifier
+
+ein rauscharmer Vorverstärker,
+möglichst nahe bei der Antenne platziert
+
+</wordorigin>
+
 [question:AD323]
 
 Ein BIAS-T erkennt man daran, dass auf der einen Seite das HF-Signal zum Empfänger (RX) geführt wird, während auf der anderen Seite ein Vorverstärker oder Empfangskonverter (LNA) angeschlossen ist. Zusätzlich wird über den DC-Anschluss eine Versorgungsgleichspannung eingespeist. Diese Gleichspannung gelangt über die Induktivität auf den Innenleiter des Koaxialkabels und versorgt so den angeschlossenen LNA. Die Induktivität wirkt dabei für Hochfrequenz hochohmig, sodass das HF-Signal nicht in die Spannungsversorgung abfließt.
