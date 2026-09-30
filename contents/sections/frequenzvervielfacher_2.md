@@ -1,4 +1,4 @@
-Im Abschnitt [sec:frequenzvervielfacher_1] haben wir bereits Frequenzvervielfacher auf Blockebene kennen gelernt. In der Klasse A wollen wir verstehen, wie sie funktionieren
+Im Abschnitt [sec:frequenzvervielfacher_1] haben wir bereits Frequenzvervielfacher auf Blockebene kennen gelernt. Jetzt wollen wir verstehen, wie sie funktionieren
 
 Dioden und Transistoren besitzen eine nichtlineare Kennlinie. Werden sie mit einem sinusförmigen Signal angesteuert, wird dieses dadurch verzerrt. Wie wir bereits gelernt haben, entstehen bei solchen nichtlinearen Vorgängen Oberwellen. Bei einem Frequenzvervielfacher wird dieser Effekt gezielt genutzt: Das Eingangssignal wird zunächst nichtlinear verzerrt, sodass zahlreiche Oberwellen entstehen. Anschließend wird die gewünschte Oberwelle mit einem abgestimmten Schwingkreis oder Filter ausgewählt und als Ausgangssignal verwendet.
 
