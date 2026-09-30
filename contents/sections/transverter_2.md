@@ -1,4 +1,4 @@
-In der Klasse E haben wir bereits Konverter und Transverter kennengelernt, welche im Amateurfunk dazu eingesetzt werden, um mit vorhandenen Funkgeräten zusätzliche Frequenzbereiche zu erschließen, die diese Geräte ursprünglich nicht abdecken. Wie in Abbildung [ref:a_konverter_2] gezeigt, benötigt man hierzu einen Oszillator, einen Mischer und ein Bandfilter.  
+Im Abschnitt [sec:transverter_1] haben wir bereits Konverter und Transverter kennengelernt, welche im Amateurfunk dazu eingesetzt werden, um mit vorhandenen Funkgeräten zusätzliche Frequenzbereiche zu erschließen, die diese Geräte ursprünglich nicht abdecken. Wie in Abbildung [ref:a_konverter_2] gezeigt, benötigt man hierzu einen Oszillator, einen Mischer und ein Bandfilter.  
 
 [question:AF301]
 
