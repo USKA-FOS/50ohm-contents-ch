@@ -1,4 +1,4 @@
-Das Schaltnetzteil wurde in Klasse N und E schon einführend erklärt. Nun betrachten wir das vereinfachte Blockschaltbild genauer.
+Das Schaltnetzteil wurde im Abschnitt [sec:schaltnetzteil_1] schon einführend erklärt. Nun betrachten wir das vereinfachte Blockschaltbild genauer.
 
 <margin>
 [picture:35:a_schaltnetzteil:Prinzipschaltbild Schaltnetzteil]
