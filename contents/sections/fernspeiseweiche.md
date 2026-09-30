@@ -9,9 +9,9 @@ An den Antennen montierte, abgesetzte Vorverstärker oder Empfangskonverter ben�
 <wordorigin>
 *Begrifflichkeiten* 
 
--BIAS-T: Schaltung in T-Form, mit der eine Gleichspannung (BIAS) und ein HF-Signal gemeinsam über eine Leitung geführt bzw. voneinander getrennt werden können.
+- BIAS-T: Schaltung in T-Form, mit der eine Gleichspannung (BIAS) und ein HF-Signal gemeinsam über eine Leitung geführt bzw. voneinander getrennt werden können.
 
--BIAS = Vorspannung bzw. Gleichspannung, die einem Signal überlagert wird. In der Elektronik bezeichnet Bias allgemein eine Gleichspannung oder einen Gleichstrom zur Arbeitspunkteinstellung.
+- BIAS = Vorspannung bzw. Gleichspannung, die einem Signal überlagert wird. In der Elektronik bezeichnet Bias allgemein eine Gleichspannung oder einen Gleichstrom zur Arbeitspunkteinstellung.
 
 </wordorigin>
 
