@@ -7,10 +7,12 @@ An den Antennen montierte, abgesetzte Vorverstärker oder Empfangskonverter ben�
 [question:AD322]
 
 <wordorigin>
-BIAS-T:
-Schaltung in T-Form, mit der eine Gleichspannung (BIAS) und ein HF-Signal gemeinsam über eine Leitung geführt bzw. voneinander getrennt werden können.
+*Begrifflichkeiten* 
 
-BIAS = Vorspannung bzw. Gleichspannung, die einem Signal überlagert wird. In der Elektronik bezeichnet Bias allgemein eine Gleichspannung oder einen Gleichstrom zur Arbeitspunkteinstellung.
+-BIAS-T: Schaltung in T-Form, mit der eine Gleichspannung (BIAS) und ein HF-Signal gemeinsam über eine Leitung geführt bzw. voneinander getrennt werden können.
+
+-BIAS = Vorspannung bzw. Gleichspannung, die einem Signal überlagert wird. In der Elektronik bezeichnet Bias allgemein eine Gleichspannung oder einen Gleichstrom zur Arbeitspunkteinstellung.
+
 </wordorigin>
 
 Technisch kann dieser Aufbau, wie in Abbildung [ref:a_bias_t] dargestellt, mit einer sehr einfachen Schaltung realisiert werden. Die Fernspeiseweiche (BIAS-T) besteht neben den Anschlüssen lediglich aus zwei Kondensatoren und einer Induktivität. Diese Schaltung haben wir bereits beim MMIC kennengelernt, dessen Versorgungsspannung über den Ausgang mit einem BIAS-T eingespeist wird.
