@@ -1,4 +1,4 @@
-Wie bereits im Kapitel "Gleichrichter I" der Klasse E gezeigt, lässt eine einzelne Diode nur die positive Halbwelle durch. Damit daraus eine nutzbare Gleichspannung entsteht, wird zusätzlich mindestens ein Kondensator benötigt, der die pulsierende Ausgangsspannung glättet (siehe Schaltung [ref:a_einweggleichrichtung_c]).
+Wie bereits im Abschnitt [sec:gleichrichter_1] gezeigt, lässt eine einzelne Diode nur die positive Halbwelle durch. Damit daraus eine nutzbare Gleichspannung entsteht, wird zusätzlich mindestens ein Kondensator benötigt, der die pulsierende Ausgangsspannung glättet (siehe Schaltung [ref:a_einweggleichrichtung_c]).
 
 <margin>
 [picture:795:a_einweggleichrichtung_c:Einweggleichrichtung mit Kondensator]
