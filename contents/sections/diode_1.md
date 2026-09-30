@@ -110,7 +110,7 @@ Dioden lassen Strom nur einer Richtung fließen. Daher eignen sie sich zur Gleic
 
 Bei hohen Sperrspannungen allerdings ($U_d < U_z$), steigt der Strom in Rückwärtsrichtung stark an. Dieser Betriebspunkt kann sehr gut zur Spannungsstabilisierung genutzt werden (*Zenerdiode*).
 
-Daneben lassen sie sich in Sperrrichtung auch als spannungsgesteuerte Kapazitäten verwenden, dies werden wir aber erst in der Ausbildung zur Klasse A behandeln. 
+Daneben lassen sie sich in Sperrrichtung auch als spannungsgesteuerte Kapazitäten verwenden, dies werden wir aber erst im Abschnitt [sec:oszillator_vco] behandeln. 
 
 [question:EC502]
 [question:EC518]
