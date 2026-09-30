@@ -1,4 +1,4 @@
-**VDE nachprüfen-> helvetisieren**
+**VDE nachprüfen-> helvetisieren** IN BEARBEITUNG 
 
 Im Abschnitt [sec:uebertrager_1] haben wir bereits die Grundlagen des Transformators kennengelernt. Er besteht aus zwei Spulen, die über einen Eisen- oder Ferritkern magnetisch gekoppelt sind. Damit die Seiten auseinandergehalten werden können, spricht man von Primärseite mit der Windungszahl $N_P$ und der Sekundärseite mit der Windungszahl $N_S$.
 
@@ -32,6 +32,15 @@ Stromdichte $S = \frac{I}{A} $ in  $\unit{\ampere\per\milli\meter\squared}$
 
 <indepth>
 Nach VDE ist für frei verlegte Leiter aus Kupfer die maximal zulässige Stromstärke mit $\qty{12}{\ampere}$ bei einer Querschnittsfläche von $\qty{0,75}{\milli\meter\squared}$ festgelegt. Bei Schmelzsicherungen kann die Stromdichte bis zu $\qty{3000}{\ampere\per\milli\meter\squared}$ erreichen.
+
+Die Niederspannungs-Installationsnorm SN 411000 (NIN) regelt Elektroinstallationen in der Schweiz bis 1000 V AC bzw. 1500 V DC und dient dem Schutz von Personen, Tieren und Sachwerten. Sie basiert auf der Niederspannungs‑Installationsverordnung (NIV) und den internationalen Normen von IEC und Cenelec.
+
+Für frei verlegte Leiter aus Kupfer ist die maximal zulässige Stromstärke mit $\qty{12}{\ampere}$ bei einer Querschnittsfläche von $\qty{0,75}{\milli\meter\squared}$ festgelegt. Bei Schmelzsicherungen kann die Stromdichte bis zu $\qty{3000}{\ampere\per\milli\meter\squared}$ erreichen.
+
+**ÜBERPRÜFEN**
+
+Es sei an dieser Stelle darauf hingewiesen, dass eine Amateurfunk-Konzession nicht zum Erstellen von Niederspannungs-Installationen berechtigt. 
+
 </indepth>
 
 Versuche nun die folgende Frage zu beantworten. Dafür brauchst du die Formel für die Querschnittsfläche eines Leiters und die Formel für die Belastbarkeit von Wicklungen. Achte darauf, dass die Einheiten korrekt umgerechnet werden.
