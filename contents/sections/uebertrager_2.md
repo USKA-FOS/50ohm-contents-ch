@@ -29,8 +29,7 @@ Stromdichte $S = \frac{I}{A} $ in  $\unit{\ampere\per\milli\meter\squared}$
 </unit>
 
 <law>
-Die *
-  Niederspannungs-Installationsnorm SN 411000 (NIN) regelt Elektroinstallationen in der Schweiz bis 1000 V AC bzw. 1500 V DC und dient dem Schutz von Personen, Tieren und Sachwerten. Sie basiert auf der Niederspannungs‑Installationsverordnung (NIV) und den internationalen Normen von IEC und Cenelec.
+Die Niederspannungs-Installationsnorm SN 411000 (NIN) regelt Elektroinstallationen in der Schweiz bis 1000 V AC bzw. 1500 V DC und dient dem Schutz von Personen, Tieren und Sachwerten. Sie basiert auf der Niederspannungs‑Installationsverordnung (NIV) und den internationalen Normen von IEC und Cenelec.
 
 Für frei verlegte Leiter aus Kupfer ist die maximal zulässige Stromstärke festgelegt mit:
 
@@ -45,9 +44,9 @@ Leiter zusammengefasst unter einem Schutzmantel
 Quelle: Kupferleiter - Dimensionierung nach NIN 2000
 </law>
 
-<caution>
+<attention>
 Es sei an dieser Stelle ausdrücklich darauf hingewiesen, dass eine Amateurfunk-Konzession **nicht** zum Erstellen von Niederspannungs-Installationen berechtigt. 
-</caution>
+</attention>
 
 Versuche nun die folgende Frage zu beantworten. Dafür brauchst du die Formel für die Querschnittsfläche eines Leiters und die Formel für die Belastbarkeit von Wicklungen. Achte darauf, dass die Einheiten korrekt umgerechnet werden.
 
