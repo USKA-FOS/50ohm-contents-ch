@@ -1,4 +1,4 @@
-In der Klasse E haben wir bereits das Dezibel als Werkzeug zum Beschreiben von Verhältnissen kennengelernt und gesehen, dass eine Leistungsänderung von $\qty{3}{\dB}$ einem Leistungsfaktor von $\num{2}$ entspricht. In der Formelsammlung finden wir die Tabelle [ref:a_dezibel_leistungsfaktoren], welche weitere wichtige Entsprechungen beinhaltet. 
+Im Abschnitt [sec:dezibel_1] haben wir bereits das Dezibel als Werkzeug zum Beschreiben von Verhältnissen kennengelernt und gesehen, dass eine Leistungsänderung von $\qty{3}{\dB}$ einem Leistungsfaktor von $\num{2}$ entspricht. In der Formelsammlung finden wir die Tabelle [ref:a_dezibel_leistungsfaktoren], welche weitere wichtige Entsprechungen beinhaltet. 
 
 <margin>
 | c:dB | c:≈ Leistungsfaktor |
@@ -37,7 +37,7 @@ Mit diesen beiden Formeln können wir also leicht zwischen $\unit{\dB}$-Angaben 
 [question:AD426]
 
 <tip>
-In der Klasse E haben wir bereits folgenden Trick kennengelernt: Ganz ohne Taschenrechner lassen sich Dezibelwerte abschätzen, die auf "$0$" enden: Einfach die letzte Null zuhalten, die Ziffer gibt dann die Anzahl der Nullen des Verhältnisfaktors an. Beispiel: $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{Nullen} \rightarrow \text{Verhältnisfaktor}~1000$!
+Im Abschnitt [sec:dezibel_1] haben wir bereits folgenden Trick kennengelernt: Ganz ohne Taschenrechner lassen sich Dezibelwerte abschätzen, die auf "$0$" enden: Einfach die letzte Null zuhalten, die Ziffer gibt dann die Anzahl der Nullen des Verhältnisfaktors an. Beispiel: $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{Nullen} \rightarrow \text{Verhältnisfaktor}~1000$!
 
 Auch anders herum lässt es sich leicht berechnen: Eins mit $12$ Nullen ($\num{1000000000000}$) in $\unit{\dB}$ ist einfach die Anzahl der Nullen, also $12$, multipliziert mit $10$. Es ergibt sich so ein Verstärkungsfaktor von $\qty{120}{\dB}$.
 
