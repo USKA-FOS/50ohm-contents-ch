@@ -30,18 +30,24 @@ $I = S \cdot A_\mathrm{Dr}$
 Stromdichte $S = \frac{I}{A} $ in  $\unit{\ampere\per\milli\meter\squared}$
 </unit>
 
-<indepth>
-Nach VDE ist für frei verlegte Leiter aus Kupfer die maximal zulässige Stromstärke mit $\qty{12}{\ampere}$ bei einer Querschnittsfläche von $\qty{0,75}{\milli\meter\squared}$ festgelegt. Bei Schmelzsicherungen kann die Stromdichte bis zu $\qty{3000}{\ampere\per\milli\meter\squared}$ erreichen.
+<law>
+Die *Niederspannungs-Installationsnorm SN 411000 (NIN)* regelt Elektroinstallationen in der Schweiz bis 1000 V AC bzw. 1500 V DC und dient dem Schutz von Personen, Tieren und Sachwerten. Sie basiert auf der Niederspannungs‑Installationsverordnung (NIV) und den internationalen Normen von IEC und Cenelec.
 
-Die Niederspannungs-Installationsnorm SN 411000 (NIN) regelt Elektroinstallationen in der Schweiz bis 1000 V AC bzw. 1500 V DC und dient dem Schutz von Personen, Tieren und Sachwerten. Sie basiert auf der Niederspannungs‑Installationsverordnung (NIV) und den internationalen Normen von IEC und Cenelec.
+Für frei verlegte Leiter aus Kupfer ist die maximal zulässige Stromstärke festgelegt mit:
 
-Für frei verlegte Leiter aus Kupfer ist die maximal zulässige Stromstärke mit $\qty{12}{\ampere}$ bei einer Querschnittsfläche von $\qty{0,75}{\milli\meter\squared}$ festgelegt. Bei Schmelzsicherungen kann die Stromdichte bis zu $\qty{3000}{\ampere\per\milli\meter\squared}$ erreichen.
+- $\qty{6}{\ampere}$ bei einer Querschnittsfläche von $\qty{0,75}{\milli\meter\squared}$.
 
-**ÜBERPRÜFEN**
+- $\qty{10}{\ampere}$ bei einer Querschnittsfläche von $\qty{1.00}{\milli\meter\squared}$.
 
-Es sei an dieser Stelle darauf hingewiesen, dass eine Amateurfunk-Konzession nicht zum Erstellen von Niederspannungs-Installationen berechtigt. 
+max. Umgebungstemperatur: 30°C
+Leiter zusammengefasst unter einem Schutzmantel
 
-</indepth>
+Quelle: Kupferleiter - Dimensionierung nach NIN 2000
+</law>
+
+<caution>
+Es sei an dieser Stelle ausdrücklich darauf hingewiesen, dass eine Amateurfunk-Konzession **nicht** zum Erstellen von Niederspannungs-Installationen berechtigt. 
+</caution>
 
 Versuche nun die folgende Frage zu beantworten. Dafür brauchst du die Formel für die Querschnittsfläche eines Leiters und die Formel für die Belastbarkeit von Wicklungen. Achte darauf, dass die Einheiten korrekt umgerechnet werden.
 
