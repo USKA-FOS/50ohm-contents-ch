@@ -1,4 +1,4 @@
-In der Klasse E haben wir bereits Widerstandsnetzwerke analysiert. Die meisten Aufgaben ließen sich noch recht einfach im Kopf lösen. In der Klasse A wird dieses Thema nun weiter vertieft. Die folgenden Aufgaben erfordern mehrere Rechenschritte bis zur Lösung. Dazu zerlegt man die Aufgabe in einzelne Teilbereiche, die zunächst berechnet und anschließend zusammengeführt werden. Auf diese Weise benötigt man keine komplizierten Formeln und gelangt zuverlässig zum richtigen Ergebnis.
+Im Abschnitt [sec:reihe_parallel_widerstandsnetz_1] haben wir bereits Widerstandsnetzwerke analysiert. Die meisten Aufgaben ließen sich noch recht einfach im Kopf lösen. Hier wird dieses Thema nun weiter vertieft. Die folgenden Aufgaben erfordern mehrere Rechenschritte bis zur Lösung. Dazu zerlegt man die Aufgabe in einzelne Teilbereiche, die zunächst berechnet und anschließend zusammengeführt werden. Auf diese Weise benötigt man keine komplizierten Formeln und gelangt zuverlässig zum richtigen Ergebnis.
 
 [question:AD106]
 [question:AD107]
