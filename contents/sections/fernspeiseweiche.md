@@ -22,11 +22,11 @@ Technisch kann dieser Aufbau, wie in Abbildung [ref:a_bias_t] dargestellt, mit e
 </margin>
 
 <wordorigin>
+*weitere Begriffe*
+  
+  - LNA = *L*ow *N*oise *A*mplifier, ein rauscharmer Vorverstärker
 
-  - LNA = *L*ow *N*oise *A*mplifier
-
-ein rauscharmer Vorverstärker,
-möglichst nahe bei der Antenne platziert
+  - LNB = *L*ow *N*oise *B*lock, ein rauscharmer Vorverstärker und Downkonverter
 
 </wordorigin>
 
