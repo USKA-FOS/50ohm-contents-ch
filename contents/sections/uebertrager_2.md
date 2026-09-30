@@ -1,5 +1,3 @@
-**VDE nachprüfen-> helvetisieren** IN BEARBEITUNG 
-
 Im Abschnitt [sec:uebertrager_1] haben wir bereits die Grundlagen des Transformators kennengelernt. Er besteht aus zwei Spulen, die über einen Eisen- oder Ferritkern magnetisch gekoppelt sind. Damit die Seiten auseinandergehalten werden können, spricht man von Primärseite mit der Windungszahl $N_P$ und der Sekundärseite mit der Windungszahl $N_S$.
 
 Das Transformatorprinzip beruht auf einem grundlegenden physikalischen Effekt: der elektromagnetischen Induktion. Ändert sich das Magnetfeld in einer Spule – wie es beim Anlegen einer Wechselspannung der Fall ist – so wird in einer benachbarten, magnetisch gekoppelten Spule eine elektrische Spannung induziert. Diese ist gemäß dem Induktionsgesetz so gerichtet, dass sie der Ursache ihrer Entstehung entgegenwirkt. Man spricht daher auch von *Gegeninduktion*.
@@ -31,7 +29,8 @@ Stromdichte $S = \frac{I}{A} $ in  $\unit{\ampere\per\milli\meter\squared}$
 </unit>
 
 <law>
-Die *Niederspannungs-Installationsnorm SN 411000 (NIN)* regelt Elektroinstallationen in der Schweiz bis 1000 V AC bzw. 1500 V DC und dient dem Schutz von Personen, Tieren und Sachwerten. Sie basiert auf der Niederspannungs‑Installationsverordnung (NIV) und den internationalen Normen von IEC und Cenelec.
+Die *
+  Niederspannungs-Installationsnorm SN 411000 (NIN) regelt Elektroinstallationen in der Schweiz bis 1000 V AC bzw. 1500 V DC und dient dem Schutz von Personen, Tieren und Sachwerten. Sie basiert auf der Niederspannungs‑Installationsverordnung (NIV) und den internationalen Normen von IEC und Cenelec.
 
 Für frei verlegte Leiter aus Kupfer ist die maximal zulässige Stromstärke festgelegt mit:
 
@@ -40,6 +39,7 @@ Für frei verlegte Leiter aus Kupfer ist die maximal zulässige Stromstärke fes
 - $\qty{10}{\ampere}$ bei einer Querschnittsfläche von $\qty{1.00}{\milli\meter\squared}$.
 
 max. Umgebungstemperatur: 30°C
+
 Leiter zusammengefasst unter einem Schutzmantel
 
 Quelle: Kupferleiter - Dimensionierung nach NIN 2000
