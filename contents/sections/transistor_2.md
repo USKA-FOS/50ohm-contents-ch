@@ -1,4 +1,4 @@
-Den Bipolartransistor hatten wir bereits in den Ausbildungsunterlagen zur Klasse E diskutiert. In der Klasse A werden wir das Thema weiter vertiefen und auch noch einen weiteren Transistor betrachten.
+Den Bipolartransistor hatten wir bereits in den Ausbildungsunterlagen im Abschnitt [sec:transistor_1] diskutiert. In diesem Abschnitt werden wir das Thema weiter vertiefen und auch noch einen weiteren Transistor betrachten.
 
 Der Bipolartransistor besteht aus drei Halbleiterzonen, die abwechselnd n- und p-dotiert sind. Die Zonen bezeichnet man als Emitter, Basis und Kollektor. Beim *npn-Transistor* ist der Emitter n-, die Basis p- und der Kollektor n-dotiert. Beim pnp-Transistor ist es entsprechend ein p-Emitter, eine n-Basis und ein p-Kollektor. 
 
@@ -14,7 +14,7 @@ Dieser kleine Basisstrom bewirkt, dass aus dem Emitter viele Elektronen in die d
 
 [question:AC503]
 
-Es empfiehl sich z.B. den NPN-Transistor zu merken. Bei PNP ist dann alles umgekehrt.
+Es empfiehlt sich z.B. den NPN-Transistor zu merken. Bei PNP ist dann alles umgekehrt.
 
 [question:AC504]
 
