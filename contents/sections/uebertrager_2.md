@@ -4,7 +4,7 @@ Das Transformatorprinzip beruht auf einem grundlegenden physikalischen Effekt: d
 
 [question:AC301]
 
-In der Klasse E haben wir bereits die Formel für das Übersetzungsverhältnis $ü$ kennengelernt:
+Im Abschnitt [sec:uebertrager_1] haben wir bereits die Formel für das Übersetzungsverhältnis $ü$ kennengelernt:
 
 $ü = \frac{N_P}{N_S} = \frac{U_P}{U_S}$
 
