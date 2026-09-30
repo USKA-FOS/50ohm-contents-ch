@@ -1,5 +1,3 @@
-**IN BEARBEITUNG**
-
 Wir haben bereits gelernt, dass man unter elektrischem Strom die Bewegung von Ladungen versteht. Im Abschnitt [sec:stromkreis] haben wir dazu auch die Stromrichtung kennengelernt. Dabei handelt es sich genau genommen um eine Definition: Der Strom fließt von Plus nach Minus. Diese Definition bezeichnet man als *technische Stromrichtung*. Betrachtet man jedoch die Physik etwas genauer, zeigt sich, dass sich die eigentlichen Ladungsträger – nämlich die Elektronen – in die entgegengesetzte Richtung bewegen.
 
 <margin>
