@@ -16,16 +16,14 @@ In den meisten Stromkreisen werden die Ladungen durch negativ geladene Elektrone
 Die Ladung $e$ eines Elektrons beträgt $e = -1.602\,176\,634 \cdot 10^{-19}\ \mathrm{C}$.
 
 1 Coulomb ist die elektrische Ladung, die innerhalb einer Sekunde durch den Querschnitt eines Leiters transportiert wird, in dem ein elektrischer Strom der Stärke von einem Ampère fliesst:
-\[
-  1\ \mathrm{C} = 1\ \mathrm{A} \cdot 1\ \mathrm{s} = 1\ \mathrm{As}
-\]
 
-Das Coulomb wird daher auch als \textbf{Amperesekunde (As)} bezeichnet.
+$$1\ \mathrm{C} = 1\ \mathrm{A} \cdot 1\ \mathrm{s} = 1\ \mathrm{As}$$
 
-Vergleiche dazu die zur Kennzeichnung der Batteriekapazität übliche \textbf{Amperestunde (Ah)}:
-\[
-  1\ \mathrm{Ah} = 3600\ \mathrm{As} = 3600\ \mathrm{C}
-\]
+Das Coulomb wird daher auch als **Amperesekunde (As)** bezeichnet.
+
+Vergleiche dazu die zur Kennzeichnung der Batteriekapazität übliche **Amperestunde (Ah)**:
+
+$$1\ \mathrm{Ah} = 3600\ \mathrm{As} = 3600\ \mathrm{C}$$
 </indepth>
 
 [question:AB601]
