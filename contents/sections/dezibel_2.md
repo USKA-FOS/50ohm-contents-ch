@@ -43,7 +43,8 @@ Auch anders herum lässt es sich leicht berechnen: Eins mit $12$ Nullen ($\num{1
 
 Aber auch für $\unit{\dB}$-Werte die nicht auf $0$ enden kann man durch Zerlegung den entsprechenden Faktor ermitteln:
 
-* Man kann $\qty{9}{\dB}$ in $\qty{6}{\dB} + \qty{3}{\dB}$ zerlegen, was einer Multiplikation von $4\cdot 2 = 8$ entspricht. 
+* Man kann $\qty{9}{\dB}$ in $\qty{6}{\dB} + \qty{3}{\dB}$ zerlegen, was einer Multiplikation von $4\cdot 2 = 8$ entspricht.
+  
 * Welcher Faktor entspricht einem Leistungsverhältnis von $\qty{17}{\dB}$? $\qty{17}{\dB} = \qty{20}{\dB} - \qty{3}{\dB}$, also Faktor $100$ durch $2$ gleich $50$.
 </tip>
 
@@ -114,8 +115,11 @@ $\begin{split}g &= 10 \cdot \log_{10}\left(\frac{P_1}{P_2}\right)\\ g &= 10 \cdo
 Einige einfache Rechenregeln ermöglichen die Lösung von Dezibel-Aufgaben ohne Taschenrechner.
 
 * Der Logarithmus eines Produkts zweier Zahlen entspricht der Summe der Logarithmen: $\log_{10}(a\cdot b) = \log_{10}(a)+ \log_{10}(b)$
+  
 * Der Logarithmus einer Division zweier Zahlen entspricht der Differenz der Logarithmen: $\log_{10}(a / b) = \log_{10}(a) - \log_{10}(b)$
+  
 * Der Logarithmus einer quadrierten Zahl: $\log_{10}(x^2)= 2 \cdot \log_{10}(x)$
+  
 * Der Logarithmus einer Wurzel: $\log_{10}(\sqrt{x})= \frac{1}{2} \cdot \log_{10}(x)$
 </tip>
 
