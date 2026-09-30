@@ -8,7 +8,7 @@ Besonders wichtig ist dabei, auf die unterschiedlichen Einheiten zu achten. Vor 
 
 [question:AD103]
 
-Bei der folgenden Aufgabe sind drei Kondensatoren in Reihe geschaltet. In der Klasse E haben wir gelenrt, dass sich bei Kondensatoren in Reihenschaltung die Kehrwerte der Kapazitäten addieren:
+Bei der folgenden Aufgabe sind drei Kondensatoren in Reihe geschaltet. Im Abschnitt [sec:reihe_parallel_kondensator] haben wir gelernt, dass sich bei Kondensatoren in Reihenschaltung die Kehrwerte der Kapazitäten addieren:
 
 $\frac{1}{C_{\mathrm{ges}}} = \frac{1}{C_{1}} + \frac{1}{C_{2}} + \frac{1}{C_{3}}$
 
