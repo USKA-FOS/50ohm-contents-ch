@@ -2,7 +2,7 @@ Im Abschnitt [sec:kondensator_1] haben wir bereits die Kapazität eines Kondensa
 
 $|X_C| = \frac{1}{\omega\cdot C} = \frac{1}{2\pi\cdot f \cdot C}$
 
-In der Klasse A wollen wir dieses Verhalten nun genauer betrachten und auch erfahren, warum dieser Widerstand als "Blindwiderstand" bezeichnet wird. Zunächst müssen wir uns allerdings noch merken, dass der Blindwiderstand eines Kondensators auch negativ ist, um die folgende Frage lösen zu können: 
+Hier wollen wir dieses Verhalten nun genauer betrachten und auch erfahren, warum dieser Widerstand als "Blindwiderstand" bezeichnet wird. Zunächst müssen wir uns allerdings noch merken, dass der Blindwiderstand eines Kondensators auch negativ ist, um die folgende Frage lösen zu können: 
 
 [question:AC102]
 
