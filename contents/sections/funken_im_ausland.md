@@ -5,10 +5,9 @@ Das Abkommen der CEPT besteht aus den in der Tabelle [ref:n_funken_im_ausland_ce
 
 <margin>
 | l: CEPT-Empfehlung | X: Erläuterung |
-| ECC Report 89 | Klasse N |
 | ERC-Report 32 | Grundlage für ECC Report (05) 06 |
-| ECC-Empfehlung (05) 06 | Klasse E |
-| T/R 61-01 | Klasse A |
+| ECC-Empfehlung (05) 06 | HB3 |
+| T/R 61-01 | HB9 |
 | T/R 61-02 | HAREC |
 [table:n_funken_im_ausland_cept_empfehlungen:CEPT-Empfehlungen]
 </margin>
@@ -19,6 +18,7 @@ Das Abkommen der CEPT besteht aus den in der Tabelle [ref:n_funken_im_ausland_ce
 
 Nicht alle Mitgliedsstaaten der CEPT setzen die Regelungen zum Amateurfunk auch um. Amateurfunkbetrieb darf daher nur in den Staaten durchgeführt werden, welche die CEPT-Regelungen auch anwenden. Man darf dort keinen festen Wohnsitz haben und sich nur vorübergehend für bis zu 3 Monaten dort aufhalten.
 
+% Bittet die USKA etwas ähnliches?
 <tip>
 In der [CEPT-Länderliste](https://50ohm.de/cll) des DARC-Auslandsreferat kann für jedes Land nachgeschlagen werden, welche Regelungen dort genau gelten und zu beachten sind.
 
