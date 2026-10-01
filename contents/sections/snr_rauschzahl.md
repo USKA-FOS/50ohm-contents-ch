@@ -17,16 +17,15 @@ Laut DIN wird die in $\unit{\decibel}$ dargestellte Rauschzahl als Rauschmaß be
 
 <indepth>
 *Rauschzahl*
-
 Die Rauschzahl beschreibt, wie stark ein elektronisches Bauteil oder eine Verstärkerstufe das Signal-Rausch-Verhältnis eines Signals verschlechtert.
 
 *Erklärung*
-
 Ein Verstärker soll ein schwaches Signal verstärken. Dabei entsteht im Verstärker selbst jedoch zusätzliches Rauschen.
 
 Man vergleicht deshalb:
 
 - das Signal-Rausch-Verhältnis am Eingang und
+
 - das Signal-Rausch-Verhältnis am Ausgang.
 
 Die Rauschzahl $F$ ist definiert als
