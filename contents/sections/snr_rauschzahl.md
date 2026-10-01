@@ -20,11 +20,11 @@ Die *Rauschzahl* beschreibt, wie stark ein elektronisches Bauteil oder eine Vers
 
 Ein Verstärker soll ein schwaches Signal verstärken. Dabei entsteht im Verstärker selbst jedoch zusätzliches Rauschen.
 
-Man vergleicht deshalb:
+Man vergleicht deshalb
 
-- das Signal-Rausch-Verhältnis am Eingang und
+- das Signal-Rausch-Verhältnis am Eingang mit dem
 
-- das Signal-Rausch-Verhältnis am Ausgang.
+- Signal-Rausch-Verhältnis am Ausgang.
 
 Die Rauschzahl $F$ ist definiert als
 
@@ -38,7 +38,7 @@ Dabei gilt:
 
 *Rauschzahl in Dezibel*
 
-Die Rauschzahl wird sehr häufig logarithmisch in Dezibel angegeben:
+Die Rauschzahl (noise figure, NF) wird sehr häufig logarithmisch in Dezibel angegeben:
 
 $NF = 10 \cdot \log_{10}(F)\;\mathrm{dB}$
 </indepth>
