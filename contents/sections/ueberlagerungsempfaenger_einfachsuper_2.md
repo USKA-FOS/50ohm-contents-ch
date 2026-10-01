@@ -1,4 +1,4 @@
-Im Abschnitt [sec:ueberlagerungsempfaenger_einfachsuper_1.md] haben wir bereits den Überlagerungsempfänger kennengelernt, der mit der Zwischenfrequenz (ZF) arbeitet, wie in Abbildung [ref:a_single_super] dargestellt.
+Im Abschnitt [sec:ueberlagerungsempfaenger_einfachsuper_1] haben wir bereits den Überlagerungsempfänger kennengelernt, der mit der Zwischenfrequenz (ZF) arbeitet, wie in Abbildung [ref:a_single_super] dargestellt.
 
 Unter der *Nahselektion oder auch Trennschärfe* eines Empfängers versteht man dessen Fähigkeit, das gewünschte Empfangssignal möglichst gut von frequenzmäßig benachbarten, unerwünschten Signalen trennen zu können.
 
