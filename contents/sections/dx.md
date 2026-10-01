@@ -6,17 +6,17 @@ Ruft eine Station auf den Bändern der Kurzwelle "CQ DX", dann möchte sie Konta
 [question:BE114]
 [question:BB105]
 
-Auf höheren Frequenzen erreicht man von Deutschland aus andere Kontinente äußerst selten. Deswegen werden hier DX-Verbindungen anders definiert als auf der Kurzwelle. Auf VHF und UHF möchte man mit einem DX-Anruf andere Stationen kontaktieren, die erkennbar einige hundert Kilometer entfernt sind. 
+Auf höheren Frequenzen erreicht man von der Schweiz aus andere Kontinente äußerst selten. Deswegen werden hier DX-Verbindungen anders definiert als auf der Kurzwelle. Auf VHF und UHF möchte man mit einem DX-Anruf andere Stationen kontaktieren, die erkennbar einige hundert Kilometer entfernt sind. 
 
 [question:BB104]
 [question:BE109]
 
 Möchte man ein spezielles Land erreichen, kann anstelle von "CQ DX" auch gezielt nach dem gesuchten Landeskenner gerufen werden. So kann ein CQ-Ruf "CQ VK/ZL" lauten, um Stationen aus Australien oder Neuseeland zu rufen.
-
+% "CQ VK/ZL" falls BE110 angepasst wird
 [question:BE110]
 [question:BE113]
 
-Wer internationale Verbindungen sucht, ruft in aller Regel in englischer Sprache. Entsprechend sollte auch eine Antwort in Englisch erfolgen. DF1KW könnte beispielsweise einen englischsprachigen CQ-Ruf von EA6VQ mit "EA6VQ, this is DF1KW calling you" beantworten.
+Wer internationale Verbindungen sucht, ruft in aller Regel in englischer Sprache. Entsprechend sollte auch eine Antwort in Englisch erfolgen. HB9KW könnte beispielsweise einen englischsprachigen CQ-Ruf von EA6VQ mit "EA6VQ, this is HB9KW calling you" beantworten.
 % YPA: mit der Änderung der Frage funktioniert der Inhalt nicht mehr. Diese Fragen müsste in jede Landessprache geändert werden. Auch der Inhalt müsste immer angepasst werden. Ist das sinnvoll? Antrag: zurück zum Original (mit HB-Call)
 [question:BE104]
 
