@@ -1,4 +1,4 @@
-Im vorherigen Abschnitt haben wir die Kollektorschaltung eines bipolaren Transistors kennengelernt. In diesem Kapitel betrachten wir die *Emitterschaltung*.
+Im vorherigen Abschnitt haben wir die  [sec:kollektorschaltung] eines bipolaren Transistors kennengelernt. In diesem Abschnitt betrachten wir die *Emitterschaltung*.
 
 <margin>
 [picture:1118:a_emitter_collector:Emitter- und Kollektorschaltung mit Bezeichnugnen Basis (B), Kollektor (C) und Emitter (E)]
