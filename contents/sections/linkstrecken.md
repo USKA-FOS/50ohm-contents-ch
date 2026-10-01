@@ -3,7 +3,8 @@ In diesem Kapitel werden Grundlagen über Linkstrecken und zugehörige Vorschrif
 Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung von Amateurfunkstellen, beispielsweise Relais, Digipeatern oder HAMNET-Knoten, dient. Linkstrecken können Bestandteil unbedienter Amateurfunkanlagen sein. Der Betrieb solcher Anlagen ist dem BAKOM entsprechend den geltenden [Vorschriften](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) zu melden. Für eine unbediente Amateurfunkanlage ist ein Amateurfunkrufzeichen der Kategorie HB9 erforderlich. Der technische Leiter muss während des Betriebs permanent erreichbar sein.
 
 <margin>
-[photo:127:n_linkstrecken_db0fc:Wartungsarbeiten am HAMNET-Knoten DB0FC, im Vordergrund die Richtantenne für die Linkstrecke zu DB0BWL]
+%[photo:127:n_linkstrecken_db0fc:Wartungsarbeiten am HAMNET-Knoten DB0FC, im Vordergrund die Richtantenne %für die Linkstrecke zu DB0BWL]
+[photo:1001:n_linkstrecken_HB9AK-14:Wartungsarbeiten am HAMNET-Knoten HB9AK-14 auf dem Titlis] 
 </margin>
 
 <law>
