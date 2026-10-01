@@ -28,10 +28,13 @@ Zudem unterliegen gewisse Frequenzen *speziellen* Nutzungsbestimmungen. So gibt 
 
 [question:VN008]
 
-% TODO: Bild ersetzen - Issues #13 eröffnet - Will man da übehaupt ein Bild hinsetzen, welches "gewartet" werden muss? Zumal es ja 2 Seiten wären. Will man evtl nur einen als solchen erkennbaren Ausschnitt abbilden? 
-<webmargin>
-[photo:99:n_frequenzbereiche_afuv_anlage_1:Tabellarische Übersicht, Anlage 1, AFuV]
-</webmargin>
+<margin>
+[photo:1004:hb9_frequenzen:HB9-Frequenzen]
+</margin>
+
+<margin>
+[photo:1005:fussnoten_zu_frequenzen:Fussnoten zu HB9-Frequenzen]
+</margin>
 
 ---
 Für einige Frequenzen bedarf es vor der Benutzung gar einer Meldung an das BAKOM. Diese muss über das vom BAKOM bestimmte System elektronisch übermittelt werden.
