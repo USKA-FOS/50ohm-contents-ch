@@ -12,6 +12,7 @@ Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung 
 <margin>
 ** NUR ZUM TEST - WIRD WIEDER ENTFERNT **
 [photo:1004:hb9_frequenzen:HB9-Frequenzen]
+[photo:1005:fussnoten_zu_frequenzen:Fussnoten zu HB9-Frequenzen]
 </margin>
 
 
