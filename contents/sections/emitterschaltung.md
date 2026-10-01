@@ -12,7 +12,7 @@ Fassen wir kurz die Eigenschaften der Kollektor und Emitterschaltung in folgende
 | Ausgangsimpedanz | hoch | niedrig |
 </margin>
 
-Wie wir im vorherigen Kapitel gelernt haben richtet sich die Bezeichnung der Grundschaltungen eines bipolaren Transistors nach dem Anschluss, der weder als Eingang noch als Ausgang der Schaltung dient und damit den gemeinsamen Bezugspunkt für den Eingangs- und den Ausgangskreis bildet. Bei der Emitterschaltung ist dies der Emitter. 
+Wie wir im vorherigen Abschnitt gelernt haben richtet sich die Bezeichnung der Grundschaltungen eines bipolaren Transistors nach dem Anschluss, der weder als Eingang noch als Ausgang der Schaltung dient und damit den gemeinsamen Bezugspunkt für den Eingangs- und den Ausgangskreis bildet. Bei der Emitterschaltung ist dies der Emitter. 
 
 ---
 
