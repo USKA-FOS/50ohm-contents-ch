@@ -2,7 +2,7 @@ Kurzwellenempfänger können durch starke Signale schnell übersteuert werden, i
 
 ---
 
-Um dies zu vermeiden können bei Transceivern sog. Abschwächer (auch *Attenuator* genannt) zugeschaltet werden. Diese dämpfen die Eingangssignale um einen vorgegebenen Wert, so dass der Empfängereingang nicht mehr übersteuert wird. Der Einfluss unerwünschter starker Signale auf schwächere Nutzsignale wird durch den Abschwächer stark verringert. Abbildung [ref:e_daempfungsglied] zeigt ein externes Dämpfungsglied. Die Abbildung [ref:e_att_blockschaltbild] zeigt die Blocksymbole der Dämpfungsglieder. Hier gibt es eine sogenannte T- und $\pi$-Variante. Die genaue Schaltung lernen wir in der Klasse A kennen. 
+Um dies zu vermeiden können bei Transceivern sog. Abschwächer (auch *Attenuator* genannt) zugeschaltet werden. Diese dämpfen die Eingangssignale um einen vorgegebenen Wert, so dass der Empfängereingang nicht mehr übersteuert wird. Der Einfluss unerwünschter starker Signale auf schwächere Nutzsignale wird durch den Abschwächer stark verringert. Abbildung [ref:e_daempfungsglied] zeigt ein externes Dämpfungsglied. Die Abbildung [ref:e_att_blockschaltbild] zeigt die Blocksymbole der Dämpfungsglieder. Hier gibt es eine sogenannte T- und $\pi$-Variante. Die genaue Schaltung lernen wir im Abschnitt  [sec:daempfungsglieder] kennen. 
 
 <margin>
 [photo:199:e_daempfungsglied:Ein Dämpfungsglied]
