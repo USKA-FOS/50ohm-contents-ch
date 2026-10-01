@@ -37,9 +37,10 @@ Man muss wissen, dass es Staaten gibt, die dieser Konferenz nicht angehören, ab
 
 Wenn man im Ausland funkt, muss das mit einem zusätzlichen Rufzeichenpräfix gekennzeichnet werden. Nehmen wir beispielsweise an, die Funkamateure mit den Rufzeichen DO7PR und DL9MJ reisen in die Schweiz und wollen dort funken. Abhängig von der Klasse muss in der Schweiz ein anderer Präfix verwendet werden, *HB3* für die Klasse E und *HB9* für die Klasse A. In der Schweiz müssen die beiden Funkamateure also die Rufzeichen *HB3/DO7PR* bzw. *HB9/DL9MJ* verwenden. In anderen Ländern gibt es ähnliche Regelungen. Welcher Präfix jeweils verwendet werden muss, ist von Land zu Land unterschiedlich. 
 
-<margin>
+
+<attention>
 Die Trennung zwischen dem ausländischen Präfix und dem eigenen Rufzeichen soll durch das Wort „stroke“ erfolgen!
-</margin>
+</attention>
 
 [question:BD213]
 [question:BD214]
