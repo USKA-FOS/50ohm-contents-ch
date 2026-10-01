@@ -1,4 +1,4 @@
-Wie wir bereits in den Klassen N und E gelernt haben, befindet sich bei der Frequenzmodulation die Information des modulierenden Signals nicht in der Amplitude, sondern nur in der Frequenzänderung des Trägersignals. Daher müssen nur die Nulldurchgänge des Trägersignals im Empfänger ausgewertet werden. 
+Wie wir bereits im Abschnitt [sec:fm_2] gelernt haben, befindet sich bei der Frequenzmodulation die Information des modulierenden Signals nicht in der Amplitude, sondern nur in der Frequenzänderung des Trägersignals. Daher müssen nur die Nulldurchgänge des Trägersignals im Empfänger ausgewertet werden. 
 
 Amplitudenschwankungen werden durch einen Begrenzerverstärker hierbei ausgeblendet. Daher ist Frequenzmodulation systembedingt unempfindlich gegenüber impulsförmigen Störungen der Amplitude, die z.B. durch Zündfunken, Elektromotoren o.ä. hervorgerufen werden. FM eignet sich daher gut für den Betrieb in Kraftfahrzeugen.
 
