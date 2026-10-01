@@ -27,7 +27,7 @@ Technisch kann dieser Aufbau, wie in Abbildung [ref:a_bias_t] dargestellt, mit e
   - LNA = *L*ow *N*oise *A*mplifier, ein rauscharmer Vorverstärker
 
   - LNB = *L*ow *N*oise *B*lock, ein rauscharmer Vorverstärker und Downkonverter
-    Der LNB wird ausführlich im Abschnitt [sec:XXXXX] behandelt. 
+    Der LNB wird ausführlich im Abschnitt [sec:low_noise_block] behandelt. 
 
 </wordorigin>
 
