@@ -12,6 +12,7 @@ Am Ausgang entstehen dadurch neben dem ursprünglichen HF-Träger zwei Seitenbä
 Die folgende Simulation zeigt die Funktionsweise des AM-Modulators, die Werte wurden so gewählt, dass die HF und NF gut zu erkennen sind. Die NF liegt bei $\qty{500}{\hertz}$, die HF bei $\qty{10}{\kilo\hertz}$. Die Amplitude des HF-Signals wird im Takt der NF verändert. Der Schwingkreis ist auf die Trägerfrequenz abgestimmt und unterdrückt unerwünschte Frequenzanteile. Wenn man den Schwingkreis entfernt, sieht man eine Vielzahl von Mischprodukten. Auch kann man mal die NF-Frequenz auf $\qty{1}{\kilo\hertz}$ umstellen, um zu sehen, wie sich die Seitenbänder verschieben.
 
 [include:applet_am_modulator]
+
 </webonly>
 
 <indepth>
