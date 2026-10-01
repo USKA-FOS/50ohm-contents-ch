@@ -15,7 +15,7 @@ An den Antennen montierte, abgesetzte Vorverst채rker oder Empfangskonverter ben�
 
 </wordorigin>
 
-Technisch kann dieser Aufbau, wie in Abbildung [ref:a_bias_t] dargestellt, mit einer sehr einfachen Schaltung realisiert werden. Die Fernspeiseweiche (BIAS-T) besteht neben den Anschl체ssen lediglich aus zwei Kondensatoren und einer Induktivit채t. Diese Schaltung haben wir bereits beim MMIC kennengelernt, dessen Versorgungsspannung 체ber den Ausgang mit einem BIAS-T eingespeist wird.
+Technisch kann dieser Aufbau, wie in Abbildung [ref:a_bias_t] dargestellt, mit einer sehr einfachen Schaltung realisiert werden. Die Fernspeiseweiche (BIAS-T) besteht neben den Anschl체ssen lediglich aus zwei Kondensatoren und einer Induktivit채t. Diese Schaltung haben wir bereits beim MMIC im Abschnitt [sec:integrierte_schaltung] kennengelernt, dessen Versorgungsspannung 체ber den Ausgang mit einem BIAS-T eingespeist wird.
 
 <margin>
 [picture:399:a_bias_t:Fernspeiseweiche (BIAS-T)]
