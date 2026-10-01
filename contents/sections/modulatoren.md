@@ -1,3 +1,6 @@
+** APPLETS LAUFEN NICHT**
+
+
 Dioden haben wir bereits in verschiedenen Schaltungen kennengelernt. Nun betrachten wir, wie ihre nichtlineare Kennlinie genutzt werden kann, um ein hochfrequentes Trägersignal mit einem niederfrequenten Nutzsignal zu modulieren.
 
 Werden ein HF-Signal und ein NF-Signal gemeinsam, wie in Abbildung [ref:a_am_modulator] gezeigt, einer Diode zugeführt, beeinflusst die NF-Spannung die Leitfähigkeit der Diode. Dadurch wird das HF-Signal abhängig vom momentanen Wert der NF unterschiedlich stark übertragen. Seine Amplitude verändert sich somit im Takt des NF-Signals.
