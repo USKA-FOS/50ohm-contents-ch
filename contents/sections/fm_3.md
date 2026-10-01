@@ -20,7 +20,7 @@ Die Modulationsfrequenz beeinflusst hierbei, wie häufig sich die Frequenz des O
 
 [question:AE301]
 
-Im Abschnitt [sec:xxxxx] haben wir bereits den *Frequenzhub* kennengelernt. Er gibt an, um welchen Betrag die momentane Frequenz des FM-Signals durch das modulierende Signal gegenüber der Trägerfrequenz ausgelenkt wird. Je größer die Amplitude des modulierenden Signals ist, desto größer ist auch diese Frequenzauslenkung.
+Im Abschnitt [sec:fm_2] haben wir bereits den *Frequenzhub* kennengelernt. Er gibt an, um welchen Betrag die momentane Frequenz des FM-Signals durch das modulierende Signal gegenüber der Trägerfrequenz ausgelenkt wird. Je größer die Amplitude des modulierenden Signals ist, desto größer ist auch diese Frequenzauslenkung.
 
 Bei der Demodulation im FM-Empfänger wird diese Frequenzauslenkung wieder in eine entsprechende Amplitude des demodulierten Signals umgesetzt. Ein größerer Frequenzhub führt daher bei ansonsten gleichen Bedingungen zu einer größeren Amplitude des demodulierten NF-Signals.
 
