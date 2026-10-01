@@ -17,7 +17,7 @@ Möchte man ein spezielles Land erreichen, kann anstelle von "CQ DX" auch geziel
 [question:BE113]
 
 Wer internationale Verbindungen sucht, ruft in aller Regel in englischer Sprache. Entsprechend sollte auch eine Antwort in Englisch erfolgen. DF1KW könnte beispielsweise einen englischsprachigen CQ-Ruf von EA6VQ mit "EA6VQ, this is DF1KW calling you" beantworten.
-
+% YPA: mit der Änderung der Frage funktioniert der Inhalt nicht mehr. Diese Fragen müsste in jede Landessprache geändert werden. Auch der Inhalt müsste immer angepasst werden. Ist das sinnvoll? Antrag: zurück zum Original (mit HB-Call)
 [question:BE104]
 
 Wenn man feststellt, dass der eigene "CQ DX"-Ruf lange Zeit unbeantwortet bleibt, wäre es eine gute Möglichkeit, einfach auf einen normalen CQ-Ruf zu wechseln und Kontakt zu Stationen aus der Umgebung aufzunehmen.
