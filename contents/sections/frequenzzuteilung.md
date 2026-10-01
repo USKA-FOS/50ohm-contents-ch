@@ -22,7 +22,7 @@ Auch wenn die Frequenzbereiche international vereinbart werden, sind ausschließ
 ---
 
 <margin>
-[photo:1005:Legende_zu_Verweiszeichen:Legende zu Verweiszeichen]
+[photo:1005:Legende_zu_Verweiszeichen:Legende zu den Verweiszeichen]
 </margin>
 
 Der Anhang 4 besteht aus zwei Tabellen. Die eine Tabelle gilt für die Amateurfunkzulassung (HB9), die andere Tabelle gilt für die Amateurfunkzulassung NOVICE (HB3). Zu beiden Listen gibt es eine Legende, welche die in der Tabelle verwendeten hochgestellten Verweiszeichen erläutert die die speziellen Nutzungsbestimmungen kennzeichnen.
@@ -55,6 +55,7 @@ Weil in Artikel 6 der VVNF definiert ist, wer diese Frequenzen nutzen darf und d
 Das BAKOM bezeichnet den "Anhang 4" auch als "Hilfstabelle". Dies weil diese Tabelle an der Prüfung ausgeteilt wird und zur Beantwortung der Fragen benutzt werden darf. Man muss folglich die genauen Nutzungsbestimmungen nicht auswendig können, sondern nur die Tabelle richtig interpretieren können. Mit der "Hilfstabelle" können die folgenden Fragen beanwortet werden.
 
 % der folgende Satz muss spätestens mit den zuküntigen Bedingungen hier stehen: Es ist zu beachten, dass dies nur Musterfragen sind, damit man eine Vorstellung hat, wie solche Fragen aussehen könnten. An der Prüfung können auch Fragen zu anderen Frequenzen oder Nutzungsbedingungen gestellt werden.
+% Alternative: Den Satz heute schon platzieren, dafür nur noch 3-4 Fragen hier und im Katalog haben.
 
 % Fragen dieser Art (DL-VD727-737) sind in DL in 14.7. Entscheid EXR/YPA, dass hier sinnvoller und stimmiger
 [question:VO004]
