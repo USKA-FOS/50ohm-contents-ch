@@ -1,4 +1,4 @@
-In den Lektionen der Klassen N und E haben wir bereits typische Beeinflussungen elektronischer Geräte und Anlagen kennengelernt – etwa durch direkte Einstrahlung in das Gehäuse oder durch Einkopplung in Zuleitungen – sowie passende Gegenmaßnahmen und Verhaltensweisen. In der Klasse A werden diese Aspekte noch etwas weiter vertieft. 
+In den Abschnitten [sec:stoerungen_elektronischer_geraete_1] und **??????** haben wir bereits typische Beeinflussungen elektronischer Geräte und Anlagen kennengelernt – etwa durch direkte Einstrahlung in das Gehäuse oder durch Einkopplung in Zuleitungen – sowie passende Gegenmaßnahmen und Verhaltensweisen. In diesem Abschnitt werden diese Aspekte noch etwas weiter vertieft. 
 
 [question:AJ105]
 
