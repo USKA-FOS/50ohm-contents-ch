@@ -52,7 +52,7 @@ Damit störende Beeinflussungen von Geräten vermieden werden, sollte ein Funkam
 [question:EJ104]
 [question:EJ105]
 
-Treten in einer Empfangsanlage mehrere starke Empfangssignale gleichzeitig auf (z.B. durch den Empfang eines lokalen TV-Senders und einer starken Amateurfunkstation in der Nachbarschaft) können im Empfänger unerwünschte Harmonische und deren Mischprodukte durch die Übersteuerung der Empfangsstufen des Empfängers entstehen. Dies nennt man *Intermodulation*. Durch Intermodulation werden *Phantomsignale* hervorgerufen, die nur bei Vorhandensein der beteiligten Signale entstehen.
+Treten in einer Empfangsanlage mehrere starke Empfangssignale gleichzeitig auf (z.B. durch den Empfang eines lokalen Senders eines anderen Funkdienstes und einer starken Amateurfunkstation in der Nachbarschaft) können im Empfänger unerwünschte Harmonische und deren Mischprodukte durch die Übersteuerung der Empfangsstufen des Empfängers entstehen. Dies nennt man *Intermodulation*. Durch Intermodulation werden *Phantomsignale* hervorgerufen, die nur bei Vorhandensein der beteiligten Signale entstehen.
 
 [question:EJ120]
 
