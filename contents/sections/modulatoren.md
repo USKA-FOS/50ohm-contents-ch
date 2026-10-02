@@ -1,5 +1,6 @@
-** APPLETS LAUFEN NICHT**
-
+**APPLETS LAUFEN NICHT**
+**applet_am_modulator und applet_dsp**
+**Bei uns fehlt in /assets das circuitjs/..**
 
 Dioden haben wir bereits in verschiedenen Schaltungen kennengelernt. Nun betrachten wir, wie ihre nichtlineare Kennlinie genutzt werden kann, um ein hochfrequentes Trägersignal mit einem niederfrequenten Nutzsignal zu modulieren.
 
