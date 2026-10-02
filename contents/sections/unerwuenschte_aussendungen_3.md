@@ -1,4 +1,4 @@
-In der Klasse E haben wir bereits unerwünschte Aussendungen in Form von *Oberwellen* und *Nebenaussendungen* kennengelernt. Oberwellen bzw. Harmonische eines Signals entstehen immer, wenn sich Abweichungen von der idealen Sinus-Kurve bilden und sind immer ganzzahlige Vielfache der Grundfrequenz, wie in Abbildung [ref:a_harmonische] dargestellt.
+In den Abschnitten [sec:unerwuenschte_aussendungen_1] und [sec:unerwuenschte_aussendungen_2] haben wir bereits unerwünschte Aussendungen in Form von *Oberwellen* und *Nebenaussendungen* kennengelernt. Oberwellen bzw. Harmonische eines Signals entstehen immer, wenn sich Abweichungen von der idealen Sinus-Kurve bilden und sind immer ganzzahlige Vielfache der Grundfrequenz, wie in Abbildung [ref:a_harmonische] dargestellt.
 
 Ein Beispiel zeigt die folgende Prüfungsfrage: Wird ein Verstärker übersteuert, werden die Spitzen der Amplitude des Sinussignals begrenzt – dadurch entstehen Oberwellen.
 
