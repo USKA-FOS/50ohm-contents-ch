@@ -20,7 +20,7 @@ Ein *Zweitonsignal* ist für die Leistungs- und Linearitätsmessung eines SSB-Se
 
 ---
 
-Die PEP beschreibt dabei die Spitzenleistung des Senders unter normalen Betriebsbedingungen: Sie ist die Leistung, die der Sender während einer Periode der Hochfrequenzschwingung an der höchsten Spitze der Modulationshüllkurve (vgl. Abbildung [ref:e_senderausgangsleisung_2]) im Mittel an einen reellen Abschlusswiderstand abgeben kann. Wie die PEP exakt misst – beispielsweise mithilfe eines Oszilloskops – werden wir erst in der Klasse A genauer behandeln.
+Die PEP beschreibt dabei die Spitzenleistung des Senders unter normalen Betriebsbedingungen: Sie ist die Leistung, die der Sender während einer Periode der Hochfrequenzschwingung an der höchsten Spitze der Modulationshüllkurve (vgl. Abbildung [ref:e_senderausgangsleisung_2]) im Mittel an einen reellen Abschlusswiderstand abgeben kann. Wie die PEP exakt misst – beispielsweise mithilfe eines Oszilloskops – werden wir erst im Abschnitt [sec:sender_messungen] genauer behandeln.
 
 <margin>
 [picture:875:e_senderausgangsleisung_2:Höchste Spitze der Modulationshüllkurve]
