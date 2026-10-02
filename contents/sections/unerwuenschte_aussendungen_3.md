@@ -29,6 +29,7 @@ Bei der Betrachtung von Vielfachen der Grundfrequenz eines Signals unterscheiden
 <tip>
 Der UKW-Rundfunk ist der "klassische" Rundfunk auf Ultrakurzwelle (UKW). Die Ausstrahlung von Radioprogrammen erfolgt im Frequenzbereich von $\qtyrange{87,6}{107,9}{\mega\hertz}$.
 </tip>
+%TODO: Helvetisierung 
 
 Sollen bestimmte Oberwellen oder Harmonische eines Signals einzeln unterdrückt werden, so kann dies neben des klassischen Oberwellenfilters (Tiefpass) auch durch sog. *Sperrkreise* erfolgen. Ein Sperrkreis unterdrückt genau eine Frequenz maximal und lässt ansonsten alle anderen nahezu ungehindert passieren.
 
@@ -37,6 +38,7 @@ Sollen bestimmte Oberwellen oder Harmonische eines Signals einzeln unterdrückt 
 ---
 
 Laut Amateurfunkverordnung (AFuV) sind unerwünschte Aussendungen auf das geringstmögliche Maß zu beschränken. Die [Verfügung 33](https://50ohm.de/vfg33) von 2007 legt allerdings genaue Grenzwerte fest, welche durch den Funkamateur aber auch von Herstellern kommerzieller Geräte beachtet werden müssen.
+%TODO: Helvetisierung 
 
 <margin>
 [photo:319:a_vfg33:Auszug aus der Verfügung 33 von 2007]
