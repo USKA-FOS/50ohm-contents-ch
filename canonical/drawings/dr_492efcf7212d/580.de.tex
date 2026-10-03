@@ -151,10 +151,10 @@
 	\draw[very thick] (0,4) -- (\darclw, 4);
 	\draw[very thick] (0,2) -- (\darclw, 2);
 
-	\swr{0.650*\darclw}{4.75}{0.950*\darclw}{4.75+1.5*\dist}{\swrval}{\ifthenelse{\boolean{labels}}{}{SWR}};
-	\pwr{0.050*\darclw}{4.75}{0.550*\darclw}{4.75+1.5*\dist}{\pwrval};
-	\vol{0.650*\darclw}{6.50}{0.950*\darclw}{6.50+1.5*\dist}{\volval};
-	\qrg{0.050*\darclw}{7.00};
+	\swr{0.650*\darclw}{4.75}{0.950*\darclw}{4.75+1.5*\dist}{\swrval}{\ifthenelse{\boolean{labels}}{}{SWR}}
+	\pwr{0.050*\darclw}{4.75}{0.550*\darclw}{4.75+1.5*\dist}{\pwrval}
+	\vol{0.650*\darclw}{6.50}{0.950*\darclw}{6.50+1.5*\dist}{\volval}
+	\qrg{0.050*\darclw}{7.00}
 	\mdl{USB}{\ifthenelse{\boolean{tx}}{TX}{RX}};
 
 	\ifthenelse{\boolean{tx}}{ }{%
