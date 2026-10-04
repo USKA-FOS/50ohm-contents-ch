@@ -2,7 +2,9 @@ Ein Relais ermöglicht eine größere Reichweite als dies bei direkter Verbindun
 
 Aufbau und Funktion eines terrestrischen Relais sind im Bild [ref:n_relaisfunkstellen_aufbau] schematisch dargestellt. Senden und Empfangen erfolgt auf unterschiedlichen Frequenzen. Das Zahlenbeispiel stammt vom Relais auf dem Üetliberg.
 
+<margin>
 [picture:648:n_relaisfunkstellen_aufbau:Schematische Darstellung einer Relaisfunkstelle mit Nutzern]
+</margin>
 
 Ist zum Beispiel ein Berg zwischen zwei Funkstationen, so ist es unmöglich, durch den Berg hindurchzusenden. Ein Relais auf dem Berggipfel ermöglicht es trotzdem, eine Verbindung aufzubauen, da beide Stationen das Relais direkt erreichen können.
 
@@ -13,7 +15,7 @@ Das Bild [ref:nea_linkstrecken_antenne_Pilatus] zeigt die Montage einer Uplink-A
 ---
 
 <margin>
-[photo:1000:nea_linkstrecken_antenne_Pilatus:Wartungsarbeiten auf dem Pilatus,HB9DWW und HB9ZGF bei der Montage der "Echolink" Uplink-Antenne für das Relais Pilatus]
+[photo:1000:nea_linkstrecken_antenne_Pilatus:Wartungsarbeiten auf dem Campus Windisch,HB9DWW und HB9ZGF bei der Montage der "Echolink" Uplink-Antenne für das Relais Pilatus]
 </margin>
 
 ---
