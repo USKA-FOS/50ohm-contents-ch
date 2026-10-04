@@ -1,4 +1,4 @@
-In der Klasse N haben wir bereits gelernt, dass Remotebetrieb nur für Funkamateure der Klasse A erlaubt ist. Deshalb wollen wir hier nun einige technische Aspekte des Remotebetriebs betrachten, welche für das Betreiben und Benutzen einer Remote-Station relevant sind. 
+Im Abschnitt [sec:remote__stationen] haben wir bereits die formalen Voraussetzungen für die Inbetriebname und Verwendung einer fernbedienten Amateurfunkanlage kennengelernt. In diesem Abschnitt wollen wir einige technische Aspekte des Remotebetriebs betrachten, welche für das Betreiben und Benutzen einer Remote-Station relevant sind. 
 
 Eine Station für Remote-Betrieb besteht aus mehreren voneinander logisch trennbaren Funktionsblöcken. Hierbei können bei modernen Geräten auch Teile dieser Funktionsblöcke in einem Gerät integriert sein (z.B. Transceiver mit Netzwerkanschluss und Remote-Interface).
 
