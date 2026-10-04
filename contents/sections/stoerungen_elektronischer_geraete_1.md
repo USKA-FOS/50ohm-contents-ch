@@ -12,9 +12,9 @@ Beim Betrieb von Sendern – insbesondere von leistungsstarken Sendern – kann 
 <indepth>
 Man unterscheidet:
   
-- Leitungsgebundene Störungen – sie werden über elektrische Leitungen (z. B. Netz-, Signal- oder Datenleitungen) übertragen.
+- *Leitungsgebundene Störungen* – sie werden über elektrische Leitungen (z. B. Netz-, Signal- oder Datenleitungen) übertragen.
   
-- Feldgebundene (oder gestrahlte) Störungen – sie breiten sich als elektromagnetische Wellen durch den freien Raum aus.
+- *Feldgebundene (oder gestrahlte) Störungen* – sie breiten sich als elektromagnetische Wellen durch den freien Raum aus.
   
 </indepth>
 
