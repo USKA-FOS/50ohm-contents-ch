@@ -22,7 +22,7 @@ Die Anzahl der möglichen Symbole und die Symbolrate sind damit wichtige Größe
 
 ---
 
-Ein einfaches Beispiel dafür, wie unterschiedliche Symbole durch verschiedene Signalzustände dargestellt werden können, ist die bereits aus Klasse E bekannte *Frequenzumtastung* (*Frequency-Shift Keying*, FSK).
+Ein einfaches Beispiel dafür, wie unterschiedliche Symbole durch verschiedene Signalzustände dargestellt werden können, ist die bereits im Abschnitt [sec:ask_fsk_afsk] bekannte *Frequenzumtastung* (*Frequency-Shift Keying*, FSK).
 
 Bei FSK wird die Frequenz des ausgesendeten Signals zwischen verschiedenen Werten umgeschaltet. Die Abbildung [ref:a_fsk] zeigt eine binäre FSK mit zwei möglichen Symbolfrequenzen in der Zeitdarstellung. Beispielsweise kann die höhere Frequenz für das Symbol $1$ und die niedrigere Frequenz für das Symbol $0$ stehen. Da zwei verschiedene Symbole zur Verfügung stehen, kann mit jedem Symbol ein Bit übertragen werden.
 
