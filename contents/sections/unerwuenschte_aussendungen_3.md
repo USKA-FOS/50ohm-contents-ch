@@ -28,6 +28,7 @@ Bei der Betrachtung von Vielfachen der Grundfrequenz eines Signals unterscheiden
 
 <tip>
 Der UKW-Rundfunk ist der "klassische" Rundfunk auf Ultrakurzwelle (UKW). Die Ausstrahlung von Radioprogrammen erfolgt im Frequenzbereich von $\qtyrange{87,6}{107,9}{\mega\hertz}$.
+In der Schweiz sollen die UKW-Sender entgegen früherer Pläne in beschränktem Umfang weiterbetrieben werden.
 </tip>
 %TODO: Helvetisierung 
 
