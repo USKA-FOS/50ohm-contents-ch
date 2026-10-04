@@ -1,6 +1,6 @@
 I radioamatori sono legalmente obbligati a rispettare determinati limiti di potenza per i loro impianti radio. In particolare, riveste grande importanza la potenza di uscita del trasmettitore e l’evitare emissioni indesiderate – su queste ultime ci occuperemo nel prossimo capitolo. In questo capitolo ci concentreremo invece sulla potenza di uscita del trasmettitore.
 
-In molte bande radioamatoriali assegnate primariamente al servizio radioamatoriale, il valore limite rilevante è la potenza massima di uscita del trasmettitore – in inglese *Peak Envelope Power* (abbreviato in PEP). Le specifiche precise della potenza sono disponibili nel [Regolamento UFCOM sull’utilizzo dello spettro delle frequenze radio (VVNF)](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf) sul sito web dell’UFCOM.
+In molte bande radioamatoriali assegnate primariamente al servizio radioamatoriale, il valore limite rilevante è la potenza massima di uscita del trasmettitore – in inglese *Peak Envelope Power* (abbreviato in PEP). Le specifiche precise della potenza sono disponibili nell’[ordinanza dell’UFCOM sull’utilizzazione dello spettro delle radiofrequenze (OUUS)](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf) sul sito web dell’UFCOM.
 
 ---
 

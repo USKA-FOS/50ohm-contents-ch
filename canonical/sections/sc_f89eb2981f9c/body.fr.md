@@ -1,7 +1,7 @@
 Les radioamateurs sont tenus par la loi de respecter certaines limites de puissance pour leurs installations radio. Il est particulièrement important de respecter la puissance de sortie de l'émetteur et d'éviter les émissions non désirées – nous aborderons ces dernières dans le prochain chapitre. Dans ce chapitre, nous nous concentrons d'abord sur la puissance de sortie de l'émetteur.
 
 
-Sur de nombreuses bandes radioamateur attribuées en priorité au radioamateurisme, la puissance maximale de sortie de l'émetteur – appelée Peak Envelope Power (PEP) en anglais – constitue la limite déterminante. Les valeurs de puissance exactes sont précisées dans l'[Ordonnance de l'OFCOM sur l'utilisation du spectre des fréquences radio (OUSF)](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf) disponible sur le site web de l'OFCOM.
+Sur de nombreuses bandes radioamateur attribuées en priorité au radioamateurisme, la puissance maximale de sortie de l'émetteur – appelée Peak Envelope Power (PEP) en anglais – constitue la limite déterminante. Les valeurs de puissance exactes sont précisées dans l'[Ordonnance de l'OFCOM sur l'utilisation du spectre des fréquences de radiocommunication (OOUS)](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf) disponible sur le site web de l'OFCOM.
 
 
 ---

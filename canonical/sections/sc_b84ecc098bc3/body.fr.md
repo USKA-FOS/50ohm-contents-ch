@@ -8,11 +8,11 @@ En outre, il est en principe interdit de transmettre des messages en provenance 
 
 ---
 <law>
-Le texte intégral de la loi est disponible dans l’[article 42, alinéa 2, lettre b de l’ordonnance sur l’utilisation du spectre des fréquences radioélectriques (VNF)](https://www.fedlex.admin.ch/eli/cc/2020/1024/fr#art_47)
+Le texte intégral de la loi est disponible dans l’[article 42, alinéa 2, lettre b de l’ordonnance sur l'utilisation du spectre des fréquences de radiocommunication (OUS)](https://www.fedlex.admin.ch/eli/cc/2020/1024/fr#art_47)
 </law>
 
 <law>
-Le texte intégral de la loi est disponible dans l’*ordonnance sur l’utilisation du spectre des fréquences radioélectriques (VNF)* article 42, alinéa 2, lettre b.
+Le texte intégral de la loi est disponible dans l’*ordonnance sur l'utilisation du spectre des fréquences de radiocommunication (OUS)* article 42, alinéa 2, lettre b.
 [Lien direct vers l’article de loi](https://www.fedlex.admin.ch/eli/cc/2020/1024/fr#art_47)
 </law>
 %YPA: Quel type souhaite-t-on ?

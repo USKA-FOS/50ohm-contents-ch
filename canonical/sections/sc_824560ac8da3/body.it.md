@@ -8,10 +8,10 @@ Nel Fernmeldegesetz [index:legge sulle telecomunicazioni] (LTC) è sancito il pr
 </indepth>
 ---
 <law>
-[Allegato 4](https://www.fedlex.admin.ch/eli/cc/2020/914/it#annex_4) della "Ordinanza UFCOM sull’utilizzo dello spettro delle radiofrequenze" (OUERF)
+[Allegato 4](https://www.fedlex.admin.ch/eli/cc/2020/914/it#annex_4) dell’ordinanza dell’UFCOM sull’utilizzazione dello spettro delle radiofrequenze (OUUS)
 </law>
 I radioamatori possono effettuare trasmissioni radio solo sulle frequenze loro assegnate.
-Le bande di frequenza per il servizio di radioamatore in Svizzera sono regolamentate nell’Allegato 4 della "Ordinanza UFCOM sull’utilizzo dello spettro delle radiofrequenze" (OUERF).
+Le bande di frequenza per il servizio di radioamatore in Svizzera sono regolamentate nell’Allegato 4 dell’ordinanza dell’UFCOM sull’utilizzazione dello spettro delle radiofrequenze (OUUS).
 Sebbene le bande di frequenza siano concordate a livello internazionale, sono le disposizioni nazionali a essere vincolanti, pur ispirandosi agli accordi internazionali.
 [question:VO034]
 [question:VO037]
@@ -41,7 +41,7 @@ Qui puoi accedere direttamente al sistema per la comunicazione di [utilizzo spec
 <law>
 Qui puoi accedere direttamente alla [tabella di supporto](https://www.bakom.admin.ch/it/amateurfunk-pruefungen#strumenti-consentiti-agli-esami-di-radioamatore) che viene fornita durante l’esame.
 
-Poiché l’articolo 6 dell’OUERF definisce chi può utilizzare queste frequenze e rimanda alla lista nell’Allegato 4, anche la lista porta il "titolo" Art. 6 OUERF, sebbene in realtà si tratti dell’Allegato 4 all’OUERF.
+Poiché l’articolo 6 dell’OUUS definisce chi può utilizzare queste frequenze e rimanda alla lista nell’Allegato 4, anche la lista porta il "titolo" Art. 6 OUUS, sebbene in realtà si tratti dell’Allegato 4 all’OUUS.
 </law>
 
 L’UFCOM definisce l’"Allegato 4" anche come "tabella di supporto", poiché questa tabella viene distribuita durante l’esame e può essere utilizzata per rispondere alle domande. Pertanto, non è necessario imparare a memoria le condizioni di utilizzo precise, ma solo saper interpretare correttamente la tabella. Con la "tabella di supporto" è possibile rispondere alle seguenti domande.

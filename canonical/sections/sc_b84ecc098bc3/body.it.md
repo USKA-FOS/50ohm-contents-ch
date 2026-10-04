@@ -8,11 +8,11 @@ Inoltre, è generalmente vietato trasmettere messaggi da o verso non radioamator
 
 ---
 <law>
-Il testo completo della legge è disponibile nel [Regolamento sull’utilizzo dello spettro delle radiofrequenze (VNF) Art. 42, cpv. 2, lett. b](https://www.fedlex.admin.ch/eli/cc/2020/1024/it#art_47)
+Il testo completo della legge è disponibile nell’[ordinanza sull'utilizzazione dello spettro delle radiofrequenze (OUS) Art. 42, cpv. 2, lett. b](https://www.fedlex.admin.ch/eli/cc/2020/1024/it#art_47)
 </law>
 
 <law>
-Il testo completo della legge è disponibile nel *Regolamento sull’utilizzo dello spettro delle radiofrequenze (VNF)* Art. 42, cpv. 2, lett. b.
+Il testo completo della legge è disponibile nell’*ordinanza sull'utilizzazione dello spettro delle radiofrequenze (OUS)* Art. 42, cpv. 2, lett. b.
 [Link diretto all’articolo di legge](https://www.fedlex.admin.ch/eli/cc/2020/1024/it#art_47)
 </law>
 %YPA: Quale tipo si desidera?

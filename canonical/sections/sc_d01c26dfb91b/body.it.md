@@ -11,15 +11,15 @@ Mentre l'ITU con il RR affronta a livello mondiale le questioni fondamentali rel
 
 Abbiamo già appreso che le regole del RR o le raccomandazioni della CEPT non costituiscono un diritto direttamente applicabile in Svizzera. Tuttavia, le disposizioni di queste convenzioni internazionali sono state prese in considerazione nelle leggi interessate.
 
-Il radioamatoriale in Svizzera non è regolamentato da una singola legge. La base giuridica che disciplina i requisiti e le condizioni per la partecipazione al servizio di radioamatore in Svizzera è costituita da diverse leggi e ordinanze. La base principale è rappresentata dalla *legge sulle telecomunicazioni (LTC)*, dalla *ordinanza sulla utilizzazione dello spettro delle radiofrequenze (OUSR)* e dalla *ordinanza dell'UFCOM sulla utilizzazione dello spettro delle radiofrequenze (OUUSR)*.
+Il radioamatoriale in Svizzera non è regolamentato da una singola legge. La base giuridica che disciplina i requisiti e le condizioni per la partecipazione al servizio di radioamatore in Svizzera è costituita da diverse leggi e ordinanze. La base principale è rappresentata dalla *legge sulle telecomunicazioni (LTC)*, dall’*ordinanza sull'utilizzazione dello spettro delle radiofrequenze (OUS)* e dall’*ordinanza dell’UFCOM sull’utilizzazione dello spettro delle radiofrequenze (OUUS)*.
 
 ---
 <law>
 [legge sulle telecomunicazioni LTC](https://www.fedlex.admin.ch/eli/cc/1997/2187_2187_2187/it)
 
-[ordinanza sulla utilizzazione dello spettro delle radiofrequenze OUSR](https://www.fedlex.admin.ch/eli/cc/2020/1024/it)
+[ordinanza sull'utilizzazione dello spettro delle radiofrequenze OUS](https://www.fedlex.admin.ch/eli/cc/2020/1024/it)
 
-[ordinanza dell'UFCOM sulla utilizzazione dello spettro delle radiofrequenze OUUSR](https://www.fedlex.admin.ch/eli/cc/2020/914/it)
+[ordinanza dell’UFCOM sull’utilizzazione dello spettro delle radiofrequenze OUUS](https://www.fedlex.admin.ch/eli/cc/2020/914/it)
 </law>
 [question:VU001]
 [question:VC101]

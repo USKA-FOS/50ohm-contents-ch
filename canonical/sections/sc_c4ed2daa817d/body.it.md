@@ -4,10 +4,10 @@ Il servizio di radioamatore ha diritti d’uso primari in alcune bande di freque
 
 ---
 <indepth>
-[Allegato 4](https://www.fedlex.admin.ch/eli/cc/2020/914/it#annex_4) del "Regolamento UFCOM sull’utilizzo dello spettro delle radiofrequenze"
+[Allegato 4](https://www.fedlex.admin.ch/eli/cc/2020/914/it#annex_4) dell’ordinanza dell’UFCOM sull’utilizzazione dello spettro delle radiofrequenze
 </indepth>
 
-Lo status assegnato al servizio di radioamatore in Svizzera nelle singole bande di frequenza può essere letto nella *colonna 2* dell’elenco delle bande di frequenza nell’Allegato 4 del regolamento VVNF. La lettera b indica il secondario. Questo è specificato anche nella legenda sotto le liste per entrambi gli status.
+Lo status assegnato al servizio di radioamatore in Svizzera nelle singole bande di frequenza può essere letto nella *colonna 2* dell’elenco delle bande di frequenza nell’Allegato 4 dell’OUUS. La lettera b indica il secondario. Questo è specificato anche nella legenda sotto le liste per entrambi gli status.
 
 % Qui si potrebbe aggiungere altro contenuto utile.
 

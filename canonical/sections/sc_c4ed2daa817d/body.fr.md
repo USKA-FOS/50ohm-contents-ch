@@ -4,10 +4,10 @@ Le service d’amateur dispose de droits d’utilisation primaires dans certaine
 
 ---
 <indepth>
-[Anhang 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4) de l’"Ordonnance de l’OFCOM sur l’utilisation du spectre des fréquences radio"
+[Anhang 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4) de l’ordonnance de l'OFCOM sur l'utilisation du spectre des fréquences de radiocommunication
 </indepth>
 
-Le statut attribué au service d’amateur en Suisse dans les différentes bandes de fréquences peut être consulté dans la *colonne 2* de la liste des bandes de fréquences de l’annexe 4 de l’ordonnance VVNF. La lettre b indique un statut secondaire. C’est ce qui est indiqué dans la légende sous les listes pour les deux types d’autorisations.
+Le statut attribué au service d’amateur en Suisse dans les différentes bandes de fréquences peut être consulté dans la *colonne 2* de la liste des bandes de fréquences de l’annexe 4 de l’OOUS. La lettre b indique un statut secondaire. C’est ce qui est indiqué dans la légende sous les listes pour les deux types d’autorisations.
 
 % Ici, il serait possible d’ajouter du contenu plus pertinent.
 

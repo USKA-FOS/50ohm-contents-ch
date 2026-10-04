@@ -10,15 +10,15 @@ Alors que l’UIT traite, par le biais du RR, des questions fondamentales relati
 
 Nous avons déjà appris que les règles du RR ou les recommandations de la CEPT ne constituent pas directement un droit applicable en Suisse. Cependant, les dispositions de ces accords internationaux ont été prises en compte dans les lois concernées.
 
-En Suisse, le radioamateurisme n’est pas régi par une loi unique. Les conditions et exigences relatives à la participation au service d’amateur en Suisse sont définies par plusieurs lois et ordonnances. La base juridique la plus importante est constituée par la *loi sur les télécommunications (LTC)*, l’*ordonnance sur l’utilisation du spectre des fréquences radioélectriques (OUF)* et l’*ordonnance de l’OFCOM sur l’utilisation du spectre des fréquences radioélectriques (OUF- OFCOM)*.
+En Suisse, le radioamateurisme n’est pas régi par une loi unique. Les conditions et exigences relatives à la participation au service d’amateur en Suisse sont définies par plusieurs lois et ordonnances. La base juridique la plus importante est constituée par la *loi sur les télécommunications (LTC)*, l’*ordonnance sur l'utilisation du spectre des fréquences de radiocommunication (OUS)* et l’*ordonnance de l'OFCOM sur l'utilisation du spectre des fréquences de radiocommunication (OOUS)*.
 
 ---
 <law>
 [loi sur les télécommunications LTC](https://www.fedlex.admin.ch/eli/cc/1997/2187_2187_2187/fr)
 
-[ordonnance sur l’utilisation du spectre des fréquences radioélectriques OUF](https://www.fedlex.admin.ch/eli/cc/2020/1024/fr)
+[ordonnance sur l'utilisation du spectre des fréquences de radiocommunication OUS](https://www.fedlex.admin.ch/eli/cc/2020/1024/fr)
 
-[ordonnance de l’OFCOM sur l’utilisation du spectre des fréquences radioélectriques OUF-OFCOM](https://www.fedlex.admin.ch/eli/cc/2020/914/fr)
+[ordonnance de l'OFCOM sur l'utilisation du spectre des fréquences de radiocommunication OOUS](https://www.fedlex.admin.ch/eli/cc/2020/914/fr)
 </law>
 [question:VU001]
 [question:VC101]

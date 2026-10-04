@@ -10,11 +10,11 @@ La loi sur les télécommunications [index:loi sur les télécommunications] (LT
 </indepth>
 ---
 <law>
-[Annexe 4](https://www.fedlex.admin.ch/eli/cc/2020/914/fr#annex_4) de l’ « Ordonnance de l’OFCOM sur l’utilisation du spectre des fréquences radio » (OUSFR)
+[Annexe 4](https://www.fedlex.admin.ch/eli/cc/2020/914/fr#annex_4) de l’ordonnance de l'OFCOM sur l'utilisation du spectre des fréquences de radiocommunication (OOUS)
 </law>
 
 Les radioamateurs ne sont autorisés à émettre que sur les fréquences qui leur sont attribuées.
-Les bandes de fréquences allouées au service d’amateur [index:service d'amateur] en Suisse sont définies à l’annexe 4 de l’ « Ordonnance de l’OFCOM sur l’utilisation du spectre des fréquences radio » (OUSFR).
+Les bandes de fréquences allouées au service d’amateur [index:service d'amateur] en Suisse sont définies à l’annexe 4 de l’ordonnance de l'OFCOM sur l'utilisation du spectre des fréquences de radiocommunication (OOUS).
 Même si les bandes de fréquences sont convenues au niveau international, ce sont exclusivement les dispositions nationales qui s’appliquent. Celles-ci s’appuient toutefois sur les accords internationaux.
 [question:VO034]
 [question:VO037]
@@ -44,7 +44,7 @@ Pour déclarer une utilisation spéciale des fréquences, rendez-vous directemen
 <law>
 Pour accéder directement à la [tableau d’aide](https://www.bakom.admin.ch/fr/examens-radioamateurisme#Moyens-auxiliaires-admis-aux-examens) remis lors de l’examen :
 
-L’article 6 de l’OUSFR définit qui est autorisé à utiliser ces fréquences et renvoie à la liste de l’annexe 4. C’est pourquoi cette liste porte également le titre « Art. 6 OUSFR », bien qu’il s’agisse strictement de l’annexe 4 de l’OUSFR.
+L’article 6 de l’OOUS définit qui est autorisé à utiliser ces fréquences et renvoie à la liste de l’annexe 4. C’est pourquoi cette liste porte également le titre « Art. 6 OOUS », bien qu’il s’agisse strictement de l’annexe 4 de l’OOUS.
 </law>
 
 L’OFCOM désigne l’ « annexe 4 » également sous le nom de « tableau d’aide », car ce tableau est distribué lors de l’examen et peut être utilisé pour répondre aux questions. Il n’est donc pas nécessaire d’apprendre par cœur les conditions d’utilisation précises, mais il faut savoir interpréter correctement le tableau. Grâce au « tableau d’aide », les questions suivantes peuvent être répondues.
