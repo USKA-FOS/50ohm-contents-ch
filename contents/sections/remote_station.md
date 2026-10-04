@@ -1,4 +1,4 @@
-Im Abschnitt [sec:remote__stationen] haben wir bereits die formalen Voraussetzungen für die Inbetriebname und Verwendung einer fernbedienten Amateurfunkanlage kennengelernt. In diesem Abschnitt wollen wir einige technische Aspekte des Remotebetriebs betrachten, welche für das Betreiben und Benutzen einer Remote-Station relevant sind. 
+Im Abschnitt [sec:remote_stationen] haben wir bereits die formalen Voraussetzungen für die Inbetriebname und Verwendung einer fernbedienten Amateurfunkanlage kennengelernt. In diesem Abschnitt wollen wir einige technische Aspekte des Remotebetriebs betrachten, welche für das Betreiben und Benutzen einer Remote-Station relevant sind. 
 
 Eine Station für Remote-Betrieb besteht aus mehreren voneinander logisch trennbaren Funktionsblöcken. Hierbei können bei modernen Geräten auch Teile dieser Funktionsblöcke in einem Gerät integriert sein (z.B. Transceiver mit Netzwerkanschluss und Remote-Interface).
 
@@ -25,6 +25,17 @@ Eine Anordnung für Remote-Betrieb kann mit folgenden Funktionsblöcken logisch 
 
 Bei Remote-Betrieb kommt es durch Laufzeiten im Netzwerk und Verarbeitungszeiten bei der Codierung und Decodierung von Audio-Signalen zu zeitlichen Verzögerungen. Dies ist beim Funkbetrieb über Remote-Stationen zu berücksichtigen.
 
+<indepth>
+*Besonderheiten bei Remote-Betrieb
+  
+- Bei Sprachverbindungen sind die Verzögerungen eher unproblematisch.
+  
+- Bei Telegrafieverbindungen (Morsen) können die Verzögerungen - insbesondere im Kontestbetrieb - je nach Tastkonzept störend in Erscheinung treten.
+
+- Bei digitalen Betriebsarten, die auf dem Aussenden von Tönen beruhen, ist zu beachten, dass der Sprache-Codec unter Umständen die Signale störend verändern kann.
+- 
+</indepth>
+
 <tip>
 [photo:342:a_remote_station:Remote-Station des DARC e. V.]
 
@@ -41,6 +52,10 @@ Um sicherzustellen, dass eine Remote-Station bei Abbruch oder Störung der Daten
 [question:AF708]
 
 Da auch der Transceiver selbst in einen undefinierten Zustand kommen kann (z.B. durch Software- oder Hardware-Fehler im Gerät) sollte die Versorgungsspannung des Transceivers aus der Ferne abschaltbar sein. Dies kann z.B. durch eine IP-Steckdose, welche sich durch den Operator über das Netzwerk steuern lässt, erfolgen.
+
+<tip>
+Manche Transceiver haben eine Funktion "Transmit Timeout Timer" (TOT), mit dem die maximale, ununterbrochene Sendedauer auf eine einstellbare Zeitdauer begrenzt werden kann. Das stellt einen zusätzlichen Schutz vor Dauersenden dar.
+</tip>
 
 [question:AF707]
 
