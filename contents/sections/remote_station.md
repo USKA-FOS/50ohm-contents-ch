@@ -24,7 +24,7 @@ Eine Anordnung für Remote-Betrieb kann mit folgenden Funktionsblöcken logisch 
 [question:AF703]
 [question:AF705]
 
----
+
 
 Bei Remote-Betrieb kommt es durch Laufzeiten im Netzwerk und Verarbeitungszeiten bei der Codierung und Decodierung von Audio-Signalen zu zeitlichen Verzögerungen. Dies ist beim Funkbetrieb über Remote-Stationen zu berücksichtigen.
 
