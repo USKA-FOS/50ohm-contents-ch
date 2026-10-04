@@ -40,15 +40,9 @@ Besonderheiten bei Remote-Betrieb
 </indepth>
 
 <tip>
-% [photo:342:a_remote_station:Remote-Station des DARC e. V.]
-%
-% Der DARC e. V. betreibt für seine Mitglieder einige Remote-Clubstationen, die über ganz Deutschland 
-% verteilt sind. Auf [mein.darc.de](https://mein.darc.de/) können Mitglieder sich in die Remote-Stationen 
-% einwählen und über das Internet Funkbetrieb machen, falls sie eine Zulassung zur Klasse A besitzen. Für
-% Klasse N und E ist nur SWL-Betrieb möglich.
-%
-% [Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
 Remote-Stationen werden manchmal von [USKA-Sektionen](https://uska.ch/de/funkamateure/die-uska/sektionen/) oder von Vereinen für ihre Mitglieder angeboten. Andere Remote-Station gehören geschlossenen Benutzergruppen. Idealerweise stehen Remote-Stationen an vorteilhaften Antennenstandorten.
+
+[Jetzt Mitglied der USKA werden!](https://uska.ch/de/uska-beitreten/)
 </tip>
 
 [question:AF709]
