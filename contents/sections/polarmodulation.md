@@ -8,7 +8,8 @@ Diese Sinuswelle ist definiert durch wenige Zahlen, nämlich Frequenz, Phase und
 
 Aus diesen Überlegungen ergibt sich das Verfahren der *Polarmodulation*.  Damit können beliebige Signale einigermaßen schmaler Bandbreite erzeugt werden, zum Beispiel SSB-Signale. Dazu müssen nur, ausgehend von einer Grundfrequenz, Phase und Amplitude des Signals gleichzeitig kontrollierbar sein.
 
-Abbildung [ref:polar_modulator] zeigt das Blockschaltbild, mit dem diese Idee heutzutage normalerweise umgesetzt wird. Dabei werden die beiden Signalkomponenten $I(t)$ und $Q(t)$ (wie sie im vorherigen Kapitel beschrieben wurden) in die momentane Amplitude $A(t)$ und die momentane Phase $\varphi(t)$ umgerechnet:
+Abbildung [ref:polar_modulator] zeigt das Blockschaltbild, mit dem diese Idee heutzutage normalerweise umgesetzt wird. Dabei werden die beiden Signalkomponenten $I(t)$ und $Q(t)$ (wie sie im Abschnitt
+[sec:iq_verfahren] beschrieben wurden) in die momentane Amplitude $A(t)$ und die momentane Phase $\varphi(t)$ umgerechnet:
 
 $A(t)=\sqrt{I^2(t)+Q^2(t)}$
 
