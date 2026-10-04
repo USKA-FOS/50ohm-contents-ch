@@ -11,8 +11,11 @@ Eine Anordnung für Remote-Betrieb kann mit folgenden Funktionsblöcken logisch 
 </margin>
 
 * *Computer und Bedienteil des Operators (Block 1)*: Dieses dient zur Steuerung der Remote-Station. Hierbei werden lokal Audiosignale sowie Steuersignale in Netzwerkpakete umgewandelt und an die Remote-Station übertragen. Empfangene Steuer- und Audiosignale der Remote-Station (welche über Netzwerk übertragen werden) werden durch den Computer/das Bedienteil wieder hör- und sichtbar gemacht.
+
 * *Netzwerk*: Verbindungsnetzwerk oder Verbindungsnetzwerke zwischen Standort des Operators und der Remote-Station. Hierbei kann auch das Internet als Netzwerk zwischen den Standorten dienen.
+
 * *Computer oder Remoteinterface am Remote-Standort (Block 2)*: Dieses setzt empfangene Netzwerkpakete des Operators in Steuersignale und Audiosignale für die weitere Steuerung des Transceivers am Remote-Standort um und überträgt im Rückweg die empfangenen Audiosignale des Transceivers über das Netzwerk zum Operator. Auch Einstellungen des Transceivers sowie rücklaufende Steuersignale werden über das Netzwerk zum Operator übertragen.
+
 * *Transceiver/Verstärker/Tuner/Antennenrotor (Block 3)*: Diese Geräte werden durch das Remote-Interface oder einen Computer am Remote-Standort angesteuert/rückgemeldet durch Signale, die der Operator über das Netzwerk an das Remote-Interface überträgt.
 
 [question:AF701]
@@ -26,7 +29,7 @@ Eine Anordnung für Remote-Betrieb kann mit folgenden Funktionsblöcken logisch 
 Bei Remote-Betrieb kommt es durch Laufzeiten im Netzwerk und Verarbeitungszeiten bei der Codierung und Decodierung von Audio-Signalen zu zeitlichen Verzögerungen. Dies ist beim Funkbetrieb über Remote-Stationen zu berücksichtigen.
 
 <indepth>
-*Besonderheiten bei Remote-Betrieb
+Besonderheiten bei Remote-Betrieb
   
 - Bei Sprachverbindungen sind die Verzögerungen eher unproblematisch.
   
@@ -37,11 +40,15 @@ Bei Remote-Betrieb kommt es durch Laufzeiten im Netzwerk und Verarbeitungszeiten
 </indepth>
 
 <tip>
-[photo:342:a_remote_station:Remote-Station des DARC e. V.]
-
-Der DARC e. V. betreibt für seine Mitglieder einige Remote-Clubstationen, die über ganz Deutschland verteilt sind. Auf [mein.darc.de](https://mein.darc.de/) können Mitglieder sich in die Remote-Stationen einwählen und über das Internet Funkbetrieb machen, falls sie eine Zulassung zur Klasse A besitzen. Für Klasse N und E ist nur SWL-Betrieb möglich.
-
-[Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+% [photo:342:a_remote_station:Remote-Station des DARC e. V.]
+%
+% Der DARC e. V. betreibt für seine Mitglieder einige Remote-Clubstationen, die über ganz Deutschland 
+% verteilt sind. Auf [mein.darc.de](https://mein.darc.de/) können Mitglieder sich in die Remote-Stationen 
+% einwählen und über das Internet Funkbetrieb machen, falls sie eine Zulassung zur Klasse A besitzen. Für
+% Klasse N und E ist nur SWL-Betrieb möglich.
+%
+% [Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+Remote-Stationen werden manchmal von USKA-Sektionen oder von Vereinen für ihre Mitglieder angeboten. Andere Remote-Station gehören geschlossenen Benutzergruppen. Idealerweise stehen Remote-Stationen an vorteilhaften Antennenstandorten.
 </tip>
 
 [question:AF709]
