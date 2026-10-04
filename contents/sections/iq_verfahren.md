@@ -1,4 +1,4 @@
-Im vorherigen Abschnitt [sec:symbole_symbolrate.md] haben wir gesehen, dass die Information in einem Symbol beispielsweise durch unterschiedliche Amplituden oder Frequenzen dargestellt werden kann. Eine weitere Möglichkeit besteht darin, die Phasenlage eines Signals zu verändern. Um Signalzustände mit unterschiedlicher Amplitude und Phase übersichtlich darzustellen, wird häufig die sogenannte *I/Q-Darstellung* verwendet.
+Im vorherigen Abschnitt [sec:symbole_symbolrate] haben wir gesehen, dass die Information in einem Symbol beispielsweise durch unterschiedliche Amplituden oder Frequenzen dargestellt werden kann. Eine weitere Möglichkeit besteht darin, die Phasenlage eines Signals zu verändern. Um Signalzustände mit unterschiedlicher Amplitude und Phase übersichtlich darzustellen, wird häufig die sogenannte *I/Q-Darstellung* verwendet.
 
 Betrachten wir zunächst einen Signalzustand zum Zeitpunkt $t=0$. Für das Symbol werden eine Amplitude $A$ und eine Phasenlage $\varphi$ festgelegt. In einer Zeigerdarstellung bestimmt die Amplitude die Länge des Zeigers und die Phasenlage seinen Winkel gegenüber der waagerechten Achse.
 
