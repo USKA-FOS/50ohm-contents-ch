@@ -25,6 +25,9 @@ Die 50ohm.de Dummyload besitzt zusätzlich einen Spitzenwertgleichrichter aus ei
 *Anzeige:* Möchtest du auch eine coole 50ohm.de QRP-Dummyload bauen? Dann kannst du diese im [DARC-Verlag](https://darcverlag.de/50Ohm-Dummy-Load-DIY-Kit-Bausatz) als Bausatz bestellen.
 </margin>
 
+% ARK: Dieser Bezug auf den DARC wurde bewusst stehen gelassen. 
+% Allenfalls sollte das im Team oder in der Projektleitung noch besprochen werden. 
+
 In der folgenden Prüfungsfrage besteht die Dummyload aus einer Kombination von Reihen- und Parallelschaltungen. Werden in jedem Zweig $N_\mathrm{S}$ gleiche Widerstände in Reihe geschaltet und anschließend $N_\mathrm{P}$ solcher Zweige parallel geschaltet, ergibt sich der Gesamtwiderstand zu:
 
 $R_\mathrm{ges} = \frac{N_\mathrm{S}}{N_\mathrm{P}} \cdot R$
