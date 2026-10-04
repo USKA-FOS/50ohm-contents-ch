@@ -32,7 +32,7 @@ Besonderheiten bei Remote-Betrieb
   
 - Bei Telegrafieverbindungen (Morsen) können die Verzögerungen - insbesondere im Kontestbetrieb - je nach Tastkonzept störend in Erscheinung treten.
 
-- Bei digitalen Betriebsarten, die auf dem Aussenden von Tönen beruhen, ist zu beachten, dass der Sprache-Codec unter Umständen die Signale störend verändern kann.
+- Bei digitalen Betriebsarten, die auf dem Aussenden von Tönen beruhen, ist zu beachten, dass der Sprache-Codec unter Umständen die Signale störend beeinflussen kann.
 
 </indepth>
 
