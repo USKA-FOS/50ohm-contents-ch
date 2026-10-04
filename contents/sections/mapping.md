@@ -6,7 +6,7 @@ Bei digitalen Übertragungsverfahren müssen die zu übertragenden Bits den vers
 
 ---
 
-Um das Prinzip des Mappings kennenzulernen, betrachten wir zunächst die bereits aus Klasse E bekannte *Amplitudenumtastung* (*Amplitude-Shift Keying*, ASK). Die Abbildung [ref:a_ask] zeigt eine binäre ASK in der Zeitdarstellung. Dabei wird die Amplitude des Trägersignals zwischen zwei Werten umgeschaltet. Beispielsweise kann eine große Amplitude das Bit $1$ und eine kleine Amplitude das Bit $0$ darstellen.
+Um das Prinzip des Mappings kennenzulernen, betrachten wir zunächst die bereits aus dem Abschnitt [sec:ask_fsk_afsk] bekannte *Amplitudenumtastung* (*Amplitude-Shift Keying*, ASK). Die Abbildung [ref:a_ask] zeigt eine binäre ASK in der Zeitdarstellung. Dabei wird die Amplitude des Trägersignals zwischen zwei Werten umgeschaltet. Beispielsweise kann eine große Amplitude das Bit $1$ und eine kleine Amplitude das Bit $0$ darstellen.
 
 <margin>
 [picture:700:a_ask:ASK (Amplitude-Shift Keying) im zeitlichen Verlauf]
