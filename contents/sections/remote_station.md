@@ -36,7 +36,7 @@ Besonderheiten bei Remote-Betrieb
 - Bei Telegrafieverbindungen (Morsen) können die Verzögerungen - insbesondere im Kontestbetrieb - je nach Tastkonzept störend in Erscheinung treten.
 
 - Bei digitalen Betriebsarten, die auf dem Aussenden von Tönen beruhen, ist zu beachten, dass der Sprache-Codec unter Umständen die Signale störend verändern kann.
-- 
+
 </indepth>
 
 <tip>
@@ -48,7 +48,7 @@ Besonderheiten bei Remote-Betrieb
 % Klasse N und E ist nur SWL-Betrieb möglich.
 %
 % [Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
-Remote-Stationen werden manchmal von USKA-Sektionen oder von Vereinen für ihre Mitglieder angeboten. Andere Remote-Station gehören geschlossenen Benutzergruppen. Idealerweise stehen Remote-Stationen an vorteilhaften Antennenstandorten.
+Remote-Stationen werden manchmal von [USKA-Sektionen](https://uska.ch/de/funkamateure/die-uska/sektionen/) oder von Vereinen für ihre Mitglieder angeboten. Andere Remote-Station gehören geschlossenen Benutzergruppen. Idealerweise stehen Remote-Stationen an vorteilhaften Antennenstandorten.
 </tip>
 
 [question:AF709]
