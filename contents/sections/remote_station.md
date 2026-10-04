@@ -11,11 +11,8 @@ Eine Anordnung für Remote-Betrieb kann mit folgenden Funktionsblöcken logisch 
 </margin>
 
 * *Computer und Bedienteil des Operators (Block 1)*: Dieses dient zur Steuerung der Remote-Station. Hierbei werden lokal Audiosignale sowie Steuersignale in Netzwerkpakete umgewandelt und an die Remote-Station übertragen. Empfangene Steuer- und Audiosignale der Remote-Station (welche über Netzwerk übertragen werden) werden durch den Computer/das Bedienteil wieder hör- und sichtbar gemacht.
-
 * *Netzwerk*: Verbindungsnetzwerk oder Verbindungsnetzwerke zwischen Standort des Operators und der Remote-Station. Hierbei kann auch das Internet als Netzwerk zwischen den Standorten dienen.
-
 * *Computer oder Remoteinterface am Remote-Standort (Block 2)*: Dieses setzt empfangene Netzwerkpakete des Operators in Steuersignale und Audiosignale für die weitere Steuerung des Transceivers am Remote-Standort um und überträgt im Rückweg die empfangenen Audiosignale des Transceivers über das Netzwerk zum Operator. Auch Einstellungen des Transceivers sowie rücklaufende Steuersignale werden über das Netzwerk zum Operator übertragen.
-
 * *Transceiver/Verstärker/Tuner/Antennenrotor (Block 3)*: Diese Geräte werden durch das Remote-Interface oder einen Computer am Remote-Standort angesteuert/rückgemeldet durch Signale, die der Operator über das Netzwerk an das Remote-Interface überträgt.
 
 [question:AF701]
@@ -24,7 +21,7 @@ Eine Anordnung für Remote-Betrieb kann mit folgenden Funktionsblöcken logisch 
 [question:AF703]
 [question:AF705]
 
-
+---
 
 Bei Remote-Betrieb kommt es durch Laufzeiten im Netzwerk und Verarbeitungszeiten bei der Codierung und Decodierung von Audio-Signalen zu zeitlichen Verzögerungen. Dies ist beim Funkbetrieb über Remote-Stationen zu berücksichtigen.
 
