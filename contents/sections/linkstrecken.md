@@ -4,7 +4,11 @@ Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung 
 
 <margin>
 %[photo:127:n_linkstrecken_db0fc:Wartungsarbeiten am HAMNET-Knoten DB0FC, im Vordergrund die Richtantenne %für die Linkstrecke zu DB0BWL]
-[photo:1001:n_linkstrecken_HB9AK-14:Wartungsarbeiten am HAMNET-Knoten HB9AK-14 auf dem Titlis] 
+[photo:1001:n_linkstrecken_HB9AK-14:Standort Titlis Anlage der SWISS-ARTG, Versuche mit 10 m-Antennen; oben HB9PAE Peter, unten HB9AUR Martin] 
+
+[photo:1002:n_linkstrecken_HB9AK:Standort Titlis Anlage der SWISS-ARTG, Dieter HB9CJD am Einrichten des HAMNET-Links nach HB9BA (Weissenstein), ein 85 cm Spiegel für 5 GHz]
+
+[phomargin3:n_linkstrecken_HB9:Bildbeschreibung folgt nach]
 </margin>
 
 <law>
