@@ -25,7 +25,7 @@ $\varphi(t)=\operatorname{atan2}\left(Q(t),I(t)\right)$
 L'information de [phase](Phase) $\varphi(t)$ module ensuite une [porteuse](Träger) HF d'[amplitude](Amplitude) constante. Le signal résultant, toujours d'[amplitude](Amplitude) constante, contient déjà l'information de [phase](Phase) complète. Il peut être amplifié par un [étage final](Endstufe) particulièrement efficace, par exemple un amplificateur de classe E. En pratique, de tels étages finaux atteignent souvent un [rendement](Wirkungsgrad) supérieur à $\qtyrange{80}{90}{\percent}$.
 
 
-Mais comment l'[amplitude](Amplitude) est-elle modulée ? Pour cela, la [tension d'alimentation](Versorgungsspannung) de l'étage final est manipulée en conséquence. L'information d'[amplitude](Amplitude) $A(t)$ est appliquée via un amplificateur d'enveloppe. Cela modifie l'[amplitude](Amplitude) de sortie selon l'[amplitude](Amplitude) requise à l'instant donné, ce qui donne l'enveloppe souhaitée. À la sortie, on obtient à nouveau le signal complet modulé en [amplitude](Amplitude) et en [phase](Phase) :
+Mais comment l'[amplitude](Amplitude) est-elle modulée ? Pour cela, la [tension d'alimentation](Versorgungsspannung) de l'étage final est manipulée en conséquence. L'information d'[amplitude](Amplitude) $A(t)$ est appliquée à la [tension d'alimentation](Versorgungsspannung) via un amplificateur d'enveloppe. Cela modifie l'[amplitude](Amplitude) de sortie selon l'[amplitude](Amplitude) requise à l'instant donné, ce qui donne l'enveloppe souhaitée. À la sortie, on obtient à nouveau le signal complet modulé en [amplitude](Amplitude) et en [phase](Phase) :
 
 
 $s(t)=A(t)\cos\left(\omega_\mathrm{T}t+\varphi(t)\right)$

@@ -1,4 +1,4 @@
-Un metodo noto da decenni, ma che da qualche tempo trova un’applicazione sempre più diffusa nel radioamatoriale, è la *modulazione polare* [index:Polarmodulation].
+Un metodo noto da decenni, ma che da qualche tempo trova un’applicazione sempre più diffusa nell’ambito radioamatoriale, è la *modulazione polare* [index:Polarmodulation].
 
 Su questo argomento non ci sono domande d’esame. Tuttavia, la modulazione polare è un metodo affascinante che in futuro sarà impiegato sempre più spesso nei dispositivi radioamatoriali. Per questo motivo viene qui brevemente presentata, come uno sguardo oltre l’ordinario. Chi volesse concentrarsi esclusivamente sulla preparazione all’esame può tranquillamente saltare questo tema.
 
@@ -27,7 +27,7 @@ Per l’amplificatore d’inviluppo è sufficiente un amplificatore BF relativam
 Grazie all’elevato rendimento, poca potenza elettrica viene dissipata sotto forma di calore. Questo consente di risparmiare energia, ridurre la necessità di raffreddamento e ottenere apparecchi radio più piccoli e leggeri, privi di grandi dissipatori metallici e con transistor di stadio finale più economici. La modulazione polare è particolarmente adatta per apparecchi QRP a batteria, ma viene impiegata anche in trasceiver commerciali di elevate prestazioni.
 
 <indepth>
-Nel radioamatoriale, questo metodo è stato utilizzato negli anni ’70 con il nome "HELAPS" sul satellite AO-7. All’epoca tutto veniva realizzato con mezzi analogici. Oggi, gli amplificatori d’inviluppo e gli stadi finali sono ancora classicamente analogici, mentre il resto del lavoro è affidato ad algoritmi SDR. Le potenti CPU in grado di gestire agevolmente questi compiti oggi costano meno di una pizza.
+Nell’ambito radioamatoriale, questo metodo è stato utilizzato negli anni ’70 con il nome "HELAPS" sul satellite AO-7. All’epoca tutto veniva realizzato con mezzi analogici. Oggi, gli amplificatori d’inviluppo e gli stadi finali sono ancora classicamente analogici, mentre il resto del lavoro è affidato ad algoritmi SDR. Le potenti CPU in grado di gestire agevolmente questi compiti oggi costano meno di una pizza.
 </indepth>
 
 <margin>
