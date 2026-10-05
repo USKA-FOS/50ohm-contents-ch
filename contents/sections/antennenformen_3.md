@@ -1,4 +1,4 @@
-Wie wir im Abschnitt [sec:antennenformen] bereits gelernt haben, kann ein Halbwellendipol auch an einem Ende gespeist werden. Der Speisewiderstand ist bei einer Drahtlänge von $\lambda / 2$ oder Vielfachen davon hochohmig (ca. $\qtyrange{2000}{2500}{\ohm}$).
+Wie wir im Abschnitt [sec:antennen] bereits gelernt haben, kann ein Halbwellendipol auch an einem Ende gespeist werden. Der Speisewiderstand ist bei einer Drahtlänge von $\lambda / 2$ oder Vielfachen davon hochohmig (ca. $\qtyrange{2000}{2500}{\ohm}$).
 
 Für die Anpassung einer solchen endgespeisten Antenne gibt es verschiedene Möglichkeiten. Im Folgenden betrachten wir drei typische Varianten:
 
@@ -48,7 +48,7 @@ Die Bezeichnung geht auf den Einsatz dieser Antennen an Luftschiffen zurück. Du
 
 ---
 
-Ebenso wie bei einem endgespeisten Halbwellendipol kann auch bei anderen Antennenformen eine Speiseleitung mit abweichendem Wellenwiderstand zur Anpassung verwendet werden. Für die Klasse E haben wir bereits die Ganzwellen-Schleifen-Antennen kennengelernt; darunter auch die Delta-Loop und die Quad-Antenne. Eine Delta-Loop-Antenne (vgl. Abbildung [ref:a_delta_loop]) hat bei gleichlangen Schenkeln eine Speiseimpedanz von etwa $\qty{100}{\ohm}$. Durch Einfügen einer $\lambda / 4$-Leitung mit einem Wellenwiderstand von $\qty{75}{\ohm}$ erfolgt eine Transformation auf die im Amateurfunk üblichen $\qty{50}{\ohm}$.
+Ebenso wie bei einem endgespeisten Halbwellendipol kann auch bei anderen Antennenformen eine Speiseleitung mit abweichendem Wellenwiderstand zur Anpassung verwendet werden. Im Abschnitt  [sec:antennenformen_2] haben wir bereits die Ganzwellen-Schleifen-Antennen kennengelernt; darunter auch die Delta-Loop und die Quad-Antenne. Eine Delta-Loop-Antenne (vgl. Abbildung [ref:a_delta_loop]) hat bei gleichlangen Schenkeln eine Speiseimpedanz von etwa $\qty{100}{\ohm}$. Durch Einfügen einer $\lambda / 4$-Leitung mit einem Wellenwiderstand von $\qty{75}{\ohm}$ erfolgt eine Transformation auf die im Amateurfunk üblichen $\qty{50}{\ohm}$.
 
 <margin>
 [picture:311:a_delta_loop:Delta-Loop-Antenne]
