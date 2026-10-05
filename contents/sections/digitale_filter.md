@@ -21,7 +21,7 @@ Das Filter führt eine sogenannte Faltungsoperation aus, diese ist übrigens auc
 </indepth>
 
 <indepth>
-**FPGA**
+*FPGA*
 bezeichnet eine integrierte Schaltung mit dem Namen **F**ield **P**rogrammable **G**ate **A**rray. Es handelt sich dabei um eine programmierbare Harwdwarekomponente.
 </indepth>
 %TODO: FPGA kam schon früher vor -> dorthin verschieben
