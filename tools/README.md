@@ -146,6 +146,18 @@ the import manifest. Every later campaign must use the previously accepted
 source revision as its baseline; a dry-run must never silently redefine that
 baseline.
 
+For a deliberately partial import, pass the same repeatable
+`--only-object-id <canonical-object-id>` option to the workbook exporter, the
+dry run, and the apply command. The importer still reads the specified full
+source commit, but its plan and accepted audit contain only the selected
+content objects. Other changed, missing, or newly added source objects are
+excluded, even when the ordinary importer would create a new object
+automatically. The audit records the selected IDs and the number of excluded
+candidates. Curriculum structure cannot be imported with this scoped option.
+The recorded `source_revision` identifies the source snapshot, not an approval
+of every change in that snapshot; later campaigns may still find the excluded
+candidates.
+
 When one German source update was applied in several import phases, combine
 the accepted manifests before translating the target languages:
 

@@ -4,6 +4,8 @@ import json
 import sqlite3
 from pathlib import Path
 
+from openpyxl import Workbook
+
 from tools.extract_drawing_tex_translation_candidates import load_source_import_drawing_refs
 from tools.import_incremental_german_source import FAMILIES, run_import, stable_id
 from tools.run_multilingual_canonical_build import overlay_object_texts
@@ -105,6 +107,20 @@ def initialize_families(canonical: Path) -> None:
     (canonical / "structure" / "editions").mkdir(parents=True, exist_ok=True)
 
 
+def approve_candidates(report: dict, path: Path) -> Path:
+    workbook = Workbook()
+    sheet = workbook.active
+    sheet.append(["object_id", "object_type", "source_key", "change_kind", "decision"])
+    for change in report["changes"]:
+        if change["action"] != "unchanged":
+            sheet.append([
+                change["object_id"], change["object_type"], change["source_key"],
+                change["action"], "to_be_imported",
+            ])
+    workbook.save(path)
+    return path
+
+
 def test_incremental_import_handles_add_change_delete_html_and_drawing(tmp_path: Path) -> None:
     canonical = tmp_path / "canonical"
     source = tmp_path / "source"
@@ -175,7 +191,10 @@ def test_incremental_import_handles_add_change_delete_html_and_drawing(tmp_path:
     }
 
     applied_report = tmp_path / "applied.json"
-    report = run_import(source, canonical_root=canonical, apply=True, report_path=applied_report)
+    report = run_import(
+        source, canonical_root=canonical, apply=True, report_path=applied_report,
+        review_workbook=approve_candidates(dry, tmp_path / "review.xlsx"),
+    )
     assert report["applied"] is True
     assert (changed / "body.de.md").read_text(encoding="utf-8") == "Neu [picture:2:x:y]"
     assert (changed / "body.fr.md").read_text(encoding="utf-8") == "Ancienne traduction"
@@ -223,13 +242,59 @@ def test_exact_content_rename_preserves_object_id_and_translation(tmp_path: Path
     )
     write_text(source / "contents/sections/new_name.md", "Gleicher Inhalt")
 
-    report = run_import(source, canonical_root=canonical, apply=True, report_path=tmp_path / "audit.json")
+    dry = run_import(source, canonical_root=canonical, report_path=tmp_path / "dry.json")
+    report = run_import(
+        source, canonical_root=canonical, apply=True, report_path=tmp_path / "audit.json",
+        review_workbook=approve_candidates(dry, tmp_path / "review.xlsx"),
+    )
     rename = next(change for change in report["changes"] if change["action"] == "renamed")
     assert rename["object_id"] == object_id
     assert rename["translation_required"] is False
     meta = json.loads((object_dir / "object.meta.json").read_text(encoding="utf-8"))
     assert meta["source"]["key"] == "new_name"
     assert (object_dir / "body.fr.md").read_text(encoding="utf-8") == "Même contenu"
+
+
+def test_scoped_import_changes_only_selected_object(tmp_path: Path) -> None:
+    canonical = tmp_path / "canonical"
+    source = tmp_path / "source"
+    initialize_families(canonical)
+    make_source(source)
+    selected_id = stable_id("sc", "section_article", "selected")
+    selected = make_text_object(
+        canonical, family="sections", object_id=selected_id,
+        object_type="section_article", source_directory="sections",
+        source_key="selected", suffix=".md", slot_key="body_markdown",
+        slot_type="markdown", de="Alt", fr="Ancien",
+    )
+    other_id = stable_id("sc", "section_article", "other")
+    other = make_text_object(
+        canonical, family="sections", object_id=other_id,
+        object_type="section_article", source_directory="sections",
+        source_key="other", suffix=".md", slot_key="body_markdown",
+        slot_type="markdown", de="Alt", fr="Ancien",
+    )
+    write_text(source / "contents/sections/selected.md", "Neu")
+    write_text(source / "contents/sections/other.md", "Auch neu")
+    write_text(source / "contents/sections/added.md", "Neue Seite")
+
+    dry = run_import(
+        source, canonical_root=canonical, only_object_ids={selected_id},
+        report_path=tmp_path / "scoped-dry.json",
+    )
+    assert dry["summary"] == {"changed": 1}
+    assert dry["scope"]["excluded_candidate_count"] == 2
+    assert dry["translation_object_ids"] == [selected_id]
+    report = run_import(
+        source, canonical_root=canonical, apply=True,
+        only_object_ids={selected_id},
+        review_workbook=approve_candidates(dry, tmp_path / "scoped-review.xlsx"),
+        report_path=tmp_path / "scoped-audit.json",
+    )
+    assert report["imported_change_count"] == 1
+    assert (selected / "body.de.md").read_text(encoding="utf-8") == "Neu"
+    assert (other / "body.de.md").read_text(encoding="utf-8") == "Alt"
+    assert not (canonical / "sections" / stable_id("sc", "section_article", "added")).exists()
 
 
 def test_structure_update_preserves_ids_and_only_invalidates_changed_text(tmp_path: Path) -> None:
@@ -248,7 +313,11 @@ def test_structure_update_preserves_ids_and_only_invalidates_changed_text(tmp_pa
         ],
     }
     write_json(source / "toc/HB.json", initial_toc)
-    initial_report = run_import(source, canonical_root=canonical, apply=True, report_path=tmp_path / "initial.json")
+    initial_dry = run_import(source, canonical_root=canonical, report_path=tmp_path / "initial-dry.json")
+    initial_report = run_import(
+        source, canonical_root=canonical, apply=True, report_path=tmp_path / "initial.json",
+        review_workbook=approve_candidates(initial_dry, tmp_path / "initial-review.xlsx"),
+    )
 
     edition_dir = canonical / "structure" / "editions" / "HB"
     old_de = json.loads((edition_dir / "edition.de.json").read_text(encoding="utf-8"))
@@ -269,7 +338,11 @@ def test_structure_update_preserves_ids_and_only_invalidates_changed_text(tmp_pa
     changed_toc = json.loads(json.dumps(initial_toc))
     changed_toc["chapters"][0]["sections"][0]["title"] = "Neu"
     write_json(source / "toc/HB.json", changed_toc)
-    report = run_import(source, canonical_root=canonical, apply=True, report_path=tmp_path / "changed.json")
+    changed_dry = run_import(source, canonical_root=canonical, report_path=tmp_path / "changed-dry.json")
+    report = run_import(
+        source, canonical_root=canonical, apply=True, report_path=tmp_path / "changed.json",
+        review_workbook=approve_candidates(changed_dry, tmp_path / "changed-review.xlsx"),
+    )
 
     new_de = json.loads((edition_dir / "edition.de.json").read_text(encoding="utf-8"))
     new_fr = json.loads((edition_dir / "edition.fr.json").read_text(encoding="utf-8"))

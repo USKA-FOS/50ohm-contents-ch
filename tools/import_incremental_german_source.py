@@ -886,6 +886,32 @@ def build_plan(
     return report, source_records, canonical_records, structure_payloads
 
 
+def scope_report_to_object_ids(report: dict[str, Any], object_ids: set[str]) -> None:
+    """Keep only explicitly selected content changes in a partial import."""
+    candidates = [change for change in report["changes"] if change["action"] != "unchanged"]
+    selected = [change for change in candidates if change["object_id"] in object_ids]
+    found = {str(change["object_id"]) for change in selected}
+    missing = sorted(object_ids - found)
+    if missing:
+        raise RuntimeError(f"Selected object IDs are not source-import candidates: {missing}")
+    if any(change["object_type"] == "curriculum_structure" for change in selected):
+        raise RuntimeError("Scoped source import does not support curriculum structures.")
+    report["scope"] = {
+        "object_ids": sorted(object_ids),
+        "excluded_candidate_count": len(candidates) - len(selected),
+    }
+    report["changes"] = selected
+    report["summary"] = {
+        action: sum(1 for change in selected if change["action"] == action)
+        for action in sorted({change["action"] for change in selected})
+    }
+    report["translation_object_ids"] = sorted(
+        change["object_id"] for change in selected if change["translation_required"]
+    )
+    report["translation_node_ids"] = []
+    report["structures"] = []
+
+
 def ensure_clean_canonical() -> None:
     status = subprocess.check_output(["git", "-C", str(REPO_ROOT), "status", "--porcelain", "--", "canonical"], text=True)
     if status.strip():
@@ -900,6 +926,7 @@ def run_import(
     report_path: Path | None = None,
     source_revision_override: str | None = None,
     review_workbook: Path | None = None,
+    only_object_ids: set[str] | None = None,
 ) -> dict[str, Any]:
     if apply:
         ensure_clean_canonical()
@@ -910,6 +937,8 @@ def run_import(
         canonical_root,
         source_revision_override=source_revision_override,
     )
+    if only_object_ids:
+        scope_report_to_object_ids(report, only_object_ids)
     if apply and (report["ambiguous_rename_candidates"] or report["blocking_errors"]):
         raise RuntimeError("Import plan contains blocking ambiguities or structural errors; inspect the dry-run audit.")
     decisions = load_review_decisions(review_workbook, report["changes"]) if apply and review_workbook else {}
@@ -994,6 +1023,10 @@ def main() -> None:
     parser.add_argument("--canonical-root", type=Path, default=CANONICAL_ROOT)
     parser.add_argument("--report", type=Path)
     parser.add_argument("--review-workbook", type=Path, help="Validated candidate workbook required with --apply.")
+    parser.add_argument(
+        "--only-object-id", action="append", default=[], metavar="ID",
+        help="Restrict the plan and import to this changed content object ID; repeatable.",
+    )
     parser.add_argument("--apply", action="store_true", help="Apply the validated plan. The default is dry-run.")
     args = parser.parse_args()
     try:
@@ -1011,6 +1044,7 @@ def main() -> None:
                 report_path=args.report.resolve() if args.report else None,
                 source_revision_override=revision_override,
                 review_workbook=args.review_workbook.resolve() if args.review_workbook else None,
+                only_object_ids=set(args.only_object_id) or None,
             )
         finally:
             if temporary is not None:

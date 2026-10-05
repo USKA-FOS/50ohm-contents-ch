@@ -234,6 +234,10 @@ The source-to-canonical reconstruction target and its historical validation
 are described in sections 4–5 and `VALIDATION_LOG.md`. The incremental import
 and site build above do not automatically perform a zero-difference comparison
 against the newly selected German source commit.
+When only selected objects from that commit are approved, use the same
+`--only-object-id` scope for the workbook, dry run, and apply operation. The
+accepted audit records the excluded candidate count; its source revision does
+not imply that every change in that revision was imported.
 
 ### Business Rule For Deletion
 

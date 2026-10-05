@@ -18,3 +18,8 @@ next import. A dry-run report is not an accepted baseline and must not be used
 as one. The manifests are versioned because they provide the audit trail for
 the source-to-canonical transition; the SQLite database and generated sites do
 not replace them.
+
+A partial import audit may include `scope.object_ids` and
+`scope.excluded_candidate_count`. In that case `source_revision` identifies
+the inspected source snapshot, while only the listed objects were accepted.
+Other changes from the same source revision remain available for later review.

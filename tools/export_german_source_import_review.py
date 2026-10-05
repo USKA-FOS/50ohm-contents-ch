@@ -72,7 +72,9 @@ def stable_id_for_source(source_record: dict) -> str:
     return stable_id(family.prefix, family.object_type, source_record["source_key"])
 
 
-def build_rows(source_root: Path, source_commit: str) -> list[dict[str, object]]:
+def build_rows(
+    source_root: Path, source_commit: str, only_object_ids: set[str] | None = None,
+) -> list[dict[str, object]]:
     source_records = scan_source(source_root)
     canonical_records = load_canonical_index(CANONICAL_ROOT)
     renames, _ = unique_rename_matches(source_records, canonical_records)
@@ -178,6 +180,11 @@ def build_rows(source_root: Path, source_commit: str) -> list[dict[str, object]]
                 "decision": "to_be_imported" if change_kind == "new" else "",
             }
         )
+    if only_object_ids:
+        rows = [row for row in rows if row["object_id"] in only_object_ids]
+        missing = sorted(only_object_ids - {str(row["object_id"]) for row in rows})
+        if missing:
+            raise ValueError(f"Selected object IDs are not source-import candidates: {missing}")
     return rows
 
 
@@ -211,10 +218,14 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Export German source changes for explicit review.")
     parser.add_argument("--source-ref", default="origin/review/de/main")
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument(
+        "--only-object-id", action="append", default=[], metavar="ID",
+        help="Export only this changed content object ID; repeatable.",
+    )
     args = parser.parse_args()
     source_root, commit, temporary = resolve_source_ref(args.source_ref)
     try:
-        rows = build_rows(source_root, commit)
+        rows = build_rows(source_root, commit, set(args.only_object_id) or None)
         write_workbook(rows, args.output.resolve(), args.source_ref, commit)
     finally:
         temporary.cleanup()
