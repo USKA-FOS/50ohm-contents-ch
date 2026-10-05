@@ -12,7 +12,7 @@ Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung 
 </margin>
 
 %TODO ARK: im Text auf die Bilder bezugnehmen!
-%TODO ARK: Eines der Bilder in den Abschnitt X verschieben!  
+%TODO ARK: Eines der Bilder in den Abschnitt 16.11 Paketvermittelte Netzwerke verschieben!  
 
 <law>
 - Ausführliche "Erläuternde Angaben zum Amateurfunkdienst" findet man im [Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) des BAKOM.
