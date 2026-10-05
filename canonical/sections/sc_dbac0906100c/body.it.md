@@ -1,4 +1,4 @@
-Come abbiamo già imparato, un dipolo a semionda può essere alimentato anche da un'estremità. La resistenza di alimentazione, con una lunghezza del filo di λ/2 o suoi multipli, è elevata (circa 2000–2500 Ω).
+Come abbiamo già imparato nella sezione [sec:antennenformen_2], un dipolo a semionda può essere alimentato anche da un'estremità. La resistenza di alimentazione, con una lunghezza del filo di λ/2 o suoi multipli, è elevata (circa 2000–2500 Ω).
 
 Per l'adattamento di un'antenna alimentata da un'estremità esistono diverse possibilità. Di seguito esaminiamo tre varianti tipiche:
 
@@ -35,7 +35,7 @@ Come controantennna si utilizza spesso un corto spezzone di filo (almeno un vent
 
 ---
 
-In alternativa a un circuito di Fuchs o a un trasformatore, si può utilizzare una linea bifilare di lunghezza λ/4. In questo caso si parla di *antenna Zeppelin* (cfr. figura [ref:a_zeppelinantenn]). Come una linea trasformi un'impedenza verrà approfondito in una sezione successiva.
+In alternativa a un circuito di Fuchs o a un trasformatore, si può utilizzare una linea bifilare di lunghezza λ/4. In questo caso si parla di *antenna Zeppelin* (cfr. figura [ref:a_zeppelinantenne]). Come una linea trasformi un'impedenza verrà approfondito in una sezione successiva.
 
 Il nome deriva dall'impiego di queste antenne su dirigibili. Grazie alla linea bifilare di lunghezza λ/4, l'alta tensione si manifesta solo alla sua estremità, quindi a una distanza considerevole dal dirigibile riempito di gas (cfr. figura [ref:a_zeppelinantenne_foto]).
 
@@ -48,7 +48,7 @@ Il nome deriva dall'impiego di queste antenne su dirigibili. Grazie alla linea b
 
 ---
 
-Allo stesso modo di un dipolo a semionda alimentato da un'estremità, anche con altre forme di antenna si può utilizzare una linea di alimentazione con impedenza caratteristica diversa per l'adattamento. Per la classe E abbiamo già conosciuto le antenne a loop a onda intera, tra cui la Delta-Loop e l'antenna Quad. Un'antenna Delta-Loop (cfr. figura [ref:a_delta_loop]) con bracci di uguale lunghezza ha un'impedenza di alimentazione di circa 100 Ω. Inserendo una linea λ/4 con impedenza caratteristica di 75 Ω si ottiene una trasformazione ai consueti 50 Ω del radioamatoriale.
+Allo stesso modo di un dipolo a semionda alimentato da un'estremità, anche con altre forme di antenna si può utilizzare una linea di alimentazione con impedenza caratteristica diversa per l'adattamento. Nella sezione [sec:antennenformen_2] abbiamo già conosciuto le antenne a loop a onda intera, tra cui la Delta-Loop e l'antenna Quad. Un'antenna Delta-Loop (cfr. figura [ref:a_delta_loop]) con bracci di uguale lunghezza ha un'impedenza di alimentazione di circa 100 Ω. Inserendo una linea λ/4 con impedenza caratteristica di 75 Ω si ottiene una trasformazione ai consueti 50 Ω del radioamatoriale.
 
 <margin>
 [picture:311:a_delta_loop:Antenna Delta-Loop]

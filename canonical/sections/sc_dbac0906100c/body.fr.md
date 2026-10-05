@@ -1,4 +1,4 @@
-Comme nous l’avons déjà appris, un dipôle demi-onde peut également être alimenté à une extrémité. L’impédance d’alimentation pour une longueur de fil de $\lambda / 2$ ou de multiples de celle-ci est élevée (environ $\qtyrange{2000}{2500}{\ohm}$).
+Comme nous l’avons déjà appris dans la section [sec:antennenformen_2], un dipôle demi-onde peut également être alimenté à une extrémité. L’impédance d’alimentation pour une longueur de fil de $\lambda / 2$ ou de multiples de celle-ci est élevée (environ $\qtyrange{2000}{2500}{\ohm}$).
 
 Pour adapter une telle antenne alimentée à une extrémité, il existe différentes possibilités. Nous allons examiner ci-dessous trois variantes typiques :
 
@@ -35,7 +35,7 @@ Comme contrepoids, on utilise souvent un court fil (au moins un vingtième de la
 
 ---
 
-Au lieu d’un circuit de Fuchs ou d’un transformateur, on peut également utiliser une ligne bifilaire d’une longueur de $\lambda / 4$. On parle alors d’*antenne Zeppelin* (cf. figure [ref:a_zeppelinantenn]). Nous verrons plus tard dans une section dédiée comment une ligne peut transformer une impédance.
+Au lieu d’un circuit de Fuchs ou d’un transformateur, on peut également utiliser une ligne bifilaire d’une longueur de $\lambda / 4$. On parle alors d’*antenne Zeppelin* (cf. figure [ref:a_zeppelinantenne]). Nous verrons plus tard dans une section dédiée comment une ligne peut transformer une impédance.
 
 Le nom de cette antenne remonte à son utilisation sur les dirigeables. Grâce à la ligne bifilaire de $\lambda / 4$, la haute tension n’apparaît qu’à son extrémité, donc loin du dirigeable rempli de gaz (cf. figure [ref:a_zeppelinantenne_foto]).
 
@@ -48,7 +48,7 @@ Le nom de cette antenne remonte à son utilisation sur les dirigeables. Grâce �
 
 ---
 
-Tout comme pour un dipôle demi-onde alimenté à une extrémité, une ligne d’alimentation avec une impédance caractéristique différente peut également être utilisée pour l’adaptation sur d’autres types d’antennes. Pour la classe E, nous avons déjà rencontré les antennes en boucle à onde entière, dont la Delta-Loop et l’antenne Quad. Une antenne Delta-Loop (cf. figure [ref:a_delta_loop]) avec des côtés de longueur égale présente une impédance d’alimentation d’environ $\qty{100}{\ohm}$. En insérant une ligne de $\lambda / 4$ avec une impédance caractéristique de $\qty{75}{\ohm}$, on obtient une transformation vers les $\qty{50}{\ohm}$ habituels en radioamateurisme.
+Tout comme pour un dipôle demi-onde alimenté à une extrémité, une ligne d’alimentation avec une impédance caractéristique différente peut également être utilisée pour l’adaptation sur d’autres types d’antennes. Dans la section [sec:antennenformen_2], nous avons déjà rencontré les antennes en boucle à onde entière, dont la Delta-Loop et l’antenne Quad. Une antenne Delta-Loop (cf. figure [ref:a_delta_loop]) avec des côtés de longueur égale présente une impédance d’alimentation d’environ $\qty{100}{\ohm}$. En insérant une ligne de $\lambda / 4$ avec une impédance caractéristique de $\qty{75}{\ohm}$, on obtient une transformation vers les $\qty{50}{\ohm}$ habituels en radioamateurisme.
 
 <margin>
 [picture:311:a_delta_loop:Antenne Delta-Loop]
