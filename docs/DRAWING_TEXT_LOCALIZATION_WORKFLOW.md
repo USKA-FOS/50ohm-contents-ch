@@ -29,6 +29,13 @@ visual audit is still required because some rendered labels may remain in
 German when they were filtered out, missing from the glossary, or split across
 multiple TeX fragments.
 
+`render_localized_drawing_svgs.py` accepts both TeX fragments and complete
+standalone documents: it wraps fragments in `FiftyOhm` and compiles standalone
+documents directly. For complex labels containing protected formulas, explicit
+line breaks, or nested commands, inspect the importer's generated TeX before
+applying it. The reviewed 2026-10-05 import of drawings 648 and 10102 records
+its exact substitutions under `review/drawing_localization/2026-10-05/`.
+
 ## 2. Current Candidate CSV
 
 The current extraction tool writes:

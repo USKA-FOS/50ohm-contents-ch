@@ -1,0 +1,87 @@
+{
+  "workflow": "drawing_tex_translation_import",
+  "applied_at": "2026-10-05T21:14:39.700800+00:00",
+  "canonical_head_before": "b927d118716d2dd79a10dcff1065b04c924e2b71",
+  "source_import_audit": "review/source_imports/german-source-import.1b1bc3d6a.full.json",
+  "reviewer": "codex",
+  "human_visual_review_pending": true,
+  "ai_task_ids": {
+    "fr": "drawing-tex-2026-10-05-fr-deepseek-v1",
+    "it": "drawing-tex-2026-10-05-it-deepseek-v1"
+  },
+  "review_file": "review/drawing_localization/2026-10-05/tex_translation_review.csv",
+  "reviewed_terms": 11,
+  "method": "Audited extractor and AI results; reviewed labels substituted in exact German TeX structure after generic importer preview moved protected math and dropped formatting.",
+  "render": {
+    "rendered_count": 4,
+    "failed_count": 0,
+    "visual_preview_checked": true
+  },
+  "drawings": [
+    {
+      "figure": "648",
+      "object_id": "dr_ec2725d9655a",
+      "source_de_tex_sha256": "19bf28557b433f917eede16163e4ace7c51446996470409be1587684fe8b08b1",
+      "metadata_sha256_after": "27e65898d5235dd50d527d65dd468ddced24b9f696ac3dd675c0dc8a43253961",
+      "review_state": {
+        "fr": "to_be_reviewed",
+        "it": "to_be_reviewed"
+      },
+      "outputs": {
+        "fr": {
+          "tex": {
+            "path": "canonical/drawings/dr_ec2725d9655a/648.fr.tex",
+            "sha256": "6c583269f79c1717b5e69f1811fbb5ae68f883f50958c3da83c5bf2dd655ffa9"
+          },
+          "svg": {
+            "path": "canonical/drawings/dr_ec2725d9655a/648.fr.svg",
+            "sha256": "67e22f3106be1d62ba5356db3ae8c6e4c0b24c5cf2b93ef0a268e55393551ca2"
+          }
+        },
+        "it": {
+          "tex": {
+            "path": "canonical/drawings/dr_ec2725d9655a/648.it.tex",
+            "sha256": "13c48dda9348f1cd86f7f1fba613879d35a2bd208e451985edb0146659079674"
+          },
+          "svg": {
+            "path": "canonical/drawings/dr_ec2725d9655a/648.it.svg",
+            "sha256": "af7805bb301c0a24fc02502ee0dd0d77d5c995b461f4ca8037b3a2cedb8a1afb"
+          }
+        }
+      }
+    },
+    {
+      "figure": "10102",
+      "object_id": "dr_a7a7722dfbc9",
+      "source_de_tex_sha256": "73b336a62bddfe0168b910b6357d06e6073dfc8856908d4a3084edb0a8e78306",
+      "metadata_sha256_after": "34b3fbfb9c65e26dfe6cb42f61213b163add36d6cb0612903f82c8ff696c1311",
+      "review_state": {
+        "fr": "to_be_reviewed",
+        "it": "to_be_reviewed"
+      },
+      "outputs": {
+        "fr": {
+          "tex": {
+            "path": "canonical/drawings/dr_a7a7722dfbc9/10102.fr.tex",
+            "sha256": "cb219fe67d16b4a08380a27acaf00c30a306c2b44f31fe4d482d13116685a5af"
+          },
+          "svg": {
+            "path": "canonical/drawings/dr_a7a7722dfbc9/10102.fr.svg",
+            "sha256": "9c2a7710c86cb6f4aa3fc7e169f28dc0e37d471aefa0a60f102fbd02c52ec25b"
+          }
+        },
+        "it": {
+          "tex": {
+            "path": "canonical/drawings/dr_a7a7722dfbc9/10102.it.tex",
+            "sha256": "6dbc84e5d91c177451e654aa9d0bd408c5dd7c4c494cb5db0618cfede5d3fa32"
+          },
+          "svg": {
+            "path": "canonical/drawings/dr_a7a7722dfbc9/10102.it.svg",
+            "sha256": "27489059fe6728aa1432d731fa12982cb2b83b5ad63010fae8b55650647c2fa5"
+          }
+        }
+      }
+    }
+  ],
+  "method_script": "review/drawing_localization/2026-10-05/prepare_reviewed_drawing_tex.py"
+}

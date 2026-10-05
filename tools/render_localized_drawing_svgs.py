@@ -196,14 +196,17 @@ def render_tex_to_svg(*, tex_path: Path, stem: str, width_cm: float) -> None:
         img_dir = tmp_dir / "img"
         img_dir.mkdir(parents=True, exist_ok=True)
 
-        include_path = img_dir / f"{stem}include.tex"
-        include_path.write_text(tex_text, encoding="utf-8")
-
         aux_file = tmp_dir / f"{stem}.tex"
-        aux_file.write_text(
-            f"\\documentclass{{FiftyOhm}}\\DARCimageOnly{{{width_cm}cm}}{{{stem}include}}",
-            encoding="utf-8",
-        )
+        if re.search(r"(?m)^\s*\\documentclass(?:\s*\[[^]]*\])?\s*\{", tex_text):
+            # A complete standalone drawing cannot be nested in FiftyOhm.
+            aux_file.write_text(tex_text, encoding="utf-8")
+        else:
+            include_path = img_dir / f"{stem}include.tex"
+            include_path.write_text(tex_text, encoding="utf-8")
+            aux_file.write_text(
+                f"\\documentclass{{FiftyOhm}}\\DARCimageOnly{{{width_cm}cm}}{{{stem}include}}",
+                encoding="utf-8",
+            )
 
         for filename in LATEX_SUPPORT_FILES:
             shutil.copy2(LATEX_SUPPORT_ROOT / filename, tmp_dir / filename)
