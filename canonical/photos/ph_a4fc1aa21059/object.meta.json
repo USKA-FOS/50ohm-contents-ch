@@ -23,7 +23,8 @@
     }
   },
   "languages": [
-    "de"
+    "de",
+    "fr"
   ],
   "metadata": {
     "asset": {
@@ -41,7 +42,8 @@
     },
     "reconstruction": {
       "description_canonical_files": {
-        "de": "1002.de.txt"
+        "de": "1002.de.txt",
+        "fr": "1002.fr.txt"
       },
       "description_source_format": "single_description"
     },
@@ -75,7 +77,7 @@
     },
     {
       "language": "fr",
-      "state": "to_be_translated"
+      "state": "to_be_reviewed"
     },
     {
       "language": "it",
@@ -94,7 +96,8 @@
       "sort_order": 1,
       "storage": {
         "files": {
-          "de": "1002.de.txt"
+          "de": "1002.de.txt",
+          "fr": "1002.fr.txt"
         },
         "kind": "description_file_bundle"
       },
@@ -106,7 +109,8 @@
       "sort_order": 2,
       "storage": {
         "files": {
-          "de": "1002.de.txt"
+          "de": "1002.de.txt",
+          "fr": "1002.fr.txt"
         },
         "kind": "description_file_bundle"
       },

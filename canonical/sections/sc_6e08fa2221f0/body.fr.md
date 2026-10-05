@@ -1,17 +1,17 @@
-Dans les classes N et E, nous avons déjà rencontré la *zone morte*. Examinons ici quelques observations importantes concernant les distances :
+Dans la section [sec:tote_zone_1], nous avons déjà fait connaissance avec la *zone morte*. Examinons ici quelques observations importantes concernant les distances :
 
-- Plus la fréquence est élevée, plus le rayon de la zone morte est grand : Figure [ref:a_tote_zone_1]
-- Plus l’*angle de rayonnement* est plat, plus le rayon de la zone morte est grand : Figure [ref:a_tote_zone_2]
+- Plus la fréquence est élevée, plus le rayon de la zone morte est grand : figure [ref:a_tote_zone_1]
+- Plus l'angle de rayonnement est plat, plus le rayon de la zone morte est grand : figure [ref:a_tote_zone_2]
 
 <margin>
-[picture:995:a_tote_zone_1:Simulation de l’étendue de la zone morte pour un angle de rayonnement de $\qty{45}{\degree}$ en fonction de la fréquence, en janvier 2025]
+[picture:995:a_tote_zone_1:Simulation de l'étendue de la zone morte avec un angle de rayonnement de $\qty{45}{\degree}$ en fonction de la fréquence, en janvier 2025]
 </margin>
 
 <margin>
-[picture:994:a_tote_zone_2:Simulation de l’étendue de la zone morte en fonction de l’angle de rayonnement dans la bande des $\qty{40}{\metre}$, en janvier 2025]
+[picture:994:a_tote_zone_2:Simulation de l'étendue de la zone morte en fonction de l'angle de rayonnement dans la bande des $\qty{40}{\meter}$, en janvier 2025]
 </margin>
 
-Sur les bandes supérieures, il arrive souvent qu’une fréquence soit considérée à tort comme inutilisée, car seule une station d’un QSO est reçue.
+Surtout sur les bandes supérieures, cela conduit rapidement à la situation où l'on suppose à tort qu'une fréquence est inoccupée, parce que l'on ne peut recevoir qu'une seule station du QSO qui s'y déroule.
 
 [question:AH215]
 

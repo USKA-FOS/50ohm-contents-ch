@@ -1,4 +1,4 @@
-Des portées encore plus grandes, de $\num{1000}$ à $\qty{2000}{\kilo\meter}$, sont possibles en été grâce aux conditions d’*E sporadique* [index:Sporadic-E]. Il s'agit généralement de zones fortement ionisées, nettement délimitées et de petite taille (d'où le terme « sporadique »), situées entre $\num{100}$ et $\qty{110}{\kilo\meter}$ d'altitude. Ces zones réfractent les ondes radio vers la Terre (*réfraction*) (figure [ref:n_sporadic_e]). Il est impossible de prévoir quand et où l’*E sporadique* se produit.
+Des portées encore plus grandes, de $\num{1000}$ à $\qty{2000}{\kilo\meter}$, sont rendues possibles pendant les mois d'été par des *conditions de E sporadique* [index:Sporadic-E]. Dans ce cas, des zones généralement très délimitées et de petite taille (donc "sporadiques"), mais exceptionnellement fortement ionisées, apparaissent à une hauteur d'environ $\num{100}$ à $\qty{110}{\kilo\meter}$. Ces zones réfractent les ondes radio vers la terre (*réfraction*) (figure [ref:n_sporadic_e]). Quand et où le E sporadique se produit exactement ne peut pas être prédit.
 
 <margin>
 [picture:733:n_sporadic_e:Réfraction des ondes radio sur des zones fortement ionisées de la couche E]
@@ -7,5 +7,3 @@ Des portées encore plus grandes, de $\num{1000}$ à $\qty{2000}{\kilo\meter}$, 
 [question:NH306]
 [question:NH305]
 
-
-<!-- Review abgeschlossen, passt so für mich. Vy 73 de Marc -->

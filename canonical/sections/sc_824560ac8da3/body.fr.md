@@ -1,57 +1,63 @@
-Ligne 3 = copier-coller de « Principes de la gestion des fréquences ». Ligne 6 helvétisée, mais non vérifiée pour la correction. Domaine technique : EXR.
+%YPA à EXR : Ligne 3 = copié-collé de "Principes de la gestion des fréquences". Ligne 6 helvétisée, mais non vérifiée pour exactitude. Domaine EXR.
 
-Les fréquences radio étant une ressource limitée, leur utilisation efficace est indispensable au bon fonctionnement des sociétés de communication modernes. C’est pourquoi la loi sur les télécommunications (LTC) [index:loi sur les télécommunications] (LTC) confie à l’organe chargé de la gestion des fréquences (OFCOM) [index:OFCOM] le mandat de prendre les mesures appropriées pour garantir une utilisation efficace et sans interférences des fréquences (art. 25 al. 1 LTC).
+Les fréquences radio étant une ressource limitée, leur utilisation efficace est indispensable au fonctionnement des sociétés de communication modernes. La loi sur les télécommunications (LTC) confie donc un mandat direct à l'organe chargé de la gestion des fréquences (OFCOM) de prendre les mesures appropriées pour garantir une utilisation efficace et sans interférence (art. 25, al. 1 LTC).
 
 ---
-La loi sur les télécommunications [index:loi sur les télécommunications] (LTC) stipule le principe selon lequel toute utilisation de fréquence doit faire l’objet d’une *attribution de fréquence* [index:attribution de fréquence] préalable. Cette attribution peut être individuelle ou générale. Une attribution individuelle [index:attribution de fréquence:attribution individuelle] s’applique par exemple lorsqu’une entreprise se voit attribuer des fréquences pour son réseau radio professionnel. Une attribution générale [index:attribution de fréquence:attribution générale], en revanche, peut concerner le grand public ou un groupe de personnes déterminé, par exemple les radioamateurs. Les attributions sont documentées dans le « Plan national d’attribution des fréquences » (PNAF) de l’OFCOM.
+La loi sur les télécommunications [index:Fernmeldegesetz] (LTC) consacre le principe selon lequel toute utilisation d'une fréquence nécessite une *attribution de fréquence* [index:Frequenzzuteilung] préalable. Il peut s'agir d'une attribution individuelle ou d'une attribution générale. Une attribution individuelle [index:Frequenzzuteilung:Einzelzuteilung] existe, par exemple, lorsque des fréquences sont attribuées à une entreprise pour la radio opérationnelle. Une attribution générale [index:Frequenzzuteilung:Allgemeinzuteilung] peut, en revanche, être accordée au public ou à un groupe spécifique de personnes, par exemple aux radioamateurs. Les attributions sont documentées dans le "Plan national d'attribution des fréquences" (NaFZ) de l'OFCOM.
 
 <indepth>
-[« Plan national d’attribution des fréquences » (PNAF)](https://www.bakom.admin.ch/dam/de/sd-web/Y3GtudExOtP2/Swiss_National_Frequency_Allocation_Plan_2026.pdf)
+["Plan national d'attribution des fréquences" (NaFZ)](https://www.bakom.admin.ch/dam/de/sd-web/Y3GtudExOtP2/Swiss_National_Frequency_Allocation_Plan_2026.pdf)
 </indepth>
 ---
 <law>
-[Annexe 4](https://www.fedlex.admin.ch/eli/cc/2020/914/fr#annex_4) de l’ordonnance de l'OFCOM sur l'utilisation du spectre des fréquences de radiocommunication (OOUS)
-</law>
+[Annexe 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4) de l'"ordonnance de l'OFCOM sur l'utilisation du spectre des fréquences de radiocommunication" OOUS
 
-Les radioamateurs ne sont autorisés à émettre que sur les fréquences qui leur sont attribuées.
-Les bandes de fréquences allouées au service d’amateur [index:service d'amateur] en Suisse sont définies à l’annexe 4 de l’ordonnance de l'OFCOM sur l'utilisation du spectre des fréquences de radiocommunication (OOUS).
-Même si les bandes de fréquences sont convenues au niveau international, ce sont exclusivement les dispositions nationales qui s’appliquent. Celles-ci s’appuient toutefois sur les accords internationaux.
+</law>
+Les radioamateurs ne peuvent effectuer des émissions radio que sur les fréquences qui leur sont attribuées.
+Les bandes de fréquences pour le service d'amateur en Suisse sont réglementées dans l'annexe 4 de l'"ordonnance de l'OFCOM sur l'utilisation du spectre des fréquences de radiocommunication" (OOUS).
+Même si les bandes de fréquences sont convenues au niveau international, seules les dispositions nationales sont déterminantes, bien qu'elles s'inspirent des accords internationaux.
 [question:VO034]
 [question:VO037]
 
-L’annexe 4 se compose de deux tableaux. L’un s’applique à l’autorisation de radioamateur (HB9), l’autre à l’autorisation de radioamateur NOVICE (HB3). Chaque tableau est accompagné d’une légende expliquant les symboles en exposant utilisés pour indiquer les conditions d’utilisation spécifiques.
-% Peut-être une image de la légende en marge ?
+---
 
-En effet, en plus des bandes de fréquences, l’annexe 4 contient également des conditions d’utilisation détaillées [index:attribution de fréquence:conditions d'utilisation], notamment la puissance maximale d’émission autorisée, qui doivent être respectées par chaque radioamateur.
+<margin>
+[photo:1005:Legende_zu_Verweiszeichen:Légende des signes de référence]
+</margin>
 
-Par ailleurs, certaines fréquences sont soumises à des conditions d’utilisation particulières. Il existe par exemple des fréquences sur lesquelles d’autres utilisateurs ont la priorité, c’est-à-dire que le service d’amateur n’a qu’un droit d’utilisation *secondaire* et doit veiller à ne pas perturber le service *primaire*. Pour en savoir plus, consultez la section [sec:primaerer_sekundaerer_funkdienst].
+L'annexe 4 se compose de deux tableaux. Un tableau s'applique à la licence de radioamateur (HB9), l'autre tableau s'applique à la licence de radioamateur NOVICE (HB3). Pour les deux listes, il existe une légende qui explique les signes de référence en exposant utilisés dans le tableau et qui indiquent les conditions d'utilisation spéciales.
+%Éventuellement une image de la légende dans la marge ?
+
+Car outre les bandes de fréquences, l'annexe 4 contient également des conditions d'utilisation détaillées [index:Frequenzzuteilung:Nutzungsbestimmungen], notamment la puissance maximale avec laquelle on peut émettre, que chaque radioamateur doit également respecter.
+
+De plus, certaines fréquences sont soumises à des conditions d'utilisation *spéciales*. Ainsi, il existe des fréquences sur lesquelles d'autres utilisateurs ont la priorité, c'est-à-dire que le radioamateurisme n'a que des droits d'utilisation *secondaires* et doit donc veiller à ne pas interférer avec le service *primaire*. Plus d'informations à ce sujet plus loin dans la section [sec:primaerer_sekundaerer_funkdienst].
 
 [question:VN008]
 
-% TODO: Remplacer l'image - Issue #13 ouverte - Souhaite-t-on vraiment insérer une image qui doit être « entretenue » ? D’autant plus qu’il s’agirait de deux pages. Peut-être préférer un extrait reconnaissable ?
-<webmargin>
-[photo:99:n_frequenzbereiche_afuv_anlage_1:Vue d’ensemble tabulaire, annexe 1, ORa]
-</webmargin>
-
 ---
-Pour certaines fréquences, une déclaration préalable à l’OFCOM est obligatoire avant toute utilisation. Cette déclaration doit être transmise électroniquement via le système déterminé par l’OFCOM.
+Pour certaines fréquences, une déclaration à l'OFCOM est même nécessaire avant utilisation. Elle doit être transmise électroniquement via le système défini par l'OFCOM.
 [question:VN009]
 <law>
-Pour déclarer une utilisation spéciale des fréquences, rendez-vous directement sur le système dédié : [Utilisation spéciale des fréquences](https://www.egov.swiss/fr/amateurfunk/spezielle-frequenznutzung-detail)
+Accès direct au système de déclaration pour [l'utilisation spéciale de fréquences](https://www.egov.swiss/de/amateurfunk/spezielle-frequenznutzung-detail)
 </law>
 
 ---
 <law>
-Pour accéder directement à la [tableau d’aide](https://www.bakom.admin.ch/fr/examens-radioamateurisme#Moyens-auxiliaires-admis-aux-examens) remis lors de l’examen :
+Accès direct à la [table d'aide](https://www.bakom.admin.ch/de/amateurfunk-pruefungen#Zugelassene-Hilfsmittel-f%C3%BCr-die-Amateurfunkpr%C3%BCfungen) telle qu'elle est émise à l'examen.
 
-L’article 6 de l’OOUS définit qui est autorisé à utiliser ces fréquences et renvoie à la liste de l’annexe 4. C’est pourquoi cette liste porte également le titre « Art. 6 OOUS », bien qu’il s’agisse strictement de l’annexe 4 de l’OOUS.
+Parce que l'article 6 de l'OOUS définit qui peut utiliser ces fréquences et y fait référence à la liste de l'annexe 4, la liste porte également le "titre" Art. 6 OOUS, bien qu'il s'agisse strictement parlant de l'annexe 4 de l'OOUS.
 </law>
 
-L’OFCOM désigne l’ « annexe 4 » également sous le nom de « tableau d’aide », car ce tableau est distribué lors de l’examen et peut être utilisé pour répondre aux questions. Il n’est donc pas nécessaire d’apprendre par cœur les conditions d’utilisation précises, mais il faut savoir interpréter correctement le tableau. Grâce au « tableau d’aide », les questions suivantes peuvent être répondues.
+<margin>
+[photo:1004:hb9_frequenzen:Extrait de la table d'aide]
+</margin>
 
-% La phrase suivante doit être mise à jour en fonction des prochaines conditions : Il est à noter que ces exemples de questions ne sont donnés qu’à titre indicatif, afin de donner une idée de leur forme. Lors de l’examen, des questions portant sur d’autres fréquences ou conditions d’utilisation peuvent également être posées.
+L'OFCOM désigne également l'"annexe 4" comme "table d'aide". Ceci parce que ce tableau est distribué à l'examen et peut être utilisé pour répondre aux questions. On n'a donc pas besoin de connaître par cœur les conditions d'utilisation exactes, mais seulement de pouvoir interpréter correctement le tableau. Avec la "table d'aide", les questions suivantes peuvent être répondues.
 
-% Questions de ce type (DL-VD727-737) dans DL en 14.7. Décision EXR/YPA : pertinent et cohérent ici
+% La phrase suivante doit être présente au plus tard avec les futures conditions ici : Il est à noter qu'il ne s'agit que de questions types, afin de donner une idée de ce à quoi de telles questions pourraient ressembler. À l'examen, des questions sur d'autres fréquences ou conditions d'utilisation peuvent également être posées.
+% Alternative : Placer la phrase dès aujourd'hui, mais n'avoir ici et dans le catalogue que 3-4 questions.
+
+% Les questions de ce type (DL-VD727-737) sont dans DL en 14.7. Décision EXR/YPA, que c'est plus sensé et cohérent ici.
 [question:VO004]
 [question:VO005]
 [question:VO006]

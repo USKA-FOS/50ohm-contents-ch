@@ -1,7 +1,7 @@
-Dans la classe N, nous avons déjà appris à connaître le squelch (squelch). Il évalue le signal reçu et le compare à un seuil réglé. Le signal d'entrée traité par le squelch peut être prélevé soit sur la partie FI (intensité du signal) soit sur la partie BF (rapport signal/bruit) du récepteur.
+Dans la section [sec:squelch], nous avons déjà fait connaissance avec le squelch (système de suppression du bruit). Il évalue le signal reçu et le compare à un seuil prédéfini. Le signal d'entrée traité par le squelch peut être prélevé soit au niveau de la FI (intensité du signal), soit au niveau de la BF (rapport signal sur bruit) du récepteur.
 
 [question:AF225]
 
 <webmargin>
-[picture:737:squelch:Évolution temporelle de l'amplitude sur une fréquence, montrant une émission forte et une faible, entourées de bruit sans émission. Le squelch atténue à la fois le bruit et les signaux faibles lorsque l'amplitude est inférieure au seuil réglé.]
+[picture:737:squelch:Évolution temporelle de l'amplitude sur une fréquence, on voit une émission forte et une émission faible, autour aucune émission (bruit), le squelch supprime à la fois le bruit et les signaux faibles lorsque l'amplitude est inférieure à la valeur réglée.]
 </webmargin>

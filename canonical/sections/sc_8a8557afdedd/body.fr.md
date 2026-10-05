@@ -1,12 +1,12 @@
-Dans la classe E, nous avons déjà abordé le phénomène des aurores : lorsque des particules chargées du vent solaire pénètrent dans la haute atmosphère, elles génèrent d’une part les aurores boréales, et d’autre part, elles provoquent la réfraction des ondes radio, ce qui est particulièrement exploité dans la bande VHF (à $\qty{6}{\m}$ et $\qty{2}{\m}$) pour des liaisons DX. Dans la classe A, il y a des questions supplémentaires approfondissant ce sujet.
+Dans la section [sec:aurora_1], nous avons déjà fait connaissance avec l'aurore : lorsque des particules chargées du vent solaire se couplent dans la haute atmosphère, des aurores polaires se produisent d'une part, et d'autre part, les ondes radio sont réfractées, ce qui est utilisé principalement dans la gamme VHF ($\qty{6}{\meter}$ et $\qty{2}{\meter}$) pour les liaisons DX. Pour l'examen HB9, il y a ici d'autres questions approfondies.
 
-Voici ce qu’il faut retenir :
+Tu devrais te souvenir des choses suivantes :
 
-* Les aurores se produisent dans la couche E ($\num{90}$ à $\qty{130}{\km}$), près des pôles.
-* Des particules chargées en provenance du Soleil pénètrent dans l’atmosphère.
-* Pour nous en Europe, la région polaire se situe au nord.
-* Le mode CW est le plus adapté pour les aurores.
-* Le signal est "fluctuant" et "bourdonnant".
+* L'aurore se produit dans la couche E ($\num{90}$ à $\qty{130}{\kilo\meter}$) près des pôles.
+* Des particules chargées du Soleil pénètrent dans l'atmosphère.
+* Pour nous en Europe, la région polaire est au nord.
+* Le CW est le mieux adapté pour l'aurore.
+* Le signal est "tremblant" et "bourdonnant".
 
 [question:AH302]
 [question:AH303]
@@ -18,16 +18,16 @@ Voici ce qu’il faut retenir :
 
 <webonly>
 <margin>
-Voici un exemple d’un QSO en CW entre GM4YXI et OK/DF7TR/P lors d’une aurore :
+La fin d'un QSO CW Aurora entre GM4YXI et OK/DF7TR/P peut être écoutée ici :
 
 [include:applet_aurora]
 
-Un QSO en SSB lors d’une aurore est également disponible à l’écoute sur [Youtube](https://50ohm.de/assb).
+Un QSO SSB Aurora est également disponible sur [Youtube](https://50ohm.de/assb) pour écoute.
 </margin>
 </webonly>
 
 <latexonly>
 <indepth>
-Un exemple de QSO en CW entre OH2MA et OH2LAK sur $\qty{50}{\MHz}$ lors d’une aurore est disponible sur [Youtube](https://50ohm.de/acw). On y entend le son très rauque et distordu des signaux Morse. Un QSO en SSB est également disponible à l’écoute sur [Youtube](https://50ohm.de/assb).
+Un exemple de QSO CW Aurora entre OH2MA et OH2LAK sur $\qty{50}{\mega\hertz}$ est disponible sur [Youtube](https://50ohm.de/acw). Ici, on peut entendre le son très rugueux et épuisé des signaux Morse. Un QSO SSB est également disponible sur [Youtube](https://50ohm.de/assb) pour écoute.
 </indepth>
 </latexonly>

@@ -1,4 +1,4 @@
-Lors de la conversion analogique-numérique (A/N) et numérique-analogique (N/A), le traitement des signaux analogiques et numériques est interconnecté. Des filtres analogiques sont nécessaires avant le convertisseur A/N ainsi qu'après le convertisseur N/A. L'illustration [ref:a_adc_dac_filter] montre l'ensemble de la chaîne de signal. Du côté de l'entrée, un *filtre anti-repliement* est placé avant le convertisseur A/N. Il limite la bande de fréquences du signal d'entrée analogique avant son échantillonnage. Après le traitement numérique du signal, le convertisseur N/A génère à nouveau un signal analogique. Un *filtre de reconstruction* en aval élimine alors les composantes haute fréquence indésirables. Nous expliquerons pourquoi ces deux filtres sont nécessaires dans la section suivante.
+Dans la conversion A/N et N/A, le traitement analogique et numérique du signal sont interconnectés. Des filtres analogiques sont nécessaires à la fois avant le convertisseur analogique et après le convertisseur numérique. La figure [ref:a_adc_dac_filter] montre la chaîne de signal complète. Du côté de l'entrée, un *filtre anti-repliement* est placé avant le convertisseur analogique. Il limite la bande de fréquences du signal d'entrée analogique avant son échantillonnage. Après le traitement numérique du signal, le convertisseur numérique génère à nouveau un signal analogique. Un *filtre de reconstruction* en aval élimine les composantes de signal haute fréquence indésirables. Nous examinerons pourquoi ces deux filtres sont nécessaires dans la section suivante.
 
 <margin>
 [picture:1131:a_adc_dac_filter:Conversion A/N et N/A avec filtre anti-repliement et filtre de reconstruction]
@@ -6,47 +6,47 @@ Lors de la conversion analogique-numérique (A/N) et numérique-analogique (N/A)
 
 ---
 
-D'après la leçon sur le théorème d'échantillonnage, nous savons qu'un signal doit être échantillonné avec une fréquence d'échantillonnage suffisamment élevée. Pour un signal dont la fréquence maximale à capturer est $f_\mathrm{max}$, la fréquence d'échantillonnage doit être supérieure à $2\cdot f_\mathrm{max}$.
+De la leçon sur le théorème d'échantillonnage dans la section [sec:abtasttheorem], nous savons qu'un signal doit être échantillonné avec une fréquence d'échantillonnage suffisamment élevée. Pour un signal avec la fréquence maximale à capturer $f_\mathrm{max}$, la fréquence d'échantillonnage doit être supérieure à $2\cdot f_\mathrm{max}$.
 
-Cependant, une antenne reçoit généralement de nombreux signaux différents, y compris ceux dont les fréquences dépassent la bande de fréquences que nous souhaitons traiter. Si de telles composantes fréquentielles atteignent le convertisseur A/N alors que sa fréquence d'échantillonnage est insuffisante pour ces fréquences, elles peuvent apparaître dans le signal numérique sous forme d'autres fréquences, inexistantes en réalité. Ces fréquences sont appelées *replis* (ou *aliasing*).
+Cependant, via une antenne, nous recevons généralement de nombreux signaux différents – y compris ceux avec des fréquences au-dessus de la bande de fréquences que nous souhaitons réellement traiter. Si ces composantes de signal atteignent le convertisseur analogique alors que sa fréquence d'échantillonnage n'est pas suffisante pour ces fréquences, elles peuvent apparaître dans le signal numérique comme d'autres fréquences, en réalité non présentes. Celles-ci sont appelées *repliements*.
 
-Pour éviter cela, un *filtre anti-repliement* est placé avant l'entrée du convertisseur A/N. Selon l'application, il peut s'agir par exemple d'un passe-bas ou d'un filtre passe-bande. Un filtre passe-bande pourrait être utilisé, par exemple, pour la voix. Le filtre doit suffisamment atténuer les composantes indésirables qui pourraient provoquer un repliement lors de l'échantillonnage. En particulier, les composantes fréquentielles supérieures à la moitié de la fréquence d'échantillonnage ne doivent pas atteindre le convertisseur A/N sans atténuation.
+Pour éviter cela, un *filtre anti-repliement* est utilisé avant l'entrée du convertisseur analogique. Selon l'application, il s'agit par exemple d'un filtre passe-bas ou passe-bande. Un filtre passe-bande pourrait par exemple être utilisé pour la parole. Le filtre doit suffisamment atténuer les composantes de signal indésirables qui pourraient provoquer un repliement lors de l'échantillonnage. En particulier, les composantes de fréquence au-dessus de la moitié de la fréquence d'échantillonnage ne doivent pas parvenir librement au convertisseur analogique.
 
 [question:AF622]
 [question:AF623]
 
 <indepth>
-Un exemple concret de *repliement* se rencontre également dans la vie quotidienne avec les images numériques. Si l'on photographie avec un appareil des structures très fines et régulièrement répétées, par exemple une grille serrée, un tissu à fines rayures ou une moustiquaire, des motifs plus grands, inexistants dans l'original, peuvent apparaître sur l'image. Ces motifs sont appelés *effets de moiré*.
+Un exemple concret de *repliement* nous rencontre également dans la vie quotidienne avec les images numériques. Lorsqu'on photographie avec un appareil photo des structures très fines et régulièrement répétitives, par exemple une grille à mailles serrées, un tissu à fines rayures ou une moustiquaire, des motifs plus grands, absents de l'original, peuvent soudainement apparaître dans l'image. Ceux-ci sont appelés *motifs de moiré*.
 
-La cause est similaire à celle de l'échantillonnage d'un signal électrique. Un capteur d'image ne peut pas capturer une image en un nombre arbitrairement élevé de points, mais possède un nombre fini de pixels. Si une structure est plus fine que la résolution spatiale du capteur, elle n'est plus échantillonnée de manière univoque. Une structure fine peut ainsi donner l'impression d'une autre structure plus grossière qui n'existait pas à l'origine.
+La cause est similaire à l'échantillonnage d'un signal électrique. Un capteur d'appareil photo ne peut pas capturer une image à un nombre arbitraire de points, mais possède seulement un nombre fini de pixels. Si une structure est plus fine que la résolution spatiale du capteur, elle n'est plus échantillonnée de manière unique. À partir de la structure fine réellement présente, une autre structure, plus grossière, peut ainsi sembler apparaître.
 
-Avec le convertisseur A/N, le même principe s'applique sur l'axe temporel : si une fréquence de signal trop élevée est échantillonnée avec une fréquence d'échantillonnage trop basse, une fréquence plus basse, inexistante à l'origine, apparaît dans le signal numérisé.
+Avec le convertisseur analogique, le même principe se produit sur l'axe temporel : si une fréquence de signal trop élevée est échantillonnée avec une fréquence d'échantillonnage trop basse, une autre fréquence, plus basse, qui n'était pas présente à l'origine, apparaît dans le signal numérisé.
 
-Un effet de moiré peut donc être considéré comme un exemple visible de la manière dont une échantillonnage insuffisant crée de nouvelles structures apparentes.
+Un motif de moiré peut donc être considéré comme un exemple visible de la façon dont, par un échantillonnage insuffisant, de nouvelles structures apparentes se forment.
 
-% TODO: Bild besorgen
+% TODO: Image à obtenir
 %<margin>
-%[picture:XXXX:a_moire:Effet de moiré comme exemple de repliement spatial]
+%[picture:XXXX:a_moire:Motif de moiré comme exemple de repliement spatial]
 %</margin>
 </indepth>
 
 ---
 
-Le convertisseur A/N nécessite également un générateur d'horloge, aussi appelé générateur d'horloge d'échantillonnage. Celui-ci détermine les instants auxquels le signal d'entrée est échantillonné et fixe ainsi la fréquence d'échantillonnage. La fréquence d'échantillonnage peut être réglée de manière fixe ou contrôlée, par exemple, par un microcontrôleur.
+Le convertisseur analogique nécessite également un générateur d'horloge, également appelé générateur d'horloge d'échantillonnage. Celui-ci détermine aux quels instants le signal d'entrée est échantillonné et définit ainsi la fréquence d'échantillonnage. La fréquence d'échantillonnage peut être fixe ou être contrôlée, par exemple, par un microcontrôleur.
 
 <margin>
-[picture:1132:a_anit_alias:Filtre anti-repliement, convertisseur A/N et générateur d'horloge]
+[picture:1132:a_anit_alias:Filtre anti-repliement, convertisseur analogique et générateur d'horloge]
 </margin>
 
 [question:AF620]
 
 ---
 
-De l'autre côté du traitement numérique du signal, le convertisseur N/A effectue l'opération inverse. Il convertit les échantillons numériques en valeurs de tension analogiques. Comme les valeurs ne sont émises qu'à intervalles de temps discrets, le signal de sortie du convertisseur N/A ne présente pas immédiatement une évolution idéale et lisse.
+De l'autre côté du traitement numérique du signal, le convertisseur numérique effectue l'opération inverse. Il reconvertit les échantillons numériques en valeurs de tension analogiques. Comme les valeurs individuelles ne sont émises qu'à des intervalles de temps fixes, il ne se forme pas initialement une évolution de signal idéalement lisse à la sortie du convertisseur numérique.
 
-En raison de l'émission discrète dans le temps, des composantes haute fréquence indésirables (par exemple, dans l'illustration [ref:a_adc_4bit], les transitions rapides entre les valeurs discrètes du signal de sortie contiennent des composantes haute fréquence) apparaissent en plus du signal utile souhaité. Pour les supprimer, un *filtre de reconstruction* est placé après le convertisseur N/A. Selon l'application, on peut utiliser par exemple un passe-bas ou un filtre passe-bande.
+En raison de la sortie temporellement discrète, des composantes de signal haute fréquence indésirables apparaissent en plus du signal utile souhaité (par exemple dans la figure [ref:a_adc_4bit], les transitions rapides entre les valeurs discrètes du signal de sortie contiennent les composantes haute fréquence). Pour les atténuer, un *filtre de reconstruction* est utilisé après le convertisseur numérique. Ici aussi, selon l'application, un filtre passe-bas ou passe-bande peut par exemple être utilisé.
 
-Le filtre de reconstruction laisse passer la bande de fréquences utile souhaitée et atténue les composantes haute fréquence indésirables du convertisseur N/A. Cela permet d'obtenir à la sortie un signal analogique aussi propre que possible (cf. illustration [ref:a_adc_12bit], le filtre de reconstruction lisse le signal).
+Le filtre de reconstruction laisse passer la bande de fréquences utile souhaitée et atténue les composantes de signal haute fréquence indésirables du convertisseur numérique. Il en résulte à la sortie un signal analogique aussi propre que possible (cf. figure [ref:a_adc_12bit], le filtre de reconstruction lisse le signal).
 
 [question:AF624]
 [question:AF625]

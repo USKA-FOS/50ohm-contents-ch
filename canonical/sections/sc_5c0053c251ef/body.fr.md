@@ -1,13 +1,9 @@
-La *Greyline* est la zone de transition entre le jour et la nuit, c’est-à-dire toutes les régions qui se trouvent peu avant ou après le lever ou le coucher du soleil à un moment donné. Elle forme un anneau autour de la Terre et présente des conditions de propagation particulières pour les ondes courtes. En effet, l’effet atténuant de la couche D y est affaibli ou n’existe pas encore (au lever du soleil) ou n’existe plus (au coucher du soleil), tandis que l’effet réfractant des couches E et F est déjà ou encore actif.
+La *Greyline* est la zone de la limite jour/nuit, c'est-à-dire toutes les régions qui se trouvent à un moment donné juste avant ou après le lever et le coucher du soleil. Elle forme un anneau qui fait le tour du globe terrestre et où des conditions de propagation particulières pour les ondes courtes prévalent. En effet, ici, l'effet d'atténuation de la couche D est affaibli ou n'est pas encore (au lever du soleil) ou n'est plus (au coucher du soleil) présent, tandis que l'effet de réfraction des couches E et F est encore ou déjà actif.
 
-Ainsi, surtout aux périodes proches des équinoxes, des liaisons DX sont possibles, notamment sur les bandes basses de ondes courtes et la bande des $\qty{160}{\meter}$, pouvant relier l’Europe à l’Australie, la Nouvelle-Zélande et le Pacifique.
-
+Ainsi, surtout autour des équinoxes, des liaisons DX sont possibles, principalement sur les bandes d'ondes courtes inférieures et la bande des $\qty{160}{\meter}$, qui peuvent aller de l'Europe jusqu'en Australie, en Nouvelle-Zélande et dans le Pacifique.
 
 [question:EH213]
-
 
 <margin>
 [include:greyline]
 </margin>
-
-<!-- Review abgeschlossen, passt so für mich. Vy 73 de Marc -->
