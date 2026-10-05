@@ -103,7 +103,7 @@ Un circuit LC derrière un amplificateur de puissance HF a une fonction similair
 
 [question:AF404]
 
-Pour les amplificateurs de puissance, il est important de découpler au mieux les différentes étages HF de la tension de service pour éviter des rétroactions sur d'autres étages (tendance à l'oscillation, effets de modulation, etc.). Pour cela, les alimentations en tension de service des différentes étages sont découplées les unes des autres par des inductances montées en série et des condensateurs de découplage vers la masse. Cet agencement constitue un passe-bas, car idéalement, seule la tension de service continue souhaitée est transmise, tandis que les composantes HF sont bloquées.
+Pour les amplificateurs de puissance, il est important de découpler au mieux les différents étages HF de la tension de service pour éviter des rétroactions sur d'autres étages (tendance à l'oscillation, effets de modulation, etc.). Pour cela, les alimentations en tension de service des différents étages sont découplées les unes des autres par des inductances montées en série et des condensateurs de découplage vers la masse. Cet agencement constitue un passe-bas, car idéalement, seule la tension de service continue souhaitée est transmise, tandis que les composantes HF sont bloquées.
 
 [question:AF411]
 [question:AF419]

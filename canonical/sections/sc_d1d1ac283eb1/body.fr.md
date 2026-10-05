@@ -9,7 +9,7 @@ Ainsi, le niveau moyen du signal vocal et donc le niveau d'émission moyen augme
 [picture:1043:a_kompressor:Fonctionnement d'un compresseur]
 </margin>
 
-Cependant, lors de l'utilisation d'un compresseur vocal, il faut veiller à éviter une compression trop élevée. Une compression trop forte peut rendre le signal vocal artificiel et moins compréhensible. Si le processeur vocal ou les étapes suivantes sont surmodulés, des distorsions supplémentaires et un élargissement du signal émis (*splatter*) peuvent se produire. Par conséquent, la compression ne doit être augmentée que dans la mesure où le signal reste propre et bien compréhensible.
+Cependant, lors de l'utilisation d'un compresseur vocal, il faut veiller à éviter une compression trop élevée. Une compression trop forte peut rendre le signal vocal artificiel et moins compréhensible. Si le processeur vocal ou les étages suivants sont surmodulés, des distorsions supplémentaires et un élargissement du signal émis (*splatter*) peuvent se produire. Par conséquent, la compression ne doit être augmentée que dans la mesure où le signal reste propre et bien compréhensible.
 
 [question:AE212]
 

@@ -1,8 +1,8 @@
-Con le basi sulla ionosfera, l'attività delle macchie solari, la cosiddetta "zona morta" e le principali regioni ionosferiche, ci siamo già occupati nelle domande per l'esame HB3. Il principio fondamentale era che la radiazione UV emessa dal Sole ionizza le molecole nella ionosfera.
+Abbiamo già trattato, nelle domande d'esame per HB3, le basi relative all'ionosfera, all'attività delle macchie solari, alla cosiddetta "zona morta" e alle principali regioni ionosferiche. Il principio fondamentale era che la radiazione UV emessa dal Sole ionizza le molecole nella ionosfera.
 
 [question:AH101]
 
-Nelle domande d'esame per HB3 sono già state presentate le principali regioni della ionosfera – lo strato D, E e F – e le loro proprietà. Per l'esame HB9 è ora importante sapere anche in quali intervalli di altezza si trovano queste regioni nell'atmosfera terrestre. La figura [ref:a_schichten_jahreszeiten] mostra queste importanti indicazioni di altezza che è bene memorizzare. In questo contesto, occorre considerare anche la dipendenza dall'ora del giorno e dalla stagione.
+Nelle domande d'esame per HB3 sono già state presentate le principali regioni della ionosfera – gli strati D, E e F – e le loro proprietà. Per l'esame HB9 è ora importante sapere anche in quali intervalli di altezza si trovano queste regioni nell'atmosfera terrestre. La figura [ref:a_schichten_jahreszeiten] mostra queste importanti indicazioni di altezza che è bene memorizzare. In questo contesto, occorre considerare anche la dipendenza dall'ora del giorno e dalla stagione.
 
 [question:AH103]
 [question:AH104]
@@ -20,7 +20,7 @@ Questa dipendenza dall'ora del giorno ha un grande impatto sulla propagazione de
 
 Una banda che per i collegamenti DX funziona praticamente sempre bene e in modo affidabile è la banda dei $\qty{20}{\meter}$, che, come la banda dei $\qty{40}{\meter}$, è riservata agli HB9. Per i collegamenti DX sono vantaggiose antenne che irradiano in modo piatto.
 
-Proprio per i collegamenti all'interno della Svizzera, ad esempio da San Gallo a Ginevra, la banda degli $\qty{80}{\meter}$ mostra, nelle ore notturne e al primo mattino, in particolare con bassa assorbimento ionosferico, una performance affidabile. In questo caso sono vantaggiose antenne che irradiano verticalmente verso l'alto. Si utilizza una tecnica radio chiamata **Near Vertical Incidence Skywave (NVIS)**.
+Proprio per i collegamenti all'interno della Svizzera, ad esempio da San Gallo a Ginevra, la banda degli $\qty{80}{\meter}$ mostra, nelle ore notturne e al primo mattino, in particolare con basso assorbimento ionosferico, una performance affidabile. In questo caso sono vantaggiose antenne che irradiano verticalmente verso l'alto. Si utilizza una tecnica radio chiamata **Near Vertical Incidence Skywave (NVIS)**.
 
 [question:AH201]
 
@@ -41,7 +41,7 @@ Per misurare l'attività solare ci sono due metodi comuni: il conteggio delle ma
 
 [question:AH102]
 
-Un altro aspetto che gioca un ruolo nella rifrazione nelle regioni menzionate è la polarizzazione. La polarizzazione di un'onda elettromagnetica cambia durante la propagazione per onde spaziali, in particolare a causa della rotazione di Faraday, dei fenomeni di riflessione nella ionosfera e degli effetti di multipath. Ciò fa sì che la polarizzazione ricevuta spesso non corrisponda più a quella originariamente trasmessa.
+Un altro aspetto che gioca un ruolo nella rifrazione nelle regioni menzionate è la polarizzazione. La polarizzazione di un'onda elettromagnetica cambia durante la propagazione per onde spaziali, in particolare a causa della rotazione di Faraday, dei fenomeni di riflessione nella ionosfera e degli effetti di propagazione per cammini multipli. Ciò fa sì che la polarizzazione ricevuta spesso non corrisponda più a quella originariamente trasmessa.
 
 [question:AH219]
 

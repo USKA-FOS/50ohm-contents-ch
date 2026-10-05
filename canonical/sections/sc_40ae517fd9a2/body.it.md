@@ -1,6 +1,6 @@
 Nelle sezioni [sec:unerwuenschte_aussendungen_1] e [sec:unerwuenschte_aussendungen_2] abbiamo già conosciuto le emissioni indesiderate sotto forma di *armoniche* e *emissioni secondarie*. Le armoniche superiori o armoniche di un segnale si formano sempre quando si verificano deviazioni dalla curva sinusoidale ideale e sono sempre multipli interi della frequenza fondamentale, come mostrato nella figura [ref:a_harmonische].
 
-Un esempio è mostrato dalla seguente domanda d'esame: Se un amplificatore è sovraeccitato, le picchi dell'ampiezza del segnale sinusoidale vengono limitati – ciò genera armoniche.
+Un esempio è mostrato dalla seguente domanda d'esame: Se un amplificatore è sovraeccitato, i picchi dell'ampiezza del segnale sinusoidale vengono limitati – ciò genera armoniche.
 
 [question:AJ207]
 
@@ -58,7 +58,7 @@ Per la gamma delle onde corte di $\qtyrange{1,7}{35}{\mega\hertz}$ vale che le e
 [question:AJ224]
 
 %TODO INSERIRE IMMAGINE DI DL1COM
-Con un analizzatore di spettro è possibile eseguire una misurazione delle armoniche superiori o armoniche (inglese: harmonics) in modalità emissioni spurie, come mostrato nella figura [ref:a_uagw]. L'analizzatore di spettro rileva automaticamente il livello della portante e la soppressione delle armoniche e li mostra anche sullo schermo. Se si costruisce un apparecchio da soli, è cruciale assicurarsi tramite misurazioni che i valori limite prescritti siano rispettati. Un produttore commerciale di apparecchi radio conferma il rispetto di questi valori limite con la dichiarazione CE, tuttavia può accadere che singoli apparecchi non soddisfino i requisiti – in tali casi l'Agenzia federale delle rete può vietarne il funzionamento e la vendita.
+Con un analizzatore di spettro è possibile eseguire una misurazione delle armoniche superiori o armoniche (inglese: harmonics) in modalità emissioni spurie, come mostrato nella figura [ref:a_uagw]. L'analizzatore di spettro rileva automaticamente il livello della portante e la soppressione delle armoniche e li mostra anche sullo schermo. Se si costruisce un apparecchio da soli, è cruciale assicurarsi tramite misurazioni che i valori limite prescritti siano rispettati. Un produttore commerciale di apparecchi radio conferma il rispetto di questi valori limite con la dichiarazione CE, tuttavia può accadere che singoli apparecchi non soddisfino i requisiti – in tali casi l'Agenzia federale delle reti può vietarne il funzionamento e la vendita.
 
 Le emissioni indesiderate non si formano solo a causa delle armoniche superiori, ma possono anche verificarsi nella preparazione della frequenza dei trasmettitori – ad esempio attraverso prodotti di miscelazione indesiderati, fluttuazioni nella tensione di alimentazione o attraverso una sovramodulazione del segnale BF. Questo lo vogliamo esaminare più in dettaglio di seguito.
 

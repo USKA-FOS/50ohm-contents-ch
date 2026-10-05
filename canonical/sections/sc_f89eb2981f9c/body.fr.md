@@ -20,7 +20,7 @@ Un *signal à deux tons* est idéal pour la mesure de puissance et de linéarit�
 
 ---
 
-La PEP décrit la puissance de crête de l'émetteur dans des conditions de fonctionnement normales : c'est la puissance que l'émetteur peut fournir en moyenne à une résistance de terminaison réelle pendant une période de l'oscillation haute fréquence au pic le plus élevé de l'enveloppe de modulation (cf. figure [ref:e_senderausgangsleisung_2]). Comment mesurer précisément la PEP – par exemple à l'aide d'un oscilloscope – nous l'aborderons plus en détail dans la section [sec:sender_messages].
+La PEP décrit la puissance de crête de l'émetteur dans des conditions de fonctionnement normales : c'est la puissance que l'émetteur peut fournir en moyenne à une résistance de terminaison réelle pendant une période de l'oscillation haute fréquence au pic le plus élevé de l'enveloppe de modulation (cf. figure [ref:e_senderausgangsleisung_2]). Comment mesurer précisément la PEP – par exemple à l'aide d'un oscilloscope – nous l'aborderons plus en détail dans la section [sec:sender_messungen].
 
 <margin>
 [picture:875:e_senderausgangsleisung_2:Pic le plus élevé de l'enveloppe de modulation]

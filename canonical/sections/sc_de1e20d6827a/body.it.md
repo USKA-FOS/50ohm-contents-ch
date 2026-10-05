@@ -16,7 +16,7 @@ Il numero di livelli possibili di un convertitore A/D è chiamato sua *risoluzio
 
 Per segnali che possono assumere sia valori positivi che negativi, tipicamente una parte di questi valori viene utilizzata per l'intervallo positivo del segnale e una parte per l'intervallo negativo.
 
-La figura [ref:a_adc_4bit] mostra un segnale sinusoidale digitalizzato da un convertitore A/D con una risoluzione di $\qty{4}{\bit}$ e successivamente riconvertito in un segnale analogico. La figura [ref:a_adc_12bit] mostra lo stesso segnale sinusoidale, ma digitalizzato da un convertitore A/D con una risoluzione di $\qty{12}{\bit}$ e successivamente riconvertito in un segnale analogico. Si può chiaramente vedere che i bit aggiuntivi di $\qty{8}{\bit}$ portano a una risoluzione molto più fine (migliore di un fattore 256), in modo che il segnale ricostruito si avvicina molto al segnale sinusoidale originale.
+La figura [ref:a_adc_4bit] mostra un segnale sinusoidale digitalizzato da un convertitore A/D con una risoluzione di $\qty{4}{\bit}$ e successivamente riconvertito in un segnale analogico. La figura [ref:a_adc_12bit] mostra lo stesso segnale sinusoidale, ma digitalizzato da un convertitore A/D con una risoluzione di $\qty{12}{\bit}$ e successivamente riconvertito in un segnale analogico. Si può chiaramente vedere che i bit aggiuntivi di $\qty{8}{\bit}$ portano a una risoluzione molto più fine (migliore di un fattore 256), in modo che il segnale ricostruito si avvicini molto al segnale sinusoidale originale.
 
 <margin>
 [picture:300:a_adc_4bit:Segnale sinusoidale digitalizzato da un convertitore A/D a 4 bit e successiva conversione D/A]
@@ -64,7 +64,7 @@ Viceversa, un segnale di ingresso può superare l'intervallo di valori massimo d
 
 Anche un convertitore D/A non può generare una tensione di uscita al di fuori del suo intervallo di valori previsto.
 
-Più alta è la risoluzione di un convertitore A/D o D/A, più finemente possono essere rappresentati digitalmente diversi valori di ampiezza o riconvertiti in valori di tensione analogici. Con una bassa risoluzione, invece, sono disponibili solo pochi livelli possibili, in modo che le gradazioni diventano più evidenti.
+Più alta è la risoluzione di un convertitore A/D o D/A, più finemente possono essere rappresentati digitalmente diversi valori di ampiezza o riconvertiti in valori di tensione analogici. Con una bassa risoluzione, invece, sono disponibili solo pochi livelli possibili, in modo che le gradazioni diventino più evidenti.
 
 [question:AF613]
 [question:AF612]

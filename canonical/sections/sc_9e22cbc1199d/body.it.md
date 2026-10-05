@@ -11,7 +11,7 @@ Per i lettori con conoscenze di numeri complessi, si noti tuttavia che la rappre
 
 $X_L = j\omega L$
 
-Dove $j$ rappresenta ancora l'unità immaginaria $\sqrt{-1}$.
+dove $j$ rappresenta ancora l'unità immaginaria $\sqrt{-1}$.
 
 Da ciò si evince che la reattanza induttiva non è solo positiva, ma anche complessa. Il segno positivo descrive la relazione di fase tra corrente e tensione sulla bobina, che esamineremo più in dettaglio in questo capitolo.
 </indepth>

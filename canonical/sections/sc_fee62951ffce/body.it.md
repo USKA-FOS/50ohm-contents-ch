@@ -1,4 +1,4 @@
-Nella sezione [sec:transverter_1] abbiamo già conosciuto convertitori e transverter, che nel radioamatoriale vengono utilizzati per accedere a ulteriori bande di frequenza con apparecchiature radio esistenti, che originariamente non coprono queste gamme. Come mostrato nella figura [ref:a_konverter_2], per questo sono necessari un oscillatore, un mixer e un filtro di banda.
+Nella sezione [sec:transverter_1] abbiamo già conosciuto convertitori e transverter, che in ambito radioamatoriale vengono utilizzati per accedere a ulteriori bande di frequenza con apparecchiature radio esistenti, che originariamente non coprono queste gamme. Come mostrato nella figura [ref:a_konverter_2], per questo sono necessari un oscillatore, un mixer e un filtro di banda.
 
 [question:AF301]
 
@@ -16,7 +16,7 @@ Pertanto, un convertitore potrebbe dover essere commutabile, come mostrato nella
 [picture:85:a_konverter:Convertitore con commutazione della frequenza dell’oscillatore]
 </margin>
 
-Per il primo sottobanda da $\qtyrange{436}{438}{\mega\hertz}$ si può calcolare la seguente frequenza dell’oscillatore:
+Per la prima sottobanda da $\qtyrange{436}{438}{\mega\hertz}$ si può calcolare la seguente frequenza dell’oscillatore:
 
 $f_\mathrm{OSZ} = \qty{436}{\mega\hertz}$ - $\qty{28}{\mega\hertz} = \qty{408}{\mega\hertz}$
 
@@ -24,7 +24,7 @@ $f_\mathrm{OSZ} = \qty{438}{\mega\hertz}$ - $\qty{30}{\mega\hertz} = \qty{408}{\
 
 Per entrambi i limiti della banda si ottiene logicamente una frequenza dell’oscillatore di $\qty{408}{\mega\hertz}$.
 
-Per il secondo sottobanda da $\qtyrange{438}{440}{\mega\hertz}$ si ottiene la seguente frequenza dell’oscillatore:
+Per la seconda sottobanda da $\qtyrange{438}{440}{\mega\hertz}$ si ottiene la seguente frequenza dell’oscillatore:
 
 $f_\mathrm{OSZ} = \qty{440}{\mega\hertz} - \qty{30}{\mega\hertz} = \qty{438}{\mega\hertz} - \qty{28}{\mega\hertz} = \qty{410}{\mega\hertz}$.
 

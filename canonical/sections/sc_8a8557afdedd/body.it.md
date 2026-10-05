@@ -1,12 +1,12 @@
-Nella sezione [sec:aurora_1] abbiamo già conosciuto l'aurora: quando particelle cariche del vento solare si accoppiano nell'alta atmosfera, da un lato si creano le aurore polari, dall'altro le onde radio vengono rifratte, il che viene sfruttato soprattutto nella gamma VHF ($\qty{6}{\meter}$ e $\qty{2}{\meter}$) per collegamenti DX. Per l'esame HB9 ci sono qui ulteriori domande approfondite.
+Nella sezione [sec:aurora_1] abbiamo già conosciuto l'aurora: quando particelle cariche del vento solare penetrano nell'alta atmosfera, da un lato si creano le aurore polari, dall'altro le onde radio vengono rifratte, il che viene sfruttato soprattutto nella gamma VHF ($\qty{6}{\meter}$ e $\qty{2}{\meter}$) per collegamenti DX. Per l'esame HB9 ci sono qui ulteriori domande approfondite.
 
 Dovresti ricordare le seguenti cose:
 
 * L'aurora si verifica nello strato E ($\num{90}$ fino a $\qty{130}{\kilo\meter}$) vicino ai poli.
-* Particelle cariche del sole penetrano nell'atmosfera.
+* Particelle cariche del Sole penetrano nell'atmosfera.
 * Per noi in Europa, la regione polare è a nord.
 * Il CW è il più adatto per l'aurora.
-* Il segnale è "tremolante" e "ronzante".
+* Il segnale è "fluttuante" e "affetto da ronzio".
 
 [question:AH302]
 [question:AH303]

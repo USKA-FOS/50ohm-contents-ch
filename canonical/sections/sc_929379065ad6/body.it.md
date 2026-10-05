@@ -1,4 +1,4 @@
-Nella sezione [sec:reihe_parallel_widerstandsnetz_1] abbiamo già analizzato le reti di resistenze. La maggior parte degli esercizi poteva ancora essere risolta abbastanza facilmente a mente. Qui approfondiremo ulteriormente questo argomento. I seguenti esercizi richiedono diversi passaggi di calcolo per arrivare alla soluzione. A tal fine, si scompone l'esercizio in singole aree parziali, che vengono prima calcolate e poi combinate. In questo modo non sono necessarie formule complicate e si arriva in modo affidabile al risultato corretto.
+Nella sezione [sec:reihe_parallel_widerstandsnetz_1] abbiamo già analizzato le reti di resistenze. La maggior parte degli esercizi poteva ancora essere risolta abbastanza facilmente a mente. Qui approfondiremo ulteriormente questo argomento. I seguenti esercizi richiedono diversi passaggi di calcolo per arrivare alla soluzione. A tal fine, si scompone l'esercizio in singole sottoparti, che vengono prima calcolate e poi combinate. In questo modo non sono necessarie formule complicate e si arriva in modo affidabile al risultato corretto.
 
 [question:AD106]
 [question:AD107]
@@ -17,12 +17,12 @@ Il collegamento in parallelo di $\qty{100}{\ohm}$ con $\qty{200}{\ohm}$ (cursore
 C'è solo una soluzione che soddisfa questa condizione.
 </tip>
 
-Ora esaminiamo un circuito di resistenze con 4 resistori, che viene spesso utilizzato. Due partitori di tensione ciascuno in collegamento in parallelo danno luogo a un cosiddetto circuito a ponte. I circuiti a ponte vengono applicati, ad esempio, negli strumenti di misura della resistenza secondo il principio di un cosiddetto ponte di Wheatstone.
+Ora esaminiamo un circuito di resistenze con 4 resistori, che viene spesso utilizzato. Due partitori di tensione collegati in parallelo danno luogo a un cosiddetto circuito a ponte. I circuiti a ponte vengono applicati, ad esempio, negli strumenti di misura della resistenza secondo il principio di un cosiddetto ponte di Wheatstone.
 
 ---
 
 [question:AD110]
 
 <tip>
-Questo esercizio può essere facilmente calcolato a mente. Abbiamo due collegamenti in parallelo con resistenze uguali, che sono state collegate in serie. Con resistenze di uguale valore, i valori di resistenza si dimezzano nel collegamento in parallelo: $R_1 || R_2 = \qty{1100}{\ohm}$ e $R_3 || R_4 = \qty{110}{\ohm}$. Il risultato è quindi solo la somma dei due valori: $R_\mathrm{ges} = \qty{1100}{\ohm} + \qty{110}{\ohm} = \qty{1210}{\ohm}$.
+Questo esercizio può essere facilmente calcolato a mente. Abbiamo due collegamenti in parallelo con resistenze uguali, che sono collegati in serie. Con resistenze di uguale valore, i valori di resistenza si dimezzano nel collegamento in parallelo: $R_1 || R_2 = \qty{1100}{\ohm}$ e $R_3 || R_4 = \qty{110}{\ohm}$. Il risultato è quindi solo la somma dei due valori: $R_\mathrm{ges} = \qty{1100}{\ohm} + \qty{110}{\ohm} = \qty{1210}{\ohm}$.
 </tip>

@@ -1,7 +1,7 @@
 In questa e nella prossima sezione ci occupiamo di due importanti circuiti fondamentali di un transistor bipolare. Inizialmente consideriamo in questa sezione il *circuito a collettore comune*, nella sezione successiva la *configurazione a emettitore comune*. Entrambi i circuiti sono mostrati nella figura [ref:a_emitter_collector]. Possiedono proprietà diverse e sono quindi utilizzati per diverse applicazioni.
 
 <margin>
-[picture:1118:a_emitter_collector:Configurazione a emettitore comune e a collettore comune con denominazioni base (B), collettore (C) ed emettitore (E)]
+[picture:1118:a_emitter_collector:Configurazione a emettitore comune e a collettore comune con denominazioni della base (B), del collettore (C) e dell’emettitore (E)]
 </margin>
 
 La denominazione dei circuiti fondamentali di un transistor bipolare si basa sul terminale che non serve né come ingresso né come uscita del circuito e che quindi costituisce il punto di riferimento comune per il circuito di ingresso e di uscita. Nel circuito a collettore comune questo è il collettore.
@@ -42,7 +42,7 @@ Se viene applicato un segnale di ingresso, ad esempio una tensione alternata sin
 
 La resistenza di emettitore converte la corrente che scorre attraverso il percorso collettore-emettitore in una caduta di tensione, che viene prelevata all'emettitore. La corrente di emettitore del transistor scorre (insieme alla componente di corrente di base normalmente trascurabile) attraverso l'emettitore e la resistenza di emettitore verso massa. La corrente attraverso la resistenza di emettitore, a causa della caduta di tensione che si genera su di essa, provoca un aumento del potenziale dell'emettitore (tensione di emettitore) e agisce quindi come controreazione per la tensione di base. Ciò stabilizza ulteriormente il punto di funzionamento del transistor, perché le variazioni termiche della corrente di collettore vengono così compensate.
 
-L'accoppiamento in ingresso e in uscita dei segnali alla base e all'emettitore avviene tramite i cosiddetti condensatori di accoppiamento. Il loro compito è tenere lontane dalla fase amplificatrice le componenti di tensione continua, che porterebbero a una variazione del punto di funzionamento.
+L'accoppiamento in ingresso e in uscita dei segnali alla base e all'emettitore avviene tramite i cosiddetti condensatori di accoppiamento. Il loro compito è tenere lontane dallo stadio amplificatore le componenti di tensione continua, che porterebbero a una variazione del punto di funzionamento.
 
 Il condensatore di disaccoppiamento nella tensione di servizio (+) serve a scaricare segnali HF e BF indesiderati, in modo da evitare effetti di retroazione sullo stadio e sulla tensione di alimentazione. Inoltre, il collettore viene collegato, dal punto di vista del segnale (per la tensione alternata), all'ingresso e all'uscita tramite il condensatore di disaccoppiamento.
 
@@ -56,6 +56,6 @@ Il circuito a collettore comune possiede un notevole guadagno di corrente. La su
 
 [question:AD403]
 
-Per questo motivo, il circuito a collettore comune viene spesso utilizzato come *stadio buffer tra l'oscillatore e ulteriori parti del circuito*, che altrimenti caricherebbero l'oscillatore a bassa impedenza, per ottenere un disaccoppiamento e una migliore stabilizzazione di frequenza dell'oscillatore.
+Per questo motivo, il circuito a collettore comune viene spesso utilizzato come *stadio buffer tra l'oscillatore e ulteriori parti del circuito*, che altrimenti caricherebbero l'oscillatore con una bassa impedenza, per ottenere un disaccoppiamento e una migliore stabilizzazione di frequenza dell'oscillatore.
 
 [question:AD404]

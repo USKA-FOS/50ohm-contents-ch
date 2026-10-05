@@ -2,7 +2,7 @@ Un vantaggio essenziale dell'elaborazione digitale dei segnali consiste nel fatt
 
 La caratteristica principale dei filtri FIR è, come indica già la denominazione "finite" (in tedesco: finito), che solo un numero limitato di campioni di ingresso viene utilizzato per il calcolo di un campione di uscita. I filtri IIR, invece, utilizzano anche campioni di uscita già calcolati, che vengono reimmessi nell'ingresso del calcolo. Attraverso questa retroazione, un singolo campione di ingresso può teoricamente influenzare i campioni di uscita successivi per un tempo illimitato.
 
-I filtri digitali possono essere implementati sia in software su un DSP che in hardware programmabile su un FPGA. Inoltre, esistono i cosiddetti front-end a segnale misto, che realizzano varie funzioni di elaborazione del segnale, come ad esempio filtri di decimazione, insieme a convertitori AD/DA in un singolo chip, per eseguirle nel modo più efficiente dal punto di vista energetico e per alleggerire le fasi successive di elaborazione del segnale.
+I filtri digitali possono essere implementati sia in software su un DSP che in hardware programmabile su un FPGA. Inoltre, esistono i cosiddetti front-end a segnali misti, che realizzano varie funzioni di elaborazione del segnale, come ad esempio filtri di decimazione, insieme a convertitori AD/DA in un singolo chip, per eseguirle nel modo più efficiente dal punto di vista energetico e per alleggerire le fasi successive di elaborazione del segnale.
 
 [question:AF631]
 

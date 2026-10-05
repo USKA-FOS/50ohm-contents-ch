@@ -1,4 +1,4 @@
-La distanza tra due creste d'onda o due ventri d'onda si chiama lunghezza d'onda [index:Wellenlänge]. La lunghezza d'onda dipende dalla frequenza. Più grande è la frequenza, più piccola è la lunghezza d'onda. La lunghezza d'onda è indicata con la lettera greca $\lambda$ (Lambda) e solitamente espressa in metri ($\unit{\meter}$).
+La distanza tra due creste d'onda o due valli d'onda si chiama lunghezza d'onda [index:Wellenlänge]. La lunghezza d'onda dipende dalla frequenza. Più grande è la frequenza, più piccola è la lunghezza d'onda. La lunghezza d'onda è indicata con la lettera greca $\lambda$ (Lambda) e solitamente espressa in metri ($\unit{\meter}$).
 
 [question:NB403]
 [question:NA205]

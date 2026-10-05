@@ -23,7 +23,7 @@ Un collegamento radio permanente è un collegamento radio stabilito in modo fiss
 
 </law>
 
-I collegamenti radio permanenti possono trasmettere dati digitali o fungere da ponte analogico tra relè. I collegamenti radio permanenti operano frequentemente nella banda dei $\unit{\giga\hertz}$ dello spettro radioamatoriale. Più collegamenti radio permanenti interconnessi possono ad esempio costituire l'HAMNET (Highspeed Amateurradio Multimedia NETwork), una rete IP dati gestita da radioamatori.
+I collegamenti radio permanenti possono trasmettere dati digitali o fungere da ponte analogico tra relè. I collegamenti radio permanenti operano frequentemente nella banda dei $\unit{\giga\hertz}$ dello spettro radioamatoriale. Più collegamenti radio permanenti interconnessi possono ad esempio costituire l'HAMNET (Highspeed Amateurradio Multimedia NETwork), una rete di dati IP gestita da radioamatori.
 
 [question:NE405]
 

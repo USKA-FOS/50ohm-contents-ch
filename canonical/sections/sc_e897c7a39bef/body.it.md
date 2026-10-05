@@ -1,5 +1,5 @@
 Come abbiamo già appreso nella sezione [sec:sprungdistanz_1], la distanza di salto dipende dall'angolo di irradiazione scelto. L'angolo di irradiazione di un dipolo dipende dall'altezza sopra terra. Più alto è montato, più piatto diventa l'angolo di irradiazione; più basso, più ripido.
-Per lo strato E si può calcolare al massimo $\qty{2000}{\kilo\meter}$, per la regione F2 fino a $\qty{4000}{\kilo\meter}$. La figura [ref:a_sprungdistanz] mostra la distanza di salto per rifrazione nella regione F2 in funzione dell'angolo.
+Per lo strato E si può prevedere al massimo $\qty{2000}{\kilo\meter}$, per la regione F2 fino a $\qty{4000}{\kilo\meter}$. La figura [ref:a_sprungdistanz] mostra la distanza di salto per rifrazione nella regione F2 in funzione dell'angolo.
 
 <margin>
 [picture:872:a_sprungdistanz:Distanza di salto per rifrazione nella regione F2 in funzione dell'angolo]

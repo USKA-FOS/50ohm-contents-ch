@@ -18,7 +18,7 @@ Sur les ondes courtes, la région de l'ionosphère qui réfracte l'onde spatiale
 
 %TODO : ou anecdote du confinement COVID, de qui est ce commentaire ? Quelle est l'anecdote.
 
-Enfin, sur VHF, UHF et SHF, on peut obtenir de l'aide d'une toute autre source pour émettre au-delà de l'horizon, à savoir via l'*Aircraft-Scatter* : ici, les avions servent de réflecteurs temporaires lorsqu'ils se trouvent sur ou près de la ligne de liaison entre l'émetteur et le récepteur. En raison du mouvement rapide de l'avion, ces possibilités de liaison sont assez courtes, ce qui nécessite une réalisation rapide du QSO.
+Enfin, sur VHF, UHF et SHF, on peut obtenir de l'aide d'une toute autre source pour émettre au-delà de l'horizon, à savoir via l'*Aircraft-Scatter* : ici, les avions servent de réflecteurs temporaires lorsqu'ils se trouvent sur ou près de la ligne de liaison entre l'émetteur et le récepteur. En raison du mouvement rapide de l'avion, ces possibilités de liaison sont assez courtes, ce qui nécessite un déroulement rapide du QSO.
 
 <indepth>
 Pinaillage : Bien que l'*Aircraft-Scatter* soit appelé "Scatter", il ne s'agit pas physiquement d'une diffusion, mais d'une réflexion.

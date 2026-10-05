@@ -24,7 +24,7 @@ Nella sezione [sec:fm_2] abbiamo già conosciuto la *deviazione di frequenza por
 
 Nella demodulazione nel ricevitore FM, questa deviazione di frequenza viene nuovamente convertita in una corrispondente ampiezza del segnale demodulato. Una deviazione di frequenza maggiore porta quindi, a parità di altre condizioni, a un'ampiezza maggiore del segnale BF demodulato.
 
-Una deviazione di frequenza maggiore aumenta la larghezza di banda richiesta del segnale FM. Se i valori previsti vengono superati, il segnale emesso può estendersi nei canali adiacenti, causando così interferenze sul canale vicino.
+Una deviazione di frequenza maggiore aumenta la larghezza di banda richiesta del segnale FM. Se i valori previsti vengono superati, il segnale emesso può estendersi nei canali adiacenti, causando così interferenze sui canali adiacenti.
 
 [question:AE305]
 [question:AE306]

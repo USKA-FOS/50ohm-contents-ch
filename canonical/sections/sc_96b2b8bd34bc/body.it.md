@@ -32,7 +32,7 @@ Dove $A$ descrive l'ampiezza e $\varphi$ la fase iniziale del segnale. L'espress
 
 $A \cdot e^{j(\omega_\mathrm{c}t+\varphi)} = \underbrace{A \cdot e^{j\varphi}}_{\text{Ampiezza e fase}} \cdot \underbrace{e^{j\omega_\mathrm{c}t}}_{\text{Portante}}$
 
-In un diagramma di costellazione ci interessa la prima parte $A \cdot e^{j\varphi}$. Essa descrive l'ampiezza e la fase dello stato del segnale. La rotazione continua della portante effettiva non viene rappresentata.
+In un diagramma di costellazione ci interessa la prima parte $A \cdot e^{j\varphi}$. Essa descrive l'ampiezza e la fase dello stato del segnale. La rotazione continua della portante vera e propria non viene rappresentata.
 </indepth>
 
 Questa rappresentazione la useremo ripetutamente nelle sezioni seguenti: con essa è possibile rappresentare in modo chiaro i possibili simboli dei metodi di modulazione digitali e successivamente descrivere anche l'associazione di combinazioni di bit a questi simboli.

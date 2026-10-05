@@ -1,4 +1,4 @@
-Un alimentatore converte la tensione alternata di $\qty{230}{\volt}$ dalla presa di corrente in una tensione continua più bassa. Nel radioamatoriale utilizziamo spesso alimentatori che forniscono all'uscita una tensione continua di $\qty{13,8}{\volt}$, per alimentare ad esempio un trasmettitore-ricevitore.
+Un alimentatore converte la tensione alternata di $\qty{230}{\volt}$ dalla presa di corrente in una tensione continua più bassa. Nel servizio radioamatoriale utilizziamo spesso alimentatori che forniscono all'uscita una tensione continua di $\qty{13,8}{\volt}$, per alimentare ad esempio un trasmettitore-ricevitore.
 
 <margin>
 [picture:740:n_netzgeraet:Alimentatore]
@@ -56,7 +56,7 @@ Nell'alimentatore e nel cavo di collegamento al trasmettitore-ricevitore ci sono
 </margin>
 
 <indepth>
-*Approfondimento:* I fusibili miniatura sono grandi $\qty{5}{\milli\meter} \times \qty{20}{\milli\meter}$ e disponibili in diverse versioni. Si differenziano per intensità di corrente e caratteristiche di intervento. I fusibili ritardati vengono sempre utilizzati quando la corrente di avviamento è significativamente più alta della corrente nominale, ad esempio negli alimentatori. Il tempo di intervento del fusibile dipende dall'intensità di corrente e dalla durata del flusso di corrente. Nella tabella [ref:n_feinsicherung] sono riportati i valori usuali per il tempo di intervento. Indicazioni più precise sono fornite dai produttori tramite curve caratteristiche nei loro datasheet.
+*Approfondimento:* I fusibili miniatura sono grandi $\qty{5}{\milli\meter} \times \qty{20}{\milli\meter}$ e sono disponibili in diverse versioni. Si differenziano per intensità di corrente e caratteristiche di intervento. I fusibili ritardati vengono sempre utilizzati quando la corrente di avviamento è significativamente più alta della corrente nominale, ad esempio negli alimentatori. Il tempo di intervento del fusibile dipende dall'intensità di corrente e dalla durata del flusso di corrente. Nella tabella [ref:n_feinsicherung] sono riportati i valori usuali per il tempo di intervento. Indicazioni più precise sono fornite dai produttori tramite curve caratteristiche nei loro datasheet.
 </indepth>
 
 Dopo che un fusibile a cartuccia è intervenuto e la causa è stata identificata e risolta, deve essere sostituito. I fusibili difettosi però possono essere sostituiti solo con altri identici! In questo caso bisogna prestare attenzione sia all'intensità di corrente che alla cosiddetta caratteristica di intervento, che indica quanto velocemente un fusibile interviene (rapido, mediamente ritardato, ritardato).

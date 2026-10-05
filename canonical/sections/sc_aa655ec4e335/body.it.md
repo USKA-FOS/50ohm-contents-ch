@@ -2,7 +2,7 @@ Nelle sezioni [sec:transistor_1] e [sec:transistor_2] sui transistor abbiamo gi�
 
 ---
 
-La figura [ref:e_nf_verstaerker] mostra un amplificatore BF (amplificatore BF) che deve amplificare i segnali audio dall'apparecchio radio per un altoparlante. Ciò è facilmente riconoscibile dal simbolo dell'altoparlante nel circuito. Gli amplificatori di potenza HF sono utilizzati, ad esempio, per aumentare il segnale di trasmissione.
+La figura [ref:e_nf_verstaerker] mostra un amplificatore a bassa frequenza (amplificatore BF) che deve amplificare i segnali audio dall'apparecchio radio per un altoparlante. Ciò è facilmente riconoscibile dal simbolo dell'altoparlante nel circuito. Gli amplificatori di potenza HF sono utilizzati, ad esempio, per aumentare il segnale di trasmissione.
 
 <margin>
 [picture:763:e_nf_verstaerker:Schema circuitale di un amplificatore BF]  

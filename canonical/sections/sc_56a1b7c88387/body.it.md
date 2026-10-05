@@ -4,7 +4,7 @@ Nella sezione [sec:bfo_1] abbiamo già conosciuto il BFO. Nel demodulatore, dura
 [picture:838:e_bfo:BFO nel ricevitore supereterodina]
 </margin>
 
-Un oscillatore BFO dovrebbe avere la massima stabilità di frequenza possibile, in modo che i segnali ricevuti possano essere riprodotti in modo stabile e non distorto e il ricevitore non debba essere continuamente ritoccato in frequenza. I più adatti sono quindi gli oscillatori controllati al quarzo.
+Un oscillatore BFO dovrebbe avere la massima stabilità di frequenza possibile, in modo che i segnali ricevuti possano essere riprodotti in modo stabile e non distorti e il ricevitore non debba essere continuamente ritoccato in frequenza. I più adatti sono quindi gli oscillatori controllati al quarzo.
 
 [question:AF211]
 [question:AF216]

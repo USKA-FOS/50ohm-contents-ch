@@ -11,7 +11,7 @@ L'utilisation d'une deuxième FI basse permet, dans une deuxième étape, d'atte
 Pour un récepteur ondes courtes, la première FI et la fréquence de réception maximale souhaitée doivent également, selon le concept du récepteur, être aussi éloignées que possible l'une de l'autre pour éviter une réception directe de la FI par l'antenne. La première FI devrait donc être le double de la fréquence de réception maximale.
 
 <tip>
-Une extension du concept du double superhétérodyne serait le triple superhétérodyne, où une troisième FI basse est formée. Cela peut être utile pour des procédures de démodulation spéciales ou pour la mise en œuvre de procédures de suppression d'interférences (filtre coupe-bande). Le calcul des fréquences intermédiaires et des fréquences de l’oscillateur se fait ici en conséquence de celui du double superhétérodyne.
+Une extension du concept du double superhétérodyne serait le triple superhétérodyne, où une troisième FI basse est formée. Cela peut être utile pour des procédures de démodulation spéciales ou pour la mise en œuvre de procédures de suppression d'interférences (filtre coupe-bande). Le calcul des fréquences intermédiaires et des fréquences de l’oscillateur suit ici le même principe que pour le double superhétérodyne.
 </tip>
 
 [question:AF112]

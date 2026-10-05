@@ -10,10 +10,10 @@ L'installation des appareils et des antennes dans la voiture doit être soigneus
 
 ---
 
-Pour qu'une antenne mobile rayonne bien ses signaux radio, elle devrait être montée aussi au centre que possible sur le toit métallique du véhicule. Le toit du véhicule forme alors la contre-masse, similaire à la terre pour une antenne Marconi. Dans le cas le plus simple, on utilise une *antenne à pied magnétique*. Il existe souvent aussi des prescriptions du constructeur du véhicule pour les emplacements d'installation de l'antenne.
+Pour qu'une antenne mobile rayonne bien ses signaux radio, elle devrait être montée aussi au centre que possible sur le toit métallique du véhicule. Le toit du véhicule forme alors la contre-masse, similaire à la terre pour une antenne Marconi. Dans le cas le plus simple, on utilise une *antenne à base magnétique*. Il existe souvent aussi des prescriptions du constructeur du véhicule pour les emplacements d'installation de l'antenne.
 
 <margin>
-[photo:64:n_magnetfussantenne:Antenne à pied magnétique sur le toit d'un véhicule]
+[photo:64:n_magnetfussantenne:Antenne à base magnétique sur le toit d'un véhicule]
 </margin>
 
 [question:NK310]

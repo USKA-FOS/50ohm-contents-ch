@@ -1,4 +1,4 @@
-Nella sezione [sec:spannungsteiler_1] abbiamo già conosciuto il *partitore di tensione* *non caricato*. In questa sezione ci occupiamo del *partitore di tensione* *caricato*, in cui la tensione d’uscita $U_2$ è caricata da una resistenza di carico $R_\mathrm{L}$. Ciò significa che la resistenza di carico è in parallelo alla resistenza $R_2$, come si vede nello schema circuitale della figura [ref:a_spannungsteiler_belastet].
+Nella sezione [sec:spannungsteiler_1] abbiamo già studiato il *partitore di tensione* *non caricato*. In questa sezione ci occupiamo del *partitore di tensione* *caricato*, in cui la tensione d’uscita $U_2$ è caricata da una resistenza di carico $R_\mathrm{L}$. Ciò significa che la resistenza di carico è in parallelo alla resistenza $R_2$, come si vede nello schema circuitale della figura [ref:a_spannungsteiler_belastet].
 
 <margin>
 [picture:199:a_spannungsteiler_belastet:Partitore di tensione caricato]

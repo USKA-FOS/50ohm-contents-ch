@@ -4,7 +4,7 @@
 
 Nel capitolo [sec:linkstrecken] abbiamo appreso le basi dei collegamenti punto a punto e le relative normative dell'UFCOM. Qui si tratta ora specificamente della tecnologia di HAMNET.
 
-Un ruolo speciale nel radioamatoriale è svolto da HAMNET – una rete riservata esclusivamente ai radioamatori. HAMNET (Highspeed Amateurradio Multimedia Network) è una rete basata su IP sviluppata e gestita da radioamatori. Nel suo funzionamento, assomiglia a Internet, ma utilizza prevalentemente collegamenti radio per la trasmissione dei dati.
+HAMNET svolge un ruolo speciale nel radioamatorismo: è una rete riservata esclusivamente ai radioamatori. HAMNET (Highspeed Amateurradio Multimedia Network) è una rete basata su IP sviluppata e gestita da radioamatori. Nel suo funzionamento, assomiglia a Internet, ma utilizza prevalentemente collegamenti radio per la trasmissione dei dati.
 
 Originariamente, HAMNET è stato concepito come sostituto graduale della rete Packet-Radio esistente dagli anni '80 e l'ha ormai quasi completamente sostituita. Le veloci connessioni dati tra i singoli punti di accesso e nodi sono realizzate principalmente attraverso le bande delle microonde di 6 cm, 9 cm e 13 cm. Per accedere a HAMNET, è necessaria la visibilità libera verso un nodo HAMNET con accesso utente e un adeguato trasmettitore-ricevitore WLAN con antenna direzionale.
 

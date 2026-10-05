@@ -5,7 +5,7 @@ Les ondes radio de différentes fréquences se comportent différemment en ce qu
 * L'onde spatiale par réfraction dans l'ionosphère (ondes courtes)
 
 <webmargin>
-[picture:731:n_ionosphère:Ionosphère, troposphère et E sporadique]
+[picture:731:n_ionosphäre:Ionosphère, troposphère et E sporadique]
 </webmargin>
 
 

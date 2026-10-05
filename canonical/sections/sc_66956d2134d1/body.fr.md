@@ -19,6 +19,6 @@ La figure [ref:kanalcodierer] montre un symbole pour un codeur de canal. Le bloc
 Nous distinguons deux types de codage de canal :
 
 * Détection d'erreurs : On peut détecter qu'une erreur s'est produite lors de la transmission, et demander par exemple une retransmission.
-* Correction d'erreurs par anticipation (FEC) : Les erreurs survenant lors de la transmission sont corrigées au niveau du récepteur à l'aide de la redondance.
+* Correction d'erreurs par anticipation : Les erreurs survenant lors de la transmission sont corrigées au niveau du récepteur à l'aide de la redondance.
 
 Dans les deux sections suivantes [sec:fehlererkennung] et [sec:fehlerkorrektur], nous allons examiner ces deux types plus en détail.

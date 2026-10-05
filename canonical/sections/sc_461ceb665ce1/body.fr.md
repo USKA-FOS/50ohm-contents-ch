@@ -6,7 +6,7 @@ Si une station appelle "CQ DX" sur les bandes des ondes courtes, elle souhaite �
 [question:BE114]
 [question:BB105]
 
-Sur les fréquences plus élevées, atteindre d'autres continents depuis la Suisse est extrêmement rare. C'est pourquoi les liaisons DX y sont définies différemment que sur les ondes courtes. Sur VHF et UHF, un appel DX vise à contacter d'autres stations situées à plusieurs centaines de kilomètres de distance.
+Sur les fréquences plus élevées, atteindre d'autres continents depuis la Suisse est extrêmement rare. C'est pourquoi les liaisons DX y sont définies différemment des liaisons sur les ondes courtes. Sur VHF et UHF, un appel DX vise à contacter d'autres stations situées à plusieurs centaines de kilomètres de distance.
 
 [question:BB104]
 [question:BE109]

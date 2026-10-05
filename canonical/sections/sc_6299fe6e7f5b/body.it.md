@@ -1,4 +1,4 @@
-Quando due (o più) segnali della stessa frequenza si sovrappongono, le loro ampiezze si sommano nel ricevitore. A seconda della fase, ciò porta a un rafforzamento o a un indebolimento del segnale risultante. Se le ampiezze di due segnali sono uguali, ma la fase è sfasata di $\qty{180}{\degree}$, il loro segnale somma diventa addirittura zero, cioè scompare.
+Quando due (o più) segnali della stessa frequenza si sovrappongono, le loro ampiezze si sommano nel ricevitore. A seconda della relazione di fase, ciò porta a un rafforzamento o a un indebolimento del segnale risultante. Se le ampiezze di due segnali sono uguali, ma la fase è sfasata di $\qty{180}{\degree}$, il loro segnale risultante diventa addirittura zero, cioè scompare.
 
 <indepth>
 [include:fading_applet]

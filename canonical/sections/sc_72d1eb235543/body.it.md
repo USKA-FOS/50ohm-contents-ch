@@ -11,7 +11,7 @@ Attraverso la radiazione solare, nella ionosfera vengono generate particelle car
 
 ---
 
-Le condizioni di propagazione sono soggette a un cambiamento giornaliero e stagionale. Un'influenza essenziale sulla propagazione delle onde corte ha il ciclo solare undecennale [index:Sonnenzyklus]. Al culmine del ciclo si verificano particolarmente molte cosiddette macchie solari [index:Sonnenzyklus:Sonnenflecken] (figura [ref:n_ionosphaere_sonnenflecken].) Il sole emette allora molta radiazione elettromagnetica e materia e influenza fortemente la ionosfera e quindi le condizioni radio.
+Le condizioni di propagazione sono soggette a variazioni giornaliere e stagionali. Il ciclo solare undecennale [index:Sonnenzyklus] esercita un'influenza essenziale sulla propagazione delle onde corte. Al culmine del ciclo compaiono particolarmente numerose cosiddette macchie solari [index:Sonnenzyklus:Sonnenflecken] (figura [ref:n_ionosphaere_sonnenflecken].) Il sole emette allora una quantità particolarmente elevata di radiazione elettromagnetica e materia e influenza fortemente la ionosfera e quindi le condizioni di propagazione radio.
 
 <webmargin>
 [picture:729:n_ionosphaere_sonnenflecken:Il numero delle macchie solari, che fluttua nell'arco del ciclo solare undecennale]
@@ -21,7 +21,7 @@ Le condizioni di propagazione sono soggette a un cambiamento giornaliero e stagi
 
 ---
 
-Durante l'operatività radio sulle bande delle onde corte può accadere che si formi una cosiddetta *zona morta* [index:Tote Zone]. Con ciò si intendono distanze che sono troppo lontane per l'onda di terra e troppo vicine per l'onda spaziale (figura [ref:n_ionosphaere_tote_zone]). Questo porta spesso al fatto che da un collegamento radio in corso si sente solo una delle stazioni coinvolte, perché l'altra si trova nella zona morta. Inizialmente può quindi sorgere l'impressione errata che una frequenza sia libera.
+Durante le operazioni radio sulle bande delle onde corte può accadere che si formi una cosiddetta *zona morta* [index:Tote Zone]. Con ciò si intendono distanze che sono troppo lontane per l'onda di terra e troppo vicine per l'onda spaziale (figura [ref:n_ionosphaere_tote_zone]). Questo porta spesso al fatto che da un collegamento radio in corso si sente solo una delle stazioni coinvolte, perché l'altra si trova nella zona morta. Inizialmente può quindi sorgere l'impressione errata che una frequenza sia libera.
 
 <webmargin>
 [picture:741:n_ionosphaere_tote_zone:La zona morta, che è troppo lontana per l'onda di terra e troppo vicina per l'onda spaziale.]
@@ -30,6 +30,6 @@ Durante l'operatività radio sulle bande delle onde corte può accadere che si f
 [question:BE106]
 
 <latexonly>
-\newpage
+\\newpage
 </latexonly>
 

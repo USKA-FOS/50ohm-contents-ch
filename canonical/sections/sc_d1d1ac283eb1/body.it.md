@@ -9,7 +9,7 @@ In questo modo aumenta il livello medio del segnale vocale e quindi anche il liv
 [picture:1043:a_kompressor:Funzionamento di un compressore]
 </margin>
 
-Tuttavia, quando si utilizza un compressore vocale, si dovrebbe prestare attenzione a evitare una compressione troppo elevata. Una compressione troppo forte può rendere il segnale vocale innaturale e meno comprensibile. Se il processore vocale o le fasi successive vengono sovramodulati, possono inoltre verificarsi distorsioni e un allargamento del segnale trasmesso (*splatter*). Pertanto, la compressione dovrebbe essere aumentata solo fino al punto in cui il segnale rimane pulito e ben comprensibile.
+Tuttavia, quando si utilizza un compressore vocale, si dovrebbe prestare attenzione a evitare una compressione troppo elevata. Una compressione troppo forte può rendere il segnale vocale innaturale e meno comprensibile. Se il processore vocale o gli stadi successivi vengono sovramodulati, possono inoltre verificarsi distorsioni e un allargamento del segnale trasmesso (*splatter*). Pertanto, la compressione dovrebbe essere aumentata solo fino al punto in cui il segnale rimane pulito e ben comprensibile.
 
 [question:AE212]
 

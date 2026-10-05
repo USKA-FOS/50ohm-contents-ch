@@ -1,8 +1,8 @@
-Dans la section [sec:rst], nous avons déjà rencontré le *S-mètre* à la fois dans sa version analogique (Fig. [ref:a_s_meter_analog]) et dans sa version numérique (Fig. [ref:a_s_meter_digital]). Il sert à afficher la force du signal HF présent à l'entrée du récepteur.
+Dans la section [sec:rst], nous avons déjà rencontré le *S-mètre* à la fois dans sa version analogique (Fig. [ref:a_s_meter_analog]) et dans sa version numérique (Fig. [ref:a_s_meter_digital]). Il sert à afficher l'intensité du signal HF présent à l'entrée du récepteur.
 
 L'échelle d'un S-mètre va généralement de S1 à S9. Un changement d'un point S correspond à $\qty{6}{\dB}$. Les signaux plus forts au-dessus de S9 ne sont plus indiqués en points S supplémentaires, mais en décibels au-dessus de S9, par exemple comme « S9 + $\qty{20}{\dB}$ ».
 
-Comme l'échelle en décibels est logarithmique, une augmentation de $\qty{6}{\dB}$ correspond à un doublement de la tension d'entrée ou à un quadruplement de la puissance d'entrée. Inversement, une réduction de $\qty{6}{\dB}$ correspond à un halving de la tension ou à un quart de la puissance.
+Comme l'échelle en décibels est logarithmique, une augmentation de $\qty{6}{\dB}$ correspond à un doublement de la tension d'entrée ou à un quadruplement de la puissance d'entrée. Inversement, une réduction de $\qty{6}{\dB}$ correspond à une réduction de moitié de la tension ou à un quart de la puissance.
 
 <margin>
 [picture:578:a_s_meter_digital:Le numéro 2 montre le S-mètre numérique d'un TRX]

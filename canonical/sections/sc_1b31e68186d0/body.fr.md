@@ -95,7 +95,7 @@ $ \frac{Z_p}{Z_s} = \frac{{U_p}^2}{{U_s}^2} = r^2$
 
 ---
 
-Prenons comme exemple une antenne alimentée à l'extrémité, que nous étudierons plus en détail dans un chapitre ultérieur. Son impédance d'entrée est d'environ $\qty{2450}{\ohm}$ et est donc nettement résistive. Elle doit être adaptée à un émetteur avec une impédance de charge de $\qty{50}{\ohm}$.
+Prenons comme exemple une antenne alimentée à l'extrémité, que nous étudierons plus en détail dans un chapitre ultérieur. Son impédance d'entrée est d'environ $\qty{2450}{\ohm}$ et présente donc une impédance nettement élevée. Elle doit être adaptée à un émetteur avec une impédance de charge de $\qty{50}{\ohm}$.
 
 <margin>
 [picture:260:a_endgespeiste_antenne:Antenne alimentée à l'extrémité avec adaptation d'impédance par un transformateur]

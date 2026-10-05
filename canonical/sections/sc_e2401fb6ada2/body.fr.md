@@ -49,7 +49,7 @@ Les bornes de sortie pour la tension continue sont codées par couleur : le roug
 
 ---
 
-Dans le bloc d'alimentation et dans le câble de connexion à l'émetteur-récepteur, il y a des fusibles miniatures. Ceux-ci peuvent détecter un cas de défaut (court-circuit ou surcharge) et interrompre le flux de courant. Il s'agit souvent de fusibles à cartouche, dans lesquels un fil fin fond lorsque trop de courant circule. Le circuit n'est alors plus fermé et aucun courant ne peut plus circuler. On parle alors d'un *fusible grillé* ou, dans le langage technique, d'une *déclenchement thermique*.
+Dans le bloc d'alimentation et dans le câble de connexion à l'émetteur-récepteur, il y a des fusibles miniatures. Ceux-ci peuvent détecter un cas de défaut (court-circuit ou surcharge) et interrompre le flux de courant. Il s'agit souvent de fusibles à cartouche, dans lesquels un fil fin fond lorsque trop de courant circule. Le circuit n'est alors plus fermé et aucun courant ne peut plus circuler. On parle alors d'un *fusible grillé* ou, dans le langage technique, d'un *déclenchement thermique*.
 
 <margin>
 [photo:88:n_feinsicherungen:Fusibles miniatures]

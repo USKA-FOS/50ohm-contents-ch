@@ -2,7 +2,7 @@
 **TODO: Inserire simulazione: https://tinyurl.com/22m65xlw**
 
 
-Come già mostrato nella sezione [sec:gleichrichter_1], un singolo diodo lascia passare solo la mezza onda positiva. Per ottenere da ciò una tensione continua utilizzabile, è necessario almeno un condensatore che livelli la tensione d’uscita pulsante (vedi circuito [ref:a_einweggleichrichtung_c]).
+Come già mostrato nella sezione [sec:gleichrichter_1], un singolo diodo lascia passare solo la mezza onda positiva. Per ottenere da ciò una tensione continua utilizzabile, è inoltre necessario almeno un condensatore che livelli la tensione d’uscita pulsante (vedi circuito [ref:a_einweggleichrichtung_c]).
 
 <margin>
 [picture:795:a_einweggleichrichtung_c:Raddrizzamento a semionda con condensatore]
@@ -34,7 +34,7 @@ Nella domanda seguente dobbiamo applicare il rapporto di trasformazione del tras
 
 [question:AD303]
 
-Per risolvere il seguente esercizio dobbiamo riconoscere che il valore di picco della mezza onda negativa e la tensione del condensatore si sommano e caricano il diodo in polarizzazione inversa. Questa è la tensione più alta che può verificarsi sul diodo in polarizzazione inversa.
+Per risolvere il seguente esercizio dobbiamo riconoscere che il valore di picco della mezza onda negativa e la tensione del condensatore si sommano e sottopongono il diodo a una tensione inversa. Questa è la tensione più alta che può verificarsi sul diodo in polarizzazione inversa.
 
 Calcoliamo: $U_{\mathrm{sperr}} = 2 \cdot \hat{u}$
 Da considerare sono poi il rapporto di trasformazione $5 : 1$ del trasformatore di rete e il margine di sicurezza del $\qty{20}{\percent}$.

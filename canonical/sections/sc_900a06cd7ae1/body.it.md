@@ -13,7 +13,7 @@ Una configurazione per il funzionamento remoto può essere rappresentata logicam
 * *Computer e unità di controllo dell'operatore (Blocco 1)*: Serve per controllare la stazione remota. Qui, i segnali audio locali e i segnali di comando vengono convertiti in pacchetti di dati di rete e trasmessi alla stazione remota. I segnali di comando e audio ricevuti dalla stazione remota (trasmessi via rete) vengono resi nuovamente udibili e visibili dal computer/dall'unità di controllo.
 * *Rete*: Rete di connessione o reti di connessione tra la sede dell'operatore e la stazione remota. Anche Internet può servire come rete tra le sedi.
 * *Computer o interfaccia remota presso la sede remota (Blocco 2)*: Questo converte i pacchetti di dati di rete ricevuti dall'operatore in segnali di comando e segnali audio per il controllo successivo del trasmettitore-ricevitore presso la sede remota e, in ritorno, trasmette i segnali audio ricevuti dal trasmettitore-ricevitore via rete all'operatore. Anche le impostazioni del trasmettitore-ricevitore e i segnali di comando di ritorno vengono trasmessi via rete all'operatore.
-* *Trasmettitore-ricevitore/amplificatore/tuner/rotore d’antenna (Blocco 3)*: Questi apparecchi vengono controllati/retroazionati dall'interfaccia remota o da un computer presso la sede remota tramite segnali che l'operatore trasmette via rete all'interfaccia remota.
+* *Trasmettitore-ricevitore/amplificatore/tuner/rotore d’antenna (Blocco 3)*: Questi apparecchi vengono controllati e il loro stato viene segnalato dall'interfaccia remota o da un computer presso la sede remota tramite segnali che l'operatore trasmette via rete all'interfaccia remota.
 
 [question:AF701]
 [question:AF702]

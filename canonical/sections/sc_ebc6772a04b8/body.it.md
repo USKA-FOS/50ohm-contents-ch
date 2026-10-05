@@ -1,6 +1,6 @@
 Le applicazioni degli attenuatori le abbiamo già incontrate nella sezione [sec:vorverstaerker_daempfungsglied]. Ora consideriamo diverse forme di realizzazione degli attenuatori.
 
-Gli attenuatori sono spesso necessari nella tecnica RF per attenuare in modo definito i livelli di segnale. Ad esempio, attraverso un attenuatore di potenza, la potenza d’uscita di un trasmettitore può essere ridotta al punto che il suo segnale di uscita non danneggi o sovramoduli gli strumenti di misura collegati. Si usano attenuatori anche per ridurre i livelli d'ingresso per amplificatori e ricevitori a una misura definita.
+Gli attenuatori sono spesso necessari nella tecnica RF per attenuare in modo definito i livelli di segnale. Ad esempio, attraverso un attenuatore di potenza, la potenza d’uscita di un trasmettitore può essere ridotta al punto che il suo segnale di uscita non danneggi o sovraccarichi gli strumenti di misura collegati. Si usano attenuatori anche per ridurre i livelli d'ingresso per amplificatori e ricevitori a un livello definito.
 
 Un attenuatore deve sempre essere progettato per un'impedenza di sistema definita rispetto all'ingresso e all'uscita. Negli attenuatori simmetricamente costruiti, le impedenze d'ingresso e d'uscita sono identiche. Spesso queste sono le consuete $\qty{50}{\ohm}$ nella tecnica RF. Affinché un attenuatore presenti le impedenze richieste al suo ingresso e uscita, è necessario un adattamento di impedenza corretto su entrambi i lati. Ciò si ottiene con una rete di resistenze adeguata.
 

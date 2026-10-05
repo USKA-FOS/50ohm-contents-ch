@@ -11,7 +11,7 @@ Nella figura [ref:n_internationale_landeskenner_eu] sono riportati i principali 
 % Controllare bene la lista per vedere se corrisponde alla nostra lista
 I prefissi nazionali sono necessari più volte nel corso della vita radioamatoriale. Molti radioamatori hanno creato dei trucchi mnemonici per i singoli prefissi per ricordarli meglio. Nella tabella [ref:n_europaeische_landeskenner_eselsbruecken] si trovano i prefissi nazionali europei con i rispettivi paesi. La tabella [ref:n_internationale_landeskenner_eselsbruecken] mostra altri prefissi nazionali extraeuropei. Per alcuni esistono anche trucchi mnemonici comunemente usati.
 % La frase seguente può essere vera, ma non la trovo buona. Anche se qui si tratta di memorizzare. Trovo discutibile che una piattaforma di apprendimento dia consigli su come "barare". Inoltre, non funziona comunque se si tratta solo di domande modello.
-% Se si memorizzano bene i prefissi nazionali evidenziati, si possono rispondere tutte le domande del catalogo sui prefissi nazionali per esclusione.
+% Se si memorizzano bene i prefissi nazionali evidenziati, si può rispondere a tutte le domande del catalogo sui prefissi nazionali per esclusione.
 
 <webmargin>
 | l: Prefisso nazionale | l: Trucco mnemonico | X: Paese |

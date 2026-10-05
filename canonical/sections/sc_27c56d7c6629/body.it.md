@@ -6,7 +6,7 @@ Quando particelle cariche del vento solare si accoppiano con il campo magnetico 
 
 ---
 
-Le regioni di rifrazione sono molto dinamiche, il percorso del segnale delle onde radio cambia quindi costantemente e in modo massiccio. Ciò provoca rapide fluttuazioni del segnale (fading) e inoltre un allargamento in frequenza del segnale, il cosiddetto Doppler-Spread. Per questo i collegamenti in telefonia sono difficili, perché il parlato diventa difficile da comprendere. I segnali telegrafici (CW) sono più adatti, ma hanno anche un tono molto ruvido, motivo per cui nel rapporto di segnale RST si omette completamente la "T" per la valutazione della qualità del tono e si fornisce invece la lettera "A" per "Aurora".
+Le regioni di rifrazione sono molto dinamiche, il percorso del segnale delle onde radio cambia quindi costantemente e in modo massiccio. Ciò provoca rapide fluttuazioni del segnale (fading) e inoltre un allargamento in frequenza del segnale, il cosiddetto Doppler-Spread. Per questo i collegamenti in telefonia sono difficili, perché il parlato diventa difficile da comprendere. I segnali telegrafici (CW) sono più adatti, ma hanno anche un tono molto rumoroso, motivo per cui nel rapporto di segnale RST si omette completamente la "T" per la valutazione della qualità del tono e si fornisce invece la lettera "A" per "Aurora".
 
 <webonly>
 <margin>
@@ -20,7 +20,7 @@ Un QSO SSB-Aurora è disponibile anche su [Youtube](https://50ohm.de/assb) per l
 
 <latexonly>
 <indepth>
-Un esempio di QSO CW-Aurora tra OH2MA e OH2LAK su $\qty{50}{\mega\hertz}$ è disponibile su [Youtube](https://50ohm.de/acw). Qui si può sentire il tono molto ruvido e affannoso dei caratteri Morse. Un QSO SSB è disponibile anche su [Youtube](https://50ohm.de/assb) per l'ascolto.
+Un esempio di QSO CW-Aurora tra OH2MA e OH2LAK su $\qty{50}{\mega\hertz}$ è disponibile su [Youtube](https://50ohm.de/acw). Qui si può sentire il tono molto ruvido e rumoroso dei caratteri Morse. Un QSO SSB è disponibile anche su [Youtube](https://50ohm.de/assb) per l'ascolto.
 </indepth>
 </latexonly>
 

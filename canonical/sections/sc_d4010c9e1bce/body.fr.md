@@ -1,6 +1,6 @@
 Dans la section [sec:reihe_parallel_kondensator], nous avons déjà appris comment se comportent les condensateurs en série et en parallèle. La section précédente [sec:reihenschaltung_spule] a également traité du montage en série des bobines. Dans cette section, nous examinons maintenant le montage en parallèle des bobines et des condensateurs. Nous commençons cependant par réviser une fois de plus les relations fondamentales dans les montages en parallèle et en série des capacités.
 
-Dans les circuits d'accord parallèles, les bobines et les condensateurs sont combinés. Une bobine réelle possède également une certaine capacité propre. Celle-ci apparaît par exemple à cause des spires de la bobine et des couplages de champ électrique qui en résultent entre les tours.
+Dans les circuits d'accord parallèles, les bobines et les condensateurs sont combinés. Une bobine réelle possède également une certaine capacité propre. Celle-ci apparaît par exemple à cause des spires de la bobine et des couplages de champ électrique qui en résultent entre les spires.
 
 Pour un calcul aussi précis que possible de la fréquence de résonance, ces capacités "invisibles" doivent être prises en compte. Dans l'exercice suivant, les capacités des condensateurs et la capacité propre de la bobine peuvent être additionnées directement, car elles sont placées en parallèle.
 

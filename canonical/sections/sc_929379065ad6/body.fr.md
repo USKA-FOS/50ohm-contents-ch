@@ -17,7 +17,7 @@ Le montage en parallèle de $\qty{100}{\ohm}$ avec $\qty{200}{\ohm}$ (curseur du
 Il n'y a qu'une seule solution qui satisfait cette condition.
 </tip>
 
-Nous examinons maintenant un circuit de résistances avec 4 résistances, souvent utilisé. Deux diviseurs de tension chacun en montage en parallèle donnent un circuit appelé pont de résistances. Les ponts de résistances sont utilisés par exemple dans les ohmmètres selon le principe d'un pont de mesure de Wheatstone.
+Nous examinons maintenant un circuit de résistances avec 4 résistances, souvent utilisé. Deux diviseurs de tension montés en parallèle donnent un circuit en pont. Les circuits en pont sont utilisés par exemple dans les ohmmètres selon le principe d'un pont de mesure de Wheatstone.
 
 ---
 

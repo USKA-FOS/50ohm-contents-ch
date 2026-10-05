@@ -121,7 +121,7 @@ In un budget di collegamento reale, si aggiungono ulteriori fattori, ad esempio 
 
 Poiché il satellite si muove durante un sorvolo, cambia anche la sua direzione relativa alla stazione di terra. Per molti collegamenti satellitari vengono quindi utilizzate antenne con un guadagno adeguato e una direttività sufficiente. Con antenne più direttive, potrebbe essere necessario un inseguimento dell'antenna.
 
-Anche la polarizzazione del segnale deve essere considerata. A causa del movimento e della posizione del satellite, l'orientamento della polarizzazione relativa alla stazione di terra può cambiare. Nel satellite radio vengono quindi utilizzate polarizzazioni lineari o circolari a seconda dell'applicazione.
+Anche la polarizzazione del segnale deve essere considerata. A causa del movimento e della posizione del satellite, l'orientamento della polarizzazione relativa alla stazione di terra può cambiare. Nella radio via satellite vengono quindi utilizzate polarizzazioni lineari o circolari a seconda dell'applicazione.
 
 ## Transponder e digipeater
 

@@ -8,10 +8,10 @@ Nella sezione [sec:oszilloskop_1] abbiamo imparato che un oscilloscopio rapprese
 
 ---
 
-Oltre alle tensioni alternate sinusoidali, a causa della tecnologia digitale, si presentano anche tensioni rettangolari. Tuttavia, non può esistere un andamento di tensione perfettamente rettangolare. I bordi sono sempre un po' inclinati o deformati. Il tempo tra la salita e la discesa di un rettangolo, chiamato larghezza del impulso o durata dell'impulso, viene quindi sempre misurato a metà altezza, cioè al 50% della tensione. In questo modo si garantisce che per lo stesso segnale tutti ottengano lo stesso risultato di misura.
+Oltre alle tensioni alternate sinusoidali, a causa della tecnologia digitale, si presentano anche tensioni rettangolari. Tuttavia, non può esistere un andamento di tensione perfettamente rettangolare. I bordi sono sempre un po' inclinati o deformati. Il tempo tra la salita e la discesa di un rettangolo, chiamato larghezza dell'impulso o durata dell'impulso, viene quindi sempre misurato a metà altezza, cioè al 50% della tensione. In questo modo si garantisce che per lo stesso segnale tutti ottengano lo stesso risultato di misura.
 
 <indepth>
-La causa di queste deformazioni sono le capacità e le induttanze inevitabili nei cavi e nei componenti, che agiscono come filtri e attenuano le componenti ad alta frequenza di un segnale rettangolare.
+La causa di queste deformazioni è costituita dalle capacità e dalle induttanze inevitabili nei cavi e nei componenti, che agiscono come filtri e attenuano le componenti ad alta frequenza di un segnale rettangolare.
 </indepth>
 
 [question:AI303]
@@ -27,13 +27,13 @@ Grazie a questa procedura, ogni rappresentazione inizia sempre nello stesso stat
 [question:AI302]
 
 %<indepth>
-%La figura [ref:a_oszilloskop_einzelbild] mostra un'immagine singola dalla registrazione musicale della figura [ref:a_oszilloskop_ueberlagerung]. È stata fotografata da un oscilloscopio più vecchio, che lavora principalmente in modo analogico e possiede inoltre una piccola memoria digitale.
+%La figura [ref:a_oszilloskop_einzelbild] mostra un'immagine singola dalla registrazione musicale della figura [ref:a_oszilloskop_ueberlagerung]. È stata fotografata su un oscilloscopio più vecchio, che lavora principalmente in modo analogico e possiede inoltre una piccola memoria digitale.
 %[photo:222:a_oszilloskop_einzelbild:Immagine singola da una registrazione musicale]
 %</indepth>
 
 Non ogni cavo è adatto per segnali ad alta frequenza – questo vale anche per la connessione tra l'oggetto di misura e l'oscilloscopio. Per questo si utilizzano generalmente le cosiddette sonde di prova. Esse stabiliscono la connessione e garantiscono che il segnale venga trasmesso il più possibile senza distorsioni, senza caricare eccessivamente il circuito. A tal fine, riducono la tensione del segnale (ad esempio in un rapporto 10:1), adattano la resistenza e la capacità e spesso contengono una compensazione per le alte frequenze.
 
-Una sonda di prova è costituita da un alloggiamento simile a una penna, paragonabile a una penna a sfera. Alla sua punta possono essere applicati diversi ganci o aghi per contattare il punto di misura. La connessione di massa avviene tramite una pinza a coccodrillo (vedi figura [ref:a_oszilloskop_messung]). La figura [ref:a_oszilloskop_tastkoepfe] mostra tre esempi di tali sonde di prova. I modelli di alta qualità sono di conseguenza costosi, poiché devono offrire ampie bande passanti, distorsione minima del segnale e una meccanica precisa.
+Una sonda di prova è costituita da un alloggiamento simile a una penna, paragonabile a una penna a sfera. Alla sua punta possono essere applicati diversi ganci o aghi per contattare il punto di misura. La connessione di massa avviene tramite una pinza a coccodrillo (vedi figura [ref:a_oszilloskop_messung]). La figura [ref:a_oszilloskop_tastkoepfe] mostra tre esempi di tali sonde di prova. I modelli di alta qualità sono di conseguenza costosi, poiché devono offrire un'ampia larghezza di banda, una distorsione minima del segnale e una meccanica precisa.
 
 <margin>
 [photo:224:a_oszilloskop_messung:Misurazione con una sonda di prova. Tra i diodi D1 e D2 si vede la punta di prova e più a sinistra la pinza a coccodrillo per la connessione di massa.]

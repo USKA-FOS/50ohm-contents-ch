@@ -6,7 +6,7 @@ Il rapporto segnale / rumore (SNR) è definito come il rapporto tra il segnale u
 
 [question:AF227]
 
-Il fattore di rumore è spesso specificato per i preamplificatori RF. Questo descrive il deterioramento dell'SNR quando un segnale attraversa questo componente. Qui, il fattore di rumore è determinato come il rapporto tra il valore SNR in ingresso e il valore SNR in uscita. Il fattore di rumore è solitamente espresso in decibel ($\unit{\dB}$) tramite logaritmo. Un fattore di rumore di $\num{2}$ in notazione lineare corrisponde a $\qty{3}{\dB}$ in rappresentazione logaritmica.
+Il fattore di rumore è spesso specificato per i preamplificatori HF. Questo descrive il deterioramento dell'SNR quando un segnale attraversa questo componente. Qui, il fattore di rumore è determinato come il rapporto tra il valore SNR in ingresso e il valore SNR in uscita. Il fattore di rumore è solitamente espresso in decibel ($\unit{\dB}$) tramite logaritmo. Un fattore di rumore di $\num{2}$ in notazione lineare corrisponde a $\qty{3}{\dB}$ in rappresentazione logaritmica.
 
 [question:AF228]
 [question:AF229]

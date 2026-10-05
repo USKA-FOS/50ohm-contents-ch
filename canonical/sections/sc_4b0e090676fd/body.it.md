@@ -1,6 +1,6 @@
-Con le basi sulla ionosfera, l'attività delle macchie solari e la cosiddetta "zona morta" ci siamo già occupati nelle domande d'esame nelle sezioni [sec:ionosphaere] e [sec:tote_zone_1]. Qui questi argomenti vengono approfonditi ulteriormente e integrati con aspetti aggiuntivi della propagazione delle onde.
+Abbiamo già trattato le basi dell'ionosfera, l'attività delle macchie solari e la cosiddetta "zona morta" nelle domande d'esame delle sezioni [sec:ionosphaere] e [sec:tote_zone_1]. Qui questi argomenti vengono approfonditi ulteriormente e integrati con aspetti aggiuntivi della propagazione delle onde.
 
-La radiazione proveniente dal sole strappa elettroni dagli atomi e molecole di ossigeno e azoto dell'alta atmosfera (*ionizzazione*). Questi elettroni liberi vengono eccitati a oscillare dalle onde radio di frequenza appropriata; ciò porta infine a che queste onde vengano rifratte verso la superficie terrestre. Come si può vedere nella figura [ref:e_wellenausbreitung_refraktion], il cambiamento di direzione delle onde radio causato dalla rifrazione – cioè dalla rifrazione – dà l'impressione che siano riflesse.
+La radiazione proveniente dal sole strappa elettroni dagli atomi e molecole di ossigeno e azoto dell'alta atmosfera (*ionizzazione*). Questi elettroni liberi vengono eccitati a oscillare dalle onde radio di frequenza appropriata; ciò fa sì, infine, che queste onde vengano rifratte verso la superficie terrestre. Come si può vedere nella figura [ref:e_wellenausbreitung_refraktion], il cambiamento di direzione delle onde radio causato dalla rifrazione – cioè dalla deviazione – dà l'impressione che siano riflesse.
 
 [question:EH101]
 
@@ -16,7 +16,7 @@ D'altra parte, questi elettroni liberi vogliono immediatamente ricombinarsi con 
 
 ---
 
-Per la gamma delle onde corte sono particolarmente importanti tre regioni della ionosfera: la regione D, E e F, come mostrato nelle figure [ref:e_wellenausbreitung_refraktion] e [ref:e_schichten_jahreszeiten]. Per le domande d'esame della classe HB3 è richiesta solo una comprensione di base e qualitativa di queste regioni. Si dovrebbe sapere che le regioni F della ionosfera, particolarmente importanti per la propagazione a lunga distanza (DX) delle onde corte, si trovano a un'altezza di circa 130-450 chilometri. Nella classe HB9 bisogna anche essere in grado di indicare le esatte altezze delle singole regioni per il giorno e la notte.
+Per la gamma delle onde corte sono particolarmente importanti tre regioni della ionosfera: le regioni D, E e F, come mostrato nelle figure [ref:e_wellenausbreitung_refraktion] e [ref:e_schichten_jahreszeiten]. Per le domande d'esame della classe HB3 è richiesta solo una comprensione di base e qualitativa di queste regioni. Si dovrebbe sapere che le regioni F della ionosfera, particolarmente importanti per la propagazione a lunga distanza (DX) delle onde corte, si trovano a un'altezza di circa 130-450 chilometri. Nella classe HB9 bisogna anche essere in grado di indicare le esatte altezze delle singole regioni per il giorno e la notte.
 
 [question:EH102]
 
@@ -42,7 +42,7 @@ A $\num{90}$-$\qty{130}{\kilo\meter}$ di altezza segue la *regione E*, che abbia
 In questa regione, soprattutto nelle latitudini temperate durante i mesi estivi, si verifica un fenomeno particolare, lo *strato E sporadico* (abbreviato *Es*). È costituito da aree generalmente di piccola estensione, molto fortemente ionizzate, ed è in grado di rifrangere onde radio di frequenza molto più alta, fino alla banda dei $\qty{2}{\meter}$.
 
 <margin>
-[picture:733:e_sporadic_e:Rifrazione (rifrazione) di onde radio su aree fortemente ionizzate dello strato E]
+[picture:733:e_sporadic_e:Rifrazione (deviazione) di onde radio su aree fortemente ionizzate dello strato E]
 </margin>
 
 [question:EH106]
@@ -51,7 +51,7 @@ In questa regione, soprattutto nelle latitudini temperate durante i mesi estivi,
 
 **Regione F**
 
-Al di sopra si trova infine la *regione F*, che durante il giorno si divide inoltre nella regione F1 e nella regione F2 sovrastante. Quest'ultima può estendersi fino a un'altezza di $\qty{450}{\kilo\meter}$ ed è la più importante per la propagazione delle onde corte. Da un lato, la sua maggiore altezza permette di coprire distanze fino a $\qty{4000}{\kilo\meter}$ con un salto. Dall'altro, la bassa densità del gas a queste altezze fa sì che ci voglia molto tempo prima che un elettrone libero trovi di nuovo uno ione con cui ricombinarsi per formare un atomo o molecola neutra. Perciò lì ci sono sempre abbastanza elettroni liberi per rifrangere le onde corte. Il loro numero e quindi la loro densità diminuisce però con il diminuire dell'irraggiamento solare e così anche la frequenza massima ancora rifratta. Pertanto, le bande superiori sono le prime a chiudersi.
+Al di sopra si trova infine la *regione F*, che durante il giorno si divide inoltre nella regione F1 e nella regione F2 sovrastante. Quest'ultima può estendersi fino a un'altezza di $\qty{450}{\kilo\meter}$ ed è la più importante per la propagazione delle onde corte. Da un lato, la sua maggiore altezza permette di coprire distanze fino a $\qty{4000}{\kilo\meter}$ con un salto. Dall'altro, la bassa densità del gas a queste altezze fa sì che ci voglia molto tempo prima che un elettrone libero trovi di nuovo uno ione con cui ricombinarsi per formare un atomo o una molecola neutra. Perciò lì ci sono sempre abbastanza elettroni liberi per rifrangere le onde corte. Il loro numero e quindi la loro densità diminuisce però con il diminuire dell'irraggiamento solare e così anche la frequenza massima ancora rifratta. Pertanto, le bande superiori sono le prime a chiudersi.
 
 [question:EH103]
 

@@ -26,7 +26,7 @@ Nella tabella [ref:n_funkwellen_baender] si trovano, ad esempio, tre bande radio
 | $\qtyrange{28}{29,7}{\mega\hertz}$ | $\qtyrange{10,7}{10,1}{\meter}$ | Banda dei $\qty{10}{\meter}$ |
 | $\qtyrange{144}{146}{\mega\hertz}$ | $\qtyrange{2,08}{2,05}{\meter}$ | Banda dei $\qty{2}{\meter}$ |
 | $\qtyrange{430}{440}{\mega\hertz}$ | $\qtyrange{70}{68}{\centi\meter}$ | Banda dei $\qty{70}{\centi\meter}$ |
-[table:n_funkwellen_baender:Tre bande radioamatoriali, rilasciate per entrambe le classi]
+[table:n_funkwellen_baender:Tre bande radioamatoriali, autorizzate per entrambe le classi]
 </margin>
 
 %preso da 2.11

@@ -10,7 +10,7 @@ Un problème que nous souhaitons approfondir ici est que les bandes radioamateur
 
 ---
 
-C'est pourquoi un convertisseur doit parfois être commuté, comme illustré dans la figure [ref:a_konverter], pour pouvoir mapper des bandes de fréquences plus larges. Par exemple, pour convertir une bande de fréquences de $\qtyrange{436}{440}{\mega\hertz}$, soit une bande passante de $\qty{4}{\mega\hertz}$, vers une bande de $\qtyrange{28}{30}{\mega\hertz}$ avec $\qty{2}{\mega\hertz}$ (en supposant que la fréquence de l’oscillateur se situe en dessous du signal utile), deux plages de fréquences commutables sont nécessaires : la première de $\qtyrange{436}{438}{\mega\hertz}$ et la seconde de $\qtyrange{438}{440}{\mega\hertz}$. 
+C'est pourquoi un convertisseur doit parfois être commutable, comme illustré dans la figure [ref:a_konverter], pour pouvoir mapper des bandes de fréquences plus larges. Par exemple, pour convertir une bande de fréquences de $\qtyrange{436}{440}{\mega\hertz}$, soit une bande passante de $\qty{4}{\mega\hertz}$, vers une bande de $\qtyrange{28}{30}{\mega\hertz}$ avec $\qty{2}{\mega\hertz}$ (en supposant que la fréquence de l’oscillateur se situe en dessous du signal utile), deux plages de fréquences commutables sont nécessaires : la première de $\qtyrange{436}{438}{\mega\hertz}$ et la seconde de $\qtyrange{438}{440}{\mega\hertz}$. 
 
 <margin>
 [picture:85:a_konverter:Convertisseur avec commutation de la fréquence de l’oscillateur]

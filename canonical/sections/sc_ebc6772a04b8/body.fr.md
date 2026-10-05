@@ -1,6 +1,6 @@
 Nous avons déjà rencontré des applications d'atténuateurs dans la section [sec:vorverstaerker_daempfungsglied]. Maintenant, nous examinons différentes formes de réalisation d'atténuateurs.
 
-Les atténuateurs sont souvent nécessaires en technique HF pour atténuer les niveaux de signal de manière définie. Par exemple, un atténuateur de puissance peut réduire la puissance de sortie d'un émetteur de sorte que son signal de sortie n'endommage pas ou ne surmodule pas les instruments de mesure connectés. On utilise également des atténuateurs pour réduire les niveaux d'entrée des amplificateurs et des récepteurs à une valeur définie.
+Les atténuateurs sont souvent nécessaires en technique HF pour atténuer les niveaux de signal de manière définie. Par exemple, un atténuateur de puissance peut réduire la puissance de sortie d'un émetteur de sorte que son signal de sortie n'endommage pas ou ne surcharge pas les instruments de mesure connectés. On utilise également des atténuateurs pour réduire les niveaux d'entrée des amplificateurs et des récepteurs à une valeur définie.
 
 Un atténuateur doit toujours être conçu pour une impédance système définie concernant l'entrée et la sortie. Pour les atténuateurs construits de manière symétrique, les impédances d'entrée et de sortie sont identiques. Il s'agit souvent des $\qty{50}{\ohm}$ habituels en technique HF. Pour qu'un atténuateur présente les impédances requises à son entrée et sa sortie, une terminaison adaptée en impédance est nécessaire des deux côtés. Ceci est réalisé par un réseau de résistances approprié.
 

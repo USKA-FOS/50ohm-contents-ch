@@ -1,7 +1,7 @@
 Dans cette section et la suivante, nous nous intéressons à deux circuits fondamentaux importants d'un transistor bipolaire. Nous examinons d'abord dans cette section le *montage à collecteur commun*, puis dans la section suivante le *montage à émetteur commun*. Les deux circuits sont représentés dans la figure [ref:a_emitter_collector]. Ils possèdent des propriétés différentes et sont donc utilisés pour diverses applications.
 
 <margin>
-[picture:1118:a_emitter_collector:Montage à émetteur commun et à collecteur commun avec désignations base (B), collecteur (C) et émetteur (E)]
+[picture:1118:a_emitter_collector:Montage à émetteur commun et à collecteur commun avec désignations de la base (B), du collecteur (C) et de l’émetteur (E)]
 </margin>
 
 La désignation des circuits fondamentaux d'un transistor bipolaire est basée sur la borne qui ne sert ni d'entrée ni de sortie du circuit et constitue ainsi le point de référence commun pour le circuit d'entrée et de sortie. Pour le montage à collecteur commun, c'est le collecteur.
@@ -42,9 +42,9 @@ Lorsqu'un signal d'entrée, par exemple une tension alternative sinusoïdale, es
 
 La résistance d'émetteur convertit le courant qui traverse la jonction collecteur-émetteur en une chute de tension, qui est prélevée à l'émetteur. Le courant d'émetteur du transistor circule (avec la part généralement négligeable du courant de base) à travers l'émetteur et la résistance d'émetteur vers la masse. Le courant traversant la résistance d'émetteur provoque, par la chute de tension qui en résulte, une augmentation du potentiel de l'émetteur (tension d'émetteur) et agit ainsi comme une contre-réaction pour la tension de base. Cela stabilise en outre le point de fonctionnement du transistor, car les variations thermiques du courant de collecteur sont ainsi compensées.
 
-Le couplage et le découplage des signaux à la base et à l'émetteur se font via des condensateurs de couplage. Leur rôle est d'empêcher les composantes de tension continue d'atteindre l'étage amplificateur, ce qui modifierait le point de fonctionnement.
+Le couplage d'entrée et de sortie des signaux à la base et à l'émetteur se fait via des condensateurs de couplage. Leur rôle est d'empêcher les composantes de tension continue d'atteindre l'étage amplificateur, ce qui modifierait le point de fonctionnement.
 
-Le condensateur de découplage dans la tension de service (+) sert à éliminer les signaux HF et BF indésirables, afin d'éviter les effets de rétroaction sur l'étage et la tension d'alimentation. De plus, le collecteur est connecté signalement (pour la tension alternative) à l'entrée et à la sortie via le condensateur de découplage.
+Le condensateur de découplage dans la tension de service (+) sert à éliminer les signaux HF et BF indésirables, afin d'éviter les effets de rétroaction sur l'étage et la tension d'alimentation. De plus, le collecteur est connecté du point de vue du signal (pour la tension alternative) à l'entrée et à la sortie via le condensateur de découplage.
 
 Le gain en tension du montage à collecteur commun se situe, avec une conception appropriée, dans la plage de $\num{0,9}$ à $\num{0,98}$ et est toujours légèrement inférieur à $1$.
 
@@ -56,6 +56,6 @@ Le montage à collecteur commun possède un gain en courant significatif. Son im
 
 [question:AD403]
 
-Pour cette raison, le montage à collecteur commun est souvent utilisé comme *étage tampon entre un oscillateur et d'autres parties du circuit*, qui chargeraient autrement l'oscillateur de manière basse impédance, afin d'obtenir un découplage et une meilleure stabilisation en fréquence de l'oscillateur.
+Pour cette raison, le montage à collecteur commun est souvent utilisé comme *étage tampon entre un oscillateur et d'autres parties du circuit*, qui chargeraient autrement l'oscillateur avec une faible impédance, afin d'obtenir un découplage et une meilleure stabilisation en fréquence de l'oscillateur.
 
 [question:AD404]

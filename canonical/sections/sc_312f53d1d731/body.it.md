@@ -1,4 +1,4 @@
-Già nel capitolo [sec:wellenlaenge] abbiamo appreso la relazione tra la frequenza ($f$) e la lunghezza d’onda ($\lambda$). Lì sono state fornite due equazioni dimensionali specificamente adattate.
+Già nel capitolo [sec:wellenlaenge] abbiamo appreso la relazione tra la frequenza ($f$) e la lunghezza d’onda ($\lambda$). Lì sono state fornite due equazioni tra grandezze appositamente adattate.
 % Inserire questa frase nella frase precedente se le formule sono incluse nella raccolta. "... dalla raccolta di formule per l'esame..."
 
 $f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]}$
@@ -6,7 +6,7 @@ $f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]}$
 $\lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]}$
 
 <indepth>
-Le equazioni in cui è già indicata l'unità in cui devono essere espressi i valori si chiamano *equazioni dimensionali adattate*.
+Le equazioni in cui è già indicata l'unità in cui devono essere espressi i valori si chiamano *equazioni tra grandezze adattate*.
 </indepth>
 
 In realtà, però, si tratta solo di un'unica equazione, che nel primo caso è stata risolta rispetto alla frequenza e nel secondo rispetto alla lunghezza d’onda.
@@ -39,7 +39,7 @@ Si ottiene così una nuova equazione:
 
 $\lambda\cdot f = \dfrac{c_0 \cdot f}{f}$
 
-Dove a destra la frequenza si semplifica (poiché $f$ diviso per $f$ dà 1):
+A destra, la frequenza si semplifica (poiché $f$ diviso per $f$ dà 1):
 
 $\lambda \cdot f = c_0$
 

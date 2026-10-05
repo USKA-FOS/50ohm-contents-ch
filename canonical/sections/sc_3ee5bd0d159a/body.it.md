@@ -10,10 +10,10 @@ L'installazione di apparecchi e antenne nell'auto deve essere pianificata ed ese
 
 ---
 
-Affinché un'antenna mobile irradi bene i suoi segnali radio, l'antenna dovrebbe essere montata il più possibile al centro del tetto metallico del veicolo. In questo caso, il tetto del veicolo funge da contrappeso, simile alla terra in un'antenna Marconi. Nel caso più semplice si utilizza un'*antenna con base magnetica*. Spesso ci sono anche specifiche del costruttore del veicolo per i punti di installazione dell'antenna.
+Affinché un'antenna mobile irradi bene i suoi segnali radio, l'antenna dovrebbe essere montata il più possibile al centro del tetto metallico del veicolo. In questo caso, il tetto del veicolo funge da contrappeso, simile alla terra in un'antenna Marconi. Nel caso più semplice si utilizza un'*antenna a base magnetica*. Spesso ci sono anche specifiche del costruttore del veicolo per i punti di installazione dell'antenna.
 
 <margin>
-[photo:64:n_magnetfussantenne:Antenna con base magnetica sul tetto del veicolo]
+[photo:64:n_magnetfussantenne:Antenna a base magnetica sul tetto del veicolo]
 </margin>
 
 [question:NK310]

@@ -1,4 +1,4 @@
-Le onde radio nelle bande VHF e UHF si comportano in modo simile alla luce. La luce arriva al massimo fino all'orizzonte geografico (visibile). Le onde radio raggiungono circa il $\qty{15}{\percent}$ in più, poiché seguono leggermente la curvatura terrestre (figura [ref:n_funkhorizont]). Parliamo quindi di *orizzonte radio* [index:Funkhorizont].
+Le onde radio nelle bande VHF e UHF si comportano in modo simile alla luce. La luce arriva al massimo fino all'orizzonte geografico (visibile). Le onde radio raggiungono una distanza maggiore di circa il $\qty{15}{\percent}$, poiché seguono leggermente la curvatura terrestre (figura [ref:n_funkhorizont]). Parliamo quindi di *orizzonte radio* [index:Funkhorizont].
 
 <webmargin>
 [picture:484:n_funkhorizont:Propagazione]

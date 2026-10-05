@@ -36,7 +36,7 @@ Pour fonctionner comme un amplificateur de tension linéaire, le transistor en m
 
 La résistance de collecteur convertit le courant qui traverse la jonction collecteur-émetteur en une chute de tension, qui est prélevée au collecteur. Le courant de collecteur du transistor circule (avec la part généralement négligeable du courant de base) via l'émetteur à travers la résistance d'émetteur vers la masse. Le courant traversant la résistance d'émetteur provoque, par la chute de tension qui en résulte à ses bornes, une augmentation du potentiel de l'émetteur (tension d'émetteur) et agit ainsi comme une contre-réaction pour la tension de base. Ceci stabilise en outre le point de fonctionnement du transistor, car les variations thermiques du courant de collecteur sont ainsi compensées.
 
-Le couplage d'entrée et de sortie des signaux à la base et au collecteur s'effectue via des condensateurs de couplage. Leur tâche est d'empêcher les composantes de courant continu d'atteindre l'étage amplificateur, ce qui modifierait le point de fonctionnement.
+Le couplage d'entrée et de sortie des signaux à la base et au collecteur s'effectue via des condensateurs de couplage. Leur tâche est d'empêcher les composantes de tension continue d'atteindre l'étage amplificateur, ce qui modifierait le point de fonctionnement.
 
 [question:AD412]
 

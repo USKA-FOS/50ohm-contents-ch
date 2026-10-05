@@ -5,7 +5,7 @@
 Comme déjà montré dans la section [sec:gleichrichter_1], une seule diode ne laisse passer que la demi-onde positive. Pour qu'une tension continue utilisable en résulte, au moins un condensateur supplémentaire est nécessaire, qui lisse la tension de sortie pulsante (voir le circuit [ref:a_einweggleichrichtung_c]).
 
 <margin>
-[picture:795:a_einweggleichrichtung_c:Redressement monophasé avec condensateur]
+[picture:795:a_einweggleichrichtung_c:Redressement simple alternance avec condensateur]
 </margin>
 
 ---
@@ -34,7 +34,7 @@ Pour la question suivante, nous devons appliquer le rapport de transformation du
 
 [question:AD303]
 
-Pour résoudre la tâche suivante, nous devons reconnaître que la valeur de crête de la demi-onde négative et la tension du condensateur s'additionnent et chargent la diode en polarisation inverse. C'est la tension la plus élevée qui peut apparaître aux bornes de la diode en polarisation inverse.
+Pour résoudre la tâche suivante, nous devons reconnaître que la valeur de crête de la demi-onde négative et la tension du condensateur s'additionnent et soumettent la diode à une tension inverse. C'est la tension la plus élevée qui peut apparaître aux bornes de la diode en polarisation inverse.
 
 Nous calculons : $U_{\mathrm{sperr}} = 2 \cdot \hat{u}$
 Il faut ensuite prendre en compte le rapport de transformation $5 : 1$ du transformateur secteur et la marge de sécurité de $\qty{20}{\percent}$.

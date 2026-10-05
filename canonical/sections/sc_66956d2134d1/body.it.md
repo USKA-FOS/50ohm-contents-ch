@@ -1,4 +1,4 @@
-La figura [ref:kanal] mostra un trasmettitore e un ricevitore, collegati tra loro tramite un canale. Ad esempio, a causa del tempo, di altre influenze atmosferiche o delle emissioni di altre stazioni, possono verificarsi interferenze sul canale. Queste possono portare a errori nella trasmissione.
+La figura [ref:kanal] mostra un trasmettitore e un ricevitore, collegati tra loro tramite un canale. Ad esempio, a causa delle condizioni meteorologiche, di altre influenze atmosferiche o delle emissioni di altre stazioni, possono verificarsi interferenze sul canale. Queste possono portare a errori nella trasmissione.
 
 <margin>
 [picture:674:kanal:Kanal]
@@ -11,7 +11,7 @@ A differenza della codifica di sorgente, la codifica di canale aggiunge intenzio
 La figura [ref:kanalcodierer] mostra un simbolo per un codificatore di canale. Il blocco rappresenta l'aggiunta di ridondanza ai dati.
 
 <margin>
-[picture:676:kanalcodierer:Kanalcodierer]
+[picture:676:kanalcodierer:Codificatore di canale]
 </margin>
 
 [question:AE409]

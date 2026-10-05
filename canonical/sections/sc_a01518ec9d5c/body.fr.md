@@ -4,7 +4,7 @@ Les ondes radio dans les bandes VHF et UHF se comportent de manière similaire �
 [picture:484:n_funkhorizont:Propagation]
 </webmargin>
 
-Pour une liaison radio fiable dans les bandes VHF et UHF, et particulièrement à des fréquences encore plus élevées, une visée directe [index:Sichtverbindung] est généralement nécessaire. Des bâtiments élevés ou des montagnes peuvent perturber la liaison radio. Plus l'antenne est haute, plus la portée est grande. On atteint des stations éloignées plus facilement depuis une montagne élevée que depuis une vallée ou le centre-ville.
+Pour une liaison radio fiable dans les bandes VHF et UHF, et particulièrement à des fréquences encore plus élevées, une liaison à vue [index:Sichtverbindung] est généralement nécessaire. Des bâtiments élevés ou des montagnes peuvent perturber la liaison radio. Plus l'antenne est haute, plus la portée est grande. On atteint des stations éloignées plus facilement depuis une montagne élevée que depuis une vallée ou le centre-ville.
 
 [question:NH301]
 [question:NH303]

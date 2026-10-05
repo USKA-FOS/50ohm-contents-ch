@@ -1,4 +1,4 @@
-Con l'abbreviazione DX, gli radioamatori intendono un collegamento radio su una grande distanza. DX sta per "long distance" e proviene originariamente dalla telegrafia Morse. Con il DX, bisogna distinguere tra onde corte e VHF/UHF.
+Con l'abbreviazione DX, i radioamatori intendono un collegamento radio su una grande distanza. DX sta per "long distance" e proviene originariamente dalla telegrafia Morse. Con il DX, bisogna distinguere tra onde corte e VHF/UHF.
 
 Se una stazione chiama "CQ DX" sulle bande delle onde corte, desidera contattare radioamatori da un altro continente. I radioamatori dello stesso continente non dovrebbero rispondere a questa chiamata generale o reagirvi.
 
@@ -26,4 +26,4 @@ Ci sono anche radioamatori ambiziosi che desiderano attivare luoghi speciali del
 
 [question:BE312]
 
-Perché si attivano questi luoghi speciali? Esistono programmi di diploma in cui devono essere lavorati i diversi paesi, e c'è il cosiddetto *DX Century Club* (DXCC). Per essere ammessi in questo club, sono necessarie collegamenti radio confermati con almeno 100 paesi diversi. Con le attivazioni, i radioamatori possono aggiungere i paesi ancora mancanti alla loro lista.
+Perché si attivano questi luoghi speciali? Esistono programmi di diploma in cui devono essere lavorati i diversi paesi, e c'è il cosiddetto *DX Century Club* (DXCC). Per essere ammessi in questo club, sono necessari collegamenti radio confermati con almeno 100 paesi diversi. Con le attivazioni, i radioamatori possono aggiungere i paesi ancora mancanti alla loro lista.

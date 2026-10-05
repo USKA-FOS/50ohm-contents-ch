@@ -1,7 +1,7 @@
-Le associazioni nazionali di radioamatori si sono riunite nell'"International Amateur Radio Union" (IARU) [index:IARU]. Attraverso la collaborazione nell'IARU si ottiene una *coesistenza ordinata a livello mondiale delle diverse modalità operative sulle bande radioamatoriali*. Oltre alla rappresentanza degli interessi per tutti i radioamatori, l'IARU pubblica piani di banda. Questi contengono importanti raccomandazioni dell'IARU che ogni radioamatore dovrebbe rispettare.
+Le associazioni nazionali di radioamatori si sono riunite nell'"International Amateur Radio Union" (IARU) [index:IARU]. Attraverso la collaborazione nell'IARU si ottiene una *coesistenza ordinata a livello mondiale delle diverse modalità operative sulle bande radioamatoriali*. Oltre alla rappresentanza degli interessi di tutti i radioamatori, l'IARU pubblica piani di banda. Questi contengono importanti raccomandazioni dell'IARU che ogni radioamatore dovrebbe rispettare.
 
 <margin>
-L'*USKA*, come associazione dei radioamatori svizzeri, è organizzata nell'International Amateur Radio Union (IARU) e rappresenta lì gli interessi dei suoi membri nella comunità mondiale dei radioamatori.
+L'*USKA*, come associazione dei radioamatori svizzeri, è organizzata nell'International Amateur Radio Union (IARU) e vi rappresenta gli interessi dei suoi membri nella comunità mondiale dei radioamatori.
 
 [Diventa ora membro dell'USKA!](https://uska.ch/de/uska-beitreten/)
 

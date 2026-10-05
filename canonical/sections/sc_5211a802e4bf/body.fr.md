@@ -38,7 +38,7 @@ Où :
 
 *Facteur de bruit en décibels*
 
-Le facteur de bruit (noise figure, BF) est très souvent exprimé logarithmiquement en décibels :
+Le facteur de bruit (noise figure, NF) est très souvent exprimé logarithmiquement en décibels :
 
 $NF = 10 \cdot \log_{10}(F)\;\mathrm{dB}$
 </indepth>

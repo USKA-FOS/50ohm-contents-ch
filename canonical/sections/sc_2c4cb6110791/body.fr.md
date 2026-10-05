@@ -15,7 +15,7 @@ La charge $e$ d'un électron est $e = -1.602\,176\,634 \cdot 10^{-19}\ \mathrm{C
 
 1 coulomb est la charge électrique transportée en une seconde à travers la section d'un conducteur dans lequel circule un courant électrique d'un ampère :
 
-$$1\ \mathrm{C} = 1\ \mathrm{A} \cdot —1\ \mathrm{s} = 1\ \mathrm{As}$$
+$$1\ \mathrm{C} = 1\ \mathrm{A} \cdot 1\ \mathrm{s} = 1\ \mathrm{As}$$
 
 Le coulomb est donc aussi appelé **ampère-seconde (As)**.
 
