@@ -12,6 +12,7 @@ Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung 
 </margin>
 
 %TODO ARK: im Text auf die Bilder bezugnehmen!
+%TODO ARK: Beim Titlisbild, 1001, den linken, schwarzen Rand abschneiden! 
 %TODO ARK: Eines der Bilder in den Abschnitt 16.11 Paketvermittelte Netzwerke verschieben!  
 
 <law>
