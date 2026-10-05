@@ -8,8 +8,11 @@ Eine Linkstrecke ist eine fest eingerichtete Funkverbindung, die der Vernetzung 
 
 [photo:1002:n_linkstrecken_HB9AK:Standort Titlis Anlage der SWISS-ARTG, Dieter HB9CJD am Einrichten des HAMNET-Links nach HB9BA (Weissenstein), ein 85 cm Spiegel für 5 GHz]
 
-[phomargin3:n_linkstrecken_HB9:Bildbeschreibung folgt nach]
+[photo:1003:n_linkstrecken_HB9:Bildbeschreibung folgt nach]
 </margin>
+
+%TODO ARK: im Text auf die Bilder bezugnehmen!
+%TODO ARK: Eines der Bilder in den Abschnitt X verschieben!  
 
 <law>
 - Ausführliche "Erläuternde Angaben zum Amateurfunkdienst" findet man im [Merkblatt Amateurfunk](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) des BAKOM.
