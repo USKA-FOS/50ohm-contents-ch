@@ -1,0 +1,51 @@
+{
+  "ambiguous_rename_candidates": [],
+  "applied": true,
+  "blocking_errors": [],
+  "canonical_head_before": "4bc82253942897f2ada517572fb75192ae017d71",
+  "changes": [
+    {
+      "action": "changed",
+      "changed_suffixes": [
+        ".md"
+      ],
+      "html_alignment": {},
+      "import_decision": "to_be_imported",
+      "imported": true,
+      "media_review_required": false,
+      "object_id": "sc_d0ddf45e700c",
+      "object_type": "section_article",
+      "old_source_key": "polarmodulation",
+      "previous_source_key": null,
+      "review_state_transitions": [],
+      "source_key": "polarmodulation",
+      "translation_required": true
+    }
+  ],
+  "generated_at": "2026-10-05T05:35:15+00:00",
+  "imported_change_count": 1,
+  "post_validation": {
+    "error_count": 0,
+    "object_count": 2370
+  },
+  "review_workbook": "/home/jjcarron/proj/50-Ohms/ham-translator/50ohm-contents-ch/review/source_imports/german-source-import.fe759f95b.polarmodulation.review.xlsx",
+  "schema_version": 1,
+  "scope": {
+    "excluded_candidate_count": 158,
+    "object_ids": [
+      "sc_d0ddf45e700c"
+    ]
+  },
+  "skipped_change_count": 0,
+  "source_revision": "fe759f95bfac5d6e9a98533fe2b29f9f181b6bf4",
+  "source_root": "/tmp/50ohm-main-source-ticx25es",
+  "structures": [],
+  "summary": {
+    "changed": 1
+  },
+  "translation_node_ids": [],
+  "translation_object_ids": [
+    "sc_d0ddf45e700c"
+  ],
+  "workflow": "incremental_german_source_import"
+}
