@@ -1,54 +1,63 @@
-Da le frequenze radio sono una risorsa limitata, un loro utilizzo efficiente è fondamentale per il funzionamento delle moderne società di comunicazione. La legge sulle telecomunicazioni (LTC) [index:legge sulle telecomunicazioni] (LTC) contiene pertanto un mandato diretto all’organo incaricato della gestione delle frequenze (UFCOM) [index:UFCOM], affinché adotti le misure necessarie a garantire un utilizzo efficiente e privo di interferenze delle frequenze (art. 25 cpv. 1 LTC).
+%YPA an EXR: Riga 3 = c&p da "Principi della gestione delle frequenze". Riga 6 elveticizzata, ma non controllata per correttezza. Area tematica EXR.
+
+Poiché le radiofrequenze sono una risorsa disponibile in modo limitato, un utilizzo efficiente di questa risorsa è indispensabile per il funzionamento delle moderne società di comunicazione. La legge sulle telecomunicazioni (LTC) contiene quindi un mandato diretto all'organismo incaricato della gestione delle frequenze (UFCOM) di adottare misure adeguate per garantire un utilizzo efficiente e senza interferenze (art. 25 cpv. 1 LTC)
 
 ---
-Nel Fernmeldegesetz [index:legge sulle telecomunicazioni] (LTC) è sancito il principio secondo cui ogni utilizzo di frequenza richiede una previa *assegnazione delle frequenze* [index:assegnazione delle frequenze]. Questa può essere un’assegnazione individuale o un’assegnazione generale. Un’assegnazione individuale [index:assegnazione delle frequenze:assegnazione individuale] si verifica, ad esempio, quando le frequenze vengono assegnate a un’azienda per il servizio di radiocomunicazione. Un’assegnazione generale [index:assegnazione delle frequenze:assegnazione generale], invece, può essere concessa alla popolazione generale o a un gruppo specifico di persone, ad esempio ai radioamatori. Le assegnazioni sono documentate nel "Piano nazionale di assegnazione delle frequenze" (NaFZ) dell’UFCOM.
+Nella legge sulle telecomunicazioni [index:Fernmeldegesetz] (LTC) è sancito il principio che ogni utilizzo di frequenza richiede una precedente *assegnazione di frequenza* [index:Frequenzzuteilung]. Questa può essere un'assegnazione individuale o un'assegnazione generale. Un'assegnazione individuale [index:Frequenzzuteilung:Einzelzuteilung] si verifica, ad esempio, quando le frequenze sono assegnate a un'azienda per la radio operativa. Un'assegnazione generale[index:Frequenzzuteilung:Allgemeinzuteilung], invece, può essere effettuata per il pubblico o anche per un determinato gruppo di persone, ad esempio per i radioamatori. Le assegnazioni sono documentate nel "Piano nazionale di assegnazione delle frequenze" (NaFZ) dell'UFCOM.
 
 <indepth>
-["Piano nazionale di assegnazione delle frequenze" (NaFZ)](https://www.bakom.admin.ch/dam/de/sd-web/Y3GtudExOtP2/Swiss_National_Frequency_Allocation_Plan_2026.pdf)
+["Piano nazionale di assegnazione delle frequenze" (NaFZ)](https://www.bakom.admin.ch/dam/de/sd-web/Y3GtudExOtP2/Swiss_National_Frequency_Allocation_Plan_2026.pdf) 
 </indepth>
 ---
 <law>
-[Allegato 4](https://www.fedlex.admin.ch/eli/cc/2020/914/it#annex_4) dell’ordinanza dell’UFCOM sull’utilizzazione dello spettro delle radiofrequenze (OUUS)
+[Allegato 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4) dell'"ordinanza dell’UFCOM sull’utilizzazione dello spettro delle radiofrequenze" OUUS
+
 </law>
 I radioamatori possono effettuare trasmissioni radio solo sulle frequenze loro assegnate.
-Le bande di frequenza per il servizio di radioamatore in Svizzera sono regolamentate nell’Allegato 4 dell’ordinanza dell’UFCOM sull’utilizzazione dello spettro delle radiofrequenze (OUUS).
-Sebbene le bande di frequenza siano concordate a livello internazionale, sono le disposizioni nazionali a essere vincolanti, pur ispirandosi agli accordi internazionali.
+Le bande di frequenza per il servizio di radioamatore in Svizzera sono regolate nell'Allegato 4 dell'"ordinanza dell’UFCOM sull’utilizzazione dello spettro delle radiofrequenze" (OUUS). 
+Anche se le bande di frequenza sono concordate a livello internazionale, sono decisive esclusivamente le disposizioni nazionali, che tuttavia si orientano agli accordi internazionali.
 [question:VO034]
 [question:VO037]
 
-L’Allegato 4 è composto da due tabelle. Una tabella si riferisce all’autorizzazione per radioamatori (HB9), l’altra all’autorizzazione per radioamatori NOVICE (HB3). Per entrambe le tabelle esiste una legenda che spiega i simboli a apice utilizzati, che indicano le condizioni particolari di utilizzo.
-%Evtl Bild von Legende in Marginale?
+---
 
-Infatti, oltre alle bande di frequenza, l’Allegato 4 contiene anche dettagliate condizioni di utilizzo [index:assegnazione delle frequenze:condizioni di utilizzo], tra cui la potenza massima di trasmissione consentita, che ogni radioamatore deve rispettare.
+<margin>
+[photo:1005:Legende_zu_Verweiszeichen:Legenda dei segni di riferimento]
+</margin>
 
-Inoltre, alcune frequenze sono soggette a condizioni di utilizzo particolari. Esistono, ad esempio, frequenze su cui altri utenti hanno la priorità, cioè il servizio di radioamatore ha solo diritti di *utilizzo secondario* e deve quindi assicurarsi di non disturbare il servizio *primario*. Maggiori informazioni in seguito nella sezione [sec:primaerer_sekundaerer_funkdienst].
+L'Allegato 4 è composto da due tabelle. Una tabella vale per la licenza di radioamatore (HB9), l'altra tabella vale per la licenza di radioamatore NOVICE (HB3). Per entrambe le liste esiste una legenda che spiega i segni di riferimento in apice utilizzati nella tabella che indicano le condizioni d'uso speciali.
+%Evtl immagine della legenda in margine?
+
+Perché oltre alle bande di frequenza, l'Allegato 4 contiene anche condizioni d'uso dettagliate [index:Frequenzzuteilung:Nutzungsbestimmungen] tra l'altro con quale potenza massima si può trasmettere, che devono essere rispettate anche da ogni radioamatore. 
+
+Inoltre, alcune frequenze sono soggette a condizioni d'uso *speciali*. Ci sono frequenze su cui altri utenti hanno la priorità, cioè il radioamatoriale ha solo diritti d'uso *secondari* e quindi deve assicurarsi di non disturbare il servizio *primario*. Maggiori informazioni in seguito nella sezione [sec:primaerer_sekundaerer_funkdienst].
 
 [question:VN008]
 
-% TODO: Bild ersetzen - Issues #13 eröffnet - Will man da übehaupt ein Bild hinsetzen, welches "gewartet" werden muss? Zumal es ja 2 Seiten wären. Will man evtl nur einen als solchen erkennbaren Ausschnitt abbilden?
-<webmargin>
-[photo:99:n_frequenzbereiche_afuv_anlage_1:Panoramica tabellare, Allegato 1, OAR]
-</webmargin>
-
 ---
-Per alcune frequenze, prima dell’utilizzo è necessario inviare una comunicazione all’UFCOM. Questa deve essere trasmessa elettronicamente tramite il sistema determinato dall’UFCOM.
+Per alcune frequenze, prima dell'uso è necessaria addirittura una segnalazione all'UFCOM. Questa deve essere trasmessa elettronicamente tramite il sistema determinato dall'UFCOM.
 [question:VN009]
 <law>
-Qui puoi accedere direttamente al sistema per la comunicazione di [utilizzo speciale di frequenze](https://www.egov.swiss/de/amateurfunk/spezielle-frequenznutzung-detail)
+Qui si va direttamente al sistema per la segnalazione per [Utilizzo speciale di frequenze](https://www.egov.swiss/de/amateurfunk/spezielle-frequenznutzung-detail)
 </law>
 
 ---
 <law>
-Qui puoi accedere direttamente alla [tabella di supporto](https://www.bakom.admin.ch/it/amateurfunk-pruefungen#strumenti-consentiti-agli-esami-di-radioamatore) che viene fornita durante l’esame.
+Qui si va direttamente alla [Tabella di aiuto](https://www.bakom.admin.ch/de/amateurfunk-pruefungen#Zugelassene-Hilfsmittel-f%C3%BCr-die-Amateurfunkpr%C3%BCfungen) come viene emesso all'esame.
 
-Poiché l’articolo 6 dell’OUUS definisce chi può utilizzare queste frequenze e rimanda alla lista nell’Allegato 4, anche la lista porta il "titolo" Art. 6 OUUS, sebbene in realtà si tratti dell’Allegato 4 all’OUUS.
+Poiché nell'articolo 6 dell'OUUS è definito chi può utilizzare queste frequenze e lì si fa riferimento all'elenco nell'Allegato 4, anche l'elenco porta il "titolo" Art. 6 OUUS, anche se tecnicamente è l'Allegato 4 dell'OUUS.
 </law>
 
-L’UFCOM definisce l’"Allegato 4" anche come "tabella di supporto", poiché questa tabella viene distribuita durante l’esame e può essere utilizzata per rispondere alle domande. Pertanto, non è necessario imparare a memoria le condizioni di utilizzo precise, ma solo saper interpretare correttamente la tabella. Con la "tabella di supporto" è possibile rispondere alle seguenti domande.
+<margin>
+[photo:1004:hb9_frequenzen:Estratto della tabella di aiuto]
+</margin>
 
-% Il seguente testo deve essere aggiornato in base alle condizioni future: Si noti che queste sono solo domande di esempio per dare un’idea di come potrebbero essere formulate. All’esame potrebbero essere poste domande su altre frequenze o condizioni di utilizzo.
+L'UFCOM definisce l'"Allegato 4" anche come "Tabella di aiuto". Questo perché questa tabella viene distribuita all'esame e può essere utilizzata per rispondere alle domande. Non è quindi necessario conoscere a memoria le esatte condizioni d'uso, ma solo saper interpretare correttamente la tabella. Con la "Tabella di aiuto" si possono rispondere le seguenti domande.
 
-% Domande di questo tipo (DL-VD727-737) sono in Germania in 14.7. Decisione EXR/YPA, che qui sia più appropriato e coerente
+% la seguente frase deve essere presente qui al più tardi con le condizioni future: Si noti che queste sono solo domande campione, per avere un'idea di come potrebbero apparire tali domande. All'esame possono essere poste anche domande su altre frequenze o condizioni d'uso.
+% Alternativa: posizionare la frase già oggi, ma avere solo 3-4 domande qui e nel catalogo.
+
+% Domande di questo tipo (DL-VD727-737) sono in DL in 14.7. Decisione EXR/YPA, che qui è più sensata e coerente
 [question:VO004]
 [question:VO005]
 [question:VO006]
@@ -65,3 +74,4 @@ L’UFCOM definisce l’"Allegato 4" anche come "tabella di supporto", poiché q
 [question:VO017]
 [question:VO018]
 [question:VO019]
+

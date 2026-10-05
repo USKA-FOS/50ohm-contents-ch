@@ -22,7 +22,8 @@
   },
   "languages": [
     "de",
-    "fr"
+    "fr",
+    "it"
   ],
   "metadata": {
     "asset": {
@@ -35,7 +36,8 @@
     "reconstruction": {
       "description_canonical_files": {
         "de": "2005.de.txt",
-        "fr": "2005.fr.txt"
+        "fr": "2005.fr.txt",
+        "it": "2005.it.txt"
       },
       "description_source_format": "single_description"
     },
@@ -72,7 +74,7 @@
     },
     {
       "language": "it",
-      "state": "to_be_translated"
+      "state": "to_be_reviewed"
     }
   ],
   "source": {
@@ -88,7 +90,8 @@
       "storage": {
         "files": {
           "de": "2005.de.txt",
-          "fr": "2005.fr.txt"
+          "fr": "2005.fr.txt",
+          "it": "2005.it.txt"
         },
         "kind": "description_file_bundle"
       },
@@ -101,7 +104,8 @@
       "storage": {
         "files": {
           "de": "2005.de.txt",
-          "fr": "2005.fr.txt"
+          "fr": "2005.fr.txt",
+          "it": "2005.it.txt"
         },
         "kind": "description_file_bundle"
       },

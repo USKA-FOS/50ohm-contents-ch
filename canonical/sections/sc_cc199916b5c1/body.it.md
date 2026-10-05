@@ -1,11 +1,11 @@
-Nella classe E abbiamo già imparato a conoscere il ricevitore supereterodina, che funziona con la frequenza intermedia (IF), come mostrato nella figura [ref:a_single_super].
+Nella sezione [sec:ueberlagerungsempfaenger_einfachsuper_1] abbiamo già conosciuto il ricevitore supereterodina, che opera con la frequenza intermedia (IF), come mostrato nella figura [ref:a_single_super].
 
-Con il termine *selettività ravvicinata* o anche *selettività* di un ricevitore si intende la sua capacità di separare il segnale ricevuto desiderato da segnali indesiderati vicini in frequenza.
+Per *selettività ravvicinata o anche selettività* di un ricevitore si intende la sua capacità di separare il segnale ricevuto desiderato il meglio possibile da segnali indesiderati adiacenti in frequenza.
 
-Nel ricevitore supereterodina, il filtro IF e le sue caratteristiche determinano in modo significativo la capacità di selettività ravvicinata dell’intera sezione di ricezione e ne definiscono la qualità.
+Il filtro IF e la sua caratteristica di filtro determinano in modo significativo la capacità di selettività ravvicinata dell'intera sezione di ricezione nel ricevitore supereterodina e ne stabiliscono la qualità.
 
 <margin>
-[picture:913:a_single_super:Filtro di un ricevitore supereterodina]
+[picture:913:a_single_super:Filtro di un supereterodina semplice]
 </margin>
 
 [question:AF115]

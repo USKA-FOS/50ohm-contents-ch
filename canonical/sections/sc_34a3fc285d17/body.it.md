@@ -1,8 +1,7 @@
-Nel capitolo [sec:sporadic_e_1] abbiamo già imparato a conoscere l’E sporadico: a un’altezza di circa $\qtyrange{100}{110}{\kilo\metro}$ si formano zone localizzate e fortemente ionizzate che rifrangono le onde radio verso la terra, consentendo in estate grandi portate, anche se la loro comparsa non è prevedibile.
+Nella sezione [sec:sporadic_e_1] abbiamo già conosciuto l'E sporadico: A un'altezza di circa $\qtyrange{100}{110}{\kilo\meter}$ si formano aree piccole e fortemente ionizzate, che rifrangono le onde radio verso la terra e così nei mesi estivi permettono grandi portate, la cui occorrenza però non è prevedibile.
 
-Qui approfondiamo ulteriormente l’argomento: poiché la rifrazione nell’E sporadico avviene in condizioni della regione E, situata a un’altezza inferiore, la distanza massima di salto è limitata a $\qty{2200}{\kilo\metro}$, inferiore rispetto alla propagazione tramite lo strato F. Tuttavia, la zona morta è notevolmente più piccola, consentendo collegamenti radio su distanze molto più brevi. Per questo motivo, nell’E sporadico si parla anche di condizioni *Short Skip* (in inglese *short skip* = "salto breve").
+Qui l'argomento viene approfondito ulteriormente: Poiché la rifrazione nell'E sporadico avviene in condizioni nello strato E situato a un'altezza inferiore, la distanza massima di salto è al massimo di $\qty{2200}{\kilo\meter}$, quindi minore rispetto alla propagazione attraverso lo strato F. Tuttavia, la zona morta è significativamente più piccola, quindi riescono collegamenti radio su distanze chiaramente più brevi. Per l'E sporadico si parla quindi anche di condizioni *Short Skip* (inglese *short skip* = "salto breve").
 
 [question:EH218]
 [question:EH304]
 
-<!-- Review completato, per me va bene. Vy 73 de Marc -->

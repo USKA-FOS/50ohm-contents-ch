@@ -24,7 +24,8 @@
   },
   "languages": [
     "de",
-    "fr"
+    "fr",
+    "it"
   ],
   "metadata": {
     "asset": {
@@ -43,7 +44,8 @@
     "reconstruction": {
       "description_canonical_files": {
         "de": "1003.de.txt",
-        "fr": "1003.fr.txt"
+        "fr": "1003.fr.txt",
+        "it": "1003.it.txt"
       },
       "description_source_format": "single_description"
     },
@@ -81,7 +83,7 @@
     },
     {
       "language": "it",
-      "state": "to_be_translated"
+      "state": "to_be_reviewed"
     }
   ],
   "source": {
@@ -97,7 +99,8 @@
       "storage": {
         "files": {
           "de": "1003.de.txt",
-          "fr": "1003.fr.txt"
+          "fr": "1003.fr.txt",
+          "it": "1003.it.txt"
         },
         "kind": "description_file_bundle"
       },
@@ -110,7 +113,8 @@
       "storage": {
         "files": {
           "de": "1003.de.txt",
-          "fr": "1003.fr.txt"
+          "fr": "1003.fr.txt",
+          "it": "1003.it.txt"
         },
         "kind": "description_file_bundle"
       },

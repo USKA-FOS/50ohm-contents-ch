@@ -1,19 +1,19 @@
-Nella classe E abbiamo già trattato la bobina. In corrente continua, una bobina in stato stazionario presenta una resistenza molto bassa. La bobina si comporta quindi come un semplice filo. In corrente alternata, invece, la bobina – analogamente a un condensatore – mostra una impedenza $X_{\textrm{L}}$, vale a dire che, nonostante il filo della bobina abbia solo una resistenza ohmica molto bassa (resistenza del conduttore), scorre una corrente che diminuisce all’aumentare della frequenza della tensione alternata:
+Nella sezione [sec:spule_1] abbiamo già trattato la bobina. In corrente continua, a regime, la bobina presenta una resistenza molto bassa. La bobina si comporta quindi come un pezzo di filo. Tuttavia, in corrente alternata, la bobina, simile a un condensatore, presenta un'impedenza $X_{\textrm{L}}$, cioè, nonostante il filo della bobina abbia solo una piccola resistenza ohmica (resistenza del conduttore), scorre una corrente che diminuisce all'aumentare della frequenza della tensione alternata:
 
 $|X_{L}| = \omega \cdot L = 2\cdot\pi\cdot f \cdot L$
 
-Dalla formula si deduce che la impedenza aumenta con l’aumentare della frequenza e diminuisce con la sua riduzione. A differenza del condensatore, la impedenza di una bobina è positiva.
+Dalla formula si può vedere che l'impedenza aumenta con la frequenza crescente e diminuisce con la frequenza decrescente. A differenza del condensatore, l'impedenza di una bobina è positiva.
 
 <indepth>
-Perché la reattanza induttiva è positiva? La ragione risiede ancora una volta nel calcolo complesso della corrente alternata, che non è strettamente necessario per l’esame di radioamatore.
+Perché la reattanza induttiva è positiva? Il motivo risiede nuovamente nel calcolo complesso della corrente alternata, che non è strettamente necessario per l'esame di radioamatore.
 
-Per i lettori con conoscenze di numeri complessi, si segnala che la rappresentazione corretta della reattanza induttiva è in realtà
+Per i lettori con conoscenze di numeri complessi, si noti tuttavia che la rappresentazione corretta della reattanza induttiva è in realtà
 
 $X_L = j\omega L$
 
-dove $j$ rappresenta l’unità immaginaria $\sqrt{-1}$.
+Dove $j$ rappresenta ancora l'unità immaginaria $\sqrt{-1}$.
 
-Da ciò risulta evidente che la reattanza induttiva non è solo positiva, ma anche complessa. Il segno positivo descrive la relazione di fase tra corrente e tensione ai capi della bobina, che approfondiremo in questo capitolo.
+Da ciò si evince che la reattanza induttiva non è solo positiva, ma anche complessa. Il segno positivo descrive la relazione di fase tra corrente e tensione sulla bobina, che esamineremo più in dettaglio in questo capitolo.
 </indepth>
 
 [question:AC202]
@@ -28,81 +28,82 @@ Con un analizzatore di rete vettoriale (VNA) è possibile rappresentare la varia
 [photo:265:a_XL_Verlauf:Variazione della reattanza induttiva $X_L$ di una bobina da $\qty{500}{\kilo\hertz}$ a $\qty{10}{\mega\hertz}$]
 </margin>
 
-Prova ora a rispondere alla seguente domanda utilizzando la formula sopra. Presta particolare attenzione alle unità di misura e alle potenze di dieci per ottenere i risultati corretti.
+Ora prova a rispondere alla seguente domanda utilizzando la formula sopra. Presta particolare attenzione alle unità o alle potenze di dieci per ottenere i risultati corretti.
 
 [question:AC204]
 
 ---
 
-Analogamente al condensatore, anche la bobina presenta uno sfasamento tra tensione e corrente pari a $\qty{+90}{\degree}$, con la corrente che ritarda rispetto alla tensione, come mostrato nella figura [ref:a_Blindleistung_Spule]. La linea rossa nella figura [ref:a_XL_Verlauf] mostra la fase della reattanza induttiva $X_L$ a circa $\qty{+90}{\degree}$.
+Simile al condensatore, anche nella bobina si verifica uno sfasamento tra tensione e corrente. Questo è di $\qty{+90}{\degree}$, dove la corrente è in ritardo rispetto alla tensione, come mostrato nella figura [ref:a_Blindleistung_Spule]. La linea rossa nella figura [ref:a_XL_Verlauf] mostra la fase della reattanza induttiva $X_L$ a circa $\qty{+90}{\degree}$.
 
 <tip>
-Aiuto mnemonico: Con l’induttanza, la corrente arriva in ritardo!
+Aiuto mnemonico: Con l'indutt*aaa*nza la corrente arriva t*aaa*rdi!
 </tip>
 
 [question:AC201]
 
-Ne consegue una curva di potenza che oscilla simmetricamente intorno alla linea dello zero. Il valore medio di questa potenza è nullo, il che significa che – proprio come nel caso del condensatore – non viene assorbita potenza attiva. Al contrario, l’energia viene immagazzinata periodicamente nel campo magnetico della bobina e poi restituita alla sorgente.
+Da ciò risulta una curva di potenza che oscilla simmetricamente attorno alla linea zero. Il valore medio di questa potenza è zero, cioè, proprio come nel condensatore, non viene assorbita potenza attiva. Invece, l'energia viene periodicamente immagazzinata nel campo magnetico della bobina e restituita alla sorgente.
 
-Si parla quindi, per una bobina ideale senza perdite, di potenza reattiva e di reattanza.
+Pertanto, per una bobina ideale senza perdite, si parla di potenza reattiva e di reattanza.
 
 <margin>
-[picture:944:a_Blindleistung_Spule:Il prodotto di $U \cdot I$ genera la curva di potenza verde]
+[picture:944:a_Blindleistung_Spule:Il prodotto di $U \cdot I$ dà la curva di potenza verde]
 </margin>
 
-Se una bobina si riscalda in applicazioni ad alta frequenza, ciò indica la presenza di perdite che causano questo riscaldamento. Le perdite sono dovute alla resistenza ohmica del filo e, inoltre, anche l’effetto pelle riduce la sezione apparente del filo. Anche in questo caso, come per il condensatore, si ricorre al fattore di qualità $Q$ o al fattore di perdita $\tan\delta$ per descrivere le perdite.
+Se una bobina si riscalda in applicazioni ad alta frequenza, allora ha delle perdite che causano questo riscaldamento. Le perdite sono dovute alla resistenza ohmica del filo e inoltre agisce anche l'effetto pelle, che apparentemente riduce la sezione trasversale del filo. Anche qui, come nel condensatore, il fattore di qualità $Q$ o il fattore di perdita $\tan\delta$ vengono utilizzati per descrivere le perdite.
 
 [question:AC209]
 
 ---
 
-Ora abbiamo trattato la reattanza capacitiva $X_C$ del condensatore e la reattanza induttiva $X_L$ della bobina. Entrambe le grandezze dipendono dalla frequenza e, insieme alla resistenza attiva $R$, formano la cosiddetta *impedenza* $Z$ di un componente.
+Ora abbiamo appreso la reattanza capacitiva $X_C$ del condensatore e la reattanza induttiva $X_L$ della bobina. Entrambe le grandezze dipendono dalla frequenza e insieme alla resistenza ohmica $R$ formano la cosiddetta *impedenza* $Z$ di un componente.
 
-Le reattanze $X_L$ e $X_C$ agiscono in modo opposto e possono annullarsi a vicenda, parzialmente o completamente. Tuttavia, per combinare le reattanze con la resistenza attiva non è possibile una semplice addizione algebrica, ma è necessaria una addizione geometrica. Questa avviene tramite il teorema di Pitagora (cfr. figura [ref:a_impedanzdreieck]).
+Le reattanze $X_L$ e $X_C$ agiscono in modo opposto e possono parzialmente o completamente annullarsi a vicenda. Tuttavia, per il calcolo delle reattanze con la resistenza ohmica non è possibile una semplice addizione algebrica, ma è necessaria un'addizione geometrica. Questa avviene utilizzando il teorema di Pitagora (cfr. figura [ref:a_impedanzdreieck]).
 
-Il risultato è l’impedenza $Z$, che descrive la resistenza totale complessa di un componente. Il valore assoluto dell’impedenza $|Z|$ corrisponde alla cosiddetta impedenza apparente:
+Il risultato è l'impedenza $Z$, che descrive la resistenza totale complessa di un componente. Il valore assoluto dell'impedenza $|Z|$ corrisponde alla cosiddetta impedenza:
 
-$Z = \sqrt{R^2 + (X_L - X_C)^2}$ 
+$Z = \sqrt{R^2 + (X_L - X_C)^2}$
 
-o, in forma semplificata (cfr. raccolta di formule – voce: impedenza apparente):
+o semplificato (cfr. raccolta di formule – parola chiave: impedenza):
 
-$Z = \sqrt{R^2 + X^2}$ 
+$Z = \sqrt{R^2 + X^2}$
 
-Nell’alta frequenza, l’impedenza riveste un ruolo centrale, poiché determina il comportamento dei componenti nei circuiti e risulta fondamentale per l’adattamento di linee, antenne e amplificatori. Viene espressa in ohm ($\unit{\ohm}$) e descrive la resistenza totale di un componente in regime di corrente alternata. In un circuito in serie di reattanza e resistenza attiva, si ottiene un’impedenza apparente $Z$ che si verifica solo in funzionamento con tensione alternata e non può essere misurata con un ohmetro.
+Nella tecnologia ad alta frequenza, l'impedenza gioca un ruolo centrale, poiché determina il comportamento dei componenti nei circuiti ed è decisiva in particolare per l'adattamento di linee, antenne e amplificatori. Viene indicata in ohm ($\unit{\ohm}$) e descrive la resistenza totale di un componente in funzionamento a corrente alternata. In un collegamento in serie di reattanza e resistenza attiva si ottiene un'impedenza $Z$, che si manifesta solo in funzionamento a tensione alternata e non può essere misurata con un ohmmetro.
 
 <margin>
-[picture:1067:a_impedanzdreieck:Impedenza $Z$ come addizione geometrica di $R$ e $X$]
+[picture:1067:a_impedanzdreieck:Impedanza $Z$ come addizione geometrica di $R$ e $X$]
 </margin>
 
 <indepth>
-L’impedenza $Z$ è una grandezza complessa che tiene conto sia della resistenza attiva $R$ che delle reattanze $X_L$ e $X_C$ ($Z = R + j\cdot X$).
+L'impedenza $Z$ è una grandezza complessa che tiene conto sia della resistenza ohmica $R$ che delle reattanze $X_L$ e $X_C$ ($Z = R + j\cdot X$).
 </indepth>
 
 [question:AA101]
 
 <tip>
-Una resistenza attiva di $\qty{100}{\ohm}$ e una reattanza di $\qty{100}{\ohm}$ in serie danno un’impedenza apparente (impedenza) di $\qty{141}{\ohm}$.
-Il risultato si ottiene tramite l’addizione geometrica delle due resistenze tramite un triangolo rettangolo secondo il teorema di Pitagora $a^2 + b^2 = c^2$.
-Per le resistenze ciò significa: $R^2 + X_L^2 = Z^2$
+Una resistenza attiva di $\qty{100}{\ohm}$ e una reattanza di $\qty{100}{\ohm}$ in serie danno un'impedenza di $\qty{141}{\ohm}$.
+Il risultato si ottiene dall'addizione geometrica delle due resistenze tramite un triangolo rettangolo secondo il teorema di Pitagora $a^2 + b^2 = c^2$.
+Per le resistenze significa: $R^2 + X_L^2 = Z^2$
 $Z = \sqrt{(\qty{100}{\ohm})^2 + (\qty{100}{\ohm})^2} = \qty{141}{\ohm}$
 </tip>
 
 ---
 
-Abbiamo già trattato l’induttanza di una bobina nella classe E. In linea generale, l’induttanza aumenta se si aumenta il numero di spire, si riduce la lunghezza della bobina, si aumenta la sezione trasversale della bobina e si utilizza un materiale con maggiore permeabilità magnetica come nucleo della bobina. Per aumentare l’induttanza senza aumentare drasticamente il numero di spire, la bobina viene avvolta su un nucleo toroidale in ferrite. Le induttanze di blocco con alta induttanza vengono utilizzate per ridurre le correnti ad alta frequenza.
+L'induttanza di una bobina l'abbiamo già appresa nella classe E. Fondamentalmente, l'induttanza aumenta se il numero di spire viene aumentato, la lunghezza della bobina viene ridotta, l'area della sezione trasversale della bobina viene ingrandita e viene utilizzato un materiale magneticamente più conduttivo come nucleo della bobina. Per aumentare l'induttanza senza aumentare drasticamente il numero di spire, l'avvolgimento viene realizzato su un nucleo toroidale in ferrite. Bobine di strozzamento con alta induttanza vengono utilizzate per la riduzione di correnti ad alta frequenza.
 
 <indepth>
-[photo:270:a_Pulvereisenringkern:Esempio di nucleo toroidale in polvere di ferro]
-[photo:271:a_Ferritringkern:Esempio di nucleo toroidale in ferrite]
+[photo:270:a_Pulvereisenringkern:Esempio di un nucleo toroidale in polvere di ferro]
+[photo:271:a_Ferritringkern:Esempio di un nucleo in ferrite]
 </indepth>
 
 [question:AC211]
 
-Per le bobine toroidali, per semplificare il calcolo dell’induttanza, viene indicato un valore $A_\text{L}$ del materiale del nucleo.
-Il calcolo dell’induttanza è quindi: $L = N^2 \cdot A_\text{L}$ (cfr. raccolta di formule – voce: induttanza di una bobina toroidale). Prova ora a rispondere alle seguenti domande con questa formula.
+Per le bobine su nucleo toroidale, per facilitare il calcolo dell'induttanza, viene indicato un cosiddetto valore $A_\text{L}$ del materiale del nucleo.
+Il calcolo dell'induttanza è quindi:
+$L = N^2 \cdot A_\text{L}$ (vedi raccolta di formule - parola chiave: Induttanza di una bobina toroidale). Ora prova a rispondere alle seguenti domande con questo.
 
 <attention>
-La denominazione del valore $A_\text{L}$ è indicata in nanohenry per spira al quadrato.
+La denominazione del valore $A_\text{L}$ è data in nanohenry per spire al quadrato.
 </attention>
 
 [question:AC205]
@@ -111,15 +112,15 @@ La denominazione del valore $A_\text{L}$ è indicata in nanohenry per spira al q
 [question:AC208]
 
 <indepth>
-Se all’interno della bobina è presente un materiale magneticamente conduttivo (ad esempio ferro, ferrite), il campo magnetico viene amplificato. La densità di flusso magnetico $B$ efficace può essere calcolata con la formula (cfr. raccolta di formule – voce: densità di flusso magnetico)
+Se all'interno della bobina si trova un materiale magneticamente conduttivo (ad es. ferro, ferrite) allora il campo magnetico viene rafforzato. La densità di flusso magnetico effettiva $B$ può essere calcolata con la formula (vedi raccolta di formule - parola chiave: Densità di flusso magnetico)
 $B = \mu_0 \cdot \mu_r \cdot H$
-dove $\mu_0$ corrisponde alla permeabilità del vuoto $\qty{1,2566e-6}{\volt\second\per\ampere\meter}$ e $\mu_r$ rappresenta la permeabilità relativa del materiale del nucleo nella bobina. Per l’aria viene utilizzato il fattore $1$ (cfr. raccolta di formule – voce: permeabilità del vuoto; permeabilità relativa).
+Dove $\mu_0$ corrisponde alla permeabilità del vuoto $\qty{1,2566e-6}{\volt\second\per\ampere\meter}$ e $\mu_r$ sta per la permeabilità relativa del materiale del nucleo nella bobina. Per l'aria viene utilizzato il fattore $1$ (vedi raccolta di formule - parola chiave: Permeabilità del vuoto; permeabilità relativa).
 </indepth>
 
-Per schermare un campo magnetico è necessario un materiale con buona conducibilità magnetica, ad esempio lamierino. La figura [ref:a_abschirmbecher] mostra un esempio di bobine con copertura schermante. I coperchi metallici di schermatura contengono bobine con un nucleo regolabile in ferrite, che può essere avvitato o svitato tramite l’apertura superiore con un cacciavite. In questo modo si modifica l’induttanza della bobina.
+Per schermare un campo magnetico è necessario un materiale magneticamente ben conduttivo, ad esempio la latta. La figura [ref:a_abschirmbecher] mostra un esempio di bobine con schermatura a coppa. Le coppe di schermatura metalliche contengono bobine con un nucleo in ferrite regolabile, che viene avvitato o svitato dall'alto attraverso l'apertura con un cacciavite. In questo modo cambia l'induttanza della bobina.
 
 [question:AC210]
 
 <margin>
-[photo:333:a_abschirmbecher:Esempio di bobine con copertura schermante per la schermatura di campi magnetici]
+[photo:333:a_abschirmbecher:Esempio di bobine con schermatura a coppa per la schermatura di campi magnetici]
 </margin>

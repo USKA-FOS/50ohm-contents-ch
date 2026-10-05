@@ -1,27 +1,41 @@
-In questo capitolo vengono trattate le basi delle tratte di collegamento e le relative normative per l’esercizio. Un approfondimento degli aspetti tecnici è presentato nel capitolo [sec:paketvermittelte_netzwerke].
+In questo capitolo vengono trattate le basi sui collegamenti radio permanenti e le relative normative per il funzionamento. Un trattamento esteso degli aspetti tecnici avviene nel capitolo [sec:paketvermittelte_netzwerke].
 
-
-Una tratta di collegamento è un collegamento radio fisso che serve per interconnettere impianti radioamatoriali, ad esempio relè, digipeater o nodi HAMNET. Le tratte di collegamento possono far parte di impianti radioamatoriali non presidiati. L’esercizio di tali impianti deve essere segnalato all’UFCOM secondo le [normative vigenti](https://www.bakom.admin.ch/it/amateurfunk#Merkblatt-Amateurfunk). Per un impianto radioamatoriale non presidiato è richiesto un nominativo radioamatoriale della categoria HB9. Il responsabile tecnico deve essere sempre raggiungibile durante il funzionamento.
+Un collegamento radio permanente è un collegamento radio stabilito in modo fisso, che serve per interconnettere stazioni radioamatoriali, ad esempio relè, digipeater o nodi HAMNET. I collegamenti radio permanenti possono far parte di impianti radioamatoriali non presidiati. L'esercizio di tali impianti deve essere comunicato all'UFCOM secondo le [normative](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) vigenti. Per un impianto radioamatoriale non presidiato è necessario un nominativo radioamatoriale della categoria HB9. Il responsabile tecnico deve essere permanentemente raggiungibile durante il funzionamento. L'immagine [ref:n_linkstrecken_HB9AK-14] mostra un sistema di antenne sul Titlis a 2992 metri sul livello del mare. In località come nell'immagine [ref:n_linkstrecken_HB9AK] prevalgono condizioni meteorologiche impegnative. Un allineamento preciso e stabile verso la stazione corrispondente da raggiungere viene preparato nell'immagine [ref:n_linkstrecken_HB9].
 
 <margin>
-[photo:127:n_linkstrecken_db0fc:Manutenzione al nodo HAMNET DB0FC, in primo piano l’antenna direzionale per la tratta di collegamento verso DB0BWL]
+%[photo:127:n_linkstrecken_db0fc:Operazioni di manutenzione al nodo HAMNET DB0FC, in primo piano l'antenna direzionale %per il collegamento radio permanente verso DB0BWL]
+%
+[photo:1001:n_linkstrecken_HB9AK-14:Sede Titlis impianto della SWISS-ARTG, esperimenti con antenne da 10 m; sopra Peter HB9PAE, sotto Martin HB9AUR]
+
+[photo:1002:n_linkstrecken_HB9AK:Impianti in alta montagna devono resistere a condizioni ambientali severe]
+
+[photo:1003:n_linkstrecken_HB9:Sede Titlis impianto della SWISS-ARTG, Dieter HB9CJD durante la configurazione del collegamento HAMNET verso HB9BA (Weissenstein), uno specchio di 85 cm per 5 GHz]
 </margin>
 
-<law>
-- Le "Indicazioni esplicative sul servizio di radioamatore" sono disponibili nel [Bollettino radioamatoriale](https://www.bakom.admin.ch/it/amateurfunk#Merkblatt-Amateurfunk) dell’UFCOM.
+%TODO ARK: nel testo fare riferimento alle immagini!
+%TODO ARK: Nell'immagine del Titlis, 1001, tagliare il bordo nero sinistro!
+%TODO ARK: Spostare una delle immagini nella sezione 16.11 Reti a commutazione di pacchetto!
 
-- Link diretto per la segnalazione di "Utilizzi speciali di frequenza" all’UFCOM su [eGov](https://www.egov.swiss/it/amateurfunk/spezielle-frequenznutzung-detail)
+<law>
+- Le "Spiegazioni dettagliate sul servizio di radioamatore" si trovano nel [Manuale del radioamatore](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) dell'UFCOM.
+
+- Link diretto per la comunicazione delle cosiddette "Utilizzazioni speciali di frequenza" all'UFCOM in [eGov](https://www.egov.swiss/de/amateurfunk/spezielle-frequenznutzung-detail)
 
 </law>
 
-Le tratte di collegamento possono trasmettere dati digitali o fungere da ponte analogico tra relè. Spesso operano nella gamma delle $\unit{\giga\hertz}$ dello spettro radioamatoriale. Più tratte di collegamento collegate tra loro possono formare, ad esempio, il HAMNET (Highspeed Amateurradio Multimedia NETwork), una rete IP gestita da radioamatori.
+I collegamenti radio permanenti possono trasmettere dati digitali o fungere da ponte analogico tra relè. I collegamenti radio permanenti operano frequentemente nella banda dei $\unit{\giga\hertz}$ dello spettro radioamatoriale. Più collegamenti radio permanenti interconnessi possono ad esempio costituire l'HAMNET (Highspeed Amateurradio Multimedia NETwork), una rete IP dati gestita da radioamatori.
 
 [question:NE405]
 
 <indepth>
-*Calcolo della tratta*
+*Calcolo del collegamento*
 
+Con un [tool di calcolo del collegamento](http://ham.remote-area.net/linktool/index.php) è possibile valutare se un collegamento radio direzionale tra due sedi è tecnicamente possibile. Considera, tra l'altro, frequenza, distanza, potenza di trasmissione, guadagni delle antenne, perdite del cavo e il *profilo del terreno* tra le sedi. Il tool calcola, tra l'altro, l'attenuazione nello spazio libero, la potenza di ricezione e la riserva del collegamento, supportando così la pianificazione di collegamenti radio direzionali e HAMNET.
 
-Con uno [strumento di calcolo delle tratte](http://ham.remote-area.net/linktool/index.php) è possibile valutare se un collegamento radio direzionale tra due siti è tecnicamente fattibile. Lo strumento tiene conto, tra l’altro, di frequenza, distanza, potenza di trasmissione, guadagno d’antenna, perdite del cavo e *profilo del terreno* tra i siti. Il tool calcola, tra l’altro, attenuazione nello spazio libero, potenza ricevuta e margine di collegamento, supportando così la pianificazione di collegamenti direzionali e tratte HAMNET.
+Per un collegamento radio direzionale affidabile, oltre alla linea di vista diretta, è importante anche una zona di Fresnel il più possibile libera. La zona di Fresnel indica un'area spaziale attorno alla linea di collegamento diretta, in cui ostacoli possono compromettere la trasmissione radio per diffrazione e attenuazione aggiuntiva.
+</indepth>
 
-Per un collegamento radio direzionale affidabile, oltre alla linea di vista diretta, è importante anche una zona di Fresnel il più possibile libera. La zona di Fresnel indica una regione spaziale intorno alla linea di collegamento diretta in cui ostacoli possono compromettere la trasmissione radio attraverso diffrazione e attenuazione aggiuntiva.
+% Modifiche
+% Echolink rimosso, appartiene ai relè.
+% Descrizioni dei collegamenti create o integrate
+% Tool di calcolo del collegamento descritto, a cosa serve.

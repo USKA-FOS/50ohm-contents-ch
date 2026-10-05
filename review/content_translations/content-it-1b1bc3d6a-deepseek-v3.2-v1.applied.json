@@ -1,0 +1,30 @@
+{
+  "task_id": "content-it-1b1bc3d6a-deepseek-v3.2-v1",
+  "generated_at": "2026-10-05T22:23:27+02:00",
+  "canonical_root": "/home/jjcarron/proj/50-Ohms/ham-translator/50ohm-contents-ch/canonical",
+  "source_language": "de",
+  "target_language": "it",
+  "unit_count": 217,
+  "pending_unit_count_at_start": 0,
+  "batch_count": 0,
+  "max_batch_chars": 7000,
+  "max_batch_items": 5,
+  "max_unit_source_chars": 12000,
+  "include_questions": false,
+  "include_nodes": true,
+  "include_unchanged": false,
+  "source_import_audit": "/home/jjcarron/proj/50-Ohms/ham-translator/50ohm-contents-ch/review/source_imports/german-source-import.1b1bc3d6a.full.json",
+  "scoped_object_count": 134,
+  "scoped_node_count": 1,
+  "applied_to_canonical": true,
+  "apply_report": {
+    "updated_payloads": 132,
+    "missing_targets": []
+  },
+  "glossary_match_count": 0,
+  "provider_summary": {
+    "providers": {},
+    "batch_count": 0
+  },
+  "batches": []
+}
