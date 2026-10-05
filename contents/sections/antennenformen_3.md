@@ -1,4 +1,4 @@
-Wie wir im Abschnitt [sec:antennen] bereits gelernt haben, kann ein Halbwellendipol auch an einem Ende gespeist werden. Der Speisewiderstand ist bei einer Drahtlänge von $\lambda / 2$ oder Vielfachen davon hochohmig (ca. $\qtyrange{2000}{2500}{\ohm}$).
+Wie wir im Abschnitt [sec:antennen_2] bereits gelernt haben, kann ein Halbwellendipol auch an einem Ende gespeist werden. Der Speisewiderstand ist bei einer Drahtlänge von $\lambda / 2$ oder Vielfachen davon hochohmig (ca. $\qtyrange{2000}{2500}{\ohm}$).
 
 Für die Anpassung einer solchen endgespeisten Antenne gibt es verschiedene Möglichkeiten. Im Folgenden betrachten wir drei typische Varianten:
 
