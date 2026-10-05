@@ -35,7 +35,7 @@ Als Gegengewicht wird oft ein kurzes Drahtende (mindestens ein zwanzigstel der W
 
 ---
 
-Anstelle eines Fuchskreises oder Transformators kann auch eine Zweidrahtleitung der Länge $\lambda / 4$ verwendet werden. Dann spricht man von einer *Zeppelinantenne* (vgl. Abbildung[ref:a_zeppelinantenn]). Wie eine Leitung eine Impedanz transformiert werden wir in einem späteren Abschnitt noch genauer betrachten.
+Anstelle eines Fuchskreises oder Transformators kann auch eine Zweidrahtleitung der Länge $\lambda / 4$ verwendet werden. Dann spricht man von einer *Zeppelinantenne* (vgl. Abbildung [ref:a_zeppelinantenne]). Wie eine Leitung eine Impedanz transformiert werden wir in einem späteren Abschnitt noch genauer betrachten.
 
 Die Bezeichnung geht auf den Einsatz dieser Antennen an Luftschiffen zurück. Durch die $\lambda / 4$ lange Zweidrahtleitung tritt die hohe Spannung erst an ihrem Ende und damit weit entfernt vom gasgefüllten Luftschiff auf (vgl. Abbildung [ref:a_zeppelinantenne_foto]).
 
