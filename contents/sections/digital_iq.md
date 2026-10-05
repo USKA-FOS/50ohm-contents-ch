@@ -15,7 +15,7 @@ $-\frac{f_\mathrm{S}}{2}\text{ bis }+\frac{f_\mathrm{S}}{2}$
 
 um die Mittenfrequenz dargestellt werden. Die insgesamt darstellbare Bandbreite entspricht damit der Abtastrate $f_\mathrm{S}$.
 
-Werden beispielsweise I und Q jeweils mit $\qty{10}{\mega\sample\per\second}$ abgetastet, kann der I/Q-Datenstrom einen Frequenzbereich von $\qty{-5}{\mega\hertz}$ bis $\qty{+5}{\mega\hertz}$ um die Mittenfrequenz darstellen. Bei einer Mittenfrequenz von $\qty{435}{\mega\hertz}$ entspricht dies einem Frequenzbereich von $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$.
+Werden beispielsweise I und Q jeweils mit $\qty{10}{\mega sample\per\second}$ abgetastet, kann der I/Q-Datenstrom einen Frequenzbereich von $\qty{-5}{\mega\hertz}$ bis $\qty{+5}{\mega\hertz}$ um die Mittenfrequenz darstellen. Bei einer Mittenfrequenz von $\qty{435}{\mega\hertz}$ entspricht dies einem Frequenzbereich von $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$.
 
 [question:AF634]
 [question:AF635]
