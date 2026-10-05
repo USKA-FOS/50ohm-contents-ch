@@ -337,6 +337,29 @@ Portability note:
 - missing `translator/site-original/...` on a fresh machine is therefore a
   setup limitation, not a canonical-model corruption.
 
+### Purge runtime and obsolete build work
+
+From `50ohm-contents-ch/`, preview the known generated directories, then
+remove them only when no build is running:
+
+```bash
+python tools/purge_generated_work.py
+python tools/purge_generated_work.py --apply
+```
+
+The optional category names are `generator-input`, `canonical-model`,
+`global-model`, `build`, `build-run1`, `generator-copies`, and `uv-cache`.
+For example, `python tools/purge_generated_work.py canonical-model uv-cache`
+previews only those two categories; add `--apply` to remove them. Missing
+directories are skipped. The tool refuses Git-tracked files, symlinked paths,
+and an active multilingual build lock. It does not touch canonical content,
+accepted audits, validation runs, human reviews, AI responses, or PDF work.
+`work/build/` can be recreated by the next build; until then, local review
+symlinks under `../sites/app/build/` may point to a removed directory.
+`global-model` is a historical validation database. Recreating it exactly
+would require the old `site-original` reference; the current build does not
+use it.
+
 ### Extract visible-text candidates from drawing TeX assets
 
 ```bash
