@@ -1,5 +1,10 @@
 # Validation Log
 
+The results below record historical validation runs and their source snapshots;
+they are not a current validation result for every later German source import.
+The current import and build workflow is in
+`CANONICAL_USE_CASES_AND_WORKFLOWS.md`.
+
 ## Source-Artifact Reconstruction
 
 Decision: source-compatible reconstruction is validated from byte-preserved
@@ -95,7 +100,7 @@ source artifacts, whose binary payloads are compared by SHA-256.
 
 ## DE Reconstruction Diff On Media Descriptions
 
-Current German reconstruction comparison against
+The German reconstruction comparison recorded at the time against
 `translator/site-original/app/50ohm-contents-ch/`, while excluding
 `contents/questions/`, gives:
 

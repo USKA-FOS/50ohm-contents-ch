@@ -68,6 +68,11 @@ tree and writes its report to `work/global_model/site_content_comparison.json`.
 
 ### Compare a German generator build from source and reconstruction
 
+This reproduces the historical baseline comparison against the fixed
+`../site-original/app/50ohm-contents-ch/` snapshot. It does not select a new
+German import commit and is not a zero-difference check for a later import.
+See `docs/VALIDATION_LOG.md` for the recorded results.
+
 ```bash
 python3 tools/validate_generator_reconstruction.py
 ```
@@ -249,10 +254,11 @@ do not render these elements.
 
 This command imports `canonical/` into `work/canonical_model/content_model.sqlite`,
 stages three generator inputs under `work/generator-input/{de,fr,it}`, injects
-question catalogs from `../50ohm-question-pool/builds/{language}/`, runs the
-generator into `work/build/{de,fr,it}`, mirrors each successful build into
-`../sites/app/build/{de,fr,it}` for local review, and writes a comparison report to a
-run-specific directory under `work/validation/multilingual/runs/<run-id>/`.
+freshly rebuilt question catalogs from `../50ohm-question-pool/pool/`, runs the
+generator into `work/build/{de,fr,it}`, exposes each successful build through
+symlinks under `../sites/app/build/{de,fr,it}` for local review, and writes a
+build report to a run-specific directory under
+`work/validation/multilingual/runs/<run-id>/`.
 
 Generator-owned multilingual UI content is now consumed directly from
 `generator_extra_content/{de,fr,it}/` by `translator/50ohm-generator/`. The build no longer
@@ -261,9 +267,10 @@ families. German fallback strings may still remain inside the generator as
 technical defaults, but they are no longer the intended multilingual source
 for those migrated families.
 
-The SQLite database is runtime-only. It is deleted and rebuilt from the Git
-canonical model at the start of each run; no previous SQLite state is read or
-merged.
+The SQLite database is runtime-only. It is built from canonical material and
+never merged with a previous model. When the canonical tree is Git-clean and
+the recorded tree hash and importer signature still match, the cache is reused
+instead of rebuilt.
 
 This rebuild principle is strict. The SQLite database is an operational
 intermediate only and must never be treated as a previous-version store.
@@ -292,8 +299,9 @@ Concurrency model:
 - generator subprocesses use `work/uv-cache/` unless `UV_CACHE_DIR` is already
   set, so builds do not depend on a writable user-level cache.
 
-The validator clears and recreates `translator/sites/app/build/de/` from the
-V4 baseline `translator/site-original/app/50ohm-contents-ch/`, then clears and
+The historical `validate_generator_reconstruction.py` clears and recreates
+`translator/sites/app/build/de/` from the V4 baseline
+`translator/site-original/app/50ohm-contents-ch/`, then clears and
 recreates `work/build/de/` from `work/site-content/`. Before the latter build,
 it overlays the V4 `contents/questions/` directory unchanged into
 `work/generator-input/de/`; this deliberately holds the separate question
@@ -303,6 +311,11 @@ from a private copy of the generator, so it never changes the shared generator
 configuration. It captures both logs and compares the generated trees by path
 and SHA-256 checksum. Its reports are stored in
 `work/validation/generator-de/`.
+
+This historical validator is separate from the normal multilingual build and
+from the incremental German importer. `work/build_run1/` and `build_run2/`
+are optional copies for comparing two deterministic builds; they are not
+source-import inputs or required by the release workflow.
 
 Portability note:
 

@@ -33,7 +33,8 @@ This document covers the content-side workflow around:
 The build boundary is:
 
 - content input responsibility: `50ohm-contents-ch`, excluding question files;
-- question input responsibility: `50ohm-question-pool` revision-1 catalogs;
+- question input responsibility: the selected `50ohm-question-pool/pool/`
+  tree, rebuilt at build time;
 - site output responsibility: `50ohm-contents-ch/work/build/{de,fr,it}`.
 
 At build time, the content-side builder first rebuilds fresh language catalogs
@@ -130,13 +131,13 @@ content plus question-pool build artifacts.
 
 ### Workflow
 
-1. rebuild the working SQLite database from canonical content;
+1. rebuild or reuse the working SQLite database derived from canonical content;
 2. stage generator inputs for the requested languages;
-3. inject the selected `question_pool_rev1_ch-<lang>.json` file into the expected
-   generator question input paths `fragenkatalog_4.json` and
-   `fragenkatalog_4pre.json`;
+3. rebuild the selected question-pool tree and stage each resulting language
+   catalog in `fragenkatalog_4.json` and `fragenkatalog_4pre.json`;
 4. run the content generator per language;
-5. inspect generated content under `work/build/<lang>/`.
+5. inspect generated content under `work/build/<lang>/`; when promoting a
+   release, the wrapper moves the language trees into the release repository.
 
 ### Success Criteria
 
@@ -153,7 +154,8 @@ the dedicated Git release repository without publishing it automatically.
 
 ### Workflow
 
-1. require clean content, question-pool, and generator repositories;
+1. record the content, question-pool, and generator commits and actual worktree
+   states in the release manifest;
 2. require an explicit release id that is safe and unused as a release tag;
 3. lock all three language build slots and clean `work/build/`;
 4. pass the release id, beta state, and feedback URL to the generator;
@@ -161,7 +163,8 @@ the dedicated Git release repository without publishing it automatically.
    release presentation on ordinary and Reveal.js pages;
 6. write `work/build/release-manifest.json` with source commits, source tags,
    build settings, and artifact digests;
-7. if a release output was requested, require that repository to be clean;
+7. if a release output was requested, require its Git repository root and an
+   unused release tag;
 8. replace only its generated language trees and manifest while preserving its
    `feedback/` tree and repository/deployment files;
 9. inspect the resulting Git diff before an explicit commit, tag, and push.
@@ -195,7 +198,9 @@ without destructively resetting the canonical baseline.
 6. run `python tools/import_incremental_german_source.py` without `--apply`;
 7. compare the importer dry-run with the accepted workbook;
 8. resolve every blocking ambiguity and only then apply the approved rows;
-9. validate the canonical tree and rebuild the German site;
+9. validate the canonical tree and rebuild the German site; this verifies that
+   the generator accepts reconstructed input, not that it is byte-identical to
+   the selected source commit;
 10. commit the German import together with its accepted audit under
    `review/source_imports/`;
 11. use that accepted audit as the exact FR/IT translation scope;
@@ -216,7 +221,7 @@ python tools/import_incremental_german_source.py \
   --review-workbook work/source_import_audits/german-source-import-review.xlsx \
   --apply
 python tools/validate_canonical_model.py
-python tools/run_multilingual_canonical_build.py --language de
+uv run --locked python tools/run_multilingual_canonical_build.py --language de
 ```
 
 `--source-ref` defaults to the local `origin/review/de/main` commit.
@@ -224,6 +229,11 @@ python tools/run_multilingual_canonical_build.py --language de
 not implicitly combined with `main`. After an accepted import, its source
 commit is the baseline for the next comparison; the canonical tree remains
 the authoritative content model.
+
+The source-to-canonical reconstruction target and its historical validation
+are described in sections 4–5 and `VALIDATION_LOG.md`. The incremental import
+and site build above do not automatically perform a zero-difference comparison
+against the newly selected German source commit.
 
 ### Business Rule For Deletion
 
