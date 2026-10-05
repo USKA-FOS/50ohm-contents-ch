@@ -20,7 +20,7 @@ Das Filter glättet somit schnelle Änderungen, also hohe Frequenzanteile des Ei
 Das Filter führt eine sogenannte Faltungsoperation aus, diese ist übrigens auch die Grundlage vieler neuronaler Netze welche die Künstliche Intelligenz antreiben.
 </indepth>
 
-<wordorigin>
+<indepth>
 **FPGA**
-bezeichnet eine integrierte Schaltung mit dem Namen *F*ield *P*rogrammable *G*ate *A*rray. Es handelt sich dabei um eine programmierbare Harwdwarekomponente.
-</wordorigin>
+bezeichnet eine integrierte Schaltung mit dem Namen **F**ield **P**rogrammable **G**ate **A**rray. Es handelt sich dabei um eine programmierbare Harwdwarekomponente.
+</indepth>
