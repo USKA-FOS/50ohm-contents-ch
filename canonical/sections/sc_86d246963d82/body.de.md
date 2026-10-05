@@ -1,4 +1,4 @@
-In der Klasse N haben wir das *S-Meter* bereits sowohl in seiner analogen Variante (Abb. [ref:a_s_meter_analog]) als auch in seiner digitalen Variante (Abb. [ref:a_s_meter_digital]) kennengelernt. Es dient dazu, die Stärke des am Empfängereingang anliegenden HF-Signals anzuzeigen.
+Im Abschnitt [sec:rst] haben wir das *S-Meter* bereits sowohl in seiner analogen Variante (Abb. [ref:a_s_meter_analog]) als auch in seiner digitalen Variante (Abb. [ref:a_s_meter_digital]) kennengelernt. Es dient dazu, die Stärke des am Empfängereingang anliegenden HF-Signals anzuzeigen.
 
 Die Skala eines S-Meters reicht üblicherweise von S1 bis S9. Eine Änderung um eine S-Stufe entspricht dabei $\qty{6}{\dB}$. Stärkere Signale oberhalb von S9 werden nicht mehr in weiteren S-Stufen, sondern in Dezibel über S9 angegeben, beispielsweise als „S9 + $\qty{20}{\dB}$“.
 

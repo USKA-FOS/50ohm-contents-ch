@@ -1,4 +1,4 @@
-In der Klasse E haben wir bereits das Dezibel als Werkzeug zum Beschreiben von Verhältnissen kennengelernt und gesehen, dass eine Leistungsänderung von $\qty{3}{\dB}$ einem Leistungsfaktor von $\num{2}$ entspricht. In der Formelsammlung finden wir die Tabelle [ref:a_dezibel_leistungsfaktoren], welche weitere wichtige Entsprechungen beinhaltet. 
+Im Abschnitt [sec:dezibel_1] haben wir bereits das Dezibel als Werkzeug zum Beschreiben von Verhältnissen kennengelernt und gesehen, dass eine Leistungsänderung von $\qty{3}{\dB}$ einem Leistungsfaktor von $\num{2}$ entspricht. In der Formelsammlung finden wir die Tabelle [ref:a_dezibel_leistungsfaktoren], welche weitere wichtige Entsprechungen beinhaltet. 
 
 <margin>
 | c:dB | c:≈ Leistungsfaktor |
@@ -37,13 +37,14 @@ Mit diesen beiden Formeln können wir also leicht zwischen $\unit{\dB}$-Angaben 
 [question:AD426]
 
 <tip>
-In der Klasse E haben wir bereits folgenden Trick kennengelernt: Ganz ohne Taschenrechner lassen sich Dezibelwerte abschätzen, die auf "$0$" enden: Einfach die letzte Null zuhalten, die Ziffer gibt dann die Anzahl der Nullen des Verhältnisfaktors an. Beispiel: $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{Nullen} \rightarrow \text{Verhältnisfaktor}~1000$!
+Im Abschnitt [sec:dezibel_1] haben wir bereits folgenden Trick kennengelernt: Ganz ohne Taschenrechner lassen sich Dezibelwerte abschätzen, die auf "$0$" enden: Einfach die letzte Null zuhalten, die Ziffer gibt dann die Anzahl der Nullen des Verhältnisfaktors an. Beispiel: $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{Nullen} \rightarrow \text{Verhältnisfaktor}~1000$!
 
 Auch anders herum lässt es sich leicht berechnen: Eins mit $12$ Nullen ($\num{1000000000000}$) in $\unit{\dB}$ ist einfach die Anzahl der Nullen, also $12$, multipliziert mit $10$. Es ergibt sich so ein Verstärkungsfaktor von $\qty{120}{\dB}$.
 
 Aber auch für $\unit{\dB}$-Werte die nicht auf $0$ enden kann man durch Zerlegung den entsprechenden Faktor ermitteln:
 
-* Man kann $\qty{9}{\dB}$ in $\qty{6}{\dB} + \qty{3}{\dB}$ zerlegen, was einer Multiplikation von $4\cdot 2 = 8$ entspricht. 
+* Man kann $\qty{9}{\dB}$ in $\qty{6}{\dB} + \qty{3}{\dB}$ zerlegen, was einer Multiplikation von $4\cdot 2 = 8$ entspricht.
+  
 * Welcher Faktor entspricht einem Leistungsverhältnis von $\qty{17}{\dB}$? $\qty{17}{\dB} = \qty{20}{\dB} - \qty{3}{\dB}$, also Faktor $100$ durch $2$ gleich $50$.
 </tip>
 
@@ -114,8 +115,11 @@ $\begin{split}g &= 10 \cdot \log_{10}\left(\frac{P_1}{P_2}\right)\\ g &= 10 \cdo
 Einige einfache Rechenregeln ermöglichen die Lösung von Dezibel-Aufgaben ohne Taschenrechner.
 
 * Der Logarithmus eines Produkts zweier Zahlen entspricht der Summe der Logarithmen: $\log_{10}(a\cdot b) = \log_{10}(a)+ \log_{10}(b)$
+  
 * Der Logarithmus einer Division zweier Zahlen entspricht der Differenz der Logarithmen: $\log_{10}(a / b) = \log_{10}(a) - \log_{10}(b)$
+  
 * Der Logarithmus einer quadrierten Zahl: $\log_{10}(x^2)= 2 \cdot \log_{10}(x)$
+  
 * Der Logarithmus einer Wurzel: $\log_{10}(\sqrt{x})= \frac{1}{2} \cdot \log_{10}(x)$
 </tip>
 

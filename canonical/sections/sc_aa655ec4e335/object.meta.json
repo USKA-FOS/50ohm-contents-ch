@@ -11,10 +11,21 @@
   ],
   "languages": [
     "de",
-    "it",
-    "fr"
+    "fr",
+    "it"
   ],
-  "metadata": {},
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/sections/verstaerker.md": "bd5ddf96552c7f43864e74b3a08553697bf3c189e2da05b8801168adb21fdc50"
+      },
+      "revision": "1b1bc3d6adcdb0bc3ae49ce997414d66cfc1c564",
+      "status": "active"
+    }
+  },
   "object_type": "section_article",
   "reconstruction": {
     "strategy": "replace_source_file",

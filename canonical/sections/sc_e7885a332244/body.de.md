@@ -1,4 +1,4 @@
-In der Klasse E haben wir bereits den *unbelasteten* Spannungsteiler kennengelernt. In der Klasse A beschäftigen wir uns mit dem *belasteten* Spannungsteiler, bei dem die Ausgangsspannung $U_2$ durch einen Lastwiderstand $R_\mathrm{L}$ belastet wird. Das bedeutet, dass der Lastwiderstand parallel zum Widerstand $R_2$ liegt, wie es im Schaltbild der Abbildung [ref:a_spannungsteiler_belastet] zu sehen ist.
+Im Abschnitt [sec:spannungsteiler_1] haben wir bereits den *unbelasteten* Spannungsteiler kennengelernt. In diesem Abschnitt beschäftigen wir uns mit dem *belasteten* Spannungsteiler, bei dem die Ausgangsspannung $U_2$ durch einen Lastwiderstand $R_\mathrm{L}$ belastet wird. Das bedeutet, dass der Lastwiderstand parallel zum Widerstand $R_2$ liegt, wie es im Schaltbild der Abbildung [ref:a_spannungsteiler_belastet] zu sehen ist.
 
 <margin>
 [picture:199:a_spannungsteiler_belastet:Belasteter Spannungsteiler]

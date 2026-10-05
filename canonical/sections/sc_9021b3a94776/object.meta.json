@@ -14,7 +14,18 @@
     "fr",
     "it"
   ],
-  "metadata": {},
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/sections/transistor_2.md": "b7607ed0a8a3746f58e5f9853785329fdcd083706565e82c3294de8af75cbe41"
+      },
+      "revision": "1b1bc3d6adcdb0bc3ae49ce997414d66cfc1c564",
+      "status": "active"
+    }
+  },
   "object_type": "section_article",
   "reconstruction": {
     "strategy": "replace_source_file",

@@ -11,10 +11,21 @@
   ],
   "languages": [
     "de",
-    "it",
-    "fr"
+    "fr",
+    "it"
   ],
-  "metadata": {},
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/sections/oszilloskop_2.md": "058fd1cec31f6d9fe03a9f8a9f31f08222795581aae2c5c94ab5fa62fb14e283"
+      },
+      "revision": "1b1bc3d6adcdb0bc3ae49ce997414d66cfc1c564",
+      "status": "active"
+    }
+  },
   "object_type": "section_article",
   "reconstruction": {
     "strategy": "replace_source_file",

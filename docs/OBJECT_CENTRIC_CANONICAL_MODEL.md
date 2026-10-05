@@ -24,9 +24,11 @@ The design goal is therefore:
 - SQLite used as a validated working database strategy, but not treated as the
   source of truth.
 
-The source-update workflow is intentionally non-destructive toward canonical
-Git. Canonical content is the reference baseline; source imports are expected
-to update that baseline, not recreate it from nothing during normal operation.
+The source-update workflow starts from canonical Git. Objects still present in
+German source retain their canonical ids and target-language payloads. Objects
+absent from the selected source revision are removed completely during the
+accepted import; the manifest records each removal and the pre-import Git tag
+preserves their earlier contents.
 
 The question-pool repository is the reference style for this direction.
 
@@ -205,27 +207,23 @@ language-qualified description file itself.
 Source updates are expected to work from canonical baseline, not from an empty
 canonical tree.
 
-Current agreed strategy:
+Current strategy:
 
 - load the working SQLite database from canonical;
-- integrate the incoming German source data non-destructively;
+- integrate incoming German source data into the canonical baseline;
 - keep stable canonical ids for matching objects;
-- mark German objects missing from the new source with a reversible state such
-  as `to_be_deleted` instead of deleting them immediately;
-- keep the canonical directory and links temporarily so review and cleanup can
-  happen later under Git control.
+- remove complete canonical objects missing from the selected German source;
+- record each removal in the accepted manifest and retain a pre-import Git tag.
 
 Important business rule:
 
 - if an object disappears from German source, it is considered removed for all
   languages, not only for German;
-- the full node should therefore be treated as `to_be_deleted`, not only one
-  language variant;
-- when this state is set, the node content is left untouched for `de`, `fr`,
-  and `it` until a later explicit cleanup step removes the node.
+- remove the full node, including `de`, `fr`, and `it` payloads, rather than
+  keeping an inactive language variant.
 
-This is a deliberate transitional policy and must remain documented so it can
-be revised later if needed.
+The older `to_be_deleted` retention policy was transitional and was replaced
+after the full source alignment of 2026-10-05.
 
 Recommended Git workflow around source updates:
 

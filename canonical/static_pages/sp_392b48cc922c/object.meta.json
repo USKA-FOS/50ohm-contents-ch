@@ -14,7 +14,18 @@
     "fr",
     "it"
   ],
-  "metadata": {},
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/static/suche.html": "60403ec661de88ba1c0c212daf26e113d9e4ef6a9e6538acae61b787e37d485c"
+      },
+      "revision": "1b1bc3d6adcdb0bc3ae49ce997414d66cfc1c564",
+      "status": "active"
+    }
+  },
   "object_type": "static_page",
   "reconstruction": {
     "strategy": "replace_source_file",

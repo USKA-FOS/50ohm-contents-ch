@@ -19,19 +19,20 @@ Auch wenn die Frequenzbereiche international vereinbart werden, sind ausschließ
 [question:VO034]
 [question:VO037]
 
+---
+
+<margin>
+[photo:1005:Legende_zu_Verweiszeichen:Legende zu den Verweiszeichen]
+</margin>
+
 Der Anhang 4 besteht aus zwei Tabellen. Die eine Tabelle gilt für die Amateurfunkzulassung (HB9), die andere Tabelle gilt für die Amateurfunkzulassung NOVICE (HB3). Zu beiden Listen gibt es eine Legende, welche die in der Tabelle verwendeten hochgestellten Verweiszeichen erläutert die die speziellen Nutzungsbestimmungen kennzeichnen.
 %Evtl Bild von Legende in Marginale?
 
 Denn neben den Frequenzbereichen enthält der Anhang 4 auch ausführliche Nutzungsbestimmungen [index:Frequenzzuteilung:Nutzungsbestimmungen] u.a. mit welcher maximalen Leistung man senden darf, die ebenfalls von jedem Funkamateur einzuhalten sind. 
 
-Zudem unterliegen gewisse Frequenzen speziellen Nutzungsbestimmungen. So gibt es Frequenzen auf welchen andere Nutzer Vorrang haben, sprich der Amateurfunk nur *sekundäre* Nutznungsrechte hat und somit dafür sorgen muss, dass er den *primären* Dienst nicht stört. Mehr dazu später im Abschnitt [sec:primaerer_sekundaerer_funkdienst].
+Zudem unterliegen gewisse Frequenzen *speziellen* Nutzungsbestimmungen. So gibt es Frequenzen auf welchen andere Nutzer Vorrang haben, sprich der Amateurfunk nur *sekundäre* Nutznungsrechte hat und somit dafür sorgen muss, dass er den *primären* Dienst nicht stört. Mehr dazu später im Abschnitt [sec:primaerer_sekundaerer_funkdienst].
 
 [question:VN008]
-
-% TODO: Bild ersetzen - Issues #13 eröffnet - Will man da übehaupt ein Bild hinsetzen, welches "gewartet" werden muss? Zumal es ja 2 Seiten wären. Will man evtl nur einen als solchen erkennbaren Ausschnitt abbilden? 
-<webmargin>
-[photo:99:n_frequenzbereiche_afuv_anlage_1:Tabellarische Übersicht, Anlage 1, AFuV]
-</webmargin>
 
 ---
 Für einige Frequenzen bedarf es vor der Benutzung gar einer Meldung an das BAKOM. Diese muss über das vom BAKOM bestimmte System elektronisch übermittelt werden.
@@ -47,9 +48,14 @@ Hier gehts direkt zur [Hilfstabelle](https://www.bakom.admin.ch/de/amateurfunk-p
 Weil in Artikel 6 der VVNF definiert ist, wer diese Frequenzen nutzen darf und dort auf die Liste im Anhang 4 verwiesen wird, trägt auch die Liste den "Titel" Art. 6 VVNF, obwohl es strenggenommen der Anhang 4 zur VVNF ist.
 </law>
 
+<margin>
+[photo:1004:hb9_frequenzen:Ausschnitt der Hilfstabelle]
+</margin>
+
 Das BAKOM bezeichnet den "Anhang 4" auch als "Hilfstabelle". Dies weil diese Tabelle an der Prüfung ausgeteilt wird und zur Beantwortung der Fragen benutzt werden darf. Man muss folglich die genauen Nutzungsbestimmungen nicht auswendig können, sondern nur die Tabelle richtig interpretieren können. Mit der "Hilfstabelle" können die folgenden Fragen beanwortet werden.
 
 % der folgende Satz muss spätestens mit den zuküntigen Bedingungen hier stehen: Es ist zu beachten, dass dies nur Musterfragen sind, damit man eine Vorstellung hat, wie solche Fragen aussehen könnten. An der Prüfung können auch Fragen zu anderen Frequenzen oder Nutzungsbedingungen gestellt werden.
+% Alternative: Den Satz heute schon platzieren, dafür nur noch 3-4 Fragen hier und im Katalog haben.
 
 % Fragen dieser Art (DL-VD727-737) sind in DL in 14.7. Entscheid EXR/YPA, dass hier sinnvoller und stimmiger
 [question:VO004]

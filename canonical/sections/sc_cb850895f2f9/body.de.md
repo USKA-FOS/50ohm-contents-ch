@@ -1,4 +1,4 @@
-In der Klasse E haben wir ja bereits den Superheterodynempfänger kennengelernt. In dieser Klasse wollen wir uns nun mit dem Doppelsuperheterodynempfänger beschäftigen. Im Gegensatz zum Einfachsuper werden im Doppelsuper 2 Zwischenfrequenzen verwendet, wie in Abbildung [ref:doppelsuper_blockschaltbild] gezeigt.
+In den Abschnitten [sec:ueberlagerungsempfaenger_einfachsuper_1] und [sec:ueberlagerungsempfaenger_einfachsuper_2] haben wir bereits den Superheterodynempfänger kennengelernt. In dieser Klasse wollen wir uns nun mit dem Doppelsuperheterodynempfänger beschäftigen. Im Gegensatz zum Einfachsuper werden im Doppelsuper 2 Zwischenfrequenzen verwendet, wie in Abbildung [ref:doppelsuper_blockschaltbild] gezeigt.
 
 <margin>
 [picture:810:doppelsuper_blockschaltbild:Blockschaltbild eines Doppelsuper]

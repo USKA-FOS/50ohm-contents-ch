@@ -1,4 +1,7 @@
-In einem der vorherigen Kapitel haben wir die I/Q-Darstellung und den I/Q-Modulator kennengelernt. In einem digitalen System werden die beiden Komponenten I und Q als zwei getrennte digitale Datenströme verarbeitet. Diese können durch digitale Signalverarbeitung erzeugt, verändert und ausgewertet werden.
+%TODO Abschnittsreferenzen verifizieren. Ev. braucht es zwei. 
+%TODO Schon vorhandenen Typo bei Mega. Sample beheben. 
+%
+Im Abschnitt [sec:iq_verfahren] haben wir die I/Q-Darstellung und den I/Q-Modulator kennengelernt. In einem digitalen System werden die beiden Komponenten I und Q als zwei getrennte digitale Datenströme verarbeitet. Diese können durch digitale Signalverarbeitung erzeugt, verändert und ausgewertet werden.
 
 Auf der Empfängerseite wird das Eingangssignal dazu mit zwei Signalen gleicher Frequenz gemischt, die um $\qty{90}{\degree}$ gegeneinander phasenverschoben sind. Dadurch entstehen ein I- und ein Q-Signal. Beide Signale werden anschließend jeweils mit einem A/D-Umsetzer digitalisiert und können danach digital weiterverarbeitet werden. Auf der Senderseite funktioniert der Vorgang umgekehrt: Digitale I- und Q-Datenströme werden mit zwei D/A-Umsetzern in analoge Signale umgewandelt und anschließend einem I/Q-Modulator zugeführt.
 
@@ -12,7 +15,7 @@ $-\frac{f_\mathrm{S}}{2}\text{ bis }+\frac{f_\mathrm{S}}{2}$
 
 um die Mittenfrequenz dargestellt werden. Die insgesamt darstellbare Bandbreite entspricht damit der Abtastrate $f_\mathrm{S}$.
 
-Werden beispielsweise I und Q jeweils mit $\qty{10}{\mega\sample\per\second}$ abgetastet, kann der I/Q-Datenstrom einen Frequenzbereich von $\qty{-5}{\mega\hertz}$ bis $\qty{+5}{\mega\hertz}$ um die Mittenfrequenz darstellen. Bei einer Mittenfrequenz von $\qty{435}{\mega\hertz}$ entspricht dies einem Frequenzbereich von $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$.
+Werden beispielsweise I und Q jeweils mit $\qty{10}{\mega sample\per\second}$ abgetastet, kann der I/Q-Datenstrom einen Frequenzbereich von $\qty{-5}{\mega\hertz}$ bis $\qty{+5}{\mega\hertz}$ um die Mittenfrequenz darstellen. Bei einer Mittenfrequenz von $\qty{435}{\mega\hertz}$ entspricht dies einem Frequenzbereich von $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$.
 
 [question:AF634]
 [question:AF635]

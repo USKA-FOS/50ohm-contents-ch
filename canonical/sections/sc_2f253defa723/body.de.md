@@ -1,4 +1,4 @@
-Drähte aus unterschiedlichen Materialien leiten elektrischen Strom unterschiedlich gut. Als Kenngröße betrachten wir dabei den elektrischen Widerstand des Drahtes. Den Widerstand haben wir bereits in den Klassen N und E als die Größe kennengelernt, die den Stromfluss durch einen Leiter begrenzt. Ein Draht mit geringem Widerstand leitet den Strom besser als ein Draht mit hohem Widerstand.
+Drähte aus unterschiedlichen Materialien leiten elektrischen Strom unterschiedlich gut. Als Kenngröße betrachten wir dabei den elektrischen Widerstand des Drahtes. Den Widerstand haben wir bereits im Abschnitt [sec:leiter_nichtleiter] als die Größe kennengelernt, die den Stromfluss durch einen Leiter begrenzt. Ein Draht mit geringem Widerstand leitet den Strom besser als ein Draht mit hohem Widerstand.
 
 <margin>
 [picture:713:a_leitermodell:Atome (+) und bewegliche Elektronen (-) in einem metallischen Leiter]
@@ -34,6 +34,6 @@ Mit dieser Formel lassen sich die folgenden Prüfungsfragen lösen:
 
 [question:AB102]
 
-Die Temperatur ist ein weiterer Einflussfaktor auf den Widerstand und damit die Leitfähigkeit eines Leiters. Ein Stromfluss durch einen Leiter führt in der Regel zu  dessen Erwärmung. Dies lässt sich auf die Stöße der Elektronen mit den Atomen zurückführen. In der Klasse E haben wir bereits das Konzept von Kalt- und Heißleitern kennen gelernt. Kaltleiter haben bei *niedrigen* Temperaturen einen geringen Widerstand und leiten damit den Strom besser. Bei hohen Temperaturen nimmt ihre Leitfähigkeit zunehmend ab, ihr Widerstand steigt, d. h. der Temperaturkoeffizient ist positiv. Die meisten *Metalle* sind Kaltleiter. *Heißleiter* verhalten sich genau umgekehrt. Sie leiten den Strom bei *hohen* Temperaturen besser. Viele *Halbleiter* sind Heißleiter.
+Die Temperatur ist ein weiterer Einflussfaktor auf den Widerstand und damit die Leitfähigkeit eines Leiters. Ein Stromfluss durch einen Leiter führt in der Regel zu  dessen Erwärmung. Dies lässt sich auf die Stöße der Elektronen mit den Atomen zurückführen. Im Abschnitt [sec:widerstand_ntc_ptc] ist das Konzept von Kalt- und Heißleitern beschrieben. Kaltleiter haben bei *niedrigen* Temperaturen einen geringen Widerstand und leiten damit den Strom besser. Bei hohen Temperaturen nimmt ihre Leitfähigkeit zunehmend ab, ihr Widerstand steigt, d. h. der Temperaturkoeffizient ist positiv. Die meisten *Metalle* sind Kaltleiter. *Heißleiter* verhalten sich genau umgekehrt. Sie leiten den Strom bei *hohen* Temperaturen besser. Viele *Halbleiter* sind Heißleiter.
 
 [question:AB103]

@@ -11,10 +11,21 @@
   ],
   "languages": [
     "de",
-    "it",
-    "fr"
+    "fr",
+    "it"
   ],
-  "metadata": {},
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/sections/gleichrichter_2.md": "c0d93cbccf8ac5438d8d0d63aa9599a08f415a71bf8db5e827b5e8b90614633d"
+      },
+      "revision": "1b1bc3d6adcdb0bc3ae49ce997414d66cfc1c564",
+      "status": "active"
+    }
+  },
   "object_type": "section_article",
   "reconstruction": {
     "strategy": "replace_source_file",

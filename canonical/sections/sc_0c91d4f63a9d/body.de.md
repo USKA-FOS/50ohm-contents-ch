@@ -1,12 +1,17 @@
-Wie wir im Kapitel Amateurfunkstationen erklärt haben, kann man im Funkbetrieb anhand des Präfixes erkennen, aus welchem Land ein Funkpartner kommt. Eine detaillierte Liste mit allen Landeskennern findet sich in der Landeskennerliste der [ITU](https://50ohm.de/itu), Amateurfunkhandbüchern, dem Internet und in diversen Rufzeichenlisten. In der Abbildung [ref:n_internationale_landeskenner_eu] sind die wichtigsten Landeskenner in Europa zusammengestellt. Blau markierte Länder kommen im Fragenkatalog vor. Die anderen Länder dienen als Hintergrundwissen.
+Wie wir im Kapitel Amateurfunkstationen erklärt haben, kann man im Funkbetrieb anhand des Präfixes erkennen, aus welchem Land ein Funkpartner kommt. Eine detaillierte Liste mit allen Landeskennern findet sich in der Landeskennerliste der [ITU](https://50ohm.de/itu), Amateurfunkhandbüchern, dem Internet und in diversen Rufzeichenlisten. 
+
+% Die Karte gut kontrollieren oder eine verwenden ohne Einfärbung und den Text anpassen.
+In der Abbildung [ref:n_internationale_landeskenner_eu] sind die wichtigsten Landeskenner in Europa zusammengestellt. Blau markierte Länder kommen im Fragenkatalog vor. Die anderen Länder dienen als Hintergrundwissen.
 
 <webmargin>
 [picture:656:n_internationale_landeskenner_eu:Landeskenner in Europa]
 </webmargin>
 
 ---
-
-Die Landeskenner benötigt man im Laufe des Amateurfunklebens immer wieder. So mancher Funkamateur hat sich für die einzelnen Präfixe Eselsbrücken gebaut, um sich die Landeskenner besser merken zu können. In der Tabelle [ref:n_europaeische_landeskenner_eselsbruecken] finden sich die europäischen Landeskenner mit den zugehörigen Ländern. Die Tabelle [ref:n_internationale_landeskenner_eselsbruecken] zeigt weitere außereuropäische Landeskenner. Für einige gibt es auch oft genutzte Eselsbrücken. Wenn man sich die hervorgehobenen Landeskenner gut merkt, kann man mit dem Ausschlussverfahren alle Fragen im Fragenkatalog über die Landeskenner beantworten.
+% Die Liste gut anschauen ob das unseer Liste entspricht
+Die Landeskenner benötigt man im Laufe des Amateurfunklebens immer wieder. So mancher Funkamateur hat sich für die einzelnen Präfixe Eselsbrücken gebaut, um sich die Landeskenner besser merken zu können. In der Tabelle [ref:n_europaeische_landeskenner_eselsbruecken] finden sich die europäischen Landeskenner mit den zugehörigen Ländern. Die Tabelle [ref:n_internationale_landeskenner_eselsbruecken] zeigt weitere außereuropäische Landeskenner. Für einige gibt es auch oft genutzte Eselsbrücken. 
+% Der folgende Satz mag stimmen, find ich aber nicht gut. Auch wenn es hier um auswendiglernen geht. Ich finde es fragwürdig, wenn eine Lernplattform Tipps zum "spicken" gibt. Zudem funktioniet das sowieso nicht, wenn das nur Musterfragen sind.
+% Wenn man sich die hervorgehobenen Landeskenner gut merkt, kann man mit dem Ausschlussverfahren alle Fragen im Fragenkatalog über die Landeskenner beantworten.
 
 <webmargin>
 | l: Landeskenner | l: Eselsbrücke | X: Land |

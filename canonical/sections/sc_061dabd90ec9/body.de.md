@@ -12,9 +12,9 @@ Beim Betrieb von Sendern – insbesondere von leistungsstarken Sendern – kann 
 <indepth>
 Man unterscheidet:
   
-1 Leitungsgebundene Störungen – sie werden über elektrische Leitungen (z. B. Netz-, Signal- oder Datenleitungen) übertragen.
+- *Leitungsgebundene Störungen* – sie werden über elektrische Leitungen (z. B. Netz-, Signal- oder Datenleitungen) übertragen.
   
-2 Feldgebundene (oder gestrahlte) Störungen – sie breiten sich als elektromagnetische Wellen durch den freien Raum aus.
+- *Feldgebundene (oder gestrahlte) Störungen* – sie breiten sich als elektromagnetische Wellen durch den freien Raum aus.
   
 </indepth>
 
@@ -32,7 +32,7 @@ Oft werden störende Beeinflussungen in der Nachbarschaft mit dem Betrieb einer 
 
 [question:EJ122]
 
-Der Funkamateur sollte in der Nachbarschaft hierbei in kooperativer Weise und lösungsorientiert unterstützen bzw. auch Vorschläge für eine Abhilfe unterbreiten. Oft lassen sich Probleme im direkten Gespräch einfacher lösen als unter Einschaltung von Behörden. Erst wenn alle Bemühungen fehlgeschlagen sind, kann die zuständige Außenstelle der Bundesnetzagentur um eine Prüfung der Gegebenheiten gebeten werden. Dies sollte allerdings wirklich das letzte Mittel der Problemlösung sein.
+Der Funkamateur sollte in der Nachbarschaft hierbei in kooperativer Weise und lösungsorientiert unterstützen bzw. auch Vorschläge für eine Abhilfe unterbreiten. Oft lassen sich Probleme im direkten Gespräch einfacher lösen als unter Einschaltung von Behörden. Erst wenn alle Bemühungen fehlgeschlagen sind, kann das BAKOM um eine Prüfung der Gegebenheiten gebeten werden. Dies sollte allerdings wirklich das letzte Mittel der Problemlösung sein.
 
 [question:EJ124]
 [question:VN004]
@@ -52,7 +52,7 @@ Damit störende Beeinflussungen von Geräten vermieden werden, sollte ein Funkam
 [question:EJ104]
 [question:EJ105]
 
-Treten in einer Empfangsanlage mehrere starke Empfangssignale gleichzeitig auf (z.B. durch den Empfang eines lokalen TV-Senders und einer starken Amateurfunkstation in der Nachbarschaft) können im Empfänger unerwünschte Harmonische und deren Mischprodukte durch die Übersteuerung der Empfangsstufen des Empfängers entstehen. Dies nennt man *Intermodulation*. Durch Intermodulation werden *Phantomsignale* hervorgerufen, die nur bei Vorhandensein der beteiligten Signale entstehen.
+Treten in einer Empfangsanlage mehrere starke Empfangssignale gleichzeitig auf (z.B. durch den Empfang eines lokalen Senders eines anderen Funkdienstes und einer starken Amateurfunkstation in der Nachbarschaft) können im Empfänger unerwünschte Harmonische und deren Mischprodukte durch die Übersteuerung der Empfangsstufen des Empfängers entstehen. Dies nennt man *Intermodulation*. Durch Intermodulation werden *Phantomsignale* hervorgerufen, die nur bei Vorhandensein der beteiligten Signale entstehen.
 
 [question:EJ120]
 

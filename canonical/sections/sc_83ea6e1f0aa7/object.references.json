@@ -1,17 +1,6 @@
 [
   {
     "inline_alias": "a_qo100_bias_t",
-    "inline_label": "QO-100 Station mit Fernspeiseweiche zur Spannungsverorgung des LNBs",
-    "raw_marker": "[picture:1080:a_qo100_bias_t:QO-100 Station mit Fernspeiseweiche zur Spannungsverorgung des LNBs]",
-    "relation_type": "embeds_drawing",
-    "sort_order": 2,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "drawing_id",
-    "target_id_value": "1080",
-    "target_object_type": "drawing"
-  },
-  {
-    "inline_alias": "a_qo100_bias_t",
     "inline_label": null,
     "raw_marker": "[ref:a_qo100_bias_t]",
     "relation_type": "references_embedded_alias",
@@ -22,37 +11,26 @@
     "target_object_type": null
   },
   {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AD324]",
-    "relation_type": "references_question",
-    "sort_order": 7,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AD324",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": "a_bias_t",
-    "inline_label": "Fernspeiseweiche (BIAS-T)",
-    "raw_marker": "[picture:399:a_bias_t:Fernspeiseweiche (BIAS-T)]",
+    "inline_alias": "a_qo100_bias_t",
+    "inline_label": "QO-100 Station mit Fernspeiseweiche zur Spannungsverorgung des LNBs",
+    "raw_marker": "[picture:1080:a_qo100_bias_t:QO-100 Station mit Fernspeiseweiche zur Spannungsverorgung des LNBs]",
     "relation_type": "embeds_drawing",
-    "sort_order": 5,
+    "sort_order": 2,
     "source_slot_key": "body_markdown",
     "target_id_system": "drawing_id",
-    "target_id_value": "399",
+    "target_id_value": "1080",
     "target_object_type": "drawing"
   },
   {
-    "inline_alias": "a_Bias T Platine",
-    "inline_label": "BIAS - T Platine - mit KiCAD erstellt",
-    "raw_marker": "[photo:288:a_Bias T Platine:BIAS - T Platine - mit KiCAD erstellt]",
-    "relation_type": "embeds_photo",
-    "sort_order": 8,
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AD322]",
+    "relation_type": "references_question",
+    "sort_order": 3,
     "source_slot_key": "body_markdown",
-    "target_id_system": "photo_id",
-    "target_id_value": "288",
-    "target_object_type": "photo"
+    "target_id_system": "question_code",
+    "target_id_value": "AD322",
+    "target_object_type": "question"
   },
   {
     "inline_alias": "a_bias_t",
@@ -64,6 +42,17 @@
     "target_id_system": "inline_alias",
     "target_id_value": "a_bias_t",
     "target_object_type": null
+  },
+  {
+    "inline_alias": "a_bias_t",
+    "inline_label": "Fernspeiseweiche (BIAS-T)",
+    "raw_marker": "[picture:399:a_bias_t:Fernspeiseweiche (BIAS-T)]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "399",
+    "target_object_type": "drawing"
   },
   {
     "inline_alias": null,
@@ -79,13 +68,24 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AD322]",
+    "raw_marker": "[question:AD324]",
     "relation_type": "references_question",
-    "sort_order": 3,
+    "sort_order": 7,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AD322",
+    "target_id_value": "AD324",
     "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_Bias T Platine",
+    "inline_label": "BIAS - T Platine - mit KiCAD erstellt",
+    "raw_marker": "[photo:288:a_Bias T Platine:BIAS - T Platine - mit KiCAD erstellt]",
+    "relation_type": "embeds_photo",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "288",
+    "target_object_type": "photo"
   },
   {
     "inline_alias": null,

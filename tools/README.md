@@ -116,9 +116,12 @@ python tools/import_incremental_german_source.py \
 
 The first importer command is a dry-run. By default, the source is the local
 `origin/review/de/main` commit, archived without changing the current branch. Apply
-requires a clean `canonical/`, preserves ids and target payloads, marks changed
-target states for review, deactivates missing objects as `to_be_deleted`, and
-writes the accepted audit under `review/source_imports/`.
+requires a clean `canonical/`, preserves ids and target payloads for objects
+still present in source, marks changed target states for review, removes complete
+objects absent from source (including all language payloads), and writes the
+accepted audit under `review/source_imports/`. The audit records each removal,
+the number of removed files, and the source revision; the pre-import Git tag
+preserves the previous files.
 
 PNG, SVG and TeX changes are recorded as `media_review_required`; they
 invalidate existing localized media variants. Image/SVG-only changes do so

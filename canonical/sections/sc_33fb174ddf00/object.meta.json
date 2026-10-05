@@ -11,10 +11,21 @@
   ],
   "languages": [
     "de",
-    "it",
-    "fr"
+    "fr",
+    "it"
   ],
-  "metadata": {},
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/sections/kondensator_2.md": "4957cc4b4c7a886ea95657f4eba8f4fdedc9930b24d7f152c3ae483429a019ea"
+      },
+      "revision": "1b1bc3d6adcdb0bc3ae49ce997414d66cfc1c564",
+      "status": "active"
+    }
+  },
   "object_type": "section_article",
   "reconstruction": {
     "strategy": "replace_source_file",

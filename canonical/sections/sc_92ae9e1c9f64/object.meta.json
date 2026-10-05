@@ -11,10 +11,21 @@
   ],
   "languages": [
     "de",
-    "it",
-    "fr"
+    "fr",
+    "it"
   ],
-  "metadata": {},
+  "metadata": {
+    "lifecycle": {
+      "status": "active"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/sections/troposphaere_3.md": "1a431ecefcda0d92b613e217603bfd085441991dbcc1dda0350845380155b95c"
+      },
+      "revision": "1b1bc3d6adcdb0bc3ae49ce997414d66cfc1c564",
+      "status": "active"
+    }
+  },
   "object_type": "section_article",
   "reconstruction": {
     "strategy": "replace_source_file",

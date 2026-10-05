@@ -1,4 +1,4 @@
-In der Klasse E haben wir bereits unerwünschte Aussendungen in Form von *Oberwellen* und *Nebenaussendungen* kennengelernt. Oberwellen bzw. Harmonische eines Signals entstehen immer, wenn sich Abweichungen von der idealen Sinus-Kurve bilden und sind immer ganzzahlige Vielfache der Grundfrequenz, wie in Abbildung [ref:a_harmonische] dargestellt.
+In den Abschnitten [sec:unerwuenschte_aussendungen_1] und [sec:unerwuenschte_aussendungen_2] haben wir bereits unerwünschte Aussendungen in Form von *Oberwellen* und *Nebenaussendungen* kennengelernt. Oberwellen bzw. Harmonische eines Signals entstehen immer, wenn sich Abweichungen von der idealen Sinus-Kurve bilden und sind immer ganzzahlige Vielfache der Grundfrequenz, wie in Abbildung [ref:a_harmonische] dargestellt.
 
 Ein Beispiel zeigt die folgende Prüfungsfrage: Wird ein Verstärker übersteuert, werden die Spitzen der Amplitude des Sinussignals begrenzt – dadurch entstehen Oberwellen.
 
@@ -28,7 +28,9 @@ Bei der Betrachtung von Vielfachen der Grundfrequenz eines Signals unterscheiden
 
 <tip>
 Der UKW-Rundfunk ist der "klassische" Rundfunk auf Ultrakurzwelle (UKW). Die Ausstrahlung von Radioprogrammen erfolgt im Frequenzbereich von $\qtyrange{87,6}{107,9}{\mega\hertz}$.
+In der Schweiz sollen die UKW-Sender entgegen früherer Pläne in beschränktem Umfang weiterbetrieben werden.
 </tip>
+%TODO: Helvetisierung 
 
 Sollen bestimmte Oberwellen oder Harmonische eines Signals einzeln unterdrückt werden, so kann dies neben des klassischen Oberwellenfilters (Tiefpass) auch durch sog. *Sperrkreise* erfolgen. Ein Sperrkreis unterdrückt genau eine Frequenz maximal und lässt ansonsten alle anderen nahezu ungehindert passieren.
 
@@ -37,6 +39,7 @@ Sollen bestimmte Oberwellen oder Harmonische eines Signals einzeln unterdrückt 
 ---
 
 Laut Amateurfunkverordnung (AFuV) sind unerwünschte Aussendungen auf das geringstmögliche Maß zu beschränken. Die [Verfügung 33](https://50ohm.de/vfg33) von 2007 legt allerdings genaue Grenzwerte fest, welche durch den Funkamateur aber auch von Herstellern kommerzieller Geräte beachtet werden müssen.
+%TODO: Helvetisierung 
 
 <margin>
 [photo:319:a_vfg33:Auszug aus der Verfügung 33 von 2007]

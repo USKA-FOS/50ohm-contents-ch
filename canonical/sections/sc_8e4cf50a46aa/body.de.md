@@ -1,4 +1,4 @@
-Im Abschnitt zum "Umstellen von Formeln" [sec:formeln_umstellen] hatten wir bereits gesehen, wie wir den Zusammenhang zwischen Frequenz $f$, Wellenlänge $\lambda$ und Lichtgeschwindigkeit im Freiraum $c_0$ 
+Im Abschnitt [sec:formeln_umstellen] haben wir bereits gesehen, wie wir den Zusammenhang zwischen Frequenz $f$, Wellenlänge $\lambda$ und Lichtgeschwindigkeit im Freiraum $c_0$ 
 
 $f = \frac{c_0}{\lambda}$
 
@@ -8,7 +8,7 @@ $f[\unit{\mega\hertz}] = \frac{300}{\lambda[\unit{\meter}]}$
 
 wahlweise nach der Frequenz oder der Wellenlänge umstellen können.
 
-In diesem Abschnitt betrachten wir praktische Anwendungen. Versuche zunächst immer, selbstständig die Lösung zu finden.
+In diesem Abschnitt betrachten wir praktische Anwendungen. Versuche zunächst immer, selbstständig die Lösung zu finden. Deshalb ist, entgegen der gewohnten Darstellung, die Information *nach* der Frage platziert.
 
 [question:EB314]
 

@@ -25,8 +25,9 @@ This document covers the content-side workflow around:
 - before risky import or export operations, create a recovery tag;
 - before applying translations to canonical content, the canonical repository
   should normally be clean;
-- German source integration must be non-destructive toward existing canonical
-  content.
+- German source integration preserves canonical content for objects still
+  present in source; objects absent from source are removed with all language
+  payloads and recorded in the accepted import manifest.
 
 ## 3. External Boundary With Question Pool
 
@@ -241,12 +242,12 @@ not imply that every change in that revision was imported.
 
 ### Business Rule For Deletion
 
-- if a business object disappears from German source, it is considered removed
-  for all languages;
-- the whole node is marked `to_be_deleted`;
-- the node content stays physically present until an explicit cleanup step;
-- German, French, and Italian payloads are not partially rewritten for this
-  state change.
+- if a business object is absent from the selected German source revision,
+  remove its complete canonical directory, including German, French, and
+  Italian payloads, during the accepted import;
+- record each removed object and file count in the versioned import manifest;
+- keep the pre-import Git tag as the recovery point. Translation and site
+  generation must not consume objects absent from the source.
 
 ## 9. Use Case UC5: Translation Propagation After Source Update
 
@@ -301,24 +302,25 @@ python tools/extract_drawing_tex_translation_candidates.py \
   --source-import-audit review/source_imports/<audit>.json
 ```
 
-## 10. Use Case UC6: Cleanup Of `to_be_deleted` Objects
+## 10. Use Case UC6: Removal Of Objects Absent From German Source
 
 ### Goal
 
-Remove previously deactivated objects only after review confirms the deletion.
+Remove complete objects that no longer exist in the reviewed German source.
 
 ### Workflow
 
-1. start from a committed canonical state where objects are already marked
-   `to_be_deleted`;
-2. confirm that the deletion is intended for the whole business object;
-3. remove the canonical object directory and all of its language payloads;
-4. remove or update structure placements that reference the object;
-5. commit the cleanup;
-6. rebuild and validate affected languages.
+1. start from a clean committed canonical state and a pre-import Git tag;
+2. confirm against the selected source revision that the whole business object
+   is absent and check for remaining structure references;
+3. approve the import workbook and let the importer remove the canonical object
+   directory and all language payloads;
+4. verify the removed-object list and file counts in the accepted manifest;
+5. validate canonical and commit the import, manifest, and alignment document;
+6. rebuild and validate affected languages after translation review.
 
-This cleanup is intentionally separate from the first integration of a new
-German source version.
+Legacy objects already marked `to_be_deleted` are removed in the next accepted
+full import when they remain absent from the selected source revision.
 
 ## 11. Current Implemented Workflow Pieces
 
@@ -334,16 +336,15 @@ Implemented and validated in the current system:
 - translation-unit extraction from object-centric canonical content;
 - translation result reinjection into canonical target-language payloads;
 - localized structure translation storage in `edition.<lang>.json`.
-- non-destructive German import from `origin/review/de/main`, including dry-run audit;
+- reviewed German import from `origin/review/de/main`, including dry-run audit;
 - stable-id preservation and exact-content rename detection;
-- reversible `to_be_deleted` lifecycle handling;
+- complete removal of objects absent from German source, recorded in the import manifest;
 - HTML structure alignment and unchanged-segment translation preservation;
 - accepted-audit scoping for ordinary content, structure and drawing TeX;
 - build and translation exclusion of inactive objects.
 
 Partially implemented or still evolving:
 
-- final cleanup workflow for deactivated objects;
 - remaining elimination of support-artifact dependencies outside canonical.
 
 The importer deliberately ignores `contents/questions/`, which remains owned

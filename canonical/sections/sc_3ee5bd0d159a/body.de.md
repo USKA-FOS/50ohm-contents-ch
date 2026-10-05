@@ -1,4 +1,4 @@
-Mit dem Einbau einer Amateurfunkanlage in ein Kraftfahrzeug macht das Autofahren gleich mehr Spaß. Über Relaisfunkstellen ist man gut mit anderen Amateurfunkstellen vernetzt und erhält so oftmals wertvolle Informationen zur Verkehrssituation auf der Fahrtstrecke. Für den Betrieb während der Fahrt ist - wie beim Smartphone - eine Freisprecheinrichtung erforderlich.
+Mit dem Einbau einer Amateurfunkanlage in ein Motorfahrzeug macht das Autofahren gleich mehr Spaß. Über Relaisfunkstellen ist man gut mit anderen Amateurfunkstellen vernetzt und erhält so oftmals wertvolle Informationen zur Verkehrssituation auf der Fahrtstrecke. Für den Betrieb während der Fahrt ist - wie beim Smartphone - eine Freisprecheinrichtung erforderlich.
 
 <margin>
 [photo:75:n_mobilfunkgeraet:Einbau des Bedienteils eines VHF/UHF-Funkgerätes in die Mittelkonsole eines PKW]
@@ -22,10 +22,12 @@ Werden Antennenleitungen einer Mobilfunkanlage parallel und sehr dicht zu andere
 
 [question:NK309]
 
+%TODO: In der Frage NK309 Wahlantwort B hat es einen Typo: Mototfahrzeug -> Motorfahrzeug
+
 ---
 
 Die Bordnetzspannung im Kraftfahrzeug erscheint zunächst ungefährlich, da man beim Berühren der Spannungen von $\qty{12}{\volt}$ oder $\qty{24}{\volt}$ keinen Stromschlag bekommen kann. Es muss aber auch bedacht werden, dass eine Fahrzeugbatterie sehr hohe Ströme liefern kann. Im Falle eines Kurzschlusses kann es schnell zu einem Lichtbogen, einem Kabelbrand oder sogar zu einem Fahrzeugbrand kommen. Mit dem *Unterschied zwischen Spannung und Strom* haben wir uns im Kapitel 6 schon beschäftigt. 
-% wenn möglich auf Kapitel verweisen. Da es mehr als ein Abschnitt ist, ist verweis auf Abschnitt icht möglich.
+% wenn möglich auf Kapitel verweisen. Da es mehr als eine Abschnitt ist, ist Verweis auf Abschnitt nicht möglich.
 
 <margin>
 [photo:76:n_Kabelsicherung:Stromkabel mit Sicherungshalter]
@@ -38,5 +40,11 @@ Bei einem Kurzschluss kann ein *Lichtbogen* entstehen, also eine elektrische Ent
 
 
 In der Versorgungsleitung des Fahrzeugfunkgerätes muss immer eine Sicherung des richtigen Werts verbaut sein! In Abbildung [ref:n_Kabelsicherung] ist ein üblicher Sicherungshalter mit eingesteckter Sicherung zu sehen. Bei qualitativ hochwertigen Geräten sind in beiden Kabeln Sicherungen verbaut. Eine für den Plus- und eine für den Minuspol. Damit ist ein besserer Schutz als mit nur einer Sicherung in der Zuleitung zum Pluspol gegeben.
+
+<attention>
+*VORSICHT:* Wird ein Funkgerät direkt an die Fahrzeugbatterie angeschlossen, sollen Plus- und Minusleitung jeweils mit einer Sicherung abgesichert werden. Die Sicherungen werden möglichst nahe bei der Batterie eingebaut.
+
+Die Sicherung in der Minusleitung schützt die Leitung im seltenen Fall, dass die normale Masseverbindung der Batterie zum Fahrzeug unterbrochen ist und dadurch ein hoher Fahrzeugstrom über eine andere Masseverbindung des Funkgeräts fliessen könnte.
+</attention>
 
 [question:NK307]

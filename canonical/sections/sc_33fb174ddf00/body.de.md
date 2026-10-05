@@ -1,8 +1,8 @@
-In der Klasse E haben wir bereits die Kapazität eines Kondensators sowie sein qualitatives Verhalten bei Wechselspannung kennengelernt: Ein Kondensator verhält sich wie ein frequenzabhängiger Widerstand. Dabei haben wir zunächst festgehalten, dass der kapazitive Blindwiderstand umgekehrt proportional zur Frequenz ist. Verringert man die Frequenz, so wird der Blindwiderstand $X_C$ größer. Erhöht man hingegen die Frequenz, nimmt der Widerstand entsprechend ab. Der Sachverhalt eines Kondensators bei Wechselspannung lässt sich durch die Formel für den kapazitiven Blindwiderstand $X_C$ beschreiben:
+Im Abschnitt [sec:kondensator_1] haben wir bereits die Kapazität eines Kondensators sowie sein qualitatives Verhalten bei Wechselspannung kennengelernt: Ein Kondensator verhält sich wie ein frequenzabhängiger Widerstand. Dabei haben wir zunächst festgehalten, dass der kapazitive Blindwiderstand umgekehrt proportional zur Frequenz ist. Verringert man die Frequenz, so wird der Blindwiderstand $X_C$ größer. Erhöht man hingegen die Frequenz, nimmt der Widerstand entsprechend ab. Der Sachverhalt eines Kondensators bei Wechselspannung lässt sich durch die Formel für den kapazitiven Blindwiderstand $X_C$ beschreiben:
 
 $|X_C| = \frac{1}{\omega\cdot C} = \frac{1}{2\pi\cdot f \cdot C}$
 
-In der Klasse A wollen wir dieses Verhalten nun genauer betrachten und auch erfahren, warum dieser Widerstand als "Blindwiderstand" bezeichnet wird. Zunächst müssen wir uns allerdings noch merken, dass der Blindwiderstand eines Kondensators auch negativ ist, um die folgende Frage lösen zu können: 
+Hier wollen wir dieses Verhalten nun genauer betrachten und auch erfahren, warum dieser Widerstand als "Blindwiderstand" bezeichnet wird. Zunächst müssen wir uns allerdings noch merken, dass der Blindwiderstand eines Kondensators auch negativ ist, um die folgende Frage lösen zu können: 
 
 [question:AC102]
 

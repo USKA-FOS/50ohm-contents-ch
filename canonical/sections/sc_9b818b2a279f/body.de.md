@@ -1,4 +1,4 @@
-In den nächsten beiden Kapiteln beschäftigen wir uns mit zwei wichtigen Grundschaltungen eines bipolaren Transistors. Zunächst betrachten wir in diesem Kapitel die *Kollektorschaltung*, im darauffolgenden Kapitel die *Emitterschaltung*. Beide Schaltungen sind in Abbildung [ref:a_emitter_collector] dargestellt. Sie besitzen unterschiedliche Eigenschaften und werden daher für verschiedene Anwendungen eingesetzt.
+In diesem und im nächsten Abschnitt beschäftigen wir uns mit zwei wichtigen Grundschaltungen eines bipolaren Transistors. Zunächst betrachten wir in diesem Abschnitt die *Kollektorschaltung*, im darauffolgenden Abschnitt die *Emitterschaltung*. Beide Schaltungen sind in Abbildung [ref:a_emitter_collector] dargestellt. Sie besitzen unterschiedliche Eigenschaften und werden daher für verschiedene Anwendungen eingesetzt.
 
 <margin>
 [picture:1118:a_emitter_collector:Emitter- und Kollektorschaltung mit Bezeichnugnen Basis (B), Kollektor (C) und Emitter (E)]

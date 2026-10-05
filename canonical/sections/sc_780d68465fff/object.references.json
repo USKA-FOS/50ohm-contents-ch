@@ -1,16 +1,5 @@
 [
   {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AH220]",
-    "relation_type": "references_question",
-    "sort_order": 4,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AH220",
-    "target_object_type": "question"
-  },
-  {
     "inline_alias": "a_sporadic_e",
     "inline_label": "Refraktion bei Sporadic-E",
     "raw_marker": "[picture:733:a_sporadic_e:Refraktion bei Sporadic-E]",
@@ -20,6 +9,17 @@
     "target_id_system": "drawing_id",
     "target_id_value": "733",
     "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AH301]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AH301",
+    "target_object_type": "question"
   },
   {
     "inline_alias": null,
@@ -35,12 +35,12 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:AH301]",
+    "raw_marker": "[question:AH220]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 4,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "AH301",
+    "target_id_value": "AH220",
     "target_object_type": "question"
   }
 ]

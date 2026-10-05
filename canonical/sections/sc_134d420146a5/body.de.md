@@ -3,7 +3,8 @@ Die nationalen Amateurfunkverbände haben sich in der "International Amateur Rad
 <margin>
 Die *USKA* ist als Verband der Schweizer Funkamateure in der International Amateur Radio Union (IARU) organisiert und vertritt dort die Interessen seiner Mitglieder in der weltweiten Gemeinschaft der Funkamateure.
 
-[Jetzt Mitglied bei der USKA werden!](https://uska.ch/die-uska/administration/uska-mitglied-werden/)
+[Jetzt Mitglied der USKA werden!](https://uska.ch/de/uska-beitreten/)
+
 </margin>
 
 [question:BC201]

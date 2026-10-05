@@ -545,14 +545,11 @@ def apply_source_record(
     return {"object_id": object_id, "old_source_key": old_key, "review_state_transitions": transitions, "html_alignment": html_alignment}
 
 
-def mark_missing(record: dict[str, Any], revision: str) -> list[dict[str, str]]:
-    meta = record["meta"]
-    meta["active"] = False
-    lifecycle = meta.setdefault("metadata", {}).setdefault("lifecycle", {})
-    lifecycle["status"] = "to_be_deleted"
-    lifecycle["missing_since_revision"] = revision
-    write_json(record["object_dir"] / "object.meta.json", meta)
-    return []
+def remove_missing(record: dict[str, Any]) -> int:
+    """Remove every language of a business object absent from German source."""
+    file_count = sum(path.is_file() for path in record["object_dir"].rglob("*"))
+    shutil.rmtree(record["object_dir"])
+    return file_count
 
 
 def node_index(root: dict[str, Any]) -> dict[tuple[str, str], dict[str, Any]]:
@@ -912,7 +909,9 @@ def scope_report_to_object_ids(report: dict[str, Any], object_ids: set[str]) -> 
     report["structures"] = []
 
 
-def ensure_clean_canonical() -> None:
+def ensure_clean_canonical(canonical_root: Path = CANONICAL_ROOT) -> None:
+    if canonical_root.resolve() != CANONICAL_ROOT.resolve():
+        return
     status = subprocess.check_output(["git", "-C", str(REPO_ROOT), "status", "--porcelain", "--", "canonical"], text=True)
     if status.strip():
         raise RuntimeError("Refusing incremental import because canonical/ has uncommitted changes.")
@@ -929,7 +928,7 @@ def run_import(
     only_object_ids: set[str] | None = None,
 ) -> dict[str, Any]:
     if apply:
-        ensure_clean_canonical()
+        ensure_clean_canonical(canonical_root)
         if review_workbook is None:
             raise RuntimeError("Applying a German source import requires --review-workbook.")
     report, source_records, canonical_records, structure_payloads = build_plan(
@@ -963,7 +962,8 @@ def run_import(
                 approved_structures.add(str(change["source_key"]))
                 continue
             if action == "missing":
-                change["review_state_transitions"] = mark_missing(canonical_records[identity], report["source_revision"])
+                change["removed_file_count"] = remove_missing(canonical_records[identity])
+                change["removed"] = True
                 continue
             old_identity = identity if identity in canonical_records else rename_lookup.get(identity)
             details = apply_source_record(
@@ -988,6 +988,8 @@ def run_import(
         report["review_workbook"] = str(review_workbook)
         report["imported_change_count"] = sum(1 for change in report["changes"] if change.get("imported"))
         report["skipped_change_count"] = sum(1 for change in report["changes"] if change["action"] != "unchanged" and not change.get("imported"))
+        report["removed_object_count"] = sum(1 for change in report["changes"] if change.get("removed"))
+        report["removed_file_count"] = sum(int(change.get("removed_file_count", 0)) for change in report["changes"])
         report["post_validation"] = {"object_count": post_validation["object_count"], "error_count": 0}
     if report_path is None:
         revision_label = re.sub(r"[^0-9A-Za-z._-]", "_", report["source_revision"][:40])

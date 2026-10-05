@@ -1,11 +1,25 @@
-Ein Relais ermöglicht eine größere Reichweite als dies bei direkter Verbindung zwischen zwei Amateurfunkstellen oftmals möglich ist. Relais werden meist an exponierten Standorten, z. B. auf Berggipfeln, Hochhäusern, Kirch- und sonstigen Türmen, errichtet. Es gibt auch Relais in Satelliten, die um die Erde kreisen. Aufbau und Funktion eines Relais sind in Bild [ref:n_relaisfunkstellen_aufbau] dargestellt. 
-% Finde Bild nicht gut. Das das oben auf dem Berg ein Relais sein soll, kann man grad noch so erkennen. Das dieses aber etwas empfängt und "weiterleitet" ist nicht ersichtlich. Issue #38 eröffnet
+Ein Relais ermöglicht eine größere Reichweite als dies bei direkter Verbindung zwischen zwei Amateurfunkstationen oftmals möglich ist. Relais werden meist an exponierten Standorten, z. B. auf Berggipfeln, Hochhäusern, Kirch- und sonstigen Türmen, errichtet. Es gibt auch Relais in Satelliten, die um die Erde kreisen. 
 
+Aufbau und Funktion eines terrestrischen Relais sind im Bild [ref:n_relaisfunkstellen_aufbau] schematisch dargestellt. Senden und Empfangen erfolgt auf unterschiedlichen Frequenzen. Das Zahlenbeispiel stammt vom Relais auf dem Üetliberg.
+
+<margin>
 [picture:648:n_relaisfunkstellen_aufbau:Schematische Darstellung einer Relaisfunkstelle mit Nutzern]
+</margin>
 
-Ist zum Beispiel ein Berg zwischen zwei Funkstationen, so ist es unmöglich, durch den Berg hindurchzusenden. Eine Relaisfunkstelle auf dem Berggipfel ermöglicht es trotzdem, eine Verbindung aufzubauen, da beide Stationen das Relais direkt erreichen  können.
+Ist zum Beispiel ein Berg zwischen zwei Funkstationen, so ist es unmöglich, durch den Berg hindurchzusenden. Ein Relais auf dem Berggipfel ermöglicht es trotzdem, eine Verbindung aufzubauen, da beide Stationen das Relais direkt erreichen können.
+
+Das Bild [ref:nea_linkstrecken_antenne_Pilatus] zeigt die Montage einer Uplink-Antenne auf dem Campus in Windisch für das Relais Pilatus der [UHF-Gruppe](https://hb9uf.ch) der USKA.
+
+</tip>
 
 ---
+
+<margin>
+[photo:1000:nea_linkstrecken_antenne_Pilatus:Wartungsarbeiten auf dem Campus Windisch,HB9DWW und HB9ZGF bei der Montage der "Echolink" Uplink-Antenne für das Relais Pilatus]
+</margin>
+
+---
+
 <law>
 Direktlink zur Meldeseite im [eGov](https://www.egov.swiss/de/amateurfunk/spezielle-frequenznutzung-detail)
 
@@ -17,18 +31,23 @@ In der Schweiz dürfen nur Amateurfunkvereine unbediente Stationen, also auch Re
 
 Amateurfunkvereine, die eine unbediente Station errichten möchten, unterliegen der Meldepflicht an das BAKOM (Registrierung). Diese muss vor der Inbetriebnahme beim BAKOM eingeholt werden.
 Um eine störungsfreie Frequenznutzung der unbedienten Anlage sicherzustellen,empfiehlt es sich vorgängig eine Frequenzkoordination durchzuführen. Hierfür können Sie sich an die USKA [Kontakt:](qrg@uska.ch) wenden, die sie auf freiwilliger Basis
+%TODO: USKA Link korrigieren 
+
 dabei unterstützt. Danach können Sie die Meldung beim BAKOM über das eGov Portal durchführen.
 % Sollte das auf die "einführende Infoseite"?
 [question:VN007]
 
 
 
-Das Rufzeichen einer Relaisfunkstelle beginnt gemäß [Rufzeichenplan](https://50ohm.de/rzp) in der Regel mit DB0, DM0 oder DO0.
+Das Rufzeichen eines Relais beginnt gemäß [Rufzeichenplan](https://50ohm.de/rzp) in der Regel mit DB0, DM0 oder DO0.
+
+%TODO: Rufzeichenplan helvetisieren
+
 Die amtliche Definition von Repeatern liest sich etwas trockener: *"Relaisfunkstelle": eine fernbediente Amateurfunkstelle (auch in Satelliten), die empfangene Amateurfunkaussendungen, Teile davon oder sonstige eingespeiste oder eingespeicherte Signale fern ausgelöst aussendet und dabei zur Erhöhung der Erreichbarkeit von Amateurfunkstellen dient*
 Die folgende Frage zu dieser Definition lässt sich aber auch gut im Ausschlussverfahren lösen, wenn man folgendes weiß:
-* Relaisfunkstellen werden nicht mit persönlichen Rufzeichen betrieben.
-* Relaisfunkstellen sind üblicherweise nicht ständig besetzt.
-* Relaisfunkstellen müssen nicht zwingend an geografisch exponierten Standorten betrieben werden.
+* Relais werden nicht mit persönlichen Rufzeichen betrieben.
+* Relais sind üblicherweise nicht ständig besetzt.
+* Relais müssen nicht zwingend an geografisch exponierten Standorten betrieben werden.
 [question:VD118]
 % gibt es dazu eine HB Rechtgrundlage? 
 
@@ -117,4 +136,6 @@ In der bereits besprochenen Anlage 1 der AFuV finden sich auch Vorgaben für die
 [question:VD503]
 % Gibt es eine HB Rechtsgrundlage? 
 
-
+% Den Titel von Relaisfunkstelle auf Relais geändert.
+% Weitere Vorkommen von Relaisfunkstelle auf Relais geändert.
+% TODO für Helvetisierung des Rufzeichenplans eingefügt. 

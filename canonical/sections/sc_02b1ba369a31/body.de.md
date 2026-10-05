@@ -47,6 +47,10 @@ Bei einer späteren Messung wird der angezeigte Messwert mit dem entsprechenden 
 [table:a_frequenzgang_messwerte:Gemessene Pegel in Abhängigkeit von der Frequenz für den HF-Tastkopf von DL3JOP]
 </margin>
 
+% Bemerkung:
+% Eine Angabe auf Hundertstel Dezibel genau scheint mir etwas praxisfremd zu sein. So genau kann man kaum
+% messen. Das kann im Unterricht einen Diskussionspunkt geben.
+
 [question:AI612]
 
 Betrachten wir nun die Berechnung der Schaltungen im Detail. Bei HF-Tastköpfen mit nur einer Diode ist am Messausgang die Spitzenspannung der zugeführten HF-Spannung abzüglich der Forward-Spannung der verwendeten Diode und eines ggf. vorhandenen vorgeschalteten Spannungsteilers messbar. Ein HF-Tastkopf mit einfacher Gleichrichtung und anschließender Glättung wird wie folgt berechnet:

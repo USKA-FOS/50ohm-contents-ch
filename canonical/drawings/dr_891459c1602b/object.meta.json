@@ -25,8 +25,8 @@
   },
   "languages": [
     "de",
-    "it",
-    "fr"
+    "fr",
+    "it"
   ],
   "metadata": {
     "asset": {
@@ -44,6 +44,9 @@
         "source_path": "contents/drawings/578.tex"
       }
     },
+    "lifecycle": {
+      "status": "active"
+    },
     "reconstruction": {
       "description_canonical_files": {
         "de": "578.de.txt",
@@ -51,6 +54,15 @@
         "it": "578.it.txt"
       },
       "description_source_format": "split_descriptions"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/drawings/578.svg": "a478af9b105525211e2111933a0dd502a8d47d7adeb981c4e1b75aee98b63e18",
+        "contents/drawings/578.tex": "289e358fe8bb1c7e90a6054b45e14c7234c7758435ab8d30e71505be3ac0b8db",
+        "contents/drawings/578.txt": "b550c2ffd6df5b429f3c26d741abf2b30fe3e34965426e67034614aba38da334"
+      },
+      "revision": "1b1bc3d6adcdb0bc3ae49ce997414d66cfc1c564",
+      "status": "active"
     }
   },
   "object_type": "drawing",

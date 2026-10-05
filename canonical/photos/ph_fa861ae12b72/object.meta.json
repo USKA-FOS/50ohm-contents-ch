@@ -1,0 +1,107 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "ph_fa861ae12b72",
+  "identifiers": [
+    {
+      "id_system": "photo_id",
+      "id_value": "2005",
+      "preferred": true
+    },
+    {
+      "id_system": "file_stem",
+      "id_value": "2005",
+      "preferred": false
+    }
+  ],
+  "language_variants": {
+    "de": {
+      "asset_files": {},
+      "review_state": "imported_approved"
+    }
+  },
+  "languages": [
+    "de"
+  ],
+  "metadata": {
+    "asset": {
+      "description_source_path": "contents/photos/2005.txt"
+    },
+    "language_asset": {},
+    "lifecycle": {
+      "status": "active"
+    },
+    "reconstruction": {
+      "description_canonical_files": {
+        "de": "2005.de.txt"
+      },
+      "description_source_format": "single_description"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/photos/2005.txt": "7218ad0b827a4cf0c74caf57e91db02ae1aa36d403e6d8dedd8ce71d73d26c53"
+      },
+      "revision": "1b1bc3d6adcdb0bc3ae49ce997414d66cfc1c564",
+      "status": "active"
+    }
+  },
+  "object_type": "photo",
+  "reconstruction": {
+    "strategy": "render_photo_description_file",
+    "targets": [
+      {
+        "kind": "rendered_description_file",
+        "path": "contents/photos/2005.txt",
+        "slot_keys": [
+          "short_description",
+          "long_description"
+        ]
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_translated"
+    },
+    {
+      "language": "it",
+      "state": "to_be_translated"
+    }
+  ],
+  "source": {
+    "format": "grouped_asset",
+    "key": "2005",
+    "path": "contents/photos/2005"
+  },
+  "text_slots": [
+    {
+      "slot_key": "short_description",
+      "slot_type": "plain_text",
+      "sort_order": 1,
+      "storage": {
+        "files": {
+          "de": "2005.de.txt"
+        },
+        "kind": "description_file_bundle"
+      },
+      "translation_group_key": "photo:ph_fa861ae12b72"
+    },
+    {
+      "slot_key": "long_description",
+      "slot_type": "plain_text",
+      "sort_order": 2,
+      "storage": {
+        "files": {
+          "de": "2005.de.txt"
+        },
+        "kind": "description_file_bundle"
+      },
+      "translation_group_key": "photo:ph_fa861ae12b72"
+    }
+  ]
+}

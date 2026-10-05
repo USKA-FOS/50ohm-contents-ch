@@ -1,4 +1,4 @@
-In der Klasse E haben wir die *Dummyload* bereits kennengelernt. Eine Dummyload ist ein Lastwiderstand, der die vom Sender abgegebene HF-Leistung in Wärme umsetzt. Sie ermöglicht es beispielsweise, einen Sender zu testen oder seine Ausgangsleistung zu bestimmen, ohne dass dabei ein Signal über eine Antenne abgestrahlt wird. In der Klasse A betrachten wir nun genauer, wie eine solche Dummyload aufgebaut werden kann.
+In Abschnitt [sec:dummy_load_1] haben wir die *Dummyload* bereits kennengelernt. Eine Dummyload ist ein Lastwiderstand, der die vom Sender abgegebene HF-Leistung in Wärme umsetzt. Sie ermöglicht es beispielsweise, einen Sender zu testen oder seine Ausgangsleistung zu bestimmen, ohne dass dabei ein Signal über eine Antenne abgestrahlt wird. In diesem Abschnitt betrachten wir nun genauer, wie eine solche Dummyload aufgebaut werden kann.
 
 Eine Dummyload für den HF-Bereich wird häufig aus mehreren einzelnen Widerständen zusammengesetzt. Dadurch lässt sich die entstehende Verlustleistung auf mehrere Bauteile verteilen und eine entsprechend hohe Gesamtbelastbarkeit erreichen. Die Widerstände können dabei parallel, in Reihe oder in einer Kombination aus Reihen- und Parallelschaltungen verbunden werden. Werden identische Widerstände mit gleicher Belastbarkeit verwendet und die Schaltung symmetrisch aufgebaut, verteilt sich die Verlustleistung gleichmäßig auf die einzelnen Widerstände. Die erforderliche Anzahl und Verschaltung der Widerstände kann mit den bekannten Regeln für Reihen- und Parallelschaltungen bestimmt werden. Bei einer HF-Dummyload ist außerdem wichtig, dass die Schaltung auch bei hohen Frequenzen möglichst einem rein ohmschen Widerstand von $\qty{50}{\ohm}$ entspricht. Deshalb werden geeignete, möglichst induktionsarme Widerstände verwendet und die Verbindungsleitungen möglichst kurz ausgeführt.
 
@@ -24,6 +24,9 @@ Die 50ohm.de Dummyload besitzt zusätzlich einen Spitzenwertgleichrichter aus ei
 
 *Anzeige:* Möchtest du auch eine coole 50ohm.de QRP-Dummyload bauen? Dann kannst du diese im [DARC-Verlag](https://darcverlag.de/50Ohm-Dummy-Load-DIY-Kit-Bausatz) als Bausatz bestellen.
 </margin>
+
+% ARK: Dieser Bezug auf den DARC wurde bewusst stehen gelassen. 
+% Allenfalls sollte das im Team oder in der Projektleitung noch besprochen werden. 
 
 In der folgenden Prüfungsfrage besteht die Dummyload aus einer Kombination von Reihen- und Parallelschaltungen. Werden in jedem Zweig $N_\mathrm{S}$ gleiche Widerstände in Reihe geschaltet und anschließend $N_\mathrm{P}$ solcher Zweige parallel geschaltet, ergibt sich der Gesamtwiderstand zu:
 

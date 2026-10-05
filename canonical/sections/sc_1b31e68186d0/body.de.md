@@ -1,10 +1,10 @@
-In der Klasse E haben wir bereits die Grundlagen des Transformators kennengelernt. Er besteht aus zwei Spulen, die über einen Eisen- oder Ferritkern magnetisch gekoppelt sind. Damit die Seiten auseinandergehalten werden können, spricht man von Primärseite mit der Windungszahl $N_P$ und der Sekundärseite mit der Windungszahl $N_S$.
+Im Abschnitt [sec:uebertrager_1] haben wir bereits die Grundlagen des Transformators kennengelernt. Er besteht aus zwei Spulen, die über einen Eisen- oder Ferritkern magnetisch gekoppelt sind. Damit die Seiten auseinandergehalten werden können, spricht man von Primärseite mit der Windungszahl $N_P$ und der Sekundärseite mit der Windungszahl $N_S$.
 
 Das Transformatorprinzip beruht auf einem grundlegenden physikalischen Effekt: der elektromagnetischen Induktion. Ändert sich das Magnetfeld in einer Spule – wie es beim Anlegen einer Wechselspannung der Fall ist – so wird in einer benachbarten, magnetisch gekoppelten Spule eine elektrische Spannung induziert. Diese ist gemäß dem Induktionsgesetz so gerichtet, dass sie der Ursache ihrer Entstehung entgegenwirkt. Man spricht daher auch von *Gegeninduktion*.
 
 [question:AC301]
 
-In der Klasse E haben wir bereits die Formel für das Übersetzungsverhältnis $ü$ kennengelernt:
+Im Abschnitt [sec:uebertrager_1] haben wir bereits die Formel für das Übersetzungsverhältnis $ü$ kennengelernt:
 
 $ü = \frac{N_P}{N_S} = \frac{U_P}{U_S}$
 
@@ -28,9 +28,25 @@ $I = S \cdot A_\mathrm{Dr}$
 Stromdichte $S = \frac{I}{A} $ in  $\unit{\ampere\per\milli\meter\squared}$
 </unit>
 
-<indepth>
-Nach VDE ist für frei verlegte Leiter aus Kupfer die maximal zulässige Stromstärke mit $\qty{12}{\ampere}$ bei einer Querschnittsfläche von $\qty{0,75}{\milli\meter\squared}$ festgelegt. Bei Schmelzsicherungen kann die Stromdichte bis zu $\qty{3000}{\ampere\per\milli\meter\squared}$ erreichen.
-</indepth>
+<law>
+Die Niederspannungs-Installationsnorm SN 411000 (NIN) regelt Elektroinstallationen in der Schweiz bis 1000 V AC bzw. 1500 V DC und dient dem Schutz von Personen, Tieren und Sachwerten. Sie basiert auf der Niederspannungs‑Installationsverordnung (NIV) und den internationalen Normen von IEC und Cenelec.
+
+Für frei verlegte Leiter aus Kupfer ist die maximal zulässige Stromstärke festgelegt mit:
+
+- $\qty{6}{\ampere}$ bei einer Querschnittsfläche von $\qty{0,75}{\milli\meter\squared}$.
+
+- $\qty{10}{\ampere}$ bei einer Querschnittsfläche von $\qty{1.00}{\milli\meter\squared}$.
+
+max. Umgebungstemperatur: 30°C
+
+Leiter zusammengefasst unter einem Schutzmantel
+
+Quelle: Kupferleiter - Dimensionierung nach NIN 2000
+</law>
+
+<attention>
+Es sei an dieser Stelle ausdrücklich darauf hingewiesen, dass eine Amateurfunk-Konzession **nicht** zum Erstellen von Niederspannungs-Installationen berechtigt. 
+</attention>
 
 Versuche nun die folgende Frage zu beantworten. Dafür brauchst du die Formel für die Querschnittsfläche eines Leiters und die Formel für die Belastbarkeit von Wicklungen. Achte darauf, dass die Einheiten korrekt umgerechnet werden.
 

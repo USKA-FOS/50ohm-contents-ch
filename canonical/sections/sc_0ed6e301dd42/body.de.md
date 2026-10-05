@@ -1,8 +1,8 @@
-Mit den Grundlagen zur Ionosphäre, der Sonnenfleckenaktivität, der sogenannten „Toten Zone“ sowie den wichtigsten ionosphärischen Regionen haben wir uns bereits in den Prüfungsfragen zur Klasse N und E beschäftigt. Das grundlegende Prinzip dabei war, dass die von der Sonne ausgesandte UV-Strahlung Moleküle in der Ionosphäre ionisiert.
+Mit den Grundlagen zur Ionosphäre, der Sonnenfleckenaktivität, der sogenannten „Toten Zone“ sowie den wichtigsten ionosphärischen Regionen haben wir uns bereits in den Fragen zur Prüfung für HB3 beschäftigt. Das grundlegende Prinzip dabei war, dass die von der Sonne ausgesandte UV-Strahlung Moleküle in der Ionosphäre ionisiert.
 
 [question:AH101]
 
-In den Prüfungsfragen der Klasse E wurden die wichtigsten Regionen der Ionosphäre – die D-, E- und F-Region – sowie ihre Eigenschaften bereits vorgestellt. In der Klasse A ist es nun zusätzlich wichtig zu wissen, in welchen Höhenbereichen sich diese Regionen in der Erdatmosphäre befinden. Abbildung [ref:a_schichten_jahreszeiten] zeigt diese wichtigen Höhenangaben die man sich gut einprägen muss. Dabei ist auch die Abhängigkeit von Tageszeit und Jahreszeit zu berücksichtigen.
+In den Prüfungsfragen für HB3 wurden die wichtigsten Regionen der Ionosphäre – die D-, E- und F-Region – sowie ihre Eigenschaften bereits vorgestellt. Für die HB9-Prüfung ist es nun zusätzlich wichtig zu wissen, in welchen Höhenbereichen sich diese Regionen in der Erdatmosphäre befinden. Abbildung [ref:a_schichten_jahreszeiten] zeigt diese wichtigen Höhenangaben die man sich gut einprägen muss. Dabei ist auch die Abhängigkeit von Tageszeit und Jahreszeit zu berücksichtigen.
 
 [question:AH103]
 [question:AH104]
@@ -11,14 +11,16 @@ In den Prüfungsfragen der Klasse E wurden die wichtigsten Regionen der Ionosph�
 [question:AH108]
 
 <margin>
-[picture:874:a_schichten_jahreszeiten:Mögliche höhen der Regionen in Abhängigkeit von der Jahres- und Tageszeit]
+[picture:874:a_schichten_jahreszeiten:Mögliche Höhen der Regionen in Abhängigkeit von der Jahres- und Tageszeit]
 </margin>
 
 Diese Abhängigkeit von der Tageszeit hat eine große Auswirkung auf die Ausbreitung unserer Funkwellen. Im Sonnenfleckenmaximum funktioniert das $\qty{10}{\meter}$-Band auch tagsüber gut. Im Sonnenfleckenminimum dagegen ist das $\qty{10}{\meter}$-Band tagsüber kaum nutzbar. Deshalb wird in dieser Zeit für Weitverbindungen tagsüber häufig auf das $\qty{20}{\meter}$-Band zurückgegriffen.
 
 [question:AH202]
 
-Ein Band, das eigentlich fast immer gut und zuverlässig funktioniert, ist das $\qty{40}{\meter}$-Band, das genauso wie das $\qty{20}{\meter}$-Band der Klasse A vorbehalten ist. Gerade für innerdeutsche Weitverbindungen, zum Beispiel von Hamburg nach München, zeigt es eine sehr verlässliche Performance.
+Ein Band, das für DX-Verbindungen eigentlich fast immer gut und zuverlässig funktioniert, ist das $\qty{20}{\meter}$-Band, das genauso wie das $\qty{40}{\meter}$-Band den HB9-ern vorbehalten ist. Für DX-Verbindungen sind Antennen, die flach abstrahlen, vorteilhaft.
+
+Gerade für innerschweizerische Verbindungen, zum Beispiel von St. Gallen nach Genève, zeigt das $\qty{80}{\meter}$-Band in den Nachtstunden und am frühen Vormittag, insbesondere bei geringer ionosphärischer Absorption, eine verlässliche Performance. Antennen, die senkrecht nach oben strahlen, sind dann vorteilhaft. Man arbeitet dabei mit einer Funktechnik, die man **Near Vertical Incidence Skywave (NVIS)** nennt.
 
 [question:AH201]
 

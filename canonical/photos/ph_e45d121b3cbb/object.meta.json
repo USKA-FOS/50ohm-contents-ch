@@ -1,0 +1,116 @@
+{
+  "active": true,
+  "asset_files": {},
+  "id": "ph_e45d121b3cbb",
+  "identifiers": [
+    {
+      "id_system": "photo_id",
+      "id_value": "1004",
+      "preferred": true
+    },
+    {
+      "id_system": "file_stem",
+      "id_value": "1004",
+      "preferred": false
+    }
+  ],
+  "language_variants": {
+    "de": {
+      "asset_files": {
+        "image": "1004.de.png"
+      },
+      "review_state": "imported_approved"
+    }
+  },
+  "languages": [
+    "de"
+  ],
+  "metadata": {
+    "asset": {
+      "description_source_path": "contents/photos/1004.txt",
+      "image_path": "contents/photos/1004.png"
+    },
+    "language_asset": {
+      "de.image": {
+        "canonical_file": "1004.de.png",
+        "source_path": "contents/photos/1004.png"
+      }
+    },
+    "lifecycle": {
+      "status": "active"
+    },
+    "reconstruction": {
+      "description_canonical_files": {
+        "de": "1004.de.txt"
+      },
+      "description_source_format": "single_description"
+    },
+    "source_tracking": {
+      "files": {
+        "contents/photos/1004.png": "81a4b5cfa075ede8fc6b8ffcd9057094352823ccae39ae14cd0981a014025fb2",
+        "contents/photos/1004.txt": "e522c00be5d2168eda2b1b585672220d9f82b67ae3dd1b6f2a2dbd136ec772ab"
+      },
+      "revision": "1b1bc3d6adcdb0bc3ae49ce997414d66cfc1c564",
+      "status": "active"
+    }
+  },
+  "object_type": "photo",
+  "reconstruction": {
+    "strategy": "render_photo_description_file",
+    "targets": [
+      {
+        "kind": "rendered_description_file",
+        "path": "contents/photos/1004.txt",
+        "slot_keys": [
+          "short_description",
+          "long_description"
+        ]
+      }
+    ]
+  },
+  "review_states": [
+    {
+      "language": "de",
+      "state": "imported_approved"
+    },
+    {
+      "language": "fr",
+      "state": "to_be_translated"
+    },
+    {
+      "language": "it",
+      "state": "to_be_translated"
+    }
+  ],
+  "source": {
+    "format": "grouped_asset",
+    "key": "1004",
+    "path": "contents/photos/1004"
+  },
+  "text_slots": [
+    {
+      "slot_key": "short_description",
+      "slot_type": "plain_text",
+      "sort_order": 1,
+      "storage": {
+        "files": {
+          "de": "1004.de.txt"
+        },
+        "kind": "description_file_bundle"
+      },
+      "translation_group_key": "photo:ph_e45d121b3cbb"
+    },
+    {
+      "slot_key": "long_description",
+      "slot_type": "plain_text",
+      "sort_order": 2,
+      "storage": {
+        "files": {
+          "de": "1004.de.txt"
+        },
+        "kind": "description_file_bundle"
+      },
+      "translation_group_key": "photo:ph_e45d121b3cbb"
+    }
+  ]
+}

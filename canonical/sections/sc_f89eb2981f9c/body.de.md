@@ -1,4 +1,4 @@
-Funkamateure sind gesetzlich verpflichtet, bestimmte Grenzwerte für die Leistung ihrer Funkanlagen einzuhalten. Besonders wichtig ist dabei die Senderausgangsleistung sowie die Vermeidung unerwünschter Aussendungen – auf Letztere gehen wir im nächsten Kapitel ein. In diesem Kapitel befassen wir uns zunächst mit der Senderausgangsleistung.
+Funkamateure sind gesetzlich verpflichtet, bestimmte Grenzwerte für die Leistung ihrer Funkanlagen einzuhalten. Besonders wichtig ist dabei die Senderausgangsleistung sowie die Vermeidung unerwünschter Aussendungen – auf Letztere gehen wir in den Abschnitten [sec:unerwuenschte_aussendungen_1], [sec:unerwuenschte_aussendungen_2] und.  [sec:unerwuenschte_aussendungen_3] ein. In diesem Abschnitt befassen wir uns zunächst mit der Senderausgangsleistung.
 
 In vielen Amateurfunkbändern, die dem Amateurfunk primär zugewiesen sind, gilt die maximale Senderausgangsleistung – auf Englisch Peak Envelope Power (kurz PEP) – als maßgeblicher Grenzwert. Die genauen Leistungsvorgaben finden sich in der [Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums (VVNF)](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf) auf der BAKOM-Webseite.
 
@@ -20,7 +20,7 @@ Ein *Zweitonsignal* ist für die Leistungs- und Linearitätsmessung eines SSB-Se
 
 ---
 
-Die PEP beschreibt dabei die Spitzenleistung des Senders unter normalen Betriebsbedingungen: Sie ist die Leistung, die der Sender während einer Periode der Hochfrequenzschwingung an der höchsten Spitze der Modulationshüllkurve (vgl. Abbildung [ref:e_senderausgangsleisung_2]) im Mittel an einen reellen Abschlusswiderstand abgeben kann. Wie die PEP exakt misst – beispielsweise mithilfe eines Oszilloskops – werden wir erst in der Klasse A genauer behandeln.
+Die PEP beschreibt dabei die Spitzenleistung des Senders unter normalen Betriebsbedingungen: Sie ist die Leistung, die der Sender während einer Periode der Hochfrequenzschwingung an der höchsten Spitze der Modulationshüllkurve (vgl. Abbildung [ref:e_senderausgangsleisung_2]) im Mittel an einen reellen Abschlusswiderstand abgeben kann. Wie die PEP exakt misst – beispielsweise mithilfe eines Oszilloskops – werden wir erst im Abschnitt [sec:sender_messungen] genauer behandeln.
 
 <margin>
 [picture:875:e_senderausgangsleisung_2:Höchste Spitze der Modulationshüllkurve]

@@ -1,13 +1,79 @@
 [
   {
-    "inline_alias": "n_linkstrecken_db0fc",
-    "inline_label": "Wartungsarbeiten am HAMNET-Knoten DB0FC, im Vordergrund die Richtantenne für die Linkstrecke zu DB0BWL",
-    "raw_marker": "[photo:127:n_linkstrecken_db0fc:Wartungsarbeiten am HAMNET-Knoten DB0FC, im Vordergrund die Richtantenne für die Linkstrecke zu DB0BWL]",
-    "relation_type": "embeds_photo",
+    "inline_alias": "n_linkstrecken_HB9AK-14",
+    "inline_label": null,
+    "raw_marker": "[ref:n_linkstrecken_HB9AK-14]",
+    "relation_type": "references_embedded_alias",
     "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_linkstrecken_HB9AK-14",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_linkstrecken_HB9AK",
+    "inline_label": null,
+    "raw_marker": "[ref:n_linkstrecken_HB9AK]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_linkstrecken_HB9AK",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_linkstrecken_HB9",
+    "inline_label": null,
+    "raw_marker": "[ref:n_linkstrecken_HB9]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "n_linkstrecken_HB9",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "n_linkstrecken_db0fc",
+    "inline_label": "Wartungsarbeiten am HAMNET-Knoten DB0FC, im Vordergrund die Richtantenne %für die Linkstrecke zu DB0BWL",
+    "raw_marker": "[photo:127:n_linkstrecken_db0fc:Wartungsarbeiten am HAMNET-Knoten DB0FC, im Vordergrund die Richtantenne %für die Linkstrecke zu DB0BWL]",
+    "relation_type": "embeds_photo",
+    "sort_order": 4,
     "source_slot_key": "body_markdown",
     "target_id_system": "photo_id",
     "target_id_value": "127",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "n_linkstrecken_HB9AK-14",
+    "inline_label": "Standort Titlis Anlage der SWISS-ARTG, Versuche mit 10 m-Antennen; oben Peter HB9PAE, unten Martin HB9AUR",
+    "raw_marker": "[photo:1001:n_linkstrecken_HB9AK-14:Standort Titlis Anlage der SWISS-ARTG, Versuche mit 10 m-Antennen; oben Peter HB9PAE, unten Martin HB9AUR]",
+    "relation_type": "embeds_photo",
+    "sort_order": 5,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "1001",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "n_linkstrecken_HB9AK",
+    "inline_label": "Hochgebirgsanlagen müssen harschen Umweltbedingen standhalten",
+    "raw_marker": "[photo:1002:n_linkstrecken_HB9AK:Hochgebirgsanlagen müssen harschen Umweltbedingen standhalten]",
+    "relation_type": "embeds_photo",
+    "sort_order": 6,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "1002",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "n_linkstrecken_HB9",
+    "inline_label": "Standort Titlis Anlage der SWISS-ARTG, Dieter HB9CJD am Einrichten des HAMNET-Links nach HB9BA (Weissenstein), ein 85 cm Spiegel für 5 GHz",
+    "raw_marker": "[photo:1003:n_linkstrecken_HB9:Standort Titlis Anlage der SWISS-ARTG, Dieter HB9CJD am Einrichten des HAMNET-Links nach HB9BA (Weissenstein), ein 85 cm Spiegel für 5 GHz]",
+    "relation_type": "embeds_photo",
+    "sort_order": 7,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "1003",
     "target_object_type": "photo"
   },
   {
@@ -15,7 +81,7 @@
     "inline_label": null,
     "raw_marker": "[question:NE405]",
     "relation_type": "references_question",
-    "sort_order": 2,
+    "sort_order": 8,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "NE405",

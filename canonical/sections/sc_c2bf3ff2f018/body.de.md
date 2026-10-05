@@ -1,4 +1,4 @@
-In der Klasse N haben wir bereits den Begriff der *Toten Zone* kennengelernt – ein Phänomen, bei dem von einer laufenden Funkverbindung nur eine der beteiligten Stationen empfangen werden kann. In der Klasse E wird dieses Thema weiter vertieft und die Ursachen dieses Phänomens genauer betrachtet.
+Im Abschnitt [sec:ionosphaere] haben wir bereits den Begriff der *Toten Zone* kennengelernt – ein Phänomen, bei dem von einer laufenden Funkverbindung nur eine der beteiligten Stationen empfangen werden kann. In der Klasse E wird dieses Thema weiter vertieft und die Ursachen dieses Phänomens genauer betrachtet.
 
 <margin>
 [picture:741:e_tote_zone:Die Tote Zone, die für die Bodenwelle zu weit weg und für die Raumwelle zu nah ist.]
@@ -15,5 +15,3 @@ Genau genommene bildet sich um den Sender ein ringförmiges Gebiet, das nicht me
 </margin>
 
 [question:EH201]
-
-<!-- Review abgeschlossen, passt so für mich. Vy 73 de Marc -->

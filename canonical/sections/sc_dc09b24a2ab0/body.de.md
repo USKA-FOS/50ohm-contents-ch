@@ -1,4 +1,4 @@
-In der Klasse E haben wir bereits Spannungsquellen kennen gelernt. Zunächst wollen wir uns mit der Stromquelle beschäftigen, bevor wir den Innenwiderstand von Spannungs- und Stromquellen genauer betrachten.
+Im Abschnitt [sec:spannungsquelle] haben wir bereits Spannungsquellen kennen gelernt. Zunächst wollen wir uns mit der Stromquelle beschäftigen, bevor wir den Innenwiderstand von Spannungs- und Stromquellen genauer betrachten.
 
 Ähnlich wie bei der Spannungsquelle, sorgt eine Stromquelle dafür, dass diese möglichst einen konstanten Strom liefert. Abbildung [ref:a_isource_schematic] zeigt deren Ersatzschaltbild.
 

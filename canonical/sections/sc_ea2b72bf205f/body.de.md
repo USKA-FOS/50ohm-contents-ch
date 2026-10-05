@@ -1,10 +1,10 @@
-Wie wir bereits in den Klassen N und E gelernt haben, befindet sich bei der Frequenzmodulation die Information des modulierenden Signals nicht in der Amplitude, sondern nur in der Frequenzänderung des Trägersignals. Daher müssen nur die Nulldurchgänge des Trägersignals im Empfänger ausgewertet werden. 
+Wie wir bereits im Abschnitt [sec:fm_2] gelernt haben, befindet sich bei der Frequenzmodulation die Information des modulierenden Signals nicht in der Amplitude, sondern nur in der Frequenzänderung des Trägersignals. Daher müssen nur die Nulldurchgänge des Trägersignals im Empfänger ausgewertet werden. 
 
 Amplitudenschwankungen werden durch einen Begrenzerverstärker hierbei ausgeblendet. Daher ist Frequenzmodulation systembedingt unempfindlich gegenüber impulsförmigen Störungen der Amplitude, die z.B. durch Zündfunken, Elektromotoren o.ä. hervorgerufen werden. FM eignet sich daher gut für den Betrieb in Kraftfahrzeugen.
 
 [question:AE302]
 
-In der Klasse A werden wir uns nun anschauen, wie Frequenzmodulation in einem Sender erzeugt werden kann und wie die Bandbreite eines FM-Signals berechnet werden kann.
+Jetzt werden wir uns anschauen, wie Frequenzmodulation in einem Sender erzeugt werden kann und wie die Bandbreite eines FM-Signals berechnet werden kann.
 
 ---
 
@@ -20,7 +20,7 @@ Die Modulationsfrequenz beeinflusst hierbei, wie häufig sich die Frequenz des O
 
 [question:AE301]
 
-In der Klasse E haben wir bereits den *Frequenzhub* kennengelernt. Er gibt an, um welchen Betrag die momentane Frequenz des FM-Signals durch das modulierende Signal gegenüber der Trägerfrequenz ausgelenkt wird. Je größer die Amplitude des modulierenden Signals ist, desto größer ist auch diese Frequenzauslenkung.
+Im Abschnitt [sec:fm_2] haben wir bereits den *Frequenzhub* kennengelernt. Er gibt an, um welchen Betrag die momentane Frequenz des FM-Signals durch das modulierende Signal gegenüber der Trägerfrequenz ausgelenkt wird. Je größer die Amplitude des modulierenden Signals ist, desto größer ist auch diese Frequenzauslenkung.
 
 Bei der Demodulation im FM-Empfänger wird diese Frequenzauslenkung wieder in eine entsprechende Amplitude des demodulierten Signals umgesetzt. Ein größerer Frequenzhub führt daher bei ansonsten gleichen Bedingungen zu einer größeren Amplitude des demodulierten NF-Signals.
 

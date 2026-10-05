@@ -1,4 +1,4 @@
-In den Klassen N und E haben wir bereits die *Toten Zone* kennengelernt. Schauen wir uns hier noch ein paar wichtige Beobachtungen in Bezug auf die Entfernungen an:
+Im Abschnitt [sec:tote_zone_1] haben wir bereits die *Toten Zone* kennengelernt. Schauen wir uns hier noch ein paar wichtige Beobachtungen in Bezug auf die Entfernungen an:
 
 - Je höher die Frequenz, desto größer ist der Radius der toten Zone: Abbildung [ref:a_tote_zone_1]
 - Je flacher die Abstrahlung, desto größer ist der Radius der toten Zone: Abbildung [ref:a_tote_zone_2]

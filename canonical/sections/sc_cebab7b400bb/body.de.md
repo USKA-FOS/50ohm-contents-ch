@@ -1,4 +1,4 @@
-In den Lektionen der Klassen N und E haben wir bereits typische Beeinflussungen elektronischer Geräte und Anlagen kennengelernt – etwa durch direkte Einstrahlung in das Gehäuse oder durch Einkopplung in Zuleitungen – sowie passende Gegenmaßnahmen und Verhaltensweisen. In der Klasse A werden diese Aspekte noch etwas weiter vertieft. 
+Im Abschnitt [sec:stoerungen_elektronischer_geraete_1] haben wir bereits typische Beeinflussungen elektronischer Geräte und Anlagen kennengelernt – etwa durch direkte Einstrahlung in das Gehäuse oder durch Einkopplung in Zuleitungen – sowie passende Gegenmaßnahmen und Verhaltensweisen. In diesem Abschnitt werden diese Aspekte noch etwas weiter vertieft. 
 
 [question:AJ105]
 
@@ -8,7 +8,7 @@ Kommt es bei digitalen Eigenbauempfängern zu Empfangsstörungen so kann eine m�
 
 ---
 
-In der Klasse E haben wir uns bereits mit Einkopplungen in Netzleitungen beschäftigt. Es gibt jedoch eine weitere Gegenmaßnahme, die wir uns im Folgenden genauer ansehen wollen. Sollten Störungen über die Netzzuleitung einströmen, so bietet sich der Einbau eines Netzfilters in Form eines Tiefpassfilters (Vgl. Abbildung [ref:a_netzfilter] und Abbildung [ref:a_netzfilter_draw]) an. Diese Filter sind unter Beachtung der VDE-Vorschriften als fertige Geräte erhältlich. 
+Im Abschnitt [sec:stoerungen_vermeiden] haben wir uns bereits mit Einkopplungen in Netzleitungen beschäftigt. Es gibt jedoch eine weitere Gegenmaßnahme, die wir uns im Folgenden genauer ansehen wollen. Sollten Störungen über die Netzzuleitung einströmen, so bietet sich der Einbau eines Netzfilters in Form eines Tiefpassfilters (Vgl. Abbildung [ref:a_netzfilter] und Abbildung [ref:a_netzfilter_draw]) an. Diese Filter sind unter Beachtung der VDE-Vorschriften als fertige Geräte erhältlich. 
 
 [question:AJ116]
 [question:AJ117]

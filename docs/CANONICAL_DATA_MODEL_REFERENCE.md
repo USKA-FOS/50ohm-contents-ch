@@ -254,8 +254,10 @@ Current lifecycle and source-tracking metadata used by incremental imports:
 
 These values describe provenance and lifecycle. They do not replace the
 authoritative payload files. An object marked `active: false` and
-`metadata.lifecycle.status: to_be_deleted` remains complete in Git, including
-all language files, until a separate reviewed cleanup removes the whole object.
+`metadata.lifecycle.status: to_be_deleted` describes a legacy intermediate
+state. Current accepted source imports remove an object absent from German
+source, including all language files, and record the removal in the versioned
+import manifest. The pre-import Git tag preserves its earlier contents.
 
 ### 8.2 `object.references.json`
 

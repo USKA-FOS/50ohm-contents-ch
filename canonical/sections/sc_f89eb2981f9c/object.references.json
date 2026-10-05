@@ -1,6 +1,17 @@
 [
   {
     "inline_alias": "e_senderausgangsleisung",
+    "inline_label": null,
+    "raw_marker": "[ref:e_senderausgangsleisung]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_senderausgangsleisung",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "e_senderausgangsleisung",
     "inline_label": "Messung der Senderausgangsleistung",
     "raw_marker": "[picture:916:e_senderausgangsleisung:Messung der Senderausgangsleistung]",
     "relation_type": "embeds_drawing",
@@ -13,45 +24,23 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:EF402]",
-    "relation_type": "references_question",
-    "sort_order": 4,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "EF402",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:EB502]",
-    "relation_type": "references_question",
-    "sort_order": 8,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "EB502",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": "e_senderausgangsleisung",
-    "inline_label": null,
-    "raw_marker": "[ref:e_senderausgangsleisung]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 1,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "e_senderausgangsleisung",
-    "target_object_type": null
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
     "raw_marker": "[question:EF401]",
     "relation_type": "references_question",
     "sort_order": 3,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "EF401",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EF402]",
+    "relation_type": "references_question",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EF402",
     "target_object_type": "question"
   },
   {
@@ -85,6 +74,17 @@
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
     "target_id_value": "EB501",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:EB502]",
+    "relation_type": "references_question",
+    "sort_order": 8,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "EB502",
     "target_object_type": "question"
   }
 ]

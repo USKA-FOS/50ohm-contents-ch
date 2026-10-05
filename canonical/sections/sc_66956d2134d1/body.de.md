@@ -21,4 +21,4 @@ Wir unterscheiden zwei Arten der Kanalcodierung:
 * Fehlererkennung: Man kann erkennen, dass bei der Übertragung ein Fehler aufgetreten ist, und dann z. B. eine erneute Übertragung anfordern.
 * Vorwärtsfehlerkorrektur: Fehler, die bei der Übertragung entstehen, werden mit Hilfe der Redundanz beim Empfänger korrigiert. 
 
-Im Folgenden wollen wir uns diese beiden Arten genauer anschauen.
+Im den folgenden beiden Abschnitten [sec:fehlererkennung] und [sec:fehlerkorrektur] wollen wir uns diese beiden Arten genauer anschauen.

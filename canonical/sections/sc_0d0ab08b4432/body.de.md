@@ -38,6 +38,8 @@ Der Begriff *Oszillator* [index:Oszillator] leitet sich vom lateinischen Wort os
 
 Beim Funkbetrieb müssen wir genau wissen, auf welcher Frequenz wir senden. Für die Messung der Sendefrequenz benutzt man deshalb einen Frequenzzähler [index:Frequenz:Frequenzzähler], wie er beispielsweise in Abbildung [ref:frequenz_frequenzzaehler] zu sehen ist. Beim Bauen und Abgleichen von Funkgeräten benutzt man Frequenzzähler, um zu messen, ob die Sendefrequenz mit der Anzeige am Gerät übereinstimmt.
 
+%Beim Bauen ... Stehen lassen trotz Bauverbot HB3?
+
 <margin>
 [photo:150:frequenz_frequenzzaehler:Frequenzzähler, der gerade $\qty{29,6}{\mega\hertz}$ misst und anzeigt]
 </margin>

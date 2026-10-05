@@ -14,3 +14,31 @@ Die Rauschzahl wird häufig bei HF-Vorverstärkern angegeben. Diese beschreibt d
 <indepth>
 Laut DIN wird die in $\unit{\decibel}$ dargestellte Rauschzahl als Rauschmaß bezeichnet. Leider gibt es noch eine anderslautende Definition des Rauschmaßes, sodass diese Bezeichnung nicht sehr verbreitet ist.
 </indepth>
+
+<indepth>
+Die *Rauschzahl* beschreibt, wie stark ein elektronisches Bauteil oder eine Verstärkerstufe das Signal-Rausch-Verhältnis eines Signals verschlechtert.
+
+Ein Verstärker soll ein schwaches Signal verstärken. Dabei entsteht im Verstärker selbst jedoch zusätzliches Rauschen.
+
+Man vergleicht deshalb
+
+- das Signal-Rausch-Verhältnis am Eingang mit dem
+
+- Signal-Rausch-Verhältnis am Ausgang.
+
+Die Rauschzahl $F$ ist definiert als
+
+$F = \frac{(S/N)_\mathrm{Eingang}}{(S/N)_\mathrm{Ausgang}}$
+
+Dabei gilt:
+
+- $S$ = Signalleistung
+- $N$ = Rauschleistung
+- $F$ = Rauschzahl als dimensionslose Grösse
+
+*Rauschzahl in Dezibel*
+
+Die Rauschzahl (noise figure, NF) wird sehr häufig logarithmisch in Dezibel angegeben:
+
+$NF = 10 \cdot \log_{10}(F)\;\mathrm{dB}$
+</indepth>

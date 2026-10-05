@@ -13,6 +13,13 @@ The workflow is:
 4. run the importer only for the approved workbook;
 5. commit the canonical changes and the accepted manifest together.
 
+For an object absent from the selected German source revision, the accepted
+import removes the complete canonical directory, including all language
+payloads. Each `missing` change in the manifest records `removed: true` and
+`removed_file_count`; the manifest also totals removed objects and files.
+The pre-import Git tag retains the previous version. Legacy `to_be_deleted`
+objects are removed when a full accepted import confirms they are still absent.
+
 The `source_revision` in an accepted manifest becomes the baseline for the
 next import. A dry-run report is not an accepted baseline and must not be used
 as one. The manifests are versioned because they provide the audit trail for

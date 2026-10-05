@@ -1,5 +1,49 @@
 [
   {
+    "inline_alias": "a_langer_kurzer_weg",
+    "inline_label": null,
+    "raw_marker": "[ref:a_langer_kurzer_weg]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 1,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_langer_kurzer_weg",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AH216]",
+    "relation_type": "references_question",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AH216",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": "a_langer_kurzer_weg",
+    "inline_label": "Langer und kurzer Weg auf einer Kugel",
+    "raw_marker": "[picture:867:a_langer_kurzer_weg:Langer und kurzer Weg auf einer Kugel]",
+    "relation_type": "embeds_drawing",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "drawing_id",
+    "target_id_value": "867",
+    "target_object_type": "drawing"
+  },
+  {
+    "inline_alias": "a_beam_karte",
+    "inline_label": null,
+    "raw_marker": "[ref:a_beam_karte]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 4,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_beam_karte",
+    "target_object_type": null
+  },
+  {
     "inline_alias": "a_beam_karte_sydney",
     "inline_label": null,
     "raw_marker": "[ref:a_beam_karte_sydney]",
@@ -22,17 +66,6 @@
     "target_object_type": "drawing"
   },
   {
-    "inline_alias": "a_beam_karte",
-    "inline_label": null,
-    "raw_marker": "[ref:a_beam_karte]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 4,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "a_beam_karte",
-    "target_object_type": null
-  },
-  {
     "inline_alias": "a_beam_karte_sydney",
     "inline_label": "Beamkarte mit Sydney als Standort der Amateurfunkstation",
     "raw_marker": "[picture:1001:a_beam_karte_sydney:Beamkarte mit Sydney als Standort der Amateurfunkstation]",
@@ -42,61 +75,6 @@
     "target_id_system": "drawing_id",
     "target_id_value": "1001",
     "target_object_type": "drawing"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AH216]",
-    "relation_type": "references_question",
-    "sort_order": 2,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AH216",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AH218]",
-    "relation_type": "references_question",
-    "sort_order": 11,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AH218",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": null,
-    "inline_label": null,
-    "raw_marker": "[question:AH217]",
-    "relation_type": "references_question",
-    "sort_order": 10,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "question_code",
-    "target_id_value": "AH217",
-    "target_object_type": "question"
-  },
-  {
-    "inline_alias": "a_langer_kurzer_weg",
-    "inline_label": "Langer und kurzer Weg auf einer Kugel",
-    "raw_marker": "[picture:867:a_langer_kurzer_weg:Langer und kurzer Weg auf einer Kugel]",
-    "relation_type": "embeds_drawing",
-    "sort_order": 3,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "drawing_id",
-    "target_id_value": "867",
-    "target_object_type": "drawing"
-  },
-  {
-    "inline_alias": "a_langer_kurzer_weg",
-    "inline_label": null,
-    "raw_marker": "[ref:a_langer_kurzer_weg]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 1,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "a_langer_kurzer_weg",
-    "target_object_type": null
   },
   {
     "inline_alias": "a_beam_karte",
@@ -119,5 +97,38 @@
     "target_id_system": "inline_alias",
     "target_id_value": "a_beam_karte",
     "target_object_type": null
+  },
+  {
+    "inline_alias": "a_beam_karte",
+    "inline_label": null,
+    "raw_marker": "[ref:a_beam_karte]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 10,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "a_beam_karte",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AH217]",
+    "relation_type": "references_question",
+    "sort_order": 11,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AH217",
+    "target_object_type": "question"
+  },
+  {
+    "inline_alias": null,
+    "inline_label": null,
+    "raw_marker": "[question:AH218]",
+    "relation_type": "references_question",
+    "sort_order": 12,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "question_code",
+    "target_id_value": "AH218",
+    "target_object_type": "question"
   }
 ]

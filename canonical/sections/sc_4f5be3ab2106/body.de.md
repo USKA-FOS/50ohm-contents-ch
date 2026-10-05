@@ -60,7 +60,7 @@ Man darf sich nicht von der bekannten Eigenschaft eines Feldeffekttransistors t�
 Wie oben schon angedeutet benötigen die aktiven Elemente in einem Leistungsverstärker neben der erforderlichen Betriebsspannung auch eine gleichspannungsmäßige Einstellung des Arbeitspunktes (BIAS). Dieser Arbeitspunkt wird üblicherweise durch Spannungsteiler erzeugt die aus einer stabilisierten Hilfsspannung, durch Verwendung von Trimmpotentiometern für eine optimale Einstellung, die gewünschte BIAS-Spannung an den Elementen erzeugen.
 
 <tip>
-Bei Betrachtung der BIAS-Spannung und deren Auswirkungen auf die Elemente der Schaltung ist die Schaltung nur gleichspannungsmäßig zu betrachten. Hierbei werden Kondensatoren als Elemente, die nur Wechselspannungen übertragen können, ignoriert. Wicklungen von Transformatoren sowie Spulen werden bei der gleichspannungsmäßigen Betrachtung als Kurzschluss gesehen. Grundsätzlich reicht es bei diesen Aufgaben aus, das Grundwissen aus den Klassen N und E zum Ohmschen Gesetz und Spannungsteilern anzuwenden!
+Bei Betrachtung der BIAS-Spannung und deren Auswirkungen auf die Elemente der Schaltung ist die Schaltung nur gleichspannungsmäßig zu betrachten. Hierbei werden Kondensatoren als Elemente, die nur Wechselspannungen übertragen können, ignoriert. Wicklungen von Transformatoren sowie Spulen werden bei der gleichspannungsmäßigen Betrachtung als Kurzschluss gesehen. Grundsätzlich reicht es bei diesen Aufgaben aus, das Grundwissen aus den Abschnitten [sec:ohmsches_gesetz] Ohmschen Gesetz, [sec:spannungsteiler_1] und [sec:spannungsteiler_2] anzuwenden!
 </tip>
 
 [question:AF420]

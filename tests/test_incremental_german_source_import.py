@@ -203,10 +203,12 @@ def test_incremental_import_handles_add_change_delete_html_and_drawing(tmp_path:
     references = json.loads((changed / "object.references.json").read_text(encoding="utf-8"))
     assert references[0]["target_id_value"] == "2"
 
-    deleted_meta = json.loads((deleted / "object.meta.json").read_text(encoding="utf-8"))
-    assert deleted_meta["active"] is False
-    assert deleted_meta["metadata"]["lifecycle"]["status"] == "to_be_deleted"
-    assert (deleted / "body.fr.md").read_text(encoding="utf-8") == "Sera supprimé"
+    assert not deleted.exists()
+    deleted_change = next(change for change in report["changes"] if change["object_id"] == deleted_id)
+    assert deleted_change["removed"] is True
+    assert deleted_change["removed_file_count"] > 0
+    assert report["removed_object_count"] == 1
+    assert report["removed_file_count"] == deleted_change["removed_file_count"]
 
     assert (html / "body.fr.html").read_text(encoding="utf-8") == "<div><h1>Titel</h1><p>Bonjour</p><p>Erde</p></div>"
     assert (drawing / "100.fr.tex").read_text(encoding="utf-8") == "Ancien"

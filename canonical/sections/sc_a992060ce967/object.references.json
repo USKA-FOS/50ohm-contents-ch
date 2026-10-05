@@ -12,6 +12,28 @@
   },
   {
     "inline_alias": "e_att_blockschaltbild",
+    "inline_label": null,
+    "raw_marker": "[ref:e_att_blockschaltbild]",
+    "relation_type": "references_embedded_alias",
+    "sort_order": 2,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "inline_alias",
+    "target_id_value": "e_att_blockschaltbild",
+    "target_object_type": null
+  },
+  {
+    "inline_alias": "e_daempfungsglied",
+    "inline_label": "Ein Dämpfungsglied",
+    "raw_marker": "[photo:199:e_daempfungsglied:Ein Dämpfungsglied]",
+    "relation_type": "embeds_photo",
+    "sort_order": 3,
+    "source_slot_key": "body_markdown",
+    "target_id_system": "photo_id",
+    "target_id_value": "199",
+    "target_object_type": "photo"
+  },
+  {
+    "inline_alias": "e_att_blockschaltbild",
     "inline_label": "Vorverstärker im Überlagerungsempfänger",
     "raw_marker": "[picture:1054:e_att_blockschaltbild:Vorverstärker im Überlagerungsempfänger]",
     "relation_type": "embeds_drawing",
@@ -24,12 +46,12 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:EF218]",
+    "raw_marker": "[question:EF217]",
     "relation_type": "references_question",
-    "sort_order": 7,
+    "sort_order": 5,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "EF218",
+    "target_id_value": "EF217",
     "target_object_type": "question"
   },
   {
@@ -46,34 +68,12 @@
   {
     "inline_alias": null,
     "inline_label": null,
-    "raw_marker": "[question:EF217]",
+    "raw_marker": "[question:EF218]",
     "relation_type": "references_question",
-    "sort_order": 5,
+    "sort_order": 7,
     "source_slot_key": "body_markdown",
     "target_id_system": "question_code",
-    "target_id_value": "EF217",
+    "target_id_value": "EF218",
     "target_object_type": "question"
-  },
-  {
-    "inline_alias": "e_daempfungsglied",
-    "inline_label": "Ein Dämpfungsglied",
-    "raw_marker": "[photo:199:e_daempfungsglied:Ein Dämpfungsglied]",
-    "relation_type": "embeds_photo",
-    "sort_order": 3,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "photo_id",
-    "target_id_value": "199",
-    "target_object_type": "photo"
-  },
-  {
-    "inline_alias": "e_att_blockschaltbild",
-    "inline_label": null,
-    "raw_marker": "[ref:e_att_blockschaltbild]",
-    "relation_type": "references_embedded_alias",
-    "sort_order": 2,
-    "source_slot_key": "body_markdown",
-    "target_id_system": "inline_alias",
-    "target_id_value": "e_att_blockschaltbild",
-    "target_object_type": null
   }
 ]

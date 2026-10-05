@@ -6,7 +6,7 @@ Bei der A/D- und D/A-Umsetzung werden analoge und digitale Signalverarbeitung mi
 
 ---
 
-Aus der Lektion zum Abtasttheorem wissen wir, dass ein Signal mit einer ausreichend hohen Abtastrate abgetastet werden muss. Für ein Signal mit der höchsten zu erfassenden Frequenz $f_\mathrm{max}$ muss die Abtastrate größer als $2\cdot f_\mathrm{max}$ sein.
+Aus der Lektion zum Abtasttheorem im Abschnitt [sec:abtasttheorem] wissen wir, dass ein Signal mit einer ausreichend hohen Abtastrate abgetastet werden muss. Für ein Signal mit der höchsten zu erfassenden Frequenz $f_\mathrm{max}$ muss die Abtastrate größer als $2\cdot f_\mathrm{max}$ sein.
 
 Über eine Antenne empfangen wir jedoch in der Regel viele unterschiedliche Signale – auch solche mit Frequenzen oberhalb des Frequenzbereichs, den wir eigentlich verarbeiten wollen. Treffen solche Signalanteile auf den A/D-Umsetzer, obwohl dessen Abtastrate für diese Frequenzen nicht ausreichend ist, können sie im digitalen Signal als andere, tatsächlich nicht vorhandene Frequenzen erscheinen. Diese werden als *Aliase* bezeichnet.
 
