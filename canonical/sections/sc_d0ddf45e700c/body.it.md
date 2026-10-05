@@ -8,7 +8,7 @@ Questa sinusoide è definita da pochi parametri, ovvero frequenza, fase e ampiez
 
 Da queste considerazioni deriva il metodo della *modulazione polare*. Con esso è possibile generare qualsiasi segnale a banda relativamente stretta, ad esempio segnali SSB. Per farlo, è sufficiente controllare contemporaneamente fase e ampiezza del segnale partendo da una frequenza fondamentale.
 
-La figura [ref:polar_modulator] mostra lo *schema a blocchi* con cui questa idea viene generalmente implementata oggi. Qui, i due componenti del segnale $I(t)$ e $Q(t)$ (come descritti nel capitolo precedente) vengono convertiti nell’ampiezza istantanea $A(t)$ e nella fase istantanea $\varphi(t)$:
+La figura [ref:polar_modulator] mostra lo *schema a blocchi* con cui questa idea viene generalmente implementata oggi. Qui, le due componenti del segnale $I(t)$ e $Q(t)$ (descritte nella sezione [sec:iq_verfahren]) vengono convertite nell’ampiezza istantanea $A(t)$ e nella fase istantanea $\varphi(t)$:
 
 $A(t)=\sqrt{I^2(t)+Q^2(t)}$
 

@@ -13,7 +13,7 @@ Cette onde sinusoïdale est définie par quelques paramètres, à savoir la [fr�
 Ces considérations mènent à la *modulation polaire*. Cette méthode permet de générer des signaux de bande passante relativement étroite, par exemple des signaux BLU. Pour cela, il suffit de pouvoir contrôler simultanément l'[amplitude](Amplitude) et la [phase](Phase) du signal à partir d'une [fréquence](Frequenz) de base.
 
 
-L'illustration [ref:polar_modulator] montre le [schéma bloc](Blockschaltbild) avec lequel cette idée est généralement mise en œuvre aujourd'hui. Les deux composantes du signal $I(t)$ et $Q(t)$ (décrites dans le chapitre précédent) sont converties en [amplitude](Amplitude) instantanée $A(t)$ et en [phase](Phase) instantanée $\varphi(t)$ :
+L'illustration [ref:polar_modulator] montre le [schéma bloc](Blockschaltbild) avec lequel cette idée est généralement mise en œuvre aujourd'hui. Les deux composantes du signal $I(t)$ et $Q(t)$ (décrites dans la section [sec:iq_verfahren]) sont converties en [amplitude](Amplitude) instantanée $A(t)$ et en [phase](Phase) instantanée $\varphi(t)$ :
 
 
 $A(t)=\sqrt{I^2(t)+Q^2(t)}$
