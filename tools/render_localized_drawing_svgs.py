@@ -31,7 +31,6 @@ DEFAULT_RENDER_LOG = (
     REPO_ROOT / "work" / "drawing_text_audit" / "drawing_svg_render.log"
 )
 TEXMF_CACHE_ROOT = REPO_ROOT / "work" / "drawing_text_audit" / "texmf-cache"
-TEXMF_VAR_ROOT = REPO_ROOT / "work" / "drawing_text_audit" / "texmf-var"
 SUPPORTED_LANGUAGES = ("de", "fr", "it")
 DEFAULT_LANGUAGES = ("fr", "it")
 LATEX_SUPPORT_FILES = (
@@ -221,11 +220,15 @@ def render_tex_to_svg(*, tex_path: Path, stem: str, width_cm: float) -> None:
             photo_link_2 = img_dir / "foto"
             materialize_photo_assets(photo_link_2, language)
 
+        # latexmk sets TEXMFOUTPUT=., so LuaLaTeX refuses an absolute cache
+        # outside its temporary working directory. Expose the persistent font
+        # cache through a relative path that TeX may write to.
+        persistent_luatex_cache = TEXMF_CACHE_ROOT / "luatex-cache"
+        persistent_luatex_cache.mkdir(parents=True, exist_ok=True)
+        (tmp_dir / "luatex-cache").symlink_to(persistent_luatex_cache, target_is_directory=True)
         env = os.environ.copy()
-        env.setdefault("TEXMFCACHE", str(TEXMF_CACHE_ROOT))
-        env.setdefault("TEXMFVAR", str(TEXMF_VAR_ROOT))
-        Path(env["TEXMFCACHE"]).mkdir(parents=True, exist_ok=True)
-        Path(env["TEXMFVAR"]).mkdir(parents=True, exist_ok=True)
+        env["TEXMFCACHE"] = "."
+        env["TEXMFVAR"] = "."
 
         latex_result = subprocess.run(
             ["latexmk", "-lualatex", "-cd", str(aux_file)],

@@ -525,6 +525,13 @@ separate, explicitly launched operation.
 uv run python tools/render_localized_drawing_svgs.py --from-import-report --skip-existing
 ```
 
+For independent canonical TeX changes, render stale or missing SVGs across all
+three languages with `uv run --locked python tools/render_localized_drawing_svgs.py
+--language de --language fr --language it --skip-existing`. The renderer reuses
+the persistent LuaLaTeX cache in `work/drawing_text_audit/texmf-cache/` through
+each temporary compilation directory. Check `failed_count` in
+`work/drawing_text_audit/drawing_svg_render_report.json` before committing.
+
 This renders `*.fr.svg` and `*.it.svg` from the available `*.fr.tex` and
 `*.it.tex` files and updates the touched drawing `object.meta.json` files to
 declare the language-specific SVG assets. The renderer can also copy processed

@@ -338,6 +338,22 @@ Render localized SVG assets from the import report:
 uv run python tools/render_localized_drawing_svgs.py --from-import-report --skip-existing
 ```
 
+To check all existing TeX assets in all three languages after an independent
+canonical TeX edit, omit `--from-import-report` and specify every language:
+
+```bash
+uv run --locked python tools/render_localized_drawing_svgs.py \
+  --language de --language fr --language it --skip-existing
+```
+
+The renderer shares its LuaLaTeX font cache under
+`work/drawing_text_audit/texmf-cache/`. It links that cache into each temporary
+compilation directory because `latexmk` sets `TEXMFOUTPUT=.` and LuaLaTeX
+cannot write to an absolute external cache from there. No caller-side
+`TEXMFCACHE` or `TEXMFVAR` override is needed. Check `failed_count` in the
+render report before committing SVGs; the renderer continues after individual
+failures.
+
 Current renderer behavior:
 
 - `--language` accepts `de`, `fr`, and `it`; without an explicit language it
