@@ -2,14 +2,14 @@ Le gain total de la branche d’émission est donné par la différence entre la
 
 À l’entrée de la branche amplificatrice, on a
 
-$P_\mathrm{in}=\qty{-5}{\decibelmilliwatt}$
+$P_\mathrm{in}=\qty{-5}{\text{dBm}}$
 
 et à la sortie
 
-$P_\mathrm{out}=\qty{43}{\decibelmilliwatt}$.
+$P_\mathrm{out}=\qty{43}{\text{dBm}}$.
 
 Le gain total est donc :
 
-$G=P_\mathrm{out}-P_\mathrm{in}=\qty{43}{\decibelmilliwatt}-\left(\qty{-5}{\decibelmilliwatt}\right)=\qty{48}{\decibel}$
+$G=P_\mathrm{out}-P_\mathrm{in}=\qty{43}{\text{dBm}}-\left(\qty{-5}{\text{dBm}}\right)=\qty{48}{\decibel}$
 
 Le gain total de la branche d’émission est donc de $\qty{48}{\decibel}$.

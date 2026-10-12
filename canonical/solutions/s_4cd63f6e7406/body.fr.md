@@ -1,6 +1,6 @@
 Le débit de symboles est exprimé en $\unit{\baud}$ (baud).  
 
-$\qty{1}{\baud} = \qty{1}{\text{symbole}\per\seconde}$  
+$\qty{1}{\baud} = \qty{1}{\text{symbole}\per\second}$  
 
 Un symbole peut être composé d'un ou de plusieurs bits.  
 

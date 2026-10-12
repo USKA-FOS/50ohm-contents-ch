@@ -13,7 +13,7 @@ $P_\mathrm{EIRP} = P_\mathrm{ERP} \cdot 10^{\frac{g_d + 2{,}15 - a}{10}}$
 1. Poiché si tratta di un’antenna Yagi-Uda, vale: $g_d = \qty{10,5}{\dBd}$ 
 2. L’attenuazione del cavo è: $a = \qty{1,5}{\dB}$
 3. La potenza è: $P_\mathrm{ERP} = \qty{100}{\watt}$
-4. Il limite per la distanza di protezione delle persone è: $E = \qty{28}{\volt\per\metro}$
+4. Il limite per la distanza di protezione delle persone è: $E = \qty{28}{\volt\per\meter}$
 
 ## Passaggi di soluzione
 
@@ -23,10 +23,10 @@ $P_\mathrm{EIRP} = \qty{100}{\watt} \cdot 10^{\frac{10,5 + 2,15 - 1,5}{10}} = \q
 
 2. Calcolo della distanza di sicurezza $d$:
 
-$d = \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{1303,17}{\watt}}}{\qty{28}{\volt\per\metro}} = \frac{\qty{197,72}{\volt}}{\qty{28}{\volt\per\metro}} = \qty{7,06}{\metro}$
+$d = \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{1303,17}{\watt}}}{\qty{28}{\volt\per\meter}} = \frac{\qty{197,72}{\volt}}{\qty{28}{\volt\per\meter}} = \qty{7,06}{\meter}$
 
 
 ## Interpretazione
 
-La distanza di sicurezza calcolata è di $\qty{7,06}{\metro}$.
+La distanza di sicurezza calcolata è di $\qty{7,06}{\meter}$.
 

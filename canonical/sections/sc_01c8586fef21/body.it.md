@@ -23,7 +23,7 @@ La *deviazione di frequenza portante* viene espressa, come la larghezza di banda
 $2 \cdot (\qty{3}{\kilo\hertz} + \qty{3}{\kilo\hertz}) = \qty{12}{\kilo\hertz}$
 </indepth>
 
-A questo proposito, è importante considerare anche il piano delle bande dell’IARU, che fornisce indicazioni sulla larghezza di banda massima consigliata per un’emissione nelle diverse bande di frequenza. Ad esempio, nella banda dei $\qty{2}{\metro}$ per la telefonia FM, la larghezza di banda massima consigliata è di $\qty{12}{\kilo\hertz}$, che corrisponde alla NFM. La domanda seguente può essere risolta utilizzando queste informazioni e il piano delle bande dell’IARU, che è disponibile come strumento durante l’esame.
+A questo proposito, è importante considerare anche il piano delle bande dell’IARU, che fornisce indicazioni sulla larghezza di banda massima consigliata per un’emissione nelle diverse bande di frequenza. Ad esempio, nella banda dei $\qty{2}{\meter}$ per la telefonia FM, la larghezza di banda massima consigliata è di $\qty{12}{\kilo\hertz}$, che corrisponde alla NFM. La domanda seguente può essere risolta utilizzando queste informazioni e il piano delle bande dell’IARU, che è disponibile come strumento durante l’esame.
 
 [question:BC216]
 

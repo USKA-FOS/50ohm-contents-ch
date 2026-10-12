@@ -3,7 +3,7 @@ Différentes puissances d’émission des différentes classes sont abordées.
 
 Contenu DL à supprimer
 
-Alors que nous nous intéressons à la puissance rayonnée, il est utile de faire une brève incursion sur la puissance rayonnée maximale autorisée pour les radioamateurs de classe N. Celle-ci est indiquée en ERP ou en EIRP et s’élève à $\qty{10}{\watt}$ ERP dans la bande des $\qty{10}{\meters}$ et à $\qty{10}{\watt}$ EIRP dans les bandes des $\qty{2}{\meters}$ et des $\qty{70}{\centi\meters}$.
+Alors que nous nous intéressons à la puissance rayonnée, il est utile de faire une brève incursion sur la puissance rayonnée maximale autorisée pour les radioamateurs de classe N. Celle-ci est indiquée en ERP ou en EIRP et s’élève à $\qty{10}{\watt}$ ERP dans la bande des $\qty{10}{\meter}$ et à $\qty{10}{\watt}$ EIRP dans les bandes des $\qty{2}{\meter}$ et des $\qty{70}{\centi\meter}$.
 
 [question:VD724]
 

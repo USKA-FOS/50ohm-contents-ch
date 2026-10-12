@@ -28,24 +28,24 @@
 ### Minimo solare
 
 * La dipendenza dall'ora del giorno influisce sulla propagazione delle onde radio
-* Al massimo solare la banda dei $\qty{10}{\metri}$ funziona bene durante il giorno
-* Al minimo solare la banda dei $\qty{10}{\metri}$ è scarsamente utilizzabile durante il giorno
-* Durante il minimo solare, di giorno, la banda dei $\qty{20}{\metri}$ viene spesso utilizzata per collegamenti a lunga distanza
+* Al massimo solare la banda dei $\qty{10}{\meter}$ funziona bene durante il giorno
+* Al minimo solare la banda dei $\qty{10}{\meter}$ è scarsamente utilizzabile durante il giorno
+* Durante il minimo solare, di giorno, la banda dei $\qty{20}{\meter}$ viene spesso utilizzata per collegamenti a lunga distanza
 
 ---
 [question:AH202]
 ---
-* La banda dei $\qty{40}{\metri}$ è una banda affidabile per le comunicazioni
-* Come la banda dei $\qty{20}{\metri}$, riservata solo alla classe A
-* La banda dei $\qty{40}{\metri}$ è particolarmente adatta per comunicazioni su lunghe distanze all'interno della Germania, ad esempio da Amburgo a Monaco
+* La banda dei $\qty{40}{\meter}$ è una banda affidabile per le comunicazioni
+* Come la banda dei $\qty{20}{\meter}$, riservata solo alla classe A
+* La banda dei $\qty{40}{\meter}$ è particolarmente adatta per comunicazioni su lunghe distanze all'interno della Germania, ad esempio da Amburgo a Monaco
 
 ---
 [question:AH201]
 ---
 ### Di notte
 
-* Le bande dei $\qty{80}{\metri}$ e $\qty{160}{\metri}$ sono scarsamente utilizzabili di giorno a causa dello strato D, ma affidabili di notte
-* La banda dei $\qty{40}{\metri}$ consente portate maggiori di notte, poiché la propagazione avviene tramite lo strato F2
+* Le bande dei $\qty{80}{\meter}$ e $\qty{160}{\meter}$ sono scarsamente utilizzabili di giorno a causa dello strato D, ma affidabili di notte
+* La banda dei $\qty{40}{\meter}$ consente portate maggiori di notte, poiché la propagazione avviene tramite lo strato F2
 * Strato F1: causa distanze di salto più brevi a causa della minore altezza ed è generalmente indesiderato
 
 ---

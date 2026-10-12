@@ -19,6 +19,6 @@ Lo status assegnato al servizio di radioamatore in Svizzera nelle singole bande 
 È importante notare che le assegnazioni primarie e secondarie possono essere regolamentate diversamente in altri paesi. Pertanto, prima di iniziare le trasmissioni all’estero, è necessario informarsi sulle normative del paese ospitante.
 
 % Verificare se questo testo è corretto per HB.
-Una parte della banda radioamatoriale dei $\qty{70}{\centi\metro}$ è utilizzata anche per applicazioni nei settori industria, scienza e medicina, nonché da apparecchiature domestiche. Qui si trovano, ad esempio, i segnali di apricancelli, stazioni meteorologiche wireless, chiavi dell’auto, sistemi antifurto o sensori di pressione dei pneumatici.
+Una parte della banda radioamatoriale dei $\qty{70}{\centi\meter}$ è utilizzata anche per applicazioni nei settori industria, scienza e medicina, nonché da apparecchiature domestiche. Qui si trovano, ad esempio, i segnali di apricancelli, stazioni meteorologiche wireless, chiavi dell’auto, sistemi antifurto o sensori di pressione dei pneumatici.
 In Svizzera il servizio di radioamatore in questa banda di frequenza è fondamentalmente secondario. In Germania, invece, è in linea di principio primario, ma deve eccezionalmente accettare interferenze da parte di tali dispositivi.
 </attention>

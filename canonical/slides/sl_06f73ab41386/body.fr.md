@@ -39,7 +39,7 @@ Les alimentations de laboratoire seront traitées plus en détail dans la sectio
 * Détermination par calcul : <br/>$R_i = \frac{\Delta U}{\Delta I}$
 </left>
 <right>
-* Circuit ouvert : $I = \qty{0}{\ampère}$
+* Circuit ouvert : $I = \qty{0}{\ampere}$
 * Charge avec $R_L$ : <br/>$I_L = \frac{U_L}{R_L}$
 </right>
 
@@ -68,7 +68,7 @@ Cas idéal : $\qty{0}{\ohm}$, la tension de sortie reste alors inchangée sous c
 
 ### Résistance interne d'une source de courant
 
-$R_i = \frac{\Delta U}{\Delta I}$ ; $(\Delta I \to \qty{0}{\ampère})$ ; $R_i = \frac{\Delta U}{\Delta I} \to \qty{\infty}{\ohm}$
+$R_i = \frac{\Delta U}{\Delta I}$ ; $(\Delta I \to \qty{0}{\ampere})$ ; $R_i = \frac{\Delta U}{\Delta I} \to \qty{\infty}{\ohm}$
 
 <fragment>
 Les sources de courant idéales doivent présenter une résistance interne très élevée $R_i \gg R_L$
@@ -106,11 +106,11 @@ Cas idéal : $\qty{\infty}{\ohm}$, le courant de charge reste alors constant mal
 #### Méthode de résolution
 * donné : $U_0 = \qty{13,5}{\volt}$
 * donné : $U_{Kl} = \qty{13}{\volt}$
-* donné : $I = \qty{2}{\ampère}$
+* donné : $I = \qty{2}{\ampere}$
 * recherché : $R_i$
 
 <fragment>
-$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,5}{\volt} - \qty{13}{\volt}}{\qty{2}{\ampère}} = \qty{0,25}{\ohm}$
+$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,5}{\volt} - \qty{13}{\volt}}{\qty{2}{\ampere}} = \qty{0,25}{\ohm}$
 </fragment>
 ---
 [question:AB208]
@@ -118,11 +118,11 @@ $R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,5}{\volt} - \qty{13}
 #### Méthode de résolution
 * donné : $U_0 = \qty{13,8}{\volt}$
 * donné : $U_{Kl} = \qty{13,6}{\volt}$
-* donné : $I = \qty{20}{\ampère}$
+* donné : $I = \qty{20}{\ampere}$
 * recherché : $R_i$
 
 <fragment>
-$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,8}{\volt} - \qty{13,6}{\volt}}{\qty{20}{\ampère}} = \qty{10}{\milli\ohm}$
+$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,8}{\volt} - \qty{13,6}{\volt}}{\qty{20}{\ampere}} = \qty{10}{\milli\ohm}$
 </fragment>
 ---
 [question:AB206]
@@ -130,11 +130,11 @@ $R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,8}{\volt} - \qty{13,
 #### Méthode de résolution
 * donné : $U_0 = \qty{13,5}{\volt}$
 * donné : $U_{Kl} = \qty{12,4}{\volt}$
-* donné : $I = \qty{0,9}{\ampère}$
+* donné : $I = \qty{0,9}{\ampere}$
 * recherché : $R_i$
 
 <fragment>
-$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,5}{\volt} - \qty{12,4}{\volt}}{\qty{0,9}{\ampère}} = \qty{1,22}{\ohm}$
+$R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,5}{\volt} - \qty{12,4}{\volt}}{\qty{0,9}{\ampere}} = \qty{1,22}{\ohm}$
 </fragment>
 ---
 [question:AB205]
@@ -146,8 +146,8 @@ $R_i = \frac{U_i}{I} = \frac{U_0-U_{Kl}}{I} = \frac{\qty{13,5}{\volt} - \qty{12,
 * recherché : $R_i$
 
 <fragment>
-$I = \frac{U_{Kl}}{R_L} = \frac{\qty{4,8}{\volt}}{\qty{1,2}{\ohm}} = \qty{4}{\ampère}$
+$I = \frac{U_{Kl}}{R_L} = \frac{\qty{4,8}{\volt}}{\qty{1,2}{\ohm}} = \qty{4}{\ampere}$
 </fragment>
 <fragment>
-$R_i = \frac{U_i}{I} = \frac{U_0 - U_{Kl}}{I} = \frac{\qty{5,0}{\volt} - \qty{4,8}{\volt}}{\qty{4}{\ampère}} = \qty{0,05}{\ohm}$
+$R_i = \frac{U_i}{I} = \frac{U_0 - U_{Kl}}{I} = \frac{\qty{5,0}{\volt} - \qty{4,8}{\volt}}{\qty{4}{\ampere}} = \qty{0,05}{\ohm}$
 </fragment>

@@ -23,7 +23,7 @@ $E = \frac{U}{d}$
 dove $d$ è la distanza tra le piastre.
 
 <unit>
-Dall’equazione $E = \frac{U}{d}$ deriva anche l’unità di misura dell’intensità del campo elettrico: $\unit{\volt\per\metro}$
+Dall’equazione $E = \frac{U}{d}$ deriva anche l’unità di misura dell’intensità del campo elettrico: $\unit{\volt\per\meter}$
 </unit>
 
 [domanda:EB101]
@@ -41,7 +41,7 @@ In questi esercizi è fondamentale prestare attenzione all’unità di misura co
 
 Qui possiamo semplicemente applicare la formula vista in precedenza:
 
-$E = \frac{\qty{9}{\volt}}{\qty{0,6}{\centi\metro}} = \frac{\qty{9}{\volt}}{\qty{0,006}{\metro}} = \qty{1500}{\volt\per\metro}$
+$E = \frac{\qty{9}{\volt}}{\qty{0,6}{\centi\meter}} = \frac{\qty{9}{\volt}}{\qty{0,006}{\meter}} = \qty{1500}{\volt\per\meter}$
 
 Un *condensatore avvolto* può essere immaginato come un condensatore a piastre con piastre molto larghe, arrotolate tra loro. Tra le piastre si trova però uno strato isolante, il *materiale dielettrico*. Esso aumenta la *capacità* del condensatore, cioè la sua capacità di immagazzinare cariche. Tuttavia, il materiale dielettrico non influisce sul calcolo dell’intensità del campo al suo interno.
 
@@ -49,7 +49,7 @@ Un *condensatore avvolto* può essere immaginato come un condensatore a piastre 
 
 Anche per questo esercizio utilizziamo la nostra formula:
 
-$E = \frac{\qty{300}{\volt}}{\qty{0,15}{\milli\metro}} = \frac{\qty{300}{\volt}}{\qty{0,00015}{\metro}} = \qty{2000000}{\volt\per\metro} = \qty{2000}{\kilo\volt\per\metro}$
+$E = \frac{\qty{300}{\volt}}{\qty{0,15}{\milli\meter}} = \frac{\qty{300}{\volt}}{\qty{0,00015}{\meter}} = \qty{2000000}{\volt\per\meter} = \qty{2000}{\kilo\volt\per\meter}$
 
 I materiali dielettrici possono sopportare solo un’intensità di campo elettrico limitata prima di perdere la loro capacità isolante. Il valore limite di intensità di campo al quale ciò avviene è detto *intensità di rottura*. Se conosciamo l’intensità di rottura e lo spessore del materiale dielettrico, possiamo calcolare la tensione massima che il condensatore può sopportare.
 
@@ -61,7 +61,7 @@ $U_d =E_d \cdot d$
 
 Qui calcoliamo con la formula vista in precedenza (attenzione alle unità di misura!):
 
-$\begin{split} U_d &= \qty{400}{\kilo\volt\per\centi\metro} \cdot \qty{0,15}{\milli\metro} \\ &= \qty{40000000}{\volt\per\metro} \cdot \qty{0,00015}{\metro} \\ &= \qty{6000}{\volt} \\ &= \qty{6}{\kilo\volt} \end{split}$
+$\begin{split} U_d &= \qty{400}{\kilo\volt\per\centi\meter} \cdot \qty{0,15}{\milli\meter} \\ &= \qty{40000000}{\volt\per\meter} \cdot \qty{0,00015}{\meter} \\ &= \qty{6000}{\volt} \\ &= \qty{6}{\kilo\volt} \end{split}$
 
 ---
 

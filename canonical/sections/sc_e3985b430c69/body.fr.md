@@ -1,4 +1,4 @@
-Un *écouteur d’ondes courtes* [index:Kurzwellenhörer] capte des émissions radio et tente d’identifier avec certitude les stations reçues. Malgré la désignation allemande *Kurzwellenhörer*, ce hobby ne se limite pas aux ondes courtes : des signaux intéressants sont également présents sur la bande des $\qty{2}{\meters}$ et celle des $\qty{70}{\centi\meters}$, via des relais, des balises ou des satellites de radioamateur.
+Un *écouteur d’ondes courtes* [index:Kurzwellenhörer] capte des émissions radio et tente d’identifier avec certitude les stations reçues. Malgré la désignation allemande *Kurzwellenhörer*, ce hobby ne se limite pas aux ondes courtes : des signaux intéressants sont également présents sur la bande des $\qty{2}{\meter}$ et celle des $\qty{70}{\centi\meter}$, via des relais, des balises ou des satellites de radioamateur.
 
 La réception d’émissions du service d’amateur est possible sans autorisation pour le service d’amateur. Un examen de radioamateur auprès de l’Agence fédérale des réseaux n’est requis que si l’on souhaite émettre soi-même en tant que radioamateur.
 

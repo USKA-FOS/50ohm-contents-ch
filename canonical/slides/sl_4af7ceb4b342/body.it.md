@@ -19,7 +19,7 @@
 <note>
 * In alcuni casi router Wi-Fi modificati per operare nelle bande a $\qty{2,4}{\giga\hertz}$ o $\qty{5}{\giga\hertz}$ del radioamatore
 * Sono in fase di sviluppo bande a $\unit{\giga\hertz}$ superiori con maggiore larghezza di banda
-* Possibili collegamenti radio oltre $\qty{100}{\kilo\metro}$
+* Possibili collegamenti radio oltre $\qty{100}{\kilo\meter}$
 * Si consiglia di consultare la [mappa HamnetDB](https://hamnetdb.net/map.cgi)
 </note>
 

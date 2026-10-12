@@ -15,7 +15,7 @@ $-\frac{f_\mathrm{S}}{2}\text{ a }+\frac{f_\mathrm{S}}{2}$
 
 attorno alla frequenza centrale. La larghezza di banda complessivamente rappresentabile corrisponde quindi alla frequenza di campionamento $f_\mathrm{S}$.
 
-Ad esempio, se I e Q vengono campionati ciascuno a $\qty{10}{\mega sample\per\second}$, il flusso di dati I/Q può rappresentare una banda di frequenza da $\qty{-5}{\mega\hertz}$ a $\qty{+5}{\mega\hertz}$ attorno alla frequenza centrale. Con una frequenza centrale di $\qty{435}{\mega\hertz}$, ciò corrisponde a una banda di frequenza da $\qty{430}{\mega\hertz}$ a $\qty{440}{\mega\hertz}$.
+Ad esempio, se I e Q vengono campionati ciascuno a $\qty{10}{\mega\text{sample}\per\second}$, il flusso di dati I/Q può rappresentare una banda di frequenza da $\qty{-5}{\mega\hertz}$ a $\qty{+5}{\mega\hertz}$ attorno alla frequenza centrale. Con una frequenza centrale di $\qty{435}{\mega\hertz}$, ciò corrisponde a una banda di frequenza da $\qty{430}{\mega\hertz}$ a $\qty{440}{\mega\hertz}$.
 
 [question:AF634]
 [question:AF635]

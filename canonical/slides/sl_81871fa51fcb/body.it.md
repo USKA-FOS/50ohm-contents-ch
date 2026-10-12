@@ -10,7 +10,7 @@
 ### Velocità di simbolo
 * La *velocità di simbolo* indica il numero di simboli trasmessi al secondo; l’unità di misura della velocità di simbolo è il *baud*.
 * La velocità di trasmissione dati e la velocità di simbolo non sono quindi sempre identiche.
-* Se vengono utilizzati solo due simboli e ogni bit viene trasmesso singolarmente, la velocità di simbolo in baud corrisponde alla velocità di trasmissione dati in $\unit{\bit\per\secondo}$.
+* Se vengono utilizzati solo due simboli e ogni bit viene trasmesso singolarmente, la velocità di simbolo in baud corrisponde alla velocità di trasmissione dati in $\unit{\bit\per\second}$.
 * Se invece vengono utilizzati più simboli e quindi più bit vengono trasmessi contemporaneamente, la velocità di trasmissione dati è maggiore della velocità di simbolo.
 
 ---
@@ -26,9 +26,9 @@
 * La formula $R_\mathrm{D} = R_\mathrm{S} \cdot N$ rappresenta la relazione:
 
 <fragment>
-* $R_\mathrm{D}$ → velocità di trasmissione dati in $\unit{\bit\per\secondo}$
+* $R_\mathrm{D}$ → velocità di trasmissione dati in $\unit{\bit\per\second}$
 * $R_\mathrm{S}$ → velocità di simbolo in $\unit{\baud}$
-* $N$ → dimensione del simbolo in $\unit{\bit\per\simbolo}$
+* $N$ → dimensione del simbolo in $\unit{\bit\per\text{simbolo}}$
 </fragment>
 
 ---
@@ -57,12 +57,12 @@ Esempi:
 
 #### Procedimento
 * dati: $R_S = \qty{45,45}{\baud}$
-* dati: $N=\qty{1}{\bit\per\simbolo}$
+* dati: $N=\qty{1}{\bit\per\text{simbolo}}$
 * richiesto: $R_\mathrm{D}$
 
 
 <fragment>
-$R_\mathrm{D} = R_\mathrm{S} \cdot N = \qty{45,45}{\baud} \cdot \qty{1}{\bit\per\simbolo} = \qty{45,45}{\bit\per\secondo}$
+$R_\mathrm{D} = R_\mathrm{S} \cdot N = \qty{45,45}{\baud} \cdot \qty{1}{\bit\per\text{simbolo}} = \qty{45,45}{\bit\per\second}$
 </fragment>
 
 ---
@@ -73,10 +73,10 @@ $R_\mathrm{D} = R_\mathrm{S} \cdot N = \qty{45,45}{\baud} \cdot \qty{1}{\bit\per
 
 #### Procedimento
 * dati: $R_S = \qty{23,4}{\baud}$
-* dati: $N=\qty{2}{\bit\per\simbolo}$
+* dati: $N=\qty{2}{\bit\per\text{simbolo}}$
 * richiesto: $R_\mathrm{D}$
 
 
 <fragment>
-$R_\mathrm{D} = R_\mathrm{S} \cdot N = \qty{23,4}{\baud} \cdot \qty{2}{\bit\per\simbolo} = \qty{46,8}{\bit\per\secondo}$
+$R_\mathrm{D} = R_\mathrm{S} \cdot N = \qty{23,4}{\baud} \cdot \qty{2}{\bit\per\text{simbolo}} = \qty{46,8}{\bit\per\second}$
 </fragment>

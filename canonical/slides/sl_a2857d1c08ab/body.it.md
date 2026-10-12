@@ -5,9 +5,9 @@
 </left>
 <right>
 * Con l’aumentare della frequenza, l’E sporadico si verifica meno frequentemente
-* In caso di alta attività solare: possibile propagazione nello strato F (ad es. banda dei $\qty{10}{\metro}$)
+* In caso di alta attività solare: possibile propagazione nello strato F (ad es. banda dei $\qty{10}{\meter}$)
 * L’E sporadico può essere disturbante: le onde radio non raggiungono lo strato F
-* Le distanze di salto sono limitate a circa $\qty{2200}{\chilo\metro}$
+* Le distanze di salto sono limitate a circa $\qty{2200}{\kilo\meter}$
 * La zona d’ombra può scomparire
 </right>
 

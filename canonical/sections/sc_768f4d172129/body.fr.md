@@ -15,7 +15,7 @@ $-\frac{f_\mathrm{S}}{2}\text{ à }+\frac{f_\mathrm{S}}{2}$
 
 autour de la fréquence centrale peut être représentée. La bande passante totalement représentable correspond ainsi à la fréquence d'échantillonnage $f_\mathrm{S}$.
 
-Si, par exemple, I et Q sont échantillonnés chacun à $\qty{10}{\mega sample\per\second}$, le flux de données I/Q peut représenter une bande de fréquences de $\qty{-5}{\mega\hertz}$ à $\qty{+5}{\mega\hertz}$ autour de la fréquence centrale. Pour une fréquence centrale de $\qty{435}{\mega\hertz}$, cela correspond à une bande de fréquences de $\qty{430}{\mega\hertz}$ à $\qty{440}{\mega\hertz}$.
+Si, par exemple, I et Q sont échantillonnés chacun à $\qty{10}{\mega\text{sample}\per\second}$, le flux de données I/Q peut représenter une bande de fréquences de $\qty{-5}{\mega\hertz}$ à $\qty{+5}{\mega\hertz}$ autour de la fréquence centrale. Pour une fréquence centrale de $\qty{435}{\mega\hertz}$, cela correspond à une bande de fréquences de $\qty{430}{\mega\hertz}$ à $\qty{440}{\mega\hertz}$.
 
 [question:AF634]
 [question:AF635]

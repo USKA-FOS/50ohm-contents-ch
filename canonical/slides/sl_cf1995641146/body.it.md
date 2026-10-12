@@ -25,7 +25,7 @@ DIN EN 50413, rilevante per il radioamatore solo per ATV con $\num{0,38}$ e SATV
 --- style="font-size: smaller;"
 #### Procedimento di soluzione
 <left>
-* dati: $E = \qty{28}{\volt\per\metro}$
+* dati: $E = \qty{28}{\volt\per\meter}$
 * dati: $P_S = P_A = \qty{100}{\watt}$
 </left>
 <right>
@@ -34,7 +34,7 @@ DIN EN 50413, rilevante per il radioamatore solo per ATV con $\num{0,38}$ e SATV
 </right>
 
 <fragment>
-$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ \Rightarrow d &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{E}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{100}{\watt} \cdot 1,64}}{\qty{28}{\volt\per\metro}}\\ &\approx \qty{2,5}{\metro}\end{split}$
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ \Rightarrow d &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{E}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{100}{\watt} \cdot 1,64}}{\qty{28}{\volt\per\meter}}\\ &\approx \qty{2,5}{\meter}\end{split}$
 </fragment>
 
 ---
@@ -52,7 +52,7 @@ $P_\text{EIRP} = P_S\cdot10^{\frac{g_d - a + \qty{2,15}{\dB}}{\qty{10}{\dB}}}$
 --- style="font-size: smaller;"
 #### Procedimento di soluzione
 <left>
-* dati: $E = \qty{28}{\volt\per\metro}$
+* dati: $E = \qty{28}{\volt\per\meter}$
 * dati: $P_S = \qty{300}{\watt}$
 * dati: $a = \qty{0,5}{\dB}$
 </left>
@@ -68,7 +68,7 @@ $\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d -a + \qty{2,15}{\dB}}{\qty{10}
 </fragment>
 <fragment>
 <right>
-$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{438,7}{\watt}}}{\qty{28}{\volt\per\metro}}\\ &\approx \qty{4,10}{\metro}\end{split}$
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{438,7}{\watt}}}{\qty{28}{\volt\per\meter}}\\ &\approx \qty{4,10}{\meter}\end{split}$
 </right>
 </fragment>
 
@@ -79,7 +79,7 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow 
 --- style="font-size: smaller;"
 #### Procedimento di soluzione
 <left>
-* dati: $E = \qty{28}{\volt\per\metro}$
+* dati: $E = \qty{28}{\volt\per\meter}$
 * dati: $P_S = \qty{700}{\watt}$
 * dati: $a = \qty{0,5}{\dB}$
 </left>
@@ -95,7 +95,7 @@ $\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d -a + \qty{2,15}{\dB}}{\qty{10}
 </fragment>
 <fragment>
 <right>
-$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{1023,5}{\watt}}}{\qty{28}{\volt\per\metro}}\\ &\approx \qty{6,26}{\metro}\end{split}$
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{1023,5}{\watt}}}{\qty{28}{\volt\per\meter}}\\ &\approx \qty{6,26}{\meter}\end{split}$
 </right>
 </fragment>
 
@@ -106,7 +106,7 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow 
 --- style="font-size: smaller;"
 #### Procedimento di soluzione
 <left>
-* dati: $E = \qty{28}{\volt\per\metro}$
+* dati: $E = \qty{28}{\volt\per\meter}$
 * dati: $P_S = \qty{75}{\watt}$
 * dati: $a = \qty{1,5}{\dB}$
 </left>
@@ -122,7 +122,7 @@ $\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d -a + \qty{2,15}{\dB}}{\qty{10}
 </fragment>
 <fragment>
 <right>
-$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{1230,4}{\watt}}}{\qty{28}{\volt\per\metro}}\\ &\approx \qty{6,86}{\metro}\end{split}$
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{1230,4}{\watt}}}{\qty{28}{\volt\per\meter}}\\ &\approx \qty{6,86}{\meter}\end{split}$
 </right>
 </fragment>
 
@@ -133,7 +133,7 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow 
 --- style="font-size: smaller;"
 #### Procedimento di soluzione
 <left>
-* dati: $E = \qty{28}{\volt\per\metro}$
+* dati: $E = \qty{28}{\volt\per\meter}$
 * dati: $P_S = \qty{100}{\watt}$
 * dati: $a = \qty{1,5}{\dB}$
 </left>
@@ -149,7 +149,7 @@ $\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d -a + \qty{2,15}{\dB}}{\qty{10}
 </fragment>
 <fragment>
 <right>
-$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{1303,2}{\watt}}}{\qty{28}{\volt\per\metro}}\\ &\approx \qty{7,1}{\metro}\end{split}$
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{1303,2}{\watt}}}{\qty{28}{\volt\per\meter}}\\ &\approx \qty{7,1}{\meter}\end{split}$
 </right>
 </fragment>
 
@@ -160,7 +160,7 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow 
 --- style="font-size: smaller;"
 #### Procedimento di soluzione
 <left>
-* dati: $E = \qty{61}{\volt\per\metro}$
+* dati: $E = \qty{61}{\volt\per\meter}$
 * dati: $P_S = \qty{40}{\watt}$
 * dati: $a = \qty{2}{\dB}$
 </left>
@@ -176,6 +176,6 @@ $\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d -a + \qty{2,15}{\dB}}{\qty{10}
 </fragment>
 <fragment>
 <right>
-$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{2612,5}{\watt}}}{\qty{61}{\volt\per\metro}}\\ &\approx \qty{4,6}{\metro}\end{split}$
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow d &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{E}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{2612,5}{\watt}}}{\qty{61}{\volt\per\meter}}\\ &\approx \qty{4,6}{\meter}\end{split}$
 </right>
 </fragment>

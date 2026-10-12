@@ -29,7 +29,7 @@ Prenons l’exemple du préfixe *kilo*, qui représente $1000$. Au lieu d’écr
 On peut aussi retenir que l’on multiplie le nombre autant de fois par 10 que l’indique l’exposant. Pour les nombres sans virgule, il suffit d’ajouter autant de zéros que l’indique l’exposant.
 </tip>
 
-Pour un million, il faut multiplier six fois le nombre 10 entre eux. Le préfixe *méga* correspond donc à la valeur $10^6$. L’écriture $\qty{28e6}{\hertz}$ signifie donc la même chose que $\qty{28}{\méga\hertz}$.
+Pour un million, il faut multiplier six fois le nombre 10 entre eux. Le préfixe *méga* correspond donc à la valeur $10^6$. L’écriture $\qty{28e6}{\hertz}$ signifie donc la même chose que $\qty{28}{\mega\hertz}$.
 
 Pour les petits nombres, le principe est similaire. Un millième équivaut à $\frac{1}{10} \cdot \frac{1}{10} \cdot \frac{1}{10}$. On l’écrit $10^{-3}$ (« dix puissance moins trois »). La valeur $\qty{3,5e-3}{\volt}$ n’est donc rien d’autre que $\qty{3,5}{\milli\volt}$ et $\qty{22e-6}{\volt}$ correspond à $\qty{22}{\micro\volt}$. Les principales puissances de dix sont à nouveau présentées dans le tableau [ref:e_einheitenvorzeichen].
 

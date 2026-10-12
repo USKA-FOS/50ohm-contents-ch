@@ -4,7 +4,7 @@ Un oscilloscope est un voltmètre qui permet de visualiser l’évolution tempor
 [photo:212:e_oszilloskop_digital: Oscilloscope doté de nombreuses fonctions supplémentaires]
 </margin>
 
-Examinons plus en détail l’affichage de l’oscilloscope dans la figure [ref:e_oszilloskop_bildschirmfoto_sinus]. Un oscilloscope permet par exemple de déterminer les grandeurs caractéristiques d’une tension alternative sinusoïdale ($T$, $\hat{U}$, $U_\text{SS}$ et $U_\text{eff}$). Outre l’évolution du signal, une indication de temps et de tension est superposée à l’écran – dans l’exemple, $\qty{50,0}{\nano\seconde}$ et $\qty{500}{\milli\volt}$. Cela signifie qu’un carré en direction horizontale correspond à 50 nanosecondes et qu’un carré en direction verticale correspond à 500 millivolts. Ces carrés sont souvent appelés divisions ou échelons de l’échelle, d’où la notation $\qty{500}{\milli\volt\per\oscidiv}$.
+Examinons plus en détail l’affichage de l’oscilloscope dans la figure [ref:e_oszilloskop_bildschirmfoto_sinus]. Un oscilloscope permet par exemple de déterminer les grandeurs caractéristiques d’une tension alternative sinusoïdale ($T$, $\hat{U}$, $U_\text{SS}$ et $U_\text{eff}$). Outre l’évolution du signal, une indication de temps et de tension est superposée à l’écran – dans l’exemple, $\qty{50,0}{\nano\second}$ et $\qty{500}{\milli\volt}$. Cela signifie qu’un carré en direction horizontale correspond à 50 nanosecondes et qu’un carré en direction verticale correspond à 500 millivolts. Ces carrés sont souvent appelés divisions ou échelons de l’échelle, d’où la notation $\qty{500}{\milli\volt\per\oszidiv}$.
 
 <margin>
 [photo:214:e_oszilloskop_bildschirmfoto_sinus: Une tension sinusoïdale affichée sur un oscilloscope numérique]
@@ -12,7 +12,7 @@ Examinons plus en détail l’affichage de l’oscilloscope dans la figure [ref:
 
 ---
 
-On peut se représenter cela comme un système de coordonnées et lire la durée d’une période ($T$) ainsi que l’amplitude ($\hat{U}$). Dans l’exemple, une période s’étend sur 5 carrés ou échelons. Multipliée par $\qty{50,0}{\nano\seconde}$ par échelon, cela donne une durée de période de $\qty{250,0}{\nano\seconde}$. L’amplitude, c’est-à-dire la plus grande déviation par rapport à la position nulle, est de $\qty{1500}{\milli\volt}$ ou $\qty{1,5}{\volt}$, car elle s’élève sur 3 échelons et chaque échelon correspond à $\qty{500}{\milli\volt}$.
+On peut se représenter cela comme un système de coordonnées et lire la durée d’une période ($T$) ainsi que l’amplitude ($\hat{U}$). Dans l’exemple, une période s’étend sur 5 carrés ou échelons. Multipliée par $\qty{50,0}{\nano\second}$ par échelon, cela donne une durée de période de $\qty{250,0}{\nano\second}$. L’amplitude, c’est-à-dire la plus grande déviation par rapport à la position nulle, est de $\qty{1500}{\milli\volt}$ ou $\qty{1,5}{\volt}$, car elle s’élève sur 3 échelons et chaque échelon correspond à $\qty{500}{\milli\volt}$.
 
 [question:EI301]
 
@@ -32,7 +32,7 @@ La fréquence en hertz est l’inverse de la durée de la période en secondes.
 
 Le signal dans la figure [ref:e_oszilloskop_bildschirmfoto_sinus] a donc la fréquence
 
-$f = \dfrac{1}{\qty{250}{\nano\seconde}} = \qty{4}{\mega\hertz}$.
+$f = \dfrac{1}{\qty{250}{\nano\second}} = \qty{4}{\mega\hertz}$.
 
 [question:EB408]
 [question:EB409]

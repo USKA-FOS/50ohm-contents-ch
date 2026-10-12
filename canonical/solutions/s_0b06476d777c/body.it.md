@@ -13,7 +13,7 @@ $P_\mathrm{EIRP} = P_\mathrm{ERP} \cdot 10^{\frac{g_i - a}{10}}$
 1. Poiché si tratta di un dipolo, vale: $g_i = \qty{2,15}{\dBi}$ 
 2. L’attenuazione del cavo è: $a = \qty{0,5}{\dB}$
 3. La potenza è: $P_\mathrm{ERP} = \qty{300}{\watt}$
-4. Il limite per la distanza di protezione delle persone è: $E = \qty{28}{\volt\per\metro}$
+4. Il limite per la distanza di protezione delle persone è: $E = \qty{28}{\volt\per\meter}$
 
 ## Passaggi di soluzione
 
@@ -23,10 +23,10 @@ $P_\mathrm{EIRP} = \qty{300}{\watt} \cdot 10^{\frac{2,15 - 0,5}{10}} = \qty{438,
 
 2. Calcolo di $d$:
 
-$d = \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{438,65}{\watt}}}{\qty{28}{\volt\per\metro}} = \frac{\qty{114,71}{\volt}}{\qty{28}{\volt\per\metro}} \approx \qty{4,10}{\metro}$
+$d = \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{438,65}{\watt}}}{\qty{28}{\volt\per\meter}} = \frac{\qty{114,71}{\volt}}{\qty{28}{\volt\per\meter}} \approx \qty{4,10}{\meter}$
 
 
 ## Interpretazione
 
-La distanza di sicurezza richiesta è di $\qty{4,10}{\metro}$.
+La distanza di sicurezza richiesta è di $\qty{4,10}{\meter}$.
 

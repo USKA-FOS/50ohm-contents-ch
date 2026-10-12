@@ -1,6 +1,6 @@
 La velocità di simbolo viene espressa in $\unit{\baud}$ (baud).  
 
-$\qty{1}{\baud} = \qty{1}{\text{simbolo}\per\secondo}$  
+$\qty{1}{\baud} = \qty{1}{\text{simbolo}\per\second}$  
 
 Un simbolo può essere composto da uno o più bit.
 

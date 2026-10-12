@@ -16,7 +16,7 @@ $R = \frac{\rho\cdot l}{A_{\textrm{filo}}}$
 
 * $l$: lunghezza del filo
 * $A_{\textrm{filo}}$: sezione del filo
-* $\rho$: resistività in $\unit{\ohm\cdot\milli\metro\quadrato\per\metro}$
+* $\rho$: resistività in $\unit{\ohm\cdot\milli\meter\squared\per\meter}$
 </left>
 <right>
 <fragment>
@@ -37,28 +37,28 @@ Con questa formula è possibile calcolare la resistenza ohmica di un filo conosc
 [question:AB101]
 --- style="font-size: smaller;"
 ### Procedimento di soluzione
-* dati: $l = \qty{1,8}{\metro}$
-* dati: $d = \qty{0,2}{\milli\metro}$
-* dati: $\rho = \qty{0,018}{\ohm\cdot\milli\metro\quadrato\per\metro}$
+* dati: $l = \qty{1,8}{\meter}$
+* dati: $d = \qty{0,2}{\milli\meter}$
+* dati: $\rho = \qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}$
 * incognita: $R$
 
 <fragment>
-$$A_{\textrm{filo}} = \frac{d^2\cdot \pi}{4} = \frac{(\qty{0,2}{\milli\metro})^2 \cdot \pi}{4} = \frac{\pi}{100}\unit{\milli\metro\quadrato} = \qty{0,0314}{\milli\metro\quadrato}$$
+$$A_{\textrm{filo}} = \frac{d^2\cdot \pi}{4} = \frac{(\qty{0,2}{\milli\meter})^2 \cdot \pi}{4} = \frac{\pi}{100}\unit{\milli\meter\squared} = \qty{0,0314}{\milli\meter\squared}$$
 </fragment>
 <fragment>
-$$R = \frac{\rho\cdot l}{A_{\textrm{filo}}} = \frac{\qty{0,018}{\ohm\cdot\milli\metro\quadrato\per\metro} \cdot \qty{1,8}{\metro}}{\qty{0,0314}{\milli\metro\quadrato}} \approx \qty{1,02}{\ohm}$$
+$$R = \frac{\rho\cdot l}{A_{\textrm{filo}}} = \frac{\qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter} \cdot \qty{1,8}{\meter}}{\qty{0,0314}{\milli\meter\squared}} \approx \qty{1,02}{\ohm}$$
 </fragment>
 ---
 [question:AB102]
 ---
 ### Procedimento di soluzione
-* dati: $A_{\textrm{filo}} = \qty{0,5}{\milli\metro\quadrato}$
+* dati: $A_{\textrm{filo}} = \qty{0,5}{\milli\meter\squared}$
 * dati: $R = \qty{1,5}{\ohm}$
-* dati: $\rho = \qty{0,018}{\ohm\cdot\milli\metro\quadrato\per\metro}$
+* dati: $\rho = \qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}$
 * incognita: $l$
 
 <fragment>
-$\begin{split} R &= \frac{\rho\cdot l}{A_{\textrm{filo}}}\\ \Rightarrow l &= \frac{R\cdot A_{\textrm{filo}}}{\rho} = \frac{\qty{1,5}{\ohm} \cdot \qty{0,5}{\milli\metro\quadrato}}{\qty{0,018}{\ohm\cdot\milli\metro\quadrato\per\metro}} \approx \qty{41,7}{\metro} \end{split}$
+$\begin{split} R &= \frac{\rho\cdot l}{A_{\textrm{filo}}}\\ \Rightarrow l &= \frac{R\cdot A_{\textrm{filo}}}{\rho} = \frac{\qty{1,5}{\ohm} \cdot \qty{0,5}{\milli\meter\squared}}{\qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}} \approx \qty{41,7}{\meter} \end{split}$
 </fragment>
 
 ---

@@ -23,5 +23,5 @@ Dans les questions suivantes, un émetteur-récepteur FM est utilisé. Pour l’
 Pourquoi $\qty{9600}{\baud}$ ?
 
 
-$\qty{9600}{\baud}$ ($\qty{9,6}{\kilo\bit\par\seconde}$ si une modulation à un bit par symbole est utilisée) est une vitesse courante pour les communications numériques en radioamateurisme, notamment en Packet-Radio. Ce débit représente un compromis entre la vitesse atteignable et la faisabilité technique dans la bande VHF/UHF, où opèrent la plupart des émetteurs-récepteurs FM.
+$\qty{9600}{\baud}$ ($\qty{9,6}{\kilo\bit\per\second}$ si une modulation à un bit par symbole est utilisée) est une vitesse courante pour les communications numériques en radioamateurisme, notamment en Packet-Radio. Ce débit représente un compromis entre la vitesse atteignable et la faisabilité technique dans la bande VHF/UHF, où opèrent la plupart des émetteurs-récepteurs FM.
 </indepth>

@@ -24,7 +24,7 @@ $\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{E}\\ &= \d
 ---
 ### Procedimento di soluzione
 <left>
-* dati: $E = \qty{28}{\volt\per\metro}$
+* dati: $E = \qty{28}{\volt\per\meter}$
 * dati: $g_d = \qty{7,5}{\dBd}$
 * dati: $P_S = \qty{100}{\watt}$
 </left>
@@ -41,17 +41,17 @@ $\begin{split} P_{\textrm{EIRP}} &= P_S \cdot 10^{\frac{g_d - a + \qty{2,15}{\dB
 </left>
 <right>
 <fragment>
-$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E}\\ &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{650}{\watt}}}{\qty{28}{\volt\per\metro}}\\ &\approx \qty{5}{\metro} \end{split}$
+$\begin{split} d &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E}\\ &= \dfrac{\sqrt{\qty{30}{\ohm} \cdot \qty{650}{\watt}}}{\qty{28}{\volt\per\meter}}\\ &\approx \qty{5}{\meter} \end{split}$
 </fragment>
 </right>
 
 ---
 ### Domanda bonus
 
-I $\qty{5}{\metro}$ calcolati non si trovano nel campo vicino per la banda dei $\qty{10}{\metro}$ dalla domanda?
+I $\qty{5}{\meter}$ calcolati non si trovano nel campo vicino per la banda dei $\qty{10}{\meter}$ dalla domanda?
 
 <fragment>
-$\begin{split} d &> \frac{\lambda}{2\pi}\\ \qty{5}{\metro} &> \frac{\qty{10}{\metro}}{2\pi}\\ \qty{5}{\metro} &\gtrapprox \qty{1,6}{\metro} \end{split}$
+$\begin{split} d &> \frac{\lambda}{2\pi}\\ \qty{5}{\meter} &> \frac{\qty{10}{\meter}}{2\pi}\\ \qty{5}{\meter} &\gtrapprox \qty{1,6}{\meter} \end{split}$
 </fragment>
 
 ---
@@ -61,8 +61,8 @@ $\begin{split} d &> \frac{\lambda}{2\pi}\\ \qty{5}{\metro} &> \frac{\qty{10}{\me
 
 * La distanza di sicurezza per la protezione delle persone vale solo nello spazio libero
 * $d > \frac{\lambda}{2\pi}$
-* Banda dei $\qty{160}{\metro}$: $\qty{25,5}{\metro}$
-* Banda degli $\qty{80}{\metro}$: $\qty{12,7}{\metro}$
+* Banda dei $\qty{160}{\meter}$: $\qty{25,5}{\meter}$
+* Banda degli $\qty{80}{\meter}$: $\qty{12,7}{\meter}$
 
 ---
 [question:EK105]

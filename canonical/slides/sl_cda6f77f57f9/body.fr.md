@@ -17,7 +17,7 @@ Graphique d’un conducteur parcouru par un courant avec des lignes de champ mag
 </left>
 <right>
 [picture:50:e_h_feld_spule:Lignes de champ magnétique dans une bobine cylindrique]
-* Unité : $\unit{\ampère\par\mètre}$
+* Unité : $\unit{\ampere\per\meter}$
 </right>
 <note>
 * Le champ H, ou intensité de champ magnétique, sera abordé dans quelques diapositives
@@ -40,7 +40,7 @@ Graphique d’un conducteur parcouru par un courant avec des lignes de champ mag
 
 ---
 <left>
-* Intensité de champ magnétique $H = \dfrac{I\cdot N}{l_m}$ en $\unit{\ampère\par\mètre}$
+* Intensité de champ magnétique $H = \dfrac{I\cdot N}{l_m}$ en $\unit{\ampere\per\meter}$
 * avec $N$ comme nombre de spires et $l_m$ longueur moyenne de l’anneau
 </left>
 <right>

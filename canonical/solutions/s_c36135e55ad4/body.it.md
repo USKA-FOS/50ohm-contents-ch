@@ -4,6 +4,6 @@ $R_\mathrm{Dati} = R_\mathrm{Simbolo} \cdot \qty{1}{\bit\per{Simbolo}}$
 
 Con una velocità di simbolo di $\qty{45,45}{\baud}$ si ottiene:
 
-$R_\mathrm{Dati} = \qty{45,45}{\bit\per\secondo}$
+$R_\mathrm{Dati} = \qty{45,45}{\bit\per\second}$
 
-La velocità di trasmissione dati è quindi $\qty{45,45}{\bit\per\secondo}$.
+La velocità di trasmissione dati è quindi $\qty{45,45}{\bit\per\second}$.

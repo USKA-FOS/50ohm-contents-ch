@@ -6,42 +6,42 @@ Oltre agli ormai noti accumulatori al piombo (Pb) e agli accumulatori al nichel-
 </margin>
 
 <indepth>
-* Capacità: $\qty{4200}{\milli\ampere\ora}$
+* Capacità: $\qty{4200}{\milli\ampere\hour}$
 * Tensione: 4S1P / $\qty{13,2}{\volt}$
 % * Scarica: 30C Constant / 40C Burst
 % * Connettore di bilanciamento: JST-XH
-% * Connettore di scarico: $\qty{5.5}{\milli\metro}$ spina a sfera
+% * Connettore di scarico: $\qty{5.5}{\milli\meter}$ spina a sfera
 
 I dati tecnici più importanti per noi sono la tensione nominale $\qty{13,2}{\volt}$ e il collegamento 4S1P. Questo significa che la tensione nominale di $\qty{13,2}{\volt}$ deriva da 4 celle collegate in serie e 1 volta in parallelo, quindi tutte e 4 collegate in serie. Generalmente, i LiFePO4 hanno una tensione nominale per cella di $\qty{3,2}{\volt}$ fino a $\qty{3,3}{\volt}$. Quindi si ottiene $\qty{3,3}{\volt} \cdot 4 = \qty{13,2}{\volt} \cdot 1 = \qty{13,2}{\volt}$.
 
 
-Nel caso di un 4S2P sono installate in totale 8 celle: 4 in serie e 2 volte in parallelo. Questo comporterebbe una tensione di $\qty{13,2}{\volt}$, ma una capacità di $\qty{8400}{\milli\ampere\ora}$.
+Nel caso di un 4S2P sono installate in totale 8 celle: 4 in serie e 2 volte in parallelo. Questo comporterebbe una tensione di $\qty{13,2}{\volt}$, ma una capacità di $\qty{8400}{\milli\ampere\hour}$.
 
 
 </indepth>
 
-Per l'accumulatore dell'esempio è indicata una capacità nominale di $\qty{4200}{\milli\ampere\ora}$. La capacità nominale $Q$ dell'accumulatore è anche chiamata carica ed è espressa in $\unit{\ampere\ora}$ o $\unit{\milli\ampere\ora}$.
+Per l'accumulatore dell'esempio è indicata una capacità nominale di $\qty{4200}{\milli\ampere\hour}$. La capacità nominale $Q$ dell'accumulatore è anche chiamata carica ed è espressa in $\unit{\ampere\hour}$ o $\unit{\milli\ampere\hour}$.
 
 
-Per il nostro accumulatore di esempio, questo corrisponde a $\qty{4,2}{\ampere\ora}$. Teoricamente, ciò significa che possiamo caricare l'accumulatore per $\qty{1}{\ora}$ con $\qty{4,2}{\ampere}$ o per $\qty{2}{\ora}$ con $\qty{2,1}{\ampere}$, ecc. Questo viene descritto dalla formula:
+Per il nostro accumulatore di esempio, questo corrisponde a $\qty{4,2}{\ampere\hour}$. Teoricamente, ciò significa che possiamo caricare l'accumulatore per $\qty{1}{\hour}$ con $\qty{4,2}{\ampere}$ o per $\qty{2}{\hour}$ con $\qty{2,1}{\ampere}$, ecc. Questo viene descritto dalla formula:
 
 
 $t=\frac{Q}{I}$
 
 
-$t=\frac{\qty{4,2}{\ampere\ora}}{\qty{4,2}{\ampere}} = \qty{1}{\ora}$
+$t=\frac{\qty{4,2}{\ampere\hour}}{\qty{4,2}{\ampere}} = \qty{1}{\hour}$
 
 
 [question:AB210]
 
 
-Ora vogliamo anche sapere quanta energia elettrica è immagazzinata nell'accumulatore. L'energia ($\unit{\watt\ora}$) è la carica $Q$ ($\unit{\ampere\ora}$) dell'accumulatore moltiplicata per la tensione totale $U$ in volt.
+Ora vogliamo anche sapere quanta energia elettrica è immagazzinata nell'accumulatore. L'energia ($\unit{\watt\hour}$) è la carica $Q$ ($\unit{\ampere\hour}$) dell'accumulatore moltiplicata per la tensione totale $U$ in volt.
 
 
-$\qty{1}{\watt\ora} = \qty{1}{\ampere\ora} \cdot \qty{1}{\volt}$
+$\qty{1}{\watt\hour} = \qty{1}{\ampere\hour} \cdot \qty{1}{\volt}$
 
 
-Per il nostro esempio calcoliamo $\qty{4,2}{\ampere\ora} \cdot \qty{13,2}{\volt} = \qty{55,44}{\watt\ora}$ come energia immagazzinata.
+Per il nostro esempio calcoliamo $\qty{4,2}{\ampere\hour} \cdot \qty{13,2}{\volt} = \qty{55,44}{\watt\hour}$ come energia immagazzinata.
 
 
 [question:AB501]
@@ -72,7 +72,7 @@ Per risolvere la domanda successiva, è necessario sapere che la tensione totale
 [question:AB209]
 
 
-Per la domanda successiva, è necessario calcolare prima la quantità di carica prelevabile pari al $\qty{90}{\percento}$.
+Per la domanda successiva, è necessario calcolare prima la quantità di carica prelevabile pari al $\qty{90}{\percent}$.
 La durata della scarica $t$ si ottiene da: $t=\frac{Q}{I}$
 
 

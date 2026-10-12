@@ -1,6 +1,6 @@
 *Convertitori* e *transverter* vengono utilizzati nel radioamatoriale per estendere, con apparecchi radio esistenti, le bande di frequenza che questi non coprono originariamente. Un *convertitore* converte il segnale solo in una direzione, sia nel percorso di trasmissione che in quello di ricezione. Un *trasmettitore-ricevitore* (transverter), invece, dispone di un sistema interno di commutazione tra trasmissione e ricezione e gestisce la conversione di frequenza sia in trasmissione che in ricezione. La conversione di frequenza nei convertitori e nei trasmettitori-ricevitori avviene sempre tramite miscelazione in uno o più mixer.
 
-Ad esempio, con un trasmettitore-ricevitore adatto e un transceiver per onde corte esistente, è possibile operare anche nelle bande VHF/UHF/SHF. In questo caso, ad esempio, si potrebbe convertire la banda dei $\qty{10}{\metro}$ del transceiver per onde corte, tramite un trasmettitore-ricevitore, nelle bande $\qty{2}{\metro}$/$\qty{70}{\centi\metro}$ o $\qty{23}{\centi\metro}$ in entrambe le direzioni.
+Ad esempio, con un trasmettitore-ricevitore adatto e un transceiver per onde corte esistente, è possibile operare anche nelle bande VHF/UHF/SHF. In questo caso, ad esempio, si potrebbe convertire la banda dei $\qty{10}{\meter}$ del transceiver per onde corte, tramite un trasmettitore-ricevitore, nelle bande $\qty{2}{\meter}$/$\qty{70}{\centi\meter}$ o $\qty{23}{\centi\meter}$ in entrambe le direzioni.
 
 [question:EF501]
 [question:EF502]
@@ -23,7 +23,7 @@ dove il prodotto desiderato viene poi selezionato tramite filtri appropriati.
 
 ---
 
-Il circuito di un trasmettitore-ricevitore si distingue chiaramente da quello di un convertitore. Le immagini [ref:e_transverter_rx] e [ref:e_transverter_tx] mostrano lo schema a blocchi di un trasmettitore-ricevitore che consente di operare nella banda $\qty{2}{\metro}$ utilizzando un transceiver per onde corte nella banda $\qty{10}{\metro}$. A tale scopo, vengono utilizzati una commutazione tra trasmissione e ricezione, due mixer e due percorsi di segnale separati: uno per la ricezione (RX) e uno per la trasmissione (TX).
+Il circuito di un trasmettitore-ricevitore si distingue chiaramente da quello di un convertitore. Le immagini [ref:e_transverter_rx] e [ref:e_transverter_tx] mostrano lo schema a blocchi di un trasmettitore-ricevitore che consente di operare nella banda $\qty{2}{\meter}$ utilizzando un transceiver per onde corte nella banda $\qty{10}{\meter}$. A tale scopo, vengono utilizzati una commutazione tra trasmissione e ricezione, due mixer e due percorsi di segnale separati: uno per la ricezione (RX) e uno per la trasmissione (TX).
 
 Nel percorso TX, in trasmissione, il trasmettitore-ricevitore converte il segnale di uscita del transceiver nella banda di frequenza più alta desiderata, mentre nel percorso RX, in ricezione, converte il segnale proveniente dall’antenna nella banda di frequenza adatta al transceiver. La banda di frequenza tra cui opera il trasmettitore-ricevitore può essere determinata conoscendo la frequenza dell’oscillatore fornita ai mixer e le rispettive frequenze di ingresso e uscita. Queste relazioni sono illustrate nelle immagini.
 

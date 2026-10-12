@@ -40,16 +40,16 @@ $d > \dfrac{\lambda}{2\pi}$
 #### Procedimento di soluzione
 <left>
 * dato: $g_d = \qty{6}{\dBd}$
-* dato: $E = \qty{28}{\volt\per\metro}$
+* dato: $E = \qty{28}{\volt\per\meter}$
 </left>
 <right>
-* dato: $d = \qty{5}{\metro}$
+* dato: $d = \qty{5}{\meter}$
 * cercato: $P_S$
 </right>
 
 <fragment>
 <left>
-$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow P_{EIRP} &= \frac{(E \cdot d)^2}{\qty{30}{\ohm}}\\ &= \frac{(\qty{28}{\volt\per\metro} \cdot \qty{5}{\metro})^2}{\qty{30}{\ohm}}\\ &\approx \qty{653}{\watt}\end{split}$
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow P_{EIRP} &= \frac{(E \cdot d)^2}{\qty{30}{\ohm}}\\ &= \frac{(\qty{28}{\volt\per\meter} \cdot \qty{5}{\meter})^2}{\qty{30}{\ohm}}\\ &\approx \qty{653}{\watt}\end{split}$
 </left>
 </fragment>
 <fragment>
@@ -69,7 +69,7 @@ $\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d - a + 2,15dB}{\qty{10}{\dB}}}\
 * dato: $P_A = \qty{250}{\watt}$
 </left>
 <right>
-* dato: $d = \qty{30}{\metro}$
+* dato: $d = \qty{30}{\meter}$
 * cercato: $E$
 </right>
 
@@ -80,7 +80,7 @@ $\begin{split}G_i &= 10^{\frac{g_i}{\qty{10}{\dB}}}\\ &= 10^{\frac{\qty{12,15}{\
 </fragment>
 <fragment>
 <right>
-$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{250}{\watt} \cdot 16,4}}{\qty{30}{\metro}}\\ &\approx \frac{\qty{350}{\volt}}{\qty{30}{\metro}}\\ &\approx \qty{11,7}{\volt\per\metro}\end{split}$
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{250}{\watt} \cdot 16,4}}{\qty{30}{\meter}}\\ &\approx \frac{\qty{350}{\volt}}{\qty{30}{\meter}}\\ &\approx \qty{11,7}{\volt\per\meter}\end{split}$
 </right>
 </fragment>
 
@@ -91,7 +91,7 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ &= \fra
 --- style="font-size: smaller;"
 #### Procedimento di soluzione
 * dato: $P_{ERP} = \qty{100}{\watt}$
-* dato: $d = \qty{100}{\metro}$
+* dato: $d = \qty{100}{\meter}$
 * cercato: $E$
 
 <fragment>
@@ -101,7 +101,7 @@ $\begin{split}P_{EIRP} &= P_{ERP} \cdot 1,64\\ &= \qty{100}{\watt} \cdot 1,64\\ 
 </fragment>
 <fragment>
 <right>
-$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{164}{\watt}}}{\qty{100}{\metro}}\\ &\approx \qty{0,7}{\volt\per\metro}\end{split}$
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{164}{\watt}}}{\qty{100}{\meter}}\\ &\approx \qty{0,7}{\volt\per\meter}\end{split}$
 </right>
 </fragment>
 
@@ -112,7 +112,7 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ &= \frac{\sq
 --- style="font-size: smaller;"
 #### Procedimento di soluzione
 * dato: $P_{ERP} = \qty{100}{\watt}$
-* dato: $d = \qty{100}{\metro}$
+* dato: $d = \qty{100}{\meter}$
 * cercato: $E$
 
 <fragment>
@@ -122,6 +122,6 @@ $\begin{split}P_{EIRP} &= P_{ERP} \cdot 1,64\\ &= \qty{100}{\watt} \cdot 1,64\\ 
 </fragment>
 <fragment>
 <right>
-$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{164}{\watt}}}{\qty{100}{\metro}}\\ &\approx \qty{0,7}{\volt\per\metro}\end{split}$
+$\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ &= \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{164}{\watt}}}{\qty{100}{\meter}}\\ &\approx \qty{0,7}{\volt\per\meter}\end{split}$
 </right>
 </fragment>

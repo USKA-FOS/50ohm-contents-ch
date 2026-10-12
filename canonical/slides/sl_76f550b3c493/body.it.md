@@ -12,7 +12,7 @@
 <left>
 * Alle due piastre elettricamente conduttrici viene collegato rispettivamente il polo positivo e negativo
 * Tra le piastre si forma un campo elettrico omogeneo (*campo E*)
-* Intensità del campo elettrico: $E = \dfrac{U}{d}$ in $\unit{\volt\per\metro}$
+* Intensità del campo elettrico: $E = \dfrac{U}{d}$ in $\unit{\volt\per\meter}$
 * Con $d$ come distanza tra le piastre
 </left>
 <right>
@@ -48,12 +48,12 @@
 
 Il trucco qui è che la rigidità dielettrica corrisponde all'intensità del campo elettrico $E$.
 
-* Dati: $d = \qty{0,15}{\milli\metro}$ e $E = \qty{400}{\kilo\volt\per\centi\metro}$
+* Dati: $d = \qty{0,15}{\milli\meter}$ e $E = \qty{400}{\kilo\volt\per\centi\meter}$
 * Ricercato: $U$
 * Soluzione:
 
 $E = \frac{U}{d} \Rightarrow U = E\cdot d$
-$U = 400 \cdot \frac{\qty{10^3}{\volt}}{\qty{10^{-2}}{\metro}}\cdot \qty{0,15e-3}{\metro}$
+$U = 400 \cdot \frac{\qty{10^3}{\volt}}{\qty{10^{-2}}{\meter}}\cdot \qty{0,15e-3}{\meter}$
 $U = \qty{6e3}{\volt} = \qty{6}{\kilo\volt}$
 
 ---

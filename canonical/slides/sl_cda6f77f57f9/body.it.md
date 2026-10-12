@@ -17,7 +17,7 @@ Grafico di un conduttore percorso da corrente con linee di campo magnetico conce
 </left>
 <right>
 [picture:50:e_h_feld_spule:Linee di campo magnetico in una bobina cilindrica]
-* Unità: $\unit{\ampere\per\metro}$
+* Unità: $\unit{\ampere\per\meter}$
 </right>
 <note>
 * Il campo H, ossia l’intensità di campo magnetico H, verrà trattato in alcune diapositive successive
@@ -40,7 +40,7 @@ Grafico di un conduttore percorso da corrente con linee di campo magnetico conce
 
 ---
 <left>
-* Intensità di campo magnetico $H = \dfrac{I\cdot N}{l_m}$ in $\unit{\ampere\per\metro}$
+* Intensità di campo magnetico $H = \dfrac{I\cdot N}{l_m}$ in $\unit{\ampere\per\meter}$
 * con $N$ come numero di spire e $l_m$ lunghezza media del nucleo
 </left>
 <right>

@@ -62,5 +62,5 @@ $\begin{split} P_{\textrm{écart}} &= 100\% - (U_{\mathrm{écart}} \cdot I_{\mat
 * recherché : $I$
 
 <fragment>
-$$I = \frac{U}{R} = \frac{\qty{0,5}{\volt}}{\qty{10}{\mega\ohm}} = \qty{50}{\nano\ampère}$$
+$$I = \frac{U}{R} = \frac{\qty{0,5}{\volt}}{\qty{10}{\mega\ohm}} = \qty{50}{\nano\ampere}$$
 </fragment>

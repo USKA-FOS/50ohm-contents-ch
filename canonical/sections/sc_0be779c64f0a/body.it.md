@@ -17,7 +17,7 @@ La cosiddetta *intensità di campo magnetico* dipende sia dalla corrente generat
 $H(r) = \frac{I}{2\cdot\pi\cdot r}$
 
 <unit>
-Da questa equazione possiamo derivare direttamente l'unità di misura dell'intensità di campo magnetico, ovvero $\unit{\ampere\per\metro}$. 
+Da questa equazione possiamo derivare direttamente l'unità di misura dell'intensità di campo magnetico, ovvero $\unit{\ampere\per\meter}$. 
 </unit>
 
 [question:EA104]
@@ -40,15 +40,15 @@ All'interno di una bobina cilindrica, a differenza di un conduttore rettilineo, 
 
 [question:EB203]
 
-Per questa domanda d'esame calcoliamo prima la circonferenza media di un anello con diametro medio $d$. Nel problema è $d=\qty{2,6}{\centi\metro}$. Fate attenzione all'unità di misura: è meglio convertirla nell'unità fondamentale $\unit{\metro}$.
+Per questa domanda d'esame calcoliamo prima la circonferenza media di un anello con diametro medio $d$. Nel problema è $d=\qty{2,6}{\centi\meter}$. Fate attenzione all'unità di misura: è meglio convertirla nell'unità fondamentale $\unit{\meter}$.
 
 La circonferenza media ($l_m$) si ottiene dalla seguente relazione:
 
-$l_m = \pi \cdot d = \pi\cdot \qty{0,026}{\metro} = \qty{0,082}{\metro}$
+$l_m = \pi \cdot d = \pi\cdot \qty{0,026}{\meter} = \qty{0,082}{\meter}$
 
 Il campo magnetico viene generato da $N$ spire da una corrente che è $N$ volte maggiore della corrente $I$ che fluisce nel conduttore. Pertanto, per l'intensità di campo magnetico $H$ vale, secondo la raccolta di formule:
 
-$H = \frac{N\cdot I}{l_m} = \frac{6 \cdot \qty{2,5}{\ampere}}{\qty{0,082}{\metro}} = \qty{183}{\ampere\per\metro}$
+$H = \frac{N\cdot I}{l_m} = \frac{6 \cdot \qty{2,5}{\ampere}}{\qty{0,082}{\meter}} = \qty{183}{\ampere\per\meter}$
 
 ---
 

@@ -32,7 +32,7 @@ Il simbolo $L$ è stato scelto in onore del professore Emil Lenz (1804–1864) d
 
 
 <unit>
-Una bobina possiede un’induttanza $L$ con unità di misura $\qty{1}{\volt\secondo\per\ampere}$, solitamente espressa in *henry* ($\unit{\henry}$). L’unità prende il nome dal fisico statunitense *Joseph Henry* (1797–1878). Un’induttanza di $\qty{1}{\henry}$ si verifica quando una variazione di corrente di $\qty{1}{\ampere}$ in un secondo genera una tensione di autoinduzione di $\qty{1}{\volt}$. In pratica, i valori delle induttanze sono generalmente molto inferiori e vengono tipicamente espressi in $\unit{\milli\henry}$, $\unit{\micro\henry}$ o $\unit{\nano\henry}$.
+Una bobina possiede un’induttanza $L$ con unità di misura $\qty{1}{\volt\second\per\ampere}$, solitamente espressa in *henry* ($\unit{\henry}$). L’unità prende il nome dal fisico statunitense *Joseph Henry* (1797–1878). Un’induttanza di $\qty{1}{\henry}$ si verifica quando una variazione di corrente di $\qty{1}{\ampere}$ in un secondo genera una tensione di autoinduzione di $\qty{1}{\volt}$. In pratica, i valori delle induttanze sono generalmente molto inferiori e vengono tipicamente espressi in $\unit{\milli\henry}$, $\unit{\micro\henry}$ o $\unit{\nano\henry}$.
 </unit>
 
 ---

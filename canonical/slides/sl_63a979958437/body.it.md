@@ -1,7 +1,7 @@
 [photo:217:e_aurora:Aurora al corso di formazione radioamatoriale di maggio 2024]
 
 ---
-* Fenomeno di aurora boreale o polare a un’altezza di circa $\qtyrange{90}{200}{\kilo\metro}$
+* Fenomeno di aurora boreale o polare a un’altezza di circa $\qtyrange{90}{200}{\kilo\meter}$
 * Principalmente sopra i poli magnetici nord e sud
 * Gli atomi di ossigeno e azoto vengono eccitati o ionizzati dal vento solare
 * Vento solare: particelle elettricamente cariche

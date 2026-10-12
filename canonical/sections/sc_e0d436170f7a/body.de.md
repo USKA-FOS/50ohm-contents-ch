@@ -89,7 +89,7 @@ Die weiteren Aufgaben sind ähnlich und leicht lösbar.
 %
 %*ED 118:* Reihenschaltung von $\qty{22}{\nano\farad}$, $\qty{0,033}{\micro\farad} = \qty{33}{\nano\farad}$ und $\qty{15000}{\pico\farad} = \qty{15}{\nano\farad}$.
 %$\frac{1}{C_{\mathrm{ges}}} = \frac{1}{\qty{22}{\nano\farad}} + \frac{1}{\qty{33}{\nano\farad}} + \frac{1}{\qty{15}{\nano\farad}}$
-%Eigentlich muss man nicht rechnen, denn es gibt nur ein Ergebnis, das kleiner als $\qty{15}{\nano\farard}$ ist.
+%Eigentlich muss man nicht rechnen, denn es gibt nur ein Ergebnis, das kleiner als $\qty{15}{\nano\farad}$ ist.
 %*ED 120:* $\qty{50}{\micro\farad}$ 
 %*ED 122:* $C_2 = \qty{1}{\micro\farad}$ und $C_3 = \qty{1}{\micro\farad}$ in Parallelschaltung ergibt zusammen $\qty{2}{\micro\farad}$. Dazu $C_1 = \qty{2}{\micro\farad}$ in Reihe %ergibt die Hälfte , also $\qty{1}{\micro\farad}$.
 % 

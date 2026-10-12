@@ -17,8 +17,8 @@ Per rispondere alla domanda è importante il punto 2: l'assorbimento di energia 
 Nella [Ordinanza sulla protezione dalle radiazioni non ionizzanti (ORNI)](https://50ohm.de/BImSchV) nell'allegato 1 (tabelle 1a e 1b) e nell'allegato 3 vengono descritti i valori limite. Qui si distinguono tre casi:
 
 
-* Valore di picco istantaneo (in $\unit{\kilo\volt\per\metro}$ su $\unit{\hertz}$, cfr. figura [ref:e_grenzwerte_max])
-* Intervalli di 6 minuti (in $\unit{\volt\per\metro}$ su $\unit{\mega\hertz}$, cfr. figura [ref:e_grenzwerte_avg])
+* Valore di picco istantaneo (in $\unit{\kilo\volt\per\meter}$ su $\unit{\hertz}$, cfr. figura [ref:e_grenzwerte_max])
+* Intervalli di 6 minuti (in $\unit{\volt\per\meter}$ su $\unit{\mega\hertz}$, cfr. figura [ref:e_grenzwerte_avg])
 * Campi impulsivi (calcolati dai primi due e dai fattori dipendenti dalla frequenza, cfr. figura [ref:e_grenzwerte_pulse])
 
 
@@ -31,7 +31,7 @@ Nella [Ordinanza sulla protezione dalle radiazioni non ionizzanti (ORNI)](https:
 
 ---
 
-Poiché non si trasmette in modo continuo, di norma utilizziamo il valore quadratico medio dell'intensità di campo ($\unit{\volt\per\metro}$), mediato su un periodo di 6 minuti. Un valore importante in questo contesto è $\qty{28}{\volt\per\metro}$, valido per la gamma da $\qtyrange{10}{400}{\mega\hertz}$, quindi per molte bande di frequenze amatoriali, e che compare in alcune domande d'esame sulla protezione delle persone.
+Poiché non si trasmette in modo continuo, di norma utilizziamo il valore quadratico medio dell'intensità di campo ($\unit{\volt\per\meter}$), mediato su un periodo di 6 minuti. Un valore importante in questo contesto è $\qty{28}{\volt\per\meter}$, valido per la gamma da $\qtyrange{10}{400}{\mega\hertz}$, quindi per molte bande di frequenze amatoriali, e che compare in alcune domande d'esame sulla protezione delle persone.
 
 
 <tip>
