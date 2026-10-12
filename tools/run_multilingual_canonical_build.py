@@ -303,6 +303,7 @@ def build_release_manifest(
     beta: bool,
     feedback_url: str,
     generator_seed: int,
+    review_workflow: bool = False,
     sources: dict[str, dict[str, Any]],
 ) -> dict[str, Any]:
     artifacts = {}
@@ -326,6 +327,7 @@ def build_release_manifest(
         "created_at": datetime.now(UTC).isoformat().replace("+00:00", "Z"),
         "sources": sources,
         "generator_seed": generator_seed,
+        "review_workflow": review_workflow,
         "languages": list(LANGUAGES),
         "artifacts": artifacts,
     }
@@ -1187,6 +1189,7 @@ def build_config(
     output_root: Path,
     *,
     generator_seed: int,
+    review_workflow: bool = False,
     release_id: str | None = None,
     beta: bool = False,
     feedback_url: str = DEFAULT_FEEDBACK_URL,
@@ -1199,6 +1202,7 @@ def build_config(
         "output": str(output_root),
         "random_seed": generator_seed,
         "generator_status": False,
+        "review_workflow": review_workflow,
     }
     if release_id is not None:
         config.update(
@@ -1228,6 +1232,7 @@ def run_generator(
     *,
     validation_root: Path,
     generator_seed: int,
+    review_workflow: bool = False,
     release_id: str | None = None,
     beta: bool = False,
     feedback_url: str = DEFAULT_FEEDBACK_URL,
@@ -1248,6 +1253,7 @@ def run_generator(
             INPUT_ROOT / language,
             output_root,
             generator_seed=generator_seed,
+            review_workflow=review_workflow,
             release_id=release_id,
             beta=beta,
             feedback_url=feedback_url,
@@ -1313,6 +1319,7 @@ def run(
     skip_build: bool = False,
     languages: tuple[str, ...] = LANGUAGES,
     generator_seed: int = DEFAULT_GENERATOR_SEED,
+    review_workflow: bool = False,
     release_id: str | None = None,
     release_output: Path | None = None,
     beta: bool = False,
@@ -1356,6 +1363,7 @@ def run(
                         language,
                         validation_root=run_validation_root,
                         generator_seed=generator_seed,
+                        review_workflow=review_workflow,
                         release_id=release_id,
                         beta=beta,
                         feedback_url=feedback_url,
@@ -1371,6 +1379,7 @@ def run(
             beta=beta,
             feedback_url=feedback_url,
             generator_seed=generator_seed,
+            review_workflow=review_workflow,
             sources=release_sources,
         )
         manifest_path = BUILD_ROOT / RELEASE_MANIFEST_NAME
@@ -1401,6 +1410,7 @@ def run(
         "database_reason": db_info["reason"],
         "database_state": db_info["state"],
         "generator_seed": generator_seed,
+        "review_workflow": review_workflow,
         "staged": staged,
         "builds": builds,
         "comparison": comparison,
@@ -1413,6 +1423,11 @@ def run(
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--skip-build", action="store_true")
+    parser.add_argument(
+        "--enable-review-workflow",
+        action="store_true",
+        help="Include chapter and section review controls (disabled by default).",
+    )
     parser.add_argument(
         "--generator-seed",
         type=int,
@@ -1467,6 +1482,7 @@ def main() -> None:
             skip_build=args.skip_build,
             languages=languages,
             generator_seed=args.generator_seed,
+            review_workflow=args.enable_review_workflow,
             release_id=args.release_id,
             release_output=args.release_output.expanduser().resolve() if args.release_output else None,
             beta=args.beta,

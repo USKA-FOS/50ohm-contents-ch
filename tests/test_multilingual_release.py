@@ -168,6 +168,7 @@ def test_release_manifest_describes_each_language_tree(tmp_path: Path, monkeypat
     assert manifest["release_id"] == "beta-test-1"
     assert manifest["release_tag"] == "beta-test-1"
     assert manifest["beta"] is True
+    assert manifest["review_workflow"] is False
     assert manifest["sources"] == sources
     assert set(manifest["artifacts"]) == set(build.LANGUAGES)
     assert all(manifest["artifacts"][language]["file_count"] == 1 for language in build.LANGUAGES)
@@ -189,10 +190,13 @@ def test_generator_config_receives_release_context_only_in_release_mode() -> Non
     assert "beta" not in development
     assert "feedback_url" not in development
     assert development["generator_status"] is False
+    assert development["review_workflow"] is False
     assert release["release_id"] == "beta-test-1"
     assert release["beta"] is True
     assert release["feedback_url"] == "https://example.invalid/feedback"
     assert release["generator_status"] is False
+    assert release["review_workflow"] is False
+    assert build.build_config(Path("input"), Path("output"), generator_seed=50, review_workflow=True)["review_workflow"] is True
 
 
 @pytest.mark.parametrize("language", build.LANGUAGES)

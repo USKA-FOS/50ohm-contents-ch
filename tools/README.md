@@ -256,6 +256,14 @@ offline and promoted atomically. This excludes the optional status widget and
 its polling requests from release pages. Other wrappers are unaffected: the
 generator default remains enabled when they omit this setting.
 
+Chapter/section review workflow controls, the German worktree diff button and
+its `diff.html` page are disabled by default for every language. Add
+`--enable-review-workflow` to opt in during a build. This
+restores the existing German-oriented workflow on all three language pages;
+it does not create independent French or Italian review states. See
+[`docs/REVIEW_WORKFLOW_RELEASE_AND_MULTILINGUAL_DESIGN.md`](../docs/REVIEW_WORKFLOW_RELEASE_AND_MULTILINGUAL_DESIGN.md)
+for the current data flow, limitations and future multilingual design.
+
 The feedback URL recorded in the manifest defaults to
 `https://50ohm.jp2s.ch/feedback` and can be changed with `--feedback-url`.
 Neither release mode nor promotion creates a Git commit, tag, or push. Those
