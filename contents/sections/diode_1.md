@@ -31,7 +31,7 @@ Betrachten wir eine Diodenkennlinie in Abbildung [ref:e_diode_kennlinie_iu], so 
 Als Anhaltspunkte für die Schwellspannung von Dioden können wir für Germanium (Ge) etwa $\qtyrange{0,2}{0,3}{\volt}$ und für Silizium (Si) etwa $\qtyrange{0,6}{0,7}{\volt}$ angeben.
 
 <attention>
-Die Schwellspannung $U_{th}$ wird auch *Flussspannung* genannt, weil erst aber dieser Spannung der Strom markant zu fliessen beginnt.
+Die Schwellspannung $U_{th}$ wird auch *Flussspannung* genannt, weil erst ab dieser Spannung der Strom markant zu fliessen beginnt.
 </attention>
 
 %<margin>
