@@ -10,7 +10,7 @@ Voici le fonctionnement d’une telle [ligne de dérivation](#).
 
 Une [antenne](#) symétrique nécessite, aux deux points de connexion, une [tension](#) HF par rapport à la [terre](#). Ces tensions doivent avoir la même amplitude, mais être déphasées de $\qty{180}{\degree}$.
 
-Un déphasage de $\qty{180}{\degree}$ peut être obtenu à l’aide d’une [ligne de dérivation](#) de $\lambda / 2$. Par exemple, on peut connecter *les deux* points de connexion d’un dipôle replié au conducteur intérieur du [câble coaxial](#), l’un des points étant relié après une [ligne de dérivation](#) qui introduit un déphasage de $\qty{180}{\degree}$.
+Un déphasage peut être obtenu à l’aide d’une [ligne de dérivation](#) de $\lambda / 2$. Par exemple, on peut connecter *les deux* points de connexion d’un dipôle replié au conducteur intérieur du [câble coaxial](#), l’un des points étant relié après une [ligne de dérivation](#) qui introduit un déphasage de $\qty{180}{\degree}$.
 
 Le blindage du [câble coaxial](#) est alors au potentiel de la [terre](#), ce qui élimine les [courants de gaine](#).
 

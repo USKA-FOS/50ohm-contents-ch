@@ -108,7 +108,7 @@ Calcoliamo innanzitutto la tensione che deve essere applicata alla resistenza ($
 
 $U = \sqrt{P \cdot R} = \sqrt{\qty{1}{\watt} \cdot \qty{10000}{\ohm}} = \qty{100}{\volt}$
 
-Quindi la massima tensione continua è proprio $\qty{100}{\volt}$!
+Quindi la massima tensione continua è proprio 100 V!
 
 %%%%%
 

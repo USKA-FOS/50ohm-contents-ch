@@ -1,0 +1,41 @@
+{
+  "purpose": "Preserve the seven existing local canonical edits before the requested deterministic markup repairs; this is a recovery snapshot, not a claim of complete validation.",
+  "baseline_commit": "074cd50b8c41d97cc1a8b4eec17e186a4aba1be0",
+  "files": [
+    {
+      "path": "canonical/html_includes/in_f8bab83562ac/body.fr.html",
+      "before_sha256": "7c4c64589f11adb79086b8604ae8a2e8f113fc9b483c6d9d2a872c74efff3eef",
+      "after_sha256": "1d9d43f42098f09e2c291171439a7fa48975443cf336fc12dc1bdaaa605bd6c3"
+    },
+    {
+      "path": "canonical/html_includes/in_f8bab83562ac/body.it.html",
+      "before_sha256": "e0dbd808a01ecf8171d2169a0d022c236ced04ad1f7303f0419d68fffc37e418",
+      "after_sha256": "e69b638d94d0da499cab79cf7395ea095fb3eb8373b7c195c916855ee5bbfe55"
+    },
+    {
+      "path": "canonical/sections/sc_7c9e3baad6b0/body.it.md",
+      "before_sha256": "4ce3f3a2cb57a85057043382f71b04edc50d877785b7768fc35e09c1dc6554a2",
+      "after_sha256": "0a544ba86100b09ce203542db6c3320e0f391e52c08ad5fd20cf6880d35ce3c8"
+    },
+    {
+      "path": "canonical/sections/sc_8162bd5007c7/body.fr.md",
+      "before_sha256": "ebc25f02efa83eb4ce99298f83f9cd62528068c4b82cff0b426076e8efaf0eb8",
+      "after_sha256": "070edb62c059890dfc7000d47f2877e95536cdec824af5c8334b86fdac5f6664"
+    },
+    {
+      "path": "canonical/sections/sc_a92f421064cc/body.fr.md",
+      "before_sha256": "d4687a480d133b445f92c092494be33cbc6c506700d1f030b4277debb60b9636",
+      "after_sha256": "ebaf136bfd7d7111247e96bbc354e1f85c5bfea947bf1828ab3f3cb3d28a6844"
+    },
+    {
+      "path": "canonical/slides/sl_c636250d831f/body.fr.md",
+      "before_sha256": "f4fa650bc2240ac6f0f9dd8cfc35c67317715727271d81b8190d81a387780c45",
+      "after_sha256": "2a9b1ee305583c599292363ab384614a7fc704d6b8eeca4f1105b03cf34cd5f1"
+    },
+    {
+      "path": "canonical/slides/sl_c636250d831f/body.it.md",
+      "before_sha256": "941c08b1b869c4699f5fa9418d55c3bc908ea3149fe87d8f61d7453ab13dd4bb",
+      "after_sha256": "8f44b66f3a82ad7c0a5c2f9227b3fc8c3ee87c3699ddc354d4352e5f850b1d4c"
+    }
+  ]
+}
