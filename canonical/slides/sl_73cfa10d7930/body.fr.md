@@ -4,7 +4,7 @@
 <right>
 * Les ondes radio dans les bandes VHF et UHF se comportent de manière similaire à la lumière
 * La lumière atteint au maximum l’horizon géographique (visible)
-* Les ondes radio offrent environ 15 % de portée en plus
+* Les ondes radio offrent environ 15% de portée en plus
 * Suivent légèrement la courbure de la Terre
 </right>
 

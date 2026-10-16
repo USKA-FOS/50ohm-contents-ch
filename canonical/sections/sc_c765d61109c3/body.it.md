@@ -16,7 +16,7 @@ La robustezza di un ricevitore nei confronti di segnali forti può essere descri
 <indepth>
 In questa sezione approfondita consideriamo l’IP3 come parametro per la robustezza di un ricevitore nei confronti di segnali forti. In generale, i prodotti di intermodulazione nascono da non linearità presenti negli amplificatori, nei mixer o in altri stadi del ricevitore. Con due segnali d’ingresso $f_1$ e $f_2$, possono generarsi prodotti di intermodulazione della forma
 
-$f_{\text{mix}} = \left| m \cdot f_1 \pm n \cdot f_2 \right|$
+$f_\text{mix} = \left| m \cdot f_1 \pm n \cdot f_2 \right|$
 
 dove $m,n \in \mathbb{N}_0$ e i due coefficienti non possono essere contemporaneamente nulli. L’ordine di un prodotto di intermodulazione è dato dalla somma dei coefficienti:
 

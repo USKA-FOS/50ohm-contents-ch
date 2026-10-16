@@ -6,4 +6,4 @@ $Q = \frac{X_L}{R_S}$
 
 Plus les pertes sont importantes, plus $R_S$ est grand et plus le facteur de qualité $Q$ diminue. Le facteur de perte $\tan\delta$ décrit la même relation de manière inversée et correspond à l'inverse du facteur de qualité :
 
-$\tan\delta = \frac{1}{Q} = \frac{R_S}{X_L}$
+$\tan\delta = \frac{1}{Q} =\frac{R_S}{X_L}$

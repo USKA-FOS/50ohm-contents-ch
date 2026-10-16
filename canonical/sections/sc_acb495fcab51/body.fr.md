@@ -52,7 +52,7 @@ où $\alpha$ désigne l'angle de rayonnement (cf. figure [ref:e_muf_winkel]). En
 
 ---
 
-Pour la planification commerciale des fréquences, où il est important qu'une liaison radio réussisse avec une forte probabilité, il existe également le terme *FOT* (*frequency of optimal transmission*, fréquence optimale d'émission), ou aussi $f_\text{opt}$. C'est la fréquence qui, sur un trajet de signal donné, permet statistiquement une liaison radio 90 % des jours ; elle se situe généralement 15 % en dessous de la moyenne mensuelle de la MUF. Dans le recueil de formules, nous trouvons cette relation sous la forme
+Pour la planification commerciale des fréquences, où il est important qu'une liaison radio réussisse avec une forte probabilité, il existe également le terme *FOT* (*frequency of optimal transmission*, fréquence optimale d'émission), ou aussi $f_\text{opt}$. C'est la fréquence qui, sur un trajet de signal donné, permet statistiquement une liaison radio 90% des jours ; elle se situe généralement 15% en dessous de la moyenne mensuelle de la MUF. Dans le recueil de formules, nous trouvons cette relation sous la forme
 
 $f_\text{OPT} = MUF \cdot 0,85$
 

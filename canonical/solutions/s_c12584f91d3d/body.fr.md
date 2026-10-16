@@ -1,11 +1,11 @@
-On cherche la longueur totale d’une antenne verticale de $\frac{5}{8}$-$\lambda$.
+On cherche la longueur totale d’une antenne verticale de $5/8$-$\lambda$.
 
 La longueur d’onde à $\qty{14,2}{\mega\hertz}$ est
 
 
 $\lambda = \frac{c}{f} = \frac{\qty{300}{\mega\meter\per\second}}{\qty{14,2}{\mega\hertz}} \approx \qty{21,13}{\meter}$.
 
-Pour une longueur de $\frac{5}{8}$ de la longueur d’onde, on obtient d’abord
+Pour une longueur de $5/8$ de la longueur d’onde, on obtient d’abord
 
 
 $l = \frac{5}{8} \cdot \qty{21,13}{\meter} \approx \qty{13,20}{\meter}$.

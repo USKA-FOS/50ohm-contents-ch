@@ -12,8 +12,8 @@ Dans le processus de mélange vers la $f_\text{ZF}$, deux fréquences de récept
 [image:806:spiegelfrequenzen_fe1_fe2:Fréquences de réception conduisant toutes deux à la même $f_\text{ZF}$]
 </left>
 <right>
-* Fréquence de réception souhaitée $f_\text{e1} \rightarrow$ fréquence image $f_\text{e2}$
-* Distance entre la fréquence de réception souhaitée et la fréquence image $\rightarrow 2 \cdot f_\text{ZF}$
+* Fréquence de réception souhaitée $f_\text{e1}\rightarrow$ fréquence image $f_\text{e2}$
+* Distance entre la fréquence de réception souhaitée et la fréquence image $\rightarrow2 \cdot f_\text{ZF}$
 </right>
 ---
 <left>

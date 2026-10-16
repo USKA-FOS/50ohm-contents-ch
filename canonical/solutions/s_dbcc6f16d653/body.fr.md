@@ -4,7 +4,8 @@ $ U_{\mathrm{eff}} = \frac{\qty{230}{\volt}}{20} = \qty{11,5}{\volt} $
 
 Le condensateur se charge à la valeur de crête de la tension alternative :
 
-$ \hat{U} = U_{\mathrm{eff}} \cdot \sqrt{2} = \qty{11,5}{\volt} \cdot \sqrt{2} \approx \qty{16,3}{\volt} $
+$ \hat{U} = U_{\mathrm{eff}} \cdot \sqrt{2} = \qty{11,5}{\volt} \cdot \sqrt{2} \approx \qty{16,3}{\volt}
+$
 
 Un supplément de sécurité de $\qty{50}{\percent}$ doit également être pris en compte :
 

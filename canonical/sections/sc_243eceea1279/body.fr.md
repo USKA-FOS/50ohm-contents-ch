@@ -62,9 +62,7 @@ Sur papier, on peut écrire des nombres binaires avec autant de bits que nécess
 
 [question:EA205]
 
-Une largeur fixe limite la plage de valeurs. Avec un bit, deux valeurs sont possibles ($
-\num{0}$ et $\num{1}$), avec deux bits déjà quatre ($
-\num{00}$, $\num{01}$, $\num{10}$ et $\num{11}$) et avec chaque bit supplémentaire, le nombre double. Avec $n$ bits, on peut représenter $2^n$ nombres différents.
+Une largeur fixe limite la plage de valeurs. Avec un bit, deux valeurs sont possibles ($\num{0}$ et $\num{1}$), avec deux bits déjà quatre ($\num{00}$, $\num{01}$, $\num{10}$ et $\num{11}$) et avec chaque bit supplémentaire, le nombre double. Avec $n$ bits, on peut représenter $2^n$ nombres différents.
 
 [question:EA204]
 [question:EA202]

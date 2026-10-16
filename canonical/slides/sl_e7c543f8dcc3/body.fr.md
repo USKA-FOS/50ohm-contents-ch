@@ -23,7 +23,7 @@
 ---
 [question:AC111]
 <note>
-En régime établi, le courant est presque nul, ce qui explique que la puissance est également quasi nulle (0 W).
+En régime établi, le courant est presque nul, ce qui explique que la puissance est également quasi nulle (0W).
 </note>
 ---
 * La puissance active n'est dissipée que dans une résistance ohmique (courant et tension en phase)

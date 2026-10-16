@@ -53,8 +53,8 @@ Definizione: la larghezza dell’impulso è al 50% del valore di picco
 [question:AI305]
 ---
 ### Procedimento di soluzione
-* dato: $R=\qty{50}{\ohm}$
-* dato: (dalla rappresentazione) $\hat{U} = \qty{100}{\volt}$
+* dato: $R=50\Omega$
+* dato: (dalla rappresentazione) $\hat{U} = 100V$
 * cercato: $P_{\textrm{PEP}}$
 
 <fragment>

@@ -38,8 +38,7 @@
 
 ### Esempio pratico: lettore CD
 
-* I lettori CD lavorano tipicamente con $\qty{44,1}{\kilo\sps}$ ($
-\num{44100}$ campioni al secondo)
+* I lettori CD lavorano tipicamente con $\qty{44,1}{\kilo\sps}$ ($\num{44100}$ campioni al secondo)
 * Ne consegue che le frequenze fino a circa $\qty{22}{\kilo\hertz}$ possono essere correttamente rappresentate
 * Questo corrisponde alla banda di frequenza HiFi di impianti stereo di buona qualità
 * Nota: la frequenza di campionamento dovrebbe sempre essere leggermente superiore al doppio della frequenza massima da elaborare

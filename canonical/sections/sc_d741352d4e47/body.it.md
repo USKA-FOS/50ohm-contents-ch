@@ -45,7 +45,7 @@ $10^{\frac{g-a}{\qty{10}{\dB}}} = \frac{P_\mathrm{EIRP}}{P_\mathrm{Sender}} \qua
   
 Moltiplicando per $P_\mathrm{Sender}$ si ottiene la formula necessaria:
   
-$P_\mathrm{EIRP} = P_\mathrm{Sender} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}$
+$P_\mathrm{EIRP} = P_\mathrm{Sender} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}}$
 </indepth>
 
 In questo caso $g_i$ è il <b>guadagno d'antenna</b> riferito al <b>radiatore</b> isotropico, mentre $a$ descrive l’<b>attenuazione</b> dovuta ai cavi e ai dispositivi di adattamento.

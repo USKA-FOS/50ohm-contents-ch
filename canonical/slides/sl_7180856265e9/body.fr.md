@@ -90,7 +90,7 @@ La fréquence critique est aussi indiquée par $f_k$ ou $f_\mathrm{krit}$
 ### Méthode de résolution
 <left>
 * donné : $\alpha = \qty{45}{\degree}$
-* donné : $f_c = 3\text{MHz}$
+* donné : $f_c = 3MHz$
 </left>
 <right>
 * recherché : $\mathrm{MUF}$
@@ -99,7 +99,7 @@ La fréquence critique est aussi indiquée par $f_k$ ou $f_\mathrm{krit}$
 
 <left>
 <fragment>
-$\begin{split} \text{MUF} & \approx \frac{f_c}{\sin(\alpha)}\\n&\approx \frac{\qty{3}{\mega\hertz}}{\num{0,71}}\\n&\approx \qty{4,2}{\mega\hertz}\end{split}$
+$\begin{split} \text{MUF} & \approx \frac{f_c}{\sin(\alpha)}\\&\approx \frac{\qty{3}{\mega\hertz}}{\num{0,71}}\\&\approx \qty{4,2}{\mega\hertz}\end{split}$
 </fragment>
 </left>
 <right>

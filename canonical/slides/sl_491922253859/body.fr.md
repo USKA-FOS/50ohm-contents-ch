@@ -26,7 +26,7 @@ HB9AFN est une station suisse
 ---
 [question:BB105]
 <note>
-La bande des 80 m est ouverte de nuit pour les liaisons DX (onde spatiale au lieu d’onde de sol)
+La bande des 80m est ouverte de nuit pour les liaisons DX (onde spatiale au lieu d’onde de sol)
 </note>
 
 ---

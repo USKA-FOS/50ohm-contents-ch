@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "tool": "apply_canonical_technical_format_review",
+  "mode": "applied",
+  "review_manifest": "/home/jjcarron/proj/50-Ohms/ham-translator/tmp/canonical-technical-format-post-validation-20261016.json",
+  "review_manifest_sha256": "873bdaefc274cf213423e7414c90e76447f160ce994c57ed4b801d6e77ba60e4",
+  "decisions_csv": "/home/jjcarron/proj/50-Ohms/ham-translator/tmp/canonical-technical-format-workbook-v3-followup-decisions-20261016.csv",
+  "decisions_csv_sha256": "f32d72ac157a70bc9eb84fec292b2fde926374b747417a570fb17a11ebf7111c",
+  "files": [
+    {
+      "path": "sections/sc_36c00a4bf432/body.fr.md",
+      "before_sha256": "1d8e82ea13fd8e16863cd36cfe94e2d1f00a58cc32676c2d7ca0258f2c8b9b1f",
+      "after_sha256": "a42ef4286368e4d7de8836ae25d78df31435ac8eb73003920dd3f013099e3964",
+      "changes": [
+        {
+          "case_id": "741a01955daf6869",
+          "start": 6699,
+          "end": 6718,
+          "expected": "s_\\text{BFO}^2(t)=1",
+          "replacement": "s_\\mathrm{BFO}^2(t)=1",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_842f32115304/body.it.md",
+      "before_sha256": "9e5fee44a54ce2236c3429c92784bcdc2b64b7d9f7026ab83db571dbde2e8499",
+      "after_sha256": "7b0e45ac03772a46537467829550d582b7d1392899af766f33ac39060b153df9",
+      "changes": [
+        {
+          "case_id": "754d0c70f726b926",
+          "start": 3787,
+          "end": 4004,
+          "expected": "\\begin{split} U_d &= \\qty{400}{\\kilo\\volt\\per\\centi\\meter} \\cdot \\qty{0,15}{\\milli\\meter} \\\\ &= \\qty{40000000}{\\volt\\per\\meter} \\cdot \\qty{0,00015}{\\meter} \\\\ &= \\qty{6000}{\\volt} \\\\ &= \\qty{6}{\\kilo\\volt} \\end{split}",
+          "replacement": "\\begin{split} U_d &= \\qty{400}{\\kilo\\volt\\per\\centi\\meter} \\cdot \\qty{0,15}{\\milli\\meter} \\\\ &= \\qty{40000000}{\\volt\\per\\meter} \\cdot \\qty{0,00015}{m} \\\\ &= \\qty{6000}{\\volt} \\\\ &= \\qty{6}{\\kilo\\volt} \\end{split}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_c765d61109c3/body.it.md",
+      "before_sha256": "b29cb62a15c30bf3059073b4d8fd27350fe35c1117a4dc3faaa222bbc4ed2453",
+      "after_sha256": "2bc0de6d09b98ebf20bd0c3c9eca31106538fdae6863e8e3cb1574cb989533b7",
+      "changes": [
+        {
+          "case_id": "fa177ad784455c58",
+          "start": 1905,
+          "end": 1964,
+          "expected": "f_{\\text{mix}} = \\left| m \\cdot f_1 \\pm n \\cdot f_2 \\right|",
+          "replacement": "f_\\text{mix} = \\left| m \\cdot f_1 \\pm n \\cdot f_2 \\right|",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_e3985b430c69/body.it.md",
+      "before_sha256": "eac552ef483abda242fe114c9b89245eb18e646fbac94ea3b14ad83074c4c044",
+      "after_sha256": "70f2dbfbc04478964259d103890d9d547fef49a0c37a458a7bb923d891379fd4",
+      "changes": [
+        {
+          "case_id": "30f14bbfa13154ce",
+          "start": 320,
+          "end": 346,
+          "expected": "\\\\\\qty{70}{\\\\centi\\\\meter}",
+          "replacement": "\\qty{70}{\\centi\\meter}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_6d322d8a11b3/body.fr.md",
+      "before_sha256": "94f101b48a54df2b60f5774844cdcf6539c1a378d3bcd93834e61166df0f2996",
+      "after_sha256": "0214cb8a5316bf8b70de110a81611619b6ede4b555d41f053e3c8678fae20f8f",
+      "changes": [
+        {
+          "case_id": "129e151e82e44df3",
+          "start": 134,
+          "end": 259,
+          "expected": "\\qty{435}{\\mega\\hertz} \\cdot \\frac{1}{10^6} = \\frac{435 \\cdot \\cancel{10^6}}{\\cancel{10^6}} \\unit{\\hertz} = \\qty{435}{\\hertz}",
+          "replacement": "\\qty{435}{\\mega\\hertz} \\cdot \\frac{1}{10^6} = \\frac{435 \\cdot \\qty{\\cancel{10^6}}{\\hertz}}{\\cancel{10^6}} = \\qty{435}{\\hertz}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_965614e745d5/body.fr.md",
+      "before_sha256": "33ddc9c4cf8ade3ab629f6ee64c779ccc66aef5cbd95fccec63fcc21ce3e19f3",
+      "after_sha256": "1568654fd31ab9e025a864cccc38d2ba39ca08b59c8877240dd15d6971d22a0c",
+      "changes": [
+        {
+          "case_id": "940f69ab06e84356",
+          "start": 293,
+          "end": 345,
+          "expected": "\\frac{B}{2} = \\Delta f_{\\textrm{T}} + f_{\\\\;mod max}",
+          "replacement": "\\frac{B}{2} = \\Delta f_{\\textrm{T}} + f_{\\textrm{mod max}}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "case_id": "129e151e82e44df3",
+      "decision": "apply",
+      "reviewer_note": "Workbook v3: equivalent LaTeX representation or malformed command; use exact German technical form while retaining any translated labels."
+    },
+    {
+      "case_id": "30f14bbfa13154ce",
+      "decision": "apply",
+      "reviewer_note": "Workbook v3: equivalent LaTeX representation or malformed command; use exact German technical form while retaining any translated labels."
+    },
+    {
+      "case_id": "741a01955daf6869",
+      "decision": "apply",
+      "reviewer_note": "Workbook v3: equivalent LaTeX representation or malformed command; use exact German technical form while retaining any translated labels."
+    },
+    {
+      "case_id": "754d0c70f726b926",
+      "decision": "apply",
+      "reviewer_note": "Workbook v3: equivalent LaTeX representation or malformed command; use exact German technical form while retaining any translated labels."
+    },
+    {
+      "case_id": "940f69ab06e84356",
+      "decision": "apply",
+      "reviewer_note": "Workbook v3: equivalent LaTeX representation or malformed command; use exact German technical form while retaining any translated labels."
+    },
+    {
+      "case_id": "fa177ad784455c58",
+      "decision": "apply",
+      "reviewer_note": "Workbook v3: equivalent LaTeX representation or malformed command; use exact German technical form while retaining any translated labels."
+    }
+  ],
+  "approved_case_count": 6
+}

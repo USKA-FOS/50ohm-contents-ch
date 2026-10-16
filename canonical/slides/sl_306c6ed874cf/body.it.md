@@ -4,7 +4,7 @@
 * $\qty{20}{\dB}$ sono valori usuali $\rightarrow\qty{1}{\watt}$ di potenza di trasmissione corrispondono a $\qty{100}{\watt}$ di potenza irradiata
 
 <note>
-* 20 dB = fattore 100
+* 20dB = fattore 100
 </note>
 
 ---

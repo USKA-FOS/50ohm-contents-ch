@@ -26,7 +26,7 @@ HB9AFN è una stazione della Svizzera
 ---
 [question:BB105]
 <note>
-La banda dei 80 m è aperta di notte per i collegamenti DX (onda spaziale invece di onda di terra)
+La banda dei 80m è aperta di notte per i collegamenti DX (onda spaziale invece di onda di terra)
 </note>
 
 ---

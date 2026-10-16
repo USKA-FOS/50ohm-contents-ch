@@ -23,11 +23,11 @@ Al terminale della resistenza di carico $R_L$ si ottiene una tensione continua p
 [domanda:AD302]
 ---
 #### Procedimento di soluzione
-* dati: $U_\mathrm{eff} = \qty{15}{\volt}$
+* dati: $U_{\mathrm{eff}} = \qty{15}{\volt}$
 * cercato: $\hat{U}$
 
 <fragment>
-$\hat{U} = U_\mathrm{eff} \cdot \sqrt{2} = \qty{15}{\volt} \cdot 1,41 = \qty{21,21}{\volt}$
+$\hat{U} = U_{\mathrm{eff}} \cdot \sqrt{2} = \qty{15}{\volt} \cdot 1,41 = \qty{21,21}{\volt}$
 </fragment>
 ---
 [domanda:AD303]

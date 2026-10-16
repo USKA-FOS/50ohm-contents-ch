@@ -34,7 +34,7 @@ La puissance dissipée initiale est :
 
 $P_0 = \frac{{U_0}^2}{R}$
 
-Pour $R = \qty{100}{\kilo\ohm}$ et $U_0 = \qty{400}{\volt}$, cela donne une puissance de $P_0 = \qty{1,6}{\watt}$.
+Pour $R = \qty{100}{\kilo\Ohm}$ et $U_0 = \qty{400}{\volt}$, cela donne une puissance de $P_0 = \qty{1,6}{\watt}$.
 
 Par conséquent, la résistance doit :
 

@@ -18,10 +18,10 @@
 
 ### ERP nel radioamatoriale – esempio pratico
 
-* Il piano delle bande per la banda dei $\qty{630}{\m}$ prevede una potenza irradiata massima di $\qty{1}{\W}$
-* Un dipolo a semionda avrebbe una lunghezza di $\qty{315}{\m}$ a $\qty{630}{\m}$ – solitamente non realizzabile, quindi si utilizzano antenne accorciate
+* Il piano delle bande per la banda dei $\qty{630}{\meter}$ prevede una potenza irradiata massima di $\qty{1}{\watt}$
+* Un dipolo a semionda avrebbe una lunghezza di $\qty{630}{\meter}$ a $\qty{315}{\meter}$ – solitamente non realizzabile, quindi si utilizzano antenne accorciate
 * Le antenne accorciate hanno un rendimento inferiore, ad esempio un guadagno d'antenna di $\qty{-20}{\dBd}$
-* Rapporto di potenza: $\qty{-20}{\dB}$ corrisponde a un fattore di $\num{0,01}$; esempio: $\qty{50}{\W} \cdot 0,01 = \qty{0,5}{\W}$ ERP
+* Rapporto di potenza: $\qty{-20}{\dB}$ corrisponde a un fattore di $\num{0,01}$; esempio: $\qty{50}{\watt} \cdot 0,01 = \qty{0,5}{\watt}$ ERP
 
 --- style="font-size: 0.7em;"
 
@@ -47,11 +47,11 @@ Questa tabella è inclusa nella raccolta di formule ed è disponibile durante l'
 [question:AG503]
 ---
 #### Percorso di soluzione
-* dato: $P_S = \qty{50}{\W}$
+* dato: $P_S = \qty{50}{\watt}$
 * dato: $a \approx \qty{0}{\dB}$
 * dato: $g_d = \qty{-20}{\dBd}$
 * cercato: $P_{\textrm{ERP}}$
 
 <fragment>
-$\begin{split} P_{\textrm{ERP}} &= P_S \cdot 10^{\frac{g_d - a}{\qty{10}{\dB}}}\\ &= \qty{50}{\W} \cdot 10^{\frac{\qty{-20}{\dBd} - \qty{0}{\dB}}{\qty{10}{\dB}}}\\ &= \qty{50}{\W} \cdot 10^{-2} = \qty{0,5}{\W}\end{split}$
+$\begin{split} P_{\textrm{ERP}} &= P_S \cdot 10^{\frac{g_d - a}{\qty{10}{\dB}}}\\ &= \qty{50}{\watt} \cdot 10^{\frac{\qty{-20}{\dBd} - \qty{0}{\dB}}{\qty{10}{\dB}}}\\ &= \qty{50}{\watt} \cdot 10^{-2} = \qty{0,5}{\watt}\end{split}$
 </fragment>

@@ -17,7 +17,7 @@
 <note>
 Explication de l’affichage :
 * Fréquence en haut
-* Bande des $\qty{2}{\metre}$
+* Bande des $\qty{2}{\meter}$
 * Signal reçu puissant
 </note>
 

@@ -23,7 +23,7 @@ Langage courant : « câble coaxial »
 ## Affaiblissement du câble
 * Dans le câble coaxial, une perte se produit par conversion de la puissance d'émission en chaleur
 * Cette perte est appelée *affaiblissement du câble*
-* Mesure en décibels ($\unit{\dB}$) par $\qty{100}{\m}$
+* Mesure en décibels ($\unit{\dB}$) par $\qty{100}{\meter}$
 * Les pertes augmentent avec la longueur et la fréquence
 
 ---

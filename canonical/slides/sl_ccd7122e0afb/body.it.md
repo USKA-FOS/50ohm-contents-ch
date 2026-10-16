@@ -7,7 +7,7 @@
 * Ad esempio da $\qty{12}{\volt}$ a $\qty{19}{\volt}\rightarrow$ Step-UP (convertitore elevatore)
 </right>
 <note>
-Il convertitore Buck-Boost nell'immagine può essere regolato in uscita da 0,5 V a 25 V. La potenza massima è di 25 W.
+Il convertitore Buck-Boost nell'immagine può essere regolato in uscita da 0,5V a 25V. La potenza massima è di 25W.
 </note>
 ---
 ### Rendimento

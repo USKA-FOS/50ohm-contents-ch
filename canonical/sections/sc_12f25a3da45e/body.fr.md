@@ -9,7 +9,7 @@ Les dimensions géométriques déterminent une propriété essentielle d'un cond
 
 La formule suivante montre cette relation :
 
-$Q = C \cdot U$
+$Q = C \cdot U $
 
 Cette formule ne figure pas dans le recueil de formules et n'est pas nécessaire pour l'examen.
 

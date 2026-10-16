@@ -9,7 +9,7 @@ Le dimensioni geometriche determinano una proprietà fondamentale di un condensa
 
 La formula seguente mostra la relazione tra queste grandezze:
 
-$Q = C \cdot U$
+$Q = C \cdot U $
 
 Questa formula non si trova nella raccolta di formule e non è necessaria per l'esame.
 

@@ -37,8 +37,7 @@
 
 ### Exemple pratique : Lecteur CD
 
-* Les lecteurs CD fonctionnent généralement avec une fréquence d’échantillonnage de $\qty{44,1}{\kilo\sps}$ ($
-um{44100}$ échantillons par seconde)
+* Les lecteurs CD fonctionnent généralement avec une fréquence d’échantillonnage de $\qty{44,1}{\kilo\sps}$ ($\num{44100}$ échantillons par seconde)
 * Il en résulte que des fréquences jusqu’à environ $\qty{22}{\kilo\hertz}$ peuvent être correctement représentées
 * Cela correspond à la bande passante HiFi des bonnes installations stéréo
 * À retenir : La fréquence d’échantillonnage doit toujours être légèrement supérieure au double de la fréquence maximale à traiter

@@ -9,8 +9,8 @@
 ---
 
 <left>
-* $R_5$ et $R_7$ sont en série et $R_8$ est branché en parallèle. Calculons cette partie et appelons la valeur $R_{5,7,8}$.
-* $R_3$ et $R_6$ sont en série et $R_2$ est branché en parallèle. Calculons cette partie et appelons la valeur $R_{2,3,6}$.
+* $R_5$ et $R_7$ sont en série et $R_8$ est branché en parallèle. Calculons cette partie et appelons la valeur $R_{ 5,7,8 }$.
+* $R_3$ et $R_6$ sont en série et $R_2$ est branché en parallèle. Calculons cette partie et appelons la valeur $R_{ 2,3,6 }$.
 </left>
 <right>
 [picture:815:e_widerstandsnetzwerk_1:Réseau de résistances]

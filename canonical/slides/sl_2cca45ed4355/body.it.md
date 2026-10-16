@@ -51,7 +51,7 @@ $g_i = 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot
 $\lambda = \frac{c}{f} = \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{5,7}{\giga\hertz}} = \qty{0,053}{\meter}$
 </fragment>
 <fragment>
-$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{0,3}{\meter}}{\qty{0,053}{\meter}}\right)^2 \cdot 1\right)} \unit{\dBi}\\n&= \qty{25,1}{\dBi}\end{split}$
+$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{0,3}{\meter}}{\qty{0,053}{\meter}}\right)^2 \cdot 1\right)} \unit{\dBi}\\ &= \qty{25,1}{\dBi}\end{split}$
 </fragment>
 ---
 [question:AG227]
@@ -70,7 +70,7 @@ $\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\
 $\lambda = \frac{c}{f} = \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{5,7}{\giga\hertz}} = \qty{0,053}{\meter}$
 </fragment>
 <fragment>
-$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{0,8}{\meter}}{\qty{0,053}{\meter}}\right)^2 \cdot 1\right)} \unit{\dBi}\\n&= \qty{33,6}{\dBi}\end{split}$
+$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{0,8}{\meter}}{\qty{0,053}{\meter}}\right)^2 \cdot 1\right)}\unit{\dBi}\\ &= \qty{33,6}{\dBi}\end{split}$
 </fragment>
 ---
 [question:AG228]
@@ -89,8 +89,7 @@ $\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\
 $\lambda = \frac{c}{f} = \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{10,4}{\giga\hertz}} = \qty{0,029}{\meter}$
 </fragment>
 <fragment>
-$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{0,8}{\meter}}{\qty{0,029}{\meter}}\right)^2 \cdot 1\right)} \unit{\dBi}\\
-&= \qty{38,8}{\dBi}\end{split}$
+$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{0,8}{\meter}}{\qty{0,029}{\meter}}\right)^2 \cdot 1\right)}\unit{\dBi}\\ &= \qty{38,8}{\dBi}\end{split}$
 </fragment>
 ---
 [question:AG229]
@@ -109,5 +108,4 @@ $\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\
 $\lambda = \frac{c}{f} = \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{10,4}{\giga\hertz}} = \qty{0,029}{\meter}$
 </fragment>
 <fragment>
-$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{1,2}{\meter}}{\qty{0,029}{\meter}}\right)^2 \cdot 1\right)} \unit{\dBi}\\
-&= \qty{42,3}{\dBi}\end{split}$
+$\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{1,2}{\meter}}{\qty{0,029}{\meter}}\right)^2 \cdot 1\right)}\unit{\dBi}\\ &= \qty{42,3}{\dBi}\end{split}$

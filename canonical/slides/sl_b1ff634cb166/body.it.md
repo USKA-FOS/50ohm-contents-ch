@@ -59,7 +59,7 @@
 <right>
 * Un'antenna Delta Loop, con bracci di uguale lunghezza, presenta un'impedenza di alimentazione di circa $\qty{100}{\ohm}$
 * Utilizzando una linea λ/4 con impedenza caratteristica di $\qty{75}{\ohm}$, si ottiene un adattamento a circa $\qty{50}{\ohm}$
-* L'impedenza caratteristica ottimale è la media geometrica $(\sqrt{\qty{50}{\ohm}\cdot \qty{100}{\ohm}} \approx \qty{70,7}{\ohm})$
+* L'impedenza caratteristica ottimale è la media geometrica $(\sqrt{\qty{50}{\ohm}\cdot \qty{100}{\ohm}} \approx \qty{70,7}{\ohm})$
 </right>
 ---
 [question:AG117]

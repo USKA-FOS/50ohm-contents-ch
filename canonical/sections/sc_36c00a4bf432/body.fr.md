@@ -61,22 +61,22 @@ Le fonctionnement peut être expliqué de manière simplifiée à l’aide d’u
 
 Le signal FI est ainsi alternativement transmis sans modification ou inversé en polarité. Dans cette représentation simplifiée, le signal FI peut donc être considéré comme le produit du signal BF et du signal de commutation du BFO :
 
-$u_\text{FI}(t)=u_\text{BF}(t)\cdot s_\text{BFO}(t)$
+$u_\mathrm{FI}(t)=u_\mathrm{BF}(t)\cdot s_\mathrm{BFO}(t)$
 
 
 Dans le détecteur de produit, ce signal est à nouveau multiplié par le signal BFO :
 
-$u_\text{FI}(t)\cdot s_\text{BFO}(t)=u_\text{BF}(t)\cdot s_\text{BFO}(t)\cdot s_\text{BFO}(t)$
+$u_\mathrm{FI}(t)\cdot s_\mathrm{BFO}(t)=u_\mathrm{BF}(t)\cdot s_\mathrm{BFO}(t)\cdot s_\mathrm{BFO}(t)$
 
 
 Comme le signal de commutation simplifié du BFO ne prend que les valeurs $+1$ et $-1$, on a :
 
-$s_\text{BFO}^2(t)=1$
+$s_\mathrm{BFO}^2(t)=1$
 
 
 Il reste donc comme composante basse fréquence le signal BF d’origine :
 
-$u_\text{BF}(t)=u_\text{FI}(t)\cdot s_\text{BFO}(t)$
+$u_\mathrm{BF}(t)=u_\mathrm{FI}(t)\cdot s_\mathrm{BFO}(t)$
 
 
 Outre le signal BF souhaité, d’autres produits de mélange haute fréquence apparaissent lors du processus de mélange. Ceux-ci sont supprimés à la sortie du détecteur de produit par un filtre passe-bas.

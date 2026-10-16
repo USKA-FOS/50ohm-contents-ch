@@ -1,0 +1,1738 @@
+{
+  "schema_version": 1,
+  "title": "Accepted canonical technical-format arbitration",
+  "date": "2026-10-16",
+  "canonical_repository": "50ohm-contents-ch",
+  "baseline_commit": "340ade0f185211876a43499046672374ba4aa549",
+  "review_workbook": "arbitrage-v3.xlsx",
+  "review_workbook_sha256": "509bd1a8ab55c1f7ce31edfd3911a09953e1f6d43846830f8ec6dece23fcd484",
+  "input_validation_manifest_sha256": "1f8179e334f66816fa7d4b3cf74bce3141565da19152ec30634315a6f3b74b67",
+  "decision_file": "accepted-decisions.csv",
+  "decision_file_sha256": "0ecc9037f5d078eb21d0f1b6feef011dff9bf38df49b1b0c738f1ac710a08f13",
+  "tool": "50ohm-generator-next/tools/apply_canonical_technical_format_review.py",
+  "tool_application_passes": [
+    {
+      "path": "apply-pass-1.json",
+      "sha256": "159c1051488d3033dfa87fbe5e160de460d553183895592237e199cc4b9e83e2",
+      "approved_cases": 135
+    },
+    {
+      "path": "apply-pass-2.json",
+      "sha256": "537c53a3d91a53cf7995a009c6abed1fe695a86bab85041eba4b7d167ed3924c",
+      "approved_cases": 6
+    }
+  ],
+  "human_decisions": [
+    {
+      "reference": "AI509",
+      "object": "solutions/s_13c027bfe08e",
+      "language": "de",
+      "decision": "Change both occurrences of 1450 MHz to 1450 Hz; calculations and reviewed FR/IT results support Hz."
+    },
+    {
+      "reference": "AB409",
+      "object": "solutions/s_4ef73a36fc9d",
+      "language": "it",
+      "decision": "Use lowercase p in Δp_R, matching the German equation; included in apply-pass-1."
+    }
+  ],
+  "arbitration_rules": [
+    "Retain established localized symbols and translated formula labels as specified in the workbook.",
+    "Correct reviewed syntax, unit-macro, numeric, and LaTeX structure defects.",
+    "For deterministic notation-equivalent formulas, use the exact German technical form while retaining translated labels."
+  ],
+  "applied_case_count": 141,
+  "canonical_files_changed": 78,
+  "post_validation": {
+    "manifest_sha256": "84ff12e6a3712eadd6e934cf524581469afee5f6327c29407afeb44f6034361a",
+    "exceptions": 357,
+    "correction_proposals": 153,
+    "manual_review_cases": 288,
+    "note": "The scanner retains localized notation/labels and structurally ambiguous pairings as findings; this record applies the workbook decisions only."
+  },
+  "files": [
+    {
+      "path": "html_includes/in_0016fa80a949/body.fr.html",
+      "before_sha256": "ae4d22f84f336b9e00ffc3882f2dc96b1e21139bbc809c5726fd8859eda323e2",
+      "after_sha256": "0c8b4e568d38cff5879eacc6f8e6c36b98b19cdd3e16607387efd8dd13507164",
+      "changes": [
+        {
+          "case_id": "f889ac822acec5fe",
+          "start": 1005,
+          "end": 1011,
+          "expected": "\\phi =",
+          "replacement": "\\phi=",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "html_includes/in_357c2dc1c4aa/body.fr.html",
+      "before_sha256": "fc71531cb1379083f422c97aa7335e708a2aea57943f2eadf36645c4f9e7974d",
+      "after_sha256": "60e44f56bb3bec3cd988218605d9a982ad24b9492d955d6b44b28fedaf00d8c3",
+      "changes": [
+        {
+          "case_id": "5d760365a829ba08",
+          "start": 1114,
+          "end": 1118,
+          "expected": "1 Hz",
+          "replacement": "1Hz",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "25054ca4c31452e4",
+          "start": 1046,
+          "end": 1049,
+          "expected": "1 s",
+          "replacement": "1s",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "html_includes/in_357c2dc1c4aa/body.it.html",
+      "before_sha256": "968978d6239ea36dd6f35d9a97c39b4ae3a3418c7b0b6b490abb46ede326418c",
+      "after_sha256": "11f5cfc672e35fd129ce3c40705e1c024573304ecfd02d3b98efc2762d8ca921",
+      "changes": [
+        {
+          "case_id": "08cd56faadbbb6ef",
+          "start": 1094,
+          "end": 1098,
+          "expected": "1 Hz",
+          "replacement": "1Hz",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "4904bcbade219726",
+          "start": 1027,
+          "end": 1030,
+          "expected": "1 s",
+          "replacement": "1s",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "html_includes/in_5c5e737d4210/body.fr.html",
+      "before_sha256": "9503ead2db97d2f5b198b889307ba400e5160b4a365b2058b4cdf4a03d156ea9",
+      "after_sha256": "5829a5cf8888887a9a2b28637d1205a9f3f4a4cbfaee53b8d55a67cf52876556",
+      "changes": [
+        {
+          "case_id": "e3f62259614d625f",
+          "start": 712,
+          "end": 716,
+          "expected": "1 Hz",
+          "replacement": "1Hz",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "7db8ba37286c87df",
+          "start": 644,
+          "end": 647,
+          "expected": "1 s",
+          "replacement": "1s",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "html_includes/in_5c5e737d4210/body.it.html",
+      "before_sha256": "901c4c2544de35530db74acff96a6cd30b4b70557c8fc0bc77e08203a2b64a52",
+      "after_sha256": "d324162c1736ceb1f7ca1b66a10163c2d93d45ba2e9abf7d736e1da52e71bd99",
+      "changes": [
+        {
+          "case_id": "d6c0d5e84785536f",
+          "start": 698,
+          "end": 702,
+          "expected": "1 Hz",
+          "replacement": "1Hz",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "d0709342ee2f92cd",
+          "start": 631,
+          "end": 634,
+          "expected": "1 s",
+          "replacement": "1s",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "html_includes/in_6ad4a1f38783/body.fr.html",
+      "before_sha256": "72da70d00200eac61089cef817bc42280f6f8b650fb6125891f0209f0081ec0e",
+      "after_sha256": "7062c2c453540cf25b97bd070f074be0fd539c8e451a10de9db5ce7768dddd0b",
+      "changes": [
+        {
+          "case_id": "f515e7667b24668c",
+          "start": 4136,
+          "end": 4143,
+          "expected": "3,0 kHz",
+          "replacement": "3.0 kHz",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "6943db1a239e7d75",
+          "start": 3307,
+          "end": 3312,
+          "expected": "1 kHz",
+          "replacement": "1kHz",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "3785a1b1776544fe",
+          "start": 3048,
+          "end": 3055,
+          "expected": "3,0 kHz",
+          "replacement": "3.0 kHz",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "html_includes/in_6ad4a1f38783/body.it.html",
+      "before_sha256": "cbb3801d2650a95b544be279006623299ac495ce6c887f14cc8410ec616df6b8",
+      "after_sha256": "0782580dbfc91c6204c88b04573ffd3025a4606da1cf7b808b5391586ee50df0",
+      "changes": [
+        {
+          "case_id": "2cf5ea76da4d1432",
+          "start": 4140,
+          "end": 4147,
+          "expected": "3,0 kHz",
+          "replacement": "3.0 kHz",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "340f3556c938c69e",
+          "start": 3309,
+          "end": 3314,
+          "expected": "1 kHz",
+          "replacement": "1kHz",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "3d8078f186593b68",
+          "start": 3046,
+          "end": 3053,
+          "expected": "3,0 kHz",
+          "replacement": "3.0 kHz",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "html_includes/in_bde7f07a4f41/body.it.html",
+      "before_sha256": "872a169e72e19c127af4034f553e330ab0edaffec710f25a5f53e00c93dea565",
+      "after_sha256": "e55f87e4f44d0c9d60a6ca428ece36c762d744f685931d7e2384dbbab3b83101",
+      "changes": [
+        {
+          "case_id": "2057069a00d16783",
+          "start": 3740,
+          "end": 3743,
+          "expected": "71%",
+          "replacement": "71 %",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "ffa27b8544c69d82",
+          "start": 2892,
+          "end": 2895,
+          "expected": "50%",
+          "replacement": "50 %",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "bcde7f883671eaf4",
+          "start": 2684,
+          "end": 2687,
+          "expected": "50%",
+          "replacement": "50 %",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_12f25a3da45e/body.fr.md",
+      "before_sha256": "daa1108822b0db8ff2ef95f762b6bb9f9af6c9790fd66394bcff655f8de1ef7c",
+      "after_sha256": "819d1e30052f83074a684b6b1c1f3461bc1be24e1c42e15f1eff221a45d55331",
+      "changes": [
+        {
+          "case_id": "350c8ee57ea8413d",
+          "start": 830,
+          "end": 843,
+          "expected": "Q = C \\cdot U",
+          "replacement": "Q = C \\cdot U ",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_12f25a3da45e/body.it.md",
+      "before_sha256": "197e1ff9191abcba6092d843ed528f994d395b042777f156bc26b37f486b72c9",
+      "after_sha256": "87197384bc6c2fc00ff3df717be40eac599b4b459e8f0d0773324d8c2ae5ea5e",
+      "changes": [
+        {
+          "case_id": "487eeb7b6d8a5a8e",
+          "start": 888,
+          "end": 901,
+          "expected": "Q = C \\cdot U",
+          "replacement": "Q = C \\cdot U ",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_243eceea1279/body.fr.md",
+      "before_sha256": "f81e43ec554b474fba750b7b2db7ac9a57ff4a264debc51e92032d884c7249db",
+      "after_sha256": "f90630c9ff081502b6992789d40e774cb9ece360cf0f1e5f9200fede855708c9",
+      "changes": [
+        {
+          "case_id": "6743de83f0c84ce8",
+          "start": 4202,
+          "end": 4211,
+          "expected": "\n\\num{00}",
+          "replacement": "\\num{00}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "4b1c00a2120ad1fe",
+          "start": 4148,
+          "end": 4156,
+          "expected": "\n\\num{0}",
+          "replacement": "\\num{0}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_36c00a4bf432/body.fr.md",
+      "before_sha256": "4c837e32d9906823e3baa54ecdc95dd6d14150eb3a4b684b124e496b565d0b8d",
+      "after_sha256": "a42ef4286368e4d7de8836ae25d78df31435ac8eb73003920dd3f013099e3964",
+      "changes": [
+        {
+          "case_id": "435f8142a0035335",
+          "start": 6780,
+          "end": 6830,
+          "expected": "u_\\text{BF}(t)=u_\\text{FI}(t)\\cdot s_\\text{BFO}(t)",
+          "replacement": "u_\\mathrm{BF}(t)=u_\\mathrm{FI}(t)\\cdot s_\\mathrm{BFO}(t)",
+          "finding_category": "localized_label_markup_mismatch"
+        },
+        {
+          "case_id": "f4067f3b792bed40",
+          "start": 6491,
+          "end": 6583,
+          "expected": "u_\\text{FI}(t)\\cdot s_\\text{BFO}(t)=u_\\text{BF}(t)\\cdot s_\\text{BFO}(t)\\cdot s_\\text{BFO}(t)",
+          "replacement": "u_\\mathrm{FI}(t)\\cdot s_\\mathrm{BFO}(t)=u_\\mathrm{BF}(t)\\cdot s_\\mathrm{BFO}(t)\\cdot s_\\mathrm{BFO}(t)",
+          "finding_category": "localized_label_markup_mismatch"
+        },
+        {
+          "case_id": "68f03b6faf383fa3",
+          "start": 6351,
+          "end": 6401,
+          "expected": "u_\\text{FI}(t)=u_\\text{BF}(t)\\cdot s_\\text{BFO}(t)",
+          "replacement": "u_\\mathrm{FI}(t)=u_\\mathrm{BF}(t)\\cdot s_\\mathrm{BFO}(t)",
+          "finding_category": "localized_label_markup_mismatch"
+        },
+        {
+          "case_id": "741a01955daf6869",
+          "start": 6699,
+          "end": 6718,
+          "expected": "s_\\text{BFO}^2(t)=1",
+          "replacement": "s_\\mathrm{BFO}^2(t)=1",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_48a1c1d57ea8/body.fr.md",
+      "before_sha256": "2b6d11b579fb24f80e166400f7cc60640b5523c9074aff06951a76dca9fc14f1",
+      "after_sha256": "d6a20f175125f0ce72e070312ce60e673e0a491253673e455cc327dbf9a4b329",
+      "changes": [
+        {
+          "case_id": "ef963c64dbd326e9",
+          "start": 593,
+          "end": 654,
+          "expected": "d = \\frac{\\sqrt{\\frac{Z_0}{4\\pi} \\cdot P_{\\textrm{EIRP}}}}{E}",
+          "replacement": "d = \\frac{\\sqrt{\\frac{Z_0}{4\\pi}\\cdot P_{\\textrm{EIRP}}}}{E}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "b7c1eee60fb36d69",
+          "start": 143,
+          "end": 202,
+          "expected": "d = \\frac{\\sqrt{\\qty{30}{\\ohm} \\cdot P_{\\textrm{EIRP}}}}{E}",
+          "replacement": "d = \\frac{\\sqrt{\\qty{30}{\\ohm}\\cdot P_{\\textrm{EIRP}}}}{E}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_523185221e10/body.fr.md",
+      "before_sha256": "9a19f4807421aba2cedb67cad868b02885350008c769d2bb011ed7d1ef22f57b",
+      "after_sha256": "084d0d872f7b8b34fae1bd0cad5697e16974f152fdf7a7491afa71c09de8d9ac",
+      "changes": [
+        {
+          "case_id": "98e011c003347dca",
+          "start": 1071,
+          "end": 1088,
+          "expected": "\\qty{6}{\\decibel}",
+          "replacement": "\\qty{6}{\\dB}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "e7e4c5c116310348",
+          "start": 927,
+          "end": 944,
+          "expected": "\\qty{6}{\\decibel}",
+          "replacement": "\\qty{6}{\\dB}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_7215bf452d26/body.fr.md",
+      "before_sha256": "2c03b1e1672a72f89047eb8bf9b8281c92d9b49aef45dac7fb5f3266e47d090f",
+      "after_sha256": "b171d1f947d2b7280e3800a4018466309706e59df97fee75a70ce22ccae5f19e",
+      "changes": [
+        {
+          "case_id": "7f1b32eb2663eb73",
+          "start": 1931,
+          "end": 1936,
+          "expected": "3,0 V",
+          "replacement": "3.0 V",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "2e5b3eadcdbeda19",
+          "start": 1868,
+          "end": 1873,
+          "expected": "8,5 V",
+          "replacement": "8.5 V",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_842f32115304/body.it.md",
+      "before_sha256": "9e5fee44a54ce2236c3429c92784bcdc2b64b7d9f7026ab83db571dbde2e8499",
+      "after_sha256": "7b0e45ac03772a46537467829550d582b7d1392899af766f33ac39060b153df9",
+      "changes": [
+        {
+          "case_id": "754d0c70f726b926",
+          "start": 3787,
+          "end": 4004,
+          "expected": "\\begin{split} U_d &= \\qty{400}{\\kilo\\volt\\per\\centi\\meter} \\cdot \\qty{0,15}{\\milli\\meter} \\\\ &= \\qty{40000000}{\\volt\\per\\meter} \\cdot \\qty{0,00015}{\\meter} \\\\ &= \\qty{6000}{\\volt} \\\\ &= \\qty{6}{\\kilo\\volt} \\end{split}",
+          "replacement": "\\begin{split} U_d &= \\qty{400}{\\kilo\\volt\\per\\centi\\meter} \\cdot \\qty{0,15}{\\milli\\meter} \\\\ &= \\qty{40000000}{\\volt\\per\\meter} \\cdot \\qty{0,00015}{m} \\\\ &= \\qty{6000}{\\volt} \\\\ &= \\qty{6}{\\kilo\\volt} \\end{split}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_95320532c469/body.fr.md",
+      "before_sha256": "419d21f9cd3b946f0da4517a464499df98e30f4ee7ce72ae3feed92f06807044",
+      "after_sha256": "b4b08aa573e303fdad1e333dc9b587bf2b0626d68da32fde5594e8b4028a3a8e",
+      "changes": [
+        {
+          "case_id": "9aab23e173e68b92",
+          "start": 1551,
+          "end": 1564,
+          "expected": "\\qty{100}{\\m}",
+          "replacement": "\\qty{100}{\\meter}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_acb495fcab51/body.fr.md",
+      "before_sha256": "6df81897a0ca7fdd451625e4980313d5ba3b10ef43131434769a09d41b9ba9d9",
+      "after_sha256": "d1451494f28cbe2abac39631eca4cf2d29c30c2c1c60fa4454832a9798fc5bc9",
+      "changes": [
+        {
+          "case_id": "80aef175cad8a25d",
+          "start": 4621,
+          "end": 4625,
+          "expected": "15 %",
+          "replacement": "15%",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "d2dc4201a4aee66a",
+          "start": 4577,
+          "end": 4581,
+          "expected": "90 %",
+          "replacement": "90%",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_acb495fcab51/body.it.md",
+      "before_sha256": "154cf0dc24b15667e2bbf7df818e95c72a04d8d95e3662e5bd2ffe9c280da3ae",
+      "after_sha256": "01686992fd289047a783da2f13ee9a1551b173215020ae50398d3930050b6a1c",
+      "changes": [
+        {
+          "case_id": "ac8bccff625696c8",
+          "start": 1660,
+          "end": 1663,
+          "expected": "85%",
+          "replacement": "85 %",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_c59f9803825a/body.fr.md",
+      "before_sha256": "637793db3476308c92530abd48f96ab068d7b40cb2f740efe1bdcf7fc06a9c37",
+      "after_sha256": "5af94f2941b06e5d720f1d63ec28059a17eb127373dd32f3b8edac3f15a4fe5a",
+      "changes": [
+        {
+          "case_id": "2236df97370f9c75",
+          "start": 920,
+          "end": 932,
+          "expected": "\\qty{40}{\\m}",
+          "replacement": "\\qty{40}{\\meter}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_c765d61109c3/body.it.md",
+      "before_sha256": "b29cb62a15c30bf3059073b4d8fd27350fe35c1117a4dc3faaa222bbc4ed2453",
+      "after_sha256": "2bc0de6d09b98ebf20bd0c3c9eca31106538fdae6863e8e3cb1574cb989533b7",
+      "changes": [
+        {
+          "case_id": "fa177ad784455c58",
+          "start": 1905,
+          "end": 1964,
+          "expected": "f_{\\text{mix}} = \\left| m \\cdot f_1 \\pm n \\cdot f_2 \\right|",
+          "replacement": "f_\\text{mix} = \\left| m \\cdot f_1 \\pm n \\cdot f_2 \\right|",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_d741352d4e47/body.it.md",
+      "before_sha256": "cf65262c48fe00eb6e25ebb6e2f1cb15b0fff577dab02733314a4b501eb2b87f",
+      "after_sha256": "97023556604be8a248034a2b5e4d91f82e7962184bdcb5d827164d5a48d9ed00",
+      "changes": [
+        {
+          "case_id": "39ba3116f830fc63",
+          "start": 4290,
+          "end": 4363,
+          "expected": "P_\\mathrm{EIRP} = P_\\mathrm{Sender} \\cdot 10^{\\frac{g_i-a}{\\qty{10}{\\dB}}",
+          "replacement": "P_\\mathrm{EIRP} = P_\\mathrm{Sender} \\cdot 10^{\\frac{g_i-a}{\\qty{10}{\\dB}}}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_e3985b430c69/body.it.md",
+      "before_sha256": "eac552ef483abda242fe114c9b89245eb18e646fbac94ea3b14ad83074c4c044",
+      "after_sha256": "70f2dbfbc04478964259d103890d9d547fef49a0c37a458a7bb923d891379fd4",
+      "changes": [
+        {
+          "case_id": "30f14bbfa13154ce",
+          "start": 320,
+          "end": 346,
+          "expected": "\\\\\\qty{70}{\\\\centi\\\\meter}",
+          "replacement": "\\qty{70}{\\centi\\meter}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_fd8fe6de590c/body.fr.md",
+      "before_sha256": "122cb3f2dcc9dc6bab127dbe0a154b1e7b89ab27cc675cc1e5e9653fb83f761d",
+      "after_sha256": "111a07ef1ea1251924f4c6434671c3a22489e2c9ba4a0349bf3b262ef286d51f",
+      "changes": [
+        {
+          "case_id": "1adf86812839ab4b",
+          "start": 1987,
+          "end": 2000,
+          "expected": "\\qty{315}{\\m}",
+          "replacement": "\\qty{315}{\\meter}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "49f998b540652d43",
+          "start": 1901,
+          "end": 1912,
+          "expected": "\\qty{1}{\\W}",
+          "replacement": "\\qty{1}{\\watt}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "650965d268b72ef3",
+          "start": 1874,
+          "end": 1887,
+          "expected": "\\qty{630}{\\m}",
+          "replacement": "\\qty{630}{\\meter}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "sections/sc_fed06a79cdd8/body.fr.md",
+      "before_sha256": "c04ce3865bca5be874e2917346e560be2b912647ecc9c2e8142cfb26f9151ebf",
+      "after_sha256": "3ba9f9a215512ccb137ae50532607aea2c909b161eb4fe0a8eb7d3687591dd91",
+      "changes": [
+        {
+          "case_id": "168886edba163324",
+          "start": 1960,
+          "end": 1976,
+          "expected": " \\unit{\\ampere} ",
+          "replacement": "\\unit{\\ampere}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "b7590f5f8a307072",
+          "start": 1928,
+          "end": 1950,
+          "expected": " \\unit{\\milli\\ampere} ",
+          "replacement": "\\unit{\\milli\\ampere}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "97b59c36d81ca274",
+          "start": 1898,
+          "end": 1920,
+          "expected": " \\unit{\\micro\\ampere} ",
+          "replacement": "\\unit{\\micro\\ampere}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_06514b6b77bb/body.fr.md",
+      "before_sha256": "32d1ee1493e7256313e9d13de4cd4922dac9172fc80c18b926b8f6a3c38cd812",
+      "after_sha256": "081db20a35423fe18940b2b551c3e27fad94c4314f77d7c45383a9007df72b47",
+      "changes": [
+        {
+          "case_id": "6fc8ec61821910f6",
+          "start": 1647,
+          "end": 1651,
+          "expected": "99 %",
+          "replacement": "99%",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_1b6d87e5948f/body.fr.md",
+      "before_sha256": "55b3219087c5fe1bb7ca8ab1476c15fbd51cdac5c29125aab7886ff620bf396e",
+      "after_sha256": "36b7c8ac0b75c76c9f7676ac5188ce863ba48c4aa218196399ed808d56b75b4f",
+      "changes": [
+        {
+          "case_id": "e74684530ecfb0c6",
+          "start": 1038,
+          "end": 1042,
+          "expected": "80 m",
+          "replacement": "80m",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_2143564319cc/body.fr.md",
+      "before_sha256": "c558b3c068953872f59009ac438a468c1180b9cda610780102b0d0c756a2e030",
+      "after_sha256": "3b20cef03aa9c1c7821b8c3928d2757aeac24c9e8bf02fce4d177b1fcde79800",
+      "changes": [
+        {
+          "case_id": "f6a752d97b459f1a",
+          "start": 760,
+          "end": 773,
+          "expected": "\\qty{100}{\\m}",
+          "replacement": "\\qty{100}{\\meter}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_2cca45ed4355/body.it.md",
+      "before_sha256": "f12e25687043b9d5682f3d3fb4dc9f45945b182e3cec336bbcc9e730ce962d95",
+      "after_sha256": "d0915fdc9faba64fcfeeb690581847f98c33343f198c2e66caca59f7dcbbb63b",
+      "changes": [
+        {
+          "case_id": "f3abfbbf99f4b08d",
+          "start": 3560,
+          "end": 3839,
+          "expected": "\\begin{split}g_i &= 10 \\cdot \\log_{10}{\\left(\\left(\\frac{\\pi \\cdot d}{\\lambda}\\right)^2 \\cdot \\eta\\right)}\\unit{\\dBi}\\\\ &= 10 \\cdot \\log_{10}{\\left(\\left(\\frac{\\pi \\cdot \\qty{1,2}{\\meter}}{\\qty{0,029}{\\meter}}\\right)^2 \\cdot 1\\right)} \\unit{\\dBi}\\\\\n&= \\qty{42,3}{\\dBi}\\end{split}",
+          "replacement": "\\begin{split}g_i &= 10 \\cdot \\log_{10}{\\left(\\left(\\frac{\\pi \\cdot d}{\\lambda}\\right)^2 \\cdot \\eta\\right)}\\unit{\\dBi}\\\\ &= 10 \\cdot \\log_{10}{\\left(\\left(\\frac{\\pi \\cdot \\qty{1,2}{\\meter}}{\\qty{0,029}{\\meter}}\\right)^2 \\cdot 1\\right)}\\unit{\\dBi}\\\\ &= \\qty{42,3}{\\dBi}\\end{split}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "e6ad198c1aac36b9",
+          "start": 2906,
+          "end": 3185,
+          "expected": "\\begin{split}g_i &= 10 \\cdot \\log_{10}{\\left(\\left(\\frac{\\pi \\cdot d}{\\lambda}\\right)^2 \\cdot \\eta\\right)}\\unit{\\dBi}\\\\ &= 10 \\cdot \\log_{10}{\\left(\\left(\\frac{\\pi \\cdot \\qty{0,8}{\\meter}}{\\qty{0,029}{\\meter}}\\right)^2 \\cdot 1\\right)} \\unit{\\dBi}\\\\\n&= \\qty{38,8}{\\dBi}\\end{split}",
+          "replacement": "\\begin{split}g_i &= 10 \\cdot \\log_{10}{\\left(\\left(\\frac{\\pi \\cdot d}{\\lambda}\\right)^2 \\cdot \\eta\\right)}\\unit{\\dBi}\\\\ &= 10 \\cdot \\log_{10}{\\left(\\left(\\frac{\\pi \\cdot \\qty{0,8}{\\meter}}{\\qty{0,029}{\\meter}}\\right)^2 \\cdot 1\\right)}\\unit{\\dBi}\\\\ &= \\qty{38,8}{\\dBi}\\end{split}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "ab8658a07d4c687a",
+          "start": 2253,
+          "end": 2532,
+          "expected": "\\begin{split}g_i &= 10 \\cdot \\log_{10}{\\left(\\left(\\frac{\\pi \\cdot d}{\\lambda}\\right)^2 \\cdot \\eta\\right)}\\unit{\\dBi}\\\\ &= 10 \\cdot \\log_{10}{\\left(\\left(\\frac{\\pi \\cdot \\qty{0,8}{\\meter}}{\\qty{0,053}{\\meter}}\\right)^2 \\cdot 1\\right)} \\unit{\\dBi}\\\\n&= \\qty{33,6}{\\dBi}\\end{split}",
+          "replacement": "\\begin{split}g_i &= 10 \\cdot \\log_{10}{\\left(\\left(\\frac{\\pi \\cdot d}{\\lambda}\\right)^2 \\cdot \\eta\\right)}\\unit{\\dBi}\\\\ &= 10 \\cdot \\log_{10}{\\left(\\left(\\frac{\\pi \\cdot \\qty{0,8}{\\meter}}{\\qty{0,053}{\\meter}}\\right)^2 \\cdot 1\\right)}\\unit{\\dBi}\\\\ &= \\qty{33,6}{\\dBi}\\end{split}",
+          "finding_category": "technical_token_mismatch"
+        },
+        {
+          "case_id": "20d5470770d36e3c",
+          "start": 1602,
+          "end": 1881,
+          "expected": "\\begin{split}g_i &= 10 \\cdot \\log_{10}{\\left(\\left(\\frac{\\pi \\cdot d}{\\lambda}\\right)^2 \\cdot \\eta\\right)}\\unit{\\dBi}\\\\ &= 10 \\cdot \\log_{10}{\\left(\\left(\\frac{\\pi \\cdot \\qty{0,3}{\\meter}}{\\qty{0,053}{\\meter}}\\right)^2 \\cdot 1\\right)} \\unit{\\dBi}\\\\n&= \\qty{25,1}{\\dBi}\\end{split}",
+          "replacement": "\\begin{split}g_i &= 10 \\cdot \\log_{10}{\\left(\\left(\\frac{\\pi \\cdot d}{\\lambda}\\right)^2 \\cdot \\eta\\right)}\\unit{\\dBi}\\\\ &= 10 \\cdot \\log_{10}{\\left(\\left(\\frac{\\pi \\cdot \\qty{0,3}{\\meter}}{\\qty{0,053}{\\meter}}\\right)^2 \\cdot 1\\right)} \\unit{\\dBi}\\\\ &= \\qty{25,1}{\\dBi}\\end{split}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_2e1090fe89e3/body.fr.md",
+      "before_sha256": "cfce1ca6c619cb7d1c6799fc2ac487195001059394b9a098ede5ec7a79e64039",
+      "after_sha256": "94629134b71dd5749077b6dfa1ce08d5ca391476f05570bfd4d80f3af445c2ec",
+      "changes": [
+        {
+          "case_id": "c72e52fb6d6a3a32",
+          "start": 1843,
+          "end": 2111,
+          "expected": "\\begin{split} R &= \\frac{\\rho\\cdot l}{A_{\\textrm{fil}}}\\\\ \\Rightarrow l &= \\frac{R\\cdot A_{\\textrm{fil}}}{\\rho} = \\frac{\\qty{1,5}{\\ohm} \\cdot \\qty{0,05}{\\milli\\meter\\squared}}{\\qty{0,018}{\\ohm\\cdot\\milli\\meter\\squared\\per\\meter}} \\approx \\qty{41,7}{\\meter} \\end{split}",
+          "replacement": "\\begin{split} R &= \\frac{\\rho\\cdot l}{A_{\\textrm{fil}}}\\\\ \\Rightarrow l &= \\frac{R\\cdot A_{\\textrm{fil}}}{\\rho} = \\frac{\\qty{1,5}{\\ohm} \\cdot \\qty{0,5}{\\milli\\meter\\squared}}{\\qty{0,018}{\\ohm\\cdot\\milli\\meter\\squared\\per\\meter}} \\approx \\qty{41,7}{\\meter} \\end{split}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_306c6ed874cf/body.it.md",
+      "before_sha256": "98f791c582f351a25599ed8ed155dd8d922dceebb25dbe48b87bf6e33444a50c",
+      "after_sha256": "f6660b5f95441e2af3d40a54d5edfd55a7b76752dc0077a46abfb0cf3c038094",
+      "changes": [
+        {
+          "case_id": "468e8b5c2b2ac7d2",
+          "start": 345,
+          "end": 350,
+          "expected": "20 dB",
+          "replacement": "20dB",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_39b5fbd76b73/body.fr.md",
+      "before_sha256": "155ebc8a6396ae86858ea5880337639b4474e54ec937d5995dc89cbc6371c77a",
+      "after_sha256": "6f4ad6307e05f523a5a6ff76a164a3ef3155663f072dd2acc58015f1713726a1",
+      "changes": [
+        {
+          "case_id": "06f65b3e65c198d1",
+          "start": 2357,
+          "end": 2439,
+          "expected": "x = \\dfrac{\\qty{20}{\\dB} \\cdot \\qty{15}{\\meter}}{\\qty{100}{\\meter}} = \\qty{3}{\\dB}",
+          "replacement": "x = \\dfrac{\\qty{20}{\\dB}\\cdot \\qty{15}{\\meter}}{\\qty{100}{\\meter}} = \\qty{3}{\\dB}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "a4fca110b95de8a0",
+          "start": 2232,
+          "end": 2280,
+          "expected": "\\qty{145}{\\mega\\hertz} \\rightarrow \\qty{20}{\\dB}",
+          "replacement": "\\qty{145}{\\mega\\hertz}\\rightarrow \\qty{20}{\\dB}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "dbdf7f13c587f296",
+          "start": 1902,
+          "end": 1984,
+          "expected": "x = \\dfrac{\\qty{20}{\\dB} \\cdot \\qty{20}{\\meter}}{\\qty{100}{\\meter}} = \\qty{4}{\\dB}",
+          "replacement": "x = \\dfrac{\\qty{20}{\\dB}\\cdot \\qty{20}{\\meter}}{\\qty{100}{\\meter}} = \\qty{4}{\\dB}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "00697f5834fbc131",
+          "start": 1582,
+          "end": 1630,
+          "expected": "\\qty{145}{\\mega\\hertz} \\rightarrow \\qty{20}{\\dB}",
+          "replacement": "\\qty{145}{\\mega\\hertz}\\rightarrow \\qty{20}{\\dB}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_39b5fbd76b73/body.it.md",
+      "before_sha256": "37dae8f50e60af27c44f134b5f9a41c0d52082d9769b594811c9a091724b2279",
+      "after_sha256": "70c4c4aa9c69a794d7e8c1d96d02011f7ccd35a9273fd3350ed3a00008dcfe36",
+      "changes": [
+        {
+          "case_id": "8877658bc7dbdb6c",
+          "start": 2311,
+          "end": 2393,
+          "expected": "x = \\dfrac{\\qty{20}{\\dB} \\cdot \\qty{15}{\\meter}}{\\qty{100}{\\meter}} = \\qty{3}{\\dB}",
+          "replacement": "x = \\dfrac{\\qty{20}{\\dB}\\cdot \\qty{15}{\\meter}}{\\qty{100}{\\meter}} = \\qty{3}{\\dB}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "fd182bcb51c055f1",
+          "start": 2186,
+          "end": 2234,
+          "expected": "\\qty{145}{\\mega\\hertz} \\rightarrow \\qty{20}{\\dB}",
+          "replacement": "\\qty{145}{\\mega\\hertz}\\rightarrow \\qty{20}{\\dB}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "d5e56affcde9285a",
+          "start": 1870,
+          "end": 1952,
+          "expected": "x = \\dfrac{\\qty{20}{\\dB} \\cdot \\qty{20}{\\meter}}{\\qty{100}{\\meter}} = \\qty{4}{\\dB}",
+          "replacement": "x = \\dfrac{\\qty{20}{\\dB}\\cdot \\qty{20}{\\meter}}{\\qty{100}{\\meter}} = \\qty{4}{\\dB}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "9d6065348dd9a93e",
+          "start": 1555,
+          "end": 1603,
+          "expected": "\\qty{145}{\\mega\\hertz} \\rightarrow \\qty{20}{\\dB}",
+          "replacement": "\\qty{145}{\\mega\\hertz}\\rightarrow \\qty{20}{\\dB}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_43511a51145c/body.fr.md",
+      "before_sha256": "f02819a01e365a0012ee2d0be0b07ebb32f68afd91c56127ee9c45d08e16c611",
+      "after_sha256": "0ab2cee93fcd09db4c3d6ba0253f7eaa572b5362ea1342cd40ad83e999e633e0",
+      "changes": [
+        {
+          "case_id": "98b49ca8ccef4f1d",
+          "start": 719,
+          "end": 750,
+          "expected": "\\rightarrow 2 \\cdot f_\\text{ZF}",
+          "replacement": "\\rightarrow2 \\cdot f_\\text{ZF}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "e59f3ae14358f26d",
+          "start": 588,
+          "end": 611,
+          "expected": "f_\\text{e1} \\rightarrow",
+          "replacement": "f_\\text{e1}\\rightarrow",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_491922253859/body.fr.md",
+      "before_sha256": "bee86ce294a2e0ef33f18d08c5c98128e04ed58c2eb2dcb1025d213ebb599dc5",
+      "after_sha256": "8b668d770a18c71f24d0a1ad3871df6cffc27b0cc511fab4ea22fa5bda9eefbc",
+      "changes": [
+        {
+          "case_id": "20f25337f3c30c36",
+          "start": 473,
+          "end": 477,
+          "expected": "80 m",
+          "replacement": "80m",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_491922253859/body.it.md",
+      "before_sha256": "77ba22b8ba2405dcf78fb556b6a52779df92c8e0126a28380ce960439043c7c7",
+      "after_sha256": "3e0184201e805adc3fc34589ffd710c560044373e13f63b540e5aecc72d50511",
+      "changes": [
+        {
+          "case_id": "14a556cb6094cb34",
+          "start": 465,
+          "end": 469,
+          "expected": "80 m",
+          "replacement": "80m",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_6bdd356d9797/body.it.md",
+      "before_sha256": "6dd0d73c11702460a919cbb0106f1072b51658297ff139e486a7a2e1fa80cb50",
+      "after_sha256": "0cb5673ef0c90e2bc183bf55cc2aaa5c0330fa38b9b88bb3db0cde749f03d7a2",
+      "changes": [
+        {
+          "case_id": "1d2a806daa3510ca",
+          "start": 2165,
+          "end": 2384,
+          "expected": "\\begin{split} P_{\\textrm{ERP}} &= P_S \\cdot 10^{\\frac{g_d - a}{\\qty{10}{\\dB}}}\\\\ &= \\qty{50}{\\W} \\cdot 10^{\\frac{\\qty{-20}{\\dBd} - \\qty{0}{\\dB}}{\\qty{10}{\\dB}}}\\\\ &= \\qty{50}{\\W} \\cdot 10^{-2} = \\qty{0,5}{\\W}\\end{split}",
+          "replacement": "\\begin{split} P_{\\textrm{ERP}} &= P_S \\cdot 10^{\\frac{g_d - a}{\\qty{10}{\\dB}}}\\\\ &= \\qty{50}{\\watt} \\cdot 10^{\\frac{\\qty{-20}{\\dBd} - \\qty{0}{\\dB}}{\\qty{10}{\\dB}}}\\\\ &= \\qty{50}{\\watt} \\cdot 10^{-2} = \\qty{0,5}{\\watt}\\end{split}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "927769ca9d5d4ebb",
+          "start": 2037,
+          "end": 2055,
+          "expected": "P_S = \\qty{50}{\\W}",
+          "replacement": "P_S = \\qty{50}{\\watt}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "8ba43b9515a8731d",
+          "start": 1065,
+          "end": 1104,
+          "expected": "\\qty{50}{\\W} \\cdot 0,01 = \\qty{0,5}{\\W}",
+          "replacement": "\\qty{50}{\\watt} \\cdot 0,01 = \\qty{0,5}{\\watt}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "0eb3cde4bd9df28c",
+          "start": 777,
+          "end": 790,
+          "expected": "\\qty{630}{\\m}",
+          "replacement": "\\qty{315}{\\meter}",
+          "finding_category": "technical_token_mismatch"
+        },
+        {
+          "case_id": "6a012ea3a234bee3",
+          "start": 759,
+          "end": 772,
+          "expected": "\\qty{315}{\\m}",
+          "replacement": "\\qty{630}{\\meter}",
+          "finding_category": "technical_token_mismatch"
+        },
+        {
+          "case_id": "315f8f37b4469cf2",
+          "start": 697,
+          "end": 708,
+          "expected": "\\qty{1}{\\W}",
+          "replacement": "\\qty{1}{\\watt}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "070f871c8e3202d4",
+          "start": 640,
+          "end": 653,
+          "expected": "\\qty{630}{\\m}",
+          "replacement": "\\qty{630}{\\meter}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_6ec8979e1af8/body.fr.md",
+      "before_sha256": "e4efc2b0e15c6bb3428a812bf87f1d2a0c4383e9338dca4232745c3fcb8c9963",
+      "after_sha256": "b477612923850685a3541ca2264ec00fdd1d840ee87cf7cd3ddaa82d29da8e76",
+      "changes": [
+        {
+          "case_id": "0bc6285286923224",
+          "start": 677,
+          "end": 692,
+          "expected": "\\qty{2}{\\metre}",
+          "replacement": "\\qty{2}{\\meter}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_7180856265e9/body.fr.md",
+      "before_sha256": "19ef54b37b552c05e88dae8b160a5fca5f439ecadfa46846f47c1087b9c4c9f9",
+      "after_sha256": "466f0deb361af40b084b9780a48e116b6c93da6149a0a2cc7cb081a1ee038117",
+      "changes": [
+        {
+          "case_id": "cc055ade531bb31a",
+          "start": 2432,
+          "end": 2587,
+          "expected": "\\begin{split} \\text{MUF} & \\approx \\frac{f_c}{\\sin(\\alpha)}\\\\n&\\approx \\frac{\\qty{3}{\\mega\\hertz}}{\\num{0,71}}\\\\n&\\approx \\qty{4,2}{\\mega\\hertz}\\end{split}",
+          "replacement": "\\begin{split} \\text{MUF} & \\approx \\frac{f_c}{\\sin(\\alpha)}\\\\&\\approx \\frac{\\qty{3}{\\mega\\hertz}}{\\num{0,71}}\\\\&\\approx \\qty{4,2}{\\mega\\hertz}\\end{split}",
+          "finding_category": "technical_token_mismatch"
+        },
+        {
+          "case_id": "c61542a8987d7d36",
+          "start": 2306,
+          "end": 2323,
+          "expected": "f_c = 3\\text{MHz}",
+          "replacement": "f_c = 3MHz",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_7180856265e9/body.it.md",
+      "before_sha256": "411b7a90c36b97f46a1482183e13c93185b806b3f034203ad969d0641d857cb2",
+      "after_sha256": "6c4092e457957cb633d0c7781fe24e0eac3c7dcacb5b184ffa90498665247d0b",
+      "changes": [
+        {
+          "case_id": "224120405657dcd8",
+          "start": 2380,
+          "end": 2397,
+          "expected": "f_c = 3\\text{MHz}",
+          "replacement": "f_c = 3MHz",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_73cfa10d7930/body.fr.md",
+      "before_sha256": "15f0e51e75a82c3cf5b80e5683a98437196cf3a5e48a4ae44861f1d4a2b0a286",
+      "after_sha256": "381970413bf8f0a0f1096b7fe41c9c187ce9fc656051a80a80c9f535346f1aee",
+      "changes": [
+        {
+          "case_id": "3314a1c8b228000c",
+          "start": 256,
+          "end": 260,
+          "expected": "15 %",
+          "replacement": "15%",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_793f06854729/body.fr.md",
+      "before_sha256": "aebc72f1ac06dce969340747957358c9925588aff83c81cd6d817e4bfd167a8a",
+      "after_sha256": "aa0e10e7ff777fd90184f1b377ae94842a784ad94a5f3d72194f7d807586ae74",
+      "changes": [
+        {
+          "case_id": "722852a10dc93415",
+          "start": 1827,
+          "end": 1832,
+          "expected": "20 dB",
+          "replacement": "20dB",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "3016b94a9c2c8a9a",
+          "start": 1413,
+          "end": 1418,
+          "expected": "20 dB",
+          "replacement": "20dB",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_9580168f4530/body.fr.md",
+      "before_sha256": "e28e47120b312329d1fd891b837ab796653f82e6fcb4a72eef81df0ee31a388d",
+      "after_sha256": "1592b568f51541207bc7cfd657d252c179e70aeee7fb6f77c0163b1c8df545eb",
+      "changes": [
+        {
+          "case_id": "15c08e6e219b1c9b",
+          "start": 342,
+          "end": 366,
+          "expected": "\n\\pm\\qty{5}{\\mega\\hertz}",
+          "replacement": "\\pm\\qty{5}{\\mega\\hertz}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_9580168f4530/body.it.md",
+      "before_sha256": "774d7e4e1e5aa2978ebe62a794e5abeffd65ee0ef1e0cd7af27379a153a9dff2",
+      "after_sha256": "31792cfa82952292ab75ae4e41a965c4aed37e771b9b9d958fe1afb1759a26a4",
+      "changes": [
+        {
+          "case_id": "a6da43f69662cb5c",
+          "start": 336,
+          "end": 360,
+          "expected": "\n\\pm\\qty{5}{\\mega\\hertz}",
+          "replacement": "\\pm\\qty{5}{\\mega\\hertz}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_9763aaf80bb8/body.it.md",
+      "before_sha256": "8925a93e155579a6bab2694d2360b028b3dfe1f0a0c7b2ef020d5e31ad80a393",
+      "after_sha256": "c889ecfb5dc4fdd38b3ca0abfbb8913c59e8ab0fb24ad50bae39c1e9f0a6bc75",
+      "changes": [
+        {
+          "case_id": "49dbfe4eaf465da3",
+          "start": 1093,
+          "end": 1182,
+          "expected": "\\hat{U} = U_\\mathrm{eff} \\cdot \\sqrt{2} = \\qty{15}{\\volt} \\cdot 1,41 = \\qty{21,21}{\\volt}",
+          "replacement": "\\hat{U} = U_{\\mathrm{eff}} \\cdot \\sqrt{2} = \\qty{15}{\\volt} \\cdot 1,41 = \\qty{21,21}{\\volt}",
+          "finding_category": "technical_token_mismatch"
+        },
+        {
+          "case_id": "295edefec54ca3c2",
+          "start": 1025,
+          "end": 1057,
+          "expected": "U_\\mathrm{eff} = \\qty{15}{\\volt}",
+          "replacement": "U_{\\mathrm{eff}} = \\qty{15}{\\volt}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_b1ff634cb166/body.fr.md",
+      "before_sha256": "11721301a97f2b71707106060424c46c153b6c060193b7b9edeae8805083ad7a",
+      "after_sha256": "4952a802d46753844ad0193207c7ebd73502f59f37a4f0a01f17a40841fe5405",
+      "changes": [
+        {
+          "case_id": "c792e43b5d921643",
+          "start": 2050,
+          "end": 2119,
+          "expected": "(\\sqrt{\\qty{50}{\\ohm}\\cdot \\qty{100}{\\ohm}} \\approx \\qty{70,7}{\\ohm})",
+          "replacement": "(\\sqrt{\\qty{50}{\\ohm}\\cdot \\qty{100}{\\ohm}} \\approx \\qty{70,7}{\\ohm})",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_b1ff634cb166/body.it.md",
+      "before_sha256": "615e8742b3ad0fec27f50159e344d88051c4cfb4a67fa5977fa84d7af00eb666",
+      "after_sha256": "93052d747953ed1c141ca735e3e8a001eba9aab238db028f5880a01f72fa84b4",
+      "changes": [
+        {
+          "case_id": "12a1a16271a879a8",
+          "start": 2111,
+          "end": 2180,
+          "expected": "(\\sqrt{\\qty{50}{\\ohm}\\cdot \\qty{100}{\\ohm}} \\approx \\qty{70,7}{\\ohm})",
+          "replacement": "(\\sqrt{\\qty{50}{\\ohm}\\cdot \\qty{100}{\\ohm}} \\approx \\qty{70,7}{\\ohm})",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_b23e95d6d655/body.fr.md",
+      "before_sha256": "a1c19bcb29fcb03cd59775c031ffd697e6ec5479388e8b9fefe7f665e12af1d3",
+      "after_sha256": "11750b160cd656991cc91febfa2fc28a21b23368b90a2d50ce8a6adfd59788e3",
+      "changes": [
+        {
+          "case_id": "4b1dbf419361db65",
+          "start": 1680,
+          "end": 1692,
+          "expected": "\\qty{40}{\\m}",
+          "replacement": "\\qty{40}{\\meter}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "3731042f495a613b",
+          "start": 1570,
+          "end": 1583,
+          "expected": "\\qty{160}{\\m}",
+          "replacement": "\\qty{160}{\\meter}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "39c04ff5e8dde9e5",
+          "start": 1552,
+          "end": 1564,
+          "expected": "\\qty{80}{\\m}",
+          "replacement": "\\qty{80}{\\meter}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "c1d17577e4d055de",
+          "start": 1365,
+          "end": 1377,
+          "expected": "\\qty{40}{\\m}",
+          "replacement": "\\qty{40}{\\meter}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "6efacfd1b6d873a8",
+          "start": 1295,
+          "end": 1307,
+          "expected": "\\qty{20}{\\m}",
+          "replacement": "\\qty{20}{\\meter}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "eaf822e13ee02e67",
+          "start": 1213,
+          "end": 1225,
+          "expected": "\\qty{40}{\\m}",
+          "replacement": "\\qty{40}{\\meter}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "e5f5b0c5f49317b5",
+          "start": 1093,
+          "end": 1105,
+          "expected": "\\qty{20}{\\m}",
+          "replacement": "\\qty{20}{\\meter}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "a72a2acdc18e1b1b",
+          "start": 994,
+          "end": 1006,
+          "expected": "\\qty{10}{\\m}",
+          "replacement": "\\qty{10}{\\meter}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "53f7270c7d88e923",
+          "start": 910,
+          "end": 922,
+          "expected": "\\qty{10}{\\m}",
+          "replacement": "\\qty{10}{\\meter}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_ccd7122e0afb/body.it.md",
+      "before_sha256": "8e9c264a70ed80286a6dbc4435b4b7882a5ef4319332fa76226b723c4642119c",
+      "after_sha256": "83d0daf69b5a50b4138ffd36b3402c511bda77edb1b32eaf081a38976e781ae4",
+      "changes": [
+        {
+          "case_id": "67ffe52d227510d9",
+          "start": 469,
+          "end": 473,
+          "expected": "25 W",
+          "replacement": "25W",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "5f6a345debab682c",
+          "start": 439,
+          "end": 443,
+          "expected": "25 V",
+          "replacement": "25V",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "2c98a5716cd7fc43",
+          "start": 431,
+          "end": 436,
+          "expected": "0,5 V",
+          "replacement": "0,5V",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_cf0ddf1ed97e/body.fr.md",
+      "before_sha256": "08a656f50692b9441212598f1960a71c3ab6c7f1ad5fbd61046f9f013aab1e1b",
+      "after_sha256": "7b9e51c25b4edc6113617f815c2ca1979ef612299793b89bfd2bfbb378441062",
+      "changes": [
+        {
+          "case_id": "94a0eac570fbaba1",
+          "start": 2190,
+          "end": 2419,
+          "expected": "\\begin{split} P_{\\textrm{PEP}} &= \\frac{U_{\\textrm{eff}}^2}{R} = \\frac{\\left(\\frac{\\qty{6}{\\volt}\\cdot 10}{\\sqrt{2}}\\right)^2}{\\qty{50}{\\ohm}}\\\\n&=\\frac{\\frac{(\\qty{60}{\\volt})^2}{2}}{\\qty{50}{\\ohm}} = \\qty{36}{\\watt} \\end{split}",
+          "replacement": "\\begin{split} P_{\\textrm{PEP}} &= \\frac{U_{\\textrm{eff}}^2}{R} = \\frac{\\left(\\frac{\\qty{6}{\\volt}\\cdot 10}{\\sqrt{2}}\\right)^2}{\\qty{50}{\\ohm}}\\\\ &=\\frac{\\frac{(\\qty{60}{\\volt})^2}{2}}{\\qty{50}{\\ohm}} = \\qty{36}{\\watt} \\end{split}",
+          "finding_category": "technical_token_mismatch"
+        },
+        {
+          "case_id": "17d891ad7460d9c9",
+          "start": 1686,
+          "end": 1956,
+          "expected": "\\begin{split} P_{\\textrm{PEP}} &= \\frac{U_{\\textrm{eff}}^2}{R} = \\frac{\\left(\\frac{\\qty{100}{\\volt}}{\\sqrt{2}}\\right)^2}{\\qty{50}{\\ohm}}\\\\n&=\\frac{\\frac{(\\qty{100}{\\volt})^2}{2}}{\\qty{50}{\\ohm}} = \\frac{\\qty{5000}{\\volt}^2}{\\qty{50}{\\ohm}} = \\qty{100}{\\watt} \\end{split}",
+          "replacement": "\\begin{split} P_{\\textrm{PEP}} &= \\frac{U_{\\textrm{eff}}^2}{R} = \\frac{\\left(\\frac{\\qty{100}{\\volt}}{\\sqrt{2}}\\right)^2}{\\qty{50}{\\ohm}}\\\\ &=\\frac{\\frac{(\\qty{100}{\\volt})^2}{2}}{\\qty{50}{\\ohm}} = \\frac{\\qty{5000}{\\volt}^2}{\\qty{50}{\\ohm}} = \\qty{100}{\\watt} \\end{split}",
+          "finding_category": "technical_token_mismatch"
+        },
+        {
+          "case_id": "ab397ce9899fe8b0",
+          "start": 1612,
+          "end": 1638,
+          "expected": "\\hat{U} = \\qty{100}{\\volt}",
+          "replacement": "\\hat{U} = 100V",
+          "finding_category": "technical_token_mismatch"
+        },
+        {
+          "case_id": "109198c9c91bf0b3",
+          "start": 1555,
+          "end": 1571,
+          "expected": "R=\\qty{50}{\\ohm}",
+          "replacement": "R=50\\Omega",
+          "finding_category": "technical_token_mismatch"
+        },
+        {
+          "case_id": "f60d04fba02b534b",
+          "start": 405,
+          "end": 409,
+          "expected": "50 %",
+          "replacement": "50%",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_cf0ddf1ed97e/body.it.md",
+      "before_sha256": "5d4a71ebee237d8dca0c86dda4ab27fe2ce36b89ba29a79c75421d4d87265fe4",
+      "after_sha256": "f2ce8b0403bbd3e374577243a93649aa8d762afa4bdfab7e55f5eff3275955e4",
+      "changes": [
+        {
+          "case_id": "4d1ee5d90f315e80",
+          "start": 1631,
+          "end": 1657,
+          "expected": "\\hat{U} = \\qty{100}{\\volt}",
+          "replacement": "\\hat{U} = 100V",
+          "finding_category": "technical_token_mismatch"
+        },
+        {
+          "case_id": "5efe1a5821b638df",
+          "start": 1579,
+          "end": 1595,
+          "expected": "R=\\qty{50}{\\ohm}",
+          "replacement": "R=50\\Omega",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_d411c70e96fe/body.fr.md",
+      "before_sha256": "677ab4fda466f7f9ac6fe0d12bdea0d030302529e378a76b1ae15e34d0bdd191",
+      "after_sha256": "37bf13f9f13334b2da81374f9d9bdf533b24bf99b350a331730be8d09e7fcef0",
+      "changes": [
+        {
+          "case_id": "0459f9cda03f4354",
+          "start": 1540,
+          "end": 1550,
+          "expected": "\num{44100}",
+          "replacement": "\\num{44100}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_d411c70e96fe/body.it.md",
+      "before_sha256": "7506ceff2c0dac24892859f2e91f05adc3d19d44d5e9053bf105def02be176e1",
+      "after_sha256": "ea2e8feb9687c26392aee89cfbe67bb843e613abc4c647da94604552e298b92e",
+      "changes": [
+        {
+          "case_id": "548f3fb2a1fa4270",
+          "start": 1431,
+          "end": 1443,
+          "expected": "\n\\num{44100}",
+          "replacement": "\\num{44100}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_e581d113ad69/body.fr.md",
+      "before_sha256": "b45be167e9482c2028878fd62f1d1a5c80ef53346b57d57139d6a4161ab91eac",
+      "after_sha256": "4994ad0aa4606fbc0cb53ad65c0c8cd572c329f62ac236bf0c1001996a9e58c3",
+      "changes": [
+        {
+          "case_id": "61eef152db66b7d1",
+          "start": 549,
+          "end": 558,
+          "expected": "R_{2,3,6}",
+          "replacement": "R_{ 2,3,6 }",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "ee41cffd034a35bd",
+          "start": 425,
+          "end": 434,
+          "expected": "R_{5,7,8}",
+          "replacement": "R_{ 5,7,8 }",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_e7c543f8dcc3/body.fr.md",
+      "before_sha256": "6d3fb06c91d39c00f9ba541f09d94f4c14ec29aac454a40a4562ea9d80c4e101",
+      "after_sha256": "bf5ef30c850238817cdd28517acf2f65505e2e523674695de780da0852b5c8f5",
+      "changes": [
+        {
+          "case_id": "b846ccae7eadaf37",
+          "start": 764,
+          "end": 767,
+          "expected": "0 W",
+          "replacement": "0W",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "slides/sl_e7c543f8dcc3/body.it.md",
+      "before_sha256": "c5b5dddb6bc4296d3ccc8faff7af2986386d10b6c6b491d787dd43a6066bad04",
+      "after_sha256": "4a57d9b1490689d5c9ab401f3cda5adb6db941af0b50077fae9ec8bd265537f8",
+      "changes": [
+        {
+          "case_id": "a53e185d323dba52",
+          "start": 745,
+          "end": 748,
+          "expected": "0 W",
+          "replacement": "0W",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_052c2cf0fe05/body.fr.md",
+      "before_sha256": "286d069b217c847ad874007d6f3d7f438f5c01bb7124fdda87080dd9e5f49b4a",
+      "after_sha256": "26a96ed02b9c7724ad9811bfbdf7e60bb4bc86af196f2209494ac7ccc7d989ef",
+      "changes": [
+        {
+          "case_id": "8dc81000e765e519",
+          "start": 391,
+          "end": 559,
+          "expected": "P=I_\\text{eff}^2 \\cdot R = \\left(\\frac{\\qty{0,5}{\\ampere}{\\sqrt{2}}\\right)^2 \\cdot \\qty{20}{\\ohm} = \\qty{0,125}{\\ampere\\squared} \\cdot \\qty{20}{\\ohm} = \\qty{2,5}{\\watt}",
+          "replacement": "P=I_\\text{eff}^2 \\cdot R = \\left(\\frac{\\qty{0,5}{\\ampere}}{\\sqrt{2}}\\right)^2 \\cdot \\qty{20}{\\ohm} = \\qty{0,125}{\\ampere\\squared} \\cdot \\qty{20}{\\ohm} = \\qty{2,5}{\\watt}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_13c027bfe08e/body.de.md",
+      "before_sha256": "8908a42be6a7783561464a36f50b25bc21a362f8a55889f10d741c3728f65982",
+      "after_sha256": "13baec438ddc34b2c59b0c0bf6f2af1d04e96b3b2697384ea1e1e296020c6d00",
+      "changes": [
+        {
+          "case_id": "AI509-source-correction",
+          "operation": "replace_exact",
+          "expected": "\\qty{1450}{\\mega\\hertz}",
+          "replacement": "\\qty{1450}{\\hertz}",
+          "occurrences": 2,
+          "reason": "Human decision in arbitrage-v3: calculation yields 1450 Hz; German source had 1450 MHz."
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_1670c4b99ce6/body.fr.md",
+      "before_sha256": "211f702625efce8e1cf1e30cc2286723728e25210c151f115cdcd285863f18b5",
+      "after_sha256": "49cc7d408f249e3d2305253db2e10bb2a3511ecd6b0dd8bcdfc50881d2e09856",
+      "changes": [
+        {
+          "case_id": "2d8c17d97564f7e4",
+          "start": 1111,
+          "end": 1134,
+          "expected": "\\qty{11,7}{\\volt\\per\\m}",
+          "replacement": "\\qty{11,7}{\\volt\\per\\meter}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "3f5b297dd1ad44cd",
+          "start": 938,
+          "end": 1037,
+          "expected": "E = \\frac{\\sqrt{\\qty{30}{\\ohm} \\cdot \\qty{4101,47}{\\watt}}}{\\qty{30}{\\m}} = \\qty{11,7}{\\volt\\per\\m}",
+          "replacement": "E = \\frac{\\sqrt{\\qty{30}{\\ohm} \\cdot \\qty{4101,47}{\\watt}}}{\\qty{30}{\\meter}} = \\qty{11,7}{\\volt\\per\\meter}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "3da64c67018cb3ce",
+          "start": 746,
+          "end": 762,
+          "expected": "d = \\qty{30}{\\m}",
+          "replacement": "d = \\qty{30}{\\meter}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_23764a466f88/body.it.md",
+      "before_sha256": "7124d8c90a14762b0f4ffa42010689abce2dc22aceeeca7cdb8144263cf23dfa",
+      "after_sha256": "17d6918a260c26cff88303d25ffcd18f1258869a95b409f45d94c55c906b1194",
+      "changes": [
+        {
+          "case_id": "765b61ee352f9891",
+          "start": 106,
+          "end": 312,
+          "expected": "\\begin{split} X_{\\textrm{C}} &= \\frac{1}{\\omega \\cdot C} = \\frac{1}{2\\pi \\cdot f \\cdot C}\\\\n&= \\frac{1}{2\\pi \\cdot \\qty{435}{\\mega\\hertz} \\cdot \\qty{100}{\\pico\\farad}}\\\\n&\\approx \\qty{3,7}{\\ohm} \\end{split}",
+          "replacement": "\\begin{split} X_{\\textrm{C}} &= \\frac{1}{\\omega \\cdot C} = \\frac{1}{2\\pi \\cdot f \\cdot C}\\\\ &= \\frac{1}{2\\pi \\cdot \\qty{435}{\\mega\\hertz} \\cdot \\qty{100}{\\pico\\farad}}\\\\ &\\approx \\qty{3,7}{\\ohm} \\end{split}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_472e3ebe6008/body.it.md",
+      "before_sha256": "bb5c136cc7ce2751ef53fc7e64bc31f6f886cb4faf31a891b45715aeb151457b",
+      "after_sha256": "e54b087732a7be0af62368b43cceedfc6f45eff1d88f471c7eada7b0add48924",
+      "changes": [
+        {
+          "case_id": "b21f8b2c30e2ad14",
+          "start": 287,
+          "end": 309,
+          "expected": "\\qty{3}{\\volt\\per\\div}",
+          "replacement": "\\qty{3}{\\volt\\per\\oszidiv}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_4ef73a36fc9d/body.it.md",
+      "before_sha256": "1eda435dd86d097521800ce85949ca36f9246d73b6903fabe4ac44148a09df8b",
+      "after_sha256": "170424b13539c287583a7b0750b4ff60c54a8c4726cf681881ed7a73d59d7cd4",
+      "changes": [
+        {
+          "case_id": "165eb421b89ffb26",
+          "start": 157,
+          "end": 352,
+          "expected": "\\Delta P_\\text{R} = 10 \\cdot \\log_{10}\\left(\\frac{B_1}{B_2}\\right)\\unit{\\dB} = 10 \\cdot \\log_{10}\\left(\\frac{\\qty{0,5}{\\kilo\\hertz}}{\\qty{2,5}{\\kilo\\hertz}}\\right)\\unit{\\dB} \\approx \\qty{-7}{\\dB}",
+          "replacement": "\\Delta p_\\text{R} = 10 \\cdot \\log_{10}\\left(\\frac{B_1}{B_2}\\right)\\unit{\\dB} = 10 \\cdot \\log_{10}\\left(\\frac{\\qty{0,5}{\\kilo\\hertz}}{\\qty{2,5}{\\kilo\\hertz}}\\right)\\unit{\\dB} \\approx \\qty{-7}{\\dB}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_62556964b3f1/body.it.md",
+      "before_sha256": "b5d07622d4251692f1880353c2fca69029e12a9c03b8176cc6e92daf2f6c0078",
+      "after_sha256": "b4761b4e71597a9add672f576e298c5777f0a6a1a3bdeef9e00a23ad774ad7cf",
+      "changes": [
+        {
+          "case_id": "5ae8b64e312a666f",
+          "start": 245,
+          "end": 476,
+          "expected": "\\begin{split} f &= \\frac{1}{2 \\pi \\cdot \\sqrt{2,2 \\cdot \\qty{10^{-6}}{\\henry} \\cdot 56 \\cdot \\qty{10^{-12}}{\\farad}}}\\\\n&\\approx \\qty{14338865,06}{\\hertz} \\approx 14,34 \\cdot \\qty{10^6}{\\hertz} = \\qty{14,34}{\\mega\\hertz}\\end{split}",
+          "replacement": "\\begin{split} f &= \\frac{1}{2 \\pi \\cdot \\sqrt{2,2 \\cdot \\qty{10^{-6}}{\\henry} \\cdot 56 \\cdot \\qty{10^{-12}}{\\farad}}}\\\\ &\\approx \\qty{14338865,06}{\\hertz} \\approx 14,34 \\cdot \\qty{10^6}{\\hertz} = \\qty{14,34}{\\mega\\hertz}\\end{split}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_6c3fd169aeef/body.fr.md",
+      "before_sha256": "3eea0b883d0eb39b5ea750fe6f98b55242f28abfb7f0fb48b4a352a911910a8f",
+      "after_sha256": "cd549b0c45657445215dfad60f74b3890f1dcc26e720cceefc7511cea4fb4ec6",
+      "changes": [
+        {
+          "case_id": "5b6857db68f66439",
+          "start": 1381,
+          "end": 1405,
+          "expected": "R = \\qty{100}{\\kilo\\ohm}",
+          "replacement": "R = \\qty{100}{\\kilo\\Ohm}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_6c3fd169aeef/body.it.md",
+      "before_sha256": "edcb892beeeda6e2b32624291b51bb166089130460c2379449d39a4d1c406444",
+      "after_sha256": "89b7db892b39e8495127ff79c557daa398354c998e06b1250b8b66c4d7d4d39a",
+      "changes": [
+        {
+          "case_id": "790ec116e95c803e",
+          "start": 1343,
+          "end": 1367,
+          "expected": "R = \\qty{100}{\\kilo\\ohm}",
+          "replacement": "R = \\qty{100}{\\kilo\\Ohm}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_6d322d8a11b3/body.fr.md",
+      "before_sha256": "94f101b48a54df2b60f5774844cdcf6539c1a378d3bcd93834e61166df0f2996",
+      "after_sha256": "0214cb8a5316bf8b70de110a81611619b6ede4b555d41f053e3c8678fae20f8f",
+      "changes": [
+        {
+          "case_id": "129e151e82e44df3",
+          "start": 134,
+          "end": 259,
+          "expected": "\\qty{435}{\\mega\\hertz} \\cdot \\frac{1}{10^6} = \\frac{435 \\cdot \\cancel{10^6}}{\\cancel{10^6}} \\unit{\\hertz} = \\qty{435}{\\hertz}",
+          "replacement": "\\qty{435}{\\mega\\hertz} \\cdot \\frac{1}{10^6} = \\frac{435 \\cdot \\qty{\\cancel{10^6}}{\\hertz}}{\\cancel{10^6}} = \\qty{435}{\\hertz}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_88e1b95a3b3b/body.fr.md",
+      "before_sha256": "fd1eac99842cbfc2aa9dc446f688affb152cbfbc5383d7c39d5aa88db458057a",
+      "after_sha256": "e9274a2593f9dafe29eca823970d4c83d3fb17a0c76e1885297e7562571eb984",
+      "changes": [
+        {
+          "case_id": "35de83a9885b3b05",
+          "start": 199,
+          "end": 417,
+          "expected": "\\begin{split} f &= \\frac{1}{2 \\pi \\cdot 4,7 \\cdot \\qty{10^3}{\\ohm} \\cdot 2,2 \\cdot \\qty{10^{-9}}{\\farad}}\\\\n&\\approx \\qty{15395}{\\hertz} \\\\n&\\approx 15,4 \\cdot \\qty{10^3}{\\hertz}\\\\n&= \\qty{15,4}{\\kilo\\hertz}\\end{split}",
+          "replacement": "\\begin{split} f &= \\frac{1}{2 \\pi \\cdot 4,7 \\cdot \\qty{10^3}{\\ohm} \\cdot 2,2 \\cdot \\qty{10^{-9}}{\\farad}}\\\\ &\\approx\\qty{15395}{\\hertz} \\\\ &\\approx 15,4 \\cdot \\qty{10^3}{\\hertz}\\\\ &= \\qty{15,4}{\\kilo\\hertz}\\end{split}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_965614e745d5/body.fr.md",
+      "before_sha256": "33ddc9c4cf8ade3ab629f6ee64c779ccc66aef5cbd95fccec63fcc21ce3e19f3",
+      "after_sha256": "1568654fd31ab9e025a864cccc38d2ba39ca08b59c8877240dd15d6971d22a0c",
+      "changes": [
+        {
+          "case_id": "940f69ab06e84356",
+          "start": 293,
+          "end": 345,
+          "expected": "\\frac{B}{2} = \\Delta f_{\\textrm{T}} + f_{\\\\;mod max}",
+          "replacement": "\\frac{B}{2} = \\Delta f_{\\textrm{T}} + f_{\\textrm{mod max}}",
+          "finding_category": "technical_token_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_9c752bea3156/body.fr.md",
+      "before_sha256": "2f5a2f87c31f47d77fed3b1a3a40ec0e8dfac3c23cc3be65d23e36a91149d51d",
+      "after_sha256": "30ffda579e143e722b1d52b07c8bd33413ff308d7f112499bc6082394b73e2f0",
+      "changes": [
+        {
+          "case_id": "17db667563f5cce8",
+          "start": 893,
+          "end": 1136,
+          "expected": "E = \\qty{1}{\\micro\\volt\\per\\meter} \\cdot 10^{\\frac{\\qty{120}{\\dB\\micro\\volt\\per\\meter}}{\\qty{20}{\\dB\\micro\\volt\\per\\meter}}} = \\qty{1}{\\micro\\volt\\per\\meter} \\cdot 10^{6} = \\qty{10^{-6}}{\\volt\\per\\meter} \\cdot 10^{6} = \\qty{1}{\\volt\\per\\meter}",
+          "replacement": "E = \\qty{1}{\\micro\\volt\\per\\meter}\\cdot 10^{\\frac{\\qty{120}{\\dB\\micro\\volt\\per\\meter}}{\\qty{20}{\\dB\\micro\\volt\\per\\meter}}} = \\qty{1}{\\micro\\volt\\per\\meter}\\cdot 10^{6} = \\qty{10^{-6}}{\\volt\\per\\meter}\\cdot 10^{6} = \\qty{1}{\\volt\\per\\meter}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "905de7b854ca4b20",
+          "start": 756,
+          "end": 846,
+          "expected": "E = \\qty{1}{\\micro\\volt\\per\\meter} \\cdot 10^{\\frac{e}{\\qty{20}{\\dB\\micro\\volt\\per\\meter}}}",
+          "replacement": "E = \\qty{1}{\\micro\\volt\\per\\meter}\\cdot 10^{\\frac{e}{\\qty{20}{\\dB\\micro\\volt\\per\\meter}}}",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "33f309e2de95c084",
+          "start": 411,
+          "end": 453,
+          "expected": "\\qty{0,775}{\\volt} \\rightarrow \\unit{\\dBu}",
+          "replacement": "\\qty{0,775}{\\volt}  \\rightarrow  \\unit{\\dBu} ",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "d2d7a4868fb6e48f",
+          "start": 370,
+          "end": 408,
+          "expected": "\\qty{1}{\\watt} \\rightarrow \\unit{\\dBW}",
+          "replacement": "\\qty{1}{\\watt}  \\rightarrow  \\unit{\\dBW} ",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "2ef5f0d8abeae5d1",
+          "start": 323,
+          "end": 367,
+          "expected": "\\qty{1}{\\milli\\watt} \\rightarrow \\unit{\\dBm}",
+          "replacement": "\\qty{1}{\\milli\\watt}  \\rightarrow  \\unit{\\dBm}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_b0e8424a4b7d/body.fr.md",
+      "before_sha256": "94401e8c2f5268993a3c3e9c07f1988c3881b783e2d09233a0497e1287ac0198",
+      "after_sha256": "fce2b8a3bd57e5354909c37f4ee80006feccaa5123af8e788463b742f82e3547",
+      "changes": [
+        {
+          "case_id": "41c63207401ad48c",
+          "start": 780,
+          "end": 843,
+          "expected": "\\qty{20}{\\dBW} \\rightarrow \\qty{100}{\\watt} = \\qty{10^2}{\\watt}",
+          "replacement": "\\qty{20}{\\dBW} \\rightarrow \\qty{100}{\\watt} = \\qty{10^2}{\\watt} ",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_b0e8424a4b7d/body.it.md",
+      "before_sha256": "d947ed0980c98463560dc83ff7a670a354ac00cbf4b9e8ea7a4f1ed56a3f6d24",
+      "after_sha256": "7129456d5bf944a912dabe5c9bfd4ca4ae47a70e225ad4b74dce997b111ff511",
+      "changes": [
+        {
+          "case_id": "8cca5458b78ed094",
+          "start": 746,
+          "end": 809,
+          "expected": "\\qty{20}{\\dBW} \\rightarrow \\qty{100}{\\watt} = \\qty{10^2}{\\watt}",
+          "replacement": "\\qty{20}{\\dBW} \\rightarrow \\qty{100}{\\watt} = \\qty{10^2}{\\watt} ",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_c12584f91d3d/body.fr.md",
+      "before_sha256": "1c8c938b07aa56c565688a2c7de1f409fc9a1941d76dc0c952843f2eec510791",
+      "after_sha256": "755a5b22ad100664cf58322fcd450f1df617fca945b97f8830644cceb7ef98ea",
+      "changes": [
+        {
+          "case_id": "1302fbd9e7375ec5",
+          "start": 280,
+          "end": 291,
+          "expected": "\\frac{5}{8}",
+          "replacement": "5/8",
+          "finding_category": "technical_format_mismatch"
+        },
+        {
+          "case_id": "7991c547e01c27b7",
+          "start": 58,
+          "end": 69,
+          "expected": "\\frac{5}{8}",
+          "replacement": "5/8",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_d0ec81e56411/body.fr.md",
+      "before_sha256": "3c5e48fc40c806140767092423f91f32b193791155ea2e998c89aac2900dfe78",
+      "after_sha256": "e056feab49c3f7eb7cc92fec57ab3425a97a7735e4d09d7a01fdb5ed3f36c77e",
+      "changes": [
+        {
+          "case_id": "8db0ce886525c2e3",
+          "start": 542,
+          "end": 584,
+          "expected": "\\tan\\delta = \\frac{1}{Q} = \\frac{R_S}{X_L}",
+          "replacement": "\\tan\\delta = \\frac{1}{Q} =\\frac{R_S}{X_L}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_d0ec81e56411/body.it.md",
+      "before_sha256": "368c6b45c3c16f9d68370957f6e8ff86fac54b94e68bc034c14a67933dbd6ac1",
+      "after_sha256": "3c8523ec403ecc88718779b47e7119695751f30d3f3899976f5aadd402f38970",
+      "changes": [
+        {
+          "case_id": "42cd8b37f9944aaa",
+          "start": 516,
+          "end": 558,
+          "expected": "\\tan\\delta = \\frac{1}{Q} = \\frac{R_S}{X_L}",
+          "replacement": "\\tan\\delta = \\frac{1}{Q} =\\frac{R_S}{X_L}",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_d6e918c07dec/body.it.md",
+      "before_sha256": "c971176b6fbcdf0db5eb1e70aaf73384ee8ea25f8a6e897b0d37699312cbb151",
+      "after_sha256": "19c66ddb2371b8acf3f6caa6405f0bc5889723bc2b0b9a66733f509d022f0073",
+      "changes": [
+        {
+          "case_id": "0e4a4b1cd5fb542e",
+          "start": 605,
+          "end": 766,
+          "expected": " R_{23} = \\frac{R_2 \\cdot R_3}{R_2 + R_3} = \\frac{\\qty{10}{\\kilo\\ohm} \\cdot \\qty{10}{\\kilo\\ohm}}{\\qty{10}{\\kilo\\ohm} + \\qty{10}{\\kilo\\ohm}} = \\qty{5}{\\kilo\\ohm} ",
+          "replacement": " R_{23} = \\frac{R_2 \\cdot R_3}{R_2 + R_3} = \\frac{\\qty{10}{\\kilo\\ohm} \\cdot \\qty{10}{\\kilo\\ohm}}\n{\\qty{10}{\\kilo\\ohm} + \\qty{10}{\\kilo\\ohm}} = \\qty{5}{\\kilo\\ohm} ",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_dbcc6f16d653/body.fr.md",
+      "before_sha256": "4cf7f2e54f7c209f37898eec0c7773a20a7ddff4076ad93729852572611c35df",
+      "after_sha256": "4bce027697686bc2cfab4e005b2a72beab175490c62e0ccc794861a837aa2d59",
+      "changes": [
+        {
+          "case_id": "b522fe6bdf379ab4",
+          "start": 292,
+          "end": 396,
+          "expected": " \\hat{U} = U_{\\mathrm{eff}} \\cdot \\sqrt{2} = \\qty{11,5}{\\volt} \\cdot \\sqrt{2} \\approx \\qty{16,3}{\\volt} ",
+          "replacement": " \\hat{U} = U_{\\mathrm{eff}} \\cdot \\sqrt{2} = \\qty{11,5}{\\volt} \\cdot \\sqrt{2} \\approx \\qty{16,3}{\\volt}\n",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_dbcc6f16d653/body.it.md",
+      "before_sha256": "747614ff6c2cafd3789d3f314b9c1d7343c3a1a322324b2350ed39df069295d0",
+      "after_sha256": "232928ef35c4c75ca449d89962806ea19cc1e781aacabb35a70d9185c9cffc69",
+      "changes": [
+        {
+          "case_id": "6ae5128ae0fc5dc5",
+          "start": 293,
+          "end": 397,
+          "expected": " \\hat{U} = U_{\\mathrm{eff}} \\cdot \\sqrt{2} = \\qty{11,5}{\\volt} \\cdot \\sqrt{2} \\approx \\qty{16,3}{\\volt} ",
+          "replacement": " \\hat{U} = U_{\\mathrm{eff}} \\cdot \\sqrt{2} = \\qty{11,5}{\\volt} \\cdot \\sqrt{2} \\approx \\qty{16,3}{\\volt}\n",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    },
+    {
+      "path": "solutions/s_dd6128b3dd15/body.fr.md",
+      "before_sha256": "64cc2c98e42c20fc68ad36470b7572c72def4b7ac0cdd83a36086dddd0731090",
+      "after_sha256": "36aa67e00dda2924a4e545ef283245ebe42d68104b18e2df05eeb44544e5353e",
+      "changes": [
+        {
+          "case_id": "d0e27a00a7e80877",
+          "start": 614,
+          "end": 618,
+          "expected": "2\\pi",
+          "replacement": "2 \\pi",
+          "finding_category": "technical_format_mismatch"
+        }
+      ]
+    }
+  ],
+  "decision_file_line_endings": "LF-normalized archival copy; exact tool-input hashes remain recorded in apply-pass-1.json and apply-pass-2.json."
+}

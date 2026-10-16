@@ -59,7 +59,7 @@ Dans le rapport, la station réceptrice décrit la qualité de la liaison
 <note>
 * S de 1 à 9
 * plus de +x dB
-* par exemple 9+20 dB
+* par exemple 9+20dB
 </note>
 
 ---
@@ -77,7 +77,7 @@ Dans le rapport, la station réceptrice décrit la qualité de la liaison
 En radiotéléphonie
 
 | l: Compréhensibilité | l: S-mètre | c: $\rightarrow$ | l: Rapport RST |
-| parfaitement (5) | +20 dB | $\rightarrow$ | 59+20 dB |
+| parfaitement (5) | +20 dB | $\rightarrow$ | 59+20dB |
 | parfaitement (5) | 9 | $\rightarrow$ | 59 |
 | sans difficulté (4) | 5 | $\rightarrow$ | 45 |
 | avec difficulté (3) | 3 | $\rightarrow$ | 33 |

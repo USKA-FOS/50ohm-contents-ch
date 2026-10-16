@@ -53,7 +53,7 @@
 
 * recherché : atténuation pour $\qty{100}{\meter}$ de câble RG58 à $\qty{145}{\mega\hertz}$
 * Solution : lecture sur le diagramme
-* Point d'intersection de la ligne RG58 avec $\qty{145}{\mega\hertz} \rightarrow \qty{20}{\dB}$
+* Point d'intersection de la ligne RG58 avec $\qty{145}{\mega\hertz}\rightarrow \qty{20}{\dB}$
 
 ---
 [question:EG311]
@@ -64,7 +64,7 @@
 * Solution : règle de trois
 
 $\dfrac{\qty{20}{\dB}}{\qty{100}{\meter}} = \dfrac{x}{\qty{20}{\meter}}$
-$x = \dfrac{\qty{20}{\dB} \cdot \qty{20}{\meter}}{\qty{100}{\meter}} = \qty{4}{\dB}$
+$x = \dfrac{\qty{20}{\dB}\cdot \qty{20}{\meter}}{\qty{100}{\meter}} = \qty{4}{\dB}$
 
 ---
 [question:EG313]
@@ -73,10 +73,10 @@ $x = \dfrac{\qty{20}{\dB} \cdot \qty{20}{\meter}}{\qty{100}{\meter}} = \qty{4}{\
 
 * recherché : atténuation pour $\qty{15}{\meter}$ de câble RG58 à $\qty{145}{\mega\hertz}$
 * Solution : lecture sur le diagramme et règle de trois
-* Point d'intersection de la ligne RG58 avec $\qty{145}{\mega\hertz} \rightarrow \qty{20}{\dB}$
+* Point d'intersection de la ligne RG58 avec $\qty{145}{\mega\hertz}\rightarrow \qty{20}{\dB}$
 
 $\dfrac{\qty{20}{\dB}}{\qty{100}{\meter}} = \dfrac{x}{\qty{15}{\meter}}$
-$x = \dfrac{\qty{20}{\dB} \cdot \qty{15}{\meter}}{\qty{100}{\meter}} = \qty{3}{\dB}$
+$x = \dfrac{\qty{20}{\dB}\cdot \qty{15}{\meter}}{\qty{100}{\meter}} = \qty{3}{\dB}$
 
 ---
 [question:EG314]

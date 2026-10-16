@@ -14,7 +14,7 @@ Pour calculer les distances à respecter, il existe dans l’espace membre de l�
 
 [Outils de calcul pour l’ORNI](https://uska.ch/emissions-berechnung/)
 
-En outre, *aucune valeur limite d’installation* ne doit être respectée tant que la durée d’exploitation est *inférieure à 800 heures par an*. Cela est pratiquement toujours le cas pour les applications radioamateur. Si une installation émet exceptionnellement plus longtemps, elle doit respecter une valeur limite d’installation dans les lieux à occupation sensible (LOS). Cette valeur est de 8,5 V/m pour les émetteurs en ondes longues et moyennes, et de 3,0 V/m pour toutes les autres bandes de fréquences.
+En outre, *aucune valeur limite d’installation* ne doit être respectée tant que la durée d’exploitation est *inférieure à 800 heures par an*. Cela est pratiquement toujours le cas pour les applications radioamateur. Si une installation émet exceptionnellement plus longtemps, elle doit respecter une valeur limite d’installation dans les lieux à occupation sensible (LOS). Cette valeur est de 8.5 V/m pour les émetteurs en ondes longues et moyennes, et de 3.0 V/m pour toutes les autres bandes de fréquences.
 [Source](https://www.bafu.admin.ch/fr/radioamateurisme-comme-source-de-smog-electromagnetique)
 
 Les « lieux à occupation sensible » (LOS) désignent les endroits où des personnes séjournent régulièrement pendant de longues périodes.

@@ -4,9 +4,9 @@ Lors du calcul des distances de sécurité, l’**atténuation angulaire** des a
 [picture:950:a_richtantenne_personenschutz:À un angle de $\qty{40}{\degree}$ sous l’axe du lobe principal de rayonnement, la **puissance rayonnée** est $\qty{6}{\decibel}$ plus faible qu’à l’angle $\qty{0}{\degree}$.]
 </margin>
 
-Dans l’illustration [ref:a_richtantenne_personenschutz], une zone non contrôlable est représentée à un angle critique de $\qty{40}{\degree}$ sous l’antenne, où des personnes peuvent se trouver. La **puissance rayonnée** y est inférieure de $\qty{6}{\decibel}$ à celle au centre du diagramme de rayonnement. Il en résulte que la distance de sécurité peut être réduite en conséquence.
+Dans l’illustration [ref:a_richtantenne_personenschutz], une zone non contrôlable est représentée à un angle critique de $\qty{40}{\degree}$ sous l’antenne, où des personnes peuvent se trouver. La **puissance rayonnée** y est inférieure de $\qty{6}{\dB}$ à celle au centre du diagramme de rayonnement. Il en résulte que la distance de sécurité peut être réduite en conséquence.
 
-$\qty{6}{\decibel}$ correspondent à un facteur de $\num{0,25}$ ou $\dfrac{1}{4}$ (recueil de formules).
+$\qty{6}{\dB}$ correspondent à un facteur de $\num{0,25}$ ou $\dfrac{1}{4}$ (recueil de formules).
 
 $ E = \dfrac{\sqrt{\qty{30}{\ohm}\cdot P_\textrm{EIRP}}}{d}$
 Réarrangement de la formule pour obtenir $d$ (distance de sécurité).

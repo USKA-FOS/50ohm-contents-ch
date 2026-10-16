@@ -4,7 +4,7 @@ $B\approx2 \cdot \left(\Delta f_{\textrm{T}} + f_{\textrm{mod max}} \right)$
 
 Cette fois, c'est l'excursion de fréquence porteuse maximale $\Delta f_{\textrm{T}}$ qui est recherchée. Nous réarrangeons donc la formule :
 
-$\frac{B}{2} = \Delta f_{\textrm{T}} + f_{\\;mod max}$
+$\frac{B}{2} = \Delta f_{\textrm{T}} + f_{\textrm{mod max}}$
 
 $\Delta f_{\textrm{T}} = \frac{B}{2} - f_{\textrm{mod max}}$
 

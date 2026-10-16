@@ -1,4 +1,4 @@
-Un *ascoltatore di onde corte* [index:Kurzwellenhörer] ascolta trasmissioni radio e cerca di identificare con sicurezza le stazioni ricevute. Nonostante la denominazione tedesca *Kurzwellenhörer*, questo hobby non si limita alle onde corte: segnali interessanti si trovano anche nella banda dei $\qty{2}{\meter}$ e dei $\\\qty{70}{\\centi\\meter}$, tramite stazioni ripetitori, beacon o satelliti radioamatoriali.
+Un *ascoltatore di onde corte* [index:Kurzwellenhörer] ascolta trasmissioni radio e cerca di identificare con sicurezza le stazioni ricevute. Nonostante la denominazione tedesca *Kurzwellenhörer*, questo hobby non si limita alle onde corte: segnali interessanti si trovano anche nella banda dei $\qty{2}{\meter}$ e dei $\qty{70}{\centi\meter}$, tramite stazioni ripetitori, beacon o satelliti radioamatoriali.
 
 La ricezione di trasmissioni del servizio di radioamatore è possibile senza autorizzazione. Un esame per radioamatore presso l'Agenzia federale delle reti è necessario solo se si desidera trasmettere personalmente.
 

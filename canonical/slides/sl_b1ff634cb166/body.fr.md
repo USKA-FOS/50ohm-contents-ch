@@ -59,7 +59,7 @@
 <right>
 * Une antenne Delta-Loop avec des côtés de longueur égale présente une impédance d'alimentation d'environ $\qty{100}{\ohm}$
 * L'utilisation d'une ligne λ/4 avec une impédance caractéristique de $\qty{75}{\ohm}$ permet une adaptation à environ $\qty{50}{\ohm}$
-* L'impédance caractéristique idéale est la moyenne géométrique $(\sqrt{\qty{50}{\ohm}\cdot \qty{100}{\ohm}} \approx \qty{70,7}{\ohm})$
+* L'impédance caractéristique idéale est la moyenne géométrique $(\sqrt{\qty{50}{\ohm}\cdot \qty{100}{\ohm}} \approx \qty{70,7}{\ohm})$
 </right>
 ---
 [question:AG117]

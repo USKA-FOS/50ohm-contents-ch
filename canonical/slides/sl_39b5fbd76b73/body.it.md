@@ -53,7 +53,7 @@
 
 * richiesto: attenuazione per $\qty{100}{\meter}$ di cavo RG58 a $\qty{145}{\mega\hertz}$
 * soluzione: lettura dal diagramma
-* Intersezione della linea RG58 con $\qty{145}{\mega\hertz} \rightarrow \qty{20}{\dB}$
+* Intersezione della linea RG58 con $\qty{145}{\mega\hertz}\rightarrow \qty{20}{\dB}$
 
 ---
 [question:EG311]
@@ -64,7 +64,7 @@
 * soluzione: proporzione
 
 $\dfrac{\qty{20}{\dB}}{\qty{100}{\meter}} = \dfrac{x}{\qty{20}{\meter}}$
-$x = \dfrac{\qty{20}{\dB} \cdot \qty{20}{\meter}}{\qty{100}{\meter}} = \qty{4}{\dB}$
+$x = \dfrac{\qty{20}{\dB}\cdot \qty{20}{\meter}}{\qty{100}{\meter}} = \qty{4}{\dB}$
 
 ---
 [question:EG313]
@@ -73,10 +73,10 @@ $x = \dfrac{\qty{20}{\dB} \cdot \qty{20}{\meter}}{\qty{100}{\meter}} = \qty{4}{\
 
 * richiesto: attenuazione per $\qty{15}{\meter}$ di cavo RG58 a $\qty{145}{\mega\hertz}$
 * soluzione: lettura dal diagramma e proporzione
-* Intersezione della linea RG58 con $\qty{145}{\mega\hertz} \rightarrow \qty{20}{\dB}$
+* Intersezione della linea RG58 con $\qty{145}{\mega\hertz}\rightarrow \qty{20}{\dB}$
 
 $\dfrac{\qty{20}{\dB}}{\qty{100}{\meter}} = \dfrac{x}{\qty{15}{\meter}}$
-$x = \dfrac{\qty{20}{\dB} \cdot \qty{15}{\meter}}{\qty{100}{\meter}} = \qty{3}{\dB}$
+$x = \dfrac{\qty{20}{\dB}\cdot \qty{15}{\meter}}{\qty{100}{\meter}} = \qty{3}{\dB}$
 
 ---
 [question:EG314]

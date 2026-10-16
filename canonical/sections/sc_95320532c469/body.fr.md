@@ -19,7 +19,7 @@ Le câble coaxial (illustration [ref:n_Koax_Detail]) est le plus répandu. Dans 
 [photo:66:n_Koaxialkabel:Exemples de câbles coaxiaux couramment utilisés]
 </margin>
 
-Mais même dans le meilleur câble coaxial, une partie de la puissance d'émission est convertie en chaleur, ce qui entraîne des pertes. L'importance des pertes d'une ligne de transmission est indiquée par ce qu'on appelle l'*atténuation du câble*, généralement exprimée en décibels ($\unit{\dB}$) par $\qty{100}{\m}$. Plus un câble coaxial est long, plus les pertes par atténuation sont élevées. La fréquence de l'oscillation électrique joue également un rôle : plus la fréquence augmente, plus l'atténuation du câble est importante.
+Mais même dans le meilleur câble coaxial, une partie de la puissance d'émission est convertie en chaleur, ce qui entraîne des pertes. L'importance des pertes d'une ligne de transmission est indiquée par ce qu'on appelle l'*atténuation du câble*, généralement exprimée en décibels ($\unit{\dB}$) par $\qty{100}{\meter}$. Plus un câble coaxial est long, plus les pertes par atténuation sont élevées. La fréquence de l'oscillation électrique joue également un rôle : plus la fréquence augmente, plus l'atténuation du câble est importante.
 
 [question:NG207]
 

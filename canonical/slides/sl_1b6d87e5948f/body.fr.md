@@ -25,7 +25,7 @@ Certaines bandes de fréquences nous sont attribuées en priorité, d'autres en 
 * Raison : attribution de fréquences fixes
 
 <note>
-* En pratique, grâce aux satellites, le service maritime sur 80 m est rarement utilisé
+* En pratique, grâce aux satellites, le service maritime sur 80m est rarement utilisé
 * Le service maritime civil a été arrêté en Allemagne le 31.12.1998
 * Il existe encore des stations côtières militaires
 </note>

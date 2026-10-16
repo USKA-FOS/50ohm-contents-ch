@@ -23,7 +23,7 @@ Da ricordare: Condensatoooore, la corrente precede!
 ---
 [question:AC111]
 <note>
-In stato stazionario non scorre quasi più corrente, motivo per cui anche la potenza è quasi nulla (0 W).
+In stato stazionario non scorre quasi più corrente, motivo per cui anche la potenza è quasi nulla (0W).
 </note>
 ---
 * La potenza attiva viene dissipata solo in una resistenza ohmica (corrente e tensione in fase)

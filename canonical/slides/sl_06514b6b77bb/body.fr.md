@@ -50,7 +50,7 @@ $BP \approx 2 \cdot \left(\Delta f_{\textrm{T}} + f_{\textrm{mod max}}\right)$
 </right>
 
 <note>
-Environ 99 % de la puissance d'émission se trouvent dans la bande passante
+Environ 99% de la puissance d'émission se trouvent dans la bande passante
 </note>
 ---
 [question:AE306]

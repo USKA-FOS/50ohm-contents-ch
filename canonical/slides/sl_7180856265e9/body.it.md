@@ -84,7 +84,7 @@ La frequenza critica viene indicata anche come $f_k$ o $f_\mathrm{krit}$
 ### Percorso di soluzione
 <left>
 * dati: $\alpha = \qty{45}{\degree}$
-* dati: $f_c = 3\text{MHz}$
+* dati: $f_c = 3MHz$
 </left>
 <right>
 * richiesto: $\mathrm{MUF}$

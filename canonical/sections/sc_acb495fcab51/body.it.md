@@ -11,7 +11,7 @@ Come già sappiamo, la portata delle onde spaziali dipende dall'angolo di irradi
 
 %<wordorigin>
 %L'abbreviazione *FOT* può essere facilmente ricordata così: *F*réquence *O*ptimale de *T*rafic o "Frequency %Optimum Traffic".
-%La FOT è standardmente all'85% della MUF (Maximum Usable Frequency).
+%La FOT è standardmente all'85 % della MUF (Maximum Usable Frequency).
 %</wordorigin>
 % Rimossa di nuovo perché ridondante.
 

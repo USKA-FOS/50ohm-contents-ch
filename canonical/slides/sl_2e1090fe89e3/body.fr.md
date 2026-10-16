@@ -58,7 +58,7 @@ $$R = \frac{\rho\cdot l}{A_{\textrm{fil}}} = \frac{\qty{0,018}{\ohm\cdot\milli\m
 * recherché : $l$
 
 <fragment>
-$\begin{split} R &= \frac{\rho\cdot l}{A_{\textrm{fil}}}\\ \Rightarrow l &= \frac{R\cdot A_{\textrm{fil}}}{\rho} = \frac{\qty{1,5}{\ohm} \cdot \qty{0,05}{\milli\meter\squared}}{\qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}} \approx \qty{41,7}{\meter} \end{split}$
+$\begin{split} R &= \frac{\rho\cdot l}{A_{\textrm{fil}}}\\ \Rightarrow l &= \frac{R\cdot A_{\textrm{fil}}}{\rho} = \frac{\qty{1,5}{\ohm} \cdot \qty{0,5}{\milli\meter\squared}}{\qty{0,018}{\ohm\cdot\milli\meter\squared\per\meter}} \approx \qty{41,7}{\meter} \end{split}$
 </fragment>
 
 ---

@@ -1,6 +1,6 @@
 Dans la classe E, nous avons déjà rencontré une formule approchée permettant de calculer la distance de sécurité par rapport à une antenne :
 
-$d = \frac{\sqrt{\qty{30}{\ohm} \cdot P_{\textrm{EIRP}}}}{E}$
+$d = \frac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$
 
 
 Cette formule peut être appliquée à de nombreuses formes d’antennes, à condition que la condition
@@ -12,7 +12,7 @@ soit remplie, c’est-à-dire que nous nous trouvions en dehors du champ proche 
 
 La formule approchée générale s’écrit :
 
-$d = \frac{\sqrt{\frac{Z_0}{4\pi} \cdot P_{\textrm{EIRP}}}}{E}$
+$d = \frac{\sqrt{\frac{Z_0}{4\pi}\cdot P_{\textrm{EIRP}}}}{E}$
 
 
 Ici, $Z_0$ désigne l’**impédance d’onde** de l’espace libre. Comme nous l’avons vu dans le chapitre précédent, celle-ci s’approche, à mesure que l’on s’éloigne de l’antenne, de la valeur du champ lointain

@@ -28,24 +28,24 @@
 ### Minimum d’activité solaire
 
 * La dépendance à l’heure de la journée influence la propagation des ondes radio
-* Au maximum d’activité solaire, la bande $\qty{10}{\m}$ fonctionne bien en journée
-* Au minimum d’activité solaire, la bande $\qty{10}{\m}$ est à peine utilisable en journée
-* Pendant le minimum d’activité solaire, la bande $\qty{20}{\m}$ est souvent utilisée en journée pour les liaisons à longue distance
+* Au maximum d’activité solaire, la bande $\qty{10}{\meter}$ fonctionne bien en journée
+* Au minimum d’activité solaire, la bande $\qty{10}{\meter}$ est à peine utilisable en journée
+* Pendant le minimum d’activité solaire, la bande $\qty{20}{\meter}$ est souvent utilisée en journée pour les liaisons à longue distance
 
 ---
 [question:AH202]
 ---
-* La bande $\qty{40}{\m}$ est une bande fiable pour les communications
-* Tout comme la bande $\qty{20}{\m}$, elle est réservée uniquement à la classe A
-* La bande $\qty{40}{\m}$ est particulièrement adaptée aux communications sur de longues distances en Allemagne, par exemple de Hambourg à Munich
+* La bande $\qty{40}{\meter}$ est une bande fiable pour les communications
+* Tout comme la bande $\qty{20}{\meter}$, elle est réservée uniquement à la classe A
+* La bande $\qty{40}{\meter}$ est particulièrement adaptée aux communications sur de longues distances en Allemagne, par exemple de Hambourg à Munich
 
 ---
 [question:AH201]
 ---
 ### De nuit
 
-* Les bandes $\qty{80}{\m}$ et $\qty{160}{\m}$ sont à peine utilisables en journée en raison de la couche D, mais fiables la nuit
-* La bande $\qty{40}{\m}$ permet des portées plus grandes la nuit, car la propagation se fait via la couche F2
+* Les bandes $\qty{80}{\meter}$ et $\qty{160}{\meter}$ sont à peine utilisables en journée en raison de la couche D, mais fiables la nuit
+* La bande $\qty{40}{\meter}$ permet des portées plus grandes la nuit, car la propagation se fait via la couche F2
 * Couche F1 : entraîne des distances de saut plus courtes en raison de sa faible hauteur et est généralement indésirable
 
 ---
