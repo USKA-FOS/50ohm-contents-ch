@@ -8,7 +8,7 @@
 [picture:266:a_richtdiagramm:Diagramma di radiazione di un'antenna direttiva]
 </left>
 <right>
-* L'*angolo di apertura* o *larghezza a metà potenza* definisce l'angolo in cui il guadagno non scende di più di \qty{3}{\dB}
+* L'*angolo di apertura* o *larghezza a metà potenza* definisce l'angolo in cui il guadagno non scende di più di $\qty{3}{\dB}$
 * cioè fino alla metà della potenza irradiata o a \frac{1}{\sqrt{2}} \approx 0,707 dell'intensità di campo massima
 </right>
 

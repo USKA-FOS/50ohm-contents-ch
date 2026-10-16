@@ -9,7 +9,7 @@
 * au-dessus de $\qty{30}{\mega\hertz}$, les ondes radio se propagent normalement de manière plutôt rectiligne
 * des zones fortement ionisées apparaissent temporairement dans la couche E
 * les ondes radio y sont réfractées
-* sur la bande des $\qty{2}{\metre}$, des portées importantes deviennent soudainement possibles
+* sur la bande des $\qty{2}{\meter}$, des portées importantes deviennent soudainement possibles
 </right>
 
 <note>

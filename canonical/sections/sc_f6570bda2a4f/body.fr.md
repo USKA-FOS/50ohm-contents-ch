@@ -1,12 +1,12 @@
 Pour calculer la distance de sécurité, il existe une formule approximative. On la trouve dans le [recueil de formules](#) :
 
-$ E = \frac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{d} $
+$ E = \frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{d} $
 
 
 On peut facilement réarranger cette formule pour obtenir la distance de sécurité $d$ :
 
 
-$ d = \frac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E} $
+$ d = \frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{E} $
 
 
 Le recueil de formules contient une remarque indiquant que la formule ci-dessus n'est valable que pour les calculs en champ lointain (ou champ proche rayonnant) à partir de $ d > \frac{\lambda}{2\pi} $.
@@ -94,7 +94,7 @@ $P_\text{EIRP} = \qty{100}{\watt} \cdot 4 \cdot 1,64 = \qty{656}{\watt}$
 Les résultats des deux méthodes de calcul devraient en principe être identiques. Cependant, ils diffèrent légèrement en raison d'arrondis lors du calcul des facteurs. La puissance calculée de manière arrondie est cependant suffisamment précise pour résoudre correctement la question. Nous insérons donc cette valeur dans la formule de distance :
 
 
-$ d = \frac{\sqrt{\qty{30}{\ohm} \cdot P_\text{EIRP}}}{E} = \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{656}{\watt}}}{\qty{28}{\volt\per\meter}} \approx \qty{5}{\meter} $
+$ d = \frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{E} = \frac{\sqrt{\qty{30}{\ohm}\cdot \qty{656}{\watt}}}{\qty{28}{\volt\per\meter}} \approx \qty{5}{\meter}  $
 
 
 La distance de sécurité de $\qty{5}{\meter}$ a été déterminée à l'aide de la formule du champ lointain. Elle n'est donc valable que si elle se situe également dans le champ lointain (ou champ proche rayonnant). Cela peut être vérifié rapidement comme suit :

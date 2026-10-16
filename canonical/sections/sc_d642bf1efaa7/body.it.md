@@ -10,7 +10,7 @@ Il termine *dipolo* deriva dal greco e significa letteralmente "due poli".
 
 ---
 
-In pratica, si utilizza spesso il cosiddetto *dipolo a semionda*, che ha una <b>lunghezza</b> pari a λ/2, cioè pari a metà <b>lunghezza d’onda</b>. Esempio: nella <b>banda</b> dei <b>10 m</b>, la <b>lunghezza d’onda</b> è di circa <b>10 m</b>. La metà della <b>lunghezza d’onda</b> è quindi di <b>5 m</b>. Un dipolo a semionda per la <b>banda</b> dei <b>10 m</b> deve quindi avere una <b>lunghezza</b> di <b>5 m</b>. Ogni parte deve quindi essere lunga circa <b>2,5 m</b>. Si dice allora che il dipolo a semionda è in *risonanza*.
+In pratica, si utilizza spesso il cosiddetto *dipolo a semionda*, che ha una <b>lunghezza</b> pari a $\lambda / 2$, cioè pari a metà <b>lunghezza d’onda</b>. Esempio: nella <b>banda</b> dei <b>10 m</b>, la <b>lunghezza d’onda</b> è di circa <b>10 m</b>. La metà della <b>lunghezza d’onda</b> è quindi di <b>5 m</b>. Un dipolo a semionda per la <b>banda</b> dei <b>10 m</b> deve quindi avere una <b>lunghezza</b> di <b>5 m</b>. Ogni parte deve quindi essere lunga circa <b>2,5 m</b>. Si dice allora che il dipolo a semionda è in *risonanza*.
 
 <indepth>
 Esistono anche altre *varianti del dipolo*, ad esempio il dipolo a onda intera, il dipolo accorciato o il dipolo alimentato asimmetricamente, in cui il cavo dell'<b>antenna</b> non viene collegato al centro e le due parti hanno quindi lunghezze diverse.

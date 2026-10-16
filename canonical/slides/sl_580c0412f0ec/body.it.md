@@ -28,8 +28,7 @@ $s = \frac{R_2}{Z} = \frac{\qty{300}{\ohm}}{\qty{75}{\ohm}} = 4$
 
 * L’attenuazione della linea riduce sia la potenza incidente che quella riflessa
 * Anche se al termine del cavo viene riflessa il $\qty{100}{\percent}$ dell’energia, al trasmettitore può essere misurato un ROS inferiore (migliore)
-* Esempio: Se nella direzione di andata e di ritorno viene persa metà della potenza, rimane solo un quarto della potenza originale – questo corrisponde a un ROS misurato di $\num{3}$ ($
-\qty{25}{\percent}$ di potenza riflessa)
+* Esempio: Se nella direzione di andata e di ritorno viene persa metà della potenza, rimane solo un quarto della potenza originale – questo corrisponde a un ROS misurato di $\num{3}$ ($\qty{25}{\percent}$ di potenza riflessa)
 
 ---
 [question:AG402]

@@ -96,7 +96,7 @@ $P = (\qty{2}{\ampere})^2 \cdot \qty{50}{\ohm} = \qty{200}{\watt}$
 
 Pour calculer la puissance dissipée dans une résistance de $\qty{100}{\ohm}$ soumise à une tension de $\qty{10}{\volt}$, on utilise à nouveau :
 
-$P = \frac{U^2}{R} = \frac{(\qty{10}{\volt})^2}{\qty{100}{\ohm}} = \qty{1}{\watt}$
+$P = \frac{U^2}{R} = \frac{(\qty{10}{\volt})^2}{\qty{100}{\ohm}} = \qty{1}{\watt} $
 
 %%%%%
 
@@ -144,7 +144,7 @@ On pourrait également calculer la puissance efficace, mais la question ne va pa
 
 La réponse à cette question peut être calculée mentalement. Onze résistances identiques sont connectées en parallèle, comme illustré dans la figure [ref:e_dummyload_11]. Cela signifie que l'intensité du courant traversant chaque résistance est $1/11$ de l'intensité totale. Par conséquent, la puissance dissipée dans chaque résistance n'est que $1/11$ de la puissance totale.
 
-La puissance totale admissible est donc de $11 \cdot \qty{5}{\watt} = \qty{55}{\watt}$.
+La puissance totale admissible est donc de $11 \cdot \qty{5}{\watt} =\qty{55}{\watt}$.
 
 <margin>
 [picture:1014:e_dummyload_11:Charge fictive composée de 11 résistances de même valeur]

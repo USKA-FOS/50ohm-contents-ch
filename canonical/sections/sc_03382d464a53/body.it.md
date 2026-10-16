@@ -57,7 +57,7 @@ $U_1 = \frac{U_2}{6}$
 
 [question:ED103]
 
-In questa domanda sono indicati valori concreti delle resistenze, che servono per determinare il rapporto del partitore di tensione. $R_1$ è in rapporto a $R_2$ come $\qty{10}{\kilo\ohm}$ a $\qty{20}{\kilo\ohm}$, quindi 1 a 2. $U_2$ deve quindi essere il doppio di $U_1$. Tuttavia, è indicata la tensione totale $U_g$. Questa è applicata a una resistenza totale di $\qty{30}{\kilo\ohm}$ e viene quindi suddivisa nel rapporto 30 a 20 (o 3 a 2) rispetto a $R_2$. Su $R_2$ si deve quindi poter misurare una tensione pari a 2/3 di $U_g$.
+In questa domanda sono indicati valori concreti delle resistenze, che servono per determinare il rapporto del partitore di tensione. $R_1$ è in rapporto a $R_2$ come $\qty{10}{\kilo\ohm}$ a $\qty{20}{\kilo\ohm}$, quindi 1 a 2. $U_2$ deve quindi essere il doppio di $U_1$. Tuttavia, è indicata la tensione totale $U_g$. Questa è applicata a una resistenza totale di $\qty{30}{\kilo\ohm}$ e viene quindi suddivisa nel rapporto 30 a 20 (o 3 a 2) rispetto a $R_2$. Su $R_2$ si deve quindi poter misurare una tensione pari a $2/3$ di $U_g$.
 
 Naturalmente questo risultato può essere calcolato anche con la formula della raccolta di formule:
 

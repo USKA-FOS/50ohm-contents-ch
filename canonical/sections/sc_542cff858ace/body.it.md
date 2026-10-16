@@ -1,21 +1,21 @@
-Ogni impianto radioamatoriale fisso con una potenza isotropica equivalente irradiata (EIRP) pari o superiore a <span class="math inline">\qty{10}{\watt}</span> deve essere segnalato all’<span class="underline">BNetzA</span> ai sensi del § 9 della <span class="underline">BEMFV</span>, prima dell’inizio delle trasmissioni. Il radioamatore deve dimostrare il rispetto dei valori limite e aver determinato le distanze di sicurezza necessarie, che devono rientrare nell’area controllata. In gergo radioamatoriale, questa procedura è chiamata *autodichiarazione*.
+Ogni impianto radioamatoriale fisso con una potenza isotropica equivalente irradiata (EIRP) pari o superiore a $\qty{10}{\watt}$ deve essere segnalato all’<span class="underline">BNetzA</span> ai sensi del § 9 della <span class="underline">BEMFV</span>, prima dell’inizio delle trasmissioni. Il radioamatore deve dimostrare il rispetto dei valori limite e aver determinato le distanze di sicurezza necessarie, che devono rientrare nell’area controllata. In gergo radioamatoriale, questa procedura è chiamata *autodichiarazione*.
 
-L’autodichiarazione può essere omessa solo se la potenza isotropica equivalente irradiata (EIRP) è *inferiore* a <span class="math inline">\qty{10}{\watt}</span> EIRP — non <span class="math inline">\qty{10}{\watt}</span> di potenza di trasmissione, né <span class="math inline">\qty{10}{\watt}</span> ERP!
+L’autodichiarazione può essere omessa solo se la potenza isotropica equivalente irradiata (EIRP) è *inferiore* a $\qty{10}{\watt}$ EIRP — non $\qty{10}{\watt}$ di potenza di trasmissione, né $\qty{10}{\watt}$ ERP!
 
-Anche senza un calcolo preciso, è evidente che la combinazione di <span class="math inline">\qty{6}{\watt}</span> di potenza di trasmissione e un guadagno d’antenna di <span class="math inline">\qty{13}{\dBd}</span> (fattore <span class="math inline">\num{20}</span>) supera chiaramente il valore limite di <span class="math inline">\qty{10}{\watt}</span> EIRP.
+Anche senza un calcolo preciso, è evidente che la combinazione di $\qty{6}{\watt}$ di potenza di trasmissione e un guadagno d’antenna di $\qty{13}{\dBd}$ (fattore $\num{20}$) supera chiaramente il valore limite di $\qty{10}{\watt}$ EIRP.
 
 <indepth>
 Per esercizio, possiamo comunque calcolarlo: Utilizziamo nuovamente la formula dalla raccolta di formule:
 
-<span class="math display">P_\mathrm{EIRP} = P_\mathrm{trasmettitore} \cdot 10^{\frac{g_d-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{6}{\watt} \cdot 10^{\frac{\qty{13}{\dBd}+\qty{2,15}{\dB}}{\qty{10}{\dB}}} \approx \qty{197}{\watt}</span>
+$P_\mathrm{EIRP} = P_\mathrm{trasmettitore} \cdot 10^{\frac{g_d-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{6}{\watt} \cdot 10^{\frac{\qty{13}{\dBd}+\qty{2,15}{\dB}}{\qty{10}{\dB}}} \approx \qty{197}{\watt}$
 
 Anche questo calcolo può essere eseguito facilmente a mente suddividendo il guadagno totale in parti significative:
 
-<span class="math display">\qty{13}{\dBd} + \qty{2,15}{\dB} = \qty{10}{\dBd} + \qty{3}{\dB} + \qty{2,15}{\dB}</span>
+$\qty{13}{\dBd} + \qty{2,15}{\dB} = \qty{10}{\dBd} + \qty{3}{\dB} + \qty{2,15}{\dB}$
 
 Quindi si ottiene:
 
-<span class="math display">P_\mathrm{EIRP} = \qty{6}{\watt} \cdot 10 \cdot 2 \cdot 1,64 \approx \qty{197}{\watt}</span>
+$P_\mathrm{EIRP} = \qty{6}{\watt} \cdot 10 \cdot 2 \cdot 1,64 \approx \qty{197}{\watt}$
 </indepth>
 
 [question:EK104]

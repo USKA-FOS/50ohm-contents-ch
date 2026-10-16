@@ -96,7 +96,7 @@ $P = (\qty{2}{\ampere})^2 \cdot \qty{50}{\ohm} = \qty{200}{\watt}$
 
 Per calcolare la potenza dissipata in una resistenza di $\qty{100}{\ohm}$ ai cui capi è presente una tensione di $\qty{10}{\volt}$, utilizziamo nuovamente:
 
-$P = \frac{U^2}{R} = \frac{(\qty{10}{\volt})^2}{\qty{100}{\ohm}} = \qty{1}{\watt}$
+$P = \frac{U^2}{R} = \frac{(\qty{10}{\volt})^2}{\qty{100}{\ohm}} = \qty{1}{\watt} $
 
 %%%%%
 
@@ -144,7 +144,7 @@ Con questi valori sarebbe possibile calcolare anche la potenza efficace, ma la d
 
 La risposta a questo quesito può essere calcolata molto facilmente a mente. Qui vengono collegati in parallelo 11 resistori identici, come mostrato nella figura [ref:e_dummyload_11]. Ciò significa che la corrente che scorre in ciascun resistore è $1/11$ della corrente totale. Pertanto, anche la potenza dissipata da ogni singolo resistore è solo $1/11$ della potenza totale.
 
-Quindi la potenza totale ammissibile è $11 \cdot \qty{5}{\watt} = \qty{55}{\watt}$.
+Quindi la potenza totale ammissibile è $11 \cdot \qty{5}{\watt} =\qty{55}{\watt}$.
 
 <margin>
 [picture:1014:e_dummyload_11:Carico fittizio composto da 11 resistori di uguale valore]

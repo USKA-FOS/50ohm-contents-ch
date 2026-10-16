@@ -25,7 +25,7 @@ $\eta = \frac{P_{\mathrm{sortie}}}{P_{\mathrm{entrée}}}$
 #### Méthode de résolution
 * donné : $U_{\mathrm{entrée}} = \qty{12}{\volt}$
 * donné : $U_{\mathrm{sortie}} = \qty{5}{\volt}$
-* donné : $I_{\mathrm{entrée}} = \qty{2}{\ampere}$
+* donné : $I_{\textrm{entrée}} = \qty{2}{\ampere}$
 * donné : $I_{\mathrm{sortie}} = \qty{3}{\ampere}$
 * recherché : $\eta$
 

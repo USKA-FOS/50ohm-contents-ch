@@ -11,12 +11,12 @@ Le passage au logarithme est l'opération inverse de l'élévation à une puissa
 
 ---
 
-a = \log_{10} (b), si b = 10^{a}
+$a =\log_{10} (b)$, si $b=10^{a}$
 
-Le logarithme de 100 est égal à \log_{10}(100) = 2, car 10^2 = 100. Autrement dit : le nombre 100 possède deux zéros.
+Le logarithme de 100 est égal à $\log_{10}(100)=2$, car $10^2 = 100$. Autrement dit : le nombre 100 possède deux zéros.
 
 <warning>
-Une calculatrice scientifique propose, en plus du logarithme décimal (étiqueté \lg ou \log), le logarithme naturel *$\ln$*, qui a pour base le nombre d’Euler *$e=\num{2,7182818}\dots$*. À ne pas confondre !
+Une calculatrice scientifique propose, en plus du logarithme décimal (étiqueté $\lg$ ou $\log$), le logarithme naturel *$\ln$*, qui a pour base le nombre d’Euler *$e=\num{2,7182818}\dots$*. À ne pas confondre !
 </warning>
 
 <margin>
@@ -48,7 +48,7 @@ $g = 10\cdot \log_{10}\left(\frac{P_2}{P_1}\right)\unit{\dB}$
 
 Où $P_1$ correspond à la puissance d'entrée et $P_2$ à la puissance de sortie. Supposons maintenant que nous avons un amplificateur qui amplifie la puissance d'entrée $P_1=\qty{50}{\watt}$ à $P_2=\qty{100}{\watt}$, soit le double. Selon notre formule, le facteur d'amplification en $\unit{\dB}$ est alors :
 
-$g = 10\cdot \log_{10}\left(\frac{\qty{100}{\watt}}{\qty{50}{\watt}}\right)\unit{\dB} = 10\cdot \log_{10}\left(2\right)\unit{\dB} = 10\cdot \qty{0.301}{\dB} \approx \qty{3}{\dB}$
+$g = 10\cdot \log_{10}\left(\frac{\qty{100}{\watt}}{\qty{50}{\watt}}\right)\unit{\dB} = 10\cdot \log_{10}\left(2\right)\unit{\dB} = 10\cdot \qty{0.301}{\dB} \approx \qty{3}{\dB} $
 
 Pour HB3, il suffit dans un premier temps de connaître la valeur en décibels pour un facteur de puissance de 2. Le recueil de formules contient un tableau qui est également présenté dans le tableau [ref:e_dezibel_leistungsfaktoren]. On peut y lire qu'un facteur de puissance de 2 correspond à une valeur de $\qty{3}{\dB}$. Les calculs détaillés avec des valeurs en décibels ne sont abordés qu'au niveau de la classe A.
 

@@ -10,4 +10,4 @@ Inserendo i valori otteniamo:
 
 $P_2=\qty{1}{\watt}\cdot 10^{\frac{16}{10}}=\qty{1}{\watt}\cdot 10^{1,6}\approx\qty{39,8}{\watt}$
 
-La potenza HF d’uscita attesa è quindi di circa \qty{40}{\watt}.
+La potenza HF d’uscita attesa è quindi di circa $\qty{40}{\watt}$.

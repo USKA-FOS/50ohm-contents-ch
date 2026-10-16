@@ -19,7 +19,7 @@
 ### ERP nel radioamatoriale – esempio pratico
 
 * Il piano delle bande per la banda dei $\qty{630}{\meter}$ prevede una potenza irradiata massima di $\qty{1}{\watt}$
-* Un dipolo a semionda avrebbe una lunghezza di $\qty{630}{\meter}$ a $\qty{315}{\meter}$ – solitamente non realizzabile, quindi si utilizzano antenne accorciate
+* Un dipolo a semionda avrebbe una lunghezza di $\qty{315}{\meter}$ a $\qty{630}{\meter}$ – solitamente non realizzabile, quindi si utilizzano antenne accorciate
 * Le antenne accorciate hanno un rendimento inferiore, ad esempio un guadagno d'antenna di $\qty{-20}{\dBd}$
 * Rapporto di potenza: $\qty{-20}{\dB}$ corrisponde a un fattore di $\num{0,01}$; esempio: $\qty{50}{\watt} \cdot 0,01 = \qty{0,5}{\watt}$ ERP
 

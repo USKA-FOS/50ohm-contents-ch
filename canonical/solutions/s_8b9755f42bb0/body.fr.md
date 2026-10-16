@@ -8,4 +8,4 @@ Un indice pour la bonne réponse à la question suivante est déjà donné dans 
 
 Pour résoudre cette question, on peut se référer au tableau des rapports de puissance dans le recueil de formules. On y trouve le facteur $\num{0,01}$ pour $\qty{-20}{\dB}$.
 
-$\qty{50}{\watt} \cdot 0,01 = \qty{0,5}{\watt}$
+$\qty{50}{\watt}\cdot 0,01 = \qty{0,5}{\watt}$

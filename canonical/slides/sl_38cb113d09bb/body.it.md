@@ -60,7 +60,7 @@ Solo inserire
 Fattore $20$
 
 
-u = 20\cdot \log_{10}\left(\frac{U}{\qty{0,775}{\volt}}\right)\unit{\dBu}$
+$u = 20\cdot \log_{10}\left(\frac{U}{\qty{0,775}{\volt}}\right)\unit{\dBu}$
 
 
 <fragment>

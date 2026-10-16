@@ -1,4 +1,4 @@
-Come abbiamo visto per l’antenna a 5/8 λ, le lunghezze dei fili non sono sempre scelte in modo che siano naturalmente risonanti. In linea di principio, le antenne possono avere lunghezze arbitrarie, purché vengano adattate alla linea di alimentazione. Questo può essere fatto, ad esempio, con un adattatore o un *tuner*.
+Come abbiamo visto per l’antenna a $5/8 \lambda$, le lunghezze dei fili non sono sempre scelte in modo che siano naturalmente risonanti. In linea di principio, le antenne possono avere lunghezze arbitrarie, purché vengano adattate alla linea di alimentazione. Questo può essere fatto, ad esempio, con un adattatore o un *tuner*.
 
 [question:EG102]
 

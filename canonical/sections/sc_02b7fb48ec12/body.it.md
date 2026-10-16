@@ -12,7 +12,7 @@ Oltre agli ormai noti accumulatori al piombo (Pb) e agli accumulatori al nichel-
 % * Connettore di bilanciamento: JST-XH
 % * Connettore di scarico: $\qty{5.5}{\milli\meter}$ spina a sfera
 
-I dati tecnici più importanti per noi sono la tensione nominale $\qty{13,2}{\volt}$ e il collegamento 4S1P. Questo significa che la tensione nominale di $\qty{13,2}{\volt}$ deriva da 4 celle collegate in serie e 1 volta in parallelo, quindi tutte e 4 collegate in serie. Generalmente, i LiFePO4 hanno una tensione nominale per cella di $\qty{3,2}{\volt}$ fino a $\qty{3,3}{\volt}$. Quindi si ottiene $\qty{3,3}{\volt} \cdot 4 = \qty{13,2}{\volt} \cdot 1 = \qty{13,2}{\volt}$.
+I dati tecnici più importanti per noi sono la tensione nominale $\qty{13,2}{\volt}$ e il collegamento 4S1P. Questo significa che la tensione nominale di $\qty{13,2}{\volt}$ deriva da 4 celle collegate in serie e 1 volta in parallelo, quindi tutte e 4 collegate in serie. Generalmente, i LiFePO4 hanno una tensione nominale per cella di $\qty{3,2}{\volt}$ fino a $\qty{3,3}{\volt}$. Quindi si ottiene $\qty{3,3}{\volt} \cdot 4 = \qty{13,2 }{\volt} \cdot 1 = \qty{13,2}{\volt}$.
 
 
 Nel caso di un 4S2P sono installate in totale 8 celle: 4 in serie e 2 volte in parallelo. Questo comporterebbe una tensione di $\qty{13,2}{\volt}$, ma una capacità di $\qty{8400}{\milli\ampere\hour}$.

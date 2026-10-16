@@ -12,8 +12,8 @@ Nel processo di miscelazione per ottenere la $f_\text{ZF}$ vengono selezionate, 
 [picture:806:spiegelfrequenzen_fe1_fe2:Frequenze di ricezione che portano entrambe alla stessa $f_\text{ZF}$]
 </left>
 <right>
-* Frequenza di ricezione desiderata $f_\text{e1} \rightarrow$ frequenza immagine $f_\text{e2}$
-* Distanza tra frequenza di ricezione desiderata e frequenza immagine $\rightarrow 2 \cdot f_\text{ZF}$
+* Frequenza di ricezione desiderata $f_\text{e1}\rightarrow$ frequenza immagine $f_\text{e2}$
+* Distanza tra frequenza di ricezione desiderata e frequenza immagine $\rightarrow2 \cdot f_\text{ZF}$
 </right>
 ---
 <left>

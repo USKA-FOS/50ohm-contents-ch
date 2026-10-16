@@ -11,7 +11,7 @@ Il logaritmo è l'operazione inversa dell'elevamento a potenza. Nel radioamatori
 
 ---
 
-a = \log_{10} (b), se b=10^{a}
+$a =\log_{10} (b)$, se $b=10^{a}$
 
 Il logaritmo di $100$ è $\log_{10}(100)=2$, poiché $10^2 = 100$. In altre parole: il numero $100$ ha due zeri.
 
@@ -44,11 +44,11 @@ $10 \cdot \log_{10}(b) = \qty{a}{\dB}$
 
 La raccolta di formule fornisce la seguente formula per convertire un rapporto di potenza:
 
-g = 10\cdot \log_{10}\left(\frac{P_2}{P_1}\right)\unit{\dB}
+$g = 10\cdot \log_{10}\left(\frac{P_2}{P_1}\right)\unit{\dB}$
 
 Dove $P_1$ corrisponde alla potenza d’ingresso e $P_2$ alla potenza d’uscita. Supponiamo ora di avere un amplificatore che porta la potenza d’ingresso $P_1=\qty{50}{\watt}$ a $P_2=\qty{100}{\watt}$, cioè la raddoppia. Applicando la formula otteniamo il seguente fattore di amplificazione in $\unit{\dB}$:
 
-g = 10\cdot \log_{10}\left(\frac{\qty{100}{\watt}}{\qty{50}{\watt}}\right)\unit{\dB} = 10\cdot \log_{10}\left(2\right)\unit{\dB} = 10\cdot \qty{0.301}{\dB} \approx \qty{3}{\dB}
+$g = 10\cdot \log_{10}\left(\frac{\qty{100}{\watt}}{\qty{50}{\watt}}\right)\unit{\dB} = 10\cdot \log_{10}\left(2\right)\unit{\dB} = 10\cdot \qty{0.301}{\dB} \approx \qty{3}{\dB} $
 
 Per HB3 è sufficiente conoscere inizialmente il valore in decibel per il fattore di potenza $2$. La raccolta di formule contiene una tabella che è anche rappresentata nella Tabella [ref:e_dezibel_leistungsfaktoren]. Da essa si può dedurre che un fattore di potenza di $2$ corrisponde a un valore di $\qty{3}{\dB}$. Il calcolo dettagliato con i valori in decibel viene affrontato solo nella classe A.
 

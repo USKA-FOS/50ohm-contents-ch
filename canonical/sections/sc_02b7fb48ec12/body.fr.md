@@ -12,7 +12,7 @@ Outre les accumulateurs au plomb (Pb) et les accumulateurs nickel-métal-hydrure
 % * Connecteur d'équilibrage : JST-XH
 % * Connecteur de décharge : $\qty{5.5}{\milli\meter}$ connecteur à bille
 
-Les caractéristiques les plus importantes pour nous sont la tension nominale de $\qty{13,2}{\volt}$ et le montage 4S1P. Cela signifie que la tension nominale de $\qty{13,2}{\volt}$ résulte de 4 cellules montées en série et 1 fois en parallèle, donc toutes les 4 en série. En général, les LiFePO₄ ont une tension nominale par cellule de $\qty{3,2}{\volt}$ à $\qty{3,3}{\volt}$. Ainsi, on obtient $\qty{3,3}{\volt} \cdot 4 = \qty{13,2}{\volt} \cdot 1 = \qty{13,2}{\volt}$.
+Les caractéristiques les plus importantes pour nous sont la tension nominale de $\qty{13,2}{\volt}$ et le montage 4S1P. Cela signifie que la tension nominale de $\qty{13,2}{\volt}$ résulte de 4 cellules montées en série et 1 fois en parallèle, donc toutes les 4 en série. En général, les LiFePO₄ ont une tension nominale par cellule de $\qty{3,2}{\volt}$ à $\qty{3,3}{\volt}$. Ainsi, on obtient $\qty{3,3}{\volt} \cdot 4 = \qty{13,2 }{\volt} \cdot 1 = \qty{13,2}{\volt}$.
 
 
 Dans un montage 4S2P, il y a au total 8 cellules. 4 en série et 2 fois en parallèle. Cela donnerait alors une tension de $\qty{13,2}{\volt}$, mais une capacité de $\qty{8400}{\milli\ampere\hour}$.

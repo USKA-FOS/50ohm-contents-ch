@@ -26,21 +26,21 @@ I valori limite prescritti dalla procedura di valutazione per la protezione dell
 
 ---
 
-La potenza con cui un’antenna irradia nella sua direzione principale di irradiazione è espressa dal *fattore di guadagno* riferito al dipolo a semionda. Questo indica quanto un’antenna irradia meglio rispetto a un dipolo a semionda nella rispettiva direzione principale di irradiazione. Un fattore di guadagno di <span class="math inline">\num{2}</span> rispetto al dipolo a semionda significa, ad esempio, che un’antenna irradia il doppio rispetto a un dipolo a semionda nella sua direzione principale di irradiazione.
+La potenza con cui un’antenna irradia nella sua direzione principale di irradiazione è espressa dal *fattore di guadagno* riferito al dipolo a semionda. Questo indica quanto un’antenna irradia meglio rispetto a un dipolo a semionda nella rispettiva direzione principale di irradiazione. Un fattore di guadagno di $\num{2}$ rispetto al dipolo a semionda significa, ad esempio, che un’antenna irradia il doppio rispetto a un dipolo a semionda nella sua direzione principale di irradiazione.
 
 <indepth>
 % TODO: Specifico per edizione
-Al posto del fattore di guadagno delle antenne, spesso viene indicato il "guadagno in decibel (<span class="math inline">\unit{\dB}</span>")". Il corso tratta l’unità di misura decibel nel capitolo [sec:dezibel_1].
+Al posto del fattore di guadagno delle antenne, spesso viene indicato il "guadagno in decibel ($\unit{\dB}$")". Il corso tratta l’unità di misura decibel nel capitolo [sec:dezibel_1].
 </indepth>
 
 ---
 
-Per indicare quanta potenza irradia un’antenna concreta nella sua direzione principale di irradiazione quando si imposta una certa potenza di trasmissione, si moltiplica la potenza di trasmissione per il fattore di guadagno riferito al dipolo a semionda. Si ottiene così la *potenza irradiata effettiva*, che viene solitamente abbreviata come ERP (dall’inglese *effective radiated power*). Ad esempio, se si inserisce una potenza di trasmissione di <span class="math inline">\qty{5}{\watt}</span> in un’antenna con un fattore di guadagno di <span class="math inline">\num{2}</span> rispetto al dipolo a semionda, si ottiene una potenza irradiata di <span class="math inline">\qty{10}{\watt}</span> ERP.
+Per indicare quanta potenza irradia un’antenna concreta nella sua direzione principale di irradiazione quando si imposta una certa potenza di trasmissione, si moltiplica la potenza di trasmissione per il fattore di guadagno riferito al dipolo a semionda. Si ottiene così la *potenza irradiata effettiva*, che viene solitamente abbreviata come ERP (dall’inglese *effective radiated power*). Ad esempio, se si inserisce una potenza di trasmissione di $\qty{5}{\watt}$ in un’antenna con un fattore di guadagno di $\num{2}$ rispetto al dipolo a semionda, si ottiene una potenza irradiata di $\qty{10}{\watt}$ ERP.
 
 <margin>
 La potenza irradiata effettiva (ERP) può essere immaginata anche come segue: è la potenza che bisognerebbe inserire in un dipolo a semionda affinché questo irradia nella sua direzione principale di irradiazione con la stessa intensità dell’antenna considerata.
 </margin>
 
-Le antenne direttive possono avere fattori di guadagno molto più elevati. Un’antenna Yagi-Uda a 9 elementi, ad esempio, può facilmente raggiungere un fattore di guadagno di <span class="math inline">\num{10}</span> o più rispetto al dipolo a semionda. Se si inserisce, ad esempio, <span class="math inline">\qty{100}{\watt}</span> in una tale antenna, la potenza irradiata raggiunge già <span class="math inline">\qty{1000}{\watt}</span> ERP o più!
+Le antenne direttive possono avere fattori di guadagno molto più elevati. Un’antenna Yagi-Uda a 9 elementi, ad esempio, può facilmente raggiungere un fattore di guadagno di $\num{10}$ o più rispetto al dipolo a semionda. Se si inserisce, ad esempio, $\qty{100}{\watt}$ in una tale antenna, la potenza irradiata raggiunge già $\qty{1000}{\watt}$ ERP o più!
 
 [question:NG401]
