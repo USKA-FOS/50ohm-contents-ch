@@ -1,0 +1,247 @@
+{
+  "canonical_model": {
+    "canonical_root": "/home/jjcarron/proj/50-Ohms/ham-translator/50ohm-contents-ch/canonical",
+    "object_count": 2356,
+    "error_count": 0,
+    "warning_count": 29,
+    "errors": [],
+    "warnings": [
+      "asset language absent from languages list dr_129e63aed749.fr",
+      "asset language absent from languages list dr_129e63aed749.it",
+      "asset language absent from languages list dr_13830c29cac5.fr",
+      "asset language absent from languages list dr_13830c29cac5.it",
+      "asset language absent from languages list dr_282cdb8ff94d.fr",
+      "asset language absent from languages list dr_282cdb8ff94d.it",
+      "asset language absent from languages list dr_3039187f43fa.fr",
+      "asset language absent from languages list dr_3039187f43fa.it",
+      "asset language absent from languages list dr_32262151b7f6.fr",
+      "asset language absent from languages list dr_32262151b7f6.it",
+      "asset language absent from languages list dr_527786b406d9.fr",
+      "asset language absent from languages list dr_527786b406d9.it",
+      "asset language absent from languages list dr_609f6c62a896.fr",
+      "asset language absent from languages list dr_609f6c62a896.it",
+      "asset language absent from languages list dr_69da6883c65d.fr",
+      "asset language absent from languages list dr_69da6883c65d.it",
+      "asset language absent from languages list dr_7c39a7d3740a.de",
+      "asset language absent from languages list dr_8fa8caf5275a.fr",
+      "asset language absent from languages list dr_8fa8caf5275a.it",
+      "asset language absent from languages list dr_b8b65dadf6a9.fr",
+      "asset language absent from languages list dr_b8b65dadf6a9.it",
+      "asset language absent from languages list dr_d48a39a547c5.fr",
+      "asset language absent from languages list dr_d48a39a547c5.it",
+      "asset language absent from languages list dr_e3abae4ad554.fr",
+      "asset language absent from languages list dr_e3abae4ad554.it",
+      "asset language absent from languages list dr_fcdd6fda24d5.fr",
+      "asset language absent from languages list dr_fcdd6fda24d5.it",
+      "asset language absent from languages list ph_3af2091d8130.de",
+      "asset language absent from languages list ph_ea5526674369.de"
+    ],
+    "valid": true
+  },
+  "tests": {
+    "translation_contract": {
+      "passed": 95,
+      "subtests_passed": 4
+    },
+    "frozen_darcdown_audit": {
+      "passed": 25
+    }
+  },
+  "post_apply_contract_audit": {
+    "path": "work/source-format/Revision_3.0.4-20261017/manifest.json",
+    "sha256": "aad4790add21fea671a3d89a6f107aa164ec86be7d87386e50d2f314236e6577",
+    "summary": {
+      "pairs": 2300,
+      "findings": 81,
+      "errors": 7,
+      "review_signals": 74
+    },
+    "remaining_hard_findings": [
+      {
+        "id": "0dadaba58e87afdd",
+        "source_file": "sections/sc_11f914627581/body.de.md",
+        "target_file": "sections/sc_11f914627581/body.fr.md",
+        "language": "fr",
+        "source_sha256": "23b3c68df12b8f59ce87eb162fb34fe859fb889b3307e250c3b8a577e5b4340f",
+        "target_sha256": "4850643f3812050a3fcf5b5ff334ee45063aadf6c97130119b3f94ff1a8ec1c0",
+        "category": "added_formatting",
+        "severity": "error",
+        "kind": "markdown_emphasis",
+        "source_count": 0,
+        "target_count": 4,
+        "target_spans": [
+          {
+            "kind": "markdown_emphasis",
+            "start": 533,
+            "end": 541
+          },
+          {
+            "kind": "markdown_emphasis",
+            "start": 786,
+            "end": 793
+          },
+          {
+            "kind": "markdown_emphasis",
+            "start": 854,
+            "end": 861
+          },
+          {
+            "kind": "markdown_emphasis",
+            "start": 1009,
+            "end": 1018
+          }
+        ],
+        "reason": "This formatting kind is absent from the source. Do not add emphasis or change Markdown into HTML."
+      },
+      {
+        "id": "f8e03ba6240aa05d",
+        "source_file": "sections/sc_7215bf452d26/body.de.md",
+        "target_file": "sections/sc_7215bf452d26/body.it.md",
+        "language": "it",
+        "source_sha256": "7b1daff20dd79f47c75422c478cd5814e6ab10c286b744efabc005515aa28ade",
+        "target_sha256": "68d52402ffea6ae340adf1a7fb2a4415b94b39e0d57bd69a27c81c2f9129a5b1",
+        "category": "added_quotation_marks",
+        "severity": "error",
+        "metric": "unpaired_marks",
+        "source_count": 0,
+        "target_count": 1,
+        "target_spans": [
+          {
+            "start": 3316,
+            "end": 3317,
+            "text": "\""
+          }
+        ],
+        "reason": "Translation introduces unmatched quotation marks absent from the source."
+      },
+      {
+        "id": "6aaf85a102071913",
+        "source_file": "sections/sc_e750f8bf104c/body.de.md",
+        "target_file": "sections/sc_e750f8bf104c/body.fr.md",
+        "language": "fr",
+        "source_sha256": "5eae40d5441f9f623f00ec91a4bda3ba642c383738d8e2a7f1e431f205f06ac6",
+        "target_sha256": "bc3fe9e23ffe57069b799733a9e7af3b1eaec130bebcf178f2cd7e5c6e42faba",
+        "category": "added_formatting",
+        "severity": "error",
+        "kind": "markdown_emphasis",
+        "source_count": 0,
+        "target_count": 2,
+        "target_spans": [
+          {
+            "kind": "markdown_emphasis",
+            "start": 1492,
+            "end": 1495
+          },
+          {
+            "kind": "markdown_emphasis",
+            "start": 1498,
+            "end": 1504
+          }
+        ],
+        "reason": "This formatting kind is absent from the source. Do not add emphasis or change Markdown into HTML."
+      },
+      {
+        "id": "95878852c9cbdfd2",
+        "source_file": "sections/sc_f1fefe4e5472/body.de.md",
+        "target_file": "sections/sc_f1fefe4e5472/body.fr.md",
+        "language": "fr",
+        "source_sha256": "4e3d0906a6a7b025643442d0b03cd8082232e37f1801c67d2c1aa325e1fecc05",
+        "target_sha256": "2f1c78160047171fb8f0ceca8e4d61ad3228b77d6f33f73b8922b5d85d70450d",
+        "category": "added_formatting",
+        "severity": "error",
+        "kind": "markdown_link",
+        "source_count": 0,
+        "target_count": 1,
+        "target_spans": [
+          {
+            "kind": "markdown_link",
+            "start": 1334,
+            "end": 1372
+          }
+        ],
+        "reason": "This formatting kind is absent from the source. Do not add emphasis or change Markdown into HTML."
+      },
+      {
+        "id": "bdfbeb870e01523a",
+        "source_file": "sections/sc_f4725cf6fede/body.de.md",
+        "target_file": "sections/sc_f4725cf6fede/body.fr.md",
+        "language": "fr",
+        "source_sha256": "f2cf966e2e153571d624afdc47aeefe4acf7570ea2083b5f7722f73b20da7568",
+        "target_sha256": "678ba24839cb25f7d8218d75030df59c2dad2c19f1ab55004bacbdccb03d4200",
+        "category": "added_formatting",
+        "severity": "error",
+        "kind": "markdown_strong",
+        "source_count": 0,
+        "target_count": 3,
+        "target_spans": [
+          {
+            "kind": "markdown_strong",
+            "start": 3,
+            "end": 40
+          },
+          {
+            "kind": "markdown_strong",
+            "start": 133,
+            "end": 153
+          },
+          {
+            "kind": "markdown_strong",
+            "start": 1553,
+            "end": 1575
+          }
+        ],
+        "reason": "This formatting kind is absent from the source. Do not add emphasis or change Markdown into HTML."
+      },
+      {
+        "id": "a8fe798609371bca",
+        "source_file": "slides/sl_793f06854729/body.de.md",
+        "target_file": "slides/sl_793f06854729/body.it.md",
+        "language": "it",
+        "source_sha256": "3e13baaab613a9b6a91def777a440436fcecb70f1482bd98ae60f96da4393b31",
+        "target_sha256": "4b095babdfa1701acc5586c99104bd345af2eee74265f2d744db2280dcfe9d34",
+        "category": "added_formatting",
+        "severity": "error",
+        "kind": "markdown_strong",
+        "source_count": 0,
+        "target_count": 1,
+        "target_spans": [
+          {
+            "kind": "markdown_strong",
+            "start": 1335,
+            "end": 1346
+          }
+        ],
+        "reason": "This formatting kind is absent from the source. Do not add emphasis or change Markdown into HTML."
+      },
+      {
+        "id": "e8f4486b1ae09a93",
+        "source_file": "slides/sl_a2a0a39d9269/body.de.md",
+        "target_file": "slides/sl_a2a0a39d9269/body.it.md",
+        "language": "it",
+        "source_sha256": "e7a2c88d2868513e9c5556dde7264c9ab05cecbc5950287e634a80b4ec6bfb9a",
+        "target_sha256": "6893826a9b43dd81cdc006b385fe81008ff533c690a80dcd98ad7e133a4dae9c",
+        "category": "added_formatting",
+        "severity": "error",
+        "kind": "markdown_emphasis",
+        "source_count": 0,
+        "target_count": 2,
+        "target_spans": [
+          {
+            "kind": "markdown_emphasis",
+            "start": 501,
+            "end": 512
+          },
+          {
+            "kind": "markdown_emphasis",
+            "start": 698,
+            "end": 705
+          }
+        ],
+        "reason": "This formatting kind is absent from the source. Do not add emphasis or change Markdown into HTML."
+      }
+    ],
+    "scope": "Additional read-only inventory, not authorization for new canonical corrections. DD-S02 is explicitly deferred. Other diagnostics are retained for separate review.",
+    "known_scanner_limitation": "sc_e750f8bf104c has source emphasis wrapping math and target emphasis wrapping equivalent plain values; counting source math masks can flag the target style although the emphasis exists in both."
+  },
+  "ai_calls": 0
+}
