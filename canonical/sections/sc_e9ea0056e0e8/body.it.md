@@ -1,4 +1,4 @@
-Per la banda delle onde corte, ma anche per frequenze superiori fino alla *banda dei 2 metri* (VHF), viene spesso utilizzato il connettore PL. Come si può vedere nelle immagini [ref:n_koaxsteckverbinder_pl_stecker] e [ref:n_koaxsteckverbinder_pl_einbaubuchse], si tratta di un collegamento a vite.
+Per la banda delle onde corte, ma anche per frequenze superiori fino alla banda dei 2 metri (VHF), viene spesso utilizzato il connettore PL. Come si può vedere nelle immagini [ref:n_koaxsteckverbinder_pl_stecker] e [ref:n_koaxsteckverbinder_pl_einbaubuchse], si tratta di un collegamento a vite.
 
 <margin>
 [photo:69:n_koaxsteckverbinder_pl_stecker:Connettore PL]

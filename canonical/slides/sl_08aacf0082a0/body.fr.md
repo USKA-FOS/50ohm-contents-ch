@@ -1,6 +1,6 @@
 <left>
 * Processus de mélange avec une fréquence de l’oscillateur
-* Fréquence intermédiaire constante
+* *Fréquence intermédiaire* constante
 * Meilleure *sélectivité* du signal reçu
 * Les filtres n’ont pas besoin d’être variables
 * Meilleure *sélectivité*

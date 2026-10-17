@@ -4,7 +4,9 @@
 * Multiplier ensuite par le facteur de gain
 * Suivent diverses formules générales pour la puissance rayonnée effective (ERP) et la puissance isotrope rayonnée équivalente (EIRP)
 
+
 ---
+
 ### ERP
 
 Connu du cours N :
@@ -24,7 +26,9 @@ D'après le recueil de formules avec conversion de $\unit{\dB}$ en facteur de pu
 $P_{\mathrm{ERP}} = P_{\mathrm{émetteur}} \cdot 10^{\frac{g_d - a}{\qty{10}{\dB}}}$
 </fragment>
 
+
 ---
+
 ### EIRP
 
 Conversion ERP en EIRP :
@@ -47,17 +51,27 @@ Si le gain est indiqué en $\unit{\dBi}$ :
 $P_{\mathrm{EIRP}} = P_{\mathrm{émetteur}} \cdot 10^{\frac{g_i - a}{\qty{10}{\dB}}}$
 </fragment>
 
+
 ---
+
 [question:EG501]
+
 ---
+
 [question:EG502]
+
 ---
+
 ## Installation de radioamateur fixe
 
 Une installation de radioamateur fixe doit être déclarée à l'ANFR selon le § 9 de l'ordonnance sur les installations radioamateurs (BEMFV) si la puissance isotrope rayonnée équivalente (EIRP) dépasse $\qty{10}{\watt}$.
+
 ---
+
 [question:EG503]
----
+
+--- style="font-size: smaller;"
+
 ### Méthode de résolution
 
 * donné : $P_{\mathrm{émetteur}} = \qty{250}{\milli\watt}$
@@ -70,15 +84,21 @@ Une installation de radioamateur fixe doit être déclarée à l'ANFR selon le �
 $\begin{split} P_{\mathrm{EIRP}} &= P_{\mathrm{émetteur}} \cdot 10^{\frac{g_i - a}{\qty{10}{\dB}}}\\ &= \qty{250}{\milli\watt} \cdot 10^{\frac{\qty{26}{\dBi}}{\qty{10}{\dB}}}\\ &= \qty{250}{\milli\watt} \cdot 398\\ &\approx \qty{100}{\watt} \end{split}$
 </fragment>
 
+
 ---
+
 [question:EG504]
 
 <note>
 * Méthode de résolution identique à la précédente
 </note>
+
 ---
+
 [question:EG511]
----
+
+--- style="font-size: smaller;"
+
 ### Méthode de résolution
 
 * donné : $P_{\mathrm{EIRP}} = \qty{10}{\watt}$
@@ -94,14 +114,18 @@ $\begin{split} P_{\mathrm{EIRP}} &= P_{\mathrm{émetteur}} \cdot 10^{\frac{g_i -
 <note>
 Plusieurs méthodes permettent d'aboutir au résultat. Il est également possible de calculer directement à l'aide de logarithmes.
 </note>
+
 ---
+
 [question:EG505]
 
 
 <note>
 Gain : $\qty{10}{\dB}$, donc facteur $\num{10}$
 </note>
+
 ---
+
 [question:EG507]
 
 
@@ -109,21 +133,29 @@ Gain : $\qty{10}{\dB}$, donc facteur $\num{10}$
 * Une perte de $\qty{10}{\dB}$ correspond à un facteur $\num{10}$, donc $\qty{10}{\watt}$ de puissance ERP parviennent à l'antenne
 * Le facteur de conversion ERP vers EIRP est $\num{1,64}$
 </note>
+
 ---
+
 [question:EG506]
 
 
 <note>
 * Le gain d'un dipôle de $\qty{2,15}{\dBi}$ compense exactement les pertes de câble
 </note>
+
+
 ---
 
 * Si le gain de l'antenne est indiqué par rapport au dipôle, il faut encore ajouter le gain du dipôle si l'on recherche la puissance isotrope rayonnée équivalente (EIRP).
 
 
+
 ---
+
 [question:EG508]
+
 ---
+
 ### Méthode de résolution
 
 * donné : $P_{\mathrm{émetteur}} = \qty{5}{\watt}$
@@ -136,13 +168,17 @@ Gain : $\qty{10}{\dB}$, donc facteur $\num{10}$
 $\begin{split} P_{\mathrm{EIRP}} &= P_{\mathrm{émetteur}} \cdot 10^{\frac{g_d - a + \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ &= \qty{5}{\watt} \cdot 10^{\frac{\qty{5}{\dBd} - \qty{2}{\dB} + \qty{2,15}{\dB}}{\qty{10}{\dB}}}\\ &= \qty{5}{\watt} \cdot 3,27\\ &\approx \qty{16,4}{\watt} \end{split}$
 </fragment>
 
+
 ---
+
 [question:EG509]
 
 <note>
 Méthode de résolution identique à la précédente
 </note>
+
 ---
+
 [question:EG510]
 
 

@@ -1,5 +1,5 @@
 <left>
-[picture:946:Redresseur double alternance D1 D2:Redressement double alternance avec deux diodes]
+[picture:946:Vollwegleichrichter D1 D2:Redressement double alternance avec deux diodes]
 Transformateur avec prise médiane et deux diodes
 </left>
 <right>

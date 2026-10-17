@@ -3,7 +3,7 @@
 [picture:1020:e_herleitung_tiefpass:Derivazione del circuito passa-basso partendo da un partitore di tensione]
 </margin>
 
-Nei capitoli sui condensatori e sulle bobine abbiamo già appreso che entrambi i componenti hanno una resistenza dipendente dalla frequenza. La figura [ref:e_frequenzabhängiger_widerstand] mostra qualitativamente che la resistenza di una resistenza ohmica è indipendente dalla frequenza, mentre la resistenza di un condensatore diminuisce iperbolicamente all’aumentare della frequenza e la resistenza di una bobina aumenta linearmente all’aumentare della frequenza.Da questi componenti si possono costruire i cosiddetti *filtri di frequenza passivi*, che ora esamineremo più da vicino. Nella prima parte di questo capitolo ci occupiamo di filtri semplici, ovvero di filtri passa-alto e passa-basso. Con questi filtri è possibile sopprimere le bande di frequenza indesiderate al di sopra o al di sotto di una frequenza di taglio. Nella seconda parte ci dedichiamo poi a filtri più complessi, come ad esempio i filtri passa-banda.
+Nei capitoli sui condensatori e sulle bobine abbiamo già appreso che entrambi i componenti hanno una resistenza dipendente dalla frequenza. La figura [ref:e_frequenzabhängiger_widerstand] mostra qualitativamente che la resistenza di una resistenza ohmica è indipendente dalla frequenza, mentre la resistenza di un condensatore diminuisce iperbolicamente all’aumentare della frequenza e la resistenza di una bobina aumenta linearmente all’aumentare della frequenza.Da questi componenti si possono costruire i cosiddetti filtri di frequenza passivi, che ora esamineremo più da vicino. Nella prima parte di questo capitolo ci occupiamo di filtri semplici, ovvero di filtri passa-alto e passa-basso. Con questi filtri è possibile sopprimere le bande di frequenza indesiderate al di sopra o al di sotto di una frequenza di taglio. Nella seconda parte ci dedichiamo poi a filtri più complessi, come ad esempio i filtri passa-banda.
 
 Iniziamo con la derivazione di un filtro passa-basso come *circuito RC*. Il punto di partenza, al passo (1), è il circuito di un partitore di tensione, come rappresentato nella figura [ref:e_herleitung_tiefpass], che abbiamo già imparato a conoscere. Ricordiamo che per un partitore di tensione vale la seguente relazione:
 
@@ -28,28 +28,34 @@ In questo modo si ottiene l’andamento della tensione mostrato nella figura [re
 [question:ED201]
 
 <indepth>
-La *frequenza di taglio* ($f_\text{g}$) di un *filtro passa-basso* è la frequenza alla quale il *segnale di uscita* inizia a essere attenuato in modo significativo. Essa segna quindi il confine tra la banda di frequenza che il filtro lascia passare quasi senza attenuazione e quella in cui l’*attenuazione* aumenta in modo marcato. Formalmente, la frequenza di taglio è definita come il punto in cui la *potenza d’uscita* scende alla metà della *potenza d’ingresso* ($\qty{-3}{\dB}$). Poiché la potenza è proporzionale al quadrato della *tensione*, ciò corrisponde a una diminuzione della *tensione d’uscita* a circa $\qty{70}{\percent}$ del suo valore originale ($\frac{1}{\sqrt{2}}$). In pratica, la frequenza di taglio viene spesso identificata nel punto in cui la *tensione d’uscita* diminuisce sensibilmente e la *risposta in frequenza* inizia a "piegarsi". Al di sotto della frequenza di taglio, le frequenze basse vengono trasmesse quasi invariati, mentre al di sopra di essa le frequenze più alte vengono attenuate progressivamente.
+La *frequenza di taglio* ($f_\text{g}$) di un filtro passa-basso è la frequenza alla quale il segnale di uscita inizia a essere attenuato in modo significativo. Essa segna quindi il confine tra la banda di frequenza che il filtro lascia passare quasi senza attenuazione e quella in cui l’attenuazione aumenta in modo marcato. Formalmente, la frequenza di taglio è definita come il punto in cui la potenza d’uscita scende alla metà della potenza d’ingresso ($\qty{-3}{\dB}$). Poiché la potenza è proporzionale al quadrato della tensione, ciò corrisponde a una diminuzione della tensione d’uscita a circa $\qty{70}{\percent}$ del suo valore originale ($\frac{1}{\sqrt{2}}$). In pratica, la frequenza di taglio viene spesso identificata nel punto in cui la tensione d’uscita diminuisce sensibilmente e la risposta in frequenza inizia a "piegarsi". Al di sotto della frequenza di taglio, le frequenze basse vengono trasmesse quasi invariati, mentre al di sopra di essa le frequenze più alte vengono attenuate progressivamente.
 </indepth>
+
 ---
-In un *filtro passa-alto*, invece, le frequenze basse vengono fortemente attenuate, mentre quelle alte passano attraverso il filtro quasi senza attenuazione. Questo si ottiene scambiando il *condensatore* e la *resistenza* come mostrato nella figura [ref:e_wiederstaende_hochpass]. La *risposta in frequenza* di un *filtro passa-alto* è rappresentata qualitativamente in [ref:e_hochpass_frequenzgang]. Un esempio pratico di applicazione di un *filtro passa-alto* è l’utilizzo in un *ricevitore* per separare le bande HF da quelle VHF, ad esempio per evitare interferenze causate dall’uso della banda HF su un ricevitore VHF.
+
+In un filtro passa-alto, invece, le frequenze basse vengono fortemente attenuate, mentre quelle alte passano attraverso il filtro quasi senza attenuazione. Questo si ottiene scambiando il condensatore e la resistenza come mostrato nella figura [ref:e_wiederstaende_hochpass]. La risposta in frequenza di un filtro passa-alto è rappresentata qualitativamente in [ref:e_hochpass_frequenzgang]. Un esempio pratico di applicazione di un filtro passa-alto è l’utilizzo in un ricevitore per separare le bande HF da quelle VHF, ad esempio per evitare interferenze causate dall’uso della banda HF su un ricevitore VHF.
 <margin>
 [picture:1025:e_wiederstaende_hochpass:Comportamento qualitativo delle resistenze nel partitore di tensione del filtro passa-alto]
 [picture:1022:e_hochpass_frequenzgang:Andamento qualitativo della tensione d’uscita $U_\text{A}$ nel filtro passa-alto]
 </margin>
 [question:ED211]
 [question:ED202]
+
 ---
-I semplici circuiti RC presentano lo svantaggio che i loro fianchi nella zona di transizione sono piuttosto *piatti*. In un *filtro passa-basso* RC, la minima *impedenza* è determinata dalla *resistenza* $R$. Tuttavia, la *resistenza* $R$ può essere sostituita da una *bobina*, che si comporta in modo opposto a un *condensatore* in termini di risposta in frequenza. È quindi logico combinare *bobine* e *condensatori* per realizzare *filtri passa-alto* e *filtri passa-basso*.
-Alle *frequenze alte*, la *impedenza* della *bobina* è elevata, mentre quella del *condensatore* è bassa.
-Alle *frequenze basse*, la *impedenza* della *bobina* è bassa, mentre quella del *condensatore* è elevata.
-A seconda del *componente* su cui viene misurata la *tensione d’uscita*, si ottiene un *filtro passa-alto* o un *filtro passa-basso*. Se si ricorda che la *impedenza* della *bobina* $X_\text{L}$ è elevata alle alte frequenze, è possibile identificare rapidamente un circuito come *filtro passa-alto* o *filtro passa-basso* osservando su quale *componente* viene misurata la *tensione d’uscita*.
+
+I semplici circuiti RC presentano lo svantaggio che i loro fianchi nella zona di transizione sono piuttosto piatti. In un filtro passa-basso RC, la minima impedenza è determinata dalla resistenza $R$. Tuttavia, la resistenza $R$ può essere sostituita da una bobina, che si comporta in modo opposto a un condensatore in termini di risposta in frequenza. È quindi logico combinare bobine e condensatori per realizzare filtri passa-alto e filtri passa-basso.
+Alle *frequenze alte, la impedenza della bobina è elevata*, mentre quella del condensatore è bassa.
+Alle *frequenze basse, la impedenza della bobina è bassa*, mentre quella del condensatore è elevata.
+A seconda del componente su cui viene misurata la tensione d’uscita, si ottiene un filtro passa-alto o un filtro passa-basso. Se si ricorda che la impedenza della bobina $X_\text{L}$ è elevata alle alte frequenze, è possibile identificare rapidamente un circuito come filtro passa-alto o filtro passa-basso osservando su quale componente viene misurata la tensione d’uscita.
 <tip>
-Anche nei circuiti con *condensatore* e *bobina* vale la seguente regola semplice: se nel ramo superiore del partitore di tensione si trova una *H* dritta – come in *H*ochpass (filtro passa-alto) – allora si tratta di un *filtro passa-alto*. Se invece nel ramo superiore si trova una *resistenza* o una *bobina*, si tratta di un *filtro passa-basso*.
+Anche nei circuiti con condensatore e bobina vale la seguente regola semplice: se nel ramo superiore del partitore di tensione si trova una *H* dritta – come in *H*ochpass (filtro passa-alto) – allora si tratta di un filtro passa-alto. Se invece nel ramo superiore si trova una resistenza o una bobina, si tratta di un filtro passa-basso.
 [picture:1023:e_hochpass_tipp:Suggerimento per ricordare]
 </tip>
 [question:ED209]
 [question:ED212]
+
 ---
+
 Nelle domande seguenti si tratta di un'applicazione pratica dei nostri filtri. Naturalmente, in un circuito possono essere utilizzati anche più componenti dipendenti dalla frequenza, in modo che la transizione nell'area della frequenza di taglio diventi più ripida. Con il suggerimento fornito, dovresti ora riconoscere facilmente quale circuito viene utilizzato nelle prossime due domande.
 
 [question:ED210]
@@ -82,21 +88,27 @@ I filtri sopra menzionati possono naturalmente essere calcolati e costruiti in m
 
 Ora abbiamo imparato a conoscere semplici componenti RC e LC come filtri passa-alto e passa-basso. Tuttavia, con condensatori e bobine è possibile realizzare ulteriori tipi di filtri che vanno oltre i semplici filtri passa-alto e passa-basso. Ora li esamineremo più da vicino nel secondo capitolo, ovvero i cosiddetti *circuiti oscillanti*.
 <margin>
-[immagine:1026:e_rp_schwingkreis:(a) Circuito oscillante in serie (b) Circuito oscillante in parallelo]
+[picture:1026:e_rp_schwingkreis:(a) Circuito oscillante in serie (b) Circuito oscillante in parallelo]
 </margin>
 Nei circuiti oscillanti, la bobina e il condensatore vengono disposti in modo tale – a seconda dell’effetto filtrante desiderato – che a una determinata frequenza si verifichi una resistenza particolarmente elevata o particolarmente bassa. In questo modo, le frequenze al di sopra o al di sotto di questa frequenza vengono attenuate o lasciate passare selettivamente.
-La disposizione di bobina e condensatore può avvenire in serie o in parallelo. Si distinguono quindi circuiti oscillanti in serie (a) e circuiti oscillanti in parallelo (b), come illustrato nella figura [rif:e_rp_schwingkreis].
+La disposizione di bobina e condensatore può avvenire in serie o in parallelo. Si distinguono quindi circuiti oscillanti in serie (a) e circuiti oscillanti in parallelo (b), come illustrato nella figura [ref:e_rp_schwingkreis].
+
 ---
+
 Se si collegano in parallelo una bobina e un condensatore e si applica, ad esempio, un impulso rettangolare a questa disposizione, il circuito entra in oscillazione. Il condensatore carico immagazzina ora energia nel campo elettrico, che si dissipa attraverso la bobina. Il flusso di corrente attraverso la bobina genera un campo magnetico al suo interno, che inizialmente oppone resistenza al flusso di corrente. Non appena il campo magnetico è completamente formato, il condensatore si scarica completamente. L’energia è ora immagazzinata nel campo magnetico della bobina. Tuttavia, poiché il condensatore non può più scaricarsi e mantenere il flusso di corrente, il campo magnetico non può essere mantenuto. Il campo magnetico della bobina si scarica e genera una tensione in direzione opposta. Questa tensione ricarica il condensatore in direzione opposta finché il campo magnetico nella bobina non si è esaurito e non oppone più resistenza al campo elettrico nel condensatore. Il processo ricomincia poi da capo.
 <margin>
 [include:applet_schwingkreis]
 </margin>
+
 ---
+
 Per questo motivo si parla di circuito oscillante. La frequenza alla quale questo circuito oscilla viene chiamata frequenza di risonanza ($f_0$). Essa è paragonabile alla frequenza di risonanza di un diapason, che entra in oscillazione quando viene colpito. In condizioni di risonanza, le resistenze della bobina $X_\text{L}$ e del condensatore $X_\text{C}$ sono uguali. Tali circuiti oscillanti possono essere utilizzati sia per la generazione di oscillazioni – come approfondiremo nel capitolo sugli oscillatori – sia come filtri, ed è proprio questo l’argomento di questo capitolo.
 <margin>
-[immagine:1037:e_rsk_frequenzgang:Risposta in frequenza qualitativa di un circuito oscillante in serie]
+[picture:1037:e_rsk_frequenzgang:Risposta in frequenza qualitativa di un circuito oscillante in serie]
 </margin>
+
 ---
+
 
 In un *circuito risonante serie* come quello mostrato in figura [ref:e_rp_schwingkreis]a, la resistenza totale è minima alla frequenza di risonanza. La figura [ref:e_rsk_frequenzgang] illustra la risposta in frequenza. A frequenze superiori alla frequenza di risonanza, la resistenza della bobina aumenta, causando un aumento della resistenza totale del circuito risonante serie. Lo stesso accade anche a frequenze inferiori alla frequenza di risonanza, ma in questo caso è la resistenza del condensatore a essere elevata. Nei circuiti risonanti serie, quindi, la resistenza è minima alla frequenza di risonanza. A causa della connessione in serie, a frequenze diverse dalla frequenza di risonanza, il componente con la resistenza più elevata determina l'impedenza del circuito risonante.
 
@@ -142,15 +154,21 @@ A seconda di come i circuiti risonanti paralleli e serie vengono impiegati nel p
 
 ---
 
-Iniziamo con le configurazioni per i *circuiti trappola*. Esistono due modi principali per realizzarli come partitori di tensione: in primo luogo il *circuito trappola* (cfr. figura [ref:e_saugkreis]) e in secondo luogo il *circuito trappola* (cfr. figura [ref:e_sperrkreis]). Nelle figure sono rappresentati rispettivamente la resistenza dipendente dalla frequenza e la tensione d’uscita. Utilizzando le regole note per il partitore di tensione, queste relazioni possono essere derivate e comprese in modo del tutto analogo ai precedenti circuiti RC. Poiché i circuiti oscillanti paralleli presentano un’elevata resistenza in risonanza, possono essere utilizzati efficacemente come circuito trappola in serie al percorso del segnale. Oppure si può utilizzare la bassa resistenza di risonanza di un circuito oscillante serie in parallelo al percorso del segnale come circuito trappola. Spesso, tuttavia, in questo caso si ricorre anche a una combinazione di entrambi. Un’applicazione dei circuiti trappola è ad esempio la soppressione di singole gamme di frequenza, ad esempio quando una stazione radio FM vicina interferisce con la ricezione.[question:ED204]
+Iniziamo con le configurazioni per i *circuiti trappola*. Esistono due modi principali per realizzarli come partitori di tensione: in primo luogo il *circuito trappola* (cfr. figura [ref:e_saugkreis]) e in secondo luogo il *circuito trappola* (cfr. figura [ref:e_sperrkreis]). Nelle figure sono rappresentati rispettivamente la resistenza dipendente dalla frequenza e la tensione d’uscita. Utilizzando le regole note per il partitore di tensione, queste relazioni possono essere derivate e comprese in modo del tutto analogo ai precedenti circuiti RC. Poiché i circuiti oscillanti paralleli presentano un’elevata resistenza in risonanza, possono essere utilizzati efficacemente come circuito trappola in serie al percorso del segnale. Oppure si può utilizzare la bassa resistenza di risonanza di un circuito oscillante serie in parallelo al percorso del segnale come circuito trappola. Spesso, tuttavia, in questo caso si ricorre anche a una combinazione di entrambi. Un’applicazione dei circuiti trappola è ad esempio la soppressione di singole gamme di frequenza, ad esempio quando una stazione radio FM vicina interferisce con la ricezione.
+
+[question:ED204]
 [question:ED214]
 [question:ED215]
 <margin>
 [picture:1038:e_saugkreis:Andamenti qualitativi della frequenza di un circuito trappola]
 [picture:1040:e_sperrkreis:Andamenti qualitativi della frequenza di un circuito trappola]
 </margin>
+
 ---
-La seconda categoria di configurazioni che si possono sviluppare con i circuiti oscillanti sono i *filtri passa-banda*. Anche in questo caso esistono due modi principali per realizzarli come partitori di tensione: in primo luogo il *circuito trappola* (cfr. figura [ref:e_leitkreis]) e in secondo luogo il *filtro passa-banda* (cfr. figura [ref:e_bandpass]). Anche in questo caso la derivazione avviene come di consueto attraverso il comportamento di un partitore di tensione. Per un filtro passa-banda si collegano i circuiti oscillanti paralleli in parallelo al percorso del segnale, poiché questi presentano una bassa resistenza alle frequenze lontane dalla risonanza e quindi "cortocircuitano" tali frequenze. Un circuito oscillante serie in serie al percorso del segnale provoca un’ulteriore attenuazione lontano dalla risonanza, mentre presenta una bassa resistenza alla frequenza desiderata.[question:ED203]
+
+La seconda categoria di configurazioni che si possono sviluppare con i circuiti oscillanti sono i *filtri passa-banda*. Anche in questo caso esistono due modi principali per realizzarli come partitori di tensione: in primo luogo il *circuito trappola* (cfr. figura [ref:e_leitkreis]) e in secondo luogo il *filtro passa-banda* (cfr. figura [ref:e_bandpass]). Anche in questo caso la derivazione avviene come di consueto attraverso il comportamento di un partitore di tensione. Per un filtro passa-banda si collegano i circuiti oscillanti paralleli in parallelo al percorso del segnale, poiché questi presentano una bassa resistenza alle frequenze lontane dalla risonanza e quindi "cortocircuitano" tali frequenze. Un circuito oscillante serie in serie al percorso del segnale provoca un’ulteriore attenuazione lontano dalla risonanza, mentre presenta una bassa resistenza alla frequenza desiderata.
+
+[question:ED203]
 <margin>
 [picture:1039:e_leitkreis:Andamenti qualitativi della frequenza di un circuito trappola]
 [picture:1041:e_bandpass:Andamenti qualitativi della frequenza di un filtro passa-banda]
@@ -158,4 +176,6 @@ La seconda categoria di configurazioni che si possono sviluppare con i circuiti 
 Un esempio di applicazione evidente dei filtri passa-banda è il loro utilizzo nei ricevitore, dove è necessaria una pre-filtrazione di determinate gamme di frequenza. In questo caso si utilizza un filtro che lascia passare solo una gamma di frequenza desiderata, attenuando tutte le altre. Tali filtri passa-banda si trovano quindi in quasi tutti i ricevitore, spesso anche separatamente per ogni singola banda delle onde corte. Progettati per potenze elevate, i filtri passa-banda vengono utilizzati anche nel funzionamento in trasmissione, ad esempio durante contest o Fielddays comuni, per minimizzare le interferenze reciproche tra stazioni vicine.Per costruire filtri passa-banda e circuiti trappola, quindi, si possono utilizzare sia circuiti oscillanti serie che paralleli. È fondamentale tenere conto del comportamento dei rispettivi circuiti oscillanti in condizioni di risonanza. A seconda del loro comportamento, questi possono essere posizionati in serie o in parallelo al percorso del segnale, eventualmente anche combinati tra loro più volte.Nei filtri, come condensatori possono essere utilizzati solo determinati tipi idonei.
 I condensatori elettrolitici, ad esempio, non sono adatti per circuiti ad alta frequenza, poiché la loro capacità dipende fortemente dalla frequenza e, inoltre, presentano un’elevata resistenza interna alle alte frequenze. I condensatori a film non sono invece adatti perché, a causa dei loro avvolgimenti (induttanza propria), sono fortemente dipendenti dalla frequenza soprattutto a partire dalle onde corte e hanno un basso fattore di qualità. 
 I condensatori ceramici, invece, presentano solo piccole perdite e la capacità dipende poco da frequenza e temperatura. Inoltre, sono facilmente reperibili anche per tensioni elevate.
-Anche i condensatori a piastre con isolamento in aria, che si trovano più comunemente nei condensatori variabili, sono adatti. Per tensioni elevate, i condensatori variabili vengono utilizzati anche nei sintonizzatori d’antenna.[question:ED216]
+Anche i condensatori a piastre con isolamento in aria, che si trovano più comunemente nei condensatori variabili, sono adatti. Per tensioni elevate, i condensatori variabili vengono utilizzati anche nei sintonizzatori d’antenna.
+
+[question:ED216]

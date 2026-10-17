@@ -23,13 +23,13 @@ Malheureusement, ces préfixes ne peuvent pas être saisis directement sur toute
 
 ---
 
-Prenons l’exemple du préfixe *kilo*, qui représente $1000$. Au lieu d’écrire $1000$, on peut aussi écrire $10 \cdot 10 \cdot 10$. Cette opération est abrégée en $10^3$ (prononcé « 10 puissance 3 » ou « 3ᵉ puissance de 10 »). Les notations $\qty{1500}{\hertz}$, $\qty{1,5}{\kilo\hertz}$ et $\qty{1,5e3}{\hertz}$ désignent la même valeur.
+Prenons l’exemple du préfixe kilo, qui représente $1000$. Au lieu d’écrire $1000$, on peut aussi écrire $10 \cdot 10 \cdot 10$. Cette opération est abrégée en $10^3$ (prononcé « 10 puissance 3 » ou « 3ᵉ puissance de 10 »). Les notations $\qty{1500}{\hertz}$, $\qty{1,5}{\kilo\hertz}$ et $\qty{1,5e3}{\hertz}$ désignent la même valeur.
 
 <tip>
 On peut aussi retenir que l’on multiplie le nombre autant de fois par 10 que l’indique l’exposant. Pour les nombres sans virgule, il suffit d’ajouter autant de zéros que l’indique l’exposant.
 </tip>
 
-Pour un million, il faut multiplier six fois le nombre 10 entre eux. Le préfixe *méga* correspond donc à la valeur $10^6$. L’écriture $\qty{28e6}{\hertz}$ signifie donc la même chose que $\qty{28}{\mega\hertz}$.
+Pour un million, il faut multiplier six fois le nombre 10 entre eux. Le préfixe méga correspond donc à la valeur $10^6$. L’écriture $\qty{28e6}{\hertz}$ signifie donc la même chose que $\qty{28}{\mega\hertz}$.
 
 Pour les petits nombres, le principe est similaire. Un millième équivaut à $\frac{1}{10} \cdot \frac{1}{10} \cdot \frac{1}{10}$. On l’écrit $10^{-3}$ (« dix puissance moins trois »). La valeur $\qty{3,5e-3}{\volt}$ n’est donc rien d’autre que $\qty{3,5}{\milli\volt}$ et $\qty{22e-6}{\volt}$ correspond à $\qty{22}{\micro\volt}$. Les principales puissances de dix sont à nouveau présentées dans le tableau [ref:e_einheitenvorzeichen].
 
@@ -43,7 +43,7 @@ Exemple : Pour saisir la valeur $\num{3,5e6}$, appuyez sur : 3.5 → Exp → 6
 Consultez le manuel d’utilisation de votre calculatrice pour connaître la combinaison exacte des touches.
 </tip>
 
-L’affichage des valeurs particulièrement grandes ou petites dépend de l’appareil. Certains les affichent sous forme de puissances de dix classiques, d’autres avec *Exp* ou *E* pour multiplié par dix puissance. Souvent, la touche *S/D* permet de basculer entre les différentes représentations. Dans la notation en puissances de dix, des touches comme *ENG*, *<ENG* ou *ENG>* déplacent la virgule ou ajoutent des zéros à la fin tout en ajustant l’exposant de manière à ce que la valeur reste inchangée. Consultez également le manuel d’utilisation de votre calculatrice.
+L’affichage des valeurs particulièrement grandes ou petites dépend de l’appareil. Certains les affichent sous forme de puissances de dix classiques, d’autres avec *Exp* ou *E* pour *multiplié par dix puissance*. Souvent, la touche *S/D* permet de basculer entre les différentes représentations. Dans la notation en puissances de dix, des touches comme *ENG*, *<ENG* ou *ENG>* déplacent la virgule ou ajoutent des zéros à la fin tout en ajustant l’exposant de manière à ce que la valeur reste inchangée. Consultez également le manuel d’utilisation de votre calculatrice.
 
 ---
 
@@ -58,8 +58,14 @@ Vous trouverez ci-dessous plusieurs questions d’examen que vous pouvez résoud
 %EA110
 [question:EA110]
 %EA109
+
+[question:EA109]
+
 [question:EA108]
 %EA116
+
+[question:EA116]
+
 [question:EA114]
 [question:EA111]
 [question:EA112]

@@ -30,7 +30,7 @@ Dans une oscillation sinusoïdale, il existe des *demi-ondes* positives et néga
 [picture:728:amplitude_periode_perioden:périodes d’une oscillation sinusoïdale]
 </left>
 <right>
-Le *temps* ($t$) entre le début d’une demi-onde positive et la fin de la demi-onde négative suivante s’appelle *période* ou *durée d’une période*
+Le temps ($t$) entre le début d’une demi-onde positive et la fin de la demi-onde négative suivante s’appelle *période* ou *durée d’une période*
 </right>
 ---
 ## Interactif

@@ -1,4 +1,4 @@
-Pour calculer la résistance, nous utilisons la loi d'Ohm tirée du **recueil de formules** :
+Pour calculer la résistance, nous utilisons la loi d'Ohm tirée du recueil de formules :
 
 $$R = \frac{U}{I}$$
 

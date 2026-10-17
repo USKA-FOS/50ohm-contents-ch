@@ -3,7 +3,9 @@
 * I moduli sensibili (ad esempio gli oscillatori) cambierebbero frequenza
 * Soluzione: stabilizzazione della tensione
 
+
 ---
+
 ## Stabilizzazione con diodo Zener
 <left>
 [picture:323:a_Stabilisierung mit Z-Diode:Stabilizzazione della tensione con diodo Zener]
@@ -14,9 +16,13 @@
 </right>
 <note>
 </note>
+
 ---
+
 [question:AD321]
+
 --- style="font-size: 0.7em;"
+
 #### Procedimento di soluzione
 * dati: $R_L = \qty{470}{\ohm}$
 * dati: $I_L = \qty{10}{\milli\ampere}$
@@ -33,7 +39,9 @@ $P_{\mathrm{in}} = U_{\mathrm{in}} \cdot I_{\mathrm{in}} = U_{\mathrm{in}} \cdot
 <fragment>
 $\eta = \frac{P_L}{P_{\mathrm{in}}} = \frac{\qty{47}{\milli\watt}}{\qty{345}{\milli\watt}} \approx \num{0,14}$
 </fragment>
+
 ---
+
 ## Regolatore lineare di tensione
 
 <left>
@@ -45,11 +53,17 @@ $\eta = \frac{P_L}{P_{\mathrm{in}}} = \frac{\qty{47}{\milli\watt}}{\qty{345}{\mi
 * Il rendimento è spesso molto basso
 </right>
 
+
 ---
+
 [question:AD315]
+
 ---
+
 [question:AD319]
+
 ---
+
 #### Procedimento di soluzione
 * dati: $U_{\mathrm{in}} = \qty{13,8}{\volt}$
 * dati: $U_{\mathrm{out}} = \qty{9}{\volt}$
@@ -62,9 +76,13 @@ $U_{IC1} = U_{\mathrm{in}} - U_{\mathrm{out}} = \qty{13,8}{\volt} - \qty{9}{\vol
 <fragment>
 $P_V = U_{IC1} \cdot I = \qty{4,8}{\volt} \cdot \qty{900}{\milli\ampere} = \qty{4,32}{\watt}$
 </fragment>
+
 ---
+
 [question:AD320]
+
 ---
+
 #### Procedimento di soluzione
 * dati: $U_{\mathrm{in}} = \qty{13,8}{\volt}$
 * dati: $U_{\mathrm{out}} = \qty{5}{\volt}$
@@ -75,7 +93,9 @@ $P_V = U_{IC1} \cdot I = \qty{4,8}{\volt} \cdot \qty{900}{\milli\ampere} = \qty{
 <fragment>
 $\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}} = \frac{U_{\mathrm{out}} \cdot I_{\mathrm{out}}}{U_{\mathrm{in}} \cdot I_{\mathrm{in}}} = \frac{\qty{5}{\volt} \cdot \qty{450}{\milli\ampere}}{\qty{13,8}{\volt} \cdot \qty{455}{\milli\ampere}} \approx \num{0,36}$
 </fragment>
+
 ---
+
 ## Regolatore di tensione a valore fisso
 <left>
 [picture:200:a_Festspannungsregler:Regolatore di tensione a valore fisso]
@@ -86,9 +106,33 @@ $\eta = \frac{P_{\mathrm{out}}}{P_{\mathrm{in}}} = \frac{U_{\mathrm{out}} \cdot 
 * Anche in caso di forti fluttuazioni sulla tensione d’ingresso, la tensione d’uscita rimane molto stabile
 </right>
 
+
 ---
+
 [question:AD317]
+
 ---
+
 [question:AD316]
+
 ---
+
 [question:AD318]
+
+---
+
+#### Procedimento di soluzione
+* dato: $U_{\mathrm{in}} = \qty{13,8}{\volt}$
+* dato: $U_{\mathrm{out}} = \qty{5}{\volt}$
+* dato: $R_L = \qty{10}{\ohm}$
+* richiesto: $P_V$
+
+<fragment>
+$I = \frac{U_{\mathrm{in}}}{R_L} = \frac{\qty{5}{\volt}}{\qty{10}{\ohm}} = \qty{500}{\milli\ampere}$
+</fragment>
+<fragment>
+$U_{IC1} = U_{\mathrm{in}} - U_{\mathrm{out}} = \qty{13,8}{\volt} - \qty{5}{\volt} = \qty{8,8}{\volt}$
+</fragment>
+<fragment>
+$P_V = U_{IC1} \cdot I = \qty{8,8}{\volt} \cdot \qty{500}{\milli\ampere} = \qty{4,4}{\watt}$
+</fragment>

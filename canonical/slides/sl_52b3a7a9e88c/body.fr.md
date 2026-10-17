@@ -73,7 +73,7 @@ Une carte QSL doit contenir au minimum les informations suivantes :
 
 * Indicatif avec préfixe DE
 * Attribué non par l’Agence fédérale des réseaux, mais par le DARC
-* Appelé indicatif d’écouteur (short wave listener)
+* Appelé *indicatif d’écouteur* (short wave listener)
 
 ---
 

@@ -23,7 +23,7 @@ Terminologia:
 </indepth>
 
 <indepth>
-Per determinare la *peak envelope power* (PEP), in modo semplificato si misura all’uscita del trasmettitore la potenza media di ogni singolo periodo dell’oscillazione ad alta frequenza e si utilizza il valore più alto rilevato. In termini tecnici, si parla di "potenza efficace all’uscita di un stadio finale di trasmissione durante un periodo dell’oscillazione ad alta frequenza al picco più alto dell’inviluppo della modulazione". Il termine tedesco poco utilizzato per PEP è *Hüllkurvenspitzenleistung* (potenza di picco dell’inviluppo).
+Per determinare la peak envelope power (PEP), in modo semplificato si misura all’uscita del trasmettitore la potenza media di ogni singolo periodo dell’oscillazione ad alta frequenza e si utilizza il valore più alto rilevato. In termini tecnici, si parla di "potenza efficace all’uscita di un stadio finale di trasmissione durante un periodo dell’oscillazione ad alta frequenza al picco più alto dell’inviluppo della modulazione". Il termine tedesco poco utilizzato per PEP è Hüllkurvenspitzenleistung (potenza di picco dell’inviluppo).
 </indepth>
 
 [question:NF102]

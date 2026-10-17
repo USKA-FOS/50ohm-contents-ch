@@ -40,7 +40,7 @@ Inoltre, occorre considerare se il trasformatore presenta un rapporto di trasfor
 [question:AD306]
 
 <indepth>
-[photo:296: Forme costruttive del raddrizzatore a ponte: Forme costruttive di raddrizzatori a ponte]
+[photo:296: Brückengleichrichter Bauformen: Forme costruttive di raddrizzatori a ponte]
 Attenzione alla marcatura dei collegamenti.
 
 1. Raddrizzatore a ponte ad alta corrente 26 MB 20 A ($\qty{200}{\volt}$, $\qty{25}{\ampere}$) in contenitore metallico per montaggio diretto su un dissipatore
@@ -50,3 +50,4 @@ Attenzione alla marcatura dei collegamenti.
 5. B40 C 1500 - attenzione alla sequenza modificata dei collegamenti
 6. FPU 4M ($\qty{1000}{\volt}$, $\qty{4}{\ampere}$)
 7. Sequenza dei collegamenti impressa nella plastica
+</indepth>

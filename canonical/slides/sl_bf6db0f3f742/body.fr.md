@@ -5,7 +5,7 @@
 * Les classes E et A sont généralement limitées par leur *puissance de sortie* (puissance crête de l’enveloppe, PEP)
 </right>
 <fragment>
-* De nombreux émetteurs affichent la *puissance de sortie* actuelle sur leur indicateur de puissance.
+* De nombreux émetteurs affichent la puissance de sortie actuelle sur leur indicateur de puissance.
 </fragment>
 <note>
 Terme allemand pour PEP : puissance de crête de l’enveloppe – la valeur maximale mesurée de la puissance moyenne de chaque période de l’onde haute fréquence

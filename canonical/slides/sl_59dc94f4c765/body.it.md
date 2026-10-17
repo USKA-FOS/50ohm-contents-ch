@@ -1,6 +1,6 @@
 ### Caccia alla volpe (ARDF)
 
-* Un’altra tipologia di gara è il *Direction Finding* radioamatoriale (ARDF).
+* Un’altra tipologia di gara è il Direction Finding radioamatoriale (ARDF).
 * Le “volpi” sono piccoli trasmettitori nascosti che i partecipanti devono trovare e raggiungere a piedi utilizzando ricevitori di direzione.
 * Le volpi trasmettono, a turno, uno dei seguenti nominativi in telegrafia Morse CW: MO, MOE, MOI, MOS, MOH o MO5.
 * Vince chi trova per primo tutte le volpi e raggiunge il punto di arrivo.

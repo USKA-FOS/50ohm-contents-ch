@@ -4,7 +4,7 @@
 [picture:499:a_stehwellenmessgeraet:Circuito di un ROSmetro]
 </left>
 <right>
-* Preleva una parte della *potenza incidente*
+* Preleva una parte della potenza incidente
 * Preleva una parte della potenza riflessa
 * Visualizzazione tramite una scala appropriata (ad es. strumento a indice incrociato)
 * Lettura del rapporto d’onda stazionaria (ROS)

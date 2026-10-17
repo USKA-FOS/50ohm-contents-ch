@@ -11,9 +11,13 @@
 Présentation du terme _émetteur-récepteur_ : mot-valise formé de Transmitter (émetteur) et Receiver (récepteur)
 </note>
 
+
+
 ---
 
 [question:VD102]
+
+
 
 ---
 
@@ -35,6 +39,13 @@ Passer en émission (appuyer sur la touche PTT)
 * un autre point
 </note>
 
+
+
+---
+
+[question:NF108]
+
+
 ---
 
 ### Connaissances mathématiques de base
@@ -44,14 +55,23 @@ Passer en émission (appuyer sur la touche PTT)
 * Selon la classe, des connaissances supplémentaires sont nécessaires
 * Le cours soutient, mais ne peut pas transmettre toutes les connaissances nécessaires
 
+
+
+
+
+
 ---
 
 [question:NA101]
 
 
+
+
 ---
 
 [question:NA103]
+
+
 
 
 ---

@@ -15,9 +15,9 @@
 | K | Invito a trasmettere ("*K*ommen") |
 | PSE | Per favore, *P*lea*se* |
 | R | Ricevuto (conferma di ricezione, *R*oger) |
-| RX | Ricevitore (*R*eceiver) |
-| TX | Trasmettitore (*T*ransmitter) |
-| TRX | Trasmettitore-ricevitore (*T*rans*ceiver) |
+| RX | Ricevitore (Receiver) |
+| TX | Trasmettitore (Transmitter) |
+| TRX | Trasmettitore-ricevitore (Trans*ceiver) |
 [table:n_abkuerzungen:Riepilogo delle abbreviazioni]
 
 ---

@@ -1,13 +1,13 @@
-L'alimentazione di un'antenna avviene sempre con una tensione e una corrente che sono tra loro in un determinato rapporto. Questo rapporto viene chiamato **resistenza di alimentazione**.
+L'alimentazione di un'antenna avviene sempre con una tensione e una corrente che sono tra loro in un determinato rapporto. Questo rapporto viene chiamato resistenza di alimentazione.
 
-Affinché possa essere emessa una potenza, devono essere sempre presenti sia tensione che corrente, poiché la potenza è data dalla moltiplicazione di tensione e corrente. Se fosse nulla la tensione o la corrente, non ci sarebbe alcuna emissione o ricezione di potenza.
+Affinché possa essere emessa una potenza, devono essere sempre presenti sia tensione *che* corrente, poiché la potenza è data dalla moltiplicazione di tensione e corrente. Se fosse nulla la tensione o la corrente, non ci sarebbe alcuna emissione o ricezione di potenza.
 
 Tuttavia, parliamo di *antenne alimentate in corrente* e di *antenne alimentate in tensione*. Con ciò si intende che in alcune antenne è presente una corrente elevata con una tensione relativamente bassa al punto di alimentazione, mentre in altre antenne è presente una tensione elevata con una corrente relativamente bassa.
 
 
 ---
 
-Nei **dipoli a semionda**, la resistenza di alimentazione dipende dal punto in cui avviene l'alimentazione. Questo perché nel dipolo le cariche oscillano avanti e indietro, muovendo un numero particolarmente elevato di cariche al centro, che chiamiamo **ventre di corrente**, e generando tensioni particolarmente elevate alle estremità, che chiamiamo **ventri di tensione**. Dove non si muovono cariche parliamo di **nodo di corrente**, e dove la tensione è nulla parliamo di **nodo di tensione**. La figura [ref:e_strom_spannung_speisung_dipol] mostra la distribuzione di corrente e tensione sul dipolo.
+Nei dipoli a semionda, la resistenza di alimentazione dipende dal punto in cui avviene l'alimentazione. Questo perché nel dipolo le cariche oscillano avanti e indietro, muovendo un numero particolarmente elevato di cariche al centro, che chiamiamo ventre di corrente, e generando tensioni particolarmente elevate alle estremità, che chiamiamo ventri di tensione. Dove non si muovono cariche parliamo di nodo di corrente, e dove la tensione è nulla parliamo di nodo di tensione. La figura [ref:e_strom_spannung_speisung_dipol] mostra la distribuzione di corrente e tensione sul dipolo.
 
 [question:EG203]
 

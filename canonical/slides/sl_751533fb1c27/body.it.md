@@ -1,7 +1,7 @@
 * Accensione e spegnimento di una portante
 * Introduzione di un *alfabeto Morse* nel 1838 da parte di Samuel Morse, ottimizzato da Friedrich Clemens Gerke
 * L'*esame di Morse* è stato a lungo un requisito per i radioamatori sulle onde corte
-* Dalla metà degli anni '90, i paesi stabiliscono se l'*esame di Morse* è necessario
+* Dalla metà degli anni '90, i paesi stabiliscono se l'esame di Morse è necessario
 * Solo dal 2003 l'esame di Morse è facoltativo in Germania
 
 <note>
@@ -18,7 +18,7 @@ Ci sono paesi in cui l'esame di Morse è ancora necessario se si desidera utiliz
 | F | [morse:f] | P | [morse:p] | Z | [morse:z] |
 | G | [morse:g] | Q | [morse:q] | Ä | [morse:ä] |
 | H | [morse:h] | R | [morse:r] | Ö | [morse:ö] |
-| I | [morse:i] | S | [morse:s] | Ü | [morse:r] |
+| I | [morse:i] | S | [morse:s] | Ü | [morse:ü] |
 | J | [morse:j] | T | [morse:t] | ẞ | [morse:ß] |
 [table:n_morsetelegrafie_morsecode_buchstaben:Codice Morse (Lettere)]
 

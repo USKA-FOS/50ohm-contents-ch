@@ -1,11 +1,11 @@
-Per le stazioni radioamatoriali fisse, la procedura di notifica deve essere effettuata solo se l’**impianto trasmittente** raggiunge una **potenza irradiata** (*EIRP*) pari o superiore a *$\qty{10}{\watt}$*.
+Per le stazioni radioamatoriali fisse, la procedura di notifica deve essere effettuata solo se l’impianto trasmittente raggiunge una potenza irradiata pari o superiore a *$\qty{10}{\watt}$ EIRP*.
 
 ---
 
 * Consentito nella classe N:
-  * Banda dei *$\qty{70}{\centi\meter}$*: *$\qty{10}{\watt}$ EIRP*
-  * Banda dei *$\qty{2}{\meter}$*: *$\qty{10}{\watt}$ EIRP*
-  * Banda dei *$\qty{10}{\meter}$*: $\qty{10}{\watt}$ ERP
+  * Banda dei $\qty{70}{\centi\meter}$: *$\qty{10}{\watt}$ EIRP*
+  * Banda dei $\qty{2}{\meter}$: *$\qty{10}{\watt}$ EIRP*
+  * Banda dei $\qty{10}{\meter}$: $\qty{10}{\watt}$ ERP
   * $\qty{10}{\watt}$ ERP $\cdot 1,64 =$ *$\qty{16,4}{\watt}$ EIRP*
 * Anche nella classe N può essere necessario effettuare la procedura di notifica
 

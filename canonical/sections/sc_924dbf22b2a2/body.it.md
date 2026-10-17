@@ -2,7 +2,7 @@ Affinché non si arrivi a un titolo come *"Radioamatore subisce pericolosa scoss
 
 Qui verranno trattati inizialmente i pericoli generali.
 
-Il pericolo principale consiste nel contatto con una tensione elettrica. In elettrotecnica si parla di tensione pericolosa quando questa supera i $\qty{50}{\volt}$ in caso di tensione alternata e i $\qty{120}{\volt}$ in caso di tensione continua. Questi limiti sono stati fissati in modo che non possano verificarsi danni gravi al corpo umano. La tensione alternata viene abbreviata anche come "AC" (dall’inglese *alternating current*) e quella continua come "DC" (dall’inglese *direct current*).
+Il pericolo principale consiste nel contatto con una tensione elettrica. In elettrotecnica si parla di tensione pericolosa quando questa supera i $\qty{50}{\volt}$ in caso di tensione alternata e i $\qty{120}{\volt}$ in caso di tensione continua. Questi limiti sono stati fissati in modo che non possano verificarsi danni gravi al corpo umano. La tensione alternata viene abbreviata anche come "AC" (dall’inglese alternating current) e quella continua come "DC" (dall’inglese direct current).
 
 <indepth>
 Il motivo per cui *i valori limite per tensione alternata e continua sono diversi* dipende dagli effetti differenti sul corpo: la tensione alternata può influenzare il ritmo cardiaco, mentre quella continua provoca soprattutto ustioni.
@@ -20,7 +20,7 @@ Se la corrente attraversa il corpo, i tessuti possono subire danni. L’entità 
 
 Gli infortuni elettrici possono avere diversi effetti sul corpo:
 * *Aritmie cardiache*, fibrillazione ventricolare o arresto cardiaco, in particolare se il percorso della corrente attraversa il torace
-* *Ustioni*, solitamente nei punti di ingresso e uscita della corrente elettrica (le cosiddette *marche elettriche*)
+* *Ustioni*, solitamente nei punti di ingresso e uscita della corrente elettrica (le cosiddette marche elettriche)
 * *Distruzione dei tessuti*, causata dal calore generato dalla corrente (la resistenza del tessuto produce un forte riscaldamento che brucia e distrugge le cellule dall’interno)
 * *Contrattura dei muscoli*
 * *Infortuni secondari* come cadute, causate dallo spavento o dalla contrattura muscolare

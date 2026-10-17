@@ -1,8 +1,8 @@
-### [service d'amateur](#)
+### service d'amateur
 
-* Les [services de radiocommunication](#) sont définis internationalement dans le [règlement des radiocommunications](#) (RR) de l'UIT
-  * Exemples : radiocommunication maritime, radiodiffusion, [radioamateurisme](#)
-* Les applications radio bénéficiant d'une attribution générale peuvent également être réglementées au niveau international, mais ne constituent pas un [service de radiocommunication](#) selon le RR
+* Les services de radiocommunication sont définis internationalement dans le règlement des radiocommunications (RR) de l'UIT
+  * Exemples : radiocommunication maritime, radiodiffusion, radioamateurisme
+* Les applications radio bénéficiant d'une attribution générale peuvent également être réglementées au niveau international, mais ne constituent pas un service de radiocommunication selon le RR
   * Exemples : CB, Wi-Fi
 
 ---
@@ -11,12 +11,12 @@
 
 ---
 
-Comme le [radioamateurisme](#) est, selon le RR, un [service de radiocommunication](#) officiel, il implique des missions sensées et responsables :
+Comme le radioamateurisme est, selon le RR, un service de radiocommunication officiel, il implique des missions sensées et responsables :
 
 * Pour sa propre formation
 * Études techniques
 * Trafic radio entre radioamateurs $\rightarrow$ compréhension internationale
-* Le [service d'amateur](#) par satellite ne diffère pas quant à son objectif
+* Le service d'amateur par satellite ne diffère pas quant à son objectif
 
 ---
 

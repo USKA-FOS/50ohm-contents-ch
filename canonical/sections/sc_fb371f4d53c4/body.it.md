@@ -3,7 +3,7 @@
 Una volta completato questo corso e superato l’esame per radioamatore, si riceve un *avviso di superamento esame* nonché un *certificato di idoneità radioamatoriale* e si può essere definiti radioamatore. Si può quindi operare una stazione radioamatoriale? La risposta è inequivocabilmente no! È necessario ottenere anche l’*autorizzazione alla partecipazione al servizio di radioamatore*. Solo con il provvedimento di autorizzazione viene assegnato il nominativo personale.
 
 <margin>
-[foto:91:n_zulassung_urkunde:Il provvedimento di autorizzazione alla partecipazione al servizio di radioamatore]
+[photo:91:n_zulassung_urkunde:Il provvedimento di autorizzazione alla partecipazione al servizio di radioamatore]
 </margin>
 
 [question:VC106]

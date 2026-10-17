@@ -3,7 +3,7 @@
 Si un radioamateur ne souhaite pas effectuer lui-même la procédure de vérification pour la limitation des champs électromagnétiques, il peut, comme tout autre exploitant d'une installation d'émission, la faire réaliser par l'Agence fédérale des réseaux (Bundesnetzagentur). Pour cela, il doit demander un所谓 *« certificat de localisation »* (Standortbescheinigung).
 
 <indepth>
-L'établissement du *certificat de localisation* est également payant pour les radioamateurs. De plus, le radioamateur doit fournir tous les documents et informations nécessaires aux calculs. Cela inclut un plan de situation, un plan de construction indiquant l'emplacement de montage des antennes ainsi que des informations sur le comportement de rayonnement de toutes les antennes.
+L'établissement du certificat de localisation est également payant pour les radioamateurs. De plus, le radioamateur doit fournir tous les documents et informations nécessaires aux calculs. Cela inclut un plan de situation, un plan de construction indiquant l'emplacement de montage des antennes ainsi que des informations sur le comportement de rayonnement de toutes les antennes.
 </indepth>
 
 [question:VC121]

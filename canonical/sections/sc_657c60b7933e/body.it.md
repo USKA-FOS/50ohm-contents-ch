@@ -45,10 +45,10 @@ La croce × indica la *rotazione*. Essa descrive quanto un campo "ruota".
 Va notato che la comprensione e l'applicazione delle equazioni di Maxwell vanno ben oltre le conoscenze richieste per l'esame. Tuttavia, si tratta di un concetto così fondamentale dell'elettrotecnica che almeno il nome dovrebbe essere noto.
 </indepth>
 
-Come mostrato nelle figure [ref:e_vertikalantenne_em] e [ref:e_emfeld_ausbreitung], nel campo lontano (lontano dall'antenna) la componente magnetica del campo è sempre perpendicolare a quella elettrica.
+Come mostrato nelle figure e [ref:e_emfeld_ausbreitung], nel campo lontano (lontano dall'antenna) la componente magnetica del campo è sempre perpendicolare a quella elettrica.
 
 [question:EB303]
 
-Le componenti del campo magnetico ed elettrico, perpendicolari tra loro nel campo lontano, determinano anche la direzione di propagazione $S$, come mostrato nella figura [ref:e_emfeld_ausbreitung]: essa è a sua volta perpendicolare a entrambe. Si può immaginare che il campo magnetico e quello elettrico definiscano un piano su cui la direzione di propagazione è perpendicolare.
+Le componenti del campo magnetico ed elettrico, perpendicolari tra loro nel campo lontano, determinano anche la direzione di propagazione $S$, come mostrato nella figura [ref:e_vertikalantenne_em]: essa è a sua volta perpendicolare a entrambe. Si può immaginare che il campo magnetico e quello elettrico definiscano un piano su cui la direzione di propagazione è perpendicolare.
 
 [question:EB304]

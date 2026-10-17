@@ -34,7 +34,7 @@
 
 ### Se inizialmente non risponde nessuno
 
-* Se nessuna stazione risponde, si risponde alla chiamata e si informa la polizia o la **centrale operativa di soccorso**
+* Se nessuna stazione risponde, si risponde alla chiamata e si informa la polizia o la centrale operativa di soccorso
 * Trasmettendo la segnalazione in modo completo e letterale
 
 ---
@@ -71,10 +71,10 @@ Il Referato per la radioemergenza del DARC fornisce raccomandazioni per l’orga
 
 ### Segnali di emergenza
 
-* I segnali di emergenza al di fuori del **servizio di radioamatore** sono SOS e MAYDAY
-  * In **radiotelefonia** si usa "Mayday", in telegrafia "SOS"
+* I segnali di emergenza al di fuori del servizio di radioamatore sono SOS e MAYDAY
+  * In radiotelefonia si usa "Mayday", in telegrafia "SOS"
 * Segnali di urgenza e sicurezza: PAN PAN e SÉCURITÉ
-* Questi segnali sono riservati al traffico marittimo e aereo e non possono essere utilizzati nel **servizio di radioamatore**
+* Questi segnali sono riservati al traffico marittimo e aereo e non possono essere utilizzati nel servizio di radioamatore
 * È comunque possibile trasmettere chiamate di emergenza, ad esempio utilizzando i termini "Notfall" o "Emergency"
 
 ---
@@ -99,11 +99,11 @@ Il Referato per la radioemergenza del DARC fornisce raccomandazioni per l’orga
 
 L’IARU ha definito le seguenti frequenze di emergenza radioamatoriale nei piani di banda per la regione ITU 1, che devono essere tenute libere per l’uso in caso di emergenza:
 % TODO: Eigentlich sind die Bandangaben unnötig. Aber wenn nur die Frequenz da steht, werden die Abstände zwischen den Zeilen riesig
-* $\qty{3760}{\kilo\hertz}$ nella **banda** dei $\qty{80}{\meter}$
-* $\qty{7110}{\kilo\hertz}$ nella **banda** dei $\qty{40}{\meter}$
-* $\qty{14300}{\kilo\hertz}$ nella **banda** dei $\qty{20}{\meter}$
-* $\qty{18160}{\kilo\hertz}$ nella **banda** dei $\qty{17}{\meter}$
-* $\qty{21360}{\kilo\hertz}$ nella **banda** dei $\qty{15}{\meter}$
+* $\qty{3760}{\kilo\hertz}$ nella banda dei $\qty{80}{\meter}$
+* $\qty{7110}{\kilo\hertz}$ nella banda dei $\qty{40}{\meter}$
+* $\qty{14300}{\kilo\hertz}$ nella banda dei $\qty{20}{\meter}$
+* $\qty{18160}{\kilo\hertz}$ nella banda dei $\qty{17}{\meter}$
+* $\qty{21360}{\kilo\hertz}$ nella banda dei $\qty{15}{\meter}$
 
 
 <note>

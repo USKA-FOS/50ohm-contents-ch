@@ -23,13 +23,13 @@ $\frac{Z_0}{4\pi} \approx \frac{\qty{120\pi}{\ohm}}{4\pi} = \qty{30}{\ohm}$
 Da cui deriva la formula approssimata nota dalla classe E. Allo stesso tempo, risulta chiaro perché non possa essere utilizzata nel campo vicino reattivo: in questa regione l'impedenza d’onda non è costante, ma dipende fortemente dalla distanza, dalla forma dell’antenna e dalla direzione considerata. Per calcoli nel campo vicino reattivo, quindi per distanze $d \le \frac{\lambda}{2\pi}$, sono generalmente necessari calcoli più approfonditi, simulazioni numeriche o misurazioni.
 
 <margin>
-[immagine:1116:a_feldwellenwiderstand:Andamento dell'impedenza d’onda nei campi vicino e lontano (scala logaritmica).]
+[picture:1116:a_feldwellenwiderstand:Andamento dell'impedenza d’onda nei campi vicino e lontano (scala logaritmica).]
 </margin>
 
 Se la formula approssimata del campo lontano viene applicata a un’antenna a dipolo già nel campo vicino radiante, in genere si ottiene una distanza di sicurezza maggiore di quella effettivamente necessaria. In questa regione, l'impedenza d’onda è inferiore a $\qty{377}{\ohm}$, mentre la formula approssimata utilizza il valore più elevato del campo lontano. Il risultato è quindi conservativo e si colloca sul lato della sicurezza. Questo approccio è accettato dalla Bundesnetzagentur.
 
 Tuttavia, ciò non vale per le antenne magnetiche e per quelle elettricamente molto corte. La figura [ref:a_feldwellenwiderstand] mostra, ad esempio, che l'impedenza d’onda di un’antenna a loop magnetica nel campo vicino radiante può essere notevolmente superiore a $\qty{377}{\ohm}$. In questo caso, la formula approssimata del campo lontano fornirebbe una distanza di sicurezza troppo ridotta. Per tali antenne, è quindi necessario utilizzare altri metodi, ad esempio programmi specifici per il calcolo del campo vicino (simulazioni) o misurazioni.
 
-[domanda:AK103]
+[question:AK103]
 
 Per il calcolo delle distanze di protezione delle persone, nel campo lontano può essere utilizzata la nota formula approssimata. In questo modo, spesso si possono evitare misurazioni o simulazioni complesse. In particolare nel funzionamento portatile, consente una rapida stima approssimativa della distanza di sicurezza necessaria.

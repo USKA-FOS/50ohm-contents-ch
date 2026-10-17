@@ -35,7 +35,7 @@ Al posto del fattore di guadagno delle antenne, spesso viene indicato il "guadag
 
 ---
 
-Per indicare quanta potenza irradia un’antenna concreta nella sua direzione principale di irradiazione quando si imposta una certa potenza di trasmissione, si moltiplica la potenza di trasmissione per il fattore di guadagno riferito al dipolo a semionda. Si ottiene così la *potenza irradiata effettiva*, che viene solitamente abbreviata come ERP (dall’inglese *effective radiated power*). Ad esempio, se si inserisce una potenza di trasmissione di $\qty{5}{\watt}$ in un’antenna con un fattore di guadagno di $\num{2}$ rispetto al dipolo a semionda, si ottiene una potenza irradiata di $\qty{10}{\watt}$ ERP.
+Per indicare quanta potenza irradia un’antenna concreta nella sua direzione principale di irradiazione quando si imposta una certa potenza di trasmissione, si moltiplica la potenza di trasmissione per il fattore di guadagno riferito al dipolo a semionda. Si ottiene così la *potenza irradiata effettiva*, che viene solitamente abbreviata come ERP (dall’inglese effective radiated power). Ad esempio, se si inserisce una potenza di trasmissione di $\qty{5}{\watt}$ in un’antenna con un fattore di guadagno di $\num{2}$ rispetto al dipolo a semionda, si ottiene una potenza irradiata di $\qty{10}{\watt}$ ERP.
 
 <margin>
 La potenza irradiata effettiva (ERP) può essere immaginata anche come segue: è la potenza che bisognerebbe inserire in un dipolo a semionda affinché questo irradia nella sua direzione principale di irradiazione con la stessa intensità dell’antenna considerata.

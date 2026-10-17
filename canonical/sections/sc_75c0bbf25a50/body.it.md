@@ -1,7 +1,7 @@
-Un alimentatore a commutazione (in inglese *switched-mode power supply*) converte una tensione alternata in una tensione continua stabilizzata. Per farlo, prima rettifica la tensione d’ingresso, poi la commuta molto rapidamente, la trasforma in modo efficiente nella tensione desiderata e infine la livella. Nel corso HB9 approfondiremo il funzionamento dettagliato nel capitolo [sec:schaltnetzteil_2].
+Un alimentatore a commutazione (in inglese switched-mode power supply) converte una tensione alternata in una tensione continua stabilizzata. Per farlo, prima rettifica la tensione d’ingresso, poi la commuta molto rapidamente, la trasforma in modo efficiente nella tensione desiderata e infine la livella. Nel corso HB9 approfondiremo il funzionamento dettagliato nel capitolo [sec:schaltnetzteil_2].
 
 <margin>
-[foto:308:e_Ferritkerntrafo im Schaltnetzteils:Vista interna di un alimentatore a commutazione da $\qty{13,8}{\volt}$ e $\qty{35}{\ampere}$ con un piccolo trasformatore a nucleo di ferrite tra i due dissipatori, peso $\qty{2}{\kilo\gram}$]
+[photo:308:e_Ferritkerntrafo im Schaltnetzteils:Vista interna di un alimentatore a commutazione da $\qty{13,8}{\volt}$ e $\qty{35}{\ampere}$ con un piccolo trasformatore a nucleo di ferrite tra i due dissipatori, peso $\qty{2}{\kilo\gram}$]
 </margin>
 
 L’alimentatore a commutazione presenta diversi vantaggi rispetto a un alimentatore lineare regolato:

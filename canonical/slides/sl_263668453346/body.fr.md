@@ -64,7 +64,7 @@ Les antennes de satellite doivent être orientées
 
 <left>
 *Élévation*
-* Dérivé du latin *elevare* (« élever »)
+* Dérivé du latin elevare (« élever »)
 * Angle vertical au-dessus de l’horizon
 </left>
 <right>

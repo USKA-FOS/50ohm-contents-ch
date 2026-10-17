@@ -26,7 +26,7 @@
 * Plus le volume de la voix captée par le microphone est élevé, plus la variation de la fréquence porteuse est grande
 * Cela augmente également la bande passante occupée par l’émission
 * La valeur maximale de cette variation de la fréquence porteuse est appelée *excursion de fréquence porteuse* ou simplement *excursion*
-* En pratique, on utilise la FM à bande étroite (anglais *Narrow-FM*, abrégé *NFM*) avec une bande passante de $\qty{12}{\kilo\hertz}$
+* En pratique, on utilise la FM à bande étroite (anglais Narrow-FM, abrégé NFM) avec une bande passante de $\qty{12}{\kilo\hertz}$
 
 
 <note>

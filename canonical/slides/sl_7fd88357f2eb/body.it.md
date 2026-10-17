@@ -6,13 +6,19 @@
 [picture:740:n_netzgeraet:Alimentatore]
 </right>
 
+
+
 ---
 
 [question:ND101]
 
+
+
 ---
 
 [question:ND102]
+
+
 
 ---
 
@@ -35,9 +41,13 @@
 * La messa a terra impedisce che sull’involucro si generi una tensione pericolosa
 </note>
 
+
+
 ---
 
 [question:ND109]
+
+
 
 ---
 
@@ -62,25 +72,37 @@
 * Controllare i cavi, quindi accendere solo dopo
 </note>
 
+
+
 ---
 
 [question:ND104]
+
+
 
 ---
 
 [question:ND103]
 
+
+
 ---
 
 [question:ND105]
+
+
 
 ---
 
 [question:ND106]
 
+
+
 ---
 
 [question:ND107]
+
+
 
 ---
 
@@ -95,6 +117,8 @@
 * *Fusibile bruciato* o *scollegamento termico*
 </right>
 
+
+
 ---
 
 ### Sostituire i fusibili miniatura
@@ -107,6 +131,8 @@
 ATTENZIONE: È inaccettabile e molto pericoloso bypassare un fusibile difettoso, ad esempio con un foglio di alluminio, poiché esiste il rischio di incendio!
 </note>
 
+
+
 ---
 
 ### Caratteristiche dei fusibili miniatura
@@ -117,6 +143,8 @@ ATTENZIONE: È inaccettabile e molto pericoloso bypassare un fusibile difettoso,
 | lento | T | max. $\qty{300}{\milli\second}$ |
 [table:n_feinsicherung:Caratteristiche dei fusibili miniatura]
 
+
+
 ---
 
 ### Limitazione elettronica
@@ -126,6 +154,11 @@ ATTENZIONE: È inaccettabile e molto pericoloso bypassare un fusibile difettoso,
 * *Limitazione della corrente di cortocircuito*
 * Non è necessario sostituire i fusibili
 
+
 ---
+
 [question:ND108]
+
+---
+
 [question:NK305]

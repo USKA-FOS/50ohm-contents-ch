@@ -1,4 +1,4 @@
-Un rosmetro (cfr. figura [ref:swr_meter_kreuzzeiger]) viene utilizzato nei trasmettitori per verificare l’adattamento dell’antenna o della linea di alimentazione all’antenna stessa. Spesso, un rosmetro, in base alla sua struttura, viene chiamato anche *ponte di misura del ROS*. Con esso si possono rispondere facilmente alle seguenti domande:
+Un rosmetro (cfr. figura [ref:swr_meter_kreuzzeiger]) viene utilizzato nei trasmettitori per verificare l’adattamento dell’antenna o della linea di alimentazione all’antenna stessa. Spesso, un rosmetro, in base alla sua struttura, viene chiamato anche ponte di misura del ROS. Con esso si possono rispondere facilmente alle seguenti domande:
 
 <margin>
 [photo:143:swr_meter_kreuzzeiger:Rosmetro con indice a croce; l’indice di sinistra indica la potenza incidente, quello di destra la potenza riflessa. Per leggere il ROS, si segue la linea verde fino al punto di intersezione dei due indici verso il basso]

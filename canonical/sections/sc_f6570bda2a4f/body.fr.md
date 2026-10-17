@@ -1,4 +1,4 @@
-Pour calculer la distance de sécurité, il existe une formule approximative. On la trouve dans le [recueil de formules](#) :
+Pour calculer la distance de sécurité, il existe une formule approximative. On la trouve dans le recueil de formules :
 
 $ E = \frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{d} $
 

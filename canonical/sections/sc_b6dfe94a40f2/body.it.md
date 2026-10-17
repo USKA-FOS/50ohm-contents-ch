@@ -16,9 +16,9 @@ Se un messaggio non destinato all’ascoltatore viene ricevuto in modo accidenta
 
 [question:SWL003]
 
-<attenzione>
+<attention>
 L’accesso libero a una frequenza o la disponibilità di un ricevitore tecnicamente idoneo non implicano automaticamente la liceità dell’ascolto o della diffusione del contenuto.
-</attenzione>
+</attention>
 
 <tip>
 In pratica: restano consentiti l’ascolto su bande radioamatoriali, radiofoniche e trasmissioni espressamente destinate al pubblico. I messaggi ricevuti casualmente non devono essere registrati né diffusi.

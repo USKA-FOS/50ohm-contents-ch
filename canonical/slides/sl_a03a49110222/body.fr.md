@@ -1,5 +1,5 @@
 * Dans le domaine de la technique radio, on parle d’appareils fonctionnant à l’aide d’un traitement numérique du signal, appelés appareils SDR.
-* *SDR* signifie *Software Defined Radio* (radio définie par logiciel).
+* *SDR* signifie Software Defined Radio (radio définie par logiciel).
 * Dans ces appareils, au moins une partie du traitement du signal est réalisée par logiciel.
 * Cela présente un avantage en termes de coût et offre une grande flexibilité.
 

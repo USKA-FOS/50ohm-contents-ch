@@ -1,7 +1,7 @@
 L'origine de nombreuses abréviations remonte à la télégraphie Morse. L'abréviation CQ est plus rapide à transmettre en Morse que la signification « appel général ». Beaucoup d'abréviations sont définies dans le règlement des radiocommunications (RR). Cela inclut notamment les abréviations opérationnelles pour la télégraphie Morse et les groupes Q, que nous aborderons plus tard. Avec l'évolution de la technologie, de nouvelles abréviations apparaissent progressivement, et la signification de certaines évolue au fil du temps. Cependant, leur utilisation n'est en aucun cas limitée à la télégraphie. Beaucoup de ces abréviations font partie intégrante du langage courant entre radioamateurs et sont également utilisées en téléphonie.
 
 <webmargin>
-| Abréviation | Signification |
+| c: Abréviation | X: Signification |
 | BK | Interruption de l'émission ; transmission informelle (*B*rea*k*) |
 | CQ | Appel général |
 | CW | *C*ontinuous *W*ave (synonyme de télégraphie Morse) |
@@ -14,11 +14,11 @@ L'origine de nombreuses abréviations remonte à la télégraphie Morse. L'abré
 [table:n_abkuerzungen:Résumé des abréviations]
 </webmargin>
 
-L'origine de la radio amateur se trouve aux États-Unis. C'est pourquoi de nombreux termes techniques proviennent de l'anglais américain, par exemple *Transmitter* au lieu d'émetteur et *Receiver* au lieu de récepteur. L'émetteur est abrégé en TX, le récepteur en RX et l'émetteur-récepteur en TRX.
+L'origine de la radio amateur se trouve aux États-Unis. C'est pourquoi de nombreux termes techniques proviennent de l'anglais américain, par exemple Transmitter au lieu d'émetteur et Receiver au lieu de récepteur. L'émetteur est abrégé en TX, le récepteur en RX et l'émetteur-récepteur en TRX.
 
 [question:BB106]
 
-Nous avons également déjà rencontré l'abréviation CW pour *Continuous Wave*, qui est généralement utilisée pour la télégraphie Morse en allumant et éteignant une porteuse haute fréquence.
+Nous avons également déjà rencontré l'abréviation CW pour Continuous Wave, qui est généralement utilisée pour la télégraphie Morse en allumant et éteignant une porteuse haute fréquence.
 
 [question:BB107]
 

@@ -5,7 +5,7 @@
 * Nella parte superiore dell'atmosfera terrestre
 * Ha grande influenza nella gamma delle onde corte
 * La radiazione solare genera particelle elettricamente cariche
-* Le *onde radio* vengono rifratte (rifratte) $\rightarrow$ *onda spaziale*
+* Le onde radio vengono rifratte (rifratte) $\rightarrow$ onda spaziale
 * Possibili collegamenti radio a livello mondiale
 </right>
 
@@ -24,7 +24,7 @@
 * Le condizioni di propagazione cambiano quotidianamente e stagionalmente
 * Le macchie solari hanno una grande influenza
 * Ogni 11 anni si verificano forti macchie solari
-* Maggiore radiazione elettromagnetica e materia nell'*ionosfera*
+* Maggiore radiazione elettromagnetica e materia nell'ionosfera
 </right>
 
 ---

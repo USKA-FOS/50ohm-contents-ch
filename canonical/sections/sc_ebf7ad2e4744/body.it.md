@@ -14,12 +14,12 @@ L'origine di molte abbreviazioni risale alla telegrafia Morse. L'abbreviazione C
 [table:n_abkuerzungen:Riepilogo delle abbreviazioni]
 </webmargin>
 
-L'origine della radioamatorialità risiede negli Stati Uniti. Per questo motivo, molti dei nostri termini tecnici derivano dall'inglese americano, ad esempio *Transmitter* invece di *Sender* e *Receiver* invece di *Empfänger*. Il trasmettitore viene abbreviato con TX, il ricevitore con RX e il trasmettitore-ricevitore con TRX.
+L'origine della radioamatorialità risiede negli Stati Uniti. Per questo motivo, molti dei nostri termini tecnici derivano dall'inglese americano, ad esempio Transmitter invece di Sender e Receiver invece di Empfänger. Il trasmettitore viene abbreviato con TX, il ricevitore con RX e il trasmettitore-ricevitore con TRX.
 
 [question:BB106]
 
-Abbiamo già imparato l'abbreviazione CW per *Continuous Wave*, che di solito indica la telegrafia Morse ottenuta accendendo e spegnendo un'onda portante ad alta frequenza.
+Abbiamo già imparato l'abbreviazione CW per Continuous Wave, che di solito indica la telegrafia Morse ottenuta accendendo e spegnendo un'onda portante ad alta frequenza.
 
 [question:BB107]
 
-Abbiamo già affrontato una serie di abbreviazioni della telegrafia: la "R" (*received*, o *roger*) come conferma di ricezione all'inizio di una trasmissione è uno dei pochi segni utilizzati esclusivamente nella telegrafia. Lo stesso vale per il segno "K". Un aiuto mnemonico è "Kommen" come invito a trasmettere. Per "BK", l'acronimo "*B*rea*k*" si impone come suggerimento. La tabella [ref:n_abkuerzungen] riassume ancora una volta le abbreviazioni più importanti per l'esame.
+Abbiamo già affrontato una serie di abbreviazioni della telegrafia: la "R" (received, o roger) come conferma di ricezione all'inizio di una trasmissione è uno dei pochi segni utilizzati esclusivamente nella telegrafia. Lo stesso vale per il segno "K". Un aiuto mnemonico è "Kommen" come invito a trasmettere. Per "BK", l'acronimo "*B*rea*k*" si impone come suggerimento. La tabella [ref:n_abkuerzungen] riassume ancora una volta le abbreviazioni più importanti per l'esame.

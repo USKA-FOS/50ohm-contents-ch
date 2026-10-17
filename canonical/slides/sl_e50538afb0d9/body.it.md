@@ -11,7 +11,7 @@ Molto altro su questo argomento nella classe E e A
 
 <left>
 * Componente semiconduttore più semplice: il diodo
-* La [corrente](#) può fluire solo in una direzione
+* La corrente può fluire solo in una direzione
 </left>
 <right>
 [photo:204:n_halbleiter_dioden:Simbolo di circuito e forme costruttive dei diodi]
@@ -47,7 +47,7 @@ Molto altro su questo argomento nella classe E e A
 
 <left>
 * Diodo luminoso, "light-emitting diode"
-* Si illumina non appena la [corrente](#) lo attraversa
+* Si illumina non appena la corrente lo attraversa
 * Schema elettrico: diodo con due frecce aggiuntive verso l'esterno
 * Si comporta come un diodo, ma si illumina
 </left>

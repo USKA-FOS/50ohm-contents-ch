@@ -6,7 +6,7 @@
 * Distorsion et reproduction incompréhensible des signaux
 </left>
 <right>
-* Activation d'un atténuateur dans l'émetteur-récepteur
+* Activation d'un *atténuateur* dans l'émetteur-récepteur
 * Réduction des signaux d'entrée d'une valeur prédéfinie
 </right>
 

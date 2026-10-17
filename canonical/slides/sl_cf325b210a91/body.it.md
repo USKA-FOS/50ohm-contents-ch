@@ -72,7 +72,7 @@ $\begin{split}Z &= \sqrt{Z_E \cdot Z_A}\\ &= \sqrt{\qty{600}{\ohm} \cdot \qty{24
 </right>
 
 <note>
-Il nome "filtro Pi" deriva dall’aspetto dei componenti, che ricorda la lettera greca $\pi$, e non ha nulla a che fare con la *costante Pi*.
+Il nome "filtro Pi" deriva dall’aspetto dei componenti, che ricorda la lettera greca $\pi$, e non ha nulla a che fare con la costante Pi.
 </note>
 
 ---

@@ -6,9 +6,9 @@ Pour maintenir la fréquence d'un oscillateur aussi stable que possible, il doit
 
 Il existe différents types d'oscillateurs à quartz, qui diffèrent par leur stabilité en fréquence :
 
-* L'oscillateur à quartz le plus simple (voir figure [ref:a_xo]) est appelé *XO*, abréviation de *Crystal Oscillator*.
-* Un *TCXO* (*Temperature Compensated Crystal Oscillator*) compense les effets de la température à l'aide de composants supplémentaires dans le circuit de l'oscillateur, de sorte que leurs effets dépendant de la température s'annulent largement dans la plage de température de fonctionnement habituelle.
-* Un *OCXO* (*Oven-Controlled Crystal Oscillator*) stabilise la température de l'oscillateur à quartz à l'aide d'un chauffage régulé. Pour cela, l'oscillateur est placé dans un boîtier thermiquement isolé, qui le protège largement des influences thermiques externes. Parmi les types d'oscillateurs mentionnés, l'OCXO offre la plus grande stabilité de fréquence.
+* L'oscillateur à quartz le plus simple (voir figure [ref:a_xo]) est appelé *XO*, abréviation de Crystal Oscillator.
+* Un *TCXO* (Temperature Compensated Crystal Oscillator) compense les effets de la température à l'aide de composants supplémentaires dans le circuit de l'oscillateur, de sorte que leurs effets dépendant de la température s'annulent largement dans la plage de température de fonctionnement habituelle.
+* Un *OCXO* (Oven-Controlled Crystal Oscillator) stabilise la température de l'oscillateur à quartz à l'aide d'un chauffage régulé. Pour cela, l'oscillateur est placé dans un boîtier thermiquement isolé, qui le protège largement des influences thermiques externes. Parmi les types d'oscillateurs mentionnés, l'OCXO offre la plus grande stabilité de fréquence.
 
 <margin>
 [photo:333:a_xo:Oscillateur à quartz XO à $\qty{433,75}{\mega\hertz}$]

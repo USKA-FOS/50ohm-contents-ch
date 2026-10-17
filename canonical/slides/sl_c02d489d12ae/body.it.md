@@ -1,5 +1,5 @@
 <left>
-* Una <i>in serie</i> di resistenze viene anche chiamata <i>partitore di tensione</i>, poiché le tensioni si suddividono tra le resistenze.
+* Una in serie di resistenze viene anche chiamata partitore di tensione, poiché le tensioni si suddividono tra le resistenze.
 * Maggiore è la resistenza, maggiore è la tensione che cade su di essa.
 </left>
 <right>

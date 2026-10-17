@@ -1,6 +1,6 @@
 ### TDMA
 <left>
-* Time Division Multiple Access – *multiplazione a divisione di tempo*
+* Time Division Multiple Access – multiplazione a divisione di tempo
 * I dati digitali utili vengono separati e inviati uno dopo l’altro sulla stessa frequenza
 * Al ricevitore il flusso di dati viene ricomposto
 </left>
@@ -13,7 +13,7 @@
 ---
 ### CDMA
 <left>
-* Code Division Multiple Access – *tecnica di multiplazione a codice*
+* Code Division Multiple Access – tecnica di multiplazione a codice
 * I dati digitali utili vengono codificati (mischiati) con un codice digitale
 * Al ricevitore viene utilizzato lo stesso codice digitale per la decodifica
 </left>
@@ -28,7 +28,7 @@
 ---
 ### FDMA
 <left>
-* Frequency Division Multiple Access – *tecnica di multiplazione di frequenza*
+* Frequency Division Multiple Access – tecnica di multiplazione di frequenza
 * Il segnale digitale viene suddiviso su più frequenze
 * In questo modo è possibile utilizzare una larghezza di banda maggiore
 </left>

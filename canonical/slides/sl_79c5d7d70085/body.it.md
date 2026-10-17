@@ -26,7 +26,7 @@
 * Più forte è il volume della voce nel microfono, maggiore sarà la variazione della frequenza portante
 * Di conseguenza, aumenta anche la larghezza di banda occupata dall'emissione
 * Il valore massimo della variazione della frequenza portante viene definito come *deviazione di frequenza portante* o semplicemente *deviazione*
-* In pratica, si utilizza la FM a banda stretta (in inglese *Narrow-FM*, abbreviato in *NFM*) con una larghezza di banda di $\qty{12}{\kilo\hertz}$
+* In pratica, si utilizza la FM a banda stretta (in inglese Narrow-FM, abbreviato in NFM) con una larghezza di banda di $\qty{12}{\kilo\hertz}$
 
 <note>
 Parlare più forte nel microfono &rarr; aumenta l'ampiezza del segnale BF

@@ -3,7 +3,7 @@ En radioamateurisme, on utilise de nombreuses abréviations internationalement r
 <margin>
 | l: Abréviation | X: Signification                                            |
 | CQ           | Appel général ; toute station peut répondre              |
-| CW           | *Continuous Wave* ; télégraphie Morse                     |
+| CW           | Continuous Wave ; télégraphie Morse                     |
 | DX           | Grande distance ou station très éloignée                 |
 | RX           | Récepteur                                                |
 | TX           | Émetteur                                                 |

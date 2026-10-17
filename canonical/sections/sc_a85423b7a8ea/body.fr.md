@@ -3,7 +3,7 @@ Si l’on écoute les indicatifs d’appel HB3CGF et HB3EGF prononcés à l’or
 Il existe différentes tables d’épellation, par exemple la table allemande, autrichienne ou suisse, qui utilisent des mots différents. Les radioamateurs utilisent pour l’annonce de l’indicatif la table internationale de l’UIT. L’Union internationale des télécommunications (International Telecommunication Union, ITU) a introduit pour la première fois en 1927 une table d’épellation internationale [index:Buchstabiertafel:Internationale], qu’elle a adaptée à plusieurs reprises au fil du temps. La table d’épellation internationale actuellement en vigueur est définie à l’annexe 14 du règlement des radiocommunications (RR), publié par l’UIT. Elle est présentée dans le tableau [ref:n_buchstabiertafel]. Cette table est utilisée non seulement en radioamateurisme, mais aussi, entre autres, dans l’aviation et par l’OTAN.
 
 <margin>
-| c : lettre | l : mot | X : prononciation |
+| c: c : lettre | l: l : mot | X: X : prononciation |
 | A | Alfa | AL-FA |
 | B | Bravo | BRA-VO |
 | C | Charlie | TCHA-RLI |
@@ -36,7 +36,7 @@ Il existe différentes tables d’épellation, par exemple la table allemande, a
 %YPA Attention lors de la traduction : adapter la ligne 37 de la langue (F&I) !
 La table d’épellation ne contient cependant pas de chiffres [index:Buchstabiertafel:Ziffern]. Dans le trafic radio national, les chiffres sont prononcés en allemand, par exemple Hotel Bravo *Trois* Charlie Golf Foxtrot. Dans le trafic radio international, on utilise l’anglais, par exemple Hotel Bravo *Three* Charlie Golf Foxtrot.
 
-La table d’épellation peut bien sûr aussi être utilisée pour épeler d’autres mots, par exemple un nom ou une indication de lieu. La table d’épellation internationale ne contient cependant pas de voyelles allemandes [index:Buchstabiertafel:Umlaute]. Ainsi, le Ä est épelé *Alfa Echo*, le Ö *Oscar Echo* et le Ü *Uniform Echo*.
+La table d’épellation peut bien sûr aussi être utilisée pour épeler d’autres mots, par exemple un nom ou une indication de lieu. La table d’épellation internationale ne contient cependant pas de voyelles allemandes [index:Buchstabiertafel:Umlaute]. Ainsi, le Ä est épelé Alfa Echo, le Ö Oscar Echo et le Ü Uniform Echo.
 
 La table d’épellation internationale doit être apprise par cœur. Au début, cela peut sembler difficile, mais plus on l’utilise, plus cela devient fluide.
 

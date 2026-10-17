@@ -25,7 +25,7 @@
 ---
 USB signifie *Upper Sideband*
 
-(en allemand, il est souvent confondu avec *Unteres Seitenband* - bande latérale inférieure)
+(en allemand, il est souvent confondu avec Unteres Seitenband - bande latérale inférieure)
 
 ---
 [question:NE203]

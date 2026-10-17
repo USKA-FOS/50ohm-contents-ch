@@ -11,7 +11,7 @@
 
 ### Sécurité électrique
 
-Pour les blocs d’alimentation, en particulier ceux avec un boîtier métallique, un branchement conforme aux normes au réseau électrique est essentiel. Le conducteur de protection (vert/jaune) a pour rôle, en cas de défaut, de dériver la tension vers la *terre* et de déclencher ainsi le disjoncteur différentiel afin qu’aucune tension dangereuse ne s’applique sur le boîtier métallique. Pour un câble à 3 conducteurs, les couleurs de repérage des conducteurs sont définies comme suit :
+Pour les blocs d’alimentation, en particulier ceux avec un boîtier métallique, un branchement conforme aux normes au réseau électrique est essentiel. Le conducteur de protection (vert/jaune) a pour rôle, en cas de défaut, de dériver la tension vers la terre et de déclencher ainsi le disjoncteur différentiel afin qu’aucune tension dangereuse ne s’applique sur le boîtier métallique. Pour un câble à 3 conducteurs, les couleurs de repérage des conducteurs sont définies comme suit :
 
 ---
 

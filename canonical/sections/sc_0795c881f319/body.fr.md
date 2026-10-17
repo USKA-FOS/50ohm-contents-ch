@@ -9,7 +9,7 @@ Nous avons déjà abordé la résistance électrique dans le contexte de la loi 
 - ...
 
 <margin>
-| l : Résistance | X : Propriété |
+| l: l : Résistance | X: X : Propriété |
 | Résistances bobinées | Résistances de puissance pour basses fréquences |
 | Résistances à couche métallique | Faibles tolérances de fabrication et faible dépendance en température, résistances de précision |
 | Résistances à couche d'oxyde métallique | Pour les fréquences supérieures à $\qty{30}{\mega\hertz}$ |
@@ -23,7 +23,7 @@ Les *résistances bobinées* comptent parmi les plus anciennes formes de résist
 %EC101 Résistance de puissance, basses fréquences → Résistance bobinée
 [question:EC101]
 
-Dans les *résistances à couche de carbone*, une fine couche de carbone est vaporisée sur un support. Les résistances à couche de carbone sont économiques, mais présentent une tolérance de fabrication relativement importante.
+Dans les résistances à couche de carbone, une fine couche de carbone est vaporisée sur un support. Les résistances à couche de carbone sont économiques, mais présentent une tolérance de fabrication relativement importante.
 
 Les *résistances à couche d'oxyde métallique* utilisent un matériau résistif sous forme de fine couche déposée sur un support. Ce type de résistance est largement exempt d'inductance parasite et présente une bonne stabilité thermique, ce qui le rend particulièrement adapté aux applications à fréquences élevées, au-dessus de $\qty{30}{\mega\hertz}$.
 

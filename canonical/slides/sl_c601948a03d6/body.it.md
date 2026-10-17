@@ -16,7 +16,7 @@
 [picture:562:a_umwegeleitung:Linea di deviazione]
 </left>
 <right>
-Per rispondere alle due domande successive sulla linea di deviazione, è sufficiente ricordare che l'antenna rappresentata è un dipolo ripiegato e che una linea di deviazione $\lambda/2$ genera uno sfasamento di 180°.
+Per rispondere alle due domande successive sulla linea di deviazione, è sufficiente *ricordare* che l'antenna rappresentata è un dipolo ripiegato e che una linea di deviazione $\lambda/2$ genera uno sfasamento di 180°.
 </right>
 
 ---

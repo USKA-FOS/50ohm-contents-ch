@@ -1,5 +1,5 @@
 <left>
-[image:807:spiegelfrequenzen_mischen1:Processus de mélange avec fréquence de réception $f_\text{e}$, fréquence de l’oscillateur $f_\text{o}$ et la fréquence intermédiaire $f_\text{ZF}$]
+[picture:807:spiegelfrequenzen_mischen1:Processus de mélange avec fréquence de réception $f_\text{e}$, fréquence de l’oscillateur $f_\text{o}$ et la fréquence intermédiaire $f_\text{ZF}$]
 
 $f_\text{ZF} = \left|f_\text{e} \pm f_\text{o}\right|$
 </left>
@@ -9,7 +9,7 @@ Dans le processus de mélange vers la $f_\text{ZF}$, deux fréquences de récept
 
 ---
 <left>
-[image:806:spiegelfrequenzen_fe1_fe2:Fréquences de réception conduisant toutes deux à la même $f_\text{ZF}$]
+[picture:806:spiegelfrequenzen_fe1_fe2:Fréquences de réception conduisant toutes deux à la même $f_\text{ZF}$]
 </left>
 <right>
 * Fréquence de réception souhaitée $f_\text{e1}\rightarrow$ fréquence image $f_\text{e2}$
@@ -40,7 +40,7 @@ $ \begin{cases}f_\text{OSZ} + f_\text{ZF} = f_\text{E} + 2 \cdot f_\text{ZF} &\t
 ## Suppression de la fréquence image
 
 <left>
-[image:808:spiegelfrequenzen_mischen2:Filtre passe-bande supplémentaire pour la suppression de la fréquence image]
+[picture:808:spiegelfrequenzen_mischen2:Filtre passe-bande supplémentaire pour la suppression de la fréquence image]
 </left>
 <right>
 * Sans suppression, la fréquence image peut entraîner des perturbations de réception

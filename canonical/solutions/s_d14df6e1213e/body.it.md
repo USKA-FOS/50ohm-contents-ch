@@ -1,4 +1,4 @@
-Poiché l'[oscillatore](#Oszillator) oscilla al di sopra della [frequenza di ricezione](#Empfangsfrequenz), anche la [frequenza immagine](#Spiegelfrequenz) si trova al di sopra della frequenza di ricezione. La distanza tra la frequenza di ricezione e la frequenza immagine è sempre pari al doppio della [frequenza intermedia](#Zwischenfrequenz):
+Poiché l'oscillatore oscilla al di sopra della frequenza di ricezione, anche la frequenza immagine si trova al di sopra della frequenza di ricezione. La distanza tra la frequenza di ricezione e la frequenza immagine è sempre pari al doppio della frequenza intermedia:
 
 
 $f_\mathrm{S} = f_\mathrm{E} + 2 \cdot f_\mathrm{IF}$

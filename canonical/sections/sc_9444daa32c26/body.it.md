@@ -9,5 +9,5 @@ Esempi di stazioni extraterritoriali sono la Stazione Spaziale Internazionale (I
 </margin>
 
 <margin>
-[photo:125:n_exterritoriale_stazioni_polarstern:La stazione radioamatoriale a bordo della nave da ricerca Polarstern utilizza il nominativo DP0POL.]
+[photo:125:n_exterritoriale_stationen_polarstern:La stazione radioamatoriale a bordo della nave da ricerca Polarstern utilizza il nominativo DP0POL.]
 </margin>

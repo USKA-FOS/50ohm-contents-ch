@@ -74,7 +74,7 @@ L’ajout de 8 bits supplémentaires multiplie le nombre de niveaux possibles pa
 * Les échantillons doivent être prélevés à des instants précis
 * En pratique, les instants d’échantillonnage réels peuvent légèrement varier
 * Ces écarts temporels sont appelés *gigue*
-* La gigue peut introduire un *bruit* supplémentaire dans le signal numérisé
+* La gigue peut introduire un bruit supplémentaire dans le signal numérisé
 
 <note>
 Non seulement la précision de l’amplitude mesurée est importante, mais aussi la précision de l’instant d’échantillonnage.

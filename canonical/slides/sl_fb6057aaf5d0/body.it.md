@@ -1,8 +1,8 @@
 ## Trasformata di Fourier e scomposizione dei segnali
 
 * I segnali possono essere rappresentati sia nel dominio del tempo che in quello della frequenza
-  * Nel dominio del tempo: asse X → tempo, asse Y → tensione o potenza
-  * Nel dominio della frequenza: asse X → frequenza, asse Y → ampiezza o potenza
+* Nel dominio del tempo: asse X → tempo, asse Y → tensione o potenza
+* Nel dominio della frequenza: asse X → frequenza, asse Y → ampiezza o potenza
 
 ---
 

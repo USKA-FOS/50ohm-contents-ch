@@ -6,7 +6,7 @@ Abbiamo imparato: Le oscillazioni elettriche consistono in una tensione alternat
 
 ---
 
-Questa forma di base è chiamata *oscillazione sinusoidale* [index:Schwingung:Sinus]. Può essere facilmente riconosciuta dal suo andamento ondulato. Oltre alle tensioni alternate sinusoidali, esistono numerose altre oscillazioni. Le più note sono le seguenti:
+Questa forma di base è chiamata oscillazione sinusoidale [index:Schwingung:Sinus]. Può essere facilmente riconosciuta dal suo andamento ondulato. Oltre alle tensioni alternate sinusoidali, esistono numerose altre oscillazioni. Le più note sono le seguenti:
 * Oscillazione rettangolare (Figura [ref:sinusschwingung_rechteck]) [index:Schwingung:Rechteck]
 * Oscillazione triangolare (Figura [ref:sinusschwingung_dreieck]) [index:Schwingung:Dreieck]
 * Oscillazione a dente di sega (Figura [ref:sinusschwingung_saegezahn]) [index:Schwingung:Sägezahn]

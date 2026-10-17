@@ -8,7 +8,7 @@ On couvre ensuite l’âtre avec une couverture, et la fumée s’accumule en de
 
 ---
 
-En radio, on procède de manière similaire. Au lieu de signaux de fumée, on utilise des signaux Morse. Dans un appareil radio, un oscillateur génère une oscillation électrique, par exemple à une fréquence de $\qty{144,1}{\mega\hertz}$. À l’aide d’une touche comme celle illustrée dans la figure [ref:n_cwtast], on peut faire en sorte que cette oscillation électrique soit brièvement dirigée vers la connexion de l’antenne de l’appareil radio, puis rayonnée sous forme d’onde radio par l’antenne. On parle alors d’*émettre* des signaux Morse. Au niveau du récepteur, cette onde radio est rendue audible : un son retentit au rythme des appuis sur la touche. Ce procédé de transmission est également appelé *Continuous Wave* (CW).
+En radio, on procède de manière similaire. Au lieu de signaux de fumée, on utilise des signaux Morse. Dans un appareil radio, un oscillateur génère une oscillation électrique, par exemple à une fréquence de $\qty{144,1}{\mega\hertz}$. À l’aide d’une touche comme celle illustrée dans la figure [ref:n_cwtast], on peut faire en sorte que cette oscillation électrique soit brièvement dirigée vers la connexion de l’antenne de l’appareil radio, puis rayonnée sous forme d’onde radio par l’antenne. On parle alors d’*émettre* des signaux Morse. Au niveau du récepteur, cette onde radio est rendue audible : un son retentit au rythme des appuis sur la touche. Ce procédé de transmission est également appelé Continuous Wave (CW).
 
 <margin>
 [photo:109:n_cwtast:Touches Morse]
@@ -24,12 +24,12 @@ Par exemple, la séquence *long, court, long, court* correspond à la lettre "C"
 
 ---
 
-Ces procédés de transmission sont appelés *télégraphie*. Ces méthodes ont un point commun : il faut créer un *moyen auxiliaire*, par exemple la fumée ou une oscillation électrique, puis le modifier de manière ciblée pour transmettre un message.
+Ces procédés de transmission sont appelés *télégraphie*. Ces méthodes ont un point commun : il faut créer un *moyen auxiliaire*, par exemple la fumée ou une oscillation électrique, puis le *modifier* de manière ciblée pour transmettre un message.
 
 En termes techniques, ce moyen auxiliaire, c’est-à-dire la fumée ou l’oscillation électrique, est appelé *porteuse*, car il transporte l’information de l’émetteur au récepteur. Pour les porteuses en radio, qui utilisent des fréquences assez élevées, on parle également de porteuse haute fréquence, ou porteuse HF en abrégé. Le procédé permettant de modifier la porteuse, c’est-à-dire l’action de soulever la couverture ou d’allumer et d’éteindre rythmiquement l’oscillation électrique, s’appelle la *modulation*.
 
 <wordorigin>
-Dans le terme *télégraphie*, on retrouve deux mots grecs anciens : τηλε (têle) signifie "loin" et γράφειν (graphein) signifie "écrire" ou "dessiner". *Modulation* vient du latin : *Modulatio* y désigne le rythme ou la mesure.
+Dans le terme *télégraphie*, on retrouve deux mots grecs anciens : τηλε (têle) signifie "loin" et γράφειν (graphein) signifie "écrire" ou "dessiner". *Modulation* vient du latin : Modulatio y désigne le rythme ou la mesure.
 </wordorigin>
 
 [question:NE201]

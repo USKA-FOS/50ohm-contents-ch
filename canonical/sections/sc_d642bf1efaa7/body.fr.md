@@ -1,16 +1,16 @@
-La forme de base de l’**antenne** est l’*antenne dipôle* (figure [ref:n_dipol]). Les radioamateurs la désignent souvent simplement par le terme *dipôle*. Un dipôle se compose de deux éléments, généralement des fils ou des barres métalliques. L’un des conducteurs du câble d’antenne est connecté à l’un des éléments, l’autre conducteur à l’autre élément.
+La forme de base de l’antenne est l’*antenne dipôle* (figure [ref:n_dipol]). Les radioamateurs la désignent souvent simplement par le terme *dipôle*. Un dipôle se compose de deux éléments, généralement des fils ou des barres métalliques. L’un des conducteurs du câble d’antenne est connecté à l’un des éléments, l’autre conducteur à l’autre élément.
 
 <margin>
 [picture:589:n_dipol:Représentation d’une antenne dipôle]
 </margin>
 
 <wordorigin>
-Le terme *dipôle* vient du grec et signifie littéralement « deux pôles ».
+Le terme dipôle vient du grec et signifie littéralement « deux pôles ».
 </wordorigin>
 
 ---
 
-En pratique, on utilise fréquemment le *dipôle demi-onde*, dont la longueur correspond à $\lambda / 2$, soit la moitié de la longueur d’onde. Exemple : dans la *bande* de $\qty{10}{\meter}$, la longueur d’onde est d’environ $\qty{10}{\meter}$. La demi-longueur d’onde est donc de $\qty{5}{\meter}$. Un dipôle demi-onde pour la bande de $\qty{10}{\meter}$ doit donc mesurer $\qty{5}{\meter}$ de long. Chaque brin doit donc avoir une longueur d’environ $\qty{2,5}{\meter}$. On dit alors que le dipôle demi-onde est en *résonance*.
+En pratique, on utilise fréquemment le dipôle demi-onde, dont la longueur correspond à $\lambda / 2$, soit la moitié de la longueur d’onde. Exemple : dans la bande de $\qty{10}{\meter}$, la longueur d’onde est d’environ $\qty{10}{\meter}$. La demi-longueur d’onde est donc de $\qty{5}{\meter}$. Un dipôle demi-onde pour la bande de $\qty{10}{\meter}$ doit donc mesurer $\qty{5}{\meter}$ de long. Chaque brin doit donc avoir une longueur d’environ $\qty{2,5}{\meter}$. On dit alors que le dipôle demi-onde est en *résonance*.
 
 <indepth>
 Il existe d’autres *variantes de l’antenne dipôle*, par exemple le dipôle onde entière, le dipôle raccourci ou le dipôle alimenté de manière asymétrique, où le câble d’antenne n’est pas connecté au centre et où les deux brins ont des longueurs différentes.

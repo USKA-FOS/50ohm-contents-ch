@@ -1,4 +1,4 @@
-Un attenuatore con un'*attenuazione* di $\qty{20}{\decibel}$ riduce la potenza di un fattore $\num{100}$.
+Un attenuatore con un'attenuazione di $\qty{20}{\decibel}$ riduce la potenza di un fattore $\num{100}$.
 
 Con una potenza immessa di $\qty{100}{\watt}$, quindi, solo
 

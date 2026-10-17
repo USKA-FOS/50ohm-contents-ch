@@ -3,7 +3,7 @@ Esistono anche resistenze dipendenti dalla temperatura, chiamate *conduttori fre
 - I *conduttori freddi* hanno una bassa resistenza a basse temperature e quindi conducono bene la corrente. All’aumentare della temperatura, la loro conduttività diminuisce e la resistenza aumenta.
 - I *conduttori caldi* si comportano esattamente al contrario: conducono meglio la corrente ad alte temperature, mentre a basse temperature la loro resistenza è elevata.
 
-I conduttori caldi vengono anche chiamati *NTC* (dall’inglese *Negative Temperature Coefficient*) e i conduttori freddi *PTC* (dall’inglese *Positive Temperature Coefficient*).
+I conduttori caldi vengono anche chiamati *NTC* (dall’inglese Negative Temperature Coefficient) e i conduttori freddi *PTC* (dall’inglese Positive Temperature Coefficient).
 
 Questi tipi di resistenze sono rappresentati da simboli di circuito specifici, come mostrato nella figura [ref:e_schaltbildNtcPtc]. È importante notare la presenza della lettera greca minuscola $\vartheta$ (letta „Theta“), che indica la temperatura. Inoltre, sono presenti due frecce che descrivono la dipendenza della resistenza dalla temperatura.
 

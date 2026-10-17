@@ -2,7 +2,7 @@ Pour éviter qu’un titre comme *« Un radioamateur victime d’un choc électr
 
 Nous aborderons d’abord les dangers généraux.
 
-Le principal danger réside dans le contact avec une tension électrique. En électrotechnique, on parle de tension dangereuse lorsque celle-ci dépasse $\qty{50}{\volt}$ en tension alternative et $\qty{120}{\volt}$ en tension continue. Ces seuils ont été fixés pour éviter toute atteinte potentiellement mortelle au corps humain. La tension alternative est aussi appelée « AC » (de l’anglais *« alternating current »*) et la tension continue « DC » (de l’anglais *« direct current »*).
+Le principal danger réside dans le contact avec une tension électrique. En électrotechnique, on parle de tension dangereuse lorsque celle-ci dépasse $\qty{50}{\volt}$ en tension alternative et $\qty{120}{\volt}$ en tension continue. Ces seuils ont été fixés pour éviter toute atteinte potentiellement mortelle au corps humain. La tension alternative est aussi appelée « AC » (de l’anglais « alternating current ») et la tension continue « DC » (de l’anglais « direct current »).
 
 
 <indepth>
@@ -22,7 +22,7 @@ Lorsqu’un courant traverse le corps, les tissus peuvent être endommagés. L�
 
 Les accidents électriques peuvent avoir divers effets sur le corps :
 * *Troubles du rythme cardiaque*, fibrillation ventriculaire ou arrêt cardiaque, notamment si le courant traverse la poitrine
-* *Brûlures*, généralement aux points d’entrée et de sortie du courant électrique (dites *marques de courant*)
+* *Brûlures*, généralement aux points d’entrée et de sortie du courant électrique (dites marques de courant)
 * *Destruction des tissus*, due à la chaleur générée par la résistance électrique des tissus, qui brûle et détruit les cellules de l’intérieur
 * *Crispation des muscles*
 * *Accidents secondaires* comme une chute, provoquée par la frayeur ou une crispation musculaire
@@ -51,7 +51,7 @@ En cas de court-circuit, un *arc électrique* peut se produire, c’est-à-dire 
 
 ---
 
-Les mesures de premiers secours sont déterminantes dans les premières minutes pour limiter la gravité des conséquences de l’accident. Cependant, il ne faut *jamais* oublier la *protection personnelle*. Commencez toujours par couper ou interrompre la source de courant.
+Les mesures de premiers secours sont déterminantes dans les premières minutes pour limiter la gravité des conséquences de l’accident. Cependant, il ne faut jamais oublier la *protection personnelle*. Commencez toujours par couper ou interrompre la source de courant.
 
 Après un accident électrique, il est *indispensable* de consulter *rapidement* un médecin, car les troubles du rythme cardiaque, la fibrillation ventriculaire ou les lésions invisibles des tissus et organes ne peuvent être détectés et traités que par des professionnels de santé.
 

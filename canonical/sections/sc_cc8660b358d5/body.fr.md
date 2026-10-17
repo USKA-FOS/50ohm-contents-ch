@@ -10,7 +10,7 @@ Un ROS-mètre (voir figure [ref:swr_meter_kreuzzeiger]) est utilisé avec les é
 
 ---
 
-Comme une ligne d’alimentation présente des pertes et modifie donc le rapport d’ondes stationnaires, l’emplacement où l’on insère le ROS-mètre est important.
+Comme une ligne d’alimentation présente des pertes et modifie donc le rapport d’ondes stationnaires, l’emplacement *où* l’on insère le ROS-mètre est important.
 
 ---
 

@@ -1,7 +1,7 @@
 ## Il sistema RST
 
-La qualità di un **collegamento radio** dipende da:
-* **Potenza di trasmissione**
+La qualità di un collegamento radio dipende da:
+* Potenza di trasmissione
 * Antenna utilizzata
 * Distanza
 * Condizioni di propagazione attuali
@@ -23,14 +23,14 @@ Nel rapporto, la stazione ricevente descrive la qualità del collegamento
 
 | l: Valore | l: Campo | l: Significato | l: Inglese |
 | R | 1 - 5 | Leggibilità | Readability |
-| S | 1 - 9 | **Intensità del segnale** | Signal Strength |
+| S | 1 - 9 | Intensità del segnale | Signal Strength |
 | T | 1 - 9 | Qualità del tono | Tone |
 [table:n_rst:I componenti del rapporto RST]
 
 <note>
 * Tutti gli elementi verranno spiegati in dettaglio nelle prossime slide
 * R: Valutazione soggettiva
-* S: Lettura dall'**S-metro**
+* S: Lettura dall'S-metro
 * T: Solo per telegrafia Morse e trasmissioni digitali
 </note>
 
@@ -53,7 +53,7 @@ Valutazione soggettiva della leggibilità (comprensibilità)
 
 #### Intensità del segnale
 
-Da leggere sull'**apparecchio radio**
+Da leggere sull'apparecchio radio
 
 
 [photo:123:n_rst_s-meter:Display di un transceiver IC9700, con evidenziazione dell'**S-metro** che indica il livello di ricezione attuale]
@@ -71,16 +71,16 @@ Da leggere sull'**apparecchio radio**
 
 * Viene utilizzato solo nella telegrafia Morse e nei metodi di trasmissione digitali
 * Valutazione soggettiva del tono
-* Nel **radiotelefonia** viene omesso
+* Nel radiotelefonia viene omesso
 
 --- style="font-size: 0.8em;"
 
 ### Esempi di rapporti RST
 
-Nel **radiotelefonia**
+Nel radiotelefonia
 
 
-| l: Comprensibilità | l: **S-metro** | c: $\rightarrow$ | l: Rapporto RST |
+| l: Comprensibilità | l: S-metro | c: $\rightarrow$ | l: Rapporto RST |
 | Perfetta (=5) | +20 dB | $\rightarrow$ | 59+20dB |
 | Perfetta (=5) | 9 | $\rightarrow$ | 59 |
 | Senza difficoltà (=4) | 5 | $\rightarrow$ | 45 |
@@ -99,7 +99,7 @@ Nel **radiotelefonia**
 [question:NF301]
 ---
 
-Nelle seguenti domande d'esame è importante saper leggere correttamente l'**S-metro**. In tutte le domande d'esame si assume un segnale perfetto in **telefonia** (**radiotelefonia**). Il valore R è quindi sempre 5 e il valore T è omesso.
+Nelle seguenti domande d'esame è importante saper leggere correttamente l'S-metro. In tutte le domande d'esame si assume un segnale perfetto in telefonia (radiotelefonia). Il valore R è quindi sempre 5 e il valore T è omesso.
 
 
 ---

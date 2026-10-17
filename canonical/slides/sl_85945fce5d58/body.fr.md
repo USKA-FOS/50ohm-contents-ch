@@ -1,9 +1,9 @@
 ## Indicatifs personnels
 
-* Tout **radioamateur** titulaire d’une licence pour le **service d’amateur** en Allemagne
+* Tout radioamateur titulaire d’une licence pour le service d’amateur en Allemagne
 * L’indicatif est attribué par l’Agence fédérale des réseaux (BNetzA)
 * Unique à l’échelle mondiale
-* Ne peut être utilisé que par le **radioamateur** auquel il est attribué
+* Ne peut être utilisé que par le radioamateur auquel il est attribué
 
 ---
 [question:VC116]
@@ -30,9 +30,9 @@ Trois parties :
 ## Préfixes
 
 * Spécifique à chaque pays
-* Permet de localiser les stations de **radioamateur**
+* Permet de localiser les stations de radioamateur
 * Définis par l’Union internationale des télécommunications (UIT)
-* Consignés dans le **règlement des radiocommunications** (RR)
+* Consignés dans le règlement des radiocommunications (RR)
 * Les États membres doivent les intégrer dans leur droit national
 
 ---
@@ -71,7 +71,7 @@ Exemples :
 
 ## Autres types d’indicatifs
 
-* Stations de **radioamateur** télécommandées ou fonctionnant de manière automatique
+* Stations de radioamateur télécommandées ou fonctionnant de manière automatique
 * Stations de club
 
 ---

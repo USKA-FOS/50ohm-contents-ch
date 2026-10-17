@@ -26,7 +26,7 @@ Nouvelle liste HB incluant la désignation anglaise
 </margin>
 
 <webmargin>
-| l: | c: | l: | X: | X: |
+| X:  | l:  | c:  | X:  | X:  |
 | Désignation | Abrév. | Bande de fréquences (limite inférieure exclue ; limite supérieure incluse) | Subdivision métrique | Bandes radioamateurs |
 | Low Frequency  | LF | $\qty{30}{\kilo\hertz}$ - $\qty{300}{\kilo\hertz}$ | Ondes kilométriques (Ondes longues) | 2200m |
 | Medium Frequency | MF | $\qty{300}{\kilo\hertz}$ - $\qty{3000}{\kilo\hertz}$ | Ondes hectométriques (Ondes moyennes/OM) | 630m, 160m |
@@ -41,7 +41,7 @@ Nouvelle liste HB incluant la désignation anglaise
 
 Tentative d'une liste mieux évolutive selon la nouvelle liste HB. C'est pourquoi pas en marge
 
-| l: | c: | l: | X: | X: |
+| X:  | l:  | c:  | X:  | X:  |
 | Désignation (angl.) | Abrév. | Bande de fréquences (limite inférieure exclue ; limite supérieure incluse) | Subdivision métrique | Bandes radioamateurs |
 | Low Frequency  | LF | $\qty{30}{\kilo\hertz}$ - $\qty{300}{\kilo\hertz}$ | Ondes kilométriques (Ondes longues) | 2200m |
 | Medium Frequency | MF | $\qty{300}{\kilo\hertz}$ - $\qty{3000}{\kilo\hertz}$ | Ondes hectométriques (Ondes moyennes/OM) | 630m, 160m |

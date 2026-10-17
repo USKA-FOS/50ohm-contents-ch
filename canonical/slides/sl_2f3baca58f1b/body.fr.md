@@ -1,5 +1,5 @@
 <left>
-[image:674:canal:Canal]
+[picture:674:kanal:Canal]
 </left>
 <right>
 * L’illustration montre un émetteur et un récepteur reliés par un canal.
@@ -16,7 +16,7 @@ Le codage de canal ajoute de la redondance à l’information à transmettre, pa
 [question:AE409]
 
 ---
-[image:676:codeur_canal:Codeur de canal]
+[picture:676:kanalcodierer:Codeur de canal]
 
 On distingue deux types de codage de canal :
 * *Détection d’erreurs* : on peut détecter qu’une erreur s’est produite lors de la transmission, puis par exemple demander une nouvelle transmission.

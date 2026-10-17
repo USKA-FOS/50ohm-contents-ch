@@ -1,4 +1,4 @@
-Purtroppo, l’<i>Amateurfunk</i> non può funzionare senza contributi finanziari. Secondo il TKG e l’EMVG, i radioamatori devono pagare contributi annuali, dettagliati nella Verordnung über die Frequenzschutzbeiträge (FSBeitrV). La FSBeitrV limita il pagamento ai radioamatori con autorizzazione. L’avviso di pagamento viene inviato tramite avviso di tassa dall’Agenzia federale delle reti (Bundesnetzagentur).
+Purtroppo, l’Amateurfunk non può funzionare senza contributi finanziari. Secondo il TKG e l’EMVG, i radioamatori devono pagare contributi annuali, dettagliati nella Verordnung über die Frequenzschutzbeiträge (FSBeitrV). La FSBeitrV limita il pagamento ai radioamatori con autorizzazione. L’avviso di pagamento viene inviato tramite avviso di tassa dall’Agenzia federale delle reti (Bundesnetzagentur).
 
 [question:VE701]
 

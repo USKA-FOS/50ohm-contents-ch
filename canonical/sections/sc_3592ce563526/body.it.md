@@ -7,7 +7,7 @@ Ad esempio, con un trasmettitore-ricevitore adatto e un transceiver per onde cor
 
 ---
 
-Consideriamo innanzitutto lo [schema a blocchi](#) di un convertitore nell’immagine [ref:e_konverter]. Un convertitore di questo tipo potrebbe essere utilizzato, ad esempio, per convertire un segnale da un apparecchio radio VHF per il satellite radioamatoriale QO-100, che richiede una frequenza di ingresso nella banda $\qty{2,4}{\giga\hertz}$. In questo caso, un trasmettitore-ricevitore potrebbe non essere necessario, poiché la ricezione avviene tramite una chiavetta SDR e un LNB.
+Consideriamo innanzitutto lo schema a blocchi di un convertitore nell’immagine [ref:e_konverter]. Un convertitore di questo tipo potrebbe essere utilizzato, ad esempio, per convertire un segnale da un apparecchio radio VHF per il satellite radioamatoriale QO-100, che richiede una frequenza di ingresso nella banda $\qty{2,4}{\giga\hertz}$. In questo caso, un trasmettitore-ricevitore potrebbe non essere necessario, poiché la ricezione avviene tramite una chiavetta SDR e un LNB.
 
 Dallo schema a blocchi si evince che un intervallo di frequenza di ingresso definito viene convertito in un altro intervallo di frequenza di uscita tramite almeno un mixer. Non è prevista alcuna commutazione tra trasmissione e ricezione. Un convertitore può quindi convertire un segnale solo in una direzione, sia nel percorso di ricezione (RX) che in quello di trasmissione (TX). Nei convertitori per il funzionamento in trasmissione è spesso presente un controllo PTT che, in caso di trasmissione, attiva gli stadi amplificatori del convertitore.
 

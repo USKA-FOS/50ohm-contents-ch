@@ -10,7 +10,7 @@
 * Influenza sul volume di ricezione dopo la demodulazione
 * Possibilità di adattare il comportamento di risposta (tempo di attivazione, tempo di disattivazione)
 <note>
-* Non confondere con il controllo automatico del livello (*ALC*, Automatic Level Control) nel trasmettitore
+* Non confondere con il controllo automatico del livello (ALC, Automatic Level Control) nel trasmettitore
 </note>
 
 ---

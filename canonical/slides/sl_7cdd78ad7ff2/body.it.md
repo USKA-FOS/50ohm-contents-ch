@@ -3,7 +3,7 @@
 * Gli alimentatori, le ciabatte e i cavi di alimentazione devono essere integri
 * I cavi e gli alimentatori devono essere adatti alla corrente prevista
 * Le riparazioni su apparecchi sotto tensione devono essere eseguite solo da personale qualificato
-* Prima di qualsiasi intervento, spegnere l'apparecchio e scollegarlo dall'*alimentazione elettrica*
+* Prima di qualsiasi intervento, spegnere l'apparecchio e scollegarlo dall'alimentazione elettrica
 
 ---
 

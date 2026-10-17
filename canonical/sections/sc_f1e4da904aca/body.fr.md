@@ -1,6 +1,6 @@
 ---
 
-Un *journal de trafic* permet de documenter ses activités radio. On peut tenir ce journal soit électroniquement, soit à la main. Comme un journal de bord à bord d'un navire ou d'un avion, il permet de conserver toutes les informations importantes concernant les liaisons radio effectuées. Plus rarement, on parle aussi de *journal de station*.
+Un *journal de trafic* permet de documenter ses activités radio. On peut tenir ce journal soit électroniquement, soit à la main. Comme un journal de bord à bord d'un navire ou d'un avion, il permet de conserver toutes les informations importantes concernant les liaisons radio effectuées. Plus rarement, on parle aussi de journal de station.
 
 <indepth>
 Les données suivantes sont généralement enregistrées dans un journal de trafic pour chaque liaison radio :
@@ -44,7 +44,7 @@ Si l'on passe, par exemple, d'un journal de trafic manuscrit sur papier à un jo
 
 ---
 
-Les heures doivent toujours être indiquées dans le journal de trafic en temps universel coordonné, souvent désigné par *UTC* (de *Universal Time Coordinated*). Cela permet de ne pas avoir à convertir l'heure lors de liaisons radio traversant différentes zones horaires. Par exemple, s'il est 8h00 à Berlin, il n'est que 2h00 à New York. Pour les deux, il est cependant 7h00 UTC. L'UTC est la même heure partout dans le monde.
+Les heures doivent toujours être indiquées dans le journal de trafic en temps universel coordonné, souvent désigné par *UTC* (de Universal Time Coordinated). Cela permet de ne pas avoir à convertir l'heure lors de liaisons radio traversant différentes zones horaires. Par exemple, s'il est 8h00 à Berlin, il n'est que 2h00 à New York. Pour les deux, il est cependant 7h00 UTC. L'UTC est la même heure partout dans le monde.
 
 <indepth>
 L'UTC a été introduite en 1972 comme heure universelle et uniformément utilisée dans le monde entier.

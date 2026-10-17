@@ -16,7 +16,7 @@
 
 * Un SWL écoute normalement sur la fréquence de sortie.
 * C’est là que toutes les stations de la ronde radio sont audibles.
-* Le S-mètre affiche principalement l’**intensité du signal** du relais à l’emplacement de l’utilisateur.
+* Le S-mètre affiche principalement l’intensité du signal du relais à l’emplacement de l’utilisateur.
 * Lors d’une communication via relais, seule la lisibilité *R* est évaluée.
 
 <note>

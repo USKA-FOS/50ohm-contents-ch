@@ -1,7 +1,8 @@
 ### Pourquoi l’I/Q ?
 
 * Les symboles peuvent différer par leur amplitude, leur fréquence ou leur phase.
-* Pour représenter l’amplitude et la phase de manière claire, on utilise une représentation appelée *représentation I/Q*.
+* Pour représenter l’amplitude et la phase, une représentation claire est nécessaire.
+* Cette représentation est appelée *représentation I/Q*.
 * Elle montre l’état du signal d’un symbole sous forme de point dans un plan.
 
 --- style="font-size: 0.7em;"
@@ -55,4 +56,4 @@ $Q=A\cdot\cos(\varphi-\qty{90}{\degree})=A\cdot\sin(\varphi)$
 
 * Les diagrammes de constellation permettent de visualiser d’un seul coup d’œil les symboles possibles d’une méthode de transmission numérique.
 * On peut voir si les symboles diffèrent par leur amplitude, leur phase ou les deux.
-* Dans les sections suivantes, nous utiliserons cette représentation pour le *mapping*, la PSK et la QAM.
+* Dans les sections suivantes, nous utiliserons cette représentation pour le mapping, la PSK et la QAM.

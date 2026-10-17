@@ -1,4 +1,4 @@
-In un **collegamento in parallelo** di capacità, i singoli valori di capacità vengono sommati direttamente. Anche la capacità propria della bobina è collegata in parallelo ai condensatori e quindi viene inclusa nel calcolo.
+In un collegamento in parallelo di capacità, i singoli valori di capacità vengono sommati direttamente. Anche la capacità propria della bobina è collegata in parallelo ai condensatori e quindi viene inclusa nel calcolo.
 
 Prima di tutto, tutti i valori vengono convertiti in picofarad:
 

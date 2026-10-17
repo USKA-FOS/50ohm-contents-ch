@@ -10,7 +10,7 @@
 * Influence sur le volume sonore après la démodulation
 * Possibilité d'ajuster le comportement de réponse (temps de montée, temps de descente)
 <note>
-* Ne pas confondre avec la régulation automatique de niveau (*ALC*) dans l'émetteur
+* Ne pas confondre avec la régulation automatique de niveau (ALC) dans l'émetteur
 </note>
 
 ---

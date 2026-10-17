@@ -2,7 +2,7 @@
 
 | l: Abréviation | X: Signification |
 | CQ | Appel général |
-| CW | *Continuous Wave* ; télégraphie Morse |
+| CW | Continuous Wave ; télégraphie Morse |
 | DX | Grande distance ou station lointaine |
 | RX | Récepteur |
 | TX | Émetteur |

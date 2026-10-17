@@ -10,6 +10,6 @@ I ricevitori moderni dispongono di sistemi corrispondenti che rilevano e sopprim
 
 [question:EF213]
 
-I disturbi impulsivi, invece, possono essere eliminati dal segnale ricevuto mediante un *soppressore del rumore impulsivo*, o *Noise Blanker (NB)*.
+I disturbi impulsivi, invece, possono essere eliminati dal segnale ricevuto mediante un soppressore del rumore impulsivo, o *Noise Blanker (NB)*.
 
 [question:EF214]

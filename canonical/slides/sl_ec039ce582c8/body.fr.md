@@ -14,7 +14,7 @@ Demander aux participants d’identifier eux-mêmes les éléments visibles sur 
 * Fréquence réglée
 * Type de modulation sélectionné, par exemple USB
 * S-mètre pour l’intensité du signal
-* [spectre d’amplitude](a_frequenzvervielfacher_schaltung)
+* spectre d’amplitude
 * Diagramme en cascade
 
 <note>
@@ -26,7 +26,7 @@ La signification exacte du S-mètre sera abordée plus tard, en même temps que 
 ### Spectre et diagramme en cascade
 
 <left>
-#### [spectre d’amplitude](a_frequenzvervielfacher_schaltung)
+#### spectre d’amplitude
 
 * horizontal : bande de fréquences
 * vertical : intensité du signal

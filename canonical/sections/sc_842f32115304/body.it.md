@@ -11,12 +11,12 @@ Come suggerisce il nome stesso, il campo elettromagnetico è composto da due com
 Iniziamo però con il campo elettrico statico, cioè non variabile nel tempo. Il campo elettrico viene generalmente indicato con la lettera $E$.
 
 <margin>
-[immagine:881:e_plattenkondensator: Un condensatore a piastre con tensione applicata e campo elettrico omogeneo]
+[picture:881:e_plattenkondensator: Un condensatore a piastre con tensione applicata e campo elettrico omogeneo]
 </margin>
 
 ---
 
-La figura [rif:e_plattenkondensator] mostra schematicamente un *condensatore a piastre* al quale è applicata una tensione $U$. Le piastre sono isolate tra loro e non circola corrente. La tensione provoca l’accumulo di cariche positive sulla piastra sinistra e negative su quella destra. Tra le due piastre si forma un campo elettrico statico $E$. Se supponiamo che l’estensione delle piastre in lunghezza e larghezza sia molto maggiore della distanza tra loro, l’intensità del campo è indipendente dalla posizione: parliamo quindi di un campo *omogeneo*. L’intensità del campo elettrico può essere calcolata semplicemente con la formula:
+La figura [ref:e_plattenkondensator] mostra schematicamente un *condensatore a piastre* al quale è applicata una tensione $U$. Le piastre sono isolate tra loro e non circola corrente. La tensione provoca l’accumulo di cariche positive sulla piastra sinistra e negative su quella destra. Tra le due piastre si forma un campo elettrico statico $E$. Se supponiamo che l’estensione delle piastre in lunghezza e larghezza sia molto maggiore della distanza tra loro, l’intensità del campo è indipendente dalla posizione: parliamo quindi di un campo *omogeneo*. L’intensità del campo elettrico può essere calcolata semplicemente con la formula:
 
 $E = \frac{U}{d}$
 
@@ -26,8 +26,8 @@ dove $d$ è la distanza tra le piastre.
 Dall’equazione $E = \frac{U}{d}$ deriva anche l’unità di misura dell’intensità del campo elettrico: $\unit{\volt\per\meter}$
 </unit>
 
-[domanda:EB101]
-[domanda:EA103]
+[question:EB101]
+[question:EA103]
 
 ---
 
@@ -37,7 +37,7 @@ Per calcolare l’intensità del campo elettrico in un condensatore a piastre, d
 In questi esercizi è fondamentale prestare attenzione all’unità di misura corretta!
 </danger>
 
-[domanda:EB102]
+[question:EB102]
 
 Qui possiamo semplicemente applicare la formula vista in precedenza:
 
@@ -45,7 +45,7 @@ $E = \frac{\qty{9}{\volt}}{\qty{0,6}{\centi\meter}} = \frac{\qty{9}{\volt}}{\qty
 
 Un *condensatore avvolto* può essere immaginato come un condensatore a piastre con piastre molto larghe, arrotolate tra loro. Tra le piastre si trova però uno strato isolante, il *materiale dielettrico*. Esso aumenta la *capacità* del condensatore, cioè la sua capacità di immagazzinare cariche. Tuttavia, il materiale dielettrico non influisce sul calcolo dell’intensità del campo al suo interno.
 
-[domanda:EB103]
+[question:EB103]
 
 Anche per questo esercizio utilizziamo la nostra formula:
 
@@ -57,7 +57,7 @@ Se l’intensità di rottura è $E_d$ e lo spessore del materiale dielettrico è
 
 $U_d =E_d \cdot d$
 
-[domanda:EB104]
+[question:EB104]
 
 Qui calcoliamo con la formula vista in precedenza (attenzione alle unità di misura!):
 
@@ -69,8 +69,8 @@ Un’altra abilità importante è saper distinguere nelle schematizzazioni le li
 
 Con una semplice regola pratica è piuttosto semplice: le linee del campo elettrico hanno un inizio e una fine, quelle del campo magnetico no! La direzione del campo elettrico va sempre dal potenziale più positivo a quello più negativo.
 
-[domanda:EB105]
+[question:EB105]
 
 <margin>
-[immagine:884:e_feldlinien_vertikalantenne: Linee di campo su un’antenna verticale]
+[picture:884:e_feldlinien_vertikalantenne: Linee di campo su un’antenna verticale]
 </margin>

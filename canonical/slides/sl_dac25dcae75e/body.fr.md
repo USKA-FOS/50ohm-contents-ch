@@ -1,7 +1,7 @@
 ## Thermistance à coefficient de température négatif (CTN)
 <left>
 * Une thermistance à coefficient de température négatif est une résistance dépendant de la température
-* En anglais : *Negative Temperature Coefficient Thermistor* (*NTC*)
+* En anglais : Negative Temperature Coefficient Thermistor (*NTC*)
 * Conduit mieux le courant électrique à *hautes températures*
 </left>
 <right>
@@ -21,7 +21,7 @@
 
 <left>
 * Une thermistance à coefficient de température positif est une résistance dépendant de la température
-* En anglais : *Positive Temperature Coefficient Thermistor* (*PTC*)
+* En anglais : Positive Temperature Coefficient Thermistor (*PTC*)
 * Conduit mieux le courant électrique à *basses températures*
 </left>
 <right>

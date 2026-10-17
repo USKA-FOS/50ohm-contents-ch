@@ -1,4 +1,4 @@
-Comme aucun circuit ne fonctionne de manière idéale, une tension continue parfaitement constante ne s'applique à la résistance de charge $R_L$ d'un redresseur, mais une tension pulsatoire. Elle résulte des demi-ondes sinusoïdales positives successives et de l'effet de lissage des condensateurs. Cette composante de tension alternative résiduelle est appelée **ondulation résiduelle**.
+Comme aucun circuit ne fonctionne de manière idéale, une tension continue parfaitement constante ne s'applique à la résistance de charge $R_L$ d'un redresseur, mais une tension pulsatoire. Elle résulte des demi-ondes sinusoïdales positives successives et de l'effet de lissage des condensateurs. Cette composante de tension alternative résiduelle est appelée ondulation résiduelle.
 
 Sa fréquence est de $f=\qty{100}{\hertz}$, car la demi-onde négative est également réfléchie dans la zone positive, doublant ainsi la fréquence du réseau de $\qty{50}{\hertz}$. Si l'on injectait cette tension continue pulsatoire dans un amplificateur avec haut-parleur via un diviseur de tension, on pourrait entendre un bourdonnement à $\qty{100}{\hertz}$.
 

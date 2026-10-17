@@ -1,4 +1,4 @@
-La *régulation automatique de niveau (ALC)* contrôle l'excitation de l'étage final de l'émetteur et réduit l'amplitude du signal dans la branche d'émission en cas de surmodulation. Il ne faut pas confondre l'ALC avec l'AGC (*Automatic Gain Control*), qui se trouve dans la branche de réception (voir figure [ref:e_alc]).
+La *régulation automatique de niveau (ALC)* contrôle l'excitation de l'étage final de l'émetteur et réduit l'amplitude du signal dans la branche d'émission en cas de surmodulation. Il ne faut pas confondre l'ALC avec l'AGC (Automatic Gain Control), qui se trouve dans la branche de réception (voir figure [ref:e_alc]).
 
 <margin>
 [picture:914:e_alc:Régulation automatique de niveau dans un émetteur]

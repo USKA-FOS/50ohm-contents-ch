@@ -1,5 +1,5 @@
 <left>
-[image:648:n_relaisfunkstellen_aufbau:Représentation schématique d’une station relais avec utilisateurs]
+[picture:648:n_relaisfunkstellen_aufbau:Représentation schématique d’une station relais avec utilisateurs]
 </left>
 <right>
 * Permet une portée plus grande qu’un contact direct
@@ -13,10 +13,14 @@
 * Les satellites seront abordés plus tard
 </note>
 
+
+
 ---
 
 ## Définition d’une station relais
 station radioamateur télécommandée (y compris les satellites), qui émet à distance les émissions radioamateurs reçues, des parties de celles-ci ou d’autres signaux injectés ou mémorisés, et qui sert ainsi à augmenter la portée des stations radioamateurs
+
+
 
 
 ---
@@ -34,9 +38,13 @@ station radioamateur télécommandée (y compris les satellites), qui émet à d
 </right>
 </fragment>
 
+
+
 ---
 
 [question:VD118]
+
+
 ---
 
 ## Fonctionnement
@@ -59,26 +67,38 @@ L’écart entre ces fréquences est appelé *décalage* ou *écart*
 </fragment>
 </right>
 
+
 ---
+
 Exemple d’un relais $\qty{70}{\centi\meter}$ :
 * Fréquence d’entrée : $\qty{431,275}{\mega\hertz}$
 * Décalage : $\qty{+7,600}{\mega\hertz}$
 * Fréquence de sortie : $\qty{438,875}{\mega\hertz}$
 
+
+
 ---
 
 [question:BE401]
+
+
 ---
 
 [question:BE402]
+
+
 ---
 
 [question:BE403]
+
+
 ---
 
 ## Fonctionnement en crossband
 * Émet et reçoit simultanément sur deux bandes différentes, par exemple $\qty{2}{\meter}$ et $\qty{70}{\centi\meter}$
 * Conversion du mode d’émission possible, par exemple BLU vers FM
+
+
 
 ---
 
@@ -94,9 +114,13 @@ Exemple d’un relais $\qty{70}{\centi\meter}$ :
 * Abordé plus en détail ultérieurement
 </note>
 
+
+
 ---
 
 [question:NF118]
+
+
 ---
 
 ## Paramètres particuliers
@@ -108,12 +132,18 @@ Exemple d’un relais $\qty{70}{\centi\meter}$ :
 Un exemple de réglage supplémentaire est un sous-ton avec CTCSS
 </note>
 
+
+
 ---
 
 [question:NE309]
+
+
 ---
 
 [question:NE308]
+
+
 ---
 
 ## Largeur de canal
@@ -122,9 +152,13 @@ Un exemple de réglage supplémentaire est un sous-ton avec CTCSS
 * FM étroite : $\qty{12,5}{\kilo\hertz}$
 * Les répéteurs privilégient la FM étroite, car sinon les signaux sont déformés et les fréquences voisines sont perturbées
 
+
+
 ---
 
 [question:BE407]
+
+
 ---
 
 ## Exploitation sans interférences
@@ -132,9 +166,13 @@ Un exemple de réglage supplémentaire est un sous-ton avec CTCSS
 * L’exploitant peut exclure des radioamateurs pour garantir un fonctionnement sans interférences
 * La BNetzA doit en être informée
 
+
+
 ---
 
 [question:VD504]
+
+
 ---
 
 ## Exploitation radio sur les répéteurs
@@ -142,12 +180,18 @@ Un exemple de réglage supplémentaire est un sous-ton avec CTCSS
 * Les stations mobiles ou portables sont souvent à portée de réception pendant une courte durée
 * Pause entre les échanges pour permettre aux autres stations de se signaler
 
+
+
 ---
 
 [question:BE406]
+
+
 ---
 
 [question:BE404]
+
+
 ---
 
 ## Double appel
@@ -155,24 +199,39 @@ Un exemple de réglage supplémentaire est un sous-ton avec CTCSS
 * Éviter le "double appel" en assurant une bonne transition
 * Ne commencer l’émission qu’une fois la station précédente terminée
 
+
+
 ---
 
 [question:NE310]
+
+
 ---
 
 [question:BE405]
+
+
 ---
 
 ## Puissance d’émission
 * Selon l’annexe 1 de l’AFuV
 * Pour les stations automatiques au-dessus de $\qty{30}{\mega\hertz}$ : $\qty{50}{\watt}$ de puissance rayonnée apparente (ERP)
 
+
+
 ---
 
 [question:VD503]
+
+
 ---
 
 ## Rapport
 * L’intensité du signal (S) reçue est celle du relais
 * Elle n’est pas prise en compte
 * Seul le niveau de lisibilité (R) est évalué dans le rapport
+
+
+---
+
+[question:BE408]

@@ -1,5 +1,5 @@
 # Données
-* **Fréquence** mesurée : $f_\text{Anzeige} = \qty{29}{\mega\hertz}$
+* Fréquence mesurée : $f_\text{Anzeige} = \qty{29}{\mega\hertz}$
 * Précision : $\qty{0,01}{\percent}$
 
 # Méthode de résolution 1

@@ -37,7 +37,7 @@ De cette équation, on déduit directement l'unité de l'intensité de champ mag
 [question:EB202]
 
 
-Il faut noter que les lignes de champ magnétique d'une bobine cylindrique se referment également à l'extérieur de la bobine, créant ainsi un *champ de fuite*. Ce *champ de fuite* peut être réduit en formant la bobine cylindrique en cercle (ou en tore) le long de son axe longitudinal, comme c'est le cas pour une bobine à noyau toroïdal (cf. image [ref:e_ringkern]). Dans ce cas, les lignes de champ magnétique se referment entièrement à l'intérieur de la bobine.
+Il faut noter que les lignes de champ magnétique d'une bobine cylindrique se referment également à l'extérieur de la bobine, créant ainsi un *champ de fuite*. Ce champ de fuite peut être réduit en formant la bobine cylindrique en cercle (ou en tore) le long de son axe longitudinal, comme c'est le cas pour une bobine à noyau toroïdal (cf. image [ref:e_ringkern]). Dans ce cas, les lignes de champ magnétique se referment entièrement à l'intérieur de la bobine.
 
 
 <margin>

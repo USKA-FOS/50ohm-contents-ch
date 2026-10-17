@@ -21,6 +21,4 @@ In Abbildung [ref:n_sprachspektrum_symbolisch] sehen wir die symbolische Darstel
 
 In der Abbildung [ref:n_sprachspektrum_beispiel] findet sich ein konkretes Beispiel. Es ist ein genutzter Frequenzbereich von $\qtyrange{300}{2700}{\hertz}$ abzulesen. Die "Breite" des Signals wird übrigens als Bandbreite bezeichnet und in Hertz ($\unit{\hertz}$) angegeben. Die Bandbreite beträgt in diesem Falle $\qty{2700}{\hertz}$ - $\qty{300}{\hertz}$ = $\qty{2400}{\hertz}$.
 
-Dieses beispielhafte Sprachsignal werden wir verwenden, um Träger zu modulieren. Ein Signal, mit dem ein Träger moduliert wird, wird als *Modulationssignal* bezeichnet.lisch] sehen wir die symbolische Darstellung eines Sprachspektrums. Auf der X-Achse von links nach rechts werden unterschiedliche Frequenzen dargestellt. Tiefe Töne mit kleineren Frequenzen finden sich weiter links als hohe Töne mit höheren Frequenzen, die weiter rechts zu finden sind. Auf der Y-Achse von unten nach oben ist die Lautsärke der jeweiligen Frequenz dargestellt, fachsprachlich nennen wir dies die Amplitude. Je weiter oben, umso lauter ist der Ton.
-
-In der Abbildung [ref:n_sprachspektrum_beispiel] findet sich ein konkretes Beispiel. Es ist ein genutzter Frequenzberei
+Dieses beispielhafte Sprachsignal werden wir verwenden, um Träger zu modulieren. Ein Signal, mit dem ein Träger moduliert wird, wird als *Modulationssignal* bezeichnet.

@@ -34,7 +34,7 @@ Une autre cause possible de courants de gaine est leur couplage sans contact dan
 
 [question:AG427]
 
-Pour les antennes parfaitement symétriques, on peut utiliser un *balun de tension* pour symétriser les courants dans le câble coaxial. Une forme populaire est un autotransformateur, dans lequel le câble coaxial est connecté au milieu et à l’extrémité d’une bobine, et l’antenne est reliée aux deux extrémités de la bobine.
+Pour les antennes parfaitement symétriques, on peut utiliser un balun de tension pour symétriser les courants dans le câble coaxial. Une forme populaire est un autotransformateur, dans lequel le câble coaxial est connecté au milieu et à l’extrémité d’une bobine, et l’antenne est reliée aux deux extrémités de la bobine.
 
 % TODO: Image balun de tension / autotransformateur
 

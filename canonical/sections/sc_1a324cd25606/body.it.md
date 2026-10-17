@@ -11,7 +11,7 @@ Tutti i materiali semiconduttori condividono due proprietà:
 
 ---
 
-Esiste una *banda proibita* (o *bandgap*), che è una conseguenza della struttura periodica. Ciò significa che gli elettroni nel cristallo non possono assumere determinate energie. L'energia massima che gli elettroni legati agli atomi possono avere viene chiamata *energia della banda di valenza*. Poiché gli elettroni sono tutti legati agli atomi del reticolo, non possono contribuire al flusso di corrente. Esistono altri stati energetici che gli elettroni possono raggiungere: si trovano nella *banda di conduzione*, che si trova a una distanza pari al valore della banda proibita sopra il bordo della banda di valenza. Gli elettroni nella banda di conduzione possono contribuire al flusso di corrente se applichiamo una tensione al campione semiconduttore. Per farlo, hanno bisogno di un'energia maggiore dell'energia della banda proibita. Possono ottenerla sotto forma di energia termica, motivo per cui i semiconduttori altamente puri sono ottimi isolanti a basse temperature.
+Esiste una *banda proibita* (o bandgap), che è una conseguenza della struttura periodica. Ciò significa che gli elettroni nel cristallo non possono assumere determinate energie. L'energia massima che gli elettroni legati agli atomi possono avere viene chiamata *energia della banda di valenza*. Poiché gli elettroni sono tutti legati agli atomi del reticolo, non possono contribuire al flusso di corrente. Esistono altri stati energetici che gli elettroni possono raggiungere: si trovano nella *banda di conduzione*, che si trova a una distanza pari al valore della banda proibita sopra il bordo della banda di valenza. Gli elettroni nella banda di conduzione possono contribuire al flusso di corrente se applichiamo una tensione al campione semiconduttore. Per farlo, hanno bisogno di un'energia maggiore dell'energia della banda proibita. Possono ottenerla sotto forma di energia termica, motivo per cui i semiconduttori altamente puri sono ottimi isolanti a basse temperature.
 
 [question:AB104]
 
@@ -47,9 +47,9 @@ In sintesi, possiamo affermare:
 
 ---
 
-Se combiniamo in un cristallo, ma separate spazialmente, zone drogate di tipo P e di tipo N, nella zona di contatto avviene uno scambio di portatori di carica: gli elettroni si muovono dalla zona drogata di tipo N verso quella drogata di tipo P, mentre le lacune si muovono dalla zona drogata di tipo P verso quella drogata di tipo N. Questo movimento di portatori di carica, causato dalle differenze di densità di elettroni e lacune, viene chiamato *corrente di diffusione*.
+Se combiniamo in un cristallo, ma separate spazialmente, zone drogate di tipo P e di tipo N, nella zona di contatto avviene uno scambio di portatori di carica: gli elettroni si muovono dalla zona drogata di tipo N verso quella drogata di tipo P, mentre le lacune si muovono dalla zona drogata di tipo P verso quella drogata di tipo N. Questo movimento di portatori di carica, causato dalle differenze di densità di elettroni e lacune, viene chiamato corrente di diffusione.
 
-Questa separazione di carica genera d'altra parte un *campo elettrico* con effetto opposto, che porta a una *corrente di campo*. All'equilibrio (senza tensione applicata dall'esterno), gli effetti della diffusione e del campo elettrico si bilanciano perfettamente. Tra le zone P e N si forma una regione priva di portatori di carica liberi, chiamata *zona di svuotamento* o *strato di sbarramento*. Una struttura di questo tipo rappresenta un *diodo PN*.
+Questa separazione di carica genera d'altra parte un campo elettrico con effetto opposto, che porta a una corrente di campo. All'equilibrio (senza tensione applicata dall'esterno), gli effetti della diffusione e del campo elettrico si bilanciano perfettamente. Tra le zone P e N si forma una regione priva di portatori di carica liberi, chiamata *zona di svuotamento* o *strato di sbarramento*. Una struttura di questo tipo rappresenta un *diodo PN*.
 
 [question:AB108]
 

@@ -1,5 +1,5 @@
 <left>
-* Se un **corrente** variabile nel tempo attraversa un conduttore, ad esempio un'**antenna**, si generano sia un campo elettrico che un campo magnetico
+* Se un corrente variabile nel tempo attraversa un conduttore, ad esempio un'antenna, si generano sia un campo elettrico che un campo magnetico
 * Questo viene definito campo elettromagnetico
 * I due campi sono perpendicolari tra loro, con un angolo di $\qty{90}{\degree}$
 </left>

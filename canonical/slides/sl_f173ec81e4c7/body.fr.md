@@ -1,17 +1,21 @@
 ## Mesures pour radioamateurs
 
 * Mesures importantes : puissance de sortie et tensions HF
-* La mesure de la **puissance de sortie de l'émetteur** nécessite une charge définie
+* La mesure de la puissance de sortie de l'émetteur nécessite une charge définie
 * Impédance courante en radioamateurisme : $\qty{50}{\ohm}$
 * Une mesure directe dans le circuit n'est judicieuse qu'en cas de faibles puissances
 
+
 ---
+
 ## Mesure de tension HF
 
 * La tension HF est mesurée à l'aide d'une sonde HF
 * Redressement par diode et lissage avec un condensateur en aval
 
+
 ---
+
 ### Sonde HF à redressement simple
 
 
@@ -25,10 +29,14 @@
 * Moins la tension directe de la diode et, le cas échéant, la division de tension
 </right>
 
----
-[question:AI608]
 
 ---
+
+[question:AI608]
+
+
+---
+
 ### Sonde HF à double redressement
 
 <left>
@@ -40,36 +48,50 @@
 * Résultat : double tension de crête moins deux fois la tension directe des diodes
 </right>
 
+
 ---
+
 [question:AI605]
 
----
-[question:AI604]
 
 ---
+
+[question:AI604]
+
+
+---
+
 ### Mesure de puissances HF élevées
 
 * Nécessite un atténuateur robuste
 * Absorbe une grande partie de la puissance
 * L'atténuateur doit être pris en compte dans le calcul
 
+
 ---
+
 [question:AI609]
 
 <note>
 Aucun calcul nécessaire, car il n'y a qu'une seule réponse avec atténuateur.
 </note>
 
+
 ---
+
 ## Étalonnage des circuits de mesure
 
 * Indispensable pour des mesures de puissance précises
 * Des valeurs de correction doivent être établies
 
----
-[question:AI612]
 
 ---
+
+[question:AI612]
+
+
+---
+
 ### Calcul d'une sonde HF
 
 <left>
@@ -81,10 +103,14 @@ Aucun calcul nécessaire, car il n'y a qu'une seule réponse avec atténuateur.
 * Après redressement par diode, il reste la tension de crête moins la tension directe
 </right>
 
+
 ---
+
 [question:AI610]
 
+
 --- style="font-size: smaller;"
+
 #### Méthode de résolution
 
 * donné : $P_E = \qty{1}{\watt}$
@@ -98,7 +124,9 @@ Aucun calcul nécessaire, car il n'y a qu'une seule réponse avec atténuateur.
 $\begin{split}R &= \left(\frac{1}{R_T + R_T} + \frac{1}{R_V} + \frac{1}{R_V}\right)^{-1}\\ &= \left(\frac{1}{\qty{330}{\ohm} + \qty{330}{\ohm}} + \frac{1}{\qty{110}{\ohm}} + \frac{1}{\qty{110}{\ohm}}\right)^{-1}\\ &= \qty{50,77}{\ohm}\end{split}$
 </fragment>
 
+
 --- style="font-size: smaller;"
+
 * donné : $P_E = \qty{1}{\watt}$
 * donné : $U_F = \qty{0,23}{\volt}$
 * calculé : $R = \qty{50,77}{\ohm}$
@@ -109,7 +137,9 @@ $\begin{split}R &= \left(\frac{1}{R_T + R_T} + \frac{1}{R_V} + \frac{1}{R_V}\rig
 $\begin{split}P_E &= \frac{U_{E,eff}^2}{R}\\ \Rightarrow U_{E,eff} &= \sqrt{P_E \cdot R}\\ &= \sqrt{\qty{1}{\watt} \cdot \qty{50,77}{\ohm}}\\ &= \qty{7,125}{\volt}\end{split}$
 </fragment>
 
+
 --- style="font-size: smaller;"
+
 * donné : $U_F = \qty{0,23}{\volt}$
 * calculé : $U_{E,eff} = \qty{7,125}{\volt}$
 * recherché : $U_A$
@@ -126,7 +156,9 @@ $\begin{split}U_A &= \frac{U_S}{2}\,-\,U_F\\ &= \frac{\qty{10,07}{\volt}}{2}\,-\
 </fragment>
 </right>
 
+
 ---
+
 ### Calcul de la puissance d'entrée à partir de la tension continue mesurée
 
 
@@ -139,10 +171,14 @@ $\begin{split}U_A &= \frac{U_S}{2}\,-\,U_F\\ &= \frac{\qty{10,07}{\volt}}{2}\,-\
 * Détermination de la puissance d'entrée via la résistance du circuit
 </right>
 
+
 ---
+
 [question:AI611]
 
+
 --- style="font-size: smaller;"
+
 #### Méthode de résolution
 * donné : $U_A = \qty{14,9}{\volt}\text{ DC}$
 * donné : $U_F = \qty{0,7}{\volt}$
@@ -161,7 +197,9 @@ $\begin{split}U_S &= \left(U_A + U_F\right) \cdot 2\\ &= \left(\qty{14,9}{\volt}
 </fragment>
 </right>
 
+
 --- style="font-size: smaller;"
+
 <left>
 * calculé : $R = \qty{50}{\ohm}$
 * calculé : $U_S = \qty{31,2}{\volt}$
@@ -178,7 +216,9 @@ $\begin{split}P_E &= \frac{U_{E,eff}^2}{R}\\ &= \frac{(\qty{22,06}{\volt})^2}{\q
 </fragment>
 </right>
 
+
 ---
+
 ### Sonde HF à double redressement de crête
 
 <left>
@@ -190,10 +230,14 @@ $\begin{split}P_E &= \frac{U_{E,eff}^2}{R}\\ &= \frac{(\qty{22,06}{\volt})^2}{\q
 * Tenir compte de la double tension directe des diodes
 </right>
 
+
 ---
+
 [question:AI607]
 
+
 --- style="font-size: smaller;"
+
 #### Méthode de résolution
 
 * donné : $U_A = \qty{15,3}{\volt}\text{ DC}$
@@ -213,7 +257,9 @@ $\begin{split}U_S &= \frac{U_A}{2} + U_F\\ &= \frac{\qty{15,3}{\volt}}{2} + \qty
 </fragment>
 </right>
 
+
 --- style="font-size: smaller;"
+
 <left>
 * calculé : $R = \qty{50,04}{\ohm}$
 * calculé : $U_S = \qty{7,88}{\volt}$
@@ -230,10 +276,14 @@ $\begin{split}P_E &= \frac{U_{E,eff}^2}{R}\\ &= \frac{{\qty{5,57}{\volt}}^2}{\qt
 </fragment>
 </right>
 
+
 ---
+
 [question:AI606]
 
+
 --- style="font-size: smaller;"
+
 #### Méthode de résolution
 
 * donné : $U_A = \qty{15,3}{\volt}\text{ DC}$
@@ -253,7 +303,9 @@ $\begin{split}U_{E,eff} &= \frac{U_S}{\sqrt{2}}\\ &= \frac{\qty{7,88}{\volt}}{1,
 </fragment>
 </right>
 
+
 --- style="font-size: smaller;"
+
 * calculé : $U_{E,eff} = \qty{5,57}{\volt}$
 * donné : $R = \qty{50}{\ohm}$ issu du système de mesure
 * recherché : $P_E$
@@ -263,8 +315,10 @@ $\begin{split}U_{E,eff} &= \frac{U_S}{\sqrt{2}}\\ &= \frac{\qty{7,88}{\volt}}{1,
 $\begin{split}P_E &= \frac{(U_{E,eff} \cdot 10)^2}{R}\\ &= \frac{(\qty{5,57}{\volt} \cdot 10)^2}{\qty{50}{\ohm}}\\ &\approx \qty{60}{\watt}\end{split}$
 </fragment>
 
----
-### Indicateur d'intensité de champ pour la mesure de puissance
+
+--- style="font-size: smaller;"
+
+## Indicateur d'intensité de champ pour la mesure de puissance
 
 <left>
 [picture:496:a_messung_feldstaerkeanzeiger:Indicateur d'intensité de champ]
@@ -277,5 +331,7 @@ $\begin{split}P_E &= \frac{(U_{E,eff} \cdot 10)^2}{R}\\ &= \frac{(\qty{5,57}{\vo
 * Des mesures précises nécessitent un étalonnage
 </right>
 
+
 ---
+
 [question:AI613]

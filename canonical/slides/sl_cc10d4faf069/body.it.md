@@ -1,8 +1,8 @@
 ## Resistenza di alimentazione
 
 * Un’antenna viene alimentata con tensione e corrente.
-* Il loro *rapporto* determina la resistenza di alimentazione.
-* Per la *potenza* devono essere sempre presenti sia la tensione che la corrente.
+* Il loro rapporto determina la resistenza di alimentazione.
+* Per la potenza devono essere sempre presenti sia la tensione <u>che</u> la corrente.
 * Se uno dei due valori fosse 0, non ci sarebbe erogazione di potenza.
 * La resistenza di alimentazione dipende dal punto di alimentazione.
 

@@ -1,5 +1,5 @@
-* La **bande de fréquences** des ondes électromagnétiques est très étendue
-* Les **ondes radio** n’en utilisent qu’une partie
+* La bande de fréquences des ondes électromagnétiques est très étendue
+* Les ondes radio n’en utilisent qu’une partie
 * Généralement entre $\qty{30}{\kilo\hertz}$ et $\qty{300}{\giga\hertz}$
 * Pour l’examen, les plages de $\qty{3}{\mega\hertz}$ à $\qty{3}{\giga\hertz}$ avec leurs désignations sont importantes
 
@@ -19,10 +19,10 @@
 | | | | (Onde moyenne) | (OM) |
 | $\qty{3}{\mega\hertz}$ | - | $\qty{30}{\mega\hertz}$ | *High Frequency* | *HF* |
 | | | | Onde courte | OC |
-| | | | (**KW**) | |
+| | | | (KW) | |
 | $\qty{30}{\mega\hertz}$ | - | $\qty{300}{\mega\hertz}$ | *Very High Frequency* | *VHF* |
 | | | | Onde ultracourte | OUC |
-| | | | (**UKW**) | |
+| | | | (UKW) | |
 | $\qty{300}{\mega\hertz}$ | - | $\qty{3000}{\mega\hertz}$ | *Ultra High Frequency* | *UHF* |
 | | | | (Onde décimétrique) | |
 | $\qty{3}{\giga\hertz}$ | - | $\qty{30}{\giga\hertz}$ | Super High Frequency | SHF |

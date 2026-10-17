@@ -1,6 +1,6 @@
 ## Attenuazione angolare nelle antenne direttive
 <left>
-[immagine:950:a_richtantenne_personenschutz:Ad un angolo di $\qty{40}{\degree}$ sotto l'asse del lobo principale di irradiazione, la potenza irradiata è inferiore di $\qty{6}{\dB}$ rispetto all'angolo di $\qty{0}{\degree}$.]
+[picture:950:a_richtantenne_personenschutz:Ad un angolo di $\qty{40}{\degree}$ sotto l'asse del lobo principale di irradiazione, la potenza irradiata è inferiore di $\qty{6}{\dB}$ rispetto all'angolo di $\qty{0}{\degree}$.]
 </left>
 <right>
 * Al centro del lobo di irradiazione viene irradiata la potenza massima; in altre direzioni (ad es. $\qty{40}{\degree}$ sotto) è inferiore di $\qty{6}{\dB}$ (fattore $\num{0,25}$)
@@ -11,7 +11,7 @@
 * Esempio: Una distanza di sicurezza di $\qty{20}{\meter}$ si riduce a $\qty{10}{\meter}$ con 1/4 della potenza irradiata
 
 ---
-[domanda:AK105]
+[question:AK105]
 
 ---
 #### Procedimento di soluzione

@@ -1,6 +1,6 @@
-* La *polarisation* d’une antenne se réfère à l’orientation du champ électrique
+* La polarisation d’une antenne se réfère à l’orientation du champ électrique
 * Dans la direction principale de rayonnement
-* Par rapport à la *surface de la terre*
+* Par rapport à la surface de la terre
 * La direction de polarisation ne peut pas toujours être déduite de la forme de l’antenne
 
 <note>

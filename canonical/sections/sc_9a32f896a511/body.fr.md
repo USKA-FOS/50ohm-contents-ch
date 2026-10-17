@@ -1,4 +1,4 @@
-Pour que la parole, les sons ou les données puissent être transmis, ils doivent être superposés à une onde porteuse haute fréquence. Ce processus s’appelle la *modulation*. À la réception, il faut donc choisir le type de modulation approprié. Le tableau [ref:swl_modulationsarten_uebersicht] présente les principaux types de modulation utilisés en *radioamateurisme*. Les abréviations que nous rencontrerons plus tard apparaissent également dans les abréviations opérationnelles.
+Pour que la parole, les sons ou les données puissent être transmis, ils doivent être superposés à une onde porteuse haute fréquence. Ce processus s’appelle la *modulation*. À la réception, il faut donc choisir le type de modulation approprié. Le tableau [ref:swl_modulationsarten_uebersicht] présente les principaux types de modulation utilisés en radioamateurisme. Les abréviations que nous rencontrerons plus tard apparaissent également dans les abréviations opérationnelles.
 
 <margin>
 | l: Affichage | l: Signification | X: Utilisation typique |

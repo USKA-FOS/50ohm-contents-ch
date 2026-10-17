@@ -1,4 +1,6 @@
----
+
+
+--- style="font-size: smaller;"
 
 ## Ionosfera e onde corte
 
@@ -17,11 +19,15 @@
 Dal punto di vista fisico si tratta di una rifrazione o riflessione. Per un’introduzione è sufficiente l’idea che l’onda radio ritorni sulla Terra grazie all’ionosfera.
 </note>
 
+
+
 ---
 
 [question:NH101]
 
----
+
+
+--- style="font-size: smaller;"
 
 ### Propagazione e ciclo solare
 
@@ -39,11 +45,15 @@ Dal punto di vista fisico si tratta di una rifrazione o riflessione. Per un’in
 Il ciclo solare è solo uno dei diversi fattori influenti. Non è possibile garantire condizioni buone o cattive per un singolo momento.
 </note>
 
+
+
 ---
 
 [question:NH201]
 
----
+
+
+--- style="font-size: smaller;"
 
 ### Quando e dove ascoltare?
 

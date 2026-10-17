@@ -5,7 +5,7 @@ Un componente molto importante e ampiamente utilizzato nella tecnica radio e nel
 [picture:922:e_kondensator_aufbau:Struttura di principio di un condensatore]
 </margin>
 
-Le dimensioni geometriche determinano una proprietà fondamentale di un condensatore: la capacità di immagazzinare cariche elettriche. Questa capacità viene chiamata **capacità** e viene indicata con la lettera $C$. Maggiore è la capacità, più cariche elettriche $Q$ possono essere immagazzinate. Se la tensione applicata viene aumentata, verranno immagazzinate anche più cariche.
+Le dimensioni geometriche determinano una proprietà fondamentale di un condensatore: la capacità di immagazzinare cariche elettriche. Questa capacità viene chiamata capacità e viene indicata con la lettera $C$. Maggiore è la capacità, più cariche elettriche $Q$ possono essere immagazzinate. Se la tensione applicata viene aumentata, verranno immagazzinate anche più cariche.
 
 La formula seguente mostra la relazione tra queste grandezze:
 
@@ -23,7 +23,7 @@ L'unità di misura della capacità $C$ è $\unit{\ampere\second\per\volt}$ o, in
 
 [question:EA101]
 
-Se si applica una tensione a un condensatore, tra le piastre conduttrici si genera un **campo elettrico** $E$. Questa relazione è già stata trattata nel capitolo sul campo elettrico: maggiore è la tensione applicata e minore è la distanza tra le piastre, più intenso è il campo elettrico. Dal punto di vista matematico, questo può essere espresso come:
+Se si applica una tensione a un condensatore, tra le piastre conduttrici si genera un campo elettrico $E$. Questa relazione è già stata trattata nel capitolo sul campo elettrico: maggiore è la tensione applicata e minore è la distanza tra le piastre, più intenso è il campo elettrico. Dal punto di vista matematico, questo può essere espresso come:
 
 $E = \frac{U}{d}$
 
@@ -37,8 +37,8 @@ Di seguito sono spiegate le singole grandezze della formula:
 
 - $A$ è la superficie delle piastre conduttrici che si fronteggiano
 - $d$ è la distanza tra le piastre
-- $\varepsilon_0 = \qty{0,855e-11}{\ampere\second\per\volt\meter}$ è la **costante dielettrica del vuoto**, una costante naturale
-- $\varepsilon_r$ (si legge "Epsilon R") è una proprietà specifica dell'isolante (materiale dielettrico) ed è chiamata **costante dielettrica relativa**, che dipende dal materiale utilizzato. La tabella [ref:e_Dielektrizitätszahl] con i valori dei materiali è disponibile anche nella raccolta di formule.
+- $\varepsilon_0 = \qty{0,855e-11}{\ampere\second\per\volt\meter}$ è la costante dielettrica del vuoto, una costante naturale
+- $\varepsilon_r$ (si legge "Epsilon R") è una proprietà specifica dell'isolante (materiale dielettrico) ed è chiamata costante dielettrica relativa, che dipende dal materiale utilizzato. La tabella [ref:e_Dielektrizitätszahl] con i valori dei materiali è disponibile anche nella raccolta di formule.
 
 <margin>
 | Materiale | $\varepsilon_r$ |
@@ -90,7 +90,7 @@ Nel caso di corrente alternata e tensioni alternate, dobbiamo considerare un ult
 
 $|X_C| = \frac{1}{\omega\cdot C} = \frac{1}{2\pi\cdot f \cdot C}$
 
-e viene chiamata **reattanza capacitiva** $X_C$ (cfr. raccolta di formule).
+e viene chiamata reattanza capacitiva $X_C$ (cfr. raccolta di formule).
 
 I dettagli fisici di questo comportamento verranno approfonditi solo nel corso di classe A. Tuttavia, per la classe E è già importante sapere che la resistenza di un condensatore è inversamente proporzionale alla frequenza: se si riduce la frequenza, la reattanza capacitiva $X_C$ aumenta. Se invece si aumenta la frequenza, la resistenza diminuisce di conseguenza.
 

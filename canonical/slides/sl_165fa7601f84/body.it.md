@@ -1,6 +1,6 @@
 ### Segreto delle telecomunicazioni e divieto di intercettazione
 
-* Regolamentato nel *Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz* (TDDDG), già TTDSG, § 5
+* Regolamentato nel Telekommunikation-Digitale-Dienste-Datenschutz-Gesetz (TDDDG), già TTDSG, § 5
 * È consentito ricevere solo messaggi indirizzati alla generalità, a un gruppo indeterminato di persone o a radioamatori
 * Tutto il resto è vietato: già la ricezione stessa, ma anche l’utilizzo e la diffusione delle informazioni
 

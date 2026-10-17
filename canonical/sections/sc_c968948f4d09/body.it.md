@@ -27,3 +27,5 @@ Con un’attenuazione della linea di $\qty{5}{\dB}$ e una riflessione totale all
 $s = \frac{\sqrt{P_\mathrm{v}}+\sqrt{P_\mathrm{r}}}{\sqrt{P_\mathrm{v}}-\sqrt{P_\mathrm{r}}}$
 
 Quindi possiamo calcolare la domanda seguente, tenendo conto che l’onda riflessa misurata rappresenta solo un decimo dell’energia dell’onda incidente: $\qty{5}{\dB}$ di attenuazione in direzione di andata e $\qty{5}{\dB}$ in direzione di ritorno, per un’attenuazione totale di $\qty{10}{\dB}$. In questo caso, $P_\mathrm{r}$ è solo un decimo di $P_\mathrm{v}$.
+
+[question:AG404]

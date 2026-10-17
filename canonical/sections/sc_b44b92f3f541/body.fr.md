@@ -1,11 +1,11 @@
-Commençons par examiner la structure d'un récepteur. Dans l'illustration [ref:aufbau_empfaenger_blockdiagramm], nous simplifions volontairement l'analyse en ne nous intéressant pas aux composants individuels, mais en considérant des blocs ayant une fonction spécifique. Cette représentation est appelée *diagramme en blocs*. Elle sert en électrotechnique à présenter des appareils complexes sous forme de vue d'ensemble simplifiée. Pour cela, on omet les détails non nécessaires à la compréhension de l'appareil dans son ensemble.
+Commençons par examiner la structure d'un récepteur. Dans l'illustration [ref:aufbau_empfaenger_blockdiagramm], nous simplifions volontairement l'analyse en ne nous intéressant pas aux composants individuels, mais en considérant des blocs ayant une fonction spécifique. Cette représentation est appelée diagramme en blocs. Elle sert en électrotechnique à présenter des appareils complexes sous forme de vue d'ensemble simplifiée. Pour cela, on omet les détails non nécessaires à la compréhension de l'appareil dans son ensemble.
 
 <margin>
 [picture:736:aufbau_empfaenger_blockdiagramm:Diagramme en blocs d'un récepteur simple]
 </margin>
 
 <indepth>
-Le récepteur représenté ici est appelé *récepteur à amplification directe*. Ce nom vient du fait que le signal capté par l'antenne n'est pas modifié en fréquence jusqu'au démodulateur.
+Le récepteur représenté ici est appelé récepteur à amplification directe. Ce nom vient du fait que le signal capté par l'antenne n'est pas modifié en fréquence jusqu'au démodulateur.
 </indepth>
 
 ---
@@ -29,6 +29,6 @@ Le *démodulateur* est représenté par le symbole de circuit de la diode, qui e
 
 [question:NF201]
 
-Selon la structure exacte d'un récepteur, celui-ci présente différentes caractéristiques. Une propriété importante est la *sensibilité*. Elle désigne la capacité du récepteur à capter des signaux faibles. Plus un récepteur est sensible, plus il peut capter des signaux faibles.
+Selon la structure exacte d'un récepteur, celui-ci présente différentes caractéristiques. Une propriété importante est la sensibilité. Elle désigne la capacité du récepteur à capter des signaux faibles. Plus un récepteur est sensible, plus il peut capter des signaux faibles.
 
 [question:NF303]

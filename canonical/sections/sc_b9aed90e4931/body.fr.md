@@ -1,6 +1,6 @@
-Pourquoi existe-t-il un réseau de **tension alternative** de $\qty{230}{\volt}$ ? La tension alternative offre un avantage décisif par rapport à la tension continue : elle peut être facilement convertie en d'autres valeurs de tension à l'aide de transformateurs, avec de faibles pertes. Cela permet une adaptation efficace de la tension pour la transmission et l'utilisation.
+Pourquoi existe-t-il un réseau de tension alternative de $\qty{230}{\volt}$ ? La tension alternative offre un avantage décisif par rapport à la tension continue : elle peut être facilement convertie en d'autres valeurs de tension à l'aide de transformateurs, avec de faibles pertes. Cela permet une adaptation efficace de la tension pour la transmission et l'utilisation.
 
-En raison de l'auto-induction dans les bobines, l'énergie peut être transmise entre deux bobines en courant alternatif, comme illustré dans la figure [ref:e_netztrafo]. Cela donne naissance à un nouveau composant : le *transmetteur* ou *transformateur*, appelé plus simplement *trafo*. Il est constitué de deux bobines couplées magnétiquement par un noyau en fer ou en ferrite. Pour distinguer les deux côtés, on parle de côté **primaire** avec un nombre de spires $N_P$ et de côté secondaire avec un nombre de spires $N_S$.
+En raison de l'auto-induction dans les bobines, l'énergie peut être transmise entre deux bobines en courant alternatif, comme illustré dans la figure [ref:e_netztrafo]. Cela donne naissance à un nouveau composant : le *transmetteur* ou *transformateur*, appelé plus simplement *trafo*. Il est constitué de deux bobines couplées magnétiquement par un noyau en fer ou en ferrite. Pour distinguer les deux côtés, on parle de côté primaire avec un nombre de spires $N_P$ et de côté secondaire avec un nombre de spires $N_S$.
 
 <margin>
 [picture:1017:e_netztrafo:Schéma de principe du transformateur]
@@ -14,7 +14,7 @@ Un transformateur sert à convertir une tension alternative élevée, par exempl
 
 ---
 
-Le **rapport de transformation** d'un transformateur peut être exprimé comme suit :
+Le rapport de transformation d'un transformateur peut être exprimé comme suit :
 
 $r = \frac{N_P}{N_S} = \frac{U_P}{U_S}$
 
@@ -60,7 +60,7 @@ Nous multiplions des deux côtés par $N_S$ et divisons des deux côtés par $20
 
 $N_S = \frac{600}{20} = 30$
 
-Le transformateur suivant élève la **tension de sortie** $U_S$, c'est pourquoi le nombre de spires secondaires doit être supérieur à celui du côté primaire.
+Le transformateur suivant élève la tension de sortie $U_S$, c'est pourquoi le nombre de spires secondaires doit être supérieur à celui du côté primaire.
 
 [question:EC404]
 

@@ -12,7 +12,7 @@ Tous les matériaux semi-conducteurs partagent deux propriétés communes :
 
 ---
 
-Il existe une *bande interdite* (ou *gap*), qui résulte de la structure périodique. Cela signifie que les électrons dans le cristal ne peuvent pas occuper certaines énergies. L'énergie maximale que les électrons liés aux atomes peuvent avoir est appelée *énergie de la bande de valence*. Comme les électrons sont tous liés aux atomes du réseau, ils ne peuvent pas contribuer au flux de courant. Il existe d'autres états d'énergie que les électrons peuvent atteindre : ils se situent dans la *bande de conduction*, qui se trouve à une énergie supérieure à celle de la bande de valence, d'une valeur égale à la bande interdite. Les électrons dans la bande de conduction peuvent contribuer au flux de courant si une tension est appliquée à l'échantillon semi-conducteur. Pour cela, ils ont besoin d'une énergie supérieure à celle de la bande interdite. Ils peuvent l'absorber sous forme d'énergie thermique, c'est pourquoi les semi-conducteurs très purs sont d'excellents isolants à basse température.
+Il existe une *bande interdite* (ou gap), qui résulte de la structure périodique. Cela signifie que les électrons dans le cristal ne peuvent pas occuper certaines énergies. L'énergie maximale que les électrons liés aux atomes peuvent avoir est appelée *énergie de la bande de valence*. Comme les électrons sont tous liés aux atomes du réseau, ils ne peuvent pas contribuer au flux de courant. Il existe d'autres états d'énergie que les électrons peuvent atteindre : ils se situent dans la *bande de conduction*, qui se trouve à une énergie supérieure à celle de la bande de valence, d'une valeur égale à la bande interdite. Les électrons dans la bande de conduction peuvent contribuer au flux de courant si une tension est appliquée à l'échantillon semi-conducteur. Pour cela, ils ont besoin d'une énergie supérieure à celle de la bande interdite. Ils peuvent l'absorber sous forme d'énergie thermique, c'est pourquoi les semi-conducteurs très purs sont d'excellents isolants à basse température.
 
 [question:AB104]
 
@@ -49,10 +49,10 @@ En résumé, nous pouvons constater que :
 
 ---
 
-Si l'on combine, dans un cristal mais séparées spatialement, des zones dopées de type P et de type N, un échange de porteurs de charge se produit au niveau du contact : les électrons se déplacent de la zone dopée de type N vers la zone dopée de type P, et les trous de la zone dopée de type P vers la zone dopée de type N. Ce mouvement de porteurs de charge, provoqué par les différences de densité d'électrons et de trous, est appelé *courant de diffusion*.
+Si l'on combine, dans un cristal mais séparées spatialement, des zones dopées de type P et de type N, un échange de porteurs de charge se produit au niveau du contact : les électrons se déplacent de la zone dopée de type N vers la zone dopée de type P, et les trous de la zone dopée de type P vers la zone dopée de type N. Ce mouvement de porteurs de charge, provoqué par les différences de densité d'électrons et de trous, est appelé courant de diffusion.
 
 
-Cette séparation de charge génère par ailleurs un *champ électrique* qui s'oppose à ce mouvement et entraîne un *courant de champ*. À l'équilibre (sans tension appliquée de l'extérieur), les effets du courant de diffusion et du champ électrique s'équilibrent. Entre les zones P et N se forme une région sans porteurs de charge libres, appelée *zone d'appauvrissement* ou *couche de blocage*. Une telle structure constitue une *diode PN*.
+Cette séparation de charge génère par ailleurs un champ électrique qui s'oppose à ce mouvement et entraîne un courant de champ. À l'équilibre (sans tension appliquée de l'extérieur), les effets du courant de diffusion et du champ électrique s'équilibrent. Entre les zones P et N se forme une région sans porteurs de charge libres, appelée *zone d'appauvrissement* ou *couche de blocage*. Une telle structure constitue une *diode PN*.
 
 [question:AB108]
 

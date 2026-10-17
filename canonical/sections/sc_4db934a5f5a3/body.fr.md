@@ -3,7 +3,7 @@ Il existe également des résistances dépendantes de la température, appelées
 - Les *conducteurs à froid* ont une faible résistance à basse température et laissent donc bien passer le courant. Lorsque la température augmente, leur conductivité diminue et leur résistance augmente.
 - Les *conducteurs à chaud* se comportent exactement à l'inverse : ils laissent mieux passer le courant à haute température, tandis que leur résistance est élevée à basse température.
 
-Les conducteurs à chaud sont aussi appelés *NTC* (de l'anglais *Negative Temperature Coefficient*) et les conducteurs à froid *PTC* (de l'anglais *Positive Temperature Coefficient*).
+Les conducteurs à chaud sont aussi appelés *NTC* (de l'anglais Negative Temperature Coefficient) et les conducteurs à froid *PTC* (de l'anglais Positive Temperature Coefficient).
 
 Ces types de résistances sont représentés par des symboles de circuit spécifiques, comme illustré dans la figure [ref:e_schaltbildNtcPtc]. L'élément important est la petite lettre grecque $\vartheta$ (prononcée « thêta »), qui représente la température. Deux flèches sont également indiquées, décrivant la dépendance en température de la résistance.
 

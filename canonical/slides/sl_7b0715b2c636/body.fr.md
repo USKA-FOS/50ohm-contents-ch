@@ -34,7 +34,7 @@ Plus il y a de stations qui répondent simultanément, plus il est difficile de 
 
 ### Fonctionnement en liste
 
-* Le fonctionnement en liste est rarement utilisé
+* Le *fonctionnement en liste* est rarement utilisé
 * Une autre station recueille les demandes de contact et établit une liste qui sera traitée par la station convoitée
 
 ---

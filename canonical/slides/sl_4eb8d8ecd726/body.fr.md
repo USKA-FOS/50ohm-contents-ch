@@ -1,5 +1,5 @@
-* La [bande passante](#) est la plage de fréquences utilisée, exprimée en *$\unit{\hertz}$*
-* Le [débit de transmission de données](#) est la quantité de données transmise par unité de temps, en *$\unit{\bit\per\second}$*
+* La *bande passante* est la plage de fréquences utilisée, exprimée en *$\unit{\hertz}$*
+* Le *débit de transmission de données* est la quantité de données transmise par unité de temps, en *$\unit{\bit\per\second}$*
 
 ---
 

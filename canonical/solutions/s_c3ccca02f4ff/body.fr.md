@@ -1,11 +1,11 @@
 # Méthode de résolution 1 :  
-Nous utilisons la formule du *recueil de formules* (niveau, gain, puissance) :  
+Nous utilisons la formule du recueil de formules (niveau, gain, puissance) :  
 $ g = 10 \cdot \log_{10}\left(\frac{P_2}{P_1}\right)\unit{\dB}$
 Avec $P_1$ = 1 et $P_2$ = 40 :  
 $ g = 10 \cdot \log_{10}\left(\frac{40}{1}\right)\unit{\dB} = \qty{16.021}{\dB}$  
 
 # Méthode de résolution 2 :  
-Nous utilisons le tableau du *recueil de formules* ainsi que la connaissance des propriétés des logarithmes :  
+Nous utilisons le tableau du recueil de formules ainsi que la connaissance des propriétés des logarithmes :  
 Le logarithme d’un produit correspond à l’addition des logarithmes des facteurs :
 
 $\log\left(a \cdot b\right) = \log\left(a\right)+\log\left(b\right)$

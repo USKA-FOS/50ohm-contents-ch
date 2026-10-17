@@ -2,7 +2,7 @@
 
 1. Stadio RF con preselezione
 2. Primo mixer con VFO
-3. Primo amplificatore IF con filtro *Roofing*
+3. Primo amplificatore IF con filtro Roofing
 4. Secondo mixer con oscillatore di conversione (CO)
 
 --- data-transition="none"
@@ -34,7 +34,7 @@
 ---
 [question:AF114]
 ---
-### Filtro *Roofing*
+### Filtro Roofing
 
 
 * Dopo il primo mixer è presente un filtro stretto (*Roofing Filter*)

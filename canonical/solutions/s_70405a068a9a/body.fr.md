@@ -1,6 +1,6 @@
 ## Formules requises
 
-Formule à utiliser issue des outils de l’Agence fédérale des réseaux pour le calcul de l’**intensité de champ** en champ lointain :
+Formule à utiliser issue des outils de l’Agence fédérale des réseaux pour le calcul de l’intensité de champ en champ lointain :
 
 
 $E = \frac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}$ 
@@ -23,5 +23,5 @@ $E = \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{10}{\watt} \cdot \qty{1,64}{}}}{\qty{
 
 ## Interprétation
 
-L’**intensité de champ** électrique déterminée est de $\qty{2,2}{\volt\per\meter}$.
+L’intensité de champ électrique déterminée est de $\qty{2,2}{\volt\per\meter}$.
 

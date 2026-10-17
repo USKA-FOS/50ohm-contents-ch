@@ -144,7 +144,7 @@ Molto apprezzati:
 * Semplificazione nella richiesta dell’autorizzazione per il servizio di radioamatore
 * Di solito non è richiesto un nuovo esame
 * Certificato di radioamatore di classe E $\rightarrow$ Certificato di esame armonizzato per radioamatori (HAREC)
-* Certificato di radioamatore di classe A $\rightarrow$ *Harmonized Amateur Radio Examination Certificate* (HAREC)
+* Certificato di radioamatore di classe A $\rightarrow$ Harmonized Amateur Radio Examination Certificate (HAREC)
 
 <note>
 Esempio: Nella domanda di autorizzazione al servizio di radioamatore è presente un campo da spuntare in cui si dichiara se si possiede già un esame HAREC – in tal caso viene direttamente riconosciuto.

@@ -1,6 +1,6 @@
-* Les antennes possèdent une **impédance au point d’alimentation** (ou impédance de pied), qui dépend de la configuration exacte des éléments de l’antenne.
-* Si celle-ci ne correspond pas à l’**impédance caractéristique** de la ligne d’alimentation, il se produit une *réflexion*.
-* La **puissance d’émission** est renvoyée vers l’**émetteur-récepteur** $\rightarrow$ elle ne peut pas être rayonnée par l’antenne.
+* Les antennes possèdent une impédance au point d’alimentation (ou impédance de pied), qui dépend de la configuration exacte des éléments de l’antenne.
+* Si celle-ci ne correspond pas à l’impédance caractéristique de la ligne d’alimentation, il se produit une *réflexion*.
+* La puissance d’émission est renvoyée vers l’émetteur-récepteur $\rightarrow$ elle ne peut pas être rayonnée par l’antenne.
 * Si l’impédance d’alimentation de l’antenne et l’impédance caractéristique de la ligne d’alimentation coïncident, on parle d’*adaptation*.
 
 ---
@@ -8,9 +8,9 @@
 ## Rapport d’ondes stationnaires (ROS)
 
 * Valeur de mesure de la qualité de l’adaptation de l’antenne.
-* Indique, de manière simplifiée, quelle part de la **puissance d’émission** est réfléchie par l’antenne.
-* Abréviation ROS, issue de l’anglais *standing wave ratio*.
-* Mesuré à l’aide d’un **ROS-mètre**.
+* Indique, de manière simplifiée, quelle part de la puissance d’émission est réfléchie par l’antenne.
+* Abréviation ROS, issue de l’anglais standing wave ratio.
+* Mesuré à l’aide d’un *ROS-mètre*.
 
 <note>
 Calcul précis : $\text{ROS} = \frac {\sqrt{P_\text{incidente}}+\sqrt{P_\text{réfléchi}}} { \sqrt{P_\text{incidente}}-\sqrt{P_\text{réfléchi}}}$ avec $P_\text{incidente}$ puissance incidente et $P_\text{réfléchi}$ puissance réfléchie — non requis pour l’examen de classe N.
@@ -21,7 +21,7 @@ Calcul précis : $\text{ROS} = \frac {\sqrt{P_\text{incidente}}+\sqrt{P_\text{r�
 ## ROS-mètre
 
 
-Mesure simultanément la **puissance d’émission** envoyée vers l’antenne et la **puissance réfléchie** renvoyée en retour.
+Mesure simultanément la puissance d’émission envoyée vers l’antenne et la puissance réfléchie renvoyée en retour.
 
 <left>
 [photo:144:swr_meter:Un ROS-mètre simple pour déterminer le rapport d’ondes stationnaires]
@@ -32,7 +32,7 @@ Mesure simultanément la **puissance d’émission** envoyée vers l’antenne e
 
 ---
 
-Il est inséré entre l’**émetteur-récepteur** et l’antenne ou intégré directement dans l’**émetteur-récepteur**.
+Il est inséré entre l’émetteur-récepteur et l’antenne ou intégré directement dans l’émetteur-récepteur.
 
 
 <left>
@@ -42,7 +42,7 @@ Il est inséré entre l’**émetteur-récepteur** et l’antenne ou intégré d
 [photo:67:n_swr_display:Écran d’un émetteur-récepteur]
 </right>
 <note>
-ROS-mètre et S-mètre se ressemblent à l’oreille, mais désignent des fonctions différentes : le ROS-mètre mesure le rapport d’ondes stationnaires à l’émission, le S-mètre mesure l’**intensité du signal** à la réception.
+ROS-mètre et S-mètre se ressemblent à l’oreille, mais désignent des fonctions différentes : le ROS-mètre mesure le rapport d’ondes stationnaires à l’émission, le S-mètre mesure l’intensité du signal à la réception.
 </note>
 
 ---
@@ -60,8 +60,8 @@ ROS-mètre et S-mètre se ressemblent à l’oreille, mais désignent des foncti
 
 * En cas d’adaptation parfaite, la valeur $\num{1}$ s’affiche.
 * C’est la meilleure valeur possible.
-* Toute la **puissance** est absorbée par l’antenne.
-* Aucune **puissance** n’est renvoyée vers l’émetteur.
+* Toute la puissance est absorbée par l’antenne.
+* Aucune puissance n’est renvoyée vers l’émetteur.
 
 ---
 [question:NG301]
@@ -80,9 +80,9 @@ ROS-mètre et S-mètre se ressemblent à l’oreille, mais désignent des foncti
 
 ---
 
-* Pour un ROS de $\num{2}$, $\qty{11}{\percent}$ de la **puissance d’émission** est réfléchie.
-* Pour un ROS de $\num{3}$, $\qty{25}{\percent}$ de la **puissance d’émission** est réfléchie.
-* Les émetteurs modernes réduisent automatiquement la **puissance d’émission** pour protéger l’émetteur.
+* Pour un ROS de $\num{2}$, $\qty{11}{\percent}$ de la puissance d’émission est réfléchie.
+* Pour un ROS de $\num{3}$, $\qty{25}{\percent}$ de la puissance d’émission est réfléchie.
+* Les émetteurs modernes réduisent automatiquement la puissance d’émission pour protéger l’émetteur.
 
 ---
 [question:NG302]
@@ -105,5 +105,5 @@ ROS-mètre et S-mètre se ressemblent à l’oreille, mais désignent des foncti
 
 
 <note>
-* Le ROS semble s’améliorer, mais seule la **puissance réfléchie** est atténuée.
+* Le ROS semble s’améliorer, mais seule la puissance réfléchie est atténuée.
 </note>

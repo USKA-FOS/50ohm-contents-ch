@@ -1,0 +1,15 @@
+{
+  "stage": "applied",
+  "applied_at": "2026-10-17T10:51:15.034594+00:00",
+  "baseline_commit": "a0d6befef535103c616dae4b9280f51a59b4c0ac",
+  "plan": "darcdown-format-approved.json",
+  "plan_sha256": "84294195227725506c2707f756073b8c051040a016ea40bb976bb779367c40e3",
+  "files_count": 547,
+  "verified_bodies": 3476,
+  "deferred_object_unchanged": "sections/sc_f4725cf6fede",
+  "human_decisions": {
+    "DD-S01": "accepted: remove corrupt duplicated German tail",
+    "DD-S02": "deferred: German reviewers adapt source first; translation follows; object unchanged in all languages",
+    "DD-S03": "accepted: retain translated sense and add the German B/Z mnemonic words"
+  }
+}

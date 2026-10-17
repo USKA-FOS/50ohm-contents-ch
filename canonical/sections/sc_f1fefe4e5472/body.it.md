@@ -25,3 +25,9 @@ Nel § 8 BEMFV è stabilito, tra l’altro, che la distanza di sicurezza legata 
 [question:AK107]
 
 Nelle prossime tre domande, la procedura è più o meno la stessa. Per il calcolo dell’intensità di campo elettrica sono necessari la potenza al punto di alimentazione dell’antenna, il fattore di guadagno e la distanza.
+
+[question:AK113]
+
+[question:AK114]
+
+[question:AK115]

@@ -1,6 +1,6 @@
 * Il *controllo automatico del livello (ALC)* regola la modulazione dello stadio finale del trasmettitore
 * Riduce l’ampiezza nel ramo di trasmissione in caso di sovramodulazione
-* Non va confuso con l’AGC (*controllo automatico del guadagno*) nel ramo ricevente
+* Non va confuso con l’AGC (controllo automatico del guadagno) nel ramo ricevente
 
 ---
 ### Funzionamento

@@ -1,4 +1,4 @@
-La qualité des liaisons radio dépend de plusieurs facteurs : la puissance d'émission, l'antenne utilisée, la distance et, last but not least, les conditions de propagation actuelles. Il est donc souvent intéressant de savoir à quel point son propre signal est reçu par la station de réception. Pour évaluer la qualité de réception, on fournit un rapport de réception, appelé aussi *rapport* [index:Rapport]. En radioamateurisme, on utilise généralement le système RST [index:RST-System].
+La qualité des liaisons radio dépend de plusieurs facteurs : la puissance d'émission, l'antenne utilisée, la distance et, last but not least, les conditions de propagation actuelles. Il est donc souvent intéressant de savoir à quel point son propre signal est reçu par la station de réception. Pour évaluer la qualité de réception, on fournit un rapport de réception, appelé aussi rapport [index:Rapport]. En radioamateurisme, on utilise généralement le système RST [index:RST-System].
 
 [question:BE201]
 

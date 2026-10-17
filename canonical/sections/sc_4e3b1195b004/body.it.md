@@ -5,7 +5,7 @@ Un *nominativo DE* [index:DE-Kennzeichen] identifica una stazione ricevente tede
 | DE0AAA a DE0PZZ | Maestro Ricevitore Tedesco |
 | DE0QAA a DE0QZZ | Stazioni riceventi di formazione nelle sezioni locali e nelle scuole |
 | DE0RAA a DE0ZZZ | Maestro Ricevitore Tedesco |
-| DE1AAA a DE9ZZZ | Ascoltatore di onde corte [index:ascoltatore di onde corte] |
+| DE1AAA a DE9ZZZ | Ascoltatore di onde corte  |
 [table:swl_de_kennzeichen_bereiche:Aree del sistema di nominativi DE]
 </margin>
 

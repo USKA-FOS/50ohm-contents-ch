@@ -28,13 +28,13 @@ Se un cavo coassiale è privo di segnali HF a onda diretta, il conduttore estern
 
 Tali tensioni sul conduttore esterno si verificano, ad esempio, quando colleghiamo un’antenna simmetrica al cavo, poiché in corrispondenza del punto di alimentazione ogni ramo del dipolo presenta una tensione rispetto a terra. Se colleghiamo i rami rispettivamente ai due conduttori del cavo coassiale, anche il conduttore esterno presenterà una tensione rispetto a terra.
 
-Le antenne ben messe a terra, invece, ad esempio un’antenna *groundplane* con molti radiali ben accordati o interrati, presentano al punto di alimentazione dei radiali una tensione quasi nulla rispetto a terra. Le antenne *groundplane* mal messe a terra, invece, possono essere suscettibili alle correnti sulla calza.
+Le antenne ben messe a terra, invece, ad esempio un’antenna groundplane con molti radiali ben accordati o interrati, presentano al punto di alimentazione dei radiali una tensione quasi nulla rispetto a terra. Le antenne groundplane mal messe a terra, invece, possono essere suscettibili alle correnti sulla calza.
 
 Un’altra possibile causa di correnti sulla calza è l’accoppiamento senza contatto nel schermo del coassiale. Se, ad esempio, un cavo di alimentazione viene fatto correre parallelamente a un ramo di un dipolo, si verifica un accoppiamento tramite il campo elettromagnetico vicino dell’antenna.
 
 [question:AG427]
 
-Per le antenne completamente simmetriche, può essere utilizzato un *bilanciatore di tensione* per simmetrizzare le correnti nel cavo coassiale. Una forma costruttiva molto diffusa è un autotrasformatore in cui il cavo coassiale viene collegato al centro e alla fine di una bobina, mentre l’antenna viene collegata ai due estremi della bobina.
+Per le antenne completamente simmetriche, può essere utilizzato un bilanciatore di tensione per simmetrizzare le correnti nel cavo coassiale. Una forma costruttiva molto diffusa è un autotrasformatore in cui il cavo coassiale viene collegato al centro e alla fine di una bobina, mentre l’antenna viene collegata ai due estremi della bobina.
 
 % TODO: Immagine bilanciatore di tensione / autotrasformatore
 

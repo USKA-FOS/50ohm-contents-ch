@@ -1,5 +1,5 @@
-* Il rumore udibile dipende dalla **larghezza di banda** del ricevitore
-* La **potenza di rumore** può essere calcolata sulla base delle varie **larghezze di banda**
+* Il rumore udibile dipende dalla larghezza di banda del ricevitore
+* La potenza di rumore può essere calcolata sulla base delle varie larghezze di banda
 * Ad esempio, utilizzando filtri diversi
 
 <fragment>

@@ -5,7 +5,9 @@
 * L'amplitude et la fréquence de la porteuse restent identiques en PSK idéale
 * Lors du changement de symbole, la phase peut varier
 
----
+
+
+--- style="font-size: smaller;"
 
 ## Représentation temporelle de la PSK
 
@@ -19,7 +21,9 @@
 * Si le même symbole est transmis à nouveau, la position de phase reste inchangée
 </right>
 
----
+
+
+--- style="font-size: smaller;"
 
 ## Modulation par déplacement de phase binaire (BPSK)
 
@@ -46,9 +50,13 @@ $-\sin(\omega t)=\sin(\omega t+\qty{180}{\degree})$
 Le choix de 0 degré et 180 degrés n'est pas obligatoire. Par exemple, 90 degrés et 270 degrés seraient également possibles.
 </note>
 
+
+
 ---
 
 [question:AE401]
+
+
 
 
 ---
@@ -64,9 +72,13 @@ Le choix de 0 degré et 180 degrés n'est pas obligatoire. Par exemple, 90 degr�
 * *8-PSK* : $\num{8}$ symboles → $\num{3}$ bits par symbole
 </fragment>
 
+
+
 ---
 
 [question:AE402]
+
+
 
 
 ---
@@ -79,7 +91,9 @@ Le choix de 0 degré et 180 degrés n'est pas obligatoire. Par exemple, 90 degr�
 * Chaque symbole QPSK transmet donc $\num{2}$ bits
 
 
----
+
+
+--- style="font-size: smaller;"
 
 ## QPSK dans le diagramme de constellation
 
@@ -108,7 +122,9 @@ L'attribution des combinaisons de bits aux différentes positions de phase n'est
 La cartographie utilisée ici correspond également à celle du texte pédagogique et de l'applet suivant.
 </note>
 
----
+
+
+--- style="font-size: smaller;"
 
 ## Code de Gray en QPSK
 
@@ -138,7 +154,9 @@ La cartographie est choisie de telle sorte que les points adjacents dans le diag
 Par exemple, lors du passage de 11 à 01, seul le premier bit change. Il en va de même pour les autres points adjacents, y compris 10 et 11.
 </note>
 
----
+
+
+--- style="font-size: smaller;"
 
 <left>
 [include:applet_qpsk]
@@ -165,6 +183,8 @@ Avec « Transmettre à nouveau », le même flux de bits est transmis une nouvel
 
 Avec l'augmentation du bruit, la probabilité d'erreurs de symbole et donc de bits augmente. Grâce à un codage de canal adapté, de nombreuses erreurs peuvent être détectées et corrigées.
 </note>
+
+
 
 ---
 

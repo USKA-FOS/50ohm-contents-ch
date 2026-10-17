@@ -5,7 +5,7 @@
 * anche: *resistenza di terminazione* o *antenna artificiale*
 </left>
 <right>
-[immagine:68:n_antennenanpassung_dummy_load:Carico fittizio]
+[photo:68:n_antennenanpassung_dummy_load:Carico fittizio]
 </right>
 
 <note>

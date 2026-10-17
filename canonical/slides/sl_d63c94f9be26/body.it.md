@@ -2,7 +2,7 @@
 
 <left>
 * Alimentazione eseguita sul *radiatore* sotto forma di dipolo o dipolo ripiegato
-* L’*onda* incontra il *riflettore* più lungo e il *direttore* più corto
+* L’onda incontra il *riflettore* più lungo e il *direttore* più corto
 * Possono esserci anche più direttori
 </left>
 <right>
@@ -25,7 +25,7 @@
 
 <left>
 * Tra radiatore ed elementi esiste uno sfasamento spaziale e temporale
-* Attraverso la sovrapposizione delle radiazioni si ottiene una *direttività*
+* Attraverso la sovrapposizione delle radiazioni si ottiene una direttività
 * *Interferenza distruttiva*: le onde si annullano
 * *Interferenza costruttiva*: le onde si rafforzano
 </left>

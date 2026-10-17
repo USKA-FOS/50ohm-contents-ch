@@ -29,7 +29,7 @@ La fin d'un QSO en CW via aurore boréale entre GM4YXI et OK/DF7TR/P :
 ---
 ## Utilisation pour la propagation des ondes
 
-* L'aurore boréale est une zone fortement ionisée qui **réfléchit** les ondes radio au-dessus de $\qty{30}{\mega\hertz}$
+* L'aurore boréale est une zone fortement ionisée qui réfléchit les ondes radio au-dessus de $\qty{30}{\mega\hertz}$
 * Elle est donc principalement utilisée en UHF et VHF
 * La voix est trop large bande, c'est pourquoi le CW est le mieux adapté
 * Malgré cela, le signal est « tremblotant » et « brouillé »

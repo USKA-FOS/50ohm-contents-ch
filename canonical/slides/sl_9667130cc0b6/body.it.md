@@ -3,7 +3,7 @@
 * I dipoli alimentati al centro sono *antenne simmetriche*
 * Presentano agli estremi (ad esempio i punti di alimentazione) la stessa tensione rispetto a terra, a meno del segno
 * È il caso dei dipoli e delle antenne Yagi-Uda basate su di essi
-* L’antenna *groundplane* è *asimmetrica*, poiché al punto di connessione dei radiali ha potenziale di terra
+* L’antenna groundplane è *asimmetrica*, poiché al punto di connessione dei radiali ha potenziale di terra
 
 <note>
 * Potenziale di terra: tensione pari a zero rispetto alla terra

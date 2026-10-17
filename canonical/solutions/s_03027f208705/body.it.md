@@ -1,1 +1,1 @@
-Nota: Le due catodi dei diodi sono collegati insieme al polo positivo della **tensione d’uscita**.
+Nota: Le due catodi dei diodi sono collegati insieme al polo positivo della tensione d’uscita.

@@ -13,5 +13,5 @@ La caratteristica di risposta in frequenza di un filtro a tacca è progettata in
 [question:EF216]
 
 <tip>
-Molti dispositivi moderni implementano i filtri a tacca utilizzando tecnologie di filtraggio digitale. In questo caso, è spesso possibile parametrizzare con precisione la larghezza di banda, la caratteristica del filtro e la frequenza. Un ulteriore vantaggio in questo contesto sono i cosiddetti *filtri a tacca automatici*, che rilevano automaticamente le componenti fisse della portante nel segnale BF e le eliminano automaticamente.
+Molti dispositivi moderni implementano i filtri a tacca utilizzando tecnologie di filtraggio digitale. In questo caso, è spesso possibile parametrizzare con precisione la larghezza di banda, la caratteristica del filtro e la frequenza. Un ulteriore vantaggio in questo contesto sono i cosiddetti filtri a tacca automatici, che rilevano automaticamente le componenti fisse della portante nel segnale BF e le eliminano automaticamente.
 </tip>

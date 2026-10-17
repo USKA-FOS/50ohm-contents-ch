@@ -1,12 +1,12 @@
-### Le trafic en *split* en détail
+### Le trafic en split en détail
 
-* Le trafic en *split* est la méthode la plus utilisée pour permettre à de nombreux appels d’établir une connexion.
+* Le trafic en split est la méthode la plus utilisée pour permettre à de nombreux appels d’établir une connexion.
 * Dans ce cas, la station convoitée reçoit sur une fréquence différente de celle sur laquelle elle émet.
-* La station appelant en CQ annonce le trafic en *split* en indiquant la fréquence ou la bande de fréquences sur laquelle elle reçoit.
+* La station appelant en CQ annonce le trafic en split en indiquant la fréquence ou la bande de fréquences sur laquelle elle reçoit.
 * Les indications sont toujours données en kHz.
 
 <note>
-Un avantage du trafic en *split* est que la station particulière reste clairement audible et ne « s’efface » pas dans le *pile-up*.
+Un avantage du trafic en split est que la station particulière reste clairement audible et ne « s’efface » pas dans le pile-up.
 </note>
 
 ---

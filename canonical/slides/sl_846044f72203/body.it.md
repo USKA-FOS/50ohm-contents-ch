@@ -26,7 +26,7 @@ $\qty{5,7}{\giga\hertz}$ e $\qty{10}{\giga\hertz}$
 
 * Rifrazione dell’onda spaziale verso il ricevitore
 * Principalmente durante il crepuscolo
-* Intensità del segnale forte e rapidamente variabile (*fading fluttuante*, *flutter fading*)
+* Intensità del segnale forte e rapidamente variabile (*fading fluttuante*, flutter fading)
 
 ---
 [question:AH223]

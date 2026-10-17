@@ -1,8 +1,8 @@
-Come abbiamo imparato nella [sec:erste_schritte], solo i radioamatori possono trasmettere sulle frequenze radioamatoriali. Esiste un’eccezione: l’**attività radio di addestramento** [index:Ausbildungsfunkbetrieb]. Questa consente a persone che non sono titolari di un certificato di operatore radio di utilizzare, in occasioni speciali e sotto la costante supervisione di un radioamatore CEPT (HB9), l’impianto radio di un’associazione radioamatoriale.
+Come abbiamo imparato nella [sec:erste_schritte], solo i radioamatori possono trasmettere sulle frequenze radioamatoriali. Esiste un’eccezione: l’attività radio di addestramento [index:Ausbildungsfunkbetrieb]. Questa consente a persone che non sono titolari di un certificato di operatore radio di utilizzare, in occasioni speciali e sotto la costante supervisione di un radioamatore CEPT (HB9), l’impianto radio di un’associazione radioamatoriale.
 
-<indepth>Le associazioni radioamatoriali dispongono sempre di un’autorizzazione HB9. Tuttavia, anche i radioamatori HB3 possono svolgere attività di formazione presso la stazione associativa con persone non radioamatori, ma solo sulle frequenze e con la potenza consentita per HB3.</indepth>
+% <indepth>Le associazioni radioamatoriali dispongono sempre di un’autorizzazione HB9. Tuttavia, anche i radioamatori HB3 possono svolgere attività di formazione presso la stazione associativa con persone non radioamatori, ma solo sulle frequenze e con la potenza consentita per HB3.</indepth>
 
-Per questo è necessaria un’**autorizzazione all’emissione** dell’UFCOM. Questa autorizzazione viene concessa solo alle associazioni radioamatoriali.
+Per questo è necessaria un’autorizzazione all’emissione dell’UFCOM. Questa autorizzazione viene concessa solo alle associazioni radioamatoriali.
 Su questo argomento si tornerà più dettagliatamente nella [sec:ausbildungsrufzeichen].
 
 <law>

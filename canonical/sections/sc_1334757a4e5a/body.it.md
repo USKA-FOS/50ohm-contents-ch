@@ -3,3 +3,5 @@
 </margin>
 
 Nella ricezione FM conta solo la variazione della frequenza del segnale di ingresso per la demodulazione. Pertanto, si cerca di sopprimere il più possibile le fluttuazioni di ampiezza e i disturbi impulsivi durante la ricezione di segnali FM. Questo può essere ottenuto con l'aiuto di un amplificatore limitatore nella parte IF di un ricevitore FM, che prima amplifica fortemente il segnale di ingresso e poi ne limita l'ampiezza con un circuito appropriato. Grazie alla limitazione, l'informazione della variazione di frequenza (FM) viene preservata. Tuttavia, le variazioni di ampiezza vengono fortemente soppresse, poiché il livello del segnale viene limitato a un massimo definito e, di conseguenza, dopo l'amplificatore limitatore sono presenti solo minime fluttuazioni di ampiezza del segnale di ingresso.
+
+[question:AF226]

@@ -1,4 +1,4 @@
-Un *raddrizzatore a doppia semionda* utilizza sia la semionda positiva che quella negativa della tensione alternata. Di conseguenza, per ogni periodo della rete, si generano due impulsi di tensione in uscita.
+Un raddrizzatore a doppia semionda utilizza sia la semionda positiva che quella negativa della tensione alternata. Di conseguenza, per ogni periodo della rete, si generano due impulsi di tensione in uscita.
 
 La frequenza d’uscita raddoppia quindi:
 

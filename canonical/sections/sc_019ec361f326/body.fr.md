@@ -62,7 +62,7 @@ $ U = R\cdot I $
 
 [question:NB504]
 
-Il n'est pas nécessaire de mémoriser ces formules. Elles figurent également dans le *recueil de formules* qui est mis à disposition comme outil d'aide lors de l'examen. Pour les calculs, une calculatrice peut être utilisée lors de l'examen.
+Il n'est pas nécessaire de mémoriser ces formules. Elles figurent également dans le recueil de formules qui est mis à disposition comme outil d'aide lors de l'examen. Pour les calculs, une calculatrice peut être utilisée lors de l'examen.
 
 [question:NB502]
 [question:NB503]

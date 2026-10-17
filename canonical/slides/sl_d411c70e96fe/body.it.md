@@ -31,7 +31,7 @@
 
 ---
 
-[domanda:AF617]
+[question:AF617]
 
 
 ---
@@ -45,14 +45,14 @@
 
 ---
 
-[domanda:AF616]
+[question:AF616]
 
 
 ---
 
-[domanda:AF618]
+[question:AF618]
 
 
 ---
 
-[domanda:AF619]
+[question:AF619]

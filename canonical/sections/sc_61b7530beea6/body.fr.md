@@ -8,6 +8,8 @@ Les éléments de l'antenne de cette illustration sont parallèles au sol. Ils c
 
 Les éléments de l'antenne de cette illustration sont perpendiculaires au sol. Ils correspondent à la composante du champ électrique. Il s'agit donc d'une antenne à polarisation verticale.
 
+
+
 ---
 
 Le fait que la direction de polarisation corresponde souvent à l'orientation géométrique des éléments de l'antenne s'explique par le fait que la plupart des antennes utilisées ont une disposition des conducteurs qui coïncide géométriquement avec la direction du champ électrique. En effet, par convention, l'indication « horizontal » ou « vertical » se réfère à l'orientation du champ électrique et non à celle de la composante magnétique.
@@ -24,6 +26,8 @@ Le plan de référence de la polarisation pour les stations radio terrestres est
 
 Le vecteur de Poynting mentionné ici est un vecteur perpendiculaire à la fois à la composante du champ électrique et à celle du champ magnétique, c'est-à-dire qu'il pointe dans la direction de propagation. Cependant, pour déterminer la polarisation, c'est l'orientation de la *composante du champ électrique* qui est déterminante.
 
+
+
 ---
 
 [question:EB306]
@@ -34,6 +38,8 @@ Le vecteur de Poynting mentionné ici est un vecteur perpendiculaire à la fois 
 
 La composante du champ électrique est parallèle au sol, il s'agit donc d'une polarisation horizontale. À noter : la flèche directionnelle « S » indique la direction de propagation, il s'agit du vecteur de Poynting.
 
+
+
 ---
 
 [question:EB307]
@@ -43,6 +49,9 @@ Ici, la composante du champ magnétique est parallèle à la surface de la terre
 <margin>
 [picture:936:e_funkhorizont:Polarisation verticale]
 </margin>
+
+
+---
 
 Dans les exemples précédents, les composantes des champs électrique et magnétique étaient *en phase dans le temps* (leurs oscillations sinusoïdales atteignent le zéro au même moment). Cependant, elles sont *perpendiculaires dans l'espace*.
 

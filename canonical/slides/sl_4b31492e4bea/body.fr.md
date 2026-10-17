@@ -12,7 +12,7 @@
 
 ### L’alphabet phonétique international
 
-| c : lettre | l : mot | c : lettre | l : mot |
+| c: lettre | l: mot | c: lettre | l: mot |
 | A | Alfa | N | November |
 | B | Bravo | O | Oscar |
 | C | Charlie | P | Papa |

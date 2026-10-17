@@ -1,4 +1,4 @@
-Pour les stations radioamateurs fixes, la procédure de notification ne doit être effectuée que si l'[installation d'émission](Sendeanlage) atteint une [puissance rayonnée](Strahlungsleistung) de *$\qty{10}{\watt}$ EIRP* ou plus.
+Pour les stations radioamateurs fixes, la procédure de notification ne doit être effectuée que si l'installation d'émission atteint une puissance rayonnée de *$\qty{10}{\watt}$ EIRP* ou plus.
 
 ---
 
@@ -23,7 +23,7 @@ Pour les stations radioamateurs fixes, la procédure de notification ne doit êt
 [photo:79:n_Deckblatt_Anleitung:Page de garde de la notice]
 </left>
 <right>
-* Avant la mise en service de l'[installation de radioamateur](Amateurfunkanlage) fixe
+* Avant la mise en service de l'installation de radioamateur fixe
 * auprès du bureau régional compétent de la BNetzA
 * Le bureau régional compétent peut être déterminé sur le site web de l'Agence fédérale des réseaux
 </right>
@@ -69,7 +69,7 @@ Mot-clé pour la bonne réponse à cette question et à la suivante : "compréhe
 * En cas de modifications importantes, effectuer une nouvelle notification
 
 <note>
-par exemple : mât d'antenne supplémentaire, changement d'antenne ou augmentation de la [puissance d'émission](Sendeleistung) avec une distance plus grande
+par exemple : mât d'antenne supplémentaire, changement d'antenne ou augmentation de la puissance d'émission avec une distance plus grande
 </note>
 
 ---
@@ -110,7 +110,7 @@ Outils d'aide :
 ## Plusieurs émissions simultanées
 
 
-* Plusieurs émissions peuvent être émises simultanément depuis une installation sur différentes [fréquences](Frequenz)
+* Plusieurs émissions peuvent être émises simultanément depuis une installation sur différentes fréquences
 * Généralement via différentes antennes
 * Toutes les antennes doivent être prises en compte pour la distance de sécurité des personnes
 

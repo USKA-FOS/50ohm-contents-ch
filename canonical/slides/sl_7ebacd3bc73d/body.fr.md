@@ -1,5 +1,5 @@
 <left>
-[photo:291:a_Bobine avec prises intermédiaires:Bobine avec 14 prises intermédiaires dans un adaptateur d’antenne auto-construit]
+[photo:291:a_Spule mit Anzapfungen:Bobine avec 14 prises intermédiaires dans un adaptateur d’antenne auto-construit]
 
 $L_{\mathrm{total}} = L_1 + L_2 + L_3 + \dots$
 </left>

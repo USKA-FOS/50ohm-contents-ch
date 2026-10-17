@@ -3,12 +3,12 @@ Un vieux dicton de radioamateur dit que le meilleur amplificateur haute fréquen
 [question:EC602]
 
 <indepth>
-Le *transistor bipolaire* est également appelé BJT (*Bipolar Junction Transistor*) en anglais, soit transistor bipolaire à jonction en français.
+Le *transistor bipolaire* est également appelé BJT (Bipolar Junction Transistor) en anglais, soit transistor bipolaire à jonction en français.
 </indepth>
 
 La fonction idéale de tous les types de transistors, y compris le tube électronique, est celle d'une *source de courant commandée en tension* : une petite variation de tension à l'entrée doit provoquer une grande variation de courant à la sortie.
 
-Le transistor bipolaire possède trois broches, appelées émetteur, base et collecteur. L'émetteur émet des porteurs de charge vers la base — pour un transistor bipolaire NPN, il s'agit d'*électrons*, et pour un transistor PNP, de *trous* (ou *défauts d'électrons*). La physique derrière ces concepts sera abordée dans la formation pour la classe A. Ces porteurs de charge traversent la base et sont collectés par le collecteur.
+Le transistor bipolaire possède trois broches, appelées émetteur, base et collecteur. L'émetteur émet des porteurs de charge vers la base — pour un transistor bipolaire NPN, il s'agit d'*électrons*, et pour un transistor PNP, de *trous* (ou défauts d'électrons). La physique derrière ces concepts sera abordée dans la formation pour la classe A. Ces porteurs de charge traversent la base et sont collectés par le collecteur.
 
 ---
 

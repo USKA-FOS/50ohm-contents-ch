@@ -1,4 +1,4 @@
-Il modo più semplice per rilevare gli errori consiste nell'aggiungere un bit aggiuntivo, il bit di parità. Viene anche chiamato *Parity Bit*. Esistono due varianti di questo metodo. Con la *parità pari* (*Even Parity*), il valore di questo bit viene scelto per ogni blocco in modo che il numero di bit impostati a $\num{1}$ sia sempre pari. Con la *parità dispari* (*Odd Parity*), invece, il numero deve essere sempre dispari. Trasmettitore e ricevitore devono accordarsi prima della trasmissione su quale delle due varianti verrà utilizzata.
+Il modo più semplice per rilevare gli errori consiste nell'aggiungere un bit aggiuntivo, il bit di parità. Viene anche chiamato *Parity Bit*. Esistono due varianti di questo metodo. Con la parità pari (*Even Parity*), il valore di questo bit viene scelto per ogni blocco in modo che il numero di bit impostati a $\num{1}$ sia sempre pari. Con la parità dispari (*Odd Parity*), invece, il numero deve essere sempre dispari. Trasmettitore e ricevitore devono accordarsi prima della trasmissione su quale delle due varianti verrà utilizzata.
 
 <indepth>
 Supponiamo di voler trasmettere il seguente byte con parità pari:

@@ -1,6 +1,6 @@
 ## Connettori RF
 
-* Ricevitori e antenna vengono generalmente collegati tramite un **cavo coassiale**
+* Ricevitori e antenna vengono generalmente collegati tramite un cavo coassiale
 * Il conduttore interno trasporta il segnale
 * Il conduttore esterno scherma la connessione
 * Il connettore trasferisce entrambi i conduttori in modo affidabile
@@ -82,7 +82,7 @@ Nel caso della foto SMA, specificare esplicitamente l’ingrandimento.
 * Connettore e presa devono appartenere allo stesso sistema
 * Non inclinare i connettori né serrarli con forza
 * I connettori SMA sono particolarmente piccoli e delicati
-* Una buona schermatura e **perdite** ridotte rimangono importanti anche in ricezione
+* Una buona schermatura e perdite ridotte rimangono importanti anche in ricezione
 
 <note>
 La potenza di trasmissione consentita di un connettore non è determinante per una stazione puramente ricevente. Rimangono importanti la banda di frequenza, l’adattamento meccanico e la qualità della connessione.

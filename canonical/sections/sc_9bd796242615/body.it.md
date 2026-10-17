@@ -21,7 +21,7 @@ Per le domande seguenti, è necessario determinare innanzitutto il fattore con c
 [question:EG310]
 [question:EG308]
 
-Con il termine *perdite del cavo* si intendono tutte le perdite che si verificano nei cavi. Amplificatori aggiuntivi o il guadagno d'antenna possono amplificare il segnale, ma non modificano le perdite del cavo.
+Con il termine perdite del cavo si intendono tutte le perdite che si verificano nei cavi. Amplificatori aggiuntivi o il guadagno d'antenna possono amplificare il segnale, ma non modificano le perdite del cavo.
 
 [question:EG307]
 

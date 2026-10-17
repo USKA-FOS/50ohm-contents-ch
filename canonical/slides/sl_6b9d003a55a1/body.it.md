@@ -9,7 +9,7 @@
 ### Filtro di rete contro le correnti entranti
 
 <left>
-[immagine:164:a_stoerungen_elektronischer_geraete_tiefpassfilter:Filtro passa-basso]
+[picture:164:a_stoerungen_elektronischer_geraete_tiefpassfilter:Filtro passa-basso]
 </left>
 <right>
 * Filtro di rete come filtro passa-basso
@@ -19,15 +19,15 @@
 
 ---
 
-[domanda:AJ116]
+[question:AJ116]
 
 ---
 
-[domanda:AJ117]
+[question:AJ117]
 
 ---
 
-[domanda:AJ118]
+[question:AJ118]
 
 ---
 
@@ -39,11 +39,11 @@
 
 ---
 
-[domanda:AJ105]
+[question:AJ105]
 
 ---
 
-[domanda:AJ103]
+[question:AJ103]
 
 ---
 
@@ -55,11 +55,11 @@
 
 ---
 
-[domanda:AJ107]
+[question:AJ107]
 
 ---
 
-[domanda:AJ106]
+[question:AJ106]
 
 ---
 
@@ -73,22 +73,22 @@
 
 ---
 
-[domanda:AJ113]
+[question:AJ113]
 
 ---
 
-[domanda:AJ114]
+[question:AJ114]
 
 ---
 
-[domanda:AJ108]
+[question:AJ108]
 
 ---
 
 ### Filtro passa-basso per trasmettitori in onde corte
 
 <left>
-[foto:201:a_stoerungen_elektrischer_geraete_tiefpassfilter:Filtro passa-basso per onde corte con risposta in frequenza]
+[photo:201:a_stoerungen_elektrischer_geraete_tiefpassfilter:Filtro passa-basso per onde corte con risposta in frequenza]
 </left>
 <right>
 * Frequenza di taglio $\qtyrange{30}{40}{\mega\hertz}$
@@ -98,11 +98,11 @@
 
 ---
 
-[domanda:AJ112]
+[question:AJ112]
 
 ---
 
-[domanda:AJ104]
+[question:AJ104]
 
 ---
 
@@ -114,15 +114,15 @@
 
 ---
 
-[domanda:AJ110]
+[question:AJ110]
 
 ---
 
-[domanda:AJ111]
+[question:AJ111]
 
 ---
 
-[domanda:AJ109]
+[question:AJ109]
 
 ---
 
@@ -133,7 +133,7 @@
 
 ---
 
-[domanda:AJ101]
+[question:AJ101]
 
 ---
 
@@ -147,11 +147,11 @@
 
 ---
 
-[domanda:AJ119]
+[question:AJ119]
 
 ---
 
-[domanda:AJ102]
+[question:AJ102]
 
 ---
 
@@ -165,4 +165,4 @@
 
 ---
 
-[domanda:AJ214]
+[question:AJ214]

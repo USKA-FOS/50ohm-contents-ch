@@ -47,7 +47,7 @@ Les trous ne sont pas mobiles en réalité, mais grâce au flux d'électrons, il
 </left>
 <right>
 * Une *zone d'appauvrissement* ou *couche de blocage* se forme
-* Un *champ électrique* apparaît au-dessus de la *couche de blocage*
+* Un champ électrique apparaît au-dessus de la *couche de blocage*
 * L'échange s'arrête dès que le champ électrique devient trop fort pour les électrons
 </right>
 

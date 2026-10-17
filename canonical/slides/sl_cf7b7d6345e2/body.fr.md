@@ -6,12 +6,16 @@
 * Exemple : DM4EAX et DN4EAX
 </note>
 
+
+
 ---
 
 ### Solution
 
 * Chaque lettre est associée à un mot
 * Au lieu de la lettre, on prononce le mot correspondant
+
+
 
 ---
 
@@ -26,6 +30,8 @@
 <note>
 * L'UIT et le règlement des radiocommunications seront approfondis plus tard
 </note>
+
+
 
 --- style="font-size: 0.7em;"
 
@@ -43,6 +49,7 @@
 | J | Juliett | DJU-LI-ETT |
 | K | Kilo | KI-LO |
 | L | Lima | LI-MA |
+| M | Mike | MAÏK |
 [table:n_buchstabiertafel_1:Le tableau d'épellation de l'UIT]
 </left>
 <right>
@@ -67,12 +74,16 @@
 * Veiller à une prononciation correcte
 </note>
 
+
+
 ---
 
 ### Chiffres / Nombres
 
 * Les chiffres sont épelés en allemand dans le trafic radio national
 * En trafic radio international, ils sont épelés en anglais
+
+
 
 ---
 
@@ -82,23 +93,49 @@
 * Il existe des variantes (Nancy, Sugar, Ocean, Queen, etc.) qui peuvent être utilisées en complément
 * Les umlauts s'épellent AE, OE, UE et SS
 
+
 ---
+
 [question:VD206]
+
 ---
+
 [question:BA103]
+
 ---
+
 [question:BA104]
+
+
 ---
+
+[question:BA110]
+
+
+---
+
 [question:BA109]
+
 ---
+
 [question:BA101]
+
 ---
+
 [question:BA105]
+
 ---
+
 [question:BA106]
+
 ---
+
 [question:BA102]
+
 ---
+
 [question:BA107]
+
 ---
+
 [question:BA108]

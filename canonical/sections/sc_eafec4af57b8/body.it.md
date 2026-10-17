@@ -1,6 +1,6 @@
-Nella [modulazione a spostamento di fase](#) (Phase-Shift Keying, PSK), i diversi simboli vengono rappresentati da diverse posizioni di fase di un segnale portante. L’[ampiezza](#) e la [frequenza](#) del portante rimangono invariate. Al passaggio da un simbolo a un altro, invece, può cambiare la posizione di fase.
+Nella modulazione a spostamento di fase (Phase-Shift Keying, PSK), i diversi simboli vengono rappresentati da diverse posizioni di fase di un segnale portante. L’ampiezza e la frequenza del portante rimangono invariate. Al passaggio da un simbolo a un altro, invece, può cambiare la posizione di fase.
 
-La figura [ref:a_psk](#) mostra un segnale PSK nel dominio del tempo. Nei punti di transizione dei simboli si nota che l’[oscillazione](#) prosegue con una posizione di fase diversa.
+La figura ref:a_psk mostra un segnale PSK nel dominio del tempo. Nei punti di transizione dei simboli si nota che l’oscillazione prosegue con una posizione di fase diversa.
 
 
 <margin>
@@ -9,7 +9,7 @@ La figura [ref:a_psk](#) mostra un segnale PSK nel dominio del tempo. Nei punti 
 
 ---
 
-La forma più semplice è la modulazione binaria a spostamento di fase (Binary Phase-Shift Keying, BPSK). In questo caso sono disponibili due posizioni di fase diverse e quindi due simboli possibili. Ad esempio, possono essere utilizzate le posizioni di fase $\qty{0}{\degree}$ e $\qty{180}{\degree}$ e associate ai valori di [bit](#) $0$ e $1$. La figura [ref:a_psk_mapping](#) mostra una possibile mappatura dei due valori di bit sui due simboli BPSK.
+La forma più semplice è la modulazione binaria a spostamento di fase (Binary Phase-Shift Keying, BPSK). In questo caso sono disponibili due posizioni di fase diverse e quindi due simboli possibili. Ad esempio, possono essere utilizzate le posizioni di fase $\qty{0}{\degree}$ e $\qty{180}{\degree}$ e associate ai valori di bit $0$ e $1$. La figura ref:a_psk_mapping mostra una possibile mappatura dei due valori di bit sui due simboli BPSK.
 
 
 Poiché i due simboli differiscono solo per la loro posizione di fase e la loro ampiezza è uguale, i due punti nel diagramma di costellazione si trovano opposti su una circonferenza.
@@ -35,24 +35,24 @@ Questo è un caso speciale. Sarebbero possibili anche altri angoli di fase, ad e
 
 ---
 
-Utilizzando più posizioni di fase diverse, è possibile rappresentare un numero maggiore di simboli. In questo modo, diversi [bit](#) possono essere raggruppati in un singolo simbolo.
+Utilizzando più posizioni di fase diverse, è possibile rappresentare un numero maggiore di simboli. In questo modo, diversi bit possono essere raggruppati in un singolo simbolo.
 
 
 ---
 
-Nella modulazione quadrifase (Quadrature Phase-Shift Keying, QPSK), sono disponibili quattro posizioni di fase diverse e quindi quattro simboli possibili. Poiché esistono quattro combinazioni di bit possibili con due [bit](#), con ogni simbolo possono essere trasmessi due [bit](#).
+Nella modulazione quadrifase (Quadrature Phase-Shift Keying, QPSK), sono disponibili quattro posizioni di fase diverse e quindi quattro simboli possibili. Poiché esistono quattro combinazioni di bit possibili con due bit, con ogni simbolo possono essere trasmessi due bit.
 
 
 Per confronto:
 
-* BPSK: $\num{2}$ simboli → $\num{1}$ [bit](#) per simbolo
-* QPSK: $\num{4}$ simboli → $\num{2}$ [bit](#) per simbolo
-* 8-PSK: $\num{8}$ simboli → $\num{3}$ [bit](#) per simbolo
+* BPSK: $\num{2}$ simboli → $\num{1}$ bit per simbolo
+* QPSK: $\num{4}$ simboli → $\num{2}$ bit per simbolo
+* 8-PSK: $\num{8}$ simboli → $\num{3}$ bit per simbolo
 
 [question:AE402]
 
 
-Analizziamo ora la QPSK nel diagramma di costellazione. I quattro simboli possibili hanno la stessa ampiezza, ma differiscono per la loro posizione di fase. Pertanto, tutti e quattro i punti del segnale si trovano su una circonferenza. La figura [ref:a_qpsk](#) mostra una possibile mappatura delle quattro combinazioni di bit $00$, $01$, $10$ e $11$ sui quattro simboli QPSK.
+Analizziamo ora la QPSK nel diagramma di costellazione. I quattro simboli possibili hanno la stessa ampiezza, ma differiscono per la loro posizione di fase. Pertanto, tutti e quattro i punti del segnale si trovano su una circonferenza. La figura ref:a_qpsk mostra una possibile mappatura delle quattro combinazioni di bit $00$, $01$, $10$ e $11$ sui quattro simboli QPSK.
 
 
 <margin>
@@ -81,7 +81,7 @@ Le quattro posizioni di fase sono sfasate tra loro di $\qty{90}{\degree}$. Il ri
 L’assegnazione delle combinazioni di bit alle singole posizioni di fase non è univocamente definita. È fondamentale che a ogni simbolo venga assegnata una combinazione di bit univoca.
 
 
-In pratica, la mappatura viene spesso scelta in modo che le combinazioni di bit dei punti di segnale adiacenti differiscano solo per un [bit](#). Tale assegnazione viene chiamata *codice di Gray*. Se a causa di rumore viene erroneamente riconosciuto un punto di segnale adiacente, ciò comporta spesso un singolo errore di [bit](#).
+In pratica, la mappatura viene spesso scelta in modo che le combinazioni di bit dei punti di segnale adiacenti differiscano solo per un bit. Tale assegnazione viene chiamata *codice di Gray*. Se a causa di rumore viene erroneamente riconosciuto un punto di segnale adiacente, ciò comporta spesso un singolo errore di bit.
 
 
 Il diagramma di costellazione evidenzia quindi una differenza fondamentale tra ASK e PSK: nell’ASK i simboli differiscono per la loro distanza dall’origine e si trovano generalmente solo sull’asse positivo I, mentre nella PSK differiscono per l’angolo. Nella PSK, quindi, i punti del segnale si trovano su una circonferenza se l’ampiezza è uguale.

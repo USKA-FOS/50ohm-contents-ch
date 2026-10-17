@@ -1,4 +1,4 @@
-Dans la classe E, l’atténuation des câbles a déjà été abordée. Comme l’atténuation est souvent indésirable, les questions suivantes ont pour but de sélectionner, à partir du *diagramme d’atténuation du câble* du *recueil de formules*, un câble dont l’atténuation ne dépasse pas une valeur donnée, mais présente une atténuation plus faible.
+Dans la classe E, l’atténuation des câbles a déjà été abordée. Comme l’atténuation est souvent indésirable, les questions suivantes ont pour but de sélectionner, à partir du diagramme d’atténuation du câble du recueil de formules, un câble dont l’atténuation ne dépasse pas une valeur donnée, mais présente une atténuation plus faible.
 
 [question:AG309]
 [question:AG310]

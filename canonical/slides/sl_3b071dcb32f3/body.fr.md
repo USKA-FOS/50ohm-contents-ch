@@ -3,8 +3,8 @@
 </left>
 <right>
 * Des tiges conductrices sont disposées de manière stratégique devant et derrière le dipôle
-* Concentre les **ondes radio** dans une direction donnée
-* Appartient aux *antennes directionnelles* $\rightarrow$ orientée vers la **station correspondante**
+* Concentre les ondes radio dans une direction donnée
+* Appartient aux *antennes directionnelles* $\rightarrow$ orientée vers la station correspondante
 </right>
 <note>
 * La concentration est comparable à la lumière d’une lampe torche

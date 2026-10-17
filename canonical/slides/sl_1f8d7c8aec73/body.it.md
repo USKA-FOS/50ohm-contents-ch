@@ -1,8 +1,8 @@
 * I mixer e gli amplificatori generano componenti di frequenza indesiderate
-* Se questi raggiungono l’[antenna](#) e vengono irradiati → *emissioni indesiderate*
+* Se questi raggiungono l’antenna e vengono irradiati → *emissioni indesiderate*
 * Spesso si trovano al di fuori delle bande di frequenza amatoriali, ad esempio nella banda aeronautica o nelle trasmissioni radiofoniche commerciali
 * *Il trasmettitore deve sempre essere utilizzato in modo da non generare emissioni indesiderate*
-* Possono essere ridotte con un [filtro passa-banda](#)
+* Possono essere ridotte con un filtro passa-banda
   * Lascia passare solo la banda di frequenza desiderata
   * Blocca tutte le frequenze al di sopra e al di sotto
 

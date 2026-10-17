@@ -1,7 +1,7 @@
 ## Equipotenzializzazione e messa a terra
 
 * Con l'*equipotenzializzazione* si evita una tensione di contatto pericolosa tra i dispositivi
-* Tramite la *messa a terra* si deviano verso la *terra* correnti elettriche indesiderate (ad esempio in caso di guasto) dal telaio
+* Tramite la *messa a terra* si deviano verso la terra correnti elettriche indesiderate (ad esempio in caso di guasto) dal telaio
 
 ---
 

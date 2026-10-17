@@ -12,8 +12,8 @@
 <left>
 * La superficie terrestre viene suddivisa in $\num{18662400}$ quadrati
 * In Germania, un quadrato corrisponde approssimativamente a una precisione di $\qty{5}{\kilo\meter}\times\qty{5}{\kilo\meter}$
-* Questi quadrati vengono chiamati *Subsquares*
-* A un livello superiore ci sono *Squares* e *Fields*
+* Questi quadrati vengono chiamati Subsquares
+* A un livello superiore ci sono Squares e Fields
 </left>
 <right>
 [photo:4:n_locator_welt:Locator Maidenhead a livello mondiale. Dati cartografici © OpenStreetMap contributors, SRTM. Rappresentazione cartografica © OpenTopoMap (CC-BY-SA)]
@@ -28,7 +28,7 @@
 [photo:2:n_locator_jo:Il campo JO del sistema Maidenhead-Locator. Dati cartografici © OpenStreetMap contributors, SRTM. Rappresentazione cartografica © OpenTopoMap (CC-BY-SA)]
 
 <note>
-Vengono mostrati i *Squares* del campo JO
+Vengono mostrati i Squares del campo JO
 </note>
 
 --- style="font-size: 0.7em;"

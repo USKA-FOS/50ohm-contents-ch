@@ -1,4 +1,4 @@
-Le moyen le plus simple de détecter une erreur consiste à ajouter un bit supplémentaire, le bit de parité. On l'appelle aussi *Parity Bit*. Cette méthode existe sous deux variantes. Avec la *parité paire* (*Even Parity*), la valeur de ce bit est choisie pour chaque bloc de sorte que le nombre de bits à $\num{1}$ soit toujours pair. Avec la *parité impaire* (*Odd Parity*), le nombre doit toujours être impair. L'émetteur et le récepteur doivent convenir de la variante utilisée avant la transmission.
+Le moyen le plus simple de détecter une erreur consiste à ajouter un bit supplémentaire, le bit de parité. On l'appelle aussi *Parity Bit*. Cette méthode existe sous deux variantes. Avec la parité paire (*Even Parity*), la valeur de ce bit est choisie pour chaque bloc de sorte que le nombre de bits à $\num{1}$ soit toujours pair. Avec la parité impaire (*Odd Parity*), le nombre doit toujours être impair. L'émetteur et le récepteur doivent convenir de la variante utilisée avant la transmission.
 
 <indepth>
 Prenons l'exemple de la transmission d'un octet avec parité paire :

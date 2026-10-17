@@ -5,7 +5,7 @@
 
 ---
 
-In genere, una stazione radioamatoriale viene utilizzata da una sola persona. Tuttavia, esistono anche associazioni di radioamatori che gestiscono una stazione, denominata *stazione club*. Oltre ai nominativi personali, per questi gruppi vengono assegnati nominativi speciali per l'uso presso la stazione club. Questi sono chiamati *nominativi di associazione*.
+In genere, una stazione radioamatoriale viene utilizzata da una sola persona. Tuttavia, esistono anche associazioni di radioamatori che gestiscono una stazione, denominata stazione club. Oltre ai nominativi personali, per questi gruppi vengono assegnati nominativi speciali per l'uso presso la stazione club. Questi sono chiamati nominativi di associazione.
 
 ---
 % Rielaborare la tabella per includere esempi di nominativi (associazioni, contest, forze armate)

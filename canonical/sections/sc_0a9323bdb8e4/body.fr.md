@@ -6,23 +6,33 @@ ici se trouvent toutes les différentes boîtes comme modèles
 </margin>
 
 <indepth>
-Ceci est un texte modèle avec la commande <indepth>. Cela génère la boîte grise « Approfondissement ».
+Ceci est un texte modèle avec la commande 
+<indepth>
+. Cela génère la boîte grise « Approfondissement ».
 </indepth>
 
 <tip>
-Ceci est un texte modèle avec la commande <tip>. Cela génère la boîte rouge « Astuce ».
+Ceci est un texte modèle avec la commande 
+<tip>
+. Cela génère la boîte rouge « Astuce ».
 </tip>
 
 <attention>
-Ceci est un texte modèle avec la commande <attention>. Cela génère la boîte jaune « Attention ».
+Ceci est un texte modèle avec la commande 
+<attention>
+. Cela génère la boîte jaune « Attention ».
 </attention>
 
 <danger>
-Ceci est un texte modèle avec la commande <danger>. Cela génère la boîte rouge « Danger ».
+Ceci est un texte modèle avec la commande 
+<danger>
+. Cela génère la boîte rouge « Danger ».
 </danger>
 
 <unit>
-Ceci est un texte modèle avec la commande <unit>. Cela génère la boîte verte « Nouvelle unité ».
+Ceci est un texte modèle avec la commande 
+<unit>
+. Cela génère la boîte verte « Nouvelle unité ».
 </unit>
 
 <law>

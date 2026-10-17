@@ -3,7 +3,7 @@ Il ricevitore e l'antenna vengono solitamente collegati tramite un cavo coassial
 Per l'esame DE è necessario riconoscere quattro sistemi in base alla loro forma (cfr. [ref:swl_steckverbinder_uebersicht]).
 
 <margin>
-| Sistema X | Caratteristiche e utilizzo |
+| X: Sistema X | X: Caratteristiche e utilizzo |
 | PL        | grande filettatura a vite; frequente sulle onde corte e sulla banda dei $\qty{2}{\meter}$ |
 | N         | connessione a vite resistente alle intemperie; adatta per alte frequenze |
 | BNC       | attacco a baionetta; viene bloccato con una breve rotazione |

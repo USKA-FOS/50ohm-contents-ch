@@ -22,7 +22,7 @@ I due simboli possibili possono anche essere rappresentati nel diagramma di cost
 
 ---
 
-Una *modulazione a spostamento di ampiezza* non è limitata a due ampiezze possibili. Se, ad esempio, vengono utilizzate quattro diverse ampiezze, sono disponibili quattro simboli diversi. Poiché con due bit si possono formare quattro diverse combinazioni di bit, a ciascun simbolo può essere assegnata una delle combinazioni $00$, $01$, $10$ o $11$.
+Una modulazione a spostamento di ampiezza non è limitata a due ampiezze possibili. Se, ad esempio, vengono utilizzate quattro diverse ampiezze, sono disponibili quattro simboli diversi. Poiché con due bit si possono formare quattro diverse combinazioni di bit, a ciascun simbolo può essere assegnata una delle combinazioni $00$, $01$, $10$ o $11$.
 
 La figura [ref:a_4_ask] mostra una tale *4-ASK* con quattro diverse ampiezze nella rappresentazione temporale. Ad esempio, possono essere utilizzati $\qty{25}{\percent}$, $\qty{50}{\percent}$, $\qty{75}{\percent}$ e $\qty{100}{\percent}$ dell'ampiezza massima. Con ogni simbolo possono quindi essere trasmessi due bit.
 

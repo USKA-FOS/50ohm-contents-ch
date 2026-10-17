@@ -10,8 +10,8 @@
 ---
 
 * Après qu'un fusible miniature a déclenché et que la cause a été corrigée, il doit être remplacé.
-* Les fusibles défectueux ne doivent être remplacés que par des fusibles de même type !
-* Il faut veiller à la fois à l'intensité du courant et à la caractéristique de déclenchement, qui indique à quelle vitesse un fusible réagit (rapide, moyenne, lente).
+* Les fusibles défectueux *ne doivent être remplacés que par des fusibles de même type* !
+* Il faut veiller à la fois à l'*intensité du courant* et à la *caractéristique de déclenchement*, qui indique à quelle vitesse un fusible réagit (rapide, moyenne, lente).
 
 ---
 

@@ -8,7 +8,7 @@ Se, invece, l’impedenza di alimentazione dell’antenna e l’impedenza caratt
 [photo:144:swr_meter:Un semplice rosmetro per determinare il rapporto d’onda stazionaria]
 </margin>
 
-La qualità dell’adattamento dell’antenna può essere misurata. In modo semplificato, si determina quanta potenza di trasmissione viene riflessa dall’antenna. Il valore misurato visualizzato dallo strumento di misura viene chiamato *rapporto d’onda stazionaria*. Spesso si utilizza l’abbreviazione SWR, derivata dall’inglese "standing wave ratio". Per determinare il SWR si utilizza un *misuratore di ROS*, detto brevemente *rosmetro*.
+La qualità dell’adattamento dell’antenna può essere misurata. In modo semplificato, si determina quanta potenza di trasmissione viene riflessa dall’antenna. Il valore misurato visualizzato dallo strumento di misura viene chiamato *rapporto d’onda stazionaria*. Spesso si utilizza l’abbreviazione *SWR*, derivata dall’inglese "standing wave ratio". Per determinare il SWR si utilizza un *misuratore di ROS*, detto brevemente *rosmetro*.
 
 % TODO: Specifico per l’edizione
 <indepth>

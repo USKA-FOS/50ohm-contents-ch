@@ -23,7 +23,7 @@ L'ora deve essere convertita correttamente in UTC. Per ricordarlo: in inverno in
 [question:BG107]
 [question:BG108]
 
-Per l'invio postale diretto gli indirizzi possono essere cercati negli elenchi internazionali dei nominativi, detti *callbooks*, o su internet.
+Per l'invio postale diretto gli indirizzi possono essere cercati negli elenchi internazionali dei nominativi, detti callbooks, o su internet.
 
 [question:BG110]
 

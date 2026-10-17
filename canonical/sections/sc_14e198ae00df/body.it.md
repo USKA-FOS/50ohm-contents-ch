@@ -1,4 +1,4 @@
-Se il ricevitore rileva un errore di trasmissione, ad esempio tramite bit di controllo, può richiedere al trasmettitore una ritrasmissione dei dati. Con la *correzione d’errore in avanti* (FEC, *Forward Error Correction*), invece, spesso non è necessario ritrasmettere. A tal fine, ai dati utili vengono aggiunte informazioni aggiuntive, ad esempio più bit di controllo. In questo modo, il ricevitore può, in determinate condizioni, non solo rilevare che si è verificato un errore, ma anche identificare quale bit è errato e correggerlo. In inglese, questa procedura è chiamata *Forward Error Correction* (FEC).
+Se il ricevitore rileva un errore di trasmissione, ad esempio tramite bit di controllo, può richiedere al trasmettitore una ritrasmissione dei dati. Con la *correzione d’errore in avanti* (FEC, *Forward Error Correction*), invece, spesso non è necessario ritrasmettere. A tal fine, ai dati utili vengono aggiunte informazioni aggiuntive, ad esempio più bit di controllo. In questo modo, il ricevitore può, in determinate condizioni, non solo rilevare che si è verificato un errore, ma anche identificare quale bit è errato e correggerlo. In inglese, questa procedura è chiamata Forward Error Correction (FEC).
 
 
 Come funziona nel dettaglio è illustrato nell’approfondimento accanto, prendendo come esempio un codice di Hamming. Il procedimento esatto non è rilevante per l’esame.
@@ -38,7 +38,7 @@ Ogni bit di parità protegge un gruppo specifico:
 [picture:686:hamming5:]
 
 
-Per ciascuno di questi gruppi calcoliamo ora il corrispondente bit di parità con *parità pari* (*Even Parity*):
+Per ciascuno di questi gruppi calcoliamo ora il corrispondente bit di parità con parità pari (*Even Parity*):
 
 
 [picture:687:hamming6:]
@@ -57,3 +57,4 @@ Anche un errore in un bit di parità stesso può essere rilevato e corretto. Se,
 
 
 Il codice di Hamming mostrato qui è progettato per correggere un singolo errore di bit. Se si verificano più errori di bit contemporaneamente, dalle verifiche di parità non è più possibile determinare in modo affidabile la posizione effettiva dell’errore. Codici di Hamming avanzati possono, ad esempio, rilevare in modo sicuro due errori di bit che si verificano contemporaneamente.
+</indepth>

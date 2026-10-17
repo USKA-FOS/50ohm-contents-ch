@@ -1,6 +1,6 @@
 ---
 
-Con un *registro di stazione* si ha la possibilità di documentare le proprie attività radioamatoriali. Un registro può essere tenuto sia in formato elettronico che manualmente su carta. Analogamente a un giornale di bordo di una nave o di un aereo, si possono così registrare tutte le informazioni importanti relative ai collegamenti radio effettuati. Più raramente, il registro di stazione viene anche chiamato *diario di stazione*.
+Con un *registro di stazione* si ha la possibilità di documentare le proprie attività radioamatoriali. Un registro può essere tenuto sia in formato elettronico che manualmente su carta. Analogamente a un giornale di bordo di una nave o di un aereo, si possono così registrare tutte le informazioni importanti relative ai collegamenti radio effettuati. Più raramente, il registro di stazione viene anche chiamato diario di stazione.
 
 <indepth>
 I dati che di solito vengono registrati in un registro di stazione per ogni collegamento radio sono:

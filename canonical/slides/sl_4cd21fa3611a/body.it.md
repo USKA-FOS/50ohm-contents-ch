@@ -1,19 +1,19 @@
 <left>
-* Un multimetro semplice non può misurare le *resistenze* dipendenti dalla *frequenza*
+* Un multimetro semplice non può misurare le resistenze dipendenti dalla frequenza
 * Per questo si utilizza un *analizzatore di reti vettoriale (VNA)*
 </left>
 <right>
 * Strumento di misura attivo
-* Misura il *rapporto* tra *tensione* e *corrente* a una data *frequenza*
-* Spesso è possibile specificare un *banda di frequenza*
+* Misura il rapporto tra tensione e corrente a una data frequenza
+* Spesso è possibile specificare un banda di frequenza
 </right>
 
 ---
 ## Applicazioni
 
 <left>
-* Grandi e piccole *resistenze* di un *circuito oscillante*
-* *Frequenza di risonanza* di un *circuito oscillante*
+* Grandi e piccole resistenze di un circuito oscillante
+* Frequenza di risonanza di un circuito oscillante
 * Comportamento dei filtri
 * Misura dell'impedenza
 * Rapporto di onda stazionaria
@@ -36,9 +36,9 @@
 ## Calibrazione
 
 * Calibrare lo strumento prima dell'uso
-* Condizione *aperto*: *resistenza* infinita
-* Condizione *cortocircuito*: *resistenza* prossima a zero
-* Condizione *adattata*: ad esempio con una *resistenza* da $\qty{50}{\ohm}$ dovrebbe essere visualizzato un ROS di $\num{1}$
+* Condizione *aperto*: resistenza infinita
+* Condizione *cortocircuito*: resistenza prossima a zero
+* Condizione *adattata*: ad esempio con una resistenza da $\qty{50}{\ohm}$ dovrebbe essere visualizzato un ROS di $\num{1}$
 
 ---
 [question:EI205]

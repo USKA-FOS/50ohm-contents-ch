@@ -1,4 +1,4 @@
-* La longueur d’onde $\lambda$ dans l’<i>espace libre</i> est liée à la fréquence $f$ par la vitesse de la lumière $c_0$
+* La longueur d’onde $\lambda$ dans l’espace libre est liée à la fréquence $f$ par la vitesse de la lumière $c_0$
 * L’espace libre désigne : le vide, l’air
 * Vitesse de la lumière $c_0 = \qty{299792458}{\meter\per\second}$
 * En radioamateurisme, on utilise $c = \qty{3e8}{\meter\per\second}$

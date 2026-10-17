@@ -14,6 +14,6 @@ La propagation des ondes varie en fonction de l'heure de la journée, de la sais
 
 ---
 
-Les bandes d'ondes courtes basses sont souvent particulièrement intéressantes le soir et la *nuit*. Les bandes d'ondes courtes plus élevées s'ouvrent plutôt le jour. Il s'agit de règles empiriques, non de garanties : c'est précisément ces variations qui rendent l'observation passionnante.
+Les bandes d'ondes courtes basses sont souvent particulièrement intéressantes le soir et la nuit. Les bandes d'ondes courtes plus élevées s'ouvrent plutôt le jour. Il s'agit de règles empiriques, non de garanties : c'est précisément ces variations qui rendent l'observation passionnante.
 
-Entre la portée de l’*onde de sol* et la première apparition de l’*onde spatiale*, il peut exister une *zone de silence* (cf. [ref:swl_ionosphaere_ausbreitung]). Dans ce cas, il est possible de n'entendre qu'une seule station d'un QSO, bien que les deux parties se reçoivent correctement.
+Entre la portée de l’onde de sol et la première apparition de l’onde spatiale, il peut exister une *zone de silence* (cf. [ref:swl_ionosphaere_ausbreitung]). Dans ce cas, il est possible de n'entendre qu'une seule station d'un QSO, bien que les deux parties se reçoivent correctement.

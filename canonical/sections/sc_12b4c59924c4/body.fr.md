@@ -1,4 +1,4 @@
-Lorsqu’on émet depuis un lieu autre que son domicile, on peut *volontairement* ajouter un suffixe à son **indicatif d’appel**. Le tableau [ref:n_rufzeichenzusaetze] présente les suffixes officiels qui peuvent être ajoutés à l’indicatif. Aucun autre suffixe n’est autorisé.
+Lorsqu’on émet depuis un lieu autre que son domicile, on peut *volontairement* ajouter un suffixe à son indicatif d’appel. Le tableau [ref:n_rufzeichenzusaetze] présente les suffixes officiels qui peuvent être ajoutés à l’indicatif. Aucun autre suffixe n’est autorisé.
 
 | l: Suffixe | l: Prononciation | X: Signification |
 | am | aéro mobile | À bord d’un aéronef en vol |
@@ -8,7 +8,7 @@ Lorsqu’on émet depuis un lieu autre que son domicile, on peut *volontairement
 [table:n_rufzeichenzusaetze:Suffixes d’indicatif d’appel possibles]
 
 
-Le suffixe s’ajoute à l’indicatif avec un "/". En **radiotéléphonie**, il peut être prononcé immédiatement après l’indicatif ou précédé du mot "Stroke". Le tableau [ref:n_rufzeichenzusaetze_sprechweise] donne des exemples d’écriture et de prononciation.
+Le suffixe s’ajoute à l’indicatif avec un "/". En radiotéléphonie, il peut être prononcé immédiatement après l’indicatif ou précédé du mot "Stroke". Le tableau [ref:n_rufzeichenzusaetze_sprechweise] donne des exemples d’écriture et de prononciation.
 
 | l: Écriture | X: Prononciation |
 | HB9AOI/p | Hotel Bravo Neuf Alpha Oscar India (Stroke) Portable |
@@ -23,7 +23,7 @@ Si vous installez votre station temporairement, par exemple lors d’une activit
 [question:BD206]
 [question:BD207]
 
-Si vous vous trouvez dans un véhicule terrestre comme une voiture ou un train, vous pouvez utiliser le suffixe "/m" pour indiquer un fonctionnement en **mobilité**. Cela s’applique également à bord d’un navire naviguant sur une voie d’eau intérieure.
+Si vous vous trouvez dans un véhicule terrestre comme une voiture ou un train, vous pouvez utiliser le suffixe "/m" pour indiquer un fonctionnement en mobilité. Cela s’applique également à bord d’un navire naviguant sur une voie d’eau intérieure.
 
 [question:BD203]
 [question:BD204]
@@ -40,7 +40,7 @@ Si vous naviguez avec un bateau à moteur, un voilier ou tout autre navire *hors
 [question:BD205]
 [question:VO032]
 
-Si vous vous trouvez à bord d’un aéronef, comme un avion, une montgolfière, un zeppelin ou autre, et souhaitez effectuer un **fonctionnement en émission**, vous pouvez ajouter le suffixe /am (aéro mobile) à votre indicatif. L’aéronef doit être entièrement en vol et ne pas être relié au sol, par exemple par des câbles de maintien. L’autorisation pour l’activité radio doit être donnée par le commandant de bord avant le début des opérations, mais pas par l’OFCOM.
+Si vous vous trouvez à bord d’un aéronef, comme un avion, une montgolfière, un zeppelin ou autre, et souhaitez effectuer un fonctionnement en émission, vous pouvez ajouter le suffixe /am (aéro mobile) à votre indicatif. L’aéronef doit être entièrement en vol et ne pas être relié au sol, par exemple par des câbles de maintien. L’autorisation pour l’activité radio doit être donnée par le commandant de bord avant le début des opérations, mais pas par l’OFCOM.
 
 [question:VO022]
 [question:BD201]

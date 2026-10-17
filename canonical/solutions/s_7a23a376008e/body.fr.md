@@ -3,7 +3,7 @@ Gain : $g = \qty{16}{\dezibel}$
 Puissance d'entrée : $P_1 = \qty{1}{\watt}$
 
 # Méthode de résolution 1
-Nous utilisons la formule du *recueil de formules* (niveau, gain, puissance) :  
+Nous utilisons la formule du recueil de formules (niveau, gain, puissance) :  
 $ g = 10 \cdot \log_{10}\left(\frac{P_2}{P_1}\right)\unit{\dB}$  
 et nous résolvons pour $P_2$ :
 $P_2 = P_1 \cdot 10^{\frac{g}{\qty{10}{\dB}}}$  
@@ -11,7 +11,7 @@ Avec les valeurs numériques de la question d'examen :
 $P_2 = \qty{1}{\watt} \cdot 10^{\frac{\qty{16}{\dB}}{\qty{10}{\dB}}} = \qty{39.81}{\watt}$
 
 # Méthode de résolution 2
-Nous utilisons le tableau du *recueil de formules* ainsi que la propriété du logarithme :  
+Nous utilisons le tableau du recueil de formules ainsi que la propriété du logarithme :  
 Le logarithme d'un produit correspond à l'addition des logarithmes des facteurs :
 
 $\log\left(a\right)+\log\left(b\right) = \log\left(a \cdot b\right)$

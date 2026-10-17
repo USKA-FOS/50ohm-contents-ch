@@ -20,7 +20,7 @@
 
 * Polarizzazione *circolare*
 * Onde radio rotanti con una particolare forma costruttiva dell’antenna
-* Distinzione tra polarizzazione circolare *levogira* e *destrogira*
+* Distinzione tra polarizzazione circolare levogira e destrogira
 
 <note>
 Maggiori dettagli su questo argomento nei corsi per le classi E e A

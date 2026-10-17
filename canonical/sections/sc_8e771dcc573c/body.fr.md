@@ -1,4 +1,4 @@
-Pour des événements particuliers d’importance générale, comme des événements historiques, des fêtes de ville ou des compétitions sportives, les associations de radioamateurisme en Suisse peuvent demander des **indicatifs d’appel spéciaux** avec un suffixe de quatre à sept caractères. Ainsi, l’ensemble de la communauté radioamateur peut participer à un événement.
+Pour des événements particuliers d’importance générale, comme des événements historiques, des fêtes de ville ou des compétitions sportives, les associations de radioamateurisme en Suisse peuvent demander des indicatifs d’appel spéciaux avec un suffixe de quatre à sept caractères. Ainsi, l’ensemble de la communauté radioamateur peut participer à un événement.
 
 Ces indicatifs spéciaux sont attribués par l’OFCOM pour une durée maximale d’un an. Un renouvellement n’est pas possible. Contrairement aux indicatifs d’appel mentionnés précédemment, le suffixe peut être composé de chiffres et de lettres. Le dernier caractère doit toujours être une lettre. Par exemple, des combinaisons comme HB100USKA sont possibles.
 

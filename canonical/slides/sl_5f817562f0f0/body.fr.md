@@ -1,6 +1,6 @@
 * Les fils d’une antenne peuvent avoir une longueur ou une forme quelconque
-* Cependant, leur *impédance caractéristique* est alors différente
-* Cette impédance doit être adaptée à la *ligne d’alimentation*, par exemple au moyen d’un transformateur HF
+* Cependant, leur impédance caractéristique est alors différente
+* Cette impédance doit être adaptée à la ligne d’alimentation, par exemple au moyen d’un transformateur HF
 
 ---
 [question:EG102]
@@ -9,7 +9,7 @@
 ---
 ### Chemin de résolution
 
-Au lieu d’utiliser directement la longueur d’onde approximative de la *bande 10 mètres*, nous convertissons d’abord la fréquence donnée en longueur d’onde exacte.
+Au lieu d’utiliser directement la longueur d’onde approximative de la bande 10 mètres, nous convertissons d’abord la fréquence donnée en longueur d’onde exacte.
 
 $\begin{split} l &= \frac{5}{8}\lambda\\ &= \frac{5}{8} \cdot \frac{\qty{300}{\mega\meter\per\second}}{\qty{28,5}{\mega\hertz}}\\ &\approx \frac{5}{8} \cdot \qty{10,53}{\meter}\\ &\approx \qty{6,58}{\meter}\\ \end{split}$
 

@@ -33,7 +33,7 @@ $Z = \sqrt{Z_\mathrm{E} \cdot Z_\mathrm{A}}$
 
 ---
 
-Spesso, per l’adattamento dell’impedenza, vengono utilizzati anche induttori e condensatori. Un esempio molto diffuso è il cosiddetto *filtro Pi*, che, oltre alla sua funzione di filtro passa-basso, consente anche una trasformazione dell’impedenza. Pertanto, un tale filtro Pi può essere impiegato anche come accordatore d’antenna.
+Spesso, per l’adattamento dell’impedenza, vengono utilizzati anche induttori e condensatori. Un esempio molto diffuso è il cosiddetto filtro Pi, che, oltre alla sua funzione di filtro passa-basso, consente anche una trasformazione dell’impedenza. Pertanto, un tale filtro Pi può essere impiegato anche come accordatore d’antenna.
 
 <indepth>
 *Il nome "filtro Pi"* deriva dalla disposizione dei componenti nel diagramma circuitale, che ricorda la lettera greca $\pi$, e non ha nulla a che fare con la costante Pi.

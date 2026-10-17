@@ -5,7 +5,7 @@
 * Autres termes : *résistance de terminaison* ou *antenne artificielle*
 </left>
 <right>
-[photo:68:n_adaptation_antenne_charge_fictive:Charge fictive]
+[photo:68:n_antennenanpassung_dummy_load:Charge fictive]
 </right>
 
 <note>

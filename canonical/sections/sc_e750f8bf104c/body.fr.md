@@ -48,7 +48,7 @@ Le recueil de formules de l'OFCOM définit le rapport d'ondes stationnaires (ROS
 
 s = (1 + |r|) / (1 − |r|)
 
-|r| = √P<sub>r</sub> / √P<sub>d</sub>
+$$|r| = \frac{\sqrt{P_\text{r}}}{\sqrt{P_\text{d}}}$$
 
 ---
 
@@ -72,3 +72,4 @@ s = (√P<sub>d</sub> + √P<sub>r</sub>) / (√P<sub>d</sub> − √P<sub>r</su
 En remplaçant les noms des variables (s → ROS et P<sub>d</sub> → P<sub>V</sub> pour la puissance incidente), on obtient exactement la formule cible :
 
 ROS = (√P<sub>V</sub> + √P<sub>R</sub>) / (√P<sub>V</sub> − √P<sub>R</sub>)
+</indepth>

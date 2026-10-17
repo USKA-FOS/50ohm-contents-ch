@@ -1,5 +1,5 @@
 <left>
-[picture:946:Raddrizzatore a onda intera D1 D2:Raddrizzamento a onda intera con due diodi]
+[picture:946:Vollwegleichrichter D1 D2:Raddrizzamento a onda intera con due diodi]
 Trasformatore con presa centrale e due diodi
 </left>
 <right>

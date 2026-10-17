@@ -1,4 +1,4 @@
-Nella **modulazione di frequenza (FM)** un segnale di modulazione viene impresso sul portante modificando la sua frequenza. L’ampiezza del portante, invece, non viene modificata e rimane idealmente costante.
+Nella modulazione di frequenza (FM) un segnale di modulazione viene impresso sul portante modificando la sua frequenza. L’ampiezza del portante, invece, non viene modificata e rimane idealmente costante.
 
 <margin>
 [picture:711:n_fm_wasserfall:Segnale di una trasmissione radioamatoriale FM (voce)]
@@ -16,7 +16,7 @@ Più forte è il volume della voce nel microfono, cioè maggiore è l’ampiezza
 
 ---
 
-Il valore massimo della variazione della frequenza portante viene definito *deviazione di frequenza portante* o semplicemente *deviazione*. In alcuni trasmettitori è possibile regolarla, mentre in altri no. Spesso è possibile passare tra due valori predefiniti: FM "normale" e FM a banda stretta (in inglese *Narrow-FM*, abbreviato in **NFM**), che occupa circa la metà della larghezza di banda.
+Il valore massimo della variazione della frequenza portante viene definito *deviazione di frequenza portante* o semplicemente *deviazione*. In alcuni trasmettitori è possibile regolarla, mentre in altri no. Spesso è possibile passare tra due valori predefiniti: FM "normale" e FM a banda stretta (in inglese Narrow-FM, abbreviato in NFM), che occupa circa la metà della larghezza di banda.
 
 <indepth>
 La *deviazione di frequenza portante* viene espressa, come la larghezza di banda, in Hz, ma non va confusa con essa. La deviazione indica la variazione massima della frequenza portante. La larghezza di banda è approssimativamente pari al doppio della somma tra la deviazione e la larghezza di banda del segnale in BF. Esempio: un segnale in BF con una larghezza di banda di $\qty{3}{\kilo\hertz}$ modulato con una deviazione di $\qty{3}{\kilo\hertz}$ genera una larghezza di banda di:

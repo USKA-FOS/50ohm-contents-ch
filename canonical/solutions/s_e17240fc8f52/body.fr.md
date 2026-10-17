@@ -1,4 +1,4 @@
-* La formule tirée du **recueil de formules** (voir **recueil de formules** – mot-clé : réactance inductive) est :
+* La formule tirée du recueil de formules (voir recueil de formules – mot-clé : réactance inductive) est :
   $X_L =\omega\cdot L = 2\pi\cdot f \cdot L$
 * Remplaçons par les valeurs données :
   $X_L = 2\pi\cdot\qty{100}{\mega\hertz}\cdot\qty{3}{\micro\henry}$

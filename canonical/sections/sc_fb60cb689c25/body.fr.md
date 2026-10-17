@@ -1,6 +1,6 @@
 ---
 
-De nombreux appareils radio disposent d’un port dit **DATA**, souvent marqué *DATA* ou *$\qty{9600}{\baud}$*, comme illustré dans la figure [ref:e_9600_port]. Ce port a été conçu à l’origine pour les applications Packet-Radio, aujourd’hui largement remplacées par HAMNET. Toutefois, il peut aussi servir à d’autres usages, par exemple pour le mode de transmission numérique de la voix M17. Dans ce cas, on y raccorde un modem adapté, souvent appelé TNC, comme montré dans la figure [ref:m17_tnc].
+De nombreux appareils radio disposent d’un port dit DATA, souvent marqué *DATA* ou *$\qty{9600}{\baud}$*, comme illustré dans la figure [ref:e_9600_port]. Ce port a été conçu à l’origine pour les applications Packet-Radio, aujourd’hui largement remplacées par HAMNET. Toutefois, il peut aussi servir à d’autres usages, par exemple pour le mode de transmission numérique de la voix M17. Dans ce cas, on y raccorde un modem adapté, souvent appelé TNC, comme montré dans la figure [ref:m17_tnc].
 
 <margin>
 [photo:303:e_9600_port:Appareil radio avec port DATA]

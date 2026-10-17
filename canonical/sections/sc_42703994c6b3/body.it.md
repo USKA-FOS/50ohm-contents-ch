@@ -16,7 +16,7 @@ In pratica, tuttavia, si formano anche molti prodotti di miscelazione indesidera
 
 L'obiettivo di un mixer è che, alla sua uscita, appaiano idealmente solo i prodotti di miscelazione desiderati, mentre i prodotti indesiderati e i segnali di ingresso vengano soppressi al massimo.
 
-Questo obiettivo si raggiunge al meglio con un cosiddetto *miscelatore bilanciato*. Esso è realizzato con 4 diodi o transistor collegati a formare un anello [ref:mischer_ringmischer]. Grazie alla sua struttura simmetrica, i segnali di ingresso vengono soppressi al massimo all'uscita. Altre tipologie di mixer, come ad esempio il mixer a diodi doppi, il mixer a transistor duali o il mixer a diodi additivi, a causa della loro struttura asimmetrica, trasmettono sempre uno dei segnali di ingresso all'uscita.
+Questo obiettivo si raggiunge al meglio con un cosiddetto miscelatore bilanciato. Esso è realizzato con 4 diodi o transistor collegati a formare un anello [ref:mischer_ringmischer]. Grazie alla sua struttura simmetrica, i segnali di ingresso vengono soppressi al massimo all'uscita. Altre tipologie di mixer, come ad esempio il mixer a diodi doppi, il mixer a transistor duali o il mixer a diodi additivi, a causa della loro struttura asimmetrica, trasmettono sempre uno dei segnali di ingresso all'uscita.
 
 <indepth>
 Funzionamento di un mixer ad anello:
@@ -25,7 +25,7 @@ L'oscillatore locale ($U_2$ nel diagramma) commuta sempre due diodi opposti in c
 
 In questo modo, il ring di diodi funziona come un invertitore di polarità per il segnale applicato all'ingresso ($U_1$).
 Per ottenere un buon risultato di miscelazione in termini di prodotti indesiderati e soppressione del segnale di ingresso, la sua ampiezza deve essere notevolmente inferiore a quella dell'oscillatore locale.
-Valori ottimali si ottengono con i cosiddetti *mixer ad anello ad alto livello*, la cui potenza di ingresso dell'oscillatore locale può arrivare fino a $\qty{10}{\milli\watt}$.
+Valori ottimali si ottengono con i cosiddetti mixer ad anello ad alto livello, la cui potenza di ingresso dell'oscillatore locale può arrivare fino a $\qty{10}{\milli\watt}$.
 
 <webonly>
 [include:applet_ringmodulator]

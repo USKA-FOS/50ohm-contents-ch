@@ -42,7 +42,7 @@ Ulteriori dettagli sono disponibili nel capitolo [sec:widerstand_toleranz].
 
 ---
 
-La tabella con i codici colore non deve essere imparata a memoria. È fornita come parte della *raccolta di formule* durante l'esame come strumento ausiliario. Tuttavia, è opportuno ricordare la disposizione degli anelli e il loro significato. Per esercitarsi, si possono risolvere le seguenti domande utilizzando il codice colore per acquisire familiarità.
+La tabella con i codici colore non deve essere imparata a memoria. È fornita come parte della raccolta di formule durante l'esame come strumento ausiliario. Tuttavia, è opportuno ricordare la disposizione degli anelli e il loro significato. Per esercitarsi, si possono risolvere le seguenti domande utilizzando il codice colore per acquisire familiarità.
 
 <indepth>
 *Approfondimento:* Esistono anche resistori con più di quattro anelli colorati. Tuttavia, questi non sono rilevanti per l'esame. Anche altri componenti sono spesso contrassegnati con anelli colorati.

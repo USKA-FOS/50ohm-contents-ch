@@ -1,6 +1,6 @@
 ## Gruppi Q
 <left>
-* Definiti nel *regolamento delle radiocomunicazioni* (RR)
+* Definiti nel regolamento delle radiocomunicazioni (RR)
 * Composti da 3 caratteri
 * Utilizzati come domanda, risposta o richiesta
 </left>
@@ -29,7 +29,7 @@ QTH Berlino $\rightarrow$ QTH?
 
 ---
 * QRT: Interrompere la trasmissione (*t*erminate = terminare)
-* QRZ?: Chi mi ha chiamato? (Richiesta: ripetere il *nominativo* una seconda volta)
+* QRZ?: Chi mi ha chiamato? (Richiesta: ripetere il nominativo una seconda volta; in tedesco: ein *z*weites Mal)
 * QSL: Conferma di ricezione o come domanda: Richiesta di conferma di ricezione (tutto *l*ogato?)
 
 ---
@@ -45,8 +45,8 @@ QTH Berlino $\rightarrow$ QTH?
 [question:BE115]
 
 ---
-* QRO: *o*ttima potenza, o come domanda: Devo aumentare la *potenza di trasmissione*?
-* QSO: termine colloquiale per *collegamento radio*, correttamente come domanda: Potete stabilire un *collegamento radio* diretto con ...?
+* QRO: *o*ttima potenza, o come domanda: Devo aumentare la potenza di trasmissione?
+* QSO: termine colloquiale per collegamento radio, correttamente come domanda: Potete stabilire un collegamento radio diretto con ...?
 * QRX: Vi richiamerò, o come domanda: Quando mi richiamerete al tempo *X*?
 
 ---
@@ -54,8 +54,8 @@ QTH Berlino $\rightarrow$ QTH?
 [question:BB202]
 
 ---
-* QRP: Richiesta di ridurre la *potenza di trasmissione*
-* Viene utilizzato anche per dispositivi o collegamenti con bassa *potenza di trasmissione* (inferiore a $\qty{5}{\watt}$)
+* QRP: Richiesta di ridurre la potenza di trasmissione
+* Viene utilizzato anche per dispositivi o collegamenti con bassa potenza di trasmissione (inferiore a $\qty{5}{\watt}$)
 * Particolarmente adatto per CW o procedure di trasmissione digitale
 
 ---
@@ -64,7 +64,7 @@ QTH Berlino $\rightarrow$ QTH?
 
 ---
 * QRN: Disturbi atmosferici (*n*aturali, per distinguerli da QRM)
-* QSB: Fading, segni incostanti ("su e *g*iù")
+* QSB: Fading, segni incostanti ("su e giù"; in tedesco: *b*ergauf e *b*ergab)
 * QSY: Cambio di frequenza ("Change Frequenc*y*")
 
 ---
@@ -79,21 +79,21 @@ QTH Berlino $\rightarrow$ QTH?
 
 --- style="font-size: 0.7em;"
 
-| l: | l: Significato | l: Aiuto mnemonico |
+| l:  | l: Significato | l: Aiuto mnemonico |
 | QRN | Disturbi atmosferici | *N*aturali |
 | QRM | Sono disturbato | *M*an-made |
-| QRO | Aumentare la *potenza di trasmissione*! | Aggiungere qualche watt *o*ltre |
-| QRP | Ridurre la *potenza di trasmissione*! | *P*iano (dolce, silenzioso), *P*ssst! |
+| QRO | Aumentare la potenza di trasmissione! | Aggiungere qualche watt *o*ltre |
+| QRP | Ridurre la potenza di trasmissione! | *P*iano (dolce, silenzioso), *P*ssst! |
 | QRT | Interrompere la trasmissione! | *T*erminate (terminare) |
 | QRV | Sono pronto | *v*orbereitet |
 [table:n_q_gruppen_1:Tutte le principali *gruppi Q* rilevanti per l'esame con aiuti mnemonici]
 
 --- style="font-size: 0.7em;"
 
-| l: | l: Significato | l: Aiuto mnemonico |
+| l:  | l: Significato | l: Aiuto mnemonico |
 | QRX? | Quando mi richiamerete? | Tempo *X* |
-| QRZ? | Chi mi ha chiamato? | Si prega di ripetere il *nominativo* una seconda volta! |
-| QSB | Fading, oscillazioni | Su e *g*iù |
+| QRZ? | Chi mi ha chiamato? | Si prega di ripetere il nominativo una seconda volta! (in tedesco: ein *z*weites Mal) |
+| QSB | Fading, oscillazioni | Su e giù (in tedesco: *B*ergauf, *B*ergab) |
 | QSL | Confermo la ricezione | Ho *l*ogato |
 | QSO? | Raggiungete la stazione ... ? |  |
 | QSY | Cambio di frequenza | Change Frequenc*y* |

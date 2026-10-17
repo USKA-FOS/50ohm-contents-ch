@@ -2,7 +2,7 @@
 
 
 * *SWL* sta per *Short Wave Listener* (ascoltatore di onde corte)
-* denominazione tedesca: *Kurzwellenhörer* o *Höramateur*
+* denominazione tedesca: Kurzwellenhörer o Höramateur
 * ascolta trasmissioni radio e identifica le stazioni ricevute
 * documenta i collegamenti radio ascoltati
 

@@ -18,8 +18,8 @@ CQ CQ, ici HB9RW avec un appel général, ici HB9RW à l’écoute.
 
 Si aucune réponse n’est reçue, on peut considérer que la fréquence est libre. Il est alors possible de lancer une liaison radio. Comme au téléphone, cela s’appelle un appel [index:Anruf]. Il existe deux types d’appels : l’appel général et l’appel ciblé.
 
-* Avec un **appel général** [index:Anruf:Allgemein], on invite **toutes** les stations pouvant nous entendre à répondre. L’abréviation internationale pour l’appel général est CQ. Prononcée en anglais (environ "si-kju"), cela ressemble à "seek you" (environ "sik-ju"), soit "je vous cherche". Dans le trafic radio germanophone, on utilise aussi l’expression "appel général".
-* Avec un **appel ciblé** [index:Anruf:Gezielt], on souhaite obtenir la réponse **d’une station en particulier**.
+* Avec un *appel général* [index:Anruf:Allgemein], on invite *toutes* les stations pouvant nous entendre à répondre. L’abréviation internationale pour l’appel général est CQ. Prononcée en anglais (environ "si-kju"), cela ressemble à "seek you" (environ "sik-ju"), soit "je vous cherche". Dans le trafic radio germanophone, on utilise aussi l’expression "appel général".
+* Avec un *appel ciblé* [index:Anruf:Gezielt], on souhaite obtenir la réponse *d’une station en particulier*.
 
 ---
 

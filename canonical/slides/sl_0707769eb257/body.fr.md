@@ -53,7 +53,7 @@
 * Meilleure stabilité en fréquence
 
 <note>
-En anglais, quartz s'écrit avec un *t* : Quartz
+En anglais, quartz s'écrit avec un t : Quartz
 </note>
 
 ---

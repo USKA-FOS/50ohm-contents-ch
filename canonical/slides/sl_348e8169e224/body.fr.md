@@ -1,5 +1,5 @@
 <left>
-[image:35:e_alimentation_commutation:Schéma de principe d’une alimentation à découpage]
+[picture:35:e_schaltnetzteil:Schéma de principe d’une alimentation à découpage]
 </left>
 <right>
 * L’interrupteur électronique E régule une tension de sortie constante
@@ -22,7 +22,7 @@ Dans le schéma simplifié, la rétroaction de la tension de sortie vers le bloc
 </left>
 <right>
 <fragment>
-[photo:277:a_spectre_perturbations:Spectre de perturbations d’une alimentation à découpage]
+[photo:277:a_störspektrum:Spectre de perturbations d’une alimentation à découpage]
 </fragment>
 </right>
 
@@ -32,11 +32,11 @@ Dans le schéma simplifié, la rétroaction de la tension de sortie vers le bloc
 [question:AD313]
 ---
 <left>
-[image:367:a-filtre_alimentation_commutation:Filtre en amont d’une alimentation à découpage]
+[picture:367:a-schaltnetzteilfilter:Filtre en amont d’une alimentation à découpage]
 Filtre passe-bas côté entrée
 </left>
 <right>
-[photo:243:a_filtre_ce:Filtre directement sur l’entrée de tension 230 V AC]
+[photo:243:a_EMV Filter2:Filtre directement sur l’entrée de tension 230 V AC]
 </right>
 <note>
 - Le fil PE ne doit pas être relié à L1 ou N.

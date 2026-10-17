@@ -1,7 +1,7 @@
 ## Termistore NTC
 <left>
 * Il termistore NTC è una resistenza dipendente dalla temperatura
-* In inglese: *Negative Temperature Coefficient Thermistor* (*NTC*)
+* In inglese: Negative Temperature Coefficient Thermistor (*NTC*)
 * Conduce meglio la corrente elettrica a *temperature elevate*
 </left>
 <right>
@@ -21,7 +21,7 @@
 
 <left>
 * Il termistore PTC è una resistenza dipendente dalla temperatura
-* In inglese: *Positive Temperature Coefficient Thermistor* (*PTC*)
+* In inglese: Positive Temperature Coefficient Thermistor (*PTC*)
 * Conduce meglio la corrente elettrica a *temperature basse*
 </left>
 <right>

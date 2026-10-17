@@ -1,6 +1,6 @@
 Un modulo fotovoltaico è composto da quattro serie collegate in parallelo. Ogni serie contiene 30 celle solari.
 
-In una [collegamento in serie](#), le tensioni si sommano:
+In una collegamento in serie, le tensioni si sommano:
 
 $ U = 30 \cdot \qty{0,6}{\volt} = \qty{18}{\volt} $
 

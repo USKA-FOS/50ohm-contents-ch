@@ -1,4 +1,4 @@
-Les oscillateurs commandés en fréquence peuvent être réalisés de différentes manières. Une possibilité est l’**oscillateur commandé en tension (VCO - Voltage Controlled Oscillator)**.
+Les oscillateurs commandés en fréquence peuvent être réalisés de différentes manières. Une possibilité est l’*oscillateur commandé en tension (VCO - Voltage Controlled Oscillator)*.
 
 [question:AD601]
 

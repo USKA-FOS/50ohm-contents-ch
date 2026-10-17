@@ -9,7 +9,7 @@
 
 * Valore di misura per la qualità dell’adattamento dell’antenna
 * Indica in modo semplificato quanta potenza di trasmissione viene riflessa dall’antenna
-* Abbreviazione ROS dal termine inglese *standing wave ratio*
+* Abbreviazione ROS dal termine inglese standing wave ratio
 * Misurato con un *misuratore di ROS*, abbreviato in *rosmetro*
 
 <note>

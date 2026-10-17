@@ -4,7 +4,7 @@ Pour l’examen en Allemagne, les préfixes nationaux européens suivants sont p
 
 
 <margin>
-| l : Préfixe national | l : Pays | l : Moyen mnémotechnique |
+| l: l : Préfixe national | l: l : Pays | l: l : Moyen mnémotechnique |
 | EA | Espagne | EspaniA |
 | F | France | Première lettre |
 | LX | Luxembourg | LuXembourg |

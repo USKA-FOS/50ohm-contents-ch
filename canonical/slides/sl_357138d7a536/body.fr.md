@@ -221,7 +221,7 @@ Augmenter l’inductance
 
 * Forte dépendance à la résistance ohmique
 * Exprimée en dB par rapport à une valeur de référence du filtre
-* Ex. : *bande passante* à la valeur de $\qty{-3}{\dB}$
+* Ex. : *bande passante* à la *valeur de $\qty{-3}{\dB}$*
 * Une puissance de signal réduite de moitié peut encore traverser le filtre
 * Ou une tension de signal égale à 0,7 fois la tension initiale
 

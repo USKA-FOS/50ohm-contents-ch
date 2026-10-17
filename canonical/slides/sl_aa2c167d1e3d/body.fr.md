@@ -4,7 +4,7 @@
 [photo:167:rufzeichen_flugzeug:Avion avec l’indicatif d’appel DEBPF]
 </left>
 <right>
-* Les stations radio utilisent des **indicatifs d’appel** pour s’identifier
+* Les stations radio utilisent des indicatifs d’appel pour s’identifier
 * Séquence de lettres et de chiffres
 * Chaque avion ou navire équipé de radio possède un indicatif d’appel
 </right>

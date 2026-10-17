@@ -1,9 +1,9 @@
 ## Zona morta
 
 <left>
-* Più alta è la *frequenza*, maggiore è il *raggio* della zona morta
+* Più alta è la frequenza, maggiore è il raggio della zona morta
 * In particolare nelle bande più alte si può erroneamente pensare che la frequenza sia libera
-* Più *piatto* è l'angolo di irradiazione, maggiore è il *raggio* della zona morta
+* Più piatto è l'angolo di irradiazione, maggiore è il raggio della zona morta
 </left>
 <right>
 [picture:741:a_tote_zone:Zona morta]

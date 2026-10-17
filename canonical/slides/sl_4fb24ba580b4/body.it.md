@@ -18,7 +18,7 @@ Il DOK indica il prefisso del distretto locale di una stazione DARC.
 
 Per ottenere il **DLD-SWL 100** servono conferme da 100 DOK diversi. Le tappe successive prevedono incrementi di 100 fino al DLD 1000.
 
-Esistono anche varianti per bande e [modalità operative](#) singole.
+Esistono anche varianti per bande e modalità operative singole.
 
 ---
 

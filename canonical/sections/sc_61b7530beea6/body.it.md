@@ -46,7 +46,7 @@ Qui la componente del campo magnetico è parallela alla superficie terrestre. La
 
 ---
 
-Negli esempi precedenti, le componenti del campo elettrico e magnetico erano *in fase* temporalmente (le loro oscillazioni sinusoidali hanno i passaggi per lo zero nello stesso momento). Tuttavia, sono perpendicolari tra loro nello spazio.
+Negli esempi precedenti, le componenti del campo elettrico e magnetico erano in fase *temporalmente* (le loro oscillazioni sinusoidali hanno i passaggi per lo zero nello stesso momento). Tuttavia, sono perpendicolari tra loro *nello spazio*.
 
 Possiamo però generare la componente del campo elettrico in modo che la sua direzione nello spazio cambi nel tempo, ad esempio utilizzando due dipoli perpendicolari tra loro. Se questi dipoli sono distanziati di un quarto di lunghezza d'onda nella direzione di propagazione e alimentati in fase, la componente elettrica irradiata ruota circolarmente nel tempo nello spazio. Possiamo anche utilizzare due dipoli perpendicolari tra loro che si trovano sullo stesso piano. Se alimentiamo questi dipoli con due segnali sinusoidali sfasati temporalmente di 90°, otteniamo la stessa immagine. La componente del campo magnetico rimane sempre perpendicolare a quella elettrica e si muove anch'essa nello spazio. Queste onde vengono chiamate *polarizzate circolarmente*.
 

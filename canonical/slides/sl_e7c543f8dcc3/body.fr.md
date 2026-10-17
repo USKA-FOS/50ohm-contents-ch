@@ -130,8 +130,7 @@ $\begin{split} X_{\textrm{C}} &= \frac{1}{\omega \cdot C} \\ \Rightarrow C &= \f
 [photo:260:a_Kondensator Ersatzschaltbild:Schéma équivalent d'un condensateur réel avec une résistance de perte série (ESR).]
 </left>
 <right>
-* Facteur de perte
-$\tan(\delta) = \frac{R}{X_C}$
+* Facteur de perte<br/>$\tan(\delta) = \frac{R}{X_C}$
 * Pertes dans le diélectrique et les connexions
 </right>
 

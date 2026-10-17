@@ -1,6 +1,6 @@
 ### Servizio di radioamatore
 
-* I servizi di radiocomunicazione sono definiti a livello internazionale nei *regolamento delle radiocomunicazioni* (RR) dell’ITU
+* I servizi di radiocomunicazione sono definiti a livello internazionale nei regolamento delle radiocomunicazioni (RR) dell’ITU
   * Esempi: radiocomunicazione marittima, radiodiffusione, servizio di radioamatore
 * Le applicazioni radio con concessione generale possono essere regolamentate anche a livello internazionale, ma non costituiscono un servizio di radiocomunicazione secondo i RR
   * Esempi: CB, WLAN

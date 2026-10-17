@@ -9,16 +9,16 @@ Le troisième composant passif en radioélectricité – après la résistance e
 
 ---
 
-Une bobine cylindrique possède une *inductance* $L$, qui se calcule selon la formule suivante :
+Une bobine cylindrique possède une inductance $L$, qui se calcule selon la formule suivante :
 
 
 $L = \frac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 
 
 En examinant la structure d'une bobine, on identifie donc les grandeurs suivantes :
-1. $\mu_0$ est la *perméabilité du vide*, une constante naturelle dont la valeur est $\qty{1,2566e-6}{\henry\per\meter}$. Cette valeur peut toujours être consultée dans le recueil de formules.
+1. $\mu_0$ est la perméabilité du vide, une constante naturelle dont la valeur est $\qty{1,2566e-6}{\henry\per\meter}$. Cette valeur peut toujours être consultée dans le recueil de formules.
 2. $\mu_r$ est une constante de matériau, car le noyau de la bobine peut être constitué d'un matériau spécial qui peut amplifier les champs magnétiques.
-3. Le nombre $N$ de *spires de bobine* en fil de cuivre émaillé ou en fil de cuivre argenté.
+3. Le nombre $N$ de spires de bobine en fil de cuivre émaillé ou en fil de cuivre argenté.
 4. $A_S$ représente la surface de la section transversale du noyau de la bobine.
 5. La longueur $l$ de la bobine.
 
@@ -74,7 +74,7 @@ On qualifie de *ferromagnétique* une certaine classe de matériaux qui, à l'é
 
 
 <indepth>
-$\mu_r$, aussi appelée *perméabilité relative*, est très élevée pour les matériaux ferromagnétiques (par exemple, pour le fer, elle se situe dans la plage de $300\dots\num{10000}$).
+$\mu_r$, aussi appelée perméabilité relative, est très élevée pour les matériaux ferromagnétiques (par exemple, pour le fer, elle se situe dans la plage de $300\dots\num{10000}$).
 </indepth>
 
 
@@ -84,7 +84,7 @@ $\mu_r$, aussi appelée *perméabilité relative*, est très élevée pour les m
 Si l'on introduit un matériau ferromagnétique comme le fer dans la bobine, le champ magnétique est amplifié et l'inductance augmente. 
 
 
-Si l'on introduit dans une bobine cylindrique un noyau en un métal conducteur (non ferromagnétique) comme l'*aluminium* ou le *cuivre*, l'inductance de la bobine diminue au contraire. Cela est dû au fait que le champ magnétique à haute fréquence de la bobine induit des courants, appelés courants de Foucault, dans les noyaux. Ces courants secondaires génèrent à leur tour des champs magnétiques qui s'opposent au champ magnétique de la bobine. C'est pourquoi l'inductance diminue. Le champ magnétique à l'intérieur du noyau est alors réduit.
+Si l'on introduit dans une bobine cylindrique un noyau en un métal conducteur (non ferromagnétique) comme l'aluminium ou le cuivre, l'inductance de la bobine diminue au contraire. Cela est dû au fait que le champ magnétique à haute fréquence de la bobine induit des courants, appelés courants de Foucault, dans les noyaux. Ces courants secondaires génèrent à leur tour des champs magnétiques qui s'opposent au champ magnétique de la bobine. C'est pourquoi l'inductance diminue. Le champ magnétique à l'intérieur du noyau est alors réduit.
 
 
 Dans la question suivante, la réponse considérée comme correcte est que le champ magnétique ne peut pas pénétrer dans le noyau, réduisant ainsi la section du champ. Cependant, ce n'est pas exactement ce qui se passe physiquement. Il suffit simplement de retenir la "bonne" réponse.
@@ -95,7 +95,7 @@ Dans la question suivante, la réponse considérée comme correcte est que le ch
 
 ---
 
-Examinons d'abord, comme pour le condensateur, le comportement en courant continu de la bobine : la bobine est connectée à une source de *tension continue* via une *résistance en série*, comme illustré dans la figure [ref:e_spule_einschalten]. Au moment de la mise sous tension, l'augmentation du courant est d'abord retardée, de sorte que le courant n'augmente pas de manière abrupte, mais progressivement jusqu'à sa valeur maximale.
+Examinons d'abord, comme pour le condensateur, le comportement en courant continu de la bobine : la bobine est connectée à une source de tension continue via une résistance en série, comme illustré dans la figure [ref:e_spule_einschalten]. Au moment de la mise sous tension, l'augmentation du courant est d'abord retardée, de sorte que le courant n'augmente pas de manière abrupte, mais progressivement jusqu'à sa valeur maximale.
 
 
 La cause en est la règle de Lenz : lors de l'augmentation du courant, la bobine génère une tension d'auto-induction qui s'oppose à la variation du courant – et donc à sa cause. Cela limite l'augmentation du courant. Comme aucun courant ne circule initialement, presque toute la tension appliquée chute d'abord aux bornes de la bobine. Au fur et à mesure que le courant augmente, cette tension d'induction diminue, tandis que le courant continue d'augmenter.
@@ -123,22 +123,22 @@ Au moment de la coupure, la tension d'auto-induction cherche à maintenir le flu
 [photo:257:e_Spulenstrom:Comportement à la mise sous tension et à la coupure de la tension et du courant de la bobine]
 </margin>
 
-C'est pourquoi les bobines peuvent également être utilisées pour introduire un *retard*. Dans la question suivante, le courant à travers la lampe 2 augmente plus lentement que celui à travers la lampe 1, car une bobine est connectée en série, dont la tension d'auto-induction ne permet qu'une augmentation lente du courant de mise sous tension.
+C'est pourquoi les bobines peuvent également être utilisées pour introduire un retard. Dans la question suivante, le courant à travers la lampe 2 augmente plus lentement que celui à travers la lampe 1, car une bobine est connectée en série, dont la tension d'auto-induction ne permet qu'une augmentation lente du courant de mise sous tension.
 
 
 [question:EC302]
 
 
-Tout comme le condensateur, une bobine se comporte différemment selon qu'elle est connectée à une *tension continue* ou à une *tension alternative*. En radioélectricité, c'est surtout le comportement en tension alternative qui est important. C'est pourquoi nous examinons maintenant le comportement en courant alternatif.
+Tout comme le condensateur, une bobine se comporte différemment selon qu'elle est connectée à une tension continue ou à une tension alternative. En radioélectricité, c'est surtout le comportement en tension alternative qui est important. C'est pourquoi nous examinons maintenant le comportement en courant alternatif.
 
 
-La bobine présente, tout comme le condensateur, une *impédance* $X_{\textrm{L}}$ : bien que le fil de la bobine ne possède qu'une très faible résistance ohmique (résistance du conducteur), un courant circule, mais il diminue avec l'augmentation de la *fréquence* de la *tension alternative* :
+La bobine présente, tout comme le condensateur, une impédance $X_{\textrm{L}}$ : bien que le fil de la bobine ne possède qu'une très faible résistance ohmique (résistance du conducteur), un courant circule, mais il diminue avec l'augmentation de la fréquence de la tension alternative :
 
 
 $X_{L} = \omega \cdot L = 2\cdot\pi\cdot f \cdot L$
 
 
-D'après la formule, on peut voir que l'*impédance* augmente avec la fréquence croissante et diminue avec la fréquence décroissante.
+D'après la formule, on peut voir que l'impédance augmente avec la fréquence croissante et diminue avec la fréquence décroissante.
 
 
 [question:EC303]

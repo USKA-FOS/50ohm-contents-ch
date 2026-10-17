@@ -2,12 +2,12 @@ Un’antenna può essere polarizzata verticalmente ([ref:n_vpol_antenne]) o oriz
 
 % TODO Big Picture: Inserire nell’immagine n_vpol_antenne una freccia orizzontale e verticale con didascalia
 <margin>
-[immagine:51:n_vpol_antenne:antenna a polarizzazione verticale]
+[picture:51:n_vpol_antenne:antenna a polarizzazione verticale]
 </margin>
 
 % TODO Big Picture: Inserire nell’immagine n_hpol_antenne una freccia orizzontale e verticale con didascalia
 <margin>
-[immagine:326:n_hpol_antenne:antenna a polarizzazione orizzontale]
+[picture:326:n_hpol_antenne:antenna a polarizzazione orizzontale]
 </margin>
 
 Nelle comunicazioni radio in VHF, UHF e frequenze più elevate, due stazioni radio dovrebbero sempre utilizzare antenne con la stessa polarizzazione. Se si utilizzano polarizzazioni diverse, ad esempio una stazione con polarizzazione orizzontale e l’altra con polarizzazione verticale, il collegamento risulta notevolmente peggiore.

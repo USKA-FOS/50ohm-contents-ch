@@ -25,7 +25,7 @@ Le *resistenze a filo* sono tra le forme più antiche di resistenze elettriche. 
 %EC101 Resistenze di potenza per basse frequenze -> Resistenza a filo
 [question:EC101]
 
-Nelle *resistenze a strato di carbone* uno strato sottile di carbone viene depositato per evaporazione su un supporto. Le resistenze a strato di carbone sono economiche, ma presentano una tolleranza di fabbricazione relativamente ampia.
+Nelle resistenze a strato di carbone uno strato sottile di carbone viene depositato per evaporazione su un supporto. Le resistenze a strato di carbone sono economiche, ma presentano una tolleranza di fabbricazione relativamente ampia.
 
 Nelle *resistenze a strato di ossido metallico* il materiale resistivo viene applicato sotto forma di uno strato sottile su un materiale di supporto. Questo tipo di resistenza è pressoché privo di induttanza e presenta una buona stabilità termica, il che le rende particolarmente adatte per l’impiego a frequenze più elevate, superiori a $\qty{30}{\mega\hertz}$.
 
@@ -38,7 +38,7 @@ Le *resistenze a strato metallico* possono essere prodotte con elevata precision
 [question:EC102]
 
 
-Le *antenne artificiali*, cioè i carichi fittizi, li abbiamo già incontrati nella classe N. Per alte frequenze (ad esempio VHF) si consiglia di costruire un carico fittizio preferibilmente con resistenze a strato di ossido metallico non avvolte. Per frequenze più basse (ad esempio $\qty{50}{\mega\hertz}$ o $\qty{28}{\mega\hertz}$) possono essere utilizzate anche resistenze a strato di carbone. Ciò che conta è soprattutto che la resistenza non abbia avvolgimenti, cioè non presenti induttanza propria, e quindi non si comporti come una bobina parassita, poiché una tale induttanza renderebbe il valore della resistenza dipendente dalla frequenza – proprio questo è indesiderato in un carico fittizio. La resistenza deve mantenere un valore di circa $\qty{50}{\ohm}$ indipendentemente dalla frequenza. Per questo motivo *non* devono essere utilizzate resistenze a filo. Anche la capacità parassita dovrebbe essere il più bassa possibile per questo motivo. Inoltre, le resistenze impiegate devono essere sufficientemente resistenti alla temperatura, poiché dissipano la potenza assorbita sotto forma di calore.
+Le antenne artificiali, cioè i carichi fittizi, li abbiamo già incontrati nella classe N. Per alte frequenze (ad esempio VHF) si consiglia di costruire un carico fittizio preferibilmente con resistenze a strato di ossido metallico non avvolte. Per frequenze più basse (ad esempio $\qty{50}{\mega\hertz}$ o $\qty{28}{\mega\hertz}$) possono essere utilizzate anche resistenze a strato di carbone. Ciò che conta è soprattutto che la resistenza non abbia avvolgimenti, cioè non presenti induttanza propria, e quindi non si comporti come una bobina parassita, poiché una tale induttanza renderebbe il valore della resistenza dipendente dalla frequenza – proprio questo è indesiderato in un carico fittizio. La resistenza deve mantenere un valore di circa $\qty{50}{\ohm}$ indipendentemente dalla frequenza. Per questo motivo *non* devono essere utilizzate resistenze a filo. Anche la capacità parassita dovrebbe essere il più bassa possibile per questo motivo. Inoltre, le resistenze impiegate devono essere sufficientemente resistenti alla temperatura, poiché dissipano la potenza assorbita sotto forma di calore.
 
 %EC107 Carico fittizio
 [question:EC107]

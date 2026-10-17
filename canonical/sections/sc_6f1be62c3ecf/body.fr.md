@@ -1,11 +1,11 @@
 Que peut faire un radioamateur que les autres ne peuvent pas faire ? Tout le monde peut acheter et posséder un récepteur pour le radioamateurisme sans autorisation. Il est également possible de construire une installation d'antenne et de la connecter au récepteur, à condition de respecter les prescriptions de construction. De même, la réception des émissions de radioamateur est autorisée à tous, sans qu'une licence de radioamateur soit nécessaire !
 
 
-Mais seul un radioamateur a le droit de posséder un émetteur pour le radioamateurisme et d'émettre sur les fréquences radioamateurs.
+Mais seul un radioamateur a le droit de *posséder* un émetteur pour le radioamateurisme et d'*émettre* sur les fréquences radioamateurs.
 
 
 <tip>
-Le terme *émetteur-récepteur* [index:émetteur-récepteur] est formé à partir des deux mots anglais *transmitter* (émetteur) et *receiver* (récepteur).
+Le terme *émetteur-récepteur* [index:émetteur-récepteur] est formé à partir des deux mots anglais transmitter (émetteur) et receiver (récepteur).
 </tip>
 
 ---
@@ -26,7 +26,7 @@ Le texte intégral de la loi se trouve ici : [VFAV Art. 7 Abs. 2](https://www.fe
 
 ---
 
-Émettre signifie en pratique appuyer sur la touche PTT. PTT [index:PTT] est l’abréviation de *push to talk*, c’est-à-dire « appuyer pour parler ». Cette fonction permet de basculer un émetteur-récepteur en mode émission. Normalement, un émetteur-récepteur est en mode réception. Ce n’est qu’en appuyant et en maintenant la touche PTT que l’émission commence. Dès que l’on relâche la touche, l’émetteur-récepteur revient en mode réception. La touche PTT est généralement située sur le microphone.
+Émettre signifie en pratique appuyer sur la touche PTT. PTT [index:PTT] est l’abréviation de push to talk, c’est-à-dire « appuyer pour parler ». Cette fonction permet de basculer un émetteur-récepteur en mode émission. Normalement, un émetteur-récepteur est en mode réception. Ce n’est qu’en appuyant et en maintenant la touche PTT que l’émission commence. Dès que l’on relâche la touche, l’émetteur-récepteur revient en mode réception. La touche PTT est généralement située sur le microphone.
 [question:NF108]
 
 <margin>

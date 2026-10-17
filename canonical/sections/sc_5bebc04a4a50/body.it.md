@@ -1,12 +1,18 @@
-Per evitare di dover costruire e sintonizzare oscillatori separati per ogni [banda di frequenza](#frequenzbereich) nei trasmettitori radioamatoriali multibanda, si utilizzava il principio della moltiplicazione di frequenza. In questo caso, un oscillatore stabile veniva fatto funzionare alla frequenza della banda più bassa (ad esempio $\qty{3,5}{\mega\hertz}$), il cui [segnale di uscita](#ausgangssignal) veniva poi convertito nei vari [banda di frequenza](#frequenzbereich) radioamatoriali desiderati tramite [moltiplicatori di frequenza](#frequenzvervielfacher). Un [vantaggio](#vorteil) di questo metodo è che le singole bande di frequenza sono in rapporti fissi tra loro (ad esempio $\qty{3,5}{\mega\hertz}$, $\qty{7}{\mega\hertz}$, $\qty{14}{\mega\hertz}$ ecc.) e sono generalmente multipli interi della banda più bassa. In questo modo, anche le [armoniche](#oberwellen) ricadono in una banda radioamatoriale, il che è auspicato dalle autorità di regolamentazione per evitare interferenze ad altri servizi causate dalle armoniche. In generale, è più semplice costruire oscillatori a frequenze più basse con maggiore stabilità rispetto a quelli ad alta frequenza.
+Per evitare di dover costruire e sintonizzare oscillatori separati per ogni banda di frequenza nei trasmettitori radioamatoriali multibanda, si utilizzava il principio della moltiplicazione di frequenza. In questo caso, un oscillatore stabile veniva fatto funzionare alla frequenza della banda più bassa (ad esempio $\qty{3,5}{\mega\hertz}$), il cui segnale di uscita veniva poi convertito nei vari banda di frequenza radioamatoriali desiderati tramite moltiplicatori di frequenza. Un vantaggio di questo metodo è che le singole bande di frequenza sono in rapporti fissi tra loro (ad esempio $\qty{3,5}{\mega\hertz}$, $\qty{7}{\mega\hertz}$, $\qty{14}{\mega\hertz}$ ecc.) e sono generalmente multipli interi della banda più bassa. In questo modo, anche le armoniche ricadono in una banda radioamatoriale, il che è auspicato dalle autorità di regolamentazione per evitare interferenze ad altri servizi causate dalle armoniche. In generale, è più semplice costruire oscillatori a frequenze più basse con maggiore stabilità rispetto a quelli ad alta frequenza.
 
 ---
 
-La figura [ref:n_f_vervielfacher] mostra lo [schema a blocchi](#blockschaltbild) di un [moltiplicatore di frequenza](#frequenzvervielfacher) con fattore $2$, in cui la frequenza di ingresso di $\qty{3,5}{\mega\hertz}$ viene elevata a $\qty{7}{\mega\hertz}$. Un [moltiplicatore di frequenza](#frequenzvervielfacher) viene tipicamente realizzato sfruttando una nonlinearità (ad esempio un [diodo](#diode)), che genera intenzionalmente [armoniche](#oberwellen) del segnale di ingresso, dalle quali viene poi selezionata la frequenza multipla desiderata tramite un [filtro passa-banda](#bandpassfilter).
+La figura [ref:n_f_vervielfacher] mostra lo schema a blocchi di un moltiplicatore di frequenza con fattore $2$, in cui la frequenza di ingresso di $\qty{3,5}{\mega\hertz}$ viene elevata a $\qty{7}{\mega\hertz}$. Un moltiplicatore di frequenza viene tipicamente realizzato sfruttando una nonlinearità (ad esempio un diodo), che genera intenzionalmente armoniche del segnale di ingresso, dalle quali viene poi selezionata la frequenza multipla desiderata tramite un filtro passa-banda.
 
 <margin>
 [picture:1042:n_f_vervielfacher:Schema a blocchi di un moltiplicatore di frequenza]
 </margin>
 
-Spesso si utilizza una catena di [moltiplicatori di frequenza](#frequenzvervielfacher) per ottenere i fattori di moltiplicazione desiderati. In questo caso, collegando i moltiplicatori [in serie](#reihenschaltung), i singoli fattori vengono moltiplicati tra loro.
+Spesso si utilizza una catena di moltiplicatori di frequenza per ottenere i fattori di moltiplicazione desiderati. In questo caso, collegando i moltiplicatori in serie, i singoli fattori vengono moltiplicati tra loro.
 Al contrario, un tale circuito può essere anche scomposto. In questo caso, si devono dividere i fattori per i corrispondenti divisori.
+
+[question:EF303]
+
+[question:EF302]
+
+[question:EF301]

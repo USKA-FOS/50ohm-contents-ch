@@ -22,7 +22,7 @@
 <left>
 * Presa intermedia di protezione contro i fulmini per cavo coassiale con tubo a scarica a gas
 * Messa a terra della linea di alimentazione dell'antenna dopo l'uso, ad esempio sulla messa a terra dell'edificio
-* Per questo è necessario un *conduttore di messa a terra*
+* Per questo è necessario un conduttore di messa a terra
 </left>
 <right>
 * Filo massiccio, non filo a trefoli

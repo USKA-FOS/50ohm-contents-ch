@@ -21,7 +21,7 @@ Secondo la raccolta di formule, la formula per la frequenza di oscillazione (for
 $ f_0 = \frac{1}{2\pi \sqrt{L\cdot C}} $
 
 La frequenza di un oscillatore LC cambia se il valore del condensatore o della bobina varia, ad esempio a causa dell'effetto della temperatura. Come questo influisce sulla frequenza può essere visto nella formula:
-Se la *capacità del condensatore* o l'*induttanza della bobina* *aumentano*, la *frequenza del circuito oscillante diminuisce*. Viceversa, la *frequenza del circuito oscillante aumenta* se la capacità o l'induttanza *diminuiscono*.
+Se la capacità del condensatore o l'induttanza della bobina *aumentano*, la *frequenza del circuito oscillante diminuisce*. Viceversa, la *frequenza del circuito oscillante aumenta* se la capacità o l'induttanza *diminuiscono*.
 
 [question:ED503]
 [question:ED505]

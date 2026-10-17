@@ -1,7 +1,7 @@
 ## Analogia: circuito idraulico
 
 <left>
-[immagine:667:n_stromkreis_wasserkreislauf:Circuito idraulico]
+[picture:667:n_stromkreis_wasserkreislauf:Circuito idraulico]
 </left>
 <right>
 1. La pompa genera pressione e spinge l’acqua verso l’alto
@@ -20,7 +20,7 @@ Se si chiude la valvola, il circuito idraulico si interrompe e la ruota idraulic
 * Come la pompa, che genera una tensione invece di una pressione
 </left>
 <right>
-[immagine:662:n_stromkreis_geschlossen:Circuito chiuso]
+[picture:662:n_stromkreis_geschlossen:Circuito chiuso]
 </right>
 
 ---
@@ -31,10 +31,10 @@ Se si chiude la valvola, il circuito idraulico si interrompe e la ruota idraulic
 * Interrompe o chiude il circuito
 * Con l’interruttore aperto il flusso di corrente è interrotto
 
-[immagine:663:n_stromkreis_offen:Circuito aperto]
+[picture:663:n_stromkreis_offen:Circuito aperto]
 </left>
 <right>
-[foto:202:n_stromkreis_schalter:Simboli di circuito e forme costruttive degli interruttori]
+[photo:202:n_stromkreis_schalter:Simboli di circuito e forme costruttive degli interruttori]
 </right>
 
 ---
@@ -53,7 +53,7 @@ Se si chiude la valvola, il circuito idraulico si interrompe e la ruota idraulic
   * Può fluire una corrente elevata e la sorgente di tensione o i cavi possono surriscaldarsi
 </left>
 <right>
-[foto:203:n_stromkreis_widerstand:Simboli di circuito e forme costruttive delle resistenze]
+[photo:203:n_stromkreis_widerstand:Simboli di circuito e forme costruttive delle resistenze]
 </right>
 
 ---
@@ -64,7 +64,7 @@ Se si chiude la valvola, il circuito idraulico si interrompe e la ruota idraulic
 
 ## Direzione della corrente
 
-[immagine:662:n_stromkreis_geschlossen:Circuito chiuso]
+[picture:662:n_stromkreis_geschlossen:Circuito chiuso]
 
 Dal polo positivo al polo negativo: *verso convenzionale della corrente*
 

@@ -1,5 +1,5 @@
 <left>
-[immagine:35:e_schaltnetzteil:Schema di principio dell’alimentatore switching]
+[picture:35:e_schaltnetzteil:Schema di principio dell’alimentatore switching]
 </left>
 <right>
 * L’interruttore elettronico E regola una tensione d’uscita costante
@@ -21,9 +21,9 @@ Nel diagramma semplificato manca il feedback della tensione d’uscita verso il 
 * Altrimenti la rete elettrica agirebbe come un’antenna
 </left>
 <right>
-<frammento>
-[immagine:277:a_störspektrum:Spettro di disturbo di un alimentatore switching]
-</frammento>
+<fragment>
+[photo:277:a_störspektrum:Spettro di disturbo di un alimentatore switching]
+</fragment>
 </right>
 
 ---
@@ -32,10 +32,10 @@ Nel diagramma semplificato manca il feedback della tensione d’uscita verso il 
 [question:AD313]
 ---
 <left>
-[immagine:367:a-schaltnetzteilfilter:Filtro passa-basso sul lato d’ingresso di un alimentatore switching]
+[picture:367:a-schaltnetzteilfilter:Filtro passa-basso sul lato d’ingresso di un alimentatore switching]
 </left>
 <right>
-[immagine:243:a_EMV Filter2: Filtro direttamente all’ingresso della tensione AC a 230 V]
+[photo:243:a_EMV Filter2: Filtro direttamente all’ingresso della tensione AC a 230 V]
 </right>
 <note>
 - Il PE non deve essere collegato a L1 o N.

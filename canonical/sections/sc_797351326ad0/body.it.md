@@ -47,5 +47,5 @@ Un ricevitore supereterodina presenta tuttavia anche alcuni svantaggi, in partic
 <indepth>
 L’inventore del ricevitore supereterodina non può essere identificato in modo univoco. Ciò è dovuto anche al fatto che il suo sviluppo risale al periodo della Prima guerra mondiale, durante il quale tutte le parti in conflitto lavoravano intensamente al miglioramento delle tecniche radiofoniche e di radiocomunicazione. A partire dal 1918 circa, diversi ricercatori, indipendentemente l’uno dall’altro, si dedicarono a questo principio di funzionamento, tra cui Edwin Armstrong negli Stati Uniti, Lucien Lévy in Francia e Walter Schottky in Germania.
 
-Il termine *eterodina* o *supereterodina* è una neoformazione lessicale. Deriva dal latino *super* («sopra») e dalle parole greche *hetero* («diverso») e *dynamis* («forza» o «effetto»). Il nome descrive il principio di funzionamento fondamentale del ricevitore supereterodina: la miscelazione di due segnali di frequenza diversa per generare una nuova frequenza.
+Il termine eterodina o supereterodina è una neoformazione lessicale. Deriva dal latino super («sopra») e dalle parole greche hetero («diverso») e dynamis («forza» o «effetto»). Il nome descrive il principio di funzionamento fondamentale del ricevitore supereterodina: la miscelazione di due segnali di frequenza diversa per generare una nuova frequenza.
 </indepth>

@@ -7,7 +7,9 @@ In un collegamento in serie i valori delle resistenze si sommano
 $R_{\mathrm{ges}} = R_{1} + R_{2} + R_{3}$
 Esempio: $R_{\mathrm{ges}} = \qty{100}{\ohm} + \qty{200}{\ohm} + \qty{300}{\ohm}$
 
----
+
+--- style="font-size: 0.7em;"
+
 ## Collegamento in parallelo
 
 In un collegamento in parallelo di resistenze, la resistenza totale è inferiore al valore della resistenza più piccola
@@ -16,10 +18,14 @@ In un collegamento in parallelo di resistenze, la resistenza totale è inferiore
 
 $\frac{1}{R_{\mathrm{ges}}} = \frac{1}{R_{1}} + \frac{1}{R_{2}} + \frac{1}{R_{3}}$
 
+
+
 ---
 
 Semplificazione per due resistenze:
 $R_{\mathrm{ges}} = \dfrac{R_{1} \cdot R_{2}}{R_{1} + R_{2}}$
+
+
 
 ---
 
@@ -27,19 +33,29 @@ Semplificazione per resistenze uguali:
 $R_{\mathrm{ges}} = \dfrac{R}{n}$
 $n$ indica il numero delle resistenze
 
+
 ---
+
 [question:ED104]
 
+
 ---
+
 [question:ED105]
 
+
 ---
+
 [question:ED106]
 
----
-## Circuiti misti
 
 ---
+
+## Circuiti misti
+
+
+
+--- style="font-size: 0.7em;"
 
 ### Variante 1: Due in parallelo e una in serie
 
@@ -53,7 +69,9 @@ In questo caso si calcola prima il collegamento in parallelo di $R_2$ e $R_3$ e 
 $R_{\mathrm{ges}} = \dfrac{R_{2} \cdot R_{3}}{R_{2} + R_{3}} + R_{1}$
 </fragment>
 
+
 ---
+
 ### Variante 2: Due in serie e una in parallelo
 
 [picture:814:e_gemischte_schaltung_2:Circuito misto - Variante 2]
@@ -66,25 +84,39 @@ In questo caso si sommano prima $R_1$ e $R_2$ e poi si calcola il collegamento i
 $R_{\mathrm{ges}} = \dfrac{(R_{1} + R_{2}) \cdot R_{3}} {(R_{1} + R_{2}) + R_{3}}$
 </fragment>
 
+
 ---
+
 [question:ED110]
 
+
 ---
+
 [question:ED111]
 
+
 ---
+
 [question:ED108]
 
+
 ---
+
 [question:ED109]
 
+
 ---
+
 [question:ED112]
 
----
-[question:ED113]
 
 ---
+
+[question:ED113]
+
+
+---
+
 ### Capacità di carico delle resistenze nei collegamenti in serie e in parallelo
 
 * In un collegamento in serie le tensioni si suddividono.
@@ -92,5 +124,7 @@ $R_{\mathrm{ges}} = \dfrac{(R_{1} + R_{2}) \cdot R_{3}} {(R_{1} + R_{2}) + R_{3}
 * Pertanto, nel calcolo con $P = U \cdot I$, un valore rimane costante e l’altro diminuisce di conseguenza.
 * $\rightarrow$ la capacità di carico totale è in entrambi i casi maggiore della capacità di carico individuale.
 
+
 ---
+
 [question:ED107]

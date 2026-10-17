@@ -28,10 +28,10 @@ I *regolatori lineari di tensione* stabilizzano la tensione d’uscita facendo f
 
 Nel seguente esercizio è rappresentata una stabilizzazione della tensione con transistor in serie. Una tensione di riferimento di $\qty{5,6}{\volt}$ viene generata tramite un diodo Zener alla base del transistor. Il potenziale dell’emettitore, in condizioni operative di un transistor al silicio, è circa $\qty{0,6}{\volt}$ inferiore a quello della base. La tensione d’uscita regolata risulta quindi pari a circa $\qty{5}{\volt}$.
 
-La corrente di carico fluisce anche attraverso il transistor, che si riscalda notevolmente in caso di corrente di carico elevata. I cosiddetti *transistor in serie* si trovano quindi sempre su un dissipatore nei regolatori lineari di tensione.
+La corrente di carico fluisce anche attraverso il transistor, che si riscalda notevolmente in caso di corrente di carico elevata. I cosiddetti transistor in serie si trovano quindi sempre su un dissipatore nei regolatori lineari di tensione.
 
 <margin>
-[photo:246:a_Längstransistor 2N3055 su dissipatore:Il transistor in serie in un alimentatore regolato linearmente deve dissipare grandi potenze e viene quindi montato su un dissipatore.]
+[photo:246:a_Längstransistor 2N3055 auf Kühlkörper:Il transistor in serie in un alimentatore regolato linearmente deve dissipare grandi potenze e viene quindi montato su un dissipatore.]
 </margin>
 
 [question:AD315]
@@ -60,7 +60,7 @@ Un regolatore a tensione fissa mantiene la sua tensione d’uscita pressoché co
 [question:AD317]
 
 <tip>
-Affinché il circuito di regolazione interno funzioni in modo ottimale, la tensione d’ingresso nei regolatori a tensione fissa standard (ad esempio il tipo 7812 per una tensione fissa di $\qty{12}{\volt}$) deve essere superiore di circa $\qty{3}{\volt}$ rispetto a quella d’uscita, quindi almeno $\qty{15}{\volt}$. Esistono regolatori a tensione fissa in cui la tensione d’ingresso deve essere superiore di soli $\qty{1}{\volt}$ rispetto a quella d’uscita. Questi regolatori sono chiamati *Low-Drop-Spannungsregler*.
+Affinché il circuito di regolazione interno funzioni in modo ottimale, la tensione d’ingresso nei regolatori a tensione fissa standard (ad esempio il tipo 7812 per una tensione fissa di $\qty{12}{\volt}$) deve essere superiore di circa $\qty{3}{\volt}$ rispetto a quella d’uscita, quindi almeno $\qty{15}{\volt}$. Esistono regolatori a tensione fissa in cui la tensione d’ingresso deve essere superiore di soli $\qty{1}{\volt}$ rispetto a quella d’uscita. Questi regolatori sono chiamati Low-Drop-Spannungsregler.
 </tip>
 
 ---

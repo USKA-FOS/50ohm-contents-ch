@@ -1,6 +1,6 @@
 ### Chasse au renard (ARDF)
 
-* Une autre forme de compétition est le *Amateur Radio Direction Finding* (ARDF).
+* Une autre forme de compétition est le Amateur Radio Direction Finding (ARDF).
 * Les « renards » sont de petits émetteurs cachés que les participants doivent localiser à l’aide de récepteurs de radiogoniométrie et rejoindre à pied.
 * Les renards émettent à tour de rôle, chacun un indicatif d’appel différent en télégraphie Morse CW : MO, MOE, MOI, MOS, MOH ou MO5.
 * Le gagnant est celui qui trouve tous les renards en premier et atteint le point d’arrivée.

@@ -10,7 +10,7 @@ L’écart entre la fréquence de réception et la fréquence image est donc de 
 $\Delta f = 2 \cdot f_\text{FI}$
 
 
-Cette formule se trouve également dans le [recueil de formules](link:Formelsammlung).
+Cette formule se trouve également dans le recueil de formules.
 
 
 La différence de fréquence entre la fréquence de réception et la fréquence image correspond donc toujours au *double de la fréquence intermédiaire (FI)*.

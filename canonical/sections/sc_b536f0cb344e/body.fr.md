@@ -28,7 +28,7 @@ BK QSL = VY 73 DE HB3AB SK
 </qso>
 
 <webmargin>
-| l: | X: |
+| l:  | X:  |
 | Abrév. | Signification |
 | BK | Interruption de l'émission ; transmission informelle |
 | CQ | Appel général |
@@ -49,3 +49,11 @@ BK QSL = VY 73 DE HB3AB SK
 </webmargin>
 
 Il existe également des procédés de transmission numériques dont la réalisation diffère. Par exemple, FT8 ou FT4 fonctionnent même dans des conditions radio défavorables, c'est-à-dire lorsque le récepteur ne reçoit qu'une intensité de signal faible par rapport au bruit de fond. Cependant, avec ces procédés, seuls quelques caractères peuvent être transmis par émission. La réalisation est donc encore plus compacte. D'autres procédés numériques ne transmettent même pas de texte, mais par exemple des images ou des vidéos, avec une exploitation adaptée aux circonstances. Cela n'est cependant pas abordé dans l'examen.
+
+[question:BE112]
+
+[question:BB109]
+
+[question:BB110]
+
+[question:BB108]

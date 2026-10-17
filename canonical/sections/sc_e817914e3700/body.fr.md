@@ -25,7 +25,7 @@ L’heure doit être correctement convertie en UTC. Rappel : en hiver en Allemag
 [question:BG107]
 [question:BG108]
 
-Pour un envoi postal direct, les adresses peuvent être recherchées dans des listes d’indicatifs internationales, appelées *callbooks*, ou sur Internet.
+Pour un envoi postal direct, les adresses peuvent être recherchées dans des listes d’indicatifs internationales, appelées callbooks, ou sur Internet.
 
 [question:BG110]
 

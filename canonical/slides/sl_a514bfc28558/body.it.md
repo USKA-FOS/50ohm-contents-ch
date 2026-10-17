@@ -6,6 +6,8 @@
 [picture:656:n_internationale_landeskenner_eu:Prefissi nazionali in Europa]
 </right>
 
+
+
 ---
 
 ## Fonti per i prefissi nazionali
@@ -18,6 +20,8 @@
 <note>
 Per alcuni prefissi esistono trucchi mnemonici per ricordarli più facilmente
 </note>
+
+
 
 --- style="font-size: 0.7em;"
 
@@ -33,6 +37,8 @@ Per alcuni prefissi esistono trucchi mnemonici per ricordarli più facilmente
 | G | Gran Bretagna | Regno Unito |
 [table:n_europaeische_landeskenner_eselsbruecken_1:Prefissi nazionali europei e trucchi mnemonici]
 
+
+
 --- style="font-size: 0.7em;"
 
 | l: Prefisso | l: Trucco mnemonico | X: Paese |
@@ -46,6 +52,8 @@ Per alcuni prefissi esistono trucchi mnemonici per ricordarli più facilmente
 | OE | OEsterreich | Austria |
 | OH | Oben Hinten (dietro in alto) | Finlandia |
 [table:n_europaeische_landeskenner_eselsbruecken_2:Prefissi nazionali europei e trucchi mnemonici]
+
+
 
 --- style="font-size: 0.7em;"
 
@@ -61,6 +69,8 @@ Per alcuni prefissi esistono trucchi mnemonici per ricordarli più facilmente
 | SV | | Grecia |
 [table:n_europaeische_landeskenner_eselsbruecken_3:Prefissi nazionali europei e trucchi mnemonici]
 
+
+
 --- style="font-size: 0.7em;"
 
 | l: Prefisso | l: Trucco mnemonico | X: Paese |
@@ -72,7 +82,9 @@ Per alcuni prefissi esistono trucchi mnemonici per ricordarli più facilmente
 | *JA* | JApan | Giappone |
 | *K*, *W*, N, AA-AL | Nessuno Vuole Andare in America | USA |
 | LU | Lontano Unten (in basso a sinistra) | Argentina |
-[table:n_internazionale_landeskenner_eselsbruecken_1:Altri prefissi nazionali e trucchi mnemonici]
+[table:n_internationale_landeskenner_eselsbruecken_1:Altri prefissi nazionali e trucchi mnemonici]
+
+
 
 --- style="font-size: 0.7em;"
 
@@ -85,4 +97,94 @@ Per alcuni prefissi esistono trucchi mnemonici per ricordarli più facilmente
 | *ZL* | Terra del mais (Zealand) | Nuova Zelanda |
 | ZS | | Sudafrica |
 | 4X | | Israele |
-[table:n_internazionale_landeskenner_eselsbruecken_2:Altri prefissi nazionali e trucchi mnemonici]
+[table:n_internationale_landeskenner_eselsbruecken_2:Altri prefissi nazionali e trucchi mnemonici]
+
+
+---
+
+[question:BD301]
+
+
+---
+
+[question:BD314]
+
+
+---
+
+[question:BD311]
+
+
+---
+
+[question:BD304]
+
+
+---
+
+[question:BD307]
+
+
+---
+
+[question:BD303]
+
+
+---
+
+[question:BD305]
+
+
+---
+
+[question:BD306]
+
+
+---
+
+[question:BD308]
+
+
+---
+
+[question:BD310]
+
+
+---
+
+[question:BD302]
+
+
+---
+
+[question:BD312]
+
+
+---
+
+[question:BD313]
+
+
+---
+
+[question:BD316]
+
+
+---
+
+[question:BD318]
+
+
+---
+
+[question:BD317]
+
+
+---
+
+[question:BD309]
+
+
+---
+
+[question:BD315]

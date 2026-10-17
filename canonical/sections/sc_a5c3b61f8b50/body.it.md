@@ -1,7 +1,7 @@
 %YPA: Quali nominativi [index:nominativo] vogliamo utilizzare per l'esempio di QSO?
 %YPA: si dice "chiamata"? Non "appello"?
 
-I collegamenti radio [index:collegamento radio] avvengono solitamente in modo bidirezionale su una stessa frequenza. Ovvero, una stazione trasmette mentre l'altra ascolta. Se entrambe trasmettono contemporaneamente, nessuna delle due riceve. Pertanto, è importante che vi sia una certa ordine nello svolgimento di un collegamento radio, detto anche *gestione operativa* [index:gestione operativa].
+I collegamenti radio [index:collegamento radio] avvengono solitamente in modo bidirezionale su una stessa frequenza. Ovvero, una stazione trasmette mentre l'altra ascolta. Se entrambe trasmettono contemporaneamente, nessuna delle due riceve. Pertanto, è importante che vi sia una certa ordine nello svolgimento di un collegamento radio, detto anche gestione operativa [index:gestione operativa].
 
 Nei molti servizi radio la gestione operativa è strettamente regolamentata, ad esempio nel radiofonia aeronautica, nella polizia, nei vigili del fuoco o nei servizi di soccorso. Nel radioamatoriale [index:radioamatoriale] non esistono prescrizioni vincolanti per la gestione operativa. È sufficiente menzionare correttamente il nominativo. Tuttavia, anche nel radioamatoriale è utile seguire le consuetudini di gestione operativa e conoscere le abbreviazioni più diffuse. Per questo esiste anche una specifica parte d'esame denominata "conoscenze operative".
 
@@ -16,7 +16,7 @@ CQ CQ qui è HB9RW con una chiamata generale, qui HB9RW e ascolto.
 > HB9RW qui è HB9CN, prego rispondere
 </qso>
 
-Se non si riceve risposta, si può presumere che la frequenza non sia occupata. Ora si può iniziare un collegamento radio. Come al telefono, questa azione si chiama *chiamata* [index:chiamata]. In linea di principio, esistono due modalità di chiamata: la chiamata generale e la chiamata mirata.
+Se non si riceve risposta, si può presumere che la frequenza non sia occupata. Ora si può iniziare un collegamento radio. Come al telefono, questa azione si chiama chiamata . In linea di principio, esistono due modalità di chiamata: la chiamata generale e la chiamata mirata.
 
 * Con una *chiamata generale* [index:chiamata:Generale] si invita *tutte* le stazioni che possono ricevere a rispondere. L'abbreviazione internazionale per la chiamata generale è CQ. Se CQ viene pronunciato in inglese (ad esempio "si-kju"), suona come "seek you" (circa "sik-ju"), cioè "ti cerco". Nel traffico radiofonico in lingua tedesca, invece di CQ si usa anche la locuzione "chiamata generale".
 * Con una *chiamata mirata* [index:chiamata:Mirata] invece si desidera la risposta *di una stazione specifica*.

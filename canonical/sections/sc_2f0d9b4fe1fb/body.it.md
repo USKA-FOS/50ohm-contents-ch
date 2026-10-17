@@ -1,4 +1,4 @@
-La qualità dei collegamenti radio dipende da diversi fattori: la potenza di trasmissione, l’antenna utilizzata, la distanza e, non ultimo, le condizioni di propagazione attuali. Spesso è interessante sapere quanto bene il proprio segnale viene ricevuto dalla stazione ricevente. Per valutare la qualità della ricezione, si fornisce un rapporto di ricezione, il cosiddetto *rapport* [index:Rapport]. Nel radioamatoriale si utilizza quasi sempre il sistema RST [index:RST-System].
+La qualità dei collegamenti radio dipende da diversi fattori: la potenza di trasmissione, l’antenna utilizzata, la distanza e, non ultimo, le condizioni di propagazione attuali. Spesso è interessante sapere quanto bene il proprio segnale viene ricevuto dalla stazione ricevente. Per valutare la qualità della ricezione, si fornisce un rapporto di ricezione, il cosiddetto rapport [index:Rapport]. Nel radioamatoriale si utilizza quasi sempre il sistema RST [index:RST-System].
 
 [question:BE201]
 

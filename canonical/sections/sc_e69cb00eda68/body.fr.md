@@ -6,7 +6,7 @@ Les stations radio utilisent des indicatifs d’appel [index:indicatif d’appel
 [photo:167:rufzeichen_flugzeug:Avion avec l’indicatif d’appel DEBPF]
 </margin>
 
-Chaque radioamateur [index:radioamateur] se voit attribuer un indicatif d’appel personnel [index:indicatif d’appel:Personnel], unique au monde. Les radioamateurs doivent mentionner leur indicatif d’appel au début de chaque liaison radio [index:liaison radio] et le répéter toutes les 10 minutes pendant la communication.
+Chaque radioamateur  se voit attribuer un indicatif d’appel personnel [index:indicatif d’appel:Personnel], unique au monde. Les radioamateurs doivent mentionner leur indicatif d’appel au début de chaque liaison radio  et le répéter toutes les 10 minutes pendant la communication.
 
 <tip>
 Les 10 minutes ne doivent pas être mesurées avec un chronomètre. Dans la pratique radio, il est fréquent que les indicatifs d’appel des deux interlocuteurs soient mentionnés lors de la transmission du micro. Cependant, cela n’est pas obligatoire à chaque changement de micro.

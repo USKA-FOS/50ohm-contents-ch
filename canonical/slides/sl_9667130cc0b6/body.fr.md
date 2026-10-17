@@ -3,7 +3,7 @@
 * Les dipôles alimentés au centre sont des *antennes symétriques*
 * Ils présentent aux deux pôles (par exemple aux points d’alimentation) la même tension par rapport à la terre, à un signe près
 * C’est le cas des dipôles et des antennes Yagi-Uda qui en sont dérivées
-* L’antenne à plan de sol (*Groundplane*) est *asymétrique*, car elle a un potentiel de terre au point de connexion des radiales
+* L’antenne à plan de sol (Groundplane) est *asymétrique*, car elle a un potentiel de terre au point de connexion des radiales
 
 <note>
 * Potentiel de terre : tension nulle par rapport à la terre
@@ -99,7 +99,7 @@
 ---
 [question:EG108]
 ---
-### Antenne à plan de sol (*Groundplane*)
+### Antenne à plan de sol (Groundplane)
 
 <left>
 * Rayonnement perpendiculaire au radiateur

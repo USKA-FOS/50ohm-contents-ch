@@ -1,5 +1,5 @@
 %TODO: Nach LaTeX umformatieren
-Dans le chapitre sur [sec:widerstandsfarbcode], nous avons déjà brièvement abordé le concept de **tolérance**. La tolérance d'une résistance décrit dans quelle mesure sa valeur réelle peut s'écarter de la valeur nominale, c'est-à-dire celle indiquée sur la résistance. Elle est généralement exprimée en pourcentage et définit la plage dans laquelle la valeur réelle de la résistance peut se situer.
+Dans le chapitre sur [sec:widerstandsfarbcode], nous avons déjà brièvement abordé le concept de tolérance. La tolérance d'une résistance décrit dans quelle mesure sa valeur réelle peut s'écarter de la valeur nominale, c'est-à-dire celle indiquée sur la résistance. Elle est généralement exprimée en pourcentage et définit la plage dans laquelle la valeur réelle de la résistance peut se situer.
 
 Par exemple, une tolérance de $\qty{\pm 5}{\percent}$ signifie que la valeur réelle de la résistance peut se situer entre $\qty{95}{\percent}$ et $\qty{105}{\percent}$ de la valeur indiquée.
 

@@ -1,4 +1,6 @@
----
+
+--- style="font-size: smaller;"
+
 ## Durante la trasmissione
 
 <left>
@@ -15,6 +17,8 @@ Possono indurre oscillazioni elettriche in altre linee:
 * malfunzionamenti nei sistemi di controllo del riscaldamento
 </right>
 
+
+
 ---
 
 ## Durante la trasmissione
@@ -22,9 +26,13 @@ Possono indurre oscillazioni elettriche in altre linee:
 * Rispetto dei *requisiti di protezione per garantire la compatibilità elettromagnetica* ai sensi della *legge sulla compatibilità elettromagnetica degli apparecchi (EMVG)*
 * Nessun apparecchio deve generare disturbi tali da impedire il corretto funzionamento di altri dispositivi
 
+
+
 ---
 
 [question:VC118]
+
+
 
 
 ---
@@ -35,14 +43,20 @@ Possono indurre oscillazioni elettriche in altre linee:
 * Il radioamatore può determinare autonomamente l’immunità dei propri apparecchi e impianti
 * La deroga rispetto all’EMVG rappresenta un privilegio
 
+
+
 ---
 
 [question:VC120]
 
 
+
+
 ---
 
 [question:VC119]
+
+
 
 
 ---
@@ -60,14 +74,20 @@ dei dispositivi e delle loro parti che operano con oscillazioni ad alta frequenz
 Protezione dai disturbi in entrambe le direzioni
 </fragment>
 
+
+
 ---
 
 [question:NK101]
 
 
+
+
 ---
 
 [question:NJ101]
+
+
 
 
 ---

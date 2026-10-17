@@ -1,5 +1,5 @@
 <left>
-[immagine:674:canale:Canale]
+[picture:674:kanal:Canale]
 </left>
 <right>
 * L’illustrazione mostra un trasmettitore e un ricevitore collegati tra loro tramite un canale.
@@ -16,7 +16,7 @@ La codifica del canale aggiunge alla trasmissione delle informazioni una ridonda
 [question:AE409]
 
 ---
-[immagine:676:codificatore_canale:Codificatore di canale]
+[picture:676:kanalcodierer:Codificatore di canale]
 
 Distinguiamo due tipi di codifica del canale:
 * *Rilevamento degli errori*: si può riconoscere che durante la trasmissione è avvenuto un errore e, ad esempio, richiedere una nuova trasmissione.

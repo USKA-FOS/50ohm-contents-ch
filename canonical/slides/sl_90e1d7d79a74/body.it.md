@@ -18,7 +18,7 @@
 * R e S come nella telefonia e telegrafia: leggibilità e intensità del segnale
 * V per la qualità video o dell’immagine (da 1 a 5)
 
-| Valore l | Significato X |
+| l: Valore l | X: Significato X |
 | 1 | Si vede solo la sincronizzazione |
 | 2 | Il nominativo è leggibile |
 | 3 | Si riconoscono dettagli grandi |

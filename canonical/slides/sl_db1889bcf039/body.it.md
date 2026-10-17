@@ -11,7 +11,7 @@
 
 ### Sicurezza elettrica
 
-Negli alimentatori, in particolare con un involucro metallico, è fondamentale un collegamento a norma alla rete elettrica. Il conduttore di protezione (verde/giallo) ha il compito di scaricare la tensione verso la *terra* in caso di guasto, in modo da far scattare l’interruttore di sicurezza di casa e impedire che una tensione pericolosa si presenti sull’involucro metallico. In un cavo a 3 conduttori i colori di identificazione dei conduttori sono definiti come segue:
+Negli alimentatori, in particolare con un involucro metallico, è fondamentale un collegamento a norma alla rete elettrica. Il conduttore di protezione (verde/giallo) ha il compito di scaricare la tensione verso la terra in caso di guasto, in modo da far scattare l’interruttore di sicurezza di casa e impedire che una tensione pericolosa si presenti sull’involucro metallico. In un cavo a 3 conduttori i colori di identificazione dei conduttori sono definiti come segue:
 
 ---
 ### Colori dei conduttori

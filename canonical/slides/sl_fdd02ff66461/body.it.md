@@ -2,7 +2,7 @@
 [picture:482:n_seitenband_2:Modulazione di ampiezza, portante con banda laterale inferiore (a) e superiore (b)]
 </left>
 <right>
-* Nella **modulazione di ampiezza** oltre alla portante vengono trasmessi due **bande laterali** → banda laterale inferiore e banda laterale superiore
+* Nella modulazione di ampiezza oltre alla portante vengono trasmessi due bande laterali → banda laterale inferiore e banda laterale superiore
 * "lower sideband" (*LSB*) e "upper sideband" (*USB*)
 * La portante stessa non contiene alcuna informazione
 </right>

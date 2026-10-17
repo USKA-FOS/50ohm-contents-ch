@@ -30,7 +30,7 @@ Immagine di un'antenna a tromba in seguito
 
 $g_i = 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}$
 
-* Calcolo con la formula nella [raccolta di formule](#)
+* Calcolo con la formula nella raccolta di formule
 * Dipendente dal diametro
 * Solitamente guadagno molto elevato
 
@@ -109,3 +109,4 @@ $\lambda = \frac{c}{f} = \frac{\qty{3\cdot 10^8}{\meter\per\second}}{\qty{10,4}{
 </fragment>
 <fragment>
 $\begin{split}g_i &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot d}{\lambda}\right)^2 \cdot \eta\right)}\unit{\dBi}\\ &= 10 \cdot \log_{10}{\left(\left(\frac{\pi \cdot \qty{1,2}{\meter}}{\qty{0,029}{\meter}}\right)^2 \cdot 1\right)}\unit{\dBi}\\ &= \qty{42,3}{\dBi}\end{split}$
+</fragment>

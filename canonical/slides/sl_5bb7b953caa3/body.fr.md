@@ -1,6 +1,6 @@
 ## Groupes Q
 <left>
-* Définis dans le [règlement des radiocommunications](#) (RR)
+* Définis dans le règlement des radiocommunications (RR)
 * Composés de 3 caractères
 * Utilisés comme question, réponse ou instruction
 </left>
@@ -30,7 +30,7 @@ QTH Berlin $\rightarrow$ QTH?
 
 ---
 * QRT : Arrêtez la transmission (*t*erminer)
-* QRZ? : Qui m'a appelé ? (Instruction : répéter l'*indicatif d’appel* une *z*ième fois)
+* QRZ? : Qui m'a appelé ? (Instruction : répéter l'indicatif d’appel une *z*ième fois)
 * QSL : Accusé de réception ou en question : Demande d'accusé de réception (tout est-il *l*oggué ?)
 
 ---
@@ -49,7 +49,7 @@ QTH Berlin $\rightarrow$ QTH?
 
 
 ---
-* QRO : *o*utput élevé, ou en question : Dois-je augmenter la [puissance d'émission](#) ?
+* QRO : *o*utput élevé, ou en question : Dois-je augmenter la puissance d'émission ?
 * QSO : Terme familier pour liaison radio, correctement en question : Pouvez-vous établir une liaison radio directe avec ... ?
 * QRX : Je vous rappellerai, ou en question : À quel moment *X* me rappellerez-vous ?
 
@@ -59,8 +59,8 @@ QTH Berlin $\rightarrow$ QTH?
 
 
 ---
-* QRP : Instruction de réduire la [puissance d'émission](#)
-* Utilisé également pour les équipements ou les liaisons avec une [puissance d'émission](#) faible (moins de $\qty{5}{\watt}$)
+* QRP : Instruction de réduire la puissance d'émission
+* Utilisé également pour les équipements ou les liaisons avec une puissance d'émission faible (moins de $\qty{5}{\watt}$)
 * Particulièrement adapté pour la CW ou les modes de transmission numériques
 
 
@@ -92,8 +92,8 @@ QTH Berlin $\rightarrow$ QTH?
 | l: | l: Signification | l: Astuce mnémotechnique |
 | QRN | Perturbations atmosphériques | *N*aturelles |
 | QRM | Je suis perturbé | *M*an-made (fait par l'homme) |
-| QRO | Augmentez la [puissance d'émission](#) ! | Ajouter quelques watts *o*utput |
-| QRP | Réduisez la [puissance d'émission](#) ! | *P*iano (doux, silencieux), *P*ssst ! |
+| QRO | Augmentez la puissance d'émission ! | Ajouter quelques watts *o*utput |
+| QRP | Réduisez la puissance d'émission ! | *P*iano (doux, silencieux), *P*ssst ! |
 | QRT | Arrêtez la transmission ! | *T*erminer |
 | QRV | Je suis prêt | *v*准备好 |
 [table:n_q_gruppen_1:Tous les groupes Q pertinents pour l'examen, avec astuces mnémotechniques]
@@ -103,7 +103,7 @@ QTH Berlin $\rightarrow$ QTH?
 
 | l: | l: Signification | l: Astuce mnémotechnique |
 | QRX? | Quand me rappellerez-vous ? | Moment *X* |
-| QRZ? | Qui m'a appelé ? | Veuillez répéter l'*indicatif d’appel* une *z*ième fois ! |
+| QRZ? | Qui m'a appelé ? | Veuillez répéter l'indicatif d’appel une *z*ième fois ! |
 | QSB | Fading, fluctuations | *B*as et *B*as |
 | QSL | J'accuse réception | J'ai *l*oggué |
 | QSO? | Pouvez-vous contacter la station ... ? |  |

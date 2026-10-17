@@ -1,6 +1,6 @@
 <left>
 * Processo di miscelazione con una frequenza dell’oscillatore
-* Frequenza intermedia costante
+* *Frequenza intermedia* costante
 * Migliore *selettività* del segnale ricevuto
 * I filtri non devono essere variabili
 * Maggiore *selettività*

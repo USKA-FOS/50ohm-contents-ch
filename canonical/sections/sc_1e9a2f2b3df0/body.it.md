@@ -11,7 +11,7 @@ Come abbiamo appreso, la larghezza di banda occupata da un'emissione dipende dal
 | $\qtyrange{28}{29,7}{\mega\hertz}$ | P | 4 13 |
 | $\qtyrange{144}{146}{\mega\hertz}$ | P | 6 13 |
 | $\qtyrange{430}{440}{\mega\hertz}$ | P | 7 13 |
-[tabella:n_tab_afuv:Estratto AfuV allegato 1]
+[table:n_tab_afuv:Estratto AfuV allegato 1]
 </webmargin>
 
 <webmargin>

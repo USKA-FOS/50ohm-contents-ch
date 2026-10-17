@@ -58,3 +58,7 @@ Les interférences avec les stations voisines peuvent également être causées 
 
 
 Un gain du microphone trop faible (amplitude BF) entraîne une modulation insuffisante de l’émetteur SSB, ce qui réduit la puissance de sortie. Il est donc important d’ajuster correctement le gain du microphone pour une bonne communication en SSB (ni trop élevé, ni trop faible). Nous aborderons ce point plus en détail dans le chapitre sur le compresseur de dynamique.
+
+[question:EE206]
+
+[question:EE205]

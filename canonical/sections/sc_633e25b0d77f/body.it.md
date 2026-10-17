@@ -25,7 +25,7 @@ Spesso un fulmine cade nelle vicinanze della nostra stazione. Questo è meno gra
 [photo:191:e_ueberspannung_blitz:Condensatore completamente distrutto da una sovratensione in un alimentatore. La causa è stata la caduta di un fulmine nelle vicinanze della stazione. In questo caso, la sovratensione è arrivata attraverso la rete elettrica.]
 </margin>
 
-Come possiamo proteggere i nostri apparecchi dalle sovratensioni causate dai fulmini? Esistono prese intermedie di protezione contro i fulmini per cavi coassiali, che scaricano le sovratensioni tramite un tubo a scarica a gas, oppure si può mettere a terra il cavo di antenna dopo l'uso. In entrambi i casi è necessario un *conduttore di messa a terra* (filo massiccio, non a trefoli) la cui sezione trasversale corrisponda alle specifiche di Electrosuisse. Si può utilizzare qualsiasi messa a terra dell'edificio esistente.
+Come possiamo proteggere i nostri apparecchi dalle sovratensioni causate dai fulmini? Esistono prese intermedie di protezione contro i fulmini per cavi coassiali, che scaricano le sovratensioni tramite un tubo a scarica a gas, oppure si può mettere a terra il cavo di antenna dopo l'uso. In entrambi i casi è necessario un conduttore di messa a terra (filo massiccio, non a trefoli) la cui sezione trasversale corrisponda alle specifiche di Electrosuisse. Si può utilizzare qualsiasi messa a terra dell'edificio esistente.
 
 
 [question:EK216]

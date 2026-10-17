@@ -1,16 +1,16 @@
-Dans les sections [sec:unerwuenschte_aussendungen_1] et [sec:unerwuenschte_aussendungen_2], nous avons déjà rencontré des émissions indésirables sous forme d'*harmoniques* et d'*émissions parasites*. Les harmoniques supérieures ou harmoniques d'un signal se produisent toujours lorsque des écarts par rapport à la courbe sinusoïdale idéale se forment et sont toujours des multiples entiers de la fréquence fondamentale, comme illustré dans la figure [ref:a_harmonique].
+Dans les sections [sec:unerwuenschte_aussendungen_1] et [sec:unerwuenschte_aussendungen_2], nous avons déjà rencontré des émissions indésirables sous forme d'*harmoniques* et d'*émissions parasites*. Les harmoniques supérieures ou harmoniques d'un signal se produisent toujours lorsque des écarts par rapport à la courbe sinusoïdale idéale se forment et sont toujours des multiples entiers de la fréquence fondamentale, comme illustré dans la figure [ref:a_harmonische].
 
 Un exemple est montré dans la question d'examen suivante : Si un amplificateur est surmodulé, les pics de l'amplitude du signal sinusoïdal sont limités – ce qui génère des harmoniques.
 
 [question:AJ207]
 
 <margin>
-[picture:868:a_harmonique: Harmoniques supérieures (OW), Harmoniques (Harm.) et émissions parasites (NA)]
+[picture:868:a_harmonische: Harmoniques supérieures (OW), Harmoniques (Harm.) et émissions parasites (NA)]
 </margin>
 
 ---
 
-Lors de l'examen des multiples de la fréquence fondamentale d'un signal, nous distinguons les termes *harmoniques et harmoniques supérieures* du signal. Ces deux termes ne diffèrent que par leur définition et leur méthode de comptage. La 1ère harmonique d'un signal est sa fréquence fondamentale elle-même. La 2ème harmonique correspond à la 1ère harmonique supérieure d'un signal, la 3ème harmonique à la 2ème harmonique supérieure d'un signal, et ainsi de suite. Le tableau adjacent [ref:a_harmonique] montre la relation.
+Lors de l'examen des multiples de la fréquence fondamentale d'un signal, nous distinguons les termes *harmoniques et harmoniques supérieures* du signal. Ces deux termes ne diffèrent que par leur définition et leur méthode de comptage. La 1ère harmonique d'un signal est sa fréquence fondamentale elle-même. La 2ème harmonique correspond à la 1ère harmonique supérieure d'un signal, la 3ème harmonique à la 2ème harmonique supérieure d'un signal, et ainsi de suite. Le tableau adjacent [ref:a_harmonische] montre la relation.
 
 <margin>
 | l: Multiple de la fréquence fondamentale | l: Harmonique | l: Harmonique supérieure |
@@ -18,7 +18,7 @@ Lors de l'examen des multiples de la fréquence fondamentale d'un signal, nous d
 | $2 \cdot f_0$ | 2 | 1 |
 | $3 \cdot f_0$ | 3 | 2 |
 | $4 \cdot f_0$ | 4 | 3 |
-[table:a_harmonique:Harmoniques et harmoniques supérieures]
+[table:a_harmonische:Harmoniques et harmoniques supérieures]
 </margin>
 
 ---
@@ -68,7 +68,7 @@ Pour supprimer les produits de mélange indésirables – mais aussi les harmoni
 [question:AJ209]
 [question:AJ208]
 
-Les émissions indésirables peuvent également être présentes à proximité immédiate du signal d'émission. Celles-ci sont difficiles voire impossibles à supprimer par l'utilisation de filtres et devraient donc être efficacement supprimées dès le début de la préparation du signal par des mesures appropriées. De telles *émissions parasites*, également appelées *produits secondaires* (communément appelés "splatter"), qui élargissent involontairement le signal d'émission, sont souvent générées par un réglage trop élevé de l'amplificateur de microphone d'un émetteur. Cela déforme le signal BF, ce qui entraîne des émissions parasites indésirables. La figure [ref:a_harmonique] montre les émissions parasites.
+Les émissions indésirables peuvent également être présentes à proximité immédiate du signal d'émission. Celles-ci sont difficiles voire impossibles à supprimer par l'utilisation de filtres et devraient donc être efficacement supprimées dès le début de la préparation du signal par des mesures appropriées. De telles *émissions parasites*, également appelées *produits secondaires* (communément appelés "splatter"), qui élargissent involontairement le signal d'émission, sont souvent générées par un réglage trop élevé de l'amplificateur de microphone d'un émetteur. Cela déforme le signal BF, ce qui entraîne des émissions parasites indésirables. La figure [ref:a_harmonische] montre les émissions parasites.
 
 [question:AJ219]
 

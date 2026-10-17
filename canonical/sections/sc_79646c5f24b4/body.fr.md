@@ -25,7 +25,7 @@ Dans les émetteurs réels, la surmodulation peut également entraîner une limi
 
 ---
 
-Le taux de modulation se calcule à l'aide de la formule suivante (incluse dans la figure [ref:modulationsgrad] du *recueil de formules*):
+Le taux de modulation se calcule à l'aide de la formule suivante (incluse dans la figure [ref:modulationsgrad] du recueil de formules):
 
 $m = \frac{\hat{U}_\mathrm{mod}}{\hat{U}_\mathrm{T}}$
 

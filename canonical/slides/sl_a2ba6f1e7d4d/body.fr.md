@@ -1,4 +1,4 @@
-* Pour les différentes bandes radioamateur, des *bandes passantes* maximales autorisées sont fixées
+* Pour les différentes bandes radioamateur, des bandes passantes maximales autorisées sont fixées
 * Les bandes passantes sont indiquées à l’annexe 1 de l’ordonnance sur la radioamateur
 * [Journal officiel fédéral avec le nouveau règlement](https://www.recht.bund.de/bgbl/1/2023/160/VO) – l’annexe 1 se trouve aux pages 7 à 9
 * Les questions suivantes peuvent être résolues à l’aide des notes de bas de page de l’annexe 1

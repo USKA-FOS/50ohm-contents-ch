@@ -1,5 +1,5 @@
 # Méthode de résolution
-Nous utilisons la formule du rapport de tension issue du [recueil de formules](#) (niveau, gain) :
+Nous utilisons la formule du rapport de tension issue du recueil de formules (niveau, gain) :
 $ g = 20 \cdot \log_{10}\left(\frac{U_2}{U_1}\right)\unit{\dB}$
 Avec les valeurs de l'énoncé ($\frac{U_2}{U_1} = 15$), nous obtenons :
 

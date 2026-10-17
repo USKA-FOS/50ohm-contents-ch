@@ -27,8 +27,8 @@
 * I componenti passivi variano i loro valori al variare della temperatura
 </left>
 <right>
-* Frequenza più alta con *capacità* o *induttanza* più *bassa*
-* Frequenza più bassa con *capacità* o *induttanza* più *alta*
+* Frequenza più alta con capacità o induttanza più *bassa*
+* Frequenza più bassa con capacità o induttanza più *alta*
 </right>
 <note>
 * Questo potrebbe essere spiegato molto bene con la formula di $f_0$, ma non è ancora nota

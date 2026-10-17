@@ -9,17 +9,23 @@ où $G_\mathrm{antenne}$ représente le gain d’antenne. L’EIRP est donc le p
 Avant l’examen, il est conseillé de bien se familiariser avec sa calculatrice. Les calculs et les formules des différentes questions doivent être répétés régulièrement afin de maîtriser parfaitement l’appareil et les étapes de calcul lors de l’examen.
 </tip>
 [question:EG501]
-Pour la question suivante, il est impératif de prêter attention aux signes de calcul. Les pertes sont *soustrayues* de la puissance d'émission, puis multipliées par le facteur de gain ($G_\mathrm{Antenne}$). Comme il s'agit de calculer l'EIRP, la référence doit se faire par rapport au radiateur isotrope.[question:EG502]
+Pour la question suivante, il est impératif de prêter attention aux signes de calcul. Les pertes sont *soustrayues* de la puissance d'émission, puis *multipliées* par le facteur de gain ($G_\mathrm{Antenne}$). Comme il s'agit de calculer l'EIRP, la référence doit se faire par rapport au radiateur isotrope.
+
+[question:EG502]
 
 ---
 
-Dans le chapitre sur les décibels [sec:dezibel_1], nous avons appris qu'il est judicieux de travailler avec des valeurs en dB, car cela simplifie considérablement de nombreux calculs. Les amplifications et les atténuations peuvent être simplement additionnées ou soustraites en décibels. La figure [ref:e_verstaerkung_daempfung] montre une installation radio avec plusieurs étages d'amplification et d'atténuation. Le gain global de cette installation s'obtient en additionnant les contributions individuelles : $\qty{-2}{\dB} + \qty{6}{\dB} - \qty{3}{\dB} + \qty{2}{\dB} = \qty{3}{\dB}$, ce qui correspond à un facteur de puissance de $\num{2}$. <margin>
+Dans le chapitre sur les décibels [sec:dezibel_1], nous avons appris qu'il est judicieux de travailler avec des valeurs en dB, car cela simplifie considérablement de nombreux calculs. Les amplifications et les atténuations peuvent être simplement additionnées ou soustraites en décibels. La figure [ref:e_verstaerkung_daempfung] montre une installation radio avec plusieurs étages d'amplification et d'atténuation. Le gain global de cette installation s'obtient en additionnant les contributions individuelles : $\qty{-2}{\dB} + \qty{6}{\dB} - \qty{3}{\dB} + \qty{2}{\dB} = \qty{3}{\dB}$, ce qui correspond à un facteur de puissance de $\num{2}$. 
+<margin>
+
 [picture:439:e_verstaerkung_daempfung:Amplifications et atténuations dans une installation radio]
 </margin>
 
 ---
 
-Les questions suivantes nécessitent le calcul de l'EIRP. Pour cela, on peut soit utiliser directement une formule, soit résoudre les exercices – avec un peu d'entraînement – entièrement de tête. Dans la suite, nous présenterons donc généralement les deux méthodes.La formule permettant de calculer l'EIRP est issue du recueil de formules et s'exprime comme suit :$P_\mathrm{EIRP} = P_\mathrm{émetteur} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}}$<indepth>
+Les questions suivantes nécessitent le calcul de l'EIRP. Pour cela, on peut soit utiliser directement une formule, soit résoudre les exercices – avec un peu d'entraînement – entièrement de tête. Dans la suite, nous présenterons donc généralement les deux méthodes.La formule permettant de calculer l'EIRP est issue du recueil de formules et s'exprime comme suit :$P_\mathrm{EIRP} = P_\mathrm{émetteur} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}}$
+<indepth>
+
 On obtient la formule de $P_\mathrm{EIRP}$ en réarrangeant la formule de gain issue du recueil de formules :$g = 10 \cdot \log_{10}\left(\frac{P_2}{P_1}\right) \unit{\dB}$
   
 Comme il faut également prendre en compte une atténuation $a$, celle-ci est soustraite du gain d'antenne. Pour $P_1$, nous utilisons la puissance de l'émetteur $P_\mathrm{Sender}$, car elle représente la puissance d'entrée, et pour $P_2$, la puissance EIRP $P_\mathrm{EIRP}$, car il s'agit de la puissance de sortie résultante.
@@ -54,7 +60,7 @@ La deuxième méthode de calcul possible exploite le fait que l'on peut "décomp
 $\qty{26}{\dBi} = \qty{20}{\dBi} + \qty{6}{\dB}$
 
 <margin>
-| c:dB | c:≈ facteur de puissance |
+| c: dB | c: ≈ facteur de puissance |
 | $\num{0}$ | $\num{1}$ |
 | $\num{1,5}$ | $\sqrt{2} = 1,41$ |
 | $\num{2,15}$ | $\num{1,64}$ |
@@ -104,21 +110,25 @@ On remplace les valeurs :
 
 $ P_\mathrm{émetteur} = \frac{\qty{10}{\watt}}{10^{\frac{\qty{5,15}{\dBi}}{\qty{10}{\dB}}}} = \frac{\qty{10}{\watt}}{3,27} \approx \qty{3,05}{\watt} $
 
-Le calcul avec une calculatrice donne $\qty{3,05}{\watt}$. Avec une **limitation** à $\qty{3}{\watt}$, on respecte la valeur limite de moins de $\qty{10}{\watt}$ EIRP.
+Le calcul avec une calculatrice donne $\qty{3,05}{\watt}$. Avec une limitation à $\qty{3}{\watt}$, on respecte la valeur limite de moins de $\qty{10}{\watt}$ EIRP.
 
 La deuxième méthode de calcul passe à nouveau par la décomposition des valeurs en dB. En examinant la valeur $g=\qty{5,15}{\dBi}$, on remarque qu'il est possible de la décomposer en :
 
 $\qty{5,15}{\dBi} = \qty{3}{\dBi} + \qty{2,15}{\dB}$
 
-Dans le tableau [ref:e_dezibel_leistungsfaktoren], on trouve le facteur pour $\qty{2,15}{\dB}$ comme étant $\num{1,64}$. On obtient ainsi pour la **puissance d'émission** maximale :
+Dans le tableau [ref:e_dezibel_leistungsfaktoren], on trouve le facteur pour $\qty{2,15}{\dB}$ comme étant $\num{1,64}$. On obtient ainsi pour la puissance d'émission maximale :
 
 $P_\mathrm{émetteur} = \frac{\qty{10}{\watt}}{2\cdot 1,64} = \frac{\qty{10}{\watt}}{3,28} \approx \qty{3}{\watt}$
 
 Comme prévu, on obtient ici le même résultat. Avec $\qty{3}{\watt}$, on est du bon côté.
 
-La question suivante pourrait également être résolue à l'aide du recueil de formules en remplaçant $a=\qty{1}{\dB}$, mais elle se calcule très simplement de tête.[question:EG505]
+La question suivante pourrait également être résolue à l'aide du recueil de formules en remplaçant $a=\qty{1}{\dB}$, mais elle se calcule très simplement de tête.
 
-Comme décrit au tout début de cette section, la puissance rayonnée EIRP prend en compte le gain d'antenne ($\qty{11}{\dBi}$) et la puissance effectivement disponible à l'antenne. La puissance d'émission est atténuée de $\qty{1}{\dB}$ par le câble, et l'ensemble du système d'antenne présente un gain réel de $\qty{10}{\dBi}$. Dans notre tableau [ref:e_dezibel_leistungsfaktoren] du recueil de formules, le facteur $\num{10}$ est indiqué pour $\qty{10}{\dB}$. À partir d'une puissance d'émission de $\qty{100}{\watt}$, on obtient une puissance rayonnée de $\qty{1000}{\watt}$. Pour la question suivante, il faut veiller à ce qu'une antenne dipôle soit utilisée. Elle peut également être calculée très simplement de tête.[question:EG506]
+[question:EG505]
+
+Comme décrit au tout début de cette section, la puissance rayonnée EIRP prend en compte le gain d'antenne ($\qty{11}{\dBi}$) et la puissance effectivement disponible à l'antenne. La puissance d'émission est atténuée de $\qty{1}{\dB}$ par le câble, et l'ensemble du système d'antenne présente un gain réel de $\qty{10}{\dBi}$. Dans notre tableau [ref:e_dezibel_leistungsfaktoren] du recueil de formules, le facteur $\num{10}$ est indiqué pour $\qty{10}{\dB}$. À partir d'une puissance d'émission de $\qty{100}{\watt}$, on obtient une puissance rayonnée de $\qty{1000}{\watt}$. Pour la question suivante, il faut veiller à ce qu'une antenne dipôle soit utilisée. Elle peut également être calculée très simplement de tête.
+
+[question:EG506]
 
 Le gain d'une antenne dipôle par rapport au radiateur sphérique est de $\qty{2,15}{\dB}$. Cela correspond à un facteur de $\num{1,64}$. Cela est également indiqué dans le recueil de formules :$P_\mathrm{EIRP} = P_\mathrm{ERP} + \qty{2,15}{\dB}$ou, en tant que facteur :$P_\mathrm{EIRP} = P_\mathrm{ERP} \cdot 1,64$où $P_\mathrm{ERP}$ représente la puissance rayonnée par rapport au dipôle.Le gain du dipôle est de $\qty{2,15}{\dBi}$, ce qui correspond exactement à l'atténuation du câble dans la question. Les deux s'annulent donc. L'antenne dipôle rayonne une puissance isotrope rayonnée équivalente (EIRP) de $\qty{75}{\watt}$.
 
@@ -162,7 +172,7 @@ Dans la question suivante, une antenne avec un gain de $\qty{0}{\dB}$ par rappor
 
 [question:EG510]
 
-On peut à nouveau utiliser la formule du [recueil de formules](#).
+On peut à nouveau utiliser la formule du recueil de formules.
 
 $P_\mathrm{EIRP} = P_\mathrm{émetteur} \cdot 10^{\frac{g_d-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{8,5}{\watt} \cdot 10^{\frac{\qty{0}{\dB}-\qty{1,5}{\dB}+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{9,9}{\watt}$
 

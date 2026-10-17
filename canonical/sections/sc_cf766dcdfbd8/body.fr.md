@@ -54,11 +54,11 @@ L'utilisation de ces signaux de détresse, d'urgence ou de sécurité est interd
 
 L'IARU a défini, pour la région 1 de l'UIT, les fréquences de radioamateurisme d'urgence suivantes dans les plans de bandes, qui doivent être réservées aux communications radio en cas de catastrophe :
 % TODO: Les indications de bande sont en réalité superflues. Mais si seule la fréquence est indiquée, les interlignes deviennent énormes.
-* $\qty{3760}{\kilo\hertz}$ dans la *bande des 80 mètres*
-* $\qty{7110}{\kilo\hertz}$ dans la *bande des 40 mètres*
-* $\qty{14300}{\kilo\hertz}$ dans la *bande des 20 mètres*
-* $\qty{18160}{\kilo\hertz}$ dans la *bande des 17 mètres*
-* $\qty{21360}{\kilo\hertz}$ dans la *bande des 15 mètres*
+* $\qty{3760}{\kilo\hertz}$ dans la bande des 80 mètres
+* $\qty{7110}{\kilo\hertz}$ dans la bande des 40 mètres
+* $\qty{14300}{\kilo\hertz}$ dans la bande des 20 mètres
+* $\qty{18160}{\kilo\hertz}$ dans la bande des 17 mètres
+* $\qty{21360}{\kilo\hertz}$ dans la bande des 15 mètres
 
 [question:BF109]
 

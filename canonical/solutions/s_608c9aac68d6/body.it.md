@@ -1,4 +1,4 @@
-Dato un <i>adattamento</i> da $\qty{50}{\ohm}$ a $\qty{450}{\ohm}$.
+Dato un adattamento da $\qty{50}{\ohm}$ a $\qty{450}{\ohm}$.
 
 Innanzitutto determiniamo il rapporto di impedenza necessario:
 

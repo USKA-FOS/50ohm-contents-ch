@@ -31,7 +31,7 @@ Dans l'exercice suivant, un stabilisateur de tension discret avec un transistor 
 Le courant de charge traverse également le transistor, qui devient donc très chaud en cas de courant de charge élevé. Les transistors série se trouvent donc toujours sur un radiateur dans les stabilisateurs de tension régulés linéairement.
 
 <margin>
-[photo:246:a_Längstransistor 2N3055 sur radiateur:Le transistor série dans une alimentation régulée linéairement doit supporter de grandes puissances dissipées et est donc monté sur un radiateur.]
+[photo:246:a_Längstransistor 2N3055 auf Kühlkörper:Le transistor série dans une alimentation régulée linéairement doit supporter de grandes puissances dissipées et est donc monté sur un radiateur.]
 </margin>
 
 [question:AD315]

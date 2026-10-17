@@ -25,7 +25,7 @@ Terminologie :
 La puissance de sortie de l'émetteur est la puissance que l'appareil radio fournit à la sortie de l'antenne, avant le passage par des appareils supplémentaires tels qu'un ROS-mètre externe ou des adaptateurs. Elle est indiquée comme *peak envelope power* (PEP). Nous y reviendrons dans un chapitre ultérieur lorsque nous aborderons la puissance rayonnée des antennes dans le contexte de la [sec:personenschutzabstand]. De nombreux appareils radio disposent d'un *Power-Meter* affichant la puissance de sortie actuelle de l'émetteur. Il est par exemple étiqueté « P », « PO » ou « PWR ».
 
 <indepth>
-Pour déterminer la *peak envelope power* (PEP), on mesure - simplifié - à la sortie de l'émetteur la puissance moyenne de chaque période de l'oscillation haute fréquence, puis on utilise la valeur la plus élevée mesurée. Dans le langage technique, cela s'appelle « puissance efficace utile à la sortie d'un étage final d'émission pendant une période de l'oscillation haute fréquence au sommet le plus élevé de l'enveloppe de modulation ». Le terme allemand rarement utilisé pour PEP est *Hüllkurvenspitzenleistung*.
+Pour déterminer la peak envelope power (PEP), on mesure - simplifié - à la sortie de l'émetteur la puissance moyenne de chaque période de l'oscillation haute fréquence, puis on utilise la valeur la plus élevée mesurée. Dans le langage technique, cela s'appelle « puissance efficace utile à la sortie d'un étage final d'émission pendant une période de l'oscillation haute fréquence au sommet le plus élevé de l'enveloppe de modulation ». Le terme allemand rarement utilisé pour PEP est Hüllkurvenspitzenleistung.
 </indepth>
 
 [question:NF102]

@@ -1,12 +1,12 @@
 ## Parte 1 dell'approccio alla soluzione
-Dalla *raccolta di formule* negli strumenti ausiliari dell'Agenzia federale delle reti, nel capitolo "livello", si può desumere che un'attenuazione di $\qty{-6}{\dB}$ nel rapporto di potenza corrisponde a un fattore di 0,25.
+Dalla raccolta di formule negli strumenti ausiliari dell'Agenzia federale delle reti, nel capitolo "livello", si può desumere che un'attenuazione di $\qty{-6}{\dB}$ nel rapporto di potenza corrisponde a un fattore di 0,25.
 
 In formule:
 
 $P_{\qty{40}{^\circ}} = 0{,}25 \cdot P_\mathrm{EIRP}$
 
 ## Parte 2 dell'approccio alla soluzione
-Dalla *raccolta di formule* negli strumenti ausiliari dell'Agenzia federale delle reti, nel capitolo "potenza irradiata e guadagno" delle antenne, si può desumere la seguente formula:
+Dalla raccolta di formule negli strumenti ausiliari dell'Agenzia federale delle reti, nel capitolo "potenza irradiata e guadagno" delle antenne, si può desumere la seguente formula:
 
 $E = \frac{\sqrt{\qty{30}{\ohm} \cdot P_\mathrm{EIRP}}}{d}$
 

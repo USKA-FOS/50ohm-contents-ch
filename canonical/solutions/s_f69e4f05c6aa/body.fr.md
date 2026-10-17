@@ -1,6 +1,6 @@
 ## Formules requises
 
-Formule à utiliser issue des outils de l’Agence fédérale des réseaux pour le calcul de l’**intensité de champ** en champ lointain :
+Formule à utiliser issue des outils de l’Agence fédérale des réseaux pour le calcul de l’intensité de champ en champ lointain :
 
 
 $E = \frac{\sqrt{\qty{30}{\ohm} \cdot P_\mathrm{puissance\ rayonnée\ équivalente}}}{d}$ 
@@ -20,7 +20,7 @@ $E = \frac{\sqrt{\qty{30}{\ohm} \cdot P_\mathrm{puissance\ apparente\ rayonnée}
 
 ## Données issues de l’énoncé
 
-1. La **puissance apparente rayonnée** est de : $P_\mathrm{puissance\ apparente\ rayonnée} = \qty{100}{\watt}$
+1. La puissance apparente rayonnée est de : $P_\mathrm{puissance\ apparente\ rayonnée} = \qty{100}{\watt}$
 2. La distance est de : $d = \qty{100}{\meter}$
 
 
@@ -34,5 +34,5 @@ $E = \frac{\sqrt{\qty{30}{\ohm} \cdot \qty{100}{\watt} \cdot \qty{1,64}{}}}{\qty
 
 ## Interprétation
 
-L’**intensité de champ** électrique déterminée est de $\qty{0,7}{\volt\per\meter}$.
+L’intensité de champ électrique déterminée est de $\qty{0,7}{\volt\per\meter}$.
 

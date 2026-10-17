@@ -3,7 +3,7 @@
 Abbiamo già imparato a conoscere alcune forme di antenna. Ora vogliamo discutere più in dettaglio le proprietà delle diverse antenne. I dipoli alimentati al centro sono *antenne simmetriche*. Con il termine antenna simmetrica si intende un'antenna che, idealmente, durante il funzionamento presenta agli stessi poli (ad esempio, i punti di alimentazione di ogni ramo di un dipolo) la stessa tensione rispetto a terra, a meno del segno. Questo vale per i dipoli, inclusi il dipolo ripiegato e le antenne Yagi-Uda basate su di esso. Un'antenna Groundplane, invece, presenta al punto di connessione dei radiali idealmente il potenziale di terra (quindi una tensione pari a zero rispetto a terra) e quindi non rientra tra le antenne simmetriche.
 
 <indepth>
-Anche per i cavi utilizzati per la trasmissione del segnale, ad esempio la linea di alimentazione di un'antenna, si distingue tra *cavi simmetrici e asimmetrici*. Anche in questo caso la simmetria si riferisce alle tensioni elettriche ideali rispetto a terra. In un cavo coassiale, infatti, le correnti dovrebbero essere simmetriche, ma solo il conduttore interno presenta tensione rispetto a terra. I cavi coassiali appartengono quindi alle linee di alimentazione asimmetriche. Come impareremo in seguito, queste linee di alimentazione asimmetriche dovrebbero essere collegate a un'antenna simmetrica solo tramite un componente chiamato *simmetrizzatore* (Balun).
+Anche per i cavi utilizzati per la trasmissione del segnale, ad esempio la linea di alimentazione di un'antenna, si distingue tra *cavi simmetrici e asimmetrici*. Anche in questo caso la simmetria si riferisce alle tensioni elettriche ideali rispetto a terra. In un cavo coassiale, infatti, le correnti dovrebbero essere simmetriche, ma solo il conduttore interno presenta tensione rispetto a terra. I cavi coassiali appartengono quindi alle linee di alimentazione asimmetriche. Come impareremo in seguito, queste linee di alimentazione asimmetriche dovrebbero essere collegate a un'antenna simmetrica solo tramite un componente chiamato simmetrizzatore (Balun).
 </indepth>
 
 [question:EG213]
@@ -38,7 +38,7 @@ Sebbene tali antenne magnetiche a loop siano in linea di principio adatte anche 
 
 ---
 
-Le *antenne alimentate all’estremità* vengono alimentate da un’estremità. Di solito la loro lunghezza è pari a mezza lunghezza d’onda. Si parla quindi di dipolo a semionda alimentato all’estremità (in inglese: end fed half wave, EFHW). Tale antenna richiede una tensione notevolmente più alta rispetto alla corrente, che può essere generata da un adattatore appropriato, ad esempio un circuito di Fuchs. I dipoli a semionda alimentati all’estremità, adattati con un circuito di Fuchs, sono chiamati di conseguenza *antenne Fuchs*.
+Le *antenne alimentate all’estremità* vengono alimentate da un’estremità. Di solito la loro lunghezza è pari a mezza lunghezza d’onda. Si parla quindi di dipolo a semionda alimentato all’estremità (in inglese: end fed half wave, EFHW). Tale antenna richiede una tensione notevolmente più alta rispetto alla corrente, che può essere generata da un adattatore appropriato, ad esempio un circuito di Fuchs. I dipoli a semionda alimentati all’estremità, adattati con un circuito di Fuchs, sono chiamati di conseguenza antenne Fuchs.
 
 [question:EG104]
 [question:EG103]
@@ -59,7 +59,7 @@ Non vanno confuse con i dipoli a semionda alimentati all’estremità le *antenn
 
 ---
 
-La *direttività* di un’antenna può essere rappresentata in un cosiddetto diagramma di radiazione. In questo caso, per un piano, in ogni direzione viene tracciato il guadagno o l’intensità di campo o la potenza irradiata. Più il grafico si allontana dal punto centrale, maggiore è il guadagno o più elevata è l’intensità di campo e la potenza irradiata nel campo lontano. Se non viene utilizzata una scala angolare, spesso si rappresenta anche la disposizione meccanica dell’antenna nello stesso diagramma per chiarire quale direzione del diagramma corrisponde a quale direzione rispetto alla disposizione dell’antenna.
+La direttività di un’antenna può essere rappresentata in un cosiddetto diagramma di radiazione. In questo caso, per un piano, in ogni direzione viene tracciato il guadagno o l’intensità di campo o la potenza irradiata. Più il grafico si allontana dal punto centrale, maggiore è il guadagno o più elevata è l’intensità di campo e la potenza irradiata nel campo lontano. Se non viene utilizzata una scala angolare, spesso si rappresenta anche la disposizione meccanica dell’antenna nello stesso diagramma per chiarire quale direzione del diagramma corrisponde a quale direzione rispetto alla disposizione dell’antenna.
 
 Un dipolo non irradia, come si potrebbe erroneamente pensare, nella direzione del filo, ma perpendicolarmente ad esso. Se si considera e si traccia un piano come diagramma di radiazione, si ottengono lobi corrispondenti (ad esempio a sinistra e a destra) accanto al dipolo (cfr. figura [ref:e_dipol_strahlungsdiagramm]). Un dipolo sospeso verticalmente irradia quindi, ad esempio, a sinistra e a destra e avanti e indietro. Poiché il diagramma di radiazione considera solo un piano, si vedono ad esempio solo un lobo per l’irradiazione a sinistra e un lobo per l’irradiazione a destra. A seconda della scala, questi lobi possono apparire circolari.
 
@@ -112,7 +112,7 @@ Sebbene il diagramma di radiazione di un’antenna Groundplane con radiali sia l
 
 ---
 
-Le *antenne direzionali* (ad esempio l’antenna Yagi-Uda) si distinguono per il fatto che il guadagno in una direzione è notevolmente più elevato che in altre direzioni, come mostrato nella figura [ref:e_richtantenne_abstrahlung].
+Le antenne direzionali (ad esempio l’antenna Yagi-Uda) si distinguono per il fatto che il guadagno in una direzione è notevolmente più elevato che in altre direzioni, come mostrato nella figura [ref:e_richtantenne_abstrahlung].
 
 [question:EG217]
 

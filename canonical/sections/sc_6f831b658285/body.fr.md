@@ -1,4 +1,4 @@
-Les *services de radiocommunication* sont définis au niveau international dans le règlement des radiocommunications (RR). Parmi ceux-ci figurent par exemple le service maritime (Maritime Service), la radiodiffusion (Broadcasting Service), mais aussi le radioamateurisme (Amateur Service). Les applications radio à attribution générale (CB, Wi-Fi, etc.) peuvent également être réglementées au niveau international, mais elles ne constituent pas un service de radiocommunication au sens du règlement des radiocommunications (RR) de l'UIT.
+Les services de radiocommunication sont définis au niveau international dans le règlement des radiocommunications (RR). Parmi ceux-ci figurent par exemple le service maritime (Maritime Service), la radiodiffusion (Broadcasting Service), mais aussi le radioamateurisme (Amateur Service). Les applications radio à attribution générale (CB, Wi-Fi, etc.) peuvent également être réglementées au niveau international, mais elles ne constituent pas un service de radiocommunication au sens du règlement des radiocommunications (RR) de l'UIT.
 
 [question:VA101]
 

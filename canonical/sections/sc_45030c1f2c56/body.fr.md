@@ -85,7 +85,7 @@ Les filtres mentionnés ci-dessus peuvent bien sûr être calculés et construit
 Nous avons maintenant découvert des éléments RC et LC simples en tant que filtres passe-haut et passe-bas. Cependant, il est possible de réaliser d'autres types de filtres à partir de bobines et de condensateurs, qui vont au-delà des simples filtres passe-haut et passe-bas. Nous allons maintenant examiner de plus près ces éléments, à savoir les *circuits oscillants*.
 
 <margin>
-[image:1026:e_rp_schwingkreis:(a) Circuit oscillant série (b) Circuit oscillant parallèle]
+[picture:1026:e_rp_schwingkreis:(a) Circuit oscillant série (b) Circuit oscillant parallèle]
 </margin>
 
 Dans les circuits oscillants, la bobine et le condensateur sont disposés – selon l'effet de filtrage souhaité – de manière à présenter une résistance particulièrement élevée ou particulièrement faible à une fréquence donnée. Cela permet d'atténuer ou de laisser passer sélectivement les fréquences supérieures ou inférieures à cette fréquence.
@@ -102,10 +102,10 @@ Si l'on branche une bobine et un condensateur en parallèle et qu'on applique pa
 
 ---
 
-C'est pourquoi on parle de circuit oscillant. La fréquence à laquelle ce circuit oscille est appelée *fréquence de résonance* ($f_0$). Elle est comparable à la fréquence de résonance d'un diapason mis en vibration par un choc. En cas de résonance, les impédances de la bobine $X_\text{L}$ et du condensateur $X_\text{C}$ sont de même valeur. Ces circuits oscillants peuvent être utilisés d'une part pour générer des oscillations, ce que nous examinerons plus en détail dans le chapitre sur les oscillateurs. D'autre part, ils peuvent également servir de filtres – et c'est précisément le sujet de ce chapitre.
+C'est pourquoi on parle de circuit oscillant. La fréquence à laquelle ce circuit oscille est appelée fréquence de résonance ($f_0$). Elle est comparable à la fréquence de résonance d'un diapason mis en vibration par un choc. En cas de résonance, les impédances de la bobine $X_\text{L}$ et du condensateur $X_\text{C}$ sont de même valeur. Ces circuits oscillants peuvent être utilisés d'une part pour générer des oscillations, ce que nous examinerons plus en détail dans le chapitre sur les oscillateurs. D'autre part, ils peuvent également servir de filtres – et c'est précisément le sujet de ce chapitre.
 
 <margin>
-[image:1037:e_rsk_frequenzgang:Réponse en fréquence qualitative d'un circuit oscillant série]
+[picture:1037:e_rsk_frequenzgang:Réponse en fréquence qualitative d'un circuit oscillant série]
 </margin>
 
 ---

@@ -7,7 +7,7 @@ Avec l'inductance totale $L_{\mathrm{ges}}$, et les inductances individuelles $L
 On peut visualiser cela en imaginant simplement plusieurs bobines identiques placées les unes derrière les autres. Les spires des bobines s'additionnent alors. Électriquement, la combinaison de deux bobines identiques équivaut à une bobine plus longue.
 
 <indepth>
-[photo:291:Une bobine avec prises intermédiaires :Bobine à 14 prises intermédiaires dans un adaptateur d'antenne fabriqué maison]
+[photo:291:a_Spule mit Anzapfungen:Bobine à 14 prises intermédiaires dans un adaptateur d'antenne fabriqué maison]
 Les sections partielles entre les prises intermédiaires peuvent être considérées comme des bobines individuelles dont l'inductance peut être augmentée par étapes en commutant les prises. Le montage en série de toutes les sections partielles donne alors l'inductance de la bobine totale.
 </indepth>
 

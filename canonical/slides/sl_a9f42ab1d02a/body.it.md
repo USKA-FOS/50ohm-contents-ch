@@ -9,7 +9,7 @@
 ### Disturbo
 
 <left>
-[immagine:745:stoerungen_vermeiden_oberschwingung:Disturbo della ricezione DVB-T2 di un televisore causato dall'armonica di una trasmissione radioamatoriale]
+[picture:745:stoerungen_vermeiden_oberschwingung:Disturbo della ricezione DVB-T2 di un televisore causato dall'armonica di una trasmissione radioamatoriale]
 </left>
 <right>
 * Superamento dei limiti massimi consentiti da parte dell'impianto radioamatoriale
@@ -21,11 +21,11 @@
 ### Influenza disturbante
 
 <left>
-[immagine:744:stoerungen_vermeiden_einstrahlung:Irradiazione attraverso l'antenna di ricezione]
-[immagine:746:stoerungen_vermeiden_direkteinstrahlung:Irradiazione diretta in un apparecchio]
+[picture:744:stoerungen_vermeiden_einstrahlung:Irradiazione attraverso l'antenna di ricezione]
+[picture:746:stoerungen_vermeiden_direkteinstrahlung:Irradiazione diretta in un apparecchio]
 </left>
 <right>
-[immagine:747:stoerungen_vermeiden_einstroemung:Afflusso attraverso i cavi di collegamento]
+[picture:747:stoerungen_vermeiden_einstroemung:Afflusso attraverso i cavi di collegamento]
 * I limiti massimi consentiti sono rispettati
 * Le vie possono presentarsi singolarmente o congiuntamente
 </right>
@@ -39,7 +39,7 @@
 
 ---
 
-[domanda:NJ102]
+[question:NJ102]
 
 ---
 
@@ -54,7 +54,7 @@
 * Qui pubblicità per l'iscrizione al DARC
 </note>
 ---
-[domanda:VE302]
+[question:VE302]
 
 ---
 
@@ -65,7 +65,7 @@
 
 ---
 
-[domanda:VE301]
+[question:VE301]
 
 ---
 
@@ -97,10 +97,10 @@ Se le trasmissioni radioamatoriali sono la causa dei problemi, si distinguono tr
 * Il radioamatore può continuare il funzionamento in trasmissione senza modifiche
 
 ---
-[domanda:VE305]
+[question:VE305]
 
 ---
-[domanda:VE306]
+[question:VE306]
 
 ---
 
@@ -113,10 +113,10 @@ Se le trasmissioni radioamatoriali sono la causa dei problemi, si distinguono tr
 
 ---
 
-[domanda:VE303]
+[question:VE303]
 
 ---
-[domanda:VE304]
+[question:VE304]
 
 ---
 

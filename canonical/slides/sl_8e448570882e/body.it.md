@@ -11,8 +11,17 @@
 * È possibile diventare membro del DARC e.V.
 </note>
 
+
 ---
+
 [question:BC201]
+
 ---
+
 * I piani delle bande trattano anche le bande di frequenza per le diverse modalità di trasmissione
 * Per la telegrafia Morse (CW), la banda consigliata si trova all’inizio della banda
+
+
+---
+
+[question:BC204]

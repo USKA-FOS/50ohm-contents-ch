@@ -5,7 +5,7 @@
 
 [question:AE415]
 
-Ce phénomène est également connu en télégraphie Morse : des *clics de manipulation* apparaissent lorsque la porteuse haute fréquence est brusquement activée ou désactivée en appuyant sur la touche Morse ou en la relâchant. Ces clics de manipulation constituent des perturbations à large bande qui peuvent affecter d'autres liaisons radio. Pour éviter l'apparition de clics de manipulation, on évite les commutations brutales.
+Ce phénomène est également connu en télégraphie Morse : des clics de manipulation apparaissent lorsque la porteuse haute fréquence est brusquement activée ou désactivée en appuyant sur la touche Morse ou en la relâchant. Ces clics de manipulation constituent des perturbations à large bande qui peuvent affecter d'autres liaisons radio. Pour éviter l'apparition de clics de manipulation, on évite les commutations brutales.
 
 [question:AJ221]
 [question:AJ220]

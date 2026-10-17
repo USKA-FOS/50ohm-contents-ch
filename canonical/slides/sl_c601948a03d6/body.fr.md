@@ -17,7 +17,7 @@
 [picture:562:a_umwegeleitung:Ligne de dérivation]
 </left>
 <right>
-Pour les deux questions suivantes concernant la ligne de dérivation, il suffit de retenir que l'antenne représentée est un dipôle replié et qu'une ligne de dérivation $\lambda/2$ produit un déphasage de $\qty{180}{\degree}$.
+Pour les deux questions suivantes concernant la ligne de dérivation, il suffit de *retenir* que l'antenne représentée est un dipôle replié et qu'une ligne de dérivation $\lambda/2$ produit un déphasage de $\qty{180}{\degree}$.
 </right>
 
 ---

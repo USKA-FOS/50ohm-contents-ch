@@ -4,7 +4,7 @@ Les indicatifs personnels sont les plus fréquemment attribués. En Suisse, il e
 
 
 <margin>
-| l : Classe | X : Préfixe et chiffre |
+| l: l : Classe | X: X : Préfixe et chiffre |
 | NOVICE | HB3 |
 | CEPT | HB9 |
 | FL-NOVICE | HB0Y |
@@ -15,7 +15,7 @@ Les indicatifs personnels sont les plus fréquemment attribués. En Suisse, il e
 
 
 <margin>
-| l : Classe | X : Indicatif |
+| l: l : Classe | X: X : Indicatif |
 | CEPT | HB9AAA - HB9ZZZ |
 | NOVICE | HB3XAA - HB3YZZ |
 | FL-CEPT | HB0AA - HB0ZZ |

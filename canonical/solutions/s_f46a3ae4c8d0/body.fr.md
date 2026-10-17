@@ -1,4 +1,4 @@
-Pour cela, nous avons besoin de la formule suivante, tirée du *recueil de formules* :
+Pour cela, nous avons besoin de la formule suivante, tirée du recueil de formules :
 
 $R=\frac{\rho\cdot l}{A_{Dr}}$
 

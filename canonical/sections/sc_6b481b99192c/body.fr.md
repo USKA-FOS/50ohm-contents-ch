@@ -22,4 +22,4 @@ Dès que l'on branche un consommateur électrique [index:Verbraucher] comme une 
 [picture:714:n_frequenz_strom_fliesst:Les pôles d'une batterie, le pôle négatif présente un excès de charges négatives et le pôle positif un excès de charges positives, les pôles de la batterie sont reliés, le courant peut donc circuler à travers le consommateur.]
 </margin>
 
-Il existe également des sources de tension dont les pôles oscillent en permanence entre une tension positive et négative, par exemple les centrales électriques du réseau public. La prise de courant domestique fournit donc une *tension alternative* [index:Spannung:Wechselspannung] - contrairement à la *tension continue* [index:Spannung:Gleichspannung] qui possède un pôle positif et un pôle négatif.
+Il existe également des sources de tension dont les pôles oscillent en permanence entre une tension positive et négative, par exemple les centrales électriques du réseau public. La prise de courant domestique fournit donc une tension alternative [index:Spannung:Wechselspannung] - contrairement à la tension continue [index:Spannung:Gleichspannung] qui possède un pôle positif et un pôle négatif.

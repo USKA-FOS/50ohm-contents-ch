@@ -1,5 +1,5 @@
 <left>
-* Les [tensions](#) peuvent être mesurées avec un [voltmètre](#)
+* Les tensions peuvent être mesurées avec un voltmètre
 * Symbole électrique : "V dans un cercle"
 * Régler correctement l'appareil de mesure
 * Mesurer aux bons endroits
@@ -13,7 +13,7 @@
 ## Mesurer correctement
 
 <left>
-* La [tension](#) se mesure entre deux points
+* La tension se mesure entre deux points
 * En parallèle du composant à mesurer
 </left>
 <right>
@@ -28,16 +28,16 @@
 [photo:11:n_messgeraete_multimeter:Multimètre]
 </left>
 <right>
-* Appareil de mesure combiné pour la [tension](#), le [courant](#) et d'autres grandeurs
+* Appareil de mesure combiné pour la tension, le courant et d'autres grandeurs
 * Fil de mesure noir sur "COM" (commun), rouge sur "V"
-* Pour mesurer la [tension](#), choisir "V ~" ([tension alternative](#)) ou "V =" ([tension continue](#))
+* Pour mesurer la tension, choisir "V ~" (tension alternative) ou "V =" (tension continue)
 * Commencer par choisir la plage de mesure la plus grande, puis éventuellement la réduire
 </right>
 
 ---
 
-* Confondre la mesure de [courant](#) et de [tension](#) ou choisir une mauvaise plage de mesure peut endommager l'appareil
-* Attention : les [tensions alternatives](#) supérieures à $\qty{50}{\volt}$ et les [tensions continues](#) supérieures à $\qty{120}{\volt}$ peuvent être mortelles
+* Confondre la mesure de courant et de tension ou choisir une mauvaise plage de mesure peut endommager l'appareil
+* Attention : les tensions alternatives supérieures à $\qty{50}{\volt}$ et les tensions continues supérieures à $\qty{120}{\volt}$ peuvent être mortelles
 
 ---
 
@@ -60,5 +60,5 @@ Montage en série de batteries
 [question:NB206]
 
 <note>
-Les [tensions](#) peuvent aussi se soustraire en cas de montage en série inversé de batteries
+Les tensions peuvent aussi se soustraire en cas de montage en série inversé de batteries
 </note>

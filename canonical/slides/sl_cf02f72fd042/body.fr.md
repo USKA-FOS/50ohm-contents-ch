@@ -1,4 +1,4 @@
-## CQ, DX, concours et *pile-up*
+## CQ, DX, concours et pile-up
 
 * *CQ* : appel général
 * *DX* : grande distance ou station lointaine
@@ -11,11 +11,11 @@ Lors d’un concours, les indicatifs sont souvent énoncés très rapidement. No
 
 ---
 
-### Trafic en *split*
+### Trafic en split
 
 * La station recherchée émet et reçoit sur des fréquences différentes
 * Des indications comme *up 5* précisent l’écart par rapport à la fréquence de réponse
-* La station recherchée reste ainsi audible, sans être submergée par le *pile-up*
+* La station recherchée reste ainsi audible, sans être submergée par le pile-up
 
 [picture:672:swl_betriebsbeobachtung_split:Fréquence d’émission d’une station recherchée et fréquence de réponse supérieure de 5 kHz]
 
@@ -25,7 +25,7 @@ Lors d’un concours, les indicatifs sont souvent énoncés très rapidement. No
 
 ---
 
-### *Split* du point de vue du SWL
+### Split du point de vue du SWL
 
 * Pour le rapport d’écoute, les deux indicatifs restent nécessaires
 * Avec deux VFO, il est possible de basculer entre la fréquence d’émission et la fréquence de réponse

@@ -1,7 +1,7 @@
 Breve ripasso sulle antenne:
 
-* L’antenna *groundplane* irradia in tutte le direzioni orizzontali in modo quasi uniforme, ma non verso l’alto o il basso
-* L’antenna *Yagi-Uda* concentra i raggi radio verso la direzione frontale e riduce l’irradiazione nelle altre direzioni
+* L’antenna groundplane irradia in tutte le direzioni orizzontali in modo quasi uniforme, ma non verso l’alto o il basso
+* L’antenna Yagi-Uda concentra i raggi radio verso la direzione frontale e riduce l’irradiazione nelle altre direzioni
 
 ---
 

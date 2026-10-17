@@ -24,7 +24,7 @@
 [picture:828:e_verstaerker_linearitaet:Le signal d’entrée est amplifié. En cas de limitation due à un manque de linéarité, le signal de sortie est déformé.]
 </right>
 <note>
-* Pour en savoir plus sur les harmoniques, voir la section *Rayonnements non désirés* dans le chapitre *Émetteurs*.
+* Pour en savoir plus sur les harmoniques, voir la section Rayonnements non désirés dans le chapitre Émetteurs.
 * Exception : les amplificateurs pour FM, car en FM l’information est transmise par variation de fréquence et non par variation d’amplitude.
 </note>
 
@@ -75,7 +75,7 @@
 * L’alimentation d’un émetteur doit, en plus de la stabilité, offrir une bonne protection contre le rayonnement HF incident.
 * Cela permet d’éviter que la haute fréquence ne s’infiltre dans le réseau électrique.
 <note>
-* Pour plus d’informations, voir la section *Rayonnements non désirés* dans le chapitre *Émetteurs*.
+* Pour plus d’informations, voir la section Rayonnements non désirés dans le chapitre Émetteurs.
 </note>
 
 ---

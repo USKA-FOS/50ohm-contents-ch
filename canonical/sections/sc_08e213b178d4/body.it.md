@@ -1,4 +1,4 @@
-Per collegare i cavi coassiali si utilizzano connettori coassiali speciali. Come i cavi coassiali, anche questi connettori sono costituiti da un conduttore interno ed esterno. I connettori si distinguono in due parti: la spina (maschio) e la presa (femmina):
+Per collegare i cavi coassiali si utilizzano *connettori coassiali* speciali. Come i cavi coassiali, anche questi connettori sono costituiti da un conduttore interno ed esterno. I connettori si distinguono in due parti: la spina (maschio) e la presa (femmina):
 * Spina (maschio), in cui un perno di contatto sporge verso l’esterno
 * Presa (femmina) con un’apertura di contatto rivolta verso l’interno
 

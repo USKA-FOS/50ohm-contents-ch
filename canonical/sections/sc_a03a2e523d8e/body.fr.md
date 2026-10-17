@@ -3,7 +3,7 @@ Les récepteurs et les antennes sont généralement reliés par un câble coaxia
 Pour l’examen DE, il faut savoir reconnaître quatre types de connecteurs à leur forme (voir [ref:swl_steckverbinder_uebersicht]).
 
 <margin>
-| Type de connecteur | Caractéristiques et utilisation |
+| X: Type de connecteur | X: Caractéristiques et utilisation |
 | PL | grand filetage de vissage ; souvent utilisé en ondes courtes et sur la bande des $\qty{2}{\meter}$ |
 | N | connexion vissée étanche ; adaptée aux hautes fréquences |
 | BNC | verrouillage par baïonnette ; verrouillé par une rotation rapide |

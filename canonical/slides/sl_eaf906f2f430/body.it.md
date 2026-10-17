@@ -5,7 +5,9 @@
 * In una PSK ideale, l'ampiezza e la frequenza della portante rimangono invariate
 * Al passaggio da un simbolo all'altro, la posizione di fase può cambiare
 
----
+
+
+--- style="font-size: smaller;"
 
 ## PSK nella rappresentazione temporale
 
@@ -19,7 +21,9 @@
 * Se viene trasmesso nuovamente lo stesso simbolo, anche la posizione di fase rimane invariata
 </right>
 
----
+
+
+--- style="font-size: smaller;"
 
 ## Modulazione a spostamento di fase binaria (BPSK)
 
@@ -44,9 +48,13 @@ $-\sin(\omega t)=\sin(\omega t+\qty{180}{\degree})$
 La scelta di 0 gradi e 180 gradi non è obbligatoria. Ad esempio, sarebbero possibili anche 90 gradi e 270 gradi.
 </note>
 
+
+
 ---
 
 [question:AE401]
+
+
 
 ---
 
@@ -61,9 +69,13 @@ La scelta di 0 gradi e 180 gradi non è obbligatoria. Ad esempio, sarebbero poss
 * *8-PSK*: $\num{8}$ simboli → $\num{3}$ bit per simbolo
 </fragment>
 
+
+
 ---
 
 [question:AE402]
+
+
 
 ---
 
@@ -74,7 +86,9 @@ La scelta di 0 gradi e 180 gradi non è obbligatoria. Ad esempio, sarebbero poss
 * Due bit vengono raggruppati in un simbolo: $00$, $01$, $10$, $11$
 * Ogni simbolo QPSK trasmette quindi $\num{2}$ bit
 
----
+
+
+--- style="font-size: smaller;"
 
 ## QPSK nel diagramma di costellazione
 
@@ -102,7 +116,9 @@ L'assegnazione delle combinazioni di bit alle singole posizioni di fase non è g
 La mappatura utilizzata qui corrisponde anche alla rappresentazione nel testo didattico e nell'applet successivo.
 </note>
 
----
+
+
+--- style="font-size: smaller;"
 
 ## Codice di Gray nella QPSK
 
@@ -130,7 +146,9 @@ La mappatura è stata scelta in modo che i punti adiacenti nel diagramma di cost
 Ad esempio, nel passaggio da 11 a 01 cambia solo il primo bit. Lo stesso vale per gli altri punti del segnale adiacenti, incluso 10 e 11.
 </note>
 
----
+
+
+--- style="font-size: smaller;"
 
 <left>
 [include:applet_qpsk]
@@ -157,6 +175,8 @@ Con "Trasmetti di nuovo", la stessa sequenza di bit viene trasmessa nuovamente c
 
 Con l'aumentare del rumore, aumenta la probabilità di errori di simbolo e quindi di bit. Attraverso una codifica di canale appropriata, molti di questi errori possono essere rilevati e corretti.
 </note>
+
+
 
 ---
 

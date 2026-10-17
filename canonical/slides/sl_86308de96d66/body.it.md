@@ -11,6 +11,8 @@
 Telescrivente: dispositivo per trasmettere messaggi in forma testuale tramite segnali elettrici
 </note>
 
+
+
 ---
 
 ## Segnali di comando
@@ -23,6 +25,9 @@ Telescrivente: dispositivo per trasmettere messaggi in forma testuale tramite se
 [picture:630:n_computersteuerung_verbindungen:Esempi di collegamenti tra computer e apparecchio radio]
 </right>
 
+
+---
+
 ## Connessione dati
 
 * Dietro il connettore del microfono nell’apparecchio radio possono esserci stadi di amplificazione e filtraggio per la trasmissione vocale $\rightarrow$ non adatto per la trasmissione dati
@@ -33,18 +38,26 @@ Telescrivente: dispositivo per trasmettere messaggi in forma testuale tramite se
 Spesso indicato con DATA o 9600
 </note>
 
+
 ---
+
 [question:NF114]
 
----
-[question:NF116]
 
 ---
+
+[question:NF116]
+
+
+---
+
 [question:NF117]
 <note>
 * È importante assicurarsi che l’apparecchio radio non vada in trasmissione in modo inaspettato.
 * Aneddoto: il suono di avvio di Windows trasmesso via radio
 </note>
 
+
 ---
+
 [question:NF115]

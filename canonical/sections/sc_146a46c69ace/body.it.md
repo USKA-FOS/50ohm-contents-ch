@@ -1,10 +1,10 @@
-Una "radiofaro" (in inglese: *beacon*) è un impianto trasmittente radioamatoriale che funziona automaticamente e trasmette in modo continuo o a intervalli regolari segnali definiti. Essa serve in particolare per monitorare le condizioni di propagazione, valutare la ricezione e per misurazioni tecniche. I radiofari esistono anche a bordo di satelliti radioamatoriali. Nei satelliti radioamatoriali, i radiofari hanno spesso anche una funzione importante per l'identificazione e il monitoraggio del [sec:satelliten] e per la trasmissione di telemetria.
+Una "radiofaro" (in inglese: beacon) è un impianto trasmittente radioamatoriale che funziona automaticamente e trasmette in modo continuo o a intervalli regolari segnali definiti. Essa serve in particolare per monitorare le condizioni di propagazione, valutare la ricezione e per misurazioni tecniche. I radiofari esistono anche a bordo di satelliti radioamatoriali. Nei satelliti radioamatoriali, i radiofari hanno spesso anche una funzione importante per l'identificazione e il monitoraggio del [sec:satelliten] e per la trasmissione di telemetria.
 
 I radiofari trasmettono generalmente su una frequenza prestabilita e possono essere installati in posizioni fisse o su piattaforme mobili, ad esempio satelliti. Poiché la loro ricezione dipende fortemente dalle mutevoli condizioni di propagazione della rispettiva banda radio, un radiofaro può fungere da indicatore delle condizioni attuali di propagazione lungo il percorso tra il radiofaro e il punto di ricezione.
 
 Se, ad esempio, su onde corte si riceve bene un radiofaro dal Sud America, questo è un indizio che le condizioni di propagazione per i collegamenti radio in quella direzione potrebbero essere favorevoli.
 
-I radiofari *Aurora* nella banda VHF possono indicare se al momento è presente una propagazione *Aurora* e quindi se sono possibili collegamenti DX in direzione della Scandinavia. Con radiofari noti nelle bande VHF, UHF e SHF, è possibile verificare l'impianto di ricezione e accertare se un'antenna direzionale è correttamente orientata. I radiofari servono anche per controllare la sensibilità del ricevitore, il livello del segnale e la precisione della frequenza.
+I radiofari Aurora nella banda VHF possono indicare se al momento è presente una propagazione Aurora e quindi se sono possibili collegamenti DX in direzione della Scandinavia. Con radiofari noti nelle bande VHF, UHF e SHF, è possibile verificare l'impianto di ricezione e accertare se un'antenna direzionale è correttamente orientata. I radiofari servono anche per controllare la sensibilità del ricevitore, il livello del segnale e la precisione della frequenza.
 
 <indepth>
 Altre possibilità per monitorare le condizioni di propagazione
@@ -12,6 +12,7 @@ Altre possibilità per monitorare le condizioni di propagazione
 Oltre ai radiofari, oggi esistono altri sistemi per monitorare le condizioni attuali di propagazione. Tra questi vi sono, ad esempio:
 
 - [PSK Reporter](https://pskreporter.info/pskmap.html) e
+
 - [Reverse Beacon Network](https://www.reversebeacon.net/).
 
 Questi sistemi non sono radiofari. Essi raccolgono automaticamente rapporti di ricezione o informazioni su trasmissioni rilevate da stazioni radioamatoriali e le visualizzano quasi in tempo reale su una mappa.

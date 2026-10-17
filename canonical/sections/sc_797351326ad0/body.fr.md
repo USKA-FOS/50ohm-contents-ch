@@ -1,4 +1,4 @@
-Comme récepteur le plus simple, nous avons appris à connaître le récepteur à détection dans le chapitre précédent. Le récepteur à détection est un récepteur dit *à conversion directe*, que nous avons déjà étudié dans la classe N. Dans un récepteur à conversion directe, comme illustré dans la figure [ref:e_geradeausempfänger], le signal est simplement démodulé après réception et éventuellement amplification. Cependant, ce concept de récepteur présente l’inconvénient d’une faible sélectivité (pouvoir séparateur). Pour l’améliorer, on pourrait combiner plusieurs filtres dans le bloc de filtrage d’entrée (2) afin d’augmenter la sélectivité. Toutefois, il faudrait alors adapter tous ces filtres lors du changement de fréquence de réception, ce qui est très fastidieux. C’est pourquoi le *récepteur superhétérodyne* (cf. figure [ref:ueberlagerungsempfaenger_einfachsuper]) a été développé ; en langage technique, il est aussi appelé *Superheterodyne* ou *Superhet*.
+Comme récepteur le plus simple, nous avons appris à connaître le récepteur à détection dans le chapitre précédent. Le récepteur à détection est un récepteur dit à conversion directe, que nous avons déjà étudié dans la classe N. Dans un récepteur à conversion directe, comme illustré dans la figure [ref:e_geradeausempfänger], le signal est simplement démodulé après réception et éventuellement amplification. Cependant, ce concept de récepteur présente l’inconvénient d’une faible sélectivité (pouvoir séparateur). Pour l’améliorer, on pourrait combiner plusieurs filtres dans le bloc de filtrage d’entrée (2) afin d’augmenter la sélectivité. Toutefois, il faudrait alors adapter tous ces filtres lors du changement de fréquence de réception, ce qui est très fastidieux. C’est pourquoi le *récepteur superhétérodyne* (cf. figure [ref:ueberlagerungsempfaenger_einfachsuper]) a été développé ; en langage technique, il est aussi appelé *Superheterodyne* ou *Superhet*.
 
 <margin>
 [picture:736:e_geradeausempfänger:Récepteur à conversion directe]
@@ -10,7 +10,7 @@ Comme récepteur le plus simple, nous avons appris à connaître le récepteur �
 
 ---
 
-L’idée du récepteur superhétérodyne est aussi simple qu’ingénieuse. Au lieu d’utiliser des filtres accordables, on emploie un oscillateur variable (VFO) qui permet de transposer le signal reçu vers une fréquence fixe, appelée *fréquence intermédiaire* $f_z$ (souvent désignée par FI). Pour cette fréquence intermédiaire fixe, il est possible de réaliser des filtres très sélectifs et de haute qualité. La figure [ref:ueberlagerungsempfaenger_einfachsuper_filter] illustre ce principe.
+L’idée du récepteur superhétérodyne est aussi simple qu’ingénieuse. Au lieu d’utiliser des filtres accordables, on emploie un oscillateur variable (VFO) qui permet de transposer le signal reçu vers une fréquence fixe, appelée fréquence intermédiaire $f_z$ (souvent désignée par FI). Pour cette fréquence intermédiaire fixe, il est possible de réaliser des filtres très sélectifs et de haute qualité. La figure [ref:ueberlagerungsempfaenger_einfachsuper_filter] illustre ce principe.
 
 <margin>
 [picture:913:ueberlagerungsempfaenger_einfachsuper_filter:Récepteur superhétérodyne avec filtres]
@@ -26,7 +26,7 @@ Grâce à ce concept, le récepteur superhétérodyne atteint une sélectivité 
 
 [question:EF102]
 
-Les récepteurs superhétérodynes peuvent fonctionner avec une ou plusieurs fréquences intermédiaires. Dans le cas le plus simple, il s’agit d’un *récepteur à conversion directe*, où la fréquence intermédiaire est la fréquence BF souhaitée. À cette fin, la fréquence de l’oscillateur doit être très proche de la fréquence de réception.
+Les récepteurs superhétérodynes peuvent fonctionner avec une ou plusieurs fréquences intermédiaires. Dans le cas le plus simple, il s’agit d’un récepteur à conversion directe, où la fréquence intermédiaire est la fréquence BF souhaitée. À cette fin, la fréquence de l’oscillateur doit être très proche de la fréquence de réception.
 
 [question:EF208]
 
@@ -35,5 +35,5 @@ Un récepteur superhétérodyne présente cependant aussi certains inconvénient
 <indepth>
 L’inventeur du récepteur superhétérodyne ne peut pas être identifié de manière univoque. Cela s’explique notamment par le fait que son développement coïncide avec la période de la Première Guerre mondiale, durant laquelle toutes les parties belligérantes travaillaient intensivement à l’amélioration des techniques radio et de transmission sans fil. Plusieurs chercheurs ont étudié ce principe de fonctionnement de manière indépendante autour de l’année 1918, dont Edwin Armstrong aux États-Unis, Lucien Lévy en France ainsi que Walter Schottky en Allemagne.
 
-Le terme *Heterodyn* ou *Superheterodyn* est une néologie. Il est composé du latin *super* (« au-dessus ») ainsi que des mots grecs *hetero* (« différent ») et *dynamis* (« force » ou « effet »). Ce nom décrit le principe de fonctionnement fondamental du récepteur superhétérodyne : le mélange de deux signaux de fréquences différentes pour générer une nouvelle fréquence.
+Le terme Heterodyn ou Superheterodyn est une néologie. Il est composé du latin super (« au-dessus ») ainsi que des mots grecs hetero (« différent ») et dynamis (« force » ou « effet »). Ce nom décrit le principe de fonctionnement fondamental du récepteur superhétérodyne : le mélange de deux signaux de fréquences différentes pour générer une nouvelle fréquence.
 </indepth>

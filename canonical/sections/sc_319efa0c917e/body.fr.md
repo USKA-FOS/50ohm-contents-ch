@@ -53,7 +53,7 @@ Certains radioamateurs tentent de couvrir de longues distances avec une puissanc
 [question:BE107]
 
 <webmargin>
-| l : | l : Signification | X : Moyen mnémotechnique |
+| l: l : | l: l : Signification | X: X : Moyen mnémotechnique |
 | QRN | Perturbations atmosphériques | Perturbation *n*aturelle |
 | QRM | Je suis perturbé | Perturbation *m*an-made |
 | QRO | Augmentez la puissance d’émission ! | Ajouter encore quelques watts *o*ver |

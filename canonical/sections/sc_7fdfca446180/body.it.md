@@ -1,7 +1,7 @@
 Nel seguente paragrafo vengono descritti i singoli passaggi di una catena di trasmissione e ricezione. La figura [ref:a_sdr_sender] mostra ad esempio un trasmettitore SDR per comunicazioni vocali. Nel primo passaggio, il segnale del microfono viene digitalizzato tramite un convertitore analogico-digitale. Successivamente, il segnale digitale viene compresso da un codificatore di sorgente per ridurre la larghezza di banda necessaria. Nel passaggio successivo, un codificatore di canale aggiunge al segnale compresso una ridondanza mirata, in modo da poter rilevare e correggere eventuali errori di trasmissione. I dati codificati vengono infine convertiti in simboli da un mapper e modulati tramite un modulatore I/Q. La catena di trasmissione si conclude con un amplificatore di potenza e l'antenna, tramite la quale il segnale viene irradiato.
 
 <margin>
-[immagine:1062:a_sdr_sender:Trasmettitore SDR per comunicazioni vocali]
+[picture:1062:a_sdr_sender:Trasmettitore SDR per comunicazioni vocali]
 </margin>
 
 I blocchi evidenziati in blu nella figura [ref:a_sdr_sender] rappresentano i passaggi di elaborazione del segnale che possono essere implementati, ad esempio, esclusivamente via software o tramite un FPGA. L'ordine di questi passaggi di elaborazione per un trasmettitore è sempre il seguente e dovrebbe essere ben memorizzato per le domande d'esame:
@@ -24,7 +24,7 @@ Riassumiamo l'elaborazione digitale del segnale nel ricevitore nei seguenti tre 
 3. Decodificatore di sorgente: decompressione dei dati
 
 <margin>
-[immagine:1063:a_sdr_empfänger:Ricevitore SDR per comunicazioni vocali]
+[picture:1063:a_sdr_empfänger:Ricevitore SDR per comunicazioni vocali]
 </margin>
 
 [question:AF628]

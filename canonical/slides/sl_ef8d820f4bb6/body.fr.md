@@ -1,19 +1,19 @@
-[image:810:doppelsuper_blockschaltbild:Schéma bloc d'un double superhétérodyne]
+[picture:810:doppelsuper_blockschaltbild:Schéma bloc d'un double superhétérodyne]
 
 1. Partie HF avec présélection
 2. Premier mélangeur avec oscillateur local
-3. Premier amplificateur FI avec filtre *Roofing*
+3. Premier amplificateur FI avec filtre Roofing
 4. Deuxième mélangeur avec oscillateur de conversion
 
 --- data-transition="none"
-[image:810:doppelsuper_blockschaltbild:Schéma bloc d'un double superhétérodyne]
+[picture:810:doppelsuper_blockschaltbild:Schéma bloc d'un double superhétérodyne]
 
 5. Deuxième amplificateur FI avec filtre
 6. Troisième mélangeur en tant que détecteur de produit ou démodulateur, éventuellement avec oscillateur de battement
 7. Amplificateur BF
 
 --- data-transition="none"
-[image:810:doppelsuper_blockschaltbild:Schéma bloc d'un double superhétérodyne]
+[picture:810:doppelsuper_blockschaltbild:Schéma bloc d'un double superhétérodyne]
 
 * Utilisation de deux fréquences intermédiaires
 * 1ère FI élevée → bonne suppression de la fréquence image
@@ -34,7 +34,7 @@
 ---
 [question:AF114]
 ---
-### Filtre *Roofing*
+### Filtre Roofing
 
 * Filtre étroit (*Roofing Filter*) après le 1er mélangeur
 * Accordé sur la 1ère FI

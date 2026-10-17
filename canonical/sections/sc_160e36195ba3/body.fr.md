@@ -40,7 +40,7 @@ Il faut également tenir compte du rapport de transformation $ü$ du transformat
 [question:AD306]
 
 <indepth>
-[photo:296: Formes de construction du redresseur en pont : Formes de construction de redresseurs en pont]
+[photo:296: Brückengleichrichter Bauformen: Formes de construction de redresseurs en pont]
 Il faut veiller à la bonne identification des bornes.
 
 1. Redresseur en pont haute intensité 26 MB 20 A ($\(\qty{200}{\volt}$, $\(\qty{25}{\ampere}$) en boîtier métallique pour montage direct sur un radiateur

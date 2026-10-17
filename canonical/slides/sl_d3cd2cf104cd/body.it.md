@@ -2,10 +2,10 @@
 [picture:489:a_frequenzvervielfacher_schaltung:Esempio di circuito di un moltiplicatore di frequenza con amplificatore di classe C senza polarizzazione di base]
 </left>
 <right>
-* Il *segnale di ingresso* viene inviato a uno stadio di distorsione non lineare
+* Il segnale di ingresso viene inviato a uno stadio di distorsione non lineare
 * Ad esempio, un amplificatore di classe C, ottenuto operando senza polarizzazione di base
 * Il segnale viene fortemente distorto
-* Con un *filtro* si seleziona l'armonica desiderata
+* Con un filtro si seleziona l'armonica desiderata
 </right>
 <note>
 I circuiti amplificatori verranno trattati più avanti nel capitolo.

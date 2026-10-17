@@ -5,7 +5,7 @@
 
 ---
 
-En règle générale, une station de radioamateurisme est exploitée par une seule personne. Cependant, il existe aussi des associations de radioamateurisme qui gèrent une station, appelée alors *station club*. En plus des indicatifs d’appel attribués à des personnes, il existe des indicatifs spéciaux pour ces groupes, utilisés à la station club. On les appelle des *indicatifs d’association*.
+En règle générale, une station de radioamateurisme est exploitée par une seule personne. Cependant, il existe aussi des associations de radioamateurisme qui gèrent une station, appelée alors station club. En plus des indicatifs d’appel attribués à des personnes, il existe des indicatifs spéciaux pour ces groupes, utilisés à la station club. On les appelle des indicatifs d’association.
 
 ---
 % Réutiliser le tableau pour un exemple des différents indicatifs (associations, concours, armée)

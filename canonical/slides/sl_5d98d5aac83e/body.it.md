@@ -1,6 +1,6 @@
 ### Stazione radioamatoriale
 
-Il *regolamento delle radiocomunicazioni* (RR) stabilisce:
+Il regolamento delle radiocomunicazioni (RR) stabilisce:
 
 * Una stazione radio non consiste solo del ricevitore e del trasmettitore in un determinato luogo
 * Fanno parte della stazione anche tutte le apparecchiature aggiuntive necessarie per il suo funzionamento
@@ -10,7 +10,7 @@ Il *regolamento delle radiocomunicazioni* (RR) stabilisce:
 
 ---
 
-* La definizione generale di stazione radio secondo il *regolamento delle radiocomunicazioni* (RR) si applica anche alle stazioni radioamatoriali
+* La definizione generale di stazione radio secondo il regolamento delle radiocomunicazioni (RR) si applica anche alle stazioni radioamatoriali
 * Il RR definisce quindi la stazione radioamatoriale semplicemente come "una stazione del servizio di radioamatore"
 
 ---
@@ -28,7 +28,7 @@ La legge sulla radioamatorialità descrive la stessa cosa in modo simile, aggiun
 
 ---
 
-* Secondo il *regolamento delle radiocomunicazioni* (RR), le comunicazioni radio tra stazioni radioamatoriali di paesi diversi devono essere limitate a messaggi inerenti allo scopo del servizio di radioamatore e a osservazioni di carattere personale
+* Secondo il regolamento delle radiocomunicazioni (RR), le comunicazioni radio tra stazioni radioamatoriali di paesi diversi devono essere limitate a messaggi inerenti allo scopo del servizio di radioamatore e a osservazioni di carattere personale
 * Questa prescrizione non è stata recepita nella legislazione tedesca: i radioamatori tedeschi puntano su un approccio responsabile tra loro
 * Altri Stati possono tuttavia avere normative nazionali corrispondenti
 

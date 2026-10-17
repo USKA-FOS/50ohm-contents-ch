@@ -36,7 +36,7 @@ Un circuit très similaire à celui du démodulateur à enveloppe peut être uti
 
 ---
 
-Les signaux modulés en FM peuvent également être démodulés au moyen d’une PLL (*Phase Locked Loop*, boucle à verrouillage de phase) (cf. figure [ref:demodulator_pll]). Dans une PLL, un oscillateur commandé en tension (VCO) est couplé à un signal d’entrée par l’intermédiaire d’une boucle à verrouillage de phase. Si la fréquence du signal d’entrée change (modulation FM), la tension de régulation du VCO suit la modulation FM. Cette tension de régulation correspond alors exactement à la modulation du signal FM, et donc à la BF modulée, et peut être prélevée sur la PLL pour un traitement ultérieur.
+Les signaux modulés en FM peuvent également être démodulés au moyen d’une PLL (Phase Locked Loop, boucle à verrouillage de phase) (cf. figure [ref:demodulator_pll]). Dans une PLL, un oscillateur commandé en tension (VCO) est couplé à un signal d’entrée par l’intermédiaire d’une boucle à verrouillage de phase. Si la fréquence du signal d’entrée change (modulation FM), la tension de régulation du VCO suit la modulation FM. Cette tension de régulation correspond alors exactement à la modulation du signal FM, et donc à la BF modulée, et peut être prélevée sur la PLL pour un traitement ultérieur.
 
 <margin>
 [picture:77:demodulator_pll:PLL pour la démodulation des signaux FM]
@@ -46,7 +46,7 @@ Les signaux modulés en FM peuvent également être démodulés au moyen d’une
 
 ---
 
-Pour démoduler les signaux modulés en BLU (*Bande Latérale Unique*), on utilise un détecteur de produit. Celui-ci est essentiellement un mélangeur en anneau, que nous avons déjà rencontré dans le chapitre sur les récepteurs, qui utilise comme signaux d’entrée la FI du récepteur ainsi qu’un BFO (*Beat Frequency Oscillator*, oscillateur à battement). Par le mélange (produit) de ces deux signaux d’entrée, l’un des produits de mélange obtenus est le signal BF souhaité (signal BLU), qui peut être prélevé à la sortie pour un traitement ultérieur. Pour une intelligibilité optimale de la BF démodulée, le BFO doit être accordé sur la fréquence de la porteuse supprimée du signal BLU.
+Pour démoduler les signaux modulés en BLU (Bande Latérale Unique), on utilise un détecteur de produit. Celui-ci est essentiellement un mélangeur en anneau, que nous avons déjà rencontré dans le chapitre sur les récepteurs, qui utilise comme signaux d’entrée la FI du récepteur ainsi qu’un BFO (Beat Frequency Oscillator, oscillateur à battement). Par le mélange (produit) de ces deux signaux d’entrée, l’un des produits de mélange obtenus est le signal BF souhaité (signal BLU), qui peut être prélevé à la sortie pour un traitement ultérieur. Pour une intelligibilité optimale de la BF démodulée, le BFO doit être accordé sur la fréquence de la porteuse supprimée du signal BLU.
 
 
 <indepth>

@@ -1,5 +1,5 @@
-* La [larghezza di banda](#) è la banda di frequenza utilizzata in *$\unit{\hertz}$*
-* La [velocità di trasmissione dati](#) è la quantità di dati trasmessi per unità di tempo in *$\unit{\bit\per\second}$*
+* La *larghezza di banda* è la banda di frequenza utilizzata in *$\unit{\hertz}$*
+* La *velocità di trasmissione dati* è la quantità di dati trasmessi per unità di tempo in *$\unit{\bit\per\second}$*
 
 ---
 

@@ -9,7 +9,7 @@ La prochaine étape consiste à acquérir de l’expérience pratique :
 5. Entraîne-toi avec l’ensemble des questions du catalogue et passe des examens blancs.
 6. Inscris-toi à l’examen DE et demande ensuite ton indicatif DE.
 
-Avec des cartes QSL SWL confirmées, tu peux collectionner des diplômes et, plus tard, viser le titre de *Maître Récepteur Allemand*. Peut-être que l’écoute te donnera envie d’émettre toi-même. Dans ce cas, la classe N de l’examen radioamateur est la prochaine étape adaptée – beaucoup de choses de ce cours te seront déjà familières.
+Avec des cartes QSL SWL confirmées, tu peux collectionner des diplômes et, plus tard, viser le titre de Maître Récepteur Allemand. Peut-être que l’écoute te donnera envie d’émettre toi-même. Dans ce cas, la classe N de l’examen radioamateur est la prochaine étape adaptée – beaucoup de choses de ce cours te seront déjà familières.
 
 vy 73 et 55 !
 

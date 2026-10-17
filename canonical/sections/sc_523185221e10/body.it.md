@@ -1,4 +1,4 @@
-Nel calcolo delle distanze di sicurezza, l’attenuazione angolare delle antenne direttive riveste un ruolo importante. La potenza irradiata maggiore viene emessa al centro del lobo di radiazione. Nelle altre direzioni è minore. Se l’antenna è sufficientemente alta, gran parte della radiazione viene irradiata oltre la zona non controllabile, cioè la zona in cui i valori limite devono essere rispettati assolutamente.
+Nel calcolo delle distanze di sicurezza, l’attenuazione angolare delle antenne direttive riveste un ruolo importante. La potenza irradiata maggiore viene emessa al centro del lobo di radiazione. Nelle altre direzioni è minore. Se l’antenna è sufficientemente alta, gran parte della radiazione viene irradiata oltre la zona <u>non</u> controllabile, cioè la zona in cui i valori limite devono essere rispettati assolutamente.
 
 <margin>
 [picture:950:a_richtantenne_personenschutz:Ad un angolo di $\qty{40}{\degree}$ sotto l’asse del lobo principale di radiazione, la potenza irradiata è $\qty{6}{\decibel}$ inferiore rispetto all’angolo $\qty{0}{\degree}$.]

@@ -7,7 +7,7 @@ Pourtant, on parle de certaines antennes comme d'*antennes alimentées en couran
 
 ---
 
-Pour un dipôle demi-onde, la résistance d'alimentation dépend du point où l'alimentation est appliquée. Cela s'explique par le fait que, dans un dipôle, les porteurs de charge oscillent d'avant en arrière, ce qui entraîne un mouvement particulièrement important de charges au centre (que l'on appelle *ventre de courant*), et des tensions particulièrement élevées aux extrémités (que l'on appelle *ventre de tension*). Là où il n'y a pas de mouvement de charges, on parle de *nœud de courant*, et là où la tension est nulle, on parle de *nœud de tension*. L'illustration [ref:e_strom_spannung_speisung_dipol] montre la répartition du courant et de la tension sur le dipôle.
+Pour un dipôle demi-onde, la résistance d'alimentation dépend du point où l'alimentation est appliquée. Cela s'explique par le fait que, dans un dipôle, les porteurs de charge oscillent d'avant en arrière, ce qui entraîne un mouvement particulièrement important de charges au centre (que l'on appelle ventre de courant), et des tensions particulièrement élevées aux extrémités (que l'on appelle ventre de tension). Là où il n'y a pas de mouvement de charges, on parle de nœud de courant, et là où la tension est nulle, on parle de nœud de tension. L'illustration [ref:e_strom_spannung_speisung_dipol] montre la répartition du courant et de la tension sur le dipôle.
 
 [question:EG203]
 
@@ -17,7 +17,7 @@ Pour un dipôle demi-onde, la résistance d'alimentation dépend du point où l'
 
 ---
 
-Si l'on alimente un dipôle demi-onde au centre, il faut déplacer de nombreuses charges, et on parle alors d'*antenne alimentée en courant* (faible résistance d'alimentation). Un dipôle demi-onde alimenté à l'extrémité est en revanche une *antenne alimentée en tension* (résistance d'alimentation élevée). Pour l'alimentation à l'extrémité, comme illustré dans l'image [ref:e_strom_spannung_speisung_dipol_ende], un élément d'adaptation est nécessaire. Nous aborderons ce point plus en détail dans la partie HB9.
+Si l'on alimente un dipôle demi-onde au centre, il faut déplacer de nombreuses charges, et on parle alors d'antenne alimentée en courant (faible résistance d'alimentation). Un dipôle demi-onde alimenté à l'extrémité est en revanche une antenne alimentée en tension (résistance d'alimentation élevée). Pour l'alimentation à l'extrémité, comme illustré dans l'image [ref:e_strom_spannung_speisung_dipol_ende], un élément d'adaptation est nécessaire. Nous aborderons ce point plus en détail dans la partie HB9.
 
 <margin>
 [picture:851:e_strom_spannung_speisung_dipol_ende:Dipôle demi-onde alimenté à l'extrémité]

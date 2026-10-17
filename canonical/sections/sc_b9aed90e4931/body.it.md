@@ -7,7 +7,7 @@ Grazie all’autoinduzione nelle bobine, l’energia può essere trasmessa tra d
 </margin>
 
 <margin>
-[photo:239:e_Trafo con avvolgimenti separati:Trasformatore con avvolgimenti visibilmente separati]
+[photo:239:e_Trafo mit getrennten Wicklungen:Trasformatore con avvolgimenti visibilmente separati]
 </margin>
 
 Un trasformatore serve per convertire una tensione alternata elevata, ad esempio $\qty{230}{\volt}$, in una tensione alternata più bassa, ad esempio $\qty{13,8}{\volt}$. Un trasformatore può trasmettere solo tensioni alternate. Se si applica erroneamente una tensione continua a un trasformatore, questo, a causa della bassa resistenza ohmica dell’avvolgimento primario, si comporta come un cortocircuito. Il trasformatore può surriscaldarsi notevolmente e, nel peggiore dei casi, bruciarsi.

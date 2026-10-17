@@ -11,7 +11,7 @@ Sous la direction immédiate et la supervision d’un radioamateur titulaire d�
 
 ### Déroulement du trafic radio de formation
 
-* L’apprenant utilise l’*indicatif d’appel* de l’instructeur et ajoute le suffixe « /T » : DG2RON/T
+* L’apprenant utilise l’indicatif d’appel de l’instructeur et ajoute le suffixe « /T » : DG2RON/T
 * Le T se prononce Trainee
 * En entier : « DG2RON Trainee »
 

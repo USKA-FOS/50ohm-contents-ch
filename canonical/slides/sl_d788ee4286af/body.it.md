@@ -5,74 +5,74 @@
 
 ---
 
-[domanda:ED401]
+[question:ED401]
 
 ---
 
-[domanda:ED403]
+[question:ED403]
 
 ---
 
-<sinistra>
+<left>
 * *Linearità* significa: un raddoppio del segnale d’ingresso deve comportare un raddoppio del segnale d’uscita.
 * Le deviazioni dalla linearità sono indesiderate, poiché generano frequenze non presenti nel segnale originale.
 * Nel campo BF vengono percepite come *distorsioni*, mentre nel campo RF come *armoniche*.
-</sinistra>
-<destra>
-[immagine:828:e_verstaerker_linearitaet:Il segnale d’ingresso viene amplificato. In caso di limitazione dovuta alla mancanza di linearità, il segnale d’uscita viene deformato.]
-</destra>
-<nota>
-* Maggiori informazioni sulle armoniche nella sezione *Irradiazioni indesiderate* nel capitolo *Trasmettitore*.
+</left>
+<right>
+[picture:828:e_verstaerker_linearitaet:Il segnale d’ingresso viene amplificato. In caso di limitazione dovuta alla mancanza di linearità, il segnale d’uscita viene deformato.]
+</right>
+<note>
+* Maggiori informazioni sulle armoniche nella sezione Irradiazioni indesiderate nel capitolo Trasmettitore.
 * Eccezione sono gli amplificatori per FM, poiché in FM l’informazione viene trasmessa tramite variazione di frequenza e non di ampiezza.
-</nota>
+</note>
 
 ---
 
-[domanda:EF403]
+[question:EF403]
 
 ---
 
-<sinistra>
+<left>
 * Gli amplificatori BF trovano applicazione nella radioamatoriale, ad esempio, per elevare il segnale in uscita verso un altoparlante.
-</sinistra>
-<destra>
-[immagine:763:e_nf_verstaerker:Circuito di un amplificatore BF]
-</destra>
+</left>
+<right>
+[picture:763:e_nf_verstaerker:Circuito di un amplificatore BF]
+</right>
 
 ---
 
-[domanda:ED402]
+[question:ED402]
 
 ---
 
-<sinistra>
+<left>
 * Anche nell’amplificazione del segnale del microfono si utilizzano amplificatori.
 * Amplificazione nell’intervallo di circa $\qtyrange{300}{3000}{\hertz}$.
 * La larghezza di banda è di $\qty{2,7}{\kilo\hertz}$ o inferiore.
-</sinistra>
-<destra>
-[immagine:246:e_frequenzgang_mikrofonverstaerker:Tipica risposta in frequenza di un amplificatore per microfono radioamatoriale]
-</destra>
+</left>
+<right>
+[picture:246:e_frequenzgang_mikrofonverstaerker:Tipica risposta in frequenza di un amplificatore per microfono radioamatoriale]
+</right>
 
 ---
 
-[domanda:EF307]
+[question:EF307]
 
 ---
 
-[domanda:EF308]
-<nota>
+[question:EF308]
+<note>
 * Riconoscibile dal microfono utilizzato in precedenza per SSB.
-</nota>
+</note>
 
 ---
 
 * L’alimentazione di un trasmettitore deve garantire, oltre alla stabilità, anche una buona protezione contro l’irradiazione RF incidente.
 * In questo modo si evita che l’alta frequenza entri nella rete elettrica.
-<nota>
-* Maggiori informazioni nella sezione *Irradiazioni indesiderate* nel capitolo *Trasmettitore*.
-</nota>
+<note>
+* Maggiori informazioni nella sezione Irradiazioni indesiderate nel capitolo Trasmettitore.
+</note>
 
 ---
 
-[domanda:EF405]
+[question:EF405]

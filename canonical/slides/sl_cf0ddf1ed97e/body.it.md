@@ -37,7 +37,7 @@ Definizione: la larghezza dell’impulso è al 50% del valore di picco
 ### Puntali
 
 <left>
-[photo:223:a_oscilloskop_tastkoepfe:Puntali con diverse punte di prova. Per questa foto, le pinze a coccodrillo sono state rimosse.]
+[photo:223:a_oszilloskop_tastkoepfe:Puntali con diverse punte di prova. Per questa foto, le pinze a coccodrillo sono state rimosse.]
 </left>
 <right>
 * Per misurare la tensione

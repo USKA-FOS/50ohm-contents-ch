@@ -1,4 +1,4 @@
-Nous avons maintenant appris à connaître la *résistance* et son *unité* $\unit{\ohm}$ (ohm). En pratique, la valeur numérique n'est généralement pas imprimée sur les résistances. À la place, des anneaux colorés sont utilisés. Ces anneaux codent la valeur de la résistance.
+Nous avons maintenant appris à connaître la résistance et son unité $\unit{\ohm}$ (ohm). En pratique, la valeur numérique n'est généralement pas imprimée sur les résistances. À la place, des anneaux colorés sont utilisés. Ces anneaux codent la valeur de la résistance.
 
 <margin>
 [picture:665:n_widerstandsfarbcodes: Une résistance avec 4 anneaux colorés]
@@ -7,7 +7,7 @@ Nous avons maintenant appris à connaître la *résistance* et son *unité* $\un
 L'illustration [ref:n_widerstandsfarbcodes] montre une résistance avec quatre anneaux colorés. Chaque couleur correspond à une valeur numérique, comme indiqué dans le tableau [ref:n_widerstandsfarbcodes_tabelle] dans la colonne *Valeur* :
 * Le premier anneau coloré correspond au premier chiffre, dans ce cas *jaune*, soit quatre.
 * Le deuxième anneau coloré correspond au deuxième chiffre, dans notre exemple *violet*, soit sept.
-* Le troisième anneau coloré est le *multiplicateur* (voir tableau [ref:n_widerstandsfarbcodes_tabelle]), dans notre cas *orange*, soit la valeur 1000.
+* Le troisième anneau coloré est le multiplicateur (voir tableau [ref:n_widerstandsfarbcodes_tabelle]), dans notre cas *orange*, soit la valeur 1000.
 
 <webmargin>
 | X:Couleur | l:Valeur | l:Multiplicateur | l:Tolérance |
@@ -33,7 +33,7 @@ $ 47 \cdot \qty{1000}{\ohm} = \qty{47000}{\ohm} = \qty{47}{\kilo\ohm} $
 
 ---
 
-Il reste un quatrième anneau coloré. Celui-ci indique la *tolérance*, qui spécifie dans quelle mesure la valeur réelle de la résistance peut s'écarter de la valeur indiquée.
+Il reste un quatrième anneau coloré. Celui-ci indique la tolérance, qui spécifie dans quelle mesure la valeur réelle de la résistance peut s'écarter de la valeur indiquée.
 D'autres détails à ce sujet sont disponibles dans le chapitre [sec:widerstand_toleranz].
 
 <indepth>
@@ -42,7 +42,7 @@ D'autres détails à ce sujet sont disponibles dans le chapitre [sec:widerstand_
 
 ---
 
-Le tableau des codes couleur n'a pas besoin d'être mémorisé. Il est fourni comme partie du *recueil de formules* lors de l'examen en tant qu'outil d'aide. Il est toutefois conseillé de retenir l'ordre des anneaux et leur signification. Pour s'entraîner, les questions suivantes peuvent être résolues à l'aide du code couleur afin de s'habituer à cette méthode.
+Le tableau des codes couleur n'a pas besoin d'être mémorisé. Il est fourni comme partie du recueil de formules lors de l'examen en tant qu'outil d'aide. Il est toutefois conseillé de retenir l'ordre des anneaux et leur signification. Pour s'entraîner, les questions suivantes peuvent être résolues à l'aide du code couleur afin de s'habituer à cette méthode.
 
 <indepth>
 *Approfondissement* : Il existe également des résistances avec plus de quatre anneaux colorés. Cependant, celles-ci ne sont pas pertinentes pour l'examen. D'autres composants sont également souvent marqués par des anneaux colorés.

@@ -4,10 +4,10 @@
 [picture:499:a_stehwellenmessgeraet:Schaltung eines Stehwellenmessgeräts]
 </left>
 <right>
-* Couplage d’une partie de la *puissance incidente*
+* Couplage d’une partie de la puissance incidente
 * Couplage d’une partie de la puissance réfléchie
 * Affichage via une échelle appropriée (par exemple, instrument à aiguilles croisées)
-* Lecture du *rapport d’ondes stationnaires*
+* Lecture du rapport d’ondes stationnaires
 </right>
 
 ---

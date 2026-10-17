@@ -12,7 +12,7 @@ Nella tecnica di multiplazione di frequenza (FDMA – Frequency Division Multipl
 
 ---
 
-Nella tecnica di multiplazione a divisione di tempo (TDMA – Time Division Multiple Access), più utenti condividono lo stesso canale di frequenza, accedendovi in modo sequenziale. A ogni utente vengono assegnati intervalli temporali definiti, detti *time slot*, durante i quali può trasmettere e ricevere (cfr. figura [ref:e_tdma]). Questa separazione temporale delle trasmissioni impedisce che i segnali dei singoli utenti si sovrappongano o si disturbino reciprocamente.
+Nella tecnica di multiplazione a divisione di tempo (TDMA – Time Division Multiple Access), più utenti condividono lo stesso canale di frequenza, accedendovi in modo sequenziale. A ogni utente vengono assegnati intervalli temporali definiti, detti time slot, durante i quali può trasmettere e ricevere (cfr. figura [ref:e_tdma]). Questa separazione temporale delle trasmissioni impedisce che i segnali dei singoli utenti si sovrappongano o si disturbino reciprocamente.
 
 TDMA consente un utilizzo relativamente efficiente delle risorse di frequenza disponibili, soprattutto in sistemi con molti utenti e un elevato volume di dati. Tuttavia, per il corretto funzionamento è necessaria una sincronizzazione temporale molto precisa tra tutti i partecipanti, il che aumenta la complessità tecnica e il costo del sistema. Esempi noti di applicazione di TDMA sono il sistema di telefonia mobile GSM di seconda generazione, il sistema telefonico cordless DECT e, nel radioamatoriale, il DMR.
 

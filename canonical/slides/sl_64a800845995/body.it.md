@@ -10,7 +10,7 @@
 ---
 
 * Le distorsioni dovute a sovraeccitazione possono verificarsi anche nell'amplificatore di trasmissione
-* Per evitarlo, molti trasmettitori-ricevitori dispongono di una **regolazione automatica del livello** (in inglese: Automatic Level Control, ALC) $\rightarrow$ regola automaticamente il guadagno verso il basso
+* Per evitarlo, molti trasmettitori-ricevitori dispongono di una regolazione automatica del livello (in inglese: Automatic Level Control, ALC) $\rightarrow$ regola automaticamente il guadagno verso il basso
 * Tuttavia, nei sistemi di trasmissione digitali l'ALC può causare problemi
 * Il segnale, a seconda del volume o della frequenza, potrebbe attivare l'ALC in momenti diversi con intensità variabile $\rightarrow$ l'ampiezza viene modificata in modo indesiderato
 

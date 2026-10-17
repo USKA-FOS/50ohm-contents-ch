@@ -1,5 +1,5 @@
-* A causa della forma sferica della [terra](#), una destinazione può essere raggiunta in linea retta tramite due percorsi
-* Le [onde radio](#) possono propagarsi meglio lungo il percorso indiretto e più lungo a seconda delle condizioni di propagazione
+* A causa della forma sferica della terra, una destinazione può essere raggiunta in linea retta tramite due percorsi
+* Le onde radio possono propagarsi meglio lungo il percorso indiretto e più lungo a seconda delle condizioni di propagazione
 
 ---
 [question:EH217]

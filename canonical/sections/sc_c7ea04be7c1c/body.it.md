@@ -1,14 +1,14 @@
-Un antico detto tra radioamatori recita che il miglior *amplificatore ad alta frequenza* è l'*antenna*. Nei primi anni della tecnologia radio, essa era l’unico "amplificatore" disponibile, poiché non esistevano ancora componenti elettronici amplificatori. Nel 1907 arrivò la valvola termoionica: un componente molto efficace, ma piuttosto ingombrante e poco efficiente. Già dagli anni Venti, la scienza sognava componenti con funzioni simili, ma con tutto il processo che avveniva all’interno di un solido (semiconduttore) e non nel vuoto. Il primo componente in cui ciò riuscì fu, nel 1947/1948, il *transistor bipolare*, che è anche oggetto di domande d’esame.
+Un antico detto tra radioamatori recita che il miglior amplificatore ad alta frequenza è l'antenna. Nei primi anni della tecnologia radio, essa era l’unico "amplificatore" disponibile, poiché non esistevano ancora componenti elettronici amplificatori. Nel 1907 arrivò la valvola termoionica: un componente molto efficace, ma piuttosto ingombrante e poco efficiente. Già dagli anni Venti, la scienza sognava componenti con funzioni simili, ma con tutto il processo che avveniva all’interno di un solido (semiconduttore) e non nel vuoto. Il primo componente in cui ciò riuscì fu, nel 1947/1948, il *transistor bipolare*, che è anche oggetto di domande d’esame.
 
 [question:EC602]
 
 <indepth>
-Il *transistor bipolare* in inglese è chiamato anche BJT (*Bipolar Junction Transistor*), in tedesco *bipolarer Sperrschicht-Transistor*.
+Il *transistor bipolare* in inglese è chiamato anche BJT (Bipolar Junction Transistor), in tedesco bipolarer Sperrschicht-Transistor.
 </indepth>
 
 La funzione ideale di tutti i tipi di transistor, inclusa la valvola termoionica, è quella di una *sorgente di corrente controllata in tensione*: con una piccola variazione di tensione all’ingresso si deve ottenere una grande variazione di corrente all’uscita.
 
-Il transistor bipolare ha tre terminali, chiamati emettitore, base e collettore. L’emettitore emette portatori di carica nella base: nel transistor NPN si tratta di *elettroni*, nel transistor PNP di lacune (**Löcher** in tedesco). La fisica alla base di questi concetti verrà discussa solo durante il corso per la classe A. Questi portatori attraversano la base e vengono raccolti dal collettore.
+Il transistor bipolare ha tre terminali, chiamati emettitore, base e collettore. L’emettitore emette portatori di carica nella base: nel transistor NPN si tratta di *elettroni*, nel transistor PNP di lacune (*Löcher* in tedesco). La fisica alla base di questi concetti verrà discussa solo durante il corso per la classe A. Questi portatori attraversano la base e vengono raccolti dal collettore.
 
 ---
 
@@ -27,7 +27,7 @@ La figura [ref:e_npn_pnp_symbol] mostra i simboli di circuito dei transistor NPN
 ---
 
 I transistor bipolari sono composti da due diodi: il diodo emettitore-base e il diodo base-collettore. 
-Durante il funzionamento attivo, il diodo emettitore-base è sempre polarizzato in direzione di conduzione. Nel transistor NPN il potenziale della base deve essere positivo rispetto a quello dell’emettitore, mentre nel transistor PNP deve essere negativo. Il diodo base-collettore è invece polarizzato in *polarizzazione inversa*. Per questo, nel transistor NPN il potenziale del collettore deve essere positivo rispetto alla base, mentre nel transistor PNP deve essere negativo.
+Durante il funzionamento attivo, il diodo emettitore-base è sempre polarizzato in direzione di conduzione. Nel transistor NPN il potenziale della base deve essere positivo rispetto a quello dell’emettitore, mentre nel transistor PNP deve essere negativo. Il diodo base-collettore è invece polarizzato in polarizzazione inversa. Per questo, nel transistor NPN il potenziale del collettore deve essere positivo rispetto alla base, mentre nel transistor PNP deve essere negativo.
 
 <tip>
 La funzione del transistor si attiva solo se la zona di base tra emettitore e collettore è larga al massimo pochi micrometri. Quindi non è possibile costruire un transistor semplicemente saldando due diodi separati.
@@ -55,7 +55,7 @@ Le correnti e le tensioni in un transistor NPN sono illustrate nella figura [ref
 $I_\mathrm{C} = I_\mathrm{S}\ e^{\frac{U_\mathrm{BE}}{U_\mathrm{T}}}$
 
 
-A *temperatura ambiente*, $U_\mathrm{T}$ è circa $\qty{26}{\milli\volt}$.
+A temperatura ambiente, $U_\mathrm{T}$ è circa $\qty{26}{\milli\volt}$.
 
 
 <indepth>
@@ -68,7 +68,7 @@ La corrente di base $I_\mathrm{B}$ ha, in ampi intervalli di funzionamento, la s
 $\frac{I_\mathrm{C}}{I_\mathrm{B}} = B$
 
 
-*$B$* è il *rapporto* di corrente (più precisamente, il rapporto di corrente nella *configurazione a emettitore comune*). Spesso è più pratico considerare il transistor come un componente controllato in corrente, anche se fisicamente non è così. Il rapporto di corrente nei transistor pratici è compreso tra $50$ e $350$.
+*$B$* è il rapporto di corrente (più precisamente, il rapporto di corrente nella configurazione a emettitore comune). Spesso è più pratico considerare il transistor come un componente controllato in corrente, anche se fisicamente non è così. Il rapporto di corrente nei transistor pratici è compreso tra $50$ e $350$.
 
 <tip>
 Per il controllo in corrente del transistor bipolare esiste un’analogia molto antica, che paragona un grande e un piccolo canale d’acqua, una diga nel canale grande e una valvola di controllo. Forse i più anziani tra noi la ricordano ancora dal "Piccolo radiomane" della casa editrice Kosmos...
@@ -112,12 +112,12 @@ $U_\mathrm{CE} = U_\mathrm{CB} + U_\mathrm{BE}$
 Oltre ai transistor bipolari, trattati prevalentemente qui, esistono soprattutto i *transistor a effetto di campo*, che funzionano fisicamente in modo diverso ma che, all’esterno, hanno la stessa funzione di base (sorgente di corrente controllata in tensione). Sotto forma di MOSFET, dominano la nostra elettronica, poiché sono presenti in milioni o miliardi nei circuiti integrati dell’elettronica digitale.
 
 <indepth>
-MOSFET sta per *metal-oxide-semiconductor field effect transistor*, in tedesco *Metall-Oxid-Halbleiter-Feldeffekttransistor*.
+MOSFET sta per *metal-oxide-semiconductor field effect transistor*, in tedesco Metall-Oxid-Halbleiter-Feldeffekttransistor.
 </indepth>
 
 [question:EC604]
 
 
-I transistor possono essere utilizzati non solo come *amplificatori*, ma anche come *interruttori* (corrente acceso/spento) o, con piccole tensioni in uscita, come *resistenza* controllabile. Quest’ultima funzione è implementata soprattutto con i transistor a effetto di campo.
+I transistor possono essere utilizzati non solo come amplificatori, ma anche come interruttori (corrente acceso/spento) o, con piccole tensioni in uscita, come resistenza controllabile. Quest’ultima funzione è implementata soprattutto con i transistor a effetto di campo.
 
 [question:EC601]

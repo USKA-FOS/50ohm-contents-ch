@@ -1,4 +1,4 @@
-Pour la BLU USB, la bande latérale supérieure doit se situer dans la bande passante du **filtre à quartz de $\qty{9}{\mega\hertz}$**.
+Pour la BLU USB, la bande latérale supérieure doit se situer dans la bande passante du filtre à quartz de $\qty{9}{\mega\hertz}$.
 
 [picture:941:a_balancemodulator_usb:Modulateur équilibré avec porteuse supprimée et filtre à quartz pour USB]
 [picture:941:a_balancemodulator_lsb:Modulateur équilibré avec porteuse supprimée et filtre à quartz pour LSB]

@@ -6,14 +6,20 @@
 * In presenza di una pura resistenza attiva (senza componenti induttive o capacitive), il ROS si calcola dal rapporto tra la resistenza di carico e la resistenza caratteristica del cavo (in modo che ROS ≥ 1)
 </right>
 
+
+
 ---
 
 * Esempio: Un’antenna con $\qty{100}{\ohm}$ su un cavo da $\qty{50}{\ohm}$ porta a un ROS di $\num{2}$, mentre una con $\qty{10}{\ohm}$ porta a un ROS di $\num{5}$
 * Per memoria: La resistenza di un dipolo ripiegato è di circa $\qty{300}{\ohm}$
 
+
 ---
+
 [question:AG405]
+
 ---
+
 #### Procedimento di soluzione
 * dato: $Z = \qty{75}{\ohm}$
 * dato: $R_2 \approx \qty{300}{\ohm}$ resistenza dipolo ripiegato
@@ -22,6 +28,8 @@
 <fragment>
 $s = \frac{R_2}{Z} = \frac{\qty{300}{\ohm}}{\qty{75}{\ohm}} = 4$
 </fragment>
+
+
 ---
 
 ### Influenza dell’attenuazione della linea sul rapporto d’onda stazionaria
@@ -30,10 +38,17 @@ $s = \frac{R_2}{Z} = \frac{\qty{300}{\ohm}}{\qty{75}{\ohm}} = 4$
 * Anche se al termine del cavo viene riflessa il $\qty{100}{\percent}$ dell’energia, al trasmettitore può essere misurato un ROS inferiore (migliore)
 * Esempio: Se nella direzione di andata e di ritorno viene persa metà della potenza, rimane solo un quarto della potenza originale – questo corrisponde a un ROS misurato di $\num{3}$ ($\qty{25}{\percent}$ di potenza riflessa)
 
+
 ---
+
 [question:AG402]
 
+
+---
+
 [question:AG403]
+
+
 
 ---
 
@@ -46,8 +61,13 @@ $s = \frac{R_2}{Z} = \frac{\qty{300}{\ohm}}{\qty{75}{\ohm}} = 4$
 $s = \frac{\sqrt{P_\mathrm{i}}+\sqrt{P_\mathrm{r}}}{\sqrt{P_\mathrm{i}}-\sqrt{P_\mathrm{r}}}$
 </fragment>
 
+
 ---
+
 [question:AG404]
+
+
+---
 
 #### Procedimento di soluzione
 * dato: $P_i = \qty{10}{\watt}$

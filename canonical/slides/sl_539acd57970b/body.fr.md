@@ -29,7 +29,7 @@ Pour trouver rapidement des partenaires radio
 ## Changement de fréquence
 
 * Conserver les fréquences d'appel pour les appels
-* Après l'**établissement de la liaison**, se mettre d'accord sur une autre fréquence
+* Après l'établissement de la liaison, se mettre d'accord sur une autre fréquence
 * Utiliser une fréquence utile issue du plan de bande
 * Changer de fréquence
 

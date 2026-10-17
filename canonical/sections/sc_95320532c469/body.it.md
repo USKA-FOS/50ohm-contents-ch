@@ -1,4 +1,4 @@
-La potenza di trasmissione generata dal trasmettitore deve essere irradiata dall'antenna in modo il più completo possibile e senza perdite. Per questo motivo sono necessarie linee di antenna speciali, che nella terminologia tecnica vengono chiamate *linee di trasmissione*.
+La potenza di trasmissione generata dal trasmettitore deve essere irradiata dall'antenna in modo il più completo possibile e senza perdite. Per questo motivo sono necessarie linee di antenna speciali, che nella terminologia tecnica vengono chiamate linee di trasmissione.
 
 <margin>
 [photo:65:n_Koax_Detail:Cavo coassiale in dettaglio]
@@ -8,6 +8,10 @@ Il tipo di linea di trasmissione più diffuso è il *cavo coassiale* (Figura [re
 * spessi o sottili
 * con conduttore interno flessibile o rigido
 * con conduttore esterno in treccia metallica e/o lamina o addirittura in tubo di rame massiccio
+
+<margin>
+[photo:66:n_Koaxialkabel:Diversi cavi coassiali]
+</margin>
 
 Ma anche nel miglior cavo coassiale si verificano perdite, poiché una parte della potenza di trasmissione viene convertita in calore. Il livello delle perdite di una linea di trasmissione è indicato dalla cosiddetta *attenuazione del cavo*, che nei datasheet viene solitamente espressa in decibel ($\unit{\dB}$) per $\qty{100}{\meter}$. Più lungo è un cavo coassiale, maggiore è la perdita dovuta all'attenuazione. Anche la frequenza dell'oscillazione elettrica gioca un ruolo: all'aumentare della frequenza, aumenta l'attenuazione del cavo.
 

@@ -1,5 +1,5 @@
 La frequenza di un VFO dipende direttamente dalla sua tensione di servizio (tensione continua). Questo è dovuto principalmente alla dipendenza del punto di lavoro del transistor nell'oscillatore.  
-Per ottenere una stabilità di frequenza il più possibile elevata di un VFO rispetto alle fluttuazioni della tensione di servizio, quest'ultima deve essere stabilizzata il più possibile tramite opportune misure circuitali. La tensione di servizio di un VFO deve quindi essere indipendente dalle tensioni di servizio di altre sezioni (stabilizzata) e deve essere il più possibile filtrata e disaccoppiata. Questo può essere ottenuto, ad esempio, tramite un regolatore di tensione (cfr. figura [ref:a_osc_stab]).
+Per ottenere una stabilità di frequenza il più possibile elevata di un VFO rispetto alle fluttuazioni della tensione di servizio, quest'ultima *deve essere stabilizzata* il più possibile tramite opportune misure circuitali. La tensione di servizio di un VFO deve quindi essere indipendente dalle tensioni di servizio di altre sezioni (stabilizzata) e deve essere il più possibile *filtrata e disaccoppiata*. Questo può essere ottenuto, ad esempio, tramite un regolatore di tensione (cfr. figura [ref:a_osc_stab]).
 
 [question:AD612]
 [question:AD608]

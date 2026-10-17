@@ -31,7 +31,7 @@ Ulteriori corrispondenze sono illustrate nella tabella [ref:e_swr_werte].
 | $\num{10}$ | $\qty{66,9}{\percent}$ |
 | $\num{20}$ | $\qty{81,9}{\percent}$ |
 | $\infty$ | $\qty{100}{\percent}$ |
-[tabella:valori_ros:Valori del ROS in relazione alla potenza riflessa]
+[table:e_swr_werte:Valori del ROS in relazione alla potenza riflessa]
 </margin>
 
 ---
@@ -41,9 +41,9 @@ Per rispondere alle domande seguenti, è sufficiente sapere che un rapporto d’
 </tip>
 
 
-[domanda:EG401]
-[domanda:EG402]
-[domanda:EG403]
+[question:EG401]
+[question:EG402]
+[question:EG403]
 
 
 <indepth>

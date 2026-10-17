@@ -10,9 +10,13 @@
 * I filtri passa-banda sopprimono i segnali indesiderati  
 </right>
 
+
+
 ---
 
 [question:AJ208]
+
+
 
 
 ---
@@ -20,13 +24,17 @@
 [question:AJ211]
 
 
+
+
 ---
 
 [question:AJ209]
 
 
----
 
+
+
+--- style="font-size: smaller;"
 
 ### Armoniche e armoniche superiori
 
@@ -42,9 +50,13 @@
 * 3ª armonica = 2ª armonica superiore  
 </right>
 
+
+
 ---
 
 [question:AJ204]
+
+
 
 
 ---
@@ -60,12 +72,16 @@ $f \cdot n = \qty{29,5}{\mega\hertz} \cdot 3 = \qty{88,5}{\mega\hertz}$
 </fragment>
 
 
+
+
 ---
 
 [question:AJ203]
 
 
+
 ---
+
 #### Percorso di soluzione
 * dato: $f = \qty{7,20}{\mega\hertz}$
 * dato: $n = 4$
@@ -75,6 +91,8 @@ $f \cdot n = \qty{29,5}{\mega\hertz} \cdot 3 = \qty{88,5}{\mega\hertz}$
 <fragment>
 $f \cdot n = \qty{7,20}{\mega\hertz} \cdot 4 = \qty{28,80}{\mega\hertz}$
 </fragment>
+
+
 
 
 ---
@@ -95,9 +113,13 @@ $f \cdot n = \qty{7,20}{\mega\hertz} \cdot 4 = \qty{28,80}{\mega\hertz}$
 Le armoniche superiori e le armoniche si formano sempre quando si verificano deviazioni dalla curva sinusoidale ideale.
 </note>
 
+
+
 ---
 
 [question:AJ207]
+
+
 
 
 ---
@@ -110,9 +132,13 @@ Le armoniche superiori e le armoniche si formano sempre quando si verificano dev
 * Le altre frequenze vengono lasciate passare quasi senza attenuazione  
 
 
+
+
 ---
 
 [question:AJ210]
+
+
 
 
 ---
@@ -126,9 +152,13 @@ Le armoniche superiori e le armoniche si formano sempre quando si verificano dev
 * Allargano involontariamente il segnale trasmesso (emissione parassita, prodotti secondari, "splatter")
 
 
+
+
 ---
 
 [question:AJ219]
+
+
 
 
 ---
@@ -142,14 +172,20 @@ Le armoniche superiori e le armoniche si formano sempre quando si verificano dev
 * Particolarmente problematico nei trasmettitori più vecchi  
 
 
+
+
 ---
 
 [question:AJ222]
 
 
+
+
 ---
 
 [question:AJ223]
+
+
 
 
 ---
@@ -165,6 +201,8 @@ Le armoniche superiori e le armoniche si formano sempre quando si verificano dev
 Ulteriori informazioni nella [Disposizione 33](http://50ohm.de/vfg33) del 2007.
 </note>
 
+
+
 ---
 
 ### Banda HF ($\qtyrange{1,7}{35}{\mega\hertz}$)
@@ -174,9 +212,13 @@ Ulteriori informazioni nella [Disposizione 33](http://50ohm.de/vfg33) del 2007.
 * Rilevante la potenza del segnale superiore a $\qty{0,25}{\micro\watt}$
 
 
+
+
 ---
 
 [question:AJ224]
+
+
 
 
 ---
@@ -186,6 +228,8 @@ Ulteriori informazioni nella [Disposizione 33](http://50ohm.de/vfg33) del 2007.
 
 * Attenuazione minima di $\qty{60}{\dB}$
 * Rilevante la potenza del segnale superiore a $\qty{0,25}{\micro\watt}$
+
+
 
 
 ---

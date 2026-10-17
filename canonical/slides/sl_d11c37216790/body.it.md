@@ -4,8 +4,8 @@ Ora conosci:
 
 - ricevitore, antenna e propagazione
 - sicurezza elettrica e meccanica
-- nominativo [index:nominativo], bande e modalità operative [index:modalità operative]
-- tecnica operativa [index:tecnica operativa], registro delle trasmissioni e cartoline QSL
+- nominativo , bande e modalità operative 
+- tecnica operativa , registro delle trasmissioni e cartoline QSL
 - i limiti legali dell’ascolto
 - il percorso per ottenere il proprio nominativo DE
 

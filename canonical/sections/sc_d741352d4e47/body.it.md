@@ -1,12 +1,16 @@
 Nel capitolo [sec:antennengewinn] abbiamo già incontrato il radiatore isotropico (cfr. figura [ref:e_Kugelstrahler]). Il radiatore isotropico non è un’antenna reale, bensì un modello fisico di un radiatore che distribuisce l’energia in modo uniforme in tutte le direzioni dello spazio. 
 La potenza isotropica equivalente irradiata (EIRP) di un’antenna reale si riferisce al radiatore isotropico. In altre parole, la potenza irradiata di un’antenna reale viene confrontata con la potenza irradiata del radiatore isotropico. Per la potenza irradiata conta solo l’energia che effettivamente giunge all’antenna. A causa delle perdite del cavo ecc., la potenza del trasmettitore nella realtà non può essere completamente trasferita all’antenna. Tale potenza persa non deve essere inclusa nel calcolo della potenza irradiata. Il guadagno d’antenna nella direzione preferenziale fa invece parte del calcolo. In formule, ciò si esprime come segue:$P_\mathrm{EIRP} = (P_\mathrm{trasmettitore} - P_\mathrm{perdite}) \cdot G_\mathrm{antenna}$
-dove $G_\mathrm{antenna}$ rappresenta il guadagno d’antenna. L’EIRP è quindi il prodotto tra la potenza effettivamente fornita all’antenna e il suo guadagno in una direzione, riferito al radiatore isotropico.<margin>
+dove $G_\mathrm{antenna}$ rappresenta il guadagno d’antenna. L’EIRP è quindi il prodotto tra la potenza effettivamente fornita all’antenna e il suo guadagno in una direzione, riferito al radiatore isotropico.
+<margin>
+
 [picture:751:e_Kugelstrahler:Radiatore isotropico al centro di una sfera, che genera la stessa potenza irradiata in tutti i punti della superficie sferica]
 </margin>
 <tip>
 Prima dell’esame è bene familiarizzare con la propria calcolatrice. Le formule e i calcoli richiesti per le diverse domande d’esame vanno esercitati più volte, in modo da padroneggiare con sicurezza lo strumento e i passaggi di calcolo durante la prova.
 </tip>
-[question:EG501]Nella domanda successiva, è fondamentale prestare attenzione ai segni delle operazioni. Le perdite vengono *sottratte* dalla potenza di trasmissione e poi moltiplicate per il fattore di guadagno ($G_\mathrm{antenna}$). Poiché si deve calcolare l'EIRP, il riferimento deve essere fatto rispetto al radiatore isotropico.
+[question:EG501]
+
+Nella domanda successiva, è fondamentale prestare attenzione ai segni delle operazioni. Le perdite vengono *sottratte* dalla potenza di trasmissione e poi *moltiplicate* per il fattore di guadagno ($G_\mathrm{antenna}$). Poiché si deve calcolare l'EIRP, il riferimento deve essere fatto rispetto al radiatore isotropico.
 
 [question:EG502]
 
@@ -31,7 +35,7 @@ Si ottiene la formula per $P_\mathrm{EIRP}$ riarrangiando opportunamente la form
   
 $g = 10 \cdot \log_{10}\left(\frac{P_2}{P_1}\right) \unit{\dB}$
   
-Poiché deve essere considerata anche un’<b>attenuazione</b> $a$, questa viene sottratta dal <b>guadagno d'antenna</b>. Per $P_1$ inseriamo la <b>potenza d’ingresso</b> $P_\mathrm{Sender}$, poiché rappresenta la potenza d’ingresso, e per $P_2$ la <b>potenza d’uscita</b> $P_\mathrm{EIRP}$, poiché questa è la potenza d’uscita risultante.
+Poiché deve essere considerata anche un’attenuazione $a$, questa viene sottratta dal guadagno d'antenna. Per $P_1$ inseriamo la potenza d’ingresso $P_\mathrm{Sender}$, poiché rappresenta la potenza d’ingresso, e per $P_2$ la potenza d’uscita $P_\mathrm{EIRP}$, poiché questa è la potenza d’uscita risultante.
 
 $g-a = 10 \cdot \log_{10}\left(\frac{P_\mathrm{EIRP}}{P_\mathrm{Sender}}\right) \unit{\dB} \quad\quad\quad | : \qty{10}{\dB}$
   
@@ -48,7 +52,7 @@ Moltiplicando per $P_\mathrm{Sender}$ si ottiene la formula necessaria:
 $P_\mathrm{EIRP} = P_\mathrm{Sender} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}}$
 </indepth>
 
-In questo caso $g_i$ è il <b>guadagno d'antenna</b> riferito al <b>radiatore</b> isotropico, mentre $a$ descrive l’<b>attenuazione</b> dovuta ai cavi e ai dispositivi di adattamento.
+In questo caso $g_i$ è il guadagno d'antenna riferito al radiatore isotropico, mentre $a$ descrive l’attenuazione dovuta ai cavi e ai dispositivi di adattamento.
 
 [question:EG503]
 
@@ -63,7 +67,7 @@ Il secondo metodo di calcolo possibile sfrutta il fatto che i valori in dB posso
 $\qty{26}{\dBi} = \qty{20}{\dBi} + \qty{6}{\dB}$
 
 <margin>
-| c:dB | c:≈ fattore di potenza |
+| c: dB | c: ≈ fattore di potenza |
 | $\num{0}$ | $\num{1}$ |
 | $\num{1,5}$ | $\sqrt{2} = 1,41$ |
 | $\num{2,15}$ | $\num{1,64}$ |
@@ -167,7 +171,7 @@ Nel prossimo quesito è indicata un'antenna con un guadagno di $\qty{0}{\dB}$ ri
 
 [question:EG510]
 
-Qui si può nuovamente utilizzare la formula dalla [raccolta di formule](#):
+Qui si può nuovamente utilizzare la formula dalla raccolta di formule:
 
 $P_\mathrm{EIRP} = P_\mathrm{Sender} \cdot 10^{\frac{g_d-a+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{8,5}{\watt} \cdot 10^{\frac{\qty{0}{\dB}-\qty{1,5}{\dB}+\qty{2,15}{\dB}}{\qty{10}{\dB}}} = \qty{9,9}{\watt}$
 

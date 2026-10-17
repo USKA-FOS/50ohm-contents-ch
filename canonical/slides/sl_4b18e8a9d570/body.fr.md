@@ -42,7 +42,7 @@ Le plan d’attribution des indicatifs est une aide importante pour reconnaître
 
 ### Domaines d’indicatifs allemands fréquents
 
-| Début : | Utilisation : |
+| l: Début : | X: Utilisation : |
 | DL0 | Station de club de classe A |
 | DL1 à DL9 | Indicatif personnel de classe A |
 | DO1 à DO9 ou DA6 | Indicatif personnel de classe E |
@@ -70,7 +70,7 @@ L’attribution complète est indiquée dans le plan d’attribution des indicat
 ### Marqueurs DE
 
 * Le préfixe *DE* est également attribué à l’Allemagne
-* Une marque *DE* ressemble à un indicatif d’appel
+* Une marque DE ressemble à un indicatif d’appel
 * Elle identifie une station de réception allemande
 * Elle n’est pas attribuée par l’Agence fédérale des réseaux en tant qu’indicatif d’appel de radioamateur
 

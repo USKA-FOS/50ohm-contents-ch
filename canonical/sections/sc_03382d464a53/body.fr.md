@@ -1,12 +1,12 @@
-Un circuit en *série* composé de deux *résistances* est souvent utilisé comme *diviseur de tension*. Nous considérons d’abord le *diviseur de tension non chargé*, comme il apparaît également dans les exercices suivants. Dans un diviseur de tension non chargé, les tensions sont proportionnelles aux résistances. Cela signifie par exemple qu’une tension plus élevée est mesurée aux bornes d’une résistance de forte valeur, tandis qu’une tension plus faible est mesurée aux bornes d’une résistance de faible valeur.
+Un circuit en série composé de deux résistances est souvent utilisé comme diviseur de tension. Nous considérons d’abord le *diviseur de tension non chargé*, comme il apparaît également dans les exercices suivants. Dans un diviseur de tension non chargé, les tensions sont proportionnelles aux résistances. Cela signifie par exemple qu’une tension plus élevée est mesurée aux bornes d’une résistance de forte valeur, tandis qu’une tension plus faible est mesurée aux bornes d’une résistance de faible valeur.
 
 
 <margin>
-[picture:819:E 63. Diviseur de tension:Diviseur de tension]
+[picture:819:E 63. Spannungsteiler:Diviseur de tension]
 </margin>
 
 <indepth>
-Un diviseur de tension important se trouve par exemple à la *base* d’un transistor dans un circuit amplificateur. On parle alors de diviseur de tension de base. Nous l’examinerons plus en détail dans le chapitre sur les amplificateurs.
+Un diviseur de tension important se trouve par exemple à la base d’un transistor dans un circuit amplificateur. On parle alors de diviseur de tension de base. Nous l’examinerons plus en détail dans le chapitre sur les amplificateurs.
 </indepth>
 
 Cette relation peut être exprimée par différentes formules, que nous trouvons dans le recueil de formules :
@@ -71,7 +71,7 @@ $U_1 = \frac{U_2}{6}$
 
 [question:ED103]
 
-Dans cette question, des valeurs concrètes de résistance sont indiquées, qui servent à déterminer le rapport du diviseur de tension. $R_1$ est dans un rapport de $\qty{10}{\kilo\ohm}$ à $\qty{20}{\kilo\ohm}$ avec $R_2$, soit 1 pour 2. $U_2$ doit donc être deux fois plus grande que $U_1$. Cependant, la *tension totale* $U_g$ est indiquée. Cette dernière est appliquée à une *résistance totale* de $\qty{30}{\kilo\ohm}$ et est donc répartie dans un rapport de 30 pour 20 (ou 3 pour 2) par rapport à $R_2$. Une tension de $2/3$ de $U_g$ doit donc pouvoir être mesurée aux bornes de $R_2$.
+Dans cette question, des valeurs concrètes de résistance sont indiquées, qui servent à déterminer le rapport du diviseur de tension. $R_1$ est dans un rapport de $\qty{10}{\kilo\ohm}$ à $\qty{20}{\kilo\ohm}$ avec $R_2$, soit 1 pour 2. $U_2$ doit donc être deux fois plus grande que $U_1$. Cependant, la tension totale $U_g$ est indiquée. Cette dernière est appliquée à une résistance totale de $\qty{30}{\kilo\ohm}$ et est donc répartie dans un rapport de 30 pour 20 (ou 3 pour 2) par rapport à $R_2$. Une tension de $2/3$ de $U_g$ doit donc pouvoir être mesurée aux bornes de $R_2$.
 
 
 Bien entendu, ce résultat peut également être calculé à l’aide de la formule du recueil de formules :

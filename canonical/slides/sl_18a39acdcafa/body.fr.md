@@ -3,13 +3,13 @@
 </left>
 <right>
 * Au lieu de connecter le câble d’antenne au centre du dipôle, on le branche à une extrémité
-* Forme courante : **dipôle demi-onde** alimenté en bout ($\lambda / 2$ de long)
+* Forme courante : dipôle demi-onde alimenté en bout ($\lambda / 2$ de long)
 * Nécessite un circuit d’adaptation spécial, car son impédance d’alimentation n’est pas adaptée
 </right>
 <note>
-* **Avantage** : connexion de la **ligne d’alimentation** non pas au centre, mais à une extrémité
+* Avantage : connexion de la ligne d’alimentation non pas au centre, mais à une extrémité
 * Une partie de la ligne d’alimentation est souvent utilisée comme contrepoids $\rightarrow$ peut causer des perturbations
-* Évitable, par exemple, par un radial $\lambda / 4$ comme contrepoids, une bonne mise à la terre ou un **self de mode commun**
+* Évitable, par exemple, par un radial $\lambda / 4$ comme contrepoids, une bonne mise à la terre ou un self de mode commun
 * Le circuit d’adaptation fait partie de la classe E
 </note>
 

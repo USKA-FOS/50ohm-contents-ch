@@ -25,7 +25,7 @@ $\dfrac{U}{I} = \dfrac{\qty{10}{\volt}}{\qty{0,001}{\ampere}} = \dfrac{\qty{20}{
 
 ---
 
-Nel linguaggio tecnico questo viene chiamato *proporzionalità*: $I$ è proporzionale a $U$. Trascurando le unità di misura, il cosiddetto *fattore di proporzionalità* nel nostro esempio è 10000: se si moltiplica un valore per 10000, si ottiene l'altro valore.
+Nel linguaggio tecnico questo viene chiamato proporzionalità: $I$ è proporzionale a $U$. Trascurando le unità di misura, il cosiddetto *fattore di proporzionalità* nel nostro esempio è 10000: se si moltiplica un valore per 10000, si ottiene l'altro valore.
 %Di nuovo, questo comportamento può essere paragonato a un circuito idraulico: se la pompa esercita una pressione maggiore, anche più acqua fluirà nel circuito.
 
 <indepth>
@@ -62,7 +62,7 @@ $ U = R\cdot I $
 
 [question:NB504]
 
-Non è necessario ricordare necessariamente queste formule. Si trovano anche nella *raccolta di formule*, che viene fornita come strumento ausiliario durante l'esame. Per i calcoli, durante l'esame è possibile utilizzare una calcolatrice.
+Non è necessario ricordare necessariamente queste formule. Si trovano anche nella raccolta di formule, che viene fornita come strumento ausiliario durante l'esame. Per i calcoli, durante l'esame è possibile utilizzare una calcolatrice.
 
 [question:NB502]
 [question:NB503]

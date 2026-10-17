@@ -1,6 +1,6 @@
 ### Concours
 
-* En radioamateurisme, des compétitions appelées *concours* sont également organisées.
+* En radioamateurisme, des compétitions appelées concours sont également organisées.
 * Objectif : établir le plus grand nombre de liaisons radio en un temps limité.
 * Les concours servent à la fois de compétition sportive et à améliorer sa station radioamateur et sa gestion des opérations.
 * Les règles sont définies par l’organisateur dans un *appel à participation*.

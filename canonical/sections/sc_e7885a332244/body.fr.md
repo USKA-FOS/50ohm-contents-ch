@@ -1,4 +1,4 @@
-Dans la section [sec:spannungsteiler_1], nous avons déjà fait connaissance avec le *diviseur de tension* *non chargé*. Dans cette section, nous nous intéressons au *diviseur de tension* *chargé*, où la tension de sortie $U_2$ est chargée par une résistance de charge $R_\mathrm{L}$. Cela signifie que la résistance de charge est en parallèle avec la résistance $R_2$, comme on peut le voir dans le schéma de la figure [ref:a_spannungsteiler_belastet].
+Dans la section [sec:spannungsteiler_1], nous avons déjà fait connaissance avec le diviseur de tension *non chargé*. Dans cette section, nous nous intéressons au diviseur de tension *chargé*, où la tension de sortie $U_2$ est chargée par une résistance de charge $R_\mathrm{L}$. Cela signifie que la résistance de charge est en parallèle avec la résistance $R_2$, comme on peut le voir dans le schéma de la figure [ref:a_spannungsteiler_belastet].
 
 <margin>
 [picture:199:a_spannungsteiler_belastet:Diviseur de tension chargé]

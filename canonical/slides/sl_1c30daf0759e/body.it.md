@@ -29,7 +29,7 @@ Da ricordare: Nelle induttanze, le correnti si ritardano -oppure- Induttività, 
 * La reattanza non assorbe energia attiva
 * Una bobina ideale non si scalda
 * Tuttavia, una bobina è realizzata con un filo e presenta quindi perdite ohmiche
-* Inoltre, agisce l'*effetto pelle*
+* Inoltre, agisce l'effetto pelle
 
 ---
 [question:AC202]
@@ -37,10 +37,10 @@ Da ricordare: Nelle induttanze, le correnti si ritardano -oppure- Induttività, 
 --- style="font-size: smaller;"
 ### Reattanza induttiva $X_{\textrm{L}}$
 
-La bobina, collegata a tensione alternata, genera continuamente un campo magnetico variabile $\rightarrow$ impedenza / *reattanza induttiva*
+La bobina, collegata a tensione alternata, genera continuamente un campo magnetico variabile $\rightarrow$ impedenza / reattanza induttiva
 
 1. Se la frequenza della tensione alternata in una bobina aumenta, la corrente diminuisce; ciò significa che la reattanza induttiva è maggiore.
-2. Se l'*induttanza* della bobina aumenta, la corrente diminuisce ulteriormente, cioè la reattanza aumenta anch'essa.
+2. Se l'induttanza della bobina aumenta, la corrente diminuisce ulteriormente, cioè la reattanza aumenta anch'essa.
 
 <fragment>
 $|X_{\textrm{L}}| = \omega \cdot L = 2\pi \cdot f \cdot L$
@@ -80,7 +80,7 @@ $L = N^2 \cdot A_{\textrm{L}}$
 </fragment>
 
 * Aumentare il numero di spire $N$
-* Utilizzare un *materiale* con maggiore conducibilità magnetica (con costante di induttanza $A_{\textrm{L}}$ maggiore) come nucleo
+* Utilizzare un materiale con maggiore conducibilità magnetica (con costante di induttanza $A_{\textrm{L}}$ maggiore) come nucleo
 
 </right>
 
@@ -150,7 +150,7 @@ $\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ N &= \sqrt{\frac{L}{A_{\textrm{L}
 ---
 ### Impedenza
 
-* Circuito in *serie* di reattanza e resistenza attiva $\rightarrow$ impedenza $Z$
+* Circuito in serie di reattanza e resistenza attiva $\rightarrow$ impedenza $Z$
 * Si verifica solo con tensione alternata
 * Non può essere misurata con un ohmetro
 * Bobina nella tecnica radio $\rightarrow$ *impedenza*
@@ -176,7 +176,7 @@ $Z = \sqrt{R^2 + X^2}$
 ### Schermatura dei campi magnetici
 
 <left>
-* Per la schermatura: un involucro in *materiale* altamente conduttivo.
+* Per la schermatura: un involucro in materiale altamente conduttivo.
 * Esempio: copertura di schermatura in acciaio o ferro.
 * Nucleo ferritico regolabile per modificare l'induttanza.
 </left>

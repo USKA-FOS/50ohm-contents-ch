@@ -7,7 +7,7 @@ Se si applica un'oscillazione elettrica a un'antenna, questa irradia un'onda rad
 Le onde radio sono composte da creste e avvallamenti. Più alte sono le creste e più profondi gli avvallamenti, più forte è il segnale radio. In questo contesto si parla di intensità di campo [index:intensità di campo]. L'altezza di una cresta o la profondità di un avvallamento viene chiamata, come per l'oscillazione elettrica, ampiezza.
 
 <attention>
-Le onde elettromagnetiche vengono spesso rappresentate come *istantanee*. Le istantanee sembrano inizialmente identiche agli oscillogrammi che abbiamo già trattato. Tuttavia, rappresentano concetti diversi! Mentre in un oscillogramma si osserva la variazione della tensione nel tempo, le istantanee mostrano un singolo istante, appunto un momento. Si può leggere la variazione dell'intensità di campo in funzione della distanza. È fondamentale prestare attenzione all'etichettatura dell'asse orizzontale X. Nell'oscillogramma, la X indica il tempo (in latino *tempus*), mentre nell'istantanea indica la *posizione*.
+Le onde elettromagnetiche vengono spesso rappresentate come *istantanee*. Le istantanee sembrano inizialmente identiche agli oscillogrammi che abbiamo già trattato. Tuttavia, rappresentano concetti diversi! Mentre in un oscillogramma si osserva la variazione della tensione nel tempo, le istantanee mostrano un singolo istante, appunto un momento. Si può leggere la variazione dell'intensità di campo in funzione della distanza. È fondamentale prestare attenzione all'etichettatura dell'asse orizzontale X. Nell'oscillogramma, la X indica il tempo (in latino tempus), mentre nell'istantanea indica la posizione.
 </attention>
 
 <attention>

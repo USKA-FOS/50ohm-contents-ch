@@ -9,3 +9,5 @@ Ad esempio, MP3 per la musica, JPEG per le immagini e MPEG-4 per i video sono me
 </margin>
 
 La figura [ref:quellencodierer] mostra un simbolo di un codificatore di sorgente. Il blocco rappresenta la riduzione della quantità di informazioni.
+
+[question:AE408]

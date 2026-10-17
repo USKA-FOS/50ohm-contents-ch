@@ -2,7 +2,7 @@
 
 * L’atténuation est souvent indésirable
 * Objectif : trouver un câble dont l’atténuation reste inférieure à la valeur prédéfinie
-* Voir le *diagramme d’atténuation du câble* dans le *recueil de formules*
+* Voir le diagramme d’atténuation du câble dans le recueil de formules
 
 ---
 [question:AG309]

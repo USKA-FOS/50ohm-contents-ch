@@ -1,4 +1,4 @@
-Dans un **montage en parallèle** de condensateurs, les valeurs de capacité individuelles s'additionnent directement. La capacité propre de la bobine est également en parallèle avec les condensateurs et doit donc être prise en compte.
+Dans un montage en parallèle de condensateurs, les valeurs de capacité individuelles s'additionnent directement. La capacité propre de la bobine est également en parallèle avec les condensateurs et doit donc être prise en compte.
 
 Tout d'abord, convertissons toutes les valeurs en picofarads :
 

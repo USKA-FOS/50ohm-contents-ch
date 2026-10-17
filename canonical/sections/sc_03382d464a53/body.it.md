@@ -1,7 +1,7 @@
 Un circuito in serie composto da due resistenze viene spesso utilizzato come partitore di tensione. Inizialmente consideriamo il *partitore di tensione non caricato*, come compare anche nei seguenti esercizi. In un partitore di tensione non caricato, le tensioni sono proporzionali alle resistenze. Ciò significa, ad esempio, che su una resistenza di valore elevato cade una tensione maggiore, mentre su una resistenza di valore basso si misura una tensione corrispondentemente minore.
 
 <margin>
-[picture:819:E 63. Partitore di tensione:Partitore di tensione]
+[picture:819:E 63. Spannungsteiler:Partitore di tensione]
 </margin>
 
 <indepth>

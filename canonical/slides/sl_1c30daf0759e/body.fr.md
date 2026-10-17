@@ -29,7 +29,7 @@
 * Une réactance ne consomme pas d’énergie active
 * Une bobine idéale ne chauffe pas
 * Cependant, une bobine est composée de fil et présente donc des pertes ohmiques
-* De plus, l’*effet de peau* intervient
+* De plus, l’effet de peau intervient
 
 ---
 [question:AC202]
@@ -80,7 +80,7 @@ $L = N^2 \cdot A_{\textrm{L}}$
 </fragment>
 
 * Augmenter le nombre de spires $N$
-* Utiliser un *matériau* plus conducteur magnétiquement (avec une constante d’inductance $A_{\textrm{L}}$ plus élevée) comme noyau
+* Utiliser un matériau plus conducteur magnétiquement (avec une constante d’inductance $A_{\textrm{L}}$ plus élevée) comme noyau
 
 </right>
 
@@ -150,7 +150,7 @@ $\begin{split} L &= N^2 \cdot A_{\textrm{L}}\\ N &= \sqrt{\frac{L}{A_{\textrm{L}
 ---
 ### Impédance
 
-* Montage en *série* d’une réactance et d’une résistance active $\rightarrow$ impédance $Z$
+* Montage en série d’une réactance et d’une résistance active $\rightarrow$ impédance $Z$
 * N’apparaît qu’en courant alternatif
 * Ne peut pas être mesurée avec un ohmmètre
 * Bobine en radioélectricité $\rightarrow$ *impédance*
@@ -176,7 +176,7 @@ $Z = \sqrt{R^2 + X^2}$
 ### Blindage des champs magnétiques
 
 <left>
-* Pour le blindage : un boîtier en *matériau* très conducteur.
+* Pour le blindage : un boîtier en matériau très conducteur.
 * Exemple : godet de blindage en acier ou en fer.
 * Noyau ferrite réglable pour modifier l’inductance.
 </left>

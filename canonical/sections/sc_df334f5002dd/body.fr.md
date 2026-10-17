@@ -1,4 +1,4 @@
-Les composants CMS ne mesurent que quelques millimètres. CMS signifie *Composant Monté en Surface* (en anglais : *Surface-Mounted Device*). Contrairement aux composants classiques, ils ne possèdent pas de broches de connexion, mais sont directement soudés sur la carte de circuit imprimé, sans trou métallisé. Nous allons maintenant nous intéresser à la désignation des résistances CMS.
+Les composants CMS ne mesurent que quelques millimètres. CMS signifie Composant Monté en Surface (en anglais : Surface-Mounted Device). Contrairement aux composants classiques, ils ne possèdent pas de broches de connexion, mais sont directement soudés sur la carte de circuit imprimé, sans trou métallisé. Nous allons maintenant nous intéresser à la désignation des résistances CMS.
 
 <margin>
 [photo:318:e_platine_smd:Carte de circuit imprimé avec composants CMS]

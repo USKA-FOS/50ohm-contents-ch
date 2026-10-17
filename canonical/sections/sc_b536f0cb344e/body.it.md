@@ -28,7 +28,7 @@ BK QSL = VY 73 DE HB3AB SK
 </qso>
 
 <webmargin>
-| Abbr. | X: |
+| l: Abbr. | X:  |
 | Abbr. | Significato |
 | BK | Interruzione della trasmissione; passaggio informale |
 | CQ | Chiamata generale |

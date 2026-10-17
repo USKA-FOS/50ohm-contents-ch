@@ -19,7 +19,7 @@ Les formes d’onde non sinusoïdales sont composées de plusieurs composantes f
 
 Le lien entre domaine temporel et domaine fréquentiel est particulièrement visible avec les signaux présentant des fronts raides. Un signal rectangulaire idéal peut par exemple être reconstitué à partir d’une fondamentale et de plusieurs harmoniques. Outre la fréquence fondamentale, apparaissent les multiples impairs de cette fréquence fondamentale. Leurs amplitudes diminuent à mesure que la fréquence augmente.
 
-Ces harmoniques jouent aussi un rôle important pour les émetteurs. Si l’on appliquait directement un signal rectangulaire idéal à une antenne, non seulement la fréquence fondamentale souhaitée serait rayonnée, mais aussi ses harmoniques. Un *filtre passe-bas* permet de supprimer les composantes fréquentielles indésirables de plus haute fréquence, de sorte que seule la fondamentale souhaitée parvienne à l’antenne.
+Ces harmoniques jouent aussi un rôle important pour les émetteurs. Si l’on appliquait directement un signal rectangulaire idéal à une antenne, non seulement la fréquence fondamentale souhaitée serait rayonnée, mais aussi ses harmoniques. Un filtre passe-bas permet de supprimer les composantes fréquentielles indésirables de plus haute fréquence, de sorte que seule la fondamentale souhaitée parvienne à l’antenne.
 
 Pour certaines formes d’onde périodiques typiques, le spectre de fréquences peut être décrit de manière particulièrement simple. Nous considérons ici des formes d’onde idéalisées sans composante continue :
 

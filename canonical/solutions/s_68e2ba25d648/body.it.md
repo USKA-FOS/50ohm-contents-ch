@@ -1,4 +1,4 @@
-Basta dare un’occhiata alla *raccolta di formule*:
+Basta dare un’occhiata alla raccolta di formule:
 
 $|X_C| = \frac{1}{\omega\cdot C}$
 

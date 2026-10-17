@@ -1,4 +1,6 @@
----
+
+
+--- style="font-size: smaller;"
 
 ## E sporadico
 
@@ -16,9 +18,13 @@
 Tramite l’E sporadico, sulle bande dei 2 metri è possibile ricevere stazioni da distanze di circa 1000 a 2000 km.
 </note>
 
+
+
 ---
 
 [question:NH306]
+
+
 
 
 ---

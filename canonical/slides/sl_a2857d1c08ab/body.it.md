@@ -1,5 +1,5 @@
 <left>
-[immagine:733:e_sporadic_e:Rifrazione in caso di E sporadico]
+[picture:733:e_sporadic_e:Rifrazione in caso di E sporadico]
 * E sporadico: aree fortemente ionizzate nello strato E
 * Riflessione delle bande ad alta frequenza corte e VHF
 </left>
@@ -11,12 +11,18 @@
 * La zona d’ombra può scomparire
 </right>
 
+
 ---
-[domanda:AH301]
+
+[question:AH301]
+
 ---
-[domanda:AH214]
-<nota>
+
+[question:AH214]
+<note>
 Qui si fa riferimento alle onde corte!
-</nota>
+</note>
+
 ---
-[domanda:AH220]
+
+[question:AH220]

@@ -1,5 +1,5 @@
 <left>
-[photo:83:n_antennes_toitmaison:Installation d'antennes pour les bandes HF, VHF et UHF sur un toit de maison]
+[photo:83:n_antennen_hausdach:Installation d'antennes pour les bandes HF, VHF et UHF sur un toit de maison]
 </left>
 <right>
 * Réglementations de construction du canton

@@ -23,7 +23,7 @@
 <left>
 * Memorizza anch'essa una piccola quantità di energia
 * Funziona però tecnicamente in modo completamente diverso dal condensatore
-* Nelle versioni più semplici è costituita da un *filo* avvolto
+* Nelle versioni più semplici è costituita da un filo avvolto
 </left>
 <right>
 [photo:207:n_bauelemente_spule:Simboli di circuito e forme costruttive delle bobine]

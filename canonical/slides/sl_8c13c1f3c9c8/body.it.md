@@ -1,6 +1,6 @@
 ### Contest
 
-* Nel radioamatoriale si svolgono anche gare chiamate **contest**.
+* Nel radioamatoriale si svolgono anche gare chiamate contest.
 * Obiettivo: stabilire il maggior numero possibile di collegamenti radio in un tempo limitato.
 * I contest servono sia per la competizione sportiva sia per migliorare la propria stazione e le tecniche operative.
 * Le regole vengono definite dall’organizzatore in un *bando*

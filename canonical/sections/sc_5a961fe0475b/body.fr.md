@@ -1,7 +1,7 @@
-Une technique particulière souvent utilisée par les stations très demandées est le trafic en *split*. Dans ce cas, la station très demandée reçoit sur une fréquence différente de celle sur laquelle elle émet. La station appelant CQ annonce le trafic en *split* en indiquant la fréquence ou la bande de fréquences sur laquelle elle reçoit. Les indications sont toujours données en $\unit{\kilo\hertz}$.
+Une technique particulière souvent utilisée par les stations très demandées est le trafic en split. Dans ce cas, la station très demandée reçoit sur une fréquence différente de celle sur laquelle elle émet. La station appelant CQ annonce le trafic en split en indiquant la fréquence ou la bande de fréquences sur laquelle elle reçoit. Les indications sont toujours données en $\unit{\kilo\hertz}$.
 
 <indepth>
-Un *avantage du trafic en split* est que la station particulière reste clairement audible et ne se noie pas dans le *pile-up*.
+Un *avantage du trafic en split* est que la station particulière reste clairement audible et ne se noie pas dans le pile-up.
 </indepth>
 
 ---

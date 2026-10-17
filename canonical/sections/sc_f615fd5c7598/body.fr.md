@@ -37,7 +37,7 @@ Comme, au repos, il ne consomme pratiquement aucune puissance, le rendement thé
 
 Pour réduire ou supprimer les harmoniques, il existe en pratique différentes solutions :
 
-- Une possibilité consiste à utiliser un montage push-pull (amplificateur en contre-phase), avec deux transistors, comme illustré à la figure [ref:a_gegentakt]. Chaque transistor amplifie alors une demi-onde, de sorte que les deux demi-ondes sont recombinées en un signal sinusoïdal complet et que le taux d'harmoniques est considérablement réduit.
+- Une possibilité consiste à utiliser un montage push-pull (*amplificateur en contre-phase*), avec deux transistors, comme illustré à la figure [ref:a_gegentakt]. Chaque transistor amplifie alors une demi-onde, de sorte que les deux demi-ondes sont recombinées en un signal sinusoïdal complet et que le taux d'harmoniques est considérablement réduit.
 - En plus du montage push-pull, un circuit oscillant accordé peut être utilisé pour les amplificateurs HF à bande étroite. Le transistor ne fournit alors des impulsions de courant que pendant une demi-onde. Le circuit oscillant stocke de l'énergie et continue d'osciller entre les impulsions de courant, de sorte qu'un signal presque sinusoïdal est obtenu en sortie sur toute la période. Autrement dit : le circuit oscillant agit comme un filtre qui supprime les composantes harmoniques. Cette solution n'est toutefois adaptée qu'aux amplificateurs HF à bande étroite, car un circuit oscillant n'est résonant que dans une plage de fréquences étroite.
 
 <margin>

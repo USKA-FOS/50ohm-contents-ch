@@ -7,6 +7,8 @@
 [picture:997:e_muf_luf2:Simulation des distances de saut pour différentes fréquences et une MUF d'environ $\qty{7,5}{\mega\hertz}$ lors d'une nuit d'août 2024 avec un angle de rayonnement de $\qty{45}{\degree}$]
 </right>
 
+
+
 ---
 
 ## Fréquence maximale utilisable (MUF)
@@ -17,6 +19,8 @@
 <right>
 [picture:870:e_muf_winkel:Les angles pour le calcul de la MUF]
 </right>
+
+
 
 ---
 
@@ -30,13 +34,19 @@
 [picture:998:e_muf_winkel2:Distance de saut à 7 MHz en été 2024]
 </right>
 
+
+
 ---
 
 [question:AH206]
 
+
+
 ---
 
 [question:AH207]
+
+
 
 ---
 
@@ -58,6 +68,8 @@ $\mathrm{MUF} \approx \frac{f_c}{\sin(\alpha)}$
 La fréquence critique est aussi indiquée par $f_k$ ou $f_\mathrm{krit}$
 </note>
 
+
+
 ---
 
 ## Exemple : Ionosonde Juliusruh
@@ -66,14 +78,17 @@ La fréquence critique est aussi indiquée par $f_k$ ou $f_\mathrm{krit}$
 [picture:999:e_muf_fof2:MUF 3000 (Émission plate) et $f_\text{c}$ le 08.09.2025]
 
 
+
+
 ---
 
 [question:AH208]
 
 
----
 
-*style="font-size: smaller;"*
+
+--- style="font-size: smaller;"
+
 ## Fréquence optimale
 
 
@@ -84,9 +99,13 @@ La fréquence critique est aussi indiquée par $f_k$ ou $f_\mathrm{krit}$
 * Joue un rôle mineur en radioamateurisme, car aucune liaison permanente n'est établie
 * En radioamateurisme, on travaille jusqu'à proximité de la MUF
 
+
 ---
+
 [question:AH209]
+
 ---
+
 ### Méthode de résolution
 <left>
 * donné : $\alpha = \qty{45}{\degree}$
@@ -108,16 +127,24 @@ $\begin{split} f_{\mathrm{opt}} &= \mathrm{MUF}\cdot 0,85\\ &= \qty{4,2}{\mega\h
 </fragment>
 </right>
 
+
+
 ---
 
 ## Fréquence minimale utilisable (LUF)
 
 Fréquence minimale à laquelle une liaison peut être établie par onde spatiale
 
+
 ---
+
 [question:AH210]
+
 ---
+
 [question:AH211]
+
+
 ---
 
 ## Fréquence critique
@@ -135,6 +162,8 @@ Rappel
 <note>
 La fréquence critique est aussi indiquée par $f_k$ ou $f_\mathrm{krit}$
 </note>
+
+
 ---
 
 * La fréquence critique varie selon la région ionosphérique, la position et le temps
@@ -145,7 +174,11 @@ La fréquence critique est aussi indiquée par $f_k$ ou $f_\mathrm{krit}$
 <note>
 fo avec un petit "o" pour l'onde ordinaire
 </note>
+
 ---
+
 [question:AH204]
+
 ---
+
 [question:AH205]

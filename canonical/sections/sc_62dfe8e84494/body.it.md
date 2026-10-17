@@ -9,7 +9,7 @@ Il terzo componente passivo nella tecnica radio – dopo la resistenza e il cond
 
 ---
 
-Una bobina cilindrica possiede una *induttanza* $L$, calcolabile con la seguente formula:
+Una bobina cilindrica possiede una induttanza $L$, calcolabile con la seguente formula:
 
 
 $L = \frac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
@@ -116,14 +116,14 @@ Al momento dello spegnimento, la tensione di autoinduzione cerca di mantenere il
 [photo:257:e_Spulenstrom:Comportamento della tensione e della corrente della bobina all’accensione e allo spegnimento]
 </margin>
 
-Per questo motivo, le bobine possono essere utilizzate anche per introdurre un *ritardo*. Nella domanda seguente, la corrente attraverso la lampada 2 aumenta più lentamente rispetto a quella attraverso la lampada 1, poiché è presente una bobina in serie la cui tensione di autoinduzione limita lentamente l’aumento della corrente all’accensione.
+Per questo motivo, le bobine possono essere utilizzate anche per introdurre un ritardo. Nella domanda seguente, la corrente attraverso la lampada 2 aumenta più lentamente rispetto a quella attraverso la lampada 1, poiché è presente una bobina in serie la cui tensione di autoinduzione limita lentamente l’aumento della corrente all’accensione.
 
 [question:EC302]
 
 
 Come per il condensatore, anche la bobina si comporta diversamente se collegata a tensione continua o alternata. Nella tecnica radio, è soprattutto importante il comportamento in corrente alternata. Per questo motivo, analizziamo ora il comportamento in corrente alternata.
 
-La bobina, analogamente al condensatore, presenta una *impedenza* $X_{\textrm{L}}$, vale a dire che, nonostante il filo della bobina possieda solo una piccola resistenza ohmica (resistenza del conduttore), scorre una corrente che diminuisce all’aumentare della frequenza della tensione alternata:
+La bobina, analogamente al condensatore, presenta una impedenza $X_{\textrm{L}}$, vale a dire che, nonostante il filo della bobina possieda solo una piccola resistenza ohmica (resistenza del conduttore), scorre una corrente che diminuisce all’aumentare della frequenza della tensione alternata:
 
 
 $X_{L} = \omega \cdot L = 2\cdot\pi\cdot f \cdot L$

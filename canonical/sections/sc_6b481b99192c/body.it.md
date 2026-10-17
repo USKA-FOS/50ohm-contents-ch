@@ -16,10 +16,10 @@ Le particelle con carica dello stesso segno si respingono: il più respinge il p
 
 Tuttavia, è possibile separare le cariche in modo mirato, ad esempio in una batteria, una cella solare o una centrale eolica. Le cariche cercano quindi di ricongiungersi. Si genera una *tensione elettrica* [index:Spannung]. I dispositivi che separano le cariche e forniscono tensione elettrica sono chiamati *sorgenti di tensione* [index:Spannung:Spannungsquelle]. Il terminale carico positivamente è detto polo positivo, quello carico negativamente polo negativo. Le sorgenti di tensione possono fornire tensioni di valore diverso. La tensione elettrica si misura nell'unità volt [index:Einheit:Volt] con l'abbreviazione $\unit{V}$.
 
-Non appena si collega e si accende un utilizzatore elettrico [index:Verbraucher], come una lampada o un computer, ai due poli, le cariche possono muoversi. Si genera una *corrente elettrica* [index:Strom] (immagine [ref:n_frequenz_strom_fliesst]).
+Non appena si collega e si accende un utilizzatore elettrico [index:Verbraucher], come una lampada o un computer, ai due poli, le cariche possono muoversi. Si genera una corrente elettrica [index:Strom] (immagine [ref:n_frequenz_strom_fliesst]).
 
 <margin>
 [picture:714:n_frequenz_strom_fliesst:I poli di una batteria: al polo negativo c'è un eccesso di cariche negative, al polo positivo un eccesso di cariche positive; i poli della batteria sono collegati, quindi la corrente può fluire attraverso l'utilizzatore.]
 </margin>
 
-Esistono anche sorgenti di tensione in cui i poli oscillano costantemente tra tensione positiva e negativa, ad esempio le centrali elettriche della rete pubblica. Dalla presa di corrente domestica, quindi, esce una *tensione alternata* [index:Spannung:Wechselspannung] – al contrario della *tensione continua* [index:Spannung:Gleichspannung] con polo positivo e negativo.
+Esistono anche sorgenti di tensione in cui i poli oscillano costantemente tra tensione positiva e negativa, ad esempio le centrali elettriche della rete pubblica. Dalla presa di corrente domestica, quindi, esce una tensione alternata [index:Spannung:Wechselspannung] – al contrario della tensione continua [index:Spannung:Gleichspannung] con polo positivo e negativo.

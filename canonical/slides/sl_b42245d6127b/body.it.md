@@ -3,7 +3,7 @@
 * Se il ricevitore rileva un errore (ad esempio tramite bit di controllo), può richiedere una nuova trasmissione
 * Con la correzione degli errori in avanti viene aggiunta una ridondanza aggiuntiva (ad esempio ulteriori bit di controllo)
 * In questo modo non solo si rileva la presenza di un errore, ma anche la posizione in cui si trova $\rightarrow$ il bit errato può essere corretto
-* In inglese si parla di *Forward Error Correction* (FEC)
+* In inglese si parla di Forward Error Correction (FEC)
 
 ---
 
@@ -85,3 +85,5 @@
 <right>
 * Combinando le aree di parità, è possibile determinare la posizione del bit errato
 * Esempio: se un determinato bit (ad esempio il bit $k$) viene modificato durante la trasmissione, tutti i controlli di parità associati falliscono: l'errore si trova quindi nel bit $k$
+
+</right>

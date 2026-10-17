@@ -4,7 +4,7 @@ La ricezione di trasmissioni del servizio di radioamatore è possibile senza aut
 
 [question:VD102]
 
-L'attività di ascolto non si limita però a un ascolto passivo. Durante l'ascolto, vengono annotati entrambi i nominativi di un collegamento radio, data, ora, banda, modalità di trasmissione e rapporto di ricezione. Da queste informazioni viene redatto un rapporto di ascolto. Se questo corrisponde al logbook della stazione ascoltata, quest'ultima può confermarlo tramite una cosiddetta *QSL card*.
+L'attività di ascolto non si limita però a un ascolto passivo. Durante l'ascolto, vengono annotati entrambi i nominativi di un collegamento radio, data, ora, banda, modalità di trasmissione e rapporto di ricezione. Da queste informazioni viene redatto un rapporto di ascolto. Se questo corrisponde al logbook della stazione ascoltata, quest'ultima può confermarlo tramite una cosiddetta QSL card.
 
 In ambito radioamatoriale, un collegamento radio viene chiamato *QSO*. Una conferma di ricezione è indicata come *QSL*. Da qui il nome della QSL card.
 

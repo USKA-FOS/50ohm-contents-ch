@@ -1,5 +1,5 @@
 <left>
-* Possibilité d’exercer le radioamateurisme [index:Amateurfunk] à l’étranger sous certaines conditions
+* Possibilité d’exercer le radioamateurisme  à l’étranger sous certaines conditions
 * Accords entre de nombreux États
 </left>
 <right>
@@ -54,7 +54,7 @@ Il n’est pas nécessaire d’apprendre les recommandations par cœur, mais il 
 [question:VB108]
 ---
 
-## Indicatifs d’appel [index:Rufzeichen]
+## Indicatifs d’appel 
 * Identification par un préfixe d’indicatif supplémentaire avant l’indicatif personnel
 * Le cas échéant, selon la classe de radioamateur
 * Doit être vérifié avant utilisation dans le pays concerné
@@ -147,7 +147,7 @@ Populaire :
 * Certificat de radioamateur de classe A → Certificat d’examen harmonisé pour radioamateurs (HAREC)
 
 <note>
-Exemple : Dans le formulaire de demande d’autorisation pour le service d’amateur [index:Amateurfunkdienst], il y a une case à cocher indiquant si l’on possède déjà un examen HAREC – si oui, il est directement reconnu.
+Exemple : Dans le formulaire de demande d’autorisation pour le service d’amateur , il y a une case à cocher indiquant si l’on possède déjà un examen HAREC – si oui, il est directement reconnu.
 </note>
 ---
 [question:VB102]

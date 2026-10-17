@@ -12,7 +12,7 @@
 ---
 <left>
 * Visualizzazione della frequenza
-* Nei dispositivi più vecchi, un *moltiplicatore* $10^x$ è posizionato posteriormente
+* Nei dispositivi più vecchi, un moltiplicatore $10^x$ è posizionato posteriormente
 </left>
 <right>
 [photo:187:e_frequenzzaehler1:Display di un frequenzimetro che mostra $455 \cdot \qty{10^3}{\hertz}$]

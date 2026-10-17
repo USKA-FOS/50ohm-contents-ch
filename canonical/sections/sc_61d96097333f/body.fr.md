@@ -4,7 +4,7 @@ Les antennes multibandes, conçues pour être résonantes sur plusieurs bandes, 
 Aux multiples pairs de la fréquence fondamentale, par exemple à 7 MHz ou 14 MHz, il y a en revanche un minimum de courant au point d’alimentation central et donc une impédance élevée. Ces fréquences ne sont donc pas directement exploitables avec un dipôle alimenté au centre simple. Une solution pour créer des résonances supplémentaires à ces fréquences consiste à utiliser un *dipôle à trappes*, aussi appelé *dipôle à circuit bouchon*.
 
 
-Dans un dipôle à trappes, chaque moitié du dipôle contient au moins un circuit oscillant parallèle composé d’une bobine et d’un condensateur. Un tel circuit oscillant est appelé *trappe* (en anglais *trap*). Un circuit oscillant parallèle est à haute impédance à sa fréquence de résonance (cf. figure [ref:a_sperrkreis]). Il agit alors comme un *circuit bouchon* et empêche presque tout courant de circuler dans la partie extérieure du dipôle. Ainsi, le même dipôle peut présenter différentes longueurs électriques sur plusieurs bandes de fréquences.
+Dans un dipôle à trappes, chaque moitié du dipôle contient au moins un circuit oscillant parallèle composé d’une bobine et d’un condensateur. Un tel circuit oscillant est appelé trappe (en anglais *trap*). Un circuit oscillant parallèle est à haute impédance à sa fréquence de résonance (cf. figure [ref:a_sperrkreis]). Il agit alors comme un *circuit bouchon* et empêche presque tout courant de circuler dans la partie extérieure du dipôle. Ainsi, le même dipôle peut présenter différentes longueurs électriques sur plusieurs bandes de fréquences.
 
 
 <margin>

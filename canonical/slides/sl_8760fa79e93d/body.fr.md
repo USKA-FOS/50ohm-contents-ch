@@ -1,6 +1,6 @@
 <left>
 Selon la fréquence, une onde radio se propage différemment autour de notre planète.
-[picture:731:n_ionosphère:Ionosphère, troposphère et E sporadique]
+[picture:731:n_ionosphäre:Ionosphère, troposphère et E sporadique]
 </left>
 <right>
 * L’horizon radio, qui s’étend légèrement au-delà de l’horizon visible (VHF, UHF et plus)

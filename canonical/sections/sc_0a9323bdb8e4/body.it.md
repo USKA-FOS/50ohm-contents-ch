@@ -6,23 +6,33 @@ qui ci sono tutte le diverse caselle come modello
 </margin>
 
 <indepth>
-Questo è un testo di esempio con il comando <indepth>. Genera la casella grigia "Approfondimento".
+Questo è un testo di esempio con il comando 
+<indepth>
+. Genera la casella grigia "Approfondimento".
 </indepth>
 
 <tip>
-Questo è un testo di esempio con il comando <tip>. Genera la casella rossa "Suggerimento".
+Questo è un testo di esempio con il comando 
+<tip>
+. Genera la casella rossa "Suggerimento".
 </tip>
 
 <attention>
-Questo è un testo di esempio con il comando <attention>. Genera la casella gialla "Attenzione".
+Questo è un testo di esempio con il comando 
+<attention>
+. Genera la casella gialla "Attenzione".
 </attention>
 
 <danger>
-Questo è un testo di esempio con il comando <danger>. Genera la casella rossa "Pericolo".
+Questo è un testo di esempio con il comando 
+<danger>
+. Genera la casella rossa "Pericolo".
 </danger>
 
 <unit>
-Questo è un testo di esempio con il comando <unit>. Genera la casella verde "Nuova unità".
+Questo è un testo di esempio con il comando 
+<unit>
+. Genera la casella verde "Nuova unità".
 </unit>
 
 <law>

@@ -1,6 +1,6 @@
 ## Réception
 
-* La fréquence est réglée sur l’*appareil radio* via un bouton rotatif ou des touches
+* La fréquence est réglée sur l’appareil radio via un bouton rotatif ou des touches
 * Seules les stations sur la fréquence réglée peuvent être entendues
 * Tourner lentement « sur la bande » pour détecter d’autres stations
 

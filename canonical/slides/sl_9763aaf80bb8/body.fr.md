@@ -2,21 +2,21 @@
 [picture:795:a_einweggleichrichtung_c:Redressement mono-alternance avec condensateur]
 </left>
 <right>
-* Pendant la **demi-onde** positive, la diode $D$ laisse passer le courant
-* Charge le condensateur $C_L$ à la **valeur de crête** de la **tension alternative** et alimente la **résistance de charge** $R_L$
+* Pendant la demi-onde positive, la diode $D$ laisse passer le courant
+* Charge le condensateur $C_L$ à la valeur de crête de la tension alternative et alimente la résistance de charge $R_L$
 * Pendant la demi-onde négative, la diode $D$ est bloquée
-* Le condensateur $C_L$ se décharge à travers la **résistance de charge** $R_L$
+* Le condensateur $C_L$ se décharge à travers la résistance de charge $R_L$
 </right>
 ---
 <left>
-[picture:75:a_Restwelligkeit:Ondulation de la **tension continue** de sortie $U_L$]
-Une **tension continue** pulsée $U_L$ s'établit aux bornes de la **résistance de charge** $R_L$
+[picture:75:a_Restwelligkeit:Ondulation de la tension continue de sortie $U_L$]
+Une tension continue pulsée $U_L$ s'établit aux bornes de la résistance de charge $R_L$
 </left>
 <right>
-* Plus la capacité est grande, plus la **tension continue** est lissée
+* Plus la capacité est grande, plus la tension continue est lissée
 * Les tensions du transformateur sont des tensions efficaces
-* Pour le dimensionnement du condensateur, il faut déterminer la **valeur de crête** de la tension
-* Pour la diode, la **tension crête-à-crête** est pertinente
+* Pour le dimensionnement du condensateur, il faut déterminer la valeur de crête de la tension
+* Pour la diode, la tension crête-à-crête est pertinente
 </right>
 
 ---

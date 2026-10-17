@@ -19,7 +19,7 @@
 
 ---
 
-Per *alte* e *altissime frequenze* i sistemi di connettori *N* e *SMA* sono i più adatti
+Per alte e altissime frequenze i sistemi di connettori *N* e *SMA* sono i più adatti
 
 
 ---

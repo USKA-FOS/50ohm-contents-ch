@@ -1,4 +1,4 @@
-Per occasioni speciali di rilevanza generale, come eventi storici, feste cittadine o manifestazioni sportive, le associazioni di radioamatori in Svizzera possono richiedere *nominativi* speciali con suffisso di quattro a sette caratteri. In questo modo, l’intero mondo del radioamatoriale può partecipare a un evento.
+Per occasioni speciali di rilevanza generale, come eventi storici, feste cittadine o manifestazioni sportive, le associazioni di radioamatori in Svizzera possono richiedere nominativi speciali con suffisso di quattro a sette caratteri. In questo modo, l’intero mondo del radioamatoriale può partecipare a un evento.
 
 Questi nominativi speciali vengono assegnati dall’UFCOM per un massimo di un anno. Non è possibile richiederne il rinnovo. Il suffisso, a differenza dei nominativi finora menzionati, può consistere di cifre e lettere. L’ultimo carattere deve sempre essere una lettera. Sono quindi possibili combinazioni come HB100USKA.
 

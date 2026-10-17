@@ -51,7 +51,7 @@
 ## Tenuta in tensione
 
 * Nel cavo coassiale si verificano perdite nel materiale dielettrico
-* A tensioni elevate può verificarsi una *scarica disruptiva*
+* A tensioni elevate può verificarsi una scarica disruptiva
 
 ---
 [question:EG305]

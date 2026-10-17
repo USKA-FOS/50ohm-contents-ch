@@ -20,10 +20,10 @@ Dans un premier temps, le système de locators Maidenhead divise la surface de l
 
 ---
 
-Chaque champ est ensuite divisé en 10 x 10 cases plus petites, appelées *squares* (carrés). Chaque carré reçoit un numéro à deux chiffres. Le comptage se fait de la même manière que pour les champs, de gauche à droite et de bas en haut (figure [ref:n_locator_jo]). Le siège de la DARC se trouve dans le carré 41 du champ JO.
+Chaque champ est ensuite divisé en 10 x 10 cases plus petites, appelées squares (carrés). Chaque carré reçoit un numéro à deux chiffres. Le comptage se fait de la même manière que pour les champs, de gauche à droite et de bas en haut (figure [ref:n_locator_jo]). Le siège de la DARC se trouve dans le carré 41 du champ JO.
 
 <indepth>
-En réalité, les carrés (*squares*) du système de locators Maidenhead ne sont pas des carrés, car la surface de la terre est courbe. Pourtant, ils sont désignés ainsi.
+En réalité, les carrés (squares) du système de locators Maidenhead ne sont pas des carrés, car la surface de la terre est courbe. Pourtant, ils sont désignés ainsi.
 </indepth>
 
 Chaque carré est ensuite subdivisé en sous-carrés, désignés par des lettres selon la même logique que les champs, mais allant de AA à XX. Le siège de la DARC se situe dans le sous-carré RG du champ JO, carré 41.
