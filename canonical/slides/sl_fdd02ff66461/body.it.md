@@ -25,7 +25,7 @@
 ---
 USB sta per *Upper Sideband*
 
-(in tedesco viene spesso confuso con "banda laterale inferiore")
+(in tedesco viene spesso confuso con banda laterale inferiore)
 
 ---
 [question:NE203]

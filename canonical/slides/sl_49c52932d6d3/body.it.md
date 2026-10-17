@@ -30,8 +30,8 @@
 | DB50AFZ | 2022 | 50 anni del centro radioamatoriale |
 | DP44N44T | 2022 | 44 anni della sezione locale N44 |
 | DC0YOTA | 2021 | Youngsters On The Air |
-| DL22MAUS | 2022 | Porte aperte con "La Talpa"! |
-| DL0ELEFANT | 2022 | Porte aperte con "La Talpa"! |
+| DL22MAUS | 2022 | Porte aperte con La Talpa! |
+| DL0ELEFANT | 2022 | Porte aperte con La Talpa! |
 [table:n_besondere_anlaesse:Esempi di stazioni speciali]
 
 <note>

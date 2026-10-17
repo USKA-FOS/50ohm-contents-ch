@@ -1,4 +1,4 @@
-La Svizzera gestisce stazioni "extraterritoriali"? Si può mantenere la pagina così com’è, usando l’esempio della Germania (DL) e adattando leggermente il testo, oppure eliminare la pagina senza sostituzione, dato che HB non ha tali stazioni.
+La Svizzera gestisce stazioni extraterritoriali? Si può mantenere la pagina così com’è, usando l’esempio della Germania (DL) e adattando leggermente il testo, oppure eliminare la pagina senza sostituzione, dato che HB non ha tali stazioni.
 
 Se una stazione radioamatoriale tedesca viene gestita al di fuori del territorio della Repubblica Federale di Germania e nessun altro paese ha giurisdizione in quella posizione, si parla di "stazione extraterritoriale". A tali stazioni viene assegnato un nominativo dal blocco DP0AA a DP2ZZZ.
 

@@ -8,7 +8,7 @@ Un *filtro a tacca (Notch-Filter)* è un filtro a banda molto stretta che serve 
 
 ---
 
-La caratteristica di risposta in frequenza di un filtro a tacca è progettata in modo che solo una piccola parte della frequenza del segnale BF venga attenuata in modo molto marcato. Questo crea una tacca nello spettro. Da qui il nome "filtro a tacca".
+La caratteristica di risposta in frequenza di un filtro a tacca è progettata in modo che solo una piccola parte della frequenza del segnale BF venga attenuata in modo molto marcato. Questo crea una tacca nello spettro. Da qui il nome filtro a tacca.
 
 [question:EF216]
 

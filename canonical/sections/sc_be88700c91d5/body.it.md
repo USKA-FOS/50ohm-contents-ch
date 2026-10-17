@@ -1,4 +1,4 @@
-Naturalmente, è anche regolamentato cosa si intende esattamente per stazione di radioamatore. Per questo, prima di tutto, diamo un'occhiata a come il termine "stazione radio" viene definito a livello internazionale. Le Radio Regulations (RR) stabiliscono che una stazione radio non consiste solo del ricevitore e del trasmettitore in una posizione, ma include anche tutte le apparecchiature aggiuntive necessarie per il suo funzionamento.
+Naturalmente, è anche regolamentato cosa si intende esattamente per stazione di radioamatore. Per questo, prima di tutto, diamo un'occhiata a come il termine stazione radio viene definito a livello internazionale. Le Radio Regulations (RR) stabiliscono che una stazione radio non consiste solo del ricevitore e del trasmettitore in una posizione, ma include anche tutte le apparecchiature aggiuntive necessarie per il suo funzionamento.
 
 [question:VA201]
 

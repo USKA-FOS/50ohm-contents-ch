@@ -29,7 +29,7 @@ Questi metodi di trasmissione vengono chiamati *telegrafia*. I procedimenti di q
 Nel linguaggio tecnico, il mezzo ausiliario, cioè il fumo o l’oscillazione elettrica, viene chiamato *portante*, poiché trasporta l’informazione dal trasmettitore al ricevitore. Nei sistemi radio, che utilizzano frequenze piuttosto elevate, si parla anche di portante ad alta frequenza o, in breve, portante HF. Il procedimento per modificare la portante, cioè il movimento della coperta o l’accensione e spegnimento ritmico dell’oscillazione elettrica, viene chiamato *modulazione*.
 
 <wordorigin>
-Nel termine *telegrafia* sono contenute due parole greche antiche: τηλε (tele) significa "lontano" e γράφειν (graphein) significa "scrivere" o "disegnare". *Modulazione* deriva dal latino: *Modulatio* significa lì "misura del ritmo" o "ritmo".
+Nel termine *telegrafia* sono contenute due parole greche antiche: τηλε (tele) significa "lontano" e γράφειν (graphein) significa "scrivere" o "disegnare". *Modulazione* deriva dal latino: *Modulatio* significa lì misura del ritmo o ritmo.
 </wordorigin>
 
 [question:NE201]

@@ -14,7 +14,7 @@ Le gain dans une direction donnée (par exemple, la direction principale de rayo
 
 Un simple dipôle demi-onde possède également un gain, car il rayonne perpendiculairement au conducteur avec une intensité supérieure de $\qty{2,15}{\dB}$ à celle d'un radiateur isotrope. Ainsi, un dipôle demi-onde a un gain de $\qty{2,15}{\dBi}$.
 
-Parfois, on s'intéresse au gain supplémentaire par rapport à celui d'un dipôle demi-onde, c'est-à-dire au gain par rapport à un dipôle demi-onde. Ce gain est exprimé en $\unit{\dBd}$, où le « d » signifie dipôle. Un dipôle demi-onde a donc un gain de $\qty{0}{\dBd}$. Les antennes offrant un gain supérieur à celui d'un dipôle demi-onde ont un gain supérieur à $\qty{0}{\dBd}$, tandis que celles dont le gain est inférieur ont un gain inférieur à $\qty{0}{\dBd}$.
+Parfois, on s'intéresse au gain supplémentaire par rapport à celui d'un dipôle demi-onde, c'est-à-dire au gain par rapport à un dipôle demi-onde. Ce gain est exprimé en $\unit{\dBd}$, où le d signifie dipôle. Un dipôle demi-onde a donc un gain de $\qty{0}{\dBd}$. Les antennes offrant un gain supérieur à celui d'un dipôle demi-onde ont un gain supérieur à $\qty{0}{\dBd}$, tandis que celles dont le gain est inférieur ont un gain inférieur à $\qty{0}{\dBd}$.
 
 Comparons une dernière fois le gain d'un dipôle demi-onde exprimé en $\unit{\dBi}$ et en $\unit{\dBd}$ : le dipôle demi-onde a un gain de $\qty{2,15}{\dBi}$ dans la direction principale de rayonnement, car il rayonne $\qty{2,15}{\dB}$ plus intensément que le radiateur isotrope. Exprimé en $\unit{\dBd}$, il atteint $\qty{0}{\dBd}$. La valeur en $\unit{\dBi}$ est toujours supérieure de $\qty{2,15}{\dB}$ à celle en $\unit{\dBd}$.
 

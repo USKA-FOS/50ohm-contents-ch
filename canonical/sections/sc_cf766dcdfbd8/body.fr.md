@@ -45,7 +45,7 @@ Un *signal de détresse* est utilisé par une station du service mobile maritime
 Comme l'utilisation de ces signaux est interdite en radioamateurisme, il est recommandé, en cas d'urgence, d'utiliser d'autres termes pertinents, comme « Notfall » (urgence) ou « Emergency », pour attirer l'attention.
 </indepth>
 
-L'utilisation de ces signaux de détresse, d'urgence ou de sécurité est interdite en radioamateurisme par l'ordonnance sur l'amateurisme. Cela ne signifie pas qu'il est interdit d'émettre des appels de détresse. Il faut simplement veiller à ne pas utiliser le terme « MAYDAY » par exemple.
+L'utilisation de ces signaux de détresse, d'urgence ou de sécurité est interdite en radioamateurisme par l'ordonnance sur l'amateurisme. Cela ne signifie pas qu'il est interdit d'émettre des appels de détresse. Il faut simplement veiller à ne pas utiliser le terme MAYDAY par exemple.
 
 [question:BF101]
 [question:BF102]

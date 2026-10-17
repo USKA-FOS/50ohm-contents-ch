@@ -53,7 +53,7 @@ Esempio: Per inserire il valore $\num{3,5e6}$, premere: 3.5 → Exp → 6
 Consulta la guida dell’utente della tua calcolatrice per trovare la combinazione esatta dei tasti.
 </tip>
 
-La visualizzazione di valori particolarmente grandi o piccoli dipende dall’apparecchio. Alcuni li scrivono come potenze di dieci normali, altri con *Exp* o *E* per “per dieci alla…”. Spesso il tasto *S/D* consente di passare tra le diverse rappresentazioni. Nella notazione delle potenze di dieci, i tasti come *ENG*, *<ENG* o *ENG>* spostano la virgola o aggiungono zeri alla fine, adattando di conseguenza l’esponente in modo che il valore non cambi. Consulta anche in questo caso la guida dell’utente della tua calcolatrice.
+La visualizzazione di valori particolarmente grandi o piccoli dipende dall’apparecchio. Alcuni li scrivono come potenze di dieci normali, altri con *Exp* o *E* per per dieci alla…. Spesso il tasto *S/D* consente di passare tra le diverse rappresentazioni. Nella notazione delle potenze di dieci, i tasti come *ENG*, *<ENG* o *ENG>* spostano la virgola o aggiungono zeri alla fine, adattando di conseguenza l’esponente in modo che il valore non cambi. Consulta anche in questo caso la guida dell’utente della tua calcolatrice.
 
 ---
 

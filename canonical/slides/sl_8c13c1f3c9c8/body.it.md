@@ -19,7 +19,7 @@
 * Esempio: DD4UQ partecipa in portatile al Fieldday-Contest in telegrafia $\rightarrow$ "CQ FD DD4UQ/P TEST"
 
 <note>
-Con "CQ TEST" non si intende la conduzione di un test, ad esempio per verificare l’antenna.
+Con CQ TEST non si intende la conduzione di un test, ad esempio per verificare l’antenna.
 </note>
 
 ---

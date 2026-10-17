@@ -5,7 +5,7 @@ I collegamenti radio [index:collegamento radio] avvengono solitamente in modo bi
 
 Nei molti servizi radio la gestione operativa è strettamente regolamentata, ad esempio nel radiofonia aeronautica, nella polizia, nei vigili del fuoco o nei servizi di soccorso. Nel radioamatoriale [index:radioamatoriale] non esistono prescrizioni vincolanti per la gestione operativa. È sufficiente menzionare correttamente il nominativo. Tuttavia, anche nel radioamatoriale è utile seguire le consuetudini di gestione operativa e conoscere le abbreviazioni più diffuse. Per questo esiste anche una specifica parte d'esame denominata "conoscenze operative".
 
-Tutti i radioamatori utilizzano le frequenze disponibili in comune. Vale il principio: "chi arriva prima, macina prima". Pertanto, prima di iniziare un collegamento radio, si dovrebbe ascoltare per un po' di tempo se la frequenza non sia già utilizzata da un'altra stazione. Per essere sicuri, si dovrebbe poi chiedere brevemente per due o tre volte se la frequenza è libera.
+Tutti i radioamatori utilizzano le frequenze disponibili in comune. Vale il principio: chi arriva prima, macina prima. Pertanto, prima di iniziare un collegamento radio, si dovrebbe ascoltare per un po' di tempo se la frequenza non sia già utilizzata da un'altra stazione. Per essere sicuri, si dovrebbe poi chiedere brevemente per due o tre volte se la frequenza è libera.
 
 <qso>
 È libera questa frequenza? HB9RW

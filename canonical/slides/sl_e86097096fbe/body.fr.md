@@ -13,7 +13,7 @@
 
 <note>
 * En ondes courtes, la polarisation n'est plus déterminante en champ lointain
-* La télévision numérique terrestre (TNT) de Berlin-Alexanderplatz est en polarisation horizontale : une antenne verticale de type "tige" donne une mauvaise réception ; la raison en est l'utilisation d'antennes Yagi-Uda existantes
+* La télévision numérique terrestre (TNT) de Berlin-Alexanderplatz est en polarisation horizontale : une antenne verticale de type tige donne une mauvaise réception ; la raison en est l'utilisation d'antennes Yagi-Uda existantes
 </note>
 
 ---

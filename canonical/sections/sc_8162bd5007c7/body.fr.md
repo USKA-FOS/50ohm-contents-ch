@@ -33,7 +33,7 @@ Il existe toutes sortes de batteries et d'accus avec différentes tensions, capa
 </margin>
 
 <attention>
-Les accus ne doivent jamais être complètement déchargés. Cette décharge profonde, appelée "tiefentladung", peut endommager l'accumulateur. En pratique, on peut reconnaître la décharge au fait que la tension de l'accumulateur diminue progressivement. L'extraction du courant doit être arrêtée avant que la tension minimale indiquée par le fabricant ne soit atteinte.
+Les accus ne doivent jamais être complètement déchargés. Cette décharge profonde, appelée tiefentladung, peut endommager l'accumulateur. En pratique, on peut reconnaître la décharge au fait que la tension de l'accumulateur diminue progressivement. L'extraction du courant doit être arrêtée avant que la tension minimale indiquée par le fabricant ne soit atteinte.
 </attention>
 
 Beaucoup d'appareils nécessitent plusieurs batteries. En général, cela sert à augmenter la tension lorsque la tension d'une seule batterie, par exemple $\qty{1,5}{\volt}$, ne suffit pas pour le fonctionnement. Dans le compartiment à piles de l'appareil, celles-ci sont montées en série, de sorte que le pôle négatif de la batterie précédente soit relié au pôle positif de la batterie suivante. La tension aux bornes de cette chaîne se calcule comme suit :

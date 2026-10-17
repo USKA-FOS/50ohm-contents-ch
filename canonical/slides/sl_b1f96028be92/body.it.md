@@ -7,7 +7,7 @@
 * Riduce la potenza d’ingresso per amplificatori e ricevitori a un livello definito
 </right>
 <note>
-Il nome "configurazione PI" deriva dalla struttura delle resistenze a forma di &Pi;
+Il nome configurazione PI deriva dalla struttura delle resistenze a forma di &Pi;
 </note>
 
 ---
@@ -30,7 +30,7 @@ Il nome "configurazione PI" deriva dalla struttura delle resistenze a forma di &
 * $\qty{100}{\watt}$ di potenza d’ingresso $\rightarrow\qty{1}{\watt}$ di potenza d’uscita
 </right>
 <note>
-Il nome "configurazione T" deriva dalla struttura delle resistenze a forma di T
+Il nome configurazione T deriva dalla struttura delle resistenze a forma di T
 </note>
 
 ---

@@ -73,7 +73,7 @@ Une carte QSL doit contenir au minimum les informations suivantes :
 
 * Indicatif avec préfixe DE
 * Attribué non par l’Agence fédérale des réseaux, mais par le DARC
-* Appelé « indicatif d’écouteur » (short wave listener)
+* Appelé indicatif d’écouteur (short wave listener)
 
 ---
 
@@ -83,7 +83,7 @@ Une carte QSL doit contenir au minimum les informations suivantes :
 * Ou sur Internet
 * Il existe des « gestionnaires de QSL » qui prennent en charge l’envoi pour d’autres stations
   * Les gestionnaires de QSL sont souvent utilisés lors d’expéditions DX
-  * À indiquer dans le champ « via » de la carte QSL et envoyer sa propre carte par ce biais
+  * À indiquer dans le champ via de la carte QSL et envoyer sa propre carte par ce biais
 
 ---
 [question:BG110]

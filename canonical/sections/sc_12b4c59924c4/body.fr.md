@@ -40,7 +40,7 @@ Si vous naviguez avec un bateau à moteur, un voilier ou tout autre navire *hors
 [question:BD205]
 [question:VO032]
 
-Si vous vous trouvez à bord d’un aéronef, comme un avion, une montgolfière, un zeppelin ou autre, et souhaitez effectuer un **fonctionnement en émission**, vous pouvez ajouter le suffixe "/am" (aéro mobile) à votre indicatif. L’aéronef doit être entièrement en vol et ne pas être relié au sol, par exemple par des câbles de maintien. L’autorisation pour l’activité radio doit être donnée par le commandant de bord avant le début des opérations, mais pas par l’OFCOM.
+Si vous vous trouvez à bord d’un aéronef, comme un avion, une montgolfière, un zeppelin ou autre, et souhaitez effectuer un **fonctionnement en émission**, vous pouvez ajouter le suffixe /am (aéro mobile) à votre indicatif. L’aéronef doit être entièrement en vol et ne pas être relié au sol, par exemple par des câbles de maintien. L’autorisation pour l’activité radio doit être donnée par le commandant de bord avant le début des opérations, mais pas par l’OFCOM.
 
 [question:VO022]
 [question:BD201]

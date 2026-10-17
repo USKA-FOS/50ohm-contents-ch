@@ -2,7 +2,7 @@
 
 * Lorsqu'une station particulière ou rare est appelée, cette information se propage souvent rapidement sur Internet
 * De nombreux radioamateurs tentent alors de répondre simultanément à cet appel → *Pile-Up*
-* Le terme "Pile-Up" vient du verbe anglais "to pile up", qui signifie "s'entasser".
+* Le terme Pile-Up vient du verbe anglais "to pile up", qui signifie "s'entasser".
 * Ce qui s'entasse ici, ce sont les radioamateurs de plus en plus nombreux qui poursuivent le même objectif : établir une communication avec la station convoitée.
 
 <note>

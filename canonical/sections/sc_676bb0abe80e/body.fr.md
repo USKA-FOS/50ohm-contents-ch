@@ -17,7 +17,7 @@ On peut se représenter cela comme un système de coordonnées et lire la durée
 [question:EI301]
 
 <tip>
-Pour des mesures simples, de nombreux oscilloscopes numériques disposent d’une touche AUTO. En appuyant dessus, certains réglages sont effectués automatiquement et une image stable des signaux appliqués apparaît généralement. L’affichage peut être déplacé horizontalement. Un bouton rotatif doté de cette fonction est souvent étiqueté « X-Position ». Pour lire la durée d’une période, on déplace un point marquant, comme un passage par zéro, sur une ligne verticale du quadrillage et on compte le nombre d’échelons correspondant à une période.
+Pour des mesures simples, de nombreux oscilloscopes numériques disposent d’une touche AUTO. En appuyant dessus, certains réglages sont effectués automatiquement et une image stable des signaux appliqués apparaît généralement. L’affichage peut être déplacé horizontalement. Un bouton rotatif doté de cette fonction est souvent étiqueté X-Position. Pour lire la durée d’une période, on déplace un point marquant, comme un passage par zéro, sur une ligne verticale du quadrillage et on compte le nombre d’échelons correspondant à une période.
 </tip>
 
 ---

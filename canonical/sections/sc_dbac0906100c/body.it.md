@@ -20,7 +20,7 @@ Un'altra possibilità è un trasformatore (cfr. figura [ref:a_unun_1_49]) con un
 
 <margin>
 [photo:332:a_unun_1_49:Trasformatore 1 a 49 (Un-Un) per l'adattamento di un dipolo a semionda alimentato da un'estremità]
-[picture:315:a_endspeisung_1:Dipolo a semionda alimentato da un'estremità con cavo "pigtail"]
+[picture:315:a_endspeisung_1:Dipolo a semionda alimentato da un'estremità con cavo pigtail]
 [picture:260:a_endspeisung_2:Dipolo a semionda alimentato da un'estremità con cavo coassiale come controantennna]
 </margin>
 

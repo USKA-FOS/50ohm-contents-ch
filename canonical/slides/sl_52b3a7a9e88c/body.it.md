@@ -83,7 +83,7 @@ Una cartolina QSL dovrebbe contenere almeno i seguenti dati:
 * Oppure su Internet
 * Esistono "gestori QSL" che si occupano dell'inoltro per altre stazioni
   * I gestori QSL vengono spesso impiegati durante spedizioni DX
-  * Inserire nel campo "via" della cartolina QSL e inviare la propria cartolina tramite questo gestore
+  * Inserire nel campo via della cartolina QSL e inviare la propria cartolina tramite questo gestore
 
 ---
 [question:BG110]

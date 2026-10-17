@@ -21,7 +21,7 @@ $r = \frac{N_P}{N_S} = \frac{U_P}{U_S}$
 Il rapporto tra il numero di spire corrisponde quindi al rapporto tra le tensioni. Riorganizzando questa equazione fondamentale, è possibile calcolare sia le tensioni $U$ che il numero di spire $N$ sul lato primario o secondario.
 
 <indepth>
-Queste relazioni valgono per il caso ideale di un trasformatore scarico, cioè per la cosiddetta condizione a vuoto. Il termine "a vuoto" significa che non è collegata alcuna utenza al lato secondario.
+Queste relazioni valgono per il caso ideale di un trasformatore scarico, cioè per la cosiddetta condizione a vuoto. Il termine a vuoto significa che non è collegata alcuna utenza al lato secondario.
 </indepth>
 
 [question:EC401]

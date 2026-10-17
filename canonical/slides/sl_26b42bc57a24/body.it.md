@@ -44,7 +44,7 @@ $\unit{\dBm}$ = Decibel riferiti a $\unit{\milli\watt}$
 
 <note>
 * Fattore 10
-* "deci" come in decimetro
+* deci come in decimetro
 </note>
 ---
 ### Guadagno di potenza

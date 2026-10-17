@@ -8,7 +8,7 @@ Come abbiamo visto per l’antenna a $5/8 \lambda$, le lunghezze dei fili non so
 [picture:562:e_antenne_laenge_resonanz:Un dipolo ripiegato]
 </margin>
 
-Il dipolo ripiegato rappresenta in pratica un loop a onda intera "schiacciato". La lunghezza totale del filo è quindi esattamente una lunghezza d’onda.
+Il dipolo ripiegato rappresenta in pratica un loop a onda intera schiacciato. La lunghezza totale del filo è quindi esattamente una lunghezza d’onda.
 
 [question:EG110]
 

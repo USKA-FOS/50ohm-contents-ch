@@ -40,7 +40,7 @@ Se ci si trova a bordo di un motoscafo, di una barca a vela o di un altro natant
 [question:BD205]
 [question:VO032]
 
-Se ci si trova a bordo di un aeromobile, come un aereo, un pallone aerostatico, un dirigibile o simili, e si desidera effettuare un funzionamento in trasmissione, si può aggiungere al proprio nominativo il suffisso "/am" (aeronautico mobile). L'aeromobile deve trovarsi completamente in volo e non deve avere alcun contatto con il suolo, ad esempio tramite funi di trattenuta. L'effettuazione del funzionamento in trasmissione deve essere autorizzata dal comandante dell'aeromobile prima dell'inizio delle operazioni, ma non richiede l'approvazione dell'UFCOM.
+Se ci si trova a bordo di un aeromobile, come un aereo, un pallone aerostatico, un dirigibile o simili, e si desidera effettuare un funzionamento in trasmissione, si può aggiungere al proprio nominativo il suffisso /am (aeronautico mobile). L'aeromobile deve trovarsi completamente in volo e non deve avere alcun contatto con il suolo, ad esempio tramite funi di trattenuta. L'effettuazione del funzionamento in trasmissione deve essere autorizzata dal comandante dell'aeromobile prima dell'inizio delle operazioni, ma non richiede l'approvazione dell'UFCOM.
 
 [question:VO022]
 [question:BD201]

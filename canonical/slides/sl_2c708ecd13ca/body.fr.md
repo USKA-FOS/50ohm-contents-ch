@@ -21,7 +21,7 @@ Pour commencer, voici les deux composants essentiels : le récepteur et l’ante
 * Faire confirmer les rapports d’écoute par des cartes QSL
 
 <note>
-SWL signifie Short Wave Listener. Malgré la traduction allemande « Kurzwellenhörer », ce hobby ne se limite pas aux ondes courtes.
+SWL signifie Short Wave Listener. Malgré la traduction allemande Kurzwellenhörer, ce hobby ne se limite pas aux ondes courtes.
 </note>
 
 ---

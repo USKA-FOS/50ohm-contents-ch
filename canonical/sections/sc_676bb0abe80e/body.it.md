@@ -17,7 +17,7 @@ Possiamo immaginarlo come un sistema di coordinate e leggere la <i>durata del pe
 [question:EI301]
 
 <tip>
-Per misurazioni semplici, molti oscilloscopi digitali dispongono di un tasto AUTO. Premendolo, alcune impostazioni vengono regolate automaticamente e di solito appare un’immagine stabile dei segnali applicati. La visualizzazione può essere spostata orizzontalmente. Un pulsante di regolazione con questa funzione è spesso etichettato come "posizione X". Per leggere la <i>durata del periodo</i>, si sposta un punto caratteristico come un passaggio per lo zero su una linea verticale della griglia e si contano le divisioni della scala corrispondenti a un periodo.
+Per misurazioni semplici, molti oscilloscopi digitali dispongono di un tasto AUTO. Premendolo, alcune impostazioni vengono regolate automaticamente e di solito appare un’immagine stabile dei segnali applicati. La visualizzazione può essere spostata orizzontalmente. Un pulsante di regolazione con questa funzione è spesso etichettato come posizione X. Per leggere la <i>durata del periodo</i>, si sposta un punto caratteristico come un passaggio per lo zero su una linea verticale della griglia e si contano le divisioni della scala corrispondenti a un periodo.
 </tip>
 
 ---

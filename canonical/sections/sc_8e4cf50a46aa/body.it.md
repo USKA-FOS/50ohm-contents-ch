@@ -56,4 +56,4 @@ $\lambda[\unit{\meter}] = \frac{300}{21}=14,29$
 
 [question:EB313]
 
-Diventa di nuovo molto semplice con l'ultima domanda. Quale lunghezza d’onda corrisponde a una frequenza di $\qty{28,5}{\mega\hertz}$? Ebbene, la banda dei $\qty{10}{\meter}$ si estende da $\qtyrange{28}{29,5}{\mega\hertz}$, quindi la risposta "$\qty{10,5}{\meter}$" è corretta. La risposta (errata) "$\qty{9,49}{\meter}$" è anche vicina, ma la frequenza corrispondente dovrebbe trovarsi al di sopra di $\qty{30}{\mega\hertz}$.
+Diventa di nuovo molto semplice con l'ultima domanda. Quale lunghezza d’onda corrisponde a una frequenza di $\qty{28,5}{\mega\hertz}$? Ebbene, la banda dei $\qty{10}{\meter}$ si estende da $\qtyrange{28}{29,5}{\mega\hertz}$, quindi la risposta "$\qty{10,5}{\meter}$" è corretta. La risposta (errata) $\qty{9,49}{\meter}$ è anche vicina, ma la frequenza corrispondente dovrebbe trovarsi al di sopra di $\qty{30}{\mega\hertz}$.

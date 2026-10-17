@@ -19,7 +19,7 @@
 --- style="font-size: smaller;"
 
 <left>
-[photo:3:n_gesetze_vorschriften_backstein:Brique de l'action "Brique" de 1949]
+[photo:3:n_gesetze_vorschriften_backstein:Brique de l'action Brique de 1949]
 </left>
 <right>
 * La première loi sur le radioamateurisme est entrée en vigueur le 15 mars 1949, avant même la loi fondamentale

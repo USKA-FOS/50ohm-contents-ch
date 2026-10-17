@@ -21,7 +21,7 @@ Per iniziare, mostriamo i due componenti più importanti: il ricevitore e l'ante
 * Far confermare le relazioni di ascolto tramite cartoline QSL
 
 <note>
-SWL sta per Short Wave Listener. Nonostante la denominazione tedesca "ascoltatore di onde corte", questo hobby non si limita alle onde corte.
+SWL sta per Short Wave Listener. Nonostante la denominazione tedesca ascoltatore di onde corte, questo hobby non si limita alle onde corte.
 </note>
 
 ---

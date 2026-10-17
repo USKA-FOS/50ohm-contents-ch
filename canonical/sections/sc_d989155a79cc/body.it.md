@@ -21,7 +21,7 @@ I gruppi Q sono composti da tre lettere e iniziano con *Q*. Sono stati sviluppat
 [question:BB203]
 [question:BB204]
 
-Per gli SWL, *QSL* è particolarmente importante: da esso deriva la denominazione «cartolina QSL». *QRM*, *QRN* e *QSB* descrivono diverse cause di una ricezione difficoltosa.
+Per gli SWL, *QSL* è particolarmente importante: da esso deriva la denominazione cartolina QSL. *QRM*, *QRN* e *QSB* descrivono diverse cause di una ricezione difficoltosa.
 
 <tip>
 Aiuto mnemonico: QRM è un disturbo *m*an-made, cioè causato dall'uomo; QRN è un disturbo *n*aturale; QSB è associato alla *S*trength, cioè all'intensità del segnale, che può salire e scendere.

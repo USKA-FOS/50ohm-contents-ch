@@ -22,7 +22,7 @@ Lorsqu’un courant traverse le corps, les tissus peuvent être endommagés. L�
 
 Les accidents électriques peuvent avoir divers effets sur le corps :
 * *Troubles du rythme cardiaque*, fibrillation ventriculaire ou arrêt cardiaque, notamment si le courant traverse la poitrine
-* *Brûlures*, généralement aux points d’entrée et de sortie du courant électrique (dites *« marques de courant »*)
+* *Brûlures*, généralement aux points d’entrée et de sortie du courant électrique (dites *marques de courant*)
 * *Destruction des tissus*, due à la chaleur générée par la résistance électrique des tissus, qui brûle et détruit les cellules de l’intérieur
 * *Crispation des muscles*
 * *Accidents secondaires* comme une chute, provoquée par la frayeur ou une crispation musculaire

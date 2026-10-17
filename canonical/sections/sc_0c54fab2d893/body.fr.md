@@ -43,7 +43,7 @@ Exemple : Pour saisir la valeur $\num{3,5e6}$, appuyez sur : 3.5 → Exp → 6
 Consultez le manuel d’utilisation de votre calculatrice pour connaître la combinaison exacte des touches.
 </tip>
 
-L’affichage des valeurs particulièrement grandes ou petites dépend de l’appareil. Certains les affichent sous forme de puissances de dix classiques, d’autres avec *Exp* ou *E* pour « multiplié par dix puissance ». Souvent, la touche *S/D* permet de basculer entre les différentes représentations. Dans la notation en puissances de dix, des touches comme *ENG*, *<ENG* ou *ENG>* déplacent la virgule ou ajoutent des zéros à la fin tout en ajustant l’exposant de manière à ce que la valeur reste inchangée. Consultez également le manuel d’utilisation de votre calculatrice.
+L’affichage des valeurs particulièrement grandes ou petites dépend de l’appareil. Certains les affichent sous forme de puissances de dix classiques, d’autres avec *Exp* ou *E* pour multiplié par dix puissance. Souvent, la touche *S/D* permet de basculer entre les différentes représentations. Dans la notation en puissances de dix, des touches comme *ENG*, *<ENG* ou *ENG>* déplacent la virgule ou ajoutent des zéros à la fin tout en ajustant l’exposant de manière à ce que la valeur reste inchangée. Consultez également le manuel d’utilisation de votre calculatrice.
 
 ---
 

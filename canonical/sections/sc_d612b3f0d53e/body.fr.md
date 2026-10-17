@@ -11,7 +11,7 @@ Pour obtenir une stabilité en fréquence aussi élevée que possible face aux v
 
 ---
 
-En cas de mauvaise stabilisation de la tension de service, il peut se produire, sur des émetteurs CW très simples, une distorsion de la hauteur tonale appelée *« chirp »* : au début de chaque point ou trait, la hauteur tonale est d’abord légèrement plus haute ou plus basse, puis se rapproche de la hauteur tonale réelle. Le mot anglais *« chirp »* signifie littéralement *« gazouillis »*. Si la hauteur tonale se rapproche par le haut, l’effet acoustique ressemble effectivement à un gazouillis.
+En cas de mauvaise stabilisation de la tension de service, il peut se produire, sur des émetteurs CW très simples, une distorsion de la hauteur tonale appelée *chirp* : au début de chaque point ou trait, la hauteur tonale est d’abord légèrement plus haute ou plus basse, puis se rapproche de la hauteur tonale réelle. Le mot anglais *« chirp »* signifie littéralement *« gazouillis »*. Si la hauteur tonale se rapproche par le haut, l’effet acoustique ressemble effectivement à un gazouillis.
 
 [question:AD609]
 

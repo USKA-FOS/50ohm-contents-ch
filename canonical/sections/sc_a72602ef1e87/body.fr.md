@@ -24,7 +24,7 @@ Les stations déportées, télécommandées via Internet, sont soumises à une o
 [question:VN005]
 [question:VN027]
 
-Pendant toute la durée de fonctionnement, un contrôle permanent, indirect et complet de la station doit être assuré. Le terme "indirect" signifie que le contrôle peut être exercé par des moyens auxiliaires ou des assistants, sans que l’on doive être physiquement sur place. En pratique, il faut veiller à ce que la station à distance passe en état sûr en cas de perturbations, par exemple une perte de connexion, par exemple en coupant l’alimentation électrique.
+Pendant toute la durée de fonctionnement, un contrôle permanent, indirect et complet de la station doit être assuré. Le terme indirect signifie que le contrôle peut être exercé par des moyens auxiliaires ou des assistants, sans que l’on doive être physiquement sur place. En pratique, il faut veiller à ce que la station à distance passe en état sûr en cas de perturbations, par exemple une perte de connexion, par exemple en coupant l’alimentation électrique.
 %DARC : Le radioamateur qui commande la station doit pouvoir déterminer à tout moment le moment et la durée de ses émissions. Cela signifie que l’appareil radio de la station ne peut émettre que tant que vous maintenez la touche d’émission enfoncée. Les émissions involontaires sont ainsi exclues.
 [question:VD605]
 % Existe-t-il une base légale en Suisse (HB) à ce sujet, ou que prévoit la réglementation suisse ? eGov indique simplement que "le responsable technique doit être joignable en permanence pendant le fonctionnement".
