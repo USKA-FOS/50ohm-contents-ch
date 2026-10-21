@@ -10,6 +10,10 @@ Ein Vorteil dieses Vorgehens liegt darin, dass schmalbandige Störungen nur eine
 [picture:704:ofdm:Frequenzspektrum eines einfachen OFDM-Signals]
 </margin>
 
+<indepth>
+Das OFDM-Verfahren wird z. Bsp. auch beim in der Schweiz verwendeten DAB+ - Radio verwendet.
+</indepth>
+
 [question:AE421]
 
 Ein weiterer Vorteil ergibt sich aus der geringeren Symbolrate jedes einzelnen Trägers. Durch die geringere Symbolrate ist die Dauer eines jeden Symbols länger. Im Falle zeitlicher Verschiebungen aufgrund von Mehrwegeausbreitung ist der Anteil der Überlagerung zwischen den Signalen (sogenannte Intersymbolinterferenz oder Symbolübersprechen) dann entsprechend geringer. Auch kann es vorkommen, dass einzelne Frequenzen durch Mehrwegeausbreitung ausgelöscht oder zumindest stark gedämpft werden (man spricht von frequenzselektivem Fading). Dies kann mit den gleichen Mechanismen kompensiert werden wie die weiter oben erwähnten schmalbandigen Störungen. Im Falle von Mehrwegeausbreitung ist OFDM daher besonders vorteilhaft.
