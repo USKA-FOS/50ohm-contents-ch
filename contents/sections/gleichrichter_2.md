@@ -42,3 +42,5 @@ Zu berücksichtigen sind dann noch das Übersetzungsverhältnis $5 : 1$  des Net
 [question:AD304]
 
 %TODO Simulation einbauen: https://tinyurl.com/22m65xlw
+
+[Gleichrichter](https://tinyurl.com/22m65xlw)
