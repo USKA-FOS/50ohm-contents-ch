@@ -1,4 +1,4 @@
-In der Klasse E haben wir den Verkürzungsfaktor kennengelernt. Bei bekanntem Verkürzungsfaktor lässt sich die Antennenlänge eines Halbwellendipols bzw. eines Viertel-Lambda-Schenkels einer Antenne leicht berechnen, in dem man die Hälfte bzw. ein Viertel der Wellenlänge mit dem Verkürzungsfaktor (meist $\num{0,95}$) multipliziert.
+Im Abschnitt [sec:verkuerzungsfaktor_1 haben wir den Verkürzungsfaktor kennengelernt. Bei bekanntem Verkürzungsfaktor lässt sich die Antennenlänge eines Halbwellendipols bzw. eines Viertel-Lambda-Schenkels einer Antenne leicht berechnen, in dem man die Hälfte bzw. ein Viertel der Wellenlänge mit dem Verkürzungsfaktor (meist $\num{0,95}$) multipliziert.
 
 [question:AG101]
 [question:AG102]
@@ -35,9 +35,9 @@ Im Koaxialkabel befindet sich die elektromagnetische Welle weitgehend zwischen d
 
 $v_\mathrm{k} = \dfrac{1}{\sqrt{\epsilon_\mathrm{r}}}$
 
-Der Formelsammlung können wir für Polyäthylen eine relative Dielektrizitätszahl von $\epsilon_\mathrm{r} = 2,29$ entnehmen.
+Der Formelsammlung können wir für Polyethylen (ältere Schreibweise Polyäthylen) eine relative Dielektrizitätszahl von $\epsilon_\mathrm{r} = 2,29$ entnehmen.
 
-% TODO: lt. Formelsammlung Polyäthylen, lt. Fragen Polyethylen
+% TODO: lt. Formelsammlung Polyäthylen, lt. Fragen Polyethylen. ARK: Klammer ergänzt)
 
 [question:AG315]
 [question:AG316]
