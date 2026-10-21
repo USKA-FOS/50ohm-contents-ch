@@ -33,7 +33,7 @@ $U_{eff} = \frac{\hat{U}}{\sqrt{2}}$ oder $\hat{U} = U_{eff} \cdot \sqrt{2}$
 
 Wird eine Wechselspannung nur mit dem Buchstaben $U$ ohne Zusatz angegeben, ist in der Regel der Effektivwert gemeint. Das bekannteste Beispiel ist unsere Netzspannung von $\qty{230}{\volt}$ – auch hierbei handelt es sich um den Effektivwert. Die Spitzenspannung liegt deutlich höher, nämlich bei
 
-$ \hat{U} = \qty{230}{\volt} \cdot \sqrt{2} \approx \qty{325}{\volt}$.
+$$ \hat{U} = \qty{230}{\volt} \cdot \sqrt{2} \approx \qty{325}{\volt}$$.
 
 <indepth>
 Die genaue Herleitung dieser Formel erfolgt mithilfe der Integralrechnung und geht über das für die Amateurfunkprüfung erforderliche Wissen hinaus. Wer mit der Integralrechnung vertraut ist und sich dafür interessiert, kann die Herleitung hier nachlesen: [Wikipedia](https://de.wikipedia.org/wiki/Effektivwert)
