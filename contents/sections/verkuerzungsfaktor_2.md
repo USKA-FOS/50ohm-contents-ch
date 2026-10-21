@@ -1,4 +1,4 @@
-Im Abschnitt [sec:verkuerzungsfaktor_1 haben wir den Verkürzungsfaktor kennengelernt. Bei bekanntem Verkürzungsfaktor lässt sich die Antennenlänge eines Halbwellendipols bzw. eines Viertel-Lambda-Schenkels einer Antenne leicht berechnen, in dem man die Hälfte bzw. ein Viertel der Wellenlänge mit dem Verkürzungsfaktor (meist $\num{0,95}$) multipliziert.
+Im Abschnitt [sec:verkuerzungsfaktor_1] haben wir den Verkürzungsfaktor kennengelernt. Bei bekanntem Verkürzungsfaktor lässt sich die Antennenlänge eines Halbwellendipols bzw. eines Viertel-Lambda-Schenkels einer Antenne leicht berechnen, in dem man die Hälfte bzw. ein Viertel der Wellenlänge mit dem Verkürzungsfaktor (meist $\num{0,95}$) multipliziert.
 
 [question:AG101]
 [question:AG102]
