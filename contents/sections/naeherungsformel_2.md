@@ -1,4 +1,4 @@
-In der Klasse E haben wir bereits eine Näherungsformel kennengelernt, mit der sich der Sicherheitsabstand zu einer Antenne berechnen lässt:
+Im Abschnitt [sec:naeherungsformel_1] haben wir bereits eine Näherungsformel kennengelernt, mit der sich der Sicherheitsabstand zu einer Antenne berechnen lässt:
 
 $d = \frac{\sqrt{\qty{30}{\ohm}\cdot P_{\textrm{EIRP}}}}{E}$
 
@@ -20,7 +20,7 @@ an (vgl. Abbildung [ref:a_feldwellenwiderstand]). Setzen wir diesen Wert in den 
 
 $\frac{Z_0}{4\pi} \approx \frac{\qty{120\pi}{\ohm}}{4\pi} = \qty{30}{\ohm}$
 
-Damit ergibt sich die aus der Klasse E bekannte Näherungsformel. Gleichzeitig wird deutlich, weshalb sie nicht im reaktiven Nahfeld verwendet werden darf: Dort ist der Feldwellenwiderstand nicht konstant, sondern hängt stark vom Abstand, von der Antennenform und von der betrachteten Richtung ab. Für Berechnungen im reaktiven Nahfeld, also für Abstände $d \le \frac{\lambda}{2\pi}$, sind daher in der Regel ausführlichere Rechnungen, numerische Simulationen oder Messungen erforderlich. 
+Damit ergibt sich die aus [sec:naeherungsformel_1] bekannte Näherungsformel. Gleichzeitig wird deutlich, weshalb sie nicht im reaktiven Nahfeld verwendet werden darf: Dort ist der Feldwellenwiderstand nicht konstant, sondern hängt stark vom Abstand, von der Antennenform und von der betrachteten Richtung ab. Für Berechnungen im reaktiven Nahfeld, also für Abstände $d \le \frac{\lambda}{2\pi}$, sind daher in der Regel ausführlichere Rechnungen, numerische Simulationen oder Messungen erforderlich. 
 
 <margin>
 [picture:1116:a_feldwellenwiderstand:Verlauf des Feldwellenwiderstands über die Bereiche Nahfeld und Fernfeld (logarithmisch).]
