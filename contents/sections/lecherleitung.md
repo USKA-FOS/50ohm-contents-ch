@@ -39,4 +39,4 @@ Umgekehrt besitzt eine am Ende *kurzgeschlossene* Leitung am Leitungsende die Im
 Das Verhalten einer $\frac{\lambda}{4}$-Leitung lässt sich auch mit Schwingkreisen vergleichen. Eine offene $\frac{\lambda}{4}$-Leitung besitzt am Eingang eine sehr kleine Impedanz und verhält sich dort ähnlich wie ein *Reihenschwingkreis in Resonanz*. Eine kurzgeschlossene $\frac{\lambda}{4}$-Leitung besitzt am Eingang dagegen eine sehr große Impedanz und verhält sich ähnlich wie ein *Parallelschwingkreis in Resonanz*.
 </indepth>
 
-Im nächsten Abschnitt betrachten wir, wie sich mit Hilfe von $\frac{\lambda}{4}$-Leitungen gezielt Impedanztransformationen durchführen lassen.
+Im nächsten Abschnitt [sec:impedanztransformation] betrachten wir, wie sich mit Hilfe von $\frac{\lambda}{4}$-Leitungen gezielt Impedanztransformationen durchführen lassen.
