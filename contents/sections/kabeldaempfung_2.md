@@ -1,4 +1,4 @@
-Im Abschnitt sec:[kabeldaempfung_1] wurde die Kabeldämpfung bereits besprochen. Da Dämpfung oft unerwünscht ist, besteht die Aufgabe der folgenden Fragen darin, ein Kabel aus dem Kabeldämpfungsdiagramm der Formelsammlung herauszusuchen, welches eine gegebene Dämpfung nicht überschreitet, sondern eine geringere Dämpfung aufweist.
+Im Abschnitt [sec:kabeldaempfung_1] wurde die Kabeldämpfung bereits besprochen. Da Dämpfung oft unerwünscht ist, besteht die Aufgabe der folgenden Fragen darin, ein Kabel aus dem Kabeldämpfungsdiagramm der Formelsammlung herauszusuchen, welches eine gegebene Dämpfung nicht überschreitet, sondern eine geringere Dämpfung aufweist.
 
 [question:AG309]
 [question:AG310]
