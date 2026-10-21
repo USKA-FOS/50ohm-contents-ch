@@ -19,7 +19,7 @@ Aufpassen muss man jedoch mit den Impedanzen. Obwohl die Umwegeleitung nicht dir
 ---
 
 <tip>
-Für die beiden folgenden Fragen zur Umwegeleitung reicht es sich zu *merken*, dass es sich bei der dargestellten Antenne um einen Faltdipol handelt und eine $\lambda/2$-Umwegleitung eine $\qty{180}{\degree}$-Phasenverschiebung erzeugt.
+Für die beiden folgenden Fragen zur Umwegeleitung reicht es, sich zu *merken*, dass es sich bei der dargestellten Antenne um einen Faltdipol handelt und eine $\lambda/2$-Umwegleitung eine $\qty{180}{\degree}$-Phasenverschiebung erzeugt.
 </tip>
 
 [question:AG423]
