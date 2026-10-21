@@ -1,4 +1,4 @@
-Wie wir bereits für Klasse E gelernt haben, besitzt ein in der Mitte gespeister Halbwellendipol im Freiraum einen Speisewiderstand von etwa $\qty{73,1}{\ohm}$. In der Praxis wird der Speisewiderstand jedoch durch die Umgebung und insbesondere durch die Aufbauhöhe über dem Erdboden beeinflusst.
+Wie wir bereits im Abschnitt [sec:fusspunktimpedanz_1] gelernt haben, besitzt ein in der Mitte gespeister Halbwellendipol im Freiraum einen Speisewiderstand von etwa $\qty{73,1}{\ohm}$. In der Praxis wird der Speisewiderstand jedoch durch die Umgebung und insbesondere durch die Aufbauhöhe über dem Erdboden beeinflusst.
 
 Ab einer Aufbauhöhe von ungefähr einer Wellenlänge nähert sich der Speisewiderstand dem Freiraumwert an. Je nach genauer Aufbauhöhe und Umgebung liegt er typischerweise im Bereich von etwa $\qtyrange{65}{75}{\ohm}$, wie in Abbildung [ref:e_fusspunktimpedanz_dipol] dargestellt.
 
