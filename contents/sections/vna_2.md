@@ -1,4 +1,4 @@
-Im Abschnitt [sec:vna_1] haben wir bereits den *vektoriellen Netzwerkanalysator* (VNA) kennengelernt (vgl. Abbildung [ref:a_vna_swr]). In der Klasse A wollen wir uns seine Funktionsweise etwas genauer ansehen.
+Im Abschnitt [sec:vna_1] haben wir bereits den *vektoriellen Netzwerkanalysator* (VNA) kennengelernt (vgl. Abbildung [ref:a_vna_swr]). Im Kurs für HB9 wollen wir uns seine Funktionsweise etwas genauer ansehen.
 
 Für eine Messung erzeugt der VNA zunächst ein HF-Signal mit einer festgelegten Startfrequenz und gibt dieses an das Messobjekt, beispielsweise eine Antenne oder einen Schwingkreis, aus. Anschließend misst er das vom Messobjekt zurückkommende beziehungsweise reflektierte Signal. Dabei werden sowohl dessen Amplitude als auch dessen Phase erfasst. Um den Einfluss von Störungen zu verringern, können für einen Frequenzpunkt auch mehrere Messungen durchgeführt und gemittelt werden.
 
