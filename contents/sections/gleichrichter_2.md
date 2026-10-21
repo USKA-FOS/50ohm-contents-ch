@@ -42,5 +42,7 @@ Zu berücksichtigen sind dann noch das Übersetzungsverhältnis $5 : 1$  des Net
 [question:AD304]
 
 %TODO Simulation einbauen: https://tinyurl.com/22m65xlw
+%ARK:tinyurl-Link aufgelöst, um direkt auf die falstad-Simulation zu kommen. 
+%ARK:Der Parameter running=true bewirkt einen sofortigen Start der Simulation.
 
-[Gleichrichter](https://tinyurl.com/22m65xlw)
+Mit der folgenden [Gleichrichter-Simulation](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgoqoQFMBaMMAKADcQU89OFDPuIACzYUUcDRCikVWdAQsAKgJ4o+wvFRFitUaGIYwhxSpCGRCfQnjD5s4aBjAjLkYmpTZsJYo3IxSYhYAEw0qNX5CFCFefjFgugAzAEMAVwAbABcWAGMQKJiI-OjhUXEYeHso6CFjUS4iShRibz04VgB3MNKxAp6oFgAnEBw49VH+qls4Fi6+oomiyFnimO0R1vXlgAcQTXD1ff77WRWJ9aOts9aio6WWXaFNWO71k4HdsAwx-i-+N-KKz+Ly4qnUyy6wPWoMmD26YHcq3AiPeEKRCN6JXuXSeU0RuJeywA9uBejEtNgEDFCOY9BApiwScx8uTSlTwIQ5BBuYzwEgaeIROywJy6ZxwLyeAKKeznjAIPZWEA&running=true) kann man das Verhalten eines Einweggleichrichters anschaulich verfolgen. 
