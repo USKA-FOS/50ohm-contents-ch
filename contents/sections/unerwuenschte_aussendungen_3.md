@@ -44,14 +44,6 @@ Das BAKOM verweist bezüglich der einzuhaltenden technischen Daten auf die **Rad
 **RIR**. RIR1101 enthält die Anforderungen an Amateurfunkanlagen. Die Schweiz lehnt sich hierbei eng an das ITU Radioreglement (Anhang 3) und die harmonisierten europäischen Normen (ETSI EN 301 783) an.
 Die Dämpfung der Nebenaussendungen (Spurious Emissions) relativ zur Leistung der Hauptfrequenz muss folgende Mindestwerte einhalten.
 
-
-| **Frequenzbereich des Senders**             | **Erforderliche Dämpfung** | **Maximal zulässige Leistung der Nebenaussendung** |
-| ------------------------------------------- | -------------------------- | --------------------------- |
-| **Kurzwelle (HF)**<br>(unter 30 MHz)        | **40 dB**                  | **50 mW**                                          |
-| **VHF / UHF / SHF**<br>(30 MHz bis 960 MHz) | **60 dB**                  | **25 µW**                                          |
-
-
-
 | **Frequenzbereich des Senders** | **Grenzwert für Nebenaussendungen**                      |
 | ------------------------------- | -------------------------------------------------------- |
 | **Bis 30 MHz**                  | Höherer Wert aus −(43 + 10 · log₁₀(PEP)) dBc und −50 dBc |
@@ -83,8 +75,7 @@ $$
 **Praxisergebnis:** Bei einem Sender mit 100 W PEP liegt der Grenzwert nach dieser Berechnung bei **1 mW für die Nebenaussendung**.
 </margin>
 
-Laut den Radio Interface Regulations (RIR) sind unerwünschte Aussendungen auf das geringstmögliche Maß zu beschränken. Die [Verfügung 33](https://50ohm.de/vfg33) von 2007 legt allerdings genaue Grenzwerte fest, welche durch den Funkamateur aber auch von Herstellern kommerzieller Geräte beachtet werden müssen.
-%TODO: Helvetisierung 
+Unerwünschte Aussendungen sind auf das geringstmögliche Maß zu beschränken und dürfen den Grenzwert für Nebenaussendungen keinesfalls überschreiten. Diese Grenzwerte gelten sowohl für Hersteller kommerzieller Amateurfunkgeräte als auch für den Selbstbau.
 
 <margin>
 [photo:319:a_vfg33:Auszug aus der Verfügung 33 von 2007]
