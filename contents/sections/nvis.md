@@ -1,5 +1,3 @@
-**IN BEARBEITUNG**
-
 Der im Abschnitt [sec:ionosphaere_3] eingeführte Begiff "NVIS" wird hier genauer behandelt. Liegt eine Sendefrequenz unter der kritischen Frequenz, dann wird selbst eine senkrecht nach oben gestrahlte Raumwelle noch von der Ionosphäre reflektiert. Entsprechend verschwindet die Tote Zone. Diesen Effekt kann man sich für Nahverbindungen zunutze machen, bei der die Bodenwelle das Ziel nicht mehr erreichen würde. Voraussetzung ist jedoch eine Kurzwellenantenne, die in möglichst steilem Winkel nach oben strahlt. Man spricht bei einer dann folgenden Reflektion in der Ionosphäre von *"NVIS"* aus dem Englischen: Near Vertical Incidence Skywave. Oder zu Deutsch: Raumwelle mit nahezu vertikalem Einfallswinkel.
 
 <indepth>
