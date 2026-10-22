@@ -37,7 +37,7 @@ Wenn nach Sonnenuntergang keine Strahlung von der Sonne mehr kommt, rekombiniere
 
 **E-Region**
 
-In $\num{90}$ bis $\qty{130}{\kilo\meter}$ Höhe schließt sich die *E-Region* an, welche wir schon in den Prüfungsfragen zur Klasse N kennen gelernt haben. Sie bricht unter normalen Umständen schräg einfallende Funkwellen bis etwa $\qty{10}{\mega\hertz}$, mit einem Sprung können dabei etwas mehr als $\qty{2000}{\kilo\meter}$ überbrückt werde. Auch die E-Region löst sich nach Sonnenuntergang binnen weniger Minuten auf.
+In $\num{90}$ bis $\qty{130}{\kilo\meter}$ Höhe schließt sich die *E-Region* an, welche wir schon in den Prüfungsfragen im Abschnitt [sec:ionosphaere] kennen gelernt haben. Sie bricht unter normalen Umständen schräg einfallende Funkwellen bis etwa $\qty{10}{\mega\hertz}$, mit einem Sprung können dabei etwas mehr als $\qty{2000}{\kilo\meter}$ überbrückt werde. Auch die E-Region löst sich nach Sonnenuntergang binnen weniger Minuten auf.
 
 In dieser Region findet sich in den gemäßigten Breiten vor allem in den Sommermonaten ein besonderes Phänomen, die *sporadische E-Schicht* (kurz *Es*). Sie besteht aus meist kleinräumigen, sehr stark ionosierten Bereichen und ist in der Lage, Funkwellen viel höherer Frequenz zu brechen, bis hinauf in das $\qty{2}{\meter}$-Band.
 
