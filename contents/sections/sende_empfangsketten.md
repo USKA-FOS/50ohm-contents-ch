@@ -4,6 +4,11 @@ Im folgenden Abschnitt werden die einzelnen Schritte einer Sende- und Empfangske
 [picture:1062:a_sdr_sender:SDR Sender für Sprachkommunikation]
 </margin>
 
+<indepth>
+**FPGA**
+bezeichnet eine integrierte Schaltung mit dem Namen **F**ield **P**rogrammable **G**ate **A**rray. Es handelt sich dabei um eine programmierbare Harwdwarekomponente.
+</indepth>
+
 Die in blau hervorgehobenen Blöcke in Abbildung [ref:a_sdr_sender] repräsentieren die Signalverarbeitungsschritte, die beispielsweise rein softwarebasiert oder mithilfe eines FPGAs implementiert werden können. Die Reihenfolge dieser Verarbeitungsschritte ist für einen Sender stets wie folgt und sollte für Prüfungsfragen gut eingeprägt werden:
 
 1. Quellencodierer: Daten komprimieren
