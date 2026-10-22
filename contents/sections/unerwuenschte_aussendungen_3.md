@@ -44,9 +44,9 @@ Das BAKOM verweist bezüglich der einzuhaltenden technischen Daten auf die **Rad
 **RIR**. RIR1101 enthält die Anforderungen an Amateurfunkanlagen. Die Schweiz lehnt sich hierbei eng an das ITU Radioreglement (Anhang 3) und die harmonisierten europäischen Normen (ETSI EN 301 783) an.
 Die Dämpfung der Nebenaussendungen (Spurious Emissions) relativ zur Leistung der Hauptfrequenz muss folgende Mindestwerte einhalten.
 
-| **Frequenzbereich** | **Grenzwert für Nebenaussendungen**                      |
-| **Bis 30 MHz**                  | Höherer Wert aus −(43 + 10 · log₁₀(PEP)) dBc und −50 dBc |
-| **Über 30 MHz**                 | Höherer Wert aus −(43 + 10 · log₁₀(PEP)) dBc und −70 dBc |
+| **Frequenzen**        | **Grenzwert für Nebenaussendungen**                     |
+| **Bis 30 MHz**        | Höherer Wert aus −(43 + 10 · log₁₀(PEP)) dBc und −50 dBc |
+| **Über 30 MHz**       | Höherer Wert aus −(43 + 10 · log₁₀(PEP)) dBc und −70 dBc |
 
 <margin>
 **Zahlenbeispiel für Kurzwelle**
