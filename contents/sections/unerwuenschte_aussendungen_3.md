@@ -57,7 +57,31 @@ Die Dämpfung der Nebenaussendungen (Spurious Emissions) relativ zur Leistung de
 | **Bis 30 MHz**                  | Höherer Wert aus −(43 + 10 · log₁₀(PEP)) dBc und −50 dBc |
 | **Über 30 MHz**                 | Höherer Wert aus −(43 + 10 · log₁₀(PEP)) dBc und −70 dBc |
 
+<margin>
+## Zahlenbeispiel für Kurzwelle
 
+Nehmen wir einen Kurzwellen-Sender mit einer Spitzenleistung bei der Modulation (PEP) von **100 W**.
+
+Nach der zuvor genannten ETSI-Formel ergibt sich:
+
+```math
+43+10\log_{10}(100)=43+20=63\ \mathrm{dB}
+```
+
+Der Grenzwert ist der weniger strenge der beiden Werte −63 dBc und −50 dBc, also **−50 dBc**.
+
+Das bedeutet: Die Nebenaussendung darf höchstens 50 dB unter der Bezugsleistung liegen.
+
+Umgerechnet in eine absolute Leistung:
+
+```math
+P_\text{Neben}=100\,\mathrm{W}\cdot 10^{-50/10}
+=0{,}001\,\mathrm{W}
+=\boxed{1\,\mathrm{mW}}
+```
+
+**Praxisergebnis:** Bei einem Sender mit 100 W PEP liegt der Grenzwert nach dieser Berechnung bei **1 mW für die Nebenaussendung**.
+</margin>
 
 Laut den Radio Interface Regulations (RIR) sind unerwünschte Aussendungen auf das geringstmögliche Maß zu beschränken. Die [Verfügung 33](https://50ohm.de/vfg33) von 2007 legt allerdings genaue Grenzwerte fest, welche durch den Funkamateur aber auch von Herstellern kommerzieller Geräte beachtet werden müssen.
 %TODO: Helvetisierung 
