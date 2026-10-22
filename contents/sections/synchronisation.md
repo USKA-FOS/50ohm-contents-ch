@@ -13,7 +13,7 @@ Damit ein Empfänger Daten korrekt wiedergeben kann, muss eine
 - Bit-Synchronisation und eine
 - Wort-Synchronisation
 
-erfolgreich durchgeführtwerden. 
+erfolgreich durchgeführt werden. 
 </indepth>
 
 [question:AE407]
