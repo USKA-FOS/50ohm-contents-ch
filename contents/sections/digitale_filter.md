@@ -22,5 +22,6 @@ Das Filter führt eine sogenannte Faltungsoperation aus, diese ist übrigens auc
 
 <indepth>
 Definition des *FPGA*:
+
 Siehe Vertiefung im Abschnitt [sec:sende_empfangsketten].
 </indepth>
