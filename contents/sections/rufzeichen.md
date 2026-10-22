@@ -13,9 +13,11 @@ Die 10 Minuten müssen nicht mit der Stoppuhr gemessen werden. Im Funkalltag ist
 
 <law>
 [VVNF Art. 2, Abs. 1](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk)
+ 
 In anderen Ländern können andere Vorschriften gelten. 
 In Liechtenstein, Deutschland und Österreich beispielsweise muss es zusätzlich am Ende der Verbindung genannt werden.
 <law>
+  
 [question:VO003]
 [question:VO002]
 
