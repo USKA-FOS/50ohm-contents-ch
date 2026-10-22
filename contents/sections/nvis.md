@@ -11,14 +11,12 @@ Hinge man einen Horizontal-Dipol höher auf, dann würde aufgrund der Verzögeru
 Besonders im Notfunk haben NVIS-Verbindungen den Vorteil, dass sich Hindernisse (z. B. bergiges Gelände) überwinden lassen. Als Antennen geeignet sind Horizontal-Dipole, die in einer Aufbauhöhe von maximal einem Viertel Wellenlänge aufgehängt werden. Damit wirkt die Erdoberfläche als Reflektor und sorgt so für einen Gewinn in Richtung des Himmels, senkrecht nach oben (also in Richtung des Zenits).
 
 <attention>
-NVIS kann insbesondere in dünn besiedelten Regionen oder Ländern mit großen Entfernungen eine wichtige Rolle im Notfunk spielen. Damit lassen sich regionale Verbindungen über einige hundert Kilometer herstellen, ohne auf Relaisstationen oder andere Kommunikationsinfrastruktur angewiesen zu sein.
+NVIS ermöglicht regionale Funkverbindungen über Kurzwelle, ohne auf Relaisstationen oder andere Kommunikationsinfrastruktur angewiesen zu sein.
 
-In Deutschland sind die Randbedingungen jedoch häufig andere. Aufgrund der vergleichsweise kurzen Entfernungen, der hohen Bevölkerungsdichte und des dichten Netzes an Amateurfunkrelais spielen im Notfunk insbesondere die VHF- und UHF-Bänder eine wichtige Rolle. Verbindungen können dort sowohl direkt als auch – sofern verfügbar – über Relaisstationen hergestellt werden.
+In der Schweiz stellen die Alpen und die zahlreichen Täler besondere Herausforderungen für die Funkkommunikation dar. Gebirgszüge können direkte Funkverbindungen erschweren oder verhindern. NVIS kann hier eine sinnvolle Ergänzung zu anderen Notfunkverfahren sein, da sich damit auch Regionen erreichen lassen, die über direkte VHF- und UHF-Verbindungen nur schwer zugänglich sind. Gerade bei einem Ausfall der üblichen Kommunikationsinfrastruktur kann diese unabhängige Verbindungsmöglichkeit von Bedeutung sein.
 
-in der Schweiz ...........
-
-Ein weiterer Vorteil ist die große Verbreitung entsprechender Geräte: Viele Funkamateure besitzen ein Hand- oder Mobilfunkgerät für das 2-m- und 70-cm-Band. Außerdem stehen diese Bänder allen deutschen Amateurfunkklassen zur Verfügung. Dadurch können sich sehr viele Funkamateure mit vergleichsweise einfacher und portabler Ausrüstung an der lokalen und regionalen Notfunkkommunikation beteiligen.
-
+Gleichzeitig spielen die VHF- und UHF-Bänder im Schweizer Notfunk eine wichtige Rolle. Mit Hand- und Mobilfunkgeräten lassen sich lokale und regionale Verbindungen direkt oder über verfügbare Relaisstationen herstellen. Diese Bänder ermöglichen den Einsatz kompakter, portabler Ausrüstung und sind deshalb für die Notfunkkommunikation von grosser Bedeutung.
+  
 Du interessierst dich für Notfunk und möchtest mehr darüber erfahren oder selbst mitmachen? Weitere Informationen indest du beim [USKA EmComm (Notfunk)](https://uska.ch/de/funkamateure/notfunk/).
 </attention>
 
