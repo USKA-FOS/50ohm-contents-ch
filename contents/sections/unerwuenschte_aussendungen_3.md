@@ -42,12 +42,13 @@ Sollen bestimmte Oberwellen oder Harmonische eines Signals einzeln unterdrückt 
 
 Das BAKOM verweist bezüglich der einzuhaltenden technischen Daten auf die **Radio Interface Regulations** 
 **RIR**. RIR1101 enthält die Anforderungen an Amateurfunkanlagen. Die Schweiz lehnt sich hierbei eng an das ITU Radioreglement (Anhang 3) und die harmonisierten europäischen Normen (ETSI EN 301 783) an.
-Die Dämpfung der Nebenaussendungen (Spurious Emissions) relativ zur Leistung der Hauptfrequenz muss folgende Mindestwerte einhalten:
+Die Dämpfung der Nebenaussendungen (Spurious Emissions) relativ zur Leistung der Hauptfrequenz muss folgende Mindestwerte einhalten.
 
-| **Frequenzbereich des Senders**             | **Erforderliche Dämpfung (Mindestwert)** | **Maximal zulässige Leistung der Nebenaussendung** |
-| :------------------------------------------ | :--------------------------------------- | :------------------------------------------------- |
-| **Kurzwelle (HF)**<br>(unter 30 MHz)        | **40 dB**                                | **50 mW**                                          |
-| **VHF / UHF / SHF**<br>(30 MHz bis 960 MHz) | **60 dB**                                | **25 µW**                                          |
+
+| **Frequenzbereich des Senders**             | **Erforderliche Dämpfung** | **Maximal zulässige Leistung der Nebenaussendung** |
+| ------------------------------------------- | -------------------------- | --------------------------- |
+| **Kurzwelle (HF)**<br>(unter 30 MHz)        | **40 dB**                  | **50 mW**                                          |
+| **VHF / UHF / SHF**<br>(30 MHz bis 960 MHz) | **60 dB**                  | **25 µW**                                          |
 
 
 Laut den Radio Interface Regulations (RIR) sind unerwünschte Aussendungen auf das geringstmögliche Maß zu beschränken. Die [Verfügung 33](https://50ohm.de/vfg33) von 2007 legt allerdings genaue Grenzwerte fest, welche durch den Funkamateur aber auch von Herstellern kommerzieller Geräte beachtet werden müssen.
