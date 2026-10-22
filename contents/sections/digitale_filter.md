@@ -24,3 +24,10 @@ Das Filter führt eine sogenannte Faltungsoperation aus, diese ist übrigens auc
 Definition des *FPGA*: Siehe Vertiefung im
 Abschnitt [sec:sende_empfangsketten].
 </indepth>
+
+<indepth>
+\begin{flushleft}
+Definition des \textit{FPGA}: Siehe Vertiefung im
+Abschnitt \texttt{sec:sende\_empfangsketten}.
+\end{flushleft}
+</indepth>
