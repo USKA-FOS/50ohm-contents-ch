@@ -51,6 +51,14 @@ Die Dämpfung der Nebenaussendungen (Spurious Emissions) relativ zur Leistung de
 | **VHF / UHF / SHF**<br>(30 MHz bis 960 MHz) | **60 dB**                  | **25 µW**                                          |
 
 
+
+| **Frequenzbereich des Senders** | **Grenzwert für Nebenaussendungen**                      |
+| ------------------------------- | -------------------------------------------------------- |
+| **Bis 30 MHz**                  | Höherer Wert aus −(43 + 10 · log₁₀(PEP)) dBc und −50 dBc |
+| **Über 30 MHz**                 | Höherer Wert aus −(43 + 10 · log₁₀(PEP)) dBc und −70 dBc |
+
+
+
 Laut den Radio Interface Regulations (RIR) sind unerwünschte Aussendungen auf das geringstmögliche Maß zu beschränken. Die [Verfügung 33](https://50ohm.de/vfg33) von 2007 legt allerdings genaue Grenzwerte fest, welche durch den Funkamateur aber auch von Herstellern kommerzieller Geräte beachtet werden müssen.
 %TODO: Helvetisierung 
 
