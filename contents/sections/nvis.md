@@ -17,7 +17,7 @@ In der Schweiz stellen die Alpen und die zahlreichen Täler besondere Herausford
 
 Gleichzeitig spielen die VHF- und UHF-Bänder im Schweizer Notfunk eine wichtige Rolle. Mit Hand- und Mobilfunkgeräten lassen sich lokale und regionale Verbindungen direkt oder über verfügbare Relaisstationen herstellen. Diese Bänder ermöglichen den Einsatz kompakter, portabler Ausrüstung und sind deshalb für die Notfunkkommunikation von grosser Bedeutung.
   
-Du interessierst dich für Notfunk und möchtest mehr darüber erfahren oder selbst mitmachen? Weitere Informationen indest du beim [USKA EmComm (Notfunk)](https://uska.ch/de/funkamateure/notfunk/).
+Du interessierst dich für Notfunk und möchtest mehr darüber erfahren oder selbst mitmachen? Weitere Informationen indest du bei [USKA EmComm (Notfunk)](https://uska.ch/de/funkamateure/notfunk/).
 </attention>
 
 NVIS-Antennen sind also typischerweise horizontale Dipole, die in Relation zur verwendeten Wellenlänge vergleichsweise tief aufgehangen werden.
