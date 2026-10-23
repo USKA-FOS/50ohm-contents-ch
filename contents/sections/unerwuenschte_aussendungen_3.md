@@ -83,7 +83,7 @@ $$
 **Praxisergebnis:** Bei einem Sender mit 100 W PEP liegt der Grenzwert nach dieser Berechnung bei **1 mW für die Nebenaussendung**.
 </margin>
 
-Unerwünschte Aussendungen sind auf das geringstmögliche Maß zu beschränken und dürfen den Grenzwert für Nebenaussendungen keinesfalls überschreiten. Diese Grenzwerte gelten sowohl für Hersteller kommerzieller Amateurfunkgeräte als auch für den Selbstbau.
+Unerwünschte Aussendungen sind auf das geringstmögliche Maß zu beschränken und dürfen den Grenzwert für Nebenaussendungen keinesfalls überschreiten. Diese Grenzwerte gelten sowohl für Hersteller kommerzieller Amateurfunkgeräte als auch für selbstgebaute Funkgeräte.
 
 <margin>
 [photo:319:a_vfg33:Auszug aus der Verfügung 33 von 2007]
