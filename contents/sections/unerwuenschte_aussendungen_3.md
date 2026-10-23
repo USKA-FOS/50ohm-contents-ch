@@ -81,6 +81,15 @@ P_{\text{Neben}} = 100\,\mathrm{W} \cdot 10^{-50/10}
 $$
 
 **Praxisergebnis:** Bei einem Sender mit 100 W PEP liegt der Grenzwert nach dieser Berechnung bei **1 mW für die Nebenaussendung**.
+
+**Rechenaufgabe**
+
+- Berechne den maximal zulässigen Pegel der Nebenaussendungen für einen Kurzwellensender mit 1 kW PEP!
+  Das richtige Ergebnis ist: xx mW.
+
+- Berechne den maximal zulässigen Pegel der Nebenaussendungen für einen 2-Meter Sender mit 500 W PEP!
+  Das richtige Ergebnis ist:  yy mW
+  
 </margin>
 
 Unerwünschte Aussendungen sind auf das geringstmögliche Maß zu beschränken und dürfen den Grenzwert für Nebenaussendungen keinesfalls überschreiten. Diese Grenzwerte gelten sowohl für Hersteller kommerzieller Amateurfunkgeräte als auch für selbstgebaute Funkgeräte.
@@ -89,7 +98,7 @@ Unerwünschte Aussendungen sind auf das geringstmögliche Maß zu beschränken u
 [photo:319:a_vfg33:Auszug aus der Verfügung 33 von 2007]
 </margin>
 
-Für den VHF/UHF/SHF-Bereich von $\qtyrange{50}{1000}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{60}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von $\qty{0,25}{\micro\watt}$ befindet (vgl. Abbildung [ref:a_uagw]).
+(Für den VHF/UHF/SHF-Bereich von $\qtyrange{50}{1000}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{60}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von $\qty{0,25}{\micro\watt}$ befindet (vgl. Abbildung [ref:a_uagw]).)
 
 [question:AJ225]
 
@@ -97,7 +106,7 @@ Für den VHF/UHF/SHF-Bereich von $\qtyrange{50}{1000}{\mega\hertz}$ gilt, dass N
 [picture:918:a_uagw:Oberwellendämpfung VHF/UHF/SHF-Bereich]
 </margin>
 
-Für den Kurzwellenbereich von $\qtyrange{1,7}{35}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{40}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von $\qty{0,25}{\micro\watt}$ befindet.
+(Für den Kurzwellenbereich von $\qtyrange{1,7}{35}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{40}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von $\qty{0,25}{\micro\watt}$ befindet.)
 
 [question:AJ224]
 
