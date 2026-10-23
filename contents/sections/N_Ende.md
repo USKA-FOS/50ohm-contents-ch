@@ -67,6 +67,10 @@ $ \hat{U} = \qty{230}{\volt} \cdot \sqrt{2} \approx \qty{325}{\volt}$.
 
 $ U_\text{SS} = 2 \cdot \qty{230}{\volt} \cdot \sqrt{2} \approx \qty{651}{\volt}$
 
+Test mit dritter Formel in einem Satz eingebettet:
+
+Die Spitze-Spitze-Spannung beträgt $U_\text{SS} = 2 \cdot \qty{230}{\volt} \cdot \sqrt{2} \approx \qty{651}{\volt}$ bei einer sinusförmigen Netzspannung.
+
 Test mit geänderter Formel
 $$
 U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}
