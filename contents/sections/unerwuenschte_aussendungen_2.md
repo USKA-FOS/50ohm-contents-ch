@@ -11,7 +11,7 @@ Im Kapitel [sec:unerwuenschte_aussendungen_1] haben wir bereits unerwünschte Au
 ---
 
 Die Messung unerwünschter Aussendungen eines Senders erfolgt – im Gegensatz zur PEP-Messung – immer am Senderausgang unter Einbeziehung des gegebenenfalls verwendeten SWR-Meters, zusätzlicher Anpassgeräte und eventuell eingesetzter Tiefpassfilter (vgl. Abbildung [ref:e_unerwuenschte_aussendungen_trx]).
-Hierdurch wird sichergestellt, dass nur die unerwünschten Aussendungen gemessen werden, die auch die Antenne erreichen können. Als Messgerät eignet sich hierfür am besten ein Spektrumanalysator. Wie genau eine solche Überprüfung durchgeführt wird, wie das Frequenzspektrum von Oberwellen aussieht und welche gesetzlichen Vorgaben dabei gelten, werden wir erst in der Klasse A näher betrachten.
+Hierdurch wird sichergestellt, dass nur die unerwünschten Aussendungen gemessen werden, die auch die Antenne erreichen können. Als Messgerät eignet sich hierfür am besten ein Spektrumanalysator. Wie genau eine solche Überprüfung durchgeführt wird, wie das Frequenzspektrum von Oberwellen aussieht und welche gesetzlichen und normativen Vorgaben dabei gelten, werden wir erst im Abschnitt [sec:unerwuenschte_aussendungen_3] näher betrachten.
 
 <margin>
 [picture:917:e_unerwuenschte_aussendungen_trx:Messung von unerwünschten Aussendungen]
@@ -24,7 +24,8 @@ Ein ideales Sendesignal, welches nur auf einer gewünschten Frequenz aussendet s
 [question:EJ201]
 
 <indepth>
-Signalformen, welche nicht sinusförmig sind und insbesondere scharfe "Ecken und Kanten" enthalten, bestehen aus vielen verschiedenen Sinus-Frequenzanteilen und enthalten viele Oberwellenanteile. Insbesondere wenn Sender übersteuert werden, werden zuvor sinusförmige Signale oft verzerrt bzw. in deren Amplitude beschnitten. Hierdurch entstehen auch massive Oberwellenanteile. Jede Abweichung von der idealen Sinus-Form ist daher bei idealen Sendesignalen zu vermeiden. Diese Thematik werden wir in der Klasse A noch genauer betrachten. Mit diesem Applet lässt sich der Sachverhalt jedoch bereits ausprobieren.
+Signalformen, welche nicht sinusförmig sind und insbesondere scharfe "Ecken und Kanten" enthalten, bestehen aus vielen verschiedenen Sinus-Frequenzanteilen und enthalten viele Oberwellenanteile. Insbesondere wenn Sender übersteuert werden, werden zuvor sinusförmige Signale oft verzerrt bzw. in deren Amplitude beschnitten. Hierdurch entstehen auch massive Oberwellenanteile. Jede Abweichung von der idealen Sinus-Form ist daher bei idealen Sendesignalen zu vermeiden. Diese Thematik werden wir im Abschnitt [sec:unerwünschte_aussendungen_3] noch genauer betrachten. Mit diesem Applet lässt sich der Sachverhalt jedoch bereits ausprobieren.
+
 [include:fourier]
 
 </indepth>
