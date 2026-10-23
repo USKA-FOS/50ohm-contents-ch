@@ -94,11 +94,7 @@ $$
 
 Unerwünschte Aussendungen sind auf das geringstmögliche Maß zu beschränken und dürfen den Grenzwert für Nebenaussendungen keinesfalls überschreiten. Diese Grenzwerte gelten sowohl für Hersteller kommerzieller Amateurfunkgeräte als auch für selbstgebaute Funkgeräte.
 
-<margin>
-[photo:319:a_vfg33:Auszug aus der Verfügung 33 von 2007]
-</margin>
-
-(Für den VHF/UHF/SHF-Bereich von $\qtyrange{50}{1000}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{60}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von $\qty{0,25}{\micro\watt}$ befindet (vgl. Abbildung [ref:a_uagw]).)
+Für den VHF/UHF/SHF-Bereich von $\qtyrange{50}{1000}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{60}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von $\qty{0,25}{\micro\watt}$ befindet (vgl. Abbildung [ref:a_uagw]).
 
 [question:AJ225]
 
@@ -106,7 +102,7 @@ Unerwünschte Aussendungen sind auf das geringstmögliche Maß zu beschränken u
 [picture:918:a_uagw:Oberwellendämpfung VHF/UHF/SHF-Bereich]
 </margin>
 
-(Für den Kurzwellenbereich von $\qtyrange{1,7}{35}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{40}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von $\qty{0,25}{\micro\watt}$ befindet.)
+Für den Kurzwellenbereich von $\qtyrange{1,7}{35}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{40}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von $\qty{0,25}{\micro\watt}$ befindet.
 
 [question:AJ224]
 
