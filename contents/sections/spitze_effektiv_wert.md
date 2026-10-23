@@ -10,7 +10,7 @@ Sinusförmige Wechselspannungen ändern ihren Wert fortlaufend. Um sie besser be
 
 ---
 
-Der *Spitzenwert* einer Wechselspannung $\hat{U}$ entspricht der Amplitude, die wir bereits in der Klasse N kennengelernt haben (vgl. Abbildung [ref:e_wechselspannung_kenngroessen]). Er ist unter anderem wichtig für die Spannungsfestigkeit von Kondensatoren. Abbildung [ref:e_spannungsfestigkeit_elkos] zeigt zwei bedrahtete Elektrolytkondensatoren, auf denen die zulässige Spannungsfestigkeit aufgedruckt ist. Der Spitzenwert der anliegenden Spannung darf diesen Grenzwert nicht überschreiten, da sonst die Zerstörung des Kondensators droht. Häufig wählt man Bauteile mit einer höheren Spannungsfestigkeit als erforderlich – entweder aus Sicherheitsgründen oder zur Verlängerung der Lebensdauer.
+Der *Spitzenwert* einer Wechselspannung $\hat{U}$ entspricht der Amplitude, die wir bereits im Abschnitt [sec:wechselsttom_leistung] kennengelernt haben (vgl. Abbildung [ref:e_wechselspannung_kenngroessen]). Er ist unter anderem wichtig für die Spannungsfestigkeit von Kondensatoren. Abbildung [ref:e_spannungsfestigkeit_elkos] zeigt zwei bedrahtete Elektrolytkondensatoren, auf denen die zulässige Spannungsfestigkeit aufgedruckt ist. Der Spitzenwert der anliegenden Spannung darf diesen Grenzwert nicht überschreiten, da sonst die Zerstörung des Kondensators droht. Häufig wählt man Bauteile mit einer höheren Spannungsfestigkeit als erforderlich – entweder aus Sicherheitsgründen oder zur Verlängerung der Lebensdauer.
 
 <margin>
 [photo:198:e_spannungsfestigkeit_elkos:Elektrolytkondensatoren mit den Spannungsfestigkeiten 16 Volt und 25 Volt]
