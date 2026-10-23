@@ -18,7 +18,7 @@ Der *Spitzenwert* einer Wechselspannung $\hat{U}$ entspricht der Amplitude, die 
 
 Eine weitere Kenngröße ist der *Spitze-Spitze-Wert*. Das ist der Unterschied zwischen dem höchsten und dem niedrigsten Ausschlag. Für Sinusförmige Wechselspannungen gilt:
 
-$U_\text{SS} = 2\cdot \hat{U}$.
+$U_\text{SS} = 2\cdot \hat{U}$
  
 [question:EB406]
 [question:EB407]
