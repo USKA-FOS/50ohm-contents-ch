@@ -59,6 +59,13 @@ Bspw wenn man "wie wir im Abschnitt [sec:kondensator_2] schon gelernt haben." sc
 
 
 
+TEst Für Formel
+
+$U_{eff} = \frac{\hat{U}}{\sqrt{2}}$ oder $\hat{U} = U_{eff} \cdot \sqrt{2}$
+
+$ \hat{U} = \qty{230}{\volt} \cdot \sqrt{2} \approx \qty{325}{\volt}$.
+
+$ U_\text{SS} = 2 \cdot \qty{230}{\volt} \cdot \sqrt{2} \approx \qty{651}{\volt}$
 
 
 
