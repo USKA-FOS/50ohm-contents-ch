@@ -73,6 +73,10 @@ Test mit dritter Formel in einem Satz eingebettet:
 Die Spitze-Spitze-Spannung beträgt $U_\text{SS} = 2 \cdot \qty{230}{\volt} \cdot \sqrt{2} \approx \qty{651}{\volt}$ bei einer sinusförmigen Netzspannung.
 
 
+Noch ein Test:
+
+$U_\text{SS} = 2 \cdot 230 \cdot \sqrt{2} \approx 651$
+
 Test mit geänderter Formel
 $$
 U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}
