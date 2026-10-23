@@ -79,6 +79,8 @@ $U_\text{SS} = 2 \cdot 230 \cdot \sqrt{2} \approx 651$
 
 $A = 2 \cdot 230 \cdot \sqrt{2} \approx 651$
 
+$U_{eff} = \frac{\hat{U}}{\sqrt{2}}$
+
 Test mit geänderter Formel
 $$
 U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}
