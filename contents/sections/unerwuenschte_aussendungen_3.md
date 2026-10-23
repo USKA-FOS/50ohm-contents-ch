@@ -48,6 +48,15 @@ Die Dämpfung der Nebenaussendungen (Spurious Emissions) relativ zur Leistung de
 | **Bis 30 MHz**        | Höherer Wert aus −(43 + 10 · log₁₀(PEP)) dBc und −50 dBc |
 | **Über 30 MHz**       | Höherer Wert aus −(43 + 10 · log₁₀(PEP)) dBc und −70 dBc |
 
+<indepth>
+Der Erfolg der modernen Telekommunikation beruht auch auf gut verfügbaren, internationalen Normen. Wichtige Normen-Organisationen sind:
+
+- International Telecommunication Union (ITU)
+- Conférence Européenne des Administrations des Postes et des Télécommunications (CEPT)
+- European Telecommunications Standards Institute (ETSI)
+
+</indepth>
+
 <margin>
 **Zahlenbeispiel für Kurzwelle**
 
