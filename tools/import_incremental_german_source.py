@@ -18,8 +18,10 @@ from typing import Any
 from openpyxl import load_workbook
 
 try:
+    from .canonical_language_metadata import present_languages, sync_languages
     from .validate_canonical_model import validate_canonical
 except ImportError:
+    from canonical_language_metadata import present_languages, sync_languages
     from validate_canonical_model import validate_canonical
 
 
@@ -278,14 +280,6 @@ def review_state(meta: dict[str, Any], language: str, state: str) -> dict[str, s
     return {"language": language, "from": "absent", "to": state}
 
 
-def present_languages(meta: dict[str, Any]) -> set[str]:
-    languages = {str(language) for language in meta.get("languages", [])}
-    for slot in meta.get("text_slots", []):
-        languages.update(str(language) for language in ((slot.get("storage") or {}).get("files") or {}))
-    languages.update(str(language) for language in (meta.get("language_variants") or {}))
-    return languages
-
-
 def parse_markers(text: str) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     references: list[dict[str, Any]] = []
     annotations: list[dict[str, Any]] = []
@@ -522,8 +516,7 @@ def apply_source_record(
     lifecycle.pop("missing_since_revision", None)
     update_tracking(meta, source_record, revision)
     available_languages = present_languages(meta)
-    meta["languages"] = [language for language in ("de", "fr", "it") if language in available_languages]
-    meta["languages"].extend(sorted(available_languages - {"de", "fr", "it"}))
+    sync_languages(meta)
     if translation_required:
         for language in TARGET_LANGUAGES:
             has_language = language in available_languages

@@ -16,6 +16,11 @@ from pathlib import Path
 
 from openpyxl import load_workbook
 
+try:
+    from canonical_language_metadata import sync_languages
+except ModuleNotFoundError:
+    from tools.canonical_language_metadata import sync_languages
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_WORKBOOK = ROOT / "work" / "drawing_feedback_review_2026-09-16.xlsx"
@@ -64,6 +69,7 @@ def update_meta(object_dir: Path, stem: str) -> None:
             "canonical_file": f"{stem}.{language}.tex",
             "source_path": de_source,
         }
+    sync_languages(meta)
     path.write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 

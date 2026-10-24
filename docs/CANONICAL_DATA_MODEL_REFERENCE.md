@@ -223,7 +223,9 @@ These items do not all play the same role. The directory usually contains:
   - `format`
   - `key`
 - `identifiers`: stable external or source-facing identifiers;
-- `languages`: currently present language set in canonical storage;
+- `languages`: the inventory of declared text and media languages in canonical
+  storage, including languages present only in `language_variants`; this is not
+  a translation-completeness or human-approval status;
 - `review_states`: review state records by language;
 - `metadata`: structured object metadata grouped by scope;
 - `text_slots`: text-bearing slots belonging to the object;
@@ -242,6 +244,10 @@ Purpose of `object.meta.json`:
 
 `object.meta.json` is metadata and control information. It is not itself the
 business text to translate.
+
+The language inventory includes text and media declarations. Its maintenance
+and the 24 October metadata repair are documented in
+[Canonical language inventory](CANONICAL_LANGUAGE_INVENTORY.md).
 
 Current lifecycle and source-tracking metadata used by incremental imports:
 

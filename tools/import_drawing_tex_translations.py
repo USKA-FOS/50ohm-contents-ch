@@ -10,6 +10,11 @@ import re
 from pathlib import Path
 from typing import Any
 
+try:
+    from canonical_language_metadata import sync_languages
+except ModuleNotFoundError:
+    from tools.canonical_language_metadata import sync_languages
+
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CANDIDATES = (
@@ -383,6 +388,7 @@ def update_meta_for_tex(object_dir: Path, stem: str) -> None:
             "canonical_file": f"{stem}.{language}.tex",
             "source_path": source_path,
         }
+    sync_languages(meta)
     meta_path.write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 

@@ -12,6 +12,11 @@ from typing import Any
 
 from build_content_model_db import canonical_media_filename
 
+try:
+    from canonical_language_metadata import sync_languages
+except ModuleNotFoundError:
+    from tools.canonical_language_metadata import sync_languages
+
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = REPO_ROOT / "work" / "global_model" / "content_model.sqlite"
@@ -346,6 +351,7 @@ def export_object(
             if language in review_by_language:
                 payload["review_state"] = review_by_language[language]
         meta["language_variants"] = dict(sorted(language_variants.items()))
+    sync_languages(meta)
     write_json(object_dir / "object.meta.json", meta)
 
     exported_references = [

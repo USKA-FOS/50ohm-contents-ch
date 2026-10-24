@@ -14,6 +14,11 @@ import traceback
 from pathlib import Path
 from typing import Any
 
+try:
+    from canonical_language_metadata import sync_languages
+except ModuleNotFoundError:
+    from tools.canonical_language_metadata import sync_languages
+
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DRAWINGS_ROOT = REPO_ROOT / "canonical" / "drawings"
@@ -287,6 +292,7 @@ def update_meta_for_svg(object_dir: Path, stem: str, language: str) -> None:
     tex_entry["canonical_file"] = f"{stem}.{language}.tex"
     tex_entry["source_path"] = tex_source_path
 
+    sync_languages(meta)
     meta_path.write_text(json.dumps(meta, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
