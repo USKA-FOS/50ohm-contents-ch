@@ -2,7 +2,7 @@
 * Comparaison de phase entre les deux signaux
 * La fréquence de sortie correspond à la fréquence de référence ou à un multiple et reste stable
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 [picture:45:a_oszillator_pll_pll:Schéma d'une boucle à verrouillage de phase (PLL)]
 
 * Le *comparateur de phase* compare les phases du VCO et de l'oscillateur de référence
@@ -37,7 +37,7 @@ Le comparateur de phase émet des impulsions en cas d'écart de phase, qui sont 
 [question:AD703]
 ---
 [question:AD704]
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 #### Démarche
 * donné : $f_\text{Osc} = \qty{12,5}{\kilo\hertz}$
 * donné : $f_\text{Out,low} = \qty{12,000}{\mega\hertz}$

@@ -23,7 +23,7 @@ Dans l’illustration [ref:n_sprachspektrum], nous voyons un signal vocal typiqu
 Dans l’illustration [ref:n_sprachspektrum_symbolisch], nous voyons une représentation symbolique d’un spectre vocal. Sur l’axe X, de gauche à droite, différentes fréquences sont représentées. Les sons graves, de fréquence plus basse, se trouvent plus à gauche que les sons aigus, de fréquence plus élevée, qui se trouvent plus à droite. Sur l’axe Y, de bas en haut, l’intensité sonore de chaque fréquence est indiquée, que nous appelons en termes techniques l’amplitude. Plus on monte, plus le son est fort.
 
 
-Dans l’illustration [ref:n_sprachspektrum_beispiel], un exemple concret est présenté. On peut y lire une bande de fréquences utilisée de $\qtyrange{300}{2700}{\hertz}$. La « largeur » du signal est appelée bande passante et s’exprime en hertz ($\unit{\hertz}$). Dans ce cas, la bande passante est de $\qty{2700}{\hertz}$ - $\qty{300}{\hertz}$ = $\qty{2400}{\hertz}$.
+Dans l’illustration [ref:n_sprachspektrum_beispiel], un exemple concret est présenté. On peut y lire une bande de fréquences utilisée de $\qtyrange{300}{2700}{\hertz}$. La « largeur » du signal est appelée bande passante et s’exprime en hertz ($\unit{\hertz}$). Dans ce cas, la bande passante est de $\qty{2700}{\hertz}$ - $\qty{300}{\hertz}$ = $\qty{2400}{\hertz}$.
 
 
 Ce signal vocal servira de base pour moduler une porteuse. Un signal utilisé pour moduler une porteuse est appelé *signal de modulation*.

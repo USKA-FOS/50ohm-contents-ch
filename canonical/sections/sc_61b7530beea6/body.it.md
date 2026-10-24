@@ -10,7 +10,7 @@ Gli elementi dell'antenna di questa antenna sono perpendicolari alla superficie 
 
 ---
 
-Il fatto che la direzione di polarizzazione spesso coincida con la disposizione geometrica degli elementi dell'antenna dipende dal fatto che generalmente vengono utilizzate antenne in cui la disposizione dei conduttori corrisponde geometricamente alla direzione del campo elettrico. La designazione "orizzontale" o "verticale" si riferisce, per convenzione, all'orientamento del campo elettrico e non a quello della componente del campo magnetico.
+Il fatto che la direzione di polarizzazione spesso coincida con la disposizione geometrica degli elementi dell'antenna dipende dal fatto che generalmente vengono utilizzate antenne in cui la disposizione dei conduttori corrisponde geometricamente alla direzione del campo elettrico. La designazione «orizzontale» o «verticale» si riferisce, per convenzione, all'orientamento del campo elettrico e non a quello della componente del campo magnetico.
 
 <indepth>
 La semplice regola pratica secondo cui le antenne disposte geometricamente in verticale polarizzano verticalmente e quelle disposte orizzontalmente polarizzano orizzontalmente *non è valida in generale*. Ad esempio, un'antenna a loop magnetico posizionata orizzontalmente presenta una polarizzazione verticale, mentre una loop magnetico posizionata verticalmente presenta una polarizzazione orizzontale. Per un'antenna a loop a onda intera (ad esempio una Delta-Loop), invece, la direzione di polarizzazione dipende dalla posizione del punto di alimentazione. Per le antenne a dipolo e Yagi-Uda, invece, si può riconoscere la polarizzazione in base all'orientamento meccanico dei fili, poiché in questa direzione si forma anche il campo elettrico.
@@ -32,7 +32,7 @@ Il vettore di Poynting presente qui è un vettore perpendicolare sia alla compon
 [picture:886:e_funkhorizont:Polarizzazione orizzontale]
 </margin>
 
-La componente del campo elettrico è parallela alla superficie terrestre, quindi si tratta di una polarizzazione orizzontale. A margine: la freccia direzionale "S" indica la direzione di propagazione, si tratta del vettore di Poynting.
+La componente del campo elettrico è parallela alla superficie terrestre, quindi si tratta di una polarizzazione orizzontale. A margine: la freccia direzionale «S» indica la direzione di propagazione, si tratta del vettore di Poynting.
 
 ---
 

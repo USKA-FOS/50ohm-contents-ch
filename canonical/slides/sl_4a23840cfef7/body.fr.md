@@ -9,7 +9,7 @@
 [picture:665:n_widerstandsfarbcodes: Une résistance avec 4 anneaux de couleur]
 </right>
 
---- style="font-size: 0.6em;"
+--- style=« font-size: 0.6em; »
 | X:Couleur | l:Valeur | l:Multiplicateur | l:Tolérance |
 | Argent | - | $\num{0,01}$ | $\qty{\pm 10}{\percent}$ |
 | Or | - | $\num{0,1}$ | $\qty{\pm 5}{\percent}$ |

@@ -31,7 +31,7 @@
 Vengono mostrati i Squares del campo JO
 </note>
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 ## Livelli del Maidenhead Locator
 
 | X: Denominazione | l: Traduzione | l: Denominazione alternativa | c: | c: Esempio |

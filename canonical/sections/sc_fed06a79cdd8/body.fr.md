@@ -15,9 +15,9 @@ Les ampèremètres n’ont pas de résistance propre comme un consommateur, afin
 </danger>
 
 <webtip>
-Le courant – comme la tension – est généralement mesuré avec un multimètre. Ici aussi, il est important de bien relier les cordons de mesure aux bonnes bornes de l’appareil. Le cordon noir se branche sur la borne « COM » et le cordon rouge sur la borne généralement marquée d’un A. Souvent, les multimètres disposent de plusieurs bornes pour la mesure de courant, à choisir en fonction de la plage de mesure. Selon la plage, elles peuvent être marquées par exemple « $\unit{\micro\ampere}$ », « $\unit{\milli\ampere}$ » ou « $\unit{\ampere}$ ».
+Le courant – comme la tension – est généralement mesuré avec un multimètre. Ici aussi, il est important de bien relier les cordons de mesure aux bonnes bornes de l’appareil. Le cordon noir se branche sur la borne « COM » et le cordon rouge sur la borne généralement marquée d’un A. Souvent, les multimètres disposent de plusieurs bornes pour la mesure de courant, à choisir en fonction de la plage de mesure. Selon la plage, elles peuvent être marquées par exemple « $\unit{\micro\ampere}$ », « $\unit{\milli\ampere}$ » ou « $\unit{\ampere}$ ».
 
-Comme pour la mesure de tension, il faut sélectionner le bon réglage sur l’appareil. Pour mesurer du courant continu, on choisit « A = ». Pour mesurer du courant alternatif, on sélectionne « A ~ ».
+Comme pour la mesure de tension, il faut sélectionner le bon réglage sur l’appareil. Pour mesurer du courant continu, on choisit « A = ». Pour mesurer du courant alternatif, on sélectionne « A ~ ».
 
 La procédure concernant la plage de mesure est également similaire à celle de la mesure de tension : au début, on choisit la plage la plus grande, puis – selon la valeur affichée – on passe si nécessaire à une plage plus petite. Il peut alors être nécessaire de déplacer le cordon rouge vers la borne adaptée à la plage choisie.
 

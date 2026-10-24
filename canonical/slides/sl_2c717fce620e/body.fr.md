@@ -1,4 +1,4 @@
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## Sécurité des antennes
 

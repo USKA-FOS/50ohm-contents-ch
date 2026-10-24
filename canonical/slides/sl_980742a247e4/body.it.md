@@ -34,7 +34,7 @@ Dal nome del fisico italiano Alessandro Volta
 
 <note>
 * Spiegare brevemente i prefissi delle unità di misura
-* Simile a "millilitro" o "milligrammo"
+* Simile a «millilitro» o «milligrammo»
 </note>
 
 ---

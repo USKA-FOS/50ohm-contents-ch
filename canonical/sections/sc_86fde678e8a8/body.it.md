@@ -9,7 +9,7 @@ Nel corso HB3 abbiamo già conosciuto il *fading* (*QSB*) nella sezione [sec:fad
 Il ricevitore riceve quindi simultaneamente *più* segnali che, a causa di diverse lunghezze del percorso, arrivano con tempi di propagazione differenti e quindi con fasi diverse. Questi segnali vengono sommati nel ricevitore; questo fenomeno è chiamato *interferenza* nel linguaggio tecnico. A seconda della differenza di fase, il segnale risultante può essere amplificato o attenuato – nel caso estremo fino alla completa cancellazione.
 
 <indepth>
-Interferenza (dal latino inter = "tra" e ferire, attraverso l'antico francese s’entreferir = "colpirsi reciprocamente") indica in generale la variazione dell'ampiezza che si verifica quando due o più onde si sovrappongono, cioè si sommano.
+Interferenza (dal latino inter = «tra» e ferire, attraverso l'antico francese s’entreferir = «colpirsi reciprocamente») indica in generale la variazione dell'ampiezza che si verifica quando due o più onde si sovrappongono, cioè si sommano.
 </indepth>
 
 [question:AH222]

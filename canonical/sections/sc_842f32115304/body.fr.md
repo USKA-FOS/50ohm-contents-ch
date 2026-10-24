@@ -1,7 +1,7 @@
 Le phénomène physique qui rend les signaux radio possibles est le champ électromagnétique. Le fait que ce champ puisse se propager dans le vide, sans support matériel, fut l'une des découvertes les plus importantes du XIXe siècle.
 
 <margin>
-Longtemps, la physique a cru à l'existence d'un « éther », présent partout et dans lequel les ondes électromagnétiques se propageraient comme le son dans l'air. Cette idée était erronée, mais le terme est resté dans le langage courant, par exemple lorsque nous disons que nous sommes assis devant le récepteur et que nous *écoutons l'éther*.
+Longtemps, la physique a cru à l'existence d'un « éther », présent partout et dans lequel les ondes électromagnétiques se propageraient comme le son dans l'air. Cette idée était erronée, mais le terme est resté dans le langage courant, par exemple lorsque nous disons que nous sommes assis devant le récepteur et que nous *écoutons l'éther*.
 </margin>
 
 ---

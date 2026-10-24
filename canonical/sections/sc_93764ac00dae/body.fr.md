@@ -15,7 +15,7 @@ Cependant, si $U_d$ est seulement un tout petit peu supérieur à 0, aucun coura
 </margin>
 
 <indepth>
-Le courant de la diode est donné par une équation exponentielle. Elle est dite "exponentielle" car la variable indépendante $U_d$ se trouve dans l'exposant, c'est-à-dire la "puissance".
+Le courant de la diode est donné par une équation exponentielle. Elle est dite « exponentielle » car la variable indépendante $U_d$ se trouve dans l'exposant, c'est-à-dire la « puissance ».
 
 $I_d = I_S \left(e^{\frac{U_d}{U_T}}-1\right)$
 
@@ -72,7 +72,7 @@ $ I=\frac{U-U_{th}}{R_V}$
 
 ---
 
-Dans notre modèle simple, pour des $U_d$ négatifs, seul un faible courant inverse circule. Ce n'est cependant pas vrai pour des tensions très négatives. À un moment donné, le champ électrique à travers la couche de blocage devient trop élevé et la diode "perce", le courant en sens inverse augmente extrêmement fortement, comme le montre la figure [ref:n_diode_kennlinie_uz].
+Dans notre modèle simple, pour des $U_d$ négatifs, seul un faible courant inverse circule. Ce n'est cependant pas vrai pour des tensions très négatives. À un moment donné, le champ électrique à travers la couche de blocage devient trop élevé et la diode « perce », le courant en sens inverse augmente extrêmement fortement, comme le montre la figure [ref:n_diode_kennlinie_uz].
 
 Cette *percée inverse* peut avoir différentes causes physiques que nous ne pouvons pas traiter en détail ici. La tension à laquelle cette percée se produit est communément appelée *tension Zener* $U_z$, même si l'effet Zener (un effet tunnel quantique) n'est qu'un mécanisme de percée possible. Les *diodes Zener* sont utilisées pour la stabilisation de tension. Il est alors important de limiter le courant de percée par une résistance en série.
 
@@ -82,7 +82,7 @@ Cette *percée inverse* peut avoir différentes causes physiques que nous ne pou
 
 ---
 
-Le symbole électrique d'une diode Zener (figure [ref:e_zener_symbol]) est celui d'une diode régulière, où le trait de la cathode a un prolongement supplémentaire à $\qty{90}{\degree}$. Cela doit rappeler le "cassement" de la caractéristique lors de la percée.
+Le symbole électrique d'une diode Zener (figure [ref:e_zener_symbol]) est celui d'une diode régulière, où le trait de la cathode a un prolongement supplémentaire à $\qty{90}{\degree}$. Cela doit rappeler le « cassement » de la caractéristique lors de la percée.
 
 <margin>
 [picture:860:e_zener_symbol:Symbole électrique d'une diode Zener]

@@ -27,7 +27,7 @@ Nella quantizzazione, invece, viene discretizzato l'asse dei valori: un valore m
 * Il valore del segnale può assumere qualsiasi valore intermedio
 * Un segnale analogico ideale è quindi *a tempo e a valori continui*
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ## Campionamento
 
@@ -126,7 +126,7 @@ Ora dobbiamo decidere con quale valore numerico digitale rappresentare il valore
 Se il valore effettivo si trova tra due livelli possibili, viene assegnato a un livello appropriato.
 </note>
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ## A valori continui e a valori discreti
 

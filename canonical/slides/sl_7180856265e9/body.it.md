@@ -68,7 +68,7 @@ La frequenza critica viene indicata anche come $f_k$ o $f_\mathrm{krit}$
 
 [question:AH208]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ## Frequenza ottimale
 
 * La pianificazione commerciale delle frequenze utilizza una *Frequency of optimal transmition*, frequenza ottimale di trasmissione
@@ -136,7 +136,7 @@ La frequenza critica viene indicata anche come $f_k$ o $f_\mathrm{krit}$
 * Integrato dallo strato, ad es. foF2
 
 <note>
-fo con la "o" minuscola per l'onda ordinaria
+fo con la «o» minuscola per l'onda ordinaria
 </note>
 ---
 [question:AH204]

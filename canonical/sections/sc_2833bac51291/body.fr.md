@@ -18,7 +18,7 @@ Pour résoudre les exercices de l'examen, il est utile d'examiner plus en détai
 
 Les condensateurs $C_1$ et $C_3$ servent de condensateurs de couplage. Ils laissent passer les signaux HF mais bloquent la tension continue. Cela empêche la transmission de tensions continues entre les différents étages du circuit et d'influencer le point de fonctionnement.
 
-La bobine d’arrêt sur la ligne d’alimentation de service $U_\mathrm{CC}$ empêche les signaux HF de s’échapper par l’alimentation électrique. Pour la haute fréquence, la bobine d’arrêt présente une impédance élevée et agit donc comme un blocage. Le condensateur $C_2$ sert au découplage HF de la tension d’alimentation. Il évacue les composantes HF résiduelles vers la masse et assure la stabilité HF de la tension d’alimentation. Associé à la bobine d’arrêt, il forme un découplage HF de l’alimentation de service. Ce circuit sera étudié plus tard sous le nom de "Bias-T".
+La bobine d’arrêt sur la ligne d’alimentation de service $U_\mathrm{CC}$ empêche les signaux HF de s’échapper par l’alimentation électrique. Pour la haute fréquence, la bobine d’arrêt présente une impédance élevée et agit donc comme un blocage. Le condensateur $C_2$ sert au découplage HF de la tension d’alimentation. Il évacue les composantes HF résiduelles vers la masse et assure la stabilité HF de la tension d’alimentation. Associé à la bobine d’arrêt, il forme un découplage HF de l’alimentation de service. Ce circuit sera étudié plus tard sous le nom de « Bias-T ».
 
 Une particularité de nombreux MMIC est que la tension de service est fournie par la sortie. La résistance $R_\text{BIAS}$ permet de régler le point de fonctionnement du MMIC.
 

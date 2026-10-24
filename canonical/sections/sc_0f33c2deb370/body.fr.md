@@ -37,7 +37,7 @@ Outre la déclaration, composée de plusieurs formulaires, une représentation *
 ---
 
 <tip>
-Le mot-clé pour la bonne réponse dans cette question et la suivante est à chaque fois le terme « compréhensible ».
+Le mot-clé pour la bonne réponse dans cette question et la suivante est à chaque fois le terme « compréhensible ».
 </tip>
 
 [question:VE512]
@@ -55,7 +55,7 @@ Tous les documents établis doivent être régulièrement vérifiés pour s’as
 
 ---
 
-Le respect des valeurs limites et la distance de sécurité qui en découle pour les personnes doivent être prouvés et documentés de manière compréhensible, soit par des calculs, soit par des mesures de champ. Le calcul peut être effectué à l’aide de la procédure d’évaluation simplifiée, par calcul en champ proche ou lointain, ou avec le logiciel « [Watt Wächter](https://50ohm.de/ww) » publié par l’Agence fédérale des réseaux. Les méthodes de calcul sont décrites dans un document téléchargeable sur le site de l’autorité.
+Le respect des valeurs limites et la distance de sécurité qui en découle pour les personnes doivent être prouvés et documentés de manière compréhensible, soit par des calculs, soit par des mesures de champ. Le calcul peut être effectué à l’aide de la procédure d’évaluation simplifiée, par calcul en champ proche ou lointain, ou avec le logiciel « [Watt Wächter](https://50ohm.de/ww) » publié par l’Agence fédérale des réseaux. Les méthodes de calcul sont décrites dans un document téléchargeable sur le site de l’autorité.
 
 <margin>
 [photo:80:n_Bewertungsverfahren:Ce document décrit les procédures d’évaluation.]

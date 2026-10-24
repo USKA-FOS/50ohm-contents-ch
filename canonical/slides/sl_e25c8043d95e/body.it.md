@@ -10,7 +10,7 @@
 </right>
 
 <note>
-Le domande corrette contengono "poli" o "regioni polari" e per noi in Europa la regione polare si trova a nord.
+Le domande corrette contengono «poli» o «regioni polari» e per noi in Europa la regione polare si trova a nord.
 </note>
 
 ---
@@ -32,7 +32,7 @@ La fine di un QSO in CW tra GM4YXI e OK/DF7TR/P durante un'aurora:
 * L'aurora è una regione fortemente ionizzata che riflette le onde radio superiori a $\qty{30}{\mega\hertz}$
 * Viene quindi utilizzata principalmente con UHF e VHF
 * La voce è troppo a banda larga, motivo per cui il CW è la modalità più adatta
-* Tuttavia, il segnale è "fluttuante" e "ronzante"
+* Tuttavia, il segnale è «fluttuante» e «ronzante»
 
 ---
 [question:AH304]

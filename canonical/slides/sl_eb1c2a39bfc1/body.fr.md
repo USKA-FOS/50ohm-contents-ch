@@ -81,7 +81,7 @@ Le courant de collecteur dépend de manière exponentielle de la tension base-é
 ---
 [question:AC516]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 #### Méthode de résolution
 <left>
 * donné : $U = \qty{10}{\volt}$
@@ -116,7 +116,7 @@ $R_1 = \frac{U_{\textrm{R1}}}{I_{\textrm{R1}}} = \frac{\qty{9,4}{\volt}}{\qty{11
 * Le courant de collecteur est principalement déterminé par $R_{\textrm{E}}$
 * Circuit très stable
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 <left>
 * donné : $U = \qty{10}{\volt}$
 * donné : $I_{\textrm{C}} = \qty{2}{\milli\ampere}$

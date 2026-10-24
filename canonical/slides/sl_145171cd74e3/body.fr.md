@@ -1,4 +1,4 @@
-* Sur une fréquence "vide", on entend du bruit
+* Sur une fréquence « vide », on entend du bruit
 * En FM, le bruit est particulièrement fort
 * Avec le *squelch*, on peut masquer le bruit
 * En anglais, *Squelch* (SQL)

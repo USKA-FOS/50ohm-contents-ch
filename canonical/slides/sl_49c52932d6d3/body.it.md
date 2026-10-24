@@ -21,7 +21,7 @@
 * Anche all’estero possono esistere stazioni speciali
 * I nominativi possono seguire regole diverse
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 | l: Nominativo | l: Assegnazione | X: Evento |
 | DL1250BRET | 2017 | 1250 anni della città di Bretten |
 | DL500BIER | 2016 | 500 anni del Reinheitsgebot tedesco |

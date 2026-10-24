@@ -21,7 +21,7 @@
 
 [question:AD321]
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 #### Méthode de résolution
 * donné : $R_L = \qty{470}{\ohm}$

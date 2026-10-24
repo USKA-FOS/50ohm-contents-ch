@@ -36,7 +36,7 @@ Certaines bandes de fréquences nous sont attribuées en priorité, d'autres en 
 ## Bande ISM
 
 <left>
-* *I*ndustrielle, *S*cientifique et *M*édicale
+* « *I*ndustrielle, *S*cientifique et *M*édicale »
 * Sous-bande du $\qty{70}{\centi\meter}$ du service amateur
 * De nombreux appareils ménagers l'utilisent
 * Malgré l'attribution en priorité, les perturbations dans le service amateur doivent être acceptées

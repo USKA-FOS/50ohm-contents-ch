@@ -39,5 +39,5 @@ Les stations de club peuvent également être exploitées en mode à distance. C
 % Existe-t-il une base légale en Suisse (HB) à ce sujet, ou que prévoit la réglementation suisse ?
 % Ce paragraphe pourrait éventuellement être déplacé après la ligne 15. Cependant, la ligne 15 reprend le texte original de la notice 1.7. Comme celle-ci mentionne que "l’autorisation ... est également accordée à des particuliers", il faut mentionner les associations d’une manière ou d’une autre.
 
-Une station à distance permet également d’effectuer des trafics radio de formation. Les mêmes règles que pour l’exploitation de formation s’appliquent. L’élève doit être encadré et supervisé directement, c’est-à-dire en personne. L’indicatif d’appel personnel ou celui de la station de club doit être complété par "/T" ou "/Trainee".
+Une station à distance permet également d’effectuer des trafics radio de formation. Les mêmes règles que pour l’exploitation de formation s’appliquent. L’élève doit être encadré et supervisé directement, c’est-à-dire en personne. L’indicatif d’appel personnel ou celui de la station de club doit être complété par « /T » ou « /Trainee ».
 % Existe-t-il une base légale en Suisse (HB) à ce sujet, ou que prévoit la réglementation suisse ?

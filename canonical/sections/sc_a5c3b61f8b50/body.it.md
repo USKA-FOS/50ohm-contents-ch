@@ -3,7 +3,7 @@
 
 I collegamenti radio [index:collegamento radio] avvengono solitamente in modo bidirezionale su una stessa frequenza. Ovvero, una stazione trasmette mentre l'altra ascolta. Se entrambe trasmettono contemporaneamente, nessuna delle due riceve. Pertanto, è importante che vi sia una certa ordine nello svolgimento di un collegamento radio, detto anche gestione operativa [index:gestione operativa].
 
-Nei molti servizi radio la gestione operativa è strettamente regolamentata, ad esempio nel radiofonia aeronautica, nella polizia, nei vigili del fuoco o nei servizi di soccorso. Nel radioamatoriale [index:radioamatoriale] non esistono prescrizioni vincolanti per la gestione operativa. È sufficiente menzionare correttamente il nominativo. Tuttavia, anche nel radioamatoriale è utile seguire le consuetudini di gestione operativa e conoscere le abbreviazioni più diffuse. Per questo esiste anche una specifica parte d'esame denominata "conoscenze operative".
+Nei molti servizi radio la gestione operativa è strettamente regolamentata, ad esempio nel radiofonia aeronautica, nella polizia, nei vigili del fuoco o nei servizi di soccorso. Nel radioamatoriale [index:radioamatoriale] non esistono prescrizioni vincolanti per la gestione operativa. È sufficiente menzionare correttamente il nominativo. Tuttavia, anche nel radioamatoriale è utile seguire le consuetudini di gestione operativa e conoscere le abbreviazioni più diffuse. Per questo esiste anche una specifica parte d'esame denominata «conoscenze operative».
 
 Tutti i radioamatori utilizzano le frequenze disponibili in comune. Vale il principio: chi arriva prima, macina prima. Pertanto, prima di iniziare un collegamento radio, si dovrebbe ascoltare per un po' di tempo se la frequenza non sia già utilizzata da un'altra stazione. Per essere sicuri, si dovrebbe poi chiedere brevemente per due o tre volte se la frequenza è libera.
 
@@ -18,7 +18,7 @@ CQ CQ qui è HB9RW con una chiamata generale, qui HB9RW e ascolto.
 
 Se non si riceve risposta, si può presumere che la frequenza non sia occupata. Ora si può iniziare un collegamento radio. Come al telefono, questa azione si chiama chiamata . In linea di principio, esistono due modalità di chiamata: la chiamata generale e la chiamata mirata.
 
-* Con una *chiamata generale* [index:chiamata:Generale] si invita *tutte* le stazioni che possono ricevere a rispondere. L'abbreviazione internazionale per la chiamata generale è CQ. Se CQ viene pronunciato in inglese (ad esempio "si-kju"), suona come "seek you" (circa "sik-ju"), cioè "ti cerco". Nel traffico radiofonico in lingua tedesca, invece di CQ si usa anche la locuzione "chiamata generale".
+* Con una *chiamata generale* [index:chiamata:Generale] si invita *tutte* le stazioni che possono ricevere a rispondere. L'abbreviazione internazionale per la chiamata generale è CQ. Se CQ viene pronunciato in inglese (ad esempio «si-kju»), suona come «seek you» (circa «sik-ju»), cioè «ti cerco». Nel traffico radiofonico in lingua tedesca, invece di CQ si usa anche la locuzione «chiamata generale».
 * Con una *chiamata mirata* [index:chiamata:Mirata] invece si desidera la risposta *di una stazione specifica*.
 
 ---
@@ -51,7 +51,7 @@ H*(krschkrsch)*RW da HB9CN, prego rispondere
 Dopo un collegamento radio (spesso indicato come QSO), la frequenza viene sempre lasciata alla stazione che ha iniziato la chiamata. La frequenza *appartiene* per così dire al chiamante. Indipendentemente dal fatto che abbia effettuato una chiamata generale o mirata.
 
 <indepth>
-*QSO* è un'abbreviazione originariamente derivata dal telegrafo Morse e significa "ho un contatto diretto con la stazione X". In analogia a ciò, i radioamatori spesso parlano di QSO quando intendono un collegamento radio andato a buon fine.
+*QSO* è un'abbreviazione originariamente derivata dal telegrafo Morse e significa «ho un contatto diretto con la stazione X». In analogia a ciò, i radioamatori spesso parlano di QSO quando intendono un collegamento radio andato a buon fine.
 </indepth>
 
 ---

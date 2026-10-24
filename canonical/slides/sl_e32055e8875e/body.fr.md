@@ -8,7 +8,7 @@
 * Les fréquences supplémentaires sont appelées *bandes latérales*
 </right>
 <note>
-Il peut sembler paradoxal que, en modulation d'amplitude, la fréquence semble modifiée. Une explication à ce sujet est disponible dans la section "Approfondissement" de la [page 50Ohm](/N_am.html). Pour ceux qui veulent aller plus loin, il est possible de consulter les *théorèmes d'addition pour les fonctions trigonométriques* afin de comprendre comment s'effectue le calcul.
+Il peut sembler paradoxal que, en modulation d'amplitude, la fréquence semble modifiée. Une explication à ce sujet est disponible dans la section « Approfondissement » de la [page 50Ohm](/N_am.html). Pour ceux qui veulent aller plus loin, il est possible de consulter les *théorèmes d'addition pour les fonctions trigonométriques* afin de comprendre comment s'effectue le calcul.
 </note>
 
 ---

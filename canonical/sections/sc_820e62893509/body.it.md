@@ -1,6 +1,6 @@
 %TODO spostare eventualmente il capitolo altrove
 
-Nel sottocapitolo *Decibel* del blocco dedicato a "corrente, tensione, resistenza, potenza, energia" è già stato accennato che i suffissi $\unit{\dBd}$ e $\unit{\dBi}$, utilizzati per indicare il guadagno d'antenna, specificano il riferimento di base. In questo caso il valore in decibel non si riferisce a una potenza o a una tensione, ma a un particolare radiatore di riferimento. I riferimenti più comuni sono $\unit{\dBi}$, riferito al radiatore isotropico sferico, e $\unit{\dBd}$, riferito al dipolo a semionda.
+Nel sottocapitolo *Decibel* del blocco dedicato a «corrente, tensione, resistenza, potenza, energia» è già stato accennato che i suffissi $\unit{\dBd}$ e $\unit{\dBi}$, utilizzati per indicare il guadagno d'antenna, specificano il riferimento di base. In questo caso il valore in decibel non si riferisce a una potenza o a una tensione, ma a un particolare radiatore di riferimento. I riferimenti più comuni sono $\unit{\dBi}$, riferito al radiatore isotropico sferico, e $\unit{\dBd}$, riferito al dipolo a semionda.
 
 Il *radiatore isotropico* (cfr. figura [ref:e_Kugelstrahler]) è un'antenna ipotetica ideale che irradia con la stessa intensità in tutte le direzioni. Se un'antenna reale presenta una direttività, l'irradiazione sarà più intensa in alcune direzioni e meno intensa in altre rispetto a quella del radiatore isotropico ipotetico.
 

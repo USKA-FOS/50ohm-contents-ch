@@ -2,7 +2,7 @@ Dans le radioamateurisme, de nombreuses méthodes de transmission digitales sont
 
 La télégraphie Morse est la plus ancienne méthode de transmission utilisée en radio. Les premiers émetteurs radio ne connaissaient pas d’autre procédé. La seule façon de transmettre des informations consistait à allumer et éteindre brièvement l’émetteur à l’aide d’une touche. À la réception, cela se traduit par un son qui s’allume et s’éteint selon le rythme donné.
 
-Pour transmettre différents caractères, c’est-à-dire des lettres, des chiffres et des signes de ponctuation, on utilise le code Morse. Chaque caractère est défini par une séquence précise de sons courts et longs. Les tableaux [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] et [ref:n_morsetelegrafie_morsecode_spezial] présentent une partie du code Morse. Un point ([morse:e]) (prononcé « dit ») représente un son court et un trait ([morse:t]) (prononcé « dah ») un son long. Le décodage, c’est-à-dire la traduction des sons en caractères à la réception, se fait à l’oreille et avec le cerveau – ou, de nos jours, également avec un ordinateur.
+Pour transmettre différents caractères, c’est-à-dire des lettres, des chiffres et des signes de ponctuation, on utilise le code Morse. Chaque caractère est défini par une séquence précise de sons courts et longs. Les tableaux [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] et [ref:n_morsetelegrafie_morsecode_spezial] présentent une partie du code Morse. Un point ([morse:e]) (prononcé « dit ») représente un son court et un trait ([morse:t]) (prononcé « dah ») un son long. Le décodage, c’est-à-dire la traduction des sons en caractères à la réception, se fait à l’oreille et avec le cerveau – ou, de nos jours, également avec un ordinateur.
 
 **Le Morse est une manipulation temporellement définie d’une porteuse. L’information ne provient pas seulement des points et des traits, mais aussi des pauses strictement définies.**
 
@@ -14,7 +14,7 @@ Les rapports de temps entre point, trait et pauses sont définis comme suit :
 * Pause entre deux caractères = 3 unités de temps
 * Pause entre deux mots = 7 unités de temps
 
-La « vitesse » est exprimée en mots par minute [WPM] (Words Per Minute), le mot de référence international étant PARIS.
+La « vitesse » est exprimée en mots par minute [WPM] (Words Per Minute), le mot de référence international étant PARIS.
 
 <webmargin>
 | c: | l: | c: | l: | c: | l: |

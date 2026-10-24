@@ -6,7 +6,7 @@ Les contests se déroulent sur différentes bandes et avec divers modes de trans
 
 ---
 
-Les appels lors d'un contest contiennent toujours l'indication "Contest" ou, en télégraphie, "Test". Cela permet de reconnaître immédiatement que la station appelante participe à un contest. Par exemple, si l'indicatif DD4UQ participe en portable au populaire Fieldday en télégraphie, son appel pourrait être : "CQ FD DD4UQ/P TEST".
+Les appels lors d'un contest contiennent toujours l'indication « Contest » ou, en télégraphie, « Test ». Cela permet de reconnaître immédiatement que la station appelante participe à un contest. Par exemple, si l'indicatif DD4UQ participe en portable au populaire Fieldday en télégraphie, son appel pourrait être : « CQ FD DD4UQ/P TEST ».
 
 <indepth>
 En télégraphie, *TEST* ne signifie pas qu'une personne effectue un essai, par exemple en testant son antenne, mais qu'elle participe à un contest.

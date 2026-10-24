@@ -11,7 +11,7 @@
 * Des abréviations sont utilisées
 </note>
 
---- style="font-size: 0.5em;"
+--- style=« font-size: 0.5em; »
 | r: | c: | r: | X: | l: |
 | $\qty{30}{\kilo\hertz}$ | - | $\qty{300}{\kilo\hertz}$ | Low Frequency | LF |
 | | | | (Onde longue) | (OL) |

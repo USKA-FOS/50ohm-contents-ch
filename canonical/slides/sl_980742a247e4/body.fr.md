@@ -34,7 +34,7 @@ Nommé d’après le physicien italien Alessandro Volta
 
 <note>
 * Insister brièvement sur les préfixes d’unités
-* Similaire à « millilitre » ou « milligramme »
+* Similaire à « millilitre » ou « milligramme »
 </note>
 
 ---

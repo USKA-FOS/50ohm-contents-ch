@@ -22,7 +22,7 @@ QTH Berlino $\rightarrow$ QTH?
 ---
 * QRV: Sono pronto (*v*orbereitet)
 * QRM: Disturbo, o come domanda: Siete disturbati? &rarr; *M*an-made, ad esempio da un impianto fotovoltaico o da una trasmissione su frequenza adiacente
-* QTH: La mia posizione è ..., ad esempio "QTH Berlino"
+* QTH: La mia posizione è ..., ad esempio «QTH Berlino»
 
 ---
 [question:BB204]
@@ -36,9 +36,9 @@ QTH Berlino $\rightarrow$ QTH?
 [question:BB203]
 
 ---
-* "QRZ?" viene spesso utilizzato nelle bande radioamatoriali al posto di "CQ"
-* In particolare in caso di "Pile Up", quando molte stazioni vogliono contattare una stazione molto richiesta
-* Dopo aver gestito una chiamata, la stazione richiesta trasmette brevemente "QRZ?" per richiamare altre stazioni
+* «QRZ?» viene spesso utilizzato nelle bande radioamatoriali al posto di «CQ»
+* In particolare in caso di «Pile Up», quando molte stazioni vogliono contattare una stazione molto richiesta
+* Dopo aver gestito una chiamata, la stazione richiesta trasmette brevemente «QRZ?» per richiamare altre stazioni
 
 ---
 
@@ -64,8 +64,8 @@ QTH Berlino $\rightarrow$ QTH?
 
 ---
 * QRN: Disturbi atmosferici (*n*aturali, per distinguerli da QRM)
-* QSB: Fading, segni incostanti ("su e giù"; in tedesco: *b*ergauf e *b*ergab)
-* QSY: Cambio di frequenza ("Change Frequenc*y*")
+* QSB: Fading, segni incostanti («su e giù»; in tedesco: *b*ergauf e *b*ergab)
+* QSY: Cambio di frequenza («Change Frequenc*y*»)
 
 ---
 
@@ -77,7 +77,7 @@ QTH Berlino $\rightarrow$ QTH?
 ---
 [question:BE107]
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 | l:  | l: Significato | l: Aiuto mnemonico |
 | QRN | Disturbi atmosferici | *N*aturali |
@@ -88,7 +88,7 @@ QTH Berlino $\rightarrow$ QTH?
 | QRV | Sono pronto | *v*orbereitet |
 [table:n_q_gruppen_1:Tutte le principali *gruppi Q* rilevanti per l'esame con aiuti mnemonici]
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 | l:  | l: Significato | l: Aiuto mnemonico |
 | QRX? | Quando mi richiamerete? | Tempo *X* |

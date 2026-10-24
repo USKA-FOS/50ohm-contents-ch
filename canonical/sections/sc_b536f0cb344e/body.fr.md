@@ -34,15 +34,15 @@ BK QSL = VY 73 DE HB3AB SK
 | CQ | Appel général |
 | DE | de (provenant de) |
 | K | Invitation à transmettre |
-| PSE | S'il vous plaît (de l'anglais "Please") |
+| PSE | S'il vous plaît (de l'anglais « Please ») |
 | QSL | J'accuse réception |
 | R | Reçu (accusé de réception) |
-| RPRT | Rapport (de l'anglais "Report") |
+| RPRT | Rapport (de l'anglais « Report ») |
 | RST | Rapport RST |
-| SK | Fin de la liaison (de l'anglais "Silent Key") |
-| TNX | Merci (de l'anglais "Thanks") |
-| UR | tu es (au sens de "ton signal est", de l'anglais "you are") |
-| VY | très (de l'anglais "very") |
+| SK | Fin de la liaison (de l'anglais « Silent Key ») |
+| TNX | Merci (de l'anglais « Thanks ») |
+| UR | tu es (au sens de « ton signal est », de l'anglais « you are ») |
+| VY | très (de l'anglais « very ») |
 | 73 | meilleures salutations |
 | = | Séparateur |
 [table:n_funkfernschreiben_abkuerzungen:Abréviations opérationnelles en télégraphie]

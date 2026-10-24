@@ -36,7 +36,7 @@ La denominazione con lettere risale a una prima classificazione sistematica di a
 * Aumenta la potenza dissipata termicamente
 * Riduce il rendimento
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ### AP1
 <left>
 [picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]  
@@ -48,7 +48,7 @@ La denominazione con lettere risale a una prima classificazione sistematica di a
 * Rendimento circa $\qtyrange{80}{87}{\percent}$
 * Alto contenuto di armoniche
 </right>
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ### AP2
 <left>
 [picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]  
@@ -60,7 +60,7 @@ La denominazione con lettere risale a una prima classificazione sistematica di a
 * Rendimento fino a $\qty{80}{\percent}$
 * Basso contenuto di armoniche
 </right>
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ### AP3
 <left>
 [picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]  
@@ -72,7 +72,7 @@ La denominazione con lettere risale a una prima classificazione sistematica di a
 * Rendimento tra $\qty{50}{\percent}$ e $\qty{80}{\percent}$
 * Basso contenuto di armoniche
 </right>
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ### AP4
 <left>
 [picture:377:a_kennlinien_transistor_arbeitspunkt:Kennlinie eines Transistors mit Arbeitspunkten]  

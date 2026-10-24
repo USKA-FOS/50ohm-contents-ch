@@ -20,7 +20,7 @@ Nelle unità di base ($\unit{\second}$, $\unit{\meter}$), la relazione tra lungh
 
 $\lambda = \dfrac{c_0}{f}$
 
-Dove $c_0$ è la velocità di propagazione delle onde elettromagnetiche nel vuoto ("velocità della luce"), $c_o \approx \qty{300000000}{\meter\per\second}$
+Dove $c_0$ è la velocità di propagazione delle onde elettromagnetiche nel vuoto («velocità della luce»), $c_o \approx \qty{300000000}{\meter\per\second}$
 </indepth>
 
 Consideriamo qui la relazione tra frequenza e lunghezza d’onda nella forma più astratta:
@@ -33,7 +33,7 @@ Per ottenere ciò, moltiplichiamo prima entrambi i lati dell'equazione per la fr
 
 $\lambda = \dfrac{c_0}{f} \quad\quad\quad | \cdot f$
 
-Questo è illustrato da "$|~\cdot f$", dove la barra verticale significa che l'operazione seguente viene eseguita su entrambi i lati.
+Questo è illustrato da «$|~\cdot f$», dove la barra verticale significa che l'operazione seguente viene eseguita su entrambi i lati.
 
 Si ottiene così una nuova equazione:
 

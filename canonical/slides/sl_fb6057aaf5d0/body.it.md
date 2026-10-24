@@ -28,7 +28,7 @@
 * Riduce notevolmente il carico computazionale
 * Ampiamente diffuso in software e hardware per l'elaborazione dei segnali
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ## Spettri di forme d'onda tipiche
 

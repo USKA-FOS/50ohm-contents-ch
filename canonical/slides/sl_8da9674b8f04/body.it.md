@@ -6,12 +6,12 @@
 * Le indicazioni vengono sempre fornite in kHz.
 
 <note>
-Un vantaggio della comunicazione in split è che la stazione particolare rimane chiaramente udibile e non "scompare" nel pile-up.
+Un vantaggio della comunicazione in split è che la stazione particolare rimane chiaramente udibile e non «scompare» nel pile-up.
 </note>
 
 ---
 
-* "5 up" significa: la stazione che chiama ascolta $\qty{5}{\kilo\hertz}$ sopra la propria frequenza di trasmissione
+* «5 up» significa: la stazione che chiama ascolta $\qty{5}{\kilo\hertz}$ sopra la propria frequenza di trasmissione
 * Esempio: se la stazione trasmette su $\qty{28410}{\kilo\hertz}$, si deve rispondere su $\qty{28415}{\kilo\hertz}$
 
 [picture:672:n_split_verkehr_anruffrequenz:Comunicazione in split, frequenza di trasmissione della stazione desiderata e frequenza di risposta su cui riceve]
@@ -24,7 +24,7 @@ Un vantaggio della comunicazione in split è che la stazione particolare rimane 
 
 ---
 
-* Più spesso viene indicato un intero banda di frequenza, ad esempio "split up 28420 to 28430" o brevemente "tuning 420 to 430 up"
+* Più spesso viene indicato un intero banda di frequenza, ad esempio «split up 28420 to 28430» o brevemente «tuning 420 to 430 up»
 * Significa: la stazione riceve su frequenze variabili all'interno del banda indicato
 * Poiché nessuno sa su quale frequenza viene ascoltato in un dato momento, è necessario scegliere una frequenza a caso all'interno del banda e rispondere lì
 

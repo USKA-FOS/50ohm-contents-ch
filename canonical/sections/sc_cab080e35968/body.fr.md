@@ -17,9 +17,9 @@ Une liaison fixe est une liaison radio établie de manière permanente, servant 
 %TODO ARK: Déplacer une des images dans la section 16.11 Réseaux à commutation de paquets !
 
 <law>
-- Des "Explications détaillées concernant le service d'amateur" se trouvent dans la [Notice sur le radioamateurisme](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) de l'OFCOM.
+- Des « Explications détaillées concernant le service d'amateur » se trouvent dans la [Notice sur le radioamateurisme](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) de l'OFCOM.
 
-- Lien direct pour la déclaration des "Utilisations spéciales de fréquences" à l'OFCOM sur [eGov](https://www.egov.swiss/de/amateurfunk/spezielle-frequenznutzung-detail)
+- Lien direct pour la déclaration des « Utilisations spéciales de fréquences » à l'OFCOM sur [eGov](https://www.egov.swiss/de/amateurfunk/spezielle-frequenznutzung-detail)
 
 </law>
 

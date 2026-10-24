@@ -3,7 +3,7 @@ Pour réduire la bande passante maximale d’un signal BLU émis et utiliser eff
 [question:AE208]
 [question:AE209]
 
-Si un signal BLU est surmodulé dans le modulateur de l’émetteur, cela génère des distorsions qui entraînent des émissions parasites. Ces émissions parasites sont communément appelées « splatter » et peuvent perturber les émissions voisines, car la bande passante du signal émis dépasse alors les $\qty{2,7}{\kilo\hertz}$ requis.
+Si un signal BLU est surmodulé dans le modulateur de l’émetteur, cela génère des distorsions qui entraînent des émissions parasites. Ces émissions parasites sont communément appelées « splatter » et peuvent perturber les émissions voisines, car la bande passante du signal émis dépasse alors les $\qty{2,7}{\kilo\hertz}$ requis.
 [question:AE205]
 
 La voix de chaque personne possède un spectre de fréquences individuel. Pour une intelligibilité optimale des émissions BLU, les fréquences vocales élevées doivent être renforcées et les fréquences basses atténuées. Un égaliseur intégré à l’amplificateur du microphone de l’émetteur permet d’ajuster individuellement la réponse en fréquence du signal de modulation. Cela permet d’adapter de manière optimale la réponse en fréquence du microphone à l’opérateur.

@@ -50,7 +50,7 @@ Doivent être disponibles à la station radio et, sur demande de la BNetzA, pré
 * Configuration de l'installation radio
 
 <note>
-Mot-clé pour la bonne réponse à cette question et à la suivante : "compréhensible"
+Mot-clé pour la bonne réponse à cette question et à la suivante : « compréhensible »
 </note>
 
 ---
@@ -89,7 +89,7 @@ par exemple : mât d'antenne supplémentaire, changement d'antenne ou augmentati
 </left>
 <right>
 Outils d'aide :
-* Logiciel "[Watt Wächter](https://50ohm.de/ww)"
+* Logiciel « [Watt Wächter](https://50ohm.de/ww) »
 * Procédure d'évaluation simplifiée
 * Mesure de l'intensité du champ
 * Calcul du champ lointain

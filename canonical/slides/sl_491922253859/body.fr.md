@@ -1,5 +1,5 @@
 * Liaison radio sur de longues distances
-* DX $\rightarrow$ « long distance » (issu de la télégraphie Morse)
+* DX $\rightarrow$ « long distance » (issu de la télégraphie Morse)
 * Distinction entre ondes courtes et VHF
 
 ---
@@ -91,7 +91,7 @@ Il est toujours possible de convenir d’une autre langue au cours de la convers
 ## Expédition DX
 * Réaliser des activités radio DX depuis des endroits particuliers de la Terre
 * Généralement dans les endroits les plus reculés du monde
-* Désigné sous le terme de « DX-Pedition »
+* Désigné sous le terme de « DX-Pedition »
 
 <note>
 * Certaines régions ont leurs propres préfixes

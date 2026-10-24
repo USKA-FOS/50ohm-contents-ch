@@ -36,7 +36,7 @@ $Z = \sqrt{Z_\mathrm{E} \cdot Z_\mathrm{A}}$
 Les bobines et les condensateurs sont également souvent utilisés pour l’adaptation d’impédance. On trouve fréquemment le filtre en π, qui, en plus de son rôle de passe-bas, effectue une transformation d’impédance. Un tel filtre en π peut donc aussi servir d’accordeur d’antenne.
 
 <indepth>
-*Le nom « filtre en π »* provient de la disposition des composants dans le schéma électrique, qui rappelle la lettre grecque $\pi$, et n’a aucun rapport avec le nombre Pi $\pi$.
+*Le nom « filtre en π »* provient de la disposition des composants dans le schéma électrique, qui rappelle la lettre grecque $\pi$, et n’a aucun rapport avec le nombre Pi $\pi$.
 </indepth>
 
 [question:AG406]

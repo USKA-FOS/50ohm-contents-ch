@@ -1,4 +1,4 @@
---- data-transition="none"
+--- data-transition=« none »
 ## De la diode au transistor
 <left>
 On peut imaginer la fonction comme suit :
@@ -9,7 +9,7 @@ On peut imaginer la fonction comme suit :
 [picture:835:e_transistor_wehr_geschlossen:Le canal de commande ferme complètement le barrage]
 </right>
 
---- data-transition="none"
+--- data-transition=« none »
 
 ## De la diode au transistor
 <left>
@@ -20,7 +20,7 @@ On peut imaginer la fonction comme suit :
 [picture:837:e_transistor_wehr_halb_offen:Le canal de commande ouvre le barrage à moitié]
 </right>
 
---- data-transition="none"
+--- data-transition=« none »
 
 ## De la diode au transistor
 <left>
@@ -102,7 +102,7 @@ Comme le courant de collecteur et le courant de base circulent à travers le tra
 
 [question:EC611]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ### Quand le transistor NPN devient-il conducteur ?
 La tension base-émetteur est-elle suffisante et se trouve-t-elle à un potentiel positif ?
@@ -125,7 +125,7 @@ $U_{ BE } = U_{ B } - U_{ E }$
 
 [question:EC613]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ### Quand le transistor PNP devient-il conducteur ?
 La tension base-émetteur est-elle suffisante et se trouve-t-elle à un potentiel négatif ?

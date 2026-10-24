@@ -36,7 +36,7 @@ $d > \dfrac{\lambda}{2\pi}$
 
 [question:AK107]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 #### Procedimento di soluzione
 <left>
 * dato: $g_d = \qty{6}{\dBd}$
@@ -62,7 +62,7 @@ $\begin{split}P_{EIRP} &= P_S \cdot 10^{\frac{g_d - a + 2,15dB}{\qty{10}{\dB}}}\
 
 [question:AK113]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 #### Procedimento di soluzione
 <left>
 * dato: $g_i = \qty{12,15}{\dBi}$
@@ -88,7 +88,7 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_A \cdot G_i}}{d}\\ &= \fra
 
 [question:AK114]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 #### Procedimento di soluzione
 * dato: $P_{ERP} = \qty{100}{\watt}$
 * dato: $d = \qty{100}{\meter}$
@@ -109,7 +109,7 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ &= \frac{\sq
 
 [question:AK115]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 #### Procedimento di soluzione
 * dato: $P_{ERP} = \qty{100}{\watt}$
 * dato: $d = \qty{100}{\meter}$

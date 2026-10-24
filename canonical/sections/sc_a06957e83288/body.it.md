@@ -58,4 +58,4 @@ In una modulazione di ampiezza, ad esempio, viene modificata la lunghezza del ve
 
 Con lo stesso modulatore I/Q è quindi possibile generare tra l’altro AM, FM, PM, SSB, PSK e QAM. È sufficiente calcolare i segnali I e Q in modo diverso a seconda del metodo. 
 
-Il modulatore I/Q è quindi, per così dire, il "coltellino svizzero dei modulatori". Questo è anche uno dei motivi principali della grande flessibilità della tecnologia SDR moderna: il metodo di modulazione utilizzato viene determinato in gran parte tramite software, mentre l’hardware ad alta frequenza può rimanere invariato.
+Il modulatore I/Q è quindi, per così dire, il «coltellino svizzero dei modulatori». Questo è anche uno dei motivi principali della grande flessibilità della tecnologia SDR moderna: il metodo di modulazione utilizzato viene determinato in gran parte tramite software, mentre l’hardware ad alta frequenza può rimanere invariato.

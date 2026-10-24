@@ -16,7 +16,7 @@
 ---
 [question:AI601]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 #### Méthode de résolution
 <left>
 * donné : $R = \qty{150}{\ohm}$

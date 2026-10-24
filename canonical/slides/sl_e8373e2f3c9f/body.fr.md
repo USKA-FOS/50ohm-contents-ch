@@ -1,4 +1,4 @@
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 ### Polarisation circulaire
 

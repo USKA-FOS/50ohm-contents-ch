@@ -19,7 +19,7 @@
 [picture:802:am_detektor_kopfhoerer:Segnale BF udibile]
 </right>
 
---- data-transition="none"
+--- data-transition=«none»
 
 <left>
 [picture:799:am_detektor:Schema di un semplice ricevitore a detector]
@@ -31,7 +31,7 @@
 [picture:802:am_detektor_kopfhoerer:Segnale BF udibile]
 </right>
 
---- data-transition="none"
+--- data-transition=«none»
 
 <left>
 [picture:799:am_detektor:Schema di un semplice ricevitore a detector]
@@ -43,7 +43,7 @@
 [picture:802:am_detektor_kopfhoerer:Segnale BF udibile]
 </right>
 
---- data-transition="none"
+--- data-transition=«none»
 
 <left>
 [picture:799:am_detektor:Schema di un semplice ricevitore a detector]

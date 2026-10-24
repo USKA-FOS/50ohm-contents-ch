@@ -1,4 +1,4 @@
-Le cosiddette *microonde* non hanno nulla a che fare con il prefisso del Sistema Internazionale "micro-", ma indicano onde elettromagnetiche con frequenze comprese tra circa $\qty{1}{\giga\hertz}$ e circa $\qty{300}{\giga\hertz}$. La lunghezza d’onda delle microonde corrisponde quindi a millimetri fino a pochi decimetri.
+Le cosiddette *microonde* non hanno nulla a che fare con il prefisso del Sistema Internazionale «micro-», ma indicano onde elettromagnetiche con frequenze comprese tra circa $\qty{1}{\giga\hertz}$ e circa $\qty{300}{\giga\hertz}$. La lunghezza d’onda delle microonde corrisponde quindi a millimetri fino a pochi decimetri.
 
 <margin>
 [picture:850:e_parabolspiegel_funktion:Funzionamento di un riflettore parabolico]

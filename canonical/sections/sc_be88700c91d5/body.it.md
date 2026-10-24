@@ -2,13 +2,13 @@ Naturalmente, è anche regolamentato cosa si intende esattamente per stazione di
 
 [question:VA201]
 
-La definizione generale di stazione radio delle Radio Regulations (RR) si applica anche alle stazioni di radioamatore. Le Radio Regulations definiscono quindi la stazione di radioamatore semplicemente come "una stazione radio del servizio di radioamatore".
+La definizione generale di stazione radio delle Radio Regulations (RR) si applica anche alle stazioni di radioamatore. Le Radio Regulations definiscono quindi la stazione di radioamatore semplicemente come «una stazione radio del servizio di radioamatore».
 
 [question:VA202]
 
 Per la definizione nazionale di stazione di radioamatore, confrontiamo nuovamente la legge sul radioamatore (AFuG), in particolare il § 2 comma 3:
 
-"Ai sensi della presente legge, ... una stazione di radioamatore è una stazione radio composta da una o più apparecchiature trasmittenti e riceventi, incluse le antenne e le apparecchiature aggiuntive necessarie per il loro funzionamento, che può essere utilizzata su almeno una delle frequenze designate nel piano di utilizzo delle frequenze per il servizio di radioamatore."
+«Ai sensi della presente legge, ... una stazione di radioamatore è una stazione radio composta da una o più apparecchiature trasmittenti e riceventi, incluse le antenne e le apparecchiature aggiuntive necessarie per il loro funzionamento, che può essere utilizzata su almeno una delle frequenze designate nel piano di utilizzo delle frequenze per il servizio di radioamatore.»
 
 La definizione di stazione di radioamatore ci è già nota dalle Radio Regulations (RR). Anche qui non ci sono differenze fondamentali rispetto alla nostra legge sul radioamatore (AFuG). Una stazione di radioamatore consiste in una o più apparecchiature trasmittenti e riceventi, incluse le antenne e le apparecchiature aggiuntive necessarie per il loro funzionamento. La stazione deve poter essere utilizzata su almeno una frequenza di radioamatore.
 

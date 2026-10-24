@@ -1,6 +1,6 @@
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ## Ionosfera e onde corte
 
@@ -27,7 +27,7 @@ Dal punto di vista fisico si tratta di una rifrazione o riflessione. Per un’in
 
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ### Propagazione e ciclo solare
 
@@ -53,7 +53,7 @@ Il ciclo solare è solo uno dei diversi fattori influenti. Non è possibile gara
 
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ### Quando e dove ascoltare?
 

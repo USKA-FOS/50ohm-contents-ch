@@ -10,9 +10,9 @@ Il funzionamento radioamatoriale non può essere utilizzato a fini economici. È
 
 Sono inoltre esplicitamente vietate le *comunicazioni a fini di transazione commerciale*. Due esempi: 
 
-Lo scambio di informazioni sui prezzi è consentito ("Utilizzo un Yaesu FT-991A. Sul mercato dell’usato attualmente costa circa 700 franchi."). L’offerta concreta, la negoziazione o la conclusione di una vendita rappresentano invece una transazione commerciale e sono quindi vietate ("Ho un Yaesu FT-991A. Chi offre per primo 700 franchi, lo riceve. Affare?").
+Lo scambio di informazioni sui prezzi è consentito («Utilizzo un Yaesu FT-991A. Sul mercato dell’usato attualmente costa circa 700 franchi.»). L’offerta concreta, la negoziazione o la conclusione di una vendita rappresentano invece una transazione commerciale e sono quindi vietate («Ho un Yaesu FT-991A. Chi offre per primo 700 franchi, lo riceve. Affare?»).
 
-Le informazioni puramente associative senza incentivi finanziari rientrano nel normale funzionamento radio ("La nostra associazione organizza una festa. Siamo lieti di accogliere visitatori e volontari."). Promettere invece una contropartita (buoni pasto, denaro, servizi gratuiti) trasforma l’appello in un’offerta commerciale non consentita ("La nostra associazione cerca ancora volontari per la festa. Chi dà una mano riceve vitto gratuito.").
+Le informazioni puramente associative senza incentivi finanziari rientrano nel normale funzionamento radio («La nostra associazione organizza una festa. Siamo lieti di accogliere visitatori e volontari.»). Promettere invece una contropartita (buoni pasto, denaro, servizi gratuiti) trasforma l’appello in un’offerta commerciale non consentita («La nostra associazione cerca ancora volontari per la festa. Chi dà una mano riceve vitto gratuito.»).
 [question:VN016]
 
 

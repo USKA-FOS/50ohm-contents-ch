@@ -15,7 +15,7 @@ Tuttavia, se $U_d$ è solo leggermente maggiore di 0, non scorre ancora una corr
 </margin>
 
 <indepth>
-La corrente del diodo è data da un'equazione esponenziale. Si dice "esponenziale" perché la variabile indipendente $U_d$ si trova nell'esponente, cioè nella "potenza".
+La corrente del diodo è data da un'equazione esponenziale. Si dice «esponenziale» perché la variabile indipendente $U_d$ si trova nell'esponente, cioè nella «potenza».
 
 $I_d = I_S \left(e^{\frac{U_d}{U_T}}-1\right)$
 
@@ -72,7 +72,7 @@ $ I=\frac{U-U_{th}}{R_V}$
 
 ---
 
-Nel nostro semplice modello, per $U_d$ negative scorre solo una piccola corrente inversa. Tuttavia, ciò non vale per tensioni molto negative. Ad un certo punto, il campo elettrico attraverso lo strato di sbarramento diventa troppo alto e il diodo "entra in rottura", la corrente in direzione inversa aumenta estremamente, come mostrato nella figura [ref:n_diode_kennlinie_uz].
+Nel nostro semplice modello, per $U_d$ negative scorre solo una piccola corrente inversa. Tuttavia, ciò non vale per tensioni molto negative. Ad un certo punto, il campo elettrico attraverso lo strato di sbarramento diventa troppo alto e il diodo «entra in rottura», la corrente in direzione inversa aumenta estremamente, come mostrato nella figura [ref:n_diode_kennlinie_uz].
 
 Questa *rottura inversa* può avere diverse cause fisiche, che non possiamo trattare qui in dettaglio. La tensione alla quale avviene questa rottura è comunemente chiamata *tensione Zener* $U_z$, anche se l'effetto Zener (un effetto tunnel quantomeccanico) è solo un possibile meccanismo di rottura. I *diodi Zener* sono utilizzati per la stabilizzazione della tensione. In questo caso, è importante limitare la corrente di rottura con una resistenza in serie.
 
@@ -82,7 +82,7 @@ Questa *rottura inversa* può avere diverse cause fisiche, che non possiamo trat
 
 ---
 
-Il simbolo elettrico di un diodo Zener (figura [ref:e_zener_symbol]) è quello di un diodo regolare, in cui la linea del catodo ha un'ulteriore estensione a $\qty{90}{\degree}$. Questo dovrebbe ricordare la "piegatura" della caratteristica nella rottura.
+Il simbolo elettrico di un diodo Zener (figura [ref:e_zener_symbol]) è quello di un diodo regolare, in cui la linea del catodo ha un'ulteriore estensione a $\qty{90}{\degree}$. Questo dovrebbe ricordare la «piegatura» della caratteristica nella rottura.
 
 <margin>
 [picture:860:e_zener_symbol:Simbolo elettrico di un diodo Zener]

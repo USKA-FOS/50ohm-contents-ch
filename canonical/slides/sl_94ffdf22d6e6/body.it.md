@@ -34,7 +34,7 @@
 
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ### Armoniche e armoniche superiori
 
@@ -149,7 +149,7 @@ Le armoniche superiori e le armoniche si formano sempre quando si verificano dev
 * Si verificano in prossimità del segnale trasmesso  
 * Difficili da sopprimere con i filtri  
 * Causa: sovraeccitazione dell'amplificatore del microfono  
-* Allargano involontariamente il segnale trasmesso (emissione parassita, prodotti secondari, "splatter")
+* Allargano involontariamente il segnale trasmesso (emissione parassita, prodotti secondari, «splatter»)
 
 
 

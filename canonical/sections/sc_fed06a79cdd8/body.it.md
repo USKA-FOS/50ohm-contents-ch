@@ -15,9 +15,9 @@ Gli amperometri non hanno una resistenza propria come un utilizzatore, in modo c
 </danger>
 
 <webtip>
-La corrente, come la tensione, viene generalmente misurata con un multimetro. Anche in questo caso è importante collegare inizialmente i cavi di misura ai morsetti corretti dello strumento. Il cavo nero va inserito nel morsetto "COM", mentre il cavo rosso va collegato al morsetto contrassegnato solitamente con la lettera A. Spesso i multimetri per la misurazione della corrente hanno diversi morsetti, da scegliere in base al campo di misura impostato. A seconda del campo di misura, questi possono essere etichettati, ad esempio, con "$\unit{\micro\ampere}$", "$\unit{\milli\ampere}$" o "$\unit{\ampere}$".
+La corrente, come la tensione, viene generalmente misurata con un multimetro. Anche in questo caso è importante collegare inizialmente i cavi di misura ai morsetti corretti dello strumento. Il cavo nero va inserito nel morsetto «COM», mentre il cavo rosso va collegato al morsetto contrassegnato solitamente con la lettera A. Spesso i multimetri per la misurazione della corrente hanno diversi morsetti, da scegliere in base al campo di misura impostato. A seconda del campo di misura, questi possono essere etichettati, ad esempio, con «$\unit{\micro\ampere}$», «$\unit{\milli\ampere}$» o «$\unit{\ampere}$».
 
-Allo stesso modo della misurazione della tensione, è necessario selezionare la modalità corretta sul misuratore. Per misurare la corrente continua, si imposta "A =". Se invece si vuole misurare la corrente alternata, si imposta "A ~".
+Allo stesso modo della misurazione della tensione, è necessario selezionare la modalità corretta sul misuratore. Per misurare la corrente continua, si imposta «A =». Se invece si vuole misurare la corrente alternata, si imposta «A ~».
 
 Anche in questo caso, come per la misurazione della tensione, occorre selezionare inizialmente il campo di misura più ampio e, in base al valore visualizzato, passare eventualmente a un campo di misura più piccolo. Potrebbe essere necessario spostare il cavo rosso nel morsetto corrispondente al campo di misura selezionato.
 

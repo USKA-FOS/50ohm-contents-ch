@@ -6,7 +6,7 @@ Anche su ogni resistenza viene dissipata potenza elettrica. Non appena una corre
 [question:NA211]
 [question:NA210]
 
-La potenza elettrica dipende sia dalla corrente che dalla tensione. Vale sia "più alta è la tensione, maggiore è la potenza" sia "più alta è la corrente, maggiore è la potenza". La potenza può essere calcolata molto facilmente. È il prodotto tra corrente e tensione:
+La potenza elettrica dipende sia dalla corrente che dalla tensione. Vale sia «più alta è la tensione, maggiore è la potenza» sia «più alta è la corrente, maggiore è la potenza». La potenza può essere calcolata molto facilmente. È il prodotto tra corrente e tensione:
 
 $ P = U \cdot I $
 

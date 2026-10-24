@@ -1,4 +1,4 @@
-* Dans les classes N et E, les bases concernant l’ionosphère, l’activité des taches solaires, la « zone morte » et les régions ionosphériques ont déjà été abordées
+* Dans les classes N et E, les bases concernant l’ionosphère, l’activité des taches solaires, la « zone morte » et les régions ionosphériques ont déjà été abordées
 * Le rayonnement UV du soleil est responsable de l’ionisation des molécules dans l’ionosphère
 
 ---

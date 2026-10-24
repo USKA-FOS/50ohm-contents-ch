@@ -15,7 +15,7 @@ L'image [ref:nea_linkstrecken_antenne_Pilatus] montre le montage d'une antenne d
 ---
 
 <margin>
-[photo:1000:nea_linkstrecken_antenne_Pilatus:Travaux de maintenance sur le campus de Windisch, HB9DWW et HB9ZGF lors du montage de l'antenne de liaison montante "Echolink" pour le relais Pilatus]
+[photo:1000:nea_linkstrecken_antenne_Pilatus:Travaux de maintenance sur le campus de Windisch, HB9DWW et HB9ZGF lors du montage de l'antenne de liaison montante « Echolink » pour le relais Pilatus]
 </margin>
 
 ---
@@ -43,7 +43,7 @@ L'indicatif d’appel d'un relais commence généralement par DB0, DM0 ou DO0 se
 
 %TODO: Helvétiser le plan des indicatifs
 
-La définition officielle des répéteurs se lit de manière un peu plus aride : *"Station relais" : une station de radioamateurisme télécommandée (également dans des satellites), qui émet à distance des émissions de radioamateurisme reçues, des parties de celles-ci ou d'autres signaux injectés ou stockés, et sert ainsi à augmenter l'accessibilité des stations de radioamateurisme.*
+La définition officielle des répéteurs se lit de manière un peu plus aride : *« Station relais » : une station de radioamateurisme télécommandée (également dans des satellites), qui émet à distance des émissions de radioamateurisme reçues, des parties de celles-ci ou d'autres signaux injectés ou stockés, et sert ainsi à augmenter l'accessibilité des stations de radioamateurisme.*
 La question suivante sur cette définition peut également être résolue par la méthode d'exclusion, si l'on sait ceci :
 * Les relais ne sont pas exploités avec des indicatifs d’appel personnels.
 * Les relais ne sont généralement pas occupés en permanence.
@@ -94,7 +94,7 @@ Les informations sur les relais ainsi que les paramètres techniques et particul
 [question:NE309]
 [question:NE308]
 
-Un réglage important est la largeur de bande du canal en mode FM. Rappelons-nous : la bande passante indique la "place" occupée dans le spectre des fréquences par l'émission. Il y a d'une part le FM large, dont la bande passante est de $\qty{25}{\kilo\hertz}$ et qui est affichée par exemple sous la forme *FM-W*. D'autre part, il y a le FM à bande étroite (Narrow-FM), qui occupe une bande passante de seulement $\qty{12,5}{\kilo\hertz}$ et est affiché par exemple sur l'appareil radio sous la forme *FM-N*. De nombreux répéteurs n'aiment pas du tout que les signaux soient trop larges. Car cela peut entraîner des signaux déformés et interférer avec les fréquences des relais voisins.
+Un réglage important est la largeur de bande du canal en mode FM. Rappelons-nous : la bande passante indique la « place » occupée dans le spectre des fréquences par l'émission. Il y a d'une part le FM large, dont la bande passante est de $\qty{25}{\kilo\hertz}$ et qui est affichée par exemple sous la forme *FM-W*. D'autre part, il y a le FM à bande étroite (Narrow-FM), qui occupe une bande passante de seulement $\qty{12,5}{\kilo\hertz}$ et est affiché par exemple sur l'appareil radio sous la forme *FM-N*. De nombreux répéteurs n'aiment pas du tout que les signaux soient trop larges. Car cela peut entraîner des signaux déformés et interférer avec les fréquences des relais voisins.
 % Explication supplémentaire nécessaire pour 25kHz. FRV voulait absolument la question.
 [question:BE407]
 [question:BE417]

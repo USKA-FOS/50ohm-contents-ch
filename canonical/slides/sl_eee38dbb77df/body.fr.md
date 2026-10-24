@@ -16,7 +16,7 @@
 [question:AJ213]
 
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 ### Mesures pour supprimer les oscillations parasites
 

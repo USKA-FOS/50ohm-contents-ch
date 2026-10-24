@@ -12,7 +12,7 @@ $$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
 
 ---
 
-En radio, nous utilisons également des oscillations électriques, mais avec des fréquences beaucoup plus élevées que le réseau électrique, par exemple $\qty{144000000}{\hertz}$. Avec autant de chiffres, cela devient rapidement confus. C'est pourquoi nous utilisons l'expression mégahertz ($\unit{\mega\hertz}$) pour un million de hertz et disons "144 mégahertz". Nous avons utilisé le *préfixe d'unité* "$\unit{\mega\,}$" et l'avons placé devant l'unité proprement dite "$\unit{\hertz}$". Cela exprime que la valeur donnée est multipliée par un million. D'autres exemples de fréquences avec des préfixes d'unité sont regroupés dans le tableau [ref:n_frequenz_einheitenvorzeichen] [index:préfixes d'unité].
+En radio, nous utilisons également des oscillations électriques, mais avec des fréquences beaucoup plus élevées que le réseau électrique, par exemple $\qty{144000000}{\hertz}$. Avec autant de chiffres, cela devient rapidement confus. C'est pourquoi nous utilisons l'expression mégahertz ($\unit{\mega\hertz}$) pour un million de hertz et disons « 144 mégahertz ». Nous avons utilisé le *préfixe d'unité* « $\unit{\mega\,}$ » et l'avons placé devant l'unité proprement dite « $\unit{\hertz}$ ». Cela exprime que la valeur donnée est multipliée par un million. D'autres exemples de fréquences avec des préfixes d'unité sont regroupés dans le tableau [ref:n_frequenz_einheitenvorzeichen] [index:préfixes d'unité].
 
 <webmargin>
 | X: Désignation | r: Abréviation | r: Valeur |

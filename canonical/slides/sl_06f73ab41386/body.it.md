@@ -83,7 +83,7 @@ Caso ideale: $\qty{\infty}{\ohm}$, in questo modo la corrente di carico rimane c
 * Ottimale trasferimento di potenza dal trasmettitore all’antenna
 * $R_i = R_L$
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 |c: Riepilogo resistenza interna | c: Resistenza interna |
 | Adattamento in tensione con una sorgente di tensione costante| $R_i$ è molto bassa; teoricamente $\qty{0}{\ohm}$; $R_i \ll R_L$ identico a $R_L \gg R_i$|

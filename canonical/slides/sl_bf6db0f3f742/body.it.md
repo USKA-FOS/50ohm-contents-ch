@@ -63,7 +63,7 @@ Termine tedesco per PEP: Hüllkurvenspitzenleistung - il valore più alto misura
 
 * Per la banda di frequenza da $\qtyrange{1240}{1300}{\mega\hertz}$ si applicano regolamentazioni aggiuntive
 * Non sono indicate direttamente nella tabella
-* Nella colonna a destra "Ulteriori condizioni d’uso secondo B" sono contrassegnati i numeri con informazioni supplementari
+* Nella colonna a destra «Ulteriori condizioni d’uso secondo B» sono contrassegnati i numeri con informazioni supplementari
 * Si trovano sotto la tabella
 * Per la domanda successiva è necessario considerare il punto 11
 

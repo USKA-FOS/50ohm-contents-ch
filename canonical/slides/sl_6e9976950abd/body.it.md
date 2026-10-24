@@ -12,7 +12,7 @@ $\lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]} \qquad f[\unit{\meg
 Le formule sono un aiuto mnemonico. Per la ricezione è importante soprattutto l’associazione sicura tra banda di frequenza e nome della banda.
 </note>
 
---- style="font-size: 0.75em;"
+--- style=«font-size: 0.75em;»
 
 ### Bande di radioamatore importanti
 

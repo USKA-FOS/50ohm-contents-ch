@@ -81,7 +81,7 @@ La corrente di collettore dipende in modo esponenziale dalla tensione base-emett
 ---
 [question:AC516]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 #### Procedimento di soluzione
 <left>
 * dati: $U = \qty{10}{\volt}$
@@ -116,7 +116,7 @@ $R_1 = \frac{U_{\textrm{R1}}}{I_{\textrm{R1}}} = \frac{\qty{9,4}{\volt}}{\qty{11
 * La corrente di collettore è determinata principalmente da $R_{\textrm{E}}$
 * Circuito molto stabile
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 <left>
 * dati: $U = \qty{10}{\volt}$
 * dati: $I_{\textrm{C}} = \qty{2}{\milli\ampere}$

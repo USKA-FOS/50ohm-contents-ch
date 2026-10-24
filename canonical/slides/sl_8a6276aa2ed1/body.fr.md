@@ -10,7 +10,7 @@
 </right>
 ---
 [question:AB212]
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 ### Caractéristiques des cellules solaires
 | l: Désignation       | c: Abréviation  | X: Explication   |
 | Tension à circuit ouvert | ${U}_{OC}$ |Tension présente sans charge sous un ensoleillement maximal. |

@@ -23,7 +23,7 @@ Molti VNA devono essere calibrati prima dell'uso per ottenere un risultato di mi
 
 ---
 
-Per la calibrazione e per i test di funzionamento, si misurano spesso gli stati "aperto" (resistenza infinita), "cortocircuito" (resistenza prossima a zero) e "adattato" (resistenza di carico corrispondente alla resistenza di uscita dello strumento di misura).
+Per la calibrazione e per i test di funzionamento, si misurano spesso gli stati «aperto» (resistenza infinita), «cortocircuito» (resistenza prossima a zero) e «adattato» (resistenza di carico corrispondente alla resistenza di uscita dello strumento di misura).
 
 <margin>
 [photo:327:e_vna_solt:Kit di calibrazione SOL(T). Da sinistra a destra - Load, Open, Closed]

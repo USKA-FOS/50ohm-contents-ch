@@ -50,13 +50,13 @@ Le nombre après la barre oblique indique le nombre de 1 dans le masque de sous-
 
 * Les appareils réseau ne peuvent communiquer directement entre eux que s'ils appartiennent au même réseau local.
 
---- data-transition="none"
+--- data-transition=« none »
 
 [picture:706:netzwerk:Extrait d'une infrastructure réseau]
 
 * On les reconnaît au fait que la partie réseau de leur propre adresse IP et de leur masque de sous-réseau est identique à celle du partenaire.
 
---- data-transition="none"
+--- data-transition=« none »
 
 [picture:706:netzwerk:Extrait d'une infrastructure réseau]
 

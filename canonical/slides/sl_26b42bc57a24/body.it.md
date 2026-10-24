@@ -1,4 +1,4 @@
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 ## Decibel spiegato semplicemente
 
 | l:Cosa | r:Potenza in $\unit{\milli\watt}$ |
@@ -13,8 +13,8 @@
 
 Chi lavora con questi numeri inizia automaticamente a contare gli zeri.
 
---- style="font-size: 0.7em;"
-Contiamo gli zeri (e chiamiamo il risultato "Bel")
+--- style=«font-size: 0.7em;»
+Contiamo gli zeri (e chiamiamo il risultato «Bel»)
 
 | l:Cosa | r:Potenza in $\unit{\milli\watt}$ | r:Bel |
 | potenza effettiva stazione EME | 100 000 000 | 8 |
@@ -29,7 +29,7 @@ Contiamo gli zeri (e chiamiamo il risultato "Bel")
 <note>
 In onore di Alexander Graham Bell
 </note>
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 $\unit{\dBm}$ = Decibel riferiti a $\unit{\milli\watt}$
 
 | l:Cosa | r:Potenza in $\unit{\milli\watt}$ | r:Bel | r:$\unit{\dBm}$ |
@@ -76,7 +76,7 @@ $\unit{\dBm}$ = Decibel riferiti a $\unit{\milli\watt}$
 * Il guadagno è un fattore e non riferito a $\unit{\milli\watt}$, per questo solo $\unit{\dB}$
 </note>
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 ## Fattori di potenza importanti
 
 | c:$\unit{dB}$ | c:≈ Fattore di potenza |

@@ -21,7 +21,7 @@
 </left>
 <fragment>
 <right>
-* La "larghezza" del segnale viene definita come *larghezza di banda* ed è espressa in hertz ($\unit{Hz}$).
+* La «larghezza» del segnale viene definita come *larghezza di banda* ed è espressa in hertz ($\unit{Hz}$).
 * Supponiamo di dover trasmettere un segnale vocale nell'intervallo di frequenza $\qtyrange{300}{2700}{\hertz}$.
 * In questo caso, la larghezza di banda è pari a $\qty{2700}{\hertz}$ – $\qty{300}{\hertz}$ = $\qty{2400}{\hertz}$
 </right>

@@ -24,7 +24,7 @@ Nel *filtro passa-banda*, le due onde barrate indicano che le frequenze al di so
 </indepth>
 
 <indepth>
-Il *demodulatore* è rappresentato dal simbolo del diodo, che è il componente principale di molti demodulatori. Il funzionamento del diodo verrà spiegato nel capitolo "Componenti e circuiti".
+Il *demodulatore* è rappresentato dal simbolo del diodo, che è il componente principale di molti demodulatori. Il funzionamento del diodo verrà spiegato nel capitolo «Componenti e circuiti».
 </indepth>
 
 [question:NF201]

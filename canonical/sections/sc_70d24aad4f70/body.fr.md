@@ -1,4 +1,4 @@
-Les *micro-ondes* n’ont rien à voir avec le préfixe d’unité "micro-". Elles désignent en réalité des ondes électromagnétiques dont les fréquences se situent entre environ $\qty{1}{\giga\hertz}$ et $\qty{300}{\giga\hertz}$. La longueur d’onde des micro-ondes correspond donc à des millimètres jusqu’à quelques décimètres.
+Les *micro-ondes* n’ont rien à voir avec le préfixe d’unité « micro- ». Elles désignent en réalité des ondes électromagnétiques dont les fréquences se situent entre environ $\qty{1}{\giga\hertz}$ et $\qty{300}{\giga\hertz}$. La longueur d’onde des micro-ondes correspond donc à des millimètres jusqu’à quelques décimètres.
 
 <margin>
 [picture:850:e_parabolspiegel_funktion:Fonctionnement d’un réflecteur parabolique]

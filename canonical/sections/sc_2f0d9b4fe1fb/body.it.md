@@ -49,7 +49,7 @@ Alcuni esempi di possibili rapporti sono riportati nella tabella [ref:n_rst_beis
 
 ---
 <indepth>
-La telegrafia Morse nel radioamatoriale viene indicata con CW, abbreviazione di "Continuous Wave". Maggiori informazioni sono disponibili in un capitolo successivo.
+La telegrafia Morse nel radioamatoriale viene indicata con CW, abbreviazione di «Continuous Wave». Maggiori informazioni sono disponibili in un capitolo successivo.
 </indepth>
 
 [question:BE211]

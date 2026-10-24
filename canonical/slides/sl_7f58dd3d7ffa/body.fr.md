@@ -158,7 +158,7 @@
 ---
 [question:AF421]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 #### Méthode de résolution
 <left>
 * donné : $U_Z = \qty{6,2}{\volt}$

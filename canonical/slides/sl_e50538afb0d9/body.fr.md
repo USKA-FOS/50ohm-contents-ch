@@ -46,7 +46,7 @@ Beaucoup plus d'informations dans les classes E et A
 ## DEL
 
 <left>
-* Diode électroluminescente, "light-emitting diode"
+* Diode électroluminescente, « light-emitting diode »
 * S'illumine dès qu'un courant la traverse
 * Schéma : diode avec deux flèches supplémentaires vers l'extérieur
 * Se comporte comme une diode, mais émet de la lumière

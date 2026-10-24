@@ -4,7 +4,7 @@
 ---
 [question:AG420]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ### Fonctionnement de la ligne de dérivation $\lambda/2$
 * Antenne symétrique : les deux points de connexion nécessitent une tension HF (valeurs égales, déphasées de $\qty{180}{\degree}$)
 * Avec la ligne de dérivation $\lambda/2$, l'un des points de connexion (par exemple, pour le dipôle replié) est relié au conducteur interne via un déphasage de $\qty{180}{\degree}$

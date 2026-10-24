@@ -20,7 +20,7 @@
 
 * Polarisation *circulaire*
 * Ondes radio tournantes avec une forme d'antenne particulière
-* Distinction entre polarisation circulaire "à gauche" et "à droite"
+* Distinction entre polarisation circulaire « à gauche » et « à droite »
 
 <note>
 Plus de détails dans les cours pour les classes E et A

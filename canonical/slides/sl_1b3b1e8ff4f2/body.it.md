@@ -18,7 +18,7 @@ Ponte di Wheatstone
 [question:AD112]
 ---
 [question:AD113]
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 #### Procedimento di soluzione
 * dati: $R_1 = R_4 = \qty{1}{\kilo\ohm}$
 * dati: $R_2 = R_3 = \qty{10}{\kilo\ohm}$

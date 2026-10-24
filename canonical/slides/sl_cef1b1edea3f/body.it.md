@@ -22,7 +22,7 @@ L'intero catalogo delle domande comprende 70 possibili quesiti d'esame.
 
 </note>
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 # Chi effettua l'esame?
 

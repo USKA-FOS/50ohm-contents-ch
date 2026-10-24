@@ -30,7 +30,7 @@
 [photo:99:n_frequenzbereiche_afuv_anlage_1:Panoramica tabellare, Allegato 1, AFuV (correzione necessaria nelle potenze per la classe N)]
 
 <note>
-Nella classe N, nella tabella ufficiale sono indicate "6,1 W ERP" per le bande dei 2 m e 70 cm. Tecnicamente equivalente, ma con una base di calcolo diversa. La grafica qui deve essere aggiornata.
+Nella classe N, nella tabella ufficiale sono indicate «6,1 W ERP» per le bande dei 2 m e 70 cm. Tecnicamente equivalente, ma con una base di calcolo diversa. La grafica qui deve essere aggiornata.
 </note>
 ---
 [question:VD101]

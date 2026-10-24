@@ -27,7 +27,7 @@ Lors de l'examen des multiples de la fréquence fondamentale d'un signal, nous d
 [question:AJ204]
 
 <tip>
-La radiodiffusion FM est la radiodiffusion "classique" sur onde ultracourte (FM). La diffusion des programmes radio s'effectue dans la bande de fréquences de $\qtyrange{87,6}{107,9}{\mega\hertz}$.
+La radiodiffusion FM est la radiodiffusion « classique » sur onde ultracourte (FM). La diffusion des programmes radio s'effectue dans la bande de fréquences de $\qtyrange{87,6}{107,9}{\mega\hertz}$.
 En Suisse, contrairement aux plans précédents, les émetteurs FM doivent continuer à fonctionner de manière limitée.
 </tip>
 %TODO: Helvetisation
@@ -68,11 +68,11 @@ Pour supprimer les produits de mélange indésirables – mais aussi les harmoni
 [question:AJ209]
 [question:AJ208]
 
-Les émissions indésirables peuvent également être présentes à proximité immédiate du signal d'émission. Celles-ci sont difficiles voire impossibles à supprimer par l'utilisation de filtres et devraient donc être efficacement supprimées dès le début de la préparation du signal par des mesures appropriées. De telles *émissions parasites*, également appelées *produits secondaires* (communément appelés "splatter"), qui élargissent involontairement le signal d'émission, sont souvent générées par un réglage trop élevé de l'amplificateur de microphone d'un émetteur. Cela déforme le signal BF, ce qui entraîne des émissions parasites indésirables. La figure [ref:a_harmonische] montre les émissions parasites.
+Les émissions indésirables peuvent également être présentes à proximité immédiate du signal d'émission. Celles-ci sont difficiles voire impossibles à supprimer par l'utilisation de filtres et devraient donc être efficacement supprimées dès le début de la préparation du signal par des mesures appropriées. De telles *émissions parasites*, également appelées *produits secondaires* (communément appelés « splatter »), qui élargissent involontairement le signal d'émission, sont souvent générées par un réglage trop élevé de l'amplificateur de microphone d'un émetteur. Cela déforme le signal BF, ce qui entraîne des émissions parasites indésirables. La figure [ref:a_harmonische] montre les émissions parasites.
 
 [question:AJ219]
 
-Des émissions indésirables peuvent également provenir d'une tension d'alimentation insuffisamment stabilisée des étages finals d'émetteur. Par exemple, une alimentation mal filtrée ou stabilisée (avec une tension de ronflement) du côté de la tension d'alimentation peut entraîner des émissions AM de l'étage final. Des interférences de signaux BF sur le côté de l'alimentation secteur d'un émetteur peuvent également conduire à des émissions AM correspondantes. Cela est souvent perceptible lors d'émissions CW comme une porteuse/tonalité "ronflante", en particulier avec les émetteurs plus anciens.
+Des émissions indésirables peuvent également provenir d'une tension d'alimentation insuffisamment stabilisée des étages finals d'émetteur. Par exemple, une alimentation mal filtrée ou stabilisée (avec une tension de ronflement) du côté de la tension d'alimentation peut entraîner des émissions AM de l'étage final. Des interférences de signaux BF sur le côté de l'alimentation secteur d'un émetteur peuvent également conduire à des émissions AM correspondantes. Cela est souvent perceptible lors d'émissions CW comme une porteuse/tonalité « ronflante », en particulier avec les émetteurs plus anciens.
 
 [question:AJ222]
 [question:AJ223]

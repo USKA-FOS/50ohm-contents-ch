@@ -1,9 +1,9 @@
 * Se in SSB la stazione corrispondente sembra troppo acuta o troppo grave $\rightarrow$ correggere la *frequenza di ricezione*
 * Utilizzare il regolatore *RIT* (Receiver Incremental Tuning)
-  * In alcuni apparecchi radio "Clarifier" o "CLAR RX"
+  * In alcuni apparecchi radio «Clarifier» o «CLAR RX»
 * Quando si modifica la *frequenza di trasmissione*, la stazione corrispondente mi sente male
 * La causa sono oscillatori non del tutto precisi negli apparecchi radio o errori di indicazione della frequenza
-* Se entrambe le stazioni modificano ogni volta la frequenza di trasmissione, si verifica uno "spostamento sulla banda"
+* Se entrambe le stazioni modificano ogni volta la frequenza di trasmissione, si verifica uno «spostamento sulla banda»
 
 ---
 

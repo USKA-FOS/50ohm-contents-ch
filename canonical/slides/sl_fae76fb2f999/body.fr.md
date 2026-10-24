@@ -47,7 +47,7 @@ $f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} = \dfrac{300}{\qty{
 
 [include:applet_lambda_und_f]
 
---- style="font-size: 0.8em;"
+--- style=« font-size: 0.8em; »
 ## Bande
 
 Souvent, on indique la bande arrondie au lieu de la fréquence

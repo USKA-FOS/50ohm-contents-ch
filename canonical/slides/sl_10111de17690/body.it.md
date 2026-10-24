@@ -29,7 +29,7 @@ Invece di dover distinguere molte ampiezze diverse, come nel caso dell'ASK, la Q
 In questo modo, con un numero relativamente piccolo di valori diversi, è possibile generare un numero maggiore di simboli diversi.
 </note>
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 ## Esempio: 8-QAM
 
 [picture:702:a_8qam:Andamento del segnale di un segnale 8QAM, ogni simbolo con ampiezza ($\num{0,5}$ o $\num{1}$), posizione di fase e sequenza di bit a 3 cifre]
@@ -124,7 +124,7 @@ Le coordinate di un punto del segnale sono esattamente i valori I e Q con cui vi
 Il diagramma di costellazione non è quindi solo una rappresentazione del segnale. Descrive direttamente quali valori I e Q devono essere generati.
 </note>
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ## Prova il modulatore I/Q
 
@@ -240,7 +240,7 @@ Con segnali I e Q appropriati è inoltre possibile generare un segnale a banda l
 
 <fragment>
 Il modulatore I/Q è quindi, per così dire, il
-**"coltellino svizzero dei modulatori"**. 
+**«coltellino svizzero dei modulatori»**. 
 </fragment>
 
 <note>

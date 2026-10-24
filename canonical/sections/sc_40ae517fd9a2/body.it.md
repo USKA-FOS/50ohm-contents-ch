@@ -27,7 +27,7 @@ Quando si considerano i multipli della frequenza fondamentale di un segnale, dis
 [question:AJ204]
 
 <tip>
-La radio FM è la radio "classica" in onda ultracorta (UKW). La trasmissione di programmi radiofonici avviene nella banda di frequenza di $\qtyrange{87,6}{107,9}{\mega\hertz}$.
+La radio FM è la radio «classica» in onda ultracorta (UKW). La trasmissione di programmi radiofonici avviene nella banda di frequenza di $\qtyrange{87,6}{107,9}{\mega\hertz}$.
 In Svizzera, contrariamente ai piani precedenti, i trasmettitori FM dovrebbero continuare a funzionare in misura limitata.
 </tip>
 %TODO: Helvetizzazione 
@@ -68,11 +68,11 @@ Per sopprimere prodotti di miscelazione indesiderati – ma anche le armoniche s
 [question:AJ209]
 [question:AJ208]
 
-Le emissioni indesiderate possono anche essere presenti in prossimità immediata del segnale di trasmissione. Queste sono difficili o impossibili da sopprimere con l'uso di filtri e dovrebbero quindi essere efficacemente soppresse già all'inizio della preparazione del segnale attraverso misure appropriate. Tali *emissioni secondarie*, o anche chiamate *prodotti secondari* (colloquialmente anche indicati come "splatter"), che allargano involontariamente il segnale di trasmissione, spesso si formano a causa di un'impostazione troppo alta dell'amplificatore del microfono di un trasmettitore. Ciò distorce il segnale BF, il che ha come conseguenza emissioni secondarie indesiderate. La figura [ref:a_harmonische] mostra le emissioni secondarie.
+Le emissioni indesiderate possono anche essere presenti in prossimità immediata del segnale di trasmissione. Queste sono difficili o impossibili da sopprimere con l'uso di filtri e dovrebbero quindi essere efficacemente soppresse già all'inizio della preparazione del segnale attraverso misure appropriate. Tali *emissioni secondarie*, o anche chiamate *prodotti secondari* (colloquialmente anche indicati come «splatter»), che allargano involontariamente il segnale di trasmissione, spesso si formano a causa di un'impostazione troppo alta dell'amplificatore del microfono di un trasmettitore. Ciò distorce il segnale BF, il che ha come conseguenza emissioni secondarie indesiderate. La figura [ref:a_harmonische] mostra le emissioni secondarie.
 
 [question:AJ219]
 
-Anche attraverso una tensione di alimentazione non sufficientemente stabilizzata degli stadi finali del trasmettitore possono formarsi emissioni indesiderate. In questo caso, ad esempio, un alimentatore scarsamente filtrato o stabilizzato (affetto da tensione di ronzio) sul lato della tensione di alimentazione può portare a emissioni AM dello stadio finale. Anche le interferenze di segnali BF sul lato dell'alimentazione di rete di un trasmettitore possono portare a corrispondenti emissioni AM. Questo è spesso percepibile nelle emissioni CW come portante/tono "ronzante", specialmente nei trasmettitori più vecchi.
+Anche attraverso una tensione di alimentazione non sufficientemente stabilizzata degli stadi finali del trasmettitore possono formarsi emissioni indesiderate. In questo caso, ad esempio, un alimentatore scarsamente filtrato o stabilizzato (affetto da tensione di ronzio) sul lato della tensione di alimentazione può portare a emissioni AM dello stadio finale. Anche le interferenze di segnali BF sul lato dell'alimentazione di rete di un trasmettitore possono portare a corrispondenti emissioni AM. Questo è spesso percepibile nelle emissioni CW come portante/tono «ronzante», specialmente nei trasmettitori più vecchi.
 
 [question:AJ222]
 [question:AJ223]

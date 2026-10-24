@@ -10,7 +10,7 @@
 </right>
 ---
 [question:AB212]
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 ### Parametri caratteristici delle celle solari
 | l: Denominazione       | c: Abbreviazione  | X: Spiegazione   |
 | Tensione a vuoto | ${U}_{OC}$ | È la tensione presente ai morsetti senza carico, con irradiazione solare completa. |

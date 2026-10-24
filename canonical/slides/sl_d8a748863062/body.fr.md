@@ -9,7 +9,7 @@ Exemple : $R_{\mathrm{ges}} = \qty{100}{\ohm} + \qty{200}{\ohm} + \qty{300}{\ohm
 
 
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 ## Montage en parallèle
 
@@ -58,7 +58,7 @@ $n$ représente le nombre de résistances
 
 
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 ### Variante 1 : Deux résistances en parallèle et une en série
 

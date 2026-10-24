@@ -2,7 +2,7 @@
 
 * Le bobine e i condensatori vengono combinati
 * Da considerare anche la *capacità parassita di avvolgimento*
-* Questo introduce capacità "invisibili" nel circuito
+* Questo introduce capacità «invisibili» nel circuito
 
 <note>
 Capacità propria di una bobina

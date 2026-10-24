@@ -1,6 +1,6 @@
 Nella sezione [sec:rst] abbiamo già conosciuto l'*S-metro* sia nella sua variante analogica (Fig. [ref:a_s_meter_analog]) che in quella digitale (Fig. [ref:a_s_meter_digital]). Serve a visualizzare l'intensità del segnale HF presente all'ingresso del ricevitore.
 
-La scala di un S-metro di solito va da S1 a S9. Una variazione di un livello S corrisponde a $\qty{6}{\dB}$. Segnali più forti al di sopra di S9 non sono più indicati in ulteriori livelli S, ma in decibel sopra S9, ad esempio come "S9 + $\qty{20}{\dB}$".
+La scala di un S-metro di solito va da S1 a S9. Una variazione di un livello S corrisponde a $\qty{6}{\dB}$. Segnali più forti al di sopra di S9 non sono più indicati in ulteriori livelli S, ma in decibel sopra S9, ad esempio come «S9 + $\qty{20}{\dB}$».
 
 Poiché la scala in decibel è logaritmica, un aumento di $\qty{6}{\dB}$ corrisponde a un raddoppio della tensione d'ingresso o a una quadruplicazione della potenza d'ingresso. Al contrario, una riduzione di $\qty{6}{\dB}$ corrisponde a un dimezzamento della tensione o a un quarto della potenza.
 

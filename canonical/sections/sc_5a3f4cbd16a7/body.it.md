@@ -6,7 +6,7 @@ I contest si svolgono su diverse bande e con vari metodi di trasmissione. A seco
 
 ---
 
-Le chiamate durante un contest includono sempre l’indicazione "Contest" o, in telegrafia, "Test". Questo permette di riconoscere immediatamente che la stazione che chiama sta partecipando a un contest. Ad esempio, se DD4UQ partecipa in telegrafia al popolare Fieldday-Contest con una stazione portatile, la sua chiamata potrebbe essere "CQ FD DD4UQ/P TEST".
+Le chiamate durante un contest includono sempre l’indicazione «Contest» o, in telegrafia, «Test». Questo permette di riconoscere immediatamente che la stazione che chiama sta partecipando a un contest. Ad esempio, se DD4UQ partecipa in telegrafia al popolare Fieldday-Contest con una stazione portatile, la sua chiamata potrebbe essere «CQ FD DD4UQ/P TEST».
 
 <indepth>
 In telegrafia, *TEST* non indica che qualcuno stia effettuando un test, ad esempio della propria antenna, ma che sta partecipando a un contest.

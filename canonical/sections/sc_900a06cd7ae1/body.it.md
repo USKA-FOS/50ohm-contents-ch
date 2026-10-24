@@ -52,7 +52,7 @@ Per garantire che una stazione remota non entri in uno stato/operazione incontro
 Poiché anche il trasmettitore-ricevitore stesso può entrare in uno stato indefinito (ad esempio, a causa di errori software o hardware nell'apparecchio), la tensione di alimentazione del trasmettitore-ricevitore dovrebbe essere disattivabile da remoto. Questo può avvenire, ad esempio, tramite una presa IP, che può essere controllata dall'operatore via rete.
 
 <tip>
-Alcuni trasmettitori-ricevitori hanno una funzione "Transmit Timeout Timer" (TOT), con cui la durata massima di trasmissione ininterrotta può essere limitata a un tempo regolabile. Questo costituisce una protezione aggiuntiva contro la trasmissione continua.
+Alcuni trasmettitori-ricevitori hanno una funzione «Transmit Timeout Timer» (TOT), con cui la durata massima di trasmissione ininterrotta può essere limitata a un tempo regolabile. Questo costituisce una protezione aggiuntiva contro la trasmissione continua.
 </tip>
 
 [question:AF707]

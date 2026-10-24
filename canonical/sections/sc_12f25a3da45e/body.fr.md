@@ -38,7 +38,7 @@ Voici l'explication des différentes grandeurs de la formule :
 - $A$ est la surface en regard des plaques conductrices
 - $d$ est la distance entre les plaques
 - $\varepsilon_0 = \qty{0,855e-11}{\ampere\second\per\volt\meter}$ est la permittivité du vide, une constante naturelle
-- $\varepsilon_r$ (prononcé « epsilon R ») est une propriété spécifique de l'isolant (diélectrique) appelée permittivité relative, qui dépend du matériau utilisé. Le tableau [ref:e_Dielektrizitätszahl] avec les valeurs des matériaux se trouve également dans le recueil de formules.
+- $\varepsilon_r$ (prononcé « epsilon R ») est une propriété spécifique de l'isolant (diélectrique) appelée permittivité relative, qui dépend du matériau utilisé. Le tableau [ref:e_Dielektrizitätszahl] avec les valeurs des matériaux se trouve également dans le recueil de formules.
 
 <margin>
 | Matériau | $\varepsilon_r$ |
@@ -72,7 +72,7 @@ La tension appliquée crée un champ électrique entre les plaques du condensate
 
 Cela signifie qu'au début, un courant élevé circule, limité uniquement par la résistance $R$. Avec le temps, de plus en plus de charges sont stockées dans le condensateur. Le courant diminue donc continuellement, tandis que la tension $U_C$ aux bornes du condensateur augmente jusqu'à ce qu'il soit complètement chargé. À ce stade, plus aucun courant ne circule.
 
-Cependant, ce processus ne se produit pas instantanément, mais avec un retard temporel. La tension du condensateur augmente alors selon une fonction exponentielle, comme illustré dans la figure [ref:e_ladekurve_c]. La durée de ce processus de charge dépend de la résistance en série : plus la résistance est grande, plus le temps nécessaire pour charger complètement le condensateur est long. Avec un oscilloscope, comme montré dans la figure [ref:e_lade_entladespannung_mit_oszilloskop], que nous avons déjà présenté, on peut observer et étudier visuellement cette évolution temporelle.
+Cependant, ce processus ne se produit pas instantanément, mais avec un retard temporel. La tension du condensateur augmente alors selon une fonction exponentielle, comme illustré dans la figure [ref:e_ladekurve_c]. La durée de ce processus de charge dépend de la résistance en série : plus la résistance est grande, plus le temps nécessaire pour charger « complètement » le condensateur est long. Avec un oscilloscope, comme montré dans la figure [ref:e_lade_entladespannung_mit_oszilloskop], que nous avons déjà présenté, on peut observer et étudier visuellement cette évolution temporelle.
 
 <margin>
 [picture:185:e_ladekurve_c:Tension de charge d'un condensateur]

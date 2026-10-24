@@ -1,6 +1,6 @@
 Nous, les humains, avons l'habitude d'utiliser les dix chiffres de $\num{0}$ à $\num{9}$. On parle de système décimal ou système à base dix.
 
-Pour un ordinateur, il est en revanche plus simple de travailler avec seulement $\num{2}$ chiffres : le $\num{0}$ et le $\num{1}$. Cela correspond à deux états : par exemple, éteint et allumé, « transistor bloqué » et « transistor passant » ou encore $\qty{0}{\volt}$ et $\qty{5}{\volt}$. Il en résulte un système de numération binaire ou système à base deux.
+Pour un ordinateur, il est en revanche plus simple de travailler avec seulement $\num{2}$ chiffres : le $\num{0}$ et le $\num{1}$. Cela correspond à deux états : par exemple, éteint et allumé, « transistor bloqué » et « transistor passant » ou encore $\qty{0}{\volt}$ et $\qty{5}{\volt}$. Il en résulte un système de numération binaire ou système à base deux.
 
 
 [question:EA201]

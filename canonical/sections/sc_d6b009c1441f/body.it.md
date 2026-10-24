@@ -18,7 +18,7 @@ Come abbiamo già imparato all’inizio del corso in [sec:ausbildungsfunk], il n
 
 L’associazione deve richiedere per iscritto all’UFCOM, almeno due settimane prima, un’autorizzazione (autorizzazione all’emissione o anche Sprechfreigabe). I responsabili della stazione devono essere chiaramente indicati nella domanda.
 
-L’allievo utilizza quindi il nominativo dell’associazione e aggiunge il suffisso "operator" seguito dal proprio nome. Ad esempio, un allievo dell’associazione HB9FZ dirà come nominativo "HB9FZ operator Hans". In questo modo è chiaro per gli altri che si tratta di un allievo che sta trasmettendo.
+L’allievo utilizza quindi il nominativo dell’associazione e aggiunge il suffisso «operator» seguito dal proprio nome. Ad esempio, un allievo dell’associazione HB9FZ dirà come nominativo «HB9FZ operator Hans». In questo modo è chiaro per gli altri che si tratta di un allievo che sta trasmettendo.
 
 Se l’associazione partecipa a una competizione con il proprio nominativo, non è necessario trasmettere il nome dell’operatore.
 [question:BD210]

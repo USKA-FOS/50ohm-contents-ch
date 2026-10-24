@@ -6,7 +6,7 @@
 * Entrambe le semionde vengono utilizzate
 * Tensione continua pulsante all’uscita con frequenza doppia rispetto a quella d’ingresso
 </right>
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 [include:applet_gleichrichter_2]
 
 ---

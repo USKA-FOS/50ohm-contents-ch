@@ -4,12 +4,12 @@
 <right>
 * Gravitent autour de la Terre sur des orbites circulaires ou elliptiques et à différentes altitudes
 * Premier satellite radioamateur déjà en 1961 (OSCAR 1)
-* OSCAR : « Orbiting Satellite Carrying Amateur Radio »
+* OSCAR : « Orbiting Satellite Carrying Amateur Radio »
 * Plusieurs centaines de satellites en orbite (ou l’ont été) à ce jour
 </right>
 <note>
 * 4 ans après Spoutnik
-* OSCAR en allemand : « Satellite en orbite transportant du radioamateurisme »
+* OSCAR en allemand : « Satellite en orbite transportant du radioamateurisme »
 </note>
 
 ---
@@ -17,7 +17,7 @@
 ---
 
 ## Transpondeur
-Une station relais à bord d’un satellite est appelée « transpondeur »
+Une station relais à bord d’un satellite est appelée « transpondeur »
 
 * Liaison montante (Uplink) : liaison radio de la Terre vers le satellite
 * Liaison descendante (Downlink) : liaison radio du satellite vers la Terre
@@ -45,7 +45,7 @@ Les antennes de satellite doivent être orientées
 
 <left>
 *Azimut*
-* Vient de l’arabe السموت (as-sumūt, « les chemins »)
+* Vient de l’arabe السموت (as-sumūt, « les chemins »)
 * Direction le long de l’horizon
 * Mesuré en degrés, comme avec une boussole
 </left>
@@ -57,14 +57,14 @@ Les antennes de satellite doivent être orientées
 * $\qty{270}{\degree}$ : Ouest
 </right>
 
----  data-transition="none"
+---  data-transition=« none »
 
 ## Azimut et élévation
 Les antennes de satellite doivent être orientées
 
 <left>
 *Élévation*
-* Dérivé du latin elevare (« élever »)
+* Dérivé du latin elevare (« élever »)
 * Angle vertical au-dessus de l’horizon
 </left>
 <right>

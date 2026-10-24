@@ -10,7 +10,7 @@
 </right>
 <note>
 * Des filtres non variables peuvent être mieux conçus
-* Le terme « super » dans le nom provient du latin « super »
+* Le terme « super » dans le nom provient du latin « super »
 </note>
 
 ---

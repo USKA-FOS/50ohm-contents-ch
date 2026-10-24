@@ -5,14 +5,14 @@
 3. Primo amplificatore IF con filtro Roofing
 4. Secondo mixer con oscillatore di conversione (CO)
 
---- data-transition="none"
+--- data-transition=«none»
 [picture:810:doppelsuper_blockschaltbild:Schema a blocchi di una supereterodina a doppia conversione]
 
 5. Secondo amplificatore IF con filtro
 6. Terzo mixer come rivelatore a prodotto o demodulatore, eventualmente con BFO
 7. Amplificatore BF
 
---- data-transition="none"
+--- data-transition=«none»
 [picture:810:doppelsuper_blockschaltbild:Schema a blocchi di una supereterodina a doppia conversione]
 
 * Utilizzo di due frequenze intermedie (IF)
@@ -59,7 +59,7 @@
 
 ---
 [question:AF210]
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 #### Procedimento
 * Dati: $f_\text{E} = 3\dots\qty{30}{\mega\hertz}$
 * Dati: $f_\text{IF1} = \qty{50}{\mega\hertz}$
@@ -83,7 +83,7 @@ $\begin{split}f_\text{OSZ} &= f_\text{IF} \, - \, f_\text{E}\\ &= \qty{50}{\mega
 </fragment>
 ---
 [question:AF120]
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ### Procedimento
 <left>
 * Dati: $f_\text{E} = \qty{3,65}{\mega\hertz}$
@@ -102,7 +102,7 @@ $f_\text{IF1} = \begin{cases}f_\text{E}\,+\,f_\text{OSZ}\\ f_\text{OSZ}\,-\,f_\t
 <fragment>
 $f_\text{VFO} = \begin{cases}f_\text{IF1}\,-\,f_\text{E} = \qty{50}{\mega\hertz}\,-\,\qty{3,65}{\mega\hertz} = \qty{46,35}{\mega\hertz}\\ f_\text{E}\,+\,f_\text{IF1} = \qty{3,65}{\mega\hertz}\,+\,\qty{50}{\mega\hertz} = \qty{53,64}{\mega\hertz}\\ f_\text{E}\,-\,f_\text{IF1} = \qty{3,65}{\mega\hertz}\,-\,\qty{50}{\mega\hertz} = \cancel{\qty{-46,35}{\mega\hertz}}\end{cases}$
 </fragment>
---- style="font-size: smaller;"‚
+--- style=«font-size: smaller;»‚
 <fragment>
 $f_\text{CO1} = \begin{cases}f_\text{IF2}\,-\,f_\text{IF1} = \qty{9}{\mega\hertz}\,-\,\qty{50}{\mega\hertz} = \cancel{\qty{-41}{\mega\hertz}}\\ f_\text{IF1}\,+\,f_\text{IF2} = \qty{50}{\mega\hertz}\,+\,\qty{9}{\mega\hertz} = \qty{59}{\mega\hertz}\\ f_\text{IF1}\,-\,f_\text{IF2} = \qty{50}{\mega\hertz}\,-\,\qty{9}{\mega\hertz} = \qty{41}{\mega\hertz}\end{cases}$
 </fragment>
@@ -114,7 +114,7 @@ VFO: $\bold{\qty{46,35}{\mega\hertz}} \And \qty{53,65}{\mega\hertz}$, CO1: $\bol
 </fragment>
 ---
 [question:AF118]
---- style="font-size: smaller;"‚
+--- style=«font-size: smaller;»‚
 #### Procedimento
 <left>
 * Dati: $f_\text{E} = \qty{21,1}{\mega\hertz}$
@@ -137,7 +137,7 @@ $f_\text{CO} = f_\text{IF1}\,-\,f_\text{IF2} = \qty{9}{\mega\hertz}\,-\,\qty{460
 
 ---
 [question:AF119]
---- style="font-size: smaller;"‚
+--- style=«font-size: smaller;»‚
 #### Procedimento
 <left>
 * Dati: $f_\text{E} = \qty{28}{\mega\hertz}$

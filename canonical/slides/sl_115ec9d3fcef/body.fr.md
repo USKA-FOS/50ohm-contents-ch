@@ -48,7 +48,7 @@
 * *Accidents secondaires* comme une chute, causée par la peur ou une crispation musculaire
 * En outre, un *(arc) électrique perturbateur* avec une lumière intense peut se produire dans l'air
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ### 5 règles de sécurité en électrotechnique
 

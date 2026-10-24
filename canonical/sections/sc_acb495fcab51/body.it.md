@@ -17,10 +17,10 @@ Come già sappiamo, la portata delle onde spaziali dipende dall'angolo di irradi
 
 ---
 
-Le stazioni di misurazione ionosferiche misurano la cosiddetta frequenza critica $f_\text{c}$ (o spesso anche $f_\text{k}$, $f_\text{krit}$ o $f_\text{oF2}$). Questa è la frequenza più alta alla quale l'onda spaziale che entra perpendicolarmente nella ionosfera viene ancora riflessa (cfr. figura [ref:e_muf_winkel]). Quando irradiamo verticalmente verso l'alto, cioè il nostro segnale entra nella ionosfera con un angolo di $\qty{90}{\degree}$, la MUF è la più piccola, perché il nostro segnale deve allora "invertire" completamente nella ionosfera, cioè compiere una svolta di 180°. Ciò significa che a $\qty{90}{\degree}$ vale $f_\text{c} = MUF$.
+Le stazioni di misurazione ionosferiche misurano la cosiddetta frequenza critica $f_\text{c}$ (o spesso anche $f_\text{k}$, $f_\text{krit}$ o $f_\text{oF2}$). Questa è la frequenza più alta alla quale l'onda spaziale che entra perpendicolarmente nella ionosfera viene ancora riflessa (cfr. figura [ref:e_muf_winkel]). Quando irradiamo verticalmente verso l'alto, cioè il nostro segnale entra nella ionosfera con un angolo di $\qty{90}{\degree}$, la MUF è la più piccola, perché il nostro segnale deve allora «invertire» completamente nella ionosfera, cioè compiere una svolta di 180°. Ciò significa che a $\qty{90}{\degree}$ vale $f_\text{c} = MUF$.
 
 <indepth>
-Come simbolo si usa $f_o$ (lettera "o" minuscola in pedice per *ordinary wave*) seguita dalla regione ionosferica per cui vale questa frequenza, ad esempio $f_\text{oF2}$ per la regione F2. Tuttavia, spesso vengono usati anche $f_\text{c}$, $f_\text{k}$ o $f_\text{krit}$ come simboli.
+Come simbolo si usa $f_o$ (lettera «o» minuscola in pedice per *ordinary wave*) seguita dalla regione ionosferica per cui vale questa frequenza, ad esempio $f_\text{oF2}$ per la regione F2. Tuttavia, spesso vengono usati anche $f_\text{c}$, $f_\text{k}$ o $f_\text{krit}$ come simboli.
 </indepth>
 
 <margin>

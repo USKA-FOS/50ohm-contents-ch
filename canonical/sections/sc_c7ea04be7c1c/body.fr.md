@@ -1,4 +1,4 @@
-Un vieux dicton de radioamateur dit que le meilleur amplificateur haute fréquence est l'antenne. Dans les premières années de la technique radio, elle était le seul "amplificateur", car il n'existait pas encore d'électronique amplificatrice. En 1907, le tube électronique fit son apparition : un composant très performant, mais encombrant et peu efficace. Dès les années 1920, les scientifiques rêvaient de composants offrant une fonction similaire, mais dont le fonctionnement interne se déroulerait entièrement dans un solide (semi-conducteur) et non dans le vide. Le premier composant à concrétiser cela en pratique fut, en 1947/1948, le *transistor bipolaire*, qui fait également l'objet de questions d'examen.
+Un vieux dicton de radioamateur dit que le meilleur amplificateur haute fréquence est l'antenne. Dans les premières années de la technique radio, elle était le seul « amplificateur », car il n'existait pas encore d'électronique amplificatrice. En 1907, le tube électronique fit son apparition : un composant très performant, mais encombrant et peu efficace. Dès les années 1920, les scientifiques rêvaient de composants offrant une fonction similaire, mais dont le fonctionnement interne se déroulerait entièrement dans un solide (semi-conducteur) et non dans le vide. Le premier composant à concrétiser cela en pratique fut, en 1947/1948, le *transistor bipolaire*, qui fait également l'objet de questions d'examen.
 
 [question:EC602]
 
@@ -66,7 +66,7 @@ $\frac{I_\mathrm{C}}{I_\mathrm{B}} = B$
 *$B$* est le gain en courant (plus précisément, le gain en courant en montage à émetteur commun). Il est souvent plus pratique de considérer le transistor comme un composant commandé en courant, même si ce n'est pas le cas physiquement. Le gain en courant des transistors pratiques varie entre $50$ et $350$.
 
 <tip>
-Pour la commande en courant du transistor bipolaire, il existe une analogie ancienne impliquant un grand et un petit canal d'eau, une écluse dans le grand canal et un volet de commande. Les plus âgés d'entre nous s'en souviennent peut-être grâce au "Petit Radioamateur" des éditions Kosmos ...
+Pour la commande en courant du transistor bipolaire, il existe une analogie ancienne impliquant un grand et un petit canal d'eau, une écluse dans le grand canal et un volet de commande. Les plus âgés d'entre nous s'en souviennent peut-être grâce au « Petit Radioamateur » des éditions Kosmos ...
 
 [picture:835:e_transistor_wehr_geschlossen:Le canal de commande ferme complètement l'écluse]
 

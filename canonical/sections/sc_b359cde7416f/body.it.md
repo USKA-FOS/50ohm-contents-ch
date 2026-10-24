@@ -3,7 +3,7 @@ Le alte tensioni alternate sono pericolose, e questo vale ovviamente anche per l
 Pertanto, vale sempre la regola: non si tocca un'antenna in funzione!
 
 <danger>
-I *"pericoli derivanti dalla corrente elettrica"* sono già stati trattati nella sezione 6.4.
+I *«pericoli derivanti dalla corrente elettrica»* sono già stati trattati nella sezione 6.4.
 </danger>
 
 [question:EK202]

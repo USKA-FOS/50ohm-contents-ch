@@ -18,7 +18,7 @@ Nel riquadro interattivo accanto è rappresentato un tale raddrizzatore a ponte.
 
 <tip>
 [picture:67:a_brueckenlgeichrichter_2:Disposizione dei diodi nel raddrizzatore a ponte]
-Nel raddrizzatore a ponte, i diodi sono orientati con i catodi verso il polo positivo e gli anodi verso il polo negativo. Quindi si può ricordare: i "tratti" dei diodi si incontrano all'uscita positiva. Questa disposizione non deve essere confusa con un miscelatore ad anello di diodi, che impareremo a conoscere in seguito.
+Nel raddrizzatore a ponte, i diodi sono orientati con i catodi verso il polo positivo e gli anodi verso il polo negativo. Quindi si può ricordare: i «tratti» dei diodi si incontrano all'uscita positiva. Questa disposizione non deve essere confusa con un miscelatore ad anello di diodi, che impareremo a conoscere in seguito.
 </tip>
 
 [question:AD305]

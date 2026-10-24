@@ -35,7 +35,7 @@ Cela permet de calculer la résistance ohmique d’un fil conducteur à partir d
 
 ---
 [question:AB101]
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ### Méthode de résolution
 * donné : $l = \qty{1,8}{\meter}$
 * donné : $d = \qty{0,2}{\milli\meter}$

@@ -1,8 +1,8 @@
 * Les radioamateurs de classe E et A sont automatiquement formateurs
 * Sous supervision
 * Dans le cadre de l'étendue des droits du formateur
-* Indicatif personnel + "/T" ou "/Trainee"
-* Station de club + "/T" ou "/Trainee"
+* Indicatif personnel + « /T » ou « /Trainee »
+* Station de club + « /T » ou « /Trainee »
 
 <note>
 * Valable jusqu'à présent et jusqu'à fin 2028 : indicatifs de formation propres avec DN1-DN8
@@ -34,7 +34,7 @@
 * doit guider lors de l'utilisation et de la gestion des opérations
 * intervient de manière régulatrice dans le trafic radio de formation
 * coupe l'émetteur en cas d'urgence
-* doit fournir, sur demande de l'OFCOM, des informations sur la "nature et l'étendue" du trafic de formation
+* doit fournir, sur demande de l'OFCOM, des informations sur la « nature et l'étendue » du trafic de formation
 
 
 <note>

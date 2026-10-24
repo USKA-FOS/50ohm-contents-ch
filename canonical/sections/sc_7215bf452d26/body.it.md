@@ -17,7 +17,7 @@ Per calcolare le distanze da rispettare, nell’area riservata ai membri della U
 Inoltre, *non è necessario rispettare alcun valore limite dell’impianto* a condizione che la durata di esercizio sia *inferiore a 800 ore all’anno*. Questo è praticamente sempre il caso delle applicazioni radioamatoriali. Se un impianto trasmette eccezionalmente di più, deve rispettare un valore limite dell’impianto in luoghi con utilizzo sensibile (OMEN). Tale valore è pari a 8,5 V/m per trasmettitori in onde lunghe e onde medie e a 3,0 V/m per tutte le altre bande di frequenza.
 [Fonte](https://www.bafu.admin.ch/it/amateurfunk-als-elektrosmog-quelle)
 
-Con il termine "luoghi con utilizzo sensibile" (OMEN) si intendono luoghi in cui le persone soggiornano regolarmente per periodi prolungati.
+Con il termine «luoghi con utilizzo sensibile» (OMEN) si intendono luoghi in cui le persone soggiornano regolarmente per periodi prolungati.
 </law>
 
 ---
@@ -30,12 +30,12 @@ La potenza con cui un’antenna irradia nella sua direzione principale di irradi
 
 <indepth>
 % TODO: Specifico per edizione
-Al posto del fattore di guadagno delle antenne, spesso viene indicato il "guadagno in decibel ($\unit{\dB}$")". Il corso tratta l’unità di misura decibel nel capitolo [sec:dezibel_1].
+Al posto del fattore di guadagno delle antenne, spesso viene indicato il «guadagno in decibel ($\unit{\dB}$»)". Il corso tratta l’unità di misura decibel nel capitolo [sec:dezibel_1].
 </indepth>
 
 ---
 
-Per indicare quanta potenza irradia un’antenna concreta nella sua direzione principale di irradiazione quando si imposta una certa potenza di trasmissione, si moltiplica la potenza di trasmissione per il fattore di guadagno riferito al dipolo a semionda. Si ottiene così la *potenza irradiata effettiva*, che viene solitamente abbreviata come ERP (dall’inglese effective radiated power). Ad esempio, se si inserisce una potenza di trasmissione di $\qty{5}{\watt}$ in un’antenna con un fattore di guadagno di $\num{2}$ rispetto al dipolo a semionda, si ottiene una potenza irradiata di $\qty{10}{\watt}$ ERP.
+Per indicare quanta potenza irradia un’antenna concreta nella sua direzione principale di irradiazione quando si imposta una certa potenza di trasmissione, si moltiplica la potenza di trasmissione per il fattore di guadagno riferito al dipolo a semionda. Si ottiene così la «potenza irradiata effettiva», che viene solitamente abbreviata come ERP (dall’inglese effective radiated power). Ad esempio, se si inserisce una potenza di trasmissione di $\qty{5}{\watt}$ in un’antenna con un fattore di guadagno di $\num{2}$ rispetto al dipolo a semionda, si ottiene una potenza irradiata di $\qty{10}{\watt}$ ERP.
 
 <margin>
 La potenza irradiata effettiva (ERP) può essere immaginata anche come segue: è la potenza che bisognerebbe inserire in un dipolo a semionda affinché questo irradia nella sua direzione principale di irradiazione con la stessa intensità dell’antenna considerata.

@@ -1,4 +1,4 @@
-Nous avons déjà abordé les bases de l'ionosphère, de l'activité des taches solaires et de la soi-disant « zone morte » dans les questions d'examen des sections [sec:ionosphaere] et [sec:tote_zone_1]. Ici, ces sujets seront approfondis et complétés par des aspects supplémentaires de la propagation des ondes.
+Nous avons déjà abordé les bases de l'ionosphère, de l'activité des taches solaires et de la soi-disant « zone morte » dans les questions d'examen des sections [sec:ionosphaere] et [sec:tote_zone_1]. Ici, ces sujets seront approfondis et complétés par des aspects supplémentaires de la propagation des ondes.
 
 Le rayonnement provenant du soleil arrache des électrons aux atomes et molécules d'oxygène et d'azote de la haute atmosphère (*ionisation*). Ces électrons libres sont excités pour osciller par des ondes radio de fréquence appropriée ; cela conduit finalement à ce que ces ondes soient réfractées vers la surface de la terre. Comme on peut le voir sur la figure [ref:e_wellenausbreitung_refraktion], le changement de direction des ondes radio causé par la réfraction donne l'impression qu'elles sont réfléchies.
 
@@ -12,7 +12,7 @@ Ce processus confère notamment à l'onde courte ses capacités uniques. La dens
 
 [question:EH219]
 
-D'autre part, ces électrons libres veulent immédiatement se recombiner avec les noyaux atomiques pour former des atomes neutres (*recombinaison*) et perdent ainsi leur effet réfractant. Comme l'ionisation et la recombinaison se produisent constamment dans la lumière solaire, un équilibre s'établit à certaines hauteurs entre ces deux processus. Ces zones sont appelées *régions* (parfois aussi « couches »).
+D'autre part, ces électrons libres veulent immédiatement se recombiner avec les noyaux atomiques pour former des atomes neutres (*recombinaison*) et perdent ainsi leur effet réfractant. Comme l'ionisation et la recombinaison se produisent constamment dans la lumière solaire, un équilibre s'établit à certaines hauteurs entre ces deux processus. Ces zones sont appelées *régions* (parfois aussi « couches »).
 
 ---
 

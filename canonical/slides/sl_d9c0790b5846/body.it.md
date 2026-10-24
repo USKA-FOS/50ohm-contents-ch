@@ -38,7 +38,7 @@
 ## Attività dopo l’esame
 
 * Gare, autocostruzione, emergenza radio, operatività portatile e molto altro
-* Il motto: "Dopo l’esame, prima dell’esame"
+* Il motto: «Dopo l’esame, prima dell’esame»
 * La [HAM-Challenge](https://www.hamchallenge.org) annuale offre una buona panoramica
 
 ---

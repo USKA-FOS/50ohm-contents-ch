@@ -37,7 +37,7 @@ La parole peut également être transmise de manière numérique
 Sans autorisation pour une station télécommandée, un hotspot ne peut être exploité qu’en tant que station occupée, c’est-à-dire avec extinction en cas d’absence de surveillance
 </note>
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ## TDMA
 
 Time Division Multiple Access – multiplexage temporel

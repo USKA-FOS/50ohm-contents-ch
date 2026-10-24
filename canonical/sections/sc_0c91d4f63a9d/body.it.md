@@ -55,7 +55,7 @@ I prefissi nazionali sono necessari più volte nel corso della vita radioamatori
 | *JA* | JApan | Giappone |
 | *K*, *W*, N, AA-AL | Nessuno Vuole Andare in America | USA |
 | LU | Sinistra Sotto | Argentina |
-| *PY* | "Piranhas" | Brasile |
+| *PY* | «Piranhas» | Brasile |
 | *VE* | Molti Alci | Canada |
 | VK | Molti Canguri | Australia |
 | *VU* | | India |

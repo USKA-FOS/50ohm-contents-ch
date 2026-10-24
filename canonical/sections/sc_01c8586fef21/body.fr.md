@@ -19,7 +19,7 @@ Plus le volume de la voix captée par le microphone est élevé — donc plus l�
 ---
 
 
-La valeur maximale de cet écart de la fréquence porteuse est appelée *excursion de fréquence porteuse* ou simplement *excursion*. Sur certains émetteurs-récepteurs, cette valeur peut être réglée, tandis que sur d’autres, elle est fixe. Souvent, il est possible de basculer entre deux valeurs prédéfinies : le FM « classique » et le FM à bande étroite (en anglais Narrow-FM, abrégé en NFM), qui occupe environ la moitié de la bande passante.
+La valeur maximale de cet écart de la fréquence porteuse est appelée *excursion de fréquence porteuse* ou simplement *excursion*. Sur certains émetteurs-récepteurs, cette valeur peut être réglée, tandis que sur d’autres, elle est fixe. Souvent, il est possible de basculer entre deux valeurs prédéfinies : le FM « classique » et le FM à bande étroite (en anglais Narrow-FM, abrégé en NFM), qui occupe environ la moitié de la bande passante.
 
 
 <indepth>

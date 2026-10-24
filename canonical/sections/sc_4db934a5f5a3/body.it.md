@@ -5,7 +5,7 @@ Esistono anche resistenze dipendenti dalla temperatura, chiamate *conduttori fre
 
 I conduttori caldi vengono anche chiamati *NTC* (dall’inglese Negative Temperature Coefficient) e i conduttori freddi *PTC* (dall’inglese Positive Temperature Coefficient).
 
-Questi tipi di resistenze sono rappresentati da simboli di circuito specifici, come mostrato nella figura [ref:e_schaltbildNtcPtc]. È importante notare la presenza della lettera greca minuscola $\vartheta$ (letta „Theta“), che indica la temperatura. Inoltre, sono presenti due frecce che descrivono la dipendenza della resistenza dalla temperatura.
+Questi tipi di resistenze sono rappresentati da simboli di circuito specifici, come mostrato nella figura [ref:e_schaltbildNtcPtc]. È importante notare la presenza della lettera greca minuscola $\vartheta$ (letta «Theta»), che indica la temperatura. Inoltre, sono presenti due frecce che descrivono la dipendenza della resistenza dalla temperatura.
 
 La prima freccia indica un aumento della temperatura $\uparrow$. La seconda freccia mostra come varia la resistenza all’aumentare della temperatura: può aumentare $\uparrow$ o diminuire $\downarrow$.
 

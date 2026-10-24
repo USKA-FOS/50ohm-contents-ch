@@ -11,7 +11,7 @@ Le règlement des radiocommunications (RR) définit :
 ---
 
 * La définition générale d’une station radio selon le règlement des radiocommunications (RR) s’applique également aux stations radioamateurs
-* Le RR définit donc simplement la station radioamateur comme « une station du service d’amateur »
+* Le RR définit donc simplement la station radioamateur comme « une station du service d’amateur »
 
 ---
 [question:VA202]

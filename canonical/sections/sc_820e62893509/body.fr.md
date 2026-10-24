@@ -1,6 +1,6 @@
 %TODO éventuellement déplacer ce chapitre ailleurs
 
-Dans le sous-chapitre *Décibel* du bloc traitant de la « Courant, tension, résistance, puissance, énergie », il a déjà été évoqué que les suffixes $\unit{\dBd}$ et $\unit{\dBi}$, utilisés pour indiquer les gains d'antenne, désignent la référence sous-jacente. Dans ce cas, la valeur en décibels ne se rapporte pas à une puissance ou une tension, mais à un radiateur de référence spécifique. Les références courantes sont $\unit{\dBi}$, basé sur le radiateur isotrope sphérique, et $\unit{\dBd}$, basé sur le dipôle demi-onde.
+Dans le sous-chapitre *Décibel* du bloc traitant de la « Courant, tension, résistance, puissance, énergie », il a déjà été évoqué que les suffixes $\unit{\dBd}$ et $\unit{\dBi}$, utilisés pour indiquer les gains d'antenne, désignent la référence sous-jacente. Dans ce cas, la valeur en décibels ne se rapporte pas à une puissance ou une tension, mais à un radiateur de référence spécifique. Les références courantes sont $\unit{\dBi}$, basé sur le radiateur isotrope sphérique, et $\unit{\dBd}$, basé sur le dipôle demi-onde.
 
 Le *radiateur isotrope* (cf. illustration [ref:e_Kugelstrahler]) est une antenne hypothétique idéale qui rayonne avec la même intensité dans toutes les directions. Si une antenne réelle présente une directivité, le rayonnement est plus intense dans certaines directions et moins intense dans d'autres que ce que produirait le radiateur isotrope hypothétique.
 

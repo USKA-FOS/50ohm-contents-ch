@@ -9,13 +9,13 @@ La radio par satellite est déjà abordée dans le cours HB3 parmi les règlemen
 ---
 
 Les satellites orbitent autour de la terre sur des trajectoires circulaires ou elliptiques et à différentes hauteurs.
-Depuis 1961, cela inclut également les satellites radioamateurs. Ceux-ci sont désignés sous le nom d'OSCAR. C'est l'abréviation de "Orbiting Satellite Carrying Amateur Radio" ("Satellite en orbite transportant la radio amateur"). Le premier satellite radioamateur a été nommé OSCAR 1 ([ref:n_satellit_oscar1]). OSCAR 1 n'était que le début. Au cours des années suivantes - jusqu'à aujourd'hui - toute une série de charges utiles radioamateurs de plus en plus équipées ont été envoyées dans l'espace. Ceux qui s'intéressent à l'histoire des satellites radioamateurs trouveront plus d'informations dans la [History of AMSAT](https://www.amsat.org/amsat-history/).
+Depuis 1961, cela inclut également les satellites radioamateurs. Ceux-ci sont désignés sous le nom d'OSCAR. C'est l'abréviation de « Orbiting Satellite Carrying Amateur Radio » (« Satellite en orbite transportant la radio amateur »). Le premier satellite radioamateur a été nommé OSCAR 1 ([ref:n_satellit_oscar1]). OSCAR 1 n'était que le début. Au cours des années suivantes - jusqu'à aujourd'hui - toute une série de charges utiles radioamateurs de plus en plus équipées ont été envoyées dans l'espace. Ceux qui s'intéressent à l'histoire des satellites radioamateurs trouveront plus d'informations dans la [History of AMSAT](https://www.amsat.org/amsat-history/).
 % Avec la dernière phrase, l'exigence d'une référence de source est également remplie.
 [question:BE415]
 
-Dans ce chapitre, nous apprenons "Qu'est-ce qu'un satellite radioamateur ?" et "Comment se déplace-t-il ?". Dans le chapitre [sec:satelliten_2], nous découvrons ensuite "Comment réaliser réellement une liaison radio par satellite ?".
+Dans ce chapitre, nous apprenons « Qu'est-ce qu'un satellite radioamateur ? » et « Comment se déplace-t-il ? ». Dans le chapitre [sec:satelliten_2], nous découvrons ensuite « Comment réaliser réellement une liaison radio par satellite ? ».
 
-Les relais radio embarqués sont appelés "transpondeurs". La fréquence d'entrée, c'est-à-dire le lien radio de la terre vers le satellite, est appelée "uplink" en radio par satellite. La fréquence de sortie, c'est-à-dire le lien radio du satellite vers la terre, est quant à elle appelée "downlink". Pour l'uplink et le downlink, des bandes de fréquences différentes sont souvent utilisées, car cela permet un découplage plus simple entre le signal émis et le signal reçu.
+Les relais radio embarqués sont appelés « transpondeurs ». La fréquence d'entrée, c'est-à-dire le lien radio de la terre vers le satellite, est appelée « uplink » en radio par satellite. La fréquence de sortie, c'est-à-dire le lien radio du satellite vers la terre, est quant à elle appelée « downlink ». Pour l'uplink et le downlink, des bandes de fréquences différentes sont souvent utilisées, car cela permet un découplage plus simple entre le signal émis et le signal reçu.
 
 <indepth>
 Différentes altitudes de vol et orbites de satellites permettent une large gamme d'applications satellitaires, allant de la communication à la navigation en passant par la recherche scientifique et l'observation de la terre. Dans ce qui suit, nous présentons les principales altitudes de vol ou orbites.
@@ -59,7 +59,7 @@ Lors de l'utilisation de la communication par satellite, l'orientation des anten
 </margin>
 
 <wordorigin>
-Le terme *Azimut* vient de l'arabe *as-sumūt*, ("les chemins"). *Élévation* dérive du latin elevare ("élever").
+Le terme *Azimut* vient de l'arabe *as-sumūt*, (« les chemins »). *Élévation* dérive du latin elevare (« élever »).
 </wordorigin>
 
 [question:BE413]

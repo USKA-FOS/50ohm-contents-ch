@@ -16,7 +16,7 @@ Breve ripasso sulle antenne:
 * Fattore di guadagno $\num{2}$: l’antenna irradia nella direzione principale con una potenza doppia rispetto a un dipolo a semionda nella sua direzione principale
 
 <note>
-* Al posto di fattore di guadagno spesso si indica il "guadagno in decibel ($\unit{dB}$)"
+* Al posto di fattore di guadagno spesso si indica il «guadagno in decibel ($\unit{dB}$)»
 * Questo argomento è trattato nel corso per la classe E
 </note>
 

@@ -30,7 +30,7 @@ Profondità di penetrazione della radiazione:
 
 ## Riferimento temporale
 
-* Nella "26ª ordinanza di attuazione della legge federale tedesca sulla protezione dalle immissioni" viene aggiunto un riferimento temporale per il rispetto dei valori limite di intensità di campo
+* Nella «26ª ordinanza di attuazione della legge federale tedesca sulla protezione dalle immissioni» viene aggiunto un riferimento temporale per il rispetto dei valori limite di intensità di campo
 * È necessario distinguere tre casi per i valori limite
 
 

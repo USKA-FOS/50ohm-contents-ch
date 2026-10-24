@@ -46,7 +46,7 @@ Molto altro su questo argomento nella classe E e A
 ## LED
 
 <left>
-* Diodo luminoso, "light-emitting diode"
+* Diodo luminoso, «light-emitting diode»
 * Si illumina non appena la corrente lo attraversa
 * Schema elettrico: diodo con due frecce aggiuntive verso l'esterno
 * Si comporta come un diodo, ma si illumina

@@ -38,7 +38,7 @@ Di seguito sono spiegate le singole grandezze della formula:
 - $A$ è la superficie delle piastre conduttrici che si fronteggiano
 - $d$ è la distanza tra le piastre
 - $\varepsilon_0 = \qty{0,855e-11}{\ampere\second\per\volt\meter}$ è la costante dielettrica del vuoto, una costante naturale
-- $\varepsilon_r$ (si legge "Epsilon R") è una proprietà specifica dell'isolante (materiale dielettrico) ed è chiamata costante dielettrica relativa, che dipende dal materiale utilizzato. La tabella [ref:e_Dielektrizitätszahl] con i valori dei materiali è disponibile anche nella raccolta di formule.
+- $\varepsilon_r$ (si legge «Epsilon R») è una proprietà specifica dell'isolante (materiale dielettrico) ed è chiamata costante dielettrica relativa, che dipende dal materiale utilizzato. La tabella [ref:e_Dielektrizitätszahl] con i valori dei materiali è disponibile anche nella raccolta di formule.
 
 <margin>
 | Materiale | $\varepsilon_r$ |
@@ -72,7 +72,7 @@ Grazie alla tensione applicata, tra le piastre del condensatore si genera un cam
 
 Ciò significa che inizialmente scorre una corrente elevata, limitata solo dalla resistenza $R$. Con il passare del tempo, sempre più cariche vengono immagazzinate nel condensatore. Di conseguenza, la corrente diminuisce continuamente, mentre la tensione $U_C$ ai capi del condensatore aumenta fino a quando il condensatore è completamente carico. A questo punto, la corrente cessa del tutto.
 
-Tuttavia, questo processo non avviene istantaneamente, ma con un ritardo temporale. La tensione del condensatore aumenta secondo una funzione esponenziale, come mostrato nella figura [ref:e_ladekurve_c]. La durata di questo processo di carica dipende dalla resistenza in serie: maggiore è la resistenza, più tempo impiega il condensatore a caricarsi "completamente". Con un oscilloscopio, come mostrato nella figura [ref:e_lade_entladespannung_mit_oszilloskop] e già trattato in precedenza, è possibile osservare e analizzare visivamente questo andamento temporale.
+Tuttavia, questo processo non avviene istantaneamente, ma con un ritardo temporale. La tensione del condensatore aumenta secondo una funzione esponenziale, come mostrato nella figura [ref:e_ladekurve_c]. La durata di questo processo di carica dipende dalla resistenza in serie: maggiore è la resistenza, più tempo impiega il condensatore a caricarsi «completamente». Con un oscilloscopio, come mostrato nella figura [ref:e_lade_entladespannung_mit_oszilloskop] e già trattato in precedenza, è possibile osservare e analizzare visivamente questo andamento temporale.
 
 <margin>
 [picture:185:e_ladekurve_c:Tensione di carica di un condensatore]

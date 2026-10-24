@@ -52,7 +52,7 @@ Pour garantir qu'une station à distance ne tombe pas dans un état/une exploita
 Puisque l'émetteur-récepteur lui-même peut également entrer dans un état indéfini (par exemple, en raison d'erreurs logicielles ou matérielles dans l'appareil), la tension d'alimentation de l'émetteur-récepteur devrait pouvoir être coupée à distance. Cela peut se faire, par exemple, via une prise IP, qui peut être commandée par l'opérateur via le réseau.
 
 <tip>
-Certains émetteurs-récepteurs ont une fonction "Transmit Timeout Timer" (TOT), avec laquelle la durée d'émission maximale ininterrompue peut être limitée à une durée réglable. Cela constitue une protection supplémentaire contre l'émission continue.
+Certains émetteurs-récepteurs ont une fonction « Transmit Timeout Timer » (TOT), avec laquelle la durée d'émission maximale ininterrompue peut être limitée à une durée réglable. Cela constitue une protection supplémentaire contre l'émission continue.
 </tip>
 
 [question:AF707]

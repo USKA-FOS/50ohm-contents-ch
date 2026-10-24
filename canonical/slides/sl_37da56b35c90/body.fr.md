@@ -3,7 +3,7 @@
 * C'est pourquoi les *installations d'antenne doivent être mises à la terre* ou intégrées dans un *concept de protection contre la foudre* existant
 
 <note>
-* Bonne lecture : ["Guide pour la protection des installations radio sur bâtiments en cas de foudre"](https://50ohm.de/vde-blitz) du VDE
+* Bonne lecture : [« Guide pour la protection des installations radio sur bâtiments en cas de foudre »](https://50ohm.de/vde-blitz) du VDE
 </note>
 ---
 ### Surtension

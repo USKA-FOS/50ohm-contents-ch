@@ -12,7 +12,7 @@ Les éléments de l'antenne de cette illustration sont perpendiculaires au sol. 
 
 ---
 
-Le fait que la direction de polarisation corresponde souvent à l'orientation géométrique des éléments de l'antenne s'explique par le fait que la plupart des antennes utilisées ont une disposition des conducteurs qui coïncide géométriquement avec la direction du champ électrique. En effet, par convention, l'indication « horizontal » ou « vertical » se réfère à l'orientation du champ électrique et non à celle de la composante magnétique.
+Le fait que la direction de polarisation corresponde souvent à l'orientation géométrique des éléments de l'antenne s'explique par le fait que la plupart des antennes utilisées ont une disposition des conducteurs qui coïncide géométriquement avec la direction du champ électrique. En effet, par convention, l'indication « horizontal » ou « vertical » se réfère à l'orientation du champ électrique et non à celle de la composante magnétique.
 
 <indepth>
 La règle empirique simple selon laquelle les antennes disposées verticalement polarisent verticalement et les antennes disposées horizontalement polarisent horizontalement *n'est pas valable en général*. Par exemple, une antenne Magnetic-Loop horizontale présente une polarisation verticale, et une antenne Magnetic-Loop verticale présente une polarisation horizontale. En revanche, pour une antenne en boucle d'onde entière (par exemple une Delta-Loop), la direction de polarisation dépend de l'emplacement de l'alimentation. Pour les antennes dipôles et Yagi-Uda, on peut déterminer la polarisation à partir de l'orientation mécanique des fils, car c'est dans cette direction que le champ électrique se forme.
@@ -36,7 +36,7 @@ Le vecteur de Poynting mentionné ici est un vecteur perpendiculaire à la fois 
 [picture:886:e_funkhorizont:Polarisation horizontale]
 </margin>
 
-La composante du champ électrique est parallèle au sol, il s'agit donc d'une polarisation horizontale. À noter : la flèche directionnelle « S » indique la direction de propagation, il s'agit du vecteur de Poynting.
+La composante du champ électrique est parallèle au sol, il s'agit donc d'une polarisation horizontale. À noter : la flèche directionnelle « S » indique la direction de propagation, il s'agit du vecteur de Poynting.
 
 
 

@@ -108,7 +108,7 @@ Nessun calcolo necessario poiché esiste una sola risposta con attenuatore
 [question:AI610]
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 #### Procedimento di soluzione
 
@@ -123,7 +123,7 @@ $\begin{split}R &= \left(\frac{1}{R_T + R_T} + \frac{1}{R_V} + \frac{1}{R_V}\rig
 </fragment>
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 * dato: $P_E = \qty{1}{\watt}$
 * dato: $U_F = \qty{0,23}{\volt}$
@@ -135,7 +135,7 @@ $\begin{split}P_E &= \frac{U_{E,eff}^2}{R}\\ \Rightarrow U_{E,eff} &= \sqrt{P_E 
 </fragment>
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 * dato: $U_F = \qty{0,23}{\volt}$
 * calcolato: $U_{E,eff} = \qty{7,125}{\volt}$
@@ -172,7 +172,7 @@ $\begin{split}U_A &= \frac{U_S}{2}\,-\,U_F\\ &= \frac{\qty{10,07}{\volt}}{2}\,-\
 [question:AI611]
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 #### Procedimento di soluzione
 * dato: $U_A = \qty{14,9}{\volt}\text{ DC}$
@@ -192,7 +192,7 @@ $\begin{split}U_S &= \left(U_A + U_F\right) \cdot 2\\ &= \left(\qty{14,9}{\volt}
 </right>
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 <left>
 * calcolato: $R = \qty{50}{\ohm}$
@@ -229,7 +229,7 @@ $\begin{split}P_E &= \frac{U_{E,eff}^2}{R}\\ &= \frac{(\qty{22,06}{\volt})^2}{\q
 [question:AI607]
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 #### Procedimento di soluzione
 
@@ -250,7 +250,7 @@ $\begin{split}U_S &= \frac{U_A}{2} + U_F\\ &= \frac{\qty{15,3}{\volt}}{2} + \qty
 </right>
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 <left>
 * calcolato: $R = \qty{50,04}{\ohm}$
@@ -273,7 +273,7 @@ $\begin{split}P_E &= \frac{U_{E,eff}^2}{R}\\ &= \frac{{\qty{5,57}{\volt}}^2}{\qt
 [question:AI606]
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 #### Procedimento di soluzione
 
@@ -294,7 +294,7 @@ $\begin{split}U_{E,eff} &= \frac{U_S}{\sqrt{2}}\\ &= \frac{\qty{7,88}{\volt}}{1,
 </right>
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 * calcolato: $U_{E,eff} = \qty{5,57}{\volt}$
 * dato: $R = \qty{50}{\ohm}$ dal sistema di misura
@@ -305,7 +305,7 @@ $\begin{split}P_E &= \frac{(U_{E,eff} \cdot 10)^2}{R}\\ &= \frac{(\qty{5,57}{\vo
 </fragment>
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ## Indicatore d’intensità di campo per la misurazione della potenza
 

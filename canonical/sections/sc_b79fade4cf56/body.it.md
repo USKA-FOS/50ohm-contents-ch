@@ -37,6 +37,6 @@ La velocità di propagazione ridotta dal materiale dielettrico si riflette nel f
 
 $k_\mathrm{v} = \frac{L_\mathrm{G}}{L_\mathrm{E}} = \frac{1}{\sqrt{\epsilon_\mathrm{r}}}$
 
-Qui $k_\mathrm{v}$ è il fattore di velocità, $L_\mathrm{G}$ la lunghezza geometrica ("meccanica"), e $L_\mathrm{E}$ la lunghezza elettrica. La costante dielettrica relativa $\epsilon_\mathrm{r}$ dipende dal materiale dielettrico utilizzato. Per il polietilene (PE) non schiumato, nella raccolta di formule possiamo trovare un valore della costante dielettrica di $\num{2,29}$.
+Qui $k_\mathrm{v}$ è il fattore di velocità, $L_\mathrm{G}$ la lunghezza geometrica («meccanica»), e $L_\mathrm{E}$ la lunghezza elettrica. La costante dielettrica relativa $\epsilon_\mathrm{r}$ dipende dal materiale dielettrico utilizzato. Per il polietilene (PE) non schiumato, nella raccolta di formule possiamo trovare un valore della costante dielettrica di $\num{2,29}$.
 
 [question:AG317]

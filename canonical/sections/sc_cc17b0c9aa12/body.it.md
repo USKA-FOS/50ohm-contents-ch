@@ -8,7 +8,7 @@ Può risultare confuso il fatto che il verso convenzionale della corrente sia op
 
 [question:AC403]
 
-I diodi pn mostrano una dipendenza esponenziale della corrente del diodo dalla tensione del diodo. La corrente di saturazione aumenta con l’aumento della temperatura. Questo fa sì che la tensione del diodo necessaria per una determinata corrente del diodo diminuisca all’aumentare della temperatura. La "tensione diretta" quindi diminuisce (come regola empirica di circa $\qty{-2}{\milli\volt\per\kelvin}$ di aumento della temperatura).
+I diodi pn mostrano una dipendenza esponenziale della corrente del diodo dalla tensione del diodo. La corrente di saturazione aumenta con l’aumento della temperatura. Questo fa sì che la tensione del diodo necessaria per una determinata corrente del diodo diminuisca all’aumentare della temperatura. La «tensione diretta» quindi diminuisce (come regola empirica di circa $\qty{-2}{\milli\volt\per\kelvin}$ di aumento della temperatura).
 <indepth>
 
 La corrente del diodo è:
@@ -39,7 +39,7 @@ Nelle domande AC405 e AC406 vengono utilizzati *diodi antiparalleli* per limitar
 
 In questo caso si tratta di diodi al silicio, che hanno una tensione di soglia di circa $\qty{0,6}{\volt}$. Se quindi la tensione d’ingresso supera $\qty{0,6}{\volt}$, il diodo di destra si polarizza in conduzione. Se scende sotto $\qty{-0,6}{\volt}$, si polarizza in conduzione il diodo di sinistra.
 
-Nel primo semiperiodo la tensione necessaria non viene ancora raggiunta, quindi viene trasmessa invariata. I due semiperiodi successivi, invece, hanno ampiezze che superano la tensione di soglia. Le ampiezze vengono "tagliate" a $\qty{\pm 0,6}{\volt}$.
+Nel primo semiperiodo la tensione necessaria non viene ancora raggiunta, quindi viene trasmessa invariata. I due semiperiodi successivi, invece, hanno ampiezze che superano la tensione di soglia. Le ampiezze vengono «tagliate» a $\qty{\pm 0,6}{\volt}$.
 
 [question:AC406]
 

@@ -1,6 +1,6 @@
 Mentre il registro serve per la propria documentazione, molti radioamatori si confermano reciprocamente i loro collegamenti radio. A questo scopo esistono le *cartoline QSL*, che vengono inviate ai corrispondenti radio. Esse fungono da prova che un collegamento radio è effettivamente avvenuto.
 
-Le cartoline QSL somigliano a cartoline postali. Un lato contiene varie informazioni sul collegamento radio. L'altro lato è solitamente decorato con un motivo personale. Il nome deriva dal gruppo Q QSL, che significa "confermo la ricezione".
+Le cartoline QSL somigliano a cartoline postali. Un lato contiene varie informazioni sul collegamento radio. L'altro lato è solitamente decorato con un motivo personale. Il nome deriva dal gruppo Q QSL, che significa «confermo la ricezione».
 
 
 <margin>
@@ -39,7 +39,7 @@ Un riconoscimento noto è il *DX Century Club* dell'American Radio Relay League 
 Per inviare una cartolina QSL per posta al corrispondente radio, è necessario conoscerne l'indirizzo. Per molti radioamatori in tutto il mondo, l'indirizzo può essere trovato nell'*elenco internazionale dei nominativi radioamatoriali (Callbook)*, che viene fornito dalle associazioni radioamatoriali sia su supporto dati che online.
 
 <tip>
-Poiché l'invio per posta risulta nel tempo molto costoso, le associazioni radioamatoriali gestiscono un proprio sistema mondiale di distribuzione delle cartoline QSL, il cosiddetto *servizio QSL*. Essendo membri di un'associazione partecipante, è possibile inviare e ricevere le proprie cartoline QSL tramite l'ufficio di smistamento, chiamato a livello internazionale "Bureau". Gli uffici di smistamento delle associazioni radioamatoriali si scambiano le cartoline QSL tra loro. In Germania, il DARC partecipa per i suoi membri allo scambio mondiale di cartoline QSL. Le cartoline da inviare vengono raccolte dal responsabile QSL della sezione locale e le cartoline ricevute vengono distribuite ai membri.
+Poiché l'invio per posta risulta nel tempo molto costoso, le associazioni radioamatoriali gestiscono un proprio sistema mondiale di distribuzione delle cartoline QSL, il cosiddetto *servizio QSL*. Essendo membri di un'associazione partecipante, è possibile inviare e ricevere le proprie cartoline QSL tramite l'ufficio di smistamento, chiamato a livello internazionale «Bureau». Gli uffici di smistamento delle associazioni radioamatoriali si scambiano le cartoline QSL tra loro. In Germania, il DARC partecipa per i suoi membri allo scambio mondiale di cartoline QSL. Le cartoline da inviare vengono raccolte dal responsabile QSL della sezione locale e le cartoline ricevute vengono distribuite ai membri.
 
 Un metodo particolarmente comodo per inviare cartoline QSL è tramite il *servizio QSL del DARC*. Qui è possibile caricare semplicemente estratti da un registro elettronico. Verranno quindi stampate automaticamente cartoline QSL per ogni collegamento e consegnate direttamente al servizio QSL. Il motivo dell'immagine può essere personalizzato e modificato in qualsiasi momento. Per i membri del DARC, questo servizio è notevolmente scontato.
 
@@ -50,7 +50,7 @@ Un metodo particolarmente comodo per inviare cartoline QSL è tramite il *serviz
 A volte si incontrano anche nominativi che iniziano con DE. Questi non vengono rilasciati dall'Agenzia federale delle reti. Si tratta di *contrassegni di ascolto*, che il DARC rilascia ai membri dopo aver verificato alcune conoscenze di base. Con questi nominativi non è possibile partecipare al funzionamento in trasmissione. Tuttavia, vengono utilizzati dagli ascoltatori di onde corte, i cosiddetti SWL (dall'inglese short wave listener), che ascoltano i collegamenti radio. Gli SWL possono confermare un collegamento ascoltato inviando una cartolina QSL a entrambi i partecipanti di un collegamento radio.
 </indepth>
 
-Alcuni radioamatori non si occupano personalmente delle proprie cartoline QSL, ma si fanno rappresentare da un cosiddetto *responsabile QSL*. Quest'ultimo si occupa quindi dell'invio e della ricezione delle cartoline QSL. Se una stazione viene rappresentata, ad esempio, da K8PYD, si parla di "QSL via K8PYD". In tal caso, le cartoline QSL non devono essere inviate al radioamatore stesso, ma a K8PYD.
+Alcuni radioamatori non si occupano personalmente delle proprie cartoline QSL, ma si fanno rappresentare da un cosiddetto *responsabile QSL*. Quest'ultimo si occupa quindi dell'invio e della ricezione delle cartoline QSL. Se una stazione viene rappresentata, ad esempio, da K8PYD, si parla di «QSL via K8PYD». In tal caso, le cartoline QSL non devono essere inviate al radioamatore stesso, ma a K8PYD.
 
 [question:BG110]
 [question:BG109]
@@ -62,7 +62,7 @@ Esistono anche alternative senza carta alle cartoline QSL. Da un lato, è possib
 ---
 % Il testo può rimanere invariato, poiché è importante anche qui. (Incl. attenzione) Domande BG106-108 eliminate, spostate dopo il paragrafo 15.1 Registro
 
-Allo stesso modo del registro, tutte le indicazioni orarie sulle cartoline QSL devono essere sempre in UTC. Questo aiuta il destinatario a ritrovare più facilmente il collegamento nel proprio registro. Ricordiamo: per l'ora invernale vale "UTC = CET meno 1 ora" e per l'ora estiva vale "UTC = CEST meno 2 ore".
+Allo stesso modo del registro, tutte le indicazioni orarie sulle cartoline QSL devono essere sempre in UTC. Questo aiuta il destinatario a ritrovare più facilmente il collegamento nel proprio registro. Ricordiamo: per l'ora invernale vale «UTC = CET meno 1 ora» e per l'ora estiva vale «UTC = CEST meno 2 ore».
 
 <attention>
 Su una cartolina QSL dovrebbe essere indicata un'*ora il più possibile precisa*, poiché per molti diplomi una cartolina QSL inviata non viene accettata se l'ora indicata differisce di diversi minuti da quella del registro del richiedente.

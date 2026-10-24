@@ -11,8 +11,8 @@
 
 Pour trouver rapidement des partenaires radio
 
-* Radiotéléphonie FM ("FM calling")
-* Téléphonie numérique ("digital voice calling")
+* Radiotéléphonie FM (« FM calling »)
+* Téléphonie numérique (« digital voice calling »)
 
 <note>
 * La radiotéléphonie FM est analogique
@@ -42,7 +42,7 @@ Pour trouver rapidement des partenaires radio
 * Il n'existe pas de fréquence d'appel
 * À la place, un *centre d'activité* ou *center of activity*
 * Les appels doivent avoir lieu dans l'environnement de cette fréquence
-* Cependant, toute la bande BLU peut être utilisée
+* Cependant, toute la bande « BLU » peut être utilisée
 
 ---
 [question:BC211]
@@ -52,11 +52,11 @@ Pour trouver rapidement des partenaires radio
 
 ## Bandes de fréquences réservées
 
-* Liaisons montantes et descendantes des satellites ("satellite uplink", "satellite downlink")
-* Balises ("beacons")
-* Stations relais, entrée et sortie ("repeater input", "repeater output")
-* Communications spatiales ("space communication")
-* Télégraphie Morse ("CW")
+* Liaisons montantes et descendantes des satellites (« satellite uplink », « satellite downlink »)
+* Balises (« beacons »)
+* Stations relais, entrée et sortie (« repeater input », « repeater output »)
+* Communications spatiales (« space communication »)
+* Télégraphie Morse (« CW »)
 
 <note>
 * Les connexions de nature différente doivent être évitées

@@ -6,7 +6,7 @@ Une résistance dissipe également de la puissance électrique. Dès qu’un cou
 [question:NA211]
 [question:NA210]
 
-La puissance électrique dépend à la fois de la tension et du courant. On peut dire à la fois « Plus la tension est élevée, plus la puissance est grande » et « Plus le courant est élevé, plus la puissance est grande ». Le calcul de la puissance est très simple : c’est le produit de la tension par le courant :
+La puissance électrique dépend à la fois de la tension et du courant. On peut dire à la fois « Plus la tension est élevée, plus la puissance est grande » et « Plus le courant est élevé, plus la puissance est grande ». Le calcul de la puissance est très simple : c’est le produit de la tension par le courant :
 
 $ P = U \cdot I $
 

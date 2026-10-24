@@ -1,0 +1,27 @@
+{
+  "kind": "accepted_manual_quotation_review_application",
+  "created_at": "2026-10-24T20:11:37.187760+00:00",
+  "plan": "import-plan.json",
+  "plan_sha256": "664411d17707ca1e1c1c17af04aaaee92368742c2d22d5e71694e9f284a2ee60",
+  "reviewed_objects": 35,
+  "accepted_unchanged_objects": 14,
+  "applied_objects": 21,
+  "applied_files": 27,
+  "applied_by_language": {
+    "fr": 15,
+    "it": 12
+  },
+  "german_payload_changes": 0,
+  "imported_verbatim": true,
+  "manual_quotation_differences_accepted": true,
+  "working_review_copies_preserved": true,
+  "canonical_validation_after": {
+    "canonical_root": "/home/jjcarron/proj/50-Ohms/ham-translator/50ohm-contents-ch/canonical",
+    "object_count": 2356,
+    "error_count": 0,
+    "warning_count": 0,
+    "errors": [],
+    "warnings": [],
+    "valid": true
+  }
+}

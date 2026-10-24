@@ -1,0 +1,292 @@
+--- canonical/sections/sc_12f25a3da45e/body.fr.md
++++ canonical/sections/sc_12f25a3da45e/body.fr.md
+@@ -72,7 +72,7 @@
+ 
+ Cela signifie qu'au début, un courant élevé circule, limité uniquement par la résistance $R$. Avec le temps, de plus en plus de charges sont stockées dans le condensateur. Le courant diminue donc continuellement, tandis que la tension $U_C$ aux bornes du condensateur augmente jusqu'à ce qu'il soit complètement chargé. À ce stade, plus aucun courant ne circule.
+ 
+-Cependant, ce processus ne se produit pas instantanément, mais avec un retard temporel. La tension du condensateur augmente alors selon une fonction exponentielle, comme illustré dans la figure [ref:e_ladekurve_c]. La durée de ce processus de charge dépend de la résistance en série : plus la résistance est grande, plus le temps nécessaire pour charger complètement le condensateur est long. Avec un oscilloscope, comme montré dans la figure [ref:e_lade_entladespannung_mit_oszilloskop], que nous avons déjà présenté, on peut observer et étudier visuellement cette évolution temporelle.
++Cependant, ce processus ne se produit pas instantanément, mais avec un retard temporel. La tension du condensateur augmente alors selon une fonction exponentielle, comme illustré dans la figure [ref:e_ladekurve_c]. La durée de ce processus de charge dépend de la résistance en série : plus la résistance est grande, plus le temps nécessaire pour charger « complètement » le condensateur est long. Avec un oscilloscope, comme montré dans la figure [ref:e_lade_entladespannung_mit_oszilloskop], que nous avons déjà présenté, on peut observer et étudier visuellement cette évolution temporelle.
+ 
+ <margin>
+ [picture:185:e_ladekurve_c:Tension de charge d'un condensateur]
+--- canonical/sections/sc_5a961fe0475b/body.fr.md
++++ canonical/sections/sc_5a961fe0475b/body.fr.md
+@@ -1,7 +1,7 @@
+ Une technique particulière souvent utilisée par les stations très demandées est le trafic en split. Dans ce cas, la station très demandée reçoit sur une fréquence différente de celle sur laquelle elle émet. La station appelant CQ annonce le trafic en split en indiquant la fréquence ou la bande de fréquences sur laquelle elle reçoit. Les indications sont toujours données en $\unit{\kilo\hertz}$.
+ 
+ <indepth>
+-Un *avantage du trafic en split* est que la station particulière reste clairement audible et ne se noie pas dans le pile-up.
++Un *avantage du trafic en split* est que la station particulière reste clairement audible et ne se « noie » pas dans le pile-up.
+ </indepth>
+ 
+ ---
+--- canonical/sections/sc_7215bf452d26/body.fr.md
++++ canonical/sections/sc_7215bf452d26/body.fr.md
+@@ -35,7 +35,7 @@
+ 
+ ---
+ 
+-Pour indiquer la puissance émise par une antenne dans sa direction principale de rayonnement avec une puissance d’émission donnée, on multiplie la puissance d’émission par le facteur de gain par rapport au dipôle demi-onde. On obtient ainsi la *puissance rayonnée effective*, généralement abrégée ERP (de l’anglais *effective radiated power*). Par exemple, si l’on injecte une puissance d’émission de $\qty{5}{\watt}$ dans une antenne avec un facteur de gain de $\num{2}$ par rapport au dipôle demi-onde, on obtient une puissance rayonnée de $\qty{10}{\watt}$ ERP.
++Pour indiquer la puissance émise par une antenne dans sa direction principale de rayonnement avec une puissance d’émission donnée, on multiplie la puissance d’émission par le facteur de gain par rapport au dipôle demi-onde. On obtient ainsi la *puissance rayonnée effective*, généralement abrégée ERP (de l’anglais « effective radiated power »). Par exemple, si l’on injecte une puissance d’émission de $\qty{5}{\watt}$ dans une antenne avec un facteur de gain de $\num{2}$ par rapport au dipôle demi-onde, on obtient une puissance rayonnée de $\qty{10}{\watt}$ ERP.
+ 
+ <margin>
+ On peut également se représenter la puissance rayonnée effective (ERP) de la manière suivante : c’est la puissance qu’il faudrait injecter dans un dipôle demi-onde pour qu’il émette aussi fortement dans sa direction principale de rayonnement que l’antenne considérée.
+--- canonical/sections/sc_7215bf452d26/body.it.md
++++ canonical/sections/sc_7215bf452d26/body.it.md
+@@ -35,7 +35,7 @@
+ 
+ ---
+ 
+-Per indicare quanta potenza irradia un’antenna concreta nella sua direzione principale di irradiazione quando si imposta una certa potenza di trasmissione, si moltiplica la potenza di trasmissione per il fattore di guadagno riferito al dipolo a semionda. Si ottiene così la *potenza irradiata effettiva*, che viene solitamente abbreviata come ERP (dall’inglese effective radiated power). Ad esempio, se si inserisce una potenza di trasmissione di $\qty{5}{\watt}$ in un’antenna con un fattore di guadagno di $\num{2}$ rispetto al dipolo a semionda, si ottiene una potenza irradiata di $\qty{10}{\watt}$ ERP.
++Per indicare quanta potenza irradia un’antenna concreta nella sua direzione principale di irradiazione quando si imposta una certa potenza di trasmissione, si moltiplica la potenza di trasmissione per il fattore di guadagno riferito al dipolo a semionda. Si ottiene così la «potenza irradiata effettiva», che viene solitamente abbreviata come ERP (dall’inglese effective radiated power). Ad esempio, se si inserisce una potenza di trasmissione di $\qty{5}{\watt}$ in un’antenna con un fattore di guadagno di $\num{2}$ rispetto al dipolo a semionda, si ottiene una potenza irradiata di $\qty{10}{\watt}$ ERP.
+ 
+ <margin>
+ La potenza irradiata effettiva (ERP) può essere immaginata anche come segue: è la potenza che bisognerebbe inserire in un dipolo a semionda affinché questo irradia nella sua direzione principale di irradiazione con la stessa intensità dell’antenna considerata.
+--- canonical/sections/sc_8df5737577d0/body.it.md
++++ canonical/sections/sc_8df5737577d0/body.it.md
+@@ -24,7 +24,7 @@
+ [question:EJ201]
+ 
+ <indepth>
+-Le forme d'onda che non sono sinusoidali e che presentano in particolare spigoli vivi e angoli acuti sono composte da molte diverse componenti di frequenza sinusoidali e contengono molte armoniche. In particolare, quando i trasmettitori sono sovramodulati, i segnali precedentemente sinusoidali vengono spesso distorti o limitati in ampiezza. Ciò comporta anche la formazione di armoniche significative. Ogni deviazione dalla forma sinusoidale ideale deve quindi essere evitata nei segnali di trasmissione ideali. Questo argomento verrà approfondito nel corso di classe A. Tuttavia, con questo applet è già possibile sperimentare la situazione.
++Le forme d'onda che non sono sinusoidali e che presentano in particolare «spigoli vivi e angoli acuti» sono composte da molte diverse componenti di frequenza sinusoidali e contengono molte armoniche. In particolare, quando i trasmettitori sono sovramodulati, i segnali precedentemente sinusoidali vengono spesso distorti o limitati in ampiezza. Ciò comporta anche la formazione di armoniche significative. Ogni deviazione dalla forma sinusoidale ideale deve quindi essere evitata nei segnali di trasmissione ideali. Questo argomento verrà approfondito nel corso di classe A. Tuttavia, con questo applet è già possibile sperimentare la situazione.
+ [include:fourier]
+ 
+ </indepth>
+--- canonical/sections/sc_9004a722f484/body.fr.md
++++ canonical/sections/sc_9004a722f484/body.fr.md
+@@ -175,7 +175,7 @@
+ 
+ ---
+ 
+-Avec de grandes tensions BF, on peut facilement provoquer des variations de fréquence de l'oscillateur beaucoup plus importantes (excursion FM) que ce qui est autorisé. Par conséquent, une limitation de l'excursion par un réglage et une limitation de l'amplitude BF est nécessaire. Des diodes montées en antiparallèle limitent la tension à environ la tension de seuil des diodes. Les figures [ref:a_fm_modulator_hub1] et [ref:a_fm_modulator_hub2] en montrent un exemple.
++Avec de grandes tensions BF, on peut facilement provoquer des variations de fréquence de l'oscillateur beaucoup plus importantes («excursion FM») que ce qui est autorisé. Par conséquent, une limitation de « l'excursion » par un réglage et une limitation de l'amplitude BF est nécessaire. Des diodes montées en antiparallèle limitent la tension à environ la tension de seuil des diodes. Les figures [ref:a_fm_modulator_hub1] et [ref:a_fm_modulator_hub2] en montrent un exemple.
+ 
+ <margin>
+ [picture:44:a_fm_modulator_hub1:Circuit de limitation d'excursion]
+--- canonical/sections/sc_9021b3a94776/body.fr.md
++++ canonical/sections/sc_9021b3a94776/body.fr.md
+@@ -116,7 +116,7 @@
+ 
+ ---
+ 
+-Les transistors à effet de champ ont un principe de commande totalement différent de celui des transistors bipolaires. Alors que pour les transistors bipolaires, il faut considérer à la fois les électrons et les trous d'électrons (« trous ») (d'où « bipolaire »), dans le transistor à effet de champ, une seule sorte de porteurs de charge est impliquée (« unipolaire »). Il peut s'agir soit d'électrons (*transistor à effet de champ à canal n*) soit de trous (*transistor à effet de champ à canal p*).
++Les transistors à effet de champ ont un principe de commande totalement différent de celui des transistors bipolaires. Alors que pour les transistors bipolaires, il faut considérer à la fois les électrons et l'absence d'électrons (« trous ») (d'où « bipolaire »), dans le transistor à effet de champ, une seule sorte de porteurs de charge est impliquée (« unipolaire »). Il peut s'agir soit d'électrons (*transistor à effet de champ à canal n*) soit de trous (*transistor à effet de champ à canal p*).
+ 
+ Les électrodes du FET, représentées dans la figure [ref:a_fet_schnitt_aus], sont désignées comme suit :
+ 
+--- canonical/sections/sc_9021b3a94776/body.it.md
++++ canonical/sections/sc_9021b3a94776/body.it.md
+@@ -116,7 +116,7 @@
+ 
+ ---
+ 
+-I transistor ad effetto di campo hanno un principio di controllo completamente diverso rispetto ai transistor bipolari. Mentre nei transistor bipolari devono essere considerati sia gli elettroni che le lacune (da qui «bipolare»), nel transistor ad effetto di campo è coinvolto solo un tipo di portatore di carica («unipolare»). Questi possono essere elettroni (*transistor ad effetto di campo a canale n*) o lacune (*transistor ad effetto di campo a canale p*).
++I transistor ad effetto di campo hanno un principio di controllo completamente diverso rispetto ai transistor bipolari. Mentre nei transistor bipolari devono essere considerati sia gli elettroni sia l'assenza di elettroni («lacune») (da qui «bipolare»), nel transistor ad effetto di campo è coinvolto solo un tipo di portatore di carica («unipolare»). Questi possono essere elettroni (*transistor ad effetto di campo a canale n*) o lacune (*transistor ad effetto di campo a canale p*).
+ 
+ Gli elettrodi del FET, che sono rappresentati nella figura [ref:a_fet_schnitt_aus], sono denominati come segue:
+ 
+--- canonical/sections/sc_924dbf22b2a2/body.it.md
++++ canonical/sections/sc_924dbf22b2a2/body.it.md
+@@ -2,7 +2,7 @@
+ 
+ Qui verranno trattati inizialmente i pericoli generali.
+ 
+-Il pericolo principale consiste nel contatto con una tensione elettrica. In elettrotecnica si parla di tensione pericolosa quando questa supera i $\qty{50}{\volt}$ in caso di tensione alternata e i $\qty{120}{\volt}$ in caso di tensione continua. Questi limiti sono stati fissati in modo che non possano verificarsi danni gravi al corpo umano. La tensione alternata viene abbreviata anche come «AC» (dall’inglese alternating current) e quella continua come «DC» (dall’inglese direct current).
++Il pericolo principale consiste nel contatto con una tensione elettrica. In elettrotecnica si parla di tensione pericolosa quando questa supera i $\qty{50}{\volt}$ in caso di tensione alternata e i $\qty{120}{\volt}$ in caso di tensione continua. Questi limiti sono stati fissati in modo che non possano verificarsi danni gravi al corpo umano. La tensione alternata viene abbreviata anche come «AC» (dall’inglese «alternating current») e quella continua come «DC» (dall’inglese «direct current»).
+ 
+ <indepth>
+ Il motivo per cui *i valori limite per tensione alternata e continua sono diversi* dipende dagli effetti differenti sul corpo: la tensione alternata può influenzare il ritmo cardiaco, mentre quella continua provoca soprattutto ustioni.
+--- canonical/sections/sc_9bd796242615/body.fr.md
++++ canonical/sections/sc_9bd796242615/body.fr.md
+@@ -1,6 +1,6 @@
+ Lorsqu'un signal haute fréquence est transmis par un câble, son intensité diminue avec l'augmentation de la longueur. Cet effet est appelé *atténuation du câble* et est généralement indésirable. Les connecteurs peuvent également contribuer à l'atténuation d'un signal.
+ 
+-L'atténuation est généralement indiquée en décibels ($\unit{\dB}$), une valeur positive représentant une diminution du signal lorsqu'on parle d'atténuation.
++L'atténuation est généralement indiquée en décibels ($\unit{\dB}$), une valeur positive représentant une diminution du signal lorsqu'on parle « d'atténuation »f.
+ 
+ Pour les questions suivantes, il faut d'abord déterminer le facteur par lequel la puissance diminue (par exemple, facteur $\num{2}$ pour une division par deux ou facteur $\num{10}$ pour une diminution de $\qty{100}{\percent}$ à $\qty{10}{\percent}$). Ensuite, ce facteur de puissance peut être converti en une valeur en décibels à l'aide du tableau [ref:e_dezibel_leistungsfaktoren] du recueil de formules ou la solution peut être consultée.
+ 
+--- canonical/sections/sc_9beaaac9d91e/body.fr.md
++++ canonical/sections/sc_9beaaac9d91e/body.fr.md
+@@ -1,5 +1,5 @@
+ 
+-Lors de la transmission et du traitement des signaux, des retards apparaissent. La vitesse de la lumière permet de déterminer le temps nécessaire à une onde électromagnétique pour parcourir la distance entre l’émetteur et le récepteur. Dans le traitement des signaux, d’autres retards surviennent, principalement dus au stockage temporaire dans des mémoires tampons (en anglais buffer) et aux filtres. Contrairement au traitement numérique des signaux, les méthodes analogiques entraînent rarement des retards notables, car elles ne nécessitent généralement pas de stockage intermédiaire et n’utilisent que des filtres relativement simples.
++Lors de la transmission et du traitement des signaux, des retards apparaissent. La vitesse de la lumière permet de déterminer le temps nécessaire à une onde électromagnétique pour parcourir la distance entre l’émetteur et le récepteur. Dans le traitement des signaux, d’autres retards surviennent, principalement dus au stockage temporaire dans des mémoires tampons (en anglais « buffer ») et aux filtres. Contrairement au traitement numérique des signaux, les méthodes analogiques entraînent rarement des retards notables, car elles ne nécessitent généralement pas de stockage intermédiaire et n’utilisent que des filtres relativement simples.
+ 
+ Le retard génère un temps de propagation entre l’émetteur et le récepteur ou entre l’entrée et la sortie d’une étape de traitement. Ce temps de propagation est appelé latence et se mesure en secondes. Les latences typiques se situent dans une plage allant de quelques millisecondes à quelques secondes.
+ 
+--- canonical/sections/sc_9beaaac9d91e/body.it.md
++++ canonical/sections/sc_9beaaac9d91e/body.it.md
+@@ -1,5 +1,5 @@
+ 
+-Durante la trasmissione e l'elaborazione dei segnali si verificano ritardi. Dalla velocità della luce deriva il tempo necessario a un'onda elettromagnetica per propagarsi dal trasmettitore al ricevitore. Nell'elaborazione dei segnali si aggiungono ulteriori ritardi, principalmente a causa dell'immagazzinamento temporaneo nei buffer e dei filtri. Al contrario dell'elaborazione digitale dei segnali, nei processi analogici i ritardi sono raramente apprezzabili, poiché in questo caso non avviene di norma alcuna memorizzazione intermedia e si utilizzano filtri relativamente semplici.
++Durante la trasmissione e l'elaborazione dei segnali si verificano ritardi. Dalla velocità della luce deriva il tempo necessario a un'onda elettromagnetica per propagarsi dal trasmettitore al ricevitore. Nell'elaborazione dei segnali si aggiungono ulteriori ritardi, principalmente a causa dell'immagazzinamento temporaneo nei «buffer» e dei filtri. Al contrario dell'elaborazione digitale dei segnali, nei processi analogici i ritardi sono raramente apprezzabili, poiché in questo caso non avviene di norma alcuna memorizzazione intermedia e si utilizzano filtri relativamente semplici.
+ 
+ Dai ritardi deriva un tempo di propagazione tra trasmettitore e ricevitore o tra ingresso e uscita di una fase di elaborazione. Questo tempo di propagazione viene definito come latenza e viene misurato in secondi. Le latenze tipiche variano da pochi millisecondi a diversi secondi.
+ 
+--- canonical/sections/sc_a85423b7a8ea/body.fr.md
++++ canonical/sections/sc_a85423b7a8ea/body.fr.md
+@@ -36,7 +36,7 @@
+ %YPA Attention lors de la traduction : adapter la ligne 37 de la langue (F&I) !
+ La table d’épellation ne contient cependant pas de chiffres [index:Buchstabiertafel:Ziffern]. Dans le trafic radio national, les chiffres sont prononcés en allemand, par exemple Hotel Bravo *Trois* Charlie Golf Foxtrot. Dans le trafic radio international, on utilise l’anglais, par exemple Hotel Bravo *Three* Charlie Golf Foxtrot.
+ 
+-La table d’épellation peut bien sûr aussi être utilisée pour épeler d’autres mots, par exemple un nom ou une indication de lieu. La table d’épellation internationale ne contient cependant pas de voyelles allemandes [index:Buchstabiertafel:Umlaute]. Ainsi, le Ä est épelé Alfa Echo, le Ö Oscar Echo et le Ü Uniform Echo.
++La table d’épellation peut bien sûr aussi être utilisée pour épeler d’autres mots, par exemple un nom ou une indication de lieu. La table d’épellation internationale ne contient cependant pas de voyelles allemandes [index:Buchstabiertafel:Umlaute]. Ainsi, le Ä est épelé «Alfa Echo», le Ö «Oscar Echo» et le Ü «Uniform Echo».
+ 
+ La table d’épellation internationale doit être apprise par cœur. Au début, cela peut sembler difficile, mais plus on l’utilise, plus cela devient fluide.
+ 
+--- canonical/sections/sc_bf2f60b2adc8/body.it.md
++++ canonical/sections/sc_bf2f60b2adc8/body.it.md
+@@ -7,7 +7,7 @@
+ Le onde radio sono composte da creste e avvallamenti. Più alte sono le creste e più profondi gli avvallamenti, più forte è il segnale radio. In questo contesto si parla di intensità di campo [index:intensità di campo]. L'altezza di una cresta o la profondità di un avvallamento viene chiamata, come per l'oscillazione elettrica, ampiezza.
+ 
+ <attention>
+-Le onde elettromagnetiche vengono spesso rappresentate come *istantanee*. Le istantanee sembrano inizialmente identiche agli oscillogrammi che abbiamo già trattato. Tuttavia, rappresentano concetti diversi! Mentre in un oscillogramma si osserva la variazione della tensione nel tempo, le istantanee mostrano un singolo istante, appunto un momento. Si può leggere la variazione dell'intensità di campo in funzione della distanza. È fondamentale prestare attenzione all'etichettatura dell'asse orizzontale X. Nell'oscillogramma, la X indica il tempo (in latino tempus), mentre nell'istantanea indica la posizione.
++Le onde elettromagnetiche vengono spesso rappresentate come *istantanee*. Le istantanee sembrano inizialmente identiche agli oscillogrammi che abbiamo già trattato. Tuttavia, rappresentano concetti diversi! Mentre in un oscillogramma si osserva la variazione della tensione nel tempo, le istantanee mostrano un singolo istante, appunto un momento. Si può leggere la variazione dell'intensità di campo in funzione della distanza. È fondamentale prestare attenzione all'etichettatura dell'asse orizzontale X. Nell'oscillogramma, la X indica il tempo (in latino tempus), mentre nell'istantanea indica la «posizione».
+ </attention>
+ 
+ <attention>
+--- canonical/sections/sc_c4ed2daa817d/body.fr.md
++++ canonical/sections/sc_c4ed2daa817d/body.fr.md
+@@ -4,7 +4,7 @@
+ 
+ ---
+ <indepth>
+-[Anhang 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4) de l’ordonnance de l'OFCOM sur l'utilisation du spectre des fréquences de radiocommunication
++[Anhang 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4) de l’« Ordonnance de l'OFCOM sur l'utilisation du spectre des fréquences de radiocommunication »
+ </indepth>
+ 
+ Le statut attribué au service d’amateur en Suisse dans les différentes bandes de fréquences peut être consulté dans la *colonne 2* de la liste des bandes de fréquences de l’annexe 4 de l’OOUS. La lettre b indique un statut secondaire. C’est ce qui est indiqué dans la légende sous les listes pour les deux types d’autorisations.
+--- canonical/sections/sc_c4ed2daa817d/body.it.md
++++ canonical/sections/sc_c4ed2daa817d/body.it.md
+@@ -4,7 +4,7 @@
+ 
+ ---
+ <indepth>
+-[Allegato 4](https://www.fedlex.admin.ch/eli/cc/2020/914/it#annex_4) dell’ordinanza dell’UFCOM sull’utilizzazione dello spettro delle radiofrequenze
++[Allegato 4](https://www.fedlex.admin.ch/eli/cc/2020/914/it#annex_4) dell’«Ordinanza dell’UFCOM sull’utilizzazione dello spettro delle radiofrequenze»
+ </indepth>
+ 
+ Lo status assegnato al servizio di radioamatore in Svizzera nelle singole bande di frequenza può essere letto nella *colonna 2* dell’elenco delle bande di frequenza nell’Allegato 4 dell’OUUS. La lettera b indica il secondario. Questo è specificato anche nella legenda sotto le liste per entrambi gli status.
+--- canonical/sections/sc_d0ddf45e700c/body.fr.md
++++ canonical/sections/sc_d0ddf45e700c/body.fr.md
+@@ -34,7 +34,7 @@
+ Pour que le signal reste aussi peu distordu que possible, les voies d'amplitude et de phase doivent être parfaitement synchronisées dans le temps.
+ 
+ 
+-Pour l'amplificateur d'enveloppe, un simple amplificateur BF lent suffit. La plage de fréquences qu'il doit couvrir dépend de la bande passante du signal à générer. Pour maintenir un rendement élevé, on utilise généralement ici une technologie d'alimentation à découpage (amplificateur BF de classe D).
++Pour l'amplificateur d'enveloppe, un simple amplificateur BF lent suffit. La plage de fréquences qu'il doit couvrir dépend de la bande passante du signal à générer. Pour maintenir un rendement élevé, on utilise généralement ici une technologie d'alimentation à découpage (amplificateur BF de « classe D »).
+ 
+ 
+ Grâce au rendement élevé, peu de puissance électrique est convertie en chaleur. Cela permet d'économiser de l'énergie, de réduire les besoins en refroidissement et de concevoir des équipements radio plus petits et plus légers, sans grands dissipateurs thermiques métalliques ni transistors d'étage final coûteux. La modulation polaire est particulièrement adaptée aux équipements QRP fonctionnant sur batterie, mais elle est également utilisée dans des émetteurs-récepteurs commerciaux plus performants.
+--- canonical/sections/sc_d0ddf45e700c/body.it.md
++++ canonical/sections/sc_d0ddf45e700c/body.it.md
+@@ -22,7 +22,7 @@
+ 
+ Affinché il segnale rimanga il più possibile privo di distorsioni, i percorsi di ampiezza e fase devono essere perfettamente sincronizzati tra loro.
+ 
+-Per l’amplificatore d’inviluppo è sufficiente un amplificatore BF relativamente lento. La banda di frequenza che deve coprire dipende dalla larghezza di banda del segnale da generare. Per mantenere alto il rendimento, qui si impiega solitamente la tecnologia degli alimentatori a commutazione («amplificatori BF di classe D»).
++Per l’amplificatore d’inviluppo è sufficiente un amplificatore BF relativamente lento. La banda di frequenza che deve coprire dipende dalla larghezza di banda del segnale da generare. Per mantenere alto il rendimento, qui si impiega solitamente la tecnologia degli alimentatori a commutazione (amplificatori BF di «classe D»).
+ 
+ Grazie all’elevato rendimento, poca potenza elettrica viene dissipata sotto forma di calore. Questo consente di risparmiare energia, ridurre la necessità di raffreddamento e ottenere apparecchi radio più piccoli e leggeri, privi di grandi dissipatori metallici e con transistor di stadio finale più economici. La modulazione polare è particolarmente adatta per apparecchi QRP a batteria, ma viene impiegata anche in trasceiver commerciali di elevate prestazioni.
+ 
+--- canonical/sections/sc_d8db0a0957a4/body.fr.md
++++ canonical/sections/sc_d8db0a0957a4/body.fr.md
+@@ -20,7 +20,7 @@
+ 
+ ---
+ 
+-Chaque champ est ensuite divisé en 10 x 10 cases plus petites, appelées squares (carrés). Chaque carré reçoit un numéro à deux chiffres. Le comptage se fait de la même manière que pour les champs, de gauche à droite et de bas en haut (figure [ref:n_locator_jo]). Le siège de la DARC se trouve dans le carré 41 du champ JO.
++Chaque champ est ensuite divisé en 10 x 10 cases plus petites, appelées « squares » (carrés). Chaque carré reçoit un numéro à deux chiffres. Le comptage se fait de la même manière que pour les champs, de gauche à droite et de bas en haut (figure [ref:n_locator_jo]). Le siège de la DARC se trouve dans le carré 41 du champ JO.
+ 
+ <indepth>
+ En réalité, les carrés (squares) du système de locators Maidenhead ne sont pas des carrés, car la surface de la terre est courbe. Pourtant, ils sont désignés ainsi.
+--- canonical/sections/sc_e873cbf8bfd2/body.it.md
++++ canonical/sections/sc_e873cbf8bfd2/body.it.md
+@@ -6,7 +6,7 @@
+ [picture:751:n_Kugelstrahler:Radiatore isotropo al centro di una sfera, che genera la stessa potenza irradiata in tutti i punti della superficie sferica]
+ </margin>
+ 
+-Se la potenza irradiata viene indicata in riferimento al radiatore isotropo, si parla di «potenza irradiata isotropa equivalente». In inglese, questo concetto è abbreviato con EIRP (equivalent isotropic radiated power).
++Se la potenza irradiata viene indicata in riferimento al radiatore isotropo, si parla di «potenza irradiata isotropa equivalente». In inglese, questo concetto è abbreviato con EIRP («equivalent isotropic radiated power»).
+ 
+ ---
+ 
+--- canonical/slides/sl_1b6d87e5948f/body.fr.md
++++ canonical/slides/sl_1b6d87e5948f/body.fr.md
+@@ -36,7 +36,7 @@
+ ## Bande ISM
+ 
+ <left>
+-* *I*ndustrielle, *S*cientifique et *M*édicale
++* « *I*ndustrielle, *S*cientifique et *M*édicale »
+ * Sous-bande du $\qty{70}{\centi\meter}$ du service amateur
+ * De nombreux appareils ménagers l'utilisent
+ * Malgré l'attribution en priorité, les perturbations dans le service amateur doivent être acceptées
+--- canonical/slides/sl_2dafa83ab445/body.fr.md
++++ canonical/slides/sl_2dafa83ab445/body.fr.md
+@@ -24,7 +24,7 @@
+ 
+ ## Référence temporelle
+ 
+-* Dans le 26e règlement d'application de la loi fédérale sur la protection contre les immissions, une référence temporelle est ajoutée pour le respect des valeurs limites d'intensité de champ.
++* Dans le « 26e règlement d'application de la loi fédérale sur la protection contre les immissions », une référence temporelle est ajoutée pour le respect des valeurs limites d'intensité de champ.
+ * Il faut distinguer trois cas pour les valeurs limites.
+ 
+ ---
+--- canonical/slides/sl_539acd57970b/body.fr.md
++++ canonical/slides/sl_539acd57970b/body.fr.md
+@@ -42,7 +42,7 @@
+ * Il n'existe pas de fréquence d'appel
+ * À la place, un *centre d'activité* ou *center of activity*
+ * Les appels doivent avoir lieu dans l'environnement de cette fréquence
+-* Cependant, toute la bande BLU peut être utilisée
++* Cependant, toute la bande « BLU » peut être utilisée
+ 
+ ---
+ [question:BC211]
+--- canonical/slides/sl_63a979958437/body.it.md
++++ canonical/slides/sl_63a979958437/body.it.md
+@@ -13,7 +13,7 @@
+ * Particolarmente utile per collegamenti DX in VHF
+ * La voce è poco utilizzabile (larghezza di banda elevata)
+ * Adatto per CW e modi digitali
+-* Rapporto: per la lettera T viene assegnata la lettera A, poiché il tono è ruvido e variabile
++* Rapporto: per la lettera T viene assegnata la lettera «A», poiché il tono è ruvido e variabile
+ 
+ ---
+ 
+--- canonical/slides/sl_db1889bcf039/body.fr.md
++++ canonical/slides/sl_db1889bcf039/body.fr.md
+@@ -11,7 +11,7 @@
+ 
+ ### Sécurité électrique
+ 
+-Pour les blocs d’alimentation, en particulier ceux avec un boîtier métallique, un branchement conforme aux normes au réseau électrique est essentiel. Le conducteur de protection (vert/jaune) a pour rôle, en cas de défaut, de dériver la tension vers la terre et de déclencher ainsi le disjoncteur différentiel afin qu’aucune tension dangereuse ne s’applique sur le boîtier métallique. Pour un câble à 3 conducteurs, les couleurs de repérage des conducteurs sont définies comme suit :
++Pour les blocs d’alimentation, en particulier ceux avec un boîtier métallique, un branchement conforme aux normes au réseau électrique est essentiel. Le conducteur de protection (vert/jaune) a pour rôle, en cas de défaut, de dériver la tension vers la « terre » et de déclencher ainsi le disjoncteur différentiel afin qu’aucune tension dangereuse ne s’applique sur le boîtier métallique. Pour un câble à 3 conducteurs, les couleurs de repérage des conducteurs sont définies comme suit :
+ 
+ ---
+ 
+--- canonical/slides/sl_db1889bcf039/body.it.md
++++ canonical/slides/sl_db1889bcf039/body.it.md
+@@ -11,7 +11,7 @@
+ 
+ ### Sicurezza elettrica
+ 
+-Negli alimentatori, in particolare con un involucro metallico, è fondamentale un collegamento a norma alla rete elettrica. Il conduttore di protezione (verde/giallo) ha il compito di scaricare la tensione verso la terra in caso di guasto, in modo da far scattare l’interruttore di sicurezza di casa e impedire che una tensione pericolosa si presenti sull’involucro metallico. In un cavo a 3 conduttori i colori di identificazione dei conduttori sono definiti come segue:
++Negli alimentatori, in particolare con un involucro metallico, è fondamentale un collegamento a norma alla rete elettrica. Il conduttore di protezione (verde/giallo) ha il compito di scaricare la tensione verso la «terra» in caso di guasto, in modo da far scattare l’interruttore di sicurezza di casa e impedire che una tensione pericolosa si presenti sull’involucro metallico. In un cavo a 3 conduttori i colori di identificazione dei conduttori sono definiti come segue:
+ 
+ ---
+ ### Colori dei conduttori
+--- canonical/slides/sl_e86097096fbe/body.it.md
++++ canonical/slides/sl_e86097096fbe/body.it.md
+@@ -20,7 +20,7 @@
+ 
+ * Polarizzazione *circolare*
+ * Onde radio rotanti con una particolare forma costruttiva dell’antenna
+-* Distinzione tra polarizzazione circolare levogira e destrogira
++* Distinzione tra polarizzazione circolare «levogira» e «destrogira»
+ 
+ <note>
+ Maggiori dettagli su questo argomento nei corsi per le classi E e A

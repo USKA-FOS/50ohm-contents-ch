@@ -6,7 +6,7 @@ Dovresti ricordare le seguenti cose:
 * Particelle cariche del Sole penetrano nell'atmosfera.
 * Per noi in Europa, la regione polare è a nord.
 * Il CW è il più adatto per l'aurora.
-* Il segnale è "fluttuante" e "affetto da ronzio".
+* Il segnale è «fluttuante» e «affetto da ronzio».
 
 [question:AH302]
 [question:AH303]

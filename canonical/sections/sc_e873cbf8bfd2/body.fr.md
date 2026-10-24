@@ -9,7 +9,7 @@ Le radiateur isotrope est une antenne qui n’existe que dans la théorie. Il es
 </margin>
 
 
-Lorsque la puissance rayonnée est indiquée par rapport au radiateur isotrope, on parle de « puissance rayonnée isotrope équivalente ». En anglais, cela s’exprime par « equivalent isotropic radiated power », abrégé en EIRP.
+Lorsque la puissance rayonnée est indiquée par rapport au radiateur isotrope, on parle de « puissance rayonnée isotrope équivalente ». En anglais, cela s’exprime par « equivalent isotropic radiated power », abrégé en EIRP.
 
 
 ---

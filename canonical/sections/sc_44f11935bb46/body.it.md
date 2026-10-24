@@ -13,7 +13,7 @@ Questa tensione può essere visualizzata con un oscilloscopio osservando solo la
 
 <indepth>
 [photo:306:a_AC-Kopplung:Accoppiamento AC - DC dell’ingresso dell’oscilloscopio]
-Con il tasto "GD" l’ingresso dell’oscilloscopio viene commutato su zero volt.
+Con il tasto «GD» l’ingresso dell’oscilloscopio viene commutato su zero volt.
 Se il tasto AC/DC non è premuto, l’ingresso dell’oscilloscopio è accoppiato capacitivamente e viene visualizzata solo la componente di tensione alternata del segnale di ingresso.
 Se il tasto AC/DC è premuto, l’ingresso dell’oscilloscopio è accoppiato galvanicamente e viene visualizzata anche la componente di tensione continua di una tensione alternata.
 </indepth>

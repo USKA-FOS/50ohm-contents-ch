@@ -4,7 +4,7 @@
 * Deviazioni dalla forma sinusoidale generano multipli interi della frequenza fondamentale
 * Questi multipli vengono chiamati armoniche
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ### Rappresentazione nello spettro di frequenza
 
 <left>
@@ -22,7 +22,7 @@ I segnali rettangolari (ad esempio, dovuti alla saturazione dell'amplificatore) 
 I segnali a dente di sega contengono prevalentemente armoniche pari.
 </note>
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ### Armoniche superiori – multipli della frequenza fondamentale
 
 <left>

@@ -70,7 +70,7 @@ Une installation de radioamateur fixe doit être déclarée à l'ANFR selon le �
 
 [question:EG503]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ### Méthode de résolution
 
@@ -97,7 +97,7 @@ $\begin{split} P_{\mathrm{EIRP}} &= P_{\mathrm{émetteur}} \cdot 10^{\frac{g_i -
 
 [question:EG511]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ### Méthode de résolution
 

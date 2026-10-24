@@ -9,13 +9,13 @@ La radio via satellite è già trattata nel corso HB3 sotto le normative di base
 ---
 
 I satelliti orbitano attorno alla terra in traiettorie circolari o ellittiche e a diverse altezze.
-Dal 1961, tra questi ci sono anche i satelliti radioamatoriali. Questi sono chiamati OSCAR. È l'abbreviazione di "Orbiting Satellite Carrying Amateur Radio" ("Satellite orbitante che trasporta radioamatoriale"). Il primo satellite radioamatoriale fu chiamato OSCAR 1 ([ref:n_satellit_oscar1]). OSCAR 1 fu solo l'inizio. Negli anni successivi - fino ad oggi - è stata lanciata nello spazio una serie di carichi utili radioamatoriali sempre più completi. Chi è interessato alla storia dei satelliti radioamatoriali può trovare maggiori informazioni nella [History of AMSAT](https://www.amsat.org/amsat-history/).
+Dal 1961, tra questi ci sono anche i satelliti radioamatoriali. Questi sono chiamati OSCAR. È l'abbreviazione di «Orbiting Satellite Carrying Amateur Radio» («Satellite orbitante che trasporta radioamatoriale»). Il primo satellite radioamatoriale fu chiamato OSCAR 1 ([ref:n_satellit_oscar1]). OSCAR 1 fu solo l'inizio. Negli anni successivi - fino ad oggi - è stata lanciata nello spazio una serie di carichi utili radioamatoriali sempre più completi. Chi è interessato alla storia dei satelliti radioamatoriali può trovare maggiori informazioni nella [History of AMSAT](https://www.amsat.org/amsat-history/).
 % Con l'ultima frase è soddisfatto anche il requisito di una citazione della fonte.
 [question:BE415]
 
-In questo capitolo impariamo "Cos'è un satellite radioamatoriale?" e "Come si muove?". Nel capitolo [sec:satelliten_2] scopriremo poi "Come posso effettivamente effettuare una comunicazione radio via satellite?".
+In questo capitolo impariamo «Cos'è un satellite radioamatoriale?» e «Come si muove?». Nel capitolo [sec:satelliten_2] scopriremo poi «Come posso effettivamente effettuare una comunicazione radio via satellite?».
 
-Le stazioni ripetitrici trasportate sono chiamate "transponder". La frequenza di ingresso, cioè il collegamento radio dalla terra al satellite, è chiamata "uplink" nella radio via satellite. La frequenza di uscita, cioè il collegamento radio dal satellite alla terra, è invece chiamata "downlink". Per uplink e downlink vengono spesso utilizzate bande di frequenza diverse, perché ciò consente un disaccoppiamento più semplice tra il segnale trasmesso e il segnale ricevuto.
+Le stazioni ripetitrici trasportate sono chiamate «transponder». La frequenza di ingresso, cioè il collegamento radio dalla terra al satellite, è chiamata «uplink» nella radio via satellite. La frequenza di uscita, cioè il collegamento radio dal satellite alla terra, è invece chiamata «downlink». Per uplink e downlink vengono spesso utilizzate bande di frequenza diverse, perché ciò consente un disaccoppiamento più semplice tra il segnale trasmesso e il segnale ricevuto.
 
 <indepth>
 Diverse altezze di volo e orbite dei satelliti consentono una vasta gamma di applicazioni satellitari, dalla comunicazione alla navigazione, fino alla ricerca scientifica e all'osservazione della terra. Di seguito presentiamo le principali altezze di volo o orbite.
@@ -59,7 +59,7 @@ Nell'utilizzo della comunicazione satellitare, l'orientamento delle antenne è d
 </margin>
 
 <wordorigin>
-Il termine *Azimut* deriva dall'arabo *as-sumūt*, ("le vie"). *Elevazione* deriva dal latino elevare ("sollevare").
+Il termine *Azimut* deriva dall'arabo *as-sumūt*, («le vie»). *Elevazione* deriva dal latino elevare («sollevare»).
 </wordorigin>
 
 [question:BE413]

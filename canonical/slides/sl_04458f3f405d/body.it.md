@@ -7,7 +7,7 @@
 * Riconoscimento reciproco dei certificati di radioamatore
 </right>
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 <left>
 * Stati membri della *Conferenza Europea delle Amministrazioni delle Poste e delle Telecomunicazioni* (Conférence Européenne des Administrations des Postes et des Télécommunications, CEPT)
 * Diverse raccomandazioni nella tabella a destra
@@ -60,7 +60,7 @@ Le raccomandazioni non devono essere imparate a memoria, ma è bene conoscere le
 * Deve essere verificato prima dell’uso nel rispettivo Paese
 
 <note>
-La separazione con la barra obliqua viene pronunciata come "stroke"
+La separazione con la barra obliqua viene pronunciata come «stroke»
 </note>
 
 ---

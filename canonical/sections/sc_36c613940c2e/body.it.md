@@ -15,7 +15,7 @@ Il diodo a capacità variabile viene utilizzato in polarizzazione inversa. Maggi
 Viceversa, la giunzione del diodo a capacità variabile si restringe con la diminuzione della tensione inversa applicata, aumentando la capacità e quindi riducendo la frequenza del circuito oscillante. La tensione inversa può essere generata, ad esempio, da un potenziometro o da un circuito di controllo.
 
 <tip>
-Maggiore è la tensione applicata al diodo a capacità variabile, maggiore diventa la distanza tra le "piastre" ($d$). È sempre consigliabile consultare la raccolta di formule per comprendere queste catene di effetti.
+Maggiore è la tensione applicata al diodo a capacità variabile, maggiore diventa la distanza tra le «piastre» ($d$). È sempre consigliabile consultare la raccolta di formule per comprendere queste catene di effetti.
 
 $C = \epsilon_0 \cdot \epsilon_r \cdot \frac{A}{d}$
 

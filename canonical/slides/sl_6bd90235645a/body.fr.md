@@ -1,4 +1,4 @@
---- data-transition="none"
+--- data-transition=« none »
 ### 1. Antenne
 
 <left>
@@ -10,7 +10,7 @@
 * Ce type de récepteur s’appelle *récepteur à amplification directe* : la fréquence du signal n’est pas modifiée avant le démodulateur
 </right>
 
---- data-transition="none"
+--- data-transition=« none »
 
 ### 2. Filtre passe-bande
 
@@ -23,7 +23,7 @@
 * Le symbole montre deux ondes barrées au-dessus et en dessous de l’onde passante
 </right>
 
---- data-transition="none"
+--- data-transition=« none »
 
 ### 3. Amplificateur HF
 
@@ -34,7 +34,7 @@
 * Amplifie le signal filtré
 </right>
 
---- data-transition="none"
+--- data-transition=« none »
 
 ### 4. Démodulateur
 
@@ -51,7 +51,7 @@
 * Sera abordé plus tard dans le cours
 </note>
 
---- data-transition="none"
+--- data-transition=« none »
 
 ### 5. Amplificateur BF
 
@@ -63,7 +63,7 @@
 * Amplificateur BF pour amplifier le signal destiné au haut-parleur
 </right>
 
---- data-transition="none"
+--- data-transition=« none »
 
 ### 6. Haut-parleur
 

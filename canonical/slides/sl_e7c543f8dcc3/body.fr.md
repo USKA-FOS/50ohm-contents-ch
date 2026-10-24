@@ -34,7 +34,7 @@ En régime établi, le courant est presque nul, ce qui explique que la puissance
 ---
 [question:AC103]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ### Réactance capacitive $X_{\textrm{C}}$
 
 Un condensateur connecté à une tension alternative est constamment chargé et déchargé $\rightarrow$ impédance / réactance capacitive

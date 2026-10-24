@@ -98,7 +98,7 @@ $f_0 = \frac{1}{2\pi \sqrt{L\cdot C}}$
 
 ---
 
-Cette formule est appelée formule d’oscillation de Thomson et s’applique aussi bien aux circuits oscillants parallèles que séries. Dans le recueil de formules, elle se trouve dans la section « Circuits oscillants ». Elle indique que la fréquence de résonance d’un circuit oscillant dépend uniquement de l’inductance de la bobine et de la capacité du condensateur. Les résistances ohmiques et les pertes n’ont pas d’influence sur la fréquence de résonance. Avec cette formule, nous pouvons calculer la fréquence de résonance des circuits oscillants.
+Cette formule est appelée formule d’oscillation de Thomson et s’applique aussi bien aux circuits oscillants parallèles que séries. Dans le recueil de formules, elle se trouve dans la section « Circuits oscillants ». Elle indique que la fréquence de résonance d’un circuit oscillant dépend uniquement de l’inductance de la bobine et de la capacité du condensateur. Les résistances ohmiques et les pertes n’ont pas d’influence sur la fréquence de résonance. Avec cette formule, nous pouvons calculer la fréquence de résonance des circuits oscillants.
 
 <indepth>
 Les résistances ohmiques dans les circuits oscillants parallèles et séries influencent cependant le facteur de qualité ($Q$) et donc la bande passante ($B$) du circuit oscillant – nous y reviendrons plus en détail ultérieurement.
@@ -227,7 +227,7 @@ En cas de couplage faible ou sous-critique, il y a peu d’influence mutuelle ; 
 
 En cas de couplage critique, les deux circuits oscillants s’influencent mutuellement de telle sorte qu’une courbe de réponse plate avec une faible atténuation est obtenue dans la bande passante, et celle-ci est parfaitement plane dans la bande passante souhaitée (plateau). La bande passante du dispositif est alors plus grande qu’en cas de couplage faible ou sous-critique. C’est ainsi qu’un couplage critique peut être reconnu.
 
-En cas de couplage sur-critique, l’influence mutuelle des deux circuits oscillants est très forte, ce qui entraîne une forte modification des deux fréquences de résonance et donc une grande bande passante. La courbe de réponse est alors fortement déformée dans la bande passante et deux points de résonance apparaissent à gauche et à droite de la fréquence centrale. La courbe de réponse présente une « encoche ». C’est ainsi qu’un couplage sur-critique peut être reconnu.
+En cas de couplage sur-critique, l’influence mutuelle des deux circuits oscillants est très forte, ce qui entraîne une forte modification des deux fréquences de résonance et donc une grande bande passante. La courbe de réponse est alors fortement déformée dans la bande passante et deux points de résonance apparaissent à gauche et à droite de la fréquence centrale. La courbe de réponse présente une « encoche ». C’est ainsi qu’un couplage sur-critique peut être reconnu.
 
 [question:AD227]
 [question:AD228]

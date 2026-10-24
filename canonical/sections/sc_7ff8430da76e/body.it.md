@@ -16,6 +16,6 @@ Nella modulazione a spostamento di frequenza (Frequency Shift Keying, FSK) il tr
 [picture:703:e_fsk:Modulazione a spostamento di frequenza (Frequency-shift Keying)]
 </margin>
 
-Le ampiezze e le frequenze prestabilite tra cui si passa vengono chiamate "simboli".
+Le ampiezze e le frequenze prestabilite tra cui si passa vengono chiamate «simboli».
 
 [question:EE407]

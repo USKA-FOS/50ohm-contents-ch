@@ -1,12 +1,12 @@
 ## Première partie de la démarche de résolution
-D'après le recueil de formules dans les outils auxiliaires de l'Agence fédérale des réseaux, on peut lire dans le chapitre « niveau » qu'une atténuation de $\qty{-6}{\dB}$ correspond à un facteur de 0,25 dans le rapport de puissance.
+D'après le recueil de formules dans les outils auxiliaires de l'Agence fédérale des réseaux, on peut lire dans le chapitre « niveau » qu'une atténuation de $\qty{-6}{\dB}$ correspond à un facteur de 0,25 dans le rapport de puissance.
 
 Exprimé sous forme de formule :
 
 $P_{\qty{40}{^\circ}} = 0{,}25 \cdot P_\mathrm{EIRP}$
 
 ## Deuxième partie de la démarche de résolution
-D'après le recueil de formules dans les outils auxiliaires de l'Agence fédérale des réseaux, on peut trouver dans le chapitre « puissance rayonnée et gain » des antennes la formule suivante :
+D'après le recueil de formules dans les outils auxiliaires de l'Agence fédérale des réseaux, on peut trouver dans le chapitre « puissance rayonnée et gain » des antennes la formule suivante :
 
 $E = \frac{\sqrt{\qty{30}{\ohm} \cdot P_\mathrm{EIRP}}}{d}$
 

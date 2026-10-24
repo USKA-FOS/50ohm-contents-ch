@@ -11,7 +11,7 @@ Per ottenere una stabilità di frequenza il più possibile elevata di un VFO ris
 
 ---
 
-Con una scarsa stabilizzazione della tensione di servizio, nei trasmettitori CW molto semplici può verificarsi una distorsione della tonalità chiamata *chirp*: all'inizio di ogni singolo punto o linea la tonalità è inizialmente più alta o più bassa e poi si avvicina alla tonalità corretta. La parola inglese "chirp" significa letteralmente "cinguettio". Se la tonalità si avvicina dall'alto, l'effetto acustico ricorda effettivamente un cinguettio.
+Con una scarsa stabilizzazione della tensione di servizio, nei trasmettitori CW molto semplici può verificarsi una distorsione della tonalità chiamata *chirp*: all'inizio di ogni singolo punto o linea la tonalità è inizialmente più alta o più bassa e poi si avvicina alla tonalità corretta. La parola inglese «chirp» significa letteralmente «cinguettio». Se la tonalità si avvicina dall'alto, l'effetto acustico ricorda effettivamente un cinguettio.
 
 [question:AD609]
 

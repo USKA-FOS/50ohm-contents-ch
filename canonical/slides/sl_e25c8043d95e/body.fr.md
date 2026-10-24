@@ -10,7 +10,7 @@
 </right>
 
 <note>
-Les bonnes réponses contiennent le terme « pôles » ou « régions polaires » et, pour nous en Europe, la région polaire se trouve au nord.
+Les bonnes réponses contiennent le terme « pôles » ou « régions polaires » et, pour nous en Europe, la région polaire se trouve au nord.
 </note>
 
 ---
@@ -32,7 +32,7 @@ La fin d'un QSO en CW via aurore boréale entre GM4YXI et OK/DF7TR/P :
 * L'aurore boréale est une zone fortement ionisée qui réfléchit les ondes radio au-dessus de $\qty{30}{\mega\hertz}$
 * Elle est donc principalement utilisée en UHF et VHF
 * La voix est trop large bande, c'est pourquoi le CW est le mieux adapté
-* Malgré cela, le signal est « tremblotant » et « brouillé »
+* Malgré cela, le signal est « tremblotant » et « brouillé »
 
 ---
 [question:AH304]

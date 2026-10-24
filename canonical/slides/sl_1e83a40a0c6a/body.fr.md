@@ -46,9 +46,9 @@ Lors de la réponse, on commence par l’indicatif de la station appelante, puis
 </fragment>
 
 <note>
-* On dit comme au téléphone "appel"
-* CQ se prononce à peu près comme "seek you"
-* En allemand aussi appelé "Allgemeiner Anruf"
+* On dit comme au téléphone « appel »
+* CQ se prononce à peu près comme « seek you »
+* En allemand aussi appelé « Allgemeiner Anruf »
 </note>
 
 ---

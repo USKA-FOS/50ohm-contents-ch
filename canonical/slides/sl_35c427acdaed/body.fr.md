@@ -13,7 +13,7 @@
 
 ---
 
-* En plus des cotisations courantes, d’autres frais sont perçus, régis par le « Règlement particulier des frais de la Bundesnetzagentur (BNetzABGebV) »
+* En plus des cotisations courantes, d’autres frais sont perçus, régis par le « Règlement particulier des frais de la Bundesnetzagentur (BNetzABGebV) »
 * Cela inclut par exemple les frais d’examen de radioamateur et ceux relatifs à la délivrance de l’autorisation
 
 ---

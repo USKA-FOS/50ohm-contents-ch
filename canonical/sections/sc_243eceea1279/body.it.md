@@ -1,6 +1,6 @@
 Noi esseri umani siamo abituati a utilizzare le dieci cifre da $\num{0}$ a $\num{9}$. Si parla di sistema decimale o sistema a base dieci.
 
-Per un computer, invece, è più semplice lavorare con sole $\num{2}$ cifre: $\num{0}$ e $\num{1}$. Questo corrisponde a due stati: ad esempio, spento e acceso, "transistor interdetto" e "transistor in conduzione" o anche $\qty{0}{\volt}$ e $\qty{5}{\volt}$. Si ottiene così un sistema numerico binario o sistema a base due.
+Per un computer, invece, è più semplice lavorare con sole $\num{2}$ cifre: $\num{0}$ e $\num{1}$. Questo corrisponde a due stati: ad esempio, spento e acceso, «transistor interdetto» e «transistor in conduzione» o anche $\qty{0}{\volt}$ e $\qty{5}{\volt}$. Si ottiene così un sistema numerico binario o sistema a base due.
 
 [question:EA201]
 

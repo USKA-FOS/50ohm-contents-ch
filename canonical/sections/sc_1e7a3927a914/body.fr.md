@@ -1,12 +1,12 @@
-Sur de nombreux postes radio, il existe un interrupteur permettant de sélectionner le type de modulation à utiliser. Celui-ci est généralement étiqueté « Mode » et permet de choisir, par exemple, entre CW, AM, FM et BL. Les postes radio ne supportant qu’un seul type de modulation n’ont bien sûr pas un tel interrupteur.
+Sur de nombreux postes radio, il existe un interrupteur permettant de sélectionner le type de modulation à utiliser. Celui-ci est généralement étiqueté « Mode » et permet de choisir, par exemple, entre CW, AM, FM et BL. Les postes radio ne supportant qu’un seul type de modulation n’ont bien sûr pas un tel interrupteur.
 
 <webmargin>
 | l: Abréviation | X: Mode |
 | CW | Télégraphie |
 | AM | modulation d'amplitude |
 | FM | modulation de fréquence |
-| LSB | BL bande latérale inférieure (« lower sideband ») |
-| USB | BL bande latérale supérieure (« upper sideband ») |
+| LSB | BL bande latérale inférieure (« lower sideband ») |
+| USB | BL bande latérale supérieure (« upper sideband ») |
 [table:n_sendearten:Types de modulation couramment utilisés]
 </webmargin>
 

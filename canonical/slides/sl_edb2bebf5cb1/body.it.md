@@ -37,7 +37,7 @@ Nella banda VHF le antenne Groundplane sono spesso utilizzate per comunicazioni 
 <right>
 * Il radiale viene sostituito dal terreno
 * Il radiatore rimane lungo $\lambda / 4$
-* Detta anche "antenna verticale da $\lambda / 4$ eccitata contro terra"
+* Detta anche «antenna verticale da $\lambda / 4$ eccitata contro terra»
 </right>
 <note>
 Ad esempio, con un picchetto di terra (asta metallica nel terreno) o con molti fili interrati come i radiali di un'antenna Groundplane

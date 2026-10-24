@@ -17,7 +17,7 @@ Cette tension peut être visualisée à l'oscilloscope en n'affichant que la com
 
 <indepth>
 [photo:306:a_AC-Kopplung:Couplage AC - DC de l'entrée de l'oscilloscope]
-Avec la touche "GD", l'entrée de l'oscilloscope est mise à zéro volt.
+Avec la touche « GD », l'entrée de l'oscilloscope est mise à zéro volt.
 En position non enfoncée de la touche AC/DC, un couplage capacitif de l'entrée de l'oscilloscope est activé et seule la composante alternative du signal d'entrée est affichée.
 En position enfoncée de la touche AC/DC, un couplage galvanique de l'entrée de l'oscilloscope est activé et la composante continue d'une tension alternative est également affichée.
 </indepth>

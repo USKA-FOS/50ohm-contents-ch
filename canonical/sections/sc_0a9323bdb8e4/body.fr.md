@@ -1,4 +1,4 @@
-Cette page est temporairement utilisée par les éditeurs comme bac à sable pour simuler quelque chose (par exemple quand quelque chose ne fonctionne pas) et sert aussi de "conteneur de modèles" pour pouvoir récupérer par copier-coller dans le Markdown des éléments récurrents (comme par exemple les boîtes colorées dans la colonne de droite).
+Cette page est temporairement utilisée par les éditeurs comme bac à sable pour simuler quelque chose (par exemple quand quelque chose ne fonctionne pas) et sert aussi de « conteneur de modèles » pour pouvoir récupérer par copier-coller dans le Markdown des éléments récurrents (comme par exemple les boîtes colorées dans la colonne de droite).
 Le contenu original est toujours ici, car il n'est pas encore clair s'il sera encore nécessaire.
 
 <margin>
@@ -8,35 +8,35 @@ ici se trouvent toutes les différentes boîtes comme modèles
 <indepth>
 Ceci est un texte modèle avec la commande 
 <indepth>
-. Cela génère la boîte grise « Approfondissement ».
+. Cela génère la boîte grise « Approfondissement ».
 </indepth>
 
 <tip>
 Ceci est un texte modèle avec la commande 
 <tip>
-. Cela génère la boîte rouge « Astuce ».
+. Cela génère la boîte rouge « Astuce ».
 </tip>
 
 <attention>
 Ceci est un texte modèle avec la commande 
 <attention>
-. Cela génère la boîte jaune « Attention ».
+. Cela génère la boîte jaune « Attention ».
 </attention>
 
 <danger>
 Ceci est un texte modèle avec la commande 
 <danger>
-. Cela génère la boîte rouge « Danger ».
+. Cela génère la boîte rouge « Danger ».
 </danger>
 
 <unit>
 Ceci est un texte modèle avec la commande 
 <unit>
-. Cela génère la boîte verte « Nouvelle unité ».
+. Cela génère la boîte verte « Nouvelle unité ».
 </unit>
 
 <law>
-Ceci est un texte modèle avec la commande (law). Cela génère la boîte bleue « Base légale ».
+Ceci est un texte modèle avec la commande (law). Cela génère la boîte bleue « Base légale ».
 Elle est utilisée pour des explications ou des liens vers des lois, ordonnances, RR, CEPT, notice OFCOM, etc.
 [texte affiché](Direktlink zur Zielseite)
 
@@ -53,16 +53,16 @@ Voici comment faire un lien direct vers une page externe [texte affiché](Direkt
 **Lien interne**
 
 Ceci est un test pour un lien interne vers une autre section au sein du site web 50Ohm. - C'est comme cela que cela doit être - 
-Cela doit être utilisé lorsque par exemple dans le texte il est écrit "Nous avons déjà traité cela dans la section [sec:rufzeichen]".
+Cela doit être utilisé lorsque par exemple dans le texte il est écrit « Nous avons déjà traité cela dans la section [sec:rufzeichen] ».
 
 Ce test est pour le lien erroné. - C'est correct ainsi. L'éditeur/relecteur doit déjà le remarquer et le corriger. - 
 Si l'on écrit le nom de la section en majuscules [sec:Rufzeichen] ou avec le préfixe NE_ [sec:NE_rufzeichen] ou avec l'extension .md [sec:rufzeichen.md] ou .html [sec:rufzeichen.html] ou de toute autre manière incorrecte.
 
 Ce test est pour le lien inter-cours. - 
 
-Par exemple si l'on veut écrire "dans la section [sec:kondensator_2], on y approfondira davantage." (référence à une section HB9 dans l'édition HB3.)
+Par exemple si l'on veut écrire « dans la section [sec:kondensator_2], on y approfondira davantage. » (référence à une section HB9 dans l'édition HB3.)
 
-Par exemple si l'on veut écrire "comme nous l'avons déjà appris dans la section [sec:kondensator_2]." (référence à une section HB3 dans l'édition de mise à niveau HB9.)
+Par exemple si l'on veut écrire « comme nous l'avons déjà appris dans la section [sec:kondensator_2]. » (référence à une section HB3 dans l'édition de mise à niveau HB9.)
 
 
 

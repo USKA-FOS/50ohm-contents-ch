@@ -1,7 +1,7 @@
 <left>
 * Prova che un collegamento radio sia effettivamente avvenuto
 * Serve come documento per la richiesta di diplomi radioamatoriali
-* Gruppo Q QSL con "confermo la ricezione"
+* Gruppo Q QSL con «confermo la ricezione»
 </left>
 <right>
 [photo:12:n_qsl_karten_vorderseite:Cartolina QSL comune di DL4EAX e DM4EAX (fronte)]
@@ -52,7 +52,7 @@ Una cartolina QSL dovrebbe contenere almeno i seguenti dati:
 ## Inoltro delle cartoline QSL
 
 * Tramite le associazioni radioamatoriali partecipanti nei vari paesi
-* tramite ufficio di smistamento internazionale detto "Bureau"
+* tramite ufficio di smistamento internazionale detto «Bureau»
 * Rete postale alternativa mondiale
 * In Germania il servizio è offerto gratuitamente dal DARC e.V. per i membri
 
@@ -81,7 +81,7 @@ Una cartolina QSL dovrebbe contenere almeno i seguenti dati:
 
 * Indirizzi negli elenchi internazionali dei nominativi radioamatoriali (Callbook)
 * Oppure su Internet
-* Esistono "gestori QSL" che si occupano dell'inoltro per altre stazioni
+* Esistono «gestori QSL» che si occupano dell'inoltro per altre stazioni
   * I gestori QSL vengono spesso impiegati durante spedizioni DX
   * Inserire nel campo via della cartolina QSL e inviare la propria cartolina tramite questo gestore
 

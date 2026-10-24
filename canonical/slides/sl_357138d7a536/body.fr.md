@@ -61,7 +61,7 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R_1 \cdot C_1} = \frac{1}{2 \pi \cdot \qty{4,
 
 ---
 [question:AD206]
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ## Circuit oscillant parallèle
 
 [picture:233:a_schwingkreis_parallelschwingkreis:Circuit oscillant parallèle et représentation de l’impédance en fonction de la fréquence]
@@ -71,7 +71,7 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R_1 \cdot C_1} = \frac{1}{2 \pi \cdot \qty{4,
 * En pratique, c’est le composant présentant la plus faible résistance qui détermine l’impédance totale
 * Aux fréquences supérieures ou inférieures à la fréquence de résonance, l’impédance du circuit oscillant parallèle est plus faible
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ## Circuit oscillant série
 
 [picture:230:a_schwingkreis_reihenschwingkreis:Circuit oscillant série et représentation de l’impédance en fonction de la fréquence]
@@ -155,7 +155,7 @@ $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi
 </fragment>
 ---
 [question:AD212]
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 #### Méthode de résolution
 * donné : $C_1 = \qty{0,1}{\nano\farad}$
 * donné : $C_2 = \qty{1,5}{\nano\farad}$
@@ -204,7 +204,7 @@ Augmenter l’inductance
 
 ---
 [question:AD218]
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ## Filtre passe-bande
 
 [picture:785:a_schwingkreis_bandpass:Filtre passe-bande composé de plusieurs circuits oscillants]
@@ -259,7 +259,7 @@ $Q = \frac{f_0}{BP} = \frac{R_\text{P}}{X_\text{L}}$
   
 ---
 [question:AD225]
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 #### Méthode de résolution
 <left>
 * donné : $L = \qty{100}{\micro\henry}$
@@ -283,7 +283,7 @@ $Q = \frac{X_\text{L}}{R_\text{S}} = \frac{\qty{100,03}{\ohm}}{\qty{10}{\ohm}} \
 </fragment>
 ---
 [question:AD226]
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 #### Méthode de résolution
 <left>
 * donné : $L = \qty{2,2}{\micro\henry}$
@@ -353,7 +353,7 @@ $\begin{split} BP &= \frac{1}{2 \pi \cdot R_\text{P} \cdot C}\\ &= \frac{1}{2 \p
 <fragment>
 $BP = \frac{R_\text{S}}{2 \pi \cdot L} = \frac{\qty{10}{\ohm}}{2 \pi \cdot \qty{100}{\micro\henry}} \approx \qty{15,9}{\kilo\hertz}$
 </fragment>
---- style="font-size: 0.7em;" data-transition="none"
+--- style=« font-size: 0.7em; » data-transition=« none »
 ## Couplage
 
 [picture:184:a_schwingkreis_kopplung:Couplage inductif de deux circuits oscillants et diagramme de tension en fonction de la fréquence]
@@ -362,20 +362,20 @@ $BP = \frac{R_\text{S}}{2 \pi \cdot L} = \frac{\qty{10}{\ohm}}{2 \pi \cdot \qty{
 * Deux circuits oscillants couplés par induction ou par capacité
 * Le degré de couplage détermine l’influence mutuelle, la bande passante et la courbe d’atténuation
 
---- style="font-size: 0.7em;" data-transition="none"
+--- style=« font-size: 0.7em; » data-transition=« none »
 [picture:184:a_schwingkreis_kopplung:Couplage inductif de deux circuits oscillants et diagramme de tension en fonction de la fréquence]
 
 * d : *couplage lâche* → influence mutuelle quasi nulle, forte atténuation d’insertion et bande passante très étroite
 * c : *couplage sous-critique* → influence mutuelle quasi nulle, atténuation d’insertion élevée et bande passante étroite
 
---- style="font-size: 0.7em;" data-transition="none"
+--- style=« font-size: 0.7em; » data-transition=« none »
 [picture:184:a_schwingkreis_kopplung:Couplage inductif de deux circuits oscillants et diagramme de tension en fonction de la fréquence]
 
 * b : *couplage critique* → influence mutuelle modérée, courbe d’atténuation plate avec faible atténuation et plateau dans la bande passante ainsi qu’une bonne bande passante
 
---- style="font-size: 0.7em;" data-transition="none"
+--- style=« font-size: 0.7em; » data-transition=« none »
 [picture:184:a_schwingkreis_kopplung:Couplage inductif de deux circuits oscillants et diagramme de tension en fonction de la fréquence]
-* a : *couplage surcritique* → influence mutuelle forte, modification des fréquences de résonance, grande bande passante et distorsion de la courbe d’atténuation dans la bande passante avec des "creux"
+* a : *couplage surcritique* → influence mutuelle forte, modification des fréquences de résonance, grande bande passante et distorsion de la courbe d’atténuation dans la bande passante avec des « creux »
 
 ---
 [question:AD227]

@@ -5,7 +5,7 @@
 * Questa rappresentazione è chiamata *rappresentazione I/Q*.
 * Essa mostra lo stato del segnale di un simbolo come un punto in un piano.
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 <left>
 [include:applet_iq_zeiger]

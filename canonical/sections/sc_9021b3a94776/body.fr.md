@@ -5,7 +5,7 @@ Le transistor bipolaire est constitué de trois zones semi-conductrices, alterna
 La figure [ref:a_bipolartransistor_aus] montre un transistor npn à l'état éteint.
 Dès que la tension base-émetteur $U_\mathrm{BE}$ est appliquée en fermant l'interrupteur (typiquement $\approx \qtyrange{0,6}{0,7}{\volt}$ pour le silicium), la diode base-émetteur devient conductrice. Il en résulte un faible courant de base $I_\mathrm{B}$ (cf. figure [ref:a_bipolartransistor_ein]).
 
-Ce faible courant de base provoque l'injection de nombreux électrons de l'émetteur dans la base mince. Comme la base est très étroite, la plupart de ces porteurs de charge atteignent le collecteur. Là, ils sont « aspirés » par la tension collecteur-émetteur appliquée $U_\mathrm{CE}$, le courant de collecteur $I_\mathrm{C}$ circule. Il est plus grand que le courant de base d'un facteur $B$, où $B$ est le gain en courant dit du transistor. Les valeurs typiques de $B$ se situent dans la plage de $\num{20}$ à $\num{500}$.
+Ce faible courant de base provoque l'injection de nombreux électrons de l'émetteur dans la base mince. Comme la base est très étroite, la plupart de ces porteurs de charge atteignent le collecteur. Là, ils sont « aspirés » par la tension collecteur-émetteur appliquée $U_\mathrm{CE}$, le courant de collecteur $I_\mathrm{C}$ circule. Il est plus grand que le courant de base d'un facteur $B$, où $B$ est le gain en courant dit du transistor. Les valeurs typiques de $B$ se situent dans la plage de $\num{20}$ à $\num{500}$.
 
 <margin>
 [picture:1071:a_bipolartransistor_aus:Transistor bipolaire NPN à l'état éteint]
@@ -36,7 +36,7 @@ Même si le transistor bipolaire est physiquement commandé par $U_\mathrm{BE}$,
 
 [question:AC501]
 
-Un transistor est dit "conducteur" en "sens direct" lorsqu'un courant de collecteur significatif circule. Pour cela, la diode base-émetteur doit toujours être polarisée en direct, c'est-à-dire $U_{BE}$ positif pour les transistors npn et négatif pour les transistors pnp. En revanche, la diode collecteur-base doit être bloquée, car aucun porteur de charge ne doit être injecté du collecteur vers la base.
+Un transistor est dit « conducteur » en « sens direct » lorsqu'un courant de collecteur significatif circule. Pour cela, la diode base-émetteur doit toujours être polarisée en direct, c'est-à-dire $U_{BE}$ positif pour les transistors npn et négatif pour les transistors pnp. En revanche, la diode collecteur-base doit être bloquée, car aucun porteur de charge ne doit être injecté du collecteur vers la base.
 
 [question:AC505]
 
@@ -85,7 +85,7 @@ Si le courant de collecteur $I_C$ augmente, le courant d'émetteur $I_E$ augment
 
 Une tension base-émetteur plus faible signifie que le transistor devient moins conducteur. Le courant initialement augmenté est ainsi réduit à nouveau.
 
-Le circuit agit donc automatiquement contre les variations du courant. C'est pourquoi on parle de contre-réaction. Si le courant augmente, le transistor est légèrement « fermé ». Si le courant diminue, le transistor devient à nouveau plus conducteur. Ainsi, le point de fonctionnement du circuit se stabilise.
+Le circuit agit donc automatiquement contre les variations du courant. C'est pourquoi on parle de contre-réaction. Si le courant augmente, le transistor est légèrement « fermé ». Si le courant diminue, le transistor devient à nouveau plus conducteur. Ainsi, le point de fonctionnement du circuit se stabilise.
 </indepth>
 
 Le potentiel de base est fixé par le diviseur de tension $R_1$ et $R_2$. Puisqu'une tension de $\qty{1}{\volt}$ doit diminuer aux bornes de la résistance d'émetteur $R_E$, le potentiel de base doit être de $\qty{1,6}{\volt}$. Avec un courant de collecteur de $\qty{2}{\milli\ampere}$ et un gain en courant de $\num{200}$, le courant de base est de $\qty{10}{\micro\ampere}$. Étant donné que le courant traversant $R_2$ doit être dix fois le courant de base, le courant traversant $R_1$ est onze fois le courant de base, soit $\qty{110}{\micro\ampere}$. Aux bornes de $R_1$, la différence de la tension de service ($\qty{10}{\volt}$) et du potentiel de base diminue, donc $\qty{8,4}{\volt}$. Nous pouvons maintenant déterminer $R_1$ :
@@ -116,11 +116,11 @@ Pour éviter cela, nous connectons une diode de roue libre *en parallèle*. Elle
 
 ---
 
-Les transistors à effet de champ ont un principe de commande totalement différent de celui des transistors bipolaires. Alors que pour les transistors bipolaires, il faut considérer à la fois les électrons et les trous d'électrons ("trous") (d'où "bipolaire"), dans le transistor à effet de champ, une seule sorte de porteurs de charge est impliquée ("unipolaire"). Il peut s'agir soit d'électrons (*transistor à effet de champ à canal n*) soit de trous (*transistor à effet de champ à canal p*).
+Les transistors à effet de champ ont un principe de commande totalement différent de celui des transistors bipolaires. Alors que pour les transistors bipolaires, il faut considérer à la fois les électrons et l'absence d'électrons (« trous ») (d'où « bipolaire »), dans le transistor à effet de champ, une seule sorte de porteurs de charge est impliquée (« unipolaire »). Il peut s'agir soit d'électrons (*transistor à effet de champ à canal n*) soit de trous (*transistor à effet de champ à canal p*).
 
 Les électrodes du FET, représentées dans la figure [ref:a_fet_schnitt_aus], sont désignées comme suit :
 
-* *Source* : c'est la "source" (angl. source) des porteurs de charge dans le canal. Ne vous laissez pas tromper : le sens conventionnel du courant est défini à l'opposé de la direction du flux des porteurs de charge !
+* *Source* : c'est la « source » (angl. source) des porteurs de charge dans le canal. Ne vous laissez pas tromper : le sens conventionnel du courant est défini à l'opposé de la direction du flux des porteurs de charge !
 * *Drain* : c'est le drain (angl. drain) pour les porteurs de charge dans le canal.
 * *Gate* : La grille (angl. gate) contrôle le flux des porteurs de charge dans le canal.
 

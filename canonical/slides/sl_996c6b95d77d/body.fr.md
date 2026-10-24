@@ -8,14 +8,14 @@
 
 ### Filtre FIR (Finite Impulse Response)
 
-* « Finite » = seul un nombre limité d'échantillons d'entrée est utilisé pour chaque échantillon de sortie  
+* « Finite » = seul un nombre limité d'échantillons d'entrée est utilisé pour chaque échantillon de sortie  
 * Pas de rétroaction ; le calcul repose exclusivement sur les échantillons actuels et passés
 
 ---
 
 ### Filtre IIR (Infinite Impulse Response)
 
-* « Infinite » = le calcul d'un échantillon de sortie se réfère à tous les échantillons d'entrée précédents  
+* « Infinite » = le calcul d'un échantillon de sortie se réfère à tous les échantillons d'entrée précédents  
 * L'utilisation de la rétroaction conduit à un comportement impulsionnel théoriquement infini
 
 ---

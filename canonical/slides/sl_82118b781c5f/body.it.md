@@ -5,7 +5,7 @@
 * Possono essere riflesse dai metalli
 
 <note>
-* Non ha nulla a che vedere con il prefisso "micro-" dell'unità di misura
+* Non ha nulla a che vedere con il prefisso «micro-» dell'unità di misura
 </note>
 ---
 ## Specchio parabolico

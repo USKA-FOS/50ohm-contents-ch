@@ -39,5 +39,5 @@ Anche le stazioni di club possono essere gestite come stazioni remote. Tuttavia,
 % Esiste una base giuridica in Svizzera o cosa vale in Svizzera?
 % Il paragrafo potrebbe essere spostato dopo la riga 15. Tuttavia, la riga 15 è il testo originale del foglio informativo 1.7. Poiché lì si afferma "L'autorizzazione ... viene rilasciata anche a singoli individui, ...", le associazioni devono essere menzionate in qualche modo.
 
-In una stazione remota è possibile anche l'attività radio di addestramento. In questo caso si applicano le stesse regole valide per l'attività di addestramento. L'allievo deve essere istruito e supervisionato direttamente, cioè personalmente. Al nominativo personale o al nominativo della stazione di club deve essere aggiunto il suffisso "/T" o "/Trainee".
+In una stazione remota è possibile anche l'attività radio di addestramento. In questo caso si applicano le stesse regole valide per l'attività di addestramento. L'allievo deve essere istruito e supervisionato direttamente, cioè personalmente. Al nominativo personale o al nominativo della stazione di club deve essere aggiunto il suffisso «/T» o «/Trainee».
 % Esiste una base giuridica in Svizzera o cosa vale in Svizzera?

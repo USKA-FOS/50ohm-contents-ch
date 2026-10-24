@@ -1,0 +1,617 @@
+{
+  "created_at": "2026-10-24T13:29:07.701831+00:00",
+  "repository_head": "bc3b62010c8b391d32d0ffe4d293e3232c516d27",
+  "input_state": "current working tree, including the pending quotation corrections",
+  "candidate_source": "review/technical_format/2026-10-24/quotation-style-alignment/manifest.json",
+  "candidate_source_sha256": "e89175e4f6ec77ccfed4790ff73c1b5965a028faf836bfad983f99e2be6db3ef",
+  "csv": "quotation-candidates-manual-review.csv",
+  "csv_sha256": "1f7f8560dd793b4b3ced9abf01a9c73220adc72d7051b43612594b0b4967cd6b",
+  "encoding": "UTF-8 with BOM",
+  "delimiter": ";",
+  "rows": 35,
+  "text_format": "complete raw canonical Markdown/DARCdown, including comments; no rendering, truncation or text replacement",
+  "review_columns": [
+    "decision_fr",
+    "commentaire_fr",
+    "decision_it",
+    "commentaire_it"
+  ],
+  "note": "Counts are candidate-screening values, not proof of a quotation error. Review wording and quote boundaries against the German text. This export does not apply decisions.",
+  "objects": [
+    {
+      "object": "sections/sc_0be779c64f0a",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_0be779c64f0a/body.de.md",
+          "sha256": "c1b91ed99a29f00db332841d80646285ea1f4e244ca498208ddf964a1fbbe4e2"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_0be779c64f0a/body.fr.md",
+          "sha256": "ee8ea6f1c332c6df2bdbd1e72703290565ebab234bb35a0b982b6a54ade87ce0"
+        },
+        "it": {
+          "path": "canonical/sections/sc_0be779c64f0a/body.it.md",
+          "sha256": "45f2a4e916e0f52e92362abf63b1f56f204c05e00abf29735882422fdc30efce"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_12f25a3da45e",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_12f25a3da45e/body.de.md",
+          "sha256": "9df76cb56ea908fe716b6777dcba6276530d5787a9ab63e733c2c03cc52a08d0"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_12f25a3da45e/body.fr.md",
+          "sha256": "209cbd7a7052ad9f466f8d66624af3354d3088fd15c755dad9da661e4ebd2758"
+        },
+        "it": {
+          "path": "canonical/sections/sc_12f25a3da45e/body.it.md",
+          "sha256": "b1cd70b04e5bb265792c69ffdb4555685addc16570d1fd83eff783652bf00e3a"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_319efa0c917e",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_319efa0c917e/body.de.md",
+          "sha256": "466c57bf1bd5d7e4e1c6adeeccc40b433ad7039a63e18fa22e17e96735112c4a"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_319efa0c917e/body.fr.md",
+          "sha256": "828b31ffcfc4897bdffea84aa29220fc41d3ad9f40ddcb9e647d752b2fc7d4c5"
+        },
+        "it": {
+          "path": "canonical/sections/sc_319efa0c917e/body.it.md",
+          "sha256": "9de7ca53edb1b65f93dc713933c67253975cd4a63fc59a276268d0e3fed7485e"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_4fc8774e334e",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_4fc8774e334e/body.de.md",
+          "sha256": "3fae17dcf5f5cfcf9964f888cb6620c98ecd1e3df43fb6d2c0f5cdf0bd5caef9"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_4fc8774e334e/body.fr.md",
+          "sha256": "cb10bcbf6f271ae7b4342fde90557a61f0459655cf77e4bf5d2a5a8e4095f539"
+        },
+        "it": {
+          "path": "canonical/sections/sc_4fc8774e334e/body.it.md",
+          "sha256": "e6ce846d6d1818173b813938d6a47e1946321fca3aa848fb903d9a840c41ce59"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_50a407d84c1d",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_50a407d84c1d/body.de.md",
+          "sha256": "d0acda912fc678f3b1e30b14a45a99750a7801fc941eb7a65b8f55e682fedfeb"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_50a407d84c1d/body.fr.md",
+          "sha256": "a5c5f14a59a4cd03365f8ad39c130d94a856665b8e101121bf0e2af560d2e975"
+        },
+        "it": {
+          "path": "canonical/sections/sc_50a407d84c1d/body.it.md",
+          "sha256": "9daec0a30278ecfbc29feabe61b648f52fefe2161e1b60b9a4c1bc138a4efd69"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_5a961fe0475b",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_5a961fe0475b/body.de.md",
+          "sha256": "75daef84f1e0a16ca1a8908e89eb2fefa93d5d9824ef793ad092b3b0290bf18a"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_5a961fe0475b/body.fr.md",
+          "sha256": "ff7d3db6eaffa93f1236f1495cbfd48d2ea06221f6e07e8523de1f544c2f2a95"
+        },
+        "it": {
+          "path": "canonical/sections/sc_5a961fe0475b/body.it.md",
+          "sha256": "c7f964836ee26675276d0740721233e74b596970361fc8b40c44500bb1d6a71f"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_5d8e7599c58f",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_5d8e7599c58f/body.de.md",
+          "sha256": "83de0e7ca9d4cfca29053d5e2777b9ec965e2575ac22c54b7b950a03a0ce6928"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_5d8e7599c58f/body.fr.md",
+          "sha256": "ee3a8ab1dbb543b761c47cbe4ea52f3d31d822bdcf93b095e96044db159417f2"
+        },
+        "it": {
+          "path": "canonical/sections/sc_5d8e7599c58f/body.it.md",
+          "sha256": "ca4c323eb51a7856fb2c09c9ee718eb05a867f20342c5283261da2a54a4a28f3"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_61d96097333f",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_61d96097333f/body.de.md",
+          "sha256": "f075188fb495da1ab573602d75322b571c8e0b9f1ea7aeb074055feb31a5e427"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_61d96097333f/body.fr.md",
+          "sha256": "0065b5b71c9bcd92eaaeb777d06bcebe50d2281b5fa20831a0f009f933fa1a6a"
+        },
+        "it": {
+          "path": "canonical/sections/sc_61d96097333f/body.it.md",
+          "sha256": "4b88a964c23f41d756983ca9a9ce93ff8f3f7dc13e2441e8bcc82c6ac7de9525"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_62dfe8e84494",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_62dfe8e84494/body.de.md",
+          "sha256": "ed7067fd94288bcc1abf92dcfd73669692332e5eb547100e6cfd569515183eef"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_62dfe8e84494/body.fr.md",
+          "sha256": "8bd56558fe176439c9715f1349190e5b5dd5263de00a31fedf6358ff36c5089e"
+        },
+        "it": {
+          "path": "canonical/sections/sc_62dfe8e84494/body.it.md",
+          "sha256": "2163144c1cf18539ba94774e3435747df565c8ab06ba7004110579b396933e66"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_7215bf452d26",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_7215bf452d26/body.de.md",
+          "sha256": "7b1daff20dd79f47c75422c478cd5814e6ab10c286b744efabc005515aa28ade"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_7215bf452d26/body.fr.md",
+          "sha256": "c61503a95a6509f679b919caa67519aed478a4a48df9d13b5a072495241debb1"
+        },
+        "it": {
+          "path": "canonical/sections/sc_7215bf452d26/body.it.md",
+          "sha256": "6df6bbe230887591c5238edbbb9c80a39f106305748bc495bbfedafe6ce5d5ed"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_8df5737577d0",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_8df5737577d0/body.de.md",
+          "sha256": "820bc6faef079c0a6ecaa9170a2ffd7044a1633ea326d5969810cdd7c54a59aa"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_8df5737577d0/body.fr.md",
+          "sha256": "23bef1e7720a3392f442e6b864273ed0f2acb5ab09b152d635b611d199a90ad3"
+        },
+        "it": {
+          "path": "canonical/sections/sc_8df5737577d0/body.it.md",
+          "sha256": "6083a1a5be4bb2d8895f165b82b4faad9accd255f5be90775c192b3dd40f7b0a"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_9004a722f484",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_9004a722f484/body.de.md",
+          "sha256": "d2571e43aeee3baa2a2e625cacc22b7913dd84616966b1a59613dda6021dd424"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_9004a722f484/body.fr.md",
+          "sha256": "92a7f39c43d8b642ff797e48515cfedefe200525be87d44bff415d0f57023671"
+        },
+        "it": {
+          "path": "canonical/sections/sc_9004a722f484/body.it.md",
+          "sha256": "f5700b56016b3779d59715969771b02a4d871d63f2e4d30d1508e58295d7b47e"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_9021b3a94776",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_9021b3a94776/body.de.md",
+          "sha256": "b7607ed0a8a3746f58e5f9853785329fdcd083706565e82c3294de8af75cbe41"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_9021b3a94776/body.fr.md",
+          "sha256": "bc325230c04da62ba87797bf533682d7aa1eed23fc1ffd0380e6c2106a298d34"
+        },
+        "it": {
+          "path": "canonical/sections/sc_9021b3a94776/body.it.md",
+          "sha256": "1fbae5f8a12923081b1daab77454de488f7729ba8f61cd0279c67e2101772282"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_924dbf22b2a2",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_924dbf22b2a2/body.de.md",
+          "sha256": "65ab0139ee873b68da1a26104b18c8e99b4da99aa6b3d5f021907c473fdf2aa9"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_924dbf22b2a2/body.fr.md",
+          "sha256": "51e46c108d5847a97a93e1b60df5c0c8923e513bb1c62d16e3c1914b40f06d77"
+        },
+        "it": {
+          "path": "canonical/sections/sc_924dbf22b2a2/body.it.md",
+          "sha256": "918f1afc8292c8f05e3e822a4f56630e821c489925f3f8ed0eaa8357b0b30aa8"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_9bd796242615",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_9bd796242615/body.de.md",
+          "sha256": "db8f58b8842d55b7411675d6b02c09af7636143413cb28ab4475e09bec406ae5"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_9bd796242615/body.fr.md",
+          "sha256": "3940474de27250484420a818ec1e350b3f828c3db1800839d5e21056a1579381"
+        },
+        "it": {
+          "path": "canonical/sections/sc_9bd796242615/body.it.md",
+          "sha256": "574e4a3f0310e69091b9b4eb8ffb0798d54ba7ac417961627145c6cc5351da02"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_9beaaac9d91e",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_9beaaac9d91e/body.de.md",
+          "sha256": "1363846c75b451048e368ea7ef702d20775746ab66a1cefe2875ef0d1b36b3bb"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_9beaaac9d91e/body.fr.md",
+          "sha256": "984a27ee8422c3351b6cb4f659c728ba6ee6e3781705995f7437b2cc96b98f3f"
+        },
+        "it": {
+          "path": "canonical/sections/sc_9beaaac9d91e/body.it.md",
+          "sha256": "369eb025768af3ca7a1e682e37961b02566d527d44e578929f680d3e4e24c49c"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_a5c3b61f8b50",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_a5c3b61f8b50/body.de.md",
+          "sha256": "3935d939919e73f2388767b4f9b78f3e85fd729696e6cc9288ba696a018779a9"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_a5c3b61f8b50/body.fr.md",
+          "sha256": "77c03dc3c6910d852791644b90239ba9d2e6ad4279844b05776e29029190092d"
+        },
+        "it": {
+          "path": "canonical/sections/sc_a5c3b61f8b50/body.it.md",
+          "sha256": "51ffed49ee80f9dfbd4bb12cf59ced8c322c091dc42367d48c38839a0a960242"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_a85423b7a8ea",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_a85423b7a8ea/body.de.md",
+          "sha256": "2782b9bcf4273dd5c0408be6f09ad49c5832431e61570efad5a4ad216d72e41d"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_a85423b7a8ea/body.fr.md",
+          "sha256": "0ae6a9c8e688860f8b9f31b39ba6c782ca3ff2a3b9d4d633133ff57cae2c1687"
+        },
+        "it": {
+          "path": "canonical/sections/sc_a85423b7a8ea/body.it.md",
+          "sha256": "48be5c614673a5613a45fa03efb91063d84b4b1e4d5eee5fbc946da17f9830d5"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_bf2f60b2adc8",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_bf2f60b2adc8/body.de.md",
+          "sha256": "0e8e7ffb31d68ea945268ccbe04b9b2fc55dc3d4662fdbd57689319d10b3ff8a"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_bf2f60b2adc8/body.fr.md",
+          "sha256": "00327b9fca2f3362a6f7f684fb03c21ee2f7d222d6ba2487febf5479a653995c"
+        },
+        "it": {
+          "path": "canonical/sections/sc_bf2f60b2adc8/body.it.md",
+          "sha256": "68a2809f33bbc5cb0e5034f67ed015ae003b0c3bbfaecadf734c12ab7ec4ec7d"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_c4ed2daa817d",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_c4ed2daa817d/body.de.md",
+          "sha256": "bded28cb6e5f8e193add518b4ad58f183c9e69fb73fd1dd47a82b35f9fd83981"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_c4ed2daa817d/body.fr.md",
+          "sha256": "99e9a4228bc0e285aeb68ef7b5e1c2f3b0c3223f0fd7460176701f816c6e9544"
+        },
+        "it": {
+          "path": "canonical/sections/sc_c4ed2daa817d/body.it.md",
+          "sha256": "f7a2792fef4f53725e7d3ff1cd4754e22ea6ebff867f9128bd3e4029b11f5d07"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_d0ddf45e700c",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_d0ddf45e700c/body.de.md",
+          "sha256": "dc8b603fdf5732061d3b1292bec901c404c61e329dc4dfd416409462b0e130af"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_d0ddf45e700c/body.fr.md",
+          "sha256": "78427665eddb64973e2a6e6e24d61d4990b480e0fde22347e6a5f285279ad7e3"
+        },
+        "it": {
+          "path": "canonical/sections/sc_d0ddf45e700c/body.it.md",
+          "sha256": "7bab68fd9f46e103bb8f041a2525cc0b6f622ff47dc4b3bceb301ac554f4f948"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_d8db0a0957a4",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_d8db0a0957a4/body.de.md",
+          "sha256": "a9fa386651a259e110bc9d2a2f54bd58303444bcb750bebeccbf7714a9a4d541"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_d8db0a0957a4/body.fr.md",
+          "sha256": "c23e3379c174fb8765898ced8c98c7a60305c27a872ffddf762ff4eac5e3e6ce"
+        },
+        "it": {
+          "path": "canonical/sections/sc_d8db0a0957a4/body.it.md",
+          "sha256": "95a225d0c4afaf325283ce6fb79f04b450e9d9c77be715ea2a90cfe4f094874c"
+        }
+      }
+    },
+    {
+      "object": "sections/sc_e873cbf8bfd2",
+      "texts": {
+        "de": {
+          "path": "canonical/sections/sc_e873cbf8bfd2/body.de.md",
+          "sha256": "9886a611d61f348b8bbdd5ef2c1f609fb5112c34c942e49dc54b08acfe2626ed"
+        },
+        "fr": {
+          "path": "canonical/sections/sc_e873cbf8bfd2/body.fr.md",
+          "sha256": "fe73f0ba8c9186a481faa2fbe7bb3c8f297a8dd334c5b5ada1f4763b71ae0cd5"
+        },
+        "it": {
+          "path": "canonical/sections/sc_e873cbf8bfd2/body.it.md",
+          "sha256": "817c9f53d64d71050969285fbee88cca2948a6627d6b5b9a9314293f5935ef69"
+        }
+      }
+    },
+    {
+      "object": "slides/sl_1b6d87e5948f",
+      "texts": {
+        "de": {
+          "path": "canonical/slides/sl_1b6d87e5948f/body.de.md",
+          "sha256": "0397ed54881d3a8e3d87b396a009728d406b0d447c947ebc539cd5e7a605b581"
+        },
+        "fr": {
+          "path": "canonical/slides/sl_1b6d87e5948f/body.fr.md",
+          "sha256": "36b7c8ac0b75c76c9f7676ac5188ce863ba48c4aa218196399ed808d56b75b4f"
+        },
+        "it": {
+          "path": "canonical/slides/sl_1b6d87e5948f/body.it.md",
+          "sha256": "54737746855c5d84eff9757977bcc08a1e58b2cdbbcd122e6fefe8740244473d"
+        }
+      }
+    },
+    {
+      "object": "slides/sl_2b89a218de70",
+      "texts": {
+        "de": {
+          "path": "canonical/slides/sl_2b89a218de70/body.de.md",
+          "sha256": "c3b6aa4ebe49c40b02c1f2f0e8b770ed255f391e9e7956f2ed432b047d191f38"
+        },
+        "fr": {
+          "path": "canonical/slides/sl_2b89a218de70/body.fr.md",
+          "sha256": "0b08caf75ddc67629e56b0ab30b084ade01b16451330975de849a041aa0e83a6"
+        },
+        "it": {
+          "path": "canonical/slides/sl_2b89a218de70/body.it.md",
+          "sha256": "3acaa8718b27ef4acb5bec0de5f4dde8bceee7a1fbf41c86af6e9150df8a6b72"
+        }
+      }
+    },
+    {
+      "object": "slides/sl_2dafa83ab445",
+      "texts": {
+        "de": {
+          "path": "canonical/slides/sl_2dafa83ab445/body.de.md",
+          "sha256": "997775091a3ba542d52b526be1eff7b8afea61433f4737e4384698fa404bc11b"
+        },
+        "fr": {
+          "path": "canonical/slides/sl_2dafa83ab445/body.fr.md",
+          "sha256": "68d817b13895fdd15cc3be05f28dfed7083a58dc428f53c491945336cc13bef2"
+        },
+        "it": {
+          "path": "canonical/slides/sl_2dafa83ab445/body.it.md",
+          "sha256": "2fadec2d2fed5f2f6fe466b054afd16eed14d674ded7aea74f26a788d4176533"
+        }
+      }
+    },
+    {
+      "object": "slides/sl_539acd57970b",
+      "texts": {
+        "de": {
+          "path": "canonical/slides/sl_539acd57970b/body.de.md",
+          "sha256": "4ae0776828487d54174f47279ffb8ef73fb71ab63441847833942d2ed93fe58d"
+        },
+        "fr": {
+          "path": "canonical/slides/sl_539acd57970b/body.fr.md",
+          "sha256": "39378f2a9382986b0ed8d8f39c029b50062e14ffea09bb7649e9201001f9ff9c"
+        },
+        "it": {
+          "path": "canonical/slides/sl_539acd57970b/body.it.md",
+          "sha256": "c5d4a92f97da11c733f41ab5a475ef92612bba383ee4d2045d1c04051b6e835b"
+        }
+      }
+    },
+    {
+      "object": "slides/sl_5bb7b953caa3",
+      "texts": {
+        "de": {
+          "path": "canonical/slides/sl_5bb7b953caa3/body.de.md",
+          "sha256": "7181e66a350a680bc785f25559d7b994958a37ea6b28249d0a247904e1fe3690"
+        },
+        "fr": {
+          "path": "canonical/slides/sl_5bb7b953caa3/body.fr.md",
+          "sha256": "40831777ea5420678928af165c4b6d568c8e8295e1984333510b8e31644be28f"
+        },
+        "it": {
+          "path": "canonical/slides/sl_5bb7b953caa3/body.it.md",
+          "sha256": "b6ec5b68ebd8ef289df75010a9606485ce4bd4d1b3b18da6c5ca7e9da31c404e"
+        }
+      }
+    },
+    {
+      "object": "slides/sl_63a979958437",
+      "texts": {
+        "de": {
+          "path": "canonical/slides/sl_63a979958437/body.de.md",
+          "sha256": "20a2569e70657d582c8315b3bde35dfcbbfde9a073f32941761ee11cebe24a8f"
+        },
+        "fr": {
+          "path": "canonical/slides/sl_63a979958437/body.fr.md",
+          "sha256": "e0873bf562f58056c41902a12e238be5267c7e3cf28b64f8e3a80d31f259583d"
+        },
+        "it": {
+          "path": "canonical/slides/sl_63a979958437/body.it.md",
+          "sha256": "96eeb3eb277c8a2c3fd4e10d9c13968844a992082fb5da2ece14ec0369b06f34"
+        }
+      }
+    },
+    {
+      "object": "slides/sl_7fd88357f2eb",
+      "texts": {
+        "de": {
+          "path": "canonical/slides/sl_7fd88357f2eb/body.de.md",
+          "sha256": "66120160b57261a108197f9ea7e15564349d7ea660689371ab3a6f79d2634522"
+        },
+        "fr": {
+          "path": "canonical/slides/sl_7fd88357f2eb/body.fr.md",
+          "sha256": "630d8a2ea0fd91e6cf7ff81e161c8d0cd457a479965078c777de1e59397b0d81"
+        },
+        "it": {
+          "path": "canonical/slides/sl_7fd88357f2eb/body.it.md",
+          "sha256": "a5e82812b8bcb70570ab4bb8db6a65d6c10a285d665168d86d245ee6419dfe55"
+        }
+      }
+    },
+    {
+      "object": "slides/sl_98bcd1638ae9",
+      "texts": {
+        "de": {
+          "path": "canonical/slides/sl_98bcd1638ae9/body.de.md",
+          "sha256": "ce1e32f0381d3f91132f7048fa75cb00e2346663b68cf4b00f9989a31969938a"
+        },
+        "fr": {
+          "path": "canonical/slides/sl_98bcd1638ae9/body.fr.md",
+          "sha256": "9093b1c02a557aae6df62a7e4bf58989e5e111702c1c391d0236c3b420c03c3d"
+        },
+        "it": {
+          "path": "canonical/slides/sl_98bcd1638ae9/body.it.md",
+          "sha256": "3a19dfa4de30f69a5d996b7fe4039c324b6bea892e04b77d83646005e2edaa19"
+        }
+      }
+    },
+    {
+      "object": "slides/sl_bf0d913b4ad7",
+      "texts": {
+        "de": {
+          "path": "canonical/slides/sl_bf0d913b4ad7/body.de.md",
+          "sha256": "7925473316c943f3871f8046acd0aa9e4e68c70b2c2b740250858de1604769c4"
+        },
+        "fr": {
+          "path": "canonical/slides/sl_bf0d913b4ad7/body.fr.md",
+          "sha256": "49623ff9a321f228183284fd32a132c4212a9f082dcb1426261a34c69c827ad7"
+        },
+        "it": {
+          "path": "canonical/slides/sl_bf0d913b4ad7/body.it.md",
+          "sha256": "bdc80e722e3727fc6ca7fd50e2ec3d4c0333bf670e10acd51aaaefce78c0499e"
+        }
+      }
+    },
+    {
+      "object": "slides/sl_db1889bcf039",
+      "texts": {
+        "de": {
+          "path": "canonical/slides/sl_db1889bcf039/body.de.md",
+          "sha256": "776c0025040ce6cd929125f7a95723f8ec31072a9ea71f2f376b95c79735d688"
+        },
+        "fr": {
+          "path": "canonical/slides/sl_db1889bcf039/body.fr.md",
+          "sha256": "c2355bb40012e9120e5c282eb2d4ef50994bf9456576a4f3a072a6fd9e611e6d"
+        },
+        "it": {
+          "path": "canonical/slides/sl_db1889bcf039/body.it.md",
+          "sha256": "946d3b5127f6dd4a3b9869b7f89bee5c85fb4d3e834c3de42df8066cf796db7a"
+        }
+      }
+    },
+    {
+      "object": "slides/sl_e86097096fbe",
+      "texts": {
+        "de": {
+          "path": "canonical/slides/sl_e86097096fbe/body.de.md",
+          "sha256": "87495feb0ce22097e8bbe9870d4aaf849076c58a0f36aa0d5336ef08cc758b6f"
+        },
+        "fr": {
+          "path": "canonical/slides/sl_e86097096fbe/body.fr.md",
+          "sha256": "9c8618e8cacbb3da3039ff65a3ed3704344139f942b114c5ecb3802e5503f35e"
+        },
+        "it": {
+          "path": "canonical/slides/sl_e86097096fbe/body.it.md",
+          "sha256": "3823c2f202ea18bbe1cf7768ff407650d550766b29eea9e9841ce7898fcb2023"
+        }
+      }
+    },
+    {
+      "object": "solutions/s_77c8a33f87f6",
+      "texts": {
+        "de": {
+          "path": "canonical/solutions/s_77c8a33f87f6/body.de.md",
+          "sha256": "3339bb8b0d223238241dbe56dd0f79ad749f15280d6ac90adc7f891d546ac908"
+        },
+        "fr": {
+          "path": "canonical/solutions/s_77c8a33f87f6/body.fr.md",
+          "sha256": "8bf4b5a4f691209f8f228c75147a9108d45ff25c0750209a04d99a2e1c72fd96"
+        },
+        "it": {
+          "path": "canonical/solutions/s_77c8a33f87f6/body.it.md",
+          "sha256": "43b6b3e463beebb5717c6b19fc246406300976ed2b656f3ea354cd07dc7f2d61"
+        }
+      }
+    }
+  ]
+}

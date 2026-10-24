@@ -2,7 +2,7 @@ Come abbiamo già imparato, le batterie forniscono una tensione elettrica perch�
 
 Nei ricetrasmettitori portatili vengono impiegati perlopiù accu, ma a volte anche batterie. Per far funzionare le stazioni radio in modo indipendente dalla rete elettrica, ad esempio durante un Fieldday, si utilizzano spesso accu.
 
-La scritta presente sulle batterie (Figura [ref:n_Bat_AA]) indica ad esempio il polo positivo e quello negativo e segnala l’importanza di rispettare la corretta polarità. Per le batterie, è fondamentale osservare sempre l’avvertenza "Non ricaricabile".
+La scritta presente sulle batterie (Figura [ref:n_Bat_AA]) indica ad esempio il polo positivo e quello negativo e segnala l’importanza di rispettare la corretta polarità. Per le batterie, è fondamentale osservare sempre l’avvertenza «Non ricaricabile».
 
 La Figura [ref:n_schaltzeichen_batt] mostra il simbolo di circuito di una batteria o di un accu. La linea più lunga nel simbolo indica il polo positivo, quella più corta il polo negativo. Un utile trucco mnemonico è il seguente: un segno più (+) richiede due linee, mentre un segno meno (–) ne richiede solo una.
 

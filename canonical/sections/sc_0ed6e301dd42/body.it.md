@@ -1,4 +1,4 @@
-Abbiamo già trattato, nelle domande d'esame per HB3, le basi relative all'ionosfera, all'attività delle macchie solari, alla cosiddetta "zona morta" e alle principali regioni ionosferiche. Il principio fondamentale era che la radiazione UV emessa dal Sole ionizza le molecole nella ionosfera.
+Abbiamo già trattato, nelle domande d'esame per HB3, le basi relative all'ionosfera, all'attività delle macchie solari, alla cosiddetta «zona morta» e alle principali regioni ionosferiche. Il principio fondamentale era che la radiazione UV emessa dal Sole ionizza le molecole nella ionosfera.
 
 [question:AH101]
 

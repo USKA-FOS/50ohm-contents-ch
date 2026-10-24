@@ -3,7 +3,7 @@
 * Per questo motivo gli *impianti di antenna devono essere messi a terra* o integrati in un *concept di protezione contro i fulmini* esistente
 
 <note>
-* Lettura consigliata: ["Guida alla protezione degli impianti radio su edifici in caso di fulmini"](https://50ohm.de/vde-blitz) del VDE
+* Lettura consigliata: [«Guida alla protezione degli impianti radio su edifici in caso di fulmini»](https://50ohm.de/vde-blitz) del VDE
 </note>
 ---
 ### Sovratensione

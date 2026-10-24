@@ -62,7 +62,7 @@ $P_\mathrm{EIRP} = P_\mathrm{trasmettitore} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}
 
 ---
 
-Il secondo metodo di calcolo possibile sfrutta il fatto che i valori in dB possono essere "scomposti". Nel quesito il guadagno d'antenna è $g = \qty{26}{\dBi}$. Nella raccolta di formule, nella tabella [ref:e_dezibel_leistungsfaktoren] si trova una panoramica dei fattori di potenza per valori dB importanti. Per $\qty{26}{\dB}$ non esiste un valore diretto. Tuttavia, poiché i livelli in decibel possono essere sommati, è possibile suddividere il valore in modo significativo:
+Il secondo metodo di calcolo possibile sfrutta il fatto che i valori in dB possono essere «scomposti». Nel quesito il guadagno d'antenna è $g = \qty{26}{\dBi}$. Nella raccolta di formule, nella tabella [ref:e_dezibel_leistungsfaktoren] si trova una panoramica dei fattori di potenza per valori dB importanti. Per $\qty{26}{\dB}$ non esiste un valore diretto. Tuttavia, poiché i livelli in decibel possono essere sommati, è possibile suddividere il valore in modo significativo:
 
 $\qty{26}{\dBi} = \qty{20}{\dBi} + \qty{6}{\dB}$
 

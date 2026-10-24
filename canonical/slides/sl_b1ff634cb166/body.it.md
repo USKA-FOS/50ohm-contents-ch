@@ -50,7 +50,7 @@
 ---
 [question:AG120]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ## Adattamento dell'impedenza per loop a onda intera
 
 <left>

@@ -21,7 +21,7 @@
 
 * Con una lunghezza del conduttore pari a $ \lambda/4 $ o a un multiplo dispari di essa si verifica la risonanza
 * Poiché la fine del conduttore è messa a terra, non può formarsi un ventre di tensione – al contrario, si genera una tensione elevata nel punto di collegamento del conduttore di messa a terra al trasmettitore
-* Il telaio del trasmettitore diventa "caldo" e sensibile al tatto, il che può causare scosse elettriche o ustioni
+* Il telaio del trasmettitore diventa «caldo» e sensibile al tatto, il che può causare scosse elettriche o ustioni
 
 ---
 [question:AK203]

@@ -1,4 +1,4 @@
-* Nozioni di base sulla ionosfera, l'attività delle macchie solari e la "zona morta" sono trattate nel corso N
+* Nozioni di base sulla ionosfera, l'attività delle macchie solari e la «zona morta» sono trattate nel corso N
 * Approfondimento nell'area della propagazione delle onde
 * La radiazione del sole strappa elettroni da atomi e molecole di ossigeno e azoto nell'alta atmosfera → ionizzazione
 * Gli elettroni liberi vengono eccitati dalle onde radio a vibrare → rifrazione delle onde radio
@@ -57,7 +57,7 @@
 ---
 
 ## Strati della ionosfera
-* A diverse altezze esistono diversi "strati" o regioni con ionizzazione di intensità variabile
+* A diverse altezze esistono diversi «strati» o regioni con ionizzazione di intensità variabile
 * Questi portano i nomi
 
 1. strato D

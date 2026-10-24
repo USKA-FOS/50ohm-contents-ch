@@ -55,7 +55,7 @@ Les préfixes nationaux sont constamment nécessaires tout au long de la vie d'u
 | *JA* | JApon | Japon |
 | *K*, *W*, N, AA-AL | Personne Ne Veut Aller en Amérique | États-Unis |
 | LU | En bas à gauche | Argentine |
-| *PY* | "Pyranhas" | Brésil |
+| *PY* | « Pyranhas » | Brésil |
 | *VE* | Beaucoup d'élans | Canada |
 | VK | Beaucoup de kangourous | Australie |
 | *VU* | | Inde |

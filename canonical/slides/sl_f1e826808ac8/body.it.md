@@ -38,7 +38,7 @@
 
 [question:AD502]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ### Demodulazione FM
 
 <left>

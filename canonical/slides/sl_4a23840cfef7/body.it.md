@@ -9,7 +9,7 @@
 [picture:665:n_widerstandsfarbcodes: Un resistore con 4 anelli colorati]
 </right>
 
---- style="font-size: 0.6em;"
+--- style=«font-size: 0.6em;»
 | X:Colore | l:Valore | l:Moltiplicatore | l:Tolleranza |
 | Argento | - | $\num{0,01}$ | $\qty{\pm 10}{\percent}$ |
 | Oro | - | $\num{0,1}$ | $\qty{\pm 5}{\percent}$ |

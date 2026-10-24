@@ -21,7 +21,7 @@ Nelle onde corte, la regione della ionosfera che rifrange l'onda spaziale verso 
 Infine, su VHF, UHF e SHF si può ottenere aiuto da un'altra parte per trasmettere oltre l'orizzonte, cioè tramite *Aircraft-Scatter*: qui gli aerei fungono da riflettori temporanei quando si trovano sulla linea di collegamento o vicino ad essa tra trasmettitore e ricevitore. A causa del rapido movimento dell'aereo, tali possibilità di collegamento sono piuttosto brevi, quindi è richiesto un rapido svolgimento del QSO.
 
 <indepth>
-Pignoleria: sebbene *Aircraft-Scatter* sia chiamato "Scatter", fisicamente non è una diffusione, ma una riflessione.
+Pignoleria: sebbene *Aircraft-Scatter* sia chiamato «Scatter», fisicamente non è una diffusione, ma una riflessione.
 </indepth>
 
 [question:AH310]

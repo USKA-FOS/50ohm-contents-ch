@@ -84,7 +84,7 @@ Cas idéal : $\qty{\infty}{\ohm}$, le courant de charge reste alors constant mal
 * Transmission optimale de puissance de l'émetteur vers l'antenne
 * $R_i = R_L$
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 |c: Résumé résistance interne | c: Résistance interne |
 | Adaptation en tension pour une source de tension constante | $R_i$ est très faible ; théoriquement $\qty{0}{\ohm}$ ; $R_i \ll R_L$ identique à $R_L \gg R_i$ |

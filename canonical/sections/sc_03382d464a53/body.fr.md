@@ -25,7 +25,7 @@ $\frac{U_{2}}{U_g} = \frac{R_{2}}{R_{1} + R_{2}}$
 Dans le cas d’un diviseur de tension chargé, ces formules ne s’appliquent pas. Des questions à ce sujet suivront dans le chapitre [sec:spannungsteiler_2].
 </danger>
 
-Dans les questions suivantes, le terme diviseur de tension n’est pas mentionné directement, mais la formulation : « Comment la tension se répartit-elle aux bornes de deux résistances montées en série ... » devrait permettre de reconnaître qu’il s’agit d’un diviseur de tension.
+Dans les questions suivantes, le terme diviseur de tension n’est pas mentionné directement, mais la formulation : « Comment la tension se répartit-elle aux bornes de deux résistances montées en série ... » devrait permettre de reconnaître qu’il s’agit d’un diviseur de tension.
 
 [question:ED101]
 

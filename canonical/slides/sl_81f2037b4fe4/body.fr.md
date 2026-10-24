@@ -46,9 +46,9 @@ Plus la tension appliquée à la diode est négative, plus la zone de charge d�
 Les seuils de tension font partie du programme de la classe E.
 </note>
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 [question:AC405]
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 [question:AC406]
 ---
 ## Photodiode

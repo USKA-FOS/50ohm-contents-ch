@@ -1,3 +1,3 @@
 Le dopage désigne l’introduction ciblée de faibles quantités d’atomes étrangers appropriés dans un matériau semi-conducteur de base. Cela crée des porteurs de charge libres supplémentaires, ce qui permet de modifier de manière ciblée la conductivité électrique.
 
-Selon le type d’atomes étrangers introduits, il en résulte un excès d’électrons (dopage de type n) ou un déficit d’électrons, c’est-à-dire des « trous » (dopage de type p).
+Selon le type d’atomes étrangers introduits, il en résulte un excès d’électrons (dopage de type n) ou un déficit d’électrons, c’est-à-dire des « trous » (dopage de type p).

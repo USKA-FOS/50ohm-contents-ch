@@ -11,7 +11,7 @@
 Avec une carte QSL SWL, un auditeur demande à la station de radioamateur entendue une confirmation de son rapport de réception.
 </note>
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ### Mentions sur la carte QSL SWL
 

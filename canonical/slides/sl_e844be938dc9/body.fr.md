@@ -23,7 +23,7 @@ Les matériaux peuvent être classés en trois groupes :
 * La *résistance* est l'inverse de la conductivité : les matériaux très conducteurs ont une faible résistance, les mauvais conducteurs une résistance élevée
 </note>
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 ### Conducteurs, classés du meilleur au moins bon conducteur
 
@@ -57,7 +57,7 @@ Les matériaux peuvent être classés en trois groupes :
 * Ne conduisent pas le courant électrique
 * Appelés aussi *isolateurs*
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 ### Isolateurs
 

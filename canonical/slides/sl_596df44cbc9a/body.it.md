@@ -5,7 +5,7 @@
 * oggi vengono utilizzati anche nella radiotelefonia
 * con il punto interrogativo di solito una domanda, senza punto interrogativo un'affermazione o una richiesta
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ### Gruppi Q importanti
 
@@ -16,7 +16,7 @@
 | QRT | Interrompa la trasmissione |
 | QRV | Sono pronto |
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ### Altri gruppi Q importanti
 

@@ -1,6 +1,6 @@
 <left>
 * Gli amperometri misurano la corrente elettrica
-* Simbolo elettrico "A in un cerchio"
+* Simbolo elettrico «A in un cerchio»
 </left>
 <right>
 [picture:624:n_messgeraete_symbol_strommessgerät:Simbolo elettrico amperometro]
@@ -27,9 +27,9 @@
 
 ## Multimetro
 
-* Cavo di misura nero su "COM", rosso sul connettore contrassegnato con A
+* Cavo di misura nero su «COM», rosso sul connettore contrassegnato con A
 * A seconda dell'intervallo di misura, etichettato con $\unit{\micro\ampere}$, $\unit{\milli\ampere}$ o $\unit{\ampere}$
-* Per la misurazione selezionare "A =" (corrente continua) o "A ~" (corrente alternata)
+* Per la misurazione selezionare «A =» (corrente continua) o «A ~» (corrente alternata)
 * Scegliere prima l'intervallo di misura più grande possibile, poi eventualmente ridurlo, eventualmente anche cambiando il cavo di misura
 
 <note>

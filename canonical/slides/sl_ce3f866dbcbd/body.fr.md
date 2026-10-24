@@ -5,7 +5,7 @@
 * La fréquence est réglable avec une grande précision
 * La modulation de fréquence (FM) et de phase (PM) peut être générée directement
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 [picture:438:a_oszillator_dds:schéma bloc de la synthèse numérique directe]
 
 * Un générateur d'horloge à fréquence fixe incrémente un compteur d'adresses

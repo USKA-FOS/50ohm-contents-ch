@@ -24,7 +24,7 @@ On peut bien retenir cela à l'aide de la figure [ref:n_halbleiter_diode_merkhil
 
 ---
 
-Une diode spéciale est la diode électroluminescente, ou LED en abrégé (anglais "light-emitting diode"). C'est une diode qui s'allume dès qu'un courant la traverse. Le schéma d'une LED correspond à celui de la diode avec deux flèches supplémentaires indiquant l'éclairage (figure [ref:n_halbleiter_led]). À part le fait que la LED s'allume, elle se comporte exactement comme toute autre diode : elle ne laisse passer le courant que dans une seule direction.
+Une diode spéciale est la diode électroluminescente, ou LED en abrégé (anglais « light-emitting diode »). C'est une diode qui s'allume dès qu'un courant la traverse. Le schéma d'une LED correspond à celui de la diode avec deux flèches supplémentaires indiquant l'éclairage (figure [ref:n_halbleiter_led]). À part le fait que la LED s'allume, elle se comporte exactement comme toute autre diode : elle ne laisse passer le courant que dans une seule direction.
 
 <margin>
 [photo:205:n_halbleiter_led:Symboles de circuit et formes de construction des LEDs]

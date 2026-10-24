@@ -30,7 +30,7 @@ $$\qty{1}{\hertz} = \frac{1}{\unit{s}}$$
 * Nelle comunicazioni radio si utilizzano oscillazioni molto più elevate
 * Ad esempio: $\qty{144000000}{\hertz}$
 * Abbreviazione: $\qty{144}{\mega\hertz}$ (megahertz)
-* Il prefisso dell’unità di misura "$\unit{\mega\,}$" viene anteposto a "$\unit{\hertz}$"
+* Il prefisso dell’unità di misura «$\unit{\mega\,}$» viene anteposto a «$\unit{\hertz}$»
 * Il valore viene moltiplicato per un milione
 
 ---
@@ -70,7 +70,7 @@ Nella classe E e A sono previste ulteriori bande di frequenza
 * Durante la trasmissione, le oscillazioni vengono inviate all’antenna e irradiate come onde radio
 
 <note>
-Dal latino "oscillare": dondolare
+Dal latino «oscillare»: dondolare
 </note>
 
 ---

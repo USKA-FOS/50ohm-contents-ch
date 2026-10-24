@@ -5,7 +5,7 @@ Il existe également des résistances dépendantes de la température, appelées
 
 Les conducteurs à chaud sont aussi appelés *NTC* (de l'anglais Negative Temperature Coefficient) et les conducteurs à froid *PTC* (de l'anglais Positive Temperature Coefficient).
 
-Ces types de résistances sont représentés par des symboles de circuit spécifiques, comme illustré dans la figure [ref:e_schaltbildNtcPtc]. L'élément important est la petite lettre grecque $\vartheta$ (prononcée « thêta »), qui représente la température. Deux flèches sont également indiquées, décrivant la dépendance en température de la résistance.
+Ces types de résistances sont représentés par des symboles de circuit spécifiques, comme illustré dans la figure [ref:e_schaltbildNtcPtc]. L'élément important est la petite lettre grecque $\vartheta$ (prononcée « thêta »), qui représente la température. Deux flèches sont également indiquées, décrivant la dépendance en température de la résistance.
 
 La première flèche indique une augmentation de la température $\uparrow$. La seconde flèche montre comment la résistance évolue avec l'augmentation de la température : elle peut soit augmenter $\uparrow$, soit diminuer $\downarrow$.
 

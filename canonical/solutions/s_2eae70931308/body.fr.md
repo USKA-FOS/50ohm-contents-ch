@@ -2,7 +2,7 @@
 
 ### Source pour le calcul de la distance de sécurité
 
-Le document « Explication des procédures d’évaluation selon le règlement BEMFV » de l’Agence fédérale des réseaux, daté d’août 2013, apporte des éclaircissements.
+Le document « Explication des procédures d’évaluation selon le règlement BEMFV » de l’Agence fédérale des réseaux, daté d’août 2013, apporte des éclaircissements.
 
 La section 1.2.2 (Exécution du calcul du champ lointain) contient la formule (5) pour calculer la distance de sécurité – désignée ici par $r$ :
 
@@ -24,7 +24,7 @@ $d < \frac{\lambda}{2\pi}$
 
 Dans ce cas :
 
-« À l’intérieur du champ proche réactif, il peut y avoir localement de fortes augmentations du champ électrique et magnétique, qui ne peuvent pas être déterminées par le calcul du champ lointain. Par conséquent, un calcul du champ lointain n’est pas autorisé dans cette zone. »
+« À l’intérieur du champ proche réactif, il peut y avoir localement de fortes augmentations du champ électrique et magnétique, qui ne peuvent pas être déterminées par le calcul du champ lointain. Par conséquent, un calcul du champ lointain n’est pas autorisé dans cette zone. »
 
 ### Champ proche rayonnant
 
@@ -35,13 +35,13 @@ On se trouve dans le champ proche rayonnant d’une antenne lorsque
 
 Dans ce cas :
 
-« Si la formule du champ lointain est appliquée dans la zone du champ proche rayonnant, on obtient pour la plupart des formes d’antennes des estimations conservatrices, c’est-à-dire que les intensités de champ réelles sont inférieures à celles calculées. Cela ne s’applique cependant pas à tous les types d’antennes : par exemple, une antenne magnétique produit dans le champ proche des intensités de champ plus élevées que celles prédites par la formule du champ lointain. En particulier, les antennes dont les dimensions géométriques sont petites par rapport à la longueur d’onde présentent un tel comportement. »
+« Si la formule du champ lointain est appliquée dans la zone du champ proche rayonnant, on obtient pour la plupart des formes d’antennes des estimations conservatrices, c’est-à-dire que les intensités de champ réelles sont inférieures à celles calculées. Cela ne s’applique cependant pas à tous les types d’antennes : par exemple, une antenne magnétique produit dans le champ proche des intensités de champ plus élevées que celles prédites par la formule du champ lointain. En particulier, les antennes dont les dimensions géométriques sont petites par rapport à la longueur d’onde présentent un tel comportement. »
 
 ### Calculs de champ proche
 
 La section 1.3 aborde la possibilité de calculer le champ proche par simulation :
 
-« L’utilisation de méthodes numériques, comme celles appliquées dans les programmes de calcul de champ proche, permet de calculer avec précision les champs électriques et magnétiques en amplitude et en phase pour n’importe quel point de l’espace autour d’une antenne. »
+« L’utilisation de méthodes numériques, comme celles appliquées dans les programmes de calcul de champ proche, permet de calculer avec précision les champs électriques et magnétiques en amplitude et en phase pour n’importe quel point de l’espace autour d’une antenne. »
 
 ### Interprétation
 

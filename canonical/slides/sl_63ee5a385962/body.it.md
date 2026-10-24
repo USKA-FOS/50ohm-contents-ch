@@ -52,7 +52,7 @@ $P_{\mathrm{EIRP}} = P_{\mathrm{Trasmettitore}} \cdot 10^{\frac{g_i - a}{\qty{10
 Un impianto radioamatoriale fisso deve essere segnalato all'Agenzia federale delle reti (BNetzA) ai sensi del § 9 BEMFV se viene superata una potenza irradiata (EIRP) di $\qty{10}{\watt}$.
 ---
 [question:EG503]
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ### Procedimento di soluzione
 
 * dato: $P_{\mathrm{Trasmettitore}} = \qty{250}{\milli\watt}$
@@ -72,7 +72,7 @@ $\begin{split} P_{\mathrm{EIRP}} &= P_{\mathrm{Trasmettitore}} \cdot 10^{\frac{g
 </note>
 ---
 [question:EG511]
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ### Procedimento di soluzione
 
 * dato: $P_{\mathrm{EIRP}} = \qty{10}{\watt}$

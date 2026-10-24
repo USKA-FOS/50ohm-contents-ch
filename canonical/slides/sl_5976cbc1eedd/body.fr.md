@@ -6,13 +6,13 @@
 * Utilisées également en téléphonie et dans le langage courant des radioamateurs
 * Souvent issues de termes anglais
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 | c: Abréviation | X: Signification |
 | BK | Interruption de l'émission ; transmission informelle (*B*rea*k*) |
-| CQ | Appel général (de l'anglais "Seek You") |
+| CQ | Appel général (de l'anglais « Seek You ») |
 | CW | *C*ontinuous *W*ave (synonyme de télégraphie Morse) |
-| K | Invitation à transmettre ("*K*ommen") |
+| K | Invitation à transmettre (« *K*ommen ») |
 | PSE | S'il vous plaît, *P*lea*se* |
 | R | Reçu (accusé de réception, *R*oger) |
 | RX | Receiver (récepteur) |

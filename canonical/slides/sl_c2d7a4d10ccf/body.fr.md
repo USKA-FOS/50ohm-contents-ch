@@ -72,10 +72,10 @@ Le service de secours par radioamateur de l’USKA fournit des recommandations p
 ### Signaux de détresse
 
 * Les signaux de détresse en dehors du service d'amateur sont SOS et MAYDAY
-  * En radiotéléphonie : « Mayday », en télégraphie : « SOS »
+  * En radiotéléphonie : « Mayday », en télégraphie : « SOS »
 * Signaux d’urgence et de sécurité : PAN PAN et SÉCURITÉ
 * Ces signaux sont réservés au service maritime et aérien et ne doivent pas être utilisés en radioamateurisme
-* Il est toutefois possible d’émettre des appels de détresse, par exemple avec les termes « Notfall » ou « Emergency »
+* Il est toutefois possible d’émettre des appels de détresse, par exemple avec les termes « Notfall » ou « Emergency »
 
 ---
 
@@ -106,7 +106,7 @@ L’IARU a défini dans ses plans de bande pour la région 1 de l’UIT les fré
 * $\qty{21360}{\kilo\hertz}$ dans la bande des $\qty{15}{\meter}$
 
 <note>
-En cas de séisme, par exemple, d’autres fréquences sont communiquées par les organisations locales dans les « médias radioamateur ».
+En cas de séisme, par exemple, d’autres fréquences sont communiquées par les organisations locales dans les « médias radioamateur ».
 </note>
 
 ---

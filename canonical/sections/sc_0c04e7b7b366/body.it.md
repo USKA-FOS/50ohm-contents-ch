@@ -48,7 +48,7 @@ Per la pratica del satellite radio, sono particolarmente importanti il periodo o
 
 ## Visibilità di un satellite
 
-Per una stazione radio sulla Terra, non è decisivo se un satellite orbita fondamentalmente attorno alla Terra, ma se si trova attualmente sopra l'orizzonte locale. Un sorvolo inizia con l'"Acquisition of Signal" (AOS), quando il satellite diventa visibile o ricevibile per la stazione. Termina con il "Loss of Signal" (LOS), quando scende di nuovo sotto l'orizzonte.
+Per una stazione radio sulla Terra, non è decisivo se un satellite orbita fondamentalmente attorno alla Terra, ma se si trova attualmente sopra l'orizzonte locale. Un sorvolo inizia con l'«Acquisition of Signal» (AOS), quando il satellite diventa visibile o ricevibile per la stazione. Termina con il «Loss of Signal» (LOS), quando scende di nuovo sotto l'orizzonte.
 
 La posizione di un satellite nel cielo è indicata dall'azimut, cioè la direzione lungo l'orizzonte, e dall'elevazione, cioè l'angolo sopra l'orizzonte. Durante un sorvolo, entrambi i valori cambiano continuamente.
 

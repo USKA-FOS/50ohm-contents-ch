@@ -2,7 +2,7 @@ Dans la section [sec:kondensator_1], nous avons déjà appris la capacité d'un 
 
 $|X_C| = \frac{1}{\omega\cdot C} = \frac{1}{2\pi\cdot f \cdot C}$
 
-Ici, nous allons maintenant examiner ce comportement plus en détail et comprendre pourquoi cette résistance est appelée "réactance". Cependant, nous devons d'abord retenir que la réactance d'un condensateur est également négative, afin de pouvoir résoudre la question suivante :
+Ici, nous allons maintenant examiner ce comportement plus en détail et comprendre pourquoi cette résistance est appelée « réactance ». Cependant, nous devons d'abord retenir que la réactance d'un condensateur est également négative, afin de pouvoir résoudre la question suivante :
 
 [question:AC102]
 

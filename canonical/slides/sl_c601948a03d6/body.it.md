@@ -4,7 +4,7 @@
 ---
 [question:AG420]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ### Funzionamento della linea di deviazione $\lambda/2$
 * Antenna simmetrica: entrambi i punti di connessione necessitano di tensione RF (uguale in modulo, sfasata di 180°)
 * Con la linea di deviazione $\lambda/2$ uno dei punti di connessione (ad esempio nel dipolo ripiegato) viene collegato al conduttore interno tramite uno sfasamento di 180°

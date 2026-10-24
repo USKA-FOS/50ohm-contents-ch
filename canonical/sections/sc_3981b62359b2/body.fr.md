@@ -15,7 +15,7 @@ Cela sera abordé plus en détail dans la section [sec:ausbildungsrufzeichen].
 [Feuille d’information 1.2 de l’OFCOM](https://www.bakom.admin.ch/fr/amateurfunk#Merkblatt-Amateurfunk)
 </law>
 
-Le trafic radio de formation s’adresse aux personnes *ne détenant pas* de certificat de capacité radioamateur. Il sert à la préparation pratique à l’examen en permettant d’appliquer les connaissances théoriques acquises. Il favorise également la « vie après l’examen » : car sans pratique, les connaissances théoriques seules ne suffisent pas pour opérer sur les ondes.
+Le trafic radio de formation s’adresse aux personnes *ne détenant pas* de certificat de capacité radioamateur. Il sert à la préparation pratique à l’examen en permettant d’appliquer les connaissances théoriques acquises. Il favorise également la « vie après l’examen » : car sans pratique, les connaissances théoriques seules ne suffisent pas pour opérer sur les ondes.
 
 L’instructeur doit toujours se trouver à proximité immédiate de l’apprenant et le guider dans l’utilisation de l’émetteur-récepteur et la gestion des communications. En effet, seule une présence immédiate permet à l’instructeur d’intervenir en cas de besoin, y compris en coupant l’émetteur si nécessaire. Il n’est pas autorisé de superviser un apprenant à distance ou par radio depuis un autre lieu, car cela ne garantit pas une guidance et une surveillance immédiates.
 % Aucune base légale explicite pour cette description précise. La feuille d’information 1.2 de l’OFCOM mentionne uniquement « sous surveillance constante ». Cependant, cette section est jugée pertinente.

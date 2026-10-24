@@ -40,7 +40,7 @@ L'*operatore nabla* ∇ è uno strumento matematico che descrive come un campo (
 
 Il punto ⋅ indica la *divergenza*. Essa descrive se in un punto le linee di campo hanno origine o scompaiono.
 
-La croce × indica la *rotazione*. Essa descrive quanto un campo "ruota".
+La croce × indica la *rotazione*. Essa descrive quanto un campo «ruota».
 
 Va notato che la comprensione e l'applicazione delle equazioni di Maxwell vanno ben oltre le conoscenze richieste per l'esame. Tuttavia, si tratta di un concetto così fondamentale dell'elettrotecnica che almeno il nome dovrebbe essere noto.
 </indepth>

@@ -37,6 +37,6 @@ La vitesse de propagation réduite par le diélectrique se reflète dans le fact
 
 $k_\mathrm{v} = \frac{L_\mathrm{G}}{L_\mathrm{E}} = \frac{1}{\sqrt{\epsilon_\mathrm{r}}}$
 
-Ici, $k_\mathrm{v}$ est le facteur de vélocité, $L_\mathrm{G}$ la longueur géométrique ("mécanique"), et $L_\mathrm{E}$ la longueur électrique. La permittivité relative $\epsilon_\mathrm{r}$ dépend du diélectrique utilisé. Pour le polyéthylène non expansé (PE), on peut trouver dans le recueil de formules une permittivité relative de $\num{2,29}$.
+Ici, $k_\mathrm{v}$ est le facteur de vélocité, $L_\mathrm{G}$ la longueur géométrique (« mécanique »), et $L_\mathrm{E}$ la longueur électrique. La permittivité relative $\epsilon_\mathrm{r}$ dépend du diélectrique utilisé. Pour le polyéthylène non expansé (PE), on peut trouver dans le recueil de formules une permittivité relative de $\num{2,29}$.
 
 [question:AG317]

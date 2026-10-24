@@ -34,7 +34,7 @@
 ---
 [question:AC202]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ### Réactance inductive $X_{\textrm{L}}$
 
 Une bobine connectée à une tension alternative fait varier en permanence le champ magnétique $\rightarrow$ impédance / réactance inductive

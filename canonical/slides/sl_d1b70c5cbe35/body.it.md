@@ -3,7 +3,7 @@
 </left>
 <right>
 * È anche possibile distribuire un flusso di dati su più portanti che si trovano su frequenze diverse ma vicine tra loro.
-* Nell’OFDM le singole portanti vengono posizionate a una distanza tale da evitare un "sovrapposizione reciproca".
+* Nell’OFDM le singole portanti vengono posizionate a una distanza tale da evitare un «sovrapposizione reciproca».
 </right>
 <note>
 OFDM: Orthogonal Frequency-Division Multiplexing<br/>

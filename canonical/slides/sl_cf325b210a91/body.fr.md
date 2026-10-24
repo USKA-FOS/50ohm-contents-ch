@@ -1,7 +1,7 @@
 ## Transformation d’impédance dans la ligne d’alimentation
 
 * Une impédance caractéristique différente de la résistance de charge entraîne, en plus des ondes stationnaires, une transformation d’impédance
-* La source de signal « voit » des résistances différentes aux extrémités du câble
+* La source de signal « voit » des résistances différentes aux extrémités du câble
 * Les lignes de $\lambda/4$ transforment les petites résistances en grandes et les grandes en petites
 * Les lignes de $\lambda/2$ ne provoquent aucune transformation d’impédance
 
@@ -72,7 +72,7 @@ $\begin{split}Z &= \sqrt{Z_E \cdot Z_A}\\ &= \sqrt{\qty{600}{\ohm} \cdot \qty{24
 </right>
 
 <note>
-Le nom « filtre en π » provient de l’agencement des composants, qui rappelle la lettre grecque $\pi$ et n’a rien à voir avec le nombre Pi.
+Le nom « filtre en π » provient de l’agencement des composants, qui rappelle la lettre grecque $\pi$ et n’a rien à voir avec le nombre Pi.
 </note>
 
 ---

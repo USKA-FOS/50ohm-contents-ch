@@ -16,7 +16,7 @@ Opzionalmente, la PLL può essere integrata da un *divisore di frequenza* per si
 
 ---
 
-Il confrontatore di fase misura la differenza di fase tra i segnali del VCO ($f_\mathrm{out}$) e dell’oscillatore di riferimento ($f_\mathrm{ref}$). In caso di scostamento di fase, emette impulsi corrispondenti all’errore. Questi impulsi vengono smorzati dal filtro passa-basso e convertiti in una tensione continua proporzionale. La tensione continua generata funge da segnale di comando per il VCO, che regola la sua frequenza in modo che la differenza di fase si riduca gradualmente a zero. Quando questo stato viene raggiunto, si dice che la PLL è "agganciata" (locked), cioè in uno *stato stabile*. Nello stato stabile della PLL, le frequenze e le fasi dei due segnali sono identiche. Vale:
+Il confrontatore di fase misura la differenza di fase tra i segnali del VCO ($f_\mathrm{out}$) e dell’oscillatore di riferimento ($f_\mathrm{ref}$). In caso di scostamento di fase, emette impulsi corrispondenti all’errore. Questi impulsi vengono smorzati dal filtro passa-basso e convertiti in una tensione continua proporzionale. La tensione continua generata funge da segnale di comando per il VCO, che regola la sua frequenza in modo che la differenza di fase si riduca gradualmente a zero. Quando questo stato viene raggiunto, si dice che la PLL è «agganciata» (locked), cioè in uno *stato stabile*. Nello stato stabile della PLL, le frequenze e le fasi dei due segnali sono identiche. Vale:
 
 
 $f_\mathrm{ref}=\frac{f_\mathrm{out}}{n}$

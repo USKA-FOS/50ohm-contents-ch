@@ -119,7 +119,7 @@ Un cas particulier d’antenne verticale est l’antenne $\frac{5}{8}\lambda$ ex
 ---
 
 
-Une antenne Groundplane rayonne également perpendiculairement au radiateur (pas aux radiales). Comme le diagramme de rayonnement de l’antenne Groundplane est souvent vu d’en haut, cela donne presque un antenne omnidirectionnelle dont le gain est presque identique dans toutes les directions (cf. illustration [ref:e_ground_plane_abstrahlung]). Les radiales n’ont qu’une faible influence et peuvent légèrement « déformer » le diagramme de rayonnement, ce qui correspond à un gain légèrement différent dans certaines directions.
+Une antenne Groundplane rayonne également perpendiculairement au radiateur (pas aux radiales). Comme le diagramme de rayonnement de l’antenne Groundplane est souvent vu d’en haut, cela donne presque un antenne omnidirectionnelle dont le gain est presque identique dans toutes les directions (cf. illustration [ref:e_ground_plane_abstrahlung]). Les radiales n’ont qu’une faible influence et peuvent légèrement « déformer » le diagramme de rayonnement, ce qui correspond à un gain légèrement différent dans certaines directions.
 
 
 <margin>
@@ -130,7 +130,7 @@ Une antenne Groundplane rayonne également perpendiculairement au radiateur (pas
 
 
 <indepth>
-Bien que le diagramme de rayonnement d’une antenne Groundplane avec radiales soit légèrement « *déformé* », cet écart est en théorie bien plus faible que ce qui est souvent représenté. Une antenne Groundplane est donc en réalité un antenne omnidirectionnelle presque idéale dans le plan.
+Bien que le diagramme de rayonnement d’une antenne Groundplane avec radiales soit légèrement « *déformé* », cet écart est en théorie bien plus faible que ce qui est souvent représenté. Une antenne Groundplane est donc en réalité un antenne omnidirectionnelle presque idéale dans le plan.
 </indepth>
 
 ---

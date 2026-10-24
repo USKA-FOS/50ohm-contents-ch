@@ -27,7 +27,7 @@ La quantification, en revanche, discrétise l'axe des valeurs : une valeur mesur
 * La valeur du signal peut prendre n'importe quelle valeur intermédiaire
 * Un signal analogique idéal est donc *à temps et à valeurs continus*
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## Échantillonnage
 
@@ -126,7 +126,7 @@ Il nous faut maintenant décider avec quelle valeur numérique digitale la valeu
 Si la valeur réelle se situe entre deux niveaux possibles, elle est attribuée à un niveau approprié.
 </note>
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## À valeurs continues et à valeurs discrètes
 

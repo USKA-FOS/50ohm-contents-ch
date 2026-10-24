@@ -9,7 +9,7 @@
 [question:EE403]
 ---
 [question:EE402]
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## Réception des modes numériques
 

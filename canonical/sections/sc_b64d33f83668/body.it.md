@@ -15,7 +15,7 @@ L'immagine [ref:nea_linkstrecken_antenne_Pilatus] mostra il montaggio di un'ante
 ---
 
 <margin>
-[photo:1000:nea_linkstrecken_antenne_Pilatus:Lavori di manutenzione sul campus di Windisch, HB9DWW e HB9ZGF durante il montaggio dell'antenna di uplink "Echolink" per il relè Pilatus]
+[photo:1000:nea_linkstrecken_antenne_Pilatus:Lavori di manutenzione sul campus di Windisch, HB9DWW e HB9ZGF durante il montaggio dell'antenna di uplink «Echolink» per il relè Pilatus]
 </margin>
 
 ---
@@ -43,7 +43,7 @@ Il nominativo di un relè inizia solitamente con DB0, DM0 o DO0, secondo il [pia
 
 %TODO: Elvetizzare il piano dei nominativi
 
-La definizione ufficiale dei ripetitori è un po' più arida: *"Stazione relè": una stazione radioamatoriale telecomandata (anche su satelliti) che trasmette telecomandata emissioni radioamatoriali ricevute, parti di esse o altri segnali immessi o memorizzati, servendo ad aumentare la raggiungibilità delle stazioni radioamatoriali.*
+La definizione ufficiale dei ripetitori è un po' più arida: *«Stazione relè»: una stazione radioamatoriale telecomandata (anche su satelliti) che trasmette telecomandata emissioni radioamatoriali ricevute, parti di esse o altri segnali immessi o memorizzati, servendo ad aumentare la raggiungibilità delle stazioni radioamatoriali.*
 La seguente domanda su questa definizione può essere risolta bene anche per esclusione, sapendo che:
 * I relè non sono gestiti con nominativi personali.
 * I relè di solito non sono costantemente presidiati.
@@ -94,7 +94,7 @@ Le informazioni sui relè, inclusi i parametri tecnici e le particolarità, poss
 [question:NE309]
 [question:NE308]
 
-Un'impostazione importante è la larghezza di banda del canale in funzionamento FM. Ricordiamo: la larghezza di banda indica quanto "spazio" si occupa nello spettro di frequenze con l'emissione. Qui c'è da un lato il Wide-FM, dove la larghezza di banda è di $\qty{25}{\kilo\hertz}$ e viene visualizzata sul display ad esempio come *FM-W*. Dall'altro lato c'è il Narrow-FM (FM a banda stretta), che occupa una larghezza di banda di soli $\qty{12,5}{\kilo\hertz}$ ed è ad esempio rappresentato sull'apparecchio radio come *FM-N*. Molti ripetitori non gradiscono affatto che i segnali siano troppo larghi. Infatti, ciò può causare segnali distorti e interferire con le frequenze dei relè adiacenti.
+Un'impostazione importante è la larghezza di banda del canale in funzionamento FM. Ricordiamo: la larghezza di banda indica quanto «spazio» si occupa nello spettro di frequenze con l'emissione. Qui c'è da un lato il Wide-FM, dove la larghezza di banda è di $\qty{25}{\kilo\hertz}$ e viene visualizzata sul display ad esempio come *FM-W*. Dall'altro lato c'è il Narrow-FM (FM a banda stretta), che occupa una larghezza di banda di soli $\qty{12,5}{\kilo\hertz}$ ed è ad esempio rappresentato sull'apparecchio radio come *FM-N*. Molti ripetitori non gradiscono affatto che i segnali siano troppo larghi. Infatti, ciò può causare segnali distorti e interferire con le frequenze dei relè adiacenti.
 % Spiegazione aggiuntiva necessaria per 25kHz. FRV voleva assolutamente la domanda.
 [question:BE407]
 [question:BE417]

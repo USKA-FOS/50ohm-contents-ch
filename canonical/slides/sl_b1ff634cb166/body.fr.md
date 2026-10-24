@@ -50,7 +50,7 @@
 ---
 [question:AG120]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ## Adaptation d'impédance pour les boucles demi-onde
 
 <left>

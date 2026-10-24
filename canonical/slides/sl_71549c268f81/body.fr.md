@@ -18,7 +18,7 @@
 ## Utilisation des balises
 * Réception dépendante des conditions de propagation changeantes
 * Indicateur de la faisabilité d’une liaison radio
-* Tester la réflexion sur les aurores boréales dans la bande VHF via des "balises aurores"
+* Tester la réflexion sur les aurores boréales dans la bande VHF via des « balises aurores »
 * Vérifier l’orientation des antennes par radiogoniométrie
 
 <note>
@@ -28,7 +28,7 @@
 ---
 [question:BE409]
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 ## Projet international de balises (IBP)
 <left>

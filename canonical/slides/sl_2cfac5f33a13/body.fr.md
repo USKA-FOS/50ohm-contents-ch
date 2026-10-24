@@ -12,7 +12,7 @@
 ---
 [question:EC304]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ## Bobine et inductance
 
 * Une bobine optimise l’inductance d’un conducteur
@@ -28,7 +28,7 @@ $L = \dfrac{N\cdot \Phi}{I}$
 * Henry, d’après Joseph Henry (1797 – 1878)
 </note>
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ## Inductance selon la conception
 
 <left>

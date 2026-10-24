@@ -5,7 +5,7 @@ La generazione di una tensione alternata sinusoidale avviene, ad esempio, tramit
 
 Una oscillazione sinusoidale può sempre essere rappresentata come un vettore rotante nel cerchio unitario. Questa rappresentazione aiuta a comprendere in modo più intuitivo determinati concetti. La figura [ref:a_phasenwinkel_zeit] mostra i punti A, B, C e D di questa rotazione, nonché le loro relazioni temporali e angolari:
 
-1. L'asse orizzontale con la dicitura "tempo" è la rappresentazione usuale per una oscillazione sinusoidale, in cui viene stabilito il riferimento alla durata del periodo T.
+1. L'asse orizzontale con la dicitura «tempo» è la rappresentazione usuale per una oscillazione sinusoidale, in cui viene stabilito il riferimento alla durata del periodo T.
 2. Una rotazione completa può essere espressa anche come angolo. Una rotazione completa termina dopo 360 grado.
 Una mezza rotazione corrisponde quindi a 180 grado, mentre un quarto di rotazione è completato dopo 90 grado. Con questi valori è possibile denominare l'asse orizzontale dell'oscillazione sinusoidale.
 3. Un angolo può essere espresso anche nella cosiddetta misura in radianti.

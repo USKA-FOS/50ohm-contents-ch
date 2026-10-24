@@ -9,7 +9,7 @@
 [photo:70:n_koaxsteckverbinder_pl_einbaubuchse:Connettore PL femmina da pannello]
 </right>
 <note>
-"Spina a banana schermata"
+«Spina a banana schermata»
 </note>
 
 ---

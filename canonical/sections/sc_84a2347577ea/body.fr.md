@@ -1,13 +1,13 @@
-Dans de nombreux domaines de la technique des hautes fréquences, les rapports de puissance jouent un rôle important, par exemple pour le gain d'une antenne ou d'un amplificateur, ou encore pour l'atténuation d'un câble. Jusqu'à présent, nous avons appris à connaître ces relations sous la forme de facteurs simples, par exemple : « L'antenne a un gain de facteur $2$. »
+Dans de nombreux domaines de la technique des hautes fréquences, les rapports de puissance jouent un rôle important, par exemple pour le gain d'une antenne ou d'un amplificateur, ou encore pour l'atténuation d'un câble. Jusqu'à présent, nous avons appris à connaître ces relations sous la forme de facteurs simples, par exemple : « L'antenne a un gain de facteur $2$. »
 
 Ces rapports peuvent prendre des valeurs numériques très grandes ou très petites. Par exemple, un récepteur ondes courtes possède un facteur de gain total de $\num{1000000000000}$, soit un 1 suivi de douze zéros. Avec de tels nombres, les calculs deviennent rapidement peu maniables, et on commence inévitablement à compter les zéros.
 
-Cependant, il existe un outil mathématique simplifiant ce « comptage des zéros » : les logarithmes. Grâce à eux, il est possible de transformer des multiplications en additions et des divisions en soustractions. Cela rend les calculs avec de grands nombres très simples.
+Cependant, il existe un outil mathématique simplifiant ce « comptage des zéros » : les logarithmes. Grâce à eux, il est possible de transformer des multiplications en additions et des divisions en soustractions. Cela rend les calculs avec de grands nombres très simples.
 
 ---
 
 Il est donc devenu courant d'exprimer les rapports de puissance sur une échelle logarithmique.
-Le passage au logarithme est l'opération inverse de l'élévation à une puissance. En radioamateurisme, on utilise généralement le logarithme décimal ("logarithmes à base 10") :
+Le passage au logarithme est l'opération inverse de l'élévation à une puissance. En radioamateurisme, on utilise généralement le logarithme décimal (« logarithmes à base 10 ») :
 
 ---
 
@@ -53,7 +53,7 @@ $g = 10\cdot \log_{10}\left(\frac{\qty{100}{\watt}}{\qty{50}{\watt}}\right)\unit
 Pour HB3, il suffit dans un premier temps de connaître la valeur en décibels pour un facteur de puissance de 2. Le recueil de formules contient un tableau qui est également présenté dans le tableau [ref:e_dezibel_leistungsfaktoren]. On peut y lire qu'un facteur de puissance de 2 correspond à une valeur de $\qty{3}{\dB}$. Les calculs détaillés avec des valeurs en décibels ne sont abordés qu'au niveau de la classe A.
 
 <tip>
-Sans calculatrice, il est possible d'estimer des valeurs en décibels se terminant par "$0$" : il suffit de masquer le dernier zéro, le chiffre obtenu indique alors le nombre de zéros du facteur de rapport. Exemple : $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{zéros} \rightarrow \text{facteur de rapport}~1000$ !
+Sans calculatrice, il est possible d'estimer des valeurs en décibels se terminant par « $0$ » : il suffit de masquer le dernier zéro, le chiffre obtenu indique alors le nombre de zéros du facteur de rapport. Exemple : $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{zéros} \rightarrow \text{facteur de rapport}~1000$ !
 </tip>
 
 <indepth>

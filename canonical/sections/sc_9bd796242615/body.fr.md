@@ -1,6 +1,6 @@
 Lorsqu'un signal haute fréquence est transmis par un câble, son intensité diminue avec l'augmentation de la longueur. Cet effet est appelé *atténuation du câble* et est généralement indésirable. Les connecteurs peuvent également contribuer à l'atténuation d'un signal.
 
-L'atténuation est généralement indiquée en décibels ($\unit{\dB}$), une valeur positive représentant une diminution du signal lorsqu'on parle d'atténuation.
+L'atténuation est généralement indiquée en décibels ($\unit{\dB}$), une valeur positive représentant une diminution du signal lorsqu'on parle « d'atténuation »f.
 
 Pour les questions suivantes, il faut d'abord déterminer le facteur par lequel la puissance diminue (par exemple, facteur $\num{2}$ pour une division par deux ou facteur $\num{10}$ pour une diminution de $\qty{100}{\percent}$ à $\qty{10}{\percent}$). Ensuite, ce facteur de puissance peut être converti en une valeur en décibels à l'aide du tableau [ref:e_dezibel_leistungsfaktoren] du recueil de formules ou la solution peut être consultée.
 

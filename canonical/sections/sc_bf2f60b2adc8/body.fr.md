@@ -7,7 +7,7 @@ Si l'on applique une oscillation électrique à une antenne, celle-ci émet une 
 Les ondes radio sont composées de crêtes et de creux. Plus les crêtes sont hautes et les creux profonds, plus le signal radio est fort. On parle alors d'intensité de champ [index:intensité de champ]. La hauteur d'une crête ou la profondeur d'un creux s'appelle, comme pour l'oscillation électrique, amplitude.
 
 <attention>
-On représente souvent les ondes électromagnétiques sous forme d'*instantané*. Les instantanés ressemblent à première vue aux oscillogrammes que nous avons déjà abordés. Pourtant, ils représentent des choses différentes ! Alors qu'un oscillogramme montre l'évolution de la tension dans le temps, un instantané ne représente qu'un seul moment, un instant précis. On peut y lire la variation de l'intensité de champ en fonction de la position. Il est crucial de prêter attention à l'étiquette de l'axe horizontal X. Dans un oscillogramme, on y trouve $t$ pour le temps (du latin tempus), tandis que dans un instantané, on trouve "position".
+On représente souvent les ondes électromagnétiques sous forme d'*instantané*. Les instantanés ressemblent à première vue aux oscillogrammes que nous avons déjà abordés. Pourtant, ils représentent des choses différentes ! Alors qu'un oscillogramme montre l'évolution de la tension dans le temps, un instantané ne représente qu'un seul moment, un instant précis. On peut y lire la variation de l'intensité de champ en fonction de la position. Il est crucial de prêter attention à l'étiquette de l'axe horizontal X. Dans un oscillogramme, on y trouve $t$ pour le temps (du latin tempus), tandis que dans un instantané, on trouve « position ».
 </attention>
 
 <attention>

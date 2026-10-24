@@ -12,7 +12,7 @@
 
 ---
 [question:AC301]
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 Il rapporto tra le spire del lato primario e secondario è uguale al rapporto tra le tensioni primario/secondario, ma inverso rispetto al rapporto tra le intensità di corrente secondario/primario:
 
 $ü = \frac{N_P}{N_S} = \frac{U_P}{U_S} = \frac{I_S}{I_P}$
@@ -118,7 +118,7 @@ $\begin{split} ü &= \sqrt{\frac{Z_P}{Z_S}} = \sqrt{\frac{\qty{450}{\ohm}}{\qty{
 </fragment>
 </right>
 <note>
-I BALUN autocostruiti in custodie di plastica che si fondono sono un fenomeno frequente quando si applica "solo un po' più di potenza"
+I BALUN autocostruiti in custodie di plastica che si fondono sono un fenomeno frequente quando si applica «solo un po' più di potenza»
 </note>
 
 ---

@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-10-24T20:13:36.383999+00:00",
+  "content_regression_tests": {
+    "passed": 41
+  },
+  "translation_regression_tests": {
+    "passed": 99,
+    "subtests_passed": 4
+  },
+  "question_symbols": {
+    "checked_fields": 268,
+    "issues": 0
+  },
+  "generator_template": {
+    "syntax_valid": true,
+    "law_labels_checked": [
+      "de",
+      "fr",
+      "it"
+    ]
+  },
+  "canonical_model": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "manual_inputs": "Imported verbatim; no automatic quotation equalization or spacing normalization. Existing human review files remain under work/.",
+  "source_format_contract_version": 3
+}

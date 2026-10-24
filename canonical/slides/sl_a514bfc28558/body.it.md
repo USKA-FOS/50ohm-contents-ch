@@ -23,7 +23,7 @@ Per alcuni prefissi esistono trucchi mnemonici per ricordarli più facilmente
 
 
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 | l: Prefisso | l: Trucco mnemonico | X: Paese |
 | *CT* | CosTa (costa) | Portogallo |
@@ -39,7 +39,7 @@ Per alcuni prefissi esistono trucchi mnemonici per ricordarli più facilmente
 
 
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 | l: Prefisso | l: Trucco mnemonico | X: Paese |
 | HBØ | Alte montagne (piccole) | Liechtenstein |
@@ -55,7 +55,7 @@ Per alcuni prefissi esistono trucchi mnemonici per ricordarli più facilmente
 
 
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 | l: Prefisso | l: Trucco mnemonico | X: Paese |
 | OK | | Repubblica Ceca |
@@ -71,7 +71,7 @@ Per alcuni prefissi esistono trucchi mnemonici per ricordarli più facilmente
 
 
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 | l: Prefisso | l: Trucco mnemonico | X: Paese |
 | *BY* | pagare in Yuan | Cina |
@@ -86,10 +86,10 @@ Per alcuni prefissi esistono trucchi mnemonici per ricordarli più facilmente
 
 
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 | l: Prefisso | l: Trucco mnemonico | X: Paese |
-| *PY* | "Piranhas" | Brasile |
+| *PY* | «Piranhas» | Brasile |
 | *VE* | Molti alci | Canada |
 | VK | Molti canguri | Australia |
 | *VU* | | India |

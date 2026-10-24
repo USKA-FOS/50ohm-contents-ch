@@ -8,7 +8,7 @@ $R_{\mathrm{ges}} = R_{1} + R_{2} + R_{3}$
 Esempio: $R_{\mathrm{ges}} = \qty{100}{\ohm} + \qty{200}{\ohm} + \qty{300}{\ohm}$
 
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 ## Collegamento in parallelo
 
@@ -55,7 +55,7 @@ $n$ indica il numero delle resistenze
 
 
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 ### Variante 1: Due in parallelo e una in serie
 

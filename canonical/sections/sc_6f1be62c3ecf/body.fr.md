@@ -26,7 +26,7 @@ Le texte intégral de la loi se trouve ici : [VFAV Art. 7 Abs. 2](https://www.fe
 
 ---
 
-Émettre signifie en pratique appuyer sur la touche PTT. PTT [index:PTT] est l’abréviation de push to talk, c’est-à-dire « appuyer pour parler ». Cette fonction permet de basculer un émetteur-récepteur en mode émission. Normalement, un émetteur-récepteur est en mode réception. Ce n’est qu’en appuyant et en maintenant la touche PTT que l’émission commence. Dès que l’on relâche la touche, l’émetteur-récepteur revient en mode réception. La touche PTT est généralement située sur le microphone.
+Émettre signifie en pratique appuyer sur la touche PTT. PTT [index:PTT] est l’abréviation de « push to talk », c’est-à-dire « appuyer pour parler ». Cette fonction permet de basculer un émetteur-récepteur en mode émission. Normalement, un émetteur-récepteur est en mode réception. Ce n’est qu’en appuyant et en maintenant la touche PTT que l’émission commence. Dès que l’on relâche la touche, l’émetteur-récepteur revient en mode réception. La touche PTT est généralement située sur le microphone.
 [question:NF108]
 
 <margin>

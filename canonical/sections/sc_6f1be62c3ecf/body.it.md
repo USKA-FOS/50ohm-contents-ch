@@ -24,7 +24,7 @@ Qui è possibile trovare il testo integrale della legge. [VFAV Art. 7 Abs. 2](ht
 
 ---
 
-Andare in trasmissione significa, in pratica, premere il tasto PTT. PTT [index:PTT] è l'abbreviazione di "push to talk", cioè "premi per parlare". Questa funzione consente di commutare un trasmettitore-ricevitore in modalità trasmissione. Normalmente, un trasmettitore-ricevitore si trova in modalità ricezione. Solo premendo e tenendo premuto il tasto PTT si trasmette. Rilasciando il tasto, il trasmettitore-ricevitore torna automaticamente in modalità ricezione. Il tasto PTT è solitamente posizionato sul microfono.
+Andare in trasmissione significa, in pratica, premere il tasto PTT. PTT [index:PTT] è l'abbreviazione di «push to talk», cioè «premi per parlare». Questa funzione consente di commutare un trasmettitore-ricevitore in modalità trasmissione. Normalmente, un trasmettitore-ricevitore si trova in modalità ricezione. Solo premendo e tenendo premuto il tasto PTT si trasmette. Rilasciando il tasto, il trasmettitore-ricevitore torna automaticamente in modalità ricezione. Il tasto PTT è solitamente posizionato sul microfono.
 [question:NF108]
 
 <margin>

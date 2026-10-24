@@ -48,7 +48,7 @@
 * *Incidenti secondari* come una caduta, causata dallo spavento o dalla contrattura muscolare
 * Inoltre possibile *arco elettrico (di disturbo)* con intensa emissione luminosa attraverso l’aria
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ### 5 regole di sicurezza nell’elettrotecnica
 

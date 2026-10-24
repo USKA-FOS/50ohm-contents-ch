@@ -21,7 +21,7 @@ Avec ces connaissances, examinons à nouveau l'émission AM dans le diagramme en
 
 [picture:738:n_seitenband_frequenzen_einzeln:Plusieurs oscillations sinusoïdales de fréquences différentes]
 
-Reste la question de savoir pourquoi une seule oscillation sinusoïdale, déformée par la modulation, devient soudainement plusieurs oscillations sinusoïdales. Pour y répondre, examinons la situation dans l'autre sens. Si l'on additionne plusieurs oscillations sinusoïdales de fréquences différentes, on obtient une oscillation "déformée" !
+Reste la question de savoir pourquoi une seule oscillation sinusoïdale, déformée par la modulation, devient soudainement plusieurs oscillations sinusoïdales. Pour y répondre, examinons la situation dans l'autre sens. Si l'on additionne plusieurs oscillations sinusoïdales de fréquences différentes, on obtient une oscillation « déformée » !
 
 [picture:739:n_seitenband_frequenzen_addiert:Somme de plusieurs oscillations sinusoïdales de fréquences différentes]
 

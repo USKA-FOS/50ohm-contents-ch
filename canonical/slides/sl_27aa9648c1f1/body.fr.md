@@ -5,7 +5,7 @@
 
 ---
 
-* Dans le domaine Wi-Fi, il existe des connecteurs « Reverse-SMA »
+* Dans le domaine Wi-Fi, il existe des connecteurs « Reverse-SMA »
 * La désignation diffère
   * Un connecteur Reverse-SMA est une prise femelle
   * Un coupleur Reverse-SMA est un connecteur mâle

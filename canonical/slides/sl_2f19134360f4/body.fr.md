@@ -9,7 +9,7 @@
 [photo:70:n_koaxsteckverbinder_pl_einbaubuchse:Connecteur PL femelle encastrable]
 </right>
 <note>
-"Fiche banane blindée"
+« Fiche banane blindée »
 </note>
 
 ---

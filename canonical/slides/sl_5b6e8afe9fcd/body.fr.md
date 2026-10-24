@@ -10,7 +10,7 @@ Le récepteur rend l'information transmise audible ou visible.
 L'antenne capte simultanément de nombreux signaux. Le récepteur en sélectionne une petite bande de fréquences.
 </note>
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ### Quel récepteur choisir ?
 

@@ -8,10 +8,10 @@
 </right>
 
 <note>
-Esempio: 3 nuvole di fumo con un intervallo di 30 secondi ciascuna significano "CQ"
+Esempio: 3 nuvole di fumo con un intervallo di 30 secondi ciascuna significano «CQ»
 </note>
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ## Segnali Morse
 <left>
@@ -25,12 +25,12 @@ Esempio: 3 nuvole di fumo con un intervallo di 30 secondi ciascuna significano "
 [photo:109:n_cwtast:Tasti Morse]
 </right>
 <note>
-* I segnali Morse vengono "dati"
+* I segnali Morse vengono «dati»
 * Tutto questo viene definito come Continuous Wave (CW)
 </note>
 
 ---
-[photo:216:n_cqcq_horiz:"CQ CQ" in telegrafia Morse]
+[photo:216:n_cqcq_horiz:«CQ CQ» in telegrafia Morse]
 
 * Accordo su cosa significano determinate sequenze di intervalli di tempo diversi
 * A metà del XIX secolo, si è giunti all’adozione del codice Morse ancora in uso oggi

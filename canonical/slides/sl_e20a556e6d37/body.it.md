@@ -1,6 +1,6 @@
 <left>
 * Le tensioni possono essere misurate con un voltmetro
-* Simbolo elettrico: "V con un cerchio"
+* Simbolo elettrico: «V con un cerchio»
 * Impostare correttamente il voltmetro
 * Misurare nei punti giusti
 </left>
@@ -20,7 +20,7 @@
 [picture:620:n_messgeraete_spannungsmessung:Misurazione della tensione]
 </right>
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ## Multimetro
 
@@ -29,8 +29,8 @@
 </left>
 <right>
 * Strumento di misura combinato per tensione, corrente e altre grandezze
-* Cavo nero su "COM" (comune), rosso su "V"
-* Per la misurazione della tensione selezionare "V ~" (tensione alternata) o "V =" (tensione continua)
+* Cavo nero su «COM» (comune), rosso su «V»
+* Per la misurazione della tensione selezionare «V ~» (tensione alternata) o «V =» (tensione continua)
 * Scegliere prima il range di misura più ampio, poi eventualmente ridurlo
 </right>
 

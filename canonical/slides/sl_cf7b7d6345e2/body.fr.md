@@ -33,7 +33,7 @@
 
 
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 <left>
 | c: Lettre | l: Mot | l: Prononciation |

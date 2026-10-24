@@ -36,7 +36,7 @@ Alcune bande di frequenza sono assegnate a noi radioamatori in modo primario, al
 ## Banda ISM
 
 <left>
-* "*I*ndustrial, *S*cientific and *M*edical Band"
+* «*I*ndustrial, *S*cientific and *M*edical Band»
 * Parte della banda radioamatoriale dei 70 centimetri
 * Molti dispositivi domestici la utilizzano
 * Nonostante l'assegnazione primaria, le interferenze nel radioamatoriale devono essere accettate

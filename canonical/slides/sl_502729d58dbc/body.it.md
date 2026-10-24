@@ -4,8 +4,8 @@
 </left>
 <right>
 * Tutte le sostanze sono composte da minuscole particelle cariche elettricamente
-* Alcune sono cariche "positive" (più)
-* Alcune sono cariche "negative" (meno)
+* Alcune sono cariche «positive» (più)
+* Alcune sono cariche «negative» (meno)
 </right>
 
 <note>
@@ -23,7 +23,7 @@ Questa è la classe N – siamo sufficientemente precisi per comprendere il prin
 * La maggior parte degli oggetti sono elettricamente bilanciati
 </right>
 <note>
-A meno che non si prenda "una scossa".
+A meno che non si prenda «una scossa».
 </note>
 ---
 

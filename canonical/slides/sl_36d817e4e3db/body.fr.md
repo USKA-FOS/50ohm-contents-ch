@@ -17,7 +17,7 @@ Les courbes de commande peuvent être linéaires ou non linéaires
 
 ---
 [question:AF212]
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ## Mélangeur en anneau
 
 <left>
@@ -34,7 +34,7 @@ Les courbes de commande peuvent être linéaires ou non linéaires
 Ne pas confondre avec le montage en pont !
 </note>
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 [include:applet_ringmodulator]
 
 ---

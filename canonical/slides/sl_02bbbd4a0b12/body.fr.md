@@ -5,7 +5,7 @@
 [question:EH217]
 <note>
 * Pour illustrer, utiliser un globe terrestre
-* Formulation difficile avec "la direction opposée au trajet le plus court"
+* Formulation difficile avec « la direction opposée au trajet le plus court »
 </note>
 ---
 [question:EH216]

@@ -36,7 +36,7 @@
 * Segnale BF composto da due frequenze sinusoidali
 * Non devono essere in rapporto intero tra loro
 * Solitamente $\qty{700}{\hertz}$ e $\qty{1200}{\hertz}$
-* Risulta una cosiddetta "battimento RF" a $\qty{500}{\hertz}$
+* Risulta una cosiddetta «battimento RF» a $\qty{500}{\hertz}$
 * Possibilità di misurare la potenza d’inviluppo (PEP)
 
 <note>

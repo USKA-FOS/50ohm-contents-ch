@@ -13,7 +13,7 @@
 * Particulièrement exploitable pour les liaisons VHF-DX
 * La voix est difficilement utilisable (bande passante importante)
 * Adapté pour le CW et les modes numériques
-* Rapport : pour T, la note "A" est attribuée car le ton est rugueux et fluctuant
+* Rapport : pour T, la note « A » est attribuée car le ton est rugueux et fluctuant
 
 ---
 

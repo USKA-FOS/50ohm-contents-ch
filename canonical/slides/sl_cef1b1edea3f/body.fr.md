@@ -25,7 +25,7 @@ Le catalogue complet comprend 70 questions possibles.
 
 </note>
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 # Qui fait passer l’examen ?
 

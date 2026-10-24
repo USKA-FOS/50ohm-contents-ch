@@ -5,14 +5,14 @@
 3. Premier amplificateur FI avec filtre Roofing
 4. Deuxième mélangeur avec oscillateur de conversion
 
---- data-transition="none"
+--- data-transition=« none »
 [picture:810:doppelsuper_blockschaltbild:Schéma bloc d'un double superhétérodyne]
 
 5. Deuxième amplificateur FI avec filtre
 6. Troisième mélangeur en tant que détecteur de produit ou démodulateur, éventuellement avec oscillateur de battement
 7. Amplificateur BF
 
---- data-transition="none"
+--- data-transition=« none »
 [picture:810:doppelsuper_blockschaltbild:Schéma bloc d'un double superhétérodyne]
 
 * Utilisation de deux fréquences intermédiaires
@@ -58,7 +58,7 @@
 
 ---
 [question:AF210]
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 #### Méthode de résolution
 * donné : $f_\text{E} = 3\dots\qty{30}{\mega\hertz}$
 * donné : $f_\text{FI1} = \qty{50}{\mega\hertz}$
@@ -81,7 +81,7 @@ $\begin{split}f_\text{OSC} &= f_\text{FI} \, - \, f_\text{E}\\ &= \qty{50}{\mega
 </fragment>
 ---
 [question:AF120]
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ### Méthode de résolution
 <left>
 * donné : $f_\text{E} = \qty{3,65}{\mega\hertz}$
@@ -99,7 +99,7 @@ $f_\text{FI1} = \begin{cases}f_\text{E}\,+\,f_\text{OSC}\\ f_\text{OSC}\,-\,f_\t
 <fragment>
 $f_\text{VFO} = \begin{cases}f_\text{FI1}\,-\,f_\text{E} = \qty{50}{\mega\hertz}\,-\,\qty{3,65}{\mega\hertz} = \qty{46,35}{\mega\hertz}\\ f_\text{E}\,+\,f_\text{FI1} = \qty{3,65}{\mega\hertz}\,+\,\qty{50}{\mega\hertz} = \qty{53,65}{\mega\hertz}\\ f_\text{E}\,-\,f_\text{FI1} = \qty{3,65}{\mega\hertz}\,-\,\qty{50}{\mega\hertz} = \cancel{\qty{-46,35}{\mega\hertz}}\end{cases}$
 </fragment>
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 <fragment>
 $f_\text{CO1} = \begin{cases}f_\text{FI2}\,-\,f_\text{FI1} = \qty{9}{\mega\hertz}\,-\,\qty{50}{\mega\hertz} = \cancel{\qty{-41}{\mega\hertz}}\\ f_\text{FI1}\,+\,f_\text{FI2} = \qty{50}{\mega\hertz}\,+\,\qty{9}{\mega\hertz} = \qty{59}{\mega\hertz}\\ f_\text{FI1}\,-\,f_\text{FI2} = \qty{50}{\mega\hertz}\,-\,\qty{9}{\mega\hertz} = \qty{41}{\mega\hertz}\end{cases}$
 </fragment>
@@ -111,7 +111,7 @@ VFO : $\bold{\qty{46,35}{\mega\hertz}} \And \qty{53,65}{\mega\hertz}$, CO1 : $\b
 </fragment>
 ---
 [question:AF118]
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 #### Méthode de résolution
 <left>
 * donné : $f_\text{E} = \qty{21,1}{\mega\hertz}$
@@ -134,7 +134,7 @@ $f_\text{CO} = f_\text{FI1}\,-\,f_\text{FI2} = \qty{9}{\mega\hertz}\,-\,\qty{460
 
 ---
 [question:AF119]
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 #### Méthode de résolution
 <left>
 * donné : $f_\text{E} = \qty{28}{\mega\hertz}$

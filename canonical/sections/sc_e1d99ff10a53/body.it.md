@@ -45,7 +45,7 @@ In questa configurazione, oltre alla simmetrizzazione desiderata, si verifica an
 
 Questa configurazione è tuttavia adatta a sopprimere le correnti sulla calza solo se l’antenna collegata si comporta effettivamente in modo simmetrico e non viene caricata in modo asimmetrico a causa di influenze ambientali.
 
-Tutti i componenti che servono a sopprimere le correnti sulla calza hanno in comune il fatto che può comunque verificarsi un accoppiamento "senza contatto" tramite i campi elettromagnetici vicini dell’antenna direttamente sullo schermo del coassiale, cioè dopo l’induttanza di modo comune. In questo caso, può essere utile un’ulteriore induttanza di modo comune posizionata a una certa distanza dall’antenna.
+Tutti i componenti che servono a sopprimere le correnti sulla calza hanno in comune il fatto che può comunque verificarsi un accoppiamento «senza contatto» tramite i campi elettromagnetici vicini dell’antenna direttamente sullo schermo del coassiale, cioè dopo l’induttanza di modo comune. In questo caso, può essere utile un’ulteriore induttanza di modo comune posizionata a una certa distanza dall’antenna.
 
 [question:AG428]
 [question:AG429]

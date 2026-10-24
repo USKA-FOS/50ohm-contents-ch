@@ -1,4 +1,4 @@
---- data-transition="none"
+--- data-transition=« none »
 ### 1. Microphone
 
 <left>
@@ -9,7 +9,7 @@
 * Ou transmet le signal de la sortie audio d’un ordinateur
 </right>
 
---- data-transition="none"
+--- data-transition=« none »
 
 ### 2. Amplificateur basse fréquence
 
@@ -20,7 +20,7 @@
 * Amplifie le signal BF provenant du microphone ou de l’ordinateur
 </right>
 
---- data-transition="none"
+--- data-transition=« none »
 
 ### 3. Mélangeur
 
@@ -35,7 +35,7 @@
 Lorsqu’un mélangeur combine deux signaux, cela correspond mathématiquement à une multiplication des deux signaux. C’est pourquoi le symbole du mélangeur dans le diagramme en blocs représente également une croix de multiplication. Le fonctionnement exact d’un mélangeur est abordé dans le cours de classe A.
 </note>
 
---- data-transition="none"
+--- data-transition=« none »
 
 ### 4. Oscillateur
 
@@ -46,7 +46,7 @@ Lorsqu’un mélangeur combine deux signaux, cela correspond mathématiquement �
 * Génère une oscillation haute fréquence à la fréquence d’émission
 </right>
 
---- data-transition="none"
+--- data-transition=« none »
 
 ### 5. Filtre passe-bande
 
@@ -58,7 +58,7 @@ Lorsqu’un mélangeur combine deux signaux, cela correspond mathématiquement �
 * Le filtre passe-bande ne laisse passer que les fréquences souhaitées
 </right>
 
---- data-transition="none"
+--- data-transition=« none »
 
 ### 6. Amplificateur
 
@@ -69,7 +69,7 @@ Lorsqu’un mélangeur combine deux signaux, cela correspond mathématiquement �
 * Amplifie le signal HF à la puissance d’émission souhaitée
 </right>
 
---- data-transition="none"
+--- data-transition=« none »
 
 ### 7. Filtre passe-bas
 
@@ -81,7 +81,7 @@ Lorsqu’un mélangeur combine deux signaux, cela correspond mathématiquement �
 * Seul les fréquences souhaitées sont transmises
 </right>
 
---- data-transition="none"
+--- data-transition=« none »
 
 ### 8. Antenne
 

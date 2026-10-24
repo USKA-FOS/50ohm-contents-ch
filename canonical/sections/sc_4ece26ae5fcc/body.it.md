@@ -10,7 +10,7 @@ Se il telaio del trasmettitore viene collegato con una linea separata alla barra
 
 Poiché la fine della linea è collegata a terra, non può formarsi un ventre di tensione. Pertanto, esso si forma all’inizio, cioè dove il conduttore di messa a terra è collegato al trasmettitore. Di conseguenza, sul telaio si genera una tensione elevata, a seconda della potenza di trasmissione. In caso di contatto, si subisce una scossa elettrica o ustioni.
 
-I radioamatori dicono che il telaio è "caldo". Si fa un passo indietro, proprio come quando si tocca una piastra riscaldante rovente.
+I radioamatori dicono che il telaio è «caldo». Si fa un passo indietro, proprio come quando si tocca una piastra riscaldante rovente.
 
 ---
 

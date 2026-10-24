@@ -3,7 +3,7 @@ Lorsqu’on émet depuis un lieu différent de celui indiqué sur l’autorisati
 L’indication est facultative, mais elle peut être utile pour la station correspondante en cas de rupture de la liaison.
 </note>
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 | l: Suffixe | l: Prononciation | l: Signification |
 | am | aéro mobile | À bord d’un aéronef en vol |
 | mm | maritime mobile | À bord d’un navire en mer |
@@ -17,9 +17,9 @@ L’indication est facultative, mais elle peut être utile pour la station corre
 Seuls ces suffixes sont autorisés. Aucun autre.
 </note>
 
---- style="font-size: 0.7em;"
-* Écrit avec "/"
-* Prononcé directement après l’indicatif ou avec "Stroke"
+--- style=« font-size: 0.7em; »
+* Écrit avec « / »
+* Prononcé directement après l’indicatif ou avec « Stroke »
 
 <fragment>
 | l: Écriture | X: Prononciation |
@@ -27,7 +27,7 @@ Seuls ces suffixes sont autorisés. Aucun autre.
 | DM4EAX/p | Delta Mike Quatre Echo Alpha X-Ray (Stroke) Portable |
 | DL1ASN/mm | Delta Lima Un Alpha Sierra November (Stroke) Maritime Mobile |
 | DG2RON/am | Delta Golf Deux Romeo Oscar November (Stroke) Aéro Mobile |
-[table:n_rufzeichenzusaetze_sprechweise:Prononciation des suffixes d’indicatif, "Stroke" est optionnel et peut être omis]
+[table:n_rufzeichenzusaetze_sprechweise:Prononciation des suffixes d’indicatif, « Stroke » est optionnel et peut être omis]
 
 </fragment>
 
@@ -50,7 +50,7 @@ Seuls ces suffixes sont autorisés. Aucun autre.
 ## Maritime Mobile
 * À bord d’un navire (bateau à moteur, voilier, etc.)
 * Hors de la zone des 12 milles marins
-* Sur les fleuves, lacs ou eaux intérieures similaires, "/m" (mobile) peut être utilisé
+* Sur les fleuves, lacs ou eaux intérieures similaires, « /m » (mobile) peut être utilisé
 * L’exploitation doit être autorisée par le capitaine du navire, mais pas par l’Agence fédérale des réseaux (BNetzA)
 
 ---
@@ -84,14 +84,14 @@ Seuls ces suffixes sont autorisés. Aucun autre.
 
 ## Remote
 * Exploitation depuis une station à distance
-* Suffixe "/R" ou "/Remote" optionnel
+* Suffixe « /R » ou « /Remote » optionnel
 
 ---
 [question:BD208]
 ---
 
 ## Trainee (trafic radio de formation)
-* En trafic radio de formation, le suffixe "/T" ou "/Trainee" est obligatoire
+* En trafic radio de formation, le suffixe « /T » ou « /Trainee » est obligatoire
 * Tous les autres suffixes sont facultatifs et peuvent être omis
 
 ---

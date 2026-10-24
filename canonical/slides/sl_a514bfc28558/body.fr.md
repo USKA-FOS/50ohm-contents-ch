@@ -19,7 +19,7 @@
 Certains préfixes disposent d’astuces mnémotechniques pour faciliter leur mémorisation.
 </note>
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 | l: Préfixe | l: Astuce mnémotechnique | X: Pays |
 | *CT* | CosTa (côte) | Portugal |
@@ -33,7 +33,7 @@ Certains préfixes disposent d’astuces mnémotechniques pour faciliter leur m�
 | G | | Royaume-Uni |
 [table:n_europaeische_landeskenner_eselsbruecken_1:Préfixes nationaux européens et astuces mnémotechniques]
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 | l: Préfixe | l: Astuce mnémotechnique | X: Pays |
 | HBØ | Hautes montagnes (petit) | Liechtenstein |
@@ -47,7 +47,7 @@ Certains préfixes disposent d’astuces mnémotechniques pour faciliter leur m�
 | OH | Haut et Haut | Finlande |
 [table:n_europaeische_landeskenner_eselsbruecken_2:Préfixes nationaux européens et astuces mnémotechniques]
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 | l: Préfixe | l: Astuce mnémotechnique | X: Pays |
 | OK | | République tchèque |
@@ -61,7 +61,7 @@ Certains préfixes disposent d’astuces mnémotechniques pour faciliter leur m�
 | SV | | Grèce |
 [table:n_europaeische_landeskenner_eselsbruecken_3:Préfixes nationaux européens et astuces mnémotechniques]
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 | l: Préfixe | l: Astuce mnémotechnique | X: Pays |
 | *BY* | payé en Yuan | Chine |
@@ -74,10 +74,10 @@ Certains préfixes disposent d’astuces mnémotechniques pour faciliter leur m�
 | LU | Bas et à gauche | Argentine |
 [table:n_internationale_landeskenner_eselsbruecken_1:Autres préfixes nationaux et astuces mnémotechniques]
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 | l: Préfixe | l: Astuce mnémotechnique | X: Pays |
-| *PY* | "Pyranhas" | Brésil |
+| *PY* | « Pyranhas » | Brésil |
 | *VE* | Beaucoup d’élans | Canada |
 | VK | Beaucoup de kangourous | Australie |
 | *VU* | | Inde |

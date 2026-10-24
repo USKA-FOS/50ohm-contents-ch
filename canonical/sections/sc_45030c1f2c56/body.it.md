@@ -28,7 +28,7 @@ In questo modo si ottiene l’andamento della tensione mostrato nella figura [re
 [question:ED201]
 
 <indepth>
-La *frequenza di taglio* ($f_\text{g}$) di un filtro passa-basso è la frequenza alla quale il segnale di uscita inizia a essere attenuato in modo significativo. Essa segna quindi il confine tra la banda di frequenza che il filtro lascia passare quasi senza attenuazione e quella in cui l’attenuazione aumenta in modo marcato. Formalmente, la frequenza di taglio è definita come il punto in cui la potenza d’uscita scende alla metà della potenza d’ingresso ($\qty{-3}{\dB}$). Poiché la potenza è proporzionale al quadrato della tensione, ciò corrisponde a una diminuzione della tensione d’uscita a circa $\qty{70}{\percent}$ del suo valore originale ($\frac{1}{\sqrt{2}}$). In pratica, la frequenza di taglio viene spesso identificata nel punto in cui la tensione d’uscita diminuisce sensibilmente e la risposta in frequenza inizia a "piegarsi". Al di sotto della frequenza di taglio, le frequenze basse vengono trasmesse quasi invariati, mentre al di sopra di essa le frequenze più alte vengono attenuate progressivamente.
+La *frequenza di taglio* ($f_\text{g}$) di un filtro passa-basso è la frequenza alla quale il segnale di uscita inizia a essere attenuato in modo significativo. Essa segna quindi il confine tra la banda di frequenza che il filtro lascia passare quasi senza attenuazione e quella in cui l’attenuazione aumenta in modo marcato. Formalmente, la frequenza di taglio è definita come il punto in cui la potenza d’uscita scende alla metà della potenza d’ingresso ($\qty{-3}{\dB}$). Poiché la potenza è proporzionale al quadrato della tensione, ciò corrisponde a una diminuzione della tensione d’uscita a circa $\qty{70}{\percent}$ del suo valore originale ($\frac{1}{\sqrt{2}}$). In pratica, la frequenza di taglio viene spesso identificata nel punto in cui la tensione d’uscita diminuisce sensibilmente e la risposta in frequenza inizia a «piegarsi». Al di sotto della frequenza di taglio, le frequenze basse vengono trasmesse quasi invariati, mentre al di sopra di essa le frequenze più alte vengono attenuate progressivamente.
 </indepth>
 
 ---
@@ -75,7 +75,7 @@ Prima dell'uscita $\qty{2}{\meter}$ è visibile un filtro passa-basso, mentre pr
 
 Un *diplexer* separa o combina diverse bande di frequenza, come descritto sopra.
 
-Un *duplexer* consente di trasmettere e ricevere contemporaneamente sulla stessa antenna, anche se trasmettitore e ricevitore operano su frequenze vicine tra loro, come ad esempio nei ripetitori FM. In Svizzera, il gruppo UHF HB9UF ([https://www.hb9uf.ch/](https://www.hb9uf.ch/)) gestisce, insieme ad altri operatori, tali stazioni di ripetizione o "repeater", come vengono chiamate nel linguaggio inglese.
+Un *duplexer* consente di trasmettere e ricevere contemporaneamente sulla stessa antenna, anche se trasmettitore e ricevitore operano su frequenze vicine tra loro, come ad esempio nei ripetitori FM. In Svizzera, il gruppo UHF HB9UF ([https://www.hb9uf.ch/](https://www.hb9uf.ch/)) gestisce, insieme ad altri operatori, tali stazioni di ripetizione o «repeater», come vengono chiamate nel linguaggio inglese.
 
 </indepth>
 
@@ -166,7 +166,7 @@ Iniziamo con le configurazioni per i *circuiti trappola*. Esistono due modi prin
 
 ---
 
-La seconda categoria di configurazioni che si possono sviluppare con i circuiti oscillanti sono i *filtri passa-banda*. Anche in questo caso esistono due modi principali per realizzarli come partitori di tensione: in primo luogo il *circuito trappola* (cfr. figura [ref:e_leitkreis]) e in secondo luogo il *filtro passa-banda* (cfr. figura [ref:e_bandpass]). Anche in questo caso la derivazione avviene come di consueto attraverso il comportamento di un partitore di tensione. Per un filtro passa-banda si collegano i circuiti oscillanti paralleli in parallelo al percorso del segnale, poiché questi presentano una bassa resistenza alle frequenze lontane dalla risonanza e quindi "cortocircuitano" tali frequenze. Un circuito oscillante serie in serie al percorso del segnale provoca un’ulteriore attenuazione lontano dalla risonanza, mentre presenta una bassa resistenza alla frequenza desiderata.
+La seconda categoria di configurazioni che si possono sviluppare con i circuiti oscillanti sono i *filtri passa-banda*. Anche in questo caso esistono due modi principali per realizzarli come partitori di tensione: in primo luogo il *circuito trappola* (cfr. figura [ref:e_leitkreis]) e in secondo luogo il *filtro passa-banda* (cfr. figura [ref:e_bandpass]). Anche in questo caso la derivazione avviene come di consueto attraverso il comportamento di un partitore di tensione. Per un filtro passa-banda si collegano i circuiti oscillanti paralleli in parallelo al percorso del segnale, poiché questi presentano una bassa resistenza alle frequenze lontane dalla risonanza e quindi «cortocircuitano» tali frequenze. Un circuito oscillante serie in serie al percorso del segnale provoca un’ulteriore attenuazione lontano dalla risonanza, mentre presenta una bassa resistenza alla frequenza desiderata.
 
 [question:ED203]
 <margin>

@@ -18,7 +18,7 @@ Dans l'applet ci-contre, un tel redresseur en pont est représenté. En observan
 
 <tip>
 [picture:67:a_brueckenlgeichrichter_2:Disposition des diodes dans le redresseur en pont]
-Dans le redresseur en pont, les diodes sont orientées avec leurs cathodes vers le pôle positif et leurs anodes vers le pôle négatif. On peut donc retenir : les "barres" des diodes se rejoignent à la sortie positive. Cette disposition ne doit pas être confondue avec celle d'un mélangeur à diodes en anneau, que nous découvrirons plus tard.
+Dans le redresseur en pont, les diodes sont orientées avec leurs cathodes vers le pôle positif et leurs anodes vers le pôle négatif. On peut donc retenir : les « barres » des diodes se rejoignent à la sortie positive. Cette disposition ne doit pas être confondue avec celle d'un mélangeur à diodes en anneau, que nous découvrirons plus tard.
 </tip>
 
 [question:AD305]

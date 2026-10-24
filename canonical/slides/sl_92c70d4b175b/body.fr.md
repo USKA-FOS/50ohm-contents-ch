@@ -1,5 +1,5 @@
 * Sur de nombreux postes radio, il existe un interrupteur pour sélectionner le type de modulation.
-* Il est généralement étiqueté « Mode » et permet de choisir entre CW, AM, FM et BL.
+* Il est généralement étiqueté « Mode » et permet de choisir entre CW, AM, FM et BL.
 
 ---
 [question:NE102]

@@ -1,4 +1,4 @@
-Un’altra tipologia di gara è il *Radio Orienteering (ARDF)*. Si tratta di gare di radiolocalizzazione dette anche *Fuchsjagd* (caccia alla volpe) nei paesi di lingua tedesca. Le "volpi" sono piccoli trasmettitori nascosti che i partecipanti devono trovare e raggiungere a piedi con l’ausilio di ricevitori di direzione. Vince chi per primo raggiunge il punto di arrivo dopo aver trovato tutte le volpi.
+Un’altra tipologia di gara è il *Radio Orienteering (ARDF)*. Si tratta di gare di radiolocalizzazione dette anche *Fuchsjagd* (caccia alla volpe) nei paesi di lingua tedesca. Le «volpi» sono piccoli trasmettitori nascosti che i partecipanti devono trovare e raggiungere a piedi con l’ausilio di ricevitori di direzione. Vince chi per primo raggiunge il punto di arrivo dopo aver trovato tutte le volpi.
 
 Le volpi trasmettono a turno, ad esempio per un minuto ciascuna, un nominativo specifico in telegrafia Morse CW. Nella tabella [ref:ardf_morse_code] sono elencati tutti e sei i nominativi assegnati dalla Bundesnetzagentur specificamente per i trasmettitori delle volpi.
 

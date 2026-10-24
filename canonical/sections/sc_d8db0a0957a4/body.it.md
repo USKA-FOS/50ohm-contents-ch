@@ -20,7 +20,7 @@ In una prima fase, il sistema Maidenhead-Locator suddivide la superficie terrest
 
 ---
 
-Ogni campo viene ulteriormente suddiviso in 10 x 10 campi più piccoli, chiamati "squares" (quadrati). A ogni quadrato viene assegnato un numero a due cifre. La numerazione procede in modo simile a quella dei campi, da sinistra a destra e dal basso verso l'alto (Figura [ref:n_locator_jo]). La sede del DARC si trova all'interno del campo JO, nel quadrato 41.
+Ogni campo viene ulteriormente suddiviso in 10 x 10 campi più piccoli, chiamati «squares» (quadrati). A ogni quadrato viene assegnato un numero a due cifre. La numerazione procede in modo simile a quella dei campi, da sinistra a destra e dal basso verso l'alto (Figura [ref:n_locator_jo]). La sede del DARC si trova all'interno del campo JO, nel quadrato 41.
 
 <indepth>
 In realtà, i quadrati (squares) del sistema Maidenhead-Locator non sono quadrati perfetti, poiché la superficie terrestre è curva. Tuttavia, vengono così denominati.

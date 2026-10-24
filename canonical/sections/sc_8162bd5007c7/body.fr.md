@@ -4,7 +4,7 @@ Comme nous l'avons déjà appris, les batteries fournissent une tension électri
 Dans les talkies-walkies, on utilise généralement des accus, parfois aussi des batteries. Pour faire fonctionner des stations radio indépendamment du réseau électrique, par exemple lors d'un Fieldday, on utilise souvent des accus.
 
 
-L'inscription sur les batteries (illustration [ref:n_Bat_AA]) indique par exemple le pôle positif et le pôle négatif et signale l'importance de respecter la polarité. Pour les batteries, l'avertissement "Non rechargeable" doit toujours être respecté.
+L'inscription sur les batteries (illustration [ref:n_Bat_AA]) indique par exemple le pôle positif et le pôle négatif et signale l'importance de respecter la polarité. Pour les batteries, l'avertissement « Non rechargeable » doit toujours être respecté.
 
 
 L'illustration [ref:n_schaltzeichen_batt] montre le symbole de circuit d'une batterie ou d'un accus. Le trait long dans le symbole de circuit indique le pôle positif, le trait court le pôle négatif. Pour s'en souvenir, on peut retenir : un signe plus nécessite deux traits, un signe moins n'en nécessite qu'un seul.

@@ -18,7 +18,7 @@ Le texte intégral de la loi est disponible dans l’*ordonnance sur l'utilisati
 %YPA: Quel type souhaite-t-on ?
 %YPA: Problème ouvert pour les encadrés « Loi ».
 
-Par exemple, il est interdit d’envoyer des salutations aux proches d’un radioamateur si ces derniers ne sont pas eux-mêmes radioamateurs. En revanche, si le « destinataire des salutations » est également radioamateur, cela est autorisé.
+Par exemple, il est interdit d’envoyer des salutations aux proches d’un radioamateur si ces derniers ne sont pas eux-mêmes radioamateurs. En revanche, si le « destinataire des salutations » est également radioamateur, cela est autorisé.
 
 [question:VN014]
 [question:VN017]

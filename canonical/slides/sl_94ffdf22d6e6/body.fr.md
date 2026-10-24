@@ -21,7 +21,7 @@
 
 [question:AJ209]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ### Harmoniques et ondes supérieures
 
@@ -104,7 +104,7 @@ Les ondes supérieures et les harmoniques apparaissent toujours lorsqu'il y a de
 * Apparaît à proximité immédiate du signal d'émission  
 * Difficile à supprimer par filtrage  
 * Formation due à la surmodulation de l'amplificateur microphonique  
-* Élargit involontairement le signal d'émission (émission secondaire, produits secondaires, "splatter")  
+* Élargit involontairement le signal d'émission (émission secondaire, produits secondaires, « splatter »)  
 
 ---
 

@@ -2,7 +2,7 @@
 
 * La frequenza viene impostata sull'apparecchio radio tramite manopola o tasti
 * È possibile ascoltare solo le stazioni sulla frequenza impostata
-* Ruotare lentamente "sulla banda" per ascoltare altre stazioni
+* Ruotare lentamente «sulla banda» per ascoltare altre stazioni
 
 ---
 ## Spettro di ampiezza e diagramma a cascata

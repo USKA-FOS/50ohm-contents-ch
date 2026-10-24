@@ -52,7 +52,7 @@
 [question:AD407]
 ---
 [question:AD408]
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 <left>
 [picture:227:a_emitterschaltung_ohne_bias:Transistor bipolare in configurazione a emettitore comune senza preimpostazione del punto di funzionamento]
 </left>

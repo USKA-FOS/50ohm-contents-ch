@@ -10,7 +10,7 @@
 </right>
 <note>
 * I filtri non variabili possono essere costruiti in modo ottimale
-* Il termine "super" nel nome deriva dal latino "super"
+* Il termine «super» nel nome deriva dal latino «super»
 </note>
 
 ---

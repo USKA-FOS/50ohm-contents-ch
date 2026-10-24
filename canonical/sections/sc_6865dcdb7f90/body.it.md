@@ -1,4 +1,4 @@
-L’antenna è il componente che realizza la "magia" della radio: durante la trasmissione, converte le oscillazioni elettriche in onde radio che si propagano nello spazio. Viceversa, durante la ricezione, le onde radio provenienti da lontano raggiungono l’antenna, che le converte in oscillazioni elettriche e le trasmette tramite il cavo dell’antenna all’apparecchio radio.
+L’antenna è il componente che realizza la «magia» della radio: durante la trasmissione, converte le oscillazioni elettriche in onde radio che si propagano nello spazio. Viceversa, durante la ricezione, le onde radio provenienti da lontano raggiungono l’antenna, che le converte in oscillazioni elettriche e le trasmette tramite il cavo dell’antenna all’apparecchio radio.
 
 <margin>
 [photo:63:n_handfunk_antenne:Come può apparire nella pratica – ricetrasmettitore portatile VHF/UHF con antenna esterna]

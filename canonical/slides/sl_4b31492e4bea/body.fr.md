@@ -8,7 +8,7 @@
 *DL1FLO* devient *Delta Lima Un Foxtrot Lima Oscar*.
 </fragment>
 
---- style="font-size: 0.65em;"
+--- style=« font-size: 0.65em; »
 
 ### L’alphabet phonétique international
 

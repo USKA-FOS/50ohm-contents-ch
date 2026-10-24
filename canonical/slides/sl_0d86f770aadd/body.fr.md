@@ -1,4 +1,4 @@
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## Ionosphère et ondes courtes
 
@@ -21,7 +21,7 @@ Physiquement, il s'agit d'une réfraction. Pour une première approche, il suffi
 
 [question:NH101]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ### Propagation et cycle solaire
 
@@ -43,7 +43,7 @@ Le cycle solaire n'est qu'un des nombreux facteurs influents. Il ne permet pas d
 
 [question:NH201]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ### Quand et où écouter ?
 

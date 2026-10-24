@@ -12,7 +12,7 @@ La potenza di trasmissione generata dal trasmettitore deve essere irradiata dall
 * Possibili diverse esecuzioni
 </right>
 <note>
-Termine colloquiale: "Koaxkabel"
+Termine colloquiale: «Koaxkabel»
 </note>
 
 ---

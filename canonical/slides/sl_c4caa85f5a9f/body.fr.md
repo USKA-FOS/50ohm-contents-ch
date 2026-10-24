@@ -1,4 +1,4 @@
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## Filtres dans la conversion A/N et N/A
 
@@ -33,7 +33,7 @@ Si la fréquence d'échantillonnage est trop faible pour l'une de ces composante
 Nous avons déjà rencontré cet effet lors du théorème d'échantillonnage.
 </note>
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## Filtre anti-repliement
 
@@ -105,7 +105,7 @@ Le convertisseur N/A émet les différentes valeurs numériques sous forme de va
 En particulier, les arêtes vives et les transitions contiennent des composantes fréquentielles supplémentaires de haute fréquence.
 </note>
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## Filtre de reconstruction
 

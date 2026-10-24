@@ -1,7 +1,7 @@
 ## Trasformazione dell’impedenza nella linea di alimentazione
 
 * Se l’impedenza caratteristica non corrisponde alla resistenza di carico, oltre alle onde stazionarie si verifica anche una trasformazione dell’impedenza
-* La sorgente del segnale "vede" resistenze diverse alle estremità del cavo
+* La sorgente del segnale «vede» resistenze diverse alle estremità del cavo
 * Le linee di $\lambda/4$ trasformano le resistenze piccole in grandi e quelle grandi in piccole
 * Le linee di $\lambda/2$ non provocano alcuna trasformazione dell’impedenza
 
@@ -72,7 +72,7 @@ $\begin{split}Z &= \sqrt{Z_E \cdot Z_A}\\ &= \sqrt{\qty{600}{\ohm} \cdot \qty{24
 </right>
 
 <note>
-Il nome "filtro Pi" deriva dall’aspetto dei componenti, che ricorda la lettera greca $\pi$, e non ha nulla a che fare con la costante Pi.
+Il nome «filtro Pi» deriva dall’aspetto dei componenti, che ricorda la lettera greca $\pi$, e non ha nulla a che fare con la costante Pi.
 </note>
 
 ---

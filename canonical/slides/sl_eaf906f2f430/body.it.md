@@ -7,7 +7,7 @@
 
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ## PSK nella rappresentazione temporale
 
@@ -23,7 +23,7 @@
 
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ## Modulazione a spostamento di fase binaria (BPSK)
 
@@ -88,7 +88,7 @@ La scelta di 0 gradi e 180 gradi non è obbligatoria. Ad esempio, sarebbero poss
 
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ## QPSK nel diagramma di costellazione
 
@@ -118,7 +118,7 @@ La mappatura utilizzata qui corrisponde anche alla rappresentazione nel testo di
 
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ## Codice di Gray nella QPSK
 
@@ -148,7 +148,7 @@ Ad esempio, nel passaggio da 11 a 01 cambia solo il primo bit. Lo stesso vale pe
 
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 <left>
 [include:applet_qpsk]
@@ -171,7 +171,7 @@ Le aree colorate sono le aree di decisione del ricevitore. Il ricevitore assegna
 
 Finché un punto disturbato si trova nell'area di decisione del simbolo originariamente trasmesso, il simbolo viene riconosciuto correttamente. Se il punto supera una soglia di decisione a causa di un rumore elevato, viene invece riconosciuto un altro simbolo.
 
-Con "Trasmetti di nuovo", la stessa sequenza di bit viene trasmessa nuovamente con nuovo rumore. In questo modo è possibile osservare chiaramente che, nonostante i simboli trasmessi siano gli stessi, ogni volta si ottengono valori ricevuti diversi.
+Con «Trasmetti di nuovo», la stessa sequenza di bit viene trasmessa nuovamente con nuovo rumore. In questo modo è possibile osservare chiaramente che, nonostante i simboli trasmessi siano gli stessi, ogni volta si ottengono valori ricevuti diversi.
 
 Con l'aumentare del rumore, aumenta la probabilità di errori di simbolo e quindi di bit. Attraverso una codifica di canale appropriata, molti di questi errori possono essere rilevati e corretti.
 </note>

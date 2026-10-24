@@ -34,15 +34,15 @@ BK QSL = VY 73 DE HB3AB SK
 | CQ | Chiamata generale |
 | DE | da |
 | K | Invito a trasmettere |
-| PSE | Per favore (dall’inglese "Please") |
+| PSE | Per favore (dall’inglese «Please») |
 | QSL | Confermo la ricezione |
 | R | Ricevuto (conferma di ricezione) |
-| RPRT | Rapporto (dall’inglese "Report") |
+| RPRT | Rapporto (dall’inglese «Report») |
 | RST | Rapporto RST |
-| SK | Fine del collegamento (dall’inglese "Silent Key") |
-| TNX | Grazie (dall’inglese "Thanks") |
-| UR | tu sei (nel senso di "il tuo segnale è", dall’inglese "you are") |
-| VY | molto (dall’inglese "very") |
+| SK | Fine del collegamento (dall’inglese «Silent Key») |
+| TNX | Grazie (dall’inglese «Thanks») |
+| UR | tu sei (nel senso di «il tuo segnale è», dall’inglese «you are») |
+| VY | molto (dall’inglese «very») |
 | 73 | tanti saluti |
 | = | Separatore |
 [table:n_funkfernschreiben_abkuerzungen:Abbreviazioni operative nella telegrafia]

@@ -10,7 +10,7 @@ Le correnti nel cavo coassiale devono quindi essere simmetriche (stesso valore a
 
 ---
 
-Se si collega tuttavia un'antenna simmetrica, ad esempio un dipolo a semionda, a un cavo coassiale, può comunque verificarsi che il cavo coassiale, nonostante la schermatura, irradia! Questo accade perché sulla superficie esterna del conduttore metallico esterno possono scorrere correnti ad alta frequenza, accompagnate da un campo elettromagnetico intorno all'isolante esterno (cfr. figura [ref:e_mantelwellen]). Questo effetto viene definito *correnti sulla calza*, che possono disturbare altri apparecchi nell'edificio sia in trasmissione che in ricezione, poiché il cavo coassiale diventa in parte parte dell'antenna e può quindi captare più facilmente influenze disturbanti all'interno dell'edificio. Le correnti aggiuntive sulla calza "mancano" poi su uno dei due bracci del dipolo, causando inoltre una deformazione del diagramma di radiazione.
+Se si collega tuttavia un'antenna simmetrica, ad esempio un dipolo a semionda, a un cavo coassiale, può comunque verificarsi che il cavo coassiale, nonostante la schermatura, irradia! Questo accade perché sulla superficie esterna del conduttore metallico esterno possono scorrere correnti ad alta frequenza, accompagnate da un campo elettromagnetico intorno all'isolante esterno (cfr. figura [ref:e_mantelwellen]). Questo effetto viene definito *correnti sulla calza*, che possono disturbare altri apparecchi nell'edificio sia in trasmissione che in ricezione, poiché il cavo coassiale diventa in parte parte dell'antenna e può quindi captare più facilmente influenze disturbanti all'interno dell'edificio. Le correnti aggiuntive sulla calza «mancano» poi su uno dei due bracci del dipolo, causando inoltre una deformazione del diagramma di radiazione.
 
 [question:EG405]
 [question:EG406]
@@ -36,7 +36,7 @@ La corrente sulla superficie esterna del conduttore interno e quella sulla super
 Le correnti sulla calza possono essere evitate, ad esempio, utilizzando un cosiddetto *elemento di simmetrizzazione*, un balun, per collegare il cavo coassiale all'antenna.
 
 <indepth>
-Il termine *balun* è composto dalle parole inglesi "balanced" e "unbalanced", poiché si vuole collegare un lato simmetrico (ad esempio un'antenna simmetrica) a un lato asimmetrico (il cavo coassiale, in cui idealmente solo il conduttore interno presenta tensione rispetto a terra).
+Il termine *balun* è composto dalle parole inglesi «balanced» e «unbalanced», poiché si vuole collegare un lato simmetrico (ad esempio un'antenna simmetrica) a un lato asimmetrico (il cavo coassiale, in cui idealmente solo il conduttore interno presenta tensione rispetto a terra).
 </indepth>
 
 [question:EG407]

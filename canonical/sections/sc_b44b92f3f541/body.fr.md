@@ -24,7 +24,7 @@ Pour le *filtre passe-bande*, les deux ondes barrées indiquent que les fréquen
 </indepth>
 
 <indepth>
-Le *démodulateur* est représenté par le symbole de circuit de la diode, qui est le composant principal de nombreux démodulateurs. Le fonctionnement d'une diode sera expliqué plus en détail dans le chapitre « Composants et circuits ».
+Le *démodulateur* est représenté par le symbole de circuit de la diode, qui est le composant principal de nombreux démodulateurs. Le fonctionnement d'une diode sera expliqué plus en détail dans le chapitre « Composants et circuits ».
 </indepth>
 
 [question:NF201]

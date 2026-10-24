@@ -51,7 +51,7 @@ Similmente al voltmetro, si comporta anche l'amperometro. Un amperometro reale c
 [question:AI104]
 
 <tip>
-In questa domanda, il suggerimento "Risoluzione minima $\qty{100}{\micro\volt}$" non è importante. Può essere risolta utilizzando solo la legge di Ohm.
+In questa domanda, il suggerimento «Risoluzione minima $\qty{100}{\micro\volt}$» non è importante. Può essere risolta utilizzando solo la legge di Ohm.
 </tip>
 
 ---

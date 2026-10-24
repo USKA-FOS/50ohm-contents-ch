@@ -1,0 +1,73 @@
+{
+  "created_at": "2026-10-24T14:30:48.689211+00:00",
+  "metadata_application": "languages-inventory-sync.applied.json",
+  "metadata_objects_changed": 16,
+  "only_languages_changed": true,
+  "manual_review_csv_preserved": true,
+  "manual_review_candidate_count": 35,
+  "tests": {
+    "contents": {
+      "passed": 39
+    },
+    "translation": {
+      "passed": 99,
+      "subtests_passed": 4
+    }
+  },
+  "canonical_model": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "question_quote_audit": {
+    "checked_field_pairs": 16578,
+    "quote_findings": 0,
+    "report": "orchestrator tmp/language-and-quote-guard-20261024/question-quote-audit.json"
+  },
+  "content_format_audit": {
+    "manifest": "work/source-format/quote-guard-v2-20261024-002/manifest.json",
+    "summary": {
+      "pairs": 2300,
+      "findings": 96,
+      "errors": 71,
+      "review_signals": 25
+    },
+    "categories": [
+      {
+        "category": "quotation_typography",
+        "severity": "error",
+        "count": 16
+      },
+      {
+        "category": "format_inventory_changed",
+        "severity": "review",
+        "count": 25
+      },
+      {
+        "category": "missing_quotation_marks",
+        "severity": "error",
+        "count": 44
+      },
+      {
+        "category": "added_formatting",
+        "severity": "error",
+        "count": 5
+      },
+      {
+        "category": "unbalanced_quotation_marks",
+        "severity": "error",
+        "count": 4
+      },
+      {
+        "category": "added_quotation_marks",
+        "severity": "error",
+        "count": 2
+      }
+    ],
+    "note": "These are findings on historical/current content, not failing regression tests. No pending review cases or HTML quotations were modified by this metadata/tool operation."
+  },
+  "tool_sha256": {
+    "50ohm-ai-translation-tool/question_pipeline/source_format_contract.py": "daa63bfd09826338c0c0b046cccd489db828cbc63244b8dab7a317beef38e085",
+    "50ohm-contents-ch/tools/canonical_language_metadata.py": "eacd5eae3da0c71f80be44ae34474370fa99cbdc95d386c3109a76aa94ab0d6f"
+  },
+  "git_actions": "No commit, tag or push requested/performed."
+}

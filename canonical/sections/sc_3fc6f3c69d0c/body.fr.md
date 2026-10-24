@@ -19,9 +19,9 @@ On mesure toujours une tension entre deux points. Si l’on souhaite mesurer la 
 <webtip>
 On utilise généralement un multimètre pour les mesures. Il s’agit d’un appareil combiné permettant de mesurer les tensions, les courants et d’autres grandeurs comme par exemple les résistances. Avant de mesurer dans un circuit, il faut savoir quelle grandeur on souhaite observer afin de régler correctement le multimètre.
 
-Avant de commencer les mesures, il faut brancher les deux câbles de mesure à l’appareil. Bien que cela semble simple, il faut faire attention. La plupart des multimètres disposent de trois ou même quatre bornes pour les câbles de mesure. La borne commune, dans laquelle il faut obligatoirement brancher un câble de mesure, est généralement marquée par "COM" (anglais pour "commun"). C’est ici que l’on branche généralement le câble noir. Le câble rouge se branche dans la borne marquée par "V" pour la mesure de tension.
+Avant de commencer les mesures, il faut brancher les deux câbles de mesure à l’appareil. Bien que cela semble simple, il faut faire attention. La plupart des multimètres disposent de trois ou même quatre bornes pour les câbles de mesure. La borne commune, dans laquelle il faut obligatoirement brancher un câble de mesure, est généralement marquée par « COM » (anglais pour « commun »). C’est ici que l’on branche généralement le câble noir. Le câble rouge se branche dans la borne marquée par « V » pour la mesure de tension.
 
-Pour mesurer des tensions, il faut sélectionner la fonction de mesure de tension sur l’appareil. Si l’on souhaite mesurer une tension alternative, il faut généralement choisir "V ~" sur de nombreux multimètres, et pour une tension continue, "V =".
+Pour mesurer des tensions, il faut sélectionner la fonction de mesure de tension sur l’appareil. Si l’on souhaite mesurer une tension alternative, il faut généralement choisir « V ~ » sur de nombreux multimètres, et pour une tension continue, « V = ».
 
 La plupart des multimètres disposent de différentes plages de mesure pour les petites et grandes tensions. Comme on ignore généralement l’ordre de grandeur de la tension à mesurer, il est conseillé de commencer par la plage de mesure la plus élevée afin d’éviter d’endommager l’appareil. Selon la valeur mesurée, on peut ensuite passer à une plage de mesure plus petite.
 

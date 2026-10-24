@@ -16,6 +16,6 @@ Dans le cas de la modulation par déplacement de fréquence (Frequency Shift Key
 [picture:703:e_fsk:Modulation par déplacement de fréquence (Frequency-shift Keying)]
 </margin>
 
-Les amplitudes et fréquences fixes entre lesquelles on bascule sont appelées "symboles".
+Les amplitudes et fréquences fixes entre lesquelles on bascule sont appelées « symboles ».
 
 [question:EE407]

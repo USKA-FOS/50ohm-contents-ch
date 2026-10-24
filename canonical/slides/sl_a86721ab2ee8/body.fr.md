@@ -8,7 +8,7 @@
 Rappel des deux propriétés fondamentales d’une oscillation : amplitude et fréquence. Selon le type de modulation, l’une de ces propriétés est modifiée ou la porteuse est allumée et éteinte.
 </note>
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ### Affichages sur le récepteur
 

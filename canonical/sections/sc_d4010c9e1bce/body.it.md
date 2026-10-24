@@ -2,7 +2,7 @@ Nella sezione [sec:reihe_parallel_kondensator] abbiamo già imparato come si com
 
 Nei circuiti risonanti paralleli, bobine e condensatori vengono combinati tra loro. Anche una bobina reale possiede una certa capacità parassita. Questa si forma, ad esempio, attraverso gli avvolgimenti della bobina e gli accoppiamenti di campo elettrico tra le spire che ne derivano.
 
-Per un calcolo il più possibile accurato della frequenza di risonanza, queste capacità "invisibili" devono essere prese in considerazione. Nel seguente esercizio, le capacità dei condensatori e la capacità parassita della bobina possono essere sommate direttamente, poiché sono collegate in parallelo tra loro.
+Per un calcolo il più possibile accurato della frequenza di risonanza, queste capacità «invisibili» devono essere prese in considerazione. Nel seguente esercizio, le capacità dei condensatori e la capacità parassita della bobina possono essere sommate direttamente, poiché sono collegate in parallelo tra loro.
 
 Particolarmente importante è prestare attenzione alle diverse unità. Prima del calcolo, tutti i valori dovrebbero quindi essere convertiti nella stessa unità, in modo che le capacità possano essere sommate correttamente.
 

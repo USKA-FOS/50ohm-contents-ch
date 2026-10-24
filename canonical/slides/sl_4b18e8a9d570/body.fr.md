@@ -38,7 +38,7 @@ Le plan d’attribution des indicatifs est une aide importante pour reconnaître
 
 [question:VD202]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ### Domaines d’indicatifs allemands fréquents
 

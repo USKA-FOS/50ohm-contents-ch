@@ -5,7 +5,7 @@
 
 ---
 
-* Nel settore Wi-Fi esistono connettori "Reverse-SMA"
+* Nel settore Wi-Fi esistono connettori «Reverse-SMA»
 * La denominazione differisce
   * Il connettore Reverse-SMA è una presa
   * Il giunto Reverse-SMA è un connettore

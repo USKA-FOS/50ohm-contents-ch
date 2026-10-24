@@ -6,7 +6,7 @@ Tu devrais te souvenir des choses suivantes :
 * Des particules chargées du Soleil pénètrent dans l'atmosphère.
 * Pour nous en Europe, la région polaire est au nord.
 * Le CW est le mieux adapté pour l'aurore.
-* Le signal est "flottant" et "affecté par un ronflement".
+* Le signal est « flottant » et « affecté par un ronflement ».
 
 [question:AH302]
 [question:AH303]

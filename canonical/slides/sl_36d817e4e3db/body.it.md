@@ -18,7 +18,7 @@ Le curve caratteristiche di controllo possono essere lineari o non lineari
 
 ---
 [question:AF212]
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ## Mixer ad anello
 
 <left>
@@ -35,7 +35,7 @@ Le curve caratteristiche di controllo possono essere lineari o non lineari
 Non confondere con il circuito a ponte!
 </note>
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 [include:applet_ringmodulator]
 
 ---

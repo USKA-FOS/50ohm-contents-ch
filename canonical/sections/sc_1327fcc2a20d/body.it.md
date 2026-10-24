@@ -19,11 +19,11 @@ Terminologia:
 
 * La *potenza irradiata* è la potenza che un’antenna può emettere. In questo caso, viene considerato il guadagno dell’antenna.
 
-* La *potenza di uscita del trasmettitore* è la potenza misurata all’uscita dell’apparecchio radio, prima che il segnale passi attraverso dispositivi aggiuntivi come un rosmetro esterno o adattatori. Viene indicata come *peak envelope power* (PEP). Ne parleremo in modo più approfondito in un capitolo successivo, quando tratteremo la potenza irradiata delle antenne in relazione al [sec:personenschutzabstand]. Molti apparecchi radio dispongono di un *power meter* che visualizza la potenza di uscita del trasmettitore corrente. È contrassegnato, ad esempio, con "P", "PO" o "PWR".
+* La *potenza di uscita del trasmettitore* è la potenza misurata all’uscita dell’apparecchio radio, prima che il segnale passi attraverso dispositivi aggiuntivi come un rosmetro esterno o adattatori. Viene indicata come *peak envelope power* (PEP). Ne parleremo in modo più approfondito in un capitolo successivo, quando tratteremo la potenza irradiata delle antenne in relazione al [sec:personenschutzabstand]. Molti apparecchi radio dispongono di un *power meter* che visualizza la potenza di uscita del trasmettitore corrente. È contrassegnato, ad esempio, con «P», «PO» o «PWR».
 </indepth>
 
 <indepth>
-Per determinare la peak envelope power (PEP), in modo semplificato si misura all’uscita del trasmettitore la potenza media di ogni singolo periodo dell’oscillazione ad alta frequenza e si utilizza il valore più alto rilevato. In termini tecnici, si parla di "potenza efficace all’uscita di un stadio finale di trasmissione durante un periodo dell’oscillazione ad alta frequenza al picco più alto dell’inviluppo della modulazione". Il termine tedesco poco utilizzato per PEP è Hüllkurvenspitzenleistung (potenza di picco dell’inviluppo).
+Per determinare la peak envelope power (PEP), in modo semplificato si misura all’uscita del trasmettitore la potenza media di ogni singolo periodo dell’oscillazione ad alta frequenza e si utilizza il valore più alto rilevato. In termini tecnici, si parla di «potenza efficace all’uscita di un stadio finale di trasmissione durante un periodo dell’oscillazione ad alta frequenza al picco più alto dell’inviluppo della modulazione». Il termine tedesco poco utilizzato per PEP è Hüllkurvenspitzenleistung (potenza di picco dell’inviluppo).
 </indepth>
 
 [question:NF102]

@@ -23,7 +23,7 @@
 * Les antennes raccourcies ont un rendement inférieur, par exemple un gain d'antenne de $\qty{-20}{\dBd}$
 * Rapport de puissance : $\qty{-20}{\dB}$ correspond à un facteur de $\num{0,01}$ ; exemple : $\qty{50}{\watt} \cdot 0,01 = \qty{0,5}{\watt}$ d'ERP
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 ### Rapports de puissance dans le recueil de formules
 

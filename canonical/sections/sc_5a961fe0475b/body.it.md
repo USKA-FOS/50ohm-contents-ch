@@ -1,12 +1,12 @@
 Una tecnica particolare, spesso utilizzata da stazioni molto richieste, è il traffico in split. In questo caso, la stazione molto richiesta riceve su una frequenza diversa da quella su cui trasmette. La stazione che effettua la chiamata CQ annuncia il traffico in split indicando la frequenza o la banda di frequenza su cui riceve. Le indicazioni vengono sempre fornite in $\unit{\kilo\hertz}$.
 
 <indepth>
-Un *vantaggio del traffico in split* è che la stazione particolare rimane chiaramente udibile e non "scompare" nel pile-up.
+Un *vantaggio del traffico in split* è che la stazione particolare rimane chiaramente udibile e non «scompare» nel pile-up.
 </indepth>
 
 ---
 
-L'indicazione della frequenza di ricezione può essere fornita come distanza rispetto alla frequenza di trasmissione. Ad esempio, la dicitura "split 5 up" significa che la stazione chiamante ascolta 5 kHz sopra la propria frequenza di trasmissione. Se la stazione, come mostrato nell'immagine [ref:n_split_verkehr_anruffrequenz], trasmette su $\qty{28410}{\kilo\hertz}$, allora si dovrebbe rispondere su $\qty{28415}{\kilo\hertz}$.
+L'indicazione della frequenza di ricezione può essere fornita come distanza rispetto alla frequenza di trasmissione. Ad esempio, la dicitura «split 5 up» significa che la stazione chiamante ascolta 5 kHz sopra la propria frequenza di trasmissione. Se la stazione, come mostrato nell'immagine [ref:n_split_verkehr_anruffrequenz], trasmette su $\qty{28410}{\kilo\hertz}$, allora si dovrebbe rispondere su $\qty{28415}{\kilo\hertz}$.
 
 <margin>
 [picture:672:n_split_verkehr_anruffrequenz:Traffico in split, frequenza di trasmissione della stazione richiesta e frequenza di risposta su cui riceve]
@@ -17,7 +17,7 @@ L'indicazione della frequenza di ricezione può essere fornita come distanza ris
 
 ---
 
-Spesso, tuttavia, una stazione molto richiesta non indica una singola frequenza, ma un'intera banda di frequenza. Una stazione che chiama su $\qty{28410}{\kilo\hertz}$ con la frase "split up 28420 to 28430" o più brevemente "tuning 420 to 430 up" intende dire che riceve su frequenze variabili all'interno della banda compresa tra $\qty{28420}{\kilo\hertz}$ e $\qty{28430}{\kilo\hertz}$ (immagine [ref:n_split_verkehr_anrufbereich]).
+Spesso, tuttavia, una stazione molto richiesta non indica una singola frequenza, ma un'intera banda di frequenza. Una stazione che chiama su $\qty{28410}{\kilo\hertz}$ con la frase «split up 28420 to 28430» o più brevemente «tuning 420 to 430 up» intende dire che riceve su frequenze variabili all'interno della banda compresa tra $\qty{28420}{\kilo\hertz}$ e $\qty{28430}{\kilo\hertz}$ (immagine [ref:n_split_verkehr_anrufbereich]).
 
 
 <margin>

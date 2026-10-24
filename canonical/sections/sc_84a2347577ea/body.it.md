@@ -1,13 +1,13 @@
-In molti ambiti della tecnica delle alte frequenze, i rapporti di potenza giocano un ruolo importante, ad esempio nel guadagno di un'antenna o di un amplificatore, oppure nell'attenuazione di un cavo. Finora abbiamo conosciuto questi rapporti sotto forma di semplici fattori, ad esempio: "L'antenna ha un guadagno di fattore $2$".
+In molti ambiti della tecnica delle alte frequenze, i rapporti di potenza giocano un ruolo importante, ad esempio nel guadagno di un'antenna o di un amplificatore, oppure nell'attenuazione di un cavo. Finora abbiamo conosciuto questi rapporti sotto forma di semplici fattori, ad esempio: «L'antenna ha un guadagno di fattore $2$».
 
 Questi rapporti possono assumere valori numerici molto grandi o molto piccoli. Ad esempio, un ricevitore per onde corte possiede un fattore di amplificazione totale di $\num{1000000000000}$, cioè un uno seguito da dodici zeri. Lavorare con numeri del genere diventa rapidamente complicato e si finisce inevitabilmente per contare gli zeri.
 
-In realtà, esiste però uno strumento matematico che semplifica questo "contare gli zeri": i logaritmi. Essi permettono di trasformare le moltiplicazioni in addizioni e le divisioni in sottrazioni, rendendo molto più semplice il calcolo con numeri grandi.
+In realtà, esiste però uno strumento matematico che semplifica questo «contare gli zeri»: i logaritmi. Essi permettono di trasformare le moltiplicazioni in addizioni e le divisioni in sottrazioni, rendendo molto più semplice il calcolo con numeri grandi.
 
 ---
 
 Per questo motivo, è consuetudine esprimere i rapporti di potenza su una scala logaritmica.
-Il logaritmo è l'operazione inversa dell'elevamento a potenza. Nel radioamatoriale si utilizza di norma il logaritmo decimale ("logaritmo in base 10"):
+Il logaritmo è l'operazione inversa dell'elevamento a potenza. Nel radioamatoriale si utilizza di norma il logaritmo decimale («logaritmo in base 10»):
 
 ---
 
@@ -53,7 +53,7 @@ $g = 10\cdot \log_{10}\left(\frac{\qty{100}{\watt}}{\qty{50}{\watt}}\right)\unit
 Per HB3 è sufficiente conoscere inizialmente il valore in decibel per il fattore di potenza $2$. La raccolta di formule contiene una tabella che è anche rappresentata nella Tabella [ref:e_dezibel_leistungsfaktoren]. Da essa si può dedurre che un fattore di potenza di $2$ corrisponde a un valore di $\qty{3}{\dB}$. Il calcolo dettagliato con i valori in decibel viene affrontato solo nella classe A.
 
 <tip>
-Senza calcolatrice, è possibile stimare i valori in decibel che terminano con "$0$": basta coprire l'ultimo zero, la cifra risultante indica il numero di zeri del fattore di rapporto. Esempio: $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{zeri} \rightarrow \text{fattore di rapporto}~1000$!
+Senza calcolatrice, è possibile stimare i valori in decibel che terminano con «$0$»: basta coprire l'ultimo zero, la cifra risultante indica il numero di zeri del fattore di rapporto. Esempio: $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{zeri} \rightarrow \text{fattore di rapporto}~1000$!
 </tip>
 
 <indepth>

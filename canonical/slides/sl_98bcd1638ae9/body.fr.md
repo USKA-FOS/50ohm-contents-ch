@@ -18,7 +18,7 @@
 ---
 ## CEM environnementale
 
-L'exploitant de l'installation radioamateur fixe est responsable de la garantie de la "compatibilité électromagnétique dans l'environnement" (CEM environnementale).
+L'exploitant de l'installation radioamateur fixe est responsable de la garantie de la « compatibilité électromagnétique dans l'environnement » (CEM environnementale).
 
 <note>
 * Les valeurs limites doivent être respectées
@@ -37,16 +37,16 @@ L'exploitant de l'installation radioamateur fixe est responsable de la garantie 
 
 Les valeurs limites se trouvent dans
 
-* le "26e règlement d'application de la loi fédérale sur la protection contre les immissions" (26. BImSchV)
+* le « 26e règlement d'application de la loi fédérale sur la protection contre les immissions » (26. BImSchV)
 
 et dans
 
-* le "règlement sur la procédure de vérification pour la limitation des champs électromagnétiques" (BEMFV)
+* le « règlement sur la procédure de vérification pour la limitation des champs électromagnétiques » (BEMFV)
 
 ---
 [question:VE505]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ## Procédure de vérification selon la BEMFV
 
 * La BEMFV décrit la procédure de vérification pour la limitation des champs électromagnétiques

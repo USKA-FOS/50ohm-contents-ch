@@ -38,7 +38,7 @@ Bisogna sapere che ci sono stati che non fanno parte di questa conferenza, ma ch
 Quando si opera all'estero, ciò deve essere indicato con un prefisso aggiuntivo del nominativo. Supponiamo, ad esempio, che i radioamatori con i nominativi HB3YPA e HB9EVT viaggino in Germania e vogliano operare lì. A seconda della classe, in Svizzera deve essere utilizzato un prefisso diverso, DO per gli HB3 e DL per gli HB9. In Germania, i due radioamatori devono quindi utilizzare i nominativi DO/HB3YPA e DL/HB9EVT rispettivamente. In altri paesi esistono regolamentazioni simili. Quale prefisso deve essere utilizzato varia da paese a paese.
 
 <attention>
-La separazione tra il prefisso estero e il proprio nominativo deve avvenire con la parola "stroke"!
+La separazione tra il prefisso estero e il proprio nominativo deve avvenire con la parola «stroke»!
 </attention>
 
 [question:BD213]
@@ -68,7 +68,7 @@ Come in Svizzera, nei singoli paesi CEPT esistono diverse regolamentazioni nazio
 Se si attraversa un paese durante un viaggio in cui la licenza radioamatoriale non è riconosciuta, è opportuno informarsi prima se è consentito trasportare apparecchi radio e, se necessario, ottenere un'autorizzazione corrispondente. Il [dipartimento estero del DARC](https://50ohm.de/ra) può aiutare i membri a chiarire queste questioni.
 </tip>
 
-Se si trasferisce la residenza all'estero per più di 3 mesi o permanentemente, è possibile richiedere una licenza radioamatoriale semplificata sulla base della certificazione d'esame CEPT-Novice-Amateurfunk o della Harmonized Amateur Radio Examination Certificate (HAREC), senza dover sostenere nuovamente un esame. La "licenza per principianti per radioamatori e radioamatrici" svizzera (HB3) è allo stesso tempo una certificazione d'esame CEPT-Novice-Amateurfunk e il "certificato di capacità di radioamatore" svizzero è allo stesso tempo una certificazione HAREC.
+Se si trasferisce la residenza all'estero per più di 3 mesi o permanentemente, è possibile richiedere una licenza radioamatoriale semplificata sulla base della certificazione d'esame CEPT-Novice-Amateurfunk o della Harmonized Amateur Radio Examination Certificate (HAREC), senza dover sostenere nuovamente un esame. La «licenza per principianti per radioamatori e radioamatrici» svizzera (HB3) è allo stesso tempo una certificazione d'esame CEPT-Novice-Amateurfunk e il «certificato di capacità di radioamatore» svizzero è allo stesso tempo una certificazione HAREC.
 
 [question:VB102]
 [question:VB103]

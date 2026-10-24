@@ -1,5 +1,5 @@
 * Molti ricetrasmettitori hanno un interruttore per selezionare il tipo di modulazione
-* Spesso è etichettato con "Mode" e permette di scegliere tra CW, AM, FM e BL
+* Spesso è etichettato con «Mode» e permette di scegliere tra CW, AM, FM e BL
 
 ---
 [question:NE102]

@@ -18,7 +18,7 @@ $\qty{1500000}{\hertz} \rArr \qty{1,5}{\mega\hertz} \rArr \qty{1,5e6}{\hertz}$
 </fragment>
   
 <note>
-* Si legge: "10 alla 3" o "3ª potenza di 10"
+* Si legge: «10 alla 3» o «3ª potenza di 10»
 </note>
 
 ---
@@ -30,7 +30,7 @@ $\qty{1500000}{\hertz} \rArr \qty{1,5}{\mega\hertz} \rArr \qty{1,5e6}{\hertz}$
 $\qty{0,0035}{\volt} \rArr \qty{3,5}{\milli\volt} \rArr \qty{3,5e-3}{\volt}$
 </fragment>
 
---- style="font-size: 0.5em;"
+--- style=«font-size: 0.5em;»
 ### Prefissi delle unità di misura e potenze di dieci
 
 | c: Denominazione | c: Abbreviazione | l: Valore |

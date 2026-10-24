@@ -28,7 +28,7 @@ Un signal d’émission idéal, qui n’émet que sur une fréquence souhaitée,
 
 
 <indepth>
-Les formes d’onde qui ne sont pas sinusoïdales et qui présentent notamment des "angles vifs" sont composées de nombreuses sinusoïdes de fréquences différentes et contiennent donc de nombreuses composantes harmoniques. En particulier lorsque les émetteurs sont surmodulés, des signaux auparavant sinusoïdaux sont souvent déformés ou leur amplitude est tronquée. Cela génère également des composantes harmoniques importantes. Toute déviation par rapport à une forme sinusoïdale idéale doit donc être évitée pour des signaux d’émission idéaux. Ce sujet sera examiné plus en détail dans la classe A. Cependant, cette problématique peut déjà être testée avec cette applet.
+Les formes d’onde qui ne sont pas sinusoïdales et qui présentent notamment des « angles vifs » sont composées de nombreuses sinusoïdes de fréquences différentes et contiennent donc de nombreuses composantes harmoniques. En particulier lorsque les émetteurs sont surmodulés, des signaux auparavant sinusoïdaux sont souvent déformés ou leur amplitude est tronquée. Cela génère également des composantes harmoniques importantes. Toute déviation par rapport à une forme sinusoïdale idéale doit donc être évitée pour des signaux d’émission idéaux. Ce sujet sera examiné plus en détail dans la classe A. Cependant, cette problématique peut déjà être testée avec cette applet.
 [include:fourier]
 
 </indepth>
@@ -74,7 +74,7 @@ Comme mentionné précédemment, les signaux sinusoïdaux sont essentiels pour �
 [question:EF404]
 
 
-Les émissions indésirables peuvent également apparaître à proximité immédiate du signal d’émission proprement dit (cf. figure [ref:e_unerwuenschte_aussendungen_uebersicht]) et concernent ainsi souvent d’autres radioamateurs sur la même bande. Ces interférences sont difficiles, voire impossibles à supprimer avec des filtres et doivent donc être évitées dès la préparation du signal par des mesures appropriées. Ces *émissions secondaires* – aussi appelées produits secondaires et désignées familièrement par le terme "splatter" – sont souvent causées par un réglage trop élevé de l’amplificateur microphonique de l’émetteur, ce qui élargit involontairement le signal d’émission.
+Les émissions indésirables peuvent également apparaître à proximité immédiate du signal d’émission proprement dit (cf. figure [ref:e_unerwuenschte_aussendungen_uebersicht]) et concernent ainsi souvent d’autres radioamateurs sur la même bande. Ces interférences sont difficiles, voire impossibles à supprimer avec des filtres et doivent donc être évitées dès la préparation du signal par des mesures appropriées. Ces *émissions secondaires* – aussi appelées produits secondaires et désignées familièrement par le terme « splatter » – sont souvent causées par un réglage trop élevé de l’amplificateur microphonique de l’émetteur, ce qui élargit involontairement le signal d’émission.
 
 [question:EJ213]
 [question:EJ214]

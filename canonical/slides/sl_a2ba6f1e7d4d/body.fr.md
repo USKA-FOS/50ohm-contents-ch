@@ -18,7 +18,7 @@
 ---
 [question:VD742]
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 <left>
 * Il faut particulièrement faire attention lors des émissions à proximité des limites des bandes radioamateur

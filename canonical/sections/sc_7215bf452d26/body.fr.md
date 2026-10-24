@@ -17,7 +17,7 @@ Pour calculer les distances à respecter, il existe dans l’espace membre de l�
 En outre, *aucune valeur limite d’installation* ne doit être respectée tant que la durée d’exploitation est *inférieure à 800 heures par an*. Cela est pratiquement toujours le cas pour les applications radioamateur. Si une installation émet exceptionnellement plus longtemps, elle doit respecter une valeur limite d’installation dans les lieux à occupation sensible (LOS). Cette valeur est de 8.5 V/m pour les émetteurs en ondes longues et moyennes, et de 3.0 V/m pour toutes les autres bandes de fréquences.
 [Source](https://www.bafu.admin.ch/fr/radioamateurisme-comme-source-de-smog-electromagnetique)
 
-Les « lieux à occupation sensible » (LOS) désignent les endroits où des personnes séjournent régulièrement pendant de longues périodes.
+Les « lieux à occupation sensible » (LOS) désignent les endroits où des personnes séjournent régulièrement pendant de longues périodes.
 </law>
 
 ---
@@ -30,12 +30,12 @@ La force avec laquelle une antenne émet dans sa direction principale de rayonne
 
 <indepth>
 % TODO : À adapter selon l’édition
-Au lieu du facteur de gain des antennes, on indique souvent le « gain en décibels ($\unit{\dB}$) ». Le cours aborde l’unité décibel dans le chapitre [sec:dezibel_1].
+Au lieu du facteur de gain des antennes, on indique souvent le « gain en décibels ($\unit{\dB}$) ». Le cours aborde l’unité décibel dans le chapitre [sec:dezibel_1].
 </indepth>
 
 ---
 
-Pour indiquer la puissance émise par une antenne dans sa direction principale de rayonnement avec une puissance d’émission donnée, on multiplie la puissance d’émission par le facteur de gain par rapport au dipôle demi-onde. On obtient ainsi la *puissance rayonnée effective*, généralement abrégée ERP (de l’anglais *effective radiated power*). Par exemple, si l’on injecte une puissance d’émission de $\qty{5}{\watt}$ dans une antenne avec un facteur de gain de $\num{2}$ par rapport au dipôle demi-onde, on obtient une puissance rayonnée de $\qty{10}{\watt}$ ERP.
+Pour indiquer la puissance émise par une antenne dans sa direction principale de rayonnement avec une puissance d’émission donnée, on multiplie la puissance d’émission par le facteur de gain par rapport au dipôle demi-onde. On obtient ainsi la *puissance rayonnée effective*, généralement abrégée ERP (de l’anglais « effective radiated power »). Par exemple, si l’on injecte une puissance d’émission de $\qty{5}{\watt}$ dans une antenne avec un facteur de gain de $\num{2}$ par rapport au dipôle demi-onde, on obtient une puissance rayonnée de $\qty{10}{\watt}$ ERP.
 
 <margin>
 On peut également se représenter la puissance rayonnée effective (ERP) de la manière suivante : c’est la puissance qu’il faudrait injecter dans un dipôle demi-onde pour qu’il émette aussi fortement dans sa direction principale de rayonnement que l’antenne considérée.

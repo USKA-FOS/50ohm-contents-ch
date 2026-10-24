@@ -50,13 +50,13 @@ Il numero dopo la barra obliqua indica il numero di 1 nella maschera di sottoret
 
 * I dispositivi di rete possono comunicare direttamente tra loro solo all'interno della propria rete locale.
 
---- data-transition="none"
+--- data-transition=«none»
 
 [picture:706:netzwerk:Sezione di un'infrastruttura di rete]
 
 * Ci si accorge di ciò perché, dalla propria indirizzo IP e dalla maschera di sottorete, si ottiene la stessa parte di rete del partner.
 
---- data-transition="none"
+--- data-transition=«none»
 
 [picture:706:netzwerk:Sezione di un'infrastruttura di rete]
 

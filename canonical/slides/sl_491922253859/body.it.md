@@ -1,5 +1,5 @@
 * Collegamento radio su lunghe distanze
-* DX $\rightarrow$ "long distance" (dal codice Morse)
+* DX $\rightarrow$ «long distance» (dal codice Morse)
 * Distinzione tra onde corte e VHF/UHF
 
 ---
@@ -91,7 +91,7 @@ Nel prosieguo della conversazione è possibile accordarsi su un’altra lingua
 ## Spedizione DX
 * Attività radioamatoriali DX da luoghi particolari della Terra
 * Solitamente in località remote del pianeta
-* Viene definita "spedizione DX"
+* Viene definita «spedizione DX»
 
 <note>
 * Alcune regioni hanno prefissi propri

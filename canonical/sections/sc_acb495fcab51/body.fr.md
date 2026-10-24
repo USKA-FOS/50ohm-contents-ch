@@ -17,10 +17,10 @@ Comme nous le savons déjà, la portée des ondes spatiales dépend de l'angle d
 
 ---
 
-Les stations de mesure de l'ionosphère mesurent la fréquence critique dite $f_\text{c}$ (ou souvent aussi $f_\text{k}$, $f_\text{krit}$ ou $f_\text{oF2}$). C'est la fréquence la plus élevée à laquelle l'onde spatiale pénétrant verticalement dans l'ionosphère est encore réfléchie (cf. figure [ref:e_muf_winkel]). Lorsque nous rayonnons verticalement vers le haut, c'est-à-dire que notre signal pénètre dans l'ionosphère sous un angle de $\qty{90}{\degree}$, la MUF est la plus faible, car notre signal doit alors effectuer un "demi-tour" complet dans l'ionosphère, c'est-à-dire effectuer un virage à 180°. Cela signifie qu'à $\qty{90}{\degree}$, on a $f_\text{c} = MUF$.
+Les stations de mesure de l'ionosphère mesurent la fréquence critique dite $f_\text{c}$ (ou souvent aussi $f_\text{k}$, $f_\text{krit}$ ou $f_\text{oF2}$). C'est la fréquence la plus élevée à laquelle l'onde spatiale pénétrant verticalement dans l'ionosphère est encore réfléchie (cf. figure [ref:e_muf_winkel]). Lorsque nous rayonnons verticalement vers le haut, c'est-à-dire que notre signal pénètre dans l'ionosphère sous un angle de $\qty{90}{\degree}$, la MUF est la plus faible, car notre signal doit alors effectuer un « demi-tour » complet dans l'ionosphère, c'est-à-dire effectuer un virage à 180°. Cela signifie qu'à $\qty{90}{\degree}$, on a $f_\text{c} = MUF$.
 
 <indepth>
-Comme symbole, on utilise $f_o$ (petite lettre "O" en indice pour *ordinary wave*) suivie de la région ionosphérique pour laquelle cette fréquence est valable, par exemple $f_\text{oF2}$ pour la région F2. Cependant, $f_\text{c}$, $f_\text{k}$ ou $f_\text{krit}$ sont aussi souvent utilisés comme symboles.
+Comme symbole, on utilise $f_o$ (petite lettre « O » en indice pour *ordinary wave*) suivie de la région ionosphérique pour laquelle cette fréquence est valable, par exemple $f_\text{oF2}$ pour la région F2. Cependant, $f_\text{c}$, $f_\text{k}$ ou $f_\text{krit}$ sont aussi souvent utilisés comme symboles.
 </indepth>
 
 <margin>

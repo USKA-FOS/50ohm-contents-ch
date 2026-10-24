@@ -10,7 +10,7 @@
 ---
 [question:VD117]
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 ## Piano dei nominativi
 
@@ -84,7 +84,7 @@ Tratto dal [piano dei nominativi](https://50ohm.de/rzp)
 La classe più bassa definisce i diritti massimi.
 </fragment>
 
---- style="font-size: 0.8em;"
+--- style=«font-size: 0.8em;»
 | X: | c: Stazione N | c: Stazione E | c: Stazione A |
 | Radioamatore N | N | N | N |
 | Radioamatore E | N | E | E |

@@ -34,7 +34,7 @@ Dans le rapport, la station réceptrice décrit la qualité de la liaison
 * T : Uniquement pour la télégraphie Morse et les transmissions numériques
 </note>
 
---- style="font-size: 0.8em;"
+--- style=« font-size: 0.8em; »
 
 #### Lisibilité
 
@@ -70,7 +70,7 @@ Dans le rapport, la station réceptrice décrit la qualité de la liaison
 * Évaluation subjective de la qualité du ton
 * Non utilisé en radiotéléphonie
 
---- style="font-size: 0.8em;"
+--- style=« font-size: 0.8em; »
 
 ### Exemples de rapports RST
 

@@ -23,7 +23,7 @@ De nombreux VNA doivent être étalonnés avant utilisation pour obtenir un rés
 
 ---
 
-Pour l'étalonnage ainsi que pour les tests de fonctionnement, on mesure souvent les états « ouvert » (résistance infinie), « court-circuit » (résistance proche de zéro) et « adapté » (résistance de charge correspondant à la résistance de sortie de l'appareil de mesure).
+Pour l'étalonnage ainsi que pour les tests de fonctionnement, on mesure souvent les états « ouvert » (résistance infinie), « court-circuit » (résistance proche de zéro) et « adapté » (résistance de charge correspondant à la résistance de sortie de l'appareil de mesure).
 
 <margin>
 [photo:327:e_vna_solt:Kit d'étalonnage SOL(T). De gauche à droite - Load, Open, Closed]

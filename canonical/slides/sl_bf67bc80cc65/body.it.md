@@ -1,4 +1,4 @@
---- data-transition="none"
+--- data-transition=«none»
 ### 1. Microfono
 
 <left>
@@ -9,7 +9,7 @@
 * Oppure il segnale dall’uscita audio di un computer
 </right>
 
---- data-transition="none"
+--- data-transition=«none»
 
 ### 2. Amplificatore di bassa frequenza
 
@@ -20,7 +20,7 @@
 * Amplifica il segnale BF dal microfono o dal computer
 </right>
 
---- data-transition="none"
+--- data-transition=«none»
 
 ### 3. Mixer
 
@@ -35,7 +35,7 @@
 Quando un mixer unisce due segnali, matematicamente corrisponde a una moltiplicazione dei due segnali. Pertanto, anche il simbolo del blocco del mixer contiene il segno della moltiplicazione. Come funziona esattamente un mixer è oggetto del corso per la classe A.
 </note>
 
---- data-transition="none"
+--- data-transition=«none»
 
 ### 4. Oscillatore
 
@@ -46,7 +46,7 @@ Quando un mixer unisce due segnali, matematicamente corrisponde a una moltiplica
 * Genera un’oscillazione ad alta frequenza alla frequenza di trasmissione
 </right>
 
---- data-transition="none"
+--- data-transition=«none»
 
 ### 5. Filtro passa-banda
 
@@ -58,7 +58,7 @@ Quando un mixer unisce due segnali, matematicamente corrisponde a una moltiplica
 * Con il filtro passa-banda vengono fatte passare solo le frequenze desiderate
 </right>
 
---- data-transition="none"
+--- data-transition=«none»
 
 ### 6. Amplificatore
 
@@ -69,7 +69,7 @@ Quando un mixer unisce due segnali, matematicamente corrisponde a una moltiplica
 * Amplifica il segnale ad alta frequenza alla potenza di trasmissione desiderata
 </right>
 
---- data-transition="none"
+--- data-transition=«none»
 
 ### 7. Filtro passa-basso
 
@@ -81,7 +81,7 @@ Quando un mixer unisce due segnali, matematicamente corrisponde a una moltiplica
 * Vengono fatte passare solo le frequenze desiderate
 </right>
 
---- data-transition="none"
+--- data-transition=«none»
 
 ### 8. Antenna
 

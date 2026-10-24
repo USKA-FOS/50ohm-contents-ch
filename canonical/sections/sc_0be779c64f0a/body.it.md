@@ -32,7 +32,7 @@ All'interno di una bobina cilindrica, a differenza di un conduttore rettilineo, 
 
 [question:EB202]
 
-È importante notare che le linee di campo magnetico di una bobina cilindrica si chiudono anche all'esterno della bobina. In questo modo si forma un cosiddetto *campo di dispersione*. Questo campo di dispersione può essere ridotto dando alla bobina cilindrica una forma circolare (o "toroidale") lungo il suo asse longitudinale, come nel caso di una bobina a nucleo anulare (cfr. figura [ref:e_ringkern]). In questo caso, le linee di campo magnetico possono chiudersi completamente all'interno della bobina.
+È importante notare che le linee di campo magnetico di una bobina cilindrica si chiudono anche all'esterno della bobina. In questo modo si forma un cosiddetto *campo di dispersione*. Questo campo di dispersione può essere ridotto dando alla bobina cilindrica una forma circolare (o «toroidale») lungo il suo asse longitudinale, come nel caso di una bobina a nucleo anulare (cfr. figura [ref:e_ringkern]). In questo caso, le linee di campo magnetico possono chiudersi completamente all'interno della bobina.
 
 <margin>
 [picture:40:e_ringkern:Bobina a nucleo anulare]

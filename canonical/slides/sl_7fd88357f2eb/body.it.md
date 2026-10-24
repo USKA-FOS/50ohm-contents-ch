@@ -36,7 +36,7 @@
 </right>
 <note>
 * Le spine Schuko non hanno protezione contro l’inversione dei poli L e N
-* "protective earth" — messa a terra di protezione
+* «protective earth» — messa a terra di protezione
 * L’involucro metallico viene messo a terra
 * La messa a terra impedisce che sull’involucro si generi una tensione pericolosa
 </note>

@@ -12,7 +12,7 @@
 
 ---
 [question:AC301]
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 Le rapport des spires entre le côté primaire et secondaire est égal au rapport des tensions entre le primaire et le secondaire, mais inversement proportionnel au rapport des intensités entre le secondaire et le primaire :
 
 $ü = \frac{N_P}{N_S} = \frac{U_P}{U_S} = \frac{I_S}{I_P}$
@@ -118,7 +118,7 @@ $\begin{split} ü &= \sqrt{\frac{Z_P}{Z_S}} = \sqrt{\frac{\qty{450}{\ohm}}{\qty{
 </fragment>
 </right>
 <note>
-Les baluns artisanaux fondus dans des boîtiers en plastique sont fréquents lorsque l'on ajoute "juste un peu plus de puissance"
+Les baluns artisanaux fondus dans des boîtiers en plastique sont fréquents lorsque l'on ajoute « juste un peu plus de puissance »
 </note>
 
 ---

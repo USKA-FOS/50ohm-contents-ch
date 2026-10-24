@@ -61,7 +61,7 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R_1 \cdot C_1} = \frac{1}{2 \pi \cdot \qty{4,
 
 ---
 [question:AD206]
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ## Circuito oscillante parallelo
 
 [picture:233:a_schwingkreis_parallelschwingkreis:Circuito oscillante parallelo e rappresentazione dell'impedenza in funzione della frequenza]
@@ -71,7 +71,7 @@ $f_\text{g} = \frac{1}{2 \pi \cdot R_1 \cdot C_1} = \frac{1}{2 \pi \cdot \qty{4,
 * In pratica, il componente con la resistenza più bassa determina l'impedenza totale
 * A frequenze superiori e inferiori alla frequenza di risonanza, il circuito oscillante parallelo ha un'impedenza minore
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ## Circuito oscillante serie
 
 [picture:230:a_schwingkreis_reihenschwingkreis:Circuito oscillante serie e rappresentazione dell'impedenza in funzione della frequenza]
@@ -155,7 +155,7 @@ $\begin{split} f_0 &= \frac{1}{2 \pi \cdot \sqrt{L \cdot C}}\\ &= \frac{1}{2 \pi
 </fragment>
 ---
 [question:AD212]
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 #### Procedimento di soluzione
 * dati: $C_1 = \qty{0,1}{\nano\farad}$
 * dati: $C_2 = \qty{1,5}{\nano\farad}$
@@ -204,7 +204,7 @@ Aumentare l'induttanza
 
 ---
 [question:AD218]
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ## Filtro passa-banda
 
 [picture:785:a_schwingkreis_bandpass:Filtro passa-banda composto da più circuiti oscillanti]
@@ -259,7 +259,7 @@ $Q = \frac{f_0}{B} = \frac{R_\text{P}}{X_\text{L}}$
   
 ---
 [question:AD225]
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 #### Procedimento di soluzione
 <left>
 * dati: $L = \qty{100}{\micro\henry}$
@@ -283,7 +283,7 @@ $Q = \frac{X_\text{L}}{R_\text{S}} = \frac{\qty{100,03}{\ohm}}{\qty{10}{\ohm}} \
 </fragment>
 ---
 [question:AD226]
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 #### Procedimento di soluzione
 <left>
 * dati: $L = \qty{2,2}{\micro\henry}$
@@ -353,7 +353,7 @@ $\begin{split} B &= \frac{1}{2 \pi \cdot R_\text{P} \cdot C}\\ &= \frac{1}{2 \pi
 <fragment>
 $B = \frac{R_\text{S}}{2 \pi \cdot L} = \frac{\qty{10}{\ohm}}{2 \pi \cdot \qty{100}{\micro\henry}} \approx \qty{15,9}{\kilo\hertz}$
 </fragment>
---- style="font-size: 0.7em;" data-transition="none"
+--- style=«font-size: 0.7em;» data-transition=«none»
 ## Accoppiamento
 
 [picture:184:a_schwingkreis_kopplung:Accoppiamento induttivo di due circuiti oscillanti e diagramma della tensione in funzione della frequenza]
@@ -362,20 +362,20 @@ $B = \frac{R_\text{S}}{2 \pi \cdot L} = \frac{\qty{10}{\ohm}}{2 \pi \cdot \qty{1
 * Due circuiti oscillanti accoppiati induttivamente o capacitivamente
 * Il grado di accoppiamento determina l'influenza reciproca, la larghezza di banda e la curva di attenuazione
 
---- style="font-size: 0.7em;" data-transition="none"
+--- style=«font-size: 0.7em;» data-transition=«none»
 [picture:184:a_schwingkreis_kopplung:Accoppiamento induttivo di due circuiti oscillanti e diagramma della tensione in funzione della frequenza]
 
 * d: *accoppiamento lasco* $\rightarrow$ scarsa influenza reciproca, attenuazione d’inserzione molto elevata e larghezza di banda molto ridotta
 * c: *accoppiamento sottocritico* $\rightarrow$ scarsa influenza reciproca, attenuazione d’inserzione elevata e larghezza di banda ridotta
 
---- style="font-size: 0.7em;" data-transition="none"
+--- style=«font-size: 0.7em;» data-transition=«none»
 [picture:184:a_schwingkreis_kopplung:Accoppiamento induttivo di due circuiti oscillanti e diagramma della tensione in funzione della frequenza]
 
 * b: *accoppiamento critico* $\rightarrow$ qualche influenza reciproca, curva di attenuazione piatta con attenuazione ridotta e plateau nella banda passante nonché buona larghezza di banda
 
---- style="font-size: 0.7em;" data-transition="none"
+--- style=«font-size: 0.7em;» data-transition=«none»
 [picture:184:a_schwingkreis_kopplung:Accoppiamento induttivo di due circuiti oscillanti e diagramma della tensione in funzione della frequenza]
-* a: *accoppiamento sovracritico* $\rightarrow$ forte influenza reciproca, variazione delle frequenze di risonanza, grande larghezza di banda e distorsione della curva di attenuazione nella banda passante con "avvallamenti"
+* a: *accoppiamento sovracritico* $\rightarrow$ forte influenza reciproca, variazione delle frequenze di risonanza, grande larghezza di banda e distorsione della curva di attenuazione nella banda passante con «avvallamenti»
 
 ---
 [question:AD227]

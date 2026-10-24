@@ -15,7 +15,7 @@ La diode à capacité variable fonctionne en polarisation inverse. Plus la tensi
 Inversement, lorsque la tension inverse appliquée diminue, la jonction de la diode à capacité variable se rétrécit, ce qui augmente la capacité et réduit ainsi la fréquence du circuit oscillant. La tension inverse peut être générée, par exemple, par un potentiomètre ou un circuit de commande.
 
 <tip>
-Plus la tension aux bornes de la diode à capacité variable est élevée, plus la distance entre les "plaques" ($d$) augmente. Il est toujours judicieux de consulter le recueil de formules pour comprendre ces chaînes d’effets.
+Plus la tension aux bornes de la diode à capacité variable est élevée, plus la distance entre les « plaques » ($d$) augmente. Il est toujours judicieux de consulter le recueil de formules pour comprendre ces chaînes d’effets.
 
 $C = \epsilon_0 \cdot \epsilon_r \cdot \frac{A}{d}$
 

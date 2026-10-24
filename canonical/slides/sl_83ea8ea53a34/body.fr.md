@@ -18,7 +18,7 @@ $\qty{1500000}{\hertz} \rArr \qty{1,5}{\mega\hertz} \rArr \qty{1,5e6}{\hertz}$
 </fragment>
   
 <note>
-* Prononcé : "10 puissance 3" ou "3ème puissance de 10"
+* Prononcé : « 10 puissance 3 » ou « 3ème puissance de 10 »
 </note>
 
 ---
@@ -30,7 +30,7 @@ $\qty{1500000}{\hertz} \rArr \qty{1,5}{\mega\hertz} \rArr \qty{1,5e6}{\hertz}$
 $\qty{0,0035}{\volt} \rArr \qty{3,5}{\milli\volt} \rArr \qty{3,5e-3}{\volt}$
 </fragment>
 
---- style="font-size: 0.5em;"
+--- style=« font-size: 0.5em; »
 ### Préfixes d'unités et puissances de dix
 
 | c: Désignation | c: Abréviation | l: Valeur |

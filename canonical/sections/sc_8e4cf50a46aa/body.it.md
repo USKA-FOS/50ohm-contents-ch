@@ -48,7 +48,7 @@ Questa domanda può essere risolta di nuovo senza calcoli, se si conoscono le as
 
 [question:EB312]
 
-Ora si cerca la lunghezza d’onda corrispondente a una frequenza di $\qty{21}{\mega\hertz}$. La banda dei $\qty{15}{\meter}$ va da $\qtyrange{21}{21,45}{\mega\hertz}$ – quindi la risposta "$\qty{14,29}{\meter}$" si impone come quella corretta, riconoscendo che la banda dei $\qty{15}{\meter}$ è in realtà denominata in modo errato. Banda dei $\qty{14}{\meter}$ sarebbe in realtà più corretto...
+Ora si cerca la lunghezza d’onda corrispondente a una frequenza di $\qty{21}{\mega\hertz}$. La banda dei $\qty{15}{\meter}$ va da $\qtyrange{21}{21,45}{\mega\hertz}$ – quindi la risposta «$\qty{14,29}{\meter}$» si impone come quella corretta, riconoscendo che la banda dei $\qty{15}{\meter}$ è in realtà denominata in modo errato. Banda dei $\qty{14}{\meter}$ sarebbe in realtà più corretto...
 
 Per sicurezza possiamo calcolare (con l'equazione dimensionale adattata):
 
@@ -56,4 +56,4 @@ $\lambda[\unit{\meter}] = \frac{300}{21}=14,29$
 
 [question:EB313]
 
-Diventa di nuovo molto semplice con l'ultima domanda. Quale lunghezza d’onda corrisponde a una frequenza di $\qty{28,5}{\mega\hertz}$? Ebbene, la banda dei $\qty{10}{\meter}$ si estende da $\qtyrange{28}{29,5}{\mega\hertz}$, quindi la risposta "$\qty{10,5}{\meter}$" è corretta. La risposta (errata) $\qty{9,49}{\meter}$ è anche vicina, ma la frequenza corrispondente dovrebbe trovarsi al di sopra di $\qty{30}{\mega\hertz}$.
+Diventa di nuovo molto semplice con l'ultima domanda. Quale lunghezza d’onda corrisponde a una frequenza di $\qty{28,5}{\mega\hertz}$? Ebbene, la banda dei $\qty{10}{\meter}$ si estende da $\qtyrange{28}{29,5}{\mega\hertz}$, quindi la risposta «$\qty{10,5}{\meter}$» è corretta. La risposta (errata) $\qty{9,49}{\meter}$ è anche vicina, ma la frequenza corrispondente dovrebbe trovarsi al di sopra di $\qty{30}{\mega\hertz}$.

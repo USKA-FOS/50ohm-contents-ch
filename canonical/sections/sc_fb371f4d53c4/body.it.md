@@ -8,7 +8,7 @@ Una volta completato questo corso e superato l’esame per radioamatore, si rice
 
 [question:VC106]
 
-Se si ha avuto l’opportunità di leggere riviste di radioamatoriale, ci si sarà forse imbattuti in annunci come "Simon (14) e Sophie (11) hanno superato con successo l’esame presso l’Agenzia federale delle reti di Dortmund l’8 febbraio". La nostra legge sulla radioamatoriale tedesca, infatti, non prevede un’età minima per i radioamatori. Nel § 4 dell’AFuG si legge a questo proposito: "Ogni persona fisica con residenza in Germania può essere ammessa, su richiesta, all’esame tecnico per radioamatori."
+Se si ha avuto l’opportunità di leggere riviste di radioamatoriale, ci si sarà forse imbattuti in annunci come «Simon (14) e Sophie (11) hanno superato con successo l’esame presso l’Agenzia federale delle reti di Dortmund l’8 febbraio». La nostra legge sulla radioamatoriale tedesca, infatti, non prevede un’età minima per i radioamatori. Nel § 4 dell’AFuG si legge a questo proposito: «Ogni persona fisica con residenza in Germania può essere ammessa, su richiesta, all’esame tecnico per radioamatori.»
 
 [question:VC108]
 

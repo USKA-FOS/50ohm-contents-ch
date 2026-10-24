@@ -10,7 +10,7 @@
 ---
 [question:VD117]
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 ## Plan des indicatifs d’appel
 
@@ -84,7 +84,7 @@ Extrait du [plan des indicatifs d’appel](https://50ohm.de/rzp)
 La classe la plus basse détermine les droits maximaux.
 </fragment>
 
---- style="font-size: 0.8em;"
+--- style=« font-size: 0.8em; »
 | X: | c: Station N | c: Station E | c: Station A |
 | Radioamateur N | N | N | N |
 | Radioamateur E | N | E | E |

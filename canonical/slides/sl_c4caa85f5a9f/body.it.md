@@ -1,4 +1,4 @@
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ## Filtri nel convertitore A/D e D/A
 
@@ -33,7 +33,7 @@ Se la frequenza di campionamento è troppo bassa per una di queste componenti di
 Questo effetto lo abbiamo già incontrato con il teorema di campionamento.
 </note>
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ## Filtro anti-aliasing
 
@@ -105,7 +105,7 @@ Il convertitore D/A emette i singoli valori digitali come valori di tensione ana
 In particolare, le transizioni nette e i bordi contengono componenti di segnale ad alta frequenza aggiuntive.
 </note>
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ## Filtro di ricostruzione
 

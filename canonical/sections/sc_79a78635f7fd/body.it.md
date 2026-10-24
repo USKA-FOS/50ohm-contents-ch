@@ -6,7 +6,7 @@ Se si ricevono accidentalmente tali messaggi, è necessario mantenere per sé il
 
 [question:VE203]
 
-Il possesso e la fabbricazione di dispositivi che simulano un altro oggetto e sono quindi particolarmente adatti a intercettare segretamente la parola pronunciata non pubblicamente ("cimici") sono vietati. Come esempio, si può citare una penna a sfera con microfono incorporato. Questo divieto vale per tutti e quindi ovviamente anche per i radioamatori.
+Il possesso e la fabbricazione di dispositivi che simulano un altro oggetto e sono quindi particolarmente adatti a intercettare segretamente la parola pronunciata non pubblicamente («cimici») sono vietati. Come esempio, si può citare una penna a sfera con microfono incorporato. Questo divieto vale per tutti e quindi ovviamente anche per i radioamatori.
 
 [question:VE204]
 

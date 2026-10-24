@@ -8,7 +8,7 @@
 Il existe des pays où l'examen de Morse reste obligatoire si cette mode de transmission y est utilisée.
 </note>
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 | c: | l:  | c:  | l:  | c:  | l:  |
 | A | [morse:a] | K | [morse:k] | U | [morse:u] |
 | B | [morse:b] | L | [morse:l] | V | [morse:v] |
@@ -22,7 +22,7 @@ Il existe des pays où l'examen de Morse reste obligatoire si cette mode de tran
 | J | [morse:j] | T | [morse:t] | ẞ | [morse:ß] |
 [table:n_morsetelegrafie_morsecode_buchstaben:Code Morse (lettres)]
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 | c:  | l:  | c:  | l:  | c:  | l:  | 
 | 0 | [morse:0] | 5 | [morse:5] | / | [morse:/] |
 | 1 | [morse:1] | 6 | [morse:6] | . | [morse:.] |

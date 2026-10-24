@@ -45,7 +45,7 @@ Avec cette configuration, en plus de la symétrisation souhaitée, la tension es
 
 Cette configuration ne permet de supprimer les courants de gaine que si l’antenne connectée est effectivement symétrique et n’est pas chargée de manière asymétrique en raison d’influences extérieures.
 
-Tous les composants servant à supprimer les courants de gaine ont en commun le fait qu’un couplage « sans contact » via les champs proches électromagnétiques des antennes peut toujours se produire directement sur le blindage du câble coaxial, c’est-à-dire en aval de la self de mode commun. Dans ce cas, une self de mode commun supplémentaire placée à une certaine distance de l’antenne peut aider.
+Tous les composants servant à supprimer les courants de gaine ont en commun le fait qu’un couplage « sans contact » via les champs proches électromagnétiques des antennes peut toujours se produire directement sur le blindage du câble coaxial, c’est-à-dire en aval de la self de mode commun. Dans ce cas, une self de mode commun supplémentaire placée à une certaine distance de l’antenne peut aider.
 
 [question:AG428]
 [question:AG429]

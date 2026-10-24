@@ -55,7 +55,7 @@ $P_\mathrm{EIRP} = P_\mathrm{émetteur} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}}= 
 
 ---
 
-La deuxième méthode de calcul possible exploite le fait que l'on peut "décomposer" les valeurs en dB. Dans la question, le gain d'antenne est $g = \qty{26}{\dBi}$. Dans le recueil de formules, le tableau [ref:e_dezibel_leistungsfaktoren] présente un aperçu des facteurs de puissance pour des valeurs dB importantes. Pour $\qty{26}{\dB}$, il n'y a pas d'entrée directe. Cependant, comme les niveaux en décibels s'additionnent, on peut décomposer cette valeur de manière judicieuse :
+La deuxième méthode de calcul possible exploite le fait que l'on peut « décomposer » les valeurs en dB. Dans la question, le gain d'antenne est $g = \qty{26}{\dBi}$. Dans le recueil de formules, le tableau [ref:e_dezibel_leistungsfaktoren] présente un aperçu des facteurs de puissance pour des valeurs dB importantes. Pour $\qty{26}{\dB}$, il n'y a pas d'entrée directe. Cependant, comme les niveaux en décibels s'additionnent, on peut décomposer cette valeur de manière judicieuse :
 
 $\qty{26}{\dBi} = \qty{20}{\dBi} + \qty{6}{\dB}$
 

@@ -1,4 +1,4 @@
-Questa pagina viene temporaneamente abusata dagli editori come sandbox quando qualcosa deve essere simulato (ad esempio quando qualcosa non funziona) e serve anche come "contenitore di modelli" per poter copiare e incollare nel Markdown elementi ricorrenti (come ad esempio le caselle colorate nella colonna di destra).
+Questa pagina viene temporaneamente abusata dagli editori come sandbox quando qualcosa deve essere simulato (ad esempio quando qualcosa non funziona) e serve anche come «contenitore di modelli» per poter copiare e incollare nel Markdown elementi ricorrenti (come ad esempio le caselle colorate nella colonna di destra).
 Il contenuto originale è ancora qui dentro, perché finora non è chiaro se sarà ancora necessario.
 
 <margin>
@@ -8,31 +8,31 @@ qui ci sono tutte le diverse caselle come modello
 <indepth>
 Questo è un testo di esempio con il comando 
 <indepth>
-. Genera la casella grigia "Approfondimento".
+. Genera la casella grigia «Approfondimento».
 </indepth>
 
 <tip>
 Questo è un testo di esempio con il comando 
 <tip>
-. Genera la casella rossa "Suggerimento".
+. Genera la casella rossa «Suggerimento».
 </tip>
 
 <attention>
 Questo è un testo di esempio con il comando 
 <attention>
-. Genera la casella gialla "Attenzione".
+. Genera la casella gialla «Attenzione».
 </attention>
 
 <danger>
 Questo è un testo di esempio con il comando 
 <danger>
-. Genera la casella rossa "Pericolo".
+. Genera la casella rossa «Pericolo».
 </danger>
 
 <unit>
 Questo è un testo di esempio con il comando 
 <unit>
-. Genera la casella verde "Nuova unità".
+. Genera la casella verde «Nuova unità».
 </unit>
 
 <law>
@@ -53,16 +53,16 @@ Ecco come si crea un collegamento diretto a una pagina esterna [testo visualizza
 **Collegamento interno**
 
 Questo è un test per un collegamento interno a un'altra sezione all'interno del sito web 50Ohm. - Questo è come dovrebbe essere - 
-Da utilizzare quando ad esempio nel testo si dice "Questo l'abbiamo già trattato nella sezione [sec:rufzeichen]".
+Da utilizzare quando ad esempio nel testo si dice «Questo l'abbiamo già trattato nella sezione [sec:rufzeichen]».
 
 Questo test è per il collegamento errato. - Va bene così. L'editor/revisore deve già notarlo e correggerlo. - 
 Se si scrive il nome della sezione in maiuscolo [sec:Rufzeichen] o con l'aggiunta NE_ [sec:NE_rufzeichen] o con l'estensione .md [sec:rufzeichen.md] o .html [sec:rufzeichen.html] o in qualsiasi altro modo errato.
 
 Questo test è per il collegamento tra corsi. - 
 
-Ad esempio se si vuole scrivere "nella sezione [sec:kondensator_2] si approfondirà ulteriormente." (Riferimento a una sezione HB9 nell'edizione HB3.)
+Ad esempio se si vuole scrivere «nella sezione [sec:kondensator_2] si approfondirà ulteriormente.» (Riferimento a una sezione HB9 nell'edizione HB3.)
 
-Ad esempio se si vuole scrivere "come abbiamo già imparato nella sezione [sec:kondensator_2]." (Riferimento a una sezione HB3 nell'edizione di aggiornamento HB9.)
+Ad esempio se si vuole scrivere «come abbiamo già imparato nella sezione [sec:kondensator_2].» (Riferimento a una sezione HB3 nell'edizione di aggiornamento HB9.)
 
 
 

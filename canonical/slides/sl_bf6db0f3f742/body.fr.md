@@ -62,7 +62,7 @@ Terme allemand pour PEP : puissance de crête de l’enveloppe – la valeur max
 
 * Pour la bande de fréquences $\qtyrange{1240}{1300}{\mega\hertz}$, des règles supplémentaires s’appliquent
 * Elles ne figurent pas directement dans le tableau
-* Dans la colonne de droite « Conditions d’utilisation supplémentaires selon B », des chiffres indiquent des précisions complémentaires
+* Dans la colonne de droite « Conditions d’utilisation supplémentaires selon B », des chiffres indiquent des précisions complémentaires
 * Elles sont listées sous le tableau
 * Pour la question suivante, il faut tenir compte du point 11
 

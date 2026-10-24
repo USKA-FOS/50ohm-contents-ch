@@ -9,7 +9,7 @@
 ### Guadagno e angolo di apertura di un'antenna Yagi-Uda
 
 * All'aumentare della lunghezza (e quindi del guadagno), l'angolo di apertura dell'antenna diventa più stretto.
-* Questo segue il principio di conservazione dell'energia: non è possibile generare energia "dal nulla".
+* Questo segue il principio di conservazione dell'energia: non è possibile generare energia «dal nulla».
 
 ---
 [question:AG222]

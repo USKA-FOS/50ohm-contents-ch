@@ -2,7 +2,7 @@
 
 * Les bobines et les condensateurs sont combinés
 * Il faut également tenir compte de la *capacité parasite* de l’enroulement
-* Cela introduit des capacités « invisibles » dans le circuit
+* Cela introduit des capacités « invisibles » dans le circuit
 
 <note>
 Capacité propre d’une bobine

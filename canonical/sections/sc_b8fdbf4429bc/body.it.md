@@ -2,7 +2,7 @@ Anche nel radioamatoriale vengono utilizzati molti metodi di trasmissione digita
 
 La telegrafia Morse è il metodo di trasmissione più antico utilizzato nella radio. I primi trasmettitori radio non conoscevano altri metodi. L’unico modo per trasmettere informazioni era accendere e spegnere brevemente il trasmettitore con un tasto. All’ascolto, il ricevitore percepisce un tono che si accende e si spegne secondo un ritmo preciso.
 
-Per trasmettere caratteri diversi, cioè lettere, cifre e segni di punteggiatura, si utilizza il codice Morse. Ogni carattere è rappresentato da una specifica sequenza di toni brevi e lunghi. Nelle tabelle [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] e [ref:n_morsetelegrafie_morsecode_spezial] è riportata una parte del codice Morse. Un punto ([morse:e]) (pronunciato: "dit") corrisponde a un tono breve e una lineetta ([morse:t]) (pronunciata: "dah") a un tono lungo. La decodifica, cioè la traduzione dei toni in caratteri al ricevitore, avviene con le orecchie e il cervello – o, ai giorni nostri, anche con il computer.
+Per trasmettere caratteri diversi, cioè lettere, cifre e segni di punteggiatura, si utilizza il codice Morse. Ogni carattere è rappresentato da una specifica sequenza di toni brevi e lunghi. Nelle tabelle [ref:n_morsetelegrafie_morsecode_buchstaben], [ref:n_morsetelegrafie_morsecode_ziffern_satzzeichen] e [ref:n_morsetelegrafie_morsecode_spezial] è riportata una parte del codice Morse. Un punto ([morse:e]) (pronunciato: «dit») corrisponde a un tono breve e una lineetta ([morse:t]) (pronunciata: «dah») a un tono lungo. La decodifica, cioè la traduzione dei toni in caratteri al ricevitore, avviene con le orecchie e il cervello – o, ai giorni nostri, anche con il computer.
 
 **Il Morse è una manipolazione temporale di una portante. Le informazioni non derivano solo dai punti e dalle lineette, ma anche dalle pause esattamente definite.**
 
@@ -14,7 +14,7 @@ I rapporti temporali tra punto, lineetta e pause sono definiti come segue:
 * Pausa tra due caratteri = 3 unità di tempo
 * Pausa tra parole = 7 unità di tempo
 
-La "velocità" viene espressa in parole al minuto [WPM] (Words Per Minute), dove il riferimento internazionale usuale è la parola PARIS.
+La «velocità» viene espressa in parole al minuto [WPM] (Words Per Minute), dove il riferimento internazionale usuale è la parola PARIS.
 
 <webmargin>
 | c: | l: | c: | l: | c: | l: |

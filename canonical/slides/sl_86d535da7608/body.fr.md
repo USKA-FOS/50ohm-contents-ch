@@ -18,7 +18,7 @@
 
 <note>
 * La radio a longtemps utilisé l'onde de sol
-* Le radioamateurisme a obtenu les hautes fréquences "peu exploitables"
+* Le radioamateurisme a obtenu les hautes fréquences « peu exploitables »
 * Jusqu'à la découverte de la propagation par onde spatiale
 </note>
 

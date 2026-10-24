@@ -13,7 +13,7 @@ $C = \dfrac{Q}{U}$
 * Farad d'après Michael Faraday (1791 - 1867)
 </note>
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 ## Capacité selon la construction
 
 <left>

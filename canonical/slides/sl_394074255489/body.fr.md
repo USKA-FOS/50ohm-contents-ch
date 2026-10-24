@@ -11,7 +11,7 @@
 </right>
 
 <note>
-isotrope : du grec ancien ἴσος isos « égal » et τρόπος tropos « rotation, direction »
+isotrope : du grec ancien ἴσος isos « égal » et τρόπος tropos « rotation, direction »
 </note>
 
 ---
@@ -19,7 +19,7 @@ isotrope : du grec ancien ἴσος isos « égal » et τρόπος tropos « r
 
 *Puissance isotrope rayonnée équivalente*
 
-* Lors du calcul de la puissance rayonnée par rapport au radiateur isotrope, on parle de « puissance isotrope rayonnée équivalente »
+* Lors du calcul de la puissance rayonnée par rapport au radiateur isotrope, on parle de « puissance isotrope rayonnée équivalente »
 
 ---
 ## Calcul

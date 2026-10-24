@@ -17,9 +17,9 @@ Un collegamento radio permanente è un collegamento radio stabilito in modo fiss
 %TODO ARK: Spostare una delle immagini nella sezione 16.11 Reti a commutazione di pacchetto!
 
 <law>
-- Le "Spiegazioni dettagliate sul servizio di radioamatore" si trovano nel [Manuale del radioamatore](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) dell'UFCOM.
+- Le «Spiegazioni dettagliate sul servizio di radioamatore» si trovano nel [Manuale del radioamatore](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk) dell'UFCOM.
 
-- Link diretto per la comunicazione delle cosiddette "Utilizzazioni speciali di frequenza" all'UFCOM in [eGov](https://www.egov.swiss/de/amateurfunk/spezielle-frequenznutzung-detail)
+- Link diretto per la comunicazione delle cosiddette «Utilizzazioni speciali di frequenza» all'UFCOM in [eGov](https://www.egov.swiss/de/amateurfunk/spezielle-frequenznutzung-detail)
 
 </law>
 

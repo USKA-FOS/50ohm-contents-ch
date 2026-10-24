@@ -3,7 +3,7 @@
 </left>
 <right>
 * Il est également possible de répartir un flux de données sur plusieurs porteuses situées sur des fréquences différentes, mais proches les unes des autres.
-* Dans le cas de l’OFDM, les porteuses individuelles sont placées à un écartement tel qu’un « chevauchement » est évité.
+* Dans le cas de l’OFDM, les porteuses individuelles sont placées à un écartement tel qu’un « chevauchement » est évité.
 </right>
 <note>
 OFDM : Orthogonal Frequency-Division Multiplexing<br/>

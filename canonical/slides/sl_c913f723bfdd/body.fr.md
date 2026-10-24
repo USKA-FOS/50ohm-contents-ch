@@ -16,14 +16,14 @@
 * Les détails sont précisés dans l'*ordonnance sur le radioamateurisme (AFuV)* ainsi que dans les *décisions ou communications de l'Agence fédérale des réseaux*
 * D'autres réglementations concernant le radioamateurisme existent, par exemple celles relatives au marquage CE ou au secret des télécommunications
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 <left>
 [photo:3:n_gesetze_vorschriften_backstein:Brique de l'action Brique de 1949]
 </left>
 <right>
 * La première loi sur le radioamateurisme est entrée en vigueur le 15 mars 1949, avant même la loi fondamentale
-* Elle fait suite à la célèbre "action Brique" : en janvier 1949, des radioamateurs ont envoyé des colis contenant des briques et des lettres de protestation au président du Conseil économique pour accélérer l'adoption de la loi
+* Elle fait suite à la célèbre « action Brique » : en janvier 1949, des radioamateurs ont envoyé des colis contenant des briques et des lettres de protestation au président du Conseil économique pour accélérer l'adoption de la loi
 </right>
 
 ---

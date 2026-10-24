@@ -11,7 +11,7 @@
 Con una cartolina SWL-QSL un ascoltatore richiede alla stazione di radioamatore ricevuta la conferma del proprio rapporto di ricezione.
 </note>
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ### Dati sulla cartolina SWL-QSL
 

@@ -1,4 +1,4 @@
-Un antico detto tra radioamatori recita che il miglior amplificatore ad alta frequenza è l'antenna. Nei primi anni della tecnologia radio, essa era l’unico "amplificatore" disponibile, poiché non esistevano ancora componenti elettronici amplificatori. Nel 1907 arrivò la valvola termoionica: un componente molto efficace, ma piuttosto ingombrante e poco efficiente. Già dagli anni Venti, la scienza sognava componenti con funzioni simili, ma con tutto il processo che avveniva all’interno di un solido (semiconduttore) e non nel vuoto. Il primo componente in cui ciò riuscì fu, nel 1947/1948, il *transistor bipolare*, che è anche oggetto di domande d’esame.
+Un antico detto tra radioamatori recita che il miglior amplificatore ad alta frequenza è l'antenna. Nei primi anni della tecnologia radio, essa era l’unico «amplificatore» disponibile, poiché non esistevano ancora componenti elettronici amplificatori. Nel 1907 arrivò la valvola termoionica: un componente molto efficace, ma piuttosto ingombrante e poco efficiente. Già dagli anni Venti, la scienza sognava componenti con funzioni simili, ma con tutto il processo che avveniva all’interno di un solido (semiconduttore) e non nel vuoto. Il primo componente in cui ciò riuscì fu, nel 1947/1948, il *transistor bipolare*, che è anche oggetto di domande d’esame.
 
 [question:EC602]
 
@@ -71,7 +71,7 @@ $\frac{I_\mathrm{C}}{I_\mathrm{B}} = B$
 *$B$* è il rapporto di corrente (più precisamente, il rapporto di corrente nella configurazione a emettitore comune). Spesso è più pratico considerare il transistor come un componente controllato in corrente, anche se fisicamente non è così. Il rapporto di corrente nei transistor pratici è compreso tra $50$ e $350$.
 
 <tip>
-Per il controllo in corrente del transistor bipolare esiste un’analogia molto antica, che paragona un grande e un piccolo canale d’acqua, una diga nel canale grande e una valvola di controllo. Forse i più anziani tra noi la ricordano ancora dal "Piccolo radiomane" della casa editrice Kosmos...
+Per il controllo in corrente del transistor bipolare esiste un’analogia molto antica, che paragona un grande e un piccolo canale d’acqua, una diga nel canale grande e una valvola di controllo. Forse i più anziani tra noi la ricordano ancora dal «Piccolo radiomane» della casa editrice Kosmos...
 
 [picture:835:e_transistor_wehr_geschlossen:Il canale di controllo chiude completamente la diga]
 

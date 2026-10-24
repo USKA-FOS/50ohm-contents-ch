@@ -7,7 +7,7 @@
 * Reconnaissance mutuelle des certificats d’opérateur radioamateur
 </right>
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 <left>
 * États membres de la *Conférence européenne des administrations des postes et des télécommunications* (CEPT)
 * Plusieurs recommandations dans le tableau à droite
@@ -60,7 +60,7 @@ Il n’est pas nécessaire d’apprendre les recommandations par cœur, mais il 
 * Doit être vérifié avant utilisation dans le pays concerné
 
 <note>
-La séparation par une barre oblique se prononce "stroke"
+La séparation par une barre oblique se prononce « stroke »
 </note>
 
 ---

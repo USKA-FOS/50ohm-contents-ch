@@ -38,7 +38,7 @@ Il piano dei nominativi è un importante strumento per riconoscere lo scopo d’
 
 [question:VD202]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ### Frequenti ambiti di nominativi tedeschi
 

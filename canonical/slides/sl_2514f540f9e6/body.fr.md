@@ -6,7 +6,7 @@
 * Les deux demi-ondes sont utilisées
 * Tension continue pulsée en sortie avec une fréquence double par rapport à la tension d’entrée
 </right>
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 [include:applet_gleichrichter_2]
 
 ---

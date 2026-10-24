@@ -18,7 +18,7 @@
 
 <note>
 * In passato la radio sfruttava ampiamente l’onda di terra
-* Il radioamatoriale ha ottenuto le alte frequenze "poco sfruttabili"
+* Il radioamatoriale ha ottenuto le alte frequenze «poco sfruttabili»
 * Fino a quando non è stata scoperta la propagazione tramite onda spaziale
 </note>
 

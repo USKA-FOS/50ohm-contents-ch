@@ -1,4 +1,4 @@
-* Les bases sur l'ionosphère, l'activité des taches solaires et la "zone morte" sont abordées dans la classe N
+* Les bases sur l'ionosphère, l'activité des taches solaires et la « zone morte » sont abordées dans la classe N
 * Approfondissement dans le domaine de la propagation des ondes
 * Le rayonnement du Soleil arrache des électrons aux atomes et molécules d'oxygène et d'azote dans la haute atmosphère → ionisation
 * Les électrons libres sont excités par les ondes radio et vibrent → réfraction des ondes radio
@@ -57,7 +57,7 @@
 ---
 
 ## Couches de l'ionosphère
-* À différentes altitudes, il existe des "couches" ou régions avec des degrés d'ionisation variables
+* À différentes altitudes, il existe des « couches » ou régions avec des degrés d'ionisation variables
 * Elles portent les noms suivants :
 
 1. Couche D

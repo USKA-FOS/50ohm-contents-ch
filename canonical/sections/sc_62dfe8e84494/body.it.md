@@ -83,7 +83,7 @@ $\mu_r$, detta anche permeabilità relativa, nei materiali ferromagnetici è mol
 
 Se si inserisce un materiale ferromagnetico come il ferro nella bobina, il campo magnetico viene amplificato e l’induttanza aumenta. Se invece si inserisce un nucleo realizzato in un metallo buon conduttore (non ferromagnetico) come alluminio o rame, l’induttanza della bobina diminuisce. Questo accade perché il campo magnetico ad alta frequenza della bobina induce correnti, dette correnti parassite, nel nucleo. Queste correnti secondarie generano a loro volta campi magnetici che si oppongono a quelli della bobina. Per questo motivo l’induttanza diminuisce. Il campo magnetico all’interno del nucleo viene così ridotto.
 
-La risposta considerata corretta nella domanda seguente è quella secondo cui il campo magnetico non può penetrare nel nucleo, riducendo così la sezione del campo. Tuttavia, questa non è esattamente ciò che accade fisicamente. Basta ricordare la "risposta corretta".
+La risposta considerata corretta nella domanda seguente è quella secondo cui il campo magnetico non può penetrare nel nucleo, riducendo così la sezione del campo. Tuttavia, questa non è esattamente ciò che accade fisicamente. Basta ricordare la «risposta corretta».
 
 [question:EB205]
 

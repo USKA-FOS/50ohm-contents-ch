@@ -9,7 +9,7 @@ Dans le cours HB3, nous avons déjà appris à connaître le *fading* (*QSB*) da
 Le récepteur reçoit donc simultanément *plusieurs* signaux qui, en raison de trajets différents, arrivent avec des temps de propagation et donc des phases différents. Ces signaux sont additionnés dans le récepteur et cela s'appelle *interférence* dans le langage technique. Selon la différence de phase, le signal résultant peut être soit amplifié soit atténué – dans les cas extrêmes, jusqu'à une annulation complète.
 
 <indepth>
-L'interférence (du latin inter = "entre" et ferire, via l'ancien français s'entreferir = "se frapper mutuellement") désigne généralement la modification de l'amplitude qui se produit lors de la superposition de deux ondes ou plus, c'est-à-dire lors de leur addition.
+L'interférence (du latin inter = « entre » et ferire, via l'ancien français s'entreferir = « se frapper mutuellement ») désigne généralement la modification de l'amplitude qui se produit lors de la superposition de deux ondes ou plus, c'est-à-dire lors de leur addition.
 </indepth>
 
 [question:AH222]

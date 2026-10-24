@@ -20,7 +20,7 @@ En unités de base ($\unit{\second}$, $\unit{\meter}$), la relation entre la lon
 
 $\lambda = \dfrac{c_0}{f}$
 
-Ici, $c_0$ est la vitesse de propagation des ondes électromagnétiques dans le vide ("vitesse de la lumière"), $c_o \approx \qty{300000000}{\meter\per\second}$
+Ici, $c_0$ est la vitesse de propagation des ondes électromagnétiques dans le vide (« vitesse de la lumière »), $c_o \approx \qty{300000000}{\meter\per\second}$
 </indepth>
 
 Nous considérons ici la relation entre la fréquence et la longueur d’onde sous sa forme plus abstraite :
@@ -33,7 +33,7 @@ Pour y parvenir, nous multiplions d'abord les deux côtés de l'équation par la
 
 $\lambda = \dfrac{c_0}{f} \quad\quad\quad | \cdot f$
 
-Ceci est illustré par "$|~\cdot f$", où la barre verticale signifie que l'opération suivante est effectuée des deux côtés.
+Ceci est illustré par « $|~\cdot f$ », où la barre verticale signifie que l'opération suivante est effectuée des deux côtés.
 
 Il en résulte une nouvelle équation :
 

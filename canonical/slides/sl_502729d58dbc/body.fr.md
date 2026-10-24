@@ -4,8 +4,8 @@
 </left>
 <right>
 * Tous les matériaux sont constitués de minuscules particules chargées électriquement
-* Certaines sont chargées "positivement" (plus)
-* Certaines sont chargées "négativement" (moins)
+* Certaines sont chargées « positivement » (plus)
+* Certaines sont chargées « négativement » (moins)
 </right>
 
 <note>
@@ -23,7 +23,7 @@ C'est le niveau Classe N – nous sommes suffisamment précis pour comprendre le
 * La plupart des objets sont électriquement équilibrés
 </right>
 <note>
-Sauf quand on reçoit "une décharge".
+Sauf quand on reçoit « une décharge ».
 </note>
 ---
 

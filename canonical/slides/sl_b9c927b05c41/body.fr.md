@@ -19,7 +19,7 @@
 [picture:802:am_detektor_kopfhoerer:Signal BF audible]
 </right>
 
---- data-transition="none"
+--- data-transition=« none »
 
 <left>
 [picture:799:am_detektor:Schéma d'un récepteur à détecteur simple]
@@ -31,7 +31,7 @@
 [picture:802:am_detektor_kopfhoerer:Signal BF audible]
 </right>
 
---- data-transition="none"
+--- data-transition=« none »
 
 <left>
 [picture:799:am_detektor:Schéma d'un récepteur à détecteur simple]
@@ -43,7 +43,7 @@
 [picture:802:am_detektor_kopfhoerer:Signal BF audible]
 </right>
 
---- data-transition="none"
+--- data-transition=« none »
 
 <left>
 [picture:799:am_detektor:Schéma d'un récepteur à détecteur simple]

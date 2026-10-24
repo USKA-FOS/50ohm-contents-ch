@@ -4,7 +4,7 @@ In particolare, i campi generati da trasmissioni ad alta potenza possono dannegg
 
 [question:NK201]
 
-Il legislatore ha stabilito che, per la cosiddetta "compatibilità elettromagnetica ambientale" (EMVU), devono essere rispettati determinati valori limite per i campi elettromagnetici generati da impianti trasmittenti fissi. Questi valori limite, che servono principalmente a proteggere le persone, sono definiti in due ordinanze: la "26ª ordinanza di attuazione della legge federale sulla protezione dalle immissioni" (26. BImSchV) e la "Ordinanza sulla procedura di verifica per la limitazione dei campi elettromagnetici" (BEMFV). L’osservanza di tali valori è responsabilità dell’operatore di un impianto trasmittente, sia esso un gestore di rete mobile o un radioamatore che utilizza un impianto radioamatoriale fisso.
+Il legislatore ha stabilito che, per la cosiddetta «compatibilità elettromagnetica ambientale» (EMVU), devono essere rispettati determinati valori limite per i campi elettromagnetici generati da impianti trasmittenti fissi. Questi valori limite, che servono principalmente a proteggere le persone, sono definiti in due ordinanze: la «26ª ordinanza di attuazione della legge federale sulla protezione dalle immissioni» (26. BImSchV) e la «Ordinanza sulla procedura di verifica per la limitazione dei campi elettromagnetici» (BEMFV). L’osservanza di tali valori è responsabilità dell’operatore di un impianto trasmittente, sia esso un gestore di rete mobile o un radioamatore che utilizza un impianto radioamatoriale fisso.
 
 [question:VE501]
 [question:VE502]
@@ -12,7 +12,7 @@ Il legislatore ha stabilito che, per la cosiddetta "compatibilità elettromagnet
 
 ---
 
-L’operatore di un impianto trasmittente non è solo tenuto a rispettare questi valori limite, ma deve anche fornire, prima della messa in funzione dell’impianto, la prova che i valori limite per la protezione delle persone siano effettivamente rispettati. Le modalità di questa verifica sono regolate dalla "Ordinanza sulla procedura di verifica per la limitazione dei campi elettromagnetici" (BEMFV). I radioamatori, tramite la procedura di notifica per stazioni radioamatoriali fisse descritta in tale ordinanza, hanno la possibilità di assicurare e documentare autonomamente il rispetto di tutti i valori limite, garantendo così l’assenza di pericoli per le persone.
+L’operatore di un impianto trasmittente non è solo tenuto a rispettare questi valori limite, ma deve anche fornire, prima della messa in funzione dell’impianto, la prova che i valori limite per la protezione delle persone siano effettivamente rispettati. Le modalità di questa verifica sono regolate dalla «Ordinanza sulla procedura di verifica per la limitazione dei campi elettromagnetici» (BEMFV). I radioamatori, tramite la procedura di notifica per stazioni radioamatoriali fisse descritta in tale ordinanza, hanno la possibilità di assicurare e documentare autonomamente il rispetto di tutti i valori limite, garantendo così l’assenza di pericoli per le persone.
 
 <indepth>
 Solo i radioamatori godono del privilegio di determinare e documentare autonomamente il rispetto dei valori limite per la protezione delle persone. Altri operatori di impianti trasmittenti, ad esempio i gestori di reti mobili, devono far certificare il rispetto dei valori limite a pagamento dall’Agenzia federale delle reti.

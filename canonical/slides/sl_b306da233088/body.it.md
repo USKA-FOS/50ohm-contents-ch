@@ -1,4 +1,4 @@
---- data-transition="none"
+--- data-transition=«none»
 ## Dal diodo al transistor
 <left>
 La funzione può essere immaginata così:
@@ -9,7 +9,7 @@ La funzione può essere immaginata così:
 [picture:835:e_transistor_wehr_geschlossen:Steuerkanal schließt Wehr komplett]
 </right>
 
---- data-transition="none"
+--- data-transition=«none»
 
 ## Dal diodo al transistor
 <left>
@@ -20,7 +20,7 @@ La funzione può essere immaginata così:
 [picture:837:e_transistor_wehr_halb_offen:Steuerkanal öffnet Wehr halb]
 </right>
 
---- data-transition="none"
+--- data-transition=«none»
 
 ## Dal diodo al transistor
 <left>
@@ -102,7 +102,7 @@ Poiché oltre alla corrente di collettore anche la corrente di base fluisce attr
 
 [question:EC611]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ### Quando conduce il transistor NPN?
 La tensione base-emettitore è sufficiente e si trova a un potenziale positivo?
@@ -125,7 +125,7 @@ $U_{ BE } = U_{ B } - U_{ E }$
 
 [question:EC613]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ### Quando conduce il transistor PNP?
 La tensione base-emettitore è sufficiente e si trova a un potenziale negativo?

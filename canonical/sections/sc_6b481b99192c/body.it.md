@@ -1,4 +1,4 @@
-Per spiegare frequenza e onde radio, dobbiamo fare un piccolo passo indietro e occuparci brevemente della tensione elettrica. Tutte le sostanze che conosciamo sono composte da particelle minuscole: legno, acqua, metalli e tutto il resto, persino l'aria. Alcune di queste particelle hanno la proprietà di attrarsi o respingersi a vicenda. Vengono definite "cariche elettriche" e suddivise nei gruppi "positive" (più) e "negative" (meno) (immagine [ref:n_frequenz_elektrische_ladungen]) [index:Ladung].
+Per spiegare frequenza e onde radio, dobbiamo fare un piccolo passo indietro e occuparci brevemente della tensione elettrica. Tutte le sostanze che conosciamo sono composte da particelle minuscole: legno, acqua, metalli e tutto il resto, persino l'aria. Alcune di queste particelle hanno la proprietà di attrarsi o respingersi a vicenda. Vengono definite «cariche elettriche» e suddivise nei gruppi «positive» (più) e «negative» (meno) (immagine [ref:n_frequenz_elektrische_ladungen]) [index:Ladung].
 
 <margin>
 [picture:713:n_frequenz_elektrische_ladungen:Particelle cariche positivamente e negativamente uniformemente distribuite in un oggetto.]

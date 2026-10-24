@@ -8,7 +8,7 @@
 Ci sono paesi in cui l'esame di Morse è ancora necessario se si desidera utilizzare questa modalità operativa.
 </note>
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 | c: | l:  | c:  | l:  | c:  | l:  |
 | A | [morse:a] | K | [morse:k] | U | [morse:u] |
 | B | [morse:b] | L | [morse:l] | V | [morse:v] |
@@ -22,7 +22,7 @@ Ci sono paesi in cui l'esame di Morse è ancora necessario se si desidera utiliz
 | J | [morse:j] | T | [morse:t] | ẞ | [morse:ß] |
 [table:n_morsetelegrafie_morsecode_buchstaben:Codice Morse (Lettere)]
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 | c:  | l:  | c:  | l:  | c:  | l:  | 
 | 0 | [morse:0] | 5 | [morse:5] | / | [morse:/] |
 | 1 | [morse:1] | 6 | [morse:6] | . | [morse:.] |

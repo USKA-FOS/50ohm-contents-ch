@@ -26,7 +26,7 @@ Purtroppo, questi prefissi non possono essere inseriti direttamente in ogni calc
 ---
 
 
-Analizziamo inizialmente l’esempio del prefisso chilo, che corrisponde a $1000$. Invece di $1000$ si può scrivere anche $10 \cdot 10 \cdot 10$. Per questo esiste l’abbreviazione $10^3$ (si legge “10 alla terza” o “terza potenza di 10”). Le indicazioni $\qty{1500}{\hertz}$, $\qty{1,5}{\kilo\hertz}$ e $\qty{1,5e3}{\hertz}$ rappresentano lo stesso valore.
+Analizziamo inizialmente l’esempio del prefisso chilo, che corrisponde a $1000$. Invece di $1000$ si può scrivere anche $10 \cdot 10 \cdot 10$. Per questo esiste l’abbreviazione $10^3$ (si legge «10 alla terza» o «terza potenza di 10»). Le indicazioni $\qty{1500}{\hertz}$, $\qty{1,5}{\kilo\hertz}$ e $\qty{1,5e3}{\hertz}$ rappresentano lo stesso valore.
 
 
 <tip>
@@ -37,13 +37,13 @@ Si può ricordare anche così: si moltiplica il numero tante volte per 10 quante
 Per un milione non si devono moltiplicare tre, ma sei volte il numero 10. Quindi il prefisso mega corrisponde al valore $10^6$. La notazione $\qty{28e6}{\hertz}$ significa quindi lo stesso di $\qty{28}{\mega\hertz}$.
 
 
-Per i numeri piccoli funziona in modo analogo. Un millesimo è $\frac{1}{10} \cdot \frac{1}{10} \cdot \frac{1}{10}$. Lo si scrive come $10^{-3}$ (“dieci alla meno tre”). Il valore $\qty{3,5e-3}{\volt}$ non è altro che $\qty{3,5}{\milli\volt}$ e $\qty{22e-6}{\volt}$ corrisponde a $\qty{22}{\micro\volt}$. I prefissi più importanti delle potenze di dieci sono riportati nuovamente nella tabella [ref:e_einheitenvorzeichen].
+Per i numeri piccoli funziona in modo analogo. Un millesimo è $\frac{1}{10} \cdot \frac{1}{10} \cdot \frac{1}{10}$. Lo si scrive come $10^{-3}$ («dieci alla meno tre»). Il valore $\qty{3,5e-3}{\volt}$ non è altro che $\qty{3,5}{\milli\volt}$ e $\qty{22e-6}{\volt}$ corrisponde a $\qty{22}{\micro\volt}$. I prefissi più importanti delle potenze di dieci sono riportati nuovamente nella tabella [ref:e_einheitenvorzeichen].
 
 
 ---
 
 
-Le calcolatrici tecnico-scientifiche dispongono solitamente di un tasto per le potenze, generalmente indicato con $x^y$. Alcuni modelli offrono inoltre una modalità semplificata per l’inserimento delle potenze di dieci: un tasto con la dicitura *Exp*, *E* o $\cdot 10^x$. Questo tasto significa “per dieci alla…” e facilita notevolmente l’inserimento di numeri molto grandi o molto piccoli.
+Le calcolatrici tecnico-scientifiche dispongono solitamente di un tasto per le potenze, generalmente indicato con $x^y$. Alcuni modelli offrono inoltre una modalità semplificata per l’inserimento delle potenze di dieci: un tasto con la dicitura *Exp*, *E* o $\cdot 10^x$. Questo tasto significa «per dieci alla…» e facilita notevolmente l’inserimento di numeri molto grandi o molto piccoli.
 
 
 Esempio: Per inserire il valore $\num{3,5e6}$, premere: 3.5 → Exp → 6

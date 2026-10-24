@@ -8,7 +8,7 @@
 Ricordiamo le due proprietà fondamentali di un’oscillazione: ampiezza e frequenza. A seconda del tipo di modulazione, una di queste proprietà viene modificata o la portante viene accesa e spenta.
 </note>
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ### Visualizzazioni sul ricevitore
 

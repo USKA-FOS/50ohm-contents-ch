@@ -8,7 +8,7 @@
 * Le frequenze aggiuntive sono chiamate *bande laterali*
 </right>
 <note>
-È un po’ paradossale che con la modulazione di ampiezza la frequenza sembri comunque modificata. Una spiegazione a riguardo è disponibile nella sezione "Approfondimento" sulla pagina [50Ohm](/N_am.html). Chi vuole approfondire può consultare i *teoremi di addizione per funzioni trigonometriche* per vedere come viene effettuato il calcolo.
+È un po’ paradossale che con la modulazione di ampiezza la frequenza sembri comunque modificata. Una spiegazione a riguardo è disponibile nella sezione «Approfondimento» sulla pagina [50Ohm](/N_am.html). Chi vuole approfondire può consultare i *teoremi di addizione per funzioni trigonometriche* per vedere come viene effettuato il calcolo.
 </note>
 
 ---

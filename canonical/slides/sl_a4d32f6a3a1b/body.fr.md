@@ -16,7 +16,7 @@ Rappel rapide sur les antennes :
 * Facteur de gain de $\num{2}$ : l’antenne rayonne dans sa direction principale de rayonnement deux fois plus fortement qu’un dipôle demi-onde dans sa direction principale de rayonnement.
 
 <note>
-* Au lieu du facteur de gain, on indique souvent le « gain en décibels ($\unit{dB}$) ».
+* Au lieu du facteur de gain, on indique souvent le « gain en décibels ($\unit{dB}$) ».
 * Ce sujet est abordé dans le cadre de la classe E.
 </note>
 

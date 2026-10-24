@@ -19,7 +19,7 @@ Le tableau de [sec:frequenzspektrum] entre à nouveau en jeu ici. Dans ce tablea
 ---
 %repris de 2.7 (plus des parties de texte ci-dessus)
 
-Dans le tableau [ref:n_funkwellen_baender], on trouve par exemple trois bandes radioamateurs, que les radioamateurs des deux classes peuvent utiliser, avec leur « indication en mètres » exacte.
+Dans le tableau [ref:n_funkwellen_baender], on trouve par exemple trois bandes radioamateurs, que les radioamateurs des deux classes peuvent utiliser, avec leur « indication en mètres » exacte.
 
 <margin>
 | l: Fréquence | l: Longueur d’onde | X: Bande |

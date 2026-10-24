@@ -39,7 +39,7 @@ Lorsqu'on opère à l'étranger, cela doit être indiqué par un préfixe d'indi
 
 
 <attention>
-La séparation entre le préfixe étranger et son propre indicatif d'appel doit se faire par le mot "stroke" !
+La séparation entre le préfixe étranger et son propre indicatif d'appel doit se faire par le mot « stroke » !
 </attention>
 
 [question:BD213]
@@ -69,7 +69,7 @@ Comme en Suisse, les différents pays de la CEPT ont des réglementations nation
 Si l'on traverse un pays lors d'un voyage où l'autorisation de radioamateurisme n'est pas reconnue, il faut se renseigner à l'avance si les équipements radio peuvent être transportés et, le cas échéant, obtenir une autorisation correspondante. Le [service des relations internationales du DARC](https://50ohm.de/ra) peut aider ses membres à clarifier ces questions.
 </tip>
 
-Si l'on déménage à l'étranger pour plus de 3 mois ou de manière permanente, on peut demander une autorisation de radioamateurisme simplifiée sur la base de l'attestation d'examen CEPT-Novice-Amateurfunk ou du certificat d'examen harmonisé de radioamateurisme (HAREC), sans avoir à repasser un examen. La "licence d’initiation pour les radioamateurs" suisse (HB3) est également une attestation d'examen CEPT-Novice-Amateurfunk et le "certificat de capacité pour le service radioamateur" suisse est en même temps une attestation HAREC.
+Si l'on déménage à l'étranger pour plus de 3 mois ou de manière permanente, on peut demander une autorisation de radioamateurisme simplifiée sur la base de l'attestation d'examen CEPT-Novice-Amateurfunk ou du certificat d'examen harmonisé de radioamateurisme (HAREC), sans avoir à repasser un examen. La « licence d’initiation pour les radioamateurs » suisse (HB3) est également une attestation d'examen CEPT-Novice-Amateurfunk et le « certificat de capacité pour le service radioamateur » suisse est en même temps une attestation HAREC.
 
 [question:VB102]
 [question:VB103]

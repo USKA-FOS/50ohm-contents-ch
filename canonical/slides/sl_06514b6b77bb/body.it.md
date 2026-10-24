@@ -35,7 +35,7 @@ Verrà ripreso più avanti nel capitolo Trasmettitore
 
 ---
 [question:AE305]
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ### Larghezza di banda
 
 <left>

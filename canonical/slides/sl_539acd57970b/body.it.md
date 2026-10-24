@@ -11,8 +11,8 @@
 
 Per trovare rapidamente partner radio
 
-* Radiotelefonia FM ("chiamata FM")
-* Telefonia digitale ("chiamata voce digitale")
+* Radiotelefonia FM («chiamata FM»)
+* Telefonia digitale («chiamata voce digitale»)
 
 <note>
 * La radiotelefonia FM è analogica
@@ -42,7 +42,7 @@ Per trovare rapidamente partner radio
 * Non esiste una frequenza di chiamata
 * Al suo posto esiste un *centro di attività* o *center of activity*
 * Le chiamate devono avvenire nelle vicinanze di questa frequenza
-* Tuttavia, è possibile utilizzare l'intera banda "SSB"
+* Tuttavia, è possibile utilizzare l'intera banda «SSB»
 
 ---
 [question:BC211]
@@ -52,11 +52,11 @@ Per trovare rapidamente partner radio
 
 ## Bande di frequenza riservate
 
-* Collegamenti uplink e downlink per satelliti ("satellite uplink", "satellite downlink")
-* Beacon ("beacons")
-* Stazioni ripetitori, ingresso e uscita ("repeater input", "repeater output")
-* Comunicazione spaziale ("space communication")
-* Telegrafia Morse ("CW")
+* Collegamenti uplink e downlink per satelliti («satellite uplink», «satellite downlink»)
+* Beacon («beacons»)
+* Stazioni ripetitori, ingresso e uscita («repeater input», «repeater output»)
+* Comunicazione spaziale («space communication»)
+* Telegrafia Morse («CW»)
 
 <note>
 * Evitare di utilizzare queste bande per altri tipi di collegamenti

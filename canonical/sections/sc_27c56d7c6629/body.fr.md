@@ -6,7 +6,7 @@ Lorsque des particules chargées du vent solaire pénètrent dans le champ magn�
 
 ---
 
-Les zones de réfraction sont très dynamiques, le trajet du signal des ondes radio change donc constamment et massivement. Cela provoque des fluctuations rapides du signal (fading) et également un élargissement fréquentiel du signal, appelé Doppler-Spread. C'est pourquoi les liaisons en téléphonie sont difficiles, car la parole devient difficilement compréhensible. Les signaux télégraphiques (CW) sont plus adaptés, mais ils ont également un ton très rugueux, c'est pourquoi dans le rapport de signal RST, le "T" pour l'évaluation de la qualité du ton est complètement omis et remplacé par la lettre "A" pour "Aurora".
+Les zones de réfraction sont très dynamiques, le trajet du signal des ondes radio change donc constamment et massivement. Cela provoque des fluctuations rapides du signal (fading) et également un élargissement fréquentiel du signal, appelé Doppler-Spread. C'est pourquoi les liaisons en téléphonie sont difficiles, car la parole devient difficilement compréhensible. Les signaux télégraphiques (CW) sont plus adaptés, mais ils ont également un ton très rugueux, c'est pourquoi dans le rapport de signal RST, le « T » pour l'évaluation de la qualité du ton est complètement omis et remplacé par la lettre « A » pour « Aurora ».
 
 <webonly>
 <margin>

@@ -98,7 +98,7 @@ $f_0 = \frac{1}{2\pi \sqrt{L\cdot C}}$
 
 ---
 
-Questa formula è nota come formula di Thomson e vale sia per i circuiti oscillanti paralleli che per quelli serie. Nella raccolta di formule, la troviamo nella sezione "circuiti oscillanti". Essa afferma che la frequenza di risonanza di un circuito oscillante dipende esclusivamente dall’induttanza della bobina e dalla capacità del condensatore. Le resistenze ohmiche e le perdite non influenzano la frequenza di risonanza. Con questa formula possiamo calcolare la frequenza di risonanza dei circuiti oscillanti.
+Questa formula è nota come formula di Thomson e vale sia per i circuiti oscillanti paralleli che per quelli serie. Nella raccolta di formule, la troviamo nella sezione «circuiti oscillanti». Essa afferma che la frequenza di risonanza di un circuito oscillante dipende esclusivamente dall’induttanza della bobina e dalla capacità del condensatore. Le resistenze ohmiche e le perdite non influenzano la frequenza di risonanza. Con questa formula possiamo calcolare la frequenza di risonanza dei circuiti oscillanti.
 
 <indepth>
 Le resistenze ohmiche nei circuiti oscillanti paralleli e serie influenzano tuttavia il fattore di qualità ($Q$) e, di conseguenza, la larghezza di banda ($B$) del circuito oscillante. Su questo argomento torneremo in seguito in modo più approfondito.
@@ -226,7 +226,7 @@ Con accoppiamento debole o sottocritico, l’interazione reciproca è minima; tu
 
 Con accoppiamento critico, i due circuiti oscillanti si influenzano a vicenda in modo tale da ottenere una curva di risposta piatta con bassa attenuazione nel campo di passaggio e completamente piana (piattaforma) nella zona desiderata di passaggio. La larghezza di banda del sistema è maggiore rispetto all’accoppiamento debole o sottocritico. Questo è anche un buon modo per riconoscere un accoppiamento critico.
 
-Con accoppiamento sovracritico, l’interazione reciproca dei due circuiti oscillanti è molto forte, il che porta a una forte variazione di entrambe le frequenze di risonanza e, di conseguenza, a una grande larghezza di banda. La curva di risposta nel campo di passaggio viene fortemente distorta e si formano due punti di risonanza a sinistra e a destra della frequenza centrale. La curva di risposta presenta una "insenatura". Questo è un buon modo per riconoscere un accoppiamento sovracritico.
+Con accoppiamento sovracritico, l’interazione reciproca dei due circuiti oscillanti è molto forte, il che porta a una forte variazione di entrambe le frequenze di risonanza e, di conseguenza, a una grande larghezza di banda. La curva di risposta nel campo di passaggio viene fortemente distorta e si formano due punti di risonanza a sinistra e a destra della frequenza centrale. La curva di risposta presenta una «insenatura». Questo è un buon modo per riconoscere un accoppiamento sovracritico.
 
 [question:AD227]
 [question:AD228]

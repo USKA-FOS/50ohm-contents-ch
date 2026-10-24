@@ -1,4 +1,4 @@
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 ## Caractéristiques d'antenne et directivité
 
@@ -48,7 +48,7 @@ $\begin{split}\frac{Avant}{Arrière} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}
 
 [question:AG215]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 #### Méthode de résolution
 <left>
 * donné : $g_D= \qty{10}{\dB}$
@@ -73,7 +73,7 @@ $\begin{split}\qty{20}{\dB} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} 
 
 [question:AG216]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 #### Méthode de résolution
 <left>
 * donné : $g_D= \qty{15}{\dB}$
@@ -99,7 +99,7 @@ $\begin{split}\qty{25}{\dB} &= 10 \cdot \log_{10}{\left(\frac{P_V}{P_R}\right)} 
 
 [question:AG218]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 #### Méthode de résolution
 <left>
 * donné : $U_V = \qty{300}{\micro\volt\per\meter}$

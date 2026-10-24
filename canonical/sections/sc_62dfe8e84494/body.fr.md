@@ -87,7 +87,7 @@ Si l'on introduit un matériau ferromagnétique comme le fer dans la bobine, le 
 Si l'on introduit dans une bobine cylindrique un noyau en un métal conducteur (non ferromagnétique) comme l'aluminium ou le cuivre, l'inductance de la bobine diminue au contraire. Cela est dû au fait que le champ magnétique à haute fréquence de la bobine induit des courants, appelés courants de Foucault, dans les noyaux. Ces courants secondaires génèrent à leur tour des champs magnétiques qui s'opposent au champ magnétique de la bobine. C'est pourquoi l'inductance diminue. Le champ magnétique à l'intérieur du noyau est alors réduit.
 
 
-Dans la question suivante, la réponse considérée comme correcte est que le champ magnétique ne peut pas pénétrer dans le noyau, réduisant ainsi la section du champ. Cependant, ce n'est pas exactement ce qui se passe physiquement. Il suffit simplement de retenir la "bonne" réponse.
+Dans la question suivante, la réponse considérée comme correcte est que le champ magnétique ne peut pas pénétrer dans le noyau, réduisant ainsi la section du champ. Cependant, ce n'est pas exactement ce qui se passe physiquement. Il suffit simplement de retenir la « bonne » réponse.
 
 
 [question:EB205]

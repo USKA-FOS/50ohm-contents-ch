@@ -6,7 +6,7 @@
 $d=\dfrac{\sqrt{30\,\Omega\cdot P_A\cdot G_i}}{E}$
 </fragment>
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 #### Informations complémentaires sur les procédés de modulation dans le calcul de la distance de sécurité
 
 * Lors de l'affichage d'une installation de radioamateur fixe (selon § 9, BEMFV), le facteur de conversion $\textrm{Facteur}_\textrm{FmodPers}$ doit être indiqué
@@ -22,7 +22,7 @@ DIN EN 50413, pertinent pour le radioamateurisme uniquement ATV avec $\num{0,38}
 
 [question:AK106]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 #### Méthode de résolution
 <left>
 * donné : $E = \qty{28}{\volt\per\meter}$
@@ -49,7 +49,7 @@ $P_\text{EIRP} = P_S\cdot10^{\frac{g_d - a + \qty{2,15}{\dB}}{\qty{10}{\dB}}}$
 
 [question:AK108]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 #### Méthode de résolution
 <left>
 * donné : $E = \qty{28}{\volt\per\meter}$
@@ -76,7 +76,7 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow 
 
 [question:AK109]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 #### Méthode de résolution
 <left>
 * donné : $E = \qty{28}{\volt\per\meter}$
@@ -103,7 +103,7 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow 
 
 [question:AK110]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 #### Méthode de résolution
 <left>
 * donné : $E = \qty{28}{\volt\per\meter}$
@@ -130,7 +130,7 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow 
 
 [question:AK111]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 #### Méthode de résolution
 <left>
 * donné : $E = \qty{28}{\volt\per\meter}$
@@ -157,7 +157,7 @@ $\begin{split}E &= \frac{\sqrt{\qty{30}{\ohm} \cdot P_{EIRP}}}{d}\\ \Rightarrow 
 
 [question:AK112]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 #### Méthode de résolution
 <left>
 * donné : $E = \qty{61}{\volt\per\meter}$

@@ -1,6 +1,6 @@
 <left>
 * Les tensions peuvent être mesurées avec un voltmètre
-* Symbole électrique : "V dans un cercle"
+* Symbole électrique : « V dans un cercle »
 * Régler correctement l'appareil de mesure
 * Mesurer aux bons endroits
 </left>
@@ -20,7 +20,7 @@
 [picture:620:n_messgeraete_spannungsmessung:Mesure de la tension]
 </right>
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## Multimètre
 
@@ -29,8 +29,8 @@
 </left>
 <right>
 * Appareil de mesure combiné pour la tension, le courant et d'autres grandeurs
-* Fil de mesure noir sur "COM" (commun), rouge sur "V"
-* Pour mesurer la tension, choisir "V ~" (tension alternative) ou "V =" (tension continue)
+* Fil de mesure noir sur « COM » (commun), rouge sur « V »
+* Pour mesurer la tension, choisir « V ~ » (tension alternative) ou « V = » (tension continue)
 * Commencer par choisir la plage de mesure la plus grande, puis éventuellement la réduire
 </right>
 

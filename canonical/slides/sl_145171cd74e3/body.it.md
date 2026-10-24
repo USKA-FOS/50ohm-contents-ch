@@ -1,4 +1,4 @@
-* Su una frequenza "vuota" si sente rumore
+* Su una frequenza «vuota» si sente rumore
 * In FM il rumore è particolarmente forte
 * Con lo *squelch* è possibile silenziare il rumore
 * In inglese *Squelch* (SQL)

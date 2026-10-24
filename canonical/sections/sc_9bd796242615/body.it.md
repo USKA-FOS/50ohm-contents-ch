@@ -1,6 +1,6 @@
 Quando un segnale ad alta frequenza viene trasmesso attraverso un cavo, la sua intensità diminuisce all'aumentare della lunghezza. Questo effetto viene chiamato *attenuazione del cavo* ed è generalmente indesiderato. Anche i connettori possono contribuire all'attenuazione di un segnale.
 
-L'attenuazione viene generalmente espressa in decibel ($\unit{\dB}$), dove un valore positivo indica una diminuzione del segnale quando si parla di "attenuazione".
+L'attenuazione viene generalmente espressa in decibel ($\unit{\dB}$), dove un valore positivo indica una diminuzione del segnale quando si parla di «attenuazione».
 
 Per le domande seguenti, è necessario determinare innanzitutto il fattore con cui la potenza diminuisce (ad esempio, fattore $\num{2}$ in caso di dimezzamento o fattore $\num{10}$ in caso di diminuzione dal $\qty{100}{\percent}$ al $\qty{10}{\percent}$). Successivamente, questo fattore di potenza può essere convertito in una misura in decibel utilizzando la tabella [ref:e_dezibel_leistungsfaktoren] nella raccolta di formule, oppure la soluzione può essere cercata direttamente.
 

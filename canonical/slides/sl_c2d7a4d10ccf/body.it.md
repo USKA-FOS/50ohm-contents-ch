@@ -72,10 +72,10 @@ Il Referato per la radioemergenza del DARC fornisce raccomandazioni per l’orga
 ### Segnali di emergenza
 
 * I segnali di emergenza al di fuori del servizio di radioamatore sono SOS e MAYDAY
-  * In radiotelefonia si usa "Mayday", in telegrafia "SOS"
+  * In radiotelefonia si usa «Mayday», in telegrafia «SOS»
 * Segnali di urgenza e sicurezza: PAN PAN e SÉCURITÉ
 * Questi segnali sono riservati al traffico marittimo e aereo e non possono essere utilizzati nel servizio di radioamatore
-* È comunque possibile trasmettere chiamate di emergenza, ad esempio utilizzando i termini "Notfall" o "Emergency"
+* È comunque possibile trasmettere chiamate di emergenza, ad esempio utilizzando i termini «Notfall» o «Emergency»
 
 ---
 
@@ -107,7 +107,7 @@ L’IARU ha definito le seguenti frequenze di emergenza radioamatoriale nei pian
 
 
 <note>
-Inoltre, in caso di terremoti, organizzazioni locali comunicano ulteriori frequenze nei "mezzi di comunicazione radioamatoriali".
+Inoltre, in caso di terremoti, organizzazioni locali comunicano ulteriori frequenze nei «mezzi di comunicazione radioamatoriali».
 </note>
 
 ---

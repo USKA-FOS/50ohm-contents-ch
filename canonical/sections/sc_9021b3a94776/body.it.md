@@ -5,7 +5,7 @@ Il transistor bipolare è costituito da tre zone semiconduttrici, drogate altern
 La figura [ref:a_bipolartransistor_aus] mostra un transistor npn nello stato spento.
 Non appena la tensione base-emettitore $U_\mathrm{BE}$ viene applicata accendendo l'interruttore (tipicamente $\approx \qtyrange{0,6}{0,7}{\volt}$ per il silicio), il diodo base-emettitore diventa conduttivo. Di conseguenza, scorre una piccola corrente di base $I_\mathrm{B}$ (cfr. figura [ref:a_bipolartransistor_ein]).
 
-Questa piccola corrente di base fa sì che dall'emettitore vengano introdotti molti elettroni nella sottile base. Poiché la base è molto stretta, la maggior parte di questi portatori di carica procede ulteriormente verso il collettore. Lì vengono "aspirati" dalla tensione collettore-emettitore applicata $U_\mathrm{CE}$, scorre la corrente di collettore $I_\mathrm{C}$. Essa è maggiore della corrente di base di un fattore $B$, dove $B$ è il cosiddetto guadagno di corrente del transistor. Valori tipici per $B$ sono compresi tra $\num{20}$ e $\num{500}$.
+Questa piccola corrente di base fa sì che dall'emettitore vengano introdotti molti elettroni nella sottile base. Poiché la base è molto stretta, la maggior parte di questi portatori di carica procede ulteriormente verso il collettore. Lì vengono «aspirati» dalla tensione collettore-emettitore applicata $U_\mathrm{CE}$, scorre la corrente di collettore $I_\mathrm{C}$. Essa è maggiore della corrente di base di un fattore $B$, dove $B$ è il cosiddetto guadagno di corrente del transistor. Valori tipici per $B$ sono compresi tra $\num{20}$ e $\num{500}$.
 
 <margin>
 [picture:1071:a_bipolartransistor_aus:Transistor bipolare NPN nello stato spento]
@@ -36,7 +36,7 @@ Anche se il transistor bipolare è fisicamente controllato da $U_\mathrm{BE}$, v
 
 [question:AC501]
 
-Un transistor è definito "conduttore" in "verso diretto" quando scorre una significativa corrente di collettore. A tal fine, il diodo base-emettitore deve essere sempre polarizzato in direzione diretta, cioè $U_{BE}$ positiva per i transistor npn e negativa per quelli pnp. Il diodo collettore-base, invece, deve essere in interdizione, poiché non devono essere iniettati portatori di carica dal collettore nella base.
+Un transistor è definito «conduttore» in «verso diretto» quando scorre una significativa corrente di collettore. A tal fine, il diodo base-emettitore deve essere sempre polarizzato in direzione diretta, cioè $U_{BE}$ positiva per i transistor npn e negativa per quelli pnp. Il diodo collettore-base, invece, deve essere in interdizione, poiché non devono essere iniettati portatori di carica dal collettore nella base.
 
 [question:AC505]
 
@@ -85,7 +85,7 @@ Se la corrente di collettore $I_C$ aumenta, aumenta anche la corrente di emettit
 
 Una tensione base-emettitore più piccola significa che il transistor conduce meno. Di conseguenza, l'aumento iniziale della corrente viene ridotto.
 
-Il circuito contrasta automaticamente le variazioni di corrente. Per questo si parla di controreazione. Se la corrente aumenta, il transistor viene leggermente "chiuso". Se la corrente diminuisce, il transistor conduce di nuovo più fortemente. In questo modo si stabilizza il punto di funzionamento del circuito.
+Il circuito contrasta automaticamente le variazioni di corrente. Per questo si parla di controreazione. Se la corrente aumenta, il transistor viene leggermente «chiuso». Se la corrente diminuisce, il transistor conduce di nuovo più fortemente. In questo modo si stabilizza il punto di funzionamento del circuito.
 </indepth>
 
 Il potenziale di base è fissato dal partitore di tensione $R_1$ e $R_2$. Poiché attraverso la resistenza di emettitore $R_E$ deve diminuire $\qty{1}{\volt}$, il potenziale di base deve essere $\qty{1,6}{\volt}$. Con una corrente di collettore di $\qty{2}{\milli\ampere}$ e un guadagno di corrente di $\num{200}$, la corrente di base è $\qty{10}{\micro\ampere}$. Poiché la corrente attraverso $R_2$ deve essere dieci volte la corrente di base, attraverso $R_1$ scorre undici volte la corrente di base, cioè $\qty{110}{\micro\ampere}$. Attraverso $R_1$ diminuisce la differenza tra la tensione di servizio ($\qty{10}{\volt}$) e il potenziale di base, quindi $\qty{8,4}{\volt}$. Ora possiamo determinare $R_1$:
@@ -116,11 +116,11 @@ Per evitare ciò, colleghiamo un diodo di ricircolo *in parallelo*. È collegato
 
 ---
 
-I transistor ad effetto di campo hanno un principio di controllo completamente diverso rispetto ai transistor bipolari. Mentre nei transistor bipolari devono essere considerati sia gli elettroni che le lacune (da qui "bipolare"), nel transistor ad effetto di campo è coinvolto solo un tipo di portatore di carica ("unipolare"). Questi possono essere elettroni (*transistor ad effetto di campo a canale n*) o lacune (*transistor ad effetto di campo a canale p*).
+I transistor ad effetto di campo hanno un principio di controllo completamente diverso rispetto ai transistor bipolari. Mentre nei transistor bipolari devono essere considerati sia gli elettroni sia l'assenza di elettroni («lacune») (da qui «bipolare»), nel transistor ad effetto di campo è coinvolto solo un tipo di portatore di carica («unipolare»). Questi possono essere elettroni (*transistor ad effetto di campo a canale n*) o lacune (*transistor ad effetto di campo a canale p*).
 
 Gli elettrodi del FET, che sono rappresentati nella figura [ref:a_fet_schnitt_aus], sono denominati come segue:
 
-* *Source*: questa è la "fonte" (in inglese source) per i portatori di carica nel canale. Non confondersi: il cosiddetto verso convenzionale della corrente è definito in direzione opposta al flusso dei portatori di carica!
+* *Source*: questa è la «fonte» (in inglese source) per i portatori di carica nel canale. Non confondersi: il cosiddetto verso convenzionale della corrente è definito in direzione opposta al flusso dei portatori di carica!
 * *Drain*: questo è lo scarico (in inglese drain) per i portatori di carica nel canale.
 * *Gate*: Il gate (in inglese per cancello) controlla il flusso dei portatori di carica nel canale.
 

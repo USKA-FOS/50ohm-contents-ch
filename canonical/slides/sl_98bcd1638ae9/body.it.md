@@ -18,7 +18,7 @@
 ---
 ## Compatibilità elettromagnetica ambientale (EMVU)
 
-Il gestore della stazione radioamatoriale fissa è responsabile del rispetto della "compatibilità elettromagnetica ambientale" (EMVU).
+Il gestore della stazione radioamatoriale fissa è responsabile del rispetto della «compatibilità elettromagnetica ambientale» (EMVU).
 
 <note>
 * I valori limite devono essere rispettati
@@ -37,19 +37,19 @@ Il gestore della stazione radioamatoriale fissa è responsabile del rispetto del
 
 I valori limite si trovano nella
 
-* "26ª ordinanza di attuazione della legge federale sulla protezione contro le immissioni" (26. BImSchV)
+* «26ª ordinanza di attuazione della legge federale sulla protezione contro le immissioni» (26. BImSchV)
 
 e nella
 
-* "Ordinanza sul procedimento di verifica per la limitazione dei campi elettromagnetici" (BEMFV)
+* «Ordinanza sul procedimento di verifica per la limitazione dei campi elettromagnetici» (BEMFV)
 
 ---
 [question:VE505]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ## Procedimento di verifica secondo la BEMFV
 
-* Nella "Ordinanza sul procedimento di verifica per la limitazione dei campi elettromagnetici" (BEMFV) è descritto il procedimento di verifica
+* Nella «Ordinanza sul procedimento di verifica per la limitazione dei campi elettromagnetici» (BEMFV) è descritto il procedimento di verifica
 * *Il radioamatore deve assicurare e documentare autonomamente, prima della messa in funzione, che non vi sia pericolo per le persone*
 * I radioamatori sono l'unica categoria a cui è concesso di eseguire autonomamente questo procedimento
 * Tutti gli altri gestori di stazioni radio devono avvalersi a pagamento della Bundesnetzagentur (BNetzA).

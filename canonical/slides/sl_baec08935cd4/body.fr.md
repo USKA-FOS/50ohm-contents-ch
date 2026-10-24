@@ -12,7 +12,7 @@
 ---
 
 <left>
-* Ainsi, nous "coupions" l'alternance négative de la tension alternative.
+* Ainsi, nous « coupions » l'alternance négative de la tension alternative.
 * D'autres composants sont nécessaires pour obtenir une tension continue stable à partir des alternances positives ; ceux-ci seront abordés dans le cours classe A.
 </left>
 <right>

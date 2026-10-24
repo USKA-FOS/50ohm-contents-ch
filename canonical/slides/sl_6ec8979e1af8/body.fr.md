@@ -2,7 +2,7 @@
 
 * La fréquence est réglée sur l’appareil radio via un bouton rotatif ou des touches
 * Seules les stations sur la fréquence réglée peuvent être entendues
-* Tourner lentement « sur la bande » pour détecter d’autres stations
+* Tourner lentement « sur la bande » pour détecter d’autres stations
 
 ---
 ## Spectre d’amplitude et diagramme en cascade

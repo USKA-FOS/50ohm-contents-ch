@@ -1,4 +1,4 @@
---- data-transition="none"
+--- data-transition=«none»
 ### 1. Antenna
 
 <left>
@@ -10,7 +10,7 @@
 * Questo tipo di ricevitore è detto *ricevitore a conversione diretta*: la frequenza del segnale non viene modificata fino al demodulatore
 </right>
 
---- data-transition="none"
+--- data-transition=«none»
 
 ### 2. Filtro passa-banda
 
@@ -23,7 +23,7 @@
 * Il simbolo mostra due onde barrate sopra e sotto l’onda che viene fatta passare
 </right>
 
---- data-transition="none"
+--- data-transition=«none»
 
 ### 3. Amplificatore RF
 
@@ -34,7 +34,7 @@
 * Amplifica il segnale filtrato
 </right>
 
---- data-transition="none"
+--- data-transition=«none»
 
 ### 4. Demodulatore
 
@@ -51,7 +51,7 @@
 * Verrà trattato in seguito nel corso
 </note>
 
---- data-transition="none"
+--- data-transition=«none»
 
 ### 5. Amplificatore BF
 
@@ -63,7 +63,7 @@
 * Amplificatore BF per amplificare il segnale per l’altoparlante
 </right>
 
---- data-transition="none"
+--- data-transition=«none»
 
 ### 6. Altoparlante
 

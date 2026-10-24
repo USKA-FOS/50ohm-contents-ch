@@ -4,7 +4,7 @@ Le radioamateurisme ne fonctionne malheureusement pas sans contributions financi
 
 [question:VE702]
 
-En plus des frais récurrents, d'autres frais s'appliquent, régis par le "Règlement particulier des frais de l'Agence fédérale des réseaux (BNetzABGebV)". Cela inclut, par exemple, les frais d'examen pour le radioamateurisme ainsi que les frais d'obtention de la licence.
+En plus des frais récurrents, d'autres frais s'appliquent, régis par le « Règlement particulier des frais de l'Agence fédérale des réseaux (BNetzABGebV) ». Cela inclut, par exemple, les frais d'examen pour le radioamateurisme ainsi que les frais d'obtention de la licence.
 
 Si une redevance n'est pas payée, l'État la recouvre conformément à la loi sur l'exécution administrative (VwVG). Selon cette loi, la Bundesnetzagentur dispose de différentes méthodes de recouvrement.
 

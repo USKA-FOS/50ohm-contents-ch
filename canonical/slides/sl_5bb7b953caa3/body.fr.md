@@ -22,7 +22,7 @@ QTH Berlin $\rightarrow$ QTH?
 ---
 * QRV : Je suis prêt (je suis *v*准备好)
 * QRM : Perturbation, ou en question : Êtes-vous perturbé ? &rarr; *M*an-made, par exemple une installation photovoltaïque ou une émission sur une fréquence voisine
-* QTH : Ma position est ..., par exemple "QTH Berlin"
+* QTH : Ma position est ..., par exemple « QTH Berlin »
 
 ---
 [question:BB204]
@@ -38,9 +38,9 @@ QTH Berlin $\rightarrow$ QTH?
 
 
 ---
-* "QRZ?" est souvent utilisé sur les bandes amateur à la place de "CQ"
-* En particulier lors d'un "pile-up", quand de nombreuses stations veulent contacter une station très demandée
-* Après avoir traité un appel, la station très demandée envoie brièvement "QRZ?" pour rappeler d'autres stations
+* « QRZ? » est souvent utilisé sur les bandes amateur à la place de « CQ »
+* En particulier lors d'un « pile-up », quand de nombreuses stations veulent contacter une station très demandée
+* Après avoir traité un appel, la station très demandée envoie brièvement « QRZ? » pour rappeler d'autres stations
 
 
 ---
@@ -71,8 +71,8 @@ QTH Berlin $\rightarrow$ QTH?
 
 ---
 * QRN : Perturbations atmosphériques (*n*aturelles, pour se différencier de QRM)
-* QSB : Fading, signaux fluctuants ("*b*as et *b*as")
-* QSY : Changement de fréquence ("Change Frequenc*y*")
+* QSB : Fading, signaux fluctuants (« *b*as et *b*as »)
+* QSY : Changement de fréquence (« Change Frequenc*y* »)
 
 ---
 
@@ -87,7 +87,7 @@ QTH Berlin $\rightarrow$ QTH?
 [question:BE107]
 
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 | l: | l: Signification | l: Astuce mnémotechnique |
 | QRN | Perturbations atmosphériques | *N*aturelles |
@@ -99,7 +99,7 @@ QTH Berlin $\rightarrow$ QTH?
 [table:n_q_gruppen_1:Tous les groupes Q pertinents pour l'examen, avec astuces mnémotechniques]
 
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 | l: | l: Signification | l: Astuce mnémotechnique |
 | QRX? | Quand me rappellerez-vous ? | Moment *X* |

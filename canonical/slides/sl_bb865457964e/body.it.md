@@ -1,4 +1,4 @@
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 <left>
 * Tensione generata dalla separazione di carica nei processi elettrochimici
 * Nell'accumulatore il processo è reversibile, le batterie sono invece usa e getta
@@ -23,7 +23,7 @@
 
 [question:NB203]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ## Collegamento in serie
 

@@ -16,7 +16,7 @@ Optionnellement, la PLL peut être complétée par un *diviseur de fréquence* p
 
 ---
 
-Le comparateur de phase mesure la différence de phase entre les signaux du VCO ($f_\mathrm{out}$) et de l’oscillateur de référence ($f_\mathrm{ref}$). En cas d’écart de phase, il émet des impulsions correspondant à l’erreur. Ces impulsions sont lissées par le filtre passe-bas et converties en une tension continue proportionnelle. La tension continue générée sert de signal de commande pour le VCO, qui régule sa fréquence de manière à réduire progressivement l’écart de phase jusqu’à zéro. Lorsque cet état est atteint, on dit que la PLL est « verrouillée » (locked), c’est-à-dire dans un *état stable*. Dans l’état stable de la PLL, les fréquences et les phases des deux signaux sont identiques. On a alors :
+Le comparateur de phase mesure la différence de phase entre les signaux du VCO ($f_\mathrm{out}$) et de l’oscillateur de référence ($f_\mathrm{ref}$). En cas d’écart de phase, il émet des impulsions correspondant à l’erreur. Ces impulsions sont lissées par le filtre passe-bas et converties en une tension continue proportionnelle. La tension continue générée sert de signal de commande pour le VCO, qui régule sa fréquence de manière à réduire progressivement l’écart de phase jusqu’à zéro. Lorsque cet état est atteint, on dit que la PLL est « verrouillée » (locked), c’est-à-dire dans un *état stable*. Dans l’état stable de la PLL, les fréquences et les phases des deux signaux sont identiques. On a alors :
 
 $f_\mathrm{ref}=\frac{f_\mathrm{out}}{n}$
 

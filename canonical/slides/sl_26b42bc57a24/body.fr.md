@@ -1,4 +1,4 @@
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 ## Le décibel expliqué simplement
 
 | l:Quoi | r:Puissance en $\unit{\milli\watt}$ |
@@ -13,8 +13,8 @@
 
 Qui manipule ces chiffres commence automatiquement à compter les zéros.
 
---- style="font-size: 0.7em;"
-Nous comptons les zéros (et appelons le résultat "bel")
+--- style=« font-size: 0.7em; »
+Nous comptons les zéros (et appelons le résultat « bel »)
 
 | l:Quoi | r:Puissance en $\unit{\milli\watt}$ | r:Bel |
 | Puissance effective d'une station EME | 100 000 000 | 8 |
@@ -29,7 +29,7 @@ Nous comptons les zéros (et appelons le résultat "bel")
 <note>
 D'après Alexander Graham Bell
 </note>
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 $\unit{\dBm}$ = décibel par rapport à $\unit{\milli\watt}$
 
 | l:Quoi | r:Puissance en $\unit{\milli\watt}$ | r:Bel | r:$\unit{\dBm}$ |
@@ -76,7 +76,7 @@ $\unit{\dBm}$ = décibel par rapport à $\unit{\milli\watt}$
 * Le gain est un facteur et n'est pas rapporté au $\unit{mW}$, c'est pourquoi on utilise uniquement $\unit{\dB}$
 </note>
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 ## Facteurs de puissance importants
 
 | c:$\unit{dB}$ | c:≈ Facteur de puissance |

@@ -1,4 +1,4 @@
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 <left>
 * Tension par séparation de charges dans des processus électrochimiques
 * Dans un accumulateur, le processus est réversible, les batteries ne sont utilisables qu’une seule fois
@@ -23,7 +23,7 @@
 
 [question:NB203]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## Montage en série
 

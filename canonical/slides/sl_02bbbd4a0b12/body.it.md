@@ -5,7 +5,7 @@
 [question:EH217]
 <note>
 * Chi ha un mappamondo può mostrarlo con questo
-* Formulazione difficile con "la direzione opposta al percorso più breve"
+* Formulazione difficile con «la direzione opposta al percorso più breve»
 </note>
 ---
 [question:EH216]

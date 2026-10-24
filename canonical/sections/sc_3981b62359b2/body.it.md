@@ -9,7 +9,7 @@ Su questo argomento si tornerà più dettagliatamente nella [sec:ausbildungsrufz
 [Foglio informativo UFCOM 1.2](https://www.bakom.admin.ch/it/amateurfunk#Merkblatt-Amateurfunk)
 </law>
 
-L’attività radio di addestramento è rivolta a persone che *non* sono titolari di un certificato di operatore radio. Essa serve a preparare praticamente l’esame per ottenere il certificato, permettendo di applicare in pratica ciò che si è appreso teoricamente. Inoltre, rappresenta anche un’opportunità per "mantenersi in esercizio" dopo aver superato l’esame: senza la pratica, anche le conoscenze teoriche non bastano per operare correttamente.
+L’attività radio di addestramento è rivolta a persone che *non* sono titolari di un certificato di operatore radio. Essa serve a preparare praticamente l’esame per ottenere il certificato, permettendo di applicare in pratica ciò che si è appreso teoricamente. Inoltre, rappresenta anche un’opportunità per «mantenersi in esercizio» dopo aver superato l’esame: senza la pratica, anche le conoscenze teoriche non bastano per operare correttamente.
 
 L’istruttore deve sempre trovarsi nelle immediate vicinanze dell’allievo e guidarlo nell’uso del trasmettitore e nella gestione delle comunicazioni. Solo la presenza fisica consente all’istruttore di intervenire tempestivamente, se necessario anche spegnendo il trasmettitore. Non è consentito supervisionare un allievo a distanza o tramite radio da un altro luogo, poiché in questo caso non è garantita un’adeguata assistenza e supervisione diretta.
 % Non esiste una base giuridica esplicita per questa descrizione. Nel foglio informativo 1.2 si legge solo "sotto costante supervisione". Tuttavia, questa sezione mi sembra comunque utile, poiché dovrebbe essere così.

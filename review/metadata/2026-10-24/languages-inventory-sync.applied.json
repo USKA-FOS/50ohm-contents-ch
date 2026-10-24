@@ -1,0 +1,16 @@
+{
+  "kind": "canonical_language_inventory_sync_application",
+  "plan": "languages-inventory-sync.plan.json",
+  "plan_sha256": "81757288c195543e4901f130f9886e9e0f28592d55c6bc7d8ae475357518ba4b",
+  "applied_objects": 16,
+  "added_language_declarations": 29,
+  "validation_after": {
+    "canonical_root": "/home/jjcarron/proj/50-Ohms/ham-translator/50ohm-contents-ch/canonical",
+    "object_count": 2356,
+    "error_count": 0,
+    "warning_count": 0,
+    "errors": [],
+    "warnings": [],
+    "valid": true
+  }
+}

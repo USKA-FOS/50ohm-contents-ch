@@ -2,7 +2,7 @@ Dans la section [sec:reihe_parallel_kondensator], nous avons déjà appris comme
 
 Dans les circuits d'accord parallèles, les bobines et les condensateurs sont combinés. Une bobine réelle possède également une certaine capacité propre. Celle-ci apparaît par exemple à cause des spires de la bobine et des couplages de champ électrique qui en résultent entre les spires.
 
-Pour un calcul aussi précis que possible de la fréquence de résonance, ces capacités "invisibles" doivent être prises en compte. Dans l'exercice suivant, les capacités des condensateurs et la capacité propre de la bobine peuvent être additionnées directement, car elles sont placées en parallèle.
+Pour un calcul aussi précis que possible de la fréquence de résonance, ces capacités « invisibles » doivent être prises en compte. Dans l'exercice suivant, les capacités des condensateurs et la capacité propre de la bobine peuvent être additionnées directement, car elles sont placées en parallèle.
 
 Il est particulièrement important de faire attention aux différentes unités. Avant le calcul, toutes les valeurs doivent donc être converties dans la même unité, afin que les capacités puissent être additionnées correctement.
 

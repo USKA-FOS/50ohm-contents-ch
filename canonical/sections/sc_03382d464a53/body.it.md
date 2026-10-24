@@ -22,7 +22,7 @@ $\frac{U_{2}}{U_g} = \frac{R_{2}}{R_{1} + R_{2}}$
 In un partitore di tensione caricato queste formule non valgono. A questo riguardo seguiranno domande nel capitolo [sec:spannungsteiler_2].
 </danger>
 
-Nelle seguenti domande il termine partitore di tensione non viene menzionato direttamente, ma dalla formulazione: "Come si divide la tensione ai due resistori collegati in serie ..." si dovrebbe riconoscere che si tratta di un partitore di tensione.
+Nelle seguenti domande il termine partitore di tensione non viene menzionato direttamente, ma dalla formulazione: «Come si divide la tensione ai due resistori collegati in serie ...» si dovrebbe riconoscere che si tratta di un partitore di tensione.
 
 [question:ED101]
 

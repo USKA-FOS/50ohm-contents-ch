@@ -21,7 +21,7 @@ Con questa conoscenza, consideriamo di nuovo la trasmissione AM nel diagramma a 
 
 [picture:738:n_seitenband_frequenzen_einzeln:Più oscillazioni sinusoidali con frequenze diverse]
 
-Rimane la domanda: perché da un'unica oscillazione sinusoidale, deformata tramite modulazione, si generano improvvisamente più oscillazioni sinusoidali? Per rispondere, consideriamo il processo al contrario. Se si hanno più oscillazioni sinusoidali con frequenze diverse e le si sommano, si ottiene un'oscillazione "deformata"!
+Rimane la domanda: perché da un'unica oscillazione sinusoidale, deformata tramite modulazione, si generano improvvisamente più oscillazioni sinusoidali? Per rispondere, consideriamo il processo al contrario. Se si hanno più oscillazioni sinusoidali con frequenze diverse e le si sommano, si ottiene un'oscillazione «deformata»!
 
 [picture:739:n_seitenband_frequenzen_addiert:Somma di più oscillazioni sinusoidali con frequenze diverse]
 

@@ -77,7 +77,7 @@ $\begin{split}\Delta f &= \qty{100}{\mega\hertz} \cdot \frac{1}{\num{10^6}}\\ &=
 </fragment>
 ---
 [question:AI509]
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 #### Méthode de résolution
 * donné : $f = \qty{145}{\mega\hertz}$
 * donné : $\textrm{Écart} = \qty{10}{\ppm}$

@@ -139,7 +139,7 @@ Un esempio di impostazione aggiuntiva è un subtono con CTCSS
 
 ## Sovrapposizione
 * Se due stazioni trasmettono contemporaneamente, l’emissione risulta disturbata fino a diventare illeggibile
-* Evitare la "sovrapposizione" con una corretta gestione dei turni
+* Evitare la «sovrapposizione» con una corretta gestione dei turni
 * Iniziare la trasmissione solo quando la stazione precedente ha terminato
 
 ---

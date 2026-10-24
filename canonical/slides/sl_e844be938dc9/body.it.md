@@ -23,7 +23,7 @@ I materiali possono essere suddivisi in tre gruppi:
 * La *resistenza* è l'inverso della conduttività: materiali con buona conduttività hanno una bassa resistenza, quelli con scarsa conduttività hanno un'alta resistenza
 </note>
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 ### Conduttori, ordinati dal migliore al peggiore
 
@@ -57,7 +57,7 @@ I materiali possono essere suddivisi in tre gruppi:
 * Non conducono corrente elettrica
 * Detto anche *isolatori*
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 ### Isolatori
 

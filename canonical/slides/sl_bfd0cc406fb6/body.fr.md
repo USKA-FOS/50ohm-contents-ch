@@ -8,10 +8,10 @@
 </right>
 
 <note>
-Exemple : 3 nuages de fumée espacés de 30 secondes signifient « CQ »
+Exemple : 3 nuages de fumée espacés de 30 secondes signifient « CQ »
 </note>
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## Signaux Morse
 <left>
@@ -25,12 +25,12 @@ Exemple : 3 nuages de fumée espacés de 30 secondes signifient « CQ »
 [photo:109:n_cwtast:Claviers Morse]
 </right>
 <note>
-* Les signaux Morse sont « donnés »
+* Les signaux Morse sont « donnés »
 * L’ensemble est appelé Continuous Wave (CW)
 </note>
 
 ---
-[photo:216:n_cqcq_horiz:"CQ CQ" en télégraphie Morse]
+[photo:216:n_cqcq_horiz:« CQ CQ » en télégraphie Morse]
 
 * Accord sur la signification de certaines séquences de durées variables
 * Au milieu du XIXe siècle, adoption du code Morse encore utilisé aujourd’hui

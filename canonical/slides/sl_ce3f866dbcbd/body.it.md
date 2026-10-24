@@ -5,7 +5,7 @@
 * La frequenza è regolabile con precisione elevata
 * È possibile generare direttamente modulazioni FM e PM
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 [picture:438:a_oszillator_dds:schema a blocchi per Sintesi Digitale Diretta]
 
 * Un generatore di clock con frequenza fissa fa avanzare un contatore di indirizzi

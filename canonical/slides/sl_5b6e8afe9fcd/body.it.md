@@ -10,7 +10,7 @@ Il ricevitore rende udibile o visibile l’informazione trasmessa.
 L’antenna riceve contemporaneamente molti segnali. Il ricevitore seleziona da questi una piccola banda di frequenza.
 </note>
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ### Quale ricevitore scegliere?
 

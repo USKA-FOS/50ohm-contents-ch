@@ -10,7 +10,7 @@ Les courants dans le câble coaxial doivent donc être symétriques (même valeu
 
 ---
 
-Cependant, si l’on raccorde une antenne symétrique, par exemple un dipôle demi-onde, à un câble coaxial, il peut arriver que le câble coaxial émette malgré son blindage ! Cela est dû au fait que des courants haute fréquence peuvent circuler sur la surface extérieure du conducteur extérieur métallique, accompagnés d’un champ électromagnétique autour de l’isolation externe (cf. illustration [ref:e_mantelwellen]). Cet effet est appelé *courants de gaine* : ils peuvent perturber d’autres appareils dans la maison lors de l’émission, et causer des perturbations de réception, car le câble coaxial devient en quelque sorte une partie de l’antenne. Les influences perturbatrices dans la maison sont alors plus facilement captées par l’appareil radio. Les courants de gaine supplémentaires « manquent » sur l’un des deux brins du dipôle, ce qui entraîne également une déformation du diagramme de rayonnement.
+Cependant, si l’on raccorde une antenne symétrique, par exemple un dipôle demi-onde, à un câble coaxial, il peut arriver que le câble coaxial émette malgré son blindage ! Cela est dû au fait que des courants haute fréquence peuvent circuler sur la surface extérieure du conducteur extérieur métallique, accompagnés d’un champ électromagnétique autour de l’isolation externe (cf. illustration [ref:e_mantelwellen]). Cet effet est appelé *courants de gaine* : ils peuvent perturber d’autres appareils dans la maison lors de l’émission, et causer des perturbations de réception, car le câble coaxial devient en quelque sorte une partie de l’antenne. Les influences perturbatrices dans la maison sont alors plus facilement captées par l’appareil radio. Les courants de gaine supplémentaires « manquent » sur l’un des deux brins du dipôle, ce qui entraîne également une déformation du diagramme de rayonnement.
 
 [question:EG405]
 [question:EG406]
@@ -36,7 +36,7 @@ Le courant sur la face externe du conducteur intérieur et le courant sur la fac
 Les courants de gaine peuvent être évités, par exemple, en utilisant un *symétriseur*, un balun, pour relier le câble coaxial à l’antenne.
 
 <indepth>
-Le terme *balun* est une contraction des mots anglais « balanced » et « unbalanced », car il s’agit de relier une partie symétrique (par exemple, une antenne symétrique) à une partie asymétrique (le câble coaxial, où idéalement seul le conducteur intérieur présente une tension par rapport à la terre).
+Le terme *balun* est une contraction des mots anglais « balanced » et « unbalanced », car il s’agit de relier une partie symétrique (par exemple, une antenne symétrique) à une partie asymétrique (le câble coaxial, où idéalement seul le conducteur intérieur présente une tension par rapport à la terre).
 </indepth>
 
 [question:EG407]

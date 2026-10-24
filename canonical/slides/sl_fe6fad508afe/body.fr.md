@@ -36,7 +36,7 @@
 * Signal BF composé de deux fréquences sinusoïdales
 * Ne doivent pas être dans un rapport entier l’une par rapport à l’autre
 * Généralement $\qty{700}{\hertz}$ et $\qty{1200}{\hertz}$
-* Produit une « battement HF » à $\qty{500}{\hertz}$
+* Produit une « battement HF » à $\qty{500}{\hertz}$
 * Permet de mesurer la puissance d’enveloppe (PEP)
 
 <note>

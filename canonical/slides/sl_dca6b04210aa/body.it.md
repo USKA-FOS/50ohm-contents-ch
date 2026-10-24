@@ -1,8 +1,8 @@
 * I radioamatori di classe E e A sono automaticamente istruttori
 * Sotto supervisione
 * Nell'ambito delle competenze dell'istruttore
-* Nominativo personale + "/T" o "/Trainee"
-* Stazione di club + "/T" o "/Trainee"
+* Nominativo personale + «/T» o «/Trainee»
+* Stazione di club + «/T» o «/Trainee»
 
 <note>
 * Fino a fine 2028: nominativi di addestramento con DN1-DN8
@@ -34,7 +34,7 @@
 * deve guidare nell'uso e nella gestione delle operazioni
 * interviene regolamentando l'attività radio di addestramento
 * in caso estremo, spegne il trasmettitore
-* deve fornire, su richiesta dell'UFCOM, informazioni sul "tipo e l'entità" dell'attività di addestramento
+* deve fornire, su richiesta dell'UFCOM, informazioni sul «tipo e l'entità» dell'attività di addestramento
 
 
 <note>

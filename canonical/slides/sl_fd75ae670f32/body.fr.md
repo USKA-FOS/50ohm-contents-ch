@@ -6,7 +6,7 @@ Transformateur avec prise médiane et deux diodes
 * Demi-onde positive sur l'enroulement supérieur par rapport à la prise médiane $\rightarrow$ $D_1$ conduit
 * Une demi-onde négative est appliquée à $D_2$ à ce moment-là $\rightarrow$ bloque
 </right>
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 [include:applet_gleichrichter_1]
 
 ---

@@ -18,7 +18,7 @@ Il testo completo della legge è disponibile nell’*ordinanza sull'utilizzazion
 %YPA: Quale tipo si desidera?
 %YPA: Problema aperto per riquadro "Legge".
 
-Ad esempio, non si possono trasmettere auguri per conto di familiari di un radioamatore se questi ultimi non sono a loro volta radioamatori. Se invece il "destinatario degli auguri" è anch’esso un radioamatore, la trasmissione è consentita.
+Ad esempio, non si possono trasmettere auguri per conto di familiari di un radioamatore se questi ultimi non sono a loro volta radioamatori. Se invece il «destinatario degli auguri» è anch’esso un radioamatore, la trasmissione è consentita.
 
 [question:VN014]
 [question:VN017]

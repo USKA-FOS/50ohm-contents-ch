@@ -24,7 +24,7 @@
 * Quatre diodes disposées en anneau suppriment la porteuse
 * Un circuit en opposition de phase annule les signaux de porteuse
 * Seules les bandes latérales subsistent
-* Déjà présenté dans le chapitre « Mélangeurs II » sous le nom de mélangeur équilibré
+* Déjà présenté dans le chapitre « Mélangeurs II » sous le nom de mélangeur équilibré
 
 ---
 ### Modulateur équilibré dans un modulateur BLU

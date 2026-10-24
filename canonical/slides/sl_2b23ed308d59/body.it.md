@@ -61,7 +61,7 @@ $P_2 = \frac{U_2^2}{R_2} = \frac{(\qty{5}{\volt})^2}{\qty{10}{\kilo\ohm}} = \qty
 </fragment>
 ---
 [question:AD109]
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 #### Procedimento di soluzione
 
 <left>
@@ -98,7 +98,7 @@ $R_1 || R_3 + R_2 || R_4 = \qty{1100}{\ohm} + \qty{110}{\ohm} = \qty{1210}{\ohm}
 </fragment>
 ---
 [question:AD114]
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 #### Procedimento di soluzione
 * dati: $R_1 = \qty{10}{\kilo\ohm}$
 * dati: $R_2 = \qty{2,2}{\kilo\ohm}$

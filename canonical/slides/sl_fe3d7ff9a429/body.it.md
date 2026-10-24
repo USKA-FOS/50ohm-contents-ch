@@ -16,7 +16,7 @@
 ---
 [question:AI601]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 #### Procedimento di soluzione
 <left>
 * dato: $R = \qty{150}{\ohm}$

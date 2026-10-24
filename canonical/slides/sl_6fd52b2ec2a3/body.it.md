@@ -31,27 +31,27 @@ BK QSL = VY 73 DE DL2AB SK
 Il QSO viene spiegato passo dopo passo con le abbreviazioni dopo le spiegazioni
 </note>
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 | l: Abbr. | l: Significato |
 | BK | Interruzione della trasmissione; passaggio informale |
-| CQ | Chiamata generale (dall'inglese "Seek You") |
+| CQ | Chiamata generale (dall'inglese «Seek You») |
 | DE | da |
 | K | Invito a trasmettere |
-| PSE | Per favore (dall'inglese "Please") |
+| PSE | Per favore (dall'inglese «Please») |
 | QSL | Confermo la ricezione |
 | R | Ricevuto (conferma di ricezione) |
-| RPRT | Rapporto (dall'inglese "Report") |
+| RPRT | Rapporto (dall'inglese «Report») |
 [table:n_funkfernschreiben_abkuerzungen_1:Abbreviazioni operative nella telegrafia]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 | l: Abbr. | l: Significato |
 | RST | Rapporto RST |
-| SK | Fine del collegamento (dall'inglese "Silent Key") |
-| TNX | Grazie (dall'inglese "Thanks") |
-| UR | tu sei (nel senso di "il tuo segnale è", dall'inglese "you are") |
-| VY | molto (dall'inglese "very") |
+| SK | Fine del collegamento (dall'inglese «Silent Key») |
+| TNX | Grazie (dall'inglese «Thanks») |
+| UR | tu sei (nel senso di «il tuo segnale è», dall'inglese «you are») |
+| VY | molto (dall'inglese «very») |
 | 73 | tanti saluti |
 | = | Separatore |
 [table:n_funkfernschreiben_abkuerzungen_2:Abbreviazioni operative nella telegrafia]

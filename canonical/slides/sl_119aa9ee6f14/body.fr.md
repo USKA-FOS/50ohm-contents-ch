@@ -30,7 +30,7 @@
 [photo:99:n_frequenzbereiche_afuv_anlage_1:Vue d'ensemble tabulaire, annexe 1, AFuV (correction nécessaire dans les puissances pour la classe N)]
 
 <note>
-Pour la classe N, la puissance ERP indiquée dans le tableau officiel est désormais "6,1 W ERP" sur 2 m et 70 cm. Techniquement équivalent, mais avec une base de calcul différente. Le graphique ici doit encore être mis à jour.
+Pour la classe N, la puissance ERP indiquée dans le tableau officiel est désormais « 6,1 W ERP » sur 2 m et 70 cm. Techniquement équivalent, mais avec une base de calcul différente. Le graphique ici doit encore être mis à jour.
 </note>
 ---
 [question:VD101]

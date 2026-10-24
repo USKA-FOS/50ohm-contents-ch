@@ -1,7 +1,7 @@
 Il fenomeno fisico che rende possibile i segnali radio è il campo elettromagnetico. La scoperta che questo campo possa propagarsi nel vuoto, senza un mezzo di supporto, fu una delle più significative del XIX secolo.
 
 <margin>
-Per lungo tempo la fisica ha creduto nell’esistenza di un "etere", presente ovunque e nel quale le onde elettromagnetiche si propagano come il suono nell’aria. Questa concezione era errata, ma il termine è rimasto nell’uso comune, ad esempio diciamo che siamo seduti al ricevitore e *ascoltiamo nell’etere*.
+Per lungo tempo la fisica ha creduto nell’esistenza di un «etere», presente ovunque e nel quale le onde elettromagnetiche si propagano come il suono nell’aria. Questa concezione era errata, ma il termine è rimasto nell’uso comune, ad esempio diciamo che siamo seduti al ricevitore e *ascoltiamo nell’etere*.
 </margin>
 
 ---

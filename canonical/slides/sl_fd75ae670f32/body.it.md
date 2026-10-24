@@ -6,7 +6,7 @@ Trasformatore con presa centrale e due diodi
 * Semi-onda positiva sul avvolgimento superiore rispetto alla presa centrale $\rightarrow D_1$ conduce
 * Sul $D_2$ in questo momento è presente una semi-onda negativa $\rightarrow$ blocca
 </right>
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 [include:applet_gleichrichter_1]
 
 ---

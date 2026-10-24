@@ -47,7 +47,7 @@ Pour la pratique du satellite radio, la période orbitale, la visibilité et la 
 
 ## Visibilité d'un satellite
 
-Pour une station radio sur terre, ce qui compte n'est pas de savoir si un satellite orbite fondamentalement autour de la terre, mais s'il se trouve actuellement au-dessus de l'horizon local. Un passage commence avec l'"Acquisition of Signal" (AOS), lorsque le satellite devient visible ou recevable pour la station. Il se termine avec le "Loss of Signal" (LOS), lorsqu'il redescend sous l'horizon.
+Pour une station radio sur terre, ce qui compte n'est pas de savoir si un satellite orbite fondamentalement autour de la terre, mais s'il se trouve actuellement au-dessus de l'horizon local. Un passage commence avec l'« Acquisition of Signal » (AOS), lorsque le satellite devient visible ou recevable pour la station. Il se termine avec le « Loss of Signal » (LOS), lorsqu'il redescend sous l'horizon.
 
 La position d'un satellite dans le ciel est indiquée par l'azimut, c'est-à-dire la direction le long de l'horizon, et l'élévation, c'est-à-dire l'angle au-dessus de l'horizon. Pendant un passage, ces deux valeurs changent continuellement.
 

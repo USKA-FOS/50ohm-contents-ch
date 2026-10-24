@@ -9,7 +9,7 @@ Tu connais maintenant :
 - les limites légales de la réception
 - la marche à suivre pour obtenir ton indicatif DE
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 
 # Tes prochaines étapes

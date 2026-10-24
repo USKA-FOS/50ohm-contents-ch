@@ -24,7 +24,7 @@ Un segnale di trasmissione ideale, che trasmette solo su una frequenza desiderat
 [question:EJ201]
 
 <indepth>
-Le forme d'onda che non sono sinusoidali e che presentano in particolare spigoli vivi e angoli acuti sono composte da molte diverse componenti di frequenza sinusoidali e contengono molte armoniche. In particolare, quando i trasmettitori sono sovramodulati, i segnali precedentemente sinusoidali vengono spesso distorti o limitati in ampiezza. Ciò comporta anche la formazione di armoniche significative. Ogni deviazione dalla forma sinusoidale ideale deve quindi essere evitata nei segnali di trasmissione ideali. Questo argomento verrà approfondito nel corso di classe A. Tuttavia, con questo applet è già possibile sperimentare la situazione.
+Le forme d'onda che non sono sinusoidali e che presentano in particolare «spigoli vivi e angoli acuti» sono composte da molte diverse componenti di frequenza sinusoidali e contengono molte armoniche. In particolare, quando i trasmettitori sono sovramodulati, i segnali precedentemente sinusoidali vengono spesso distorti o limitati in ampiezza. Ciò comporta anche la formazione di armoniche significative. Ogni deviazione dalla forma sinusoidale ideale deve quindi essere evitata nei segnali di trasmissione ideali. Questo argomento verrà approfondito nel corso di classe A. Tuttavia, con questo applet è già possibile sperimentare la situazione.
 [include:fourier]
 
 </indepth>
@@ -63,7 +63,7 @@ Come già menzionato in precedenza, i segnali sinusoidali sono essenziali per ev
 
 [question:EF404]
 
-Le emissioni indesiderate possono verificarsi anche in prossimità del segnale di trasmissione vero e proprio (cfr. figura [ref:e_unerwuenschte_aussendungen_uebersicht]) e quindi spesso disturbano altri radioamatori sulla stessa banda. Tali disturbi possono essere difficilmente o per nulla soppressi con i filtri e dovrebbero quindi essere evitati già nella fase iniziale della preparazione del segnale con misure adeguate. Spesso questi *prodotti secondari* – anche chiamati prodotti di intermodulazione e comunemente indicati come "splatter" – sono causati da un'impostazione troppo elevata dell'amplificatore del microfono nel trasmettitore, che provoca un allargamento indesiderato del segnale di trasmissione.
+Le emissioni indesiderate possono verificarsi anche in prossimità del segnale di trasmissione vero e proprio (cfr. figura [ref:e_unerwuenschte_aussendungen_uebersicht]) e quindi spesso disturbano altri radioamatori sulla stessa banda. Tali disturbi possono essere difficilmente o per nulla soppressi con i filtri e dovrebbero quindi essere evitati già nella fase iniziale della preparazione del segnale con misure adeguate. Spesso questi *prodotti secondari* – anche chiamati prodotti di intermodulazione e comunemente indicati come «splatter» – sono causati da un'impostazione troppo elevata dell'amplificatore del microfono nel trasmettitore, che provoca un allargamento indesiderato del segnale di trasmissione.
 
 [question:EJ213]
 [question:EJ214]

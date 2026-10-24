@@ -9,7 +9,7 @@ Ora conosci:
 - i limiti legali dell’ascolto
 - il percorso per ottenere il proprio nominativo DE
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 
 # I tuoi prossimi passi

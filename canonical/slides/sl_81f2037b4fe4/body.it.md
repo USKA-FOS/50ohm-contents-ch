@@ -44,9 +44,9 @@ Più la tensione del diodo è negativa, più la zona di carica spaziale si espan
 Le tensioni di soglia sono argomento di classe E
 </note>
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 [question:AC405]
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 [question:AC406]
 ---
 ## Fotodiodo

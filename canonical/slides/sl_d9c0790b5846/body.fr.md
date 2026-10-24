@@ -38,7 +38,7 @@
 ## Activités après l'examen
 
 * Concours, construction personnelle, radio d'urgence, opérations portables, etc.
-* Devise : « Après l'examen, c'est avant l'examen »
+* Devise : « Après l'examen, c'est avant l'examen »
 * Le [HAM-Challenge](https://www.hamchallenge.org) annuel offre un bon aperçu
 
 ---

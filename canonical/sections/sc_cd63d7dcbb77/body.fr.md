@@ -37,7 +37,7 @@ Avec ces deux formules, nous pouvons donc facilement convertir entre les indicat
 [question:AD426]
 
 <tip>
-Dans la section [sec:dezibel_1], nous avons déjà appris l'astuce suivante : sans calculatrice, on peut estimer les valeurs en décibels qui se terminent par "$0$" : il suffit de cacher le dernier zéro, le chiffre donne alors le nombre de zéros du facteur de rapport. Exemple : $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{zéros} \rightarrow \text{facteur de rapport}~1000$ !
+Dans la section [sec:dezibel_1], nous avons déjà appris l'astuce suivante : sans calculatrice, on peut estimer les valeurs en décibels qui se terminent par « $0$ » : il suffit de cacher le dernier zéro, le chiffre donne alors le nombre de zéros du facteur de rapport. Exemple : $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{zéros} \rightarrow \text{facteur de rapport}~1000$ !
 
 Cela peut aussi être facilement calculé dans l'autre sens : un avec $12$ zéros ($\num{1000000000000}$) en $\unit{\dB}$ est simplement le nombre de zéros, donc $12$, multiplié par $10$. Cela donne un facteur de gain de $\qty{120}{\dB}$.
 
@@ -58,7 +58,7 @@ $p = 10\cdot \log_{10}\left(\frac{P}{P_0}\right)\unit{\dB}$
 
 Cette grandeur de référence peut être par exemple une puissance de $\qty{1}{\milli\watt}$. Dans ce cas, la valeur en décibel reçoit un suffixe correspondant : si le niveau se réfère à $\qty{1}{\milli\watt}$, on parle de $\unit{\dBm}$. Ainsi, il est clairement défini à quelle valeur de puissance absolue le niveau en décibel se réfère.
 
-Si l'on rencontre par exemple l'indication « L'émetteur a une puissance de sortie de $\qty{20}{\dBm}$ », cette valeur peut facilement être convertie en milliwatts. Un niveau de $\qty{20}{\dB}$ correspond à un facteur de puissance de $100$ (donc deux zéros). Ce facteur est multiplié par la grandeur de référence de $\qty{1}{\milli\watt}$ :
+Si l'on rencontre par exemple l'indication « L'émetteur a une puissance de sortie de $\qty{20}{\dBm}$ », cette valeur peut facilement être convertie en milliwatts. Un niveau de $\qty{20}{\dB}$ correspond à un facteur de puissance de $100$ (donc deux zéros). Ce facteur est multiplié par la grandeur de référence de $\qty{1}{\milli\watt}$ :
 
 $ P = 100 \cdot \qty{1}{\milli\watt} = \qty{100}{\milli\watt}$
 

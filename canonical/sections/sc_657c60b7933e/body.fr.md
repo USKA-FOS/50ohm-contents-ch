@@ -40,7 +40,7 @@ L'*opérateur nabla* ∇ est un outil mathématique qui décrit comment un champ
 
 Le point ⋅ signifie *divergence*. Il décrit si des lignes de champ apparaissent ou disparaissent en un point.
 
-La croix × signifie *rotation*. Elle décrit à quel point un champ « tourbillonne ».
+La croix × signifie *rotation*. Elle décrit à quel point un champ « tourbillonne ».
 
 Il est à noter que la compréhension et l'application des équations de Maxwell vont bien au-delà des connaissances exigées à l'examen. Cependant, il s'agit d'un fondement si essentiel de l'électrotechnique qu'il est bon d'en avoir au moins entendu parler une fois.
 </indepth>

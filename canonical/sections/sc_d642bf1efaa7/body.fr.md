@@ -5,7 +5,7 @@ La forme de base de l’antenne est l’*antenne dipôle* (figure [ref:n_dipol])
 </margin>
 
 <wordorigin>
-Le terme dipôle vient du grec et signifie littéralement « deux pôles ».
+Le terme dipôle vient du grec et signifie littéralement « deux pôles ».
 </wordorigin>
 
 ---

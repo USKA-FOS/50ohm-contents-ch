@@ -34,14 +34,14 @@ $s(t)=A(t)\cos\left(\omega_\mathrm{T}t+\varphi(t)\right)$
 Pour que le signal reste aussi peu distordu que possible, les voies d'amplitude et de phase doivent être parfaitement synchronisées dans le temps.
 
 
-Pour l'amplificateur d'enveloppe, un simple amplificateur BF lent suffit. La plage de fréquences qu'il doit couvrir dépend de la bande passante du signal à générer. Pour maintenir un rendement élevé, on utilise généralement ici une technologie d'alimentation à découpage (amplificateur BF de classe D).
+Pour l'amplificateur d'enveloppe, un simple amplificateur BF lent suffit. La plage de fréquences qu'il doit couvrir dépend de la bande passante du signal à générer. Pour maintenir un rendement élevé, on utilise généralement ici une technologie d'alimentation à découpage (amplificateur BF de « classe D »).
 
 
 Grâce au rendement élevé, peu de puissance électrique est convertie en chaleur. Cela permet d'économiser de l'énergie, de réduire les besoins en refroidissement et de concevoir des équipements radio plus petits et plus légers, sans grands dissipateurs thermiques métalliques ni transistors d'étage final coûteux. La modulation polaire est particulièrement adaptée aux équipements QRP fonctionnant sur batterie, mais elle est également utilisée dans des émetteurs-récepteurs commerciaux plus performants.
 
 
 <indepth>
-Dans le radioamateurisme, cette méthode a été utilisée dans les années 1970 sous le nom de "HELAPS" à bord du satellite AO-7. À l'époque, tout était réalisé avec des moyens analogiques. Aujourd'hui, les amplificateurs d'enveloppe et les étages finaux restent classiquement analogiques, tandis que le reste du traitement est assuré par des algorithmes SDR. Les CPU puissants, capables de gérer ces tâches sans problème, sont aujourd'hui moins chers qu'une pizza.
+Dans le radioamateurisme, cette méthode a été utilisée dans les années 1970 sous le nom de « HELAPS » à bord du satellite AO-7. À l'époque, tout était réalisé avec des moyens analogiques. Aujourd'hui, les amplificateurs d'enveloppe et les étages finaux restent classiquement analogiques, tandis que le reste du traitement est assuré par des algorithmes SDR. Les CPU puissants, capables de gérer ces tâches sans problème, sont aujourd'hui moins chers qu'une pizza.
 </indepth>
 
 

@@ -9,7 +9,7 @@
 ### Gain et angle d’ouverture d’une antenne Yagi‑Uda
 
 * Plus l’antenne est longue (et donc plus son gain est élevé), plus son angle d’ouverture devient étroit.
-* Cela découle du principe de conservation de l’énergie – il n’est pas possible de créer de l’énergie « à partir de rien ».
+* Cela découle du principe de conservation de l’énergie – il n’est pas possible de créer de l’énergie « à partir de rien ».
 
 ---
 [question:AG222]

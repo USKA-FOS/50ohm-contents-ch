@@ -8,7 +8,7 @@ Lors de la réception d'un appel de détresse, il est important de se concentrer
 * Transmettre les messages de manière complète et littérale aux services de secours, aux pompiers ou à la police !
 
 <attention>
-Il existe une *obligation d'assistance*. L'article 323c du Code pénal sanctionne l'omission de porter secours : « Quiconque, face à un accident, un danger public ou une situation de détresse, ne porte pas secours alors que cela est nécessaire et possible sans danger pour lui-même ni violation d'autres obligations importantes, est passible d'une peine de prison pouvant aller jusqu'à un an ou d'une amende. »
+Il existe une *obligation d'assistance*. L'article 323c du Code pénal sanctionne l'omission de porter secours : « Quiconque, face à un accident, un danger public ou une situation de détresse, ne porte pas secours alors que cela est nécessaire et possible sans danger pour lui-même ni violation d'autres obligations importantes, est passible d'une peine de prison pouvant aller jusqu'à un an ou d'une amende. »
 </attention>
 
 <tip>
@@ -37,12 +37,12 @@ Pour la question suivante, rappelons la conversion entre l'heure d'été d'Europ
 
 ---
 
-Pour les communications radio d'une station du service mobile maritime ou aérien, il existe des *signaux de détresse internationaux* « Mayday » et « SOS ». Il existe également des *signaux d'urgence et de sécurité*, notamment « PAN PAN » et « SÉCURITÉ ».
+Pour les communications radio d'une station du service mobile maritime ou aérien, il existe des *signaux de détresse internationaux* « Mayday » et « SOS ». Il existe également des *signaux d'urgence et de sécurité*, notamment « PAN PAN » et « SÉCURITÉ ».
 
 <indepth>
-Un *signal de détresse* est utilisé par une station du service mobile maritime ou aérien à bord d'un navire ou d'un aéronef pour indiquer qu'elle se trouve en situation de détresse. En radiotéléphonie, on utilise « Mayday » ; en télégraphie, on utilise « SOS ». Les *signaux d'urgence et de sécurité* sont utilisés dans des situations moins critiques.
+Un *signal de détresse* est utilisé par une station du service mobile maritime ou aérien à bord d'un navire ou d'un aéronef pour indiquer qu'elle se trouve en situation de détresse. En radiotéléphonie, on utilise « Mayday » ; en télégraphie, on utilise « SOS ». Les *signaux d'urgence et de sécurité* sont utilisés dans des situations moins critiques.
 
-Comme l'utilisation de ces signaux est interdite en radioamateurisme, il est recommandé, en cas d'urgence, d'utiliser d'autres termes pertinents, comme « Notfall » (urgence) ou « Emergency », pour attirer l'attention.
+Comme l'utilisation de ces signaux est interdite en radioamateurisme, il est recommandé, en cas d'urgence, d'utiliser d'autres termes pertinents, comme « Notfall » (urgence) ou « Emergency », pour attirer l'attention.
 </indepth>
 
 L'utilisation de ces signaux de détresse, d'urgence ou de sécurité est interdite en radioamateurisme par l'ordonnance sur l'amateurisme. Cela ne signifie pas qu'il est interdit d'émettre des appels de détresse. Il faut simplement veiller à ne pas utiliser le terme MAYDAY par exemple.

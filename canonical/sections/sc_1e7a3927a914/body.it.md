@@ -1,12 +1,12 @@
-Sulla maggior parte dei ricetrasmettitori è presente un interruttore per selezionare il tipo di modulazione da utilizzare. Solitamente è etichettato con "Mode" e consente di scegliere tra CW, AM, FM e SSB. I ricetrasmettitori che supportano un solo tipo di modulazione, ovviamente, non hanno un simile interruttore.
+Sulla maggior parte dei ricetrasmettitori è presente un interruttore per selezionare il tipo di modulazione da utilizzare. Solitamente è etichettato con «Mode» e consente di scegliere tra CW, AM, FM e SSB. I ricetrasmettitori che supportano un solo tipo di modulazione, ovviamente, non hanno un simile interruttore.
 
 <webmargin>
 | l: Abbreviazione | X: Mode |
 | CW | Telegrafia |
 | AM | Modulazione di ampiezza |
 | FM | Modulazione di frequenza |
-| LSB | SSB banda laterale inferiore ("lower sideband") |
-| USB | SSB banda laterale superiore ("upper sideband") |
+| LSB | SSB banda laterale inferiore («lower sideband») |
+| USB | SSB banda laterale superiore («upper sideband») |
 [table:n_sendearten:Tipi di modulazione comunemente utilizzati]
 </webmargin>
 

@@ -98,7 +98,7 @@ Un caso speciale di antenna verticale è rappresentato dall’antenna $\frac{5}{
 
 ---
 
-Anche un’antenna Groundplane irradia perpendicolarmente al radiatore (non ai radiali). Poiché il diagramma di radiazione dell’antenna Groundplane viene spesso osservato dall’alto, si ottiene un radiatore omnidirezionale che presenta un guadagno quasi identico in tutte le direzioni (cfr. figura [ref:e_ground_plane_abstrahlung]). I radiali hanno solo un’influenza minima e possono "deformare" leggermente il diagramma di radiazione, corrispondente a un guadagno leggermente diverso in determinate direzioni.
+Anche un’antenna Groundplane irradia perpendicolarmente al radiatore (non ai radiali). Poiché il diagramma di radiazione dell’antenna Groundplane viene spesso osservato dall’alto, si ottiene un radiatore omnidirezionale che presenta un guadagno quasi identico in tutte le direzioni (cfr. figura [ref:e_ground_plane_abstrahlung]). I radiali hanno solo un’influenza minima e possono «deformare» leggermente il diagramma di radiazione, corrispondente a un guadagno leggermente diverso in determinate direzioni.
 
 <margin>
 [picture:1046:e_ground_plane_abstrahlung:Irradiazione antenna Groundplane]
@@ -107,7 +107,7 @@ Anche un’antenna Groundplane irradia perpendicolarmente al radiatore (non ai r
 [question:EG216]
 
 <indepth>
-Sebbene il diagramma di radiazione di un’antenna Groundplane con radiali sia leggermente *"deformato"*, questa deviazione è molto più piccola nella teoria rispetto a quanto spesso rappresentato. Pertanto, un’antenna Groundplane è in realtà un radiatore quasi ideale in piano.
+Sebbene il diagramma di radiazione di un’antenna Groundplane con radiali sia leggermente *«deformato»*, questa deviazione è molto più piccola nella teoria rispetto a quanto spesso rappresentato. Pertanto, un’antenna Groundplane è in realtà un radiatore quasi ideale in piano.
 </indepth>
 
 ---

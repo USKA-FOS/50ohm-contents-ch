@@ -9,7 +9,7 @@
 [picture:656:swl_landeskenner_europa:Préfixes radioamateurs européens sélectionnés]
 </right>
 
---- style="font-size: 0.75em;"
+--- style=« font-size: 0.75em; »
 
 ### Préfixes nationaux pour l’examen HB
 

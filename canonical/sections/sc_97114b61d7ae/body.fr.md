@@ -1,4 +1,4 @@
-Normalement, un radioamateur doit exploiter sa station radio de manière supervisée. « Supervisée » signifie que les émissions ne peuvent avoir lieu que sous surveillance. Cette surveillance s’effectue soit directement sur l’installation d’émission, soit, dans le cas d’une station à distance, indirectement, par exemple via Internet.
+Normalement, un radioamateur doit exploiter sa station radio de manière supervisée. « Supervisée » signifie que les émissions ne peuvent avoir lieu que sous surveillance. Cette surveillance s’effectue soit directement sur l’installation d’émission, soit, dans le cas d’une station à distance, indirectement, par exemple via Internet.
 
 Il existe cependant la possibilité d’exploiter une station sans surveillance, sous forme de station automatique ou télécommandée. Cela désigne une station fonctionnant sans présence humaine. Il s’agit généralement de relais ou de balises :
 * Un *relais* permet aux radioamateurs d’établir des liaisons qu’ils ne pourraient pas joindre directement. Pour cela, le relais retransmet sur une autre fréquence tout ce qu’il reçoit sur une fréquence donnée.

@@ -7,7 +7,7 @@
 
 
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## Représentation temporelle de la PSK
 
@@ -23,7 +23,7 @@
 
 
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## Modulation par déplacement de phase binaire (BPSK)
 
@@ -93,7 +93,7 @@ Le choix de 0 degré et 180 degrés n'est pas obligatoire. Par exemple, 90 degr�
 
 
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## QPSK dans le diagramme de constellation
 
@@ -124,7 +124,7 @@ La cartographie utilisée ici correspond également à celle du texte pédagogiq
 
 
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## Code de Gray en QPSK
 
@@ -156,7 +156,7 @@ Par exemple, lors du passage de 11 à 01, seul le premier bit change. Il en va d
 
 
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 <left>
 [include:applet_qpsk]
@@ -179,7 +179,7 @@ Les zones colorées en arrière-plan sont les zones de décision du récepteur. 
 
 Tant qu'un point bruité reste dans la zone de décision du symbole initialement émis, il est correctement reconnu. Si le point franchit une limite de décision en raison d'un bruit important, un autre symbole est reconnu à la place.
 
-Avec « Transmettre à nouveau », le même flux de bits est transmis une nouvelle fois avec un nouveau bruit. Cela permet de bien voir que, malgré des symboles émis identiques, des valeurs reçues différentes apparaissent à chaque fois.
+Avec « Transmettre à nouveau », le même flux de bits est transmis une nouvelle fois avec un nouveau bruit. Cela permet de bien voir que, malgré des symboles émis identiques, des valeurs reçues différentes apparaissent à chaque fois.
 
 Avec l'augmentation du bruit, la probabilité d'erreurs de symbole et donc de bits augmente. Grâce à un codage de canal adapté, de nombreuses erreurs peuvent être détectées et corrigées.
 </note>

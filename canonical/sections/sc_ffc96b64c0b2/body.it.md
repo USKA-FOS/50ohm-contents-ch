@@ -4,7 +4,7 @@ Purtroppo, l’Amateurfunk non può funzionare senza contributi finanziari. Seco
 
 [question:VE702]
 
-Oltre ai contributi periodici, sono previste altre tasse regolamentate nella "Besondere Gebührenverordnung BNetzA (BNetzABGebV)". Tra queste figurano, ad esempio, le tasse per gli esami di radioamatore e naturalmente anche la tassa per il rilascio dell’autorizzazione.
+Oltre ai contributi periodici, sono previste altre tasse regolamentate nella «Besondere Gebührenverordnung BNetzA (BNetzABGebV)». Tra queste figurano, ad esempio, le tasse per gli esami di radioamatore e naturalmente anche la tassa per il rilascio dell’autorizzazione.
 
 Se una tassa non viene pagata, lo Stato può riscuoterla secondo la legge sulla riscossione amministrativa (Verwaltungs-Vollstreckungsgesetz, VwVG). Secondo la legge, la Bundesnetzagentur dispone di diverse opzioni di esecuzione forzata.
 

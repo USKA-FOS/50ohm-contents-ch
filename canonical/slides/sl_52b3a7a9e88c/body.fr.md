@@ -1,7 +1,7 @@
 <left>
 * Preuve qu’une liaison radio a bien eu lieu
 * Servent de justificatif pour l’obtention de diplômes en radioamateurisme
-* Groupe Q QSL avec « je confirme la réception »
+* Groupe Q QSL avec « je confirme la réception »
 </left>
 <right>
 [photo:12:n_qsl_karten_vorderseite:QSL commune de DL4EAX et DM4EAX (recto)]
@@ -52,7 +52,7 @@ Une carte QSL doit contenir au minimum les informations suivantes :
 ## Transmission des cartes QSL
 
 * Par l’intermédiaire des associations de radioamateurs participantes dans les pays
-* Via un bureau de transmission – internationalement appelé « Bureau »
+* Via un bureau de transmission – internationalement appelé « Bureau »
 * Réseau postal alternatif mondial
 * En Allemagne, le DARC e. V. le propose gratuitement à ses membres
 
@@ -81,7 +81,7 @@ Une carte QSL doit contenir au minimum les informations suivantes :
 
 * Adresses dans les listes internationales d’indicatifs d’appel (Callbook)
 * Ou sur Internet
-* Il existe des « gestionnaires de QSL » qui prennent en charge l’envoi pour d’autres stations
+* Il existe des « gestionnaires de QSL » qui prennent en charge l’envoi pour d’autres stations
   * Les gestionnaires de QSL sont souvent utilisés lors d’expéditions DX
   * À indiquer dans le champ via de la carte QSL et envoyer sa propre carte par ce biais
 

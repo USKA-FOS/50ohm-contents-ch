@@ -34,7 +34,7 @@ Nel rapporto, la stazione ricevente descrive la qualità del collegamento
 * T: Solo per telegrafia Morse e trasmissioni digitali
 </note>
 
---- style="font-size: 0.8em;"
+--- style=«font-size: 0.8em;»
 
 #### Leggibilità
 
@@ -73,7 +73,7 @@ Da leggere sull'apparecchio radio
 * Valutazione soggettiva del tono
 * Nel radiotelefonia viene omesso
 
---- style="font-size: 0.8em;"
+--- style=«font-size: 0.8em;»
 
 ### Esempi di rapporti RST
 

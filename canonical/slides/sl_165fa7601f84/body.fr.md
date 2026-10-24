@@ -18,7 +18,7 @@
 
 ---
 
-* La possession et la fabrication d'appareils simulant un autre objet et étant particulièrement adaptés pour écouter secrètement des paroles non publiques (« micros espions ») sont interdites
+* La possession et la fabrication d'appareils simulant un autre objet et étant particulièrement adaptés pour écouter secrètement des paroles non publiques (« micros espions ») sont interdites
 * Exemple : un stylo équipé d'un microphone intégré
 * Cette interdiction s'applique à tous, y compris aux radioamateurs
 

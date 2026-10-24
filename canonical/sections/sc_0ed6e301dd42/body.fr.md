@@ -1,4 +1,4 @@
-Nous avons déjà abordé les bases de l'ionosphère, de l'activité des taches solaires, de la soi-disant « zone morte » ainsi que des principales régions ionosphériques dans les questions d'examen pour HB3. Le principe fondamental était que le rayonnement UV émis par le soleil ionise les molécules dans l'ionosphère.
+Nous avons déjà abordé les bases de l'ionosphère, de l'activité des taches solaires, de la soi-disant « zone morte » ainsi que des principales régions ionosphériques dans les questions d'examen pour HB3. Le principe fondamental était que le rayonnement UV émis par le soleil ionise les molécules dans l'ionosphère.
 
 [question:AH101]
 

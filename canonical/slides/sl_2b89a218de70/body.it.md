@@ -11,9 +11,9 @@ Tuttavia, ciò avviene sotto la diretta guida e supervisione di un radioamatore 
 
 ### Svolgimento dell’attività radio di addestramento
 
-* L’allievo utilizza il nominativo del formatore aggiungendo il suffisso "/T": DG2RON/T
+* L’allievo utilizza il nominativo del formatore aggiungendo il suffisso «/T»: DG2RON/T
 * La T viene pronunciata come Trainee
-* Completamente: "DG2RON Trainee"
+* Completamente: «DG2RON Trainee»
 
 <note>
 * Pronuncia: DG2RON Trainee

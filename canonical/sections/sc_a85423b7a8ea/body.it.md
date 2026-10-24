@@ -36,7 +36,7 @@ Esistono diverse tavole fonetiche, ad esempio quella tedesca, austriaca o svizze
 %YPA Attenzione in traduzione: adattare la riga 37 della lingua (F&I)!
 La tavola fonetica non include tuttavia le cifre [index:Buchstabiertafel:Ziffern]. Nel traffico radio nazionale, le cifre vengono pronunciate in tedesco, ad esempio Hotel Bravo *Tre* Charlie Golf Foxtrot. Nel traffico radio internazionale si utilizza l'inglese, ad esempio Hotel Bravo *Three* Charlie Golf Foxtrot.
 
-La tavola fonetica può naturalmente essere utilizzata anche per compitare altre parole, ad esempio un nome o un'indicazione di località. La tavola fonetica internazionale non include tuttavia le vocali tedesche con dieresi [index:Buchstabiertafel:Umlaute]. Pertanto, la Ä viene compitata come "Alfa Echo", la Ö come "Oscar Echo" e la Ü come "Uniform Echo".
+La tavola fonetica può naturalmente essere utilizzata anche per compitare altre parole, ad esempio un nome o un'indicazione di località. La tavola fonetica internazionale non include tuttavia le vocali tedesche con dieresi [index:Buchstabiertafel:Umlaute]. Pertanto, la Ä viene compitata come «Alfa Echo», la Ö come «Oscar Echo» e la Ü come «Uniform Echo».
 
 La tavola fonetica internazionale deve essere imparata a memoria. All'inizio può risultare difficile, ma più la si utilizza, più diventa fluida.
 

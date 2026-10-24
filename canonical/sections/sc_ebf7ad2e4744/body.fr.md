@@ -1,11 +1,11 @@
-L'origine de nombreuses abréviations remonte à la télégraphie Morse. L'abréviation CQ est plus rapide à transmettre en Morse que la signification « appel général ». Beaucoup d'abréviations sont définies dans le règlement des radiocommunications (RR). Cela inclut notamment les abréviations opérationnelles pour la télégraphie Morse et les groupes Q, que nous aborderons plus tard. Avec l'évolution de la technologie, de nouvelles abréviations apparaissent progressivement, et la signification de certaines évolue au fil du temps. Cependant, leur utilisation n'est en aucun cas limitée à la télégraphie. Beaucoup de ces abréviations font partie intégrante du langage courant entre radioamateurs et sont également utilisées en téléphonie.
+L'origine de nombreuses abréviations remonte à la télégraphie Morse. L'abréviation CQ est plus rapide à transmettre en Morse que la signification « appel général ». Beaucoup d'abréviations sont définies dans le règlement des radiocommunications (RR). Cela inclut notamment les abréviations opérationnelles pour la télégraphie Morse et les groupes Q, que nous aborderons plus tard. Avec l'évolution de la technologie, de nouvelles abréviations apparaissent progressivement, et la signification de certaines évolue au fil du temps. Cependant, leur utilisation n'est en aucun cas limitée à la télégraphie. Beaucoup de ces abréviations font partie intégrante du langage courant entre radioamateurs et sont également utilisées en téléphonie.
 
 <webmargin>
 | c: Abréviation | X: Signification |
 | BK | Interruption de l'émission ; transmission informelle (*B*rea*k*) |
 | CQ | Appel général |
 | CW | *C*ontinuous *W*ave (synonyme de télégraphie Morse) |
-| K | Invitation à transmettre (« *K*ommen ») |
+| K | Invitation à transmettre (« *K*ommen ») |
 | PSE | S'il vous plaît, *P*lea*se* |
 | R | Reçu (accusé de réception, *R*oger) |
 | RX | Receiver (récepteur) |
@@ -22,4 +22,4 @@ Nous avons également déjà rencontré l'abréviation CW pour Continuous Wave, 
 
 [question:BB107]
 
-Un certain nombre d'abréviations issues de la télégraphie ont déjà été abordées : le « R » (received, ou roger) comme accusé de réception au début d'un passage est l'un des rares signes utilisés exclusivement en télégraphie. Il en va de même pour le signe « K ». Un moyen mnémotechnique est « Kommen » comme invitation à transmettre. Pour « BK », l'expression « *B*rea*k* » s'impose comme aide-mémoire. Le tableau [ref:n_abkuerzungen] résume à nouveau les abréviations les plus importantes pour l'examen.
+Un certain nombre d'abréviations issues de la télégraphie ont déjà été abordées : le « R » (received, ou roger) comme accusé de réception au début d'un passage est l'un des rares signes utilisés exclusivement en télégraphie. Il en va de même pour le signe « K ». Un moyen mnémotechnique est « Kommen » comme invitation à transmettre. Pour « BK », l'expression « *B*rea*k* » s'impose comme aide-mémoire. Le tableau [ref:n_abkuerzungen] résume à nouveau les abréviations les plus importantes pour l'examen.

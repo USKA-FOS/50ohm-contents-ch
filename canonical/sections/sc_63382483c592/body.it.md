@@ -3,7 +3,7 @@ Per ridurre la larghezza di banda massima di un segnale SSB trasmesso e utilizza
 [question:AE208]
 [question:AE209]
 
-Se un segnale SSB viene sovramodulato nel modulatore del trasmettitore, si generano distorsioni che portano a emissioni parassite. Queste emissioni parassite sono comunemente chiamate "splatter" e possono disturbare le trasmissioni adiacenti, poiché in questo caso la larghezza di banda del segnale del trasmettitore supera i $\qty{2,7}{\kilo\hertz}$ richiesti.
+Se un segnale SSB viene sovramodulato nel modulatore del trasmettitore, si generano distorsioni che portano a emissioni parassite. Queste emissioni parassite sono comunemente chiamate «splatter» e possono disturbare le trasmissioni adiacenti, poiché in questo caso la larghezza di banda del segnale del trasmettitore supera i $\qty{2,7}{\kilo\hertz}$ richiesti.
 [question:AE205]
 
 La voce di ogni persona ha uno spettro di frequenza individuale. Per ottenere la migliore comprensibilità possibile nelle trasmissioni SSB, le frequenze vocali nella gamma alta devono essere enfatizzate e quelle nella gamma bassa attenuate. A questo scopo, un equalizzatore nel preamplificatore del microfono del trasmettitore consente di regolare individualmente la risposta in frequenza del segnale di modulazione. In questo modo, la risposta in frequenza del microfono viene ottimizzata per l’operatore.

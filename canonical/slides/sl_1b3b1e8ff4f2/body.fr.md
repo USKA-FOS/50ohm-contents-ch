@@ -18,7 +18,7 @@ Pont de Wheatstone
 [question:AD112]
 ---
 [question:AD113]
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 #### Méthode de résolution
 * donné : $R_1 = R_4 = \qty{1}{\kilo\ohm}$
 * donné : $R_2 = R_3 = \qty{10}{\kilo\ohm}$

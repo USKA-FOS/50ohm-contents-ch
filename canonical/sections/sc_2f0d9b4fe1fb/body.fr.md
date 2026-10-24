@@ -49,7 +49,7 @@ Quelques exemples de rapports possibles se trouvent dans le tableau [ref:n_rst_b
 
 ---
 <indepth>
-La télégraphie Morse est désignée en radioamateurisme par l'abréviation CW pour "Continuous Wave". Vous en apprendrez plus à ce sujet dans un chapitre ultérieur.
+La télégraphie Morse est désignée en radioamateurisme par l'abréviation CW pour « Continuous Wave ». Vous en apprendrez plus à ce sujet dans un chapitre ultérieur.
 </indepth>
 
 [question:BE211]

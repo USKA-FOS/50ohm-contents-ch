@@ -21,7 +21,7 @@
 * Il peut aussi exister des stations spéciales à l’étranger
 * Les indicatifs peuvent suivre d’autres règles
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 | l: Indicatif | l: Attribution | X: Événement |
 | DL1250BRET | 2017 | 1250 ans de la ville de Bretten |
 | DL500BIER | 2016 | 500 ans du décret de pureté de la bière allemande |

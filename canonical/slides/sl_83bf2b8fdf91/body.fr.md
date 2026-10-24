@@ -36,7 +36,7 @@ Les désignations par lettres proviennent d'une classification systématique pr�
 * Augmente la puissance dissipée thermique
 * Réduit le rendement
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ### AP1
 <left>
 [picture:377:a_kennlinien_transistor_arbeitspunkt:Caractéristique d'un transistor avec points de fonctionnement]  
@@ -48,7 +48,7 @@ Les désignations par lettres proviennent d'une classification systématique pr�
 * Rendement d'environ $\qtyrange{80}{87}{\percent}$
 * Taux élevé d'harmoniques
 </right>
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ### AP2
 <left>
 [picture:377:a_kennlinien_transistor_arbeitspunkt:Caractéristique d'un transistor avec points de fonctionnement]  
@@ -60,7 +60,7 @@ Les désignations par lettres proviennent d'une classification systématique pr�
 * Rendement jusqu'à $\qty{80}{\percent}$
 * Faible taux d'harmoniques
 </right>
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ### AP3
 <left>
 [picture:377:a_kennlinien_transistor_arbeitspunkt:Caractéristique d'un transistor avec points de fonctionnement]  
@@ -72,7 +72,7 @@ Les désignations par lettres proviennent d'une classification systématique pr�
 * Rendement entre $\qty{50}{\percent}$ et $\qty{80}{\percent}$
 * Faible taux d'harmoniques
 </right>
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ### AP4
 <left>
 [picture:377:a_kennlinien_transistor_arbeitspunkt:Caractéristique d'un transistor avec points de fonctionnement]  

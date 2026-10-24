@@ -11,7 +11,7 @@
 </right>
 
 <note>
-isotropo: dal greco antico ἴσος isos „uguale“ e τρόπος tropos „rotazione, direzione“
+isotropo: dal greco antico ἴσος isos «uguale» e τρόπος tropos «rotazione, direzione»
 </note>
 
 ---

@@ -11,10 +11,10 @@
 ---
 ### Caractéristiques des stations en concours
 
-* On reconnaît souvent les stations en concours au fait que le nom du concours ou simplement le mot « CONTEST » est intégré dans l’appel CQ.
-* Par exemple : « CQ FD » ou « CQ Ruhrgebietscontest » ou « CQ Contest ».
+* On reconnaît souvent les stations en concours au fait que le nom du concours ou simplement le mot « CONTEST » est intégré dans l’appel CQ.
+* Par exemple : « CQ FD » ou « CQ Ruhrgebietscontest » ou « CQ Contest ».
 * En télégraphie, on utilise CQ TEST.
-* Exemple : DD4UQ participe en portable au Fieldday-Contest en télégraphie → « CQ FD DD4UQ/P TEST »
+* Exemple : DD4UQ participe en portable au Fieldday-Contest en télégraphie → « CQ FD DD4UQ/P TEST »
 
 <note>
 L’appel CQ TEST ne signifie pas qu’un essai est en cours, par exemple pour tester une antenne.

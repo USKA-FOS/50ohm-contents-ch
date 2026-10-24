@@ -1,4 +1,4 @@
-* Nelle classi N ed E sono già state trattate le basi relative all'ionosfera, all'attività delle macchie solari, alla "zona morta" e alle regioni ionosferiche
+* Nelle classi N ed E sono già state trattate le basi relative all'ionosfera, all'attività delle macchie solari, alla «zona morta» e alle regioni ionosferiche
 * La radiazione UV del Sole è responsabile dell'ionizzazione delle molecole nell'ionosfera.
 
 ---

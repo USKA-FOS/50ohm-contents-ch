@@ -43,7 +43,7 @@
 [question:EB103]
 ---
 [question:EB104]
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 ### Procedimento di soluzione
 
 Il trucco qui è che la rigidità dielettrica corrisponde all'intensità del campo elettrico $E$.
@@ -61,7 +61,7 @@ $U = \qty{6e3}{\volt} = \qty{6}{\kilo\volt}$
 
 <left>
 * Anche in un'antenna si formano linee di campo elettriche
-* Le linee di campo di un'antenna verticale vanno dall'estremità "positiva" alla terra
+* Le linee di campo di un'antenna verticale vanno dall'estremità «positiva» alla terra
 </left>
 <right>
 [picture:884:e_feldlinien_vertikalantenne:Linee di campo in un'antenna verticale]

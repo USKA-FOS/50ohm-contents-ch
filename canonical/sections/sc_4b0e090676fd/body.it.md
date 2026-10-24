@@ -1,4 +1,4 @@
-Abbiamo già trattato le basi dell'ionosfera, l'attività delle macchie solari e la cosiddetta "zona morta" nelle domande d'esame delle sezioni [sec:ionosphaere] e [sec:tote_zone_1]. Qui questi argomenti vengono approfonditi ulteriormente e integrati con aspetti aggiuntivi della propagazione delle onde.
+Abbiamo già trattato le basi dell'ionosfera, l'attività delle macchie solari e la cosiddetta «zona morta» nelle domande d'esame delle sezioni [sec:ionosphaere] e [sec:tote_zone_1]. Qui questi argomenti vengono approfonditi ulteriormente e integrati con aspetti aggiuntivi della propagazione delle onde.
 
 La radiazione proveniente dal sole strappa elettroni dagli atomi e molecole di ossigeno e azoto dell'alta atmosfera (*ionizzazione*). Questi elettroni liberi vengono eccitati a oscillare dalle onde radio di frequenza appropriata; ciò fa sì, infine, che queste onde vengano rifratte verso la superficie terrestre. Come si può vedere nella figura [ref:e_wellenausbreitung_refraktion], il cambiamento di direzione delle onde radio causato dalla rifrazione – cioè dalla deviazione – dà l'impressione che siano riflesse.
 
@@ -12,7 +12,7 @@ Questo processo conferisce in particolare all'onda corta le sue capacità uniche
 
 [question:EH219]
 
-D'altra parte, questi elettroni liberi vogliono immediatamente ricombinarsi con i nuclei atomici per formare atomi neutri (*ricombinazione*) e perdono così l'effetto rifrangente. Poiché nella luce solare si ionizza costantemente e poi si ricombina, a determinate altezze si stabilisce un equilibrio tra questi due processi. Queste aree sono chiamate *regioni* (a volte anche "strati").
+D'altra parte, questi elettroni liberi vogliono immediatamente ricombinarsi con i nuclei atomici per formare atomi neutri (*ricombinazione*) e perdono così l'effetto rifrangente. Poiché nella luce solare si ionizza costantemente e poi si ricombina, a determinate altezze si stabilisce un equilibrio tra questi due processi. Queste aree sono chiamate *regioni* (a volte anche «strati»).
 
 ---
 

@@ -10,4 +10,4 @@ Nel caso concreto questo significa:
 * Durante il funzionamento ad alta frequenza, questo punto a bassa impedenza può essere trasformato in impedenza dalla linea $\lambda/4$.
 * La linea può quindi agire come un risonatore e generare onde stazionarie.
 * All’estremità del trasmettitore può formarsi un massimo di tensione (ventre di tensione RF).
-* Ciò dà luogo a una tensione RF significativa sul telaio del trasmettitore (telaio "caldo"), anche se il telaio è correttamente collegato a terra per la corrente continua e la frequenza di rete.
+* Ciò dà luogo a una tensione RF significativa sul telaio del trasmettitore (telaio «caldo»), anche se il telaio è correttamente collegato a terra per la corrente continua e la frequenza di rete.

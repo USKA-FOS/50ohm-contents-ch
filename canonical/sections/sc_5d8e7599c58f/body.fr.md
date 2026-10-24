@@ -38,7 +38,7 @@ ROS-mètre et S-mètre se ressemblent, mais ils sont différents : le ROS-mètre
 
 ---
 
-Si l’émetteur-récepteur ne dispose pas d’un ROS-mètre intégré, on peut utiliser un ROS-mètre externe. Celui-ci est alors connecté entre l’appareil radio et l’antenne, comme illustré dans la figure [ref:n_trx_kabel_swr_antenne]. On dit aussi : « Le ROS-mètre est inséré entre l’émetteur-récepteur et l’antenne ».
+Si l’émetteur-récepteur ne dispose pas d’un ROS-mètre intégré, on peut utiliser un ROS-mètre externe. Celui-ci est alors connecté entre l’appareil radio et l’antenne, comme illustré dans la figure [ref:n_trx_kabel_swr_antenne]. On dit aussi : « Le ROS-mètre est inséré entre l’émetteur-récepteur et l’antenne ».
 
 [question:NI202]
 

@@ -3,7 +3,7 @@ Les tensions alternatives élevées sont dangereuses, cela vaut bien sûr aussi 
 C’est pourquoi il est toujours impératif : on ne touche pas une antenne émettrice en fonctionnement !
 
 <danger>
-Les *« dangers liés au courant électrique »* ont déjà été abordés dans la section 6.4.
+Les *« dangers liés au courant électrique »* ont déjà été abordés dans la section 6.4.
 </danger>
 
 [question:EK202]

@@ -46,9 +46,9 @@ Nella risposta si menziona prima il nominativo della stazione chiamante, poi il 
 </fragment>
 
 <note>
-* Come al telefono si dice "chiamata"
-* CQ si pronuncia come "seek you"
-* In tedesco si dice anche "chiamata generale"
+* Come al telefono si dice «chiamata»
+* CQ si pronuncia come «seek you»
+* In tedesco si dice anche «chiamata generale»
 </note>
 
 ---

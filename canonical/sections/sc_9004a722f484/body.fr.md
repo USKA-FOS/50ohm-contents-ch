@@ -64,7 +64,7 @@ Ce principe est illustré dans la question suivante : Une diode est excitée sim
 
 ---
 
-Avec quatre diodes disposées en anneau, on peut construire un modulateur de manière à supprimer la porteuse en sortie. Nous avons déjà rencontré un tel circuit dans le chapitre « Mélangeur II » en tant que *mélangeur équilibré*. Il était utilisé pour transposer un signal HF sur une fréquence intermédiaire. Dans l'émetteur, nous utilisons maintenant le même principe de base pour générer un signal modulé.
+Avec quatre diodes disposées en anneau, on peut construire un modulateur de manière à supprimer la porteuse en sortie. Nous avons déjà rencontré un tel circuit dans le chapitre « Mélangeur II » en tant que *mélangeur équilibré*. Il était utilisé pour transposer un signal HF sur une fréquence intermédiaire. Dans l'émetteur, nous utilisons maintenant le même principe de base pour générer un signal modulé.
 
 <margin>
 [picture:759:a_balancemodulator:Modulateur équilibré avec anneau de diodes]
@@ -175,7 +175,7 @@ Pour la modulation de fréquence, le signal BF est superposé à la tension cont
 
 ---
 
-Avec de grandes tensions BF, on peut facilement provoquer des variations de fréquence de l'oscillateur beaucoup plus importantes (excursion FM) que ce qui est autorisé. Par conséquent, une limitation de l'excursion par un réglage et une limitation de l'amplitude BF est nécessaire. Des diodes montées en antiparallèle limitent la tension à environ la tension de seuil des diodes. Les figures [ref:a_fm_modulator_hub1] et [ref:a_fm_modulator_hub2] en montrent un exemple.
+Avec de grandes tensions BF, on peut facilement provoquer des variations de fréquence de l'oscillateur beaucoup plus importantes («excursion FM») que ce qui est autorisé. Par conséquent, une limitation de « l'excursion » par un réglage et une limitation de l'amplitude BF est nécessaire. Des diodes montées en antiparallèle limitent la tension à environ la tension de seuil des diodes. Les figures [ref:a_fm_modulator_hub1] et [ref:a_fm_modulator_hub2] en montrent un exemple.
 
 <margin>
 [picture:44:a_fm_modulator_hub1:Circuit de limitation d'excursion]

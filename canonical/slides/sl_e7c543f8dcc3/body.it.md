@@ -34,7 +34,7 @@ In stato stazionario non scorre quasi più corrente, motivo per cui anche la pot
 ---
 [question:AC103]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ### Reattanza capacitiva $X_{\textrm{C}}$
 
 Il condensatore collegato a tensione alternata viene caricato e scaricato continuamente $\rightarrow$ resistenza alternata / reattanza capacitiva

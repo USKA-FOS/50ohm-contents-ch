@@ -24,7 +24,7 @@
 * Quattro diodi disposti ad anello sopprimono la portante
 * Un circuito push-pull annulla i segnali della portante
 * Rimangono solo le bande laterali
-* Già illustrato nel capitolo "Mixer II" come miscelatore bilanciato
+* Già illustrato nel capitolo «Mixer II» come miscelatore bilanciato
 
 ---
 ### Modulatore bilanciato nel modulatore SSB

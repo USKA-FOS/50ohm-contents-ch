@@ -75,7 +75,7 @@ Certains exercices comportent des réseaux de résistances dans lesquels des mon
 <tip>
 [picture:305:e_tipp_aufgabe:Exemple de circuit]
 
-Une méthode de résolution importante est la « méthode de l'œil vif » ... par exemple, un circuit comprenant une résistance $R_1$ en série avec deux résistances $R_2$ et $R_3$ montées en parallèle. Les valeurs sont $R_1 = \qty{1}{\kilo\ohm}$, $R_2 = \qty{2000}{\ohm}$ et $R_3 = \qty{2}{\kilo\ohm}$. Or, $\qty{2}{\kilo\ohm} = \qty{2000}{\ohm}$. Le montage en parallèle de $R_2$ et $R_3$ donne une résistance deux fois plus petite : $\qty{1000}{\ohm} = \qty{1}{\kilo\ohm}$. Nous l'associons en série avec $R_1$ et obtenons le résultat : $R_{\mathrm{ges}} = \qty{2}{\kilo\ohm}$.
+Une méthode de résolution importante est la « méthode de l'œil vif » ... par exemple, un circuit comprenant une résistance $R_1$ en série avec deux résistances $R_2$ et $R_3$ montées en parallèle. Les valeurs sont $R_1 = \qty{1}{\kilo\ohm}$, $R_2 = \qty{2000}{\ohm}$ et $R_3 = \qty{2}{\kilo\ohm}$. Or, $\qty{2}{\kilo\ohm} = \qty{2000}{\ohm}$. Le montage en parallèle de $R_2$ et $R_3$ donne une résistance deux fois plus petite : $\qty{1000}{\ohm} = \qty{1}{\kilo\ohm}$. Nous l'associons en série avec $R_1$ et obtenons le résultat : $R_{\mathrm{ges}} = \qty{2}{\kilo\ohm}$.
 </tip>
 
 [question:ED111]

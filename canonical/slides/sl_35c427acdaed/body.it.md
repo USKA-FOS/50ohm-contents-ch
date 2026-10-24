@@ -13,7 +13,7 @@
 
 ---
 
-* Oltre ai contributi correnti, sono previste altre tasse, regolamentate dalla "Disposizione speciale sulle tasse della Bundesnetzagentur (BNetzABGebV)"
+* Oltre ai contributi correnti, sono previste altre tasse, regolamentate dalla «Disposizione speciale sulle tasse della Bundesnetzagentur (BNetzABGebV)»
 * Tra queste, ad esempio, le tasse per l’esame di radioamatore e per il rilascio dell’autorizzazione
 
 ---

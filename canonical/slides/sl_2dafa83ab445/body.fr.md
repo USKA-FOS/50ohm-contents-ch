@@ -24,7 +24,7 @@ Profondeur de pénétration du rayonnement :
 
 ## Référence temporelle
 
-* Dans le 26e règlement d'application de la loi fédérale sur la protection contre les immissions, une référence temporelle est ajoutée pour le respect des valeurs limites d'intensité de champ.
+* Dans le « 26e règlement d'application de la loi fédérale sur la protection contre les immissions », une référence temporelle est ajoutée pour le respect des valeurs limites d'intensité de champ.
 * Il faut distinguer trois cas pour les valeurs limites.
 
 ---

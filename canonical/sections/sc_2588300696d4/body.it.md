@@ -24,7 +24,7 @@ Il tutto può essere ricordato bene con l'aiuto della figura [ref:n_halbleiter_d
 
 ---
 
-Un diodo speciale è il diodo luminoso, o LED in breve (dall'inglese "light-emitting diode"). È un diodo che si illumina non appena la corrente lo attraversa. Lo schema elettrico di un LED corrisponde a quello del diodo con due frecce aggiuntive che indicano l'illuminazione (figura [ref:n_halbleiter_led]). A parte il fatto che il LED si illumina, si comporta esattamente come qualsiasi altro diodo: lascia passare la corrente solo in una direzione.
+Un diodo speciale è il diodo luminoso, o LED in breve (dall'inglese «light-emitting diode»). È un diodo che si illumina non appena la corrente lo attraversa. Lo schema elettrico di un LED corrisponde a quello del diodo con due frecce aggiuntive che indicano l'illuminazione (figura [ref:n_halbleiter_led]). A parte il fatto che il LED si illumina, si comporta esattamente come qualsiasi altro diodo: lascia passare la corrente solo in una direzione.
 
 <margin>
 [photo:205:n_halbleiter_led:Simboli circuitali e forme costruttive dei LED]

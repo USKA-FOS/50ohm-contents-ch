@@ -1,6 +1,6 @@
 <left>
 * Les ampèremètres mesurent le courant électrique
-* Symbole électrique : "A dans un cercle"
+* Symbole électrique : « A dans un cercle »
 </left>
 <right>
 [picture:624:n_messgeraete_symbol_strommessgerät:Symbole électrique ampèremètre]
@@ -27,9 +27,9 @@
 
 ## Multimètre
 
-* Fil de mesure noir sur "COM", rouge sur la borne marquée A
+* Fil de mesure noir sur « COM », rouge sur la borne marquée A
 * Selon la plage de mesure, marquée avec $\unit{\micro\ampere}$, $\unit{\milli\ampere}$ ou $\unit{\ampere}$
-* Pour la mesure, sélectionner "A =" (courant continu) ou "A ~" (courant alternatif)
+* Pour la mesure, sélectionner « A = » (courant continu) ou « A ~ » (courant alternatif)
 * Commencer par la plage de mesure la plus élevée, puis éventuellement la réduire – il peut être nécessaire de changer de fil de mesure
 
 <note>

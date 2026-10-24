@@ -1,6 +1,6 @@
 È possibile distribuire un flusso di dati su più portanti che si trovano su frequenze diverse ma vicine. Tuttavia, le portanti non possono essere posizionate arbitrariamente vicine tra loro, poiché generano inevitabilmente bande laterali che occupano una certa larghezza di banda.
 
-Nella tecnica di multiplazione di frequenza ortogonale (Orthogonal Frequency-Division Multiplexing, OFDM), le singole portanti vengono posizionate esattamente alla distanza necessaria per minimizzare il disturbo reciproco (il cosiddetto "diafonia").
+Nella tecnica di multiplazione di frequenza ortogonale (Orthogonal Frequency-Division Multiplexing, OFDM), le singole portanti vengono posizionate esattamente alla distanza necessaria per minimizzare il disturbo reciproco (il cosiddetto «diafonia»).
 
 Maggiore è la velocità di simbolo per portante, maggiore deve essere la distanza tra le portanti. Per questo motivo, si sceglie spesso una velocità di simbolo più bassa per ogni singola portante, in modo da poter utilizzare un numero maggiore di portanti. La quantità di informazioni trasmesse rimane invariata, poiché, sebbene ogni portante trasmetta meno informazioni, è possibile utilizzare più portanti affiancate. Un maggiore distanziamento delle portanti è utile, ad esempio, per rendere il segnale più tollerante agli errori di frequenza, dovuti a deviazioni di frequenza tra trasmettitore e ricevitore o a spostamenti Doppler in caso di trasmettitori o ricevitori in movimento.
 

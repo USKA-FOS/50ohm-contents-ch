@@ -38,7 +38,7 @@ Oltre alla visualizzazione, che consiste in alcuni moduli prestampati, deve esse
 ---
 
 <tip>
-La parola chiave per la risposta corretta in questa e nella domanda successiva è il termine "comprensibile".
+La parola chiave per la risposta corretta in questa e nella domanda successiva è il termine «comprensibile».
 </tip>
 
 [question:VE512]
@@ -56,7 +56,7 @@ Tutti i documenti redatti devono essere regolarmente verificati per accertarne l
 
 ---
 
-Il rispetto dei valori limite e la distanza di sicurezza per le persone risultante devono essere dimostrati e documentati in modo comprensibile tramite calcoli o misurazioni del campo elettromagnetico. Il calcolo può essere effettuato con la procedura di valutazione semplificata, tramite calcolo del campo lontano o vicino, nonché con il software "[Watt Wächter](https://50ohm.de/ww)" pubblicato dalla Bundesnetzagentur. Le procedure di calcolo sono descritte in un documento scaricabile dall'autorità competente.
+Il rispetto dei valori limite e la distanza di sicurezza per le persone risultante devono essere dimostrati e documentati in modo comprensibile tramite calcoli o misurazioni del campo elettromagnetico. Il calcolo può essere effettuato con la procedura di valutazione semplificata, tramite calcolo del campo lontano o vicino, nonché con il software «[Watt Wächter](https://50ohm.de/ww)» pubblicato dalla Bundesnetzagentur. Le procedure di calcolo sono descritte in un documento scaricabile dall'autorità competente.
 
 <margin>
 [photo:80:n_Bewertungsverfahren:In questo documento sono descritte le procedure di valutazione.]

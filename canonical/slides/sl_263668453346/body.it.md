@@ -4,12 +4,12 @@
 <right>
 * Orbitano intorno alla Terra su traiettorie circolari o ellittiche e a diverse altitudini
 * Primo satellite radioamatoriale già nel 1961 (OSCAR 1)
-* OSCAR: "Orbiting Satellite Carrying Amateur Radio"
+* OSCAR: «Orbiting Satellite Carrying Amateur Radio»
 * Ad oggi sono stati (e sono) in orbita diversi centinaia di satelliti
 </right>
 <note>
 * 4 anni dopo lo Sputnik
-* OSCAR in tedesco: "Satellite in orbita che trasporta il servizio radioamatoriale"
+* OSCAR in tedesco: «Satellite in orbita che trasporta il servizio radioamatoriale»
 </note>
 
 ---
@@ -17,7 +17,7 @@
 ---
 
 ## Transponder
-La stazione ripetitrice su satellite viene chiamata "transponder"
+La stazione ripetitrice su satellite viene chiamata «transponder»
 
 * Uplink: tratta radio dalla Terra al satellite
 * Downlink: tratta radio dal satellite alla Terra
@@ -45,7 +45,7 @@ Le antenne per satelliti devono essere orientate
 
 <left>
 *Azimut*
-* deriva dall’arabo السموت (as-sumūt, "i percorsi")
+* deriva dall’arabo السموت (as-sumūt, «i percorsi»)
 * Direzione lungo l’orizzonte
 * Viene misurato in gradi, come con la bussola
 </left>
@@ -57,14 +57,14 @@ Le antenne per satelliti devono essere orientate
 * $\qty{270}{\degree}$ Ovest
 </right>
 
----  data-transition="none"
+---  data-transition=«none»
 
 ## Azimut ed elevazione
 Le antenne per satelliti devono essere orientate
 
 <left>
 *Elevazione*
-* deriva dal latino elevare ("sollevare")
+* deriva dal latino elevare («sollevare»)
 * Angolo verticale sopra l’orizzonte
 </left>
 <right>

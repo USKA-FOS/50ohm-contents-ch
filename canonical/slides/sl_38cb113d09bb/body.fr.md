@@ -12,7 +12,7 @@
 
 [picture:1053:e_signalkette_2:Chaîne de signal avec deux amplificateurs et un atténuateur]
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 ## Niveau de puissance
 
 Facteur 10
@@ -51,7 +51,7 @@ Seulement à insérer
 ---
 [question:AA105]
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 ## Niveau de tension
 

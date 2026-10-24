@@ -21,7 +21,7 @@
 
 * Pour une longueur de conducteur de $ \lambda/4 $ ou un multiple impair de celle-ci, une résonance se produit
 * Comme l'extrémité du conducteur est mise à la terre, un ventre de tension ne peut pas s'y former – à la place, une tension élevée se forme à la connexion du conducteur de mise à la terre sur l'émetteur
-* Le boîtier de l'émetteur devient « chaud » et sensible au toucher, ce qui peut entraîner des chocs électriques ou des brûlures
+* Le boîtier de l'émetteur devient « chaud » et sensible au toucher, ce qui peut entraîner des chocs électriques ou des brûlures
 
 ---
 [question:AK203]

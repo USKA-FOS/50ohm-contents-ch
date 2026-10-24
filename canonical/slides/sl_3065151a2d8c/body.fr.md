@@ -12,7 +12,7 @@
 * Le site affiche les indicatifs d’appel, les noms et, si aucune objection n’a été formulée, les adresses
 * Les mêmes informations figurent également dans la liste des indicatifs d’appel téléchargeable au format PDF
 
---- data-background-iframe="https://ans.bundesnetzagentur.de/Amateurfunk/Rufzeichen.aspx" data-background-interactive
+--- data-background-iframe=« https://ans.bundesnetzagentur.de/Amateurfunk/Rufzeichen.aspx » data-background-interactive
 
 <note>
 Intégration du site web pour la recherche d’indicatifs d’appel

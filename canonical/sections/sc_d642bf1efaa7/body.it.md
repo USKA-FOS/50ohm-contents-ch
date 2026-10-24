@@ -5,7 +5,7 @@ La forma base dell'antenna è il *dipolo* (Figura [ref:n_dipol]). Tra i radioama
 </margin>
 
 <wordorigin>
-Il termine *dipolo* deriva dal greco e significa letteralmente "due poli".
+Il termine *dipolo* deriva dal greco e significa letteralmente «due poli».
 </wordorigin>
 
 ---

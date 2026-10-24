@@ -196,7 +196,7 @@ Un exemple de réglage supplémentaire est un sous-ton avec CTCSS
 
 ## Double appel
 * Si deux stations émettent simultanément, l’émission est brouillée au point de devenir inaudible
-* Éviter le "double appel" en assurant une bonne transition
+* Éviter le « double appel » en assurant une bonne transition
 * Ne commencer l’émission qu’une fois la station précédente terminée
 
 

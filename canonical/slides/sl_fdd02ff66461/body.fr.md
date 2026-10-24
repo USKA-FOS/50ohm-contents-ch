@@ -3,7 +3,7 @@
 </left>
 <right>
 * En modulation d’amplitude, en plus de la porteuse, deux bandes latérales sont présentes → bande latérale inférieure et bande latérale supérieure
-* "lower sideband" (*LSB*) et "upper sideband" (*USB*)
+* « lower sideband » (*LSB*) et « upper sideband » (*USB*)
 * La porteuse elle-même ne contient aucune information
 </right>
 <note>

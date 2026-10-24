@@ -32,7 +32,7 @@
 Les Squares du champ JO sont représentés.
 </note>
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 ## Niveaux du locator Maidenhead
 
 

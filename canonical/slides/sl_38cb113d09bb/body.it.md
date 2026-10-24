@@ -15,7 +15,7 @@
 [picture:1053:e_signalkette_2:Catena di segnale con due amplificatori e un attenuatore]
 
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 ## Livello di potenza
 
@@ -66,7 +66,7 @@ Solo inserire
 
 
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 ## Livello di tensione
 

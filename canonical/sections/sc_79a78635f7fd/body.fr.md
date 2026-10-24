@@ -6,7 +6,7 @@ Si l'on reçoit accidentellement de tels messages, il faut garder pour soi le co
 
 [question:VE203]
 
-La possession et la fabrication d'appareils qui simulent un autre objet et sont ainsi particulièrement aptes à écouter secrètement la parole non publique ("micros cachés") sont interdites. Un exemple ici serait un stylo à bille avec un microphone intégré. Cette interdiction s'applique à tous et donc naturellement aussi aux radioamateurs.
+La possession et la fabrication d'appareils qui simulent un autre objet et sont ainsi particulièrement aptes à écouter secrètement la parole non publique (« micros cachés ») sont interdites. Un exemple ici serait un stylo à bille avec un microphone intégré. Cette interdiction s'applique à tous et donc naturellement aussi aux radioamateurs.
 
 [question:VE204]
 

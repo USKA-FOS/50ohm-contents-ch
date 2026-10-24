@@ -64,7 +64,7 @@ Questo principio è illustrato nella domanda seguente: un diodo viene alimentato
 
 ---
 
-Con quattro diodi disposti ad anello è possibile costruire un modulatore in modo che la portante in uscita sia soppressa. Abbiamo già conosciuto un tale circuito nel capitolo "Miscelatore II" come *miscelatore bilanciato*. Lì veniva utilizzato per convertire un segnale HF in una frequenza intermedia. Nel trasmettitore utilizziamo ora lo stesso principio di base per generare un segnale modulato.
+Con quattro diodi disposti ad anello è possibile costruire un modulatore in modo che la portante in uscita sia soppressa. Abbiamo già conosciuto un tale circuito nel capitolo «Miscelatore II» come *miscelatore bilanciato*. Lì veniva utilizzato per convertire un segnale HF in una frequenza intermedia. Nel trasmettitore utilizziamo ora lo stesso principio di base per generare un segnale modulato.
 
 <margin>
 [picture:759:a_balancemodulator:Modulatore bilanciato con anello di diodi]
@@ -175,7 +175,7 @@ Per la modulazione di frequenza, al segnale BF viene sovrapposta la tensione con
 
 ---
 
-Con grandi tensioni BF si possono facilmente causare variazioni di frequenza dell'oscillatore ("deviazione" FM) molto maggiori di quelle consentite. Pertanto, è necessaria una limitazione della "deviazione" mediante una regolazione e limitazione dell'ampiezza della BF. Diodi collegati in antiparallelo limitano la tensione a circa la tensione di ginocchio del diodo. Un esempio è mostrato nelle figure [ref:a_fm_modulator_hub1] e [ref:a_fm_modulator_hub2].
+Con grandi tensioni BF si possono facilmente causare variazioni di frequenza dell'oscillatore («deviazione» FM) molto maggiori di quelle consentite. Pertanto, è necessaria una limitazione della «deviazione» mediante una regolazione e limitazione dell'ampiezza della BF. Diodi collegati in antiparallelo limitano la tensione a circa la tensione di ginocchio del diodo. Un esempio è mostrato nelle figure [ref:a_fm_modulator_hub1] e [ref:a_fm_modulator_hub2].
 
 <margin>
 [picture:44:a_fm_modulator_hub1:Circuito per la limitazione della deviazione]

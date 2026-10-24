@@ -2,7 +2,7 @@
 * Confronto di fase tra i due segnali
 * La frequenza di uscita corrisponde a quella di riferimento o a un suo multiplo e rimane stabile
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 [picture:45:a_oszillator_pll_pll:Rappresentazione di un anello ad aggancio di fase (PLL)]
 
 * Il *comparatore di fase* confronta le fasi del VCO e dell'oscillatore di riferimento
@@ -37,7 +37,7 @@ Il comparatore di fase emette impulsi in caso di scostamenti di fase, che vengon
 [question:AD703]
 ---
 [question:AD704]
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 #### Procedimento
 * dati: $f_\text{Osc} = \qty{12,5}{\kilo\hertz}$
 * dati: $f_\text{Out,low} = \qty{12,000}{\mega\hertz}$

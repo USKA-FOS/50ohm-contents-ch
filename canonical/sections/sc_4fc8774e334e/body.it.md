@@ -1,4 +1,4 @@
-Spesso ci troviamo di fronte al problema che un valore di resistenza desiderato non è incluso nella cosiddetta "serie normalizzata delle resistenze". Potrebbe anche essere che una resistenza debba dissipare una grande potenza, che non è possibile con resistenze singole disponibili in commercio – per citare solo due esempi. Ora vedremo come ottenere altri valori di resistenza collegando resistenze in serie o in parallelo.
+Spesso ci troviamo di fronte al problema che un valore di resistenza desiderato non è incluso nella cosiddetta «serie normalizzata delle resistenze». Potrebbe anche essere che una resistenza debba dissipare una grande potenza, che non è possibile con resistenze singole disponibili in commercio – per citare solo due esempi. Ora vedremo come ottenere altri valori di resistenza collegando resistenze in serie o in parallelo.
 
 Dalla legge di Ohm possiamo derivare le regole per i collegamenti in serie e in parallelo delle resistenze:
 
@@ -75,7 +75,7 @@ Alcuni esercizi includono reti di resistenze in cui sono presenti sia collegamen
 <tip>
 [picture:305:e_tipp_aufgabe:Esempio di circuito]
 
-Un importante metodo di soluzione è la "tecnica dell'osservazione attenta" ... ad esempio, esiste un circuito che ha una resistenza $R_1$ in serie con due resistenze $R_2$ e $R_3$ collegate in parallelo. I valori sono $R_1 = \qty{1}{\kilo\ohm}$, $R_2 = \qty{2000}{\ohm}$ e $R_3 = \qty{2}{\kilo\ohm}$. Tuttavia, $\qty{2}{\kilo\ohm} = \qty{2000}{\ohm}$. Il collegamento in parallelo di $R_2$ e $R_3$ dà una resistenza pari alla metà: $\qty{1000}{\ohm} = \qty{1}{\kilo\ohm}$. La colleghiamo in serie con $R_1$ e otteniamo il risultato: $R_{\mathrm{ges}} = \qty{2}{\kilo\ohm}$.
+Un importante metodo di soluzione è la «tecnica dell'osservazione attenta» ... ad esempio, esiste un circuito che ha una resistenza $R_1$ in serie con due resistenze $R_2$ e $R_3$ collegate in parallelo. I valori sono $R_1 = \qty{1}{\kilo\ohm}$, $R_2 = \qty{2000}{\ohm}$ e $R_3 = \qty{2}{\kilo\ohm}$. Tuttavia, $\qty{2}{\kilo\ohm} = \qty{2000}{\ohm}$. Il collegamento in parallelo di $R_2$ e $R_3$ dà una resistenza pari alla metà: $\qty{1000}{\ohm} = \qty{1}{\kilo\ohm}$. La colleghiamo in serie con $R_1$ e otteniamo il risultato: $R_{\mathrm{ges}} = \qty{2}{\kilo\ohm}$.
 </tip>
 
 [question:ED111]

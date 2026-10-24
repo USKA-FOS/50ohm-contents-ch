@@ -1,6 +1,6 @@
 
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 ## E sporadico
 

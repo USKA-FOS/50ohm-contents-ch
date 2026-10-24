@@ -34,7 +34,7 @@ La valeur mesurée affichée diffère généralement de la valeur réelle en rai
 
 ---
 [question:AI103]
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ### Méthode de résolution
 
 * Calcul en pourcentage – les valeurs absolues ne sont pas pertinentes

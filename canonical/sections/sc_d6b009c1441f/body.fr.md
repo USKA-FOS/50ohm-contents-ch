@@ -18,7 +18,7 @@ Comme nous l'avons appris dès le début du cours dans la section [sec:ausbildun
 
 Le club doit obtenir une autorisation écrite (autorisation d’émettre ou autorisation de transmission) auprès de l'OFCOM au moins deux semaines à l'avance. Les responsables de station doivent être clairement désignés dans la demande.
 
-L'apprenti utilise ensuite l'indicatif du club et ajoute le suffixe "operator" suivi de son prénom. Par exemple, un apprenti du club HB9FZ s'annonce comme "HB9FZ operator Hans". Cela permet aux autres de savoir qu'un apprenti est en train d'émettre.
+L'apprenti utilise ensuite l'indicatif du club et ajoute le suffixe « operator » suivi de son prénom. Par exemple, un apprenti du club HB9FZ s'annonce comme « HB9FZ operator Hans ». Cela permet aux autres de savoir qu'un apprenti est en train d'émettre.
 
 Si le club participe à un concours sous son indicatif, le nom de l'opérateur n'a pas besoin d'être transmis.
 [question:BD210]

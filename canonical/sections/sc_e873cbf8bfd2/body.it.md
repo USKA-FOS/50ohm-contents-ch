@@ -6,7 +6,7 @@ Il radiatore isotropo è un’antenna che esiste solo in teoria. È infinitament
 [picture:751:n_Kugelstrahler:Radiatore isotropo al centro di una sfera, che genera la stessa potenza irradiata in tutti i punti della superficie sferica]
 </margin>
 
-Se la potenza irradiata viene indicata in riferimento al radiatore isotropo, si parla di "potenza irradiata isotropa equivalente". In inglese, questo concetto è abbreviato con EIRP (equivalent isotropic radiated power).
+Se la potenza irradiata viene indicata in riferimento al radiatore isotropo, si parla di «potenza irradiata isotropa equivalente». In inglese, questo concetto è abbreviato con EIRP («equivalent isotropic radiated power»).
 
 ---
 

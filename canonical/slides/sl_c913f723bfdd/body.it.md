@@ -16,14 +16,14 @@
 * I dettagli sono contenuti nella *regolamentazione sul radioamatoriale (AFuV)* e nelle *disposizioni o comunicazioni dell'Agenzia federale delle reti*
 * Oltre a ciò, esistono altre normative che riguardano il radioamatoriale, ad esempio in materia di marcatura CE o segreto delle telecomunicazioni
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 
 <left>
 [photo:3:n_gesetze_vorschriften_backstein:Mattone dell'azione Mattone del 1949]
 </left>
 <right>
 * La prima legge sul radioamatoriale entrò in vigore il 15 marzo 1949, ancora prima della Legge fondamentale
-* A questa fece seguito la leggendaria "azione Mattone": i radioamatori inviarono nel gennaio 1949 pacchi con mattoni e lettere di protesta al presidente del Consiglio economico per accelerare l'adozione della legge
+* A questa fece seguito la leggendaria «azione Mattone»: i radioamatori inviarono nel gennaio 1949 pacchi con mattoni e lettere di protesta al presidente del Consiglio economico per accelerare l'adozione della legge
 </right>
 
 ---

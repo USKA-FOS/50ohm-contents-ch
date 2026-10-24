@@ -10,7 +10,7 @@ Si le boîtier de l'émetteur est relié par une ligne séparée à la barre de 
 
 Comme l'extrémité de la ligne est mise à la terre, un ventre de tension ne peut pas s'y former. Il se forme donc au début, c'est-à-dire là où le conducteur de mise à la terre est connecté à l'émetteur. C'est pourquoi une tension élevée apparaît sur le boîtier, en fonction de la puissance d'émission. En cas de contact, cela provoque une décharge électrique ou des brûlures.
 
-Les radioamateurs disent que le boîtier est « chaud ». On recule, comme on recule lorsqu'on touche une plaque de cuisson chaude.
+Les radioamateurs disent que le boîtier est « chaud ». On recule, comme on recule lorsqu'on touche une plaque de cuisson chaude.
 
 ---
 

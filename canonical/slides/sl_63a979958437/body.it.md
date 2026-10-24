@@ -13,7 +13,7 @@
 * Particolarmente utile per collegamenti DX in VHF
 * La voce è poco utilizzabile (larghezza di banda elevata)
 * Adatto per CW e modi digitali
-* Rapporto: per la lettera T viene assegnata la lettera A, poiché il tono è ruvido e variabile
+* Rapporto: per la lettera T viene assegnata la lettera «A», poiché il tono è ruvido e variabile
 
 ---
 

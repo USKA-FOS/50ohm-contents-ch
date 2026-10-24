@@ -2,7 +2,7 @@
 
 * Lorsqu'une station particulière ou rare est appelée, cette information se propage souvent rapidement sur Internet
 * De nombreux radioamateurs tentent alors de répondre simultanément à cet appel → *Pile-Up*
-* Le terme Pile-Up vient du verbe anglais "to pile up", qui signifie "s'entasser".
+* Le terme Pile-Up vient du verbe anglais « to pile up », qui signifie « s'entasser ».
 * Ce qui s'entasse ici, ce sont les radioamateurs de plus en plus nombreux qui poursuivent le même objectif : établir une communication avec la station convoitée.
 
 <note>
@@ -19,7 +19,7 @@ Plus il y a de stations qui répondent simultanément, plus il est difficile de 
 
 ### Appel par chiffres
 
-* L'appel CQ est limité à certains chiffres de l'indicatif, par exemple "*only number* 5"
+* L'appel CQ est limité à certains chiffres de l'indicatif, par exemple « *only number* 5 »
 * Les chiffres sont généralement appelés dans l'ordre
 * En moyenne, seulement un dixième des radioamateurs intéressés répondent simultanément
 
@@ -27,7 +27,7 @@ Plus il y a de stations qui répondent simultanément, plus il est difficile de 
 
 ### Appel par pays ou continents
 
-* L'appel est restreint à certains pays ou continents, par exemple "Asia only"
+* L'appel est restreint à certains pays ou continents, par exemple « Asia only »
 * Seules les stations de la zone mentionnée doivent répondre
 
 ---

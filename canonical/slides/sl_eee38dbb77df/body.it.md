@@ -16,7 +16,7 @@
 [question:AJ213]
 
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 ### Misure per la soppressione delle oscillazioni parassite
 

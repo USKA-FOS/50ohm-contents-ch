@@ -27,7 +27,7 @@
 * ITU e regolamento delle radiocomunicazioni verranno approfonditi in seguito
 </note>
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 <left>
 | c: Lettera | l: Parola | l: Pronuncia |

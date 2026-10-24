@@ -18,7 +18,7 @@
 
 ---
 
-* È vietato il possesso e la produzione di dispositivi che simulano un altro oggetto e che, per questo, sono particolarmente adatti a registrare in modo occulto parole non pronunciate in pubblico ("cimici")
+* È vietato il possesso e la produzione di dispositivi che simulano un altro oggetto e che, per questo, sono particolarmente adatti a registrare in modo occulto parole non pronunciate in pubblico («cimici»)
 * Esempio: una penna con microfono incorporato
 * Questo divieto vale per tutti, inclusi i radioamatori
 

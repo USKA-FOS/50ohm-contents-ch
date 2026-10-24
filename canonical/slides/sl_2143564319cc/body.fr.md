@@ -12,7 +12,7 @@ La puissance d'émission générée par l'émetteur doit être rayonnée par l'a
 * Différentes exécutions possibles
 </right>
 <note>
-Langage courant : « câble coaxial »
+Langage courant : « câble coaxial »
 </note>
 
 ---

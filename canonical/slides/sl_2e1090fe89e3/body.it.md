@@ -35,7 +35,7 @@ Con questa formula è possibile calcolare la resistenza ohmica di un filo conosc
 
 ---
 [question:AB101]
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ### Procedimento di soluzione
 * dati: $l = \qty{1,8}{\meter}$
 * dati: $d = \qty{0,2}{\milli\meter}$

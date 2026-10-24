@@ -13,10 +13,10 @@
 
 ### Caratteristiche delle stazioni in contest
 
-* Spesso si riconosce una stazione in contest perché il nome della gara o semplicemente la parola "CONTEST" è integrato nella chiamata CQ.
-* Ad esempio: "CQ FD" o "CQ Ruhrgebietscontest" o "CQ Contest".
+* Spesso si riconosce una stazione in contest perché il nome della gara o semplicemente la parola «CONTEST» è integrato nella chiamata CQ.
+* Ad esempio: «CQ FD» o «CQ Ruhrgebietscontest» o «CQ Contest».
 * In telegrafia si usa CQ TEST.
-* Esempio: DD4UQ partecipa in portatile al Fieldday-Contest in telegrafia $\rightarrow$ "CQ FD DD4UQ/P TEST"
+* Esempio: DD4UQ partecipa in portatile al Fieldday-Contest in telegrafia $\rightarrow$ «CQ FD DD4UQ/P TEST»
 
 <note>
 Con CQ TEST non si intende la conduzione di un test, ad esempio per verificare l’antenna.

@@ -4,7 +4,7 @@
 * Les écarts par rapport à la forme sinusoïdale génèrent des multiples entiers de la fréquence fondamentale
 * Ces multiples sont appelés harmoniques
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ### Représentation dans le spectre de fréquences
 
 <left>
@@ -22,7 +22,7 @@ Les signaux rectangulaires (par exemple, dus à la saturation d'un amplificateur
 Les signaux en dents de scie contiennent principalement des harmoniques paires.
 </note>
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 ### Harmoniques supérieures – multiples de la fréquence fondamentale
 
 <left>

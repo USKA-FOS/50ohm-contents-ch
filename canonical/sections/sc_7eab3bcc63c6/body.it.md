@@ -19,6 +19,6 @@ Nell’illustrazione [ref:n_sprachspektrum] vediamo un tipico segnale vocale rap
 
 Nell’illustrazione [ref:n_sprachspektrum_symbolisch] vediamo una rappresentazione simbolica di uno spettro vocale. Sull’asse X, da sinistra a destra, sono rappresentate diverse frequenze. I toni bassi con frequenze minori si trovano più a sinistra rispetto ai toni alti con frequenze maggiori, che si trovano più a destra. Sull’asse Y, dal basso verso l’alto, è rappresentata la sonorità di ogni frequenza, tecnicamente chiamata ampiezza. Più in alto si trova il punto, più forte è il tono.
 
-Nell’illustrazione [ref:n_sprachspektrum_beispiel] troviamo un esempio concreto. Si può leggere una banda di frequenza utilizzata da $\qtyrange{300}{2700}{\hertz}$. La "larghezza" del segnale viene chiamata larghezza di banda ed è espressa in hertz ($\unit{\hertz}$). In questo caso, la larghezza di banda è $\qty{2700}{\hertz}$ - $\qty{300}{\hertz}$ = $\qty{2400}{\hertz}$.
+Nell’illustrazione [ref:n_sprachspektrum_beispiel] troviamo un esempio concreto. Si può leggere una banda di frequenza utilizzata da $\qtyrange{300}{2700}{\hertz}$. La «larghezza» del segnale viene chiamata larghezza di banda ed è espressa in hertz ($\unit{\hertz}$). In questo caso, la larghezza di banda è $\qty{2700}{\hertz}$ - $\qty{300}{\hertz}$ = $\qty{2400}{\hertz}$.
 
 Questo segnale vocale esemplificativo verrà utilizzato per modulare una portante. Un segnale con cui si modula una portante viene chiamato *segnale di modulazione*.

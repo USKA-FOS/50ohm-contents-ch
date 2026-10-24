@@ -31,27 +31,27 @@ BK QSL = VY 73 DE DL2AB SK
 L'échange QSO sera expliqué étape par étape avec les abréviations après les explications
 </note>
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 | l: Abrév. | l: Signification |
 | BK | Interruption de l'émission ; transmission informelle |
-| CQ | Appel général (de l'anglais "Seek You") |
+| CQ | Appel général (de l'anglais « Seek You ») |
 | DE | de |
 | K | Invitation à transmettre |
-| PSE | S'il vous plaît (de l'anglais "Please") |
+| PSE | S'il vous plaît (de l'anglais « Please ») |
 | QSL | Je confirme la réception |
 | R | Reçu (confirmation de réception) |
-| RPRT | Rapport (de l'anglais "Report") |
+| RPRT | Rapport (de l'anglais « Report ») |
 [table:n_funkfernschreiben_abkuerzungen_1:Abréviations opérationnelles en télégraphie]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 | l: Abrév. | l: Signification |
 | RST | Rapport RST |
-| SK | Fin de la liaison (de l'anglais "Silent Key") |
-| TNX | Merci (de l'anglais "Thanks") |
-| UR | tu es (dans le sens de "ton signal est", de l'anglais "you are") |
-| VY | très (de l'anglais "very") |
+| SK | Fin de la liaison (de l'anglais « Silent Key ») |
+| TNX | Merci (de l'anglais « Thanks ») |
+| UR | tu es (dans le sens de « ton signal est », de l'anglais « you are ») |
+| VY | très (de l'anglais « very ») |
 | 73 | meilleures salutations |
 | = | Séparateur |
 [table:n_funkfernschreiben_abkuerzungen_2:Abréviations opérationnelles en télégraphie]

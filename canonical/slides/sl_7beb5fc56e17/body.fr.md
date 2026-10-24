@@ -21,7 +21,7 @@
 </left>
 <fragment>
 <right>
-* La « largeur » du signal est appelée *bande passante* et s’exprime en hertz ($\unit{Hz}$).
+* La « largeur » du signal est appelée *bande passante* et s’exprime en hertz ($\unit{Hz}$).
 * Supposons que l’on souhaite transmettre un signal vocal dans la plage de fréquences $\qtyrange{300}{2700}{\hertz}$.
 * La bande passante est alors de $\qty{2700}{\hertz}$ – $\qty{300}{\hertz}$ = $\qty{2400}{\hertz}$.
 </right>

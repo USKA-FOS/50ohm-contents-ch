@@ -12,7 +12,7 @@
 ---
 
 <left>
-* In questo modo "tagliamo" la semionda negativa della tensione alternata.
+* In questo modo «tagliamo» la semionda negativa della tensione alternata.
 * Altri componenti sono necessari per ottenere una tensione continua stabile dalle semionde positive; questi verranno trattati nel corso di classe A.
 </left>
 <right>

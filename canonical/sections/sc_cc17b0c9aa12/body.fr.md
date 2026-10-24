@@ -8,7 +8,7 @@ Il peut être déroutant de constater que le sens conventionnel du courant est o
 
 [question:AC403]
 
-Les diodes à jonction présentent une dépendance exponentielle du courant de diode en fonction de la tension aux bornes de la diode. Le courant de saturation augmente avec la température. Cela a pour effet que la tension nécessaire pour un courant de diode donné diminue lorsque la température augmente. La « tension directe » diminue donc (en règle empirique d’environ $\qty{-2}{\milli\volt\per\kelvin}$ d’élévation de température).
+Les diodes à jonction présentent une dépendance exponentielle du courant de diode en fonction de la tension aux bornes de la diode. Le courant de saturation augmente avec la température. Cela a pour effet que la tension nécessaire pour un courant de diode donné diminue lorsque la température augmente. La « tension directe » diminue donc (en règle empirique d’environ $\qty{-2}{\milli\volt\per\kelvin}$ d’élévation de température).
 <indepth>
 
 Le courant de diode est donné par :
@@ -39,7 +39,7 @@ Dans les questions AC405 et AC406, des *diodes antiparallèles* sont utilisées 
 
 Il s’agit ici de diodes en silicium, qui présentent une tension de seuil d’environ $\qty{0,6}{\volt}$. Si la tension d’entrée dépasse $\qty{0,6}{\volt}$, la diode de droite devient passante. Si elle descend en dessous de $\qty{-0,6}{\volt}$, la diode de gauche devient passante.
 
-Lors du premier demi-cycle, la tension nécessaire n’est pas encore atteinte, il est donc transmis sans modification. Les deux demi-cycles suivants, en revanche, ont des amplitudes dépassant la tension de seuil. Les amplitudes sont « écrêtées » à $\qty{\pm 0,6}{\volt}$.
+Lors du premier demi-cycle, la tension nécessaire n’est pas encore atteinte, il est donc transmis sans modification. Les deux demi-cycles suivants, en revanche, ont des amplitudes dépassant la tension de seuil. Les amplitudes sont « écrêtées » à $\qty{\pm 0,6}{\volt}$.
 
 [question:AC406]
 

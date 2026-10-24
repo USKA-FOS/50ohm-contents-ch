@@ -5,7 +5,7 @@ La génération d'une oscillation sinusoïdale de tension alternative s'effectue
 
 Une oscillation sinusoïdale peut toujours être représentée comme un vecteur tournant dans le cercle trigonométrique. Cette représentation permet de mieux comprendre certains concepts. La figure [ref:a_phasenwinkel_zeit] montre les points A, B, C et D de cette rotation ainsi que leurs relations temporelles et angulaires :
 
-1. L'axe horizontal portant l'étiquette « temps » est la représentation classique d'une oscillation sinusoïdale, où le lien avec la durée d’une période T est établi.
+1. L'axe horizontal portant l'étiquette « temps » est la représentation classique d'une oscillation sinusoïdale, où le lien avec la durée d’une période T est établi.
 2. Une rotation complète peut également être exprimée en angle. Une rotation complète s'achève après 360 degrés.
 Une demi-rotation correspond à 180 degrés, et un quart de rotation est terminé après 90 degrés. Ces valeurs permettent de nommer l'axe horizontal de l'oscillation sinusoïdale.
 3. Un angle peut aussi être indiqué en mesure en radians.

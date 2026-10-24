@@ -23,7 +23,7 @@
 * Le antenne accorciate hanno un rendimento inferiore, ad esempio un guadagno d'antenna di $\qty{-20}{\dBd}$
 * Rapporto di potenza: $\qty{-20}{\dB}$ corrisponde a un fattore di $\num{0,01}$; esempio: $\qty{50}{\watt} \cdot 0,01 = \qty{0,5}{\watt}$ ERP
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 ### Rapporti di potenza nella raccolta di formule
 

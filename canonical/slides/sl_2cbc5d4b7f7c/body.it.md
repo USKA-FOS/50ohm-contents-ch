@@ -17,9 +17,9 @@ Sostanze semiconduttrici comuni: silicio (Si), germanio (Ge), arseniuro di galli
 ---
 ## Drogaggio
 
-* "Contaminazione" dei semiconduttori
+* «Contaminazione» dei semiconduttori
 * Sostanze con 5 elettroni nello strato esterno $\rightarrow$ eccesso di elettroni $\rightarrow$ *drogaggio di tipo N*
-* Sostanze con 3 elettroni nello strato esterno $\rightarrow$ carenza di elettroni ("lacuna") $\rightarrow$ *drogaggio di tipo P*
+* Sostanze con 3 elettroni nello strato esterno $\rightarrow$ carenza di elettroni («lacuna») $\rightarrow$ *drogaggio di tipo P*
 
 ---
 <left>
@@ -37,7 +37,7 @@ Le lacune non sono in realtà mobili, ma a causa del flusso di elettroni sembra 
 [question:AB106]
 ---
 [question:AB107]
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 ## Combinazione
 
 <left>
@@ -51,9 +51,9 @@ Le lacune non sono in realtà mobili, ma a causa del flusso di elettroni sembra 
 * Lo scambio si arresta quando il campo elettrico diventa troppo intenso per gli elettroni
 </right>
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 [question:AB108]
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 ## Diodo a giunzione PN in verso diretto
 
 <left>

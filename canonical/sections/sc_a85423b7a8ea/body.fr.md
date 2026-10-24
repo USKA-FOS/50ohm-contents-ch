@@ -36,7 +36,7 @@ Il existe différentes tables d’épellation, par exemple la table allemande, a
 %YPA Attention lors de la traduction : adapter la ligne 37 de la langue (F&I) !
 La table d’épellation ne contient cependant pas de chiffres [index:Buchstabiertafel:Ziffern]. Dans le trafic radio national, les chiffres sont prononcés en allemand, par exemple Hotel Bravo *Trois* Charlie Golf Foxtrot. Dans le trafic radio international, on utilise l’anglais, par exemple Hotel Bravo *Three* Charlie Golf Foxtrot.
 
-La table d’épellation peut bien sûr aussi être utilisée pour épeler d’autres mots, par exemple un nom ou une indication de lieu. La table d’épellation internationale ne contient cependant pas de voyelles allemandes [index:Buchstabiertafel:Umlaute]. Ainsi, le Ä est épelé Alfa Echo, le Ö Oscar Echo et le Ü Uniform Echo.
+La table d’épellation peut bien sûr aussi être utilisée pour épeler d’autres mots, par exemple un nom ou une indication de lieu. La table d’épellation internationale ne contient cependant pas de voyelles allemandes [index:Buchstabiertafel:Umlaute]. Ainsi, le Ä est épelé «Alfa Echo», le Ö «Oscar Echo» et le Ü «Uniform Echo».
 
 La table d’épellation internationale doit être apprise par cœur. Au début, cela peut sembler difficile, mais plus on l’utilise, plus cela devient fluide.
 

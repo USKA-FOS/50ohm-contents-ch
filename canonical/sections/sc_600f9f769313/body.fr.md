@@ -51,7 +51,7 @@ De même que pour le voltmètre, il en va de même pour l'ampèremètre. Un amp�
 [question:AI104]
 
 <tip>
-Pour cette question, l'indication "Plus petite résolution $\qty{100}{\micro\volt}$" n'est pas importante. Elle peut être résolue uniquement à l'aide de la loi d'Ohm.
+Pour cette question, l'indication « Plus petite résolution $\qty{100}{\micro\volt}$ » n'est pas importante. Elle peut être résolue uniquement à l'aide de la loi d'Ohm.
 </tip>
 
 ---

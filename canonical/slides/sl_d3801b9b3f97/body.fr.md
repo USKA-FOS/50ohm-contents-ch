@@ -1,5 +1,5 @@
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## Lors de l’émission
 

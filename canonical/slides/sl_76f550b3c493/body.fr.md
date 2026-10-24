@@ -43,7 +43,7 @@
 [question:EB103]
 ---
 [question:EB104]
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 ### Méthode de résolution
 
 L'astuce ici est que la rigidité diélectrique correspond à l'intensité du champ électrique $E$.
@@ -61,7 +61,7 @@ $U = \qty{6e3}{\volt} = \qty{6}{\kilo\volt}$
 
 <left>
 * Des lignes de champ électrique se forment également autour d'une antenne
-* Les lignes de champ d'une antenne verticale vont de l'extrémité "positive" à la terre
+* Les lignes de champ d'une antenne verticale vont de l'extrémité « positive » à la terre
 </left>
 <right>
 [picture:884:e_feldlinien_vertikalantenne:Lignes de champ sur une antenne verticale]

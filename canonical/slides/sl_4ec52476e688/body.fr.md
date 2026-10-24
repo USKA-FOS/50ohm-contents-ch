@@ -64,7 +64,7 @@ $C_{\mathrm{ges}} = C_{1} + C_{2} + C_{3}$
 
 ## Circuits mixtes
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 ### Variante 1 : Deux en parallèle et un en série
 
@@ -93,7 +93,7 @@ $C_{\mathrm{ges}} = \frac{C_{1} \cdot C_{\mathrm{ges,p}}}{C_{1} + C_{\mathrm{ges
 
 [question:ED122]
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 
 ### Variante 2 : Deux en série et un en parallèle
 

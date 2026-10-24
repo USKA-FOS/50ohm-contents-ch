@@ -17,9 +17,9 @@ Matériaux semi-conducteurs courants : silicium (Si), germanium (Ge), arséniure
 ---
 ## Dopage
 
-* "Pollution" des semi-conducteurs
+* « Pollution » des semi-conducteurs
 * Substances avec 5 électrons sur la couche externe $\rightarrow$ excès d'électrons $\rightarrow$ *dopage de type N*
-* Substances avec 3 électrons sur la couche externe $\rightarrow$ manque d'électrons ("trou") $\rightarrow$ *dopage de type P*
+* Substances avec 3 électrons sur la couche externe $\rightarrow$ manque d'électrons (« trou ») $\rightarrow$ *dopage de type P*
 
 ---
 <left>
@@ -37,7 +37,7 @@ Les trous ne sont pas mobiles en réalité, mais grâce au flux d'électrons, il
 [question:AB106]
 ---
 [question:AB107]
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 ## Combinaison
 
 <left>
@@ -51,9 +51,9 @@ Les trous ne sont pas mobiles en réalité, mais grâce au flux d'électrons, il
 * L'échange s'arrête dès que le champ électrique devient trop fort pour les électrons
 </right>
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 [question:AB108]
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 ## Diode PN en polarisation directe
 
 <left>

@@ -18,7 +18,7 @@
 ## Utilizzo delle Bake
 * Ricevibilità dipendente dalle condizioni mutevoli di propagazione
 * Indicatore della fattibilità di un collegamento radio
-* Testare la riflessione sulle aurore boreali nella banda VHF tramite "bake Aurora"
+* Testare la riflessione sulle aurore boreali nella banda VHF tramite «bake Aurora»
 * Verificare l’orientamento delle antenne tramite rilevamento direzionale
 
 <note>
@@ -28,7 +28,7 @@
 ---
 [question:BE409]
 
---- style="font-size: 0.7em;"
+--- style=«font-size: 0.7em;»
 
 ## Progetto Internazionale delle Bake (IBP)
 <left>

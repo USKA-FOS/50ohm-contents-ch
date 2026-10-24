@@ -12,7 +12,7 @@
 ---
 [question:EC304]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ## Bobina e induttanza
 
 * Una bobina ottimizza l'induttanza di un conduttore
@@ -28,7 +28,7 @@ $L = \dfrac{N\cdot \Phi}{I}$
 * Henry da Joseph Henry (1797 - 1878)
 </note>
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ## Induttanza in base alla struttura
 
 <left>

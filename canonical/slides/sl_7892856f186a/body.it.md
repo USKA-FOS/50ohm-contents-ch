@@ -9,7 +9,7 @@
 [picture:656:swl_landeskenner_europa:Alcuni prefissi nazionali radioamatoriali in Europa]
 </right>
 
---- style="font-size: 0.75em;"
+--- style=«font-size: 0.75em;»
 
 ### Prefissi nazionali per l’esame DE
 

@@ -48,7 +48,7 @@ Da tenere presso la stazione radio e da esibire su richiesta della Bundesnetzage
 * configurazione dell’impianto radio
 
 <note>
-Parola chiave per la risposta corretta a questa e alla domanda successiva: "comprensibile"
+Parola chiave per la risposta corretta a questa e alla domanda successiva: «comprensibile»
 </note>
 
 ---
@@ -86,7 +86,7 @@ Ad esempio: ulteriore palo per antenna, cambio di antenna o aumento della potenz
 </left>
 <right>
 Strumenti di supporto:
-* Software "[Watt Wächter](https://50ohm.de/ww)"
+* Software «[Watt Wächter](https://50ohm.de/ww)»
 * procedura di valutazione semplificata
 * misurazione dell’intensità di campo
 * calcolo del campo lontano

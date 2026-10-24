@@ -22,12 +22,12 @@ $s(t)=A(t)\cos\left(\omega_\mathrm{T}t+\varphi(t)\right)$
 
 Affinché il segnale rimanga il più possibile privo di distorsioni, i percorsi di ampiezza e fase devono essere perfettamente sincronizzati tra loro.
 
-Per l’amplificatore d’inviluppo è sufficiente un amplificatore BF relativamente lento. La banda di frequenza che deve coprire dipende dalla larghezza di banda del segnale da generare. Per mantenere alto il rendimento, qui si impiega solitamente la tecnologia degli alimentatori a commutazione ("amplificatori BF di classe D").
+Per l’amplificatore d’inviluppo è sufficiente un amplificatore BF relativamente lento. La banda di frequenza che deve coprire dipende dalla larghezza di banda del segnale da generare. Per mantenere alto il rendimento, qui si impiega solitamente la tecnologia degli alimentatori a commutazione (amplificatori BF di «classe D»).
 
 Grazie all’elevato rendimento, poca potenza elettrica viene dissipata sotto forma di calore. Questo consente di risparmiare energia, ridurre la necessità di raffreddamento e ottenere apparecchi radio più piccoli e leggeri, privi di grandi dissipatori metallici e con transistor di stadio finale più economici. La modulazione polare è particolarmente adatta per apparecchi QRP a batteria, ma viene impiegata anche in trasceiver commerciali di elevate prestazioni.
 
 <indepth>
-Nell’ambito radioamatoriale, questo metodo è stato utilizzato negli anni ’70 con il nome "HELAPS" sul satellite AO-7. All’epoca tutto veniva realizzato con mezzi analogici. Oggi, gli amplificatori d’inviluppo e gli stadi finali sono ancora classicamente analogici, mentre il resto del lavoro è affidato ad algoritmi SDR. Le potenti CPU in grado di gestire agevolmente questi compiti oggi costano meno di una pizza.
+Nell’ambito radioamatoriale, questo metodo è stato utilizzato negli anni ’70 con il nome «HELAPS» sul satellite AO-7. All’epoca tutto veniva realizzato con mezzi analogici. Oggi, gli amplificatori d’inviluppo e gli stadi finali sono ancora classicamente analogici, mentre il resto del lavoro è affidato ad algoritmi SDR. Le potenti CPU in grado di gestire agevolmente questi compiti oggi costano meno di una pizza.
 </indepth>
 
 <margin>

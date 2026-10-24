@@ -48,7 +48,7 @@ Ce sujet sera abordé plus en détail dans le chapitre Émetteurs
 
 [question:AE305]
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ### Bande passante
 

@@ -37,7 +37,7 @@ Anche la voce può essere trasmessa in digitale
 Senza autorizzazione per una stazione telecomandata, un Hotspot può essere utilizzato solo come stazione presidiata, quindi con spegnimento automatico quando non supervisionato
 </note>
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ## TDMA
 
 Time Division Multiple Access – multiplazione a divisione di tempo

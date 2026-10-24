@@ -34,7 +34,7 @@ Da ricordare: Nelle induttanze, le correnti si ritardano -oppure- Induttività, 
 ---
 [question:AC202]
 
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ### Reattanza induttiva $X_{\textrm{L}}$
 
 La bobina, collegata a tensione alternata, genera continuamente un campo magnetico variabile $\rightarrow$ impedenza / reattanza induttiva

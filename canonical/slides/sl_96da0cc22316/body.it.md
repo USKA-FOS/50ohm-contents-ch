@@ -34,7 +34,7 @@ Il valore visualizzato di solito differisce dal valore reale a causa di:
 
 ---
 [question:AI103]
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 ### Procedimento di soluzione
 
 * Calcolo percentuale – i valori assoluti non sono rilevanti

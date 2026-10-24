@@ -29,7 +29,7 @@ Au lieu de devoir distinguer de nombreuses amplitudes différentes, comme dans l
 Ainsi, même avec un nombre relativement restreint de valeurs distinctes, il est possible de générer un plus grand nombre de symboles différents.
 </note>
 
---- style="font-size: 0.7em;"
+--- style=« font-size: 0.7em; »
 ## Exemple : 8-QAM
 
 [picture:702:a_8qam:Évolution du signal d’un signal 8QAM, chaque symbole étant caractérisé par une amplitude (0,5 ou 1), une position de phase et une séquence de 3 bits]
@@ -124,7 +124,7 @@ Les coordonnées d’un point de signal correspondent exactement aux valeurs I e
 Le diagramme de constellation ne se limite donc pas à une représentation du signal. Il décrit directement les valeurs I et Q à générer.
 </note>
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## Tester la modulation I/Q
 
@@ -240,7 +240,7 @@ Avec des signaux I et Q appropriés, il est également possible de générer un 
 
 <fragment>
 Le modulateur I/Q est ainsi, pour ainsi dire, le
-**« couteau suisse des modulateurs »**. 
+**« couteau suisse des modulateurs »**. 
 </fragment>
 
 <note>

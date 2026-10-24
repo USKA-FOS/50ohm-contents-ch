@@ -28,7 +28,7 @@
 * Réduit considérablement la charge de calcul  
 * Très répandu dans les logiciels et matériels pour le traitement des signaux
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## Spectres de formes d'onde typiques
 

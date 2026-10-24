@@ -12,7 +12,7 @@
 * Qui vengono visualizzati il nominativo, il nome e, se non diversamente indicato, l’indirizzo
 * Le stesse informazioni sono disponibili anche nella lista dei nominativi scaricabile come documento PDF
 
---- data-background-iframe="https://ans.bundesnetzagentur.de/Amateurfunk/Rufzeichen.aspx" data-background-interactive
+--- data-background-iframe=«https://ans.bundesnetzagentur.de/Amateurfunk/Rufzeichen.aspx» data-background-interactive
 
 <note>
 Integrazione del sito web per la ricerca dei nominativi

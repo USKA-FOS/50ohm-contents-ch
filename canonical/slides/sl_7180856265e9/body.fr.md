@@ -87,7 +87,7 @@ La fréquence critique est aussi indiquée par $f_k$ ou $f_\mathrm{krit}$
 
 
 
---- style="font-size: smaller;"
+--- style=« font-size: smaller; »
 
 ## Fréquence optimale
 
@@ -172,7 +172,7 @@ La fréquence critique est aussi indiquée par $f_k$ ou $f_\mathrm{krit}$
 * Complétée par la couche, par ex. foF2
 
 <note>
-fo avec un petit "o" pour l'onde ordinaire
+fo avec un petit « o » pour l'onde ordinaire
 </note>
 
 ---

@@ -5,7 +5,7 @@
 * Peuvent être réfléchies par les métaux
 
 <note>
-* N’a donc rien à voir avec le préfixe d’unité "micro-"
+* N’a donc rien à voir avec le préfixe d’unité « micro- »
 </note>
 ---
 ## Miroir parabolique

@@ -35,7 +35,7 @@ Il nome configurazione T deriva dalla struttura delle resistenze a forma di T
 
 ---
 [question:AD806]
---- style="font-size: smaller;"
+--- style=«font-size: smaller;»
 #### Procedimento di soluzione
 * dati: $P_1 = \qty{100}{\watt}$
 * dati: $a = \qty{20}{\dB}$
