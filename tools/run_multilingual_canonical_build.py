@@ -944,16 +944,6 @@ def canonical_support_asset_text(source_path: str, language: str = "de") -> str 
     return None
 
 
-def source_rationales() -> tuple[dict[str, Any], dict[str, Any]]:
-    canonical_catalog = canonical_support_asset_text("contents/questions/fragenkatalog_ch.json")
-    if canonical_catalog is not None:
-        source = json.loads(canonical_catalog)
-    else:
-        source = load_json(resolve_question_pool_catalog("de"))
-    rationales = {question["number"]: normalize_rationale(question.get("HB.rationale")) for question in iter_questions(source)}
-    return rationales, deepcopy(source.get("pruned", {}))
-
-
 def run_question_pool_tool(source_root: Path, arguments: list[str]) -> None:
     tool = source_root / "tools" / arguments[0]
     completed = subprocess.run(
@@ -989,6 +979,25 @@ def question_pool_catalogs(question_pool_tag: str | None):
                 tar.extractall(staging)
             source_root = staging
 
+        if (source_root / "pool/catalog.meta.json").is_file():
+            # The checked-in publications must agree with the canonical snapshot.
+            # Use the tool from that same snapshot, including when --tag is used.
+            run_question_pool_tool(
+                source_root,
+                ["rebuild_canonical_outputs.py", "--repo-root", str(source_root),
+                 "--check", "--work-dir", str(staging / "publication-check")],
+            )
+            yield {
+                "de": source_root / "question_pool_ch-de.json",
+                "fr": source_root / "builds/fr/question_pool_rev1_ch-fr.json",
+                "it": source_root / "builds/it/question_pool_rev1_ch-it.json",
+            }
+            return
+        if question_pool_tag is None:
+            raise RuntimeError("Missing pool/catalog.meta.json; prepare synchronized question publications before building.")
+
+        # Explicit historical tag before the metadata migration. Rebuild its
+        # canonical text; only pruned may come from that tag's legacy JSON.
         generated = staging / "generated-catalogs"
         catalogs: dict[str, Path] = {}
         for language in LANGUAGES:
@@ -1007,14 +1016,12 @@ def question_pool_catalogs(question_pool_tag: str | None):
             )
             catalogs[language] = output
 
-        # German generator input needs the rationale and pruned metadata. The
-        # clean canonical rebuild supplies current text; the source catalog
-        # supplies only the generator-only metadata.
+        # The current compatibility exporter never overwrites canonical rationale.
         source_catalog = source_root / "question_pool_ch-de.json"
         if source_catalog.exists():
             full_output = generated / "de_full" / "question_pool_current_ch-de.json"
             run_question_pool_tool(
-                source_root,
+                QUESTION_POOL_REPO,
                 [
                     "export_generator_review_catalog.py",
                     "--source-review-catalog",

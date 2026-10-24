@@ -1,5 +1,15 @@
 # Content Model Tools
 
+Question publications are checked against canonical `pool/` before a current
+site snapshot is built. A mismatch, including `HB.rationale`, class, ID or
+`pruned`, stops the build. Run the question-pool's
+`python tools/rebuild_canonical_outputs.py`, then `--check`, and commit the
+outputs before tagging. See the peer repository's
+`docs/PUBLICATION_SYNCHRONIZATION.md`. Historical tags before the metadata
+migration keep an isolated compatibility export; stale root motivations are
+never injected over canonical values. The normal site generator is
+`50ohm-generator`; Next requires an explicit user request.
+
 ## Python environment
 
 Use Python 3.14, selected by the repository's `.python-version`. From the
