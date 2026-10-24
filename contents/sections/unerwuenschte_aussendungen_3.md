@@ -65,7 +65,7 @@ Nehmen wir einen Kurzwellen-Sender mit einer Spitzenleistung bei der Modulation 
 Nach der zuvor genannten ETSI-Formel ergibt sich:
 
 $$
-43 + 10 \cdot \log_{10}(100) = 43 + 20 = 63\,\mathrm{dB}
+43 + 10 \cdot \log_{10}(100) = 43 + 20 = 63\mathrm{dB}
 $$
 
 Der Grenzwert ist der weniger strenge der beiden Werte −63 dBc und −50 dBc, also **−50 dBc**.
