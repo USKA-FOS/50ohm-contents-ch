@@ -1,0 +1,38 @@
+{
+  "kind": "accepted_manual_quotation_review_typo_correction",
+  "created_at": "2026-10-24T20:24:01.158579+00:00",
+  "baseline_commit": "385c26582f2db8bc9eb788524b30d02df5fdf813",
+  "authorization": "User confirmed that the final f was accidental and requested using the corrected review copy or removing only that character, then committing and pushing.",
+  "canonical_path": "canonical/sections/sc_9bd796242615/body.fr.md",
+  "review_copy": "work/quotation_manual_review/2026-10-24/sc_9bd796242615/body.fr.md",
+  "before_sha256": "6328f0deef67c33326668a268982a55b1ff80ab85b40b8f076f5309622c87c4f",
+  "after_sha256": "9191aeebf91cdb44273cc4681cd51052d494731ae54fd8114924e5287de7a7eb",
+  "source_review_sha256": "9191aeebf91cdb44273cc4681cd51052d494731ae54fd8114924e5287de7a7eb",
+  "exact_change": {
+    "before": "»f.",
+    "after": "».",
+    "removed_characters": 1
+  },
+  "imported_corrected_review_copy_verbatim": true,
+  "resolves": "import-plan.json editorial_observations[0]",
+  "previous_audits_preserved": true,
+  "validation_before": {
+    "canonical_root": "/home/jjcarron/proj/50-Ohms/ham-translator/50ohm-contents-ch/canonical",
+    "object_count": 2356,
+    "error_count": 0,
+    "warning_count": 0,
+    "errors": [],
+    "warnings": [],
+    "valid": true
+  },
+  "validation_after": {
+    "canonical_root": "/home/jjcarron/proj/50-Ohms/ham-translator/50ohm-contents-ch/canonical",
+    "object_count": 2356,
+    "error_count": 0,
+    "warning_count": 0,
+    "errors": [],
+    "warnings": [],
+    "valid": true
+  },
+  "question_pool_tag": "Revision_3.0.5 unchanged: no question-pool payload was changed."
+}
