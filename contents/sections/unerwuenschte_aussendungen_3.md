@@ -74,12 +74,14 @@ Umgerechnet in eine absolute Leistung:
 
 $$P_{\text{Neben}} = 100\mathrm{W} \cdot 10^{-50/10}= 0{,}001\mathrm{W}= \boxed{1\mathrm{mW}}$$
 
-**Praxisergebnis:** Bei einem Sender mit 100 W PEP liegt der Grenzwert nach dieser Berechnung bei **1 mW für die Nebenaussendung**.
+**Praxisergebnis:** Bei einem Sender mit 100 W PEP liegt der Grenzwert für die Nebenaussendungen
+bei **1 mW**.
 
 **Rechenaufgabe**
 
-- Berechne den maximal zulässigen Pegel der Nebenaussendungen für einen QRP-Kurzwellensender mit 1 W PEP!
-  Das richtige Ergebnis ist: *50.1\mikro\mathrm{W}*  (-43 dBc)
+- Berechne den maximal zulässigen Pegel der Nebenaussendungen für einen QRP-Kurzwellensender
+  mit $\qty{1}{\watt}$ PEP!
+  Das richtige Ergebnis ist: $\qty{50.1}{\micro\watt}$  (-43 dBc)
 </margin>
 
 Unerwünschte Aussendungen sind auf das geringstmögliche Maß zu beschränken und dürfen den Grenzwert für Nebenaussendungen keinesfalls überschreiten. Diese Grenzwerte gelten sowohl für Hersteller kommerzieller Amateurfunkgeräte als auch für selbstgebaute Funkgeräte.
