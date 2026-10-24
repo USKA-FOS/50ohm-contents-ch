@@ -15,7 +15,7 @@ Alcuni prefissi svizzeri possono essere assegnati direttamente, ad esempio:
 * *HE9* con suffisso di due o tre lettere: nominativo personale di classe E
 * *HG9* con suffisso di due o tre lettere: nominativo personale di classe N
 
-Per conoscere il significato dei singoli prefissi svizzeri, consulta il piano dei nominativi dell'UFCOM.
+Per conoscere il significato dei singoli prefissi svizzeri, consulta il [piano dei nominativi dell'UFCOM](https://50ohm.de/rzp).
 
 [question:BD103]
 [question:BD104]

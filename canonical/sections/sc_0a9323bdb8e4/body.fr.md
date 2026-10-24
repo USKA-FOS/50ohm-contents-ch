@@ -38,7 +38,7 @@ Ceci est un texte modèle avec la commande
 <law>
 Ceci est un texte modèle avec la commande (law). Cela génère la boîte bleue « Base légale ».
 Elle est utilisée pour des explications ou des liens vers des lois, ordonnances, RR, CEPT, notice OFCOM, etc.
-[texte affiché](lien direct vers la page cible)
+[texte affiché](Direktlink zur Zielseite)
 
 [Notice radioamateurisme](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk)
 </law>
@@ -46,7 +46,7 @@ Elle est utilisée pour des explications ou des liens vers des lois, ordonnances
 
 <margin>
 Lien externe
-Voici comment faire un lien direct vers une page externe [texte affiché](lien direct vers la page cible)
+Voici comment faire un lien direct vers une page externe [texte affiché](Direktlink zur Zielseite)
 </margin>
 
 

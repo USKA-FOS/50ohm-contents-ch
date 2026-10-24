@@ -38,7 +38,7 @@ Questo è un testo di esempio con il comando
 <law>
 Questo è un testo di esempio con il comando (law). Genera la casella blu «Base legale».
 Viene utilizzato per spiegazioni o collegamenti a leggi, regolamenti, RR, CEPT, scheda informativa UFCOM, ecc.
-[testo visualizzato](Collegamento diretto alla pagina di destinazione)
+[testo visualizzato](Direktlink zur Zielseite)
 
 [Scheda informativa radioamatoriale](https://www.bakom.admin.ch/de/amateurfunk#Merkblatt-Amateurfunk)
 </law>
@@ -46,7 +46,7 @@ Viene utilizzato per spiegazioni o collegamenti a leggi, regolamenti, RR, CEPT, 
 
 <margin>
 Collegamento esterno
-Ecco come si crea un collegamento diretto a una pagina esterna [testo visualizzato](Collegamento diretto alla pagina di destinazione)
+Ecco come si crea un collegamento diretto a una pagina esterna [testo visualizzato](Direktlink zur Zielseite)
 </margin>
 
 

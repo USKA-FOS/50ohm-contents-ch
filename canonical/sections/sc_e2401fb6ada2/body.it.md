@@ -17,7 +17,7 @@ Le spine bipolari possono essere utilizzate solo per apparecchi con doppio isola
 
 ---
 Un alimentatore viene spesso collegato alla presa di rete con una **spina con contatto di protezione**. In Svizzera vengono utilizzati per questo sistemi di spine secondo
-*SN 441011*. In una presa tripolare, i tre collegamenti sono previsti per il *conduttore esterno (L)*, il *conduttore neutro (N)* e il *conduttore di protezione (PE)*, come visibile nella figura [NE-10.3.2](https://50ohm.uska.ch/50ohm_review_de/NE_netzgeraet_1.html#ref_n_schutzkontakt). Tra il conduttore esterno L e il conduttore neutro N è presente la tensione di rete di 230 V di tensione alternata.
+*SN 441011*. In una presa tripolare, i tre collegamenti sono previsti per il *conduttore esterno (L)*, il *conduttore neutro (N)* e il *conduttore di protezione (PE)*, come visibile nella figura [NE-10.3.2](/50ohm_review_de/NE_netzgeraet_1.html#ref_n_schutzkontakt). Tra il conduttore esterno L e il conduttore neutro N è presente la tensione di rete di 230 V di tensione alternata.
 
 Il contatto di protezione della spina stabilisce, durante l'inserimento, la connessione al conduttore di protezione PE della presa. "PE" è l'abbreviazione del termine inglese "protective earth", cioè conduttore di protezione o messa a terra di protezione.
 

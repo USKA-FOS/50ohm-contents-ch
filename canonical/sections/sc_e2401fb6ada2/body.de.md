@@ -17,7 +17,7 @@ Zweipolige Stecker dürfen nur für doppelt schutzisolierte Geräte verwendet we
 
 ---
 Ein Netzgerät wird häufig mit einem **Stecker mit Schutzkontakt** an die Netzsteckdose angeschlossen. In der Schweiz werden dafür Stecksysteme nach
-*SN 441011* verwendet. Bei einer dreipoligen Steckdose sind die drei Anschlüsse für den *Aussenleiter (L)*, den *Neutralleiter (N)* und den *Schutzleiter (PE)* vorgesehen, wie in Abbildung [NE-10.3.2](https://50ohm.uska.ch/50ohm_review_de/NE_netzgeraet_1.html#ref_n_schutzkontakt) zu erkennen ist. Zwischen dem Aussenleiter L und dem Neutralleiter N liegt die Netzspannung von 230 V Wechselspannung an.
+*SN 441011* verwendet. Bei einer dreipoligen Steckdose sind die drei Anschlüsse für den *Aussenleiter (L)*, den *Neutralleiter (N)* und den *Schutzleiter (PE)* vorgesehen, wie in Abbildung [NE-10.3.2](/50ohm_review_de/NE_netzgeraet_1.html#ref_n_schutzkontakt) zu erkennen ist. Zwischen dem Aussenleiter L und dem Neutralleiter N liegt die Netzspannung von 230 V Wechselspannung an.
 
 Der Schutzkontakt des Steckers stellt beim Einstecken die Verbindung zum Schutzleiter PE der Steckdose her. „PE“ ist die Abkürzung für den englischen Begriff „protective earth“, also Schutzleiter bzw. Schutzerdung.
 

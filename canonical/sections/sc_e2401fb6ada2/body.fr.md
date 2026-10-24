@@ -17,7 +17,7 @@ Les fiches bipolaires ne peuvent être utilisées que pour les appareils à doub
 
 ---
 Un bloc d'alimentation est souvent connecté à la prise murale via une **fiche avec contact de protection**. En Suisse, les systèmes de fiches selon la norme
-*SN 441011* sont utilisés à cet effet. Pour une prise tripolaire, les trois connexions sont prévues pour le *conducteur extérieur (L)*, le *conducteur neutre (N)* et le *conducteur de protection (PE)*, comme on peut le voir sur la figure [NE-10.3.2](https://50ohm.uska.ch/50ohm_review_de/NE_netzgeraet_1.html#ref_n_schutzkontakt). La tension secteur de 230 V de tension alternative est présente entre le conducteur extérieur L et le conducteur neutre N.
+*SN 441011* sont utilisés à cet effet. Pour une prise tripolaire, les trois connexions sont prévues pour le *conducteur extérieur (L)*, le *conducteur neutre (N)* et le *conducteur de protection (PE)*, comme on peut le voir sur la figure [NE-10.3.2](/50ohm_review_de/NE_netzgeraet_1.html#ref_n_schutzkontakt). La tension secteur de 230 V de tension alternative est présente entre le conducteur extérieur L et le conducteur neutre N.
 
 Le contact de protection de la fiche établit la connexion avec le conducteur de protection PE de la prise lors de l'insertion. « PE » est l'abréviation du terme anglais « protective earth », c'est-à-dire conducteur de protection ou mise à la terre de protection.
 

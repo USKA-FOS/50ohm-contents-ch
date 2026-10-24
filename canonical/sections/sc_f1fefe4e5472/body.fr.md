@@ -15,7 +15,7 @@ Comme il est difficile d’évaluer de manière pertinente des mesures et des si
 Pourquoi les questions de cette section mentionnent-elles les procédés de modulation RTTY et FM ?
 Lors de l’affichage d’une installation de radioamateur fixe (selon § 9, BEMFV), il faut indiquer le facteur de conversion $\textrm{Facteur}_\textrm{FmodPers}$ dans la configuration.
 
-Ce facteur permet de convertir la puissance de crête indiquée (PEP) en [puissance moyenne](Mittlere Leistung) $P$. La puissance ainsi corrigée peut être utilisée dans la formule de champ lointain pour calculer la distance de protection des personnes.
+Ce facteur permet de convertir la puissance de crête indiquée (PEP) en puissance moyenne $P$. La puissance ainsi corrigée peut être utilisée dans la formule de champ lointain pour calculer la distance de protection des personnes.
 
 RTTY et FM ont un facteur de $\num{1}$, tout comme la plupart des procédés de modulation.
 </indepth>
