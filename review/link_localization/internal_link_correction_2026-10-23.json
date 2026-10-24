@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-23",
+  "operation": "restore_missing_italian_darcdown_internal_references",
+  "authorization": "User requested correction of internal links and confirmed that their targets must be relative and identical across German, French, and Italian.",
+  "canonical_repository": "50ohm-contents-ch",
+  "canonical_commit_before": "b2477352a5c4e84ae7622ec47ff9fcba92c67ff1",
+  "source_release": "beta-2026-10-17-QP_Revision_3.0.4",
+  "object_id": "sc_eafec4af57b8",
+  "source_key": "psk",
+  "canonical_file": "canonical/sections/sc_eafec4af57b8/body.it.md",
+  "file_sha256_before": "fe57da83572837dd6c00b3745a30493e5e35325f1cb986b6cad35849cebcca14",
+  "file_sha256_after": "887fdd4ffd76a022751f68855be3ffb836a5e5d335319fdbeb30b07fa9a96856",
+  "changes": [
+    {
+      "reference": "a_psk",
+      "before": "ref:a_psk",
+      "after": "[ref:a_psk]",
+      "generated_relative_hrefs": ["A_psk.html#ref_a_psk", "NEA_psk.html#ref_a_psk"],
+      "generated_pages": ["A_psk.html", "NEA_psk.html"]
+    },
+    {
+      "reference": "a_psk_mapping",
+      "before": "ref:a_psk_mapping",
+      "after": "[ref:a_psk_mapping]",
+      "generated_relative_hrefs": ["A_psk.html#ref_a_psk_mapping", "NEA_psk.html#ref_a_psk_mapping"],
+      "generated_pages": ["A_psk.html", "NEA_psk.html"]
+    },
+    {
+      "reference": "a_qpsk",
+      "before": "ref:a_qpsk",
+      "after": "[ref:a_qpsk]",
+      "generated_relative_hrefs": ["A_psk.html#ref_a_qpsk", "NEA_psk.html#ref_a_qpsk"],
+      "generated_pages": ["A_psk.html", "NEA_psk.html"]
+    }
+  ],
+  "validation": {
+    "german_and_french_already_contained_all_three_darcdown_reference_tokens": true,
+    "canonical_source_comparison_after_correction": "No missing_internal_links or added_internal_links findings for this section in FR or IT.",
+    "release_observation_before_correction": "The three Italian source references were emitted as plain text in both A_psk.html and NEA_psk.html, producing six missing internal anchors.",
+    "release_rebuild_after_correction": "Not performed; the next site build will render the corrected Italian links."
+  },
+  "review_states_changed": false
+}

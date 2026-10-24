@@ -17,10 +17,12 @@ contextual support, or a candidate for later cleanup.
 | Document | Role | Status |
 | --- | --- | --- |
 | [CANONICAL_DATA_MODEL_REFERENCE.md](./CANONICAL_DATA_MODEL_REFERENCE.md) | authoritative description of the current canonical Git model and SQLite counterpart | current reference |
+| [CANONICAL_LINK_REVIEW.md](./CANONICAL_LINK_REVIEW.md) | current canonical link inventory, language alignment rules, target categories, and link-check commands | current reference |
 | [CANONICAL_USE_CASES_AND_WORKFLOWS.md](./CANONICAL_USE_CASES_AND_WORKFLOWS.md) | authoritative description of current use cases and workflows | current reference |
 | [DOCUMENTATION_INDEX.md](./DOCUMENTATION_INDEX.md) | entry point and status index for documentation | current reference |
 | [DRAWING_TEXT_LOCALIZATION_WORKFLOW.md](./DRAWING_TEXT_LOCALIZATION_WORKFLOW.md) | reference for extracting, reviewing, importing, rendering, and auditing visible text embedded in drawing TeX assets | current reference |
 | [PHOTO_EMBEDDED_TEXT_LOCALIZATION.md](./PHOTO_EMBEDDED_TEXT_LOCALIZATION.md) | proposed workflow for converting German-labelled raster photos into localized TeX/SVG drawing assets | current reference |
+| [SITE_LINK_LOCALIZATION_REVIEW.md](./SITE_LINK_LOCALIZATION_REVIEW.md) | historical generated-site link inventory, retained for rendered-site diagnostics | contextual |
 | [GENERATOR_EXTRA_CONTENT_MIGRATION_REFERENCE.md](./GENERATOR_EXTRA_CONTENT_MIGRATION_REFERENCE.md) | reference for the temporary generator-owned multilingual content layer, its migration boundary, and what still remains inside the generator | current reference |
 | [VALIDATION_LOG.md](./VALIDATION_LOG.md) | records validation findings, rules derived from validation, and operational validation evidence | contextual |
 | [MAPPING_MATRIX.md](./MAPPING_MATRIX.md) | source-to-model mapping aid, especially for import coverage and marker families | contextual |
@@ -34,11 +36,12 @@ For a new contributor:
 
 1. read [CANONICAL_DATA_MODEL_REFERENCE.md](./CANONICAL_DATA_MODEL_REFERENCE.md)
 2. read [CANONICAL_USE_CASES_AND_WORKFLOWS.md](./CANONICAL_USE_CASES_AND_WORKFLOWS.md)
-3. read [DRAWING_TEXT_LOCALIZATION_WORKFLOW.md](./DRAWING_TEXT_LOCALIZATION_WORKFLOW.md) when working on localized drawing assets
-4. read [PHOTO_EMBEDDED_TEXT_LOCALIZATION.md](./PHOTO_EMBEDDED_TEXT_LOCALIZATION.md) when a raster photo contains visible language-dependent text
-5. read [GENERATOR_EXTRA_CONTENT_MIGRATION_REFERENCE.md](./GENERATOR_EXTRA_CONTENT_MIGRATION_REFERENCE.md) for generator-owned multilingual content outside canonical
-6. use [VALIDATION_LOG.md](./VALIDATION_LOG.md) for evidence and constraints
-7. use [MAPPING_MATRIX.md](./MAPPING_MATRIX.md) for detailed source mapping
+3. read [CANONICAL_LINK_REVIEW.md](./CANONICAL_LINK_REVIEW.md) when auditing or checking source links
+4. read [DRAWING_TEXT_LOCALIZATION_WORKFLOW.md](./DRAWING_TEXT_LOCALIZATION_WORKFLOW.md) when working on localized drawing assets
+5. read [PHOTO_EMBEDDED_TEXT_LOCALIZATION.md](./PHOTO_EMBEDDED_TEXT_LOCALIZATION.md) when a raster photo contains visible language-dependent text
+6. read [GENERATOR_EXTRA_CONTENT_MIGRATION_REFERENCE.md](./GENERATOR_EXTRA_CONTENT_MIGRATION_REFERENCE.md) for generator-owned multilingual content outside canonical
+7. use [VALIDATION_LOG.md](./VALIDATION_LOG.md) for evidence and constraints
+8. use [MAPPING_MATRIX.md](./MAPPING_MATRIX.md) for detailed source mapping
 
 ## Maintenance Rule
 

@@ -28,6 +28,32 @@ tool may silently overwrite canonical objects from these directories. The
 canonical tree is therefore the reference used for multilingual staging and
 reproducible builds.
 
+## Canonical Link Review
+
+To inventory and check source links, use the object-based workflow. It follows
+text slots declared in canonical `object.meta.json` files and compares DE/FR/IT.
+Every German link must have a counterpart in each existing translation; FR/IT
+must not add links absent from German. Swiss (`CH`) targets may be localized;
+German (`DE`) and other non-CH targets should match German for now. The report
+lists external links keyed by the German target; relative links, links back to
+`50ohm.uska.ch`, and canonical DARCdown references are excluded from those
+sheets. It records one target category from the German href; FR/IT category
+columns are omitted. Same-site absolute links are flagged because internal
+links should use relative paths. It checks each unique non-GitHub HTTP(S) URL
+once and never requests GitHub. It does not scan generated pages or template
+controls.
+See [`docs/CANONICAL_LINK_REVIEW.md`](../docs/CANONICAL_LINK_REVIEW.md) for
+scope, workbook fields, and status meanings.
+
+```bash
+UV_CACHE_DIR=../tmp/uv-cache uv run --locked python tools/manage_canonical_link_registry.py scan
+UV_CACHE_DIR=../tmp/uv-cache uv run --locked python tools/manage_canonical_link_registry.py check
+```
+
+The earlier rendered-site workflow remains in
+[`docs/SITE_LINK_LOCALIZATION_REVIEW.md`](../docs/SITE_LINK_LOCALIZATION_REVIEW.md)
+as a separate diagnostic.
+
 ## Current Tool
 
 ### Build the validation SQLite database and full inventory
