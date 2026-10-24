@@ -29,12 +29,12 @@ Bei der Betrachtung von Vielfachen der Grundfrequenz eines Signals unterscheiden
 [question:AJ204]
 
 <tip>
-Der UKW-Rundfunk ist der "klassische" Rundfunk auf Ultrakurzwelle (UKW). Die Ausstrahlung von Radioprogrammen erfolgt im Frequenzbereich von $\qtyrange{87,6}{107,9}{\mega\hertz}$.
-In der Schweiz sollen die UKW-Sender entgegen früherer Pläne in beschränktem Umfang weiterbetrieben werden.
-</tip>
-%TODO: Helvetisierung 
+Das UKW-Radio ist das klassische analoge Radio auf auf Ultrakurzwelle (UKW). Die Ausstrahlung von Radioprogrammen erfolgt im Frequenzbereich von 87,5 bis 108 MHz.
 
-Sollen bestimmte Oberwellen oder Harmonische eines Signals einzeln unterdrückt werden, so kann dies neben des klassischen Oberwellenfilters (Tiefpass) auch durch sog. *Sperrkreise* erfolgen. Ein Sperrkreis unterdrückt genau eine Frequenz maximal und lässt ansonsten alle anderen nahezu ungehindert passieren.
+In der Schweiz war ursprünglich vorgesehen, die UKW-Verbreitung Ende 2024 einzustellen. Inzwischen wurde die Fortführung der UKW-Verbreitung beschlossen. Das BAKOM vergibt neue UKW-Funkkonzessionen, die grundsätzlich ab 2027 gelten und bis Ende 2034 befristet sind.
+</tip>
+
+Sollen bestimmte Oberwellen oder Harmonische eines Signals einzeln unterdrückt werden, so kann dies neben dem klassischen Oberwellenfilters (Tiefpass) auch durch sog. *Sperrkreise* erfolgen. Ein Sperrkreis unterdrückt genau eine Frequenz maximal und lässt ansonsten alle anderen nahezu ungehindert passieren.
 
 [question:AJ210]
 
@@ -94,7 +94,7 @@ $$
 
 Unerwünschte Aussendungen sind auf das geringstmögliche Maß zu beschränken und dürfen den Grenzwert für Nebenaussendungen keinesfalls überschreiten. Diese Grenzwerte gelten sowohl für Hersteller kommerzieller Amateurfunkgeräte als auch für selbstgebaute Funkgeräte.
 
-Für den Kurzwellenbereich von $\qtyrange{1,7}{35}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{50}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von $\qty{50}{\micro\watt}$ befindet.
+Für den Kurzwellenbereich von $\qtyrange{1,7}{35}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{50}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, solange sich die Leistung der Signale oberhalb eines Pegels von $\qty{50}{\micro\watt}$ befindet.
 
 [question:AJ224]
 
@@ -117,7 +117,7 @@ Zur Unterdrückung von unerwünschten Mischprodukten – aber auch der Oberwelle
 [question:AJ209]
 [question:AJ208]
 
-Unerwünschte Aussendungen können auch in unmittelbarer Nähe zum Sendesignal vorliegen. Diese sind durch den Einsatz von Filtern nur schwer oder gar nicht zu unterdrücken und sollten daher bereits zu Beginn der Signalaufbereitung durch entsprechende Maßnahmen wirksam unterdrückt werden. Häufig entstehen solche *Nebenaussendung*, oder auch *Nebenprodukte* genannt (umgangssprachlich auch als "Splatter" bezeichnet), welche das Sendesignal ungewollt verbreitern, durch eine zu hohe Einstellung des Mikrofonverstärkers eines Senders. Hierdurch wird das NF-Signal verzerrt, was unerwünschte Nebenaussendungen zur Folge hat. Abbildung [ref:a_harmonische] zeigt die Nebenaussendungen. 
+Unerwünschte Aussendungen können auch in unmittelbarer Nähe zum Sendesignal vorliegen. Diese sind durch den Einsatz von Filtern nur schwer oder gar nicht zu unterdrücken und sollten daher bereits zu Beginn der Signalaufbereitung durch entsprechende Maßnahmen wirksam unterdrückt werden. Häufig entstehen solche *Nebenaussendungen*, oder auch *Nebenprodukte* genannt (umgangssprachlich auch als "Splatter" bezeichnet), welche das Sendesignal ungewollt verbreitern, durch eine zu hohe Einstellung des Mikrofonverstärkers eines Senders. Hierdurch wird das NF-Signal verzerrt, was unerwünschte Nebenaussendungen zur Folge hat. Abbildung [ref:a_harmonische] zeigt die Nebenaussendungen. 
 
 [question:AJ219]
 
