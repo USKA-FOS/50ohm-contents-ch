@@ -51,9 +51,11 @@ Die Dämpfung der Nebenaussendungen (Spurious Emissions) relativ zur Leistung de
 <indepth>
 Der Erfolg der modernen Telekommunikation beruht auch auf gut verfügbaren, internationalen Normen. Wichtige Normen-Organisationen sind:
 
-- **I**nternational **T**elecommunication **U**nion (ITU)
-- **C**onférence **E**uropéenne des Administrations des **P**ostes et des **T**élécommunications (CEPT)
-- **E**uropean **T**elecommunications **S**tandards **I**nstitute (ETSI)
+- **I**nternational **T**elecommunication **U**nion (**ITU**)
+
+- **C**onférence **E**uropéenne des Administrations des **P**ostes et des **T**élécommunications (**CEPT**)
+
+- **E**uropean **T**elecommunications **S**tandards **I**nstitute (**ETSI**)
 
 </indepth>
 
