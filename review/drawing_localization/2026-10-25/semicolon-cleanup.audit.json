@@ -1,0 +1,518 @@
+{
+  "operation": "Remove only proven redundant semicolons from canonical German drawing TeX",
+  "source_commit": "60fab81a9bedf2478976770fd0611891a93ce763",
+  "question_commit": "2b64b858764b7b8c274f28b8caa8c688356009ef",
+  "question_revision": "Revision_3.0.5",
+  "status": "applied",
+  "drawings": [
+    "36",
+    "38",
+    "52",
+    "53",
+    "55",
+    "56",
+    "57",
+    "75",
+    "490",
+    "526",
+    "527",
+    "578",
+    "580",
+    "586",
+    "587",
+    "588",
+    "627",
+    "880",
+    "952"
+  ],
+  "questions": [
+    "NB404",
+    "NB405",
+    "EB406",
+    "EB407",
+    "EB409",
+    "EB410",
+    "EB411",
+    "NE209",
+    "AD219",
+    "AD309",
+    "AD315",
+    "AF207",
+    "NF101",
+    "NF102",
+    "NF104",
+    "NF105",
+    "EG214",
+    "EG215",
+    "NG302",
+    "AI207",
+    "AI208",
+    "EI301",
+    "EI302",
+    "EI305",
+    "EI306",
+    "AI307",
+    "BE207",
+    "BE208",
+    "BE209"
+  ],
+  "changed_files": [
+    {
+      "file": "canonical/drawings/dr_027c89feddc8/587.de.tex",
+      "drawing": "587",
+      "sha256_before": "df9dfc1028c93f492f38f429b948dbc887281acf89beb5ad8d39b3f6d3e7fe54",
+      "sha256_after": "e824b145287778aa2b54ed6d7f949051a98a80479bdc631e107f611d68cf829d",
+      "substitutions": [
+        {
+          "line": 154,
+          "before": "\t\\swr{0.650*\\darclw}{4.75}{0.950*\\darclw}{4.75+1.5*\\dist}{\\swrval}{\\ifthenelse{\\boolean{labels}}{}{SWR}};",
+          "after": "\t\\swr{0.650*\\darclw}{4.75}{0.950*\\darclw}{4.75+1.5*\\dist}{\\swrval}{\\ifthenelse{\\boolean{labels}}{}{SWR}}"
+        },
+        {
+          "line": 155,
+          "before": "\t\\pwr{0.050*\\darclw}{4.75}{0.550*\\darclw}{4.75+1.5*\\dist}{\\pwrval};",
+          "after": "\t\\pwr{0.050*\\darclw}{4.75}{0.550*\\darclw}{4.75+1.5*\\dist}{\\pwrval}"
+        },
+        {
+          "line": 156,
+          "before": "\t\\vol{0.650*\\darclw}{6.50}{0.950*\\darclw}{6.50+1.5*\\dist}{\\volval};",
+          "after": "\t\\vol{0.650*\\darclw}{6.50}{0.950*\\darclw}{6.50+1.5*\\dist}{\\volval}"
+        },
+        {
+          "line": 157,
+          "before": "\t\\qrg{0.050*\\darclw}{7.00};",
+          "after": "\t\\qrg{0.050*\\darclw}{7.00}"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_031732aa0426/526.de.tex",
+      "drawing": "526",
+      "sha256_before": "d384a9f6312b86663d7de299fd6baa7b7ad190db665b386bc6c2b4c2f2928baa",
+      "sha256_after": "b5bf4664208a8695d427bea0920601e86bcbb5e7e8c6ca845245d7a13b56e133",
+      "substitutions": [
+        {
+          "line": 4,
+          "before": "    \\tikzstyle{help lines}=[black];",
+          "after": "    \\tikzstyle{help lines}=[black]"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_058ac7499a64/36.de.tex",
+      "drawing": "36",
+      "sha256_before": "1f1e3aa8a3152fbe3cb6f06749d2be8fd57cfde8eed5b1fc328de5b12d70f6fe",
+      "sha256_after": "f08571d69b6524b7d3b0b0cacd81be48473194d66cadb5854b9df9ae287dd33f",
+      "substitutions": [
+        {
+          "line": 5,
+          "before": "    \\tikzstyle{help lines}=[black];",
+          "after": "    \\tikzstyle{help lines}=[black]"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_06b1dc0b86f0/586.de.tex",
+      "drawing": "586",
+      "sha256_before": "ff678b5018aca189eb210df1e048705f36c4810a3c8fb43bc925475878ef929e",
+      "sha256_after": "d604029d17b5943afbfc026ea7cbc9d53648231697a389b6a45668b46454d6c7",
+      "substitutions": [
+        {
+          "line": 154,
+          "before": "\t\\swr{0.650*\\darclw}{4.75}{0.950*\\darclw}{4.75+1.5*\\dist}{\\swrval}{\\ifthenelse{\\boolean{labels}}{}{SWR}};",
+          "after": "\t\\swr{0.650*\\darclw}{4.75}{0.950*\\darclw}{4.75+1.5*\\dist}{\\swrval}{\\ifthenelse{\\boolean{labels}}{}{SWR}}"
+        },
+        {
+          "line": 155,
+          "before": "\t\\pwr{0.050*\\darclw}{4.75}{0.550*\\darclw}{4.75+1.5*\\dist}{\\pwrval};",
+          "after": "\t\\pwr{0.050*\\darclw}{4.75}{0.550*\\darclw}{4.75+1.5*\\dist}{\\pwrval}"
+        },
+        {
+          "line": 156,
+          "before": "\t\\vol{0.650*\\darclw}{6.50}{0.950*\\darclw}{6.50+1.5*\\dist}{\\volval};",
+          "after": "\t\\vol{0.650*\\darclw}{6.50}{0.950*\\darclw}{6.50+1.5*\\dist}{\\volval}"
+        },
+        {
+          "line": 157,
+          "before": "\t\\qrg{0.050*\\darclw}{7.00};",
+          "after": "\t\\qrg{0.050*\\darclw}{7.00}"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_06d4aa56068c/880.de.tex",
+      "drawing": "880",
+      "sha256_before": "9fab5fdee8dad70fabf3223ac2651d5534793d289718506788c0a3830720e17c",
+      "sha256_after": "acc462dabdad1d1b55ad8709cb32766c65bb4b5b48149b5b0d2d7c8a54bc533e",
+      "substitutions": [
+        {
+          "line": 5,
+          "before": "    \\tikzstyle{help lines}=[black];",
+          "after": "    \\tikzstyle{help lines}=[black]"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_0e455aa883b2/52.de.tex",
+      "drawing": "52",
+      "sha256_before": "e98fab3c95f86f7db3d11c90d1a164a0088d0eacfc1e304147f26e0f2f4eb3d4",
+      "sha256_after": "d4d342eefc9db88a4a155a8335f28e5d6129b509d0bdf2728870e4319faf280d",
+      "substitutions": [
+        {
+          "line": 4,
+          "before": "    \\tikzstyle{help lines}=[black];",
+          "after": "    \\tikzstyle{help lines}=[black]"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_146a01eb3de2/53.de.tex",
+      "drawing": "53",
+      "sha256_before": "0c693a9d1c69912a07faf446f6d7dac751f06088fb08865f61d6df41e277bc35",
+      "sha256_after": "021567a7445ed8651113ddab4a73a04061e974963760cf6c905e6bddcb6aced5",
+      "substitutions": [
+        {
+          "line": 4,
+          "before": "    \\tikzstyle{help lines}=[black];",
+          "after": "    \\tikzstyle{help lines}=[black]"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_377d9355b400/588.de.tex",
+      "drawing": "588",
+      "sha256_before": "ff623171f396abc3f27433c2da3e4c9a8dbf8b348b0d1bfe139df65c06533ee6",
+      "sha256_after": "7be96416acc9850c64ba96e07c90a37ee3258490ede88da03cbc2b963f36549f",
+      "substitutions": [
+        {
+          "line": 154,
+          "before": "\t\\swr{0.650*\\darclw}{4.75}{0.950*\\darclw}{4.75+1.5*\\dist}{\\swrval}{\\ifthenelse{\\boolean{labels}}{}{SWR}};",
+          "after": "\t\\swr{0.650*\\darclw}{4.75}{0.950*\\darclw}{4.75+1.5*\\dist}{\\swrval}{\\ifthenelse{\\boolean{labels}}{}{SWR}}"
+        },
+        {
+          "line": 155,
+          "before": "\t\\pwr{0.050*\\darclw}{4.75}{0.550*\\darclw}{4.75+1.5*\\dist}{\\pwrval};",
+          "after": "\t\\pwr{0.050*\\darclw}{4.75}{0.550*\\darclw}{4.75+1.5*\\dist}{\\pwrval}"
+        },
+        {
+          "line": 156,
+          "before": "\t\\vol{0.650*\\darclw}{6.50}{0.950*\\darclw}{6.50+1.5*\\dist}{\\volval};",
+          "after": "\t\\vol{0.650*\\darclw}{6.50}{0.950*\\darclw}{6.50+1.5*\\dist}{\\volval}"
+        },
+        {
+          "line": 157,
+          "before": "\t\\qrg{0.050*\\darclw}{7.00};",
+          "after": "\t\\qrg{0.050*\\darclw}{7.00}"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_492efcf7212d/580.de.tex",
+      "drawing": "580",
+      "sha256_before": "e4c1cc0eb1d503bc1d999a3f09234fa55301c08b4b9b2b6b5d57bacb7204594c",
+      "sha256_after": "1c10c144af705ac670d0c686a65904cce9140cbb8f36cea764b6c1642bcd2304",
+      "substitutions": [
+        {
+          "line": 154,
+          "before": "\t\\swr{0.650*\\darclw}{4.75}{0.950*\\darclw}{4.75+1.5*\\dist}{\\swrval}{\\ifthenelse{\\boolean{labels}}{}{SWR}};",
+          "after": "\t\\swr{0.650*\\darclw}{4.75}{0.950*\\darclw}{4.75+1.5*\\dist}{\\swrval}{\\ifthenelse{\\boolean{labels}}{}{SWR}}"
+        },
+        {
+          "line": 155,
+          "before": "\t\\pwr{0.050*\\darclw}{4.75}{0.550*\\darclw}{4.75+1.5*\\dist}{\\pwrval};",
+          "after": "\t\\pwr{0.050*\\darclw}{4.75}{0.550*\\darclw}{4.75+1.5*\\dist}{\\pwrval}"
+        },
+        {
+          "line": 156,
+          "before": "\t\\vol{0.650*\\darclw}{6.50}{0.950*\\darclw}{6.50+1.5*\\dist}{\\volval};",
+          "after": "\t\\vol{0.650*\\darclw}{6.50}{0.950*\\darclw}{6.50+1.5*\\dist}{\\volval}"
+        },
+        {
+          "line": 157,
+          "before": "\t\\qrg{0.050*\\darclw}{7.00};",
+          "after": "\t\\qrg{0.050*\\darclw}{7.00}"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_4c2d757adb3f/952.de.tex",
+      "drawing": "952",
+      "sha256_before": "25914f18391ee150893444078c2ce897f983e9468f6908d14f63e94a2f9e0c7c",
+      "sha256_after": "602748b5926e49025f0d685d2a7d3b1082ae46feff3cdc227de389499a4c0faa",
+      "substitutions": [
+        {
+          "line": 16,
+          "before": "   \\pgfresetboundingbox;",
+          "after": "   \\pgfresetboundingbox"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_5dfc13e95c43/527.de.tex",
+      "drawing": "527",
+      "sha256_before": "b65304f92423c4302fc06b1c8f2528c937bd3cc8f13d23de6df004199d298fd1",
+      "sha256_after": "72e0753cd2cd9600f2bdad6243ddb8627177537521b7609daa84c891f3b7942c",
+      "substitutions": [
+        {
+          "line": 4,
+          "before": "    \\tikzstyle{help lines}=[black];",
+          "after": "    \\tikzstyle{help lines}=[black]"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_891459c1602b/578.de.tex",
+      "drawing": "578",
+      "sha256_before": "289e358fe8bb1c7e90a6054b45e14c7234c7758435ab8d30e71505be3ac0b8db",
+      "sha256_after": "9b3fe1516c31ff81585c19da07815c9491fe9d87ef52465a3ef1c8437b2591d0",
+      "substitutions": [
+        {
+          "line": 154,
+          "before": "\t\\swr{0.650*\\darclw}{4.75}{0.950*\\darclw}{4.75+1.5*\\dist}{\\swrval}{\\ifthenelse{\\boolean{labels}}{}{SWR}};",
+          "after": "\t\\swr{0.650*\\darclw}{4.75}{0.950*\\darclw}{4.75+1.5*\\dist}{\\swrval}{\\ifthenelse{\\boolean{labels}}{}{SWR}}"
+        },
+        {
+          "line": 155,
+          "before": "\t\\pwr{0.050*\\darclw}{4.75}{0.550*\\darclw}{4.75+1.5*\\dist}{\\pwrval};",
+          "after": "\t\\pwr{0.050*\\darclw}{4.75}{0.550*\\darclw}{4.75+1.5*\\dist}{\\pwrval}"
+        },
+        {
+          "line": 156,
+          "before": "\t\\vol{0.650*\\darclw}{6.50}{0.950*\\darclw}{6.50+1.5*\\dist}{\\volval};",
+          "after": "\t\\vol{0.650*\\darclw}{6.50}{0.950*\\darclw}{6.50+1.5*\\dist}{\\volval}"
+        },
+        {
+          "line": 157,
+          "before": "\t\\qrg{0.050*\\darclw}{7.00};",
+          "after": "\t\\qrg{0.050*\\darclw}{7.00}"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_9c4ab0a8c1e2/57.de.tex",
+      "drawing": "57",
+      "sha256_before": "7abb2ee4f2799ad7ca9a6f5cd7419844c67e2c2d30827f0b641c7cdc97d3c122",
+      "sha256_after": "46de365fa7133d7f9778442bbe874442e88536230f89eef204d6180d51adb156",
+      "substitutions": [
+        {
+          "line": 4,
+          "before": "    \\tikzstyle{help lines}=[black];",
+          "after": "    \\tikzstyle{help lines}=[black]"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_9db7520bd29c/56.de.tex",
+      "drawing": "56",
+      "sha256_before": "e98fab3c95f86f7db3d11c90d1a164a0088d0eacfc1e304147f26e0f2f4eb3d4",
+      "sha256_after": "d4d342eefc9db88a4a155a8335f28e5d6129b509d0bdf2728870e4319faf280d",
+      "substitutions": [
+        {
+          "line": 4,
+          "before": "    \\tikzstyle{help lines}=[black];",
+          "after": "    \\tikzstyle{help lines}=[black]"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_9e96ab1c4f2e/38.de.tex",
+      "drawing": "38",
+      "sha256_before": "1890260bd4767e4a35b8232e3b1820fd503d568e8ef3028cf2692638d1eeefe6",
+      "sha256_after": "a4f6b96f95322396dee6aa48fc3d50a7aa6293b98c30c13f0238baa7cedc4b8f",
+      "substitutions": [
+        {
+          "line": 5,
+          "before": "    \\tikzstyle{help lines}=[black];",
+          "after": "    \\tikzstyle{help lines}=[black]"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_c498a610c6c4/627.de.tex",
+      "drawing": "627",
+      "sha256_before": "d7d7ff5a62c1e4df8f57c409af989030e8782165b259f04f5a9d729e4779cff6",
+      "sha256_after": "e8cc944c5aaec2bc849281a66293dfac7c71eab298f2bd13aa5db12b2131e41d",
+      "substitutions": [
+        {
+          "line": 4,
+          "before": "    \\tikzstyle{help lines}=[gray];",
+          "after": "    \\tikzstyle{help lines}=[gray]"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_f59f1597f9d9/55.de.tex",
+      "drawing": "55",
+      "sha256_before": "b2945d562475b4de159a54282781fa9777de0b0b3d9947ead3e69e395bcbcabd",
+      "sha256_after": "17b3b4731176f2e9076237211896522607d18a5ff9d39ecc5601f4a85681c77d",
+      "substitutions": [
+        {
+          "line": 4,
+          "before": "    \\tikzstyle{help lines}=[black];",
+          "after": "    \\tikzstyle{help lines}=[black]"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_f6c0f34633f6/75.de.tex",
+      "drawing": "75",
+      "sha256_before": "316a44d9916f6b36be2014f1de6b960659846f30df1df557b71fed3606fd290d",
+      "sha256_after": "74a0a6d8480224b5e8b54cee89193246b3906b42428d9c969a5a5c06bb56e432",
+      "substitutions": [
+        {
+          "line": 4,
+          "before": "    \\tikzstyle{help lines}=[black];",
+          "after": "    \\tikzstyle{help lines}=[black]"
+        }
+      ]
+    },
+    {
+      "file": "canonical/drawings/dr_fbb9743f9445/490.de.tex",
+      "drawing": "490",
+      "sha256_before": "d6cfb13f2e8e47cc99c08998c2473a86b5364d075eb4feea7a4cb3cb2f1c9f58",
+      "sha256_after": "eb7bb84eeeac1a30a92549d15929995f0bffbd95529be614e00df4eea09c4647",
+      "substitutions": [
+        {
+          "line": 10,
+          "before": "    \\tikzstyle{help lines}=[black];",
+          "after": "    \\tikzstyle{help lines}=[black]"
+        },
+        {
+          "line": 28,
+          "before": "        to [zD-,l=\\qty{5,6}{\\V}, -*, invert] ++(0,-2) coordinate(zdb);\t\t;",
+          "after": "        to [zD-,l=\\qty{5,6}{\\V}, -*, invert] ++(0,-2) coordinate(zdb);"
+        }
+      ]
+    }
+  ],
+  "semicolons_removed": 35,
+  "warning_instances_per_language_per_pass": 57,
+  "causes": {
+    "style_definition": {
+      "removed": 13,
+      "warning_instances": 18
+    },
+    "self_terminated_display_macros": {
+      "removed": 20,
+      "warning_instances": 36
+    },
+    "duplicate_path_terminator": {
+      "removed": 1,
+      "warning_instances": 1
+    },
+    "bounding_box_reset": {
+      "removed": 1,
+      "warning_instances": 2
+    }
+  },
+  "verification": {
+    "de": {
+      "before": {
+        "missing_characters": 57,
+        "underfull": 0,
+        "overfull": 0,
+        "warnings": 6
+      },
+      "after": {
+        "missing_characters": 0,
+        "underfull": 0,
+        "overfull": 0,
+        "warnings": 6
+      },
+      "extracted_text_unchanged": true,
+      "rendered_pages_identical": true,
+      "compared_pages": 14
+    },
+    "fr": {
+      "before": {
+        "missing_characters": 57,
+        "underfull": 0,
+        "overfull": 0,
+        "warnings": 6
+      },
+      "after": {
+        "missing_characters": 0,
+        "underfull": 0,
+        "overfull": 0,
+        "warnings": 6
+      },
+      "extracted_text_unchanged": true,
+      "rendered_pages_identical": true,
+      "compared_pages": 14
+    },
+    "it": {
+      "before": {
+        "missing_characters": 57,
+        "underfull": 2,
+        "overfull": 0,
+        "warnings": 6
+      },
+      "after": {
+        "missing_characters": 0,
+        "underfull": 2,
+        "overfull": 0,
+        "warnings": 6
+      },
+      "extracted_text_unchanged": true,
+      "rendered_pages_identical": true,
+      "compared_pages": 15
+    }
+  },
+  "scope_limits": [
+    "No visible text or translation changed",
+    "No valid TikZ path terminator removed",
+    "No PDF, SVG or site release regenerated",
+    "No question-pool data or revision tag changed"
+  ],
+  "scratch": "tmp/drawing-semicolon-cleanup-20261025",
+  "canonical_validation": {
+    "object_count": 2356,
+    "error_count": 0,
+    "warning_count": 0,
+    "valid": true
+  },
+  "other_diagnostics_baseline": {
+    "de": {
+      "baseline_log": "50ohm-question-pool/work/amfu_canonical_pdf/de-timed-20261024-230212/pass2.log",
+      "underfull": 8,
+      "overfull": 0,
+      "font_warnings": 6,
+      "semicolon_notices_in_preserved_original_log": 57,
+      "semicolon_notices_after_targeted_cleanup": 0
+    },
+    "fr": {
+      "baseline_log": "50ohm-question-pool/work/amfu_canonical_pdf/fr-timed-20261024-230213/pass2.log",
+      "underfull": 0,
+      "overfull": 1,
+      "font_warnings": 6,
+      "semicolon_notices_in_preserved_original_log": 57,
+      "semicolon_notices_after_targeted_cleanup": 0,
+      "overfull_details": {
+        "location": "Table of contents, page 4",
+        "width_tex_pt": 4.57323,
+        "width_mm": 1.607306517227065,
+        "magnitude": "small",
+        "human_visual_assessment": {
+          "reviewer": "user",
+          "date": "2026-10-25",
+          "result": "not visually noticeable",
+          "layout_correction_requested": false
+        }
+      }
+    },
+    "it": {
+      "baseline_log": "50ohm-question-pool/work/amfu_canonical_pdf/it-timed-20261024-230212/pass2.log",
+      "underfull": 38,
+      "overfull": 0,
+      "font_warnings": 6,
+      "semicolon_notices_in_preserved_original_log": 57,
+      "semicolon_notices_after_targeted_cleanup": 0
+    }
+  },
+  "overflow_reporting": {
+    "conversion": "mm = TeX pt * 25.4 / 72.27",
+    "ten_tex_pt_mm": 3.5145980351459807,
+    "a4_width_mm": 210,
+    "generic_acceptance_threshold": null
+  }
+}
