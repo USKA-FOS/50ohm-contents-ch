@@ -75,6 +75,10 @@ jobs:
         working-directory: workspace/app
         run: uv run python3 build.py
 
+      - name: Validate search before deployment
+        working-directory: workspace/app
+        run: uv run python 50ohm-contents-ch/tools/check_review_search.py build
+
       - name: Deploy build
         run: |
           rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no -p 2222" workspace/app/build/ \
