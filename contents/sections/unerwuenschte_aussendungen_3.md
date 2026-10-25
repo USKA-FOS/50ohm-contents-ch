@@ -51,9 +51,9 @@ Die Dämpfung der Nebenaussendungen (Spurious Emissions) relativ zur Leistung de
 <indepth>
 Der Erfolg der modernen Telekommunikation beruht auch auf gut verfügbaren, internationalen Normen. Wichtige Normen-Organisationen sind:
 
-- International Telecommunication Union (ITU)
-- Conférence Européenne des Administrations des Postes et des Télécommunications (CEPT)
-- European Telecommunications Standards Institute (ETSI)
+- **I**nternational **T**elecommunication **U**nion (ITU)
+- **C**onférence **E**uropéenne des Administrations des **P**ostes et des **T**élécommunications (CEPT)
+- **E**uropean **T**elecommunications **S**tandards **I**nstitute (ETSI)
 
 </indepth>
 
@@ -72,8 +72,8 @@ Umgerechnet in eine absolute Leistung:
 
 $$P_{\text{Neben}} = 100\mathrm{W} \cdot 10^{-50/10}= 0{,}001\mathrm{W}= \boxed{1\mathrm{mW}}$$
 
-**Praxisergebnis:** Bei einem Sender mit 100 W PEP liegt der Grenzwert für die Nebenaussendungen
-bei **$\qty{1}{\milli\watt}$**.
+**Praxisergebnis:**
+Bei einem Sender mit 100 W PEP liegt der Grenzwert für die Nebenaussendungen bei **$\qty{1}{\milli\watt}$**.
 
 **Rechenaufgabe**
 
