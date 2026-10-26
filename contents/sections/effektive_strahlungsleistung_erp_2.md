@@ -1,3 +1,5 @@
+[index:Strahlungsleistung]
+
 Im Abschnitt [sec:effektive_strahlungsleistung_erp_1] haben wir bereits die *effektive Strahlungsleistung* (ERP) kennengelernt. Im Gegensatz zur EIRP bezieht sie sich nicht auf einen isotropen Strahler, sondern auf einen Halbwellendipol. Für die Berechnung ist nur die Leistung maßgeblich, die tatsächlich am Speisepunkt der Antenne ankommt. Verluste in der Speiseleitung, beispielsweise durch Kabeldämpfung, müssen daher von der Senderausgangsleistung abgezogen werden.
 
 Die effektive Strahlungsleistung ergibt sich aus der an der Antenne zugeführten Leistung und dem Antennengewinn in der betrachteten Richtung:
