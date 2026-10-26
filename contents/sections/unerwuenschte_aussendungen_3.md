@@ -98,6 +98,10 @@ Für den VHF/UHF/SHF-Bereich über $\qty{30}{\mega\hertz}$ gilt, dass Nebenausse
 
 [question:AJ225]
 
+<margin>
+Die Abbildung 1140 (TODO Bild anpassen) zeigt die erforderlichen Dämpfungen der Nebenaussendungen.
+</margin>
+
 %TODO BILD VON DL1COM EINBAUEN
 Mit einem Spektrumanalysator lässt sich im Modus spurious emissions eine Messung der Oberwellen bzw. Harmonischen (engl. harmonics) durchführen, wie in Abbildung [ref:a_uagw] dargestellt. Der Spektrumanalysator erfasst dabei automatisch den Pegel des Trägers sowie die Unterdrückung der Harmonischen und zeigt diese zusätzlich auf dem Bildschirm an. Wenn man ein Gerät selbst baut, ist es entscheidend, durch Messungen sicherzustellen, dass die vorgeschriebenen Grenzwerte eingehalten werden. Ein kommerzieller Funkgerätehersteller bestätigt mit der CE-Erklärung zwar die Einhaltung dieser Grenzwerte, dennoch kommt es vor, dass einzelne Geräte die Vorgaben nicht erfüllen – in solchen Fällen kann das BAKOM deren Betrieb, Import und Verkauf verbieten.
 
