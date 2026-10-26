@@ -2,10 +2,10 @@
 
 Das elektromagnetische Feld einer Antenne lässt sich, wie in Abbildung [ref:a_nahfernfeld] dargestellt, in das *Nahfeld* in unmittelbarer Umgebung der Antenne und das weiter entfernte *Fernfeld* unterteilen. Das Nahfeld wird zusätzlich in das *reaktive Nahfeld* und das *strahlende Nahfeld* gegliedert.
 
-<tip>
-In den [Erläuterungen der Bewertungsverfahren nach BEMFV](https://50ohm.de/bemfv) hat die BNetzA die Begriffe und Verfahren für die Ermittlung der Sicherheitsabstände erläutert.
-[photo:80:n_Bewertungsverfahren:In diesem Dokument sind die Bewertungsverfahren beschrieben.]
-</tip>
+%<tip>
+%In den [Erläuterungen der Bewertungsverfahren nach BEMFV](https://50ohm.de/bemfv) hat die BNetzA die Begriffe und Verfahren für die Ermittlung der %Sicherheitsabstände erläutert.
+%[photo:80:n_Bewertungsverfahren:In diesem Dokument sind die Bewertungsverfahren beschrieben.]
+%</tip>
 
 [picture:1113:a_nahfernfeld:Abstandsdefinitionen für Nahfeld und Fernfeld nach der Bundesnetzagentur (BNetzA).]
 
@@ -101,6 +101,6 @@ Wir fassen zusammen:
 </margin>
 
 <tip>
-Der Faktor $(4\pi$ entsteht durch die Kugeloberfläche, über die sich die abgestrahlte Leistung im Fernfeld verteilt. Die Oberfläche einer Kugel mit dem Radius $d$ beträgt $A=4\pi d^2$.
+Der Faktor $4\pi$ entsteht durch die Kugeloberfläche, über die sich die abgestrahlte Leistung im Fernfeld verteilt. Die Oberfläche einer Kugel mit dem Radius $d$ beträgt $A=4\pi d^2$.
 </tip>
 
