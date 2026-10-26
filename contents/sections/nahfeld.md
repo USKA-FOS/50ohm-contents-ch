@@ -1,3 +1,5 @@
+ [index:Nahfeld] [index:Fernfeld]
+
 Das elektromagnetische Feld einer Antenne lässt sich, wie in Abbildung [ref:a_nahfernfeld] dargestellt, in das *Nahfeld* in unmittelbarer Umgebung der Antenne und das weiter entfernte *Fernfeld* unterteilen. Das Nahfeld wird zusätzlich in das *reaktive Nahfeld* und das *strahlende Nahfeld* gegliedert.
 
 <tip>
