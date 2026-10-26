@@ -2,6 +2,10 @@ Bei der Anzeige einer ortsfesten Amateurfunkanlage können die erforderlichen Pe
 
 Da sich Messungen und Simulationen in einer schriftlichen Prüfung nur schwer sinnvoll abfragen lassen, beschränken sich die folgenden Prüfungsfragen auf Berechnungen mit der Näherungsformel. Bei allen Aufgaben ist die dafür erforderliche Bedingung $d > \frac{\lambda}{2\pi}$ erfüllt. Die Überprüfung dieser Bedingung wurde bereits in den Fragen zu den Abschnitten [sec:personenschutzabstand] und [sec:personenschutzabstand_2] behandelt. Versuche nun, die folgenden Aufgaben mithilfe der Näherungsformel aus dem vorherigen Kapitel zu lösen.
 
+<law>
+Die gesetzlichen Vorgaben der *N*icht *I*onisierenden *S*trahlungs *V*erordnung (**NISV*) wird im Abschnitt [sec:effektive_strahlungsleistung_erp_1] behandelt. 
+</law>
+
 ---
 
 [question:AK106]
