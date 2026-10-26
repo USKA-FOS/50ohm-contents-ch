@@ -1,6 +1,6 @@
 **IN BEARBEITUNG**
 
-[index:Oberwellen]
+[index:Oberwellen] [index:Harmonische] [index:Nebenaussendungen]
 
 In den Abschnitten [sec:unerwuenschte_aussendungen_1] und [sec:unerwuenschte_aussendungen_2] haben wir bereits unerwünschte Aussendungen in Form von *Oberwellen* und *Nebenaussendungen* kennengelernt. Oberwellen bzw. Harmonische eines Signals entstehen immer, wenn sich Abweichungen von der idealen Sinus-Kurve bilden und sind immer ganzzahlige Vielfache der Grundfrequenz, wie in Abbildung [ref:a_harmonische] dargestellt.
 
