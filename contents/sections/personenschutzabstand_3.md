@@ -18,6 +18,15 @@ Die gesetzlichen Vorgaben der *N*icht *I*onisierenden *S*trahlungs *V*erordnung 
 [question:AK112]
 
 <indepth>
+### Einfluss des Modulationsverfahrens
+
+Bei der Berechnung des Personenschutzabstands muss die für das jeweilige Modulationsverfahren massgebende Sendeleistung berücksichtigt werden. Die Spitzenleistung bei der Modulation (PEP) entspricht nicht bei jedem Modulationsverfahren der mittleren Sendeleistung.
+
+Bei RTTY und FM kann für die Berechnung mit der vollen angegebenen Sendeleistung gerechnet werden. Bei anderen Betriebsarten kann eine Umrechnung erforderlich sein.
+Für die Schweiz sind die geltenden Anforderungen der Verordnung über den Schutz vor nichtionisierender Strahlung (NISV) massgebend. Die Berechnung muss sicherstellen, dass die entsprechenden Immissionsgrenzwerte eingehalten werden.
+
+**xxxxxxxxxxxxxxxxxxxxxxxxxxxxx**
+
 Warum wird in den Fragen in diesem Abschnitt auf Modulationsverfahren RTTY und FM hingewiesen?
 Bei der Anzeige einer ortsfesten Amateurfunkanlage (nach § 9, BEMFV) ist bei der Konfiguration der Umrechnungsfaktor $\textrm{Faktor}_\textrm{FmodPers}$ einzutragen.
 
