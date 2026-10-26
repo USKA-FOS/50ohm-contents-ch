@@ -95,15 +95,15 @@ Die Abbildung [ref:a_uagw3] stellt die zulässigen Grenzwerte dar.
 [question:AJ224]
 
 <margin>
-[picture:1140:a_uagw1:Oberwellendämpfung im KW-Bereich]
+[picture:1140:a_uagw1:Oberwellendämpfung KW-Bereich]
 </margin>
 
 <margin>
-[picture:918:a_uagw:Oberwellendämpfung im VHF/UHF/SHF-Bereich]
+[picture:918:a_uagw:Oberwellendämpfung VHF/UHF/SHF-Bereich]
 </margin>
 
 <margin>
-[picture:1139:a_uagw3:Oberwellendämpfungen nach ETSI EN 301 783]
+[picture:1139:a_uagw3:Oberwellendämpfungen nach ETSI EN 301 783 für verschiedene Frequenzen und Leistungen
 </margin>
 
 Für den VHF/UHF/SHF-Bereich über $\qty{30}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{70}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von $\qty{50}{\micro\watt}$ befindet (vgl. Abbildung [ref:a_uagw]).
