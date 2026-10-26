@@ -94,12 +94,12 @@ Die Abbildung [ref:a_uagw3] stellt die zulässigen Grenzwerte dar.
 
 [question:AJ224]
 
-%<margin>
-%[picture:1140:a_uagw1:Oberwellendämpfung KW-Bereich]
-%</margin>
+<margin>
+[picture:1140:a_uagw1:Oberwellendämpfung im KW-Bereich]
+</margin>
 
 <margin>
-[picture:918:a_uagw:Oberwellendämpfung VHF/UHF/SHF-Bereich]
+[picture:918:a_uagw:Oberwellendämpfung im VHF/UHF/SHF-Bereich]
 </margin>
 
 <margin>
