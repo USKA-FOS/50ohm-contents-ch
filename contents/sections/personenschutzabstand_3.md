@@ -1,9 +1,11 @@
+[index:NISV]
+
 Bei der Anzeige einer ortsfesten Amateurfunkanlage können die erforderlichen Personenschutzabstände mit verschiedenen Verfahren ermittelt werden. Neben der oben beschriebenen Fernfeldberechnung sind auch Messungen und Simulationen zulässig. Die dafür üblichen Grenzwerte haben wir bereits im Abschnitt [sec:personenschutzabstand_2] kennengelernt. 
 
 Da sich Messungen und Simulationen in einer schriftlichen Prüfung nur schwer sinnvoll abfragen lassen, beschränken sich die folgenden Prüfungsfragen auf Berechnungen mit der Näherungsformel. Bei allen Aufgaben ist die dafür erforderliche Bedingung $d > \frac{\lambda}{2\pi}$ erfüllt. Die Überprüfung dieser Bedingung wurde bereits in den Fragen zu den Abschnitten [sec:personenschutzabstand] und [sec:personenschutzabstand_2] behandelt. Versuche nun, die folgenden Aufgaben mithilfe der Näherungsformel aus dem vorherigen Kapitel zu lösen.
 
 <law>
-Die gesetzlichen Vorgaben der *N*icht *I*onisierenden *S*trahlungs *V*erordnung (**NISV*) wird im Abschnitt [sec:effektive_strahlungsleistung_erp_1] behandelt. 
+Die gesetzlichen Vorgaben der *N*icht *I*onisierenden *S*trahlungs *V*erordnung (**NISV**) wird im Abschnitt [sec:effektive_strahlungsleistung_erp_1] behandelt. 
 </law>
 
 ---
