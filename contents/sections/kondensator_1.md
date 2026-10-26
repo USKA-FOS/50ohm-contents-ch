@@ -92,7 +92,7 @@ $|X_C| = \frac{1}{\omega\cdot C} = \frac{1}{2\pi\cdot f \cdot C}$
 
 beschreiben und wird als kapazitiver Blindwiderstand $X_C$ bezeichnet (vgl. Formelsammlung).
 
-Die genauen physikalischen Hintergründe dazu lernen wir erst in der Klasse A kennen. Für die Klasse E ist es jedoch bereits wichtig zu wissen, dass der Widerstand eines Kondensators umgekehrt proportional von der Frequenz abhängt: Verringert man die Frequenz, so wird der kapazitive Blindwiderstand $X_C$ größer. Erhöht man hingegen die Frequenz, nimmt der Widerstand entsprechend ab.
+Die genauen physikalischen Hintergründe dazu lernen wir erst im Abschnitt [sec:kondensator_2] kennen. Es ist es jedoch bereits jetzt wichtig zu wissen, dass der Widerstand eines Kondensators umgekehrt proportional von der Frequenz abhängt: Verringert man die Frequenz, so wird der kapazitive Blindwiderstand $X_C$ größer. Erhöht man hingegen die Frequenz, nimmt der Widerstand entsprechend ab.
 
 [question:EC202]
 
@@ -106,7 +106,7 @@ Nun haben wir bereits einige grundlegende elektrische Eigenschaften eines Konden
 
 Als Dielektrikum, also Isolatorschicht, können unterschiedliche Materialien verwendet werden:
 
-1.  Luft beim Luftdrehkondensator oder Lufttrimmer
+1. Luft beim Luftdrehkondensator oder Lufttrimmer
 2. Kunststofffolie beim Folienwickelkondensator
 3. Keramik für HF-Kondensatoren mit hoher Güte und bei SMD-Kondensatoren
 4. Metalloxid beim Elektrolytkondensator.
