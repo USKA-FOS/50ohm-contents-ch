@@ -1,4 +1,4 @@
-[index:Magnetfeld]
+[index:Magnetfeld] [index:magnetisches Feld]
 
 Im Jahre 1820 beobachtete der dänische Physiker Hans Christian Ørsted, dass eine Kompassnadel abgelenkt wird, wenn in einem nahe gelegenen Draht ein elektrischer Strom fliesst. Dieser zunächst bei Gleichstrom beobachtete Effekt liefert die Grundlage für Elektromagneten und Elektromotoren. Man kann ihn mit Hilfe von magnetischen Feldlinien beschreiben - beispielsweise richtet sich eine Kompassnadel entlang dieser Feldlinien aus.
 
