@@ -77,11 +77,28 @@ Der Feldwellenwiderstand des freien Raums verknüpft die elektrischen und magnet
 
 [question:AK102]
 
-Diesen Wert müssen wir uns merken, da wir ihn zur Herleitung der Näherungsformel benötigen. 
+Den Wert des Feldwellenwiderstands des freien Raums - näherungsweise $\qty{377}{\ohm}$ - müssen wir uns merken, da wir ihn zur Herleitung einer Näherungsformel benötigen, die im Fernfeld die elektrische und die magnetische Feldstärke miteinander in Beziehung setzt. Daraus leiten wir die Näherungsformel zur Berechnung der elektrischen Feldstärke her. Die elektrische Feldstärke ermöglicht es uns dann, den erforderlichen Sicherheitsabstand abzuschätzen.
+
+Die abgestrahlte Leistung verteilt sich im Fernfeld über die Oberfläche einer Kugel mit dem Radius $d$. Da diese $A=4\pi d^2$ beträgt, ergibt sich die Leistungsflussdichte zu
+
+$$S = \frac{P_\text{EIRP}}{4\pi d^2}.$$
+
+Im Fernfeld gilt für die Effektivwerte der elektrischen Feldstärke $E$ und der magnetischen Feldstärke $H$:
+
+$$S=E\cdot H=\frac{E^2}{Z_0}$$
+
+Dabei ist $Z_0\approx\qty{377}{\ohm}$ der Feldwellenwiderstand des freien Raums. Durch Gleichsetzen und Umstellen erhalten wir:
+
+$$E=\frac{\sqrt{\dfrac{Z_0}{4\pi}\cdot P_\text{EIRP}}}{d}\approx\frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{d}.$$
+
+<tip>
+Der Faktor \(4\pi\) entsteht durch die Kugeloberfläche, über die sich die abgestrahlte Leistung im Fernfeld verteilt. Die Oberfläche einer Kugel mit dem Radius $d$ beträgt $A=4\pi d^2$.
+</tip>
 
 Wir fassen zusammen: 
 
-* Das Fernfeld einer Strahlungsquelle ist der Bereich, in dem die Vektoren der elektrischen Feldstärke (E), der magnetischen Feldstärke (H) sowie die Ausbreitungsrichtung senkrecht aufeinander stehen und keine Phasendifferenzen aufweisen. Zusätzlich muss der Feldwellenwiderstand dem des freien Raums entsprechen. 
+* Das Fernfeld einer Strahlungsquelle ist der Bereich, in dem die Vektoren der elektrischen Feldstärke (E), der magnetischen Feldstärke (H) sowie die Ausbreitungsrichtung senkrecht aufeinander stehen und keine Phasendifferenzen aufweisen. Zusätzlich muss der Feldwellenwiderstand dem des freien Raums entsprechen.
+  
 * Die Grenze zwischen Fernfeld und Nahfeld ist in erster Linie abhängig von der Wellenlänge. Jedoch spielt die Art der verwendeten Antenne und deren Umgebung durchaus eine Rolle. Bei den im Amateurfunk überwiegend verwendeten Drahtantennen (z.B. Dipole) bildet sich das Fernfeld in einem Abstand von etwa $4\cdot\lambda$ aus. 
 
 <margin>
