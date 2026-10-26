@@ -98,7 +98,6 @@ Der Faktor \(4\pi\) entsteht durch die Kugeloberfläche, über die sich die abge
 Wir fassen zusammen: 
 
 * Das Fernfeld einer Strahlungsquelle ist der Bereich, in dem die Vektoren der elektrischen Feldstärke (E), der magnetischen Feldstärke (H) sowie die Ausbreitungsrichtung senkrecht aufeinander stehen und keine Phasendifferenzen aufweisen. Zusätzlich muss der Feldwellenwiderstand dem des freien Raums entsprechen.
-  
 * Die Grenze zwischen Fernfeld und Nahfeld ist in erster Linie abhängig von der Wellenlänge. Jedoch spielt die Art der verwendeten Antenne und deren Umgebung durchaus eine Rolle. Bei den im Amateurfunk überwiegend verwendeten Drahtantennen (z.B. Dipole) bildet sich das Fernfeld in einem Abstand von etwa $4\cdot\lambda$ aus. 
 
 <margin>
