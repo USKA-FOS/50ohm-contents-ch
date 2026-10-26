@@ -11,7 +11,7 @@ In den [Erläuterungen der Bewertungsverfahren nach BEMFV](https://50ohm.de/bemf
 
 ---
 
-Nach der in der Abbildung verwendeten Definition der Bundesnetzagentur (BNetzA) erstreckt sich das reaktive Nahfeld bis zu einem Abstand von
+Nach der Formelsammlung erstreckt sich das reaktive Nahfeld bis zum Beginn des Fernfelds, also in einem Abstand von
 
 $d \le \dfrac{\lambda}{2 \cdot \pi}$
 
@@ -44,7 +44,7 @@ Die unterstrichenen Größen sind komplex und beschreiben neben der Stärke auch
 
 Da die einzelnen Anteile unterschiedlich schnell mit dem Abstand $r$ abnehmen, verändert sich ihr Verhältnis zueinander. Dadurch hängt auch die Phasendifferenz zwischen elektrischer und magnetischer Feldstärke im Nahfeld vom Abstand, von der Richtung und von der Antennenform ab.
 
-Für ein vollständiges Verständnis sind die einzelnen Vektorkomponenten der Feldgleichungen zu betrachten. Diese Zusammenhänge gehen deutlich über die Lerninhalte der Klasse A hinaus und sind für die Prüfung nicht relevant.
+Für ein vollständiges Verständnis sind die einzelnen Vektorkomponenten der Feldgleichungen zu betrachten. Diese Zusammenhänge gehen deutlich über die Lerninhalte für die HB9-Konzession hinaus und sind für die Prüfung nicht relevant.
 </indepth>
 
 Insbesondere im reaktiven Nahfeld können aufgrund der starken, mit zunehmendem Abstand rasch abfallenden elektrischen oder magnetischen Feldanteile, hohe lokale Feldstärken auftreten. Dieser Bereich wird als *reaktiv* bezeichnet, weil ein großer Teil der Feldenergie nicht abgestrahlt wird, sondern zwischen Antenne und Feld hin- und herpendelt. Genau wie bei einem Kondensator (elektrisches Feld) oder einer Spule (magnetisches Feld) wird die im reaktiven Nahfeld gespeicherte Energie nicht verbraucht, sondern phasenverschoben zur Antenne zurückgegeben – dieses Pendeln zwischen Feld und Antenne entspricht dem Blindanteil der Antennenimpedanz, während nur der Wirkanteil (Strahlungswiderstand) tatsächlich abgestrahlte Leistung beschreibt.
