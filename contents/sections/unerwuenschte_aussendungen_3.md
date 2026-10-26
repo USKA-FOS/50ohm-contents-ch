@@ -74,10 +74,10 @@ Das bedeutet: Die Nebenaussendung darf höchstens 63 dB unter der Bezugsleistung
 
 Umgerechnet in eine absolute Leistung:
 
-$$P_{\text{Neben}} = 100\mathrm{W} \cdot 10^{-50/10}= 0{,}001\mathrm{W}= \boxed{1\mathrm{mW}}$$
+$$P_{\text{Neben}} = 100\mathrm{W} \cdot 10^{-63/10}= 0{,}001\mathrm{W}= \boxed{0{,}05\mathrm{mW}}$$
 
 **Praxisergebnis:**
-Bei einem Sender mit 100 W PEP liegt der Grenzwert für die Nebenaussendungen bei **$\qty{1}{\milli\watt}$**.
+Bei einem Sender mit 100 W PEP liegt der Grenzwert für die Nebenaussendungen bei **$\qty{50}{\mikro\watt}$**.
 
 **Rechenaufgabe**
 
@@ -103,7 +103,7 @@ Die Abbildung [ref:a_uagw3] stellt die zulässigen Grenzwerte dar.
 </margin>
 
 <margin>
-[picture:1139:a_uagw3:Oberwellendämpfungen nach ETSI EN 301 783 für verschiedene Frequenzen und Leistungen
+[picture:1139:a_uagw3:Oberwellendämpfungen nach ETSI EN 301 783 für verschiedene Frequenzen und Leistungen]
 </margin>
 
 Für den VHF/UHF/SHF-Bereich über $\qty{30}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{70}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von $\qty{50}{\micro\watt}$ befindet (vgl. Abbildung [ref:a_uagw]).
