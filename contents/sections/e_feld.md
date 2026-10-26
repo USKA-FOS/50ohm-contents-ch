@@ -1,3 +1,5 @@
+[index:Elektrisches Feld]
+
 Das physikalische Phänomen, das Funksignale überhaupt erst möglich macht, ist das elektromagnetische Feld. Dass sich dieses Feld im leeren Raum, ohne ein tragendes Medium, ausbreiten kann, war eine der bedeutendsten Entdeckungen des 19. Jahrhunderts. 
 
 <margin>
