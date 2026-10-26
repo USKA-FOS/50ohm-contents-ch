@@ -88,7 +88,9 @@ Bei einem Sender mit 100 W PEP liegt der Grenzwert für die Nebenaussendungen be
 
 Unerwünschte Aussendungen sind auf das geringstmögliche Maß zu beschränken und dürfen den Grenzwert für Nebenaussendungen keinesfalls überschreiten. Diese Grenzwerte gelten sowohl für Hersteller kommerzieller Amateurfunkgeräte als auch für selbstgebaute Funkgeräte.
 
-Für den Kurzwellenbereich unter $\qty{30}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{50}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, solange sich die Leistung der Signale oberhalb eines Pegels von $\qty{50}{\micro\watt}$ befindet.
+Für den Kurzwellenbereich unter $\qty{30}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{50}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, solange sich die Leistung der Signale oberhalb eines Pegels von $\qty{50}{\micro\watt}$ befindet (vgl. Abbildung [ref:a_uagw1]).
+
+Die Abbildung [ref:a_uagw3] stellt die zulässigen Grenzwerte dar.
 
 [question:AJ224]
 
@@ -100,13 +102,13 @@ Für den Kurzwellenbereich unter $\qty{30}{\mega\hertz}$ gilt, dass Nebenaussend
 [picture:918:a_uagw:Oberwellendämpfung VHF/UHF/SHF-Bereich]
 </margin>
 
+<margin>
+[picture:1139:a_uagw3:Oberwellendämpfungen nach ETSI EN 301 783]
+</margin>
+
 Für den VHF/UHF/SHF-Bereich über $\qty{30}{\mega\hertz}$ gilt, dass Nebenaussendungen und Oberwellen mindestens $\qty{70}{\dB}$ gegenüber dem maximalen Sendesignalspitzenpegel des Senders (PEP) gedämpft werden müssen, so lange sich die Leistung der Signale oberhalb eines Pegels von $\qty{50}{\micro\watt}$ befindet (vgl. Abbildung [ref:a_uagw]).
 
 [question:AJ225]
-
-<margin>
-Die Abbildung 1140 (TODO Bild anpassen) zeigt die erforderlichen Dämpfungen der Nebenaussendungen.
-</margin>
 
 %TODO BILD VON DL1COM EINBAUEN
 Mit einem Spektrumanalysator lässt sich im Modus spurious emissions eine Messung der Oberwellen bzw. Harmonischen (engl. harmonics) durchführen, wie in Abbildung [ref:a_uagw1] und [ref:a_uagw] dargestellt. Der Spektrumanalysator erfasst dabei automatisch den Pegel des Trägers sowie die Unterdrückung der Harmonischen und zeigt diese zusätzlich auf dem Bildschirm an. Wenn man ein Gerät selbst baut, ist es entscheidend, durch Messungen sicherzustellen, dass die vorgeschriebenen Grenzwerte eingehalten werden. Ein kommerzieller Funkgerätehersteller bestätigt mit der CE-Erklärung zwar die Einhaltung dieser Grenzwerte, dennoch kommt es vor, dass einzelne Geräte die Vorgaben nicht erfüllen – in solchen Fällen kann das BAKOM deren Betrieb, Import und Verkauf verbieten.
