@@ -77,7 +77,7 @@ Umgerechnet in eine absolute Leistung:
 $$P_{\text{Neben}} = 100\mathrm{W} \cdot 10^{-63/10}= 0{,}001\mathrm{W}= \boxed{0{,}05\mathrm{mW}}$$
 
 **Praxisergebnis:**
-Bei einem Sender mit 100 W PEP liegt der Grenzwert für die Nebenaussendungen bei **$\qty{50}{\mikro\watt}$**.
+Bei einem Sender mit 100 W PEP liegt der Grenzwert für die Nebenaussendungen bei **$\qty{50}{\micro\watt}$**.
 
 **Rechenaufgabe**
 
