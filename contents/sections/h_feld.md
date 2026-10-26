@@ -1,4 +1,6 @@
-Im Jahre 1820 beobachtete der dänische Naturforscher Hans Christian Oerstedt, dass ein auf dem Tisch liegender Kompass abgelenkt wurde, wenn er durch einen Draht in der Nähe einen Strom schickte. Dieser zunächst für einen Gleichstrom beobachtete Effekt liefert die Grundlage für Elektromagneten und Elektromotoren. Man kann ihn mit Hilfe von magnetischen Feldlinien beschreiben - beispielsweise richtet sich eine Kompassnadel entlang dieser Feldlinien aus.
+[index:Magnetfeld]
+
+Im Jahre 1820 beobachtete der dänische Physiker Hans Christian Ørsted, dass eine Kompassnadel abgelenkt wird, wenn in einem nahe gelegenen Draht ein elektrischer Strom fliesst. Dieser zunächst bei Gleichstrom beobachtete Effekt liefert die Grundlage für Elektromagneten und Elektromotoren. Man kann ihn mit Hilfe von magnetischen Feldlinien beschreiben - beispielsweise richtet sich eine Kompassnadel entlang dieser Feldlinien aus.
 
 ---
 
@@ -12,7 +14,7 @@ Die magnetischen Feldlinien um einen stromdurchflossenen Leiter sind stets in si
 
 ---
 
-Die so genannte *magnetische Feldstärke* hängt sowohl vom erzeugenden Strom $I$ als auch dem Abstand zum Leiter $r$ ab. Für einen sehr langen geraden Leiter im Vakuum gilt:
+Die sogenannte *magnetische Feldstärke* hängt sowohl vom erzeugenden Strom $I$ als auch dem Abstand zum Leiter $r$ ab. Für einen sehr langen geraden Leiter im Vakuum gilt:
 
 $H(r) = \frac{I}{2\cdot\pi\cdot r}$
 
@@ -24,7 +26,7 @@ Aus dieser Gleichung können wir direkt die Einheit der magnetischen Feldstärke
 
 ---
 
-Im Inneren einer Zylinderspule ergibt sich im Gegensatz zu einem geraden Leiter ein anderes Bild, weil ja jetzt der stromdurchflossene Leiter nicht gerade, sondern schraubenförmig aufgewickelt ist. Ist die Zylinderspule sehr lang verglichen mit dem Durchmesser, ergibt sich im Inneren eine lineare Form der Feldlinien, deren Feldstärke jeweils auch noch gleich ist (also eine konstante magnetische Feldstärke über den Querschnitt der Spule). Ein solches Feld bezeichnen wir als *homogenes magnetisches Feld*. Den Begriff hatten wir schon beim homogenen elektrischen Feld im Innern eines Plattenkondensators kennengelernt.
+Im Inneren einer Zylinderspule ergibt sich im Gegensatz zu einem geraden Leiter ein anderes Bild, weil ja jetzt der stromdurchflossene Leiter nicht gerade, sondern schraubenförmig aufgewickelt ist. Ist die Zylinderspule im Vergleich zu ihrem Durchmesser sehr lang, ergibt sich im Inneren eine lineare Form der Feldlinien, deren Feldstärke überall annähernd gleich ist (also eine konstante magnetische Feldstärke über den Querschnitt der Spule). Ein solches Feld bezeichnen wir als *homogenes magnetisches Feld*. Den Begriff hatten wir schon beim homogenen elektrischen Feld im Innern eines Plattenkondensators kennengelernt.
 
 <margin>
 [picture:882:e_h_feld_spule:Magnetische Feldlinien in einer Zylinderspule]
@@ -40,13 +42,13 @@ Dabei ist zu beachten, dass sich die magnetischen Feldlinien bei einer Zylinders
 
 [question:EB203]
 
-Für diese Prüfungsfrage berechnen wir zunächst den mittleren Umfang eines Rings mit mittlerem Durchmesser $d$. In der Aufgabe ist $d=\qty{2,6}{\centi\meter}$. Dabei bitte die Einheit beachten -- am Besten, wir gehen auf die Grundeinheit $\unit{\meter}$ zurück.
+Für diese Prüfungsfrage berechnen wir zunächst den mittleren Umfang eines Rings mit mittlerem Durchmesser $d$. In der Aufgabe ist $d=\qty{2,6}{\centi\meter}$. Dabei ist die Einheit zu beachten -- am besten, wir gehen auf die Grundeinheit $\unit{\meter}$ zurück.
 
 Der mittlere Umfang ($l_m$) ergibt sich aus folgender Beziehung:
 
 $l_m = \pi \cdot d = \pi\cdot \qty{0,026}{\meter} = \qty{0,082}{\meter}$
 
-Das Magnetfeld wird bei $N$ Windungen durch einen Strom erzeugt, der $N$-mal so groß ist, wie der im Leiter fließende Strom $I$. Daher gilt für die magnetische Feldstärke $H$ laut Formelsammlung:
+Das Magnetfeld wird bei $N$ Windungen durch einen Strom erzeugt, der $N$-mal so groß ist, wie der im Leiter fließende Strom $I$. Daher gilt für die magnetische Feldstärke $H$ gemäss der Formelsammlung:
 
 $H = \frac{N\cdot I}{l_m} = \frac{6 \cdot \qty{2,5}{\ampere}}{\qty{0,082}{\meter}} = \qty{183}{\ampere\per\meter}$
   
