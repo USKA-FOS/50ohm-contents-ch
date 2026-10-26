@@ -91,10 +91,6 @@ Dabei ist $Z_0\approx\qty{377}{\ohm}$ der Feldwellenwiderstand des freien Raums.
 
 $$E=\frac{\sqrt{\dfrac{Z_0}{4\pi}\cdot P_\text{EIRP}}}{d}\approx\frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{d}.$$
 
-<tip>
-Der Faktor \(4\pi\) entsteht durch die Kugeloberfläche, über die sich die abgestrahlte Leistung im Fernfeld verteilt. Die Oberfläche einer Kugel mit dem Radius $d$ beträgt $A=4\pi d^2$.
-</tip>
-
 Wir fassen zusammen: 
 
 * Das Fernfeld einer Strahlungsquelle ist der Bereich, in dem die Vektoren der elektrischen Feldstärke (E), der magnetischen Feldstärke (H) sowie die Ausbreitungsrichtung senkrecht aufeinander stehen und keine Phasendifferenzen aufweisen. Zusätzlich muss der Feldwellenwiderstand dem des freien Raums entsprechen.
@@ -103,3 +99,8 @@ Wir fassen zusammen:
 <margin>
 [picture:1116:a_feldwellenwiderstand:Verlauf des Feldwellenwiderstands über die Bereiche Nahfeld und Fernfeld (Logarithmisch).]
 </margin>
+
+<tip>
+Der Faktor $(4\pi$ entsteht durch die Kugeloberfläche, über die sich die abgestrahlte Leistung im Fernfeld verteilt. Die Oberfläche einer Kugel mit dem Radius $d$ beträgt $A=4\pi d^2$.
+</tip>
+
