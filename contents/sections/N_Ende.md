@@ -57,7 +57,7 @@ Bspw wenn man "im Abschnitt [sec:kondensator_2] wird da noch tiefer darauf einge
 
 Bspw wenn man "wie wir im Abschnitt [sec:kondensator_2] schon gelernt haben." schreiben will. (Verweis auf eine HB3 Section in der HB9 Upgrade Edition.)
 
-
+---
 
 TEst Für Formel
 
