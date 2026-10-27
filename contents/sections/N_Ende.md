@@ -97,10 +97,14 @@ U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}
 \hat{U} = U_\text{eff} \cdot \sqrt{2}
 $$
 
+---
+
 $$
 \hat{U} = \qty{230}{\volt} \cdot \sqrt{2}
 \approx \qty{325}{\volt}
 $$
+
+---
 
 $$
 U_\text{SS} = 2 \cdot \qty{230}{\volt} \cdot \sqrt{2}
