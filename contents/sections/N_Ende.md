@@ -75,9 +75,15 @@ Die Spitze-Spitze-Spannung beträgt $U_\text{SS} = 2 \cdot \qty{230}{\volt} \cdo
 
 Noch ein Test:
 
+---
+
 $U_\text{SS} = 2 \cdot 230 \cdot \sqrt{2} \approx 651$
 
+---
+
 $A = 2 \cdot 230 \cdot \sqrt{2} \approx 651$
+
+---
 
 $U_{eff} = \frac{\hat{U}}{\sqrt{2}}$
 
