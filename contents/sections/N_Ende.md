@@ -107,8 +107,7 @@ $$
 ---
 
 $$
-U_\text{SS} = 2 \cdot \qty{230}{\volt} \cdot \sqrt{2}
-\approx \qty{651}{\volt}
+U_\text{SS} = 2 \cdot \qty{230}{\volt} \cdot \sqrt{2} \approx \qty{651}{\volt}
 $$
 
     
