@@ -110,6 +110,7 @@ $$
 U_\text{SS} = 2 \cdot \qty{230}{\volt} \cdot \sqrt{2} \approx \qty{651}{\volt}
 $$
 
+---
     
 **AB HIER ORIGINALTEXT - BITTE STEHEN LASSEN**
 Gratulation! Du hast den Kurs nun erfolgreich abgeschlossen. Falls noch nicht geschehen, solltest du dich jetzt gezielt mit einer Lern-App oder einem Prüfungstrainer auf die Amateurfunkprüfung vorbereiten. Der DARC bietet hierfür z. B. die Trainingsapp [50ohm](https://app.darc.de) an. Auch die Anmeldung zur Prüfung solltest du möglichst zeitnah vornehmen, da die verfügbaren Termine häufig begrenzt sind. Alle wichtigen Informationen zur Anmeldung und zum Ablauf der Prüfung findest du im Menüpunkt [Prüfung](https://50ohm.de/pruefung.html). Nach bestandener Prüfung bei der Bundesnetzagentur kannst du anschließend dein persönliches Rufzeichen beantragen und offiziell am Amateurfunkbetrieb teilnehmen.
