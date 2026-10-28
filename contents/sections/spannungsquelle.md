@@ -10,7 +10,7 @@ Es ist wichtig, auch bei Belastung eine konstante Spannung zu erhalten. Diese Ei
 [question:ED301]
 
 ---
-Die Gleichspannungsquellen (Netzgeräte) werden an das bestehende 230 V Wechselspannungsnetz angeschlossen. Wie bereits am Beispiel des Schutzkontaktsteckers in Klasse N kennengelernt, haben wir bei Wechselspannung den Außenleiter L, den Neutralleiter N und den Schutzleiter PE. 
+Die Gleichspannungsquellen (Netzgeräte) werden an das bestehende 230 V Wechselspannungsnetz angeschlossen. Beim Stecker mit Schutzkontakt für die Netz-Wechselspannung haben wir einen Außenleiter L, einen Neutralleiter N und einen Schutzleiter PE. 
 
 Bei einer 3-adrigen Leitung mit Schutzleiter z.B. NYM-J $3 \times \qty{1,5}{\milli\meter\squared}$ sind die Aderfarben wie in Abbildung [ref:e_NYM_Aderfarben] festgelegt:
 
@@ -21,7 +21,7 @@ Bei einer 3-adrigen Leitung mit Schutzleiter z.B. NYM-J $3 \times \qty{1,5}{\mil
 <indepth>
 Die 3-adrige Aderkennzeichnung für Niederspannungsinstallationen folgt in der Schweiz der europäischen Norm SN HD 308 S2, die durch Electrosuisse (früher SEV/ASE) geregelt wird. Standardmässig ist bei einem 3-adrigen Kabel mit Schutzleiter die Belegung wie folgt: 
   
-*  Braun (Phase / Aussenleiter L), 
+* Braun (Phase / Aussenleiter L), 
 * Blau (Neutralleiter N)
 * Grün-Gelb (Schutzleiter PE).
 </indepth>
