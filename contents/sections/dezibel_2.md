@@ -82,7 +82,7 @@ Die folgenden Fragen lassen sich mit Hilfe der Formel aus der Formelsammlung und
 
 ---
 
-Warum macht man das Ganze überhaupt und gibt absolute Leistungen in $\unit{\dBm}$ und $\unit{\dBW}$ an? Wie bereits in der Klasse E angedeutet, dient die Verwendung von Dezibel vor allem dazu, Rechnungen zu vereinfachen. Durch die Darstellung von Verstärkungen und Dämpfungen in Dezibel lassen sich komplette Signalketten sehr einfach durch Addition und Subtraktion überschlagen, ohne auf umständliche Multiplikationen und Divisionen zurückgreifen zu müssen.
+Warum macht man das Ganze überhaupt und gibt absolute Leistungen in $\unit{\dBm}$ und $\unit{\dBW}$ an? Wie bereits im Abschnitt [sec:dezibel_1] angedeutet, dient die Verwendung von Dezibel vor allem dazu, Rechnungen zu vereinfachen. Durch die Darstellung von Verstärkungen und Dämpfungen in Dezibel lassen sich komplette Signalketten sehr einfach durch Addition und Subtraktion überschlagen, ohne auf umständliche Multiplikationen und Divisionen zurückgreifen zu müssen.
 
 Abbildung [ref:e_signalkette] zeigt eine solche Signalkette mit drei Verstärkerstufen. Das Eingangssignal besitzt eine Leistung von $\qty{1}{\milli\watt}$, was $\qty{0}{\dBm}$ entspricht. Durch die drei Verstärkerstufen wird das Signal insgesamt auf $\qty{60}{\dBm}$ verstärkt (also $\num{1000000}\cdot \qty{1}{\milli\watt}$), was einer Leistung von $\qty{1000}{\watt}$ entspricht.
 
