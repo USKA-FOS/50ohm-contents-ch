@@ -90,7 +90,7 @@ $Z = \sqrt{(\qty{100}{\ohm})^2 + (\qty{100}{\ohm})^2} = \qty{141}{\ohm}$
 
 ---
 
-Die Induktivität einer Spule haben wir auch bereits in der Klasse E kennengelernt. Grundsätzlich steigt die Induktivität wenn die Windungszahl erhöht wird, die Spulenlänge verkürzt wird, die Querschnittsfläche der Spule vergrößert wird und ein magnetisch leitfähigeres Material als Spulenkern verwendet wird. Zur Erhöhung der Induktivität, ohne die Windungszahl drastisch zu steigern, wird die Wicklung auf einen Ferritringkern gewickelt. Drosselspulen mit hoher Induktivität werden zur Verringerung hochfrequenter Ströme eingesetzt.
+Die Induktivität einer Spule haben wir auch bereits im Abschnitt [sec:spule_1] kennengelernt. Grundsätzlich steigt die Induktivität wenn die Windungszahl erhöht wird, die Spulenlänge verkürzt wird, die Querschnittsfläche der Spule vergrößert wird und ein magnetisch leitfähigeres Material als Spulenkern verwendet wird. Zur Erhöhung der Induktivität, ohne die Windungszahl drastisch zu steigern, wird die Wicklung auf einen Ferritringkern gewickelt. Drosselspulen mit hoher Induktivität werden zur Verringerung hochfrequenter Ströme eingesetzt.
 
 <indepth>
 [photo:270:a_Pulvereisenringkern:Beispiel für einen Pulvereisenringkern]
