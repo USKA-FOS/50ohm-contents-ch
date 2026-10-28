@@ -81,7 +81,7 @@ Den Wert des Feldwellenwiderstands des freien Raums - näherungsweise $\qty{377}
 
 Die abgestrahlte Leistung verteilt sich im Fernfeld über die Oberfläche einer Kugel mit dem Radius $d$. Da diese $A=4\pi d^2$ beträgt, ergibt sich die Leistungsflussdichte zu
 
-$$S = \frac{P_\text{EIRP}}{4\pi d^2}.$$
+$$S = \frac{P_\text{EIRP}}{4\pi d^2}$$
 
 Im Fernfeld gilt für die Effektivwerte der elektrischen Feldstärke $E$ und der magnetischen Feldstärke $H$:
 
@@ -89,7 +89,7 @@ $$S=E\cdot H=\frac{E^2}{Z_0}$$
 
 Dabei ist $Z_0\approx\qty{377}{\ohm}$ der Feldwellenwiderstand des freien Raums. Durch Gleichsetzen und Umstellen erhalten wir:
 
-$$E=\frac{\sqrt{\dfrac{Z_0}{4\pi}\cdot P_\text{EIRP}}}{d}\approx\frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{d}.$$
+$$E=\frac{\sqrt{\dfrac{Z_0}{4\pi}\cdot P_\text{EIRP}}}{d}\approx\frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{d}$$.
 
 Wir fassen zusammen: 
 
