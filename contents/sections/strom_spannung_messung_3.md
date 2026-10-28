@@ -28,7 +28,7 @@ Betrachten wir zunächst die *Auflösung* anhand einer Uhr. Besitzt die Uhr eine
 Die *Messgenauigkeit* (auch Messfehler oder Toleranz) eines Geräts beschreibt, wie stark der angezeigte Wert höchstens vom tatsächlichen Wert abweichen darf – sowohl nach oben als auch nach unten, zum Beispiel $\pm\qty{5}{\percent}$. Eine einfache Faustregel lautet: Je größer der Messbereich ist, den ein Gerät abdecken soll, desto geringer ist in der Regel die Genauigkeit der Messung.
 
 Die Messgenauigkeit hängt unter anderem vom Innenwiderstand des Messgeräts ab, da dieser das Messergebnis beeinflusst.
-In der Klasse E haben wir gelernt: Ein Strommessgerät hat einen sehr geringen Innenwiderstand (ideal $\qty{0}{\ohm}$), ein Spannungsmessgerät dagegen einen sehr hohen Innenwiderstand (ideal $\qty{\infty}{\ohm}$). In der Klasse A wollen wir uns nun zusätzlich anschauen, wie genau unsere Messgeräte die tatsächlich anliegende Spannung bzw. Stromstärke erfassen können. Der angezeigte Messwert unterscheidet sich nämlich in der Regel vom tatsächlichen Wert – und das liegt an den nicht perfekten Innenwiderständen der Messgeräte, welche die Messung beeinflussen.
+Im Abschnitt [sec:strom_spannung_messung_2] haben wir gelernt: Ein Strommessgerät hat einen sehr geringen Innenwiderstand (ideal $\qty{0}{\ohm}$), ein Spannungsmessgerät dagegen einen sehr hohen Innenwiderstand (ideal $\qty{\infty}{\ohm}$). Hier wollen wir uns nun zusätzlich anschauen, wie genau unsere Messgeräte die tatsächlich anliegende Spannung bzw. Stromstärke erfassen können. Der angezeigte Messwert unterscheidet sich nämlich in der Regel vom tatsächlichen Wert – und das liegt an den nicht perfekten Innenwiderständen der Messgeräte, welche die Messung beeinflussen.
 
 ---
 
