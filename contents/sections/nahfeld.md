@@ -79,6 +79,8 @@ Der Feldwellenwiderstand des freien Raums verknüpft die elektrischen und magnet
 
 Den Wert des Feldwellenwiderstands des freien Raums - näherungsweise $\qty{377}{\ohm}$ - müssen wir uns merken, da wir ihn zur Herleitung einer Näherungsformel benötigen, die im Fernfeld die elektrische und die magnetische Feldstärke miteinander in Beziehung setzt. Daraus leiten wir die Näherungsformel zur Berechnung der elektrischen Feldstärke her. Die elektrische Feldstärke ermöglicht es uns dann, den erforderlichen Sicherheitsabstand abzuschätzen.
 
+---
+
 Die abgestrahlte Leistung verteilt sich im Fernfeld über die Oberfläche einer Kugel mit dem Radius $d$. Da diese $A=4\pi d^2$ beträgt, ergibt sich die Leistungsflussdichte zu
 
 $$S = \frac{P_\text{EIRP}}{4\pi d^2}$$
@@ -89,7 +91,7 @@ $$S=E\cdot H=\frac{E^2}{Z_0}$$
 
 Dabei ist $Z_0\approx\qty{377}{\ohm}$ der Feldwellenwiderstand des freien Raums. Durch Gleichsetzen und Umstellen erhalten wir:
 
-$$E=\frac{\sqrt{\dfrac{Z_0}{4\pi}\cdot P_\text{EIRP}}}{d}\approx\frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{d}$$.
+$$E=\frac{\sqrt{\dfrac{Z_0}{4\pi}\cdot P_\text{EIRP}}}{d}\approx\frac{\sqrt{\qty{30}{\ohm}\cdot P_\text{EIRP}}}{d}$$
 
 Wir fassen zusammen: 
 
