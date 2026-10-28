@@ -18,7 +18,7 @@ Im Abschnitt [sec:dezibel_1] haben wir bereits das Dezibel als Werkzeug zum Besc
 [table:a_dezibel_leistungsfaktoren:Wichtige Leistungsfaktoren in $\unit{\dB}$]
 </margin>
 
-Die Formelsammlung gibt für das Umrechnen eines Leistungsverhältnisses in $\unit{\dB}$ folgende Formel an, welche wir auch schonmal in der Klasse E kennen gelernt haben. Das Verhältnis $g$ zweier Leistungen $P_1$ und $P_2$ in $\unit{\dB}$ ist:
+Die Formelsammlung gibt für das Umrechnen eines Leistungsverhältnisses in $\unit{\dB}$ folgende Formel an, welche wir auch schonmal im Abschnitt [sec:dezibel_1] kennen gelernt haben. Das Verhältnis $g$ zweier Leistungen $P_1$ und $P_2$ in $\unit{\dB}$ ist:
 
 $g = 10\cdot \log_{10}\left(\frac{P_2}{P_1}\right)\unit{\dB}$
 
@@ -102,7 +102,7 @@ Um die Gesamtverstärkung eines mehrstufigen Leistungsverstärkers zu ermitteln 
 
 [question:AF428]
   
-Zusätzlich haben wir in der Klasse E bereits die Zusätze $\unit{\dBd}$ und $\unit{\dBi}$ kennen gelernt, die bei der Angabe von Antennengewinnen verwendet werden. In diesem Fall bezieht sich der Dezibelwert nicht auf eine Leistung oder Spannung, sondern auf einen bestimmten Referenzstrahler. Üblich sind dabei $\unit{\dBi}$, bezogen auf den isotropen Kugelstrahler, sowie $\unit{\dBd}$, bezogen auf den Halbwellendipol.
+Zusätzlich lernen wir im Abschnitt [sec:antennengewinn] die Zusätze $\unit{\dBd}$ und $\unit{\dBi}$ kennen gelernt, die bei der Angabe von Antennengewinnen verwendet werden. In diesem Fall bezieht sich der Dezibelwert nicht auf eine Leistung oder Spannung, sondern auf einen bestimmten Referenzstrahler. Üblich sind dabei $\unit{\dBi}$, bezogen auf den isotropen Kugelstrahler, sowie $\unit{\dBd}$, bezogen auf den Halbwellendipol.
 
 ---
 
