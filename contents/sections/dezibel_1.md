@@ -50,7 +50,7 @@ Wobei $P_1$ der Eingangsleistung entspricht und $P_2$ der Ausgangsleistung. Nehm
 
 $g = 10\cdot \log_{10}\left(\frac{\qty{100}{\watt}}{\qty{50}{\watt}}\right)\unit{\dB} = 10\cdot \log_{10}\left(2\right)\unit{\dB} = 10\cdot \qty{0.301}{\dB} \approx \qty{3}{\dB} $
 
-Für HB3 ist es zunächst ausreichend, den Dezibelwert für den Leistungsfaktor $2$ zu kennen. Die Formelsammlung enthält dazu eine Tabelle, die auch in Tabelle [ref:e_dezibel_leistungsfaktoren] dargestellt ist. Daraus lässt sich ablesen, dass ein Leistungsfaktor von $2$ einem Dezibelwert von $\qty{3}{\dB}$ entspricht. Das ausführliche Rechnen mit Dezibelwerten wird erst in der Klasse A behandelt.
+Für HB3 ist es zunächst ausreichend, den Dezibelwert für den Leistungsfaktor $2$ zu kennen. Die Formelsammlung enthält dazu eine Tabelle, die auch in Tabelle [ref:e_dezibel_leistungsfaktoren] dargestellt ist. Daraus lässt sich ablesen, dass ein Leistungsfaktor von $2$ einem Dezibelwert von $\qty{3}{\dB}$ entspricht. Das ausführliche Rechnen mit Dezibelwerten wird erst im Abschnitt [sec:dezibel_2] behandelt.
 
 <tip>
 Ganz ohne Taschenrechner lassen sich Dezibelwerte abschätzen, die auf "$0$" enden: Einfach die letzte Null zuhalten, die Ziffer gibt dann die Anzahl der Nullen des Verhältnisfaktors an. Beispiel: $\qty{30}{\dB} \rightarrow 3 \rightarrow 3~\text{Nullen} \rightarrow \text{Verhältnisfaktor}~1000$!
