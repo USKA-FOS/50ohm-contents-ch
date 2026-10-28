@@ -61,7 +61,7 @@ Nachdem die E-Region nachts nicht mehr vorhanden ist, verläuft dann der gesamte
 
 ---
 
-Zur Ionisation wird Strahlung im extremen Ultraviolett- sowie im Röntgenbereich benötigt. Die Intensität dieser Strahlung, die von der Sonne erzeugt wird, unterliegt mehreren Zyklen. Der bedeutendste davon — wie wir bereits in den Prüfungsfragen zur Klasse N gelernt haben — ist der etwa elfjährige Sonnenzyklus (vgl. Abbildung [ref:e_ionosphaere_sonnenflecken]). 
+Zur Ionisation wird Strahlung im extremen Ultraviolett- sowie im Röntgenbereich benötigt. Die Intensität dieser Strahlung, die von der Sonne erzeugt wird, unterliegt mehreren Zyklen. Der bedeutendste davon — wie wir bereits in den Prüfungsfragen im Abschnitt [sec:ionosphaere_1] gelernt haben — ist der etwa elfjährige Sonnenzyklus (vgl. Abbildung [ref:e_ionosphaere_sonnenflecken]). 
 
 <webmargin>
 [picture:729:e_ionosphaere_sonnenflecken:Die Anzahl der Sonnenflecken, die über den elfjährigen Sonnenzyklus schwankt]
