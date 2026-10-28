@@ -12,11 +12,9 @@ In Abbildung [ref:aufbau_sender] wird gezeigt, aus welchen Komponenten man einen
 7. Tiefpassfilter: Da auch die Verstärkung unerwünschte Frequenzen erzeugen kann, muss jetzt nochmal gefiltert werden.
 8. Antenne: Das Hochfrequenzsignal wird nun an die Antenne gegeben und von dieser als Funkwelle abgestrahlt.
 
-%[class:N]
 <indepth>
 Wenn ein Mischer zwei Signale zusammenfügt, dann entspricht das mathematisch einer Multiplikation der beiden Signale. Daher findet sich auch das Malkreuz im Block-Symbol für den Mischer wieder. Wie ein Mischer genau funktioniert, ist Inhalt des Abschnitts [sec:mischer].
 </indepth>
-%[/class]
 
 [question:NF401]
 [question:NF403]
