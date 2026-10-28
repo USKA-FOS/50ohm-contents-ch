@@ -18,7 +18,7 @@ Besonders im Nahfeld anderer Leitungen oder elektrischer Geräte kann zudem eine
 
 [question:AG301]
 
-Als geschirmtes Kabel bietet sich das Koaxialkabel an, welches wir schon in den Abschnitten [sec:uebertragungsleitungen] und [sec:uebertragungsleitungen_2] bereits kennengelernt haben. Koaxialkabel gibt es in verschiedensten Ausführungen. In der folgenden Frage werden die *Hochfrequenzeigenschaften* von Koaxialkabeln, also deren elektrischen Eigenschaften hinsichtlich hoher Frequenzen betrachtet. Dies sind im Wesentlichen:
+Als geschirmtes Kabel bietet sich das Koaxialkabel an, welches wir in den Abschnitten [sec:uebertragungsleitungen] und [sec:uebertragungsleitungen_2] bereits kennengelernt haben. Koaxialkabel gibt es in verschiedensten Ausführungen. In der folgenden Frage werden die *Hochfrequenzeigenschaften* von Koaxialkabeln, also deren elektrischen Eigenschaften hinsichtlich hoher Frequenzen betrachtet. Dies sind im Wesentlichen:
 
 * der Wellenwiderstand,
 * die Kabeldämpfung und der
