@@ -22,9 +22,9 @@ Für einfache Messungen haben viele digitale Oszilloskope eine AUTO-Taste. Wenn 
  
 ---
 
-Sobald die Periodendauer einer Schwingung bekannt ist, lässt sich daraus auch die Frequenz bestimmen. In der Klasse N haben wir bereits den qualitativen Zusammenhang kennengelernt: Die Frequenz gibt die Zahl der Schwingungen pro Sekunde an. Beträgt die Periodendauer eine Sekunde, so ergibt sich eine Frequenz von $\qty{1}{\hertz}$. Halbieren wir die Periodendauer auf eine halbe Sekunde, passen zwei Schwingungen in eine Sekunde – die Frequenz liegt dann bei $\qty{2}{\hertz}$.
+Sobald die Periodendauer einer Schwingung bekannt ist, lässt sich daraus auch die Frequenz bestimmen. Im Abschnitt [sec:amplitude_periode] haben wir bereits den qualitativen Zusammenhang kennengelernt: Die Frequenz gibt die Zahl der Schwingungen pro Sekunde an. Beträgt die Periodendauer eine Sekunde, so ergibt sich eine Frequenz von $\qty{1}{\hertz}$. Halbieren wir die Periodendauer auf eine halbe Sekunde, passen zwei Schwingungen in eine Sekunde – die Frequenz liegt dann bei $\qty{2}{\hertz}$.
 
-In der Klasse E betrachten wir diesen Zusammenhang nun als Formel:
+Hier betrachten wir diesen Zusammenhang nun als Formel:
   
 $f=\dfrac{1}{T}$ oder $T=\dfrac{1}{f}$
 
