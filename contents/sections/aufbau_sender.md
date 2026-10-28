@@ -14,7 +14,7 @@ In Abbildung [ref:aufbau_sender] wird gezeigt, aus welchen Komponenten man einen
 
 %[class:N]
 <indepth>
-Wenn ein Mischer zwei Signale zusammenfügt, dann entspricht das mathematisch einer Multiplikation der beiden Signale. Daher findet sich auch das Malkreuz im Block-Symbol für den Mischer wieder. Wie ein Mischer genau funktioniert, ist Inhalt des Kurses für die Klasse A.
+Wenn ein Mischer zwei Signale zusammenfügt, dann entspricht das mathematisch einer Multiplikation der beiden Signale. Daher findet sich auch das Malkreuz im Block-Symbol für den Mischer wieder. Wie ein Mischer genau funktioniert, ist Inhalt des Abschnitts [sec:mischer].
 </indepth>
 %[/class]
 
