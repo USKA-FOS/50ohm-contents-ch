@@ -22,13 +22,6 @@ Bei SSB ist zu beachten, das richtige Seitenband (LSB oder USB) auszuwählen. Im
 Bei digitalen Übertragungsverfahren wird auch unterhalb von $\qty{10}{\mega\hertz}$ immer das obere Seitenband verwendet!
 </attention>
 
-%[class:N]
-%<tip>
-% Tip für HB3 nicht zutreffend und auskommentiert.
-%Aufgrund der erlaubten Bänder kann von Klasse N immer USB verwendet werden.
-%</tip>
-%[/class]
-
 [question:NE209]
 [question:BC202]
 [question:BC203]
