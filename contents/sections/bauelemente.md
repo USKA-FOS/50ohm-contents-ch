@@ -19,7 +19,7 @@ In der Abbildung [ref:n_bauelemente_spule] sind verschiedene Spulen gezeigt. Ein
 [question:NC301]
 
 ---
-In der Abbildung [ref:n_bauelemente_transistor] finden sich verschiedene Transistoren. Ein Transistor kann, je nach Verschaltung, als elektrischer Schalter oder als Verstärker eingesetzt werden. Das Schaltzeichen des Transistors ist in den Fragen der Klasse N das einzige Bauteil mit drei Anschlüssen.
+In der Abbildung [ref:n_bauelemente_transistor] finden sich verschiedene Transistoren. Ein Transistor kann, je nach Verschaltung, als elektrischer Schalter oder als Verstärker eingesetzt werden. Das Schaltzeichen des Transistors ist in den Fragen bis jetzt das einzige Bauteil mit drei Anschlüssen.
 
 <margin>
 [photo:208:n_bauelemente_transistor:Schaltzeichen und Bauformen von Transistoren]
