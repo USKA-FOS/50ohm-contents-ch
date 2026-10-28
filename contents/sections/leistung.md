@@ -16,7 +16,7 @@ Auch diese Formel und die unten folgenden Umstellungen dieser Formel muss man ni
 [question:NB602]
 [question:NB603]
 
-Sind Leistung und Strom bekannt, so kann man die Spannung durch folgende Umstellung berechnen, die allerdings für die Prüfung der Klasse N nicht benötigt wird:
+Sind Leistung und Strom bekannt, so kann man die Spannung durch folgende Umstellung berechnen:
 
 $ U = \dfrac{P}{I} $
 
