@@ -87,6 +87,15 @@ $$
 S = \frac{P_\text{EIRP}}{4\pi d^2}
 $$
 
+<div style="text-align: center;">
+
+$$
+S = \frac{P_\text{EIRP}}{4\pi d^2}
+$$
+
+</div>
+
+
 Im Fernfeld gilt für die Effektivwerte der elektrischen Feldstärke $E$ und der magnetischen Feldstärke $H$:
 
 $$S=E\cdot H=\frac{E^2}{Z_0}$$
