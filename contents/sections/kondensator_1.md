@@ -125,13 +125,13 @@ Je nach Aufbau unterscheidet man außerdem:
 [picture:923:e_aufbau_keramik_c: Keramikkondensator]
 </margin>
 
-*Elektrolytkondensatoren* (kurz ELKO) enthalten eine dünne, aufgerauhte ALU-Folie, die in einen Elektrolyten (z.B. Borax) eingetaucht ist. Dabei verursacht der Elektrolyt eine chemische Oxidation der Aluminiumoberfläche. Die entstehende Oxidschicht ist sehr dünn und deshalb steigt die Kapazität bei geringer Baugröße sehr stark an. Allerdings hat die dünne Schicht nur eine begrenzte Spannungsfestigkeit, die auf dem ELKO anggeben wird.
+*Elektrolytkondensatoren* (kurz ELKO), wie in Abbildung [ref:e_spannungsfestigkeit_elkos] gezeigt, enthalten eine dünne, aufgerauhte ALU-Folie, die in einen Elektrolyten (z.B. Borax) eingetaucht ist. Dabei verursacht der Elektrolyt eine chemische Oxidation der Aluminiumoberfläche. Die entstehende Oxidschicht ist sehr dünn und deshalb steigt die Kapazität bei geringer Baugröße sehr stark an. Allerdings hat die dünne Schicht nur eine begrenzte Spannungsfestigkeit, die auf dem ELKO anggeben wird.
 Elektrolytkondensatoren dürfen nur an Gleichspannung betrieben werden. Die Polung ist deshalb zu beachten, da sich sonst die Oxidschicht abbaut und somit die Spannungsfestigkeit sinkt. Der Kondensator wird zerstört. Alle anderen Kondensatoren können auch an Wechselspannung angeschlossen werden.
 [question:EC207]
 
-%<margin>
-%TODO: Bild Elko
-%</margin>
+<margin>
+[photo:198:e_spannungsfestigkeit_elkos:Elektrolytkondensatoren mit den Spannungsfestigkeiten 16 Volt und 25 Volt]
+</margin>
 
 Für Folien-Wickelkondensatoren werden Kunststoffe in speziellen Verfahren zu extrem dünnen Folien verarbeitet, mit Elektroden versehen und anschließend entweder zu einem Wickel aufgewickelt oder aus einzelnen Lagen geschichtet und zu einem Kondensator zusammengefügt, wie in Abbildung [ref:e_aufbau_wickel_c] dargestellt. Neben Keramikkondensatoren und Elektrolytkondensatoren zählen sie zu den am häufigsten eingesetzten Kondensatorbauarten.
 
