@@ -69,15 +69,15 @@ Nach der zuvor genannten ETSI-Formel ergibt sich:
 
 $$43 + 10 \cdot \log_{10}(100) = 43 + 20 = 63\mathrm{dB}$$
 
-Der Grenzwert ist der weniger strenge der beiden Werte −63 dBc und −50 dBc, also **−63 dBc**.
-Das bedeutet: Die Nebenaussendung darf höchstens 63 dB unter der Bezugsleistung liegen.
+Der Grenzwert ist der weniger strenge der beiden Werte −63 dBc und −50 dBc, also **−50 dBc**.
+Das bedeutet: Die Nebenaussendung darf höchstens 50 dB unter der Bezugsleistung liegen.
 
 Umgerechnet in eine absolute Leistung:
 
-$$P_{\text{Neben}} = 100\mathrm{W} \cdot 10^{-63/10}= 0{,}005\mathrm{mW}= \boxed{0{,}05\mathrm{\micro\watt}}$$
+$$P_{\text{Neben}} = 100\mathrm{W} \cdot 10^{-50/10}= \boxed{1\mathrm{\milli\watt}}$$
 
 **Praxisergebnis:**
-Bei einem Sender mit 100 W PEP liegt der Grenzwert für die Nebenaussendungen bei **$\qty{50}{\micro\watt}$**.
+Bei einem Sender mit 100 W PEP liegt der Grenzwert für die Nebenaussendungen bei **$\qty{1}{\milli\watt}$**.
 
 **Rechenaufgabe**
 
@@ -111,7 +111,7 @@ Für den VHF/UHF/SHF-Bereich über $\qty{30}{\mega\hertz}$ gilt, dass Nebenausse
 [question:AJ225]
 
 %TODO BILD VON DL1COM EINBAUEN
-Mit einem Spektrumanalysator lässt sich im Modus spurious emissions eine Messung der Oberwellen bzw. Harmonischen (engl. harmonics) durchführen, wie in Abbildung [ref:a_uagw1] und [ref:a_uagw] dargestellt. Der Spektrumanalysator erfasst dabei automatisch den Pegel des Trägers sowie die Unterdrückung der Harmonischen und zeigt diese zusätzlich auf dem Bildschirm an. Wenn man ein Gerät selbst baut, ist es entscheidend, durch Messungen sicherzustellen, dass die vorgeschriebenen Grenzwerte eingehalten werden. Ein kommerzieller Funkgerätehersteller bestätigt mit der CE-Erklärung zwar die Einhaltung dieser Grenzwerte, dennoch kommt es vor, dass einzelne Geräte die Vorgaben nicht erfüllen – in solchen Fällen kann das BAKOM deren Betrieb, Import und Verkauf verbieten.
+Mit einem Spektrumanalysator lässt sich im Modus spurious emissions eine Messung der Oberwellen bzw. Harmonischen (engl. harmonics) durchführen, wie in Abbildung [ref:a_uagw1] und [ref:a_uagw] dargestellt. Der Spektrumanalysator erfasst dabei automatisch den Pegel des Trägers sowie die Unterdrückung der Harmonischen und zeigt diese zusätzlich auf dem Bildschirm an. Wenn man ein Gerät selbst baut, ist es entscheidend, durch Messungen sicherzustellen, dass die vorgeschriebenen Grenzwerte eingehalten werden. Ein kommerzieller Funkgerätehersteller bestätigt mit der CE-Erklärung zwar die Einhaltung diemillies vor, dass einzelne Geräte die Vorgaben nicht erfüllen – in solchen Fällen kann das BAKOM deren Betrieb, Import und Verkauf verbieten.
 
 Unerwünschte Aussendungen entstehen nicht nur durch Oberwellen, sondern können auch in der Frequenzaufbereitung von Sendern auftreten – etwa durch unerwünschte Mischprodukte, durch Schwankungen in der Versorgungsspannung oder durch eine Übersteuerung des NF-Signals. Das wollen wir uns im Folgenden noch etwas genauer anschauen. 
 
