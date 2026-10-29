@@ -74,7 +74,7 @@ Das bedeutet: Die Nebenaussendung darf höchstens 63 dB unter der Bezugsleistung
 
 Umgerechnet in eine absolute Leistung:
 
-$$P_{\text{Neben}} = 100\mathrm{W} \cdot 10^{-63/10}= 0{,}005\mathrm{W}= \boxed{0{,}05\mathrm{mW}}$$
+$$P_{\text{Neben}} = 100\mathrm{W} \cdot 10^{-63/10}= 0{,}005\mathrm{mW}= \boxed{0{,}05\mathrm{\micro\watt}}$$
 
 **Praxisergebnis:**
 Bei einem Sender mit 100 W PEP liegt der Grenzwert für die Nebenaussendungen bei **$\qty{50}{\micro\watt}$**.
