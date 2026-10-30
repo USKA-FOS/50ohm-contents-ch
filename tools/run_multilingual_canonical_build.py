@@ -279,12 +279,13 @@ def validate_release_request(
         raise ValueError("A release requires the complete de/fr/it build.")
 
 
-def clean_complete_build_root() -> None:
-    if BUILD_ROOT.is_symlink() or BUILD_ROOT.is_file():
-        BUILD_ROOT.unlink()
-    elif BUILD_ROOT.exists():
-        shutil.rmtree(BUILD_ROOT)
-    BUILD_ROOT.mkdir(parents=True, exist_ok=True)
+def clean_complete_build_root(build_root: Path | None = None) -> None:
+    build_root = BUILD_ROOT if build_root is None else build_root
+    if build_root.is_symlink() or build_root.is_file():
+        build_root.unlink()
+    elif build_root.exists():
+        shutil.rmtree(build_root)
+    build_root.mkdir(parents=True, exist_ok=True)
 
 
 def tree_digest(root: Path) -> str:
@@ -304,11 +305,14 @@ def build_release_manifest(
     feedback_url: str,
     generator_seed: int,
     review_workflow: bool = False,
+    shuffle_answers: bool = False,
     sources: dict[str, dict[str, Any]],
+    build_root: Path | None = None,
 ) -> dict[str, Any]:
+    build_root = BUILD_ROOT if build_root is None else build_root
     artifacts = {}
     for language in LANGUAGES:
-        language_root = BUILD_ROOT / language
+        language_root = build_root / language
         files = path_manifest(language_root)
         if not files:
             raise RuntimeError(f"Release build is empty for language={language}.")
@@ -328,6 +332,7 @@ def build_release_manifest(
         "sources": sources,
         "generator_seed": generator_seed,
         "review_workflow": review_workflow,
+        "shuffle_answers": shuffle_answers,
         "languages": list(LANGUAGES),
         "artifacts": artifacts,
     }
@@ -353,7 +358,8 @@ def validate_release_repository(repository: Path, release_id: str) -> None:
         raise RuntimeError(f"Release tag already exists: {release_id}")
 
 
-def promote_release(build_root: Path, release_output: Path, release_id: str) -> dict[str, Any]:
+def promote_release(build_root: Path, release_output: Path, release_id: str, *,
+                    review_root: Path | None = None) -> dict[str, Any]:
     release_output = release_output.resolve()
     validate_release_repository(release_output, release_id)
     promoted_names = (*LANGUAGES, RELEASE_MANIFEST_NAME)
@@ -389,7 +395,7 @@ def promote_release(build_root: Path, release_output: Path, release_id: str) -> 
             shutil.rmtree(backup_root)
 
     for language in LANGUAGES:
-        sync_review_build(language, release_output / language)
+        sync_review_build(language, release_output / language, review_root=review_root)
     return {
         "repository": str(release_output),
         "branch": git_output(release_output, "branch", "--show-current"),
@@ -1197,6 +1203,7 @@ def build_config(
     *,
     generator_seed: int,
     review_workflow: bool = False,
+    shuffle_answers: bool = False,
     release_id: str | None = None,
     beta: bool = False,
     feedback_url: str = DEFAULT_FEEDBACK_URL,
@@ -1210,6 +1217,7 @@ def build_config(
         "random_seed": generator_seed,
         "generator_status": False,
         "review_workflow": review_workflow,
+        "shuffle_answers": shuffle_answers,
     }
     if release_id is not None:
         config.update(
@@ -1222,8 +1230,8 @@ def build_config(
     return config
 
 
-def sync_review_build(language: str, output_root: Path) -> Path:
-    target_root = REVIEW_BUILD_ROOT / language
+def sync_review_build(language: str, output_root: Path, *, review_root: Path | None = None) -> Path:
+    target_root = (REVIEW_BUILD_ROOT if review_root is None else review_root) / language
     target_root.parent.mkdir(parents=True, exist_ok=True)
     if target_root.is_symlink() or target_root.exists():
         if target_root.is_symlink() or target_root.is_file():
@@ -1238,17 +1246,21 @@ def run_generator(
     language: str,
     *,
     validation_root: Path,
+    build_root: Path | None = None,
+    review_root: Path | None = None,
     generator_seed: int,
     review_workflow: bool = False,
+    shuffle_answers: bool = False,
     release_id: str | None = None,
     beta: bool = False,
     feedback_url: str = DEFAULT_FEEDBACK_URL,
 ) -> dict[str, Any]:
+    build_root = BUILD_ROOT if build_root is None else build_root
     validation_root.mkdir(parents=True, exist_ok=True)
     runner_root = validation_root / f"generator-{language}"
-    output_root = BUILD_ROOT / language
+    output_root = build_root / language
     validate_staged_generator_input(INPUT_ROOT / language)
-    BUILD_ROOT.mkdir(parents=True, exist_ok=True)
+    build_root.mkdir(parents=True, exist_ok=True)
     if runner_root.exists():
         shutil.rmtree(runner_root)
     if output_root.exists():
@@ -1261,6 +1273,7 @@ def run_generator(
             output_root,
             generator_seed=generator_seed,
             review_workflow=review_workflow,
+            shuffle_answers=shuffle_answers,
             release_id=release_id,
             beta=beta,
             feedback_url=feedback_url,
@@ -1283,7 +1296,7 @@ def run_generator(
         raise RuntimeError(
             f"Generator build failed for {language}; see log {log_path}"
         )
-    review_output_root = sync_review_build(language, output_root)
+    review_output_root = sync_review_build(language, output_root, review_root=review_root)
     return {
         "exit_code": completed.returncode,
         "log": str(log_path),
@@ -1295,8 +1308,10 @@ def run_generator(
     }
 
 
-def compare_outputs(builds: dict[str, dict[str, Any]], languages: tuple[str, ...]) -> dict[str, Any]:
-    manifests = {language: path_manifest(BUILD_ROOT / language) for language in languages}
+def compare_outputs(builds: dict[str, dict[str, Any]], languages: tuple[str, ...], *,
+                    build_root: Path | None = None) -> dict[str, Any]:
+    build_root = BUILD_ROOT if build_root is None else build_root
+    manifests = {language: path_manifest(build_root / language) for language in languages}
     result: dict[str, Any] = {}
     for language in languages:
         manifest = manifests[language]
@@ -1327,12 +1342,19 @@ def run(
     languages: tuple[str, ...] = LANGUAGES,
     generator_seed: int = DEFAULT_GENERATOR_SEED,
     review_workflow: bool = False,
+    shuffle_answers: bool = False,
     release_id: str | None = None,
     release_output: Path | None = None,
     beta: bool = False,
     feedback_url: str = DEFAULT_FEEDBACK_URL,
     question_pool_tag: str | None = None,
 ) -> dict[str, Any]:
+    # Keep training artifacts and preview links outside the normal Beta trees.
+    build_root = BUILD_ROOT.with_name("build-training") if shuffle_answers else BUILD_ROOT
+    review_root = REVIEW_BUILD_ROOT.with_name("build-training") if shuffle_answers else REVIEW_BUILD_ROOT
+    if (shuffle_answers and release_output is not None
+            and release_output.resolve() == (WORKSPACE_ROOT / "50ohm-site-releases").resolve()):
+        raise ValueError("Training builds cannot replace the Beta release checkout; use a separate repository.")
     validate_release_request(
         release_id=release_id,
         release_output=release_output,
@@ -1357,7 +1379,7 @@ def run(
     with question_pool_catalogs(question_pool_tag) as question_catalogs:
         with language_locks(languages):
             if not skip_build and tuple(languages) == LANGUAGES:
-                clean_complete_build_root()
+                clean_complete_build_root(build_root)
             for language in languages:
                 staged[language] = stage_language(
                     connection,
@@ -1369,14 +1391,17 @@ def run(
                     builds[language] = run_generator(
                         language,
                         validation_root=run_validation_root,
+                        build_root=build_root,
+                        review_root=review_root,
                         generator_seed=generator_seed,
                         review_workflow=review_workflow,
+                        shuffle_answers=shuffle_answers,
                         release_id=release_id,
                         beta=beta,
                         feedback_url=feedback_url,
                     )
     connection.close()
-    comparison = compare_outputs(builds, languages) if builds else {}
+    comparison = compare_outputs(builds, languages, build_root=build_root) if builds else {}
     release: dict[str, Any] | None = None
     if release_id is not None:
         assert release_sources is not None
@@ -1387,9 +1412,11 @@ def run(
             feedback_url=feedback_url,
             generator_seed=generator_seed,
             review_workflow=review_workflow,
+            shuffle_answers=shuffle_answers,
             sources=release_sources,
+            build_root=build_root,
         )
-        manifest_path = BUILD_ROOT / RELEASE_MANIFEST_NAME
+        manifest_path = build_root / RELEASE_MANIFEST_NAME
         write_json(manifest_path, manifest)
         release = {
             "manifest": str(manifest_path),
@@ -1397,10 +1424,10 @@ def run(
             "metadata": manifest,
         }
         if release_output is not None:
-            promotion = promote_release(BUILD_ROOT, release_output, release_id)
+            promotion = promote_release(build_root, release_output, release_id, review_root=review_root)
             for language in LANGUAGES:
                 builds[language]["output_root"] = promotion["languages"][language]
-                builds[language]["review_output_root"] = str(REVIEW_BUILD_ROOT / language)
+                builds[language]["review_output_root"] = str(review_root / language)
             release = {
                 "manifest": promotion["manifest"],
                 "promoted": True,
@@ -1409,6 +1436,7 @@ def run(
             }
     report = {
         "run_id": run_id,
+        "build_root": str(build_root),
         "validation_root": str(run_validation_root),
         "report_path": str(run_validation_root / "summary.json"),
         "database": str(DB_PATH),
@@ -1418,6 +1446,7 @@ def run(
         "database_state": db_info["state"],
         "generator_seed": generator_seed,
         "review_workflow": review_workflow,
+        "shuffle_answers": shuffle_answers,
         "staged": staged,
         "builds": builds,
         "comparison": comparison,
@@ -1430,6 +1459,10 @@ def run(
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--skip-build", action="store_true")
+    parser.add_argument(
+        "--shuffle-answers", action="store_true",
+        help="Shuffle answers on page load; write separate work/build-training/ output (disabled by default).",
+    )
     parser.add_argument(
         "--enable-review-workflow",
         action="store_true",
@@ -1490,6 +1523,7 @@ def main() -> None:
             languages=languages,
             generator_seed=args.generator_seed,
             review_workflow=args.enable_review_workflow,
+            shuffle_answers=args.shuffle_answers,
             release_id=args.release_id,
             release_output=args.release_output.expanduser().resolve() if args.release_output else None,
             beta=args.beta,

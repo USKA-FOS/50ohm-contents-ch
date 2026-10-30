@@ -743,3 +743,31 @@ Its role is to re-inject:
 - top-level `pruned`
 
 into a cleaned build catalog for the current review generator.
+
+## Optional browser answer shuffling
+
+Pass `--shuffle-answers` to `run_multilingual_canonical_build.py` to shuffle
+answers in the browser on page load, independently of `--generator-seed`.
+It defaults to disabled. Generated configuration, run report and release
+manifest record `shuffle_answers`. The generator emits the setting in its
+JavaScript asset. Canonical questions are unchanged.
+
+To build a separate training variant without replacing the current Beta,
+run from the orchestrator:
+
+```bash
+pushd 50ohm-contents-ch >/dev/null
+uv run --locked python tools/run_multilingual_canonical_build.py \
+  --release-id training-2026-10-28 --beta --shuffle-answers
+popd >/dev/null
+```
+
+This writes `50ohm-contents-ch/work/build-training/{de,fr,it}/` and its manifest.
+Normal builds keep `work/build/`; neither build cleans or replaces the other.
+Local preview links are also separated: `sites/app/build-training/` versus
+`sites/app/build/`. These are output links, not deployed server routes.
+Do **not** pass `--release-output ../50ohm-site-releases` for this variant:
+the wrapper rejects that destination when shuffling is enabled. Deploy the training build
+separately under `/isq/training/{de,fr,it}/`. Server route configuration and
+publication are separate steps; this command does not change the live server.
+Omitting `--tag` consumes the current local canonical question pool.

@@ -294,3 +294,64 @@ def test_promotion_rejects_existing_release_tag(tmp_path: Path) -> None:
 
     with pytest.raises(RuntimeError, match="Release tag already exists"):
         build.promote_release(build_root, release_repository, "beta-test-1")
+
+
+@pytest.mark.parametrize("enabled", [False, True])
+def test_browser_shuffle_configuration_and_cli(enabled, monkeypatch):
+    config = build.build_config(Path("input"), Path("output"), generator_seed=50,
+                                shuffle_answers=enabled)
+    assert config["shuffle_answers"] is enabled
+    captured = {}
+    def capture(**kwargs):
+        captured.update(kwargs)
+        return {}
+    monkeypatch.setattr(build, "run", capture)
+    monkeypatch.setattr(build.sys, "argv", ["build"] + (["--shuffle-answers"] if enabled else []))
+    build.main()
+    assert captured["shuffle_answers"] is enabled
+
+
+def test_training_and_beta_builds_preserve_each_other(tmp_path, monkeypatch):
+    from contextlib import nullcontext
+
+    normal = tmp_path / "work/build"
+    preview = tmp_path / "sites/build"
+    monkeypatch.setattr(build, "BUILD_ROOT", normal)
+    monkeypatch.setattr(build, "REVIEW_BUILD_ROOT", preview)
+    monkeypatch.setattr(build, "DB_PATH", Path(":memory:"))
+    monkeypatch.setattr(build, "reset_runtime_state", lambda: None)
+    monkeypatch.setattr(build, "validation_run_root", lambda _: tmp_path / "validation")
+    monkeypatch.setattr(build, "prepare_canonical_database", lambda: {
+        "counts": {}, "reused": True, "reason": "test", "state": {},
+    })
+    monkeypatch.setattr(build, "question_pool_catalogs", lambda _: nullcontext({}))
+    monkeypatch.setattr(build, "language_locks", lambda _: nullcontext())
+    monkeypatch.setattr(build, "stage_language", lambda *a, **k: {})
+
+    def generate(language, *, build_root, review_root, shuffle_answers, **kwargs):
+        output = build_root / language
+        output.mkdir(parents=True)
+        (output / "index.html").write_text("training" if shuffle_answers else "beta")
+        build.sync_review_build(language, output, review_root=review_root)
+        return {"exit_code": 0}
+
+    monkeypatch.setattr(build, "run_generator", generate)
+    build.run()
+    beta_before = build.tree_manifest(normal)
+    training_report = build.run(shuffle_answers=True)
+    training = normal.with_name("build-training")
+    training_before = build.tree_manifest(training)
+    assert build.tree_manifest(normal) == beta_before
+    assert training_report["build_root"] == str(training)
+    assert (preview / "fr").resolve() == normal / "fr"
+    assert (preview.with_name("build-training") / "fr").resolve() == training / "fr"
+    build.run()
+    assert build.tree_manifest(training) == training_before
+    assert (preview.with_name("build-training") / "fr").resolve() == training / "fr"
+
+
+def test_training_rejects_beta_release_checkout_before_any_writes(monkeypatch):
+    monkeypatch.setattr(build, "reset_runtime_state", lambda: pytest.fail("Must not write"))
+    with pytest.raises(ValueError, match="cannot replace the Beta"):
+        build.run(shuffle_answers=True, release_id="training-test",
+                  release_output=build.WORKSPACE_ROOT / "50ohm-site-releases")
