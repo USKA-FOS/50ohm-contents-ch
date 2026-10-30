@@ -1,4 +1,3 @@
-**IN BEARBEITUNG**
 
 [index:Oberwellen] [index:Harmonische] [index:Nebenaussendungen]
 
