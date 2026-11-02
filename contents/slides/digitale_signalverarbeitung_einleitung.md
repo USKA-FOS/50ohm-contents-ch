@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung in Arbeit 
+
 * Im Bereich der Funktechnik spricht man bei Geräten, die mittels digitaler Signalverarbeitung arbeiten von sogenannten SDR-Geräten.
 * *SDR* steht dabei  für Software Defined Radio.
 * In diesen Geräten ist zumindest ein Teil der Signalverarbeitung in Software realisiert.
@@ -20,7 +22,7 @@
 [picture:411:e_digitale_signalverarbeitung:Einfache Darstellung einer Sinuswelle aus $\num{16}$ Samples und $\num{7}$ Werten]
 </right>
 <note>
-* Mehr dazu in Klasse A
+* Mehr dazu folgt im HB9-Kurs
 </note>
 
 ---
