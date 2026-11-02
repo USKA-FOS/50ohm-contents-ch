@@ -1,4 +1,4 @@
-* In Klasse N und E wurden bereits Grundlagen zur Ionosphäre, Sonnenfleckenaktivität, "Tote Zone" und die ionosphärischen Regionen behandelt
+* Im Abschnitt  [sec:ionosphaere_2] In Klasse N und E wurden bereits Grundlagen zur Ionosphäre, Sonnenfleckenaktivität, "Tote Zone" und die ionosphärischen Regionen behandelt
 * Die UV-Strahlung der Sonne ist für die Ionisierung von Molekülen in der Ionosphäre verantwortlich.
 
 ---
