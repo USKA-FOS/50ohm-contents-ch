@@ -1,3 +1,4 @@
+% ARK: Grundhelvetisierung in Arbeit
 
 * Bei der Berechnung nur die Energie berücksichtigen, die an der Antenne ankommt
 * Verluste $a$ durch Kabel, Stecker oder andere Bauteile abziehen
@@ -7,7 +8,7 @@
 ---
 ### ERP
 
-Aus Klasse N bekannt:
+Aus dem HB3-Kurs bekannt:
 
 $P_{\mathrm{ERP}} = (P_{\mathrm{Sender}} - P_{\mathrm{Verluste}}) \cdot G_{\mathrm{Antenne}}$
 
