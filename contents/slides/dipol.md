@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung in Arbeit
+
 <left>
 [picture:589:n_dipol:Darstellung einer Dipol-Antenne]
 </left>
