@@ -1,4 +1,6 @@
-* Im Abschnitt  [sec:ionosphaere_2] In Klasse N und E wurden bereits Grundlagen zur Ionosphäre, Sonnenfleckenaktivität, "Tote Zone" und die ionosphärischen Regionen behandelt
+% ARK: Grundhelvetisierung abgeschlossen 
+
+* Im HB3-Kurs haben wir bereits Grundlagen zur Ionosphäre, Sonnenfleckenaktivität, "Tote Zone" und die ionosphärischen Regionen behandelt.
 * Die UV-Strahlung der Sonne ist für die Ionisierung von Molekülen in der Ionosphäre verantwortlich.
 
 ---
@@ -10,7 +12,7 @@
 </left>
 <right>
 * Die wichtigsten Regionen der Ionosphäre sind die D-, E- und F-Region
-* In der Klasse A, es ist wichtig, ihre Höhenbereiche zu kennen
+* Für HB9-er, ist es wichtig, die Höhenbereiche der Ionosphäre zu kennen
 * Sie variieren je nach Tageszeit und Jahreszeit
 </right>
 
@@ -36,8 +38,8 @@
 [question:AH202]
 ---
 * Das $\qty{40}{\meter}$-Band ist ein zuverlässiges Band für die Kommunikation
-* Ebenso wie das $\qty{20}{\meter}$-Band nur Klasse A vorbehalten
-* Das $\qty{40}{\meter}$-Band ist besonders für die Kommunikation über große Entfernungen innerhalb Deutschlands geeignet, wie z. B. von Hamburg nach München
+* Ebenso wie das $\qty{20}{\meter}$-Band HB9 vorbehalten
+* Das $\qty{40}{\meter}$-Band ist besonders für die Kommunikation über große Entfernungen innerhalb Europas geeignet, wie z. B. von Bern nach Kopenhagen 
 
 ---
 [question:AH201]
