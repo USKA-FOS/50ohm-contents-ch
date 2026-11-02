@@ -1,5 +1,7 @@
+%ARK: Grundhelvetisierung in Arbeit 
+
 * Drei weitere grundlegende Bauteile
-* Funktionsweise ist Stoff für Klasse E und A
+* Funktionsweise ist Stoff für HB3 und HB9
 * Für die Prüfung: Schaltzeichen erkennen
 
 ---
