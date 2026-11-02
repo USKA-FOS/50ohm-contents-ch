@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung in Arbeit 
+
 --- data-transition="none"
 ### 1. Mikrofon
 
@@ -32,7 +34,7 @@
 * Der Hochfrequenzträger ist amplitudenmoduliert
 </right>
 <note>
-Wenn ein Mischer zwei Signale zusammenfügt, dann entspricht das mathematisch einer Multiplikation der beiden Signale. Daher findet sich auch das Malkreuz im Block-Symbol für den Mischer wieder. Wie ein Mischer genau funktioniert, ist Inhalt des Kurses für die Klasse A.
+Wenn ein Mischer zwei Signale zusammenfügt, dann entspricht das mathematisch einer Multiplikation der beiden Signale. Daher findet sich auch das Malkreuz im Block-Symbol für den Mischer wieder. Wie ein Mischer genau funktioniert, ist Inhalt des Kurses für die HB9 Prüfung.
 </note>
 
 --- data-transition="none"
