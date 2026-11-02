@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung in Arbeit 
+
 ## Durchlassrichtung
 
 * Elektronenfluss von N nach P
@@ -41,7 +43,7 @@ Je negativer die Diodenspannung, umso mehr dehnt sich die Raumladungszone aus un
 * $\rightarrow$ *Clipping*
 
 <note>
-Schwellspannungen sind Klasse E Stoff
+Schwellspannungen sind Stoff des HB3-Kurses
 </note>
 
 --- style="font-size: smaller;"
