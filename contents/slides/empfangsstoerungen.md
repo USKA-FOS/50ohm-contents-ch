@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung in Arbeit 
+
 ## Suche im eigenen Haushalt
 
 Häufige Ursachen
@@ -5,6 +7,7 @@ Häufige Ursachen
 * Schaltnetzteile
 * LED-Leuchten
 * Powerline Communication
+* 
 
 <note>
 * Verursacher eingrenzen
@@ -21,14 +24,13 @@ Häufige Ursachen
 ## Hinnehmbare Störungen
 
 * Versuchen, die Grenzwerte von Geräten in der Nachbarschaft festzustellen
-* Werden die Grenzwerte (EMVG und FuAG) eingehalten, muss die Störung hingenommen werden
+* Werden die Grenzwerte (NISV, ETSI EN-301783) eingehalten, muss die Störung hingenommen werden
 * Evtl. hat der Nachbar Kooperationsbereitschaft zur Behebung
 
 <note>
-* EMVG: Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln (EMVG)
-* FuAG: Funkanlagengesetzes
-* Das DARC-Referat für elektromagnetische Verträglichkeit hat Messgeräte
-* Hier DARC-Werbung machen
+* NISV, ETSI EN-301783: Verordnungen und Normen über die elektromagnetische Verträglichkeit
+* USKA EMV Gtuppe für elektromagnetische Verträglichkeit
+* Hier USKA-Werbung machen
 </note>
 
 ---
@@ -36,11 +38,13 @@ Häufige Ursachen
 
 ---
 
-### BNetzA einbeziehen
+### USKA und BAKOM einbeziehen
 
-* Über Funkstörannahme der Bundesnetzagentur
+* Eigene Wohnung oder eigenes Haus stromlos schalten, um sich selber als Störquelle auszuschließen 
 * Protokoll über Störungen erstellen
-* Zeitpunkt, Art und vermutete Quelle
+* Zeitpunkt, Art der Störung und vermutete Quelle dokumentieren
+* Kontakt aufnehmen mit der USKA EMV-Gruppe
+* Meldung ans BAKOM 
 
 ---
 [question:VE309]
