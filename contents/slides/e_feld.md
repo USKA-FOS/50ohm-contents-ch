@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung ausgeführt 
+
 ## Homogenes elektrisches Feld
 
 <left>
@@ -20,7 +22,7 @@
 </right>
 <note>
 * homogen Feld: gleichgerichtetes Feld, da alle Feldlinien in gleicher Richtung verlaufen
-* Die Kapazität wird erst in Klasse A berechnet
+* Die Kapazität wird erst im Kurs für HB9 berechnet
 </note>
 
 ---
@@ -67,7 +69,7 @@ $U = \qty{6e3}{\volt} = \qty{6}{\kilo\volt}$
 [picture:884:e_feldlinien_vertikalantenne:Feldlinien an einer Vertikalantenne]
 </right>
 <note>
-* Für die Klasse E reicht die Erkennung aus
+* Für die HB3-Prüfung reicht die Erkennung aus
 </note>
 ---
 [question:EB105]
