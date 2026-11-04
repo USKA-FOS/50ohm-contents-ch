@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung kontrolliert. Der Begriff Klasse E passt hier.
+
 ## Polarmodulation: Grundidee
 
 - $I(t)$ und $Q(t)$ werden in Amplitude $A(t)$ und Phase $\varphi(t)$ umgerechnet.
