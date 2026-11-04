@@ -1,4 +1,4 @@
-% ARK: Grundhelvetisierung in Arbeit
+% ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen und BEMFV auskommnentiert 
 
 * Bei der Berechnung nur die Energie berücksichtigen, die an der Antenne ankommt
 * Verluste $a$ durch Kabel, Stecker oder andere Bauteile abziehen
@@ -116,6 +116,7 @@ Gewinn: $\qty{10}{\dB}$, also auch Faktor $\num{10}$
 
 ---
 [question:EG508]
+
 ---
 ### Lösungsweg
 
