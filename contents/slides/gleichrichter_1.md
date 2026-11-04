@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung in Arbeit 
+
 ### Gleichrichter
 
 <left>
@@ -13,7 +15,7 @@
 
 <left>
 * Damit "schneiden" wir von der Wechselspannung die negative Halbwelle ab.
-* Weitere Bauelemente sind notwendig um aus den positiven Halbwellen eine stabile Gleichspannung zu machen, diese lernen wir im Klasse A Kurs kennen.
+* Weitere Bauelemente sind notwendig um aus den positiven Halbwellen eine stabile Gleichspannung zu machen, diese lernen wir im HB9-Kurs kennen.
 </left>
 <right>
 [picture:798:e_einweggleichrichter_ue:Eingangsspannung Einweggleichrichter]
