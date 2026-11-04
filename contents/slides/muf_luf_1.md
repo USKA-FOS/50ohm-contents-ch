@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung 
+
 ## Maximal Usable Frequency (MUF)
 
 <left>
@@ -18,7 +20,7 @@ $f_c$ ist die kritische Frequenz bei der senkrecht auf die Ionosphäre auftreten
 
 <note>
 * sin(α) = 1 → MUF = f_c
-* In Klasse E keine Berechnung, nur Verständnisfragen
+* Für HB3: keine Berechnung, nur Verständnisfragen
 </note>
 
 ---
