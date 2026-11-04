@@ -1,3 +1,6 @@
+%ARK: Grundhelvetisierung durchgeführt, Fragen mit den Fragen auf der Webseite abgeglichen.
+%ARK: Die Fragen BC101, BC102 und BC103 kommen auf der Webseite nicht vor. Da sie passen wurden sie auf den Slides stehengelassen. 
+
 * Frequenzbereich elektromagnetischer Wellen ist sehr groß
 * Funkwellen nutzen nur ein Teil dieses Spektrums
 * Überlicherweise zwischen $\qty{30}{\kilo\hertz}$ und $\qty{300}{\giga\hertz}$
