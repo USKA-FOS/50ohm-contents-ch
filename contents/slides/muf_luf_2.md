@@ -1,7 +1,9 @@
+%ARK: Grundhelvetisierung 
+
 ## Höchste brauchbare Frequenz (MUF)
 
 <left>
-* Klasse E: Höchste Frequenz mit der eine Verbindung über die Raumwelle hergestellt werden kann
+* HB3: Höchste Frequenz mit der eine Verbindung über die Raumwelle hergestellt werden kann
 </left>
 <right>
 [picture:997:e_muf_luf2:Simulation der Sprungdistanzen für verschiedene Frequenzen und einer MUF bei ca. $\qty{7,5}{\mega\hertz}$ in einer Augustnacht 2024 bei einem Abstrahlwinkel von $\qty{45}{\degree}$]
@@ -12,7 +14,7 @@
 ## Höchste brauchbare Frequenz (MUF)
 
 <left>
-* Klasse A: Abhängig vom Abstrahlwinkel $\alpha$
+* HB9: Abhängig vom Abstrahlwinkel $\alpha$
 </left>
 <right>
 [picture:870:e_muf_winkel:Die Winkel zur Berechnung der MUF]
