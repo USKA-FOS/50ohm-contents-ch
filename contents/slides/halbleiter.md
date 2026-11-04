@@ -1,9 +1,11 @@
+%ARK: Grundhelvetisierung durchgeführt
+
 * Materialen, die nur unter bestimmten Umständen leiten können
 * Weisen Eigenschaften von Leitern als auch von Nichtleitern auf
 * Häufige Halbleiterelemente: Silizium oder Germanium
 
 <note>
-Viel mehr dazu in Klasse E und A
+Viel mehr dazu im HB9-Kurs
 </note>
 
 ---
