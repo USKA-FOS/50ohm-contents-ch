@@ -11,7 +11,7 @@
 ---
 
 * Ist man sich beim Namen eines Funkpartners unsicher, kann man auf der Internetseite QRZ.COM nach dem Rufzeichen suchen
-* Dort werden Rufzeichen, Name und, sofern nicht widersprochen, die Anschrift angezeig
+* Dort werden Rufzeichen, Name und, sofern nicht widersprochen, die Anschrift angezeigt
 
 <note>
 Einbettung der Webseite zur Rufzeichensuche
