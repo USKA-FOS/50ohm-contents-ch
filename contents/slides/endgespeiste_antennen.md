@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung durchgeführt
+
 <left>
 [picture:615:n_antennenformen_schaltbild_endfed:Schaltbild einer endgespeisten Antenne]
 </left>
@@ -10,7 +12,7 @@
 * Vorteil: Anschluss der Speiseleitung nicht am Mittelpunkt, sondern an einem Ende
 * Ein Teil der Speiseleitung wird oft als Gegengewicht genutzt $\rightarrow$ kann Störungen verursachen
 * Vermeidbar z.B. durch ein $\lambda / 4$-Radial als Gegengewicht, gute Erdverbindung oder eine Mantelwellensperre
-* Anpassglieder ist Teil von Klasse E
+* Anpassglieder gehören schon zum Stoff von HB3 und werden im HB9-Kurs noch vertieft behandelt
 </note>
 
 ---
