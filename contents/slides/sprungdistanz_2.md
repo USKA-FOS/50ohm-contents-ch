@@ -1,5 +1,7 @@
+%ARK: Grundhelvetisierung 
+
 <left>
-* Klasse E: Sprungdistanz durch Abstrahlwinkel verändern
+* HB3: Sprungdistanz durch Abstrahlwinkel verändern
 </left>
 <right>
 [picture:994:a_sprungdistanz_1:Simulation der Sprungdistanz in Abhängigkeit vom Abstrahlwinkel im $\qty{40}{\meter}$-Band, im Januar 2025]
