@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung 
+
 * Ziel beim Aufbau einer Funkanlage: Nur die Antenne soll Signale abstrahlen bzw. aufnehmen
 * Dazu eignen sich geschirmte Leitungen, z.B. Koaxialkabel
 * Im Idealfall strahlen sie selbst nicht oder nehmen keine Strahlung auf
@@ -19,7 +21,7 @@ Koaxialkabel kann man sich als drei Leiter vorstellen:
 2. Innenseite des Außenleiters
 3. Außenseite des Außenleiters
 
-Mantelströme hängen mit dem Skineffekt zusammen, der in Klasse A kommt
+Mantelströme hängen mit dem Skineffekt zusammen, der im HB9-Kurs behandelt wird 
 </note>
 ---
 [question:EG405]
