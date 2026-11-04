@@ -1,18 +1,17 @@
-### Anschrift und Änderung
+%ARK: Grundhelvetisierung duchgeführt
 
-* Änderung beim Namen oder bei der Anschrift sind der BNetzA unverzüglich *nach* der Änderung mitzuteilen
-* So kann die BNetzA einen jederzeit per Post erreichen
+### Adresse und Adressänderung
+
+* Änderung beim Namen oder bei der Adresse sind dem BAKOM unverzüglich *nach* der Änderung mitzuteilen
+* So kann das BAKOM einen jederzeit per Post erreichen
 
 ---
 [question:VD113]
 
 ---
 
-* Ist man sich beim Namen eines deutschen Funkpartners unsicher, kann man auf der Internetseite der BNetzA nach dem Rufzeichen suchen
-* Dort werden Rufzeichen, Name und, sofern nicht widersprochen, die Anschrift angezeigt
-* Dieselben Informationen finden sich auch in der als PDF-Dokument herunterladbaren Rufzeichenliste
-
---- data-background-iframe="https://ans.bundesnetzagentur.de/Amateurfunk/Rufzeichen.aspx" data-background-interactive
+* Ist man sich beim Namen eines Funkpartners unsicher, kann man auf der Internetseite QRZ.COM nach dem Rufzeichen suchen
+* Dort werden Rufzeichen, Name und, sofern nicht widersprochen, die Anschrift angezeig
 
 <note>
 Einbettung der Webseite zur Rufzeichensuche
