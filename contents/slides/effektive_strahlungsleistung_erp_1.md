@@ -1,4 +1,4 @@
- %ARK: Grundhelvetisierung durchgeführt
+%ARK: Grundhelvetisierung durchgeführt
 
 Kurze Wiederholung zu Antennen:
 
