@@ -1,14 +1,18 @@
+%ARK: Grundhelvetisierung in Arbeit
+
+Die maximal zulässige Senderausgangsleistung (PEP) ist begrenzt:
 <left>
-* Klasse N ist in Strahlungsleistung (ERP oder EIRP) an Antenne begrenzt
+* Sendekonzession HB3: 100 Watt
 </left>
 <right>
-* Klassen E und A meistens auf *Senderausgangsleistung* (peak envelope power, PEP)
+* Sendekonzession HB9: 1000 Watt
 </right>
 <fragment>
+* Auf gewissen Frequenzbändern gibt es bei beiden Konzessionsklassen weitere Einschränkungen, die einzuhalten sind.
 * Viele Funkgeräte zeigen die aktuelle Senderausgangsleistung im Power-Meter an.
 </fragment>
 <note>
-Deutscher Begriff für PEP: Hüllkurvenspitzenleistung - der höchste gemessene Wert der durchschnittlichen Leistung jeder Periode der Hochfrequenzschwingung
+Begriff für PEP: Hüllkurvenspitzenleistung - der höchste gemessene Wert der durchschnittlichen Leistung jeder Periode der Hochfrequenzschwingung
 </note>
 
 ---
@@ -17,12 +21,12 @@ Deutscher Begriff für PEP: Hüllkurvenspitzenleistung - der höchste gemessene 
 ---
 ## Zulässige Senderausgangsleistung
 
-* In [Anlage 1 der AFuV](https://50ohm.de/a1)
-* Unterscheidet sich je nach Klasse und Frequenzbereich
-* Kein Eintrag in einer Spalte $\rightarrow$ diese Klasse darf den Frequenzbereich nicht nutzen
+* In [Frequenzbereiche und Leistungsgrenzen](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf)
+* Unterscheidet sich je nach Konzession und Frequenzbereich
+* Man beachte auch Unterschiede bezüglich ERP und EIRP, sowie die Fussnoten
 
 <note>
-* Wir empfehlen, die folgenden 10 Fragen anhand der Anlage 1 zu beantworten, um Übung beim Ablesen der richtigen Werte zu bekommen.
+* Wir empfehlen, die folgenden 10 Fragen anhand der Tabellen "Frequenzbereiche und Leistungsgrenzen" zu beantworten, um Übung beim Ablesen der richtigen Werte zu bekommen.
 </note>
 
 ---
