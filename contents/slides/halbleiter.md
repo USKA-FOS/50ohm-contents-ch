@@ -1,4 +1,5 @@
 %ARK: Grundhelvetisierung durchgeführt
+%ARK: Alle Fragen der Webseite sind vorhanden, aber nicht in derselben Reihenfolge.
 
 * Materialen, die nur unter bestimmten Umständen leiten können
 * Weisen Eigenschaften von Leitern als auch von Nichtleitern auf
