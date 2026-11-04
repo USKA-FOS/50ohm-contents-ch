@@ -1,11 +1,13 @@
-* Funkamateure der Klasse E und A sind automatisch Ausbilder
-* Unter Aufsicht
-* Im Berechtigungsumfang des Ausbilders
-* Personengebundenes Rufzeichen + "/T" bzw. "/Trainee"
-* Klubstation + "/T" bzw. "/Trainee"
+%ARK: Grundhelvetisierung durchgeführt
+
+* Funkamateurinnen HB3 und HB9 dürfen Kurse für die jeweilige Konzession unterrichten
+* Mit einer gültigen Sprechbewilligung des BAKOM dürfen Kursteilnehmende unter Aufsicht funken
+* Im Berechtigungsumfang des Ausbildners
+* Personengebundenes Rufzeichen + Operator Silvia
+* Klubstationsrufzeichen + Operator Silvia
 
 <note>
-* Bisher und bis Ende 2028 gültig: Eigene Ausbildungsrufzeichen mit DN1-DN8
+* Es gibt keine speziellen Ausbildungsrufzeichen
 </note>
 
 ---
@@ -18,24 +20,23 @@
 [question:BD210]
 ---
 
-## Ausbildungsfunkbetrieb ist …
+## Ausbildungsfunkbetrieb ist Funkbetrieb …
 
-* für Personen ohne Besitz eines entsprechenden Amateurfunkzeugnisses
-* nicht für Aussendungen des Ausbilders selbst
-* die praktische Vorbereitung auf das Ablegen der fachlichen Prüfung
+* für Personen, die nicht oder noch nicht im Besitz eines entsprechenden Fähigkeitszeugnisses sind
+* für die praktische Vorbereitung auf das Ablegen der Amateurfunkprüfung
+* für spezielle Events, besonders im Rahmen von MINT Veranstaltungen
 
 ---
 [question:VD301]
 ---
 
-## Ausbilder …
+## Ausbildner …
 
 * muss in unmittelbarer Nähe des Auszubildenden sein
 * bei Bedienung und Betriebsabwicklung anleiten
 * greift regulierend in den Ausbildungsfunkbetrieb ein
 * schaltet den Sender im Extremfall ab
-* muss auf Verlangen der BNetzA Auskunft über "Art und Umfang" des Ausbildungsbetriebs geben
-
+* muss im Besitz einer gültigen BAKOM-Sprecherlaubnis sein
 
 <note>
 * Betreuung nicht über größere Entfernung
