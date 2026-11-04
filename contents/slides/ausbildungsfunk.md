@@ -1,8 +1,9 @@
-## Ausbildungsfunkbetrieb
+%ARK: Grundhelvetisierung durchgeführt
 
-Es gibt zum Zweck der Ausbildung die Ausnahme, dass auch Nicht-Funkamateure auf Amateurfunkfrequenzen senden dürfen.
+## Ausbildungsfunkbetrieb mit Sprecherlaubnis des BAKOM
 
-Unter unmittelbarer Anleitung und Aufsicht eines zugelassenen Funkamateurs der Klasse E oder A.
+Funkamateurclubs können im Rahmen von Ausbildungskursen und und speziellen Events auf Gesuch hin vom BAKOM eine zeitlich befristete "Sprecherlaubnis" erhalten.
+Damit (und nur damit) dürfen auch Nicht-Funkamateure, also Personen ohne eigene Amateurfunkkonzession, unter Anleitung und Aufsicht eines konzessionierten Funkamateurs auf Amateurfunkfrequenzen senden.
 
 ---
 [question:VD303]
@@ -11,12 +12,11 @@ Unter unmittelbarer Anleitung und Aufsicht eines zugelassenen Funkamateurs der K
 
 ### Abwicklung Ausbildungsfunkbetrieb
 
-* Der Auszubildende benutzt das Rufzeichen des Ausbilders und hängt den Zusatz „/T“ an: DG2RON/T
-* Ausgesprochen wird das T als „Trainee”
-* Komplett: "DG2RON Trainee"
+* Der Auszubildende benutzt das Rufzeichen des Ausbildners und hängt den Zusatz Operator <Name> an
+* Komplett: "HB9HSLU Operator Kevin"
 
 <note>
-* Ausgesprochen: DG2RON Trainee
+* Ausgesprochen: HB9HSLU Operator Kevin
 </note>
 
 ---
