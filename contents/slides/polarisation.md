@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung 
+
 <left>
 [picture:51:n_vpol_antenne:vertikal polarisierte Antenne]
 </left>
@@ -23,7 +25,7 @@
 * Unterscheidung in "linkszirkular" und "rechtszirkular" polarisiert
 
 <note>
-Genaueres dazu in den Kursen für Klasse E und A
+Genaueres dazu im Kurs für HB9
 </note>
 
 ---
