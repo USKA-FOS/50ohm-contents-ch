@@ -1,4 +1,6 @@
 %ARK: Grundhelvetisierung durchgeführt
+%ARK: Reihenfolge der Fragen teilweise anders als auf der Webseite. Kann ja auch erwünscht sein.
+%ARK: Die Frage ED216 kommt nur auf der Webseite vor. 
 
 ## Kapazität
 
