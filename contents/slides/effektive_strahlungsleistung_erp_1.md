@@ -1,3 +1,5 @@
+ %ARK: Grundhelvetisierung in Arbeit
+
 Kurze Wiederholung zu Antennen:
 
 * Groundplane-Antenne strahlt in alle Himmelsrichtungen nahezu gleichmäßig ab, aber nicht nach oben oder unten
@@ -17,7 +19,7 @@ Kurze Wiederholung zu Antennen:
 
 <note>
 * Anstelle von Gewinnfaktor wird oft "Gewinn in Dezibel ($\unit{dB}$)" angegeben
-* Das ist Stoff für die Klasse E
+* Das ist Stoff für die HB3-Prüfung
 </note>
 
 ---
