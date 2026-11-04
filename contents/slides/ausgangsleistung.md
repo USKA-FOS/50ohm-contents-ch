@@ -1,16 +1,14 @@
 %ARK: Grundhelvetisierung in Arbeit
 
 Die maximal zulässige Senderausgangsleistung (PEP) ist begrenzt:
-<left>
+
 * Sendekonzession HB3: 100 Watt
-</left>
-<right>
+
 * Sendekonzession HB9: 1000 Watt
-</right>
-<fragment>
-* Auf gewissen Frequenzbändern gibt es bei beiden Konzessionsklassen weitere Einschränkungen, die einzuhalten sind.
+  
+* Auf gewissen Frequenzbändern gibt es bei beiden Konzessionsklassen *weitere Einschränkungen*, die einzuhalten sind.
 * Viele Funkgeräte zeigen die aktuelle Senderausgangsleistung im Power-Meter an.
-</fragment>
+
 <note>
 Begriff für PEP: Hüllkurvenspitzenleistung - der höchste gemessene Wert der durchschnittlichen Leistung jeder Periode der Hochfrequenzschwingung
 </note>
