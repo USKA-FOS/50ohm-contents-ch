@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung 
+
 * Oszillatoren erzeugen eine Wechselspannung
 * Es gibt verschiedene Methoden
 
@@ -15,7 +17,7 @@
 </right>
 <note>
 * Der Schwingkreis ist ein ganz wichtiges Thema!
-* Die Resonanzfrequenz f<sub>0</sub> aus der Formelsammlung ist Klasse A Stoff
+* Die Resonanzfrequenz f<sub>0</sub> aus der Formelsammlung ist HB9-Stoff
 </note>
 
 ---
