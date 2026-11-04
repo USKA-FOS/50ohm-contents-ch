@@ -1,4 +1,5 @@
-%ARK: Grundhelvetisierung in Arbeit 
+%ARK: Grundhelvetisierung duchgeführt
+%ARK: Frage VD106 eventuell löschen
 
 --- data-transition="none"
 ### 1. Mikrofon
