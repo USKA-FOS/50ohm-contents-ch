@@ -1,5 +1,5 @@
-%ARK: Grundhelvetisierung in Arbeit
-%ARK: Fragenauswahl noch zu bearbeiten
+%ARK: Grundhelvetisierung durchgeführt, photo auf deutsche Frequenzen auskommentiert, zahlreiche Fragen auskommentiert
+%ARK: Fragenauswahl noch zu bearbeiten durch Katalog-Team
 
 Die maximal zulässige Senderausgangsleistung (PEP) ist begrenzt:
 
@@ -32,42 +32,42 @@ Begriff für PEP: Hüllkurvenspitzenleistung - der höchste gemessene Wert der d
 %[photo:145:ausgangsleistung:Ausschnitt aus der Anlage 1 der Amateurfunkverordnung]
 
 ---
-[question:VD727]
+%[question:VD727]
 
 ---
-[question:VD729]
+%[question:VD729]
 
 ---
-[question:VD728]
+%[question:VD728]
 
 ---
-[question:VD730]
+%[question:VD730]
 
 ---
-[question:VD731]
+%[question:VD731]
 
 ---
-[question:VD732]
+%[question:VD732]
 
 ---
-[question:VD733]
+%[question:VD733]
 
 ---
-[question:VD734]
+%[question:VD734]
 
 ---
-[question:VD736]
+%[question:VD736]
 
 ---
-[question:VD737]
+%[question:VD737]
 
 ---
 
 * Für den Frequenzbereich von $\qtyrange{1240}{1300}{\mega\hertz}$ gelten zusätzliche Regelungen
-* stehen nicht direkt in der Tabelle
-* In der rechten Spalte "Zusätzliche Nutzungsbestimmungen gemäß B" kennzeichnen Zahlen ergänzende Angaben
-* Stehen unter der Tabelle
-* Für die folgende Frage ist der Punkt 11 zu beachten
+%* stehen nicht direkt in der Tabelle
+%* In der rechten Spalte "Zusätzliche Nutzungsbestimmungen gemäß B" kennzeichnen Zahlen ergänzende Angaben
+%* Stehen unter der Tabelle
+%* Für die folgende Frage ist der Punkt 11 zu beachten
 
 ---
-[question:VD735]
+%[question:VD735]
