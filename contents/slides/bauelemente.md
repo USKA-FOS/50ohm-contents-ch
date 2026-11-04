@@ -1,4 +1,4 @@
-%ARK: Grundhelvetisierung in Arbeit 
+%ARK: Grundhelvetisierung durchgeführt
 
 * Drei weitere grundlegende Bauteile
 * Funktionsweise ist Stoff für HB3 und HB9
