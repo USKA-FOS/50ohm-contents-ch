@@ -1,4 +1,5 @@
 %ARK: Grundhelvetisierung in Arbeit
+%ARK: Fragenauswahl noch zu bearbeiten
 
 Die maximal zulässige Senderausgangsleistung (PEP) ist begrenzt:
 
@@ -19,17 +20,16 @@ Begriff für PEP: Hüllkurvenspitzenleistung - der höchste gemessene Wert der d
 ---
 ## Zulässige Senderausgangsleistung
 
-* In [Frequenzbereiche und Leistungsgrenzen](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf)
-* Unterscheidet sich je nach Konzession und Frequenzbereich
+* In [Frequenzbereiche und Leistungsgrenzen](https://www.bakom.admin.ch/dam/de/sd-web/oW59XCrgOEpK/20251028_Hilfstabellen%20en.pdf) findet man die zulässigen Senderausgangsleistungen nach Konzession und Frequenzbereich
 * Man beachte auch Unterschiede bezüglich ERP und EIRP, sowie die Fussnoten
 
 <note>
-* Wir empfehlen, die folgenden 10 Fragen anhand der Tabellen "Frequenzbereiche und Leistungsgrenzen" zu beantworten, um Übung beim Ablesen der richtigen Werte zu bekommen.
+* Wir empfehlen, die folgenden Fragen anhand der Tabellen "Frequenzbereiche und Leistungsgrenzen" zu beantworten, um Übung beim Ablesen der richtigen Werte zu bekommen.
 </note>
 
 ---
 
-[photo:145:ausgangsleistung:Ausschnitt aus der Anlage 1 der Amateurfunkverordnung]
+%[photo:145:ausgangsleistung:Ausschnitt aus der Anlage 1 der Amateurfunkverordnung]
 
 ---
 [question:VD727]
