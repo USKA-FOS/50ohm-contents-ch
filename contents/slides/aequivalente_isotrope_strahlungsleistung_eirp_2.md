@@ -51,7 +51,8 @@ $P_{\mathrm{EIRP}} = P_{\mathrm{Sender}} \cdot 10^{\frac{g_i - a}{\qty{10}{\dB}}
 %## Ortsfeste Amateurfunkanlage
 %
 %Eine ortsfeste Amateurfunkanlage ist nach § 9 BEMFV bei der BNetzA anzuzeigen, wenn eine Strahlungsleistung von $\qty{10}{\watt}$ EIRP überschritten %wird.
-%---
+%
+---
 [question:EG503]
 --- style="font-size: smaller;"
 ### Lösungsweg
@@ -95,7 +96,6 @@ Es führen mehrere Wege zum Ziel.  So kann auch mit Logarithmen direkt gerechnet
 Gewinn: $\qty{10}{\dB}$, also auch Faktor $\num{10}$
 </note>
 ---
-[question:EG507]
 
 <note>
 * $\qty{10}{\dB}$ Verlust ist Faktor $\num{10}$, also kommen an der Antenne $\qty{10}{\watt}$ ERP an
@@ -110,6 +110,9 @@ Gewinn: $\qty{10}{\dB}$, also auch Faktor $\num{10}$
 ---
 
 * Ist der Antennengewinn bezogen auf den Dipol angegeben, müssen wir den Gewinn des Dipols noch zusätzlich berücksichtigen, wenn nach der EIRP gefragt ist.
+
+---
+[question:EG507]
 
 ---
 [question:EG508]
