@@ -51,8 +51,8 @@ $$\qty{1}{\hertz} = \frac{1}{\unit{s}}$$
 
 ## Frequenzen HB3-Konzession
 
-Mit der HB3-Konzession dürfen sechs Frequenzbereiche verwendet werden
-* $\qty{1.81}{\mega\hertz}$ bis $\qty{2,00}{\mega\hertz}$
+Mit der HB3-Konzession dürfen fünf Frequenzbereiche verwendet werden
+* $\qty{1.81}{\mega\hertz}$ bis $\qty{2.00}{\mega\hertz}$
 * $\qty{3.5}{\mega\hertz}$ bis $\qty{3.8}{\mega\hertz}$
 * $\qty{21.0}{\mega\hertz}$ bis $\qty{21.45}{\mega\hertz}$
 * $\qty{144}{\mega\hertz}$ bis $\qty{146}{\mega\hertz}$
