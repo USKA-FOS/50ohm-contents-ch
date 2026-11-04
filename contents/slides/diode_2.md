@@ -1,4 +1,4 @@
-%ARK: Grundhelvetisierung in Arbeit 
+%ARK: Grundhelvetisierung durchgeführt
 
 ## Durchlassrichtung
 
