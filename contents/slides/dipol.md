@@ -1,4 +1,4 @@
-%ARK: Grundhelvetisierung in Arbeit
+%ARK: Grundhelvetisierung durchgeführt
 
 <left>
 [picture:589:n_dipol:Darstellung einer Dipol-Antenne]
