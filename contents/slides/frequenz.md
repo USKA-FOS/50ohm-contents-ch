@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung in Arbeit
+
 ## Wechselspannung
 
 * Die Wechselspannung im Stromnetz schwingt 50 mal in der Sekunde
@@ -47,21 +49,23 @@ $$\qty{1}{\hertz} = \frac{1}{\unit{s}}$$
 
 ---
 
-## Frequenzen Klasse N
+## Frequenzen HB3-Konzession
 
-In der Klasse N dürfen drei Frequenzbereiche verwendet werden
-* $\qty{28}{\mega\hertz}$ bis $\qty{29,7}{\mega\hertz}$
+Mit der HB3-Konzession dürfen sechs Frequenzbereiche verwendet werden
+* $\qty{1.81}{\mega\hertz}$ bis $\qty{2,00}{\mega\hertz}$
+* $\qty{3.5}{\mega\hertz}$ bis $\qty{3.8}{\mega\hertz}$
+* $\qty{21.0}{\mega\hertz}$ bis $\qty{21.45}{\mega\hertz}$
 * $\qty{144}{\mega\hertz}$ bis $\qty{146}{\mega\hertz}$
 * $\qty{430}{\mega\hertz}$ bis $\qty{440}{\mega\hertz}$
 
 <fragment>
-In der Klasse E und A kommen weitere Frequenzbereiche hinzu
+Für die HB9-Konzession kommen weitere Frequenzbereiche dazu
 </fragment>
 
 ---
 
 [question:VD723]
-
+% ???
 ---
 
 ## Oszillator
