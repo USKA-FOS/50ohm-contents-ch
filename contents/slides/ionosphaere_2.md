@@ -54,9 +54,9 @@
 4. $F_2$-Schicht
 
 ---
-* Für die Prüfungsfragen der Klasse E ist ein grundlegendes, qualitatives Verständnis der Regionen erforderlich
+* Für die Prüfungsfragen der HB3-Konzession ist ein grundlegendes, qualitatives Verständnis der Regionen erforderlich
 * Die für die Kurzwellen-Fernausbreitung (DX) wichtigen F-Regionen der Ionosphäre befinden sich in einer Höhe von etwa $\num{130}$ bis $\qty{450}{\kilo\meter}$
-* In der Klasse A müssen die genauen Höhenlagen der einzelnen Regionen für Tag und Nacht benannt werden können
+* In den Prüfungsfragen der HB9-Konzession müssen die genauen Höhenlagen der einzelnen Regionen für Tag und Nacht benannt werden können
 
 ---
 [question:EH102]
