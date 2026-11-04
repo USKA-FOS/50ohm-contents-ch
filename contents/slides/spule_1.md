@@ -1,3 +1,5 @@
+%A4K: Grundhelvetisierung 
+
 ## Induktivität
 
 <left>
@@ -47,7 +49,7 @@ $L = \dfrac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 * $l$: Länge der Spule bzw. mittlere Feldlinienlänge
 </right>
 <note>
-* Nur das Verständnis ist wichtig, Berechnung ist Klasse A Stoff
+* Nur das Verständnis ist wichtig, Berechnung ist HB9-Stoff
 </note>
 
 ---
