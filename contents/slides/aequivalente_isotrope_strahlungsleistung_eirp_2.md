@@ -47,6 +47,9 @@ $P_{\mathrm{EIRP}} = P_{\mathrm{Sender}} \cdot 10^{\frac{g_i - a}{\qty{10}{\dB}}
 [question:EG501]
 
 ---
+[question:AK104]
+
+---
 [question:EG502]
 
 %## Ortsfeste Amateurfunkanlage
