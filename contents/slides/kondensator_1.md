@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung durchgeführt
+
 ## Kapazität
 
 * Wichtigste Eigenschaft des Kondensators: Ladung speichern
@@ -32,7 +34,7 @@ $C = \dfrac{\varepsilon_0 \cdot \varepsilon_r \cdot A}{d}$
 * $d$: Abstand der Platten
 </right>
 <note>
-* Nur das Verständnis ist wichtig, Berechnung ist Klasse A Stoff
+* Nur das Verständnis ist wichtig, Berechnung ist HB9 Stoff
 </note>
 
 ---
