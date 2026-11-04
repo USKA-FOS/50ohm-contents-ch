@@ -1,4 +1,6 @@
-* Grundlagen zur Ionosphäre, Sonnenfleckenaktivität und "Tote Zone" sind in Klasse N
+%ARK: Grundhelvetisierung durchgeführt
+
+* Grundlagen zur Ionosphäre, Sonnenfleckenaktivität und "Tote Zone" sind Stoff für HB3
 * Vertiefung im Bereich Wellenausbreitung
 * Strahlung der Sonne schlägt Elektronen aus Sauerstoff- und Stickstoff-Atomen und -Molekülen in der Hochatmosphäre $\rightarrow$ Ionisation
 * Freie Elektronen werden von Funkwellen zum Schwingen angeregt $\rightarrow$ Refraktion der Funkwellen
