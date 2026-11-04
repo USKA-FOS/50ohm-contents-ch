@@ -1,4 +1,4 @@
-%ARK: Grundhelvetisierung in Arbeit 
+%ARK: Grundhelvetisierung durchgeführt, alte Fragen auskommentiert, neue Fragen eingefügt
 
 ## Suche im eigenen Haushalt
 
@@ -17,7 +17,8 @@ Häufige Ursachen
 </note>
 
 ---
-[question:VE307]
+%[question:VE307]
+[question:VU018]
 
 ---
 
@@ -34,7 +35,8 @@ Häufige Ursachen
 </note>
 
 ---
-[question:VE308]
+%[question:VE308]
+[question:VU019]
 
 ---
 
@@ -47,4 +49,6 @@ Häufige Ursachen
 * Meldung ans BAKOM 
 
 ---
-[question:VE309]
+%[question:VE309]
+[question:VU020]
+
