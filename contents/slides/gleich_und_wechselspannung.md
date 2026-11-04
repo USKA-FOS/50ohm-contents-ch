@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung in Arbeit 
+
 ## Einführung in die elektrische Spannung
 <left>
 [picture:713:n_frequenz_elektrische_ladungen:Positiv und negativ geladene Teilchen gleichverteilt in einem Gegenstand.]
@@ -9,7 +11,7 @@
 </right>
 
 <note>
-Das ist Klasse N – wir sind genau genug, um das Prinzip zu verstehen, gehen aber nicht auf die Teilchenphysik ein.
+Das genügt für HB3, wir sind genau genug, um das Prinzip zu verstehen, gehen aber nicht auf die Teilchenphysik ein.
 </note>
 
 ---
