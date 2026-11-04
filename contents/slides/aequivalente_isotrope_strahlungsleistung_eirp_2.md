@@ -1,4 +1,3 @@
-% IN ÜBERPRÜFUNG
 % ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen und BEMFV auskommnentiert 
 
 * Bei der Berechnung nur die Energie berücksichtigen, die an der Antenne ankommt
