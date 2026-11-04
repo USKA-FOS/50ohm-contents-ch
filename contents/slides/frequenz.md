@@ -1,4 +1,4 @@
-%ARK: Grundhelvetisierung in Arbeit
+%ARK: Grundhelvetisierung durchgeführt und Frage VD723 entfernt, da nicht auf der Webseite verwendet
 
 ## Wechselspannung
 
@@ -64,8 +64,8 @@ Für die HB9-Konzession kommen weitere Frequenzbereiche dazu
 
 ---
 
-[question:VD723]
-% ???
+%[question:VD723]
+
 ---
 
 ## Oszillator
