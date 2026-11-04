@@ -1,4 +1,4 @@
-%ARK: Grundhelvetisierung durchgeführt 
+%ARK: Grundhelvetisierung durchgeführt
 
 ## Einführung in die elektrische Spannung
 <left>
