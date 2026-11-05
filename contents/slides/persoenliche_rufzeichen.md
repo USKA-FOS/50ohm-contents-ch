@@ -1,4 +1,3 @@
-%ARK: IN BEARBEITUNG
 %ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
 
 * In der Schweiz gibt es zwei Zulassungsklassen
@@ -8,7 +7,6 @@
 * HB9 (CEPT)
 
 * Die Klasse ist an der Ziffer erkennbar
----
 
 * Siehe [Merkblatt Amateurfunk](https://www.bakom.admin.ch/dam/de/sd-web/o7l5gAQXyfUB/Merkblatt%20Amateurfunk_DE.pdf)
 
@@ -50,22 +48,22 @@
 [question:VC107]
 ---
 
-## Wunschrufzeichen
+## Rufzeichen
 
 * Das Rufzeichen wird vom BAKOM zugeteilt
-* Auf dem Antrag können Wunschrufzeichen angegeben werden
+%* Auf dem Antrag können Wunschrufzeichen angegeben werden
 %* In der [Rufzeichenliste der BNetzA](https://50ohm.de/rzl) oder in der [Webabfrage der BNetzA](https://50ohm.de/rza) nach freien Rufzeichen schauen
 %* Es gibt keinen Anspruch auf die Zuteilung eines bestimmten Rufzeichens
 %* Ohne Wunschrufzeichen wählt die BNetzA ein Rufzeichen aus
 
 ---
-### Auswahl von Rufzeichen
-
-* Kurzschreibweise des Namens
-* Initialen
-* Gute Verständlichkeit beim Sprechen
-* Einfache Morsetelegrafie
-* Wortwitz
+%### Auswahl von Rufzeichen
+%
+%* Kurzschreibweise des Namens
+%* Initialen
+%* Gute Verständlichkeit beim Sprechen
+%* Einfache Morsetelegrafie
+%* Wortwitz
 
 ---
 [question:VD208]
@@ -74,7 +72,7 @@
 ## Änderung oder Einzug von Rufzeichen
 
 * In der Regel ändert das BAKOM ein Rufzeichen nicht
-* Bei Änderungen von Regularien oder Zulassungsklassen kann es notwendig werden
+%* Bei Änderungen von Regularien oder Zulassungsklassen kann es notwendig werden
 %* Bei Stellung eines neuen Antrags auf Zulassung zum Amateurfunkdienst wird ein neues Rufzeichen vergeben
 
 ---
