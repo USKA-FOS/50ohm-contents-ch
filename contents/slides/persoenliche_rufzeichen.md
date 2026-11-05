@@ -1,4 +1,4 @@
-%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen, alte Fragen gelöscht, neue Fragen eingefügt
 
 * In der Schweiz gibt es zwei Zulassungsklassen
 
@@ -44,9 +44,6 @@
 
 ---
 
-[question:VC107]
----
-
 ## Rufzeichen
 
 * Das Rufzeichen wird vom BAKOM zugeteilt
@@ -65,8 +62,6 @@
 %* Wortwitz
 
 ---
-[question:VD208]
----
 
 ## Änderung oder Einzug von Rufzeichen
 
@@ -84,4 +79,4 @@
 [question:VU006]
 
 ---
-[quedtion:VP001]
+[question:VP001]
