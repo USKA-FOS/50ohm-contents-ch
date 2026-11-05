@@ -1,4 +1,4 @@
-%ARK: Grundhelvetisierung 
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
 
 * Ziel beim Aufbau einer Funkanlage: Nur die Antenne soll Signale abstrahlen bzw. aufnehmen
 * Dazu eignen sich geschirmte Leitungen, z.B. Koaxialkabel
