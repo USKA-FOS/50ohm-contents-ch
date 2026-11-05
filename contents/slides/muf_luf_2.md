@@ -1,4 +1,4 @@
-%ARK: Grundhelvetisierung 
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen, alle Fragen vorhanden, aber in anderer Reihenfolge.
 
 ## Höchste brauchbare Frequenz (MUF)
 
