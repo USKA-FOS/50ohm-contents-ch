@@ -41,16 +41,11 @@
 
 ## Zulassung
 
-* Nach bestandener Prüfung Antrag beim BAKOM stellen auf  *Zulassung zur Teilnahme am Amateurfunkdienst*
-%* Darauf kommt die Zulassungsurkunde mit persönlichem Rufzeichen
+* Nach bestandener Prüfung beim BAKOM im eGovernment Portal [Rufzeichen Amateurfunk beantragen (Privatpersonen)](https://www.egov.swiss/de/amateurfunk/rufzeichen-privatpersonen-beschreibung)
 * Erst danach darf Funkbetrieb aufgenommen werden
-* Die Zulassung ist nicht übertragbar
+* Die Rufzeichen ist persönlich und ist nicht übertragbar
 
-%<note>
-%* Inzwischen ist die Zulassungsurkunde ein PDF und wird ggf. via E-Mail zugesandt
-%* Maßgeblich ist die Eintragung in der Rufzeichenliste/-datenbank
-%</note>
-%---
+---
 
 [question:VC107]
 ---
