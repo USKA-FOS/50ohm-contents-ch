@@ -14,19 +14,17 @@
 </note>
 ---
 
-<left>
 | l: Klasse | X: Präfix und Ziffer |
 | Klasse Novice | HB3 |
 | Klasse CEPT | HB9 |
 [table:n_persoenliche_rufzeichen_praefixe:Präfixe und Ziffern für personengebunde Rufzeichen]
-</left>
-<right>
+
 | l: Klasse | X: Rufzeichen |
 | Stationen mit Militärbezug | HB4 |
 | Kontestrufzeichen | HB1 / HB2 / HB5 / HB6 / HB7 / HB8 |
-| Sonderrufzeichen | HB100EVENT|
+| Sonderrufzeichen für Events| HB100EVENT|
+| Sonderrufzeichen für Vereine| HB9HSLU|
 [table:n_sonder_rufzeichen_beispiele:Beispiele für Sonderufzeichen]
-</right>
 
 ---
 [question:BD105]
@@ -43,11 +41,11 @@
 * Erst danach darf Funkbetrieb aufgenommen werden
 * Die Zulassung ist nicht übertragbar
 
-<note>
-* Inzwischen ist die Zulassungsurkunde ein PDF und wird ggf. via E-Mail zugesandt
-* Maßgeblich ist die Eintragung in der Rufzeichenliste/-datenbank
-</note>
----
+%<note>
+%* Inzwischen ist die Zulassungsurkunde ein PDF und wird ggf. via E-Mail zugesandt
+%* Maßgeblich ist die Eintragung in der Rufzeichenliste/-datenbank
+%</note>
+%---
 
 [question:VC107]
 ---
