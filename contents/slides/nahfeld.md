@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen, Bewertungsverfahren nach BEMFV entfernt
+
 ## Nahfeld und seine Unterteilung
 
 * Das Nahfeld gliedert sich in das reaktive und das strahlende Nahfeld
@@ -58,11 +60,11 @@
 * Die Formel erspart aufwendige Messungen oder Simulationen zur Ermittlung der Personenschutzabstände
 
 ---
-### Bewertungsverfahren nach BEMFV
-
-<left>
-[photo:80:n_Bewertungsverfahren:In diesem Dokument sind die Bewertungsverfahren beschrieben.]
-</left>
-<right>
-In den [Erläuterungen der Bewertungsverfahren nach BEMFV](https://50ohm.de/bemfv) hat die BNetzA die Begriffe und Verfahren für die Ermittlung der Sicherheitsabstände beschrieben.  
-</right>
+%### Bewertungsverfahren nach BEMFV
+%
+%<left>
+%[photo:80:n_Bewertungsverfahren:In diesem Dokument sind die Bewertungsverfahren beschrieben.]
+%</left>
+%<right>
+%In den [Erläuterungen der Bewertungsverfahren nach BEMFV](https://50ohm.de/bemfv) hat die BNetzA die Begriffe und Verfahren für die Ermittlung der Sicherheitsabstände beschrieben.  
+%</right>
