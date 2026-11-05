@@ -1,12 +1,13 @@
-* Am häufigsten vergeben
-* In Deutschland gibt es drei Zulassungsklassen
+%ARK: IN BEARTBEITUNG
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
 
-1. Klasse N (Entry Level License)
-2. Klasse E (Novice)
-3. Klasse A (Advanced)
+* In der Schweiz gibt es zwei Zulassungsklassen
 
-* Die Klasse ist am Präfix und der Ziffer erkennbar
-* Siehe [Rufzeichenplan](https://50ohm.de/rzp)
+1. HB3 (Novice) 
+2. HB9 (CEPT)
+
+* Die Klasse ist an der Ziffer erkennbar
+* Siehe [Merkblatt Amateurfunk](https://www.bakom.admin.ch/dam/de/sd-web/o7l5gAQXyfUB/Merkblatt%20Amateurfunk_DE.pdf)
 
 <note>
 * In anderen Ländern - aber nicht allen - gibt es ähnliche Systeme
@@ -15,20 +16,16 @@
 
 <left>
 | l: Klasse | X: Präfix und Ziffer |
-| Klasse N | DN9 |
-| Klasse E | DO1 - DO9 |
-| | DA6 |
-| Klasse A | DB1 - DD9 |
-| | DF1 - DH9 |
-| | DJ1 - DM9 |
+| Klasse Novice | HB3 |
+| Klasse CEPT | HB9 |
 [table:n_persoenliche_rufzeichen_praefixe:Präfixe und Ziffern für personengebunde Rufzeichen]
 </left>
 <right>
 | l: Klasse | X: Rufzeichen |
-| Klasse N | DN9AAA, DN9BB |
-| Klasse E | DO2AAA, DO2BB |
-| Klasse A | DL3AAA, DL3BB |
-[table:n_persoenliche_rufzeichen_beispiele:Beispiele für personengebunde Rufzeichen]
+| Stationen mit Militärbezug | HB4 |
+| Kontestrufzeichen | HB1 / HB2 / HB5 / HB6 / HB7 / HB8 |
+| Sonderrufzeichen | HB100EVENT|
+[table:n_sonder_rufzeichen_beispiele:Beispiele für Sonderufzeichen]
 </right>
 
 ---
