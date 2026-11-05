@@ -1,12 +1,15 @@
-%ARK: IN BEARTBEITUNG
+%ARK: IN BEARBEITUNG
 %ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
 
 * In der Schweiz gibt es zwei Zulassungsklassen
 
-1. HB3 (Novice) 
-2. HB9 (CEPT)
+* HB3 (Novice)
+
+* HB9 (CEPT)
 
 * Die Klasse ist an der Ziffer erkennbar
+---
+
 * Siehe [Merkblatt Amateurfunk](https://www.bakom.admin.ch/dam/de/sd-web/o7l5gAQXyfUB/Merkblatt%20Amateurfunk_DE.pdf)
 
 <note>
