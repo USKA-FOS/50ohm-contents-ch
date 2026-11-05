@@ -1,4 +1,4 @@
-%ARK: Grundhelvetisierung 
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen, Alle Fragen vorhanden, aber in anderer Reihenfolge
 
 * Oszillatoren erzeugen eine Wechselspannung
 * Es gibt verschiedene Methoden
