@@ -1,3 +1,6 @@
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen, Frage EB514 eingefügt
+%ARK: Alle Fragen der Webseite sind jetzt enthalten, aber immer noch in unterschiedlicher Reihenfolge
+
 ## Leistungsberechnung
 
 Wir kennen bereits
@@ -46,17 +49,11 @@ $I = \dfrac{P}{U} = \sqrt{\dfrac{P}{R}}$
 [question:EB513]
 <note>
 * Keine Leistungsberechnung, sondern nur Ohmsches Gesetz
-* Die Frage passte aber in Klasse E nirgends anders rein
+* Die Frage passte aber im HB3-Kurs nirgends anders rein
 </note>
 
-
-
-
-
-
-
-
-
+---
+[question:EB514]
 
 
 
