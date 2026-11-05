@@ -1,4 +1,4 @@
-%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen, alte Fragen gelöscht, neue Fragen eingefügt
+8%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen, alte Fragen gelöscht, neue Fragen eingefügt
 
 * In der Schweiz gibt es zwei Zulassungsklassen
 
@@ -68,9 +68,6 @@
 * In der Regel ändert das BAKOM ein Rufzeichen nicht
 %* Bei Änderungen von Regularien oder Zulassungsklassen kann es notwendig werden
 %* Bei Stellung eines neuen Antrags auf Zulassung zum Amateurfunkdienst wird ein neues Rufzeichen vergeben
-
----
-[question:VC117]
 
 ---
 [question:VU002]
