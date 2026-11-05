@@ -34,8 +34,6 @@
 ---
 [question:BD106]
 ---
-[question:BD104]
----
 
 ## Zulassung
 
