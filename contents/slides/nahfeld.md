@@ -59,7 +59,7 @@
 * Sie wird angewendet, wenn der berechnete Sicherheitsabstand im strahlenden Nahfeld oder im Fernfeld liegt
 * Die Formel erspart aufwendige Messungen oder Simulationen zur Ermittlung der Personenschutzabstände
 
----
+%---
 %### Bewertungsverfahren nach BEMFV
 %
 %<left>
