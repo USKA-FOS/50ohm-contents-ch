@@ -1,4 +1,4 @@
-%ARK: Grundhelvetisierung 
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen und neue Fragen EH220 und EH221 dazugefügt
 
 ## Maximal Usable Frequency (MUF)
 
@@ -41,3 +41,10 @@ $f_c$ ist die kritische Frequenz bei der senkrecht auf die Ionosphäre auftreten
 </right>
 ---
 [question:EH209]
+
+---
+[question:EH220]
+
+---
+[question:EH221]
+
