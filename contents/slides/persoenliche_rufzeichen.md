@@ -22,6 +22,8 @@
 | Klasse CEPT | HB9 |
 [table:n_persoenliche_rufzeichen_praefixe:Präfixe und Ziffern für personengebunde Rufzeichen]
 
+---
+
 | l: Klasse | X: Rufzeichen |
 | Stationen mit Militärbezug | HB4 |
 | Kontestrufzeichen | HB1 / HB2 / HB5 / HB6 / HB7 / HB8 |
@@ -39,8 +41,8 @@
 
 ## Zulassung
 
-* Nach bestandener Prüfung Antrag bei BNetzA stellen auf *Zulassung zur Teilnahme am Amateurfunkdienst*
-* Darauf kommt die Zulassungsurkunde mit persönlichem Rufzeichen
+* Nach bestandener Prüfung Antrag beim BAKOM stellen auf  *Zulassung zur Teilnahme am Amateurfunkdienst*
+%* Darauf kommt die Zulassungsurkunde mit persönlichem Rufzeichen
 * Erst danach darf Funkbetrieb aufgenommen werden
 * Die Zulassung ist nicht übertragbar
 
@@ -55,15 +57,11 @@
 
 ## Wunschrufzeichen
 
+* Das Rufzeichen wird vom BAKOM zugeteilt
 * Auf dem Antrag können Wunschrufzeichen angegeben werden
-* In der [Rufzeichenliste der BNetzA](https://50ohm.de/rzl) oder in der [Webabfrage der BNetzA](https://50ohm.de/rza) nach freien Rufzeichen schauen
-* Es gibt keinen Anspruch auf die Zuteilung eines bestimmten Rufzeichens
-* Ohne Wunschrufzeichen wählt die BNetzA ein Rufzeichen aus
-
-<note>
-* Eventuell mehrere Rufzeichen angeben
-* Rufzeichen können zwischenzeitlich zugeteilt worden sein
-</note>
+%* In der [Rufzeichenliste der BNetzA](https://50ohm.de/rzl) oder in der [Webabfrage der BNetzA](https://50ohm.de/rza) nach freien Rufzeichen schauen
+%* Es gibt keinen Anspruch auf die Zuteilung eines bestimmten Rufzeichens
+%* Ohne Wunschrufzeichen wählt die BNetzA ein Rufzeichen aus
 
 ---
 ### Auswahl von Rufzeichen
@@ -80,14 +78,9 @@
 
 ## Änderung oder Einzug von Rufzeichen
 
-* In der Regel ändert die BNetzA ein Rufzeichen nicht
+* In der Regel ändert das BAKOM ein Rufzeichen nicht
 * Bei Änderungen von Regularien oder Zulassungsklassen kann es notwendig werden
-* Bei Stellung eines neuen Antrags auf Zulassung zum Amateurfunkdienst wird ein neues Rufzeichen vergeben
-
-<note>
-* Beispiel: DDR-Rufzeichen-Wechsel
-* Ausbildungsrufzeichen DN1-8 werden in Zukunft eingezogen
-</note>
+%* Bei Stellung eines neuen Antrags auf Zulassung zum Amateurfunkdienst wird ein neues Rufzeichen vergeben
 
 ---
 [question:VC117]
