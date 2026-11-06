@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung 
+
 * An vielen Funkgeräten gibt es einen Schalter, um die Modulationsart auszuwählen
 * Meistens ist dieser mit „Mode“ beschriftet und erlaubt beispielsweise zwischen CW, AM, FM und SSB zu wählen
 
@@ -14,7 +16,7 @@
 <note>
 * Empfehlung im IARU-Bandplan.
 * Eine Ausnahme sind digitale Übertragungsverfahren, wo auch unterhalb von 10 MHz USB verwendet wird.
-* Klasse N kann aufgrund der erlaubten Bänder immer USB verwenden.
+* FT8 verwendet immer USB.
 * Zusätzliches Wissen: Seefunk verwendet immer USB.
 </note>
 
