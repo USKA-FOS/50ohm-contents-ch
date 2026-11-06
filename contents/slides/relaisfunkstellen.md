@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung in Arbeit 
+
 <left>
 [picture:648:n_relaisfunkstellen_aufbau:Schematische Darstellung einer Relaisfunkstelle mit Nutzern]
 </left>
@@ -15,20 +17,20 @@
 
 ---
 
-## Definition Relaisfunkstelle
-eine fernbediente Amateurfunkstelle (auch in Satelliten), die empfangene Amateurfunkaussendungen, Teile davon oder sonstige eingespeiste oder eingespeicherte Signale fernausgelöst aussendet und dabei zur Erhöhung der Erreichbarkeit von Amateurfunkstellen dient
+## Definition Relais
+eine fernbediente Amateurfunkstation (auch in Satelliten), die empfangene Amateurfunkaussendungen, Teile davon oder sonstige eingespeiste oder eingespeicherte Signale fernausgelöst aussendet und dabei zur Erhöhung der Erreichbarkeit von Amateurfunkstationen dient
 
 ---
 <left>
 * Auch kurz genannt: Relais oder Repeater
 * Senden regelmäßig ihr Rufzeichen aus
-* Rufzeichen beginnt in der Regel mit DB0, DM0 oder DO0
 </left>
 <fragment>
 <right>
-* Relaisfunkstellen werden nicht mit persönlichen Rufzeichen betrieben.
-* Relaisfunkstellen sind üblicherweise nicht ständig besetzt.
-* Relaisfunkstellen müssen nicht zwingend an geografisch exponierten Standorten betrieben werden.
+* Relais werden nicht mit persönlichen Rufzeichen betrieben.
+* Relais sind üblicherweise nicht ständig besetzt.
+* Relais müssen nicht zwingend an geografisch exponierten Standorten betrieben werden.
+* Geografisch exponierte Standorte erhöhen die Reichweite beträchtlich
 </right>
 </fragment>
 
@@ -40,7 +42,7 @@ eine fernbediente Amateurfunkstelle (auch in Satelliten), die empfangene Amateur
 <left>
 * Empfängt auf der Eingangsfrequenz das Signal einer Amateurfunkstation
 * Strahlt es zeitgleich auf der Ausgabefrequenz aus
-* Damit der Sender nicht stört, sind die Frequenzen meistens unterschiedlich
+* Damit der Sender nicht stört, sind die Frequenzen unterschiedlich
 </left>
 <right>
 <fragment>
@@ -71,7 +73,7 @@ Beispiel eines $\qty{70}{\centi\meter}$-Relais:
 ---
 
 ## Crossband-Betrieb
-* Sendet und empfängt gleichzeitig auf zwei verschiedenen Bändern, z.B. $\qty{2}{\meter}$ und $\qty{70}{\centi\meter}$
+* Sendet und empfängt gleichzeitig auf zwei verschiedenen Bändern, z.B. $\qty{10}{\meter}$ und $\qty{70}{\centi\meter}$
 * Umsetzung der Sendeart auch möglich, z.B. SSB auf FM
 
 ---
@@ -93,7 +95,7 @@ Beispiel eines $\qty{70}{\centi\meter}$-Relais:
 ---
 
 ## Besondere Einstellungen
-* Ggf. sind weitere Einstellungen für die Verbindung zum Relais notwendig
+* Ggf. sind weitere Einstellungen ( z. Bsp. Subton mit CTCSS) für die Verbindung zum Relais notwendig
 * Diese Informationen sind in Repeaterverzeichnissen, auf Webseiten oder beim Relaisverantwortlichen erhältlich
 * Neben FM-Repeatern gibt es welche für digitale Sprache wie DMR oder D-Star
 
@@ -118,9 +120,9 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 ---
 
 ## Störungsfreier Betrieb
-* Grundsätzlich können alle Funkamateure mit ihrem zugeteilten Rufzeichen fernbediente Amateurfunkstellen nutzen
-* Betreiber kann zur Sicherstellung des störungsfreien Betriebs Funkamateure ausschließen
-* Die BNetzA ist hiervon zu unterrichten
+* Grundsätzlich können alle Funkamateure mit ihrem zugeteilten Rufzeichen Relais nutzen
+%* Betreiber kann zur Sicherstellung des störungsfreien Betriebs Funkamateure ausschließen
+%* Die BNetzA ist hiervon zu unterrichten
 
 ---
 [question:VD504]
@@ -128,6 +130,8 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 
 ## Funkbetrieb auf Repeatern
 * Kurze Durchgänge
+* keine CQ-Rufe, nur das eigene Rufzeichen nennen
+* beim Auftasten zum Testen immer das eigene Rufzeichen nennen
 * Mobile und portable Stationen sind oft nur kurzzeitig in Empfangsreichweite
 * Pause zwischen den Durchgängen zum Reinmelden anderer Stationen
 
@@ -148,9 +152,9 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 [question:BE405]
 ---
 
-## Sendeleistung
-* Nach Anlage 1 der AFuV
-* Für automatische Station oberhalb von $\qty{30}{\mega\hertz}$ mit $\qty{50}{\watt}$ ERP
+%## Sendeleistung
+%* Nach Anlage 1 der AFuV
+%* Für automatische Station oberhalb von $\qty{30}{\mega\hertz}$ mit $\qty{50}{\watt}$ ERP
 
 ---
 [question:VD503]
@@ -160,6 +164,7 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 * Empfangene Signalstärke (S) ist die des Relais
 * Es wird darauf verzichtet
 * Nur die Lesbarkeit (R) wird im Rapport beurteilt
+* Es ist nicht üblich, QSOs über Relais mit einer QSL zu bestätigen
 
 ---
 [question:BE408]
