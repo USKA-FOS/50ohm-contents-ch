@@ -28,13 +28,6 @@ Der Betreiber einer Amateurfunkanlage ist für die Sicherstellung des Schutzes v
 </note>
 
 ---
-[question:VE501]
-
----
-
-[question:VE502]
-
----
 ## NISV: Verordnung über den Schutz vor nicht-ionisierender Strahlung
 
 Grenzwerte finden sich in der
@@ -44,23 +37,12 @@ Grenzwerte finden sich in der
 und Handreichungen zur Umsetzung finden sich in den Unterlagen der USKA für ihre Mitglieder
 
 * [Emissions-Berechnung (NISV)](https://uska.ch/de/mitglieder/antennen/emissions-berechnung/) im NIS-Standortdatenblatt und der Emissionsberechnung für Amateurfunkanlagen — Hilfsmittel und Wegleitung gemäss NISV
----
-[question:VE505]
 
 --- style="font-size: smaller;"
 ## Nachweisverfahren nach NISV
 
 * *Funkamateure stellen vor der Inbetriebnahme ihrer Funkanlage eigenständig sicher und dokumentieren, dass keine Gefährdung für Personen besteht*
 * Funkamateure genießen als einzige Gruppe das Privileg, dieses Verfahren selbstständig durchzuführen
-
----
-[question:VE503]
-
----
-[question:VE504]
-
----
-[question:VE511]
 
 ---
 
