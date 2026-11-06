@@ -1,4 +1,4 @@
-%ARK: Grundhelvetisierung 
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
 
 <left>
 [picture:51:n_vpol_antenne:vertikal polarisierte Antenne]
