@@ -7,7 +7,7 @@
 
 ---
 
-[question:VN018
+[question:VN018]
 
 ---
 
@@ -53,7 +53,3 @@ Mehr dazu in den kommenden Abschnitten
 %* Ausnahme: von Funkamateuren *selbst gebaute und umgebaute* Funkanlagen
 %* Müssen nicht die Anforderungen des Funkanlagengesetzes erfüllen
 %* Müssen keine CE-Kennzeichnung tragen
-
----
-
-[question:VE405]
