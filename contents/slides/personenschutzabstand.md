@@ -32,11 +32,11 @@ Der Betreiber einer Amateurfunkanlage ist für die Sicherstellung des Schutzes v
 
 Grenzwerte finden sich in der
 
-* [Verordnung über den Schutz vor nicht-ionisierender Strahlung(https://www.fedlex.admin.ch/eli/cc/2000/38/de)
+* [Verordnung über den Schutz vor nicht-ionisierender Strahlung](https://www.fedlex.admin.ch/eli/cc/2000/38/de)
 
 und Handreichungen zur Umsetzung finden sich in den Unterlagen der USKA für ihre Mitglieder
 
-* [Emissions-Berechnung (NISV)](https://uska.ch/de/mitglieder/antennen/emissions-berechnung/) im NIS-Standortdatenblatt und der Emissionsberechnung für Amateurfunkanlagen — Hilfsmittel und Wegleitung gemäss NISV
+* [Emissions-Berechnung (NISV)](https://uska.ch/de/mitglieder/antennen/emissions-berechnung/) im NIS-Standortdatenblatt und der Emissionsberechnung für Amateurfunkanlagen
 
 --- style="font-size: smaller;"
 ## Nachweisverfahren nach NISV
