@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung in. A.
+
 --- data-transition="none"
 ## Von der Diode zum Transistor
 <left>
@@ -151,7 +153,7 @@ $U_{ BE } = U_{ B } - U_{ E }$
 ---
 
 ## Typen von Transistoren
-Die bisher behandelten Transistoren nennt man *Bipolare Transistoren*. Sie sind die Art der Transistoren, die in den 50er Jahren eine technische Revolution einläuteten und die Elektronenröhre ablösten. Im Gegensatz zu den stromgesteuerten Bipolartransistoren sind *Feldeffekttransistoren (FET)* spannungsgesteuert, es fließt also kein Steuerstrom in ihn hinein. Mit diesen werden wir uns im Klasse A Kurs intensiver auseinandersetzen.
+Die bisher behandelten Transistoren nennt man *Bipolare Transistoren*. Sie sind die Art der Transistoren, die in den 50er Jahren eine technische Revolution einläuteten und die Elektronenröhre ablösten. Im Gegensatz zu den stromgesteuerten Bipolartransistoren sind *Feldeffekttransistoren (FET)* spannungsgesteuert, es fließt also kein Steuerstrom in ihn hinein. Mit diesen werden wir uns im HB3-Kurs intensiver auseinandersetzen.
 
 ---
 
