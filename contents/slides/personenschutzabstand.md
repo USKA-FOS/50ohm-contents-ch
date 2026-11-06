@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
+
 ## Elektromagnetische Felder
 
 * Funkwellen bestehen aus elektrischen und magnetischen Feldern, die sich ausbreiten
@@ -16,9 +18,9 @@
 [question:NK201]
 
 ---
-## EMVU
+## NISV: Verordnung über den Schutz vor nicht-ionisierender Strahlung
 
-Der Betreiber der ortsfesten Amateurfunkstelle ist für die Sicherstellung der "elektromagnetischen Verträglichkeit in der Umwelt" (EMVU) verantwortlich.
+Der Betreiber einer Amateurfunkanlage ist für die Sicherstellung des Schutzes vor nicht-ionisierender Strahlung verantwortlich.
 
 <note>
 * Grenzwerte müssen eingehalten werden
@@ -33,26 +35,23 @@ Der Betreiber der ortsfesten Amateurfunkstelle ist für die Sicherstellung der "
 [question:VE502]
 
 ---
-## BImSchV und BEMFV
+## NISV: Verordnung über den Schutz vor nicht-ionisierender Strahlung
 
 Grenzwerte finden sich in der
 
-* "26. Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes" (26. BImSchV)
+* [Verordnung über den Schutz vor nicht-ionisierender Strahlung(https://www.fedlex.admin.ch/eli/cc/2000/38/de)
 
-und in der
+und Handreichungen zur Umsetzung finden sich in den Unterlagen der USKA für ihre Mitglieder
 
-* "Verordnung über das Nachweisverfahren zur Begrenzung elektromagnetischer Felder" (BEMFV)
-
+* [Emissions-Berechnung (NISV)](https://uska.ch/de/mitglieder/antennen/emissions-berechnung/) im NIS-Standortdatenblatt und der Emissionsberechnung für Amateurfunkanlagen — Hilfsmittel und Wegleitung gemäss NISV
 ---
 [question:VE505]
 
 --- style="font-size: smaller;"
-## Nachweisverfahren nach BEMFV
+## Nachweisverfahren nach NISV
 
-* In der Verordnung über das "Nachweisverfahren zur Begrenzung elektromagnetischer Felder" (BEMFV) ist das Nachweisverfahren beschrieben
-* *Funkamateur stellt vor Inbetriebnahme eigenständig sicher und dokumentiert, dass keine Gefährdung für Personen besteht*
+* *Funkamateure stellen vor der Inbetriebnahme ihrer Funkanlage eigenständig sicher und dokumentieren, dass keine Gefährdung für Personen besteht*
 * Funkamateure genießen als einzige Gruppe das Privileg, dieses Verfahren selbstständig durchzuführen
-* Alle anderen Betreiber von Funkstellen müssen kostenpflichtig die BNetzA in Anspruch nehmen.
 
 ---
 [question:VE503]
@@ -68,4 +67,4 @@ und in der
 * Es geht um den Schutz von Menschen!
 * Deshalb: Nachweisverfahren ist wichtiger Bestandteil der Amateurfunkprüfung
 * Nachweisverfahren wird in den nächsten Abschnitten ausführlicher behandelt
-* Wird aber erst bei Überschreiten eines bestimmten Werts der Strahlungsleistung der Antenne benötigt
+* Wird aber erst bei Überschreiten eines bestimmten Werts der Strahlungsleistung (6 Watt ERP) der Antenne benötigt
