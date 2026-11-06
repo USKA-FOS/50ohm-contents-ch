@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung kontrolliert
+
 --- style="font-size: 0.7em;"
 
 ### Zirkulare Polarisation
