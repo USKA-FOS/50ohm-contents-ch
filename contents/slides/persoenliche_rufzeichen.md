@@ -52,7 +52,7 @@
 %* Es gibt keinen Anspruch auf die Zuteilung eines bestimmten Rufzeichens
 %* Ohne Wunschrufzeichen wählt die BNetzA ein Rufzeichen aus
 
----
+%---
 %### Auswahl von Rufzeichen
 %
 %* Kurzschreibweise des Namens
