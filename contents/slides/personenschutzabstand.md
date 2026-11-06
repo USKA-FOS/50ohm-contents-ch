@@ -45,7 +45,12 @@ und Handreichungen zur Umsetzung finden sich in den Unterlagen der USKA für ihr
 * Funkamateure genießen als einzige Gruppe das Privileg, dieses Verfahren selbstständig durchzuführen
 
 ---
+[question:VT006]
 
+---
+[question:VT003]
+
+---
 * Es geht um den Schutz von Menschen!
 * Deshalb: Nachweisverfahren ist wichtiger Bestandteil der Amateurfunkprüfung
 * Nachweisverfahren wird in den nächsten Abschnitten ausführlicher behandelt
