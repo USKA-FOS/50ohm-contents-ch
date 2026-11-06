@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung 
+
 <left>
 * Mischprozess mit einer Oszillatorfrequenz
 * Konstante *Zwischenfrequenz*
@@ -22,7 +24,7 @@
 * Eine Frequenz, auf die für die weitere Verarbeitung gemischt wird
 * Im einfachsten Fall die NF $\rightarrow$ Direktüberlagerungsempfänger
 * Bei NF muss die Oszillatorfrequenz nahe der Empfangsfrequenz sein
-* Klasse A behandelt Mehrfachsuper-Empfänger mit mehreren Zwischenfrequenzen
+* Der HB9-Kurs behandelt Mehrfachsuper-Empfänger mit mehreren Zwischenfrequenzen
 
 ---
 [question:EF208]
