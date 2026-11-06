@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung kontrolliert, Fragen abgeglichen, alle vorhanden, andere Reihenfolge
+
 * Polarisation einer Antenne bezieht sich auf die Ausrichtung des elektrischen Feldes
 * In Hauptstrahlrichtung
 * In Bezug zur Erdoberfläche
