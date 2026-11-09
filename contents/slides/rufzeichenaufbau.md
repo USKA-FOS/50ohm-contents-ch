@@ -1,7 +1,9 @@
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
+
 ## Personengebundene Rufzeichen
 
 * Jeder Funkamateur mit Zulassung zum Amateurfunkdienst in Deutschland
-* Rufzeichen wird durch die BNetzA zugeteilt
+* Rufzeichen wird durch das BAKOM zugeteilt
 * Weltweit eindeutig
 * Darf nur durch den zugeteilten Funkamateur benutzt werden
 
@@ -37,11 +39,11 @@ Drei Teile:
 
 ---
 
-## Präfixe Deutschland
+## Präfixe Schweiz und Liechtenstein
 
-* DA bis DR
-* Y2 bis Y9
-  * früher DDR und werden nur noch sehr selten verwendet
+* HB3
+* HB9
+* HB0
 
 <note>
 * Y8 Zuletzt bei der Amateurfunkweltmeisterschaft WRTC 2018
@@ -51,18 +53,18 @@ Drei Teile:
 [question:VA406]
 ---
 
-## Personengebundene Rufzeichen Deutschland
+## Personengebundene Rufzeichen Schweiz
 
 <left>
 * 2 Buchstaben Präfix
 * eine Ziffer
-* 2-3 Buchstaben Suffix
+* in der Regel 2-3 Buchstaben Suffix
 </left>
 <right>
 Beispiele:
-* DL1ABC
-* DO5XYZ
-* DA0RC
+* HB3YPA
+* HB9ARK
+* HB0ABC
 </right>
 
 ---
@@ -80,11 +82,11 @@ Beispiele:
 
 ## Rufzeichenplan
 
-* In Deutschland durch die BNetzA
-* Nach [Rufzeichenplan](https://50ohm.de/rzp)
-* Verwendungszweck erkennbar anhand von Präfix, Ziffern und Suffix
-* Steht während der Prüfung zur Verfügung
-* Nach der Prüfung regelmäßig über Änderungen informieren
+* In der Schweiz durch das BAKOM
+%* Nach [Rufzeichenplan](https://50ohm.de/rzp)
+%* Verwendungszweck erkennbar anhand von Präfix, Ziffern und Suffix
+%* Steht während der Prüfung zur Verfügung
+%* Nach der Prüfung regelmäßig über Änderungen informieren
 
 <note>
 * Mit Dokument vertraut machen, da sehr hilfreich für etliche Fragen
