@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
+
 * *Verstärkerklasse A*: Kann das gesamte Signal verstärken
 * *Verstärkerklasse B*: Das halbe Signal wird gut verstärkt
 * *Verstärkerklasse A/B*: Kombination aus A und B mit Verstärkung von etwas mehr als dem halben Signal
