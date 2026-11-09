@@ -1,3 +1,5 @@
+%ARK: Ansatz zur Grundhelvetisierung angefangen, Bitte durch das Katalogteam zu ergänzen
+
 <left>
 * Funkbetrieb im Ausland unter bestimmten Voraussetzungen möglich
 * Abkommen zwischen vielen Staaten
@@ -13,12 +15,12 @@
 * Mehrere Empfehlungen in der Tabelle rechts
 </left>
 <right>
-| l: CEPT-Empfehlung | l: Erläuterung |
-| ECC Report 89 | Klasse N |
-| ERC-Report 32 | Grundlage für ECC-Empfehlung (05) 06 |
-| ECC-Empfehlung (05) 06 | Klasse E |
-| T/R 61-01 | Klasse A |
-| T/R 61-02 | HAREC |
+| l: CEPT-Empfehlung | l: Erläuterung | HB |
+| ECC Report 89 | Klasse N | nil |
+| ERC-Report 32 | Grundlage für ECC-Empfehlung (05) 06 | |
+| ECC-Empfehlung (05) 06 | Klasse E | HB3 |
+| T/R 61-01 | Klasse A | HB9   |
+| T/R 61-02 | HAREC | |
 [table:n_funken_im_ausland_cept_empfehlungen:CEPT-Empfehlungen]
 </right>
 <note>
@@ -36,7 +38,7 @@ Die Empfehlungen muss man nicht auswendig lernen, aber die wichtigsten Regelunge
 
 <note>
 * Nachschlagewerk: [CEPT-Länderliste](https://50ohm.de/cll) des DARC-Auslandsreferats
-* Werbung für DARC machen
+* Werbung für USKA machen
 </note>
 ---
 [question:VB106]
@@ -78,22 +80,22 @@ Die Trennung mit dem Schrägstrich wird "stroke" gesprochen
 
 ---
 
-## Auslandsbetrieb mit Klasse N
-Nicht erlaubt
+%## Auslandsbetrieb mit Klasse N
+%Nicht erlaubt
 
-<note>
-Deutschland hat die Klasse N noch nicht bei der CEPT als Entry Level License gemeldet
-</note>
+%<note>
+%Deutschland hat die Klasse N noch nicht bei der CEPT als Entry Level License gemeldet
+%</note>
 
 ---
 [question:VB105]
 ---
 
-## Ausländische Funkamateure in Deutschland
+## Ausländische Funkamateure der Schweiz
 * Gegenseitige CEPT-Regelungen
 * Vorübergehender Funkbetrieb bis 3 Monate
 * Ohne festen Wohnsitz
-* Je nach Klasse Präfix *DL/* oder *DO/*
+* Je nach Klasse Präfix *HB3/* oder *HB9/*
 
 ---
 [question:VB110]
@@ -112,9 +114,9 @@ Deutschland hat die Klasse N noch nicht bei der CEPT als Entry Level License gem
 * Bei der Behörde des Gastlandes beantragen
 * Ggf. muss auch für Funkgeräte eine entsprechende Erlaubnis eingeholt werden
 
-<note>
-Hier hilft das DARC-Auslandsreferat seinen Mitgliedern
-</note>
+%<note>
+%Hier hilft das DARC-Auslandsreferat seinen Mitgliedern
+%</note>
 
 ---
 [question:VB114]
