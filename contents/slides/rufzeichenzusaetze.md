@@ -1,3 +1,5 @@
+%ARK: in Bearbeitung
+
 Beim Funken von einem Standort anders als dem in der Zulassungsurkunde angegebenen Heimatstandort, kann ein Rufzeichenzusatz verwendet werden.
 <note>
 Die Angabe ist freiwillig. Kann aber für die Gegenstelle interessant sein, falls die Verbindung abbricht.
@@ -37,28 +39,28 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 * An Bord eines Luftfahrzeugs (Flugzeug, Heißluftballon, Zeppelin, o.ä.)
 * Muss sich komplett in der Luft befinden
 * Keine Verbindung zum Boden
-* Betrieb muss vom Luftfahrzeugführer erlaubt sein, jedoch nicht von der BNetzA genehmigt werden
+* Betrieb muss vom Luftfahrzeugführer erlaubt sein, jedoch nicht vom BAKOM genehmigt werden
 
 ---
-[question:BD201]
+[question:VO020]
 ---
-[question:BD202]
+[question:BD206]
 ---
-[question:VE705]
+[question:BD207]
 ---
 
 ## Maritim Mobil
 * An Bord eines Wasserfahrzeugs (Motorboot, Segelyacht, o.ä.)
 * Außerhalb der 12-Meilen-Zone
 * Auf Flüssen, Seen oder ähnlichen Binnengewässern darf "/m" (mobil) verwendet werden
-* Betrieb muss vom Schiffsführer erlaubt sein, jedoch nicht von der BNetzA genehmigt werden
+* Betrieb muss vom Schiffsführer erlaubt sein, jedoch nicht vom BAKOM genehmigt werden
 
 ---
-[question:BD205]
+[question:BD203]
 ---
-[question:VE706]
+[question:BD204]
 ---
-[question:VD115]
+[question:VO023]
 ---
 
 ## Mobil
@@ -66,9 +68,9 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 * Oder an Bord eines Schiffs auf Binnengewässern
 
 ---
-[question:BD203]
+[question:VO024]
 ---
-[question:BD204]
+[question:VO030]
 ---
 
 ## Portabel
@@ -77,9 +79,9 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 * Auch bei Bewegung (zu Fuß) mit tragbarem Funkgerät
 
 ---
-[question:BD206]
+[question:VO033]
 ---
-[question:BD207]
+[question:VO021]
 ---
 
 ## Remote
@@ -87,7 +89,7 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 * Optional "/R" bzw. "/Remote"
 
 ---
-[question:BD208]
+[question:BD205]
 ---
 
 ## Trainee
@@ -95,9 +97,20 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 * Alle anderen Zusätze sind freiwillig und können weggelassen werden
 
 ---
-[question:BD209]
+[question:VO022]
 ---
-[question:VD306]
+[question:BD201]
 ---
-[question:BD210]
+[question:BD202]
 
+---
+[question:VN001]
+
+---
+[question:VN002]
+
+---
+[question:VN003]
+
+---
+[question:VN031]
