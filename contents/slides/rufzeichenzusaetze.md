@@ -54,7 +54,7 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 ---
 [question:VN003]
 ---
-[question:VN031]
+[question:VO031]
 
 ## Maritim Mobil
 * An Bord eines Wasserfahrzeugs (Motorboot, Segelyacht, o.ä.)
