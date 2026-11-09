@@ -150,7 +150,6 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 [question:NE310]
 ---
 [question:BE405]
----
 
 %## Sendeleistung
 %* Nach Anlage 1 der AFuV
