@@ -68,6 +68,7 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 [question:BD205]
 ---
 [question:VO032]
+---
 
 ## Mobil
 * In einem Landfahrzeug wie Auto oder Zug
@@ -85,6 +86,7 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 [question:VO030]
 ---
 [question:VO033]
+---
 
 ## Portabel
 * Station vorübergehend an einem Standort, der nicht auf der Zuteilungsurkunde eingetragen ist
