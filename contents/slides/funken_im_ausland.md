@@ -1,5 +1,5 @@
 %ARK: Ansatz zur Grundhelvetisierung angefangen, Bitte durch das Katalogteam zu ergänzen
-%ARK: Neue Fragen, die auf der Webseite verwendet werden, hier eingefügt
+%ARK: Fragen abgeglichen und neue Fragen, die auf der Webseite verwendet werden, hier eingefügt
 
 <left>
 * Funkbetrieb im Ausland unter bestimmten Voraussetzungen möglich
@@ -92,7 +92,7 @@ Die Trennung mit dem Schrägstrich wird "stroke" gesprochen
 %</note>
 
 ---
-[question:]
+[question:VB110]
 ---
 [question:BD212]
 ---
