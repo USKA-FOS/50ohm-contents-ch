@@ -57,8 +57,6 @@ $L = \dfrac{\mu_0 \cdot \mu_r \cdot N^2 \cdot A_S}{l}$
 ---
 [question:EC307]
 ---
-
-???
 [question:EC306]
 ---
 [question:EC305]
