@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung nicht möglich, da kein Äquivalent in HB. -> Streichen
+
 <left>
 * Eine Standortbescheinigung ersetzt die Anzeige und kann auf *Antrag kostenpflichtig* durch die BNetzA ausgestellt werden
 * Funkamateur muss alle notwendigen Unterlagen und Informationen für die Berechnung bereitstellen
