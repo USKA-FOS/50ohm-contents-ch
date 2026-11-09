@@ -1,4 +1,5 @@
 %ARK: Grundhelvetisierung nicht möglich, da kein Äquivalent in HB. -> Streichen
+Für HB nicht relevant
 
 <left>
 * Eine Standortbescheinigung ersetzt die Anzeige und kann auf *Antrag kostenpflichtig* durch die BNetzA ausgestellt werden
