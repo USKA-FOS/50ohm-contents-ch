@@ -1,4 +1,4 @@
-%ARK: Grundhelvetisierung 
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
 
 <left>
 [picture:613:n_yagi_uda:Yagi-Uda-Antenne mit Einspeisung am Dipol am vorletzten Element]
