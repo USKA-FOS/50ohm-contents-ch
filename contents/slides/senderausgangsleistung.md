@@ -1,4 +1,4 @@
-%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen, Frage EJ209 stehen gelassen, obwohl sie auf der Webseite nicht vorkommt, da sie schon passt.
 
 * Verpflichtung von Funkamateuren die Leistungsgrenzwerte ihrer Funkanlage einzuhalten
 * Auf vielen Amateurfunkbändern gilt eine *maximale Senderausgangsleistung* (*PEP*, Peak-Envelope-Power) als Grenzwert
