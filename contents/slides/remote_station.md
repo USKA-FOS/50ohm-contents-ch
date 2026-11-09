@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung überprüft, Fragen abgeglichen
+
 ## Remote-Betrieb von Funkstationen
 
 * Besteht aus mehreren Funktionsblöcken  
