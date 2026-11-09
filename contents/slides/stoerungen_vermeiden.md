@@ -48,7 +48,7 @@
 ## Ursachenforschung
 
 * Prüfen auf Behebung mit eigenen Mitteln
-* Falls Ursache nicht ermittelt oder Störung nicht beseitigt werden kann $\rightarrow$ Nachbarn auf *Funkstörungsannahme der BNetzA* hinweisen
+%* Falls Ursache nicht ermittelt oder Störung nicht beseitigt werden kann $\rightarrow$ Nachbarn auf das *BAKOM* hinweisen
 
 <note>
 * Bei eigener Suche als USKA-Mitglied Hilfe bei den USKA-Spezialsten für elektromagnetische Verträglichkeit anfragen
