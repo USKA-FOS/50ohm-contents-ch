@@ -68,12 +68,15 @@ Die Trennung mit dem Schrägstrich wird "stroke" gesprochen
 
 ---
 [question:BD213]
+
 <note>
 * Deutsches Klasse-E-Rufzeichen erhält Schweizer Entry Level Präfix
 * Entry Level wird ein paar Folien später erklärt
 </note>
+
 ---
 [question:BD214]
+
 <note>
 * Deutsches Klasse-A-Rufzeichen erhält Schweizer HAREC Präfix
 * HAREC wird ein paar Folien später erklärt
@@ -89,7 +92,7 @@ Die Trennung mit dem Schrägstrich wird "stroke" gesprochen
 %</note>
 
 ---
-[question:VB110]
+[question:]
 ---
 [question:BD212]
 ---
