@@ -24,11 +24,6 @@
 * Spitzenleistung des Senders bei maximaler Aussteuerung
 * Leistung bei der höchsten Spitze einer Hochfrequenzschwingung
 
-%<note>
-%* Sprache variiert
-%* Für Klasse E und A interessant, da deren maximal zulässige Leistung in der Anlage 1 der AFuV in PEP angegeben ist
-%</note>
-
 ---
 [picture:875:e_senderausgangsleisung_2:Höchste Spitze der Modulationshüllkurve]
 ---
