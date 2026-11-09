@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
+
 * Antennen haben einen Speise- oder Fußpunktwiderstand, abhängig von der genauen Anordnung der Antennenelemente
 * Passt dieser nicht zum Wellenwiderstand der Zuleitung, kommt es zu einer *Reflexion*
 * Sendeleistung wird zum Funkgerät zurück reflektiert $\rightarrow$ kann nicht an der Antenne abgestrahlt werden
