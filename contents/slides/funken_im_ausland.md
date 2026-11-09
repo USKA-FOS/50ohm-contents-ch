@@ -82,8 +82,6 @@ Die Trennung mit dem Schrägstrich wird "stroke" gesprochen
 * HAREC wird ein paar Folien später erklärt
 </note>
 
----
-
 %## Auslandsbetrieb mit Klasse N
 %Nicht erlaubt
 
@@ -106,9 +104,9 @@ Die Trennung mit dem Schrägstrich wird "stroke" gesprochen
 * Je nach Klasse Präfix *HB3/* oder *HB9/*
 
 ---
-[question:VB110]
+[question:VB114]
 ---
-[question:BD212]
+[question:VB113]
 ---
 
 ## Klubstationen
@@ -127,9 +125,9 @@ Die Trennung mit dem Schrägstrich wird "stroke" gesprochen
 %</note>
 
 ---
-[question:VB114]
+[question:VB111]
 ---
-[question:VB113]
+[question:VB112]
 ---
 
 ## Nationale Regelungen
@@ -144,9 +142,9 @@ Beliebt:
 * $\qty{1000}{\watt}$ PEP Kurzwelle mit Klasse A in Dänemark
 </note>
 ---
-[question:VB111]
+[question:VB102]
 ---
-[question:VB112]
+[question:VB103]
 ---
 
 ## Umzug ins Ausland
@@ -159,10 +157,6 @@ Beliebt:
 <note>
 Beispiel: Auf dem Antrag zur Zulassung zum Amateurfunkdienst ist ein Feld zum Ankreuzen, ob man bereits eine Prüfung nach HAREC besitzt - wenn ja, wird das direkt anerkannt.
 </note>
----
-[question:VB102]
----
-[question:VB103]
 ---
 [question:VB101]
 ---
