@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
+
 * Verpflichtung von Funkamateuren die Leistungsgrenzwerte ihrer Funkanlage einzuhalten
 * Auf vielen Amateurfunkbändern gilt eine *maximale Senderausgangsleistung* (*PEP*, Peak-Envelope-Power) als Grenzwert
 * Auch unerwünschte Aussendungen sind von Bedeutung
@@ -22,10 +24,10 @@
 * Spitzenleistung des Senders bei maximaler Aussteuerung
 * Leistung bei der höchsten Spitze einer Hochfrequenzschwingung
 
-<note>
-* Sprache variiert
-* Für Klasse E und A interessant, da deren maximal zulässige Leistung in der Anlage 1 der AFuV in PEP angegeben ist
-</note>
+%<note>
+%* Sprache variiert
+%* Für Klasse E und A interessant, da deren maximal zulässige Leistung in der Anlage 1 der AFuV in PEP angegeben ist
+%</note>
 
 ---
 [picture:875:e_senderausgangsleisung_2:Höchste Spitze der Modulationshüllkurve]
