@@ -1,4 +1,5 @@
 %ARK: Ansatz zur Grundhelvetisierung angefangen, Bitte durch das Katalogteam zu ergänzen
+%ARK: Neue Fragen, die auf der Webseite verwendet werden, hier eingefügt
 
 <left>
 * Funkbetrieb im Ausland unter bestimmten Voraussetzungen möglich
@@ -88,7 +89,11 @@ Die Trennung mit dem Schrägstrich wird "stroke" gesprochen
 %</note>
 
 ---
-[question:VB105]
+[question:VB110]
+---
+[question:BD212]
+---
+[question:VB116]
 ---
 
 ## Ausländische Funkamateure der Schweiz
@@ -157,3 +162,24 @@ Beispiel: Auf dem Antrag zur Zulassung zum Amateurfunkdienst ist ein Feld zum An
 [question:VB103]
 ---
 [question:VB101]
+---
+[question:VB117]
+---
+[question:BD215]
+---
+[question:BD216]
+---
+[question:BD217]
+---
+[question:BD218]
+
+---
+[question:VO025]
+---
+[question:VO026]
+---
+[question:VO027]
+---
+[question:VO028]
+---
+[question:VB115]
