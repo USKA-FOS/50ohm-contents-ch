@@ -1,14 +1,12 @@
-%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen, neue Fragen eingefügt
 
 ## Personengebundene Rufzeichen
 
-* Jeder Funkamateur mit Zulassung zum Amateurfunkdienst in Deutschland
+* Jeder Funkamateur mit Zulassung zum Amateurfunkdienst in der Schweiz
 * Rufzeichen wird durch das BAKOM zugeteilt
 * Weltweit eindeutig
 * Darf nur durch den zugeteilten Funkamateur benutzt werden
 
----
-[question:VC116]
 ---
 
 ## Aufbau von Rufzeichen
@@ -68,7 +66,19 @@ Beispiele:
 </right>
 
 ---
-[question:VD203]
+[question:VA408]
+---
+
+[question:VA409]
+---
+
+[question:VA410]
+---
+
+[question:VA411]
+---
+
+[question:VA412]
 ---
 
 ## Weitere Rufzeichen
