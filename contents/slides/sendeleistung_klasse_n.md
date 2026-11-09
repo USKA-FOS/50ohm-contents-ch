@@ -1,4 +1,7 @@
-* $\qty{10}{\meter}$-Band: $\qty{10}{\watt}$ ERP / $\qty{16,4}{\watt}$ EIRP
+%ARK: Sendeleistung der Klasse N für HB nicht relevant
+%ARK: Ganz streichen oder irgendetwas Sinnvolles zur Sendeleistung für HB3 erzählen
+
+$\qty{10}{\meter}$-Band: $\qty{10}{\watt}$ ERP / $\qty{16,4}{\watt}$ EIRP
 * $\qty{2}{\meter}$- und $\qty{70}{\centi\meter}$-Band: $\qty{6,1}{\watt}$ ERP / $\qty{10}{\watt}$ EIRP
 
 ---
