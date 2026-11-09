@@ -31,6 +31,8 @@ Ordnungswidrigkeiten sind:
 * Nutzung von Frequenzen außerhalb der zugeteilten Amateurfunkbänder
 * Überschreiten der zulässigen maximalen Sendeleistung
 
+---
+
 [question:VQ004]
 ---
 [question:VQ005]
