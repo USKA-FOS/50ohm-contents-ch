@@ -1,4 +1,4 @@
-%ARK: Grundhelvetisierung in Arbeit 
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen, alte Fragen gelöscht, neue Fragen eingefügt 
 
 <left>
 [picture:648:n_relaisfunkstellen_aufbau:Schematische Darstellung einer Relaisfunkstelle mit Nutzern]
@@ -35,7 +35,7 @@ eine fernbediente Amateurfunkstation (auch in Satelliten), die empfangene Amateu
 </fragment>
 
 ---
-[question:VD118]
+[question:VN007]
 ---
 
 ## Funktionsweise
@@ -122,10 +122,10 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 ## Störungsfreier Betrieb
 * Grundsätzlich können alle Funkamateure mit ihrem zugeteilten Rufzeichen Relais nutzen
 %* Betreiber kann zur Sicherstellung des störungsfreien Betriebs Funkamateure ausschließen
-%* Die BNetzA ist hiervon zu unterrichten
+%* Das BAKOM ist hiervon zu unterrichten
 
 ---
-[question:VD504]
+[question:BE417]
 ---
 
 ## Funkbetrieb auf Repeatern
@@ -157,7 +157,7 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 %* Für automatische Station oberhalb von $\qty{30}{\mega\hertz}$ mit $\qty{50}{\watt}$ ERP
 
 ---
-[question:VD503]
+[question:BE408]
 ---
 
 ## Rapport
@@ -165,6 +165,3 @@ Ein Beispiel für weitere Einstellungen ist ein Subton mit CTCSS
 * Es wird darauf verzichtet
 * Nur die Lesbarkeit (R) wird im Rapport beurteilt
 * Es ist nicht üblich, QSOs über Relais mit einer QSL zu bestätigen
-
----
-[question:BE408]
