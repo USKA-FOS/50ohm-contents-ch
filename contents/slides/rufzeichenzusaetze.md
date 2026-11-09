@@ -1,4 +1,4 @@
-%ARK: in Bearbeitung
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen und sinnvoll gruppiert
 
 Beim Funken von einem Standort anders als dem in der Zulassungsurkunde angegebenen Heimatstandort, kann ein Rufzeichenzusatz verwendet werden.
 <note>
@@ -11,8 +11,6 @@ Die Angabe ist freiwillig. Kann aber für die Gegenstelle interessant sein, fall
 | mm | maritim mobil | An Bord eines Schiffs auf See |
 | m | mobil | Von einem Landfahrzeug oder einem Schiff auf Binnengewässern aus |
 | p | portabel | Zu Fuß unterwegs oder vorübergehend ortsfest |
-| R | Remote | Remote-Betrieb |
-| T | Trainee | Ausbildungsfunk |
 [table:n_rufzeichenzusaetze:Mögliche Rufzeichenzusätze]
 
 <note>
@@ -25,15 +23,16 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 
 <fragment>
 | l: Schreibweise | X: Aussprache |
-| DL1FLO/m | Delta Lima Eins Foxtrott Lima Oskar (Stroke) Mobil |
-| DM4EAX/p | Delta Mike Vier Echo Alpha X-Ray (Stroke) Portabel |
-| DL1ASN/mm | Delta Lima Eins Alpha Sierra November (Stroke) Maritim Mobil |
-| DG2RON/am | Delta Golf Zwei Romeo Oscar November (Stroke) Aeronautisch Mobil |
+| HB9FRV/m | Hotel Bravo Neun Foxtrott Romeo Victor (Stroke) Mobil |
+| HB9EVT/p | Hotel Bravo Neun Echo Victor Tango (Stroke) Portabel |
+| HB9HQ/mm | Hotel Bravo Neun Hotel Quebec (Stroke) Maritim Mobil |
+| HB9XYZ/am| Hotel Bravo Neun X-Ray Yankee Zulu (Stroke) Aeronautisch Mobil |
 [table:n_rufzeichenzusaetze_sprechweise:Sprechweise von Rufzeichenzusätzen, "Stroke" ist optional und kann weggelassen werden]
 
 </fragment>
 
 ---
+[question:VO020]
 
 ## Aeronautisch Mobil
 * An Bord eines Luftfahrzeugs (Flugzeug, Heißluftballon, Zeppelin, o.ä.)
@@ -42,12 +41,19 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 * Betrieb muss vom Luftfahrzeugführer erlaubt sein, jedoch nicht vom BAKOM genehmigt werden
 
 ---
-[question:VO020]
+[question:VO022]
 ---
-[question:BD206]
+[question:BD201]
 ---
-[question:BD207]
+[question:BD202]
 ---
+[question:VN001]
+---
+[question:VN002]
+---
+[question:VN003]
+---
+[question:VN031]
 
 ## Maritim Mobil
 * An Bord eines Wasserfahrzeugs (Motorboot, Segelyacht, o.ä.)
@@ -56,22 +62,28 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 * Betrieb muss vom Schiffsführer erlaubt sein, jedoch nicht vom BAKOM genehmigt werden
 
 ---
-[question:BD203]
+[question:VO021]
 ---
-[question:BD204]
+[question:BD205]
 ---
-[question:VO023]
----
+[question:VO032]
 
 ## Mobil
 * In einem Landfahrzeug wie Auto oder Zug
 * Oder an Bord eines Schiffs auf Binnengewässern
 
 ---
+[question:BD203]
+---
+[question:BD204]
+---
+[question:VO023]
+---
 [question:VO024]
 ---
 [question:VO030]
 ---
+[question:VO033]
 
 ## Portabel
 * Station vorübergehend an einem Standort, der nicht auf der Zuteilungsurkunde eingetragen ist
@@ -79,38 +91,6 @@ Es dürfen nur diese Zusätze verwendet werden. Keine anderen.
 * Auch bei Bewegung (zu Fuß) mit tragbarem Funkgerät
 
 ---
-[question:VO033]
+[question:BD206]
 ---
-[question:VO021]
----
-
-## Remote
-* Betrieb an einer Remote-Station
-* Optional "/R" bzw. "/Remote"
-
----
-[question:BD205]
----
-
-## Trainee
-* Bei Ausbildungsfunkbetrieb ist "/T" bzw. "/Trainee" verpflichtend
-* Alle anderen Zusätze sind freiwillig und können weggelassen werden
-
----
-[question:VO022]
----
-[question:BD201]
----
-[question:BD202]
-
----
-[question:VN001]
-
----
-[question:VN002]
-
----
-[question:VN003]
-
----
-[question:VN031]
+[question:BD207]
