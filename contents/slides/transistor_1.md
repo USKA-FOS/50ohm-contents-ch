@@ -1,4 +1,4 @@
-%ARK: Grundhelvetisierung in. A.
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen, Reihenfolge belassen
 
 --- data-transition="none"
 ## Von der Diode zum Transistor
