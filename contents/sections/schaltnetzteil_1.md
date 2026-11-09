@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
+
 Ein Schaltnetzteil (engl. switched-mode power supply) wandelt eine Wechselspannung in eine stabilisierte Gleichspannung um. Dazu richtet es zunächst die Eingangsspannung gleich, schaltet sie anschließend sehr schnell ein und aus, transformiert sie so effizient auf die gewünschte Spannung und glättet sie abschließend. Wie das im Detail funktioniert werden wir uns im HB9-Kurs im Kapitel [sec:schaltnetzteil_2] genauer anschauen. 
 
 <margin>
