@@ -87,8 +87,6 @@ Beispiele:
 * Klubstationen
 
 ---
-[question:VD202]
----
 
 ## Rufzeichenplan
 
@@ -101,6 +99,3 @@ Beispiele:
 <note>
 * Mit Dokument vertraut machen, da sehr hilfreich für etliche Fragen
 </note>
-
----
-[question:VD201]
