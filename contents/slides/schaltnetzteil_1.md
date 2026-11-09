@@ -1,4 +1,4 @@
- %ARK: Grundhelvetisierung 
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
 
 * Das im vorigen Kapitel vorgestellte Netzteil hat den Nachteil eines hohen Gewichts durch den Transformator und einen schlechten Wirkungsgrad aufgrund von Verlusten bei der Konstanthaltung der Ausgangsspannung.
 * Schaltnetzteile bringen die Eingangsspannung auf eine höhere Frequenz, wodurch kleinere Transformatoren eingesetzt werden können und bieten effizientere Wege die Ausgangsspannung konstant zu halten.
