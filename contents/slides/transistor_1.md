@@ -1,6 +1,5 @@
 %ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen, Reihenfolge belassen
 
---- data-transition="none"
 ## Von der Diode zum Transistor
 <left>
 Die Funktion kann man sich so vorstellen:
