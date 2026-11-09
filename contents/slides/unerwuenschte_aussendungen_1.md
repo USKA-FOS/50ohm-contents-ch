@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
+
 * Mischer und Verstärker erzeugen unerwünschte Frequenzanteile
 * Gelangen diese an die Antenne und werden abgestrahlt $\rightarrow$ *unerwünschte Aussendungen*
 * Liegen oft außerhalb der Amateurfunkbänder, z.B. im Flugfunk oder kommerziellen Rundfunk
@@ -14,8 +16,9 @@
 
 ---
 
-* Amateurfunkverordnung (AFuV): *Unerwünschte Aussendungen* auf das geringstmögliche Maß beschränken
-* Es gibt weitere gesetzliche Regelungen für konkrete Grenzwerte $\rightarrow$ Klasse A
+* Das Schweizerische Bundesamt für Kommunikation (BAKOM) regelt die technischen Anforderungen an Funkanlagen, um Störungen im Frequenzspektrum zu verhindern. Im Amateurfunk gelten strenge Vorgaben bezüglich unerwünschter Aussendungen (wie Oberwellen oder parasitäre Schwingungen)
+* *Unerwünschte Aussendungen* sind auf das geringstmögliche Maß zu beschränken
+* Es gibt weitere Normen und Vorschriften für konkrete Grenzwerte. die im HB9-Kurs behandelt werden. (RIR, CEPT, ETSI)
 
 ---
 [question:NJ201]
