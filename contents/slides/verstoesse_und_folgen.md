@@ -1,5 +1,6 @@
 %ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen, alte Fragen entfernt
 %ARK: neue Fragen provisorisch gemäss Kommentar auf der Webseite von YPA eingefügt
+%ARK: Die rechtlichen Aspekte sollten mit Quellen belegt werden.
 
 ### Verstöße und Folgen
 
@@ -29,10 +30,6 @@ Ordnungswidrigkeiten sind:
 * Nutzung von Frequenzen ohne Frequenzzuteilung
 * Nutzung von Frequenzen außerhalb der zugeteilten Amateurfunkbänder
 * Überschreiten der zulässigen maximalen Sendeleistung
-
-<fragment>
-Das BAKOM kann einen Verstoß mit einer Buße ahnden.
-</fragment>
 
 [question:VQ004]
 ---
