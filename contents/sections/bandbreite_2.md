@@ -7,3 +7,5 @@ Die Bandbreite gibt also an, wieviel Spektrum das Signal beansprucht. Üblicherw
 </indepth>
   
 [question:EA105]
+
+%Ergänzen mit Bandbreite Audrücken (RR AP1, §2. Siehe Merkblatt 2021, SEite 10)
