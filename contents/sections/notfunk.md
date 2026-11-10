@@ -46,7 +46,7 @@ Mit einem *Notzeichen* teilt eine Station des See- oder Flugfunkdienstes an Bord
 Da alle diese Zeichen im Amateurfunk nicht verwendet werden dürfen, bietet es sich im Notfall an, andere einschlägige Begriffe, wie "Notfall" oder "Emergency" zu verwenden, um auf sich aufmerksam zu machen.
 </indepth>
 
-%Amateurfunkverordnung ist das Deutsche Gesetz. Gesetzesgrundlage für SOS/MAYDAY Verboot in der Schweiz ist noch in Abklärung bei EXR.
+%Amateurfunkverordnung ist das Deutsche Gesetz. Gesetzesgrundlage für SOS/MAYDAY Verbot VNF Art 47 Abs.2 Bst. c
 Der Gebrauch dieser Not-, Dringlichkeits- oder Sicherheitszeichen ist im Amateurfunk durch die Amateurfunkverordnung verboten. Das bedeutet aber nicht, dass keine Notrufe abgesetzt werden dürften. Es ist lediglich darauf zu achten, dabei beispielsweise nicht MAYDAY zu verwenden.
 
 
