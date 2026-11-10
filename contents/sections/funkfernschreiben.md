@@ -30,24 +30,32 @@ BK QSL = VY 73 DE HB3AB SK
 <webmargin>
 | l: | X: |
 | Abkz. | Bedeutung |
-| BK | Unterbrechung der Sendung; Formlose Übergabe |
+| BK | Unterbrechung der Sendung; Formlose Übergabe (vom Englischen "Break")  |
 | CQ | Allgemeiner Anruf |
 | DE | von |
 | K | Aufforderung zum Senden |
 | PSE | Bitte (vom Englischen "Please") |
-| QSL | Ich bestätige den Empfang |
 | R | Received (Empfangsbestätigung) |
-| RPRT | Rapport (vom Englischen "Report") |
 | RST | RST-Rapport |
-| SK | Ende der Verbindung (vom Englischen "Silent Key") |
-| TNX | Danke (vom Englischen "Thanks") |
+| SK** | Ende der Verbindung (vom Englischen "Silent Key") |
+| TNX** | Danke (vom Englischen "Thanks") |
 | UR | du bist (im Sinne von "dein Signal ist", vom Englischen "you are") |
-| VY | sehr (vom Englischen "very") |
-| 73 | viele Grüße |
-| = | Trennzeichen |
+| VY** | sehr (vom Englischen "very") |
+| 73** | viele Grüße |
+| =** | Trennzeichen |
+| CW* | Continuous wave |
+| DX* | Long distance |
+| MSG* | Message |
+| RX* | Trennzeichen |
+| TEST* | Contest |
+| TX* | Transmitter |
 [table:n_funkfernschreiben_abkuerzungen:Betriebliche Abkürzungen in der Telegrafie]
 </webmargin>
-  
+
+%Hinweis zur Tabelle: Wo nötig noch das Englisch dazuschreiben. Tabelle logisch/sinnvoll sortieren
+% *= sind neu in der Liste wegen HB-Liste
+% **= sind von DARC Liste geblieben obwohl nicht in der HB-Liste
+
 Es gibt auch digitale Übertragungsverfahren, bei denen die Abwicklung anders erfolgt. FT8 oder FT4 funktionieren beispielsweise auch bei widrigen Funkbedingungen, also wenn beim Empfänger im Vergleich zum Grundrauschen lediglich eine niedrige Signalstärke erreicht werden kann. Dafür können bei den genannten Verfahren aber nur ganz wenige Zeichen je Sendung übertragen werden. Entsprechend ist die Abwicklung noch kompakter. Andere digitale Verfahren übertragen gar keine Texte, sondern beispielsweise Bilder oder Video, mit an diese Umstände angepasster Betriebsabwicklung. Darauf wird in der Prüfung aber nicht eingegangen.
 
 [question:BE112]
