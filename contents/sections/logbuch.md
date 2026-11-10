@@ -1,4 +1,4 @@
----
+%Rechtsgrundlage zum Logbuch VNF Art. 49 Aufzeichnungen über den Funkverkehr, in Lawbox erfassen
 
 Mit einem *Logbuch* hat man die Möglichkeit, seine Funkaktivitäten zu dokumentieren. Ein Logbuch kann man entweder elektronisch oder auch handschriftlich führen. Ähnlich wie bei einem Logbuch auf dem Schiff oder in einem Flugzeug kann man so alle wichtigen Informationen zu den Funkverbindungen festhalten, die man getätigt hat. Seltener wird das Logbuch auch als Stationstagebuch bezeichnet.
 
