@@ -1,3 +1,5 @@
+% Gesetzliche Grundlage VNF Art. 45
+
 <margin>
 [photo:84:n_sstv:Ein per SSTV übertragenes Bild]
 </margin>
