@@ -1,3 +1,5 @@
+%Bei der Bearbeitung beachten, dass BE116 reaktiviert wird, bzw zurückkommt, bzw bleibt. (wurde versehentlich gelöscht)
+
 Im Amateurfunk finden auch Wettbewerbe statt, die als *Contest* bezeichnet werden. Zusammenfassend gesagt, ist es das Ziel jedes Contests, möglichst viele Funkverbindungen in einer begrenzten Zeit herzustellen. Conteste dienen dem sportlichen Wettkampf, aber auch dazu, die eigene Amateurfunkstation und Betriebsabwicklung zu verbessern. Jeder Contest unterliegt Regeln, die der Veranstalter in einer *Ausschreibung* festlegt.
 
 <indepth>
