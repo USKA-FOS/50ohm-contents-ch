@@ -1,4 +1,4 @@
-% IN BEARBEITUNG
+% ARK: Grundhelvetisierung durchgeführt
 
 ## Geschafft!
 
@@ -24,39 +24,44 @@
 
 ## Sektionen (OV)
 
-* Über die USKA-Webseite die nächste Sektion finden
+* Über die USKA-Webseite die nächste [Sektion](https://uska.ch/de/funkamateure/die-uska/sektionen/) finden
 * Lokale Mitglieder erleichtern den Einstieg ins Hobby
+* Sektionen ("Ortsgruppen") führen regelmässige Treffen durch
 
 ---
 
 ## Kollektivmitglieder der USKA
 
-* 
+* Sind der USKA angeschlossene [Amateurfunkvereine](https://uska.ch/de/funkamateure/die-uska/kollektivmitglieder/)
+* Eigenständige Vereine, Contest-Teams, Clubstationen von Hochschulen und weitere Institutionen mit Bezug zum Amateurfunk
+
+---
 
 ## Online-Community
 
-* [DARC-Chat](https://chat.darc.de)
-* [DARC-Treff](https://treff.darc.de)
-* Eigene [Mastodon-Instanz](https://social.darc.de)
+* BigBlueButton (BBB) ist das Konferenzsystem der USKA
+* Die USKA stellt ihren Mitgliedern das [Konferenzsystem BBB](https://bbb3.myuska.ch/) zur Verfügung
+* Online Meetings lassen sich so leicht und kostenlos organisieren und durchführen
 
 ---
 
 ## Aktivitäten nach der Prüfung
 
+* Länder sammeln, DX-en
 * Conteste, Selbstbau, Notfunk, Portabelbetrieb u.v.m.
+* Sektions-Stamm besuchen
 * Devise: "Nach der Prüfung ist vor der Prüfung"
-* Die jährliche [HAM-Challenge](https://www.hamchallenge.org) bietet einen guten Überblick
+* Das (fast) jährlich durchgeführte USKA-HAMFEST bietet eine gute Gelegenheit Kontakte zu knüpfen
 
 ---
 
 ## Veranstaltungen & Weiterbildung
 
-* HAM RADIO in Friedrichshafen
-* Funk.Tag in Kassel
-* AFUBarcamp und Dienstags-Treff
+* HAM RADIO in Friedrichshafen, Europas grösstes Amateurfunktreffen
+* Surplus Party in Zofingen
 
 ---
 
 ## Viel Spaß mit deinem neuen Hobby!
 
-Stellvertretend für das 50ohm.de-Team: Lars DC4LW und Matthias DL9MJ
+Stellvertretend für das 50ohm.ch-Team: Sandy, HB3YPA und Matthias HB9FRV
