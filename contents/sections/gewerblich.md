@@ -1,7 +1,7 @@
 %YPA: Wo ist das definiert? in RR 1.56? 
 %YPA: gehört "rechtsgeschäftlich" hier hin?
 %YPA: in D verboten ist "gewerbliche Nutzung" in HB ist "rechtsgeschäftliche mitteilung". Stimmt die Aussage im ersten Absatz für die Schweiz? Ich würde die ganze Seite nur auf das "Rechtsgeschäftlich" reduzieren. Mit dem ersten Absatz machen wir ein Fass auf, dass nirgends gefragt wird und wohl nicht abschliessend geklärt werden kann.
-Die zwei Beispiele zum Rechtsgeschäftlich sind von mir.
+% Die zwei Beispiele zum Rechtsgeschäftlich sind von mir.
 %YPA: der Seitentitel muss geändert werden. Neu tbd. Deshalb noch kein Issue eröffnet.
 
 
