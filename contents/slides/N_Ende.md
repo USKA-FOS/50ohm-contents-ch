@@ -1,31 +1,37 @@
+% IN BEARBEITUNG
+
 ## Geschafft!
 
 <left>
 [photo:329:n_team:50ohm.de-Team]
 </left>
 <right>
-* Jetzt mit Lern-App [50ohm](https://app.darc.de) auf die Prüfung vorbereiten
-* Zeitnah zur Prüfung bei der BNetzA anmelden
+* Jetzt mit dem [HamRadioTrainer](http://www.hamradiotrainer.de/)) auf die Prüfung vorbereiten
+* Dazu unbedingt den richtigen Fragenkatalog nach Angabe Deines Kursleiters auswählen
+* Zeitnah zur Prüfung beim BAKOM anmelden
 * Nach bestandener Prüfung Rufzeichen beantragen
 </right>
 
 ---
 
-## DARC-Mitgliedschaft
+## USKA-Mitgliedschaft
 
-* Größter deutscher Amateurfunkverband
+* Der Amateurfunkverband der Schweizer Funkamateure
 * Setzt sich für Frequenzen, Ausbildung und Nachwuchs ein
 * Eine Mitgliedschaft trägt diese Arbeit aktiv mit
 
 ---
 
-## Ortsverbände (OV)
+## Sektionen (OV)
 
-* Über die PLZ-Suche den nächsten OV finden
-* 24 Distrikte, erkennbar am Distriktsortskenner (DOK), z.B. B17
+* Über die USKA-Webseite die nächste Sektion finden
 * Lokale Mitglieder erleichtern den Einstieg ins Hobby
 
 ---
+
+## Kollektivmitglieder der USKA
+
+* 
 
 ## Online-Community
 
