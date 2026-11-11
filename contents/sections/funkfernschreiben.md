@@ -19,42 +19,38 @@ Die Abwicklung einer Telegrafie-Verbindung erfolgt sowohl bei der Morsetelegrafi
 Seitlich ist ein üblicher Ablauf einer kurzen Telegrafieverbindung dargestellt. Mit der Tabelle [ref:n_funkfernschreiben_abkuerzungen] kann die Bedeutung dahinter entschlüsselt werden.
 
 <qso>
-CQ CQ CQ DE HB3AB HB3AB HB3AB PSE K
-> HB3AB DE HB9PZ K
-HB9PZ DE HB3AB = UR RST 599 599 = HB9PZ DE HB3AB K
-> HB3AB DE HB9PZ = TNX RPRT, UR 479 479 BK
-BK QSL = VY 73 DE HB3AB SK
-> R 73 DE HB9PZ SK
+CQ CQ CQ DE HB4CY HB4CY HB4CY PSE K
+> HB4CY DE HB9ARK K
+HB9ARK DE HB4CY = UR RST 599 599 = HB9ARK DE HB4CY K
+> HB4CY DE HB9ARK = TNX RPRT, UR 479 479 BK
+BK QSL = VY 73 DE HB4CY SK
+> R 73 DE HB9ARK SK
 </qso>
 
 <webmargin>
 | l: | X: |
 | Abkz. | Bedeutung |
-| BK | Unterbrechung der Sendung; Formlose Übergabe (vom Englischen "Break")  |
 | CQ | Allgemeiner Anruf |
-| DE | von |
-| K | Aufforderung zum Senden |
-| PSE | Bitte (vom Englischen "Please") |
+| QSL | Ich bestätige den Empfang |
 | R | Received (Empfangsbestätigung) |
-| RST | RST-Rapport |
-| SK** | Ende der Verbindung (vom Englischen "Silent Key") |
-| TNX** | Danke (vom Englischen "Thanks") |
+| K | Aufforderung zum Senden |
+| BK | Unterbrechung der Sendung; Formlose Übergabe (vom Englischen "Break")  |
+| RPRT | Rapport (vom Englischen „Report“) |
+| RST | RST-Rapport |  
 | UR | du bist (im Sinne von "dein Signal ist", vom Englischen "you are") |
-| VY** | sehr (vom Englischen "very") |
-| 73** | viele Grüße |
-| =** | Trennzeichen |
-| CW* | Continuous wave |
-| DX* | Long distance |
-| MSG* | Message |
-| RX* | Trennzeichen |
-| TEST* | Contest |
-| TX* | Transmitter |
+| DE | von |
+| PSE | Bitte (vom Englischen "Please") |
+| TNX | Danke (vom Englischen "Thanks") |
+| SK | Ende der Verbindung (vom Englischen "Silent Key") |
+| VY | sehr (vom Englischen "very") |
+| 73 | viele Grüße |
+| = | Trennzeichen |
 [table:n_funkfernschreiben_abkuerzungen:Betriebliche Abkürzungen in der Telegrafie]
 </webmargin>
 
-%Hinweis zur Tabelle: Wo nötig noch das Englisch dazuschreiben. Tabelle logisch/sinnvoll sortieren
-% *= sind neu in der Liste wegen HB-Liste
-% **= sind von DARC Liste geblieben obwohl nicht in der HB-Liste
+%Hinweis: Vollständige Liste in Sec:Betriebliche Abkürzungen
+
+%Vertiefungsbox erstellen mit der 2. Bedeutung von SK (verstorben). Die gibt es in einem andern Abschnitt bereits. Von dort kopieren
 
 Es gibt auch digitale Übertragungsverfahren, bei denen die Abwicklung anders erfolgt. FT8 oder FT4 funktionieren beispielsweise auch bei widrigen Funkbedingungen, also wenn beim Empfänger im Vergleich zum Grundrauschen lediglich eine niedrige Signalstärke erreicht werden kann. Dafür können bei den genannten Verfahren aber nur ganz wenige Zeichen je Sendung übertragen werden. Entsprechend ist die Abwicklung noch kompakter. Andere digitale Verfahren übertragen gar keine Texte, sondern beispielsweise Bilder oder Video, mit an diese Umstände angepasster Betriebsabwicklung. Darauf wird in der Prüfung aber nicht eingegangen.
 
