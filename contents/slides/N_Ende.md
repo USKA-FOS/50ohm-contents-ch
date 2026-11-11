@@ -18,6 +18,7 @@
 
 ## USKA-Mitgliedschaft
 
+* USKA = DIE Schweizer Amateurfunk-Organisation
 * Der Amateurfunkverband der Schweizer Funkamateure
 * Setzt sich für Frequenzen, Ausbildung und Nachwuchs ein
 * Eine Mitgliedschaft trägt diese Arbeit aktiv mit
