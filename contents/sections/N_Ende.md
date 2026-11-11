@@ -1,7 +1,7 @@
 Diese Seite wird vorläufig für die Bearbeiter missbraucht als Sandkasten, wenn etwas simuliert werden muss (Bsp wenn etwas nicht funktioniert) und dient auch als "Vorlagen-Container" um wiederkehrende Sachen (wie bsp die farbigen Boxen in der rechten Spalte) mit Copy&Paste im Markdown holen zu können.
 Der Originalinhalt ist noch immer hier drin, weil bisher unklar ist ob der noch gebraucht wird.
 
-Wenn Du Kursteilnehmer bist, überspringe bitte diese internen Informationen und scrolle nach unten bis zur Stelle "AB HIER ORIGINALTEXT".
+**Wenn Du Kursteilnehmer bist, überspringe bitte diese internen Informationen und scrolle nach unten bis zur Stelle "AB HIER ORIGINALTEXT".**
 
 Das ist ein "Test" zur Verwendung von Anführungszeichen. Dies Anführungszeichen wurden mit CTRL+2 erstellt.
 Das ist ein Versuch <<Guilements>> zu erstellen. Dies mit der doppelten Nutzung der Grösser/kleiner Zeichen auf der Tastatur.
