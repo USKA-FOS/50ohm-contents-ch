@@ -1,4 +1,4 @@
-% ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen und BEMFV auskommnentiert 
+% ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
 
 * Bei der Berechnung nur die Energie berücksichtigen, die an der Antenne ankommt
 * Verluste $a$ durch Kabel, Stecker oder andere Bauteile abziehen
@@ -48,11 +48,6 @@ $P_{\mathrm{EIRP}} = P_{\mathrm{Sender}} \cdot 10^{\frac{g_i - a}{\qty{10}{\dB}}
 
 ---
 [question:EG502]
-
-%## Ortsfeste Amateurfunkanlage
-%
-%Eine ortsfeste Amateurfunkanlage ist nach § 9 BEMFV bei der BNetzA anzuzeigen, wenn eine Strahlungsleistung von $\qty{10}{\watt}$ EIRP überschritten %wird.
-%
 
 ---
 [question:EG503]
