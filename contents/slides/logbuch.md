@@ -30,7 +30,7 @@ Es kann aber auch dazu kommen, dass man eine Aufforderung vom BAKOM erhält, die
 
 ---
 
-Jedes DARC-Mitglied kann ein elektronisches, webbasiertes Logbuch auf [log.darc.de](https://50ohm.de/log) nutzen (basierend auf Wavelog), inkl. Synchronisierung mit eQSL, LoTW, QRZ und DCL
+Jedes DARC-Mitglied kann ein elektronisches, webbasiertes Logbuch auf [log.darc.de](https://50ohm.de/log) nutzen (basierend auf Wavelog), inkl. Synchronisierung mit eQSL, LoTW und QRZ
 
 ---
 ## Aufbewahrung des Logbuchs
@@ -48,6 +48,14 @@ Jedes DARC-Mitglied kann ein elektronisches, webbasiertes Logbuch auf [log.darc.
 [question:BG103]
 
 ---
+[question:BG106]
+
+---
+[question:BG107]
+
+---
+[question:BG108]
+
 ## Koordinierte Weltzeit
 
 * Zeiten in UTC (Universal Time Coordinated) führen
