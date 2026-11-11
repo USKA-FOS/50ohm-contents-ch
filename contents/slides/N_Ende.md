@@ -6,7 +6,7 @@
 [photo:329:n_team:50ohm.de-Team]
 </left>
 <right>
-* Jetzt mit dem [HamRadioTrainer](http://www.hamradiotrainer.de/)) auf die Prüfung vorbereiten
+* Jetzt mit dem [HamRadioTrainer](http://www.hamradiotrainer.de/) auf die Prüfung vorbereiten
 * Dazu unbedingt den richtigen Fragenkatalog nach Angabe Deines Kursleiters auswählen
 * Zeitnah zur Prüfung beim BAKOM anmelden
 * Nach bestandener Prüfung Rufzeichen beantragen
