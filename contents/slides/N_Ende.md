@@ -4,6 +4,7 @@
 
 <left>
 [photo:329:n_team:50ohm.de-Team]
+[photo:329:hb_team:50ohm.ch-Team]
 </left>
 <right>
 * Jetzt mit dem [HamRadioTrainer](http://www.hamradiotrainer.de/) auf die Prüfung vorbereiten
