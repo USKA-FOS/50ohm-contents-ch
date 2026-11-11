@@ -23,24 +23,14 @@ Folgende Daten werden üblicherweise in einem Logbuch für jede Funkverbindung f
 ---
 ## Verpflichtende Logbuchführung
 
-Es kann aber auch dazu kommen, dass man eine Aufforderung der Bundesnetzagentur erhält, die einen verpflichtet, ein Logbuch zu führen.
+Es kann aber auch dazu kommen, dass man eine Aufforderung vom BAKOM erhält, die einen verpflichtet, ein Logbuch zu führen.
 
 * Zur Untersuchung von Störungsursachen
 * Zur Klärung frequenztechnischer Fragen
 
 ---
-[question:VD109]
-
----
-[question:VD108]
-
----
 
 Jedes DARC-Mitglied kann ein elektronisches, webbasiertes Logbuch auf [log.darc.de](https://50ohm.de/log) nutzen (basierend auf Wavelog), inkl. Synchronisierung mit eQSL, LoTW, QRZ und DCL
-
-<note>
-Hier DARC-Mitgliedschaft bewerben
-</note>
 
 ---
 ## Aufbewahrung des Logbuchs
