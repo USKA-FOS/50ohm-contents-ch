@@ -25,7 +25,7 @@
 
 ---
 
-## Sektionen (OV)
+## USKA-Sektionen (Ortsgruppen)
 
 * Über die USKA-Webseite die nächste [Sektion](https://uska.ch/de/funkamateure/die-uska/sektionen/) finden
 * Lokale Mitglieder erleichtern den Einstieg ins Hobby
@@ -33,14 +33,14 @@
 
 ---
 
-## Kollektivmitglieder der USKA
+## USKA-Kollektivmitglieder der USKA
 
 * Sind der USKA angeschlossene [Amateurfunkvereine](https://uska.ch/de/funkamateure/die-uska/kollektivmitglieder/)
 * Eigenständige Vereine, Contest-Teams, Clubstationen von Hochschulen und weitere Institutionen mit Bezug zum Amateurfunk
 
 ---
 
-## Online-Community
+## USKA-Online-Community
 
 * BigBlueButton (BBB) ist das Konferenzsystem der USKA
 * Die USKA stellt ihren Mitgliedern das [Konferenzsystem BBB](https://bbb3.myuska.ch/) zur Verfügung
