@@ -4,6 +4,7 @@ Mit einem *Logbuch* hat man die Möglichkeit, seine Funkaktivitäten zu dokument
 
 <law>
 VNF
+
 Art. 49 Aufzeichnungen über den Funkverkehr.
 Das BAKOM kann die am Amateurfunkdienst beteiligten Personen verpflichten, ihren Funkverkehr aufzuzeichnen.
 </law>
