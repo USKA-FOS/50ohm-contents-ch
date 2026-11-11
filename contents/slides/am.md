@@ -1,5 +1,7 @@
+%ARK: Grundhelvetisierung durchgeführt 
+
 <left>
-[picture:716:n_Wasserfall0:Signal eines AM-Rundfunksenders (Sprache / Musik)]
+[picture:716:n_Wasserfall0:Signal eines AM-Radiosenders (Sprache / Musik)]
 </left>
 <right>
 * Modulationssignal wird durch Änderung der Amplitude auf den Träger aufmoduliert
