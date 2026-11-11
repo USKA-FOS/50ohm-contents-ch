@@ -2,6 +2,7 @@
 
 ## Geschafft!
 
+%ARK: TODO: Photo 50Ohm.ch Team
 <left>
 [photo:329:n_team:50ohm.de-Team]
 [photo:329:hb_team:50ohm.ch-Team]
@@ -68,4 +69,4 @@
 
 Stellvertretend für das 50ohm.ch-Team:
 
-Sandy, HB3YPA und Matthias HB9FRV
+Sandy, HB3YPA und Matthias, HB9FRV
