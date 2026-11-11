@@ -14,6 +14,35 @@ Der Ursprung vieler Abkürzungen liegt in der Morsetelegrafie. Die Abkürzung CQ
 [table:n_abkuerzungen:Zusammenfassung der Abkürzungen]
 </webmargin>
 
+
+<webmargin>
+| l: | X: |
+| Abkz. | Bedeutung |
+| CQ | Allgemeiner Anruf |
+| QSL | Ich bestätige den Empfang |
+| R | Received (Empfangsbestätigung) |
+| K | Aufforderung zum Senden |
+| BK | Unterbrechung der Sendung; Formlose Übergabe (vom Englischen "Break")  |
+| RPRT | Rapport (vom Englischen „Report“) |
+| RST | RST-Rapport |  
+| UR | du bist (im Sinne von "dein Signal ist", vom Englischen "you are") |
+| DE | von |
+| CW | Continuous wave |
+| DX | Long distance |
+| RX | Receiver (engl. Empfänger) |
+| TX | Transmitter (engl. Sender)|
+| TEST | Contest |
+| MSG | Nachricht (vom Englischen "Message") |
+| PSE | Bitte (vom Englischen "Please") |
+| TNX | Danke (vom Englischen "Thanks") |
+| SK | Ende der Verbindung (vom Englischen "Silent Key") |
+| VY | sehr (vom Englischen "very") |
+| 73 | viele Grüße |
+| = | Trennzeichen |
+[table:n_funkfernschreiben_abkuerzungen:Betriebliche Abkürzungen vollständige Liste]
+</webmargin>
+
+
 Der Ursprung des Amateurfunks ist in den USA. Deshalb kommen viele unserer Fachbegriffe aus dem amerikanischen Englisch, beispielsweise Transmitter statt Sender und Receiver statt Empfänger. Der Transmitter wird mit TX, der Receiver mit RX und der Transceiver, also der Sendeempfänger, mit TRX abgekürzt.
 
 [question:BB106]
