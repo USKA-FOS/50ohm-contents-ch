@@ -31,7 +31,7 @@ Viele Funkamateure führen freiwillig ein Logbuch. Es kann aber auch dazu kommen
 Wenn die Logbuchführung angeordnet wurde, dann ist darauf zu achten, das Logbuch so zu führen, dass es auch wirklich später einsehbar ist, und zwar unabhängig davon, wie das Logbuch geführt wird. Das ist vor allem auch dann zu beachten, wenn man die Art und Weise der Logbuchführung ändert.
 
 <tip>
-Ein elektronisches, webbasiertes Logbuch – z. Bsp. auf Basis von [Wavelog](https://50ohm.de/wl) – kann man von überall her nutzen. Elektronische Logbücher umfassen die Möglichkeit, seine QSOs zu loggen, zu analysieren und auch mit Drittanbietern wie eQSL, LoTW und QRZ zu synchronisieren.
+Ein elektronisches, webbasiertes Logbuch – z. Bsp. auf Basis von [Wavelog](https://www.wavelog.org/) – kann man von überall her nutzen. Elektronische Logbücher umfassen die Möglichkeit, seine QSOs zu loggen, zu analysieren und auch mit Drittanbietern wie eQSL, LoTW und QRZ zu synchronisieren.
 </tip>
 
 ---
