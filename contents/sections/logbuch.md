@@ -24,8 +24,6 @@ Folgende Daten werden üblicherweise in einem Logbuch für jede Funkverbindung f
 Viele Funkamateure führen freiwillig ein Logbuch. Es kann aber auch dazu kommen, dass man eine Aufforderung vom BAKOM erhält, die einen verpflichtet, ein Logbuch zu führen, beispielsweise um Störungsursachen zu ermitteln oder frequenztechnische Fragen zu klären.
 
 [question:BG101]
-[question:VD109]
-[question:VD108]
 [question:VN022]
 [question:VN023]
 
