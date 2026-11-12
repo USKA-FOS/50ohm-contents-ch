@@ -15,7 +15,7 @@ Grund für diese Verformungen sind die unvermeidlichen Kapazitäten und Induktiv
 </indepth>
 
 [question:AI303]
-[question:AI307]
+[question:EI303]
 
 % TODO Die Frage EI303 ist nicht vorhanden. Bitte siehe Issue #52.
 
