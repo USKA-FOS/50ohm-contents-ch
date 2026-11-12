@@ -1,4 +1,4 @@
-## A/D- und D/A-Umsetzung
+## A/D- und D/A-Wandlung
 
 * *A/D-Wandler* wandeln analoge Signale in digitale Werte um
 * *D/A-Wandler* wandeln digitale Werte wieder in analoge Signale um
