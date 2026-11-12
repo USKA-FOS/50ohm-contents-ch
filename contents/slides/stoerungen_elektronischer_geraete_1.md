@@ -45,7 +45,7 @@
 
 * Korrodierte Kontakte (Metall-Oxide) zwischen Metallen bilden Nichtlinearitäten durch Gleichricht-Effekte
 * Unerwünschte Mischprodukte auf der Sende- und Empfangsseite
-* Kann zu Störungen im Fernseh- und Rundfunkempfang führen
+* Kann zu Störungen im Fernseh- und Radioempfang führen
 
 ---
 [question:EJ121]
