@@ -15,7 +15,7 @@ Beim Detektor-Empfänger wird ein Parallel-Schwingkreis, bestehend aus Spule und
 [picture:802:am_detektor_kopfhoerer:Hörbares NF Signal]
 </margin>
 
-Ein Detektor-Empfänger verfügt nicht über eine Batterie, sondern bezieht seine Energie direkt aus dem empfangenen Signal. Daher sind Detektor-Empfänger normalerweise für den Empfang von starken Rundfunksendern im Lokalbereich verwendbar und nur eingeschränkt für den Fernempfang von Sendern im Fernbereich.
+Ein Detektor-Empfänger verfügt nicht über eine Batterie, sondern bezieht seine Energie direkt aus dem empfangenen Signal. Daher sind Detektor-Empfänger normalerweise für den Empfang von starken Radiosendern im Lokalbereich verwendbar und nur eingeschränkt für den Fernempfang von Sendern im Fernbereich.
 
 Der Kopfhörer muss beim Detektor-Empfänger hochohmig sein, damit dieser den Schwingkreis nicht zu sehr bedämpft und die Selektivität und Empfangsleistung des Empfängers nicht zu sehr beeinträchtigt.
 
