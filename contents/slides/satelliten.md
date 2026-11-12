@@ -9,7 +9,7 @@
 </right>
 <note>
 * 4 Jahre nach Sputnik
-* OSCAR Deutsch: "Umkreisender Satellit, der Amateurfunk mitführt"
+* OSCAR: "Umkreisender Satellit, der Amateurfunk mitführt"
 </note>
 
 ---
@@ -17,7 +17,7 @@
 ---
 
 ## Transponder
-Relaisfunkstelle auf dem Satellit wird "Transponder" genannt
+Relais auf dem Satelliten wird "Transponder" genannt
 
 * Uplink: Funkstrecke von der Erde zum Satelliten
 * Downlink: Funkstrecke vom Satelliten zur Erde
