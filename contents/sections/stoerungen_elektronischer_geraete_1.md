@@ -36,8 +36,8 @@ Der Funkamateur sollte in der Nachbarschaft hierbei in kooperativer Weise und l√
 
 [question:EJ124]
 
-<law[
-[VNF Art. 15 Abs 1](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_15)
+<law>
+Die Ermittlung von St√∂rungen ist in [VNF Art. 15 Abs 1](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_15) geregelt.
 </law>
 
 [question:VN004]
