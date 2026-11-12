@@ -1,7 +1,7 @@
 <left>
 * Einer der ersten und einfachsten Empfänger für AM
 * Energie wird direkt aus dem empfangenen Signal gezogen
-* Nur im Lokalbereich von starken Rundfunksendern nutzbar
+* Nur im Lokalbereich von starken Radiosendern nutzbar
 </left>
 <right>
 [photo:193:am_detektor:Detektor-Empfänger]
