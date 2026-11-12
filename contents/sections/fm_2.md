@@ -31,7 +31,7 @@ Um die gesetzlichen Vorgaben hinsichtlich der belegten Bandbreite eines FM-Signa
 
 [question:EE305]
 
-FM-Signale sind dadurch, dass die aufmodulierte Information nicht in der Amplitude, sondern lediglich in der Frequenz enthalten ist, gegenüber Amplitudenstörungen (z.B. durch Blitze, Zündanlagen, Motoren) relativ unempfindlich im Vergleich zu AM oder SSB. Hierdurch ergeben sich insbesondere beim Betrieb in KFZ und in gestörten Umgebungen Vorteile hinsichtlich der Störanfälligkeit.
+FM-Signale sind dadurch, dass die aufmodulierte Information nicht in der Amplitude, sondern lediglich in der Frequenz enthalten ist, gegenüber Amplitudenstörungen (z.B. durch Blitze, Zündanlagen, Motoren) relativ unempfindlich im Vergleich zu AM oder SSB. Hierdurch ergeben sich insbesondere beim Betrieb in Motorfahrzeugen und in gestörten Umgebungen Vorteile hinsichtlich der Störanfälligkeit.
 
 [question:EE302]
 [question:EE303]
