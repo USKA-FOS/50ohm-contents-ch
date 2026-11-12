@@ -1,4 +1,4 @@
-Einer der ersten und einfachsten Empfänger für den Rundfunkempfang (AM) war der Detektor-Empfänger (vgl. Abbildung [ref:am_detektor]).
+Einer der ersten und einfachsten Empfänger für den Radioempfang (AM) war der Detektor-Empfänger (vgl. Abbildung [ref:am_detektor]).
 
 <margin>
 [photo:193:am_detektor:Detektor-Empfänger]
