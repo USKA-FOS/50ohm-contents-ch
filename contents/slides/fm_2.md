@@ -2,7 +2,7 @@
 <left>
 * Konstante Amplitude
 * Veränderliche Frequenz
-* Relativ unempfindlich gegenüber Amplitudenstörungen (z.B. Kfz, Blitze)
+* Relativ unempfindlich gegenüber Amplitudenstörungen (z.B. Motorfahrzeug, Blitze)
 </left>
 <right>
 [picture:301:e_fm:Frequenzmodulation]
