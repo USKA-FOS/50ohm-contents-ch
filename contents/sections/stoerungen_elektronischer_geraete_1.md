@@ -56,7 +56,7 @@ Treten in einer Empfangsanlage mehrere starke Empfangssignale gleichzeitig auf (
 
 [question:EJ120]
 
-Selbst in einer abgeschalteten Stereoanlage können starke HF-Signale durch Gleichrichtung in der NF-Endstufe an nichtlinearen Bauteilen wie Transistoren zu hörbaren Geräuschen in den Lautsprechern führen. Auch korrodierte Kontakte zwischen Metallen (Metall-Oxide) haben die Eigenschaft, dass sie Gleichricht-Effekte durch Nichlinearitäten  bilden können. Hierdurch können bei Aussendungen der Amateurfunkstation unerwünschte Mischprodukte auf der Sende- oder der Empfangsseite entstehen, die zu einer störenden Beeinflussung des Fernseh- und Rundfunkempfangs führen können.
+Selbst in einer abgeschalteten Stereoanlage können starke HF-Signale durch Gleichrichtung in der NF-Endstufe an nichtlinearen Bauteilen wie Transistoren zu hörbaren Geräuschen in den Lautsprechern führen. Auch korrodierte Kontakte zwischen Metallen (Metall-Oxide) haben die Eigenschaft, dass sie Gleichricht-Effekte durch Nichlinearitäten  bilden können. Hierdurch können bei Aussendungen der Amateurfunkstation unerwünschte Mischprodukte auf der Sende- oder der Empfangsseite entstehen, die zu einer störenden Beeinflussung des Fernseh- und Radioempfangs führen können.
 
 [question:EJ113]
 [question:EJ121]
