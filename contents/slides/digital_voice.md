@@ -22,13 +22,13 @@ Auch Sprache kann digital übertragen werden
 [question:NE307]
 
 ---
-### Repeaternetzwerk für Digital Voice
+### Relaisnetzwerk für Digital Voice
 
 <left>
-[picture:542:n_digital_voice_repeaternetwork:Repeaternetzwerk für Digital Voice - Relaisfunkstelle DB0FZ mit Internetanschluss, Hotspot DN9YI und Relaisfunkstelle DB0HOB mit Richtfunkanbindung an DB0FZ]
+[picture:542:n_digital_voice_repeaternetwork:Relaisnetzwerk für Digital Voice - Relais DB0FZ mit Internetanschluss, Hotspot DN9YI und Relais DB0HOB mit Richtfunkanbindung an DB0FZ]
 </left>
 <right>
-* Vernetzte Relaisfunkstellen, z.B. über HAMNET oder Internet $\rightarrow$ weltweit erreichbar
+* Vernetzte Relais, z.B. über HAMNET oder Internet $\rightarrow$ weltweit erreichbar
 * Zugriff auch von zu Hause über einen *Hotspot* möglich
 * Auf Kurzwelle meist direkt, z.B. mit FreeDV
 </right>
