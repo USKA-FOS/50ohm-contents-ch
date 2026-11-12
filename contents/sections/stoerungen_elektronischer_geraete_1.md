@@ -35,6 +35,11 @@ Oft werden störende Beeinflussungen in der Nachbarschaft mit dem Betrieb einer 
 Der Funkamateur sollte in der Nachbarschaft hierbei in kooperativer Weise und lösungsorientiert unterstützen bzw. auch Vorschläge für eine Abhilfe unterbreiten. Oft lassen sich Probleme im direkten Gespräch einfacher lösen als unter Einschaltung von Behörden. Erst wenn alle Bemühungen fehlgeschlagen sind, kann das BAKOM um eine Prüfung der Gegebenheiten gebeten werden. Dies sollte allerdings wirklich das letzte Mittel der Problemlösung sein.
 
 [question:EJ124]
+
+<law[
+[VNF Art. 15 Abs 1](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_15)
+</law>
+
 [question:VN004]
 
 Zu diesen Bemühungen zählen verschiedene Maßnahmen, wie zum Beispiel:
