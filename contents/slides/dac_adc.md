@@ -1,20 +1,20 @@
 ## A/D- und D/A-Umsetzung
 
-* *A/D-Umsetzer* wandeln analoge Signale in digitale Werte um
-* *D/A-Umsetzer* wandeln digitale Werte wieder in analoge Signale um
+* *A/D-Wandler* wandeln analoge Signale in digitale Werte um
+* *D/A-Wandler* wandeln digitale Werte wieder in analoge Signale um
 * Beide besitzen nur eine endliche Anzahl möglicher Werte
 * Eine wichtige Eigenschaft ist daher ihre *Auflösung*
 
 <note>
-A/D- und D/A-Umsetzer bilden die Schnittstelle zwischen der analogen und der digitalen Welt.
+A/D- und D/A-A-Wandler er bilden die Schnittstelle zwischen der analogen und der digitalen Welt.
 
-Der A/D-Umsetzer erzeugt aus einem analogen Eingangssignal digitale Samples. Der D/A-Umsetzer führt den umgekehrten Vorgang aus und erzeugt aus digitalen Werten wieder analoge Spannungswerte.
+Der A/D-Wandler erzeugt aus einem analogen Eingangssignal digitale Samples. Der D/A-Wandler führt den umgekehrten Vorgang aus und erzeugt aus digitalen Werten wieder analoge Spannungswerte.
 </note>
 
 ---
-## Quantisierung im A/D-Umsetzer
+## Quantisierung im A/D-Wandler
 
-* Der A/D-Umsetzer kann nur eine begrenzte Anzahl digitaler Werte erzeugen
+* Der A/D-Wandler kann nur eine begrenzte Anzahl digitaler Werte erzeugen
 * Analoge Eingangswerte werden daher festen Stufen zugeordnet
 * Zwischenwerte können nicht exakt dargestellt werden
 * Dadurch entsteht ein *Quantisierungsfehler*
@@ -22,7 +22,7 @@ Der A/D-Umsetzer erzeugt aus einem analogen Eingangssignal digitale Samples. Der
 <note>
 Die Quantisierung haben wir bereits kennengelernt.
 
-Ein tatsächlich gemessener analoger Wert liegt häufig zwischen zwei möglichen digitalen Stufen. Der A/D-Umsetzer muss ihn einer dieser Stufen zuordnen.
+Ein tatsächlich gemessener analoger Wert liegt häufig zwischen zwei möglichen digitalen Stufen. Der A/D-Wandler muss ihn einer dieser Stufen zuordnen.
 
 Die dabei entstehende Abweichung zwischen dem tatsächlichen und dem dargestellten Wert bezeichnet man als Quantisierungsfehler.
 </note>
@@ -32,7 +32,7 @@ Die dabei entstehende Abweichung zwischen dem tatsächlichen und dem dargestellt
 [question:AF607]
 
 ---
-## Auflösung eines A/D-Umsetzers
+## Auflösung eines A/D-Wandlers
 
 * Die Auflösung gibt die Anzahl der unterscheidbaren digitalen Werte an
 * Sie wird üblicherweise in *Bit* angegeben
@@ -44,10 +44,10 @@ Die dabei entstehende Abweichung zwischen dem tatsächlichen und dem dargestellt
 ## Einfluss der Auflösung
 
 <left>
-[picture:300:a_adc_4bit:Sinussignal digitalisiert durch einen 4-Bit-A/D-Umsetzer und anschließende D/A-Umsetzung]
+[picture:300:a_adc_4bit:Sinussignal digitalisiert durch einen 4-Bit-A/D-Wandler und anschließende D/A-Wandlung]
 </left>
 <right>
-[picture:299:a_adc_12bit:Sinussignal digitalisiert durch einen 12-Bit-A/D-Umsetzer und anschließende D/A-Umsetzung]
+[picture:299:a_adc_12bit:Sinussignal digitalisiert durch einen 12-Bit-A/D-Wandler und anschließende D/A-Wandlung]
 </right>
 
 * $\qty{4}{\bit}$ → $\num{16}$ mögliche Werte
@@ -79,7 +79,7 @@ Durch die zusätzlichen 8 Bit steigt die Anzahl der möglichen Stufen um den Fak
 <note>
 Nicht nur die Genauigkeit der gemessenen Amplitude ist wichtig, sondern auch die Genauigkeit des Abtastzeitpunktes.
 
-Dazu benötigt der A/D-Umsetzer einen möglichst stabilen Takt. Kleine zeitliche Schwankungen dieses Taktes führen dazu, dass die Samples nicht exakt zu den vorgesehenen Zeitpunkten aufgenommen werden.
+Dazu benötigt der A/D-Wandler einen möglichst stabilen Takt. Kleine zeitliche Schwankungen dieses Taktes führen dazu, dass die Samples nicht exakt zu den vorgesehenen Zeitpunkten aufgenommen werden.
 
 Diese Schwankungen werden als Jitter bezeichnet.
 </note>
@@ -89,15 +89,15 @@ Diese Schwankungen werden als Jitter bezeichnet.
 [question:AF621]
 
 ---
-## D/A-Umsetzer
+## D/A-Wandler
 
-* Der D/A-Umsetzer ist der Gegenspieler des A/D-Umsetzers
+* Der D/A-Wandler ist der Gegenspieler des A/D-Wandlers
 * Er erzeugt aus digitalen Samples analoge Spannungswerte
-* Auch ein D/A-Umsetzer besitzt nur eine endliche Anzahl möglicher Ausgangswerte
+* Auch ein D/A-Wandler besitzt nur eine endliche Anzahl möglicher Ausgangswerte
 * Seine Auflösung wird ebenfalls in Bit angegeben
 
 <note>
-Beim D/A-Umsetzer läuft der Vorgang in umgekehrter Richtung.
+Beim D/A-Wandler läuft der Vorgang in umgekehrter Richtung.
 
 Ein digitaler Zahlenwert wird einem bestimmten analogen Ausgangswert zugeordnet. Auch hier bestimmt die Auflösung, wie viele unterschiedliche Werte erzeugt werden können.
 </note>
@@ -109,10 +109,10 @@ Ein digitaler Zahlenwert wird einem bestimmten analogen Ausgangswert zugeordnet.
 ---
 ## Spannungsbereich und Auflösung
 
-* Ein D/A-Umsetzer besitzt einen festgelegten Spannungsbereich
+* Ein D/A-Wandler besitzt einen festgelegten Spannungsbereich
 * Beispiel: $\qty{0}{\volt}$ bis $\qty{1}{\volt}$
 * Bei $\qty{4}{\bit}$ stehen $\num{2^4}=\num{16}$ mögliche Stufen zur Verfügung
-* Bei einem linearen D/A-Umsetzer sind diese gleichmäßig über den Spannungsbereich verteilt
+* Bei einem linearen D/A-Wandler sind diese gleichmäßig über den Spannungsbereich verteilt
 
 ---
 ## Schrittweite
@@ -144,17 +144,17 @@ Deshalb wird bei diesem Beispiel der Spannungsbereich durch 15 und nicht durch 1
 [question:AF610]
 
 ---
-## A/D- und D/A-Umsetzer im SDR
+## A/D- und D/A-Wandler im SDR
 
-* A/D-Umsetzer digitalisieren analoge Eingangssignale
+* A/D-Wandler digitalisieren analoge Eingangssignale
 * Anschließend können die Samples digital verarbeitet werden
-* D/A-Umsetzer erzeugen daraus bei Bedarf wieder analoge Signale
+* D/A-Wandler erzeugen daraus bei Bedarf wieder analoge Signale
 * Dieses Prinzip wird an vielen Stellen in SDR-Empfängern und Transceivern eingesetzt
 
 <note>
-Ein SDR ist ein typisches Beispiel für das Zusammenspiel von A/D-Umsetzung, digitaler Signalverarbeitung und D/A-Umsetzung.
+Ein SDR ist ein typisches Beispiel für das Zusammenspiel von A/D-Wandlung, digitaler Signalverarbeitung und D/A-Wandlung.
 
-Das analoge Signal wird zunächst digitalisiert. Danach können beispielsweise Filterung, Demodulation oder Modulation digital erfolgen. Soll anschließend wieder ein analoges Signal entstehen, kommt ein D/A-Umsetzer zum Einsatz.
+Das analoge Signal wird zunächst digitalisiert. Danach können beispielsweise Filterung, Demodulation oder Modulation digital erfolgen. Soll anschließend wieder ein analoges Signal entstehen, kommt ein D/A-Wandler zum Einsatz.
 </note>
 
 ---
@@ -174,9 +174,9 @@ Für eine möglichst gute Digitalisierung sollte der verfügbare Wertebereich si
 
 Ist das Signal sehr klein, werden nur wenige der verfügbaren Stufen genutzt.
 
-Ist das Signal dagegen zu groß, erreicht der A/D-Umsetzer seinen maximal darstellbaren Wert. Noch größere Eingangswerte können nicht mehr unterschieden werden. Die Spitzen des Signals erscheinen dadurch abgeschnitten.
+Ist das Signal dagegen zu groß, erreicht der A/D-Wandler seinen maximal darstellbaren Wert. Noch größere Eingangswerte können nicht mehr unterschieden werden. Die Spitzen des Signals erscheinen dadurch abgeschnitten.
 
-Auch ein D/A-Umsetzer kann keine Ausgangsspannung außerhalb seines vorgesehenen Wertebereichs erzeugen.
+Auch ein D/A-Wandler kann keine Ausgangsspannung außerhalb seines vorgesehenen Wertebereichs erzeugen.
 </note>
 
 ---
