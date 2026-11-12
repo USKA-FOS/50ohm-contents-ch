@@ -36,11 +36,17 @@ Der Funkamateur sollte in der Nachbarschaft hierbei in kooperativer Weise und l�
 
 [question:EJ124]
 
+[question:VN004]
+
+---
+
 <law>
-Die Ermittlung von Störungen ist in [VNF Art. 15 Abs 1](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_15) geregelt.
+Die Ermittlung von Störungen ist in 
+[VNF Art. 15 Abs 1](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_15)
+geregelt.
 </law>
 
-[question:VN004]
+---
 
 Zu diesen Bemühungen zählen verschiedene Maßnahmen, wie zum Beispiel:
 
