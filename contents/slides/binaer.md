@@ -17,7 +17,6 @@
 * Mit einem Bit sind zwei Werte möglich ($\num{0}$ und $\num{1}$)
 * Mit zwei Bits schon vier ($\num{00}$, $\num{01}$, $\num{10}$ und $\num{11}$) und mit jedem weiteren Bit jeweils doppelt so viele
 * Mathematisch ausgedrückt: Mit $n$ Bits lassen sich $2^n$ verschiedene Zahlen darstellen
-* Neben Binärzahl wird auch Dualzahl gesagt
 
 ---
 [question:EA202]
