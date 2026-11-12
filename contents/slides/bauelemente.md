@@ -48,8 +48,6 @@
 [photo:208:n_bauelemente_transistor:Schaltzeichen und Bauformen von Transistoren]
 </right>
 <note>
-In Klasse N gibt es kein anderes Bauteil mit drei Anschlüssen
-</note>
 
 ---
 
