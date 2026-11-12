@@ -28,7 +28,7 @@ Beispiel:
 </right>
 <note>
 * Weitere Varianten: Ganzwellendipol, verkürzter Dipol, asymmetrisch gespeister Dipol (Kabel nicht in der Mitte angeschlossen)
-* Verkürzungsfaktor kommt erst in Klasse E
+* Verkürzungsfaktor kommen später dran 
 </note>
 
 ---
