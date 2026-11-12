@@ -38,16 +38,8 @@
 [question:BC106]
 ---
 [question:BC101]
-<note>
-Band für Klasse N relevant
-</note>
 ---
 [question:BC102]
-<note>
-Band für Klasse N relevant
-</note>
 ---
 [question:BC103]
-<note>
-Band für Klasse N relevant
-</note>
+
