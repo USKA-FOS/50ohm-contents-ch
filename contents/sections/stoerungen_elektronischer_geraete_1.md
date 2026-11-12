@@ -36,8 +36,6 @@ Der Funkamateur sollte in der Nachbarschaft hierbei in kooperativer Weise und l�
 
 [question:EJ124]
 
-[question:VN004]
-
 ---
 
 <law>
@@ -47,6 +45,8 @@ geregelt.
 </law>
 
 ---
+
+[question:VN004]
 
 Zu diesen Bemühungen zählen verschiedene Maßnahmen, wie zum Beispiel:
 
