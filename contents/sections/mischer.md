@@ -1,5 +1,7 @@
 Mit Hilfe eines Mischers kann eine bestimmte Frequenz (bzw. ein Frequenzbereich mit definierter Bandbreite) in eine höhere oder niedrigere Frequenz umgesetzt werden. Dafür werden die Signale miteinander Multipliziert. 
 
+%  #21 beachten Formel fehlt in Formelsammlung
+
 <indepth>
 Eine Multiplikation von Signalen im Zeitbereich führt zu einer Addition (bzw. Subtraktion) im Frequenzbereich. Dieser Zusammenhang lässt sich anschaulich mit der folgenden trigonometrischen Identität (etwas vereinfacht, die Faktoren $2\pi\cdot t$ wurden der Übersicht halber weggelassen) erklären:  
   
