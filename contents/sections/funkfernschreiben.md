@@ -13,9 +13,11 @@ Für die Kommunikation mittels Funkfernschreiben zwischen Amateurfunkstationen g
 <indepth>
 Funkfernschreiben hatte historisch eine grosse Bedeutung bei der Nachrichtenübermittlung im Handel, für Hotel- und Flugreservationen und für militärische Telekommunikation. Es ist ein Frequency Shift Keying (FSK) Verfahren, bei dem dem Bit 0 und dem Bit 1 je eine Frequenz, ein Ton zugeordnet ist. Die Töne heissen "Mark" und "Space". Die Differenz der beiden Frequenzen nennt man Shift. Übliche Werte für den Shift sind 170 Hz oder 450 Hz. Die einzelnen Bits einer Nachricht werden sequentiell, als zeitlich hintereinander, ausgesendet.
 
-Im englischen Sprachgebrauch nennt man das klassische Funkfernschreiben Radio TeleType (RTTY). es verwendet einen 5 Bit Code zur Darstellung der (Gross-)Buchstaben, Ziffern und weniger Steuer- und Sonderzeichen.
+Im englischen Sprachgebrauch nennt man das klassische Funkfernschreiben Radio TeleType (RTTY). Es verwendet einen 5 Bit Code zur Darstellung der (Gross-)Buchstaben, der Ziffern und weniger Steuer- und Sonderzeichen.
 
-Übliche Übertragungsraten sind 45 oder 50 Zeichen pro Minute (??).
+Übliche Übertragungsraten sind 45 oder 50 Zeichen pro Minute (??). Mit diesen Übertragungsraten eignet es sich gut für zwischenmenschliche Kommunikation. Es gibt allerdings keine Fehlerkorrektur, so dass sich Übertragungsfehler unmittelbar in falsch dekodierten Zeichen äussern.
+
+Im Amateurfunk gebräuchliche moderne Varianten des Fernschreibens sind JS8CALL oder VARA / VARAC, die eine Fehlerkorrektur aufweisen und trotzdem schnell genug für einen Tastatur-zu-Tastatur-Chat sind.
 
 TODO: ergänzen und Skizze einfügen
 
