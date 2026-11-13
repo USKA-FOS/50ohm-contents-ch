@@ -1,3 +1,5 @@
+*IN BEARBEITUNG*
+
 Für die Kommunikation mittels Funkfernschreiben zwischen Amateurfunkstationen gibt es verschiedenste Verfahren. Damit eine Verbindung zustande kommt, müssen beide Kommunikationspartner das gleiche Übertragungsverfahren und die gleichen Parameter verwenden. Das gilt um so mehr, weil nicht jedem Verfahren eindeutige Frequenzbereiche zugeordnet sind.
 
 %[photo:0:n_funkfernschreiben_telegraphie_20m:Morsetelegrafie, FT8 und FT4 im $\qty{20}{\meter}$-Band]
@@ -7,6 +9,13 @@ Für die Kommunikation mittels Funkfernschreiben zwischen Amateurfunkstationen g
 %[photo:0:n_funkfernschreiben_am:Musterbild AM]
 %[photo:0:n_funkfernschreiben_ft8:Ein FT8-Signal bei $\qty{1500}{\hertz}$ oberhalb der eingestellten Frequenz]
 %[photo:0:n_funkfernschreiben_ft8_20m:Mehrere FT8-Signale in einem SSB-Kanal im $\qty{20}{\meter}$-Band]
+
+<indepth >
+Funkfernschreiben hatte historisch eine grosse Bedeutung bei der Nachrichtenübermittlung im Handel, für Hotel- und Flugreservationen und für militärische Telekommunikation. Es ist ein Frequency Shift Keying (FSK) Verfahren, bei dem dem Bit 0 und dem Bit 1 je eine Frequenz, ein Ton zugeordnet ist. Die Töne heissen "Mark" und "Space". Die Differenz der beiden Frequenzen nennt man Shift. Übliche Werte für den Shift sind 170 Hz oder 450 Hz. Die einzelnen Bits einer Nachricht werden sequentiell, als zeitlich hintereinander, ausgesendet.
+
+TODO: ergänzen und Skizze einfügen
+
+</indepth>
 
 [question:NE401]
 
