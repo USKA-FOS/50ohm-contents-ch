@@ -164,27 +164,6 @@ wesentlich weiter: Sie nutzen komplexere Modulationsverfahren und
 Mechanismen zur Fehlerkorrektur beziehungsweise zur Wiederholung
 fehlerhafter Datenübertragungen. Dadurch ermöglichen sie auch unter
 schwierigen Ausbreitungsbedingungen eine zuverlässigere Kommunikation.
-
-## Skizze
-
-TODO: Skizze schön zeichnen 
-
-
-
-
-Bitfolge:       1       0       1       1       0
-                │       │       │       │       │
-
-MARK            ┌───────┐       ┌───────┬───────┐
-                │       │       │       │       │
-SPACE           │       └───────┘       │       └───────
-                │                       │
-Zeit ───────────┴───────┴───────┴───────┴───────┴──────>
-
-Frequenz:       MARK   SPACE   MARK    MARK   SPACE
-
-                ←────── Shift ──────→
-ENDE 
 </indepth>
 
 [question:NE401]
