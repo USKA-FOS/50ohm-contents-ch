@@ -10,6 +10,38 @@ Für die Kommunikation mittels Funkfernschreiben zwischen Amateurfunkstationen g
 %[photo:0:n_funkfernschreiben_ft8:Ein FT8-Signal bei $\qty{1500}{\hertz}$ oberhalb der eingestellten Frequenz]
 %[photo:0:n_funkfernschreiben_ft8_20m:Mehrere FT8-Signale in einem SSB-Kanal im $\qty{20}{\meter}$-Band]
 
+Seitlich ist ein üblicher Ablauf einer kurzen Telegrafieverbindung dargestellt. Mit der Tabelle [ref:n_funkfernschreiben_abkuerzungen] kann die Bedeutung dahinter entschlüsselt werden.
+
+<qso>
+CQ CQ CQ DE HB4CY HB4CY HB4CY PSE K
+> HB4CY DE HB9ARK K
+HB9ARK DE HB4CY = UR RST 599 599 = HB9ARK DE HB4CY K
+> HB4CY DE HB9ARK = TNX RPRT, UR 479 479 BK
+BK QSL = VY 73 DE HB4CY SK
+> R 73 DE HB9ARK SK
+</qso>
+
+<webmargin>
+| l: | X: |
+| Abkz. | Bedeutung |
+| CQ | Allgemeiner Anruf |
+| QSL | Ich bestätige den Empfang |
+| R | Received (Empfangsbestätigung) |
+| K | Aufforderung zum Senden |
+| BK | Unterbrechung der Sendung; Formlose Übergabe (vom Englischen "Break")  |
+| RPRT | Rapport (vom Englischen „Report“) |
+| RST | RST-Rapport |  
+| UR | du bist (im Sinne von "dein Signal ist", vom Englischen "you are") |
+| DE | von |
+| PSE | Bitte (vom Englischen "Please") |
+| TNX | Danke (vom Englischen "Thanks") |
+| SK | Ende der Verbindung (vom Englischen "Silent Key") |
+| VY | sehr (vom Englischen "very") |
+| 73 | viele Grüße |
+| = | Trennzeichen |
+[table:n_funkfernschreiben_abkuerzungen:Betriebliche Abkürzungen in der Telegrafie]
+</webmargin>
+
 <indepth>
 # Funkfernschreiben (RTTY, Radio Teletype)
 
@@ -140,38 +172,6 @@ Die Abwicklung einer Telegrafie-Verbindung erfolgt sowohl bei der Morsetelegrafi
 [question:BB101]
 
 ---
-
-Seitlich ist ein üblicher Ablauf einer kurzen Telegrafieverbindung dargestellt. Mit der Tabelle [ref:n_funkfernschreiben_abkuerzungen] kann die Bedeutung dahinter entschlüsselt werden.
-
-<qso>
-CQ CQ CQ DE HB4CY HB4CY HB4CY PSE K
-> HB4CY DE HB9ARK K
-HB9ARK DE HB4CY = UR RST 599 599 = HB9ARK DE HB4CY K
-> HB4CY DE HB9ARK = TNX RPRT, UR 479 479 BK
-BK QSL = VY 73 DE HB4CY SK
-> R 73 DE HB9ARK SK
-</qso>
-
-<webmargin>
-| l: | X: |
-| Abkz. | Bedeutung |
-| CQ | Allgemeiner Anruf |
-| QSL | Ich bestätige den Empfang |
-| R | Received (Empfangsbestätigung) |
-| K | Aufforderung zum Senden |
-| BK | Unterbrechung der Sendung; Formlose Übergabe (vom Englischen "Break")  |
-| RPRT | Rapport (vom Englischen „Report“) |
-| RST | RST-Rapport |  
-| UR | du bist (im Sinne von "dein Signal ist", vom Englischen "you are") |
-| DE | von |
-| PSE | Bitte (vom Englischen "Please") |
-| TNX | Danke (vom Englischen "Thanks") |
-| SK | Ende der Verbindung (vom Englischen "Silent Key") |
-| VY | sehr (vom Englischen "very") |
-| 73 | viele Grüße |
-| = | Trennzeichen |
-[table:n_funkfernschreiben_abkuerzungen:Betriebliche Abkürzungen in der Telegrafie]
-</webmargin>
 
 %Hinweis: Vollständige Liste in Sec:Betriebliche Abkürzungen
 
