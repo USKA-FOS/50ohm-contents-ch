@@ -118,6 +118,7 @@ nachfolgende Zeichen falsch interpretiert werden können.
 Die Zuverlässigkeit der Übertragung hängt deshalb wesentlich von der
 Qualität der Funkverbindung und der korrekten Einstellung des Empfängers
 beziehungsweise Decoders ab.
+</indepth>
 
 ## Moderne digitale Betriebsarten
 
@@ -152,6 +153,7 @@ Gegenstation deren erneute Übertragung an.
 VARAC ist eine Chat-Anwendung, welche das VARA-Modem für die
 Kommunikation zwischen Funkstationen nutzt.
 
+<indepth>
 ## Zusammenfassung
 
 RTTY ist ein vergleichsweise einfaches digitales Übertragungsverfahren,
