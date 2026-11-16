@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung durchgeführt, Fragen abgeglichen
+
 ## Betrieb
 
 <left>
@@ -20,12 +22,12 @@
 In einem Gespräch sieht dieses folgendermaßen aus:
 
 <qso>
-CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
-> DL2AB DE DL1PZ K
-DL1PZ DE DL2AB = UR RST 599 599 = DL1PZ DE DL2AB K
-> DL2AB DE DL1PZ = TNX RPRT, UR 479 479 BK
-BK QSL = VY 73 DE DL2AB SK
-> R 73 DE DL1PZ SK
+CQ CQ CQ DE HB4CY HB4CY HB4CY PSE K
+> HB4CY DE HB9ARK K
+HB9ARK DE HB4CY = UR RST 599 599 = HB9ARK DE HB4CY K
+> HB4CY DE HB9ARK = TNX RPRT, UR 479 479 BK
+BK QSL = VY 73 DE HB4CY SK
+> R 73 DE HB9ARK SK
 </qso>
 <note>
 Das QSO wird nach Erklärungen Abkürzungen Schritt für Schritt erläutert
@@ -61,40 +63,40 @@ Das QSO wird nach Erklärungen Abkürzungen Schritt für Schritt erläutert
 Teil 1 unseres Beispiel-Gesprächs:
 
 <qso>
-CQ CQ CQ DE DL2AB DL2AB DL2AB PSE K
-> DL2AB DE DL1PZ K
+CQ CQ CQ DE HB4CY HB4CY HB4CY PSE K
+> HB4CY DE HB9ARK K
 </qso>
 
 <fragment>
-Allgemeiner Anruf von DL2AB - Bitte Kommen!
+Allgemeiner Anruf von HB4CY - Bitte Kommen!
 </fragment>
 
 <fragment>
-DL2AB von DL1PZ - Kommen!
+HB4CY von HB9ARK - Kommen!
 </fragment>
 
 ---
 Teil 2 unseres Beispiel-Gesprächs:
 
 <qso>
-DL1PZ DE DL2AB = UR RST 599 599 = DL1PZ DE DL2AB K
-> DL2AB DE DL1PZ = TNX RPRT, UR 479 479 BK
+HB9ARK DE HB4CY = UR RST 599 599 = HB9ARK DE HB4CY K
+> HB4CY DE HB9ARK = TNX RPRT, UR 479 479 BK
 </qso>
 
 <fragment>
-DL1PZ von DL2AB. Dein Signal ist mit dem RST-Wert 599, ich wiederhole, 599. DL1PZ von DL2AB - Kommen!
+HB9ARK von HB4CY Dein Signal ist mit dem RST-Wert 599, ich wiederhole, 599. HB9ARK von HB4CY - Kommen!
 </fragment>
 
 <fragment>
-DL2AB von DL1PZ. Danke für den RST-Rapport, dein Signal ist 479, ich wiederhole, 479. Zurück zu dir!
+HB4CY von HB9ARK Danke für den RST-Rapport, dein Signal ist 479, ich wiederhole, 479. Zurück zu dir!
 </fragment>
 
 ---
 Teil 3 unseres Beispiel-Gesprächs:
 
 <qso>
-BK QSL = VY 73 DE DL2AB SK
-> R 73 DE DL1PZ SK
+BK QSL = VY 73 DE HB4CY SK
+> R 73 DE HB9ARK SK
 </qso>
 
 <fragment>
@@ -103,7 +105,7 @@ Hier bin ich wieder. Ich bestätige den Empfang. Sehr viele Grüße von DL2AB. E
 
 
 <fragment>
-Verstanden. Viele Grüße von DL1PZ. Ende der Verbindung.
+Verstanden. Viele Grüße von HB9ARK Ende der Verbindung.
 </fragment>
 
 ---
@@ -121,13 +123,13 @@ Andere digitale Verfahren übertragen auch Bilder oder Video, mit angepasster Be
 [question:BB101]
 
 ---
-[question:BB110]
+[question:BE112]
 
 ---
 [question:BB109]
 
 ---
-[question:BB108]
+[question:BB110]
 
 ---
-[question:BE112]
+[question:BB108]
