@@ -100,7 +100,7 @@ BK QSL = VY 73 DE HB4CY SK
 </qso>
 
 <fragment>
-Hier bin ich wieder. Ich bestätige den Empfang. Sehr viele Grüße von DL2AB. Ende der Verbindung.
+Hier bin ich wieder. Ich bestätige den Empfang. Sehr viele Grüße von HB4CY. Ende der Verbindung.
 </fragment>
 
 
