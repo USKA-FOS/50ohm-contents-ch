@@ -11,22 +11,9 @@ Für die Kommunikation mittels Funkfernschreiben zwischen Amateurfunkstationen g
 %[photo:0:n_funkfernschreiben_ft8_20m:Mehrere FT8-Signale in einem SSB-Kanal im $\qty{20}{\meter}$-Band]
 
 <indepth>
-Funkfernschreiben hatte historisch eine grosse Bedeutung bei der Nachrichtenübermittlung im Handel, für Hotel- und Flugreservationen und für militärische Telekommunikation. Es ist ein Frequency Shift Keying (FSK) Verfahren, bei dem dem Bit 0 und dem Bit 1 je eine Frequenz, ein Ton zugeordnet ist. Die Töne heissen "Mark" und "Space". Die Differenz der beiden Frequenzen nennt man Shift. Übliche Werte für den Shift sind 170 Hz oder 450 Hz. Die einzelnen Bits einer Nachricht werden sequentiell, als zeitlich hintereinander, ausgesendet.
-
-Im englischen Sprachgebrauch nennt man das klassische Funkfernschreiben Radio TeleType (RTTY). Es verwendet einen 5 Bit Code zur Darstellung der (Gross-)Buchstaben, der Ziffern und weniger Steuer- und Sonderzeichen.
-
-Übliche Übertragungsraten sind 45 oder 50 Zeichen pro Minute (??). Mit diesen Übertragungsraten eignet es sich gut für zwischenmenschliche Kommunikation. Es gibt allerdings keine Fehlerkorrektur, so dass sich Übertragungsfehler unmittelbar in falsch dekodierten Zeichen äussern.
-
-Im Amateurfunk gebräuchliche moderne Varianten des Fernschreibens sind JS8CALL oder VARA / VARAC, die eine Fehlerkorrektur aufweisen und trotzdem schnell genug für einen Tastatur-zu-Tastatur-Chat sind.
-
-TODO: ergänzen und Skizze einfügen
-
-</indepth>
-
-<indepth>
 # Funkfernschreiben (RTTY -- Radio Teletype)
 
-## Historische Bedeutung
+*Historische Bedeutung*
 
 Das Funkfernschreiben hatte historisch eine grosse Bedeutung bei der
 Nachrichtenübermittlung. Es wurde insbesondere im internationalen
@@ -39,9 +26,9 @@ ausgetauscht werden. Es stellte damit eine frühe Form der digitalen
 Datenübertragung über Funk dar.
 
 Im englischen Sprachgebrauch wird das klassische Funkfernschreiben als
-**Radio Teletype (RTTY)** bezeichnet.
+*Radio Teletype (RTTY)* bezeichnet.
 
-## Funktionsprinzip und Modulation
+**Funktionsprinzip und Modulation**
 
 RTTY verwendet das Modulationsverfahren Frequency Shift Keying (FSK).
 Dabei werden zwei unterschiedliche Frequenzen zur Übertragung digitaler
@@ -54,10 +41,6 @@ Den beiden Frequenzen sind die binären Zustände 0 und 1 zugeordnet:
 
 Die Differenz zwischen den beiden Frequenzen wird als **Shift**
 bezeichnet.
-
-Im Amateurfunk ist ein Shift von 170 Hz üblich. Historisch und in
-kommerziellen Anwendungen kamen auch andere Werte zum Einsatz,
-beispielsweise 425 oder 450 Hz sowie 850 Hz.
 
 Die einzelnen Bits einer Nachricht werden zeitlich hintereinander
 übertragen. Während der Übertragung wechselt das Sendesignal
@@ -112,15 +95,10 @@ Im Amateurfunk sind insbesondere folgende Einstellungen gebräuchlich:
 -   45,45 Baud (historisch auch als 45 Baud bezeichnet)
 -   170 Hz Shift
 
-Daneben existieren beispielsweise auch Übertragungen mit 50 Baud.
-
-Wichtig ist die Unterscheidung zwischen Baud und Zeichen pro Minute. Bei
+Wichtig ist die Unterscheidung zwischen Baud [sec:symbole_symbolrate] und Zeichen pro Minute. Bei
 45,45 Baud und dem üblichen RTTY-Zeichenrahmen (7,5 Bitzeiten pro
 Zeichen) ergibt sich eine Übertragungsleistung von ungefähr 6 Zeichen
-pro Sekunde. Die historische Geschwindigkeitsangabe lautet rund 60
-Wörter pro Minute (WPM).
-
-Diese Übertragungsgeschwindigkeit eignet sich gut für die direkte
+pro Sekunde, was etwa 73 Worte pro Minute ergibt und sich gut eignet für die direkte
 Kommunikation zwischen Menschen über eine Tastatur.
 
 ## Fehleranfälligkeit
