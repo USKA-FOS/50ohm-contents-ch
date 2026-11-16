@@ -11,9 +11,9 @@ Für die Kommunikation mittels Funkfernschreiben zwischen Amateurfunkstationen g
 %[photo:0:n_funkfernschreiben_ft8_20m:Mehrere FT8-Signale in einem SSB-Kanal im $\qty{20}{\meter}$-Band]
 
 <indepth>
-# Funkfernschreiben (RTTY -- Radio Teletype)
+# Funkfernschreiben (RTTY, Radio Teletype)
 
-*Historische Bedeutung*
+## Historische Bedeutung
 
 Das Funkfernschreiben hatte historisch eine grosse Bedeutung bei der
 Nachrichtenübermittlung. Es wurde insbesondere im internationalen
@@ -28,7 +28,7 @@ Datenübertragung über Funk dar.
 Im englischen Sprachgebrauch wird das klassische Funkfernschreiben als
 *Radio Teletype (RTTY)* bezeichnet.
 
-**Funktionsprinzip und Modulation**
+## Funktionsprinzip und Modulation
 
 RTTY verwendet das Modulationsverfahren Frequency Shift Keying (FSK).
 Dabei werden zwei unterschiedliche Frequenzen zur Übertragung digitaler
@@ -83,7 +83,10 @@ Startbit eingeleitet und durch Stopbits abgeschlossen. Ein typischer
 
 Die Übertragung erfolgt somit nicht als kontinuierlicher,
 synchronisierter Datenstrom, sondern jedes einzelne Zeichen besitzt
-seine eigene zeitliche Rahmung.
+seine eigene zeitliche Rahmung. Die Abbildung [ref:Baudotzeichen] zeigt die Umsetzung der beispielhaften Bitfolge `1 0 1 0 1` in
+zwei unterschiedliche Frequenzen.
+
+[picture:10103:Baudotzeichen:Serielle Übertragung der Bits]
 
 ## Übertragungsgeschwindigkeit
 
@@ -166,8 +169,7 @@ schwierigen Ausbreitungsbedingungen eine zuverlässigere Kommunikation.
 
 TODO: Skizze schön zeichnen 
 
-Die Skizze zeigt, wie eine beispielhafte Bitfolge `1 0 1 1 0` in
-zwei unterschiedliche Frequenzen umgesetzt wird:
+
 
 
 Bitfolge:       1       0       1       1       0
