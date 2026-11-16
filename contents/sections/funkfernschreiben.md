@@ -118,42 +118,7 @@ nachfolgende Zeichen falsch interpretiert werden können.
 Die Zuverlässigkeit der Übertragung hängt deshalb wesentlich von der
 Qualität der Funkverbindung und der korrekten Einstellung des Empfängers
 beziehungsweise Decoders ab.
-</indepth>
 
-## Moderne digitale Betriebsarten
-
-Im Amateurfunk werden heute neben dem klassischen RTTY verschiedene
-moderne digitale Betriebsarten eingesetzt, die eine wesentlich
-zuverlässigere Datenübertragung ermöglichen.
-
-Zwei Beispiele sind:
-
-**JS8Call**
-
-JS8Call ist eine auf FT8 aufbauende digitale Kommunikationsanwendung.
-Sie verwendet eine speziell entwickelte Mehrton-FSK-Modulation (8-FSK)
-und eine leistungsfähige Fehlerkorrektur.
-
-Im Gegensatz zu FT8, das primär für kurze standardisierte
-Funkverbindungen und den Austausch von Stationsinformationen entwickelt
-wurde, ermöglicht JS8Call den Austausch frei formulierter
-Textnachrichten. Damit ist auch eine Tastatur-zu-Tastatur-Kommunikation
-möglich.
-
-**VARA HF / VARAC**
-
-VARA HF ist ein Softwaremodem für die digitale Datenübertragung über
-Kurzwelle. Es verwendet adaptive Modulationsverfahren und passt die
-Übertragungsparameter an die aktuellen Eigenschaften des Funkkanals an.
-
-Ein wesentliches Merkmal ist das Verfahren ARQ (Automatic Repeat
-reQuest): Werden Datenblöcke nicht korrekt empfangen, fordert die
-Gegenstation deren erneute Übertragung an.
-
-VARAC ist eine Chat-Anwendung, welche das VARA-Modem für die
-Kommunikation zwischen Funkstationen nutzt.
-
-<indepth>
 ## Zusammenfassung
 
 RTTY ist ein vergleichsweise einfaches digitales Übertragungsverfahren,
@@ -218,3 +183,36 @@ Es gibt auch digitale Übertragungsverfahren, bei denen die Abwicklung anders er
 [question:BB109]
 [question:BB110]
 [question:BB108]
+
+## Moderne digitale Betriebsarten
+
+Im Amateurfunk werden heute neben dem klassischen RTTY verschiedene
+moderne digitale Betriebsarten eingesetzt, die eine wesentlich
+zuverlässigere Datenübertragung ermöglichen.
+
+Zwei Beispiele sind:
+
+**JS8Call**
+
+JS8Call ist eine auf FT8 aufbauende digitale Kommunikationsanwendung.
+Sie verwendet eine speziell entwickelte Mehrton-FSK-Modulation (8-FSK)
+und eine leistungsfähige Fehlerkorrektur.
+
+Im Gegensatz zu FT8, das primär für kurze standardisierte
+Funkverbindungen und den Austausch von Stationsinformationen entwickelt
+wurde, ermöglicht JS8Call den Austausch frei formulierter
+Textnachrichten. Damit ist auch eine Tastatur-zu-Tastatur-Kommunikation
+möglich.
+
+**VARA HF / VARAC**
+
+VARA HF ist ein Softwaremodem für die digitale Datenübertragung über
+Kurzwelle. Es verwendet adaptive Modulationsverfahren und passt die
+Übertragungsparameter an die aktuellen Eigenschaften des Funkkanals an.
+
+Ein wesentliches Merkmal ist das Verfahren ARQ (Automatic Repeat
+reQuest): Werden Datenblöcke nicht korrekt empfangen, fordert die
+Gegenstation deren erneute Übertragung an.
+
+VARAC ist eine Chat-Anwendung, welche das VARA-Modem für die
+Kommunikation zwischen Funkstationen nutzt.
