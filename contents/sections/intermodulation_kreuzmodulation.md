@@ -41,6 +41,17 @@ Der IP3 beschreibt somit den extrapolierten Punkt, an dem die Intermodulationspr
 Je höher der IP3 eines Empfängers ist, desto besser ist seine Großsignalfestigkeit. Ein hoher IP3 bedeutet, dass auch starke Nachbarsignale verarbeitet werden können, ohne dass störende Intermodulationsprodukte im gewünschten Empfangsbereich entstehen.
 </indepth>
 
+<indepth>
+
+**Zahlenbeispiel zur IM3**
+
+
+%Wenn die Signale f₁ und f₂ durch eine Nichtlinearität gemischt werden, entstehen durch mathematische %Kombinationen (Summen und Differenzen der Vielfachen der Ursprungsfrequenzen nach der Formel n ⋅ f₁ ± m ⋅ %f₂) neue Frequenzprodukte:
+%• 2. Ordnung: Produkte wie f₁ + f₂, f₂ - f₁, 2f₁ oder 2f₂ (diese liegen meist weit entfernt von den %Grundsignalen und lassen sich leicht wegfiltern).
+%• 3. Ordnung (IM3): Produkte wie 2f₁ - f₂ und 2f₂ - f₁. Sie liegen sehr nah an den Originalfrequenzen, %können kaum herausgefiltert werden und sind die Hauptursache für Störungen in Funk- und %Kommunikationssystemen.
+%• Höhere Ordnungen: 5. Ordnung usw. (verlieren typischerweise schnell an Leistung).
+</indepth>
+
 [question:AF221]
 
 Um das Entstehen von unerwünschten Mischprodukten im Empfängereingang durch starke Signale zu verringern kann ein schaltbares Dämpfungsglied (Attenuator) am Empfängereingang vorgeschaltet werden. Hierdurch werden Intermodulationsprodukte sowie Kreuzmodulation im Empfänger verringert. Das Nutzsignal wird hierbei nur um den Faktor des Dämpfungsgliedes reduziert - störende Mischprodukte werden jedoch aufgrund der mathematischen Gegebenheiten beim Mischprozess um den Faktor $\num{3}$ (3. Ordnung) in $\unit{\dB}$ abgeschwächt. Beispielsweise reduziert ein $\qty{10}{\dB}$ Dämpfungsglied das Nutzsignal nur um $\qty{10}{\dB}$ während unerwünschte Mischprodukte bereits um $\qty{30}{\dB}$ gedämpft werden.
