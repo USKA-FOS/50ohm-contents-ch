@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung durchgeführt 
+
 * Die *Bandbreite* ist der genutzte Frequenzbereich in *$\unit{\hertz}$*
 * Die *Datenübertragungsrate* ist die je Zeiteinheit übertragene Datenmenge in *$\unit{\bit\per\second}$*
 
