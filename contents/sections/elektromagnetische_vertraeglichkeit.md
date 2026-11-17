@@ -1,3 +1,5 @@
+IN BEARBEITUNG 
+
 % Rechtsgrundlage: https://www.fedlex.admin.ch/eli/cc/2016/18/de
 % Erwähnen: https://www.etsi.org/deliver/etsi_en/301400_301499/30148915/02.02.01_60/en_30148915v020201p.pdf 
 
@@ -9,6 +11,15 @@ Grundsätzlich kann so jede Art von elektronischem Gerät gestört werden. Mögl
 * Vorübergehender Ausfall von Internetzugang oder WLAN
 * Schwierigkeiten beim Radio- oder Fernsehempfang
 * Fehler in der Steuerung von Heizungen
+
+
+<law>
+Die Rechtsgrundlagen zur elektromagnetischen Verträglichkeit findet man in
+[Rechtsgrundlage](https://www.fedlex.admin.ch/eli/cc/2016/18/de)
+
+[etsi](https://www.etsi.org/deliver/etsi_en/301400_301499/30148915/02.02.01_60/en_30148915v020201p.pdf)
+</law>
+
 
 Das Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln (EMVG) legt zur Vermeidung solcher Störungen bestimmte *Schutzanforderungen zur Gewährleistung der elektromagnetischen Verträglichkeit* fest, die von allen technischen Geräten eingehalten werden müssen. Einerseits wird verlangt, dass kein Gerät so starke Störungen erzeugen darf, dass andere Geräte nicht mehr funktionieren. Andererseits verlangt das Gesetz, dass alle Geräte eine gewisse Störfestigkeit aufweisen. Das bedeutet, dass sie unempfindlich gegenüber zu erwartenden elektromagnetischen Störungen sein müssen.
 
