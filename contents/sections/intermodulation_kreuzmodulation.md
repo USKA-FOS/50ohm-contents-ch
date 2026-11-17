@@ -62,17 +62,15 @@ Welche Sendefrequenzen würden ein Intermodulationsproduktsignal in einem auf $f
 *Lösungsweg:
 Gesucht sind die beiden Frequenzen, die zusammen mit der Störsenderfrequenz $f_2$ ein Mischprodukt 3. Ordnung ergeben, welches auf die Empfangsfrequenz $f_1$ trifft.
 
-Bei zwei Eingangssignalen mit der Empfansfrequenz $f_1$ und der Störfrequenz $f_2$ entstehen unter anderem zwei Intermodulationsprodukte 3. Ordnung:
-
 $f_{\mathrm{IM3}} = 2f_1 - f_2$
 
 $f_{\mathrm{IM3}} = 2f_2 - f_1$
 
-*1. schädliche Kombination 
+1. Kombination 
 $146{,}700=2\cdot146{,}520-f_2$
 $f_2=146{,}340\ \mathrm{MHz}}$
 
-*2. schädliche Kombination
+2. Kombination
 $146{,}700=2f_2-146{,}520$
 $f_2=146{,}610\ \mathrm{MHz}}$
 
