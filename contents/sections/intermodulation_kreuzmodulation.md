@@ -43,7 +43,7 @@ Je höher der IP3 eines Empfängers ist, desto besser ist seine Großsignalfesti
 
 <indepth>
 
-**Welche Intermodulationsprodukte sind praxisrrlevant?**
+**Berechnungsbeispiel**
 
 Wenn die Signale $f_1$ und $f_2$ durch eine Nichtlinearität gemischt werden, entstehen durch mathematische Kombinationen (Summen und Differenzen der Vielfachen der Ursprungsfrequenzen nach der obigen Formel $n \cdot f_1 \pm m \cdot f_2$) neue Frequenzprodukte:
 
@@ -55,7 +55,7 @@ Wenn die Signale $f_1$ und $f_2$ durch eine Nichtlinearität gemischt werden, en
 
 - **Höhere Ordnungen:** 5. Ordnung usw. (verlieren typischerweise schnell an Leistung).
 
-**Zahlenbeispiel zur IM3**
+**Zahlenbeispiel zur IP3**
   
 Welche Sendefrequenzen würden ein Intermodulationsproduktsignal in einem auf 146,7 MHz abgestimmten Empfänger verursachen, wenn eine nahegelegene Station auf 146,52 MHz sendet?
 
