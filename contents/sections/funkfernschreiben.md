@@ -43,12 +43,12 @@ BK QSL = VY 73 DE HB4CY SK
 </webmargin>
 
 <tip>
-Hinweis: Vollständige Liste in [sec:Betriebliche_Abkuerzungen]
+Hinweis: Vollständige Liste in [sec:betriebliche_abkuerzungen]
 </tip>
 
 <indepth>
-# Funkfernschreiben (RTTY,
-Radio Teletype)
+# Funkfernschreiben
+(RTTY, Radio Teletype)
 
 ## Historische Bedeutung
 
@@ -120,8 +120,7 @@ Startbit eingeleitet und durch Stopbits abgeschlossen. Ein typischer
 
 Die Übertragung erfolgt somit nicht als kontinuierlicher,
 synchronisierter Datenstrom, sondern jedes einzelne Zeichen besitzt
-seine eigene zeitliche Rahmung. Die Abbildung [ref:Baudotzeichen] zeigt die Umsetzung der beispielhaften Bitfolge `1 0 1 0 1` in
-zwei unterschiedliche Frequenzen.
+seine eigene zeitliche Rahmung. Die Abbildung [ref:Baudotzeichen] zeigt die Umsetzung der beispielhaften Bitfolge `1 0 1 0 1` in zwei unterschiedliche Frequenzen.
 
 [picture:10103:Baudotzeichen:Serielle Übertragung der Bits]
 
@@ -132,7 +131,7 @@ entspricht einem übertragenen Symbol pro Sekunde.
 
 Im Amateurfunk sind insbesondere folgende Einstellungen gebräuchlich:
 
--   45,45 Baud (historisch auch als 45 Baud bezeichnet)
+-   45,45 Baud
 -   170 Hz Shift
 
 Wichtig ist die Unterscheidung zwischen Baud [sec:symbole_symbolrate] und Zeichen pro Minute. Bei
@@ -165,7 +164,7 @@ Die Abwicklung einer Telegrafie-Verbindung erfolgt sowohl bei der Morsetelegrafi
 
 ---
 
-%Vertiefungsbox erstellen mit der 2. Bedeutung von SK (verstorben). Die gibt es in einem andern Abschnitt bereits. Von dort kopieren
+%Vertiefungsbox erstellen mit der 2. Bedeutung von SK (verstorben). Die gibt es in einem andern Abschnitt bereits. Von dort kopieren. ARK: an einem Ort genügt es.
 
 Es gibt auch digitale Übertragungsverfahren, bei denen die Abwicklung anders erfolgt. FT8 oder FT4 funktionieren beispielsweise auch bei widrigen Funkbedingungen, also wenn beim Empfänger im Vergleich zum Grundrauschen lediglich eine niedrige Signalstärke erreicht werden kann. Dafür können bei den genannten Verfahren aber nur ganz wenige Zeichen je Sendung übertragen werden. Entsprechend ist die Abwicklung noch kompakter. Andere digitale Verfahren übertragen gar keine Texte, sondern beispielsweise Bilder oder Video, mit an diese Umstände angepasster Betriebsabwicklung. Darauf wird in der Prüfung aber nicht eingegangen.
 
