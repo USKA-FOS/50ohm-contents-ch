@@ -42,6 +42,10 @@ BK QSL = VY 73 DE HB4CY SK
 [table:n_funkfernschreiben_abkuerzungen:Betriebliche Abkürzungen in der Telegrafie]
 </webmargin>
 
+<tip>
+Hinweis: Vollständige Liste in [sec:Betriebliche_Abkuerzungen]
+</tip>
+
 <indepth>
 # Funkfernschreiben (RTTY,
 Radio Teletype)
@@ -161,8 +165,6 @@ Die Abwicklung einer Telegrafie-Verbindung erfolgt sowohl bei der Morsetelegrafi
 
 ---
 
-%Hinweis: Vollständige Liste in Sec:Betriebliche Abkürzungen
-
 %Vertiefungsbox erstellen mit der 2. Bedeutung von SK (verstorben). Die gibt es in einem andern Abschnitt bereits. Von dort kopieren
 
 Es gibt auch digitale Übertragungsverfahren, bei denen die Abwicklung anders erfolgt. FT8 oder FT4 funktionieren beispielsweise auch bei widrigen Funkbedingungen, also wenn beim Empfänger im Vergleich zum Grundrauschen lediglich eine niedrige Signalstärke erreicht werden kann. Dafür können bei den genannten Verfahren aber nur ganz wenige Zeichen je Sendung übertragen werden. Entsprechend ist die Abwicklung noch kompakter. Andere digitale Verfahren übertragen gar keine Texte, sondern beispielsweise Bilder oder Video, mit an diese Umstände angepasster Betriebsabwicklung. Darauf wird in der Prüfung aber nicht eingegangen.
@@ -172,7 +174,21 @@ Es gibt auch digitale Übertragungsverfahren, bei denen die Abwicklung anders er
 [question:BB110]
 [question:BB108]
 
+---
+
+RTTY ist ein vergleichsweise einfaches digitales Übertragungsverfahren,
+bei dem Informationen durch die Umschaltung zwischen zwei Frequenzen
+übertragen werden. Es besitzt eine geringe Bandbreite und ist technisch
+relativ einfach zu realisieren.
+
 ## Moderne digitale Betriebsarten
+
+Moderne digitale Betriebsarten wie JS8Call und VARA/VARAC gehen
+wesentlich weiter: Sie nutzen komplexere Modulationsverfahren und
+Mechanismen zur Fehlerkorrektur beziehungsweise zur Wiederholung
+fehlerhafter Datenübertragungen. Dadurch ermöglichen sie auch unter
+schwierigen Ausbreitungsbedingungen eine zuverlässigere Kommunikation.
+
 
 Im Amateurfunk werden heute neben dem klassischen RTTY verschiedene
 moderne digitale Betriebsarten eingesetzt, die eine wesentlich
