@@ -4,10 +4,10 @@ Digitale Übertragungssysteme übertragen keine analogen Signale, sondern digita
 - *Bandbreite*: Den Begriff der Bandbreite haben wir bereits kennen gelernt. Sie wird in *Hertz ($\unit{\hertz}$)* angegeben, wie die Frequenz, und darf nicht mit der Datenübertragungsrate verwechselt werden, auch wenn in der Umgangssprache von der Datenübertragungsrate als Bandbreite gesprochen wird (z.B. beim DSL-Anschluss).
 
 <indepth>
-### Bit/s und Baud im Vergleich
+### Bit/s und Baud
 
 | Begriff         | Bedeutung                                   | Einheit |
-| --------------- | ------------------------------------------- | ------- |
+|                 |                                             |         |
 | **Bit/s (bps)** | Anzahl der übertragenen Bits pro Sekunde    | Bit/s   |
 | **Baud (Bd)**   | Anzahl der übertragenen Symbole pro Sekunde | Baud    |
 
@@ -17,6 +17,10 @@ Digitale Übertragungssysteme übertragen keine analogen Signale, sondern digita
 - **Baud** beschreibt, wie viele Symbole pro Sekunde übertragen werden.
 
 Ein Symbol kann je nach Modulationsverfahren ein oder mehrere Bits codieren.
+</indepth>
+
+<indepth>
+Unter **Bandbreiteeffizienz** versteht man, wieviel Bits pro Sekunde in einer Bandbreite von 1 Hettz übertragen werden können. 
 </indepth>
 
 [question:EA106]
