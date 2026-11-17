@@ -43,13 +43,21 @@ Je höher der IP3 eines Empfängers ist, desto besser ist seine Großsignalfesti
 
 <indepth>
 
+**Welche Intermodulationsprodukte sind praxisrrlevant?**
+
+Wenn die Signale $f_1$ und $f_2$ durch eine Nichtlinearität gemischt werden, entstehen durch mathematische Kombinationen (Summen und Differenzen der Vielfachen der Ursprungsfrequenzen nach der obigen Formel $n \cdot f_1 \pm m \cdot f_2$) neue Frequenzprodukte:
+
+*Interpretation der allgemeinen Formel*
+
+- **2. Ordnung:** Produkte wie $f_1 + f_2$, $f_2 - f_1$, $2f_1$ oder $2f_2$ (diese liegen meist weit entfernt von den Grundsignalen und lassen sich leicht herausfiltern).
+
+- **3. Ordnung (IM3):** Produkte wie $2f_1 - f_2$ und $2f_2 - f_1$. Sie liegen sehr nah an den Originalfrequenzen, können kaum herausgefiltert werden und sind die Hauptursache für Störungen in Funk- und Kommunikationssystemen.
+
+- **Höhere Ordnungen:** 5. Ordnung usw. (verlieren typischerweise schnell an Leistung).
+
 **Zahlenbeispiel zur IM3**
+  
 
-
-%Wenn die Signale f₁ und f₂ durch eine Nichtlinearität gemischt werden, entstehen durch mathematische %Kombinationen (Summen und Differenzen der Vielfachen der Ursprungsfrequenzen nach der Formel n ⋅ f₁ ± m ⋅ %f₂) neue Frequenzprodukte:
-%• 2. Ordnung: Produkte wie f₁ + f₂, f₂ - f₁, 2f₁ oder 2f₂ (diese liegen meist weit entfernt von den %Grundsignalen und lassen sich leicht wegfiltern).
-%• 3. Ordnung (IM3): Produkte wie 2f₁ - f₂ und 2f₂ - f₁. Sie liegen sehr nah an den Originalfrequenzen, %können kaum herausgefiltert werden und sind die Hauptursache für Störungen in Funk- und %Kommunikationssystemen.
-%• Höhere Ordnungen: 5. Ordnung usw. (verlieren typischerweise schnell an Leistung).
 </indepth>
 
 [question:AF221]
