@@ -178,6 +178,8 @@ bei dem Informationen durch die Umschaltung zwischen zwei Frequenzen
 übertragen werden. Es besitzt eine geringe Bandbreite und ist technisch
 relativ einfach zu realisieren.
 
+---
+
 ## Moderne digitale Betriebsarten
 
 Moderne digitale Betriebsarten wie JS8Call und VARA/VARAC gehen
@@ -190,6 +192,8 @@ schwierigen Ausbreitungsbedingungen eine zuverlässigere Kommunikation.
 Im Amateurfunk werden heute neben dem klassischen RTTY verschiedene
 moderne digitale Betriebsarten eingesetzt, die eine wesentlich
 zuverlässigere Datenübertragung ermöglichen.
+
+---
 
 Zwei Beispiele sind:
 
@@ -204,6 +208,8 @@ Funkverbindungen und den Austausch von Stationsinformationen entwickelt
 wurde, ermöglicht JS8Call den Austausch frei formulierter
 Textnachrichten. Damit ist auch eine Tastatur-zu-Tastatur-Kommunikation
 möglich.
+
+---
 
 **VARA HF / VARAC**
 
