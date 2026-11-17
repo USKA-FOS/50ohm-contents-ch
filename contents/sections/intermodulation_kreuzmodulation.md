@@ -57,6 +57,10 @@ Wenn die Signale $f_1$ und $f_2$ durch eine Nichtlinearität gemischt werden, en
 
 **Zahlenbeispiel zur IM3**
   
+Welche Sendefrequenzen würden ein Intermodulationsproduktsignal in einem auf 146,7 MHz abgestimmten Empfänger verursachen, wenn eine nahegelegene Station auf 146,52 MHz sendet?
+
+Lösungsweg:
+
 
 </indepth>
 
