@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung durchgeführt
+
 * Zwei starke HF-Signale am Eingang eines Empfängers $\rightarrow$ Störungen durch Inter- oder Kreuzmodulation
 * Bei *Intermodulation* zeigt die Empfängerstufe nichtlineares Verhalten $\rightarrow$ unerwünschte Frequenzen mit Überlagerungsstörungen
 * Bei *Kreuzmodulation* wird gewünschtes Signal durch ein starkes, benachbartes AM-Signal beeinflusst $\rightarrow$ Modulation des benachbarten Senders ist hörbar
