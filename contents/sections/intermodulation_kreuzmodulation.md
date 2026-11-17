@@ -60,15 +60,24 @@ Wenn die Signale $f_1$ und $f_2$ durch eine Nichtlinearität gemischt werden, en
 Welche Sendefrequenzen würden ein Intermodulationsproduktsignal in einem auf $f_1$ = 146,7 MHz abgestimmten Empfänger verursachen, wenn eine nahegelegene Station ("Störsender") auf $f_2$ = 146,52 MHz sendet?
 
 *Lösungsweg:
-Bei zwei Eingangssignalen mit der Empfansfrequenz $f_1$ und der Störfrequenz $f_2$ entstehen unter anderem zwei Intermodulationsprodukte 3. Ordnung:
+Gesucht sind die beiden Frequenzen, die zusammen mit der Störsenderfrequenz $f_2$ ein Mischprodukt 3. Ordnung ergeben, welches auf die Empfangsfrequenz $f_1$ trifft.
 
+Bei zwei Eingangssignalen mit der Empfansfrequenz $f_1$ und der Störfrequenz $f_2$ entstehen unter anderem zwei Intermodulationsprodukte 3. Ordnung:
 
 $f_{\mathrm{IM3}} = 2f_1 - f_2$
 
-
 $f_{\mathrm{IM3}} = 2f_2 - f_1$
 
+*1. schädliche Kombination 
+$146{,}700=2\cdot146{,}520-f_2$
+$f_2=146{,}340\ \mathrm{MHz}}$
 
+*2. schädliche Kombination
+$146{,}700=2f_2-146{,}520$
+$f_2=146{,}610\ \mathrm{MHz}}$
+
+Das entstandene, unerwünschte Intermodulationsprodukt muss auf die Empfangsfrequenz fallen,
+sonst würde es ja nicht stören.
 </indepth>
 
 [question:AF221]
