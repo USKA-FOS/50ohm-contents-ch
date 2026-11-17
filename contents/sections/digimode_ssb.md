@@ -20,7 +20,7 @@ Slow-Scan Television (SSTV) bezeichnet die Übertragung von Standbildern mithilf
 Im Gegensatz dazu steht Amateur Television (ATV), bei dem Bewegtbilder – also echtes Fernsehen – übertragen werden. Aufgrund der deutlich höheren Informationsmenge erfordert ATV eine wesentlich größere Bandbreite, typischerweise mehrere Megahertz, oft $\qty{6}{\mega\hertz}$ oder mehr. Aus diesem Grund ist ATV auf den Kurzwellenbändern nicht realisierbar und wird erst in höheren Frequenzbereichen eingesetzt, meist ab dem $\qty{70}{\centi\meter}$-Band aufwärts oder z.B. im $\unit{\giga\hertz}$-Bereich über QO-100. Dort stehen ausreichend breite Frequenzbereiche zur Verfügung, um die für Bewegtbildübertragungen notwendige Bandbreite bereitzustellen.
 
 <law>
-Fernsehen (ATV/SSTV) ist nur für HB9 zulässig ist. VNV Art. 45 ?
+Fernsehen (ATV/SSTV) ist gemäss VNV Art. 45 nur für HB9 zulässig ist.
 </law>
 
 [question:EE415]
@@ -30,5 +30,6 @@ Fernsehen (ATV/SSTV) ist nur für HB9 zulässig ist. VNV Art. 45 ?
 </margin>
 
 <indepth>
-Bei ATV wird DVB-T eingesetzt. 
+Bei ATV wird heute DVB-T eingesetzt. 
+Eine Amateurfunkvereinugung, die sich intensiv mit ATV befasst ist neben einer kleinen Gruppe HB9-er um HB9ATV und HB9TV der British Amateur Television Club  [BATC](https://batc.org.uk/)
 </indepth>
