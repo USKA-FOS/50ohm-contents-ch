@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung durchgeführt 
+
 ## Bandbreite von Digimodes
 
 * Im Gegensatz zur Sprache benötigen viele Digimodes weniger Bandbreite
