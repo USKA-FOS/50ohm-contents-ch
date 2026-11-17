@@ -63,10 +63,10 @@ Lösungsweg:
 Bei zwei Eingangssignalen mit der Empfansfrequenz \(f_1\) und der Störfrequenz \(f_2\) entstehen unter anderem zwei Intermodulationsprodukte 3. Ordnung:
 
 
-f_{\mathrm{IM3}} = 2f_1 - f_2
+$f_{\mathrm{IM3}} = 2f_1 - f_2$
 
 
-f_{\mathrm{IM3}} = 2f_2 - f_1
+$f_{\mathrm{IM3}} = 2f_2 - f_1$
 
 
 </indepth>
