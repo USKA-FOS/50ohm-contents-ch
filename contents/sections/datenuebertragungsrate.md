@@ -20,7 +20,7 @@ Ein Symbol kann je nach Modulationsverfahren ein oder mehrere Bits codieren.
 </indepth>
 
 <indepth>
-Unter **Bandbreiteeffizienz** versteht man, wieviel Bits pro Sekunde in einer Bandbreite von 1 Hettz übertragen werden können. 
+Unter **Bandbreiteeffizienz** versteht man, wieviel Bits pro Sekunde in einer Bandbreite von 1 Hertz übertragen werden können. 
 </indepth>
 
 [question:EA106]
