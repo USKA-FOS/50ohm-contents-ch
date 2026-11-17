@@ -57,10 +57,10 @@ Wenn die Signale $f_1$ und $f_2$ durch eine Nichtlinearität gemischt werden, en
 
 **Zahlenbeispiel zur IP3**
   
-Welche Sendefrequenzen würden ein Intermodulationsproduktsignal in einem auf $f_1$ = 146,7 MHz abgestimmten Empfänger verursachen, wenn eine nahegelegene Station ("Störsender") auf $f_2$ = 146,52 MHz sendet?
+Welche Sendefrequenzen würden ein Intermodulationsproduktsignal in einem auf 146,7 MHz abgestimmten Empfänger verursachen, wenn eine nahegelegene Station ("Störsender") auf 146,52 MHz sendet?
 
 **Lösungsweg:**
-Gesucht sind die beiden Frequenzen, die zusammen mit der Störsenderfrequenz $f_2$ ein Mischprodukt 3. Ordnung ergeben, welches auf die Empfangsfrequenz $f_1$ trifft.
+Gesucht sind die beiden Frequenzen, die zusammen mit der Störsenderfrequenz ein Mischprodukt 3. Ordnung ergeben, welches auf die Empfangsfrequenz trifft.
 
 $f_{\mathrm{IM3}} = 2f_1 - f_2$
 
