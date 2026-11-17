@@ -43,7 +43,8 @@ BK QSL = VY 73 DE HB4CY SK
 </webmargin>
 
 <indepth>
-# Funkfernschreiben (RTTY, Radio Teletype)
+# Funkfernschreiben (RTTY,
+Radio Teletype)
 
 ## Historische Bedeutung
 
@@ -150,19 +151,6 @@ nachfolgende Zeichen falsch interpretiert werden können.
 Die Zuverlässigkeit der Übertragung hängt deshalb wesentlich von der
 Qualität der Funkverbindung und der korrekten Einstellung des Empfängers
 beziehungsweise Decoders ab.
-
-## Zusammenfassung
-
-RTTY ist ein vergleichsweise einfaches digitales Übertragungsverfahren,
-bei dem Informationen durch die Umschaltung zwischen zwei Frequenzen
-übertragen werden. Es besitzt eine geringe Bandbreite und ist technisch
-relativ einfach zu realisieren.
-
-Moderne digitale Betriebsarten wie JS8Call und VARA/VARAC gehen
-wesentlich weiter: Sie nutzen komplexere Modulationsverfahren und
-Mechanismen zur Fehlerkorrektur beziehungsweise zur Wiederholung
-fehlerhafter Datenübertragungen. Dadurch ermöglichen sie auch unter
-schwierigen Ausbreitungsbedingungen eine zuverlässigere Kommunikation.
 </indepth>
 
 [question:NE401]
