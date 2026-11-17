@@ -43,7 +43,7 @@ BK QSL = VY 73 DE HB4CY SK
 </webmargin>
 
 <tip>
-Hinweis: Vollständige Liste in [sec:betriebliche_abkuerzungen]
+Eine vollständige Liste befindet sich in [sec:betriebliche_abkuerzungen]
 </tip>
 
 <indepth>
