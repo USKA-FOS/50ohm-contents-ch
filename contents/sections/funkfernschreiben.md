@@ -1,5 +1,3 @@
-*IN BEARBEITUNG*
-
 Für die Kommunikation mittels Funkfernschreiben zwischen Amateurfunkstationen gibt es verschiedenste Verfahren. Damit eine Verbindung zustande kommt, müssen beide Kommunikationspartner das gleiche Übertragungsverfahren und die gleichen Parameter verwenden. Das gilt um so mehr, weil nicht jedem Verfahren eindeutige Frequenzbereiche zugeordnet sind.
 
 %[photo:0:n_funkfernschreiben_telegraphie_20m:Morsetelegrafie, FT8 und FT4 im $\qty{20}{\meter}$-Band]
