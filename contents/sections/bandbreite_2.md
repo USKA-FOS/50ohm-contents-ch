@@ -1,5 +1,3 @@
-IN BEARBEITUNG,  Zahlen kontrollieren 
-
 Die Bandbreite eines Signals oder einer Aussendung wird in Hertz ($\unit{\hertz}$) bemessen. Hierbei misst man die Bandbreite eines Signals durch Messung der Differenz zwischen maximaler und minimaler Sendefrequenz der Aussendung.
 
 <indepth>
@@ -59,4 +57,11 @@ Das erste Schriftzeichen darf weder die Ziffer Null noch einer der Buchstaben K,
   
 Die Ziffer 1.152 definiert die notwendige Bandbreite:
 Für eine gegebene Emissionsklasse die Breite des Frequenzbandes, die gerade ausreicht, um die Übertragung von Informationen mit der erforderlichen Geschwindigkeit und Qualität unter festgelegten Bedingungen sicherzustellen.
+
+Das vollständige, sehr umfangreiche Dokument **"Classification of emissions and necessary bandwidths"** befindet sich hier: [RR2016-Vol-II_App1_E.pdf](https://www.itu.int/en/ITU-R/terrestrial/workshops/WRS-16/Documents/RR2016-Vol-II_App1_E.pdf).
+
+Für die Amateurfunkprüfung genügt der auf der Webseite dargestellte Stoff. 
+
+Classification of emissions and necessary bandwidths 
+
 </indepth>
