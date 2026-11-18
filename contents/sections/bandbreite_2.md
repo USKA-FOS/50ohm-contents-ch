@@ -10,29 +10,34 @@ Die Bandbreite gibt also an, wieviel Spektrum das Signal beansprucht. Üblicherw
   
 [question:EA105]
 
+---
+
 %Ergänzen mit Bandbreite Audrücken (RR AP1, §2. Siehe Merkblatt 2021, SEite 10)
 
-# RR AP 1 – Abschnitt I: Erforderliche Bandbreite
+Es gibt im Radio Reglement eine spezielle Nomenklatur zur Beschreibung der erforderlichen Bandbreite.
 
-## § 2
+**RR AP 1 – Abschnitt I: Erforderliche Bandbreite**
 
-**1)** Die in Ziffer 1.152 definierte erforderliche Bandbreite muss durch drei Ziffern und einen Buchstaben ausgedrückt werden. Der Buchstabe nimmt die Stelle des Kommas ein und stellt die Einheit für die Bandbreite dar.
+*§ 2*
+
+*1)* Die in Ziffer 1.152 definierte erforderliche Bandbreite muss durch drei Ziffern und einen Buchstaben ausgedrückt werden. Der Buchstabe nimmt die Stelle des Kommas ein und stellt die Einheit für die Bandbreite dar.
 
 Das erste Schriftzeichen darf weder die Ziffer Null noch einer der Buchstaben K, M oder G sein.
 
-**2)** Die erforderlichen Bandbreiten werden wie folgt ausgedrückt:
+*2)* Die erforderlichen Bandbreiten werden wie folgt ausgedrückt:
 
 | Bandbreite | Einheit |
-|---|---|
+|            |         |
 | Zwischen 0,001 und 999 Hz | Hz (Buchstabe H) |
 | Zwischen 1,00 und 999 kHz | kHz (Buchstabe K) |
 | Zwischen 1,00 und 999 MHz | MHz (Buchstabe M) |
 | Zwischen 1,00 und 999 GHz | GHz (Buchstabe G) |
 
-**Beispiele:**
+*Beispiele:*
+
 
 | Bandbreite | Schreibweise |
-|---|---|
+|            |              |
 | 0,002 Hz | H002 |
 | 0,1 Hz | H100 |
 | 25,3 Hz | 25H3 |
