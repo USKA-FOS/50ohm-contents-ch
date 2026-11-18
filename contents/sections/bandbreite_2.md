@@ -57,6 +57,6 @@ Das erste Schriftzeichen darf weder die Ziffer Null noch einer der Buchstaben K,
 <indepth>
 *Definition aus den "Radio Regulations":*
   
-1.152 notwendige Bandbreite:
+Die Ziffer 1.152 definiert die notwendige Bandbreite:
 Für eine gegebene Emissionsklasse die Breite des Frequenzbandes, die gerade ausreicht, um die Übertragung von Informationen mit der erforderlichen Geschwindigkeit und Qualität unter festgelegten Bedingungen sicherzustellen.
 </indepth>
