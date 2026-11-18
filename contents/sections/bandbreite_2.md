@@ -53,3 +53,10 @@ Das erste Schriftzeichen darf weder die Ziffer Null noch einer der Buchstaben K,
 | 10 MHz | 10M0 |
 | 202 MHz | 202M |
 | 5,65 GHz | 5G65 |
+
+<indepth>
+*Definition aus den "Radio Regulations":*
+  
+1.152 notwendige Bandbreite:
+Für eine gegebene Emissionsklasse die Breite des Frequenzbandes, die gerade ausreicht, um die Übertragung von Informationen mit der erforderlichen Geschwindigkeit und Qualität unter festgelegten Bedingungen sicherzustellen.
+</indepth>
