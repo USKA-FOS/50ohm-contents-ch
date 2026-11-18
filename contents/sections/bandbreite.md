@@ -1,36 +1,11 @@
+% ARK: IN BEARBEITUNG
 %YPA: Issue #11 von ARK beachten.
 % Für HB erst ab Zeile 36 relevant. Evtl aus IUARU bandplänen sinnvollen Inhalt "erfinden"
 
+Die für den Amateurfunk zulässigen Frequenzen sind in der [Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums
+(VVNF)](https://www.fedlex.admin.ch/eli/cc/2020/914/de) festgelegt und unterscheiden sich für die HB3-Lizenz (Novice) und HB9-Lizenz (CEPT), die in [Artikel 44](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_44) und XXXXX der [Verordnung über die Nutzung des Funkfrequenzspektrums(VNF)](https://www.fedlex.admin.ch/eli/cc/2020/1024/de) beschrieben sind.
+
 Wie wir gelernt haben, hängt die belegte Sendebandbreite von der Modulationsart und bei FM auch noch vom Hub ab. Für die verschiedenen Amateurfunkbänder sind jeweils maximal zulässige Bandbreiten festgelegt. Diese findet man in der [Anlage 1](https://50ohm.de/a1) der Amateurfunkverordnung, aus der wir auch schon die Bandgrenzen entnommen haben. Diese Bandbreiten dürfen nicht überschritten werden. Jeder Funkamateur ist selbst für die Einhaltung verantwortlich.
-
-<webmargin>
-| l: Frequenzbereiche | l: Status | X: zus. Nutzungsbedingungen|
-| $\qtyrange{135,7}{137,8}{\kilo\hertz}$| S | 1 2 10 |
-| $\qtyrange{472}{479}{\kilo\hertz}$| S | 1 |
-| $\qtyrange{3500}{3800}{\kilo\hertz}$ | P | 3 |
-| $\qtyrange{10100}{10150}{\kilo\hertz}$ | S | 1 10 12 |
-| $\qtyrange{28}{29,7}{\mega\hertz}$ | P | 4 13 |
-| $\qtyrange{144}{146}{\mega\hertz}$ | P | 6 13 |
-| $\qtyrange{430}{440}{\mega\hertz}$ | P | 7 13 |
-[table:n_tab_afuv:Auszug AfuV Anlage 1]
-</webmargin>
-
-<webmargin>
-Die Zahlen bei den zusätzlichen Nutzungsbedingungen in der oben genannten Tabelle bedeuten (die nicht wiedergegebenen Zahlen sind für die Bandbreite unerheblich):
-* *1* Maximal zulässige belegte Bandbreite einer Amateurfunk-Aussendung: $\qty{800}{\hertz}$.
-* *3* Maximal zulässige belegte Bandbreite einer Amateurfunk-Aussendung: $\qty{2,7}{\kilo\hertz}$.
-* *4* Maximal zulässige belegte Bandbreite einer Amateurfunk-Aussendung unterhalb $\qty{29}{\mega\hertz}$: $\qty{7}{\kilo\hertz}$, oberhalb $\qty{29}{\mega\hertz}$: $\qty{40}{\kilo\hertz}$.
-* *6* Maximal zulässige belegte Bandbreite einer Amateurfunk-Aussendung: $\qty{40}{\kilo\hertz}$.
-* *7* Maximal zulässige belegte Bandbreite einer Amateurfunk-Aussendung: $\qty{2}{\mega\hertz}$; bei amplitudenmodulierten Fernsehaussendungen: $\qty{7}{\mega\hertz}$.
-</webmargin>
-
-Die folgenden Fragen lassen sich alle mit Hilfe der Fußnoten in der Anlage 1 der Amateurfunkverordnung lösen, die - wie schon erwähnt - während der Prüfung als Hilfsmittel zur Verfügung steht. Wir empfehlen, sich vor der Prüfung mit der Anlage vertraut zu machen!
-
-[question:VD738]
-[question:VD739]
-[question:VD740]
-[question:VD741]
-[question:VD742]
 
 ---
 
