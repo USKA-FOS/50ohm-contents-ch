@@ -78,14 +78,13 @@ Das entstandene, unerwünschte Intermodulationsprodukt muss auf die Empfangsfreq
 sonst würde es ja nicht stören.
 </indepth>
 
-<tip>
+<unit>
 Abkürzungen
   
 - IM3 bezeichnet Intermodulationsprodukte 3. Ordnung
 
 - IP3 bezeichnet den Interceptpunkt, wenn man die Kurve in der Abbildung [ref:a_zweitontest] extrapoliert. Der IP3 ist ein Maß für die Großsignalfestigkeit eine Empfängers.
-  
-</tip>
+</unit>
 
 [question:AF221]
 
