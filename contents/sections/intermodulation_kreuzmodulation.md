@@ -78,6 +78,15 @@ Das entstandene, unerwünschte Intermodulationsprodukt muss auf die Empfangsfreq
 sonst würde es ja nicht stören.
 </indepth>
 
+<tip>
+Abkürzungen
+  
+- IM3 bezeichnet Intermodulationsprodukte 3. Ordnung
+
+- IP3 bezeichnet den Interceptpunkt, wenn man die Kurve in der Abbildung [ref:a_zweitontest] extrapoliert. Das ist ein Maßstab für die Großsignalfestigkeit eine Empfängers.
+- 
+</tip>
+
 [question:AF221]
 
 Um das Entstehen von unerwünschten Mischprodukten im Empfängereingang durch starke Signale zu verringern kann ein schaltbares Dämpfungsglied (Attenuator) am Empfängereingang vorgeschaltet werden. Hierdurch werden Intermodulationsprodukte sowie Kreuzmodulation im Empfänger verringert. Das Nutzsignal wird hierbei nur um den Faktor des Dämpfungsgliedes reduziert - störende Mischprodukte werden jedoch aufgrund der mathematischen Gegebenheiten beim Mischprozess um den Faktor $\num{3}$ (3. Ordnung) in $\unit{\dB}$ abgeschwächt. Beispielsweise reduziert ein $\qty{10}{\dB}$ Dämpfungsglied das Nutzsignal nur um $\qty{10}{\dB}$ während unerwünschte Mischprodukte bereits um $\qty{30}{\dB}$ gedämpft werden.
