@@ -55,7 +55,7 @@ Wenn die Signale $f_1$ und $f_2$ durch eine Nichtlinearität gemischt werden, en
 
 - **Höhere Ordnungen:** 5. Ordnung usw. (verlieren typischerweise schnell an Leistung).
 
-**Zahlenbeispiel zur IP3**
+**Zahlenbeispiel zur IM3**
   
 Welche Sendefrequenzen würden ein Intermodulationsproduktsignal in einem auf 146,7 MHz abgestimmten Empfänger verursachen, wenn eine nahegelegene Station ("Störsender") auf 146,52 MHz sendet?
 
