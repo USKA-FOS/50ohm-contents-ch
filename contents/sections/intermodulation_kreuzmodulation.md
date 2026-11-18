@@ -83,8 +83,8 @@ Abkürzungen
   
 - IM3 bezeichnet Intermodulationsprodukte 3. Ordnung
 
-- IP3 bezeichnet den Interceptpunkt, wenn man die Kurve in der Abbildung [ref:a_zweitontest] extrapoliert. Das ist ein Maßstab für die Großsignalfestigkeit eine Empfängers.
-- 
+- IP3 bezeichnet den Interceptpunkt, wenn man die Kurve in der Abbildung [ref:a_zweitontest] extrapoliert. Der IP3 ist ein Maß für die Großsignalfestigkeit eine Empfängers.
+  
 </tip>
 
 [question:AF221]
