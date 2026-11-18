@@ -1,22 +1,9 @@
+%ARK: Grundhelvetisierung in Arbeit, Fragen abgeglichen
+
 * Für die verschiedenen Amateurfunkbänder sind jeweils maximal zulässige Bandbreiten festgelegt
 * Die Bandbreiten findet man in der Anlage 1 der Amateurfunkverordnung
 * [Bundesgesetzblatt mit der neuen Verordnung](https://www.recht.bund.de/bgbl/1/2023/160/VO) - die Anlage 1 ist auf Seite 7 bis 9
 * Die folgenden Fragen lassen sich mit den Fußnoten der Anlage 1 lösen
-
----
-[question:VD738]
-
----
-[question:VD739]
-
----
-[question:VD740]
-
----
-[question:VD741]
-
----
-[question:VD742]
 
 --- style="font-size: 0.7em;"
 
@@ -37,6 +24,9 @@ Es wird außerhalb des Amateurfunkbandes gesendet
 
 ---
 [question:NE305]
+
+---
+[question:BC225]
 
 ---
 
