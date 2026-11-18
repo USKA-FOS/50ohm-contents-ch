@@ -71,8 +71,8 @@ $f_2=146{,}340\mathrm{MHz}$
 2. Kombination
 $f_{\mathrm{IM3}} = 2f_2 - f_1$
 
-$146{,}700=2f_1-146{,}520$
-$f_1=146{,}610\mathrm{MHz}$
+$146{,}700=2f_2-146{,}520$
+$f_2=146{,}610\mathrm{MHz}$
 
 Das entstandene, unerwünschte Intermodulationsprodukt muss auf die Empfangsfrequenz fallen,
 sonst würde es ja nicht stören.
