@@ -23,9 +23,29 @@ Die Rechtsgrundlage zur elektromagnetischen Verträglichkeit findet man in der *
 
 Die **Verordnung über die elektromagnetische Verträglichkeit**
 
-TODO continue
+Diese Verordnung gilt nicht für:
 
-Das Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln (EMVG) legt zur Vermeidung solcher Störungen bestimmte *Schutzanforderungen zur Gewährleistung der elektromagnetischen Verträglichkeit* fest, die von allen technischen Geräten eingehalten werden müssen. Einerseits wird verlangt, dass kein Gerät so starke Störungen erzeugen darf, dass andere Geräte nicht mehr funktionieren. Andererseits verlangt das Gesetz, dass alle Geräte eine gewisse Störfestigkeit aufweisen. Das bedeutet, dass sie unempfindlich gegenüber zu erwartenden elektromagnetischen Störungen sein müssen.
+Betriebsmittel, deren elektromagnetische Verträglichkeit in Spezialerlassen geregelt ist;
+Betriebsmittel:
+1. die einen so niedrigen Pegel an elektromagnetischen Emissionen haben oder in so geringem Umfang zu elektromagnetischen Emissionen beitragen, dass ein bestimmungsgemässer Betrieb von Fernmeldeanlagen und sonstigen Betriebsmitteln möglich ist, und
+
+2. die unter Einfluss der bei ihrem Einsatz üblichen elektromagnetischen Störungen ohne unzumutbare Beeinträchtigung benutzt werden können;
+
+c. Funkanlagen nach Artikel 2 Absatz 1 Buchstabe a der Verordnung vom 25. November 20151über Fernmeldeanlagen2für die Teilnahme am Amateurfunk, mit Ausnahme der auf dem Markt bereitgestellten Anlagen;
+
+d. Bausätze, die von Funkamateurinnen und -amateuren zusammenzubauen sind, und auf dem Markt bereitgestellte Anlagen, die von solchen Personen und für solche Personen umgebaut werden;
+
+Was bedeutet das konkret?
+Geräte nach littera c und d müssen keine Konformitätserklärung abgeben. Es müssen kein Messungen von akkreditierten Prüfstelle beigebracht werden. 
+
+Dürfen Geräte nach littera c und d beliebige Mengen an Störstrahlung verbreiten?
+Nein. Es ist zwar kein Nachweis erforderlich, aber Grenzwerte und Normen sind einzuhalten. 
+
+Das ist ein sehr grosses Privileg für Funkamateure HB9 und erfordert einen entsprechend Verantwortlichen Umgang damit.  xxxx Formulierung überarbeiten! 
+
+%TODO: Kontrolle durch rechtskundige Person erforderlich. 
+
+Das Gesetz über die elektromagnetische Verträglichkeit von Betriebsmitteln (EMVG) legt zur Vermeidung solcher Störungen bestimmte *Schutzanforderunte gen zur Gewährleistung der elektromagnetischen Verträglichkeit* fest, die von allen technischen Geräten eingehalten werden müssen. Einerseits wird verlangt, dass kein Gerät so starke Störungen erzeugen darf, dass andere Geräte nicht mehr funktionieren. Andererseits verlangt das Gesetz, dass alle Geräte eine gewisse Störfestigkeit aufweisen. Das bedeutet, dass sie unempfindlich gegenüber zu erwartenden elektromagnetischen Störungen sein müssen.
 
 Diese Schutzanforderungen sind grundsätzlich auch von Amateurfunkstationen einzuhalten. Das Amateurfunkgesetz gibt Funkamateuren allerdings das Privileg, beim zweiten Aspekt, also der Störfestigkeit einer Amateurfunkanlage, von den gesetzlichen Vorgaben abzuweichen und selber festzulegen, wie störfest die Anlage sein soll.
 
