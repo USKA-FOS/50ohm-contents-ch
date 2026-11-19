@@ -26,13 +26,17 @@ Sobald die Periodendauer einer Schwingung bekannt ist, lässt sich daraus auch d
 
 Hier betrachten wir diesen Zusammenhang nun als Formel:
   
-$f=\dfrac{1}{T}$ oder $T=\dfrac{1}{f}$
+$f=\dfrac{1}{T}$ 
+
+oder 
+
+$T=\dfrac{1}{f}$
 
 Die Frequenz in Hertz ist der Kehrwert der Periodendauer in Sekunden.
 
 Das Signal in Abbildung [ref:e_oszilloskop_bildschirmfoto_sinus] hat also die Frequenz
 
-$f = \dfrac{1}{\qty{250}{\nano\second}} = \qty{4}{\mega\hertz}$.
+$f = \dfrac{1}{\qty{250}{\nano\second}} = \qty{4}{\mega\hertz}$
  
 [question:EB408]
 [question:EB409]
