@@ -62,7 +62,7 @@ Schauen wir uns ein konkretes Beispiel an: Angenommen, wir möchten die Leistung
 
 $U_\text{Gemessen}=0,95 \cdot U_\text{Wahr}$
 
-und 
+und
 
 $I_\text{Gemessen}=0,95 \cdot I_\text{Wahr}$
 
