@@ -60,7 +60,11 @@ Wie verhält es sich nun mit Kenngrößen, die aus Messwerten berechnet werden �
 
 Schauen wir uns ein konkretes Beispiel an: Angenommen, wir möchten die Leistung bestimmen und messen dazu eine Gleichspannung und einen Gleichstrom. Beide Messgeräte zeigen Werte an, die jeweils um fünf Prozent zu niedrig sind. Man darf nun nicht den Fehler machen und die Abweichungen der Einzelmessgrößen einfach addieren. Durch die Leistungsformel wird deutlich, dass sich die Fehler in diesem Fall multiplizieren. Schauen wir uns das im Detail an:
 
-$U_\text{Gemessen}=0,95 \cdot U_\text{Wahr}$ und $I_\text{Gemessen}=0,95 \cdot I_\text{Wahr}$
+$U_\text{Gemessen}=0,95 \cdot U_\text{Wahr}$
+
+und 
+
+$I_\text{Gemessen}=0,95 \cdot I_\text{Wahr}$
 
 Die Leistung berechnen wir mit unserer bekannten Formel:
 
