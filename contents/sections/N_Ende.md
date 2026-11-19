@@ -61,7 +61,10 @@ Bspw wenn man "wie wir im Abschnitt [sec:kondensator_2] schon gelernt haben." sc
 
 ---
 
-TEst Für Formel
+**Test Für Formel**
+Es geht hier um Tests warum das gewisse Formeln NICHT zentriert in Serif sonder linksbündig in SansSerif ausgegeben werden.
+
+*Tests ARK*
 
 $U_{eff} = \frac{\hat{U}}{\sqrt{2}}$ oder $\hat{U} = U_{eff} \cdot \sqrt{2}$
 
@@ -113,6 +116,27 @@ und weiter geht's
 $$
 U_\text{SS} = 2 \cdot \qty{230}{\volt} \cdot \sqrt{2} \approx \qty{651}{\volt}
 $$
+
+
+
+
+Erste Erkenntnisse:
+1. 
+Formeln müssen **alleine** heisst **einzeln** in einer Zeile stehen.
+Es dürfen keine andern Zeichen in derselben Zeile stehen.
+Kein "und", "oder", Satzzeichen, etc.
+
+2. 
+Formeln müssn ober- und unterhalb eine Leerzeile haben.
+
+Fazit
+Wenn zwei Formeln gelten die mit bspw "und" verbunden werden sollen, müssen diese auf zwei eigenen Zeilen stehen und dazwischen jeweils Leerzeilen.
+
+
+
+
+
+
 
 ---
     
