@@ -51,7 +51,7 @@ Schauen wir uns das Ersatzschaltbild eines realen Spannungsmessgeräts in Abbild
 [question:AI104]
 
 <tip>
-Bei dieser Frage ist der Hinweis "Kleinste Auflösung $\qty{100}{\micro\volt}$" nicht wichtig. Sie kann allein mit Hilfe des Ohmschen Gesetzes gelöst werden.
+Bei der Frage AI104 ist der Hinweis "Kleinste Auflösung $\qty{100}{\micro\volt}$" nicht wichtig. Sie kann allein mit Hilfe des Ohmschen Gesetzes gelöst werden.
 </tip>
 
 ---
