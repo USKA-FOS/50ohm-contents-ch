@@ -34,8 +34,6 @@ Die notwendige Bandbreite ($B_n$) wird je nach Modulationsart mit spezifischen F
 * *Morsetelegrafie (CW – unmoduliert):*
   Die Formel lautet $B_n = B \cdot K$. Dabei ist $B$ die Telegrafiergeschwindigkeit in Baud und $K$ ein Faktor für die Signalformung (typischerweise $K = 3$ bis $5$).
 
----
-
 **2. Unterschied: Notwendige vs. Belegte Bandbreite**
 
 Während die **notwendige Bandbreite** ein theoretischer Planungswert ist, beschreibt die **belegte Bandbreite** (*occupied bandwidth*, ITU-Vorschrift Nr. 1.153) die tatsächliche, messbare Leistungsverteilung eines realen Senders im Frequenzspektrum.
