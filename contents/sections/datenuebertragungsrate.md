@@ -4,7 +4,7 @@ Digitale Übertragungssysteme übertragen keine analogen Signale, sondern digita
 - *Bandbreite*: Den Begriff der Bandbreite haben wir bereits kennen gelernt. Sie wird in *Hertz ($\unit{\hertz}$)* angegeben, wie die Frequenz, und darf nicht mit der Datenübertragungsrate verwechselt werden, auch wenn in der Umgangssprache von der Datenübertragungsrate als Bandbreite gesprochen wird (z.B. beim DSL-Anschluss).
 
 <indepth>
-# Bit/s und Baud
+*Bit/s und Baud*
 
 | Begriff         | Bedeutung                                   | Einheit |
 |                 |                                             |         |
