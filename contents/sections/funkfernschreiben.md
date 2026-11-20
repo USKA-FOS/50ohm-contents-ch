@@ -221,4 +221,4 @@ reQuest): Werden Datenblöcke nicht korrekt empfangen, fordert die
 Gegenstation deren erneute Übertragung an.
 
 VARAC ist eine Chat-Anwendung, welche das VARA-Modem für die
-Kommunikation zwischen Funkstationen nutzt.
+Kommunikation zwischen Funkstationen nutzt. Es können auch (kleine) Dateien übertragen werden. 
