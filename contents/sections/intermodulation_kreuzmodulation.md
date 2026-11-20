@@ -75,7 +75,7 @@ $146{,}700=2f_2-146{,}520$
 $f_2=146{,}610\mathrm{MHz}$
 
 Das entstandene, unerwünschte Intermodulationsprodukt muss auf die Empfangsfrequenz fallen,
-sonst würde es ja nicht stören.
+sonst würde es ja nicht stören. Oder anders gesagt: Welche zwei Frequenzen ergeben zusammen mit dem Störsendersignal ein Intermodulationsprodukt 3. Ordnung, welches genau auf die Empfangsfrequenz fällt.
 </indepth>
 
 <unit>
