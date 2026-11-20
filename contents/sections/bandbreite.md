@@ -52,6 +52,12 @@ Während die **notwendige Bandbreite** ein theoretischer Planungswert ist, besch
 <tip>
 xxxxxxxx Innerhalb der zugewiesen Frequenzbänder ist es üblich, Betriebsarten nach belegter Bandbreite anzuordnen.
 Bild einfügen 
+
+20-m-Band: 14,000 – 14,350 MHz
+
+|---- CW ----|--- DIGITAL ---| B |------ VOICE ------|
+14.000     14.070         14.099 14.101           14.350
+
 </tip>
 
 Wie wir gelernt haben, hängt die belegte Sendebandbreite von der Modulationsart und bei FM auch noch vom Hub ab. Für die verschiedenen Amateurfunkbänder sind jeweils maximal zulässige Bandbreiten festgelegt. Diese findet man in der [Anlage 1](https://50ohm.de/a1) der Amateurfunkverordnung, aus der wir auch schon die Bandgrenzen entnommen haben. Diese Bandbreiten dürfen nicht überschritten werden. Jeder Funkamateur ist selbst für die Einhaltung verantwortlich.
