@@ -9,8 +9,9 @@ Kann man den eigenen Haushalt ausschließen, sucht man in der Nachbarschaft weit
 
 <tip>
   
-*EMV: Elektromagnetische Verträglichkeit
-*EMC: Electromagnetic Compatibility (englische Bezeichnung für EMV)
+EMV: Elektromagnetische Verträglichkeit
+
+EMC: Electromagnetic Compatibility (englische Bezeichnung für EMV)
 
 </tip>
 
@@ -24,8 +25,7 @@ Bei der *Messung von störenden Geräten* kann die USKA ihre Mitglieder unterst�
 
 [question:VU019]
 
-Bei der USKA gibt es EMC-Level 1 und EMC-Level 2 Spezialisten. EMC-Level 1 Spezialisten
-sind in den USKA-Sektionen zuständig für EMC-Belange der Sektionsmitglieder und
+Bei der [USKA](https://uska.ch/de/)  gibt es EMC-Level 1 und EMC-Level 2 Spezialisten. EMC-Level 1 Spezialisten sind in den USKA-Sektionen zuständig für EMC-Belange der Sektionsmitglieder und
 sie werden von einem kleinen Kreis der EMC-Level-2 Spezialisten der USKA
 unterstützt. 
 
