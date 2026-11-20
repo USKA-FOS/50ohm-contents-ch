@@ -21,30 +21,32 @@ Dabei ist auf folgende Punkte zu achten. (Später: Nebenaussendungen und Oberwel
 
 ---
 
-### 1. Berechnungsformeln nach Modulationsart (ITU-R SM.1138)
+**1. Berechnungsformeln nach Modulationsart (ITU-R SM.1138)**
 Die notwendige Bandbreite ($B_n$) wird je nach Modulationsart mit spezifischen Formeln berechnet. Hier sind die wichtigsten Standardbeispiele:
 
-* **Amplitudenmodulation (AM – Zweiseitenband, z. B. Rundfunk):**
+* *Amplitudenmodulation (AM – Zweiseitenband, z. B. Rundfunk):*
   Die Formel lautet $B_n = 2 \cdot M$. Dabei steht $M$ für die höchste Modulationsfrequenz in Hertz (bei einer maximalen Audiofrequenz von 4,5 kHz beträgt $B_n$ also 9 kHz).
-* **Einseitenbandmodulation (SSB, z. B. Amateurfunk oder Seefunk):**
+* *Einseitenbandmodulation (SSB, z. B. Amateurfunk oder Seefunk):*
+* 
   Die Formel lautet $B_n = M$. Es wird nur ein Seitenband ohne Träger übertragen, wodurch sich die Bandbreite halbiert (bei 3 kHz Audiofrequenz beträgt $B_n$ genau 3 kHz).
-* **Frequenzmodulation (FM, z. B. UKW-Rundfunk oder Sprechfunk):**
+* *Frequenzmodulation (FM, z. B. UKW-Rundfunk oder Sprechfunk):*
   Die Formel lautet $B_n = 2 \cdot M + 2 \cdot D \cdot K$. Hierbei ist $M$ die höchste Modulationsfrequenz, $D$ der maximale Frequenzhub und $K$ ein Korrekturfaktor (meistens $K = 1$).
-* **Morsetelegrafie (CW – unmoduliert):**
+* *Morsetelegrafie (CW – unmoduliert):*
   Die Formel lautet $B_n = B \cdot K$. Dabei ist $B$ die Telegrafiergeschwindigkeit in Baud und $K$ ein Faktor für die Signalformung (typischerweise $K = 3$ bis $5$).
 
 ---
 
-### 2. Unterschied: Notwendige vs. Belegte Bandbreite
+**2. Unterschied: Notwendige vs. Belegte Bandbreite**
 
 Während die **notwendige Bandbreite** ein theoretischer Planungswert ist, beschreibt die **belegte Bandbreite** (*occupied bandwidth*, ITU-Vorschrift Nr. 1.153) die tatsächliche, messbare Leistungsverteilung eines realen Senders im Frequenzspektrum.
 
 | Merkmal | Notwendige Bandbreite (1.152) | Belegte Bandbreite (1.153) |
 | :--- | :--- | :--- |
-| **Charakter** | Theoretischer Richt- und Planungswert. | Realer, physikalisch messbarer Wert. |
-| **Definition** | Mindestbreite für fehlerfreie Übertragung bei geforderter Rate und Qualität. | Frequenzbereich, in dem 99 % der gesamten abgestrahlten Sendeleistung liegen. |
-| **Grenzwerte** | Durch Modulationsparameter (Formeln) festgelegt. | Ober- und unterhalb der Grenzen werden jeweils genau **0,5 %** der Gesamtleistung abgestrahlt. |
-| **Verwendung** | Frequenzplanung, Lizenzierung und Angabe im Emissionsbezeichner. | Überprüfung von Sendern auf unerwünschte Nebenaussendungen und Störungen. |
+| *Charakter* | Theoretischer Richt- und Planungswert. | Realer, physikalisch messbarer Wert. |
+| *Definition* | Mindestbreite für fehlerfreie Übertragung bei geforderter Rate und Qualität. | Frequenzbereich, in dem 99 % der gesamten abgestrahlten Sendeleistung liegen. |
+| *Grenzwerte* | Durch Modulationsparameter (Formeln) festgelegt. | Ober- und unterhalb der Grenzen werden jeweils genau 0,5 % der Gesamtleistung abgestrahlt. |
+| *Verwendung* | Frequenzplanung, Lizenzierung und Angabe im Emissionsbezeichner. | Überprüfung von Sendern auf unerwünschte Nebenaussendungen und Störungen. |
+
 </indepth>
 
 <tip>
