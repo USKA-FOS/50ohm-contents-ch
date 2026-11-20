@@ -9,11 +9,9 @@ Kann man den eigenen Haushalt ausschließen, sucht man in der Nachbarschaft weit
 
 <tip>
   
-EMV:
-Elektromagnetische Verträglichkeit
+EMV: Elektromagnetische Verträglichkeit
 
-EMC:
-Electromagnetic Compatibility (englische Bezeichnung für EMV)
+EMC: Electromagnetic Compatibility (englische Bezeichnung für EMV)
 
 </tip>
 
