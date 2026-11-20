@@ -16,8 +16,7 @@ Aussendungen dürfen nur die für eine einwandfreie Übermittlung notwendige Ban
 
 Dabei ist auf folgende Punkte zu achten. (Später: Nebenaussendungen und Oberwellen verweisen)
 
-xxxxxxxxxxxxxxxxxxxxxxxxxx
-
+<indepth>
 **1.152 notwendige Bandbreite:** Für eine gegebene Emissionsklasse die Breite des Frequenzbandes, die gerade ausreicht, um die Übertragung von Informationen mit der erforderlichen Geschwindigkeit und Qualität unter festgelegten Bedingungen sicherzustellen.
 
 ---
@@ -46,9 +45,12 @@ Während die **notwendige Bandbreite** ein theoretischer Planungswert ist, besch
 | **Definition** | Mindestbreite für fehlerfreie Übertragung bei geforderter Rate und Qualität. | Frequenzbereich, in dem 99 % der gesamten abgestrahlten Sendeleistung liegen. |
 | **Grenzwerte** | Durch Modulationsparameter (Formeln) festgelegt. | Ober- und unterhalb der Grenzen werden jeweils genau **0,5 %** der Gesamtleistung abgestrahlt. |
 | **Verwendung** | Frequenzplanung, Lizenzierung und Angabe im Emissionsbezeichner. | Überprüfung von Sendern auf unerwünschte Nebenaussendungen und Störungen. |
+</indepth>
 
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+<tip>
+xxxxxxxx Innerhalb der zugewiesen Frequenzbänder ist es üblich, Betriebsarten nach belegter Bandbreite anzuordnen.
+Bild einfügen 
+</tip>
 
 Wie wir gelernt haben, hängt die belegte Sendebandbreite von der Modulationsart und bei FM auch noch vom Hub ab. Für die verschiedenen Amateurfunkbänder sind jeweils maximal zulässige Bandbreiten festgelegt. Diese findet man in der [Anlage 1](https://50ohm.de/a1) der Amateurfunkverordnung, aus der wir auch schon die Bandgrenzen entnommen haben. Diese Bandbreiten dürfen nicht überschritten werden. Jeder Funkamateur ist selbst für die Einhaltung verantwortlich.
 
