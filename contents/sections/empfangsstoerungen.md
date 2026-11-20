@@ -2,7 +2,6 @@ Es können allerdings nicht nur andere durch unsere Amateurfunkstation gestört 
 
 Die allererste Maßnahme bei einer Störung des Empfangs sollte bei uns selbst stattfinden. Häufig stammt die Störung nämlich von einem Gerät aus dem eigenen Haushalt.
 
-[question:VE307]
 [question:VU018]
 ---
 
@@ -14,10 +13,8 @@ Bei der *Messung von störenden Geräten* können Mitglieder mit Fachwissen und 
 [Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
 </tip>
 
-[question:VE308]
 [question:VU019]
 
 Als letztes Mittel bleibt, die Funkstörungsannahme der Bundesnetzagentur zu kontaktieren. Ist dieses nicht mehr zu vermeiden, sollte man sich entsprechend vorbereiten. Es kann sehr hilfreich sein zu notieren, wann welche Störungen auftreten, damit man dies der Bundesnetzagentur mitteilen kann. Auch vermutete Quellen sollten benannt werden.
 
-[question:VE309]
 [question:VU020]
