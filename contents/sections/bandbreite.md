@@ -19,8 +19,6 @@ Dabei ist auf folgende Punkte zu achten. (Später: Nebenaussendungen und Oberwel
 <indepth>
 **1.152 notwendige Bandbreite:** Für eine gegebene Emissionsklasse die Breite des Frequenzbandes, die gerade ausreicht, um die Übertragung von Informationen mit der erforderlichen Geschwindigkeit und Qualität unter festgelegten Bedingungen sicherzustellen.
 
----
-
 **1. Berechnungsformeln nach Modulationsart (ITU-R SM.1138)**
 Die notwendige Bandbreite ($B_n$) wird je nach Modulationsart mit spezifischen Formeln berechnet. Hier sind die wichtigsten Standardbeispiele:
 
