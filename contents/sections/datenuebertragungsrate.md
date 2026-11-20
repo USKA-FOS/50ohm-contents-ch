@@ -5,6 +5,7 @@ Digitale Übertragungssysteme übertragen keine analogen Signale, sondern digita
 
 <indepth>
 **Bit/s und Baud**
+
 | Begriff         | Bedeutung                                   | Einheit |
 |                 |                                             |         |
 | **Bit/s (bps)** | Anzahl der übertragenen Bits pro Sekunde    | Bit/s   |
