@@ -45,7 +45,7 @@ Eine vollständige Liste befindet sich in [sec:betriebliche_abkuerzungen]
 </tip>
 
 <indepth>
-##Funkfernschreiben
+*Funkfernschreiben
 (RTTY, Radio Teletype)
 
 **Historische Bedeutung**
