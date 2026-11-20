@@ -45,7 +45,7 @@ Eine vollständige Liste befindet sich in [sec:betriebliche_abkuerzungen]
 </tip>
 
 <indepth>
-#Funkfernschreiben
+##Funkfernschreiben
 (RTTY, Radio Teletype)
 
 **Historische Bedeutung**
@@ -63,7 +63,7 @@ Datenübertragung über Funk dar.
 Im englischen Sprachgebrauch wird das klassische Funkfernschreiben als
 *Radio Teletype (RTTY)* bezeichnet.
 
-## Funktionsprinzip und Modulation
+**Funktionsprinzip und Modulation**
 
 RTTY verwendet das Modulationsverfahren Frequency Shift Keying (FSK).
 Dabei werden zwei unterschiedliche Frequenzen zur Übertragung digitaler
@@ -91,7 +91,7 @@ Man unterscheidet dabei zwischen zwei technischen Realisierungen:
     Durch die Einseitenbandmodulation entsteht daraus die entsprechende
     Frequenzverschiebung des HF-Signals.
 
-## Zeichencodierung
+**Zeichencodierung**
 
 Das klassische RTTY verwendet den 5-Bit-Code ITA2 (International
 Telegraph Alphabet No. 2), der auch als Baudot-Code bekannt ist.
@@ -122,7 +122,7 @@ seine eigene zeitliche Rahmung. Die Abbildung [ref:Baudotzeichen] zeigt die Umse
 
 [picture:10103:Baudotzeichen:Serielle Übertragung der Bits]
 
-## Übertragungsgeschwindigkeit
+**Übertragungsgeschwindigkeit**
 
 Die Übertragungsgeschwindigkeit wird in Baud angegeben. Ein Baud
 entspricht einem übertragenen Symbol pro Sekunde.
@@ -138,7 +138,7 @@ Zeichen) ergibt sich eine Übertragungsleistung von ungefähr 6 Zeichen
 pro Sekunde, was etwa 73 Worte pro Minute ergibt und sich gut eignet für die direkte
 Kommunikation zwischen Menschen über eine Tastatur.
 
-## Fehleranfälligkeit
+**Fehleranfälligkeit**
 
 Das klassische RTTY besitzt keine integrierte Fehlerkorrektur (Forward
 Error Correction, FEC). Auch eine Fehlererkennung ist im eigentlichen
