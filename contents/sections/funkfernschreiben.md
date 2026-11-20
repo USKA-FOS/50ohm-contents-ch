@@ -45,10 +45,10 @@ Eine vollständige Liste befindet sich in [sec:betriebliche_abkuerzungen]
 </tip>
 
 <indepth>
-# Funkfernschreiben
+#Funkfernschreiben
 (RTTY, Radio Teletype)
 
-## Historische Bedeutung
+**Historische Bedeutung**
 
 Das Funkfernschreiben hatte historisch eine grosse Bedeutung bei der
 Nachrichtenübermittlung. Es wurde insbesondere im internationalen
