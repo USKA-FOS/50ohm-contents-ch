@@ -40,13 +40,18 @@ Während die **notwendige Bandbreite** ein theoretischer Planungswert ist, besch
 <tip>
 Innerhalb der zugewiesen Frequenzbänder ist es üblich, Betriebsarten nach belegter Bandbreite anzuordnen.
 Das ist keine behördliche Vorschrift. Wer jedoch diese Usanz verletzt, macht sich auf den Bändern äusserst unbeliebt.
-  
-Bild einfügen 
 
-20-m-Band: 14,000 – 14,350 MHz
+**20-m-Band: 14,000 – 14,350 MHz**
 
-|---- CW ----|--- DIGITAL ---| B |------ VOICE ------|
-14.000     14.070         14.099 14.101           14.350
+| Frequenzbereich (MHz) |Betriebsart |Typische Nutzung |
+|14,000–14,060 |CW |Morsetelegrafie, Contestbetrieb |
+|14,060–14,070|CW|CW, QRP-Betrieb|
+|14,070–14,089|Digital|Schmalband-Digitalbetrieb, z. B. PSK31, FT8|
+|14,089–14,099|Digital|Digitale Betriebsarten, automatische Stationen|
+|14,099–14,101|Baken|Internationale Funkbaken|
+|14,101–14,125|Gemischt|Digitale Betriebsarten und andere Betriebsarten|
+|14,125–14,300|Voice / SSB|Sprechfunk, DX-Verbindungen, Contest|
+|14,300–14,350|Voice / SSB|Sprechfunk, Notfunk|
 
 </tip>
 
