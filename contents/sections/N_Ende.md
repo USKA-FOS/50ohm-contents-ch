@@ -160,12 +160,14 @@ Das ist offenbar nicht die Lösung
 
 
 <unit>
+Formeln soolen nicht in Sanerif ausgegeben werden. Spannen ist abe rdass diese hier trotz Fehlformatierung mit $$ statt $ zentriert wird.
   
 $$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
   
 </unit>
 
 <unit>
+So soll es sein. 
   
 $\qty{1}{\hertz} = \frac{1}{\unit{\second}}$
   
