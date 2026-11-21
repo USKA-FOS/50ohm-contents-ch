@@ -133,9 +133,28 @@ Fazit
 Wenn zwei Formeln gelten die mit bspw "und" verbunden werden sollen, müssen diese auf zwei eigenen Zeilen stehen und dazwischen jeweils Leerzeilen.
 
 
+Original aus 6.28/132
+
+$\begin{split} g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right)\\ g &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\ g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \end{split}$
+
+Auflösung in 3 Formeln aber auf einer Zeile
+
+$g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right)\\$ $g &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\$   g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right)$
+
+Auflösung in 3 Formeln wie gewohnt untereinander - ohne Leerzeile
+
+$g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right)\\$ 
+$g &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\$   
+$g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right)$
 
 
+Auflösung in 3 Formeln wie gewohnt untereinander - mit Leerzeile
 
+$g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right)\\$ 
+
+$g &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\$   
+
+$g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right)$
 
 
 ---
