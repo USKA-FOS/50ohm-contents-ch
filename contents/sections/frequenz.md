@@ -3,7 +3,7 @@ Die Wechselspannung in unserem Stromnetz *schwingt* 50 mal in der Sekunde hin un
 <unit>
 In der *Einheit Hertz* wird die Frequenz gemessen. Ein Hertz ist gleich einer Schwingung pro Sekunde. Die Einheit wurde nach dem deutschen Physiker Heinrich Rudolf Hertz benannt, der im Jahr 1886 als erster Mensch elektromagnetische Wellen erzeugen und nachweisen konnte.
   
-$$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
+$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$
   
 </unit>
 
