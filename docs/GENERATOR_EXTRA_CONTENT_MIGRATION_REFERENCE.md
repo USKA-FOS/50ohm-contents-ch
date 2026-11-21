@@ -344,3 +344,17 @@ For project discussion, the current position can be summarized as follows:
 - the remaining work in this area is explicit cleanup of remaining
   generator-resident runtime content or later migration of that content into
   canonical objects once the model is ready.
+
+
+## USKA generator main synchronization — 21 November 2026
+
+During the merge of generator USKA main `b5d5ea6` into
+`design/object-centric-canonical`, incoming `templates/html/index.html` changes
+were applied to their external owner
+`generator_extra_content/de/templates/html/index.html`. The generator keeps its
+loader stub. Five changes transferred: USKA membership URL, N/E ↔ HB3 and A ↔ HB9
+explanation, local association wording, course-provider URL and coaching URL.
+The German template's existing structure and styling are preserved, as are FR/IT
+resources. No canonical business objects, translations, drawing or publication
+outputs were changed. Integration checks and conflict decisions are documented
+in generator `doc/MAIN_SYNC_2026-11-21.md`. No site/PDF build or deployment.
