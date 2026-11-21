@@ -1,12 +1,4 @@
 % Umlaufzeit eines Satelliten in Abhängigkeit von der Bahnhöhe
-% Benötigt: pgfplots, tikz
-\documentclass[tikz,border=5pt]{standalone}
-\usepackage{pgfplots}
-\pgfplotsset{compat=1.18}
-\usepackage{amsmath}
-
-\begin{document}
-
 \begin{tikzpicture}
 \begin{axis}[
     width=15cm,
@@ -57,11 +49,9 @@ coordinates {(20200,{2*pi*sqrt((6371+20200)^3/398600.4418)/3600})};
 \addplot[only marks, mark=*, mark size=2pt]
 coordinates {(35786,{2*pi*sqrt((6371+35786)^3/398600.4418)/3600})};
 
-\node[anchor=west, font=\small] at
-(axis cs:36500,21.0)
-{geostationär: $h=35\,786$ km,\quad $T\approx23{,}93$ h};
+\node[anchor=north west, align=left, font=\small] at
+(axis cs:36800,23.2)
+{geostationär:\\ $h=35\,786$ km\\ $T\approx23{,}93$ h};
 
 \end{axis}
 \end{tikzpicture}
-
-\end{document}
