@@ -178,7 +178,9 @@ Das ist der Test ob $$ links korrekt ausgeben wird
 
 $$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
 
+Das ist der Test ob $ links korrekt ausgeben wird
 
+$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$
 
 
 ---
