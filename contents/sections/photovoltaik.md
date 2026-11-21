@@ -21,10 +21,10 @@ Genau wie bei der Reihen- und Parallelschaltung von Akkus bzw. Spannungsquellen,
 In einem Solarmodul sind mehrere Solarzellen zu einem Verbund zusammengeschaltet, wie in der Abbildung [ref:a_solarmodul] zu sehen ist. Hier 
 werden 30 Solarzellen mit jeweils $\qty{0,6}{\volt}$ Leerlaufspannung in Reihe geschaltet. Es addieren sich die Spannungen der einzelnen Zellen. Dadurch ergibt sich eine Gesamtspannung von
 
-$\qty{30}{} \cdot \qty{0,6}{\volt} = \qty{18}{\volt}$.
+$\qty{30}{} \cdot \qty{0,6}{\volt} = \qty{18}{\volt}$
 
 Zusätzlich werden vier dieser Reihenschaltungen parallel geschaltet. Bei einer Parallelschaltung addieren sich die Ströme der einzelnen Stränge. Liefert jede Solarzelle beziehungsweise jeder Strang einen Kurzschlussstrom von $\qty{1}{\ampere}$, so ergibt sich insgesamt ein Kurzschlussstrom von
 
-$\qty{4}{} \cdot \qty{1}{\ampere} = \qty{4}{\ampere}$.
+$\qty{4}{} \cdot \qty{1}{\ampere} = \qty{4}{\ampere}$
 
 [question:AD301]
