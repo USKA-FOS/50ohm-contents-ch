@@ -160,7 +160,8 @@ Das ist offenbar nicht die Lösung
 
 
 <unit>
-Formeln soolen nicht in Sanerif ausgegeben werden. Spannen ist abe rdass diese hier trotz Fehlformatierung mit $$ statt $ zentriert wird.
+Formeln sollen nicht in Sanserif ausgegeben werden. Spannen ist aber dass diese hier trotz Fehlformatierung mit $$ statt $ zentriert wird.
+Ob das an der rechten Spalte oder an der Box liegt weiss ich nicht. 
   
 $$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
   
@@ -173,7 +174,9 @@ $\qty{1}{\hertz} = \frac{1}{\unit{\second}}$
   
 </unit>
 
+Das ist der Test ob $$ links korrekt ausgeben wird
 
+$$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
 
 
 
