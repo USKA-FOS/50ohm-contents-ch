@@ -156,6 +156,25 @@ $g &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\$
 
 $g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right)$
 
+Das ist offenbar nicht die Lösung
+
+
+<unit>
+  
+$$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
+  
+</unit>
+
+<unit>
+  
+$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$
+  
+</unit>
+
+
+
+
+
 
 ---
     
