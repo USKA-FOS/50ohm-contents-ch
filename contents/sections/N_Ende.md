@@ -127,7 +127,7 @@ Es dürfen keine andern Zeichen in derselben Zeile stehen.
 Kein "und", "oder", Satzzeichen, etc.
 
 2. 
-Formeln müssn ober- und unterhalb eine Leerzeile haben.
+Formeln müssen ober- und unterhalb eine Leerzeile haben.
 
 Fazit
 Wenn zwei Formeln gelten die mit bspw "und" verbunden werden sollen, müssen diese auf zwei eigenen Zeilen stehen und dazwischen jeweils Leerzeilen.
@@ -181,6 +181,13 @@ $$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
 Das ist der Test ob $ links korrekt ausgeben wird
 
 $\qty{1}{\hertz} = \frac{1}{\unit{\second}}$
+
+
+Test ob $ - $ den Fehler macht
+$f_\mathrm{OSZ} = \qty{436}{\mega\hertz} - \qty{28}{\mega\hertz} = \qty{408}{\mega\hertz}$
+
+Der Formel wurden die mittigen $ voor und nach dem - entfernt
+
 
 
 ---
