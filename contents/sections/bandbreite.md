@@ -47,8 +47,6 @@ Innerhalb der zugewiesenen Frequenzbänder ist es üblich, Betriebsarten nach be
 Das ist keine behördliche Vorschrift, sondern eine Empfehlung des IARU-Bandplans (siehe [sec:iaru_bandplan]). Wer jedoch diese Usanz verletzt, macht sich auf den Bändern äusserst unbeliebt. Abbildung [ref:n_bandplan_20m] zeigt das Beispiel des 20-m-Bands.
 </tip>
 
-[picture:10104:n_bandplan_20m:20-m-Band nach IARU-Bandplan Region 1 mit maximalen Bandbreiten]
-
 Wie wir gelernt haben, hängt die belegte Sendebandbreite von der Modulationsart und bei FM auch noch vom Hub ab. Anders als in manchen anderen Ländern legt die Schweiz im Anhang 4 der VVNF für die Amateurfunkbänder keine maximal zulässigen Bandbreiten fest, sondern nur die Frequenzbereiche, ihren Status und die maximale Senderleistung. Umso wichtiger sind der Grundsatz der notwendigen Bandbreite und die Bandbreitenempfehlungen des IARU-Bandplans. Jeder Funkamateur ist selbst dafür verantwortlich, dass seine Aussendungen diese Vorgaben einhalten.
 
 ---
@@ -63,6 +61,8 @@ Besonders aufpassen muss man bei Sendungen in der Nähe der Grenzen der Amateurf
 <indepth>
 Bei SSB verhält es sich an der Bandgrenze ein wenig anders. Hier ist das Signal nur auf einer Seite der (unterdrückten) Trägerfrequenz zu finden. Bei LSB ist das Signal vollständig unterhalb der Trägerfrequenz, bei USB ist es vollständig oberhalb der Trägerfrequenz. Wenn man also beispielsweise als Sendefrequenz die obere Bandgrenze einstellt, dann dürfte man mit LSB durchaus senden, da das gesamte Signal innerhalb des Bandes bleibt. Mit USB dürfte man dort allerdings nicht senden, da das gesamte Signal ausserhalb des Bandes wäre.
 </indepth>
+
+[picture:10104:n_bandplan_20m:20-m-Band nach IARU-Bandplan Region 1 mit maximalen Bandbreiten]
 
 [question:NE305]
 [question:BC225]
