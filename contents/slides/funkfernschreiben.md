@@ -50,7 +50,7 @@ Das QSO wird nach Erklärungen Abkürzungen Schritt für Schritt erläutert
 
 | l: Abkz. | l: Bedeutung |
 | RST | RST-Rapport |
-| SK | Ende der Verbindung (vom Englischen "Silent Key") |
+| SK | Ende der Verbindung |
 | TNX | Danke (vom Englischen "Thanks") |
 | UR | du bist (im Sinne von "dein Signal ist", vom Englischen "you are") |
 | VY | sehr (vom Englischen "very") |
