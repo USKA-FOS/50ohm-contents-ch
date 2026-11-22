@@ -1,3 +1,5 @@
+IN BEARBEITUNG
+
 Das Spektrum der elektromagnetischen Wellen stellt eine wertvolle, nicht vermehrbare Ressource dar. Für ein geordnetes Miteinander sind deshalb international und national Frequenzbereiche verschiedenen Nutzern zugeordnet.
 
 <law>
