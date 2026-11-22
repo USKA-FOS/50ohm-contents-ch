@@ -1,0 +1,38 @@
+%HB9ARK 22-NOV-2026
+% 20-m-Band nach IARU-Region-1-Bandplan, massstaeblich: 1 Einheit = 30 kHz
+\begin{tikzpicture}[font=\small]
+
+\def\H{1.5}
+
+% Segmente
+\fill[DARCgreen!40]  (0,0)     rectangle (2.333,\H);   % 14,000-14,070 CW
+\fill[DARCblue!40]   (2.333,0) rectangle (3.3,\H);     % 14,070-14,099 Digital
+\fill[DARCgray]      (3.3,0)   rectangle (3.367,\H);   % 14,099-14,101 Baken
+\fill[DARCorange!20] (3.367,0) rectangle (4.167,\H);   % 14,101-14,125 Digital und andere
+\fill[DARCorange!40] (4.167,0) rectangle (11.667,\H);  % 14,125-14,350 alle Betriebsarten
+\draw[thick] (0,0) rectangle (11.667,\H);
+\foreach \x in {2.333,3.3,3.367,4.167} \draw (\x,0) -- (\x,\H);
+
+% Beschriftung in den Segmenten
+\node[align=center] at (1.0,0.75) {CW\\200\,Hz};
+
+% QRP-Aktivitaetszentrum 14,060 MHz
+\draw[densely dashed] (2.0,0) -- (2.0,\H);
+\node (qrp) at (0.9,2.3) {QRP};
+\draw (qrp.south east) -- (2.0,\H);
+\node[align=center] at (7.917,0.75) {Alle Betriebsarten\\{\footnotesize (vorwiegend SSB)}\\2,7\,kHz};
+
+% Beschriftung schmaler Segmente oberhalb
+\node[align=center] (dig) at (2.2,2.5) {Digital\\500\,Hz};
+\draw (dig.south) -- (2.8,\H);
+\node (bak) at (3.7,3.2) {Baken};
+\draw (bak.south) -- (3.333,\H);
+\node[align=center] (mix) at (6.0,2.5) {Digital und andere\\2,7\,kHz};
+\draw (mix.south west) -- (3.767,\H);
+
+% Frequenzachse
+\draw[-Triangle] (0,0) -- (12.4,0) node[anchor=west] {$f$ in MHz};
+\foreach \x/\f in {0/14{,}000, 2.333/14{,}070, 4.167/14{,}125, 10/14{,}300, 11.667/14{,}350}
+  \draw (\x,0.1) -- (\x,-0.1) node[anchor=north, font=\footnotesize] {\f};
+
+\end{tikzpicture}

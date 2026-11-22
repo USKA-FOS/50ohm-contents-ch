@@ -1,20 +1,23 @@
-IN BEARBEITUNG
-%YPA: Issue #11 von ARK beachten.
-% Für HB erst ab Zeile 36 relevant. Evtl aus IUARU bandplänen sinnvollen Inhalt "erfinden"
-
 Das Spektrum der elektromagnetischen Wellen stellt eine wertvolle, nicht vermehrbare Ressource dar. Für ein geordnetes Miteinander sind deshalb international und national Frequenzbereiche verschiedenen Nutzern zugeordnet.
 
-Die für den Amateurfunk zulässigen Frequenzen sind in der [Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums
-(VVNF)](https://www.fedlex.admin.ch/eli/cc/2020/914/de) festgelegt und unterscheiden sich für die HB3-Lizenz (Novice) und HB9-Lizenz (CEPT).
+<law>
+[VNF Art. 44–46](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_44)
 
-Die HB3-Lizenz (Novice) ist im [Artikel 44](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_44) beschrieben.
-Die HB9-Lizenz (CEPT)  ist XXXXXX
+[VVNF Art. 6 und Anhang 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4)
+</law>
 
-Die vollständige [Verordnung über die Nutzung des Funkfrequenzspektrums(VNF)](https://www.fedlex.admin.ch/eli/cc/2020/1024/de) YYYYYYYY
+Die Voraussetzungen für die Teilnahme am Amateurfunkdienst sind in [Artikel 44](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_44) der [Verordnung über die Nutzung des Funkfrequenzspektrums (VNF)](https://www.fedlex.admin.ch/eli/cc/2020/1024/de) beschrieben. Dort werden das *Fähigkeitszeugnis für den Amateurfunk* (HB9, CEPT) und der *Einsteigerausweis für Funkamateurinnen und Funkamateure* (HB3, Novice) unterschieden. Artikel 45 VNF legt fest, welche Betriebsarten mit welchem Fähigkeitszeugnis erlaubt sind, und nach Artikel 46 VNF bestimmt das BAKOM, welche Frequenzbereiche dem Amateurfunk zur Verfügung stehen.
 
-Aussendungen dürfen nur die für eine einwandfreie Übermittlung notwendige Bandbreite belegen.
+Die für den Amateurfunk zulässigen Frequenzbereiche sind deshalb im [Anhang 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4) der [Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums (VVNF)](https://www.fedlex.admin.ch/eli/cc/2020/914/de) festgelegt, getrennt für die HB9- und die HB3-Lizenz (siehe [sec:frequenzzuteilung]).
 
-Dabei ist auf folgende Punkte zu achten. (Später: Nebenaussendungen und Oberwellen verweisen)
+Aussendungen dürfen nur die für eine einwandfreie Übermittlung notwendige Bandbreite belegen. Dieser Grundsatz stammt aus dem Radioreglement (RR) der ITU, auf dem auch der nationale Frequenzzuweisungsplan (NaFZ) beruht (Art. 3 VNF).
+
+Dabei ist auf folgende Punkte zu achten:
+
+* Die gewählte Betriebsart bestimmt die belegte Bandbreite: CW benötigt weniger als SSB, SSB weniger als AM oder FM.
+* Die gesamte Aussendung muss innerhalb der zugeteilten Frequenzbereiche liegen, also auch in der Nähe der Bandgrenzen.
+* Die Empfehlungen des IARU-Bandplans zu Betriebsarten und Bandbreiten sollen eingehalten werden.
+* Unerwünschte Aussendungen wie Nebenaussendungen und Oberwellen müssen vermieden werden (siehe [sec:unerwuenschte_aussendungen_1]).
 
 <indepth>
 Die notwendige Bandbreite für eine gegebene Modulationsart ist die Breite des Frequenzbandes, die gerade ausreicht, um die Übertragung von Informationen mit der erforderlichen Geschwindigkeit und Qualität unter festgelegten Bedingungen sicherzustellen.
@@ -31,43 +34,32 @@ Die notwendige Bandbreite ($B_n$) wird je nach Modulationsart mit spezifischen F
 * *Frequenzmodulation (FM, z. B. UKW-Rundfunk oder Sprechfunk):*
   Die Formel lautet $B_n = 2 \cdot M + 2 \cdot D \cdot K$. Hierbei ist $M$ die höchste Modulationsfrequenz, $D$ der maximale Frequenzhub und $K$ ein Korrekturfaktor (meistens $K = 1$).
   
-* *Morsetelegrafie (CW – unmoduliert):*
+* *Morsetelegrafie (CW – getasteter Träger ohne Modulation):*
   Die Formel lautet $B_n = B \cdot K$. Dabei ist $B$ die Telegrafiergeschwindigkeit in Baud und $K$ ein Faktor für die Signalformung (typischerweise $K = 3$ bis $5$).
 
 Während die **notwendige Bandbreite** ein theoretischer Planungswert ist, beschreibt die **belegte Bandbreite** die tatsächliche, messbare Leistungsverteilung eines realen Senders im Frequenzspektrum.
 </indepth>
 
 <tip>
-Innerhalb der zugewiesen Frequenzbänder ist es üblich, Betriebsarten nach belegter Bandbreite anzuordnen.
-Das ist keine behördliche Vorschrift. Wer jedoch diese Usanz verletzt, macht sich auf den Bändern äusserst unbeliebt.
-
-**20-m-Band: 14,000 – 14,350 MHz**
-
-| Frequenzbereich (MHz) |Betriebsart |Typische Nutzung |
-|14,000–14,060 |CW |Morsetelegrafie, Contestbetrieb |
-|14,060–14,070|CW|CW, QRP-Betrieb|
-|14,070–14,089|Digital|Schmalband-Digitalbetrieb, z. B. PSK31, FT8|
-|14,089–14,099|Digital|Digitale Betriebsarten, automatische Stationen|
-|14,099–14,101|Baken|Internationale Funkbaken|
-|14,101–14,125|Gemischt|Digitale Betriebsarten und andere Betriebsarten|
-|14,125–14,300|Voice / SSB|Sprechfunk, DX-Verbindungen, Contest|
-|14,300–14,350|Voice / SSB|Sprechfunk, Notfunk|
-
+Innerhalb der zugewiesenen Frequenzbänder ist es üblich, Betriebsarten nach belegter Bandbreite anzuordnen.
+Das ist keine behördliche Vorschrift, sondern eine Empfehlung des IARU-Bandplans (siehe [sec:iaru_bandplan]). Wer jedoch diese Usanz verletzt, macht sich auf den Bändern äusserst unbeliebt. Abbildung [ref:n_bandplan_20m] zeigt das Beispiel des 20-m-Bands.
 </tip>
 
-Wie wir gelernt haben, hängt die belegte Sendebandbreite von der Modulationsart und bei FM auch noch vom Hub ab. Für die verschiedenen Amateurfunkbänder sind jeweils maximal zulässige Bandbreiten festgelegt. Diese findet man in der [Anlage 1](https://50ohm.de/a1) der Amateurfunkverordnung, aus der wir auch schon die Bandgrenzen entnommen haben. Diese Bandbreiten dürfen nicht überschritten werden. Jeder Funkamateur ist selbst für die Einhaltung verantwortlich.
+[picture:10104:n_bandplan_20m:20-m-Band nach IARU-Bandplan Region 1 mit maximalen Bandbreiten]
+
+Wie wir gelernt haben, hängt die belegte Sendebandbreite von der Modulationsart und bei FM auch noch vom Hub ab. Anders als in manchen anderen Ländern legt die Schweiz im Anhang 4 der VVNF für die Amateurfunkbänder keine maximal zulässigen Bandbreiten fest, sondern nur die Frequenzbereiche, ihren Status und die maximale Senderleistung. Umso wichtiger sind der Grundsatz der notwendigen Bandbreite und die Bandbreitenempfehlungen des IARU-Bandplans. Jeder Funkamateur ist selbst dafür verantwortlich, dass seine Aussendungen diese Vorgaben einhalten.
 
 ---
 
-Besonders aufpassen muss man bei Sendungen in der Nähe der Grenzen der Amateurfunkbänder. Ein Beispiel: Nehmen wir an, ein FM-Signal belegt eine Bandbreite von $\qty{15}{\kilo\hertz}$, und wir stellen den Sender auf die untere Bandgrenze des $\qty{70}{\centi\meter}$-Bandes ein, also auf $\qty{430}{\mega\hertz}$. Das Sendesignal befindet sich um die Trägerfrequenz herum, also jeweils $\qty{7,5}{\kilo\hertz}$ unterhalb und oberhalb. Es würde sich also von $\qty{429,9925}{\mega\hertz}$ bis $\qty{430,0075}{\mega\hertz}$ erstrecken. Da das Signal somit zur Hälfte außerhalb des Bandes wäre, dürfen wir nicht auf PTT drücken! Wir müssen also bei FM, aber auch bei AM, immer mindestens einen Abstand von der halben belegten Bandbreite zur Bandgrenze hin einhalten.
+Besonders aufpassen muss man bei Sendungen in der Nähe der Grenzen der Amateurfunkbänder. Ein Beispiel: Nehmen wir an, ein FM-Signal belegt eine Bandbreite von $\qty{15}{\kilo\hertz}$, und wir stellen den Sender auf die untere Bandgrenze des $\qty{70}{\centi\meter}$-Bandes ein, also auf $\qty{430}{\mega\hertz}$. Das Sendesignal befindet sich um die Trägerfrequenz herum, also jeweils $\qty{7,5}{\kilo\hertz}$ unterhalb und oberhalb. Es würde sich also von $\qty{429,9925}{\mega\hertz}$ bis $\qty{430,0075}{\mega\hertz}$ erstrecken. Da das Signal somit zur Hälfte ausserhalb des Bandes wäre, dürfen wir nicht auf PTT drücken! Wir müssen also bei FM, aber auch bei AM, immer mindestens einen Abstand von der halben belegten Bandbreite zur Bandgrenze hin einhalten.
 
 <indepth>
-[picture:908:n_bandbreite_falsch:Falsch -- Senden außerhalb der Bandgrenzen]
+[picture:908:n_bandbreite_falsch:Falsch -- Senden ausserhalb der Bandgrenzen]
 [picture:909:n_bandbreite_richtig:Richtig -- Senden innerhalb der Bandgrenzen]
 </indepth>
 
 <indepth>
-Bei SSB verhält es sich an der Bandgrenze ein wenig anders. Hier ist das Signal nur auf einer Seite der (unterdrückten) Trägerfrequenz zu finden. Bei LSB ist das Signal vollständig unterhalb der Trägerfrequenz, bei USB ist es vollständig oberhalb der Trägerfrequenz. Wenn man also beispielsweise als Sendefrequenz die obere Bandgrenze einstellt, dann dürfte man mit LSB durchaus senden, da das gesamte Signal innerhalb des Bandes bleibt. Mit USB dürfte man dort allerdings nicht senden, da das gesamte Signal außerhalb des Bandes wäre.
+Bei SSB verhält es sich an der Bandgrenze ein wenig anders. Hier ist das Signal nur auf einer Seite der (unterdrückten) Trägerfrequenz zu finden. Bei LSB ist das Signal vollständig unterhalb der Trägerfrequenz, bei USB ist es vollständig oberhalb der Trägerfrequenz. Wenn man also beispielsweise als Sendefrequenz die obere Bandgrenze einstellt, dann dürfte man mit LSB durchaus senden, da das gesamte Signal innerhalb des Bandes bleibt. Mit USB dürfte man dort allerdings nicht senden, da das gesamte Signal ausserhalb des Bandes wäre.
 </indepth>
 
 [question:NE305]
