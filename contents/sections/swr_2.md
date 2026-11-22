@@ -45,9 +45,9 @@ Man kann obige Formel auch einfach verwenden. Ein Verständnis der Herleitung is
 
 Die BAKOM-Formelsammlung definiert das Stehwellenverhältnis ($s$) und den Reflexionsfaktor ($|r|$) über folgende zwei Gleichungen:
 
-$$s = \frac{1 + |r|}{1 - |r|}$$
+$s = \frac{1 + |r|}{1 - |r|}$
 
-$$|r| = \frac{\sqrt{P_\text{r}}}{\sqrt{P_\text{d}}}$$
+$|r| = \frac{\sqrt{P_\text{r}}}{\sqrt{P_\text{d}}}$
 
 ---
 
@@ -58,11 +58,11 @@ Um den Bruch für $s$ zu vereinfachen und das $|r|$ zu ersetzen, multipliziert m
 1. Aus der $1$ wird:
    $$1 \cdot \sqrt{P_\text{d}} = \sqrt{P_\text{d}}$$
 2. Aus dem $|r|$ wird:
-   $$\frac{\sqrt{P_\text{r}}}{\sqrt{P_\text{d}}} \cdot \sqrt{P_\text{d}} = \sqrt{P_\text{r}}$$
+  $\frac{\sqrt{P_\text{r}}}{\sqrt{P_\text{d}}} \cdot \sqrt{P_\text{d}} = \sqrt{P_\text{r}}$
 
 Setzt man diese Terme direkt in die SWR-Gleichung ein, ergibt sich unmittelbar:
 
-$$s = \frac{\sqrt{P_\text{d}} + \sqrt{P_\text{r}}}{\sqrt{P_\text{d}} - \sqrt{P_\text{r}}}$$
+$s = \frac{\sqrt{P_\text{d}} + \sqrt{P_\text{r}}}{\sqrt{P_\text{d}} - \sqrt{P_\text{r}}}$
 
 ---
 
@@ -70,5 +70,5 @@ $$s = \frac{\sqrt{P_\text{d}} + \sqrt{P_\text{r}}}{\sqrt{P_\text{d}} - \sqrt{P_\
 
 Durch das Ersetzen der Variablennamen ($s \rightarrow \text{SWR}$ und $P_\text{d} \rightarrow P_\text{v}$ für die Vorwärtsleistung) erhält man exakt die Zielformel:
 
-$$\text{SWR} = \frac{\sqrt{P_\text{v}} + \sqrt{P_\text{r}}}{\sqrt{P_\text{v}} - \sqrt{P_\text{r}}}$$
+$\text{SWR} = \frac{\sqrt{P_\text{v}} + \sqrt{P_\text{r}}}{\sqrt{P_\text{v}} - \sqrt{P_\text{r}}}$
 </indepth>
