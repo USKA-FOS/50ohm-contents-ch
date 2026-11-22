@@ -18,15 +18,15 @@ Deshalb muss ein Konverter ggf. umschaltbar sein, wie in Abbildung [ref:a_konver
 
 Für den ersten Teilbereich von $\qtyrange{436}{438}{\mega\hertz}$ kann man folgende Oszillatorfrequenz berechnen: 
 
-$f_\mathrm{OSZ} = \qty{436}{\mega\hertz}$ - $\qty{28}{\mega\hertz} = \qty{408}{\mega\hertz}$
+$f_\mathrm{OSZ} = \qty{436}{\mega\hertz} - \qty{28}{\mega\hertz} = \qty{408}{\mega\hertz}$
 
-$f_\mathrm{OSZ} = \qty{438}{\mega\hertz}$ - $\qty{30}{\mega\hertz} = \qty{408}{\mega\hertz}$
+$f_\mathrm{OSZ} = \qty{438}{\mega\hertz} - \qty{30}{\mega\hertz} = \qty{408}{\mega\hertz}$
 
 Für beide Bandgrenzen ergibt sich logischerweise eine Oszillatorfrequenz von $\qty{408}{\mega\hertz}$.
 
 Für den zweiten Teilbereich von $\qtyrange{438}{440}{\mega\hertz}$ ergibt sich folgende Oszillatorfrequenz:
 
-$f_\mathrm{OSZ} = \qty{440}{\mega\hertz} - \qty{30}{\mega\hertz} = \qty{438}{\mega\hertz} - \qty{28}{\mega\hertz} = \qty{410}{\mega\hertz}$.
+$f_\mathrm{OSZ} = \qty{440}{\mega\hertz} - \qty{30}{\mega\hertz} = \qty{438}{\mega\hertz} - \qty{28}{\mega\hertz} = \qty{410}{\mega\hertz}$
 
 Wird diese Oszillatorfrequenz mittels Frequenzvervielfachung erzeugt, so muss man sie bei der Rückrechnung auf die benötigte Frequenz des Quarzoszillators noch durch Teilen berücksichtigen.
 
