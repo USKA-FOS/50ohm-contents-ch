@@ -3,8 +3,12 @@ Der Originalinhalt ist noch immer hier drin, weil bisher unklar ist ob der noch 
 
 **Wenn Du Kursteilnehmer bist, überspringe bitte diese internen Informationen und scrolle nach unten bis zur Stelle "AB HIER ORIGINALTEXT".**
 
+*******
+
 Das ist ein "Test" zur Verwendung von Anführungszeichen. Dies Anführungszeichen wurden mit CTRL+2 erstellt.
-Das ist ein Versuch <<Guilements>> zu erstellen. Dies mit der doppelten Nutzung der Grösser/kleiner Zeichen auf der Tastatur.
+Das ist ein Versuch <<Guilements>> (Guilements) zu erstellen. Dies mit der doppelten Nutzung der Grösser/kleiner Zeichen auf der Tastatur.
+
+*****
 
 <margin>
 hier sind alle die verschiedenen Boxen als Vorlage
@@ -44,6 +48,7 @@ Externer Link
 So macht man einen Direktlink auf eine externe Seite [angezeigter Text](Direktlink zur Zielseite)
 </margin>
 
+*******
 
 **Interne Verlinkung**
 
@@ -59,12 +64,14 @@ Bspw wenn man "im Abschnitt [sec:kondensator_2] wird da noch tiefer darauf einge
 
 Bspw wenn man "wie wir im Abschnitt [sec:kondensator_2] schon gelernt haben." schreiben will. (Verweis auf eine HB3 Section in der HB9 Upgrade Edition.)
 
----
+********
 
 **Test Für Formel**
 Es geht hier um Tests warum das gewisse Formeln NICHT zentriert in Serif sonder linksbündig in SansSerif ausgegeben werden.
 
 *Tests ARK*
+
+Original ab Problemseite
 
 $U_{eff} = \frac{\hat{U}}{\sqrt{2}}$ oder $\hat{U} = U_{eff} \cdot \sqrt{2}$
 
@@ -79,22 +86,18 @@ Die Spitze-Spitze-Spannung beträgt $U_\text{SS} = 2 \cdot \qty{230}{\volt} \cdo
 
 
 Noch ein Test:
-
----
+Jede Formel auf eigener Zeile
 
 $U_\text{SS} = 2 \cdot 230 \cdot \sqrt{2} \approx 651$
 
----
-
 $A = 2 \cdot 230 \cdot \sqrt{2} \approx 651$
-
----
 
 $U_{eff} = \frac{\hat{U}}{\sqrt{2}}$
 
 ---
 
 Test mit geänderter Formel
+$$ statt $ mit Formel auf eigener Zeile (was eigentlich echtes Latex wäre gemäss FRV). Zudem mit qquad als Abstand und >text für das "oder"
 
 $$
 U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}
@@ -117,10 +120,19 @@ $$
 U_\text{SS} = 2 \cdot \qty{230}{\volt} \cdot \sqrt{2} \approx \qty{651}{\volt}
 $$
 
+$$ funktioniert offenbar nicht, deshalb neuer Versuch YPA mit $ und alles auf einer Zeile.
+
+102-106 in einer freistehenden Zeile mit $$
+
+$$ U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}\qquad \text{oder} \qquad\hat{U} = U_\text{eff} \cdot \sqrt{2}$$
+
+102-106 in einer Zeile mit $ aber ohne Leerzeile
+$U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}\qquad \text{oder} \qquad\hat{U} = U_\text{eff} \cdot \sqrt{2}$
 
 
 
-Erste Erkenntnisse:
+
+**Erste Erkenntnisse:**
 1. 
 Formeln müssen **alleine** heisst **einzeln** in einer Zeile stehen.
 Es dürfen keine andern Zeichen in derselben Zeile stehen.
@@ -130,7 +142,11 @@ Kein "und", "oder", Satzzeichen, etc.
 Formeln müssen ober- und unterhalb eine Leerzeile haben.
 
 Fazit
-Wenn zwei Formeln gelten die mit bspw "und" verbunden werden sollen, müssen diese auf zwei eigenen Zeilen stehen und dazwischen jeweils Leerzeilen.
+Wenn zwei Formeln gelten die bspw. mit  "und" verbunden werden sollen, müssen diese auf zwei eigenen Zeilen stehen und dazwischen jeweils Leerzeilen.
+Wenn die auf einer Zeile stehen sollen mit dem Wort dazwischen muss das mit £formel1 \quad \text{oder} \quad formel2£ gelöst werden  
+
+(damit die Schreibweise sichrbar wird, wurde das $ durch £ ersetzt. £ durch $ ersetzen, dann wird die Formel als Formel ausgegeben.)
+
 
 
 Original aus 6.28/132
