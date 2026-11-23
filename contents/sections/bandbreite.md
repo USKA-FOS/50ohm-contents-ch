@@ -12,7 +12,7 @@ Frequenzbereiche für HB3 und HB9
 
 Die Voraussetzungen für die Teilnahme am Amateurfunkdienst sind in [Artikel 44](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_44) der [Verordnung über die Nutzung des Funkfrequenzspektrums (VNF)](https://www.fedlex.admin.ch/eli/cc/2020/1024/de) beschrieben. Dort werden das *Fähigkeitszeugnis für den Amateurfunk* (HB9, CEPT) und der *Einsteigerausweis für Funkamateurinnen und Funkamateure* (HB3, Novice) unterschieden. Artikel 45 VNF legt fest, welche Betriebsarten mit welchem Fähigkeitszeugnis erlaubt sind, und nach Artikel 46 VNF bestimmt das BAKOM, welche Frequenzbereiche dem Amateurfunk zur Verfügung stehen.
 
-Die für den Amateurfunk zulässigen Frequenzbereiche sind deshalb im [Anhang 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4) der [Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums (VVNF)](https://www.fedlex.admin.ch/eli/cc/2020/914/de) festgelegt, getrennt für die HB9- und die HB3-Lizenz (siehe [sec:frequenzzuteilung]).
+Die für den Amateurfunk zulässigen Frequenzbereiche sind im [Anhang 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4) der [Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums (VVNF)](https://www.fedlex.admin.ch/eli/cc/2020/914/de) festgelegt, getrennt für die HB9- und die HB3-Lizenz (siehe [sec:frequenzzuteilung]).
 
 Aussendungen dürfen nur die für eine einwandfreie Übermittlung notwendige Bandbreite belegen. Dieser Grundsatz stammt aus dem Radioreglement (RR) der ITU, auf dem auch der nationale Frequenzzuweisungsplan (NaFZ) beruht (Art. 3 VNF).
 
