@@ -3,8 +3,10 @@ IN BEARBEITUNG
 Das Spektrum der elektromagnetischen Wellen stellt eine wertvolle, nicht vermehrbare Ressource dar. Für ein geordnetes Miteinander sind deshalb international und national Frequenzbereiche verschiedenen Nutzern zugeordnet.
 
 <law>
+Berechtigungen aufgrund von Fähigkeitszeugnissen
 [VNF Art. 44–46](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_44)
 
+Frequenzbereiche für HB3 und HB9
 [VVNF Art. 6 und Anhang 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4)
 </law>
 
@@ -44,7 +46,7 @@ Während die **notwendige Bandbreite** ein theoretischer Planungswert ist, besch
 
 <tip>
 Innerhalb der zugewiesenen Frequenzbänder ist es üblich, Betriebsarten nach belegter Bandbreite anzuordnen.
-Das ist keine behördliche Vorschrift, sondern eine Empfehlung des IARU-Bandplans (siehe [sec:iaru_bandplan]). Wer jedoch diese Usanz verletzt, macht sich auf den Bändern äusserst unbeliebt. Abbildung [ref:n_bandplan_20m] zeigt das Beispiel des 20-m-Bands.
+Das ist keine behördliche Vorschrift, sondern eine Empfehlung des IARU-Bandplans (siehe [sec:iaru_bandplan]). Wer sich jedoch über diese Usanz hinwegsetzt, macht sich auf den Bändern äusserst unbeliebt. Abbildung [ref:n_bandplan_20m] zeigt das Beispiel des 20-m-Bands.
 </tip>
 
 Wie wir gelernt haben, hängt die belegte Sendebandbreite von der Modulationsart und bei FM auch noch vom Hub ab. Anders als in manchen anderen Ländern legt die Schweiz im Anhang 4 der VVNF für die Amateurfunkbänder keine maximal zulässigen Bandbreiten fest, sondern nur die Frequenzbereiche, ihren Status und die maximale Senderleistung. Umso wichtiger sind der Grundsatz der notwendigen Bandbreite und die Bandbreitenempfehlungen des IARU-Bandplans. Jeder Funkamateur ist selbst dafür verantwortlich, dass seine Aussendungen diese Vorgaben einhalten.
