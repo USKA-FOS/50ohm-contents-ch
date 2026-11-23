@@ -18,7 +18,7 @@ Dabei ist auf folgende Punkte zu achten:
 
 * Die gewählte Betriebsart bestimmt die belegte Bandbreite: CW benötigt weniger als SSB, SSB weniger als AM oder FM.
 * Die gesamte Aussendung muss innerhalb der zugeteilten Frequenzbereiche liegen, also auch in der Nähe der Bandgrenzen.
-* Die Empfehlungen des IARU-Bandplans zu Betriebsarten und Bandbreiten sollen eingehalten werden.
+* Die Empfehlungen des IARU-Bandplans [sec:iaru_bandplan] zu Betriebsarten und Bandbreiten sollen eingehalten werden. Die Abbildung [ref:n_bandplan_20m] zeigt die Aufteilung der Betriebsarten innerhalb eines Amateurfunkbands exemplarisch für das 20-Meterband.
 * Unerwünschte Aussendungen wie Nebenaussendungen und Oberwellen müssen vermieden werden (siehe [sec:unerwuenschte_aussendungen_1]).
 
 <indepth>
@@ -33,7 +33,7 @@ Die notwendige Bandbreite ($B_n$) wird je nach Modulationsart mit spezifischen F
 * *Einseitenbandmodulation (SSB, z. B. Amateurfunk):*
   Die Formel lautet $B_n = M$. Es wird nur ein Seitenband ohne Träger übertragen, wodurch sich die Bandbreite halbiert (bei 3 kHz Audiofrequenz beträgt $B_n$ genau 3 kHz).
   
-* *Frequenzmodulation (FM, z. B. UKW-Rundfunk oder Sprechfunk):*
+* *Frequenzmodulation (FM, z. B. UKW-Radio oder Sprechfunk):*
   Die Formel lautet $B_n = 2 \cdot M + 2 \cdot D \cdot K$. Hierbei ist $M$ die höchste Modulationsfrequenz, $D$ der maximale Frequenzhub und $K$ ein Korrekturfaktor (meistens $K = 1$).
   
 * *Morsetelegrafie (CW – getasteter Träger ohne Modulation):*
