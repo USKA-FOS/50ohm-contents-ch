@@ -17,6 +17,8 @@ Die Zeitverhältnisse von Punkt, Strich und Pausen sind wie folgt definiert:
 Die „Geschwindigkeit“ wird in Worten pro Minute [WPM] (Words Per Minute) angegeben, wobei die international übliche Referenz das Wort PARIS ist.
 
 <webmargin>
+Beim Anklicken ertönt das entsprechende Morsezeichen.
+
 | c: | l: | c: | l: | c: | l: |
 |  |  |  |  |  |  |
 | A | [morse:a] | K | [morse:k] | U | [morse:u] |
