@@ -151,10 +151,9 @@ $\qty{1}{\hertz} = \frac{1}{\unit{\second}}$
 
 <margin>
 das ist der Test ob Formeln in rechter Spalte die nicht in einer Box sind richtig zentriert (1/2) werden
-oben mit $ unten mit $$
+oben mit 1 Dollar unten mit 2 Dollar
 
-Nachtrag: offenbar liegt es nicht an der Box. Allerdings macht Dollar im Text in der rechten Spalte offenbar komisches Zeug.
-Der Text oben sollte lauten "oben mit £ unten mit ££  (das £ ist durch Dollar zu ersetzen)
+Nachtrag: offenbar liegt es nicht an der Box. 
   
 $\qty{1}{\hertz} = \frac{1}{\unit{\second}}$
 
@@ -173,18 +172,20 @@ $\qty{1}{\hertz} = \frac{1}{\unit{\second}}$
 ---
 
 **Erkenntnisse:**
-1. 
+
+1.
+
 Formeln müssen **alleine** heisst **einzeln** in einer Zeile stehen.
 Es dürfen keine andern Zeichen in derselben Zeile stehen. Kein "und", "oder", Satzzeichen, etc.
 Zudem muss es vor und nach der Formel eine Leerzeile haben.
 
 Ergo
 Wenn zwei Formeln gelten die bspw. mit  "und" verbunden werden sollen, müssen diese auf zwei eigenen Zeilen stehen und dazwischen jeweils Leerzeilen.
-Wenn die auf einer Zeile stehen sollen mit dem Wort dazwischen muss das mit £formel1 \quad \text{oder} \quad formel2£ gelöst werden  (damit die Schreibweise sichtbar wird, wurde das $ durch £ ersetzt. £ durch $ ersetzen, dann wird die Formel als Formel ausgegeben.)
+Wenn die auf einer Zeile stehen sollen mit dem Wort dazwischen muss das mit $formel1 \quad \text{oder} \quad formel2£ gelöst werden  (damit die Schreibweise sichtbar wird, wurde das Dollar durch £ ersetzt. £ durch Dollar ersetzen, dann wird die Formel als Formel ausgegeben.)
 
-2. $ oder $$
-$$ wäre echtes Latex für abgesetze (Serif und zentriert) Formeln. $ für inline -Formeln
-$$ funktioniert aber hier überhaupt nicht. 
+2. ein oder 2 Dollar
+2 Dollar wäre echtes Latex für abgesetze (Serif und zentriert) Formeln. Eines für inline -Formeln
+Zwei funktioniert aber hier überhaupt nicht. 
 $formel$ führt zum gewünschten Ergebnis (Serif und zentriert)
 
 **Vorläufiges Ende Erkenntnisse**
