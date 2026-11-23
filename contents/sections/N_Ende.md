@@ -197,7 +197,7 @@ das ist eine Formel die in 3 Zeilen ausgegeben wird aber sehr zusammengequetsch 
 
 $\begin{split} g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right)\\ g &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\ g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \end{split}$
 
-Lösungdansaztz für mehr Leerraum zwischen den Formeln: Auflösung in 3 Formeln aber auf einer Zeile (durch $ vor und nach den Teilformeln) - dürfte nicht funktionieren
+Lösungansatz für mehr Leerraum zwischen den Formeln: Auflösung in 3 Formeln aber auf einer Zeile (durch $ vor und nach den Teilformeln) - dürfte nicht funktionieren
 
 $g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right)\\$ $g &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\$   g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right)$
 
@@ -218,7 +218,12 @@ $g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right)$
 
 
 ---
- %ARK: TODO: Photo des Schweizer 50Ohm-Teams erstellen und einbauen
+AB
+
+HIER
+
+ORIGINALTEXT
+% ARK: TODO: Photo des Schweizer 50Ohm-Teams erstellen und einbauen
 
 <margin>
 [photo:329:n_team:50ohm.de-Team]
