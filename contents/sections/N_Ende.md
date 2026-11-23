@@ -18,7 +18,7 @@ Das ist ein Mustertext mit dem Kommando (tip). Das generiert den roten Kasten �
 </tip>
 
 <attention>
-Das ist ein Mustertext mit dem Kommando (attention9. Das generiert den gelben Kasten „Achtung“.
+Das ist ein Mustertext mit dem Kommando (attention). Das generiert den gelben Kasten „Achtung“.
 </attention>
 
 <danger>
@@ -152,6 +152,9 @@ $\qty{1}{\hertz} = \frac{1}{\unit{\second}}$
 <margin>
 das ist der Test ob Formeln in rechter Spalte die nicht in einer Box sind richtig zentriert (1/2) werden
 oben mit $ unten mit $$
+
+Nachtrag: offenbar liegt es nicht an der Box. Allerdings macht Dollar im Text in der rechten Spalte offenbar komisches Zeug.
+Der Text oben sollte lauten "oben mit £ unten mit ££  (das £ ist durch Dollar zu ersetzen)
   
 $\qty{1}{\hertz} = \frac{1}{\unit{\second}}$
 
