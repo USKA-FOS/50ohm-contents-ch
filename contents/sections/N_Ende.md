@@ -11,23 +11,23 @@ hier sind alle die verschiedenen Boxen als Vorlage
 </margin>
 
 <indepth>
-Das ist ein Mustertext mit dem Kommando <indepth>. Das generiert den grauen Kasten „Vertiefung“.
+Das ist ein Mustertext mit dem Kommando (indepth). Das generiert den grauen Kasten „Vertiefung“.
 </indepth>
 
 <tip>
-Das ist ein Mustertext mit dem Kommando <tip>. Das generiert den roten Kasten „Tipp“.
+Das ist ein Mustertext mit dem Kommando (tip). Das generiert den roten Kasten „Tipp“.
 </tip>
 
 <attention>
-Das ist ein Mustertext mit dem Kommando <attention>. Das generiert den gelben Kasten „Achtung“.
+Das ist ein Mustertext mit dem Kommando (attention9. Das generiert den gelben Kasten „Achtung“.
 </attention>
 
 <danger>
-Das ist ein Mustertext mit dem Kommando <danger>. Das generiert den roten Kasten „Gefahr“.
+Das ist ein Mustertext mit dem Kommando (danger). Das generiert den roten Kasten „Gefahr“.
 </danger>
 
 <unit>
-Das ist ein Mustertext mit dem Kommando <unit>. Das generiert den grünen Kasten „Neue Einheit“.
+Das ist ein Mustertext mit dem Kommando (unit). Das generiert den grünen Kasten „Neue Einheit“.
 </unit>
 
 <law>
