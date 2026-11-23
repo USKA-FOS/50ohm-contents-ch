@@ -3,11 +3,6 @@ Der Originalinhalt ist noch immer hier drin, weil bisher unklar ist ob der noch 
 
 **Wenn Du Kursteilnehmer bist, überspringe bitte diese internen Informationen und scrolle nach unten bis zur Stelle "AB HIER ORIGINALTEXT".**
 
-abc wird für Fake-Leerzeilen verwendet.
-abcabcabc
-abcabc
-abc
-
 
 **Vorlagen**
 <margin>
@@ -135,14 +130,12 @@ $$ U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}\qquad \text{oder} \qquad\hat{U} = U_\
 Zeile 108-112 in einer Zeile mit $ aber ohne Leerzeile
 $U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}\qquad \text{oder} \qquad\hat{U} = U_\text{eff} \cdot \sqrt{2}$
 
-abcabcabc
-abcabc
-abc
+
 
 
 ---
 <unit>
-Formeln sollen nicht in Sanserif ausgegeben werden. Spannen ist aber dass diese hier trotz Fehlformatierung mit $$ statt $ zentriert wird. (wobei zentriert ist sie nicht wirklich, es ist erher so 1/3 Einzug als wirklich 1/2 
+Formeln sollen nicht in Sanserif ausgegeben werden. Spannend ist aber dass diese hier trotz Fehlformatierung mit $$ statt $ zentriert wird. (wobei zentriert ist sie nicht wirklich, es ist erher so 1/3 Einzug als wirklich 1/2 )
 Ob das an der rechten Spalte oder an der Box liegt weiss ich nicht. 
   
 $$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
@@ -150,11 +143,21 @@ $$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
 </unit>
 
 <unit>
-hier dann mit $ statt $$. dann wirds serif, aber der Einzug bleibt bei 1/3 
+hier dann statt $$ mit $. Dann wirds serif, aber der Einzug bleibt bei 1/3 
   
 $\qty{1}{\hertz} = \frac{1}{\unit{\second}}$
   
 </unit>
+
+<margin>
+das ist der Test ob Formeln in rechter Spalte die nicht in einer Box sind richtig zentriert (1/2) werden
+oben mit $ unten mit $$
+  
+$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$
+
+$$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
+
+</margin>
 
 Das ist der Test ob $$ links korrekt ausgeben wird
 
@@ -165,9 +168,6 @@ Das ist der Test ob $ links korrekt ausgeben wird
 $\qty{1}{\hertz} = \frac{1}{\unit{\second}}$
 
 ---
-abc abc abc 
-abc abc
-abc 
 
 **Erkenntnisse:**
 1. 
@@ -186,9 +186,7 @@ $formel$ führt zum gewünschten Ergebnis (Serif und zentriert)
 
 **Vorläufiges Ende Erkenntnisse**
 
-abc abc abc
-abc abc
-abc
+
 
 **Original aus 6.28/132**
 das ist eine Formel die in 3 Zeilen ausgegeben wird aber sehr zusammengequetsch wird. Es ist eine "Formel umstellen"- Formel
@@ -215,21 +213,17 @@ $g &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\$
 $g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right)$
 
 
-
-a a a 
-a a a 
-a a a
-    
-**AB HIER ORIGINALTEXT - BITTE STEHEN LASSEN**
-
-Gratulation! Du hast den Kurs nun erfolgreich abgeschlossen. Falls noch nicht geschehen, solltest du dich jetzt gezielt mit einer Lern-App oder einem Prüfungstrainer auf die Amateurfunkprüfung vorbereiten. Dafür eignet sich z. B. der [Hamradiotrainer](http://www.hamradiotrainer.de/)), bei dem man die für die Schweiz geeigneten Fragen laden kann. Auch die Anmeldung zur Prüfung solltest du möglichst zeitnah vornehmen, da die verfügbaren Termine häufig begrenzt sind. Alle wichtigen Informationen zur Anmeldung und zum Ablauf der Prüfung findest du auf der [BAKOM-Webseite](https://www.bakom.admin.ch/de/amateurfunk). Nach bestandener Prüfung beim BAKOM kannst du anschließend dein persönliches Rufzeichen beantragen und offiziell am Amateurfunkbetrieb teilnehmen.
-
-%ARK: TODO: Photo des Schweizer 50Ohm-Teams erstellen und einbauen
+---
+ %ARK: TODO: Photo des Schweizer 50Ohm-Teams erstellen und einbauen
 
 <margin>
 [photo:329:n_team:50ohm.de-Team]
 [photo:1009:n_team:Symbolbild als Platzhalter für das 50ohm.ch-Team]
 </margin>
+   
+**AB HIER ORIGINALTEXT - BITTE STEHEN LASSEN**
+
+Gratulation! Du hast den Kurs nun erfolgreich abgeschlossen. Falls noch nicht geschehen, solltest du dich jetzt gezielt mit einer Lern-App oder einem Prüfungstrainer auf die Amateurfunkprüfung vorbereiten. Dafür eignet sich z. B. der [Hamradiotrainer](http://www.hamradiotrainer.de/)), bei dem man die für die Schweiz geeigneten Fragen laden kann. Auch die Anmeldung zur Prüfung solltest du möglichst zeitnah vornehmen, da die verfügbaren Termine häufig begrenzt sind. Alle wichtigen Informationen zur Anmeldung und zum Ablauf der Prüfung findest du auf der [BAKOM-Webseite](https://www.bakom.admin.ch/de/amateurfunk). Nach bestandener Prüfung beim BAKOM kannst du anschließend dein persönliches Rufzeichen beantragen und offiziell am Amateurfunkbetrieb teilnehmen.
 
 Dieser Kurs wurde dir kostenlos von der USKA zur Verfügung gestellt und von vielen ehrenamtlichen [Mitarbeiterinnen und Mitarbeitern des DARC erarbeitet](https://50ohm.de/infos.html#contributors) und von ehrenamtlichen [Mitarbeiterinnen und Mitarbeitern der USKA und der IGAFuA](https://50ohm.uska.ch/infos.html#contributors) an die Schweizer Verhältnisse angepasst und in drei Landessprachen verfügbar gemacht. Die USKA ist die Schweizer Amateurfunk-Organisation und vertritt die Interessen der Funkamateurinnen und Funkamateure gegenüber Behörden, Politik und anderen Funkdiensten. Eine [Mitgliedschaft in der USKA](https://uska.ch/de/uska-beitreten/) bedeutet, diese Arbeit aktiv mitzutragen: von Ausbildung und Nachwuchsförderung über technische Entwicklung bis hin zur Sicherung unserer Frequenzen und Betriebsarten. Wer Amateurfunk langfristig erhalten und weiterentwickeln möchte, findet in der USKA die gemeinsame organisatorische Basis dafür. Wir würden uns freuen, wenn du dich in Zukunft in unserem Verein engagierst und gemeinsam mit uns die Community voranbringst.
 
@@ -240,4 +234,4 @@ Sobald du deine Prüfung geschafft hast, eröffnet sich eine Vielzahl spannender
 
 Viel Spaß mit deinem neuen Hobby wünschen stellvertretend für das *50ohm.ch-Team*  
 
-Sandy, HB3YPA und Mathias HB9FRV
+Sandy, HB3YPA und Mathias, HB9FRV
