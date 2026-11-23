@@ -3,9 +3,10 @@ Der Originalinhalt ist noch immer hier drin, weil bisher unklar ist ob der noch 
 
 **Wenn Du Kursteilnehmer bist, überspringe bitte diese internen Informationen und scrolle nach unten bis zur Stelle "AB HIER ORIGINALTEXT".**
 
-a
-a wird für Fake-Leerzeilen verwendet.
-a
+abc wird für Fake-Leerzeilen verwendet.
+abcabcabc
+abcabc
+abc
 
 
 **Vorlagen**
@@ -127,12 +128,17 @@ $$
 
 $$ funktioniert offenbar nicht, deshalb neuer Versuch YPA mit $ und alles auf einer Zeile.
 
-102-106 in einer freistehenden Zeile mit $$
+Zeile 108-112 in einer freistehenden Zeile mit $$
 
 $$ U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}\qquad \text{oder} \qquad\hat{U} = U_\text{eff} \cdot \sqrt{2}$$
 
-102-106 in einer Zeile mit $ aber ohne Leerzeile
+Zeile 108-112 in einer Zeile mit $ aber ohne Leerzeile
 $U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}\qquad \text{oder} \qquad\hat{U} = U_\text{eff} \cdot \sqrt{2}$
+
+abcabcabc
+abcabc
+abc
+
 
 ---
 <unit>
@@ -158,7 +164,10 @@ Das ist der Test ob $ links korrekt ausgeben wird
 
 $\qty{1}{\hertz} = \frac{1}{\unit{\second}}$
 
-
+---
+abc abc abc 
+abc abc
+abc 
 
 **Erkenntnisse:**
 1. 
@@ -177,6 +186,9 @@ $formel$ führt zum gewünschten Ergebnis (Serif und zentriert)
 
 **Vorläufiges Ende Erkenntnisse**
 
+abc abc abc
+abc abc
+abc
 
 **Original aus 6.28/132**
 das ist eine Formel die in 3 Zeilen ausgegeben wird aber sehr zusammengequetsch wird. Es ist eine "Formel umstellen"- Formel
@@ -204,9 +216,9 @@ $g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right)$
 
 
 
-
-
----
+a a a 
+a a a 
+a a a
     
 **AB HIER ORIGINALTEXT - BITTE STEHEN LASSEN**
 
