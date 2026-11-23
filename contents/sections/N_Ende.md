@@ -72,7 +72,7 @@ Es geht hier um Tests warum das gewisse Formeln NICHT zentriert in Serif sonder 
 
 *Tests ARK*
 
-Original ab Problemseite
+Original ab Problemseite https://50ohm.uska.ch/50ohm_review_de/NEA_spitze_effektiv_wert.html  (6.13)
 
 $U_{eff} = \frac{\hat{U}}{\sqrt{2}}$ oder $\hat{U} = U_{eff} \cdot \sqrt{2}$
 
@@ -98,7 +98,7 @@ $U_{eff} = \frac{\hat{U}}{\sqrt{2}}$
 ---
 
 Test mit geänderter Formel
-$$ statt $ mit Formel auf eigener Zeile (was eigentlich echtes Latex wäre gemäss FRV). Zudem mit qquad als Abstand und >text für das "oder"
+$$ statt $ mit Formel auf eigener Zeile (was eigentlich echtes Latex wäre gemäss FRV). Zudem mit qquad als Abstand und \text für das "oder"
 
 $$
 U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}
@@ -135,8 +135,7 @@ $U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}\qquad \text{oder} \qquad\hat{U} = U_\te
 
 ---
 <unit>
-Formeln sollen nicht in Sanserif ausgegeben werden. Spannend ist aber dass diese hier trotz Fehlformatierung mit $$ statt $ zentriert wird. (wobei zentriert ist sie nicht wirklich, es ist erher so 1/3 Einzug als wirklich 1/2 )
-Ob das an der rechten Spalte oder an der Box liegt weiss ich nicht. 
+Formeln sollen nicht in Sanserif ausgegeben werden. Spannend ist aber dass diese hier trotz Fehlformatierung mit $$ statt $ zentriert wird. (wobei zentriert ist sie nicht wirklich, es ist eher so 1/3 Einzug als wirklich 1/2)
   
 $$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
   
@@ -224,6 +223,8 @@ HIER
 
 ORIGINALTEXT
 % ARK: TODO: Photo des Schweizer 50Ohm-Teams erstellen und einbauen
+
+---
 
 <margin>
 [photo:329:n_team:50ohm.de-Team]
