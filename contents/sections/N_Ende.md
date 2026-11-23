@@ -3,13 +3,12 @@ Der Originalinhalt ist noch immer hier drin, weil bisher unklar ist ob der noch 
 
 **Wenn Du Kursteilnehmer bist, überspringe bitte diese internen Informationen und scrolle nach unten bis zur Stelle "AB HIER ORIGINALTEXT".**
 
-*******
+a
+a wird für Fake-Leerzeilen verwendet.
+a
 
-Das ist ein "Test" zur Verwendung von Anführungszeichen. Dies Anführungszeichen wurden mit CTRL+2 erstellt.
-Das ist ein Versuch <<Guilements>> (Guilements) zu erstellen. Dies mit der doppelten Nutzung der Grösser/kleiner Zeichen auf der Tastatur.
 
-*****
-
+**Vorlagen**
 <margin>
 hier sind alle die verschiedenen Boxen als Vorlage
 </margin>
@@ -48,7 +47,7 @@ Externer Link
 So macht man einen Direktlink auf eine externe Seite [angezeigter Text](Direktlink zur Zielseite)
 </margin>
 
-*******
+
 
 **Interne Verlinkung**
 
@@ -64,9 +63,15 @@ Bspw wenn man "im Abschnitt [sec:kondensator_2] wird da noch tiefer darauf einge
 
 Bspw wenn man "wie wir im Abschnitt [sec:kondensator_2] schon gelernt haben." schreiben will. (Verweis auf eine HB3 Section in der HB9 Upgrade Edition.)
 
-********
 
-**Test Für Formel**
+
+**Anführungszeichen**
+Das ist ein "Test" zur Verwendung von Anführungszeichen. Dies Anführungszeichen wurden mit CTRL+2 erstellt.
+Das ist ein Versuch <<Guilements>> (Guilements) zu erstellen. Dies mit der doppelten Nutzung der Grösser/kleiner Zeichen auf der Tastatur.
+
+
+
+**Testreihe für Formel**
 Es geht hier um Tests warum das gewisse Formeln NICHT zentriert in Serif sonder linksbündig in SansSerif ausgegeben werden.
 
 *Tests ARK*
@@ -129,54 +134,9 @@ $$ U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}\qquad \text{oder} \qquad\hat{U} = U_\
 102-106 in einer Zeile mit $ aber ohne Leerzeile
 $U_\text{eff} = \frac{\hat{U}}{\sqrt{2}}\qquad \text{oder} \qquad\hat{U} = U_\text{eff} \cdot \sqrt{2}$
 
-
-
-
-**Erste Erkenntnisse:**
-1. 
-Formeln müssen **alleine** heisst **einzeln** in einer Zeile stehen.
-Es dürfen keine andern Zeichen in derselben Zeile stehen.
-Kein "und", "oder", Satzzeichen, etc.
-
-2. 
-Formeln müssen ober- und unterhalb eine Leerzeile haben.
-
-Fazit
-Wenn zwei Formeln gelten die bspw. mit  "und" verbunden werden sollen, müssen diese auf zwei eigenen Zeilen stehen und dazwischen jeweils Leerzeilen.
-Wenn die auf einer Zeile stehen sollen mit dem Wort dazwischen muss das mit £formel1 \quad \text{oder} \quad formel2£ gelöst werden  
-
-(damit die Schreibweise sichrbar wird, wurde das $ durch £ ersetzt. £ durch $ ersetzen, dann wird die Formel als Formel ausgegeben.)
-
-
-
-Original aus 6.28/132
-
-$\begin{split} g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right)\\ g &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\ g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \end{split}$
-
-Auflösung in 3 Formeln aber auf einer Zeile
-
-$g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right)\\$ $g &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\$   g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right)$
-
-Auflösung in 3 Formeln wie gewohnt untereinander - ohne Leerzeile
-
-$g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right)\\$ 
-$g &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\$   
-$g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right)$
-
-
-Auflösung in 3 Formeln wie gewohnt untereinander - mit Leerzeile
-
-$g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right)\\$ 
-
-$g &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\$   
-
-$g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right)$
-
-Das ist offenbar nicht die Lösung
-
-
+---
 <unit>
-Formeln sollen nicht in Sanserif ausgegeben werden. Spannen ist aber dass diese hier trotz Fehlformatierung mit $$ statt $ zentriert wird.
+Formeln sollen nicht in Sanserif ausgegeben werden. Spannen ist aber dass diese hier trotz Fehlformatierung mit $$ statt $ zentriert wird. (wobei zentriert ist sie nicht wirklich, es ist erher so 1/3 Einzug als wirklich 1/2 
 Ob das an der rechten Spalte oder an der Box liegt weiss ich nicht. 
   
 $$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
@@ -184,7 +144,7 @@ $$\qty{1}{\hertz} = \frac{1}{\unit{\second}}$$
 </unit>
 
 <unit>
-So soll es sein. 
+hier dann mit $ statt $$. dann wirds serif, aber der Einzug bleibt bei 1/3 
   
 $\qty{1}{\hertz} = \frac{1}{\unit{\second}}$
   
@@ -199,10 +159,50 @@ Das ist der Test ob $ links korrekt ausgeben wird
 $\qty{1}{\hertz} = \frac{1}{\unit{\second}}$
 
 
-Test ob $ - $ den Fehler macht
-$f_\mathrm{OSZ} = \qty{436}{\mega\hertz} - \qty{28}{\mega\hertz} = \qty{408}{\mega\hertz}$
 
-Der Formel wurden die mittigen $ voor und nach dem - entfernt
+**Erkenntnisse:**
+1. 
+Formeln müssen **alleine** heisst **einzeln** in einer Zeile stehen.
+Es dürfen keine andern Zeichen in derselben Zeile stehen. Kein "und", "oder", Satzzeichen, etc.
+Zudem muss es vor und nach der Formel eine Leerzeile haben.
+
+Ergo
+Wenn zwei Formeln gelten die bspw. mit  "und" verbunden werden sollen, müssen diese auf zwei eigenen Zeilen stehen und dazwischen jeweils Leerzeilen.
+Wenn die auf einer Zeile stehen sollen mit dem Wort dazwischen muss das mit £formel1 \quad \text{oder} \quad formel2£ gelöst werden  (damit die Schreibweise sichtbar wird, wurde das $ durch £ ersetzt. £ durch $ ersetzen, dann wird die Formel als Formel ausgegeben.)
+
+2. $ oder $$
+$$ wäre echtes Latex für abgesetze (Serif und zentriert) Formeln. $ für inline -Formeln
+$$ funktioniert aber hier überhaupt nicht. 
+$formel$ führt zum gewünschten Ergebnis (Serif und zentriert)
+
+**Vorläufiges Ende Erkenntnisse**
+
+
+**Original aus 6.28/132**
+das ist eine Formel die in 3 Zeilen ausgegeben wird aber sehr zusammengequetsch wird. Es ist eine "Formel umstellen"- Formel
+
+$\begin{split} g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right)\\ g &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\ g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \end{split}$
+
+Lösungdansaztz für mehr Leerraum zwischen den Formeln: Auflösung in 3 Formeln aber auf einer Zeile (durch $ vor und nach den Teilformeln) - dürfte nicht funktionieren
+
+$g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right)\\$ $g &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\$   g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right)$
+
+Auflösung in 3 Formeln wie gewohnt untereinander - ohne Leerzeile (dürfte nicht funktionieren)
+
+$g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right)\\$ 
+$g &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\$   
+$g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right)$
+
+
+Auflösung in 3 Formeln wie gewohnt untereinander - mit Leerzeile (müsste funktioniern, funktioniert aber nicht)
+
+$g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right)\\$ 
+
+$g &= 10 \cdot 2 \cdot \log_{10}\left(\frac{U_1}{U_2}\right) \\$   
+
+$g &= 20 \cdot \log_{10}\left(\frac{U_1}{U_2}\right)$
+
+
 
 
 
