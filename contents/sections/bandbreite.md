@@ -1,5 +1,3 @@
-IN BEARBEITUNG
-
 Das Spektrum der elektromagnetischen Wellen stellt eine wertvolle, nicht vermehrbare Ressource dar. Für ein geordnetes Miteinander sind deshalb international und national Frequenzbereiche verschiedenen Nutzern zugeordnet.
 
 <law>
@@ -19,8 +17,11 @@ Aussendungen dürfen nur die für eine einwandfreie Übermittlung notwendige Ban
 Dabei ist auf folgende Punkte zu achten:
 
 * Die gewählte Betriebsart bestimmt die belegte Bandbreite: CW benötigt weniger als SSB, SSB weniger als AM oder FM.
+
 * Die gesamte Aussendung muss innerhalb der zugeteilten Frequenzbereiche liegen, also auch in der Nähe der Bandgrenzen.
-* Die Empfehlungen des IARU-Bandplans [sec:iaru_bandplan] zu Betriebsarten und Bandbreiten sollen eingehalten werden. Die Abbildung [ref:n_bandplan_20m] zeigt die Aufteilung der Betriebsarten innerhalb eines Amateurfunkbands exemplarisch für das 20-Meterband.
+
+* Die Empfehlungen des IARU-Bandplans [sec:iaru_bandplan] zu Betriebsarten und Bandbreiten sollen eingehalten werden. Die Abbildung [ref:n_bandplan_20m] zeigt die Aufteilung der Betriebsarten innerhalb eines Amateurfunkbands exemplarisch für das 20-Meterband. 
+
 * Unerwünschte Aussendungen wie Nebenaussendungen und Oberwellen müssen vermieden werden (siehe [sec:unerwuenschte_aussendungen_1]).
 
 <indepth>
