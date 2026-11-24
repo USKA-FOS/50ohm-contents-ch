@@ -1,8 +1,4 @@
-**APPLETS LAUFEN NICHT**
-
-**applet_am_modulator und applet_dsp**
-
-**Bei uns fehlt im Generator in /assets das circuitjs/..    issue #54**
+%ARK issue #54**
 
 Dioden haben wir bereits in verschiedenen Schaltungen kennengelernt. Nun betrachten wir, wie ihre nichtlineare Kennlinie genutzt werden kann, um ein hochfrequentes Trägersignal mit einem niederfrequenten Nutzsignal zu modulieren.
 
