@@ -9,6 +9,12 @@ $\sin(f_1)\cdot\sin(f_2) = \frac{1}{2}\left(\cos(f_1-f_2)-\cos(f_1+f_2)\right)$
   
 Werden zwei Sinussignale miteinander multipliziert – eines mit der Frequenz $f_1$ und eines mit der Frequenz $f_2$ – entstehen im Frequenzbereich zwei neue Cosinussignale (was nichts anderes als ein phasenverschobener Sinus ist). Diese liegen bei den Frequenzen $f_1 - f_2$ und $f_1 + f_2$. Man kann sich das so vorstellen, dass ein Frequenzanteil nach unten und ein weiterer nach oben verschoben wird. Genau dieses Prinzip macht sich der Mischer zunutze.
 
+Zum Beantworten der Prüfungsfragen genügt das Fazit aus obiger trigonometrischen Identität, nämlich die Formel aus der Formelsammlung:
+
+$f_\text{z}=|f_\text{e}\pm f_\text{o}|$
+
+Bei der Digitalen Signalverarbeitung werden wir dann lernen, dass das Mischen, einer Multiplikation zweier Signale entspricht. 
+
 Dabei entstehen grundsätzlich immer zwei Frequenzkomponenten. In der Praxis ist jedoch meist nur eine davon erwünscht, weshalb im Anschluss an den Mischer geeignete Filter eingesetzt werden, um das gewünschte Mischprodukt zu selektieren. Genau genommen können bei der Differenzbildung auch negative Frequenzen auftreten, weshalb man im Allgemeinen den Betrag $| f_1 \pm f_2 |$ betrachtet.
 </indepth>
 
@@ -35,7 +41,7 @@ Die Betragsstriche $|x|$ bedeuten, dass nur der Zahlenwert ohne Vorzeichen betra
 Normalerweise wird nur eines der erwünschten Mischprodukte für die weitere Signalverarbeitung genutzt. Das andere Mischprodukt (sowie ggf. weitere unerwünschte Mischprodukte - siehe Vertiefung) müssen anschließend durch Filterung aus dem Signalgemisch entfernt werden.
 
 <indepth>
-Ein realer Mischer erzeugt neben den erwünschten Mischprodukten auch Mischprodukte höherer Ordnung wie z.B. $2 * f_\text{in1} + f_\text{in2}$ usw. Mischprodukte höherer Ordnung werden in [sec:banbreite] nochmals aufgegriffen. Diese unerwünschten Mischprodukte müssen anschließend ebenfalls durch geeignete Filter entfernt werden. Auch die beiden Eingangsfrequenzen sind bei realen Mischern in deren Ausgangssignal nicht vollständig unterdrückt und müssen bei der weiteren Signalverarbeitung berücksichtigt werden. Durch Verwendung eines balancierten Ringmischers (Balance-Mixer) können die beiden Eingangssignale im Ausgangssignal sehr stark unterdrückt werden, weshalb dieser Mischer-Typ häufig zum Einsatz kommt.
+Ein realer Mischer erzeugt neben den erwünschten Mischprodukten auch Mischprodukte höherer Ordnung wie z.B. $2 * f_\text{in1} + f_\text{in2}$ usw. Mischprodukte höherer Ordnung werden im Abschnitt [sec:intermodulation_kreuzmodulation] nochmals aufgegriffen. Diese unerwünschten Mischprodukte müssen anschließend ebenfalls durch geeignete Filter entfernt werden. Auch die beiden Eingangsfrequenzen sind bei realen Mischern in deren Ausgangssignal nicht vollständig unterdrückt und müssen bei der weiteren Signalverarbeitung berücksichtigt werden. Durch Verwendung eines balancierten Ringmischers (Balance-Mixer) können die beiden Eingangssignale im Ausgangssignal sehr stark unterdrückt werden, weshalb dieser Mischer-Typ häufig zum Einsatz kommt.
 </indepth>
 
 [question:EF201]
