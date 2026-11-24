@@ -106,10 +106,6 @@ Zusätzlich lernen wir im Abschnitt [sec:antennengewinn] die Zusätze $\unit{\dB
 
 ---
 
-Neben den Leistungsverhältnissen können wir das Dezibel können auch verwenden, um *Spannungsverhältnisse* und *Spannungspegel* anzugeben. Dazu können wir die Formel $P = \frac{U^2}{R}$ verwenden. Also können wir schreiben:
-
-$\begin{split}g &= 10 \cdot \log_{10}\left(\frac{P_1}{P_2}\right)\\ g &= 10 \cdot \log_{10}\left(\frac{\frac{U_1^2}{\cancel{R}}}{\frac{U_2^2}{\cancel{R}}}\right)\\ g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right) \end{split}$
-
 <tip>
 *Rechnen mit Logarithmen:*
 Einige einfache Rechenregeln ermöglichen die Lösung von Dezibel-Aufgaben ohne Taschenrechner.
@@ -122,6 +118,10 @@ Einige einfache Rechenregeln ermöglichen die Lösung von Dezibel-Aufgaben ohne 
   
 * Der Logarithmus einer Wurzel: $\log_{10}(\sqrt{x})= \frac{1}{2} \cdot \log_{10}(x)$
 </tip>
+
+Neben den Leistungsverhältnissen können wir das Dezibel können auch verwenden, um *Spannungsverhältnisse* und *Spannungspegel* anzugeben. Dazu können wir die Formel $P = \frac{U^2}{R}$ verwenden. Also können wir schreiben:
+
+$\begin{split}g &= 10 \cdot \log_{10}\left(\frac{P_1}{P_2}\right)\\ g &= 10 \cdot \log_{10}\left(\frac{\frac{U_1^2}{\cancel{R}}}{\frac{U_2^2}{\cancel{R}}}\right)\\ g &= 10 \cdot \log_{10}\left(\left(\frac{U_1}{U_2}\right)^2\right) \end{split}$
 
 Der Logarithmus einer quadrierten Zahl ist aber gleich zweimal dem Logarithmus der Zahl:
 
