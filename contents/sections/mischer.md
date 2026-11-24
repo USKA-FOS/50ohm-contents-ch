@@ -1,6 +1,7 @@
 Mit Hilfe eines Mischers kann eine bestimmte Frequenz (bzw. ein Frequenzbereich mit definierter Bandbreite) in eine höhere oder niedrigere Frequenz umgesetzt werden. Dafür werden die Signale miteinander Multipliziert. 
 
 %  #21 beachten Formel fehlt in Formelsammlung
+%ARK: Zum Beantworten der Prüfungsfragen genügt die Formel aus der Formelsammlung
 
 <indepth>
 Eine Multiplikation von Signalen im Zeitbereich führt zu einer Addition (bzw. Subtraktion) im Frequenzbereich. Dieser Zusammenhang lässt sich anschaulich mit der folgenden trigonometrischen Identität (etwas vereinfacht, die Faktoren $2\pi\cdot t$ wurden der Übersicht halber weggelassen) erklären:  
@@ -9,7 +10,7 @@ $\sin(f_1)\cdot\sin(f_2) = \frac{1}{2}\left(\cos(f_1-f_2)-\cos(f_1+f_2)\right)$
   
 Werden zwei Sinussignale miteinander multipliziert – eines mit der Frequenz $f_1$ und eines mit der Frequenz $f_2$ – entstehen im Frequenzbereich zwei neue Cosinussignale (was nichts anderes als ein phasenverschobener Sinus ist). Diese liegen bei den Frequenzen $f_1 - f_2$ und $f_1 + f_2$. Man kann sich das so vorstellen, dass ein Frequenzanteil nach unten und ein weiterer nach oben verschoben wird. Genau dieses Prinzip macht sich der Mischer zunutze.
 
-Zum Beantworten der Prüfungsfragen genügt das Fazit aus obiger trigonometrischen Identität, nämlich die Formel aus der Formelsammlung:
+Zum Beantworten der Prüfungsfragen genügt das Fazit aus obiger trigonometrischer Identität, nämlich die Formel aus der Formelsammlung:
 
 $f_\text{z}=|f_\text{e}\pm f_\text{o}|$
 
