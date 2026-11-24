@@ -7,7 +7,7 @@ Für den Funkbetrieb ist es wichtig zu wissen, welche Frequenzbereiche durch Fun
 Wenn man über Frequenzbereiche spricht wird die gerundete Wellenlänge ($\lambda$ (Lambda)) verwendet. Dehalb werden diese Bänder in Meter (oder dessen Untereinheiten) angeben.
 
 <margin>
-Wie man das umrechnet haben wir in den vorausgegangenen Abschnitten schon gesehen.
+Wie man das umrechnet haben wir in anderen Abschnitten schon gesehen.
 
 $f[\unit{\mega\hertz}] = \dfrac{300}{\lambda[\unit{\meter}]} \quad\quad\quad \lambda[\unit{\meter}] = \dfrac{300}{f[\unit{\mega\hertz}]}$
 </margin>
