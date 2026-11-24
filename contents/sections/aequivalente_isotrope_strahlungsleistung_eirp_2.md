@@ -36,6 +36,8 @@ Die Formel zur Berechnung der EIRP ergibt sich aus der Formelsammlung und lautet
 
 $P_\mathrm{EIRP} = P_\mathrm{Sender} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}}$
 
+Dabei ist $g_i$ der Antennengewinn bezogen auf den isotropen Strahler, während $a$ die Dämpfung durch Kabel und Anpassgeräte beschreibt.
+
 <indepth>
 Man erhält die Formel für $P_\mathrm{EIRP}$, indem man die Gewinnformel aus der Formelsammlung entsprechend umstellt:
   
@@ -58,7 +60,6 @@ Durch Multiplikation von $P_\mathrm{Sender}$ ergibt sich die benötigte Formel:
 $P_\mathrm{EIRP} = P_\mathrm{Sender} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}}$
 </indepth>
 
-Dabei ist $g_i$ der Antennengewinn bezogen auf den isotropen Strahler, während $a$ die Dämpfung durch Kabel und Anpassgeräte beschreibt.
 
 [question:EG503]
 
@@ -71,6 +72,12 @@ $P_\mathrm{EIRP} = P_\mathrm{Sender} \cdot 10^{\frac{g_i-a}{\qty{10}{\dB}}}= \qt
 Der zweite mögliche Rechenweg nutzt die Tatsache, dass man dB-Werte "zerlegen" kann. In der Frage beträgt der Antennengewinn $g = \qty{26}{\dBi}$. In der Formelsammlung findet sich in Tabelle [ref:e_dezibel_leistungsfaktoren] eine Übersicht über Leistungsfaktoren für wichtige dB-Werte. Für $\qty{26}{\dB}$ gibt es dort keinen direkten Eintrag. Da sich Pegel in Dezibel jedoch addieren lassen, kann man den Wert sinnvoll aufteilen:
 
 $\qty{26}{\dBi} = \qty{20}{\dBi} + \qty{6}{\dB}$
+
+Für $\qty{20}{\dB}$ ist in der Tabelle ein Leistungsfaktor von $\num{100}$ angegeben, für $\qty{6}{\dB}$ ein Faktor von $\num{4}$. Damit lässt sich die äquivalente isotrope Strahlungsleistung sehr einfach berechnen:
+
+$P_\mathrm{EIRP} = \qty{250}{\milli\watt} \cdot 100 \cdot 4 = \qty{100}{\watt}$
+
+Die richtige Antwort ist also $\qty{100}{\watt}$ EIRP.
 
 <margin>
 | c:dB | c:≈ Leistungsfaktor |
@@ -89,11 +96,7 @@ $\qty{26}{\dBi} = \qty{20}{\dBi} + \qty{6}{\dB}$
 Weitere oft nützliche Dezibelwerte findet man im Kapitel [sec:dezibel_1].
 </tip>
 
-Für $\qty{20}{\dB}$ ist in der Tabelle ein Leistungsfaktor von $\num{100}$ angegeben, für $\qty{6}{\dB}$ ein Faktor von $\num{4}$. Damit lässt sich die äquivalente isotrope Strahlungsleistung sehr einfach berechnen:
 
-$P_\mathrm{EIRP} = \qty{250}{\milli\watt} \cdot 100 \cdot 4 = \qty{100}{\watt}$
-
-Die richtige Antwort ist also $\qty{100}{\watt}$ EIRP.
 
 Bei der nächsten Frage können wir genauso vorgehen wie bei der vorhergehenden Frage. 
 
