@@ -11,7 +11,7 @@ Das Logarithmieren ist die Umkehroperation des Potenzierens. Im Amateurfunk nutz
 
 ---
 
-$a =\log_{10} (b)$, falls $b=10^{a}$
+$a =\log_{10} (b) quad \text{falls} \quad b=10^{a}$
 
 Der Logarithmus von $100$ beträgt $\log_{10}(100)=2$, da $10^2 = 100$ ist. Anders ausgedrückt: Die Zahl $100$ besitzt zwei Nullen.
 
