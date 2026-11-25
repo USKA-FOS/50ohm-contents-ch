@@ -52,6 +52,10 @@ Da alle diese Zeichen im Amateurfunk nicht verwendet werden dürfen, bietet es s
 %Amateurfunkverordnung ist das Deutsche Gesetz. Gesetzesgrundlage für SOS/MAYDAY Verbot VNF Art 47 Abs.2 Bst. c
 Der Gebrauch dieser Not-, Dringlichkeits- oder Sicherheitszeichen ist im Amateurfunk durch die Amateurfunkverordnung verboten. Das bedeutet aber nicht, dass keine Notrufe abgesetzt werden dürften. Es ist lediglich darauf zu achten, dabei beispielsweise nicht MAYDAY zu verwenden.
 
+<law>
+Das korrekte Verhalten bei einer Notfunkkommunikation ist in der
+[Verordnung über die Nutzung des Funkfrequenzspektrums (VNF)](   https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_47)
+</law>
 
 [question:BF101]
 [question:BF102]
