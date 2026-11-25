@@ -58,9 +58,9 @@ Nach dem gleichen Prinzip funktionieren auch die beiden folgenden Fragen:
 
 ---
 
-% TODO referenz auf das Leistungskapitel einfügen:
+%DARC TODO referenz auf das Leistungskapitel einfügen:
 
-Bei der nächsten Frage wird indirekt nach dem Effektivwert der Spannung gefragt. Wenn man weiß, das $\frac{1}{\sqrt{2}} \approx 0,7$ ist kann man die beiden Ergebnisse direkt ablesen. 
+Bei der nächsten Frage wird indirekt nach dem Effektivwert der Spannung gefragt. Wenn man weiß, dass $\frac{1}{\sqrt{2}} \approx 0,7$ ist, kann man die beiden Ergebnisse direkt ablesen. 
 
 <indepth>
 Wichtig ist, dass sowohl die Gleichspannung $\qty{0,7}{\volt}$ als auch die Gleichspannung $\qty{-0,7}{\volt}$ zum gleichen Ergebnis führen. Das liegt daran, dass sich bei einer negativen Spannung auch das Vorzeichen des Stroms ändert, was jedoch trotzdem zur gleichen Leistung führt – denn es gilt 
