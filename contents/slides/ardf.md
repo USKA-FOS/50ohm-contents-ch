@@ -1,3 +1,6 @@
+%ARK: Grundhelvetisierung und Fragenabgleich durchgeführt 
+%     Mobilfuchsjagd entfernt, da es kaum noch gemacht wird 
+
 ### Fuchsjagd (ARDF)
 
 * Eine weitere Art von Wettbewerb ist das Amateur Radio Direction Finding (ARDF).
@@ -24,11 +27,13 @@
 </right>
 <note>
 * Keine Morsekenntnisse nötig: Es werden nur lange Töne (M, O) bzw. nur kurze Töne (E, I, S, H, 5) verwendet, langsam genug zum Mitzählen
-* Variante *Mobilfuchsjagd*: Füchse werden aus Kraftfahrzeugen heraus gesucht
+%* Variante *Mobilfuchsjagd*: Füchse werden aus Motorfahrzeugen heraus gesucht
 </note>
 
----
-[question:BE313]
-
----
-[question:BD109]
+%---
+%[question:BE313]
+%
+%---
+%[question:BD109]
+Zum Peilen gibt es keine Prüfungsfragen.
+Dennoch ist es interessant, auch diesen Aspekt des Amateurfunks zu kennen.
