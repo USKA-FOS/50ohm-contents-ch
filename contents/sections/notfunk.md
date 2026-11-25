@@ -27,9 +27,9 @@ Die *5 W-Fragen* können dabei helfen, alle wichtigen Informationen zu einem Not
 [question:BF107]
 
 <tip>
-Das [Notfunkreferat des DARC](https://50ohm.de/rnf) stellt Empfehlungen für die Organisation von Notfallkommunikation bereit und hält diese auf aktuellem Stand.
+Das [USKA EmComm (Notfunk)](https://uska.ch/de/funkamateure/notfunk/) stellt Empfehlungen für die Organisation von Notfallkommunikation bereit und hält diese auf aktuellem Stand.
 
-[Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+[Jetzt Mitglied der USKA werden!]((https://uska.ch/de/uska-beitreten/))
 </tip>
 
 Für die folgende Frage erinnern wir uns noch einmal an die Umrechnung von mitteleuropäischer Sommerzeit in UTC. Es gilt: UTC = MESZ minus 2 Stunden. Entsprechend ist andersherum MESZ = UTC + 2 Stunden.
