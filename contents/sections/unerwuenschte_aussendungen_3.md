@@ -66,14 +66,14 @@ Der Erfolg der modernen Telekommunikation beruht auch auf gut verfügbaren, inte
 Nehmen wir einen Kurzwellen-Sender mit einer Spitzenleistung bei der Modulation (PEP) von **100 W**.
 Nach der zuvor genannten ETSI-Formel ergibt sich:
 
-$$43 + 10 \cdot \log_{10}(100) = 43 + 20 = 63\mathrm{dB}$$
+$43 + 10 \cdot \log_{10}(100) = 43 + 20 = 63\mathrm{dB}$
 
 Der Grenzwert ist der weniger strenge der beiden Werte −63 dBc und −50 dBc, also **−50 dBc**.
 Das bedeutet: Die Nebenaussendung darf höchstens 50 dB unter der Bezugsleistung liegen.
 
 Umgerechnet in eine absolute Leistung:
 
-$$P_{\text{Neben}} = 100\mathrm{W} \cdot 10^{-50/10}= {1\mathrm{\milli\watt}}$$
+$P_{\text{Neben}} = 100\mathrm{W} \cdot 10^{-50/10}= {1\mathrm{\milli\watt}}$
 
 **Praxisergebnis:**
 Bei einem Sender mit 100 W PEP liegt der Grenzwert für die Nebenaussendungen bei **$\qty{1}{\milli\watt}$**.
