@@ -1,7 +1,9 @@
+%ARK: Grundhelvetisierung und Fragenabgleich durchgeführt 
+
 ### Hilfeleistung durch Funkamateure
 
 * Funkamateure dürfen in Not- und Katastrophenfällen durch Übermittlung von Nachrichten für und an Dritte bei der Bewältigung einer Notlage unterstützen
-* Es besteht sogar eine *Pflicht zur Hilfeleistung*: Unterlassene Hilfeleistung ist nach § 323c StGB strafbar
+* Es besteht sogar eine *Pflicht zur Hilfeleistung*: Unterlassene Hilfeleistung ist nach Art. 128 StGB – Unterlassung der Nothilfe strafbar.
 
 ---
 
@@ -90,7 +92,7 @@ Das Notfunkreferat des DARC stellt Empfehlungen für die Organisation von Notfal
 
 %---
 
-[question:BF103]
+%[question:BF103]
 
 ---
 
