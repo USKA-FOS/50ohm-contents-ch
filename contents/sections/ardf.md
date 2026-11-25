@@ -1,4 +1,6 @@
-%Es gbt in HB keine Fragen dazu. Die Information ist aber trotdem nützlich. Dies entsprechnd im Inhalt erwähnen.
+%Es gbt in HB keine Fragen dazu. Die Information ist aber trotdem nützlich.
+%Dies entsprechnd im Inhalt erwähnen. ARK: OK
+%Mobilfuchsjagd entfernt, da es kaum noch gemacht wird. 
 
 Eine weitere Art von Wettbewerb ist das *Amateur Radio Direction Finding (ARDF)*. Es handelt sich dabei um Peilwettbewerbe, die im deutschsprachigen Raum meist als *Fuchsjagd* bezeichnet werden. Die "Füchse" sind kleine versteckte Sender, die von den Teilnehmern mittels Peilempfängern gefunden und zu Fuß angelaufen werden müssen. Gewonnen hat der Erste, der den Zielpunkt erreicht, nachdem er alle Füchse gefunden hat.
 
@@ -27,7 +29,7 @@ Um die Rufzeichen der Fuchsjagdsender aufnehmen zu können, braucht man keine Mo
 %[question:BD109]
 Zum Peilen gibt es keine Prüfungsfragen. Dennoch ist es interessant, auch diesen Aspekt des Amateurfunks zu kennen.
   
-<indepth>
-Eine besondere Variante der Fuchsjagd ist die *Mobilfuchsjagd*, bei der die Füchse aus Kraftfahrzeugen heraus gesucht werden.
-</indepth>
+%<indepth>
+%Eine besondere Variante der Fuchsjagd ist die *Mobilfuchsjagd*, bei der die Füchse aus Motorfahrzeugen %heraus gesucht werden.
+%</indepth>
 
