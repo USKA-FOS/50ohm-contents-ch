@@ -8,7 +8,7 @@ Conteste finden auf verschiedenen Bändern und in diversen Übertragungsverfahre
 
 ---
 
-Anrufe im Rahmen eines Contests enthalten immer den Hinweis "Contest" bzw. in Telegrafie "Test". Daran ist sofort zu erkennen, dass die rufende Station an einem Contest teilnimmt. Nimmt beispielsweise DD4UQ portabel am beliebten Fieldday-Contest in Telegrafie teil, könnte sein Ruf "CQ FD DD4UQ/P TEST" lauten.
+Anrufe im Rahmen eines Contests enthalten immer den Hinweis "Contest" bzw. in Telegrafie "Test". Daran ist sofort zu erkennen, dass die rufende Station an einem Contest teilnimmt. Nimmt beispielsweise HB9HQ portabel am beliebten Fieldday-Contest in Telegrafie teil, könnte sein Ruf "CQ FD HB9HQ/P TEST" lauten.
 
 <indepth>
 In der Telegrafie bedeutet *TEST* nicht, dass jemand einen Versuch durchführt, also beispielsweise seine Antenne testet, sondern es steht für die Teilnahme an einem Contest.
