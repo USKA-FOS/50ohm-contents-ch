@@ -1,5 +1,9 @@
 % Gesetzliche Grundlage VNF Art. 45
 
+<law>
+Die gesetzliche Grundlage findet sich in [VNF Art. 45]()
+</law>
+
 <margin>
 [photo:84:n_sstv:Ein per SSTV übertragenes Bild]
 </margin>
@@ -17,9 +21,16 @@ Bei Bild- und Videoübertragungen wird das spezielle *Rapportsystem RSV* verwend
 * 5 = rauschfreies Bild
 </margin>
 
+<indepth>
+Wie funktioniert SSTV?
+
+* Bildzerlegung: Das Bild wird in einzelne Zeilen und Bildpunkte (Pixel) zerlegt.
+
+* Tonübertragung: Helligkeits- und Farbwerte werden in Tonfrequenzen umgewandelt. Synchronisationssignale markieren den Bildanfang und den Beginn jeder Bildzeile. Die Tonsignale werden über Funk übertragen.
+
+</indepth>
+
 [question:BE210]
-
-
 [question:VN012]
 [question:VN013]
 [question:VN024]
