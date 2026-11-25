@@ -108,7 +108,7 @@ Für den VHF/UHF/SHF-Bereich über $\qty{30}{\mega\hertz}$ gilt, dass Nebenausse
 
 [question:AJ225]
 
-%TODO BILD VON DL1COM EINBAUEN
+%DARC TODO BILD VON DL1COM EINBAUEN
 Mit einem Spektrumanalysator lässt sich im Modus spurious emissions eine Messung der Oberwellen bzw. Harmonischen (engl. harmonics) durchführen, wie in Abbildung [ref:a_uagw1] und [ref:a_uagw] dargestellt. Der Spektrumanalysator erfasst dabei automatisch den Pegel des Trägers sowie die Unterdrückung der Harmonischen und zeigt diese zusätzlich auf dem Bildschirm an. Wenn man ein Gerät selbst baut, ist es entscheidend, durch Messungen sicherzustellen, dass die vorgeschriebenen Grenzwerte eingehalten werden. Ein kommerzieller Funkgerätehersteller bestätigt mit der CE-Erklärung zwar die Einhaltung diemillies vor, dass einzelne Geräte die Vorgaben nicht erfüllen – in solchen Fällen kann das BAKOM deren Betrieb, Import und Verkauf verbieten.
 
 Unerwünschte Aussendungen entstehen nicht nur durch Oberwellen, sondern können auch in der Frequenzaufbereitung von Sendern auftreten – etwa durch unerwünschte Mischprodukte, durch Schwankungen in der Versorgungsspannung oder durch eine Übersteuerung des NF-Signals. Das wollen wir uns im Folgenden noch etwas genauer anschauen. 
