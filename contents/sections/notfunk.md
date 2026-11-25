@@ -15,6 +15,11 @@ Art. 128 StGB – Unterlassung der Nothilfe
 Wer einem Menschen, den er verletzt hat, oder einem Menschen, der in unmittelbarer Lebensgefahr schwebt, nicht hilft, obwohl es ihm den Umständen nach zugemutet werden könnte, wer andere davon abhält, Nothilfe zu leisten, oder sie dabei behindert, wird mit Freiheitsstrafe bis zu drei Jahren oder Geldstrafe bestraft.
 </law>
 
+<law>
+Das korrekte Verhalten bei einer Notfunkkommunikation ist in der
+[Verordnung über die Nutzung des Funkfrequenzspektrums (VNF)](   https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_47)
+</law>
+
 <tip>
 Die *5 W-Fragen* können dabei helfen, alle wichtigen Informationen zu einem Notfall zu übermitteln:
 * *Wo* ist das Ereignis?
@@ -49,13 +54,8 @@ Mit einem *Notzeichen* teilt eine Station des See- oder Flugfunkdienstes an Bord
 Da alle diese Zeichen im Amateurfunk nicht verwendet werden dürfen, bietet es sich im Notfall an, andere einschlägige Begriffe, wie "Notfall" oder "Emergency" zu verwenden, um auf sich aufmerksam zu machen.
 </indepth>
 
-%Amateurfunkverordnung ist das Deutsche Gesetz. Gesetzesgrundlage für SOS/MAYDAY Verbot VNF Art 47 Abs.2 Bst. c
-Der Gebrauch dieser Not-, Dringlichkeits- oder Sicherheitszeichen ist im Amateurfunk durch die Amateurfunkverordnung verboten. Das bedeutet aber nicht, dass keine Notrufe abgesetzt werden dürften. Es ist lediglich darauf zu achten, dabei beispielsweise nicht MAYDAY zu verwenden.
-
-<law>
-Das korrekte Verhalten bei einer Notfunkkommunikation ist in der
-[Verordnung über die Nutzung des Funkfrequenzspektrums (VNF)](   https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_47)
-</law>
+%Amateurfunkverordnung ist das Deutsche Gesetz. Gesetzesgrundlage für SOS/MAYDAY Verbot VNF Art 47 Abs.2
+Der Gebrauch dieser Not-, Dringlichkeits- oder Sicherheitszeichen ist im Amateurfunk verboten. Das bedeutet aber nicht, dass keine Notrufe abgesetzt werden dürften. Es ist lediglich darauf zu achten, dabei beispielsweise nicht MAYDAY zu verwenden.
 
 [question:BF101]
 [question:BF102]
