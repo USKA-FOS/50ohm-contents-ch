@@ -28,5 +28,5 @@ Jede Funkverbindung und der Austausch der Informationen sollte im Contest so kur
 
 Eine Besonderheit gibt es, wenn man an einem *Sprint Contest* teilnimmt. Bei diesem darf man nicht auf einer Frequenz verweilen. Nachdem man CQ gerufen und eine Funkverbindung durchgeführt hat, muss man die Frequenz der Station überlassen, die einem geantwortet hat. Man selber muss sich eine neue freie Frequenz suchen, um wieder CQ zu rufen oder man antwortet auf andere Stationen. 
 
-[question:BE304]
-
+%[question:BE304]
+%ARK: Als gelöschte Frage auskommentiert. Aus meiner Sicht wäre eine Löschung nicht nötig.
