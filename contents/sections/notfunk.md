@@ -12,6 +12,7 @@ Bei Empfang eines Notrufs sollte man sich konzentrieren und alle aufgenommenen I
 
 <law>
 Art. 128 StGB – Unterlassung der Nothilfe
+
 Wer einem Menschen, den er verletzt hat, oder einem Menschen, der in unmittelbarer Lebensgefahr schwebt, nicht hilft, obwohl es ihm den Umständen nach zugemutet werden könnte, wer andere davon abhält, Nothilfe zu leisten, oder sie dabei behindert, wird mit Freiheitsstrafe bis zu drei Jahren oder Geldstrafe bestraft.
 </law>
 
