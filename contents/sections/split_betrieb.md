@@ -17,7 +17,7 @@ Die Angabe der Empfangsfrequenz kann als Abstand zur Sendefrequenz erfolgen. Bei
 
 ---
 
-Häufiger wird eine begehrte Station aber nicht nur eine einzelne Frequenz angegeben, sondern einen ganzen Frequenzbereich. Eine auf $\qty{28410}{\kilo\hertz}$ rufende Station meint mit "split up 28420 to 28430" oder kurz "tuning 420 to 430 up", dass sie auf immer wieder wechselnden Frequenzen im Bereich von $\qty{28420}{\kilo\hertz}$ bis $\qty{28430}{\kilo\hertz}$ empfängt (Abbildung [ref:n_split_verkehr_anrufbereich]).
+Häufiger wird eine begehrte Station aber nicht nur eine einzelne Frequenz angeben, sondern einen ganzen Frequenzbereich. Eine auf $\qty{28410}{\kilo\hertz}$ rufende Station meint mit "split up 28420 to 28430" oder kurz "tuning 420 to 430 up", dass sie auf immer wieder wechselnden Frequenzen im Bereich von $\qty{28420}{\kilo\hertz}$ bis $\qty{28430}{\kilo\hertz}$ empfängt (Abbildung [ref:n_split_verkehr_anrufbereich]).
 
 <margin>
 [picture:673:n_split_verkehr_anrufbereich:Split-Verkehr, Sendefrequenz der begehrten Station und Frequenzbereich für Antworten, in dem sie empfängt]
