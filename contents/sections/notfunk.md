@@ -18,7 +18,7 @@ Wer einem Menschen, den er verletzt hat, oder einem Menschen, der in unmittelbar
 
 <law>
 Das korrekte Verhalten bei einer Notfunkkommunikation ist in der
-[Verordnung über die Nutzung des Funkfrequenzspektrums (VNF)](   https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_47)
+[Verordnung über die Nutzung des Funkfrequenzspektrums (VNF)](   https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_47) im Art. 47 geregelt.
 </law>
 
 <tip>
