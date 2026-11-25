@@ -16,4 +16,4 @@ Je mehr Funkamateure gleichzeitig auf einen CQ-Ruf antworten, umso schwieriger w
 
 [question:BE305]
 [question:BE306]
-[question:BE307]
+
