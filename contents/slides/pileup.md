@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung und Fragenabgleich durchgeführt 
+
 ### Pile-Up
 
 * Ruft eine besondere oder seltene Station, verbreitet sich das oft schnell über das Internet
@@ -50,5 +52,3 @@ Je mehr Stationen gleichzeitig antworten, umso schwerer werden einzelne Rufzeich
 ---
 [question:BE306]
 
----
-[question:BE307]
