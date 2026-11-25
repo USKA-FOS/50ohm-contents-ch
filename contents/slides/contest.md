@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung und Fragenabgleich durchgeführt 
+
 ### Contest
 
 * Im Amateurfunk finden auch Wettbewerbe statt, die als Contest bezeichnet werden.
@@ -14,7 +16,7 @@
 * Oft erkennt man Conteststationen daran, dass der Namen des Wettbewerbes oder einfach nur "CONTEST" in den CQ-Ruf integriert wird.
 * Zum Beispiel: "CQ FD" oder "CQ Ruhrgebietscontest" oder "CQ Contest".
 * In Telegrafie dann CQ TEST.
-* Beispiel: DD4UQ nimmt portabel am Fieldday-Contest in Telegrafie teil $\rightarrow$ "CQ FD DD4UQ/P TEST"
+* Beispiel: HB9HQ nimmt portabel am Fieldday-Contest in Telegrafie teil $\rightarrow$ "CQ FD HB9HQ/P TEST"
 
 <note>
 Bei CQ Test handelt es sich nicht um die Durchführung eines Versuchs, beispielsweise zum testen der Antenne
@@ -50,4 +52,4 @@ Bei CQ Test handelt es sich nicht um die Durchführung eines Versuchs, beispiels
 * Ein Blick in die Ausschreibung ist angeraten
 
 ---
-[question:BE304]
+%[question:BE304]
