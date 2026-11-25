@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung und Fragenabgleich durchgeführt
+
 ### Split-Verkehr im Detail
 
 * Split-Verkehr ist die am Meisten genutzte Methode um vielen Anrufen eine Verbindung zu ermöglichen.
