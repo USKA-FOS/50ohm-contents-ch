@@ -60,7 +60,7 @@ Der Gebrauch dieser Not-, Dringlichkeits- oder Sicherheitszeichen ist im Amateur
 
 [question:BF101]
 [question:BF102]
-[question:VD105]
+%[question:VD105]
 [question:BF103]
 
 Die IARU hat für die ITU-Region 1 die folgenden Notfunkfrequenzen in den Bandplänen festgelegt, die bei Katastrophenfällen für den Funkbetrieb frei zu halten sind:
