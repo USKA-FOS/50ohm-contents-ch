@@ -8,9 +8,12 @@ Bei Empfang eines Notrufs sollte man sich konzentrieren und alle aufgenommenen I
 * Meldungen vollständig und wörtlich an Rettungsdienst, Feuerwehr oder Polizei weitermelden!
 
 %Gesetzesgrundlage in HB bisher nicht geprüft. Abklärung nötig.
-<attention>
-Es besteht *Pflicht zur Hilfeleistung*. Der § 323c des Strafgesetzbuchs stellt unterlassene Hilfeleistung unter Strafe: "Wer bei Unglücksfällen oder gemeiner Gefahr oder Not nicht Hilfe leistet, obwohl dies erforderlich und ihm den Umständen nach zuzumuten, insbesondere ohne erhebliche eigene Gefahr und ohne Verletzung anderer wichtiger Pflichten möglich ist, wird mit Freiheitsstrafe bis zu einem Jahr oder mit Geldstrafe bestraft."
-</attention>
+%Die Schweizer Bestimmung ist enger gefasst. Sie begründet keine allgemeine strafrechtliche Pflicht, bei %jedem Unglücksfall oder jeder Notsituation Hilfe zu leisten. Sie greift insbesondere bei unmittelbarer %Lebensgefahr.
+
+<law>
+Art. 128 StGB – Unterlassung der Nothilfe
+Wer einem Menschen, den er verletzt hat, oder einem Menschen, der in unmittelbarer Lebensgefahr schwebt, nicht hilft, obwohl es ihm den Umständen nach zugemutet werden könnte, wer andere davon abhält, Nothilfe zu leisten, oder sie dabei behindert, wird mit Freiheitsstrafe bis zu drei Jahren oder Geldstrafe bestraft.
+</law>
 
 <tip>
 Die *5 W-Fragen* können dabei helfen, alle wichtigen Informationen zu einem Notfall zu übermitteln:
