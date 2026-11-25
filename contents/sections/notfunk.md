@@ -38,7 +38,7 @@ Die *5 W-Fragen* können dabei helfen, alle wichtigen Informationen zu einem Not
 <tip>
 Das [USKA EmComm (Notfunk)](https://uska.ch/de/funkamateure/notfunk/) stellt Empfehlungen für die Organisation von Notfallkommunikation bereit und hält diese auf aktuellem Stand.
 
-[Jetzt Mitglied der USKA werden!]((https://uska.ch/de/uska-beitreten/))
+[Jetzt Mitglied der USKA werden!](https://uska.ch/de/uska-beitreten/)
 </tip>
 
 Für die folgende Frage erinnern wir uns noch einmal an die Umrechnung von mitteleuropäischer Sommerzeit in UTC. Es gilt: UTC = MESZ minus 2 Stunden. Entsprechend ist andersherum MESZ = UTC + 2 Stunden.
