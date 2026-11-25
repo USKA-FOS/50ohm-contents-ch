@@ -92,7 +92,7 @@ Das Notfunkreferat des DARC stellt Empfehlungen für die Organisation von Notfal
 
 %---
 
-%[question:BF103]
+[question:BF103]
 
 ---
 
