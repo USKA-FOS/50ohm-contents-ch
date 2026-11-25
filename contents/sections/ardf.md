@@ -23,8 +23,9 @@ Die Füchse senden in zeitlichem Wechsel - beispielsweise für eine Minute - jew
 Um die Rufzeichen der Fuchsjagdsender aufnehmen zu können, braucht man keine Morsetelegrafie zu beherrschen. Es werden ausschließlich Zeichen verwendet, die nur aus langen Tönen (M, O) bzw. nur aus kurzen Tönen (E, I, S, H, 5) bestehen. Diese werden so langsam gesendet, dass man mitzählen kann.
 </tip>
 
-[question:BE313]
-[question:BD109]
+%[question:BE313]
+%[question:BD109]
+Zum Peilen gibt es keine Prüfungsfragen. Dennoch ist es interessant, auch diesen Aspekt des Amateurfunks zu kennen.
   
 <indepth>
 Eine besondere Variante der Fuchsjagd ist die *Mobilfuchsjagd*, bei der die Füchse aus Kraftfahrzeugen heraus gesucht werden.
