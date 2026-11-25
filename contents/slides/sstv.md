@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung und Fragenabgleich durchgeführt 
+
 ### Slow-Scan-Television (SSTV)
 
 <left>
@@ -28,3 +30,9 @@
 
 ---
 [question:BE210]
+---
+[question:VN012]
+---
+[question:VN013]
+---
+[question:VN924]
