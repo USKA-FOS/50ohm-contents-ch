@@ -33,13 +33,10 @@ Das bedeutet, dass ein SWR von $\num{3}$ einer Reflektion von $\frac{\qty{25}{\w
 Zur Beantwortung der folgenden Fragen reicht es aus zu wissen, dass ein Stehwellenverhältnis von $\num{3}$ einer Reflexion von $\qty{25}{\percent}$ der Energie entspricht, d.h. die rücklaufende Welle überträgt ein Viertel der Energie der vorlaufenden Welle. Entsprechend werden nur $\qty{75}{\percent}$ der Energie am Ende der Leitung z. B. an eine Antenne oder einen Verlustwiderstand abgegeben (also nicht reflektiert). 
 </tip>
 
-[question:EG401]
-[question:EG402]
-[question:EG403]
 
 <indepth>
 Herleitung der hier verwendeten SWR-Leistungsformel anhand der BAKOM-Formelsammlung.
-Man kann obige Formel auch einfach verwenden. Ein Verständnis der Herleitung ist nicht erforderich! 😉
+Man kann auch einfach obige Formel verwenden. Ein Verständnis der Herleitung ist nicht erforderlich! 😉
 
 1. Ausgangsbasis (BAKOM-Formelsammlung)
 
@@ -74,3 +71,8 @@ Durch das Ersetzen der Variablennamen ($s \rightarrow \text{SWR}$ und $P_\text{d
 
 $\text{SWR} = \frac{\sqrt{P_\text{v}} + \sqrt{P_\text{r}}}{\sqrt{P_\text{v}} - \sqrt{P_\text{r}}}$
 </indepth>
+
+[question:EG401]
+[question:EG402]
+[question:EG403]
+
