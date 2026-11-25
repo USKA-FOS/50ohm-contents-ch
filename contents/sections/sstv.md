@@ -1,7 +1,7 @@
 % Gesetzliche Grundlage VNF Art. 45
 
 <law>
-Die gesetzliche Grundlage findet sich in [VNF Art. 45]()
+Die gesetzliche Grundlage findet sich in [VNF Art. 45](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_45)
 </law>
 
 <margin>
