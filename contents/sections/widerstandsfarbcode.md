@@ -37,7 +37,7 @@ Es bleibt noch ein vierter Farbring übrig. Dieser steht für die sogenannte Tol
 Weitere Details dazu findet man im Kapitel [sec:widerstand_toleranz]. 
 
 <indepth>
-*Vertiefung:* In unserem Beispiel ist der letzte Ring *silber*, was eine Toleranz von $\qty{\pm 10}{\percent}$ bedeutet. Der wahre Wert des Widerstandes kann $\qty{10}{\percent} \cdot \qty{47}{\kilo\ohm} = \qty{4,7}{\kilo\ohm}$ mehr oder weniger als der angegebene Wert sein. Er kann also zwischen $\qty{42,3}{\kilo\ohm}$ und $\qty{51,7}{\kilo\ohm}$ liegen.
+In unserem Beispiel ist der letzte Ring *silber*, was eine Toleranz von $\qty{\pm 10}{\percent}$ bedeutet. Der wahre Wert des Widerstandes kann $\qty{10}{\percent} \cdot \qty{47}{\kilo\ohm} = \qty{4,7}{\kilo\ohm}$ mehr oder weniger als der angegebene Wert sein. Er kann also zwischen $\qty{42,3}{\kilo\ohm}$ und $\qty{51,7}{\kilo\ohm}$ liegen.
 </indepth>
 
 ---
@@ -45,7 +45,7 @@ Weitere Details dazu findet man im Kapitel [sec:widerstand_toleranz].
 Die Tabelle mit den Farbcodes muss man nicht auswendig lernen. Sie liegt als Teil der Formelsammlung bei der Prüfung als Hilfsmittel bereit. Man sollte sich allerdings die Anordnung der Ringe und ihre Bedeutung merken. Zur Übung können die folgenden Fragen mithilfe des Farbcode gelöst werden, um Routine zu bekommen.
 
 <indepth>
-*Vertiefung:* Es gibt auch Widerstände mit mehr als nur vier Farbringen. Diese sind aber für die Prüfung nicht relevant. Auch andere Bauteile werden oftmals mit Farbringen gekennzeichnet.
+Es gibt auch Widerstände mit mehr als nur vier Farbringen. Diese sind aber für die Prüfung nicht relevant. Auch andere Bauteile werden oftmals mit Farbringen gekennzeichnet.
 </indepth>
 
 [question:NC107]
