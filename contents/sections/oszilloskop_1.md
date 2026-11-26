@@ -26,11 +26,7 @@ Sobald die Periodendauer einer Schwingung bekannt ist, lässt sich daraus auch d
 
 Hier betrachten wir diesen Zusammenhang nun als Formel:
   
-$f=\dfrac{1}{T}$ 
-
-oder 
-
-$T=\dfrac{1}{f}$
+$f=\dfrac{1}{T} \qquad \text{oder} \qquad T=\dfrac{1}{f}$
 
 Die Frequenz in Hertz ist der Kehrwert der Periodendauer in Sekunden.
 
