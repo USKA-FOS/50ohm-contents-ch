@@ -54,10 +54,11 @@ Um den Bruch für $s$ zu vereinfachen und das $|r|$ zu ersetzen, multipliziert m
 
 1. Aus der $1$ wird:
 
-   $1 \cdot \sqrt{P_\text{d}} = \sqrt{P_\text{d}}$
+$1 \cdot \sqrt{P_\text{d}} = \sqrt{P_\text{d}}$
    
-3. Aus dem $|r|$ wird:
-  $\frac{\sqrt{P_\text{r}}}{\sqrt{P_\text{d}}} \cdot \sqrt{P_\text{d}} = \sqrt{P_\text{r}}$
+2. Aus dem $|r|$ wird:
+
+$\frac{\sqrt{P_\text{r}}}{\sqrt{P_\text{d}}} \cdot \sqrt{P_\text{d}} = \sqrt{P_\text{r}}$
 
 Setzt man diese Terme direkt in die SWR-Gleichung ein, ergibt sich unmittelbar:
 
