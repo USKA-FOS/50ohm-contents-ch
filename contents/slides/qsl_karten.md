@@ -63,7 +63,7 @@ Eine QSL-Karte sollte mindestens folgende Angaben enthalten:
 * Es gibt abenteuerliche Wege, wie die Karten zugestellt werden
 </note>
 
- %---
+%---
 
 %* DARC QSL-Service: automatischer Druck und Versand aus dem hochgeladenen elektronischen Logbuch
 %* Bildmotiv frei wählbar und jederzeit änderbar
