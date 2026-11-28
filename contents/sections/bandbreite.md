@@ -45,6 +45,9 @@ Die notwendige Bandbreite ($B_n$) wird je nach Modulationsart mit spezifischen F
 Während die **notwendige Bandbreite** ein theoretischer Planungswert ist, beschreibt die **belegte Bandbreite** die tatsächliche, messbare Leistungsverteilung eines realen Senders im Frequenzspektrum.
 </indepth>
 
+
+%ARK: Bild Bandplan für 80-Meter erstellen, da der Abschnitt für HB3 ist!
+
 <tip>
 Innerhalb der zugewiesenen Frequenzbänder ist es üblich, Betriebsarten nach belegter Bandbreite anzuordnen.
 Das ist keine behördliche Vorschrift, sondern eine Empfehlung des IARU-Bandplans (siehe [sec:iaru_bandplan]). Wer sich jedoch über diese Usanz hinwegsetzt, macht sich auf den Bändern äusserst unbeliebt. Abbildung [ref:n_bandplan_20m] zeigt das Beispiel des 20-m-Bands.
