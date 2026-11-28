@@ -3,10 +3,7 @@
 Mit einem *Logbuch* hat man die Möglichkeit, seine Funkaktivitäten zu dokumentieren. Ein Logbuch kann man entweder elektronisch oder auch handschriftlich führen. Ähnlich wie bei einem Logbuch auf dem Schiff oder in einem Flugzeug kann man so alle wichtigen Informationen zu den Funkverbindungen festhalten, die man getätigt hat. Seltener wird das Logbuch auch als Stationstagebuch bezeichnet.
 
 <law>
-VNF
-
-Art. 49 Aufzeichnungen über den Funkverkehr.
-Das BAKOM kann die am Amateurfunkdienst beteiligten Personen verpflichten, ihren Funkverkehr aufzuzeichnen.
+Gemäss [VNF Art. 49 Aufzeichnungen über den Funkverkehr](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_49) kann das BAKOM die am Amateurfunkdienst beteiligten Personen verpflichten, ihren Funkverkehr aufzuzeichnen, d.h. ein Logbuch zu führen.
 </law>
 
 <indepth>
