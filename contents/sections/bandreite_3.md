@@ -14,4 +14,8 @@ Die Einhaltung einer möglichst schmalen belegten Bandbreite ist insbesondere be
 Für die Messung der Leistungsanteile hinsichtlich einer Aussendung und deren Bandbreite ist ein Spektrumanalysator erforderlich. Hierbei haben moderne Geräte oft integrierte mathematische Funktionen, so dass die mittlere Leistung innerhalb einer bestimmten Bandbreite rechnerisch ermittelt werden kann (Kanalleistungsmessung, Nachbarkanalleistungsmessung). Genauere Informationen hierzu können der Bedienungsanleitung des jeweiligen Gerätes entnommen werden.
 </tip>
 
+<indepth>
+Für Interessierte ist hier der Link auf das [Radio Reglement](https://search.itu.int/history/HistoryDigitalCollectionDocLibrary/1.49.48.en.101.pdf ) angegeben. Eine detaillierte Kenntnis des Radio Reglements geht aber weit über das an der Prüfung verlangte Wissen hinaus.
+</indepth>
+
 [question:AE101]
