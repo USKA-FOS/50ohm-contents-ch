@@ -1,16 +1,18 @@
 Das Spektrum der elektromagnetischen Wellen stellt eine wertvolle, nicht vermehrbare Ressource dar. Für ein geordnetes Miteinander sind deshalb international und national Frequenzbereiche verschiedenen Nutzern zugeordnet.
 
 <law>
-Berechtigungen aufgrund von Fähigkeitszeugnissen
+- Die [Verordnung über die Nutzung des Funkfrequenzspektrums (VNF)](https://www.fedlex.admin.ch/eli/cc/2020/1024/de) enthält verbindliche Vorgaben für den Amateurfunk. 
+
+- Berechtigungen aufgrund von Fähigkeitszeugnissen
 [VNF Art. 44–46](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_44)
 
-Frequenzbereiche für HB3 und HB9
+- Frequenzbereiche für HB3 und HB9
 [VVNF Art. 6 und Anhang 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4)
 </law>
 
-Die Voraussetzungen für die Teilnahme am Amateurfunkdienst sind in [Artikel 44](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_44) der [Verordnung über die Nutzung des Funkfrequenzspektrums (VNF)](https://www.fedlex.admin.ch/eli/cc/2020/1024/de) beschrieben. Dort werden das *Fähigkeitszeugnis für den Amateurfunk* (HB9, CEPT) und der *Einsteigerausweis für Funkamateurinnen und Funkamateure* (HB3, Novice) unterschieden. Artikel 45 VNF legt fest, welche Betriebsarten mit welchem Fähigkeitszeugnis erlaubt sind, und nach Artikel 46 VNF bestimmt das BAKOM, welche Frequenzbereiche dem Amateurfunk zur Verfügung stehen.
+Die Voraussetzungen für die Teilnahme am Amateurfunkdienst sind in [VNV Artikel 44](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_44) beschrieben. Dort werden das *Fähigkeitszeugnis für den Amateurfunk* (HB9, CEPT) und der *Einsteigerausweis für Funkamateurinnen und Funkamateure* (HB3, Novice) unterschieden.  [VNV Artikel 45[(https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_45)VNF legt fest, welche Betriebsarten mit welchem Fähigkeitszeugnis erlaubt sind, und  [VNV Artikel 46](https://www.fedlex.admin.ch/eli/cc/2020/1024/de#art_46) legt fest, welche Frequenzbereiche dem Amateurfunk zur Verfügung stehen.
 
-Die für den Amateurfunk zulässigen Frequenzbereiche sind im [Anhang 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4) der [Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums (VVNF)](https://www.fedlex.admin.ch/eli/cc/2020/914/de) festgelegt, getrennt für die HB9- und die HB3-Lizenz (siehe [sec:frequenzzuteilung]).
+Die für den Amateurfunk zulässigen Frequenzbereiche sind in [VVNF Anhang 4](https://www.fedlex.admin.ch/eli/cc/2020/914/de#annex_4) der [Verordnung des BAKOM über die Nutzung des Funkfrequenzspektrums (VVNF)](https://www.fedlex.admin.ch/eli/cc/2020/914/de) festgelegt, getrennt für die HB9- und die HB3-Lizenz (siehe [sec:frequenzzuteilung]).
 
 Aussendungen dürfen nur die für eine einwandfreie Übermittlung notwendige Bandbreite belegen. Dieser Grundsatz stammt aus dem Radioreglement (RR) der ITU, auf dem auch der nationale Frequenzzuweisungsplan (NaFZ) beruht (Art. 3 VNF).
 
