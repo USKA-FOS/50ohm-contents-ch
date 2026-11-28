@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung und Fragenabgleich durchgeführt 
+
 * Mit einem Logbuch (auch *Stationstagebuch* genannt) hat man die Möglichkeit, seine Funkaktivitäten zu dokumentieren
 * Kann elektronisch oder handschriftlich geführt werden
 * Die Führung eines Logbuchs ist freiwillig
