@@ -1,4 +1,10 @@
-Für die Beurteilung der gesetzlichen Vorgaben hinsichtlich der Bandbreite einer Aussendung wird gemäß der Amateurfunkverordnung die mittlere Sendeleistung im ausgesendeten Bandbereich betrachtet. Hierbei müssen sich $\qty{99}{\percent}$ der Sendeleistung innerhalb der Grenzen der geforderten Bandbreite befinden. Somit darf maximal $\qty{0,5}{\percent}$ der Sendeleistung auf angrenzende Bandbereiche unter- und oberhalb des Sendesignals entfallen. Dies ist insbesondere für FM-Aussendungen wichtig.
+Bei der Beurteilung der Bandbreite einer Funkaussendung wird unter anderem die belegte Bandbreite betrachtet. Sie ist im internationalen Radioreglement (Radio Regulations) der ITU unter Ziffer 1.153 definiert und bildet auch für den Funkverkehr in der Schweiz die massgebliche technische Grundlage.
+
+Hierbei müssen sich $\qty{99}{\percent}$ der Sendeleistung innerhalb der Grenzen der geforderten Bandbreite befinden. Somit darf maximal $\qty{0,5}{\percent}$ der Sendeleistung auf angrenzende Bandbereiche unter- und oberhalb des Sendesignals entfallen.
+
+Die belegte Bandbreite ist von der notwendigen Bandbreite zu unterscheiden. Letztere bezeichnet den Frequenzbereich, der für die Übertragung der Information mit der erforderlichen Geschwindigkeit und Qualität gerade ausreicht.
+
+Die Einhaltung einer möglichst schmalen belegten Bandbreite ist insbesondere bei FM-Aussendungen wichtig. Eine zu grosse Frequenzhub oder eine zu hohe Modulationsfrequenz kann zu einer Verbreiterung des ausgesendeten Signals führen und dadurch benachbarte Funkkanäle beeinträchtigen.
 
 <margin>
 [picture:1121:bandbreite_leistungsverteilung:Leistungsverteilung einer Aussendung]
