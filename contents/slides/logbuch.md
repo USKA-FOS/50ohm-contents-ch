@@ -30,7 +30,7 @@ Es kann aber auch dazu kommen, dass man eine Aufforderung vom BAKOM erhält, die
 
 ---
 
-Jedes DARC-Mitglied kann ein elektronisches, webbasiertes Logbuch auf [log.darc.de](https://50ohm.de/log) nutzen (basierend auf Wavelog), inkl. Synchronisierung mit eQSL, LoTW und QRZ
+Es gibt verschiedene elektronische, teils webbasierte, Logbücher, z. Bsp. Wavelog, mit Synchronisierung auf eQSL, LoTW und QRZ.
 
 ---
 ## Aufbewahrung des Logbuchs
