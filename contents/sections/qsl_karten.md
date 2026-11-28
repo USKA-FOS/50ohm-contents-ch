@@ -20,7 +20,7 @@ Eine QSL-Karte sollte mindestens folgende Angaben enthalten:
 Eine besondere Bedeutung haben QSL-Karten für *Amateurfunk-Diplome*. Das sind Auszeichnungen, die ein Funkamateur erhalten kann, wenn er eine bestimmte Anzahl an Funkverbindungen nach bestimmten Vorgaben erreicht hat. Um ein Diplom zu beantragen, muss man die geforderten Funkverbindungen durch QSL-Karten nachweisen können. Damit eine QSL-Karte für Diplome gewertet werden kann, sollte sie die vorgenannten Mindestangaben enthalten. Zusätzlich kann eine QSL-Karte auch weitere Informationen enthalten, beispielsweise zu verwendeten Transceivern oder Antennen. Häufig finden sich auch Hinweise auf Amateurfunkvereinigungen, denen der Funkamateur angehört. Eine Unterschrift der Karte ist seit einigen Jahren nicht mehr notwendig.
 
 <indepth>
-Es gibt tausende unterschiedliche *Amateurfunk-Diplome* und andere Auszeichnungen, die meistens von Amateurfunkverbänden wie dem DARC herausgegeben werden. Beispielsweise gibt es Diplome dafür, dass eine bestimmte Anzahl unterschiedlicher Länder oder Inseln kontaktiert wurden oder Funkverbindungen mit einer bestimmten Anzahl an Mitgliedern unterschiedlicher Ortsverbände des DARC stattgefunden haben. Es gibt auch Kurzzeitdiplome zu besonderen Anlässen.
+Es gibt tausende unterschiedliche *Amateurfunk-Diplome* und andere Auszeichnungen, die meistens von Amateurfunkverbänden herausgegeben werden. Beispielsweise gibt es Diplome dafür, dass eine bestimmte Anzahl unterschiedlicher Länder oder Inseln oder Berggipfeln kontaktiert wurden oder Funkverbindungen mit allen Kantonen stattgefunden haben. Es gibt auch Kurzzeitdiplome zu besonderen Anlässen.
 
 Eine bekannte Auszeichnung ist der *DX Century Club* des US-amerikanischen Amateurfunkverbands, der American Radio Relay League (ARRL). Hier wird der Nachweis von Verbindungen mit 100 unterschiedlichen Ländern der Erde verlangt.
 
@@ -36,16 +36,18 @@ Eine bekannte Auszeichnung ist der *DX Century Club* des US-amerikanischen Amate
 
 Um eine QSL-Karte per Post an den jeweiligen Funkpartner übersenden zu können, benötigt man dessen Anschrift. Von vielen Funkamateuren aus der ganzen Welt kann man die Anschrift in der *internationalen Amateurfunk-Rufzeichenliste (Callbook)* finden, die von Amateurfunkverbänden auf Datenträger und online im Internet zur Verfügung gestellt wird.
 
+Eine ziemlich vollständige "Rufzeichenliste" findet man auf der Webseite [QRZ.COM](https://www.qrz.com/).
+
 <tip>
-Da der Versand per Post auf Dauer sehr kostspielig ist, betreiben Amateurfunkverbände ein eigenes weltweites Verteilsystem für QSL-Karten, die sogenannte *QSL-Vermittlung*. Als Mitglied eines teilnehmenden Amateurfunkverbandes kann man seine QSL-Karten über das Vermittlungsbüro - international "Bureau" genannt - versenden und empfangen. Die Vermittlungsbüros der Amateurfunkverbände tauschen die QSL-Karten untereinander aus. In Deutschland nimmt der DARC für seine Mitglieder an der weltweiten QSL-Vermittlung teil. Zu versendende Karten werden vom QSL-Manager des Ortsverbands eingesammelt und empfangene Karten an die Mitglieder verteilt.
+Da der Versand per Post auf Dauer sehr kostspielig ist, betreiben Amateurfunkverbände ein eigenes weltweites Verteilsystem für QSL-Karten, die sogenannte *QSL-Vermittlung*. Als Mitglied eines teilnehmenden Amateurfunkverbandes kann man seine QSL-Karten über das Vermittlungsbüro - international "Bureau" genannt - versenden und empfangen. Die Vermittlungsbüros der Amateurfunkverbände tauschen die QSL-Karten untereinander aus. In der Schweiz nimmt der [USKA QSL-Service ](https://uska.ch/de/mitglieder/services/qsl-service/) für seine Mitglieder an der weltweiten QSL-Vermittlung teil. Zu versendende Karten werden vom QSL-Manager der USKA entgegengenommen; empfangene Karten an die Mitglieder per Post zugestellt.
 
-Besonders komfortabel ist der Versand von QSL-Karten über den *DARC QSL-Service*. Dort kann man einfach Auszüge aus einem elektronischen Logbuch hochladen. Dann werden vollautomatisch QSL-Karten für jede Verbindung gedruckt und direkt an die QSL-Vermittlung übergeben. Das Bildmotiv kann selbst gestaltet und jederzeit getauscht werden. Für Mitglieder des DARC ist dieser Service deutlich vergünstigt.
+%Besonders komfortabel ist der Versand von QSL-Karten über den *DARC QSL-Service*. Dort kann man einfach %Auszüge aus einem elektronischen Logbuch hochladen. Dann werden vollautomatisch QSL-Karten für jede %Verbindung gedruckt und direkt an die QSL-Vermittlung übergeben. Das Bildmotiv kann selbst gestaltet und %jederzeit getauscht werden. Für Mitglieder des DARC ist dieser Service deutlich vergünstigt.
 
-[Jetzt Mitglied im DARC werden!](https://50ohm.de/mw)
+[Jetzt Mitglied der USKA werden!](https://uska.ch/de/uska-beitreten/)
 </tip>
 
 <indepth>
-Manchmal sieht man auch Rufzeichen, die mit DE beginnen. Diese werden nicht von der Bundesnetzagentur vergeben.  Es handelt sich dabei um *Hörerkennzeichen*, die der DARC nach Prüfung einiger Grundkenntnisse an Mitglieder vergibt. Mit diesen Rufzeichen kann man nicht am Sendebetrieb teilnehmen. Sie werden aber von Kurzwellenhörern genutzt, sogenannten SWLs (vom englischen "short wave listener"), die bei Funkverbindungen zuhören. SWLs können eine mitgehörte Verbindung ebenfalls per QSL-Karte bestätigen, die sie an beide Beteiligten einer Funkverbindung senden.
+Manchmal sieht man auch Rufzeichen, die mit HE beginnen. Diese werden nicht vom BAKOM vergeben.  Es handelt sich dabei um *Empfangsrufzeichen*, die die USKA an Mitglieder vergibt. Mit diesen Rufzeichen kann man nicht am Sendebetrieb teilnehmen. Sie werden aber von Kurzwellenhörern genutzt, sogenannten SWLs (vom englischen "short wave listener"), die bei Funkverbindungen zuhören. SWLs können eine mitgehörte Verbindung ebenfalls per QSL-Karte bestätigen, die sie an beide Beteiligten einer Funkverbindung senden.
 </indepth>
 
 Manche Funkamateure bearbeiten ihre QSL-Karten nicht selbst, sondern lassen sich durch einen sogenannten *QSL-Manager* vertreten. Dieser übernimmt dann den Versand und den Empfang der QSL-Karten. Lässt sich eine Station beispielsweise von K8PYD vertreten, dann spricht man von "QSL via K8PYD". QSL-Karten sind dann nicht an den Funkamateur selbst, sondern an K8PYD zu senden.
@@ -66,9 +68,9 @@ Genauso wie beim Logbuch, sollten alle Zeitangaben auf QSL-Karten stets in UTC e
 Auf einer QSL-Karte sollte eine möglichst *präzise Uhrzeit* eingetragen werden, da für viele Diplome eine eingereichte QSL-Karten nicht anerkannt wird, wenn die angegebene Uhrzeit vom Logbuch des Antragstellers um mehrere Minuten abweicht.
 </attention>
 
-[question:BG106]
-[question:BG107]
-[question:BG108]
+%[question:BG106]
+%[question:BG107]
+%[question:BG108]
 
 <margin>
 [photo:12:n_qsl_karten_vorderseite:Gemeinsame QSL-Karte von DL4EAX und DM4EAX (Vorderseite)]
