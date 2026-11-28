@@ -48,6 +48,7 @@ Da der Versand per Post auf Dauer sehr kostspielig ist, betreiben Amateurfunkver
 
 <indepth>
 Manchmal sieht man auch Rufzeichen, die mit HE beginnen. Diese werden nicht vom BAKOM vergeben.  Es handelt sich dabei um *Empfangsrufzeichen*, die die USKA an Mitglieder vergibt. Mit diesen Rufzeichen kann man nicht am Sendebetrieb teilnehmen. Sie werden aber von Kurzwellenhörern genutzt, sogenannten SWLs (vom englischen "short wave listener"), die bei Funkverbindungen zuhören. SWLs können eine mitgehörte Verbindung ebenfalls per QSL-Karte bestätigen, die sie an beide Beteiligten einer Funkverbindung senden.
+Ein Tätigkeit als "SWL" ist eine gute Gelegenheit für Einsteiger, sich mit dem praktischen Betrieb des Amateurfunks vertraut zu machen. Es braucht dazu keine Prüfung! Und bei Verwendung eines der zahlreich im Internet verfügbaren "Software Defined Radios" (SDR) nicht einmal eigene Hardware. Alle weiteren Informationen zur Erlangung eines HE-Empfangsrufzeichens findest Du hier [Einstieg als SWL](https://uska.ch/de/funkamateure/betrieb/swl/).
 </indepth>
 
 Manche Funkamateure bearbeiten ihre QSL-Karten nicht selbst, sondern lassen sich durch einen sogenannten *QSL-Manager* vertreten. Dieser übernimmt dann den Versand und den Empfang der QSL-Karten. Lässt sich eine Station beispielsweise von K8PYD vertreten, dann spricht man von "QSL via K8PYD". QSL-Karten sind dann nicht an den Funkamateur selbst, sondern an K8PYD zu senden.
