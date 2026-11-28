@@ -1,4 +1,5 @@
 %ARK: Grundhelvetisierung und Fragenabgleich durchgeführt 
+%ARK: Allenfalls noch Fotos zu helvetisieren 
 
 <left>
 * Nachweis darüber, dass eine Funkverbindung tatsächlich stattgefunden hat
@@ -73,7 +74,7 @@ Eine QSL-Karte sollte mindestens folgende Angaben enthalten:
 
 ## Short Wave Listener (SWL)
 
-* Rufzeichen mit Präfix HE
+* Rufzeichen mit Präfix HE9
 * werden nicht vom BAKOM, sondern von der USKA vergeben
 * sogenannte *Empfangsrufzeichen* (short wave listener)
 
