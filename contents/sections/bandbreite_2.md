@@ -60,5 +60,5 @@ Für eine gegebene Emissionsklasse die Breite des Frequenzbandes, die gerade aus
 
 Das vollständige, sehr umfangreiche Dokument **"Classification of emissions and necessary bandwidths"** befindet sich hier: [RR2016-Vol-II_App1_E.pdf](https://www.itu.int/en/ITU-R/terrestrial/workshops/WRS-16/Documents/RR2016-Vol-II_App1_E.pdf).
 
-Für die Amateurfunkprüfung genügt der auf der Webseite dargestellte Stoff. 
+Für die Amateurfunkprüfung genügt der auf der Webseite links dargestellte Stoff ohne die Vertiefung. 
 </indepth>
