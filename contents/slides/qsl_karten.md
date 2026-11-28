@@ -1,3 +1,5 @@
+%ARK: Grundhelvetisierung und Fragenabgleich durchgeführt 
+
 <left>
 * Nachweis darüber, dass eine Funkverbindung tatsächlich stattgefunden hat
 * Dienen als Beleg bei der Beantragung von Amateurfunk-Diplomen
@@ -54,33 +56,33 @@ Eine QSL-Karte sollte mindestens folgende Angaben enthalten:
 * Über teilnehmende Amateurfunkverbände in den Ländern
 * via Vermittlungsbüro - international "Bureau"
 * Weltweites alternatives Postnetz
-* In Deutschland bietet das der DARC e. V. für Mitglieder kostenlos an
+* In der Schweiz bietet das die USKA für Mitglieder kostenlos an
 
 <note>
 * Austausch von QSL-Karten zwischen den Managern findet oftmals auf Veranstaltungen statt
 * Es gibt abenteuerliche Wege, wie die Karten zugestellt werden
 </note>
 
----
+ %---
 
-* DARC QSL-Service: automatischer Druck und Versand aus dem hochgeladenen elektronischen Logbuch
-* Bildmotiv frei wählbar und jederzeit änderbar
-* Für DARC-Mitglieder deutlich vergünstigt
+%* DARC QSL-Service: automatischer Druck und Versand aus dem hochgeladenen elektronischen Logbuch
+%* Bildmotiv frei wählbar und jederzeit änderbar
+%* Für DARC-Mitglieder deutlich vergünstigt
 
 ---
 
 ## Short Wave Listener (SWL)
 
-* Rufzeichen mit Präfix DE
-* werden nicht von der Bundesnetzagentur, sondern vom DARC vergeben
-* sogenannte *Hörerkennzeichen* (short wave listener)
+* Rufzeichen mit Präfix HE
+* werden nicht vom BAKOM, sondern von der USKA vergeben
+* sogenannte *Empfangsrufzeichen* (short wave listener)
 
 ---
 
 ## Callbooks
 
 * Adressen in internationalen Amateurfunk-Rufzeichenlisten (Callbook)
-* Oder im Internet
+* Oder im Internet, QRZ.COM
 * Es gibt "QSL-Manager", die für andere Stationen den Versand übernehmen
   * QSL-Manager kommen oft bei DX-Peditionen zum Einsatz
   * Im via-Feld der QSL-Karte eintragen und die eigene Karte über diesen QSL-Manager schicken
@@ -95,7 +97,7 @@ Eine QSL-Karte sollte mindestens folgende Angaben enthalten:
 ## Elektronische QSL-Karten
 
 * Papierlose Alternativen
-  * Bekannt: eQSL, LoTW
+  * Bekannt: eQSL, LoTW, QRZ
 * Elektronische Logbücher lassen sich hochladen
 * Nur wenige Plattformen werden für Diplome anerkannt
 
@@ -115,11 +117,11 @@ Eine QSL-Karte sollte mindestens folgende Angaben enthalten:
 * Manche Diplome erkennen die QSL-Karte nicht an, wenn die Uhrzeit um mehrere Minuten vom Logbuch des Antragstellers abweicht
 </note>
 
----
-[question:BG106]
+%---
+%[question:BG106]
 
----
-[question:BG107]
+%---
+%[question:BG107]
 
----
-[question:BG108]
+%---
+%[question:BG108]
